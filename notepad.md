@@ -59,11 +59,10 @@
 - **MART_SHELF:** Impassable.
 - **PC:** Impassable. Interactable from an adjacent tile.
 - **PILLAR:** Impassable.
-- **ROCK:** Impassable object. Requires STRENGTH to move/remove.
+- **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 - **STAIRCASE:** A two-way warp tile.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
-- **WALL:** Impassable.
 - **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
 - **WATER:** Impassable without SURF.
 - **WHIRLPOOL:** Impassable.
@@ -480,7 +479,6 @@
 
 ## Tile Mechanics Update
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
-- **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 
 # Phone Call Log
 - ALAN (SCHOOLBOY) called. He has an item for me on ROUTE 36.
@@ -489,18 +487,6 @@
 - **Hypothesis 1:** Professor Elm will explain the mysterious warp from Cianwood.
   - **Test:** Spoke to Professor Elm in his lab.
   - **Result:** His dialogue was generic and did not mention the event.
-  - **Conclusion:** Hypothesis is FALSE.
-
-# New Bark Town Warp Event Log
-- **Hypothesis 1:** Professor Elm will explain the mysterious warp from Cianwood.
-  - **Test:** Spoke to Professor Elm in his lab.
-  - **Result:** His dialogue was generic and did not mention the event.
-  - **Conclusion:** Hypothesis is FALSE.
-
-# New Bark Town Warp Event Log (Update)
-- **Hypothesis 2:** My Mom will explain the mysterious warp from Cianwood.
-  - **Test:** Spoke to Mom in my house.
-  - **Result:** Her dialogue was generic and did not mention the event.
   - **Conclusion:** Hypothesis is FALSE.
 
 # Phone Call Quests
