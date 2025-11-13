@@ -69,7 +69,7 @@
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
 - **WATER:** Impassable without SURF.
-- **WHIRLPOOL:** Assumption: The Whirlpool at (22, 12) is impassable without a specific HM. (Previous confirmation of traversability was a hallucination and is FALSE).
+- **WHIRLPOOL:** WHIRLPOOL: Impassable. (Confirmed by attempting to move onto it at (22, 12) on Route 41).
 
 # Tool & Agent Development Log
 
