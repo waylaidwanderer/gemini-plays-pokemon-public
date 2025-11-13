@@ -520,3 +520,7 @@
 # Self-Assessment Action Items (Turn 39991)
 - **Task (From Overwatch):** Fix the `plan_next_exploration_step` tool. It is currently broken and needs to be fixed or deleted.
 - **Task (From Overwatch):** Proactively test and document new tile types encountered in Azalea Town (e.g., ROOF, CHIMNEY, FENCE, WEIRD_TREE).
+
+# Procedural Rules (From Overwatch Critique)
+- **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
+- **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
