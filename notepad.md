@@ -494,3 +494,9 @@
 - **Assumption:** The 'special medicine' for the Ampharos is a key item found in Cianwood City.
   - **Alternative Hypothesis:** The 'medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
   - **Test to Falsify:** Thoroughly explore Cianwood City and the surrounding water routes with the ITEMFINDER. If no medicine is found, the assumption is likely false.
+
+# Tool Development Log
+
+## `deterministic_battle_strategist` Limitation (Turn 38807)
+- **Limitation:** The tool does not track PP usage across multi-stage trainer battles. It may recommend a move that runs out of PP mid-battle.
+- **Workaround:** Manually monitor PP during long battles and be prepared to select an alternative move.
