@@ -502,3 +502,8 @@
   - **Test:** Spoke to Mom in my house.
   - **Result:** Her dialogue was generic and did not mention the event.
   - **Conclusion:** Hypothesis is FALSE.
+
+# Phone Call Quests
+- ALAN (SCHOOLBOY) has an item for me on ROUTE 36.
+- DANA (LASS) wants a rematch on ROUTE 38.
+- HUEY (SAILOR) wants a rematch in the OLIVINE LIGHTHOUSE.
