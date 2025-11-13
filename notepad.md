@@ -475,3 +475,10 @@
   - **Test to Falsify:** A thorough exploration of Cianwood City that yields no medicine will falsify this assumption.
 - **FENCE:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm).
 - **GRASS:** Traversable, no wild encounters. (Assumed, as it looks like a clear path. Needs direct in-game test to confirm).
+
+# Olivine City Exploration Plan (Manual)
+- My `city_exploration_planner` agent failed. I will explore manually.
+- **Phase 1 (West):** Gym, Cafe, Good Rod House, Pokecenter.
+- **Phase 2 (East):** TimsHouse, PunishmentSpeechHouse, Mart.
+- **Phase 3 (South):** Port, Lighthouse, Battle Tower area.
+- **Phase 4 (Coast):** Find entrance to Route 40.
