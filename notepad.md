@@ -47,7 +47,7 @@
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 
 ## 5. Tile Mechanics
-- **BOOKSHELF:** Impassable. (Assumed, as pathfinder cannot route through it. Needs direct in-game test to confirm).
+- **BOOKSHELF:** Impassable. (Confirmed by failed movement attempt at (0, 2) in Cianwood Pharmacy).
 - **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
 - **COUNTER:** Impassable.
 - **DOOR:** A two-way warp tile.
