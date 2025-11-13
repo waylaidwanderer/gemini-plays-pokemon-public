@@ -469,26 +469,13 @@
 # Cianwood City Log (Update)
 - **Rocker's Stolen Pokémon:** Received SHUCKIE from the Rocker in ManiasHouse for safekeeping. His *other* Pokémon was stolen. The quest is to investigate the theft, not to get a specific Pokémon back for him.
 
-# Cianwood City Rock Puzzle Log
-- **Hypothesis 1 (FALSIFIED):** A simple STRENGTH push will move the rocks.
-  - **Test 1:** Used STRENGTH on rock at (4, 25) from below.
-  - **Test 2:** Used STRENGTH on rock at (5, 29) from the left.
-  - **Test 3:** Used STRENGTH on rock at (10, 27) from below.
-  - **Test 4:** Used STRENGTH on rock at (10, 27) from the left.
-  - **Result:** The confirmation text 'Ignis can move boulders' appears every time, but the game state confirms the rocks do NOT actually move. This is a generic message, not a confirmation of success.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 2:** The rocks must be pushed in a specific sequence, or only one specific rock is the 'key' to start the puzzle.
-  - **Test Plan:** I will re-attempt to push the rock at (4, 25) from below, as it was the first one I encountered. If that fails, I will systematically try pushing each rock from every accessible direction.
-  - **Test 4:** Used STRENGTH on rock at (10, 27) from the left.
-  - **Result:** The confirmation text 'Ignis can move boulders' appears every time, but the game state confirms the rocks do NOT actually move. This is a generic message, not a confirmation of success.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 2:** The rocks must be pushed in a specific sequence, or only one specific rock is the 'key' to start the puzzle.
-  - **Test Plan:** I will re-attempt to push the rock at (4, 25) from below, as it was the first one I encountered. If that fails, I will systematically try pushing each rock from every accessible direction.
-  - **Conclusion:** Hypothesis CONFIRMED.
-- **Hypothesis 2:** Rocks can be pushed sideways.
-  - **Test:** Used STRENGTH on rock at (5, 29) from the left.
-  - **Result:** Rock was removed.
-  - **Conclusion:** Hypothesis CONFIRMED.
+# Cianwood City Rock Puzzle Log (Reset)
+- **Observation:** Four rocks are present at (4, 19), (4, 25), (5, 29), and (10, 27). Using STRENGTH on them displays the message "Ignis can move boulders" but the rocks do not move. This indicates a puzzle, not a simple strength check.
+- **Hypothesis 1 (Systematic Push):** One of the rocks is the 'key' and must be pushed from a specific direction to start the puzzle or be removed.
+- **Test Plan:** Systematically attempt to use STRENGTH on one rock from all accessible adjacent tiles. Starting with the rock at (4, 25).
+  - Step 1: Attempt push from below (4, 26).
+  - Step 2: Attempt push from left (3, 25).
+  - Step 3: Attempt push from right (5, 25).
 
 ## Agent/Tool Development To-Do
 - Define `reality_check_agent` to prevent hallucination loops.
