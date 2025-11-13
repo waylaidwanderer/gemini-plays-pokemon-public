@@ -421,62 +421,10 @@
 # Tool Maintenance Log (Turn 39122)
 - **Bug Fix:** Updated `path_and_execute_v3` and `find_reachable_unseen_tiles` to correctly treat WHIRLPOOL tiles as impassable. This resolves a critical pathfinding conflict.
 
-# Available Tools & Agents
-
-## Tools
-- `notepad_edit`
-- `run_code`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `define_tool`
-- `delete_tool`
-- `select_battle_option`
-- `deterministic_battle_strategist`
-- `path_and_execute_v3`
-- `pokemon_nicknamer`
-- `menu_navigator`
-- `plan_next_exploration_step`
-
-## Agent Management
-- `define_agent`
-- `delete_agent`
-
-## Agents
-- `quest_progression_advisor`
-- `city_exploration_planner`
-- `world_navigator_agent`
-
 # New Hypothesis (Post-Cianwood Arrival)
 - **Assumption:** The 'special medicine' for the Ampharos is a key item I will find or be given in Cianwood City.
   - **Alternative Hypothesis:** The 'medicine' might not be an item. It could be a person (like a doctor), a specific Pokémon with a healing ability, or a key event that needs to be triggered (e.g., defeating the Cianwood Gym Leader).
   - **Test to Falsify:** A full exploration of Cianwood City (all buildings, all NPCs) that yields no 'medicine' item will weaken the initial assumption. The next logical test would be to challenge the Cianwood Gym.
-
-# Available Tools & Agents
-
-## Tools
-- `notepad_edit`
-- `run_code`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `define_tool`
-- `delete_tool`
-- `select_battle_option`
-- `deterministic_battle_strategist`
-- `path_and_execute_v3`
-- `pokemon_nicknamer`
-- `menu_navigator`
-- `plan_next_exploration_step`
-
-## Agent Management
-- `define_agent`
-- `delete_agent`
-
-## Agents
-- `quest_progression_advisor`
-- `city_exploration_planner`
-- `world_navigator_agent`
 
 # Maintenance & Lessons Learned (Turn 39210)
 
