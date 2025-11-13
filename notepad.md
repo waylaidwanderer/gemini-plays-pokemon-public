@@ -481,3 +481,6 @@
 ## Tile Mechanics Update
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
+
+# Phone Call Log
+- ALAN (SCHOOLBOY) called. He has an item for me on ROUTE 36.
