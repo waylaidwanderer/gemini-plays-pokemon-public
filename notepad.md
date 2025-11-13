@@ -4,7 +4,7 @@
 
 ### Current Status: In Azalea Gym
 - **Objective:** Challenge the Azalea Gym to find more clues about Team Rocket.
-- **Current Plan:** Hypothesis that trainers are switches is FALSE. Hypothesis that the statues are switches is also FALSE; they are just signs. New Hypothesis: The puzzle is a maze, and the trainers are fixed obstacles. The spider platforms are the key to crossing. Plan: Navigate to the right-hand side of the gym and test the platform at (8, 5).
+- **Current Plan:** Hypothesis 1 (Trainers as switches) -> FALSE. Hypothesis 2 (Statues as switches) -> FALSE. Hypothesis 3 (Platforms as manual switches) -> FALSE. New Hypothesis: All trainers must be defeated to activate the platforms or open the path to Bugsy. Plan: Path to (8, 9) to challenge the Bug Catcher at (8, 8).
 
 ### Phone Call Quests
 - **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
