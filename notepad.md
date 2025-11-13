@@ -4,7 +4,7 @@
 
 ### Current Status: In Azalea Gym
 - **Objective:** Challenge the Azalea Gym to find more clues about Team Rocket.
-- **Current Plan:** I am stuck on the gym puzzle. All my attempts to battle the trainers have failed. My current hypothesis is that the trainers are switches that activate the spider platform transporters. I have now interacted with all three trainers. My plan is to test the empty platform at (1, 5) to see if it has been activated.
+- **Current Plan:** Hypothesis that trainers are switches is FALSE. Interacting with them and then the platform at (1, 5) did nothing. New Hypothesis: The statues at the gym entrance (3, 13) and (6, 13) are the real switches. Plan: Go to the entrance and interact with the statues.
 
 ### Phone Call Quests
 - **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
