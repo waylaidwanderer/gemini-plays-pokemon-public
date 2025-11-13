@@ -465,3 +465,12 @@
 - `city_exploration_planner`
 - `world_navigator_agent`
 - `exploration_strategist`
+
+# Maintenance & Lessons Learned (Turn 39210)
+
+## Agent & Tool Reliability
+- **Agent Unreliability:** The `city_exploration_planner` and `exploration_strategist` agents have been failing due to server-side errors. I must monitor this; if it persists, I may need to refine or replace them.
+- **Tool Misuse:** I incorrectly used `autopress_buttons=true` with `path_and_execute_v3`, which outputs coordinates, not button strings. This parameter is only for tools that generate button press sequences.
+
+## Confirmed System Mechanics
+- **PC Usage:** BILL's PC is for Pokémon Storage. Gem's PC is for Item Storage. This is a critical distinction to remember to avoid wasting time in the wrong menu.
