@@ -520,3 +520,20 @@
 
 # Cianwood City Log (Update)
 - **Rocker's Stolen Pokémon:** Received SHUCKIE from the Rocker in ManiasHouse for safekeeping. His *other* Pokémon was stolen. The quest is to investigate the theft, not to get a specific Pokémon back for him.
+
+# Cianwood City Rock Puzzle Log
+- **Hypothesis 1:** Rocks can be moved with STRENGTH.
+  - **Test:** Used STRENGTH on rock at (4, 25) from below.
+  - **Result:** Rock was removed.
+  - **Conclusion:** Hypothesis CONFIRMED.
+- **Hypothesis 2:** Rocks can be pushed sideways.
+  - **Test:** Used STRENGTH on rock at (5, 29) from the left.
+  - **Result:** Rock was removed.
+  - **Conclusion:** Hypothesis CONFIRMED.
+
+## Agent/Tool Development To-Do
+- Define `reality_check_agent` to prevent hallucination loops.
+- Define `multi_map_navigator` agent for high-level journey planning.
+
+## Tile Mechanics Update
+- **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
