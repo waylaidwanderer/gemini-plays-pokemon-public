@@ -528,3 +528,5 @@
 - **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
 - **GRASS:** Traversable. (Confirmed in Azalea Gym).
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
+- **GRASS:** Traversable. (Confirmed in Azalea Gym).
+- **WALL:** Impassable. (Confirmed in Azalea Gym).
