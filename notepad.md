@@ -2,9 +2,12 @@
 
 ## 1. Active Quests & Current Plan
 
-### Current Status: In Azalea Gym
-- **Objective:** Challenge the Azalea Gym to find more clues about Team Rocket.
-- **Current Plan:** Hypothesis 1 (Trainers as switches) -> FALSE. Hypothesis 2 (Statues as switches) -> FALSE. Hypothesis 3 (Platforms as manual switches) -> FALSE. New Hypothesis: All trainers must be defeated to activate the platforms or open the path to Bugsy. Plan: Path to (8, 9) to challenge the Bug Catcher at (8, 8).
+### Azalea Gym (SOLVED)
+- **Realization:** I already have the Hive Badge. My presence here was based on a massive hallucination. The puzzle was a simple maze, and all trainers, including Bugsy, have been defeated.
+
+### Current Status: Leaving Azalea Town
+- **Objective:** Get the SECRETPOTION for the sick Ampharos in Olivine Lighthouse.
+- **Current Plan:** Exit the Azalea Gym and travel to Olivine City to investigate the Lighthouse.
 
 ### Phone Call Quests
 - **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
