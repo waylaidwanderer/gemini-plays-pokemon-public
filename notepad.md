@@ -482,3 +482,4 @@
 # Self-Assessment Action Items (Turn 39295)
 - **Task:** Test unverified tile types (BOOKSHELF, WINDOW, TOWN_MAP, TV, RADIO) at the next opportunity to confirm their traversability.
 - **Agent Idea:** `reality_check_agent` - could take my `thoughts` and the `game_state` to flag discrepancies before I act, preventing hallucination loops.
+- **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
