@@ -483,3 +483,17 @@
 - **Phase 2 (East):** TimsHouse, PunishmentSpeechHouse, Mart.
 - **Phase 3 (South):** Port, Lighthouse, Battle Tower area.
 - **Phase 4 (Coast):** Find entrance to Route 40.
+
+# Future Development & Strategic Planning
+
+## Agent/Tool Development Ideas
+- **`multi_map_navigator` Agent:** Create an agent that takes a high-level destination (e.g., 'Olivine City') and generates a sequence of sub-goals for each map transition (e.g., 'Path to Route 35 Gate', 'Cross National Park', etc.). This would automate high-level journey planning.
+- **`find_reachable_unseen_tiles` Tool:** Create a tool to parse the map XML, find all unseen tiles adjacent to walkable areas, and run a pathfinding algorithm to determine which are *actually* reachable from the player's current position. This will directly address the persistent 'Potentially Reachable Unseen Tiles' system alert and make exploration much more efficient.
+
+## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
+- **Assumption:** Cianwood City is located at the southern end of Route 40.
+  - **Alternative Hypothesis:** Route 40 could be a dead end or lead to a different area entirely. The path to Cianwood might be from another, undiscovered water route.
+  - **Test to Falsify:** Continue exploring the full extent of Route 40. If it does not lead to Cianwood City, the assumption is false.
+- **Assumption:** The 'special medicine' for the Ampharos is a key item found in Cianwood City.
+  - **Alternative Hypothesis:** The 'medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
+  - **Test to Falsify:** Thoroughly explore Cianwood City and the surrounding water routes with the ITEMFINDER. If no medicine is found, the assumption is likely false.
