@@ -84,24 +84,8 @@
 <details>
 <summary>Click to expand full game log</summary>
 
-# Goldenrod Underground Switch Room Puzzle Log (UNSOLVED - DEAD END)
-- **Goal:** Find a switch in the 'Switch Room' to open the locked door at (18, 6) in the main underground.
-- **Hypothesis 1:** The decorative objects on the western wall are switches.
-  - **Test:** Attempted to interact with the object at (0, 22) from the tile below it (0, 23), facing up.
-  - **Result:** No interaction occurred. The object is not in the map's background object list.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 2:** The box-like objects with red buttons are switches.
-  - **Test:** Attempted to interact with the object at (3, 24) from the adjacent tile (2, 24).
-  - **Result:** No interaction occurred.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 3:** There is a hidden floor switch or trigger.
-  - **Test:** Systematically walked over every single reachable tile in both the eastern and western corridors of the Switch Room (accessed via two separate entrances).
-  - **Result:** No event was triggered.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Final Conclusion:** The 'Switch Room' is a red herring. It contains no switches or mechanisms to open the locked door. The solution must be elsewhere.
-
-# Gym Information
-- **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
+- **Goldenrod Underground Switch Room Puzzle (UNSOLVED - DEAD END):** Concluded the 'Switch Room' is a red herring; the solution to the locked door at (18, 6) is elsewhere.
+- **Goldenrod Gym:** Normal-type.
 
 # Key Items
 - BICYCLE: Received from the Goldenrod Bike Shop owner. Allows for faster travel.
