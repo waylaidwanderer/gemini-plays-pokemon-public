@@ -3,8 +3,8 @@
 ## 1. Active Quests & Current Plan
 
 ### Current Status: Unblocked - Ready for Exploration
-- **Objective:** I have successfully taught HM03 SURF to Scylla the Krabby.
-- **Current Plan:** My immediate priority is to travel from Goldenrod City to Olivine City. The route is north through Route 35, west through the National Park, Route 36, Route 37, Route 38, and Route 39. Once in Olivine, I will use SURF to travel west to Cianwood City.
+- **Objective:** Find Cianwood City.
+- **Current Plan:** I am currently exploring Route 41, which is a large water route. My current strategy is to systematically explore the reachable unseen areas to find the path forward.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
