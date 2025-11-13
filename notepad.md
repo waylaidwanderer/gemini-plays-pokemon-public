@@ -421,11 +421,11 @@
 # Tool Maintenance Log (Turn 39122)
 - **Bug Fix:** Updated `path_and_execute_v3` and `find_reachable_unseen_tiles` to correctly treat WHIRLPOOL tiles as impassable. This resolves a critical pathfinding conflict.
 
-# Available Tools List
+# Available Tools & Agents
+
+## Tools
 - `notepad_edit`
 - `run_code`
-- `define_agent`
-- `delete_agent`
 - `define_map_marker`
 - `delete_map_marker`
 - `stun_npc`
@@ -437,6 +437,12 @@
 - `path_and_execute_v3`
 - `pokemon_nicknamer`
 - `menu_navigator`
+
+## Agent Management
+- `define_agent`
+- `delete_agent`
+
+## Agents
 - `quest_progression_advisor`
 - `city_exploration_planner`
 - `world_navigator_agent`
@@ -447,11 +453,11 @@
   - **Alternative Hypothesis:** The 'medicine' might not be an item. It could be a person (like a doctor), a specific Pokémon with a healing ability, or a key event that needs to be triggered (e.g., defeating the Cianwood Gym Leader).
   - **Test to Falsify:** A full exploration of Cianwood City (all buildings, all NPCs) that yields no 'medicine' item will weaken the initial assumption. The next logical test would be to challenge the Cianwood Gym.
 
-# Available Tools List
+# Available Tools & Agents
+
+## Tools
 - `notepad_edit`
 - `run_code`
-- `define_agent`
-- `delete_agent`
 - `define_map_marker`
 - `delete_map_marker`
 - `stun_npc`
@@ -463,6 +469,12 @@
 - `path_and_execute_v3`
 - `pokemon_nicknamer`
 - `menu_navigator`
+
+## Agent Management
+- `define_agent`
+- `delete_agent`
+
+## Agents
 - `quest_progression_advisor`
 - `city_exploration_planner`
 - `world_navigator_agent`
