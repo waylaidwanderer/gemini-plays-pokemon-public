@@ -109,35 +109,6 @@
   - **Conclusion:** Hypothesis is FALSE.
 - **Final Conclusion:** The 'Switch Room' is a red herring. It contains no switches or mechanisms to open the locked door. The solution must be elsewhere.
 
-# Archive: Goldenrod City Re-Exploration Plan (Completed)
-- [x] Warp at (19, 1) - Route 35 Gate
-- [x] Warp at (29, 5) - Flower Shop
-- [x] Warp at (9, 5) - Underground Entrance (North)
-- [x] GoldenrodCityUndergroundSignNorth at (8, 6)
-- [x] GoldenrodCityFlowerShopSign at (30, 6)
-- [x] Warp at (24, 7) - Goldenrod Gym
-- [x] Warp at (15, 7) - Name Rater's House
-- [x] GoldenrodCityNameRaterSign at (12, 7)
-- [x] GoldenrodGymSign at (26, 9)
-- [x] Warp at (33, 9) - PPSpeechHouse
-- [x] Warp at (9, 13) - Magnet Train Station
-- [x] GoldenrodCityStationSign at (10, 14)
-- [x] Warp at (5, 15) - Radio Tower
-- [x] GoldenrodCityRadioTowerSign at (4, 17)
-- [x] GoldenrodCitySign at (22, 18)
-- [x] Warp at (14, 21) - Game Corner
-- [x] Warp at (31, 21) - House
-- [x] GoldenrodCityGameCornerSign at (16, 22)
-- [x] Warp at (5, 25) - Bill's Family's House
-- [x] GoldenrodDeptStoreSign at (26, 27)
-- [x] Warp at (24, 27) - Dept. Store
-- [x] GoldenrodCityPokecenterSign at (16, 27)
-- [x] Warp at (15, 27) - Pokémon Center
-- [x] Warp at (11, 29) - Underground Entrance (South)
-- [x] Warp at (29, 29) - Bike Shop
-- [x] GoldenrodCityBikeShopSign at (28, 30)
-- [x] GoldenrodCityUndergroundSignSouth at (12, 30)
-
 # Gym Information
 - **Goldenrod Gym:** Normal-type. Fighting-type moves are recommended.
 
