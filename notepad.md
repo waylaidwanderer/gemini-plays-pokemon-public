@@ -2,9 +2,9 @@
 
 ## 1. Active Quests & Current Plan
 
-### Current Status: Unblocked - Ready for Exploration
-- **Objective:** Find Cianwood City.
-- **Current Plan:** I am currently exploring Route 41, which is a large water route. My current strategy is to systematically explore the reachable unseen areas to find the path forward.
+### Current Status: Unblocked - On Foot
+- **Objective:** Travel from New Bark Town to Olivine City.
+- **Current Plan:** I am currently on Route 31, walking east. My immediate goal is to pass through Violet City. My use of FLY is currently blocked by an unknown event.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
