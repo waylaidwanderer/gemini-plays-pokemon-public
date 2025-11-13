@@ -505,3 +505,9 @@
   - **Test:** Attempted to move north from (6, 48) on Turn 39805.
   - **Result:** Movement failed.
   - **Conclusion:** Hypothesis is FALSE. The ledge is a one-way obstacle.
+
+# Tool Development Log
+
+## `plan_next_exploration_step` Bug (Turn 39903)
+- **Bug:** The tool is critically failing. Debug logs show the internal grid is populated correctly, but the BFS algorithm fails to find any neighbors, claiming they are 'Not in grid'. This is a paradoxical error.
+- **Status:** Debugging has stalled. Abandoning tool for now in favor of manual exploration. Needs a complete rewrite or a different debugging approach.
