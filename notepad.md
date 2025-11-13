@@ -156,9 +156,8 @@
   - **Alternative Hypothesis:** The event was just a cutscene, and they are not actually catchable yet, or they are in a specific, fixed location.
   - **Test to Falsify:** This is difficult to test directly. I must rely on future NPC dialogue or random encounters to confirm or deny their roaming status.
 
-# Tin Tower Progression
-- **Status:** BLOCKED.
-- **Reason:** A Sage in the WiseTriosRoom is preventing entry, stating I should refrain from entering now that the legendary beasts have been awakened. The path is physically blocked.
+# Island Exploration SOP
+- When landing on any new island or isolated piece of land, I must dismount SURF and use the ITEMFINDER on every single tile to check for hidden items before leaving.
 
 # Archive: Solved Puzzles & Lessons Learned
 
