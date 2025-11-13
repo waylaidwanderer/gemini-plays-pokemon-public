@@ -473,3 +473,5 @@
 - **Assumption:** The 'special medicine' for the sick Ampharos is a key item found in Cianwood City.
   - **Alternative Hypothesis:** The 'medicine' could be an NPC, or it could be located in a different city entirely.
   - **Test to Falsify:** A thorough exploration of Cianwood City that yields no medicine will falsify this assumption.
+- **FENCE:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm).
+- **GRASS:** Traversable, no wild encounters. (Assumed, as it looks like a clear path. Needs direct in-game test to confirm).
