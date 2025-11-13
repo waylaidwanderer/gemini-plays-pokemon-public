@@ -677,6 +677,21 @@
         "commit_message": "refactor: Remove all debug logging. The debug logs were essential for confirming that the pathfinding logic is correct and the 'No path found' error was due to a genuine in-game obstacle (a CUT_TREE), not a tool bug. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
         "timestamp": "2025-11-13T18:05:21.486Z",
         "action_counter": 39820
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose wall traversal bug. The tool generated a path through a WALL tile, indicating a critical failure in its collision detection logic. This commit adds detailed print statements to stderr to trace the BFS neighbor evaluation process, which will help identify why an impassable tile type is being incorrectly added to the path.",
+        "timestamp": "2025-11-13T19:14:08.018Z",
+        "action_counter": 39912
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose pathing failure to self. The tool failed to find a path when the start and end coordinates were the same. This commit adds detailed print statements to stderr to trace the entire execution flow, from variable initialization to queue processing, to identify the root cause of this critical failure.",
+        "timestamp": "2025-11-13T19:16:40.226Z",
+        "action_counter": 39916
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The debug logs were essential for confirming that the pathfinding logic is correct and the failure to path to self was resolved. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
+        "timestamp": "2025-11-13T19:18:39.198Z",
+        "action_counter": 39918
       }
     ]
   },
