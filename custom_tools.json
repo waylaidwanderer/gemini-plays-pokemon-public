@@ -764,35 +764,5 @@
         "action_counter": 38464
       }
     ]
-  },
-  "teach_hm_from_bag": {
-    "description": "Automates the multi-step menu navigation for teaching an HM to a Pokémon from the bag. (Currently a work in progress).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "hm_name": {
-          "type": "string"
-        },
-        "pokemon_name": {
-          "type": "string"
-        },
-        "move_to_replace": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "hm_name",
-        "pokemon_name",
-        "move_to_replace"
-      ]
-    },
-    "python_script": "import json\n# This is a placeholder script. The full implementation requires parsing screen data\n# to locate the correct HM and Pokemon in the lists, which is not yet implemented.\n# This version just opens the TM/HM pocket.\nbutton_sequence = [\n    \"Start\", \"sleep 500\",\n    \"Down\", \"sleep 100\",\n    \"Down\", \"sleep 100\",\n    \"A\", \"sleep 500\", # Select PACK\n    \"Right\", \"sleep 100\",\n    \"Right\", \"sleep 100\",\n    \"Right\", \"sleep 100\", # Go to TM/HM pocket\n    \"A\" # Select it, which opens the list\n]\nprint(json.dumps(button_sequence))",
-    "history": [
-      {
-        "commit_message": "feat: Create teach_hm_from_bag tool. This is an initial, non-functional version to satisfy the overwatch directive against deferring tool creation. It currently only opens the TM/HM pocket. Full implementation requires a method to dynamically locate the specified HM and Pokémon in their respective lists, which will be added in a future update.",
-        "timestamp": "2025-11-13T01:22:57.086Z",
-        "action_counter": 38522
-      }
-    ]
   }
 }
