@@ -515,3 +515,4 @@
 # Self-Assessment Action Items (Turn 39920)
 - **Task:** Fix the `plan_next_exploration_step` tool. It is currently failing with a 'Not in grid' error during BFS neighbor checking.
 - **Task:** Systematically test the `FLOOR_UP_WALL` tile to resolve the contradiction in my notes about its one-way traversal direction.
+- **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
