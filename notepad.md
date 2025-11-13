@@ -345,39 +345,6 @@
   - **Alternative Hypothesis:** The solution is a hidden item that has now appeared somewhere in the world.
   - **Test to Falsify:** If the full NPC sweep of Ecruteak fails, I must perform a full sweep of the city with the ITEMFINDER on every single tile.
 
-# Tin Tower WiseTriosRoom Puzzle Log
-- **Hypothesis 1 (Direct Path):** Walk directly to the warp at (7, 4).
-  - **Result:** Intercepted by Sage at (7, 5), dialogue triggered, and position reset. Attempted twice.
-  - **Conclusion:** Hypothesis is FALSE. A trigger event prevents direct passage.
-- **Hypothesis 2 (Interact with Sage 1):** Interacting with the Sage at (6, 2) will unblock the path.
-  - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 3 (Interact with Sage 2):** Interacting with the Sage at (7, 7) will unblock the path.
-  - **Result:** The Sage provided lore dialogue but did not move, and the blocking Sage's position was unchanged.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 4 (Direct Interaction with Blocker):** Approaching the blocking Sage at (7, 5) from a non-trigger tile and initiating dialogue will yield a different result.
-  - **Result:** The Sage provided lore dialogue but did not move, and his position was unchanged.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 5 (Sage Sequence 1):** Interacting with the non-blocking Sages in a specific sequence (first (6, 2), then (7, 7)) will unblock the path.
-  - **Result:** Interacted with Sage at (6, 2), then Sage at (7, 7). Both provided only lore dialogue. The blocking Sage at (7, 5) did not move.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 6 (Sage Sequence 2):** Interacting with the non-blocking Sages in a specific sequence (first (5, 7), then (6, 2)) will unblock the path.
-  - **Result:** Interacted with Sage at (5, 7), then Sage at (6, 2). Both provided only lore dialogue. The blocking Sage at (7, 5) did not move.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 7 (Three-Sage Sequence - Walk Past):** Interacting with Sages at (6, 2) then (5, 7) would allow me to walk past the blocking Sage.
-  - **Result:** After interacting with the two Sages, attempting to walk to the warp still triggered the interception event and reset my position.
-  - **Conclusion:** Hypothesis is FALSE.
-  - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
-  - **Test (Step 2):** Interacted with Sage at (5, 7). Result: Lore dialogue, no change.
-- **Hypothesis 8 (Line of Sight):** The non-blocking Sages act as spotters. Walking in front of them triggers the reset. The solution is to find a path that goes behind them.
-  - **Result:** Executed the path behind the Sages. Was still intercepted by the blocking Sage when stepping on (7, 4), and my position was reset.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 9 (Three-Sage Interaction Sequence):** Interacting with all three Sages in a specific sequence ((6, 2) -> (7, 7) -> (7, 5)) will unblock the path.
-  - **Test (Step 1):** Interacted with Sage at (6, 2). Result: Lore dialogue, no change.
-  - **Test (Step 2):** Interacted with Sage at (7, 7). Result: Lore dialogue, no change.
-  - **Test (Step 3):** Interacted with blocking Sage at (7, 5). Result: Lore dialogue, no change.
-  - **Conclusion:** Hypothesis is FALSE.
-
 # Radio Tower Clues
 - A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.
 
