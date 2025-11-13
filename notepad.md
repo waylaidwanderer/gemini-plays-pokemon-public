@@ -519,3 +519,6 @@
 
 # Self-Assessment Action Items (Turn 39503)
 - **Task:** Test the `FLOOR_UP_WALL` tile at (10, 48) on this map to confirm its one-way traversal mechanic.
+
+# Cianwood City Log (Update)
+- **Rocker's Stolen Pokémon:** Received SHUCKIE from the Rocker in ManiasHouse for safekeeping. His *other* Pokémon was stolen. The quest is to investigate the theft, not to get a specific Pokémon back for him.
