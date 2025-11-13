@@ -163,26 +163,6 @@
 # Archive: Solved Puzzles & Lessons Learned
 
 <details>
-<summary>Tin Tower Entrance Puzzle (SOLVED)</summary>
-
-- **Goal:** Find the correct path to ascend the tower.
-- **Solution:** An event in the Burned Tower (releasing the Legendary Beasts) was required to open the path.
-- **Failed Hypotheses Log:**
-  1. The ladder at (5, 3) is the way forward. (Result: Dead end).
-  2. Interacting with the Gramps provides the solution. (Result: Only lore).
-  3. Interacting with the Sage provides the solution. (Result: Only lore).
-  4. Passively observing NPC movement triggers an event. (Result: No event triggered).
-  5. Actively following the Sage triggers an event. (Result: No event triggered).
-  6. Actively following the Gramps triggers an event. (Result: No event triggered).
-  7. Replicating the Gramps' path triggers an event. (Result: Blocked by NPC, unable to test fully).
-  8. Replicating the Sage's path triggers an event. (Result: No event triggered).
-  9. NPC dialogue changes after obtaining the Fog Badge. (Result: Spoke to both Sage and Gramps. Dialogue was unchanged. Hypothesis is FALSE).
-  10. Stepping on a specific tile on the central platform is the trigger. (Result: Systematically walked over every reachable tile on the platform. No event triggered. Hypothesis is FALSE).
-  11. The small platform at (17, 15) contains a hidden item/switch. (Result: Exhaustively searched every tile and adjacent surface. No interaction found. Hypothesis is FALSE).
-
-</details>
-
-<details>
 <summary>Wade's Berries (Hypothesis Falsified)</summary>
 
 - **Assumption:** Wade on Route 31 would give me a `BITTER BERRY` for the sick Miltank after calling me.
