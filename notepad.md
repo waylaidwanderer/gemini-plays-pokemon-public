@@ -4,7 +4,13 @@
 
 ### Current Status: Unblocked - On Foot
 - **Objective:** Travel from New Bark Town to Olivine City.
-- **Current Plan:** I am currently in Violet City, walking south towards Route 32. My use of FLY is currently blocked by an unknown event.
+- **Current Plan:** I was unexpectedly warped to New Bark Town and my use of FLY is blocked. I am now walking to Olivine City. I am currently on Route 32, heading south towards Union Cave.
+
+### Phone Call Quests
+- **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
+- **DANA (LASS):** Wants a rematch on ROUTE 38.
+- **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
+- **TODD (CAMPER):** Wants a rematch on ROUTE 34.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
