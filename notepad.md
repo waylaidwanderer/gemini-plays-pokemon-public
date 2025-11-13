@@ -486,4 +486,4 @@
 - Todd called (Turn 38870) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
 
 # Route 41 Notes
-- SWIMMER♂ MATHEW mentioned the inside of WHIRL ISLANDS is 'pitch-black', implying FLASH will be needed.
+- SWIMMER♂ MATHEW (battled at (20, 46)) mentioned the inside of WHIRL ISLANDS is 'pitch-black', implying FLASH will be needed.
