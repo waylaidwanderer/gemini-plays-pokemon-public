@@ -434,3 +434,6 @@
 
 # Route 41 Notes
 - SWIMMER♂ MATHEW (battled at (20, 46)) mentioned the inside of WHIRL ISLANDS is 'pitch-black', implying FLASH will be needed.
+
+# Tool Maintenance Log (Turn 39122)
+- **Bug Fix:** Updated `path_and_execute_v3` and `find_reachable_unseen_tiles` to correctly treat WHIRLPOOL tiles as impassable. This resolves a critical pathfinding conflict.
