@@ -2,9 +2,9 @@
 
 ## 1. Active Quests & Current Plan
 
-### Current Status: Blocked - Main Quest Progression Halted
-- **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** I have discovered HM03 SURF in my inventory. My immediate priority is to teach this move to a compatible Pokémon (Scylla the Krabby) and then use it to access previously unreachable areas, such as the path to Cianwood City or Mahogany Town.
+### Current Status: Unblocked - Ready for Exploration
+- **Objective:** I have successfully taught HM03 SURF to Scylla the Krabby.
+- **Current Plan:** My immediate priority is to exit the Pokémon Center and travel to a location where I can use SURF to access a new area. The most promising path is west from Olivine City towards Cianwood City.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
