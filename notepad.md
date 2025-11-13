@@ -520,3 +520,6 @@
 - **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
 - **GRASS:** Traversable. (Confirmed in Azalea Gym).
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
+
+## Azalea Gym Mechanics
+- **Defeated Trainers as Obstacles:** Trainers in this gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
