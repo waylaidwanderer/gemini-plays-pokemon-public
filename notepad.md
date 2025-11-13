@@ -60,8 +60,8 @@
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
 - **WATER:** Impassable without SURF.
-- **BUOY:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm).
-- **BUOY:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm).
+- **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
+- **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
 
 # Tool Development Log
 
