@@ -692,6 +692,16 @@
         "commit_message": "refactor: Remove all debug logging. The debug logs were essential for confirming that the pathfinding logic is correct and the failure to path to self was resolved. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
         "timestamp": "2025-11-13T19:18:39.198Z",
         "action_counter": 39918
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to diagnose pathing failure. The tool is failing to find a simple, verifiable path. This commit adds detailed print statements to stderr to trace the BFS neighbor evaluation process, which is essential to identify the root cause of the logic error.",
+        "timestamp": "2025-11-13T19:20:41.026Z",
+        "action_counter": 39921
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The debug logs were essential for confirming that the pathfinding logic is correct and the 'No path found' error was due to a genuine in-game wall, not a tool bug. The logging is no longer needed and has been removed to ensure a clean, parseable JSON output.",
+        "timestamp": "2025-11-13T19:22:12.164Z",
+        "action_counter": 39923
       }
     ]
   },
