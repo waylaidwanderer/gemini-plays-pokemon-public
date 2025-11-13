@@ -477,3 +477,7 @@
 
 # Self-Assessment Action Items (Turn 39243)
 - **Task:** Test unverified tile types (BOOKSHELF, FENCE, FLOOR_UP_WALL) at the next opportunity to confirm their traversability.
+
+# Self-Assessment Action Items (Turn 39295)
+- **Task:** Test unverified tile types (BOOKSHELF, WINDOW, TOWN_MAP, TV, RADIO) at the next opportunity to confirm their traversability.
+- **Agent Idea:** `reality_check_agent` - could take my `thoughts` and the `game_state` to flag discrepancies before I act, preventing hallucination loops.
