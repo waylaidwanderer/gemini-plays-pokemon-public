@@ -42,10 +42,13 @@
 
 ## 5. Tile Mechanics
 - **BOOKSHELF:** Impassable. (Assumed, as pathfinder cannot route through it. Needs direct in-game test to confirm).
+- **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
 - **COUNTER:** Impassable.
 - **DOOR:** A two-way warp tile.
+- **FENCE:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm upon encounter).
 - **FLOOR:** Traversable.
 - **FLOOR_UP_WALL:** Impassable. (Observed in map data, needs in-game test to confirm).
+- **GRASS:** Traversable, no wild encounters. (Assumed, as it looks like a clear path. Needs direct in-game test to confirm upon encounter).
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
 - **LADDER:** A two-way warp tile. (Confirmed in Goldenrod Underground. Activation method: Walk onto the tile from the direction opposite you want to travel. E.g., to go 'up' a ladder, walk onto it from the tile above it by pressing Down.)
 - **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
@@ -60,8 +63,6 @@
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
 - **WATER:** Impassable without SURF.
-- **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
-- **BUOY:** Impassable. (Confirmed by attempting to move onto it on Route 40).
 
 # Tool Development Log
 
@@ -475,8 +476,6 @@
 - **Assumption:** The 'special medicine' for the sick Ampharos is a key item found in Cianwood City.
   - **Alternative Hypothesis:** The 'medicine' could be an NPC, or it could be located in a different city entirely.
   - **Test to Falsify:** A thorough exploration of Cianwood City that yields no medicine will falsify this assumption.
-- **FENCE:** Impassable. (Assumed, as it visually appears to be a barrier. Needs direct in-game test to confirm).
-- **GRASS:** Traversable, no wild encounters. (Assumed, as it looks like a clear path. Needs direct in-game test to confirm).
 
 # Olivine City Exploration Plan (Manual)
 - My `city_exploration_planner` agent failed. I will explore manually.
