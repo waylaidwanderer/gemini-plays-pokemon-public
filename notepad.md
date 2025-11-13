@@ -2,9 +2,9 @@
 
 ## 1. Active Quests & Current Plan
 
-### Current Status: Unblocked - On Foot
-- **Objective:** Travel from New Bark Town to Olivine City.
-- **Current Plan:** I was unexpectedly warped to New Bark Town and my use of FLY is blocked. I am now walking to Olivine City. I am currently on Route 32, heading south towards Union Cave.
+### Current Status: In Azalea Gym
+- **Objective:** Challenge the Azalea Gym to find more clues about Team Rocket.
+- **Current Plan:** I have entered the Azalea Gym after clearing the Slowpoke Well. I will now battle the trainers to reach the Gym Leader.
 
 ### Phone Call Quests
 - **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
@@ -14,33 +14,27 @@
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
+- **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
-- **Assumption:** The path forward is blocked by a missing key item (SURF/medicine).
-  - **Alternative Hypothesis:** The block is event-based, and the trigger is an NPC I haven't spoken to since a major world event (e.g., releasing the legendary beasts).
-  - **Test to Falsify:** My current systematic sweep of Goldenrod City is the test. If this yields no new leads, I will expand the sweep to other cities.
-- **Assumption:** The trigger for progression is an NPC I need to re-talk to.
-  - **Alternative Hypothesis:** The trigger is a hidden item that has now appeared somewhere.
-  - **Test to Falsify:** If the full NPC sweep of all cities fails, I must perform a full sweep of all cities with the ITEMFINDER on every single tile.
+- **Assumption:** Clearing the Slowpoke Well caused the Team Rocket Grunt blocking the gym to disappear.
+  - **Alternative Hypothesis:** The grunt's disappearance was triggered by something else, like talking to Kurt, or even just leaving and re-entering the town.
+- **Assumption:** The Azalea gym puzzle involves navigating the grass and battling trainers.
+  - **Alternative Hypothesis:** There might be hidden switches or a specific path through the grass that avoids battles.
 - **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
   - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
-  - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
 - **Assumption:** Cianwood City is west/southwest of Olivine, across Route 41.
   - **Alternative Hypothesis:** Route 41 could be a large, circular route that doesn't lead to Cianwood, or it might lead to a different, unexpected location first. The islands might be the main feature, not a path.
-  - **Test to Falsify:** Continue exploring Route 41 systematically. If I explore the entire reachable area and don't find a path to Cianwood, the assumption is false.
 - **Assumption:** The Whirlpool at (22, 12) is impassable without a specific HM.
   - **Alternative Hypothesis:** It might be a one-way warp, or it might be passable under certain conditions (e.g., having a specific item, or approaching from a specific direction).
-  - **Test to Falsify:** Once I'm near it, I can try to surf directly into it from all four cardinal directions. If I can't pass, the initial assumption is strengthened.
 - **Assumption:** The small islands on Route 41 are just obstacles.
   - **Alternative Hypothesis:** They could contain hidden items, trainers, or even secret entrances/warps.
-  - **Test to Falsify:** When I find land I can step on, I must dismount SURF and use the ITEMFINDER on every single tile of the island.
 
 ## 3. Critical Bugs & Lessons
-- **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions, especially after using warps. I repeatedly think I have moved when I haven't, leading to invalid actions and system warnings. I must break this cycle by verifying my position in the game state *before* every single action.
-- **Pokémon Center Hallucination Loop (CRITICAL):** During turns 37345-37355, I experienced a severe and persistent hallucination loop, believing I was on the first floor of the Pokémon Center when I was on the second. This reinforces the need to **always** verify my location from the Game State before planning any action.
+- **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
-- **Tool Trust:** I wasted significant time debugging `find_reachable_unseen_tiles` when it was working correctly. I must trust my tools' outputs and verify the in-game situation before assuming a bug.
+- **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 
 ## 4. Confirmed System Mechanics
@@ -80,7 +74,7 @@
 - **Workaround:** Manually monitor PP during long battles and be prepared to select an alternative move.
 
 ## Agent/Tool Development Ideas
-- **`exploration_strategist` Agent:** Create an agent that takes the output of `find_reachable_unseen_tiles` and suggests the most logical next exploration target (e.g., westernmost, southernmost, or one that opens up the largest new area). This would automate the decision-making part of exploration.
+- **`gym_strategist` Agent:** Create an agent that takes the map layout, trainer positions, and party composition to suggest an optimal battle order and lead Pokémon for a gym.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
