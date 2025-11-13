@@ -454,7 +454,7 @@
 - **Hypothesis:** One of the Kimono Girl performers would provide the HM for SURF after a major world event (like defeating Morty or releasing the legendary beasts).
 - **Test:** After defeating Morty, I returned to the Dance Theater and systematically re-interacted with all five Kimono Girls.
 - **Result:** All five Kimono Girls provided only their standard post-battle dialogue. No new items or information were given.
-- **Conclusion:** Hypothesis is FALSE. The HM SURF is not obtained from the Kimono Girls at this time.
+  - **Conclusion:** Hypothesis is FALSE. The HM SURF is not obtained from the Kimono Girls at this time.
 
 </details>
 
