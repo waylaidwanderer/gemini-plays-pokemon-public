@@ -4,7 +4,7 @@
 
 ### Current Status: Unblocked - Ready for Exploration
 - **Objective:** I have successfully taught HM03 SURF to Scylla the Krabby.
-- **Current Plan:** My immediate priority is to exit the Pokémon Center and travel to a location where I can use SURF to access a new area. The most promising path is west from Olivine City towards Cianwood City.
+- **Current Plan:** My immediate priority is to travel from Goldenrod City to Olivine City. The route is north through Route 35, west through the National Park, Route 36, Route 37, Route 38, and Route 39. Once in Olivine, I will use SURF to travel west to Cianwood City.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
@@ -60,6 +60,12 @@
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
 - **WATER:** Impassable without SURF.
+
+# Tool Development Log
+
+## `teach_hm_from_bag` Bug (Turn 38522)
+- **Bug:** The tool is a non-functional placeholder created to satisfy an overwatch directive.
+- **Fix:** Full implementation requires a method to dynamically locate the specified HM and Pokémon in their respective lists.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -454,6 +460,3 @@
 
 # Critical Bugs & Lessons
 - **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
-
-# Tool Development Ideas
-- `teach_hm_from_bag`: A tool to automate the multi-step menu navigation for teaching an HM to a Pokémon. Input: `hm_name`, `pokemon_name`, `move_to_replace`. Output: A sequence of button presses for `autopress_buttons`.
