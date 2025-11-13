@@ -162,6 +162,7 @@
 # Archive: Solved Puzzles & Lessons Learned
 
 <details>
+
 <summary>Wade's Berries (Hypothesis Falsified)</summary>
 
 - **Assumption:** Wade on Route 31 would give me a `BITTER BERRY` for the sick Miltank after calling me.
