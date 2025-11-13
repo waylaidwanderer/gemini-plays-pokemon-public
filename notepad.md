@@ -420,3 +420,23 @@
 
 # Tool Maintenance Log (Turn 39122)
 - **Bug Fix:** Updated `path_and_execute_v3` and `find_reachable_unseen_tiles` to correctly treat WHIRLPOOL tiles as impassable. This resolves a critical pathfinding conflict.
+
+# Available Tools List
+- `notepad_edit`
+- `run_code`
+- `define_agent`
+- `delete_agent`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `define_tool`
+- `delete_tool`
+- `select_battle_option`
+- `deterministic_battle_strategist`
+- `find_reachable_unseen_tiles`
+- `path_and_execute_v3`
+- `pokemon_nicknamer`
+- `quest_progression_advisor`
+- `city_exploration_planner`
+- `world_navigator_agent`
+- `exploration_strategist`
