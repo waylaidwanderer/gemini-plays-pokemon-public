@@ -20,9 +20,15 @@
 - **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
   - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
   - **Test to Falsify:** After exhausting city re-exploration, I must thoroughly re-explore Route 42 and Mt. Mortar.
-- **Assumption:** My `path_and_execute_v3` tool is mostly reliable.
-  - **Alternative Hypothesis:** There is a persistent bug in how it evaluates certain impassable tiles.
-  - **Test to Falsify:** The next time it generates an invalid path, I must immediately add debug logging to find the root cause.
+- **Assumption:** Cianwood City is west/southwest of Olivine, across Route 41.
+  - **Alternative Hypothesis:** Route 41 could be a large, circular route that doesn't lead to Cianwood, or it might lead to a different, unexpected location first. The islands might be the main feature, not a path.
+  - **Test to Falsify:** Continue exploring Route 41 systematically. If I explore the entire reachable area and don't find a path to Cianwood, the assumption is false.
+- **Assumption:** The Whirlpool at (22, 12) is impassable without a specific HM.
+  - **Alternative Hypothesis:** It might be a one-way warp, or it might be passable under certain conditions (e.g., having a specific item, or approaching from a specific direction).
+  - **Test to Falsify:** Once I'm near it, I can try to surf directly into it from all four cardinal directions. If I can't pass, the initial assumption is strengthened.
+- **Assumption:** The small islands on Route 41 are just obstacles.
+  - **Alternative Hypothesis:** They could contain hidden items, trainers, or even secret entrances/warps.
+  - **Test to Falsify:** When I find land I can step on, I must dismount SURF and use the ITEMFINDER on every single tile of the island.
 
 ## 3. Critical Bugs & Lessons
 - **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions, especially after using warps. I repeatedly think I have moved when I haven't, leading to invalid actions and system warnings. I must break this cycle by verifying my position in the game state *before* every single action.
@@ -63,12 +69,16 @@
 - **WARP_CARPET_LEFT:** A one-way warp tile (Activation method: Stand on the tile and press Left).
 - **WARP_CARPET_RIGHT:** A one-way warp tile (Activation method: Stand on the tile and press Right).
 - **WATER:** Impassable without SURF.
+- **WHIRLPOOL:** Untested, assumed impassable.
 
-# Tool Development Log
+# Tool & Agent Development Log
 
-## `teach_hm_from_bag` Bug (Turn 38522)
-- **Bug:** The tool is a non-functional placeholder created to satisfy an overwatch directive.
-- **Fix:** Full implementation requires a method to dynamically locate the specified HM and Pokémon in their respective lists.
+## `deterministic_battle_strategist` Limitation (Turn 38807)
+- **Limitation:** The tool does not track PP usage across multi-stage trainer battles. It may recommend a move that runs out of PP mid-battle.
+- **Workaround:** Manually monitor PP during long battles and be prepared to select an alternative move.
+
+## Agent/Tool Development Ideas
+- **`exploration_strategist` Agent:** Create an agent that takes the output of `find_reachable_unseen_tiles` and suggests the most logical next exploration target (e.g., westernmost, southernmost, or one that opens up the largest new area). This would automate the decision-making part of exploration.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -397,29 +407,6 @@
 </details>
 
 <details>
-<summary>Olivine City Exploration Plan (In Progress)</summary>
-
-- [x] OlivineGymSign at (7, 11)
-- [x] Warp at (10, 11)
-- [x] OlivineCitySign at (17, 11)
-- [x] Warp at (25, 11)
-- [x] Warp at (29, 11)
-- [x] Warp at (13, 15)
-- [x] Warp at (19, 17)
-- [x] OlivineCityMartSign at (20, 17)
-- [x] Warp at (7, 21)
-- [x] Warp at (13, 21)
-- [x] OlivineCityPokecenterSign at (14, 21)
-- [ ] OlivineCityBattleTowerSign at (3, 23)
-- [ ] OlivineCityPortSign at (20, 24)
-- [ ] Warp at (19, 27)
-- [ ] Warp at (20, 27)
-- [ ] Warp at (29, 27)
-- [ ] OlivineLighthouseSign at (30, 28)
-
-</details>
-
-<details>
 <summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified - Post-Morty)</summary>
 
 - **Hypothesis:** The Gentleman at (7, 10) would provide a reward (potentially SURF) after defeating Gym Leader Morty.
@@ -494,9 +481,3 @@
 - **Assumption:** The 'special medicine' for the Ampharos is a key item found in Cianwood City.
   - **Alternative Hypothesis:** The 'medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
   - **Test to Falsify:** Thoroughly explore Cianwood City and the surrounding water routes with the ITEMFINDER. If no medicine is found, the assumption is likely false.
-
-# Tool Development Log
-
-## `deterministic_battle_strategist` Limitation (Turn 38807)
-- **Limitation:** The tool does not track PP usage across multi-stage trainer battles. It may recommend a move that runs out of PP mid-battle.
-- **Workaround:** Manually monitor PP during long battles and be prepared to select an alternative move.
