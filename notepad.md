@@ -470,9 +470,15 @@
 - **Rocker's Stolen Pokémon:** Received SHUCKIE from the Rocker in ManiasHouse for safekeeping. His *other* Pokémon was stolen. The quest is to investigate the theft, not to get a specific Pokémon back for him.
 
 # Cianwood City Rock Puzzle Log
-- **Hypothesis 1:** Rocks can be moved with STRENGTH.
-  - **Test:** Used STRENGTH on rock at (4, 25) from below.
-  - **Result:** Rock was removed.
+- **Hypothesis 1 (FALSIFIED):** A simple STRENGTH push will move the rocks.
+  - **Test 1:** Used STRENGTH on rock at (4, 25) from below.
+  - **Test 2:** Used STRENGTH on rock at (5, 29) from the left.
+  - **Test 3:** Used STRENGTH on rock at (10, 27) from below.
+  - **Test 4:** Used STRENGTH on rock at (10, 27) from the left.
+  - **Result:** The confirmation text 'Ignis can move boulders' appears every time, but the game state confirms the rocks do NOT actually move. This is a generic message, not a confirmation of success.
+  - **Conclusion:** Hypothesis is FALSE.
+- **Hypothesis 2:** The rocks must be pushed in a specific sequence, or only one specific rock is the 'key' to start the puzzle.
+  - **Test Plan:** I will re-attempt to push the rock at (4, 25) from below, as it was the first one I encountered. If that fails, I will systematically try pushing each rock from every accessible direction.
   - **Conclusion:** Hypothesis CONFIRMED.
 - **Hypothesis 2:** Rocks can be pushed sideways.
   - **Test:** Used STRENGTH on rock at (5, 29) from the left.
