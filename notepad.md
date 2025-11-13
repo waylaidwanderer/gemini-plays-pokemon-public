@@ -481,3 +481,6 @@
 - **Assumption:** The 'special medicine' for the Ampharos is a key item found in Cianwood City.
   - **Alternative Hypothesis:** The 'medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
   - **Test to Falsify:** Thoroughly explore Cianwood City and the surrounding water routes with the ITEMFINDER. If no medicine is found, the assumption is likely false.
+
+# Goldenrod City Notes (Update)
+- Todd called (Turn 38870) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
