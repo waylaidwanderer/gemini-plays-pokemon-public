@@ -4,7 +4,7 @@
 
 ### Current Status: Blocked - Main Quest Progression Halted
 - **Primary Blockers:** I cannot get SURF or the 'special medicine' for the sick Ampharos. All main quest paths are blocked.
-- **Current Plan:** With the Goldenrod Underground proving to be a dead end, my new lead is the 'MEDICINE BOX' on the 4th floor of the Goldenrod Dept. Store. This could be the 'special medicine' I need.
+- **Current Plan:** I have discovered HM03 SURF in my inventory. My immediate priority is to teach this move to a compatible Pokémon (Scylla the Krabby) and then use it to access previously unreachable areas, such as the path to Cianwood City or Mahogany Town.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.

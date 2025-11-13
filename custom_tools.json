@@ -302,23 +302,6 @@
       }
     ]
   },
-  "find_undefeated_trainers": {
-    "description": "Parses the map XML to find all trainers (both on and off-screen) and cross-references them with '☠️' map markers to return a list of coordinates for undefeated trainers.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef find_trainers():\n    root = ET.fromstring(map_xml_string)\n    all_trainers = {}\n    defeated_trainer_ids = set()\n    trainer_labels = {'SUPER_NERD', 'POKEMANIAC', 'POKEFAN_M', 'POKEFAN_F', 'YOUNGSTER', 'LASS', 'BURGLAR'}\n\n    for row_elem in root.findall('Row'):\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            y = int(row_elem.get('id'))\n            \n            # Find trainers from on-screen objects\n            for obj_elem in tile_elem.findall('Object'):\n                if obj_elem.get('name') == 'OBJECTTYPE_TRAINER':\n                    trainer_id = int(obj_elem.get('id'))\n                    if trainer_id not in all_trainers:\n                        all_trainers[trainer_id] = {'x': x, 'y': y}\n            \n            # Find trainers from markers and also collect defeated IDs\n            for marker_elem in tile_elem.findall('Marker'):\n                obj_id_str = marker_elem.get('object_id')\n                if not obj_id_str:\n                    continue\n                \n                obj_id = int(obj_id_str)\n                \n                if marker_elem.get('emoji') == '☠️':\n                    defeated_trainer_ids.add(obj_id)\n                \n                if marker_elem.get('emoji') == '📍':\n                    label = marker_elem.text\n                    if label in trainer_labels:\n                         if obj_id not in all_trainers:\n                            all_trainers[obj_id] = {'x': x, 'y': y}\n\n    undefeated = []\n    for trainer_id, coords in all_trainers.items():\n        if trainer_id not in defeated_trainer_ids:\n            undefeated.append(coords)\n            \n    print(json.dumps(undefeated))\n\nfind_trainers()",
-    "history": [
-      {
-        "commit_message": "feat: Create find_undefeated_trainers tool. This tool automates the process of locating trainers who have not yet been defeated by parsing map data and cross-referencing with existing '☠️' markers. This directly supports the new hypothesis for solving the Goldenrod Underground puzzle and addresses self-assessment feedback to automate repetitive tasks.",
-        "timestamp": "2025-11-12T04:18:03.990Z",
-        "action_counter": 36746
-      },
-      {
-        "commit_message": "feat: Refactor to find off-screen trainers. The tool now parses '📍' map markers to identify trainers who are not currently on screen, cross-referencing them against '☠️' markers. This resolves a critical failure where the tool would incorrectly report no undefeated trainers were present on a map if they were out of view.",
-        "timestamp": "2025-11-12T04:19:31.913Z",
-        "action_counter": 36749
-      }
-    ]
-  },
   "path_and_execute_v3": {
     "description": "Generates a path to a target coordinate. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, and now avoids accidentally pathing through warp tiles.",
     "input_schema": {
@@ -779,6 +762,28 @@
         "commit_message": "feat: Create automated_poi_navigator tool. This tool automates the process of identifying the next unvisited point of interest from a checklist in the notepad. This directly addresses an overwatch critique to turn procedural ideas into functional tools, improving exploration efficiency by removing a manual, error-prone step from my workflow.",
         "timestamp": "2025-11-12T21:48:34.190Z",
         "action_counter": 38132
+      }
+    ]
+  },
+  "pokemon_nicknamer": {
+    "description": "Automates the process of nicknaming a Pokémon. Takes a desired nickname as a string and outputs the sequence of button presses to enter it on the nicknaming screen. Handles switching between UPPER and lower case keyboards.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "nickname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "nickname"
+      ]
+    },
+    "python_script": "import json\n\ndef get_path(start_pos, end_pos):\n    path = []\n    dx = end_pos[0] - start_pos[0]\n    dy = end_pos[1] - start_pos[1]\n    if dx > 0:\n        path.extend(['Right'] * dx)\n    elif dx < 0:\n        path.extend(['Left'] * abs(dx))\n    if dy > 0:\n        path.extend(['Down'] * dy)\n    elif dy < 0:\n        path.extend(['Up'] * abs(dy))\n    return path\n\nnickname = input_data['nickname']\n\nkeyboard_upper = {\n    'A': (0, 0), 'B': (1, 0), 'C': (2, 0), 'D': (3, 0), 'E': (4, 0), 'F': (5, 0), 'G': (6, 0), 'H': (7, 0), 'I': (8, 0),\n    'J': (0, 1), 'K': (1, 1), 'L': (2, 1), 'M': (3, 1), 'N': (4, 1), 'O': (5, 1), 'P': (6, 1), 'Q': (7, 1), 'R': (8, 1),\n    'S': (0, 2), 'T': (1, 2), 'U': (2, 2), 'V': (3, 2), 'W': (4, 2), 'X': (5, 2), 'Y': (6, 2), 'Z': (7, 2),\n    '-': (0, 3), '?': (1, 3), '!': (2, 3), '/': (3, 3), '.': (4, 3), ',': (5, 3)\n}\n\nkeyboard_lower = {\n    'a': (0, 0), 'b': (1, 0), 'c': (2, 0), 'd': (3, 0), 'e': (4, 0), 'f': (5, 0), 'g': (6, 0), 'h': (7, 0), 'i': (8, 0),\n    'j': (0, 1), 'k': (1, 1), 'l': (2, 1), 'm': (3, 1), 'n': (4, 1), 'o': (5, 1), 'p': (6, 1), 'q': (7, 1), 'r': (8, 1),\n    's': (0, 2), 't': (1, 2), 'u': (2, 2), 'v': (3, 2), 'w': (4, 2), 'x': (5, 2), 'y': (6, 2), 'z': (7, 2),\n    '(': (1, 3), ')': (2, 3), ':': (3, 3), ';': (4, 3), '[': (5, 3), ']': (6, 3)\n}\n\nLOWER_BUTTON_POS = (6, 3)\nUPPER_BUTTON_POS = (0, 4)\nEND_BUTTON_POS = (8, 4)\n\ncurrent_pos = (0, 0) # Starts on 'A'\ncurrent_case = 'UPPER'\nbutton_presses = []\n\nfor i, char in enumerate(nickname):\n    target_case = 'UPPER' if 'A' <= char <= 'Z' else 'lower'\n\n    if target_case != current_case:\n        if target_case == 'lower':\n            path = get_path(current_pos, LOWER_BUTTON_POS)\n            button_presses.extend(path)\n            button_presses.append('A')\n            current_pos = (0, 0) # After switch, cursor resets\n            current_case = 'lower'\n        else: # target_case == 'UPPER'\n            path = get_path(current_pos, UPPER_BUTTON_POS)\n            button_presses.extend(path)\n            button_presses.append('A')\n            current_pos = (0, 0) # After switch, cursor resets\n            current_case = 'UPPER'\n\n    keyboard = keyboard_upper if current_case == 'UPPER' else keyboard_lower\n    target_pos = keyboard.get(char)\n\n    if target_pos:\n        path = get_path(current_pos, target_pos)\n        button_presses.extend(path)\n        button_presses.append('A')\n        current_pos = target_pos\n\npath_to_end = get_path(current_pos, END_BUTTON_POS)\nbutton_presses.extend(path_to_end)\nbutton_presses.append('A')\n\nprint(json.dumps(button_presses))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create pokemon_nicknamer tool. This tool automates the tedious and error-prone process of manually entering a Pokémon's nickname. It takes a string as input and generates the full sequence of button presses, including handling case changes, to enter the name and confirm. This directly addresses an overwatch critique and improves overall gameplay efficiency.",
+        "timestamp": "2025-11-13T00:55:14.257Z",
+        "action_counter": 38464
       }
     ]
   }
