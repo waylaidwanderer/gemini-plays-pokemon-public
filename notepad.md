@@ -4,7 +4,7 @@
 
 ### Current Status: In Azalea Gym
 - **Objective:** Challenge the Azalea Gym to find more clues about Team Rocket.
-- **Current Plan:** I have entered the Azalea Gym after clearing the Slowpoke Well. I will now battle the trainers to reach the Gym Leader.
+- **Current Plan:** I am stuck on the gym puzzle. My current hypothesis is that the statues at the entrance are switches that must be activated to make the trainers battleable. I will test this by interacting with the left statue first.
 
 ### Phone Call Quests
 - **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
@@ -18,10 +18,10 @@
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
+- **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
+  - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
 - **Assumption:** Clearing the Slowpoke Well caused the Team Rocket Grunt blocking the gym to disappear.
   - **Alternative Hypothesis:** The grunt's disappearance was triggered by something else, like talking to Kurt, or even just leaving and re-entering the town.
-- **Assumption:** The Azalea gym puzzle involves navigating the grass and battling trainers.
-  - **Alternative Hypothesis:** There might be hidden switches or a specific path through the grass that avoids battles.
 - **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
   - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
 - **Assumption:** Cianwood City is west/southwest of Olivine, across Route 41.
@@ -45,6 +45,7 @@
 - **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; you must still navigate around them.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
+- **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
 
 ## 5. Tile Mechanics
 - **BOOKSHELF:** Impassable. (Confirmed in Cianwood Pharmacy).
@@ -53,6 +54,7 @@
 - **DOOR:** A two-way warp tile.
 - **FLOOR:** Traversable.
 - **FLOOR_UP_WALL:** A one-way tile, impassable when approached from below (i.e., you cannot move up onto it).
+- **GRASS:** Traversable. (Confirmed in Azalea Gym). Note: Visually appears as grass, but map data may list as 'FLOOR'.
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
 - **LADDER:** A two-way warp tile.
 - **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
@@ -63,18 +65,21 @@
 - **STAIRCASE:** A two-way warp tile.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
 - **VOID:** Impassable.
+- **WALL:** Impassable. (Confirmed in Azalea Gym).
 - **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
+- **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
 - **WATER:** Impassable without SURF.
 - **WHIRLPOOL:** Impassable.
 
 # Tool & Agent Development Log
 
+## Agent/Tool Development Ideas
+- **`gym_puzzle_solver` Agent:** Create an agent that takes the map layout, trainer positions, known puzzle elements (like switches or statues), and known mechanics to suggest a sequence of actions to solve a gym puzzle.
+- **`find_puzzle_elements` Tool:** Create a tool that parses the map XML and lists all unique background objects (`<Object name=.../>`) that could be part of a puzzle, ignoring common objects like signs.
+
 ## `deterministic_battle_strategist` Limitation (Turn 38807)
 - **Limitation:** The tool does not track PP usage across multi-stage trainer battles. It may recommend a move that runs out of PP mid-battle.
 - **Workaround:** Manually monitor PP during long battles and be prepared to select an alternative move.
-
-## Agent/Tool Development Ideas
-- **`gym_strategist` Agent:** Create an agent that takes the map layout, trainer positions, and party composition to suggest an optimal battle order and lead Pokémon for a gym.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -520,6 +525,3 @@
 - **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
 - **GRASS:** Traversable. (Confirmed in Azalea Gym).
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
-
-## Azalea Gym Mechanics
-- **Defeated Trainers as Obstacles:** Trainers in this gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
