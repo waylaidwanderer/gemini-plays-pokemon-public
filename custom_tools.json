@@ -717,6 +717,16 @@
         "commit_message": "fix: Remove marker-based obstacle detection. The tool was critically failing by treating informational map markers for off-screen objects as solid obstacles. This commit removes the logic that added marked tiles to the obstacle set, ensuring pathfinding relies only on the `has-object` attribute for on-screen collision. This resolves the failure in Azalea Town.",
         "timestamp": "2025-11-13T20:55:27.822Z",
         "action_counter": 40053
+      },
+      {
+        "commit_message": "fix: Correct boundary check to use 1-based indexing. The tool was using a 0-indexed boundary check (0 <= x < width) on 1-indexed map coordinates, causing it to generate invalid paths that went through walls or out of bounds. This commit changes the check to `1 <= x <= width`, resolving this critical pathing failure.",
+        "timestamp": "2025-11-13T23:12:59.178Z",
+        "action_counter": 40233
+      },
+      {
+        "commit_message": "fix: Revert to 0-based indexing for boundary checks. A previous commit incorrectly changed the boundary check to be 1-based, assuming the map coordinates were 1-indexed. Direct observation of the map XML confirms the coordinates are 0-indexed. This commit reverts the logic to `0 <= x < width`, resolving the critical failure where the tool could not generate paths to the edges of the map (x=0 or y=0).",
+        "timestamp": "2025-11-13T23:22:31.445Z",
+        "action_counter": 40248
       }
     ]
   },

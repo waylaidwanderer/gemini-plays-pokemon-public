@@ -14,6 +14,7 @@
 - **DANA (LASS):** Wants a rematch on ROUTE 38.
 - **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
 - **TODD (CAMPER):** Wants a rematch on ROUTE 34.
+- **ANTHONY (HIKER):** Wants a rematch on ROUTE 33.
 
 ### Procedural Improvements (From Overwatch Critique)
 - **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
