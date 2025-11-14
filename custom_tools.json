@@ -773,5 +773,31 @@
         "action_counter": 40624
       }
     ]
+  },
+  "fly_navigator": {
+    "description": "Calculates the sequence of D-pad presses to navigate from a current city to a target city on the FLY map and select it.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_city": {
+          "type": "string"
+        },
+        "target_city": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_city",
+        "target_city"
+      ]
+    },
+    "python_script": "import json\nfrom collections import deque\n\ncurrent_city = input_data['current_city']\ntarget_city = input_data['target_city']\n\nfly_map = {\n    'New Bark Town': {'Right': 'Violet City'},\n    'Violet City': {'Left': 'New Bark Town', 'Right': 'Goldenrod City'},\n    'Goldenrod City': {'Left': 'Violet City', 'Up': 'Ecruteak City'},\n    'Ecruteak City': {'Down': 'Goldenrod City', 'Left': 'Olivine City'},\n    'Olivine City': {'Right': 'Ecruteak City', 'Left': 'Cianwood City'},\n    'Cianwood City': {'Right': 'Olivine City'}\n}\n\nif current_city not in fly_map or target_city not in fly_map:\n    print(json.dumps([]))\nelse:\n    queue = deque([(current_city, [])])\n    visited = {current_city}\n    path_found = False\n    while queue:\n        city, path = queue.popleft()\n        if city == target_city:\n            path.append('A')\n            print(json.dumps(path))\n            path_found = True\n            break\n        for move, next_city in fly_map.get(city, {}).items():\n            if next_city not in visited:\n                visited.add(next_city)\n                new_path = path + [move]\n                queue.append((next_city, new_path))\n    if not path_found:\n        print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create fly_navigator tool to automate FLY map navigation. This addresses a critical overwatch critique by turning a deferred idea into an active tool, which will reduce manual errors and improve efficiency when traveling the world map.",
+        "timestamp": "2025-11-14T05:40:57.762Z",
+        "action_counter": 40861
+      }
+    ]
   }
 }

@@ -8,7 +8,7 @@
 
 ## 1. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-  - **Current Location:** Violet City (accidental flight).
+  - **Current Location:** Cianwood City.
   - **Next Step:** Use FLY to travel to Olivine City.
 - **Side Quests & Leads:**
   - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
@@ -27,8 +27,7 @@
 - **Goldenrod Underground:** A locked door at (18, 6) remains unsolved.
 - **Miltank Quest (Route 39):** BLOCKED. I have exhausted all methods of finding the required 'BERRY' item.
 
-## 2. Untested Assumptions & Alternative Hypotheses (Active)
-
+## 3. Untested Assumptions & Alternative Hypotheses (Active)
 - **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
   - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
 - **Assumption:** Clearing the Slowpoke Well caused the Team Rocket Grunt blocking the gym to disappear.
@@ -42,19 +41,14 @@
 - **Assumption:** The small islands on Route 41 are just obstacles.
   - **Alternative Hypothesis:** They could contain hidden items, trainers, or even secret entrances/warps.
 
-## 3. Critical Bugs & Lessons
+## 4. Critical Bugs & Lessons
 - **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
 - **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
+- **Text Box Loop (CRITICAL):** If 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
 
-## 3. Critical Bugs & Lessons
-- **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
-- **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
-- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
-
-## 4. Confirmed System Mechanics
+## 5. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
@@ -64,7 +58,7 @@
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
 
-## 5. Tile Mechanics
+## 6. Tile Mechanics
 - **BOOKSHELF:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **BUOY:** Impassable. (Confirmed by attempting to surf into it on Route 40).
 - **COUNTER:** Impassable.
@@ -94,7 +88,6 @@
 # Tool & Agent Development Log
 
 ## Agent/Tool Development Ideas
-- **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the sequence of D-pad presses required to select it on the FLY map, preventing manual errors.
 - **`gym_puzzle_solver` Agent:** Create an agent that takes the map layout, trainer positions, known puzzle elements (like switches or statues), and known mechanics to suggest a sequence of actions to solve a gym puzzle.
 - **`find_puzzle_elements` Tool:** Create a tool that parses the map XML and lists all unique background objects (`<Object name=.../>`) that could be part of a puzzle, ignoring common objects like signs.
 
@@ -384,12 +377,7 @@
 
 </details>
 
-# Critical Bugs & Lessons
-- **Text Box Loop (CRITICAL):** During turns 37932-37937, I was stuck in a text box loop from a sign. Repeatedly pressing 'A' did not work. The solution was to press 'B' to close the dialogue. This is a critical lesson: if 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
-
 # Self-Assessment Findings (Turn 38567)
-
-## Agent/Tool Development Ideas
 
 ## Untested Assumptions & Alternative Hypotheses
 - **Assumption:** The path to Olivine City from Ecruteak is a straightforward land route.
@@ -414,7 +402,7 @@
   - **Alternative Hypothesis:** Route 40 could be a dead end or lead to a different area entirely. The path to Cianwood might be from another, undiscovered water route.
   - **Test to Falsify:** Continue exploring the full extent of Route 40. If it does not lead to Cianwood City, the assumption is false.
 - **Assumption:** The 'special medicine' for the Ampharos is a key item found in Cianwood City.
-  - **Alternative Hypothesis:** The 'medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
+  - **Alternative Hypothesis:** The 'special medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
   - **Test to Falsify:** Thoroughly explore Cianwood City and the surrounding water routes with the ITEMFINDER. If no medicine is found, the assumption is likely false.
 
 # Goldenrod City Notes (Update)
@@ -457,8 +445,6 @@
 - **RADIO:** Impassable. (Assumed, needs direct in-game test to confirm).
 - **WINDOW:** Impassable. (Assumed, needs direct in-game test to confirm).
 - **BOOKSHELF:** Re-confirm impassable status.
-
-## Agent/Tool Development Ideas
 
 # Cianwood City Log
 - **Hypothesis 1 (Pharmacist):** The pharmacist at (2, 3) will provide the special medicine for the Ampharos.
