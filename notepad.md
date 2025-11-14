@@ -542,3 +542,10 @@
 - **Status:** Trapped. The exit warps at (2, 7) and (3, 7) are inactive after returning SHUCKIE.
 - **Hypothesis 1:** An object in the room must be interacted with to unlock the exit.
 - **Test Plan:** Systematically interact with all objects: TV, Radio, Bookshelves, Town Map, and the Rocker NPC.
+- Hypothesis 1 (Object Interaction): An object in the room is a switch.
+  - Test 1 (TV @ 2,1): Result - Generic text "It's a TV.". Conclusion: FAILED.
+  - Test 2 (Radio @ 7,1): Result - Played "OAK's PKMN Talk". Conclusion: FAILED.
+  - Test 3 (Bookshelves @ 0,1 & 1,1): Result - Generic text about magazines. Conclusion: FAILED.
+  - Test 4 (Town Map @ 3,0): Result - Generic text "It's the TOWN MAP.". Conclusion: FAILED.
+- All simple object interactions have failed.
+- New Hypothesis 2: The Rocker NPC must be spoken to again.
