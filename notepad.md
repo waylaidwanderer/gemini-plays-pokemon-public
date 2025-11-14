@@ -5,23 +5,24 @@
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **VERIFY BEFORE ACTING:** My internal sense of location is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
 
-## 1. Active Quests & Current Plan
+## 1. Main Quest: The Sick Ampharos
+- **Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
+- **Current Location:** Route 34 Ilex Forest Gate.
+- **Next Step:** Use FLY to travel to Olivine City.
+- **Known Blockers:**
+    - The path up the Olivine Lighthouse is blocked. An NPC mentioned needing 'special medicine'.
+    - An NPC in Cianwood City gave me HM02 FLY and suggested it would be a fast way back to Olivine.
+    - The Cianwood Pharmacy did not have the medicine.
+- **Hypothesis:** The medicine is a key item obtained by progressing the story in Cianwood City (defeating the Gym, solving the stolen Pokémon quest) or is located elsewhere entirely. Since I have the Storm Badge from Cianwood, my next logical step is to return to Olivine.
 
-### Azalea Gym (SOLVED)
-- **Realization:** I already have the Hive Badge. My presence here was based on a massive hallucination. The puzzle was a simple maze, and all trainers, including Bugsy, have been defeated.
-
-### Current Status: Leaving Azalea Town
-- **Objective:** Get the SECRETPOTION for the sick Ampharos in Olivine Lighthouse.
-- **Current Plan:** Exit the Azalea Gym and travel to Olivine City to investigate the Lighthouse.
-
-### Phone Call Quests
-- **DANA (LASS):** Wants a rematch on ROUTE 38.
-- **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
-- **ANTHONY (HIKER):** Wants a rematch on ROUTE 33.
-
-### Procedural Improvements (From Overwatch Critique)
-- **Agent Utilization:** I must use my `city_exploration_planner` agent for Goldenrod City to automate plan generation and improve efficiency.
-- **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
+## 2. Side Quests & Leads
+- **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently holding his SHUCKIE for safekeeping. Need to investigate.
+- **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
+- **Phone Call Rematches:**
+    - **DANA (LASS):** Route 38.
+    - **HUEY (SAILOR):** Olivine Lighthouse.
+    - **ANTHONY (HIKER):** Route 33.
+    - **ALAN (SCHOOLBOY):** Has an item for me on Route 36.
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
