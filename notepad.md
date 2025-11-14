@@ -24,3 +24,5 @@
   - **Elm's Lab:** Received Kimchi (Cyndaquil). Elm requested a visit to Mr. Pokémon to investigate a discovery.
   - **Neighbor's House:** Neighbor is a big fan of Prof. Elm.
   - **Elm's House:** Met Mrs. Elm and son. Mrs. Elm is concerned about her husband's work habits.
+- **Route 29:**
+  - Entered from New Bark Town. Heading West towards Cherrygrove City.
