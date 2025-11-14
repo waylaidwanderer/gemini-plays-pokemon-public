@@ -463,7 +463,6 @@
 - **BOOKSHELF:** Re-confirm impassable status.
 
 ## Agent/Tool Development Ideas
-- **`plan_next_exploration_step` Agent/Tool:** Create a single tool or agent that combines the functionality of `find_reachable_unseen_tiles` and `exploration_strategist`. It would take no input and output a single suggested coordinate, streamlining the exploration workflow into one step.
 
 # Cianwood City Log
 - **Hypothesis 1 (Pharmacist):** The pharmacist at (2, 3) will provide the special medicine for the Ampharos.
