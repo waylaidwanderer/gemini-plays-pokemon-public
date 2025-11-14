@@ -27,10 +27,10 @@
 - Caught a Sentret on Route 29. Nicknamed him 'Scout'.
 ## Battle and Pokemon Information
 ### Current Team
-- **Kimchi** (Cyndaquil) ♂ Lv 5
+- **Kimchi** (Cyndaquil) ♂ Lv 6
 - **Scout** (Sentret) ♂ Lv 2
 - **Ace** (Pidgey) ♂ Lv 3
+- **Silk** (Caterpie) ♂ Lv 3
 ### Pokémon Locations
 - **Route 29**: Pidgey, Sentret, Rattata
 - **Route 30**: Pidgey, Caterpie
-- **Silk** (Caterpie) ♂ Lv 3
