@@ -410,7 +410,7 @@
 # Future Development & Strategic Planning
 
 ## Agent/Tool Development Ideas
-- **`multi_map_navigator` Agent:** Create an agent that takes a high-level destination (e.g., 'Olivine City') and generates a sequence of sub-goals for each map transition (e.g., 'Path to Route 35 Gate', 'Cross National Park', etc.). This would automate high-level journey planning.
+
 - **`find_reachable_unseen_tiles` Tool:** Create a tool to parse the map XML, find all unseen tiles adjacent to walkable areas, and run a pathfinding algorithm to determine which are *actually* reachable from the player's current position. This will directly address the persistent 'Potentially Reachable Unseen Tiles' system alert and make exploration much more efficient.
 
 ## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
