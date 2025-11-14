@@ -12,8 +12,6 @@
 - **Interactable (Blocked)**: COUNTER, PC.
 - **Ledges**: One-way (DOWN, LEFT, RIGHT).
 
-- **HEADBUTT_TREE**: Impassable obstacle.
-
 ## Story Highlights
 - **New Bark Town:** 
   - Prof. Elm gave me Kimchi (Cyndaquil).
