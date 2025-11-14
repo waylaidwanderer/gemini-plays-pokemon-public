@@ -224,13 +224,6 @@
 - **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
 - **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
 
-# Route 37 Sudowoodo Puzzle Log
-- **Hypothesis 1 (Failed):** Using SQUIRTBOTTLE on the left WEIRD_TREE at (6, 12) from below (6, 13) did not trigger an event.
-- **Hypothesis 2 (Failed):** Using SQUIRTBOTTLE on the right WEIRD_TREE at (7, 12) from below (7, 13) did not trigger an event.
-- **Hypothesis 3 (Failed):** Interacting with the right WEIRD_TREE at (7, 12) by pressing 'A' from an adjacent tile (tested from (7, 13) and (8, 12)) did not trigger an event.
-- Hypothesis 4 (Failed): Interacting with the left WEIRD_TREE at (6, 12) by pressing 'A' from an adjacent tile (tested from (5, 12)) did not trigger an event.
-- Hypothesis 4 (Failed): Interacting with the left WEIRD_TREE at (6, 12) by pressing 'A' from an adjacent tile (tested from (5, 12)) did not trigger an event.
-
 - **Inventory Hallucination (CRITICAL):** During turn 40942, I attempted to use an ESCAPE ROPE that I did not possess. This indicates a severe failure to verify my inventory before forming a plan. I must always check my PACK before assuming I have a specific item.
 
 - **PIT:** A one-way warp tile, activated by moving onto it.
