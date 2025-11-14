@@ -364,12 +364,6 @@
 # Phone Call Log
 - ALAN (SCHOOLBOY) called. He has an item for me on ROUTE 36.
 
-# New Bark Town Warp Event Log
-- **Hypothesis 1:** Professor Elm will explain the mysterious warp from Cianwood.
-  - **Test:** Spoke to Professor Elm in his lab.
-  - **Result:** His dialogue was generic and did not mention the event.
-  - **Conclusion:** Hypothesis is FALSE.
-
 # Route 30 Ledge Puzzle
 - **Hypothesis 1:** The ledge at (6, 47) is passable from below.
   - **Test:** Attempted to move north from (6, 48) on Turn 39805.
