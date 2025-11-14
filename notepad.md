@@ -16,6 +16,7 @@
 - **BOOKSHELF**: Object/Obstacle.
 - **TV**: Object/Obstacle.
 - **WINDOW**: Visual feature on walls.
+- **COUNTER**: Obstacle. Interact from adjacent tile.
 
 ### Mechanics
 - **Poison**: -1 HP every 4 steps outside battle.
