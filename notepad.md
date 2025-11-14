@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
-- **Secondary:** Explore Cherrygrove City.
+- **Secondary:** Find Poké Mart (Need Poké Balls).
 - **Tertiary:** Talk to locals.
 
 ## Game Mechanics
