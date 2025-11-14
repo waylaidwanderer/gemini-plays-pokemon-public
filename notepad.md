@@ -28,7 +28,7 @@
   - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
   - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. The quest is to investigate the theft.
 - **Phone Call Rematches & Events:**
-  - **ALAN (SCHOOLBOY):** Has an item for me on Route 36.
+  - **ALAN (SCHOOLBOY):** Called about an item on Route 36, but only gave generic dialogue upon interaction. Lead is currently a dead end.
   - **DANA (LASS):** Wants a rematch on Route 38.
   - **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
   - **ANTHONY (HIKER):** Wants a rematch on Route 33.
