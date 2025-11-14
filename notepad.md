@@ -156,15 +156,6 @@
 </details>
 
 <details>
-<details>
-<summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified)</summary>
-
-- **Hypothesis:** The Gentleman at (7, 10) would provide a reward (potentially SURF) after the Legendary Beast event in the Burned Tower.
-- **Test:** Interacted with the Gentleman on Turn 34336 after the event.
-- **Result:** The Gentleman's dialogue was unchanged. He did not provide any item or reward.
-- **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role. The HM SURF is not obtained from him at this time.
-
-</details>
 
 </details>
 
@@ -257,16 +248,6 @@
 
 # Olivine City Notes
 - A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
-
-<details>
-<summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified)</summary>
-
-- **Hypothesis:** The Gentleman at (7, 10) would provide a reward (potentially SURF) after the Legendary Beast event in the Burned Tower.
-- **Test:** Interacted with the Gentleman on Turn 34336 after the event.
-- **Result:** The Gentleman's dialogue was unchanged. He did not provide any item or reward.
-- **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role. The HM SURF is not obtained from him at this time.
-
-</details>
 
 # Maintenance Log (Turn 34407)
 
