@@ -238,10 +238,6 @@
 
 # Tool Development Log
 
-## `find_exploration_target` Bug (Turn 33871)
-- **Bug:** The tool incorrectly included 'PIT' in its list of impassable tile types. This would cause it to fail to find paths to unseen areas if the path required traversing a pit warp.
-- **Fix:** Removed 'PIT' from the impassable set to align it with my other, more robust pathfinding tools. This addresses a critical overwatch critique.
-
 ## Procedural Changes
 - **Warp Marking:** To prevent future hallucination loops caused by bad data, I will adopt a new two-step process for marking warps. 1. When I discover a new door/warp, I will mark it with a generic emoji like '🚪' and a label like "Unverified Warp". 2. Only *after* I have traveled through the warp and confirmed its destination will I update the marker on both sides with the correct "To <Map Name> (<x>, <y>)" label.
 
