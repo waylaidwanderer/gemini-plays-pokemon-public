@@ -103,12 +103,6 @@
   - **Test (Failed):** Attempted to pathfind to the BUOY at (24, 32). The pathfinder correctly determined the tile is unreachable by walking as it is surrounded by WATER.
   - **Conclusion:** The traversability of BUOY tiles cannot be tested without the ability to cross water, likely requiring SURF. The assumption remains untested.
 
-# Self-Correction & Strategy Updates
-
-## Overwatch Critique (Turn 33843)
-- **Finding:** I failed to use my `city_exploration_planner` agent upon arriving in Olivine City. 
-- **Correction:** This was a missed opportunity for efficiency. I must remember to use this agent whenever I enter a new city to create a systematic exploration plan. This will be my standard procedure for all future cities.
-
 # Tool Development Log
 
 ## Procedural Changes
