@@ -41,5 +41,33 @@
         "action_counter": 42
       }
     ]
+  },
+  "find_path": {
+    "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a JSON list of coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string",
+          "description": "Target X coordinate"
+        },
+        "target_y": {
+          "type": "string",
+          "description": "Target Y coordinate"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\n# Grid: 0 = blocked, 1 = traversable\ngrid = [[0 for _ in range(height)] for _ in range(width)]\nplayer_x, player_y = -1, -1\n\ntraversable_types = ['FLOOR', 'GRASS', 'SAND', 'STAIRCASE', 'CARPET', 'MAT']\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib['type']\n        if tile.find('Player') is not None:\n            player_x = x\n            player_y = y\n        \n        is_blocked = False\n        if tile.find('Object') is not None:\n            is_blocked = True\n        \n        if tile_type in traversable_types and not is_blocked:\n            grid[x][y] = 1\n        # Explicitly allow STAIRCASE even if it has objects (rare but possible)\n        if tile_type == 'STAIRCASE':\n            grid[x][y] = 1\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nif player_x == -1:\n    print(json.dumps([]))\nelse:\n    queue = deque([(player_x, player_y, [])])\n    visited = set([(player_x, player_y)])\n    found = False\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        if curr_x == target_x and curr_y == target_y:\n            full_path = [{'x': player_x, 'y': player_y}] + path\n            print(json.dumps(full_path))\n            found = True\n            break\n        \n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if grid[nx][ny] == 1 and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    new_path = path + [{'x': nx, 'y': ny}]\n                    queue.append((nx, ny, new_path))\n    if not found:\n        print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Initial implementation of find_path using BFS.",
+        "timestamp": "2025-11-14T03:04:04.417Z",
+        "action_counter": 47
+      }
+    ]
   }
 }

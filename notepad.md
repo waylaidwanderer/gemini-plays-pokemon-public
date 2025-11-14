@@ -8,3 +8,5 @@
 ## To-Do
 - Complete the intro.
 - Choose a starter Pokémon.
+- Started in PlayersHouse2F.
+- Goal: Go downstairs and find Mom.
