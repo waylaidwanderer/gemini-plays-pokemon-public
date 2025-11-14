@@ -79,9 +79,11 @@
 - **MART_SHELF:** Impassable.
 - **PC:** Impassable. Interactable from an adjacent tile.
 - **PILLAR:** Impassable.
+- **RADIO:** Impassable. (Confirmed in ManiasHouse).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 - **STAIRCASE:** A two-way warp tile.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
+- **TV:** Impassable. (Confirmed in ManiasHouse).
 - **VOID:** Impassable.
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
 - **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
