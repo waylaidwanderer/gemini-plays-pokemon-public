@@ -540,7 +540,9 @@
 - **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
 - **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the exact sequence of D-pad presses required to select it on the FLY map, preventing manual navigation errors.
 
-# ManiasHouse Puzzle Log (SOLVED)
+<details>
+<summary>ManiasHouse Puzzle Log (SOLVED)</summary>
+
 - **Problem:** Trapped in the house after returning SHUCKIE. Movement was locked, and exit warps were inactive.
 - **Solution:** This was a scripted event. The trigger sequence was:
   1. Become trapped (movement locked).
@@ -549,6 +551,8 @@
   4. Attempt to use an ESCAPE ROPE from the PACK. This is blocked by a special dialogue from Professor Oak.
   5. Exit the menu completely.
 - **Conclusion:** Completing this specific sequence of failed attempts unlocks movement and solves the puzzle. The exit warps are now presumably active.
+
+</details>
 
 # Self-Assessment Action Items (Turn 40771)
 - **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity to address the overwatch critique and adhere to my procedural rules.
