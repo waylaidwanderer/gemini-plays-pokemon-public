@@ -155,17 +155,6 @@
 # Archive: Solved Puzzles & Lessons Learned
 
 <details>
-<summary>Day-Care Tile Test (SOLVED)</summary>
-
-- **System Critique:** Suggested testing 'TABLE' and 'PLANT' tiles.
-- **Observation:** Tiles at (2, 4) and (5, 4) have table/plant sprites but are listed as 'FLOOR' in map data.
-- **Test 1 (Turn 29321):** Moved from (1, 4) to (2, 4). Result: Move successful. The tile is traversable.
-- **Test 2 (Turn 29327):** Moved from (5, 5) to (5, 4). Result: Move successful. The tile is traversable.
-- **Conclusion:** Visual sprites do not always indicate impassable terrain. The tile's `type` attribute is the source of truth.
-
-</details>
-
-<details>
 
 </details>
 
