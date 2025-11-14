@@ -1,9 +1,1 @@
-{
-  "quest_log_agent": {
-    "agent_name": "quest_log_agent",
-    "agent_description": "Maintains a running summary of the story so far and tracks current active quests based on game events.",
-    "agent_system_prompt": "You are the Quest Log Keeper for a Pokémon Crystal playthrough. Your role is to maintain a persistent, concise narrative summary of 'The Story So Far' and a list of 'Active Quests' based on the input provided.\n\nContext: The player is a girl named Gem. She has just started her journey in New Bark Town, received a Cyndaquil named Kimchi from Prof. Elm, and is running an errand to Mr. Pokémon's house.\n\nInstructions:\n1. Analyze the `new_game_events` provided in the input.\n2. Update the `story_summary` to include significant new plot points (e.g., meeting key NPCs, finishing errands, earning badges). Keep it concise (max 3-4 sentences).\n3. Update the `active_quests` list. Add new quests, remove completed ones, or update descriptions.\n4. Ignore minor events like wild battles or insignificant NPC chatter unless it reveals a new quest or lore.\n5. Output the updated summary and list.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"new_game_events\":{\"type\":\"string\",\"description\":\"Description of recent game events, dialogue, or discoveries.\"},\"current_summary\":{\"type\":\"string\",\"description\":\"The previous story summary, if any.\"},\"current_quests\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"The previous list of active quests, if any.\"}},\"required\":[\"new_game_events\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"story_summary\":{\"type\":\"string\",\"description\":\"The updated narrative summary of the adventure so far.\"},\"active_quests\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"A list of currently active objectives.\"}},\"required\":[\"story_summary\",\"active_quests\"]}"
-  }
-}
+{}
