@@ -81,6 +81,7 @@
 - **PILLAR:** Impassable.
 - **PIT:** A one-way warp tile, activated by moving onto it.
 - **RADIO:** Impassable. (Confirmed in ManiasHouse).
+- **RADIO:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 - **STAIRCASE:** A two-way warp tile.
 - **TALL_GRASS:** Traversable, triggers wild encounters.
@@ -441,6 +442,7 @@
   - Step 3: Attempt push from right (5, 25).
 
 ## Tile Mechanics Update
+- **RADIO:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 
 # Phone Call Log
