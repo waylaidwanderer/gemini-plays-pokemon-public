@@ -508,3 +508,4 @@
 ## Maintenance Append (Turn 40964)
 - **Inventory Hallucination (CRITICAL):** During turn 40942, I attempted to use an ESCAPE ROPE that I did not possess. This indicates a severe failure to verify my inventory before forming a plan. I must always check my PACK before assuming I have a specific item.
 - **PIT:** A one-way warp tile, activated by moving onto it.
+- **Olivine Lighthouse 3F (Western Section):** Confirmed dead end for ascending. The Youngster NPC at (3, 9) confirms the path is blocked.
