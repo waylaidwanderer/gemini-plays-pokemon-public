@@ -8,7 +8,7 @@
 
 ## 1. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-  - **Current Location:** Olivine Lighthouse 2F.
+  - **Current Location:** Olivine Lighthouse 1F (trapped in a dead-end room).
 - **Side Quests & Leads:**
   - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
   - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. The quest is to investigate the theft.
@@ -19,7 +19,7 @@
   - **ANTHONY (HIKER):** Wants a rematch on Route 33.
 
 ## 2. World State & Blocked Paths
-- **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. The 3rd floor is split into two sections; the western section is a dead end for ascending.
+- **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. The 3rd floor is split into two sections; the western section is a dead end for ascending. The pits on 2F lead to dead-end rooms on 1F.
 - **Cianwood City:** A mysterious event warped me to New Bark Town after receiving HM02 FLY. The HM is now functional. Four boulders in the city are part of an unsolved puzzle.
 - **Route 41:** Contains WHIRL ISLANDS. An NPC mentioned it's 'pitch-black' inside, implying FLASH is needed. WHIRLPOOL tiles are impassable.
 - **Route 42:** Path to Mahogany Town is blocked by water, requiring SURF.
@@ -27,13 +27,15 @@
 - **Miltank Quest (Route 39):** BLOCKED. I have exhausted all methods of finding the required 'BERRY' item.
 
 ## 3. Untested Assumptions & Alternative Hypotheses (Active)
-- **Assumption (Lighthouse Pits):** The pits on 2F are the only way to access the eastern side of 3F.
-  - **Alternative Hypothesis:** A hidden ladder or warp exists on 2F, or an item is needed to create a new path. If the pits lead to dead ends, I must re-explore 2F with the ITEMFINDER.
+- **Assumption (Lighthouse Puzzle):** I am trapped in this room because I missed a hidden item or switch.
+  - **Alternative Hypothesis:** The solution is not in this room at all. The puzzle might require an external event, or I may need to revisit the *other* pitfall room to see if anything has changed.
+  - **Test to Falsify:** A full sweep of this room with the ITEMFINDER. If nothing is found, I must consider that the solution lies elsewhere.
 - **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
   - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
 
 ## 4. Critical Bugs & Lessons
 - **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
+- **Inventory Hallucination (CRITICAL):** During turn 40942, I attempted to use an ESCAPE ROPE that I did not possess. This indicates a severe failure to verify my inventory before forming a plan. I must always check my PACK before assuming I have a specific item.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
 - **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
@@ -77,9 +79,6 @@
 - **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
 - **WATER:** Impassable without SURF.
 - **WHIRLPOOL:** Impassable.
-
-# Agent Development Ideas
-- **`lighthouse_navigator` Agent:** Create an agent to analyze the lighthouse map layout, known warps, and current position to suggest the most logical path forward when stuck.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -426,7 +425,7 @@
 
 - **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
 
-# Self-Assessment Findings (Turn 39452)
+# Self-Assessment Action Items (Turn 39452)
 
 ## Tile Mechanics to Verify
 - **TOWN_MAP:** Impassable. (Assumed, needs direct in-game test to confirm).
