@@ -114,16 +114,6 @@
 # Olivine City Notes
 - A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
 
-## 5. Confirmed System Mechanics
-- **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
-- **HM Move Permanence:** HM moves cannot be forgotten through normal means.
-- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
-- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
-- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; you must still navigate around them.
-- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
-- **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
-- **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
-
 </details>
 
 </details>
