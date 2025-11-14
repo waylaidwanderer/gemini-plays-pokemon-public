@@ -92,12 +92,9 @@
 # Tool & Agent Development Log
 
 ## Agent/Tool Development Ideas
+- **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the sequence of D-pad presses required to select it on the FLY map, preventing manual errors.
 - **`gym_puzzle_solver` Agent:** Create an agent that takes the map layout, trainer positions, known puzzle elements (like switches or statues), and known mechanics to suggest a sequence of actions to solve a gym puzzle.
 - **`find_puzzle_elements` Tool:** Create a tool that parses the map XML and lists all unique background objects (`<Object name=.../>`) that could be part of a puzzle, ignoring common objects like signs.
-
-## `deterministic_battle_strategist` Limitation (Turn 38807)
-- **Limitation:** The tool does not track PP usage across multi-stage trainer battles. It may recommend a move that runs out of PP mid-battle.
-- **Workaround:** Manually monitor PP during long battles and be prepared to select an alternative move.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
