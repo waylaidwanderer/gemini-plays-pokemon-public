@@ -8,7 +8,7 @@
 ## Game Mechanics
 ### Tile Mechanics
 - **Traversable**: FLOOR, WARP_CARPET_DOWN, TALL_GRASS, DOOR.
-- **Impassable**: WALL, VOID, WATER, HEADBUTT_TREE, TV/BOOKSHELF/WINDOW/TOWN_MAP.
+- **Impassable**: WALL, VOID, WATER, TREES, DECORATIONS.
 - **Interactable (Blocked)**: COUNTER, PC.
 - **Ledges**: One-way (DOWN, LEFT, RIGHT).
 
