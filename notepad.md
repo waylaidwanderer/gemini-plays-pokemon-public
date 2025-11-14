@@ -531,3 +531,6 @@
 - **GRASS:** Traversable. (Confirmed in Azalea Gym).
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
 - **CUT_TREE:** Impassable. Can be removed using the move CUT. (Confirmed on Route 35).
+
+# Route 37 Sudowoodo Puzzle Log
+- **Hypothesis 1 (Failed):** Using SQUIRTBOTTLE on the left WEIRD_TREE at (6, 12) from below (6, 13) did not trigger an event.
