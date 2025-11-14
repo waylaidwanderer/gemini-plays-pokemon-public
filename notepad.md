@@ -29,9 +29,6 @@
 ## 3. Untested Assumptions & Alternative Hypotheses (Active)
 - **Assumption (Lighthouse Pits):** The pits on 2F are the only way to access the eastern side of 3F.
   - **Alternative Hypothesis:** A hidden ladder or warp exists on 2F, or an item is needed to create a new path. If the pits lead to dead ends, I must re-explore 2F with the ITEMFINDER.
-- **Assumption (WINDOW tiles):** `WINDOW` tiles are impassable.
-  - **Alternative Hypothesis:** They could be one-way passages or traversable under specific conditions.
-  - **Test to Falsify:** Attempt to move into a `WINDOW` tile from an adjacent traversable tile.
 - **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
   - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
 
@@ -75,6 +72,7 @@
 - **TV:** Impassable. (Confirmed in ManiasHouse).
 - **VOID:** Impassable.
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
+- **WINDOW:** Impassable. (Confirmed in Olivine Lighthouse 2F).
 - **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
 - **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
 - **WATER:** Impassable without SURF.
