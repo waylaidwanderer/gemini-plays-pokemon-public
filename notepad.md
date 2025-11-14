@@ -18,6 +18,9 @@
 - **VOID**: Impassable (Black space outside map bounds).
 - **PC**: Impassable. Interact from below facing Up.
 - **TV / BOOKSHELF / WINDOW**: Impassable obstacles/decorations.
+- **WATER**: Impassable without Surf.
+- **DOOR**: Walkable (Warp).
+- **HEADBUTT_TREE**: Interactable.
 
 ## Story Highlights
 - **New Bark Town:** 
