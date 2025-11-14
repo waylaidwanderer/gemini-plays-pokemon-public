@@ -373,3 +373,21 @@
 
 ## 5. Agent/Tool Development Ideas
 - **`repel_advisor` Tool:** Create a tool or agent that suggests using a Repel if the encounter rate is high and one is available in the inventory. This would have been useful in Union Cave.
+
+# Maintenance Log (Turn 41840)
+
+## 3. Critical Failures to Address
+- **Tool Misuse (CRITICAL):** I have repeatedly used `autopress_buttons=true` with my `path_and_execute_v3` and `deterministic_battle_strategist` tools. These tools output data (coordinates/decisions), not button strings. This parameter is only for tools that generate button press sequences. I must stop making this mistake.
+
+## Tile Mechanics (Additions)
+### Warp Tiles
+- **WARP_CARPET_RIGHT:** One-way warp, activated by pressing right onto it.
+
+### Conditional/One-Way Tiles
+- **LEDGE_HOP_LEFT:** One-way tile (can only be entered from the right).
+- **LEDGE_HOP_RIGHT:** One-way tile (can only be entered from the left).
+
+## 5. Agent/Tool Development Ideas
+- **`repel_advisor` Tool:** Create a tool or agent that checks inventory for Repels and suggests using one when entering a high-encounter area (like a cave or forest).
+- **`find_reachable_unseen_tiles` Tool:** Create a tool to parse the map XML and determine which unseen tiles are *actually* reachable from the player's current position.
+- **Gameplay Tasks:** Test traversability of `BUOY` tile with SURF.
