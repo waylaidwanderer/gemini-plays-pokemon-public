@@ -11,9 +11,7 @@
 - **Impassable**: WALL, VOID, WATER, HEADBUTT_TREE, TV/BOOKSHELF/WINDOW/TOWN_MAP.
 - **Interactable (Blocked)**: COUNTER, PC.
 - **Ledges**: One-way (DOWN, LEFT, RIGHT).
-- **LEDGE_HOP_RIGHT**: One-way obstacle. Impassable from West/North/South. Jumpable from Left to Right (Hypothesis).
-- **LEDGE_HOP_DOWN**: One-way obstacle. Impassable from Bottom/Left/Right. Jumpable from Top to Bottom.
-- **LEDGE_HOP_LEFT**: One-way obstacle. Jumpable from Right to Left.
+
 - **COUNTER**: Impassable. Interact with NPCs across it.
 - **VOID**: Impassable (Black space outside map bounds).
 - **PC**: Impassable. Interact from below facing Up.
