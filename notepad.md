@@ -6,7 +6,7 @@
 - **`city_exploration_planner`:** Generates a systematic and efficient exploration plan for a new city.
 - **`world_navigator_agent`:** Suggests a new major region or city to investigate when all local leads are exhausted.
 - **`reality_check_agent`:** Analyzes my intended action and the current game state to identify potential hallucinations or logical inconsistencies before I act.
-- **`multi_map_navigator`:** Generates a sequence of map transitions and navigation goals to reach a high-level destination.
+- **`phone_call_summarizer`:** Parses phone call dialogue to extract key information (rematches, items) and suggest notepad updates.
 
 ### Tools
 - **`deterministic_battle_strategist`:** A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
