@@ -24,17 +24,17 @@
 - **TOOL MISUSE:** `autopress_buttons=true` is ONLY for tools that output button strings, not coordinates or decisions.
 - **ITEM MANAGEMENT:** Taking a held item with a full bag destroys it. The only safe way to free a slot is to have a Pokémon hold an item.
 
-## 1. Main Quest & Active Leads
+## 2. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-  - **Current Location:** Olivine Lighthouse 1F (trapped in a dead-end room).
-- **Side Quests & Leads:**
-  - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
-  - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. The quest is to investigate the theft.
-- **Phone Call Rematches & Events:**
-  - **ALAN (SCHOOLBOY):** Called about an item on Route 36, but only gave generic dialogue upon interaction. Lead is currently a dead end.
-  - **DANA (LASS):** Wants a rematch on Route 38.
-  - **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
-  - **ANTHONY (HIKER):** Wants a rematch on Route 33.
+- **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. A Sage in the Tin Tower has asked me to refrain from entering because of this.
+- **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE. The puzzle was solved once but the tree may have respawned.
+- **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am safekeeping his SHUCKIE.
+
+### Phone Call Rematches
+- **DANA (LASS):** Route 38.
+- **HUEY (SAILOR):** OLIVINE LIGHTHOUSE.
+- **ANTHONY (HIKER):** Route 33.
+- **JACK (SCHOOLBOY):** NATIONAL PARK.
 
 ## 2. World State & Blocked Paths
 - **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. The 3rd floor is split into two sections; the western section is a dead end for ascending. The pits on 2F lead to dead-end rooms on 1F.
