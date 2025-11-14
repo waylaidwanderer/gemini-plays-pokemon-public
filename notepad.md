@@ -12,6 +12,9 @@
 - Pokegear
 - Phone Number: Professor Elm
 
+## Inventory
+- Potion x1
+
 ## Goals
 - Primary: Run errand for Elm (Visit Mr. Pokémon).
 - Secondary: Explore New Bark Town.
