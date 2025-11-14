@@ -26,3 +26,6 @@
   - Totodile (Water) -> Croconaw (Lv18) -> Feraligatr (Lv30)
 - **WINDOW**: Impassable. Found in Elm's Lab.
 - **BOOKSHELF**: Impassable. Found in Elm's Lab.
+- **WINDOW**: Impassable. Found in Elm's Lab.
+- **BOOKSHELF**: Impassable. Found in Elm's Lab.
+- **PC**: Impassable. Found in Elm's Lab.
