@@ -34,10 +34,11 @@
 ### Interactive Objects
 - **BERRY_TREE**: Object. Acts as a solid obstacle. Interact (A) to harvest.
 - Caught a Sentret on Route 29. Nicknamed him 'Scout'.
+## Battle and Pokemon Information
 ### Current Team
 - **Kimchi** (Cyndaquil) ♂ Lv 5
 - **Scout** (Sentret) ♂ Lv 2
 - **Ace** (Pidgey) ♂ Lv 3
-## Pokémon Locations
+### Pokémon Locations
 - **Route 29**: Pidgey, Sentret, Rattata
 - **Route 30**: Pidgey, Caterpie
