@@ -123,11 +123,6 @@
   - **Result:** Interacted with the tree. Dialogue confirmed "There's nothing here…".
   - **Conclusion:** Hypothesis is FALSE.
 
-# Current Status: Blocked - Medicine/SURF Required
-- **Primary Blockers:** I cannot progress in the Olivine Lighthouse without 'special medicine', and I cannot travel to Cianwood City or Mahogany Town without SURF.
-- **Miltank Quest (BLOCKED):** My `quest_progression_advisor` suggested returning to the Miltank on Route 39. However, this is not a viable path. I have confirmed that I do not have the required 'BERRY' item, and I have exhausted all methods of finding it on Route 39 (Headbutt, Fruit Tree, farmer dialogue).
-- **New Plan:** All known quests are currently blocked. I will now begin a systematic re-exploration of all accessible areas, starting with Olivine City, to find a new lead, an overlooked NPC, or a hidden item. I will talk to every single NPC again.
-
 # Olivine City Notes
 - A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
 
