@@ -1,8 +1,8 @@
 # Adventure Log: Johto Journey
 
 ## Current Objectives
-- **Primary:** URGENT: Return to Prof. Elm with Mystery Egg immediately! (He mentioned a 'disaster').
-- **Secondary:** Explore Route 30.
+- **Primary:** Begin the Gym Challenge! First stop: Violet City.
+- **Secondary:** Talk to Mom in New Bark Town before leaving.
 
 ## Game Mechanics
 ### Tile Types (Verified)
@@ -19,18 +19,16 @@
 - **TV / BOOKSHELF / WINDOW / TOWN_MAP**: Impassable obstacles/decorations.
 - **WATER**: Impassable without Surf.
 - **DOOR**: Walkable (Warp).
-- **HEADBUTT_TREE**: Interactable.
+- **HEADBUTT_TREE**: Impassable obstacle.
 
 ## Story Highlights
 - **New Bark Town:** 
-  - Prof. Elm gave me Kimchi (Cyndaquil). 
-  - Tasked to visit Mr. Pokémon regarding a discovery.
-  - Spotted "Rival" (Red-haired boy) spying on lab.
-  - Visited Neighbors and Elm's family.
-- Arrived in Cherrygrove City.
-- **Discovery:** Cherrygrove Mart does not sell Poké Balls yet.
-- **New Tile:** LADDER (Walkable, Warp).
+  - Prof. Elm gave me Kimchi (Cyndaquil).
+  - Tasked to visit Mr. Pokémon.
+- **Route 30:** 
+  - Met Mr. Pokémon & Prof. Oak. Received Mystery Egg & Pokédex.
+- **Theft Investigation:**
+  - Defeated Rival (Silver) in Cherrygrove. He stole a Totodile.
+  - Delivered Mystery Egg to Elm. He suggested the Gym Challenge.
 ### Interactive Objects
-- **BERRY_TREE**: Object (e.g., ID 8). Acts as a solid obstacle. Interact (A) to harvest a berry.
-- Found Antidote at Route 30 (8, 35).
-- Defeated Rival (Red-haired boy) in Cherrygrove City. He used a Level 5 Totodile.
+- **BERRY_TREE**: Object. Acts as a solid obstacle. Interact (A) to harvest.
