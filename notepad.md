@@ -3,13 +3,12 @@
 ## Current Objectives
 - **Primary:** Begin the Gym Challenge! First stop: Violet City.
 - **Secondary:** Reach Violet City.
-- **Navigation:** Bypass defeated Bug Catcher Don, traverse Route 30 North to Violet City.
 - **Urgent:** Heal team at Pokémon Center.
 
 ## Game Mechanics
 ### Tile Mechanics
 - **Traversable**: FLOOR, WARP_CARPET_DOWN, TALL_GRASS, DOOR.
-- **Impassable**: WALL, VOID, WATER, TREES, DECORATIONS.
+- **Impassable**: WALL, VOID, WATER, HEADBUTT_TREE, CUT_TREE, DECORATIONS.
 - **Interactable (Blocked)**: COUNTER, PC.
 - **Ledges**: One-way (DOWN, LEFT, RIGHT).
 
@@ -27,11 +26,6 @@
 - **BERRY_TREE**: Object. Acts as a solid obstacle. Interact (A) to harvest.
 
 ## Battle and Pokemon Information
-### Current Team
-- **Kimchi** (Cyndaquil) ♂ Lv 7 (11/22 HP)
-- **Scout** (Sentret) ♂ Lv 2
-- **Ace** (Pidgey) ♂ Lv 4 (4/17 HP)
-- **Silk** (Caterpie) ♂ Lv 3
 ### Pokémon Locations
 - **Route 29**: Pidgey, Sentret, Rattata
 - **Route 30**: Pidgey, Caterpie
