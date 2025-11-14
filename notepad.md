@@ -15,10 +15,8 @@
 - **Current Plan:** Exit the Azalea Gym and travel to Olivine City to investigate the Lighthouse.
 
 ### Phone Call Quests
-- **ALAN (SCHOOLBOY):** Has an item for me on ROUTE 36.
 - **DANA (LASS):** Wants a rematch on ROUTE 38.
 - **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
-- **TODD (CAMPER):** Wants a rematch on ROUTE 34.
 - **ANTHONY (HIKER):** Wants a rematch on ROUTE 33.
 
 ### Procedural Improvements (From Overwatch Critique)
