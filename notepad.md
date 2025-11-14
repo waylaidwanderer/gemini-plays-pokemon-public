@@ -427,10 +427,6 @@
 - **BOOKSHELF:** Re-confirm impassable status.
 
 # Cianwood City Log
-- **Hypothesis 1 (Pharmacist):** The pharmacist at (2, 3) will provide the special medicine for the Ampharos.
-  - **Test:** Interacted with the pharmacist at (2, 4).
-  - **Result:** The interaction only opened a standard shop menu. No unique dialogue or special items were offered.
-  - **Conclusion:** Hypothesis is FALSE. The medicine is not obtained through a simple, initial interaction.
 
 # Self-Assessment Action Items (Turn 39503)
 - **Task:** Test the `FLOOR_UP_WALL` tile at (10, 48) on this map to confirm its one-way traversal mechanic.
