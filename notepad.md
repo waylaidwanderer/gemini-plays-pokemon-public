@@ -29,3 +29,5 @@
   - Spotted "Rival" (Red-haired boy) spying on lab.
   - Visited Neighbors and Elm's family.
 - Arrived in Cherrygrove City.
+- **Discovery:** Cherrygrove Mart does not sell Poké Balls yet.
+- **New Tile:** LADDER (Walkable, Warp).
