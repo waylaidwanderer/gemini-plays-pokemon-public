@@ -479,31 +479,11 @@
 
 # Self-Assessment Action Items (Turn 40698)
 
-## Untested Assumptions & Alternative Hypotheses (ManiasHouse Puzzle)
-- **Primary Hypothesis:** I am trapped because a hidden item or switch must be found to activate the exit warp.
-- **Alternative Hypothesis 1:** The `WARP_CARPET_DOWN` tile is bugged or has a non-obvious trigger (e.g., requires a specific Pokémon in the party, a certain time of day, or returning SHUCKIE was the trigger and the warp is now active).
-- **Alternative Hypothesis 2:** The warp tiles at (2, 7) and (3, 7) are a red herring. The true exit is a hidden door elsewhere in the room that requires pressing 'A' on a specific wall tile.
-
 ## Tile Mechanics to Verify
 - **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity to address the overwatch critique and adhere to my procedural rules.
 
 ## Agent/Tool Development Ideas
 - **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
-- **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the exact sequence of D-pad presses required to select it on the FLY map, preventing manual navigation errors.
-
-<details>
-<summary>ManiasHouse Puzzle Log (SOLVED)</summary>
-
-- **Problem:** Trapped in the house after returning SHUCKIE. Movement was locked, and exit warps were inactive.
-- **Solution:** This was a scripted event. The trigger sequence was:
-  1. Become trapped (movement locked).
-  2. Press 'Select' to trigger a tutorial message about registering an item.
-  3. This action unlocks the main menu ('Start' button).
-  4. Attempt to use an ESCAPE ROPE from the PACK. This is blocked by a special dialogue from Professor Oak.
-  5. Exit the menu completely.
-- **Conclusion:** Completing this specific sequence of failed attempts unlocks movement and solves the puzzle. The exit warps are now presumably active.
-
-</details>
 
 # Self-Assessment Action Items (Turn 40771)
 - **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity to address the overwatch critique and adhere to my procedural rules.
