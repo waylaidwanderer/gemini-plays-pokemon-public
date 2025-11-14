@@ -400,3 +400,7 @@
 
 ## 5. Agent/Tool Development Ideas (New)
 - **`phone_call_summarizer` Agent:** Parses phone call dialogue to extract key information (rematches, items) and suggest notepad updates.
+
+# Route 36 Sudowoodo Puzzle Log (Solved)
+- Hypothesis 1 (Failed): Using SQUIRTBOTTLE on the Sudowoodo at (35, 9) from below (35, 10) resulted in the message "But nothing happened...".
+- Unexpected Solution: After the failed attempt, moving to the adjacent left tile (34, 9) and then turning to face the Sudowoodo's location (pressing Right) caused the Sudowoodo to disappear, clearing the path. The exact trigger is unclear, but this sequence of actions solved the puzzle.
