@@ -38,6 +38,9 @@
 - **JACK (SCHOOLBOY):** NATIONAL PARK.
 - **ALAN (SCHOOLBOY):** Route 36.
 
+### Phone Call Chats
+- **JACK (SCHOOLBOY):** Called to chat about his VOLTORB and a recent battle.
+
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
 
