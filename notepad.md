@@ -165,11 +165,6 @@
 ## Confirmed System Mechanics
 - **PC Usage:** BILL's PC is for Pokémon Storage. Gem's PC is for Item Storage. This is a critical distinction to remember to avoid wasting time in the wrong menu.
 
-# Self-Assessment Action Items (Turn 39295)
-- **Task:** Test unverified tile types (BOOKSHELF, WINDOW, TOWN_MAP, TV, RADIO) at the next opportunity to confirm their traversability.
-
-- **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
-
 # Cianwood City Log
 
 # Self-Assessment Action Items (Turn 39503)
