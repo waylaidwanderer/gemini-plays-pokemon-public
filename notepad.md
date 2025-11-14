@@ -1,9 +1,10 @@
 # Gem's Strategic Brain
 
-## 🚨 CRITICAL LESSONS TO MEMORIZE 🚨
-- **COORDINATE SYSTEM IS 0-INDEXED:** The game's map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic. Assuming 1-based indexing is a critical, repeated failure.
-- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
-- **VERIFY BEFORE ACTING:** My internal sense of location is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
+## 🚨 CRITICAL DIRECTIVES 🚨
+- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool/agent fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'. This is the highest priority.
+- **VERIFY, DON'T ASSUME:** My internal sense of location and memory is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
+- **COORDINATE SYSTEM IS 0-INDEXED:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
+- **TEXT BOXES:** If 'A' fails to advance text, the next hypothesis is to try 'B'.
 
 ## 1. Main Quest: The Sick Ampharos
 - **Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
