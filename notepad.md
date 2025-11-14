@@ -2,7 +2,8 @@
 
 ## Current Objectives
 - **Primary:** Begin the Gym Challenge! First stop: Violet City.
-- **Secondary:** Talk to Mom in New Bark Town before leaving.
+- **Secondary:** Reach Violet City.
+- **Navigation:** Backtrack South to Y=30, then cut West towards Violet City.
 
 ## Game Mechanics
 ### Tile Mechanics
