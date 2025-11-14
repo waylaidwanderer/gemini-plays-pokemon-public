@@ -393,7 +393,6 @@
 # Self-Assessment Findings (Turn 38567)
 
 ## Agent/Tool Development Ideas
-- **Multi-Map Navigation Agent:** Create an agent that takes a high-level destination (e.g., 'Olivine City') and generates a sequence of sub-goals for each map transition (e.g., 'Path to Route 35 Gate', 'Cross National Park', etc.). This would automate high-level journey planning.
 
 ## Untested Assumptions & Alternative Hypotheses
 - **Assumption:** The path to Olivine City from Ecruteak is a straightforward land route.
