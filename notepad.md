@@ -24,3 +24,4 @@
   - Tasked to visit Mr. Pokémon regarding a discovery.
   - Spotted "Rival" (Red-haired boy) spying on lab.
   - Visited Neighbors and Elm's family.
+- Arrived in Cherrygrove City.
