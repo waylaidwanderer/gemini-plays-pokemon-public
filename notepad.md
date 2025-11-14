@@ -363,11 +363,6 @@
 
 # Tool Development Log
 
-# Self-Assessment Action Items (Turn 39920)
-- **Task:** Fix the `plan_next_exploration_step` tool. It is currently failing with a 'Not in grid' error during BFS neighbor checking.
-- **Task:** Systematically test the `FLOOR_UP_WALL` tile to resolve the contradiction in my notes about its one-way traversal direction.
-- **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
-
 # Procedural Rules (From Overwatch Critique)
 - **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
 - **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
