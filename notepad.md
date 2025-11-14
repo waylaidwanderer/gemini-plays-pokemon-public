@@ -357,3 +357,19 @@
 
 # Cianwood Pharmacy Log
 - Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
+
+# Maintenance Log (Turn 41789)
+
+## 3. Critical Failures to Address
+- **Tool Misuse (CRITICAL):** I have repeatedly used `autopress_buttons=true` with my `path_and_execute_v3` tool, which outputs coordinates, not button strings. This indicates a severe failure to learn from repeated mistakes and must be corrected immediately.
+
+## Tile Mechanics (Additions)
+### Warp Tiles
+- **WARP_CARPET_RIGHT:** One-way warp, activated by pressing right onto it.
+
+### Conditional/One-Way Tiles
+- **LEDGE_HOP_LEFT:** One-way tile (can only be entered from the right).
+- **LEDGE_HOP_RIGHT:** One-way tile (can only be entered from the left).
+
+## 5. Agent/Tool Development Ideas
+- **`repel_advisor` Tool:** Create a tool or agent that suggests using a Repel if the encounter rate is high and one is available in the inventory. This would have been useful in Union Cave.
