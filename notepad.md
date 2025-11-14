@@ -200,7 +200,7 @@
 - Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
 
 ## 3. Critical Bugs & Lessons Learned
-- **`autopress_buttons` Misuse (CRITICAL):** I have a severe, recurring failure of using `autopress_buttons=true` with tools that output data (like coordinates or decisions) instead of a JSON array of button strings. This parameter is *exclusively* for tools designed to automate menu navigation via button presses. This must be corrected immediately.
+- **`autopress_buttons` Misuse (CRITICAL):** I have a severe, recurring failure of using `autopress_buttons=true` with tools that output data (like coordinates or decisions) instead of a JSON array of button strings. This parameter is *exclusively* for tools that generate button press sequences for menu navigation. Confusing `path_plan` with `autopress_buttons` leads to critical tool failures.
 
 ## 5. Agent/Tool Development Ideas (New)
 - **`phone_call_summarizer` Agent:** Parses phone call dialogue to extract key information (rematches, items) and suggest notepad updates.
