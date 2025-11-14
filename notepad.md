@@ -1,7 +1,7 @@
 # Adventure Log: Johto Journey
 
 ## Current Objectives
-- **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
+- **Primary:** Return to Prof. Elm with Mystery Egg.
 - **Secondary:** Explore Route 30.
 
 ## Game Mechanics
