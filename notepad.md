@@ -3,7 +3,7 @@
 ## Current Objectives
 - **Primary:** Begin the Gym Challenge! First stop: Violet City.
 - **Secondary:** Reach Violet City.
-- **Navigation:** Backtrack South to Y=30, then cut West towards Violet City.
+- **Navigation:** Defeat Youngster Joey, then continue North to Violet City.
 
 ## Game Mechanics
 ### Tile Mechanics
