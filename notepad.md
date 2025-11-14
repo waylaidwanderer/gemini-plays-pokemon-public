@@ -6,15 +6,18 @@
 - **COORDINATE SYSTEM IS 0-INDEXED:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
 - **TEXT BOXES:** If 'A' fails to advance text, the next hypothesis is to try 'B'.
 
-## 1. Main Quest: The Sick Ampharos
-- **Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-- **Current Location:** Route 34.
-- **Next Step:** Use FLY to travel to Olivine City.
-- **Known Blockers:**
-    - The path up the Olivine Lighthouse is blocked. An NPC mentioned needing 'special medicine'.
-    - An NPC in Cianwood City gave me HM02 FLY and suggested it would be a fast way back to Olivine.
-    - The Cianwood Pharmacy did not have the medicine.
-- **Hypothesis:** The medicine is a key item obtained by progressing the story in Cianwood City (defeating the Gym, solving the stolen Pokémon quest) or is located elsewhere entirely. Since I have the Storm Badge from Cianwood, my next logical step is to return to Olivine.
+## 1. Main Quest & Active Leads
+- **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
+  - **Current Location:** Violet City (accidental flight).
+  - **Next Step:** Use FLY to travel to Olivine City.
+- **Side Quests & Leads:**
+  - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
+  - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently holding his SHUCKIE for safekeeping.
+- **Phone Call Rematches & Events:**
+  - **ALAN (SCHOOLBOY):** Has an item for me on Route 36.
+  - **DANA (LASS):** Wants a rematch on Route 38.
+  - **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
+  - **ANTHONY (HIKER):** Wants a rematch on Route 33.
 
 ## 2. Side Quests & Leads
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently holding his SHUCKIE for safekeeping. Need to investigate.
