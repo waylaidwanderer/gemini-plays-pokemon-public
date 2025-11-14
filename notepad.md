@@ -64,37 +64,42 @@
 - **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
 
-## 6. Tile Mechanics
-- **BOOKSHELF:** Impassable. (Confirmed in Cianwood Pharmacy).
-- **BUOY:** Impassable. (Confirmed by attempting to surf into it on Route 40).
-- **COUNTER:** Impassable.
-- **CUT_TREE:** Impassable. Can be removed using the move CUT. (Confirmed on Route 35).
-- **DOOR:** A two-way warp tile.
-- **FLOOR:** Traversable.
-- **FLOOR_UP_WALL:** One-way ledge. Can only be traversed by moving UP onto it from below. It is IMPASSABLE when moving DOWN onto it from above. (Verified in Union Cave at (8, 28) on Turn 40499).
-- **GRASS:** Traversable. (Confirmed in Azalea Gym). Note: Visually appears as grass, but map data may list as 'FLOOR'.
-- **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
-- **LADDER:** A two-way warp tile.
-- **LEDGE_HOP_DOWN:** A one-way tile (can only be entered from above).
-- **MART_SHELF:** Impassable.
-- **PC:** Impassable. Interactable from an adjacent tile.
-- **PILLAR:** Impassable.
-- **PIT:** A one-way warp tile, activated by moving onto it.
-- **RADIO:** Impassable. (Confirmed in ManiasHouse).
-- **RADIO:** Impassable. (Confirmed in Cianwood Pharmacy).
-- **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
-- **STAIRCASE:** A two-way warp tile.
-- **TALL_GRASS:** Traversable, triggers wild encounters.
-- **TV:** Impassable. (Confirmed in ManiasHouse).
-- **VOID:** Impassable.
-- **WALL:** Impassable. (Confirmed in Azalea Gym).
-- **WINDOW:** Impassable. (Confirmed in Olivine Lighthouse 2F).
-- **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
-- **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
+## 4. Tile Mechanics
+### Impassable Tiles
+- **BOOKSHELF:** (Confirmed in Cianwood Pharmacy).
+- **BUOY:** (Confirmed by attempting to surf into it on Route 40).
+- **COUNTER:**
+- **CUT_TREE:** Can be removed using the move CUT. (Confirmed on Route 35).
+- **HEADBUTT_TREE:** Can be interacted with using HEADBUTT.
+- **MART_SHELF:**
+- **PC:** Interactable from an adjacent tile.
+- **PILLAR:**
+- **RADIO:** (Confirmed in ManiasHouse & Cianwood Pharmacy).
+- **ROCK:** Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
+- **TOWN_MAP:** (Confirmed in Cianwood Pharmacy).
+- **TV:** (Confirmed in ManiasHouse & Cianwood Pharmacy).
+- **VOID:**
+- **WALL:** (Confirmed in Azalea Gym).
+- **WHIRLPOOL:**
+- **WINDOW:** (Confirmed in Olivine Lighthouse 2F & Cianwood Pharmacy).
+
+### Traversable Tiles
+- **FLOOR:**
+- **GRASS:** Visually appears as grass, but map data may list as 'FLOOR'.
+- **TALL_GRASS:** Triggers wild encounters.
+
+### Warp Tiles
+- **DOOR:** Two-way warp.
+- **LADDER:** Two-way warp.
+- **PIT:** One-way warp, activated by moving onto it.
+- **STAIRCASE:** Two-way warp.
+- **WARP_CARPET:** One-way warp, activated by pressing in the indicated direction.
+- **WARP_CARPET_DOWN:** One-way warp, activated by moving down onto it. (Confirmed in Union Cave 1F).
+
+### Conditional/One-Way Tiles
+- **FLOOR_UP_WALL:** One-way ledge. Can only be traversed by moving UP onto it from below. IMPASSABLE when moving DOWN onto it from above. (Verified in Union Cave at (8, 28)).
+- **LEDGE_HOP_DOWN:** One-way tile (can only be entered from above).
 - **WATER:** Impassable without SURF.
-- **TV:** Impassable. (Confirmed in Cianwood Pharmacy).
-- **TOWN_MAP:** Impassable. (Confirmed in Cianwood Pharmacy).
-- **WHIRLPOOL:** Impassable.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
