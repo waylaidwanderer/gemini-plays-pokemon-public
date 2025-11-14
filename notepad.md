@@ -7,7 +7,7 @@
 
 ## 1. Main Quest: The Sick Ampharos
 - **Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-- **Current Location:** Route 34 Ilex Forest Gate.
+- **Current Location:** Route 34.
 - **Next Step:** Use FLY to travel to Olivine City.
 - **Known Blockers:**
     - The path up the Olivine Lighthouse is blocked. An NPC mentioned needing 'special medicine'.
