@@ -294,12 +294,6 @@
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
 - **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
 
-# Goldenrod Underground Log
-- **Hypothesis:** The SUPER_NERD at (6, 9) is a shopkeeper.
-  - **Test:** Attempted to interact with the counter in front of him multiple times from the correct position (5, 10).
-  - **Result:** No interaction or shop menu appeared.
-  - **Conclusion:** Hypothesis is FALSE. This NPC is only a trainer.
-
 # Self-Assessment Findings (Turn 38567)
 
 ## Untested Assumptions & Alternative Hypotheses
