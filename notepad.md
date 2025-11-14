@@ -58,7 +58,7 @@
 - **Hallucination Loop (CRITICAL):** My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
 - **Inventory Hallucination (CRITICAL):** I have a severe tendency to fail to verify my inventory before forming a plan (e.g., the ESCAPE ROPE incident). I must always check my PACK before assuming I have an item.
 - **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks while the game's map data is 0-indexed (`0 <= coordinate < dimension`). This must be the first thing I check for any future pathfinding failures.
-- **Tool Misuse (CRITICAL):** I have a severe recurring issue of using `autopress_buttons=true` with tools that output coordinates or decisions, not button strings. This is a critical failure to learn from documented mistakes and must be corrected immediately.
+- **TOOL MISUSE:** `autopress_buttons=true` is ONLY for tools that output button strings, not coordinates or decisions. Confusing `path_plan` with `autopress_buttons` leads to critical tool failures.
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 - **Text Box Loop (CRITICAL):** If 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
