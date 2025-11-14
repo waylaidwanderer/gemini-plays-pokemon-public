@@ -30,5 +30,6 @@
 - **Theft Investigation:**
   - Defeated Rival (Silver) in Cherrygrove. He stole a Totodile.
   - Delivered Mystery Egg to Elm. He suggested the Gym Challenge.
+  - Received 5 Poké Balls from Aide. Catching unlocked!
 ### Interactive Objects
 - **BERRY_TREE**: Object. Acts as a solid obstacle. Interact (A) to harvest.
