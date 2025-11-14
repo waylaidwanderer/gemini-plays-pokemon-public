@@ -218,3 +218,6 @@
 
 ## Moomoo Farm Quest Mechanics
 - The sick Miltank requires a specific item named 'BERRY'. Other named berries like 'BITTER BERRY' or 'MINT BERRY' do not work for this quest. (Confirmed in Moomoo Farm Barn)
+
+# Self-Assessment Action Items (Turn 42181)
+- **Task:** Test unverified tile types (MART_SHELF, PILLAR) at the next opportunity (e.g., in the Olivine Mart) to confirm their traversability.
