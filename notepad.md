@@ -77,7 +77,7 @@
 ### Impassable Tiles
 - **BOOKSHELF:** (Confirmed in Cianwood Pharmacy).
 - **BUOY:** (Confirmed by attempting to surf into it on Route 40).
-- **COUNTER:**
+- **COUNTER:** Impassable, but allows interaction with objects/NPCs on the other side from an adjacent tile. (Confirmed in Olivine Cafe).
 - **CUT_TREE:** Can be removed using the move CUT. (Confirmed on Route 35).
 - **HEADBUTT_TREE:** Can be interacted with using HEADBUTT.
 - **MART_SHELF:**
