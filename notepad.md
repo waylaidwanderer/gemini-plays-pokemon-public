@@ -1,13 +1,18 @@
 # Pokémon Crystal Adventure Notes
 
 ## Current Status
-- Just started a new game.
-- Selected gender: Girl.
-- Name: GEM.
+- Name: GEM
+- Gender: Girl
+- Location: PlayersHouse1F
+- Money: ¥3000
+- Badges: 0
 
-## To-Do
-- Complete the intro.
-- Choose a starter Pokémon.
-- Started in PlayersHouse2F.
-- Current Location: PlayersHouse1F.
-- Goal: Go downstairs and find Mom.
+## Goals
+- Primary: Get Pokegear from Mom.
+- Secondary: Leave home.
+
+## Game Mechanics
+### Tile Types
+- **FLOOR**: Traversable. Standard walking tile.
+- **WALL**: Impassable.
+- **STAIRCASE**: Warp tile. Traversable.
