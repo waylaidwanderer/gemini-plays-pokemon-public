@@ -217,3 +217,8 @@
 
 # Self-Assessment Action Items (Turn 42181)
 - **Task:** Test unverified tile types (MART_SHELF, PILLAR) at the next opportunity (e.g., in the Olivine Mart) to confirm their traversability.
+
+# Olivine Good Rod House Puzzle (Solved)
+- **Problem:** Trapped in the house. The 'WARP_CARPET_DOWN' at the exit did not activate through any standard movement (from above, side) or interaction ('A', 'B', 'Select').
+- **Hypothesis (Falsified):** Re-interacting with the Fishing Guru would unlock the exit.
+- **Solution:** Opening the main menu with 'Start' and then pressing 'Down' on the D-pad triggered the exit warp. This confirms the existence of non-obvious, menu-based puzzle solutions.
