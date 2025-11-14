@@ -500,3 +500,6 @@
 4. Cianwood Pokecenter
 5. Cianwood Lugia Speech House
 6. Cianwood Photo Studio
+
+# Cianwood Pharmacy Tasks
+- Test unverified tile types (BOOKSHELF, TV, TOWN_MAP, RADIO, WINDOW) after speaking to the pharmacist.
