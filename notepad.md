@@ -113,25 +113,15 @@
 # Olivine City Notes
 - A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
 
-# Maintenance Log (Turn 34407)
-
-## Tile Rule Additions
-- **Traversable:** TALL_GRASS (Functions like regular GRASS, but may have different encounter rates).
-
-# Self-Assessment Findings (Turn 34511)
-
-## Untested Assumptions & Alternative Hypotheses
-- **Assumption:** The solution to my progression block is in a previously visited area.
-  - **Alternative Hypothesis:** The solution requires reaching a new area, and I have missed the trigger. For instance, there might be a hidden path on Route 42 leading to Mahogany Town.
-  - **Test to Falsify:** If the systematic re-exploration of Olivine and Ecruteak fails, I must thoroughly re-explore Route 42, using the ITEMFINDER on every tile.
-- **Assumption:** An NPC's dialogue is the key to progressing.
-  - **Alternative Hypothesis:** The key is a hidden item, and no NPC provides a direct clue.
-  - **Test to Falsify:** If the NPC sweep of Olivine and Ecruteak fails, I must perform a full sweep of both cities with the ITEMFINDER on every single tile.
-
-- **Olivine Lighthouse Puzzle (BLOCKED - External Item/Event Required Hypothesis):** Progression is blocked pending an external key item (e.g., medicine for the sick Ampharos) or a story event triggered elsewhere.
-
-# Philosophy Update (Overwatch Critique, Turn 34667)
-- **Debugging Inefficiency:** My debugging process for `path_and_execute_v3` was inefficient. I repeatedly fixed symptoms (wrong start coordinate) without a thorough root cause analysis, leading to multiple failures. In the future, I must be more methodical in debugging, using extensive logging to find the core issue on the first attempt.
+## 5. Confirmed System Mechanics
+- **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
+- **HM Move Permanence:** HM moves cannot be forgotten through normal means.
+- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
+- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
+- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; you must still navigate around them.
+- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
+- **`path_plan` vs `autopress_buttons`:** `path_plan` is for coordinate-based overworld movement. `autopress_buttons` is for menu-based button string execution. Confusing them leads to critical tool failures.
+- **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
 
 </details>
 
