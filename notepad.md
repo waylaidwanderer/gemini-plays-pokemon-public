@@ -6,14 +6,17 @@
 - **`city_exploration_planner`:** Generates a systematic and efficient exploration plan for a new city.
 - **`world_navigator_agent`:** Suggests a new major region or city to investigate when all local leads are exhausted.
 - **`reality_check_agent`:** Analyzes my intended action and the current game state to identify potential hallucinations or logical inconsistencies before I act.
-- **`phone_call_summarizer`:** Parses phone call dialogue to extract key information (rematches, items) and suggest notepad updates.
+- **`puzzle_solver_agent`:** Analyzes a puzzle's state, including observations and a list of failed hypotheses, to suggest the next logical, simple test to perform.
 
 ### Tools
 - **`deterministic_battle_strategist`:** A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
 - **`path_and_execute_v3`:** Generates a path to a target coordinate, treating all objects as impassable and finding an adjacent tile if the target is blocked.
-- **`pokemon_nicknamer`:** Automates the process of nicknaming a Pokémon.
 - **`plan_next_exploration_step`:** Finds the closest reachable 'unseen' tile on the current map and returns its coordinates.
+- **`pokemon_nicknamer`:** Automates the process of nicknaming a Pokémon.
 - **`select_battle_option`:** Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
+- **`stun_npc`:** Stops or resumes the movement of NPCs in the game.
+- **`define_tool`:** Defines a new custom tool that can be executed in subsequent turns.
+- **`delete_agent`:** Deletes a custom agent by its name.
 
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
