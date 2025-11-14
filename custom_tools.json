@@ -74,5 +74,17 @@
         "action_counter": 42
       }
     ]
+  },
+  "find_nearest_unseen": {
+    "description": "Scans the map for 'unseen' tiles and uses BFS to find the nearest one that is reachable from the player's current position. Returns the coordinate of the target tile, or null if none are reachable.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\ngrid = {}\nunseen_tiles = set()\nstart_pos = None\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib.get('type', 'WALL')\n        is_unseen = tile.attrib.get('type') == 'unseen'\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        \n        # Player position\n        if tile.find('Player') is not None:\n            start_pos = (x, y)\n            \n        # Passability (Allow walking on unseen for the purpose of 'finding' them)\n        # We consider unseen tiles as valid targets, so they are 'passable' for the *last* step\n        is_passable = (tile_type != 'WALL' and tile_type != 'VOID' and not has_object)\n        \n        grid[(x, y)] = is_passable\n        if is_unseen:\n            unseen_tiles.add((x, y))\n            grid[(x, y)] = True # Unseen tiles are potentially passable targets\n\nif start_pos is None:\n    print(json.dumps(None))\n    exit()\n\n# BFS\nqueue = [[start_pos]]\nvisited = {start_pos}\n\nwhile queue:\n    path = queue.pop(0)\n    current = path[-1]\n    \n    if current in unseen_tiles:\n        print(json.dumps({'x': current[0], 'y': current[1]}))\n        exit()\n    \n    neighbors = [\n        (current[0], current[1] - 1),\n        (current[0], current[1] + 1),\n        (current[0] - 1, current[1]),\n        (current[0] + 1, current[1])\n    ]\n    \n    for next_node in neighbors:\n        if next_node in grid and next_node not in visited:\n            if grid[next_node]:\n                visited.add(next_node)\n                new_path = list(path)\n                new_path.append(next_node)\n                queue.append(new_path)\n\nprint(json.dumps(None))",
+    "history": [
+      {
+        "commit_message": "feat: Add find_nearest_unseen tool for automated exploration.",
+        "timestamp": "2025-11-14T07:06:30.308Z",
+        "action_counter": 207
+      }
+    ]
   }
 }
