@@ -391,3 +391,4 @@
 - **`repel_advisor` Tool:** Create a tool or agent that checks inventory for Repels and suggests using one when entering a high-encounter area (like a cave or forest).
 - **`find_reachable_unseen_tiles` Tool:** Create a tool to parse the map XML and determine which unseen tiles are *actually* reachable from the player's current position.
 - **Gameplay Tasks:** Test traversability of `BUOY` tile with SURF.
+- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts. (Confirmed on Route 35 with Juggler Irwin).
