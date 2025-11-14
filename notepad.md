@@ -505,5 +505,5 @@
 5. Cianwood Lugia Speech House
 6. Cianwood Photo Studio
 
-# Cianwood Pharmacy Tasks
-- Test unverified tile types (BOOKSHELF, TV, TOWN_MAP, RADIO, WINDOW) after speaking to the pharmacist.
+# Cianwood Pharmacy Log
+- Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
