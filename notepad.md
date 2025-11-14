@@ -37,3 +37,4 @@
 ### Current Team
 - **Kimchi** (Cyndaquil) ♂ Lv 5
 - **Scout** (Sentret) ♂ Lv 2
+- **Ace** (Pidgey) ♂ Lv 3
