@@ -39,7 +39,6 @@
 - **Route 41:** Contains WHIRL ISLANDS. An NPC mentioned it's 'pitch-black' inside, implying FLASH is needed. WHIRLPOOL tiles are impassable.
 - **Route 42:** Path to Mahogany Town is blocked by water, requiring SURF.
 - **Goldenrod Underground:** A locked door at (18, 6) remains unsolved.
-- **Miltank Quest (Route 39):** BLOCKED. I have exhausted all methods of finding the required 'BERRY' item.
 
 ## 3. Untested Assumptions & Alternative Hypotheses (Active)
 
