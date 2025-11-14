@@ -512,9 +512,3 @@
 
 # Cianwood Pharmacy Log
 - Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
-
-# Cianwood City Log (Update)
-- **Hypothesis 2 (Pharmacist):** The pharmacist at (2, 3) will provide the special medicine for the Ampharos after defeating Gym Leader Chuck.
-  - **Test:** Interacted with the pharmacist on turn 41510.
-  - **Result:** The interaction only opened a standard shop menu. No special medicine was offered.
-  - **Conclusion:** Hypothesis is FALSE.
