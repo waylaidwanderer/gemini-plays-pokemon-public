@@ -532,7 +532,7 @@
 - **Alternative Hypothesis 2:** The warp tiles at (2, 7) and (3, 7) are a red herring. The true exit is a hidden door elsewhere in the room that requires pressing 'A' on a specific wall tile.
 
 ## Tile Mechanics to Verify
-- **Task:** Systematically test the traversability of `BOOKSHELF`, `TV`, and `RADIO` tiles at the next opportunity to confirm they are impassable.
+- **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity to address the overwatch critique and adhere to my procedural rules.
 
 ## Agent/Tool Development Ideas
 - **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
