@@ -312,18 +312,6 @@
   - **Result:** No interaction or shop menu appeared.
   - **Conclusion:** Hypothesis is FALSE. This NPC is only a trainer.
 
-# Goldenrod Underground Hidden Item Puzzle Log (Super Potion @ 4, 18) - UNSOLVED
-- **Hypothesis 1:** Stand on the item tile (4, 18) and press 'A'.
-  - **Result:** Tested while facing left, up, down, and right. All attempts failed.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 2:** Stand on an adjacent tile and press 'A' while facing the item.
-  - **Result:** Tested from (5, 18) facing left. Attempt failed.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 3:** Stand on the tile *below* the item (4, 19), face up, and press 'A'.
-  - **Result:** Attempted to execute, but got stuck in a hallucination loop at (4, 18). After multiple failed attempts to even reach (4, 19) and interact, this hypothesis is considered failed.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Final Conclusion:** All simple interaction hypotheses have failed. The item is currently unobtainable. I must move on and not attempt to get this item again until I have new information or a new tool (like a different version of ITEMFINDER).
-
 # Self-Assessment Findings (Turn 38567)
 
 ## Untested Assumptions & Alternative Hypotheses
