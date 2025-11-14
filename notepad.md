@@ -13,7 +13,6 @@
 - **`path_and_execute_v3`:** Generates a path to a target coordinate, treating all objects as impassable and finding an adjacent tile if the target is blocked.
 - **`pokemon_nicknamer`:** Automates the process of nicknaming a Pokémon.
 - **`plan_next_exploration_step`:** Finds the closest reachable 'unseen' tile on the current map and returns its coordinates.
-- **`fly_navigator`:** Calculates the sequence of D-pad presses to navigate from a current city to a target city on the FLY map and select it.
 
 ## 🚨 CRITICAL DIRECTIVES 🚨
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool/agent fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'. This is the highest priority.

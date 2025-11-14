@@ -783,36 +783,5 @@
         "action_counter": 41038
       }
     ]
-  },
-  "use_hm_from_menu": {
-    "description": "Navigates the menu to select a specific Pokémon from the party by its 1-based index and use a specific HM move by its 1-based index. Outputs a sequence of button presses. This version is more robust and resets the cursor position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_index": {
-          "type": "string"
-        },
-        "move_index": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "pokemon_index",
-        "move_index"
-      ]
-    },
-    "python_script": "import json\n\npokemon_index = int(input_data['pokemon_index'])\nmove_index = int(input_data['move_index'])\n\nbuttons = []\n\n# Open menu\nbuttons.append(\"Start\")\n\n# Reset cursor to top (POKEDEX) by pressing Up multiple times\nfor _ in range(8):\n    buttons.append(\"Up\")\n\n# Navigate to POKEMON (1 down from POKEDEX)\nbuttons.append(\"Down\")\nbuttons.append(\"A\") # Select POKEMON\n\n# Navigate to the correct pokemon\nfor _ in range(pokemon_index - 1):\n    buttons.append(\"Down\")\n\nbuttons.append(\"A\") # Select the pokemon\n\n# Navigate to the correct move\nfor _ in range(move_index - 1):\n    buttons.append(\"Down\")\n\nbuttons.append(\"A\") # Select the move\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create use_hm_from_menu tool. This tool automates the repetitive process of navigating the menu to use an HM move like SURF. It takes a Pokémon's party index and a move index as input and generates the necessary button presses. This directly addresses an overwatch critique about offloading repetitive work to tools and will improve gameplay efficiency.",
-        "timestamp": "2025-11-14T08:08:13.228Z",
-        "action_counter": 41081
-      },
-      {
-        "commit_message": "fix: Add cursor reset logic to handle menu memory. The tool was critically failing by assuming the cursor started at a fixed position, causing it to navigate to the wrong menu (e.g., OPTIONS). This commit adds a loop to press 'Up' multiple times, guaranteeing the cursor resets to the top of the menu before proceeding. This resolves the failure and makes the tool robust.",
-        "timestamp": "2025-11-14T08:11:45.967Z",
-        "action_counter": 41087
-      }
-    ]
   }
 }
