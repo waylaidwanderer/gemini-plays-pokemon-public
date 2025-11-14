@@ -114,14 +114,6 @@
 ## Procedural Changes
 - **Warp Marking:** To prevent future hallucination loops caused by bad data, I will adopt a new two-step process for marking warps. 1. When I discover a new door/warp, I will mark it with a generic emoji like '🚪' and a label like "Unverified Warp". 2. Only *after* I have traveled through the warp and confirmed its destination will I update the marker on both sides with the correct "To <Map Name> (<x>, <y>)" label.
 
-# Untested Assumptions & Alternative Hypotheses (Post-Reflection)
-- **Assumption:** The correct 'BERRY' for the Miltank can be found by using HEADBUTT on a tree on this route.
-  - **Alternative Hypothesis:** The 'BERRY' might be a hidden item on the ground, requiring the ITEMFINDER. Alternatively, healing the Miltank could be a red herring, and another, less obvious trigger exists on this route to unlock progression.
-  - **Test to Falsify:** If using HEADBUTT on all accessible trees yields no 'BERRY', I must then systematically use the ITEMFINDER on every tile of Route 39.
-
-  - **Result:** Interacted with the tree. Dialogue confirmed "There's nothing here…".
-  - **Conclusion:** Hypothesis is FALSE.
-
 # Olivine City Notes
 - A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
 
