@@ -1,34 +1,26 @@
 # Pokémon Crystal Adventure Notes
 
-## Current Status
-- Name: GEM
-- Gender: Girl
-- Location: ElmsLab
-- Money: ¥3000
-- Badges: 0
-- Party: Kimchi (Cyndaquil) Lv5
-
-## Key Items
-- Pokegear
-- Phone Number: Professor Elm
-
-## Inventory
-- Potion x1
-
-## Goals
-- Primary: Run errand for Elm (Visit Mr. Pokémon).
-- Secondary: Explore New Bark Town.
+## Trainer Info
+- **Name:** GEM
+- **Phone Numbers:** Professor Elm
 
 ## Game Mechanics
-### Tile Types
-- **FLOOR**: Traversable. Standard walking tile.
+### Tile Types (Observed)
+- **FLOOR**: Traversable.
 - **WALL**: Impassable.
 - **WARP_CARPET_DOWN**: Warp tile. Traversable.
+- **PC**: Object/Obstacle. Interaction: Stand below, face UP, press A.
+- **BOOKSHELF**: Object/Obstacle. (Untested traversability, assuming impassable).
+- **TV**: Object/Obstacle. (Untested traversability, assuming impassable).
+- **WINDOW**: Visual feature on walls.
 
-### Pokemon Data
-- **Starters (Gen 2):**
-  - Chikorita (Grass) -> Bayleef (Lv16) -> Meganium (Lv32)
-  - Cyndaquil (Fire) -> Quilava (Lv14) -> Typhlosion (Lv36)
-  - Totodile (Water) -> Croconaw (Lv18) -> Feraligatr (Lv30)
+### Mechanics
+- **Poison**: -1 HP every 4 steps outside battle.
+- **NPC Interaction**: Must face object. For counters, face the counter.
+
 ## Story Log
-- **Rival:** Spotted a suspicious red-haired boy peering into Elm's Lab window in New Bark Town.
+- **New Bark Town:**
+  - **Rival:** Spotted a suspicious red-haired boy peering into Elm's Lab window.
+  - **Elm's Lab:** Received Kimchi (Cyndaquil). Elm requested a visit to Mr. Pokémon to investigate a discovery.
+  - **Neighbor's House:** Neighbor is a big fan of Prof. Elm.
+  - **Elm's House:** Met Mrs. Elm and son. Mrs. Elm is concerned about her husband's work habits.
