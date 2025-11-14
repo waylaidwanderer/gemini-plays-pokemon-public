@@ -534,3 +534,4 @@
 
 # Route 37 Sudowoodo Puzzle Log
 - **Hypothesis 1 (Failed):** Using SQUIRTBOTTLE on the left WEIRD_TREE at (6, 12) from below (6, 13) did not trigger an event.
+- **Hypothesis 2 (Failed):** Using SQUIRTBOTTLE on the right WEIRD_TREE at (7, 12) from below (7, 13) did not trigger an event.
