@@ -340,15 +340,6 @@
 
 - **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
 
-# Self-Assessment Action Items (Turn 39452)
-
-## Tile Mechanics to Verify
-- **TOWN_MAP:** Impassable. (Assumed, needs direct in-game test to confirm).
-- **TV:** Impassable. (Assumed, needs direct in-game test to confirm).
-- **RADIO:** Impassable. (Assumed, needs direct in-game test to confirm).
-- **WINDOW:** Impassable. (Assumed, needs direct in-game test to confirm).
-- **BOOKSHELF:** Re-confirm impassable status.
-
 # Cianwood City Log
 
 # Self-Assessment Action Items (Turn 39503)
