@@ -11,7 +11,8 @@
 - Pokegear
 
 ## Goals
-- Primary: Receive a Starter Pokémon.
+- Primary: Run errand for Elm (Visit Mr. Pokémon).
+- Party: Cyndaquil (Fire)
 - Secondary: Explore New Bark Town.
 
 ## Game Mechanics
