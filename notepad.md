@@ -19,14 +19,13 @@
   - **HUEY (SAILOR):** Wants a rematch in the OLIVINE LIGHTHOUSE.
   - **ANTHONY (HIKER):** Wants a rematch on Route 33.
 
-## 2. Side Quests & Leads
-- **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently holding his SHUCKIE for safekeeping. Need to investigate.
-- **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
-- **Phone Call Rematches:**
-    - **DANA (LASS):** Route 38.
-    - **HUEY (SAILOR):** Olivine Lighthouse.
-    - **ANTHONY (HIKER):** Route 33.
-    - **ALAN (SCHOOLBOY):** Has an item for me on Route 36.
+## 2. World State & Blocked Paths
+- **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. Progression is likely blocked pending an external key item or story event.
+- **Cianwood City:** A mysterious event warped me to New Bark Town after receiving HM02 FLY. The HM is now functional. Four boulders in the city are part of an unsolved puzzle.
+- **Route 41:** Contains WHIRL ISLANDS. An NPC mentioned it's 'pitch-black' inside, implying FLASH is needed. WHIRLPOOL tiles are impassable.
+- **Route 42:** Path to Mahogany Town is blocked by water, requiring SURF.
+- **Goldenrod Underground:** A locked door at (18, 6) remains unsolved.
+- **Miltank Quest (Route 39):** BLOCKED. I have exhausted all methods of finding the required 'BERRY' item.
 
 ## 2. Untested Assumptions & Alternative Hypotheses (Active)
 
