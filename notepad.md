@@ -179,10 +179,13 @@
 # Olivine City Notes
 - Rival Crimson appeared outside the Gym. He said the Gym Leader is not here, but is at the Lighthouse taking care of a sick Pokémon. My next step should be to find the Lighthouse.
 
-# Untested Assumptions & Alternative Hypotheses (Self-Assessment)
-- **Assumption:** Tiles like `WINDOW` are impassable.
-  - **Alternative Hypothesis:** They might be traversable under certain conditions or from a specific direction.
-  - **Test to Falsify:** When an opportunity arises where a `WINDOW` tile is adjacent to a reachable `FLOOR` tile, attempt to move onto it.
+# Self-Assessment Action Items (Turn 41061)
+
+## Tile Mechanics to Verify
+- **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity.
+
+## Agent/Tool Development Ideas
+- **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
 
 # Post-Reflection Alternative Hypotheses (Turn 32690)
 - **Assumption:** The solution to the Lighthouse puzzle is inside the Lighthouse.
