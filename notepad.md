@@ -31,3 +31,5 @@
 - Arrived in Cherrygrove City.
 - **Discovery:** Cherrygrove Mart does not sell Poké Balls yet.
 - **New Tile:** LADDER (Walkable, Warp).
+### Interactive Objects
+- **BERRY_TREE**: Object (e.g., ID 8). Acts as a solid obstacle. Interact (A) to harvest a berry.
