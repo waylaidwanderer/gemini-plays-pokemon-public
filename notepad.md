@@ -2,8 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
-- **Secondary:** Locate Pokémon Center in Cherrygrove.
-- **Tertiary:** Explore North to Route 30.
+- **Secondary:** Explore Route 30.
 
 ## Game Mechanics
 ### Tile Types (Verified)
