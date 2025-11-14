@@ -7,10 +7,10 @@
 
 ## Game Mechanics
 ### Tile Mechanics
-- **FLOOR**: Walkable. Standard movement.
-- **WALL**: Impassable.
-- **WARP_CARPET_DOWN**: Walkable. Triggers map exit.
-- **TALL_GRASS**: Walkable. Wild Pokémon encounters (Level 2-3 observed).
+- **Traversable**: FLOOR, WARP_CARPET_DOWN, TALL_GRASS, DOOR.
+- **Impassable**: WALL, VOID, WATER, HEADBUTT_TREE, TV/BOOKSHELF/WINDOW/TOWN_MAP.
+- **Interactable (Blocked)**: COUNTER, PC.
+- **Ledges**: One-way (DOWN, LEFT, RIGHT).
 - **LEDGE_HOP_RIGHT**: One-way obstacle. Impassable from West/North/South. Jumpable from Left to Right (Hypothesis).
 - **LEDGE_HOP_DOWN**: One-way obstacle. Impassable from Bottom/Left/Right. Jumpable from Top to Bottom.
 - **LEDGE_HOP_LEFT**: One-way obstacle. Jumpable from Right to Left.
