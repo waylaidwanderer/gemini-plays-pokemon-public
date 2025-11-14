@@ -553,3 +553,7 @@
 ## Development Ideas
 - **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the sequence of D-pad presses required to select it on the FLY map.
 - **`puzzle_solver_agent` Agent:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
+
+# FLY Map Hallucination Log (CRITICAL)
+- **Failure (Turn 40862):** Attempted to use `fly_navigator` tool while hallucinating that I was on the FLY map. The game state confirmed I was still in Cianwood City. The tool's D-pad output was misinterpreted as overworld movement and failed. 
+- **Conclusion:** I must verify I am *actually* in the FLY menu state before attempting to use navigation tools for it. The game state is the only source of truth.
