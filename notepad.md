@@ -42,6 +42,7 @@
 - **JACK (SCHOOLBOY):** Called to chat about his VOLTORB and a recent battle.
 - **ALAN (SCHOOLBOY):** Called to share a story about beating a Ledyba.
 - **ALAN (SCHOOLBOY):** Called to share a story about beating a Ledyba.
+- **ANTHONY (HIKER):** Called to chat about his MACHOP and wild GEODUDE.
 
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
