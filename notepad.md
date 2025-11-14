@@ -8,11 +8,10 @@
 
 ## 1. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-  - **Current Location:** Cianwood City.
-  - **Next Step:** Use FLY to travel to Olivine City.
+  - **Current Location:** Olivine Lighthouse 2F.
 - **Side Quests & Leads:**
   - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE.
-  - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently holding his SHUCKIE for safekeeping.
+  - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. The quest is to investigate the theft.
 - **Phone Call Rematches & Events:**
   - **ALAN (SCHOOLBOY):** Has an item for me on Route 36.
   - **DANA (LASS):** Wants a rematch on Route 38.
@@ -20,7 +19,7 @@
   - **ANTHONY (HIKER):** Wants a rematch on Route 33.
 
 ## 2. World State & Blocked Paths
-- **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. Progression is likely blocked pending an external key item or story event.
+- **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. The 3rd floor is split into two sections; the western section is a dead end for ascending.
 - **Cianwood City:** A mysterious event warped me to New Bark Town after receiving HM02 FLY. The HM is now functional. Four boulders in the city are part of an unsolved puzzle.
 - **Route 41:** Contains WHIRL ISLANDS. An NPC mentioned it's 'pitch-black' inside, implying FLASH is needed. WHIRLPOOL tiles are impassable.
 - **Route 42:** Path to Mahogany Town is blocked by water, requiring SURF.
@@ -28,18 +27,13 @@
 - **Miltank Quest (Route 39):** BLOCKED. I have exhausted all methods of finding the required 'BERRY' item.
 
 ## 3. Untested Assumptions & Alternative Hypotheses (Active)
+- **Assumption (Lighthouse Pits):** The pits on 2F are the only way to access the eastern side of 3F.
+  - **Alternative Hypothesis:** A hidden ladder or warp exists on 2F, or an item is needed to create a new path. If the pits lead to dead ends, I must re-explore 2F with the ITEMFINDER.
+- **Assumption (WINDOW tiles):** `WINDOW` tiles are impassable.
+  - **Alternative Hypothesis:** They could be one-way passages or traversable under specific conditions.
+  - **Test to Falsify:** Attempt to move into a `WINDOW` tile from an adjacent traversable tile.
 - **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
   - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
-- **Assumption:** Clearing the Slowpoke Well caused the Team Rocket Grunt blocking the gym to disappear.
-  - **Alternative Hypothesis:** The grunt's disappearance was triggered by something else, like talking to Kurt, or even just leaving and re-entering the town.
-- **Assumption:** The path to Mahogany Town via Route 42 is completely blocked by water.
-  - **Alternative Hypothesis:** There is a hidden land path on Route 42 or through Mt. Mortar that I missed.
-- **Assumption:** Cianwood City is west/southwest of Olivine, across Route 41.
-  - **Alternative Hypothesis:** Route 41 could be a large, circular route that doesn't lead to Cianwood, or it might lead to a different, unexpected location first. The islands might be the main feature, not a path.
-- **Assumption:** The Whirlpool at (22, 12) is impassable without a specific HM.
-  - **Alternative Hypothesis:** It might be a one-way warp, or it might be passable under certain conditions (e.g., having a specific item, or approaching from a specific direction).
-- **Assumption:** The small islands on Route 41 are just obstacles.
-  - **Alternative Hypothesis:** They could contain hidden items, trainers, or even secret entrances/warps.
 
 ## 4. Critical Bugs & Lessons
 - **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
@@ -73,6 +67,7 @@
 - **MART_SHELF:** Impassable.
 - **PC:** Impassable. Interactable from an adjacent tile.
 - **PILLAR:** Impassable.
+- **PIT:** A one-way warp tile, activated by moving onto it.
 - **RADIO:** Impassable. (Confirmed in ManiasHouse).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 - **STAIRCASE:** A two-way warp tile.
@@ -85,11 +80,8 @@
 - **WATER:** Impassable without SURF.
 - **WHIRLPOOL:** Impassable.
 
-# Tool & Agent Development Log
-
-## Agent/Tool Development Ideas
-- **`gym_puzzle_solver` Agent:** Create an agent that takes the map layout, trainer positions, known puzzle elements (like switches or statues), and known mechanics to suggest a sequence of actions to solve a gym puzzle.
-- **`find_puzzle_elements` Tool:** Create a tool that parses the map XML and lists all unique background objects (`<Object name=.../>`) that could be part of a puzzle, ignoring common objects like signs.
+# Agent Development Ideas
+- **`lighthouse_navigator` Agent:** Create an agent to analyze the lighthouse map layout, known warps, and current position to suggest the most logical path forward when stuck.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
 <details>
@@ -384,7 +376,7 @@
   - **Alternative Hypothesis:** A new, unforeseen obstacle may block the path on Route 38 or 39, requiring a different approach, possibly using SURF from an earlier point.
   - **Test to Falsify:** Proceed with the current travel plan. If a new obstacle appears, the assumption is falsified.
 - **Assumption:** The 'special medicine' for the sick Ampharos is a key item found in Cianwood City.
-  - **Alternative Hypothesis:** The 'medicine' could be an NPC, or it could be located in a different city entirely.
+  - **Alternative Hypothesis:** The 'special medicine' could be an NPC, or it could be located in a different city entirely.
   - **Test to Falsify:** A thorough exploration of Cianwood City that yields no medicine will falsify this assumption.
 
 ## LLM Reality Lesson (Self-Correction)
@@ -435,7 +427,6 @@
 - **Task:** Test unverified tile types (BOOKSHELF, WINDOW, TOWN_MAP, TV, RADIO) at the next opportunity to confirm their traversability.
 
 - **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
-## Agent/Tool Development Ideas (Post-Self-Assessment)
 
 # Self-Assessment Findings (Turn 39452)
 
@@ -477,11 +468,6 @@
   - **Test:** Spoke to Professor Elm in his lab.
   - **Result:** His dialogue was generic and did not mention the event.
   - **Conclusion:** Hypothesis is FALSE.
-
-# Phone Call Quests
-- ALAN (SCHOOLBOY) has an item for me on ROUTE 36.
-- DANA (LASS) wants a rematch on ROUTE 38.
-- HUEY (SAILOR) wants a rematch in the OLIVINE LIGHTHOUSE.
 
 # Route 30 Ledge Puzzle
 - **Hypothesis 1:** The ledge at (6, 47) is passable from below.
