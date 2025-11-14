@@ -130,10 +130,6 @@
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
 - **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
 
-## LLM Reality Lesson (Self-Correction)
-- **Failure (Turn 38766):** I deferred fixing my faulty `city_exploration_planner` agent until after a battle, violating the immediate maintenance directive.
-- **Correction:** I must perform all data management and tool/agent maintenance tasks in the *current* turn they are identified. There is no 'later'.
-
 ## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
 - **Assumption:** Cianwood City is located at the southern end of Route 40.
   - **Alternative Hypothesis:** Route 40 could be a dead end or lead to a different area entirely. The path to Cianwood might be from another, undiscovered water route.
