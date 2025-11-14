@@ -37,6 +37,7 @@
 - **ANTHONY (HIKER):** Route 33.
 - **JACK (SCHOOLBOY):** NATIONAL PARK.
 - **ALAN (SCHOOLBOY):** Route 36.
+- **Hiker Anthony:** Dunsparce swarm in Dark Cave.
 
 ## 3. World State & Blocked Paths
 - **Tin Tower:** Path forward is blocked by a Sage due to the legendary beasts being awakened.

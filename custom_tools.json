@@ -765,33 +765,6 @@
       }
     ]
   },
-  "pokemon_nicknamer": {
-    "description": "Automates the process of nicknaming a Pokémon. Takes a desired nickname as a string and outputs the sequence of button presses to enter it on the nicknaming screen. Handles switching between UPPER and lower case keyboards.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "nickname": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "nickname"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_nickname_buttons(nickname):\n    upper_layout = {\n        'A': (0, 0), 'B': (1, 0), 'C': (2, 0), 'D': (3, 0), 'E': (4, 0), 'F': (5, 0), 'G': (6, 0), 'H': (7, 0), 'I': (8, 0),\n        'J': (0, 1), 'K': (1, 1), 'L': (2, 1), 'M': (3, 1), 'N': (4, 1), 'O': (5, 1), 'P': (6, 1), 'Q': (7, 1), 'R': (8, 1),\n        'S': (0, 2), 'T': (1, 2), 'U': (2, 2), 'V': (3, 2), 'W': (4, 2), 'X': (5, 2), 'Y': (6, 2), 'Z': (7, 2),\n        '-': (0, 3), '?': (1, 3), '!': (2, 3), '/': (3, 3), '.': (4, 3), ',': (5, 3),\n        'lower': (0, 4), 'DEL': (7, 4), 'END': (8, 4)\n    }\n    lower_layout = {\n        'a': (0, 0), 'b': (1, 0), 'c': (2, 0), 'd': (3, 0), 'e': (4, 0), 'f': (5, 0), 'g': (6, 0), 'h': (7, 0), 'i': (8, 0),\n        'j': (0, 1), 'k': (1, 1), 'l': (2, 1), 'm': (3, 1), 'n': (4, 1), 'o': (5, 1), 'p': (6, 1), 'q': (7, 1), 'r': (8, 1),\n        's': (0, 2), 't': (1, 2), 'u': (2, 2), 'v': (3, 2), 'w': (4, 2), 'x': (5, 2), 'y': (6, 2), 'z': (7, 2),\n        '×': (0, 3), '(': (1, 3), ')': (2, 3), ':': (3, 3), ';': (4, 3), '[': (5, 3), ']': (6, 3), '<PK>': (7, 3), '<MN>': (8, 3),\n        'UPPER': (0, 4), 'DEL': (7, 4), 'END': (8, 4)\n    }\n\n    buttons = []\n    cursor_pos = (0, 0) # Start at 'A'\n    is_lower = False\n\n    for char in nickname:\n        target_layout = lower_layout if char.islower() else upper_layout\n        target_case_button = 'lower' if not is_lower and char.islower() else 'UPPER' if is_lower and char.isupper() else None\n\n        if target_case_button:\n            case_pos = upper_layout[target_case_button] if not is_lower else lower_layout[target_case_button]\n            dx = case_pos[0] - cursor_pos[0]\n            dy = case_pos[1] - cursor_pos[1]\n            buttons.extend(['Right'] * dx if dx > 0 else ['Left'] * -dx)\n            buttons.extend(['Down'] * dy if dy > 0 else ['Up'] * -dy)\n            buttons.append('A')\n            cursor_pos = case_pos\n            is_lower = not is_lower\n        \n        current_layout = lower_layout if is_lower else upper_layout\n        if char not in current_layout:\n            continue\n\n        target_pos = current_layout[char]\n        dx = target_pos[0] - cursor_pos[0]\n        dy = target_pos[1] - cursor_pos[1]\n        buttons.extend(['Right'] * dx if dx > 0 else ['Left'] * -dx)\n        buttons.extend(['Down'] * dy if dy > 0 else ['Up'] * -dy)\n        buttons.append('A')\n        cursor_pos = target_pos\n\n    end_pos = lower_layout['END'] if is_lower else upper_layout['END']\n    dx = end_pos[0] - cursor_pos[0]\n    dy = end_pos[1] - cursor_pos[1]\n    buttons.extend(['Right'] * dx if dx > 0 else ['Left'] * -dx)\n    buttons.extend(['Down'] * dy if dy > 0 else ['Up'] * -dy)\n    buttons.append('A')\n\n    print(json.dumps(buttons))\n\ntry:\n    generate_nickname_buttons(input_data['nickname'])\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
-    "history": [
-      {
-        "commit_message": "feat: Create pokemon_nicknamer tool. This tool automates the tedious and error-prone process of manually entering a Pokémon's nickname. It takes a string as input and generates the full sequence of button presses, including handling case changes, to enter the name and confirm. This directly addresses an overwatch critique and improves overall gameplay efficiency.",
-        "timestamp": "2025-11-13T00:55:14.257Z",
-        "action_counter": 38464
-      },
-      {
-        "commit_message": "fix: Overhaul nicknamer logic to fix critical failures. The previous version generated incorrect and excessively long button sequences, causing repeated failures to enter names correctly and leading to unintended actions in the overworld. This commit completely rewrites the script to use a coordinate-based keyboard layout and calculate precise movement paths between characters. It now correctly handles case switching and, most importantly, terminates the button sequence immediately after pressing 'END'. This resolves the long-standing critical bug identified by overwatch.",
-        "timestamp": "2025-11-14T10:46:42.366Z",
-        "action_counter": 41318
-      }
-    ]
-  },
   "plan_next_exploration_step": {
     "description": "Finds the closest reachable 'unseen' tile on the current map and returns its coordinates. This version dynamically detects map boundaries to correctly handle negative coordinates.",
     "input_schema": {},
@@ -831,6 +804,33 @@
         "commit_message": "fix: Add dynamic boundary detection to handle negative coordinates. The tool was critically failing on maps with negative coordinates (like Route 41) because it assumed a 0-based grid. This commit adds logic to parse all tiles to find the min/max x and y values, and uses these dynamic boundaries for all pathfinding and adjacency checks, resolving the failure.",
         "timestamp": "2025-11-14T11:24:40.721Z",
         "action_counter": 41390
+      }
+    ]
+  },
+  "pokemon_nicknamer": {
+    "description": "Automates the process of nicknaming a Pokémon. Takes a desired nickname as a string and outputs the sequence of button presses to enter it on the nicknaming screen. Handles switching between UPPER and lower case keyboards.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "nickname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "nickname"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_nickname_buttons(nickname):\n    upper_layout = {\n        'A': (0, 0), 'B': (1, 0), 'C': (2, 0), 'D': (3, 0), 'E': (4, 0), 'F': (5, 0), 'G': (6, 0), 'H': (7, 0), 'I': (8, 0),\n        'J': (0, 1), 'K': (1, 1), 'L': (2, 1), 'M': (3, 1), 'N': (4, 1), 'O': (5, 1), 'P': (6, 1), 'Q': (7, 1), 'R': (8, 1),\n        'S': (0, 2), 'T': (1, 2), 'U': (2, 2), 'V': (3, 2), 'W': (4, 2), 'X': (5, 2), 'Y': (6, 2), 'Z': (7, 2),\n        '-': (0, 3), '?': (1, 3), '!': (2, 3), '/': (3, 3), '.': (4, 3), ',': (5, 3),\n        'lower': (0, 4), 'DEL': (7, 4), 'END': (8, 4)\n    }\n    lower_layout = {\n        'a': (0, 0), 'b': (1, 0), 'c': (2, 0), 'd': (3, 0), 'e': (4, 0), 'f': (5, 0), 'g': (6, 0), 'h': (7, 0), 'i': (8, 0),\n        'j': (0, 1), 'k': (1, 1), 'l': (2, 1), 'm': (3, 1), 'n': (4, 1), 'o': (5, 1), 'p': (6, 1), 'q': (7, 1), 'r': (8, 1),\n        's': (0, 2), 't': (1, 2), 'u': (2, 2), 'v': (3, 2), 'w': (4, 2), 'x': (5, 2), 'y': (6, 2), 'z': (7, 2),\n        '×': (0, 3), '(': (1, 3), ')': (2, 3), ':': (3, 3), ';': (4, 3), '[': (5, 3), ']': (6, 3), '<PK>': (7, 3), '<MN>': (8, 3),\n        'UPPER': (0, 4), 'DEL': (7, 4), 'END': (8, 4)\n    }\n\n    buttons = []\n    cursor_pos = (0, 0) # Start at 'A'\n    is_lower = False\n\n    for char in nickname:\n        target_layout = lower_layout if char.islower() else upper_layout\n        target_case_button = 'lower' if not is_lower and char.islower() else 'UPPER' if is_lower and char.isupper() else None\n\n        if target_case_button:\n            case_pos = upper_layout[target_case_button] if not is_lower else lower_layout[target_case_button]\n            dx = case_pos[0] - cursor_pos[0]\n            dy = case_pos[1] - cursor_pos[1]\n            buttons.extend(['Right'] * dx if dx > 0 else ['Left'] * -dx)\n            buttons.extend(['Down'] * dy if dy > 0 else ['Up'] * -dy)\n            buttons.append('A')\n            cursor_pos = case_pos\n            is_lower = not is_lower\n        \n        current_layout = lower_layout if is_lower else upper_layout\n        if char not in current_layout:\n            continue\n\n        target_pos = current_layout[char]\n        dx = target_pos[0] - cursor_pos[0]\n        dy = target_pos[1] - cursor_pos[1]\n        buttons.extend(['Right'] * dx if dx > 0 else ['Left'] * -dx)\n        buttons.extend(['Down'] * dy if dy > 0 else ['Up'] * -dy)\n        buttons.append('A')\n        cursor_pos = target_pos\n\n    end_pos = lower_layout['END'] if is_lower else upper_layout['END']\n    dx = end_pos[0] - cursor_pos[0]\n    dy = end_pos[1] - cursor_pos[1]\n    buttons.extend(['Right'] * dx if dx > 0 else ['Left'] * -dx)\n    buttons.extend(['Down'] * dy if dy > 0 else ['Up'] * -dy)\n    buttons.append('A')\n\n    print(json.dumps(buttons))\n\ntry:\n    generate_nickname_buttons(input_data['nickname'])\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create pokemon_nicknamer tool. This tool automates the tedious and error-prone process of manually entering a Pokémon's nickname. It takes a string as input and generates the full sequence of button presses, including handling case changes, to enter the name and confirm. This directly addresses an overwatch critique and improves overall gameplay efficiency.",
+        "timestamp": "2025-11-13T00:55:14.257Z",
+        "action_counter": 38464
+      },
+      {
+        "commit_message": "fix: Overhaul nicknamer logic to fix critical failures. The previous version generated incorrect and excessively long button sequences, causing repeated failures to enter names correctly and leading to unintended actions in the overworld. This commit completely rewrites the script to use a coordinate-based keyboard layout and calculate precise movement paths between characters. It now correctly handles case switching and, most importantly, terminates the button sequence immediately after pressing 'END'. This resolves the long-standing critical bug identified by overwatch.",
+        "timestamp": "2025-11-14T10:46:42.366Z",
+        "action_counter": 41318
       }
     ]
   }
