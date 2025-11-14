@@ -523,3 +523,17 @@
 - **Hypothesis 3 (Failed):** Interacting with the right WEIRD_TREE at (7, 12) by pressing 'A' from an adjacent tile (tested from (7, 13) and (8, 12)) did not trigger an event.
 - Hypothesis 4 (Failed): Interacting with the left WEIRD_TREE at (6, 12) by pressing 'A' from an adjacent tile (tested from (5, 12)) did not trigger an event.
 - Hypothesis 4 (Failed): Interacting with the left WEIRD_TREE at (6, 12) by pressing 'A' from an adjacent tile (tested from (5, 12)) did not trigger an event.
+
+# Self-Assessment Action Items (Turn 40698)
+
+## Untested Assumptions & Alternative Hypotheses (ManiasHouse Puzzle)
+- **Primary Hypothesis:** I am trapped because a hidden item or switch must be found to activate the exit warp.
+- **Alternative Hypothesis 1:** The `WARP_CARPET_DOWN` tile is bugged or has a non-obvious trigger (e.g., requires a specific Pokémon in the party, a certain time of day, or returning SHUCKIE was the trigger and the warp is now active).
+- **Alternative Hypothesis 2:** The warp tiles at (2, 7) and (3, 7) are a red herring. The true exit is a hidden door elsewhere in the room that requires pressing 'A' on a specific wall tile.
+
+## Tile Mechanics to Verify
+- **Task:** Systematically test the traversability of `BOOKSHELF`, `TV`, and `RADIO` tiles at the next opportunity to confirm they are impassable.
+
+## Agent/Tool Development Ideas
+- **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
+- **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the exact sequence of D-pad presses required to select it on the FLY map, preventing manual navigation errors.
