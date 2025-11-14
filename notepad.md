@@ -223,14 +223,6 @@
 - Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
 - Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
 
-# Cianwood City Exploration Plan
-1. Cianwood Pharmacy
-2. Cianwood Gym
-3. ManiasHouse
-4. Cianwood Pokecenter
-5. Cianwood Lugia Speech House
-6. Cianwood Photo Studio
-
 # Cianwood Pharmacy Log
 - Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
 
