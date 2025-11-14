@@ -41,6 +41,7 @@
 ### Phone Call Chats
 - **JACK (SCHOOLBOY):** Called to chat about his VOLTORB and a recent battle.
 - **ALAN (SCHOOLBOY):** Called to share a story about beating a Ledyba.
+- **ALAN (SCHOOLBOY):** Called to share a story about beating a Ledyba.
 
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
