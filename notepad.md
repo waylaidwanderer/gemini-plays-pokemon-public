@@ -33,3 +33,5 @@
   - Chikorita (Grass) -> Bayleef (Lv16) -> Meganium (Lv32)
   - Cyndaquil (Fire) -> Quilava (Lv14) -> Typhlosion (Lv36)
   - Totodile (Water) -> Croconaw (Lv18) -> Feraligatr (Lv30)
+## Story Log
+- **Rival:** Spotted a suspicious red-haired boy peering into Elm's Lab window in New Bark Town.
