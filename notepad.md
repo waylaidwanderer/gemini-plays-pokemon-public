@@ -19,3 +19,8 @@
 - **FLOOR**: Traversable. Standard walking tile.
 - **WALL**: Impassable.
 - **STAIRCASE**: Warp tile. Traversable.
+### Pokemon Data
+- **Starters (Gen 2):**
+  - Chikorita (Grass) -> Bayleef (Lv16) -> Meganium (Lv32)
+  - Cyndaquil (Fire) -> Quilava (Lv14) -> Typhlosion (Lv36)
+  - Totodile (Water) -> Croconaw (Lv18) -> Feraligatr (Lv30)
