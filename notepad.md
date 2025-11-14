@@ -541,3 +541,4 @@
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
 - **GRASS:** Traversable. (Confirmed in Azalea Gym).
 - **WALL:** Impassable. (Confirmed in Azalea Gym).
+- **CUT_TREE:** Impassable. Can be removed using the move CUT. (Confirmed on Route 35).
