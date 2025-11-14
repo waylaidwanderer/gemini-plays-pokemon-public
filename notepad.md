@@ -40,7 +40,6 @@
 
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
-- **Hiker Anthony:** Dunsparce swarm in Dark Cave.
 
 ## 3. World State & Blocked Paths
 - **Tin Tower:** Path forward is blocked by a Sage due to the legendary beasts being awakened.
