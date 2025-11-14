@@ -1,32 +1,25 @@
-# Pokémon Crystal Adventure Notes
+# Adventure Log: Johto Journey
 
-## Trainer Info
-- **Name:** GEM
-- **Phone Numbers:** Professor Elm
+## Current Objectives
+- **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
+- **Secondary:** Explore Route 46 briefly, then head to Cherrygrove.
 
 ## Game Mechanics
-### Tile Types (Observed)
-- **FLOOR**: Traversable.
+### Tile Types (Verified)
+- **FLOOR**: Walkable. Standard movement.
 - **WALL**: Impassable.
-- **WARP_CARPET_DOWN**: Warp tile. Traversable.
-- **TALL_GRASS**: Traversable. Potential wild Pokémon encounters.
-- **LEDGE_HOP_RIGHT**: One-way obstacle. Can only jump from Left to Right.
-- **LEDGE_HOP_DOWN**: One-way obstacle. Can only jump from Top to Bottom.
-- **PC**: Object/Obstacle. Interaction: Stand below, face UP, press A.
-- **BOOKSHELF**: Object/Obstacle.
-- **TV**: Object/Obstacle.
-- **WINDOW**: Visual feature on walls.
-- **COUNTER**: Obstacle. Interact from adjacent tile.
+- **WARP_CARPET_DOWN**: Walkable. Triggers map exit.
+- **TALL_GRASS**: Walkable. Wild Pokémon encounters (Level 2-3 observed).
+- **LEDGE_HOP_RIGHT**: One-way obstacle. Impassable from West/North/South. Jumpable from Left to Right (Hypothesis).
+- **LEDGE_HOP_DOWN**: One-way obstacle. Impassable from Bottom/Left/Right. Jumpable from Top to Bottom.
+- **COUNTER**: Impassable. Interact with NPCs across it.
+- **VOID**: Impassable (Black space outside map bounds).
+- **PC**: Impassable. Interact from below facing Up.
+- **TV / BOOKSHELF / WINDOW**: Impassable obstacles/decorations.
 
-### Mechanics
-- **Poison**: -1 HP every 4 steps outside battle.
-- **NPC Interaction**: Must face object. For counters, face the counter.
-
-## Story Log
-- **New Bark Town:**
-  - **Rival:** Spotted a suspicious red-haired boy peering into Elm's Lab window.
-  - **Elm's Lab:** Received Kimchi (Cyndaquil). Elm requested a visit to Mr. Pokémon to investigate a discovery.
-  - **Neighbor's House:** Neighbor is a big fan of Prof. Elm.
-  - **Elm's House:** Met Mrs. Elm and son. Mrs. Elm is concerned about her husband's work habits.
-- **Route 29:**
-  - Entered from New Bark Town. Heading West towards Cherrygrove City.
+## Story Highlights
+- **New Bark Town:** 
+  - Prof. Elm gave me Kimchi (Cyndaquil). 
+  - Tasked to visit Mr. Pokémon regarding a discovery.
+  - Spotted "Rival" (Red-haired boy) spying on lab.
+  - Visited Neighbors and Elm's family.
