@@ -23,10 +23,7 @@
 ### Tile Types
 - **FLOOR**: Traversable. Standard walking tile.
 - **WALL**: Impassable.
-- **STAIRCASE**: Warp tile. Traversable.
-- **WINDOW**: Impassable. Found in Elm's Lab.
-- **BOOKSHELF**: Impassable. Found in Elm's Lab.
-- **PC**: Impassable. Found in Elm's Lab.
+- **WARP_CARPET_DOWN**: Warp tile. Traversable.
 
 ### Pokemon Data
 - **Starters (Gen 2):**
