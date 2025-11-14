@@ -7,8 +7,11 @@
 - Money: ¥3000
 - Badges: 0
 
+## Key Items
+- Pokegear
+
 ## Goals
-- Primary: Get Pokegear from Mom.
+- Primary: Visit Professor Elm.
 - Secondary: Leave home.
 
 ## Game Mechanics
