@@ -29,7 +29,7 @@
 ### Current Team
 - **Kimchi** (Cyndaquil) ♂ Lv 6
 - **Scout** (Sentret) ♂ Lv 2
-- **Ace** (Pidgey) ♂ Lv 3
+- **Ace** (Pidgey) ♂ Lv 4 (4/17 HP)
 - **Silk** (Caterpie) ♂ Lv 3
 ### Pokémon Locations
 - **Route 29**: Pidgey, Sentret, Rattata
