@@ -1,7 +1,7 @@
 # Adventure Log: Johto Journey
 
 ## Current Objectives
-- **Primary:** Return to Prof. Elm with Mystery Egg.
+- **Primary:** URGENT: Return to Prof. Elm with Mystery Egg immediately! (He mentioned a 'disaster').
 - **Secondary:** Explore Route 30.
 
 ## Game Mechanics
