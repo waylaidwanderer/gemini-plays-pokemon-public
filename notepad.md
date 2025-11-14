@@ -3,7 +3,7 @@
 ## Current Status
 - Name: GEM
 - Gender: Girl
-- Location: PlayersHouse1F
+- Location: ElmsLab
 - Money: ¥3000
 - Badges: 0
 
@@ -11,21 +11,20 @@
 - Pokegear
 
 ## Goals
-- Primary: Visit Professor Elm.
-- Secondary: Leave home.
+- Primary: Receive a Starter Pokémon.
+- Secondary: Explore New Bark Town.
 
 ## Game Mechanics
 ### Tile Types
 - **FLOOR**: Traversable. Standard walking tile.
 - **WALL**: Impassable.
 - **STAIRCASE**: Warp tile. Traversable.
+- **WINDOW**: Impassable. Found in Elm's Lab.
+- **BOOKSHELF**: Impassable. Found in Elm's Lab.
+- **PC**: Impassable. Found in Elm's Lab.
+
 ### Pokemon Data
 - **Starters (Gen 2):**
   - Chikorita (Grass) -> Bayleef (Lv16) -> Meganium (Lv32)
   - Cyndaquil (Fire) -> Quilava (Lv14) -> Typhlosion (Lv36)
   - Totodile (Water) -> Croconaw (Lv18) -> Feraligatr (Lv30)
-- **WINDOW**: Impassable. Found in Elm's Lab.
-- **BOOKSHELF**: Impassable. Found in Elm's Lab.
-- **WINDOW**: Impassable. Found in Elm's Lab.
-- **BOOKSHELF**: Impassable. Found in Elm's Lab.
-- **PC**: Impassable. Found in Elm's Lab.
