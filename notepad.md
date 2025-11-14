@@ -48,6 +48,12 @@
 - **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 
+## 3. Critical Bugs & Lessons
+- **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
+- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
+- **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
+- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
+
 ## 4. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
