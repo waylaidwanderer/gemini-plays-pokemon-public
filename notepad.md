@@ -179,14 +179,6 @@
 # Olivine City Notes
 - Rival Crimson appeared outside the Gym. He said the Gym Leader is not here, but is at the Lighthouse taking care of a sick Pokémon. My next step should be to find the Lighthouse.
 
-# Self-Assessment Action Items (Turn 41061)
-
-## Tile Mechanics to Verify
-- **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity.
-
-## Agent/Tool Development Ideas
-- **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
-
 # Post-Reflection Alternative Hypotheses (Turn 32690)
 - **Assumption:** The solution to the Lighthouse puzzle is inside the Lighthouse.
   - **Alternative Hypothesis:** The solution requires an item or event from outside the Lighthouse, possibly from another city entirely. The puzzle might be unsolvable for now.
