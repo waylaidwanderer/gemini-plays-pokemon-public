@@ -36,11 +36,11 @@
 - **ANTHONY (HIKER):** Route 33.
 - **JACK (SCHOOLBOY):** NATIONAL PARK.
 
-## 2. World State & Blocked Paths
-- **Olivine Lighthouse:** The path up is blocked. An NPC mentioned needing 'special medicine'. The 3rd floor is split into two sections; the western section is a dead end for ascending. The pits on 2F lead to dead-end rooms on 1F.
-- **Cianwood City:** A mysterious event warped me to New Bark Town after receiving HM02 FLY. The HM is now functional. Four boulders in the city are part of an unsolved puzzle.
-- **Route 41:** Contains WHIRL ISLANDS. An NPC mentioned it's 'pitch-black' inside, implying FLASH is needed. WHIRLPOOL tiles are impassable.
-- **Route 42:** Path to Mahogany Town is blocked by water, requiring SURF.
+## 3. World State & Blocked Paths
+- **Tin Tower:** Path forward is blocked by a Sage due to the legendary beasts being awakened.
+- **Olivine Lighthouse:** The path up is blocked, pending 'special medicine'.
+- **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (requires FLASH). WHIRLPOOL tiles are impassable.
+- **Route 42:** Path to Mahogany Town is blocked by water (requires SURF).
 - **Goldenrod Underground:** A locked door at (18, 6) remains unsolved.
 
 ## 3. Untested Assumptions & Alternative Hypotheses (Active)
