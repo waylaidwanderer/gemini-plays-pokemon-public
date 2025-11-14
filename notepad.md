@@ -487,9 +487,6 @@
 # Self-Assessment Action Items (Turn 40771)
 - **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity to address the overwatch critique and adhere to my procedural rules.
 
-# FLY Map Hallucination Log (CRITICAL)
-- **Failure (Turn 40862):** Attempted to use `fly_navigator` tool while hallucinating that I was on the FLY map. The game state confirmed I was still in Cianwood City. The tool's D-pad output was misinterpreted as overworld movement and failed. 
-- **Conclusion:** I must verify I am *actually* in the FLY menu state before attempting to use navigation tools for it. The game state is the only source of truth.
 - **Inventory Hallucination (CRITICAL):** During turn 40942, I attempted to use an ESCAPE ROPE that I did not possess. This indicates a severe failure to verify my inventory before forming a plan. I must always check my PACK before assuming I have a specific item.
 
 ## Maintenance Append (Turn 40964)
