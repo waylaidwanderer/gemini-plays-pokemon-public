@@ -1,5 +1,20 @@
 # Gem's Strategic Brain
 
+## 0. My Custom Toolkit
+### Agents
+- **`quest_progression_advisor`:** Analyzes current location, goals, and known obstacles to suggest the next logical area or NPC to investigate to advance the story.
+- **`city_exploration_planner`:** Generates a systematic and efficient exploration plan for a new city.
+- **`world_navigator_agent`:** Suggests a new major region or city to investigate when all local leads are exhausted.
+- **`reality_check_agent`:** Analyzes my intended action and the current game state to identify potential hallucinations or logical inconsistencies before I act.
+- **`multi_map_navigator`:** Generates a sequence of map transitions and navigation goals to reach a high-level destination.
+
+### Tools
+- **`deterministic_battle_strategist`:** A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
+- **`path_and_execute_v3`:** Generates a path to a target coordinate, treating all objects as impassable and finding an adjacent tile if the target is blocked.
+- **`pokemon_nicknamer`:** Automates the process of nicknaming a Pokémon.
+- **`plan_next_exploration_step`:** Finds the closest reachable 'unseen' tile on the current map and returns its coordinates.
+- **`fly_navigator`:** Calculates the sequence of D-pad presses to navigate from a current city to a target city on the FLY map and select it.
+
 ## 🚨 CRITICAL DIRECTIVES 🚨
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool/agent fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'. This is the highest priority.
 - **VERIFY, DON'T ASSUME:** My internal sense of location and memory is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
