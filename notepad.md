@@ -76,14 +76,14 @@
 - **MART_SHELF:**
 - **PC:** Interactable from an adjacent tile.
 - **PILLAR:**
-- **RADIO:** (Confirmed in ManiasHouse & Cianwood Pharmacy).
+- **RADIO:** (Confirmed in Cianwood Pharmacy).
 - **ROCK:** Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 - **TOWN_MAP:** (Confirmed in Cianwood Pharmacy).
-- **TV:** (Confirmed in ManiasHouse & Cianwood Pharmacy).
+- **TV:** (Confirmed in Cianwood Pharmacy).
 - **VOID:**
 - **WALL:** (Confirmed in Azalea Gym).
 - **WHIRLPOOL:**
-- **WINDOW:** (Confirmed in Olivine Lighthouse 2F & Cianwood Pharmacy).
+- **WINDOW:** (Confirmed in Cianwood Pharmacy).
 
 ### Traversable Tiles
 - **FLOOR:**
@@ -95,16 +95,15 @@
 - **LADDER:** Two-way warp.
 - **PIT:** One-way warp, activated by moving onto it.
 - **STAIRCASE:** Two-way warp.
-- **WARP_CARPET:** One-way warp, activated by pressing in the indicated direction.
 - **WARP_CARPET_DOWN:** One-way warp, activated by moving down onto it. (Confirmed in Union Cave 1F).
+- **WARP_CARPET_RIGHT:** One-way warp, activated by pressing right onto it.
 
 ### Conditional/One-Way Tiles
-- **FLOOR_UP_WALL:** One-way ledge. Can only be traversed by moving UP onto it from below. IMPASSABLE when moving DOWN onto it from above. (Verified in Union Cave at (8, 28)).
+- **FLOOR_UP_WALL:** One-way ledge. Can only be traversed by moving UP onto it from below. IMPASSABLE when moving DOWN onto it from above.
 - **LEDGE_HOP_DOWN:** One-way tile (can only be entered from above).
+- **LEDGE_HOP_LEFT:** One-way tile (can only be entered from the right).
+- **LEDGE_HOP_RIGHT:** One-way tile (can only be entered from the left).
 - **WATER:** Impassable without SURF.
-
-  - **Test (Failed):** Attempted to pathfind to the BUOY at (24, 32). The pathfinder correctly determined the tile is unreachable by walking as it is surrounded by WATER.
-  - **Conclusion:** The traversability of BUOY tiles cannot be tested without the ability to cross water, likely requiring SURF. The assumption remains untested.
 
 # Tool Development Log
 
