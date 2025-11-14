@@ -33,3 +33,7 @@
   - Received 5 Poké Balls from Aide. Catching unlocked!
 ### Interactive Objects
 - **BERRY_TREE**: Object. Acts as a solid obstacle. Interact (A) to harvest.
+- Caught a Sentret on Route 29. Nicknamed him 'Scout'.
+### Current Team
+- **Kimchi** (Cyndaquil) ♂ Lv 5
+- **Scout** (Sentret) ♂ Lv 2
