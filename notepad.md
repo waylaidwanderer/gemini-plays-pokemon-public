@@ -150,12 +150,6 @@
 - **Failure (Turn 38766):** I deferred fixing my faulty `city_exploration_planner` agent until after a battle, violating the immediate maintenance directive.
 - **Correction:** I must perform all data management and tool/agent maintenance tasks in the *current* turn they are identified. There is no 'later'.
 
-# Future Development & Strategic Planning
-
-## Agent/Tool Development Ideas
-
-- **`find_reachable_unseen_tiles` Tool:** Create a tool to parse the map XML, find all unseen tiles adjacent to walkable areas, and run a pathfinding algorithm to determine which are *actually* reachable from the player's current position. This will directly address the persistent 'Potentially Reachable Unseen Tiles' system alert and make exploration much more efficient.
-
 ## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
 - **Assumption:** Cianwood City is located at the southern end of Route 40.
   - **Alternative Hypothesis:** Route 40 could be a dead end or lead to a different area entirely. The path to Cianwood might be from another, undiscovered water route.
