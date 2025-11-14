@@ -325,16 +325,6 @@
 
 </details>
 
-<details>
-<summary>Ecruteak Dance Theater Gentleman (Hypothesis Falsified - Post-Morty)</summary>
-
-- **Hypothesis:** The Gentleman at (7, 10) would provide a reward (potentially SURF) after defeating Gym Leader Morty.
-- **Test:** Interacted with the Gentleman on Turn 36847 after defeating Morty.
-- **Result:** The Gentleman's dialogue was unchanged. He did not provide any item or reward.
-- **Conclusion:** Hypothesis is FALSE. The trigger for this NPC is something else, or he has no further role.
-
-</details>
-
 </details>
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
 - **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
