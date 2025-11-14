@@ -146,17 +146,6 @@
 # Philosophy Update (Overwatch Critique, Turn 34667)
 - **Debugging Inefficiency:** My debugging process for `path_and_execute_v3` was inefficient. I repeatedly fixed symptoms (wrong start coordinate) without a thorough root cause analysis, leading to multiple failures. In the future, I must be more methodical in debugging, using extensive logging to find the core issue on the first attempt.
 
-# New Alternative Hypotheses (Post-Ecruteak Mart)
-- **Assumption:** The key to progression is in Ecruteak City.
-  - **Alternative Hypothesis:** The key might be in a city I've already visited, like Goldenrod or Violet City. Perhaps an NPC there has new dialogue after the legendary beast event.
-  - **Test to Falsify:** If my complete sweep of Ecruteak yields nothing, I must begin a systematic sweep of another major city, starting with Goldenrod.
-- **Assumption:** The solution is dialogue-based.
-  - **Alternative Hypothesis:** The solution is a hidden item that has now appeared somewhere in the world.
-  - **Test to Falsify:** If the full NPC sweep of Ecruteak fails, I must perform a full sweep of the city with the ITEMFINDER on every single tile.
-
-# Radio Tower Clues
-- A Teacher on 2F mentioned that lullabies on the radio may make POKéMON sleep.
-
 # Goldenrod City Notes
 - Todd called (Turn 35401) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
 
