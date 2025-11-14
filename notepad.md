@@ -9,9 +9,12 @@
 - **FLOOR**: Traversable.
 - **WALL**: Impassable.
 - **WARP_CARPET_DOWN**: Warp tile. Traversable.
+- **TALL_GRASS**: Traversable. Potential wild Pokémon encounters.
+- **LEDGE_HOP_RIGHT**: One-way obstacle. Can only jump from Left to Right.
+- **LEDGE_HOP_DOWN**: One-way obstacle. Can only jump from Top to Bottom.
 - **PC**: Object/Obstacle. Interaction: Stand below, face UP, press A.
-- **BOOKSHELF**: Object/Obstacle. (Untested traversability, assuming impassable).
-- **TV**: Object/Obstacle. (Untested traversability, assuming impassable).
+- **BOOKSHELF**: Object/Obstacle.
+- **TV**: Object/Obstacle.
 - **WINDOW**: Visual feature on walls.
 
 ### Mechanics
