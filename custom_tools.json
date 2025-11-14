@@ -1,4 +1,37 @@
 {
+  "find_path": {
+    "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a JSON list of coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string",
+          "description": "Target X coordinate"
+        },
+        "target_y": {
+          "type": "string",
+          "description": "Target Y coordinate"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\n# Parse map to grid\ngrid = {}\nstart_pos = None\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib.get('type', 'WALL')\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        \n        # Check for player\n        if tile.find('Player') is not None:\n            start_pos = (x, y)\n            \n        # Determine passability\n        # Basic passability: Not a wall, no object.\n        # Note: We allow the target tile to be \"impassable\" (e.g. interacting with an object/wall)\n        # so the path can lead UP TO it.\n        is_passable = (tile_type != 'WALL') and (not has_object)\n        \n        grid[(x, y)] = is_passable\n\nif start_pos is None:\n    print(json.dumps([]))\n    exit()\n\n# BFS\nqueue = [[start_pos]]\nvisited = {start_pos}\nfound_path = []\n\nwhile queue:\n    path = queue.pop(0)\n    current = path[-1]\n    \n    if current == (target_x, target_y):\n        found_path = path\n        break\n    \n    # Neighbors (Up, Down, Left, Right)\n    neighbors = [\n        (current[0], current[1] - 1),\n        (current[0], current[1] + 1),\n        (current[0] - 1, current[1]),\n        (current[0] + 1, current[1])\n    ]\n    \n    for next_node in neighbors:\n        if next_node in grid and next_node not in visited:\n            # We can move to the tile if it is passable OR if it is the final target (to bump/interact)\n            if grid[next_node] or next_node == (target_x, target_y):\n                visited.add(next_node)\n                new_path = list(path)\n                new_path.append(next_node)\n                queue.append(new_path)\n\n# Convert to required output format\noutput = []\nif found_path:\n    for p in found_path:\n        output.append({\"x\": p[0], \"y\": p[1]})\n\nprint(json.dumps(output))",
+    "history": [
+      {
+        "commit_message": "feat: Initial implementation of find_path using BFS.",
+        "timestamp": "2025-11-14T03:04:04.417Z",
+        "action_counter": 47
+      },
+      {
+        "commit_message": "feat: Initial implementation of find_path using BFS.",
+        "timestamp": "2025-11-14T03:12:22.011Z",
+        "action_counter": 55
+      }
+    ]
+  },
   "spam_button": {
     "description": "Generates a sequence of button presses to be executed automatically. Useful for mashing through text or menus. Can optionally include delays.",
     "input_schema": {
@@ -39,39 +72,6 @@
         "commit_message": "Initial definition of spam_button tool.",
         "timestamp": "2025-11-14T03:00:03.455Z",
         "action_counter": 42
-      }
-    ]
-  },
-  "find_path": {
-    "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a JSON list of coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "string",
-          "description": "Target X coordinate"
-        },
-        "target_y": {
-          "type": "string",
-          "description": "Target Y coordinate"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\n# Parse map to grid\ngrid = {}\nstart_pos = None\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib.get('type', 'WALL')\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        \n        # Check for player\n        if tile.find('Player') is not None:\n            start_pos = (x, y)\n            \n        # Determine passability\n        # Basic passability: Not a wall, no object.\n        # Note: We allow the target tile to be \"impassable\" (e.g. interacting with an object/wall)\n        # so the path can lead UP TO it.\n        is_passable = (tile_type != 'WALL') and (not has_object)\n        \n        grid[(x, y)] = is_passable\n\nif start_pos is None:\n    print(json.dumps([]))\n    exit()\n\n# BFS\nqueue = [[start_pos]]\nvisited = {start_pos}\nfound_path = []\n\nwhile queue:\n    path = queue.pop(0)\n    current = path[-1]\n    \n    if current == (target_x, target_y):\n        found_path = path\n        break\n    \n    # Neighbors (Up, Down, Left, Right)\n    neighbors = [\n        (current[0], current[1] - 1),\n        (current[0], current[1] + 1),\n        (current[0] - 1, current[1]),\n        (current[0] + 1, current[1])\n    ]\n    \n    for next_node in neighbors:\n        if next_node in grid and next_node not in visited:\n            # We can move to the tile if it is passable OR if it is the final target (to bump/interact)\n            if grid[next_node] or next_node == (target_x, target_y):\n                visited.add(next_node)\n                new_path = list(path)\n                new_path.append(next_node)\n                queue.append(new_path)\n\n# Convert to required output format\noutput = []\nif found_path:\n    for p in found_path:\n        output.append({\"x\": p[0], \"y\": p[1]})\n\nprint(json.dumps(output))",
-    "history": [
-      {
-        "commit_message": "feat: Initial implementation of find_path using BFS.",
-        "timestamp": "2025-11-14T03:04:04.417Z",
-        "action_counter": 47
-      },
-      {
-        "commit_message": "feat: Initial implementation of find_path using BFS.",
-        "timestamp": "2025-11-14T03:12:22.011Z",
-        "action_counter": 55
       }
     ]
   }
