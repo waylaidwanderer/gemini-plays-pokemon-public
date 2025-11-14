@@ -550,3 +550,4 @@
 - All simple object interactions have failed.
 - New Hypothesis 2: The Rocker NPC must be spoken to again.
 - Hypothesis 3 (Use Item): Attempted to open the menu with 'Start' to use an ESCAPE ROPE. Result: 'Start' button had no effect. Menu did not open. Conclusion: FAILED. The game is preventing menu access.
+- Hypothesis 4 (Generic 'A' Press): Attempted to press 'A' while stuck to advance a hidden script. Result: No effect. Conclusion: FAILED.
