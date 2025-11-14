@@ -210,3 +210,10 @@
 - **Alternative Hypothesis (Medicine Location):** The 'special medicine' might not be an item found within the lighthouse. Jasmine may be at the top, but she might send me to another location (like Cianwood City) to acquire it. A test to falsify this is reaching the top and finding Jasmine without the medicine.
 - **Agent Idea:** A `puzzle_solver_agent` could be defined to formalize the observe-hypothesize-test loop for complex puzzles, suggesting the next logical test based on current map state and a list of failed hypotheses.
 - **Task (Tile Mechanics):** I need to explicitly test impassable-looking tiles like WALL and WINDOW by attempting to walk into them at the next opportunity to confirm their properties.
+
+# Self-Assessment Action Items (Turn 42361)
+- **Procedural Rule:** I MUST use my `reality_check_agent` before any significant navigation or map-changing action to prevent hallucinations.
+- **Task:** When I return to OlivineLighthouse2F, I MUST place a strategic marker (e.g., '🚫 Inactive Warp') on the tile at (17, 11) to prevent future confusion.
+- **Alternative Hypothesis (Medicine Location):** The 'special medicine' might not be an item found within the lighthouse. Jasmine may be at the top, but she might send me to another location (like Cianwood City) to acquire it. A test to falsify this is reaching the top and finding Jasmine without the medicine.
+- **Agent Idea:** A `puzzle_solver_agent` could be defined to formalize the observe-hypothesize-test loop for complex puzzles, suggesting the next logical test based on current map state and a list of failed hypotheses.
+- **Task (Tile Mechanics):** I need to explicitly test impassable-looking tiles like WALL and WINDOW by attempting to walk into them at the next opportunity to confirm their properties.
