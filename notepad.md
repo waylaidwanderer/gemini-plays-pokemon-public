@@ -237,16 +237,6 @@
 
 - **Olivine Lighthouse Puzzle (BLOCKED - External Item/Event Required Hypothesis):** Progression is blocked pending an external key item (e.g., medicine for the sick Ampharos) or a story event triggered elsewhere.
 
-# Self-Assessment Findings (Turn 34614)
-
-## Untested Assumptions & Alternative Hypotheses
-- **Assumption:** The path to Mahogany Town is via Route 42.
-  - **Alternative Hypothesis:** Route 42 is a complete dead end without SURF, and the actual path forward is hidden somewhere I've already been (e.g., an NPC's dialogue changed after a major event, and I need to re-talk to everyone).
-  - **Test to Falsify:** If my full exploration of Route 42 (all reachable land paths) leads to a dead end, I must begin a systematic re-sweep of all previously visited cities, starting with Ecruteak and Olivine, talking to every single NPC again.
-- **Assumption:** The 'special medicine' for the Ampharos is a key item I will find.
-  - **Alternative Hypothesis:** The 'medicine' is not an item, but a person or an event. For example, a doctor NPC might need to be escorted to the lighthouse.
-  - **Test to Falsify:** This is harder to test directly. However, if I find the HM for FLY before finding a 'medicine' item, it would lend weight to the idea that I need to fly someone to Olivine City.
-
 # Philosophy Update (Overwatch Critique, Turn 34667)
 - **Debugging Inefficiency:** My debugging process for `path_and_execute_v3` was inefficient. I repeatedly fixed symptoms (wrong start coordinate) without a thorough root cause analysis, leading to multiple failures. In the future, I must be more methodical in debugging, using extensive logging to find the core issue on the first attempt.
 
