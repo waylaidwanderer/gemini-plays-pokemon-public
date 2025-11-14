@@ -34,7 +34,3 @@
 - **Route 29**: Pidgey, Sentret, Rattata
 - **Route 30**: Pidgey, Caterpie
 - **Silk** (Caterpie) ♂ Lv 3
-
-### Pokémon Locations
-- **Route 29**: Pidgey, Sentret, Rattata
-- **Route 30**: Pidgey, Caterpie
