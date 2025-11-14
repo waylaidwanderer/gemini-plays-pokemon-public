@@ -130,13 +130,7 @@
 - **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
 - **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
 
-## Untested Assumptions & Alternative Hypotheses (Post-Reflection)
-- **Assumption:** Cianwood City is located at the southern end of Route 40.
-  - **Alternative Hypothesis:** Route 40 could be a dead end or lead to a different area entirely. The path to Cianwood might be from another, undiscovered water route.
-  - **Test to Falsify:** Continue exploring the full extent of Route 40. If it does not lead to Cianwood City, the assumption is false.
-- **Assumption:** The 'special medicine' for the Ampharos is a key item found in Cianwood City.
-  - **Alternative Hypothesis:** The 'special medicine' could be a hidden item on the water routes (40/41), or it might not be an item at all but an NPC who provides it after a specific event in Cianwood.
-  - **Test to Falsify:** Thoroughly explore Cianwood City and the surrounding water routes with the ITEMFINDER. If no medicine is found, the assumption is likely false.
+#
 
 # Goldenrod City Notes (Update)
 - Todd called (Turn 38870) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
