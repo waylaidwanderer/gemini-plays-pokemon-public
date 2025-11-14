@@ -223,18 +223,6 @@
   - **Alternative Hypothesis:** The 'BERRY' might be a hidden item on the ground, requiring the ITEMFINDER. Alternatively, healing the Miltank could be a red herring, and another, less obvious trigger exists on this route to unlock progression.
   - **Test to Falsify:** If using HEADBUTT on all accessible trees yields no 'BERRY', I must then systematically use the ITEMFINDER on every tile of Route 39.
 
-## Route 39 Miltank Puzzle Log
-- **Hypothesis 1 (Headbutt):** The 'BERRY' needed for the Miltank can be found by using HEADBUTT on a tree.
-  - **Result:** Tested all three accessible trees. Encounters with wild POKéMON, but no BERRY obtained.
-  - **Conclusion:** Hypothesis is FALSE.
-- **Hypothesis 2 (Farmers):** Speaking to the farmers in the Moomoo Farmhouse will provide a new clue.
-  - **Result:** Spoke to both the male and female farmers. Their dialogue was unchanged and only repeated the problem.
-  - **Conclusion:** Hypothesis is FALSE.
-- **New Hypothesis:** The solution is an item on Route 39.
-- **Test Plan:**
-  1. Check the Fruit Tree at (9, 3) to see if it has respawned a BERRY.
-  2. If the tree has no BERRY, systematically use the ITEMFINDER on every tile of Route 39 to find a hidden item.
-- **Hypothesis 3 (Fruit Tree):** The Fruit Tree at (9, 3) has respawned a BERRY.
   - **Result:** Interacted with the tree. Dialogue confirmed "There's nothing here…".
   - **Conclusion:** Hypothesis is FALSE.
 
