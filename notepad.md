@@ -12,6 +12,7 @@
 - **TALL_GRASS**: Walkable. Wild Pokémon encounters (Level 2-3 observed).
 - **LEDGE_HOP_RIGHT**: One-way obstacle. Impassable from West/North/South. Jumpable from Left to Right (Hypothesis).
 - **LEDGE_HOP_DOWN**: One-way obstacle. Impassable from Bottom/Left/Right. Jumpable from Top to Bottom.
+- **LEDGE_HOP_LEFT**: One-way obstacle. Jumpable from Right to Left.
 - **COUNTER**: Impassable. Interact with NPCs across it.
 - **VOID**: Impassable (Black space outside map bounds).
 - **PC**: Impassable. Interact from below facing Up.
