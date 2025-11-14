@@ -27,9 +27,7 @@
 - **Miltank Quest (Route 39):** BLOCKED. I have exhausted all methods of finding the required 'BERRY' item.
 
 ## 3. Untested Assumptions & Alternative Hypotheses (Active)
-- **Assumption (Lighthouse Puzzle):** I am trapped in this room because I missed a hidden item or switch.
-  - **Alternative Hypothesis:** The solution is not in this room at all. The puzzle might require an external event, or I may need to revisit the *other* pitfall room to see if anything has changed.
-  - **Test to Falsify:** A full sweep of this room with the ITEMFINDER. If nothing is found, I must consider that the solution lies elsewhere.
+
 - **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
   - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
 
