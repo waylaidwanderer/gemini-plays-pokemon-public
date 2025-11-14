@@ -1,1 +1,45 @@
-{}
+{
+  "spam_button": {
+    "description": "Generates a sequence of button presses to be executed automatically. Useful for mashing through text or menus. Can optionally include delays.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "Start",
+            "Select",
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        },
+        "times": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "delay_ms": {
+          "type": "integer",
+          "default": 0,
+          "maximum": 500
+        }
+      },
+      "required": [
+        "button",
+        "times"
+      ]
+    },
+    "python_script": "import json\nbutton = input_data['button']\ntimes = int(input_data['times'])\ndelay = int(input_data.get('delay_ms', 0))\n\npresses = []\nfor _ in range(times):\n    presses.append(button)\n    if delay > 0:\n        presses.append(f\"sleep {delay}\")\n\nprint(json.dumps(presses))",
+    "history": [
+      {
+        "commit_message": "Initial definition of spam_button tool.",
+        "timestamp": "2025-11-14T03:00:03.455Z",
+        "action_counter": 42
+      }
+    ]
+  }
+}
