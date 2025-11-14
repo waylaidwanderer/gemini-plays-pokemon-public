@@ -3,6 +3,7 @@
 ## Current Status
 - Just started a new game.
 - Selected gender: Girl.
+- Name: GEM.
 
 ## To-Do
 - Complete the intro.
