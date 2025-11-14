@@ -492,3 +492,11 @@
 - **Olivine Lighthouse 3F (Western Section):** Confirmed dead end for ascending. The Youngster NPC at (3, 9) confirms the path is blocked.
 - Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
 - Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
+
+# Cianwood City Exploration Plan
+1. Cianwood Pharmacy
+2. Cianwood Gym
+3. ManiasHouse
+4. Cianwood Pokecenter
+5. Cianwood Lugia Speech House
+6. Cianwood Photo Studio
