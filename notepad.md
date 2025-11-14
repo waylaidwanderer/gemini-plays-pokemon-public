@@ -2,8 +2,8 @@
 
 ## Current Objectives
 - **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
-- **Secondary:** Heal at Pokémon Center.
-- **Tertiary:** Explore Cherrygrove City.
+- **Secondary:** Explore Cherrygrove City.
+- **Tertiary:** Talk to locals.
 
 ## Game Mechanics
 ### Tile Types (Verified)
