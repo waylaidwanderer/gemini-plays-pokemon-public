@@ -61,7 +61,7 @@
 - **CUT_TREE:** Impassable. Can be removed using the move CUT. (Confirmed on Route 35).
 - **DOOR:** A two-way warp tile.
 - **FLOOR:** Traversable.
-- **FLOOR_UP_WALL:** A one-way tile, impassable when approached from below (i.e., you cannot move up onto it).
+- **FLOOR_UP_WALL:** A one-way tile, impassable when approached from ABOVE (from a tile with a lower y-coordinate). (Confirmed in Cianwood City at (18, 49) and Union Cave at (11, 9)).
 - **GRASS:** Traversable. (Confirmed in Azalea Gym). Note: Visually appears as grass, but map data may list as 'FLOOR'.
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using HEADBUTT.
 - **LADDER:** A two-way warp tile.
