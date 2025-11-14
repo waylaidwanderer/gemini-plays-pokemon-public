@@ -33,3 +33,4 @@
 - **New Tile:** LADDER (Walkable, Warp).
 ### Interactive Objects
 - **BERRY_TREE**: Object (e.g., ID 8). Acts as a solid obstacle. Interact (A) to harvest a berry.
+- Found Antidote at Route 30 (8, 35).
