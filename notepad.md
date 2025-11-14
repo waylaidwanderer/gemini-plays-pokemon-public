@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
-- **Secondary:** Find Poké Mart (Need Poké Balls).
+- **Secondary:** Visit Poké Mart (Check for Poké Balls) and Heal at Center.
 - **Tertiary:** Talk to locals.
 
 ## Game Mechanics
