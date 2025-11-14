@@ -6,13 +6,14 @@
 - Location: ElmsLab
 - Money: ¥3000
 - Badges: 0
+- Party: Kimchi (Cyndaquil) Lv5
 
 ## Key Items
 - Pokegear
+- Phone Number: Professor Elm
 
 ## Goals
 - Primary: Run errand for Elm (Visit Mr. Pokémon).
-- Party: Cyndaquil (Fire)
 - Secondary: Explore New Bark Town.
 
 ## Game Mechanics
