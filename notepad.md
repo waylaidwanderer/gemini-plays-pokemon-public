@@ -392,3 +392,11 @@
 - **`find_reachable_unseen_tiles` Tool:** Create a tool to parse the map XML and determine which unseen tiles are *actually* reachable from the player's current position.
 - **Gameplay Tasks:** Test traversability of `BUOY` tile with SURF.
 - **Phone List Limit:** The phone list can become full, preventing you from adding new contacts. (Confirmed on Route 35 with Juggler Irwin).
+
+# Maintenance Log (Turn 41894)
+
+## Critical Failures to Address
+- **Tool Misuse (CRITICAL):** I have a severe recurring issue of using `autopress_buttons=true` with tools that output coordinates (`path_and_execute_v3`) or decisions (`deterministic_battle_strategist`), not button strings. This is a critical failure to learn from documented mistakes and must be corrected immediately.
+
+## 5. Agent/Tool Development Ideas (New)
+- **`phone_call_summarizer` Agent:** Parses phone call dialogue to extract key information (rematches, items) and suggest notepad updates.
