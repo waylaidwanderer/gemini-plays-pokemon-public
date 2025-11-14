@@ -15,11 +15,14 @@
 - **`plan_next_exploration_step`:** Finds the closest reachable 'unseen' tile on the current map and returns its coordinates.
 - **`select_battle_option`:** Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 
-## 🚨 CRITICAL DIRECTIVES 🚨
-- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool/agent fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'. This is the highest priority.
-- **VERIFY, DON'T ASSUME:** My internal sense of location and memory is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
-- **COORDINATE SYSTEM IS 0-INDEXED:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
+## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
+- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
+- **REALITY CHECKS:** My internal sense of location is unreliable. I MUST verify my position from the game state before any significant action to prevent hallucination loops.
+- **COORDINATE SYSTEM:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
+- **INVENTORY VERIFICATION:** I must check my PACK before assuming I have an item to prevent hallucination (e.g., the nonexistent ESCAPE ROPE incident).
 - **TEXT BOXES:** If 'A' fails to advance text, the next hypothesis is to try 'B'.
+- **TOOL MISUSE:** `autopress_buttons=true` is ONLY for tools that output button strings, not coordinates or decisions.
+- **ITEM MANAGEMENT:** Taking a held item with a full bag destroys it. The only safe way to free a slot is to have a Pokémon hold an item.
 
 ## 1. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
