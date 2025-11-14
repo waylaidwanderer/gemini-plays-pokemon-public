@@ -367,14 +367,6 @@
 # Cianwood City Log (Update)
 - **Rocker's Stolen Pokémon:** Received SHUCKIE from the Rocker in ManiasHouse for safekeeping. His *other* Pokémon was stolen. The quest is to investigate the theft, not to get a specific Pokémon back for him.
 
-# Cianwood City Rock Puzzle Log (Reset)
-- **Observation:** Four rocks are present at (4, 19), (4, 25), (5, 29), and (10, 27). Using STRENGTH on them displays the message "Ignis can move boulders" but the rocks do not move. This indicates a puzzle, not a simple strength check.
-- **Hypothesis 1 (Systematic Push):** One of the rocks is the 'key' and must be pushed from a specific direction to start the puzzle or be removed.
-- **Test Plan:** Systematically attempt to use STRENGTH on one rock from all accessible adjacent tiles. Starting with the rock at (4, 25).
-  - Step 1: Attempt push from below (4, 26).
-  - Step 2: Attempt push from left (3, 25).
-  - Step 3: Attempt push from right (5, 25).
-
 ## Tile Mechanics Update
 - **RADIO:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
