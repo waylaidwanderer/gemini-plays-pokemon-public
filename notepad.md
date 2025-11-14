@@ -229,9 +229,6 @@
 - **RADIO:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 
-# Phone Call Log
-- ALAN (SCHOOLBOY) called. He has an item for me on ROUTE 36.
-
 # Route 30 Ledge Puzzle
 - **Hypothesis 1:** The ledge at (6, 47) is passable from below.
   - **Test:** Attempted to move north from (6, 48) on Turn 39805.
