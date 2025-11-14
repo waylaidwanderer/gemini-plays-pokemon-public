@@ -485,10 +485,6 @@
   - Step 2: Attempt push from left (3, 25).
   - Step 3: Attempt push from right (5, 25).
 
-## Agent/Tool Development To-Do
-- Define `reality_check_agent` to prevent hallucination loops.
-- Define `multi_map_navigator` agent for high-level journey planning.
-
 ## Tile Mechanics Update
 - **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
 
