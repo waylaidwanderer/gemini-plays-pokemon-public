@@ -27,7 +27,7 @@
 
 ## Battle and Pokemon Information
 ### Current Team
-- **Kimchi** (Cyndaquil) ♂ Lv 6
+- **Kimchi** (Cyndaquil) ♂ Lv 7 (11/22 HP)
 - **Scout** (Sentret) ♂ Lv 2
 - **Ace** (Pidgey) ♂ Lv 4 (4/17 HP)
 - **Silk** (Caterpie) ♂ Lv 3
