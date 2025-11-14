@@ -5,7 +5,7 @@
 - **Secondary:** Talk to Mom in New Bark Town before leaving.
 
 ## Game Mechanics
-### Tile Types
+### Tile Mechanics
 - **FLOOR**: Walkable. Standard movement.
 - **WALL**: Impassable.
 - **WARP_CARPET_DOWN**: Walkable. Triggers map exit.
