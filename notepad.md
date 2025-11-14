@@ -155,17 +155,6 @@
 # Archive: Solved Puzzles & Lessons Learned
 
 <details>
-
-<summary>Wade's Berries (Hypothesis Falsified)</summary>
-
-- **Assumption:** Wade on Route 31 would give me a `BITTER BERRY` for the sick Miltank after calling me.
-- **Test:** Defeated Wade in a rematch and spoke to him on Turn 31288.
-- **Result:** Wade's dialogue was non-committal ("You'll hear from me..."). He did not provide any berries.
-- **Conclusion:** Hypothesis is FALSE. The solution to the Miltank quest is not with Wade.
-
-</details>
-
-<details>
 <summary>Day-Care Tile Test (SOLVED)</summary>
 
 - **System Critique:** Suggested testing 'TABLE' and 'PLANT' tiles.
