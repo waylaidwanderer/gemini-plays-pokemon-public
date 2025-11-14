@@ -91,6 +91,7 @@
 - **WARP_CARPET:** A one-way warp tile, activated by pressing in the indicated direction.
 - **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
 - **WATER:** Impassable without SURF.
+- **TV:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **WHIRLPOOL:** Impassable.
 
 # Archive: Log of Blocked Paths, Solved Puzzles & Old Info
