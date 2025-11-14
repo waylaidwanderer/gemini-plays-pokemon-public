@@ -510,3 +510,4 @@
 - **PIT:** A one-way warp tile, activated by moving onto it.
 - **Olivine Lighthouse 3F (Western Section):** Confirmed dead end for ascending. The Youngster NPC at (3, 9) confirms the path is blocked.
 - Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
+- Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
