@@ -49,11 +49,12 @@
 - **Assumption (Azalea Gym):** The statues at the gym entrance are switches that activate the trainers.
   - **Alternative Hypothesis:** The statues do nothing. The puzzle might involve the floor patterns or a specific, non-obvious interaction order with the trainers themselves.
 
-## 4. Critical Bugs & Lessons
-- **Hallucination Loop (CRITICAL):** I have a severe tendency to hallucinate my position and actions. My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
-- **Inventory Hallucination (CRITICAL):** During turn 40942, I attempted to use an ESCAPE ROPE that I did not possess. This indicates a severe failure to verify my inventory before forming a plan. I must always check my PACK before assuming I have a specific item.
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks (`1 <= x <= width`) while the game's map data is 0-indexed (`0 <= x < width`). The correct check is `0 <= coordinate < dimension`. This must be the first thing I check for any future pathfinding failures.
-- **Tool Trust:** I must trust my tools' outputs and verify the in-game situation before assuming a bug.
+## 3. Critical Bugs & Lessons Learned
+- **Hallucination Loop (CRITICAL):** My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
+- **Inventory Hallucination (CRITICAL):** I have a severe tendency to fail to verify my inventory before forming a plan (e.g., the ESCAPE ROPE incident). I must always check my PACK before assuming I have an item.
+- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks while the game's map data is 0-indexed (`0 <= coordinate < dimension`). This must be the first thing I check for any future pathfinding failures.
+- **Tool Misuse (CRITICAL):** I have a severe recurring issue of using `autopress_buttons=true` with tools that output coordinates or decisions, not button strings. This is a critical failure to learn from documented mistakes and must be corrected immediately.
+- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
 - **Text Box Loop (CRITICAL):** If 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
 
