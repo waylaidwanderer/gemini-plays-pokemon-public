@@ -246,3 +246,6 @@
 
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
+
+## Moomoo Farm Quest Mechanics
+- The sick Miltank requires a specific item named 'BERRY'. Other named berries like 'BITTER BERRY' or 'MINT BERRY' do not work for this quest. (Confirmed in Moomoo Farm Barn)
