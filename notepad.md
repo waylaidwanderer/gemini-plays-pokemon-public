@@ -152,15 +152,6 @@
   - **Alternative Hypothesis:** The 'medicine' might not be an item. It could be a person (like a doctor), a specific Pokémon with a healing ability, or a key event that needs to be triggered (e.g., defeating the Cianwood Gym Leader).
   - **Test to Falsify:** A full exploration of Cianwood City (all buildings, all NPCs) that yields no 'medicine' item will weaken the initial assumption. The next logical test would be to challenge the Cianwood Gym.
 
-# Maintenance & Lessons Learned (Turn 39210)
-
-## Agent & Tool Reliability
-- **Agent Unreliability:** The `city_exploration_planner` agent has been failing due to server-side errors. I must monitor this; if it persists, I may need to refine or replace it.
-- **Tool Misuse:** I incorrectly used `autopress_buttons=true` with `path_and_execute_v3`, which outputs coordinates, not button strings. This parameter is only for tools that generate button press sequences.
-
-## Confirmed System Mechanics
-- **PC Usage:** BILL's PC is for Pokémon Storage. Gem's PC is for Item Storage. This is a critical distinction to remember to avoid wasting time in the wrong menu.
-
 # Cianwood City Log
 
 # Self-Assessment Action Items (Turn 39503)
