@@ -538,21 +538,15 @@
 - **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
 - **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the exact sequence of D-pad presses required to select it on the FLY map, preventing manual navigation errors.
 
-# ManiasHouse Puzzle Log
-- **Status:** Trapped. The exit warps at (2, 7) and (3, 7) are inactive after returning SHUCKIE.
-- **Hypothesis 1:** An object in the room must be interacted with to unlock the exit.
-- **Test Plan:** Systematically interact with all objects: TV, Radio, Bookshelves, Town Map, and the Rocker NPC.
-- Hypothesis 1 (Object Interaction): An object in the room is a switch.
-  - Test 1 (TV @ 2,1): Result - Generic text "It's a TV.". Conclusion: FAILED.
-  - Test 2 (Radio @ 7,1): Result - Played "OAK's PKMN Talk". Conclusion: FAILED.
-  - Test 3 (Bookshelves @ 0,1 & 1,1): Result - Generic text about magazines. Conclusion: FAILED.
-  - Test 4 (Town Map @ 3,0): Result - Generic text "It's the TOWN MAP.". Conclusion: FAILED.
-- All simple object interactions have failed.
-- New Hypothesis 2: The Rocker NPC must be spoken to again.
-- Hypothesis 3 (Use Item): Attempted to open the menu with 'Start' to use an ESCAPE ROPE. Result: 'Start' button had no effect. Menu did not open. Conclusion: FAILED. The game is preventing menu access.
-- Hypothesis 4 (Generic 'A' Press): Attempted to press 'A' while stuck to advance a hidden script. Result: No effect. Conclusion: FAILED.
-- Hypothesis 5 (Generic 'Select' Press): Attempted to press 'Select' while stuck. Result: Triggered a tutorial text box: 'An item in your PACK may be registered for use on SELECT Button.'. Conclusion: This is a major clue, suggesting item registration is part of the solution.
-- Hypothesis 6 (Use Item - ESCAPE ROPE): Attempted to use ESCAPE ROPE from the menu. Result: Blocked by a special dialogue from Professor Oak stating 'This isn't the time to use that!'. Conclusion: FAILED.
+# ManiasHouse Puzzle Log (SOLVED)
+- **Problem:** Trapped in the house after returning SHUCKIE. Movement was locked, and exit warps were inactive.
+- **Solution:** This was a scripted event. The trigger sequence was:
+  1. Become trapped (movement locked).
+  2. Press 'Select' to trigger a tutorial message about registering an item.
+  3. This action unlocks the main menu ('Start' button).
+  4. Attempt to use an ESCAPE ROPE from the PACK. This is blocked by a special dialogue from Professor Oak.
+  5. Exit the menu completely.
+- **Conclusion:** Completing this specific sequence of failed attempts unlocks movement and solves the puzzle. The exit warps are now presumably active.
 
 # Self-Assessment Action Items (Turn 40771)
 - **Task (High Priority):** Test the traversability of the `WINDOW` tile type at the next available opportunity to address the overwatch critique and adhere to my procedural rules.
