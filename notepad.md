@@ -2,7 +2,8 @@
 
 ## Current Objectives
 - **Primary:** Run errand for Prof. Elm (Visit Mr. Pokémon).
-- **Secondary:** Explore Route 46 briefly, then head to Cherrygrove.
+- **Secondary:** Heal at Pokémon Center.
+- **Tertiary:** Explore Cherrygrove City.
 
 ## Game Mechanics
 ### Tile Types (Verified)

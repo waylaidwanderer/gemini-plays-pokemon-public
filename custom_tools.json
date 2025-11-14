@@ -86,5 +86,36 @@
         "action_counter": 207
       }
     ]
+  },
+  "check_reachability": {
+    "description": "Determines which of the provided target coordinates are reachable from the current position using BFS. Useful for filtering lists of potential exploration targets. Returns a JSON list of reachable target objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "targets": {
+          "type": "string",
+          "description": "A JSON string representing a list of target objects, e.g. '[{\"x\": 1, \"y\": 2}]'"
+        },
+        "current_x": {
+          "type": "integer"
+        },
+        "current_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "targets",
+        "current_x",
+        "current_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# Parse inputs\ntargets = json.loads(input_data['targets'])\nstart_x = int(input_data['current_x'])\nstart_y = int(input_data['current_y'])\n\nroot = ET.fromstring(map_xml_string)\n\n# Build grid of passable tiles\ngrid = set()\nimpassable_types = {'WALL', 'HEADBUTT_TREE', 'WATER', 'DOOR', 'PC', 'TV', 'WINDOW', 'BOOKSHELF', 'VOID'}\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        t_type = tile.attrib.get('type', 'WALL')\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        \n        # Basic passability check\n        if t_type not in impassable_types and not has_object:\n            grid.add((x, y))\n\n# BFS to find all reachable tiles from start\nqueue = [(start_x, start_y)]\nvisited = {(start_x, start_y)}\n\nwhile queue:\n    curr_x, curr_y = queue.pop(0)\n    \n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = curr_x + dx, curr_y + dy\n        if (nx, ny) in grid and (nx, ny) not in visited:\n            visited.add((nx, ny))\n            queue.append((nx, ny))\n\n# Filter targets\nreachable_targets = []\ntarget_set = {(t['x'], t['y']) for t in targets}\n\nfor t in targets:\n    if (t['x'], t['y']) in visited:\n        reachable_targets.append(t)\n\nprint(json.dumps(reachable_targets))",
+    "history": [
+      {
+        "commit_message": "feat: Add check_reachability tool to filter target coordinates based on map accessibility.",
+        "timestamp": "2025-11-14T07:46:43.297Z",
+        "action_counter": 260
+      }
+    ]
   }
 }
