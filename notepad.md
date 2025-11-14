@@ -3,7 +3,8 @@
 ## Current Objectives
 - **Primary:** Begin the Gym Challenge! First stop: Violet City.
 - **Secondary:** Reach Violet City.
-- **Navigation:** Defeat Youngster Mikey, then continue North to Violet City.
+- **Navigation:** Bypass defeated Bug Catcher Don, traverse Route 30 North to Violet City.
+- **Urgent:** Heal team at Pokémon Center.
 
 ## Game Mechanics
 ### Tile Mechanics
