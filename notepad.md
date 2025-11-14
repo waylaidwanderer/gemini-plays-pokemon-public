@@ -207,8 +207,6 @@
 
 - **VOID:**
 
-- **VOID:**
-
 # Olivine Lighthouse 1F Dead-End Puzzle (Solved)
 - **Problem:** Trapped in a room after falling through a pit. All simple interactions (menu tricks, talking to NPC, stepping on warps) failed.
 - **Hypothesis (Confirmed):** The move DIG can be used as an escape rope to exit certain indoor areas.
