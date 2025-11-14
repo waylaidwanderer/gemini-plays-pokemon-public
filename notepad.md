@@ -2,6 +2,7 @@
 
 ## Current Status
 - Just started a new game.
+- Selected gender: Girl.
 
 ## To-Do
 - Complete the intro.
