@@ -35,6 +35,7 @@
 - **HUEY (SAILOR):** OLIVINE LIGHTHOUSE.
 - **ANTHONY (HIKER):** Route 33.
 - **JACK (SCHOOLBOY):** NATIONAL PARK.
+- **ALAN (SCHOOLBOY):** Route 36.
 
 ## 3. World State & Blocked Paths
 - **Tin Tower:** Path forward is blocked by a Sage due to the legendary beasts being awakened.
