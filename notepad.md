@@ -132,18 +132,6 @@
 - **Conclusion:** Progression is likely blocked pending an external key item (e.g., medicine for the sick Ampharos) or a story event triggered elsewhere.
 - **Future Plan:** Upon returning, I will use the ITEMFINDER on every tile of every floor to check for hidden items or switches.
 
-# Untested Assumptions & Alternative Hypotheses (Self-Assessment)
-- **Conclusion (Burned Tower):** The Super Nerd was not present at (10, 12), invalidating the hypothesis that he was a required interaction. My `find_reachable_unseen_tiles` tool confirms there are no other reachable areas. The legendary beast event appears to be the sole trigger required to progress in the Tin Tower.
-- **Assumption:** The next gym is east of Ecruteak City.
-  - **Alternative Hypothesis:** The next gym could be in Cianwood City, which an NPC mentioned is where to find FLY. The path to Cianwood might be west, not east.
-  - **Test to Falsify:** If the path east leads to a dead end or a different city without a gym (e.g., Mahogany Town), I must then explore west from Ecruteak (Route 38).
-- **Assumption:** The mail delivery officer is on Route 31.
-  - **Alternative Hypothesis:** The officer could be on any route connected to Goldenrod. I've only checked one gate.
-  - **Test to Falsify:** Systematically check all other gates connected to major routes.
-- **Assumption:** My `find_reachable_unseen_tiles` tool is correct that there are no reachable unseen tiles in the Burned Tower B1F.
-  - **Alternative Hypothesis:** The tool has a bug, and there is a path to the unseen areas and the unmarked warp at (3, 13).
-  - **Test to Falsify:** I can manually try to find a path to the warp at (3, 13). If I can get there, the tool is wrong and needs to be fixed immediately.
-
 # Phone Contacts
 - **TODD (CAMPER):** Met on Route 34. Calls with training tips.
 
