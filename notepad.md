@@ -12,12 +12,6 @@
 - **Interactable (Blocked)**: COUNTER, PC.
 - **Ledges**: One-way (DOWN, LEFT, RIGHT).
 
-- **COUNTER**: Impassable. Interact with NPCs across it.
-- **VOID**: Impassable (Black space outside map bounds).
-- **PC**: Impassable. Interact from below facing Up.
-- **TV / BOOKSHELF / WINDOW / TOWN_MAP**: Impassable obstacles/decorations.
-- **WATER**: Impassable without Surf.
-- **DOOR**: Walkable (Warp).
 - **HEADBUTT_TREE**: Impassable obstacle.
 
 ## Story Highlights
