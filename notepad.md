@@ -537,3 +537,8 @@
 ## Agent/Tool Development Ideas
 - **`puzzle_solver_agent`:** Create an agent that can analyze a room's layout, object positions, and a list of failed hypotheses to suggest new, logical steps for solving environmental puzzles.
 - **`fly_navigator` Tool:** Create a tool that takes a destination city name and outputs the exact sequence of D-pad presses required to select it on the FLY map, preventing manual navigation errors.
+
+# ManiasHouse Puzzle Log
+- **Status:** Trapped. The exit warps at (2, 7) and (3, 7) are inactive after returning SHUCKIE.
+- **Hypothesis 1:** An object in the room must be interacted with to unlock the exit.
+- **Test Plan:** Systematically interact with all objects: TV, Radio, Bookshelves, Town Map, and the Rocker NPC.
