@@ -37,6 +37,9 @@
 - **ANTHONY (HIKER):** Route 33.
 - **JACK (SCHOOLBOY):** NATIONAL PARK.
 - **ALAN (SCHOOLBOY):** Route 36.
+
+## Special Events & Swarms
+- **Hiker Anthony:** Dunsparce swarm in Dark Cave.
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
 
 ## 3. World State & Blocked Paths
