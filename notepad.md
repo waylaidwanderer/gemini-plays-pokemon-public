@@ -29,6 +29,7 @@
 - **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. A Sage in the Tin Tower has asked me to refrain from entering because of this.
 - **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE. The puzzle was solved once but the tree may have respawned.
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am safekeeping his SHUCKIE.
+- **Moomoo Farm:** A Miltank is sick and requires a specific item named 'BERRY' to heal. Other named berries do not work.
 
 ### Phone Call Rematches
 - **DANA (LASS):** Route 38.
