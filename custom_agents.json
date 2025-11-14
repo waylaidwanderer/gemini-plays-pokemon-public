@@ -26,12 +26,5 @@
     "agent_system_prompt": "You are a meticulous reality checker for a gamer playing Pokémon Crystal. You will be given the player's thoughts about their plan for the next turn and the actual, verified game state. Your task is to compare the player's stated assumptions (like their current location, the location of an object, or the state of a puzzle) against the provided game state. If you find a discrepancy, you must clearly state what the hallucination is and what the correct information is. If there are no discrepancies, you will state that the plan is consistent with reality. Your output must be concise, accurate, and direct to prevent gameplay delays.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_thoughts\":{\"type\":\"string\",\"description\":\"The player's 'thoughts' block, describing their plan and assumptions for the next turn.\"},\"game_state_summary\":{\"type\":\"string\",\"description\":\"A summary of the current game state, including player position, map ID, and on-screen objects.\"}},\"required\":[\"player_thoughts\",\"game_state_summary\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"is_consistent\":{\"type\":\"boolean\",\"description\":\"True if the player's thoughts are consistent with the game state, false otherwise.\"},\"discrepancy_report\":{\"type\":\"string\",\"description\":\"A brief report detailing any found discrepancies. If consistent, this will be an empty string.\"}},\"required\":[\"is_consistent\",\"discrepancy_report\"]}"
-  },
-  "phone_call_summarizer": {
-    "agent_name": "phone_call_summarizer",
-    "agent_description": "Parses phone call dialogue to extract key information (rematches, items, events) and suggests a concise notepad update.",
-    "agent_system_prompt": "You are a helpful assistant for a Pokémon Crystal streamer. Your task is to analyze the text of a phone call and extract only the most critical information. Identify the caller's name, their location, and the reason for the call (e.g., rematch, item found, special event). Based on this, you must generate a concise, one-line summary suitable for a notepad entry. Your output must strictly follow the provided JSON schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"phone_dialogue\":{\"type\":\"string\"}},\"required\":[\"phone_dialogue\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"notepad_update_suggestion\":{\"type\":\"string\"}},\"required\":[\"notepad_update_suggestion\"]}"
   }
 }
