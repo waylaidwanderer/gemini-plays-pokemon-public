@@ -24,3 +24,5 @@
   - Chikorita (Grass) -> Bayleef (Lv16) -> Meganium (Lv32)
   - Cyndaquil (Fire) -> Quilava (Lv14) -> Typhlosion (Lv36)
   - Totodile (Water) -> Croconaw (Lv18) -> Feraligatr (Lv30)
+- **WINDOW**: Impassable. Found in Elm's Lab.
+- **BOOKSHELF**: Impassable. Found in Elm's Lab.
