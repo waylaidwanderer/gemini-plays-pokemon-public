@@ -463,11 +463,6 @@
 # Procedural Rules (From Overwatch Critique)
 - **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
 - **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
-- **GRASS:** Traversable. (Confirmed in Azalea Gym).
-- **WALL:** Impassable. (Confirmed in Azalea Gym).
-- **GRASS:** Traversable. (Confirmed in Azalea Gym).
-- **WALL:** Impassable. (Confirmed in Azalea Gym).
-- **CUT_TREE:** Impassable. Can be removed using the move CUT. (Confirmed on Route 35).
 
 # Route 37 Sudowoodo Puzzle Log
 - **Hypothesis 1 (Failed):** Using SQUIRTBOTTLE on the left WEIRD_TREE at (6, 12) from below (6, 13) did not trigger an event.
