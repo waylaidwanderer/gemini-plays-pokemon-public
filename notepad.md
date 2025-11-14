@@ -218,3 +218,8 @@
 - **Alternative Hypothesis (Medicine Location):** The 'special medicine' might not be an item found within the lighthouse. Jasmine may be at the top, but she might send me to another location (like Cianwood City) to acquire it. A test to falsify this is reaching the top and finding Jasmine without the medicine.
 - **Agent Idea:** A `puzzle_solver_agent` could be defined to formalize the observe-hypothesize-test loop for complex puzzles, suggesting the next logical test based on current map state and a list of failed hypotheses.
 - **Task (Tile Mechanics):** I need to explicitly test impassable-looking tiles like WALL and WINDOW by attempting to walk into them at the next opportunity to confirm their properties.
+
+# Olivine Lighthouse 1F Dead-End Puzzle (Solved)
+- **Problem:** Trapped in a room after falling through a pit. All simple interactions (menu tricks, talking to NPC, stepping on warps) failed.
+- **Hypothesis (Confirmed):** The move DIG can be used as an escape rope to exit certain indoor areas.
+- **Solution:** Taught TM28 DIG to a Pokémon and used the move from the party menu to warp back to the entrance of the map (Olivine City).
