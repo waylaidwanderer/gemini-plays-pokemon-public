@@ -214,3 +214,6 @@
 - **Problem:** Trapped in a room after falling through a pit. All simple interactions (menu tricks, talking to NPC, stepping on warps) failed.
 - **Hypothesis (Confirmed):** The move DIG can be used as an escape rope to exit certain indoor areas.
 - **Solution:** Taught TM28 DIG to a Pokémon and used the move from the party menu to warp back to the entrance of the map (Olivine City).
+
+# Glitch World Escape Log
+- **CRITICAL BUG (GAME-BREAKING):** Using DIG in the Olivine Lighthouse 1F dead-end room (accessed by falling through a pit) teleports the player to a glitch map (ID 18_247) and corrupts all player data (Pokémon, inventory, money). This is a potential soft-lock. Hypothesis for escape: Use FLY.
