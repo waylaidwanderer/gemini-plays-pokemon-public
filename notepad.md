@@ -353,16 +353,6 @@
   - **Conclusion:** Hypothesis is FALSE.
 - **Final Conclusion:** All simple interaction hypotheses have failed. The item is currently unobtainable. I must move on and not attempt to get this item again until I have new information or a new tool (like a different version of ITEMFINDER).
 
-<details>
-<summary>Ecruteak Dance Theater Performers (Hypothesis Falsified)</summary>
-
-- **Hypothesis:** One of the Kimono Girl performers would provide the HM for SURF after a major world event (like defeating Morty or releasing the legendary beasts).
-- **Test:** After defeating Morty, I returned to the Dance Theater and systematically re-interacted with all five Kimono Girls.
-- **Result:** All five Kimono Girls provided only their standard post-battle dialogue. No new items or information were given.
-  - **Conclusion:** Hypothesis is FALSE. The HM SURF is not obtained from the Kimono Girls at this time.
-
-</details>
-
 # Self-Assessment Findings (Turn 38567)
 
 ## Untested Assumptions & Alternative Hypotheses
