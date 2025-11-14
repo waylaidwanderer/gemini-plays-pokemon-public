@@ -105,7 +105,6 @@
 <details>
 <summary>Click to expand full game log</summary>
 
-- **Goldenrod Underground Switch Room Puzzle (UNSOLVED - DEAD END):** Concluded the 'Switch Room' is a red herring; the solution to the locked door at (18, 6) is elsewhere.
 - **Goldenrod Gym:** Normal-type.
 
 # Key Items
