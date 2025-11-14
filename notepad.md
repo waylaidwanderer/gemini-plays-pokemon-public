@@ -5,11 +5,6 @@
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **VERIFY BEFORE ACTING:** My internal sense of location is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
 
-## 🚨 CRITICAL LESSONS TO MEMORIZE 🚨
-- **COORDINATE SYSTEM IS 0-INDEXED:** The game's map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic. Assuming 1-based indexing is a critical, repeated failure.
-- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers, tool fixes) MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
-- **VERIFY BEFORE ACTING:** My internal sense of location is unreliable. I MUST use my `reality_check_agent` or manually verify my position in the game state before any significant action to prevent hallucination loops.
-
 ## 1. Active Quests & Current Plan
 
 ### Azalea Gym (SOLVED)
@@ -65,6 +60,7 @@
 - **BOOKSHELF:** Impassable. (Confirmed in Cianwood Pharmacy).
 - **BUOY:** Impassable. (Confirmed by attempting to surf into it on Route 40).
 - **COUNTER:** Impassable.
+- **CUT_TREE:** Impassable. Can be removed using the move CUT. (Confirmed on Route 35).
 - **DOOR:** A two-way warp tile.
 - **FLOOR:** Traversable.
 - **FLOOR_UP_WALL:** A one-way tile, impassable when approached from below (i.e., you cannot move up onto it).
@@ -444,7 +440,7 @@
 # Maintenance & Lessons Learned (Turn 39210)
 
 ## Agent & Tool Reliability
-- **Agent Unreliability:** The `city_exploration_planner` and `exploration_strategist` agents have been failing due to server-side errors. I must monitor this; if it persists, I may need to refine or replace them.
+- **Agent Unreliability:** The `city_exploration_planner` agent has been failing due to server-side errors. I must monitor this; if it persists, I may need to refine or replace it.
 - **Tool Misuse:** I incorrectly used `autopress_buttons=true` with `path_and_execute_v3`, which outputs coordinates, not button strings. This parameter is only for tools that generate button press sequences.
 
 ## Confirmed System Mechanics
@@ -458,7 +454,6 @@
 - **Agent Idea:** `reality_check_agent` - could take my `thoughts` and the `game_state` to flag discrepancies before I act, preventing hallucination loops.
 - **FLOOR_UP_WALL:** Impassable when approached from above (from a tile with a lower y-coordinate). (Confirmed by failed movement at (18, 49) on Cianwood City).
 ## Agent/Tool Development Ideas (Post-Self-Assessment)
-- **`plan_next_exploration_step` Agent/Tool:** Create a single tool or agent that combines the functionality of `find_reachable_unseen_tiles` and `exploration_strategist`. It would take no input and output a single suggested coordinate, streamlining the exploration workflow into one step.
 
 # Self-Assessment Findings (Turn 39452)
 
@@ -529,10 +524,6 @@
 - **Task:** Fix the `plan_next_exploration_step` tool. It is currently failing with a 'Not in grid' error during BFS neighbor checking.
 - **Task:** Systematically test the `FLOOR_UP_WALL` tile to resolve the contradiction in my notes about its one-way traversal direction.
 - **WARP_CARPET_DOWN:** A one-way warp tile, activated by moving down onto it. (Confirmed in Union Cave 1F).
-
-### High-Priority Maintenance
-- **Tool Development:** The broken `plan_next_exploration_step` tool has been confirmed as deleted. I will consider creating a new, functional exploration tool in the future.
-- **Tile Testing:** I must test and document the new tile types in Azalea Town (ROOF, CHIMNEY, FENCE, WEIRD_TREE).
 
 # Procedural Rules (From Overwatch Critique)
 - **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
