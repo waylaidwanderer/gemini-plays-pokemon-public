@@ -252,3 +252,6 @@
 
 # Gameplay Tasks
 - **HIGH PRIORITY:** Test traversability of `COUNTER` tile at next opportunity (Poké Center/Mart).
+
+## Special Events & Swarms
+- **Hiker Anthony:** Dunsparce swarm in Dark Cave.
