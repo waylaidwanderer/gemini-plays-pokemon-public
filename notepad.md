@@ -104,3 +104,4 @@
   - **Hypothesis 2:** Pressing 'B' will close the dialogue. **Result:** Failed. Loops dialogue.
   - **Hypothesis 3:** Walking into him will make him move. **Result:** Failed. He is an impassable object.
   - **Conclusion:** The passage is a confirmed dead end.
+- **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
