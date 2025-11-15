@@ -24,13 +24,7 @@
   - **West Balcony:** Accessed via 1F West Ladder (2,6). contained X Accuracy.
   - **East Area:** Accessed via 1F East Ladder (17,3). Connects to South Corridor.
   - **South Corridor:** Accessed from East Area. Leads to Ladder at (10,14).
-- **3F:**
-  - Accessed via SE Ladder on 2F (10,14).
-  - **Layout:** Arrived at SE corner. Item Ball (Potion) collected at (6,14).
-  - **Sages:**
-    - Sage Jin (10,13): Defeated.
-    - Sage ID 4 (11,11): North of entry.
-  - Ladder at (10,14) leads back to 2F.
+- **3F:** Cleared.
 
 ## Game Mechanics & Systems
 - **Tile Mechanics:**
