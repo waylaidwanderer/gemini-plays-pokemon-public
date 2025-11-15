@@ -141,3 +141,4 @@
 - **Hypothesis 13 (CRITICAL FAILURE):** Completing a battle challenge is required. **Result:** Failed. Caused a game-breaking glitch. DO NOT REPEAT.
 - **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (7,9) from (7,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
 - **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (8,9) from (8,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
+- **Battle Tower 1F Warp (Hypothesis):** A continuous, multi-tile downward movement is required to activate the warp (e.g., from (8, 7) to (8, 9)). **Result:** Failed. No warp triggered.
