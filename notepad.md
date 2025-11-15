@@ -24,6 +24,11 @@
   - **West Balcony:** Accessed via 1F West Ladder (2,6). contained X Accuracy.
   - **East Area:** Accessed via 1F East Ladder (17,3).
   - **Navigation:** To cross from East to Main on 2F, go via Row 2 (13,2 -> 11,2) to bypass Sage Nico.
+- **3F:**
+  - Accessed via SE Ladder on 2F (10,14).
+  - Item Ball (Potion) at (6,14).
+  - Sages at (8,13) and (11,11).
+  - Ladder at (10,14) leads back to 2F.
 
 ## Game Mechanics & Systems
 - **Held Items:** Berries heal automatically in battle.
