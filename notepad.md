@@ -118,3 +118,4 @@
   - **Path 2 (Pit):** Taking pit at 4F (8, 3) leads to an isolated room on 3F (Central). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
 - **Conclusion:** No viable descent path has been found from the western section of 4F. The solution must involve reaching the eastern section of the lighthouse, which is currently inaccessible.
+  - **Hypothesis 4 (5F Sailor):** Interacting with the Sailor at (8, 11) after speaking to Jasmine will trigger a new event. **Result:** Failed. Dialogue was generic, no new path opened.
