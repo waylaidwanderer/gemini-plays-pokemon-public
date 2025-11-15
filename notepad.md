@@ -149,17 +149,6 @@
 - **(H35-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
 - **Hypothesis 47 (Agent Suggestion):** After viewing the map from (3, 1), press 'Start' to open the main menu. **Result:** In progress.
 
-### CianwoodLugiaSpeechHouse Puzzle Log (Cleaned Summary)
-- **The Problem:** Trapped in the house. Warps at (2, 7) and (3, 7) are inactive.
-- **Key Discovery:** Pressing 'Up' on tile (3, 1) displays a map of the Whirl Islands. Any subsequent directional input cancels this view.
-- **Failed Hypotheses Log (Summary):**
-  - **(H1-H47):** A comprehensive series of over 47 tests have failed. These include: standard warp interaction, interacting with all background objects, re-talking to all NPCs, using all relevant items from the pack (ITEMFINDER, SQUIRTBOTTLE), using HMs (FLY, FLASH), using field moves (DIG), pressing all buttons (A, B, Start, Select) in various contexts (on warps, on the trigger tile, while the map is displayed), testing complex directional inputs, and attempting to use the PokéGear (Phone, Radio). The radio tuning interface was confirmed to be inoperable. All simple and complex single-action or short-sequence hypotheses have been exhausted.
-
-### CianwoodLugiaSpeechHouse Puzzle Log (Cleaned Summary)
-- **The Problem:** Trapped in the house. Warps at (2, 7) and (3, 7) are inactive.
-- **Key Discovery:** Pressing 'Up' on tile (3, 1) displays a map of the Whirl Islands. Any subsequent directional input cancels this view.
-- **Failed Hypotheses Log (Summary):**
-  - **(H1-H47):** A comprehensive series of over 47 tests have failed. These include: standard warp interaction, interacting with all background objects, re-talking to all NPCs, using all relevant items from the pack (ITEMFINDER, SQUIRTBOTTLE), using HMs (FLY, FLASH), using field moves (DIG), pressing all buttons (A, B, Start, Select) in various contexts (on warps, on the trigger tile, while the map is displayed), testing complex directional inputs, and attempting to use the PokéGear (Phone, Radio). The radio tuning interface was confirmed to be inoperable. All simple and complex single-action or short-sequence hypotheses have been exhausted.
 - **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** In progress.
 - **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** Failed. No event occurred.
 - **Hypothesis 49 (Self-Generated):** The solution is a multi-step sequence. 1) View map. 2) Press Start. 3) Use an option from the menu, such as the PokéGear Phone. **Result:** In progress.
