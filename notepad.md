@@ -66,3 +66,8 @@
 ## Todo / Reminders
 - **ROCKY (Onix):** Obtained via trade in Violet City. Lv5. Holding Bitter Berry.
 - Gym Advice: Falkner uses Flying types. Weak to Rock/Electric.
+
+# Route 32 Notes
+## Area and Navigation Insights
+- **Tile Mechanics:**
+  - **FLOOR:** Standard walkable terrain.
