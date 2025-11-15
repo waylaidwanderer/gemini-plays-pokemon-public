@@ -16,6 +16,7 @@
 - **`select_battle_option`:** Selects main battle menu options.
 - **`stun_npc`:** Freezes/unfreezes NPC movement.
 - **`define_tool`:** Creates new reusable tools.
+- **`delete_tool`:** Deletes custom tools.
 - **`delete_agent`:** Deletes custom agents.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
