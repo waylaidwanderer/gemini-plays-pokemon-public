@@ -123,22 +123,7 @@
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
 
-#### Battle Tower Outside Warp Puzzle
-- **Objective:** Exit BattleTowerOutside via the warp at (8, 21) or (9, 21).
-- **Tile Type:** WARP_CARPET_DOWN
-- **Hypothesis 1:** Stand on the warp tile and press 'A'. **Result:** Failed. No event occurred.
-- **Hypothesis 2:** Move onto the warp tile from the adjacent warp tile (laterally). **Result:** Failed. No warp triggered.
-- **Hypothesis 3:** Move onto the warp tile from the floor tile directly above it (e.g., from (8, 20) to (8, 21)). **Result:** Failed. No warp triggered.
-- **Hypothesis 4:** Move onto the warp tile with continuous downward movement from two tiles above (e.g. from (8, 19) to (8, 21)). **Result:** Failed. No warp triggered.
-- **Hypothesis 5:** An NPC on this map must be spoken to in order to activate the warp. I started by speaking to the Sailor at (12, 18). **Result:** Failed. The Sailor provided flavor text ("Hehehe, I snuck out from work...") but did not activate the warp.
-- **Hypothesis 6:** Speaking to the Lass at (12, 24) will activate the warp. **Result:** Failed. The Lass is physically unreachable due to the Sailor at (12, 18) blocking the only path south.
-- **Hypothesis 7:** Speaking to the Beauty at (12, 12) will activate the warp. **Result:** Failed. The Beauty provided a hint: "You can use only three POKéMON." but did not activate the warp.
-- **Hypothesis 8:** The warp will only activate if the player's party contains three or fewer Pokémon. **Result:** Failed. Moving down onto the warp with a party of three did not trigger it. This suggests the condition is more complex.
-- **Hypothesis 9:** The hint from the Beauty ("You can use only three POKéMON") refers to officially registering for a battle with the Receptionist at (7, 6). This action may be required to activate the exit warps. **Result:** Failed. Registering and then canceling the challenge did not immediately activate the warps upon stepping on them.
-- **Hypothesis 10:** After registering a challenge with a three-Pokémon party, the `WARP_CARPET_DOWN` tiles (both inside and outside) must be activated by moving onto them from the tile directly above. **Result:** Failed. This combination of conditions did not activate the warp.
-- **Hypothesis 11:** The sign at (6, 6) contains a hint on how to activate the exit warps. **Result:** Failed. The sign only provided the rules for battle, which confirmed the three-Pokémon requirement but did not activate the warp.
-- **Hypothesis 12:** Speaking to the Cooltrainer F at (5, 9) will activate the warp. **Result:** Failed. The Cooltrainer provided flavor text ("There are lots of BATTLE ROOMS, but I'm going to win them all!") but did not activate the warp.
-- **Hypothesis 13 (CRITICAL FAILURE):** Completing a battle challenge is required. **Result:** Failed. Caused a game-breaking glitch. DO NOT REPEAT.
+*(Archived log of failed hypotheses for the BattleTowerOutside warp puzzle. This puzzle is no longer relevant as the player is now inside Battle Tower 1F.)*
 - **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (7,9) from (7,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
 - **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (8,9) from (8,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
 - **Battle Tower 1F Warp (Hypothesis):** A continuous, multi-tile downward movement is required to activate the warp (e.g., from (8, 7) to (8, 9)). **Result:** Failed. No warp triggered.
