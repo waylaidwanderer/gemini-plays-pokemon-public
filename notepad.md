@@ -24,7 +24,6 @@
 - `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
-- `party_leader_switcher`: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
 
 ### Tool Development Ideas
 - **`party_strategist_agent`**: Takes current party, goal (e.g., 'travel across water'), and PC box contents to recommend an optimal team.
@@ -35,6 +34,7 @@
 - **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
 - **`puzzle_context_extractor`**: An agent that parses the notepad's Journey Log to automatically extract failed hypotheses for the current puzzle, streamlining input for the `puzzle_solver_agent`.
 - **`log_puzzle_attempt`**: A tool to automate adding new hypotheses and results to the Journey Log section of the notepad.
+- **`party_leader_switcher`**: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
