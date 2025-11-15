@@ -79,7 +79,7 @@
 ### Impassable
 - BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TOWN_MAP, TV, VOID, WALL, WHIRLPOOL, WINDOW
 ### Traversable
-- FLOOR, GRASS, TALL_GRASS (wild encounters)
+- FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters)
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT, WARP_CARPET_DOWN, WARP_CARPET_RIGHT (one-way)
@@ -107,5 +107,4 @@
   - **Hypothesis 3:** Walking into him will make him move. **Result:** Failed. He is an impassable object.
   - **Conclusion:** The passage is a confirmed dead end.
 - **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt causes a game-breaking crash, resetting to the title screen. AVOID THIS INTERACTION.
-- FLOOR (standard traversable ground)
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
