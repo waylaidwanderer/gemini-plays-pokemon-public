@@ -147,3 +147,5 @@
 - **Hypothesis 5:** Exit is triggered by opening the main menu ('Start') or using the 'EXIT' option. **Result:** Failed.
 - **Hypothesis 6:** Exit is triggered by pressing 'Select'. **Result:** Failed. Activated ITEMFINDER.
 - **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 8:** Exit is unlocked by talking to the Twin NPC. **Result:** Failed. Provided clues but did not unlock exit.
