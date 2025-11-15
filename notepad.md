@@ -69,3 +69,10 @@
 - **Escape Ropes in Sprout Tower:** Observed to return the player to the tower entrance (23, 6), NOT the last visited Pokémon Center.
 ## Money & Economy
 - Violet City Mart: Poké Ball (¥200), Potion (¥300), Escape Rope (¥550), Antidote (¥100)
+- **Route 31 Tile Mechanics:**
+  - **TALL_GRASS:** Contains wild Pokémon encounters.
+  - **LEDGE_HOP_DOWN / RIGHT:** One-way traversal (jump down/right). Behavior: Jumping over a ledge moves the player 2 tiles in that direction.
+  - **CUT_TREE:** Obstacle. Requires HM01 Cut to remove.
+  - **HEADBUTT_TREE:** Interactable. Requires TM02 Headbutt.
+  - **WATER:** Impassable. Requires Surf.
+  - **CAVE:** Entrance to Dark Cave.
