@@ -28,12 +28,12 @@
 - **ITEM MANAGEMENT:** Taking a held item with a full bag destroys it. The only safe way to free a slot is to have a Pokémon hold an item.
 - **DIG GLITCH (CRITICAL):** Using DIG as a field move in the Olivine Lighthouse dead-end room causes a game-breaking glitch, corrupting all player data. Avoid using DIG as a field move until further testing.
 
-## 2. Main Quest & Active Leads
+## 3. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
-- **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. A Sage in the Tin Tower has asked me to refrain from entering because of this.
-- **Sudowoodo Tree (Route 36):** A strange tree blocks the path. I have the SQUIRTBOTTLE. The puzzle was solved once but the tree may have respawned.
-- **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am safekeeping his SHUCKIE.
-- **Moomoo Farm:** A Miltank is sick and requires a specific item named 'BERRY' to heal. Other named berries do not work.
+- **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. The Sage in the Tin Tower has asked me not to enter.
+- **Sudowoodo Tree (Route 36):** The path is blocked by a strange tree. I have the SQUIRTBOTTLE. The puzzle may need to be solved again.
+- **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
+- **Moomoo Farm:** The Miltank is sick and requires a specific item named 'BERRY'. Other named berries do not work.
 
 ### Phone Call Rematches
 - **DANA (LASS):** Route 38.
