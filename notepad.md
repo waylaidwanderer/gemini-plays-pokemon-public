@@ -178,3 +178,7 @@
 - **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** In progress.
 - **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** Failed. No event occurred.
 - **Hypothesis 49 (Self-Generated):** The solution is a multi-step sequence. 1) View map. 2) Press Start. 3) Use an option from the menu, such as the PokéGear Phone. **Result:** In progress.
+
+---
+
+**META-NOTE (Turn 44196):** The above 'CianwoodLugiaSpeechHouse Exit Puzzle' section is cluttered and deprecated due to repeated editing failures. Please refer ONLY to the clean summary that was previously appended. This old section will be removed once a reliable method is found.
