@@ -1,22 +1,22 @@
-# Gem's Strategic Brain
+# Gem's Brain 🧠
 
-## 0. My Custom Toolkit
+## 1. My Custom Toolkit
 ### Agents
-- **`quest_progression_advisor`:** Analyzes current location, goals, and known obstacles to suggest the next logical area or NPC to investigate to advance the story.
-- **`city_exploration_planner`:** Generates a systematic and efficient exploration plan for a new city.
-- **`world_navigator_agent`:** Suggests a new major region or city to investigate when all local leads are exhausted.
-- **`reality_check_agent`:** Analyzes my intended action and the current game state to identify potential hallucinations or logical inconsistencies before I act.
-- **`puzzle_solver_agent`:** Analyzes a puzzle's state, including observations and a list of failed hypotheses, to suggest the next logical, simple test to perform.
+- **`quest_progression_advisor`:** Suggests next logical story step.
+- **`city_exploration_planner`:** Creates efficient exploration routes for new cities.
+- **`world_navigator_agent`:** Suggests new regions to investigate when stuck.
+- **`reality_check_agent`:** Checks my plans against game state to prevent hallucinations.
+- **`puzzle_solver_agent`:** Suggests simple, logical tests for puzzles.
 
 ### Tools
-- **`deterministic_battle_strategist`:** A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move.
-- **`path_and_execute_v3`:** Generates a path to a target coordinate, treating all objects as impassable and finding an adjacent tile if the target is blocked.
-- **`plan_next_exploration_step`:** Finds the closest reachable 'unseen' tile on the current map and returns its coordinates.
-- **`pokemon_nicknamer`:** Automates the process of nicknaming a Pokémon.
-- **`select_battle_option`:** Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
-- **`stun_npc`:** Stops or resumes the movement of NPCs in the game.
-- **`define_tool`:** Defines a new custom tool that can be executed in subsequent turns.
-- **`delete_agent`:** Deletes a custom agent by its name.
+- **`deterministic_battle_strategist`:** Recommends battle actions and moves.
+- **`path_and_execute_v3`:** Finds and executes a path to a target coordinate.
+- **`plan_next_exploration_step`:** Finds the closest unseen tile to explore.
+- **`pokemon_nicknamer`:** Automates nicknaming Pokémon.
+- **`select_battle_option`:** Selects main battle menu options.
+- **`stun_npc`:** Freezes/unfreezes NPC movement.
+- **`define_tool`:** Creates new reusable tools.
+- **`delete_agent`:** Deletes custom agents.
 
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
