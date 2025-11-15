@@ -172,3 +172,7 @@
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
 - **Incomplete Tool List (Turn 43741):** My list of built-in tools is missing `delete_tool` and `select_battle_option`. I must update this.
+### CianwoodLugiaSpeechHouse Exit Puzzle (SOLVED)
+- **The Problem:** The player is trapped on tile (3, 1), and all standard inputs (movement, A, B, Start, Select) are disabled, preventing exit via the warps at (2, 7) and (3, 7).
+- **The Solution:** The trigger is to press 'Up' while on tile (3, 1) and facing the Town Map at (3, 0). This initiates a cutscene.
+- **Key Insight:** This was an event-based puzzle triggered by a specific, non-obvious input on a specific tile, which was hinted at by the overwatch critique about background object traversability.
