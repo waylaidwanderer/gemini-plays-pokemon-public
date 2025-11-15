@@ -141,3 +141,4 @@
 7. Pharmacy
 8. Gym
 9. Pokecenter
+- **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
