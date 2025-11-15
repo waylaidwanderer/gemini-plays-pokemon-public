@@ -139,24 +139,30 @@
 9. Pokecenter
 - **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
 - **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
-### CianwoodLugiaSpeechHouse Exit Puzzle
+### CianwoodLugiaSpeechHouse Exit Puzzle (Failed Hypotheses)
 - **Hypothesis 1:** Exit via warps (2, 7) or (3, 7) by walking on them. **Result:** Failed. No automatic trigger.
 - **Hypothesis 2:** Exit via warps by pressing 'A' on them. **Result:** Failed. Not interactable.
 - **Hypothesis 3:** Exit via warps by approaching from a specific direction (up, down, left, right). **Result:** Failed. All directions tested on both warps.
 - **Hypothesis 4:** Exit is a secret switch in the bookshelf. **Result:** Failed. Flavor text only.
 - **Hypothesis 5:** Exit is triggered by opening the main menu ('Start'). **Result:** Failed.
 - **Hypothesis 6:** Exit is triggered by pressing 'Select'. **Result:** Failed. Activated ITEMFINDER.
-- **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 8:** Exit is unlocked by talking to the Twin NPC. **Result:** Failed. Provided clues but did not unlock exit.
-- **Hypothesis 9:** Exit is a secret switch in the TV. **Result:** Failed. Flavor text only.
-- **Hypothesis 10:** Exit is triggered by using the 'EXIT' option in the main menu. **Result:** Failed. Only closed the menu.
-- **Hypothesis 11:** Re-talking to the Lass NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 12:** Changing the lead Pokémon unlocks the exit. **Result:** Failed. No change.
-### Tool Development Ideas
-- **`escape_artist_agent`**: Takes a list of failed exit strategies and room layout to generate a comprehensive, ordered list of all remaining simple tests to perform.
+- **Hypothesis 7:** Re-talking to the Teacher NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 8:** Re-talking to the Twin NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 9:** Re-talking to the Lass NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 10:** Exit is a secret switch in the TV. **Result:** Failed. Flavor text only.
+- **Hypothesis 11:** Exit is a secret switch in the Radio. **Result:** Failed. Flavor text only.
+- **Hypothesis 12:** Using the ITEMFINDER reveals a hidden exit. **Result:** Failed. No response.
+- **Hypothesis 13:** Using an HM move (FLASH) reveals the exit. **Result:** Failed. No Pokémon could learn the move.
+- **Hypothesis 14:** Pressing 'B' on the warp tile triggers the exit. **Result:** Failed. No effect.
+- **Hypothesis 15:** Using the BICYCLE indoors triggers the exit. **Result:** Failed. Action is not allowed.
+- **Hypothesis 16:** Blocking the Lass NPC's path triggers the exit. **Result:** Failed. Her path was altered, but no exit was revealed.
+- **Hypothesis 17:** Interacting with the Lass while her path is blocked triggers the exit. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 18:** Selecting 'EXIT' from the main menu triggers the exit. **Result:** Failed. It only closed the menu.
+- **Hypothesis 19:** Changing the lead Pokémon unlocks the exit. **Result:** Failed. No change.
 
-### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Assumptions)
-- The exit is triggered by using an HM move (like FLASH or STRENGTH) inside the house.
+### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Hypotheses)
+- **Hypothesis 20:** Stand on a warp tile AND select 'EXIT' from the main menu.
+- **Hypothesis 21:** Use a different HM move (STRENGTH) inside the house.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
