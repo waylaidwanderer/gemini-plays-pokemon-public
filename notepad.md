@@ -144,12 +144,13 @@
 - **Hypothesis 2:** Exit via warps by pressing 'A' on them. **Result:** Failed. Not interactable.
 - **Hypothesis 3:** Exit via warps by approaching from a specific direction (up, down, left, right). **Result:** Failed. All directions tested on both warps.
 - **Hypothesis 4:** Exit is a secret switch in the bookshelf. **Result:** Failed. Flavor text only.
-- **Hypothesis 5:** Exit is triggered by opening the main menu ('Start') or using the 'EXIT' option. **Result:** Failed.
+- **Hypothesis 5:** Exit is triggered by opening the main menu ('Start'). **Result:** Failed.
 - **Hypothesis 6:** Exit is triggered by pressing 'Select'. **Result:** Failed. Activated ITEMFINDER.
 - **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 8:** Exit is unlocked by talking to the Twin NPC. **Result:** Failed. Provided clues but did not unlock exit.
 - **Hypothesis 9:** Exit is a secret switch in the TV. **Result:** Failed. Flavor text only.
 - **Hypothesis 10:** Exit is triggered by using the 'EXIT' option in the main menu. **Result:** Failed. Only closed the menu.
+- **Hypothesis 11:** Re-talking to the Lass NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
 ### Tool Development Ideas
 - **`escape_artist_agent`**: Takes a list of failed exit strategies and room layout to generate a comprehensive, ordered list of all remaining simple tests to perform.
 
