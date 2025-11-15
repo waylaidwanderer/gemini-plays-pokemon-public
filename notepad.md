@@ -2,30 +2,32 @@
 
 ## 1. My Toolkit
 ### Custom Agents
-- **`quest_progression_advisor`:** Suggests next logical story step.
-- **`city_exploration_planner`:** Creates efficient exploration routes for new cities.
-- **`world_navigator_agent`:** Suggests new regions to investigate when stuck.
-- **`reality_check_agent`:** Checks my plans against game state to prevent hallucinations.
-- **`puzzle_solver_agent`:** Suggests simple, logical tests for puzzles.
+- `quest_progression_advisor`: Suggests next logical story step.
+- `city_exploration_planner`: Creates efficient exploration routes for new cities.
+- `world_navigator_agent`: Suggests new regions to investigate when stuck.
+- `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
+- `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
 
 ### Custom Tools
-- **`deterministic_battle_strategist`:** Recommends battle actions and moves.
-- **`path_and_execute_v3`:** Finds and executes a path to a target coordinate.
-- **`plan_next_exploration_step`:** Finds the closest unseen tile to explore.
-- **`pokemon_nicknamer`:** Automates nicknaming Pokémon.
+- `deterministic_battle_strategist`: Recommends battle actions and moves.
+- `path_and_execute_v3`: Finds and executes a path to a target coordinate.
+- `plan_next_exploration_step`: Finds the closest unseen tile to explore.
+- `pokemon_nicknamer`: Automates nicknaming Pokémon.
 
 ### Built-in Tools
-- **`notepad_edit`:** Edits this notepad.
-- **`run_code`:** Executes one-off Python scripts.
-- **`define_agent` / `delete_agent`:** Manages custom agents.
-- **`define_tool` / `delete_tool`:** Manages custom tools.
-- **`define_map_marker` / `delete_map_marker`:** Manages map markers.
-- **`select_battle_option`:** Selects main battle menu options.
-- **`stun_npc`:** Freezes/unfreezes NPC movement.
+- `notepad_edit`: Edits this notepad.
+- `run_code`: Executes one-off Python scripts.
+- `define_agent` / `delete_agent`: Manages custom agents.
+- `define_tool` / `delete_tool`: Manages custom tools.
+- `define_map_marker` / `delete_map_marker`: Manages map markers.
+- `select_battle_option`: Selects main battle menu options.
+- `stun_npc`: Freezes/unfreezes NPC movement.
 
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
+- **`deadlock_breaker_agent`**: An agent that analyzes recent movement history to detect navigation loops and suggest a radical strategy shift.
+- **`list_all_reachable_unseen_tiles`**: A tool to provide a comprehensive list of all reachable unseen tiles for systematic exploration.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
@@ -108,5 +110,3 @@
   - **Conclusion:** The passage is a confirmed dead end.
 - **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt causes a game-breaking crash, resetting to the title screen. AVOID THIS INTERACTION.
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
-- **`deadlock_breaker_agent`**: An agent that analyzes recent movement history to detect navigation loops and suggest a radical strategy shift.
-- **`list_all_reachable_unseen_tiles`**: A tool to provide a comprehensive list of all reachable unseen tiles for systematic exploration.
