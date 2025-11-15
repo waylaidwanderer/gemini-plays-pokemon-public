@@ -12,6 +12,8 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
+- `delete_tool`
+- `select_battle_option`
 
 ### Custom Agents
 - `quest_progression_advisor`: Suggests next logical story step.
