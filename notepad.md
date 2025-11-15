@@ -34,7 +34,6 @@
 - **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
 - **`puzzle_context_extractor`**: An agent that parses the notepad's Journey Log to automatically extract failed hypotheses for the current puzzle, streamlining input for the `puzzle_solver_agent`.
 - **`log_puzzle_attempt`**: A tool to automate adding new hypotheses and results to the Journey Log section of the notepad.
-- **`party_leader_switcher`**: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
