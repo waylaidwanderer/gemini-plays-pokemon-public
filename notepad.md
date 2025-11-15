@@ -78,3 +78,9 @@
 - **Map ID:** 3_22
 - **Warps:** Cave entrances at (10, 13) and (6, 19).
 - **Signs:** Sign at (12, 16).
+
+# Ruins of Alph Interior
+- **Map ID:** 3_27
+- **Warps:** Ladder at (10, 13) to Outside.
+- **Tile Mechanics:**
+  - **LADDER:** Warp tile.
