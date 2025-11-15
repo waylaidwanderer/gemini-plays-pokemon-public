@@ -35,18 +35,12 @@
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
 - **Moomoo Farm:** The Miltank is sick and requires a specific item named 'BERRY'. Other named berries do not work.
 
-### Phone Call Rematches
-- **DANA (LASS):** Route 38.
-- **HUEY (SAILOR):** OLIVINE LIGHTHOUSE.
-- **ANTHONY (HIKER):** Route 33.
-- **JACK (SCHOOLBOY):** NATIONAL PARK.
-- **ALAN (SCHOOLBOY):** Route 36.
-
-### Phone Call Chats
-- **JACK (SCHOOLBOY):** Called to chat about his VOLTORB and a recent battle.
-- **ALAN (SCHOOLBOY):** Called to share a story about beating a Ledyba.
-- **ALAN (SCHOOLBOY):** Called to share a story about beating a Ledyba.
-- **ANTHONY (HIKER):** Called to chat about his MACHOP and wild GEODUDE.
+### Phone Contacts
+- **DANA (LASS):** Route 38 (Rematch).
+- **HUEY (SAILOR):** OLIVINE LIGHTHOUSE (Rematch).
+- **ANTHONY (HIKER):** Route 33 (Rematch). Chatted about MACHOP & GEODUDE.
+- **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch). Chatted about VOLTORB.
+- **ALAN (SCHOOLBOY):** Route 36 (Rematch). Chatted about beating a Ledyba.
 
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
