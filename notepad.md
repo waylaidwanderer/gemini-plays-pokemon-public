@@ -92,18 +92,14 @@
 - **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
 - **Route 30 Ledge:** Confirmed one-way (down only).
 
-# Tool Development Log
-
-# Procedural Rules (From Overwatch Critique)
-- **Reality Check:** Before any significant navigation or map-changing action, I MUST use my `reality_check_agent` to verify my position and assumptions against the game state.
-- **Immediate Tile Testing:** Upon entering a new area, I must immediately test and document any unverified tile types before proceeding with exploration.
-
-- **Inventory Hallucination (CRITICAL):** During turn 40942, I attempted to use an ESCAPE ROPE that I did not possess. This indicates a severe failure to verify my inventory before forming a plan. I must always check my PACK before assuming I have a specific item.
-
-- **PIT:** A one-way warp tile, activated by moving onto it.
-- **Olivine Lighthouse 3F (Western Section):** Confirmed dead end for ascending. The Youngster NPC at (3, 9) confirms the path is blocked.
-- Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
-- Phone Call (Rematch): JACK (SCHOOLBOY) wants a rematch in NATIONAL PARK and gave a tip about DEFENSE CURL + ROLLOUT.
+### Key Discoveries & Solved Puzzles
+- **Goldenrod Dept. Store:** A bargain sale is happening now (per Todd's call).
+- **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
+- **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
+- **Route 36 Sudowoodo Puzzle:** Solved by moving to the adjacent left tile (34, 9) and facing the tree.
+- **Moomoo Farm:** The sick Miltank requires a specific item named 'BERRY'. Other named berries do not work.
+- **Olivine Good Rod House:** Trapped inside. Solved by opening the menu with 'Start' and pressing 'Down' to trigger the exit warp.
+- **Olivine Lighthouse 1F Dead-End:** Trapped after falling through a pit. Solved by using the move DIG to escape.
 
 # Cianwood Pharmacy Log
 - Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
