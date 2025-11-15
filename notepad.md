@@ -136,4 +136,5 @@
 - **Hypothesis 7:** Speaking to the Beauty at (12, 12) will activate the warp. **Result:** Failed. The Beauty provided a hint: "You can use only three POKéMON." but did not activate the warp.
 - **Hypothesis 8:** The warp will only activate if the player's party contains three or fewer Pokémon. **Result:** Failed. Moving down onto the warp with a party of three did not trigger it. This suggests the condition is more complex.
 - **Hypothesis 9:** The hint from the Beauty ("You can use only three POKéMON") refers to officially registering for a battle with the Receptionist at (7, 6). This action may be required to activate the exit warps. **Result:** Failed. Registering and then canceling the challenge did not immediately activate the warps upon stepping on them.
-- **Hypothesis 10:** After registering a challenge with a three-Pokémon party, the `WARP_CARPET_DOWN` tiles (both inside and outside) must be activated by moving onto them from the tile directly above.
+- **Hypothesis 10:** After registering a challenge with a three-Pokémon party, the `WARP_CARPET_DOWN` tiles (both inside and outside) must be activated by moving onto them from the tile directly above. **Result:** Failed. This combination of conditions did not activate the warp.
+- **Hypothesis 11:** The sign at (6, 6) contains a hint on how to activate the exit warps.
