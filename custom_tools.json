@@ -287,12 +287,17 @@
   "wait_for_event": {
     "description": "A tool that does nothing, effectively passing a turn. Used to test for time-based events or wait out cutscenes.",
     "input_schema": {},
-    "python_script": "pass",
+    "python_script": "print(\"Waiting for one turn.\")",
     "history": [
       {
         "commit_message": "feat: Create wait_for_event tool. This tool allows me to test for time-based events by passing a turn without any game input, as suggested by the puzzle_solver_agent for the CianwoodLugiaSpeechHouse puzzle.",
         "timestamp": "2025-11-15T14:11:40.484Z",
         "action_counter": 43948
+      },
+      {
+        "commit_message": "feat: Create wait_for_event tool. This tool allows me to test for time-based events by passing a turn without any game input, as suggested by the puzzle_solver_agent for the CianwoodLugiaSpeechHouse puzzle.",
+        "timestamp": "2025-11-15T15:01:50.413Z",
+        "action_counter": 44000
       }
     ]
   }
