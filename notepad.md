@@ -24,7 +24,7 @@
 - `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
-- `wait_for_event`: Passes a turn without any game input to test for time-based events.
+- `party_leader_switcher`: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
 
 ### Tool Development Ideas
 - **`party_strategist_agent`**: Takes current party, goal (e.g., 'travel across water'), and PC box contents to recommend an optimal team.
@@ -98,7 +98,6 @@
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
-- WARP_CARPET_DOWN (one-way)
 - WARP_CARPET_RIGHT (one-way)
 ### Conditional & One-Way
 - FLOOR_UP_WALL (ledge, down only)
@@ -106,6 +105,7 @@
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
+- WARP_CARPET_DOWN (Functionality under investigation)
 
 ## 8. Journey Log & Puzzle Solutions
 ### Solved Puzzles & Key Discoveries
@@ -121,15 +121,12 @@
 
 #### CianwoodLugiaSpeechHouse Escape Log
 - **Objective:** Exit the house. Player is trapped with movement locked.
-- **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** Failed. No event occurred.
-- **Hypothesis 49 (Self-Generated):** The solution is a multi-step sequence. 1) View map. 2) Press Start. 3) Use an option from the menu, such as the PokéGear Phone. **Result:** Failed.
-- **Hypothesis 50 (Agent-Generated):** Using the ITEMFINDER will reveal a hidden object or switch. **Result:** Failed. The game responded 'Nope! ITEMFINDER isn't responding.'
-- **Hypothesis 51 (Agent-Generated):** The solution is a multi-step sequence. 1) View map at (3,0). 2) While map is displayed, press Start. 3) Use the PokéGear Radio and tune to the top frequency. **Result:** Failed. Pressing Start had no effect.
-- **Hypothesis 52 (Self-Generated):** After opening the main menu, pressing 'Down' will navigate the menu. **Result:** Failed. Received a 'Movement Blocked' error. This confirms D-pad input is locked in menus, not just the overworld. This is a critical discovery.
-- **Hypothesis 53 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A', then press 'A' again while the text box is displayed. **Result:** Failed. Pressing 'A' on the TOWN_MAP no longer brings up a text box.
-- **Hypothesis 54 (Self-Generated):** Pressing the 'Select' button will trigger an event or unlock movement, similar to how it resolved the lock in ManiasHouse. **Result:** Failed. Movement is still locked.
-- **Hypothesis 55 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A'. If a text box appears, press 'B' while the text box is displayed. **Result:** Failed. Interacting with the TOWN_MAP did not consistently produce a text box, making the hypothesis untestable.
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
-### New Tool Ideas
-- **`party_leader_switcher`**: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
+
+#### Battle Tower Outside Warp Puzzle
+- **Objective:** Exit BattleTowerOutside via the warp at (8, 21) or (9, 21).
+- **Tile Type:** WARP_CARPET_DOWN
+- **Hypothesis 1:** Stand on the warp tile and press 'A'. **Result:** Failed. No event occurred.
+- **Hypothesis 2:** Move onto the warp tile from the adjacent warp tile (laterally). **Result:** Failed. No warp triggered.
+- **Hypothesis 3:** Move onto the warp tile from the floor tile directly above it (e.g., from (8, 20) to (8, 21)). **Result:** Failed. No warp triggered.
