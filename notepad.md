@@ -128,3 +128,10 @@
 - **Hypothesis 55 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A'. If a text box appears, press 'B' while the text box is displayed. **Result:** Failed. Interacting with the TOWN_MAP did not consistently produce a text box, making the hypothesis untestable.
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
+### New Tool Ideas
+- **`party_leader_switcher`**: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
+
+### Newly Encountered Tile Types (Untested)
+- ROAD
+- FLOWER_BED
+- FOUNTAIN
