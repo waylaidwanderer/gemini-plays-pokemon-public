@@ -108,3 +108,5 @@
   - **Conclusion:** The passage is a confirmed dead end.
 - **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt causes a game-breaking crash, resetting to the title screen. AVOID THIS INTERACTION.
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
+- **`deadlock_breaker_agent`**: An agent that analyzes recent movement history to detect navigation loops and suggest a radical strategy shift.
+- **`list_all_reachable_unseen_tiles`**: A tool to provide a comprehensive list of all reachable unseen tiles for systematic exploration.
