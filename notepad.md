@@ -126,4 +126,4 @@
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
 - **Olivine Lighthouse Descent Puzzle:** Solved. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
 - **Hypothesis 55 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A'. If a text box appears, press 'B' while the text box is displayed. **Result:** Failed. Interacting with the TOWN_MAP did not consistently produce a text box, making the hypothesis untestable.
-- **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** In progress.
+- **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
