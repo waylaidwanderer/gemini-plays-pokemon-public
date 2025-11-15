@@ -15,15 +15,6 @@
 - `stun_npc`: Freezes/unfreezes NPC movement.
 - `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 
-### Built-in Tools
-- `notepad_edit`: Edits this notepad.
-- `run_code`: Executes one-off Python scripts.
-- `define_agent` / `delete_agent`: Manages custom agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `select_battle_option`: Selects a main battle menu option.
-- `select_battle_option`: Selects a main battle menu option.
-
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
@@ -128,16 +119,6 @@
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
 - **Conclusion:** All descent paths from the western section of 4F are confirmed dead ends. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
 - **Rival's Dialogue (Route 41):** "It was a dark and stormy night… I saw this giant POKéMON flying from the islands. It was scattering feathers from its silver wings."
-## Cianwood City Exploration Plan
-1. HiddenRevive
-2. PokeSeer
-3. HiddenMaxEther
-4. PhotoStudio
-5. LugiaSpeechHouse
-6. ManiasHouse
-7. Pharmacy
-8. Gym
-9. Pokecenter
 - **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
 - **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
 ### CianwoodLugiaSpeechHouse Exit Puzzle (Failed Hypotheses)
