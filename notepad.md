@@ -67,3 +67,5 @@
 
 ### Mechanics Notes
 - **Escape Ropes in Sprout Tower:** Observed to return the player to the tower entrance (23, 6), NOT the last visited Pokémon Center.
+## Money & Economy
+- Violet City Mart: Poké Ball (¥200), Potion (¥300), Escape Rope (¥550), Antidote (¥100)
