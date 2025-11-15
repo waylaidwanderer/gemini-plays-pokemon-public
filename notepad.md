@@ -72,4 +72,5 @@
 - Violet City Mart: Poké Ball (¥200), Potion (¥300), Escape Rope (¥550), Antidote (¥100)
 
 ## Todo / Reminders
-- [ ] Trade Bellsprout for Onix (Violet City House).
+- [x] Trade Bellsprout for Onix (Violet City House).
+- **ROCKY (Onix):** Obtained via trade. Lv5. Holding Bitter Berry.
