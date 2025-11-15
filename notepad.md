@@ -131,3 +131,13 @@
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
 - **Conclusion:** All descent paths from the western section of 4F are confirmed dead ends. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
 - **Rival's Dialogue (Route 41):** "It was a dark and stormy night… I saw this giant POKéMON flying from the islands. It was scattering feathers from its silver wings."
+## Cianwood City Exploration Plan
+1. HiddenRevive
+2. PokeSeer
+3. HiddenMaxEther
+4. PhotoStudio
+5. LugiaSpeechHouse
+6. ManiasHouse
+7. Pharmacy
+8. Gym
+9. Pokecenter
