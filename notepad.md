@@ -19,11 +19,7 @@
 
 ## Sprout Tower Exploration
 - **1F:** Explored.
-- **2F:**
-  - **Main Area:** Accessed via 1F Central Ladder (6,4). Contains Sage Nico (Defeated).
-  - **West Balcony:** Accessed via 1F West Ladder (2,6). contained X Accuracy.
-  - **East Area:** Accessed via 1F East Ladder (17,3). Connects to South Corridor.
-  - **South Corridor:** Accessed from East Area. Leads to Ladder at (10,14).
+- **2F:** Cleared.
 - **3F:** Cleared.
 
 ## Game Mechanics & Systems
