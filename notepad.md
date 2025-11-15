@@ -37,18 +37,15 @@
   - Ladder at (10,14) leads back to 2F.
 
 ## Game Mechanics & Systems
-- **Escape Ropes:** In Sprout Tower, they return you to the entrance (23, 6), not the last Pokémon Center.
-- **Held Items:** Berries heal automatically in battle.
-- **Trades:** Traded Pokemon need badges to obey.
 - **Tile Mechanics:**
-  - **FLOOR:** Walkable.
-  - **WALL:** Impassable.
-  - **LADDER:** Warp.
-  - **PIT/VOID:** Impassable.
-  - **OBJECTS:** Impassable (NPCs, Signs, Statues).
-  - **COUNTER:** Impassable. Interact with NPCs behind it by facing the counter and pressing A.
-  - **PC:** Impassable. Interact by standing below and facing UP.
-  - **WARP_CARPET_DOWN:** Warp. Exit tile.
+  - **WALKABLE:** FLOOR, TALL_GRASS.
+  - **IMPASSABLE:** WALL, CUT_TREE, WATER, OBJECTS, WINDOW, PIT/VOID.
+  - **INTERACTABLE:** COUNTER, PC, HEADBUTT_TREE.
+  - **WARPS:** DOOR, LADDER, WARP_CARPET_DOWN, WARP_CARPET_RIGHT, CAVE.
+  - **ONE-WAY:** LEDGE_HOP_DOWN, LEDGE_HOP_RIGHT.
+- **Held Items:** Berries heal automatically.
+- **Escape Ropes:** Return to dungeon entrance.
+- **Trades:** Traded Pokemon need badges.
 
 ## Area and Navigation Insights
 - **Route 31 Tile Mechanics:**
