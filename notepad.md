@@ -13,6 +13,7 @@
 - `path_and_execute_v3`: Finds and executes a path to a target coordinate.
 - `plan_next_exploration_step`: Finds the closest unseen tile to explore.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
+- `stun_npc`: Freezes/unfreezes NPC movement.
 
 ### Built-in Tools
 - `notepad_edit`: Edits this notepad.
@@ -20,8 +21,6 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `select_battle_option`: Selects main battle menu options.
-- `stun_npc`: Freezes/unfreezes NPC movement.
 
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
