@@ -143,3 +143,4 @@
 - **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (8,9) from (8,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
 - **Battle Tower 1F Warp (Hypothesis):** A continuous, multi-tile downward movement is required to activate the warp (e.g., from (8, 7) to (8, 9)). **Result:** Failed. No warp triggered.
 - **Battle Tower 1F Warp (Hypothesis):** Interacting with the PC at (11, 6) is required to activate the exit warps. **Result:** Untested.
+- **Battle Tower 1F Warp (Hypothesis):** Interacting with the PC at (11, 6) is required to activate the exit warps. **Result:** Failed. The PC functions normally and did not activate the warp.
