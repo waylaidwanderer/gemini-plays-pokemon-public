@@ -58,7 +58,7 @@
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
 
 ## Todo / Reminders
-- [ ] Reach the top of Sprout Tower.
+
 - [ ] Catch Bellsprout.
 - Sage Neal (3F): Defeated.
 - Kimchi learned Ember (Lv12)!
