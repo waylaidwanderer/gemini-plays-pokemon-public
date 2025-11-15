@@ -154,8 +154,9 @@
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
 - **Incomplete Tool List (Turn 43741):** My list of built-in tools is missing `delete_tool` and `select_battle_option`. I must update this.
 ### CianwoodLugiaSpeechHouse Exit Puzzle (In Progress)
-- **The Problem:** The player is trapped on tile (3, 1), and all standard inputs are disabled, preventing exit via the warps at (2, 7) and (3, 7).
-- **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen but does not solve the puzzle on its own.
+- **The Problem:** The player is trapped in the house, and all standard inputs have failed to trigger an exit via the warps at (2, 7) and (3, 7).
+- **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen to a map of the Whirl Islands. Any subsequent directional input cancels this view and moves the player.
 - **Hypothesis 26:** Pressing 'Start' after triggering the map view will open the main menu. **Result:** Failed. No effect.
 - **Hypothesis 27:** Pressing 'A' on the Town Map after triggering the map view will cause an interaction. **Result:** Failed. No effect.
 - **Hypothesis 28:** Pressing 'B' on tile (3, 1) unlocks the exit. **Result:** Failed. Triggered a phone call, but movement remains locked.
+- **Hypothesis 29:** The Whirl Islands map is an interactive screen, and using the D-Pad will navigate it. **Result:** Failed. Pressing 'Down' moved the player character instead of interacting with the map.
