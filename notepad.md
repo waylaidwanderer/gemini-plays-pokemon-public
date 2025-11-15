@@ -171,6 +171,7 @@
 - **Hypothesis 34:** Viewing the map at (3, 1) temporarily changes the Teacher NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 35:** Viewing the map at (3, 1) temporarily changes the Lass NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 36:** Viewing the map at (3, 1) temporarily changes the Twin NPC's dialogue. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 37:** Pressing 'Up' twice in a row on the trigger tile unlocks the exit. **Result:** Failed. The second press had no effect.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
