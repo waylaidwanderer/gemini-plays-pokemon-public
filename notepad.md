@@ -141,3 +141,4 @@
 - **Hypothesis 12:** Speaking to the Cooltrainer F at (5, 9) will activate the warp. **Result:** Failed. The Cooltrainer provided flavor text ("There are lots of BATTLE ROOMS, but I'm going to win them all!") but did not activate the warp.
 - **Hypothesis 13 (CRITICAL FAILURE):** Completing a battle challenge is required. **Result:** Failed. Caused a game-breaking glitch. DO NOT REPEAT.
 - **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (7,9) from (7,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
+- **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (8,9) from (8,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
