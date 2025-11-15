@@ -60,6 +60,7 @@
   - Sage Edmond: Bellsprout (Lv3) x2. Defeated.
   - Sage Jin: Bellsprout (Lv6). Defeated.
   - Picnicker Liz: NidoranF (Lv9). Defeated.
+  - Camper Roland: NidoranM (Lv9). Defeated.
 
 ## Pokemon Data
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
