@@ -299,20 +299,25 @@
       }
     ]
   },
-  "wait_for_event": {
-    "description": "A tool that does nothing, effectively passing a turn. Used to test for time-based events or wait out cutscenes.",
-    "input_schema": {},
-    "python_script": "print(\"Waiting for one turn.\")",
+  "party_leader_switcher": {
+    "description": "Automates the process of making a specific Pokémon the party leader. Takes a 1-indexed party slot number as input and outputs the sequence of button presses to move that Pokémon to the first slot.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "slot_number": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "slot_number"
+      ]
+    },
+    "python_script": "import json\ntry:\n    slot_number = int(input_data['slot_number'])\n    if slot_number < 2 or slot_number > 6:\n        print(json.dumps({'error': 'Slot number must be between 2 and 6.'}))\n    else:\n        buttons = ['Start', 'Down', 'A']\n        for _ in range(slot_number - 1):\n            buttons.append('Down')\n        buttons.extend(['A', 'Down', 'Down', 'A'])\n        for _ in range(slot_number - 2):\n            buttons.append('Up')\n        buttons.extend(['A', 'B', 'B'])\n        print(json.dumps(buttons))\nexcept (ValueError, KeyError) as e:\n    print(json.dumps({'error': f'Invalid input: {e}'}))",
     "history": [
       {
-        "commit_message": "feat: Create wait_for_event tool. This tool allows me to test for time-based events by passing a turn without any game input, as suggested by the puzzle_solver_agent for the CianwoodLugiaSpeechHouse puzzle.",
-        "timestamp": "2025-11-15T14:11:40.484Z",
-        "action_counter": 43948
-      },
-      {
-        "commit_message": "feat: Create wait_for_event tool. This tool allows me to test for time-based events by passing a turn without any game input, as suggested by the puzzle_solver_agent for the CianwoodLugiaSpeechHouse puzzle.",
-        "timestamp": "2025-11-15T15:01:50.413Z",
-        "action_counter": 44000
+        "commit_message": "feat: Create party_leader_switcher tool. This automates the multi-step, error-prone manual process of changing the party leader, addressing a critical inefficiency identified by overwatch. The tool takes a 1-indexed slot number and generates the button sequence to move that Pokémon to the top of the party.",
+        "timestamp": "2025-11-15T21:46:18.650Z",
+        "action_counter": 44553
       }
     ]
   }

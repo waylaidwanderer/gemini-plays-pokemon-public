@@ -130,8 +130,3 @@
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
 ### New Tool Ideas
 - **`party_leader_switcher`**: A tool that takes a Pokémon's name or party slot number and generates the button presses to make it the party leader.
-
-### Newly Encountered Tile Types (Untested)
-- ROAD
-- FLOWER_BED
-- FOUNTAIN
