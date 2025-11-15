@@ -56,24 +56,14 @@
 ## 5. Untested Assumptions
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 
-## 3. Critical Bugs & Lessons Learned
-- **Hallucination Loop (CRITICAL):** My internal sense of location is unreliable. I must rely exclusively on my pathfinding tools for navigation and trust the game state information as the absolute source of truth for my location. The `reality_check_agent` is designed to prevent this.
-- **Inventory Hallucination (CRITICAL):** I have a severe tendency to fail to verify my inventory before forming a plan (e.g., the ESCAPE ROPE incident). I must always check my PACK before assuming I have an item.
-- **Coordinate System Mismatch (CRITICAL):** My pathfinding tools have repeatedly failed due to using 1-based indexing for boundary checks while the game's map data is 0-indexed (`0 <= coordinate < dimension`). This must be the first thing I check for any future pathfinding failures.
-- **`autopress_buttons` Misuse (CRITICAL):** I have a severe, recurring failure of using `autopress_buttons=true` with tools that output data (like coordinates or decisions) instead of a JSON array of button strings. This parameter is *exclusively* for tools that generate button press sequences for menu navigation. Confusing `path_plan` with `autopress_buttons` leads to critical tool failures.
-- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
-- **Item Management Bugs (CRITICAL):** Taking a held item with a full bag destroys it. Tossing items fails. The only safe way to free a slot is to have a Pokémon hold an item.
-- **Text Box Loop (CRITICAL):** If 'A' fails to advance or close text, the next hypothesis must be to try 'B'.
-
-## 5. Confirmed System Mechanics
+## 6. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
-- **Multi-Press Dialogue:** Some NPC dialogues require pressing 'A' multiple times to advance all text.
-- **Phone List Limit:** The phone list can become full, preventing you from adding new contacts.
-- **`stun_npc` Tool:** This tool freezes an NPC's movement. It does NOT make the NPC traversable; you must still navigate around them.
-- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve only by being traded.
-
-- **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain as solid, impassable objects even after being defeated. Routes must be planned around them.
+- **Multi-Press Dialogue:** Some NPCs require pressing 'A' multiple times to advance text.
+- **Phone List Limit:** The phone list can become full.
+- **`stun_npc` Tool:** Freezes an NPC's movement but does not make them traversable.
+- **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve by trading.
+- **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
 
 ## 4. Tile Mechanics
 ### Impassable Tiles
