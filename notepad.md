@@ -149,3 +149,9 @@
 - **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 8:** Exit is unlocked by talking to the Twin NPC. **Result:** Failed. Provided clues but did not unlock exit.
+### Tool Development Ideas
+- **`escape_artist_agent`**: Takes a list of failed exit strategies and room layout to generate a comprehensive, ordered list of all remaining simple tests to perform.
+
+### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Assumptions)
+- The exit is triggered by having a specific Pokémon in the lead of the party.
+- The exit is triggered by using an HM move (like FLASH or STRENGTH) inside the house.
