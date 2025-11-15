@@ -176,3 +176,5 @@
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
 - **Incomplete Tool List (Turn 43741):** My list of built-in tools is missing `delete_tool` and `select_battle_option`. I must update this.
+- **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
+- **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** In progress.
