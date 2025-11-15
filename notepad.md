@@ -172,3 +172,4 @@
 - **Hypothesis 52 (Agent Suggestion):** Turn on PokéGear radio, then view map. **Result:** Failed. Selecting 'POKéGEAR' from the main menu immediately closes the menu without opening the PokéGear interface, confirming the PokéGear is unusable in this location.
 - **Hypothesis 52 (Agent Suggestion):** Turn on PokéGear radio, then view map. **Result:** Failed. Selecting 'POKéGEAR' from the main menu immediately closes the menu without opening the PokéGear interface, confirming the PokéGear is unusable in this location.
 - **Hypothesis 53 (Self-Generated):** Interacting with the physical radio at (7, 1) will solve the puzzle. **Result:** Failed. It only played a standard 'OAK's PKMN Talk' broadcast.
+- **Hypothesis 54 (Agent Suggestion):** View map at (3, 1), then press 'A' four times. **Result:** Failed. The first 'A' press only displayed a text box 'It's the TOWN MAP.'
