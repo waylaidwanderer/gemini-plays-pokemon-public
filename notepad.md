@@ -74,3 +74,4 @@
 ## Todo / Reminders
 - [x] Trade Bellsprout for Onix (Violet City House).
 - **ROCKY (Onix):** Obtained via trade. Lv5. Holding Bitter Berry.
+- Gym Advice: Falkner uses Flying types. Weak to Rock/Electric.
