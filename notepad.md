@@ -172,3 +172,4 @@
 **META-NOTE (Turn 44196):** The above 'CianwoodLugiaSpeechHouse Exit Puzzle' section is cluttered and deprecated due to repeated editing failures. Please refer ONLY to the clean summary that was previously appended. This old section will be removed once a reliable method is found.
 - **Hypothesis 50 (Agent Suggestion):** Walk a complete clockwise lap around the room's central area, then view the map at (3, 1). **Result:** Failed. No event occurred.
 - **Hypothesis 51 (Agent Suggestion):** View map at (3, 1), then press 'A'. **Result:** Failed. Displays a text box 'It's the TOWN MAP.'
+- **Hypothesis 52 (Agent Suggestion):** Turn on PokéGear radio, then view map. **Result:** Failed. Selecting 'POKéGEAR' from the main menu immediately closes the menu without opening the PokéGear interface, confirming the PokéGear is unusable in this location.
