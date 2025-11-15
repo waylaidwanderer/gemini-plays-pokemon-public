@@ -141,12 +141,7 @@
   - **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
   - **(H11-H16):** Testing items (ITEMFINDER), HMs (FLASH), specific button presses ('B' on warp), and NPC interactions.
   - **(H17-H28):** Testing advanced NPC interactions, menu options, item uses (SQUIRTBOTTLE), and map-triggered button presses.
-- **Hypothesis 29:** The Whirl Islands map is an interactive screen, and using the D-Pad will navigate it. **Result:** Failed. Pressing 'Down' moved the player character instead of interacting with the map.
-- **Hypothesis 30:** Viewing the map at (3, 1) temporarily activates the warp tiles. **Result:** Failed. Walked onto warp tile (2, 7) immediately after viewing map, but no warp occurred.
-- **Hypothesis 31:** Pressing 'SELECT' while the map is displayed unlocks the exit. **Result:** Failed. Activated the ITEMFINDER.
-- **Hypothesis 32:** The floor tile at (4, 1) is an invisible switch that is part of a sequence. **Result:** Failed. Pressing 'A' had no effect.
-- **Hypothesis 33:** The exit is time-based and requires waiting one turn after viewing the map. **Result:** Failed. No event occurred.
-- **Hypothesis 34:** Viewing the map at (3, 1) temporarily changes the Teacher NPC's dialogue. **Result:** Failed. Dialogue was identical.
+  - **(H29-H34):** Tested hypotheses related to map interactivity, temporary warp activation, invisible switches, time-based events, and dialogue changes, all with no effect.
 - **Hypothesis 35:** Viewing the map at (3, 1) temporarily changes the Lass NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 36:** Viewing the map at (3, 1) temporarily changes the Twin NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 37:** Pressing 'Up' twice in a row on the trigger tile unlocks the exit. **Result:** Failed. The second press had no effect.
