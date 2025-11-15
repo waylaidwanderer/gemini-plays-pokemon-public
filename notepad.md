@@ -141,18 +141,7 @@
   - **(H11-H16):** Testing items (ITEMFINDER), HMs (FLASH), specific button presses ('B' on warp), and NPC interactions.
   - **(H17-H28):** Testing advanced NPC interactions, menu options, item uses (SQUIRTBOTTLE), and map-triggered button presses.
   - **(H29-H34):** Tested hypotheses related to map interactivity, temporary warp activation, invisible switches, time-based events, and dialogue changes, all with no effect.
-- **Hypothesis 35:** Viewing the map at (3, 1) temporarily changes the Lass NPC's dialogue. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 36:** Viewing the map at (3, 1) temporarily changes the Twin NPC's dialogue. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 37:** Pressing 'Up' twice in a row on the trigger tile unlocks the exit. **Result:** Failed. The second press had no effect.
-- **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
-- **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** Failed. Text said 'Can't use that here.'
-- **Hypothesis 40 (Agent Suggestion):** Perform a clockwise spiral motion (UP, RIGHT, DOWN, LEFT) after viewing the map. **Result:** Failed. The suggested sequence of movements is physically impossible from the trigger tile. The agent also failed to run on subsequent retries.
-- **Hypothesis 41 (Self-Generated):** Viewing the map 'arms' a puzzle that requires a sequence of directional movements. Test a clockwise spiral: Right, Down, Left, Up. **Result:** In progress.
-- **Hypothesis 42:** Calling Professor Elm from inside the house will trigger a unique event to unlock the exit. **Result:** Failed. He gave generic dialogue about Pokémon Eggs and the call ended, returning me to the phone menu.
-- **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
-- **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** Failed. Text said 'Can't use that here.'
-- **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
-- **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** Failed. Text said 'Can't use that here.'
+- **(H35-H45):** Tested advanced map-triggered events, directional sequences, item/HM uses, phone calls, and radio scanning, all with no effect. The radio tuning interface could not be operated.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
