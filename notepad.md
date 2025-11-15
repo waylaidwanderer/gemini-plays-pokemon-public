@@ -48,6 +48,7 @@
   - Picnicker Liz: NidoranF (Lv9). Defeated.
   - Camper Roland: NidoranM (Lv9). Defeated.
   - Youngster Albert: Defeated.
+  - Youngster Gordon: Wooper (Lv10). Defeated.
 
 ## Pokemon Data
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
