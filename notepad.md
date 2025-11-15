@@ -22,37 +22,38 @@
 - **2F:**
   - **Main Area:** Accessed via 1F Central Ladder (6,4). Contains Sage Nico (Defeated).
   - **West Balcony:** Accessed via 1F West Ladder (2,6). contained X Accuracy.
-  - **East Area:** Accessed via 1F East Ladder (17,3).
-  - **Navigation:** To cross from East to Main on 2F, go via Row 2 (13,2 -> 11,2) to bypass Sage Nico.
+  - **East Area:** Accessed via 1F East Ladder (17,3). Connects to South Corridor.
+  - **South Corridor:** Accessed from East Area. Leads to Ladder at (10,14).
 - **3F:**
   - Accessed via SE Ladder on 2F (10,14).
-  - Item Ball (Potion) at (6,14).
-  - Sages at (8,13) and (11,11).
+  - **Layout:** Arrived at SE corner. Item Ball (Potion) collected at (6,14).
+  - **Sages:**
+    - Sage Jin (10,13): Defeated.
+    - Sage ID 4 (11,11): North of entry.
   - Ladder at (10,14) leads back to 2F.
 
 ## Game Mechanics & Systems
 - **Held Items:** Berries heal automatically in battle.
 - **Trades:** Traded Pokemon need badges to obey.
-- **Tile Mechanics (Sprout Tower):**
-  - **FLOOR:** Walkable standard terrain.
-  - **WALL:** Impassable obstacle.
-  - **LADDER:** Warp tile connecting floors.
-  - **PIT/VOID:** Impassable (Black tiles around map).
-  - **OBJECTS (NPCs/Items):** Impassable. Must navigate around.
+- **Tile Mechanics:**
+  - **FLOOR:** Walkable.
+  - **WALL:** Impassable.
+  - **LADDER:** Warp.
+  - **PIT/VOID:** Impassable.
+  - **OBJECTS:** Impassable (NPCs, Signs, Statues).
 
 ## Trainer Log
 - **Rival:** Silver (Totodile).
 - **R30:** Joey, Mikey, Don.
 - **Sprout Tower:**
-  - **Sage Chow:** Bellsprout (Lv3), Bellsprout (Lv3). Defeated.
-  - **Sage Nico:** Bellsprout (Lv3) x2? Defeated.
-  - **Sage Edmond:** Bellsprout (Lv3), Bellsprout (Lv?).
+  - Sage Chow: Bellsprout (Lv3) x2. Defeated.
+  - Sage Nico: Bellsprout (Lv3) x2. Defeated.
+  - Sage Edmond: Bellsprout (Lv3) x2. Defeated.
+  - Sage Jin: Bellsprout (Lv6). Defeated.
 
 ## Pokemon Data
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
 
 ## Todo / Reminders
-- [x] Explore South section of Sprout Tower 2F.
-- [ ] Defeat Sage Jin.
 - [ ] Reach the top of Sprout Tower.
 - [ ] Catch Bellsprout.
