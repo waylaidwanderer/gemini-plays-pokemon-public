@@ -21,6 +21,7 @@
 - `define_agent` / `delete_agent`: Manages custom agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
+- `select_battle_option`: Selects a main battle menu option.
 
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
