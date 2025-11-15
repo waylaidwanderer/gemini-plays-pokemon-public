@@ -29,3 +29,4 @@
 ### Pokémon Locations
 - **Route 29**: Pidgey, Sentret, Rattata
 - **Route 30**: Pidgey, Caterpie
+- **Route 31**: Found a gap in the southern ledges at (9, 9) allowing access to the main path. Youngster spotted at (9, 6).
