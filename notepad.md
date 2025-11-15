@@ -27,6 +27,7 @@
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
 - **`deadlock_breaker_agent`**: An agent that analyzes recent movement history to detect navigation loops and suggest a radical strategy shift.
 - **`list_all_reachable_unseen_tiles`**: A tool to provide a comprehensive list of all reachable unseen tiles for systematic exploration.
+- **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
@@ -107,15 +108,14 @@
   - **Hypothesis 2:** Pressing 'B' will close the dialogue. **Result:** Failed. Loops dialogue.
   - **Hypothesis 3:** Walking into him will make him move. **Result:** Failed. He is an impassable object.
   - **Conclusion:** The passage is a confirmed dead end.
-- **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt causes a game-breaking crash, resetting to the title screen. AVOID THIS INTERACTION.
+- **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Previously observed that interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt caused a game-breaking crash. A recent test (Turn 43093) resulted in only dialogue. The crash may be conditional. AVOID BATTLE INTERACTION.
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
-- **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
+
 ### Olivine Lighthouse Descent Puzzle
 - **Objective:** Find path from 6F down to 1F.
-- **Current Location:** Stuck on 4F/5F loop.
+- **Current Location:** Solved.
 - **Tested Descent Paths from 4F (West Section):**
   - **Path 1 (via 5F):** Taking ladder at 4F (9, 7) to 5F leads back up to 6F or to another ladder at 5F (9, 7) which returns to 4F. This is a loop.
   - **Path 2 (Pit):** Taking pit at 4F (8, 3) leads to an isolated room on 3F (Central). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
-- **Conclusion:** No viable descent path has been found from the western section of 4F. The solution must involve reaching the eastern section of the lighthouse, which is currently inaccessible.
-  - **Hypothesis 4 (5F Sailor):** Interacting with the Sailor at (8, 11) after speaking to Jasmine will trigger a new event. **Result:** Failed. Dialogue was generic, no new path opened.
+- **Conclusion:** All descent paths from the western section of 4F are confirmed dead ends. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
