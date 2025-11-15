@@ -54,13 +54,11 @@
 ## Trainer Log
 - **Rival:** Silver (Totodile).
 - **R30:** Joey, Mikey, Don.
-- **Sprout Tower:**
-  - Sage Chow: Bellsprout (Lv3) x2. Defeated.
-  - Sage Nico: Bellsprout (Lv3) x2. Defeated.
-  - Sage Edmond: Bellsprout (Lv3) x2. Defeated.
-  - Sage Jin: Bellsprout (Lv6). Defeated.
+- **Sprout Tower:** Defeated Sages Chow, Nico, Edmond, Jin.
+- **Route 32:**
   - Picnicker Liz: NidoranF (Lv9). Defeated.
   - Camper Roland: NidoranM (Lv9). Defeated.
+  - Youngster Albert: Defeated.
 
 ## Pokemon Data
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
