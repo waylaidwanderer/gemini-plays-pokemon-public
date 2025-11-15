@@ -131,4 +131,5 @@
 - **Hypothesis 2:** Move onto the warp tile from the adjacent warp tile (laterally). **Result:** Failed. No warp triggered.
 - **Hypothesis 3:** Move onto the warp tile from the floor tile directly above it (e.g., from (8, 20) to (8, 21)). **Result:** Failed. No warp triggered.
 - **Hypothesis 4:** Move onto the warp tile with continuous downward movement from two tiles above (e.g. from (8, 19) to (8, 21)). **Result:** Failed. No warp triggered.
-- **Hypothesis 5:** An NPC on this map must be spoken to in order to activate the warp. I will start by speaking to the Sailor at (13, 18).
+- **Hypothesis 5:** An NPC on this map must be spoken to in order to activate the warp. I started by speaking to the Sailor at (12, 18). **Result:** Failed. The Sailor provided flavor text ("Hehehe, I snuck out from work...") but did not activate the warp.
+- **Hypothesis 6:** Speaking to the Lass at (12, 24) will activate the warp.
