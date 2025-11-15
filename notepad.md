@@ -156,3 +156,8 @@
 
 ### Tool Development Ideas
 - **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
+
+### New Lessons & Discoveries (Turn 43325)
+
+### Blocked Paths
+- **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
