@@ -32,3 +32,14 @@
 - Item Ball at (16, 7) on 1F is walled off. Likely need to access from 2F.
 - 2F is split by a wall at x=4. West side (Item, Ladder) is unreachable from East side (Entrance).
 - Sprout Tower 1F: Central wall splits East/West. Must cross via Row 1 (North) to reach West side ladder.
+## Observed Movesets
+- **Bellsprout:** Vine Whip.
+
+## Tile Mechanics (SproutTower1F)
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable.
+- **LADDER:** Transport between floors.
+- **WARP_CARPET_DOWN:** Exit to exterior.
+
+## Trainer Updates
+- **Sage Chow:** Bellsprout x2.
