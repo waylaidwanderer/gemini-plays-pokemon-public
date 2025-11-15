@@ -27,6 +27,8 @@
 - `wait_for_event`: Passes a turn without any game input to test for time-based events.
 
 ### Tool Development Ideas
+- **`party_strategist_agent`**: Takes current party, goal (e.g., 'travel across water'), and PC box contents to recommend an optimal team.
+- **`menu_navigator_tool`**: Takes a target text option in a menu and generates the button presses to select it.
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
 - **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
@@ -73,8 +75,8 @@
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
 
 ## 5. Untested Assumptions
-- **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
+- **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 - **Battle Tower:** I'm assuming it's a side quest. **Alternative Hypothesis:** Progressing inside might unlock a new path or item needed for the main story.
 
 ## 6. Confirmed System Mechanics
@@ -95,14 +97,15 @@
 - FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters)
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
-- PIT, WARP_CARPET_DOWN, WARP_CARPET_RIGHT (one-way)
+- PIT (one-way)
+- WARP_CARPET_DOWN (one-way)
+- WARP_CARPET_RIGHT (one-way)
 ### Conditional & One-Way
 - FLOOR_UP_WALL (ledge, down only)
 - LEDGE_HOP_DOWN (down only)
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
-- WARP_CARPET_DOWN (one-way)
 
 ## 8. Journey Log & Puzzle Solutions
 ### Solved Puzzles & Key Discoveries
