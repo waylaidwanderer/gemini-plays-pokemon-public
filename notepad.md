@@ -130,9 +130,3 @@
   - **Path 2 (Pit):** Taking pit at 4F (8, 3) leads to an isolated room on 3F (Central). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
 - **Conclusion:** All descent paths from the western section of 4F are confirmed dead ends. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
-
-### New Lessons & Discoveries (Turn 43325)
-
-### Blocked Paths
-- **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
-- **PATH EXECUTION:** Calling my pathfinding tool only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
