@@ -106,3 +106,4 @@
   - **Hypothesis 2:** Pressing 'B' will close the dialogue. **Result:** Failed. Loops dialogue.
   - **Hypothesis 3:** Walking into him will make him move. **Result:** Failed. He is an impassable object.
   - **Conclusion:** The passage is a confirmed dead end.
+- **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt causes a game-breaking crash, resetting to the title screen. AVOID THIS INTERACTION.
