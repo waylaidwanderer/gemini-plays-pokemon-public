@@ -92,4 +92,4 @@
 - **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
 - **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
 - **Route 30 Ledge:** Confirmed one-way (down only).
-- **Olivine Lighthouse 1F Secret Passage:** The Sailor at (8, 2) is not a simple dialogue NPC. Hypotheses that pressing 'A' or 'B' would resolve the interaction have failed. The interaction appears to be a forced event.
+- **Olivine Lighthouse 1F Secret Passage:** The Sailor at (8, 2) is not a simple dialogue NPC. Hypotheses that pressing 'A' or 'B' would resolve the interaction have failed. The hypothesis that walking into him would make him move also failed. The Sailor is an impassable obstacle, and this passage is a confirmed dead end.
