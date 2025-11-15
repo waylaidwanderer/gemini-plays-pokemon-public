@@ -82,5 +82,9 @@
 # Ruins of Alph Interior
 - **Map ID:** 3_27
 - **Warps:** Ladder at (10, 13) to Outside.
+- **Observations:**
+  - Main chamber has statues and a teacher.
+  - Back chamber has markings but floor warps are currently inactive.
+  - No puzzle panels found here yet.
 - **Tile Mechanics:**
   - **LADDER:** Warp tile.
