@@ -12,21 +12,18 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
-- `delete_tool`
-- `select_battle_option`
 
 ### Custom Agents
-- `quest_progression_advisor`: Suggests next logical story step.
 - `city_exploration_planner`: Creates efficient exploration routes for new cities.
-- `world_navigator_agent`: Suggests new regions to investigate when stuck.
 - `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
 - `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
+- `navigation_strategist`: A unified navigation advisor.
 
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
+- `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
-- `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 - `wait_for_event`: Passes a turn without any game input to test for time-based events.
 
 ### Tool Development Ideas
