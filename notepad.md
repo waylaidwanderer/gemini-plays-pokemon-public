@@ -33,3 +33,4 @@
 - Investigate Sprout Tower.
 - Gameboy Kid: Mentions Bill made the Pokémon PC storage system.
 - **Trade:** Violet City House (Youngster): Wants Bellsprout for Onix. (Good for Falkner)
+- Academy Teacher: Traded his best Pokemon to the student beside him (4, 11).
