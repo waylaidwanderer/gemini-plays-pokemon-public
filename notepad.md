@@ -134,10 +134,6 @@
 - **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
 - **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
 
-### CianwoodLugiaSpeechHouse Puzzle Log (Cleaned Summary)
-- **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
-- **(H11-H21):** Testing items (ITEMFINDER), HMs (FLASH), specific button presses ('B' on warp), and NPC interactions.
-- **(H22-H34):** Testing advanced NPC interactions, menu options, item uses (SQUIRTBOTTLE), and map-triggered button presses.
 - **(H35-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
 - **Hypothesis 47 (Agent Suggestion):** After viewing the map from (3, 1), press 'Start' to open the main menu. **Result:** In progress.
 
