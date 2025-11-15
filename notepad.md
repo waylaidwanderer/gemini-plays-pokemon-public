@@ -86,39 +86,11 @@
 - **Reality Check:** Always verify my position from the game state before any significant action to prevent hallucination loops.
 - **Immediate Tile Testing:** Upon entering a new area, immediately test and document any unverified tile types.
 
-#
-
-# Goldenrod City Notes (Update)
-- Todd called (Turn 38870) to announce a bargain sale at the Goldenrod Dept. Store is happening now.
-
-# Route 41 Notes
-- SWIMMER♂ MATHEW (battled at (20, 46)) mentioned the inside of WHIRL ISLANDS is 'pitch-black', implying FLASH will be needed.
-
-# Tool Maintenance Log (Turn 39122)
-- **Bug Fix:** Updated `path_and_execute_v3` and `find_reachable_unseen_tiles` to correctly treat WHIRLPOOL tiles as impassable. This resolves a critical pathfinding conflict.
-
-# New Hypothesis (Post-Cianwood Arrival)
-- **Assumption:** The 'special medicine' for the Ampharos is a key item I will find or be given in Cianwood City.
-  - **Alternative Hypothesis:** The 'medicine' might not be an item. It could be a person (like a doctor), a specific Pokémon with a healing ability, or a key event that needs to be triggered (e.g., defeating the Cianwood Gym Leader).
-  - **Test to Falsify:** A full exploration of Cianwood City (all buildings, all NPCs) that yields no 'medicine' item will weaken the initial assumption. The next logical test would be to challenge the Cianwood Gym.
-
-# Cianwood City Log
-
-# Self-Assessment Action Items (Turn 39503)
-- **Task:** Test the `FLOOR_UP_WALL` tile at (10, 48) on this map to confirm its one-way traversal mechanic.
-
-# Cianwood City Log (Update)
-- **Rocker's Stolen Pokémon:** Received SHUCKIE from the Rocker in ManiasHouse for safekeeping. His *other* Pokémon was stolen. The quest is to investigate the theft, not to get a specific Pokémon back for him.
-
-## Tile Mechanics Update
-- **RADIO:** Impassable. (Confirmed in Cianwood Pharmacy).
-- **ROCK:** Impassable object. Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
-
-# Route 30 Ledge Puzzle
-- **Hypothesis 1:** The ledge at (6, 47) is passable from below.
-  - **Test:** Attempted to move north from (6, 48) on Turn 39805.
-  - **Result:** Movement failed.
-  - **Conclusion:** Hypothesis is FALSE. The ledge is a one-way obstacle.
+### Key Discoveries & Solved Puzzles
+- **Goldenrod Dept. Store:** A bargain sale is happening now (per Todd's call).
+- **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
+- **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
+- **Route 30 Ledge:** Confirmed one-way (down only).
 
 # Tool Development Log
 
