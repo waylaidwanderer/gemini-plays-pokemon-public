@@ -139,3 +139,11 @@
 9. Pokecenter
 - **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
 - **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
+### CianwoodLugiaSpeechHouse Exit Puzzle
+- **Hypothesis 1:** Exit via warps (2, 7) or (3, 7) by walking on them. **Result:** Failed. No automatic trigger.
+- **Hypothesis 2:** Exit via warps by pressing 'A' on them. **Result:** Failed. Not interactable.
+- **Hypothesis 3:** Exit via warps by approaching from a specific direction (up, down, left, right). **Result:** Failed. All directions tested on both warps.
+- **Hypothesis 4:** Exit is a secret switch in the bookshelf. **Result:** Failed. Flavor text only.
+- **Hypothesis 5:** Exit is triggered by opening the main menu ('Start') or using the 'EXIT' option. **Result:** Failed.
+- **Hypothesis 6:** Exit is triggered by pressing 'Select'. **Result:** Failed. Activated ITEMFINDER.
+- **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
