@@ -171,3 +171,4 @@
 
 ### Blocked Paths
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
+- **PATH EXECUTION:** Calling my pathfinding tool only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
