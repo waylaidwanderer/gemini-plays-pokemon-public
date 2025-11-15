@@ -18,6 +18,7 @@
 - **`define_tool`:** Creates new reusable tools.
 - **`delete_tool`:** Deletes custom tools.
 - **`delete_agent`:** Deletes custom agents.
+- **`delete_agent`:** Deletes custom agents.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
