@@ -137,16 +137,8 @@
 ### CianwoodLugiaSpeechHouse Exit Puzzle (In Progress)
 - **The Problem:** The player is trapped in the house, and all standard inputs have failed to trigger an exit via the warps at (2, 7) and (3, 7).
 - **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen to a map of the Whirl Islands. Any subsequent directional input cancels this view and moves the player.
-- **Hypothesis 1:** Exit via warps (2, 7) or (3, 7) by walking on them. **Result:** Failed. No automatic trigger.
-- **Hypothesis 2:** Exit via warps by pressing 'A' on them. **Result:** Failed. Not interactable.
-- **Hypothesis 3:** Exit via warps by approaching from a specific direction (up, down, left, right). **Result:** Failed. All directions tested on both warps.
-- **Hypothesis 4:** Exit is a secret switch in the bookshelf. **Result:** Failed. Flavor text only.
-- **Hypothesis 5:** Exit is triggered by opening the main menu ('Start'). **Result:** Failed.
-- **Hypothesis 6:** Exit is triggered by pressing 'Select'. **Result:** Failed. Activated ITEMFINDER.
-- **Hypothesis 7:** Re-talking to the Teacher NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 8:** Re-talking to the Twin NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 9:** Re-talking to the Lass NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 10:** Exit is a secret switch in the TV. **Result:** Failed. Flavor text only.
+- **Failed Hypotheses Log (Summary):**
+  - **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
 - **Hypothesis 11:** Exit is a secret switch in the Radio. **Result:** Failed. Flavor text only.
 - **Hypothesis 12:** Using the ITEMFINDER reveals a hidden exit. **Result:** Failed. No response.
 - **Hypothesis 13:** Using an HM move (FLASH) reveals the exit. **Result:** Failed. No Pokémon could learn the move.
