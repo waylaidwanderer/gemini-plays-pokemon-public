@@ -140,16 +140,7 @@
 - **Failed Hypotheses Log (Summary):**
   - **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
   - **(H11-H16):** Testing items (ITEMFINDER), HMs (FLASH), specific button presses ('B' on warp), and NPC interactions.
-- **Hypothesis 17:** Interacting with the Lass while her path is blocked triggers the exit. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 18:** Selecting 'EXIT' from the main menu triggers the exit. **Result:** Failed. It only closed the menu.
-- **Hypothesis 19:** Changing the lead Pokémon unlocks the exit. **Result:** Failed. No change.
-- **Hypothesis 20:** Using the SQUIRTBOTTLE on the warp tile. **Result:** Failed. Text said 'But nothing happened…'
-- **Hypothesis 21:** Tuning the radio via the PokéGear interface. **Result:** Failed. No button combination worked to change the station.
-- **Hypothesis 22:** Interacting with the physical radio while the PokéGear radio was active. **Result:** Failed. Played standard broadcast.
-- **Hypothesis 23:** Interacting with the Town Map is a secret switch. **Result:** Failed. Flavor text only.
-- **Hypothesis 26:** Pressing 'Start' after triggering the map view will open the main menu. **Result:** Failed. No effect.
-- **Hypothesis 27:** Pressing 'A' on the Town Map after triggering the map view will cause an interaction. **Result:** Failed. No effect.
-- **Hypothesis 28:** Pressing 'B' on tile (3, 1) unlocks the exit. **Result:** Failed. Triggered a phone call, but movement remains locked.
+  - **(H17-H28):** Testing advanced NPC interactions, menu options, item uses (SQUIRTBOTTLE), and map-triggered button presses.
 - **Hypothesis 29:** The Whirl Islands map is an interactive screen, and using the D-Pad will navigate it. **Result:** Failed. Pressing 'Down' moved the player character instead of interacting with the map.
 - **Hypothesis 30:** Viewing the map at (3, 1) temporarily activates the warp tiles. **Result:** Failed. Walked onto warp tile (2, 7) immediately after viewing map, but no warp occurred.
 - **Hypothesis 31:** Pressing 'SELECT' while the map is displayed unlocks the exit. **Result:** Failed. Activated the ITEMFINDER.
