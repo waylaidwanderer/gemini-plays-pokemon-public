@@ -26,6 +26,9 @@
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
+- **`list_all_reachable_unseen_tiles`**: A tool to provide a comprehensive list of all reachable unseen tiles for systematic exploration.
+- **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
+- **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
 
 - **`list_all_reachable_unseen_tiles`**: A tool to provide a comprehensive list of all reachable unseen tiles for systematic exploration.
 - **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
