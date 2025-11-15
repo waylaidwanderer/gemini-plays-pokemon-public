@@ -155,3 +155,9 @@
 - **Hypothesis 45 (Agent Suggestion):** Manually scan all radio frequencies using the PokéGear to find a hidden broadcast that unlocks the exit. **Result:** In progress.
 - **Hypothesis 46 (Agent Suggestion):** Use the move 'Dig' to escape the house. **Result:** Failed. Text said 'Can't use that here.'
   - **(H22-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
+
+### CianwoodLugiaSpeechHouse Puzzle Log (Cleaned Summary)
+- **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
+- **(H11-H21):** Testing items (ITEMFINDER), HMs (FLASH), specific button presses ('B' on warp), and NPC interactions.
+- **(H22-H34):** Testing advanced NPC interactions, menu options, item uses (SQUIRTBOTTLE), and map-triggered button presses.
+- **(H35-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
