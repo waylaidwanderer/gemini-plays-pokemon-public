@@ -17,14 +17,16 @@
 - **`stun_npc`:** Freezes/unfreezes NPC movement.
 - **`define_tool`:** Creates new reusable tools.
 - **`delete_tool`:** Deletes custom tools.
-- **`delete_agent`:** Deletes custom agents.
+
+### Tool Development Ideas
+- **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **REALITY CHECKS:** My internal sense of location is unreliable. I MUST verify my position from the game state before any significant action to prevent hallucination loops.
 - **COORDINATE SYSTEM:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
 - **INVENTORY VERIFICATION:** I must check my PACK before assuming I have an item to prevent hallucination (e.g., the nonexistent ESCAPE ROPE incident).
-- **TEXT BOXES:** If 'A' fails to advance text, the next hypothesis is to try 'B'. (Note: This is not a universal solution; it failed with the Sailor in Olivine Lighthouse.)
+- **TEXT BOXES:** The hypothesis that pressing 'B' universally closes text boxes when 'A' fails has been proven false. It failed with the Sailor in Olivine Lighthouse.
 - **TOOL MISUSE:** `autopress_buttons=true` is ONLY for tools that output button strings, not coordinates or decisions.
 - **ITEM MANAGEMENT:** Taking a held item with a full bag destroys it. The only safe way to free a slot is to have a Pokémon hold an item.
 - **DIG GLITCH (CRITICAL):** Using DIG as a field move in the Olivine Lighthouse dead-end room causes a game-breaking glitch, corrupting all player data. Avoid using DIG as a field move until further testing.
@@ -92,4 +94,8 @@
 - **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
 - **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
 - **Route 30 Ledge:** Confirmed one-way (down only).
-- **Olivine Lighthouse 1F Secret Passage:** The Sailor at (8, 2) is not a simple dialogue NPC. Hypotheses that pressing 'A' or 'B' would resolve the interaction have failed. The hypothesis that walking into him would make him move also failed. The Sailor is an impassable obstacle, and this passage is a confirmed dead end.
+- **Olivine Lighthouse 1F Secret Passage:** The Sailor at (8, 2) is not a simple dialogue NPC. 
+  - **Hypothesis 1:** Pressing 'A' will trigger a battle. **Result:** Failed. Loops dialogue.
+  - **Hypothesis 2:** Pressing 'B' will close the dialogue. **Result:** Failed. Loops dialogue.
+  - **Hypothesis 3:** Walking into him will make him move. **Result:** Failed. He is an impassable object.
+  - **Conclusion:** The passage is a confirmed dead end.
