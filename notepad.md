@@ -30,3 +30,4 @@
 - [ ] Trade for Onix (strong against Flying).
 ## Sprout Tower Notes
 - Item Ball at (16, 7) on 1F is walled off. Likely need to access from 2F.
+- 2F is split by a wall at x=4. West side (Item, Ladder) is unreachable from East side (Entrance).
