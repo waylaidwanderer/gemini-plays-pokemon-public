@@ -148,6 +148,7 @@
 - **Hypothesis 6:** Exit is triggered by pressing 'Select'. **Result:** Failed. Activated ITEMFINDER.
 - **Hypothesis 7:** Exit is unlocked by re-talking to the Teacher NPC. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 8:** Exit is unlocked by talking to the Twin NPC. **Result:** Failed. Provided clues but did not unlock exit.
+- **Hypothesis 9:** Exit is a secret switch in the TV. **Result:** Failed. Flavor text only.
 ### Tool Development Ideas
 - **`escape_artist_agent`**: Takes a list of failed exit strategies and room layout to generate a comprehensive, ordered list of all remaining simple tests to perform.
 
