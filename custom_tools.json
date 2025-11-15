@@ -214,53 +214,6 @@
       }
     ]
   },
-  "plan_next_exploration_step": {
-    "description": "Finds the closest reachable 'unseen' tile on the current map and returns its coordinates. This version dynamically detects map boundaries to correctly handle negative coordinates.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\nimport sys\n\ndef plan_next_exploration_step():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError:\n        print(json.dumps({'error': 'Failed to parse map XML.'}))\n        return\n\n    player_pos = None\n    player_tile_type = None\n    grid = {}\n    unseen_tiles = []\n    all_x = []\n    all_y = []\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        all_y.append(y)\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            all_x.append(x)\n            grid[(x, y)] = tile_elem\n            if tile_elem.get('seen') == 'false':\n                unseen_tiles.append((x, y))\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n                player_tile_type = tile_elem.get('type')\n\n    if not player_pos:\n        print(json.dumps({'error': 'Player position not found.'}))\n        return\n\n    if not unseen_tiles:\n        print(json.dumps({'error': 'No unseen tiles found.'}))\n        return\n        \n    min_x, max_x = min(all_x), max(all_x)\n    min_y, max_y = min(all_y), max(all_y)\n\n    impassable_tile_types = {\n        'WALL', 'VOID', 'PC', 'TV', 'COUNTER', 'BOOKSHELF', 'WINDOW',\n        'TOWN_MAP', 'POKEDEX', 'RADIO', 'PILLAR', 'MART_SHELF',\n        'INCENSE_BURNER', 'CUT_TREE', 'HEADBUTT_TREE', 'BUOY', 'unseen', 'WHIRLPOOL'\n    }\n    \n    if player_tile_type != 'WATER':\n        impassable_tile_types.add('WATER')\n\n    unseen_tiles.sort(key=lambda pos: abs(pos[0] - player_pos[0]) + abs(pos[1] - player_pos[1]))\n\n    for unseen_x, unseen_y in unseen_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            target_x, target_y = unseen_x + dx, unseen_y + dy\n            target_tile = grid.get((target_x, target_y))\n            if target_tile is None or target_tile.get('type') in impassable_tile_types or target_tile.get('has-object') == 'true' or target_tile.get('seen') == 'false':\n                continue\n\n            queue = deque([(player_pos, [])])\n            visited = {player_pos}\n            path_found = False\n            while queue:\n                (x, y), path = queue.popleft()\n                if (x, y) == (target_x, target_y):\n                    print(json.dumps({'x': unseen_x, 'y': unseen_y}))\n                    return\n\n                for move_dx, move_dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    next_x, next_y = x + move_dx, y + move_dy\n                    neighbor = (next_x, next_y)\n\n                    if not (min_x <= next_x <= max_x and min_y <= next_y <= max_y):\n                        continue\n                    if neighbor in visited:\n                        continue\n\n                    tile = grid.get(neighbor)\n                    if tile is None or tile.get('type') in impassable_tile_types or tile.get('has-object') == 'true':\n                        continue\n\n                    visited.add(neighbor)\n                    queue.append((neighbor, path + [(next_x, next_y)]))\n    \n    print(json.dumps({'error': 'No reachable unseen tiles found.'}))\n\nplan_next_exploration_step()\n",
-    "history": [
-      {
-        "commit_message": "fix: Overhaul tool to fix critical pathfinding failures. The previous version was completely broken. This version implements a robust BFS that iterates through all unseen tiles, sorted by distance, and finds a path to an adjacent walkable tile. This resolves the long-standing critical bug identified by overwatch.",
-        "timestamp": "2025-11-14T02:31:42.154Z",
-        "action_counter": 40533
-      },
-      {
-        "commit_message": "fix: Overhaul tool to fix critical pathfinding failures. The previous version was completely broken. This version implements a robust BFS that iterates through all unseen tiles, sorted by distance, and finds a path to an adjacent walkable tile. This resolves the long-standing critical bug identified by overwatch.",
-        "timestamp": "2025-11-14T02:41:15.985Z",
-        "action_counter": 40545
-      },
-      {
-        "commit_message": "fix: Add robust boundary checks to prevent 'Not in grid' error. The previous version failed to check if neighbor coordinates were within the map's bounds before attempting to access them in the grid, causing a critical failure. This commit adds the necessary `0 <= coord < dimension` checks, resolving the bug identified by overwatch.",
-        "timestamp": "2025-11-14T03:34:09.140Z",
-        "action_counter": 40624
-      },
-      {
-        "commit_message": "fix: Add robust boundary checks to fix critical tool failure. The tool has been failing with a 'Not in grid' error for over 1000 turns. This commit adds the necessary `0 <= coord < dimension` checks to the neighbor evaluation logic, which was the root cause of the bug. This finally resolves the long-standing overwatch critique.",
-        "timestamp": "2025-11-14T07:14:14.620Z",
-        "action_counter": 41011
-      },
-      {
-        "commit_message": "fix: Add robust boundary checks to fix critical tool failure. The tool has been failing with a 'Not in grid' error for over 1000 turns. This commit adds the necessary `0 <= coord < dimension` checks to the neighbor evaluation logic, which was the root cause of the bug. This finally resolves the long-standing overwatch critique.",
-        "timestamp": "2025-11-14T07:33:19.899Z",
-        "action_counter": 41038
-      },
-      {
-        "commit_message": "fix: Add dynamic water traversal. The tool was critically failing by hardcoding 'WATER' as impassable, preventing it from finding paths while surfing. This commit adds logic to check the player's current tile type and only treats water as an obstacle when not surfing, resolving the failure.",
-        "timestamp": "2025-11-14T09:00:20.676Z",
-        "action_counter": 41161
-      },
-      {
-        "commit_message": "fix: Add dynamic boundary detection to handle negative coordinates. The tool was critically failing on maps with negative coordinates (like Route 41) because it assumed a 0-based grid. This commit adds logic to parse all tiles to find the min/max x and y values, and uses these dynamic boundaries for all pathfinding and adjacency checks, resolving the failure.",
-        "timestamp": "2025-11-14T11:24:40.721Z",
-        "action_counter": 41390
-      },
-      {
-        "commit_message": "feat: Add dynamic boundary detection to handle negative coordinates. The tool was critically failing on maps with negative coordinates (like Route 41) because it assumed a 0-based grid. This commit adds logic to parse all tiles to find the min/max x and y values, and uses these dynamic boundaries for all pathfinding and adjacency checks, resolving the failure.",
-        "timestamp": "2025-11-15T06:20:30.323Z",
-        "action_counter": 43211
-      }
-    ]
-  },
   "plan_path_to_target": {
     "description": "Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, avoids pathing through warp tiles, dynamically handles water traversal, and now dynamically detects map boundaries to correctly handle negative coordinates.",
     "input_schema": {

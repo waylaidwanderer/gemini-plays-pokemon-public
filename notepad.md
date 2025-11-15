@@ -11,7 +11,7 @@
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
-- `plan_next_exploration_step`: Finds the closest unseen tile to explore.
+- `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
 - `stun_npc`: Freezes/unfreezes NPC movement.
 
