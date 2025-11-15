@@ -8,7 +8,7 @@
 
 ## Current Quest: The Gym Challenge
 - **Primary Goal:** Challenge Falkner in Violet City.
-- **Immediate Goal:** Gather intel from NPCs, then find the Gym.
+- **Immediate Goal:** Locate the Gym (Intel gathered: Badges=Obedience, Bill=PC, TR Disbanded).
 
 ## Important Locations
 - **New Bark Town:** Home, Prof. Elm's Lab.
