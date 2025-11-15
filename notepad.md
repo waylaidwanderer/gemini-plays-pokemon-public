@@ -130,12 +130,6 @@
   - **Path 2 (Pit):** Taking pit at 4F (8, 3) leads to an isolated room on 3F (Central). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
 - **Conclusion:** All descent paths from the western section of 4F are confirmed dead ends. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
-- **Rival's Dialogue (Route 41):** "It was a dark and stormy night… I saw this giant POKéMON flying from the islands. It was scattering feathers from its silver wings."
-- **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
-- **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
-
-- **(H35-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
-- **Hypothesis 47 (Agent Suggestion):** After viewing the map from (3, 1), press 'Start' to open the main menu. **Result:** In progress.
 
 - **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** In progress.
 - **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** Failed. No event occurred.
