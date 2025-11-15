@@ -1,9 +1,9 @@
 # Gem's Adventure Log
 
 ## Current Objectives
-- **Primary:** Challenge Violet City Gym (Falkner).
-- **Secondary:** Trade Bellsprout for Onix (Violet City House).
-- **Tertiary:** Buy Poké Balls at Violet City Mart (Optional).
+- **Primary:** Journey to Azalea Town.
+- **Secondary:** Exit Violet City Gym & Await Elm's Call.
+- **Tertiary:** Train Rocky (Onix).
 
 ## Completed Objectives
 - **Violet City Gym:** Defeated Falkner. Obtained Zephyr Badge & TM31.
