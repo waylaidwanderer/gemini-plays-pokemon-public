@@ -98,7 +98,7 @@
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT, WARP_CARPET_DOWN, WARP_CARPET_RIGHT (one-way)
 ### Conditional & One-Way
-- FLOOR_UP_WALL (ledge, up only)
+- FLOOR_UP_WALL (ledge, down only)
 - LEDGE_HOP_DOWN (down only)
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
