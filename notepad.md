@@ -72,3 +72,9 @@
 ## Area and Navigation Insights
 - **Tile Mechanics:**
   - **FLOOR:** Standard walkable terrain.
+
+# Ruins of Alph
+## Area and Navigation Insights
+- **Map ID:** 3_22
+- **Warps:** Cave entrances at (10, 13) and (6, 19).
+- **Signs:** Sign at (12, 16).
