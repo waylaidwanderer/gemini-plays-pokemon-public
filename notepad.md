@@ -151,9 +151,9 @@
 - **Hypothesis 9:** Exit is a secret switch in the TV. **Result:** Failed. Flavor text only.
 - **Hypothesis 10:** Exit is triggered by using the 'EXIT' option in the main menu. **Result:** Failed. Only closed the menu.
 - **Hypothesis 11:** Re-talking to the Lass NPC unlocks the exit. **Result:** Failed. Dialogue was identical.
+- **Hypothesis 12:** Changing the lead Pokémon unlocks the exit. **Result:** Failed. No change.
 ### Tool Development Ideas
 - **`escape_artist_agent`**: Takes a list of failed exit strategies and room layout to generate a comprehensive, ordered list of all remaining simple tests to perform.
 
 ### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Assumptions)
-- The exit is triggered by having a specific Pokémon in the lead of the party.
 - The exit is triggered by using an HM move (like FLASH or STRENGTH) inside the house.
