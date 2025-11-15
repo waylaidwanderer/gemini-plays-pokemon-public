@@ -1,6 +1,18 @@
 # Gem's Brain 🧠
 
 ## 1. My Toolkit
+### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_agent`
+- `delete_agent`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `define_tool`
+- `delete_tool`
+- `select_battle_option`
+
 ### Custom Agents
 - `quest_progression_advisor`: Suggests next logical story step.
 - `city_exploration_planner`: Creates efficient exploration routes for new cities.
@@ -12,7 +24,6 @@
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
-- `stun_npc`: Freezes/unfreezes NPC movement.
 - `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 
 ### Tool Development Ideas
@@ -121,7 +132,9 @@
 - **Rival's Dialogue (Route 41):** "It was a dark and stormy night… I saw this giant POKéMON flying from the islands. It was scattering feathers from its silver wings."
 - **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
 - **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
-### CianwoodLugiaSpeechHouse Exit Puzzle (Failed Hypotheses)
+### CianwoodLugiaSpeechHouse Exit Puzzle (In Progress)
+- **The Problem:** The player is trapped in the house, and all standard inputs have failed to trigger an exit via the warps at (2, 7) and (3, 7).
+- **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen to a map of the Whirl Islands. Any subsequent directional input cancels this view and moves the player.
 - **Hypothesis 1:** Exit via warps (2, 7) or (3, 7) by walking on them. **Result:** Failed. No automatic trigger.
 - **Hypothesis 2:** Exit via warps by pressing 'A' on them. **Result:** Failed. Not interactable.
 - **Hypothesis 3:** Exit via warps by approaching from a specific direction (up, down, left, right). **Result:** Failed. All directions tested on both warps.
@@ -145,18 +158,11 @@
 - **Hypothesis 21:** Tuning the radio via the PokéGear interface. **Result:** Failed. No button combination worked to change the station.
 - **Hypothesis 22:** Interacting with the physical radio while the PokéGear radio was active. **Result:** Failed. Played standard broadcast.
 - **Hypothesis 23:** Interacting with the Town Map is a secret switch. **Result:** Failed. Flavor text only.
-
-### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Hypotheses)
-- **Hypothesis 24:** Stand on a warp tile AND select 'EXIT' from the main menu.
-- **Hypothesis 25:** Use an HM move (STRENGTH) inside the house.
-
-## 9. Lessons from Overwatch Critiques
-- **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
-- **Incomplete Tool List (Turn 43741):** My list of built-in tools is missing `delete_tool` and `select_battle_option`. I must update this.
-### CianwoodLugiaSpeechHouse Exit Puzzle (In Progress)
-- **The Problem:** The player is trapped in the house, and all standard inputs have failed to trigger an exit via the warps at (2, 7) and (3, 7).
-- **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen to a map of the Whirl Islands. Any subsequent directional input cancels this view and moves the player.
 - **Hypothesis 26:** Pressing 'Start' after triggering the map view will open the main menu. **Result:** Failed. No effect.
 - **Hypothesis 27:** Pressing 'A' on the Town Map after triggering the map view will cause an interaction. **Result:** Failed. No effect.
 - **Hypothesis 28:** Pressing 'B' on tile (3, 1) unlocks the exit. **Result:** Failed. Triggered a phone call, but movement remains locked.
 - **Hypothesis 29:** The Whirl Islands map is an interactive screen, and using the D-Pad will navigate it. **Result:** Failed. Pressing 'Down' moved the player character instead of interacting with the map.
+
+## 9. Lessons from Overwatch Critiques
+- **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
+- **Incomplete Tool List (Turn 43741):** My list of built-in tools is missing `delete_tool` and `select_battle_option`. I must update this.
