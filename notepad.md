@@ -2,11 +2,12 @@
 
 ## Current Objectives
 - **Primary:** Challenge Violet City Gym (Falkner).
-- **Secondary:** Buy Poké Balls at Violet City Mart.
-- **Tertiary:** Catch Bellsprout (Route 31) for Onix Trade.
+- **Secondary:** Trade Bellsprout for Onix (Violet City House).
+- **Tertiary:** Buy Poké Balls at Violet City Mart (Optional).
 
 ## Completed Objectives
 - **Sprout Tower:** Defeated Elder Sage Li. Obtained HM05 (Flash). Collected Escape Rope.
+- **Catch Bellsprout:** Caught Lv5 Female on Route 31.
 
 ## Key Locations & Warps
 - **New Bark Town:** Elm's Lab, Mom's House.
@@ -46,6 +47,15 @@
   - **PIT/VOID:** Impassable.
   - **OBJECTS:** Impassable (NPCs, Signs, Statues).
 
+## Area and Navigation Insights
+- **Route 31 Tile Mechanics:**
+  - **TALL_GRASS:** Contains wild Pokémon encounters.
+  - **LEDGE_HOP_DOWN / RIGHT:** One-way traversal (jump down/right). Behavior: Jumping over a ledge moves the player 2 tiles in that direction.
+  - **CUT_TREE:** Obstacle. Requires HM01 Cut to remove.
+  - **HEADBUTT_TREE:** Interactable. Requires TM02 Headbutt.
+  - **WATER:** Impassable. Requires Surf.
+  - **CAVE:** Entrance to Dark Cave.
+
 ## Trainer Log
 - **Rival:** Silver (Totodile).
 - **R30:** Joey, Mikey, Don.
@@ -58,19 +68,8 @@
 ## Pokemon Data
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
 
-## Todo / Reminders
-
-- [ ] Catch Bellsprout.
-- [ ] Trade Bellsprout for Onix (Violet City House).
-
-### Mechanics Notes
-- **Escape Ropes in Sprout Tower:** Observed to return the player to the tower entrance (23, 6), NOT the last visited Pokémon Center.
 ## Money & Economy
 - Violet City Mart: Poké Ball (¥200), Potion (¥300), Escape Rope (¥550), Antidote (¥100)
-- **Route 31 Tile Mechanics:**
-  - **TALL_GRASS:** Contains wild Pokémon encounters.
-  - **LEDGE_HOP_DOWN / RIGHT:** One-way traversal (jump down/right). Behavior: Jumping over a ledge moves the player 2 tiles in that direction.
-  - **CUT_TREE:** Obstacle. Requires HM01 Cut to remove.
-  - **HEADBUTT_TREE:** Interactable. Requires TM02 Headbutt.
-  - **WATER:** Impassable. Requires Surf.
-  - **CAVE:** Entrance to Dark Cave.
+
+## Todo / Reminders
+- [ ] Trade Bellsprout for Onix (Violet City House).
