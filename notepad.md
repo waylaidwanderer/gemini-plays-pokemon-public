@@ -168,3 +168,9 @@
 - **Key Discovery:** Pressing 'Up' on tile (3, 1) displays a map of the Whirl Islands. Any subsequent directional input cancels this view.
 - **Failed Hypotheses Log (Summary):**
   - **(H1-H47):** A comprehensive series of over 47 tests have failed. These include: standard warp interaction, interacting with all background objects, re-talking to all NPCs, using all relevant items from the pack (ITEMFINDER, SQUIRTBOTTLE), using HMs (FLY, FLASH), using field moves (DIG), pressing all buttons (A, B, Start, Select) in various contexts (on warps, on the trigger tile, while the map is displayed), testing complex directional inputs, and attempting to use the PokéGear (Phone, Radio). The radio tuning interface was confirmed to be inoperable. All simple and complex single-action or short-sequence hypotheses have been exhausted.
+
+### CianwoodLugiaSpeechHouse Puzzle Log (Cleaned Summary)
+- **The Problem:** Trapped in the house. Warps at (2, 7) and (3, 7) are inactive.
+- **Key Discovery:** Pressing 'Up' on tile (3, 1) displays a map of the Whirl Islands. Any subsequent directional input cancels this view.
+- **Failed Hypotheses Log (Summary):**
+  - **(H1-H47):** A comprehensive series of over 47 tests have failed. These include: standard warp interaction, interacting with all background objects, re-talking to all NPCs, using all relevant items from the pack (ITEMFINDER, SQUIRTBOTTLE), using HMs (FLY, FLASH), using field moves (DIG), pressing all buttons (A, B, Start, Select) in various contexts (on warps, on the trigger tile, while the map is displayed), testing complex directional inputs, and attempting to use the PokéGear (Phone, Radio). The radio tuning interface was confirmed to be inoperable. All simple and complex single-action or short-sequence hypotheses have been exhausted.
