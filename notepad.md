@@ -38,11 +38,17 @@
 
 ## Game Mechanics & Systems
 - **Tile Mechanics:**
-  - **WALKABLE:** FLOOR, TALL_GRASS.
-  - **IMPASSABLE:** WALL, CUT_TREE, WATER, OBJECTS, WINDOW, PIT/VOID.
-  - **INTERACTABLE:** COUNTER, PC, HEADBUTT_TREE.
-  - **WARPS:** DOOR, LADDER, WARP_CARPET_DOWN, WARP_CARPET_RIGHT, CAVE.
-  - **ONE-WAY:** LEDGE_HOP_DOWN, LEDGE_HOP_RIGHT.
+  - **FLOOR:** Standard walkable terrain.
+  - **TALL_GRASS:** Walkable. Contains wild Pokémon encounters.
+  - **WALL:** Impassable obstacle.
+  - **COUNTER:** Impassable. Interact from adjacent tile to speak with NPC behind it.
+  - **WARP_CARPET_DOWN:** Walkable. Stepping on this transitions to the adjacent map.
+  - **LEDGE_HOP_DOWN:** One-way traversal (South). Jumping over moves player 2 tiles.
+  - **CUT_TREE:** Impassable. Requires HM01 Cut to remove.
+  - **HEADBUTT_TREE:** Impassable. Interactable. Requires TM02 Headbutt.
+  - **WATER:** Impassable. Requires Surf.
+  - **CAVE:** Walkable. Acts as a warp entrance/exit.
+  - **OBJECTS:** All NPCs and Objects act as impassable walls.
 - **Held Items:** Berries heal automatically.
 - **Escape Ropes:** Return to dungeon entrance.
 - **Trades:** Traded Pokemon need badges.
