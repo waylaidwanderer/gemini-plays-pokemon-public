@@ -174,7 +174,8 @@
 - **Hypothesis 37:** Pressing 'Up' twice in a row on the trigger tile unlocks the exit. **Result:** Failed. The second press had no effect.
 - **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
 - **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** Failed. Text said 'Can't use that here.'
-- **Hypothesis 40 (Agent Suggestion):** Perform a clockwise spiral motion (RIGHT, DOWN, LEFT, UP) after viewing the map. **Result:** In progress.
+- **Hypothesis 40 (Agent Suggestion):** Perform a clockwise spiral motion (UP, RIGHT, DOWN, LEFT) after viewing the map. **Result:** Failed. The suggested sequence of movements is physically impossible from the trigger tile. The agent also failed to run on subsequent retries.
+- **Hypothesis 41 (Self-Generated):** Viewing the map 'arms' a puzzle that requires a sequence of directional movements. Test a clockwise spiral: Right, Down, Left, Up. **Result:** In progress.
 - **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
 - **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** Failed. Text said 'Can't use that here.'
 - **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
