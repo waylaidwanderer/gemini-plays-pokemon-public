@@ -97,6 +97,7 @@
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
+- WARP_CARPET_DOWN (one-way)
 
 ## 8. Journey Log & Puzzle Solutions
 ### Procedural Rules & Learnings
