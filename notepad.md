@@ -189,3 +189,4 @@
 - **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** In progress.
 - **Hypothesis 43 (Agent Suggestion):** Viewing the map at (3, 1) arms a puzzle that is solved by a clockwise directional input. Test sequence: Up (trigger), Right, Down, Left. **Result:** Failed. The sequence of movements did not unlock the exit.
 - **Hypothesis 44 (Agent Suggestion):** After viewing the map from (3, 1), pressing 'B' will unlock the exit. **Result:** Failed. Pressing 'B' simply closed the map view, same as a directional input.
+- **Hypothesis 45 (Agent Suggestion):** Manually scan all radio frequencies using the PokéGear to find a hidden broadcast that unlocks the exit. **Result:** In progress.
