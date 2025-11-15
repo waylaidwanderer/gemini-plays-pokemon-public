@@ -28,3 +28,5 @@
 - [ ] Investigate Sprout Tower.
 - [ ] Catch Bellsprout in grass north of Violet City.
 - [ ] Trade for Onix (strong against Flying).
+## Sprout Tower Notes
+- Item Ball at (16, 7) on 1F is walled off. Likely need to access from 2F.
