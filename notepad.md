@@ -159,10 +159,11 @@
 - **Hypothesis 17:** Interacting with the Lass while her path is blocked triggers the exit. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 18:** Selecting 'EXIT' from the main menu triggers the exit. **Result:** Failed. It only closed the menu.
 - **Hypothesis 19:** Changing the lead Pokémon unlocks the exit. **Result:** Failed. No change.
+- **Hypothesis 20:** Using the SQUIRTBOTTLE on the warp tile. **Result:** Failed. Text said 'But nothing happened…'
 
 ### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Hypotheses)
-- **Hypothesis 20:** Stand on a warp tile AND select 'EXIT' from the main menu.
-- **Hypothesis 21:** Use a different HM move (STRENGTH) inside the house.
+- **Hypothesis 21:** Stand on a warp tile AND select 'EXIT' from the main menu.
+- **Hypothesis 22:** Use an HM move (STRENGTH) inside the house.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
