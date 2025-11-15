@@ -36,6 +36,7 @@
   - Ladder at (10,14) leads back to 2F.
 
 ## Game Mechanics & Systems
+- **Escape Ropes:** In Sprout Tower, they return you to the entrance (23, 6), not the last Pokémon Center.
 - **Held Items:** Berries heal automatically in battle.
 - **Trades:** Traded Pokemon need badges to obey.
 - **Tile Mechanics:**
