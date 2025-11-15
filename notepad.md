@@ -29,6 +29,7 @@
   - **WALL:** Impassable obstacle.
   - **COUNTER:** Impassable. Interact from adjacent tile to speak with NPC behind it.
   - **WARP_CARPET_DOWN:** Walkable. Stepping on this transitions to the adjacent map.
+  - **WARP_CARPET_RIGHT:** Walkable. Stepping on this transitions to the adjacent map.
   - **LEDGE_HOP_DOWN:** One-way traversal (South). Jumping over moves player 2 tiles.
   - **CUT_TREE:** Impassable. Requires HM01 Cut to remove.
   - **HEADBUTT_TREE:** Impassable. Interactable. Requires TM02 Headbutt.
