@@ -81,3 +81,12 @@
 - **Tile Mechanics:**
   - **LADDER:** Warp tile.
 - **FLOOR_UP_WALL:** Impassable from the North. Likely acts as a wall facing 'up'.
+
+# Route 32 Pokémon Center
+## Area and Navigation Insights
+- **Tile Mechanics:**
+  - **FLOOR:** Walkable.
+  - **COUNTER:** Impassable obstacle. Interact with NPCs across it.
+  - **WALL:** Impassable.
+  - **LADDER:** Warp to 2F.
+  - **WARP_CARPET_DOWN:** Exit to Route 32.
