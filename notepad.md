@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Journey to Azalea Town.
-- **Secondary:** Meet Elm's Aide at Violet City Pokémon Center.
+- **Secondary:** Head South to Route 32.
 - **Tertiary:** Train Rocky (Onix).
 
 ## Completed Objectives
