@@ -130,3 +130,4 @@
   - **Path 2 (Pit):** Taking pit at 4F (8, 3) leads to an isolated room on 3F (Central). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
   - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
 - **Conclusion:** All descent paths from the western section of 4F are confirmed dead ends. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
+- **Task:** Mark transition on Route 40 at (17, 36) to Route 41.
