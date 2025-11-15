@@ -1,36 +1,30 @@
 # Gem's Adventure Log
 
-## Status
-- **Location:** Violet City Pokémon Center
-- **Badges:** 0
-- **Pokedex:** 4
-- **Party:** Kimchi (7), Ace (4), Silk (3), Scout (2) - HEALED
+## Current Objectives
+- **Primary:** Challenge Violet City Gym (Falkner).
+- **Secondary:** Explore Sprout Tower (North of Violet City).
+- **Tertiary:** Catch Bellsprout for Onix Trade.
 
-## Current Quest: The Gym Challenge
-- **Primary Goal:** Challenge Falkner in Violet City.
-- **Immediate Goal:** Explore Sprout Tower (North) & Catch Bellsprout, then Challenge Gym.
-
-## Important Locations
-- **New Bark Town:** Home, Prof. Elm's Lab.
-- **Route 30:** Mr. Pokémon (Mystery Egg delivered).
+## Key Locations & Warps
+- **New Bark Town:** Elm's Lab, Mom's House.
 - **Cherrygrove City:** Map Card obtained.
-- **Violet City:** Current location. Contains Gym, Sprout Tower, Academy.
+- **Violet City:** Gym (18, 17), Academy (Earl) (30, 17), Pokemon Center (31, 25), Mart.
+- **Route 30:** Mr. Pokemon's House.
+- **Trade House:** Violet City (21, 29). Kyle wants Bellsprout for Onix.
 
-## Mechanics & Observations
-- **Obedience:** Traded Pokémon need badges to obey.
+## Mechanics & Lore
+- **Held Items:** Berries heal automatically in battle (Academy Note).
+- **Trades:** Traded Pokemon need badges to obey.
 - **Tiles:**
-  - Walkable: FLOOR, WARP_CARPET, TALL_GRASS, DOOR.
-  - Blocked: WALL, VOID, WATER, HEADBUTT_TREE, CUT_TREE, DECORATIONS, OBJECTS (NPCs, Signs).
-  - Special: LEDGE (One-way), BERRY_TREE.
+  - **Traversable:** FLOOR, WARP_CARPET, TALL_GRASS, DOOR.
+  - **Blocked:** WALL, VOID, WATER, HEADBUTT_TREE, CUT_TREE, DECORATIONS, OBJECTS.
+  - **Special:** LEDGE (One-way jump), BERRY_TREE.
 
-## Trainers Defeated
-- Rival (Silver) - Totodile
-- R30: Youngster Joey, Youngster Mikey, Bug Catcher Don
+## Trainer Log
+- **Rival:** Silver (Totodile).
+- **R30:** Joey, Mikey, Don.
 
-## Reminders
-- Mark all warps.
-- Talk to everyone.
-- Investigate Sprout Tower.
-- Gameboy Kid: Mentions Bill made the Pokémon PC storage system.
-- **Trade:** Violet City House (Youngster): Wants Bellsprout for Onix. (Good for Falkner)
-- Academy: Teacher traded his best Pokemon to the student (4, 11). Student notes it held a Berry (heals HP automatically).
+## Todo / Reminders
+- [ ] Investigate Sprout Tower.
+- [ ] Catch Bellsprout in grass north of Violet City.
+- [ ] Trade for Onix (strong against Flying).
