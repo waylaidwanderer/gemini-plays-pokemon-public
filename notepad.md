@@ -156,6 +156,6 @@
 ### CianwoodLugiaSpeechHouse Exit Puzzle (In Progress)
 - **The Problem:** The player is trapped on tile (3, 1), and all standard inputs are disabled, preventing exit via the warps at (2, 7) and (3, 7).
 - **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen but does not solve the puzzle on its own.
-- **Next Hypothesis:** The trigger may have activated the exit warps. The next step is to attempt to move to one of the warp tiles.
 - **Hypothesis 26:** Pressing 'Start' after triggering the map view will open the main menu. **Result:** Failed. No effect.
 - **Hypothesis 27:** Pressing 'A' on the Town Map after triggering the map view will cause an interaction. **Result:** Failed. No effect.
+- **Hypothesis 28:** Pressing 'B' on tile (3, 1) unlocks the exit. **Result:** Failed. Triggered a phone call, but movement remains locked.
