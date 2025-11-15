@@ -141,3 +141,4 @@
 7. Pharmacy
 8. Gym
 9. Pokecenter
+- **EUSINE BATTLE CRASH (CIANWOOD):** After Suicune appears and flees in Cianwood City, Eusine appears. Advancing his dialogue to the battle prompt causes a game-breaking crash, resetting the game to the title screen. AVOID BATTLE INTERACTION.
