@@ -36,6 +36,7 @@
   - **WATER:** Impassable. Requires Surf.
   - **CAVE:** Walkable. Acts as a warp entrance/exit.
   - **OBJECTS:** All NPCs and Objects act as impassable walls.
+  - **FLOOR_UP_WALL:** Impassable from the North (acts as a wall). Likely a ledge facing the other way.
 - **Held Items:** Berries heal automatically. Miracle Seed boosts Grass-type moves.
 - **Escape Ropes:** Return to dungeon entrance.
 - **Trades:** Traded Pokemon need badges.
