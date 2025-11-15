@@ -17,12 +17,7 @@
 - **Trade House:** Violet City (21, 29). Kyle wants Bellsprout for Onix.
 
 ## Sprout Tower Exploration
-- **1F:**
-  - Entrance at South.
-  - Central Ladder (6,4) -> Leads to 2F Main.
-  - West Ladder (2,6) -> Leads to 2F West Balcony (Dead End with Item).
-  - East Ladder (17,3) -> Leads to 2F East (Isolated).
-  - Item Ball at (16,7) was a false alarm/empty.
+- **1F:** Explored.
 - **2F:**
   - **Main Area:** Accessed via 1F Central Ladder (6,4). Contains Sage Nico (Defeated).
   - **West Balcony:** Accessed via 1F West Ladder (2,6). contained X Accuracy.
