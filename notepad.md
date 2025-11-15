@@ -80,19 +80,11 @@
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
 
-# Tool Development Log
-
-## Procedural Changes
-- **Warp Marking:** To prevent future hallucination loops caused by bad data, I will adopt a new two-step process for marking warps. 1. When I discover a new door/warp, I will mark it with a generic emoji like '🚪' and a label like "Unverified Warp". 2. Only *after* I have traveled through the warp and confirmed its destination will I update the marker on both sides with the correct "To <Map Name> (<x>, <y>)" label.
-
-# Olivine City Notes
-- A Fishing Guru in Tim's House (building at 25, 11) wants to trade a KRABBY for his VOLTORB.
-
-</details>
-
-</details>
-- **Pathing Hallucination (CRITICAL):** During turns 37389-37390, I experienced a severe hallucination, believing I had successfully pathed to and arrived at Kyle's House when I was still standing in front of the Pokémon Center with a text box open. This reinforces the absolute necessity of verifying my position from the Game State before every single action and not assuming a path plan has completed successfully.
-- **Warp Hallucination (CRITICAL):** During turn 37428, I experienced a severe hallucination, believing I had warped from Route 36 into the National Park Gatehouse. I was still on Route 36 at my original coordinates. This led to a failed pathfinding attempt based on an entirely false premise. This reinforces the absolute necessity of verifying my map and coordinates from the Game State *after* every warp action, before planning the next move.
+## 8. Journey Log & Puzzle Solutions
+### Procedural Rules & Learnings
+- **Warp Marking:** Mark new warps as 'Unverified'. After use, update both sides with the correct "To <Map Name> (<x>, <y>)" label.
+- **Reality Check:** Always verify my position from the game state before any significant action to prevent hallucination loops.
+- **Immediate Tile Testing:** Upon entering a new area, immediately test and document any unverified tile types.
 
 #
 
