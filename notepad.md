@@ -85,6 +85,7 @@
 - **`stun_npc` Tool:** Freezes an NPC's movement but does not make them traversable.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve by trading.
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
+- **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
 
 ### 7. Tile Mechanics
 ### Impassable
