@@ -172,6 +172,8 @@
 - **Hypothesis 35:** Viewing the map at (3, 1) temporarily changes the Lass NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 36:** Viewing the map at (3, 1) temporarily changes the Twin NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 37:** Pressing 'Up' twice in a row on the trigger tile unlocks the exit. **Result:** Failed. The second press had no effect.
+- **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
+- **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** Failed. Text said 'Can't use that here.'
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
