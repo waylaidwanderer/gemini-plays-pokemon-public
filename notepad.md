@@ -25,6 +25,7 @@
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
 - `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
+- `wait_for_event`: Passes a turn without any game input to test for time-based events.
 
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
