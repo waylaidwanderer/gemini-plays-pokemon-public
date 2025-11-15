@@ -2,8 +2,11 @@
 
 ## Current Objectives
 - **Primary:** Challenge Violet City Gym (Falkner).
-- **Secondary:** Explore Sprout Tower (North of Violet City).
-- **Tertiary:** Catch Bellsprout for Onix Trade.
+- **Secondary:** Buy Poké Balls at Violet City Mart.
+- **Tertiary:** Catch Bellsprout (Route 31) for Onix Trade.
+
+## Completed Objectives
+- **Sprout Tower:** Defeated Elder Sage Li. Obtained HM05 (Flash). Collected Escape Rope.
 
 ## Key Locations & Warps
 - **New Bark Town:** Elm's Lab, Mom's House.
