@@ -59,3 +59,4 @@
 - [ ] Catch Bellsprout.
 - Sage Neal (3F): Defeated.
 - Kimchi learned Ember (Lv12)!
+- Defeated Elder Sage Li (Sprout Tower 3F). Received HM05 (Flash). Requires Zephyr Badge.
