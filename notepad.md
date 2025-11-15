@@ -1,22 +1,27 @@
 # Gem's Brain 🧠
 
-## 1. My Custom Toolkit
-### Agents
+## 1. My Toolkit
+### Custom Agents
 - **`quest_progression_advisor`:** Suggests next logical story step.
 - **`city_exploration_planner`:** Creates efficient exploration routes for new cities.
 - **`world_navigator_agent`:** Suggests new regions to investigate when stuck.
 - **`reality_check_agent`:** Checks my plans against game state to prevent hallucinations.
 - **`puzzle_solver_agent`:** Suggests simple, logical tests for puzzles.
 
-### Tools
+### Custom Tools
 - **`deterministic_battle_strategist`:** Recommends battle actions and moves.
 - **`path_and_execute_v3`:** Finds and executes a path to a target coordinate.
 - **`plan_next_exploration_step`:** Finds the closest unseen tile to explore.
 - **`pokemon_nicknamer`:** Automates nicknaming Pokémon.
+
+### Built-in Tools
+- **`notepad_edit`:** Edits this notepad.
+- **`run_code`:** Executes one-off Python scripts.
+- **`define_agent` / `delete_agent`:** Manages custom agents.
+- **`define_tool` / `delete_tool`:** Manages custom tools.
+- **`define_map_marker` / `delete_map_marker`:** Manages map markers.
 - **`select_battle_option`:** Selects main battle menu options.
 - **`stun_npc`:** Freezes/unfreezes NPC movement.
-- **`define_tool`:** Creates new reusable tools.
-- **`delete_tool`:** Deletes custom tools.
 
 ### Tool Development Ideas
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
