@@ -67,6 +67,7 @@
 - **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH); WHIRLPOOL tiles are impassable.
 - **Route 42:** Path to Mahogany Town blocked by water (needs SURF).
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
+- **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 
 ## 5. Untested Assumptions
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
