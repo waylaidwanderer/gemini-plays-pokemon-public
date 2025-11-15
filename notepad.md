@@ -139,12 +139,7 @@
 - **Discovery:** Pressing 'Up' while on tile (3, 1) and facing the Town Map at (3, 0) is a trigger. It changes the background screen to a map of the Whirl Islands. Any subsequent directional input cancels this view and moves the player.
 - **Failed Hypotheses Log (Summary):**
   - **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
-- **Hypothesis 11:** Exit is a secret switch in the Radio. **Result:** Failed. Flavor text only.
-- **Hypothesis 12:** Using the ITEMFINDER reveals a hidden exit. **Result:** Failed. No response.
-- **Hypothesis 13:** Using an HM move (FLASH) reveals the exit. **Result:** Failed. No Pokémon could learn the move.
-- **Hypothesis 14:** Pressing 'B' on the warp tile triggers the exit. **Result:** Failed. No effect.
-- **Hypothesis 15:** Using the BICYCLE indoors triggers the exit. **Result:** Failed. Action is not allowed.
-- **Hypothesis 16:** Blocking the Lass NPC's path triggers the exit. **Result:** Failed. Her path was altered, but no exit was revealed.
+  - **(H11-H16):** Testing items (ITEMFINDER), HMs (FLASH), specific button presses ('B' on warp), and NPC interactions.
 - **Hypothesis 17:** Interacting with the Lass while her path is blocked triggers the exit. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 18:** Selecting 'EXIT' from the main menu triggers the exit. **Result:** Failed. It only closed the menu.
 - **Hypothesis 19:** Changing the lead Pokémon unlocks the exit. **Result:** Failed. No change.
