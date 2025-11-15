@@ -46,6 +46,9 @@
   - **LADDER:** Warp.
   - **PIT/VOID:** Impassable.
   - **OBJECTS:** Impassable (NPCs, Signs, Statues).
+  - **COUNTER:** Impassable. Interact with NPCs behind it by facing the counter and pressing A.
+  - **PC:** Impassable. Interact by standing below and facing UP.
+  - **WARP_CARPET_DOWN:** Warp. Exit tile.
 
 ## Area and Navigation Insights
 - **Route 31 Tile Mechanics:**
