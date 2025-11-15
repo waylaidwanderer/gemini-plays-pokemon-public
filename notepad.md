@@ -12,34 +12,31 @@
 - **Route 30:** Mr. Pokemon's House.
 - **Trade House:** Violet City (21, 29). Kyle wants Bellsprout for Onix.
 
-## Mechanics & Lore
+## Game Mechanics & Systems
 - **Held Items:** Berries heal automatically in battle (Academy Note).
 - **Trades:** Traded Pokemon need badges to obey.
-- **Tiles:**
-  - **Traversable:** FLOOR, WARP_CARPET, TALL_GRASS, DOOR.
-  - **Blocked:** WALL, VOID, WATER, HEADBUTT_TREE, CUT_TREE, DECORATIONS, OBJECTS.
-  - **Special:** LEDGE (One-way jump), BERRY_TREE.
+- **Tile Mechanics (Verified):**
+  - **FLOOR:** Walkable.
+  - **WALL:** Impassable.
+  - **LADDER:** Transport between floors.
+  - **WARP_CARPET_DOWN:** Exit to exterior.
+  - **TALL_GRASS:** Encounters.
+  - **LEDGE:** One-way jump.
 
 ## Trainer Log
 - **Rival:** Silver (Totodile).
 - **R30:** Joey, Mikey, Don.
+- **Sprout Tower:** Sage Chow (Bellsprout x2).
+
+## Observed Movesets
+- **Bellsprout:** Vine Whip.
 
 ## Todo / Reminders
 - [ ] Investigate Sprout Tower.
 - [ ] Catch Bellsprout in grass north of Violet City.
 - [ ] Trade for Onix (strong against Flying).
+
 ## Sprout Tower Notes
 - Item Ball at (16, 7) on 1F is walled off. Likely need to access from 2F.
 - 2F is split by a wall at x=4. West side (Item, Ladder) is unreachable from East side (Entrance).
 - Sprout Tower 1F: Central wall splits East/West. Must cross via Row 1 (North) to reach West side ladder.
-## Observed Movesets
-- **Bellsprout:** Vine Whip.
-
-## Tile Mechanics (SproutTower1F)
-- **FLOOR:** Standard walkable tile.
-- **WALL:** Impassable.
-- **LADDER:** Transport between floors.
-- **WARP_CARPET_DOWN:** Exit to exterior.
-
-## Trainer Updates
-- **Sage Chow:** Bellsprout x2.
