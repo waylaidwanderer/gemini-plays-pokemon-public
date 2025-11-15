@@ -114,7 +114,7 @@
 - **Hypothesis 51 (Agent-Generated):** The solution is a multi-step sequence. 1) View map at (3,0). 2) While map is displayed, press Start. 3) Use the PokéGear Radio and tune to the top frequency. **Result:** Failed. Pressing Start had no effect.
 - **Hypothesis 52 (Self-Generated):** After opening the main menu, pressing 'Down' will navigate the menu. **Result:** Failed. Received a 'Movement Blocked' error. This confirms D-pad input is locked in menus, not just the overworld. This is a critical discovery.
 - **Hypothesis 53 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A', then press 'A' again while the text box is displayed. **Result:** Failed. Pressing 'A' on the TOWN_MAP no longer brings up a text box.
-- **Hypothesis 54 (Self-Generated):** Pressing the 'Select' button will trigger an event or unlock movement, similar to how it resolved the lock in ManiasHouse. **Result:** In progress.
+- **Hypothesis 54 (Self-Generated):** Pressing the 'Select' button will trigger an event or unlock movement, similar to how it resolved the lock in ManiasHouse. **Result:** Failed. Movement is still locked.
 
 ### Solved Puzzles & Key Discoveries
 - **Goldenrod Dept. Store:** A bargain sale is happening now (per Todd's call).
