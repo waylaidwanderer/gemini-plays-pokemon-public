@@ -136,3 +136,4 @@
 - **Hypothesis 49 (Self-Generated):** The solution is a multi-step sequence. 1) View map. 2) Press Start. 3) Use an option from the menu, such as the PokéGear Phone. **Result:** In progress.
 - **Hypothesis 50 (Agent-Generated):** Using the ITEMFINDER will reveal a hidden object or switch. **Result:** Failed. The game responded 'Nope! ITEMFINDER isn't responding.'
 - **Hypothesis 51 (Agent-Generated):** The solution is a multi-step sequence. 1) View map at (3,0). 2) While map is displayed, press Start. 3) Use the PokéGear Radio and tune to the top frequency. **Result:** In progress.
+- **Hypothesis 52 (Self-Generated):** After opening the main menu, pressing 'Down' will navigate the menu. **Result:** Failed. Received a 'Movement Blocked' error. This confirms D-pad input is locked in menus, not just the overworld. This is a critical discovery.
