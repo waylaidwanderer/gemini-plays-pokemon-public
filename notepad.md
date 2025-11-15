@@ -64,6 +64,5 @@
 - Violet City Mart: Poké Ball (¥200), Potion (¥300), Escape Rope (¥550), Antidote (¥100)
 
 ## Todo / Reminders
-- [x] Trade Bellsprout for Onix (Violet City House).
-- **ROCKY (Onix):** Obtained via trade. Lv5. Holding Bitter Berry.
+- **ROCKY (Onix):** Obtained via trade in Violet City. Lv5. Holding Bitter Berry.
 - Gym Advice: Falkner uses Flying types. Weak to Rock/Electric.
