@@ -64,3 +64,6 @@
 - Sage Neal (3F): Defeated.
 - Kimchi learned Ember (Lv12)!
 - Defeated Elder Sage Li (Sprout Tower 3F). Received HM05 (Flash). Requires Zephyr Badge.
+
+### Mechanics Notes
+- **Escape Ropes in Sprout Tower:** Observed to return the player to the tower entrance (23, 6), NOT the last visited Pokémon Center.
