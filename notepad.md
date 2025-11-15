@@ -93,18 +93,6 @@
 - **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
 - **Route 30 Ledge:** Confirmed one-way (down only).
 
-### Key Discoveries & Solved Puzzles
-- **Goldenrod Dept. Store:** A bargain sale is happening now (per Todd's call).
-- **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
-- **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
-- **Route 36 Sudowoodo Puzzle:** Solved by moving to the adjacent left tile (34, 9) and facing the tree.
-- **Moomoo Farm:** The sick Miltank requires a specific item named 'BERRY'. Other named berries do not work.
-- **Olivine Good Rod House:** Trapped inside. Solved by opening the menu with 'Start' and pressing 'Down' to trigger the exit warp.
-- **Olivine Lighthouse 1F Dead-End:** Trapped after falling through a pit. Solved by using the move DIG to escape.
-
-# Cianwood Pharmacy Log
-- Tile Testing Complete: Confirmed BOOKSHELF, TV, TOWN_MAP, RADIO, and WINDOW are all impassable.
-
 ## 5. Agent/Tool Development Ideas (New)
 - **`phone_call_summarizer` Agent:** Parses phone call dialogue to extract key information (rematches, items) and suggest notepad updates.
 
