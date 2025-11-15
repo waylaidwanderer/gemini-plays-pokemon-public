@@ -65,44 +65,20 @@
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve by trading.
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
 
-## 4. Tile Mechanics
-### Impassable Tiles
-- **BOOKSHELF:** (Confirmed in Cianwood Pharmacy).
-- **BUOY:** (Confirmed by attempting to surf into it on Route 40).
-- **COUNTER:** Impassable, but allows interaction with objects/NPCs on the other side from an adjacent tile. (Confirmed in Olivine Cafe).
-- **CUT_TREE:** Can be removed using the move CUT. (Confirmed on Route 35).
-- **HEADBUTT_TREE:** Can be interacted with using HEADBUTT.
-- **MART_SHELF:**
-- **PC:** Interactable from an adjacent tile.
-- **PILLAR:**
-- **RADIO:** (Confirmed in Cianwood Pharmacy).
-- **ROCK:** Can be removed using the move STRENGTH. (Confirmed in Cianwood City).
-- **TOWN_MAP:** (Confirmed in Cianwood Pharmacy).
-- **TV:** (Confirmed in Cianwood Pharmacy).
-- **VOID:**
-- **WALL:** (Confirmed in Azalea Gym).
-- **WHIRLPOOL:**
-- **WINDOW:** (Confirmed in Cianwood Pharmacy).
-
-### Traversable Tiles
-- **FLOOR:**
-- **GRASS:** Visually appears as grass, but map data may list as 'FLOOR'.
-- **TALL_GRASS:** Triggers wild encounters.
-
+### 7. Tile Mechanics
+### Impassable
+- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TOWN_MAP, TV, VOID, WALL, WHIRLPOOL, WINDOW
+### Traversable
+- FLOOR, GRASS, TALL_GRASS (wild encounters)
 ### Warp Tiles
-- **DOOR:** Two-way warp.
-- **LADDER:** Two-way warp.
-- **PIT:** One-way warp, activated by moving onto it.
-- **STAIRCASE:** Two-way warp.
-- **WARP_CARPET_DOWN:** One-way warp, activated by moving down onto it. (Confirmed in Union Cave 1F).
-- **WARP_CARPET_RIGHT:** One-way warp, activated by pressing right onto it.
-
-### Conditional/One-Way Tiles
-- **FLOOR_UP_WALL:** One-way ledge. Can only be traversed by moving UP onto it from below. IMPASSABLE when moving DOWN onto it from above.
-- **LEDGE_HOP_DOWN:** One-way tile (can only be entered from above).
-- **LEDGE_HOP_LEFT:** One-way tile (can only be entered from the right).
-- **LEDGE_HOP_RIGHT:** One-way tile (can only be entered from the left).
-- **WATER:** Impassable without SURF.
+- DOOR, LADDER, STAIRCASE (two-way)
+- PIT, WARP_CARPET_DOWN, WARP_CARPET_RIGHT (one-way)
+### Conditional & One-Way
+- FLOOR_UP_WALL (ledge, up only)
+- LEDGE_HOP_DOWN (down only)
+- LEDGE_HOP_LEFT (left only)
+- LEDGE_HOP_RIGHT (right only)
+- WATER (impassable without SURF)
 
 # Tool Development Log
 
