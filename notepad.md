@@ -52,5 +52,7 @@
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
 
 ## Todo / Reminders
-- [ ] Explore South section of Sprout Tower 2F.
+- [x] Explore South section of Sprout Tower 2F.
+- [ ] Defeat Sage Jin.
+- [ ] Reach the top of Sprout Tower.
 - [ ] Catch Bellsprout.
