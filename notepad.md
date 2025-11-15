@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Journey to Azalea Town.
-- **Secondary:** Exit Violet City Gym & Await Elm's Call.
+- **Secondary:** Meet Elm's Aide at Violet City Pokémon Center.
 - **Tertiary:** Train Rocky (Onix).
 
 ## Completed Objectives
