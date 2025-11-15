@@ -32,6 +32,7 @@
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
 - **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
 - **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
+- **`unified_navigation_agent`**: Consolidate `quest_progression_advisor` and `world_navigator_agent` into a single, more robust agent to reduce redundancy and improve suggestions for where to go next (per Overwatch critique).
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
@@ -169,7 +170,7 @@
 - **Hypothesis 33:** The exit is time-based and requires waiting one turn after viewing the map. **Result:** Failed. No event occurred.
 - **Hypothesis 34:** Viewing the map at (3, 1) temporarily changes the Teacher NPC's dialogue. **Result:** Failed. Dialogue was identical.
 - **Hypothesis 35:** Viewing the map at (3, 1) temporarily changes the Lass NPC's dialogue. **Result:** Failed. Dialogue was identical.
-- **Hypothesis 36:** Viewing the map at (3, 1) temporarily changes the Twin NPC's dialogue. **Status:** In Progress. Baseline dialogue established.
+- **Hypothesis 36:** Viewing the map at (3, 1) temporarily changes the Twin NPC's dialogue. **Result:** Failed. Dialogue was identical.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
