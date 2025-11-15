@@ -1,32 +1,38 @@
-# Adventure Log: Johto Journey
+# Gem's Adventure Log
 
-## Current Objectives
-- **Primary:** Begin the Gym Challenge! First stop: Violet City.
-- **Secondary:** Reach Violet City.
-- **Urgent:** Heal team at Pokémon Center.
+## Status
+- **Location:** Violet City Pokémon Center
+- **Badges:** 0
+- **Pokedex:** 4
 
-## Game Mechanics
-### Tile Mechanics
-- **Traversable**: FLOOR, WARP_CARPET_DOWN, TALL_GRASS, DOOR.
-- **Impassable**: WALL, VOID, WATER, HEADBUTT_TREE, CUT_TREE, DECORATIONS.
-- **Interactable (Blocked)**: COUNTER, PC.
-- **Ledges**: One-way (DOWN, LEFT, RIGHT).
+## Current Quest: The Gym Challenge
+- **Primary Goal:** Challenge Falkner in Violet City.
+- **Immediate Goal:** Heal at Pokémon Center.
 
-## Story Highlights
-- **New Bark Town:** 
-  - Prof. Elm gave me Kimchi (Cyndaquil).
-  - Tasked to visit Mr. Pokémon.
-- **Route 30:** 
-  - Met Mr. Pokémon & Prof. Oak. Received Mystery Egg & Pokédex.
-- **Theft Investigation:**
-  - Defeated Rival (Silver) in Cherrygrove. He stole a Totodile.
-  - Delivered Mystery Egg to Elm. He suggested the Gym Challenge.
-  - Received 5 Poké Balls from Aide. Catching unlocked!
-### Interactive Objects
-- **BERRY_TREE**: Object. Acts as a solid obstacle. Interact (A) to harvest.
+## Important Locations & Events
+- **New Bark Town:** Home, Prof. Elm's Lab.
+- **Route 30:** Mr. Pokémon (Mystery Egg delivered), Red Gyarados discussion with Oak.
+- **Cherrygrove City:** Map Card obtained.
+- **Violet City:** Current location. Contains Gym and Sprout Tower.
 
-## Battle and Pokemon Information
-### Pokémon Locations
-- **Route 29**: Pidgey, Sentret, Rattata
-- **Route 30**: Pidgey, Caterpie
-- **Route 31**: Found a gap in the southern ledges at (9, 9) allowing access to the main path. Youngster spotted at (9, 6).
+## Mechanics & Observations
+### Tiles
+- **Walkable:** FLOOR, WARP_CARPET_DOWN, TALL_GRASS, DOOR.
+- **Blocked:** WALL, VOID, WATER, HEADBUTT_TREE, CUT_TREE, DECORATIONS, OBJECTS (NPCs, Signs).
+- **Special:** LEDGE (One-way), BERRY_TREE (Interactable).
+- **Warps:** WARP_CARPET requires stepping INTO the edge.
+
+### Battle
+- **Wild Pokemon:**
+  - R29: Pidgey, Sentret, Rattata
+  - R30: Pidgey, Caterpie
+  - R31: Bellsprout, Geodude (Dark Cave?), Poliwag (Fishing?)
+
+## Trainers Defeated
+- Rival (Silver) - Totodile
+- R30: Youngster Joey, Youngster Mikey, Bug Catcher Don
+
+## Reminders
+- Mark all warps upon entry/exit.
+- Talk to everyone.
+- Investigate the 'School' and Sprout Tower in Violet City.
