@@ -163,10 +163,11 @@
 - **Hypothesis 20:** Using the SQUIRTBOTTLE on the warp tile. **Result:** Failed. Text said 'But nothing happened…'
 - **Hypothesis 21:** Tuning the radio via the PokéGear interface. **Result:** Failed. No button combination worked to change the station.
 - **Hypothesis 22:** Interacting with the physical radio while the PokéGear radio was active. **Result:** Failed. Played standard broadcast.
+- **Hypothesis 23:** Interacting with the Town Map is a secret switch. **Result:** Failed. Flavor text only.
 
 ### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Hypotheses)
-- **Hypothesis 23:** Stand on a warp tile AND select 'EXIT' from the main menu.
-- **Hypothesis 24:** Use an HM move (STRENGTH) inside the house.
+- **Hypothesis 24:** Stand on a warp tile AND select 'EXIT' from the main menu.
+- **Hypothesis 25:** Use an HM move (STRENGTH) inside the house.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
