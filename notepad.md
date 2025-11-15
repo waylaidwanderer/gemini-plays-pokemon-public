@@ -88,3 +88,4 @@
   - No puzzle panels found here yet.
 - **Tile Mechanics:**
   - **LADDER:** Warp tile.
+- **FLOOR_UP_WALL:** Impassable from the North. Likely acts as a wall facing 'up'.
