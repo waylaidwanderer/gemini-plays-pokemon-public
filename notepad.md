@@ -162,6 +162,7 @@
 - **Hypothesis 27:** Pressing 'A' on the Town Map after triggering the map view will cause an interaction. **Result:** Failed. No effect.
 - **Hypothesis 28:** Pressing 'B' on tile (3, 1) unlocks the exit. **Result:** Failed. Triggered a phone call, but movement remains locked.
 - **Hypothesis 29:** The Whirl Islands map is an interactive screen, and using the D-Pad will navigate it. **Result:** Failed. Pressing 'Down' moved the player character instead of interacting with the map.
+- **Hypothesis 30:** Viewing the map at (3, 1) temporarily activates the warp tiles. **Result:** Failed. Walked onto warp tile (2, 7) immediately after viewing map, but no warp occurred.
 
 ## 9. Lessons from Overwatch Critiques
 - **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
