@@ -12,31 +12,39 @@
 - **Route 30:** Mr. Pokemon's House.
 - **Trade House:** Violet City (21, 29). Kyle wants Bellsprout for Onix.
 
+## Sprout Tower Exploration
+- **1F:**
+  - Entrance at South.
+  - Central Ladder (6,4) -> Leads to 2F Main.
+  - West Ladder (2,6) -> Leads to 2F West Balcony (Dead End with Item).
+  - East Ladder (17,3) -> Leads to 2F East (Isolated).
+  - Item Ball at (16,7) was a false alarm/empty.
+- **2F:**
+  - **Main Area:** Accessed via 1F Central Ladder (6,4). Contains Sage Nico (Defeated).
+  - **West Balcony:** Accessed via 1F West Ladder (2,6). contained X Accuracy.
+  - **East Area:** Accessed via 1F East Ladder (17,3).
+  - **Navigation:** To cross from East to Main on 2F, go via Row 2 (13,2 -> 11,2) to bypass Sage Nico.
+
 ## Game Mechanics & Systems
-- **Held Items:** Berries heal automatically in battle (Academy Note).
+- **Held Items:** Berries heal automatically in battle.
 - **Trades:** Traded Pokemon need badges to obey.
-- **Tile Mechanics (Verified):**
-  - **FLOOR:** Walkable.
-  - **WALL:** Impassable.
-  - **LADDER:** Transport between floors.
-  - **WARP_CARPET_DOWN:** Exit to exterior.
-  - **TALL_GRASS:** Encounters.
-  - **LEDGE:** One-way jump.
+- **Tile Mechanics (Sprout Tower):**
+  - **FLOOR:** Walkable standard terrain.
+  - **WALL:** Impassable obstacle.
+  - **LADDER:** Warp tile connecting floors.
+  - **PIT/VOID:** Impassable (Black tiles around map).
+  - **OBJECTS (NPCs/Items):** Impassable. Must navigate around.
 
 ## Trainer Log
 - **Rival:** Silver (Totodile).
 - **R30:** Joey, Mikey, Don.
-- **Sprout Tower:** Sage Chow (Bellsprout x2).
+- **Sprout Tower:**
+  - **Sage Chow:** Bellsprout (Lv3), Bellsprout (Lv3). Defeated.
+  - **Sage Nico:** Bellsprout (Lv3) x2? Defeated.
 
-## Observed Movesets
-- **Bellsprout:** Vine Whip.
+## Pokemon Data
+- **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
 
 ## Todo / Reminders
-- [ ] Investigate Sprout Tower.
-- [ ] Catch Bellsprout in grass north of Violet City.
-- [ ] Trade for Onix (strong against Flying).
-
-## Sprout Tower Notes
-- Item Ball at (16, 7) on 1F is walled off. Likely need to access from 2F.
-- 2F is split by a wall at x=4. West side (Item, Ladder) is unreachable from East side (Entrance).
-- Sprout Tower 1F: Central wall splits East/West. Must cross via Row 1 (North) to reach West side ladder.
+- [ ] Explore South section of Sprout Tower 2F.
+- [ ] Catch Bellsprout.
