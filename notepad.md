@@ -31,3 +31,4 @@
 - Mark all warps.
 - Talk to everyone.
 - Investigate Sprout Tower.
+- Gameboy Kid: Mentions Bill made the Pokémon PC storage system.
