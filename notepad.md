@@ -41,6 +41,7 @@
 - **Sprout Tower:**
   - **Sage Chow:** Bellsprout (Lv3), Bellsprout (Lv3). Defeated.
   - **Sage Nico:** Bellsprout (Lv3) x2? Defeated.
+  - **Sage Edmond:** Bellsprout (Lv3), Bellsprout (Lv?).
 
 ## Pokemon Data
 - **Bellsprout:** Grass/Poison. Moves: Vine Whip. Weak to Fire, Flying.
