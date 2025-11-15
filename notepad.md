@@ -133,14 +133,6 @@
 - **Rival's Dialogue (Route 41):** "It was a dark and stormy night… I saw this giant POKéMON flying from the islands. It was scattering feathers from its silver wings."
 - **Cianwood City Suicune Event:** Approached Suicune at (10, 14), causing it to flee. Eusine appeared and challenged me to a battle. Defeated Mysticalman Eusine and his Drowzee, Electrode, and Haunter.
 - **Whirl Islands Mythical Pokémon:** Requires a 'SILVER WING' to encounter, according to NPCs in Cianwood City.
-*(This puzzle log is deprecated and has been superseded by the clean summary below.)*
-- **Hypothesis 38 (Agent Suggestion):** Press and hold 'Up' on the trigger tile. **Result:** Untestable. The system does not support a 'hold' input.
-- **Hypothesis 39:** Using the HM move FLY from the party menu will trigger an exit. **Result:** In progress.
-- **Hypothesis 43 (Agent Suggestion):** Viewing the map at (3, 1) arms a puzzle that is solved by a clockwise directional input. Test sequence: Up (trigger), Right, Down, Left. **Result:** Failed. The sequence of movements did not unlock the exit.
-- **Hypothesis 44 (Agent Suggestion):** After viewing the map from (3, 1), pressing 'B' will unlock the exit. **Result:** Failed. Pressing 'B' simply closed the map view, same as a directional input.
-- **Hypothesis 45 (Agent Suggestion):** Manually scan all radio frequencies using the PokéGear to find a hidden broadcast that unlocks the exit. **Result:** In progress.
-- **Hypothesis 46 (Agent Suggestion):** Use the move 'Dig' to escape the house. **Result:** Failed. Text said 'Can't use that here.'
-  - **(H22-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
 
 ### CianwoodLugiaSpeechHouse Puzzle Log (Cleaned Summary)
 - **(H1-H10):** Standard warp interaction, simple menu/object interactions, and re-talking to all NPCs.
