@@ -110,6 +110,11 @@
 - **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt causes a game-breaking crash, resetting to the title screen. AVOID THIS INTERACTION.
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
 - **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
-- **Olivine Lighthouse Descent Puzzle:**
-  - **Attempt 1:** Took ladder at 4F (9, 5) to 3F (West). **Result:** Confirmed dead end for descent. Path leads back up.
-  - **Attempt 2:** Took pit at 4F (8, 3) to 3F (Central). **Result:** Confirmed dead end for descent. Path leads back up.
+### Olivine Lighthouse Descent Puzzle
+- **Objective:** Find path from 6F down to 1F.
+- **Current Location:** Stuck on 4F/5F loop.
+- **Tested Descent Paths from 4F (West Section):**
+  - **Path 1 (via 5F):** Taking ladder at 4F (9, 7) to 5F leads back up to 6F or to another ladder at 5F (9, 7) which returns to 4F. This is a loop.
+  - **Path 2 (Pit):** Taking pit at 4F (8, 3) leads to an isolated room on 3F (Central). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
+  - **Path 3 (Pit):** Taking pit at 4F (9, 3) leads to an isolated room on 3F (Central/East). Only exit is a ladder back up to 4F. Confirmed dead end for descent.
+- **Conclusion:** No viable descent path has been found from the western section of 4F. The solution must involve reaching the eastern section of the lighthouse, which is currently inaccessible.
