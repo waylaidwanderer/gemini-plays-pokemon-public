@@ -117,24 +117,3 @@
 
 ## Moomoo Farm Quest Mechanics
 - The sick Miltank requires a specific item named 'BERRY'. Other named berries like 'BITTER BERRY' or 'MINT BERRY' do not work for this quest. (Confirmed in Moomoo Farm Barn)
-
-# Self-Assessment Action Items (Turn 42181)
-- **Task:** Test unverified tile types (MART_SHELF, PILLAR) at the next opportunity (e.g., in the Olivine Mart) to confirm their traversability.
-
-# Olivine Good Rod House Puzzle (Solved)
-- **Problem:** Trapped in the house. The 'WARP_CARPET_DOWN' at the exit did not activate through any standard movement (from above, side) or interaction ('A', 'B', 'Select').
-- **Hypothesis (Falsified):** Re-interacting with the Fishing Guru would unlock the exit.
-- **Solution:** Opening the main menu with 'Start' and then pressing 'Down' on the D-pad triggered the exit warp. This confirms the existence of non-obvious, menu-based puzzle solutions.
-
-# Olivine Lighthouse 2F Puzzle
-- The warp tile at (17, 11) does not activate when stepped on from the left or from below. Its function is currently unknown.
-
-- **VOID:**
-
-# Olivine Lighthouse 1F Dead-End Puzzle (Solved)
-- **Problem:** Trapped in a room after falling through a pit. All simple interactions (menu tricks, talking to NPC, stepping on warps) failed.
-- **Hypothesis (Confirmed):** The move DIG can be used as an escape rope to exit certain indoor areas.
-- **Solution:** Taught TM28 DIG to a Pokémon and used the move from the party menu to warp back to the entrance of the map (Olivine City).
-
-# Glitch World Escape Log
-- **CRITICAL BUG (GAME-BREAKING):** Using DIG in the Olivine Lighthouse 1F dead-end room (accessed by falling through a pit) teleports the player to a glitch map (ID 18_247) and corrupts all player data (Pokémon, inventory, money). This is a potential soft-lock. Hypothesis for escape: Use FLY.
