@@ -71,6 +71,7 @@
 - **Route 42:** Path to Mahogany Town blocked by water (needs SURF).
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
+- **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
 
 ## 5. Untested Assumptions
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
