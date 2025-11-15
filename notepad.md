@@ -49,7 +49,6 @@
 ## 3. Main Quest & Active Leads
 - **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
 - **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. The Sage in the Tin Tower has asked me not to enter.
-- **Sudowoodo Tree (Route 36):** The path is blocked by a strange tree. I have the SQUIRTBOTTLE. The puzzle may need to be solved again.
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
 - **Moomoo Farm:** The Miltank is sick and requires a specific item named 'BERRY'. Other named berries do not work.
 
@@ -106,17 +105,8 @@
 - WARP_CARPET_DOWN (one-way)
 
 ## 8. Journey Log & Puzzle Solutions
-### Active Puzzle: CianwoodLugiaSpeechHouse Escape
-- **Objective:** Exit the house. Player is trapped with movement locked.
-- **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** Failed. No event occurred.
-- **Hypothesis 49 (Self-Generated):** The solution is a multi-step sequence. 1) View map. 2) Press Start. 3) Use an option from the menu, such as the PokéGear Phone. **Result:** Failed.
-- **Hypothesis 50 (Agent-Generated):** Using the ITEMFINDER will reveal a hidden object or switch. **Result:** Failed. The game responded 'Nope! ITEMFINDER isn't responding.'
-- **Hypothesis 51 (Agent-Generated):** The solution is a multi-step sequence. 1) View map at (3,0). 2) While map is displayed, press Start. 3) Use the PokéGear Radio and tune to the top frequency. **Result:** Failed. Pressing Start had no effect.
-- **Hypothesis 52 (Self-Generated):** After opening the main menu, pressing 'Down' will navigate the menu. **Result:** Failed. Received a 'Movement Blocked' error. This confirms D-pad input is locked in menus, not just the overworld. This is a critical discovery.
-- **Hypothesis 53 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A', then press 'A' again while the text box is displayed. **Result:** Failed. Pressing 'A' on the TOWN_MAP no longer brings up a text box.
-- **Hypothesis 54 (Self-Generated):** Pressing the 'Select' button will trigger an event or unlock movement, similar to how it resolved the lock in ManiasHouse. **Result:** Failed. Movement is still locked.
-
 ### Solved Puzzles & Key Discoveries
+- **Sudowoodo Tree (Route 36):** Solved by using the SQUIRTBOTTLE to initiate a battle.
 - **Goldenrod Dept. Store:** A bargain sale is happening now (per Todd's call).
 - **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
 - **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
@@ -125,5 +115,15 @@
 - **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Previously observed that interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt caused a game-breaking crash. A recent test (Turn 43093) resulted in only dialogue. The crash may be conditional. AVOID BATTLE INTERACTION.
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
 - **Olivine Lighthouse Descent Puzzle:** Solved. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
+
+#### CianwoodLugiaSpeechHouse Escape Log
+- **Objective:** Exit the house. Player is trapped with movement locked.
+- **Hypothesis 48 (Self-Generated):** After viewing the map from (3, 1), waiting for one turn without input will trigger an event. **Result:** Failed. No event occurred.
+- **Hypothesis 49 (Self-Generated):** The solution is a multi-step sequence. 1) View map. 2) Press Start. 3) Use an option from the menu, such as the PokéGear Phone. **Result:** Failed.
+- **Hypothesis 50 (Agent-Generated):** Using the ITEMFINDER will reveal a hidden object or switch. **Result:** Failed. The game responded 'Nope! ITEMFINDER isn't responding.'
+- **Hypothesis 51 (Agent-Generated):** The solution is a multi-step sequence. 1) View map at (3,0). 2) While map is displayed, press Start. 3) Use the PokéGear Radio and tune to the top frequency. **Result:** Failed. Pressing Start had no effect.
+- **Hypothesis 52 (Self-Generated):** After opening the main menu, pressing 'Down' will navigate the menu. **Result:** Failed. Received a 'Movement Blocked' error. This confirms D-pad input is locked in menus, not just the overworld. This is a critical discovery.
+- **Hypothesis 53 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A', then press 'A' again while the text box is displayed. **Result:** Failed. Pressing 'A' on the TOWN_MAP no longer brings up a text box.
+- **Hypothesis 54 (Self-Generated):** Pressing the 'Select' button will trigger an event or unlock movement, similar to how it resolved the lock in ManiasHouse. **Result:** Failed. Movement is still locked.
 - **Hypothesis 55 (Agent-Generated):** Interact with the TOWN_MAP at (3, 0) by pressing 'A'. If a text box appears, press 'B' while the text box is displayed. **Result:** Failed. Interacting with the TOWN_MAP did not consistently produce a text box, making the hypothesis untestable.
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
