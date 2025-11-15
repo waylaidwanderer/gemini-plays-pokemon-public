@@ -154,3 +154,4 @@
 - **Hypothesis 44 (Agent Suggestion):** After viewing the map from (3, 1), pressing 'B' will unlock the exit. **Result:** Failed. Pressing 'B' simply closed the map view, same as a directional input.
 - **Hypothesis 45 (Agent Suggestion):** Manually scan all radio frequencies using the PokéGear to find a hidden broadcast that unlocks the exit. **Result:** In progress.
 - **Hypothesis 46 (Agent Suggestion):** Use the move 'Dig' to escape the house. **Result:** Failed. Text said 'Can't use that here.'
+  - **(H22-H46):** Tested advanced map-triggered events, directional sequences, item/HM uses (FLY, DIG), phone calls, and radio scanning, all with no effect.
