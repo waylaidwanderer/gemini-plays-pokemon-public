@@ -157,3 +157,7 @@
 
 ### CianwoodLugiaSpeechHouse Exit Puzzle (Untested Assumptions)
 - The exit is triggered by using an HM move (like FLASH or STRENGTH) inside the house.
+
+## 9. Lessons from Overwatch Critiques
+- **Immediate Maintenance (Turn 43741):** Failed to immediately retry a failed `notepad_edit` `overwrite` action. All data and tool maintenance MUST be done in the same turn a need is identified.
+- **Incomplete Tool List (Turn 43741):** My list of built-in tools is missing `delete_tool` and `select_battle_option`. I must update this.
