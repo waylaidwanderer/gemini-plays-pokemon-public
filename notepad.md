@@ -135,7 +135,7 @@
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 
 ## 12. Tool Ideas
-- **PC Parser Tool (High Priority):** A tool that can parse the screen text from the Pokémon Storage System to extract a list of Pokémon names and levels. This would automate data gathering for the `party_strategist_agent`.
+- **PC Parser Tool (DELETED):** Created as `pokemon_info_extractor`. The tool was fundamentally flawed as PC screen text doesn't uniquely identify the selected Pokémon. Deleted until a reliable data source is found.
 
 ## 13. Post-Reflection Plan (Turn 46773)
 - **New Hypothesis:** Before attempting to win a battle, I must test the 'PROF.OAK's PC' option in the lobby PC. This is an unexplored avenue that could be the key to escaping.
