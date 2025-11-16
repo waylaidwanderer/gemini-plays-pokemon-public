@@ -132,3 +132,12 @@
 
 ## 10. Lessons Learned
 - **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
+
+#### Battle Tower 1F Escape Log (In Progress)
+- **Objective:** Escape the room.
+- **Failed Hypotheses:**
+  - Interacting with the Receptionist ('Challenge' option) triggers a game-breaking glitch.
+  - The PC is not a Pokémon Storage System and cannot be used to change party.
+  - Interacting with the Cooltrainer_F provides only flavor text.
+  - Reading the rules sign and then interacting with the Receptionist causes no change.
+  - Interacting with the Bug Catcher provides only flavor text.
