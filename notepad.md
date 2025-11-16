@@ -25,6 +25,7 @@
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
+- `pc_select_box`: Navigates the 'Change Box' PC menu to a specific box number.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
@@ -143,15 +144,15 @@
 - **`pc_navigator_tool` (High Priority):** A tool that can execute sequences of button presses to navigate the PC menu. This is critical for automating the tedious data gathering process for my stored Pokémon. **Problem:** A simple tool outputting a static button sequence is too brittle. The tool needs to be state-aware, but it can't read the screen between button presses. **Possible Solution:** Create several smaller, specialized tools for discrete tasks (e.g., `tool_open_change_box`, `tool_scroll_to_box_N`, `tool_view_current_box`). This modular approach might be more robust than one monolithic tool.
 
 ## 13. PC Storage (Manual Log)
-- **BOX1:**
-- **BOX2:**
-- **BOX3:**
-- **BOX4:**
-- **BOX5:**
-- **BOX6:**
-- **BOX7:**
-- **BOX8:**
-- **BOX9:**
-- **BOX10:**
-- **BOX11:**
-- **BOX12:**
+- **BOX1:** (Untracked)
+- **BOX2:** (Untracked)
+- **BOX3:** (Untracked)
+- **BOX4:** (Untracked)
+- **BOX5:** (Untracked)
+- **BOX6:** (Untracked)
+- **BOX7:** (Untracked)
+- **BOX8:** (Untracked)
+- **BOX9:** (Untracked)
+- **BOX10:** Empty (Confirmed Turn 46904)
+- **BOX11:** Empty (Confirmed Turn 46910)
+- **BOX12:** Empty (Confirmed Turn 46920)
