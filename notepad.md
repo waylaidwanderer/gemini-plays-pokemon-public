@@ -123,3 +123,6 @@
 - **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
 - **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
 - **Battle Tower Loss Mechanic:** Losing a battle in the Battle Tower results in the player being returned to the lobby with their entire party fully healed. This is not a trap, but a reset mechanism.
+
+## 9. High-Priority Tasks
+- **PC Automation:** Create `withdraw_pokemon_tool` and `deposit_pokemon_tool`. These should take a Pokémon's name as input and generate the button presses to perform the action. This will prevent manual menu errors and improve efficiency, addressing a key overwatch critique.
