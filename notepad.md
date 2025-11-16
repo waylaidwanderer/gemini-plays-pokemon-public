@@ -129,4 +129,5 @@
     - **Movement:** All simple movement patterns onto and across the warp tiles at (7,9) and (8,9) have failed (vertical entry, lateral entry, continuous movement).
     - **Interaction:** Interacting with all visible objects (NPCs, PC, Sign) has yielded no results. Systematically pressing 'A' on both warp tiles while facing all four cardinal directions has also failed.
     - **Battle Challenge:** Attempting to save the game to start the battle challenge triggers a repeatable, game-breaking glitch that corrupts player data. This path is a confirmed dead end and must be avoided. The only known way to escape the glitched state is to press 'B' to exit the level select menu, then select 'YES' to cancel the challenge.
-- **Current Hypothesis:** Use the ITEMFINDER to search for a hidden item/switch, starting near the warp tiles.
+- **Hypothesis (Failed):** Use the ITEMFINDER to search for a hidden item/switch. Result: The ITEMFINDER did not respond, indicating no hidden items are present.
+- **Current Hypothesis:** The moving COOLTRAINER_F NPC is the key to escaping. I will try interacting with her.
