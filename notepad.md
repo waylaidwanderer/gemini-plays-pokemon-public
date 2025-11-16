@@ -18,6 +18,7 @@
 - `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
 - `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
 - `navigation_strategist`: A unified navigation advisor.
+- `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
 
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
