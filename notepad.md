@@ -129,3 +129,6 @@
 - **Data Management Lapses:** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
 - **New Tool Idea:** `navigate_pc_menu` tool to automate navigating complex PC menus.
 - **New Battle Tower Hypothesis (Failed):** Interacting with the Cooltrainer_F at (5, 9) on BattleTower1F yielded only flavor text and is not an escape route.
+
+## 10. Lessons Learned
+- **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
