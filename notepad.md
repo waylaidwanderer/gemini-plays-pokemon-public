@@ -139,3 +139,4 @@
 - Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing left will trigger the warp. Result: Failed. No event occurred.
 - Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing right will trigger the warp. Result: Failed. No event occurred.
 - Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing up will trigger the warp. Result: Failed. No event occurred.
+- **BATTLE TOWER SAVE GLITCH (CRITICAL):** Attempting to save the game to start the Battle Tower challenge triggers a game-breaking glitch that corrupts player data (empties party, fills inventory with TMs, warps to glitched map). This path is a confirmed dead end and must be avoided. The only known way to escape the glitched state is to press 'B' to exit the level select menu, then select 'YES' to cancel the challenge.
