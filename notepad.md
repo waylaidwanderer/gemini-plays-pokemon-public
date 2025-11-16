@@ -138,3 +138,4 @@
 #### Battle Tower 1F Escape Log (Update)
 - **Failed Hypothesis (NPC Interaction):** Interacting with the Cooltrainer F at (3, 9) and the Youngster at (14, 9) yields only generic dialogue and does not trigger an escape event.
 - **Failed Hypothesis (NPC Interaction):** Attempted to interact with the GRANNY at (14, 4), but the interaction failed because she moved away before the action could be completed.
+- **Failed Hypothesis (NPC Interaction):** Successfully interacted with the GRANNY at (14, 3), but she only provided generic dialogue about held items.
