@@ -106,3 +106,10 @@
 - Entered via Route 32 (West).
 - Warps: Exit to Route 32 at (17, 3).
 - Found X Attack at (4, 2).
+
+## Area and Navigation Insights
+- **Tile Mechanics:**
+  - **FLOOR:** Walkable terrain.
+  - **WALL:** Impassable obstacle.
+  - **WATER:** Impassable. Requires Surf.
+  - **WARP_CARPET_DOWN:** Exit warp.
