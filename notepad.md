@@ -126,16 +126,6 @@
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
 
-#### Battle Tower 1F Escape Log
-- **Objective:** Exit the room. The exit door at (7, 0) is blocked by the Receptionist. The exit warps at (7, 9) and (8, 9) are inactive.
-- **Summary of Failed Hypotheses:**
-    - **Movement:** All simple movement patterns onto and across the warp tiles at (7,9) and (8,9) have failed (vertical entry, lateral entry, continuous movement).
-    - **Interaction:** Interacting with all visible objects (NPCs, PC, Sign) has yielded no results. Systematically pressing 'A' on both warp tiles while facing all four cardinal directions has also failed. All dialogue options with the Receptionist have been explored.
-    - **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge, regardless of party composition, causes a catastrophic, game-breaking glitch that **completely corrupts all player data**, including name, money, Pokedex, party, and inventory. This action permanently destroys the save file. **THIS PATH MUST BE AVOIDED AT ALL COSTS.** The only way to escape the initial menu loop without saving is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
-    - **Item-based:** Using the ITEMFINDER yielded no results. Equipping all three party members with different held items did not change the outcome of interacting with the Receptionist.
-    - **Sequential:** Interacting with the Cooltrainer F and then immediately walking onto the warp tile at (7,9) failed.
-- **Current Hypothesis:** The battle challenge is glitching because my party's levels (12, 48, 20) are invalid for any of the challenge brackets. The intended solution is to assemble a team of three Pokémon at or below level 10 to successfully enter the L:10 challenge.
-#### Battle Tower 1F Escape Log (Update)
-- **Failed Hypothesis (NPC Interaction):** Interacting with the Cooltrainer F at (3, 9) and the Youngster at (14, 9) yields only generic dialogue and does not trigger an escape event.
-- **Failed Hypothesis (NPC Interaction):** Attempted to interact with the GRANNY at (14, 4), but the interaction failed because she moved away before the action could be completed.
-- **Failed Hypothesis (NPC Interaction):** Successfully interacted with the GRANNY at (14, 3), but she only provided generic dialogue about held items.
+#### Battle Tower 1F Escape Puzzle (SOLVED)
+- **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
+- **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
