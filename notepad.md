@@ -128,3 +128,6 @@
 
 ## 10. Lessons Learned
 - **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
+
+## Tool Failures & Fixes
+- **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
