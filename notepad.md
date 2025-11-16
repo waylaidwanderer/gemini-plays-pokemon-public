@@ -105,3 +105,4 @@
 # Union Cave Notes
 - Entered via Route 32 (West).
 - Warps: Exit to Route 32 at (17, 3).
+- Found X Attack at (4, 2).
