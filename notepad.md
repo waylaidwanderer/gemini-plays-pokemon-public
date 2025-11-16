@@ -114,3 +114,11 @@
   - **LADDER:** Warp to 2F.
   - **PC:** Interactable object.
   - **WARP_CARPET_DOWN:** Exit to Route 32.
+- **Obtained Old Rod** from Fishing Guru (Route 32 Center).
+- **Route 32 Center Tile Mechanics:**
+  - **FLOOR:** Walkable.
+  - **COUNTER:** Impassable obstacle. Interact with NPCs across it.
+  - **WALL:** Impassable.
+  - **LADDER:** Warp tile.
+  - **PC:** Interactable object.
+  - **WARP_CARPET_DOWN:** Exit to Route 32.
