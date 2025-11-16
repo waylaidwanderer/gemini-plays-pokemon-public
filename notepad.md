@@ -23,9 +23,6 @@
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
-- `switch_pc_box`: Automates switching PC boxes.
-- `deposit_pokemon_tool`: Automates depositing a Pokémon from a specific party slot.
-- `withdraw_pokemon_tool`: Automates withdrawing a Pokémon from a specific PC box slot.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
@@ -43,7 +40,7 @@
 - **DIG GLITCH (CRITICAL):** Using DIG as a field move in the Olivine Lighthouse dead-end room causes a game-breaking glitch, corrupting all player data. Avoid using DIG as a field move until further testing.
 
 ## 3. Main Quest & Active Leads
-- **Primary Objective:** Find the 'special medicine' to heal the sick Ampharos at the top of the Olivine Lighthouse.
+- **Primary Objective:** Deliver the SECRETPOTION to Jasmine at the Olivine Lighthouse.
 - **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. The Sage in the Tin Tower has asked me not to enter.
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
 - **Moomoo Farm:** The Miltank is sick and requires a specific item named 'BERRY'. Other named berries do not work.
@@ -72,7 +69,6 @@
 ## 5. Untested Assumptions
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
-- **SECRETPOTION:** I assume I still need to get the medicine from Cianwood. **Alternative Hypothesis:** The SECRETPOTION already in my inventory IS the medicine for Ampharos. I need to check its description.
 
 ## 6. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
@@ -128,6 +124,7 @@
 ## 9. Reflection Log (Turn 45736)
 - **Data Management Lapses:** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
 - **New Tool Idea:** `navigate_pc_menu` tool to automate navigating complex PC menus.
+- **select_move_tool**: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses ("A", then "Down"s, then "A") to select and use that move in battle.
 
 ## 10. Lessons Learned
 - **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
