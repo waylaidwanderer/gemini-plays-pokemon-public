@@ -109,7 +109,7 @@
 ### 9. Current Puzzle: Battle Tower Escape
 - **Objective:** Exit the Battle Tower lobby.
 - **State:** Receptionist at (7, 6) blocks the exit door at (7, 0).
-- **SOLVED:** The Battle Tower puzzle is solved. The receptionist blocking the exit moves after either completing a battle (win or lose) or by using the save-glitch cancel sequence.
+- **SOLVED:** The Battle Tower puzzle is solved. The receptionist blocking the exit only moves after using the save-glitch cancel sequence. Losing a battle only resets the player to the lobby.
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
