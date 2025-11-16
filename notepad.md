@@ -86,7 +86,7 @@
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Multi-Press Dialogue:** Some NPCs require pressing 'A' multiple times to advance text.
 - **Phone List Limit:** The phone list can become full.
-- **`stun_npc` Tool:** Freezes an NPC's movement but does not make them traversable.
+- **`stun_npc` Tool:** Freezes an NPC's movement but does not make them traversable. CRITICAL: This tool only works on NPCs that are currently visible on the screen ('live objects').
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve by trading.
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
 - **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
