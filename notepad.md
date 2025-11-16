@@ -118,10 +118,17 @@
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
 
-#### Battle Tower 1F Escape Puzzle (SOLVED)
-- **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
-- **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
-- **Battle Tower Loss Mechanic:** Losing a battle in the Battle Tower results in the player being returned to the lobby with their entire party fully healed. This is not a trap, but a reset mechanism.
+#### Battle Tower 1F Puzzle
+- **Objective:** Exit the Battle Tower lobby.
+- **Current State:** The player is trapped in the lobby. The pathfinding tool has confirmed the Receptionist at (7, 6) is an impassable obstacle, blocking the main door at (7, 0).
+- **Failed Hypotheses:**
+    1.  Walking out after using the cancel/reset sequence. The sequence only returns the player to the lobby, it does not move the receptionist.
+    2.  Interacting with the Cooltrainer F. She provides only generic dialogue.
+    3.  Using the warp carpets at (7, 9) and (8, 9). These are confirmed one-way exits from the battle rooms.
+- **Current Hypothesis:** The only remaining logical trigger to move the receptionist is to **win a battle**. Losing is a known reset, so winning must be the progression event.
+- **Reset Mechanisms (Confirmed):**
+    - **Losing a battle:** Returns the player to the lobby with the party healed.
+    - **Cancel Sequence:** Interacting with the Receptionist, saving (triggering the glitch), then backing out of level select and canceling the challenge restores save data and returns the player to the lobby. This is a reset, not an exit.
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
