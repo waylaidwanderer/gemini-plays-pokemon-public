@@ -119,6 +119,7 @@
   7. Talking to the Cooltrainer F at (4, 9).
   8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
   8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
+  8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
