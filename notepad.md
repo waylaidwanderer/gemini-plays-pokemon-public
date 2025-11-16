@@ -115,6 +115,7 @@
   3. Performing the sequence, then selecting 'Cancel' from her menu.
   4. Performing the sequence, then selecting 'Explanation' from her menu.
   5. Pressing 'B' to exit her menu (closes menu, no change).
+  6. Talking to the Bug Catcher at (1, 4).
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
