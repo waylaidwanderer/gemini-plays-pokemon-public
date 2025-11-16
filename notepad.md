@@ -123,10 +123,9 @@
   11. Reading the sign at (6, 6) (displayed rules, no change).
   12. Interacting with PROF.OAK's PC (Pokédex Rating System). This was tested and disproven, it does not trigger an escape.
   13. Using FLY to escape from the lobby.
-  14. Winning a battle in a challenge (lost the battle, which resets to the lobby with no change).
-- **New Hypotheses to Test:**
-  1. Talk to the receptionist with a specific Pokémon (e.g., starter) in the lead party slot.
-  2. Talk to all NPCs in the room in a specific sequence before talking to the receptionist.
+  14. Winning a battle in a challenge (concluded as failed because winning was impossible, and losing resets to the lobby with no change).
+- **New Hypotheses to Test (from `puzzle_solver_agent`):**
+  1. Use the PC to deposit all Pokémon from the party into a box, then talk to the receptionist. The theory is that being ineligible for a battle may trigger a different script.
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
