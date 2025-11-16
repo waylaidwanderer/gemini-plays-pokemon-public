@@ -100,35 +100,17 @@
 - WATER (impassable without SURF)
 - WARP_CARPET_DOWN (Confirmed one-way exit. Inactive when stepped on from the lobby side, confirming they are destinations from the battle rooms. Need to test upward traversal if encountered from the other side.)
 
-## 8. Journey Log & Puzzle Solutions
-### Solved Puzzles & Key Discoveries
-- **Sudowoodo Tree (Route 36):** Solved by using the SQUIRTBOTTLE to initiate a battle.
-- **Goldenrod Dept. Store:** A bargain sale is happening now (per Todd's call).
-- **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH).
-- **Cianwood City:** Received SHUCKIE from a Rocker whose other Pokémon was stolen.
-- **Route 30 Ledge:** Confirmed one-way (down only).
-- **Olivine Lighthouse 1F Secret Passage:** The Sailor at (8, 2) is not a simple dialogue NPC. Passage is a confirmed dead end.
-- **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Previously observed that interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt caused a game-breaking crash. A recent test (Turn 43093) resulted in only dialogue. The crash may be conditional. AVOID BATTLE INTERACTION.
-- **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
-- **Olivine Lighthouse Descent Puzzle:** Solved. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
-- **Battle Tower Hallway:** I was moved through this map via script and did not get a chance to mark the warps. If I return, I must mark the warps at (0, 1) and (15, 1).
+### 8. Key Discoveries (Archive)
+- **Sudowoodo Tree (Route 36):** Solved with SQUIRTBOTTLE.
+- **Olivine Lighthouse Descent:** Solved by finding a new pit on 6F.
+- **CianwoodLugiaSpeechHouse Escape:** Solved by pressing 'B'.
+- **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while on the warp at (9, 3) causes a game-breaking crash.
 
-#### CianwoodLugiaSpeechHouse Escape Log
-- **Objective:** Exit the house. Player is trapped with movement locked.
-- **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
-- **Dana's Gift:** DANA called from Route 38. She has a gift for me.
-
-#### Battle Tower 1F Puzzle
+### 9. Current Puzzle: Battle Tower Escape
 - **Objective:** Exit the Battle Tower lobby.
-- **Current State:** The player is trapped in the lobby. The pathfinding tool has confirmed the Receptionist at (7, 6) is an impassable obstacle, blocking the main door at (7, 0).
-- **Failed Hypotheses:**
-    1.  Walking out after using the cancel/reset sequence. The sequence only returns the player to the lobby, it does not move the receptionist.
-    2.  Interacting with the Cooltrainer F. She provides only generic dialogue.
-    3.  Using the warp carpets at (7, 9) and (8, 9). These are confirmed one-way exits from the battle rooms.
-- **Current Hypothesis:** The only remaining logical trigger to move the receptionist is to **win a battle**. Losing is a known reset, so winning must be the progression event.
-- **Reset Mechanisms (Confirmed):**
-    - **Losing a battle:** Returns the player to the lobby with the party healed.
-    - **Cancel Sequence:** Interacting with the Receptionist, saving (triggering the glitch), then backing out of level select and canceling the challenge restores save data and returns the player to the lobby. This is a reset, not an exit.
+- **State:** Receptionist at (7, 6) blocks the exit door at (7, 0).
+- **Failed Hypotheses:** 1) Walking out after cancel sequence, 2) Interacting with Cooltrainer F, 3) Using one-way warp carpets.
+- **Current Hypothesis:** Winning a battle is the trigger to move the receptionist.
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
