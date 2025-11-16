@@ -30,7 +30,7 @@
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge is a **guaranteed trigger** for a game-breaking glitch that corrupts all player data. My previous hypothesis that a valid party would prevent this was **incorrect**. The glitch is unavoidable. The only way to reverse the corruption is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
-- **BATTLE TOWER ESCAPE (CONFIRMATION BIAS):** The save corruption glitch is a **reset mechanism**, not an escape route. The only confirmed way to leave the Battle Tower is to **win a battle**.
+- **BATTLE TOWER ESCAPE (CONFIRMATION BIAS):** The save corruption glitch is a **reset mechanism**, not an escape route. The only confirmed way to leave the Battle Tower is to **win a battle** or use the cancel-out method.
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **AGENT VERIFICATION:** Agent outputs are hypotheses, not facts. The `world_navigator_agent` incorrectly assumed I had the SECRET POTION just because I had the Storm Badge. I MUST verify all claims, especially those related to inventory, before changing my goals.
 - **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
@@ -72,7 +72,7 @@
 ## 5. Untested Assumptions
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
-- **Battle Tower:** I'm assuming it's a side quest. **Alternative Hypothesis:** Progressing inside might unlock a new path or item needed for the main story.
+- **SECRETPOTION:** I assume I still need to get the medicine from Cianwood. **Alternative Hypothesis:** The SECRETPOTION already in my inventory IS the medicine for Ampharos. I need to check its description.
 
 ## 6. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
@@ -128,16 +128,6 @@
 ## 9. Reflection Log (Turn 45736)
 - **Data Management Lapses:** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
 - **New Tool Idea:** `navigate_pc_menu` tool to automate navigating complex PC menus.
-- **New Battle Tower Hypothesis (Failed):** Interacting with the Cooltrainer_F at (5, 9) on BattleTower1F yielded only flavor text and is not an escape route.
 
 ## 10. Lessons Learned
 - **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
-
-#### Battle Tower 1F Escape Log (In Progress)
-- **Objective:** Escape the room.
-- **Failed Hypotheses:**
-  - Interacting with the Receptionist ('Challenge' option) triggers a game-breaking glitch.
-  - The PC is not a Pokémon Storage System and cannot be used to change party.
-  - Interacting with the Cooltrainer_F provides only flavor text.
-  - Reading the rules sign and then interacting with the Receptionist causes no change.
-  - Interacting with the Bug Catcher provides only flavor text.
