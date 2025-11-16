@@ -69,7 +69,6 @@
 
 ## 5. Current Leading Hypothesis & Untested Assumptions
 - **Battle Tower Escape (Primary Hypothesis):** The only way to make the receptionist move is to successfully **win a battle** in one of the challenges. All other simple and complex environmental interactions have failed.
-- **Battle Tower Escape (Alternative Hypothesis):** The 'PROF.OAK's PC' option in the lobby is an unexplored interaction that may be the key to escaping. This must be tested before committing to the primary hypothesis.
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 
@@ -122,6 +121,7 @@
   9. Talking to the Granny (gave generic battle tip).
   10. Talking to the Youngster (gave generic battle tip).
   11. Reading the sign at (6, 6) (displayed rules, no change).
+  12. Interacting with PROF.OAK's PC (Pokédex Rating System).
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
