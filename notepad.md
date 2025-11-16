@@ -24,6 +24,7 @@
 - `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
+- `party_leader_switcher`: Automates the process of making a specific Pokémon the party leader.
 
 ### Tool Development Ideas
 - **`party_strategist_agent`**: Takes current party, goal (e.g., 'travel across water'), and PC box contents to recommend an optimal team.
@@ -127,8 +128,8 @@
 - **Objective:** Exit the room. The exit door at (7, 0) is blocked by the Receptionist. The exit warps at (7, 9) and (8, 9) are inactive.
 - **Summary of Failed Hypotheses:**
     - **Movement:** All simple movement patterns onto and across the warp tiles at (7,9) and (8,9) have failed (vertical entry, lateral entry, continuous movement).
-    - **Interaction:** Interacting with all visible objects (NPCs, PC, Sign) has yielded no results. Systematically pressing 'A' on both warp tiles while facing all four cardinal directions has also failed.
-    - **Battle Challenge:** Attempting to save the game to start the battle challenge triggers a repeatable, game-breaking glitch that corrupts player data. This path is a confirmed dead end and must be avoided. The only known way to escape the glitched state is to press 'B' to exit the level select menu, then select 'YES' to cancel the challenge.
-- **Hypothesis (Failed):** Use the ITEMFINDER to search for a hidden item/switch. Result: The ITEMFINDER did not respond, indicating no hidden items are present.
-- **Current Hypothesis:** The moving COOLTRAINER_F NPC is the key to escaping. I will try interacting with her.
-- **Hypothesis (Failed, Agent-Suggested):** Interact with the Cooltrainer F, then immediately walk onto the warp tile at (7,9). Result: The warp remained inactive.
+    - **Interaction:** Interacting with all visible objects (NPCs, PC, Sign) has yielded no results. Systematically pressing 'A' on both warp tiles while facing all four cardinal directions has also failed. All dialogue options with the Receptionist have been explored.
+    - **Battle Challenge Glitch:** Attempting to save the game to start the battle challenge triggers a repeatable, game-breaking glitch that corrupts player data. This path is a confirmed dead end and must be avoided. The only known way to escape the glitched state is to press 'B' to exit the level select menu, then select 'YES' to cancel the challenge.
+    - **Item-based:** Using the ITEMFINDER yielded no results. Equipping all three party members with different held items did not change the outcome of interacting with the Receptionist.
+    - **Sequential:** Interacting with the Cooltrainer F and then immediately walking onto the warp tile at (7,9) failed.
+- **Current Hypothesis:** The battle challenge is glitching because my party's levels (12, 48, 20) are invalid for any of the challenge brackets. The intended solution is to assemble a team of three Pokémon at or below level 10 to successfully enter the L:10 challenge.
