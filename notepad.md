@@ -109,8 +109,7 @@
 ### 9. Current Puzzle: Battle Tower Escape
 - **Objective:** Exit the Battle Tower lobby.
 - **State:** Receptionist at (7, 6) blocks the exit door at (7, 0).
-- **Failed Hypotheses:** 1) Walking out after cancel sequence, 2) Interacting with Cooltrainer F, 3) Using one-way warp carpets.
-- **Current Hypothesis:** Winning a battle is the trigger to move the receptionist.
+- **SOLVED:** The Battle Tower puzzle is solved. The receptionist blocking the exit moves after either completing a battle (win or lose) or by using the save-glitch cancel sequence.
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
