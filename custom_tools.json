@@ -377,5 +377,27 @@
         "action_counter": 46201
       }
     ]
+  },
+  "pc_select_box": {
+    "description": "Navigates the 'Change Box' PC menu to a specific box number. Assumes the cursor starts at BOX1. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_box_number": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_box_number"
+      ]
+    },
+    "python_script": "import json\n\ntry:\n    target_box = int(input_data['target_box_number'])\n    if not 1 <= target_box <= 12:\n        print(json.dumps({'error': 'Target box must be between 1 and 12.'}))\n    else:\n        # Assumes cursor starts at BOX1\n        num_down_presses = target_box - 1\n        buttons = ['Down'] * num_down_presses\n        buttons.append('A') # To select the box\n        print(json.dumps(buttons))\nexcept (ValueError, KeyError):\n    print(json.dumps({'error': 'Invalid input. Please provide a valid target_box_number.'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_select_box tool. This tool automates navigating to a specific box in the PC's 'Change Box' menu, addressing the inefficiency of manual navigation pointed out by the Overwatch critique. This is the first step in building a suite of PC automation tools.",
+        "timestamp": "2025-11-16T21:11:32.810Z",
+        "action_counter": 46924
+      }
+    ]
   }
 }
