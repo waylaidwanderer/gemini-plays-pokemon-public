@@ -159,3 +159,7 @@
 - **BOX11:** Empty (Confirmed Turn 46910)
 - **BOX12:** Empty (Confirmed Turn 46920)
   3. Agent Hypothesis: Proceed through the save-glitch. Select 'Challenge', save the game, and then select a level from the glitched screen instead of canceling.
+- **New Hypotheses (Post-Reflection):**
+  1. There's a hidden switch/interactable I've missed. Test by pressing A on every tile.
+  2. A specific sequence of talking to NPCs is required.
+  3. The PC has a hidden function related to escape (e.g., depositing/withdrawing a specific Pokémon).
