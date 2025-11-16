@@ -141,3 +141,17 @@
 
 ## 12. Tool Ideas
 - **`pc_navigator_tool` (High Priority):** A tool that can execute sequences of button presses to navigate the PC menu. This is critical for automating the tedious data gathering process for my stored Pokémon. **Problem:** A simple tool outputting a static button sequence is too brittle. The tool needs to be state-aware, but it can't read the screen between button presses. **Possible Solution:** Create several smaller, specialized tools for discrete tasks (e.g., `tool_open_change_box`, `tool_scroll_to_box_N`, `tool_view_current_box`). This modular approach might be more robust than one monolithic tool.
+
+## 13. PC Storage (Manual Log)
+- **BOX1:**
+- **BOX2:**
+- **BOX3:**
+- **BOX4:**
+- **BOX5:**
+- **BOX6:**
+- **BOX7:**
+- **BOX8:**
+- **BOX9:**
+- **BOX10:**
+- **BOX11:**
+- **BOX12:**
