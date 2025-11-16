@@ -132,3 +132,4 @@
 ## 11. Tool Ideas
 - **PC Parser Tool:** A tool that can parse the screen text from the Pokémon Storage System to extract a list of Pokémon names and levels. This would automate data gathering for the `party_strategist_agent`.
   6. Talking to the Cooltrainer F at (4, 9).
+  6. Talking to the Cooltrainer F at (4, 9).
