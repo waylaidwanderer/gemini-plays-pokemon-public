@@ -118,6 +118,7 @@
   6. Talking to the Bug Catcher at (1, 4).
   7. Talking to the Cooltrainer F at (4, 9).
   8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
+  9. Talking to the Granny at (14, 2) (gave generic battle tip).
   8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
   8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
 
