@@ -106,6 +106,7 @@
 - Entered via Route 32 (West).
 - Warps: Exit to Route 32 at (17, 3).
 - Found X Attack at (4, 2).
+- Battling Hiker Russell (Geodude x2).
 
 ## Area and Navigation Insights
 - **Tile Mechanics:**
