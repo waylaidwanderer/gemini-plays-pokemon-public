@@ -19,10 +19,12 @@
 - `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
 - `navigation_strategist`: A unified navigation advisor.
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
+- `battle_puzzle_agent`: An agent to devise multi-turn strategies for complex battles with non-standard win conditions (e.g., stall tactics against Wobbuffet), considering opponent move patterns and status effects.
 
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
+- `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
