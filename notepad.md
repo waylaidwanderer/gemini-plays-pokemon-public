@@ -66,11 +66,11 @@
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
-- **Battle Tower PC:** The PC at (11, 6) on BattleTower1F *is* a Pokémon Storage System. My previous note was incorrect.
 
 ## 5. Untested Assumptions
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
+- **Battle Tower Escape:** My current assumption is that winning a battle is the only way out. **Alternative Hypotheses:** 1) I need to use a specific Key Item in the lobby. 2) I need to talk to an NPC after a specific trigger (like accessing the PC). 3) The solution involves a specific party composition when talking to the receptionist.
 
 ## 6. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
@@ -126,15 +126,11 @@
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
 - **Tool Maintenance Failure (Turn 45905):** I identified a critical flaw in the `deterministic_battle_strategist` but deferred the fix, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
-- **Agent Underutilization (Turns 45865-45881):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
-- **New Tool Idea:** `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- **New Agent Idea:** `battle_puzzle_agent`: An agent to devise multi-turn strategies for complex battles with non-standard win conditions (e.g., stall tactics against Wobbuffet), considering opponent move patterns and status effects.
+- **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
+- **New Agent Idea:** `party_strategist_agent`: An agent to analyze my stored Pokémon and a strategic goal (e.g., 'Assemble a team for the L:10 Battle Tower challenge') and recommend an optimal party of three.
 
 ## 10. Lessons Learned
 - **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
 
 ## Tool Failures & Fixes
 - **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
-
-## Reflection Log (Turn 46047)
-- **New Hypothesis (Battle Tower Escape):** The primary assumption is that winning a battle is the only escape. An alternative is that losing a battle also works, or that there is another hidden exit/interaction in the lobby. I must test this by intentionally losing a battle after this one, and by re-exploring the lobby thoroughly if I get the chance.
