@@ -38,6 +38,7 @@
 - **`log_puzzle_attempt`**: A tool to automate adding new hypotheses and results to the Journey Log section of the notepad.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
+- **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge, regardless of party composition, causes a catastrophic, game-breaking glitch that **completely corrupts all player data**, including name, money, Pokedex, party, and inventory. This action permanently destroys the save file. **THIS PATH MUST BE AVOIDED AT ALL COSTS.** The only way to escape the initial menu loop without saving is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **AGENT VERIFICATION:** Agent outputs are hypotheses, not facts. The `world_navigator_agent` incorrectly assumed I had the SECRET POTION just because I had the Storm Badge. I MUST verify all claims, especially those related to inventory, before changing my goals.
 - **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
