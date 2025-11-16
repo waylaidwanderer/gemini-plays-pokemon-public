@@ -36,9 +36,12 @@
 - **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
 - **`puzzle_context_extractor`**: An agent that parses the notepad's Journey Log to automatically extract failed hypotheses for the current puzzle, streamlining input for the `puzzle_solver_agent`.
 - **`log_puzzle_attempt`**: A tool to automate adding new hypotheses and results to the Journey Log section of the notepad.
+- **`pc_pokemon_scraper`**: A tool to parse the screen text of the PC box to automatically extract a list of available Pokémon and their levels, to streamline data gathering for the `party_strategist_agent`.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
+- **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge, regardless of party composition, causes a catastrophic, game-breaking glitch that **completely corrupts all player data**, including name, money, Pokedex, party, and inventory. This action permanently destroys the save file. **THIS PATH MUST BE AVOIDED AT ALL COSTS.** The only way to escape the initial menu loop without saving is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
+- **BATTLE TOWER ESCAPE (CONFIRMATION BIAS):** The save corruption glitch is a **reset mechanism**, not an escape route. It allows for retries of the challenge. The only confirmed way to leave the Battle Tower is to **win a battle**.
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **AGENT VERIFICATION:** Agent outputs are hypotheses, not facts. The `world_navigator_agent` incorrectly assumed I had the SECRET POTION just because I had the Storm Badge. I MUST verify all claims, especially those related to inventory, before changing my goals.
 - **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
@@ -107,7 +110,7 @@
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
-- WARP_CARPET_DOWN (Confirmed one-way exit. Inactive when stepped on from the lobby side, confirming they are destinations from the battle rooms.)
+- WARP_CARPET_DOWN (Confirmed one-way exit. Inactive when stepped on from the lobby side, confirming they are destinations from the battle rooms. Need to test upward traversal if encountered from the other side.)
 
 ## 8. Journey Log & Puzzle Solutions
 ### Solved Puzzles & Key Discoveries
@@ -120,6 +123,7 @@
 - **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Previously observed that interacting with the Sailor at Olivine Lighthouse 5F (8, 11) and advancing his dialogue to the battle prompt caused a game-breaking crash. A recent test (Turn 43093) resulted in only dialogue. The crash may be conditional. AVOID BATTLE INTERACTION.
 - **LIGHTHOUSE SAILOR CRASH 2 (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while standing on the warp at (9, 3) causes a game-breaking crash, corrupting all save data. AVOID THIS INTERACTION.
 - **Olivine Lighthouse Descent Puzzle:** Solved. The solution involved ascending to 6F and finding a new pit on the eastern side at (16, 5) or (17, 5) to access the eastern sections of the lower floors.
+- **Battle Tower Hallway:** I was moved through this map via script and did not get a chance to mark the warps. If I return, I must mark the warps at (0, 1) and (15, 1).
 
 #### CianwoodLugiaSpeechHouse Escape Log
 - **Objective:** Exit the house. Player is trapped with movement locked.
@@ -129,4 +133,3 @@
 #### Battle Tower 1F Escape Puzzle (SOLVED)
 - **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
 - **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
-- **WARP_CARPET_DOWN:** I'm assuming this is a one-way tile based on its name and appearance. I need to test this by trying to walk onto it from below to confirm it's not a two-way warp.
