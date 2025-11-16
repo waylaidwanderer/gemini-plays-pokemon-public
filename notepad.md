@@ -108,7 +108,7 @@
 
 ### 9. Current Puzzle: Battle Tower Escape
 - **Objective:** Exit the Battle Tower lobby.
-- **State:** Receptionist at (7, 6) blocks the exit door at (7, 0). The puzzle is UNSOLVED.
+- **State:** UNSOLVED. Receptionist at (7, 6) blocks the exit.
 - **Failed Hypotheses:**
   1. Losing a battle (resets to lobby, no change).
   2. Performing the save-glitch cancel sequence (resets to lobby menu, no change).
@@ -116,6 +116,8 @@
   4. Performing the sequence, then selecting 'Explanation' from her menu.
   5. Pressing 'B' to exit her menu (closes menu, no change).
   6. Talking to the Bug Catcher at (1, 4).
+  7. Talking to the Cooltrainer F at (4, 9).
+  8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
