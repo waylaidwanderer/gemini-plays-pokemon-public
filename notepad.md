@@ -101,3 +101,7 @@
   - **WARP_CARPET_DOWN:** Exit to Route 32.
 - Bird Keeper Peter: Pidgey (Lv6), Pidgey (Lv6), Spearow (Lv8). Defeated with Rocky (Lv8).
 - Identified warp at (6, 79) on Route 32 (West side). Inaccessible from current position due to ledges. Marked for future return.
+
+# Union Cave Notes
+- Entered via Route 32 (West).
+- Warps: Exit to Route 32 at (17, 3).
