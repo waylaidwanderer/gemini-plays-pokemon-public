@@ -22,10 +22,10 @@
 
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
-- `list_reachable_unseen_tiles`: Lists all reachable unseen tiles from the player's position.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `pokemon_nicknamer`: Automates nicknaming Pokémon.
 - `party_leader_switcher`: Automates the process of making a specific Pokémon the party leader.
+- `switch_pc_box`: Automates switching PC boxes.
 
 ### Tool Development Ideas
 - **`withdraw_pokemon_tool`**: A tool to automate withdrawing a specific Pokémon by name, to avoid manual menu navigation.
