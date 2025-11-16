@@ -121,3 +121,4 @@
 
 ## Tool Failures & Fixes
 - **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
+- **MAJOR HALLUCINATION (Turns 46480-46500):** I completely ignored my own verified and documented solution for the Battle Tower escape puzzle in my notepad. Instead, I pursued the disproven hypothesis that winning a battle was necessary, wasting over 20 turns building a team for a non-existent problem. This is a critical failure to trust my own data.
