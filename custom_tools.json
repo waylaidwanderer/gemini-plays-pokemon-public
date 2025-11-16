@@ -306,7 +306,7 @@
     ]
   },
   "select_move_tool": {
-    "description": "A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.",
+    "description": "A tool that takes a move slot number (1-4) as input and outputs the correct sequence of directional button presses to select that move in battle. IMPORTANT: This tool only positions the cursor; you must press 'A' on a subsequent turn to execute the move.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -324,12 +324,17 @@
         "target_move_slot"
       ]
     },
-    "python_script": "import json\n\ncurrent_pos = int(input_data['current_cursor_position'])\ntarget_pos = int(input_data['target_move_slot'])\n\nmoves = []\ndifference = target_pos - current_pos\n\nif difference > 0:\n    for _ in range(difference):\n        moves.append('Down')\nelif difference < 0:\n    for _ in range(abs(difference)):\n        moves.append('Up')\n\nmoves.append('A')\n\nprint(json.dumps(moves))",
+    "python_script": "import json\n\ncurrent_pos = int(input_data['current_cursor_position'])\ntarget_pos = int(input_data['target_move_slot'])\n\nmoves = []\ndifference = target_pos - current_pos\n\nif difference > 0:\n    for _ in range(difference):\n        moves.append('Down')\nelif difference < 0:\n    for _ in range(abs(difference)):\n        moves.append('Up')\n\nprint(json.dumps(moves))",
     "history": [
       {
         "commit_message": "feat: Create select_move_tool. This tool automates the process of selecting a move in battle, reducing the chance of manual error from incorrect directional inputs. It calculates the necessary 'Up' or 'Down' presses based on the current cursor position and the target move slot, then appends the 'A' button to execute the move. This addresses a recurring potential for mistakes during battle.",
         "timestamp": "2025-11-16T10:45:12.163Z",
         "action_counter": 46047
+      },
+      {
+        "commit_message": "fix: Remove 'A' button press from output. The tool was critically failing because the system rejects mixed directional and action inputs in a single sequence. This commit removes the final 'A' press, making the tool only responsible for positioning the cursor. The user must now press 'A' manually on the following turn. The description has been updated to reflect this new, critical limitation.",
+        "timestamp": "2025-11-16T11:30:23.710Z",
+        "action_counter": 46111
       }
     ]
   }
