@@ -121,10 +121,12 @@
 - **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
 - **Battle Tower Loss Mechanic:** Losing a battle in the Battle Tower results in the player being returned to the lobby with their entire party fully healed. This is not a trap, but a reset mechanism.
 
-## 9. Reflection Log (Turn 45736)
-- **Data Management Lapses:** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
-- **New Tool Idea:** `navigate_pc_menu` tool to automate navigating complex PC menus.
-- **select_move_tool**: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses ("A", then "Down"s, then "A") to select and use that move in battle.
+## 9. Reflection Log & New Ideas
+- **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
+- **Tool Maintenance Failure (Turn 45905):** I identified a critical flaw in the `deterministic_battle_strategist` but deferred the fix, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
+- **Agent Underutilization (Turns 45865-45881):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
+- **New Tool Idea:** `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
+- **New Agent Idea:** `battle_puzzle_agent`: An agent to devise multi-turn strategies for complex battles with non-standard win conditions (e.g., stall tactics against Wobbuffet), considering opponent move patterns and status effects.
 
 ## 10. Lessons Learned
 - **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
