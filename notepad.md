@@ -123,20 +123,10 @@
 - **Hypothesis 56 (Self-Generated):** Pressing the 'B' button from the overworld will cancel the movement lock. **Result:** Success! Movement was unlocked after pressing 'B'.
 - **Dana's Gift:** DANA called from Route 38. She has a gift for me.
 
-*(Archived log of failed hypotheses for the BattleTowerOutside warp puzzle. This puzzle is no longer relevant as the player is now inside Battle Tower 1F.)*
-- **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (7,9) from (7,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
-- **Battle Tower 1F Warp (Hypothesis):** Moving DOWN onto the `WARP_CARPET_DOWN` tile at (8,9) from (8,8) triggers the warp. **Result:** Failed. Player is standing on the tile, no warp occurred.
-- **Battle Tower 1F Warp (Hypothesis):** A continuous, multi-tile downward movement is required to activate the warp (e.g., from (8, 7) to (8, 9)). **Result:** Failed. No warp triggered.
-- **Battle Tower 1F Warp (Hypothesis):** Interacting with the PC at (11, 6) is required to activate the exit warps. **Result:** Untested.
-- **Battle Tower 1F Warp (Hypothesis):** Interacting with the PC at (11, 6) is required to activate the exit warps. **Result:** Failed. The PC functions normally and did not activate the warp.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (7, 9) and pressing 'A' will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (7, 9) and pressing 'A' while facing up will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (7, 9) and pressing 'A' while facing down will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (7, 9) and pressing 'A' while facing left will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (7, 9) and pressing 'A' while facing left will trigger the warp. Result: Failed. No event occurred. This concludes the test of the agent's hypothesis.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing down will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing down will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing left will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing right will trigger the warp. Result: Failed. No event occurred.
-- Battle Tower 1F Warp (Hypothesis): Standing on the warp tile at (8, 9) and pressing 'A' while facing up will trigger the warp. Result: Failed. No event occurred.
-- **BATTLE TOWER SAVE GLITCH (CRITICAL):** Attempting to save the game to start the Battle Tower challenge triggers a game-breaking glitch that corrupts player data (empties party, fills inventory with TMs, warps to glitched map). This path is a confirmed dead end and must be avoided. The only known way to escape the glitched state is to press 'B' to exit the level select menu, then select 'YES' to cancel the challenge.
+#### Battle Tower 1F Escape Log
+- **Objective:** Exit the room. The exit door at (7, 0) is blocked by the Receptionist. The exit warps at (7, 9) and (8, 9) are inactive.
+- **Summary of Failed Hypotheses:**
+    - **Movement:** All simple movement patterns onto and across the warp tiles at (7,9) and (8,9) have failed (vertical entry, lateral entry, continuous movement).
+    - **Interaction:** Interacting with all visible objects (NPCs, PC, Sign) has yielded no results. Systematically pressing 'A' on both warp tiles while facing all four cardinal directions has also failed.
+    - **Battle Challenge:** Attempting to save the game to start the battle challenge triggers a repeatable, game-breaking glitch that corrupts player data. This path is a confirmed dead end and must be avoided. The only known way to escape the glitched state is to press 'B' to exit the level select menu, then select 'YES' to cancel the challenge.
+- **Current Hypothesis:** Use the ITEMFINDER to search for a hidden item/switch, starting near the warp tiles.
