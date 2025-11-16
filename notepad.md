@@ -27,17 +27,6 @@
 - `party_leader_switcher`: Automates the process of making a specific Pokémon the party leader.
 - `switch_pc_box`: Automates switching PC boxes.
 
-### Tool Development Ideas
-- **`withdraw_pokemon_tool`**: A tool to automate withdrawing a specific Pokémon by name, to avoid manual menu navigation.
-- **`menu_navigator_tool`**: Takes a target text option in a menu and generates the button presses to select it.
-- **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
-- **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
-- **`dungeon_navigator_agent`**: An agent to plan the optimal path through a multi-floor dungeon to reach a specific goal (e.g., 'the top').
-- **`inventory_checker`**: A tool that takes an item name and confirms if it's in the bag, returning true/false and quantity. This would prevent inventory-based hallucinations.
-- **`puzzle_context_extractor`**: An agent that parses the notepad's Journey Log to automatically extract failed hypotheses for the current puzzle, streamlining input for the `puzzle_solver_agent`.
-- **`log_puzzle_attempt`**: A tool to automate adding new hypotheses and results to the Journey Log section of the notepad.
-- **`pc_pokemon_scraper`**: A tool to parse the screen text of the PC box to automatically extract a list of available Pokémon and their levels, to streamline data gathering for the `party_strategist_agent`.
-
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge, regardless of party composition, causes a catastrophic, game-breaking glitch that **completely corrupts all player data**, including name, money, Pokedex, party, and inventory. This action permanently destroys the save file. **THIS PATH MUST BE AVOIDED AT ALL COSTS.** The only way to escape the initial menu loop without saving is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
