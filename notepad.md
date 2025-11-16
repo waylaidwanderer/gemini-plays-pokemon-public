@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Journey to Azalea Town.
-- **Secondary:** Head South to Route 32.
+- **Secondary:** Explore Union Cave.
 - **Tertiary:** Train Rocky (Onix).
 
 ## Completed Objectives
