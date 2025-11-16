@@ -129,3 +129,4 @@
 #### Battle Tower 1F Escape Puzzle (SOLVED)
 - **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
 - **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
+- **WARP_CARPET_DOWN:** I'm assuming this is a one-way tile based on its name and appearance. I need to test this by trying to walk onto it from below to confirm it's not a two-way warp.
