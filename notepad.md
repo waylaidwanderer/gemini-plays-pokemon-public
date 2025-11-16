@@ -27,7 +27,7 @@
 - `party_leader_switcher`: Automates the process of making a specific Pokémon the party leader.
 
 ### Tool Development Ideas
-- **`party_strategist_agent`**: Takes current party, goal (e.g., 'travel across water'), and PC box contents to recommend an optimal team.
+- **`withdraw_pokemon_tool`**: A tool to automate withdrawing a specific Pokémon by name, to avoid manual menu navigation.
 - **`menu_navigator_tool`**: Takes a target text option in a menu and generates the button presses to select it.
 - **`systematic_room_searcher`**: A tool that takes room boundaries as input and generates a path to systematically check every wall-adjacent tile for secrets.
 - **`battle_move_selector`**: A tool that takes a move name and current cursor position to generate the button presses needed to select it in the battle menu.
