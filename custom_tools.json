@@ -377,5 +377,27 @@
         "action_counter": 46201
       }
     ]
+  },
+  "pokemon_info_extractor": {
+    "description": "Extracts the name, species, and level of the currently selected Pokémon from the PC storage screen text.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "screen_text"
+      ]
+    },
+    "python_script": "import re\nimport json\n\nscreen_text = input_data['screen_text']\nlines = screen_text.split('\\n')\n\nname = None\nspecies = None\nlevel = None\n\nselected_index = -1\nfor i, line in enumerate(lines):\n    if '▲' in line:\n        # The selection arrow is on its own line, the name is the line above it.\n        if i > 0:\n            selected_index = i - 1\n        break\n\nif selected_index != -1:\n    name = lines[selected_index].strip()\n\n    level_match = re.search(r'<LV>(\\d+)', screen_text)\n    if level_match:\n        level = int(level_match.group(1))\n\n    level_line_index = -1\n    for i, line in enumerate(lines):\n        if '<LV>' in line:\n            level_line_index = i\n            break\n    \n    if level_line_index != -1 and level_line_index + 1 < len(lines):\n        # The species is typically on the line directly following the level information.\n        species = lines[level_line_index + 1].strip()\n\nif name and species and level is not None:\n     print(json.dumps({\"name\": name, \"species\": species, \"level\": level}))\nelse:\n     print(json.dumps({\"error\": \"Could not parse Pokémon info.\"}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create pokemon_info_extractor tool. This tool automates the extraction of Pokémon data from the PC screen text, addressing a major inefficiency in the manual team-building process identified by the Overwatch system. It parses the name, level, and species of the currently selected Pokémon.",
+        "timestamp": "2025-11-16T19:55:05.770Z",
+        "action_counter": 46771
+      }
+    ]
   }
 }
