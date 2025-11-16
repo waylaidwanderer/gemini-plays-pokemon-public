@@ -66,7 +66,7 @@
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
-- **Battle Tower PC:** The PC at (11, 6) on BattleTower1F is NOT a Pokémon Storage System. It leads to Item Storage or the Pokédex Rating System.
+- **Battle Tower PC:** The PC at (11, 6) on BattleTower1F *is* a Pokémon Storage System. My previous note was incorrect.
 
 ## 5. Untested Assumptions
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
