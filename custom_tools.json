@@ -304,5 +304,33 @@
         "action_counter": 45500
       }
     ]
+  },
+  "select_move_tool": {
+    "description": "A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_cursor_position": {
+          "type": "integer",
+          "description": "The current position of the cursor (1-4)."
+        },
+        "target_move_slot": {
+          "type": "integer",
+          "description": "The target move slot to select (1-4)."
+        }
+      },
+      "required": [
+        "current_cursor_position",
+        "target_move_slot"
+      ]
+    },
+    "python_script": "import json\n\ncurrent_pos = int(input_data['current_cursor_position'])\ntarget_pos = int(input_data['target_move_slot'])\n\nmoves = []\ndifference = target_pos - current_pos\n\nif difference > 0:\n    for _ in range(difference):\n        moves.append('Down')\nelif difference < 0:\n    for _ in range(abs(difference)):\n        moves.append('Up')\n\nmoves.append('A')\n\nprint(json.dumps(moves))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_move_tool. This tool automates the process of selecting a move in battle, reducing the chance of manual error from incorrect directional inputs. It calculates the necessary 'Up' or 'Down' presses based on the current cursor position and the target move slot, then appends the 'A' button to execute the move. This addresses a recurring potential for mistakes during battle.",
+        "timestamp": "2025-11-16T10:45:12.163Z",
+        "action_counter": 46047
+      }
+    ]
   }
 }

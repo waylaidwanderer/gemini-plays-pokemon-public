@@ -133,3 +133,6 @@
 
 ## Tool Failures & Fixes
 - **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
+
+## Reflection Log (Turn 46047)
+- **New Hypothesis (Battle Tower Escape):** The primary assumption is that winning a battle is the only escape. An alternative is that losing a battle also works, or that there is another hidden exit/interaction in the lobby. I must test this by intentionally losing a battle after this one, and by re-exploring the lobby thoroughly if I get the chance.
