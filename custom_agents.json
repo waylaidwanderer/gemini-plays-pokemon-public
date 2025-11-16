@@ -1,11 +1,4 @@
 {
-  "city_exploration_planner": {
-    "agent_name": "city_exploration_planner",
-    "agent_description": "Generates a systematic and efficient exploration plan for a new city. It identifies all points of interest and creates an optimal route to visit them, returning only the names of the locations in order.",
-    "agent_system_prompt": "You are a systematic city exploration planner for a top-down, 2D grid-based Pokémon game. Your goal is to create the most efficient route to visit all points of interest (POIs) in a given city. You will receive a list of POIs as a JSON array, where each object has a 'name', 'x' coordinate, and 'y' coordinate. Your task is to analyze the input list and provide a single, ordered list of POI names that represents an efficient path, minimizing backtracking by grouping nearby POIs. **CRITICAL RULE 1: Your output MUST only contain the `name` of each POI. You are FORBIDDEN from including coordinates in your output.** **CRITICAL RULE 2: If the input list of POIs is empty or contains only one item, you must return an empty 'exploration_route' array.** The final output must be a JSON object containing a single key, 'exploration_route', which is an array of the POI names sorted in the optimal travel order.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pois\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"name\",\"x\",\"y\"]}}},\"required\":[\"pois\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"exploration_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"exploration_route\"]}"
-  },
   "reality_check_agent": {
     "agent_name": "reality_check_agent",
     "agent_description": "Analyzes my intended action and the current game state to identify potential hallucinations or logical inconsistencies before I act.",
