@@ -23,9 +23,9 @@
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
-- `pokemon_nicknamer`: Automates nicknaming Pokémon.
 - `party_leader_switcher`: Automates the process of making a specific Pokémon the party leader.
 - `switch_pc_box`: Automates switching PC boxes.
+- `pc_pokemon_scraper`: Scrapes Pokémon data (name, level) from the PC boxes and returns it as a JSON list. This is a work in progress.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
