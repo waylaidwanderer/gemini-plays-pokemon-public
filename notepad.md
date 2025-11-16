@@ -68,7 +68,8 @@
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
 
 ## 5. Current Leading Hypothesis & Untested Assumptions
-- **Battle Tower Escape (Primary Hypothesis):** The only way to make the receptionist move is to successfully **win a battle** in one of the challenges. All other simple and complex environmental interactions have failed. My current goal is to build a team to test this.
+- **Battle Tower Escape (Primary Hypothesis):** The only way to make the receptionist move is to successfully **win a battle** in one of the challenges. All other simple and complex environmental interactions have failed.
+- **Battle Tower Escape (Alternative Hypothesis):** The 'PROF.OAK's PC' option in the lobby is an unexplored interaction that may be the key to escaping. This must be tested before committing to the primary hypothesis.
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 
@@ -115,7 +116,7 @@
   3. Performing the sequence, then selecting 'Cancel' from her menu.
   4. Performing the sequence, then selecting 'Explanation' from her menu.
   5. Pressing 'B' to exit her menu (closes menu, no change).
-  6. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
+  6. Interacting with BILL's PC & Gem's PC options.
   7. Talking to the Bug Catcher.
   8. Talking to the Cooltrainer F.
   9. Talking to the Granny (gave generic battle tip).
@@ -124,20 +125,16 @@
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
-- **Tool Maintenance Failure (Turn 45905, 46603):** I identified critical flaws in my tools but deferred the fixes, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
+- **Tool Maintenance Failure (Turn 45905, 46603, 46786):** I identified critical flaws in my tools but deferred the fixes, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
 - **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
 
 ## 11. Lessons Learned
-- **Verify Before Automating:** I wasted time creating PC tools based on the unverified assumption that the Battle Tower PC was a standard Pokémon Storage System. I must verify the functionality of an object *before* developing tools to automate interaction with it.
+- **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
 
 ## Tool Failures & Fixes
 - **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
+- **pokemon_info_extractor (Turn 46786):** Created tool based on the unverified assumption that PC screen text uniquely identifies the selected Pokémon. The assumption was false, making the tool non-functional. Deleted in Turn 46801.
 
 ## 12. Tool Ideas
-- **PC Parser Tool (DELETED):** Created as `pokemon_info_extractor`. The tool was fundamentally flawed as PC screen text doesn't uniquely identify the selected Pokémon. Deleted until a reliable data source is found.
-
-## 13. Post-Reflection Plan (Turn 46773)
-- **New Hypothesis:** Before attempting to win a battle, I must test the 'PROF.OAK's PC' option in the lobby PC. This is an unexplored avenue that could be the key to escaping.
-- **New Tool Idea:** `pc_navigator_tool`. A tool that can execute sequences of button presses to navigate the PC menu (e.g., 'next_pokemon', 'next_box'), calling `pokemon_info_extractor` at each step to build a full list of my stored Pokémon. This would fully automate the data gathering process.
-- **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
+- **`pc_navigator_tool`:** A tool that can execute sequences of button presses to navigate the PC menu (e.g., 'next_pokemon', 'next_box'). This would fully automate the data gathering process for my stored Pokémon.
