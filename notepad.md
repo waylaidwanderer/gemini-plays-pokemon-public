@@ -134,3 +134,5 @@
     - **Item-based:** Using the ITEMFINDER yielded no results. Equipping all three party members with different held items did not change the outcome of interacting with the Receptionist.
     - **Sequential:** Interacting with the Cooltrainer F and then immediately walking onto the warp tile at (7,9) failed.
 - **Current Hypothesis:** The battle challenge is glitching because my party's levels (12, 48, 20) are invalid for any of the challenge brackets. The intended solution is to assemble a team of three Pokémon at or below level 10 to successfully enter the L:10 challenge.
+#### Battle Tower 1F Escape Log (Update)
+- **Failed Hypothesis (NPC Interaction):** Interacting with the Cooltrainer F at (3, 9) after stunning her yields only generic dialogue ('I'm going to win them all!') and does not trigger an escape event. This confirms previous findings that NPC dialogue is not the solution.
