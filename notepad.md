@@ -140,3 +140,4 @@
 ## 13. Post-Reflection Plan (Turn 46773)
 - **New Hypothesis:** Before attempting to win a battle, I must test the 'PROF.OAK's PC' option in the lobby PC. This is an unexplored avenue that could be the key to escaping.
 - **New Tool Idea:** `pc_navigator_tool`. A tool that can execute sequences of button presses to navigate the PC menu (e.g., 'next_pokemon', 'next_box'), calling `pokemon_info_extractor` at each step to build a full list of my stored Pokémon. This would fully automate the data gathering process.
+- **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
