@@ -107,6 +107,7 @@
 - Warps: Exit to Route 32 at (17, 3).
 - Found X Attack at (4, 2).
 - Defeated Hiker Russell (Geodude x3).
+- Defeated Firebreather Ray (Vulpix Lv9).
 
 ## Area and Navigation Insights
 - **Tile Mechanics:**
