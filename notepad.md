@@ -132,7 +132,7 @@
 
 ## Tool Failures & Fixes
 - **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
-- **MAJOR HALLUCINATION (Turns 46480-46500):** I completely ignored my own verified and documented solution for the Battle Tower escape puzzle in my notepad. Instead, I pursued the disproven hypothesis that winning a battle was necessary, wasting over 20 turns building a team for a non-existent problem.
+- **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 
 ## 12. Tool Ideas
 - **PC Parser Tool (High Priority):** A tool that can parse the screen text from the Pokémon Storage System to extract a list of Pokémon names and levels. This would automate data gathering for the `party_strategist_agent`.
