@@ -124,9 +124,3 @@
 - **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
 - **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
 - **Battle Tower Loss Mechanic:** Losing a battle in the Battle Tower results in the player being returned to the lobby with their entire party fully healed. This is not a trap, but a reset mechanism.
-
-## 9. Future Development & Strategy
-- **Agent Idea:** Create a 'Master Party Composition Agent' to analyze the entire PC box and suggest multiple team builds for different challenges (e.g., specific Gyms, Elite Four).
-- **Agent Refinement:** Review and improve the `navigation_strategist` system prompt with more context about my journey and failed paths.
-- **Tool Priority:** The `pc_pokemon_scraper` tool is a high priority and must be completed to enable better party strategy.
-- **Battle Tower Escape Plan:** My assumption that winning is the only way out is unverified. **New Hypothesis:** There may be an alternative exit method in the lobby. **Test:** After losing the current battle, I will return to BattleTower1F and systematically interact with every NPC and every single tile to find a hidden trigger or exit.
