@@ -122,3 +122,4 @@
   - **LADDER:** Warp tile.
   - **PC:** Interactable object.
   - **WARP_CARPET_DOWN:** Exit to Route 32.
+- Bird Keeper Peter: Pidgey (Lv6), Pidgey (Lv6), Spearow (Lv8). Defeated with Rocky (Lv8).
