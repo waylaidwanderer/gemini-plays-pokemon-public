@@ -119,8 +119,7 @@
   7. Talking to the Cooltrainer F at (4, 9).
   8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
   9. Talking to the Granny at (14, 2) (gave generic battle tip).
-  8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
-  8. Interacting with all PC options (BILL's PC, Gem's PC, PROF.OAK's PC).
+  10. Talking to the Youngster at (14, 9) (gave generic battle tip).
 
 ## 9. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736):** I have deferred notepad/marker updates instead of performing them immediately. This is a critical failure I must correct.
