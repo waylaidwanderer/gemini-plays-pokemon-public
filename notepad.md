@@ -107,7 +107,7 @@
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
-- WARP_CARPET_DOWN (One-way exit. Observed to be inactive when stepped on, suggesting it is the destination of a warp from another location.)
+- WARP_CARPET_DOWN (Confirmed one-way exit. Inactive when stepped on from the lobby side, confirming they are destinations from the battle rooms.)
 
 ## 8. Journey Log & Puzzle Solutions
 ### Solved Puzzles & Key Discoveries
