@@ -12,7 +12,6 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
-- `select_battle_option`
 
 ### Custom Agents
 
@@ -24,14 +23,14 @@
 ### Custom Tools
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
-- `party_leader_switcher`: Automates the process of making a specific Pokémon the party leader.
 - `switch_pc_box`: Automates switching PC boxes.
-- `pc_pokemon_scraper`: Scrapes Pokémon data (name, level) from the PC boxes and returns it as a JSON list. This is a work in progress.
+- `deposit_pokemon_tool`: Automates depositing a Pokémon from a specific party slot.
+- `withdraw_pokemon_tool`: Automates withdrawing a Pokémon from a specific PC box slot.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge, regardless of party composition, causes a catastrophic, game-breaking glitch that **completely corrupts all player data**, including name, money, Pokedex, party, and inventory. This action permanently destroys the save file. **THIS PATH MUST BE AVOIDED AT ALL COSTS.** The only way to escape the initial menu loop without saving is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
-- **BATTLE TOWER ESCAPE (CONFIRMATION BIAS):** The save corruption glitch is a **reset mechanism**, not an escape route. It allows for retries of the challenge. The only confirmed way to leave the Battle Tower is to **win a battle**.
+- **BATTLE TOWER ESCAPE (CONFIRMATION BIAS):** The save corruption glitch is a **reset mechanism**, not an escape route. The only confirmed way to leave the Battle Tower is to **win a battle**.
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **AGENT VERIFICATION:** Agent outputs are hypotheses, not facts. The `world_navigator_agent` incorrectly assumed I had the SECRET POTION just because I had the Storm Badge. I MUST verify all claims, especially those related to inventory, before changing my goals.
 - **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
@@ -68,6 +67,7 @@
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
+- **Battle Tower PC:** The PC at (11, 6) on BattleTower1F is NOT a Pokémon Storage System. It leads to Item Storage or the Pokédex Rating System.
 
 ## 5. Untested Assumptions
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
@@ -124,6 +124,3 @@
 - **Objective:** Escape the room after being trapped by inactive warps and a game-breaking NPC.
 - **Solution:** The intended solution is a complex, counter-intuitive sequence. You must interact with the Receptionist at (7, 6), proceed through the dialogue and agree to save the game (which triggers a save-data corruption glitch), and then, at the level selection screen, press 'B' to back out. This will prompt a final 'Cancel your BATTLE ROOM challenge?' menu, where selecting 'YES' will restore the save data and return the player to the room with movement enabled.
 - **Battle Tower Loss Mechanic:** Losing a battle in the Battle Tower results in the player being returned to the lobby with their entire party fully healed. This is not a trap, but a reset mechanism.
-
-## 9. High-Priority Tasks
-- **PC Automation:** Create `withdraw_pokemon_tool` and `deposit_pokemon_tool`. These should take a Pokémon's name as input and generate the button presses to perform the action. This will prevent manual menu errors and improve efficiency, addressing a key overwatch critique.
