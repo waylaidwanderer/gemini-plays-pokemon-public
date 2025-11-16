@@ -67,10 +67,8 @@
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 - **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
 
-## 5. Untested Assumptions
-- **Battle Tower Escape:**
-  - **Hypothesis 1:** The only way to get the receptionist to move is to **win a battle**.
-  - **Hypothesis 2:** An NPC's dialogue or behavior changes after a specific trigger event (like reading the sign). The next logical test is to re-interact with all NPCs now that the sign has been read.
+## 5. Current Leading Hypothesis & Untested Assumptions
+- **Battle Tower Escape (Primary Hypothesis):** The only way to make the receptionist move is to successfully **win a battle** in one of the challenges. All other simple and complex environmental interactions have failed. My current goal is to build a team to test this.
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 
