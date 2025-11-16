@@ -119,13 +119,15 @@
   7. Talking to the Bug Catcher.
   8. Talking to the Cooltrainer F.
   9. Talking to the Granny (gave generic battle tip).
-  10. Talking to the Youngster (gave generic battle tip).
+  10. Talking to the Youngster (gave generic tip).
   11. Reading the sign at (6, 6) (displayed rules, no change).
   12. Interacting with PROF.OAK's PC (Pokédex Rating System). This was tested and disproven, it does not trigger an escape.
   13. Using FLY to escape from the lobby.
   14. Winning a battle in a challenge (concluded as failed because winning was impossible, and losing resets to the lobby with no change).
-- **New Hypotheses to Test (from `puzzle_solver_agent`):**
-  1. Use the PC to deposit all Pokémon from the party into a box, then talk to the receptionist. The theory is that being ineligible for a battle may trigger a different script.
+  15. Use the PC to deposit all Pokémon from the party into a box, then talk to the receptionist. (Failed: Game mechanics prevent depositing the last Pokémon in the party).
+
+- **New Hypotheses to Test:**
+  1. There's a hidden switch/interactable I've missed. Test by pressing A on every tile.
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
@@ -156,8 +158,3 @@
 - **BOX10:** Empty (Confirmed Turn 46904)
 - **BOX11:** Empty (Confirmed Turn 46910)
 - **BOX12:** Empty (Confirmed Turn 46920)
-  3. Agent Hypothesis: Proceed through the save-glitch. Select 'Challenge', save the game, and then select a level from the glitched screen instead of canceling.
-- **New Hypotheses (Post-Reflection):**
-  1. There's a hidden switch/interactable I've missed. Test by pressing A on every tile.
-  2. A specific sequence of talking to NPCs is required.
-  3. The PC has a hidden function related to escape (e.g., depositing/withdrawing a specific Pokémon).

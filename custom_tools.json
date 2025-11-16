@@ -264,6 +264,28 @@
       }
     ]
   },
+  "pc_select_box": {
+    "description": "Navigates the 'Change Box' PC menu to a specific box number. Assumes the cursor starts at BOX1. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_box_number": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_box_number"
+      ]
+    },
+    "python_script": "import json\n\ntry:\n    target_box = int(input_data['target_box_number'])\n    if not 1 <= target_box <= 12:\n        print(json.dumps({'error': 'Target box must be between 1 and 12.'}))\n    else:\n        # Assumes cursor starts at BOX1\n        num_down_presses = target_box - 1\n        buttons = ['Down'] * num_down_presses\n        buttons.append('A') # To select the box\n        print(json.dumps(buttons))\nexcept (ValueError, KeyError):\n    print(json.dumps({'error': 'Invalid input. Please provide a valid target_box_number.'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_select_box tool. This tool automates navigating to a specific box in the PC's 'Change Box' menu, addressing the inefficiency of manual navigation pointed out by the Overwatch critique. This is the first step in building a suite of PC automation tools.",
+        "timestamp": "2025-11-16T21:11:32.810Z",
+        "action_counter": 46924
+      }
+    ]
+  },
   "plan_path_to_target": {
     "description": "Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, avoids pathing through warp tiles that would trigger a transition, dynamically handles water traversal, and now dynamically detects map boundaries to correctly handle negative coordinates.",
     "input_schema": {
@@ -380,28 +402,6 @@
         "commit_message": "feat: Re-add 'A' button press and update description. The tool was previously modified to remove the 'A' press due to a misunderstanding of system limitations. The `autopress_buttons` feature explicitly allows mixing directional and action inputs, making this change possible. This resolves the redundancy noted in the Overwatch critique by fully automating move selection and execution in a single call.",
         "timestamp": "2025-11-16T12:43:40.977Z",
         "action_counter": 46201
-      }
-    ]
-  },
-  "pc_select_box": {
-    "description": "Navigates the 'Change Box' PC menu to a specific box number. Assumes the cursor starts at BOX1. Outputs button presses for use with autopress_buttons=true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_box_number": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_box_number"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    target_box = int(input_data['target_box_number'])\n    if not 1 <= target_box <= 12:\n        print(json.dumps({'error': 'Target box must be between 1 and 12.'}))\n    else:\n        # Assumes cursor starts at BOX1\n        num_down_presses = target_box - 1\n        buttons = ['Down'] * num_down_presses\n        buttons.append('A') # To select the box\n        print(json.dumps(buttons))\nexcept (ValueError, KeyError):\n    print(json.dumps({'error': 'Invalid input. Please provide a valid target_box_number.'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create pc_select_box tool. This tool automates navigating to a specific box in the PC's 'Change Box' menu, addressing the inefficiency of manual navigation pointed out by the Overwatch critique. This is the first step in building a suite of PC automation tools.",
-        "timestamp": "2025-11-16T21:11:32.810Z",
-        "action_counter": 46924
       }
     ]
   }
