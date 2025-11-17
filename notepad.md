@@ -86,6 +86,7 @@
 ## Area and Navigation Insights
 - **Tile Mechanics:**
   - **FLOOR:** Walkable.
+  - **LEDGE_HOP_LEFT:** One-way traversal (jump left).
   - **COUNTER:** Impassable obstacle. Interact with NPCs across it.
   - **WALL:** Impassable.
   - **LADDER:** Warp to 2F.
@@ -121,5 +122,6 @@
 ## Area and Navigation Insights
 - **Tile Mechanics:**
   - **FLOOR:** Walkable.
+  - **LEDGE_HOP_LEFT:** One-way traversal (jump left).
 - **Trainers:**
   - Hiker Anthony: Geodude (Lv11).
