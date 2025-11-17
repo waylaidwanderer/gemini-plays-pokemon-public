@@ -51,7 +51,7 @@
 - **Moomoo Farm:** The Miltank is sick and requires a specific item named 'BERRY'. Other named berries do not work.
 
 ### Phone Contacts
-- **DANA (LASS):** Route 38 (Rematch).
+- **DANA (LASS):** Route 38 (Rematch requested again).
 - **GINA (PICNICKER):** Route 34 (Rematch requested again).
 - **HUEY (SAILOR):** OLIVINE LIGHTHOUSE (Rematch).
 - **ANTHONY (HIKER):** Route 33 (Rematch). Chatted about MACHOP & GEODUDE.
