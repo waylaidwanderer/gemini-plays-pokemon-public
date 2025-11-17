@@ -8,7 +8,6 @@
 - `delete_agent`
 - `define_map_marker`
 - `delete_map_marker`
-- `stun_npc`
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
@@ -26,6 +25,7 @@
 - `pc_navigator`: A unified tool to navigate the PC.
 - `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
 - `check_unseen_reachability`: Checks a list of unseen tile coordinates to determine which are adjacent to currently reachable tiles.
+- `stun_npc`: Freezes an NPC's movement but does not make them traversable. CRITICAL: This tool only works on NPCs that are currently visible on the screen ('live objects').
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
@@ -84,7 +84,7 @@
 
 ## 7. Tile Mechanics
 ### Impassable
-- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), FLOOR_UP_WALL, HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW
+- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
 ### Traversable
 - FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters), unknown (traversable)
@@ -99,6 +99,7 @@
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
+- FLOOR_UP_WALL (impassable from below, one-way down only)
 
 ## 8. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
@@ -127,7 +128,7 @@
 
 ## 7.1 Tile Mechanics (Corrections)
 - **LADDER:** My previous classification was incomplete. This tile can function as a standard traversable floor (as seen on the Route 32 pier), not just a vertical warp.
-- **New Tool Idea: `check_unseen_reachability`**: A tool that analyzes the map and a list of unseen tiles to determine which ones are actually reachable from the player's current position. This will help prioritize exploration. (Created this turn)
+- **New Tool Idea: `check_unseen_reachability`**: A tool that analyzes the map and a list of unseen tiles to determine which ones are actually reachable from the player's current position. (Created this turn)
 ## 7.2 Tile Mechanics (Additions)
 - **CAVE:** Impassable warp tile.
 
