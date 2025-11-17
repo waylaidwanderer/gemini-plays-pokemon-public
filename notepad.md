@@ -23,7 +23,6 @@
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `pc_navigator`: A unified tool to navigate the PC.
 - `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
-- `check_unseen_reachability`: Checks a list of unseen tile coordinates to determine which are adjacent to currently reachable tiles.
 - `stun_npc`: Freezes an NPC's movement but does not make them traversable. CRITICAL: This tool only works on NPCs that are currently visible on the screen ('live objects').
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
@@ -43,7 +42,7 @@
 - **DIG GLITCH (CRITICAL):** Using DIG as a field move in the Olivine Lighthouse dead-end room causes a game-breaking glitch, corrupting all player data. Avoid using DIG as a field move until further testing.
 
 ## 3. Main Quest & Active Leads
-- **Primary Objective:** Challenge the Olivine City Gym and defeat Gym Leader Jasmine.
+- **Primary Objective:** Travel to Mahogany Town and challenge the next Gym Leader.
 - **Dark Cave Lead:** Received mail on the Battle Tower PC from 'RANDY'. Message: 'DARK CAVE leads to another road.' This confirms it's a through-route.
 - **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. The Sage in the Tin Tower has asked me not to enter.
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
