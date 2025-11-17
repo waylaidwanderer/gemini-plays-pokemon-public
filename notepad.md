@@ -121,3 +121,7 @@
 - **`stun_npc` Reset:** The effect is temporary and resets upon re-entering a map.
 ## Gym Leaders
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
+
+### Current Strategy
+- Union Cave (south entrance) is a confirmed dead end for reaching Mahogany Town. The basement water route is a loop, and the northern part of 1F is blocked by one-way ledges.
+- New Plan: Exit Union Cave north to Route 32, travel to Ecruteak City, then head east to Route 42. The path was previously blocked by water, but I can now use SURF to cross.
