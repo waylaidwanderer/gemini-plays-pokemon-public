@@ -19,7 +19,6 @@
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
 
 ### Custom Tools
-
 - `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `pc_navigator`: A unified tool to navigate the PC.
@@ -71,20 +70,21 @@
 ## 5. New Hypotheses & Future Tests
 - **Bugged Youngster (Route 32):** Current assumption is the interaction is permanently bugged. **Alternative Hypothesis:** The bug might be state-dependent (e.g., resets after leaving the map, time-of-day). **Test (Low Priority):** After making more progress, return to Route 32 and attempt to interact with the Youngster at (3, 45) again.
 - **Path to Mahogany Town:** Current assumption is the only path is south through Route 32 and Union Cave. **Alternative Hypothesis:** The water route east of Ecruteak City (Route 42) might now be passable with SURF. The 'DARK CAVE leads to another road' lead is also a viable alternative. **Test:** If the southern path becomes blocked, prioritize exploring Dark Cave or returning to Route 42.
+- **Mt. Mortar Purpose:** Current hypothesis is that Mt. Mortar is a side area, not the main path to Mahogany Town, based on repeated dead ends. **Alternative Hypothesis:** A required HM (like Waterfall) may be needed to fully explore it.
+- **Dark Cave Path:** Current hypothesis is that Dark Cave is the correct path to Mahogany Town, as suggested by the mail from 'RANDY'.
 
 ## 6. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Multi-Press Dialogue:** Some NPCs require pressing 'A' multiple times to advance text.
 - **Phone List Limit:** The phone list can become full.
-- **`stun_npc` Tool:** Freezes an NPC's movement but does not make them traversable. CRITICAL: This tool only works on NPCs that are currently visible on the screen ('live objects').
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve by trading.
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
 - **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
 
 ## 7. Tile Mechanics
 ### Impassable
-- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW
+- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW, WATERFALL (untested, likely needs HM)
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
 ### Traversable
 - FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters), unknown (traversable)
@@ -94,12 +94,13 @@
 - WARP_CARPET_LEFT (unverified one-way - MUST TEST)
 - WARP_CARPET_RIGHT (unverified one-way - MUST TEST)
 - WARP_CARPET_DOWN (two-way)
+- CAVE (impassable warp)
 ### Conditional & One-Way
 - LEDGE_HOP_DOWN (down only)
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
-- FLOOR_UP_WALL (impassable from below, one-way down only)
+- **FLOOR_UP_WALL:** Impassable from below, one-way down only (Verified at Mt. Mortar (29,8)).
 
 ## 8. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
@@ -109,6 +110,7 @@
 - **Goal Flexibility Failure (Turn 48125):** I have been hyper-focused on solving the Battle Tower escape puzzle, violating the core directive to pivot to a new goal when progress stalls. If my current systematic wall search fails, I MUST try a different approach or use the `puzzle_solver_agent` to generate new hypotheses.
 - **Tool Creation Success (Turn 48021, 48101, 49061):** I successfully identified repetitive manual tasks (checking walls, checking unseen reachability) and automated them by creating tools, a correct application of my directives.
 - **New Tool Idea: `persistent_path_executor`**: A tool that can handle moving NPCs by automatically re-planning its path if blocked. This would streamline navigation in areas with many moving obstacles.
+- **New Tool Idea: `general_menu_navigator`**: A tool to navigate any vertical menu by taking a list of options and a target option as input.
 
 ## 9. Lessons Learned
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
@@ -128,12 +130,6 @@
 
 ## 7.1 Tile Mechanics (Corrections)
 - **LADDER:** My previous classification was incomplete. This tile can function as a standard traversable floor (as seen on the Route 32 pier), not just a vertical warp.
-- **New Tool Idea: `check_unseen_reachability`**: A tool that analyzes the map and a list of unseen tiles to determine which ones are actually reachable from the player's current position. (Created this turn)
-## 7.2 Tile Mechanics (Additions)
-- **CAVE:** Impassable warp tile.
-
-## 8.1 New Ideas (Additions)
-- **New Tool Idea: `general_menu_navigator`**: A tool to navigate any vertical menu by taking a list of options and a target option as input.
 
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
