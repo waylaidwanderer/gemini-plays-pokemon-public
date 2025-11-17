@@ -168,7 +168,7 @@
 - **BOX1:** Empty. (Checked Turn 47746)
 - **BOX2:** Empty. (Checked Turn 47758)
 - **BOX3:** Empty. (Checked Turn 47768)
-- **BOX4:** Contains Ignis (TYPHLOSION), G (MANTINE), Javelin (SPEAROW). (Updated Turn 47702)
+- **BOX4:** Empty. (Checked Turn 47776)
 - **BOX5:** (Untracked)
 - **BOX6:** (Untracked)
 - **BOX7:** (Untracked)
