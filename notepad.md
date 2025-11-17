@@ -162,21 +162,6 @@
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 - **pokemon_info_extractor (Turn 47386):** Created tool based on the unverified assumption that PC screen text uniquely identifies the selected Pokémon. The assumption was false, making the tool non-functional. Deleted in Turn 46801.
 
-## 12. PC Storage (Manual Log)
-- **BOX1:** Empty. (Checked Turn 47746)
-- **BOX2:** Empty. (Checked Turn 47758)
-- **BOX3:** Empty. (Checked Turn 47768)
-- **BOX4:** Empty. (Checked Turn 47781)
-- **BOX5:** Empty. (Checked Turn 47786)
-- **BOX6:** Empty. (Checked Turn 47792)
-- **BOX7:** Empty. (Checked Turn 47792)
-- **BOX8:** Empty. (Checked Turn 47798)
-- **BOX9:** Empty. (Checked Turn 47804)
-- **BOX10:** Empty. (Checked Turn 47810)
-- **BOX11:** Empty. (Checked Turn 47812)
-- **BOX12:** Empty. (Checked Turn 47822)
-- **Inefficient Tool Design (Turn 47799):** The Overwatch critique correctly identified that having three separate tools for PC navigation is inefficient. I need to consolidate `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single, parameterized tool.
-
 ## Tool Consolidation Plan (Turn 47852)
 - **Objective:** Consolidate `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single `pc_navigator` tool.
 - **Step 1:** Delete `select_pc_option` (this turn).
