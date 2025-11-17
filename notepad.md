@@ -124,4 +124,4 @@
   - **FLOOR:** Walkable.
   - **LEDGE_HOP_LEFT:** One-way traversal (jump left).
 - **Trainers:**
-  - Hiker Anthony: Geodude (Lv11).
+  - Hiker Anthony: Geodude (Lv11), Machop (Lv11). Defeated.
