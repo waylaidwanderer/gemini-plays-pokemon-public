@@ -21,7 +21,7 @@
 
 ### Custom Tools
 
-- `plan_path_to_target`: Generates a path to a target coordinate.
+- `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `pc_navigator`: A unified tool to navigate the PC.
 - `systematic_search_tool`: Finds the next logical tile to check in a systematic search.
