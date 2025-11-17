@@ -139,6 +139,8 @@
   27. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the SELECT button. (Failed: The SELECT button had no effect on the glitched dialogue prompt).
   28. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press a directional button (Up). (Failed: The UP button had no effect on the glitched dialogue prompt).
   29. During the save-glitch sequence, attempt to press 'A' on the level selection screen before the glitched 'Cancel' prompt appears. (Failed: The game automatically transitions to the 'Cancel' prompt, making it impossible to input a command on the level selection screen).
+  30. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the B button. (Failed: The B button had no effect on the glitched dialogue prompt).
+  31. With a valid party, trigger the save-glitch sequence and then press 'A' on the glitched level select menu. (Failed: The level select menu does not reappear after the save; the game transitions directly to the 'Cancel' prompt, making the test impossible).
 
 - **New Hypotheses to Test:**
 
