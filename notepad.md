@@ -30,13 +30,6 @@
 - **Trades:** Traded Pokemon need badges.
 
 ## Area and Navigation Insights
-- **Route 31 Tile Mechanics:**
-  - **TALL_GRASS:** Contains wild Pokémon encounters.
-  - **LEDGE_HOP_DOWN / RIGHT:** One-way traversal (jump down/right). Behavior: Jumping over a ledge moves the player 2 tiles in that direction.
-  - **CUT_TREE:** Obstacle. Requires HM01 Cut to remove.
-  - **HEADBUTT_TREE:** Interactable. Requires TM02 Headbutt.
-  - **WATER:** Impassable. Requires Surf.
-  - **CAVE:** Entrance to Dark Cave.
 
 ## Trainer Log
 - **Rival:** Silver (Totodile).
