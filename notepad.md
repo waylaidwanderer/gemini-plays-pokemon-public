@@ -135,3 +135,4 @@
   - **Lass:** (13, 16), non-hostile, discusses cave size.
   - **Hiker Anthony:** Registered phone number.
 - **Next Step:** Proceeding West to Azalea Town.
+- **Pokemon Center:** Found at (15, 9).
