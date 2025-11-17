@@ -77,12 +77,6 @@
 - **Leader:** Bugsy (Bug-type). Weak to Fire/Rock/Flying.
 - **Mechanics:** Spiders/Twins block paths.
 
-# Azalea Gym Notes
-- **Gym Guide:** Located near entrance at (7, 13).
-- **Twins:** Blocking the path north at (4, 10) and (5, 10).
-- **Type:** Bug (Weak to Fire, Rock, Flying).
-- **Strategy:** Use Kimchi (Quilava) with Ember.
-
 # Achievements
 - Defeated Bugsy (Hive Badge) - Azalea Town
 - Obtained TM49 (Fury Cutter)
