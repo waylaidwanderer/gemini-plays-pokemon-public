@@ -165,7 +165,7 @@
 - **pokemon_info_extractor (Turn 47386):** Created tool based on the unverified assumption that PC screen text uniquely identifies the selected Pokémon. The assumption was false, making the tool non-functional. Deleted in Turn 46801.
 
 ## 12. PC Storage (Manual Log)
-- **BOX1:** Was Ink (TENTACRUEL), Scylla (KRABBY). Now empty. (Checked Turn 47213)
+- **BOX1:** Empty. (Checked Turn 47746)
 - **BOX2:** Empty. (Checked Turn 47195)
 - **BOX3:** Empty. (Checked Turn 47204)
 - **BOX4:** Contains Ignis (TYPHLOSION), G (MANTINE), Javelin (SPEAROW). (Updated Turn 47702)
