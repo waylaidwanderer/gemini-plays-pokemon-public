@@ -20,7 +20,7 @@
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
 
 ### Custom Tools
-- `plan_path_to_target`: Generates a path to a target coordinate.
+
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `pc_navigator`: A unified tool to navigate the PC.
 - `systematic_search_tool`: Finds the next logical tile to check in a systematic search.
