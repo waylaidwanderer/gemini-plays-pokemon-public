@@ -115,6 +115,29 @@
       }
     ]
   },
+  "press_sequence": {
+    "description": "Executes a custom sequence of button presses. Input is a comma-separated string of buttons (e.g., \"A,Down,Down,A\"). Supports \"sleep <ms>\" as a step. ENABLE autopress_buttons: true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "sequence": {
+          "type": "string",
+          "description": "Comma-separated list of buttons to press."
+        }
+      },
+      "required": [
+        "sequence"
+      ]
+    },
+    "python_script": "import json\nseq = input_data['sequence'].split(',')\nprint(json.dumps([s.strip() for s in seq]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-11-17T21:01:18.372Z",
+        "action_counter": 2029
+      }
+    ]
+  },
   "spam_button": {
     "description": "Generates a sequence of button presses to be executed automatically. Useful for mashing through text or menus. Can optionally include delays.",
     "input_schema": {
@@ -155,29 +178,6 @@
         "commit_message": "Initial definition of spam_button tool.",
         "timestamp": "2025-11-14T03:00:03.455Z",
         "action_counter": 42
-      }
-    ]
-  },
-  "press_sequence": {
-    "description": "Executes a custom sequence of button presses. Input is a comma-separated string of buttons (e.g., \"A,Down,Down,A\"). Supports \"sleep <ms>\" as a step. ENABLE autopress_buttons: true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "sequence": {
-          "type": "string",
-          "description": "Comma-separated list of buttons to press."
-        }
-      },
-      "required": [
-        "sequence"
-      ]
-    },
-    "python_script": "import json\nseq = input_data['sequence'].split(',')\nprint(json.dumps([s.strip() for s in seq]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-11-17T21:01:18.372Z",
-        "action_counter": 2029
       }
     ]
   }

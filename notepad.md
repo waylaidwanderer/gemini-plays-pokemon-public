@@ -1,9 +1,9 @@
 # Gem's Adventure Log
 
 ## Current Objectives
-- **Primary:** Defeat Bugsy (Azalea Gym).
-- **Secondary:** Verify Gym Access.
-- **Tertiary:** Find Apprentice (Ilex Forest).
+- **Primary:** Rescue Apprentice (Ilex Forest).
+- **Secondary:** Obtain HM01 Cut.
+- **Tertiary:** Teach Cut to Scout.
 
 ## Charcoal Kiln (8_2) Notes
 - **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
