@@ -116,3 +116,5 @@
   - **WATER:** Impassable. Requires Surf.
   - **WARP_CARPET_DOWN:** Exit warp.
 - Arrived on Route 33 from Union Cave.
+
+# Route 33 Notes
