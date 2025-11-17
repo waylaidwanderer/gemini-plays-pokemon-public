@@ -157,3 +157,5 @@
   39. Trigger the save-glitch sequence, cancel out, then talk to the Granny. (Failed: Granny's dialogue was unchanged, disproving the hypothesis that the glitch affects other NPCs).
   40. Systematically check every accessible wall tile for a hidden switch. (Failed: No switches were found).
   41. Trigger the save-glitch sequence, cancel out, then talk to the Granny to see if her state has changed. (Failed: Granny's dialogue was unchanged).
+## Olivine Lighthouse Tasks
+- Explore eastern section of 3F to mark warps at (17, 9) and (17, 11).
