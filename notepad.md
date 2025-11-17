@@ -134,6 +134,7 @@
   21. Talk to every NPC in a clockwise order (Youngster -> Cooltrainer F -> Bug Catcher -> Granny), then talk to the receptionist. (Failed: Receptionist dialogue was unchanged).
 
 - **New Hypotheses to Test:**
+  1. Initiate a challenge with an invalid party size (1 or 2 Pokémon) to trigger a unique response. (Agent suggestion)
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
