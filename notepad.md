@@ -117,16 +117,6 @@
 - **Solution:** The warp carpets at (7, 9) and (8, 9) were two-way warps. The solution was to simply walk onto them. My core assumption that they were one-way entrances was never tested and was incorrect.
 - **Failed Hypotheses (41 total):**
 
-  21. Talk to every NPC in a clockwise order (Youngster -> Cooltrainer F -> Bug Catcher -> Granny), then talk to the receptionist. (Failed: Receptionist dialogue was unchanged).
-  22. Initiate a challenge with a party of one Pokémon. (Result: Triggered unique 'You're not ready' dialogue, but did not solve the escape).
-  23. Initiate a challenge with a party of two Pokémon. (Result: Triggered the same 'You're not ready' dialogue, disproving the invalid party size hypothesis).
-  24. Talk to the receptionist with a valid party, select a challenge level, and when asked 'Is your party ready?', select the 'No' option. (Failed: The game never presented the 'Is your party ready?' prompt, making the test impossible. It skipped from level select to a cancel screen after the save glitch).
-  25. With a valid party, trigger the save-glitch, but select 'No' at the 'Cancel challenge?' prompt. (Failed: The cursor automatically resets to 'Yes', making it impossible to select 'No').
-  26. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the START button to try and open the main menu. (Failed: The START button had no effect on the glitched dialogue prompt).
-  27. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the SELECT button. (Failed: The SELECT button had no effect on the glitched dialogue prompt).
-  28. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press a directional button (Up). (Failed: The UP button had no effect on the glitched dialogue prompt).
-  29. During the save-glitch sequence, attempt to press 'A' on the level selection screen before the glitched 'Cancel' prompt appears. (Failed: The game automatically transitions to the 'Cancel' prompt, making it impossible to input a command on the level selection screen).
-  30. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the B button. (Failed: The B button had no effect on the glitched dialogue prompt).
   31. With a valid party, trigger the save-glitch sequence and then press 'A' on the glitched level select menu. (Failed: The level select menu does not reappear after the save; the game transitions directly to the 'Cancel' prompt, making the test impossible).
   32. Open the PokéGear, tune the Radio to the Poké Flute channel (20), close the PokéGear, then talk to the receptionist. (Failed: The radio tuner in the PokéGear is not interactive, making the test impossible).
   33. Talk to the receptionist with only the Eevee from Bill in the party. (Failed: Dialogue was unchanged).
