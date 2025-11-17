@@ -26,6 +26,7 @@
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `pc_select_box`: Navigates the 'Change Box' PC menu to a specific box number.
+- `select_pc_option`: Navigates the main PC menu (WITHDRAW, DEPOSIT, etc.) from a current position to a target option. Outputs button presses for use with autopress_buttons=true.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.

@@ -409,5 +409,45 @@
         "action_counter": 46201
       }
     ]
+  },
+  "select_pc_option": {
+    "description": "Navigates the main PC menu (WITHDRAW, DEPOSIT, etc.) from a current position to a target option. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_cursor_position": {
+          "type": "string",
+          "enum": [
+            "WITHDRAW",
+            "DEPOSIT",
+            "CHANGE BOX",
+            "MOVE",
+            "SEE YA!"
+          ]
+        },
+        "target_option": {
+          "type": "string",
+          "enum": [
+            "WITHDRAW",
+            "DEPOSIT",
+            "CHANGE BOX",
+            "MOVE",
+            "SEE YA!"
+          ]
+        }
+      },
+      "required": [
+        "current_cursor_position",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\n\noptions = [\"WITHDRAW\", \"DEPOSIT\", \"CHANGE BOX\", \"MOVE\", \"SEE YA!\"]\ncurrent_pos_str = input_data.get('current_cursor_position')\ntarget_option_str = input_data.get('target_option')\n\nif not current_pos_str or not target_option_str:\n    print(json.dumps([]))\n\n# Standardize input by removing PKMN symbols if present\ncurrent_pos_str = current_pos_str.replace(' <PK><MN>', '')\ntarget_option_str = target_option_str.replace(' <PK><MN>', '')\n\n\ntry:\n    start_index = options.index(current_pos_str)\n    end_index = options.index(target_option_str)\nexcept ValueError:\n    print(json.dumps([]))\n\nmoves = end_index - start_index\nbuttons = []\nif moves > 0:\n    buttons.extend(['Down'] * moves)\nelif moves < 0:\n    buttons.extend(['Up'] * abs(moves))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_pc_option tool. This tool automates navigation within the main PC menu, addressing a major inefficiency identified during self-assessment. It calculates the necessary Up/Down presses to move from a current menu item to a target, streamlining PC interactions as a first step towards better automation.",
+        "timestamp": "2025-11-17T00:04:42.366Z",
+        "action_counter": 47239
+      }
+    ]
   }
 }
