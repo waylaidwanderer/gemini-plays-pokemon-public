@@ -9,11 +9,6 @@
 - **Arrival:** Came from East (Route 33).
 - **Obstacles:** Rocket Grunt at (31, 9) blocking Slowpoke Well.
 
-## Completed Objectives
-- **Violet City Gym:** Defeated Falkner. Obtained Zephyr Badge & TM31.
-- **Sprout Tower:** Defeated Elder Sage Li. Obtained HM05 (Flash). Collected Escape Rope.
-- **Catch Bellsprout:** Caught Lv5 Female on Route 31.
-
 ## Key Locations & Warps
 - **New Bark Town:** Elm's Lab, Mom's House.
 - **Cherrygrove City:** Map Card obtained.
