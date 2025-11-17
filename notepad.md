@@ -117,26 +117,7 @@
 ### Battle Tower Escape: SOLVED
 - **Solution:** The warp carpets at (7, 9) and (8, 9) were two-way warps. The solution was to simply walk onto them. My core assumption that they were one-way entrances was never tested and was incorrect.
 - **Failed Hypotheses (41 total):**
-  1. Losing a battle (resets to lobby, no change).
-  2. Performing the save-glitch cancel sequence (resets to lobby menu, no change).
-  3. Performing the sequence, then selecting 'Cancel' from her menu.
-  4. Performing the sequence, then selecting 'Explanation' from her menu.
-  5. Pressing 'B' to exit her menu (closes menu, no change).
-  6. Interacting with BILL's PC & Gem's PC options.
-  7. Talking to the Bug Catcher.
-  8. Talking to the Cooltrainer F.
-  9. Talking to the Granny (gave generic battle tip).
-  10. Talking to the Youngster (gave generic tip).
-  11. Reading the sign at (6, 6) (displayed rules, no change).
-  12. Interacting with PROF.OAK's PC (Pokédex Rating System). This was tested and disproven, it does not trigger an escape.
-  13. Using FLY to escape from the lobby.
-  14. Winning a battle in a challenge (concluded as failed because winning was impossible, and losing resets to the lobby with no change).
-  15. Use the PC to deposit all Pokémon from the party into a box, then talk to the receptionist. (Failed: Game mechanics prevent depositing the last Pokémon in the party).
-  16. Initiating a challenge but declining the save prompt triggers a hidden event or state change. (Failed: Declining to save simply returns to the main challenge menu).
-  17. Initiating a challenge, declining the save prompt, then using the ITEMFINDER. (Failed: ITEMFINDER did not respond).
-  18. Trigger the 'Box is full' event by withdrawing Pokémon from the PC. This may trigger a call from Bill and cause the receptionist to move. (Failed: Game mechanics prevent depositing the last Pokémon in the party, making the test impossible).
-  19. Use the PokéGear to call Professor Elm. (Failed: Phone is 'out of the service area').
-  20. Read the sign at (6, 6), then immediately talk to the Granny. (Failed: Granny's dialogue was unchanged).
+
   21. Talk to every NPC in a clockwise order (Youngster -> Cooltrainer F -> Bug Catcher -> Granny), then talk to the receptionist. (Failed: Receptionist dialogue was unchanged).
   22. Initiate a challenge with a party of one Pokémon. (Result: Triggered unique 'You're not ready' dialogue, but did not solve the escape).
   23. Initiate a challenge with a party of two Pokémon. (Result: Triggered the same 'You're not ready' dialogue, disproving the invalid party size hypothesis).
