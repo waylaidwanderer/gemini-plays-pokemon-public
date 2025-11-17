@@ -145,3 +145,7 @@
   - **COUNTER:** Impassable obstacle. Interact with Nurse Joy from across it.
   - **WALL:** Impassable.
 - **NPCs:** Nurse Joy, Fishing Guru, Pokefan F.
+
+# Strategy Advisor Notes
+- **Bugsy Strategy:** Lead with Quilava (Ember). Spam Ember vs Metapod/Kakuna. Be aggressive vs Scyther (Fury Cutter is dangerous). Use Onix as shield if needed.
+- **Next Steps:** Go to Kurt's House (NW corner of Azalea). He triggers the Slowpoke Well event.
