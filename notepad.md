@@ -43,7 +43,7 @@
 - **DIG GLITCH (CRITICAL):** Using DIG as a field move in the Olivine Lighthouse dead-end room causes a game-breaking glitch, corrupting all player data. Avoid using DIG as a field move until further testing.
 
 ## 3. Main Quest & Active Leads
-- **Primary Objective:** Deliver the SECRETPOTION to Jasmine at the Olivine Lighthouse.
+- **Primary Objective:** Challenge the Olivine City Gym and defeat Gym Leader Jasmine.
 - **Dark Cave Lead:** Received mail on the Battle Tower PC from 'RANDY'. Message: 'DARK CAVE leads to another road.' This confirms it's a through-route.
 - **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. The Sage in the Tin Tower has asked me not to enter.
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
@@ -62,14 +62,14 @@
 
 ## 4. World State & Blocked Paths
 - **Tin Tower:** Path blocked by a Sage (legendary beasts awakened).
-- **Olivine Lighthouse:** Path up is blocked, needs 'special medicine'.
 - **Route 41 (WHIRL ISLANDS):** Interior is 'pitch-black' (needs FLASH); WHIRLPOOL tiles are impassable.
 - **Route 42:** Path to Mahogany Town blocked by water (needs SURF).
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 
 ## 5. Current Leading Hypothesis & Untested Assumptions
-- **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
+- **Lighthouse Exit:** Current assumption is the only way out is floor-by-floor descent. **Alternative Hypothesis:** A pit might drop me multiple floors or to the exit. **Test:** Investigate all pits encountered during descent.
+- **FLY HM:** Current assumption is it's story-disabled. **Alternative Hypothesis:** It only works in open-air locations, not indoors. **Test:** Attempt to use FLY immediately upon exiting the lighthouse.
 - **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
 
 ## 6. Confirmed System Mechanics
@@ -104,11 +104,10 @@
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
 - **Tool Maintenance Failure (Turn 45905, 46603, 46786):** I identified critical flaws in my tools but deferred the fixes, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
 - **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
-- **Position Hallucination (Turn 48018):** I failed to verify my position, leading to a failed action and a system warning. This reinforces the need for constant reality checks against the game state.
+- **Position Hallucination (Turn 48018, 48435):** I have failed to verify my position, leading to failed actions and system warnings. This reinforces the need for constant reality checks against the game state.
 - **Goal Flexibility Failure (Turn 48125):** I have been hyper-focused on solving the Battle Tower escape puzzle, violating the core directive to pivot to a new goal when progress stalls. If my current systematic wall search fails, I MUST try a different approach or use the `puzzle_solver_agent` to generate new hypotheses.
 - **Tool Creation Success (Turn 48021, 48101):** I successfully identified a repetitive manual task (checking walls) and automated it by creating the `wall_checker_tool` and `systematic_search_tool`, which is a correct application of my directives.
 - **New Tool Idea: `persistent_path_executor`**: A tool that can handle moving NPCs by automatically re-planning its path if blocked. This would streamline navigation in areas with many moving obstacles.
-- **FLY HM Hypothesis Test:** To test why FLY isn't working, I should try using it from another major city (e.g., Goldenrod, Violet) when I have the opportunity.
 
 ## 9. Lessons Learned
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
