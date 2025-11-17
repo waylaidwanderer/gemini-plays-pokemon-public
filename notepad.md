@@ -130,6 +130,7 @@
   17. Initiating a challenge, declining the save prompt, then using the ITEMFINDER. (Failed: ITEMFINDER did not respond).
   18. Trigger the 'Box is full' event by withdrawing Pokémon from the PC. This may trigger a call from Bill and cause the receptionist to move. (Failed: Game mechanics prevent depositing the last Pokémon in the party, making the test impossible).
   19. Use the PokéGear to call Professor Elm. (Failed: Phone is 'out of the service area').
+  20. Read the sign at (6, 6), then immediately talk to the Granny. (Failed: Granny's dialogue was unchanged).
 
 - **New Hypotheses to Test:**
   1. A sequential trigger might exist. Test sequence: Read the sign at (6, 6), then immediately talk to the Granny.
