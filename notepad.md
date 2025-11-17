@@ -84,7 +84,7 @@
 
 ## 7. Tile Mechanics
 ### Impassable
-- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW
+- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), FLOOR_UP_WALL, HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
 ### Traversable
 - FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters), unknown (traversable)
@@ -94,7 +94,6 @@
 - WARP_CARPET_RIGHT (one-way)
 - WARP_CARPET_DOWN (two-way)
 ### Conditional & One-Way
-- FLOOR_UP_WALL (ledge, down only)
 - LEDGE_HOP_DOWN (down only)
 - LEDGE_HOP_LEFT (left only)
 - LEDGE_HOP_RIGHT (right only)
