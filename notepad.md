@@ -144,3 +144,7 @@
   - **FLOOR:** Walkable.
   - **WARP_CARPET_DOWN:** Exit to Azalea Town.
   - **WALL:** Impassable.
+
+# Slowpoke Well B1F
+- **LADDER:** Warp to Azalea Town.
+- **FLOOR:** Walkable terrain.
