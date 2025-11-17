@@ -60,21 +60,9 @@
 - Found X Attack.
 - Exited to Route 33.
 
-# Route 33 Notes
-## Area and Navigation Insights
-- **Tile Mechanics:**
-  - **FLOOR:** Walkable.
-  - **LEDGE_HOP_LEFT:** One-way traversal (jump left).
-- **Trainers:**
-  - Hiker Anthony: Geodude (Lv11), Machop (Lv11). Defeated.
-## Exploration Update (Route 33)
-- **Eastern Dead End:** The path east of the tall grass (Row 14-15, Col 16+) is blocked by walls/trees.
-- **Items:** Found **Psncureberry** at (14, 16).
-- **NPCs:**
-  - **Lass:** (13, 16), non-hostile, discusses cave size.
-  - **Hiker Anthony:** Registered phone number.
-- **Next Step:** Proceeding West to Azalea Town.
-- **Pokemon Center:** Found at (15, 9).
+# Route 33 (Summarized)
+- Traversed West to Azalea. Defeated Hiker Anthony (Phone registered).
+- Found Psncureberry.
 
 # Azalea Town Pokemon Center (Map 8_1)
 - **Tile Mechanics:**
