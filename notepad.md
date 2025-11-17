@@ -165,3 +165,4 @@
 - **BOX10:** Empty. (Checked Turn 46904)
 - **BOX11:** Empty. (Checked Turn 46910)
 - **BOX12:** Contains Aether (PIDGEY), KENYA (SPEAROW), HEXA (VENONAT). (Checked Turn 47178)
+- **New Hypothesis (21):** A sequential trigger might exist. Test sequence: Talk to the Youngster, then the Bug Catcher, then the Cooltrainer F, and finally the Granny.
