@@ -18,14 +18,14 @@
 - `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
 - `navigation_strategist`: A unified navigation advisor.
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
-- `battle_puzzle_agent`: An agent to devise multi-turn strategies for complex battles with non-standard win conditions (e.g., stall tactics against Wobbuffet), considering opponent move patterns and status effects.
+- `battle_puzzle_agent`: An agent to devise multi-turn strategies for complex battles with non-standard win conditions.
 
 ### Custom Tools
-- `select_pc_box`: Navigates the PC 'Choose a BOX' menu to switch to a target box number. Outputs button presses for use with autopress_buttons=true.
-- `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
+- `plan_path_to_target`: Generates a path to a target coordinate.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `pc_box_navigator`: Navigates the cursor within a Pokémon storage box from a current slot to a target slot. The box is a 5x4 grid (20 slots). Outputs button presses for use with autopress_buttons=true.
-- `select_pc_option`: Navigates the main PC menu (WITHDRAW, DEPOSIT, etc.) from a current position to a target option. Outputs button presses for use with autopress_buttons=true.
+- `select_pc_option`: Navigates simple vertical menus from a current position to a target option.
+- `pc_box_navigator`: Navigates the cursor within a Pokémon storage box from a current slot to a target slot.
+- `select_pc_box`: Navigates the PC 'Choose a BOX' menu to switch to a target box number.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
@@ -144,6 +144,7 @@
   30. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the B button. (Failed: The B button had no effect on the glitched dialogue prompt).
   31. With a valid party, trigger the save-glitch sequence and then press 'A' on the glitched level select menu. (Failed: The level select menu does not reappear after the save; the game transitions directly to the 'Cancel' prompt, making the test impossible).
   32. Open the PokéGear, tune the Radio to the Poké Flute channel (20), close the PokéGear, then talk to the receptionist. (Failed: The radio tuner in the PokéGear is not interactive, making the test impossible).
+  33. Talk to the receptionist with only the Eevee from Bill in the party. (Failed: Dialogue was unchanged).
 
 ### New Hypotheses & Ideas
 - **Alternative Escape Hypothesis 1:** A specific Pokémon or combination of Pokémon in the party (e.g., the Eevee from Bill, the Togepi egg Pokémon) might trigger a new dialogue option with the receptionist.
@@ -160,7 +161,6 @@
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
 
 ## Tool Failures & Fixes
-- **deterministic_battle_strategist (Turn 45905):** Recommended a suicidal 'Peck' against a Wobbuffet with active Destiny Bond and Counter. The tool's Wobbuffet logic failed because it lacked data for non-damaging moves like GROWL and LEER. This is a critical failure of foresight and data management. Fixed in Turn 45931.
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 - **pokemon_info_extractor (Turn 47386):** Created tool based on the unverified assumption that PC screen text uniquely identifies the selected Pokémon. The assumption was false, making the tool non-functional. Deleted in Turn 46801.
 
@@ -168,13 +168,12 @@
 - **BOX1:** Empty. (Checked Turn 47746)
 - **BOX2:** Empty. (Checked Turn 47758)
 - **BOX3:** Empty. (Checked Turn 47768)
-- **BOX4:** Empty. (Checked Turn 47776)
-- **BOX5:** Empty. (Checked Turn 47781)
-- **BOX6:** Empty. (Checked Turn 47786)
+- **BOX4:** Empty. (Checked Turn 47781)
+- **BOX5:** Empty. (Checked Turn 47786)
+- **BOX6:** Empty. (Checked Turn 47792)
 - **BOX7:** Empty. (Checked Turn 47792)
 - **BOX8:** (Untracked)
 - **BOX9:** (Untracked)
 - **BOX10:** Empty. (Checked Turn 46904)
 - **BOX11:** Empty. (Checked Turn 46910)
 - **BOX12:** Contains Aether (PIDGEY), KENYA (SPEAROW), HEXA (VENONAT). (Checked Turn 47178)
-  33. Talk to the receptionist with only the Eevee from Bill in the party. (Failed: Dialogue was unchanged).
