@@ -128,3 +128,8 @@
 ## 7.1 Tile Mechanics (Corrections)
 - **LADDER:** My previous classification was incomplete. This tile can function as a standard traversable floor (as seen on the Route 32 pier), not just a vertical warp.
 - **New Tool Idea: `check_unseen_reachability`**: A tool that analyzes the map and a list of unseen tiles to determine which ones are actually reachable from the player's current position. This will help prioritize exploration. (Created this turn)
+## 7.2 Tile Mechanics (Additions)
+- **CAVE:** Impassable warp tile.
+
+## 8.1 New Ideas (Additions)
+- **New Tool Idea: `general_menu_navigator`**: A tool to navigate any vertical menu by taking a list of options and a target option as input.
