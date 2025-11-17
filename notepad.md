@@ -90,7 +90,7 @@
   3. [x] Circle wide to East, approach from **RIGHT** (Runs Left).
   4. [x] Circle to North, approach from **TOP** (Runs Down).
   5. [x] Approach from **RIGHT** (Runs West).
-  6. [ ] Herd North to Apprentice.
+  6. [x] Herd North to Apprentice (Reunited!).
 - **Items:**
   - **Charcoal:** From Apprentice (Equip to Kimchi).
   - **HM01 Cut:** From Charcoal Maker (after puzzle).
