@@ -150,3 +150,9 @@
 - **Bugsy Strategy:** Lead with Quilava (Ember). Spam Ember vs Metapod/Kakuna. Be aggressive vs Scyther (Fury Cutter is dangerous). Use Onix as shield if needed.
 - **Next Steps:** Go to Kurt's House (NW corner of Azalea). He triggers the Slowpoke Well event.
 - Path North: Gap in ledges at x=9.
+
+# Kurt's House (8_4)
+- **Tile Mechanics:**
+  - **FLOOR:** Walkable.
+  - **WARP_CARPET_DOWN:** Exit to Azalea Town.
+  - **WALL:** Impassable.
