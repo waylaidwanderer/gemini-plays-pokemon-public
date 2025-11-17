@@ -7,6 +7,7 @@
 
 ## Azalea Town Notes
 - **Arrival:** Came from East (Route 33).
+- **Obstacles:** Rocket Grunt at (31, 9) blocking Slowpoke Well.
 
 ## Completed Objectives
 - **Violet City Gym:** Defeated Falkner. Obtained Zephyr Badge & TM31.
