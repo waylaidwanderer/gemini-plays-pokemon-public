@@ -51,34 +51,9 @@
 - **ROCKY (Onix):** Obtained via trade in Violet City. Lv5. Holding Bitter Berry.
 - Gym Advice: Falkner uses Flying types. Weak to Rock/Electric.
 
-# Route 32 Notes
-## Area and Navigation Insights
-- **Tile Mechanics:**
-  - **FLOOR:** Standard walkable terrain.
-
-# Ruins of Alph (Summarized)
-- Explored main chamber, solved nothing yet. Returns later.
-
-# Route 32 Pokémon Center
-## Area and Navigation Insights
-- **Tile Mechanics:**
-  - **FLOOR:** Walkable.
-  - **LEDGE_HOP_LEFT:** One-way traversal (jump left).
-  - **COUNTER:** Impassable obstacle. Interact with NPCs across it.
-  - **WALL:** Impassable.
-  - **LADDER:** Warp to 2F.
-  - **WARP_CARPET_DOWN:** Exit to Route 32.
-
-- **Obtained Old Rod** from Fishing Guru (Route 32 Center).
-- **Route 32 Center Tile Mechanics:**
-  - **FLOOR:** Walkable.
-  - **COUNTER:** Impassable obstacle. Interact with NPCs across it.
-  - **WALL:** Impassable.
-  - **LADDER:** Warp tile.
-  - **PC:** Interactable object.
-  - **WARP_CARPET_DOWN:** Exit to Route 32.
-- Bird Keeper Peter: Pidgey (Lv6), Pidgey (Lv6), Spearow (Lv8). Defeated with Rocky (Lv8).
-- Identified warp at (6, 79) on Route 32 (West side). Inaccessible from current position due to ledges. Marked for future return.
+# Route 32 & Ruins of Alph (Summarized)
+- Passed through. Obtained Old Rod. Defeated Bird Keeper Peter.
+- Ruins: Main chamber explored, puzzle unsolved.
 
 # Union Cave (Summarized)
 - Cleared trainers (Hiker Russell, Firebreather Ray).
