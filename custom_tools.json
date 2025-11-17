@@ -389,29 +389,15 @@
     ]
   },
   "select_pc_option": {
-    "description": "Navigates the main PC menu (WITHDRAW, DEPOSIT, etc.) from a current position to a target option. Outputs button presses for use with autopress_buttons=true.",
+    "description": "Navigates simple vertical PC menus from a current position to a target option. Outputs button presses for use with autopress_buttons=true.",
     "input_schema": {
       "type": "object",
       "properties": {
         "current_cursor_position": {
-          "type": "string",
-          "enum": [
-            "WITHDRAW",
-            "DEPOSIT",
-            "CHANGE BOX",
-            "MOVE",
-            "SEE YA!"
-          ]
+          "type": "string"
         },
         "target_option": {
-          "type": "string",
-          "enum": [
-            "WITHDRAW",
-            "DEPOSIT",
-            "CHANGE BOX",
-            "MOVE",
-            "SEE YA!"
-          ]
+          "type": "string"
         }
       },
       "required": [
@@ -419,12 +405,17 @@
         "target_option"
       ]
     },
-    "python_script": "import json\n\noptions = [\"WITHDRAW\", \"DEPOSIT\", \"CHANGE BOX\", \"MOVE\", \"SEE YA!\"]\ncurrent_pos_str = input_data.get('current_cursor_position')\ntarget_option_str = input_data.get('target_option')\n\nif not current_pos_str or not target_option_str:\n    print(json.dumps([]))\n\n# Standardize input by removing PKMN symbols if present\ncurrent_pos_str = current_pos_str.replace(' <PK><MN>', '')\ntarget_option_str = target_option_str.replace(' <PK><MN>', '')\n\n\ntry:\n    start_index = options.index(current_pos_str)\n    end_index = options.index(target_option_str)\nexcept ValueError:\n    print(json.dumps([]))\n\nmoves = end_index - start_index\nbuttons = []\nif moves > 0:\n    buttons.extend(['Down'] * moves)\nelif moves < 0:\n    buttons.extend(['Up'] * abs(moves))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nmenu_options = [\"BILL's PC\", \"Gem's PC\", \"PROF.OAK's PC\", \"TURN OFF\"]\n\ncurrent_pos = input_data['current_cursor_position']\ntarget_opt = input_data['target_option']\n\ntry:\n    start_index = menu_options.index(current_pos)\n    target_index = menu_options.index(target_opt)\nexcept ValueError:\n    print(json.dumps({\"error\": \"Invalid option provided.\"}))\n    exit()\n\nbuttons_to_press = []\ndiff = target_index - start_index\n\nif diff > 0:\n    buttons_to_press.extend([\"Down\"] * diff)\nelif diff < 0:\n    buttons_to_press.extend([\"Up\"] * abs(diff))\n\nbuttons_to_press.append(\"A\")\n\nprint(json.dumps(buttons_to_press))",
     "history": [
       {
         "commit_message": "feat: Create select_pc_option tool. This tool automates navigation within the main PC menu, addressing a major inefficiency identified during self-assessment. It calculates the necessary Up/Down presses to move from a current menu item to a target, streamlining PC interactions as a first step towards better automation.",
         "timestamp": "2025-11-17T00:04:42.366Z",
         "action_counter": 47239
+      },
+      {
+        "commit_message": "fix: Correct NameError and update menu options. The variable `end_index` was used but never defined; replaced with `target_index` to resolve the critical failure. Also updated the internal list of menu options to match the main PC menu, correcting a design flaw where the tool was built for the wrong screen.",
+        "timestamp": "2025-11-17T02:00:40.409Z",
+        "action_counter": 47482
       }
     ]
   },
