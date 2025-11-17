@@ -51,7 +51,7 @@
 
 ### Phone Contacts
 - **DANA (LASS):** Route 38 (Rematch).
-- **GINA (PICNICKER):** Route 34 (Rematch).
+- **GINA (PICNICKER):** Route 34 (Rematch requested again).
 - **HUEY (SAILOR):** OLIVINE LIGHTHOUSE (Rematch).
 - **ANTHONY (HIKER):** Route 33 (Rematch). Chatted about MACHOP & GEODUDE.
 - **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch). Chatted about VOLTORB.
