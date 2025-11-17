@@ -87,7 +87,7 @@
 - **Farfetch'd Puzzle:**
   1. [x] Walk up to it (Runs North).
   2. [x] Approach from **BOTTOM** (Runs North).
-  3. [ ] Circle wide to East, approach from **RIGHT** (Runs Left).
+  3. [x] Circle wide to East, approach from **RIGHT** (Runs Left).
   4. [ ] Circle to North, approach from **TOP** (Runs Down to Apprentice).
 - **Items:**
   - **Charcoal:** From Apprentice (Equip to Kimchi).
