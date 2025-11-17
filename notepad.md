@@ -24,8 +24,8 @@
 - `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `pc_navigator`: A unified tool to navigate the PC.
-- `systematic_search_tool`: Finds the next logical tile to check in a systematic search.
 - `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
+- `check_unseen_reachability`: Checks a list of unseen tile coordinates to determine which are adjacent to currently reachable tiles.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
