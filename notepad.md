@@ -87,3 +87,7 @@
 - **Team:** Metapod (14), Kakuna (14), Scyther (16).
 - **Scyther:** Uses Fury Cutter (resisted by Fire). Holds Berry.
 - **Tactic:** Spam Ember. Use Potions if needed against Quick Attack.
+
+# Achievements
+- Defeated Bugsy (Hive Badge) - Azalea Town
+- Obtained TM49 (Fury Cutter)
