@@ -87,3 +87,4 @@
 - **WALL:** Impassable rock walls.
 - **WATER:** Impassable (Needs Surf).
 - **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
+- **Quest Update:** Black Belt (Charcoal Kiln) is looking for his apprentice in Ilex Forest.
