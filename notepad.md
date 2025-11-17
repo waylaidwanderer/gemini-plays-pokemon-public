@@ -17,10 +17,9 @@
 - **Route 30:** Mr. Pokemon's House.
 - **Trade House:** Violet City (21, 29). Kyle wants Bellsprout for Onix.
 
-## Sprout Tower Exploration
-- **1F:** Explored.
-- **2F:** Cleared.
-- **3F:** Cleared.
+## Route 33 Mechanics
+- **TALL_GRASS:** Wild encounters.
+- **FRUIT_TREE:** Interact for items (Berries).
 
 ## Game Mechanics & Systems
 - **Tile Mechanics:**
