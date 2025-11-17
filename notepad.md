@@ -71,23 +71,16 @@
 - **Entities:** Team Rocket Grunts, Slowpokes (Tails cut).
 
 # Strategy Advisor Notes
-- **Bugsy Strategy:** Lead with Quilava (Ember). Spam Ember vs Metapod/Kakuna. Be aggressive vs Scyther (Fury Cutter is dangerous). Use Onix as shield if needed.
-- **Next Steps:** Go to Kurt's House (NW corner of Azalea). He triggers the Slowpoke Well event.
-- Path North: Gap in ledges at x=9.
+- **Bugsy Team:** Metapod (14), Kakuna (14), Scyther (16).
+- **Scyther Strategy:** Spam Ember. Watch out for Fury Cutter (resisted) and Quick Attack. It holds a Berry.
+- **Plan:** Defeat Bug Catcher, heal if needed, then Bugsy.
 
-# Kurt's House (8_4)
-- **Tile Mechanics:**
-  - **FLOOR:** Walkable.
-  - **WARP_CARPET_DOWN:** Exit to Azalea Town.
-  - **WALL:** Impassable.
+# Active Quests
+- **Apprentice:** Missing in Ilex Forest (Info from Black Belt in Charcoal Kiln).
 
-# Slowpoke Well B1F
-- **LADDER:** Warp to Azalea Town.
-- **FLOOR:** Walkable terrain.
-- **WALL:** Impassable rock walls.
-- **WATER:** Impassable (Needs Surf).
-- **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
-- **Quest Update:** Black Belt (Charcoal Kiln) is looking for his apprentice in Ilex Forest.
+# Azalea Gym Notes
+- **Leader:** Bugsy (Bug-type). Weak to Fire/Rock/Flying.
+- **Mechanics:** Spiders/Twins block paths.
 
 # Azalea Gym Notes
 - **Gym Guide:** Located near entrance at (7, 13).
