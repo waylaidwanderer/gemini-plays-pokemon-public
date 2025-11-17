@@ -224,5 +224,21 @@
         "action_counter": 46201
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_and_check_unseen():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError as e:\n        print(json.dumps({'error': f'XML parsing error: {e}'}))\n        return\n\n    unseen_coords_tuples = set()\n    player_pos, player_tile_type = None, None\n    grid, all_obstacles = {}, set()\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            coord = (x, y)\n            grid[coord] = tile_elem\n            if tile_elem.get('seen') == 'false':\n                unseen_coords_tuples.add(coord)\n            if tile_elem.find('Player') is not None:\n                player_pos = coord\n                player_tile_type = tile_elem.get('type')\n            if tile_elem.get('has-object') == 'true':\n                all_obstacles.add(coord)\n\n    if not player_pos:\n        print(json.dumps({'error': 'Player position not found.'}))\n        return\n\n    impassable_tile_types = {'WALL', 'VOID', 'PC', 'TV', 'COUNTER', 'BOOKSHELF', 'WINDOW', 'TOWN_MAP', 'POKEDEX', 'RADIO', 'PILLAR', 'MART_SHELF', 'INCENSE_BURNER', 'CUT_TREE', 'HEADBUTT_TREE', 'BUOY', 'unseen', 'WHIRLPOOL'}\n    if player_tile_type != 'WATER': impassable_tile_types.add('WATER')\n    impassable_warps = {'DOOR', 'STAIRCASE', 'PIT', 'CAVE', 'WARP_CARPET_LEFT', 'WARP_CARPET_DOWN'}\n\n    queue = deque([player_pos])\n    visited = {player_pos}\n    \n    while queue:\n        (x, y) = queue.popleft()\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (x + dx, y + dy)\n            if neighbor in visited:\n                continue\n            \n            tile = grid.get(neighbor)\n            if tile is None: continue\n            \n            tile_type = tile.get('type')\n            if tile_type in impassable_tile_types or neighbor in all_obstacles:\n                continue\n            if tile_type in impassable_warps: continue\n\n            if tile_type == 'FLOOR_UP_WALL' and dy != 1: continue\n            if tile_type == 'LEDGE_HOP_DOWN' and dy != 1: continue\n            if tile_type == 'LEDGE_HOP_LEFT' and dx != -1: continue\n            if tile_type == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n            \n            visited.add(neighbor)\n            queue.append(neighbor)\n            \n    reachable_unseen = []\n    for coord_tuple in sorted(list(unseen_coords_tuples)):\n        is_adj_to_reachable = False\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_coord = (coord_tuple[0] + dx, coord_tuple[1] + dy)\n            if adj_coord in visited:\n                is_adj_to_reachable = True\n                break\n        if is_adj_to_reachable:\n            reachable_unseen.append(list(coord_tuple))\n\n    print(json.dumps({'reachable_unseen_tiles': reachable_unseen}))\n\nfind_and_check_unseen()\n",
+    "history": [
+      {
+        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool combines the logic of finding all unseen tiles and checking their reachability into a single, more efficient script. This addresses a mandatory self-reflection on improving exploration strategy by automating the identification of viable new paths.",
+        "timestamp": "2025-11-17T23:32:19.856Z",
+        "action_counter": 49375
+      }
+    ]
   }
 }

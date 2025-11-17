@@ -11,6 +11,7 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
+- `stun_npc`
 
 ### Custom Agents
 - `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
@@ -19,11 +20,11 @@
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
 
 ### Custom Tools
+- `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
+- `pc_navigator`: A unified tool to navigate the PC.
 - `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `pc_navigator`: A unified tool to navigate the PC.
-- `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
-- `stun_npc`: Freezes an NPC's movement but does not make them traversable. CRITICAL: This tool only works on NPCs that are currently visible on the screen ('live objects').
+- `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
