@@ -184,3 +184,4 @@
 - **Step 1:** Delete `select_pc_option` (this turn).
 - **Step 2:** Define `pc_navigator` (next turn).
 - **Step 3:** Delete `pc_box_navigator` and `select_pc_box`.
+  34. Use the ITEMFINDER on the warp carpet at (7, 9). (Failed: ITEMFINDER did not respond).
