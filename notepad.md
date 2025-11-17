@@ -177,3 +177,4 @@
 - **BOX10:** Empty. (Checked Turn 46904)
 - **BOX11:** Empty. (Checked Turn 46910)
 - **BOX12:** Contains Aether (PIDGEY), KENYA (SPEAROW), HEXA (VENONAT). (Checked Turn 47178)
+  33. Talk to the receptionist with only the Eevee from Bill in the party. (Failed: Dialogue was unchanged).

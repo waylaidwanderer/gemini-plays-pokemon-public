@@ -389,7 +389,7 @@
     ]
   },
   "select_pc_option": {
-    "description": "Navigates simple vertical PC menus from a current position to a target option. Outputs button presses for use with autopress_buttons=true.",
+    "description": "Navigates simple vertical menus from a current position to a target option. Outputs button presses for use with autopress_buttons=true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -398,14 +398,19 @@
         },
         "target_option": {
           "type": "string"
+        },
+        "menu_options": {
+          "type": "string",
+          "description": "A stringified JSON array of the menu options in order."
         }
       },
       "required": [
         "current_cursor_position",
-        "target_option"
+        "target_option",
+        "menu_options"
       ]
     },
-    "python_script": "import json\n\noptions = [\n    \"WITHDRAW <PK><MN>\",\n    \"DEPOSIT <PK><MN>\",\n    \"CHANGE BOX\",\n    \"MOVE <PK><MN> W/O MAIL\",\n    \"SEE YA!\"\n]\n\ntry:\n    current_option = input_data['current_cursor_position']\n    target_option = input_data['target_option']\n\n    if current_option not in options or target_option not in options:\n        print(json.dumps({'error': 'Invalid option provided.'}))\n    else:\n        start_index = options.index(current_option)\n        target_index = options.index(target_option)\n        \n        moves = target_index - start_index\n        \n        buttons = []\n        if moves > 0:\n            for _ in range(moves):\n                buttons.append(\"Down\")\n        elif moves < 0:\n            for _ in range(abs(moves)):\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        \n        print(json.dumps(buttons))\n\nexcept KeyError as e:\n    print(json.dumps({'error': f'Missing input key: {e}'}))\nexcept Exception as e:\n    print(json.dumps({'error': str(e)}))",
+    "python_script": "import json\n\ntry:\n    menu_options = json.loads(input_data['menu_options'])\n    current_option = input_data['current_cursor_position']\n    target_option = input_data['target_option']\n\n    start_index = menu_options.index(current_option)\n    target_index = menu_options.index(target_option)\n\n    presses = []\n    diff = target_index - start_index\n\n    if diff > 0:\n        presses.extend([\"Down\"] * diff)\n    elif diff < 0:\n        presses.extend([\"Up\"] * abs(diff))\n    \n    presses.append(\"A\")\n    print(json.dumps(presses))\n\nexcept (ValueError, KeyError, json.JSONDecodeError) as e:\n    print(json.dumps({\"error\": f\"Tool failed: {str(e)}\"}))",
     "history": [
       {
         "commit_message": "feat: Create select_pc_option tool. This tool automates navigation within the main PC menu, addressing a major inefficiency identified during self-assessment. It calculates the necessary Up/Down presses to move from a current menu item to a target, streamlining PC interactions as a first step towards better automation.",
@@ -421,6 +426,11 @@
         "commit_message": "fix: Update PC menu options to match on-screen text. The tool was failing because its internal list of menu options did not exactly match the text displayed in the game, specifically the '<PK><MN>' sprite. This commit corrects the list, resolving the 'Invalid option' error.",
         "timestamp": "2025-11-17T03:52:51.762Z",
         "action_counter": 47688
+      },
+      {
+        "commit_message": "refactor: Generalize tool to accept dynamic menu options. The tool was previously hardcoded for the Pokémon Storage menu, causing it to fail on the main PC menu. This commit refactors the tool to accept a stringified JSON array of menu options as an argument, making it reusable for any simple vertical menu and resolving the critical failure.",
+        "timestamp": "2025-11-17T04:00:22.260Z",
+        "action_counter": 47704
       }
     ]
   },
