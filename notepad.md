@@ -12,9 +12,6 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
-- `select_battle_option`
-- `select_battle_option`
-- `select_battle_option`
 
 ### Custom Agents
 - `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
