@@ -165,3 +165,8 @@
   34. Use the ITEMFINDER on the warp carpet at (7, 9). (Failed: ITEMFINDER did not respond).
   35. Attempt to enter a battle with a party of two to create a fainted party member state. (Failed: Receptionist requires exactly three Pokémon, preventing the battle from starting).
   36. Create a fainted party member state by entering a battle with three Pokémon, letting one faint, then losing. (Failed: The save-glitch sequence forces the player to cancel the challenge, making it impossible to enter a battle and create the fainted party member state).
+
+### New Ideas (from self-assessment & agent)
+- **Tool Idea:** A `wall_checker_tool` that automates the process of pathing to, facing, and interacting with a sequence of wall tiles.
+- **Agent Idea:** A `systematic_search_planner` agent that takes the map layout and a list of checked tiles and outputs the next sequence of moves to check the next logical tile for a hidden interaction.
+- **Current Hypothesis (from agent):** Performing a non-glitched save via the PC might reset the state that causes the receptionist's save function to fail.
