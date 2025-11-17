@@ -1,9 +1,12 @@
 # Gem's Adventure Log
 
 ## Current Objectives
-- **Primary:** Journey to Azalea Town.
-- **Secondary:** Explore Union Cave.
-- **Tertiary:** Train Rocky (Onix).
+- **Primary:** Defeat Bugsy (Azalea Gym).
+- **Secondary:** Heal at Pokemon Center.
+- **Tertiary:** Explore Azalea Town.
+
+## Azalea Town Notes
+- **Arrival:** Came from East (Route 33).
 
 ## Completed Objectives
 - **Violet City Gym:** Defeated Falkner. Obtained Zephyr Badge & TM31.
