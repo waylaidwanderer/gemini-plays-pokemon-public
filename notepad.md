@@ -126,6 +126,7 @@
   13. Using FLY to escape from the lobby.
   14. Winning a battle in a challenge (concluded as failed because winning was impossible, and losing resets to the lobby with no change).
   15. Use the PC to deposit all Pokémon from the party into a box, then talk to the receptionist. (Failed: Game mechanics prevent depositing the last Pokémon in the party).
+  16. Initiating a challenge but declining the save prompt triggers a hidden event or state change. (Failed: Declining to save simply returns to the main challenge menu).
 
 - **New Hypotheses to Test:**
   1. There's a hidden switch/interactable I've missed. Test by pressing A on every tile.
