@@ -88,3 +88,9 @@
 - **WATER:** Impassable (Needs Surf).
 - **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
 - **Quest Update:** Black Belt (Charcoal Kiln) is looking for his apprentice in Ilex Forest.
+
+# Azalea Gym Notes
+- **Gym Guide:** Located near entrance at (7, 13).
+- **Twins:** Blocking the path north at (4, 10) and (5, 10).
+- **Type:** Bug (Weak to Fire, Rock, Flying).
+- **Strategy:** Use Kimchi (Quilava) with Ember.
