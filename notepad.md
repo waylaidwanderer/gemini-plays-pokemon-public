@@ -6,7 +6,7 @@
 - **Tertiary:** Explore Azalea Town.
 
 ## Charcoal Kiln (8_2) Notes
-- **NPCs:** Black Belt at (2, 3).
+- **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
 - **Objects:** Bookshelves, Radio.
 
 ## Azalea Town Notes
