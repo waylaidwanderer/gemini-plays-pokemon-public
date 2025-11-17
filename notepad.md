@@ -23,9 +23,7 @@
 ### Custom Tools
 - `plan_path_to_target`: Generates a path to a target coordinate.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `select_pc_option`: Navigates simple vertical menus from a current position to a target option.
-- `pc_box_navigator`: Navigates the cursor within a Pokémon storage box from a current slot to a target slot.
-- `select_pc_box`: Navigates the PC 'Choose a BOX' menu to switch to a target box number.
+- `pc_navigator`: A unified tool to navigate the PC. It can select options in vertical menus, move the cursor in the Pokémon box grid, and switch between boxes.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
