@@ -126,3 +126,4 @@
 
 ## 7.1 Tile Mechanics (Corrections)
 - **LADDER:** My previous classification was incomplete. This tile can function as a standard traversable floor (as seen on the Route 32 pier), not just a vertical warp.
+- **New Tool Idea: `check_unseen_reachability`**: A tool that analyzes the map and a list of unseen tiles to determine which ones are actually reachable from the player's current position. This will help prioritize exploration. (Created this turn)
