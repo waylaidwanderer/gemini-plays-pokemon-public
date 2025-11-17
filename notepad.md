@@ -91,8 +91,8 @@
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
-- WARP_CARPET_LEFT (one-way)
-- WARP_CARPET_RIGHT (one-way)
+- WARP_CARPET_LEFT (unverified one-way - MUST TEST)
+- WARP_CARPET_RIGHT (unverified one-way - MUST TEST)
 - WARP_CARPET_DOWN (two-way)
 ### Conditional & One-Way
 - LEDGE_HOP_DOWN (down only)
@@ -106,7 +106,7 @@
 - **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
 - **Position Hallucination (Turn 48018, 48435):** I have failed to verify my position, leading to failed actions and system warnings. This reinforces the need for constant reality checks against the game state.
 - **Goal Flexibility Failure (Turn 48125):** I have been hyper-focused on solving the Battle Tower escape puzzle, violating the core directive to pivot to a new goal when progress stalls. If my current systematic wall search fails, I MUST try a different approach or use the `puzzle_solver_agent` to generate new hypotheses.
-- **Tool Creation Success (Turn 48021, 48101):** I successfully identified a repetitive manual task (checking walls) and automated it by creating the `systematic_search_tool` (which replaced the earlier `wall_checker_tool`), a correct application of my directives.
+- **Tool Creation Success (Turn 48021, 48101, 49061):** I successfully identified repetitive manual tasks (checking walls, checking unseen reachability) and automated them by creating tools, a correct application of my directives.
 - **New Tool Idea: `persistent_path_executor`**: A tool that can handle moving NPCs by automatically re-planning its path if blocked. This would streamline navigation in areas with many moving obstacles.
 
 ## 9. Lessons Learned
