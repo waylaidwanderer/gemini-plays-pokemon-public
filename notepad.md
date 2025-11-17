@@ -80,20 +80,10 @@
 - Bird Keeper Peter: Pidgey (Lv6), Pidgey (Lv6), Spearow (Lv8). Defeated with Rocky (Lv8).
 - Identified warp at (6, 79) on Route 32 (West side). Inaccessible from current position due to ledges. Marked for future return.
 
-# Union Cave Notes
-- Entered via Route 32 (West).
-- Warps: Exit to Route 32 at (17, 3).
-- Found X Attack at (4, 2).
-- Defeated Hiker Russell (Geodude x3).
-- Defeated Firebreather Ray (Vulpix Lv9).
-
-## Area and Navigation Insights
-- **Tile Mechanics:**
-  - **FLOOR:** Walkable terrain.
-  - **WALL:** Impassable obstacle.
-  - **WATER:** Impassable. Requires Surf.
-  - **WARP_CARPET_DOWN:** Exit warp.
-- Arrived on Route 33 from Union Cave.
+# Union Cave (Summarized)
+- Cleared trainers (Hiker Russell, Firebreather Ray).
+- Found X Attack.
+- Exited to Route 33.
 
 # Route 33 Notes
 ## Area and Navigation Insights
