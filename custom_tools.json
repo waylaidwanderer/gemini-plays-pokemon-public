@@ -269,28 +269,6 @@
       }
     ]
   },
-  "pc_select_box": {
-    "description": "Navigates the 'Change Box' PC menu to a specific box number. Assumes the cursor starts at BOX1. Outputs button presses for use with autopress_buttons=true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_box_number": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_box_number"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    target_box = int(input_data['target_box_number'])\n    if not 1 <= target_box <= 12:\n        print(json.dumps({'error': 'Target box must be between 1 and 12.'}))\n    else:\n        # Assumes cursor starts at BOX1\n        num_down_presses = target_box - 1\n        buttons = ['Down'] * num_down_presses\n        buttons.append('A') # To select the box\n        print(json.dumps(buttons))\nexcept (ValueError, KeyError):\n    print(json.dumps({'error': 'Invalid input. Please provide a valid target_box_number.'}))",
-    "history": [
-      {
-        "commit_message": "feat: Create pc_select_box tool. This tool automates navigating to a specific box in the PC's 'Change Box' menu, addressing the inefficiency of manual navigation pointed out by the Overwatch critique. This is the first step in building a suite of PC automation tools.",
-        "timestamp": "2025-11-16T21:11:32.810Z",
-        "action_counter": 46924
-      }
-    ]
-  },
   "plan_path_to_target": {
     "description": "Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, avoids pathing through warp tiles that would trigger a transition, dynamically handles water traversal, and now dynamically detects map boundaries to correctly handle negative coordinates.",
     "input_schema": {
@@ -447,6 +425,32 @@
         "commit_message": "feat: Create select_pc_option tool. This tool automates navigation within the main PC menu, addressing a major inefficiency identified during self-assessment. It calculates the necessary Up/Down presses to move from a current menu item to a target, streamlining PC interactions as a first step towards better automation.",
         "timestamp": "2025-11-17T00:04:42.366Z",
         "action_counter": 47239
+      }
+    ]
+  },
+  "pc_box_navigator": {
+    "description": "Navigates the cursor within a Pokémon storage box from a current slot to a target slot. The box is a 5x4 grid (20 slots). Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_slot": {
+          "type": "string"
+        },
+        "target_slot": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_slot",
+        "target_slot"
+      ]
+    },
+    "python_script": "import json\n\ndef navigate_box():\n    try:\n        current_slot = int(input_data['current_slot'])\n        target_slot = int(input_data['target_slot'])\n    except (ValueError, KeyError):\n        print(json.dumps({'error': 'Invalid input: slots must be integers.'}))\n        return\n\n    if not (1 <= current_slot <= 20 and 1 <= target_slot <= 20):\n        print(json.dumps({'error': 'Slots must be between 1 and 20.'}))\n        return\n\n    # Convert slot number (1-20) to grid coordinates (row, col)\n    # Grid is 4 rows, 5 columns. Slot 1 is (0,0), Slot 6 is (1,0) etc.\n    current_row = (current_slot - 1) // 5\n    current_col = (current_slot - 1) % 5\n    target_row = (target_slot - 1) // 5\n    target_col = (target_slot - 1) % 5\n\n    row_diff = target_row - current_row\n    col_diff = target_col - current_col\n\n    buttons = []\n    if row_diff > 0:\n        buttons.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        buttons.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        buttons.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        buttons.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps(buttons))\n\nnavigate_box()",
+    "history": [
+      {
+        "commit_message": "feat: Create pc_box_navigator tool. This tool automates cursor movement within the PC storage box grid, addressing a major inefficiency identified during the mandatory self-assessment. This is a foundational component for building more complex PC automation workflows.",
+        "timestamp": "2025-11-17T00:46:35.521Z",
+        "action_counter": 47345
       }
     ]
   }
