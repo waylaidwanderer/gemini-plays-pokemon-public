@@ -68,10 +68,9 @@
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
 
-## 5. Current Leading Hypothesis & Untested Assumptions
-- **Lighthouse Exit:** Current assumption is the only way out is floor-by-floor descent. **Alternative Hypothesis:** A pit might drop me multiple floors or to the exit. **Test:** Investigate all pits encountered during descent.
-- **FLY HM:** Current assumption is it's story-disabled. **Alternative Hypothesis:** It only works in open-air locations, not indoors. **Test:** Attempt to use FLY immediately upon exiting the lighthouse.
-- **Azalea Gym:** The statues at the entrance might be switches. Alt: They do nothing, and the puzzle is floor-based or involves trainer interaction order.
+## 5. New Hypotheses & Future Tests
+- **Bugged Youngster (Route 32):** Current assumption is the interaction is permanently bugged. **Alternative Hypothesis:** The bug might be state-dependent (e.g., resets after leaving the map, time-of-day). **Test (Low Priority):** After making more progress, return to Route 32 and attempt to interact with the Youngster at (3, 45) again.
+- **Path to Mahogany Town:** Current assumption is the only path is south through Route 32 and Union Cave. **Alternative Hypothesis:** The water route east of Ecruteak City (Route 42) might now be passable with SURF. The 'DARK CAVE leads to another road' lead is also a viable alternative. **Test:** If the southern path becomes blocked, prioritize exploring Dark Cave or returning to Route 42.
 
 ## 6. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
