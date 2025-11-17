@@ -134,8 +134,9 @@
   22. Initiate a challenge with a party of one Pokémon. (Result: Triggered unique 'You're not ready' dialogue, but did not solve the escape).
   23. Initiate a challenge with a party of two Pokémon. (Result: Triggered the same 'You're not ready' dialogue, disproving the invalid party size hypothesis).
 
+  24. Talk to the receptionist with a valid party, select a challenge level, and when asked 'Is your party ready?', select the 'No' option. (Failed: The game never presented the 'Is your party ready?' prompt, making the test impossible. It skipped from level select to a cancel screen after the save glitch).
+
 - **New Hypotheses to Test:**
-  1. Talk to the receptionist with a valid party, select a challenge level, and when asked 'Is your party ready?', select the 'No' option. (Agent suggestion)
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
