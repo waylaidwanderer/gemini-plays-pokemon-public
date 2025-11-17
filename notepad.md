@@ -56,22 +56,8 @@
 - **Tile Mechanics:**
   - **FLOOR:** Standard walkable terrain.
 
-# Ruins of Alph
-## Area and Navigation Insights
-- **Map ID:** 3_22
-- **Warps:** Cave entrances at (10, 13) and (6, 19).
-- **Signs:** Sign at (12, 16).
-
-# Ruins of Alph Interior
-- **Map ID:** 3_27
-- **Warps:** Ladder at (10, 13) to Outside.
-- **Observations:**
-  - Main chamber has statues and a teacher.
-  - Back chamber has markings but floor warps are currently inactive.
-  - No puzzle panels found here yet.
-- **Tile Mechanics:**
-  - **LADDER:** Warp tile.
-- **FLOOR_UP_WALL:** Impassable from the North. Likely acts as a wall facing 'up'.
+# Ruins of Alph (Summarized)
+- Explored main chamber, solved nothing yet. Returns later.
 
 # Route 32 Pokémon Center
 ## Area and Navigation Insights
