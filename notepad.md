@@ -91,6 +91,7 @@
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
+- WARP_CARPET_LEFT (one-way)
 - WARP_CARPET_RIGHT (one-way)
 - WARP_CARPET_DOWN (two-way)
 ### Conditional & One-Way
