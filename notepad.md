@@ -136,3 +136,9 @@
   - **Hiker Anthony:** Registered phone number.
 - **Next Step:** Proceeding West to Azalea Town.
 - **Pokemon Center:** Found at (15, 9).
+
+# Azalea Town Pokemon Center
+- **Tile Mechanics:**
+  - **WARP_CARPET_DOWN:** Exit to Azalea Town.
+  - **LADDER:** Warp to 2F.
+  - **COUNTER:** Impassable obstacle. Interact with Nurse Joy from across it.
