@@ -118,52 +118,6 @@
       }
     ]
   },
-  "select_pc_option": {
-    "description": "Navigates simple vertical menus from a current position to a target option. Outputs button presses for use with autopress_buttons=true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_cursor_position": {
-          "type": "string"
-        },
-        "target_option": {
-          "type": "string"
-        },
-        "menu_options": {
-          "type": "string",
-          "description": "A stringified JSON array of the menu options in order."
-        }
-      },
-      "required": [
-        "current_cursor_position",
-        "target_option",
-        "menu_options"
-      ]
-    },
-    "python_script": "import json\n\ntry:\n    menu_options = json.loads(input_data['menu_options'])\n    current_option = input_data['current_cursor_position']\n    target_option = input_data['target_option']\n\n    start_index = menu_options.index(current_option)\n    target_index = menu_options.index(target_option)\n\n    presses = []\n    diff = target_index - start_index\n\n    if diff > 0:\n        presses.extend([\"Down\"] * diff)\n    elif diff < 0:\n        presses.extend([\"Up\"] * abs(diff))\n    \n    presses.append(\"A\")\n    print(json.dumps(presses))\n\nexcept (ValueError, KeyError, json.JSONDecodeError) as e:\n    print(json.dumps({\"error\": f\"Tool failed: {str(e)}\"}))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_pc_option tool. This tool automates navigation within the main PC menu, addressing a major inefficiency identified during self-assessment. It calculates the necessary Up/Down presses to move from a current menu item to a target, streamlining PC interactions as a first step towards better automation.",
-        "timestamp": "2025-11-17T00:04:42.366Z",
-        "action_counter": 47239
-      },
-      {
-        "commit_message": "fix: Correct NameError and update menu options. The variable `end_index` was used but never defined; replaced with `target_index` to resolve the critical failure. Also updated the internal list of menu options to match the main PC menu, correcting a design flaw where the tool was built for the wrong screen.",
-        "timestamp": "2025-11-17T02:00:40.409Z",
-        "action_counter": 47482
-      },
-      {
-        "commit_message": "fix: Update PC menu options to match on-screen text. The tool was failing because its internal list of menu options did not exactly match the text displayed in the game, specifically the '<PK><MN>' sprite. This commit corrects the list, resolving the 'Invalid option' error.",
-        "timestamp": "2025-11-17T03:52:51.762Z",
-        "action_counter": 47688
-      },
-      {
-        "commit_message": "refactor: Generalize tool to accept dynamic menu options. The tool was previously hardcoded for the Pokémon Storage menu, causing it to fail on the main PC menu. This commit refactors the tool to accept a stringified JSON array of menu options as an argument, making it reusable for any simple vertical menu and resolving the critical failure.",
-        "timestamp": "2025-11-17T04:00:22.260Z",
-        "action_counter": 47704
-      }
-    ]
-  },
   "pc_box_navigator": {
     "description": "Navigates the cursor within a Pokémon storage box from a current slot to a target slot. The box is a 5x4 grid (20 slots). Outputs button presses for use with autopress_buttons=true.",
     "input_schema": {
