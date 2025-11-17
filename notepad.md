@@ -14,7 +14,6 @@
 - `select_battle_option`
 
 ### Custom Agents
-
 - `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
 - `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
 - `navigation_strategist`: A unified navigation advisor.
