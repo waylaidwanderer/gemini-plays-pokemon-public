@@ -110,7 +110,7 @@
 
 ## 9. Lessons Learned
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
-- **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
+- **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_with_warnings` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 
 ## 10. Archived Puzzle Logs
 ### Battle Tower Escape: SOLVED
