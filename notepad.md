@@ -27,6 +27,7 @@
 - `systematic_search_tool`: Finds the next logical tile to check in a systematic search.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
+- **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **BATTLE TOWER SAVE CORRUPTION (CRITICAL):** Saving the game to start the battle challenge is a **guaranteed trigger** for a game-breaking glitch that corrupts all player data. My previous hypothesis that a valid party would prevent this was **incorrect**. The glitch is unavoidable. The only way to reverse the corruption is to press 'B' at the level select menu and then select 'YES' to cancel the challenge.
 - **BATTLE TOWER ESCAPE (CORRECTION):** The save-glitch cancel-out method is a reset mechanism, NOT an escape route. It restores the game state but does not move the receptionist. The path remains blocked and the puzzle is UNSOLVED.
@@ -66,7 +67,6 @@
 - **Route 42:** Path to Mahogany Town blocked by water (needs SURF).
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
-- **Battle Tower:** The receptionist at (7, 6) on BattleTower1F stated that only three Pokémon may be entered. This is a confirmed prerequisite.
 
 ## 5. Current Leading Hypothesis & Untested Assumptions
 - **FLY HM:** I'm assuming FLY isn't working due to a story event or a bug. **Alternative Hypothesis:** Maybe it only works from certain locations (like cities) or I'm missing a prerequisite I'm unaware of.
@@ -92,7 +92,7 @@
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
 - WARP_CARPET_RIGHT (one-way)
-- WARP_CARPET_DOWN (one-way)
+- WARP_CARPET_DOWN (two-way)
 ### Conditional & One-Way
 - FLOOR_UP_WALL (ledge, down only)
 - LEDGE_HOP_DOWN (down only)
@@ -100,16 +100,7 @@
 - LEDGE_HOP_RIGHT (right only)
 - WATER (impassable without SURF)
 
-## 8. Current Puzzle: Battle Tower Escape
-- **Objective:** Exit the Battle Tower lobby.
-- **State:** UNSOLVED. Receptionist at (7, 6) blocks the exit.
-- **Current Hypothesis:** There is a hidden switch on one of the walls. I am conducting a systematic search.
-- **Alternative Hypotheses (if wall search fails):**
-  1. The escape is triggered by a specific sequence of interactions with objects (PCs, sign).
-  2. The escape is triggered by interacting with an NPC while a specific condition is met (e.g., a certain Pokémon in the party).
-  3. The escape involves another non-intuitive mechanic or glitch similar to the save-glitch entry method.
-
-## 9. Reflection Log & New Ideas
+## 8. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
 - **Tool Maintenance Failure (Turn 45905, 46603, 46786):** I identified critical flaws in my tools but deferred the fixes, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
 - **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
@@ -117,12 +108,14 @@
 - **Goal Flexibility Failure (Turn 48125):** I have been hyper-focused on solving the Battle Tower escape puzzle, violating the core directive to pivot to a new goal when progress stalls. If my current systematic wall search fails, I MUST try a different approach or use the `puzzle_solver_agent` to generate new hypotheses.
 - **Tool Creation Success (Turn 48021, 48101):** I successfully identified a repetitive manual task (checking walls) and automated it by creating the `wall_checker_tool` and `systematic_search_tool`, which is a correct application of my directives.
 
-## 10. Lessons Learned
+## 9. Lessons Learned
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 
-## 11. Archived Puzzle Logs
-### Battle Tower Escape: Failed Hypotheses
+## 10. Archived Puzzle Logs
+### Battle Tower Escape: SOLVED
+- **Solution:** The warp carpets at (7, 9) and (8, 9) were two-way warps. The solution was to simply walk onto them. My core assumption that they were one-way entrances was never tested and was incorrect.
+- **Failed Hypotheses (41 total):**
   1. Losing a battle (resets to lobby, no change).
   2. Performing the save-glitch cancel sequence (resets to lobby menu, no change).
   3. Performing the sequence, then selecting 'Cancel' from her menu.
@@ -162,3 +155,5 @@
   37. Performing a non-glitched save via the PC might reset the state that causes the receptionist's save function to fail. (Failed: The save-glitch sequence still occurred and forced a cancellation).
   38. Trigger the glitched save sequence with the receptionist, then immediately access and exit BILL's PC, then talk to the receptionist again. (Failed: Receptionist's dialogue and position were unchanged).
   39. Trigger the save-glitch sequence, cancel out, then talk to the Granny. (Failed: Granny's dialogue was unchanged, disproving the hypothesis that the glitch affects other NPCs).
+  40. Systematically check every accessible wall tile for a hidden switch. (Failed: No switches were found).
+  41. Trigger the save-glitch sequence, cancel out, then talk to the Granny to see if her state has changed. (Failed: Granny's dialogue was unchanged).
