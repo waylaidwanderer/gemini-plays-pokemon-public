@@ -70,11 +70,6 @@
   - **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
 - **Entities:** Team Rocket Grunts, Slowpokes (Tails cut).
 
-# Strategy Advisor Notes
-- **Bugsy Team:** Metapod (14), Kakuna (14), Scyther (16).
-- **Scyther Strategy:** Spam Ember. Watch out for Fury Cutter (resisted) and Quick Attack. It holds a Berry.
-- **Plan:** Defeat Bug Catcher, heal if needed, then Bugsy.
-
 # Active Quests
 - **Apprentice:** Missing in Ilex Forest (Info from Black Belt in Charcoal Kiln).
 

@@ -158,30 +158,26 @@
       }
     ]
   },
-  "type_text": {
-    "description": "Generates the button sequence to type a given text string on the in-game keyboard. Assumes the standard Gen 2 keyboard layout (A-I, J-R, S-Z, symbols). Handles navigation between characters.",
+  "press_sequence": {
+    "description": "Executes a custom sequence of button presses. Input is a comma-separated string of buttons (e.g., \"A,Down,Down,A\"). Supports \"sleep <ms>\" as a step. ENABLE autopress_buttons: true.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "text": {
+        "sequence": {
           "type": "string",
-          "description": "The text to type."
-        },
-        "start_char": {
-          "type": "string",
-          "description": "The character the cursor is currently on. Default is 'A'."
+          "description": "Comma-separated list of buttons to press."
         }
       },
       "required": [
-        "text"
+        "sequence"
       ]
     },
-    "python_script": "import json\n\ntext = input_data['text'].upper()\nstart_char = input_data.get('start_char', 'A').upper()\n\n# Keyboard layout mapping (Char -> (row, col))\nlayout = {}\nrows = [\n    \"ABCDEFGHI\",\n    \"JKLMNOPQR\",\n    \"STUVWXYZ \"\n]\n# Add letters\nfor r, row_str in enumerate(rows):\n    for c, char in enumerate(row_str):\n        if char != ' ':\n            layout[char] = (r, c)\n\n# Add special handling for other rows if needed, but focusing on letters for now\n# Current known layout covers A-Z.\n\nbuttons = []\ncurr_r, curr_c = layout.get(start_char, (0, 0))\n\nfor char in text:\n    if char not in layout:\n        continue # Skip unknown chars for now\n    \n    target_r, target_c = layout[char]\n    \n    # Vertical movement\n    dy = target_r - curr_r\n    if dy > 0:\n        buttons.extend(['Down'] * dy)\n    elif dy < 0:\n        buttons.extend(['Up'] * abs(dy))\n        \n    # Horizontal movement\n    dx = target_c - curr_c\n    if dx > 0:\n        buttons.extend(['Right'] * dx)\n    elif dx < 0:\n        buttons.extend(['Left'] * abs(dx))\n        \n    buttons.append('A')\n    curr_r, curr_c = target_r, target_c\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nseq = input_data['sequence'].split(',')\nprint(json.dumps([s.strip() for s in seq]))",
     "history": [
       {
-        "commit_message": "feat: Add type_text tool to automate string entry on the keyboard grid.",
-        "timestamp": "2025-11-14T22:08:22.338Z",
-        "action_counter": 615
+        "commit_message": "Initial version",
+        "timestamp": "2025-11-17T21:01:18.372Z",
+        "action_counter": 2029
       }
     ]
   }
