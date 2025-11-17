@@ -80,3 +80,6 @@
 # Slowpoke Well B1F
 - **LADDER:** Warp to Azalea Town.
 - **FLOOR:** Walkable terrain.
+- **WALL:** Impassable rock walls.
+- **WATER:** Impassable (Needs Surf).
+- **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
