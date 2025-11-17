@@ -1,4 +1,55 @@
 {
+  "pc_navigator": {
+    "description": "A unified tool to navigate the PC. It can select options in vertical menus, move the cursor in the Pokémon box grid, and switch between boxes. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "menu_select",
+            "box_navigate",
+            "box_select"
+          ]
+        },
+        "current_cursor_position": {
+          "type": "string",
+          "nullable": true
+        },
+        "target_option": {
+          "type": "string",
+          "nullable": true
+        },
+        "menu_options": {
+          "type": "string",
+          "nullable": true
+        },
+        "current_slot": {
+          "type": "string",
+          "nullable": true
+        },
+        "target_slot": {
+          "type": "string",
+          "nullable": true
+        },
+        "target_box_number": {
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [
+        "mode"
+      ]
+    },
+    "python_script": "import json\n\nmode = input_data.get(\"mode\")\nbuttons = []\nerror_msg = None\n\nif mode == \"menu_select\":\n    current_option = input_data.get(\"current_cursor_position\")\n    target_option = input_data.get(\"target_option\")\n    menu_options_str = input_data.get(\"menu_options\", \"[]\")\n    if not all([current_option, target_option, menu_options_str]):\n        error_msg = \"Missing arguments for menu_select mode.\"\n    else:\n        try:\n            menu_options = json.loads(menu_options_str)\n            current_index = menu_options.index(current_option)\n            target_index = menu_options.index(target_option)\n            diff = target_index - current_index\n            if diff > 0:\n                buttons.extend([\"Down\"] * diff)\n            elif diff < 0:\n                buttons.extend([\"Up\"] * abs(diff))\n            buttons.append(\"A\")\n        except (ValueError, json.JSONDecodeError):\n            error_msg = \"Invalid current/target option or menu_options JSON.\"\n\nelif mode == \"box_navigate\":\n    current_slot_str = input_data.get(\"current_slot\")\n    target_slot_str = input_data.get(\"target_slot\")\n    if not all([current_slot_str, target_slot_str]):\n        error_msg = \"Missing arguments for box_navigate mode.\"\n    else:\n        try:\n            current_slot = int(current_slot_str)\n            target_slot = int(target_slot_str)\n            current_x = (current_slot - 1) % 5\n            current_y = (current_slot - 1) // 5\n            target_x = (target_slot - 1) % 5\n            target_y = (target_slot - 1) // 5\n            x_diff = target_x - current_x\n            y_diff = target_y - current_y\n            if x_diff > 0: buttons.extend([\"Right\"] * x_diff)\n            elif x_diff < 0: buttons.extend([\"Left\"] * abs(x_diff))\n            if y_diff > 0: buttons.extend([\"Down\"] * y_diff)\n            elif y_diff < 0: buttons.extend([\"Up\"] * abs(y_diff))\n        except ValueError:\n            error_msg = \"Invalid slot number.\"\n\nelif mode == \"box_select\":\n    target_box_str = input_data.get(\"target_box_number\")\n    if not target_box_str:\n        error_msg = \"Missing target_box_number for box_select mode.\"\n    else:\n        try:\n            target_box = int(target_box_str)\n            buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"]) # Select SWITCH BOX & enter screen\n            if target_box > 1:\n                buttons.extend([\"Right\"] * (target_box - 1))\n            buttons.append(\"A\")\n        except ValueError:\n            error_msg = \"Invalid box number.\"\n\nelse:\n    error_msg = \"Invalid mode specified.\"\n\nif error_msg:\n    print(json.dumps({\"error\": error_msg}))\nelse:\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Consolidate PC navigation tools into pc_navigator. This addresses a major inefficiency identified by an Overwatch critique. The new tool combines the functionality of `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single, mode-based tool, fulfilling the core directive of immediate tool maintenance and improving overall efficiency.",
+        "timestamp": "2025-11-17T05:16:58.132Z",
+        "action_counter": 47853
+      }
+    ]
+  },
   "plan_path_to_target": {
     "description": "Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, avoids pathing through warp tiles that would trigger a transition, dynamically handles water traversal, and now dynamically detects map boundaries to correctly handle negative coordinates.",
     "input_schema": {
@@ -115,57 +166,6 @@
         "commit_message": "feat: Re-add 'A' button press and update description. The tool was previously modified to remove the 'A' press due to a misunderstanding of system limitations. The `autopress_buttons` feature explicitly allows mixing directional and action inputs, making this change possible. This resolves the redundancy noted in the Overwatch critique by fully automating move selection and execution in a single call.",
         "timestamp": "2025-11-16T12:43:40.977Z",
         "action_counter": 46201
-      }
-    ]
-  },
-  "pc_navigator": {
-    "description": "A unified tool to navigate the PC. It can select options in vertical menus, move the cursor in the Pokémon box grid, and switch between boxes. Outputs button presses for use with autopress_buttons=true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "mode": {
-          "type": "string",
-          "enum": [
-            "menu_select",
-            "box_navigate",
-            "box_select"
-          ]
-        },
-        "current_cursor_position": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_option": {
-          "type": "string",
-          "nullable": true
-        },
-        "menu_options": {
-          "type": "string",
-          "nullable": true
-        },
-        "current_slot": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_slot": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_box_number": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "mode"
-      ]
-    },
-    "python_script": "import json\n\nmode = input_data.get(\"mode\")\nbuttons = []\nerror_msg = None\n\nif mode == \"menu_select\":\n    current_option = input_data.get(\"current_cursor_position\")\n    target_option = input_data.get(\"target_option\")\n    menu_options_str = input_data.get(\"menu_options\", \"[]\")\n    if not all([current_option, target_option, menu_options_str]):\n        error_msg = \"Missing arguments for menu_select mode.\"\n    else:\n        try:\n            menu_options = json.loads(menu_options_str)\n            current_index = menu_options.index(current_option)\n            target_index = menu_options.index(target_option)\n            diff = target_index - current_index\n            if diff > 0:\n                buttons.extend([\"Down\"] * diff)\n            elif diff < 0:\n                buttons.extend([\"Up\"] * abs(diff))\n            buttons.append(\"A\")\n        except (ValueError, json.JSONDecodeError):\n            error_msg = \"Invalid current/target option or menu_options JSON.\"\n\nelif mode == \"box_navigate\":\n    current_slot_str = input_data.get(\"current_slot\")\n    target_slot_str = input_data.get(\"target_slot\")\n    if not all([current_slot_str, target_slot_str]):\n        error_msg = \"Missing arguments for box_navigate mode.\"\n    else:\n        try:\n            current_slot = int(current_slot_str)\n            target_slot = int(target_slot_str)\n            current_x = (current_slot - 1) % 5\n            current_y = (current_slot - 1) // 5\n            target_x = (target_slot - 1) % 5\n            target_y = (target_slot - 1) // 5\n            x_diff = target_x - current_x\n            y_diff = target_y - current_y\n            if x_diff > 0: buttons.extend([\"Right\"] * x_diff)\n            elif x_diff < 0: buttons.extend([\"Left\"] * abs(x_diff))\n            if y_diff > 0: buttons.extend([\"Down\"] * y_diff)\n            elif y_diff < 0: buttons.extend([\"Up\"] * abs(y_diff))\n        except ValueError:\n            error_msg = \"Invalid slot number.\"\n\nelif mode == \"box_select\":\n    target_box_str = input_data.get(\"target_box_number\")\n    if not target_box_str:\n        error_msg = \"Missing target_box_number for box_select mode.\"\n    else:\n        try:\n            target_box = int(target_box_str)\n            buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"]) # Select SWITCH BOX & enter screen\n            if target_box > 1:\n                buttons.extend([\"Right\"] * (target_box - 1))\n            buttons.append(\"A\")\n        except ValueError:\n            error_msg = \"Invalid box number.\"\n\nelse:\n    error_msg = \"Invalid mode specified.\"\n\nif error_msg:\n    print(json.dumps({\"error\": error_msg}))\nelse:\n    print(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Consolidate PC navigation tools into pc_navigator. This addresses a major inefficiency identified by an Overwatch critique. The new tool combines the functionality of `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single, mode-based tool, fulfilling the core directive of immediate tool maintenance and improving overall efficiency.",
-        "timestamp": "2025-11-17T05:16:58.132Z",
-        "action_counter": 47853
       }
     ]
   }
