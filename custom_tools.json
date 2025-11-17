@@ -168,5 +168,41 @@
         "action_counter": 46201
       }
     ]
+  },
+  "wall_checker_tool": {
+    "description": "Automates the process of checking a wall for a hidden switch. It paths to the adjacent tile, faces the wall, and presses 'A'. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef run_tool():\n    try:\n        root = ET.fromstring(map_xml_string)\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n    except (ET.ParseError, ValueError, KeyError):\n        print(json.dumps(['B']))\n        return\n\n    player_pos = None\n    grid = {}\n    all_obstacles = set()\n    all_x, all_y = [], []\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        all_y.append(y)\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            all_x.append(x)\n            grid[(x, y)] = tile_elem\n            if tile_elem.find('Player') is not None:\n                player_pos = (x, y)\n            if tile_elem.get('has-object') == 'true':\n                all_obstacles.add((x, y))\n\n    if not player_pos: \n        print(json.dumps(['B']))\n        return\n        \n    min_x, max_x = min(all_x), max(all_x)\n    min_y, max_y = min(all_y), max(all_y)\n\n    impassable_tile_types = {'WALL', 'VOID', 'PC', 'TV', 'COUNTER', 'BOOKSHELF', 'WINDOW', 'unseen'}\n    impassable_warps = {'DOOR', 'LADDER', 'STAIRCASE', 'PIT'}\n\n    best_adj_tile = None\n    facing_direction = None\n    for dx, dy, direction in [(0, 1, 'Up'), (0, -1, 'Down'), (1, 0, 'Left'), (-1, 0, 'Right')]:\n        adj_x, adj_y = target_x + dx, target_y + dy\n        adj_tile = grid.get((adj_x, adj_y))\n        if adj_tile and adj_tile.get('type') not in impassable_tile_types and (adj_x, adj_y) not in all_obstacles:\n            best_adj_tile = (adj_x, adj_y)\n            facing_direction = direction\n            break\n    \n    if not best_adj_tile:\n        print(json.dumps(['B']))\n        return\n\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n\n    path_coords = None\n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == best_adj_tile:\n            path_coords = path + [(x, y)]\n            break\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = x + dx, y + dy\n            neighbor = (next_x, next_y)\n            if not (min_x <= next_x <= max_x and min_y <= next_y <= max_y): continue\n            if neighbor in visited: continue\n            tile = grid.get(neighbor)\n            if not tile: continue\n            \n            tile_type = tile.get('type')\n            is_obstacle = neighbor in all_obstacles\n            if tile_type in impassable_tile_types: continue\n            if is_obstacle: continue\n            if tile_type in impassable_warps and neighbor != best_adj_tile: continue\n\n            visited.add(neighbor)\n            new_path = path + [(x, y)]\n            queue.append((neighbor, new_path))\n\n    if path_coords and facing_direction:\n        buttons = []\n        current_x, current_y = player_pos\n        for next_x, next_y in path_coords[1:]:\n            if next_y < current_y: buttons.append('Up')\n            elif next_y > current_y: buttons.append('Down')\n            elif next_x < current_x: buttons.append('Left')\n            elif next_x > current_x: buttons.append('Right')\n            current_x, current_y = next_x, next_y\n        buttons.append(facing_direction)\n        buttons.append('A')\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps(['B']))\n\nrun_tool()",
+    "history": [
+      {
+        "commit_message": "feat: Create wall_checker_tool. This tool automates the repetitive and error-prone process of systematically checking wall tiles for hidden interactions. It finds a path to a valid tile adjacent to the target wall, faces the wall, and presses 'A'. This directly addresses the inefficiency and recent hallucination error identified during the mandatory self-assessment, improving both the speed and reliability of the ongoing puzzle-solving effort.",
+        "timestamp": "2025-11-17T06:42:55.023Z",
+        "action_counter": 48021
+      },
+      {
+        "commit_message": "fix: Add verbose debug logging to pathfinding loop. The tool previously failed silently, making it impossible to diagnose why it couldn't find a valid path that other tools could. This commit adds detailed print statements to log exactly why each potential neighbor tile is being rejected or accepted, which is essential for identifying and fixing the root cause of the pathfinding failure.",
+        "timestamp": "2025-11-17T06:44:31.051Z",
+        "action_counter": 48023
+      },
+      {
+        "commit_message": "fix: Replace faulty pathfinding logic with proven code. The tool's internal pathfinding was repeatedly failing. This commit replaces the buggy A* implementation with the simpler, more reliable BFS logic adapted directly from the `plan_path_to_target` tool, which is known to function correctly in this environment. This should resolve the persistent pathing failures.",
+        "timestamp": "2025-11-17T06:47:10.691Z",
+        "action_counter": 48025
+      }
+    ]
   }
 }
