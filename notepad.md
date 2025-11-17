@@ -137,8 +137,11 @@
 - **Next Step:** Proceeding West to Azalea Town.
 - **Pokemon Center:** Found at (15, 9).
 
-# Azalea Town Pokemon Center
+# Azalea Town Pokemon Center (Map 8_1)
 - **Tile Mechanics:**
+  - **FLOOR:** Walkable.
   - **WARP_CARPET_DOWN:** Exit to Azalea Town.
   - **LADDER:** Warp to 2F.
   - **COUNTER:** Impassable obstacle. Interact with Nurse Joy from across it.
+  - **WALL:** Impassable.
+- **NPCs:** Nurse Joy, Fishing Guru, Pokefan F.
