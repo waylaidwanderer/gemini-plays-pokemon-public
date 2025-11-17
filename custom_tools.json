@@ -1,274 +1,4 @@
 {
-  "deterministic_battle_strategist": {
-    "description": "A deterministic, non-LLM tool that analyzes battle state and recommends the next action (FIGHT/RUN) and move. NOTE: This tool is best for simple wild encounters and may provide suboptimal or dangerous advice in complex trainer battles with unusual movesets (e.g., Counter, Destiny Bond). Use the `battle_puzzle_agent` for more strategic encounters.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "my_pokemon_name": {
-          "type": "string"
-        },
-        "my_pokemon_level": {
-          "type": "integer"
-        },
-        "my_pokemon_hp_current": {
-          "type": "integer"
-        },
-        "my_pokemon_hp_max": {
-          "type": "integer"
-        },
-        "opponent_pokemon_name": {
-          "type": "string"
-        },
-        "opponent_pokemon_level": {
-          "type": "integer",
-          "nullable": true
-        },
-        "move_1_name": {
-          "type": "string"
-        },
-        "move_1_pp_current": {
-          "type": "integer"
-        },
-        "move_2_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_2_pp_current": {
-          "type": "integer",
-          "nullable": true
-        },
-        "move_3_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_3_pp_current": {
-          "type": "integer",
-          "nullable": true
-        },
-        "move_4_name": {
-          "type": "string",
-          "nullable": true
-        },
-        "move_4_pp_current": {
-          "type": "integer",
-          "nullable": true
-        },
-        "current_objective": {
-          "type": "string",
-          "enum": [
-            "TRAINING",
-            "TRAVELING"
-          ]
-        },
-        "battle_type": {
-          "type": "string",
-          "enum": [
-            "WILD",
-            "TRAINER"
-          ]
-        }
-      },
-      "required": [
-        "my_pokemon_name",
-        "my_pokemon_level",
-        "my_pokemon_hp_current",
-        "my_pokemon_hp_max",
-        "opponent_pokemon_name",
-        "move_1_name",
-        "move_1_pp_current",
-        "current_objective",
-        "battle_type"
-      ]
-    },
-    "python_script": "import json\n\nPOKEMON_TYPES = {\n    'RATTATA': ['Normal'], 'SENTRET': ['Normal'], 'PIDGEY': ['Normal', 'Flying'], 'HOOTHOOT': ['Normal', 'Flying'], 'PIDGEOTTO': ['Normal', 'Flying'],\n    'GEODUDE': ['Rock', 'Ground'], 'ZUBAT': ['Poison', 'Flying'], 'GOLBAT': ['Poison', 'Flying'], 'BELLSPROUT': ['Grass', 'Poison'], 'EKANS': ['Poison'],\n    'GASTLY': ['Ghost', 'Poison'], 'HAUNTER': ['Ghost', 'Poison'], 'SLOWPOKE': ['Water', 'Psychic'], 'MAGIKARP': ['Water'], 'WEEDLE': ['Bug', 'Poison'],\n    'KAKUNA': ['Bug', 'Poison'], 'CATERPIE': ['Bug'], 'METAPOD': ['Bug'], 'PARAS': ['Bug', 'Grass'], 'SPINARAK': ['Bug', 'Poison'], 'VENONAT': ['Bug', 'Poison'],\n    'CYNDAQUIL': ['Fire'], 'QUILAVA': ['Fire'], 'TYPHLOSION': ['Fire'], 'VULPIX': ['Fire'], 'GROWLITHE': ['Fire'], 'PONYTA': ['Fire'], 'MAGMAR': ['Fire'],\n    'TENTACOOL': ['Water', 'Poison'], 'TENTACRUEL': ['Water', 'Poison'], 'KRABBY': ['Water'], 'POLIWAG': ['Water'], 'POLIWHIRL': ['Water'], 'MARILL': ['Water'], 'MANTINE': ['Water', 'Flying'], 'SHELLDER': ['Water'], 'LAPRAS': ['Water', 'Ice'],\n    'SANDSHREW': ['Ground'], 'NIDORAN♂': ['Poison'], 'NIDORINO': ['Poison'],\n    'ABRA': ['Psychic'], 'DROWZEE': ['Psychic'], 'WOBBUFFET': ['Psychic'],\n    'TOGEPI': ['Normal'], 'CLEFFA': ['Normal'], 'UNOWN': ['Psychic'], 'AERODACTYL': ['Rock', 'Flying'], 'PORYGON2': ['Normal'], 'JOLTEON': ['Electric'], 'KANGASKHAN': ['Normal']\n}\n\nMOVE_DATA = {\n    'TACKLE': {'type': 'Normal', 'power': 35, 'accuracy': 95},\n    'SCRATCH': {'type': 'Normal', 'power': 40, 'accuracy': 100},\n    'QUICK ATTACK': {'type': 'Normal', 'power': 40, 'accuracy': 100},\n    'STRENGTH': {'type': 'Normal', 'power': 80, 'accuracy': 100},\n    'CUT': {'type': 'Normal', 'power': 50, 'accuracy': 95},\n    'EMBER': {'type': 'Fire', 'power': 40, 'accuracy': 100},\n    'FLAME WHEEL': {'type': 'Fire', 'power': 60, 'accuracy': 100},\n    'WATER GUN': {'type': 'Water', 'power': 40, 'accuracy': 100},\n    'SURF': {'type': 'Water', 'power': 95, 'accuracy': 100},\n    'BUBBLEBEAM': {'type': 'Water', 'power': 65, 'accuracy': 100},\n    'PECK': {'type': 'Flying', 'power': 35, 'accuracy': 100},\n    'GUST': {'type': 'Flying', 'power': 40, 'accuracy': 100},\n    'ROCK THROW': {'type': 'Rock', 'power': 50, 'accuracy': 90},\n    'MUD-SLAP': {'type': 'Ground', 'power': 20, 'accuracy': 100},\n    'DIG': {'type': 'Ground', 'power': 60, 'accuracy': 100},\n    'POISON STING': {'type': 'Poison', 'power': 15, 'accuracy': 100},\n    'LICK': {'type': 'Ghost', 'power': 20, 'accuracy': 100},\n    'CONFUSION': {'type': 'Psychic', 'power': 50, 'accuracy': 100},\n    'LEECH SEED': {'type': 'Grass', 'power': 0, 'accuracy': 90},\n    'VINE WHIP': {'type': 'Grass', 'power': 35, 'accuracy': 100},\n    'ABSORB': {'type': 'Grass', 'power': 20, 'accuracy': 100},\n    'FURY CUTTER': {'type': 'Bug', 'power': 10, 'accuracy': 95},\n    'TWINEEDLE': {'type': 'Bug', 'power': 25, 'accuracy': 100},\n    'HEADBUTT': {'type': 'Normal', 'power': 70, 'accuracy': 100},\n    'POUND': {'type': 'Normal', 'power': 40, 'accuracy': 100},\n    'HYPER BEAM': {'type': 'Normal', 'power': 150, 'accuracy': 90},\n    'CHARM': {'type': 'Normal', 'power': 0, 'accuracy': 100},\n    'DIZZY PUNCH': {'type': 'Normal', 'power': 70, 'accuracy': 100},\n    'DISABLE': {'type': 'Normal', 'power': 0, 'accuracy': 55},\n    'FORESIGHT': {'type': 'Normal', 'power': 0, 'accuracy': 100},\n    'GROWL': {'type': 'Normal', 'power': 0, 'accuracy': 100},\n    'LEER': {'type': 'Normal', 'power': 0, 'accuracy': 100}\n}\n\nTYPE_EFFECTIVENESS = {\n    'Normal': {'Rock': 0.5, 'Ghost': 0, 'Steel': 0.5},\n    'Fire': {'Fire': 0.5, 'Water': 0.5, 'Grass': 2, 'Ice': 2, 'Bug': 2, 'Rock': 0.5, 'Dragon': 0.5, 'Steel': 2},\n    'Water': {'Fire': 2, 'Water': 0.5, 'Grass': 0.5, 'Ground': 2, 'Rock': 2, 'Dragon': 0.5},\n    'Electric': {'Water': 2, 'Electric': 0.5, 'Grass': 0.5, 'Ground': 0, 'Flying': 2, 'Dragon': 0.5},\n    'Grass': {'Fire': 0.5, 'Water': 2, 'Grass': 0.5, 'Poison': 0.5, 'Ground': 2, 'Flying': 0.5, 'Bug': 0.5, 'Rock': 2, 'Dragon': 0.5, 'Steel': 0.5},\n    'Ice': {'Fire': 0.5, 'Water': 0.5, 'Grass': 2, 'Ice': 0.5, 'Ground': 2, 'Flying': 2, 'Dragon': 2, 'Steel': 0.5},\n    'Fighting': {'Normal': 2, 'Ice': 2, 'Poison': 0.5, 'Flying': 0.5, 'Psychic': 0.5, 'Bug': 0.5, 'Rock': 2, 'Ghost': 0, 'Dark': 2, 'Steel': 2},\n    'Poison': {'Grass': 2, 'Poison': 0.5, 'Ground': 0.5, 'Rock': 0.5, 'Ghost': 0.5, 'Steel': 0},\n    'Ground': {'Fire': 2, 'Electric': 2, 'Grass': 0.5, 'Poison': 2, 'Flying': 0, 'Bug': 0.5, 'Rock': 2, 'Steel': 2},\n    'Flying': {'Electric': 0.5, 'Grass': 2, 'Fighting': 2, 'Bug': 2, 'Rock': 0.5, 'Steel': 0.5},\n    'Psychic': {'Fighting': 2, 'Poison': 2, 'Psychic': 0.5, 'Dark': 0, 'Steel': 0.5},\n    'Bug': {'Fire': 0.5, 'Grass': 2, 'Fighting': 0.5, 'Poison': 0.5, 'Flying': 0.5, 'Psychic': 2, 'Ghost': 0.5, 'Dark': 2, 'Steel': 0.5},\n    'Rock': {'Fire': 2, 'Ice': 2, 'Fighting': 0.5, 'Ground': 0.5, 'Flying': 2, 'Bug': 2, 'Steel': 0.5},\n    'Ghost': {'Normal': 0, 'Psychic': 2, 'Ghost': 2, 'Dark': 0.5},\n    'Dragon': {'Dragon': 2, 'Steel': 0.5},\n    'Dark': {'Fighting': 0.5, 'Psychic': 2, 'Ghost': 2, 'Dark': 0.5},\n    'Steel': {'Fire': 0.5, 'Water': 0.5, 'Electric': 0.5, 'Ice': 2, 'Rock': 2, 'Steel': 0.5}\n}\n\ndef get_effectiveness(move_type, opponent_types):\n    if not opponent_types: return 1\n    effectiveness = 1\n    for opp_type in opponent_types:\n        effectiveness *= TYPE_EFFECTIVENESS.get(move_type, {}).get(opp_type, 1)\n    return effectiveness\n\ndef decide_battle_action():\n    my_pkmn_name = input_data.get('my_pokemon_name', '').upper()\n    opponent_pkmn_name = input_data.get('opponent_pokemon_name', '').upper()\n    battle_type = input_data.get('battle_type', 'WILD')\n    current_objective = input_data.get('current_objective', 'TRAVELING')\n    my_hp_current = int(input_data.get('my_pokemon_hp_current', 0))\n    my_hp_max = int(input_data.get('my_pokemon_hp_max', 1))\n    my_level = int(input_data.get('my_pokemon_level', 1))\n    opponent_level_str = input_data.get('opponent_pokemon_level')\n    opponent_level = int(opponent_level_str) if opponent_level_str and opponent_level_str.isdigit() else 1\n    \n    if opponent_pkmn_name == 'WOBBUFFET':\n        non_damaging_moves = []\n        for i in range(1, 5):\n            move_name = input_data.get(f'move_{i}_name')\n            pp_current = input_data.get(f'move_{i}_pp_current')\n            if move_name and pp_current is not None and int(pp_current) > 0:\n                move_info = MOVE_DATA.get(move_name.upper())\n                if move_info and move_info['power'] == 0:\n                    non_damaging_moves.append(move_name.title())\n        if non_damaging_moves:\n            print(json.dumps({'action': 'FIGHT', 'move': non_damaging_moves[0]}))\n            return\n\n    if battle_type == 'WILD':\n        if current_objective == 'TRAVELING' and my_level >= opponent_level + 5:\n            print(json.dumps({'action': 'RUN', 'move': None}))\n            return\n        if my_hp_current / my_hp_max < 0.2:\n            print(json.dumps({'action': 'RUN', 'move': None}))\n            return\n\n    my_types = POKEMON_TYPES.get(my_pkmn_name)\n    opponent_types = POKEMON_TYPES.get(opponent_pkmn_name)\n\n    moves = []\n    for i in range(1, 5):\n        move_name = input_data.get(f'move_{i}_name')\n        pp_current = input_data.get(f'move_{i}_pp_current')\n        if move_name and pp_current is not None and int(pp_current) > 0:\n            moves.append(move_name.upper())\n\n    best_move = None\n    max_damage = -1\n\n    if not moves:\n        print(json.dumps({'action': 'FIGHT', 'move': 'STRUGGLE'}))\n        return\n\n    for move_name in moves:\n        move_info = MOVE_DATA.get(move_name)\n        if not move_info: continue\n\n        power = move_info['power']\n        move_type = move_info['type']\n        effectiveness = get_effectiveness(move_type, opponent_types)\n        \n        stab = 1.5 if my_types and move_type in my_types else 1\n        \n        damage = power * effectiveness * stab\n\n        if damage > max_damage:\n            max_damage = damage\n            best_move = move_name.title()\n\n    if not best_move:\n        best_move = moves[0].title()\n\n    print(json.dumps({'action': 'FIGHT', 'move': best_move}))\n\ndecide_battle_action()",
-    "history": [
-      {
-        "commit_message": "feat: Create deterministic battle strategist. This tool replaces the unreliable simple_battle_strategist agent, which has been failing due to server errors. It uses a hardcoded type chart and logic to provide a stable and consistent source of battle advice, directly addressing a critical system critique.",
-        "timestamp": "2025-11-03T18:25:45.289Z",
-        "action_counter": 17503
-      },
-      {
-        "commit_message": "fix: Correctly filter status moves. The previous version had a flawed check that failed to exclude status moves like LEER, causing it to give incorrect battle advice. This commit introduces a dedicated `STATUS_MOVES` set and adds a clear check (`if name in STATUS_MOVES`) to the move evaluation loop, ensuring that only damaging moves are considered. This resolves the critical logic bug.",
-        "timestamp": "2025-11-03T18:29:57.269Z",
-        "action_counter": 17510
-      },
-      {
-        "commit_message": "fix: Handle null opponent level in wild battles. The script was crashing with a ValueError when `opponent_pokemon_level` was the string 'null'. This commit adds an explicit check for 'null' before attempting integer conversion, preventing the crash and allowing the tool to function correctly in wild encounters where the opponent's level is not displayed.",
-        "timestamp": "2025-11-03T19:50:14.395Z",
-        "action_counter": 17599
-      },
-      {
-        "commit_message": "feat: Add Sandshrew type and improve run logic. The tool previously recommended fighting a Sandshrew with a Fire-type because it lacked type information and its run logic was too simple. This commit adds 'SANDSHREW' to the `KNOWN_POKEMON_TYPES` dictionary and introduces a new check to automatically run from wild battles when traveling if the best available move is not very effective. This improves strategic decision-making and prevents wasting resources on unfavorable encounters.",
-        "timestamp": "2025-11-03T20:58:14.951Z",
-        "action_counter": 17685
-      },
-      {
-        "commit_message": "fix: Prevent automatic run when opponent level is unknown. The previous logic would default to 'RUN' during wild encounters where the opponent's level is not displayed, bypassing the more nuanced type-effectiveness check. This commit adds a specific condition to handle `opponent_level` being `None`, allowing the script to fall through to the effectiveness logic and make a more intelligent decision. This resolves the critical failure where the tool recommended running from a battle with a clear type advantage.",
-        "timestamp": "2025-11-03T21:39:18.957Z",
-        "action_counter": 17743
-      },
-      {
-        "commit_message": "feat: Add Sentret type information. The tool previously failed to identify Sentret as a Normal-type, leading to incorrect move suggestions. This commit adds the correct type data to the knowledge base, resolving the critical failure.",
-        "timestamp": "2025-11-07T11:35:18.556Z",
-        "action_counter": 25738
-      },
-      {
-        "commit_message": "feat: Add Meowth type information and CUT move type. The tool previously failed to identify Meowth as a Normal-type and did not know CUT was a Normal-type move, leading to incorrect move suggestions. This commit adds the correct type data to the knowledge base, resolving the critical failure.",
-        "timestamp": "2025-11-07T12:02:09.021Z",
-        "action_counter": 25786
-      },
-      {
-        "commit_message": "feat: Add Snubbull type information. The tool previously failed to identify Snubbull as a Normal-type, leading to incorrect move suggestions. This commit adds the correct type data to the knowledge base, resolving the critical failure.",
-        "timestamp": "2025-11-07T12:06:41.622Z",
-        "action_counter": 25791
-      },
-      {
-        "commit_message": "feat: Add Jigglypuff type information. The tool previously failed to identify Jigglypuff as a Normal-type, leading to incorrect move suggestions. This commit adds the correct type data to the knowledge base, resolving the critical failure.",
-        "timestamp": "2025-11-07T12:18:46.258Z",
-        "action_counter": 25807
-      },
-      {
-        "commit_message": "feat: Add Normal-type Pokémon from Goldenrod Gym. The tool failed to identify Meowth, Snubbull, Jigglypuff, Clefairy, and Miltank as Normal-types during the Goldenrod Gym challenge. This commit adds their type information to the knowledge base, resolving these critical failures and improving future battle strategy.",
-        "timestamp": "2025-11-07T12:26:47.489Z",
-        "action_counter": 25817
-      },
-      {
-        "commit_message": "feat: Add Slowpoke type information. The tool previously failed to identify Slowpoke as a Water/Psychic-type, leading to incorrect move suggestions. This commit adds the correct type data to the knowledge base, resolving this critical failure.",
-        "timestamp": "2025-11-07T13:15:22.597Z",
-        "action_counter": 25892
-      },
-      {
-        "commit_message": "refactor: Prioritize power and accuracy in move selection. The tool was recommending low-power, low-accuracy moves like CUT in trivial wild battles, leading to inefficiency. This commit refactors the move knowledge base and updates the sorting logic to prioritize moves based on effectiveness, then power, then accuracy. This resolves the critical failure where the tool made suboptimal choices that wasted time.",
-        "timestamp": "2025-11-10T11:39:48.836Z",
-        "action_counter": 33151
-      },
-      {
-        "commit_message": "feat: Add Ariados type information. The tool failed to identify Ariados as a Bug/Poison type, leading to a suboptimal move recommendation. This commit adds the correct type data, resolving the failure and improving future battle strategy.",
-        "timestamp": "2025-11-10T12:34:37.151Z",
-        "action_counter": 33227
-      },
-      {
-        "commit_message": "feat: Add Magnemite type data and Fire vs. Steel effectiveness. The tool failed to identify Magnemite's Steel typing, leading it to recommend a Normal-type move instead of the super-effective Fire-type move. This commit adds Magnemite to the knowledge base and updates the type chart to correctly handle the Fire vs. Steel matchup, resolving the critical failure.",
-        "timestamp": "2025-11-10T14:20:51.758Z",
-        "action_counter": 33392
-      },
-      {
-        "commit_message": "feat: Add Gyarados type information. The tool failed to identify Gyarados as a Water/Flying type, which would have led to a suboptimal move recommendation. This commit adds the correct type data, resolving the failure and improving future battle strategy.",
-        "timestamp": "2025-11-13T06:04:07.012Z",
-        "action_counter": 38975
-      },
-      {
-        "commit_message": "feat: Add Mantine type information. The tool previously failed to identify Mantine as a Water/Flying type, which would have led to a suboptimal move recommendation. This commit adds the correct type data, resolving the failure and improving future battle strategy.",
-        "timestamp": "2025-11-13T06:17:29.172Z",
-        "action_counter": 38999
-      },
-      {
-        "commit_message": "feat: Add STAB calculation. The tool was suggesting suboptimal moves by ignoring the Same-Type Attack Bonus. This commit adds logic to check the user's Pokémon type and apply a 1.5x damage multiplier for STAB moves, resolving a critical logic failure.",
-        "timestamp": "2025-11-13T11:11:58.424Z",
-        "action_counter": 39391
-      },
-      {
-        "commit_message": "feat: Add STAB calculation and Primeape data. The tool was suggesting suboptimal moves by ignoring the Same-Type Attack Bonus. This commit adds logic to check the user's Pokémon type and apply a 1.5x damage multiplier for STAB moves, and adds Primeape to the type database, resolving a critical logic failure.",
-        "timestamp": "2025-11-13T11:51:41.268Z",
-        "action_counter": 39422
-      },
-      {
-        "commit_message": "feat: Add Mantine type information. The tool previously failed to identify Mantine as a Water/Flying type, which would have led to a suboptimal move recommendation. This commit adds the correct type data, resolving the failure and improving future battle strategy.",
-        "timestamp": "2025-11-14T10:03:09.335Z",
-        "action_counter": 41254
-      },
-      {
-        "commit_message": "feat: Add Tentacruel type information. The tool lacked data for Tentacruel, which would have led to a suboptimal move recommendation. This commit adds the correct Water/Poison typing, resolving the potential failure and improving future battle strategy.",
-        "timestamp": "2025-11-14T10:18:59.741Z",
-        "action_counter": 41279
-      },
-      {
-        "commit_message": "feat: Add Spinarak type data. The tool lacked data for Spinarak, which could have led to a suboptimal move recommendation in the National Park. This commit adds the correct Bug/Poison typing, improving future battle strategy.",
-        "timestamp": "2025-11-14T18:06:36.042Z",
-        "action_counter": 41945
-      },
-      {
-        "commit_message": "fix: Handle empty opponent_pokemon_level in wild battles. The tool was crashing when encountering a wild Pokémon because it attempted to convert an empty string for the opponent's level into an integer. This commit adds a check to default the level to '1' if the input string is empty, resolving the critical failure and also adds Pidgeotto to the pokemon type database.",
-        "timestamp": "2025-11-14T19:23:04.007Z",
-        "action_counter": 42046
-      },
-      {
-        "commit_message": "feat: Add DIG to move knowledge base. The tool was recommending suboptimal moves like STRENGTH against Fire-types because it lacked data for the super-effective move DIG. This commit adds the correct Ground type, power, and accuracy for DIG, resolving this critical logic failure.",
-        "timestamp": "2025-11-15T01:44:38.317Z",
-        "action_counter": 42714
-      },
-      {
-        "commit_message": "feat: Add Marill type data. The tool lacked data for Marill, causing it to recommend a suboptimal move based on raw power instead of type effectiveness. This commit adds the correct Water typing, resolving the critical failure.",
-        "timestamp": "2025-11-15T01:57:53.189Z",
-        "action_counter": 42739
-      },
-      {
-        "commit_message": "feat: Add Poliwhirl type and Bubblebeam move data. The tool was missing critical data for the current battle, which would have led to a suboptimal move recommendation. This commit adds the correct Water typing for Poliwhirl and the power/accuracy data for Bubblebeam, resolving the failure.",
-        "timestamp": "2025-11-15T02:46:25.979Z",
-        "action_counter": 42837
-      },
-      {
-        "commit_message": "feat: Add Shellder type and Tackle move data. The tool lacked data for Shellder, which could have led to suboptimal move recommendations. This commit adds the correct Water typing for the Pokémon and the Normal type, power, and accuracy for the move Tackle, improving future battle strategy.",
-        "timestamp": "2025-11-15T06:14:38.194Z",
-        "action_counter": 43201
-      },
-      {
-        "commit_message": "feat: Add Aerodactyl type and Hyper Beam move data. The tool lacked data for Aerodactyl and its powerful move Hyper Beam, leading to suboptimal battle analysis. This commit adds the correct Rock/Flying typing and Normal type, power, and accuracy for Hyper Beam, resolving this critical data gap.",
-        "timestamp": "2025-11-16T02:03:22.684Z",
-        "action_counter": 45112
-      },
-      {
-        "commit_message": "feat: Add PORYGON2 type data. The tool was missing data for the current opponent, which would have caused it to fail to calculate type effectiveness correctly. This commit adds the correct Normal typing, resolving the critical failure.",
-        "timestamp": "2025-11-16T02:53:34.251Z",
-        "action_counter": 45223
-      },
-      {
-        "commit_message": "feat: Add Wobbuffet data and special logic. The tool was recommending dangerous physical attacks against Wobbuffet, which would trigger Counter. This commit adds Wobbuffet's type, its special logic to prioritize non-damaging moves, and adds CHARM/DIZZY PUNCH to the move database, resolving this critical strategy failure.",
-        "timestamp": "2025-11-16T04:14:13.404Z",
-        "action_counter": 45407
-      },
-      {
-        "commit_message": "feat: Add Lapras type data. The tool was missing data for the current opponent, Lapras, which would have caused a critical failure in move recommendation. This commit adds the correct Water/Ice typing to the knowledge base, resolving the issue.",
-        "timestamp": "2025-11-16T04:55:26.669Z",
-        "action_counter": 45475
-      },
-      {
-        "commit_message": "feat: Add Jolteon type data. The tool was missing data for the current opponent, Jolteon, which caused it to recommend a suboptimal move based on incomplete information. This commit adds the correct Electric typing, resolving the critical failure.",
-        "timestamp": "2025-11-16T06:44:54.474Z",
-        "action_counter": 45670
-      },
-      {
-        "commit_message": "feat: Add Venonat type and status move data. The tool was missing critical data for the player's own Pokémon and its non-damaging moves, leading to an incomplete analysis. This commit adds the correct Bug/Poison typing for Venonat and adds DISABLE/FORESIGHT to the move database, resolving the failure.",
-        "timestamp": "2025-11-16T06:47:00.216Z",
-        "action_counter": 45673
-      },
-      {
-        "commit_message": "feat: Add GROWL and LEER move data. The tool was recommending suicidal attacks against Wobbuffet because it lacked data for safe, non-damaging status moves available to the player's Pokémon. This commit adds the necessary data, allowing the tool's special Wobbuffet logic to function correctly and avoid critical strategy failures.",
-        "timestamp": "2025-11-16T09:26:40.600Z",
-        "action_counter": 45931
-      },
-      {
-        "commit_message": "feat: Add data for VENONAT, GROWL, LEER, DISABLE, and FORESIGHT. The tool was critically failing by recommending moves the player's Pokémon did not know and lacked data for non-damaging status moves essential for special battles like against Wobbuffet. This commit adds the Bug/Poison typing for VENONAT and adds the necessary move data to the knowledge base, resolving these failures.",
-        "timestamp": "2025-11-16T10:11:46.366Z",
-        "action_counter": 45996
-      },
-      {
-        "commit_message": "feat: Add Kangaskhan type data. The tool was missing data for the opponent, which would have caused it to fail to calculate type effectiveness correctly. This commit adds the correct Normal typing, resolving the critical failure.",
-        "timestamp": "2025-11-16T16:42:12.012Z",
-        "action_counter": 46463
-      },
-      {
-        "commit_message": "refactor: Update description to reflect limitations. The tool is unreliable in complex trainer battles with unusual movesets. This change clarifies that it should primarily be used for simple wild encounters, and the `battle_puzzle_agent` should be used for more strategic fights.",
-        "timestamp": "2025-11-16T23:21:15.853Z",
-        "action_counter": 47136
-      },
-      {
-        "commit_message": "refactor: Update description to reflect limitations. The tool is unreliable in complex trainer battles with unusual movesets. This change clarifies that it should primarily be used for simple wild encounters, and the `battle_puzzle_agent` should be used for more strategic fights.",
-        "timestamp": "2025-11-16T23:33:19.084Z",
-        "action_counter": 47157
-      }
-    ]
-  },
   "plan_path_to_target": {
     "description": "Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it. This version correctly treats all objects as impassable obstacles, finds an adjacent tile if the target is blocked, reads map markers to avoid off-screen obstacles, avoids pathing through warp tiles that would trigger a transition, dynamically handles water traversal, and now dynamically detects map boundaries to correctly handle negative coordinates.",
     "input_schema": {
@@ -457,6 +187,28 @@
         "commit_message": "feat: Create pc_box_navigator tool. This tool automates cursor movement within the PC storage box grid, addressing a major inefficiency identified during the mandatory self-assessment. This is a foundational component for building more complex PC automation workflows.",
         "timestamp": "2025-11-17T00:46:35.521Z",
         "action_counter": 47345
+      }
+    ]
+  },
+  "select_pc_box": {
+    "description": "Navigates the PC 'Choose a BOX' menu to switch to a target box number. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_box_number": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_box_number"
+      ]
+    },
+    "python_script": "import json\ntarget_box = int(input_data['target_box_number'])\nif not 1 <= target_box <= 14:\n    print(json.dumps({'error': 'Invalid box number. Must be between 1 and 14.'}))\nelse:\n    num_downs = target_box - 1\n    buttons = ['Down'] * num_downs\n    buttons.extend(['A', 'A', 'A', 'A']) # Select box, select SWITCH, confirm save, confirm overwrite\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_pc_box tool. This tool automates the repetitive, multi-turn process of switching between Pokémon storage boxes. This was created in direct response to an Overwatch critique that identified the manual box-checking process as a major inefficiency.",
+        "timestamp": "2025-11-17T04:27:28.535Z",
+        "action_counter": 47769
       }
     ]
   }
