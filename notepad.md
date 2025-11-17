@@ -156,3 +156,4 @@
   35. Attempt to enter a battle with a party of two to create a fainted party member state. (Failed: Receptionist requires exactly three Pokémon, preventing the battle from starting).
   36. Create a fainted party member state by entering a battle with three Pokémon, letting one faint, then losing. (Failed: The save-glitch sequence forces the player to cancel the challenge, making it impossible to enter a battle and create the fainted party member state).
   37. Performing a non-glitched save via the PC might reset the state that causes the receptionist's save function to fail. (Failed: The save-glitch sequence still occurred and forced a cancellation).
+  38. Trigger the glitched save sequence with the receptionist, then immediately access and exit BILL's PC, then talk to the receptionist again. (Failed: Receptionist's dialogue and position were unchanged).
