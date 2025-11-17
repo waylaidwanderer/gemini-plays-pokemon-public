@@ -18,7 +18,6 @@
 - `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
 - `navigation_strategist`: A unified navigation advisor.
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
-- `battle_puzzle_agent`: An agent to devise multi-turn strategies for complex battles with non-standard win conditions.
 
 ### Custom Tools
 - `plan_path_to_target`: Generates a path to a target coordinate.
