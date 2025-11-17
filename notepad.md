@@ -168,7 +168,7 @@
 - **BOX1:** Was Ink (TENTACRUEL), Scylla (KRABBY). Now empty. (Checked Turn 47213)
 - **BOX2:** Empty. (Checked Turn 47195)
 - **BOX3:** Empty. (Checked Turn 47204)
-- **BOX4:** Contains PX (EEVEE), G (MANTINE), Javelin (SPEAROW), Ignis (TYPHLOSION). (Checked Turn 47217)
+- **BOX4:** Contains Ignis (TYPHLOSION), G (MANTINE), Javelin (SPEAROW). (Updated Turn 47702)
 - **BOX5:** (Untracked)
 - **BOX6:** (Untracked)
 - **BOX7:** (Untracked)
