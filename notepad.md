@@ -133,3 +133,6 @@
 
 ## 8.1 New Ideas (Additions)
 - **New Tool Idea: `general_menu_navigator`**: A tool to navigate any vertical menu by taking a list of options and a target option as input.
+
+## 12. Data Hygiene Notes
+- **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
