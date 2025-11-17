@@ -184,3 +184,4 @@
 - **Step 3:** Delete `pc_box_navigator` and `select_pc_box`.
   34. Use the ITEMFINDER on the warp carpet at (7, 9). (Failed: ITEMFINDER did not respond).
   35. Attempt to enter a battle with a party of two to create a fainted party member state. (Failed: Receptionist requires exactly three Pokémon, preventing the battle from starting).
+  36. Create a fainted party member state by entering a battle with three Pokémon, letting one faint, then losing. (Failed: The save-glitch sequence forces the player to cancel the challenge, making it impossible to enter a battle and create the fainted party member state).
