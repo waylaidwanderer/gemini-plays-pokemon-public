@@ -166,3 +166,4 @@
 - **BOX11:** Empty. (Checked Turn 46910)
 - **BOX12:** Contains Aether (PIDGEY), KENYA (SPEAROW), HEXA (VENONAT). (Checked Turn 47178)
 - **New Hypothesis (21):** A sequential trigger might exist. Test sequence: Talk to the Youngster, then the Bug Catcher, then the Cooltrainer F, and finally the Granny.
+- **`navigate_to_pc_slot(box, slot)` (High Priority):** A more advanced tool that combines my existing PC navigation tools to go directly to a specific Pokémon slot. This would be a major step towards automating the tedious process of logging my stored Pokémon.
