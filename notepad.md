@@ -162,11 +162,6 @@
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
 - **pokemon_info_extractor (Turn 47386):** Created tool based on the unverified assumption that PC screen text uniquely identifies the selected Pokémon. The assumption was false, making the tool non-functional. Deleted in Turn 46801.
 
-## Tool Consolidation Plan (Turn 47852)
-- **Objective:** Consolidate `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single `pc_navigator` tool.
-- **Step 1:** Delete `select_pc_option` (this turn).
-- **Step 2:** Define `pc_navigator` (next turn).
-- **Step 3:** Delete `pc_box_navigator` and `select_pc_box`.
   34. Use the ITEMFINDER on the warp carpet at (7, 9). (Failed: ITEMFINDER did not respond).
   35. Attempt to enter a battle with a party of two to create a fainted party member state. (Failed: Receptionist requires exactly three Pokémon, preventing the battle from starting).
   36. Create a fainted party member state by entering a battle with three Pokémon, letting one faint, then losing. (Failed: The save-glitch sequence forces the player to cancel the challenge, making it impossible to enter a battle and create the fainted party member state).
