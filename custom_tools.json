@@ -232,41 +232,29 @@
       }
     ]
   },
-  "menu_navigator": {
-    "description": "A generic tool to navigate vertical menus. It takes a list of options, the current cursor position (1-indexed), and the target option name, then outputs the required button presses.",
+  "fly_map_navigator": {
+    "description": "Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "menu_options": {
-          "type": "string",
-          "description": "A JSON string of the list of menu options in order."
+        "start_city": {
+          "type": "string"
         },
-        "current_cursor_position": {
-          "type": "string",
-          "description": "The 1-indexed position of the cursor as an integer string."
-        },
-        "target_option": {
-          "type": "string",
-          "description": "The name of the target menu option."
+        "target_city": {
+          "type": "string"
         }
       },
       "required": [
-        "menu_options",
-        "current_cursor_position",
-        "target_option"
+        "start_city",
+        "target_city"
       ]
     },
-    "python_script": "import json\n\ndef navigate_menu():\n    try:\n        options = json.loads(input_data['menu_options'])\n        current_pos = int(input_data['current_cursor_position'])\n        target = input_data['target_option']\n\n        if target not in options:\n            print(json.dumps({'error': f'Target option \\\"{target}\\\" not found in menu options.'}))\n            return\n\n        target_pos = options.index(target) + 1\n        moves = target_pos - current_pos\n        buttons = []\n        if moves > 0:\n            buttons.extend(['Down'] * moves)\n        elif moves < 0:\n            buttons.extend(['Up'] * abs(moves))\n        \n        buttons.append('A')\n        print(json.dumps(buttons))\n\n    except (json.JSONDecodeError, ValueError, KeyError) as e:\n        print(json.dumps({'error': f'An error occurred: {str(e)}'}))\n\nnavigate_menu()",
+    "python_script": "import json\n\n# The Johto map layout for the FLY command, represented as a grid.\n# None indicates an empty space.\ncity_map = [\n    [None, None, 'New Bark Town', None],\n    [None, 'Violet City', 'Cherrygrove City', None],\n    ['Ecruteak City', 'Goldenrod City', 'Azalea Town', None],\n    ['Cianwood City', 'Olivine City', None, None]\n]\n\ncity_coords = {}\nfor r, row in enumerate(city_map):\n    for c, city in enumerate(row):\n        if city:\n            city_coords[city] = (r, c)\n\nstart_city = input_data['start_city']\ntarget_city = input_data['target_city']\n\nif start_city not in city_coords or target_city not in city_coords:\n    print(json.dumps({'error': 'Invalid city name provided.'}))\nelse:\n    start_r, start_c = city_coords[start_city]\n    target_r, target_c = city_coords[target_city]\n\n    row_diff = target_r - start_r\n    col_diff = target_c - start_c\n\n    buttons = []\n    if row_diff > 0:\n        buttons.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        buttons.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        buttons.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        buttons.extend(['Left'] * abs(col_diff))\n    \n    buttons.append('A')\n\n    print(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create menu_navigator tool. This tool automates vertical menu navigation, replacing error-prone manual button inputs. It was identified as a necessary improvement during a mandatory self-reflection to increase automation and efficiency.",
-        "timestamp": "2025-11-17T13:42:01.848Z",
-        "action_counter": 48592
-      },
-      {
-        "commit_message": "fix: Add 'A' button press to complete selection. The tool was previously only moving the cursor, making it incomplete. This change adds the final 'A' press to fully automate menu option selection.",
-        "timestamp": "2025-11-17T13:42:51.682Z",
-        "action_counter": 48594
+        "commit_message": "feat: Create fly_map_navigator tool. This tool automates FLY map navigation to prevent manual input errors and hallucinations, addressing a critical failure identified during a mandatory self-reflection. It calculates the exact button sequence to move from a start city to a target city.",
+        "timestamp": "2025-11-17T19:55:18.224Z",
+        "action_counter": 49009
       }
     ]
   }
