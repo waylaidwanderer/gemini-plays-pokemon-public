@@ -176,5 +176,43 @@
         "action_counter": 48451
       }
     ]
+  },
+  "menu_navigator": {
+    "description": "A generic tool to navigate vertical menus. It takes a list of options, the current cursor position (1-indexed), and the target option name, then outputs the required button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_options": {
+          "type": "string",
+          "description": "A JSON string of the list of menu options in order."
+        },
+        "current_cursor_position": {
+          "type": "string",
+          "description": "The 1-indexed position of the cursor as an integer string."
+        },
+        "target_option": {
+          "type": "string",
+          "description": "The name of the target menu option."
+        }
+      },
+      "required": [
+        "menu_options",
+        "current_cursor_position",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\n\ndef navigate_menu():\n    try:\n        options = json.loads(input_data['menu_options'])\n        current_pos = int(input_data['current_cursor_position'])\n        target = input_data['target_option']\n\n        if target not in options:\n            print(json.dumps({'error': f'Target option \\\"{target}\\\" not found in menu options.'}))\n            return\n\n        target_pos = options.index(target) + 1\n        moves = target_pos - current_pos\n        buttons = []\n        if moves > 0:\n            buttons.extend(['Down'] * moves)\n        elif moves < 0:\n            buttons.extend(['Up'] * abs(moves))\n        \n        buttons.append('A')\n        print(json.dumps(buttons))\n\n    except (json.JSONDecodeError, ValueError, KeyError) as e:\n        print(json.dumps({'error': f'An error occurred: {str(e)}'}))\n\nnavigate_menu()",
+    "history": [
+      {
+        "commit_message": "feat: Create menu_navigator tool. This tool automates vertical menu navigation, replacing error-prone manual button inputs. It was identified as a necessary improvement during a mandatory self-reflection to increase automation and efficiency.",
+        "timestamp": "2025-11-17T13:42:01.848Z",
+        "action_counter": 48592
+      },
+      {
+        "commit_message": "fix: Add 'A' button press to complete selection. The tool was previously only moving the cursor, making it incomplete. This change adds the final 'A' press to fully automate menu option selection.",
+        "timestamp": "2025-11-17T13:42:51.682Z",
+        "action_counter": 48594
+      }
+    ]
   }
 }
