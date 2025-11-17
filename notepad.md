@@ -130,7 +130,7 @@
   17. Initiating a challenge, declining the save prompt, then using the ITEMFINDER. (Failed: ITEMFINDER did not respond).
 
 - **New Hypotheses to Test:**
-  1. There's a hidden switch/interactable I've missed. Test by pressing A on every tile.
+  1. Trigger the 'Box is full' event by withdrawing Pokémon from the PC. This may trigger a call from Bill and cause the receptionist to move. (from puzzle_solver_agent)
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
