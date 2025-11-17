@@ -171,7 +171,7 @@
 - **BOX4:** Empty. (Checked Turn 47776)
 - **BOX5:** Empty. (Checked Turn 47781)
 - **BOX6:** Empty. (Checked Turn 47786)
-- **BOX7:** (Untracked)
+- **BOX7:** Empty. (Checked Turn 47792)
 - **BOX8:** (Untracked)
 - **BOX9:** (Untracked)
 - **BOX10:** Empty. (Checked Turn 46904)
