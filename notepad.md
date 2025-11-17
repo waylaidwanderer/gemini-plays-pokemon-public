@@ -138,10 +138,11 @@
   26. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the START button to try and open the main menu. (Failed: The START button had no effect on the glitched dialogue prompt).
   27. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the SELECT button. (Failed: The SELECT button had no effect on the glitched dialogue prompt).
   28. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press a directional button (Up). (Failed: The UP button had no effect on the glitched dialogue prompt).
+  29. During the save-glitch sequence, attempt to press 'A' on the level selection screen before the glitched 'Cancel' prompt appears. (Failed: The game automatically transitions to the 'Cancel' prompt, making it impossible to input a command on the level selection screen).
 
 - **New Hypotheses to Test:**
 
-  1. During the save-glitch sequence, after the save completes, press 'A' immediately when the 'L:10' level selection screen appears, before the glitched 'Cancel' prompt can override it.
+  1. During the save-glitch sequence, at the 'Cancel challenge?' prompt, press the 'B' button.
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
