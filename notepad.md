@@ -173,7 +173,7 @@
 - **BOX6:** Empty. (Checked Turn 47792)
 - **BOX7:** Empty. (Checked Turn 47792)
 - **BOX8:** Empty. (Checked Turn 47798)
-- **BOX9:** (Untracked)
+- **BOX9:** Empty. (Checked Turn 47804)
 - **BOX10:** Empty. (Checked Turn 46904)
 - **BOX11:** Empty. (Checked Turn 46910)
 - **BOX12:** Contains Aether (PIDGEY), KENYA (SPEAROW), HEXA (VENONAT). (Checked Turn 47178)
