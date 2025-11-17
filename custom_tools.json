@@ -118,51 +118,54 @@
       }
     ]
   },
-  "pc_box_navigator": {
-    "description": "Navigates the cursor within a Pokémon storage box from a current slot to a target slot. The box is a 5x4 grid (20 slots). Outputs button presses for use with autopress_buttons=true.",
+  "pc_navigator": {
+    "description": "A unified tool to navigate the PC. It can select options in vertical menus, move the cursor in the Pokémon box grid, and switch between boxes. Outputs button presses for use with autopress_buttons=true.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "menu_select",
+            "box_navigate",
+            "box_select"
+          ]
+        },
+        "current_cursor_position": {
+          "type": "string",
+          "nullable": true
+        },
+        "target_option": {
+          "type": "string",
+          "nullable": true
+        },
+        "menu_options": {
+          "type": "string",
+          "nullable": true
+        },
         "current_slot": {
-          "type": "string"
+          "type": "string",
+          "nullable": true
         },
         "target_slot": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "current_slot",
-        "target_slot"
-      ]
-    },
-    "python_script": "import json\n\ndef navigate_box():\n    try:\n        current_slot = int(input_data['current_slot'])\n        target_slot = int(input_data['target_slot'])\n    except (ValueError, KeyError):\n        print(json.dumps({'error': 'Invalid input: slots must be integers.'}))\n        return\n\n    if not (1 <= current_slot <= 20 and 1 <= target_slot <= 20):\n        print(json.dumps({'error': 'Slots must be between 1 and 20.'}))\n        return\n\n    # Convert slot number (1-20) to grid coordinates (row, col)\n    # Grid is 4 rows, 5 columns. Slot 1 is (0,0), Slot 6 is (1,0) etc.\n    current_row = (current_slot - 1) // 5\n    current_col = (current_slot - 1) % 5\n    target_row = (target_slot - 1) // 5\n    target_col = (target_slot - 1) % 5\n\n    row_diff = target_row - current_row\n    col_diff = target_col - current_col\n\n    buttons = []\n    if row_diff > 0:\n        buttons.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        buttons.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        buttons.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        buttons.extend(['Left'] * abs(col_diff))\n\n    print(json.dumps(buttons))\n\nnavigate_box()",
-    "history": [
-      {
-        "commit_message": "feat: Create pc_box_navigator tool. This tool automates cursor movement within the PC storage box grid, addressing a major inefficiency identified during the mandatory self-assessment. This is a foundational component for building more complex PC automation workflows.",
-        "timestamp": "2025-11-17T00:46:35.521Z",
-        "action_counter": 47345
-      }
-    ]
-  },
-  "select_pc_box": {
-    "description": "Navigates the PC 'Choose a BOX' menu to switch to a target box number. Outputs button presses for use with autopress_buttons=true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
+          "type": "string",
+          "nullable": true
+        },
         "target_box_number": {
-          "type": "string"
+          "type": "string",
+          "nullable": true
         }
       },
       "required": [
-        "target_box_number"
+        "mode"
       ]
     },
-    "python_script": "import json\ntarget_box = int(input_data['target_box_number'])\nif not 1 <= target_box <= 14:\n    print(json.dumps({'error': 'Invalid box number. Must be between 1 and 14.'}))\nelse:\n    num_downs = target_box - 1\n    buttons = ['Down'] * num_downs\n    buttons.extend(['A', 'A', 'A', 'A']) # Select box, select SWITCH, confirm save, confirm overwrite\n    print(json.dumps(buttons))",
+    "python_script": "import json\n\nmode = input_data.get(\"mode\")\nbuttons = []\nerror_msg = None\n\nif mode == \"menu_select\":\n    current_option = input_data.get(\"current_cursor_position\")\n    target_option = input_data.get(\"target_option\")\n    menu_options_str = input_data.get(\"menu_options\", \"[]\")\n    if not all([current_option, target_option, menu_options_str]):\n        error_msg = \"Missing arguments for menu_select mode.\"\n    else:\n        try:\n            menu_options = json.loads(menu_options_str)\n            current_index = menu_options.index(current_option)\n            target_index = menu_options.index(target_option)\n            diff = target_index - current_index\n            if diff > 0:\n                buttons.extend([\"Down\"] * diff)\n            elif diff < 0:\n                buttons.extend([\"Up\"] * abs(diff))\n            buttons.append(\"A\")\n        except (ValueError, json.JSONDecodeError):\n            error_msg = \"Invalid current/target option or menu_options JSON.\"\n\nelif mode == \"box_navigate\":\n    current_slot_str = input_data.get(\"current_slot\")\n    target_slot_str = input_data.get(\"target_slot\")\n    if not all([current_slot_str, target_slot_str]):\n        error_msg = \"Missing arguments for box_navigate mode.\"\n    else:\n        try:\n            current_slot = int(current_slot_str)\n            target_slot = int(target_slot_str)\n            current_x = (current_slot - 1) % 5\n            current_y = (current_slot - 1) // 5\n            target_x = (target_slot - 1) % 5\n            target_y = (target_slot - 1) // 5\n            x_diff = target_x - current_x\n            y_diff = target_y - current_y\n            if x_diff > 0: buttons.extend([\"Right\"] * x_diff)\n            elif x_diff < 0: buttons.extend([\"Left\"] * abs(x_diff))\n            if y_diff > 0: buttons.extend([\"Down\"] * y_diff)\n            elif y_diff < 0: buttons.extend([\"Up\"] * abs(y_diff))\n        except ValueError:\n            error_msg = \"Invalid slot number.\"\n\nelif mode == \"box_select\":\n    target_box_str = input_data.get(\"target_box_number\")\n    if not target_box_str:\n        error_msg = \"Missing target_box_number for box_select mode.\"\n    else:\n        try:\n            target_box = int(target_box_str)\n            buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"]) # Select SWITCH BOX & enter screen\n            if target_box > 1:\n                buttons.extend([\"Right\"] * (target_box - 1))\n            buttons.append(\"A\")\n        except ValueError:\n            error_msg = \"Invalid box number.\"\n\nelse:\n    error_msg = \"Invalid mode specified.\"\n\nif error_msg:\n    print(json.dumps({\"error\": error_msg}))\nelse:\n    print(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create select_pc_box tool. This tool automates the repetitive, multi-turn process of switching between Pokémon storage boxes. This was created in direct response to an Overwatch critique that identified the manual box-checking process as a major inefficiency.",
-        "timestamp": "2025-11-17T04:27:28.535Z",
-        "action_counter": 47769
+        "commit_message": "feat: Consolidate PC navigation tools into pc_navigator. This addresses a major inefficiency identified by an Overwatch critique. The new tool combines the functionality of `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single, mode-based tool, fulfilling the core directive of immediate tool maintenance and improving overall efficiency.",
+        "timestamp": "2025-11-17T05:16:58.132Z",
+        "action_counter": 47853
       }
     ]
   }
