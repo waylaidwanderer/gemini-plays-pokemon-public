@@ -136,3 +136,4 @@
 
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
+- **One-Way Tile Verification:** My notepad and pathfinder assume `LEDGE_HOP_DOWN` tiles are one-way. This is unverified. **Test:** At the next opportunity, attempt to walk 'up' a `LEDGE_HOP_DOWN` tile to confirm or disprove this assumption. The tiles at (26, 45) and (27, 45) on the current map are potential test subjects.
