@@ -2,12 +2,16 @@
 
 ## Current Objectives
 - **Primary:** Defeat Bugsy (Azalea Gym).
-- **Secondary:** Heal at Pokemon Center.
+- **Secondary:** Verify Gym Access.
 - **Tertiary:** Explore Azalea Town.
 
+## Charcoal Kiln (8_2) Notes
+- **NPCs:** Black Belt at (2, 3).
+- **Objects:** Bookshelves, Radio.
+
 ## Azalea Town Notes
+- **Status:** Slowpoke Well cleared. Gym should be open.
 - **Arrival:** Came from East (Route 33).
-- **Obstacles:** Rocket Grunt at (31, 9) blocking Slowpoke Well.
 
 ## Key Locations & Warps
 - **New Bark Town:** Elm's Lab, Mom's House.
