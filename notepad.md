@@ -23,7 +23,7 @@
 ### Custom Tools
 - `plan_path_to_target`: Generates a path to a target coordinate.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `pc_navigator`: A unified tool to navigate the PC. It can select options in vertical menus, move the cursor in the Pokémon box grid, and switch between boxes.
+- `pc_navigator`: A unified tool to navigate the PC.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
@@ -81,7 +81,7 @@
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
 - **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
 
-### 7. Tile Mechanics
+## 7. Tile Mechanics
 ### Impassable
 - BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
@@ -99,18 +99,25 @@
 - WATER (impassable without SURF)
 - WARP_CARPET_DOWN (Confirmed one-way exit. Inactive when stepped on from the lobby side, confirming they are destinations from the battle rooms. Need to test upward traversal if encountered from the other side.)
 
-### 8. Key Discoveries (Archive)
-- **Sudowoodo Tree (Route 36):** Solved with SQUIRTBOTTLE.
-- **Olivine Lighthouse Descent:** Solved by finding a new pit on 6F.
-- **CianwoodLugiaSpeechHouse Escape:** Solved by pressing 'B'.
-- **LIGHTHOUSE SAILOR CRASH (CRITICAL):** Interacting with the Sailor at Olivine Lighthouse 3F (9, 2) while on the warp at (9, 3) causes a game-breaking crash.
-
-## 9. Current Puzzle: Battle Tower Escape
+## 8. Current Puzzle: Battle Tower Escape
 - **Objective:** Exit the Battle Tower lobby.
 - **State:** UNSOLVED. Receptionist at (7, 6) blocks the exit.
-- **Summary of Failures:** All simple interactions with NPCs, objects, and the glitched UI prompt have been exhausted. The PokéGear's Radio function was also found to be non-interactive, making a radio-based hypothesis untestable. My hypothesis of stepping on every floor tile is currently blocked by a stunned NPC. My current hypothesis is that there is a hidden switch on one of the walls.
+- **Current Hypothesis:** There is a hidden switch on one of the walls. I am conducting a systematic search.
 
-### Failed Hypotheses (Full Log)
+## 9. Reflection Log & New Ideas
+- **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
+- **Tool Maintenance Failure (Turn 45905, 46603, 46786):** I identified critical flaws in my tools but deferred the fixes, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
+- **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
+- **Position Hallucination (Turn 48018):** I failed to verify my position, leading to a failed action and a system warning. This reinforces the need for constant reality checks against the game state.
+- **New Tool Idea:** A `wall_checker_tool` that automates the process of pathing to, facing, and interacting with a sequence of wall tiles.
+- **New Agent Idea:** A `systematic_search_planner` agent that takes the map layout and a list of checked tiles and outputs the next sequence of moves to check the next logical tile for a hidden interaction.
+
+## 10. Lessons Learned
+- **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
+- **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
+
+## 11. Archived Puzzle Logs
+### Battle Tower Escape: Failed Hypotheses
   1. Losing a battle (resets to lobby, no change).
   2. Performing the save-glitch cancel sequence (resets to lobby menu, no change).
   3. Performing the sequence, then selecting 'Cancel' from her menu.
@@ -144,31 +151,7 @@
   31. With a valid party, trigger the save-glitch sequence and then press 'A' on the glitched level select menu. (Failed: The level select menu does not reappear after the save; the game transitions directly to the 'Cancel' prompt, making the test impossible).
   32. Open the PokéGear, tune the Radio to the Poké Flute channel (20), close the PokéGear, then talk to the receptionist. (Failed: The radio tuner in the PokéGear is not interactive, making the test impossible).
   33. Talk to the receptionist with only the Eevee from Bill in the party. (Failed: Dialogue was unchanged).
-
-### New Hypotheses & Ideas
-- **Alternative Escape Hypothesis 1:** A specific Pokémon or combination of Pokémon in the party (e.g., the Eevee from Bill, the Togepi egg Pokémon) might trigger a new dialogue option with the receptionist.
-- **Alternative Escape Hypothesis 2:** The PC might be involved in a non-obvious way, such as naming a box a specific phrase.
-- **Tool Idea:** A `wall_checker_tool` that automates the process of pathing to, facing, and interacting with a sequence of wall tiles.
-- **Agent Idea:** A `systematic_search_planner` agent that takes the map layout and a list of checked tiles and outputs the next sequence of moves to check the next logical tile for a hidden interaction.
-
-## 10. Reflection Log & New Ideas
-- **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
-- **Tool Maintenance Failure (Turn 45905, 46603, 46786):** I identified critical flaws in my tools but deferred the fixes, violating my core directive of immediate maintenance. This is a major process error that cannot be repeated.
-- **Agent Underutilization (Turns 45865-45881, 46237):** I failed to use the `puzzle_solver_agent` for the Battle Tower lobby escape, instead wasting numerous turns on manual, inefficient hypothesis testing.
-
-## 11. Lessons Learned
-- **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
-
-## Tool Failures & Fixes
-- **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_to_target` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
-- **pokemon_info_extractor (Turn 47386):** Created tool based on the unverified assumption that PC screen text uniquely identifies the selected Pokémon. The assumption was false, making the tool non-functional. Deleted in Turn 46801.
-
   34. Use the ITEMFINDER on the warp carpet at (7, 9). (Failed: ITEMFINDER did not respond).
   35. Attempt to enter a battle with a party of two to create a fainted party member state. (Failed: Receptionist requires exactly three Pokémon, preventing the battle from starting).
   36. Create a fainted party member state by entering a battle with three Pokémon, letting one faint, then losing. (Failed: The save-glitch sequence forces the player to cancel the challenge, making it impossible to enter a battle and create the fainted party member state).
-
-### New Ideas (from self-assessment & agent)
-- **Tool Idea:** A `wall_checker_tool` that automates the process of pathing to, facing, and interacting with a sequence of wall tiles.
-- **Agent Idea:** A `systematic_search_planner` agent that takes the map layout and a list of checked tiles and outputs the next sequence of moves to check the next logical tile for a hidden interaction.
-- **Current Hypothesis (from agent):** Performing a non-glitched save via the PC might reset the state that causes the receptionist's save function to fail.
   37. Performing a non-glitched save via the PC might reset the state that causes the receptionist's save function to fail. (Failed: The save-glitch sequence still occurred and forced a cancellation).
