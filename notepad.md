@@ -25,7 +25,7 @@
 - `deterministic_battle_strategist`: Recommends battle actions and moves.
 - `plan_path_to_target`: Generates a path to a target coordinate. NOTE: This tool only PLANS the path. You must set `buttons_to_press` to `['path']` to execute it.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `pc_select_box`: Navigates the 'Change Box' PC menu to a specific box number.
+- `pc_box_navigator`: Navigates the cursor within a Pokémon storage box from a current slot to a target slot. The box is a 5x4 grid (20 slots). Outputs button presses for use with autopress_buttons=true.
 - `select_pc_option`: Navigates the main PC menu (WITHDRAW, DEPOSIT, etc.) from a current position to a target option. Outputs button presses for use with autopress_buttons=true.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
