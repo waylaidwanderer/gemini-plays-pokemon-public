@@ -79,3 +79,6 @@
 # Achievements
 - Defeated Bugsy (Hive Badge) - Azalea Town
 - Obtained TM49 (Fury Cutter)
+
+# Achievements
+- Defeated Rival Silver (Azalea Town Gatehouse)
