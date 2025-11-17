@@ -133,13 +133,12 @@
   21. Talk to every NPC in a clockwise order (Youngster -> Cooltrainer F -> Bug Catcher -> Granny), then talk to the receptionist. (Failed: Receptionist dialogue was unchanged).
   22. Initiate a challenge with a party of one Pokémon. (Result: Triggered unique 'You're not ready' dialogue, but did not solve the escape).
   23. Initiate a challenge with a party of two Pokémon. (Result: Triggered the same 'You're not ready' dialogue, disproving the invalid party size hypothesis).
-
   24. Talk to the receptionist with a valid party, select a challenge level, and when asked 'Is your party ready?', select the 'No' option. (Failed: The game never presented the 'Is your party ready?' prompt, making the test impossible. It skipped from level select to a cancel screen after the save glitch).
-  25. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the START button to try and open the main menu. (Failed: The START button had no effect on the glitched dialogue prompt).
+  25. With a valid party, trigger the save-glitch, but select 'No' at the 'Cancel challenge?' prompt. (Failed: The cursor automatically resets to 'Yes', making it impossible to select 'No').
 
 - **New Hypotheses to Test:**
 
-  1. With a valid party, trigger the save-glitch, but select 'No' at the 'Cancel challenge?' prompt, then immediately talk to the receptionist again. (Agent suggestion)
+  1. With a valid party, trigger the save-glitch sequence. At the 'Cancel challenge?' prompt, press the START button to try and open the main menu. (Agent suggestion)
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
