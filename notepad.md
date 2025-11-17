@@ -57,14 +57,14 @@
 - Traversed West to Azalea. Defeated Hiker Anthony (Phone registered).
 - Found Psncureberry.
 
-# Azalea Town Pokemon Center (Map 8_1)
+# Slowpoke Well B1F Notes
 - **Tile Mechanics:**
-  - **FLOOR:** Walkable.
-  - **WARP_CARPET_DOWN:** Exit to Azalea Town.
-  - **LADDER:** Warp to 2F.
-  - **COUNTER:** Impassable obstacle. Interact with Nurse Joy from across it.
-  - **WALL:** Impassable.
-- **NPCs:** Nurse Joy, Fishing Guru, Pokefan F.
+  - **FLOOR:** Walkable terrain.
+  - **WALL:** Impassable rock walls (Confirmed).
+  - **WATER:** Requires Surf (Impassable).
+  - **LADDER:** Exit to Azalea Town.
+  - **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
+- **Entities:** Team Rocket Grunts, Slowpokes (Tails cut).
 
 # Strategy Advisor Notes
 - **Bugsy Strategy:** Lead with Quilava (Ember). Spam Ember vs Metapod/Kakuna. Be aggressive vs Scyther (Fury Cutter is dangerous). Use Onix as shield if needed.
