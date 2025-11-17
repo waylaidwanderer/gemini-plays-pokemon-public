@@ -142,7 +142,8 @@
 
 - **New Hypotheses to Test:**
 
-  1. During the save-glitch sequence, at the 'Cancel challenge?' prompt, press the 'B' button.
+- **New Hypotheses to Test:**
+  (All simple button press hypotheses have been exhausted. Must now consider complex or multi-step interactions.)
 
 ## 10. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849):** I have repeatedly deferred notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
