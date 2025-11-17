@@ -116,15 +116,3 @@
 ### Battle Tower Escape: SOLVED
 - **Solution:** The warp carpets at (7, 9) and (8, 9) were two-way warps. The solution was to simply walk onto them. My core assumption that they were one-way entrances was never tested and was incorrect.
 - **Failed Hypotheses (41 total):**
-
-  31. With a valid party, trigger the save-glitch sequence and then press 'A' on the glitched level select menu. (Failed: The level select menu does not reappear after the save; the game transitions directly to the 'Cancel' prompt, making the test impossible).
-  32. Open the PokéGear, tune the Radio to the Poké Flute channel (20), close the PokéGear, then talk to the receptionist. (Failed: The radio tuner in the PokéGear is not interactive, making the test impossible).
-  33. Talk to the receptionist with only the Eevee from Bill in the party. (Failed: Dialogue was unchanged).
-  34. Use the ITEMFINDER on the warp carpet at (7, 9). (Failed: ITEMFINDER did not respond).
-  35. Attempt to enter a battle with a party of two to create a fainted party member state. (Failed: Receptionist requires exactly three Pokémon, preventing the battle from starting).
-  36. Create a fainted party member state by entering a battle with three Pokémon, letting one faint, then losing. (Failed: The save-glitch sequence forces the player to cancel the challenge, making it impossible to enter a battle and create the fainted party member state).
-  37. Performing a non-glitched save via the PC might reset the state that causes the receptionist's save function to fail. (Failed: The save-glitch sequence still occurred and forced a cancellation).
-  38. Trigger the glitched save sequence with the receptionist, then immediately access and exit BILL's PC, then talk to the receptionist again. (Failed: Receptionist's dialogue and position were unchanged).
-  39. Trigger the save-glitch sequence, cancel out, then talk to the Granny. (Failed: Granny's dialogue was unchanged, disproving the hypothesis that the glitch affects other NPCs).
-  40. Systematically check every accessible wall tile for a hidden switch. (Failed: No switches were found).
-  41. Trigger the save-glitch sequence, cancel out, then talk to the Granny to see if her state has changed. (Failed: Granny's dialogue was unchanged).
