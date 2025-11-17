@@ -3,7 +3,7 @@
 ## Current Objectives
 - **Primary:** Defeat Bugsy (Azalea Gym).
 - **Secondary:** Verify Gym Access.
-- **Tertiary:** Explore Azalea Town.
+- **Tertiary:** Find Apprentice (Ilex Forest).
 
 ## Charcoal Kiln (8_2) Notes
 - **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
