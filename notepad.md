@@ -143,3 +143,4 @@
 - **Ace:** Deposited in PC to make room.
 - **Current Objective:** Heading to Bike Shop.
 - **Odd Egg:** Quest Complete! Received from Day Care Man. Ace deposited to make room.
+- **Navigation:** Bike Shop (29, 29) blocked from West/South. Must loop around from North.
