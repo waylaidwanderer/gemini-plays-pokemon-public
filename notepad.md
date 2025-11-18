@@ -2,6 +2,7 @@
 
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **INVENTORY VERIFICATION (MANDATORY):** Before starting any quest for a key item, I MUST first check my inventory to confirm I do not already possess it. The COIN CASE incident was a critical failure caused by skipping this basic step.
+- **REALITY CHECK AGENT (MANDATORY):** Before pursuing any key item or puzzle solution, I MUST use the `reality_check_agent` to verify my assumptions against the game state. This is a procedural safeguard to prevent hallucinations like the COIN CASE incident.
 - **HALLUCINATION & REALITY CHECKS (MANDATORY):** I have a documented history of critical failures from flawed spatial reasoning and location hallucinations (e.g., Radio Tower 1F, Mt. Mortar, Game Corner, Underground). I MUST use the `reality_check_agent` BEFORE planning significant navigation or puzzle-solving actions to prevent this recurring error. Trusting system warnings for correction instead of proactively using my own tools is a critical failure.
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
@@ -26,8 +27,8 @@
 - **GINA (PICNICKER):** Route 34 (Rematch requested again).
 - **HUEY (SAILOR):** OLIVINE LIGHTHOUSE (Rematch).
 - **ANTHONY (HIKER):** Route 33. Chatted about his MACHOP and seeing wild GEODUDE.
-- **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch). Chatted about VOLTORB.
-- **ALAN (SCHOOLBOY):** Route 36 (Rematch). Chatted about beating a Ledyba.
+- **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch).
+- **ALAN (SCHOOLBOY):** Route 36 (Rematch).
 - **TODD (CAMPER):** ROUTE 34 (Rematch requested).
 
 ## 3. Special Events & Swarms
@@ -147,4 +148,3 @@
 ### Special Interactable Tiles
 - **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
 - **Tool Logic (LESSON):** Tools must account for persistent state stored in map markers, not just transient on-screen data. Relying only on the immediate game state for pathfinding can lead to collisions with known, off-screen obstacles.
-- **REALITY CHECK AGENT (MANDATORY):** Before pursuing any key item or puzzle solution, I MUST use the `reality_check_agent` to verify my assumptions against the game state. This is a procedural safeguard to prevent hallucinations like the COIN CASE incident.
