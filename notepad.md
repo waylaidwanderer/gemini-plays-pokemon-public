@@ -131,3 +131,4 @@
 - **party_strategist_agent**: Recommends an optimal party of three for a specific goal.
 - **IMMEDIATE MAINTENANCE (LESSON):** Deferring tool/agent fixes or data management (notepad, markers) is a critical failure. Any identified maintenance task MUST be performed in the same turn it is discovered.
 - **NPC BEHAVIOR (LESSON):** Do not make broad assumptions about NPC behavior (e.g., assuming all NPCs of a certain type are static). Verify behavior on a case-by-case basis before encoding it into tools. Favor caution and assume NPCs can move.
+- **TILE MECHANIC VERIFICATION (NEW PROCEDURE):** Upon entering any new map, I MUST systematically verify and document the traversability and mechanics of every single tile type present. This is mandatory to prevent pathing failures caused by incorrect assumptions about the game world.
