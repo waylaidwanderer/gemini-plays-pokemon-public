@@ -3,10 +3,10 @@
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
+- **REALITY CHECKS (MANDATORY):** I have a documented history of critical failures from flawed spatial reasoning and location hallucinations (e.g., Radio Tower 1F, Mt. Mortar). I MUST use the `reality_check_agent` BEFORE planning significant navigation or puzzle-solving actions to prevent this recurring error.
 - **BATTLE TOWER GLITCH (CRITICAL):** Accepting the battle challenge and saving triggers a guaranteed, game-breaking data corruption glitch. This is unavoidable. The only fix is to press 'B' at the level select menu and cancel the challenge. This restores the save data but is a reset mechanism, NOT an escape route from the lobby.
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
-- **REALITY CHECKS:** My internal sense of location is unreliable. I MUST verify my position from the game state before any significant action to prevent hallucination loops.
 - **COORDINATE SYSTEM:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
 - **INVENTORY VERIFICATION:** I must check my PACK before assuming I have an item to prevent hallucination (e.g., the nonexistent ESCAPE ROPE incident).
 - **TEXT BOXES:** Pressing 'B' is not a universal solution for closing text boxes where 'A' fails (e.g., Sailor in Olivine Lighthouse), but it has been confirmed to work for breaking dialogue loops (e.g., Rival on Route 41). This should be tested as an alternative when 'A' is unresponsive.
@@ -28,6 +28,7 @@
 - **ANTHONY (HIKER):** Route 33. Chatted about his MACHOP and seeing wild GEODUDE.
 - **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch). Chatted about VOLTORB.
 - **ALAN (SCHOOLBOY):** Route 36 (Rematch). Chatted about beating a Ledyba.
+- **TODD (CAMPER):** ROUTE 34 (Rematch requested).
 
 ## Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
@@ -59,7 +60,8 @@
 - BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW, WATERFALL (untested, likely needs HM), INCENSE_BURNER, RadioTower2FSalesSign, RadioTower2FOaksPKMNTalkSign, RadioTower2FPokemonRadioSign
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
 ### Traversable
-- FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters), unknown (traversable)
+- **FLOOR:** Standard traversable ground. Visual appearance may vary (e.g., patterned carpets, plain floors), but the function is the same.
+- GRASS, TALL_GRASS (wild encounters)
 - **LADDER:** Can function as a standard traversable floor (e.g., Route 32 pier), not just a vertical warp.
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
@@ -69,9 +71,7 @@
 - WARP_CARPET_DOWN (two-way, requires facing down)
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
-- **CRITICAL CORRECTION:** These tiles are impassable destinations. Their type describes the ONLY valid move you can make *from* them.
-- **PROACTIVE REALITY CHECKS:** I have a history of hallucinating my location, leading to failed actions and wasted turns. I MUST use the `reality_check_agent` *before* planning significant navigation to prevent this. I must also consult my map markers before interacting with objects to avoid re-engaging with defeated or non-essential NPCs.
-- **LEDGE_HOP_DOWN:** Can only move Down from this tile. (Unverified one-way - CRITICAL TEST PENDING).
+- **CRITICAL TEST PENDING (HIGH PRIORITY):** My pathfinder assumes `LEDGE_HOP_DOWN` tiles are one-way. This is unverified. I MUST test this at the next opportunity.
   - **Hypothesis:** It is impossible to move 'Up' onto a `LEDGE_HOP_DOWN` tile.
   - **Test Plan:**
     1. Locate the nearest `LEDGE_HOP_DOWN` tile.
@@ -94,6 +94,7 @@
 ## 8. Lessons Learned
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
 - **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_with_warnings` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
+- **Pathing Blockage (Moving NPCs):** If a planned path is blocked by a moving NPC, the most efficient solution is to immediately recalculate the path from the current position rather than attempting complex workarounds or waiting.
 
 ## 9. Archived Puzzle Logs
 ### Battle Tower Escape: SOLVED
@@ -105,30 +106,19 @@
 
 ## 10. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
-- **One-Way Tile Verification:** My notepad and pathfinder assume `LEDGE_HOP_DOWN` tiles are one-way. This is unverified. **Test:** At the next opportunity, attempt to walk 'up' a `LEDGE_HOP_DOWN` tile to confirm or disprove this assumption.
 - **CRITICAL FAILURE (MT. MORTAR):** I spent over 10 turns debugging my `plan_path_with_warnings` tool because it correctly reported 'No path found'. My assumption that a path existed was a hallucination. I was on an isolated platform with no route to the exit except the ladder I entered from. This is a catastrophic failure to trust my own tools and verify my own spatial reasoning. I must trust the pathfinder's output as the default truth and verify the in-game situation before assuming a tool is broken.
 - **CATASTROPHIC HALLUCINATION (MT. MORTAR):** After my tool correctly reported 'No path found', I distrusted it and spent turns debugging it, only to attempt a manually plotted path that was physically impossible. This is a multi-layered failure. Lesson: My visual assessment is fallible. The pathfinder's output MUST be trusted as the source of truth for navigation. If it says 'No path', there is no path.
 - **Lesson (Route Prioritization):** Just because a path is explorable (like Dark Cave or Mt. Mortar) doesn't mean it's the correct path for the main quest. I need to be better at recognizing when a route is a side area or requires an unobtained HM, and quickly pivot back to the most logical main path to avoid wasting time on dead ends.
-## Sudowoodo Puzzle (Route 37)
+- **CRITICAL FAILURE (RADIO TOWER 1F):** I spent multiple turns debugging my `plan_path_with_warnings` tool because it correctly reported 'No path found' to a Gentleman NPC. My visual assessment was a hallucination; I failed to see a COUNTER tile blocking the path. This is a catastrophic failure to trust my own tools. The pathfinder's output MUST be trusted as the source of truth for navigation. If it says 'No path', there is no path.
+
+## 11. Archived Sudowoodo Puzzle Log
 - **Failed Hypothesis 1:** Interacting with Sudowoodo at (7, 12) from below (7, 13) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Failed Hypothesis 2:** Interacting with Sudowoodo at (7, 12) from the side (8, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Failed Hypothesis 3:** Interacting with Sudowoodo at (6, 12) from below (6, 13) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
-- **Lesson Learned (Overwatch Critique):** I have repeatedly hallucinated my location. I MUST start using the `reality_check_agent` before making significant navigational plans to prevent this recurring failure.
 - **Failed Hypothesis 4:** Manually using the SQUIRTBOTTLE from the PACK menu on the Sudowoodo at (6, 12) will clear it. (Result: Game message 'But nothing happened...')
 - **Failed Hypothesis 5:** Interacting with Sudowoodo at (6, 12) from the left (5, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Failed Hypothesis 6 (Impossible):** Interacting with Sudowoodo at (7, 12) from above (7, 11) triggers SQUIRTBOTTLE. (Result: Impossible, (7, 11) is a WALL tile).
-- **Lesson Learned (Overwatch Critique):** I have repeatedly hallucinated my location. I MUST start using the `reality_check_agent` before making significant navigational plans to prevent this recurring failure.
-## Overwatch Critique Lessons (Turn 50162)
-- **REALITY CHECK FAILURE:** I have repeatedly failed to use the `reality_check_agent`, leading to critical location hallucinations. I MUST use this agent before any significant navigation or puzzle-solving action to prevent this recurring failure.
-- **AGENT REFINEMENT:** My `puzzle_solver_agent` has repeatedly failed, suggesting impossible moves. I must be more aggressive in refining its prompt when it provides flawed or unhelpful suggestions. A faulty tool is a liability.
-- Failed Hypothesis 7: Using the ITEMFINDER next to the Sudowoodo trees will reveal a hidden item or trigger an event. (Result: Game message 'Nope! ITEMFINDER isn't responding.')
-- Failed Hypothesis 8: Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
-- Failed Hypothesis 9: Using the PokéGear Phone to call Prof. Elm will reset the Twins' interaction state, allowing interaction with the Sudowoodo. (Result: The phone call completed, but the Twins' dialogue still overrode the tree interaction.)
-- **TODD (CAMPER):** ROUTE 34 (Rematch requested).
-## Reflection Log & New Ideas
-- **Overwatch Critique (Turn 50252):** Highlighted chronic underutilization of `reality_check_agent` and `navigation_strategist`. I must integrate them into my workflow more consistently to avoid hallucinations and improve high-level planning.
-- **Lesson (Turn 50256):** When stuck on a puzzle for an extended period (like the Sudowoodo), consult the `navigation_strategist` agent to re-evaluate priorities and identify more productive paths forward. Avoid tunnel vision on a single obstacle when other main quest objectives are available.
+- **Failed Hypothesis 7:** Using the ITEMFINDER next to the Sudowoodo trees will reveal a hidden item or trigger an event. (Result: Game message 'Nope! ITEMFINDER isn't responding.')
+- **Failed Hypothesis 8:** Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
+- **Failed Hypothesis 9:** Using the PokéGear Phone to call Prof. Elm will reset the Twins' interaction state, allowing interaction with the Sudowoodo. (Result: The phone call completed, but the Twins' dialogue still overrode the tree interaction.)
 - **Lesson (Radio Tower Shutter):** After multiple, systematic interaction tests failed on the shutter door, I was stuck. The solution was not to find a more complex way to interact, but to recognize the path was blocked by a story event. The Black Belt's dialogue provided the true next step: find the Director. Lesson: If a puzzle-like obstacle resists multiple simple, direct tests, the root hypothesis that it *is* an immediate puzzle might be wrong. The solution may lie elsewhere, triggered by a different story event.
-## Lessons Learned
-- **Pathing Blockage (Moving NPCs):** If a planned path is blocked by a moving NPC, the most efficient solution is to immediately recalculate the path from the current position rather than attempting complex workarounds or waiting.
-- **CRITICAL FAILURE (RADIO TOWER 1F):** I spent multiple turns debugging my `plan_path_with_warnings` tool because it correctly reported 'No path found' to a Gentleman NPC. My visual assessment was a hallucination; I failed to see a COUNTER tile blocking the path. This is a catastrophic failure to trust my own tools. The pathfinder's output MUST be trusted as the source of truth for navigation. If it says 'No path', there is no path.
