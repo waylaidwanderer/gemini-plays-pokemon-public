@@ -1,9 +1,13 @@
 # Gem's Adventure Log
 
 ## Current Objectives
-- **Primary:** Reach Goldenrod City (Route 34).
-- **Secondary:** Navigate Ilex Forest to Route 34.
-- **Tertiary:** Explore Ilex Forest.
+- **Primary:** Obtain Plain Badge (Whitney).
+- **Secondary:** Train Rocky (Onix) to Lv14.
+- **Tertiary:** Hatch Eggs.
+
+## Recent Updates
+- **Odd Egg:** Obtained! Ace deposited.
+- **Location:** Found Goldenrod Dept. Store.
 
 ## Completed Quests
 - **Apprentice:** Rescued. Rewards: HM01 Cut, Charcoal.
