@@ -1,8 +1,8 @@
 # Gem's Adventure Log
 
 ## Current Objectives
-- **Primary:** Reach Goldenrod City through Ilex Forest.
-- **Secondary:** Teach Cut to Scout.
+- **Primary:** Reach Goldenrod City (Route 34).
+- **Secondary:** Cut the tree and navigate North.
 - **Tertiary:** Explore Ilex Forest.
 
 # Active Quests
