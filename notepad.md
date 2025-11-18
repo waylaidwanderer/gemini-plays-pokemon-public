@@ -45,6 +45,8 @@
 
 ## Todo / Reminders
 - **ROCKY (Onix):** Obtained via trade in Violet City. Lv5. Holding Bitter Berry.
+- **Explore Warps:** (14, 21) [West], (24, 27) [East].
+- **Underground:** Entrance at (11, 29) [South].
 
 # Route 32 & Ruins of Alph (Summarized)
 - Passed through. Obtained Old Rod. Defeated Bird Keeper Peter.
