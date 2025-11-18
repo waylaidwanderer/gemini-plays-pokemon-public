@@ -94,3 +94,7 @@
 - **Scout (Sentret):** Knows Cut.
 - Defeated Hidden Youngster at (12, 1) (Ledyba, Paras).
 - Phone Call: Anthony (Hiker) - Rambled about berries and beauties. No request.
+
+# Route 34 Gatehouse
+- **Warps:** South to Ilex Forest. North to Route 34 (Presumed).
+- **NPCs:** Lass with Butterfree, Teacher.
