@@ -24,7 +24,6 @@
 - `pc_navigator`: A unified tool to navigate the PC.
 - `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `find_reachable_unseen_tiles`: A comprehensive exploration tool that identifies all unseen tiles on the current map and filters them to return only those that are adjacent to currently reachable areas.
 - `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
