@@ -90,5 +90,5 @@
 - **Puzzle Solved:** Farfetch'd returned. HM01 Cut obtained.
 - **Key Items/Events:**
   - **Headbutt Tutor:** Man with green hair near the exit (Right of shrine).
-  - **Hidden Ether:** Top-right corner before exit.
+  - **Ether:** Found at (27, 1).
 - **Scout (Sentret):** Knows Cut.
