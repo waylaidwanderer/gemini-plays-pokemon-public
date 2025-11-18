@@ -139,7 +139,3 @@
 
 ## Dark Cave
 - The cave is pitch-black and requires the HM move FLASH to navigate effectively.
-## 13. High-Priority Tests
-- **Ledge Traversal:** My assumption that all ledge tiles (`LEDGE_HOP_*`) are one-way is completely unverified. This is a critical knowledge gap. **Test (High Priority):** At the next available opportunity, I MUST attempt to walk against the apparent direction of a ledge tile (e.g., walk 'Up' onto a `LEDGE_HOP_DOWN` tile) to confirm or disprove this mechanic.
-## 13. High-Priority Tests
-- **Ledge Traversal:** My assumption that all ledge tiles (`LEDGE_HOP_*`) are one-way is completely unverified. This is a critical knowledge gap. **Test (High Priority):** At the next available opportunity, I MUST attempt to walk against the apparent direction of a ledge tile (e.g., walk 'Up' onto a `LEDGE_HOP_DOWN` tile) to confirm or disprove this mechanic.
