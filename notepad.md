@@ -107,3 +107,4 @@
 - **Hidden Item:** Potential Rare Candy detected at (8, 32) (in wall, access from west side?)
 - Defeated Lass at Route 34 (11, 26).
 - Defeated Youngster Ian at (11, 22).
+- Hidden Rare Candy at (8, 32) is currently unreachable (blocked by fence).
