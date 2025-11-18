@@ -63,13 +63,7 @@
 - WARP_CARPET_DOWN (two-way, requires facing down)
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
-- **CRITICAL TEST PENDING (HIGH PRIORITY):** My pathfinder assumes `LEDGE_HOP_DOWN` tiles are one-way. This is unverified. I MUST test this at the next opportunity.
-  - **Hypothesis:** It is impossible to move 'Up' onto a `LEDGE_HOP_DOWN` tile.
-  - **Test Plan:**
-    1. Locate the nearest `LEDGE_HOP_DOWN` tile.
-    2. Position player on the tile directly below it.
-    3. Press 'Up' to attempt to move onto the ledge tile.
-    4. **Record Outcome:** Document whether the movement was successful or blocked. This test is mandatory to resolve the unverified mechanic.
+- **LEDGE_HOP_DOWN:** Movement is likely one-way (down only). **CRITICAL TEST PENDING (HIGH PRIORITY):** This mechanic is unverified. I MUST test this at the next opportunity by locating a `LEDGE_HOP_DOWN` tile, positioning myself on the tile directly below it, and attempting to move 'Up' onto it. This is mandatory to resolve the unverified mechanic for my pathfinder.
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - LEDGE_HOP_RIGHT: Can only move Right from this tile.
 - FLOOR_UP_WALL: Can only move Down from this tile. Impassable from above (cannot move Down onto it).
