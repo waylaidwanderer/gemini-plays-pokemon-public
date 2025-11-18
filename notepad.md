@@ -5,12 +5,8 @@
 - **Secondary:** Cut the tree and navigate North.
 - **Tertiary:** Explore Ilex Forest.
 
-# Active Quests
-- **Apprentice:** Complete. Reward (Charcoal) obtained.
-
-## Charcoal Kiln (8_2) Notes
-- **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
-- **Objects:** Bookshelves, Radio.
+## Completed Quests
+- **Apprentice:** Rescued. Rewards: HM01 Cut, Charcoal.
 
 ## Azalea Town Notes
 - **Status:** Slowpoke Well cleared. Gym should be open.
