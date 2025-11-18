@@ -112,11 +112,7 @@
 - **TRUST YOUR TOOLS (RECURRING FAILURE):** I have a documented history of catastrophic failures (Mt. Mortar, Radio Tower 1F) where I distrusted my pathfinding tool's correct 'No path found' output. My own visual/spatial reasoning is fallible. The pathfinder's output MUST be trusted as the default source of truth. If it reports no path, I must verify the blockage in-game before assuming the tool is broken.
 
 ## 11. Archived Sudowoodo Puzzle Log
-- **Failed Hypothesis 1:** Interacting with Sudowoodo at (7, 12) from below (7, 13) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
-- **Failed Hypothesis 2:** Interacting with Sudowoodo at (7, 12) from the side (8, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
-- **Failed Hypothesis 3:** Interacting with Sudowoodo at (6, 12) from below (6, 13) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
-- **Failed Hypothesis 4:** Manually using the SQUIRTBOTTLE from the PACK menu on the Sudowoodo at (6, 12) will clear it. (Result: Game message 'But nothing happened...')
-- **Failed Hypothesis 5:** Interacting with Sudowoodo at (6, 12) from the left (5, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
+
 - **Failed Hypothesis 6 (Impossible):** Interacting with Sudowoodo at (7, 12) from above (7, 11) triggers SQUIRTBOTTLE. (Result: Impossible, (7, 11) is a WALL tile).
 - **Failed Hypothesis 7:** Using the ITEMFINDER next to the Sudowoodo trees will reveal a hidden item or trigger an event. (Result: Game message 'Nope! ITEMFINDER isn't responding.')
 - **Failed Hypothesis 8:** Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
