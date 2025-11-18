@@ -144,4 +144,4 @@
 - **Current Location:** Goldenrod City (North).
 - **Bicycle:** Obtained!
 - **Next Step:** Investigate house North of Gym, then Route 35 to train Rocky.
-- **Strategy:** Grind Rocky to Lv 14 (Rock Throw) for Whitney.
+- **Strategy:** Buy Fresh Water (6F) & X Attacks (2F). Train Rocky to Lv 14 (Route 35). Vs Whitney: X Attack -> Screech -> Rock Throw.
