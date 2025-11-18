@@ -118,3 +118,8 @@
 # Goldenrod City Notes
 - **Arrival:** Came from South (Route 34).
 - **Objectives:** Find PC, Get Odd Egg, Challenge Gym (Whitney).
+
+# Goldenrod City Pokemon Center
+- Arrived to deposit Pokemon for Odd Egg.
+- Exits: South to City, Ladder to 2F.
+- NPCs: Lass, Pokefan F.
