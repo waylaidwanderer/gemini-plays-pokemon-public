@@ -149,3 +149,18 @@
 ### Special Interactable Tiles
 - **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
 - **Tool Logic (LESSON):** Tools must account for persistent state stored in map markers, not just transient on-screen data. Relying only on the immediate game state for pathfinding can lead to collisions with known, off-screen obstacles.
+
+## 12. New Lessons Learned (Post-Critique)
+- **NPC DIALOGUE TRIGGERS:** NPC dialogue is likely tied to major story flags (e.g., obtaining a key item, defeating a gym leader), not minor, exploratory actions like trying a locked door. Avoid re-interacting with NPCs unless a major event has occurred.
+
+## 13. Goldenrod Underground Switch Puzzle Log
+- **Hypothesis:** A hidden switch in one of the 'Switch Room Entrances' opens the locked door in the main tunnel.
+- **Plan:** Systematically check every interactable-looking object in both switch rooms (north and south). This includes the wall decorations/switches I previously ignored or hallucinated.
+  - **South Room (current location):**
+    - Test object at (0, 29).
+    - Test object at (3, 24).
+    - Test object at (3, 25).
+    - Test object at (3, 26).
+    - Test object at (6, 24).
+    - Test object at (6, 25).
+    - Test object at (6, 26).
