@@ -126,7 +126,6 @@
 - **select_battle_option**: Selects a main battle menu option.
 
 ### Custom Tools
-- **auto_explore**: Finds and paths to the nearest reachable unseen tile.
 - **find_reachable_unseen_tiles**: Identifies reachable unseen tiles adjacent to explored areas.
 - **menu_navigator**: Navigates vertical menus by calculating Up/Down presses.
 - **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs.
