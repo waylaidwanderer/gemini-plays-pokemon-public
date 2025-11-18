@@ -1,6 +1,7 @@
 # Gem's Brain 🧠
 
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
+- **INVENTORY VERIFICATION (MANDATORY):** Before starting any quest for a key item, I MUST first check my inventory to confirm I do not already possess it. The COIN CASE incident was a critical failure caused by skipping this basic step.
 - **HALLUCINATION & REALITY CHECKS (MANDATORY):** I have a documented history of critical failures from flawed spatial reasoning and location hallucinations (e.g., Radio Tower 1F, Mt. Mortar, Game Corner, Underground). I MUST use the `reality_check_agent` BEFORE planning significant navigation or puzzle-solving actions to prevent this recurring error. Trusting system warnings for correction instead of proactively using my own tools is a critical failure.
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
@@ -8,7 +9,6 @@
 - **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
 - **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
 - **COORDINATE SYSTEM:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
-- **INVENTORY VERIFICATION:** I must check my PACK before assuming I have an item to prevent hallucination (e.g., the nonexistent ESCAPE ROPE incident).
 - **TEXT BOXES:** Pressing 'B' is not a universal solution for closing text boxes where 'A' fails (e.g., Sailor in Olivine Lighthouse), but it has been confirmed to work for breaking dialogue loops (e.g., Rival on Route 41). This should be tested as an alternative when 'A' is unresponsive.
 - **TOOL MISUSE:** `autopress_buttons=true` is ONLY for tools that output button strings, not coordinates or decisions.
 - **ITEM MANAGEMENT:** Taking a held item with a full bag destroys it. The only safe way to free a slot is to have a Pokémon hold an item.
@@ -54,9 +54,8 @@
 ### Traversable
 - **FLOOR:** Standard traversable ground. Visual appearance may vary (e.g., patterned carpets, plain floors), but the function is the same.
 - GRASS, TALL_GRASS (wild encounters)
-- **LADDER:** Can function as a standard traversable floor (e.g., Route 32 pier), not just a vertical warp.
 ### Warp Tiles
-- DOOR, LADDER, STAIRCASE (two-way)
+- DOOR, LADDER (two-way), STAIRCASE (two-way)
 - PIT (one-way)
 - WARP_CARPET_LEFT (two-way, requires facing left)
 - WARP_CARPET_RIGHT (two-way, requires facing right)
@@ -77,8 +76,6 @@
 ### Radio Tower Blockage Log
 - **Hypothesis:** The Black Belt at (0, 1) will move if spoken to.
 - **Failed Test 1:** Interact with the Black Belt at (0, 1). Result: Dialogue repeats, path remains blocked.
-- **Hypothesis:** The Black Belt at (0, 1) is a trainer that must be battled.
-- **Failed Test 2:** Attempt to walk into the Black Belt at (0, 1) to trigger a battle. Result: Movement blocked.
 - **Hypothesis:** The Black Belt at (0, 1) is a trainer that must be battled.
 - **Failed Test 2:** Attempt to walk into the Black Belt at (0, 1) to trigger a battle. Result: Movement blocked.
 
