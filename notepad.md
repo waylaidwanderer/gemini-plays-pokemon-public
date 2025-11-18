@@ -97,10 +97,7 @@
 - **Pathing Blockage (Moving NPCs):** If a planned path is blocked by a moving NPC, the most efficient solution is to immediately recalculate the path from the current position rather than attempting complex workarounds or waiting.
 
 ## 9. Archived Puzzle Logs
-### Battle Tower Escape: SOLVED
-- **Solution:** The warp carpets at (7, 9) and (8, 9) were two-way warps. The solution was to simply walk onto them. My core assumption that they were one-way entrances was never tested and was incorrect.
-- **Failed Hypotheses (41 total):**
-- **`stun_npc` Reset:** The effect is temporary and resets upon re-entering a map.
+
 ## Gym Leaders
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
 
