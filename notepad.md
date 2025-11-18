@@ -113,9 +113,4 @@
 
 ## 11. Archived Sudowoodo Puzzle Log
 
-- **Failed Hypothesis 6 (Impossible):** Interacting with Sudowoodo at (7, 12) from above (7, 11) triggers SQUIRTBOTTLE. (Result: Impossible, (7, 11) is a WALL tile).
-- **Failed Hypothesis 7:** Using the ITEMFINDER next to the Sudowoodo trees will reveal a hidden item or trigger an event. (Result: Game message 'Nope! ITEMFINDER isn't responding.')
-- **Failed Hypothesis 8:** Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
-- **Failed Hypothesis 9:** Using the PokéGear Phone to call Prof. Elm will reset the Twins' interaction state, allowing interaction with the Sudowoodo. (Result: The phone call completed, but the Twins' dialogue still overrode the tree interaction.)
-- **Lesson (Radio Tower Shutter):** After multiple, systematic interaction tests failed on the shutter door, I was stuck. The solution was not to find a more complex way to interact, but to recognize the path was blocked by a story event. The Black Belt's dialogue provided the true next step: find the Director. Lesson: If a puzzle-like obstacle resists multiple simple, direct tests, the root hypothesis that it *is* an immediate puzzle might be wrong. The solution may lie elsewhere, triggered by a different story event.
 - **Tool Limitation (Pathfinder Warnings):** My `plan_path_with_warnings` tool relies on a hardcoded list of static NPC names (`id-name`). This is brittle because some NPC types (like COOLTRAINER_M) can be both static and moving. This causes false positive warnings. **Future Improvement:** Investigate if there's a way to provide the `is_moving_npc` flag to the tool for more accurate warnings.
