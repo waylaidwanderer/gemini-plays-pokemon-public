@@ -142,3 +142,4 @@
 - **Odd Egg:** Successfully obtained from Day Care.
 - **Ace:** Deposited in PC to make room.
 - **Current Objective:** Heading to Bike Shop.
+- **Odd Egg:** Quest Complete! Received from Day Care Man. Ace deposited to make room.
