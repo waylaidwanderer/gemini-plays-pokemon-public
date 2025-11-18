@@ -110,8 +110,9 @@
 - Hidden Rare Candy at (8, 32) is currently unreachable (blocked by fence).
 
 # Active Quests
-- **Odd Egg:** Day Care Man has it. Party: 5/6 (Silk deposited).
-  - Plan: Return to Day Care to claim it.
+- **Odd Egg:** Day Care Man has it.
+  - Status: Attempted to claim, but seemingly failed (summary stated full party despite 5/6).
+  - Plan: Go to Goldenrod PC, deposit a Pokemon to ensure ample space, then retry.
 - Defeated Youngster (Psyduck) at Route 34 (9, 7).
 - Tip: Goldenrod Dept. Store has rooftop sales (check daily?).
 
