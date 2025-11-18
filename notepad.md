@@ -69,7 +69,11 @@
 - **Entities:** Team Rocket Grunts, Slowpokes (Tails cut).
 
 # Active Quests
-- **Apprentice:** Missing in Ilex Forest (Info from Black Belt in Charcoal Kiln).
+- **Explore Ilex Forest:** Navigate North to Goldenrod City.
+- **Find Headbutt Tutor:** Locate NPC in forest.
+
+# Completed Quests
+- **Apprentice:** Rescued. Rewards: Charcoal, HM01 Cut.
 
 # Azalea Gym Notes
 - **Leader:** Bugsy (Bug-type). Weak to Fire/Rock/Flying.
