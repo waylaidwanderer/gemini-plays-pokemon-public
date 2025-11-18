@@ -1,101 +1,4 @@
 {
-  "fly_map_navigator": {
-    "description": "Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_city": {
-          "type": "string"
-        },
-        "target_city": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_city",
-        "target_city"
-      ]
-    },
-    "python_script": "import json\n\n# The Johto map layout for the FLY command, represented as a grid.\n# None indicates an empty space.\ncity_map = [\n    [None, None, 'New Bark Town', None],\n    [None, 'Violet City', 'Cherrygrove City', None],\n    ['Ecruteak City', 'Goldenrod City', 'Azalea Town', None],\n    ['Cianwood City', 'Olivine City', None, None]\n]\n\ncity_coords = {}\nfor r, row in enumerate(city_map):\n    for c, city in enumerate(row):\n        if city:\n            city_coords[city] = (r, c)\n\nstart_city = input_data['start_city']\ntarget_city = input_data['target_city']\n\nif start_city not in city_coords or target_city not in city_coords:\n    print(json.dumps({'error': 'Invalid city name provided.'}))\nelse:\n    start_r, start_c = city_coords[start_city]\n    target_r, target_c = city_coords[target_city]\n\n    row_diff = target_r - start_r\n    col_diff = target_c - start_c\n\n    buttons = []\n    if row_diff > 0:\n        buttons.extend(['Down'] * row_diff)\n    elif row_diff < 0:\n        buttons.extend(['Up'] * abs(row_diff))\n\n    if col_diff > 0:\n        buttons.extend(['Right'] * col_diff)\n    elif col_diff < 0:\n        buttons.extend(['Left'] * abs(col_diff))\n    \n    buttons.append('A')\n\n    print(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create fly_map_navigator tool. This tool automates FLY map navigation to prevent manual input errors and hallucinations, addressing a critical failure identified during a mandatory self-reflection. It calculates the exact button sequence to move from a start city to a target city.",
-        "timestamp": "2025-11-17T19:55:18.224Z",
-        "action_counter": 49009
-      }
-    ]
-  },
-  "pc_navigator": {
-    "description": "A unified tool to navigate the PC. It can select options in vertical menus, move the cursor in the Pokémon box grid, and switch between boxes. Outputs button presses for use with autopress_buttons=true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "mode": {
-          "type": "string",
-          "enum": [
-            "menu_select",
-            "box_navigate",
-            "box_select"
-          ]
-        },
-        "current_cursor_position": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_option": {
-          "type": "string",
-          "nullable": true
-        },
-        "menu_options": {
-          "type": "string",
-          "nullable": true
-        },
-        "current_slot": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_slot": {
-          "type": "string",
-          "nullable": true
-        },
-        "target_box_number": {
-          "type": "string",
-          "nullable": true
-        }
-      },
-      "required": [
-        "mode"
-      ]
-    },
-    "python_script": "import json\nimport sys\nimport re\n\ndef normalize_text(text):\n    return re.sub(r'<PK>|<MN>', '', text)\n\ndef pc_navigator():\n    buttons = [\"sleep 500\"]\n    try:\n        mode = input_data.get('mode')\n\n        if mode == 'menu_select':\n            current_option_str = input_data.get('current_cursor_position')\n            target_option_str = input_data.get('target_option')\n            menu_options_str = input_data.get('menu_options')\n            \n            if not all([current_option_str, target_option_str, menu_options_str]):\n                print(json.dumps([f\"ERROR: Missing arguments for menu_select mode.\"]))\n                return\n            \n            options = json.loads(menu_options_str)\n            normalized_options = [normalize_text(opt) for opt in options]\n            \n            normalized_current = normalize_text(current_option_str)\n            normalized_target = normalize_text(target_option_str)\n\n            if normalized_current not in normalized_options:\n                print(json.dumps([f\"ERROR: Current option <{current_option_str}> not in options\"]))\n                return\n            if normalized_target not in normalized_options:\n                print(json.dumps([f\"ERROR: Target <{target_option_str}> not in options\"]))\n                return\n\n            current_idx = normalized_options.index(normalized_current)\n            target_idx = normalized_options.index(normalized_target)\n            \n            moves = target_idx - current_idx\n            if moves > 0:\n                buttons.extend([\"Down\"] * moves)\n            elif moves < 0:\n                buttons.extend([\"Up\"] * abs(moves))\n        \n        elif mode == 'box_navigate':\n            current_slot_str = input_data.get('current_slot')\n            target_slot_str = input_data.get('target_slot')\n            \n            if not all([current_slot_str, target_slot_str]):\n                print(json.dumps([f\"ERROR: Missing arguments for box_navigate mode.\"]))\n                return\n\n            current_row, current_col = map(int, current_slot_str.split(','))\n            target_row, target_col = map(int, target_slot_str.split(','))\n\n            v_moves = target_row - current_row\n            h_moves = target_col - current_col\n\n            if v_moves > 0: buttons.extend([\"Down\"] * v_moves)\n            elif v_moves < 0: buttons.extend([\"Up\"] * abs(v_moves))\n            \n            if h_moves > 0: buttons.extend([\"Right\"] * h_moves)\n            elif h_moves < 0: buttons.extend([\"Left\"] * abs(h_moves))\n\n        elif mode == 'box_select':\n             print(json.dumps([\"ERROR: box_select mode is currently disabled.\"]))\n             return\n\n        else:\n            print(json.dumps([f\"ERROR: Invalid mode '{mode}'.\"]))\n            return\n            \n        print(json.dumps(buttons))\n\n    except Exception as e:\n        print(json.dumps([f\"ERROR: An unexpected error occurred in pc_navigator: {e}\"]))\n\npc_navigator()",
-    "history": [
-      {
-        "commit_message": "feat: Consolidate PC navigation tools into pc_navigator. This addresses a major inefficiency identified by an Overwatch critique. The new tool combines the functionality of `select_pc_option`, `pc_box_navigator`, and `select_pc_box` into a single, mode-based tool, fulfilling the core directive of immediate tool maintenance and improving overall efficiency.",
-        "timestamp": "2025-11-17T05:16:58.132Z",
-        "action_counter": 47853
-      },
-      {
-        "commit_message": "fix: Add initial sleep command to handle text box delays. The tool was failing because it sent inputs before the initial '...turned on the PC' text box cleared. This adds a 500ms delay to the start of all button sequences. Also, temporarily disabled the 'box_select' mode with an error message as its logic cannot be safely reconstructed from the available information.",
-        "timestamp": "2025-11-17T07:11:12.958Z",
-        "action_counter": 48071
-      },
-      {
-        "commit_message": "fix: Add comprehensive try-except block to prevent crashes. The tool was failing with an unhelpful system error because it produced an empty output when an exception occurred (e.g., target option not found). This commit wraps the entire execution logic in a try-except block that catches any error and prints a properly formatted JSON array containing a descriptive error message. This makes the tool more resilient and provides actionable feedback for debugging.",
-        "timestamp": "2025-11-17T07:15:19.086Z",
-        "action_counter": 48077
-      },
-      {
-        "commit_message": "fix: Handle special characters in PC menu options. The tool was failing because its string comparison logic did not account for the '<PK><MN>' sprite characters in menu text. This adds a normalization step to strip these characters before comparison, making the menu selection more robust.",
-        "timestamp": "2025-11-17T12:11:47.459Z",
-        "action_counter": 48498
-      },
-      {
-        "commit_message": "fix: Correctly handle string-based cursor position in menu_select mode. The tool was crashing by attempting to cast the string name of the current menu option to an integer. The logic is now updated to find the index of the string within the provided options list, resolving the ValueError.",
-        "timestamp": "2025-11-17T12:15:46.227Z",
-        "action_counter": 48508
-      }
-    ]
-  },
   "plan_path_with_warnings": {
     "description": "An advanced pathfinding tool that plans a path to a target coordinate and returns a list of warnings for any moving NPCs near the route, suggesting the use of 'stun_npc'.",
     "input_schema": {
@@ -248,6 +151,39 @@
         "commit_message": "fix: Align ledge logic with plan_path_with_warnings. The tool was incorrectly identifying unseen tiles as reachable because its pathing logic allowed movement *onto* one-way ledge tiles. This commit updates the tool to treat all ledge types as impassable destinations and adds logic to check the *current* tile's type to determine valid moves, mirroring the correct logic in the main pathfinder. This ensures consistency across my navigation tools and prevents false positives during exploration.",
         "timestamp": "2025-11-18T00:20:46.172Z",
         "action_counter": 49450
+      }
+    ]
+  },
+  "menu_navigator": {
+    "description": "A general-purpose tool to navigate any vertical menu. It takes the full list of menu options, the currently selected option, and the target option, then calculates the necessary 'Up' or 'Down' button presses. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "current_option": {
+          "type": "string"
+        },
+        "target_option": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_options",
+        "current_option",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef normalize_text(text):\n    return re.sub(r'<[^>]+>|\\'|'|`', '', text).strip()\n\ntry:\n    menu_options_raw = json.loads(input_data.get('menu_options', '[]'))\n    current_option_raw = input_data.get('current_option')\n    target_option_raw = input_data.get('target_option')\n\n    if not all([menu_options_raw, current_option_raw, target_option_raw]):\n        print(json.dumps([f\"ERROR: Missing required arguments. Provided: {input_data}\"]))\n    else:\n        menu_options = [normalize_text(opt) for opt in menu_options_raw]\n        current_option = normalize_text(current_option_raw)\n        target_option = normalize_text(target_option_raw)\n\n        try:\n            current_idx = menu_options.index(current_option)\n        except ValueError:\n            print(json.dumps([f\"ERROR: Current option '{current_option_raw}' not found in menu after normalization.\"]))\n        else:\n            try:\n                target_idx = menu_options.index(target_option)\n            except ValueError:\n                print(json.dumps([f\"ERROR: Target option '{target_option_raw}' not found in menu after normalization.\"]))\n            else:\n                diff = target_idx - current_idx\n                buttons = []\n                if diff > 0:\n                    buttons.extend(['Down'] * diff)\n                elif diff < 0:\n                    buttons.extend(['Up'] * abs(diff))\n                \n                print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps([f\"ERROR: An unexpected error occurred in menu_navigator: {e}\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Create general menu_navigator tool. This tool provides a robust, reusable solution for navigating vertical menus, addressing a recurring issue identified during my mandatory self-reflection. It normalizes text to handle special characters, calculates the optimal Up/Down presses, and includes comprehensive error handling. This will replace ad-hoc manual inputs and make menu interactions more reliable.",
+        "timestamp": "2025-11-18T01:02:40.972Z",
+        "action_counter": 49531
       }
     ]
   }

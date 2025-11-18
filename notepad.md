@@ -20,8 +20,7 @@
 - `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
 
 ### Custom Tools
-- `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
-- `pc_navigator`: A unified tool to navigate the PC.
+- `menu_navigator`: A general-purpose tool to navigate any vertical menu.
 - `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
