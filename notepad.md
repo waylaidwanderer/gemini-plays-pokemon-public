@@ -125,7 +125,7 @@
 ### Custom Tools
 - **find_reachable_unseen_tiles**: Identifies reachable unseen tiles adjacent to explored areas.
 - **menu_navigator**: Navigates vertical menus by calculating Up/Down presses.
-- **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs.
+- **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs. (Execution: The tool's output is a JSON object with a 'path' key. To execute the movement, `buttons_to_press` must be set to `["path"]` on the following turn.)
 - **select_move_tool**: Selects a move in battle with correct button presses.
 
 ### Custom Agents
