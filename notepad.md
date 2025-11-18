@@ -114,3 +114,7 @@
   - Plan: Go to Goldenrod PC -> Deposit Pokemon -> Return to Day Care.
 - Defeated Youngster (Psyduck) at Route 34 (9, 7).
 - Tip: Goldenrod Dept. Store has rooftop sales (check daily?).
+
+# Goldenrod City Notes
+- **Arrival:** Came from South (Route 34).
+- **Objectives:** Find PC, Get Odd Egg, Challenge Gym (Whitney).
