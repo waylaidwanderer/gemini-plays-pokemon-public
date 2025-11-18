@@ -137,3 +137,8 @@
 - **PC:** Located at (9, 1). Interact at (9, 2).
 - **Status:** Ace deposited. Party size 4/6. Returning to Day Care.
 - **Update:** Obtained Odd Egg from Day Care. Ace deposited in PC. Current Party: Kimchi (Quilava), Scout (Sentret), Rocky (Onix), Togepi Egg, Odd Egg.
+
+# Status Update
+- **Odd Egg:** Successfully obtained from Day Care.
+- **Ace:** Deposited in PC to make room.
+- **Current Objective:** Heading to Bike Shop.
