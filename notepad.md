@@ -64,6 +64,7 @@
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
 - **LEDGE_HOP_DOWN:** Movement is likely one-way (down only). **CRITICAL TEST PENDING (TOP PRIORITY - MANDATORY):** This mechanic is unverified. I MUST test this at the very next opportunity by locating a `LEDGE_HOP_DOWN` tile, positioning myself on the tile directly below it, and attempting to move 'Up' onto it. This is mandatory to resolve the unverified mechanic for my pathfinder.
+- **REAL-TIME NPC VERIFICATION (LESSON):** I must trust the on-screen `Map Objects` list for an NPC's *current* presence. Map markers are only for remembering static locations, not for confirming if a moving or conditional NPC is currently visible. Relying on markers led to the hallucinated Pharmacist interaction.
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - LEDGE_HOP_RIGHT: Can only move Right from this tile.
 - FLOOR_UP_WALL: Can only move Down from this tile. Impassable from above (cannot move Down onto it).
