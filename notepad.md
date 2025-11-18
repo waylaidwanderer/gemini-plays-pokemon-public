@@ -70,6 +70,7 @@
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
 - **CRITICAL CORRECTION:** These tiles are impassable destinations. Their type describes the ONLY valid move you can make *from* them.
+- **PROACTIVE REALITY CHECKS:** I have a history of hallucinating my location, leading to failed actions and wasted turns. I MUST use the `reality_check_agent` *before* planning significant navigation to prevent this. I must also consult my map markers before interacting with objects to avoid re-engaging with defeated or non-essential NPCs.
 - **LEDGE_HOP_DOWN:** Can only move Down from this tile. (Unverified one-way - CRITICAL TEST PENDING).
   - **Hypothesis:** It is impossible to move 'Up' onto a `LEDGE_HOP_DOWN` tile.
   - **Test Plan:**
