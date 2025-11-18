@@ -149,3 +149,4 @@
 - Hypothesis (from agent): Talk to POKEFAN_M at (1, 8), then interact with poster. Failed Test: Spoke to POKEFAN_M, then interacted with poster at (12, 1) from (12, 2). Result: Nothing happened.
 ### Special Interactable Tiles
 - **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
+- **Tool Logic (LESSON):** Tools must account for persistent state stored in map markers, not just transient on-screen data. Relying only on the immediate game state for pathfinding can lead to collisions with known, off-screen obstacles.
