@@ -147,3 +147,4 @@
 ### Special Interactable Tiles
 - **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
 - **Tool Logic (LESSON):** Tools must account for persistent state stored in map markers, not just transient on-screen data. Relying only on the immediate game state for pathfinding can lead to collisions with known, off-screen obstacles.
+- **REALITY CHECK AGENT (MANDATORY):** Before pursuing any key item or puzzle solution, I MUST use the `reality_check_agent` to verify my assumptions against the game state. This is a procedural safeguard to prevent hallucinations like the COIN CASE incident.
