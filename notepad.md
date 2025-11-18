@@ -111,7 +111,6 @@
 - **Goal Flexibility Failure (Turn 48125):** I have been hyper-focused on solving the Battle Tower escape puzzle, violating the core directive to pivot to a new goal when progress stalls. If my current systematic wall search fails, I MUST try a different approach or use the `puzzle_solver_agent` to generate new hypotheses.
 - **Tool Creation Success (Turn 48021, 48101, 49061):** I successfully identified repetitive manual tasks (checking walls, checking unseen reachability) and automated them by creating tools, a correct application of my directives.
 - **New Tool Idea: `persistent_path_executor`**: A tool that can handle moving NPCs by automatically re-planning its path if blocked. This would streamline navigation in areas with many moving obstacles.
-- **New Tool Idea: `general_menu_navigator`**: A tool to navigate any vertical menu by taking a list of options and a target option as input.
 
 ## 9. Lessons Learned
 - **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
