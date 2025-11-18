@@ -134,3 +134,10 @@
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
 - **One-Way Tile Verification:** My notepad and pathfinder assume `LEDGE_HOP_DOWN` tiles are one-way. This is unverified. **Test:** At the next opportunity, attempt to walk 'up' a `LEDGE_HOP_DOWN` tile to confirm or disprove this assumption. The tiles at (26, 45) and (27, 45) on the current map are potential test subjects.
+
+## 1.1 Custom Tools (Corrected)
+- `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
+- `pc_navigator`: A unified tool to navigate the PC.
+- `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
+- `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
+- `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
