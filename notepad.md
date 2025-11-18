@@ -26,7 +26,7 @@
 - **DANA (LASS):** Route 38 (Rematch requested again).
 - **GINA (PICNICKER):** Route 34 (Rematch requested again).
 - **HUEY (SAILOR):** OLIVINE LIGHTHOUSE (Rematch).
-- **ANTHONY (HIKER):** Route 33 (Rematch requested again). Chatted about MACHOP & GEODUDE.
+- **ANTHONY (HIKER):** Route 33. Chatted about his MACHOP and seeing wild GEODUDE.
 - **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch). Chatted about VOLTORB.
 - **ALAN (SCHOOLBOY):** Route 36 (Rematch). Chatted about beating a Ledyba.
 
