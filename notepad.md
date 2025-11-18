@@ -74,10 +74,6 @@
   - **FLOOR_UP_WALL:** One-way ledge (Jump Down only).
 - **Entities:** Team Rocket Grunts, Slowpokes (Tails cut).
 
-# Active Quests
-- **Explore Ilex Forest:** Navigate North to Goldenrod City.
-- **Find Headbutt Tutor:** Locate NPC in forest.
-
 # Completed Quests
 - **Apprentice:** Rescued. Rewards: Charcoal, HM01 Cut.
 
