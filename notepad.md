@@ -103,3 +103,5 @@
 - **Arrival:** Just exited Ilex Forest Gatehouse (South).
 - **Location:** South of Goldenrod City.
 - **Warps:** Gatehouse at (13, 37).
+- **Trainer Tips:** Berry trees regenerate daily.
+- **Hidden Item:** Potential Rare Candy detected at (8, 32) (in wall, access from west side?)
