@@ -151,3 +151,5 @@
 ### Goldenrod Underground Switch Room Puzzle Log
 - **Hypothesis:** A hidden switch exists on the wall of the northwest room.
 - **Failed Test 1:** Interact with the wall at (1, 21) from (1, 22). Result: Nothing happened.
+- Hypothesis (from agent): A hidden switch is on the floor next to the Teacher NPC at (3, 27).
+- Failed Test 2: Interacted with the floor tile at (2, 27) from (2, 26). Result: Nothing happened.
