@@ -88,6 +88,7 @@
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
 ### Traversable
 - FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters), unknown (traversable)
+- **LADDER:** Can function as a standard traversable floor (e.g., Route 32 pier), not just a vertical warp.
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
@@ -129,18 +130,9 @@
 - Union Cave (south entrance) is a confirmed dead end for reaching Mahogany Town. The basement water route is a loop, and the northern part of 1F is blocked by one-way ledges.
 - New Plan: Exit Union Cave north to Route 32, travel to Ecruteak City, then head east to Route 42. The path was previously blocked by water, but I can now use SURF to cross.
 
-## 7.1 Tile Mechanics (Corrections)
-- **LADDER:** My previous classification was incomplete. This tile can function as a standard traversable floor (as seen on the Route 32 pier), not just a vertical warp.
-
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
 - **One-Way Tile Verification:** My notepad and pathfinder assume `LEDGE_HOP_DOWN` tiles are one-way. This is unverified. **Test:** At the next opportunity, attempt to walk 'up' a `LEDGE_HOP_DOWN` tile to confirm or disprove this assumption. The tiles at (26, 45) and (27, 45) on the current map are potential test subjects.
 
-## 1.1 Custom Tools (Corrected)
-- `fly_map_navigator`: Calculates the sequence of directional button presses to move the cursor from a starting city to a target city on the FLY world map.
-- `pc_navigator`: A unified tool to navigate the PC.
-- `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
-- `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
 ## Dark Cave
 - The cave is pitch-black and requires the HM move FLASH to navigate effectively.
