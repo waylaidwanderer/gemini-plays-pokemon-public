@@ -98,3 +98,8 @@
 # Route 34 Gatehouse
 - **Warps:** South to Ilex Forest. North to Route 34 (Presumed).
 - **NPCs:** Lass with Butterfree, Teacher.
+
+# Route 34 Notes
+- **Arrival:** Just exited Ilex Forest Gatehouse (South).
+- **Location:** South of Goldenrod City.
+- **Warps:** Gatehouse at (13, 37).
