@@ -118,3 +118,4 @@
 - Failed Hypothesis 7: Using the ITEMFINDER next to the Sudowoodo trees will reveal a hidden item or trigger an event. (Result: Game message 'Nope! ITEMFINDER isn't responding.')
 - Failed Hypothesis 8: Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
 - Failed Hypothesis 9: Using the PokéGear Phone to call Prof. Elm will reset the Twins' interaction state, allowing interaction with the Sudowoodo. (Result: The phone call completed, but the Twins' dialogue still overrode the tree interaction.)
+- **TODD (CAMPER):** ROUTE 34 (Rematch requested).
