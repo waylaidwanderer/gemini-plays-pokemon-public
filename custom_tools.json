@@ -196,5 +196,17 @@
         "action_counter": 49531
       }
     ]
+  },
+  "run_from_battle": {
+    "description": "Automates running from a wild battle. Navigates the battle menu to the RUN option and selects it. Must be called with autopress_buttons=true.",
+    "input_schema": {},
+    "python_script": "import json; print(json.dumps([\"Right\", \"Down\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Create run_from_battle tool. This tool automates the recurring action of running from wild encounters, addressing an overwatch critique about manual inefficiency. It outputs the standard button sequence to select RUN from the battle menu.",
+        "timestamp": "2025-11-18T01:38:08.791Z",
+        "action_counter": 49591
+      }
+    ]
   }
 }

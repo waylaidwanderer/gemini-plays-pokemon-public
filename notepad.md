@@ -125,7 +125,13 @@
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
 
 ### Current Strategy
-- The path to Mahogany Town requires traversing multiple routes. I'm currently traveling from New Bark Town west to Cherrygrove City, and will proceed north from there. The eventual goal is to reach Dark Cave, which I now have FLASH for, as it's a confirmed path to a new road.
+- ## Current Strategy: Path to Mahogany Town via Dark Cave
+1.  Route 29 -> Cherrygrove City
+2.  Route 30 -> Route 31
+3.  Enter Dark Cave (East entrance on Route 31)
+4.  Navigate Dark Cave using FLASH.
+5.  Exit Dark Cave onto the 'new road' (likely Route 45/46).
+6.  Proceed to Mahogany Town.
 
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
