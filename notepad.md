@@ -112,3 +112,6 @@
 - **Failed Hypothesis 4:** Manually using the SQUIRTBOTTLE from the PACK menu on the Sudowoodo at (6, 12) will clear it. (Result: Game message 'But nothing happened...')
 - **Failed Hypothesis 5:** Interacting with Sudowoodo at (6, 12) from the left (5, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Failed Hypothesis 6 (Impossible):** Interacting with Sudowoodo at (7, 12) from above (7, 11) triggers SQUIRTBOTTLE. (Result: Impossible, (7, 11) is a WALL tile).
+- **Failed Hypothesis 5:** Interacting with Sudowoodo at (6, 12) from the left (5, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
+- **Failed Hypothesis 6 (Impossible):** Interacting with Sudowoodo at (7, 12) from above (7, 11) triggers SQUIRTBOTTLE. (Result: Impossible, (7, 11) is a WALL tile).
+- **Lesson Learned (Overwatch Critique):** I have repeatedly hallucinated my location. I MUST start using the `reality_check_agent` before making significant navigational plans to prevent this recurring failure.
