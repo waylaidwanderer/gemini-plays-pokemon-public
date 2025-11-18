@@ -119,3 +119,4 @@
 - **REALITY CHECK FAILURE:** I have repeatedly failed to use the `reality_check_agent`, leading to critical location hallucinations. I MUST use this agent before any significant navigation or puzzle-solving action to prevent this recurring failure.
 - **AGENT REFINEMENT:** My `puzzle_solver_agent` has repeatedly failed, suggesting impossible moves. I must be more aggressive in refining its prompt when it provides flawed or unhelpful suggestions. A faulty tool is a liability.
 - Failed Hypothesis 7: Using the ITEMFINDER next to the Sudowoodo trees will reveal a hidden item or trigger an event. (Result: Game message 'Nope! ITEMFINDER isn't responding.')
+- Failed Hypothesis 8: Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
