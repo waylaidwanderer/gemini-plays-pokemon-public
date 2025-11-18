@@ -13,18 +13,16 @@
 - `select_battle_option`
 - `stun_npc`
 
-### Custom Agents
-- `reality_check_agent`: Checks my plans against game state to prevent hallucinations.
-- `puzzle_solver_agent`: Suggests simple, logical tests for puzzles.
-- `navigation_strategist`: A unified navigation advisor.
-- `party_strategist_agent`: Analyzes the player's stored Pokémon and a given strategic goal to recommend an optimal party of three.
-
-### Custom Tools
-- `menu_navigator`: A general-purpose tool to navigate any vertical menu.
-- `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
-- `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
-- `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
-- `run_from_battle`: Automates running from a wild battle.
+### Custom Tools & Agents
+- `find_reachable_unseen_tiles`: Finds reachable unseen tiles for exploration.
+- `menu_navigator`: Navigates vertical menus.
+- `navigation_strategist` (Agent): Provides long-term navigation advice.
+- `party_strategist_agent` (Agent): Recommends an optimal party of three.
+- `plan_path_with_warnings`: Pathfinder that warns about moving NPCs.
+- `puzzle_solver_agent` (Agent): Suggests next logical test for puzzles.
+- `reality_check_agent` (Agent): Verifies plans against game state to prevent hallucinations.
+- `run_from_battle`: Automates running from wild battles.
+- `select_move_tool`: Automates selecting a move in battle.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
