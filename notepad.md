@@ -144,3 +144,4 @@
 - **Text Box Priority:** I must always clear on-screen text boxes (usually with 'A') before attempting any other input, especially movement. Trying to move with an open dialogue will fail.
 - **Pathfinding Target:** When pathfinding to an impassable object (like a sign or NPC), the target coordinates must be a traversable tile *adjacent* to the object, not the object's tile itself.
 - **Proactive Stunning:** If `plan_path_with_warnings` flags a potentially moving NPC near my route, the default strategy should be to use `stun_npc` on it before executing the path to prevent random blockages.
+- **Debugging Failure:** If a tool remains broken after multiple, rapid debugging attempts, the root logic is likely flawed. Instead of getting stuck in a debugging loop, I must pivot my strategy: either drastically refactor the tool's core logic or replace it with a simpler, more reliable alternative.
