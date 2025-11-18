@@ -65,7 +65,7 @@
 ### Warp Tiles
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
-- WARP_CARPET_LEFT (unverified one-way - MUST TEST)
+- WARP_CARPET_LEFT (two-way, requires facing left)
 - WARP_CARPET_RIGHT (unverified one-way - MUST TEST)
 - WARP_CARPET_DOWN (two-way, requires facing down)
 - CAVE (impassable warp)
