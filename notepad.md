@@ -47,6 +47,7 @@
 - **Legendary Beasts:** Suicune, Raikou, and Entei have been awakened in the Burned Tower. The Sage in the Tin Tower has asked me not to enter.
 - **Stolen Pokémon (Cianwood):** A Rocker's Pokémon was stolen. I am currently safekeeping his SHUCKIE.
 - **Moomoo Farm:** The Miltank is sick and requires a specific item named 'BERRY'. Other named berries do not work.
+- **Hidden Items (Burned Tower):** An NPC in the Ecruteak Itemfinder house mentioned there are hidden items in the Burned Tower.
 
 ### Phone Contacts
 - **DANA (LASS):** Route 38 (Rematch requested again).
@@ -83,7 +84,7 @@
 
 ## 7. Tile Mechanics
 ### Impassable
-- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW, WATERFALL (untested, likely needs HM)
+- BOOKSHELF, BUOY, COUNTER, CUT_TREE (needs CUT), HEADBUTT_TREE (needs HEADBUTT), MART_SHELF, PC (interactable), PILLAR, RADIO, ROCK (needs STRENGTH), TV, VOID, WALL, WHIRLPOOL, WINDOW, WATERFALL (untested, likely needs HM), INCENSE_BURNER
 - **TOWN_MAP:** Impassable. Interactable from the tile below it (3,1), which displays a full-screen map of the Whirl Islands. This view is cancelled by any subsequent directional input.
 ### Traversable
 - FLOOR (standard traversable ground), GRASS, TALL_GRASS (wild encounters), unknown (traversable)
@@ -125,13 +126,11 @@
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
 
 ### Current Strategy
-- ## Current Strategy: Path to Mahogany Town via Dark Cave
-1.  Route 29 -> Cherrygrove City
-2.  Route 30 -> Route 31
-3.  Enter Dark Cave (East entrance on Route 31)
-4.  Navigate Dark Cave using FLASH.
-5.  Exit Dark Cave onto the 'new road' (likely Route 45/46).
-6.  Proceed to Mahogany Town.
+- ## Current Strategy: Path to Mahogany Town via Ecruteak City
+1.  Explore Ecruteak City for any key items or events.
+2.  Exit Ecruteak City to the east, onto Route 42.
+3.  Use SURF to cross the water on Route 42.
+4.  Proceed to Mahogany Town.
 
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
