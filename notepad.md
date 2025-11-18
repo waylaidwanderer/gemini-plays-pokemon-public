@@ -140,3 +140,7 @@
 - **IMMEDIATE MAINTENANCE (LESSON):** Deferring tool/agent fixes or data management (notepad, markers) is a critical failure. Any identified maintenance task MUST be performed in the same turn it is discovered.
 - **NPC BEHAVIOR (LESSON):** Do not make broad assumptions about NPC behavior (e.g., assuming all NPCs of a certain type are static). Verify behavior on a case-by-case basis before encoding it into tools. Favor caution and assume NPCs can move.
 - **TILE MECHANIC VERIFICATION (NEW PROCEDURE):** Upon entering any new map, I MUST systematically verify and document the traversability and mechanics of every single tile type present. This is mandatory to prevent pathing failures caused by incorrect assumptions about the game world.
+## 11. New Lessons Learned
+- **Text Box Priority:** I must always clear on-screen text boxes (usually with 'A') before attempting any other input, especially movement. Trying to move with an open dialogue will fail.
+- **Pathfinding Target:** When pathfinding to an impassable object (like a sign or NPC), the target coordinates must be a traversable tile *adjacent* to the object, not the object's tile itself.
+- **Proactive Stunning:** If `plan_path_with_warnings` flags a potentially moving NPC near my route, the default strategy should be to use `stun_npc` on it before executing the path to prevent random blockages.
