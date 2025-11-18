@@ -109,3 +109,4 @@
 - **Failed Hypothesis 2:** Interacting with Sudowoodo at (7, 12) from the side (8, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Failed Hypothesis 3:** Interacting with Sudowoodo at (6, 12) from below (6, 13) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Lesson Learned (Overwatch Critique):** I have repeatedly hallucinated my location. I MUST start using the `reality_check_agent` before making significant navigational plans to prevent this recurring failure.
+- **Failed Hypothesis 4:** Manually using the SQUIRTBOTTLE from the PACK menu on the Sudowoodo at (6, 12) will clear it. (Result: Game message 'But nothing happened...')
