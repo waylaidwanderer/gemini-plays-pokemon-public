@@ -147,3 +147,5 @@
 - **Debugging Failure:** If a tool remains broken after multiple, rapid debugging attempts, the root logic is likely flawed. Instead of getting stuck in a debugging loop, I must pivot my strategy: either drastically refactor the tool's core logic or replace it with a simpler, more reliable alternative.
 - **COIN CASE LOCATION:** A POKEFAN_M in the Game Corner at (1, 8) confessed he threw his COIN CASE away in the UNDERGROUND.
 - Hypothesis (from agent): Talk to POKEFAN_M at (1, 8), then interact with poster. Failed Test: Spoke to POKEFAN_M, then interacted with poster at (12, 1) from (12, 2). Result: Nothing happened.
+### Special Interactable Tiles
+- **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
