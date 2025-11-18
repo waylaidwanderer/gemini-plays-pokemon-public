@@ -137,3 +137,11 @@
 - **Hypothesis (from agent):** The COOLTRAINER_F at (10, 4) is a disguised Rocket grunt guarding a switch.
 - **Failed Test 4:** Interact with the COOLTRAINER_F at (10, 4). Result: 'I won't quit until I win!'
 - **Hypothesis (from agent):** A hidden item/switch is on the floor near the poster, findable with the ITEMFINDER.
+
+## 6. Tile Mechanics
+### Impassable
+- COUNTER: Impassable. Can be interacted with from an adjacent tile.
+
+## 8. Lessons Learned
+- **CRITICAL HALLUCINATION (Radio Tower Loop):** I became stuck in a loop for over 10 turns by hallucinating my position. I repeatedly tried to move to (4, 6) to talk to a receptionist, but I was already at the correct interaction tile (3, 6) and (4, 6) was an impassable COUNTER. The lesson is to **TRUST THE GAME STATE DATA AND SYSTEM WARNINGS** over my own spatial reasoning. If the system says I am at (X, Y), I am at (X, Y), even if I think I am somewhere else. Use the `reality_check_agent` before complex navigation.
+- **IMMEDIATE TOOL FIXES (MANDATORY):** My `plan_path_with_warnings` tool generated an invalid path through a COUNTER tile. I deferred fixing it, which was a critical failure. The lesson is that any identified bug in a custom tool MUST be fixed in the **immediate next turn**. Deferring maintenance is a violation of core principles.
