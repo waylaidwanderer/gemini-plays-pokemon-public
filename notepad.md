@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Reach Goldenrod City (Route 34).
-- **Secondary:** Cut the tree and navigate North.
+- **Secondary:** Navigate Ilex Forest to Route 34.
 - **Tertiary:** Explore Ilex Forest.
 
 ## Completed Quests
