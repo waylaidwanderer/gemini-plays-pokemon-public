@@ -140,3 +140,4 @@
 - **Failed Test 8:** Interact with the COOLTRAINER_F at (10, 4). Result: 'I won't quit until I win!'
 - **Hypothesis (from agent):** The poster is a false wall.
 - **Failed Test 10:** Attempt to walk through the left side of the poster at (11, 1). Result: Blocked by wall.
+- **Failed Test 11:** Attempt to walk through the right side of the poster at (12, 1). Result: Blocked by wall.
