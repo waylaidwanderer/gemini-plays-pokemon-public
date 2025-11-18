@@ -164,3 +164,4 @@
     - Test object at (6, 24).
     - Test object at (6, 25).
     - Test object at (6, 26).
+- **Failed Test 1:** Interact with object at (0, 29). Result: Nothing happened.
