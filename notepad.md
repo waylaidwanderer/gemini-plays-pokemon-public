@@ -108,3 +108,7 @@
 - Defeated Lass at Route 34 (11, 26).
 - Defeated Youngster Ian at (11, 22).
 - Hidden Rare Candy at (8, 32) is currently unreachable (blocked by fence).
+
+# Active Quests
+- **Odd Egg:** Day Care Man has it. Party full (6/6). 
+  - Plan: Go to Goldenrod PC -> Deposit Pokemon -> Return to Day Care.
