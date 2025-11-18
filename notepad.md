@@ -125,8 +125,7 @@
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
 
 ### Current Strategy
-- Union Cave (south entrance) is a confirmed dead end for reaching Mahogany Town. The basement water route is a loop, and the northern part of 1F is blocked by one-way ledges.
-- New Plan: Exit Union Cave north to Route 32, travel to Ecruteak City, then head east to Route 42. The path was previously blocked by water, but I can now use SURF to cross.
+- The path to Mahogany Town requires traversing multiple routes. I'm currently traveling from New Bark Town west to Cherrygrove City, and will proceed north from there. The eventual goal is to reach Dark Cave, which I now have FLASH for, as it's a confirmed path to a new road.
 
 ## 12. Data Hygiene Notes
 - **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
