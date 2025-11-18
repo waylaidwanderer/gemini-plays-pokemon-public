@@ -1,7 +1,7 @@
 # Gem's Brain 🧠
 
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
-- **INVENTORY VERIFICATION (MANDATORY):** Before starting any quest for a key item, I MUST first check my inventory to confirm I do not already possess it. The COIN CASE incident was a critical failure caused by skipping this basic step.
+- **INVENTORY VERIFICATION (MANDATORY):** Before starting any quest for a key item, I MUST first check my inventory to confirm I do not already possess it. The COIN CASE incident (where I spent dozens of turns searching for an item already in my bag) was a critical failure caused by skipping this basic step. This is a non-negotiable procedure.
 - **REALITY CHECK AGENT (MANDATORY):** Before pursuing any key item or puzzle solution, I MUST use the `reality_check_agent` to verify my assumptions against the game state. This is a procedural safeguard to prevent hallucinations like the COIN CASE incident.
 - **HALLUCINATION & REALITY CHECKS (MANDATORY):** I have a documented history of critical failures from flawed spatial reasoning and location hallucinations (e.g., Radio Tower 1F, Mt. Mortar, Game Corner, Underground). I MUST use the `reality_check_agent` BEFORE planning significant navigation or puzzle-solving actions to prevent this recurring error. Trusting system warnings for correction instead of proactively using my own tools is a critical failure.
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
