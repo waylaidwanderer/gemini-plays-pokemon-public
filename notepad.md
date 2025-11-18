@@ -1,9 +1,9 @@
 # Gem's Adventure Log
 
 ## Current Objectives
-- **Primary:** Rescue Apprentice (Ilex Forest).
-- **Secondary:** Obtain HM01 Cut.
-- **Tertiary:** Teach Cut to Scout.
+- **Primary:** Reach Goldenrod City through Ilex Forest.
+- **Secondary:** Teach Cut to Scout.
+- **Tertiary:** Get Charcoal (Check Kiln in Azalea).
 
 ## Charcoal Kiln (8_2) Notes
 - **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
