@@ -153,3 +153,4 @@
 - **Failed Test 1:** Interact with the wall at (1, 21) from (1, 22). Result: Nothing happened.
 - Hypothesis (from agent): A hidden switch is on the floor next to the Teacher NPC at (3, 27).
 - Failed Test 2: Interacted with the floor tile at (2, 27) from (2, 26). Result: Nothing happened.
+- **UNPRODUCTIVE LOOPS (LESSON):** I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
