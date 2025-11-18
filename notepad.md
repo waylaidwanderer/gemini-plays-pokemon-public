@@ -148,3 +148,6 @@
 ### Special Interactable Tiles
 - **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
 - **Tool Logic (LESSON):** Tools must account for persistent state stored in map markers, not just transient on-screen data. Relying only on the immediate game state for pathfinding can lead to collisions with known, off-screen obstacles.
+### Goldenrod Underground Switch Room Puzzle Log
+- **Hypothesis:** A hidden switch exists on the wall of the northwest room.
+- **Failed Test 1:** Interact with the wall at (1, 21) from (1, 22). Result: Nothing happened.
