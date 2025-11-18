@@ -115,3 +115,6 @@
 - **Failed Hypothesis 5:** Interacting with Sudowoodo at (6, 12) from the left (5, 12) triggers SQUIRTBOTTLE. (Result: Triggered defeated Twins' dialogue).
 - **Failed Hypothesis 6 (Impossible):** Interacting with Sudowoodo at (7, 12) from above (7, 11) triggers SQUIRTBOTTLE. (Result: Impossible, (7, 11) is a WALL tile).
 - **Lesson Learned (Overwatch Critique):** I have repeatedly hallucinated my location. I MUST start using the `reality_check_agent` before making significant navigational plans to prevent this recurring failure.
+## Overwatch Critique Lessons (Turn 50162)
+- **REALITY CHECK FAILURE:** I have repeatedly failed to use the `reality_check_agent`, leading to critical location hallucinations. I MUST use this agent before any significant navigation or puzzle-solving action to prevent this recurring failure.
+- **AGENT REFINEMENT:** My `puzzle_solver_agent` has repeatedly failed, suggesting impossible moves. I must be more aggressive in refining its prompt when it provides flawed or unhelpful suggestions. A faulty tool is a liability.
