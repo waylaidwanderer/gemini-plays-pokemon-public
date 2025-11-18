@@ -124,3 +124,7 @@
 - Arrived to deposit Pokemon for Odd Egg.
 - Exits: South to City, Ladder to 2F.
 - NPCs: Lass, Pokefan F.
+
+# Goldenrod Pokemon Center
+- **PC:** Located at (9, 1). Interact at (9, 2).
+- **Plan:** Deposit a Pokemon (Ace or Egg) to ensure space for the Odd Egg.
