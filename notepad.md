@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Obtain Plain Badge (Whitney).
-- **Secondary:** Train Rocky (Onix) to Lv14.
+- **Secondary:** Get Bicycle.
 - **Tertiary:** Hatch Eggs.
 
 ## Recent Updates
