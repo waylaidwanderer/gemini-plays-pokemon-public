@@ -95,12 +95,13 @@
 - WARP_CARPET_RIGHT (unverified one-way - MUST TEST)
 - WARP_CARPET_DOWN (two-way)
 - CAVE (impassable warp)
-### Conditional & One-Way
-- LEDGE_HOP_DOWN (down only)
-- LEDGE_HOP_LEFT (left only)
-- LEDGE_HOP_RIGHT (right only)
+### Conditional & One-Way (Movement FROM tile)
+- **CRITICAL CORRECTION:** These tiles are impassable destinations. Their type describes the ONLY valid move you can make *from* them.
+- LEDGE_HOP_DOWN: Can only move Down from this tile.
+- LEDGE_HOP_LEFT: Can only move Left from this tile.
+- LEDGE_HOP_RIGHT: Can only move Right from this tile.
+- FLOOR_UP_WALL: Can only move Down from this tile.
 - WATER (impassable without SURF)
-- **FLOOR_UP_WALL:** Impassable from below, one-way down only (Verified at Mt. Mortar (29,8)).
 
 ## 8. Reflection Log & New Ideas
 - **Data Management Lapses (Turn 45736, 46608-46611, 46801, 46849, 47587-47604, 47631):** I have repeatedly deferred or failed at notepad/marker updates and tool maintenance instead of performing them immediately. This is a critical failure I must correct. I am improving but must remain vigilant.
