@@ -136,3 +136,4 @@
 - **Hypothesis (from agent):** The COOLTRAINER_F at (10, 4) is a disguised Rocket grunt guarding a switch.
 - **Hypothesis (from agent):** The COOLTRAINER_F at (10, 4) is a disguised Rocket grunt guarding a switch.
 - **Failed Test 4:** Interact with the COOLTRAINER_F at (10, 4). Result: 'I won't quit until I win!'
+- **Hypothesis (from agent):** A hidden item/switch is on the floor near the poster, findable with the ITEMFINDER.
