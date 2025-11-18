@@ -92,3 +92,5 @@
   - **Headbutt Tutor:** Man with green hair near the exit (Right of shrine).
   - **Ether:** Found at (27, 1).
 - **Scout (Sentret):** Knows Cut.
+- Defeated Hidden Youngster at (12, 1) (Ledyba, Paras).
+- Phone Call: Anthony (Hiker) - Rambled about berries and beauties. No request.
