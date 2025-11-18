@@ -16,6 +16,10 @@
 - `delete_tool`
 - `select_battle_option`
 - `stun_npc`
+- `define_tool`
+- `delete_tool`
+- `select_battle_option`
+- `stun_npc`
 
 ### Custom Tools & Agents
 - `find_reachable_unseen_tiles`: Finds reachable unseen tiles for exploration.
