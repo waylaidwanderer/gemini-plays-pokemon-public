@@ -112,7 +112,8 @@
 - Hidden Rare Candy at (8, 32) is currently unreachable (blocked by fence).
 
 # Active Quests
-- **Get Bicycle:** Complete! Obtained from Bike Shop.
+- **Get Bicycle:** Complete! Obtained from Bike Shop. Need to register/use it.
+- **Train Rocky:** Head to Route 35 (North).
 - **Train Rocky:** Goal Level 14. Location: Route 35 or Underground.
 
 # Goldenrod City Notes
