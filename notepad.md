@@ -139,3 +139,4 @@
 
 ## Dark Cave
 - The cave is pitch-black and requires the HM move FLASH to navigate effectively.
+- **WARP_CARPET_DOWN:** To activate, you must be standing on the tile and facing down. Approaching from other directions or facing other directions on the tile does not work.
