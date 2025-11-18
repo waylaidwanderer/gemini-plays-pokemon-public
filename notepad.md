@@ -116,9 +116,15 @@
 - Hidden Rare Candy at (8, 32) is currently unreachable (blocked by fence).
 
 # Active Quests
-- **Odd Egg:** Day Care Man has it.
-  - Status: Attempted to claim, but seemingly failed (summary stated full party despite 5/6).
-  - Plan: Go to Goldenrod PC, deposit a Pokemon to ensure ample space, then retry.
+- **Get Bicycle:** Locate Bike Shop in Goldenrod (East side).
+- **Train Rocky:** Goal Level 14. Location: Route 35 or Underground.
+
+# Goldenrod City Notes
+- **Tile Mechanics:**
+  - **FLOOR:** Standard walkable pavement/grass.
+  - **WALL:** Impassable buildings, fences, and signs.
+  - **DOOR:** Warp tiles leading into buildings.
+  - **WARP_CARPET:** Map transitions at edges.
 - Defeated Youngster (Psyduck) at Route 34 (9, 7).
 - Tip: Goldenrod Dept. Store has rooftop sales (check daily?).
 
