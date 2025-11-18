@@ -119,3 +119,6 @@
 - Failed Hypothesis 8: Using the PokéGear Radio's Poké Flute channel will clear the Sudowoodo. (Result: Could not tune the radio, seems non-functional here.)
 - Failed Hypothesis 9: Using the PokéGear Phone to call Prof. Elm will reset the Twins' interaction state, allowing interaction with the Sudowoodo. (Result: The phone call completed, but the Twins' dialogue still overrode the tree interaction.)
 - **TODD (CAMPER):** ROUTE 34 (Rematch requested).
+## Reflection Log & New Ideas
+- **Overwatch Critique (Turn 50252):** Highlighted chronic underutilization of `reality_check_agent` and `navigation_strategist`. I must integrate them into my workflow more consistently to avoid hallucinations and improve high-level planning.
+- **Lesson (Turn 50256):** When stuck on a puzzle for an extended period (like the Sudowoodo), consult the `navigation_strategist` agent to re-evaluate priorities and identify more productive paths forward. Avoid tunnel vision on a single obstacle when other main quest objectives are available.
