@@ -100,6 +100,20 @@
 
 ## 12. Custom Tools & Agents
 
+## 12. Custom Tools & Agents
+
+### Built-in Tools
+- **notepad_edit**: Edits the notepad.
+- **run_code**: Executes Python code.
+- **define_agent**: Creates or updates a custom agent.
+- **delete_agent**: Deletes a custom agent.
+- **define_map_marker**: Creates or updates a map marker.
+- **delete_map_marker**: Deletes a map marker.
+- **stun_npc**: Freezes or unfreezes an NPC's movement.
+- **define_tool**: Creates or updates a custom tool.
+- **delete_tool**: Deletes a custom tool.
+- **select_battle_option**: Selects a main battle menu option.
+
 ### Custom Tools
 - **auto_explore**: Finds and paths to the nearest reachable unseen tile.
 - **find_reachable_unseen_tiles**: Identifies reachable unseen tiles adjacent to explored areas.
