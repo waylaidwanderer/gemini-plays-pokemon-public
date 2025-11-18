@@ -70,7 +70,13 @@
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
 - **CRITICAL CORRECTION:** These tiles are impassable destinations. Their type describes the ONLY valid move you can make *from* them.
-- LEDGE_HOP_DOWN: Can only move Down from this tile. (unverified one-way - MUST TEST). **Test Plan:** Find a `LEDGE_HOP_DOWN` tile and attempt to walk 'Up' onto it. This will confirm or deny the one-way assumption.
+- **LEDGE_HOP_DOWN:** Can only move Down from this tile. (Unverified one-way - CRITICAL TEST PENDING).
+  - **Hypothesis:** It is impossible to move 'Up' onto a `LEDGE_HOP_DOWN` tile.
+  - **Test Plan:**
+    1. Locate the nearest `LEDGE_HOP_DOWN` tile.
+    2. Position player on the tile directly below it.
+    3. Press 'Up' to attempt to move onto the ledge tile.
+    4. **Record Outcome:** Document whether the movement was successful or blocked. This test is mandatory to resolve the unverified mechanic.
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - LEDGE_HOP_RIGHT: Can only move Right from this tile.
 - FLOOR_UP_WALL: Can only move Down from this tile. Impassable from above (cannot move Down onto it).
