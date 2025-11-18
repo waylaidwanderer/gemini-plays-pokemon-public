@@ -127,4 +127,4 @@
 
 # Goldenrod Pokemon Center
 - **PC:** Located at (9, 1). Interact at (9, 2).
-- **Plan:** Deposit a Pokemon (Ace or Egg) to ensure space for the Odd Egg.
+- **Status:** Ace deposited. Party size 4/6. Returning to Day Care.
