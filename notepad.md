@@ -93,13 +93,6 @@
 ## Gym Leaders
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
 
-## 10. Data Hygiene Notes
-- **Trainer Name Discrepancy (Route 42):** The trainer at (51, 9) is identified as 'POKEFAN_M' in the overworld map data but as 'HIKER BENJAMIN' in the battle text. The map data is the source of truth.
-- **CRITICAL FAILURE (MT. MORTAR):** I spent over 10 turns debugging my `plan_path_with_warnings` tool because it correctly reported 'No path found'. My assumption that a path existed was a hallucination. I was on an isolated platform with no route to the exit except the ladder I entered from. This is a catastrophic failure to trust my own tools and verify my own spatial reasoning. I must trust the pathfinder's output as the default truth and verify the in-game situation before assuming a tool is broken.
-- **CATASTROPHIC HALLUCINATION (MT. MORTAR):** After my tool correctly reported 'No path found', I distrusted it and spent turns debugging it, only to attempt a manually plotted path that was physically impossible. This is a multi-layered failure. Lesson: My visual assessment is fallible. The pathfinder's output MUST be trusted as the source of truth for navigation. If it says 'No path', there is no path.
-- **Lesson (Route Prioritization):** Just because a path is explorable (like Dark Cave or Mt. Mortar) doesn't mean it's the correct path for the main quest. I need to be better at recognizing when a route is a side area or requires an unobtained HM, and quickly pivot back to the most logical main path to avoid wasting time on dead ends.
-- **TRUST YOUR TOOLS (RECURRING FAILURE):** I have a documented history of catastrophic failures (Mt. Mortar, Radio Tower 1F) where I distrusted my pathfinding tool's correct 'No path found' output. My own visual/spatial reasoning is fallible. The pathfinder's output MUST be trusted as the default source of truth. If it reports no path, I must verify the blockage in-game before assuming the tool is broken.
-
 ## 11. Archived Sudowoodo Puzzle Log
 
 - **Tool Limitation (Pathfinder Warnings):** My `plan_path_with_warnings` tool relies on a hardcoded list of static NPC names (`id-name`). This is brittle because some NPC types (like COOLTRAINER_M) can be both static and moving. This causes false positive warnings. **Future Improvement:** Investigate if there's a way to provide the `is_moving_npc` flag to the tool for more accurate warnings.
