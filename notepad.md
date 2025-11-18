@@ -108,7 +108,7 @@
 - **Multi-Press Dialogue:** Some NPCs require pressing 'A' multiple times to advance text.
 - **Phone List Limit:** The phone list can become full.
 - **Evolution via Trade:** MACHOKE, KADABRA, HAUNTER, and GRAVELER evolve by trading.
-- **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
+- **Defeated Trainers as Obstacles:** Trainers can remain impassable physical barriers even after being defeated (e.g., Azalea Gym, Goldenrod Underground).
 - **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
 
 ## 10. Custom Tools & Agents
