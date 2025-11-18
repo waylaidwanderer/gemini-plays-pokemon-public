@@ -141,9 +141,7 @@
 - **Update:** Obtained Odd Egg from Day Care. Ace deposited in PC. Current Party: Kimchi (Quilava), Scout (Sentret), Rocky (Onix), Togepi Egg, Odd Egg.
 
 # Status Update
-- **Odd Egg:** Successfully obtained from Day Care.
-- **Ace:** Deposited in PC to make room.
-- **Current Objective:** Heading to Bike Shop.
-- **Odd Egg:** Quest Complete! Received from Day Care Man. Ace deposited to make room.
-- **Navigation:** Bike Shop (29, 29) blocked from West/South. Must loop around from North.
-- **Happiness Rater:** Located in the house at Goldenrod (31, 21).
+- **Current Location:** Goldenrod City (North).
+- **Bicycle:** Obtained!
+- **Next Step:** Investigate house North of Gym, then Route 35 to train Rocky.
+- **Strategy:** Grind Rocky to Lv 14 (Rock Throw) for Whitney.
