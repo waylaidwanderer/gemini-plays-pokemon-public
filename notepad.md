@@ -2,8 +2,11 @@
 
 ## Current Objectives
 - **Primary:** Reach Goldenrod City through Ilex Forest.
-- **Secondary:** Teach Cut to Scout.
-- **Tertiary:** Get Charcoal (Check Kiln in Azalea).
+- **Secondary:** Get Charcoal (from Charcoal Kiln in Azalea).
+- **Tertiary:** Teach Cut to Scout.
+
+# Active Quests
+- **Apprentice:** Rescued. Collecting reward at Kiln.
 
 ## Charcoal Kiln (8_2) Notes
 - **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
