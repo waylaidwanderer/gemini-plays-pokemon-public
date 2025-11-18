@@ -143,7 +143,7 @@
 - **Text Box Priority:** I must always clear on-screen text boxes (usually with 'A') before attempting any other input, especially movement. Trying to move with an open dialogue will fail.
 - **Pathfinding Target:** When pathfinding to an impassable object (like a sign or NPC), the target coordinates must be a traversable tile *adjacent* to the object, not the object's tile itself.
 - **Proactive Stunning:** If `plan_path_with_warnings` flags a potentially moving NPC near my route, the default strategy should be to use `stun_npc` on it before executing the path to prevent random blockages.
-- **COIN CASE LOCATION:** A POKEFAN_M in the Game Corner at (1, 8) confessed he threw his COIN CASE away in the UNDERGROUND.
+- **COIN CASE OBTAINED:** Found the COIN CASE in the Goldenrod Underground. The lead from the POKEFAN_M in the Game Corner was correct.
 - **Hypothesis (from agent):** Talk to POKEFAN_M at (1, 8), then interact with poster. Failed Test: Spoke to POKEFAN_M, then interacted with poster at (12, 1) from (12, 2). Result: Nothing happened.
 - **NPC DIALOGUE TRIGGERS:** NPC dialogue is likely tied to major story flags (e.g., obtaining a key item, defeating a gym leader), not minor, exploratory actions like trying a locked door. Avoid re-interacting with NPCs unless a major event has occurred.
 - **HALLUCINATED INTERACTABLES:** The wall decorations in the Goldenrod Underground Switch rooms are NOT interactable switches. My systematic plan to test them was based on a complete hallucination. I must rely only on confirmed interactable objects from the game state.
