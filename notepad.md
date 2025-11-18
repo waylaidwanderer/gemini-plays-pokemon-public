@@ -112,3 +112,5 @@
 # Active Quests
 - **Odd Egg:** Day Care Man has it. Party full (6/6). 
   - Plan: Go to Goldenrod PC -> Deposit Pokemon -> Return to Day Care.
+- Defeated Youngster (Psyduck) at Route 34 (9, 7).
+- Tip: Goldenrod Dept. Store has rooftop sales (check daily?).
