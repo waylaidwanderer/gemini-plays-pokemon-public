@@ -45,6 +45,7 @@
 - **Path to Mahogany Town:** Current assumption is the only path is south through Route 32 and Union Cave. **Alternative Hypothesis:** The water route east of Ecruteak City (Route 42) might now be passable with SURF. The 'DARK CAVE leads to another road' lead is also a viable alternative. **Test:** If the southern path becomes blocked, prioritize exploring Dark Cave or returning to Route 42.
 - **Mt. Mortar Purpose:** Current hypothesis is that Mt. Mortar is a side area, not the main path to Mahogany Town, based on repeated dead ends. **Alternative Hypothesis:** A required HM (like Waterfall) may be needed to fully explore it, or a hidden switch/item controls the waterfalls.
 - **Dark Cave Path:** Current hypothesis is that Dark Cave is not the primary path to Mahogany Town, despite the mail from 'RANDY'. **Alternative Hypothesis:** My initial exploration was incomplete and a viable path exists.
+- **Game Corner Puzzle Solution:** Current hypothesis is that the solution is inside the Game Corner. **Alternative Hypothesis:** The solution may require an action or item from outside the Game Corner, possibly related to the Rocket Grunt in Goldenrod City.
 
 ## 6. Tile Mechanics
 ### Impassable
@@ -77,15 +78,7 @@
 ## 7. Gym Leaders
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
 
-## 8. Lessons Learned
-- **CRITICAL HALLUCINATION (Radio Tower Loop):** I became stuck in a loop for over 10 turns by hallucinating my position. I repeatedly tried to move to (4, 6) to talk to a receptionist, but I was already at the correct interaction tile (3, 6) and (4, 6) was an impassable COUNTER. The lesson is to **TRUST THE GAME STATE DATA AND SYSTEM WARNINGS** over my own spatial reasoning. Use the `reality_check_agent` before complex navigation.
-- **IMMEDIATE TOOL FIXES (MANDATORY):** My `plan_path_with_warnings` tool generated an invalid path through a COUNTER tile. I deferred fixing it, which was a critical failure. The lesson is that any identified bug in a custom tool MUST be fixed in the **immediate next turn**. Deferring maintenance is a violation of core principles.
-- **Verify Before Automating:** I wasted time creating the `pokemon_info_extractor` tool based on the unverified assumption that the PC screen text would reliably indicate the selected Pokémon's name. The text does not, making the tool's primary function impossible. I must verify the data source and its structure *before* developing tools to automate interaction with it.
-- **MAJOR HALLUCINATION (Turns 46632-46652):** I incorrectly concluded my `plan_path_with_warnings` tool was broken when it failed to find a path around the receptionist. I wasted over 20 turns debugging a correct tool instead of trusting its output and verifying the blockage in-game. The true failure was my own flawed spatial reasoning and failure to use the `reality_check_agent`.
-- **Pathing Blockage (Moving NPCs):** If a planned path is blocked by a moving NPC, the most efficient solution is to immediately recalculate the path from the current position rather than attempting complex workarounds or waiting.
-- **Tool Limitation (Pathfinder Warnings):** My `plan_path_with_warnings` tool relies on a hardcoded list of static NPC names (`id-name`). This is brittle because some NPC types (like COOLTRAINER_M) can be both static and moving. This causes false positive warnings. **Future Improvement:** Investigate if there's a way to provide the `is_moving_npc` flag to the tool for more accurate warnings.
-
-## 9. Archived Puzzle Logs
+## 8. Archived Puzzle Logs
 
 ### Archived Sudowoodo Puzzle Log
 
@@ -101,8 +94,13 @@
 - **Failed Test 6:** Interact with the wall at (13, 0) from (13, 1). Result: Nothing happened.
 - **Hypothesis (from agent):** A hidden item/switch is on the floor near the poster, findable with the ITEMFINDER.
 - **Failed Test 7:** Use ITEMFINDER. Result: "Nope! ITEMFINDER isn't responding."
+- **Failed Test 8:** Interact with the slot machine at (12, 7). Result: 'You have no coins.'
+- **Failed Test 9:** Interact with the COOLTRAINER_F at (10, 4). Result: 'I won't quit until I win!'
+- **Hypothesis (from agent):** The poster is a false wall.
+- **Failed Test 10:** Attempt to walk through the left side of the poster at (11, 1). Result: Blocked by wall.
+- **Failed Test 11:** Attempt to walk through the right side of the poster at (12, 1). Result: Blocked by wall.
 
-## 10. Confirmed System Mechanics
+## 9. Confirmed System Mechanics
 - **Respawning Obstacles:** HM-cleared obstacles (like CUT_TREE) respawn upon re-entering a map.
 - **HM Move Permanence:** HM moves cannot be forgotten through normal means.
 - **Multi-Press Dialogue:** Some NPCs require pressing 'A' multiple times to advance text.
@@ -111,7 +109,7 @@
 - **Defeated Trainers as Obstacles:** Trainers in the Azalea Gym remain impassable after defeat.
 - **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
 
-## 11. Custom Tools & Agents
+## 10. Custom Tools & Agents
 
 ### Built-in Tools
 - **notepad_edit**: Edits the notepad.
@@ -137,7 +135,3 @@
 - **puzzle_solver_agent**: Suggests the next logical test for a puzzle based on the scientific method.
 - **navigation_strategist**: Provides the next logical navigation step when I'm stuck.
 - **party_strategist_agent**: Recommends an optimal party of three for a specific goal.
-- **Failed Test 8:** Interact with the COOLTRAINER_F at (10, 4). Result: 'I won't quit until I win!'
-- **Hypothesis (from agent):** The poster is a false wall.
-- **Failed Test 10:** Attempt to walk through the left side of the poster at (11, 1). Result: Blocked by wall.
-- **Failed Test 11:** Attempt to walk through the right side of the poster at (12, 1). Result: Blocked by wall.
