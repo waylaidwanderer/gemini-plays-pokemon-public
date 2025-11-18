@@ -29,7 +29,7 @@
 - **ANTHONY (HIKER):** Route 33. Chatted about his MACHOP and seeing wild GEODUDE.
 - **JACK (SCHOOLBOY):** NATIONAL PARK (Rematch).
 - **ALAN (SCHOOLBOY):** Route 36 (Rematch).
-- **TODD (CAMPER):** ROUTE 34 (Rematch requested).
+- **TODD (CAMPER):** ROUTE 34 (Rematch requested again).
 
 ## 3. Special Events & Swarms
 - **Hiker Anthony:** Dunsparce swarm in Dark Cave.
