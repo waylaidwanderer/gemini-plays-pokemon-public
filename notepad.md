@@ -6,7 +6,7 @@
 - **Tertiary:** Explore Ilex Forest.
 
 # Active Quests
-- **Apprentice:** Rescued. Collecting reward at Kiln.
+- **Apprentice:** Complete. Reward (Charcoal) obtained.
 
 ## Charcoal Kiln (8_2) Notes
 - **NPCs:** Black Belt at (2, 3). Seeking apprentice in Ilex Forest.
