@@ -138,3 +138,4 @@
 ## Dark Cave
 - The cave is pitch-black and requires the HM move FLASH to navigate effectively.
 - **WARP_CARPET_DOWN:** To activate, you must be standing on the tile and facing down. Approaching from other directions or facing other directions on the tile does not work.
+- **New Tool Idea: `auto_explore`**: A tool that combines `find_reachable_unseen_tiles` and `plan_path_with_warnings`. It would find the nearest reachable unseen tile and automatically plot a path to it, streamlining the exploration loop into a single command.
