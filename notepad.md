@@ -74,6 +74,12 @@
 
 ## 8. Archived Puzzle Logs
 
+### Radio Tower Blockage Log
+- **Hypothesis:** The Black Belt at (0, 1) will move if spoken to.
+- **Failed Test 1:** Interact with the Black Belt at (0, 1). Result: Dialogue repeats, path remains blocked.
+- **Hypothesis:** The Black Belt at (0, 1) is a trainer that must be battled.
+- **Failed Test 2:** Attempt to walk into the Black Belt at (0, 1) to trigger a battle. Result: Movement blocked.
+
 ### Archived Sudowoodo Puzzle Log
 
 ### Goldenrod Game Corner Puzzle Log
