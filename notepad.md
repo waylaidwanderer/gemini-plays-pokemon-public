@@ -86,16 +86,8 @@
 # Achievements
 - Defeated Rival Silver (Azalea Town Gatehouse)
 
-# Ilex Forest Strategy
-- **Farfetch'd Puzzle:**
-  1. [x] Walk up to it (Runs North).
-  2. [x] Approach from **BOTTOM** (Runs North).
-  3. [x] Circle wide to East, approach from **RIGHT** (Runs Left).
-  4. [x] Circle to North, approach from **TOP** (Runs Down).
-  5. [x] Approach from **RIGHT** (Runs West).
-  6. [x] Herd North to Apprentice (Reunited!).
-- **Items:**
-  - **Charcoal:** From Apprentice (Equip to Kimchi).
-  - **HM01 Cut:** From Charcoal Maker (after puzzle).
-  - **Headbutt:** Tutor near exit (Right of shrine).
+# Ilex Forest Notes
+- **Puzzle Solved:** Farfetch'd returned. HM01 Cut obtained.
+- **Key Items/Events:**
+  - **Headbutt Tutor:** Man with green hair near the exit (Right of shrine).
   - **Hidden Ether:** Top-right corner before exit.
