@@ -97,3 +97,18 @@
 ## 11. Archived Sudowoodo Puzzle Log
 
 - **Tool Limitation (Pathfinder Warnings):** My `plan_path_with_warnings` tool relies on a hardcoded list of static NPC names (`id-name`). This is brittle because some NPC types (like COOLTRAINER_M) can be both static and moving. This causes false positive warnings. **Future Improvement:** Investigate if there's a way to provide the `is_moving_npc` flag to the tool for more accurate warnings.
+
+## 12. Custom Tools & Agents
+
+### Custom Tools
+- **auto_explore**: Finds and paths to the nearest reachable unseen tile.
+- **find_reachable_unseen_tiles**: Identifies reachable unseen tiles adjacent to explored areas.
+- **menu_navigator**: Navigates vertical menus by calculating Up/Down presses.
+- **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs.
+- **select_move_tool**: Selects a move in battle with correct button presses.
+
+### Custom Agents
+- **reality_check_agent**: Verifies my intended action against the game state to prevent hallucinations.
+- **puzzle_solver_agent**: Suggests the next logical test for a puzzle based on the scientific method.
+- **navigation_strategist**: Provides the next logical navigation step when I'm stuck.
+- **party_strategist_agent**: Recommends an optimal party of three for a specific goal.
