@@ -66,7 +66,7 @@
 - DOOR, LADDER, STAIRCASE (two-way)
 - PIT (one-way)
 - WARP_CARPET_LEFT (two-way, requires facing left)
-- WARP_CARPET_RIGHT (unverified one-way - MUST TEST)
+- WARP_CARPET_RIGHT (two-way, requires facing right)
 - WARP_CARPET_DOWN (two-way, requires facing down)
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
