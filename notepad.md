@@ -24,6 +24,7 @@
 - `plan_path_with_warnings`: Enhanced pathfinder that warns about nearby moving NPCs.
 - `select_move_tool`: A tool that takes a move slot number (1-4) as input and outputs the correct sequence of button presses to select and use that move in battle.
 - `find_reachable_unseen_tiles`: A comprehensive exploration tool that first identifies all unseen tiles on the current map and then filters them to return only those that are adjacent to currently reachable areas. This streamlines the process of finding new, explorable paths.
+- `run_from_battle`: Automates running from a wild battle.
 
 ## 2. 🚨 CRITICAL DIRECTIVES & LESSONS
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
