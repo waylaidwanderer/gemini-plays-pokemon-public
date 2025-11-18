@@ -1,6 +1,7 @@
 # Gem's Brain 🧠
 
 ## 1. 🚨 CRITICAL DIRECTIVES & LESSONS
+- **HALLUCINATION & REALITY CHECKS (MANDATORY):** I have a documented history of critical failures from flawed spatial reasoning and location hallucinations (e.g., Radio Tower 1F, Mt. Mortar, Game Corner, Underground). I MUST use the `reality_check_agent` BEFORE planning significant navigation or puzzle-solving actions to prevent this recurring error. Trusting system warnings for correction instead of proactively using my own tools is a critical failure.
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **REALITY CHECKS (MANDATORY):** I have a documented history of critical failures from flawed spatial reasoning and location hallucinations (e.g., Radio Tower 1F, Mt. Mortar). I MUST use the `reality_check_agent` BEFORE planning significant navigation or puzzle-solving actions to prevent this recurring error.
