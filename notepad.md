@@ -203,3 +203,4 @@
 - **LOCATION HALLUCINATION (LESSON):** I must always trust the Game State Information for my current map ID and position over my own memory, especially after a warp. Attempting to plan actions on a hallucinated map leads to critical failures.
 - **Proactive Stunning & Unstunning (LESSON):** When an NPC is blocking a path or could potentially block it, stun them. Do not unstun them until you have completely finished all actions in that area and are ready to leave the map, to prevent them from re-blocking your path.
 - **Buena (Radio Tower 2F):** Mentioned a 'PASSWORD' radio show that airs from six to midnight. Said to 'Tune in, then drop in for a visit!' This is a very strong lead.
+- **Proactive Stunning & Unstunning (LESSON):** When an NPC is blocking a path or could potentially block it, stun them. Do not unstun them until you have completely finished all actions in that area and are ready to leave the map, to prevent them from re-blocking your path.
