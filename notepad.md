@@ -43,3 +43,6 @@
 
 # New Lessons Learned (Turn 212)
 - My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification. My `find_path` tool failed because I hadn't added logic for `LEDGE_HOP_LEFT` tiles.
+
+# New Lessons Learned (Turn 213)
+- My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification. My `find_path` tool failed because I hadn't added logic for `LEDGE_HOP_LEFT` tiles.
