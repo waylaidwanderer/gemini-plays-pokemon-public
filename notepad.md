@@ -197,3 +197,9 @@
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
 - **PATHING STRATEGY (LESSON):** Long-distance path plans are unreliable in areas with known NPCs. The pathfinder cannot see off-screen objects, leading to routes that are blocked by newly appeared obstacles. The correct strategy is to plan shorter, line-of-sight paths, re-planning as new areas and objects become visible.
+
+**LADDER MECHANIC UPDATE:** Activated by moving *onto* the ladder tile, not by pressing 'Up' or 'A' on it.
+
+**MARKER TO-DO:**
+- Place '🚪' at GoldenrodUndergroundSwitchRoomEntrances (21, 25).
+- Place '🚫' at GoldenrodUndergroundSwitchRoomEntrances to mark the impassable SUPER_NERD.
