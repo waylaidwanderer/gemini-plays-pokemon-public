@@ -4,7 +4,8 @@
 - [ ] Start the game
 
 ## Quest Log
-- Just started the game.
+- Started game, selected female character.
+- Setting the clock.
 
 ## Game Mechanics Observed
 - None yet.
