@@ -201,3 +201,4 @@
 **LADDER MECHANIC UPDATE:** Activated by moving *onto* the ladder tile, not by pressing 'Up' or 'A' on it.
 - **DEFERRED MAINTENANCE (LESSON):** Deferring data maintenance (like placing markers) to a to-do list is a critical failure. All maintenance MUST be performed in the same turn it's identified, as there is no 'later' for an LLM.
 - **LOCATION HALLUCINATION (LESSON):** I must always trust the Game State Information for my current map ID and position over my own memory, especially after a warp. Attempting to plan actions on a hallucinated map leads to critical failures.
+- **Proactive Stunning & Unstunning (LESSON):** When an NPC is blocking a path or could potentially block it, stun them. Do not unstun them until you have completely finished all actions in that area and are ready to leave the map, to prevent them from re-blocking your path.
