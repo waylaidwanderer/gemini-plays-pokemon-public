@@ -24,3 +24,4 @@
 
 ## Team
 - Empty
+- Confronted the red-haired boy. He was hostile and pushed me away.
