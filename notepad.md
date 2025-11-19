@@ -23,3 +23,4 @@
 - Tip: Growlithe found on Route 37 (Radio).
 - Tip: Pokémon hide in the grass (Cooltrainer M, Route 29).
 - Lesson: If movement is blocked on a traversable tile with no visible objects, check for open menus or full-screen interfaces.
+- Defeated L2 Rattata at (33, 7) for 16 XP.
