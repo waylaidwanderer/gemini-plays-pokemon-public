@@ -7,6 +7,8 @@
 - **FLOOR:** Standard traversable ground tile.
 - **WARP_CARPET_DOWN:** A warp tile. Triggers a map transition when the player moves down from an adjacent tile or presses 'Down' while standing on it.
 - **DOOR:** A warp tile. Triggers a map transition when the player moves onto it.
+- **LADDER:** A warp tile used for vertical transitions. Move onto the tile to activate the warp.
+- **COUNTER:** Impassable tile. Often placed in front of NPCs, requiring interaction from an adjacent tile.
 
 # Goldenrod Gym Puzzle Notes
 - Hypothesis 1: Interacting with the gym statues will change the maze.
@@ -21,19 +23,5 @@
 # General Lessons
 - **Verify Location:** Always confirm current map ID and coordinates from the Game State Information before planning an action, especially after a map transition, to prevent hallucinations.
 - **External Solutions:** If a puzzle seems impossible after systematically testing all internal variables and interactions, the required trigger or item is likely located outside the immediate area. Pivot to broader exploration instead of repeating failed attempts.
-
-# Tile Mechanics (New Additions)
-- **LADDER:** A warp tile. Appears to be a vertical transition point. (Hypothesis: Move onto the tile to use it.)
-- **WARP_CARPET_DOWN:** A warp tile that triggers a map transition when the player presses 'Down' while standing on it to move off the mat.
-
-# Tile Mechanics (New Additions)
-- **COUNTER:** Impassable tile. Often placed in front of NPCs, requiring interaction from an adjacent tile.
-
-# General Lessons (New Additions)
 - **Verify Orientation:** Before pressing 'A' to interact with an object or NPC, always ensure the player character is directly facing the target tile to prevent failed interactions.
-
-# General Lessons (New Additions)
 - **Dialogue Loops:** If repeatedly pressing 'A' in a conversation does not advance the dialogue and instead creates a loop, try pressing 'B' at different stages (e.g., on the final text box) to act as a 'cancel' command and break the loop.
-
-# Tile Mechanics (New Additions)
-- **LADDER:** A warp tile used for vertical transitions. Move onto the tile to activate the warp.
