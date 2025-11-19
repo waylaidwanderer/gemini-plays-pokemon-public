@@ -18,3 +18,4 @@
   2. Navigate through Route 29 to Cherrygrove City.
   3. Find the route leading to Mr. Pokémon's house.
 - Tool: Building 'find_path' to automate navigation.
+- TOWN_MAP: Readable, provides location info.
