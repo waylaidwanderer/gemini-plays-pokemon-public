@@ -8,13 +8,14 @@
 - **PRINCIPLE OF SIMPLICITY (BATTLE TOWER):** After 40+ complex failed hypotheses, the solution was simply walking onto the exit warp carpet. I assumed it was a one-way entrance without ever testing it. This is a catastrophic failure of the scientific method. ALWAYS test the simplest, most fundamental assumptions first before escalating to complex theories.
 - **THE LLM REALITY:** As an LLM, my "thinking" only happens when I process a prompt. There is no "later." Any task I identify (fixing a tool, updating notes, placing a marker) MUST be performed in the CURRENT turn. Deferring tasks is a critical failure based on a misunderstanding of my own nature.
 - **BATTLE TOWER GLITCH (CRITICAL):** Accepting the battle challenge and saving triggers a guaranteed, game-breaking data corruption glitch. This is unavoidable. The only fix is to press 'B' at the level select menu and cancel the challenge. This restores the save data but is a reset mechanism, NOT an escape route from the lobby.
-- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found. There is no 'later'.
-- **PATH EXECUTION:** Calling `plan_path_to_target` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
+- **IMMEDIATE MAINTENANCE:** All data management (notepad, markers) and tool/agent fixes MUST be done in the same turn a new discovery or bug is found.
+- **PATH EXECUTION:** Calling `plan_path_with_warnings` only generates a path. I MUST set `buttons_to_press` to `["path"]` to actually move, otherwise I will hallucinate my position.
 - **COORDINATE SYSTEM:** Map data is 0-indexed (`0 <= coordinate < dimension`). Pathfinding tools MUST use this logic.
 - **TEXT BOXES:** Pressing 'B' is not a universal solution for closing text boxes where 'A' fails (e.g., Sailor in Olivine Lighthouse), but it has been confirmed to work for breaking dialogue loops (e.g., Rival on Route 41). This should be tested as an alternative when 'A' is unresponsive.
 - **TOOL MISUSE:** `autopress_buttons=true` is ONLY for tools that output button strings, not coordinates or decisions.
 - **ITEM MANAGEMENT:** Taking a held item with a full bag destroys it. The only safe way to free a slot is to have a Pokémon hold an item.
 - **DIG GLITCH (CRITICAL):** Using DIG as a field move in the Olivine Lighthouse dead-end room causes a game-breaking glitch. **Test Update:** Successfully used DIG in Dark Cave to escape a dead end with no glitch. This suggests the glitch may be location-specific to the Olivine Lighthouse. Further testing is still required before using it freely.
+- **DEAD END MARKING FAILURE (LESSON):** Overwatch critiqued my failure to place a '🚫' marker on Route 42 immediately after confirming it was a dead end. This is a critical data management failure that could lead to wasted time. I MUST mark confirmed dead ends immediately.
 
 ## 2. Main Quest & Active Leads
 - **Dark Cave Lead:** Received mail on the Battle Tower PC from 'RANDY'. Message: 'DARK CAVE leads to another road.' This confirms it's a through-route.
@@ -41,6 +42,7 @@
 - **Route 42:** Path to Mahogany Town blocked by water (needs SURF).
 - **Goldenrod Underground:** Locked door at (18, 6) is unsolved.
 - **Route 40/41 Water Route:** Confirmed dead end. Multiple pathfinding attempts to the west failed, blocked by a buoy maze.
+- **Route 42 (East from Ecruteak):** Confirmed dead end. `plan_path_with_warnings` tool returned 'No path found', confirming that the eastern section is inaccessible from the west due to water and one-way ledges.
 
 ## 5. New Hypotheses & Future Tests
 - **Bugged Youngster (Route 32):** Current assumption is the interaction is permanently bugged. **Alternative Hypothesis:** The bug might be state-dependent (e.g., resets after leaving the map, time-of-day). **Test (Low Priority):** After making more progress, return to Route 32 and attempt to interact with the Youngster at (3, 45) again.
@@ -194,11 +196,3 @@
     - 2. Pressing 'Up' will change the radio frequency. (Result: System error, not a navigable menu.)
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
-
-## 6. Tile Mechanics
-- LEDGE_HOP_LEFT: Can only move Left from this tile.
-- **DEAD END MARKING FAILURE (LESSON):** Overwatch critiqued my failure to place a '🚫' marker on the `DarkCaveBlackthornEntrance` map after confirming it was a dead end. This is a critical data management failure that could lead to wasted time. I MUST mark confirmed dead ends immediately.
-
-## 6. Tile Mechanics
-- **WARP_CARPET_RIGHT:** Two-way warp tile. Requires facing right and pressing 'Right' to activate, transitioning to an adjacent map.
-- **Route 42 (East from Ecruteak):** Confirmed dead end. `plan_path_with_warnings` tool returned 'No path found', confirming that the eastern section is inaccessible from the west due to water and one-way ledges.
