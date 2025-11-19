@@ -167,4 +167,6 @@
 - **Observation 1:** The NPC at (3, 27) appears as a `TEACHER` when I am in the western corridor.
 - **Observation 2:** The NPC at (3, 27) appeared as a `ROCKET` when I was in the eastern corridor (verified via `ScreensDuringMovement` log from turn 51753).
 - **Hypothesis 1:** The NPC's appearance is tied to my location within the maze. Being on the east side triggers the `ROCKET` sprite.
-- **Test 1:** Return to the eastern corridor (e.g., to `(8, 26)`) and observe the NPC at (3, 27).
+- **Failed Test 1:** Returned to the eastern corridor at `(8, 26)`. The NPC at (3, 27) remained a `TEACHER`. Conclusion: Location alone is not the trigger.
+- **Hypothesis 2:** The NPC's appearance is triggered by entering all four corner rooms of the maze.
+- **Test 2:** Systematically visit the SE and SW corner rooms and observe the NPC at (3, 27). Starting with the SE room.
