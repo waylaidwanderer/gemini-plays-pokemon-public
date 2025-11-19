@@ -174,3 +174,4 @@
 - **Current Hypothesis (Complex Action):**
     - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC will trigger the transformation. This test is currently in progress.
     - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC does not trigger the transformation.
+- **ROCKET DISGUISE (NEW HYPOTHESIS):** A Rocket Grunt previously mentioned needing a disguise. The path forward in the Radio Tower may require obtaining a Rocket uniform to get past the guard, rather than finding the Director. A grunt in the Goldenrod Underground might be the key.
