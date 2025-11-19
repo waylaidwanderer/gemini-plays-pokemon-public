@@ -111,7 +111,7 @@
 - **Defeated Trainers as Obstacles:** Trainers can remain impassable physical barriers even after being defeated (e.g., Azalea Gym, Goldenrod Underground).
 - **STRENGTH HM:** The move STRENGTH is used to *push* boulders, not break them. The boulder requires an empty space on the opposite side to be moved.
 
-## 10. Custom Tools & Agents
+## 10. Tool & Agent Reference
 
 ### Built-in Tools
 - **notepad_edit**: Edits the notepad.
@@ -129,6 +129,7 @@
 - **menu_navigator**: Navigates vertical menus by calculating Up/Down presses.
 - **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs. (Execution: The tool's output is a JSON object with a 'path' key. To execute the movement, `buttons_to_press` must be set to `["path"]` on the following turn.)
 - **select_move_tool**: Selects a move in battle with correct button presses.
+- **find_reachable_unseen_tiles**: Finds the nearest reachable unseen tile and returns the coordinates of an adjacent seen tile to pathfind to.
 
 ### Custom Agents
 - **reality_check_agent**: Verifies my intended action against the game state to prevent hallucinations.
@@ -140,6 +141,7 @@
 - **IMMEDIATE MAINTENANCE (LESSON):** Deferring tool/agent fixes or data management (notepad, markers) is a critical failure. Any identified maintenance task MUST be performed in the same turn it is discovered.
 - **NPC BEHAVIOR (LESSON):** Do not make broad assumptions about NPC behavior (e.g., assuming all NPCs of a certain type are static). Verify behavior on a case-by-case basis before encoding it into tools. Favor caution and assume NPCs can move.
 - **TILE MECHANIC VERIFICATION (NEW PROCEDURE):** Upon entering any new map, I MUST systematically verify and document the traversability and mechanics of every single tile type present. This is mandatory to prevent pathing failures caused by incorrect assumptions about the game world.
+
 ## 11. New Lessons Learned
 - **Text Box Priority:** I must always clear on-screen text boxes (usually with 'A') before attempting any other input, especially movement. Trying to move with an open dialogue will fail.
 - **Pathfinding Target:** When pathfinding to an impassable object (like a sign or NPC), the target coordinates must be a traversable tile *adjacent* to the object, not the object's tile itself.
@@ -147,24 +149,13 @@
 - **COIN CASE OBTAINED:** Found the COIN CASE in the Goldenrod Underground. The lead from the POKEFAN_M in the Game Corner was correct.
 - **Hypothesis (from agent):** Talk to POKEFAN_M at (1, 8), then interact with poster. Failed Test: Spoke to POKEFAN_M, then interacted with poster at (12, 1) from (12, 2). Result: Nothing happened.
 - **NPC DIALOGUE TRIGGERS:** NPC dialogue is likely tied to major story flags (e.g., obtaining a key item, defeating a gym leader), not minor, exploratory actions like trying a locked door. Avoid re-interacting with NPCs unless a major event has occurred.
-- **HALLUCINATED INTERACTABLES:** The wall decorations in the Goldenrod Underground Switch rooms are NOT interactable switches. My systematic plan to test them was based on a complete hallucination. I must rely only on confirmed interactable objects from the game state.
-### Special Interactable Tiles
-- **COUNTER:** Impassable. Can be interacted with from an adjacent tile, typically to speak with an NPC behind it.
-- **Tool Logic (LESSON):** Tools must account for persistent state stored in map markers, not just transient on-screen data. Relying only on the immediate game state for pathfinding can lead to collisions with known, off-screen obstacles.
-### Goldenrod Underground Switch Room Puzzle Log
-- **Hypothesis:** A hidden switch exists on the wall of the northwest room.
-- **Failed Test 1:** Interact with the wall at (1, 21) from (1, 22). Result: Nothing happened.
-- Hypothesis (from agent): A hidden switch is on the floor next to the Teacher NPC at (3, 27).
-- Failed Test 2: Interacted with the floor tile at (2, 27) from (2, 26). Result: Nothing happened.
 - **UNPRODUCTIVE LOOPS (LESSON):** I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
 - **HALLUCINATED INTERACTABLES:** The wall decorations in the Goldenrod Underground Switch rooms are NOT interactable switches. My systematic plan to test them was based on a complete hallucination. I must rely only on confirmed interactable objects from the game state.
 - **Hypothesis (from agent):** A sequential trigger exists. Interact with poster at (11, 1), then talk to COOLTRAINER_F at (11, 4). **Failed Test:** Interacted with poster at (11, 1) from (11, 2). Result: Nothing happened. The poster is not interactable.
-## 12. Newest Lessons & Hypotheses
 - **MINIGAME FOCUS (LESSON):** Do not get bogged down in non-essential minigames (like the Card Flip game) unless there is a strong, explicit clue pointing to their importance for quest progression. It was a waste of time and coins.
 - **ROCKET DISGUISE (NEW HYPOTHESIS):** A Rocket Grunt previously mentioned needing a disguise. The path forward in the Radio Tower may require obtaining a Rocket uniform to get past the guard, rather than finding the Director. A grunt in the Goldenrod Underground might be the key.
-- **UNPRODUCTIVE LOOPS (LESSON):** I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
-- **HALLUCINATED INTERACTABLES:** The wall decorations in the Goldenrod Underground Switch rooms are NOT interactable switches. My systematic plan to test them was based on a complete hallucination. I must rely only on confirmed interactable objects from the game state.
-### Goldenrod Underground Switch Room Puzzle Log
+
+## 12. Goldenrod Underground Switch Room Puzzle Log
 - **Core Observation:** An NPC at (3, 27) has been observed as both a `TEACHER` and a `ROCKET` grunt. The goal is to consistently trigger the `ROCKET` transformation.
 - **Failed Hypotheses (Simple Actions):**
     - **1. Location-Based Trigger:** Standing in the eastern corridor at (8, 26) does not trigger the transformation.
@@ -172,20 +163,14 @@
     - **3. Western Interaction Trigger:** Interacting with the TEACHER from the western corridor at (2, 27) does not trigger the transformation.
     - **4. Eastern Approach Trigger:** Approaching the TEACHER from the eastern corridor (moving from (8, 27) to (4, 27)) does not trigger the transformation.
     - **5. Eastern Interaction Trigger:** Interacting with the TEACHER from the eastern corridor at (4, 27) does not trigger the transformation.
-- **Current Hypothesis (Complex Action):**
-    - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC will trigger the transformation. This test is currently in progress.
     - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC does not trigger the transformation.
-- **ROCKET DISGUISE (NEW HYPOTHESIS):** A Rocket Grunt previously mentioned needing a disguise. The path forward in the Radio Tower may require obtaining a Rocket uniform to get past the guard, rather than finding the Director. A grunt in the Goldenrod Underground might be the key.
-- **7. Direct Interaction from Correct Entrance:** Entering from the southern entrance and interacting with the TEACHER at (3, 27) does not trigger the transformation.
-- **8. Western Interaction Trigger:** After entering from the western ladder and approaching the TEACHER at (3, 27) from the left, interacting with her yields the dialogue "There are some shops downstairs… But there are also trainers. I'm scared to go down there." and does not trigger the transformation.
-- **8. Defeat All Trainers Trigger:** After exploring the main underground and defeating all accessible trainers, interacting with the TEACHER at (3, 27) does not trigger the transformation. The agent's hypothesis is incorrect.
+    - **7. Direct Interaction from Correct Entrance:** Entering from the southern entrance and interacting with the TEACHER at (3, 27) does not trigger the transformation.
+    - **8. Western Interaction Trigger:** After entering from the western ladder and approaching the TEACHER at (3, 27) from the left, interacting with her yields the dialogue "There are some shops downstairs… But there are also trainers. I'm scared to go down there." and does not trigger the transformation.
+    - **9. Defeat All Trainers Trigger:** After exploring the main underground and defeating all accessible trainers, interacting with the TEACHER at (3, 27) does not trigger the transformation. The agent's hypothesis is incorrect.
+    - **10. Approach from South Trigger:** Approaching the TEACHER at (3, 27) from below at (3, 28) and interacting does not trigger the transformation.
 - **REALITY CHECK AGENT (MANDATORY):** Overwatch confirmed my failure to use the reality_check_agent led to critical navigation hallucinations. I MUST use this tool before planning any significant movement or puzzle-solving action to prevent this recurring error.
 - **MAP VERIFICATION (LESSON):** I must verify my current map ID from the game state before using pathfinding tools. Attempting to plan a path on a map I *think* I'm on, rather than the one I'm *actually* on, leads to critical failures and hallucinations.
 - **DEAD END MARKING (MANDATORY):** After confirming a path is a dead end (either through direct observation or a 'No path found' result from a trusted tool), I MUST immediately place a map marker (e.g., '🚫', 'Dead end confirmed') at the point of blockage. This is a critical data management step to prevent wasting time re-exploring impassable routes. Failure to do so, as on Route 42, is a recurring strategic error.
-
-## 13. Self-Assessment Corrections (Turn 52233)
-- **WARP_CARPET_RIGHT:** (Warp Tile) Two-way, requires facing right. Added to Tile Mechanics for completeness.
 - **SYSTEM STATE TRUST (LESSON):** My internal state tracking (like turn count) can be flawed. I MUST always trust the official Game State Information provided by the system as the absolute source of truth to prevent hallucinations and desynchronization.
 - **Unreachable Unseen Tiles (Goldenrod):** My `find_reachable_unseen_tiles` tool correctly reported no reachable unseen tiles in Goldenrod City. The tool's BFS correctly identified that all unseen tiles are blocked by impassable terrain or are on the other side of warps. I must trust this output, as a 'failure' can be a critical insight confirming a dead end.
 - **METHODICAL TESTING (LESSON):** When solving a puzzle involving interaction, I must systematically test all simple possibilities (e.g., approaching an NPC from all four cardinal directions) before attempting more complex, multi-step hypotheses. Repeating failed simple tests without a clear plan is inefficient and a sign that I'm stuck in a loop.
-- **9. Approach from South Trigger:** Approaching the TEACHER at (3, 27) from below at (3, 28) and interacting does not trigger the transformation.
