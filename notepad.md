@@ -12,9 +12,8 @@
 - GROUND: Traversable, acts as a warp (at map edge).
 
 # Current Plan
-- Goal: Choose Cyndaquil as my starter.
+- Goal: Travel to Mr. Pokémon's house.
 - Steps:
-  1. Clear the current dialogue from Prof. Elm.
-  2. Move from (8, 4) to (6, 4), in front of the Cyndaquil Poké Ball.
-  3. Interact with the Poké Ball at (6, 3).
-  4. When prompted, select 'YES' to choose Cyndaquil.
+  1. Exit Professor Elm's Lab.
+  2. Navigate through Route 29 to Cherrygrove City.
+  3. Find the route leading to Mr. Pokémon's house.
