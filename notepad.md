@@ -186,3 +186,9 @@
 - UNPRODUCTIVE LOOPS (LESSON): I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
 - RADIO TOWER DIRECTOR (NEW HYPOTHESIS): The disguised TEACHER/ROCKET in the underground might be a red herring. The actual solution to get past the guard in the Radio Tower could be to find the real Director somewhere else in Goldenrod City and get a key or password from him.
 - **Buena (Radio Tower 2F):** Mentioned a 'PASSWORD' radio show that airs from six to midnight. Said to 'Tune in, then drop in for a visit!' This is a very strong lead.
+## Radio Tower Radio Puzzle Log
+- **Core Observation:** The PokéGear radio has a 'TUNING...' screen. The goal is to tune into the 'PASSWORD' show.
+- **Failed Hypotheses:**
+    - 1. Pressing 'B' will exit the tuning screen. (Result: Closes the entire PokéGear.)
+    - 2. Pressing 'Up' will change the radio frequency. (Result: System error, not a navigable menu.)
+    - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
