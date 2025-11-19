@@ -471,5 +471,38 @@
         "action_counter": 52270
       }
     ]
+  },
+  "horizontal_menu_navigator": {
+    "description": "A tool to navigate horizontal menus. It takes a list of menu options, the currently selected option, and the target option, then calculates the necessary 'Left' or 'Right' button presses, followed by 'A' to select. Outputs button presses for use with autopress_buttons=true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "current_option": {
+          "type": "string"
+        },
+        "target_option": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "menu_options",
+        "current_option",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef normalize_text(text):\n    return re.sub(r'[^a-zA-Z0-9éÉ\\s]', '', text.strip())\n\ndef navigate():\n    try:\n        try:\n            menu_options_list = json.loads(input_data['menu_options'])\n        except json.JSONDecodeError:\n            menu_options_list = input_data['menu_options']\n        current_option = input_data['current_option']\n        target_option = input_data['target_option']\n    except KeyError as e:\n        print(json.dumps({'error': f'Missing input parameter: {e}'}))\n        return\n\n    normalized_options = [normalize_text(opt) for opt in menu_options_list]\n    normalized_current = normalize_text(current_option)\n    normalized_target = normalize_text(target_option)\n\n    try:\n        current_index = normalized_options.index(normalized_current)\n        target_index = normalized_options.index(normalized_target)\n    except ValueError:\n        print(json.dumps({'error': 'Current or target option not found in menu options.'}))\n        return\n\n    presses = []\n    diff = target_index - current_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.append('Right')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.append('Left')\n    \n    presses.append('A')\n    print(json.dumps(presses))\n\nnavigate()",
+    "history": [
+      {
+        "commit_message": "feat: Create horizontal_menu_navigator tool. This tool complements the existing vertical navigator and directly addresses a gap in my toolkit identified by an overwatch critique. It robustly handles horizontal menu navigation by calculating Left/Right presses and includes an 'A' press for selection, making it a complete, one-call solution for horizontal menus like the PokéGear.",
+        "timestamp": "2025-11-19T07:14:11.454Z",
+        "action_counter": 52381
+      }
+    ]
   }
 }
