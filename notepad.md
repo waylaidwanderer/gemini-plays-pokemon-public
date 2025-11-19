@@ -38,3 +38,6 @@
 
 ## NPCs and Interactions
 - New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
+
+## Route 29
+- Sign at (51, 7): "ROUTE 29 - CHERRYGROVE CITY - NEW BARK TOWN".
