@@ -35,3 +35,6 @@
 
 ## Team
 - Paprika (Cyndaquil) - Lv 5
+
+## NPCs and Interactions
+- New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
