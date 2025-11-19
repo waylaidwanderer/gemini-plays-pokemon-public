@@ -31,3 +31,9 @@
 
 # General Lessons (New Additions)
 - **Verify Orientation:** Before pressing 'A' to interact with an object or NPC, always ensure the player character is directly facing the target tile to prevent failed interactions.
+
+# General Lessons (New Additions)
+- **Dialogue Loops:** If repeatedly pressing 'A' in a conversation does not advance the dialogue and instead creates a loop, try pressing 'B' at different stages (e.g., on the final text box) to act as a 'cancel' command and break the loop.
+
+# Tile Mechanics (New Additions)
+- **LADDER:** A warp tile used for vertical transitions. Move onto the tile to activate the warp.
