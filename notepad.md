@@ -199,3 +199,5 @@
 - **PATHING STRATEGY (LESSON):** Long-distance path plans are unreliable in areas with known NPCs. The pathfinder cannot see off-screen objects, leading to routes that are blocked by newly appeared obstacles. The correct strategy is to plan shorter, line-of-sight paths, re-planning as new areas and objects become visible.
 
 **LADDER MECHANIC UPDATE:** Activated by moving *onto* the ladder tile, not by pressing 'Up' or 'A' on it.
+- **DEFERRED MAINTENANCE (LESSON):** Deferring data maintenance (like placing markers) to a to-do list is a critical failure. All maintenance MUST be performed in the same turn it's identified, as there is no 'later' for an LLM.
+- **LOCATION HALLUCINATION (LESSON):** I must always trust the Game State Information for my current map ID and position over my own memory, especially after a warp. Attempting to plan actions on a hallucinated map leads to critical failures.
