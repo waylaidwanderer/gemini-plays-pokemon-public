@@ -26,3 +26,4 @@
 - **Verify Orientation:** Before pressing 'A' to interact with an object or NPC, always ensure the player character is directly facing the target tile to prevent failed interactions.
 - **Dialogue Loops:** If repeatedly pressing 'A' in a conversation does not advance the dialogue and instead creates a loop, try pressing 'B' at different stages (e.g., on the final text box) to act as a 'cancel' command and break the loop.
 - **Multiple Entrances:** Do not assume a single entrance provides access to an entire puzzle area, especially when the map is visually divided. If one path leads to a dead end, backtrack and search for an alternative entrance.
+- **COUNTER:** Impassable tile. Often placed in front of NPCs, requiring interaction from an adjacent tile.
