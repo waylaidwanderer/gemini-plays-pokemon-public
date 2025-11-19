@@ -14,10 +14,10 @@
 # Current Plan
 - Goal: Travel to Mr. Pokémon's house.
 - Steps:
-  1. Exit Professor Elm's Lab.
-  2. Navigate through Route 29 to Cherrygrove City.
-  3. Find the route leading to Mr. Pokémon's house.
-- Tool: Building 'find_path' to automate navigation.
+  1. Talk to residents in Elm's House.
+  2. Navigate Route 29 to Cherrygrove City.
+  3. Find Mr. Pokémon's house.
+- Tool: 'find_path' is active.
 - TOWN_MAP: Readable, provides location info.
 - Tip: Growlithe found on Route 37 (Radio).
 
