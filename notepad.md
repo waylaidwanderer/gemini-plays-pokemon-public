@@ -130,6 +130,7 @@
 - **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs. (Execution: The tool's output is a JSON object with a 'path' key. To execute the movement, `buttons_to_press` must be set to `["path"]` on the following turn.)
 - **select_move_tool**: Selects a move in battle with correct button presses.
 - **find_reachable_unseen_tiles**: Finds the nearest reachable unseen tile and returns the coordinates of an adjacent seen tile to pathfind to.
+- **horizontal_menu_navigator**: Navigates horizontal menus by calculating Left/Right presses.
 
 ### Custom Agents
 - **reality_check_agent**: Verifies my intended action against the game state to prevent hallucinations.
