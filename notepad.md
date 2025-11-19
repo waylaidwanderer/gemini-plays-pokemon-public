@@ -12,3 +12,4 @@
 - **TV**: Impassable object.
 - **BOOKSHELF**: Impassable object.
 - **WARP_CARPET_DOWN**: A warp tile that likely leads outside or to a lower floor.
+- Day selection menu: UP advances the day, DOWN goes backward.
