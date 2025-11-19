@@ -1,6 +1,8 @@
 # Tile Traversal Notes
 - WALL: Impassable.
 - FLOOR: Traversable.
+- TALL_GRASS: Traversable (Wild Pokemon risk).
+- LONG_GRASS: Traversable (Wild Pokemon risk).
 - STAIRCASE: Traversable, acts as a warp.
 - BOOKSHELF: Impassable.
 - TOWN_MAP: Impassable.
