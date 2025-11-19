@@ -1,18 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Check PC for Potion (Empty)
-- [x] Talk to Mom (Received Pokégear)
-- [x] Explore the rest of the house
-- [ ] Choose Cyndaquil (Fire) - Agent Recommended
+- [x] Choose Cyndaquil (Fire)
+- [ ] Nickname Cyndaquil "Paprika"
+- [ ] Visit Mr. Pokémon
 
 ## Quest Log
 - Game started (Name: GEM).
-- Woke up in room at 10:00 AM.
-- Mom gave me the POKéGEAR. Set day to Sunday, DST.
-- Spotted a suspicious red-haired boy peering into Elm's Lab.
-- Confronted the red-haired boy. He was hostile and pushed me away.
-- Prof. Elm asked me to raise a Pokémon for him.
+- Received Pokégear from Mom.
+- Spotted suspicious red-haired boy at Lab.
+- Prof. Elm gave me a Cyndaquil to raise.
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
@@ -26,7 +23,8 @@
 - SIGN: Read from front, impassable.
 
 ## Strategy Notes
-- Cyndaquil Plan: Focus on Speed/Sp.Atk. Teach ThunderPunch (Goldenrod Dept. Store) for coverage.
+- Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
+- Agent "starter_strategy_advisor" helped pick Cyndaquil.
 
 ## Team
-- Empty
+- Cyndaquil (Lv 5)
