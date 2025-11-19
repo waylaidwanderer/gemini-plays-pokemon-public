@@ -32,3 +32,11 @@
 
 # Strategic Lessons
 - Before committing to a long path, I must verify my assumptions about the traversability of all tiles along the way. Trying to force a path through a tile that seems impassable based on its type or my prior observations is inefficient.
+
+# New Discoveries (Turn 207)
+- **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
+- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left. Impassable from other directions.
+
+# New Lessons Learned (Turn 207)
+- Not all NPCs who block a path are trainers. If interaction leads to looped dialogue instead of a battle, they are likely a non-battling NPC and I should move on.
+- Custom tools are only as good as the data they are built on. I must immediately refine any tool that produces an incorrect result based on new in-game observations.
