@@ -1,1 +1,14 @@
-{}
+{
+  "scan_reachable_unseen": {
+    "description": "Identifies unseen tiles that are reachable from the player's current position using a flood fill algorithm on traversable tiles. Returns a list of coordinates.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef scan_reachable_unseen(input_data):\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        grid = {}\n        unseen_tiles = set()\n        player_pos = None\n        \n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib.get('type', 'WALL')\n                seen = tile.attrib.get('seen', 'false') == 'true'\n                \n                has_obj = tile.attrib.get('has-object') == 'true'\n                if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                    player_pos = (x, y)\n                    has_obj = False\n                \n                grid[(x, y)] = {'type': t_type, 'has_obj': has_obj}\n                if not seen:\n                    unseen_tiles.add((x, y))\n        \n        if not player_pos:\n            print('Player not found')\n            return\n\n        queue = deque([player_pos])\n        visited = {player_pos}\n        reachable_unseen = set()\n        \n        # Whitelist of walkable tiles\n        walkable = {'FLOOR', 'GRASS', 'STAIRCASE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'DOOR'}\n        \n        while queue:\n            cx, cy = queue.popleft()\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in grid:\n                    if (nx, ny) in unseen_tiles:\n                        reachable_unseen.add((nx, ny))\n                    elif (nx, ny) not in visited:\n                        tile = grid[(nx, ny)]\n                        if tile['type'] in walkable and not tile['has_obj']:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n                            \n        print(f\"Reachable Unseen Tiles: {sorted(list(reachable_unseen))}\")\n        \n    except Exception as e:\n        print(f\"Error: {e}\")\n\nscan_reachable_unseen(input_data)",
+    "history": [
+      {
+        "commit_message": "feat: Add scan_reachable_unseen tool to identify reachable unseen tiles for exploration.",
+        "timestamp": "2025-11-19T22:54:46.456Z",
+        "action_counter": 59
+      }
+    ]
+  }
+}
