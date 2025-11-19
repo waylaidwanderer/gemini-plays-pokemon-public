@@ -1,8 +1,2 @@
-# Tile Traversal Notes
-- WALL: Impassable.
-- FLOOR: Traversable.
-- STAIRCASE: Traversable, acts as a warp.
-- BOOKSHELF: Impassable.
-- TOWN_MAP: Impassable.
-- TV: Impassable.
-- WARP_CARPET_DOWN: Traversable, acts as a warp.
+# Quests & Reminders
+- Camper Todd called and challenged me to a battle on Route 34.
