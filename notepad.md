@@ -201,3 +201,4 @@
 
 ## 6. Tile Mechanics
 - **WARP_CARPET_RIGHT:** Two-way warp tile. Requires facing right and pressing 'Right' to activate, transitioning to an adjacent map.
+- **Route 42 (East from Ecruteak):** Confirmed dead end. `plan_path_with_warnings` tool returned 'No path found', confirming that the eastern section is inaccessible from the west due to water and one-way ledges.
