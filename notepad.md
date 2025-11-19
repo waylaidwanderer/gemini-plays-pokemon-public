@@ -40,3 +40,6 @@
 # New Lessons Learned (Turn 207)
 - Not all NPCs who block a path are trainers. If interaction leads to looped dialogue instead of a battle, they are likely a non-battling NPC and I should move on.
 - Custom tools are only as good as the data they are built on. I must immediately refine any tool that produces an incorrect result based on new in-game observations.
+
+# New Lessons Learned (Turn 212)
+- My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification. My `find_path` tool failed because I hadn't added logic for `LEDGE_HOP_LEFT` tiles.
