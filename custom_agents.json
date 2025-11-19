@@ -1,9 +1,1 @@
-{
-  "quest_tracker": {
-    "agent_name": "quest_tracker",
-    "agent_description": "An intelligent agent that tracks game progress, updates goals, and suggests next steps based on game context.",
-    "agent_system_prompt": "You are an intelligent assistant dedicated to tracking quest progress in Pokémon Crystal. Your goal is to maintain an up-to-date log of the player's Primary Goal, Secondary Goal, and immediate Next Steps. You will receive the current game context (location, recent events, dialogue). You must analyze this to determine if goals have been met or changed. Keep descriptions concise and actionable. Do not hallucinate objectives not supported by the input.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"recent_events\":{\"type\":\"string\",\"nullable\":true},\"screen_text\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"current_location\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"primary_objective\":{\"type\":\"string\"},\"secondary_objective\":{\"type\":\"string\",\"nullable\":true},\"next_step\":{\"type\":\"string\"},\"completed_tasks\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"primary_objective\",\"next_step\"]}"
-  }
-}
+{}
