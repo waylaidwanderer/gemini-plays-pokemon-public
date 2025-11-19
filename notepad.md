@@ -6,3 +6,6 @@
 - TOWN_MAP: Impassable.
 - TV: Impassable.
 - WARP_CARPET_DOWN: Traversable, acts as a warp.
+- DOOR: Traversable, acts as a warp.
+- WATER: Impassable.
+- HEADBUTT_TREE: Impassable.
