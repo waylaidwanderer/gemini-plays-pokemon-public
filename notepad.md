@@ -125,7 +125,6 @@
 - **select_battle_option**: Selects a main battle menu option.
 
 ### Custom Tools
-
 - **menu_navigator**: Navigates vertical menus by calculating Up/Down presses.
 - **plan_path_with_warnings**: Plans a path and warns about nearby moving NPCs. (Execution: The tool's output is a JSON object with a 'path' key. To execute the movement, `buttons_to_press` must be set to `["path"]` on the following turn.)
 - **select_move_tool**: Selects a move in battle with correct button presses.
@@ -135,6 +134,8 @@
 - **puzzle_solver_agent**: Suggests the next logical test for a puzzle based on the scientific method.
 - **navigation_strategist**: Provides the next logical navigation step when I'm stuck.
 - **party_strategist_agent**: Recommends an optimal party of three for a specific goal.
+
+### Lessons on Tool & Agent Management
 - **IMMEDIATE MAINTENANCE (LESSON):** Deferring tool/agent fixes or data management (notepad, markers) is a critical failure. Any identified maintenance task MUST be performed in the same turn it is discovered.
 - **NPC BEHAVIOR (LESSON):** Do not make broad assumptions about NPC behavior (e.g., assuming all NPCs of a certain type are static). Verify behavior on a case-by-case basis before encoding it into tools. Favor caution and assume NPCs can move.
 - **TILE MECHANIC VERIFICATION (NEW PROCEDURE):** Upon entering any new map, I MUST systematically verify and document the traversability and mechanics of every single tile type present. This is mandatory to prevent pathing failures caused by incorrect assumptions about the game world.
