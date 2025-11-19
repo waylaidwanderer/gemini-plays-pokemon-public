@@ -19,3 +19,4 @@
   3. Find the route leading to Mr. Pokémon's house.
 - Tool: Building 'find_path' to automate navigation.
 - TOWN_MAP: Readable, provides location info.
+- Anomaly: Stuck at (3, 1) in Neighbor's House. Right (4, 1) and Down (3, 2) movements blocked. Attempting debug with stun_npc and find_path.
