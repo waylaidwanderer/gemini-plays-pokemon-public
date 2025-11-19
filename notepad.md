@@ -16,3 +16,12 @@
 - **DOOR**: A warp tile, likely leading into a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move.
+
+# Current Quest: Find MR. POKEMON
+- **Objective:** Find MR. POKEMON for Professor Elm.
+- **Location:** Past Cherrygrove City.
+- **Plan:**
+    1. Leave Elm's Lab.
+    2. Exit New Bark Town to the west.
+    3. Traverse the route to Cherrygrove City.
+    4. Find MR. POKEMON's house.
