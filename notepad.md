@@ -20,3 +20,6 @@
 
 ## Team
 - Empty
+- DOOR: Entryway to a building.
+- WATER: Impassable terrain requiring Surf.
+- HEADBUTT_TREE: Obstacle similar to a wall.
