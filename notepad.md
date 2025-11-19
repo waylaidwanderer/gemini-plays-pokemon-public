@@ -174,3 +174,4 @@
 - **Hypothesis (from agent):** A hidden switch is on the wall. **Failed Test:** Interacted with wall at (3, 24) from (4, 24). Result: Nothing happened.
 - **Hypothesis (from agent):** A hidden switch is in the SW room. **Failed Test:** Systematically tested every wall tile in the SW room from below. Result: Nothing happened.
 - **Hypothesis (from agent):** A hidden switch is in the SW room. **Failed Test:** Systematically tested every wall tile in the SW room from below. Result: Nothing happened.
+- **Hypothesis 3:** The NPC's appearance is triggered by interacting with her from the western corridor. **Failed Test 3:** Interacted with the TEACHER at (3, 27) from (2, 27). Result: Dialogue was standard, no transformation. Conclusion: Location of interaction is not the sole trigger.
