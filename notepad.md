@@ -194,9 +194,7 @@
     - 2. Pressing 'Up' will change the radio frequency. (Result: System error, not a navigable menu.)
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
-## 11. New Lessons Learned
-- **LOCATION VERIFICATION (CRITICAL):** After any map transition, especially non-standard ones like FLY or phone calls, I MUST verify my current map and coordinates from the Game State Information before planning any navigation. Hallucinating my location (e.g., thinking I was in the Route 31 Gate when I was still in Violet City) is a recurring critical failure.
-- **DEBUGGING STRATEGY (LESSON):** When debugging a tool, if multiple small fixes fail, the root hypothesis about the bug's cause is likely wrong. Use targeted diagnostic prints to test foundational assumptions (e.g., data parsing, variable state) before continuing to tweak surface-level logic. This avoids getting stuck in unproductive debugging loops.
+
 ## 11. New Lessons Learned
 - **TRUST THE TOOLS (LESSON):** If a pathfinding tool returns 'No path found' or `find_reachable_unseen_tiles` returns an error, this is not a tool failure. It is critical information confirming a dead end or that an area is fully explored from the current position. I must trust this output and pivot my strategy immediately instead of questioning the tool.
 
