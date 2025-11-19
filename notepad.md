@@ -181,3 +181,4 @@
 - **MENU DIALOGUE LOOPS (LESSON):** If 'A' only advances text in a loop (e.g., the PokéGear radio), pressing 'B' can be an effective way to back out of the screen and regain control.
 - **RADIO TOWER DIRECTOR (NEW HYPOTHESIS):** The disguised TEACHER/ROCKET in the underground might be a red herring. The actual solution to get past the guard in the Radio Tower could be to find the real Director somewhere else in Goldenrod City and get a key or password from him.
 - **RADIO TUNING MECHANIC (CRITICAL):** The PokéGear radio can be tuned with 'Up' and 'Down' even when station dialogue is on the screen. The system warning about this is a false positive for this specific menu. The dialogue does not lock input.
+    - **13. Radio Trigger:** Tuning the PokéGear radio to the top of the frequency (Team Rocket broadcast) before interacting with the TEACHER does not trigger the transformation.
