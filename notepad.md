@@ -5,3 +5,4 @@
 - BOOKSHELF: Impassable.
 - TOWN_MAP: Impassable.
 - TV: Impassable.
+- WARP_CARPET_DOWN: Traversable, acts as a warp.
