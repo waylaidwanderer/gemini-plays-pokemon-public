@@ -17,7 +17,7 @@
 # Current Plan
 - Goal: Reach Cherrygrove City.
 - Problem: South path blocked at (13, 14). North path blocked by Cut Tree at (21, 11).
-- Plan: Backtrack East to (31, 14), go North through gap at (31, 13), East to x=42, North to Row 8, then West to bypass trees.
+- Plan: Backtrack East to (31, 14), go North through gap at (31, 13), East to x=36, North to Row 8, then West to bypass trees.
 
 # Notes
 - Tip: Growlithe found on Route 37 (Radio).
