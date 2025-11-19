@@ -1,11 +1,11 @@
 # Quests & Reminders
-- Camper Todd called and challenged me to a battle on Route 34.
+- Camper Todd called and challenged me to a battle on Route 34. He also called about a bargain sale at the Goldenrod Department Store.
+- The Teacher in the Goldenrod Flower Shop is worried about her sister who went to see a 'wiggly tree' on Route 36.
 
 # Tile Mechanics
 - **WALL:** Impassable. Acts as a solid barrier.
 - **FLOOR:** Standard traversable ground tile.
 - **WARP_CARPET_DOWN:** A warp tile. Triggers a map transition when the player moves down from an adjacent tile or presses 'Down' while standing on it.
-- The Teacher in the Goldenrod Flower Shop is worried about her sister who went to see a 'wiggly tree' on Route 36.
 - **DOOR:** A warp tile. Triggers a map transition when the player moves onto it.
 
 # Goldenrod Gym Puzzle Notes
@@ -21,4 +21,3 @@
 # General Lessons
 - **Verify Location:** Always confirm current map ID and coordinates from the Game State Information before planning an action, especially after a map transition, to prevent hallucinations.
 - **External Solutions:** If a puzzle seems impossible after systematically testing all internal variables and interactions, the required trigger or item is likely located outside the immediate area. Pivot to broader exploration instead of repeating failed attempts.
-- Camper Todd called about a bargain sale at the Goldenrod Department Store.
