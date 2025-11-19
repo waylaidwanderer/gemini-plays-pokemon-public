@@ -196,3 +196,6 @@
 
 ## CORRECTION TO TILE MECHANICS
 - **FLOOR_UP_WALL:** **TEST COMPLETE.** Confirmed one-way traversal. It is impossible to move UP *from* this tile. Movement DOWN, LEFT, and RIGHT *from* this tile is possible. It is also impossible to move UP *onto* this tile from a tile below it.
+
+## CORRECTION TO TILE MECHANICS
+- **FLOOR_UP_WALL:** **TEST COMPLETE.** Confirmed one-way traversal. It is impossible to move UP *from* this tile. Movement DOWN, LEFT, and RIGHT *from* this tile is possible. It is also impossible to move UP *onto* this tile from a tile below it.
