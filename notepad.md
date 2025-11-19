@@ -4,7 +4,7 @@
 - [x] Check PC for Potion (Empty)
 - [x] Talk to Mom (Received Pokégear)
 - [x] Explore the rest of the house
-- [ ] Get first Pokémon from Prof. Elm
+- [ ] Choose a Starter Pokémon from Prof. Elm
 
 ## Quest Log
 - Game started (Name: GEM).
