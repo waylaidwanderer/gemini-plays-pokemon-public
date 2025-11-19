@@ -1,26 +1,21 @@
-# Tile Traversal Notes
-- WALL: Impassable.
-- FLOOR: Traversable.
-- TALL_GRASS: Traversable (Wild Pokemon risk).
-- LONG_GRASS: Traversable (Wild Pokemon risk).
-- STAIRCASE: Traversable, acts as a warp.
-- BOOKSHELF: Impassable.
-- TOWN_MAP: Impassable.
-- TV: Impassable.
-- WARP_CARPET_DOWN: Traversable, acts as a warp.
-- DOOR: Traversable, acts as a warp.
-- WATER: Impassable.
-- HEADBUTT_TREE: Impassable.
-- GROUND: Traversable, acts as a warp (at map edge).
-- BACKGROUND_OBJECTS: Impassable (Signs, etc.).
+# Tile Traversal Rules
+- Traversable: FLOOR, GROUND, TALL_GRASS, LONG_GRASS, WARP_CARPET_*, DOOR, STAIRCASE, STAIRS.
+- Impassable: WALL, WATER, BOOKSHELF, TV, TOWN_MAP, HEADBUTT_TREE, CUT_TREE, WINDOW, SIGN, PC, MART_SHELF, COUNTER.
+- One-Way: LEDGE_HOP_DOWN (South only), LEDGE_HOP_LEFT (West only), LEDGE_HOP_RIGHT (East only).
+- Note: All Objects (NPCs, Items) are impassable.
 
-# Current Plan
-- Goal: Reach Cherrygrove City.
-- Problem: South path blocked at (13, 14). North path blocked by Cut Tree at (21, 11).
-- Plan: Backtrack East to (31, 14), go North through gap at (31, 13), East to x=36. Then North to Row 7 and West to bypass Cut Tree. Note: Dead End at (13, 14) [Wall]., North to Row 8, then West to bypass trees.
+# Strategic Plan
+- Primary: Earn Zephyr Badge from Falkner in Violet City.
+- Secondary: Reach Cherrygrove City.
+- Immediate: Navigate West along the northern path (Row 7) to bypass the trees and reach the city.
+- Status: South path confirmed dead end. North path (Row 7) appears open.
 
-# Notes
-- Tip: Growlithe found on Route 37 (Radio).
-- Tip: Pokémon hide in the grass (Cooltrainer M, Route 29).
-- Lesson: If movement is blocked on a traversable tile with no visible objects, check for open menus or full-screen interfaces.
-- Defeated L2 Rattata at (33, 7) for 16 XP.
+# Quest Log & Tips
+- Mission: Go to Mr. Pokémon's house (Cherrygrove City).
+- Tip: Growlithe on Route 37 (Radio).
+- Tip: Pokémon hide in grass (Route 29).
+- Battle: Defeated L2 Rattata (Route 29).
+
+# Lessons Learned
+- Check for open menus if movement is inexplicably blocked.
+- Verify tile traversability visually; don't assume based on names.
