@@ -30,3 +30,4 @@
 # Reminders & Untested Hypotheses
 - Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
 - **TALL_GRASS**: Traversable tile where wild POKéMON can be encountered.
+- **LEDGE_HOP_RIGHT**: Likely a one-way tile that can only be traversed by jumping down from the left side.
