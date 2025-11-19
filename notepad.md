@@ -201,3 +201,4 @@
 
 ## 6. Tile Mechanics
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
+- **DEAD END MARKING FAILURE (LESSON):** Overwatch critiqued my failure to place a '🚫' marker on the `DarkCaveBlackthornEntrance` map after confirming it was a dead end. This is a critical data management failure that could lead to wasted time. I MUST mark confirmed dead ends immediately.
