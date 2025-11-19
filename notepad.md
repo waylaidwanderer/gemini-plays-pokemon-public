@@ -7,3 +7,8 @@
 - **WARP_CARPET_DOWN:** A warp tile. Triggers a map transition when the player moves down from an adjacent tile or presses 'Down' while standing on it.
 - The Teacher in the Goldenrod Flower Shop is worried about her sister who went to see a 'wiggly tree' on Route 36.
 - **DOOR:** A warp tile. Triggers a map transition when the player moves onto it.
+
+# Goldenrod Gym Puzzle Notes
+- Hypothesis 1: Interacting with the gym statues will change the maze.
+- Test 1: Moved to (1, 16) and interacted with the statue at (1, 15).
+- Conclusion 1: No change in the maze. Hypothesis is incorrect.
