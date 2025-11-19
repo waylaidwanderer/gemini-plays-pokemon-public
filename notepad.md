@@ -9,3 +9,4 @@
 - DOOR: Traversable, acts as a warp.
 - WATER: Impassable.
 - HEADBUTT_TREE: Impassable.
+- GROUND: Traversable, acts as a warp (at map edge).
