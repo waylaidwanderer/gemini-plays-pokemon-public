@@ -21,3 +21,7 @@
 # General Lessons
 - **Verify Location:** Always confirm current map ID and coordinates from the Game State Information before planning an action, especially after a map transition, to prevent hallucinations.
 - **External Solutions:** If a puzzle seems impossible after systematically testing all internal variables and interactions, the required trigger or item is likely located outside the immediate area. Pivot to broader exploration instead of repeating failed attempts.
+
+# Tile Mechanics (New Additions)
+- **LADDER:** A warp tile. Appears to be a vertical transition point. (Hypothesis: Move onto the tile to use it.)
+- **WARP_CARPET_DOWN:** A warp tile that triggers a map transition when the player presses 'Down' while standing on it to move off the mat.
