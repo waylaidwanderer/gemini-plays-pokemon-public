@@ -172,3 +172,4 @@
 - **Failed Test 2:** Systematically visited the NW, NE, SE, and SW corner rooms. Result: The NPC at (3, 27) remained a TEACHER. Conclusion: Simply visiting the rooms is not the trigger.
 - **TOOL TRUST (LESSON):** I wasted significant time believing my pathfinding tool was faulty when the errors were my own manual pathing mistakes. I must trust my verified tools and rigorously check my own assumptions before attempting to debug them. Deferring tool maintenance is a critical failure; any suspected issue must be investigated and resolved immediately.
 - **Hypothesis (from agent):** A hidden switch is on the wall. **Failed Test:** Interacted with wall at (3, 24) from (4, 24). Result: Nothing happened.
+- **Hypothesis (from agent):** A hidden switch is in the SW room. **Failed Test:** Systematically tested every wall tile in the SW room from below. Result: Nothing happened.
