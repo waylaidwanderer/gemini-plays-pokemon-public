@@ -25,3 +25,9 @@
 # Tile Mechanics (New Additions)
 - **LADDER:** A warp tile. Appears to be a vertical transition point. (Hypothesis: Move onto the tile to use it.)
 - **WARP_CARPET_DOWN:** A warp tile that triggers a map transition when the player presses 'Down' while standing on it to move off the mat.
+
+# Tile Mechanics (New Additions)
+- **COUNTER:** Impassable tile. Often placed in front of NPCs, requiring interaction from an adjacent tile.
+
+# General Lessons (New Additions)
+- **Verify Orientation:** Before pressing 'A' to interact with an object or NPC, always ensure the player character is directly facing the target tile to prevent failed interactions.
