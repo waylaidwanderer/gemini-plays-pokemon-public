@@ -144,7 +144,7 @@
 - Radio Tower 2F Teacher hint: Radio lullabies can put Pokémon to sleep.
 - UNPRODUCTIVE LOOPS (LESSON): I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
 - **Goldenrod City - Team Rocket:** Team Rocket has taken over the Radio Tower. My goal is to find the Director to resolve the situation.
-- **Buena (Radio Tower 2F):** Mentioned a 'PASSWORD' radio show that airs from six to midnight. Said to 'Tune in, then drop in for a visit!' This is a very strong lead.
+
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
 - **PATHING STRATEGY (LESSON):** Long-distance path plans are unreliable in areas with known NPCs. The pathfinder cannot see off-screen objects, leading to routes that are blocked by newly appeared obstacles. The correct strategy is to plan shorter, line-of-sight paths, re-planning as new areas and objects become visible.
 
@@ -152,7 +152,7 @@
 - **DEFERRED MAINTENANCE (LESSON):** Deferring data maintenance (like placing markers) to a to-do list is a critical failure. All maintenance MUST be performed in the same turn it's identified, as there is no 'later' for an LLM.
 - **LOCATION HALLUCINATION (LESSON):** I must always trust the Game State Information for my current map ID and position over my own memory, especially after a warp. Attempting to plan actions on a hallucinated map leads to critical failures.
 - **Proactive Stunning & Unstunning (LESSON):** When an NPC is blocking a path or could potentially block it, stun them. Do not unstun them until you have completely finished all actions in that area and are ready to leave the map, to prevent them from re-blocking your path.
-- **Buena (Radio Tower 2F):** Mentioned a 'PASSWORD' radio show that airs from six to midnight. Said to 'Tune in, then drop in for a visit!' This is a very strong lead.
+
 - **Proactive Stunning & Unstunning (LESSON):** When an NPC is blocking a path or could potentially block it, stun them. Do not unstun them until you have completely finished all actions in that area and are ready to leave the map, to prevent them from re-blocking your path.
 - **IMMEDIATE EXECUTION (LESSON):** Deferring any task, even for one turn, is a critical failure. Maintenance (notepad, markers, tools) MUST be performed in the same turn it's identified. The battle with TODD highlighted this; I should have cleaned my notepad *before* the battle, not during.
 - **MAP VERIFICATION (LESSON):** I must verify my current map ID from the game state before using pathfinding tools. Attempting to plan a path on a map I *think* I'm on, rather than the one I'm *actually* on, leads to critical failures and hallucinations.
