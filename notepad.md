@@ -13,3 +13,6 @@
 - **BOOKSHELF**: Impassable object.
 - **WARP_CARPET_DOWN**: A warp tile that likely leads outside or to a lower floor.
 - Day selection menu: UP advances the day, DOWN goes backward.
+- **DOOR**: A warp tile, likely leading into a building.
+- **WATER**: Impassable terrain without a specific HM (likely Surf).
+- **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move.
