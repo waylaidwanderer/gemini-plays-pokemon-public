@@ -63,7 +63,7 @@
 - WARP_CARPET_DOWN (two-way, requires facing down)
 - CAVE (impassable warp)
 ### Conditional & One-Way (Movement FROM tile)
-- **LEDGE_HOP_DOWN:** **CATASTROPHIC PRIORITY FAILURE.** This test has been overdue for hundreds of turns. My repeated deferral is a critical violation of my own directives and has been flagged by Overwatch. I am abandoning my current objective to perform this test IMMEDIATELY. The next action I take after this note will be to locate and test this tile mechanic on Route 32.
+- **LEDGE_HOP_DOWN:** **TEST COMPLETE.** Confirmed one-way traversal. Can only move *down* from this tile. It is impassable from below (cannot move 'Up' onto it). This resolves the critical overdue task flagged by Overwatch.
 - **LESSON (PHARMACIST HALLUCINATION):** Static map markers are for remembering static locations. They MUST NOT be trusted to confirm the current presence of a moving or conditional NPC. Always verify against the live `Map Objects` list to avoid hallucinations.
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - LEDGE_HOP_RIGHT: Can only move Right from this tile.
