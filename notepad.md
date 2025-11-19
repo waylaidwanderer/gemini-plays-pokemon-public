@@ -7,7 +7,7 @@
 # Strategic Plan
 - Primary: Earn Zephyr Badge from Falkner in Violet City.
 - Secondary: Reach Cherrygrove City.
-- Immediate: Navigate West along the northern path (Row 7) to bypass the trees and reach the city.
+- Immediate: Explore Route 46 Gatehouse, check northern exit, then continue West to Cherrygrove City.
 - Status: South path confirmed dead end. North path (Row 7) appears open.
 
 # Quest Log & Tips
