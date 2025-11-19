@@ -185,3 +185,7 @@
 - **TRUST THE TOOL & GAME FEEDBACK (LESSON):** My pathfinding tool correctly reported 'No path found' on Route 42, which I initially dismissed as a bug. This was a critical failure of trusting my own flawed visual assessment over the tool's data-driven analysis and the game's direct feedback (blocking movement). I MUST trust the tool's output and the game's mechanics, especially when they contradict my perception.
 - **DEAD END MARKING (MANDATORY):** After confirming a path is a dead end (either through direct observation or a 'No path found' result from a trusted tool), I MUST immediately place a map marker (e.g., '🚫', 'Dead end confirmed') at the point of blockage. This is a critical data management step to prevent wasting time re-exploring impassable routes. Failure to do so, as on Route 42, is a recurring strategic error.
 - **TODO:** Correct Goldenrod City warp marker at (18, 35). It should point to Route 34 (8, 0), not (13, 37).
+
+## 13. Self-Assessment Corrections (Turn 52233)
+- **WARP_CARPET_RIGHT:** (Warp Tile) Two-way, requires facing right. Added to Tile Mechanics for completeness.
+- **SYSTEM STATE TRUST (LESSON):** My internal state tracking (like turn count) can be flawed. I MUST always trust the official Game State Information provided by the system as the absolute source of truth to prevent hallucinations and desynchronization.
