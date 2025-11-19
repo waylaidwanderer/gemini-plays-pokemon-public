@@ -198,8 +198,6 @@
 ## 6. Tile Mechanics
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - **DEAD END MARKING FAILURE (LESSON):** Overwatch critiqued my failure to place a '🚫' marker on the `DarkCaveBlackthornEntrance` map after confirming it was a dead end. This is a critical data management failure that could lead to wasted time. I MUST mark confirmed dead ends immediately.
-## 11. New Lessons Learned
-- **UNPRODUCTIVE LOOPS (LESSON):** When a tool or action fails repeatedly with system warnings (e.g., the FLY loop in Violet City), the root cause is likely a fundamental misunderstanding on my part. I must abandon the failing hypothesis immediately instead of repeating the failed action, and pivot to a more reliable, albeit slower, strategy like walking.
 
 ## 6. Tile Mechanics
 - **WARP_CARPET_RIGHT:** Two-way warp tile. Requires facing right and pressing 'Right' to activate, transitioning to an adjacent map.
