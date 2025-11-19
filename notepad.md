@@ -192,3 +192,4 @@
     - 1. Pressing 'B' will exit the tuning screen. (Result: Closes the entire PokéGear.)
     - 2. Pressing 'Up' will change the radio frequency. (Result: System error, not a navigable menu.)
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
+- **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
