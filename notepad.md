@@ -22,3 +22,5 @@
 - Tip: Growlithe found on Route 37 (Radio).
 
 - Lesson: If movement is blocked on a traversable tile with no visible objects, check for open menus or full-screen interfaces (like the Town Map) consuming inputs.
+- Next: Talk to Fisher NPC.
+- Then: Head West to Route 29.
