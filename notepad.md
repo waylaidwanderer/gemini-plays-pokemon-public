@@ -42,3 +42,4 @@
 
 ## Route 29
 - Sign at (51, 7): "ROUTE 29 - CHERRYGROVE CITY - NEW BARK TOWN".
+- TALL_GRASS: Traversable terrain that may contain wild Pokémon.
