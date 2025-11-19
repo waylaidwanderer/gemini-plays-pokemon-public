@@ -14,6 +14,9 @@
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
 - STAIRCASE: Warps between floors.
+- WALL: Impassable obstacle.
+- TV: Impassable object.
+- WARP_CARPET_DOWN: Exits the map downwards.
 
 ## Team
 - Empty
