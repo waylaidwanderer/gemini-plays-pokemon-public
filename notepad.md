@@ -10,6 +10,7 @@
 - Spotted suspicious red-haired boy at Lab.
 - Prof. Elm gave me a Cyndaquil to raise.
 - Nicknamed Cyndaquil "Paprika".
+- Received Potion from Elm's Aide.
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
