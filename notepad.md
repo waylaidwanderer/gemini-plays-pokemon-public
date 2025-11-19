@@ -25,3 +25,7 @@
     2. Exit New Bark Town to the west.
     3. Traverse the route to Cherrygrove City.
     4. Find MR. POKEMON's house.
+- **GRASS**: Traversable tile, likely contains wild POKéMON.
+
+# Reminders & Untested Hypotheses
+- Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
