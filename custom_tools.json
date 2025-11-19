@@ -65,7 +65,7 @@
     ]
   },
   "menu_navigator": {
-    "description": "A general-purpose tool to navigate any vertical menu. It takes the full list of menu options, the currently selected option, and the target option, then calculates the necessary 'Up' or 'Down' button presses. Outputs button presses for use with autopress_buttons=true.",
+    "description": "A general-purpose tool to navigate any vertical menu. It takes the full list of menu options, the currently selected option, and the target option, then calculates the necessary 'Up' or 'Down' button presses, followed by 'A' to select. Outputs button presses for use with autopress_buttons=true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -88,7 +88,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\nimport re\n\ndef navigate_menu():\n    def normalize_text(text):\n        return re.sub(r'[^a-zA-Z0-9]', '', text).lower()\n\n    try:\n        menu_options_raw = input_data.get('menu_options', '[]')\n        try:\n            menu_options = json.loads(menu_options_raw)\n        except json.JSONDecodeError:\n            menu_options = [opt.strip() for opt in menu_options_raw.strip('[]').split(',')]\n            \n        current_option = input_data.get('current_option', '')\n        target_option = input_data.get('target_option', '')\n\n        if not menu_options or not current_option or not target_option:\n            print(json.dumps({'error': 'Missing required arguments.'}))\n            return\n\n        normalized_menu = [normalize_text(opt) for opt in menu_options]\n        normalized_current = normalize_text(current_option)\n        normalized_target = normalize_text(target_option)\n\n        try:\n            current_idx = normalized_menu.index(normalized_current)\n        except ValueError:\n            print(json.dumps({'error': f'Current option \"{current_option}\" not found in menu.'}))\n            return\n\n        try:\n            target_idx = normalized_menu.index(normalized_target)\n        except ValueError:\n            print(json.dumps({'error': f'Target option \"{target_option}\" not found in menu.'}))\n            return\n\n        diff = current_idx - target_idx\n        buttons = []\n        if diff > 0:\n            buttons.extend(['Up'] * diff)\n        elif diff < 0:\n            buttons.extend(['Down'] * abs(diff))\n        \n        print(json.dumps(buttons))\n\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\n\nnavigate_menu()\n",
+    "python_script": "import json\nimport re\n\ndef normalize_text(text):\n    # Strips non-alphanumeric characters and converts to lowercase for robust matching\n    if not isinstance(text, str):\n        return ''\n    return re.sub(r'[^a-zA-Z0-9]', '', text).lower()\n\ntry:\n    try:\n        menu_options = json.loads(input_data['menu_options'])\n    except json.JSONDecodeError:\n        menu_options = eval(input_data['menu_options'])\n        \n    current_option = input_data['current_option']\n    target_option = input_data['target_option']\n\n    normalized_options = [normalize_text(opt) for opt in menu_options]\n    normalized_current = normalize_text(current_option)\n    normalized_target = normalize_text(target_option)\n\n    if normalized_target not in normalized_options:\n        print(json.dumps([]))\n    else:\n        current_idx = -1\n        try:\n            current_idx = normalized_options.index(normalized_current)\n        except ValueError:\n            for i, opt in enumerate(normalized_options):\n                if normalized_current in opt or opt in normalized_current:\n                    current_idx = i\n                    break\n        \n        if current_idx == -1:\n             print(json.dumps([]))\n        else:\n            target_idx = normalized_options.index(normalized_target)\n            diff = target_idx - current_idx\n            \n            buttons = []\n            if diff > 0:\n                buttons = [\"Down\"] * diff\n            elif diff < 0:\n                buttons = [\"Up\"] * abs(diff)\n            \n            buttons.append(\"A\")\n            \n            print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create general menu_navigator tool. This tool provides a robust, reusable solution for navigating vertical menus, addressing a recurring issue identified during my mandatory self-reflection. It normalizes text to handle special characters, calculates the optimal Up/Down presses, and includes comprehensive error handling. This will replace ad-hoc manual inputs and make menu interactions more reliable.",
@@ -104,6 +104,11 @@
         "commit_message": "fix: Add text normalization to handle special characters. The tool was failing on menu options with cursors (▶) or special characters (é). This commit adds a `normalize_text` function that strips non-alphanumeric characters and converts to lowercase, making the option matching robust and preventing future crashes.",
         "timestamp": "2025-11-19T13:11:52.332Z",
         "action_counter": 53024
+      },
+      {
+        "commit_message": "feat: Add 'A' press for one-call selection. The tool was inefficient, requiring a separate turn to press 'A' after navigating. This update adds the 'A' press to the end of the button sequence, making it a complete, one-call solution for vertical menu selection and bringing it in line with the functionality of the horizontal navigator.",
+        "timestamp": "2025-11-19T16:12:31.998Z",
+        "action_counter": 53284
       }
     ]
   },

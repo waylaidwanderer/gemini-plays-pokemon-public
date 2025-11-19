@@ -199,7 +199,3 @@
 - **PATHING STRATEGY (LESSON):** Long-distance path plans are unreliable in areas with known NPCs. The pathfinder cannot see off-screen objects, leading to routes that are blocked by newly appeared obstacles. The correct strategy is to plan shorter, line-of-sight paths, re-planning as new areas and objects become visible.
 
 **LADDER MECHANIC UPDATE:** Activated by moving *onto* the ladder tile, not by pressing 'Up' or 'A' on it.
-
-**MARKER TO-DO:**
-- Place '🚪' at GoldenrodUndergroundSwitchRoomEntrances (21, 25).
-- Place '🚫' at GoldenrodUndergroundSwitchRoomEntrances to mark the impassable SUPER_NERD.
