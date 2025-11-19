@@ -32,5 +32,21 @@
         "action_counter": 53
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Analyzes the current map to find unseen tiles that are adjacent to traversable tiles and are reachable from the player's current position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET; import collections; player_pos_str = next(p.get('coordinate') for r in ET.fromstring(map_xml_string).findall('Row') for p in r.findall('Tile') if p.find('Player') is not None); start_x, start_y = map(int, player_pos_str.strip('()').split(', ')); root = ET.fromstring(map_xml_string); width = int(root.get('width')); height = int(root.get('height')); grid = {}; traversable_types = ['FLOOR', 'DOOR', 'WARP_CARPET_DOWN']; for row_elem in root.findall('Row'): y = int(row_elem.get('id')); for tile_elem in row_elem.findall('Tile'): x = int(tile_elem.get('id')); grid[(x, y)] = {'type': tile_elem.get('type'), 'seen': tile_elem.get('seen') == 'true', 'has_object': tile_elem.find('Object') is not None}; queue = collections.deque([(start_x, start_y)]); reachable = set([(start_x, start_y)]); while queue: x, y = queue.popleft(); for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]: nx, ny = x + dx, y + dy; if (nx, ny) in grid and (nx, ny) not in reachable: tile_info = grid[(nx, ny)]; if tile_info['type'] in traversable_types and not tile_info['has_object']: reachable.add((nx, ny)); queue.append((nx, ny)); reachable_unseen = []; for x_coord in range(1, width + 1): for y_coord in range(1, height + 1): if not grid[(x_coord, y_coord)]['seen']: for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]: nx, ny = x_coord + dx, y_coord + dy; if (nx, ny) in reachable: reachable_unseen.append({'x': x_coord, 'y': y_coord}); break; print(reachable_unseen)",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This automates the process of identifying explorable areas, addressing a key point from my self-reflection and improving exploration efficiency.",
+        "timestamp": "2025-11-19T20:35:15.576Z",
+        "action_counter": 103
+      }
+    ]
   }
 }

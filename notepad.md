@@ -17,3 +17,7 @@
 - Conclusion 2: No change in the maze. Hypothesis is incorrect. The statues seem to be purely decorative.
 - Hypothesis 3: The correct path follows the flower outline on the floor. I will attempt to navigate to the start of this path.
 - Conclusion 3: Hypothesis failed. The pathfinder confirmed the flower path leads to a dead end.
+
+# General Lessons
+- **Verify Location:** Always confirm current map ID and coordinates from the Game State Information before planning an action, especially after a map transition, to prevent hallucinations.
+- **External Solutions:** If a puzzle seems impossible after systematically testing all internal variables and interactions, the required trigger or item is likely located outside the immediate area. Pivot to broader exploration instead of repeating failed attempts.
