@@ -70,6 +70,7 @@
 - LEDGE_HOP_RIGHT: Can only move Right from this tile.
 - **FLOOR_UP_WALL:** **TEST COMPLETE.** Confirmed one-way traversal. It is impossible to move UP *from* this tile. Movement DOWN, LEFT, and RIGHT *from* this tile is possible. It is also impossible to move UP *onto* this tile from a tile below it.
 - WATER (impassable without SURF)
+- **WARP_CARPET_RIGHT:** Two-way warp tile. Requires facing right and pressing 'Right' to activate, transitioning to an adjacent map.
 
 ## 7. Gym Leaders
 - **Jasmine (Olivine City):** Uses Steel-type Pokémon.
