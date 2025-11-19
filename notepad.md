@@ -193,3 +193,6 @@
     - 2. Pressing 'Up' will change the radio frequency. (Result: System error, not a navigable menu.)
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
+
+## CORRECTION TO TILE MECHANICS
+- **FLOOR_UP_WALL:** **TEST COMPLETE.** Confirmed one-way traversal. It is impossible to move UP *from* this tile. Movement DOWN, LEFT, and RIGHT *from* this tile is possible. It is also impossible to move UP *onto* this tile from a tile below it.
