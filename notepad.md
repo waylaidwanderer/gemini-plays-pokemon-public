@@ -161,3 +161,4 @@
 ## 12. Newest Lessons & Hypotheses
 - **MINIGAME FOCUS (LESSON):** Do not get bogged down in non-essential minigames (like the Card Flip game) unless there is a strong, explicit clue pointing to their importance for quest progression. It was a waste of time and coins.
 - **ROCKET DISGUISE (NEW HYPOTHESIS):** A Rocket Grunt previously mentioned needing a disguise. The path forward in the Radio Tower may require obtaining a Rocket uniform to get past the guard, rather than finding the Director. A grunt in the Goldenrod Underground might be the key.
+- **UNPRODUCTIVE LOOPS (LESSON):** I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
