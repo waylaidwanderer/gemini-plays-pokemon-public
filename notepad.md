@@ -173,3 +173,4 @@
     - **5. Eastern Interaction Trigger:** Interacting with the TEACHER from the eastern corridor at (4, 27) does not trigger the transformation.
 - **Current Hypothesis (Complex Action):**
     - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC will trigger the transformation. This test is currently in progress.
+    - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC does not trigger the transformation.
