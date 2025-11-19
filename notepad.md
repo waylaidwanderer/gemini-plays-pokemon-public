@@ -1,15 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Start the game
+- [ ] Check PC for Potion
+- [ ] Get first Pokémon from Prof. Elm
 
 ## Quest Log
-- Started game, selected female character.
-- Setting the clock.
-
-## Game Mechanics Observed
-- None yet.
+- Game started (Name: GEM).
+- Woke up in room at 10:00 AM.
 
 ## Team
-- None
-- Game officially started at 10:00 AM.
+- Empty
