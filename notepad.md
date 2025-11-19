@@ -4,13 +4,15 @@
 - [x] Check PC for Potion (Empty)
 - [x] Talk to Mom (Received Pokégear)
 - [x] Explore the rest of the house
-- [ ] Choose a Starter Pokémon from Prof. Elm
+- [ ] Choose Cyndaquil (Fire) - Agent Recommended
 
 ## Quest Log
 - Game started (Name: GEM).
 - Woke up in room at 10:00 AM.
 - Mom gave me the POKéGEAR. Set day to Sunday, DST.
 - Spotted a suspicious red-haired boy peering into Elm's Lab.
+- Confronted the red-haired boy. He was hostile and pushed me away.
+- Prof. Elm asked me to raise a Pokémon for him.
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
@@ -21,7 +23,10 @@
 - DOOR: Entryway to a building.
 - WATER: Impassable terrain requiring Surf.
 - HEADBUTT_TREE: Obstacle similar to a wall.
+- SIGN: Read from front, impassable.
+
+## Strategy Notes
+- Cyndaquil Plan: Focus on Speed/Sp.Atk. Teach ThunderPunch (Goldenrod Dept. Store) for coverage.
 
 ## Team
 - Empty
-- Confronted the red-haired boy. He was hostile and pushed me away.
