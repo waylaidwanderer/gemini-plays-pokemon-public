@@ -26,5 +26,34 @@
         "action_counter": 92
       }
     ]
+  },
+  "interact_direction": {
+    "description": "Turns the player to face a specified direction and then presses 'A' to interact. Useful for checking objects or NPCs without moving onto their tile.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ],
+          "description": "The direction to face and interact with."
+        }
+      },
+      "required": [
+        "direction"
+      ]
+    },
+    "python_script": "import json\ndirection = input_data['direction']\n# Output the sequence: Face direction, wait, press A\nprint(json.dumps([direction, \"sleep 500\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Add interact_direction tool to combine facing and interacting in one turn.",
+        "timestamp": "2025-11-19T20:50:03.515Z",
+        "action_counter": 135
+      }
+    ]
   }
 }
