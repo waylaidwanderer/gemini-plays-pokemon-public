@@ -196,3 +196,4 @@
     - 2. Pressing 'Up' will change the radio frequency. (Result: System error, not a navigable menu.)
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
+- **PATHING STRATEGY (LESSON):** Long-distance path plans are unreliable in areas with known NPCs. The pathfinder cannot see off-screen objects, leading to routes that are blocked by newly appeared obstacles. The correct strategy is to plan shorter, line-of-sight paths, re-planning as new areas and objects become visible.
