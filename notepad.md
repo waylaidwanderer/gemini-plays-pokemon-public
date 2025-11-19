@@ -169,4 +169,4 @@
 - **Hypothesis 1:** The NPC's appearance is tied to my location within the maze. Being on the east side triggers the `ROCKET` sprite.
 - **Failed Test 1:** Returned to the eastern corridor at `(8, 26)`. The NPC at (3, 27) remained a `TEACHER`. Conclusion: Location alone is not the trigger.
 - **Hypothesis 2:** The NPC's appearance is triggered by entering all four corner rooms of the maze.
-- **Test 2:** Systematically visit the SE and SW corner rooms and observe the NPC at (3, 27). Starting with the SE room.
+- **Failed Test 2:** Systematically visited the NW, NE, SE, and SW corner rooms. Result: The NPC at (3, 27) remained a TEACHER. Conclusion: Simply visiting the rooms is not the trigger.
