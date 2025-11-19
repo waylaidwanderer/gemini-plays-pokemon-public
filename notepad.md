@@ -195,9 +195,6 @@
     - 3. Pressing 'A' will interact with the tuning screen. (Result: No change, returns to the same screen.)
 - **HM USAGE (LESSON):** The `path` command is for walking only and does not automatically use HMs like SURF. To use SURF, I must manually select the move from the Pokémon's menu while facing a body of water.
 
-## 11. New Lessons Learned
-- **TRUST THE TOOLS (LESSON):** If a pathfinding tool returns 'No path found' or `find_reachable_unseen_tiles` returns an error, this is not a tool failure. It is critical information confirming a dead end or that an area is fully explored from the current position. I must trust this output and pivot my strategy immediately instead of questioning the tool.
-
 ## 6. Tile Mechanics
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - **DEAD END MARKING FAILURE (LESSON):** Overwatch critiqued my failure to place a '🚫' marker on the `DarkCaveBlackthornEntrance` map after confirming it was a dead end. This is a critical data management failure that could lead to wasted time. I MUST mark confirmed dead ends immediately.
