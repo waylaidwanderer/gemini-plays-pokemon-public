@@ -15,10 +15,8 @@
 # Current Plan
 - Goal: Travel to Mr. Pokémon's house.
 - Steps:
-  1. Finish conversation with Fisher.
-  2. Head West to Route 29.
-  3. Travel to Cherrygrove City.
-  4. Find Mr. Pokémon's house.
+  1. Traverse Route 29 to Cherrygrove City.
+  2. Find Mr. Pokémon's house.
 
 # Notes
 - Tip: Growlithe found on Route 37 (Radio).
