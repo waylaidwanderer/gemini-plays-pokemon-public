@@ -1,15 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Choose Cyndaquil (Fire)
-- [ ] Nickname Cyndaquil "Paprika"
-- [ ] Visit Mr. Pokémon
+- [ ] Visit Mr. Pokémon (Primary)
+- [ ] Travel to Cherrygrove City (Secondary)
 
 ## Quest Log
 - Game started (Name: GEM).
 - Received Pokégear from Mom.
 - Spotted suspicious red-haired boy at Lab.
 - Prof. Elm gave me a Cyndaquil to raise.
+- Nicknamed Cyndaquil "Paprika".
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
@@ -21,14 +21,16 @@
 - WATER: Impassable terrain requiring Surf.
 - HEADBUTT_TREE: Obstacle similar to a wall.
 - SIGN: Read from front, impassable.
-
-## Strategy Notes
-- Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
-- Agent "starter_strategy_advisor" helped pick Cyndaquil.
-
-## Team
-- Cyndaquil (Lv 5)
 - PC: Impassable object, interact from front.
 - TRASHCAN: Impassable object.
 - OBJECTTYPE_SCRIPT: Impassable object (NPCs, Balls).
+- BOOKSHELF: Impassable object, likely contains text.
+- WINDOW: Impassable scenery.
+- TRAVEL_TIP: Impassable object, likely contains text.
 - Keyboard: Use 'lower' to switch case.
+
+## Strategy Notes
+- Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
+
+## Team
+- Paprika (Cyndaquil) - Lv 5
