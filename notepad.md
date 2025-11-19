@@ -163,3 +163,8 @@
 - **ROCKET DISGUISE (NEW HYPOTHESIS):** A Rocket Grunt previously mentioned needing a disguise. The path forward in the Radio Tower may require obtaining a Rocket uniform to get past the guard, rather than finding the Director. A grunt in the Goldenrod Underground might be the key.
 - **UNPRODUCTIVE LOOPS (LESSON):** I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
 - **HALLUCINATED INTERACTABLES:** The wall decorations in the Goldenrod Underground Switch rooms are NOT interactable switches. My systematic plan to test them was based on a complete hallucination. I must rely only on confirmed interactable objects from the game state.
+### Goldenrod Underground Switch Room Puzzle
+- **Observation 1:** The NPC at (3, 27) appears as a `TEACHER` when I am in the western corridor.
+- **Observation 2:** The NPC at (3, 27) appeared as a `ROCKET` when I was in the eastern corridor (verified via `ScreensDuringMovement` log from turn 51753).
+- **Hypothesis 1:** The NPC's appearance is tied to my location within the maze. Being on the east side triggers the `ROCKET` sprite.
+- **Test 1:** Return to the eastern corridor (e.g., to `(8, 26)`) and observe the NPC at (3, 27).
