@@ -158,3 +158,4 @@
 - **MAP VERIFICATION (LESSON):** I must verify my current map ID from the game state before using pathfinding tools. Attempting to plan a path on a map I *think* I'm on, rather than the one I'm *actually* on, leads to critical failures and hallucinations.
 - **PATHING TARGET VERIFICATION (LESSON):** Before planning a path to an object, I MUST verify that the target coordinates are for an adjacent, traversable tile (like FLOOR), not the impassable object tile itself (like COUNTER or WALL). This prevents pathing failures and wasted turns.
 - **unknown:** A patterned floor tile found in the Goldenrod Underground. It is fully traversable.
+- **unknown:** A patterned floor tile found in the Goldenrod Underground. It is fully traversable.
