@@ -8,7 +8,7 @@
 - Primary: Earn Zephyr Badge from Falkner in Violet City.
 - Secondary: Reach Cherrygrove City.
 - Immediate: Explore Route 46 Gatehouse, check northern exit, then continue West to Cherrygrove City.
-- Status: South path confirmed dead end. North path (Row 7) appears open.
+- Status: Inside Route 46 Gatehouse. Talking to Youngster and Officer.
 
 # Quest Log & Tips
 - Mission: Go to Mr. Pokémon's house (Cherrygrove City).
