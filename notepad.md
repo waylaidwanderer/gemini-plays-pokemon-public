@@ -207,3 +207,7 @@
 
 ## 6. Tile Mechanics
 - **WARP_CARPET_RIGHT:** Two-way warp tile. Requires facing right and pressing 'Right' to activate, transitioning to an adjacent map.
+## 11. New Lessons Learned (from Overwatch Critique #52921)
+- **REALITY CHECK (MANDATORY):** My failure to use the `reality_check_agent` during the FLY loop was a critical error that directly caused me to be stuck for over 15 turns. I MUST follow my own mandatory procedure to prevent this kind of hallucination.
+- **TOOL TRUST (MANDATORY):** I must trust my own automation. After my `select_battle_option` tool failed (due to my own timing error), I reverted to manual inputs instead of correctly re-calling the tool. This is inefficient and a regression. Trust the tools, fix them if they're broken, but don't abandon them.
+- **DATA URGENCY (MANDATORY):** All data management, especially marking dead ends, must be performed IMMEDIATELY upon discovery. My delay in marking the Dark Cave dead end was a critical failure that could lead to future wasted time.
