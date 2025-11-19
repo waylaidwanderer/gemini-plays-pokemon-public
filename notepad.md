@@ -187,7 +187,7 @@
 - **UNPRODUCTIVE LOOPS & ROOT HYPOTHESIS (LESSON):** I spent over 50 turns on the TEACHER/ROCKET NPC puzzle based on the root hypothesis that she was the solution. After exhausting all logical tests with no progress, I must recognize this as an unproductive loop. The correct action is to abandon the root hypothesis and pivot to an alternative (e.g., the NPC is a red herring). I will now search Goldenrod City for the real Radio Tower Director.
 - Radio Tower 2F Teacher hint: Radio lullabies can put Pokémon to sleep.
 - UNPRODUCTIVE LOOPS (LESSON): I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
-- **Goldenrod City - Team Rocket:** The Radio Tower investigation is a confirmed dead end. Both Buena's 'PASSWORD' show and all associated NPCs (disguised TEACHER, etc.) yielded no progress. My new primary lead is the locked door in the Goldenrod Underground at (18, 6).
+- **Goldenrod City - Team Rocket:** Team Rocket has taken over the Radio Tower. My goal is to find the Director to resolve the situation.
 - **Buena (Radio Tower 2F):** Mentioned a 'PASSWORD' radio show that airs from six to midnight. Said to 'Tune in, then drop in for a visit!' This is a very strong lead.
 ## Radio Tower Radio Puzzle Log
 - **Core Observation:** The PokéGear radio has a 'TUNING...' screen. The goal is to tune into the 'PASSWORD' show.
