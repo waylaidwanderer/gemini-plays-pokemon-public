@@ -68,7 +68,7 @@
 - **LESSON (PHARMACIST HALLUCINATION):** Static map markers are for remembering static locations. They MUST NOT be trusted to confirm the current presence of a moving or conditional NPC. Always verify against the live `Map Objects` list to avoid hallucinations.
 - LEDGE_HOP_LEFT: Can only move Left from this tile.
 - LEDGE_HOP_RIGHT: Can only move Right from this tile.
-- **FLOOR_UP_WALL:** This tile type acts as a one-way ledge. Based on testing at (21, 28), it is impossible to move UP from this tile to the tile above. Sideways movement (left/right) is possible. Movement DOWN from this tile is also possible. The name implies you cannot move UP *onto* this tile from below, which is consistent with the ledge behavior.
+- **FLOOR_UP_WALL:** **TEST COMPLETE.** Confirmed one-way traversal. It is impossible to move UP *from* this tile. Movement DOWN, LEFT, and RIGHT *from* this tile is possible. It is also impossible to move UP *onto* this tile from a tile below it.
 - WATER (impassable without SURF)
 
 ## 7. Gym Leaders
