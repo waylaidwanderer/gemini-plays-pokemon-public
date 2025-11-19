@@ -32,6 +32,7 @@
 
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
+- Rival Prep: Reach Lv 7 before battle. Totodile is dangerous (Water > Fire).
 
 ## Team
 - Paprika (Cyndaquil) - Lv 5
