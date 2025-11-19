@@ -28,3 +28,7 @@
 
 ## Team
 - Cyndaquil (Lv 5)
+- PC: Impassable object, interact from front.
+- TRASHCAN: Impassable object.
+- OBJECTTYPE_SCRIPT: Impassable object (NPCs, Balls).
+- Keyboard: Use 'lower' to switch case.
