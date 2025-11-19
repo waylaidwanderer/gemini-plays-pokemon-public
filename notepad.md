@@ -188,3 +188,5 @@
 ## 13. Self-Assessment Corrections (Turn 52233)
 - **WARP_CARPET_RIGHT:** (Warp Tile) Two-way, requires facing right. Added to Tile Mechanics for completeness.
 - **SYSTEM STATE TRUST (LESSON):** My internal state tracking (like turn count) can be flawed. I MUST always trust the official Game State Information provided by the system as the absolute source of truth to prevent hallucinations and desynchronization.
+## Exploration & Tool Insights
+- **Unreachable Unseen Tiles (Goldenrod):** My `find_reachable_unseen_tiles` tool has repeatedly and correctly reported that there are no reachable unseen tiles in Goldenrod City. This is not a bug; the tool's BFS is correctly identifying that all unseen tiles are blocked by water, walls, or are on the other side of warps that the simple search cannot traverse. I must trust this output and not attempt to 'fix' the tool further for this map.
