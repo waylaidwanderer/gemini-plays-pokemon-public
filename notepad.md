@@ -12,3 +12,4 @@
 
 ## Team
 - None
+- Game officially started at 10:00 AM.
