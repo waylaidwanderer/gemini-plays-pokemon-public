@@ -395,6 +395,16 @@
         "commit_message": "fix: Correct ledge traversal logic for FLOOR_UP_WALL. The tool was generating invalid paths because it allowed movement *down* onto a `FLOOR_UP_WALL` tile, which in-game testing has repeatedly proven to be an illegal move. This commit re-adds the logic to explicitly forbid this action, correcting the critical pathfinding failure.",
         "timestamp": "2025-11-19T04:57:44.657Z",
         "action_counter": 52107
+      },
+      {
+        "commit_message": "revert: Re-add logic to forbid moving down onto FLOOR_UP_WALL tiles. My previous commit was based on a faulty interpretation of the game's mechanics. In-game testing has definitively shown that moving from a FLOOR tile down onto a FLOOR_UP_WALL tile is an illegal move. This commit reverts the erroneous change and re-implements the correct logic to prevent the pathfinder from generating these invalid paths. Also re-adds debug print statement to diagnose why the tool is failing to find a path even with the correct logic.",
+        "timestamp": "2025-11-19T04:59:07.310Z",
+        "action_counter": 52109
+      },
+      {
+        "commit_message": "refactor: Remove debug print statement. The tool was successfully debugged and the logic for `FLOOR_UP_WALL` was confirmed to be correct. The tool's 'No path found' output was accurate, revealing a dead end in the game map. The temporary print statement is no longer needed. This commit cleans up the code and its output.",
+        "timestamp": "2025-11-19T05:00:49.441Z",
+        "action_counter": 52112
       }
     ]
   },
