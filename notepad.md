@@ -29,3 +29,6 @@
 
 # Reminders & Untested Hypotheses
 - Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
+
+# Strategic Lessons
+- Before committing to a long path, I must verify my assumptions about the traversability of all tiles along the way. Trying to force a path through a tile that seems impassable based on its type or my prior observations is inefficient.
