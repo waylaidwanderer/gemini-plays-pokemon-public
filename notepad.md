@@ -21,3 +21,4 @@
 # General Lessons
 - **Verify Location:** Always confirm current map ID and coordinates from the Game State Information before planning an action, especially after a map transition, to prevent hallucinations.
 - **External Solutions:** If a puzzle seems impossible after systematically testing all internal variables and interactions, the required trigger or item is likely located outside the immediate area. Pivot to broader exploration instead of repeating failed attempts.
+- Camper Todd called about a bargain sale at the Goldenrod Department Store.
