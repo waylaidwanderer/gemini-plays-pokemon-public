@@ -163,17 +163,13 @@
 - **ROCKET DISGUISE (NEW HYPOTHESIS):** A Rocket Grunt previously mentioned needing a disguise. The path forward in the Radio Tower may require obtaining a Rocket uniform to get past the guard, rather than finding the Director. A grunt in the Goldenrod Underground might be the key.
 - **UNPRODUCTIVE LOOPS (LESSON):** I wasted multiple turns trying to edit a notepad entry that was already correct because I failed to read system feedback carefully. I must be more vigilant in analyzing error messages and suggestions to avoid getting stuck in unproductive loops. If an action fails repeatedly, I must stop and re-evaluate the root cause instead of trying the same failed action again.
 - **HALLUCINATED INTERACTABLES:** The wall decorations in the Goldenrod Underground Switch rooms are NOT interactable switches. My systematic plan to test them was based on a complete hallucination. I must rely only on confirmed interactable objects from the game state.
-### Goldenrod Underground Switch Room Puzzle
-- **Observation 1:** The NPC at (3, 27) appears as a `TEACHER` when I am in the western corridor.
-- **Observation 2:** The NPC at (3, 27) appeared as a `ROCKET` when I was in the eastern corridor (verified via `ScreensDuringMovement` log from turn 51753).
-- **Hypothesis 1:** The NPC's appearance is tied to my location within the maze. Being on the east side triggers the `ROCKET` sprite.
-- **Failed Test 1:** Returned to the eastern corridor at `(8, 26)`. The NPC at (3, 27) remained a `TEACHER`. Conclusion: Location alone is not the trigger.
-- **Hypothesis 2:** The NPC's appearance is triggered by entering all four corner rooms of the maze.
-- **Failed Test 2:** Systematically visited the NW, NE, SE, and SW corner rooms. Result: The NPC at (3, 27) remained a TEACHER. Conclusion: Simply visiting the rooms is not the trigger.
-- **TOOL TRUST (LESSON):** I wasted significant time believing my pathfinding tool was faulty when the errors were my own manual pathing mistakes. I must trust my verified tools and rigorously check my own assumptions before attempting to debug them. Deferring tool maintenance is a critical failure; any suspected issue must be investigated and resolved immediately.
-- **Hypothesis (from agent):** A hidden switch is on the wall. **Failed Test:** Interacted with wall at (3, 24) from (4, 24). Result: Nothing happened.
-- **Hypothesis (from agent):** A hidden switch is in the SW room. **Failed Test:** Systematically tested every wall tile in the SW room from below. Result: Nothing happened.
-- **Hypothesis (from agent):** A hidden switch is in the SW room. **Failed Test:** Systematically tested every wall tile in the SW room from below. Result: Nothing happened.
-- **Hypothesis 3:** The NPC's appearance is triggered by interacting with her from the western corridor. **Failed Test 3:** Interacted with the TEACHER at (3, 27) from (2, 27). Result: Dialogue was standard, no transformation. Conclusion: Location of interaction is not the sole trigger.
-- **Hypothesis 4 (from agent):** The NPC's transformation is triggered by approaching her from the eastern corridor. **Failed Test 4:** Moved from off-screen at (8, 27) to (4, 27), directly approaching the TEACHER at (3, 27). Result: The NPC remained a TEACHER. Conclusion: The 'approach vector' from the east is not the trigger.
-- **Hypothesis 5 (from agent):** The NPC's transformation is triggered by interacting with her from the eastern corridor. **Failed Test 5:** Interacted with the TEACHER at (3, 27) from (4, 27). Result: Dialogue was standard, no transformation.
+### Goldenrod Underground Switch Room Puzzle Log
+- **Core Observation:** An NPC at (3, 27) has been observed as both a `TEACHER` and a `ROCKET` grunt. The goal is to consistently trigger the `ROCKET` transformation.
+- **Failed Hypotheses (Simple Actions):**
+    - **1. Location-Based Trigger:** Standing in the eastern corridor at (8, 26) does not trigger the transformation.
+    - **2. Random Room Visit Trigger:** Visiting all four corner rooms in a non-specific order does not trigger the transformation.
+    - **3. Western Interaction Trigger:** Interacting with the TEACHER from the western corridor at (2, 27) does not trigger the transformation.
+    - **4. Eastern Approach Trigger:** Approaching the TEACHER from the eastern corridor (moving from (8, 27) to (4, 27)) does not trigger the transformation.
+    - **5. Eastern Interaction Trigger:** Interacting with the TEACHER from the eastern corridor at (4, 27) does not trigger the transformation.
+- **Current Hypothesis (Complex Action):**
+    - **6. Clockwise Room Visit Sequence:** Visiting the four corner rooms in a specific clockwise order (NW -> NE -> SE -> SW) and then interacting with the NPC will trigger the transformation. This test is currently in progress.
