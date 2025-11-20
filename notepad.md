@@ -2,7 +2,8 @@
 
 ## Current Goals
 - [ ] Travel to Violet City (Primary)
-- [x] Catch a Geodude @ Route 46 (Secondary)
+- [x] Catch a Geodude @ Route 46
+- [ ] Heal Party at Cherrygrove (Secondary)
 - [ ] Train Paprika to Lv 10 (Tertiary)
 
 ## Quest Log
