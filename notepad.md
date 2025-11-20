@@ -2,14 +2,16 @@
 
 ## Current Goals
 - [ ] Defeat Gym Leader Falkner (Primary)
-- [ ] Get HM from Elder (Secondary)
+- [ ] Pick up Item Ball at (14, 1) (Secondary)
 - [ ] Catch Bellsprout (Secondary)
-- [ ] Train Basalt to Lv 6 (Tertiary)
+- [ ] Exit Sprout Tower (Secondary)
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
 - Encountered Rival Silver at Sprout Tower 3F (He used an Escape Rope).
-- Sprout Tower: Defeated Sages Nico, Chow, Edmond, Jin, Neal, Troy.
+- Sprout Tower: Defeated Sages Nico, Chow, Edmond, Jin, Neal, Troy, Li.
+- Sprout Tower: Received HM05 Flash from Elder.
+- Paprika evolved into Quilava!
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
@@ -17,13 +19,14 @@
 - LADDER: Warps between floors.
 
 ## Strategy Notes
-- Team Strategy: Cyndaquil (Speed/Sp.Atk), Geodude (Def vs Flying/Bug).
+- Team Strategy: Quilava (Fire), Geodude (Rock/Ground).
 - Tactics: Smokescreen vs physical attackers.
 - Protocol: Mark NPCs immediately.
+- Sprout Tower 3F Mechanics: Verified FLOOR is traversable. Verified WALL and STATUE are impassable.
 
 ## Sprout Tower
-- Goal: Talk to Elder (3F) for HM.
 - Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F), X Accuracy (2F), Potion (3F - Picked up).
+- Item at (14, 1): Needs pickup.
 - Note: Ladder to 2F is at (10, 14).
 
 ## Route 29
@@ -33,8 +36,6 @@
 ## Route 29/46 Gate
 - Connections: South to Route 29, North to Route 46.
 - NPCs: Officer, Youngster.
-- Officer: "You can't climb ledges. But you can jump down from them to take a shortcut."
-- Youngster: "Different kinds of POKéMON appear past here. If you want to catch them all, you have to look everywhere."
 
 ## Route 46 (Southern Section)
 - Connections: South to Route 29/46 Gate.
@@ -46,6 +47,7 @@
 
 ## Lessons Learned
 - Record new Pokémon discoveries immediately, even during battle.
+- Always verify object existence before interacting.
 
 ## Cherrygrove City
 - Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
@@ -78,4 +80,3 @@
 - Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp).
 - Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
 - Received phone call from Youngster Joey.
-- Sprout Tower 3F Mechanics: Verified FLOOR is traversable. Verified WALL and STATUE are impassable.
