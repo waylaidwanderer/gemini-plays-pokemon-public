@@ -84,14 +84,6 @@
 - Navigation Notes:
   - Path West at (9, 7) is blocked by trees.
   - Must use the crossover at Row 30 to switch sides.
-## Tile Dictionary
-- FLOOR/TALL_GRASS: Traversable. Grass contains wild Pokémon.
-- WALL/CUT_TREE/HEADBUTT_TREE: Impassable obstacles. Cut trees require HM01.
-- WATER: Impassable (requires Surf).
-- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way jumpable ledges.
-- WARP_CARPET_DOWN/UP/LEFT/RIGHT: Map transitions.
-- STAIRS/LADDER/DOOR: Warps.
-- COUNTER/BOOKSHELF/TV/PC/SIGN/WINDOW: Blocking objects.
 
 ## Route 31 Specifics
 - Location: North of Route 30. Leads to Violet City (West).
