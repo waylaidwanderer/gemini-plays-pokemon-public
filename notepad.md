@@ -22,10 +22,9 @@
 - LADDER: Warps between floors.
 
 ## Strategy Notes
-- Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
-- Battle Tactic: Smokescreen reduces accuracy, highly effective against physical attackers.
-- Geodude: Caught! Good defense, useful for first gym (Flying) and second (Bug). Found on Route 46 (North of Route 29).
-- Protocol: Mark NPCs immediately upon discovery to prevent interruptions.
+- Team: Cyndaquil (Speed/Sp.Atk), Geodude (Def vs Flying/Bug).
+- Tactics: Smokescreen vs physical attackers.
+- Protocol: Mark NPCs immediately.
 
 ## Team
 - Paprika (Cyndaquil) - Lv 9 (27/27 HP) (Moves: Tackle, Leer, Smokescreen)
