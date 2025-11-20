@@ -67,17 +67,6 @@
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
 - Normal-type moves have no effect on Ghost-type Pokémon.
 
-# NPC Behavior
-- **Youngster Joey (ID 2)** on Route 30 has been defeated.
-- **Youngster Mikey (ID 5)** on Route 30 has been defeated.
-- **Bug Catcher Don (ID 4)** on Route 30 has been defeated.
-- **Youngster (ID 1)** at (5, 26) on Route 30 is an active trainer.
-- **Youngster (ID 3)** at (5, 23) is a non-battling NPC.
-- **Cooltrainer (ID 10)** at (2, 13) is a non-battling NPC.
-- Youngster Joey can call for rematches. He is waiting on Route 30.
-- **Fisher (ID 1)** at (17, 7) on Route 31 is a non-battling NPC.
-- **Bug Catcher Wade (ID 3)** on Route 31 has been defeated.
-
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
 
