@@ -107,3 +107,5 @@
 - Arrived from Route 30 (South).
 - Connections: South to Route 30, West to Violet City (expected).
 - NPCs: Bug Catcher detected nearby.
+- Found Dark Cave entrance at (34, 5).
+- Spotted item ball at (29, 5).
