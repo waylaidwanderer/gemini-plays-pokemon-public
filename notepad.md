@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Arrive in Violet City & Heal Party
 - [ ] Defeat Gym Leader Falkner (Primary)
-- [ ] Find Sprout Tower (Secondary)
+- [ ] Reach Top of Sprout Tower (Secondary)
+- [ ] Catch Bellsprout (Secondary)
 - [ ] Train Basalt to Lv 6 (Tertiary)
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
-- Reached Sprout Tower 2F.
+- Reached Sprout Tower 2F. Defeated Sage Nico.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
@@ -27,7 +27,9 @@
 ## Sprout Tower
 - Goal: Reach top floor, defeat Sages, find Bellsprout.
 - Mechanics: Central pillar shakes (Teacher).
-- Layout: 1F seems partitioned. Likely need to go up to 2F to cross.
+- Layout: 2F is partitioned by a central wall. Must return to 1F to find a path to the left side of 2F.
+- Progress: Defeated Sage Nico on 2F (Right Side).
+- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F), Poke Ball (2F Left - Unreachable from Right).
 
 ## Route 29
 - Connects New Bark Town and Cherrygrove City.
