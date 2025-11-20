@@ -3,8 +3,8 @@
 
 # Current Quest: Challenge the Violet City Gym
 - **Objective:** Travel to Violet City and defeat the Gym Leader.
-- **Status:** Just finished the catching tutorial on Route 29.
-- **Plan:** Travel west through Route 29 to Cherrygrove City, then north to Route 30 and beyond.
+- **Status:** On Route 30, heading north.
+- **Plan:** Continue north through Route 30 to reach Violet City.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
@@ -20,6 +20,8 @@
 - **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 - **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
+- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
+- **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -44,22 +46,26 @@
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
+- **LADDER**: A traversable warp tile that moves the player between floors.
+- **PC**: *Verification needed.* Likely an interactable object for Pokémon storage.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
 - Poisoned Pokémon lose 1 HP every four steps outside of battle.
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense. Opponents can still land hits.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
+- Bug-type moves (like LEECH LIFE) are not very effective against Fire-types.
 
 # Object Mechanics
 - **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
 
-# Exploration Targets
-- The `check_unseen_reachability` tool has confirmed the following unseen tiles are reachable on Route 29: [[38, 2], [39, 2], [40, 2], [41, 2], [42, 3], [43, 2], [44, 2], [45, 2], [4, 15], [5, 15], [6, 15], [7, 15]]
-
 # NPC Behavior
-- YOUNGSTER (ID 5) on Route 30 has been defeated.
-- YOUNGSTER (ID 1) at (5, 26) on Route 30 is an active trainer.
+- **Youngster Joey (ID 2)** on Route 30 has been defeated.
+- **Youngster Mikey (ID 5)** on Route 30 has been defeated.
+- **Bug Catcher Don (ID 4)** on Route 30 has been defeated.
+- **Youngster (ID 1)** at (5, 26) on Route 30 is an active trainer.
+- **Youngster (ID 3)** at (5, 23) is a non-battling NPC.
+- **Cooltrainer (ID 10)** at (2, 13) is a non-battling NPC.
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
@@ -75,18 +81,6 @@
 - **Hypothesis 4:** Mom's appearance is triggered by attempting to leave New Bark Town. **Result:** Failed. I successfully transitioned to Route 29 without her appearing. I have put this objective on hold.
 
 # Party Status
-- **VULCAN (CYNDAQUIL):** Lv10
+- **VULCAN (CYNDAQUIL):** Lv11
 - **CHRONO (HOOTHOOT):** Lv3
-- **LADDER**: A traversable warp tile that moves the player between floors.
-- **PC**: *Verification needed.* Likely an interactable object for Pokémon storage.
-- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
-
-# Strategic Lessons (Updates)
-- **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
-- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
-
-# Route 30 NPC Interactions
-- Youngster (ID 3) at (5, 23) provides dialogue but does not initiate a battle after three interaction attempts. He is likely a non-battling NPC.
-
-# Route 30 NPC Interactions (Updates)
-- Cooltrainer (ID 10) at (2, 13) is a non-battling NPC.
+- **WEAVER (SPINARAK):** Lv3
