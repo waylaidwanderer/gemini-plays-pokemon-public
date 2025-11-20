@@ -15,5 +15,48 @@
         "action_counter": 153
       }
     ]
+  },
+  "face_and_interact": {
+    "description": "Turns the player to face a specified direction and immediately interacts (presses A). If the player is already facing that direction, it simply presses A to avoid unnecessary movement/collisions.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        },
+        "current_facing": {
+          "type": "string",
+          "enum": [
+            "up",
+            "down",
+            "left",
+            "right"
+          ]
+        }
+      },
+      "required": [
+        "direction",
+        "current_facing"
+      ]
+    },
+    "python_script": "import json\n\ndirection = input_data['direction'].lower()\ncurrent = input_data.get('current_facing', '').lower()\n\nif direction == current:\n    print(json.dumps([\"A\"]))\nelse:\n    # Capitalize first letter for button press\n    btn = direction.capitalize()\n    print(json.dumps([btn, \"sleep 500\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Add face_and_interact tool to combine turning and interacting into a single action, improving efficiency for NPC and object interactions.",
+        "timestamp": "2025-11-20T00:01:17.923Z",
+        "action_counter": 167
+      },
+      {
+        "commit_message": "fix: prevent unnecessary movement when already facing target. Requires `current_facing` argument.",
+        "timestamp": "2025-11-20T00:11:34.994Z",
+        "action_counter": 181
+      }
+    ]
   }
 }

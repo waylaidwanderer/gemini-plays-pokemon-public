@@ -43,3 +43,6 @@
 ## Route 29
 - Sign at (51, 7): "ROUTE 29 - CHERRYGROVE CITY - NEW BARK TOWN".
 - TALL_GRASS: Traversable terrain that may contain wild Pokémon.
+- LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
+- LEDGE_HOP_LEFT: One-way jumpable ledge (West only).
+- LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
