@@ -105,3 +105,5 @@
 - Bypassed Youngster (3, 45).
 - Defeated Youngster at (11, 80).
 - Route 32: Received another call from Joey about his Rattata and a wild Caterpie.
+## Union Cave
+- Entered from Route 32 (17, 3).
