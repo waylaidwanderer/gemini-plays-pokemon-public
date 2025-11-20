@@ -97,3 +97,13 @@
 ## Route 30 Specifics
 - Strategy: Switch-train Basalt manually.
 - Navigation: Use the path at y=7 to cross from East to West.
+## Current Map Tiles (Route 30)
+- FLOOR: Walkable.
+- WALL: Impassable.
+- TALL_GRASS: Wild encounters.
+- CUT_TREE: Impassable (Requires Cut).
+- HEADBUTT_TREE: Impassable (Requires Headbutt).
+- WATER: Impassable (Requires Surf).
+- LEDGE_HOP_DOWN: One-way jump South.
+- DOOR: Warp.
+- WARP_CARPET_DOWN: Exit to Cherrygrove.
