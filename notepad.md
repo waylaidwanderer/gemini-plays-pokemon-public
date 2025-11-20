@@ -25,6 +25,7 @@
 - **Game State Verification:** If a tool fails unexpectedly or an interaction doesn't work, the first step is to verify the game state. I must confirm I am not hallucinating before attempting the action again or debugging the tool.
 - **Item Interaction:** Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
 - **NPC Interactions:** Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger.
+- **Tool Consistency:** I must consistently use my automation tools (like `select_battle_option`) as per the system critique. Manual inputs for automatable tasks are inefficient and error-prone.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -81,6 +82,7 @@
 - **unseen**: An impassable tile that has not yet been explored.
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
 - **LADDER**: A traversable warp tile that moves the player between floors.
+- **FLOOR_UP_WALL**: Impassable from above. Functions like a one-way ledge that can only be traversed from below.
 
 # Party Status
 - **VULCAN (QUILAVA):** Lv16
@@ -99,6 +101,5 @@
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
-- **FLOOR_UP_WALL**: Impassable from above. Functions like a one-way ledge that can only be traversed from below.
 - Received MIRACLE SEED from a trainer on Route 32. It boosts Grass-type moves.
 - **Position Verification:** My internal sense of position can be unreliable and lead to hallucinations. I must always verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction, especially after a map transition.
