@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Defeat Gym Leader Falkner (Primary)
-- [ ] Catch Bellsprout (Tertiary) - Postponed - Postponed
+- [ ] Catch Bellsprout (Tertiary) - Postponed
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
