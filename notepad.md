@@ -18,10 +18,9 @@
 - LADDER: Warps between floors.
 
 ## Strategy Notes
-- Team Strategy: Quilava (Fire), Geodude (Rock/Ground).
+- Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training.
 - Tactics: Smokescreen vs physical attackers.
 - Protocol: Mark NPCs immediately.
-- Sprout Tower 3F Mechanics: Verified FLOOR is traversable. Verified WALL and STATUE are impassable.
 
 ## Sprout Tower
 - Status: Cleared. Defeated Sage Li. Obtained HM05 Flash.
