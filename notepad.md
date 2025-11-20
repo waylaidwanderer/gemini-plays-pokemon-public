@@ -13,11 +13,7 @@
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 
 # Strategic Lessons
-- Trust the provided game state information over my own visual perception.
-- Do not assume a quest is complete without explicit in-game confirmation.
-- When a plan repeatedly fails, I must question my root hypothesis.
-- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
-- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
+
 - Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
 - **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
@@ -87,11 +83,7 @@
 - An Officer mentioned I should visit SPROUT TOWER.
 
 # Strategic Lessons
-- Trust the provided game state information over my own visual perception.
-- Do not assume a quest is complete without explicit in-game confirmation.
-- When a plan repeatedly fails, I must question my root hypothesis.
-- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
-- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
+
 - Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
 - **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
