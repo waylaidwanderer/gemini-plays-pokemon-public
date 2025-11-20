@@ -15,6 +15,7 @@
 - When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools (like `find_path`) to incorporate the new logic. A reactive approach to tool maintenance is inefficient and leads to repeated failures.
 - My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification.
 - Not all NPCs who block a path are trainers. If interaction leads to looped dialogue instead of a battle, they are likely a non-battling NPC and I should move on.
+- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken. I must re-evaluate the map layout.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -23,7 +24,7 @@
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
 - **TV**: An impassable object.
 - **BOOKSHELF**: An impassable object.
-- **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
+- **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor. If normal movement down is blocked, pressing the 'Down' button directly on the tile may trigger the warp.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
@@ -37,21 +38,13 @@
 
 # Reminders & Untested Hypotheses
 - Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
+- Investigate the properties of `LONG_GRASS` tiles when first encountered.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
 
-# Tile Mechanics Update
-- **WARP_CARPET_DOWN**: A traversable warp tile. If normal movement down is blocked, pressing the 'Down' button directly on the tile may trigger the warp.
-
 # Object Mechanics
 - **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
-
-# Reminders & Untested Hypotheses
-- Investigate the properties of `LONG_GRASS` tiles when first encountered.
-
-# Strategic Lessons
-- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken. I must re-evaluate the map layout.
 
 # Exploration Targets
 - The `check_unseen_reachability` tool confirmed the following unseen tiles are reachable:
@@ -60,7 +53,4 @@
   - (10, 9), (9, 10), (11, 9), (9, 11)
 
 # Pokecenter2F Notes
-- The northern rooms on this floor, containing warps at (5,0), (9,0), and (13,2), are inaccessible from the main southern area.
-
-# Tile Mechanics
-- **DOOR**: A traversable warp tile leading into or out of a building.
+- The northern rooms on this floor, containing warps at (5,0), (9,0), and (13,2), are inaccessible from the main southern area. The warp at (13,2) is also blocked by an NPC.
