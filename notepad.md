@@ -38,7 +38,7 @@
 - Rival Prep: Reach Lv 7 before battle. Totodile is dangerous (Water > Fire).
 
 ## Team
-- Paprika (Cyndaquil) - Lv 5
+- Paprika (Cyndaquil) - Lv 6 (Moves: Tackle, Leer, Smokescreen)
 
 ## NPCs and Interactions
 - New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
