@@ -77,3 +77,5 @@
 # Party Status
 - **VULCAN (CYNDAQUIL):** Lv10
 - **CHRONO (HOOTHOOT):** Lv3
+- **LADDER**: *Verification needed.* Appears to be a traversable warp tile between floors.
+- **PC**: *Verification needed.* Likely an interactable object for Pokémon storage.
