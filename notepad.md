@@ -104,3 +104,4 @@
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
+- **FLOOR_UP_WALL**: *Verification needed.*
