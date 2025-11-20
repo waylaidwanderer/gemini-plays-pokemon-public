@@ -7,11 +7,6 @@
 - **Objective:** Locate and challenge the next Gym Leader.
 - **Status:** The Sprout Tower investigation is complete.
 
-# Current Plan: Kyle's House
-1. Complete the trade with the Youngster (Bellsprout for Onix).
-2. Explore the rest of the house.
-3. Exit the house and continue exploring Violet City.
-
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
