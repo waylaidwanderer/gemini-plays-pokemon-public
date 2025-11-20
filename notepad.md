@@ -19,6 +19,7 @@
 - Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
 - **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
+- **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -41,6 +42,8 @@
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
 - **VOID**: Impassable, appears to be an empty space off the edge of the map.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
+- **LONG_GRASS**: *Verification needed.* Likely traversable with wild encounters.
+- **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
