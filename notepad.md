@@ -73,6 +73,5 @@
 - Obstacle: Cooltrainer M (32,8). Dark Cave entrance at (34, 5).
 
 ## Violet City
-- **Key Locations:** PC (31, 25), Academy (30, 17).
-- **Trade:** Bellsprout <-> Onix (Kyle's House). Vital for Falkner.
-- **Gym:** Falkner (Flying). Need Badge.
+- Locations: PC, Gym, Academy.
+- Trade: Bellsprout -> Onix.
