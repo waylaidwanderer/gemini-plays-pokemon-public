@@ -90,3 +90,6 @@
 - WATER: Impassable terrain (requires Surf).
 - HEADBUTT_TREE: Obstacle acting as a wall.
 - Strategy Update: 'swap_party_members' tool is unreliable. Proceeding with manual switch-training for Basalt.
+- WALL: Impassable boundary.
+- WARP_CARPET_DOWN: Map exit.
+- BOOKSHELF/TV/RADIO/WINDOW/TOWN_MAP: Interior objects/furniture.
