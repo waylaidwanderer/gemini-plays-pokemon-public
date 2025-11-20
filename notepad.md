@@ -67,9 +67,6 @@
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
 - Normal-type moves have no effect on Ghost-type Pokémon.
 
-# Object Mechanics
-- **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
-
 # NPC Behavior
 - **Youngster Joey (ID 2)** on Route 30 has been defeated.
 - **Youngster Mikey (ID 5)** on Route 30 has been defeated.
