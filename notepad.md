@@ -98,3 +98,9 @@
   - Old Rod (Obtained in Route 32 Pokémon Center).
 - Navigation:
   - Reached Pokémon Center at (11, 73).
+## Route 32 Log
+- Obtained Old Rod.
+- Declined Slowpoketail Scam.
+- Defeated Youngster Gordon (4, 63).
+- Bypassed Youngster (3, 45).
+- Currently battling Bird Keeper Peter.
