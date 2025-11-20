@@ -80,6 +80,7 @@
 - Trainers:
   - Youngster Joey (Rattata Lv 4) - Defeated.
   - Youngster Mikey (Pidgey Lv 2, Rattata Lv 4) - Defeated.
+  - Bug Catcher Don (Caterpie Lv 3 x2) - Defeated.
 - Wild Pokémon: Caterpie, Pidgey, Weedle, Hoppip, Rattata.
 - Navigation Notes:
   - Path West at (9, 7) is blocked by trees.
