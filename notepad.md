@@ -100,14 +100,7 @@
 - Navigation: Head North to bypass the wall.
 
 ## Violet City
-- **Locations:** 
-  - Pokémon Center (31, 25)
-  - Earl's Pokémon Academy (30, 17)
-  - Kyle's House (6, 5): Trade Bellsprout for Onix (Rock-type, good vs Falkner).
-- **Quests:**
-  - **Primary:** Defeat Gym Leader Falkner (Flying-type).
-  - **Secondary:** Find Sprout Tower (North of city?). Ghosts inside (Immune to Normal).
-- **Lore:**
-  - Team Rocket disbanded 3 years ago.
-  - Bill created the PC system.
-  - Trade Pokémon grow fast but need badges to obey.
+- **Locations:** Pokémon Center (31, 25), Earl's Academy (30, 17), Kyle's House (6, 5).
+- **Trades:** Bellsprout <-> Onix (Kyle's House). Good vs Falkner.
+- **Quests:** Defeat Falkner (Flying), Find Sprout Tower (Ghosts - immune to Normal).
+- **Lore:** Team Rocket disbanded 3y ago. Bill made PC. Traded mons grow fast but need badges.
