@@ -1,19 +1,23 @@
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 
-# Current Quest: Find MR. POKEMON
-- **Objective:** Get the item from MR. POKEMON for Professor Elm.
-- **Status:** Defeated Youngster Joey on Route 30.
-- **Plan:** Continue heading north on Route 30.
+# Current Quest: Return the MYSTERY EGG
+- **Objective:** Get the MYSTERY EGG to Professor Elm.
+- **Status:** Received MYSTERY EGG from MR. POKEMON and POKéDEX from PROF. OAK. Now returning to New Bark Town.
+- **Plan:** Exit MR. POKEMON's house and travel south through Route 30 and Cherrygrove City.
+
+# Key Items
+- **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
+- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 
 # Strategic Lessons
-- Trust the provided game state information (especially the on-screen object list) over my own visual perception. My perception can be flawed, but the data is the source of truth.
-- Do not assume a quest is complete without explicit in-game confirmation (like receiving a key item).
-- When a plan repeatedly fails or seems overly complex, I must question my root hypothesis.
+- Trust the provided game state information over my own visual perception.
+- Do not assume a quest is complete without explicit in-game confirmation.
+- When a plan repeatedly fails, I must question my root hypothesis.
 - When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
 - Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
 - Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
-- **CRITICAL:** Before attempting complex manual interactions with moving NPCs, ALWAYS use the `stun_npc` tool to freeze them. This is far more efficient than manual tracking.
+- **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 
 # Tile Mechanics
@@ -54,3 +58,4 @@
 
 # NPC Behavior
 - YOUNGSTER (ID 5) on Route 30 has been defeated.
+- YOUNGSTER (ID 1) at (5, 26) on Route 30 is an active trainer.
