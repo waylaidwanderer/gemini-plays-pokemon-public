@@ -17,6 +17,7 @@
 - Arrived on Route 30.
 - Found Antidote.
 - Paprika reached Level 7.
+- Received Berry from Pokefan.
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
