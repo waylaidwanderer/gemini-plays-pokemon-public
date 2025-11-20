@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Visit Mr. Pokémon (Primary)
-- [ ] Travel to Cherrygrove City (Secondary)
+- [ ] Heal at Pokémon Center (Secondary)
 
 ## Quest Log
 - Game started (Name: GEM).
