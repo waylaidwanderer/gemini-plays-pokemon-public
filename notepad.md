@@ -2,8 +2,8 @@
 
 ## Current Goals
 - [ ] Travel to Violet City (Primary)
-- [ ] Talk to Mom (Secondary)
-- [ ] Catch a Pokémon (Tertiary)
+- [ ] Catch a Geodude @ Route 46 (Secondary)
+- [ ] Train Paprika to Lv 10 (Tertiary)
 
 ## Quest Log
 - Journey started. Picked Cyndaquil (Paprika).
@@ -12,16 +12,19 @@
 - Delivered Egg to Elm. Accepted Gym Challenge.
 - Identified Rival as SILVER.
 - Received Poké Balls from Aide.
+- Mom enabled money saving.
 
 ## Game Mechanics
+- Saving Money: Mom saves a portion of winnings.
 
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
 - Rival Defeated: Strategy (Smokescreen->Leer->Tackle) worked.
+- Geodude: Good defense, useful for first gym (Flying) and second (Bug). Found on Route 46 (North of Route 29).
 - Protocol: Mark NPCs immediately upon discovery to prevent interruptions.
 
 ## Team
-- Paprika (Cyndaquil) - Lv 7 (Moves: Tackle, Leer, Smokescreen)
+- Paprika (Cyndaquil) - Lv 8 (25/25 HP) (Moves: Tackle, Leer, Smokescreen)
 
 ## NPCs and Interactions
 - New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
@@ -57,7 +60,6 @@
 - Oak tasked me with completing the Pokédex.
 - Mission: Return to Prof. Elm in New Bark Town.
 - Received urgent call from Prof. Elm about a 'disaster'. Returning to Lab immediately.
-- Update: Paprika is fully healed (23/23 HP). Skipping Pokémon Center visit to save time.
 - Defeated Rival (Red-haired boy, Name: ???) in Cherrygrove City.
 - Paprika reached Level 8.
 - Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
