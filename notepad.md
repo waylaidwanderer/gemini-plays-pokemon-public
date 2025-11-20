@@ -43,8 +43,7 @@
 
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
-- Rival Prep: Level 7 reached. Rival has L5 Totodile (Water).
-  - Tactics: Heal in Cherrygrove first. In battle: Smokescreen (Accuracy down) -> Leer (Defense down) -> Tackle.
+- Rival Defeated: Strategy (Smokescreen->Leer->Tackle) worked.
 - Protocol: Mark NPCs immediately upon discovery to prevent interruptions.
 
 ## Team
