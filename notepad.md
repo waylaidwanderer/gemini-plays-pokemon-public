@@ -75,3 +75,6 @@
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
+
+# Game Systems Update
+- Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
