@@ -46,3 +46,7 @@
 
 # New Lessons Learned (Turn 213)
 - My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification. My `find_path` tool failed because I hadn't added logic for `LEDGE_HOP_LEFT` tiles.
+
+# New Tile Mechanics (Turn 236)
+- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
+- **VOID**: Impassable, appears to be an empty space off the edge of the map.
