@@ -28,8 +28,8 @@
 - Protocol: Mark NPCs immediately upon discovery to prevent interruptions.
 
 ## Team
-- Paprika (Cyndaquil) - Lv 8 (25/25 HP) (Moves: Tackle, Leer, Smokescreen)
-- Basalt (Geodude) - Lv 2 (4/14 HP) (Moves: Tackle)
+- Paprika (Cyndaquil) - Lv 9 (27/27 HP) (Moves: Tackle, Leer, Smokescreen)
+- Basalt (Geodude) - Lv 2 (14/14 HP) (Moves: Tackle)
 
 ## NPCs and Interactions
 - New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
