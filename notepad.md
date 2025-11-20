@@ -80,3 +80,7 @@
 - **LADDER**: *Verification needed.* Appears to be a traversable warp tile between floors.
 - **PC**: *Verification needed.* Likely an interactable object for Pokémon storage.
 - **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
+
+# Strategic Lessons (Updates)
+- **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
+- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
