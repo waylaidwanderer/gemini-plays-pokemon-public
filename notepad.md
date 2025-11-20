@@ -36,16 +36,8 @@
 - Layout: 1F seems partitioned. Likely need to go up to 2F to cross.
 
 ## Route 29
-- Sign at (51, 7): "ROUTE 29 - CHERRYGROVE CITY - NEW BARK TOWN".
-- TALL_GRASS: Traversable terrain that may contain wild Pokémon.
-- LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
-- LEDGE_HOP_LEFT: One-way jumpable ledge (West only).
-- LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
-- CUT_TREE: Obstacle requiring HM01 to remove.
-- Lesson: One-way ledges can force backtracking. Always scan for gaps.
-- Blockage: Path West at y=7 blocked by trees at x=22.
-- Blockage: Lower path (y=14) blocked West at x=13.
-- Navigation: Path West at x=15 blocked by ledges at y=2-4. Must go South to y=6+.
+- Connects New Bark Town and Cherrygrove City.
+- One-way ledges force backtracking.
 
 ## Route 29/46 Gate
 - Connections: South to Route 29, North to Route 46.
