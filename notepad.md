@@ -51,3 +51,5 @@
 - LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
 - CUT_TREE: Obstacle requiring HM01 to remove.
 - Lesson: One-way ledges can force backtracking. Always scan for gaps.
+- Blockage: Path West at y=7 blocked by trees at x=22.
+- Blockage: Lower path (y=14) blocked West at x=13.
