@@ -30,12 +30,10 @@
 - Paprika (Cyndaquil) - Lv 9 (27/27 HP) (Moves: Tackle, Leer, Smokescreen)
 - Basalt (Geodude) - Lv 2 (14/14 HP) (Moves: Tackle)
 
-## NPCs and Interactions
-- New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
-- Cherrygrove Guide Gent: Gave tour.
-- Cherrygrove PC Fisher: PC is free.
-- Cherrygrove Pokefan M: Visit Gyms, collect Badges.
-- Cherrygrove Bug Catcher: Wants to be Gym Leader.
+## Sprout Tower
+- Goal: Reach top floor, defeat Sages, find Bellsprout.
+- Mechanics: Central pillar shakes (Teacher).
+- Layout: 1F seems partitioned. Likely need to go up to 2F to cross.
 
 ## Route 29
 - Sign at (51, 7): "ROUTE 29 - CHERRYGROVE CITY - NEW BARK TOWN".
