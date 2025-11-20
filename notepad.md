@@ -115,3 +115,4 @@
 - NPC (Gameboy Kid): Mentions Bill created the PC system.
 - Lass Hint: Sprout Tower has ghosts; Normal moves ineffective.
 - Strategy: Train Paprika to Lv 12 for Ember to counter Ghosts.
+- Trade: Youngster Kyle (Violet City House) wants BELLSPROUT.
