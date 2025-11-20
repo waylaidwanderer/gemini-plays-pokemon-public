@@ -48,13 +48,19 @@
     ]
   },
   "find_interaction_point": {
-    "description": "Calculates the best adjacent tile to stand on to interact with a specific map object. Returns the target coordinates (x, y) and the direction to face. Prioritizes accessible tiles closest to the player.",
+    "description": "Calculates the best adjacent tile to stand on to interact with a specific map object. Supports searching by `object_id` (for sprites) or `object_name` (for background objects). Returns the target coordinates (x, y) and the direction to face.",
     "input_schema": {
       "type": "object",
       "properties": {
         "object_id": {
           "type": "integer",
-          "description": "The ID of the target object."
+          "nullable": true,
+          "description": "The ID of the target object (for sprites)."
+        },
+        "object_name": {
+          "type": "string",
+          "nullable": true,
+          "description": "The name of the target object (for background objects)."
         },
         "player_x": {
           "type": "integer",
@@ -66,17 +72,21 @@
         }
       },
       "required": [
-        "object_id",
         "player_x",
         "player_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport math\nimport json\n\nmap_data = ET.fromstring(map_xml_string)\ntarget_id = int(input_data['object_id'])\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\n\ntarget_obj = None\ntarget_x = -1\ntarget_y = -1\n\n# Find target object\nfor row in map_data.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        # Check for object\n        if tile.get('has-object') == 'true':\n            for obj in tile.findall('Object'):\n                if obj.get('id') and int(obj.get('id')) == target_id:\n                    target_obj = obj\n                    target_x = x\n                    target_y = y\n                    break\n        if target_obj:\n            break\n    if target_obj:\n        break\n\nif not target_obj:\n    print(json.dumps({\"error\": \"Object not found\"}))\n    exit()\n\n# Directions: (dx, dy, face_direction)\ndirections = [\n    (0, -1, \"Down\"),  # Above target, face Down\n    (0, 1, \"Up\"),     # Below target, face Up\n    (-1, 0, \"Right\"), # Left of target, face Right\n    (1, 0, \"Left\")    # Right of target, face Left\n]\n\nbest_spot = None\nmin_dist = float('inf')\n\nfor dx, dy, face in directions:\n    nx, ny = target_x + dx, target_y + dy\n    \n    # Check bounds and traversability\n    is_traversable = False\n    for row in map_data.findall('Row'):\n        if int(row.get('id')) == ny:\n            for tile in row.findall('Tile'):\n                if int(tile.get('id')) == nx:\n                    t_type = tile.get('type')\n                    has_obj = tile.get('has-object') == 'true'\n                    has_player = tile.get('has-player') == 'true'\n                    \n                    # Simple traversability check (can be expanded)\n                    if t_type == 'FLOOR' or t_type == 'GRASS' or t_type == 'SAND':\n                         if not has_obj or has_player: # Allow if player is there, block if other object\n                             is_traversable = True\n                    break\n            break\n    \n    if is_traversable:\n        dist = math.sqrt((nx - player_x)**2 + (ny - player_y)**2)\n        if dist < min_dist:\n            min_dist = dist\n            best_spot = {\"x\": nx, \"y\": ny, \"face\": face}\n\nif best_spot:\n    print(json.dumps(best_spot))\nelse:\n    print(json.dumps({\"error\": \"No accessible adjacent tiles found\"}))",
+    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport xml.etree.ElementTree as ET\nimport math\nimport json\n\nmap_data = ET.fromstring(map_xml_string)\nplayer_x = int(input_data['player_x'])\nplayer_y = int(input_data['player_y'])\n\noid = input_data.get('object_id')\ntarget_id = int(oid) if oid is not None and str(oid).lower() != 'none' and str(oid) != '' else -1\n\noname = input_data.get('object_name')\ntarget_name = str(oname) if oname is not None and str(oname).lower() != 'none' else None\n\ntarget_x = -1\ntarget_y = -1\nfound = False\n\n# Find target object\nfor row in map_data.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        if tile.get('has-object') == 'true':\n            for obj in tile.findall('Object'):\n                # Check ID\n                if target_id != -1 and obj.get('id') and int(obj.get('id')) == target_id:\n                    target_x = x\n                    target_y = y\n                    found = True\n                    break\n                # Check Name\n                if target_name:\n                    name = obj.get('name')\n                    id_name = obj.get('id-name')\n                    if (name and name == target_name) or (id_name and id_name == target_name):\n                        target_x = x\n                        target_y = y\n                        found = True\n                        break\n        if found: break\n    if found: break\n\nif not found:\n    print(json.dumps({\"error\": f\"Object not found. ID: {target_id}, Name: {target_name}\"}))\n    exit()\n\n# Directions: (dx, dy, face_direction)\ndirections = [\n    (0, -1, \"Down\"),  # Above target, face Down\n    (0, 1, \"Up\"),     # Below target, face Up\n    (-1, 0, \"Right\"), # Left of target, face Right\n    (1, 0, \"Left\")    # Right of target, face Left\n]\n\nbest_spot = None\nmin_dist = float('inf')\n\nfor dx, dy, face in directions:\n    nx, ny = target_x + dx, target_y + dy\n    \n    # Check bounds and traversability\n    is_traversable = False\n    for row in map_data.findall('Row'):\n        if int(row.get('id')) == ny:\n            for tile in row.findall('Tile'):\n                if int(tile.get('id')) == nx:\n                    t_type = tile.get('type')\n                    has_obj = tile.get('has-object') == 'true'\n                    has_player = tile.get('has-player') == 'true'\n                    \n                    # Simple traversability check\n                    if t_type in ['FLOOR', 'GRASS', 'SAND']:\n                         if not has_obj or has_player: # Allow if player is there, block if other object\n                             is_traversable = True\n                    break\n            break\n    \n    if is_traversable:\n        dist = math.sqrt((nx - player_x)**2 + (ny - player_y)**2)\n        if dist < min_dist:\n            min_dist = dist\n            best_spot = {\"x\": nx, \"y\": ny, \"face\": face}\n\nif best_spot:\n    print(json.dumps(best_spot))\nelse:\n    print(json.dumps({\"error\": \"No accessible adjacent tiles found\"}))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-11-20T01:27:19.980Z",
         "action_counter": 301
+      },
+      {
+        "commit_message": "fix: Update find_interaction_point to support looking up objects by 'object_name' in addition to 'object_id'. This allows targeting background objects (like computers or signs) that lack numeric IDs.",
+        "timestamp": "2025-11-20T02:46:50.280Z",
+        "action_counter": 421
       }
     ]
   },

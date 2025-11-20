@@ -82,3 +82,4 @@
 - Met Professor Oak and received Pokédex.
 - Oak tasked me with completing the Pokédex.
 - Mission: Return to Prof. Elm in New Bark Town.
+- Received urgent call from Prof. Elm about a 'disaster'. Returning to Lab immediately.
