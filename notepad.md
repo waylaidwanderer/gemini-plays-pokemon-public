@@ -100,3 +100,6 @@
 
 # Tile Mechanics
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
+
+# Violet City Intel
+- An Officer mentioned I should visit SPROUT TOWER.
