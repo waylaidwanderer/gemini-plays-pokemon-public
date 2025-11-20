@@ -89,3 +89,10 @@
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
 - Youngster Joey can call for rematches. He is waiting on Route 30.
 - **Fisher (ID 1)** at (17, 7) on Route 31 is a non-battling NPC.
+
+# Tile Mechanics
+- **CAVE**: A traversable warp tile leading into a cave.
+- **unseen**: An impassable tile that has not yet been explored.
+
+# Strategic Lessons
+- Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
