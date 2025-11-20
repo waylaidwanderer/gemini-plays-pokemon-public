@@ -154,12 +154,22 @@
         "move_name"
       ]
     },
-    "python_script": "import json\nmoves = [\"TACKLE\", \"LEER\", \"SMOKESCREEN\", \"EMBER\"]\ntry:\n    move_index = moves.index(input_data['move_name'])\n    presses = [\"Down\"] * move_index\n    # The menu navigation is split into two turns to avoid system errors.\n    # This turn, we just do the navigation.\n    print(json.dumps(presses))\nexcept ValueError:\n    print(json.dumps([]))",
+    "python_script": "import json\nMOVES = {\"TACKLE\": 0, \"LEER\": 1, \"SMOKESCREEN\": 2, \"EMBER\": 3}\nmove_name = input_data['move_name']\nnum_down_presses = MOVES.get(move_name, 0)\n# Press Up 3 times to guarantee cursor is at the top of the 4-move list\nbuttons = [\"Up\"] * 3 \nbuttons.extend([\"Down\"] * num_down_presses)\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool. This tool automates selecting a move for VULCAN in battle to address critiques about inconsistent manual inputs. It takes a move name, calculates the required 'Down' presses, and outputs them as a JSON array for autopressing. This will improve reliability and efficiency in battles.",
         "timestamp": "2025-11-20T11:58:01.234Z",
         "action_counter": 1661
+      },
+      {
+        "commit_message": "feat: Add 'A' press for confirmation. The tool now automatically confirms the move selection, making it a single-turn action and improving reliability as per system critique.",
+        "timestamp": "2025-11-20T12:07:32.929Z",
+        "action_counter": 1681
+      },
+      {
+        "commit_message": "fix: Add cursor reset logic. The tool now presses 'Up' three times before selecting a move to ensure the cursor starts from a known position (the top of the list). This prevents errors caused by the cursor's position being remembered from a previous turn.",
+        "timestamp": "2025-11-20T12:08:57.563Z",
+        "action_counter": 1683
       }
     ]
   }
