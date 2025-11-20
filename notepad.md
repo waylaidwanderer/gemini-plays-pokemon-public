@@ -109,3 +109,5 @@
 - Locations: Pokémon Center (Healed).
 - Quest: Find Sprout Tower.
 - Lesson: Always set `autopress_buttons: true` when calling custom tools that output button presses.
+- NPC (PC Gentleman): Recalls Team Rocket's defeat 3 years ago.
+- NPC (Gameboy Kid): Mentions Bill created the PC system.
