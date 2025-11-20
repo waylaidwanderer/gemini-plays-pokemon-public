@@ -85,3 +85,4 @@
 - Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
 - Received phone call from Youngster Joey.
 - Defeated Sage Jin (3F). Paprika learned Ember.
+- Battling Sage Neal (3F).
