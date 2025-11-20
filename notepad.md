@@ -78,3 +78,4 @@
 # Custom Tools
 - **find_path**: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
 - **check_unseen_reachability**: Checks which of the known potentially reachable unseen tiles are actually reachable from the player's current position.
+- **select_battle_option**: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
