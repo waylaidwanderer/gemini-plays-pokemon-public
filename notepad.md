@@ -88,3 +88,6 @@
 
 # Strategic Lessons
 - **Position Verification:** Always verify my current position and map against the game state information before planning an action. My memory can be unreliable and lead to hallucinations.
+
+# Consumable Items
+- Received a BITTER BERRY from the tree at (16, 7) on Route 31.
