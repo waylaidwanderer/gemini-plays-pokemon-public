@@ -5,13 +5,15 @@
 
 # Current Quest: Find the Next Gym
 - **Objective:** Locate and challenge the next Gym Leader.
-- **Status:** Just completed Sprout Tower.
+- **Status:** The Sprout Tower investigation is complete.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
+- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
 
 # Strategic Lessons
+- **Automation:** I must trust and consistently use my own tools (like `select_battle_option`) to improve efficiency and reduce errors. Inconsistent use is a failure of strategy.
 - **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief, the error is almost certainly in my foundational understanding (root hypothesis) of the game state, not in the tool itself. I must immediately challenge and test my own assumptions about game mechanics or map layout, rather than attempting to 'fix' a tool that is functioning correctly based on the game's actual rules.
 - **Tool Maintenance:** If a tool produces an incorrect outcome, I must not assume the problem is external. I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
 - **Automation:** I must trust and consistently use my own tools (like `select_battle_option`) to improve efficiency and reduce errors.
