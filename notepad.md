@@ -50,6 +50,7 @@
 ## Route 29/46 Gate
 - Connections: South to Route 29, North to Route 46.
 - NPCs: Officer, Youngster.
+- Officer: "You can't climb ledges. But you can jump down from them to take a shortcut."
 
 ## Cherrygrove City
 - Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
