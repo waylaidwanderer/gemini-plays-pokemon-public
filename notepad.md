@@ -50,8 +50,7 @@
 - **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
 
 # Exploration Targets
-- The `check_unseen_reachability` tool confirmed the following unseen tiles are reachable:
-  - (38, 2), (39, 2), (40, 2), (41, 2), (42, 3), (43, 2), (44, 2), (45, 2)
+- The `check_unseen_reachability` tool has confirmed the following unseen tiles are reachable: [[10, 8], [11, 8], [12, 8], [13, 8], [14, 8], [15, 8], [16, 8], [17, 8], [18, 9], [18, 10], [18, 11], [19, 14], [5, 15], [19, 15], [5, 16], [5, 18], [5, 19], [5, 20], [5, 21], [5, 24], [2, 25], [1, 26], [1, 27], [1, 28], [1, 29], [1, 30], [1, 31], [1, 32], [1, 33], [1, 34], [1, 35], [2, 37], [1, 36], [2, 38], [2, 39], [2, 40], [2, 41]]
   - (11, 6), (11, 7), (11, 8)
   - (10, 9), (9, 10), (11, 9), (9, 11)
 
