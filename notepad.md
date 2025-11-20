@@ -1,9 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Visit Mr. Pokémon (Primary)
-- [x] Heal at Pokémon Center (Checkpoint Set)
-- [ ] Travel North to Route 30 (Secondary)
+- [ ] Return to Professor Elm in New Bark Town (Primary)
+- [x] Visit Mr. Pokémon (Completed)
+- [x] Receive Mystery Egg (Completed)
+- [x] Receive Pokédex (Completed)
 
 ## Quest Log
 - Game started (Name: GEM).
