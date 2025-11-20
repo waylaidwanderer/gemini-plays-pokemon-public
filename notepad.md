@@ -113,3 +113,5 @@
 - Lesson: Always set `autopress_buttons: true` when calling custom tools that output button presses.
 - NPC (PC Gentleman): Recalls Team Rocket's defeat 3 years ago.
 - NPC (Gameboy Kid): Mentions Bill created the PC system.
+- Lass Hint: Sprout Tower has ghosts; Normal moves ineffective.
+- Strategy: Train Paprika to Lv 12 for Ember to counter Ghosts.
