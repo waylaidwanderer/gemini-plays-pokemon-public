@@ -76,7 +76,6 @@
 - Obstacle: Cooltrainer M (32,8). Dark Cave entrance at (34, 5).
 
 ## Violet City
-- **Locations:** Pokémon Center (31, 25), Earl's Academy (30, 17), Kyle's House (6, 5).
-- **Trades:** Bellsprout <-> Onix (Kyle's House). Good vs Falkner.
-- **Quests:** Defeat Falkner (Flying), Find Sprout Tower (Ghosts - immune to Normal).
-- **Lore:** Team Rocket disbanded 3y ago. Bill made PC. Traded mons grow fast but need badges.
+- **Key Locations:** PC (31, 25), Academy (30, 17).
+- **Trade:** Bellsprout <-> Onix (Kyle's House). Vital for Falkner.
+- **Gym:** Falkner (Flying). Need Badge.
