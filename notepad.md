@@ -87,3 +87,4 @@
 - Some map transitions are one-way scripted events. Attempting to move back through them may result in being sent to a different location.
 - My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
+- Youngster Joey can call for rematches. He is waiting on Route 30.
