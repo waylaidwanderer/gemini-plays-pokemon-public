@@ -79,3 +79,4 @@
 - **CHRONO (HOOTHOOT):** Lv3
 - **LADDER**: *Verification needed.* Appears to be a traversable warp tile between floors.
 - **PC**: *Verification needed.* Likely an interactable object for Pokémon storage.
+- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
