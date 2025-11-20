@@ -57,7 +57,7 @@
 - Navigation: Path West at x=15 blocked by ledges at y=2-4. Must go South to y=6+.
 
 ## Cherrygrove City
-- Locations: Poké Mart (17, 7), Pokémon Center (29, 3), Guide Gent's House (25, 9)
+- Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
 - COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
 - LADDER: Warps between floors.
 - Cherrygrove PC Fisher: Confirmed PC storage is free.
