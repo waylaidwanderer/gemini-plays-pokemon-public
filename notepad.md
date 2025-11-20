@@ -105,3 +105,4 @@
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - **FLOOR_UP_WALL**: *Verification needed.*
+- Received MIRACLE SEED from a trainer on Route 32. It boosts Grass-type moves.
