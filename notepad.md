@@ -103,4 +103,4 @@
 - Declined Slowpoketail Scam.
 - Defeated Youngster Gordon (4, 63).
 - Bypassed Youngster (3, 45).
-- Currently battling Bird Keeper Peter.
+- Encountered Youngster at (11, 80).
