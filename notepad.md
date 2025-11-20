@@ -85,11 +85,15 @@
 - Paprika reached Level 8.
 - Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
 - Gap in ledges at (11, 5) allows North/South travel, providing access to the northern path (Column 11).
-## Route 30 Mechanics & Strategy
-- FLOOR: Standard traversable tile.
-- WATER: Impassable terrain (requires Surf).
-- HEADBUTT_TREE: Obstacle acting as a wall.
-- Strategy Update: 'swap_party_members' tool is unreliable. Proceeding with manual switch-training for Basalt.
-- WALL: Impassable boundary.
-- WARP_CARPET_DOWN: Map exit.
-- BOOKSHELF/TV/RADIO/WINDOW/TOWN_MAP: Interior objects/furniture.
+## Tile Dictionary
+- FLOOR/TALL_GRASS: Traversable. Grass contains wild Pokémon.
+- WALL/CUT_TREE/HEADBUTT_TREE: Impassable obstacles. Cut trees require HM01.
+- WATER: Impassable (requires Surf).
+- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way jumpable ledges.
+- WARP_CARPET_DOWN/UP/LEFT/RIGHT: Map transitions.
+- STAIRS/LADDER/DOOR: Warps.
+- COUNTER/BOOKSHELF/TV/PC/SIGN/WINDOW: Blocking objects.
+
+## Route 30 Specifics
+- Strategy: Switch-train Basalt manually.
+- Navigation: Use the path at y=7 to cross from East to West.
