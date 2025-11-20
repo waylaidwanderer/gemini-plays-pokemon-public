@@ -26,6 +26,7 @@
 - **Item Interaction:** Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
 - **NPC Interactions:** Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger.
 - **Tool Consistency:** I must consistently use my automation tools (like `select_battle_option`) as per the system critique. Manual inputs for automatable tasks are inefficient and error-prone.
+- **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -86,7 +87,7 @@
 
 # Party Status
 - **VULCAN (QUILAVA):** Lv16
-- **CHRONO (HOOTHOOT):** Lv3
+- **CHRONO (HOOTHOOT):** Lv4
 - **WEAVER (SPINARAK):** Lv3
 - **EGG (TOGEPI):** Lv5
 - **ROCKY (ONIX):** Lv8
@@ -96,12 +97,7 @@
 # Object Mechanics
 - **TEACHER / LASS / BIRD**: These objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
-- **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
-- **VOID**: Impassable, appears to be an empty space off the edge of the map.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
-- Received MIRACLE SEED from a trainer on Route 32. It boosts Grass-type moves.
-- **Position Verification:** My internal sense of position can be unreliable and lead to hallucinations. I must always verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction, especially after a map transition.
-- **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
-- **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief, the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately challenge my own assumptions about game mechanics or map layout, rather than trying to 'fix' a tool that is functioning correctly.
+- Received MIRACLE SEED from a trainer on Route 32.
