@@ -2,9 +2,10 @@
 
 ## Current Goals
 - [ ] Travel to Violet City (Primary)
-- [x] Catch a Geodude @ Route 46
-- [ ] Heal Party at Cherrygrove (Secondary)
+- [ ] Talk to NPCs in PokeCenter (Secondary)
 - [ ] Train Paprika to Lv 10 (Tertiary)
+- [x] Heal Party at Cherrygrove
+- [x] Catch a Geodude @ Route 46
 
 ## Quest Log
 - Journey started. Picked Cyndaquil (Paprika).
