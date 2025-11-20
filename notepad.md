@@ -20,7 +20,7 @@
 - LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
 - STAIRCASE: Warps between floors.
 - WALL: Impassable obstacle.
-- TV: Impassable object.
+- TV: Object (Acts as WALL).
 - WARP_CARPET_DOWN: Exits the map downwards.
 - DOOR: Entryway to a building.
 - WATER: Impassable terrain requiring Surf.
