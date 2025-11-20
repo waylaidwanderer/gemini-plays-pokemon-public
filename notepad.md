@@ -100,3 +100,4 @@
 
 # Object Mechanics
 - **TEACHER / LASS / BIRD**: These objects are impassable and function as walls.
+- **FRUIT_TREE**: *Verification needed.* An interactable object, likely impassable.
