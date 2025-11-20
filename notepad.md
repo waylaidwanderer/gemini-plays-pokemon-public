@@ -69,3 +69,6 @@
 # New Bark Town Exploration
 - Investigate unmarked warp at (3, 11).
 - Explore unseen areas of the town.
+
+# Reminders & Untested Hypotheses
+- Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
