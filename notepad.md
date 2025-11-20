@@ -21,7 +21,7 @@
 - Protocol: Mark NPCs immediately.
 
 ## Team
-- Paprika (Cyndaquil) - Lv 9 (27/27 HP) (Moves: Tackle, Leer, Smokescreen)
+- Paprika (Cyndaquil) - Lv 10 (25/29 HP) (Moves: Tackle, Leer, Smokescreen)
 - Basalt (Geodude) - Lv 2 (14/14 HP) (Moves: Tackle)
 
 ## Sprout Tower
