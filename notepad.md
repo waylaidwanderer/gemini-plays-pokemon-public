@@ -3,9 +3,9 @@
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 
-# Current Quest: Investigate Sprout Tower
-- **Objective:** Reach the top of Sprout Tower.
-- **Status:** On the first floor, exploring.
+# Current Quest: Find the Next Gym
+- **Objective:** Locate and challenge the next Gym Leader.
+- **Status:** Just completed Sprout Tower.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
