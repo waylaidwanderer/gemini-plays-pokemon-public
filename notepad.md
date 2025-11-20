@@ -2,9 +2,7 @@
 
 ## Current Goals
 - [ ] Defeat Gym Leader Falkner (Primary)
-- [ ] Pick up Item Ball at (14, 1) (Secondary)
-- [ ] Catch Bellsprout (Secondary) - Return after healing - Return after healing
-- [ ] Exit Sprout Tower (Secondary)
+- [ ] Catch Bellsprout (Tertiary) - Postponed
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
