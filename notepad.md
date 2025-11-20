@@ -84,6 +84,3 @@
 
 - My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
 - Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
-
-# Post-Critique Lessons
-- My `select_move` tool failed because it was stateful; it relied on the cursor's previous position. Tools that automate button presses must be stateless, for example, by resetting the cursor to a known position before execution. Deferring tool maintenance is a critical error.
