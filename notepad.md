@@ -58,3 +58,5 @@
 
 ## Cherrygrove City
 - Locations: Poké Mart (17, 7), Pokémon Center (29, 3), Guide Gent's House (25, 9)
+- COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
+- LADDER: Warps between floors.
