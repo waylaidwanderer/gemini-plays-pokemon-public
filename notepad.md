@@ -62,3 +62,6 @@
 - LADDER: Warps between floors.
 - Cherrygrove PC Fisher: Confirmed PC storage is free.
 - Cherrygrove Speech House: Pokefan M advised visiting Gyms and collecting Badges.
+
+## Route 30
+- Wild Pokémon: Caterpie (Lv 4), Pidgey (Lv 3)
