@@ -77,3 +77,4 @@
 - Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp).
 - Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
 - Received phone call from Youngster Joey.
+- Violet Gym: Defeated Bird Keeper Abe (Object 3). Basalt grew to Lv 6, learned Defense Curl.
