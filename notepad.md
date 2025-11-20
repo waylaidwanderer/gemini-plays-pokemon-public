@@ -27,11 +27,11 @@
 - HEADBUTT_TREE: Obstacle similar to a wall.
 - SIGN: Read from front, impassable.
 - PC: Impassable object, interact from front.
-- TRASHCAN: Impassable object.
-- OBJECTTYPE_SCRIPT: Impassable object (NPCs, Balls).
-- BOOKSHELF: Impassable object, likely contains text.
-- WINDOW: Impassable scenery.
-- TRAVEL_TIP: Impassable object, likely contains text.
+- TRASHCAN: Object (Acts as WALL).
+- OBJECTTYPE_SCRIPT: Object (Acts as WALL) (NPCs, Balls).
+- BOOKSHELF: Object (Acts as WALL), likely contains text.
+- WINDOW: Object (Acts as WALL).
+- TRAVEL_TIP: Object (Acts as WALL), likely contains text.
 - Keyboard: Use 'lower' to switch case.
 
 ## Strategy Notes
