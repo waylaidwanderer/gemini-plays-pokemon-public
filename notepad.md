@@ -15,8 +15,7 @@
 # Strategic Lessons
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 - **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
-- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
-- **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
+
 - My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
 - Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
 - Before using `find_path`, visually confirm that the target tile is traversable (e.g., not a WALL).
@@ -82,8 +81,7 @@
 # Strategic Lessons
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 - **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
-- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
-- **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
+
 - My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
 - Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
 
