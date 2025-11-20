@@ -89,3 +89,4 @@
   - Youngster Albert (15, 22) - Rattata Lv 6, Zubat Lv 8.
   - Fisher observed at (15, 13) (Inaccessible behind ledge).
   - Lass (10, 30) facing Left.
+  - Youngster (3, 45).
