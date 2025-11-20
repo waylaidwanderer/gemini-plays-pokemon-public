@@ -78,3 +78,4 @@
 - Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp).
 - Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
 - Received phone call from Youngster Joey.
+- Sprout Tower 3F Mechanics: Verified FLOOR is traversable. Verified WALL and STATUE are impassable.
