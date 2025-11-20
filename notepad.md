@@ -57,3 +57,4 @@
 
 ## Cherrygrove City
 - [ ] Get Map Card from Guide Gent (Tertiary)
+- Locations: Poké Mart (17, 7), Pokémon Center (29, 3)
