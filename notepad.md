@@ -28,9 +28,9 @@
 - Goal: Reach top floor, defeat Sages, find Bellsprout.
 - Mechanics: Central pillar shakes (Teacher).
 - Layout: 2F is partitioned by a central wall. Must return to 1F to find a path to the left side of 2F.
-- Progress: Defeated Sage Nico on 2F (Right Side). Returned to 1F Outer Ring to access 2F Left Side.
-- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F - Picked up), X Accuracy (2F Left - Picked up).
-- Battles: Defeated Sage Chow (1F).
+- Progress: Defeated Sages Nico (2F), Chow (1F), Edmond (2F). Reached 3F.
+- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F - Picked up), X Accuracy (2F Left - Picked up), Poke Ball (3F - Spotted).
+- Battles: Defeated Sage Chow (1F), Sage Edmond (2F).
 
 ## Route 29
 - Connects New Bark Town and Cherrygrove City.
