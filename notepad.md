@@ -85,11 +85,9 @@
   - Path West at (9, 7) is blocked by trees.
   - Must use the crossover at Row 30 to switch sides.
 
-## Route 31 Specifics
-- Location: North of Route 30. Leads to Violet City (West).
-- Geography: Vertical wall at x=22 blocks direct Westward travel. Must go North through grass.
-- Obstacles: Cooltrainer M patrolling (32,8) to (34,9).
-- Navigation: Head North to bypass the wall.
+## Route 31
+- Connects Route 30 to Violet City. Go North through grass to bypass wall.
+- Obstacle: Cooltrainer M (32,8). Dark Cave entrance at (34, 5).
 
 ## Violet City
 - **Locations:** Pokémon Center (31, 25), Earl's Academy (30, 17), Kyle's House (6, 5).
