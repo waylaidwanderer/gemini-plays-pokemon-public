@@ -109,3 +109,6 @@
 
 # Game Systems
 - I must investigate the PC in the Pokémon Center to understand its function.
+
+# Battle Mechanics
+- Normal-type moves have no effect on Ghost-type Pokémon.
