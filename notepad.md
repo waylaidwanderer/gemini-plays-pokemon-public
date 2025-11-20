@@ -95,5 +95,7 @@
 - Items:
   - Item Ball at (6, 53) (Bridge).
 - Navigation:
-  - Currently at (2, 71).
-  - Ledge at (2, 72) blocks South. Must go East towards Fisher.
+  - Reached Pokémon Center at (11, 73).
+  - Encountered Scam Fisher at (7, 70).
+- Key Items:
+  - Old Rod (Obtained in Route 32 Pokémon Center).
