@@ -1,24 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Return to Professor Elm in New Bark Town (Primary)
-- [x] Visit Mr. Pokémon (Completed)
-- [x] Receive Mystery Egg (Completed)
-- [x] Receive Pokédex (Completed)
+- [ ] Travel to Violet City (Primary)
+- [ ] Talk to Mom (Secondary)
+- [ ] Catch a Pokémon (Tertiary)
 
 ## Quest Log
-- Game started (Name: GEM).
-- Received Pokégear from Mom.
-- Spotted suspicious red-haired boy at Lab.
-- Prof. Elm gave me a Cyndaquil to raise.
-- Nicknamed Cyndaquil "Paprika".
-- Received Potion from Elm's Aide.
-- Arrived in Cherrygrove City.
-- Healed at Pokémon Center.
-- Arrived on Route 30.
-- Found Antidote.
-- Paprika reached Level 7.
-- Received Berry from Pokefan.
+- Journey started. Picked Cyndaquil (Paprika).
+- Received Pokedex and Mystery Egg.
+- Defeated Rival Silver.
+- Delivered Egg to Elm. Accepted Gym Challenge.
 
 ## Game Mechanics
 
