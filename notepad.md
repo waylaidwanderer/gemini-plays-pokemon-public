@@ -60,3 +60,4 @@
 - Update: Paprika is fully healed (23/23 HP). Skipping Pokémon Center visit to save time.
 - Defeated Rival (Red-haired boy, Name: ???) in Cherrygrove City.
 - Paprika reached Level 8.
+- Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
