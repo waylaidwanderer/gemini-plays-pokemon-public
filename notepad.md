@@ -87,3 +87,6 @@
 
 # Tool Development Lessons
 - If a tool produces an incorrect outcome, I must not assume the problem is external (e.g., game timing). I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
+
+# Item Interaction
+- Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
