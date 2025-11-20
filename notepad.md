@@ -109,3 +109,4 @@
 - NPCs: Bug Catcher detected nearby.
 - Found Dark Cave entrance at (34, 5).
 - Picked up Potion at (29, 5).
+- Lesson: Always set `autopress_buttons: true` when calling custom tools that output button presses.
