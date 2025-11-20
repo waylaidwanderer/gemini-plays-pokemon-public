@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Reach Azalea Town (Primary)
-- [ ] Obtain the Mystery Egg (Secondary)
+- [ ] Hatch the Mystery Egg (Secondary)
 - [ ] Catch Bellsprout (Tertiary) - Postponed
 
 ## Quest Log
@@ -10,6 +10,7 @@
 - Cleared Sprout Tower (Defeated Elder Li, obtained HM05 Flash).
 - Paprika evolved into Quilava!
 - Defeated Gym Leader Falkner (Earned Zephyr Badge, TM31).
+- Received the Mystery Egg from Elm's Aide in Violet City.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
