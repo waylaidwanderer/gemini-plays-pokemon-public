@@ -103,3 +103,6 @@
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
 - **VOID**: Impassable, appears to be an empty space off the edge of the map.
+
+# NPC Dialogue
+- **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
