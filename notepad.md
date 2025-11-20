@@ -107,3 +107,4 @@
 - LEDGE_HOP_DOWN: One-way jump South.
 - DOOR: Warp.
 - WARP_CARPET_DOWN: Exit to Cherrygrove.
+- Obstacle: Path West at (9, 7) blocked by Headbutt/Cut trees. Must go North via East side (Column 12).
