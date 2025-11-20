@@ -12,6 +12,11 @@
 - Prof. Elm gave me a Cyndaquil to raise.
 - Nicknamed Cyndaquil "Paprika".
 - Received Potion from Elm's Aide.
+- Arrived in Cherrygrove City.
+- Healed at Pokémon Center.
+- Arrived on Route 30.
+- Found Antidote.
+- Paprika reached Level 7.
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
@@ -36,13 +41,17 @@
 
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
-- Rival Prep: Reach Lv 7 before battle. Totodile is dangerous (Water > Fire).
+- Rival Prep: Level 7 reached. Ready for battle. Totodile is dangerous (Water > Fire).
 
 ## Team
-- Paprika (Cyndaquil) - Lv 6 (Moves: Tackle, Leer, Smokescreen)
+- Paprika (Cyndaquil) - Lv 7 (Moves: Tackle, Leer, Smokescreen)
 
 ## NPCs and Interactions
 - New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
+- Cherrygrove Guide Gent: Gave tour.
+- Cherrygrove PC Fisher: PC is free.
+- Cherrygrove Pokefan M: Visit Gyms, collect Badges.
+- Cherrygrove Bug Catcher: Wants to be Gym Leader.
 
 ## Route 29
 - Sign at (51, 7): "ROUTE 29 - CHERRYGROVE CITY - NEW BARK TOWN".
