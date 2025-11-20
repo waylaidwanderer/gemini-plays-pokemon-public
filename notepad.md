@@ -74,17 +74,16 @@
 - Cherrygrove Speech House: Pokefan M advised visiting Gyms and collecting Badges.
 
 ## Route 30
-- Wild Pokémon: Caterpie (Lv 3-4), Pidgey (Lv 3)
-- Navigation: Path North at x=14 blocked by wall at y=19. Detour East at y=20.
-- Met Mr. Pokémon and received Mystery Egg.
-- Met Professor Oak and received Pokédex.
-- Oak tasked me with completing the Pokédex.
-- Mission: Return to Prof. Elm in New Bark Town.
-- Received urgent call from Prof. Elm about a 'disaster'. Returning to Lab immediately.
-- Defeated Rival Silver in Cherrygrove City.
-- Paprika reached Level 8.
-- Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
-- Gap in ledges at (11, 5) allows North/South travel, providing access to the northern path (Column 11).
+- Geography: Split into East and West paths.
+  - East Path: Leads to Mr. Pokémon's House. Dead ends at Row 2 (Trees).
+  - West Path: Leads to Violet City. Accessible via crossover at Row 30.
+- Trainers:
+  - Youngster Joey (Rattata Lv 4) - Defeated.
+  - Youngster Mikey (Pidgey Lv 2, Rattata Lv 4) - Defeated.
+- Wild Pokémon: Caterpie, Pidgey, Weedle, Hoppip, Rattata.
+- Navigation Notes:
+  - Path West at (9, 7) is blocked by trees.
+  - Must use the crossover at Row 30 to switch sides.
 ## Tile Dictionary
 - FLOOR/TALL_GRASS: Traversable. Grass contains wild Pokémon.
 - WALL/CUT_TREE/HEADBUTT_TREE: Impassable obstacles. Cut trees require HM01.
