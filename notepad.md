@@ -12,7 +12,7 @@
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 
 # Strategic Lessons
-- **Tool Trust & Map Layout:** If `find_path` returns "No path found," trust it. It likely indicates a fundamental division in the map layout (like a wall), not just a simple obstacle. Use this information to re-evaluate the entire area's structure instead of repeating failed pathing attempts.
+- **Tool Trust & Map Layout:** If `find_path` returns "No path found," I must immediately trust it. This is a definitive indicator of a fundamental division in the map layout (e.g., a wall). I must use this information to completely re-evaluate my understanding of the area's structure, rather than assuming the tool is buggy or that a path exists.
 - **Tool Maintenance:** If a tool produces an incorrect outcome, I must not assume the problem is external. I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
 - **Automation:** I must trust and consistently use my own tools (like `select_battle_option`) to improve efficiency and reduce errors.
 - **Item Interaction:** Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
