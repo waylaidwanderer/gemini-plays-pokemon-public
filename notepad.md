@@ -65,3 +65,7 @@
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense. Opponents can still land hits.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
 - Do not mix directional and action buttons in a single input sequence.
+
+# New Bark Town Exploration
+- Investigate unmarked warp at (3, 11).
+- Explore unseen areas of the town.
