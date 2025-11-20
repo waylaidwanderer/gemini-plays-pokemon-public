@@ -5,17 +5,18 @@
 - **Objective:** Find MR. POKEMON for Professor Elm.
 - **Location:** Past Cherrygrove City.
 - **Plan:**
-    1. Find a path around the one-way ledges on Route 29.
-    2. Traverse the route to Cherrygrove City.
-    3. Find MR. POKEMON's house.
+    1. Leave Cherrygrove City and find Route 30.
+    2. Traverse Route 30 to find MR. POKEMON's house.
 
 # Strategic Lessons
 - I must always trust the provided game state information (especially Screen Text) over my own memory or assumptions. My perception can be flawed, but the data is the source of truth.
-- When a plan repeatedly fails or seems overly complex, I must question my root hypothesis. For example, assuming a path-blocking NPC is always a trainer is a false constraint that led to wasted time. I must verify foundational assumptions before building complex strategies on top of them.
-- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools (like `find_path`) to incorporate the new logic. A reactive approach to tool maintenance is inefficient and leads to repeated failures.
+- When a plan repeatedly fails or seems overly complex, I must question my root hypothesis. I must verify foundational assumptions before building complex strategies on top of them.
+- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools (like `find_path`) to incorporate the new logic.
 - My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification.
 - Not all NPCs who block a path are trainers. If interaction leads to looped dialogue instead of a battle, they are likely a non-battling NPC and I should move on.
 - Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken. I must re-evaluate the map layout.
+- Some maps can be partitioned, making certain areas inaccessible from others on the same floor (e.g., Pokecenter 2F).
+- For moving NPCs, it's best to use the `stun_npc` tool to freeze them in place before attempting to interact. This prevents them from walking away and causing the interaction to fail.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -24,7 +25,7 @@
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
 - **TV**: An impassable object.
 - **BOOKSHELF**: An impassable object.
-- **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor. If normal movement down is blocked, pressing the 'Down' button directly on the tile may trigger the warp.
+- **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
@@ -35,6 +36,7 @@
 - **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
 - **VOID**: Impassable, appears to be an empty space off the edge of the map.
+- **MART_SHELF**: Impassable terrain, functions like a wall.
 
 # Reminders & Untested Hypotheses
 - Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
@@ -42,6 +44,7 @@
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
+- Poisoned Pokémon lose 1 HP every four steps outside of battle.
 
 # Object Mechanics
 - **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
