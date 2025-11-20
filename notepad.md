@@ -107,14 +107,12 @@
 - LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
 
 ## Violet City Notes
-- Arrived from Route 31.
-- Locations: Pokémon Center (Healed).
-- Quest: Find Sprout Tower.
-- Lesson: Always set `autopress_buttons: true` when calling custom tools that output button presses.
-- NPC (PC Gentleman): Recalls Team Rocket's defeat 3 years ago.
-- NPC (Gameboy Kid): Mentions Bill created the PC system.
-- Lass Hint: Sprout Tower has ghosts; Normal moves ineffective.
-- Strategy: Train Paprika to Lv 12 for Ember to counter Ghosts.
-- Trade: Youngster Kyle (Violet City House) wants BELLSPROUT.
-- Trade: Kyle (21, 29) wants BELLSPROUT for ONIX. Good for Falkner.
-- Entered Earl's Pokémon Academy. Investigating.
+- **Locations:** Pokémon Center, Earl's Pokémon Academy, Kyle's House (6,5).
+- **Quests:**
+  - **Primary:** Defeat Falkner (Flying). Strategy: Get Onix.
+  - **Secondary:** Find Sprout Tower.
+  - **Trade:** Kyle wants BELLSPROUT 🔄 ONIX. (Critical for Gym).
+- **Lore/Hints:**
+  - Team Rocket disbanded 3 years ago.
+  - Bill created the PC system.
+  - Sprout Tower has Ghosts (Immune to Normal). Need Ember (Lv 12) or non-Normal moves.
