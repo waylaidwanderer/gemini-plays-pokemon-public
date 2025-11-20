@@ -83,3 +83,4 @@
 - **Hypothesis 1:** Mom is at her usual spot (7, 4). **Result:** Failed. She was not there.
 - **Hypothesis 2:** Mom is upstairs. **Result:** Failed. She was not there.
 - **Hypothesis 3:** Mom's appearance is triggered by attempting to leave the house. **Plan:** Path to the exit warp at (6, 7).
+- **Hypothesis 4:** Mom's appearance is triggered by attempting to leave New Bark Town. **Result:** Failed. I successfully transitioned to Route 29 without her appearing. I will proceed with my journey and put this objective on hold.
