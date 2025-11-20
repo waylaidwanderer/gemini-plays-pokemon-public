@@ -49,3 +49,5 @@
 - LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
 - LEDGE_HOP_LEFT: One-way jumpable ledge (West only).
 - LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
+- CUT_TREE: Obstacle requiring HM01 to remove.
+- Lesson: One-way ledges can force backtracking. Always scan for gaps.
