@@ -59,3 +59,6 @@
 # NPC Behavior
 - YOUNGSTER (ID 5) on Route 30 has been defeated.
 - YOUNGSTER (ID 1) at (5, 26) on Route 30 is an active trainer.
+
+# Reminders & Untested Hypotheses
+- Investigate unmarked warp at (31, 11) in Cherrygrove City.
