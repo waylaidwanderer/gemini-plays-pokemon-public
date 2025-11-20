@@ -82,13 +82,18 @@
 - Tool Lesson: `find_path` returns coordinates, not buttons.
 ## Route 32
 - Connects Violet City (North) to Union Cave/Azalea (South).
-- Tile Types:
-  - FLOOR_UP_WALL: Wall (Impassable from North, verified Turn 1484).
+- Mechanics: `FLOOR_UP_WALL` tiles are impassable walls from the North (Verified).
 - Trainers:
-  - Cooltrainer M (19, 8) facing Left.
-  - Youngster Albert (15, 22) - Rattata Lv 6, Zubat Lv 8.
-  - Fisher observed at (15, 13) (Inaccessible behind ledge).
-  - Lass (10, 30) facing Left.
-  - Youngster (3, 45).
-- Youngster (4, 63) facing Left.
-- Position Correction: Confirmed at (1, 59) after desync.
+  - Cooltrainer M (19, 8) - Avoided.
+  - Fisher (15, 13) - Inaccessible.
+  - Youngster Albert (15, 22) - Defeated.
+  - Lass (10, 30) - Avoided.
+  - Youngster (3, 45) - Avoided.
+  - Fisher (6, 48) - Inaccessible (Bridge).
+  - Youngster Gordon (4, 63) - Defeated.
+  - Fisher (7, 70) - Facing Down (Upcoming).
+- Items:
+  - Item Ball at (6, 53) (Bridge).
+- Navigation:
+  - Currently at (2, 71).
+  - Ledge at (2, 72) blocks South. Must go East towards Fisher.
