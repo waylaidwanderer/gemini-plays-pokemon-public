@@ -2,7 +2,8 @@
 
 ## Current Goals
 - [ ] Visit Mr. Pokémon (Primary)
-- [ ] Heal at Pokémon Center (Secondary)
+- [x] Heal at Pokémon Center (Checkpoint Set)
+- [ ] Travel North to Route 30 (Secondary)
 
 ## Quest Log
 - Game started (Name: GEM).
