@@ -86,5 +86,5 @@
   - FLOOR_UP_WALL: Wall (Impassable from North, verified Turn 1484).
 - Trainers:
   - Cooltrainer M (19, 8) facing Left.
-  - Youngster Albert (15, 22) - Rattata Lv 6.
+  - Youngster Albert (15, 22) - Rattata Lv 6, Zubat Lv 8.
   - Fisher observed at (15, 13) (Inaccessible behind ledge).
