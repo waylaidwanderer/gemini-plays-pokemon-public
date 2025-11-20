@@ -152,6 +152,16 @@
         "commit_message": "refactor: Remove all debug prints. The extensive logging added to debug the SproutTower2F pathing issue is no longer needed. The tool's logic has been confirmed as sound, and the pathing failure was due to a misunderstanding of the map layout (a defeated NPC acting as a physical obstacle). This commit removes the prints to clean up the tool's output.",
         "timestamp": "2025-11-20T14:04:13.321Z",
         "action_counter": 1858
+      },
+      {
+        "commit_message": "fix: Add extensive debug prints to trace A* execution. The tool is failing to find a valid path on SproutTower2F. These prints will log the node expansion, neighbor checks, and reasons for skipping tiles to help identify the root cause of the bug.",
+        "timestamp": "2025-11-20T14:16:02.730Z",
+        "action_counter": 1881
+      },
+      {
+        "commit_message": "refactor: Remove all debug prints. The extensive logging added to debug the SproutTower2F pathing issue is no longer needed. The tool's logic has been confirmed as sound, and the pathing failure was due to a misunderstanding of the map layout (a wall separating the corridors). This commit removes the prints to clean up the tool's output.",
+        "timestamp": "2025-11-20T14:17:10.008Z",
+        "action_counter": 1883
       }
     ]
   }

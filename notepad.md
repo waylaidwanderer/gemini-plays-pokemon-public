@@ -1,19 +1,22 @@
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
-- I must investigate the PC in the Pokémon Center to understand its function.
+- The PC in Pokémon Centers is used for Pokémon and item storage.
 
-# Current Quest: Challenge the Violet City Gym
-- **Objective:** Travel to Violet City and defeat the Gym Leader.
-- **Status:** In Violet City.
-- **Plan:** Explore the city, investigate Sprout Tower, then challenge the Gym.
+# Current Quest: Investigate Sprout Tower
+- **Objective:** Reach the top of Sprout Tower.
+- **Status:** On the first floor, exploring.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 
-# Strategic Lessons
-- **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
+# Strategic Lessons & Tool Usage
+- **`notepad_edit`:** When using the "replace" action, `old_text` must be an EXACT match. The 'overwrite' action is best for major reorganization.
+- **Tool Trust:** My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause is likely my incorrect assumption about the map layout or its input data (`map_xml_string` only contains seen tiles), not a flaw in the algorithm. Trust the tool's output as a reflection of the data it sees and use it to correct my understanding of the map.
+- **Tool Maintenance:** If a tool produces an incorrect outcome, I must not assume the problem is external. I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
+- **Automation:** I must trust and consistently use my own tools (like `select_battle_option`) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
+- **Item Interaction:** Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -65,28 +68,8 @@
 - **Hypothesis 4:** Mom's appearance is triggered by attempting to leave New Bark Town. **Result:** Failed. I successfully transitioned to Route 29 without her appearing. I have put this objective on hold.
 
 # Party Status
-- **VULCAN (CYNDAQUIL):** Lv12
+- **VULCAN (CYNDAQUIL):** Lv13
 - **CHRONO (HOOTHOOT):** Lv3
 - **WEAVER (SPINARAK):** Lv3
-- **AUDREYII (BELLSPROUT):** Lv5
-
-# Violet City Intel
-- An Officer mentioned I should visit SPROUT TOWER.
-
-# Strategic Lessons
-- **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
-- **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
-
-- My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
-- Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
-
-# Strategic Lessons
-- **`notepad_edit` Safeguard:** The 'replace' and 'overwrite' actions have a character loss threshold to prevent accidental data deletion. For large-scale refactoring, use small, incremental 'replace' actions.
-
-# Tool Development
-
-# Tool Development Lessons
-- If a tool produces an incorrect outcome, I must not assume the problem is external (e.g., game timing). I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
-
-# Item Interaction
-- Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
+- **AUDREYII (BELLSPROUT):** Lv8
+- **EGG (TOGEPI):** Lv5
