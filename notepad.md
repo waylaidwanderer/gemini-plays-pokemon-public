@@ -74,36 +74,18 @@
 - Sprout Tower Layout: 1F and 2F are partitioned. To switch sides on 2F, use ladders to traverse the 1F outer ring.
 - Encountered Sage (Name Unknown) in 2F Left Southern Corridor.
 - Pathfinding tools treat 'unseen' tiles as walls. Verify boundaries manually if pathfinding fails.
-- Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp).
-- Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
-- Received phone call from Youngster Joey.
+- Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp), CAVE (Traversable Warp), WATER (Impassable without Surf).
+- Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor).
 - Violet Gym: Defeated Bird Keepers Abe and Rod, and Leader Falkner.
 - Strategy Insight: Paprika's level advantage and Special Attack carried the gym.
 - Tool Lesson: `find_path` returns coordinates, not buttons.
 ## Route 32
 - Connects Violet City (North) to Union Cave/Azalea (South).
-- Mechanics: `FLOOR_UP_WALL` tiles are impassable walls from the North (Verified).
-- Trainers:
-  - Youngster Albert (15, 22) [Defeated]
-  - Cooltrainer M (19, 8) [Avoided]
-  - Lass (10, 30) [Avoided]
-  - Youngster (3, 45) [Avoided]
-  - Youngster Gordon (4, 63) [Defeated]
-  - Scam Fisher (7, 70) [Declined Offer]
-  - Fisher (15, 13) [Inaccessible]
-  - Fisher (6, 48) [Inaccessible - Bridge]
-- Items:
-  - Item Ball at (6, 53) (Bridge).
-- Key Items:
-  - Old Rod (Obtained in Route 32 Pokémon Center).
-- Navigation:
-  - Reached Pokémon Center at (11, 73).
-## Route 32 Log
-- Obtained Old Rod.
-- Declined Slowpoketail Scam.
-- Defeated Youngster Gordon (4, 63).
-- Bypassed Youngster (3, 45).
-- Defeated Youngster at (11, 80).
-- Route 32: Received another call from Joey about his Rattata and a wild Caterpie.
+- Mechanics: `FLOOR_UP_WALL` tiles are impassable walls from the North.
+- Trainers Defeated: Youngster Albert (15, 22), Youngster Gordon (4, 63), Youngster at (11, 80).
+- Trainers Avoided: Cooltrainer M (19, 8), Lass (10, 30), Youngster (3, 45).
+- Important NPCs: Scam Fisher (7, 70) [Declined Offer].
+- Items: Item Ball at (6, 53) (Bridge).
+- Key Items: Old Rod (Obtained in Route 32 Pokémon Center).
 ## Union Cave
 - Entered from Route 32 (17, 3).
