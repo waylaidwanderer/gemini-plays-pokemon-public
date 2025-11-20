@@ -106,5 +106,43 @@
         "action_counter": 153
       }
     ]
+  },
+  "swap_party_members": {
+    "description": "Swaps two party members using the Start menu. Includes cursor reset for reliability.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "slot1": {
+          "type": "integer",
+          "description": "The 1-based index of the first Pokemon to swap."
+        },
+        "slot2": {
+          "type": "integer",
+          "description": "The 1-based index of the second Pokemon to swap."
+        }
+      },
+      "required": [
+        "slot1",
+        "slot2"
+      ]
+    },
+    "python_script": "import json\n\ninput_data = globals().get('input_data', {})\nslot1 = int(input_data.get('slot1', 1))\nslot2 = int(input_data.get('slot2', 2))\n\n# Validate slots (1-6)\nif not (1 <= slot1 <= 6 and 1 <= slot2 <= 6):\n    print(json.dumps([]))\n    exit()\n\nif slot1 == slot2:\n    print(json.dumps([]))\n    exit()\n\ncmds = []\n# Open Start Menu\ncmds.append(\"Start\")\ncmds.append(\"sleep 1000\")\n\n# Reset Cursor to top (Pokedex)\nfor _ in range(7):\n    cmds.append(\"Up\")\n    cmds.append(\"sleep 300\")\n\n# Move down to Pokemon (2nd option usually)\ncmds.append(\"Down\")\ncmds.append(\"sleep 300\")\ncmds.append(\"A\")\ncmds.append(\"sleep 1500\") # Wait for party menu to open\n\n# Cursor is now at Slot 1\ncurrent_slot = 1\n\n# Move to Slot 1\ndiff = slot1 - current_slot\nfor _ in range(diff):\n    cmds.append(\"Down\")\n    cmds.append(\"sleep 300\")\ncurrent_slot = slot1\n\n# Select Slot 1\ncmds.append(\"Select\")\ncmds.append(\"sleep 800\")\n\n# Move to Slot 2\ndiff = slot2 - current_slot\nif diff > 0:\n    for _ in range(diff):\n        cmds.append(\"Down\")\n        cmds.append(\"sleep 300\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        cmds.append(\"Up\")\n        cmds.append(\"sleep 300\")\n\n# Select Slot 2 (Swap)\ncmds.append(\"Select\")\ncmds.append(\"sleep 1500\") # Animation\n\n# Exit\ncmds.append(\"B\")\ncmds.append(\"sleep 800\")\ncmds.append(\"B\")\ncmds.append(\"sleep 800\")\n\nprint(json.dumps(cmds))",
+    "history": [
+      {
+        "commit_message": "feat: Add swap_party_members tool to automate reordering the party via the Start menu.",
+        "timestamp": "2025-11-20T05:18:34.141Z",
+        "action_counter": 643
+      },
+      {
+        "commit_message": "fix: Add cursor reset (Up presses) to start menu navigation to ensure correct selection regardless of previous cursor position.",
+        "timestamp": "2025-11-20T05:22:25.872Z",
+        "action_counter": 648
+      },
+      {
+        "commit_message": "fix: Increase sleep delays in swap_party_members to ensure reliable menu navigation.",
+        "timestamp": "2025-11-20T05:31:23.035Z",
+        "action_counter": 657
+      }
+    ]
   }
 }

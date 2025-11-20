@@ -2,8 +2,8 @@
 
 ## Current Goals
 - [ ] Travel to Violet City (Primary)
-- [ ] Talk to NPCs in PokeCenter (Secondary)
-- [ ] Train Paprika to Lv 10 (Tertiary)
+- [ ] Switch Basalt to Lead (Secondary)
+- [ ] Train Basalt to Lv 6 (Tertiary)
 - [x] Heal Party at Cherrygrove
 - [x] Catch a Geodude @ Route 46
 
