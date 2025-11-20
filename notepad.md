@@ -51,6 +51,11 @@
 - Connections: South to Route 29, North to Route 46.
 - NPCs: Officer, Youngster.
 - Officer: "You can't climb ledges. But you can jump down from them to take a shortcut."
+- Youngster: "Different kinds of POKéMON appear past here. If you want to catch them all, you have to look everywhere."
+
+## Route 46
+- Connections: South to Route 29/46 Gate.
+- Wild Pokémon: Rattata (Lv 3).
 
 ## Cherrygrove City
 - Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
