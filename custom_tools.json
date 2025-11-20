@@ -45,7 +45,7 @@
         "current_facing"
       ]
     },
-    "python_script": "import json\n\ndirection = input_data['direction'].lower()\ncurrent = input_data.get('current_facing', '').lower()\n\nif direction == current:\n    print(json.dumps([\"A\"]))\nelse:\n    # Capitalize first letter for button press\n    btn = direction.capitalize()\n    print(json.dumps([btn, \"sleep 500\", \"A\"]))",
+    "python_script": "import json\ndirection = input_data['direction'].title()\ncurrent_facing = input_data['current_facing'].title()\n\nbuttons = []\nif direction != current_facing:\n    buttons.append(direction)\n    buttons.append(\"sleep 500\")\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add face_and_interact tool to combine turning and interacting into a single action, improving efficiency for NPC and object interactions.",
@@ -56,6 +56,11 @@
         "commit_message": "fix: prevent unnecessary movement when already facing target. Requires `current_facing` argument.",
         "timestamp": "2025-11-20T00:11:34.994Z",
         "action_counter": 181
+      },
+      {
+        "commit_message": "fix: prevent unnecessary movement when already facing target. Requires `current_facing` argument.",
+        "timestamp": "2025-11-20T00:17:07.925Z",
+        "action_counter": 186
       }
     ]
   }

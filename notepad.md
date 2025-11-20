@@ -14,6 +14,9 @@
 
 ## Game Mechanics
 - FLOOR: Standard traversable tile.
+- LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
+- LEDGE_HOP_LEFT: One-way jumpable ledge (West only).
+- LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
 - STAIRCASE: Warps between floors.
 - WALL: Impassable obstacle.
 - TV: Impassable object.
