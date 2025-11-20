@@ -23,7 +23,7 @@
 
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
-- Rival Defeated: Strategy (Smokescreen->Leer->Tackle) worked.
+- Battle Tactic: Smokescreen reduces accuracy, highly effective against physical attackers.
 - Geodude: Caught! Good defense, useful for first gym (Flying) and second (Bug). Found on Route 46 (North of Route 29).
 - Protocol: Mark NPCs immediately upon discovery to prevent interruptions.
 
