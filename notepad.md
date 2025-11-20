@@ -85,3 +85,8 @@
 - Paprika reached Level 8.
 - Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
 - Gap in ledges at (11, 5) allows North/South travel, providing access to the northern path (Column 11).
+## Route 30 Mechanics & Strategy
+- FLOOR: Standard traversable tile.
+- WATER: Impassable terrain (requires Surf).
+- HEADBUTT_TREE: Obstacle acting as a wall.
+- Strategy Update: 'swap_party_members' tool is unreliable. Proceeding with manual switch-training for Basalt.
