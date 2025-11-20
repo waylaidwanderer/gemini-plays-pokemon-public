@@ -104,3 +104,4 @@
 - Defeated Youngster Gordon (4, 63).
 - Bypassed Youngster (3, 45).
 - Encountered Youngster at (11, 80).
+- Route 32: Received another call from Joey about his Rattata and a wild Caterpie.
