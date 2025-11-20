@@ -78,3 +78,8 @@
 
 # Game Systems Update
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
+
+# Finding Mom
+- **Hypothesis 1:** Mom is at her usual spot (7, 4). **Result:** Failed. She was not there.
+- **Hypothesis 2:** Mom is upstairs. **Result:** Failed. She was not there.
+- **Hypothesis 3:** Mom's appearance is triggered by attempting to leave the house. **Plan:** Path to the exit warp at (6, 7).
