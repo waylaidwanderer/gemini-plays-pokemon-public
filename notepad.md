@@ -55,4 +55,4 @@
   - (10, 9), (9, 10), (11, 9), (9, 11)
 
 # NPC Behavior
-- YOUNGSTER (ID 5) on Route 30 moves back and forth. Last observed path: (6, 30) -> (5, 30) -> (6, 30) -> (7, 30) -> (8, 30).
+- YOUNGSTER (ID 5) on Route 30 moves back and forth. Last observed path: (8, 30) -> (7, 30) -> (6, 30).
