@@ -106,5 +106,31 @@
         "action_counter": 153
       }
     ]
+  },
+  "find_path": {
+    "description": "Calculates a path from the player's current position to a target coordinate (x, y) using BFS. Accounts for walls, objects, and one-way ledges. Returns a JSON-compatible list of coordinate objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "string"
+        },
+        "target_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef get_map_grid(map_data):\n    width = int(map_data.get(\"width\"))\n    height = int(map_data.get(\"height\"))\n    grid = [[None for _ in range(width)] for _ in range(height)]\n    player_pos = None\n    \n    for row in map_data.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            grid[y][x] = tile\n            if tile.find(\"Player\") is not None:\n                player_pos = (x, y)\n    return grid, width, height, player_pos\n\ndef get_neighbors(cx, cy, grid, width, height):\n    neighbors = []\n    \n    # dx, dy, direction_required\n    moves = [(0, -1, \"UP\"), (0, 1, \"DOWN\"), (-1, 0, \"LEFT\"), (1, 0, \"RIGHT\")]\n    \n    for dx, dy, direction in moves:\n        nx, ny = cx + dx, cy + dy\n        \n        if 0 <= nx < width and 0 <= ny < height:\n            next_tile = grid[ny][nx]\n            if next_tile is None: continue\n            \n            next_type = next_tile.get(\"type\")\n            has_object = next_tile.get(\"has-object\") == \"true\"\n            \n            can_enter = False\n            \n            # Basic traversable types\n            basic_types = [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"STAIRS\", \n                           \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\",\n                           \"DOOR\", \"OPEN_DOOR\"]\n            \n            if next_type in basic_types:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_DOWN\" and dy == 1:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_LEFT\" and dx == -1:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_RIGHT\" and dx == 1:\n                can_enter = True\n            \n            # Objects block movement unless explicitly ignored (not handled here yet)\n            if can_enter and not has_object:\n                neighbors.append((nx, ny))\n                \n    return neighbors\n\ndef solve_path(start, target, grid, width, height):\n    queue = deque([(start, [start])])\n    visited = set([start])\n    \n    while queue:\n        current_pos, path = queue.popleft()\n        cx, cy = current_pos\n        \n        if current_pos == target:\n            return path\n        \n        for nx, ny in get_neighbors(cx, cy, grid, width, height):\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n                \n    return None\n\nmap_data = ET.fromstring(map_xml_string)\ngrid, width, height, player_pos = get_map_grid(map_data)\n\ntarget_x = int(input_data[\"target_x\"])\ntarget_y = int(input_data[\"target_y\"])\ntarget = (target_x, target_y)\n\nif not player_pos:\n    print(\"Error: Player not found\")\nelse:\n    path = solve_path(player_pos, target, grid, width, height)\n    if path:\n        # Convert to list of dicts for easy JSON copy-paste\n        json_path = [{\"x\": x, \"y\": y} for x, y in path]\n        print(json.dumps(json_path))\n    else:\n        print(\"Error: No path found\")",
+    "history": [
+      {
+        "commit_message": "feat: Add find_path tool. Calculates shortest path using BFS, handling walls, objects, and one-way ledges.",
+        "timestamp": "2025-11-20T08:35:46.882Z",
+        "action_counter": 924
+      }
+    ]
   }
 }

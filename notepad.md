@@ -117,3 +117,4 @@
 - Strategy: Train Paprika to Lv 12 for Ember to counter Ghosts.
 - Trade: Youngster Kyle (Violet City House) wants BELLSPROUT.
 - Trade: Kyle (21, 29) wants BELLSPROUT for ONIX. Good for Falkner.
+- Entered Earl's Pokémon Academy. Investigating.
