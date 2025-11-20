@@ -87,3 +87,6 @@
 
 # Route 30 NPC Interactions
 - Youngster (ID 3) at (5, 23) provides dialogue but does not initiate a battle after three interaction attempts. He is likely a non-battling NPC.
+
+# Route 30 NPC Interactions (Updates)
+- Cooltrainer (ID 10) at (2, 13) is a non-battling NPC.
