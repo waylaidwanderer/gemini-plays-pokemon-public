@@ -58,3 +58,6 @@
   - (38, 2), (39, 2), (40, 2), (41, 2), (42, 3), (43, 2), (44, 2), (45, 2)
   - (11, 6), (11, 7), (11, 8)
   - (10, 9), (9, 10), (11, 9), (9, 11)
+
+# Pokecenter2F Notes
+- The warp (DOOR) at (13, 2) is currently blocked by the Link Receptionist at (13, 3) and is inaccessible.
