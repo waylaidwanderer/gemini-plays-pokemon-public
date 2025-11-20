@@ -89,43 +89,5 @@
         "action_counter": 153
       }
     ]
-  },
-  "use_move": {
-    "description": "Automates move selection from the MAIN BATTLE MENU. Enters the 'FIGHT' menu and selects the move at the specified index (1-4).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_index": {
-          "type": "integer",
-          "description": "The index of the move to use (1-4)."
-        }
-      },
-      "required": [
-        "move_index"
-      ]
-    },
-    "python_script": "import json\nmove_index = int(input_data[\"move_index\"])\nbuttons = []\n# Enter Fight Menu\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n# Move cursor down if needed (Assumes cursor starts at Move 1)\nsteps = move_index - 1\nfor _ in range(steps):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n# Select Move\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create use_move tool to automate battle menu navigation, bypassing the manual input mixing restriction.",
-        "timestamp": "2025-11-20T17:19:56.705Z",
-        "action_counter": 1225
-      },
-      {
-        "commit_message": "fix: Remove consecutive sleep commands which caused execution failure.",
-        "timestamp": "2025-11-20T17:21:23.526Z",
-        "action_counter": 1227
-      },
-      {
-        "commit_message": "fix: Resolve syntax error by removing consecutive sleep commands and ensuring correct button sequence for entering the Fight menu and selecting a move.",
-        "timestamp": "2025-11-20T17:27:23.862Z",
-        "action_counter": 1232
-      },
-      {
-        "commit_message": "fix: Ensure tool correctly handles entering the Fight menu from the main menu and prevents consecutive sleep commands.",
-        "timestamp": "2025-11-20T17:32:04.823Z",
-        "action_counter": 1237
-      }
-    ]
   }
 }
