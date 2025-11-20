@@ -43,3 +43,12 @@
 
 # Tile Mechanics Update
 - **WARP_CARPET_DOWN**: A traversable warp tile. If normal movement down is blocked, pressing the 'Down' button directly on the tile may trigger the warp.
+
+# Object Mechanics
+- **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
+
+# Reminders & Untested Hypotheses
+- Investigate the properties of `LONG_GRASS` tiles when first encountered.
+
+# Strategic Lessons
+- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken. I must re-evaluate the map layout.
