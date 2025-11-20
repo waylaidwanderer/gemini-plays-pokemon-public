@@ -53,8 +53,7 @@
 
 **Custom Tools:**
 - `find_path`: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
-- `check_unseen_reachability`: Checks which of the known potentially reachable unseen tiles are actually reachable from the player's current position.
-- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `check_unseen_reachability`: Checks which of the known potentially reachable unseen tiles are actually reachable from my current position.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Tile Mechanics
@@ -86,7 +85,7 @@
 - **unseen**: An impassable tile that has not yet been explored.
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
 - **LADDER**: A traversable warp tile that moves the player between floors.
-- **FLOOR_UP_WALL**: A one-way traversable tile. Can be jumped down from above.
+- **FLOOR_UP_WALL**: Impassable from above. My attempt to move from (10, 9) to (10, 10) failed, confirming this. It likely functions as a ledge that can only be entered from below (moving up).
 
 # Party Status
 - **VULCAN (QUILAVA):** Lv17
