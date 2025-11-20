@@ -48,6 +48,7 @@
 - `define_tool` / `delete_tool`: Manages reusable custom tools.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
+- `stun_npc`: Freezes or unfreezes an NPC's movement.
 
 **Custom Tools:**
 - `find_path`: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
