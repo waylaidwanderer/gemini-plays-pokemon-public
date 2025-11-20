@@ -47,7 +47,7 @@
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
 - **LADDER**: A traversable warp tile that moves the player between floors.
-- **PC**: *Verification needed.* Likely an interactable object for Pokémon storage.
+- **PC**: *Verification needed.* Missed opportunity to check the PC on the second floor of the Violet City Pokémon Center. It's likely an interactable object for Pokémon storage.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
