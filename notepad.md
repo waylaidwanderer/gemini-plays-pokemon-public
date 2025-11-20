@@ -106,13 +106,15 @@
 - DOOR: Entrance to buildings (e.g., PC).
 - LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
 
-## Violet City Notes
-- **Locations:** Pokémon Center, Earl's Pokémon Academy, Kyle's House (6,5).
+## Violet City
+- **Locations:** 
+  - Pokémon Center (31, 25)
+  - Earl's Pokémon Academy (30, 17)
+  - Kyle's House (6, 5): Trade Bellsprout for Onix (Rock-type, good vs Falkner).
 - **Quests:**
-  - **Primary:** Defeat Falkner (Flying). Strategy: Get Onix.
-  - **Secondary:** Find Sprout Tower.
-  - **Trade:** Kyle wants BELLSPROUT 🔄 ONIX. (Critical for Gym).
-- **Lore/Hints:**
+  - **Primary:** Defeat Gym Leader Falkner (Flying-type).
+  - **Secondary:** Find Sprout Tower (North of city?). Ghosts inside (Immune to Normal).
+- **Lore:**
   - Team Rocket disbanded 3 years ago.
   - Bill created the PC system.
-  - Sprout Tower has Ghosts (Immune to Normal). Need Ember (Lv 12) or non-Normal moves.
+  - Trade Pokémon grow fast but need badges to obey.
