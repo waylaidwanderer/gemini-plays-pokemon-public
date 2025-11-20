@@ -79,3 +79,4 @@
 - Locations: PC, Gym, Academy.
 - Trade: Bellsprout -> Onix.
 - Sprout Tower Layout: 1F and 2F are partitioned. To switch sides on 2F, use ladders to traverse the 1F outer ring.
+- Encountered Sage (Name Unknown) in 2F Left Southern Corridor.
