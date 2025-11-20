@@ -56,5 +56,4 @@
 - Navigation: Path West at x=15 blocked by ledges at y=2-4. Must go South to y=6+.
 
 ## Cherrygrove City
-- [ ] Get Map Card from Guide Gent (Tertiary)
-- Locations: Poké Mart (17, 7), Pokémon Center (29, 3)
+- Locations: Poké Mart (17, 7), Pokémon Center (29, 3), Guide Gent's House (25, 9)
