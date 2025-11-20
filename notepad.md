@@ -83,3 +83,4 @@
 - Defeated Rival Silver in Cherrygrove City.
 - Paprika reached Level 8.
 - Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
+- Gap in ledges at (11, 5) allows North/South travel, providing access to the northern path (Column 11).
