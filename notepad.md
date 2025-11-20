@@ -16,6 +16,8 @@
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
+- COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
+- LADDER: Warps between floors.
 
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
@@ -45,10 +47,12 @@
 - Blockage: Lower path (y=14) blocked West at x=13.
 - Navigation: Path West at x=15 blocked by ledges at y=2-4. Must go South to y=6+.
 
+## Route 29/46 Gate
+- Connections: South to Route 29, North to Route 46.
+- NPCs: Officer, Youngster.
+
 ## Cherrygrove City
 - Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
-- COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
-- LADDER: Warps between floors.
 - Cherrygrove PC Fisher: Confirmed PC storage is free.
 - Cherrygrove Speech House: Pokefan M advised visiting Gyms and collecting Badges.
 
