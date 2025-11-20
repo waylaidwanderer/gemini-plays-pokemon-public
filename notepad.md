@@ -98,11 +98,13 @@
 - Geography: Vertical wall at x=22 blocks direct Westward travel. Must go North through grass.
 - Obstacles: Cooltrainer M patrolling (32,8) to (34,9).
 - Navigation: Head North to bypass the wall.
-## Current Map Tiles (Violet City / PC)
+## Current Map Tiles (Violet City)
 - FLOOR: Walkable.
-- WALL/COUNTER: Impassable.
-- WARP_CARPET_DOWN: Exit to Violet City.
-- LADDER: Warp to 2F.
+- WALL: Impassable buildings/obstacles.
+- HEADBUTT_TREE: Impassable trees.
+- WARP_CARPET_RIGHT: Exit to Route 31.
+- DOOR: Entrance to buildings (e.g., PC).
+- LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
 
 ## Violet City Notes
 - Arrived from Route 31.
