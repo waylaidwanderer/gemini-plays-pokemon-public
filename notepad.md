@@ -1,12 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Travel to Violet City
-- [ ] Heal Party at Violet City (Immediate)
-- [ ] Switch Basalt to Lead (Secondary)
+- [x] Arrive in Violet City & Heal Party
+- [ ] Defeat Gym Leader Falkner (Primary)
+- [ ] Find Sprout Tower (Secondary)
 - [ ] Train Basalt to Lv 6 (Tertiary)
-- [x] Heal Party at Cherrygrove
-- [x] Catch a Geodude @ Route 46
 
 ## Quest Log
 - Journey started. Picked Cyndaquil (Paprika).
