@@ -7,10 +7,9 @@
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
-- Encountered Rival Silver at Sprout Tower 3F (He used an Escape Rope).
-- Sprout Tower: Defeated Sages Nico, Chow, Edmond, Jin, Neal, Troy, Li.
-- Sprout Tower: Received HM05 Flash from Elder.
+- Cleared Sprout Tower (Defeated Elder Li, obtained HM05 Flash).
 - Paprika evolved into Quilava!
+- Defeated Gym Leader Falkner (Earned Zephyr Badge, TM31).
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
