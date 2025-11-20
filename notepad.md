@@ -42,7 +42,7 @@
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
 - **VOID**: Impassable, appears to be an empty space off the edge of the map.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
-- **LONG_GRASS**: *Verification needed.* Likely traversable with wild encounters.
+- **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
 
 # Battle Mechanics
