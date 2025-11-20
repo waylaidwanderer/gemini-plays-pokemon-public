@@ -90,3 +90,5 @@
   - Fisher observed at (15, 13) (Inaccessible behind ledge).
   - Lass (10, 30) facing Left.
   - Youngster (3, 45).
+- Youngster (4, 63) facing Left.
+- Position Correction: Confirmed at (1, 59) after desync.
