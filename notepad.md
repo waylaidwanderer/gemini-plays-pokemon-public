@@ -54,3 +54,4 @@
 - Blockage: Path West at y=7 blocked by trees at x=22.
 - Blockage: Lower path (y=14) blocked West at x=13.
 - Navigation: Path West at x=15 blocked by ledges at y=2-4. Must go South to y=6+.
+- [ ] Get Map Card from Guide Gent (Tertiary)
