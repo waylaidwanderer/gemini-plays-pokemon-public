@@ -86,4 +86,4 @@
 - Received phone call from Youngster Joey.
 - Defeated Sage Jin (3F). Paprika learned Ember.
 - Defeated Sage Neal (3F).
-- Battling Sage Troy (3F).
+- Defeated Sage Troy (3F). Basalt grew to Lv 3.
