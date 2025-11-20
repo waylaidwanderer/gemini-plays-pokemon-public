@@ -37,3 +37,9 @@
 
 # Reminders & Untested Hypotheses
 - Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
+
+# Battle Mechanics
+- Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
+
+# Tile Mechanics Update
+- **WARP_CARPET_DOWN**: A traversable warp tile. If normal movement down is blocked, pressing the 'Down' button directly on the tile may trigger the warp.
