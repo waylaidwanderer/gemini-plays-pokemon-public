@@ -1,10 +1,12 @@
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
+- Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
+- I must investigate the PC in the Pokémon Center to understand its function.
 
 # Current Quest: Challenge the Violet City Gym
 - **Objective:** Travel to Violet City and defeat the Gym Leader.
-- **Status:** On Route 30, heading north.
-- **Plan:** Continue north through Route 30 to reach Violet City.
+- **Status:** In Violet City.
+- **Plan:** Explore the city, investigate Sprout Tower, then challenge the Gym.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
@@ -22,6 +24,8 @@
 - **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
 - **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
 - **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
+- My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
+- Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -46,8 +50,11 @@
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
-- **LADDER**: A traversable warp tile that moves the player between floors.
 - **PC**: An interactable object used to access the Pokémon Storage System (Bill's PC) and personal item storage (Gem's PC).
+- **CAVE**: A traversable warp tile leading into a cave.
+- **unseen**: An impassable tile that has not yet been explored.
+- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
+- **LADDER**: A traversable warp tile that moves the player between floors.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -55,6 +62,8 @@
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense. Opponents can still land hits.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
 - Bug-type moves (like LEECH LIFE) are not very effective against Fire-types.
+- Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
+- Normal-type moves have no effect on Ghost-type Pokémon.
 
 # Object Mechanics
 - **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
@@ -66,12 +75,12 @@
 - **Youngster (ID 1)** at (5, 26) on Route 30 is an active trainer.
 - **Youngster (ID 3)** at (5, 23) is a non-battling NPC.
 - **Cooltrainer (ID 10)** at (2, 13) is a non-battling NPC.
+- Youngster Joey can call for rematches. He is waiting on Route 30.
+- **Fisher (ID 1)** at (17, 7) on Route 31 is a non-battling NPC.
+- **Bug Catcher Wade (ID 3)** on Route 31 has been defeated.
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
-
-# Game Systems Update
-- Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
 
 # Archived Objectives
 ## Finding Mom
@@ -81,34 +90,10 @@
 - **Hypothesis 4:** Mom's appearance is triggered by attempting to leave New Bark Town. **Result:** Failed. I successfully transitioned to Route 29 without her appearing. I have put this objective on hold.
 
 # Party Status
-- **VULCAN (CYNDAQUIL):** Lv11
+- **VULCAN (CYNDAQUIL):** Lv12
 - **CHRONO (HOOTHOOT):** Lv3
 - **WEAVER (SPINARAK):** Lv3
-- Some map transitions are one-way scripted events. Attempting to move back through them may result in being sent to a different location.
-- My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
-- Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
-- Youngster Joey can call for rematches. He is waiting on Route 30.
-- **Fisher (ID 1)** at (17, 7) on Route 31 is a non-battling NPC.
-
-# Tile Mechanics
-- **CAVE**: A traversable warp tile leading into a cave.
-- **unseen**: An impassable tile that has not yet been explored.
-
-# Strategic Lessons
-- Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
-- **Bug Catcher Wade (ID 3)** on Route 31 has been defeated.
-
-# Tile Mechanics
-- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
+- **AUDREYII (BELLSPROUT):** Lv5
 
 # Violet City Intel
 - An Officer mentioned I should visit SPROUT TOWER.
-
-# Tile Mechanics
-- **LADDER**: A traversable warp tile that moves the player between floors.
-
-# Game Systems
-- I must investigate the PC in the Pokémon Center to understand its function.
-
-# Battle Mechanics
-- Normal-type moves have no effect on Ghost-type Pokémon.
