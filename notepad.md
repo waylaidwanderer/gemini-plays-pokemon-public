@@ -101,3 +101,4 @@
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
+- **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
