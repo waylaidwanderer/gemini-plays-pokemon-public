@@ -8,10 +8,7 @@
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
-- Delivered Mystery Egg to Elm.
-- Identified Rival as SILVER.
-- Accepted Gym Challenge.
-- Caught Geodude (Basalt) on Route 46.
+- Reached Sprout Tower 2F.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
