@@ -52,7 +52,7 @@
 - **FRUIT_TREE**: An interactable object that functions as an obstacle. Likely provides a BERRY.
 
 # Exploration Targets
-- The `check_unseen_reachability` tool has confirmed the following unseen tiles are reachable: [[10, 8], [11, 8], [12, 8], [13, 8], [14, 8], [15, 8], [16, 8], [17, 8], [18, 9], [18, 10], [18, 11], [19, 14], [5, 15], [19, 15], [5, 16]]
+- The `check_unseen_reachability` tool has confirmed the following unseen tiles are reachable on Route 29: [[38, 2], [39, 2], [40, 2], [41, 2], [42, 3], [43, 2], [44, 2], [45, 2], [4, 15], [5, 15], [6, 15], [7, 15]]
 
 # NPC Behavior
 - YOUNGSTER (ID 5) on Route 30 has been defeated.
