@@ -91,8 +91,8 @@
 - **VULCAN (QUILAVA):** Lv16
 - **CHRONO (HOOTHOOT):** Lv3
 - **WEAVER (SPINARAK):** Lv3
-- **AUDREYII (BELLSPROUT):** Lv8
 - **EGG (TOGEPI):** Lv5
+- **ROCKY (ONIX):** Lv8
 
 - **INCENSE_BURNER**: An impassable decorative object.
 
