@@ -83,6 +83,8 @@
 ## Route 32
 - Connects Violet City (North) to Union Cave/Azalea (South).
 - Tile Types:
-  - FLOOR_UP_WALL: Suspected ledge (jumpable from North).
+  - FLOOR_UP_WALL: Wall (Impassable from North, verified Turn 1484).
 - Trainers:
   - Cooltrainer M (19, 8) facing Left.
+  - Youngster Albert (15, 22) - Rattata Lv 6.
+  - Fisher observed at (15, 13) (Inaccessible behind ledge).
