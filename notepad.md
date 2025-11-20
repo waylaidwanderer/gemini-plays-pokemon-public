@@ -85,3 +85,5 @@
 - Mission: Return to Prof. Elm in New Bark Town.
 - Received urgent call from Prof. Elm about a 'disaster'. Returning to Lab immediately.
 - Update: Paprika is fully healed (23/23 HP). Skipping Pokémon Center visit to save time.
+- Defeated Rival (Red-haired boy, Name: ???) in Cherrygrove City.
+- Paprika reached Level 8.
