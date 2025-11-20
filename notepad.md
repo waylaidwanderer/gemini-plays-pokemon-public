@@ -1,7 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Defeat Gym Leader Falkner (Primary)
+- [ ] Reach Azalea Town (Primary)
+- [ ] Obtain the Mystery Egg (Secondary)
 - [ ] Catch Bellsprout (Tertiary) - Postponed
 
 ## Quest Log
