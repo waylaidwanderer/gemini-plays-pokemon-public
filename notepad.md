@@ -101,3 +101,4 @@
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - **FLOOR_UP_WALL**: *Verification needed.*
 - Received MIRACLE SEED from a trainer on Route 32. It boosts Grass-type moves.
+- **Position Verification:** My internal sense of position can be unreliable and lead to hallucinations. I must always verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction, especially after a map transition.
