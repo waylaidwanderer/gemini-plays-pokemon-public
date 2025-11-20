@@ -94,20 +94,15 @@
 - STAIRS/LADDER/DOOR: Warps.
 - COUNTER/BOOKSHELF/TV/PC/SIGN/WINDOW: Blocking objects.
 
-## Route 30 Specifics
-- Strategy: Switch-train Basalt manually.
-- Navigation: Use the path at y=7 to cross from East to West.
-## Current Map Tiles (Route 30)
-- FLOOR: Walkable.
-- WALL: Impassable.
-- TALL_GRASS: Wild encounters.
-- CUT_TREE: Impassable (Requires Cut).
-- HEADBUTT_TREE: Impassable (Requires Headbutt).
-- WATER: Impassable (Requires Surf).
-- LEDGE_HOP_DOWN: One-way jump South.
-- DOOR: Warp.
-- WARP_CARPET_DOWN: Exit to Cherrygrove.
-- Obstacle: Path West at (9, 7) blocked. East side (Column 12) is a DEAD END at Row 2. Must navigate via West side (Row 30 crossover).
+## Route 31 Specifics
+- Location: North of Route 30. Leads to Violet City (West).
+- Geography: Vertical wall at x=22 blocks direct Westward travel. Must go North through grass.
+- Obstacles: Cooltrainer M patrolling (32,8) to (34,9).
+- Navigation: Head North to bypass the wall.
+## Current Map Tiles (Route 31)
+- FLOOR/TALL_GRASS: Walkable.
+- WALL/CUT_TREE/HEADBUTT_TREE: Impassable.
+- WARP_CARPET: Map transition.
 ## Route 31
 - Arrived from Route 30 (South).
 - Connections: South to Route 30, West to Violet City (expected).
