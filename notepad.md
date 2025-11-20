@@ -7,14 +7,11 @@
 - [ ] Train Basalt to Lv 6 (Tertiary)
 
 ## Quest Log
-- Journey started. Picked Cyndaquil (Paprika).
-- Received Pokedex and Mystery Egg.
-- Defeated Rival Silver.
-- Delivered Egg to Elm. Accepted Gym Challenge.
+- Defeated Rival Silver (Cherrygrove).
+- Delivered Mystery Egg to Elm.
 - Identified Rival as SILVER.
-- Received Poké Balls from Aide.
-- Mom enabled money saving.
-- Caught Geodude on Route 46.
+- Accepted Gym Challenge.
+- Caught Geodude (Basalt) on Route 46.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
