@@ -102,3 +102,8 @@
 - Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
 - Before using `find_path`, visually confirm that the target tile is traversable (e.g., not a WALL).
 - Before using `stun_npc`, check the game state to confirm the NPC is actually moving to avoid redundant actions.
+
+# Post-Critique Lessons
+- I must be more disciplined in using my own automation tools (`select_battle_option`, `pre_action_checklist`) to reduce errors and improve efficiency.
+- Manual, multi-button inputs for automatable tasks like move selection are unreliable and should be replaced with custom tools.
+- `notepad_edit` requires extreme precision. For 'replace' or 'overwrite', the `old_text` must be an exact copy. Large deletions are blocked by the system and must be broken into smaller, targeted edits.
