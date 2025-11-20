@@ -127,5 +127,45 @@
         "action_counter": 1237
       }
     ]
+  },
+  "battle_menu_nav": {
+    "description": "Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN). Accounts for current cursor position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "PACK",
+            "RUN"
+          ],
+          "description": "The option you want to select."
+        },
+        "current_cursor_position": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "PACK",
+            "RUN"
+          ],
+          "default": "FIGHT",
+          "description": "Where the cursor currently is. Defaults to FIGHT (top-left)."
+        }
+      },
+      "required": [
+        "option_to_select"
+      ]
+    },
+    "python_script": "import json\n\ntarget = input_data[\"option_to_select\"]\ncurrent = input_data.get(\"current_cursor_position\", \"FIGHT\")\n\ncoords = {\n    \"FIGHT\": (0, 0),\n    \"PKMN\": (1, 0),\n    \"PACK\": (0, 1),\n    \"RUN\": (1, 1)\n}\n\ncx, cy = coords.get(current, (0,0))\ntx, ty = coords.get(target, (0,0))\n\ndx = tx - cx\ndy = ty - cy\n\nbuttons = []\n\n# Horizontal\nif dx > 0:\n    buttons.extend([\"Right\", \"sleep 200\"] * dx)\nelif dx < 0:\n    buttons.extend([\"Left\", \"sleep 200\"] * abs(dx))\n\n# Vertical\nif dy > 0:\n    buttons.extend([\"Down\", \"sleep 200\"] * dy)\nelif dy < 0:\n    buttons.extend([\"Up\", \"sleep 200\"] * abs(dy))\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Add battle_menu_nav tool (renamed from select_battle_option) to robustly navigate the main battle menu, accounting for cursor memory.",
+        "timestamp": "2025-11-20T18:22:41.283Z",
+        "action_counter": 1292
+      }
+    ]
   }
 }
