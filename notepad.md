@@ -104,9 +104,4 @@
 - Before using `stun_npc`, check the game state to confirm the NPC is actually moving to avoid redundant actions.
 
 # Post-Critique Lessons
-- I must be more disciplined in using my own automation tools (`select_battle_option`, `pre_action_checklist`) to reduce errors and improve efficiency.
-- Manual, multi-button inputs for automatable tasks like move selection are unreliable and should be replaced with custom tools.
-- `notepad_edit` requires extreme precision. For 'replace' or 'overwrite', the `old_text` must be an exact copy. Large deletions are blocked by the system and must be broken into smaller, targeted edits.
-
-# Post-Critique Lessons
 - My `select_move` tool failed because it was stateful; it relied on the cursor's previous position. Tools that automate button presses must be stateless, for example, by resetting the cursor to a known position before execution. Deferring tool maintenance is a critical error.
