@@ -85,3 +85,6 @@
 
 # Tool Development
 - **BUG:** The `select_move` tool is faulty. It selected TACKLE instead of EMBER. It seems to always select the first move. I must fix this immediately after the current battle is over.
+
+# Tool Development Lessons
+- If a tool produces an incorrect outcome, I must not assume the problem is external (e.g., game timing). I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
