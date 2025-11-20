@@ -103,3 +103,9 @@
 
 # Violet City Intel
 - An Officer mentioned I should visit SPROUT TOWER.
+
+# Tile Mechanics
+- **LADDER**: A traversable warp tile that moves the player between floors.
+
+# Game Systems
+- I must investigate the PC in the Pokémon Center to understand its function.
