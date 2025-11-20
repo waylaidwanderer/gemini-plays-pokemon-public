@@ -64,4 +64,4 @@
 - Cherrygrove Speech House: Pokefan M advised visiting Gyms and collecting Badges.
 
 ## Route 30
-- Wild Pokémon: Caterpie (Lv 4), Pidgey (Lv 3)
+- Wild Pokémon: Caterpie (Lv 3-4), Pidgey (Lv 3)
