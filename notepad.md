@@ -97,3 +97,6 @@
 # Strategic Lessons
 - Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
 - **Bug Catcher Wade (ID 3)** on Route 31 has been defeated.
+
+# Tile Mechanics
+- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
