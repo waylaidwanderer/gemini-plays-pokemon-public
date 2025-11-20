@@ -26,6 +26,7 @@
 - **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
 - My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
 - Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
+- Before using `find_path`, visually confirm that the target tile is traversable (e.g., not a WALL).
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -37,6 +38,7 @@
 - **WINDOW**: An impassable object, functions like a wall.
 - **RADIO**: An impassable object.
 - **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
