@@ -55,7 +55,11 @@
 
 ## Route 46
 - Connections: South to Route 29/46 Gate.
-- Wild Pokémon: Rattata (Lv 3).
+- Wild Pokémon: Rattata (Lv 3), Geodude (Lv 2).
+- Traversal: TALL_GRASS is traversable.
+
+## Lessons Learned
+- Record new Pokémon discoveries immediately, even during battle.
 
 ## Cherrygrove City
 - Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
