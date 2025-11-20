@@ -80,3 +80,9 @@
 - Violet Gym: Defeated Bird Keepers Abe and Rod, and Leader Falkner.
 - Strategy Insight: Paprika's level advantage and Special Attack carried the gym.
 - Tool Lesson: `find_path` returns coordinates, not buttons.
+## Route 32
+- Connects Violet City (North) to Union Cave/Azalea (South).
+- Tile Types:
+  - FLOOR_UP_WALL: Suspected ledge (jumpable from North).
+- Trainers:
+  - Cooltrainer M (19, 8) facing Left.
