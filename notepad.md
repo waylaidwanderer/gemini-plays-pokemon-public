@@ -100,14 +100,14 @@
 - Geography: Vertical wall at x=22 blocks direct Westward travel. Must go North through grass.
 - Obstacles: Cooltrainer M patrolling (32,8) to (34,9).
 - Navigation: Head North to bypass the wall.
-## Current Map Tiles (Route 31)
-- FLOOR/TALL_GRASS: Walkable.
-- WALL/CUT_TREE/HEADBUTT_TREE: Impassable.
-- WARP_CARPET: Map transition.
-## Route 31
-- Arrived from Route 30 (South).
-- Connections: South to Route 30, West to Violet City (expected).
-- NPCs: Bug Catcher detected nearby.
-- Found Dark Cave entrance at (34, 5).
-- Picked up Potion at (29, 5).
+## Current Map Tiles (Violet City / PC)
+- FLOOR: Walkable.
+- WALL/COUNTER: Impassable.
+- WARP_CARPET_DOWN: Exit to Violet City.
+- LADDER: Warp to 2F.
+
+## Violet City Notes
+- Arrived from Route 31.
+- Locations: Pokémon Center (Healed).
+- Quest: Find Sprout Tower.
 - Lesson: Always set `autopress_buttons: true` when calling custom tools that output button presses.
