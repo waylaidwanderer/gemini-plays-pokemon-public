@@ -3,14 +3,14 @@
 
 # Current Quest: Find MR. POKEMON
 - **Objective:** Get the item from MR. POKEMON for Professor Elm.
-- **Status:** Arrived at a house on Route 30. Spoke to a POKEFAN_M who gave me a BERRY.
-- **Plan:** Verify if this is MR. POKEMON's house and if the quest is complete. Talk to the POKEFAN_M again. If nothing new, explore the house for other clues before leaving.
+- **Status:** Explored a house on Route 30. Spoke to a POKEFAN_M who gave me a BERRY. Confirmed this is NOT MR. POKEMON.
+- **Plan:** Leave this house and continue exploring Route 30 to find the correct location.
 
 # Strategic Lessons
-- I must always trust the provided game state information (especially Screen Text) over my own memory or assumptions. My perception can be flawed, but the data is the source of truth.
+- Trust the provided game state information (especially the on-screen object list) over my own visual perception. My perception can be flawed, but the data is the source of truth.
+- Do not assume a quest is complete without explicit in-game confirmation (like receiving a key item). Verify by re-interacting or exploring further if the initial interaction doesn't complete the objective.
 - When a plan repeatedly fails or seems overly complex, I must question my root hypothesis.
 - When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
-- Not all NPCs who block a path are trainers.
 - Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
 - Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
 - For moving NPCs, it's best to use the `stun_npc` tool to freeze them in place before attempting to interact.
@@ -22,6 +22,8 @@
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
 - **TV**: An impassable object.
 - **BOOKSHELF**: An impassable object.
+- **WINDOW**: An impassable object, functions like a wall.
+- **RADIO**: An impassable object.
 - **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
