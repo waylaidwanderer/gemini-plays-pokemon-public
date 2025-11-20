@@ -60,4 +60,4 @@
   - (10, 9), (9, 10), (11, 9), (9, 11)
 
 # Pokecenter2F Notes
-- The warp (DOOR) at (13, 2) is currently blocked by the Link Receptionist at (13, 3) and is inaccessible.
+- The northern rooms on this floor, containing warps at (5,0), (9,0), and (13,2), are inaccessible from the main southern area.
