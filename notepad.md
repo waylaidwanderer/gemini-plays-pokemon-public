@@ -7,6 +7,13 @@
 - **Objective:** Locate and challenge the next Gym Leader.
 - **Status:** The Sprout Tower investigation is complete.
 
+# Current Plan: Explore Violet City
+1.  ~~Enter and fully explore the Violet Mart.~~ (Completed)
+2.  Interact with all NPCs in the Violet Mart (Clerk, Granny, Cooltrainer).
+3.  Exit the Mart and continue exploring unseen areas of Violet City.
+4.  Visit the Pokémon Center to heal.
+5.  Locate the next Gym.
+
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
