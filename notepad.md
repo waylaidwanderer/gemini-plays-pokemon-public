@@ -85,3 +85,6 @@
 # NPC Interactions
 - Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger.
 - **Tool Verification:** My `check_unseen_reachability` tool provided a false negative. Lesson: If a tool's output contradicts system information (like an alert), the tool is likely flawed. I must trust the system and fix the tool immediately rather than trusting the faulty output.
+
+# Strategic Lessons
+- **Position Verification:** Always verify my current position and map against the game state information before planning an action. My memory can be unreliable and lead to hallucinations.
