@@ -77,3 +77,7 @@
 ## Route 30
 - Wild Pokémon: Caterpie (Lv 3-4), Pidgey (Lv 3)
 - Navigation: Path North at x=14 blocked by wall at y=19. Detour East at y=20.
+- Met Mr. Pokémon and received Mystery Egg.
+- Met Professor Oak and received Pokédex.
+- Oak tasked me with completing the Pokédex.
+- Mission: Return to Prof. Elm in New Bark Town.
