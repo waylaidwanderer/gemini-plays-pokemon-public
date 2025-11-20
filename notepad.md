@@ -96,14 +96,6 @@
 - **AUDREYII (BELLSPROUT):** Lv8
 - **EGG (TOGEPI):** Lv5
 
-# Current Plan: Explore Violet Mart
-1. ~~Fully explore the mart to reveal all tiles.~~ (Completed)
-2. Interact with the Granny. (Completed)
-3. Interact with the Cooltrainer at (5, 2).
-    - **Current Position:** (9, 6)
-    - **Plan:** Use `find_path` to navigate to the tile below him at (5, 3).
-4. Interact with the Clerk at (1, 3).
-5. Exit the Mart.
 - **INCENSE_BURNER**: An impassable decorative object.
 
 # Object Mechanics
