@@ -22,17 +22,6 @@
 
 ## Game Mechanics
 
-- WATER: Impassable terrain requiring Surf.
-- HEADBUTT_TREE: Obstacle similar to a wall.
-- SIGN: Read from front, impassable.
-- PC: Impassable object, interact from front.
-- TRASHCAN: Object (Acts as WALL).
-- OBJECTTYPE_SCRIPT: Object (Acts as WALL) (NPCs, Balls).
-- BOOKSHELF: Object (Acts as WALL), likely contains text.
-- WINDOW: Object (Acts as WALL).
-- TRAVEL_TIP: Object (Acts as WALL), likely contains text.
-- Keyboard: Use 'lower' to switch case.
-
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
 - Rival Defeated: Strategy (Smokescreen->Leer->Tackle) worked.
