@@ -10,6 +10,8 @@
 - Received Pokedex and Mystery Egg.
 - Defeated Rival Silver.
 - Delivered Egg to Elm. Accepted Gym Challenge.
+- Identified Rival as SILVER.
+- Received Poké Balls from Aide.
 
 ## Game Mechanics
 
