@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Travel to Violet City (Primary)
-- [ ] Catch a Geodude @ Route 46 (Secondary)
+- [x] Catch a Geodude @ Route 46 (Secondary)
 - [ ] Train Paprika to Lv 10 (Tertiary)
 
 ## Quest Log
@@ -13,6 +13,7 @@
 - Identified Rival as SILVER.
 - Received Poké Balls from Aide.
 - Mom enabled money saving.
+- Caught Geodude on Route 46.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
@@ -22,11 +23,12 @@
 ## Strategy Notes
 - Cyndaquil Plan: Focus on Speed/Sp.Atk. Get ThunderPunch later.
 - Rival Defeated: Strategy (Smokescreen->Leer->Tackle) worked.
-- Geodude: Good defense, useful for first gym (Flying) and second (Bug). Found on Route 46 (North of Route 29).
+- Geodude: Caught! Good defense, useful for first gym (Flying) and second (Bug). Found on Route 46 (North of Route 29).
 - Protocol: Mark NPCs immediately upon discovery to prevent interruptions.
 
 ## Team
-- Paprika (Cyndaquil) - Lv 8 (25/25 HP) (Moves: Tackle, Leer, Smokescreen)
+- Paprika (Cyndaquil) - Lv 8 (22/25 HP) (Moves: Tackle, Leer, Smokescreen)
+- Geodude - Lv 2 (8/14 HP) (Moves: Tackle)
 
 ## NPCs and Interactions
 - New Bark Town Teacher: "Oh! Your POKéMON is adorable! I wish I had one!"
@@ -57,6 +59,7 @@
 - Connections: South to Route 29/46 Gate.
 - Wild Pokémon: Rattata (Lv 3), Geodude (Lv 2).
 - Traversal: TALL_GRASS is traversable.
+- Discovery: Caught Geodude in grass at (5, 26).
 
 ## Lessons Learned
 - Record new Pokémon discoveries immediately, even during battle.
@@ -74,6 +77,6 @@
 - Oak tasked me with completing the Pokédex.
 - Mission: Return to Prof. Elm in New Bark Town.
 - Received urgent call from Prof. Elm about a 'disaster'. Returning to Lab immediately.
-- Defeated Rival (Red-haired boy, Name: ???) in Cherrygrove City.
+- Defeated Rival Silver in Cherrygrove City.
 - Paprika reached Level 8.
 - Lesson: Map edges often function as transitions without being explicit Warp objects; walking off the edge triggers the move.
