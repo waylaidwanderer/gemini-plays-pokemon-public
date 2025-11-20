@@ -25,12 +25,12 @@
 - Basalt (Geodude) - Lv 2 (14/14 HP) (Moves: Tackle)
 
 ## Sprout Tower
-- Goal: Reach top floor, defeat Sages, find Bellsprout.
-- Mechanics: Central pillar shakes (Teacher).
-- Layout: 2F is partitioned by a central wall. Must return to 1F to find a path to the left side of 2F.
-- Progress: Defeated Sages Nico (2F), Chow (1F), Edmond (2F). Reached 3F.
-- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F - Picked up), X Accuracy (2F Left - Picked up), Poke Ball (3F - Spotted).
-- Battles: Defeated Sage Chow (1F), Sage Edmond (2F).
+- Goal: Reach top floor (Elder), defeat Sages, find Bellsprout.
+- Mechanics: Central pillar shakes.
+- Layout: 3F reached via isolated ladder on 2F.
+- Progress: Defeated Sages Nico, Chow, Edmond, Jin. Exploring 3F.
+- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F), X Accuracy (2F), Potion (3F - Picked up).
+- Battles: Defeated Sages Chow, Edmond, Jin.
 
 ## Route 29
 - Connects New Bark Town and Cherrygrove City.
