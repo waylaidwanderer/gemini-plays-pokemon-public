@@ -70,3 +70,7 @@
 - **Hypothesis 2:** Mom is upstairs. **Result:** Failed. She was not there.
 - **Hypothesis 3:** Mom's appearance is triggered by attempting to leave the house. **Result:** Failed.
 - **Hypothesis 4:** Mom's appearance is triggered by attempting to leave New Bark Town. **Result:** Failed. I successfully transitioned to Route 29 without her appearing. I have put this objective on hold.
+
+# Party Status
+- **VULCAN (CYNDAQUIL):** Lv10
+- **CHRONO (HOOTHOOT):** Lv3
