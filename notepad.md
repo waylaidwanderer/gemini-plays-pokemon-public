@@ -61,3 +61,4 @@
 - COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
 - LADDER: Warps between floors.
 - Cherrygrove PC Fisher: Confirmed PC storage is free.
+- Cherrygrove Speech House: Pokefan M advised visiting Gyms and collecting Badges.
