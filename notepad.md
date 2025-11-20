@@ -29,7 +29,7 @@
 - Mechanics: Central pillar shakes (Teacher).
 - Layout: 2F is partitioned by a central wall. Must return to 1F to find a path to the left side of 2F.
 - Progress: Defeated Sage Nico on 2F (Right Side). Returned to 1F Outer Ring to access 2F Left Side.
-- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F), Poke Ball (2F Left - Unreachable from Right).
+- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F - Found), Poke Ball (2F Left - Unreachable from Right).
 
 ## Route 29
 - Connects New Bark Town and Cherrygrove City.
