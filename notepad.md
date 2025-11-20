@@ -100,9 +100,6 @@
 # Violet City Intel
 - An Officer mentioned I should visit SPROUT TOWER.
 
-# Object Mechanics
-- Pokémon can hold items. A Pokémon received in a trade might be holding an item.
-
 # Strategic Lessons
 - Trust the provided game state information over my own visual perception.
 - Do not assume a quest is complete without explicit in-game confirmation.
