@@ -42,23 +42,6 @@
       }
     ]
   },
-  "scan_reachable_unseen": {
-    "description": "Identifies unseen tiles that are reachable from the player's current position using a flood fill algorithm on traversable tiles. Returns a list of coordinates.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef is_traversable(tile_type):\n    traversable_types = [\n        \"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"STAIRS\", \n        \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\",\n        \"DOOR\", \"OPEN_DOOR\"\n    ]\n    return tile_type in traversable_types\n\nmap_data = ET.fromstring(map_xml_string)\nwidth = int(map_data.get(\"width\"))\nheight = int(map_data.get(\"height\"))\n\ngrid = [[None for _ in range(width)] for _ in range(height)]\nplayer_pos = None\n\nfor row in map_data.findall(\"Row\"):\n    y = int(row.get(\"id\"))\n    for tile in row.findall(\"Tile\"):\n        x = int(tile.get(\"id\"))\n        grid[y][x] = tile\n        if tile.find(\"Player\") is not None:\n            player_pos = (x, y)\n\nif not player_pos:\n    print(\"Player not found\")\n    exit()\n\nvisited = set()\nqueue = deque([player_pos])\nvisited.add(player_pos)\nreachable_unseen = []\n\ndirections = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\nwhile queue:\n    cx, cy = queue.popleft()\n    \n    for dx, dy in directions:\n        nx, ny = cx + dx, cy + dy\n        \n        if 0 <= nx < width and 0 <= ny < height:\n            if (nx, ny) in visited:\n                continue\n                \n            tile = grid[ny][nx]\n            tile_type = tile.get(\"type\")\n            is_seen = tile.get(\"seen\") == \"true\"\n            has_object = tile.get(\"has-object\") == \"true\"\n            \n            if not is_seen:\n                reachable_unseen.append((nx, ny))\n                visited.add((nx, ny))\n                continue\n            \n            if is_traversable(tile_type) and not has_object:\n                visited.add((nx, ny))\n                queue.append((nx, ny))\n\nprint(f\"Reachable unseen tiles: {reachable_unseen}\")",
-    "history": [
-      {
-        "commit_message": "feat: Add scan_reachable_unseen tool to identify reachable unseen tiles for exploration.",
-        "timestamp": "2025-11-19T22:54:46.456Z",
-        "action_counter": 59
-      },
-      {
-        "commit_message": "feat: Add scan_reachable_unseen tool to identify reachable unseen tiles for exploration.",
-        "timestamp": "2025-11-19T23:51:32.034Z",
-        "action_counter": 153
-      }
-    ]
-  },
   "find_path": {
     "description": "Calculates a path from the player's current position to a target coordinate (x, y) using BFS. Accounts for walls, objects, and one-way ledges. Returns a JSON-compatible list of coordinate objects.",
     "input_schema": {
@@ -87,6 +70,23 @@
         "commit_message": "fix: Add LADDER to traversable basic_types in find_path. Previously, the tool considered LADDER tiles as walls, preventing pathfinding to or from them.",
         "timestamp": "2025-11-20T10:46:07.670Z",
         "action_counter": 1068
+      }
+    ]
+  },
+  "scan_reachable_unseen": {
+    "description": "Identifies unseen tiles that are reachable from the player's current position using a flood fill algorithm on traversable tiles. Returns a list of coordinates.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef is_traversable(tile_type):\n    traversable_types = [\n        \"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"STAIRS\", \n        \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\",\n        \"DOOR\", \"OPEN_DOOR\"\n    ]\n    return tile_type in traversable_types\n\nmap_data = ET.fromstring(map_xml_string)\nwidth = int(map_data.get(\"width\"))\nheight = int(map_data.get(\"height\"))\n\ngrid = [[None for _ in range(width)] for _ in range(height)]\nplayer_pos = None\n\nfor row in map_data.findall(\"Row\"):\n    y = int(row.get(\"id\"))\n    for tile in row.findall(\"Tile\"):\n        x = int(tile.get(\"id\"))\n        grid[y][x] = tile\n        if tile.find(\"Player\") is not None:\n            player_pos = (x, y)\n\nif not player_pos:\n    print(\"Player not found\")\n    exit()\n\nvisited = set()\nqueue = deque([player_pos])\nvisited.add(player_pos)\nreachable_unseen = []\n\ndirections = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\nwhile queue:\n    cx, cy = queue.popleft()\n    \n    for dx, dy in directions:\n        nx, ny = cx + dx, cy + dy\n        \n        if 0 <= nx < width and 0 <= ny < height:\n            if (nx, ny) in visited:\n                continue\n                \n            tile = grid[ny][nx]\n            tile_type = tile.get(\"type\")\n            is_seen = tile.get(\"seen\") == \"true\"\n            has_object = tile.get(\"has-object\") == \"true\"\n            \n            if not is_seen:\n                reachable_unseen.append((nx, ny))\n                visited.add((nx, ny))\n                continue\n            \n            if is_traversable(tile_type) and not has_object:\n                visited.add((nx, ny))\n                queue.append((nx, ny))\n\nprint(f\"Reachable unseen tiles: {reachable_unseen}\")",
+    "history": [
+      {
+        "commit_message": "feat: Add scan_reachable_unseen tool to identify reachable unseen tiles for exploration.",
+        "timestamp": "2025-11-19T22:54:46.456Z",
+        "action_counter": 59
+      },
+      {
+        "commit_message": "feat: Add scan_reachable_unseen tool to identify reachable unseen tiles for exploration.",
+        "timestamp": "2025-11-19T23:51:32.034Z",
+        "action_counter": 153
       }
     ]
   },

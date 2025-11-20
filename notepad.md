@@ -23,9 +23,8 @@
 - Sprout Tower 3F Mechanics: Verified FLOOR is traversable. Verified WALL and STATUE are impassable.
 
 ## Sprout Tower
-- Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F), X Accuracy (2F), Potion (3F - Picked up).
-- Item at (14, 1): Needs pickup.
-- Note: Ladder to 2F is at (10, 14).
+- Status: Cleared. Defeated Sage Li. Obtained HM05 Flash.
+- Items: Collected Potion, Escape Rope (14,1).
 
 ## Route 29
 - Connects New Bark Town and Cherrygrove City.
