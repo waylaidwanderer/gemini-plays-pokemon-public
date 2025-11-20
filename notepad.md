@@ -1,7 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Travel to Violet City (Primary)
+- [x] Travel to Violet City
+- [ ] Heal Party at Violet City (Immediate)
 - [ ] Switch Basalt to Lead (Secondary)
 - [ ] Train Basalt to Lv 6 (Tertiary)
 - [x] Heal Party at Cherrygrove
