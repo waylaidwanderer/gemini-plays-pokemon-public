@@ -99,3 +99,4 @@
 
 # Violet City Intel
 - An Officer mentioned I should visit SPROUT TOWER.
+- **DOOR**: A traversable warp tile leading into or out of a building.
