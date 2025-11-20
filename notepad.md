@@ -105,3 +105,6 @@
 4. Interact with the Clerk at (1, 3).
 5. Exit the Mart.
 - **INCENSE_BURNER**: An impassable decorative object.
+
+# Object Mechanics
+- **TEACHER / LASS / BIRD**: These objects are impassable and function as walls.
