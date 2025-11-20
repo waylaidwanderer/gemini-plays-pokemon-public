@@ -13,9 +13,6 @@
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 
 # Strategic Lessons
-
-- Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
-- **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 - **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
 - **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
@@ -83,9 +80,6 @@
 - An Officer mentioned I should visit SPROUT TOWER.
 
 # Strategic Lessons
-
-- Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
-- **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
 - **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 - **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
 - **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
