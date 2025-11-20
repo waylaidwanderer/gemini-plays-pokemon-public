@@ -99,7 +99,23 @@
 
 # Violet City Intel
 - An Officer mentioned I should visit SPROUT TOWER.
-- **DOOR**: A traversable warp tile leading into or out of a building.
 
 # Object Mechanics
 - Pokémon can hold items. A Pokémon received in a trade might be holding an item.
+
+# Strategic Lessons
+- Trust the provided game state information over my own visual perception.
+- Do not assume a quest is complete without explicit in-game confirmation.
+- When a plan repeatedly fails, I must question my root hypothesis.
+- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
+- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
+- Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
+- **CRITICAL:** Before pathfinding near a moving NPC, ALWAYS use `stun_npc` to freeze them first. This is far more efficient than manual tracking.
+- **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
+- **CRITICAL:** Trust and consistently use my own tools (`select_battle_option`, `pre_action_checklist`, etc.) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
+- **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
+- **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
+- My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause might be my incorrect assumption about its input data (e.g., `map_xml_string` only contains seen tiles), not a flaw in the algorithm. I must trust the tool's output as a reflection of the data it sees.
+- Before pathfinding, I must visually inspect the map for one-way traversal tiles like ledges. My tools are only as good as my understanding of the map mechanics. `find_path` returning 'No path found' is critical information about the map's structure, not a tool failure.
+- Before using `find_path`, visually confirm that the target tile is traversable (e.g., not a WALL).
+- Before using `stun_npc`, check the game state to confirm the NPC is actually moving to avoid redundant actions.
