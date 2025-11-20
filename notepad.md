@@ -82,3 +82,5 @@
 - Encountered Sage (Name Unknown) in 2F Left Southern Corridor.
 - Pathfinding tools treat 'unseen' tiles as walls. Verify boundaries manually if pathfinding fails.
 - Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp).
+- Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
+- Received phone call from Youngster Joey.
