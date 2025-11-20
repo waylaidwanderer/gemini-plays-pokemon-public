@@ -73,3 +73,4 @@
 - **WEAVER (SPINARAK):** Lv3
 - **AUDREYII (BELLSPROUT):** Lv8
 - **EGG (TOGEPI):** Lv5
+- **Game State Verification:** If a tool fails unexpectedly (e.g., `select_battle_option` outside of battle) or an interaction doesn't work, the first step is to verify the game state. I must confirm I am not hallucinating (e.g., imagining a battle or an item) before attempting the action again or debugging the tool.
