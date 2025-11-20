@@ -108,3 +108,7 @@
 - DOOR: Warp.
 - WARP_CARPET_DOWN: Exit to Cherrygrove.
 - Obstacle: Path West at (9, 7) blocked. East side (Column 12) is a DEAD END at Row 2. Must navigate via West side (Row 30 crossover).
+## Route 31
+- Arrived from Route 30 (South).
+- Connections: South to Route 30, West to Violet City (expected).
+- NPCs: Bug Catcher detected nearby.
