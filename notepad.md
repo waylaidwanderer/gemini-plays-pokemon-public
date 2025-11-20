@@ -84,18 +84,17 @@
 - Connects Violet City (North) to Union Cave/Azalea (South).
 - Mechanics: `FLOOR_UP_WALL` tiles are impassable walls from the North (Verified).
 - Trainers:
-  - Cooltrainer M (19, 8) - Avoided.
-  - Fisher (15, 13) - Inaccessible.
-  - Youngster Albert (15, 22) - Defeated.
-  - Lass (10, 30) - Avoided.
-  - Youngster (3, 45) - Avoided.
-  - Fisher (6, 48) - Inaccessible (Bridge).
-  - Youngster Gordon (4, 63) - Defeated.
-  - Fisher (7, 70) - Facing Down (Upcoming).
+  - Youngster Albert (15, 22) [Defeated]
+  - Cooltrainer M (19, 8) [Avoided]
+  - Lass (10, 30) [Avoided]
+  - Youngster (3, 45) [Avoided]
+  - Youngster Gordon (4, 63) [Defeated]
+  - Scam Fisher (7, 70) [Declined Offer]
+  - Fisher (15, 13) [Inaccessible]
+  - Fisher (6, 48) [Inaccessible - Bridge]
 - Items:
   - Item Ball at (6, 53) (Bridge).
-- Navigation:
-  - Reached Pokémon Center at (11, 73).
-  - Encountered Scam Fisher at (7, 70).
 - Key Items:
   - Old Rod (Obtained in Route 32 Pokémon Center).
+- Navigation:
+  - Reached Pokémon Center at (11, 73).
