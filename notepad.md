@@ -2,13 +2,14 @@
 
 ## Current Goals
 - [ ] Defeat Gym Leader Falkner (Primary)
-- [ ] Reach Top of Sprout Tower (Secondary)
+- [ ] Get HM from Elder (Secondary)
 - [ ] Catch Bellsprout (Secondary)
 - [ ] Train Basalt to Lv 6 (Tertiary)
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
-- Reached Sprout Tower 2F. Defeated Sage Nico.
+- Encountered Rival Silver at Sprout Tower 3F (He used an Escape Rope).
+- Sprout Tower: Defeated Sages Nico, Chow, Edmond, Jin, Neal, Troy.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
@@ -16,21 +17,14 @@
 - LADDER: Warps between floors.
 
 ## Strategy Notes
-- Team: Cyndaquil (Speed/Sp.Atk), Geodude (Def vs Flying/Bug).
+- Team Strategy: Cyndaquil (Speed/Sp.Atk), Geodude (Def vs Flying/Bug).
 - Tactics: Smokescreen vs physical attackers.
 - Protocol: Mark NPCs immediately.
 
-## Team
-- Paprika (Cyndaquil) - Lv 10 (25/29 HP) (Moves: Tackle, Leer, Smokescreen)
-- Basalt (Geodude) - Lv 2 (14/14 HP) (Moves: Tackle)
-
 ## Sprout Tower
-- Goal: Reach top floor (Elder), defeat Sages, find Bellsprout.
-- Mechanics: Central pillar shakes.
-- Layout: 3F reached via isolated ladder on 2F.
-- Progress: Defeated Sages Nico, Chow, Edmond, Jin. Exploring 3F.
+- Goal: Talk to Elder (3F) for HM.
 - Items: Potion (1F), X Accuracy (1F), Parlyz Heal (1F), X Accuracy (2F), Potion (3F - Picked up).
-- Battles: Defeated Sages Chow, Edmond, Jin.
+- Note: Ladder to 2F is at (10, 14).
 
 ## Route 29
 - Connects New Bark Town and Cherrygrove City.
@@ -84,6 +78,3 @@
 - Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp).
 - Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor). Path east is currently blocked by him.
 - Received phone call from Youngster Joey.
-- Defeated Sage Jin (3F). Paprika learned Ember.
-- Defeated Sage Neal (3F).
-- Defeated Sage Troy (3F). Basalt grew to Lv 3.

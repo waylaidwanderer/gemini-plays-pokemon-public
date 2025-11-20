@@ -152,7 +152,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nmove_index = int(input_data['move_index'])\nbuttons = []\nfor _ in range(move_index - 1):\n    buttons.append('Down')\n    buttons.append('sleep 200')\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nmove_index = int(input_data['move_index'])\nbuttons = []\n\n# Step 1: Enter Fight Menu\nbuttons.append(\"A\")\nbuttons.append(\"sleep 250\")\n\n# Step 2: Navigate to the specific move\n# Assumes cursor starts at move 1\nnum_downs = move_index - 1\nfor _ in range(num_downs):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n\n# Step 3: Select the move\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create use_move tool to automate battle menu navigation, bypassing the manual input mixing restriction.",
@@ -163,6 +163,11 @@
         "commit_message": "fix: Remove consecutive sleep commands which caused execution failure.",
         "timestamp": "2025-11-20T17:21:23.526Z",
         "action_counter": 1227
+      },
+      {
+        "commit_message": "fix: Resolve syntax error by removing consecutive sleep commands and ensuring correct button sequence for entering the Fight menu and selecting a move.",
+        "timestamp": "2025-11-20T17:27:23.862Z",
+        "action_counter": 1232
       }
     ]
   }
