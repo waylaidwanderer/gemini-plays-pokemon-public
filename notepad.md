@@ -4,7 +4,7 @@
 # Current Quest: Return the MYSTERY EGG
 - **Objective:** Get the MYSTERY EGG to Professor Elm.
 - **Status:** Received MYSTERY EGG from MR. POKEMON and POKéDEX from PROF. OAK. Now returning to New Bark Town.
-- **Plan:** Exit MR. POKEMON's house and travel south through Route 30 and Cherrygrove City.
+- **Plan:** Travel east through Route 29 to New Bark Town.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
@@ -45,6 +45,7 @@
 # Reminders & Untested Hypotheses
 - Investigate the second warp tile at (5, 11) in Elm's Lab to confirm its destination.
 - Investigate the properties of `LONG_GRASS` tiles when first encountered.
+- Investigate unmarked warp at (31, 11) in Cherrygrove City.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -60,14 +61,7 @@
 - YOUNGSTER (ID 5) on Route 30 has been defeated.
 - YOUNGSTER (ID 1) at (5, 26) on Route 30 is an active trainer.
 
-# Reminders & Untested Hypotheses
-- Investigate unmarked warp at (31, 11) in Cherrygrove City.
-
 # Battle Lessons
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense. Opponents can still land hits.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
 - Do not mix directional and action buttons in a single input sequence.
-
-# Battle Lessons
-- Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense. Opponents can still land hits.
-- The auto-activation threshold for a held BERRY is likely below 25% HP.
