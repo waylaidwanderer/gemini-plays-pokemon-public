@@ -84,3 +84,6 @@
 # Strategic Lessons (Updates)
 - **Map Transition Mechanic:** To move between outdoor maps (like towns and routes), I must move *off* the edge of the current map from a valid transition tile. Simply standing on the tile is not enough.
 - **CRITICAL LESSON (Hallucination Prevention):** Before stating my location or making a navigational plan, I MUST verify my assumed position against the `current_map_id` and `current_position` provided in the Game State Information. This is non-negotiable.
+
+# Route 30 NPC Interactions
+- Youngster (ID 3) at (5, 23) provides dialogue but does not initiate a battle after three interaction attempts. He is likely a non-battling NPC.
