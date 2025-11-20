@@ -21,15 +21,7 @@
 - Received Berry from Pokefan.
 
 ## Game Mechanics
-- FLOOR: Standard traversable tile.
-- LEDGE_HOP_DOWN: One-way jumpable ledge (South only).
-- LEDGE_HOP_LEFT: One-way jumpable ledge (West only).
-- LEDGE_HOP_RIGHT: One-way jumpable ledge (East only).
-- STAIRCASE: Warps between floors.
-- WALL: Impassable obstacle.
-- TV: Object (Acts as WALL).
-- WARP_CARPET_DOWN: Exits the map downwards.
-- DOOR: Entryway to a building.
+
 - WATER: Impassable terrain requiring Surf.
 - HEADBUTT_TREE: Obstacle similar to a wall.
 - SIGN: Read from front, impassable.
