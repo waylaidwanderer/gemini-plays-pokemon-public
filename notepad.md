@@ -104,3 +104,4 @@
 - Received MIRACLE SEED from a trainer on Route 32. It boosts Grass-type moves.
 - **Position Verification:** My internal sense of position can be unreliable and lead to hallucinations. I must always verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction, especially after a map transition.
 - **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
+- **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief, the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately challenge my own assumptions about game mechanics or map layout, rather than trying to 'fix' a tool that is functioning correctly.
