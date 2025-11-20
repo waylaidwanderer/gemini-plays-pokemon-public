@@ -100,3 +100,6 @@
 # Violet City Intel
 - An Officer mentioned I should visit SPROUT TOWER.
 - **DOOR**: A traversable warp tile leading into or out of a building.
+
+# Object Mechanics
+- Pokémon can hold items. A Pokémon received in a trade might be holding an item.
