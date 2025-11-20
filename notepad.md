@@ -2,21 +2,18 @@
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 
 # Current Quest: Find MR. POKEMON
-- **Objective:** Find MR. POKEMON for Professor Elm.
-- **Location:** Past Cherrygrove City.
-- **Plan:**
-    1. Leave Cherrygrove City and find Route 30.
-    2. Traverse Route 30 to find MR. POKEMON's house.
+- **Objective:** Get the item from MR. POKEMON for Professor Elm.
+- **Status:** Arrived at a house on Route 30. Spoke to a POKEFAN_M who gave me a BERRY.
+- **Plan:** Verify if this is MR. POKEMON's house and if the quest is complete. Talk to the POKEFAN_M again. If nothing new, explore the house for other clues before leaving.
 
 # Strategic Lessons
 - I must always trust the provided game state information (especially Screen Text) over my own memory or assumptions. My perception can be flawed, but the data is the source of truth.
-- When a plan repeatedly fails or seems overly complex, I must question my root hypothesis. I must verify foundational assumptions before building complex strategies on top of them.
-- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools (like `find_path`) to incorporate the new logic.
-- My tools are only as reliable as I make them. I must test them against *all* known game mechanics after creation or modification.
-- Not all NPCs who block a path are trainers. If interaction leads to looped dialogue instead of a battle, they are likely a non-battling NPC and I should move on.
-- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken. I must re-evaluate the map layout.
-- Some maps can be partitioned, making certain areas inaccessible from others on the same floor (e.g., Pokecenter 2F).
-- For moving NPCs, it's best to use the `stun_npc` tool to freeze them in place before attempting to interact. This prevents them from walking away and causing the interaction to fail.
+- When a plan repeatedly fails or seems overly complex, I must question my root hypothesis.
+- When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
+- Not all NPCs who block a path are trainers.
+- Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
+- Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
+- For moving NPCs, it's best to use the `stun_npc` tool to freeze them in place before attempting to interact.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -54,6 +51,3 @@
   - (38, 2), (39, 2), (40, 2), (41, 2), (42, 3), (43, 2), (44, 2), (45, 2)
   - (11, 6), (11, 7), (11, 8)
   - (10, 9), (9, 10), (11, 9), (9, 11)
-
-# Pokecenter2F Notes
-- The northern rooms on this floor, containing warps at (5,0), (9,0), and (13,2), are inaccessible from the main southern area. The warp at (13,2) is also blocked by an NPC.
