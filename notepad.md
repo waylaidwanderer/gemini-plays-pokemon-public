@@ -61,3 +61,9 @@
 
 # Pokecenter2F Notes
 - The northern rooms on this floor, containing warps at (5,0), (9,0), and (13,2), are inaccessible from the main southern area.
+
+# Tile Mechanics
+- **DOOR**: A traversable warp tile leading into or out of a building.
+
+# Strategic Lessons
+- Maps can be partitioned. Just because an area is on the same map doesn't mean it's accessible from every other point on that map. Some sections may only be reachable via specific warps or events.
