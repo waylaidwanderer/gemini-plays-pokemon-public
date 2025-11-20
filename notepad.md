@@ -11,12 +11,12 @@
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 
-# Strategic Lessons & Tool Usage
-- **`notepad_edit`:** When using the "replace" action, `old_text` must be an EXACT match. The 'overwrite' action is best for major reorganization.
-- **Tool Trust:** My custom tools operate ONLY on the data provided to them. If `find_path` fails, the root cause is likely my incorrect assumption about the map layout or its input data (`map_xml_string` only contains seen tiles), not a flaw in the algorithm. Trust the tool's output as a reflection of the data it sees and use it to correct my understanding of the map.
+# Strategic Lessons
+- **Tool Trust & Map Layout:** If `find_path` returns "No path found," trust it. It likely indicates a fundamental division in the map layout (like a wall), not just a simple obstacle. Use this information to re-evaluate the entire area's structure instead of repeating failed pathing attempts.
 - **Tool Maintenance:** If a tool produces an incorrect outcome, I must not assume the problem is external. I must first verify the tool's own logic and output. Deferring tool maintenance is a critical failure.
-- **Automation:** I must trust and consistently use my own tools (like `select_battle_option`) to improve efficiency and reduce errors. Manual inputs for automatable tasks are a bad habit.
+- **Automation:** I must trust and consistently use my own tools (like `select_battle_option`) to improve efficiency and reduce errors.
 - **Item Interaction:** Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
+- **Data Hygiene:** Map markers for resolved events (like collected items) must be deleted immediately to avoid confusion and wasted turns.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
