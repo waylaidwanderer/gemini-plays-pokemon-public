@@ -3,17 +3,18 @@
 
 # Current Quest: Find MR. POKEMON
 - **Objective:** Get the item from MR. POKEMON for Professor Elm.
-- **Status:** Explored a house on Route 30. Spoke to a POKEFAN_M who gave me a BERRY. Confirmed this is NOT MR. POKEMON.
-- **Plan:** Leave this house and continue exploring Route 30 to find the correct location.
+- **Status:** Defeated Youngster Joey on Route 30.
+- **Plan:** Continue heading north on Route 30.
 
 # Strategic Lessons
 - Trust the provided game state information (especially the on-screen object list) over my own visual perception. My perception can be flawed, but the data is the source of truth.
-- Do not assume a quest is complete without explicit in-game confirmation (like receiving a key item). Verify by re-interacting or exploring further if the initial interaction doesn't complete the objective.
+- Do not assume a quest is complete without explicit in-game confirmation (like receiving a key item).
 - When a plan repeatedly fails or seems overly complex, I must question my root hypothesis.
 - When I discover a new tile mechanic or game rule, I must immediately review and update any relevant custom tools.
 - Trust the output of my tools. If `find_path` returns "No path found," it's a strong indicator that my assumption about the path is wrong, not that the tool is broken.
 - Some maps can be partitioned, making certain areas inaccessible from others on the same floor.
-- For moving NPCs, it's best to use the `stun_npc` tool to freeze them in place before attempting to interact.
+- **CRITICAL:** Before attempting complex manual interactions with moving NPCs, ALWAYS use the `stun_npc` tool to freeze them. This is far more efficient than manual tracking.
+- **CRITICAL:** When using `notepad_edit` with the "replace" action, the `old_text` must be an EXACT match. Copy from system suggestions if available to avoid errors.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -55,4 +56,4 @@
   - (10, 9), (9, 10), (11, 9), (9, 11)
 
 # NPC Behavior
-- YOUNGSTER (ID 5) on Route 30 moves back and forth. Last observed path: (7, 30) -> (8, 30) -> (7, 30) -> (8, 30) -> (7, 30) -> (8, 30).
+- YOUNGSTER (ID 5) on Route 30 has been defeated.
