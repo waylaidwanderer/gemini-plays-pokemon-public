@@ -106,3 +106,4 @@
 - Received MIRACLE SEED from a trainer on Route 32.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - Normal-type moves (like TACKLE) are not very effective against Rock/Ground-types (like GEODUDE).
+- **Map Marker Hygiene:** When updating a marker for an object (e.g., after defeating a trainer), the old marker must be deleted to prevent redundant and conflicting information. Markers should also be linked to their corresponding `object_id` whenever possible to ensure they move with the object.
