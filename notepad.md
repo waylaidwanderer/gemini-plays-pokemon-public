@@ -71,20 +71,9 @@
 - Violet Gym: Defeated Bird Keepers Abe and Rod, and Leader Falkner.
 - Strategy Insight: Paprika's level advantage and Special Attack carried the gym.
 
-## Route 32
-- Connects Violet City (North) to Union Cave/Azalea (South).
-- Trainers Defeated: Youngster Albert (15, 22), Youngster Gordon (4, 63), Youngster at (11, 80).
-- Trainers Avoided: Cooltrainer M (19, 8), Lass (10, 30), Youngster (3, 45).
-- Important NPCs: Scam Fisher (7, 70) [Declined Offer].
-- Items: Item Ball at (6, 53) (Bridge).
-- Key Items: Old Rod (Obtained in Route 32 Pokémon Center).
-
-## Union Cave (Cleared)
-- Trainers Defeated: Hiker Daniel, Hiker Russell, Firebreather Bill, Pokemaniac Larry.
-- Loot: Potion, Great Ball, X Attack, X Defend, TM39 (Swift).
-- Captures: Geodude (Basalt), Sandshrew (Dune).
-- Mechanics: FLOOR_UP_WALL tiles act as climbable ramps (South->North) and ridges (East-West).
-- Exited via 1F warp (17, 31) to Route 33.
+## Route 32 & Union Cave (Cleared)
+- **Route 32:** Connects Violet to Cave. Old Rod obtained.
+- **Union Cave:** Cleared. FLOOR_UP_WALL acts as ramp (S->N) and ridge (E-W).
 
 ## Route 33
 - Geography: Short route connecting Union Cave and Azalea Town.
