@@ -136,18 +136,14 @@
 - **Interaction Loop Failures:** If an interaction (like using a menu or switch) fails repeatedly, do not repeat the same input. The root hypothesis about the game mechanic is likely flawed. Immediately stop, re-observe the screen state, and form a new, simple hypothesis to test. For example: H1: 'A' opens the menu. H2: 'A' confirms the selection. H3: The interaction object only sets a state, and another action is needed elsewhere. Document this scientific process to avoid getting stuck.
 
 # Goldenrod Dept Store B1F Puzzle
-**Objective:** Move the boxes to reach the items.
-**Key Objects:** Machoke at (7, 7), 3 Black Belt NPCs.
-**Failed Hypotheses:**
-1. Interacting with Machoke from above (at 7, 6) will move it.
-2. Interacting with Machoke from the right (at 8, 7) will move it.
-3. Interacting with Machoke from the left (at 6, 7) will move it.
-4. Talking to the Black Belt at (9, 10) will provide a clue.
-5. Talking to the Black Belt at (4, 8) will provide a clue.
-6. Talking to all Black Belt NPCs will trigger the Machoke.
-7. Defeating the Black Belt NPCs is required.
-8. Talking to the Black Belt at (4, 8) immediately before the Machoke is the trigger.
-9. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
+**Objective:** Manipulate the moving Black Belts to change the wall layout and create a path to the items.
+**Key Objects:** Machoke at (7, 7), 3 Black Belt NPCs (2 static, 1 moving).
+**Puzzle Mechanic Hypothesis:** The moving Black Belt NPCs act as switches. Their position on the map determines which walls are active. Interacting with them or causing them to move changes the maze layout.
+**Confirmed Observations:**
+- Player movement near the Black Belts triggers wall changes.
+- At (9, 5), walls appeared at (10, 9) and (11, 9).
+- At (9, 8), walls disappeared at (10, 12) and (11, 12).
+- At (9, 9), walls disappeared at (10, 13) and (11, 13).
 - **Positional Hallucination Mitigation:** I have repeatedly misidentified my own coordinates after a planned movement. This is a critical failure. I MUST ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY movement action, especially a `path_plan`, before planning my next move. The Game State is the only source of truth.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 
