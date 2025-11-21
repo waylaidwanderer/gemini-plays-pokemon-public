@@ -70,3 +70,7 @@
 - NPCs: Teacher, Lass, and a Butterfree sprite.
 - Received TM12 (Sweet Scent) from Teacher in Route 34 Gatehouse.
 - Lore: Ilex Forest Shrine honors a grass-type protector (implied Celebi).
+
+## Route 34
+- **Geography:** South end connects to Ilex Forest Gate.
+- **Status:** Just arrived.
