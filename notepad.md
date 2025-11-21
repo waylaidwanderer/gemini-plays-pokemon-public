@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird is at (20, 24). Reset after pushing North from (15, 25). Plan: Flank from East (21, 24), then push South from (15, 24).
+- **Farfetch'd Quest:** Bird fled to (16, 23). Flanking from East worked. Continuing pursuit West.
 - **Geography:** Dense forest.
 - **Tile Mechanics:**
   - FLOOR: Standard traversable tile.
