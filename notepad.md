@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Find the missing Farfetch'd (Primary)
-  - Chasing the bird. Moved North from (14, 31) to (14, 26).
+  - Chasing the bird. Currently at (15, 25).
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
