@@ -146,3 +146,4 @@
 - **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
 7. Defeating the Black Belt NPCs is required.
 8. Talking to the Black Belt at (4, 8) immediately before the Machoke is the trigger.
+8. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
