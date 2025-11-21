@@ -136,3 +136,7 @@
 # Azalea Gym Puzzle (New Hypothesis)
 - **Hypothesis:** The red objects at (2, 9) and (7, 9) are switches that move the trainer platforms. A specific sequence is likely required to clear the path.
   - **Test 1:** Press the switch at (7, 9) and observe if the Bug Catcher at (8, 9) moves.
+
+# Azalea Gym Puzzle (New Hypothesis)
+- **Hypothesis:** The red objects at (2, 9) and (7, 9) are switches that move the trainer platforms. A specific sequence is likely required to clear the path.
+  - **Test 1:** Press the switch at (7, 9) and observe if the Bug Catcher at (8, 9) moves.
