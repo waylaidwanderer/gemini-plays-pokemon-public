@@ -4,9 +4,9 @@
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 - BERRY trees grow new BERRIES every day.
 
-# Current Quest: Explore Route 34
-- **Objective:** Navigate through Route 34 to reach the next city.
-- **Status:** Currently on the main path of Route 34.
+# Current Quest: Explore Goldenrod Department Store
+- **Objective:** Fully explore all floors of the Goldenrod Department Store.
+- **Status:** Currently on the Roof (GoldenrodDeptStoreRoof).
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -78,8 +78,8 @@
 # Tile Mechanics
 - **WALL**: Impassable terrain.
 - **FLOOR**: A standard, fully traversable tile.
-- **TOWN_MAP**: An interactable object on a wall; impassable.
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
+- **TOWN_MAP**: An interactable object on a wall; impassable.
 - **TV**: An impassable object.
 - **BOOKSHELF**: An impassable object.
 - **WINDOW**: An impassable object, functions like a wall.
