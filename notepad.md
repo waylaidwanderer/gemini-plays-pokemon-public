@@ -5,7 +5,7 @@
 
 # Current Quest: Find the Next Gym
 - **Objective:** Locate and challenge the next Gym Leader.
-- **Status:** Exploring Union Cave to find the next town.
+- **Status:** Exploring Route 33 to find the next town.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
