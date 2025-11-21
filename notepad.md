@@ -147,3 +147,4 @@
 7. Defeating the Black Belt NPCs is required.
 8. Talking to the Black Belt at (4, 8) immediately before the Machoke is the trigger.
 8. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
+- **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
