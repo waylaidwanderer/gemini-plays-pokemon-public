@@ -110,4 +110,4 @@
   - Slowpoke (7, 4): Has Mail. "Be good and look after the house. Love, Dad".
 - **Navigation & Hypotheses:**
   - **Path to East:** Accessible via gap at (8, 6).
-  - **FLOOR_UP_WALL (Row 2):** Suspected climbable ramps (South->North). Plan to test at (11, 2) via East path.
+  - **FLOOR_UP_WALL (Row 2):** Verified climbable ramps (South->North). Can be traversed horizontally and jumped down from (North->South).
