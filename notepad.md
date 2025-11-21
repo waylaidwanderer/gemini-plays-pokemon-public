@@ -109,3 +109,6 @@
 - **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors. Inconsistent use is a failure of strategy and defeats the purpose of creating the tools in the first place.
 - **Pathfinding to Unseen Tiles:** Attempting to pathfind directly to an 'unseen' tile will always fail. I must explore incrementally by setting navigation goals to the closest visible and confirmed coordinates adjacent to the unexplored area.
 - **Position Verification:** My internal sense of position is fallible and can lead to hallucinations (e.g., misremembering the location of the Gym). I must always verify my current `(x, y)` coordinates from the Game State Information before planning any path or interaction.
+
+# Crafting
+- Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
