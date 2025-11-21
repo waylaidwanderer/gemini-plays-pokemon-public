@@ -97,8 +97,9 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town & Slowpoke Well
-- Status: Exploring Slowpoke Well B1F.
-- Mission: Clear Team Rocket to save the Slowpoke.
+- Status: Preparing to challenge Azalea Gym.
+- Mission: Defeat Leader Bugsy.
+- Note: Cleared Slowpoke Well. Received Lure Ball from Kurt.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5).
 
 ### Slowpoke Well B1F
