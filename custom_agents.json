@@ -1,1 +1,9 @@
-{}
+{
+  "strategic_advisor": {
+    "agent_name": "strategic_advisor",
+    "agent_description": "Analyzes the current game state, including goals, party status, and location, to recommend the next strategic objective.",
+    "agent_system_prompt": "You are a Pokémon Crystal strategy expert. Your goal is to provide a clear, actionable recommendation for the player's next primary objective. Analyze the provided player goals, party composition, current location, and known map information. Your output must be a single, concise strategic suggestion.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"},\"current_location\":{\"type\":\"string\"},\"party_summary\":{\"type\":\"string\"}},\"required\":[\"primary_goal\",\"current_location\",\"party_summary\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"description\":\"The recommended next strategic objective.\"},\"reasoning\":{\"type\":\"string\",\"description\":\"A brief explanation for the recommendation.\"}},\"required\":[\"recommendation\",\"reasoning\"]}"
+  }
+}
