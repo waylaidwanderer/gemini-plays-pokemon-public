@@ -25,7 +25,7 @@
 - Party: Kaen (Cyndaquil) Lv7.
 
 # Inventory & Resources
-- Items: Potion x1.
+- Items: Antidote x1, Berry x2, Potion x1.
 - Key Items: Map Card.
 - Money: ¥3000.
 
