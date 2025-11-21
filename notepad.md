@@ -126,3 +126,13 @@
 - **Trust Tools Over Assumptions:** When a trusted tool (like `find_path`) reports a failure, I must assume my own understanding of the game state is wrong, not the tool. I will immediately re-evaluate my root hypothesis about the map layout or accessibility.
 - **Immediate Maintenance:** All data hygiene (marker cleanup) and tool maintenance (fixing bugs, ensuring consistency) tasks must be performed in the immediate turn they are identified. Deferring these tasks creates cascading failures.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
+
+# Ilex Forest - Farfetch'd Puzzle
+**Hypothesis:** The Farfetch'd moves away from the player in a predictable pattern. The puzzle is to herd it into a corner.
+
+**Test 1:**
+1. **Objective:** Observe Farfetch'd's reaction to direct approach.
+2. **Starting Position:** (13, 34)
+3. **Action:** Move to (14, 32), the tile directly south of the Farfetch'd's current position (14, 31).
+4. **Expected Outcome:** The Farfetch'd will move away from me, likely north.
+5. **Conclusion:** (To be filled in after the test)
