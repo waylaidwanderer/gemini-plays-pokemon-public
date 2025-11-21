@@ -114,3 +114,4 @@
   - Receptionists: (16, 2) & (18, 2).
   - Gentleman (5, 10).
   - Pokefan M (11, 10): Coin Case tip source.
+- **Tool Constraint:** `notepad_edit` 'overwrite' fails if >20% change. Use 'replace' or 'append' instead.
