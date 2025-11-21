@@ -21,7 +21,8 @@
 # Encounters & Area Data
 - Route 29: Rattata, Hoothoot (Night).
 - Route 46: Rattata, Spearow, Geodude (Found in Grass).
-- Party: Kaen (Cyndaquil) Lv6.
+- Route 30: Caterpie (Morning/Day).
+- Party: Kaen (Cyndaquil) Lv7.
 
 # Inventory & Resources
 - Items: Potion x1.
