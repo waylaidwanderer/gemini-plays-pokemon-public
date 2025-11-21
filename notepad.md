@@ -99,6 +99,6 @@
 
 ## Azalea Town
 - Status: Arrived from Route 33.
-- Locations: Slowpoke Well (31, 7) [Blocked by Rocket], House (21, 13).
-- NPCs: Rocket Grunt (31, 9), Gramps (Moving near 21, 8).
-- Immediate Goal: Find Pokémon Center (Critical).
+- Locations: Pokémon Center (15, 9), Slowpoke Well (31, 7) [Blocked by Rocket], House (21, 13).
+- NPCs: Rocket Grunt (31, 9), Gramps (20, 9), Teacher (15, 13).
+- Immediate Goal: Heal at Pokémon Center.
