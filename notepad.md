@@ -141,9 +141,14 @@
 1. **Objective:** Observe Farfetch'd's reaction to being approached from the side.
 2. **Conclusion:** Test failed. The path to the target tile (15, 31) is blocked by the Farfetch'd itself.
 
-**Test 3:**
+**Test 3 (Attempt 1):**
+1. **Hypothesis:** The Farfetch'd moves when the player steps on the patches of dry leaves.
+2. **Action:** Attempt to move to (14, 29).
+3. **Conclusion:** Test failed. Path is blocked by the Farfetch'd at (14, 31).
+
+**Test 3 (Attempt 2):**
 1. **Hypothesis:** The Farfetch'd moves when the player steps on the patches of dry leaves.
 2. **Starting Position:** (14, 32)
-3. **Action:** Move to (14, 29), the nearest leaf pile.
+3. **Action:** Move to an alternate leaf pile at (15, 29).
 4. **Expected Outcome:** The Farfetch'd will move in response to the sound.
 5. **Conclusion:** (To be filled in after the test)
