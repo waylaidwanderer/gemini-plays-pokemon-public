@@ -85,3 +85,4 @@
   - WARP_CARPET_DOWN: Exits to Route 34 (Front).
 - **Tool Usage Lesson:** Do NOT use 'autopress_buttons' with 'find_path'. It returns a coordinate list, not button strings.
 - **Day Care Mechanics:** The side exit (WARP_CARPET_RIGHT) leads to the Day Care Yard/West Route 34.
+- **Fake Tree at (8, 24):** The tree-like object at (8, 24) in the Day Care Yard is NOT cuttable. It is a solid wall.
