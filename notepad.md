@@ -5,7 +5,7 @@
 
 # Current Quest: Find the Next Gym
 - **Objective:** Locate and challenge the next Gym Leader.
-- **Status:** The Sprout Tower investigation is complete.
+- **Status:** Exploring Union Cave to find the next town.
 
 # Key Items
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
@@ -16,8 +16,8 @@
 - Received a BITTER BERRY from the tree at (16, 7) on Route 31.
 
 # Strategic Lessons
+- **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief (e.g., reports "No path found"), the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately trust the tool's output and challenge my own assumptions about map layout or game mechanics. My mental model of the map is fallible; the tool's analysis of the map data is not. This is a critical lesson learned from repeated failures in Union Cave.
 - **Automation:** I must trust and consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors. Inconsistent use is a failure of strategy.
-- **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief, the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately challenge my own assumptions about game mechanics or map layout, rather than trying to 'fix' a tool that is functioning correctly. If the `find_path` tool reports "No path found," it is not a bug; it is a signal that my mental model of the map is incorrect.
 - **Tool Maintenance & Verification:** If a tool produces an incorrect outcome or contradicts system information, I must not assume the problem is external. The tool is likely flawed and must be fixed immediately. Deferring tool maintenance is a critical failure.
 - **Tool Consistency:** When one tool's logic is updated (like `find_path`), any other tools that use similar logic (`check_unseen_reachability`) must be updated immediately to prevent conflicting results and strategic errors.
 - **Data Hygiene:** Map markers for resolved events (like collected items) must be deleted immediately to avoid confusion and wasted turns. When updating a marker for an object (e.g., after defeating a trainer), the old marker must be deleted to prevent redundant and conflicting information. Markers should also be linked to their corresponding `object_id` whenever possible to ensure they move with the object.
@@ -50,8 +50,6 @@
 - `run_code`: Executes a single-use Python script.
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
-- `define_tool`: Defines a new custom tool.
-- `delete_tool`: Deletes a custom tool.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
 
@@ -92,13 +90,11 @@
 - **FLOOR_UP_WALL**: Impassable from above. My attempt to move from (10, 9) to (10, 10) failed, confirming this. It likely functions as a ledge that can only be entered from below (moving up).
 
 # Party Status
-- **VULCAN (QUILAVA):** Lv17
+- **VULCAN (QUILAVA):** Lv19
 - **CHRONO (HOOTHOOT):** Lv4
 - **WEAVER (SPINARAK):** Lv3
 - **EGG (TOGEPI):** Lv5
 - **ROCKY (ONIX):** Lv8
-
-- **INCENSE_BURNER**: An impassable decorative object.
 
 # Object Mechanics
 - **TEACHER / LASS / BIRD**: These objects are impassable and function as walls.
