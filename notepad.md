@@ -153,3 +153,6 @@
 # Strategic Lessons (Updates from Self-Assessment)
 - **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
 - **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
+
+# Game Corner Info
+- A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
