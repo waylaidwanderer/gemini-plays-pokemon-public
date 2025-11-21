@@ -106,7 +106,7 @@
   - Gramps (20, 9), Teacher (15, 13).
   - Inside PC: Nurse Joy, Fishing Guru, Gentleman, Pokefan F.
 - Plan:
-  1. Talk to Pokefan F.
+  1. Talk to Pokefan F (Done - Learned Apricorns make Poké Balls).
   2. Explore town West.
   3. Find Kurt's House (likely related to Rocket plot).
   4. Check Gym (likely blocked).
