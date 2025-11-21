@@ -7,7 +7,7 @@
 # Strategic Plan
 - Primary: Earn Zephyr Badge (Violet City).
 - Secondary: Reach Cherrygrove City.
-- Status: Route 29, Heading West to Cherrygrove.
+- Status: Cherrygrove City. Goal: Get supplies and find Mr. Pokémon.
 
 # Quests & Info
 - Main: Visit Mr. Pokémon (Cherrygrove).
