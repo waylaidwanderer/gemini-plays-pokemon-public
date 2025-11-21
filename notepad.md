@@ -160,3 +160,14 @@
 
 # Strategic Lessons (Update)
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed. Instead of trying minor path variations, I must pivot to finding the trigger event, often hinted at by recent NPC dialogue.
+
+# Strategic Lessons (Update)
+- If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
+
+# Goldenrod Dept Store B1F Navigation Plan
+1. The main puzzle is solved (by leaving and re-entering). The current problem is a navigation challenge around moving NPCs.
+2. My goal is to stun the moving Black Belts (ID 5 and ID 7) when they are in non-blocking positions.
+3. Wait for an NPC to move to the far end of their patrol route.
+4. Immediately use `stun_npc` to lock them in place, keeping a corridor open.
+5. Repeat for the second NPC if necessary.
+6. Once a path is clear, use `find_path` to navigate to the items.
