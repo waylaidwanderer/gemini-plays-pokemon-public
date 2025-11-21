@@ -133,3 +133,4 @@
   - WALL: Impassable.
   - WARP_CARPET_DOWN: Exit to city.
   - LADDER: Warp to Underground.
+- **Navigation Lesson:** Verify building identities (e.g. signs, entering) before assuming. Directional heuristics (e.g. 'West side') can be misleading if landmarks aren't distinct.
