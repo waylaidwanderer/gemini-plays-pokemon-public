@@ -36,6 +36,7 @@
 - **Tile Mechanic Verification:** I must verify the mechanics of every tile type through direct observation and experimentation. Assumptions based on a tile's name can be wrong and lead to critical tool failures. I must never assume I know how a tile works until I have tested it.
 - **Immediate Correction Principle:** If an in-game observation contradicts a hypothesis (e.g., a failed movement), my absolute highest priority is to immediately correct my internal knowledge base (notepad) and any related tools. Deferring this creates cascading errors.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
+- **Marker Hygiene for Moving Objects:** When an object with a linked marker moves off-screen, the marker becomes stale. I must immediately delete the marker. A new marker should only be created if/when the object reappears at a new location.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -126,7 +127,6 @@
 - **Location Verification:** I must ALWAYS verify my current map ID and (x, y) coordinates in the Game State Information before making any navigational plans, tool calls, or creating map markers. My internal sense of location is fallible and has led to critical errors.
 - **Trust Tools Over Assumptions:** When a trusted tool (like `find_path`) reports a failure, I must assume my own understanding of the game state is wrong, not the tool. I will immediately re-evaluate my root hypothesis about the map layout or accessibility.
 - **Immediate Maintenance:** All data hygiene (marker cleanup) and tool maintenance (fixing bugs, ensuring consistency) tasks must be performed in the immediate turn they are identified. Deferring these tasks creates cascading failures.
-- `stun_npc`: Freezes or unfreezes an NPC's movement.
 
 # Ilex Forest - Farfetch'd Puzzle
 **Hypothesis:** The Farfetch'd moves away from the player in a predictable pattern. The puzzle is to herd it into a corner.
