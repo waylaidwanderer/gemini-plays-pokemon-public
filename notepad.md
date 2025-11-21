@@ -106,3 +106,7 @@
 - **Status:** Entered.
 - **Geography:** Entrance at South (Row 13). Slot machines everywhere.
 - **NPCs:** Gentleman (5, 10) [Blizzard TM], Pokefan M (2, 10), Pharmacist (8, 7).
+## Goldenrod Game Corner
+- **Status:** Exploring.
+- **NPCs:** Gentleman (5, 10), Pokefan M (3, 9), Pharmacist (8, 7).
+- **Info:** Pokefan M tossed his Coin Case in the Underground.
