@@ -173,3 +173,4 @@
 3. **Outcome:** Success! The Farfetch'd moved along a path to (20, 24).
 4. **Conclusion:** The puzzle is solved by repeatedly getting into an adjacent position and interacting with the Farfetch'd to guide it along its route.
 - **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
+- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
