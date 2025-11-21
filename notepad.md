@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird at (15, 29). Plan: Interact from East (16, 29) to herd West.
+- **Farfetch'd Quest:** Bird at (15, 25). Plan: Reach (15, 24) to herd South, or push North from (15, 26).
   - **Goal:** Herd bird West to the Charcoal Maker.
   - **Unexplored:** Reachable area south at (28, 36).
 - **Geography:** Dense forest.
