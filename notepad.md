@@ -110,3 +110,6 @@
 
 # Strategic Lessons
 - **Immediate Correction Principle:** If an in-game observation contradicts a hypothesis (e.g., a failed movement), my absolute highest priority is to immediately correct my internal knowledge base (notepad) and any related tools. Deferring this creates cascading errors.
+
+# Strategic Lessons
+- **Trust the Pathfinder:** If the `find_path` tool reports "No path found," it is not a bug. It is a signal that my mental model of the map is incorrect. I must trust the tool's output as ground truth and re-examine the map for barriers like one-way ledges or walls that I have overlooked.
