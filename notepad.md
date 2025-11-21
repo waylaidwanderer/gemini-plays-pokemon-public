@@ -7,15 +7,15 @@
 # Strategic Plan
 - Primary: Earn Zephyr Badge (Violet City).
 - Secondary: Reach Cherrygrove City.
-- Status: Route 29, heading West. Kaen Lv6 (Smokescreen).
+- Status: Route 29, In battle with Wild Hoothoot.
 
 # Quests & Info
 - Main: Visit Mr. Pokémon (Cherrygrove).
 - Tips: Growlithe (Rt 37), Pokémon in grass. Save often.
 
 # Encounters
-- Route 29: Rattata (Defeated L2).
-- Route 46: Rattata (Defeated L2, Saw L2).
+- Route 29: Rattata, Hoothoot.
+- Route 46: Rattata.
 
 # Lessons Learned
 - Dialogue boxes block movement; press B to close.
