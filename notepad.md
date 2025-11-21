@@ -105,8 +105,8 @@
 ## Goldenrod Game Corner
 - **Status:** Entered.
 - **Geography:** Entrance at South (Row 13). Slot machines everywhere.
-- **NPCs:** Gentleman (5, 10) [Blizzard TM], Pokefan M (2, 10), Pharmacist (8, 7).
+- **NPCs:** Gentleman (5, 10) [Blizzard TM], Pokefan M (2, 10), Pharmacist (8, 7) [Lucky Slot Tip].
 ## Goldenrod Game Corner
 - **Status:** Exploring.
-- **NPCs:** Gentleman (5, 10), Pokefan M (3, 9), Pharmacist (8, 7), Pokefan M (11, 10), Cooltrainer M (14, 8).
+- **NPCs:** Gentleman (5, 10), Pokefan M (3, 9), Pharmacist (8, 7) [Lucky Slot Tip], Pokefan M (11, 10), Cooltrainer M (14, 8).
 - **Info:** Pokefan M tossed his Coin Case in the Underground.
