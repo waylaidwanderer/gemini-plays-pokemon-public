@@ -95,10 +95,4 @@
 
 ## Route 33
 - Geography: Short route connecting Union Cave and Azalea Town.
-- Trainers: Pokefan M (6, 13) - Encountered.
-## Route 33
-- Connecting Union Cave to Azalea Town.
-- Trainers: Hiker Anthony (Geodude Lv11).
-## Route 33
-- Connecting Union Cave to Azalea Town.
-- Trainers: Hiker Anthony (Geodude Lv11).
+- Trainers: Hiker Anthony (Geodude Lv11) - Battling.
