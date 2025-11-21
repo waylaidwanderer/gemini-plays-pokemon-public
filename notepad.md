@@ -111,15 +111,4 @@
 # Azalea Gym Info
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 
-# Azalea Gym Puzzle
-- **Objective:** Defeat Bugsy. Path is blocked by defeated Twins at (4, 10) and (5, 10).
-- **Hypothesis 1:** Battle Bug Catcher at (8, 9) by talking to him.
-  - **Test:** Interacted from below (8, 10), from the side (9, 9), and walked into his line of sight.
-  - **Conclusion:** Failed. NPC only gives dialogue. Does not trigger battle.
-- **Hypothesis 2:** A switch must be activated to move the platforms.
-  - **Test 2a (Statues):** Interacted with statues at (3, 13) and (6, 13) from below.
-    - **Conclusion:** Failed. Only displays gym name. Marked with '🚫'.
-  - **Test 2b (Wall Objects):** Interacted with red objects at (2, 9) and (7, 9) from below.
-    - **Conclusion:** Failed. No interaction occurred. Marked with '🚫'.
-
 - **Consolidated Failed Hypotheses:** Tested various interactions with red wall objects (believed to be switches), statues, leaving/re-entering the gym, and stepping on a hidden floor switch multiple times. None of these actions moved the blocking twins.
