@@ -104,10 +104,6 @@
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
 
-# Hallucination & Pathfinding Lessons
-- Pathfinding to unseen tiles will fail. I must explore incrementally to reveal the map and only set navigation goals to visible, confirmed coordinates.
-- My internal sense of position is unreliable. I must always verify my current `(x, y)` coordinates from the Game State Information before planning any path to avoid hallucinations.
-
 # Strategic Lessons
 - **Notepad Precision:** The `notepad_edit` tool's `replace` action requires a character-for-character perfect match. Minor differences like whitespace will cause it to fail. For large or troublesome edits, using `overwrite` on the relevant section is a more reliable strategy.
 - **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors. Inconsistent use is a failure of strategy and defeats the purpose of creating the tools in the first place.
