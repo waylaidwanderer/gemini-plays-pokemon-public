@@ -104,9 +104,6 @@
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
 
-# Strategic Lessons
-- **Trust Tools Over Visuals:** My visual assessment of the map can be wrong, especially concerning complex pathing like ledges. The `find_path` tool analyzes the raw map data and should be trusted as the source of truth for reachability. If the tool says 'No path found,' my visual interpretation is the one that's wrong.
-
 # Hallucination & Pathfinding Lessons
 - Pathfinding to unseen tiles will fail. I must explore incrementally to reveal the map and only set navigation goals to visible, confirmed coordinates.
 - My internal sense of position is unreliable. I must always verify my current `(x, y)` coordinates from the Game State Information before planning any path to avoid hallucinations.
