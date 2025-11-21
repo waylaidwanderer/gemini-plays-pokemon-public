@@ -74,3 +74,4 @@
 ## Route 34
 - **Geography:** South end connects to Ilex Forest Gate.
 - **Status:** Just arrived.
+- **Berry Mechanics:** Berry trees regenerate new berries every day. Note which trees bear which berries.
