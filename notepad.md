@@ -1,26 +1,22 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Find the missing Farfetch'd (Complete)
-- [x] Teach Cut to Sandshrew (Complete)
 - [ ] Navigate Ilex Forest to Route 34 (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
+- [ ] Explore Ilex Forest fully (Tertiary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Completed. Returned bird to Apprentice.
-- **Key Items:** Received HM01 (Cut) from Blackbelt at (5, 28).
-- **Geography:** Dense forest. Hidden path along western edge (Column 0) leads North.
-- **Unexplored:** Reachable area south at (28, 36).
+- **Status:** Farfetch'd returned. Obtained HM01 (Cut). Tree at (8,25) cut.
+- **Geography:**
+  - Hidden path on West edge (Col 0) leads North.
+  - Path East of center (Row 10) leads deeper into forest.
 - **Tile Mechanics:**
-  - FLOOR: Standard traversable tile.
+  - FLOOR: Walkable.
   - HEADBUTT_TREE: Impassable.
   - CUT_TREE: Impassable (requires Cut).
-  - LEDGE_HOP_DOWN: One-way South.
-  - LEDGE_HOP_LEFT: One-way Left.
-  - LEDGE_HOP_RIGHT: One-way Right.
-  - WARP_CARPET_RIGHT: Warps right to next map.
-  - WALL: Impassable.
   - WATER: Impassable (requires Surf).
+  - LEDGE_HOP_*: One-way jumps.
+  - WARP_CARPET_*: Map transition.
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
@@ -46,6 +42,7 @@
 - Protocol: Mark NPCs immediately.
 
 ## Lessons Learned
+- **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
