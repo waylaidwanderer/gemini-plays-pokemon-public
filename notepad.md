@@ -120,3 +120,13 @@
     - **Conclusion:** Failed. Only displays gym name. Marked with '🚫'.
   - **Test 2b (Wall Objects):** Interacted with red objects at (2, 9) and (7, 9) from below.
     - **Conclusion:** Failed. No interaction occurred. Marked with '🚫'.
+
+# Azalea Gym Puzzle (Agent Hypotheses)
+- **Hypothesis A1:** The path is cleared by triggering a battle with the Bug Catcher at (8, 9) by approaching him from behind.
+  - **Test Plan:** Walk onto the tile directly behind the Bug Catcher at coordinate (8, 10).
+- **Hypothesis A2:** The defeated Twins will move after being spoken to again.
+  - **Test Plan:** Approach the defeated Twins at coordinates (4, 10) and (5, 10) and interact with them.
+- **Hypothesis A3:** The Twins will move after all other trainers in the gym have been defeated.
+  - **Test Plan:** Locate and defeat every other trainer in the gym, then return to the Twins to see if they have moved. (Currently blocked by un-battleable trainer).
+- **Hypothesis A4:** Stepping on a hidden switch on the floor will cause the Twins to move.
+  - **Test Plan:** Systematically walk over every single accessible floor tile in the gym.
