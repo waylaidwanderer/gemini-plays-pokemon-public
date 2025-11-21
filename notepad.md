@@ -117,3 +117,11 @@
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Puzzle Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
 - **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
+
+# Self-Assessment Lessons (Turn 4048)
+- **Location Verification:** I must ALWAYS verify my current map ID and (x, y) coordinates in the Game State Information before making any navigational plans, tool calls, or creating map markers. My internal sense of location is fallible and has led to critical errors.
+- **Trust Tools Over Assumptions:** When a trusted tool (like `find_path`) reports a failure, I must assume my own understanding of the game state is wrong, not the tool. I will immediately re-evaluate my root hypothesis about the map layout or accessibility.
+- **Immediate Maintenance:** All data hygiene (marker cleanup) and tool maintenance (fixing bugs, ensuring consistency) tasks must be performed in the immediate turn they are identified. Deferring these tasks creates cascading failures.
+
+# Tile Mechanics (Update)
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
