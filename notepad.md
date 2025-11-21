@@ -6,7 +6,7 @@
 
 # Strategic Plan
 - Primary: Earn Zephyr Badge (Violet City).
-- Secondary: Reach Cherrygrove City.
+- Secondary: Heal at Pokémon Center.
 - Status: Cherrygrove City. Goal: Get supplies and find Mr. Pokémon.
 
 # Quests & Info
