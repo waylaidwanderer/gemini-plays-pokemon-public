@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [x] Find the missing Farfetch'd (Complete)
-- [ ] Teach Cut to Sandshrew (Primary)
+- [x] Teach Cut to Sandshrew (Complete)
 - [ ] Navigate Ilex Forest to Route 34 (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
 
