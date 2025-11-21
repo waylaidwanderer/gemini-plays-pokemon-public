@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird at (15, 29). Pushing West from (16, 29) caused a reset. New Plan: Push South from (15, 28).
+- **Farfetch'd Quest:** Bird fled South to (14, 35). Chasing it down.
   - **Goal:** Herd bird West to the Charcoal Maker.
   - **Unexplored:** Reachable area south at (28, 36).
 - **Geography:** Dense forest.
