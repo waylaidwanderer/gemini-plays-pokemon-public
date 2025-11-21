@@ -93,3 +93,4 @@
 - B1F: Ladder at (7, 19) connects to 1F (5, 19).
 - B1F: Found TM39 (Swift) at (2, 16).
 - B1F: Found X Defend at (17, 23).
+- B1F: FLOOR_UP_WALL at (16, 24) is a wall, not a ledge.
