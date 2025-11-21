@@ -83,17 +83,8 @@
 - Important NPCs: Scam Fisher (7, 70) [Declined Offer].
 - Items: Item Ball at (6, 53) (Bridge).
 - Key Items: Old Rod (Obtained in Route 32 Pokémon Center).
-## Union Cave
-- Entered from Route 32 (17, 3).
-- Union Cave: Hiker Daniel at (3, 6) (originally misidentified as Pokefan M). Onix Lv11 (Bind, Tackle).
-- Defeated Hiker Daniel (Union Cave). Paprika reached Lv 16.
-- Hiker Russell at (11, 8). Geodude Lv 4. Note: 'POKEFAN_M' sprite = Hiker.
-- Defeated Hiker Russell (Union Cave, 11,8). Team: Geodude Lv4, Lv6, Lv8.
-- Collected Potion at (4,17).
-- B1F: Ladder at (7, 19) connects to 1F (5, 19).
-- B1F: Found TM39 (Swift) at (2, 16).
-- B1F: Found X Defend at (17, 23).
-- B1F: FLOOR_UP_WALL at (16, 24) is a wall, not a ledge.
-B1F (North): Accessed via ladder at 1F (5,19). Dead end containing TM39 (Swift) and X Defend. Southern 'ledge' there is a wall.
-- Union Cave Mechanics: FLOOR_UP_WALL tiles act as a climbable ramp from South to North and a walkable ridge horizontally. They block movement from North to South (cannot jump down).
-- Caught Sandshrew (Dune) in Union Cave.
+## Union Cave (Cleared)
+- **Exited:** To Route 33.
+- **Trainers:** Defeated Hiker Daniel, Hiker Russell, Firebreather Bill, Pokemaniac Larry.
+- **Loot:** Potion, Great Ball, X Attack, X Defend, TM39 (Swift).
+- **Captures:** Geodude (Basalt), Sandshrew (Dune).
