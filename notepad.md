@@ -97,3 +97,8 @@
 ## Goldenrod Bike Shop
 - **Status:** Entered. Goal: Obtain Bicycle.
 - **NPCs:** Clerk at (7, 2).
+## Goldenrod City Mechanics
+- **FLOOR:** Standard walkable terrain.
+- **WALL:** Buildings, fences, and obstacles (Impassable).
+- **DOOR:** Warps to building interiors.
+- **WARP_CARPET:** Map connection points.
