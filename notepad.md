@@ -170,3 +170,6 @@
 4. Immediately use `stun_npc` to lock them in place, keeping a corridor open.
 5. Repeat for the second NPC if necessary.
 6. Once a path is clear, use `find_path` to navigate to the items.
+
+# Strategic Lessons (Update)
+- When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
