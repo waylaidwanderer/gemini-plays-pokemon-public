@@ -2,7 +2,8 @@
 
 ## Current Goals
 - [ ] Earn Plain Badge (Primary)
-- [ ] Obtain Bicycle (Secondary) - High Priority
+- [x] Obtain Bicycle
+- [ ] Obtain Radio Card (Secondary) - High Priority
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
 - [ ] Explore Goldenrod City (Tertiary)
 - [x] Heal at Pokémon Center
