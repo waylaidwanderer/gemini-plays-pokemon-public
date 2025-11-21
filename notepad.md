@@ -3,9 +3,9 @@
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 
-# Current Quest: Find the Next Gym
-- **Objective:** Locate and challenge the next Gym Leader.
-- **Status:** Exploring Route 33 to find the next town.
+# Current Quest: Explore Ilex Forest
+- **Objective:** Navigate through Ilex Forest to reach the next area.
+- **Status:** Currently at the beginning of the forest.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -57,6 +57,10 @@
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+
+**Custom Tool Management:**
+- `define_tool`: Defines a new reusable custom tool.
+- `delete_tool`: Deletes a custom tool.
 
 **Custom Agents:**
 - `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
