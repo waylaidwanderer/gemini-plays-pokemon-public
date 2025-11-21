@@ -105,4 +105,4 @@
 ## Goldenrod Game Corner
 - **Status:** Entered.
 - **Geography:** Entrance at South (Row 13). Slot machines everywhere.
-- **NPCs:** Gentleman (5, 10), Pokefan M (1, 9).
+- **NPCs:** Gentleman (5, 10), Pokefan M (1, 9), Pharmacist (8, 7).
