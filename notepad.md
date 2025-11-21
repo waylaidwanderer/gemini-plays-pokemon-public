@@ -1,9 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Reach Goldenrod City (Primary)
+- [ ] Earn Plain Badge (Primary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary)
-- [ ] Explore Route 34 & Day Care (Tertiary)
+- [ ] Explore Goldenrod City (Tertiary)
+
+## Goldenrod City
+- **Status:** Arrived.
+- **Geography:** Large city. Entrance from Route 34 at (18, 35).
 
 ## Ilex Forest
 - **Status:** Farfetch'd returned. Obtained HM01 (Cut). Tree at (8,25) cut.
