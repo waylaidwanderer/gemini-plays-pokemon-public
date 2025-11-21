@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird is at (20, 24). Flanking from East.
+- **Farfetch'd Quest:** Bird is at (15, 29). Pushed South from (15, 24). Needs to be herded back North/West.
 - **Geography:** Dense forest.
 - **Tile Mechanics:**
   - FLOOR: Standard traversable tile.
