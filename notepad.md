@@ -13,7 +13,9 @@
 - Cherrygrove Mart Stock: Potion, Antidote, Parlyz Heal, Awakening. (NO POKÉ BALLS YET).
 
 # Quests & Information
-- Main Quest: Visit Mr. Pokémon (Go North from Cherrygrove to Route 30).
+- Main Quest: Return the Mystery Egg to Professor Elm in New Bark Town.
+- Key Items: Mystery Egg, Pokédex.
+- Note: Mr. Pokémon healed the party.
 - Tips: Fisher suggested saving often. Guide Gent provided the Map Card.
 - Route 30 Encounters: Caterpie (Morning/Day).
 - Route 30 is located North of Cherrygrove City.
