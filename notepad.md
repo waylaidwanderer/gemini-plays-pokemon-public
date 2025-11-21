@@ -84,7 +84,10 @@
 - Items: Item Ball at (6, 53) (Bridge).
 - Key Items: Old Rod (Obtained in Route 32 Pokémon Center).
 ## Union Cave (Cleared)
-- Exited via B1F warp (17, 31) to Route 33.
+- Exited via 1F warp (17, 31) to Route 33.
+
+## Route 33
+- Trainers: Hiker Anthony (Geodude Lv11).
 - Trainers: Defeated Hiker Daniel, Hiker Russell, Firebreather Bill, Pokemaniac Larry.
 - Loot: Potion, Great Ball, X Attack, X Defend, TM39 (Swift).
 - Captures: Geodude (Basalt), Sandshrew (Dune).
