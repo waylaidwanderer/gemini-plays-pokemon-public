@@ -129,3 +129,8 @@
 
 # Tile Mechanics (Update)
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
+
+# Tile Mechanics (Update)
+- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
+- **WARP_CARPET_DOWN**: *Verification needed.* Likely a traversable warp tile that leads to a lower floor or an area to the south.
