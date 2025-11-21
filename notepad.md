@@ -25,7 +25,7 @@
 
 # Strategic Lessons
 - **Trust Tool Outputs:** My visual interpretation of the map is fallible. The pathfinding tool's analysis of the map data is the source of truth. If a trusted tool like `find_path` reports 'No path found', I must immediately discard my own hypothesis that a path exists and instead operate under the assumption the tool is correct. My first step should be to find the obstacle on the map that proves the tool right, not to debug the tool.
-- **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors, especially when prompted by system critiques. Inconsistent use is a failure of strategy.
+- **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors, especially when prompted by system critiques. Inconsistent use is a failure of strategy. For built-in tools, I must use them as designed (e.g., passing 'RUN' as an argument to `select_battle_option`) rather than manually scripting button presses.
 - **Tool Maintenance & Verification:** If a tool produces an incorrect outcome or contradicts system information, I must not assume the problem is external. The tool is likely flawed and must be fixed immediately. Deferring tool maintenance is a critical failure.
 - **Tool Consistency:** When one tool's logic is updated (like `find_path`), any other tools that use similar logic (`check_unseen_reachability`) must be updated immediately to prevent conflicting results and strategic errors.
 - **Tool Debugging Priority:** When a core tool like a pathfinder fails, debugging it becomes the absolute highest priority, superseding all gameplay goals. A systematic approach is required: 1. Confirm the tool is the problem, not a misunderstanding of the map (e.g., by testing a path manually). 2. Add targeted logging to trace execution and understand the algorithm's decision process. 3. Analyze logs to form a specific hypothesis about the bug before attempting a fix. Do not blindly refactor or revert without evidence.
@@ -41,6 +41,7 @@
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Marker Hygiene for Moving Objects:** When an object with a linked marker moves off-screen, the marker becomes stale. I must immediately delete the marker. A new marker should only be created if/when the object reappears at a new location.
 - **Position Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
+- **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -125,10 +126,3 @@
 - **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
 - **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
-
-# Strategic Lessons
-- Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
-
-# Tile Mechanics
-- **TALL_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
