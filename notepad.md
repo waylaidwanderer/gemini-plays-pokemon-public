@@ -4,9 +4,9 @@
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 - BERRY trees grow new BERRIES every day.
 
-# Current Quest: Explore Ilex Forest
-- **Objective:** Navigate through Ilex Forest to reach the next area.
-- **Status:** Currently exploring the northern part of the forest.
+# Current Quest: Explore Route 34
+- **Objective:** Navigate through Route 34 to reach the next city.
+- **Status:** Currently battling a trainer on the west side of the route.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -25,8 +25,8 @@
 
 # Strategic Lessons
 - **Trust Tool Outputs:** If a trusted tool like `find_path` reports 'No path found', trust it. The error is in my assumption about the map, not the tool. Re-evaluate the map visually for barriers instead of trying to 'fix' the tool.
+- **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors, especially when prompted by system critiques. Inconsistent use is a failure of strategy.
 - **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief (e.g., reports "No path found"), the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately trust the tool's output and challenge my own assumptions about map layout or game mechanics. My mental model of the map is fallible; the tool's analysis of the map data is not. This is a critical lesson learned from repeated failures in Union Cave.
-- **Automation:** I must trust and consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors. Inconsistent use is a failure of strategy.
 - **Tool Maintenance & Verification:** If a tool produces an incorrect outcome or contradicts system information, I must not assume the problem is external. The tool is likely flawed and must be fixed immediately. Deferring tool maintenance is a critical failure.
 - **Tool Consistency:** When one tool's logic is updated (like `find_path`), any other tools that use similar logic (`check_unseen_reachability`) must be updated immediately to prevent conflicting results and strategic errors.
 - **Data Hygiene:** Map markers for resolved events (like collected items) must be deleted immediately to avoid confusion and wasted turns. When updating a marker for an object (e.g., after defeating a trainer), the old marker must be deleted to prevent redundant and conflicting information. Markers should also be linked to their corresponding `object_id` whenever possible to ensure they move with the object.
@@ -103,13 +103,6 @@
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
-
-# Party Status
-- **VULCAN (QUILAVA):** Lv24
-- **CHRONO (HOOTHOOT):** Lv4
-- **WEAVER (SPINARAK):** Lv3
-- **JUBILEE (TOGEPI):** Lv5
-- **ROCKY (ONIX):** Lv8
 
 # Object Mechanics
 - **TEACHER / LASS / BIRD**: These objects are impassable and function as walls.
