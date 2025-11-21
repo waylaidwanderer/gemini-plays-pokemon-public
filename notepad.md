@@ -95,4 +95,4 @@
 
 ## Route 33
 - Geography: Short route connecting Union Cave and Azalea Town.
-- Trainers: Hiker Anthony (Geodude Lv11) - Battling.
+- Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Offered phone number.
