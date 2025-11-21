@@ -61,20 +61,10 @@
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 
-## Route 33
-- Geography: Short route connecting Union Cave and Azalea Town.
-- Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
-
-## Azalea Town & Slowpoke Well
-- Status: Fully healed.
-- Note: Cleared Slowpoke Well. Received Lure Ball. Defeated Rival Silver.
-- Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
-
-### Slowpoke Well B1F (Cleared)
-- Mechanics: FLOOR_UP_WALL acts as ramp (S->N) and ridge.
-
-### Caught Pokémon
-- Flux (Psyduck) Lv7 in Ilex Forest.
+## Archived Logs (Azalea & Route 33)
+- **Route 33:** Cleared. Hiker Anthony (Phone reg).
+- **Azalea Town:** Cleared Well & Gym. Rival Defeated.
+- **Caught:** Flux (Psyduck) in Ilex.
 ## Route 34 Gatehouse
 - Connecting Ilex Forest and Route 34.
 - NPCs: Teacher, Lass, and a Butterfree sprite.
