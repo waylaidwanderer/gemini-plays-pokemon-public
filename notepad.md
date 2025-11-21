@@ -2,12 +2,13 @@
 
 ## Current Goals
 - [ ] Earn Plain Badge (Primary)
+- [ ] Obtain Bicycle (Secondary) - High Priority
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
 - [ ] Explore Goldenrod City (Tertiary)
 - [x] Heal at Pokémon Center
+- [x] Locate Dept Store
+- [ ] Locate Bike Shop (Southeast)
 - [ ] Find Goldenrod Gym
-- [ ] Locate Bike Shop
-- [ ] Locate Dept Store
 - [ ] Locate Game Corner
 
 ## Goldenrod City
