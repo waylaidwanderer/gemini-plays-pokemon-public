@@ -104,10 +104,10 @@
 - **unseen**: An impassable tile that has not yet been explored.
 
 # Party Status
-- **VULCAN (QUILAVA):** Lv19
+- **VULCAN (QUILAVA):** Lv23
 - **CHRONO (HOOTHOOT):** Lv4
 - **WEAVER (SPINARAK):** Lv3
-- **EGG (TOGEPI):** Lv5
+- **JUBILEE (TOGEPI):** Lv5
 - **ROCKY (ONIX):** Lv8
 
 # Object Mechanics
