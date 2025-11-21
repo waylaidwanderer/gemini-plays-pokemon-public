@@ -26,14 +26,6 @@
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
 
-## Route 46 (Southern Section)
-- Connections: South to Route 29/46 Gate.
-- Wild Pokémon: Rattata (Lv 3), Geodude (Lv 2), Spearow (Lv 2).
-- Geography: Southern area separated from North by one-way ledges at Row 19. Northern area currently inaccessible from here.
-- Sign at (9, 27): "MOUNTAIN RD. AHEAD".
-- Traversal: TALL_GRASS is traversable.
-- Discovery: Caught Geodude (Basalt) in grass at (5, 26).
-
 ## Lessons Learned
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
