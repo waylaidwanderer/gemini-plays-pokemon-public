@@ -10,7 +10,7 @@
 - Primary Goal: Earn Zephyr Badge in Violet City.
 - Secondary Goal: Visit Mr. Pokémon on Route 30.
 - Tertiary Goal: Buy Poké Balls (Not available at Cherrygrove Mart yet).
-- Cherrygrove Mart Stock: Potion, Antidote, Parlyz Heal, Awakening.
+- Cherrygrove Mart Stock: Potion, Antidote, Parlyz Heal, Awakening. (NO POKÉ BALLS YET).
 
 # Quests & Information
 - Main Quest: Visit Mr. Pokémon (Go North from Cherrygrove to Route 30).
