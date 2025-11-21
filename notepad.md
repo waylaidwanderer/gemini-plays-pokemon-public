@@ -104,6 +104,7 @@
 - **WARP_CARPET:** Map connection points.
 ## Goldenrod Game Corner
 - **Status:** Exploring.
+- **Tile Mechanics:** Counters and Machines are impassable.
 - **Info:** Coin Case tossed in the Underground (Source: Pokefan M).
 - **Mechanics:** Card Flip has better odds than slots but lower payout.
 - **NPCs:**
