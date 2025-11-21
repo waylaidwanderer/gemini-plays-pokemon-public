@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Explore Ilex Forest (Primary)
-  - Investigate path north from entrance.
+- [ ] Find the missing Farfetch'd (Primary)
+  - Search the forest for the bird to clear the path north (blocked by Youngster).
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Quest Log
