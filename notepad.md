@@ -102,3 +102,7 @@
 - **WALL:** Buildings, fences, and obstacles (Impassable).
 - **DOOR:** Warps to building interiors.
 - **WARP_CARPET:** Map connection points.
+## Goldenrod Game Corner
+- **Status:** Entered.
+- **Geography:** Entrance at South (Row 13). Slot machines everywhere.
+- **NPCs:** Gentleman (5, 10), Pokefan M (1, 9).
