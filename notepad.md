@@ -8,7 +8,7 @@
 
 # Strategic Plan
 - Primary Goal: Earn Zephyr Badge in Violet City.
-- Secondary Goal: Heal at Pokémon Center (Current Location - Cherrygrove).
+- Secondary Goal: Visit Mr. Pokémon on Route 30.
 - Tertiary Goal: Buy Poké Balls at the Mart (Check if available before Route 30).
 
 # Quests & Information
