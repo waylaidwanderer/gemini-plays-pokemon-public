@@ -60,8 +60,8 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town & Slowpoke Well
-- Status: Battling in Azalea Gym.
-- Mission: Defeat Leader Bugsy.
+- Status: Battling Rival Silver in Azalea Town.
+- Mission: Defeat Rival Silver.
 - Note: Cleared Slowpoke Well. Received Lure Ball from Kurt.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
 
