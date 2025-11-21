@@ -17,6 +17,7 @@
   - LEDGE_HOP_DOWN: One-way South.
   - LEDGE_HOP_LEFT: One-way Left.
   - LEDGE_HOP_RIGHT: One-way Right.
+  - WARP_CARPET_RIGHT: Warps right to next map.
   - WALL: Impassable.
 
 ## Quest Log
