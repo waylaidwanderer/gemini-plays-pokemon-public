@@ -78,8 +78,6 @@
 - **BOOKSHELF**: An impassable object.
 - **WINDOW**: An impassable object, functions like a wall.
 - **RADIO**: An impassable object.
-- **WARP_CARPET_DOWN**: A traversable warp tile that leads outside or to a lower floor.
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
@@ -89,15 +87,17 @@
 - **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
 - **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
-- **VOID**: Impassable, appears to be an empty space off the edge of the map.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
-- **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
 - **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
 - **CAVE**: A traversable warp tile leading into a cave.
-- **unseen**: An impassable tile that has not yet been explored.
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
+- **WARP_CARPET_DOWN**: *Verification needed.* Likely a traversable warp tile that leads to a lower floor or an area to the south.
+- **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
+- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
+- **unseen**: An impassable tile that has not yet been explored.
 
 # Party Status
 - **VULCAN (QUILAVA):** Lv19
@@ -120,17 +120,8 @@
 # Azalea Gym Info
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Puzzle Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
-- **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
 
 # Self-Assessment Lessons (Turn 4048)
 - **Location Verification:** I must ALWAYS verify my current map ID and (x, y) coordinates in the Game State Information before making any navigational plans, tool calls, or creating map markers. My internal sense of location is fallible and has led to critical errors.
 - **Trust Tools Over Assumptions:** When a trusted tool (like `find_path`) reports a failure, I must assume my own understanding of the game state is wrong, not the tool. I will immediately re-evaluate my root hypothesis about the map layout or accessibility.
 - **Immediate Maintenance:** All data hygiene (marker cleanup) and tool maintenance (fixing bugs, ensuring consistency) tasks must be performed in the immediate turn they are identified. Deferring these tasks creates cascading failures.
-
-# Tile Mechanics (Update)
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
-
-# Tile Mechanics (Update)
-- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
-- **WARP_CARPET_DOWN**: *Verification needed.* Likely a traversable warp tile that leads to a lower floor or an area to the south.
