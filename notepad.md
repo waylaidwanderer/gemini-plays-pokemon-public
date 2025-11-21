@@ -107,7 +107,7 @@
 - Trainers:
   - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
   - Bug Catcher Josh (Left): Paras (Lv13) - Defeated.
-  - Bug Catcher Benny (Center): Weedle (Lv7).
+  - Bug Catcher Benny (Center): Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
   - Bug Catcher at (8, 8).
   - Leader Bugsy at (5, 7).
 
