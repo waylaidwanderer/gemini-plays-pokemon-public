@@ -174,3 +174,6 @@
 4. **Conclusion:** The puzzle is solved by repeatedly getting into an adjacent position and interacting with the Farfetch'd to guide it along its route.
 - **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+
+# Puzzle Mechanics
+- **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
