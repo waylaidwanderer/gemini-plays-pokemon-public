@@ -147,3 +147,4 @@
 7. Defeating the Black Belt NPCs is required.
 8. Talking to the Black Belt at (4, 8) immediately before the Machoke is the trigger.
 9. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
+- **Positional Hallucination Mitigation:** I have repeatedly misidentified my own coordinates after a planned movement. This is a critical failure. I MUST ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY movement action, especially a `path_plan`, before planning my next move. The Game State is the only source of truth.
