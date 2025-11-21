@@ -79,3 +79,7 @@
 - **Items:** Item ball detected at (7, 30) (requires access to west side).
 ## Day Care Center
 - Entered main building. Gramps (Day Care Man) and Granny are inside.
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WARP_CARPET_LEFT: Exits to Route 34 (West).
+  - WARP_CARPET_DOWN: Exits to Day Care Yard (South).
