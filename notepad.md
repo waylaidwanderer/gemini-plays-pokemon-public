@@ -40,19 +40,6 @@
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 
-## Cherrygrove City (Cleared)
-- Guide Gent gave tour. Rival defeated.
-
-## Route 30 (Cleared)
-- Connected Cherrygrove to Violet. Defeated all trainers.
-
-## Route 31
-- Connects Route 30 to Violet City. Go North through grass to bypass wall.
-- Obstacle: Cooltrainer M (32,8). Dark Cave entrance at (34, 5).
-
-## Violet City (Cleared)
-- Zephyr Badge obtained. Sprout Tower cleared (HM05 Flash). Trade: Bellsprout -> Onix.
-
 ## Route 32 & Union Cave (Cleared)
 - **Route 32:** Connects Violet to Cave. Old Rod obtained.
 - **Union Cave:** Cleared. FLOOR_UP_WALL acts as ramp (S->N) and ridge (E-W).
