@@ -1,14 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Heal at Pokémon Center (Immediate)
 - [ ] Enter Ilex Forest (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
 - **Events:**
-  - Defeated Rival Silver (Cherrygrove & Azalea).
+  - Defeated Rival Silver (Azalea Town).
   - Cleared Sprout Tower (Flash) & Slowpoke Well.
   - Defeated Leader Bugsy.
   - Paprika evolved into Quilava.
@@ -19,11 +18,11 @@
 - COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
 - LADDER: Warps between floors.
 - FLOOR_UP_WALL: Context-dependent. Acts as a ramp (climbable South->North) and ridge (walkable horizontally) in Union Cave.
+- Accuracy Debuffs: Verified effective survival tactic against strong opponents (e.g. Silver's Croconaw).
 
 ## Strategy Notes
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training.
-- Tactics: Smokescreen vs physical attackers.
-- Survival Strategy: Against strong/type-advantaged opponents (e.g. Rival's Croconaw), stacking accuracy debuffs (e.g. Smokescreen x6) is a verified effective survival tactic.
+- Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
 
 ## Route 46 (Southern Section)
@@ -38,6 +37,7 @@
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
+- **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 
 ## Cherrygrove City (Cleared)
 - Guide Gent gave tour. Rival defeated.
@@ -61,7 +61,7 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town & Slowpoke Well
-- Status: Healing at Pokémon Center.
+- Status: Fully healed. Heading to Ilex Forest.
 - Mission: Enter Ilex Forest.
 - Note: Cleared Slowpoke Well. Received Lure Ball. Defeated Rival Silver.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
