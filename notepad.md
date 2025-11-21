@@ -1,22 +1,23 @@
-# Tile Traversal Rules
-- Traversable: FLOOR, GROUND, TALL_GRASS, LONG_GRASS, WARP_CARPET_*, DOOR, STAIRCASE, STAIRS.
-- Impassable: WALL, WATER, BOOKSHELF, TV, TOWN_MAP, HEADBUTT_TREE, CUT_TREE, WINDOW, SIGN, PC, MART_SHELF, COUNTER.
-- One-Way: LEDGE_HOP_DOWN (South only), LEDGE_HOP_LEFT (West only), LEDGE_HOP_RIGHT (East only).
-- Note: All Objects (NPCs, Items) are impassable.
+# Mechanics & Traversal
+- Traversable: FLOOR, GROUND, GRASS (TALL/LONG), WARP_CARPET_*, DOOR, STAIRS/CASE.
+- Impassable: WALL, WATER, TREES (HEADBUTT/CUT), WINDOW, SIGN, PC, SHELVES, COUNTER, TV, MAP.
+- One-Way: LEDGES (HOP_DOWN=South, HOP_LEFT=West, HOP_RIGHT=East).
+- Objects: All NPCs/Items are solid walls. Interact from adjacent tile facing them.
 
 # Strategic Plan
-- Primary: Earn Zephyr Badge from Falkner in Violet City.
+- Primary: Earn Zephyr Badge (Violet City).
 - Secondary: Reach Cherrygrove City.
-- Immediate: Travel West to Cherrygrove City.
-- Status: On Route 29, heading West. Kaen Lv6 (learned Smokescreen).
+- Status: Route 29, heading West. Kaen Lv6 (Smokescreen).
 
-# Quest Log & Tips
-- Mission: Go to Mr. Pokémon's house (Cherrygrove City).
-- Tip: Growlithe on Route 37 (Radio).
-- Tip: Pokémon hide in grass (Route 29).
-- Battle: Defeated L2 Rattata (Route 29), L2 Rattata (Route 46).
-- Wild: Rattata found on Route 46.
+# Quests & Info
+- Main: Visit Mr. Pokémon (Cherrygrove).
+- Tips: Growlithe (Rt 37), Pokémon in grass.
+
+# Encounters
+- Route 29: Rattata (Defeated L2).
+- Route 46: Rattata (Defeated L2, Saw L2).
 
 # Lessons Learned
-- Check for open menus if movement is inexplicably blocked.
-- Verify tile traversability visually; don't assume based on names.
+- Dialogue boxes block movement; press B to close.
+- Don't walk into NPCs; use `interact_direction`.
+- Visual verification of tiles is key.
