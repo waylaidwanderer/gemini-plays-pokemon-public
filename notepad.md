@@ -63,6 +63,7 @@
 **Custom Tool Management:**
 - `define_tool`: Defines a new reusable custom tool.
 - `delete_tool`: Deletes a custom tool.
+- `delete_tool`: Deletes a custom tool.
 
 **Custom Agents:**
 - `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
