@@ -100,4 +100,6 @@
 ## Goldenrod Dept Store
 - **Status:** Entered 1F.
 - **Geography:** Entrance at South. Stairs/Elevator likely at North.
-- **NPCs:** Pokefan F, Bug Catcher, Gentleman.
+- **NPCs:** Receptionist (1F), Pokefan F, Bug Catcher, Gentleman.
+- **Tile Mechanics:**
+  - WARP_CARPET_DOWN: Exit to city.

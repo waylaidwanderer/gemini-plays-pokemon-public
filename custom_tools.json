@@ -13,12 +13,17 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\nqty = int(input_data['quantity'])\nbuttons = []\n\n# Press Up (quantity - 1) times to reach the desired amount\nif qty > 1:\n    for _ in range(qty - 1):\n        buttons.append(\"Up\")\n\n# Confirm the purchase\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nquantity = int(input_data[\"quantity\"])\nbuttons = []\nif quantity > 1:\n    for _ in range(quantity - 1):\n        buttons.append(\"Up\")\nbuttons.append(\"A\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add buy_item_quantity tool to automate purchasing multiple items in shops. This reduces repetitive button presses for stocking up on supplies.",
         "timestamp": "2025-11-21T09:07:28.956Z",
         "action_counter": 2285
+      },
+      {
+        "commit_message": "feat: Add buy_item_quantity tool to automate purchasing multiple items in shops. This reduces repetitive button presses for stocking up on supplies.",
+        "timestamp": "2025-11-21T22:16:51.727Z",
+        "action_counter": 3066
       }
     ]
   },
