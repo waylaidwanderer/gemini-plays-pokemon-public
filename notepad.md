@@ -167,3 +167,9 @@
 
 # Self-Assessment Lessons (Turn 4228)
 - **Position Verification:** I received a critical warning for a position mismatch. I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction. My internal sense of having moved can be a hallucination, especially after being interrupted by a battle.
+
+**Test 6:**
+1. **Hypothesis:** Interaction from an adjacent tile triggers movement along a set path, not just directly away from the player.
+2. **Action:** From (15, 26), faced north towards the Farfetch'd at (15, 25) and pressed 'A'.
+3. **Outcome:** Success! The Farfetch'd moved along a path to (20, 24).
+4. **Conclusion:** The puzzle is solved by repeatedly getting into an adjacent position and interacting with the Farfetch'd to guide it along its route.
