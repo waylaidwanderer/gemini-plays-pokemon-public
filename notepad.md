@@ -15,8 +15,6 @@
 - Main Quest: Return the Mystery Egg to Professor Elm in New Bark Town.
 - Key Items: Mystery Egg, Pokédex.
 - Note: Mr. Pokémon healed the party.
-- Key Items: Mystery Egg, Pokédex.
-- Note: Mr. Pokémon healed the party.
 - Tips: Fisher suggested saving often. Guide Gent provided the Map Card.
 - Route 30 Encounters: Caterpie (Morning/Day), Hoothoot (Night).
 - Route 30 is located North of Cherrygrove City.
