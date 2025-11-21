@@ -82,4 +82,4 @@
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - WARP_CARPET_LEFT: Exits to Route 34 (West).
-  - WARP_CARPET_DOWN: Exits to Day Care Yard (South).
+  - WARP_CARPET_DOWN: Exits to Route 34 (Front).
