@@ -96,3 +96,6 @@
 ## Route 33
 - Connecting Union Cave to Azalea Town.
 - Trainers: Hiker Anthony (Geodude Lv11).
+## Route 33
+- Connecting Union Cave to Azalea Town.
+- Trainers: Hiker Anthony (Geodude Lv11).
