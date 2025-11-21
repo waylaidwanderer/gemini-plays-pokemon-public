@@ -124,3 +124,7 @@
 
 # Game State Contradictions
 - System alert and screen annotation indicated a warp at GoldenrodPokecenter1F (0, 6), but the Game State Information's warp list does not include it. Concluding it is not a warp.
+
+# New Discoveries (Turn 5037)
+- **Tile Mechanics:** Added `WARP_CARPET_UP`. Hypothesized to be a warp activated by moving up onto it.
+- **Strategic Lessons:** Always stun a moving NPC before attempting to interact to prevent them from moving out of range.
