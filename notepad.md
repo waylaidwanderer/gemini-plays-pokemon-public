@@ -98,33 +98,16 @@
 
 ## Azalea Town & Slowpoke Well
 - Status: Exploring Slowpoke Well B1F.
-- Mission: Kurt is injured. I must defeat Team Rocket to save the Slowpoke.
-- Locations:
-  - Kurt's House (9, 5)
-  - Slowpoke Well (31, 7)
-  - Pokémon Center (15, 9)
-  - Poké Mart (21, 5)
-- Plan:
-  1. Explore Slowpoke Well.
-  2. Defeat Rocket Grunts.
-  3. Find the Executives/Leaders.
-- Defeated Rocket Grunt at (15, 9). He remains on the map, blocking the path. Plan: Navigate around him via (14, 9) to explore deeper North.
-- Spotted Female Rocket Grunt at (10, 4).
-- Defeated Rocket Grunt (F) at (13, 4). Team: Zubat (Lv9), Ekans (Lv11).
-- Retrieved Super Potion at (10, 3).
-- Exploring West side of Slowpoke Well. Heading to check on Slowpoke at (7, 4).
-- Defeated Rocket Grunt at (6, 6). Team: Rattata (Lv7), Zubat (Lv9) x2. Basalt grew to Lv10.
-- Found Rocket Grunt at (5, 2) and Slowpoke at (6, 2).
-- Found Boulder at (3, 2).
+- Mission: Clear Team Rocket to save the Slowpoke.
+- Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5).
 
-### Map Data: Slowpoke Well B1F
-- Tile Types Verified:
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - WATER: Impassable without Surf.
-  - LADDER: Warp.
-- Hypotheses:
-  - FLOOR_UP_WALL (Row 2, Cols 9-14): Suspected to be ledges or ridges. Plan to approach via (8, 6) -> (11, 6) -> North to test traversability.
-- Navigation:
-  - Path to East side found via gap at (8, 6).
-  - Defeated Grunt at (6, 6) blocks direct path, but can be bypassed.
+### Slowpoke Well B1F
+- **Progress:**
+  - Defeated Grunt (Entrance), Grunt (F) (13, 4), Grunt (6, 6).
+  - Retrieved Super Potion (10, 3).
+  - Spotted Grunt (5, 2), Slowpoke (6, 2), Boulder (3, 2).
+- **Interactions:**
+  - Slowpoke (7, 4): Has Mail. "Be good and look after the house. Love, Dad".
+- **Navigation & Hypotheses:**
+  - **Path to East:** Accessible via gap at (8, 6).
+  - **FLOOR_UP_WALL (Row 2):** Suspected climbable ramps (South->North). Plan to test at (11, 2) via East path.
