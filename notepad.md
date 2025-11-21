@@ -74,8 +74,6 @@
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
 - `find_path`: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
 - `check_unseen_reachability`: Checks which of the known potentially reachable unseen tiles are actually reachable from my current position.
-- `find_path`: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
-- `check_unseen_reachability`: Checks which of the known potentially reachable unseen tiles are actually reachable from my current position.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
