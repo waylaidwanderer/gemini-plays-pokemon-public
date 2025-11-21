@@ -46,14 +46,6 @@
 - Note: Cleared Slowpoke Well. Received Lure Ball. Defeated Rival Silver.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
 
-### Slowpoke Well B1F
-- **Progress:**
-  - Defeated Grunt (Entrance), Grunt (F) (13, 4), Grunt (6, 6).
-  - Retrieved Super Potion (10, 3).
-  - Spotted Grunt (5, 2), Slowpoke (6, 2), Boulder (3, 2).
-- **Interactions:**
-  - Slowpoke (7, 4): Has Mail. "Be good and look after the house. Love, Dad".
-- **Navigation & Hypotheses:**
-  - **Path to East:** Accessible via gap at (8, 6).
-  - **FLOOR_UP_WALL (Row 2):** Verified climbable ramps (South->North). Can be traversed horizontally and jumped down from (North->South).
+### Slowpoke Well B1F (Cleared)
+- Mechanics: FLOOR_UP_WALL acts as ramp (S->N) and ridge.
 - **Pokemon:** Caught Flux (Psyduck) Lv7 in Ilex Forest.
