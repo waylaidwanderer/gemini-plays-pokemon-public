@@ -135,4 +135,11 @@
 2. **Starting Position:** (13, 34)
 3. **Action:** Move to (14, 32), the tile directly south of the Farfetch'd's current position (14, 31).
 4. **Expected Outcome:** The Farfetch'd will move away from me, likely north.
+5. **Conclusion:** The Farfetch'd did not move. Hypothesis denied. Approaching from the south does not trigger movement.
+
+**Test 2:**
+1. **Objective:** Observe Farfetch'd's reaction to being approached from the side.
+2. **Starting Position:** (14, 32)
+3. **Action:** Move to (15, 31), the tile directly east of the Farfetch'd.
+4. **Expected Outcome:** The Farfetch'd will move away from me, likely west.
 5. **Conclusion:** (To be filled in after the test)
