@@ -5,11 +5,10 @@
 
 # Current Quest: Explore Ilex Forest
 - **Objective:** Navigate through Ilex Forest to reach the next area.
-- **Status:** Currently at the beginning of the forest.
+- **Status:** Currently exploring the northern part of the forest.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
-
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
@@ -98,8 +97,6 @@
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
-- **WARP_CARPET_DOWN**: *Verification needed.* Likely a traversable warp tile that leads to a lower floor or an area to the south.
-- **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **unseen**: An impassable tile that has not yet been explored.
 
