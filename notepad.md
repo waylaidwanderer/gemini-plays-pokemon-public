@@ -48,16 +48,8 @@
 - Connects Route 30 to Violet City. Go North through grass to bypass wall.
 - Obstacle: Cooltrainer M (32,8). Dark Cave entrance at (34, 5).
 
-## Violet City
-- Locations: PC, Gym, Academy.
-- Trade: Bellsprout -> Onix.
-- Sprout Tower Layout: 1F and 2F are partitioned. To switch sides on 2F, use ladders to traverse the 1F outer ring.
-- Encountered Sage (Name Unknown) in 2F Left Southern Corridor.
-- Pathfinding tools treat 'unseen' tiles as walls. Verify boundaries manually if pathfinding fails.
-- Verified Tile Types: FLOOR (Walkable), WALL (Impassable), LADDER (Warp), CAVE (Traversable Floor), WATER (Impassable without Surf).
-- Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor).
-- Violet Gym: Defeated Bird Keepers Abe and Rod, and Leader Falkner.
-- Strategy Insight: Paprika's level advantage and Special Attack carried the gym.
+## Violet City (Cleared)
+- Zephyr Badge obtained. Sprout Tower cleared (HM05 Flash). Trade: Bellsprout -> Onix.
 
 ## Route 32 & Union Cave (Cleared)
 - **Route 32:** Connects Violet to Cave. Old Rod obtained.
