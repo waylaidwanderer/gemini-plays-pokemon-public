@@ -8,9 +8,15 @@
 - **Status:** Exploring Route 33 to find the next town.
 
 # Key Items
+- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
 - **MYSTERY EGG:** An egg from MR. POKEMON for PROF. ELM to study.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
+
+# TMs
+- **TM31 MUD-SLAP**
+- **TM39 SWIFT**
+- **TM49 FURY CUTTER**
 
 # Consumable Items
 - Received a BITTER BERRY from the tree at (16, 7) on Route 31.
