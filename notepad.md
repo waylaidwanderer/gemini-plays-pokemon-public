@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird fled South to (14, 35). Chasing it down.
+- **Farfetch'd Quest:** Bird moved West to (10, 35). Positioning East to push it further West.
   - **Goal:** Herd bird West to the Charcoal Maker.
   - **Unexplored:** Reachable area south at (28, 36).
 - **Geography:** Dense forest.
