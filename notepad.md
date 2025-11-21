@@ -49,6 +49,7 @@
 - `notepad_edit`: Edits this notepad.
 - `run_code`: Executes a single-use Python script.
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
+- `define_tool` / `delete_tool`: Manages custom tools.
 - `define_tool`: Defines a new custom tool.
 - `delete_tool`: Deletes a custom tool.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
