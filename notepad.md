@@ -42,6 +42,9 @@
 - **Marker Hygiene for Moving Objects:** When an object with a linked marker moves off-screen, the marker becomes stale. I must immediately delete the marker. A new marker should only be created if/when the object reappears at a new location.
 - **Position Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
+- **Marker Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels. Failure to do so degrades the quality of my map data and leads to confusion. Unlinked markers for moving objects are useless.
+- **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
+- **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -70,6 +73,7 @@
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
 - `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the A* algorithm.
+- `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
@@ -97,6 +101,7 @@
 - **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+- **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
@@ -126,7 +131,6 @@
 - System alert and screen annotation indicated a warp at GoldenrodPokecenter1F (0, 6), but the Game State Information's warp list does not include it. Concluding it is not a warp.
 
 # New Discoveries (Turn 5037)
-- **Tile Mechanics:** Added `WARP_CARPET_UP`. Hypothesized to be a warp activated by moving up onto it.
 - **Strategic Lessons:** Always stun a moving NPC before attempting to interact to prevent them from moving out of range.
 - **Interaction Loop Failures:** If an interaction (like using a menu or switch) fails repeatedly, do not repeat the same input. The root hypothesis about the game mechanic is likely flawed. Immediately stop, re-observe the screen state, and form a new, simple hypothesis to test. For example: H1: 'A' opens the menu. H2: 'A' confirms the selection. H3: The interaction object only sets a state, and another action is needed elsewhere. Document this scientific process to avoid getting stuck.
 
@@ -140,11 +144,6 @@
 4. Talking to the Black Belt at (9, 10) will provide a clue.
 5. Talking to the Black Belt at (4, 8) will provide a clue.
 6. Talking to all Black Belt NPCs will trigger the Machoke.
-
-# Strategic Lessons (New)
-- **Marker Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels. Failure to do so degrades the quality of my map data and leads to confusion. Unlinked markers for moving objects are useless.
-- **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
 7. Defeating the Black Belt NPCs is required.
 8. Talking to the Black Belt at (4, 8) immediately before the Machoke is the trigger.
-8. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
-- **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
+9. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
