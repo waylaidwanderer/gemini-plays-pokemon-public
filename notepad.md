@@ -99,7 +99,7 @@
 - **CAVE**: A traversable warp tile leading into a cave.
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
