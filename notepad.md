@@ -9,7 +9,7 @@
 ## Ilex Forest
 - **Farfetch'd Quest:** Completed. Returned bird to Apprentice.
 - **Key Items:** Received HM01 (Cut) from Blackbelt at (5, 28).
-- **Geography:** Dense forest.
+- **Geography:** Dense forest. Hidden path along western edge (Column 0) leads North.
 - **Unexplored:** Reachable area south at (28, 36).
 - **Tile Mechanics:**
   - FLOOR: Standard traversable tile.
@@ -20,6 +20,7 @@
   - LEDGE_HOP_RIGHT: One-way Right.
   - WARP_CARPET_RIGHT: Warps right to next map.
   - WALL: Impassable.
+  - WATER: Impassable (requires Surf).
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
