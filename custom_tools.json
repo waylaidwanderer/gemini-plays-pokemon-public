@@ -62,5 +62,21 @@
         "action_counter": 4942
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Analyzes the current map to find all 'unseen' tiles that are adjacent to traversable tiles and reachable from the player's current position. Returns a list of coordinates for these tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"CUT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\"}\n\ngrid = {}\nunseen_tiles = []\nplayer_start = None\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        \n        if tile_elem.find('Player') is not None:\n            player_start = (x, y)\n        \n        if tile_type == 'unseen':\n            unseen_tiles.append((x, y))\n        \n        has_object = tile_elem.find('Object') is not None and tile_elem.find('Player') is None\n        is_impassable = tile_type in IMPASSABLE_TILES or has_object\n        grid[(x, y)] = not is_impassable\n\nif not player_start:\n    print(json.dumps([]))\nelse:\n    potential_targets = set()\n    for ux, uy in unseen_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (ux + dx, uy + dy)\n            if grid.get(neighbor, False):\n                potential_targets.add(neighbor)\n\n    reachable_unseen_coords = set()\n    for target in potential_targets:\n        queue = deque([player_start])\n        visited = {player_start}\n        path_found = False\n        \n        while queue:\n            current_pos = queue.popleft()\n            \n            if current_pos == target:\n                path_found = True\n                break\n                \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                next_pos = (current_pos[0] + dx, current_pos[1] + dy)\n                if grid.get(next_pos, False) and next_pos not in visited:\n                    visited.add(next_pos)\n                    queue.append(next_pos)\n        \n        if path_found:\n            tx, ty = target\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor = (tx + dx, ty + dy)\n                if neighbor in unseen_tiles:\n                    reachable_unseen_coords.add(neighbor)\n\n    print(json.dumps(sorted(list(reachable_unseen_coords))))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the process of identifying explorable areas by parsing the map, finding all unseen tiles, and using a BFS pathfinder to determine which ones are currently reachable from the player's position. This directly addresses a recurring system suggestion and will improve exploration efficiency.",
+        "timestamp": "2025-11-21T18:40:14.393Z",
+        "action_counter": 5140
+      }
+    ]
   }
 }
