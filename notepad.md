@@ -68,7 +68,6 @@
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-- `path_plan`: Executes a pre-calculated movement sequence.
 
 **Custom Agents & Tools (Defined by me):**
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
