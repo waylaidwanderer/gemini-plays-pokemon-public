@@ -1,15 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Find the missing Farfetch'd (Primary)
-  - Chasing the bird. Heading East to locate it.
+- [x] Find the missing Farfetch'd (Complete)
+- [ ] Teach Cut to Sandshrew (Primary)
+- [ ] Navigate Ilex Forest to Route 34 (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird cornered at (6, 28).
-  - **Goal:** Talk to Apprentice (7, 28) to complete quest.
-  - **Unexplored:** Reachable area south at (28, 36).
+- **Farfetch'd Quest:** Completed. Returned bird to Apprentice.
+- **Key Items:** Received HM01 (Cut) from Blackbelt at (5, 28).
 - **Geography:** Dense forest.
+- **Unexplored:** Reachable area south at (28, 36).
 - **Tile Mechanics:**
   - FLOOR: Standard traversable tile.
   - HEADBUTT_TREE: Impassable.
@@ -29,6 +30,7 @@
   - Paprika evolved into Quilava.
   - Received Mystery Egg.
   - Found Revive at (20, 32).
+  - Solved Farfetch'd puzzle in Ilex Forest.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
@@ -38,7 +40,7 @@
 - Accuracy Debuffs: Verified effective survival tactic against strong opponents (e.g. Silver's Croconaw).
 
 ## Strategy Notes
-- Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training.
+- Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. Teach Cut to XQH (Sandshrew) for utility.
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
 
@@ -53,12 +55,12 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town & Slowpoke Well
-- Status: Fully healed. Heading to Ilex Forest.
-- Mission: Enter Ilex Forest.
+- Status: Fully healed.
 - Note: Cleared Slowpoke Well. Received Lure Ball. Defeated Rival Silver.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
 
 ### Slowpoke Well B1F (Cleared)
 - Mechanics: FLOOR_UP_WALL acts as ramp (S->N) and ridge.
-- **Pokemon:** Caught Flux (Psyduck) Lv7 in Ilex Forest.
-- Received HM01 (Cut) from Blackbelt.
+
+### Caught Pokémon
+- Flux (Psyduck) Lv7 in Ilex Forest.
