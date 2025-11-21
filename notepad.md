@@ -2,6 +2,7 @@
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
 - The PC in Pokémon Centers is used for Pokémon and item storage.
+- BERRY trees grow new BERRIES every day.
 
 # Current Quest: Explore Ilex Forest
 - **Objective:** Navigate through Ilex Forest to reach the next area.
@@ -23,6 +24,7 @@
 - Received a BITTER BERRY from the tree at (16, 7) on Route 31.
 
 # Strategic Lessons
+- **Trust Tool Outputs:** If a trusted tool like `find_path` reports 'No path found', trust it. The error is in my assumption about the map, not the tool. Re-evaluate the map visually for barriers instead of trying to 'fix' the tool.
 - **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief (e.g., reports "No path found"), the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately trust the tool's output and challenge my own assumptions about map layout or game mechanics. My mental model of the map is fallible; the tool's analysis of the map data is not. This is a critical lesson learned from repeated failures in Union Cave.
 - **Automation:** I must trust and consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors. Inconsistent use is a failure of strategy.
 - **Tool Maintenance & Verification:** If a tool produces an incorrect outcome or contradicts system information, I must not assume the problem is external. The tool is likely flawed and must be fixed immediately. Deferring tool maintenance is a critical failure.
@@ -98,11 +100,12 @@
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. Must move right to activate.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
 
 # Party Status
-- **VULCAN (QUILAVA):** Lv23
+- **VULCAN (QUILAVA):** Lv24
 - **CHRONO (HOOTHOOT):** Lv4
 - **WEAVER (SPINARAK):** Lv3
 - **JUBILEE (TOGEPI):** Lv5
@@ -131,6 +134,3 @@
 # Puzzle Mechanics
 - **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
-
-# Game Mechanics & Systems
-- BERRY trees grow new BERRIES every day.
