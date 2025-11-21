@@ -43,7 +43,7 @@
     ]
   },
   "find_path": {
-    "description": "Calculates a path from the player's current position to a target coordinate (x, y) using BFS. Accounts for walls, objects, and one-way ledges. Returns a JSON-compatible list of coordinate objects.",
+    "description": "Calculates a path from the player's current position to a target coordinate (x, y) using BFS. Accounts for walls, objects, one-way ledges, and CAVE tiles. Returns a JSON-compatible list of coordinate objects.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -59,7 +59,7 @@
         "target_y"
       ]
     },
-    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef get_map_grid(map_data):\n    width = int(map_data.get(\"width\"))\n    height = int(map_data.get(\"height\"))\n    grid = [[None for _ in range(width)] for _ in range(height)]\n    player_pos = None\n    \n    for row in map_data.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            grid[y][x] = tile\n            if tile.find(\"Player\") is not None:\n                player_pos = (x, y)\n    return grid, width, height, player_pos\n\ndef get_neighbors(cx, cy, grid, width, height, player_pos):\n    neighbors = []\n    moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n    \n    for dx, dy in moves:\n        nx, ny = cx + dx, cy + dy\n        \n        if 0 <= nx < width and 0 <= ny < height:\n            next_tile = grid[ny][nx]\n            if next_tile is None: continue\n            \n            next_type = next_tile.get(\"type\")\n            # Check for object blocking\n            has_object = next_tile.get(\"has-object\") == \"true\"\n            \n            can_enter = False\n            \n            basic_types = [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"STAIRS\", \n                           \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\",\n                           \"DOOR\", \"OPEN_DOOR\", \"LADDER\", \"CAVE\"]\n            \n            if next_type in basic_types:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_DOWN\" and dy == 1:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_LEFT\" and dx == -1:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_RIGHT\" and dx == 1:\n                can_enter = True\n            \n            # Strictly enforce object blocking\n            if can_enter and not has_object:\n                neighbors.append((nx, ny))\n                \n    return neighbors\n\ndef solve_path(start, target, grid, width, height):\n    queue = deque([(start, [start])])\n    visited = set([start])\n    \n    while queue:\n        current_pos, path = queue.popleft()\n        cx, cy = current_pos\n        \n        if current_pos == target:\n            return path\n        \n        for nx, ny in get_neighbors(cx, cy, grid, width, height, start):\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n                \n    return None\n\nmap_data = ET.fromstring(map_xml_string)\ngrid, width, height, player_pos = get_map_grid(map_data)\n\ntarget_x = int(input_data[\"target_x\"])\ntarget_y = int(input_data[\"target_y\"])\ntarget = (target_x, target_y)\n\nif not player_pos:\n    print(\"Error: Player not found\")\nelse:\n    path = solve_path(player_pos, target, grid, width, height)\n    if path:\n        json_path = [{\"x\": x, \"y\": y} for x, y in path]\n        print(json.dumps(json_path))\n    else:\n        print(\"Error: No path found\")",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef get_map_grid(map_data):\n    width = int(map_data.get(\"width\"))\n    height = int(map_data.get(\"height\"))\n    grid = [[None for _ in range(width)] for _ in range(height)]\n    player_pos = None\n    \n    for row in map_data.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            grid[y][x] = tile\n            if tile.find(\"Player\") is not None:\n                player_pos = (x, y)\n    return grid, width, height, player_pos\n\ndef get_neighbors(cx, cy, grid, width, height, player_pos):\n    neighbors = []\n    moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n    \n    for dx, dy in moves:\n        nx, ny = cx + dx, cy + dy\n        \n        if 0 <= nx < width and 0 <= ny < height:\n            next_tile = grid[ny][nx]\n            if next_tile is None: continue\n            \n            next_type = next_tile.get(\"type\")\n            # Check for object blocking\n            has_object = next_tile.get(\"has-object\") == \"true\"\n            \n            can_enter = False\n            \n            basic_types = [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"STAIRS\", \n                           \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\",\n                           \"DOOR\", \"OPEN_DOOR\", \"LADDER\", \"CAVE\"]\n            \n            if next_type in basic_types:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_DOWN\" and dy == 1:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_LEFT\" and dx == -1:\n                can_enter = True\n            elif next_type == \"LEDGE_HOP_RIGHT\" and dx == 1:\n                can_enter = True\n            \n            # Strictly enforce object blocking\n            if can_enter and not has_object:\n                neighbors.append((nx, ny))\n                \n    return neighbors\n\ndef solve_path(start, target, grid, width, height):\n    queue = deque([(start, [start])])\n    visited = set([start])\n    \n    while queue:\n        current_pos, path = queue.popleft()\n        cx, cy = current_pos\n        \n        if current_pos == target:\n            return path\n        \n        for nx, ny in get_neighbors(cx, cy, grid, width, height, start):\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n                \n    return None\n\nmap_data = ET.fromstring(map_xml_string)\ngrid, width, height, player_pos = get_map_grid(map_data)\n\ntarget_x = int(input_data[\"target_x\"])\ntarget_y = int(input_data[\"target_y\"])\ntarget = (target_x, target_y)\n\nif not player_pos:\n    print(\"Error: Player not found\")\nelse:\n    path = solve_path(player_pos, target, grid, width, height)\n    if path:\n        json_path = [{\"x\": x, \"y\": y} for x, y in path]\n        print(json.dumps(json_path))\n    else:\n        print(\"Error: No path found\")",
     "history": [
       {
         "commit_message": "feat: Add find_path tool. Calculates shortest path using BFS, handling walls, objects, and one-way ledges.",
@@ -90,6 +90,26 @@
         "commit_message": "fix: Add CAVE to traversable basic_types. This tile type represents cave entrances (warps) and must be traversable to enter dungeons like Union Cave. Also removed debug prints.",
         "timestamp": "2025-11-20T23:38:16.306Z",
         "action_counter": 1641
+      },
+      {
+        "commit_message": "fix: Enable FLOOR_UP_WALL as a traversable ledge when moving down. This is necessary to test if the western ledge at (12, 18) is jumpable, as the eastern path is blocked.",
+        "timestamp": "2025-11-21T00:47:29.072Z",
+        "action_counter": 1752
+      },
+      {
+        "commit_message": "fix: Remove FLOOR_UP_WALL from traversable tiles. Verified in-game at (16, 21) that this tile type acts as a wall and cannot be jumped from the north.",
+        "timestamp": "2025-11-21T00:59:17.529Z",
+        "action_counter": 1768
+      },
+      {
+        "commit_message": "fix: Ensure FLOOR_UP_WALL is treated as a wall. Previous testing at (16, 21) confirmed it is not jumpable from the north.",
+        "timestamp": "2025-11-21T01:01:08.516Z",
+        "action_counter": 1771
+      },
+      {
+        "commit_message": "fix: Remove FLOOR_UP_WALL from traversable tiles. Verified in-game at (12, 17) -> (12, 18) that this tile type acts as a wall and cannot be jumped from the north.",
+        "timestamp": "2025-11-21T01:05:06.366Z",
+        "action_counter": 1776
       }
     ]
   },
