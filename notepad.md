@@ -163,3 +163,6 @@
 1. **Hypothesis:** The Farfetch'd is herded by direct interaction (facing it and pressing 'A'). It moves in the opposite direction from which it was approached.
 2. **Action:** From (21, 24), face left towards the Farfetch'd at (20, 24) and press 'A'.
 3. **Expected Outcome:** The Farfetch'd will move west to (19, 24).
+
+# Self-Assessment Lessons (Turn 4228)
+- **Position Verification:** I received a critical warning for a position mismatch. I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction. My internal sense of having moved can be a hallucination, especially after being interrupted by a battle.
