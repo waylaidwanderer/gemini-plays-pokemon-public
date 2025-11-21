@@ -180,3 +180,6 @@
 
 # Self-Assessment Lessons (Turn 4345)
 - **Position Verification after Interruptions:** I received a critical warning for a position mismatch. I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
+
+# Self-Assessment Lessons (Turn 4345)
+- **Position Verification after Interruptions:** I received a critical warning for a position mismatch. I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
