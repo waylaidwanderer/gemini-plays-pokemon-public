@@ -185,3 +185,6 @@
 - (9, 12): Path to items remains blocked.
 - (9, 11): Path to items remains blocked.
 **Next Test:** Move to (9, 11) and check the state of the wall at x=12.
+
+# Strategic Lessons (Update)
+- **Trust Tool Outputs Over Visuals:** If a trusted tool's output (like `find_path` reporting 'No path found') contradicts my visual assessment of the map, the tool's analysis of the game data is the source of truth. My first action must be to find the in-game obstacle that proves the tool correct, not to assume the tool is bugged. My repeated, failed attempts to 'fix' the correct pathfinder is a critical lesson in avoiding this cognitive bias.
