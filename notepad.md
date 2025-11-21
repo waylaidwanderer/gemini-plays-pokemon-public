@@ -1,5 +1,5 @@
 # Mechanics & Traversal
-- Traversable Tiles: FLOOR (Standard), WARP_CARPET_DOWN/UP/LEFT/RIGHT (Map Exits), LADDER (Warps).
+- Traversable Tiles: FLOOR (Standard), WARP_CARPET_DOWN/UP/LEFT/RIGHT (Map Exits), LADDER (Warps), TALL_GRASS.
 - To Verify: GRASS, WATER, DOOR, STAIRS. (Note: Visual "doors" are often just FLOOR tiles with Warp events).
 - Impassable Tiles: WALL, COUNTER, PC, TV, WINDOW, SIGN, SHELVES.
 - One-Way Tiles: LEDGES (HOP_DOWN=South, HOP_LEFT=West, HOP_RIGHT=East).
