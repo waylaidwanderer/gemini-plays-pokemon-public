@@ -73,6 +73,6 @@
 
 ## Route 34
 - **Geography:** South end connects to Ilex Forest Gate.
-- **Status:** Defeated Picnicker Gina. Exploring north.
+- **Status:** Defeated Picnicker Gina & Youngster Ian. Paprika Lv23. Exploring north.
 - **Berry Mechanics:** Berry trees regenerate new berries every day. Note which trees bear which berries.
 - **Items:** Item ball detected at (7, 30) (requires access to west side).
