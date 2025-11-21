@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Reach Azalea Town (Primary)
+- [ ] Defeat Azalea Gym Leader (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
-- [ ] Catch Bellsprout (Tertiary) - Postponed
+- [ ] Find Pokémon Center (Immediate)
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
