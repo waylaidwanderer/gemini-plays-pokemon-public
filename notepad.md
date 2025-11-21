@@ -3,9 +3,10 @@
 ## Current Goals
 - [ ] Defeat Azalea Gym Leader (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
-- [ ] Find Kurt (Immediate)
+- [ ] Help Kurt at Slowpoke Well (Immediate)
 
 ## Quest Log
+- Met Kurt. He rushed to Slowpoke Well to stop Team Rocket.
 - Defeated Rival Silver (Cherrygrove).
 - Cleared Sprout Tower (Defeated Elder Li, obtained HM05 Flash).
 - Paprika evolved into Quilava!
