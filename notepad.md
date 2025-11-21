@@ -128,3 +128,4 @@
 # New Discoveries (Turn 5037)
 - **Tile Mechanics:** Added `WARP_CARPET_UP`. Hypothesized to be a warp activated by moving up onto it.
 - **Strategic Lessons:** Always stun a moving NPC before attempting to interact to prevent them from moving out of range.
+- **Interaction Loop Failures:** If an interaction (like using a menu or switch) fails repeatedly, do not repeat the same input. The root hypothesis about the game mechanic is likely flawed. Immediately stop, re-observe the screen state, and form a new, simple hypothesis to test. For example: H1: 'A' opens the menu. H2: 'A' confirms the selection. H3: The interaction object only sets a state, and another action is needed elsewhere. Document this scientific process to avoid getting stuck.
