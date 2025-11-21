@@ -151,4 +151,9 @@
 2. **Starting Position:** (14, 32)
 3. **Action:** Move to an alternate leaf pile at (15, 29).
 4. **Expected Outcome:** The Farfetch'd will move in response to the sound.
-5. **Conclusion:** (To be filled in after the test)
+5. **Conclusion:** The Farfetch'd did not move. Hypothesis denied. Stepping on a leaf pile does not, by itself, trigger movement.
+
+**Test 4:**
+1. **Hypothesis:** The Farfetch'd is herded by direct interaction (facing it and pressing 'A'). It moves in the opposite direction from which it was approached.
+2. **Action:** Move to (15, 26), the tile directly south of the Farfetch'd, and press 'A'.
+3. **Expected Outcome:** The Farfetch'd will move north to (15, 24).
