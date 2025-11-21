@@ -90,3 +90,5 @@
 - Hiker Russell at (11, 8). Geodude Lv 4. Note: 'POKEFAN_M' sprite = Hiker.
 - Defeated Hiker Russell (Union Cave, 11,8). Team: Geodude Lv4, Lv6, Lv8.
 - Collected Potion at (4,17).
+- B1F: Ladder at (7, 19) connects to 1F (5, 19).
+- B1F: Item Ball detected at (2, 16).
