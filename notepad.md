@@ -87,7 +87,7 @@
 - **unseen**: An impassable tile that has not yet been explored.
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left.
 - **LADDER**: A traversable warp tile that moves the player between floors.
-- **FLOOR_UP_WALL**: Impassable from above. My attempt to move from (10, 9) to (10, 10) failed, confirming this. It likely functions as a ledge that can only be entered from below (moving up).
+- **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
 
 # Party Status
 - **VULCAN (QUILAVA):** Lv19
