@@ -173,3 +173,4 @@
 
 # Strategic Lessons (Update)
 - When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
+**New Hypothesis (Turn 5701):** The puzzle's solution is not related to leaving the room or interacting with NPCs. Instead, the player's Y-coordinate within the central corridor (column 9) acts as a switch that changes the wall layout. I am systematically testing each tile in this corridor to find the one that opens the path to the items.
