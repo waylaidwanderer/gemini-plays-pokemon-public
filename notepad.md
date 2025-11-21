@@ -128,3 +128,8 @@
 - **Geography:** Small room with a ladder down.
 - **NPCs:** Super Nerd.
 - **Warps:** Ladder to Underground.
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - WARP_CARPET_DOWN: Exit to city.
+  - LADDER: Warp to Underground.
