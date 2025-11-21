@@ -1,9 +1,1 @@
-{
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "Analyzes the current battle state, type matchups, and Pokémon stats to recommend the best move or strategy.",
-    "agent_system_prompt": "You are a Pokémon battle expert specializing in Generation 2 mechanics. Your goal is to analyze the current battle situation and recommend the optimal move. Consider type effectiveness (Gen 2), STAB, the physical/special split (determined by type in Gen 2: Fire, Water, Grass, Electric, Psychic, Ice, Dragon, Dark are Special; others are Physical), status conditions, and relative HP/Level. Output a brief analysis and your recommended action.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"my_pokemon\": {\"type\": \"string\"}, \"opponent_pokemon\": {\"type\": \"string\"}, \"my_hp\": {\"type\": \"string\"}, \"opponent_hp\": {\"type\": \"string\"}, \"my_moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"my_pokemon\", \"opponent_pokemon\", \"my_moves\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommendation\": {\"type\": \"string\"}}}"
-  }
-}
+{}
