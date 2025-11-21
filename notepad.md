@@ -9,7 +9,7 @@
 - **Status:** Farfetch'd returned. Obtained HM01 (Cut). Tree at (8,25) cut.
 - **Geography:**
   - Hidden path on West edge (Col 0) leads North.
-  - Path East of center (Row 10) leads deeper into forest.
+  - Path East of center (Row 10) leads to a Northbound corridor at Col 22.
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - HEADBUTT_TREE: Impassable.
