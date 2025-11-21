@@ -15,6 +15,7 @@
 # Quests & Information
 - Main Quest: Visit Mr. Pokémon (Go North from Cherrygrove to Route 30).
 - Tips: Fisher suggested saving often. Guide Gent provided the Map Card.
+- Route 30 Encounters: Caterpie (Morning/Day).
 - Route 30 is located North of Cherrygrove City.
 
 # Encounters & Area Data
