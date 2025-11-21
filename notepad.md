@@ -1,17 +1,18 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Defeat Azalea Gym Leader (Primary)
+- [ ] Heal at Azalea Pokémon Center (Immediate)
+- [ ] Enter Ilex Forest (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
-- [ ] Help Kurt at Slowpoke Well (Immediate)
 
 ## Quest Log
-- Met Kurt. He rushed to Slowpoke Well to stop Team Rocket.
-- Defeated Rival Silver (Cherrygrove).
-- Cleared Sprout Tower (Defeated Elder Li, obtained HM05 Flash).
-- Paprika evolved into Quilava!
-- Defeated Gym Leader Falkner (Earned Zephyr Badge, TM31).
-- Received the Mystery Egg from Elm's Aide in Violet City.
+- **Badges:** Zephyr (Violet), Hive (Azalea).
+- **Events:**
+  - Defeated Rival Silver (Cherrygrove).
+  - Cleared Sprout Tower (Flash) & Slowpoke Well.
+  - Defeated Leader Bugsy.
+  - Paprika evolved into Quilava.
+  - Received Mystery Egg.
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
