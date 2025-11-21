@@ -97,10 +97,15 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town & Slowpoke Well
-- Status: Preparing to challenge Azalea Gym.
+- Status: Battling in Azalea Gym.
 - Mission: Defeat Leader Bugsy.
 - Note: Cleared Slowpoke Well. Received Lure Ball from Kurt.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
+
+### Azalea Gym
+- Type: Bug. Weak to Fire, Rock, Flying.
+- Trainers:
+  - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10).
 
 ### Slowpoke Well B1F
 - **Progress:**
