@@ -74,7 +74,7 @@
 - Defeated Sage Edmond (Sprout Tower 2F Left, South Corridor).
 - Violet Gym: Defeated Bird Keepers Abe and Rod, and Leader Falkner.
 - Strategy Insight: Paprika's level advantage and Special Attack carried the gym.
-- Tool Lesson: `find_path` returns coordinates, not buttons.
+
 ## Route 32
 - Connects Violet City (North) to Union Cave/Azalea (South).
 
