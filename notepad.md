@@ -6,8 +6,15 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Currently at (20, 24). Interaction from North (20, 23) failed (blocked by tree?). Attempting interaction from East (21, 24).
-- **Geography:** Dense forest. Cut required for small trees.
+- **Farfetch'd Quest:** Bird is at (29, 22). Chasing it East.
+- **Geography:** Dense forest.
+- **Tile Mechanics:**
+  - HEADBUTT_TREE: Impassable.
+  - CUT_TREE: Impassable (requires Cut).
+  - LEDGE_HOP_DOWN: One-way South.
+  - LEDGE_HOP_LEFT: One-way Left.
+  - LEDGE_HOP_RIGHT: One-way Right.
+  - WALL: Impassable.
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
