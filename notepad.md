@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Enter Ilex Forest (Primary)
+- [ ] Explore Ilex Forest (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Quest Log
