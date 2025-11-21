@@ -103,14 +103,9 @@
 - Note: Cleared Slowpoke Well. Received Lure Ball from Kurt.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
 
-### Azalea Gym
-- Type: Bug. Weak to Fire, Rock, Flying.
-- Trainers:
-  - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
-  - Bug Catcher Josh (Left): Paras (Lv13) - Defeated.
-  - Bug Catcher Benny (Center): Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
-  - Bug Catcher at (8, 8).
-  - Leader Bugsy: In battle. Lead Metapod (Lv14).
+### Azalea Gym (Cleared)
+- Status: Defeated Leader Bugsy. Earned Hive Badge & TM49 (Fury Cutter).
+- Strategy: Paprika (Quilava) dominated with Ember.
 
 ### Slowpoke Well B1F
 - **Progress:**
