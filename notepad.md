@@ -2,13 +2,13 @@
 
 ## Current Goals
 - [ ] Find the missing Farfetch'd (Primary)
-  - Chasing the bird. Currently at (15, 25).
+  - Chasing the bird. Currently at (22, 31).
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird is at (15, 29). Plan: Move to (14, 29) to push it East. 
+- **Farfetch'd Quest:** Bird is at (22, 31). Plan: Try interacting from East (23, 31) or South (via 22, 32). Pushing West hits a Wall at (21, 31).
   - **CRITICAL:** Pushing North from (15, 26) causes the bird to RESET to (20, 24). Do not do this.
-  - **Goal:** Herd bird to the Charcoal Maker (likely deeper in the forest).
+  - **Goal:** Herd bird to the Charcoal Maker.
 - **Geography:** Dense forest.
 - **Tile Mechanics:**
   - FLOOR: Standard traversable tile.
@@ -59,3 +59,4 @@
 ### Slowpoke Well B1F (Cleared)
 - Mechanics: FLOOR_UP_WALL acts as ramp (S->N) and ridge.
 - **Pokemon:** Caught Flux (Psyduck) Lv7 in Ilex Forest.
+- **Items:** Item Ball visible at (20, 32) in Ilex Forest.
