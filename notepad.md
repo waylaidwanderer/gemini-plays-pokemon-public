@@ -125,3 +125,4 @@
 - **Location Verification:** I must ALWAYS verify my current map ID and (x, y) coordinates in the Game State Information before making any navigational plans, tool calls, or creating map markers. My internal sense of location is fallible and has led to critical errors.
 - **Trust Tools Over Assumptions:** When a trusted tool (like `find_path`) reports a failure, I must assume my own understanding of the game state is wrong, not the tool. I will immediately re-evaluate my root hypothesis about the map layout or accessibility.
 - **Immediate Maintenance:** All data hygiene (marker cleanup) and tool maintenance (fixing bugs, ensuring consistency) tasks must be performed in the immediate turn they are identified. Deferring these tasks creates cascading failures.
+- `stun_npc`: Freezes or unfreezes an NPC's movement.
