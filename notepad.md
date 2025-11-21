@@ -60,3 +60,4 @@
 ### Slowpoke Well B1F (Cleared)
 - Mechanics: FLOOR_UP_WALL acts as ramp (S->N) and ridge.
 - **Pokemon:** Caught Flux (Psyduck) Lv7 in Ilex Forest.
+- Received HM01 (Cut) from Blackbelt.
