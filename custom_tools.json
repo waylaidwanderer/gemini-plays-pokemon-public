@@ -60,5 +60,28 @@
         "action_counter": 135
       }
     ]
+  },
+  "press_sequence": {
+    "description": "Presses a sequence of buttons with delays. Useful for navigating menus or skipping text.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "sequence": {
+          "type": "string",
+          "description": "Comma-separated list of buttons to press (e.g., 'Down, Down, A')"
+        }
+      },
+      "required": [
+        "sequence"
+      ]
+    },
+    "python_script": "import json\ninput_str = input_data['sequence']\nbuttons = [b.strip() for b in input_str.split(',')]\noutput = []\nfor b in buttons:\n    output.append(b)\n    output.append(\"sleep 500\")\nif output:\n    output.pop()\nprint(json.dumps(output))",
+    "history": [
+      {
+        "commit_message": "feat: Add press_sequence tool for automated multi-step button input, enabling faster menu navigation.",
+        "timestamp": "2025-11-21T17:48:29.526Z",
+        "action_counter": 409
+      }
+    ]
   }
 }
