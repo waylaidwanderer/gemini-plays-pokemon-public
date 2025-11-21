@@ -36,3 +36,4 @@
 - Correction: 'GROUND' is not a valid XML type; 'FLOOR' is the standard type for walkable ground.
 Task: Find Mr. Pokémon on Route 30. (Note: Poké Balls unavailable at Cherrygrove Mart).
 - Sign at (13, 29): "MR.POKéMON'S HOUSE STRAIGHT AHEAD!"
+- Route 30: Hoothoot (Night).
