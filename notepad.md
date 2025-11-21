@@ -132,3 +132,7 @@
   - **Test Plan:** Locate and defeat every other trainer in the gym, then return to the Twins to see if they have moved. (Currently blocked by un-battleable trainer).
 - **Hypothesis A4:** Stepping on a hidden switch on the floor will cause the Twins to move.
   - **Test Plan:** Systematically walk over every single accessible floor tile in the gym.
+
+# Azalea Gym Puzzle (New Hypothesis)
+- **Hypothesis:** The red objects at (2, 9) and (7, 9) are switches that move the trainer platforms. A specific sequence is likely required to clear the path.
+  - **Test 1:** Press the switch at (7, 9) and observe if the Bug Catcher at (8, 9) moves.
