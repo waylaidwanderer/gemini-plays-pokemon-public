@@ -16,7 +16,7 @@
 - Saving Money: Mom saves a portion of winnings.
 - COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
 - LADDER: Warps between floors.
-- FLOOR_UP_WALL: Traversable from South to North (climbable). Blocks movement from North (impassable ledge).
+- FLOOR_UP_WALL: Context-dependent. Acts as a ramp (climbable South->North) and ridge (walkable horizontally) in Union Cave.
 
 ## Strategy Notes
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training.
