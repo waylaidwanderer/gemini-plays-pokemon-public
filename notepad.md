@@ -112,3 +112,4 @@
 - Spotted Female Rocket Grunt at (10, 4).
 - Defeated Rocket Grunt (F) at (13, 4). Team: Zubat (Lv9), Ekans (Lv11).
 - Next: Retrieve item at (10, 3).
+- Retrieved Super Potion at (10, 3).
