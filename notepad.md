@@ -116,3 +116,12 @@
 - Found Rocket Grunt at (6, 6) blocking path.
 - Found Rocket Grunt at (5, 2) and Slowpoke at (6, 2).
 - Found Boulder at (3, 2).
+
+### Map Data: Slowpoke Well B1F
+- Tile Types Verified:
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - WATER: Impassable without Surf.
+  - LADDER: Warp.
+- Hypotheses:
+  - FLOOR_UP_WALL (Row 2): May act as climbable ramps (South->North) or blocking ledges. To be tested.
