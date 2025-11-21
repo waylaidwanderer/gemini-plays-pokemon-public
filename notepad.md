@@ -6,7 +6,7 @@
 
 # Current Quest: Explore Route 34
 - **Objective:** Navigate through Route 34 to reach the next city.
-- **Status:** Currently battling a trainer on the west side of the route.
+- **Status:** Currently on the main path of Route 34.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -24,13 +24,13 @@
 - Received a BITTER BERRY from the tree at (16, 7) on Route 31.
 
 # Strategic Lessons
-- **Trust Tool Outputs:** If a trusted tool like `find_path` reports 'No path found', trust it. The error is in my assumption about the map, not the tool. Re-evaluate the map visually for barriers instead of trying to 'fix' the tool.
+- **Trust Tool Outputs:** My visual interpretation of the map is fallible. The pathfinding tool's analysis of the map data is the source of truth. If a trusted tool like `find_path` reports 'No path found', I must immediately discard my own hypothesis that a path exists and instead operate under the assumption the tool is correct. My first step should be to find the obstacle on the map that proves the tool right, not to debug the tool.
 - **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors, especially when prompted by system critiques. Inconsistent use is a failure of strategy.
-- **Tool Trust & Root Hypothesis:** If a trusted tool (like `find_path`) provides a result that contradicts my belief (e.g., reports "No path found"), the error is almost certainly in my foundational understanding of the game state, not in the tool itself. I must immediately trust the tool's output and challenge my own assumptions about map layout or game mechanics. My mental model of the map is fallible; the tool's analysis of the map data is not. This is a critical lesson learned from repeated failures in Union Cave.
 - **Tool Maintenance & Verification:** If a tool produces an incorrect outcome or contradicts system information, I must not assume the problem is external. The tool is likely flawed and must be fixed immediately. Deferring tool maintenance is a critical failure.
 - **Tool Consistency:** When one tool's logic is updated (like `find_path`), any other tools that use similar logic (`check_unseen_reachability`) must be updated immediately to prevent conflicting results and strategic errors.
+- **Tool Debugging Priority:** When a core tool like a pathfinder fails, debugging it becomes the absolute highest priority, superseding all gameplay goals. A systematic approach is required: 1. Confirm the tool is the problem, not a misunderstanding of the map (e.g., by testing a path manually). 2. Add targeted logging to trace execution and understand the algorithm's decision process. 3. Analyze logs to form a specific hypothesis about the bug before attempting a fix. Do not blindly refactor or revert without evidence.
 - **Data Hygiene:** Map markers for resolved events (like collected items) must be deleted immediately to avoid confusion and wasted turns. When updating a marker for an object (e.g., after defeating a trainer), the old marker must be deleted to prevent redundant and conflicting information. Markers should also be linked to their corresponding `object_id` whenever possible to ensure they move with the object.
-- **Position Verification:** My internal sense of position can be unreliable and lead to hallucinations. I must always verify my current `(x, y)` coordinates in the Game State Information before planning any path or interaction.
+- **Position Verification:** My internal sense of position can be unreliable and lead to hallucinations. I must ALWAYS verify my current `(x, y)` coordinates and map ID in the Game State Information before making any navigational plans, tool calls, or creating map markers. This is the absolute source of truth.
 - **Notepad Precision:** When using `notepad_edit`'s `replace` action, the `old_text` must be an exact, character-for-character match. Using `overwrite` is often safer for larger reorganizations.
 - **Game State Verification:** If a tool fails unexpectedly or an interaction doesn't work, the first step is to verify the game state. I must confirm I am not hallucinating before attempting the action again or debugging the tool.
 - **Item Interaction:** Items on the ground (POKE_BALLs) must be interacted with from an adjacent tile, not by standing on them.
@@ -103,6 +103,7 @@
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
+- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
 
 # Object Mechanics
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
@@ -119,23 +120,6 @@
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Puzzle Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
 
-# Self-Assessment Lessons (Turn 4048)
-- **Location Verification:** I must ALWAYS verify my current map ID and (x, y) coordinates in the Game State Information before making any navigational plans, tool calls, or creating map markers. My internal sense of location is fallible and has led to critical errors.
-- **Trust Tools Over Assumptions:** When a trusted tool (like `find_path`) reports a failure, I must assume my own understanding of the game state is wrong, not the tool. I will immediately re-evaluate my root hypothesis about the map layout or accessibility.
-- **Immediate Maintenance:** All data hygiene (marker cleanup) and tool maintenance (fixing bugs, ensuring consistency) tasks must be performed in the immediate turn they are identified. Deferring these tasks creates cascading failures.
-
 # Puzzle Mechanics
 - **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
-
-# Strategic Lessons
-- **Tool Debugging Priority:** When a core tool like a pathfinder fails, debugging it becomes the absolute highest priority, superseding all gameplay goals. A systematic approach is required: 1. Confirm the tool is the problem, not a misunderstanding of the map (e.g., by testing a path manually). 2. Add targeted logging to trace execution and understand the algorithm's decision process. 3. Analyze logs to form a specific hypothesis about the bug before attempting a fix. Do not blindly refactor or revert without evidence.
-
-# Tile Mechanics
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
-
-# Strategic Lessons
-- **The Tool is the Ground Truth:** My visual interpretation of the map is fallible. The pathfinding tool's analysis of the map data is the source of truth. If the tool reports 'No path found', I must immediately discard my own hypothesis that a path exists and instead operate under the assumption the tool is correct. My first step should be to find the obstacle on the map that proves the tool right, not to debug the tool. I have now wasted over a dozen turns violating this principle.
-
-# Strategic Lessons
-- **The Tool is the Ground Truth:** My visual interpretation of the map is fallible. The pathfinding tool's analysis of the map data is the source of truth. If the tool reports 'No path found', I must immediately discard my own hypothesis that a path exists and instead operate under the assumption the tool is correct. My first step should be to find the obstacle on the map that proves the tool right, not to debug the tool. I have now wasted over a dozen turns violating this principle.
