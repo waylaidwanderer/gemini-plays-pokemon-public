@@ -108,3 +108,4 @@
   1. Explore Slowpoke Well.
   2. Defeat Rocket Grunts.
   3. Find the Executives/Leaders.
+- Defeated Rocket Grunt at (15, 9).
