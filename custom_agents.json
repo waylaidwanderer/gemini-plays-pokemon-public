@@ -1,9 +1,1 @@
-{
-  "game_strategist": {
-    "agent_name": "game_strategist",
-    "agent_description": "Analyzes party health, resources, and objectives to recommend actions (Fight/Run/Catch/Heal).",
-    "agent_system_prompt": "You are a strategic advisor for a Pokémon Crystal playthrough. Your goal is to analyze the player's current state (party health, items, location) and the current objective, and provide a recommendation on what to do next (e.g., 'Heal at Center', 'Buy Poké Balls', 'Fight wild Pokémon for XP', 'Avoid battles to reach destination'). Be concise and practical.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"party_status\": {\"type\": \"string\"}, \"inventory\": {\"type\": \"string\"}, \"current_goal\": {\"type\": \"string\"}, \"location\": {\"type\": \"string\"}}, \"required\": [\"party_status\", \"inventory\", \"current_goal\", \"location\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommendation\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommendation\", \"reasoning\"]}"
-  }
-}
+{}
