@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Found at (14, 31). Moves away when interacted with. Currently at (14, 26).
+- **Farfetch'd Quest:** Found at (14, 31). Moves away when interacted with. Currently at (15, 25).
 - **Geography:** Dense forest. Cut required for small trees.
 
 ## Quest Log
