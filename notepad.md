@@ -3,7 +3,7 @@
 ## Current Goals
 - [ ] Defeat Azalea Gym Leader (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
-- [ ] Find Pokémon Center (Immediate)
+- [ ] Find Kurt (Immediate)
 
 ## Quest Log
 - Defeated Rival Silver (Cherrygrove).
@@ -41,6 +41,7 @@
 ## Lessons Learned
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
+- **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 
 ## Cherrygrove City
 - Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
@@ -77,12 +78,12 @@
 
 ## Route 32
 - Connects Violet City (North) to Union Cave/Azalea (South).
-
 - Trainers Defeated: Youngster Albert (15, 22), Youngster Gordon (4, 63), Youngster at (11, 80).
 - Trainers Avoided: Cooltrainer M (19, 8), Lass (10, 30), Youngster (3, 45).
 - Important NPCs: Scam Fisher (7, 70) [Declined Offer].
 - Items: Item Ball at (6, 53) (Bridge).
 - Key Items: Old Rod (Obtained in Route 32 Pokémon Center).
+
 ## Union Cave (Cleared)
 - Trainers Defeated: Hiker Daniel, Hiker Russell, Firebreather Bill, Pokemaniac Larry.
 - Loot: Potion, Great Ball, X Attack, X Defend, TM39 (Swift).
@@ -95,8 +96,17 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town
-- Status: Arrived from Route 33.
-- Locations: Pokémon Center (15, 9), Slowpoke Well (31, 7) [Blocked by Rocket], House (21, 13).
-- NPCs: Rocket Grunt (31, 9), Gramps (20, 9), Teacher (15, 13).
-- Location: Azalea Town Pokémon Center.
-- Immediate Goal: Heal at Pokémon Center.
+- Status: Currently in Pokémon Center. Team healed.
+- Locations:
+  - Pokémon Center (15, 9) [Visited]
+  - Slowpoke Well (31, 7) [Blocked by Rocket]
+  - House (21, 13)
+- NPCs:
+  - Rocket Grunt (31, 9) guarding Well.
+  - Gramps (20, 9), Teacher (15, 13).
+  - Inside PC: Nurse Joy, Fishing Guru, Gentleman, Pokefan F.
+- Plan:
+  1. Talk to Pokefan F.
+  2. Explore town West.
+  3. Find Kurt's House (likely related to Rocket plot).
+  4. Check Gym (likely blocked).
