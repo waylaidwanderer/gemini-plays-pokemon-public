@@ -26,13 +26,8 @@
 - Status: Cleared. Defeated Sage Li. Obtained HM05 Flash.
 - Items: Collected Potion, Escape Rope (14,1).
 
-## Route 29
-- Connects New Bark Town and Cherrygrove City.
-- One-way ledges force backtracking.
-
-## Route 29/46 Gate
-- Connections: South to Route 29, North to Route 46.
-- NPCs: Officer, Youngster.
+## Route 29 & Gate
+- Connects New Bark, Cherrygrove, and Route 46.
 
 ## Route 46 (Southern Section)
 - Connections: South to Route 29/46 Gate.
