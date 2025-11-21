@@ -9,6 +9,7 @@
 - **Farfetch'd Quest:** Bird is at (29, 22). Chasing it East.
 - **Geography:** Dense forest.
 - **Tile Mechanics:**
+  - FLOOR: Standard traversable tile.
   - HEADBUTT_TREE: Impassable.
   - CUT_TREE: Impassable (requires Cut).
   - LEDGE_HOP_DOWN: One-way South.
