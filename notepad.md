@@ -8,7 +8,7 @@
 - [ ] Explore Goldenrod City (Tertiary)
 - [x] Heal at Pokémon Center
 - [x] Locate Dept Store
-- [ ] Locate Bike Shop (Southeast)
+- [x] Locate Bike Shop (Southeast)
 - [ ] Find Goldenrod Gym
 - [ ] Locate Game Corner
 
