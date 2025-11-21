@@ -158,3 +158,8 @@
 1. **Hypothesis:** The Farfetch'd is herded by direct interaction (facing it and pressing 'A'). It moves in the opposite direction from which it was approached.
 2. **Action:** Move to (15, 26), the tile directly south of the Farfetch'd, and press 'A'.
 3. **Expected Outcome:** The Farfetch'd will move north to (15, 24).
+
+**Test 5:**
+1. **Hypothesis:** The Farfetch'd is herded by direct interaction (facing it and pressing 'A'). It moves in the opposite direction from which it was approached.
+2. **Action:** From (21, 24), face left towards the Farfetch'd at (20, 24) and press 'A'.
+3. **Expected Outcome:** The Farfetch'd will move west to (19, 24).
