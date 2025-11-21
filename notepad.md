@@ -77,7 +77,7 @@
 - Tool Lesson: `find_path` returns coordinates, not buttons.
 ## Route 32
 - Connects Violet City (North) to Union Cave/Azalea (South).
-- Mechanics: `FLOOR_UP_WALL` tiles are impassable walls from the North.
+
 - Trainers Defeated: Youngster Albert (15, 22), Youngster Gordon (4, 63), Youngster at (11, 80).
 - Trainers Avoided: Cooltrainer M (19, 8), Lass (10, 30), Youngster (3, 45).
 - Important NPCs: Scam Fisher (7, 70) [Declined Offer].
