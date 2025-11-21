@@ -126,6 +126,7 @@
   - **Test Plan:** Walk onto the tile directly behind the Bug Catcher at coordinate (8, 10).
 - **Hypothesis A2:** The defeated Twins will move after being spoken to again.
   - **Test Plan:** Approach the defeated Twins at coordinates (4, 10) and (5, 10) and interact with them.
+  - **Conclusion:** Failed. Interacting with the Twin at (4, 10) triggered new dialogue, but they did not move.
 - **Hypothesis A3:** The Twins will move after all other trainers in the gym have been defeated.
   - **Test Plan:** Locate and defeat every other trainer in the gym, then return to the Twins to see if they have moved. (Currently blocked by un-battleable trainer).
 - **Hypothesis A4:** Stepping on a hidden switch on the floor will cause the Twins to move.
