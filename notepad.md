@@ -7,7 +7,7 @@
 # Strategic Plan
 - Primary: Earn Zephyr Badge (Violet City).
 - Secondary: Heal at Pokémon Center.
-- Status: Cherrygrove City. Got Map Card. Goal: Heal at Center, then supplies.
+- Status: Cherrygrove Pokémon Center. Goal: Heal Kaen.
 
 # Quests & Info
 - Main: Visit Mr. Pokémon (Cherrygrove).
