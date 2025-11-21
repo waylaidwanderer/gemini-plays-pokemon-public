@@ -7,7 +7,7 @@
 # Strategic Plan
 - Primary: Earn Zephyr Badge (Violet City).
 - Secondary: Reach Cherrygrove City.
-- Status: Route 29, In battle with Wild Hoothoot.
+- Status: Route 29, Heading West to Cherrygrove.
 
 # Quests & Info
 - Main: Visit Mr. Pokémon (Cherrygrove).
