@@ -45,6 +45,14 @@
 - **Marker Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels. Failure to do so degrades the quality of my map data and leads to confusion. Unlinked markers for moving objects are useless.
 - **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
 - **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
+- **Strategic Lessons (Updates from Self-Assessment):**
+- **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
+- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
+- **Verify Root Assumptions:** When a plan fails, especially when a trusted tool like a pathfinder reports an issue, the root hypothesis about the map/mechanic is likely flawed. Do not repeatedly try minor variations of the failed plan. Instead, re-examine the map to find the contradiction and form a new, fundamentally different hypothesis (e.g., trying to go east instead of west when blocked).
+- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed. Instead of trying minor path variations, I must pivot to finding the trigger event, often hinted at by recent NPC dialogue.
+- **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
+- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
+- **TRUST THE TOOL, NOT YOUR EYES:** The pathfinder repeatedly reported 'No path found' to the item at (10, 15) because a WALL exists at (10, 14), a fact confirmed by the map data that I failed to see visually. This is the ultimate proof that the tool's analysis of the raw game data is more reliable than my visual interpretation. Future 'No path found' results must be treated as a discovery of a real, unseen obstacle, not as a tool bug.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -128,13 +136,6 @@
 - **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
 - **Movement Interruption:** If a planned movement is interrupted (e.g., by bumping into an NPC), my final position may not be what I intended. I must always verify my actual final coordinates in the Game State Information before proceeding with the next action, rather than assuming the plan completed successfully.
 
-# Game State Contradictions
-- System alert and screen annotation indicated a warp at GoldenrodPokecenter1F (0, 6), but the Game State Information's warp list does not include it. Concluding it is not a warp.
-
-# New Discoveries (Turn 5037)
-- **Strategic Lessons:** Always stun a moving NPC before attempting to interact to prevent them from moving out of range.
-- **Interaction Loop Failures:** If an interaction (like using a menu or switch) fails repeatedly, do not repeat the same input. The root hypothesis about the game mechanic is likely flawed. Immediately stop, re-observe the screen state, and form a new, simple hypothesis to test. For example: H1: 'A' opens the menu. H2: 'A' confirms the selection. H3: The interaction object only sets a state, and another action is needed elsewhere. Document this scientific process to avoid getting stuck.
-
 # Goldenrod Dept Store B1F Puzzle
 **Objective:** Manipulate the moving Black Belts to change the wall layout and create a path to the items.
 **Key Objects:** Machoke at (7, 7), 3 Black Belt NPCs (2 static, 1 moving).
@@ -147,22 +148,6 @@
 - **Positional Hallucination Mitigation:** I have repeatedly misidentified my own coordinates after a planned movement. This is a critical failure. I MUST ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY movement action, especially a `path_plan`, before planning my next move. The Game State is the only source of truth.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 
-# Strategic Lessons (Updates from Self-Assessment)
-- **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
-- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
-
-# Game Corner Info
-- A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-
-# Strategic Lessons (Updates from Self-Assessment)
-- **Verify Root Assumptions:** When a plan fails, especially when a trusted tool like a pathfinder reports an issue, the root hypothesis about the map/mechanic is likely flawed. Do not repeatedly try minor variations of the failed plan. Instead, re-examine the map to find the contradiction and form a new, fundamentally different hypothesis (e.g., trying to go east instead of west when blocked).
-
-# Strategic Lessons (Update)
-- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed. Instead of trying minor path variations, I must pivot to finding the trigger event, often hinted at by recent NPC dialogue.
-
-# Strategic Lessons (Update)
-- If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
-
 # Goldenrod Dept Store B1F Navigation Plan
 1. The main puzzle is solved (by leaving and re-entering). The current problem is a navigation challenge around moving NPCs.
 2. My goal is to stun the moving Black Belts (ID 5 and ID 7) when they are in non-blocking positions.
@@ -170,9 +155,6 @@
 4. Immediately use `stun_npc` to lock them in place, keeping a corridor open.
 5. Repeat for the second NPC if necessary.
 6. Once a path is clear, use `find_path` to navigate to the items.
-
-# Strategic Lessons (Update)
-- When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
 
 # Goldenrod Dept Store B1F Puzzle (Revised)
 **Objective:** Find the correct trigger tile in the central corridor (column 9) to open the path to the items.
@@ -186,20 +168,5 @@
 - (9, 11): Path to items remains blocked.
 **Next Test:** Move to (9, 11) and check the state of the wall at x=12.
 
-# Strategic Lessons (Update)
-- **Trust Tool Outputs Over Visuals:** If a trusted tool's output (like `find_path` reporting 'No path found') contradicts my visual assessment of the map, the tool's analysis of the game data is the source of truth. My first action must be to find the in-game obstacle that proves the tool correct, not to assume the tool is bugged. My repeated, failed attempts to 'fix' the correct pathfinder is a critical lesson in avoiding this cognitive bias.
-
-# Strategic Lessons (Update)
-- **TRUST THE TOOL, NOT YOUR EYES:** The pathfinder repeatedly reported 'No path found' to the item at (10, 15) because a WALL exists at (10, 14), a fact confirmed by the map data that I failed to see visually. This is the ultimate proof that the tool's analysis of the raw game data is more reliable than my visual interpretation. Future 'No path found' results must be treated as a discovery of a real, unseen obstacle, not as a tool bug.
-
-# Puzzle Mechanics
-- **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
-
-# Puzzle Mechanics
-- **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
-
-# Puzzle Mechanics
-- **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
-
-# Puzzle Mechanics
-- **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
+# Game Corner Info
+- A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
