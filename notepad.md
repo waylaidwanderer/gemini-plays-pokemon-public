@@ -2,12 +2,11 @@
 
 ## Current Goals
 - [ ] Find the missing Farfetch'd (Primary)
-  - Chasing the bird. Currently at (22, 31).
+  - Chasing the bird. Heading East to locate it.
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird is at (22, 31). Plan: Try interacting from East (23, 31) or South (via 22, 32). Pushing West hits a Wall at (21, 31).
-  - **CRITICAL:** Pushing North from (15, 26) causes the bird to RESET to (20, 24). Do not do this.
+- **Farfetch'd Quest:** Bird moved East from (22, 31). Investigating area near (28, 31).
   - **Goal:** Herd bird to the Charcoal Maker.
 - **Geography:** Dense forest.
 - **Tile Mechanics:**
@@ -27,6 +26,7 @@
   - Defeated Leader Bugsy.
   - Paprika evolved into Quilava.
   - Received Mystery Egg.
+  - Found Revive at (20, 32).
 
 ## Game Mechanics
 - Saving Money: Mom saves a portion of winnings.
@@ -59,4 +59,3 @@
 ### Slowpoke Well B1F (Cleared)
 - Mechanics: FLOOR_UP_WALL acts as ramp (S->N) and ridge.
 - **Pokemon:** Caught Flux (Psyduck) Lv7 in Ilex Forest.
-- **Items:** Item Ball visible at (20, 32) in Ilex Forest.
