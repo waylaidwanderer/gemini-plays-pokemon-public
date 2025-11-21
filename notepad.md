@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Heal at Azalea Pokémon Center (Immediate)
+- [ ] Defeat Rival Silver (Immediate)
 - [ ] Enter Ilex Forest (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
 
