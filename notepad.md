@@ -90,3 +90,4 @@
 ## Union Cave
 - Entered from Route 32 (17, 3).
 - Union Cave: Hiker Daniel at (3, 6) (originally misidentified as Pokefan M). Onix Lv11 (Bind, Tackle).
+- Defeated Hiker Daniel (Union Cave). Paprika reached Lv 16.
