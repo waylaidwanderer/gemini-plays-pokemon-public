@@ -38,23 +38,11 @@
 - Always verify object existence before interacting.
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 
-## Cherrygrove City
-- Locations: Poké Mart (23, 3), Pokémon Center (29, 3), Guide Gent's House (25, 9), Unknown House (17, 7)
-- Cherrygrove PC Fisher: Confirmed PC storage is free.
-- Cherrygrove Speech House: Pokefan M advised visiting Gyms and collecting Badges.
+## Cherrygrove City (Cleared)
+- Guide Gent gave tour. Rival defeated.
 
-## Route 30
-- Geography: Split into East and West paths.
-  - East Path: Leads to Mr. Pokémon's House. Dead ends at Row 2 (Trees).
-  - West Path: Leads to Violet City. Accessible via crossover at Row 30.
-- Trainers:
-  - Youngster Joey (Rattata Lv 4) - Defeated.
-  - Youngster Mikey (Pidgey Lv 2, Rattata Lv 4) - Defeated.
-  - Bug Catcher Don (Caterpie Lv 3 x2) - Defeated.
-- Wild Pokémon: Caterpie, Pidgey, Weedle, Hoppip, Rattata.
-- Navigation Notes:
-  - Path West at (9, 7) is blocked by trees.
-  - Must use the crossover at Row 30 to switch sides.
+## Route 30 (Cleared)
+- Connected Cherrygrove to Violet. Defeated all trainers.
 
 ## Route 31
 - Connects Route 30 to Violet City. Go North through grass to bypass wall.
