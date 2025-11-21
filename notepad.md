@@ -96,3 +96,7 @@
 - **Day Care Mechanics:** The side exit (WARP_CARPET_RIGHT) leads to the Day Care Yard/West Route 34.
 - **Fake Tree at (8, 24):** The tree-like object at (8, 24) in the Day Care Yard is NOT cuttable. It is a solid wall.
 - Caught Cirrus (Pidgey) Lv12 on Route 34.
+## Goldenrod Dept Store
+- **Status:** Entered 1F.
+- **Geography:** Entrance at South. Stairs/Elevator likely at North.
+- **NPCs:** Pokefan F, Bug Catcher, Gentleman.
