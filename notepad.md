@@ -129,3 +129,13 @@
 - **Tile Mechanics:** Added `WARP_CARPET_UP`. Hypothesized to be a warp activated by moving up onto it.
 - **Strategic Lessons:** Always stun a moving NPC before attempting to interact to prevent them from moving out of range.
 - **Interaction Loop Failures:** If an interaction (like using a menu or switch) fails repeatedly, do not repeat the same input. The root hypothesis about the game mechanic is likely flawed. Immediately stop, re-observe the screen state, and form a new, simple hypothesis to test. For example: H1: 'A' opens the menu. H2: 'A' confirms the selection. H3: The interaction object only sets a state, and another action is needed elsewhere. Document this scientific process to avoid getting stuck.
+
+# Goldenrod Dept Store B1F Puzzle
+**Objective:** Move the boxes to reach the items.
+**Key Objects:** Machoke at (7, 7), 3 Black Belt NPCs.
+**Failed Hypotheses:**
+1. Interacting with Machoke from above (at 7, 6) will move it.
+2. Interacting with Machoke from the right (at 8, 7) will move it.
+3. Interacting with Machoke from the left (at 6, 7) will move it.
+4. Talking to the Black Belt at (9, 10) will provide a clue.
+5. Talking to the Black Belt at (4, 8) will provide a clue.
