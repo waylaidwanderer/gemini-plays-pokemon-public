@@ -40,7 +40,7 @@
 - Accuracy Debuffs: Verified effective survival tactic against strong opponents (e.g. Silver's Croconaw).
 
 ## Strategy Notes
-- Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. Teach Cut to XQH (Sandshrew) for utility.
+- Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. XQH (Sandshrew) knows Cut for utility.
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
 
