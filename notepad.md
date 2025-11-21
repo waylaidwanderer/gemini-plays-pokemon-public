@@ -133,10 +133,6 @@
 - **Hypothesis A4:** Stepping on a hidden switch on the floor will cause the Twins to move.
   - **Test Plan:** Systematically walk over every single accessible floor tile in the gym.
 
-# Azalea Gym Puzzle (New Hypothesis)
-- **Hypothesis:** The red objects at (2, 9) and (7, 9) are switches that move the trainer platforms. A specific sequence is likely required to clear the path.
-  - **Test 1:** Press the switch at (7, 9) and observe if the Bug Catcher at (8, 9) moves.
-
 # Azalea Gym Puzzle (Agent Hypotheses 2)
 - **Hypothesis B1:** Interacting with the red objects in the reverse sequence (left then right) will move the Twins.
   - **Test Plan:** Interact with the red object at (2, 9), then interact with the red object at (7, 9). Check if the Twins at (4, 10) and (5, 10) have moved.
