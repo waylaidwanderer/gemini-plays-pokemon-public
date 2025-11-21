@@ -52,11 +52,11 @@
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
+- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 **Custom Tools:**
 - `find_path`: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
 - `check_unseen_reachability`: Checks which of the known potentially reachable unseen tiles are actually reachable from my current position.
-- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
