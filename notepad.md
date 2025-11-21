@@ -96,3 +96,9 @@
 ## Route 33
 - Geography: Short route connecting Union Cave and Azalea Town.
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Offered phone number.
+
+## Azalea Town
+- Status: Arrived from Route 33.
+- Locations: Slowpoke Well (31, 7) [Blocked by Rocket], House (21, 13).
+- NPCs: Rocket Grunt (31, 9), Gramps (Moving near 21, 8).
+- Immediate Goal: Find Pokémon Center (Critical).
