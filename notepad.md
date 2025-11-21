@@ -31,4 +31,4 @@
 - Do not walk into NPCs; utilize `interact_direction` or `stun_npc`.
 - Visual verification is useful, but the XML `type` attribute is the absolute source of truth for collision logic.
 - Correction: 'GROUND' is not a valid XML type; 'FLOOR' is the standard type for walkable ground.
-[Update] Exited Evolution House. Heading to Poké Mart.
+[Update] Mistakenly entered Guide Gent's House. Exiting to find the real Poké Mart.
