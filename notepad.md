@@ -182,4 +182,5 @@
 - (9, 9): Walls at (10, 13) & (11, 13) disappear. Path to items remains blocked.
 - (9, 8): Walls at (10, 12) & (11, 12) disappear. Path to items remains blocked.
 - (9, 5): Walls appear at (10, 9) & (11, 9). Path to items remains blocked.
-**Next Test:** Move to (9, 12) and check the state of the wall at x=12.
+- (9, 12): Path to items remains blocked.
+**Next Test:** Move to (9, 11) and check the state of the wall at x=12.
