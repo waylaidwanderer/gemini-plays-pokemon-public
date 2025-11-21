@@ -109,3 +109,6 @@
 - **Test the Root Hypothesis:** My fundamental assumption that the path forward *had* to be through the basement was wrong. When all paths seem blocked under a given assumption, the assumption itself must be questioned. I should have returned to the first floor to re-evaluate all options sooner.
 - **Data Hygiene Prevents Errors:** My failure to immediately correct my notepad and my hallucination of a map marker were pointed out by the system. Maintaining accurate, up-to-date internal documentation is not optional; it is critical for preventing strategic errors.
 - **Tool Precision:** When using tools like `notepad_edit`, precision is critical. The `replace` action requires an exact character-for-character match for `old_text`. A single misplaced space or character will cause it to fail. For significant changes or when `replace` fails, using the `overwrite` action on the entire section is a more reliable method to ensure the intended update is successful.
+
+# Strategic Lessons
+- **Trust Tools Over Visuals:** My visual assessment of the map can be wrong, especially concerning complex pathing like ledges. The `find_path` tool analyzes the raw map data and should be trusted as the source of truth for reachability. If the tool says 'No path found,' my visual interpretation is the one that's wrong.
