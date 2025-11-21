@@ -62,3 +62,6 @@
 
 ### Caught Pokémon
 - Flux (Psyduck) Lv7 in Ilex Forest.
+## Route 34 Gatehouse
+- Connecting Ilex Forest and Route 34.
+- Butterfree sprite observed inside.
