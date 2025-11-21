@@ -2,8 +2,12 @@
 
 ## Current Goals
 - [ ] Find the missing Farfetch'd (Primary)
-  - Search the forest for the bird to clear the path north (blocked by Youngster).
+  - Chasing the bird. Moved North from (14, 31) to (14, 26).
 - [ ] Hatch the Mystery Egg (Secondary)
+
+## Ilex Forest
+- **Farfetch'd Quest:** Found at (14, 31). Moves away when interacted with. Currently at (14, 26).
+- **Geography:** Dense forest. Cut required for small trees.
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
