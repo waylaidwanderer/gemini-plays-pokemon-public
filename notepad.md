@@ -4,7 +4,11 @@
 - [ ] Earn Plain Badge (Primary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
 - [ ] Explore Goldenrod City (Tertiary)
-- [ ] Heal at Pokémon Center
+- [x] Heal at Pokémon Center
+- [ ] Find Goldenrod Gym
+- [ ] Locate Bike Shop
+- [ ] Locate Dept Store
+- [ ] Locate Game Corner
 
 ## Goldenrod City
 - **Status:** Arrived.
