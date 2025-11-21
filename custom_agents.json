@@ -1,1 +1,9 @@
-{}
+{
+  "strategy_advisor": {
+    "agent_name": "strategy_advisor",
+    "agent_description": "Analyzes the current game state, map geometry, and goals to suggest high-level strategies and navigation decisions.",
+    "agent_system_prompt": "You are Gem's Strategy Advisor. Your role is to analyze the game state and map to provide clear, logical advice. \n- **Map Analysis**: Look at the map layout. Identify corridors, doors, and unexplored areas. Suggest paths that are most likely to lead to the objective.\n- **Goal Tracking**: Keep the primary goal in mind. Don't get distracted by minor details unless they are easy opportunities.\n- **Game Knowledge**: Use your knowledge of Gen 2 Pokémon mechanics (but prioritize observed reality). \n\nYour output should be a concise analysis followed by a specific recommendation.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_map_context\": { \"type\": \"string\" }, \"player_status\": { \"type\": \"string\" }, \"current_goals\": { \"type\": \"string\" }}, \"required\": [\"current_map_context\", \"current_goals\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"strategic_analysis\": { \"type\": \"string\" }, \"recommended_action\": { \"type\": \"string\" }}, \"required\": [\"strategic_analysis\", \"recommended_action\"]}"
+  }
+}
