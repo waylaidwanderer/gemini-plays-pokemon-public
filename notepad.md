@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Navigate Ilex Forest to Route 34 (Primary)
-- [ ] Hatch the Mystery Egg (Secondary)
-- [ ] Explore Ilex Forest fully (Tertiary)
+- [ ] Reach Goldenrod City (Primary)
+- [ ] Hatch Mystery & Odd Eggs (Secondary)
+- [ ] Explore Route 34 & Day Care (Tertiary)
 
 ## Ilex Forest
 - **Status:** Farfetch'd returned. Obtained HM01 (Cut). Tree at (8,25) cut.
