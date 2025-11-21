@@ -7,14 +7,14 @@
 # Strategic Plan
 - Primary: Earn Zephyr Badge from Falkner in Violet City.
 - Secondary: Reach Cherrygrove City.
-- Immediate: Defeat wild Rattata, then return to Route 29 and head West to Cherrygrove.
-- Status: In battle with Wild Rattata on Route 46.
+- Immediate: Return to Route 29 via Gatehouse, then travel West to Cherrygrove City.
+- Status: On Route 46. Kaen Lv6 (learned Smokescreen).
 
 # Quest Log & Tips
 - Mission: Go to Mr. Pokémon's house (Cherrygrove City).
 - Tip: Growlithe on Route 37 (Radio).
 - Tip: Pokémon hide in grass (Route 29).
-- Battle: Defeated L2 Rattata (Route 29).
+- Battle: Defeated L2 Rattata (Route 29), L2 Rattata (Route 46).
 - Wild: Rattata found on Route 46.
 
 # Lessons Learned
