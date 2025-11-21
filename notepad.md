@@ -94,3 +94,4 @@
 - B1F: Found TM39 (Swift) at (2, 16).
 - B1F: Found X Defend at (17, 23).
 - B1F: FLOOR_UP_WALL at (16, 24) is a wall, not a ledge.
+B1F (North): Accessed via ladder at 1F (5,19). Dead end containing TM39 (Swift) and X Defend. Southern 'ledge' there is a wall.
