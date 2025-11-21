@@ -32,10 +32,6 @@
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 
-## Route 32 & Union Cave (Cleared)
-- **Route 32:** Connects Violet to Cave. Old Rod obtained.
-- **Union Cave:** Cleared. FLOOR_UP_WALL acts as ramp (S->N) and ridge (E-W).
-
 ## Route 33
 - Geography: Short route connecting Union Cave and Azalea Town.
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
