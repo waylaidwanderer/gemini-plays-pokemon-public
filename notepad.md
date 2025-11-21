@@ -133,3 +133,6 @@
 
 # Tile Mechanics
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
+
+# Strategic Lessons
+- **The Tool is the Ground Truth:** My visual interpretation of the map is fallible. The pathfinding tool's analysis of the map data is the source of truth. If the tool reports 'No path found', I must immediately discard my own hypothesis that a path exists and instead operate under the assumption the tool is correct. My first step should be to find the obstacle on the map that proves the tool right, not to debug the tool. I have now wasted over a dozen turns violating this principle.
