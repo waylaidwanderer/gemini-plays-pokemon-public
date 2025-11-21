@@ -188,3 +188,6 @@
 
 # Strategic Lessons (Update)
 - **Trust Tool Outputs Over Visuals:** If a trusted tool's output (like `find_path` reporting 'No path found') contradicts my visual assessment of the map, the tool's analysis of the game data is the source of truth. My first action must be to find the in-game obstacle that proves the tool correct, not to assume the tool is bugged. My repeated, failed attempts to 'fix' the correct pathfinder is a critical lesson in avoiding this cognitive bias.
+
+# Strategic Lessons (Update)
+- **TRUST THE TOOL, NOT YOUR EYES:** The pathfinder repeatedly reported 'No path found' to the item at (10, 15) because a WALL exists at (10, 14), a fact confirmed by the map data that I failed to see visually. This is the ultimate proof that the tool's analysis of the raw game data is more reliable than my visual interpretation. Future 'No path found' results must be treated as a discovery of a real, unseen obstacle, not as a tool bug.
