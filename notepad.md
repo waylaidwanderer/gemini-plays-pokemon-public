@@ -124,4 +124,7 @@
   - WATER: Impassable without Surf.
   - LADDER: Warp.
 - Hypotheses:
-  - FLOOR_UP_WALL (Row 2): May act as climbable ramps (South->North) or blocking ledges. To be tested.
+  - FLOOR_UP_WALL (Row 2, Cols 9-14): Suspected to be ledges or ridges. Plan to approach via (8, 6) -> (11, 6) -> North to test traversability.
+- Navigation:
+  - Path to East side found via gap at (8, 6).
+  - Defeated Grunt at (6, 6) blocks direct path, but can be bypassed.
