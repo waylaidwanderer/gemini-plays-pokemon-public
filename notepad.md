@@ -56,3 +56,4 @@
 - **Navigation & Hypotheses:**
   - **Path to East:** Accessible via gap at (8, 6).
   - **FLOOR_UP_WALL (Row 2):** Verified climbable ramps (South->North). Can be traversed horizontally and jumped down from (North->South).
+- **Pokemon:** Caught Flux (Psyduck) Lv7 in Ilex Forest.
