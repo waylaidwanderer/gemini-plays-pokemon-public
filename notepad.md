@@ -2,6 +2,7 @@
 
 ## Current Goals
 - [ ] Explore Ilex Forest (Primary)
+  - Investigate path north from entrance.
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Quest Log
