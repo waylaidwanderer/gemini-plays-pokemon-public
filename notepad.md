@@ -89,3 +89,4 @@
 - Key Items: Old Rod (Obtained in Route 32 Pokémon Center).
 ## Union Cave
 - Entered from Route 32 (17, 3).
+- Union Cave: Hiker Daniel at (3, 6) (originally misidentified as Pokefan M). Onix Lv11 (Bind, Tackle).
