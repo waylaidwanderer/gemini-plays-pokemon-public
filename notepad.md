@@ -12,6 +12,7 @@
 
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
+- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
 
 # TMs
 - **TM31 MUD-SLAP**
@@ -37,6 +38,7 @@
 - **Immediate Correction Principle:** If an in-game observation contradicts a hypothesis (e.g., a failed movement), my absolute highest priority is to immediately correct my internal knowledge base (notepad) and any related tools. Deferring this creates cascading errors.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Marker Hygiene for Moving Objects:** When an object with a linked marker moves off-screen, the marker becomes stale. I must immediately delete the marker. A new marker should only be created if/when the object reappears at a new location.
+- **Position Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -172,14 +174,6 @@
 2. **Action:** From (15, 26), faced north towards the Farfetch'd at (15, 25) and pressed 'A'.
 3. **Outcome:** Success! The Farfetch'd moved along a path to (20, 24).
 4. **Conclusion:** The puzzle is solved by repeatedly getting into an adjacent position and interacting with the Farfetch'd to guide it along its route.
-- **CUT_08 / CUT_28_GARBAGE**: *Verification needed.* Likely impassable variants of CUT_TREE.
-- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
 
 # Puzzle Mechanics
 - **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
-
-# Self-Assessment Lessons (Turn 4345)
-- **Position Verification after Interruptions:** I received a critical warning for a position mismatch. I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
-
-# Self-Assessment Lessons (Turn 4345)
-- **Position Verification after Interruptions:** I received a critical warning for a position mismatch. I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
