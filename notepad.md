@@ -113,7 +113,7 @@
 - Defeated Rocket Grunt (F) at (13, 4). Team: Zubat (Lv9), Ekans (Lv11).
 - Retrieved Super Potion at (10, 3).
 - Exploring West side of Slowpoke Well. Heading to check on Slowpoke at (7, 4).
-- Found Rocket Grunt at (6, 6) blocking path.
+- Defeated Rocket Grunt at (6, 6). Team: Rattata (Lv7), Zubat (Lv9) x2. Basalt grew to Lv10.
 - Found Rocket Grunt at (5, 2) and Slowpoke at (6, 2).
 - Found Boulder at (3, 2).
 
