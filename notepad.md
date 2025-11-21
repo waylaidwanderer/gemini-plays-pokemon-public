@@ -91,4 +91,4 @@
 - Defeated Hiker Russell (Union Cave, 11,8). Team: Geodude Lv4, Lv6, Lv8.
 - Collected Potion at (4,17).
 - B1F: Ladder at (7, 19) connects to 1F (5, 19).
-- B1F: Item Ball detected at (2, 16).
+- B1F: Found TM39 (Swift) at (2, 16).
