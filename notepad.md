@@ -103,3 +103,4 @@
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
+- `stun_npc`: Freezes or unfreezes an NPC's movement.
