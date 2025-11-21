@@ -2,11 +2,11 @@
 
 ## Current Goals
 - [ ] Find the missing Farfetch'd (Primary)
-  - Chasing the bird. Currently at (15, 25).
+  - Chasing the bird. Currently at (20, 24).
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Found at (14, 31). Moves away when interacted with. Currently at (15, 25).
+- **Farfetch'd Quest:** Found at (14, 31). Moves away when interacted with. Currently at (20, 24).
 - **Geography:** Dense forest. Cut required for small trees.
 
 ## Quest Log
