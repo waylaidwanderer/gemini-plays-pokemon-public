@@ -8,27 +8,26 @@
 
 # Strategic Plan
 - Primary Goal: Earn Zephyr Badge in Violet City.
-- Secondary Goal: Visit Mr. Pokémon on Route 30.
-- Tertiary Goal: Buy Poké Balls (Not available at Cherrygrove Mart yet).
-- Cherrygrove Mart Stock: Potion, Antidote, Parlyz Heal, Awakening. (NO POKÉ BALLS YET).
+- Secondary Goal: Return the Mystery Egg to Professor Elm in New Bark Town.
+- Tertiary Goal: Buy Poké Balls (Check availability after errand).
 
 # Quests & Information
 - Main Quest: Return the Mystery Egg to Professor Elm in New Bark Town.
 - Key Items: Mystery Egg, Pokédex.
 - Note: Mr. Pokémon healed the party.
 - Tips: Fisher suggested saving often. Guide Gent provided the Map Card.
-- Route 30 Encounters: Caterpie (Morning/Day).
+- Route 30 Encounters: Caterpie (Morning/Day), Hoothoot (Night).
 - Route 30 is located North of Cherrygrove City.
 
 # Encounters & Area Data
 - Route 29: Rattata, Hoothoot (Night).
 - Route 46: Rattata, Spearow, Geodude (Found in Grass).
-- Route 30: Caterpie (Morning/Day).
+- Route 30: Caterpie (Morning/Day), Hoothoot (Night).
 - Party: Kaen (Cyndaquil) Lv7.
 
 # Inventory & Resources
 - Items: Antidote x1, Berry x2, Potion x1.
-- Key Items: Map Card.
+- Key Items: Map Card, Mystery Egg, Pokédex.
 - Money: ¥3000.
 
 # Lessons Learned & Corrections
@@ -36,6 +35,3 @@
 - Do not walk into NPCs; utilize `interact_direction` or `stun_npc`.
 - Visual verification is useful, but the XML `type` attribute is the absolute source of truth for collision logic.
 - Correction: 'GROUND' is not a valid XML type; 'FLOOR' is the standard type for walkable ground.
-Task: Find Mr. Pokémon on Route 30. (Note: Poké Balls unavailable at Cherrygrove Mart).
-- Sign at (13, 29): "MR.POKéMON'S HOUSE STRAIGHT AHEAD!"
-- Route 30: Hoothoot (Night).
