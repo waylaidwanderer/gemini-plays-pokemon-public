@@ -170,3 +170,4 @@
 
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
+- **TRUST THE TOOL, NOT YOUR EYES:** The pathfinder repeatedly reported 'No path found' to the item at (10, 15) because a WALL exists at (10, 14), a fact confirmed by the map data that I failed to see visually. This is the ultimate proof that the tool's analysis of the raw game data is more reliable than my visual interpretation. Future 'No path found' results must be treated as a discovery of a real, unseen obstacle, not as a tool bug.
