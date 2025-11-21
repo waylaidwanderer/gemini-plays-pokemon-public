@@ -105,7 +105,9 @@
 ### Azalea Gym
 - Type: Bug. Weak to Fire, Rock, Flying.
 - Trainers:
-  - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10).
+  - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
+  - Bug Catcher at (8, 8).
+  - Leader Bugsy at (5, 7).
 
 ### Slowpoke Well B1F
 - **Progress:**
