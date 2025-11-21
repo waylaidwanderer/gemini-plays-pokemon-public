@@ -149,3 +149,7 @@
 9. Talking to the Black Belt at (9, 9) immediately before the Machoke is the trigger.
 - **Positional Hallucination Mitigation:** I have repeatedly misidentified my own coordinates after a planned movement. This is a critical failure. I MUST ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY movement action, especially a `path_plan`, before planning my next move. The Game State is the only source of truth.
 - **DOOR**: A traversable warp tile leading into or out of a building.
+
+# Strategic Lessons (Updates from Self-Assessment)
+- **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
+- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
