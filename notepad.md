@@ -93,3 +93,6 @@
 - **NPCs:** Receptionist (1F), Pokefan F, Bug Catcher, Gentleman.
 - **Tile Mechanics:**
   - WARP_CARPET_DOWN: Exit to city.
+## Goldenrod Bike Shop
+- **Status:** Entered. Goal: Obtain Bicycle.
+- **NPCs:** Clerk at (7, 2).
