@@ -6,7 +6,7 @@
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Ilex Forest
-- **Farfetch'd Quest:** Bird is at (15, 25). Plan: Push South from (15, 24). 
+- **Farfetch'd Quest:** Bird is at (15, 29). Plan: Move to (14, 29) to push it East. 
   - **CRITICAL:** Pushing North from (15, 26) causes the bird to RESET to (20, 24). Do not do this.
   - **Goal:** Herd bird to the Charcoal Maker (likely deeper in the forest).
 - **Geography:** Dense forest.
