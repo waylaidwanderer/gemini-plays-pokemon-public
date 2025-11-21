@@ -50,6 +50,7 @@
 - `run_code`: Executes a single-use Python script.
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_tool` / `delete_tool`: Manages custom tools.
+- `define_tool` / `delete_tool`: Manages custom tools.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
