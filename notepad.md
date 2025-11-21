@@ -10,6 +10,9 @@
 - **Geography:**
   - Hidden path on West edge (Col 0) leads North.
   - Path East of center (Row 10) leads to a Northbound corridor at Col 22.
+  - Northern path ends at (14, 0).
+  - Path south of Youngster (12, 1) connects central area.
+  - Exit to Route 34 Gatehouse at (1, 5).
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - HEADBUTT_TREE: Impassable.
