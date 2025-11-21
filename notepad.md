@@ -8,7 +8,7 @@
 - Primary: Earn Zephyr Badge from Falkner in Violet City.
 - Secondary: Reach Cherrygrove City.
 - Immediate: Return to Route 29 via Gatehouse, then travel West to Cherrygrove City.
-- Status: On Route 46. Kaen Lv6 (learned Smokescreen).
+- Status: Crossing Gatehouse to Route 29. Kaen Lv6 (learned Smokescreen).
 
 # Quest Log & Tips
 - Mission: Go to Mr. Pokémon's house (Cherrygrove City).
