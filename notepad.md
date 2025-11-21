@@ -2,14 +2,13 @@
 
 ## Current Goals
 - [ ] Heal at Pokémon Center (Immediate)
-- [x] Defeated Rival Silver (Azalea Town)
 - [ ] Enter Ilex Forest (Primary)
 - [ ] Hatch the Mystery Egg (Secondary)
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
 - **Events:**
-  - Defeated Rival Silver (Cherrygrove).
+  - Defeated Rival Silver (Cherrygrove & Azalea).
   - Cleared Sprout Tower (Flash) & Slowpoke Well.
   - Defeated Leader Bugsy.
   - Paprika evolved into Quilava.
@@ -62,9 +61,9 @@
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
 ## Azalea Town & Slowpoke Well
-- Status: Battling Rival Silver in Azalea Town.
-- Mission: Defeat Rival Silver.
-- Note: Cleared Slowpoke Well. Received Lure Ball from Kurt.
+- Status: Healing at Pokémon Center.
+- Mission: Enter Ilex Forest.
+- Note: Cleared Slowpoke Well. Received Lure Ball. Defeated Rival Silver.
 - Locations: Kurt's House (9, 5), Slowpoke Well (31, 7), Pokémon Center (15, 9), Poké Mart (21, 5), Azalea Gym (10, 15).
 
 ### Azalea Gym (Cleared)
