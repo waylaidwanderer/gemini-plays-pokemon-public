@@ -11,7 +11,7 @@
 
 # Quests & Info
 - Main: Visit Mr. Pokémon (Cherrygrove).
-- Tips: Growlithe (Rt 37), Pokémon in grass.
+- Tips: Growlithe (Rt 37), Pokémon in grass. Save often.
 
 # Encounters
 - Route 29: Rattata (Defeated L2).
