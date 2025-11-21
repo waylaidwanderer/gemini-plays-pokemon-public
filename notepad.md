@@ -109,3 +109,4 @@
   2. Defeat Rocket Grunts.
   3. Find the Executives/Leaders.
 - Defeated Rocket Grunt at (15, 9). He remains on the map, blocking the path. Plan: Navigate around him via (14, 9) to explore deeper North.
+- Spotted Female Rocket Grunt at (10, 4).
