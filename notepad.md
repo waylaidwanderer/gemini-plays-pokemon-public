@@ -106,7 +106,7 @@
 - Type: Bug. Weak to Fire, Rock, Flying.
 - Trainers:
   - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
-  - Bug Catcher Josh (Left): Paras (Lv13).
+  - Bug Catcher Josh (Left): Paras (Lv13) - Defeated.
   - Bug Catcher at (8, 8).
   - Leader Bugsy at (5, 7).
 
