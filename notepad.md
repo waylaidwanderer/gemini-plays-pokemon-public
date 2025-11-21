@@ -103,3 +103,8 @@
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
+
+# Union Cave Lessons
+- **Trust Tools Over Assumptions:** My pathfinding tools correctly identified that the southern part of Union Cave B1F was a dead end. My insistence that there must be a path, based on my own flawed reading of the map, was the primary source of delay. I must trust my tool's analysis of the map data over my own fallible intuition.
+- **Test the Root Hypothesis:** My fundamental assumption that the path forward *had* to be through the basement was wrong. When all paths seem blocked under a given assumption, the assumption itself must be questioned. I should have returned to the first floor to re-evaluate all options sooner.
+- **Data Hygiene Prevents Errors:** My failure to immediately correct my notepad and my hallucination of a map marker were pointed out by the system. Maintaining accurate, up-to-date internal documentation is not optional; it is critical for preventing strategic errors.
