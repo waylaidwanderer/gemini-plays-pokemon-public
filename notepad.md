@@ -2,8 +2,9 @@
 
 ## Current Goals
 - [ ] Earn Plain Badge (Primary)
-- [ ] Hatch Mystery & Odd Eggs (Secondary)
+- [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
 - [ ] Explore Goldenrod City (Tertiary)
+- [ ] Heal at Pokémon Center
 
 ## Goldenrod City
 - **Status:** Arrived.
