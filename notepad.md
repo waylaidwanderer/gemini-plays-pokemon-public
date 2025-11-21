@@ -109,7 +109,7 @@
   - Bug Catcher Josh (Left): Paras (Lv13) - Defeated.
   - Bug Catcher Benny (Center): Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
   - Bug Catcher at (8, 8).
-  - Leader Bugsy at (5, 7).
+  - Leader Bugsy: In battle. Lead Metapod (Lv14).
 
 ### Slowpoke Well B1F
 - **Progress:**
