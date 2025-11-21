@@ -96,18 +96,15 @@
 - Geography: Short route connecting Union Cave and Azalea Town.
 - Trainers: Hiker Anthony (Geodude Lv11) - Defeated. Swapped phone numbers.
 
-## Azalea Town
-- Status: Currently in Pokémon Center. Team healed.
+## Azalea Town & Slowpoke Well
+- Status: Exploring Slowpoke Well B1F.
+- Mission: Kurt is injured. I must defeat Team Rocket to save the Slowpoke.
 - Locations:
-  - Pokémon Center (15, 9) [Visited]
-  - Slowpoke Well (31, 7) [Blocked by Rocket]
-  - House (21, 13)
-- NPCs:
-  - Rocket Grunt (31, 9) guarding Well.
-  - Gramps (20, 9), Teacher (15, 13).
-  - Inside PC: Nurse Joy, Fishing Guru, Gentleman, Pokefan F.
+  - Kurt's House (9, 5)
+  - Slowpoke Well (31, 7)
+  - Pokémon Center (15, 9)
+  - Poké Mart (21, 5)
 - Plan:
-  1. Talk to Pokefan F (Done - Learned Apricorns make Poké Balls).
-  2. Explore town West.
-  3. Find Kurt's House (likely related to Rocket plot).
-  4. Check Gym (likely blocked).
+  1. Explore Slowpoke Well.
+  2. Defeat Rocket Grunts.
+  3. Find the Executives/Leaders.
