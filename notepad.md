@@ -23,6 +23,7 @@
 ## Strategy Notes
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training.
 - Tactics: Smokescreen vs physical attackers.
+- Survival Strategy: Against strong/type-advantaged opponents (e.g. Rival's Croconaw), stacking accuracy debuffs (e.g. Smokescreen x6) is a verified effective survival tactic.
 - Protocol: Mark NPCs immediately.
 
 ## Route 46 (Southern Section)
