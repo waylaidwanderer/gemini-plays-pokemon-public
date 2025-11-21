@@ -46,17 +46,12 @@
 
 # Available Tools
 **Built-in Tools:**
-- `notepad_edit`: Edits this notepad.
-- `run_code`: Executes a single-use Python script.
-- `define_agent` / `delete_agent`: Manages custom reasoning agents.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `stun_npc`: Freezes or unfreezes an NPC's movement.
+- `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_tool`, `delete_tool`, `define_map_marker`, `delete_map_marker`, `stun_npc`
 
 **Custom Tools:**
-- `find_path`: Finds a path from a start to an end coordinate on the current map using the A* algorithm.
-- `check_unseen_reachability`: Checks which of the known potentially reachable unseen tiles are actually reachable from my current position.
-- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `find_path`: Finds a path between two coordinates on the current map.
+- `check_unseen_reachability`: Checks which unseen tiles are reachable.
+- `select_battle_option`: Automatically selects a main battle menu option.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
