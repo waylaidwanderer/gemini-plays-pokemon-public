@@ -92,21 +92,8 @@
 - **NPCs:** Clerk at (7, 2).
 
 ## Goldenrod Game Corner
-- **Status:** Exploring.
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - COUNTER: Impassable.
-  - MACHINES: Impassable walls.
-- **Info:** Coin Case tossed in the Underground (Source: Pokefan M).
-- **Mechanics:** Card Flip has better odds than slots but lower payout.
-- **NPCs:**
-  - Pharmacist (8, 7): Lucky Slot Tip.
-  - Cooltrainer M (14, 8): Card Flip addict.
-  - Pokefan F (17, 6): Card Flip odds tip.
-  - Pokefan M (17, 10): To do.
-  - Receptionists: (16, 2) & (18, 2).
-  - Gentleman (5, 10).
-  - Pokefan M (11, 10): Coin Case tip source.
+- **Info:** Coin Case in Underground (Source: Pokefan M).
+- **Mechanics:** Card Flip > Slots.
 
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
