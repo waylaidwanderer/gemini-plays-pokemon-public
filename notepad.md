@@ -170,7 +170,4 @@
 
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-- **TRUST THE TOOL, NOT YOUR EYES:** The pathfinder repeatedly reported 'No path found' to the item at (10, 15) because a WALL exists at (10, 14), a fact confirmed by the map data that I failed to see visually. This is the ultimate proof that the tool's analysis of the raw game data is more reliable than my visual interpretation. Future 'No path found' results must be treated as a discovery of a real, unseen obstacle, not as a tool bug.
-
-# Strategic Lessons (Updates from Self-Assessment)
-- **Positional Hallucination Mitigation:** I have repeatedly misidentified my own coordinates after a planned movement. This is a critical failure. I MUST ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY movement action, especially a `path_plan`, before planning my next move. The Game State is the only source of truth.
+- **Core Principle: Data Over Intuition:** My visual interpretation and memory are unreliable and prone to hallucinations, especially regarding my own position. The game state data (coordinates, map XML) and the outputs of my trusted tools (`find_path`) are the absolute source of truth. If a tool reports 'No path found,' I must accept it as fact and investigate the map for the physical obstacle, rather than debugging the tool. All movement, especially after a `path_plan` or interruption (battle, menu), must be followed by an immediate verification of my `(x, y)` coordinates in the Game State before planning the next action.
