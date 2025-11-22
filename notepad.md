@@ -136,18 +136,8 @@
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE.
 
 # Goldenrod Gym Puzzle
-I am currently stuck in the entrance area. My pathfinder confirms no route to the main gym exists. I have tested and debunked the following hypotheses:
-- The Gym Guide provides a puzzle hint.
-- There is a fake wall.
-- There is an invisible teleporter.
-- Interacting with the statues individually.
-- Leaving and re-entering the gym.
-- Walking in a 'G' shape.
-- A narrow walkway exists around the central structure.
-- Interacting with decorative potted plants.
-- **Pushable Statue:** Attempt to push each statue from all four directions. (Tested: Failed, statues are impassable WALLs.)
-- **Statue Interaction:** Attempt to interact with each statue ('A' button). (Tested: Failed, only brings up location text.)
-- **Perimeter Walk:** Confirmed Puzzle Mechanic: Walking the bottom perimeter from left to right makes Lass (ID 2) appear at (9, 13). Walking the left perimeter from bottom to top makes her disappear. The puzzle involves toggling trainers by walking specific paths.
+- **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
+- **Current State:** I have walked a sequence of perimeters that has made a Lass appear at (9, 13). The path to her is now open, and the next step is to defeat her.
 
 ## Archived Info
 
