@@ -18,6 +18,7 @@
 - **NPCs:** Gramps (20, 21), Lass (19, 29).
 - **Events:**
   - Met Bill in PC. He finished the Time Capsule (trade with past, no new moves/mons) and returned to Goldenrod.
+  - Gym Guide in PC mentions a Gyarados swarm and conspiracy at Lake of Rage.
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
