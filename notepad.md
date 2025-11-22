@@ -161,14 +161,15 @@
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - PC: Impassable.
 ## Goldenrod Gym
-- **Status:** Trainers defeated. Challenging Whitney.
+- **Status:** Challenging Whitney. All trainers defeated.
 - **NPCs:** Gym Guide (5, 15), Lass (9, 13).
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - WARP_CARPET_DOWN: Exit to city.
-  - STATUE: Impassable.
-- **Gym Layout:** Path East from entrance is blocked by walls. Must navigate via the West side.
+- **Tile Mechanics:** FLOOR, WALL, STATUE, WARP_CARPET_DOWN.
+- **Layout:** Maze of flower boxes. Path East blocked. Must navigate West/South perimeter.
+- **Progress:**
+  - Defeated Beauty Victoria (0, 4).
+  - Defeated Beauty Samantha (19, 5).
+  - Defeated Lass Carrie (12, 13).
+  - Defeated Lass Bridget (9, 6).
 ## Goldenrod Gym Notes
 - **Mechanics:** Maze of flower boxes. Path East blocked. Must navigate West/South perimeter.
 - **Progress:** Defeated Victoria (0,4), Samantha (19,5), Carrie (12,13), Bridget (9,6).
