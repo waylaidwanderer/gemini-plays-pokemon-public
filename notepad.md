@@ -162,3 +162,6 @@
 - **Moving NPC Interaction:** When trying to interact with a moving NPC, pathing to a static coordinate is unreliable and can cause positional hallucinations. The correct, deterministic strategy is to get close and use `stun_npc` to freeze them before initiating interaction.
 - **Interaction Loops:** If repeated interaction with an NPC or object doesn't change the outcome after 2-3 attempts, the solution lies elsewhere. Don't get stuck in an interaction loop; pivot to testing environmental triggers, interacting with other NPCs, or exploring alternative paths.
 - **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
+
+# Held Items
+- **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
