@@ -158,3 +158,11 @@
   - COUNTER: Impassable. Interact across to speak to NPCs.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - PC: Impassable.
+## Goldenrod Gym
+- **Status:** Entered. Exploring entrance.
+- **NPCs:** Gym Guide (5, 15), Lass (9, 13).
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - WARP_CARPET_DOWN: Exit to city.
+  - STATUE: Impassable.
