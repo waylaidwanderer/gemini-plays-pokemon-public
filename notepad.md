@@ -159,3 +159,26 @@ My simple hypotheses have failed. The puzzle likely requires a specific sequence
 1. Walk bottom perimeter (left-to-right).
 2. Walk right perimeter (bottom-to-top).
 3. Observe the state change and check if the path to the main area is open.
+
+# Goldenrod Gym - Agent Hypotheses (Turn 6933)
+After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_puzzle_solver` agent. Here are its suggestions, which I will test in order of simplicity.
+
+**Hypothesis 1: Trigger tile behind NPC.**
+- **Hypothesis:** The trigger to advance the puzzle is located on the tile directly behind Lass Bridget (8, 6).
+- **Test Plan:** Attempt to walk around Lass Bridget to step on the tile.
+- **Result:** PENDING
+
+**Hypothesis 2: Directional interaction.**
+- **Hypothesis:** Interacting with Lass Bridget from a different direction will trigger a battle.
+- **Test Plan:** Approach from adjacent tiles (above, below) and press A.
+- **Result:** PENDING
+
+**Hypothesis 3: Repeat perimeter walk.**
+- **Hypothesis:** One of the perimeters must be walked again to open the final path.
+- **Test Plan:** With Bridget present, walk the left perimeter, then reset and try the right.
+- **Result:** PENDING
+
+**Hypothesis 4: State change for another NPC.**
+- **Hypothesis:** Bridget's appearance has changed the state of a previously defeated trainer.
+- **Test Plan:** Interact with all other trainers in the gym again.
+- **Result:** PENDING
