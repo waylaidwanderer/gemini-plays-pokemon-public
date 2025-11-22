@@ -12,7 +12,7 @@
 - Deposited Mystery Egg in Bill's PC.
 
 ## Ecruteak City
-- **Status:** In Ecruteak Mart. Buying supplies.
+- **Status:** In Ecruteak Mart. Bought Great Balls x10. Buying Super Potions x5.
 - **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
