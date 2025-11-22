@@ -83,7 +83,6 @@
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
 - `stealth_pathfinder` (Tool): Finds a path from a start to an end coordinate, avoiding a given list of 'forbidden' tiles representing NPC lines of sight.
-- `stealth_pathfinder` (Tool): Finds a path from a start to an end coordinate, avoiding a given list of 'forbidden' tiles representing NPC lines of sight.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
