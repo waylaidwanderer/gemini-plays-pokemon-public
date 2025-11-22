@@ -112,8 +112,7 @@
   - WARP_CARPET_DOWN: Exit to city.
 
 ## Goldenrod Bike Shop
-- **Status:** Entered. Goal: Obtain Bicycle.
-- **NPCs:** Clerk at (7, 2).
+- **Status:** Cleared. Obtained Bicycle.
 
 ## Goldenrod Game Corner
 - **Info:** Coin Case in Underground (Source: Pokefan M).
