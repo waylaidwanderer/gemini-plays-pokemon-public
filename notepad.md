@@ -214,3 +214,7 @@
 - **Sudowoodo Moveset:** Flail, Low Kick, Mimic, Rock Throw (suspected). Learned Ember via Mimic.
 ### Observed Movesets
 - **Sudowoodo (Lv20):** Flail, Low Kick, Mimic (Learned Ember). (Suspected: Rock Throw).
+## Route 37
+- **Status:** Arrived from Route 36 (South).
+- **Geography:** Short route connecting Route 36 and Ecruteak City.
+- **Apricorns:** Suspected 'Weird Trees' (Red/Blue/Black Apricorns usually found here).
