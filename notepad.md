@@ -7,10 +7,14 @@
 
 ## Ecruteak City
 - **Status:** In Ecruteak Gym. Challenging Leader Morty.
-- **Gym Puzzle:** Invisible floor path. Gym Guide says trainers have "secret motives" and may reveal secrets if defeated.
+- **Gym Puzzle:** Invisible floor path. Gym Guide says trainers have "secret motives".
 - **Strategy:** Defeat trainers sequentially to uncover the path.
-- **Current Target:** Sage at (2, 7).
-- **Path:** From Start, Col 5 is safe to Row 13. Then Right to Col 6 is safe to Row 9. Then Left to Col 3 is safe to cross Row 8.
+- **Current Target:** Granny at (7, 5).
+- **Path:**
+  1. Start -> Col 5 -> Row 13 (Defeated Sage Ping).
+  2. Right to Col 6 -> Row 9 (Defeated Granny).
+  3. Left to Col 3 -> Row 8 (Cross Pit) -> Row 7 (Defeated Sage Jeffrey).
+  4. Right to (6, 7) (Safe Bridge) -> North to (6, 6).
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
@@ -23,7 +27,7 @@
   - **Objects:** Rhydon Sprite (6, 8) (Flavor text only).
   - **Layout:** Stage north of fancy panels at Row 6.
 - **Quests:**
-  - **Kimono Girls:** Defeat all 5 to receive a gift from the Gentleman in the Dance Theater.
+  - **Kimono Girls:** Defeated all 5. Received HM03 (Surf).
   - **Lake of Rage:** Gym Guide mentioned Gyarados swarm/conspiracy.
 - **Events:**
   - Met Bill in PC. Time Capsule active tomorrow.
@@ -45,11 +49,7 @@
   - Received Mystery Egg.
   - Found Revive at (20, 32).
   - Solved Farfetch'd puzzle in Ilex Forest.
-  - Defeated Kimono Girl 1 (Naoko). Basalt Lv13.
-  - Defeated Kimono Girl 2 (Sayo). Paprika Lv28.
-  - Defeated Kimono Girl 3 (Zuki). Paprika Lv29.
-  - Defeated Kimono Girl 4 (Kuni). Paprika Lv29.
-  - Defeated Kimono Girl 5 (Miki). Geodude Lv15.
+  - Defeated Kimono Girls (Naoko, Sayo, Zuki, Kuni, Miki).
   - Quest Complete: Defeated all 5 Kimono Girls. Received HM03 (Surf).
 
 ## Global Game Mechanics
@@ -264,7 +264,7 @@
 - **Wild Escapes:** Escape probability increases with each failed attempt. Persisting in RUN is statistically better than fighting trash mobs when conserving resources.
 - **Tile Mechanics:** HOLE tiles are warps/hazards. Avoid unless intentional.
 - **Fake Hazards:** The hole at (10, 9) in Burned Tower is a visual fake. Trust Game State Warps list over visual tiles.
-- **FAKE_HOLE (Burned Tower):** Some visual hole tiles (e.g. at 10,9) do not function as warps and are walkable. Always verify hazards against the Game State Warps list.
+- **FAKE_HOLE (Burned Tower):** Some visual hole tiles (e.g. 10,9) do not function as warps and are walkable. Always verify hazards against the Game State Warps list.
 - Used Revive on Paprika during Silver battle.
 - **Tool Usage:** `sequence_press` MUST have `autopress_buttons: true` set to function.
 - **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
@@ -283,9 +283,4 @@
 - **Tile Mechanics:** Warp at (10, 8) is traversable/landing spot (walked over it). (10, 9) is also a landing spot.
 - **Obstacles:** Boulder at (17, 8) blocks access to Item (16, 4) and Warp (17, 7) from the South. Likely requires Strength or falling from upstairs.
 - Defeated Sage Ping (Gastly Lv16) at (4, 13).
-- Hypothesis: Column 6 (x=6) appears to be a safe path north based on observed floor tiles.
-- Plan: Talk to Sage Ping for clues. Then navigate North via Column 6 (Safe Path) to challenge Granny at (7, 9).
-- Sage Ping: 'We use only ghost-type POKéMON. No normal-type attack can harm them!'
-- Correction: Column 6 is blocked by a Pit at (6, 8). Safe path appears to shift Left at Row 9 towards Column 3 (Tile (3, 9) and (3, 8) are floors).
 - Defeated Sage Jeffrey (Haunter Lv22) at (2, 7).
-- Gym Path Hypothesis: Row 7 safe tiles (3,7) to (5,7). Suspect (6,7) is the bridge to Row 6.
