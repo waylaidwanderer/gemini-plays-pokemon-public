@@ -169,19 +169,10 @@
   - WARP_CARPET_DOWN: Exit to city.
   - STATUE: Impassable.
 - **Gym Layout:** Path East from entrance is blocked by walls. Must navigate via the West side.
-## Goldenrod Gym Mechanics
-- **FLOOR:** Standard walkable tile.
-- **WALL:** Impassable boundary.
-- **STATUE:** Impassable object.
-- **WARP_CARPET_DOWN:** Exit to city.
-- Defeated Beauty Victoria at (0, 4). Basalt grew to Lv12 and learned Rock Throw.
-- Path north at (0, 4) is blocked by Victoria. Detour via (2, 7) required.
-- Defeated Beauty Samantha at (19, 5). Meowth x2.
-- Defeated Lass Carrie at (12, 13).
-- Battling Lass Bridget at (9, 6).
-- Defeated Lass Bridget at (9, 6). Paprika Lv24.
-- Tool Safety: `select_move` assumes cursor is at top (Index 1). If uncertain, back out to main menu to reset cursor before calling.
-- Goldenrod Gym: The layout is a maze formed by flower boxes. Trainers act as static blockers. Path to Whitney requires navigating around the perimeter.
+## Goldenrod Gym Notes
+- **Mechanics:** Maze of flower boxes. Path East blocked. Must navigate West/South perimeter.
+- **Progress:** Defeated Victoria (0,4), Samantha (19,5), Carrie (12,13), Bridget (9,6).
+- **Lesson:** `select_move` assumes cursor index 1. Reset menu if uncertain.
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
 - **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
