@@ -2,15 +2,16 @@
 
 ## Current Goals
 - [ ] Earn Plain Badge (Primary)
-- [x] Obtain Bicycle
-- [ ] Obtain Radio Card (Secondary) - High Priority
+- [ ] Find Goldenrod Gym (Primary)
+- [x] Obtain Radio Card (Secondary)
+- [ ] Retrieve Coin Case from Underground (Tertiary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
 - [ ] Explore Goldenrod City (Tertiary)
+- [x] Obtain Bicycle
 - [x] Heal at Pokémon Center
 - [x] Locate Dept Store
 - [x] Locate Bike Shop (Southeast)
-- [ ] Find Goldenrod Gym
-- [ ] Locate Game Corner
+- [x] Locate Game Corner
 
 ## Goldenrod City
 - **Status:** Arrived.
