@@ -143,3 +143,4 @@
 ## Goldenrod Flower Shop
 - **Status:** Entered. Goal: Get SquirtBottle.
 - **NPCs:** Teacher at (2, 4).
+- **Quest Update:** Teacher's sister is at the wiggly tree on Route 36. Must find her to get SquirtBottle.
