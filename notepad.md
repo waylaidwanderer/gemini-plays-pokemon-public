@@ -149,6 +149,7 @@
 - **Geography:** Path North to Route 36.
 - **Trainers:**
   - Picnicker Kim (Vulpix Lv15) at (10, 26). Defeated.
+  - Camper Ivan (Diglett Lv10/14, Zubat Lv10) at (5, 19). Defeated.
 - **Correction:** Psyduck's name is 'F', not 'Flux'.
 - **Tile Mechanics:**
   - FLOOR: Walkable.
