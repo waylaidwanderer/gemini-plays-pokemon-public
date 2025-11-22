@@ -259,4 +259,4 @@
 - Used Revive on Paprika during Silver battle.
 - **Tool Usage:** `sequence_press` MUST have `autopress_buttons: true` set to function.
 - **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
-- Battle vs Silver: Croconaw defeated. Zubat (Lv 20) vs Paprika (Lv 29, Confused). Staying in.
+- Battle vs Silver: Zubat defeated. Magnemite vs Paprika (Confused). Staying in.
