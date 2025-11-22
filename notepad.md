@@ -193,3 +193,13 @@
 - **Hypothesis:** The western perimeter (Column 0/1) was blocked by walls. The path to the Northern Exit likely lies along the Eastern perimeter, bypassing the central fence maze.
 - **Plan:** Navigate through the gap in the fence at x=16-19 (Row 39) to reach the northern section.
 - **Items:** Received Quick Claw from Teacher at (27, 40).
+
+## Global Game Mechanics
+### Tile Mechanics
+- **FLOOR:** Walkable. Standard movement.
+- **WALL:** Impassable.
+- **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
+- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk onto to exit the current map to the adjacent one.
+- **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
+- **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
+- **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
