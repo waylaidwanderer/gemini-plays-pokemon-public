@@ -177,3 +177,7 @@
 - **Events:** Bug Catching Contest (Tues/Thurs/Sat).
 - **Warps:** South exit to Gatehouse.
 - **Obstacles:** Two Youngsters blocking the path North at (10, 41) and (11, 41).
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - WARP_CARPET_DOWN: Exits to South Gate.
