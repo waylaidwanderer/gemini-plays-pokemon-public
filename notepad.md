@@ -32,7 +32,7 @@
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. XQH (Sandshrew) knows Cut for utility.
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
-- Tools: `select_move` (index 1-4), `select_battle_option` (FIGHT/PKMN/PACK/RUN), `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`.
+- Tools: `select_battle_option` (FIGHT/PKMN/PACK/RUN), `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
 - Whitney Battle: Spam Smokescreen to neutralize Rollout/Stomp.
 
