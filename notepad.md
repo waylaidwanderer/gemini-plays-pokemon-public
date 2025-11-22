@@ -247,7 +247,6 @@
 - **Lesson:** Always verify specific tile mechanics (e.g. directional ledges) are explicitly coded in pathfinding tools to avoid invalid paths.
 - **Tool Usage:** Always remember to set `autopress_buttons: true` when using custom tools that return button sequences.
 ## Burned Tower
-- **Status:** Exploring 1F. Spoke to Morty.
-- **Events:** Met Eusine. Morty is investigating legendary beasts.
-- **Geography:** Holes in floor likely lead to basement.
-- **Goals:** Find Rival, Find Suicune.
+- **Status:** Exploring 1F. Met Eusine & Morty. Located Rival Silver at (8, 9).
+- **Geography:** Central area is walled off. Must loop around the East side (Column 16) and likely cross via Row 7 to reach Rival.
+- **Goals:** Defeat Rival, Find Suicune.
