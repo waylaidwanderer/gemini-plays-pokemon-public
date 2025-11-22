@@ -167,3 +167,11 @@
 - **Training Strategy:** The wild POKéMON on Route 35 (around Lv12-14) are currently too strong for my low-level party members. Attempting to grind here is inefficient and leads to frequent trips to the POKéMON Center. A better strategy is to train on an earlier route with weaker wild POKéMON, such as Route 32.
 - **Pathfinding must account for all known obstacles, both on-screen (from map data) and off-screen (from map markers).**
 - **Cautious Training:** Even with a type advantage, a low-level Pokémon is still vulnerable. Be prepared to switch out or use healing items if they take significant damage, rather than risking a faint for a small amount of EXP.
+
+# Party Status
+- **Lead:** CRUNCH (PINSIR), Lv13 (40/41 HP)
+- VULCAN (QUILAVA), Lv29 (79/79 HP)
+- CHRONO (HOOTHOOT), Lv7 (26/26 HP)
+- JUBILEE (TOGEPI), Lv5 (14/19 HP)
+- Hestia (MAGBY), Lv7 (23/23 HP)
+- WEAVER (SPINARAK), Lv11 (14/32 HP) - Critically injured.
