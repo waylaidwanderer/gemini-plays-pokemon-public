@@ -273,3 +273,6 @@
   - **Warp Tiles:** The warp-like tiles (e.g. at 10,8) are traversable floor tiles on this level.
 - **Events:** Rival Silver defeated.
 - **Menu Navigation:** When using `sequence_press`, ALWAYS set `autopress_buttons: true`. Visual verification of the cursor position is mandatory before confirming selections.
+- **Burned Tower B1F Discovery:** Legendary Beasts (Raikou, Entei, Suicune) fled upon interaction.
+- **Tile Mechanics:** Warp at (10, 8) is traversable/landing spot (walked over it). (10, 9) is also a landing spot.
+- **Obstacles:** Boulder at (17, 8) blocks access to Item (16, 4) and Warp (17, 7) from the South. Likely requires Strength or falling from upstairs.
