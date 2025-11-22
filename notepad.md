@@ -232,10 +232,8 @@
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
 ## Route 36
-- **Status:** Sudowoodo (35, 9) defeated. Path to Ecruteak open.
-- **Trainers:** Schoolboy Alan (Defeated), Psychic Mark (Defeated).
-- **Navigation:** Heading to eastern exit for Route 37.
-- **Sudowoodo Moveset:** Flail, Low Kick, Mimic, Rock Throw (suspected). Learned Ember via Mimic.
+- **Status:** Cleared. Sudowoodo defeated.
+- **Trainers:** Schoolboy Alan, Psychic Mark (Defeated).
 ### Observed Movesets
 - **Sudowoodo (Lv20):** Flail, Low Kick, Mimic (Learned Ember). (Suspected: Rock Throw).
 ## Route 37
