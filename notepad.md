@@ -24,9 +24,19 @@
   - Found Revive at (20, 32).
   - Solved Farfetch'd puzzle in Ilex Forest.
 
-## Game Mechanics
-- Battle Cursor: Remembers last move used. ALWAYS check cursor position before selecting!
-- Accuracy Debuffs: Effective vs strong opponents.
+## Global Game Mechanics
+### Tile Mechanics
+- **FLOOR:** Walkable. Standard movement.
+- **WALL:** Impassable.
+- **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
+- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk onto to exit the current map to the adjacent one.
+- **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
+- **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
+- **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
+
+### Battle Mechanics
+- **Cursor Memory:** The move cursor remembers the last used move. ALWAYS check cursor position before selecting!
+- **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. XQH (Sandshrew) knows Cut for utility.
