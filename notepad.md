@@ -176,3 +176,4 @@
 - **Geography:** Large park area connecting Route 35 and 36.
 - **Events:** Bug Catching Contest (Tues/Thurs/Sat).
 - **Warps:** South exit to Gatehouse.
+- **Obstacles:** Two Youngsters blocking the path North at (10, 41) and (11, 41).
