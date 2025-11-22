@@ -4,7 +4,7 @@
 - [ ] Earn Plain Badge (Primary)
 - [x] Find Goldenrod Gym (Primary)
 - [x] Enter Goldenrod Gym (Primary)
-- [ ] Defeat Gym Leader Whitney (Primary)
+- [x] Defeat Gym Leader Whitney (Primary) - VICTORY! (She is crying)
 - [x] Obtain Radio Card (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
