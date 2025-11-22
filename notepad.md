@@ -288,4 +288,4 @@
 - **Trainers:**
   - Sailor Harry (Wooper Lv19) at (24, 5). Defeated.
   - Lass Dana at (15, 3). Defeated.
-  - Beauty at (5, 8). Engaging.
+  - Beauty Olivia (5, 8). In Battle. (Corsola Lv19 vs Paprika)
