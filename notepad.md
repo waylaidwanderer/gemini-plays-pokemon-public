@@ -2,8 +2,8 @@
 
 ## Current Goals
 - [ ] Travel to Olivine City (Primary)
-- [ ] Visit Ecruteak Mart (Secondary)
-- [ ] Explore Route 38 (Tertiary)
+- [ ] Explore Route 39 (Secondary)
+- [ ] Heal Paprika (Tertiary)
 
 ## Recent Events
 - Defeated Leader Morty. Obtained Fog Badge & TM30 (Shadow Ball).
