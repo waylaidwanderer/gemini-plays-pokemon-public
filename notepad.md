@@ -180,3 +180,4 @@
 - Battling Lass Bridget at (9, 6).
 - Defeated Lass Bridget at (9, 6). Paprika Lv24.
 - Tool Safety: `select_move` assumes cursor is at top (Index 1). If uncertain, back out to main menu to reset cursor before calling.
+- Goldenrod Gym: The layout is a maze formed by flower boxes. Trainers act as static blockers. Path to Whitney requires navigating around the perimeter.
