@@ -77,7 +77,7 @@
 - Team Strategy: Paprika (Quilava) is the carry and current lead. Basalt (Geodude) has Magnitude.
 - Tactics: Use Flame Wheel on Morty's Ghosts.
 - Protocol: Mark NPCs immediately.
-- Tools: `select_battle_option`, `stun_npc`, `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`, `sequence_press`.
+- Tools: `select_battle_option`, `stun_npc`, `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`, `sequence_press`, `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `define_tool`, `delete_tool`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
 
 ## Lessons Learned
