@@ -153,3 +153,6 @@
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
 - Fire-type moves (like EMBER) are not very effective against Fire-types (like Quilava).
 - **Tool Precision:** Always use the exact, defined names for tools and agents. Check the notepad or available tools list if unsure. Typos or incorrect names will cause failures.
+
+# Battle Mechanics
+- A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
