@@ -1,10 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Earn Plain Badge (Primary)
-- [x] Find Goldenrod Gym (Primary)
-- [x] Enter Goldenrod Gym (Primary)
-- [x] Defeat Gym Leader Whitney (Primary) - VICTORY! (She is crying)
+- [x] Earn Plain Badge (Primary) - OBTAINED!
+- [x] Defeat Gym Leader Whitney (Primary)
+- [x] Obtain TM45 (Attract)
 - [x] Obtain Radio Card (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
