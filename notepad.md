@@ -172,6 +172,4 @@
 - **Data Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels, including the correct trainer type. Failure to do so degrades the quality of my map data and leads to confusion.
 - **Interaction Loops:** If repeated, varied interaction with an NPC (e.g., from different directions, or testing line-of-sight) yields no new result, they are likely non-interactive for progression or have already served their purpose. I must abandon the interaction and explore other options to avoid wasting time in a loop.
 - **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
-
-# Lessons Learned & New Principles
 - **Follow Documented Strategy:** My documented strategies and principles in the notepad are useless if I don't follow them. I must review relevant notes before making major decisions, especially for gym battles. A single high-level Pokémon cannot carry an under-leveled team, and attempting to do so after documenting this principle is a critical strategic failure.
