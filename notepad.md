@@ -257,3 +257,4 @@
 - **Fake Hazards:** The hole at (10, 9) in Burned Tower is a visual fake. Trust Game State Warps list over visual tiles.
 - **FAKE_HOLE (Burned Tower):** Some visual hole tiles (e.g. at 10,9) do not function as warps and are walkable. Always verify hazards against the Game State Warps list.
 - Used Revive on Paprika during Silver battle.
+- **Tool Usage:** `sequence_press` MUST have `autopress_buttons: true` set to function.
