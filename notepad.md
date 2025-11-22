@@ -175,3 +175,5 @@
 - JUBILEE (TOGEPI), Lv5 (14/19 HP)
 - Hestia (MAGBY), Lv7 (23/23 HP)
 - WEAVER (SPINARAK), Lv11 (14/32 HP) - Critically injured.
+- **Accuracy-lowering moves** like SAND-ATTACK can turn a simple training battle into a high-risk situation. If an opponent repeatedly uses such moves, consider switching to a Pokémon with a move that doesn't check accuracy or running away to avoid wasting resources.
+- **Menu Navigation:** When navigating menus, especially the party screen, it is crucial to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns. Mixing them can lead to unintended actions. Using automated tools like `select_battle_option` can prevent these errors.
