@@ -254,3 +254,4 @@
 - **Action is Truth:** Never assume a tool is updated unless the `tool_code_updated` message appears. Hallucinating fixes leads to dangerous behavior.
 - **Wild Escapes:** Escape probability increases with each failed attempt. Persisting in RUN is statistically better than fighting trash mobs when conserving resources.
 - **Tile Mechanics:** HOLE tiles are warps/hazards. Avoid unless intentional.
+- **Fake Hazards:** The hole at (10, 9) in Burned Tower is a visual fake. Trust Game State Warps list over visual tiles.
