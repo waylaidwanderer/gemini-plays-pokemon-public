@@ -218,3 +218,5 @@
 - **Status:** Arrived from Route 36 (South).
 - **Geography:** Short route connecting Route 36 and Ecruteak City.
 - **Apricorns:** Suspected 'Weird Trees' (Red/Blue/Black Apricorns usually found here).
+- **Drowzee (Lv17):** Hypnosis.
+- **Lesson:** Always verify specific tile mechanics (e.g. directional ledges) are explicitly coded in pathfinding tools to avoid invalid paths.
