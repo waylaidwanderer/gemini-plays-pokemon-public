@@ -292,3 +292,7 @@
 - Defeated Beauty Olivia (Corsola Lv19) on Route 38. Received ¥1672.
 - Hint: Olivia mentions Moomoo Milk. Farm likely nearby.
 - TASK: Heal Paprika (22/87 HP).
+## Route 39
+- **Status:** Arrived from Route 38 (East).
+- **Geography:** Route connecting Ecruteak/Route 38 to Olivine City.
+- **Landmarks:** Sign at (15, 7).
