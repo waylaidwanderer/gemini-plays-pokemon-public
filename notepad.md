@@ -16,6 +16,10 @@
   - Pokémon Center at (23, 27).
   - House at (13, 27).
 - **NPCs:** Gramps (20, 21), Lass (19, 29).
+- **Dance Theater Interior:**
+  - **NPCs:** Gentleman (7, 10), Cooltrainer M (10, 10), Granny (3, 6).
+  - **Objects:** Rhydon Sprite (6, 8).
+  - **Layout:** Stage likely north of fancy panels at Row 6.
 - **Quests:**
   - **Kimono Girls:** Defeat all 5 to receive a gift from the Gentleman in the Dance Theater.
   - **Lake of Rage:** Gym Guide mentioned Gyarados swarm/conspiracy.
