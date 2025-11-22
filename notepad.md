@@ -210,3 +210,4 @@
 - **Geography:** Tree line blocks direct East path from entrance; must loop South.
 - Found Floria on Route 36. Returning to Goldenrod Flower Shop for SquirtBottle.
 - Sudowoodo (Weird Tree) located at Route 36 (35, 9).
+- **Warp Carpets:** To trigger a Warp Carpet (e.g., WARP_CARPET_DOWN), you often must walk 'off' the map in that direction (e.g., press Down while standing on it), rather than just stepping onto the tile.
