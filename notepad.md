@@ -83,7 +83,7 @@
 ## Archived Logs (Azalea & Route 33)
 - **Route 33:** Cleared. Hiker Anthony (Phone reg).
 - **Azalea Town:** Cleared Well & Gym. Rival Defeated.
-- **Caught:** Flux (Psyduck) in Ilex.
+- **Caught:** F (Psyduck) in Ilex.
 
 ## Route 34 Gatehouse
 - Connecting Ilex Forest and Route 34.
