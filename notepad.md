@@ -262,3 +262,4 @@
 - Battle vs Silver: Zubat defeated. Magnemite vs Paprika (Confused). Staying in.
 - Strategy: Switching to XQH (Sandshrew) to absorb Magnemite's attack. Ground type immunity + HP buffer (22 vs 20 Sonicboom) makes this the safest pivot.
 - Battle Update: XQH survived Sonicboom with 2 HP. Using this turn to heal Paprika before XQH falls.
+- XQH fainted. Sending Paprika (18/79 HP, Cured of Confusion) to finish Magnemite.
