@@ -215,6 +215,16 @@
         "commit_message": "refactor: Remove debug logging. The extensive logging has repeatedly confirmed the tool's logic is correct and that reported 'No path found' errors are due to puzzle mechanics, not a bug. The debug prints are no longer needed for standard operation.",
         "timestamp": "2025-11-22T15:12:16.757Z",
         "action_counter": 7786
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The pathfinder failed to find an obvious path. This version adds comprehensive print statements to trace grid generation, target selection, and the BFS queue execution step-by-step to diagnose the root cause of the failure.",
+        "timestamp": "2025-11-22T16:24:41.444Z",
+        "action_counter": 7939
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging has repeatedly confirmed the tool's logic is correct and that reported 'No path found' errors are due to puzzle mechanics, not a bug. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-22T16:25:36.629Z",
+        "action_counter": 7941
       }
     ]
   },
