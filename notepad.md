@@ -29,7 +29,7 @@
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
 - **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
-- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk onto to exit the current map to the adjacent one.
+- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
@@ -200,7 +200,7 @@
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
 - **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
-- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk onto to exit the current map to the adjacent one.
+- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
