@@ -144,3 +144,4 @@
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
 - **Map ID Verification:** After any warp or map transition, I MUST immediately verify my current `map_id` in the Game State Information to prevent severe navigational errors caused by positional hallucinations.
 - `stun_npc`: Can only be used on NPCs that are currently on the same map as the player.
+- **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
