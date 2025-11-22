@@ -52,11 +52,8 @@
   - Solved Farfetch'd puzzle in Ilex Forest.
 
 ## Game Mechanics
-- Saving Money: Mom saves a portion of winnings.
-- COUNTER: Impassable object. Interact from the front to speak with NPCs behind it.
-- LADDER: Warps between floors.
-- FLOOR_UP_WALL: Context-dependent. Acts as a ramp (climbable South->North) and ridge (walkable horizontally) in Union Cave.
-- Accuracy Debuffs: Verified effective survival tactic against strong opponents (e.g. Silver's Croconaw).
+- Battle Cursor: Remembers last move used. ALWAYS check cursor position before selecting!
+- Accuracy Debuffs: Effective vs strong opponents.
 
 ## Strategy Notes
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. XQH (Sandshrew) knows Cut for utility.
