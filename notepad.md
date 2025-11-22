@@ -184,3 +184,4 @@
   - COUNTER: Impassable. Interact from adjacent tile.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - LADDER: To 2F.
+- **Battle Input Reliability:** The `select_move` tool failed to navigate to the 3rd move (Rock Throw), selecting the 1st (Tackle) instead. Inputs likely dropped. For critical turns, use manual inputs (Down, Down, A) or verify menu state.
