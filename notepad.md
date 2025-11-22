@@ -189,3 +189,4 @@
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
+- **Maze Navigation:** To go North, switch to Col 4/5 to pass Row 7 wall, then switch to Col 6/7 to pass Row 5 wall.
