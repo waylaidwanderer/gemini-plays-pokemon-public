@@ -287,4 +287,4 @@
 - **Status:** Exploring West towards Olivine.
 - **Trainers:**
   - Sailor Harry (Wooper Lv19) at (24, 5). Defeated.
-  - Lass at (15, 3). Engaging.
+  - Lass Dana at (15, 3). Defeated.
