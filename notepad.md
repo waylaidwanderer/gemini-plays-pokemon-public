@@ -2,7 +2,8 @@
 
 ## Current Goals
 - [x] Obtain SquirtBottle (Flower Shop)
-- [ ] Clear Sudowoodo on Route 36 (Primary)
+- [x] Clear Sudowoodo on Route 36
+- [ ] Reach Ecruteak City (Primary)
 - [ ] Retrieve Coin Case from Underground (Secondary)
 - [ ] Hatch Mystery & Odd Eggs (Tertiary)
 
