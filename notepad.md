@@ -2,13 +2,14 @@
 
 ## Current Goals
 - [ ] Travel to Olivine City (Primary)
-- [ ] Deposit Mystery Egg (Secondary)
-- [ ] Visit Ecruteak Mart (Tertiary)
+- [ ] Visit Ecruteak Mart (Secondary)
+- [ ] Explore Route 38 (Tertiary)
 
 ## Recent Events
 - Defeated Leader Morty. Obtained Fog Badge & TM30 (Shadow Ball).
 - Healed at Pokémon Center.
 - Taught Surf to F (Psyduck).
+- Deposited Mystery Egg in Bill's PC.
 
 ## Ecruteak City
 - **Status:** At Pokémon Center. Preparing to leave.
