@@ -45,6 +45,7 @@
   - Defeated Kimono Girl 1 (Naoko). Basalt Lv13.
   - Defeated Kimono Girl 2 (Sayo). Paprika Lv28.
   - Defeated Kimono Girl 3 (Zuki). Paprika Lv29.
+  - Defeated Kimono Girl 4 (Kuni). Paprika Lv29.
 
 ## Global Game Mechanics
 ### Tile Mechanics
