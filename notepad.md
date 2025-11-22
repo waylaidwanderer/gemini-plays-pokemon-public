@@ -180,12 +180,7 @@
 - **Events:** Bug Catching Contest (Tues/Thurs/Sat).
 - **Warps:** South exit to Gatehouse.
 - **Obstacles:** Two Youngsters blocking the path North at (10, 41) and (11, 41).
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - TALL_GRASS: Walkable. Wild encounters.
-  - LONG_GRASS: Walkable. Wild encounters.
-  - WARP_CARPET_DOWN: Exits to South Gate.
+- **Exits:** South Gate (WARP_CARPET_DOWN).
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
