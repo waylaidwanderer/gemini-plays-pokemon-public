@@ -140,3 +140,6 @@
 
 ## Critical Battle Mechanics
 - **Cursor Memory:** The move cursor remembers the last used move. Always check the screen text for `▶` before navigating in the move menu. Do not assume it resets to the top.
+## Goldenrod Flower Shop
+- **Status:** Entered. Goal: Get SquirtBottle.
+- **NPCs:** Teacher at (2, 4).
