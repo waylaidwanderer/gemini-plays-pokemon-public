@@ -74,12 +74,11 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
-- Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) is lead. Rival Defeated. XQH (Sandshrew) Fainted. F (Psyduck) needs Surf.
-- Tactics: Smokescreen vs physical attackers/type disadvantages.
+- Team Strategy: Paprika (Quilava) is the carry and current lead. Basalt (Geodude) has Magnitude.
+- Tactics: Use Flame Wheel on Morty's Ghosts.
 - Protocol: Mark NPCs immediately.
 - Tools: `select_battle_option`, `stun_npc`, `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`, `sequence_press`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
-- Whitney Battle: Spam Smokescreen to neutralize Rollout/Stomp.
 
 ## Lessons Learned
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
