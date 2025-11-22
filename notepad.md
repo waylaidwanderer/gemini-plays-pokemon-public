@@ -8,17 +8,19 @@
 - [ ] Hatch Mystery & Odd Eggs (Quaternary)
 
 ## Ecruteak City
-- **Status:** Inside Pokémon Center.
+- **Status:** In Dance Theater.
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
-  - Dance Theater at (23, 21).
+  - Dance Theater at (23, 21). (Contains Kimono Girls & Gentleman with HM/Gift quest).
   - Pokémon Center at (23, 27).
   - House at (13, 27).
 - **NPCs:** Gramps (20, 21), Lass (19, 29).
+- **Quests:**
+  - **Kimono Girls:** Defeat all 5 to receive a gift from the Gentleman in the Dance Theater.
+  - **Lake of Rage:** Gym Guide mentioned Gyarados swarm/conspiracy.
 - **Events:**
-  - Met Bill in PC. He finished the Time Capsule (trade with past, no new moves/mons) and returned to Goldenrod.
-  - Gym Guide in PC mentions a Gyarados swarm and conspiracy at Lake of Rage.
+  - Met Bill in PC. Time Capsule active tomorrow.
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
