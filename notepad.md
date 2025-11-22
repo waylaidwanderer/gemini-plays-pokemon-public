@@ -1,18 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Earn Plain Badge (Primary) - OBTAINED!
-- [x] Defeat Gym Leader Whitney (Primary)
-- [x] Obtain TM45 (Attract)
-- [x] Obtain Radio Card (Secondary)
+- [ ] Obtain SquirtBottle (Flower Shop) (Primary)
+- [ ] Clear Sudowoodo on Route 36 (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
-- [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
-- [ ] Explore Goldenrod City (Tertiary)
-- [x] Obtain Bicycle
-- [ ] Heal at Pokémon Center
-- [x] Locate Dept Store
-- [x] Locate Bike Shop (Southeast)
-- [x] Locate Game Corner
+- [ ] Hatch Mystery & Odd Eggs (Secondary)
+- [x] Earn Plain Badge (Goldenrod)
+- [x] Defeat Gym Leader Whitney
+- [x] Heal at Pokémon Center
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
