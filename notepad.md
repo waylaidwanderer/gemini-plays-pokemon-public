@@ -3,7 +3,8 @@
 ## Current Goals
 - [ ] Earn Plain Badge (Primary)
 - [x] Find Goldenrod Gym (Primary)
-- [ ] Enter Goldenrod Gym (Primary)
+- [x] Enter Goldenrod Gym (Primary)
+- [ ] Defeat Gym Leader Whitney (Primary)
 - [x] Obtain Radio Card (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
