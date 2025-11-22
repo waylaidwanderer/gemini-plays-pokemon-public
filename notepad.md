@@ -261,8 +261,15 @@
 - **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
 - Battle Result: Defeated Silver. XQH sacrificed to ensure victory.
 ## Burned Tower B1F
-- **Status:** Fell from 1F hole. Landed at (10, 9).
+- **Status:** Explored B1F. Rival Silver Defeated (XQH fainted).
 - **Geography:** Basement level.
-- **Objects:** Suicune sighted at (10, 4).
-- **Events:** Rival Silver insulted me after the fall.
-- **Menu Navigation:** When using `sequence_press`, ALWAYS set `autopress_buttons: true`. Visual verification of the cursor position is mandatory before confirming selections, as the game may remember previous positions.
+- **Objects:**
+  - Suicune (10, 4)
+  - Entei (12, 3)
+  - Raikou (7, 3)
+  - Item Ball (16, 4)
+  - Boulder (17, 8)
+- **Mechanics:**
+  - **Warp Tiles:** The warp-like tiles (e.g. at 10,8) are traversable floor tiles on this level.
+- **Events:** Rival Silver defeated.
+- **Menu Navigation:** When using `sequence_press`, ALWAYS set `autopress_buttons: true`. Visual verification of the cursor position is mandatory before confirming selections.
