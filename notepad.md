@@ -184,3 +184,11 @@ After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_p
 - **Test Plan:** Interact with all other trainers in the gym again.
 - **Test 1:** Interacted with the reappeared Beauty Victoria at (0, 2).
 - **Result 1:** She gave post-battle dialogue and did not move. This part of the hypothesis seems incorrect, or at least incomplete.
+
+# Goldenrod Gym - New Approach (Turn 6966)
+My core assumption that I must battle the trainers who appear seems to be wrong, as I am consistently unable to trigger the battles and get stuck in dialogue loops. 
+
+**New Hypothesis:** The puzzle is not about defeating trainers, but about path manipulation. The trainers appear to block paths, and the goal is to find a sequence of perimeter walks that creates a clear path to Whitney.
+
+**Test Plan:** I will systematically walk different perimeters and observe the changes in the gym layout.
+- **Test 1:** Walk the bottom perimeter (right-to-left).
