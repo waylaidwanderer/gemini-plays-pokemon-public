@@ -170,8 +170,8 @@ After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_p
 
 **Hypothesis 2: Directional interaction.**
 - **Hypothesis:** Interacting with Lass Bridget from a different direction will trigger a battle.
-- **Test Plan:** Approach from adjacent tiles (above, below) and press A.
-- **Result:** FAILED. Stepping on tile (8, 6) had no effect.
+- **Test Plan:** Approach from adjacent tiles (behind, above, below) and press A.
+- **Result:** FAILED (from behind). PENDING (above, below).
 
 **Hypothesis 3: Repeat perimeter walk.**
 - **Hypothesis:** One of the perimeters must be walked again to open the final path.
