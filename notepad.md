@@ -10,7 +10,7 @@
 - [ ] Hatch Mystery & Odd Eggs (Secondary) - HAVE BOTH EGGS
 - [ ] Explore Goldenrod City (Tertiary)
 - [x] Obtain Bicycle
-- [x] Heal at Pokémon Center
+- [ ] Heal at Pokémon Center
 - [x] Locate Dept Store
 - [x] Locate Bike Shop (Southeast)
 - [x] Locate Game Corner
