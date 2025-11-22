@@ -77,8 +77,9 @@
 **Custom Agents & Tools (Defined by me):**
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
 - `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
-- `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the A* algorithm.
+- `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
+- `stealth_pathfinder` (Tool): Finds a path from a start to an end coordinate, avoiding a given list of 'forbidden' tiles representing NPC lines of sight.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
