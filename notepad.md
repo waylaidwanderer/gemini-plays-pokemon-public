@@ -8,14 +8,14 @@
 - [ ] Hatch Mystery & Odd Eggs (Quaternary)
 
 ## Ecruteak City
-- **Status:** Exploring Central Area.
+- **Status:** Inside Pokémon Center.
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
   - Dance Theater at (23, 21).
   - Pokémon Center at (23, 27).
   - House at (13, 27).
-- **NPCs:** Gramps (20, 21), Lass (19, 29).
+- **NPCs:** Gramps (20, 21), Lass (19, 29), Bill (PC Center).
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
