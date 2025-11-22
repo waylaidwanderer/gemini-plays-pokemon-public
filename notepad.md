@@ -184,4 +184,4 @@
   - COUNTER: Impassable. Interact from adjacent tile.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - LADDER: To 2F.
-- **Battle Input Reliability:** The `select_move` tool failed to navigate to the 3rd move (Rock Throw), selecting the 1st (Tackle) instead. Inputs likely dropped. For critical turns, use manual inputs (Down, Down, A) or verify menu state.
+- **Battle Cursor Memory:** The move cursor remembers the last used move. In Turn 3406, `select_move(3)` failed (selected Tackle) because the cursor was *already* on Rock Throw (3), causing 'Down, Down' to wrap to Tackle (1). Always check Screen Text for `▶` before navigating.
