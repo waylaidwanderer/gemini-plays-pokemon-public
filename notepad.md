@@ -172,3 +172,5 @@
 - **WALL:** Impassable boundary.
 - **STATUE:** Impassable object.
 - **WARP_CARPET_DOWN:** Exit to city.
+- Defeated Beauty Victoria at (0, 4). Basalt grew to Lv12 and learned Rock Throw.
+- Path north at (0, 4) is blocked by Victoria. Detour via (2, 7) required.

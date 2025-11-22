@@ -172,5 +172,27 @@
         "action_counter": 153
       }
     ]
+  },
+  "select_move": {
+    "description": "Selects a move from the battle menu by its 1-based index (1-4). Assumes the cursor is currently at the top (index 1).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "move_index"
+      ]
+    },
+    "python_script": "import json\ntry:\n    move_index = int(input_data[\"move_index\"])\nexcept:\n    print(\"Error: Invalid move_index\")\n    exit()\n\nif move_index < 1 or move_index > 4:\n    print(\"Error: move_index must be 1-4\")\nelse:\n    buttons = []\n    # Navigate down\n    for _ in range(move_index - 1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    # Select\n    buttons.append(\"A\")\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Add select_move tool to automate move selection in battle menus. This eliminates the need for multi-turn manual navigation to select moves lower in the list.",
+        "timestamp": "2025-11-22T01:08:13.048Z",
+        "action_counter": 3350
+      }
+    ]
   }
 }
