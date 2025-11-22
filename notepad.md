@@ -58,6 +58,7 @@
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
 - Tools: `select_move` (index 1-4) automates battle move selection.
+- Agents: `battle_strategist` (Battle analysis & move recommendation).
 
 ## Lessons Learned
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
