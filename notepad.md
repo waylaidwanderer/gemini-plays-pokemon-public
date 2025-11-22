@@ -289,3 +289,6 @@
   - Sailor Harry (Wooper Lv19) at (24, 5). Defeated.
   - Lass Dana at (15, 3). Defeated.
   - Beauty Olivia (5, 8). In Battle. (Corsola Lv19 vs Paprika)
+- Defeated Beauty Olivia (Corsola Lv19) on Route 38. Received ¥1672.
+- Hint: Olivia mentions Moomoo Milk. Farm likely nearby.
+- TASK: Heal Paprika (22/87 HP).
