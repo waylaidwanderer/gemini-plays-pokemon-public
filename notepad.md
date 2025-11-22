@@ -132,3 +132,6 @@ Goldenrod Dept. Store B1F Box Puzzle: Leaving the room and returning clears the 
 
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
+
+# Puzzle Solutions
+- **Goldenrod Dept. Store Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
