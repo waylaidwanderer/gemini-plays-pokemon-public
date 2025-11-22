@@ -145,8 +145,6 @@
 - At (9, 5), walls appeared at (10, 9) and (11, 9).
 - At (9, 8), walls disappeared at (10, 12) and (11, 12).
 - At (9, 9), walls disappeared at (10, 13) and (11, 13).
-- **Positional Hallucination Mitigation:** I have repeatedly misidentified my own coordinates after a planned movement. This is a critical failure. I MUST ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY movement action, especially a `path_plan`, before planning my next move. The Game State is the only source of truth.
-- **DOOR**: A traversable warp tile leading into or out of a building.
 
 # Goldenrod Dept Store B1F Navigation Plan
 1. The main puzzle is solved (by leaving and re-entering). The current problem is a navigation challenge around moving NPCs.
