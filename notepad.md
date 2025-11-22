@@ -59,6 +59,7 @@
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
+- **FAKE_HOLE:** Tiles appearing as holes/warps in Burned Tower B1F (e.g. 10,8) are traversable floors. Verify with Game State Warps list.
 
 ### Battle Mechanics
 - **Cursor Memory:** The move cursor remembers the last used move. ALWAYS check cursor position before selecting!
@@ -231,6 +232,7 @@
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
+- **FAKE_HOLE:** Tiles appearing as holes/warps in Burned Tower B1F (e.g. 10,8) are traversable floors. Verify with Game State Warps list.
 ## Route 36
 - **Status:** Cleared. Sudowoodo defeated.
 - **Trainers:** Schoolboy Alan, Psychic Mark (Defeated).
