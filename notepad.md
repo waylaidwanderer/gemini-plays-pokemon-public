@@ -157,3 +157,17 @@
   - FLOOR: Walkable.
   - WALL: Impassable.
   - TALL_GRASS: Wild encounters.
+## Route 35 National Park Gate
+- **Status:** Entered.
+- **NPCs:** Officer (Bug Catching Contest) at (2, 1).
+- **Warps:** To Route 35 (South), To National Park (North).
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - DOOR: Warp.
+  - COUNTER: Impassable.
+  - PC: Impassable.
+
+## Lessons Learned
+- **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID. If a battle starts, the opportunity might be lost if you leave the map.
+- **Missing Data:** Firebreather Walt on Route 35 (likely Object ID 6) was not marked as defeated before leaving the map.
