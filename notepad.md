@@ -212,3 +212,5 @@
 - **Geography:** Tree line blocks direct East path from entrance; must loop South.
 - Found Floria on Route 36. Returning to Goldenrod Flower Shop for SquirtBottle.
 - Sudowoodo (Weird Tree) located at Route 36 (35, 9).
+### Observed Movesets
+- **Sudowoodo (Lv20):** Flail, Low Kick, Mimic. (Suspected: Rock Throw).
