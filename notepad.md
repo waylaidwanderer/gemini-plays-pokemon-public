@@ -150,3 +150,7 @@
 - **Trainers:**
   - Picnicker Kim (Vulpix Lv15) at (10, 26). Defeated.
 - **Correction:** Psyduck's name is 'F', not 'Flux'.
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - TALL_GRASS: Wild encounters.
