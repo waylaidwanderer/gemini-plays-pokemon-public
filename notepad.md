@@ -151,7 +151,7 @@ My `gym_puzzle_solver` agent has provided a new set of hypotheses to test:
 3.  **Statue Interaction Order:** Interact with statues in a specific sequence (e.g., left then right). (Tested: Failed, both left-right and right-left orders had no effect.)
 2.  **Pushable Statue:** Attempt to push each statue from all four directions. (Tested: Failed, statues are impassable WALLs.)
 3.  **Statue Interaction:** Attempt to interact with each statue ('A' button). (Tested: Failed, only brings up location text.)
-4.  **Perimeter Walk:** Walking the bottom perimeter caused a Lass (ID 2) to appear at (9, 13). Walking the left perimeter then caused her to disappear, along with another Lass (ID 3) at (9, 6). The puzzle involves toggling trainers by walking the paths.
+4.  **Perimeter Walk:** Confirmed Puzzle Mechanic: Walking the bottom perimeter from left to right makes Lass (ID 2) appear at (9, 13). Walking the left perimeter from bottom to top makes her disappear. The puzzle involves toggling trainers by walking specific paths.
 4.  **Repeated Guide Dialogue:** Talk to the guide repeatedly. (Untested)
 5.  **Time-Based Trigger:** Stand still on a specific tile. (Untested)
 6.  **Perimeter Walk:** Walk the perimeter of the room. (Untested)
