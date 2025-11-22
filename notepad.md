@@ -159,8 +159,6 @@
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
 # Lessons Learned & New Principles
-- **Positional Verification:** After any interruption (battle, dialogue, menu), I MUST verify my current `(x, y)` coordinates in the Game State Information before planning my next move. Assuming a path plan has completed without verification is a critical failure.
+- **Positional Verification:** After any interruption (battle, dialogue, menu), I MUST verify my current (x, y) coordinates in the Game State Information before planning my next move. Assuming a path plan has completed without verification is a critical failure.
 - **Pathfinder Edge Cases:** Path reconstruction for impassable destinations is a common failure point. When a pathfinder bug is suspected, this specific logic should be one of the first things to be examined and tested.
-
-# Lessons Learned & New Principles
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive. Proactive marking maintains a consistently accurate map.
