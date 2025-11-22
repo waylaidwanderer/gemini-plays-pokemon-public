@@ -201,7 +201,3 @@ After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_p
 # New Principles from Reflection (Turn 7115)
 - **Team Leveling Strategy:** A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym. I must ensure my whole team is adequately leveled and balanced before challenging a Gym Leader.
 - **Levels Over Type Advantage:** A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
-
-# New Principles from Reflection (Turn 7123)
-- **Team Leveling Strategy:** A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym. I must ensure my whole team is adequately leveled and balanced before challenging a Gym Leader.
-- **Levels Over Type Advantage:** A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
