@@ -151,7 +151,7 @@ My `gym_puzzle_solver` agent has provided a new set of hypotheses to test:
 3.  **Statue Interaction Order:** Interact with statues in a specific sequence (e.g., left then right). (Tested: Failed, both left-right and right-left orders had no effect.)
 2.  **Pushable Statue:** Attempt to push each statue from all four directions. (Tested: Failed, statues are impassable WALLs.)
 3.  **Statue Interaction:** Attempt to interact with each statue ('A' button). (Tested: Failed, only brings up location text.)
-4.  **Perimeter Walk:** Walk the perimeter of the room. (Current hypothesis)
+4.  **Perimeter Walk:** Walking the perimeter caused a new trainer (Lass) to appear at (9, 13). This appears to be the puzzle solution.
 4.  **Repeated Guide Dialogue:** Talk to the guide repeatedly. (Untested)
 5.  **Time-Based Trigger:** Stand still on a specific tile. (Untested)
 6.  **Perimeter Walk:** Walk the perimeter of the room. (Untested)
