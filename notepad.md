@@ -43,6 +43,7 @@
   - Found Revive at (20, 32).
   - Solved Farfetch'd puzzle in Ilex Forest.
   - Defeated Kimono Girl 1 (Naoko). Basalt Lv13.
+  - Defeated Kimono Girl 2 (Sayo). Paprika Lv28.
 
 ## Global Game Mechanics
 ### Tile Mechanics
