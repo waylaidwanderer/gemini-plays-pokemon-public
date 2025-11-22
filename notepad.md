@@ -208,10 +208,9 @@
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
 ## Route 36
-- **Status:** Arrived from National Park Gate. Exploring East.
-- **NPCs:** Youngster at (20, 13), Youngster at (31, 14), Lass at (33, 12).
-- **Geography:** Tree line blocks direct East path from entrance; must loop South.
-- Found Floria on Route 36. Returning to Goldenrod Flower Shop for SquirtBottle.
-- Sudowoodo (Weird Tree) located at Route 36 (35, 9).
+- **Status:** Sudowoodo (35, 9) defeated. Path to Ecruteak open.
+- **Trainers:** Schoolboy Alan (Defeated), Psychic Mark (Defeated).
+- **Navigation:** Heading to eastern exit for Route 37.
+- **Sudowoodo Moveset:** Flail, Low Kick, Mimic, Rock Throw (suspected). Learned Ember via Mimic.
 ### Observed Movesets
 - **Sudowoodo (Lv20):** Flail, Low Kick, Mimic (Learned Ember). (Suspected: Rock Throw).
