@@ -148,3 +148,12 @@
 
 # Goldenrod Gym Info
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
+
+# Goldenrod Gym Puzzle
+My `gym_puzzle_solver` agent provided the following hypotheses:
+1.  **Gym Guide Hint:** Talk to the guide for a clue. (Tested: Guide gave standard type advice, no puzzle hints.)
+2.  **Invisible Teleporter:** Walk over every tile in the entrance area.
+3.  **Fake Wall:** Walk into every wall adjacent to the accessible floor.
+4.  **'G' Shape Path:** Walk in the shape of a 'G' in the accessible area.
+
+**Test Plan:** I will test these hypotheses in order of simplicity, starting with #3.
