@@ -20,6 +20,7 @@
   - Dance Theater at (23, 21). (Contains Kimono Girls & Gentleman with HM/Gift quest).
   - Pokémon Center at (23, 27).
   - House at (13, 27).
+  - Lugia House at (5, 21).
 - **NPCs:** Gramps (20, 21), Lass (19, 29).
 - **Dance Theater Interior:**
   - **NPCs:** Gentleman (7, 10), Cooltrainer M (10, 10), Granny (3, 6).
