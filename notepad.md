@@ -12,7 +12,7 @@
 - Deposited Mystery Egg in Bill's PC.
 
 ## Ecruteak City
-- **Status:** At Pokémon Center. Preparing to leave.
+- **Status:** In Ecruteak Mart. Buying supplies.
 - **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
