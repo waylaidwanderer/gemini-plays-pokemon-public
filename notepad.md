@@ -14,7 +14,7 @@
 - **Geography:** Hidden path on West edge. Exit to Route 34 at (1, 5).
 
 ## Quest Log
-- **Badges:** Zephyr (Violet), Hive (Azalea).
+- **Badges:** Zephyr (Violet), Hive (Azalea), Plain (Goldenrod).
 - **Events:**
   - Defeated Rival Silver (Azalea Town).
   - Cleared Sprout Tower (Flash) & Slowpoke Well.
