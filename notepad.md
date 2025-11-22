@@ -64,6 +64,7 @@
 - Protocol: Mark NPCs immediately.
 - Tools: `select_move` (index 1-4), `select_battle_option` (FIGHT/PKMN/PACK/RUN), `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
+- Whitney Battle: Spam Smokescreen to neutralize Rollout/Stomp.
 
 ## Lessons Learned
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
