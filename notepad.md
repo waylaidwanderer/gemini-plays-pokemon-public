@@ -166,3 +166,9 @@
 # Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This breaks cognitive fixation and forces a re-evaluation of the problem's root assumptions.
+
+# Strategic Principles Addendum
+- **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
+
+# Tile Mechanics Addendum
+- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
