@@ -193,3 +193,7 @@ After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_p
 - **Result 1:** SUCCESS. Lass Carrie at (12, 13) disappeared and was replaced by a new Lass.
 - **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
+
+# New Principles from Reflection (Turn 7063)
+- **Tool Brittleness:** If a core tool like `find_path` fails a third time after multiple fixes, it must be rewritten from first principles instead of patched again.
+- **Confirmation Bias:** If a simple, repeated action (like pressing 'A' to start a battle) fails more than twice, the root hypothesis is likely wrong. I must pivot to testing a fundamentally different hypothesis rather than repeating the failed action.
