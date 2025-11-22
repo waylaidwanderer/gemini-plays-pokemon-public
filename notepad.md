@@ -71,6 +71,7 @@
 ### Battle Mechanics
 - **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
 - **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
+- **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
 - **Cursor Memory:** The move cursor remembers the last used move. ALWAYS check cursor position before selecting!
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
