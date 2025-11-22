@@ -133,36 +133,6 @@
 - **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
 - **Movement Interruption:** If a planned movement is interrupted (e.g., by bumping into an NPC), my final position may not be what I intended. I must always verify my actual final coordinates in the Game State Information before proceeding with the next action, rather than assuming the plan completed successfully.
 
-# Goldenrod Dept Store B1F Puzzle
-**Objective:** Manipulate the moving Black Belts to change the wall layout and create a path to the items.
-**Key Objects:** Machoke at (7, 7), 3 Black Belt NPCs (2 static, 1 moving).
-**Puzzle Mechanic Hypothesis:** The moving Black Belt NPCs act as switches. Their position on the map determines which walls are active. Interacting with them or causing them to move changes the maze layout.
-**Confirmed Observations:**
-- Player movement near the Black Belts triggers wall changes.
-- At (9, 5), walls appeared at (10, 9) and (11, 9).
-- At (9, 8), walls disappeared at (10, 12) and (11, 12).
-- At (9, 9), walls disappeared at (10, 13) and (11, 13).
-
-# Goldenrod Dept Store B1F Navigation Plan
-1. The main puzzle is solved (by leaving and re-entering). The current problem is a navigation challenge around moving NPCs.
-2. My goal is to stun the moving Black Belts (ID 5 and ID 7) when they are in non-blocking positions.
-3. Wait for an NPC to move to the far end of their patrol route.
-4. Immediately use `stun_npc` to lock them in place, keeping a corridor open.
-5. Repeat for the second NPC if necessary.
-6. Once a path is clear, use `find_path` to navigate to the items.
-
-# Goldenrod Dept Store B1F Puzzle (Revised)
-**Objective:** Find the correct trigger tile in the central corridor (column 9) to open the path to the items.
-**Confirmed Mechanic:** My pathfinding tool correctly identified that the path to the items is blocked by a vertical wall at x=12. This confirms my hypothesis that the player's Y-coordinate in the central corridor (column 9) acts as a switch, changing the wall layout.
-**Systematic Testing Log:**
-- (9, 13): Current position. Path blocked.
-- (9, 9): Walls at (10, 13) & (11, 13) disappear. Path to items remains blocked.
-- (9, 8): Walls at (10, 12) & (11, 12) disappear. Path to items remains blocked.
-- (9, 5): Walls appear at (10, 9) & (11, 9). Path to items remains blocked.
-- (9, 12): Path to items remains blocked.
-- (9, 11): Path to items remains blocked.
-**Next Test:** Move to (9, 11) and check the state of the wall at x=12.
-
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
 
