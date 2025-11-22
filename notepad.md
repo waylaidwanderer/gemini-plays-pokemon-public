@@ -186,3 +186,6 @@
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - LADDER: To 2F.
 - **Battle Cursor Memory:** The move cursor remembers the last used move. In Turn 3406, `select_move(3)` failed (selected Tackle) because the cursor was *already* on Rock Throw (3), causing 'Down, Down' to wrap to Tackle (1). Always check Screen Text for `▶` before navigating.
+
+## Critical Battle Mechanics
+- **Cursor Memory:** The move cursor remembers the last used move. Always check the screen text for `▶` before navigating in the move menu. Do not assume it resets to the top.
