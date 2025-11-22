@@ -181,3 +181,6 @@
   - FLOOR: Walkable.
   - WALL: Impassable.
   - WARP_CARPET_DOWN: Exits to South Gate.
+
+## PC Storage
+- Briar (Nidoran♀) Lv12 [National Park]
