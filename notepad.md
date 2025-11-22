@@ -62,7 +62,7 @@
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. XQH (Sandshrew) knows Cut for utility.
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
-- Tools: `select_move` (index 1-4), `select_battle_option` (FIGHT/PKMN/PACK/RUN), `find_path`.
+- Tools: `select_move` (index 1-4), `select_battle_option` (FIGHT/PKMN/PACK/RUN), `find_path`, `buy_item_quantity`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
 
 ## Lessons Learned
@@ -173,6 +173,7 @@
   - Defeated Beauty Samantha (19, 5).
   - Defeated Lass Carrie (12, 13).
   - Defeated Lass Bridget (9, 6).
+  - Defeated Clefairy (Whitney's 1st Pokemon).
 
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
