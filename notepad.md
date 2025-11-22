@@ -9,7 +9,8 @@
 - **Status:** In Ecruteak Gym. Challenging Leader Morty.
 - **Gym Puzzle:** Invisible floor path. Gym Guide says trainers have "secret motives".
 - **Strategy:** Defeat trainers sequentially to uncover the path.
-- **Current Target:** Granny at (7, 5).
+- **Current Target:** Leader Morty at (5, 1).
+- **Notes:** Basalt learned Magnitude (Lv16). Medium Martha defeated.
 - **Path:**
   1. Start -> Col 5 -> Row 13 (Defeated Sage Ping).
   2. Right to Col 6 -> Row 9 (Defeated Granny).
