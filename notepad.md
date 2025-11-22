@@ -167,3 +167,8 @@
   - WARP_CARPET_DOWN: Exit to city.
   - STATUE: Impassable.
 - **Gym Layout:** Path East from entrance is blocked by walls. Must navigate via the West side.
+## Goldenrod Gym Mechanics
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable boundary.
+- **STATUE:** Impassable object.
+- **WARP_CARPET_DOWN:** Exit to city.
