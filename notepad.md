@@ -7,7 +7,7 @@
 - [ ] Retrieve Coin Case from Underground (Tertiary)
 
 ## Ecruteak City
-- **Status:** In Dance Theater.
+- **Status:** Exiting Dance Theater. Obtained HM03 (Surf). Requires Fog Badge to use.
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
