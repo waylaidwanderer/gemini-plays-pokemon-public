@@ -144,3 +144,9 @@
 - **Status:** Entered. Goal: Get SquirtBottle.
 - **NPCs:** Teacher at (2, 4).
 - **Quest Update:** Teacher's sister is at the wiggly tree on Route 36. Must find her to get SquirtBottle.
+## Route 35
+- **Status:** Arrived from Goldenrod Gatehouse.
+- **Geography:** Path North to Route 36.
+- **Trainers:**
+  - Picnicker Kim (Vulpix Lv15) at (10, 26). Defeated.
+- **Correction:** Psyduck's name is 'F', not 'Flux'.
