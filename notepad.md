@@ -47,7 +47,7 @@
   - Defeated Kimono Girl 3 (Zuki). Paprika Lv29.
   - Defeated Kimono Girl 4 (Kuni). Paprika Lv29.
   - Defeated Kimono Girl 5 (Miki). Geodude Lv15.
-  - Quest Complete: Defeated all 5 Kimono Girls. Speaking to Gentleman for reward.
+  - Quest Complete: Defeated all 5 Kimono Girls. Received HM03 (Surf).
 
 ## Global Game Mechanics
 ### Tile Mechanics
