@@ -180,6 +180,8 @@
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
+  - TALL_GRASS: Walkable. Wild encounters.
+  - LONG_GRASS: Walkable. Wild encounters.
   - WARP_CARPET_DOWN: Exits to South Gate.
 
 ## PC Storage
