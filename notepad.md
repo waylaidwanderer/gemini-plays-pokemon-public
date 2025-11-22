@@ -263,3 +263,8 @@
 - Strategy: Switching to XQH (Sandshrew) to absorb Magnemite's attack. Ground type immunity + HP buffer (22 vs 20 Sonicboom) makes this the safest pivot.
 - Battle Update: XQH survived Sonicboom with 2 HP. Using this turn to heal Paprika before XQH falls.
 - XQH fainted. Sending Paprika (18/79 HP, Cured of Confusion) to finish Magnemite.
+## Burned Tower B1F
+- **Status:** Fell from 1F hole. Landed at (10, 9).
+- **Geography:** Basement level.
+- **Objects:** Suicune sighted at (10, 4).
+- **Events:** Rival Silver insulted me after the fall.
