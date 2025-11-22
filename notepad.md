@@ -191,4 +191,5 @@
 - Briar (Nidoran♀) Lv12 [National Park]
 ## National Park Navigation Strategy
 - **Hypothesis:** The western perimeter (Column 0/1) was blocked by walls. The path to the Northern Exit likely lies along the Eastern perimeter, bypassing the central fence maze.
-- **Plan:** Navigate past the Youngsters at the south entrance by walking along Row 42, then head North along the Eastern edge.
+- **Plan:** Navigate through the gap in the fence at x=16-19 (Row 39) to reach the northern section.
+- **Items:** Received Quick Claw from Teacher at (27, 40).
