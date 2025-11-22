@@ -284,3 +284,4 @@
 - **Obstacles:** Boulder at (17, 8) blocks access to Item (16, 4) and Warp (17, 7) from the South. Likely requires Strength or falling from upstairs.
 - Defeated Sage Ping (Gastly Lv16) at (4, 13).
 - Defeated Sage Jeffrey (Haunter Lv22) at (2, 7).
+  - Paprika learned Flame Wheel (Lv31).
