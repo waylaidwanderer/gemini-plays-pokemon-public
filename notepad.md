@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Defeat Kimono Girl 5 (Immediate)
 - [ ] Defeat Leader Morty (Primary)
-- [ ] Explore Burned Tower (Secondary)
-- [ ] Retrieve Coin Case from Underground (Tertiary)
+- [ ] Obtain ItemFinder (Secondary)
+- [ ] Teach Surf to F (Psyduck) (Tertiary)
+- [ ] Explore Burned Tower (Exploration)
 
 ## Ecruteak City
 - **Status:** In Ecruteak City. Healing at Center, then challenging Gym.
