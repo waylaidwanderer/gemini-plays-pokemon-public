@@ -190,5 +190,5 @@
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
 ## National Park Navigation Strategy
-- **Hypothesis:** The central fence maze is impassable or difficult. Access to the Northern Exit (Route 36) is likely via the westernmost perimeter (Column 0/1).
-- **Plan:** Navigate South along the western wall (x=3/4) to find a gap in the wall at x=1, then loop back North along the edge.
+- **Hypothesis:** The western perimeter (Column 0/1) was blocked by walls. The path to the Northern Exit likely lies along the Eastern perimeter, bypassing the central fence maze.
+- **Plan:** Navigate past the Youngsters at the south entrance by walking along Row 42, then head North along the Eastern edge.
