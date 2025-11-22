@@ -11,7 +11,6 @@
 - **Tile Mechanic Verification:** I must verify the mechanics of every tile type through direct observation and experimentation. Assumptions based on a tile's name can be wrong and lead to critical tool failures. I must never assume I know how a tile works until I have tested it.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Marker Hygiene for Moving Objects:** When an object with a linked marker moves off-screen, the marker becomes stale. I must immediately delete the marker. A new marker should only be created if/when the object reappears at a new location.
-- **Position Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
 - **Marker Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels. Failure to do so degrades the quality of my map data and leads to confusion. Unlinked markers for moving objects are useless.
 - **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
@@ -19,21 +18,17 @@
 - **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
 - **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
 - **Verify Root Assumptions:** When a plan fails, especially when a trusted tool like a pathfinder reports an issue, the root hypothesis about the map/mechanic is likely flawed. Do not repeatedly try minor variations of the failed plan. Instead, re-examine the map to find the contradiction and form a new, fundamentally different hypothesis (e.g., trying to go east instead of west when blocked).
-- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed. Instead of trying minor path variations, I must pivot to finding the trigger event, often hinted at by recent NPC dialogue.
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
 - **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
 - **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
-- **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
-- **Movement Interruption:** If a planned movement is interrupted (e.g., by bumping into an NPC), my final position may not be what I intended. I must always verify my actual final coordinates in the Game State Information before proceeding with the next action, rather than assuming the plan completed successfully.
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
 - **Interaction Loops:** If repeated interaction with an NPC doesn't change the outcome, the solution lies elsewhere. Don't get stuck in an interaction loop; pivot to testing environmental or sequential triggers.
 - **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
 - **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
 - **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
-- **Positional Verification after Long Paths:** After executing a long, uninterrupted path, I must always verify my final `(x, y)` coordinates against the Game State Information. A path failing midway can cause my perceived position to become desynchronized from my actual position, leading to subsequent navigation errors.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -43,7 +38,7 @@
 
 # Current Quest: Defeat Whitney
 - **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
-- **Status:** Currently interrupted by hatching an egg while on the way to the Pokémon Center to heal.
+- **Status:** Just healed my party after a failed training attempt. Need to train on an easier route.
 - **Sub-task:** Investigate unmarked warp at (33, 9) in Goldenrod City after dealing with Whitney.
 
 # Key Items
@@ -86,7 +81,7 @@
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `define_tool` / `delete_tool`: Manages custom tools.
-- `stun_npc`: Freezes or unfreezes an NPC's movement. Can only be used on NPCs that are currently on the same map as the player.
+- `stun_npc`: Freezes or unfreezes an NPC's movement.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 **Custom Agents & Tools (Defined by me):**
@@ -131,7 +126,6 @@
 # Object Mechanics
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
-	
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
@@ -164,16 +158,10 @@
 
 # Lessons Learned & New Principles
 - **Positional Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
-- **Pathfinder Edge Cases:** Path reconstruction for impassable destinations is a common failure point. When a pathfinder bug is suspected, this specific logic should be one of the first things to be examined and tested.
+- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive. Proactive marking maintains a consistently accurate map.
-- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that the map layout is not what it seems. Instead of assuming the tool is bugged, I must re-evaluate my root assumptions about the map's traversability.
 - **Trainer Line of Sight:** Assume a trainer can see you unless their facing direction and the path geometry make it impossible. When party health is critical, do not risk walking near trainers; find a guaranteed safe path or backtrack.
-- **Positional Verification after Long Paths:** After executing a long, uninterrupted path, I must always verify my final `(x, y)` coordinates against the Game State Information. A path failing midway can cause my perceived position to become desynchronized from my actual position, leading to subsequent navigation errors.
 - **Data Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels, including the correct trainer type. Failure to do so degrades the quality of my map data and leads to confusion.
 - **Interaction Loops:** If repeated, varied interaction with an NPC (e.g., from different directions, or testing line-of-sight) yields no new result, they are likely non-interactive for progression or have already served their purpose. I must abandon the interaction and explore other options to avoid wasting time in a loop.
-- **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
 - **Follow Documented Strategy:** My documented strategies and principles in the notepad are useless if I don't follow them. I must review relevant notes before making major decisions, especially for gym battles. A single high-level Pokémon cannot carry an under-leveled team, and attempting to do so after documenting this principle is a critical strategic failure.
-- **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
-
-# To-Do
-- Fix incorrect marker for YOUNGSTER at Route 35 (4, 19). Label says 'CAMPER IVAN'.
+- **Training Strategy:** The wild POKéMON on Route 35 (around Lv12-14) are currently too strong for my low-level party members. Attempting to grind here is inefficient and leads to frequent trips to the POKéMON Center. A better strategy is to train on an earlier route with weaker wild POKéMON, such as Route 32.
