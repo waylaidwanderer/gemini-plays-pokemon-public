@@ -215,8 +215,11 @@
 ### Observed Movesets
 - **Sudowoodo (Lv20):** Flail, Low Kick, Mimic (Learned Ember). (Suspected: Rock Throw).
 ## Route 37
-- **Status:** Arrived from Route 36 (South).
+- **Status:** Exploring. Heading North to Ecruteak.
+- **Trainers:**
+  - Psychic Greg (Drowzee Lv17) at (6, 6). Defeated.
 - **Geography:** Short route connecting Route 36 and Ecruteak City.
 - **Apricorns:** Suspected 'Weird Trees' (Red/Blue/Black Apricorns usually found here).
-- **Drowzee (Lv17):** Hypnosis.
+- **Observed Movesets:**
+  - **Drowzee (Lv17):** Hypnosis.
 - **Lesson:** Always verify specific tile mechanics (e.g. directional ledges) are explicitly coded in pathfinding tools to avoid invalid paths.
