@@ -135,14 +135,23 @@
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE.
 
 # Goldenrod Gym Puzzle
-My `gym_puzzle_solver` agent provided the following hypotheses:
-1.  **Gym Guide Hint:** Talk to the guide for a clue. (Tested: Guide gave standard type advice, no puzzle hints.)
-2.  **Invisible Teleporter:** Walk over every tile in the entrance area. (Tested: Failed in accessible area)
-3.  **Fake Wall:** Walk into every wall adjacent to the accessible floor. (Tested: Failed in accessible area)
-4.  **'G' Shape Path:** Walk in the shape of a 'G' in the accessible area. (Untested)
-5.  **Statue Interaction:** Interacting with the statues at (1, 15) and (4, 15) will trigger an event. (Tested: Failed, they only display the gym name.)
-6.  **Re-entry:** Based on the Goldenrod Dept. Store puzzle, leaving and re-entering the gym might change the puzzle state. (Tested: Failed. The layout remained unchanged.)
-7.  **'G' Shape Path:** Walk in the shape of a 'G' in the accessible area. (Current hypothesis being tested)
+I am currently stuck in the entrance area. My pathfinder confirms no route to the main gym exists. I have tested and debunked the following hypotheses:
+- The Gym Guide provides a puzzle hint.
+- There is a fake wall.
+- There is an invisible teleporter.
+- Interacting with the statues individually.
+- Leaving and re-entering the gym.
+- Walking in a 'G' shape.
+- A narrow walkway exists around the central structure.
+- Interacting with decorative potted plants.
+
+My `gym_puzzle_solver` agent has provided a new set of hypotheses to test:
+1.  **Hidden Floor Trigger:** Walk over every single accessible tile. (Untested)
+2.  **Pushable Statue:** Attempt to push each statue from all four directions. (Untested)
+3.  **Statue Interaction Order:** Interact with statues in a specific sequence (e.g., left then right). (Current hypothesis)
+4.  **Repeated Guide Dialogue:** Talk to the guide repeatedly. (Untested)
+5.  **Time-Based Trigger:** Stand still on a specific tile. (Untested)
+6.  **Perimeter Walk:** Walk the perimeter of the room. (Untested)
 
 ## Archived Info
 
