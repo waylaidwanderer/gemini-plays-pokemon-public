@@ -93,6 +93,7 @@
 - `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
+- `stealth_pathfinder` (Tool): Finds a path while avoiding a given list of forbidden tiles.
 
 # Tile Mechanics
 - **WALL**: Impassable terrain.
