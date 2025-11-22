@@ -198,3 +198,5 @@
 - **Status:** Arrived from National Park Gate. Exploring East.
 - **NPCs:** Youngster at (20, 13), Youngster at (31, 14), Lass at (33, 12).
 - **Geography:** Tree line blocks direct East path from entrance; must loop South.
+- Found Floria on Route 36. Returning to Goldenrod Flower Shop for SquirtBottle.
+- Sudowoodo (Weird Tree) located at Route 36 (35, 9).
