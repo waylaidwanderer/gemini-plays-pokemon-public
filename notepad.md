@@ -181,3 +181,12 @@
 - Defeated Lass Bridget at (9, 6). Paprika Lv24.
 - Tool Safety: `select_move` assumes cursor is at top (Index 1). If uncertain, back out to main menu to reset cursor before calling.
 - Goldenrod Gym: The layout is a maze formed by flower boxes. Trainers act as static blockers. Path to Whitney requires navigating around the perimeter.
+## Goldenrod Pokecenter 1F
+- **Status:** Arrived (Turn 3451).
+- **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
+- **NPCs:** Nurse Joy, Gameboy Kid, Lass, Pokefan F.
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - COUNTER: Impassable. Interact from adjacent tile.
+  - WARP_CARPET_DOWN: Exit.
+  - LADDER: To 2F.
