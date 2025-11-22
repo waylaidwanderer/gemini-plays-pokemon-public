@@ -29,6 +29,7 @@
 - **Movement Interruption:** If a planned movement is interrupted (e.g., by bumping into an NPC), my final position may not be what I intended. I must always verify my actual final coordinates in the Game State Information before proceeding with the next action, rather than assuming the plan completed successfully.
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
+- **Interaction Loops:** If repeated interaction with an NPC doesn't change the outcome, the solution lies elsewhere. Don't get stuck in an interaction loop; pivot to testing environmental or sequential triggers.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -176,7 +177,7 @@ After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_p
 **Hypothesis 3: Repeat perimeter walk.**
 - **Hypothesis:** One of the perimeters must be walked again to open the final path.
 - **Test Plan:** With Bridget present, walk the left perimeter, then reset and try the right.
-- **Result:** FAILED. Stepping on tile (8, 6) had no effect.
+- **Result:** In progress. Left perimeter walk was blocked by reappearance of Beauty Victoria.
 
 **Hypothesis 4: State change for another NPC.**
 - **Hypothesis:** Bridget's appearance has changed the state of a previously defeated trainer.
