@@ -166,3 +166,4 @@
   - WALL: Impassable.
   - WARP_CARPET_DOWN: Exit to city.
   - STATUE: Impassable.
+- **Gym Layout:** Path East from entrance is blocked by walls. Must navigate via the West side.
