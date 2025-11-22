@@ -189,4 +189,6 @@
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
-- **Maze Navigation:** To go North, switch to Col 4/5 to pass Row 7 wall, then switch to Col 6/7 to pass Row 5 wall.
+## National Park Navigation Strategy
+- **Hypothesis:** The central fence maze is impassable or difficult. Access to the Northern Exit (Route 36) is likely via the westernmost perimeter (Column 0/1).
+- **Plan:** Navigate South along the western wall (x=3/4) to find a gap in the wall at x=1, then loop back North along the edge.
