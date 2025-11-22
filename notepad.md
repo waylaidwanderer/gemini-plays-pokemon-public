@@ -283,3 +283,8 @@
 - Defeated Sage Jeffrey (Haunter Lv22) at (2, 7).
   - Paprika learned Flame Wheel (Lv31).
   - Path Confirmed: (6,7) is a bridge. Row 6 safe tile is (6,6).
+## Route 38
+- **Status:** Exploring West towards Olivine.
+- **Trainers:**
+  - Sailor Harry (Wooper Lv19) at (24, 5). Defeated.
+  - Lass at (15, 3). Engaging.
