@@ -130,6 +130,16 @@
         "commit_message": "refactor: Remove debug logging. The extensive logging confirmed the tool's logic is correct and the path was genuinely blocked by a wall, which was a user misunderstanding. The debug prints are no longer needed for standard operation.",
         "timestamp": "2025-11-22T05:50:40.409Z",
         "action_counter": 6671
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The pathfinder failed to find an obvious path. This version adds comprehensive print statements to trace grid generation, target selection, and the BFS queue execution step-by-step to diagnose the root cause of the failure.",
+        "timestamp": "2025-11-22T05:51:33.662Z",
+        "action_counter": 6673
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging confirmed the tool's logic is correct and the path was genuinely blocked, which was a user misunderstanding. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-22T05:52:27.825Z",
+        "action_counter": 6675
       }
     ]
   },
