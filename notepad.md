@@ -176,3 +176,9 @@
 
 # Battle Mechanics Addendum
 - **Type Immunity vs. Level Disparity:** Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
+
+# Battle Mechanics Addendum
+- **Type Immunity vs. Level Disparity:** Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
+
+# Strategic Principles Addendum
+- **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
