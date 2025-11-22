@@ -165,3 +165,4 @@
 
 # Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
+- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This breaks cognitive fixation and forces a re-evaluation of the problem's root assumptions.
