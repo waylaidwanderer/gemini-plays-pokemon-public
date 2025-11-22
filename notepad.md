@@ -283,3 +283,4 @@
 - **Obstacles:** Boulder at (17, 8) blocks access to Item (16, 4) and Warp (17, 7) from the South. Likely requires Strength or falling from upstairs.
 - Defeated Sage Ping (Gastly Lv16) at (4, 13).
 - Hypothesis: Column 6 (x=6) appears to be a safe path north based on observed floor tiles.
+- Plan: Talk to Sage Ping for clues. Then navigate North via Column 6 (Safe Path) to challenge Granny at (7, 9).
