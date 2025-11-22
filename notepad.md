@@ -150,6 +150,8 @@
 - **Trainers:**
   - Picnicker Kim (Vulpix Lv15) at (10, 26). Defeated.
   - Camper Ivan (Diglett Lv10/14, Zubat Lv10) at (5, 19). Defeated.
+  - Juggler Irwin (Voltorb Lv2/6/10/14) at (5, 10). Defeated.
+  - Firebreather Walt (Magmar Lv11/13) at (3, 10). Defeated.
 - **Correction:** Psyduck's name is 'F', not 'Flux'.
 - **Tile Mechanics:**
   - FLOOR: Walkable.
