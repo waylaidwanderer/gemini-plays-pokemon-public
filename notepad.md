@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Defeat all 5 Kimono Girls (Immediate)
+- [ ] Defeat Kimono Girl 5 (Immediate)
 - [ ] Defeat Leader Morty (Primary)
 - [ ] Explore Burned Tower (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
