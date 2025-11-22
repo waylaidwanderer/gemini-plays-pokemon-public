@@ -148,7 +148,8 @@ I am currently stuck in the entrance area. My pathfinder confirms no route to th
 My `gym_puzzle_solver` agent has provided a new set of hypotheses to test:
 1.  **Hidden Floor Trigger:** Walk over every single accessible tile. (Untested)
 2.  **Pushable Statue:** Attempt to push each statue from all four directions. (Untested)
-3.  **Statue Interaction Order:** Interact with statues in a specific sequence (e.g., left then right). (Current hypothesis)
+3.  **Statue Interaction Order:** Interact with statues in a specific sequence (e.g., left then right). (Tested: Failed, both left-right and right-left orders had no effect.)
+4.  **Pushable Statue:** Attempt to push each statue from all four directions. (Current hypothesis)
 4.  **Repeated Guide Dialogue:** Talk to the guide repeatedly. (Untested)
 5.  **Time-Based Trigger:** Stand still on a specific tile. (Untested)
 6.  **Perimeter Walk:** Walk the perimeter of the room. (Untested)
