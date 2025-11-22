@@ -7,7 +7,9 @@
 
 ## Ecruteak City
 - **Status:** In Ecruteak Gym. Challenging Leader Morty.
-- **Gym Puzzle:** Invisible floor path. Falling warps to start.
+- **Gym Puzzle:** Invisible floor path. Gym Guide says trainers have "secret motives" and may reveal secrets if defeated.
+- **Strategy:** Defeat trainers sequentially to uncover the path.
+- **Current Target:** Sage at (3, 13). Path via Column 5 seems safe.
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
