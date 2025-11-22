@@ -148,3 +148,9 @@
 ## Radio Tower 1F
 - Receptionist at (5, 6): 'Welcome!' loop from (3, 6). No quiz trigger.
 - Gentleman at (8, 6): Accessible from (8, 4).
+- **Radio Tower 1F Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - COUNTER: Impassable. Interact across to speak to NPCs.
+  - WARP_CARPET_DOWN: Exit to Goldenrod City.
+  - PC: Impassable.
