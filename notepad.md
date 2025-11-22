@@ -194,3 +194,7 @@
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
+## Route 36
+- **Status:** Arrived from National Park Gate. Exploring East.
+- **NPCs:** Youngster at (20, 13).
+- **Geography:** Tree line blocks direct East path from entrance; must loop South.
