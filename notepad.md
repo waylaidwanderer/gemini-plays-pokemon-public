@@ -1,11 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Find Pokémon Center in Ecruteak (Immediate)
+- [ ] Defeat all 5 Kimono Girls (Immediate)
 - [ ] Defeat Leader Morty (Primary)
 - [ ] Explore Burned Tower (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
-- [ ] Hatch Mystery & Odd Eggs (Quaternary)
 
 ## Ecruteak City
 - **Status:** In Dance Theater.
