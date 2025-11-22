@@ -259,10 +259,7 @@
 - Used Revive on Paprika during Silver battle.
 - **Tool Usage:** `sequence_press` MUST have `autopress_buttons: true` set to function.
 - **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
-- Battle vs Silver: Zubat defeated. Magnemite vs Paprika (Confused). Staying in.
-- Strategy: Switching to XQH (Sandshrew) to absorb Magnemite's attack. Ground type immunity + HP buffer (22 vs 20 Sonicboom) makes this the safest pivot.
-- Battle Update: XQH survived Sonicboom with 2 HP. Using this turn to heal Paprika before XQH falls.
-- XQH fainted. Sending Paprika (18/79 HP, Cured of Confusion) to finish Magnemite.
+- Battle Result: Defeated Silver. XQH sacrificed to ensure victory.
 ## Burned Tower B1F
 - **Status:** Fell from 1F hole. Landed at (10, 9).
 - **Geography:** Basement level.
