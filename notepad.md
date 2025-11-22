@@ -121,8 +121,6 @@
 - **Tool Constraint:** `notepad_edit` 'overwrite' fails if >20% change. Use 'replace' or 'append' instead.
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
-- Mistaken for Radio Tower. Radio Tower is likely West of the main avenue in Goldenrod.
-- Correction: The building at Goldenrod (15, 7) is the Name Rater's house, not the Radio Tower.
 ## Goldenrod Underground Entrance (North)
 - **Status:** Entered from Goldenrod (9, 5).
 - **Geography:** Small room with a ladder down.
