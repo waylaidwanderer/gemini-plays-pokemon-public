@@ -130,16 +130,10 @@
   - PC: Impassable.
 
 ## Goldenrod Gym
-- **Status:** Challenging Whitney. All trainers defeated.
-- **NPCs:** Gym Guide (5, 15), Lass (9, 13).
-- **Tile Mechanics:** FLOOR, WALL, STATUE, WARP_CARPET_DOWN.
-- **Layout:** Maze of flower boxes. Path East blocked. Must navigate West/South perimeter.
-- **Progress:**
-  - Defeated Beauty Victoria (0, 4).
-  - Defeated Beauty Samantha (19, 5).
-  - Defeated Lass Carrie (12, 13).
-  - Defeated Lass Bridget (9, 6).
-  - Defeated Clefairy (Whitney's 1st Pokemon).
+- **Status:** CLEARED. Plain Badge & TM45 (Attract) Obtained.
+- **Event:** Whitney cries after defeat. Must attempt to leave to trigger Lass, then speak to Whitney again to get badge.
+- **Trainers:** All defeated.
+- **Layout:** Flower box maze.
 
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
