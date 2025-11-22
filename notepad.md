@@ -285,3 +285,4 @@
 - Defeated Sage Ping (Gastly Lv16) at (4, 13).
 - Defeated Sage Jeffrey (Haunter Lv22) at (2, 7).
   - Paprika learned Flame Wheel (Lv31).
+  - Path Confirmed: (6,7) is a bridge. Row 6 safe tile is (6,6).
