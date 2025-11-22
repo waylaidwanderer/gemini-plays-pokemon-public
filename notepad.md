@@ -5,9 +5,6 @@
 - [ ] Clear Sudowoodo on Route 36 (Secondary)
 - [ ] Retrieve Coin Case from Underground (Tertiary)
 - [ ] Hatch Mystery & Odd Eggs (Secondary)
-- [x] Earn Plain Badge (Goldenrod)
-- [x] Defeat Gym Leader Whitney
-- [x] Heal at Pokémon Center
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
