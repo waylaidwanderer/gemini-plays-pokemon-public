@@ -144,17 +144,9 @@ I am currently stuck in the entrance area. My pathfinder confirms no route to th
 - Walking in a 'G' shape.
 - A narrow walkway exists around the central structure.
 - Interacting with decorative potted plants.
-
-My `gym_puzzle_solver` agent has provided a new set of hypotheses to test:
-1.  **Hidden Floor Trigger:** Walk over every single accessible tile. (Untested)
-2.  **Pushable Statue:** Attempt to push each statue from all four directions. (Untested)
-3.  **Statue Interaction Order:** Interact with statues in a specific sequence (e.g., left then right). (Tested: Failed, both left-right and right-left orders had no effect.)
-2.  **Pushable Statue:** Attempt to push each statue from all four directions. (Tested: Failed, statues are impassable WALLs.)
-3.  **Statue Interaction:** Attempt to interact with each statue ('A' button). (Tested: Failed, only brings up location text.)
-4.  **Perimeter Walk:** Confirmed Puzzle Mechanic: Walking the bottom perimeter from left to right makes Lass (ID 2) appear at (9, 13). Walking the left perimeter from bottom to top makes her disappear. The puzzle involves toggling trainers by walking specific paths.
-4.  **Repeated Guide Dialogue:** Talk to the guide repeatedly. (Untested)
-5.  **Time-Based Trigger:** Stand still on a specific tile. (Untested)
-6.  **Perimeter Walk:** Walk the perimeter of the room. (Untested)
+- **Pushable Statue:** Attempt to push each statue from all four directions. (Tested: Failed, statues are impassable WALLs.)
+- **Statue Interaction:** Attempt to interact with each statue ('A' button). (Tested: Failed, only brings up location text.)
+- **Perimeter Walk:** Confirmed Puzzle Mechanic: Walking the bottom perimeter from left to right makes Lass (ID 2) appear at (9, 13). Walking the left perimeter from bottom to top makes her disappear. The puzzle involves toggling trainers by walking specific paths.
 
 ## Archived Info
 
@@ -167,11 +159,3 @@ My `gym_puzzle_solver` agent has provided a new set of hypotheses to test:
 
 # Goldenrod Gym Info
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
-
-# Goldenrod Gym Puzzle (New Hypotheses from Agent)
-After exhausting all simple hypotheses, the agent suggested the following:
-1. **Narrow Walkway:** The path is not hidden, but a narrow walkway around the central structure. (Tested: Failed, `find_path` confirms no route exists.)
-2. **Decorative Object Interaction:** Potted plants or railings are the triggers. (Current hypothesis)
-2. **Decorative Object Interaction:** Potted plants or railings are the triggers.
-3. **Hidden Pressure Plate:** A specific floor tile is a switch.
-4. **Positional NPC Trigger:** The location from which I speak to the Gym Guide matters.
