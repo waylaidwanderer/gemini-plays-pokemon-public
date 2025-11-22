@@ -178,3 +178,4 @@
 - Defeated Beauty Samantha at (19, 5). Meowth x2.
 - Defeated Lass Carrie at (12, 13).
 - Battling Lass Bridget at (9, 6).
+- Defeated Lass Bridget at (9, 6). Paprika Lv24.
