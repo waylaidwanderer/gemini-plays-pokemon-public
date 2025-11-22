@@ -165,4 +165,3 @@
 
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-- **Core Principle: Data Over Intuition:** My visual interpretation and memory are unreliable and prone to hallucinations, especially regarding my own position. The game state data (coordinates, map XML) and the outputs of my trusted tools (`find_path`) are the absolute source of truth. If a tool reports 'No path found,' I must accept it as fact and investigate the map for the physical obstacle, rather than debugging the tool. All movement, especially after a `path_plan` or interruption (battle, menu), must be followed by an immediate verification of my `(x, y)` coordinates in the Game State before planning the next action.
