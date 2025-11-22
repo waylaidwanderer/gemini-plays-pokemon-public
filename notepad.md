@@ -1,11 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Obtain SquirtBottle (Flower Shop)
-- [x] Clear Sudowoodo on Route 36
-- [ ] Reach Ecruteak City (Primary)
-- [ ] Retrieve Coin Case from Underground (Secondary)
-- [ ] Hatch Mystery & Odd Eggs (Tertiary)
+- [ ] Find Pokémon Center in Ecruteak (Immediate)
+- [ ] Defeat Leader Morty (Primary)
+- [ ] Explore Burned Tower (Secondary)
+- [ ] Retrieve Coin Case from Underground (Tertiary)
+- [ ] Hatch Mystery & Odd Eggs (Quaternary)
+
+## Ecruteak City
+- **Status:** Arrived. Exploring.
+- **Geography:** Historic city with traditional architecture.
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
