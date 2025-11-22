@@ -268,3 +268,4 @@
 - **Geography:** Basement level.
 - **Objects:** Suicune sighted at (10, 4).
 - **Events:** Rival Silver insulted me after the fall.
+- **Menu Navigation:** When using `sequence_press`, ALWAYS set `autopress_buttons: true`. Visual verification of the cursor position is mandatory before confirming selections, as the game may remember previous positions.
