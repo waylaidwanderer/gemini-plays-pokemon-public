@@ -174,3 +174,6 @@
 - **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
 - **Follow Documented Strategy:** My documented strategies and principles in the notepad are useless if I don't follow them. I must review relevant notes before making major decisions, especially for gym battles. A single high-level Pokémon cannot carry an under-leveled team, and attempting to do so after documenting this principle is a critical strategic failure.
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
+
+# To-Do
+- Fix incorrect marker for YOUNGSTER at Route 35 (4, 19). Label says 'CAMPER IVAN'.
