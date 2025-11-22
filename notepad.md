@@ -163,3 +163,4 @@
 - **Pathfinder Edge Cases:** Path reconstruction for impassable destinations is a common failure point. When a pathfinder bug is suspected, this specific logic should be one of the first things to be examined and tested.
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive. Proactive marking maintains a consistently accurate map.
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that the map layout is not what it seems. Instead of assuming the tool is bugged, I must re-evaluate my root assumptions about the map's traversability.
+- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
