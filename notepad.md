@@ -1,28 +1,3 @@
-# Game Mechanics & Systems
-- The Day/Night cycle is an important mechanic in this game, affecting events.
-- Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
-- The PC in Pokémon Centers is used for Pokémon and item storage.
-- BERRY trees grow new BERRIES every day.
-
-# Current Quest: Explore Goldenrod Department Store
-- **Objective:** Fully explore all floors of the Goldenrod Department Store.
-- **Status:** Currently on the B1F, solving the box puzzle.
-
-# Key Items
-- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
-- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
-- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
-- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
-
-# TMs
-- **TM12 SWEET SCENT**
-- **TM31 MUD-SLAP**
-- **TM39 SWIFT**
-- **TM49 FURY CUTTER**
-
-# Consumable Items
-- Received a BITTER BERRY from the tree at (16, 7) on Route 31.
-
 # Strategic Principles
 - **TRUST DATA OVER INTUITION:** My custom tools (especially pathfinders) analyze the raw game data, which is the absolute source of truth. My visual interpretation of the screen or my memory can be flawed. If a tool reports 'No path found' or provides contradictory information, I must treat its output as the discovery of a fact about the game state (e.g., a hidden wall, a flawed assumption), not as a bug in the tool itself. I must always verify my root assumptions against the game data before pursuing complex solutions.
 - **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors, especially when prompted by system critiques. Inconsistent use is a failure of strategy. For built-in tools, I must use them as designed (e.g., passing 'RUN' as an argument to `select_battle_option`) rather than manually scripting button presses.
@@ -54,6 +29,31 @@
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
 
+# Game Mechanics & Systems
+- The Day/Night cycle is an important mechanic in this game, affecting events.
+- Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
+- The PC in Pokémon Centers is used for Pokémon and item storage.
+- BERRY trees grow new BERRIES every day.
+
+# Current Quest: Explore Goldenrod Department Store
+- **Objective:** Fully explore all floors of the Goldenrod Department Store.
+- **Status:** Currently on the B1F, solving the box puzzle.
+
+# Key Items
+- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
+- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
+- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
+- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+
+# TMs
+- **TM12 SWEET SCENT**
+- **TM31 MUD-SLAP**
+- **TM39 SWIFT**
+- **TM49 FURY CUTTER**
+
+# Consumable Items
+- Received a BITTER BERRY from the tree at (16, 7) on Route 31.
+
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
 - Poisoned Pokémon lose 1 HP every four steps outside of battle.
@@ -74,7 +74,7 @@
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `define_tool` / `delete_tool`: Manages custom tools.
-- `stun_npc`: Freezes or unfreezes an NPC's movement.
+- `stun_npc`: Freezes or unfreezes an NPC's movement. Can only be used on NPCs that are currently on the same map as the player.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 **Custom Agents & Tools (Defined by me):**
@@ -134,6 +134,15 @@
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE.
 
+# Goldenrod Gym Puzzle
+My `gym_puzzle_solver` agent provided the following hypotheses:
+1.  **Gym Guide Hint:** Talk to the guide for a clue. (Tested: Guide gave standard type advice, no puzzle hints.)
+2.  **Invisible Teleporter:** Walk over every tile in the entrance area. (Tested: Failed in accessible area)
+3.  **Fake Wall:** Walk into every wall adjacent to the accessible floor. (Tested: Failed in accessible area)
+4.  **'G' Shape Path:** Walk in the shape of a 'G' in the accessible area. (Untested)
+5.  **Statue Interaction:** Interacting with the statues at (1, 15) and (4, 15) will trigger an event. (Tested: Failed, they only display the gym name.)
+6.  **New Hypothesis (Re-entry):** Based on the Goldenrod Dept. Store puzzle, leaving and re-entering the gym might change the puzzle state. (Current hypothesis being tested)
+
 ## Archived Info
 
 # Azalea Gym Info
@@ -142,28 +151,6 @@
 
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-- **Map ID Verification:** After any warp or map transition, I MUST immediately verify my current `map_id` in the Game State Information to prevent severe navigational errors caused by positional hallucinations.
-- `stun_npc`: Can only be used on NPCs that are currently on the same map as the player.
-- **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
 
 # Goldenrod Gym Info
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
-
-# Goldenrod Gym Puzzle
-My `gym_puzzle_solver` agent provided the following hypotheses:
-1.  **Gym Guide Hint:** Talk to the guide for a clue. (Tested: Guide gave standard type advice, no puzzle hints.)
-2.  **Invisible Teleporter:** Walk over every tile in the entrance area.
-3.  **Fake Wall:** Walk into every wall adjacent to the accessible floor.
-4.  **'G' Shape Path:** Walk in the shape of a 'G' in the accessible area.
-
-**Test Plan:** Hypothesis #3 (Fake Wall) has been tested on all accessible walls in the entrance area and has failed. I will now test Hypothesis #2 (Invisible Teleporter) by systematically walking over every accessible floor tile.
-- **TRUST DATA OVER INTUITION:** My custom tools (especially pathfinders) analyze the raw game data, which is the absolute source of truth. My visual interpretation of the screen or my memory can be flawed. If a tool reports 'No path found' or provides contradictory information, I must treat its output as the discovery of a fact about the game state (e.g., a hidden wall, a flawed assumption), not as a bug in the tool itself. I must always verify my root assumptions against the game data before pursuing complex solutions.
-- **TRUST DATA OVER INTUITION:** My custom tools (especially pathfinders) analyze the raw game data, which is the absolute source of truth. My visual interpretation of the screen or my memory can be flawed. If a tool reports 'No path found' or provides contradictory information, I must treat its output as the discovery of a fact about the game state (e.g., a hidden wall, a flawed assumption), not as a bug in the tool itself. I must always verify my root assumptions against the game data before pursuing complex solutions.
-- **Statue Interaction:** Interacting with the statues at (1, 15) and (4, 15) only displays the gym name. This hypothesis has failed.
-- **New Hypothesis (Re-entry):** Based on the Goldenrod Dept. Store puzzle, leaving and re-entering the gym might change the puzzle state.
-
-# Tile Mechanics
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
-
-# Strategic Principles
-- **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
