@@ -2,8 +2,8 @@
 
 ## Current Goals
 - [ ] Defeat Leader Morty (Primary)
-- [ ] Obtain ItemFinder (Secondary)
-- [ ] Teach Surf to F (Psyduck) (Tertiary)
+- [ ] Teach Surf to F (Secondary)
+- [ ] Train Basalt to Lv16 for Magnitude (Tertiary)
 - [ ] Explore Burned Tower (Exploration)
 
 ## Ecruteak City
