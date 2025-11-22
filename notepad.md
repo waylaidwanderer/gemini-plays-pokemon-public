@@ -151,3 +151,4 @@
 
 # Menu Navigation
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
+- Fire-type moves (like EMBER) are not very effective against Fire-types (like Quilava).
