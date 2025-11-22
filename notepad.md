@@ -12,7 +12,7 @@
 - Deposited Mystery Egg in Bill's PC.
 
 ## Ecruteak City
-- **Status:** Shopping complete. Exiting Mart to head West to Route 38.
+- **Status:** Passing through Route 38 Gatehouse.
 - **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
