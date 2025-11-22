@@ -179,3 +179,4 @@
 - Defeated Lass Carrie at (12, 13).
 - Battling Lass Bridget at (9, 6).
 - Defeated Lass Bridget at (9, 6). Paprika Lv24.
+- Tool Safety: `select_move` assumes cursor is at top (Index 1). If uncertain, back out to main menu to reset cursor before calling.
