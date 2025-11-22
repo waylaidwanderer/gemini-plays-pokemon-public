@@ -196,5 +196,5 @@
 - **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
 ## Route 36
 - **Status:** Arrived from National Park Gate. Exploring East.
-- **NPCs:** Youngster at (20, 13).
+- **NPCs:** Youngster at (20, 13), Youngster at (31, 14), Lass at (33, 12).
 - **Geography:** Tree line blocks direct East path from entrance; must loop South.
