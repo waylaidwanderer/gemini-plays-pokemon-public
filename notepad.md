@@ -9,16 +9,8 @@
 - Defeated Leader Morty. Obtained Fog Badge & TM30 (Shadow Ball).
 
 ## Ecruteak City
-- **Status:** In Ecruteak Gym. Challenging Leader Morty.
-- **Gym Puzzle:** Invisible floor path. Gym Guide says trainers have "secret motives".
-- **Strategy:** Defeat trainers sequentially to uncover the path.
-- **Current Target:** Leader Morty at (5, 1).
-- **Notes:** Basalt learned Magnitude (Lv16). Medium Martha defeated.
-- **Path:**
-  1. Start -> Col 5 -> Row 13 (Defeated Sage Ping).
-  2. Right to Col 6 -> Row 9 (Defeated Granny).
-  3. Left to Col 3 -> Row 8 (Cross Pit) -> Row 7 (Defeated Sage Jeffrey).
-  4. Right to (6, 7) (Safe Bridge) -> North to (6, 6).
+- **Status:** At Pokémon Center. Healing after Morty battle.
+- **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
