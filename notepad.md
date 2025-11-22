@@ -140,3 +140,10 @@
   - FLOOR: Walkable.
   - WALL: Impassable.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
+## Radio Tower 1F
+- **Geography:** Entrance lobby. Reception counter.
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - COUNTER: Impassable. Interact over it.
+  - WARP_CARPET_DOWN: Exit to Goldenrod City.
