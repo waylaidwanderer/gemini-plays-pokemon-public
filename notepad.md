@@ -57,7 +57,7 @@
 - Team Strategy: Paprika (Quilava) is the carry. Basalt (Geodude) needs training. XQH (Sandshrew) knows Cut for utility.
 - Tactics: Smokescreen vs physical attackers/type disadvantages.
 - Protocol: Mark NPCs immediately.
-- Tools: `select_move` (index 1-4) automates battle move selection.
+- Tools: `select_move` (index 1-4), `select_battle_option` (FIGHT/PKMN/PACK/RUN), `find_path`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
 
 ## Lessons Learned
