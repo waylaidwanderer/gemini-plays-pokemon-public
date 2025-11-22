@@ -89,11 +89,6 @@
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 
-## Archived Logs (Azalea & Route 33)
-- **Route 33:** Cleared. Hiker Anthony (Phone reg).
-- **Azalea Town:** Cleared Well & Gym. Rival Defeated.
-- **Caught:** F (Psyduck) in Ilex.
-
 ## Route 34 Gatehouse
 - Connecting Ilex Forest and Route 34.
 - NPCs: Teacher, Lass, and a Butterfree sprite.
