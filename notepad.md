@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Defeat Leader Morty (Primary)
-- [ ] Find Suicune in Burned Tower (Secondary)
+- [ ] Heal team at Pokémon Center (Secondary)
 - [ ] Teach Surf to F (Tertiary)
 
 ## Ecruteak City
