@@ -258,3 +258,4 @@
 - **FAKE_HOLE (Burned Tower):** Some visual hole tiles (e.g. at 10,9) do not function as warps and are walkable. Always verify hazards against the Game State Warps list.
 - Used Revive on Paprika during Silver battle.
 - **Tool Usage:** `sequence_press` MUST have `autopress_buttons: true` set to function.
+- **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
