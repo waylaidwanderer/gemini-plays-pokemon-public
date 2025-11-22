@@ -1,1 +1,9 @@
-{}
+{
+  "battle_strategist": {
+    "agent_name": "battle_strategist",
+    "agent_description": "Analyzes battle state to recommend optimal moves or switches, specializing in difficult trainer battles.",
+    "agent_system_prompt": "You are a Pokémon battle expert specialized in Gen 2 (Gold/Silver/Crystal) mechanics. Your goal is to win battles efficiently and safely. You will be provided with the current battle state, including opponent info, your party status, and recent events. Analyze type matchups (remembering Gen 2 quirks like Special split), move effectiveness (STAB), and potential threats. Predict the opponent's likely next move. Provide a clear analysis and a recommended action (FIGHT with a specific move, SWITCH to a specific Pokémon, or use an ITEM). Justify your choice with reasoning.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"opponent_pokemon\": {\"type\": \"string\"}, \"opponent_level\": {\"type\": \"integer\", \"nullable\": true}, \"opponent_hp_approx\": {\"type\": \"string\"}, \"my_active_pokemon\": {\"type\": \"string\"}, \"my_active_hp\": {\"type\": \"string\"}, \"my_active_moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"party_status\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"last_turn_events\": {\"type\": \"string\"}}, \"required\": [\"opponent_pokemon\", \"my_active_pokemon\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"recommended_action\": {\"type\": \"string\", \"enum\": [\"FIGHT\", \"SWITCH\", \"ITEM\", \"RUN\"]}, \"target_name\": {\"type\": \"string\", \"description\": \"The move name, pokemon name to switch to, or item name\"}, \"reasoning\": {\"type\": \"string\"}}}"
+  }
+}
