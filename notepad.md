@@ -55,6 +55,7 @@
 ### Tile Mechanics
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
+- **PIT:** Impassable hazard. Falling in warps player to start.
 - **LEDGE_HOP_DOWN:** Walkable only from the tile directly above. Acts as a WALL from all other directions. Automatically jumps the player down one tile.
 - **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
 - **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
@@ -66,6 +67,7 @@
 
 ### Battle Mechanics
 - **Cursor Memory:** The move cursor remembers the last used move. ALWAYS check cursor position before selecting!
+- **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
