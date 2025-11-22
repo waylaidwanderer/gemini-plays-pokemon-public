@@ -86,7 +86,6 @@
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Freezes or unfreezes an NPC's movement. Can only be used on NPCs that are currently on the same map as the player.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-- `define_tool` / `delete_tool`: Manages custom tools.
 
 **Custom Agents & Tools (Defined by me):**
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
@@ -124,6 +123,7 @@
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
+- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
 
 # Object Mechanics
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
@@ -163,4 +163,3 @@
 - **Pathfinder Edge Cases:** Path reconstruction for impassable destinations is a common failure point. When a pathfinder bug is suspected, this specific logic should be one of the first things to be examined and tested.
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive. Proactive marking maintains a consistently accurate map.
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that the map layout is not what it seems. Instead of assuming the tool is bugged, I must re-evaluate my root assumptions about the map's traversability.
-- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
