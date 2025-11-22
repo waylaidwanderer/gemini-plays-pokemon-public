@@ -170,10 +170,7 @@
   - Defeated Beauty Samantha (19, 5).
   - Defeated Lass Carrie (12, 13).
   - Defeated Lass Bridget (9, 6).
-## Goldenrod Gym Notes
-- **Mechanics:** Maze of flower boxes. Path East blocked. Must navigate West/South perimeter.
-- **Progress:** Defeated Victoria (0,4), Samantha (19,5), Carrie (12,13), Bridget (9,6).
-- **Lesson:** `select_move` assumes cursor index 1. Reset menu if uncertain.
+
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
 - **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
