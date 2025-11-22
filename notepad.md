@@ -165,3 +165,6 @@
 
 # Game Corner Info
 - A POKEFAN_M lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
+
+# Puzzle Solving Strategy
+- **Problem-Solving Escalation:** If a simple, systematic approach (like brute-forcing every tile) fails repeatedly (e.g., 5+ times), it is fundamentally the wrong approach. I must stop, document the failed strategy, and escalate to a more powerful problem-solving method (like my `gym_puzzle_solver` agent) instead of continuing the failed strategy.
