@@ -2,9 +2,8 @@
 
 ## Current Goals
 - [ ] Defeat Leader Morty (Primary)
-- [ ] Teach Surf to F (Secondary)
-- [ ] Train Basalt to Lv16 for Magnitude (Tertiary)
-- [ ] Explore Burned Tower (Exploration)
+- [ ] Find Suicune in Burned Tower (Secondary)
+- [ ] Teach Surf to F (Tertiary)
 
 ## Ecruteak City
 - **Status:** In Ecruteak City. Healing at Center, then challenging Gym.
