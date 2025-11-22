@@ -263,17 +263,14 @@
 - **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
 - Battle Result: Defeated Silver. XQH sacrificed to ensure victory.
 ## Burned Tower B1F
-- **Status:** Explored B1F. Rival Silver Defeated (XQH fainted).
+- **Status:** Explored. Beasts fled. Exiting to heal.
 - **Geography:** Basement level.
 - **Objects:**
-  - Suicune (10, 4)
-  - Entei (12, 3)
-  - Raikou (7, 3)
-  - Item Ball (16, 4)
+  - Item Ball (16, 4) (Blocked)
   - Boulder (17, 8)
 - **Mechanics:**
-  - **Warp Tiles:** The warp-like tiles (e.g. at 10,8) are traversable floor tiles on this level.
-- **Events:** Rival Silver defeated.
+  - **Warp Tiles:** Tiles appearing as holes (e.g. 10,8, 10,9) are safe traversable floors on this level.
+- **Events:** Rival Silver defeated. Legendary Beasts fled.
 - **Menu Navigation:** When using `sequence_press`, ALWAYS set `autopress_buttons: true`. Visual verification of the cursor position is mandatory before confirming selections.
 - **Burned Tower B1F Discovery:** Legendary Beasts (Raikou, Entei, Suicune) fled upon interaction.
 - **Tile Mechanics:** Warp at (10, 8) is traversable/landing spot (walked over it). (10, 9) is also a landing spot.
