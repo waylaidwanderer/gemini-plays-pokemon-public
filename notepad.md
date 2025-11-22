@@ -159,3 +159,4 @@ I am currently stuck in the entrance area. My pathfinder confirms no route to th
 
 # Goldenrod Gym Info
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
+- **TRUST THE DATA:** My pathfinding tools read the raw map data, which is the absolute source of truth. If a tool reports 'No path found,' I must trust it and re-evaluate my own understanding of the map layout. My visual assessment can be flawed; the data is not. I must never again get stuck in a loop of debugging a tool when the real error is my own misinterpretation of the game state.
