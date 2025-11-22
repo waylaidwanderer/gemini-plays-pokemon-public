@@ -6,7 +6,8 @@
 - [ ] Teach Surf to F (Tertiary)
 
 ## Ecruteak City
-- **Status:** In Ecruteak City. Healing at Center, then challenging Gym.
+- **Status:** In Ecruteak Gym. Challenging Leader Morty.
+- **Gym Puzzle:** Invisible floor path. Falling warps to start.
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
   - City Sign at (15, 21).
