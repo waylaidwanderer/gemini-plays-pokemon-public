@@ -145,16 +145,11 @@
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
 ## Radio Tower 1F
 - **Geography:** Entrance lobby. Reception counter.
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - COUNTER: Impassable. Interact over it.
-  - WARP_CARPET_DOWN: Exit to Goldenrod City.
-## Radio Tower 1F
-- Receptionist at (5, 6): 'Welcome!' loop from (3, 6). No quiz trigger.
-- Gentleman at (8, 6): Lucky Number Show (ID Mismatch).
-- Cooltrainer F at (12, 6): Radio Card Quiz.
-- **Radio Tower 1F Mechanics:**
+- **NPCs:**
+  - Receptionist at (5, 6): 'Welcome!' loop from (3, 6). No quiz trigger.
+  - Gentleman at (8, 6): Lucky Number Show (ID Mismatch).
+  - Cooltrainer F at (12, 6): Radio Card Quiz.
+- **Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
   - COUNTER: Impassable. Interact across to speak to NPCs.
