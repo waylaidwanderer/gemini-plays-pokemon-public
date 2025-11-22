@@ -1,9 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Defeat Leader Morty (Primary)
-- [ ] Heal team at Pokémon Center (Secondary)
-- [ ] Teach Surf to F (Tertiary)
+- [ ] Heal team at Pokémon Center (Primary)
+- [ ] Teach Surf to F (Secondary)
+- [ ] Travel to Olivine City (Tertiary)
+
+## Recent Events
+- Defeated Leader Morty. Obtained Fog Badge & TM30 (Shadow Ball).
 
 ## Ecruteak City
 - **Status:** In Ecruteak Gym. Challenging Leader Morty.
