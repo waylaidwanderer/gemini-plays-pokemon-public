@@ -181,4 +181,5 @@ After getting stuck in a dialogue loop with Lass Bridget, I consulted the `gym_p
 **Hypothesis 4: State change for another NPC.**
 - **Hypothesis:** Bridget's appearance has changed the state of a previously defeated trainer.
 - **Test Plan:** Interact with all other trainers in the gym again.
-- **Result:** FAILED. Stepping on tile (8, 6) had no effect.
+- **Test 1:** Interacted with the reappeared Beauty Victoria at (0, 2).
+- **Result 1:** She gave post-battle dialogue and did not move. This part of the hypothesis seems incorrect, or at least incomplete.
