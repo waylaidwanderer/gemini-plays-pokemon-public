@@ -284,3 +284,4 @@
 - Defeated Sage Ping (Gastly Lv16) at (4, 13).
 - Hypothesis: Column 6 (x=6) appears to be a safe path north based on observed floor tiles.
 - Plan: Talk to Sage Ping for clues. Then navigate North via Column 6 (Safe Path) to challenge Granny at (7, 9).
+- Sage Ping: 'We use only ghost-type POKéMON. No normal-type attack can harm them!'
