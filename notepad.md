@@ -28,6 +28,7 @@
 ### Tile Mechanics
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
+- **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
 - **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
 - **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
@@ -199,6 +200,7 @@
 ### Tile Mechanics
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
+- **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
 - **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
 - **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
