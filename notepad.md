@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Obtain SquirtBottle (Flower Shop) (Primary)
-- [ ] Clear Sudowoodo on Route 36 (Secondary)
-- [ ] Retrieve Coin Case from Underground (Tertiary)
-- [ ] Hatch Mystery & Odd Eggs (Secondary)
+- [x] Obtain SquirtBottle (Flower Shop)
+- [ ] Clear Sudowoodo on Route 36 (Primary)
+- [ ] Retrieve Coin Case from Underground (Secondary)
+- [ ] Hatch Mystery & Odd Eggs (Tertiary)
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
