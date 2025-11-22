@@ -105,7 +105,7 @@
 - Caught Cirrus (Pidgey) Lv12 on Route 34.
 
 ## Goldenrod Dept Store
-- **Status:** Entered 1F.
+- **Status:** Visited.
 - **Geography:** Entrance at South. Stairs/Elevator likely at North.
 - **NPCs:** Receptionist (1F), Pokefan F, Bug Catcher, Gentleman.
 - **Tile Mechanics:**
