@@ -18,6 +18,11 @@
 ## Goldenrod City
 - **Status:** Arrived.
 - **Geography:** Large city. Entrance from Route 34 at (18, 35).
+- **Mechanics:**
+  - **FLOOR:** Standard walkable terrain.
+  - **WALL:** Buildings, fences, and obstacles (Impassable).
+  - **DOOR:** Warps to building interiors.
+  - **WARP_CARPET:** Map connection points.
 
 ## Ilex Forest
 - **Status:** Farfetch'd returned. Obtained HM01 (Cut). Tree at (8,25) cut.
@@ -71,6 +76,7 @@
 - **Route 33:** Cleared. Hiker Anthony (Phone reg).
 - **Azalea Town:** Cleared Well & Gym. Rival Defeated.
 - **Caught:** Flux (Psyduck) in Ilex.
+
 ## Route 34 Gatehouse
 - Connecting Ilex Forest and Route 34.
 - NPCs: Teacher, Lass, and a Butterfree sprite.
@@ -83,30 +89,28 @@
 - **Quest:** Gina called (Turn 2936) offering an item on Route 34.
 - **Berry Mechanics:** Berry trees regenerate new berries every day. Note which trees bear which berries.
 - **Items:** Item ball at (7, 30) blocked by fake tree at (8, 24). Likely requires Surf.
+
 ## Day Care Center
 - Entered main building. Gramps (Day Care Man) and Granny are inside.
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - WARP_CARPET_LEFT: Exits to Route 34 (West).
   - WARP_CARPET_DOWN: Exits to Route 34 (Front).
-- **Tool Usage Lesson:** Do NOT use 'autopress_buttons' with 'find_path'. It returns a coordinate list, not button strings.
 - **Day Care Mechanics:** The side exit (WARP_CARPET_RIGHT) leads to the Day Care Yard/West Route 34.
 - **Fake Tree at (8, 24):** The tree-like object at (8, 24) in the Day Care Yard is NOT cuttable. It is a solid wall.
 - Caught Cirrus (Pidgey) Lv12 on Route 34.
+
 ## Goldenrod Dept Store
 - **Status:** Entered 1F.
 - **Geography:** Entrance at South. Stairs/Elevator likely at North.
 - **NPCs:** Receptionist (1F), Pokefan F, Bug Catcher, Gentleman.
 - **Tile Mechanics:**
   - WARP_CARPET_DOWN: Exit to city.
+
 ## Goldenrod Bike Shop
 - **Status:** Entered. Goal: Obtain Bicycle.
 - **NPCs:** Clerk at (7, 2).
-## Goldenrod City Mechanics
-- **FLOOR:** Standard walkable terrain.
-- **WALL:** Buildings, fences, and obstacles (Impassable).
-- **DOOR:** Warps to building interiors.
-- **WARP_CARPET:** Map connection points.
+
 ## Goldenrod Game Corner
 - **Status:** Exploring.
 - **Tile Mechanics:**
@@ -123,9 +127,10 @@
   - Receptionists: (16, 2) & (18, 2).
   - Gentleman (5, 10).
   - Pokefan M (11, 10): Coin Case tip source.
-- **Tool Constraint:** `notepad_edit` 'overwrite' fails if >20% change. Use 'replace' or 'append' instead.
+
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
+
 ## Goldenrod Underground Entrance (North)
 - **Status:** Entered from Goldenrod (9, 5).
 - **Geography:** Small room with a ladder down.
@@ -137,12 +142,14 @@
   - WARP_CARPET_DOWN: Exit to city.
   - LADDER: Warp to Underground.
 - **Navigation Lesson:** Verify building identities (e.g. signs, entering) before assuming. Directional heuristics (e.g. 'West side') can be misleading if landmarks aren't distinct.
+
 ## Goldenrod Magnet Train Station
 - **Status:** Visited (Turn 3235).
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
+
 ## Radio Tower 1F
 - **Geography:** Entrance lobby. Reception counter.
 - **NPCs:**
@@ -155,6 +162,7 @@
   - COUNTER: Impassable. Interact across to speak to NPCs.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - PC: Impassable.
+
 ## Goldenrod Gym
 - **Status:** Challenging Whitney. All trainers defeated.
 - **NPCs:** Gym Guide (5, 15), Lass (9, 13).
