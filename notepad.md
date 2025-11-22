@@ -147,7 +147,7 @@
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
 ## Radio Tower 1F
 - Receptionist at (5, 6): 'Welcome!' loop from (3, 6). No quiz trigger.
-- Gentleman at (8, 6): Accessible from (8, 4).
+- Gentleman at (8, 6): Lucky Number Show (ID Mismatch).
 - **Radio Tower 1F Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
