@@ -287,3 +287,5 @@
 - Plan: Talk to Sage Ping for clues. Then navigate North via Column 6 (Safe Path) to challenge Granny at (7, 9).
 - Sage Ping: 'We use only ghost-type POKéMON. No normal-type attack can harm them!'
 - Correction: Column 6 is blocked by a Pit at (6, 8). Safe path appears to shift Left at Row 9 towards Column 3 (Tile (3, 9) and (3, 8) are floors).
+- Defeated Sage Jeffrey (Haunter Lv22) at (2, 7).
+- Gym Path Hypothesis: Row 7 safe tiles (3,7) to (5,7). Suspect (6,7) is the bridge to Row 6.
