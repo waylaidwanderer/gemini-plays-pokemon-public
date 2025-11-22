@@ -255,3 +255,4 @@
 - **Wild Escapes:** Escape probability increases with each failed attempt. Persisting in RUN is statistically better than fighting trash mobs when conserving resources.
 - **Tile Mechanics:** HOLE tiles are warps/hazards. Avoid unless intentional.
 - **Fake Hazards:** The hole at (10, 9) in Burned Tower is a visual fake. Trust Game State Warps list over visual tiles.
+- **FAKE_HOLE (Burned Tower):** Some visual hole tiles (e.g. at 10,9) do not function as warps and are walkable. Always verify hazards against the Game State Warps list.
