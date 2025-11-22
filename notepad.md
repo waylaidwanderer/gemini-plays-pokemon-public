@@ -41,9 +41,10 @@
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 - BERRY trees grow new BERRIES every day.
 
-# Current Quest: Train for Whitney Rematch
-- **Objective:** Train my entire party to a higher level on Route 35.
-- **Status:** Currently in the tall grass on Route 35.
+# Current Quest: Defeat Whitney
+- **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
+- **Status:** Currently interrupted by hatching an egg while on the way to the Pokémon Center to heal.
+- **Sub-task:** Investigate unmarked warp at (33, 9) in Goldenrod City after dealing with Whitney.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -162,7 +163,7 @@
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
 # Lessons Learned & New Principles
-- **Positional Verification:** After any interruption (battle, dialogue, menu), I MUST verify my current (x, y) coordinates in the Game State Information before planning my next move. Assuming a path plan has completed without verification is a critical failure.
+- **Positional Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
 - **Pathfinder Edge Cases:** Path reconstruction for impassable destinations is a common failure point. When a pathfinder bug is suspected, this specific logic should be one of the first things to be examined and tested.
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive. Proactive marking maintains a consistently accurate map.
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that the map layout is not what it seems. Instead of assuming the tool is bugged, I must re-evaluate my root assumptions about the map's traversability.
@@ -170,3 +171,4 @@
 - **Positional Verification after Long Paths:** After executing a long, uninterrupted path, I must always verify my final `(x, y)` coordinates against the Game State Information. A path failing midway can cause my perceived position to become desynchronized from my actual position, leading to subsequent navigation errors.
 - **Data Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels, including the correct trainer type. Failure to do so degrades the quality of my map data and leads to confusion.
 - **Interaction Loops:** If repeated, varied interaction with an NPC (e.g., from different directions, or testing line-of-sight) yields no new result, they are likely non-interactive for progression or have already served their purpose. I must abandon the interaction and explore other options to avoid wasting time in a loop.
+- **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
