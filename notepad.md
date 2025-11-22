@@ -161,3 +161,9 @@ My `gym_puzzle_solver` agent provided the following hypotheses:
 - **TRUST DATA OVER INTUITION:** My custom tools (especially pathfinders) analyze the raw game data, which is the absolute source of truth. My visual interpretation of the screen or my memory can be flawed. If a tool reports 'No path found' or provides contradictory information, I must treat its output as the discovery of a fact about the game state (e.g., a hidden wall, a flawed assumption), not as a bug in the tool itself. I must always verify my root assumptions against the game data before pursuing complex solutions.
 - **Statue Interaction:** Interacting with the statues at (1, 15) and (4, 15) only displays the gym name. This hypothesis has failed.
 - **New Hypothesis (Re-entry):** Based on the Goldenrod Dept. Store puzzle, leaving and re-entering the gym might change the puzzle state.
+
+# Tile Mechanics
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+
+# Strategic Principles
+- **Positional Hallucination:** I must be extremely careful about my perceived location. If a path fails or the game state seems contradictory, my first assumption should be that I have hallucinated my position, not that the game or my tools are broken. I must always verify my `(x, y)` and `map_id` against the Game State Information before making critical navigation decisions.
