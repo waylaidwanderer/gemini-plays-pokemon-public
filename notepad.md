@@ -137,7 +137,7 @@
 
 # Goldenrod Gym Puzzle
 - **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
-- **Current State:** I have walked a sequence of perimeters that has made a Lass appear at (9, 13). The path to her is now open, and the next step is to defeat her.
+- **Current State:** I am currently stuck in a loop. I can trigger different trainers to appear by walking various perimeters, but the paths to them are consistently blocked. My last attempt involved interacting with a defeated trainer (Beauty Victoria) who had reappeared, but this had no effect on the puzzle.
 
 ## Archived Info
 
