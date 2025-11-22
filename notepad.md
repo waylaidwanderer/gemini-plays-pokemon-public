@@ -16,29 +16,11 @@
 - [x] Locate Game Corner
 
 ## Goldenrod City
-- **Status:** Arrived.
-- **Geography:** Large city. Entrance from Route 34 at (18, 35).
-- **Mechanics:**
-  - **FLOOR:** Standard walkable terrain.
-  - **WALL:** Buildings, fences, and obstacles (Impassable).
-  - **DOOR:** Warps to building interiors.
-  - **WARP_CARPET:** Map connection points.
+- **Status:** Arrived. Entrance from Route 34 at (18, 35).
 
 ## Ilex Forest
-- **Status:** Farfetch'd returned. Obtained HM01 (Cut). Tree at (8,25) cut.
-- **Geography:**
-  - Hidden path on West edge (Col 0) leads North.
-  - Path East of center (Row 10) leads to a Northbound corridor at Col 22.
-  - Northern path ends at (14, 0).
-  - Path south of Youngster (12, 1) connects central area.
-  - Exit to Route 34 Gatehouse at (1, 5).
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - HEADBUTT_TREE: Impassable.
-  - CUT_TREE: Impassable (requires Cut).
-  - WATER: Impassable (requires Surf).
-  - LEDGE_HOP_*: One-way jumps.
-  - WARP_CARPET_*: Map transition.
+- **Status:** Cleared. Obtained HM01 (Cut).
+- **Geography:** Hidden path on West edge. Exit to Route 34 at (1, 5).
 
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea).
