@@ -81,6 +81,7 @@
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Freezes or unfreezes an NPC's movement. Can only be used on NPCs that are currently on the same map as the player.
 - `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `define_tool` / `delete_tool`: Manages custom tools.
 
 **Custom Agents & Tools (Defined by me):**
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
