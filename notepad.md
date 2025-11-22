@@ -8,8 +8,13 @@
 - [ ] Hatch Mystery & Odd Eggs (Quaternary)
 
 ## Ecruteak City
-- **Status:** Arrived. Exploring.
+- **Status:** Exploring Central Area.
 - **Geography:** Historic city with traditional architecture.
+- **Landmarks:**
+  - City Sign at (15, 21).
+  - Dance Theater at (23, 21).
+  - Residential House at (23, 27).
+- **NPCs:** Gramps (20, 21), Lass (19, 29).
 
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
