@@ -174,6 +174,9 @@
 ## National Park
 - **Status:** Entered from South Gate.
 - **Geography:** Large park area connecting Route 35 and 36.
+- **Trainers:**
+  - Pokefan Beverly (Snubbull Lv14) at (17, 29). Defeated.
+  - Pokefan William (Raichu Lv14) at (16, 9). Defeated.
 - **Events:** Bug Catching Contest (Tues/Thurs/Sat).
 - **Warps:** South exit to Gatehouse.
 - **Obstacles:** Two Youngsters blocking the path North at (10, 41) and (11, 41).
