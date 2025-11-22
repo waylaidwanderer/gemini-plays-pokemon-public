@@ -250,3 +250,7 @@
 - **Status:** Exploring 1F. Met Eusine & Morty. Located Rival Silver at (8, 9).
 - **Geography:** Central area is walled off. Must loop around the East side (Column 16) and likely cross via Row 7 to reach Rival.
 - **Goals:** Defeat Rival, Find Suicune.
+### Critical Lessons
+- **Action is Truth:** Never assume a tool is updated unless the `tool_code_updated` message appears. Hallucinating fixes leads to dangerous behavior.
+- **Wild Escapes:** Escape probability increases with each failed attempt. Persisting in RUN is statistically better than fighting trash mobs when conserving resources.
+- **Tile Mechanics:** HOLE tiles are warps/hazards. Avoid unless intentional.
