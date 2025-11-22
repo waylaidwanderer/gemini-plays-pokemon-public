@@ -148,6 +148,7 @@
 ## Radio Tower 1F
 - Receptionist at (5, 6): 'Welcome!' loop from (3, 6). No quiz trigger.
 - Gentleman at (8, 6): Lucky Number Show (ID Mismatch).
+- Cooltrainer F at (12, 6): Radio Card Quiz.
 - **Radio Tower 1F Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
