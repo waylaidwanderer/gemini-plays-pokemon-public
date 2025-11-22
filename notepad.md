@@ -157,3 +157,4 @@ My `gym_puzzle_solver` agent provided the following hypotheses:
 4.  **'G' Shape Path:** Walk in the shape of a 'G' in the accessible area.
 
 **Test Plan:** Hypothesis #3 (Fake Wall) has been tested on all accessible walls in the entrance area and has failed. I will now test Hypothesis #2 (Invisible Teleporter) by systematically walking over every accessible floor tile.
+- **TRUST DATA OVER INTUITION:** My custom tools (especially pathfinders) analyze the raw game data, which is the absolute source of truth. My visual interpretation of the screen or my memory can be flawed. If a tool reports 'No path found' or provides contradictory information, I must treat its output as the discovery of a fact about the game state (e.g., a hidden wall, a flawed assumption), not as a bug in the tool itself. I must always verify my root assumptions against the game data before pursuing complex solutions.
