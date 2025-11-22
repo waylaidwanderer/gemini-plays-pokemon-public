@@ -63,10 +63,7 @@
 
 ## Day Care Center
 - Entered main building. Gramps (Day Care Man) and Granny are inside.
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WARP_CARPET_LEFT: Exits to Route 34 (West).
-  - WARP_CARPET_DOWN: Exits to Route 34 (Front).
+- **Exits:** Side (Left) to Yard, Front (Down) to Route 34.
 - **Day Care Mechanics:** The side exit (WARP_CARPET_RIGHT) leads to the Day Care Yard/West Route 34.
 - **Fake Tree at (8, 24):** The tree-like object at (8, 24) in the Day Care Yard is NOT cuttable. It is a solid wall.
 - Caught Cirrus (Pidgey) Lv12 on Route 34.
