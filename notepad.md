@@ -40,7 +40,6 @@
 - **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
 - **Status:** Training on Route 32.
 - **Sub-task:** Investigate unmarked warp at (33, 9) in Goldenrod City after dealing with Whitney.
-- **IMMEDIATE TASK:** After this battle, fix the map marker for Youngster Gordon on Route 32. Delete the old marker at (2, 63) and create a new one at his correct location (4, 63), linked to his object_id.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
