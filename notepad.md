@@ -6,17 +6,12 @@
 - [ ] Teach Fly to Cirrus (Primary)
 - [ ] Deliver SecretPotion to Jasmine (Secondary)
 
-## Status Update
-- **Location:** Cianwood Pokecenter.
-- **Task:** Access PC at (9,1) to deposit P and withdraw Cirrus.
-- **Inventory:** HM02 Fly obtained.
-
-## Status & Quests
-- **Location:** Cianwood Pokecenter.
-- **Objective:** Teach Fly to Cirrus.
-- **Current Task:** Deposit P, Withdraw Cirrus.
-- **Inventory:** HM02 Fly obtained.
-- **Gym Intel:** Chuck Defeated.
+## Status
+- **Location:** Cianwood Pokecenter (4,3).
+- **Objective:** Teach HM02 Fly to Cirrus.
+- **Team Status:** Fully Healed. Cirrus is in party.
+- **Inventory:** HM02 Fly obtained. SecretPotion obtained.
+- **Gym Intel:** Chuck Defeated. Storm Badge obtained.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank (Needs berries).
