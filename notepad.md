@@ -192,3 +192,6 @@
 
 # Party Development
 - Chrono (Hoothoot) grew to Lv11 and learned PECK. This is a reliable Flying-type attacking move.
+
+# Menu Input Separation
+- To avoid input errors, especially in multi-step menu actions like switching Pokémon, I must separate directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') into different turns. Move the cursor in one turn, then press 'A' to confirm in the next.
