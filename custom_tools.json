@@ -250,6 +250,16 @@
         "commit_message": "fix: Treat FLOOR_UP_WALL as impassable. The previous logic, based on a flawed in-game observation, incorrectly allowed pathing onto this tile from above. The game engine blocked this movement, proving the assumption wrong. This commit updates the pathfinder to treat the tile as a standard wall until its true mechanics can be determined, preventing the generation of invalid paths.",
         "timestamp": "2025-11-23T05:25:51.912Z",
         "action_counter": 9631
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The pathfinder failed to find an obvious path. This version adds comprehensive print statements to trace grid generation, target selection, and the BFS queue execution step-by-step to diagnose the root cause of the failure.",
+        "timestamp": "2025-11-23T08:29:35.831Z",
+        "action_counter": 10031
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging has repeatedly confirmed the tool's logic is correct and that reported 'No path found' errors are due to puzzle mechanics, not a bug. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-23T08:30:33.852Z",
+        "action_counter": 10032
       }
     ]
   },

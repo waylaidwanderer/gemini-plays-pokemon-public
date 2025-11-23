@@ -173,3 +173,6 @@
 
 # General Object Interaction
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
+
+# Strategic Principles & Lessons Learned (Addendum)
+- **Efficient Traversal:** When the primary goal is to traverse an area with frequent wild encounters (like a cave), using a Repel is more time and resource-efficient than fighting or running from every battle.
