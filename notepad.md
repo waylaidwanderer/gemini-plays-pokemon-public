@@ -96,13 +96,6 @@
 - **Fake Tree at (8, 24):** The tree-like object at (8, 24) in the Day Care Yard is NOT cuttable. It is a solid wall.
 - Caught Cirrus (Pidgey) Lv12 on Route 34.
 
-## Goldenrod Dept Store
-- **Status:** Visited.
-- **Geography:** Entrance at South. Stairs/Elevator likely at North.
-- **NPCs:** Receptionist (1F), Pokefan F, Bug Catcher, Gentleman.
-- **Tile Mechanics:**
-  - WARP_CARPET_DOWN: Exit to city.
-
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
 
