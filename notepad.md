@@ -8,10 +8,10 @@
 ## Status & Quests
 - **Location:** Cianwood Gym.
 - **Objective:** Earn Storm Badge (Chuck).
-- **Current Task:** Challenge Gym Leader Chuck. Boulder puzzle solved.
+- **Current Task:** Challenge Gym Leader Chuck. Blackbelt Lung defeated.
 - **Inventory:** SecretPotion, HM04 Strength (Basalt).
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic. Boulders require Strength.
-- **Defeated:** Yoshi, Lao, Nob.
+- **Defeated:** Yoshi, Lao, Nob, Lung.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank (Needs berries).
