@@ -369,23 +369,6 @@
       }
     ]
   },
-  "switch_train_lead": {
-    "description": "Automates the button presses to switch the lead Pokémon with the second Pokémon in the party during a battle. This is for switch-training.",
-    "input_schema": {},
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"A\", \"Down\", \"A\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "feat: Create switch_train_lead tool. This tool automates the standard switch-training sequence (open PKMN menu, select second Pokemon, confirm switch) to improve efficiency and reduce manual input errors during grinding sessions.",
-        "timestamp": "2025-11-23T13:07:21.276Z",
-        "action_counter": 10596
-      },
-      {
-        "commit_message": "fix: Correct button sequence for switch-training. The previous version used 'Down' which selected PACK instead of 'Right' for PKMN. This version provides the correct sequence to navigate the 2x2 battle menu, open the party, select the second Pokemon, and confirm the switch.",
-        "timestamp": "2025-11-23T13:17:15.334Z",
-        "action_counter": 10619
-      }
-    ]
-  },
   "select_move": {
     "description": "Selects a move from the battle menu by name. Assumes the cursor starts at the top move and the menu is a vertical list.",
     "input_schema": {
@@ -414,6 +397,32 @@
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
         "timestamp": "2025-11-23T22:36:51.010Z",
         "action_counter": 11641
+      }
+    ]
+  },
+  "switch_pokemon": {
+    "description": "Automates switching to a specific Pokémon in the party during a battle. Takes the target Pokémon's name and a JSON string of the current party list.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_pokemon_name": {
+          "type": "string"
+        },
+        "party_list_json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_pokemon_name",
+        "party_list_json"
+      ]
+    },
+    "python_script": "import json\n\ntarget_name = input_data['target_pokemon_name']\nparty_list_json = input_data['party_list_json']\n\nparty = json.loads(party_list_json)\n\nparty_names = [p['name'] for p in party]\n\nif target_name not in party_names:\n    print(f'Error: {target_name} not found in party.')\nelif party_names.index(target_name) == 0:\n    print('Error: Cannot switch to the active Pokémon.')\nelse:\n    target_index = party_names.index(target_name)\n    down_presses = ['Down'] * target_index\n    button_sequence = down_presses + ['A', 'A']\n    print(json.dumps(button_sequence))",
+    "history": [
+      {
+        "commit_message": "feat: Create switch_pokemon tool for general battle switching. This tool takes a target Pokémon's name and the party list to automate switching to any party member. This directly addresses a system critique about inefficient manual switching and replaces the now-deleted, overly specific `switch_train_lead` tool.",
+        "timestamp": "2025-11-23T22:52:56.059Z",
+        "action_counter": 11672
       }
     ]
   }

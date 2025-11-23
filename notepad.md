@@ -208,4 +208,3 @@
 # Lessons from Reflection (Turn 11532)
 - **Positional & Data Verification:** I must ALWAYS verify my current `(x, y)` coordinates AND map ID in the Game State Information after ANY interruption (battle, phone call, map transition, menu, etc.) before planning my next move. My memory of map layouts or my location can be flawed; the game state is the absolute source of truth. Assuming a transition has occurred or a path has completed without verification is a critical failure.
 - **Discipline in Automation:** I must be more disciplined in using my own automation tools (`switch_train_lead`, `select_battle_option`) instead of performing actions manually. Failing to use existing automation is inefficient and error-prone.
-- **Random Chance Strategy:** If a strategy based on random chance (like Metronome) fails repeatedly (3+ times), I must switch to a deterministic strategy (like using a reliable attacking move from another Pokémon).
