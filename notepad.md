@@ -12,10 +12,10 @@
 - **Inventory:** HM02 Fly obtained.
 
 ## Status & Quests
-- **Location:** Cianwood City.
-- **Objective:** Get HM02 Fly from Chuck's wife outside.
-- **Current Task:** Talk to Pokefan F (Chuck's wife) at (9, 46).
-- **Inventory:** Storm Badge, TM01, SecretPotion, HM04 Strength.
+- **Location:** Cianwood Pokecenter.
+- **Objective:** Teach Fly to Cirrus.
+- **Current Task:** Deposit P, Withdraw Cirrus.
+- **Inventory:** HM02 Fly obtained.
 - **Gym Intel:** Chuck Defeated.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
