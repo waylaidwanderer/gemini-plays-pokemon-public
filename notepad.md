@@ -2,14 +2,14 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [ ] Heal at Pokémon Center (Secondary)
+- [ ] Investigate Olivine Cafe for HM Strength (Secondary)
 - [ ] Find the Lighthouse (Tertiary)
 
 ## Recent Events
-- Arrived in Olivine City.
-- Explored Route 39 & Moomoo Farm.
+- Healed at Pokémon Center.
+- **Hint:** Fisher mentioned a "Generous Sailor" in the Cafe next door who teaches Strength.
+- Rival Silver Encounter: Learned Jasmine is at the Lighthouse.
 - Miltank Quest: Paused (Need Berries).
-- Defeated Trainers on Rt 38 & 39.
 
 ## Lessons Learned
 - **Spinner NPCs:** Use `stun_npc` to lock their vision cone in a safe direction before passing.
