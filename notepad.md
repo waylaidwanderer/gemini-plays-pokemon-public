@@ -298,6 +298,12 @@
   - **Sailor:** Guarding path at (8, 2). Sneak around left side.
   - **Ladder to 2F:** Located at (3, 11).
   - **Landing Spots:** (16, 13) & (17, 13) appear to be drop points from above.
-- **2F:** Arrived at (3, 11). Exploring.
-- Defeated Gentleman Alfred (Lv20 Noctowl) on 2F.
-- Defeated Sailor Huey on 2F (Poliwag, Poliwhirl). Won 720 Yen.
+- **2F:**
+  - Defeated Gentleman Alfred (Lv20 Noctowl) at (17, 8).
+  - Defeated Sailor Huey (Poliwag, Poliwhirl) at (9, 3).
+  - Ladder Up at (5, 3) leads to 3F Left Side.
+- **3F (Left Side):**
+  - Accessed via 2F (5, 3). Isolated area.
+  - Defeated Bird Keeper Theo (Pidgey x3) at (3, 7).
+  - Visible Item Ball at (8, 2) is unreachable from here.
+  - Plan: Check south end, then return to 2F to find path to 3F Right Side.
