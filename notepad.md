@@ -6,7 +6,7 @@
 - [x] Retrieve SecretPotion from Cianwood
 
 ## Status & Quests
-- **Location:** Cianwood Pharmacy.
+- **Location:** Mania's House (Cianwood).
 - **Objective:** Earn Mineral Badge.
 - **Current Task:** Explore Mania's House, Teach Strength, Find & Challenge Gym.
 - **Inventory:** SecretPotion (Acquired).
