@@ -294,7 +294,7 @@
   - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
 ## Olivine Lighthouse
 - **Goal:** Reach Jasmine (Top Floor).
-- **Status:** Reached 6F via 5F South Ladder. Seeking Jasmine.
+- **Status:** Found Jasmine on 6F. Discussing sick Ampharos.
 - **Proven Path to Top:**
   1. Go to 5F (West Ladder).
   2. Drop into Pit at (16, 7). Lands on 4F East Balcony.
