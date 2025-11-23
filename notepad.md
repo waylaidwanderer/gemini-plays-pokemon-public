@@ -158,7 +158,7 @@
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
 - **CAVE**: A traversable warp tile leading into a cave.
-- **CAVE_WALL**: Impassable terrain, functions like a WALL.
+
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: Confirmed impassable. Multiple attempts to move onto this tile from above have failed, proving it functions as a WALL. My pathfinding tools have been updated to reflect this.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
@@ -177,5 +177,5 @@
 
 # Strategic Principles & Lessons Learned (New)
 - **Positional & Data Verification:** I must ALWAYS verify my current `(x, y)` coordinates AND map ID in the Game State Information after ANY interruption (battle, phone call, map transition, menu, etc.) before planning my next move. My memory of map layouts or my location can be flawed; the game state is the absolute source of truth. Assuming a transition has occurred or a path has completed without verification is a critical failure.
-- **CAVE_WALL**: Impassable terrain, functions like a WALL.
+
 - **Resilience & Stat-lowering moves:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker. Furthermore, repeated use of stat-lowering moves (like TAIL WHIP) can quickly turn an easy battle into a risky situation by neutralizing a level advantage.
