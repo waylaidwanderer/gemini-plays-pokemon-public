@@ -8,9 +8,9 @@
 ## Status & Quests
 - **Location:** Cianwood City (Lugia Speech House).
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Teach Strength to Basalt, Find & Challenge Gym.
+- **Current Task:** Explore Lugia Speech House, Find Gym.
 - **Inventory:** SecretPotion (Acquired).
-- **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires Strength.
+- **Gym Intel:** Leader Chuck (Fighting vs Psychic). Basalt has Strength.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank at Moomoo Farm (Needs more berries).
