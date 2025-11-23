@@ -41,7 +41,7 @@
 - **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
 - **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
 - **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
-- **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
+- **PC / SIGNS / HOUSE_OBJECTS:** Impassable. Includes Bookshelves, TVs, Radios, Windows, etc. Interact from adjacent tile.
 - **FAKE_HOLE:** Tiles appearing as holes/warps in Burned Tower B1F (e.g. 10,8) are traversable floors. Verify with Game State Warps list.
 - **WATER:** Traversable using Surf. Contains wild Pokémon and Swimmers.
 - **WHIRLPOOL:** Impassable obstacle. Requires HM Whirlpool to cross (Hypothesis).
