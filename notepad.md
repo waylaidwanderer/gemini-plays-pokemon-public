@@ -304,3 +304,6 @@
   - Sign at (17, 11): 'The Port Closest to Foreign Lands'.
   - Building at (25, 11).
 - **NPCs:** Youngster at (20, 13).
+- **Events:**
+  - Met Rival Silver in Olivine City. He mentioned the Gym Leader is at the Lighthouse caring for a sick Pokémon.
+- **Quest Update:** Find Jasmine at the Lighthouse.
