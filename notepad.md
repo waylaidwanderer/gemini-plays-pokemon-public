@@ -95,17 +95,7 @@
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
 
-# Available Tools & Agents
-**Built-in Tools:**
-- `notepad_edit`: Edits this notepad.
-- `run_code`: Executes a single-use Python script.
-- `define_agent` / `delete_agent`: Manages custom reasoning agents.
-- `define_map_marker` / `delete_map_marker`: Manages map markers.
-- `define_tool` / `delete_tool`: Manages custom tools.
-- `stun_npc`: Freezes or unfreezes an NPC's movement.
-- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-
-**Custom Agents & Tools (Defined by me):**
+# Custom Tools & Agents
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
 - `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
