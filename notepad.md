@@ -319,3 +319,4 @@
   - **Sailor:** Guarding path at (8, 2). Sneak around left side.
   - **Ladder to 2F:** Located at (3, 11).
   - **Landing Spots:** (16, 13) & (17, 13) appear to be drop points from above.
+- **2F:** Arrived at (3, 11). Exploring.
