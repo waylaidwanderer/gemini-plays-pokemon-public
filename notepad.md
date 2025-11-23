@@ -158,7 +158,7 @@
 - **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
 - **CAVE**: A traversable warp tile leading into a cave.
 - **LADDER**: A traversable warp tile that moves the player between floors.
-- **FLOOR_UP_WALL**: A one-way ledge that is impassable from above. Confirmed that moving from a FLOOR tile at (5, 23) down to a FLOOR_UP_WALL tile at (5, 24) is impossible. This tile can only be traversed from below (moving up).
+- **FLOOR_UP_WALL**: A one-way ledge with a misleading name. It can only be traversed by moving DOWN onto it from an adjacent tile above. It is impossible to move up, left, or right from this tile. This was verified in Union Cave B1F at (7, 18).
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
