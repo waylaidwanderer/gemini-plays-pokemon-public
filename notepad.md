@@ -320,3 +320,4 @@
   - **Ladder to 2F:** Located at (3, 11).
   - **Landing Spots:** (16, 13) & (17, 13) appear to be drop points from above.
 - **2F:** Arrived at (3, 11). Exploring.
+- Defeated Gentleman Alfred (Lv20 Noctowl) on 2F.
