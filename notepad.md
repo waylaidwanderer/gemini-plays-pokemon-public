@@ -1,9 +1,10 @@
 # Current Objectives
-- **Primary:** Obtain Plain Badge from Whitney.
-- **Secondary:** Heal Team at Pokemon Center.
+- **Primary:** Heal Team at Pokemon Center.
+- **Secondary:** Obtain SquirtBottle from Flower Shop.
+- **Tertiary:** Head North to Ecruteak City.
 
 # Team Status
-- **Kimchi (Quilava):** Lv25 - Main attacker.
+- **Kimchi (Quilava):** Lv25 - Badge Winner!
 - **Rocky (Onix):** Lv8 - Fainted.
 - **Scout (Sentret):** Lv2 - Cut user.
 - **Eggs:** Togepi & Igglybuff.
@@ -11,13 +12,13 @@
 # Location Notes
 ## Goldenrod City
 - **Pokemon Center:** Found at (15, 27).
-- **Game Corner:** Found at (14, 21).
-- **Gym:** Cleared trainers. Whitney defeated.
+- **Flower Shop:** (29, 5). Needs Plain Badge for SquirtBottle (Have Badge!).
+- **Gym:** Cleared. Plain Badge obtained.
 - **Underground Entrance:** North side (9, 5).
-- **Flower Shop:** Spoke to Teacher. Needs SquirtBottle.
-- **PP Speech House:** Explored.
-- **Unknown Building:** (15, 7).
-- **Unknown House:** (9, 13).
+
+# Key Items
+- **Plain Badge:** Allows Strength, boosts Speed.
+- **TM45 (Attract):** Received from Whitney.
 
 # Tile Mechanics
 - **FLOOR:** Standard traversable terrain. No special effects.
@@ -28,7 +29,3 @@
 - **NPC Blocking:** Trainers often block paths after battling. Leaving and re-entering the map resets their position.
 - **Mechanic (NPC Blocking):** Trainers defeated in battle often block the path until the map is reloaded (exit and re-enter).
 - **Mechanic (Battle):** In Gen 2, Fire-type moves (Ember) are Special. Attack-lowering moves like Charm do not reduce their damage.
-## Whitney Strategy
-- **Kimchi:** Smokescreen was effective.
-- **Rocky (Onix):** 4x resists Rollout.
-- **Underground Entrance:** Building at (9, 5). Contains ladder to underground.
