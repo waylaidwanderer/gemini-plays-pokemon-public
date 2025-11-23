@@ -46,6 +46,7 @@
 - **WATER:** Traversable using Surf. Contains wild Pokémon and Swimmers.
 - **WHIRLPOOL:** Impassable obstacle. Requires HM Whirlpool to cross (Hypothesis).
 - **BUOY:** Impassable obstacle. Forms barriers on sea routes. Look for gaps.
+- **ROCK:** Impassable obstacle. Treated as a solid object.
 
 ### Battle Mechanics
 - **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
