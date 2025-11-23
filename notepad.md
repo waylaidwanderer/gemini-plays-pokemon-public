@@ -263,3 +263,4 @@
 - **Status:** Entered from Route 40 (North).
 - **Geography:** Sea route with Whirl Islands.
 - **Goal:** Navigate to Cianwood City.
+- Encountered another 'Fake Silver' at (32, 6). It is a Swimmer.
