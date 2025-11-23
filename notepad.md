@@ -254,5 +254,5 @@
 - **Trainers:**
   - Swimmer Elaine (Staryu Lv21) at (5, 19). Defeated.
   - Swimmer Paula (Staryu Lv19, Shellder Lv19) at (10, 25). Defeated.
-  - Swimmer Randall (Shellder Lv18, Wartortle Lv20). Battling.
+  - Swimmer Randall (Shellder Lv18, Wartortle Lv20). Defeated.
 - Received call from Joey about his Rattata.
