@@ -259,3 +259,4 @@
 - **Gym Guide:** Warns of bullies.
 - **Pharmacy:** Acquired SecretPotion.
 - **Navigation Protocol:** Always step 1 tile away from warps before pathfinding.
+- **Cianwood Photo Studio:** Located at (9, 31). Not the Gym.
