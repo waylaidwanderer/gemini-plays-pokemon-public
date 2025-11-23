@@ -2,18 +2,18 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [x] Teach Strength to Basalt
 - [x] Retrieve SecretPotion from Cianwood
+- [ ] Find Cianwood Gym (North?)
 
 ## Status & Quests
-- **Location:** Cianwood City.
+- **Location:** Cianwood City (11, 28).
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Find Gym (Heading North).
-- **Inventory:** SecretPotion (Acquired).
-- **Gym Intel:** Leader Chuck (Fighting vs Psychic). Basalt has Strength.
+- **Current Task:** Navigate North past Rocks.
+- **Inventory:** SecretPotion.
+- **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
-  - Cure Miltank at Moomoo Farm (Needs more berries).
+  - Cure Miltank (Needs berries).
 
 ## Completed Areas Summary
 - **Ecruteak City:** Gym Cleared (Fog Badge). Kimono Girls defeated (HM03 Surf obtained). Met Bill.
