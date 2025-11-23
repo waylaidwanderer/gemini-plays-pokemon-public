@@ -340,4 +340,4 @@
 - **Lighthouse Strategy:** Trap holes failed. Accessing Central Room via South Corridor (Column 9).
 - Verified 4F Central Block is walled off at (9, 13). No south entrance.
 - Returning to 5F to investigate South Corridor (Row 15) for central access.
-- Lighthouse Solution Found: 5F East Pits -> 4F East Balcony -> Walk West to 4F Pits (8,3)/(9,3) -> Drop to 3F Central -> Climb Central Ladders.
+- Lighthouse Solution Confirmed: 5F East Pits -> 4F East Balcony -> Walk West to 4F Pits (8,3)/(9,3) -> Drop to 3F Central -> Climb Central Ladders (Access to 4F/5F Central Rooms).
