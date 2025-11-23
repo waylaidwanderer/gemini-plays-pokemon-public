@@ -6,7 +6,7 @@
 - [x] Retrieve SecretPotion from Cianwood
 
 ## Status & Quests
-- **Location:** Cianwood City.
+- **Location:** Cianwood City (Lugia Speech House).
 - **Objective:** Earn Mineral Badge.
 - **Current Task:** Teach Strength to Basalt, Find & Challenge Gym.
 - **Inventory:** SecretPotion (Acquired).
