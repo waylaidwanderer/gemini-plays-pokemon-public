@@ -293,8 +293,8 @@
   - **Good Rod:** Obtained from the Fishing Guru in the house north of the Pokémon Center.
   - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
 ## Olivine Lighthouse
-- **Goal:** Reach Jasmine (Top Floor).
-- **Status:** Found Jasmine on 6F. Discussing sick Ampharos.
+- **Goal:** Retrieve SecretPotion from Cianwood.
+- **Status:** Descending via East Pits.
 - **Proven Path to Top:**
   1. Go to 5F (West Ladder).
   2. Drop into Pit at (16, 7). Lands on 4F East Balcony.
