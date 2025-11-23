@@ -312,3 +312,4 @@
   - Defeated Gentleman Preston.
   - Found Ladder at (13,3).
 - Reached Olivine Lighthouse 5F via ladder at (3, 5).
+- Obtained TM34 (Swagger) at Lighthouse 5F (2, 13).
