@@ -6,7 +6,7 @@
 - [ ] Check Battle Tower & Surf to Cianwood (Immediate)
 
 ## Status & Quests
-- **Location:** Battle Tower Lobby.
+- **Location:** Route 41 (Surfing).
 - **Objective:** Travel to Cianwood City via Surf to get medicine for Jasmine's Ampharos.
 - **Current Task:** Traveling to Cianwood City.
 - **Backlog:**
