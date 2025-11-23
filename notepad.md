@@ -153,10 +153,6 @@
   - LADDER: To 2F.
 - **Battle Cursor Memory:** The move cursor remembers the last used move. In Turn 3406, a manual move selection failed (selected Tackle) because the cursor was *already* on Rock Throw, causing the inputs to wrap to Tackle. Always check Screen Text for `▶` before navigating.
 
-## Goldenrod Flower Shop
-- **Status:** Entered. Goal: Get SquirtBottle.
-- **NPCs:** Teacher at (2, 4).
-- **Quest Update:** Teacher's sister is at the wiggly tree on Route 36. Must find her to get SquirtBottle.
 ## Route 35
 - **Status:** Arrived from Goldenrod Gatehouse.
 - **Geography:** Path North to Route 36.
