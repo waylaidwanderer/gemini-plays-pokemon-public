@@ -293,49 +293,22 @@
   - **Good Rod:** Obtained from the Fishing Guru in the house north of the Pokémon Center.
   - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
 ## Olivine Lighthouse
-- **1F:**
-  - **Sailor:** Guarding path at (8, 2). Sneak around left side.
-  - **Ladder to 2F:** Located at (3, 11).
-  - **Landing Spots:** (16, 13) & (17, 13) appear to be drop points from above.
-  - **Lore:** Pokefan F (16, 10) says Pokémon used to light the sea; Lighthouse honors them.
-- **2F:**
-  - Defeated Gentleman Alfred (Lv20 Noctowl) at (17, 8).
-  - Defeated Sailor Huey (Poliwag, Poliwhirl) at (9, 3).
-  - Ladder Up at (5, 3) leads to 3F Left Side.
-- **3F (Left Side):**
-  - Accessed via 2F (5, 3). Isolated area.
-  - Defeated Bird Keeper Theo (Pidgey x3) at (3, 7).
-  - Visible Item Ball at (8, 2) is unreachable from here.
-  - Plan: Check south end, then return to 2F to find path to 3F Right Side.
-- **3F (Right Side):**
-  - Accessed via south connection.
-  - Defeated Gentleman Preston.
-  - Found Ladder at (13,3).
-- Reached Olivine Lighthouse 5F via ladder at (3, 5).
-- Obtained TM34 (Swagger) at Lighthouse 5F (2, 13).
-### Lighthouse Structure Analysis
-- **Isolation:** The central shaft (Columns 8-11) is isolated on floors 3F, 4F, and 5F.
-- **Failed Hypothesis:** The pits in the East Section of 5F (16,7 and 16,5) drop to the isolated East Section of 4F. They DO NOT lead to the central shaft.
-- **New Hypothesis:** The pits in the Top Corridor of 5F (8,3 and 9,3) are positioned directly above the isolated central shaft of 4F. Dropping there should grant access to the ladders at (9,5) and (9,7).
-- **Lesson:** Do not target unseen tiles directly; path to the nearest adjacent traversable tile.
-## Lighthouse Update
-- **Failed:** 5F pits (East & Top) did not lead to center.
-- **Plan:** Descend to 1F to check for central entrance.
-- Correction: 5F Top Corridor (8,3)/(9,3) are solid floors.
-- Plan: Investigate 1F for Central Shaft access.
-- Tested (9, 3) on Lighthouse 5F: Solid floor. Not a hidden pit.
-- Plan: Test (16, 5) and re-test (17, 5) for hidden drops to 4F Central.
-## Lighthouse Navigation Strategy
-- **Failed:** 5F Pits and "Trap Holes" did not lead to 4F Central Room.
-- **Discovery:** 3F has a central ladder at (9, 5) that likely leads UP to the isolated 4F room.
-- **Plan:** Navigate 3F North Corridor to reach (9, 5).
-## Lighthouse Navigation
-- **Goal:** Reach the top (Jasmine).
-- **Proven Path:**
-  1. Ascend to 5F via West Ladder.
-  2. Drop through **East Pit** at (16,7) (Entry 9) -> Lands on 4F East Balcony.
-  3. Walk North on 4F East Balcony to pits at (8,3)/(9,3).
-  4. Drop through 4F North Pits -> Lands in 3F Central Room.
-  5. Climb Central Ladder at 3F (9,5) -> 4F Central (9,5).
-  6. Climb Central Ladder at 4F (9,7) -> 5F Central (9,7).
-- **Current Status:** In 5F Central Corridor. Moving South to explore.
+- **Goal:** Reach Jasmine (Top Floor).
+- **Status:** Exploring 5F South Corridor. Battling Sailor Ernest.
+- **Proven Path to Top:**
+  1. Go to 5F (West Ladder).
+  2. Drop into Pit at (16, 7). Lands on 4F East Balcony.
+  3. Walk North to Pits at (8,3)/(9,3). Drop into them. Lands in 3F Central Room.
+  4. Climb Central Ladder at 3F (9,5) -> 4F Central (9,5).
+  5. Climb Central Ladder at 4F (9,7) -> 5F Central (9,7).
+  6. Walk South past Sailor to find next ladder.
+- **Floor Guide:**
+  - **1F:** Sailor (8,2), Ladder (3,11), Lore: Lighthouse honors Pokémon that lit the sea.
+  - **2F:** Gentleman Alfred, Sailor Huey, Ladder (5,3).
+  - **3F:** Bird Keeper Theo (West), Gentleman Preston (East), Central Ladder (9,5) [KEY].
+  - **4F:** Lass Connie, Sailor Kent, Central Ladder (9,7) [KEY].
+  - **5F:**
+    - West/North: Bird Keeper Denis. Ladder to 4F (3,5).
+    - East: Pits to 4F East.
+    - Central: Arrival from 4F Ladder. Path South to hidden area.
+    - Items: TM34 (Swagger) at (2,13).
