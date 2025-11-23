@@ -10,8 +10,11 @@
 
 # Location Notes
 ## Goldenrod City
-- **PP Speech House:** Explored (Tutorial NPCs).
-- **Flower Shop:** Spoke to Teacher. She mentioned the wiggly tree on Route 36. Likely need Plain Badge to obtain SquirtBottle.
+- **Pokemon Center:** NOT FOUND YET. Priority: High.
+- **Gym:** Cleared trainers. Whitney remains.
+- **Underground Entrance:** North side (9, 5).
+- **Flower Shop:** Spoke to Teacher. Needs SquirtBottle.
+- **PP Speech House:** Explored.
 
 # Tile Mechanics
 - **FLOOR:** Standard traversable terrain. No special effects.
