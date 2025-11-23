@@ -307,3 +307,7 @@
   - Defeated Bird Keeper Theo (Pidgey x3) at (3, 7).
   - Visible Item Ball at (8, 2) is unreachable from here.
   - Plan: Check south end, then return to 2F to find path to 3F Right Side.
+- **3F (Right Side):**
+  - Accessed via south connection.
+  - Defeated Gentleman Preston.
+  - Found Ladder at (13,3).
