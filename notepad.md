@@ -248,3 +248,5 @@
 - **NPCs:** Silver (14, 15) - Passive (Warns about distance).
 - **Geography:** Sea route connecting Olivine to Cianwood.
 - **Objects:** Sign (14, 10), Rocks at (6,9), (7,8), (7,11).
+- Defeated Swimmer Elaine (Staryu Lv21) at (5, 19).
+- Received call from Joey about his Rattata.
