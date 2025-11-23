@@ -222,18 +222,6 @@
 - **Solution:** The central fence maze blocks direct access North. The correct path is to enter the eastern section near (20, 41), then pass through the gap in the fence at (18, 39). This leads to the main northern area.
 - **Items:** Received Quick Claw from Teacher at (27, 40).
 
-## Global Game Mechanics
-### Tile Mechanics
-- **FLOOR:** Walkable. Standard movement.
-- **WALL:** Impassable.
-- **LEDGE_HOP_DOWN:** Walkable only from the tile directly above. Acts as a WALL from all other directions. Automatically jumps the player down one tile.
-- **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
-- **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
-- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
-- **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
-- **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
-- **PC / SIGNS / OBJECTS:** Impassable. Interact from adjacent tile.
-- **FAKE_HOLE:** Tiles appearing as holes/warps in Burned Tower B1F (e.g. 10,8) are traversable floors. Verify with Game State Warps list.
 ## Route 36
 - **Status:** Cleared. Sudowoodo defeated.
 - **Trainers:** Schoolboy Alan, Psychic Mark (Defeated).
