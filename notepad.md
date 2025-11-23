@@ -261,3 +261,5 @@
 - Encountered another 'Fake Silver' at (32, 6). It is a Swimmer.
 - Defeated Swimmer Charlie (Fake Silver) at (32, 6).
 - Defeated Swimmer Susie at (23, 17).
+- Defeated Swimmer Kirk (Fake Silver) at (32, 31).
+- Navigated East to Column 46 to bypass buoys. Heading South.
