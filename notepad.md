@@ -6,9 +6,9 @@
 - [ ] Explore Route 40 & Battle Tower Gate (Immediate)
 
 ## Status & Quests
-- **Location:** Route 40 (Beach).
+- **Location:** Battle Tower Gate.
 - **Objective:** Travel to Cianwood City via Surf to get medicine for Jasmine's Ampharos.
-- **Current Task:** Investigating the building at (9, 5) before surfing.
+- **Current Task:** Exploring Battle Tower Gate.
 - **Backlog:**
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
