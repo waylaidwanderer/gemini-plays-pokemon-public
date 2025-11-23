@@ -7,8 +7,8 @@
 - [ ] Deliver SecretPotion to Jasmine (Secondary)
 
 ## Status Update
-- **Location:** Cianwood City.
-- **Task:** Go to Pokecenter to withdraw Cirrus.
+- **Location:** Cianwood Pokecenter.
+- **Task:** Access PC at (9,1) to deposit P and withdraw Cirrus.
 - **Inventory:** HM02 Fly obtained.
 
 ## Status & Quests
