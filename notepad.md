@@ -195,3 +195,7 @@
 
 # Menu Input Separation
 - To avoid input errors, especially in multi-step menu actions like switching Pokémon, I must separate directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') into different turns. Move the cursor in one turn, then press 'A' to confirm in the next.
+
+# Lessons from Reflection (Turn 11376)
+- **Discipline in Automation:** I must be more disciplined in using my own automation tools (`switch_train_lead`, `select_battle_option`) instead of performing actions manually. Failing to use existing automation is inefficient and error-prone.
+- **Verify Warp Types:** Before setting a navigation goal with `is_warp: true`, I must verify that the destination tile is a `DOOR`, `WARP_CARPET`, `LADDER`, or `CAVE`. Standard map-edge transitions are `FLOOR` tiles and are not warps.
