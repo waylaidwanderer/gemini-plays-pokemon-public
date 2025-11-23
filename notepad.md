@@ -22,3 +22,6 @@
 - **NPC Blocking:** Trainers often block paths after battling. Leaving and re-entering the map resets their position.
 - **Mechanic (NPC Blocking):** Trainers defeated in battle often block the path until the map is reloaded (exit and re-enter).
 - **Mechanic (Battle):** In Gen 2, Fire-type moves (Ember) are Special. Attack-lowering moves like Charm do not reduce their damage.
+## Whitney Strategy
+- **Kimchi:** Use Smokescreen to lower Miltank's accuracy.
+- **Rocky (Onix):** 4x resists Rollout. Switch in to tank and reset Rollout's damage counter. Use Screech if possible.
