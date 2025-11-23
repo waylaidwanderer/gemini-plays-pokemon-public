@@ -258,3 +258,8 @@
 - Received call from Joey about his Rattata.
 - **BUOY:** Impassable obstacle.
 - **Lesson:** Navigation tools must explicitly check player state (e.g., surfing) to correctly identify traversable tiles like WATER.
+
+## Route 41
+- **Status:** Entered from Route 40 (North).
+- **Geography:** Sea route with Whirl Islands.
+- **Goal:** Navigate to Cianwood City.
