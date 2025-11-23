@@ -6,9 +6,13 @@
 - [ ] Explore Route 39 (Tertiary)
 
 ## Recent Events
-- Arrived on Route 39.
+- Arrived on Route 39 and explored Moomoo Farm.
+- Miltank Quest: Needs standard BERRIES (Inventory: 0). Quest Paused.
 - Defeated Beauty Olivia (Rt 38), Pokefan Ruth & Derek (Rt 39).
-- Located Moomoo Farm.
+- Heading South to Olivine City to restock.
+
+## Lessons Learned
+- **Spinner NPCs:** Use `stun_npc` to lock their vision cone in a safe direction before passing.
 
 ## Ecruteak City
 - **Status:** Passing through Route 38 Gatehouse.
