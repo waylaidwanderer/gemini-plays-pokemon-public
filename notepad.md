@@ -169,3 +169,9 @@
 - **Accuracy-lowering moves** like SAND-ATTACK can turn a simple training battle into a high-risk situation. If an opponent repeatedly uses such moves, consider switching to a Pokémon with a move that doesn't check accuracy or running away to avoid wasting resources.
 - **Separate Inputs:** I must be careful to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns, especially in menus, to avoid input errors.
 - **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on, such as adding, deleting, or fixing an agent, tool, marker, or notepad entry, MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred.
+
+# Lessons Learned & New Principles
+- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails, it's better to use a smaller, more unique line of text as the anchor for replacement rather than a large, complex block which is prone to mismatch errors.
+
+# Tile & Object Mechanics
+- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
