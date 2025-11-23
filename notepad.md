@@ -294,7 +294,7 @@
   - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
 ## Olivine Lighthouse
 - **Goal:** Reach Jasmine (Top Floor).
-- **Status:** Exploring 5F South Corridor. Battling Sailor Ernest.
+- **Status:** Explored 5F South Corridor. Defeated Sailor Ernest.
 - **Proven Path to Top:**
   1. Go to 5F (West Ladder).
   2. Drop into Pit at (16, 7). Lands on 4F East Balcony.
