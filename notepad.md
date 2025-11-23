@@ -51,6 +51,9 @@
 - **Efficient Traversal:** When the primary goal is to traverse an area with frequent wild encounters (like a cave), using a Repel is more time and resource-efficient than fighting or running from every battle.
 - **Resilience:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker, turning an expected one-hit KO into a prolonged battle.
 - **Pathfinding Procedure:** The correct way to navigate is to first call the `find_path` tool to get a list of coordinates. Then, in the *next* turn, use the `path` button with the generated `path_plan`. Calling a non-existent tool like `path (tool)` is a hallucination and will fail.
+- Menu Navigation: Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
+- **Inefficient Strategies:** When a strategy proves inefficient or clumsy (like fumbling through menus mid-battle), I must pivot immediately to a more direct solution (like switching to a stronger Pokémon) instead of persisting with the flawed approach. I must actively identify and challenge false constraints that limit my strategic options.
+- **Use Battle Tools:** To ensure accuracy and efficiency, I must consistently use the `select_battle_option` tool to navigate the main battle menu instead of attempting manual button presses.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -180,8 +183,3 @@
 # General Object Interaction
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **LADDER**: A traversable warp tile that moves the player between floors.
-
-# Strategic Principles & Lessons Learned
-- Menu Navigation: Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
-- **Inefficient Strategies:** When a strategy proves inefficient or clumsy (like fumbling through menus mid-battle), I must pivot immediately to a more direct solution (like switching to a stronger Pokémon) instead of persisting with the flawed approach. I must actively identify and challenge false constraints that limit my strategic options.
-- **Use Battle Tools:** To ensure accuracy and efficiency, I must consistently use the `select_battle_option` tool to navigate the main battle menu instead of attempting manual button presses.
