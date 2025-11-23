@@ -3,12 +3,12 @@
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
 - [ ] Retrieve SecretPotion from Cianwood (Secondary)
-- [ ] Explore Route 40 & Battle Tower Gate (Immediate)
+- [ ] Check Battle Tower & Surf to Cianwood (Immediate)
 
 ## Status & Quests
-- **Location:** Battle Tower Gate.
+- **Location:** Battle Tower Exterior.
 - **Objective:** Travel to Cianwood City via Surf to get medicine for Jasmine's Ampharos.
-- **Current Task:** Exploring Battle Tower Gate.
+- **Current Task:** Investigating Battle Tower grounds.
 - **Backlog:**
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
