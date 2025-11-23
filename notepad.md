@@ -191,3 +191,5 @@
 - **Menu Layout Verification:** Before creating a tool to automate menu navigation, I must first manually navigate the menu to confirm its layout (e.g., 2x2 grid vs. vertical list). A flawed assumption about the layout will cause the tool to fail.
 - **Utilize Automation:** If a custom tool exists for a specific, repetitive task (like `switch_train_lead`), I must use it consistently to improve efficiency and reduce errors. Failing to use my own automation is a strategic failure.
 - Hiker ANTHONY called for a rematch on Route 33.
+- **Tool Usage Hygiene:** When calling a custom tool that outputs button presses, I must always remember to set `autopress_buttons: true` to ensure the actions are executed. Forgetting this is a wasted turn.
+- **Default to Automation:** If a custom tool or built-in function exists for a task (e.g., `switch_train_lead`, `select_battle_option`), I must use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
