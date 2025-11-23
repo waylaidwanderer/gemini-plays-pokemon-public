@@ -84,11 +84,14 @@
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
 
 ## Lessons Learned
+- **Spinner NPCs:** Use `stun_npc` to lock their vision cone in a safe direction before passing.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
+- **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID. If a battle starts, the opportunity might be lost if you leave the map.
+- **Missing Data:** Firebreather Walt on Route 35 (likely Object ID 6) was not marked as defeated before leaving the map.
 
 ## Route 34 Gatehouse
 - Connecting Ilex Forest and Route 34.
