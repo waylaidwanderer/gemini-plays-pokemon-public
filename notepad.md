@@ -72,7 +72,7 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
-- Team Strategy: Paprika (Quilava) is the carry and current lead. Basalt (Geodude) has Magnitude.
+- Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
 - Tactics: Use Flame Wheel on Morty's Ghosts.
 - Protocol: Mark NPCs immediately.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
