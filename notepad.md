@@ -8,7 +8,7 @@
 ## Status & Quests
 - **Location:** Cianwood City (Pokemon Center).
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Exit PC and locate Gym (North?).
+- **Current Task:** Challenge Cianwood Gym (Found at 8,43).
 - **Inventory:** SecretPotion.
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic.
 - **Backlog:**
