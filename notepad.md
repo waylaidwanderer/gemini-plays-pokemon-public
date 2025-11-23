@@ -7,7 +7,8 @@
 ## Status & Quests
 - **Location:** Cianwood City.
 - **Objective:** Get SecretPotion and Mineral Badge.
-- **Current Task:** Talk to NPCs in Center, then find Pharmacy and Gym.
+- **Current Task:** Exit Center, find Pharmacy (SecretPotion) and Gym.
+- **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires moving rocks correctly to reach Leader.
 - **Backlog:**
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
