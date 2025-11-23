@@ -6,9 +6,9 @@
 - [ ] Find Cianwood Gym (North?)
 
 ## Status & Quests
-- **Location:** Cianwood City.
+- **Location:** Cianwood City (Pokemon Center).
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Heal at Pokemon Center, then find Gym.
+- **Current Task:** Exit PC and locate Gym (North?).
 - **Inventory:** SecretPotion.
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic.
 - **Backlog:**
