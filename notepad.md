@@ -6,9 +6,9 @@
 - [ ] Find Cianwood Gym (North?)
 
 ## Status & Quests
-- **Location:** Poke Seer's House (Cianwood).
+- **Location:** Cianwood City.
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Find Cianwood Gym (Checked (5, 17): Poke Seer; continuing search).
+- **Current Task:** Heal at Pokemon Center, then find Gym.
 - **Inventory:** SecretPotion.
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic.
 - **Backlog:**
