@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Travel to Olivine City (Primary)
-- [ ] Explore Route 39 (Secondary)
-- [ ] Investigate Moomoo Farm (Tertiary)
+- [ ] Heal Sick Miltank (Primary)
+- [ ] Travel to Olivine City (Secondary)
+- [ ] Explore Route 39 (Tertiary)
 
 ## Recent Events
 - Arrived on Route 39.
