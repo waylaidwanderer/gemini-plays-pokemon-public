@@ -195,5 +195,4 @@
 - **Default to Automation:** If a custom tool or built-in function exists for a task (e.g., `switch_train_lead`, `select_battle_option`), I must use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 
 # Data Hygiene Tasks
-- Rematch Youngster JOEY on Route 30 (as per critique).
 - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE in areas without strong POKéMON.
