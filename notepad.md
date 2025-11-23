@@ -263,3 +263,4 @@
 - Defeated Swimmer Susie at (23, 17).
 - Defeated Swimmer Kirk (Fake Silver) at (32, 31).
 - Navigated East to Column 46 to bypass buoys. Heading South.
+- Blocked by buoys at (48, 50) and (45, 53). Traversing West along Row 52 to find a gap.
