@@ -15,6 +15,8 @@
 - **Underground Entrance:** North side (9, 5).
 - **Flower Shop:** Spoke to Teacher. Needs SquirtBottle.
 - **PP Speech House:** Explored.
+- **Unknown Building:** (15, 7).
+- **Unknown House:** (9, 13).
 
 # Tile Mechanics
 - **FLOOR:** Standard traversable terrain. No special effects.
