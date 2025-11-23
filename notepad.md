@@ -59,6 +59,7 @@
 - **FAKE_HOLE:** Tiles appearing as holes/warps in Burned Tower B1F (e.g. 10,8) are traversable floors. Verify with Game State Warps list.
 - **WATER:** Traversable using Surf. Contains wild Pokémon and Swimmers.
 - **WHIRLPOOL:** Impassable obstacle. Requires HM Whirlpool to cross (Hypothesis).
+- **BUOY:** Impassable obstacle. Forms barriers on sea routes. Look for gaps.
 
 ### Battle Mechanics
 - **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
