@@ -18,5 +18,5 @@
 - **WALL:** Impassable obstacle. Blocks movement.
 - **WARP_CARPET_DOWN:** Traversable. Moving onto this tile triggers a warp to the connected map.
 - **TOWN_MAP / WINDOW:** Acts as a wall.
-- **Gym Layout:** The gym requires a counter-clockwise path (Bottom -> Right -> Top -> Left) to reach the leader due to internal walls.
+- **Gym Layout:** The gym requires a counter-clockwise path (Bottom -> Right -> Top -> Left). The top corridor leads to a downward path on the far left (Column 0-2), guarded by a Beauty.
 - **NPC Blocking:** Trainers often block paths after battling. Leaving and re-entering the map resets their position.
