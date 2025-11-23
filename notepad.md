@@ -8,7 +8,7 @@
 ## Status & Quests
 - **Location:** Mania's House (Cianwood).
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Explore Mania's House, Teach Strength, Find & Challenge Gym.
+- **Current Task:** Teach Strength to Basalt, Find & Challenge Gym.
 - **Inventory:** SecretPotion (Acquired).
 - **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires Strength.
 - **Backlog:**
