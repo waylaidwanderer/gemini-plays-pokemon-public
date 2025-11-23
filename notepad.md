@@ -8,7 +8,7 @@
 ## Recent Events
 - Arrived on Route 39 and explored Moomoo Farm.
 - Miltank Quest: Needs standard BERRIES (Inventory: 0). Quest Paused.
-- Defeated Beauty Olivia (Rt 38), Pokefan Ruth & Derek (Rt 39).
+- Defeated Beauty Olivia (Rt 38), Pokefan Ruth & Derek (Rt 39), Sailor (Rt 39).
 - Heading South to Olivine City to restock.
 
 ## Lessons Learned
