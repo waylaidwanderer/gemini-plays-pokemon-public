@@ -29,3 +29,6 @@
 - **NPC Blocking:** Defeated trainers block paths until map reload.
 - **Mechanic (NPC Blocking):** Trainers defeated in battle often block the path until the map is reloaded (exit and re-enter).
 - **Mechanic (Battle):** In Gen 2, Fire-type moves (Ember) are Special. Attack-lowering moves like Charm do not reduce their damage.
+
+# Rematches
+- **Camper Todd:** Route 34 (South of Goldenrod).
