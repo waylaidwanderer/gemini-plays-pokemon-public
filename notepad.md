@@ -284,14 +284,9 @@
   - Paprika learned Flame Wheel (Lv31).
   - Path Confirmed: (6,7) is a bridge. Row 6 safe tile is (6,6).
 ## Route 38
-- **Status:** Exploring West towards Olivine.
-- **Trainers:**
-  - Sailor Harry (Wooper Lv19) at (24, 5). Defeated.
-  - Lass Dana at (15, 3). Defeated.
-  - Beauty Olivia (5, 8). In Battle. (Corsola Lv19 vs Paprika)
-- Defeated Beauty Olivia (Corsola Lv19) on Route 38. Received ¥1672.
-- Hint: Olivia mentions Moomoo Milk. Farm likely nearby.
-- TASK: Heal Paprika (22/87 HP).
+- **Status:** Cleared.
+- **Trainers:** Sailor Harry, Lass Dana, Beauty Olivia (Defeated).
+- **Lore:** Olivia mentions Moomoo Milk. Farm likely nearby.
 ## Route 39
 - **Status:** Arrived from Route 38 (East).
 - **Geography:** Route connecting Ecruteak/Route 38 to Olivine City.
