@@ -293,3 +293,4 @@
 - Defeated Pokefan Ruth (Pikachu Lv17) at (14, 19).
 - Defeated Pokefan Derek (Pikachu Lv17) at (10, 19).
 - Farmhouse: Pokefan F mentions milk is shipped to Kanto.
+- Quest: Feed Berries to sick Miltank in Barn.
