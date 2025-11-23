@@ -193,3 +193,6 @@
 - Hiker ANTHONY called for a rematch on Route 33.
 - **Tool Usage Hygiene:** When calling a custom tool that outputs button presses, I must always remember to set `autopress_buttons: true` to ensure the actions are executed. Forgetting this is a wasted turn.
 - **Default to Automation:** If a custom tool or built-in function exists for a task (e.g., `switch_train_lead`, `select_battle_option`), I must use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
+
+# Data Hygiene Tasks
+- Delete invalid map marker on Route 30 at (24, 34). Need to find its emoji first.
