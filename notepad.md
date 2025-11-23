@@ -3,13 +3,12 @@
 ## Current Goals
 - [ ] Travel to Olivine City (Primary)
 - [ ] Explore Route 39 (Secondary)
-- [ ] Heal Paprika (Tertiary)
+- [ ] Investigate Moomoo Farm (Tertiary)
 
 ## Recent Events
-- Defeated Leader Morty. Obtained Fog Badge & TM30 (Shadow Ball).
-- Healed at Pokémon Center.
-- Taught Surf to F (Psyduck).
-- Deposited Mystery Egg in Bill's PC.
+- Arrived on Route 39.
+- Defeated Beauty Olivia (Rt 38), Pokefan Ruth & Derek (Rt 39).
+- Located Moomoo Farm.
 
 ## Ecruteak City
 - **Status:** Passing through Route 38 Gatehouse.
