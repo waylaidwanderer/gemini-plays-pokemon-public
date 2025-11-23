@@ -40,7 +40,7 @@
 - **Data Hygiene:** When creating map markers, I must ensure they are linked to the correct object_id and have accurate labels, including the correct trainer type. Failure to do so degrades the quality of my map data and leads to confusion.
 - **Interaction Loops:** If repeated, varied interaction with an NPC (e.g., from different directions, or testing line-of-sight) yields no new result, they are likely non-interactive for progression or have already served their purpose. I must abandon the interaction and explore other options to avoid wasting time in a loop.
 - **Follow Documented Strategy:** My documented strategies and principles in the notepad are useless if I don't follow them. I must review relevant notes before making major decisions, especially for gym battles. A single high-level Pokémon cannot carry an under-leveled team, and attempting to do so after documenting this principle is a critical strategic failure.
-- **Training Strategy:** The wild POKéMON on Route 35 (around Lv12-14) are currently too strong for my low-level party members. Attempting to grind here is inefficient and leads to frequent trips to the POKéMON Center. A better strategy is to train on an earlier route with weaker wild POKéMON, such as Route 32.
+- **Training Strategy:** The wild POKéMON on Route 35 (around Lv12-14) are too strong for low-level grinding. Route 32 is a decent option, but the tall grass on Route 30 (with Lv3-4 POKéMON) is the most effective spot I've found for training my weakest party members.
 - **Pathfinding must account for all known obstacles, both on-screen (from map data) and off-screen (from map markers).**
 - **Cautious Training:** Even with a type advantage, a low-level Pokémon is still vulnerable. Be prepared to switch out or use healing items if they take significant damage, rather than risking a faint for a small amount of EXP.
 - **Accuracy-lowering moves** like SAND-ATTACK can turn a simple training battle into a high-risk situation. If an opponent repeatedly uses such moves, consider switching to a Pokémon with a move that doesn't check accuracy or running away to avoid wasting resources.
@@ -51,7 +51,7 @@
 - **Efficient Traversal:** When the primary goal is to traverse an area with frequent wild encounters (like a cave), using a Repel is more time and resource-efficient than fighting or running from every battle.
 - **Resilience:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker, turning an expected one-hit KO into a prolonged battle.
 - **Pathfinding Procedure:** The correct way to navigate is to first call the `find_path` tool to get a list of coordinates. Then, in the *next* turn, use the `path` button with the generated `path_plan`. Calling a non-existent tool like `path (tool)` is a hallucination and will fail.
-- Menu Navigation: Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
+- **Menu Navigation:** Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
 - **Inefficient Strategies:** When a strategy proves inefficient or clumsy (like fumbling through menus mid-battle), I must pivot immediately to a more direct solution (like switching to a stronger Pokémon) instead of persisting with the flawed approach. I must actively identify and challenge false constraints that limit my strategic options.
 - **Use Battle Tools:** To ensure accuracy and efficiency, I must consistently use the `select_battle_option` tool to navigate the main battle menu instead of attempting manual button presses.
 
@@ -103,7 +103,7 @@
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
-- `select_battle_option`: Automatically selects a main battle menu option. Must be called with the `option_to_select` argument (e.g., `option_to_select: "FIGHT"`). Options are FIGHT, PKMN, PACK, RUN.
+- `select_battle_option`: Automatically selects a main battle menu option. Must be called with the `option_to_select` argument (e.g., `option_to_select: FIGHT`). Options are FIGHT, PKMN, PACK, RUN.
 
 **Custom Agents & Tools (Defined by me):**
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
