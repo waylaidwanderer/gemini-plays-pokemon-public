@@ -317,3 +317,6 @@
 - **Failed Hypothesis:** The pits in the East Section of 5F (16,7 and 16,5) drop to the isolated East Section of 4F. They DO NOT lead to the central shaft.
 - **New Hypothesis:** The pits in the Top Corridor of 5F (8,3 and 9,3) are positioned directly above the isolated central shaft of 4F. Dropping there should grant access to the ladders at (9,5) and (9,7).
 - **Lesson:** Do not target unseen tiles directly; path to the nearest adjacent traversable tile.
+## Lighthouse Update
+- **Failed:** 5F pits (East & Top) did not lead to center.
+- **Plan:** Descend to 1F to check for central entrance.
