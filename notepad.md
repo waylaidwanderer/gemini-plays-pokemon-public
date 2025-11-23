@@ -8,7 +8,7 @@
 ## Status & Quests
 - **Location:** Cianwood Pharmacy.
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Explore Pharmacy, Teach Strength, Challenge Gym.
+- **Current Task:** Explore Mania's House, Teach Strength, Find & Challenge Gym.
 - **Inventory:** SecretPotion (Acquired).
 - **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires Strength.
 - **Backlog:**
