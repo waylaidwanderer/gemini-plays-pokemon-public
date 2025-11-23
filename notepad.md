@@ -3,7 +3,7 @@
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
 - [ ] Retrieve SecretPotion from Cianwood (Secondary)
-- [ ] Check Battle Tower & Surf to Cianwood (Immediate)
+- [ ] Surf to Cianwood (Immediate)
 
 ## Status & Quests
 - **Location:** Route 41 (Surfing).
