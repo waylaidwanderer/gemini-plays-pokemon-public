@@ -169,3 +169,6 @@
 - **Cautious Training:** Even with a type advantage, a low-level Pokémon is still vulnerable. Be prepared to switch out or use healing items if they take significant damage, rather than risking a faint for a small amount of EXP.
 - **Accuracy-lowering moves** like SAND-ATTACK can turn a simple training battle into a high-risk situation. If an opponent repeatedly uses such moves, consider switching to a Pokémon with a move that doesn't check accuracy or running away to avoid wasting resources.
 - **Menu Navigation:** When navigating menus, especially the party screen, it is crucial to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns. Mixing them can lead to unintended actions. Using automated tools like `select_battle_option` can prevent these errors.
+
+# Lessons Learned & New Principles
+- **Separate Inputs:** I must be careful to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns, especially in menus, to avoid input errors.
