@@ -263,3 +263,4 @@
 - **Navigation Protocol:** Always step 1 tile away from warps before pathfinding.
 - **Cianwood Photo Studio:** Located at (9, 31). Not the Gym.
 - **Cianwood Event:** Encountered Suicune at (10, 14), but it fled. Eusine appeared and challenged me to a battle to earn Suicune's respect.
+- Defeated Eusine. Paprika HP Critical (24/117).
