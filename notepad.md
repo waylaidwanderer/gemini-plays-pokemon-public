@@ -2,12 +2,12 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [ ] Climb the Lighthouse (Secondary)
+- [ ] Retrieve SecretPotion (Secondary)
 
 ## Recent Events
-- **Current Location:** Olivine Lighthouse 5F (Descending).
-- **Jasmine:** Met on 6F. Accepted quest to get medicine from Cianwood Pharmacy. Heading there now.
-- **Lighthouse:** Cleared trainers. Picked up Super Repel.
+- **Current Location:** Olivine Lighthouse 2F (Descending).
+- **Quest:** Retrieve SecretPotion from Cianwood Pharmacy for Jasmine.
+- **Lighthouse:** Found Jasmine on 6F. Dropping through holes to descend.
 - **Backlog:**
   - **Miltank:** Needs berries.
 
@@ -77,8 +77,6 @@
 - Team Strategy: Paprika (Quilava) is the carry and current lead. Basalt (Geodude) has Magnitude.
 - Tactics: Use Flame Wheel on Morty's Ghosts.
 - Protocol: Mark NPCs immediately.
-- Agents: `battle_strategist` (Keep for Jasmine/Gym Leaders).
-
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
@@ -313,7 +311,3 @@
     - Central: Arrival from 4F Ladder. Path South to hidden area.
     - Items: TM34 (Swagger) at (2,13).
 - Found Super Repel at (6, 15) on Lighthouse 5F.
-- **Status:** Investigating 3F Central Room. Sailor (9, 2) and Item (8, 2) present.
-- **Quest:** Gina called (Turn 5627). Interrupting Lighthouse exploration.
-- **Item Acquired:** Ether at 3F (8, 2).
-- **Navigation:** 3F Central Room is a dead end (landing zone). Must ascend to 5F to find the West descent route.
