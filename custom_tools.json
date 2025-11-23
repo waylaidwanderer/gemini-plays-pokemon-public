@@ -41,28 +41,5 @@
         "action_counter": 103
       }
     ]
-  },
-  "select_move": {
-    "description": "Selects a move from the battle menu by its 0-based index (0=Top, 1=Second, etc.). Assumes the cursor is currently at the top position. Returns a list of button presses to navigate and select the move.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_index": {
-          "type": "string",
-          "description": "The 0-based index of the move to select (0-3)."
-        }
-      },
-      "required": [
-        "move_index"
-      ]
-    },
-    "python_script": "import json\ntry:\n    idx = int(input_data['move_index'])\n    buttons = [\"Down\"] * idx\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(f\"Error: {e}\")",
-    "history": [
-      {
-        "commit_message": "feat: Add select_move tool for efficient battle menu navigation.",
-        "timestamp": "2025-11-23T04:50:56.170Z",
-        "action_counter": 101
-      }
-    ]
   }
 }
