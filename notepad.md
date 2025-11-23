@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [ ] Investigate Olivine Cafe for HM Strength (Secondary)
+- [x] Obtained HM04 (Strength). Next: Find Lighthouse.
 - [ ] Find the Lighthouse (Tertiary)
 
 ## Recent Events
