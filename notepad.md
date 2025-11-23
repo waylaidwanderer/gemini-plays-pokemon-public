@@ -325,16 +325,14 @@
 - Plan: Investigate 1F for Central Shaft access.
 - Tested (9, 3) on Lighthouse 5F: Solid floor. Not a hidden pit.
 - Plan: Test (16, 5) and re-test (17, 5) for hidden drops to 4F Central.
-## Lighthouse Puzzle Hypothesis
-- **Hypothesis:** 5F Trap Holes align with 4F Warps by index.
-  - 5F (16, 5) [Entry 2] -> 4F (3, 5) [Entry 2] (West Ladder).
-  - 5F (17, 5) [Entry 3] -> 4F (9, 7) [Entry 3] (Central Ladder).
-- **Action:** Drop through 5F (17, 5).
-## Lighthouse Puzzle Hypothesis
-- **Hypothesis:** 5F Trap Holes align with 4F Warps by index.
-  - 5F (16, 5) [Entry 2] -> 4F (3, 5) [Entry 2] (West Ladder).
-  - 5F (17, 5) [Entry 3] -> 4F (9, 7) [Entry 3] (Central Ladder).
-- **Action:** Drop through 5F (17, 5).
+## Lighthouse Navigation Strategy
+- **Failed:** 5F Pits and "Trap Holes" did not lead to 4F Central Room.
+- **Discovery:** 3F has a central ladder at (9, 5) that likely leads UP to the isolated 4F room.
+- **Plan:** Navigate 3F North Corridor to reach (9, 5).
+## Lighthouse Navigation Strategy
+- **Failed:** 5F Pits and "Trap Holes" did not lead to 4F Central Room.
+- **Discovery:** 3F has a central ladder at (9, 5) that likely leads UP to the isolated 4F room.
+- **Plan:** Navigate 3F North Corridor to reach (9, 5).
 - **Lesson:** Always verify wall continuity in the XML. Assumed the central block of Lighthouse 5F was solid, but it had an opening on the South side (Row 8). Visual assumptions can be misleading.
 - **Mechanic:** 'Invisible Warps' in XML that are missing from the Game State text list are often arrival points, not functional exits.
 ### Learned Mechanics
