@@ -18,3 +18,4 @@
 - **WALL:** Impassable obstacle. Blocks movement.
 - **WARP_CARPET_DOWN:** Traversable. Moving onto this tile triggers a warp to the connected map.
 - **TOWN_MAP / WINDOW:** Acts as a wall.
+- **Gym Layout:** The gym requires a counter-clockwise path (Bottom -> Right -> Top -> Left) to reach the leader due to internal walls.
