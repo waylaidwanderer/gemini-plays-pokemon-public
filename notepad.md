@@ -106,18 +106,6 @@
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
 
-## Goldenrod Underground Entrance (North)
-- **Status:** Entered from Goldenrod (9, 5).
-- **Geography:** Small room with a ladder down.
-- **NPCs:** Super Nerd.
-- **Warps:** Ladder to Underground.
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - WARP_CARPET_DOWN: Exit to city.
-  - LADDER: Warp to Underground.
-- **Navigation Lesson:** Verify building identities (e.g. signs, entering) before assuming. Directional heuristics (e.g. 'West side') can be misleading if landmarks aren't distinct.
-
 ## Goldenrod Magnet Train Station
 - **Status:** Visited (Turn 3235).
 - **Tile Mechanics:**
