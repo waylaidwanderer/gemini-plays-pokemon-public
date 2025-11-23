@@ -1,15 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Travel to Olivine City (Primary)
-- [ ] Find standard BERRIES for Miltank (Secondary)
-- [ ] Explore Route 39 (Tertiary)
+- [ ] Earn the Mineral Badge (Primary)
+- [ ] Heal at Pokémon Center (Secondary)
+- [ ] Find the Lighthouse (Tertiary)
 
 ## Recent Events
-- Arrived on Route 39 and explored Moomoo Farm.
-- Miltank Quest: Needs standard BERRIES (Inventory: 0). Quest Paused.
-- Defeated Beauty Olivia (Rt 38), Pokefan Ruth & Derek (Rt 39), Sailor (Rt 39).
-- Heading South to Olivine City to restock.
+- Arrived in Olivine City.
+- Explored Route 39 & Moomoo Farm.
+- Miltank Quest: Paused (Need Berries).
+- Defeated Trainers on Rt 38 & 39.
 
 ## Lessons Learned
 - **Spinner NPCs:** Use `stun_npc` to lock their vision cone in a safe direction before passing.
