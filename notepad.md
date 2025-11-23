@@ -320,3 +320,5 @@
 ## Lighthouse Update
 - **Failed:** 5F pits (East & Top) did not lead to center.
 - **Plan:** Descend to 1F to check for central entrance.
+- Correction: 5F Top Corridor (8,3)/(9,3) are solid floors.
+- Plan: Investigate 1F for Central Shaft access.
