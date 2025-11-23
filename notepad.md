@@ -11,9 +11,6 @@
 - Rival Silver Encounter: Learned Jasmine is at the Lighthouse.
 - Miltank Quest: Paused (Need Berries).
 
-## Lessons Learned
-- **Spinner NPCs:** Use `stun_npc` to lock their vision cone in a safe direction before passing.
-
 ## Ecruteak City
 - **Status:** Passing through Route 38 Gatehouse.
 - **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
@@ -83,8 +80,6 @@
 - Tools: `select_battle_option`, `stun_npc`, `find_path`, `buy_item_quantity`, `find_interaction_point`, `scan_reachable_unseen`, `sequence_press`, `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `define_tool`, `delete_tool`.
 - Agents: `battle_strategist` (Battle analysis & move recommendation).
 
-## Lessons Learned
-- **Spinner NPCs:** Use `stun_npc` to lock their vision cone in a safe direction before passing.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
