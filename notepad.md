@@ -6,9 +6,9 @@
 - [ ] Check Battle Tower & Surf to Cianwood (Immediate)
 
 ## Status & Quests
-- **Location:** Battle Tower Exterior.
+- **Location:** Battle Tower Lobby.
 - **Objective:** Travel to Cianwood City via Surf to get medicine for Jasmine's Ampharos.
-- **Current Task:** Investigating Battle Tower grounds.
+- **Current Task:** Checking if Battle Tower is open.
 - **Backlog:**
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
