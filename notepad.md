@@ -314,3 +314,8 @@
   - **HM Strength:** Fisher in Pokémon Center said a "Generous Sailor" in the "Olivine Cafe next door" teaches Strength.
   - **Good Rod:** Obtained from the Fishing Guru in the house north of the Pokémon Center.
   - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
+## Olivine Lighthouse
+- **1F:**
+  - **Sailor:** Guarding path at (8, 2). Sneak around left side.
+  - **Ladder to 2F:** Located at (3, 11).
+  - **Landing Spots:** (16, 13) & (17, 13) appear to be drop points from above.
