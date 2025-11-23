@@ -2,8 +2,14 @@
 
 ## Current Goals
 - [x] Earn the Storm Badge (Primary)
-- [ ] Obtain HM02 Fly (Primary)
+- [x] Obtain HM02 Fly (Primary)
+- [ ] Teach Fly to Cirrus (Primary)
 - [ ] Deliver SecretPotion to Jasmine (Secondary)
+
+## Status Update
+- **Location:** Cianwood City.
+- **Task:** Go to Pokecenter to withdraw Cirrus.
+- **Inventory:** HM02 Fly obtained.
 
 ## Status & Quests
 - **Location:** Cianwood City.
