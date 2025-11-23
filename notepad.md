@@ -5,9 +5,10 @@
 - [ ] Retrieve SecretPotion (Secondary)
 
 ## Recent Events
-- **Current Location:** Olivine City.
+- **Current Location:** Route 40.
 - **Quest:** Retrieve SecretPotion from Cianwood Pharmacy for Jasmine.
-- **Lighthouse:** Spoke to Jasmine. She needs SecretPotion. Descended and healed.
+- **Status:** Surfing to Cianwood.
+- **Lighthouse:** Cleared. Jasmine requested medicine.
 - **Backlog:**
   - **Miltank:** Needs berries.
 
