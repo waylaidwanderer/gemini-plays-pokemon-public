@@ -25,3 +25,4 @@
 ## Whitney Strategy
 - **Kimchi:** Use Smokescreen to lower Miltank's accuracy.
 - **Rocky (Onix):** 4x resists Rollout. Switch in to tank and reset Rollout's damage counter. Use Screech if possible.
+- **Underground Entrance:** Building at (9, 5). Contains ladder to underground.
