@@ -1,17 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Earn the Storm Badge (Primary)
-- [x] Retrieve SecretPotion from Cianwood
-- [x] Find Cianwood Gym
+- [x] Earn the Storm Badge (Primary)
+- [ ] Obtain HM02 Fly (Primary)
+- [ ] Deliver SecretPotion to Jasmine (Secondary)
 
 ## Status & Quests
 - **Location:** Cianwood Gym.
-- **Objective:** Earn Storm Badge (Chuck).
-- **Current Task:** Challenge Gym Leader Chuck. Blackbelt Lung defeated.
-- **Inventory:** SecretPotion, HM04 Strength (Basalt).
-- **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic. Boulders require Strength.
-- **Defeated:** Yoshi, Lao, Nob, Lung.
+- **Objective:** Get HM02 Fly from Chuck's wife outside.
+- **Current Task:** Exit Gym.
+- **Inventory:** Storm Badge, TM01, SecretPotion, HM04 Strength.
+- **Gym Intel:** Chuck Defeated.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank (Needs berries).
