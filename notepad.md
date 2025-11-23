@@ -114,6 +114,7 @@
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
 - Youngster JOEY called, wanting a rematch. He's on Route 30.
 - Youngster JOEY called again, confirming he's on Route 30 for a rematch.
+- Youngster JOEY called a third time for a rematch on Route 30.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
