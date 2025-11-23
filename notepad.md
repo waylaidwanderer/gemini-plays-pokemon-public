@@ -1,6 +1,6 @@
 # Current Objectives
 - **Primary:** Defeat Whitney to earn the Plain Badge.
-- **Secondary:** Explore Goldenrod City for useful items and information.
+- **Secondary:** Heal Kimchi at the Pokemon Center.
 
 # Team Status
 - **Kimchi (Quilava):** Lv24 - Main attacker.
