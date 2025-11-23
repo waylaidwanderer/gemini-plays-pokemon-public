@@ -69,15 +69,14 @@
 
 ## Strategy Notes
 - Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
-- Tactics: Use Flame Wheel on Morty's Ghosts.
 - Protocol: Mark NPCs immediately.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
+- **Screen Text:** Trust visual evidence (Screen Text) over system notes if they conflict. Text can persist or trigger unexpectedly.
 - Record new Pokémon discoveries immediately, even during battle.
 - Always verify object existence before interacting.
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
-- **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID. If a battle starts, the opportunity might be lost if you leave the map.
-- **Missing Data:** Firebreather Walt on Route 35 (likely Object ID 6) was not marked as defeated before leaving the map.
+- **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 
 ## Route 34
 - **Geography:** South end connects to Ilex Forest Gate.
