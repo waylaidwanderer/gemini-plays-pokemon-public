@@ -246,8 +246,13 @@
 - Found Super Repel at (6, 15) on Lighthouse 5F.
 ## Route 40
 - **Status:** Surfing South to Cianwood.
-- **NPCs:** Silver (14, 15) - Passive (Warns about distance).
+- **NPCs:**
+  - Silver (14, 15) - Passive.
+  - Silver (18, 30) - Sighted.
 - **Geography:** Sea route connecting Olivine to Cianwood.
 - **Objects:** Sign (14, 10), Rocks at (6,9), (7,8), (7,11).
-- Defeated Swimmer Elaine (Staryu Lv21) at (5, 19).
+- **Trainers:**
+  - Swimmer Elaine (Staryu Lv21) at (5, 19). Defeated.
+  - Swimmer Paula (Staryu Lv19, Shellder Lv19) at (10, 25). Defeated.
+  - Swimmer Randall (Shellder Lv18, Wartortle Lv20). Battling.
 - Received call from Joey about his Rattata.
