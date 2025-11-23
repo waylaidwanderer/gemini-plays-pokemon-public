@@ -275,7 +275,7 @@
 - Farmhouse: Pokefan F mentions milk is shipped to Kanto.
 - Quest: Feed Berries to sick Miltank in Barn. (Status: Paused. Requires standard 'BERRY' item. 2 fed so far. Needs more.)
 ## Olivine City
-- **Status:** Climbing Lighthouse.
+- **Status:** Surfing to Cianwood City via Route 40/41.
 - **Landmarks:**
   - Sign at (17, 11): 'The Port Closest to Foreign Lands'.
   - Pokémon Center at (13, 21).
