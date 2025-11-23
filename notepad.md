@@ -209,3 +209,6 @@
 # Lessons from Reflection (Turn 11532)
 - **Positional & Data Verification:** I must ALWAYS verify my current `(x, y)` coordinates AND map ID in the Game State Information after ANY interruption (battle, phone call, map transition, menu, etc.) before planning my next move. My memory of map layouts or my location can be flawed; the game state is the absolute source of truth. Assuming a transition has occurred or a path has completed without verification is a critical failure.
 - **Discipline in Automation:** I must be more disciplined in using my own automation tools (`switch_train_lead`, `select_battle_option`) instead of performing actions manually. Failing to use existing automation is inefficient and error-prone.
+
+# Lessons from Reflection (Turn 11740)
+- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent. A flawed assumption about UI behavior can lead to repeated tool failures.

@@ -370,7 +370,7 @@
     ]
   },
   "select_move": {
-    "description": "Selects a move from the battle menu by name. Assumes the cursor starts at the top move and the menu is a vertical list.",
+    "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list. This version is robust and resets the cursor position by exiting and re-entering the menu before selection.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -386,7 +386,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves = json.loads(input_data['current_moves_list'])\n\ntry:\n    move_index = current_moves.index(move_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nbuttons = []\nfor _ in range(move_index):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ninput_data_dict = json.loads(input_data['current_moves_list'])\nmove_to_select = input_data['move_to_select']\n\nif move_to_select not in input_data_dict:\n    print(json.dumps([\"Error: Move not found\"]))\nelse:\n    move_index = input_data_dict.index(move_to_select)\n    presses = ['B', 'A', 'sleep 500'] \n    if move_index > 0:\n        presses.extend(['Down'] * move_index)\n    presses.append('A')\n    print(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -397,6 +397,21 @@
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
         "timestamp": "2025-11-23T22:36:51.010Z",
         "action_counter": 11641
+      },
+      {
+        "commit_message": "fix: Make tool robust to cursor memory. The previous version failed if the battle menu cursor was not at the top position. This version fixes the issue by first pressing 'Up' four times to guarantee the cursor resets to the top before calculating the necessary 'Down' presses. This makes the tool reliable regardless of the game's cursor memory and directly addresses a critical system critique.",
+        "timestamp": "2025-11-23T23:22:03.777Z",
+        "action_counter": 11731
+      },
+      {
+        "commit_message": "fix: Implement B+A menu reset logic. The previous 'Up'x4 reset logic was based on a flawed assumption and did not reliably reset the cursor. This new version exits and re-enters the move menu ('B' then 'A') to guarantee the cursor starts at the top position, making the tool robust against cursor memory.",
+        "timestamp": "2025-11-23T23:24:25.179Z",
+        "action_counter": 11735
+      },
+      {
+        "commit_message": "fix: Increase sleep duration for menu reset. The previous B+A reset logic failed due to a timing issue where the game did not register the 'Down' presses after re-entering the move menu. Increasing the sleep duration from 250ms to 500ms should provide a sufficient delay for the UI to stabilize, ensuring the cursor reset is reliable.",
+        "timestamp": "2025-11-23T23:26:17.880Z",
+        "action_counter": 11739
       }
     ]
   },
