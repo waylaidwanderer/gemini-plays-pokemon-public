@@ -34,7 +34,7 @@
 - **Underground Entrance:** Building at (9, 5). Contains ladder to underground.
 
 # Battle Log
-- Miltank: -2 Accuracy (Smokescreen x2), -2 Defense (Screech).
-- Rocky: 14/25 HP, Infatuated.
+- Miltank: -2 Accuracy, -2 Defense.
+- Rocky: 2/25 HP, Infatuated (Critical).
 - Kimchi: 60/65 HP (Healed).
-- Strategy: Rocky uses Tackle/Screech until faint. Kimchi finishes with Ember (or Quick Attack if low HP).
+- Strategy: Rocky attacks until faint to provide safe switch for Kimchi.
