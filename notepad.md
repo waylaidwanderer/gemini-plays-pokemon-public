@@ -6,9 +6,9 @@
 - [ ] Find Cianwood Gym (North?)
 
 ## Status & Quests
-- **Location:** Cianwood City (11, 28).
+- **Location:** Cianwood City (9, 20).
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Navigate North past Rocks.
+- **Current Task:** Investigate building at (5, 17) (Potential Gym).
 - **Inventory:** SecretPotion.
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic.
 - **Backlog:**
