@@ -196,3 +196,4 @@
 
 # Data Hygiene Tasks
 - Delete invalid map marker on Route 30 at (24, 34). Need to find its emoji first.
+- Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE in areas without strong POKéMON.
