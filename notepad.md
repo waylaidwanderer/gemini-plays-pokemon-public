@@ -5,7 +5,7 @@
 - [ ] Retrieve SecretPotion (Secondary)
 
 ## Recent Events
-- **Current Location:** Olivine Lighthouse 2F (Descending).
+- **Current Location:** Olivine Pokémon Center.
 - **Quest:** Retrieve SecretPotion from Cianwood Pharmacy for Jasmine.
 - **Lighthouse:** Found Jasmine on 6F. Dropping through holes to descend.
 - **Backlog:**
