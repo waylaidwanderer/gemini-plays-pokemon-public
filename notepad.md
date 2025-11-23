@@ -106,19 +106,6 @@
   - WALL: Impassable.
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
 
-## Radio Tower 1F
-- **Geography:** Entrance lobby. Reception counter.
-- **NPCs:**
-  - Receptionist at (5, 6): 'Welcome!' loop from (3, 6). No quiz trigger.
-  - Gentleman at (8, 6): Lucky Number Show (ID Mismatch).
-  - Cooltrainer F at (12, 6): Radio Card Quiz.
-- **Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - COUNTER: Impassable. Interact across to speak to NPCs.
-  - WARP_CARPET_DOWN: Exit to Goldenrod City.
-  - PC: Impassable.
-
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
 - **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
