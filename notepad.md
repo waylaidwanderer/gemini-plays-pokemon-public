@@ -312,3 +312,8 @@
   - Found Ladder at (13,3).
 - Reached Olivine Lighthouse 5F via ladder at (3, 5).
 - Obtained TM34 (Swagger) at Lighthouse 5F (2, 13).
+### Lighthouse Structure Analysis
+- **Isolation:** The central shaft (Columns 8-11) is isolated on floors 3F, 4F, and 5F. Access is NOT possible from the outer walkways.
+- **1F:** The Southwest corner (Rows 16-17, Cols 0-5) is isolated from the main entrance and the West ladder room.
+- **Strategy:** Must find a specific path (likely on 3F West or a specific drop) that leads into the central column or the isolated SW corner.
+- **Lesson:** Do not target unseen tiles directly; path to the nearest adjacent traversable tile.
