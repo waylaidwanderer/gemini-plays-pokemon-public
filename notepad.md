@@ -299,11 +299,16 @@
 - Farmhouse: Pokefan F mentions milk is shipped to Kanto.
 - Quest: Feed Berries to sick Miltank in Barn. (Status: Paused. Requires standard 'BERRY' item. 2 fed so far. Needs more.)
 ## Olivine City
-- **Status:** Exploring (Turn 5073).
+- **Status:** Exploring.
 - **Landmarks:**
   - Sign at (17, 11): 'The Port Closest to Foreign Lands'.
   - Building at (25, 11).
-- **NPCs:** Youngster at (20, 13).
-- **Events:**
-  - Met Rival Silver in Olivine City. He mentioned the Gym Leader is at the Lighthouse caring for a sick Pokémon.
-- **Quest Update:** Find Jasmine at the Lighthouse.
+  - Pokémon Center at (13, 21).
+  - Poké Mart at (19, 17).
+  - Gym at (10, 11).
+  - House at (13, 15) (Likely Olivine Cafe).
+- **NPCs:** Youngster (20, 13), Sailor (16, 22).
+- **Quests:**
+  - **Jasmine & Lighthouse:** Rival Silver said Jasmine is at the Lighthouse. Gym is empty.
+  - **HM Strength:** Fisher in Pokémon Center said a "Generous Sailor" in the "Olivine Cafe next door" teaches Strength.
+  - **Good Rod:** The NPC in the Center was a Friendship Rater, not the Fishing Guru. Need to find the real one.
