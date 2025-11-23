@@ -50,12 +50,14 @@
 - **Resilience & Stat-lowering moves:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker. Furthermore, repeated use of stat-lowering moves (like TAIL WHIP) can quickly turn an easy battle into a risky situation by neutralizing a level advantage.
 - **Efficient Traversal:** When the primary goal is to traverse an area with frequent wild encounters (like a cave), using a Repel is more time and resource-efficient than fighting or running from every battle.
 - **Resilience:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker, turning an expected one-hit KO into a prolonged battle.
+- **Pathfinding Procedure:** The correct way to navigate is to first call the `find_path` tool to get a list of coordinates. Then, in the *next* turn, use the `path` button with the generated `path_plan`. Calling a non-existent tool like `path (tool)` is a hallucination and will fail.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 - BERRY trees grow new BERRIES every day.
+- Healing at a Pokémon Center restores all HP and PP for the entire party and cures any status conditions.
 
 # Current Quest: Defeat Whitney
 - **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
@@ -82,7 +84,6 @@
 - Poisoned Pokémon lose 1 HP every four steps outside of battle.
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
-- Bug-type moves (like LEECH LIFE) are not very effective against Fire-types.
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
 - Normal-type moves have no effect on Ghost-type Pokémon.
 - Normal-type moves (like TACKLE) are not very effective against Rock/Ground-types (like GEODUDE).
