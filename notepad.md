@@ -267,3 +267,7 @@
 - Encountered Swimmer Girl at (9, 50) blocking Row 52. Flanking North to bypass.
 - Defeated Swimmer Wendy (Horsea Lv21 x2) at (10, 50).
 - Paprika reached Lv38.
+## Cianwood City
+- **Gym:** Leader Chuck (Fighting). Weak to Psychic.
+- **Puzzle:** Requires Strength to move boulders.
+- **Gym Guide:** Warns of bullies.
