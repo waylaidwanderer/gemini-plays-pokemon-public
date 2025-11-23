@@ -5,11 +5,12 @@
 - [ ] Retrieve SecretPotion from Cianwood (Secondary)
 
 ## Status & Quests
-- **Location:** Cianwood City.
-- **Objective:** Get SecretPotion and Mineral Badge.
-- **Current Task:** Exit Center, find Pharmacy (SecretPotion) and Gym.
-- **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires moving rocks correctly to reach Leader.
+- **Location:** Cianwood Pharmacy.
+- **Objective:** Earn Mineral Badge.
+- **Current Task:** Explore Pharmacy, Teach Strength, Challenge Gym.
+- **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires Strength.
 - **Backlog:**
+  - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
 ## Ecruteak City
