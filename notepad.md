@@ -258,3 +258,4 @@
 - **Puzzle:** Requires Strength to move boulders.
 - **Gym Guide:** Warns of bullies.
 - **Pharmacy:** Acquired SecretPotion.
+- **Navigation Protocol:** Always step 1 tile away from warps before pathfinding.
