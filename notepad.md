@@ -311,4 +311,5 @@
 - **Quests:**
   - **Jasmine & Lighthouse:** Rival Silver said Jasmine is at the Lighthouse. Gym is empty.
   - **HM Strength:** Fisher in Pokémon Center said a "Generous Sailor" in the "Olivine Cafe next door" teaches Strength.
-  - **Good Rod:** The NPC in the Center was a Friendship Rater, not the Fishing Guru. Need to find the real one.
+  - **Good Rod:** Obtained from the Fishing Guru in the house north of the Pokémon Center.
+  - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
