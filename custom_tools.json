@@ -368,5 +368,22 @@
         "action_counter": 5986
       }
     ]
+  },
+  "switch_train_lead": {
+    "description": "Automates the button presses to switch the lead Pokémon with the second Pokémon in the party during a battle. This is for switch-training.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"A\", \"Down\", \"A\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "feat: Create switch_train_lead tool. This tool automates the standard switch-training sequence (open PKMN menu, select second Pokemon, confirm switch) to improve efficiency and reduce manual input errors during grinding sessions.",
+        "timestamp": "2025-11-23T13:07:21.276Z",
+        "action_counter": 10596
+      },
+      {
+        "commit_message": "fix: Correct button sequence for switch-training. The previous version used 'Down' which selected PACK instead of 'Right' for PKMN. This version provides the correct sequence to navigate the 2x2 battle menu, open the party, select the second Pokemon, and confirm the switch.",
+        "timestamp": "2025-11-23T13:17:15.334Z",
+        "action_counter": 10619
+      }
+    ]
   }
 }

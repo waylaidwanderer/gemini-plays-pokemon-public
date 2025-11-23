@@ -184,3 +184,6 @@
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **Menu Input Separation:** To avoid input errors, especially in multi-step menu actions like switching Pokémon, I must separate directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') into different turns. Move the cursor in one turn, then press 'A' to confirm in the next.
+
+# Battle Menu Layout
+- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
