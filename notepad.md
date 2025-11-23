@@ -306,7 +306,9 @@
   - Pokémon Center at (13, 21).
   - Poké Mart at (19, 17).
   - Gym at (10, 11).
-  - House at (13, 15) (Likely Olivine Cafe).
+  - Fishing Guru House at (13, 15). Obtained Good Rod.
+  - Tim's House at (25, 11). Trade: Krabby for Voltorb.
+  - Olivine Cafe: Unknown location. Search west of Pokemon Center.
 - **NPCs:** Youngster (20, 13), Sailor (16, 22).
 - **Quests:**
   - **Jasmine & Lighthouse:** Rival Silver said Jasmine is at the Lighthouse. Gym is empty.
