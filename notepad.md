@@ -103,10 +103,6 @@
 - **Tile Mechanics:**
   - WARP_CARPET_DOWN: Exit to city.
 
-## Goldenrod Game Corner
-- **Info:** Coin Case in Underground (Source: Pokefan M).
-- **Mechanics:** Card Flip > Slots.
-
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
 
