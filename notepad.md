@@ -177,3 +177,7 @@
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
+- LADDER: A traversable warp tile that moves the player between floors.
+
+# Strategic Principles & Lessons Learned
+- Menu Navigation: Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
