@@ -2,12 +2,14 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [ ] Retrieve SecretPotion from Cianwood (Secondary)
+- [ ] Teach Strength to Basalt (Secondary)
+- [x] Retrieve SecretPotion from Cianwood
 
 ## Status & Quests
 - **Location:** Cianwood Pharmacy.
 - **Objective:** Earn Mineral Badge.
 - **Current Task:** Explore Pharmacy, Teach Strength, Challenge Gym.
+- **Inventory:** SecretPotion (Acquired).
 - **Gym Intel:** Leader Chuck (Fighting vs Psychic). Boulder puzzle requires Strength.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
@@ -40,6 +42,7 @@
 ## Quest Log
 - **Badges:** Zephyr, Hive, Plain, Fog.
 - **Recent Events:**
+  - Received SecretPotion from Cianwood Pharmacist.
   - Defeated Kimono Girls & Received HM03 (Surf).
   - Defeated Leader Morty (Ecruteak).
   - Met Jasmine at Olivine Lighthouse; she needs SecretPotion from Cianwood.
@@ -272,3 +275,4 @@
 - **Gym:** Leader Chuck (Fighting). Weak to Psychic.
 - **Puzzle:** Requires Strength to move boulders.
 - **Gym Guide:** Warns of bullies.
+- **Pharmacy:** Acquired SecretPotion.
