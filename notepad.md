@@ -6,9 +6,9 @@
 - [ ] Surf to Cianwood (Immediate)
 
 ## Status & Quests
-- **Location:** Route 41 (Surfing).
-- **Objective:** Travel to Cianwood City via Surf to get medicine for Jasmine's Ampharos.
-- **Current Task:** Traveling to Cianwood City.
+- **Location:** Cianwood City.
+- **Objective:** Get SecretPotion and Mineral Badge.
+- **Current Task:** Heal at Pokémon Center.
 - **Backlog:**
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
