@@ -297,6 +297,7 @@
   - **Sailor:** Guarding path at (8, 2). Sneak around left side.
   - **Ladder to 2F:** Located at (3, 11).
   - **Landing Spots:** (16, 13) & (17, 13) appear to be drop points from above.
+  - **Lore:** Pokefan F (16, 10) says Pokémon used to light the sea; Lighthouse honors them.
 - **2F:**
   - Defeated Gentleman Alfred (Lv20 Noctowl) at (17, 8).
   - Defeated Sailor Huey (Poliwag, Poliwhirl) at (9, 3).
