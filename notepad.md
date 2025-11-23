@@ -169,3 +169,6 @@
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **Check Movesets:** Before switching a low-level or unfamiliar Pokémon into battle for training, I must first check its moveset to ensure it has at least one attacking move. Switching in a Pokémon that can't fight (like Jubilee) is a wasted turn and puts them at risk.
+
+# General Object Interaction
+- To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
