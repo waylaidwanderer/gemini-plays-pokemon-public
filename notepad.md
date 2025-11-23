@@ -77,7 +77,6 @@
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `define_tool` / `delete_tool`: Manages custom tools.
-- `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
 - `select_battle_option`: Automatically selects a main battle menu option. Must be called with the `option_to_select` argument (e.g., `option_to_select: "FIGHT"`). Options are FIGHT, PKMN, PACK, RUN.
 
@@ -93,6 +92,7 @@
 - Received MIRACLE SEED from a trainer on Route 32.
 - **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
+- Youngster JOEY called, wanting a rematch. He's on Route 30.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
