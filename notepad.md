@@ -37,17 +37,11 @@
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
 
 ## Quest Log
-- **Badges:** Zephyr (Violet), Hive (Azalea), Plain (Goldenrod).
-- **Events:**
-  - Defeated Rival Silver (Azalea Town).
-  - Cleared Sprout Tower (Flash) & Slowpoke Well.
-  - Defeated Leader Bugsy.
-  - Paprika evolved into Quilava.
-  - Received Mystery Egg.
-  - Found Revive at (20, 32).
-  - Solved Farfetch'd puzzle in Ilex Forest.
-  - Defeated Kimono Girls (Naoko, Sayo, Zuki, Kuni, Miki).
-  - Quest Complete: Defeated all 5 Kimono Girls. Received HM03 (Surf).
+- **Badges:** Zephyr, Hive, Plain, Fog.
+- **Recent Events:**
+  - Defeated Kimono Girls & Received HM03 (Surf).
+  - Defeated Leader Morty (Ecruteak).
+  - Met Jasmine at Olivine Lighthouse; she needs SecretPotion from Cianwood.
 
 ## Global Game Mechanics
 ### Tile Mechanics
