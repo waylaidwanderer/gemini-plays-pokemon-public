@@ -8,8 +8,8 @@
 
 ## Status
 - **Location:** Cianwood Pokecenter (4,3).
-- **Objective:** Teach HM02 Fly to Cirrus.
-- **Team Status:** Fully Healed. Cirrus is in party.
+- **Objective:** Fly to Olivine City.
+- **Team Status:** Fully Healed. Cirrus knows Fly.
 - **Inventory:** HM02 Fly obtained. SecretPotion obtained.
 - **Gym Intel:** Chuck Defeated. Storm Badge obtained.
 - **Backlog:**
