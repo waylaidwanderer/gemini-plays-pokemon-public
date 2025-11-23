@@ -340,3 +340,5 @@
 ### Learned Mechanics
 - **Trap Holes:** Invisible warps in XML (e.g., Lighthouse 5F 16,5) that don't trigger are likely arrival points or disabled. Always verify by stepping.
 - **Lighthouse Strategy:** Trap holes failed. Accessing Central Room via South Corridor (Column 9).
+- Verified 4F Central Block is walled off at (9, 13). No south entrance.
+- Returning to 5F to investigate South Corridor (Row 15) for central access.
