@@ -15,37 +15,19 @@
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
-## Ecruteak City
-- **Status:** Visited.
-- **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
-- **Geography:** Historic city with traditional architecture.
-- **Landmarks:**
-  - City Sign at (15, 21).
-  - Dance Theater at (23, 21). (Contains Kimono Girls & Gentleman with HM/Gift quest).
-  - Pokémon Center at (23, 27).
-  - House at (13, 27).
-  - Lugia House at (5, 21).
-- **NPCs:** Gramps (20, 21), Lass (19, 29).
-- **Dance Theater Interior:**
-  - **NPCs:** Gentleman (7, 10), Cooltrainer M (10, 10), Granny (3, 6).
-  - **Objects:** Rhydon Sprite (6, 8) (Flavor text only).
-  - **Layout:** Stage north of fancy panels at Row 6.
-- **Quests:**
-  - **Kimono Girls:** Defeated all 5. Received HM03 (Surf).
-  - **Lake of Rage:** Gym Guide mentioned Gyarados swarm/conspiracy.
-- **Events:**
-  - Met Bill in PC. Time Capsule active tomorrow.
-
-## Goldenrod City
-- **Status:** Arrived. Entrance from Route 34 at (18, 35).
+## Completed Areas Summary
+- **Ecruteak City:** Gym Cleared (Fog Badge). Kimono Girls defeated (HM03 Surf obtained). Met Bill.
+- **Goldenrod City:** Gym Cleared (Plain Badge). SquirtBottle obtained.
+- **Burned Tower:** Rival Defeated. Legendary Beasts released.
+- **Olivine City:** Gym empty. Jasmine at Lighthouse.
+- **Olivine Lighthouse:** Climbed to top. Jasmine needs SecretPotion.
+- **Sea Routes (40/41):** Navigated to Cianwood.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive, Plain, Fog.
 - **Recent Events:**
   - Received SecretPotion from Cianwood Pharmacist.
-  - Defeated Kimono Girls & Received HM03 (Surf).
-  - Defeated Leader Morty (Ecruteak).
-  - Met Jasmine at Olivine Lighthouse; she needs SecretPotion from Cianwood.
+  - Acquired Shuckie from Mania.
 
 ## Global Game Mechanics
 ### Tile Mechanics
