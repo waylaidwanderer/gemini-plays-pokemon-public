@@ -174,11 +174,12 @@
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **Check Movesets:** Before switching a low-level or unfamiliar Pokémon into battle for training, I must first check its moveset to ensure it has at least one attacking move. Switching in a Pokémon that can't fight (like Jubilee) is a wasted turn and puts them at risk.
+- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
+- **Resilience:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker, turning an expected one-hit KO into a prolonged battle.
 
 # General Object Interaction
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
-- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-- LADDER: A traversable warp tile that moves the player between floors.
+- **LADDER**: A traversable warp tile that moves the player between floors.
 
 # Strategic Principles & Lessons Learned
 - Menu Navigation: Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
