@@ -330,3 +330,8 @@
   - 5F (16, 5) [Entry 2] -> 4F (3, 5) [Entry 2] (West Ladder).
   - 5F (17, 5) [Entry 3] -> 4F (9, 7) [Entry 3] (Central Ladder).
 - **Action:** Drop through 5F (17, 5).
+## Lighthouse Puzzle Hypothesis
+- **Hypothesis:** 5F Trap Holes align with 4F Warps by index.
+  - 5F (16, 5) [Entry 2] -> 4F (3, 5) [Entry 2] (West Ladder).
+  - 5F (17, 5) [Entry 3] -> 4F (9, 7) [Entry 3] (Central Ladder).
+- **Action:** Drop through 5F (17, 5).
