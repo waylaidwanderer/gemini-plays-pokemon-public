@@ -36,10 +36,6 @@
 ## Goldenrod City
 - **Status:** Arrived. Entrance from Route 34 at (18, 35).
 
-## Ilex Forest
-- **Status:** Cleared. Obtained HM01 (Cut).
-- **Geography:** Hidden path on West edge. Exit to Route 34 at (1, 5).
-
 ## Quest Log
 - **Badges:** Zephyr (Violet), Hive (Azalea), Plain (Goldenrod).
 - **Events:**
