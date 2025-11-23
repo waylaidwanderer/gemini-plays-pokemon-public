@@ -2,8 +2,7 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [x] Obtained HM04 (Strength). Next: Find Lighthouse.
-- [ ] Find the Lighthouse (Tertiary)
+- [ ] Climb the Lighthouse (Secondary)
 
 ## Recent Events
 - Reached Olivine Lighthouse 4F.
