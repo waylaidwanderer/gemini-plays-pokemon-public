@@ -99,13 +99,6 @@
 ## Route 35 Gatehouse
 - Located at Goldenrod (19, 1).
 
-## Goldenrod Magnet Train Station
-- **Status:** Visited (Turn 3235).
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - WARP_CARPET_DOWN: Exit to Goldenrod City.
-
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
 - **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
