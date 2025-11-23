@@ -182,4 +182,3 @@
 # Strategic Principles & Lessons Learned
 - Menu Navigation: Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
 - **Inefficient Strategies:** When a strategy proves inefficient or clumsy (like fumbling through menus mid-battle), I must pivot immediately to a more direct solution (like switching to a stronger Pokémon) instead of persisting with the flawed approach. I must actively identify and challenge false constraints that limit my strategic options.
-- Bug-type moves (like LEECH LIFE) are not very effective against Fire-types.
