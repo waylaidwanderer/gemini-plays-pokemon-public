@@ -312,3 +312,4 @@
   - Accessed via south connection.
   - Defeated Gentleman Preston.
   - Found Ladder at (13,3).
+- Reached Olivine Lighthouse 5F via ladder at (3, 5).
