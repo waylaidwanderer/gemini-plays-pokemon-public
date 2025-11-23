@@ -56,7 +56,7 @@
 ### Tile Mechanics
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
-- **PIT:** Impassable hazard. Falling in warps player to start.
+- **PIT / HOLE:** Impassable hazard. Falling in warps player to start or the floor below.
 - **INVISIBLE_FLOOR (Ecruteak Gym):** Traversable only on specific tiles. Stepping on the wrong tile warps player to start. Safe path must be discovered.
 - **LEDGE_HOP_DOWN:** Walkable only from the tile directly above. Acts as a WALL from all other directions. Automatically jumps the player down one tile.
 - **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
