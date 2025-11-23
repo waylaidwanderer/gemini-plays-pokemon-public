@@ -5,11 +5,12 @@
 - [ ] Climb the Lighthouse (Secondary)
 
 ## Recent Events
-- Reached Olivine Lighthouse 4F.
-- Defeated Lass Connie.
-- **Hint:** Fisher mentioned a "Generous Sailor" in the Cafe next door who teaches Strength.
-- Rival Silver Encounter: Learned Jasmine is at the Lighthouse.
-- Miltank Quest: Paused (Need Berries).
+- **Current Location:** Olivine Lighthouse 6F.
+- **Jasmine:** Found at (8, 8). Interacting now.
+- **Lighthouse:** Cleared trainers. Picked up Super Repel.
+- **Backlog:**
+  - **Strength HM:** Check Olivine Cafe.
+  - **Miltank:** Needs berries.
 
 ## Ecruteak City
 - **Status:** Passing through Route 38 Gatehouse.
