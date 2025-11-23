@@ -6,11 +6,11 @@
 - [ ] Find Cianwood Gym (North?)
 
 ## Status & Quests
-- **Location:** Cianwood City (Pokemon Center).
+- **Location:** Cianwood Gym.
 - **Objective:** Earn Mineral Badge.
-- **Current Task:** Challenge Cianwood Gym (Found at 8,43).
-- **Inventory:** SecretPotion.
-- **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic.
+- **Current Task:** Defeat Gym Trainers (Yoshi & Lao defeated). Fighting Blackbelt Nob.
+- **Inventory:** SecretPotion, HM04 Strength (Basalt).
+- **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic. Boulders require Strength.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank (Needs berries).
