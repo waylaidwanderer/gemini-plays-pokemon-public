@@ -169,3 +169,14 @@
 - **Menu Navigation:** When navigating menus, especially the party screen, it is crucial to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns. Mixing them can lead to unintended actions. Using automated tools like `select_battle_option` can prevent these errors.
 - **Separate Inputs:** I must be careful to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns, especially in menus, to avoid input errors.
 - **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on, such as adding, deleting, or fixing an agent, tool, marker, or notepad entry, MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred.
+- **TALL_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
+- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
+- **MART_SHELF**: Impassable terrain, functions like a wall.
+- **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
+- **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
+- **CAVE**: A traversable warp tile leading into a cave.
+- **LADDER**: A traversable warp tile that moves the player between floors.
+- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
+- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
+- **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
+- **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
