@@ -314,3 +314,4 @@
     - Items: TM34 (Swagger) at (2,13).
 - Found Super Repel at (6, 15) on Lighthouse 5F.
 - **Status:** Investigating 3F Central Room. Sailor (9, 2) and Item (8, 2) present.
+- **Quest:** Gina called (Turn 5627). Interrupting Lighthouse exploration.
