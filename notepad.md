@@ -109,9 +109,6 @@
 - **Tile Mechanics:**
   - WARP_CARPET_DOWN: Exit to city.
 
-## Goldenrod Bike Shop
-- **Status:** Cleared. Obtained Bicycle.
-
 ## Goldenrod Game Corner
 - **Info:** Coin Case in Underground (Source: Pokefan M).
 - **Mechanics:** Card Flip > Slots.
