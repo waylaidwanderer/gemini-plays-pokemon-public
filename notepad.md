@@ -8,7 +8,7 @@
 ## Status & Quests
 - **Location:** Cianwood Gym.
 - **Objective:** Earn Storm Badge (Chuck).
-- **Current Task:** Solve Boulder Puzzle. Boulder 9 pushed (UP). Plan: Push Boulder 8 (4,7) RIGHT.
+- **Current Task:** Challenge Gym Leader Chuck. Boulder puzzle solved.
 - **Inventory:** SecretPotion, HM04 Strength (Basalt).
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic. Boulders require Strength.
 - **Defeated:** Yoshi, Lao, Nob.
