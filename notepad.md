@@ -243,3 +243,8 @@
     - Central: Arrival from 4F Ladder. Path South to hidden area.
     - Items: TM34 (Swagger) at (2,13).
 - Found Super Repel at (6, 15) on Lighthouse 5F.
+## Route 40
+- **Status:** Surfing South to Cianwood.
+- **NPCs:** Silver (14, 15) - Passive (Warns about distance).
+- **Geography:** Sea route connecting Olivine to Cianwood.
+- **Objects:** Sign (14, 10), Rocks at (6,9), (7,8), (7,11).
