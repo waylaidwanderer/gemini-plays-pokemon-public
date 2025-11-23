@@ -158,6 +158,7 @@
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
 - **CAVE**: A traversable warp tile leading into a cave.
+- **CAVE_WALL**: Impassable terrain, functions like a WALL.
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: Confirmed impassable. Multiple attempts to move onto this tile from above have failed, proving it functions as a WALL. My pathfinding tools have been updated to reflect this.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
