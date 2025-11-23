@@ -77,6 +77,7 @@
 - `define_agent` / `delete_agent`: Manages custom reasoning agents.
 - `define_map_marker` / `delete_map_marker`: Manages map markers.
 - `define_tool` / `delete_tool`: Manages custom tools.
+- `define_tool` / `delete_tool`: Manages custom tools.
 - `stun_npc`: Freezes or unfreezes an NPC's movement.
 - `select_battle_option`: Automatically selects a main battle menu option. Must be called with the `option_to_select` argument (e.g., `option_to_select: "FIGHT"`). Options are FIGHT, PKMN, PACK, RUN.
 
