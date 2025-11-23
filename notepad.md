@@ -7,7 +7,7 @@
 ## Status & Quests
 - **Location:** Cianwood City.
 - **Objective:** Get SecretPotion and Mineral Badge.
-- **Current Task:** Heal at Pokémon Center.
+- **Current Task:** Talk to NPCs in Center, then find Pharmacy and Gym.
 - **Backlog:**
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
