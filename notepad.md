@@ -6,7 +6,7 @@
 
 ## Recent Events
 - **Current Location:** Olivine Lighthouse 6F.
-- **Jasmine:** Met on 6F. Asked to get medicine from Cianwood Pharmacy.
+- **Jasmine:** Met on 6F. Accepted quest to get medicine from Cianwood Pharmacy. Heading there now.
 - **Lighthouse:** Cleared trainers. Picked up Super Repel.
 - **Backlog:**
   - **Strength HM:** Check Olivine Cafe.
