@@ -323,3 +323,5 @@
 - **Plan:** Descend to 1F to check for central entrance.
 - Correction: 5F Top Corridor (8,3)/(9,3) are solid floors.
 - Plan: Investigate 1F for Central Shaft access.
+- Tested (9, 3) on Lighthouse 5F: Solid floor. Not a hidden pit.
+- Plan: Test (16, 5) and re-test (17, 5) for hidden drops to 4F Central.
