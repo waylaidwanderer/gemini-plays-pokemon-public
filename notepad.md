@@ -172,3 +172,6 @@
 
 # General Object Interaction
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
+
+# Strategic Principles & Lessons Learned (New)
+- **Positional Verification after Interruptions:** I must ALWAYS verify my current `(x, y)` coordinates in the Game State Information after ANY interruption (battle, phone call, menu, etc.) before planning my next move. Assuming a path plan has completed without verification is a critical failure.
