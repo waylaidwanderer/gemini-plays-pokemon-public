@@ -189,3 +189,4 @@
 # Battle Menu Layout
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 - **Menu Layout Verification:** Before creating a tool to automate menu navigation, I must first manually navigate the menu to confirm its layout (e.g., 2x2 grid vs. vertical list). A flawed assumption about the layout will cause the tool to fail.
+- **Utilize Automation:** If a custom tool exists for a specific, repetitive task (like `switch_train_lead`), I must use it consistently to improve efficiency and reduce errors. Failing to use my own automation is a strategic failure.
