@@ -11,3 +11,4 @@
 # Location Notes
 ## Goldenrod City
 - **PP Speech House:** Explored (Tutorial NPCs).
+- **Flower Shop:** Spoke to Teacher. She mentioned the wiggly tree on Route 36. Likely need Plain Badge to obtain SquirtBottle.
