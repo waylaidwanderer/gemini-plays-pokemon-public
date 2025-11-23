@@ -151,12 +151,6 @@
   - WARP_CARPET_DOWN: Exit to Goldenrod City.
   - PC: Impassable.
 
-## Goldenrod Gym
-- **Status:** CLEARED. Plain Badge & TM45 (Attract) Obtained.
-- **Event:** Whitney cries after defeat. Must attempt to leave to trigger Lass, then speak to Whitney again to get badge.
-- **Trainers:** All defeated.
-- **Layout:** Flower box maze.
-
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
 - **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
