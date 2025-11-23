@@ -2,15 +2,15 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [ ] Retrieve SecretPotion (Secondary)
+- [ ] Retrieve SecretPotion from Cianwood (Secondary)
+- [ ] Explore Route 40 & Battle Tower Gate (Immediate)
 
-## Recent Events
-- **Current Location:** Route 40.
-- **Quest:** Retrieve SecretPotion from Cianwood Pharmacy for Jasmine.
-- **Status:** Surfing to Cianwood.
-- **Lighthouse:** Cleared. Jasmine requested medicine.
+## Status & Quests
+- **Location:** Route 40 (Beach).
+- **Objective:** Travel to Cianwood City via Surf to get medicine for Jasmine's Ampharos.
+- **Current Task:** Investigating the building at (9, 5) before surfing.
 - **Backlog:**
-  - **Miltank:** Needs berries.
+  - Cure Miltank at Moomoo Farm (Needs more berries).
 
 ## Ecruteak City
 - **Status:** Passing through Route 38 Gatehouse.
