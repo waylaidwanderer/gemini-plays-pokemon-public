@@ -104,7 +104,6 @@
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
 - `stealth_pathfinder` (Tool): Finds a path while avoiding a given list of forbidden tiles.
-- `stealth_pathfinder` (Tool): Finds a path while avoiding a given list of forbidden tiles.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
