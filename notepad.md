@@ -2,7 +2,7 @@
 
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
-- [ ] Teach Strength to Basalt (Secondary)
+- [x] Teach Strength to Basalt
 - [x] Retrieve SecretPotion from Cianwood
 
 ## Status & Quests
