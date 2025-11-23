@@ -174,3 +174,4 @@
 
 # General Object Interaction
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
+- **VOID**: Impassable terrain that appears to be an empty space off the edge of the map.
