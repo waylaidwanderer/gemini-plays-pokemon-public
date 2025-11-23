@@ -82,12 +82,6 @@
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID. If a battle starts, the opportunity might be lost if you leave the map.
 - **Missing Data:** Firebreather Walt on Route 35 (likely Object ID 6) was not marked as defeated before leaving the map.
 
-## Route 34 Gatehouse
-- Connecting Ilex Forest and Route 34.
-- NPCs: Teacher, Lass, and a Butterfree sprite.
-- Received TM12 (Sweet Scent) from Teacher in Route 34 Gatehouse.
-- Lore: Ilex Forest Shrine honors a grass-type protector (implied Celebi).
-
 ## Route 34
 - **Geography:** South end connects to Ilex Forest Gate.
 - **Status:** Defeated Picnicker Gina, Youngster Ian, & Camper Todd. Paprika Lv23. Exploring East side. Finding exit.
