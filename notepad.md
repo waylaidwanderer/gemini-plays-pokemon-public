@@ -1,10 +1,10 @@
 # Current Objectives
-- **Primary:** Defeat Whitney to earn the Plain Badge.
-- **Secondary:** Heal Kimchi at the Pokemon Center.
+- **Primary:** Obtain Plain Badge from Whitney.
+- **Secondary:** Heal Team at Pokemon Center.
 
 # Team Status
-- **Kimchi (Quilava):** Lv24 - Main attacker.
-- **Rocky (Onix):** Lv8 - Needs training.
+- **Kimchi (Quilava):** Lv25 - Main attacker.
+- **Rocky (Onix):** Lv8 - Fainted.
 - **Scout (Sentret):** Lv2 - Cut user.
 - **Eggs:** Togepi & Igglybuff.
 
@@ -12,7 +12,7 @@
 ## Goldenrod City
 - **Pokemon Center:** Found at (15, 27).
 - **Game Corner:** Found at (14, 21).
-- **Gym:** Cleared trainers. Whitney remains.
+- **Gym:** Cleared trainers. Whitney defeated.
 - **Underground Entrance:** North side (9, 5).
 - **Flower Shop:** Spoke to Teacher. Needs SquirtBottle.
 - **PP Speech House:** Explored.
@@ -29,12 +29,6 @@
 - **Mechanic (NPC Blocking):** Trainers defeated in battle often block the path until the map is reloaded (exit and re-enter).
 - **Mechanic (Battle):** In Gen 2, Fire-type moves (Ember) are Special. Attack-lowering moves like Charm do not reduce their damage.
 ## Whitney Strategy
-- **Kimchi:** Use Smokescreen to lower Miltank's accuracy.
-- **Rocky (Onix):** 4x resists Rollout. Switch in to tank and reset Rollout's damage counter. Use Screech if possible.
+- **Kimchi:** Smokescreen was effective.
+- **Rocky (Onix):** 4x resists Rollout.
 - **Underground Entrance:** Building at (9, 5). Contains ladder to underground.
-
-# Battle Log
-- Miltank: -2 Accuracy, -2 Defense.
-- Rocky: 2/25 HP, Infatuated (Critical).
-- Kimchi: 60/65 HP (Healed).
-- Strategy: Rocky attacks until faint to provide safe switch for Kimchi.
