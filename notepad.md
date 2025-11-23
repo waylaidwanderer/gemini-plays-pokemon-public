@@ -10,7 +10,8 @@
 
 # Location Notes
 ## Goldenrod City
-- **Pokemon Center:** NOT FOUND YET. Priority: High.
+- **Pokemon Center:** Found at (15, 27).
+- **Game Corner:** Found at (14, 21).
 - **Gym:** Cleared trainers. Whitney remains.
 - **Underground Entrance:** North side (9, 5).
 - **Flower Shop:** Spoke to Teacher. Needs SquirtBottle.
