@@ -68,7 +68,7 @@
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
 
 # TMs
-- **TM12 SWEET SCENT**
+- **TM12 SWEET Scent**
 - **TM31 MUD-SLAP**
 - **TM39 SWIFT**
 - **TM49 FURY CUTTER**
