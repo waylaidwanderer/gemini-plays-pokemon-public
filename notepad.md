@@ -329,15 +329,13 @@
 - **Failed:** 5F Pits and "Trap Holes" did not lead to 4F Central Room.
 - **Discovery:** 3F has a central ladder at (9, 5) that likely leads UP to the isolated 4F room.
 - **Plan:** Navigate 3F North Corridor to reach (9, 5).
-## Lighthouse Navigation Strategy
-- **Failed:** 5F Pits and "Trap Holes" did not lead to 4F Central Room.
-- **Discovery:** 3F has a central ladder at (9, 5) that likely leads UP to the isolated 4F room.
-- **Plan:** Navigate 3F North Corridor to reach (9, 5).
-- **Lesson:** Always verify wall continuity in the XML. Assumed the central block of Lighthouse 5F was solid, but it had an opening on the South side (Row 8). Visual assumptions can be misleading.
-- **Mechanic:** 'Invisible Warps' in XML that are missing from the Game State text list are often arrival points, not functional exits.
-### Learned Mechanics
-- **Trap Holes:** Invisible warps in XML (e.g., Lighthouse 5F 16,5) that don't trigger are likely arrival points or disabled. Always verify by stepping.
-- **Lighthouse Strategy:** Trap holes failed. Accessing Central Room via South Corridor (Column 9).
-- Verified 4F Central Block is walled off at (9, 13). No south entrance.
-- Returning to 5F to investigate South Corridor (Row 15) for central access.
-- Lighthouse Solution Confirmed: 5F East Pits -> 4F East Balcony -> Walk West to 4F Pits (8,3)/(9,3) -> Drop to 3F Central -> Climb Central Ladders (Access to 4F/5F Central Rooms).
+## Lighthouse Navigation
+- **Goal:** Reach the top (Jasmine).
+- **Proven Path:**
+  1. Ascend to 5F via West Ladder.
+  2. Drop through **East Pit** at (16,7) (Entry 9) -> Lands on 4F East Balcony.
+  3. Walk North on 4F East Balcony to pits at (8,3)/(9,3).
+  4. Drop through 4F North Pits -> Lands in 3F Central Room.
+  5. Climb Central Ladder at 3F (9,5) -> 4F Central (9,5).
+  6. Climb Central Ladder at 4F (9,7) -> 5F Central (9,7).
+- **Current Status:** In 5F Central Corridor. Moving South to explore.
