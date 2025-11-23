@@ -385,5 +385,31 @@
         "action_counter": 10619
       }
     ]
+  },
+  "select_move": {
+    "description": "Selects a move from the battle menu by name. Assumes the cursor starts at the top move and the menu is a vertical list.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_to_select": {
+          "type": "string"
+        },
+        "current_moves_list": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "move_to_select",
+        "current_moves_list"
+      ]
+    },
+    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves = json.loads(input_data['current_moves_list'])\n\ntry:\n    # Use case-insensitive matching for robustness\n    move_index = [move.upper() for move in current_moves].index(move_to_select.upper())\n    buttons = []\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nexcept ValueError:\n    print(json.dumps([])) # Return empty list if move not found",
+    "history": [
+      {
+        "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
+        "timestamp": "2025-11-23T22:09:16.063Z",
+        "action_counter": 11581
+      }
+    ]
   }
 }
