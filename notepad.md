@@ -202,3 +202,4 @@
 
 # Lessons from Reflection (Turn 11427)
 - **Tool Timing:** UI-dependent tools (like `select_battle_option`) will fail if called before the relevant menu is visible on screen. Always wait for the UI to stabilize before calling the tool.
+- Youngster JOEY called for a rematch on Route 30.
