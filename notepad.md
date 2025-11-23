@@ -264,3 +264,4 @@
 - **Geography:** Sea route with Whirl Islands.
 - **Goal:** Navigate to Cianwood City.
 - Encountered another 'Fake Silver' at (32, 6). It is a Swimmer.
+- Defeated Swimmer Charlie (Fake Silver) at (32, 6).
