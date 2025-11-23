@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Heal Sick Miltank (Primary)
-- [ ] Travel to Olivine City (Secondary)
+- [ ] Travel to Olivine City (Primary)
+- [ ] Find standard BERRIES for Miltank (Secondary)
 - [ ] Explore Route 39 (Tertiary)
 
 ## Recent Events
