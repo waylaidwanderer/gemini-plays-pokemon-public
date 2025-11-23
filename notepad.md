@@ -10,4 +10,4 @@
 
 # Location Notes
 ## Goldenrod City
-- **PP Speech House:** Currently exploring.
+- **PP Speech House:** Explored (Tutorial NPCs).
