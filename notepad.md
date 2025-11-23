@@ -1,16 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Earn the Mineral Badge (Primary)
+- [ ] Earn the Storm Badge (Primary)
 - [x] Retrieve SecretPotion from Cianwood
-- [ ] Find Cianwood Gym (North?)
+- [x] Find Cianwood Gym
 
 ## Status & Quests
 - **Location:** Cianwood Gym.
-- **Objective:** Earn Mineral Badge.
-- **Current Task:** Defeat Gym Trainers (Yoshi & Lao defeated). Fighting Blackbelt Nob.
+- **Objective:** Earn Storm Badge (Chuck).
+- **Current Task:** Solve Boulder Puzzle.
 - **Inventory:** SecretPotion, HM04 Strength (Basalt).
 - **Gym Intel:** Leader Chuck (Fighting). Weak to Psychic. Boulders require Strength.
+- **Defeated:** Yoshi, Lao, Nob.
 - **Backlog:**
   - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank (Needs berries).
