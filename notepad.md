@@ -38,8 +38,9 @@
 
 # Current Quest: Defeat Whitney
 - **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
-- **Status:** Just healed my party after a failed training attempt. Need to train on an easier route.
+- **Status:** Training on Route 32.
 - **Sub-task:** Investigate unmarked warp at (33, 9) in Goldenrod City after dealing with Whitney.
+- **IMMEDIATE TASK:** After this battle, fix the map marker for Youngster Gordon on Route 32. Delete the old marker at (2, 63) and create a new one at his correct location (4, 63), linked to his object_id.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -169,6 +170,4 @@
 - **Cautious Training:** Even with a type advantage, a low-level Pokémon is still vulnerable. Be prepared to switch out or use healing items if they take significant damage, rather than risking a faint for a small amount of EXP.
 - **Accuracy-lowering moves** like SAND-ATTACK can turn a simple training battle into a high-risk situation. If an opponent repeatedly uses such moves, consider switching to a Pokémon with a move that doesn't check accuracy or running away to avoid wasting resources.
 - **Menu Navigation:** When navigating menus, especially the party screen, it is crucial to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns. Mixing them can lead to unintended actions. Using automated tools like `select_battle_option` can prevent these errors.
-
-# Lessons Learned & New Principles
 - **Separate Inputs:** I must be careful to separate directional inputs (Up, Down, Left, Right) from action inputs ('A', 'B') into separate turns, especially in menus, to avoid input errors.
