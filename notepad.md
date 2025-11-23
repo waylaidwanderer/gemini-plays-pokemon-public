@@ -3,7 +3,6 @@
 ## Current Goals
 - [ ] Earn the Mineral Badge (Primary)
 - [ ] Retrieve SecretPotion from Cianwood (Secondary)
-- [ ] Surf to Cianwood (Immediate)
 
 ## Status & Quests
 - **Location:** Cianwood City.
