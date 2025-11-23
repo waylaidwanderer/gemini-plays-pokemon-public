@@ -102,7 +102,8 @@
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
 - `stealth_pathfinder` (Tool): Finds a path while avoiding a given list of forbidden tiles.
-- `switch_train_lead` (Tool): Automates the button presses to switch the lead Pokémon with the second Pokémon in the party during a battle.
+- `select_move` (Tool): Selects a move from the battle menu by name.
+- `switch_pokemon` (Tool): Automates switching to a specific Pokémon in the party during a battle.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
