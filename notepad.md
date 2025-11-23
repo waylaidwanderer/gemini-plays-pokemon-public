@@ -13,7 +13,7 @@
   - Cure Miltank at Moomoo Farm (Needs more berries).
 
 ## Ecruteak City
-- **Status:** Passing through Route 38 Gatehouse.
+- **Status:** Visited.
 - **Gym:** Cleared. Defeated Leader Morty (Fog Badge).
 - **Geography:** Historic city with traditional architecture.
 - **Landmarks:**
