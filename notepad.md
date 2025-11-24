@@ -1,16 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Get Password 2 from Male Grunt (Current)
-- [ ] Open Executive's Door (Primary)
+- [x] Get Password 2 from Male Grunt (Completed)
+- [ ] Open Executive's Door (Current)
 - [x] Investigate Lake of Rage (Completed)
 
 ## Status
 - **Location:** Team Rocket Base B3F.
-- **Objective:** Get 2 Passwords for Executive's Door.
-- **Current Task:** Find Male Grunt in West Office for 2nd Password.
+- **Objective:** Open Executive's Door.
+- **Current Task:** Go to the locked door at (10, 9).
 - **Team Status:** Paprika (Lv43, 133/133 HP).
-- **Key Items:** Red Scale, Password 1 (SLOWPOKETAIL).
+- **Key Items:** Red Scale, Password 1 (SLOWPOKETAIL), Password 2 (RATICATE TAIL).
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
@@ -173,12 +173,13 @@
 
 ## Team Rocket Base
 ### B3F (Current)
-- **Objective:** Get 2 Passwords for Executive's door.
+- **Objective:** Open Executive's Door.
 - **Status:**
   - [x] Scientist Ross: Defeated.
-  - [x] Rocket Girl: Defeated at (21, 7). Password: **SLOWPOKETAIL**.
-  - [ ] Male Grunt: Search West Office.
-  - [ ] Item Ball: At (28, 9).
+  - [x] Rocket Girl: Defeated. Password 1: **SLOWPOKETAIL**.
+  - [x] Male Grunt: Defeated/Talked. Password 2: **RATICATE TAIL**.
+  - [ ] Locked Door: Use passwords at (10, 9).
+  - [ ] Item Ball: At (28, 9) and (14, 10).
 
 ### B1F & B2F (Cleared)
 - Lance heals on B2F (5, 13). B1F traps are dangerous.
