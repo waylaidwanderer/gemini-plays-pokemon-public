@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Team Rocket Base B3F.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Get 2 Passwords.
+- **Current Task:** Defeat Scientist and Grunts on B3F for passwords.
 - **Team Status:** Paprika (Lv43, 133/133 HP).
 - **Key Items:** Red Scale.
 - **Backlog:**
