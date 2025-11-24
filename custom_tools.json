@@ -432,7 +432,7 @@
         "party_list_json"
       ]
     },
-    "python_script": "import json\n\ntry:\n    party_list = json.loads(input_data['party_list_json'])\n    target_name = input_data['target_pokemon_name']\n\n    target_index = -1\n    for i, pokemon in enumerate(party_list):\n        if pokemon['name'] == target_name:\n            target_index = i\n            break\n\n    if target_index != -1:\n        # In a battle, the cursor starts at the top (index 0).\n        # We need to press 'Down' target_index times.\n        # Then press 'A' to select, and 'A' again to confirm the switch.\n        button_presses = ['Down'] * target_index\n        button_presses.append('A') # Select the pokemon\n        # The game requires a second 'A' press on a sub-menu to confirm the switch.\n        button_presses.append('A') # Confirm 'SWITCH' option\n        print(json.dumps(button_presses))\n    else:\n        # This should not happen if the input is correct, but as a fallback, cancel.\n        print(json.dumps(['B']))\nexcept Exception as e:\n    print(json.dumps([f'Error: {str(e)}']))",
+    "python_script": "import json\nimport sys\n\ntry:\n    party_list = json.loads(input_data['party_list_json'])\n    target_pokemon_name = input_data['target_pokemon_name']\n\n    target_index = -1\n    for i, name in enumerate(party_list):\n        if name == target_pokemon_name:\n            target_index = i\n            break\n\n    if target_index <= 0: # Can't switch to lead or if not found\n        print(json.dumps(['B']))\n    else:\n        commands = ['Down'] * target_index\n        commands.append('A') # Select the Pokémon\n        commands.append('A') # Select 'SWITCH' from the sub-menu\n        print(json.dumps(commands))\n\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))",
     "history": [
       {
         "commit_message": "feat: Create switch_pokemon tool for general battle switching. This tool takes a target Pokémon's name and the party list to automate switching to any party member. This directly addresses a system critique about inefficient manual switching and replaces the now-deleted, overly specific `switch_train_lead` tool.",
@@ -448,6 +448,16 @@
         "commit_message": "fix: Overhaul battle switch logic. The previous version was completely non-functional, incorrectly returning ['B']. This new version correctly calculates the number of 'Down' presses required from the top of the party list, and adds the two required 'A' presses: one to select the Pokémon and open the sub-menu, and a second to confirm the 'SWITCH' action. This should make battle switching reliable.",
         "timestamp": "2025-11-23T23:47:00.591Z",
         "action_counter": 11789
+      },
+      {
+        "commit_message": "fix: Correct TypeError by handling simple string array. The tool was failing because the script expected a list of objects (e.g., `pokemon['name']`) but was receiving a list of strings. This version corrects the logic to find the index of the target Pokémon's name in the simple string array, resolving the `TypeError` and making the tool functional for its intended use case.",
+        "timestamp": "2025-11-23T23:53:10.578Z",
+        "action_counter": 11805
+      },
+      {
+        "commit_message": "fix: Replace .index() with explicit loop. The tool continued to fail with a TypeError despite previous fixes. This version replaces the `list.index()` method with a more robust and explicit `for` loop to find the target Pokémon's index. This avoids any potential subtle issues with the `.index()` implementation and should definitively resolve the persistent bug.",
+        "timestamp": "2025-11-23T23:53:55.580Z",
+        "action_counter": 11806
       }
     ]
   }
