@@ -2,13 +2,13 @@
 
 ## Current Goals
 - [x] Travel to Mahogany Town (Completed)
-- [ ] Investigate Mahogany Town & Lake of Rage (Primary)
-- [ ] Check Suspicious Shop (Secondary)
+- [x] Check Suspicious Shop (Completed)
+- [ ] Investigate Lake of Rage (Primary)
 
 ## Status
 - **Location:** Mahogany Mart.
-- **Objective:** Investigate the shop.
-- **Current Task:** Investigate suspicious stairs.
+- **Objective:** Go to Lake of Rage.
+- **Current Task:** Exit Mart and head North.
 - **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
