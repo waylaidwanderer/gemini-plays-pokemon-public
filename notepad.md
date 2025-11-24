@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Team Rocket Base B2F.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Get password from defeated Grunt.
+- **Current Task:** Explore East B2F for Boss/Passwords.
 - **Team Status:** Paprika (Lv43, 133/133 HP).
 - **Key Items:** Red Scale.
 - **Backlog:**
