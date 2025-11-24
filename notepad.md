@@ -59,6 +59,7 @@
 - **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
+- **Sprite Deception:** NPCs may use sprites that don't match their trainer class (e.g. Hiker Benjamin looked like a Pokefan). Always verify identity via interaction or battle.
 
 ## National Park
 - **Status:** Entered from South Gate.
