@@ -18,7 +18,7 @@
 - **Ecruteak City:** Gym Cleared (Fog Badge). Kimono Girls defeated (HM03 Surf obtained). Met Bill.
 - **Goldenrod City:** Gym Cleared (Plain Badge). SquirtBottle obtained.
 - **Burned Tower:** Rival Defeated. Legendary Beasts released.
-- **Olivine City:** Gym empty. Jasmine at Lighthouse.
+- **Olivine City:** Gym Leader Jasmine returned.
 - **Olivine Lighthouse:** Climbed to top. Jasmine needs SecretPotion.
 - **Sea Routes (40/41):** Navigated to Cianwood.
 - **Routes 34-39:** Explored and cleared. Trainers defeated.
