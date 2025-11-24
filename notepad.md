@@ -218,3 +218,6 @@
 - **Tool Failure is a Blocker:** A broken tool is a critical failure that halts all other progress. I must fix any malfunctioning tool the instant the bug is confirmed, before taking any other in-game action. Deferring a fix is a violation of core principles.
 - **Tool Debugging:** Tool debugging must be thorough. If a fix fails, the root cause was misdiagnosed. Re-analyze the error and the code's logic from first principles before attempting another fix. Avoid incremental, untested changes.
 - Poisoned Pokémon remain poisoned after a wild battle concludes. They lose HP for every few steps taken in the overworld.
+
+# Lessons from Reflection (Turn 11896)
+- **Check Movesets:** Before switching a low-level or unfamiliar Pokémon into battle for training, I must first check its moveset to ensure it has at least one attacking move. Switching in a Pokémon that can't fight is a wasted turn and puts them at risk.
