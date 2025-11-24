@@ -211,3 +211,4 @@
 # Integrated Lessons
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
 - **Poison Status:** Poisoned Pokémon remain poisoned after a wild battle concludes and lose 1 HP for every four steps taken in the overworld.
+- **Tool Input Format:** I must always ensure the data passed to a tool matches its expected input schema. The `JSONDecodeError` in `select_move` was caused by passing a raw string instead of a JSON string, which was a failure of input validation on my part.

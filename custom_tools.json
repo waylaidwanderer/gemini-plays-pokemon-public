@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\ncurrent_moves_list = json.loads(current_moves_list_str)\n\ntry:\n    move_index = current_moves_list.index(move_to_select)\nexcept ValueError:\n    # This part of the code should ideally not be reached if the input is always correct.\n    # However, it's good practice to handle potential errors.\n    print(json.dumps([\"Error: Move not found\"]))\n    sys.exit(1)\n\n# B+A to reset cursor to the top, with a sleep to ensure UI updates\nbutton_presses = [\"B\", \"A\", \"sleep 500\"]\n\n# Add 'Down' presses to reach the target move\nfor _ in range(move_index):\n    button_presses.append(\"Down\")\n\n# Press 'A' to select the move\nbutton_presses.append(\"A\")\n\nprint(json.dumps(button_presses))",
+    "python_script": "import json\nimport sys\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\nmoves = [move.strip() for move in current_moves_list_str.splitlines() if move.strip()] \ncleaned_moves = [move.replace('▶', '').strip() for move in moves]\n\ntry:\n    # Find the index, ignoring empty strings that might result from splitting\n    non_empty_moves = [m for m in cleaned_moves if m and m != '-']\n    target_index = non_empty_moves.index(move_to_select)\nexcept ValueError:\n    print(f\"Error: Move '{move_to_select}' not found in list: {non_empty_moves}\")\n    sys.exit(1)\n\nbuttons = [\"B\", \"A\", \"sleep 500\"]\nbuttons.extend([\"Down\"] * target_index)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -378,6 +378,11 @@
         "commit_message": "fix: Increase sleep duration for menu reset. The previous B+A reset logic failed due to a timing issue where the game did not register the 'Down' presses after re-entering the move menu. Increasing the sleep duration from 250ms to 500ms should provide a sufficient delay for the UI to stabilize, ensuring the cursor reset is reliable.",
         "timestamp": "2025-11-24T00:39:41.637Z",
         "action_counter": 11907
+      },
+      {
+        "commit_message": "fix: Correctly parse move list from multiline string. The tool was crashing with a JSONDecodeError because it incorrectly used `json.loads()` on a raw string. This commit replaces the faulty logic with `splitlines()` to correctly parse the newline-delimited move list, resolving the critical bug.",
+        "timestamp": "2025-11-24T01:02:20.123Z",
+        "action_counter": 11949
       }
     ]
   },
