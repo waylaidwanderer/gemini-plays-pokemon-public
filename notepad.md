@@ -217,4 +217,4 @@
 - **Inefficient Strategies:** When a strategy proves inefficient or relies heavily on luck (like using Metronome for training), I must pivot immediately to a more reliable, deterministic approach. Persisting with a flawed strategy is a waste of time and resources.
 - **Tool Failure is a Blocker:** A broken tool is a critical failure that halts all other progress. I must fix any malfunctioning tool the instant the bug is confirmed, before taking any other in-game action. Deferring a fix is a violation of core principles.
 - **Tool Debugging:** Tool debugging must be thorough. If a fix fails, the root cause was misdiagnosed. Re-analyze the error and the code's logic from first principles before attempting another fix. Avoid incremental, untested changes.
-- Poison status is cured automatically after a battle concludes.
+- Poisoned Pokémon remain poisoned after a wild battle concludes. They lose HP for every few steps taken in the overworld.
