@@ -7,9 +7,9 @@
 - [ ] Talk to Lance (Primary)
 
 ## Status
-- **Location:** Mahogany Town.
+- **Location:** Mahogany Mart.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Investigate Mahogany Mart.
+- **Current Task:** Explore Secret Base with Lance.
 - **Team Status:** Paprika (Lv41, 127/127 HP). Fully Healed.
 - **Key Items:** Red Scale.
 - **Backlog:**
