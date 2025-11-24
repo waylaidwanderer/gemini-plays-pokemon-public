@@ -6,9 +6,9 @@
 - [ ] Investigate Lake of Rage (Primary)
 
 ## Status
-- **Location:** Route 43 (Heading North).
+- **Location:** Lake of Rage.
 - **Objective:** Investigate Lake of Rage.
-- **Current Task:** Navigate Route 43.
+- **Current Task:** Speak to Gramps and find the Red Gyarados.
 - **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
