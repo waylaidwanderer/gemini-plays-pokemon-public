@@ -7,10 +7,10 @@
 - [ ] Talk to Lance (Primary)
 
 ## Status
-- **Location:** Mahogany Mart.
+- **Location:** Team Rocket Base B1F.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Explore Secret Base with Lance.
-- **Team Status:** Paprika (Lv41, 127/127 HP). Fully Healed.
+- **Current Task:** Find Secret Switch to disable alarms.
+- **Team Status:** Paprika (Lv42, 130/130 HP).
 - **Key Items:** Red Scale.
 - **Backlog:**
   - Cure Miltank (Needs berries).
