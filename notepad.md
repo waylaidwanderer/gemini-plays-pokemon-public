@@ -67,13 +67,6 @@
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 
-## Day Care Center
-- Entered main building. Gramps (Day Care Man) and Granny are inside.
-- **Exits:** Side (Left) to Yard, Front (Down) to Route 34.
-- **Day Care Mechanics:** The side exit (WARP_CARPET_RIGHT) leads to the Day Care Yard/West Route 34.
-- **Fake Tree at (8, 24):** The tree-like object at (8, 24) in the Day Care Yard is NOT cuttable. It is a solid wall.
-- Caught Cirrus (Pidgey) Lv12 on Route 34.
-
 ## Goldenrod Pokecenter 1F (11_20)
 - **Status:** Visited. Healed team.
 - **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).

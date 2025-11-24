@@ -1,32 +1,4 @@
 {
-  "buy_item_quantity": {
-    "description": "Buys a specific quantity of the currently selected item in the shop menu. Assumes the 'How many?' prompt is open with 'x01' selected.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "quantity": {
-          "type": "integer",
-          "description": "The number of items to buy."
-        }
-      },
-      "required": [
-        "quantity"
-      ]
-    },
-    "python_script": "import json\nquantity = int(input_data[\"quantity\"])\nbuttons = []\nif quantity > 1:\n    for _ in range(quantity - 1):\n        buttons.append(\"Up\")\nbuttons.append(\"A\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Add buy_item_quantity tool to automate purchasing multiple items in shops. This reduces repetitive button presses for stocking up on supplies.",
-        "timestamp": "2025-11-21T09:07:28.956Z",
-        "action_counter": 2285
-      },
-      {
-        "commit_message": "feat: Add buy_item_quantity tool to automate purchasing multiple items in shops. This reduces repetitive button presses for stocking up on supplies.",
-        "timestamp": "2025-11-21T22:16:51.727Z",
-        "action_counter": 3066
-      }
-    ]
-  },
   "find_interaction_point": {
     "description": "Calculates the best adjacent tile to stand on to interact with a specific map object. Supports searching by `object_id` (for sprites), `object_name` (for background objects), or explicit `target_x`/`target_y` coordinates. Returns the target coordinates (x, y) and the direction to face. Does NOT return button presses.",
     "input_schema": {
