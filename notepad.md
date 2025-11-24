@@ -158,3 +158,4 @@
 - **Event:** Joey called (Turn 6420). Ignoring for now.
 - **Mahogany Town Info:** Gramps mentioned Gyarados rampage at the Lake of Rage. Likely the next major destination.
 - **Mahogany Town Event:** NPCs are reacting to a Team Rocket announcement or arrival. Confirmed by Pokefan M in Pokemon Center.
+- Mahogany PokeCenter Cooltrainer F: Confirmed mechanic that evolved Pokémon learn moves at later levels.
