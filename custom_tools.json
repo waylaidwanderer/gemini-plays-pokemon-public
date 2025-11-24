@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\n\ninput_data = json.loads(sys.argv[1])\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\ncurrent_moves = current_moves_list_str.splitlines()\ncurrent_moves = [move.strip() for move in current_moves]\nmove_to_select = move_to_select.strip()\n\ntry:\n    move_index = -1\n    for i, move in enumerate(current_moves):\n        cleaned_move = move.replace('▶', '').strip()\n        if cleaned_move == move_to_select:\n            move_index = i\n            break\n    \n    if move_index == -1:\n        sys.exit(1)\n\n    buttons = [\"B\", \"A\", \"sleep 500\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nexcept (ValueError, IndexError) as e:\n    sys.exit(1)",
+    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list = input_data['current_moves_list']\n\n# Clean up the input list: remove cursor, split into lines,\n# strip whitespace, and filter out any empty lines.\nlines = current_moves_list.replace('▶', '').splitlines()\nmoves_list = [move.strip() for move in lines if move.strip()]\n\n# Find the index of the move to select\ntry:\n    move_index = moves_list.index(move_to_select)\nexcept ValueError:\n    # If the move is not found, just back out of the menu\n    print(json.dumps([\"B\"]))\n    exit()\n\n# Start with a menu reset (B to exit, A to re-enter) to guarantee cursor is at the top\npresses = ['B', 'A', 'sleep 500']\n\n# Add down presses with delays to prevent the game from dropping inputs\nfor _ in range(move_index):\n    presses.extend(['Down', 'sleep 100'])\n\n# Final 'A' press to select the move\npresses.append('A')\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -388,6 +388,11 @@
         "commit_message": "fix: Add delays between Down presses. The tool was failing to select the correct move because rapid 'Down' inputs were likely being dropped by the game. This fix adds a 100ms sleep after each 'Down' press to improve reliability. It also adds logic to strip the '▶' cursor character from the input list as a preventative measure.",
         "timestamp": "2025-11-24T02:32:38.139Z",
         "action_counter": 12118
+      },
+      {
+        "commit_message": "fix: Correct move list parsing logic. The previous version failed with an IndexError because it did not filter out empty lines when parsing the move list string, leading to an inaccurate internal representation of the menu and incorrect index calculations. This version, based on the `python_code_debugger` agent's analysis, adds a filter to remove empty strings, ensuring the move index is always correct.",
+        "timestamp": "2025-11-24T03:00:23.603Z",
+        "action_counter": 12126
       }
     ]
   },
