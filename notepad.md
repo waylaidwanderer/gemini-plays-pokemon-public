@@ -176,3 +176,7 @@
 
 # Environmental Mechanics
 - The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
+
+# New Lessons & Mechanics (Reflection)
+- **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
+- **HEADBUTT_TREE:** This is an impassable, interactable tree. It likely requires the Headbutt move to trigger an event, such as a Pokémon encounter.
