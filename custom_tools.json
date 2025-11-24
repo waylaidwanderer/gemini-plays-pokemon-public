@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_raw = input_data['current_moves_list']\n\nmoves = [move.replace('▶', '').strip() for move in current_moves_list_raw.splitlines() if move.strip()]\n\n# Find the index of the move to select\ntarget_index = -1\nfor i, move in enumerate(moves):\n    if move == move_to_select:\n        target_index = i\n        break\n\nif target_index == -1:\n    print(json.dumps([\"A\"])) # Default to first move if not found\n    sys.exit()\n\nbuttons = []\n# Reset cursor to top of the menu\nbuttons.extend([\"B\", \"sleep 500\", \"A\", \"sleep 1500\"])\n\n# Navigate to the target move\nfor _ in range(target_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 300\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_raw = input_data['current_moves_list']\n\nmoves = [move.replace('▶', '').strip() for move in current_moves_list_raw.splitlines() if move.strip()]\n\ntarget_index = -1\nfor i, move in enumerate(moves):\n    if move == move_to_select:\n        target_index = i\n        break\n\nif target_index == -1:\n    print(json.dumps([\"A\"])) \n    sys.exit()\n\nbuttons = []\n# New cursor reset logic: Spam 'Up' to guarantee cursor is at the top\nbuttons.extend([\"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\"])\nbuttons.append(\"sleep 500\") # Wait for UI to settle\n\nfor _ in range(target_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 300\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -458,6 +458,11 @@
         "commit_message": "fix: Increase sleep durations to prevent dropped inputs. The tool has been repeatedly failing to select the correct move because the game engine is not registering rapid 'Down' presses after the B+A cursor reset. This commit significantly increases the post-reset sleep to 1500ms and the inter-press sleep to 300ms to create a much more stable window for the UI to update, which should definitively resolve the input dropping issue.",
         "timestamp": "2025-11-24T19:21:58.375Z",
         "action_counter": 13634
+      },
+      {
+        "commit_message": "refactor: Replace B+A reset with 'Up' spam. The B+A cursor reset logic has been proven unreliable, repeatedly failing to reset the cursor and causing the wrong move to be selected. This new version replaces it with a brute-force 'Up' spam (4 presses), which should be a more robust and game-engine-agnostic method to guarantee the cursor is at the top of the move list before selection.",
+        "timestamp": "2025-11-24T19:54:02.947Z",
+        "action_counter": 13693
       }
     ]
   },
