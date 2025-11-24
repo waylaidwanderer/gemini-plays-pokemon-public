@@ -7,9 +7,9 @@
 - [ ] Talk to Lance (Primary)
 
 ## Status
-- **Location:** Lake of Rage.
-- **Objective:** Talk to Lance.
-- **Current Task:** Navigate to shore and speak to Lance.
+- **Location:** Mahogany Town.
+- **Objective:** Investigate Radio Broadcast.
+- **Current Task:** Heal at Pokemon Center.
 - **Team Status:** Paprika (Lv41, 48/127 HP). Warning: Low HP.
 - **Key Items:** Red Scale.
 - **Backlog:**
