@@ -178,3 +178,6 @@
 
 # Tile & Object Mechanics (Post-Reflection Update)
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+
+# Environmental Mechanics
+- The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
