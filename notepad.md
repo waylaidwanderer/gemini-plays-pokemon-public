@@ -164,3 +164,4 @@
 - **Mechanic Confirmed:** Persian Statues contain security cameras. Crossing their line of sight triggers Rocket Grunt battles.
 - **Objective:** Find a 'secret switch' to disable the security system and stop the Grunts from respawning.
 - **Trap Warning:** The security cameras in Team Rocket Base B1F (e.g., at 6,1) create an infinite loop of battles if you remain in their line of sight. You must move immediately after a battle ends.
+- **Floor Traps:** A Grunt warned of traps set in the floor. Proceed with caution.
