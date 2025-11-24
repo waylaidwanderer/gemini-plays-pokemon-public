@@ -1,10 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Earn the Storm Badge (Primary)
-- [x] Obtain HM02 Fly (Primary)
-- [x] Teach Fly to Cirrus (Primary)
-- [ ] Deliver SecretPotion to Jasmine (Primary)
+- [x] Deliver SecretPotion to Jasmine (Primary)
+- [ ] Earn the Mineral Badge (Primary)
 
 ## Status
 - **Location:** Cianwood Pokecenter (4,3).
