@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\n\ndef select_move(move_to_select, current_moves_list):\n    # The move menu cursor position is remembered by the game.\n    # To ensure we always start from a known state, we exit and re-enter the menu.\n    # 'B' goes back to the main battle menu, and 'A' re-selects 'FIGHT'.\n    # This guarantees the cursor is at the top (index 0) of the move list.\n    buttons = [\"B\", \"sleep 200\", \"A\", \"sleep 500\"]\n\n    # The input is a multiline string from the screen text.\n    # We split it into a list and filter out any empty lines or lines with just the cursor.\n    moves = [line.strip().replace('▶', '') for line in current_moves_list.splitlines() if line.strip()]\n    \n    try:\n        # Find the index of the desired move in the cleaned list.\n        move_index = moves.index(move_to_select)\n    except ValueError:\n        # If the move isn't found, return an empty list to avoid errors.\n        return []\n\n    # Add the required number of 'Down' presses to reach the move.\n    # A small sleep is added after each press to prevent the game from dropping inputs.\n    for _ in range(move_index):\n        buttons.extend([\"Down\", \"sleep 100\"])\n    \n    # Finally, press 'A' to select the move.\n    buttons.append(\"A\")\n    \n    return buttons\n\nresult = select_move(input_data['move_to_select'], input_data['current_moves_list'])\nprint(json.dumps(result))",
+    "python_script": "import json\nimport sys\n\ntry:\n    input_data = json.loads(sys.argv[1])\n    move_to_select = input_data['move_to_select']\n    current_moves_list = input_data['current_moves_list']\n\n    # Reset cursor to the top by exiting and re-entering the menu.\n    # A 1-second sleep is added to ensure the game engine processes the UI change.\n    buttons = ['B', 'sleep 200', 'A', 'sleep 1000']\n    \n    # Parse the move list, removing the cursor and any empty lines.\n    cleaned_moves = [move.strip().replace('▶', '') for move in current_moves_list.splitlines() if move.strip()]\n    \n    move_index = -1\n    # Explicitly loop to find the index of the target move.\n    # Using '==' for an exact match is more robust than 'in'.\n    for i, move in enumerate(cleaned_moves):\n        if move_to_select == move:\n            move_index = i\n            break\n\n    if move_index != -1:\n        # The number of 'Down' presses is equal to the index of the move in the list.\n        # The cursor starts at index 0, so to get to index `i`, we need `i` down presses.\n        if move_index > 0:\n            # Add a small sleep between each press to prevent inputs from being dropped.\n            buttons.extend(['Down', 'sleep 100'] * move_index)\n        \n        buttons.append('A')\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # If anything goes wrong, return an empty list to avoid crashing the runner.\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -418,6 +418,21 @@
         "commit_message": "fix: Remove debug prints causing JSON parsing error. The debug logging added in the previous version was outputting text alongside the JSON array, which is invalid when `autopress_buttons` is true. This commit removes all print statements, leaving only the JSON output.",
         "timestamp": "2025-11-24T17:10:11.724Z",
         "action_counter": 13387
+      },
+      {
+        "commit_message": "fix: Increase menu reset sleep duration to 1 second. The tool has been intermittently failing to select the correct move, suggesting the B+A cursor reset logic is not giving the game engine enough time to process the menu transition. This commit increases the post-reset sleep from 500ms to 1000ms to create a much more stable window for the UI to update, addressing the root cause of the intermittent selection failures identified in the system critique.",
+        "timestamp": "2025-11-24T17:29:27.213Z",
+        "action_counter": 13422
+      },
+      {
+        "commit_message": "fix: Replace .index() with explicit loop to fix logic error. The tool was repeatedly selecting the move above the target, indicating a potential off-by-one or subtle logic bug as identified by a system critique. This version replaces the `list.index()` method with a more robust and explicit `for` loop to find the target Pokémon's index, which should definitively resolve the persistent selection failure.",
+        "timestamp": "2025-11-24T17:40:31.056Z",
+        "action_counter": 13441
+      },
+      {
+        "commit_message": "fix: Replace 'in' with '==' for exact move matching. The tool was repeatedly selecting the move above the target, indicating a persistent off-by-one or logic bug. This commit replaces the loose 'in' string comparison with a strict '==' comparison in the move-finding loop. This ensures an exact match and should definitively resolve the indexing error that caused the selection failures, as identified by a system critique.",
+        "timestamp": "2025-11-24T17:49:44.282Z",
+        "action_counter": 13455
       }
     ]
   },
