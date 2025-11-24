@@ -6,9 +6,10 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Mt. Mortar 1F Inside. Eastern section confirmed as dead end (Revive obtained). Backtracking to explore NW corridor.
-- **Objective:** Descend Mt. Mortar to reach Mahogany Town.
-- **Team Status:** Healthy. Paprika (Lv40) leading.
+- **Location:** Mt. Mortar 1F Inside (East Entrance Area).
+- **Objective:** Traverse Mt. Mortar to Mahogany Town.
+- **Current Task:** Activating Strength to move Boulder at (21, 43) and access the upper northern/western path.
+- **Team Status:** Healthy. Paprika (Lv40) leading. Basalt (Lv17) activating Strength.
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
