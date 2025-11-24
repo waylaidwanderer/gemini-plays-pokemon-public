@@ -143,19 +143,9 @@
 - **BUOY:** Impassable obstacle.
 - **Lesson:** Navigation tools must explicitly check player state (e.g., surfing) to correctly identify traversable tiles like WATER.
 
-## Route 41
-- **Status:** Entered from Route 40 (North).
-- **Geography:** Sea route with Whirl Islands.
-- **Goal:** Navigate to Cianwood City.
-- Encountered another 'Fake Silver' at (32, 6). It is a Swimmer.
-- Defeated Swimmer Charlie (Fake Silver) at (32, 6).
-- Defeated Swimmer Susie at (23, 17).
-- Defeated Swimmer Kirk (Fake Silver) at (32, 31).
-- Navigated East to Column 46 to bypass buoys. Heading South.
-- Blocked by buoys at (48, 50) and (45, 53). Traversing West along Row 52 to find a gap.
-- Encountered Swimmer Girl at (9, 50) blocking Row 52. Flanking North to bypass.
-- Defeated Swimmer Wendy (Horsea Lv21 x2) at (10, 50).
-- Paprika reached Lv38.
+## Route 41 (Cleared)
+- Traversed sea route to Cianwood.
+- Defeated Swimmers Charlie, Susie, Kirk, Wendy.
 ## Cianwood City
 - **Gym:** Leader Chuck (Fighting). Weak to Psychic.
 - **Puzzle:** Requires Strength to move boulders.
