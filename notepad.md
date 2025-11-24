@@ -1,8 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Deliver SecretPotion to Jasmine (Primary)
-- [ ] Earn the Mineral Badge (Primary)
+- [x] Deliver SecretPotion to Jasmine (Completed)
+- [x] Earn the Mineral Badge (Completed)
+- [ ] Travel to Mahogany Town (Primary)
 
 ## Status
 - **Location:** Olivine Gym.
