@@ -170,13 +170,15 @@
 - Warp at B1F (25,2) is a ONE-WAY arrival point. It does not allow return to (5,15).
 - Trap Tiles (Rocket Base): May have lower escape ratios or prevent escape entirely. Be prepared to fight.
 
-## Team Rocket Base B2F
-- Objective: Defeat Grunts to collect 2 passwords.
-- Lance is located here and acts as a Healer.
-- Updated `find_path` tool to treat furniture (Counters, PCs, etc.) as solid obstacles.
-## Team Rocket Base B3F
-- **Objective:** Obtain passwords from the Female Grunt and Male Grunt in the lab.
-- **Targets:**
-  - Rocket Girl (Password: Slowpoketail?)
-  - Male Grunt (Password: Raticate Tail?)
-  - Boss (Executive) behind locked door.
+## Team Rocket Base
+### B1F & B2F (Cleared)
+- **Traps (B1F):** Dense traps in West corridor. Confirmed: (2,7), (2,10-12), (3,8), (4,7), (4,9), (4,11-13).
+- **Lance (B2F):** Heals team at (5, 13).
+
+### B3F (Current)
+- **Objective:** Get 2 Passwords for Executive's door.
+- **Status:**
+  - [x] Scientist Ross: Defeated.
+  - [ ] Rocket Girl: At (21, 7). Priority Target.
+  - [ ] Male Grunt: Location TBD.
+  - [ ] Item Ball: At (28, 9).
