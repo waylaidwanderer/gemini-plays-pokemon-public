@@ -187,4 +187,4 @@
 # Reminders
 
     - Juggler IRWIN called, just to introduce himself.
-- **Follow Documented Strategy & Perform Immediate Maintenance:** My documented strategies and principles are useless if I don't follow them. The repeated hallucination of a `path (tool)` is a critical failure of this principle; the correct procedure is to call the `find_path` tool, then use the `path` button with the generated plan. Similarly, data hygiene tasks must be performed immediately, not deferred.
+- **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
