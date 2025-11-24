@@ -8,7 +8,7 @@
 ## Status
 - **Location:** Mahogany Mart.
 - **Objective:** Investigate the shop.
-- **Current Task:** Talk to Black Belt.
+- **Current Task:** Investigate suspicious stairs.
 - **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
