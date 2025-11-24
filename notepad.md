@@ -95,6 +95,7 @@
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
+- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
 # Custom Tools & Agents
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
@@ -176,18 +177,6 @@
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **Check Movesets:** Before switching a low-level or unfamiliar Pokémon into battle for training, I must first check its moveset to ensure it has at least one attacking move. Switching in a Pokémon that can't fight (like Jubilee) is a wasted turn and puts them at risk.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-
-# General Object Interaction
-- To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
-- **LADDER**: A traversable warp tile that moves the player between floors.
+- **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **Menu Input Separation:** To avoid input errors, especially in multi-step menu actions like switching Pokémon, I must separate directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') into different turns. Move the cursor in one turn, then press 'A' to confirm in the next.
-
-# Battle Menu Layout
-- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
-- **Menu Layout Verification:** Before creating a tool to automate menu navigation, I must first manually navigate the menu to confirm its layout (e.g., 2x2 grid vs. vertical list). A flawed assumption about the layout will cause the tool to fail.
-
-# Party Development
-- Chrono (Hoothoot) grew to Lv11 and learned PECK. This is a reliable Flying-type attacking move.
-
-# Tile & Object Mechanics
-- Route 30 has one-way ledges (`LEDGE_HOP_DOWN`) that prevent northbound travel from Cherrygrove City. The route is effectively a one-way path when traveling south from Route 31.
+- **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
