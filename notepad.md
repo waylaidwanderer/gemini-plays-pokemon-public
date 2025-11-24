@@ -185,6 +185,6 @@
 - **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
 
 # Reminders
-- Place a map marker for Hiker Anthony's rematch the next time I am on Route 33.
+
 - **Adhere to Documented Procedures:** Hallucinating tools (like a non-existent `path` tool) is a critical failure. I must strictly follow the documented, two-step procedures for complex actions like pathfinding (`find_path` then `path` button). This prevents wasted turns and ensures reliable execution.
     - Juggler IRWIN called, just to introduce himself.
