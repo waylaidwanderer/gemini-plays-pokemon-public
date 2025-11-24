@@ -138,7 +138,7 @@
   - Good Rod obtained.
 
 # Route 42 & Mt. Mortar
-- **Status:** Exploring Mt. Mortar 1F Outside.
+- **Status:** Route 42 (East Side). Defeated Pokemaniac Shane.
 - **Goal:** Traverse to Mahogany Town.
 - **Geography:** Entrance at (3, 33). Inner cave entrance at (11, 21).
 - **Items:** Ultra Ball found on Route 42.
