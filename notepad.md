@@ -188,3 +188,6 @@
 
 # Party Development
 - Chrono (Hoothoot) grew to Lv11 and learned PECK. This is a reliable Flying-type attacking move.
+
+# Tile & Object Mechanics
+- Route 30 has one-way ledges (`LEDGE_HOP_DOWN`) that prevent northbound travel from Cherrygrove City. The route is effectively a one-way path when traveling south from Route 31.
