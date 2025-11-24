@@ -175,7 +175,7 @@
 - **Objective:** Get 2 Passwords for Executive's door.
 - **Status:**
   - [x] Scientist Ross: Defeated.
-  - [x] Rocket Girl: Defeated at (21, 7). **Get Password.**
+  - [x] Rocket Girl: Defeated at (21, 7). Password: **SLOWPOKETAIL**.
   - [ ] Male Grunt: Search West Office.
   - [ ] Item Ball: At (28, 9).
 
