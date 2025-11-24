@@ -5,13 +5,12 @@
 - [ ] Earn the Mineral Badge (Primary)
 
 ## Status
-- **Location:** Cianwood Pokecenter (4,3).
-- **Objective:** Fly to Olivine City.
+- **Location:** Olivine City.
+- **Objective:** Challenge Jasmine at Olivine Gym.
 - **Team Status:** Fully Healed. Cirrus knows Fly.
-- **Inventory:** HM02 Fly obtained. SecretPotion obtained.
+- **Inventory:** HM02 Fly obtained. SecretPotion delivered.
 - **Gym Intel:** Chuck Defeated. Storm Badge obtained.
 - **Backlog:**
-  - Deliver SecretPotion to Jasmine (Olivine).
   - Cure Miltank (Needs berries).
 
 ## Completed Areas Summary
