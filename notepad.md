@@ -203,3 +203,4 @@
 - Defeated Eusine (Drowzee Lv23, Electrode Lv25, Haunter Lv23). Paprika HP Critical (24/117).
 - **Status Update:** Arrived in Olivine City via Fly. Heading to Lighthouse to deliver SecretPotion.
 - **Event:** Joey called (Turn 6420). Ignoring for now.
+- **Mahogany Town Info:** Gramps mentioned Gyarados rampage at the Lake of Rage. Likely the next major destination.
