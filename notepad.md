@@ -5,9 +5,9 @@
 - [ ] Earn the Mineral Badge (Primary)
 
 ## Status
-- **Location:** Olivine City.
-- **Objective:** Challenge Jasmine at Olivine Gym.
-- **Team Status:** Fully Healed. Cirrus knows Fly.
+- **Location:** Olivine Gym.
+- **Objective:** Defeat Jasmine (Steel-type).
+- **Team Status:** Fully Healed. Paprika (Fire) & Basalt (Ground) are key.
 - **Inventory:** HM02 Fly obtained. SecretPotion delivered.
 - **Gym Intel:** Chuck Defeated. Storm Badge obtained.
 - **Backlog:**
