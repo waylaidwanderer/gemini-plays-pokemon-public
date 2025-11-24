@@ -6,10 +6,10 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Mt. Mortar 1F Inside (East Entrance Area).
+- **Location:** Mt. Mortar 1F Outside (East Side).
 - **Objective:** Traverse Mt. Mortar to Mahogany Town.
-- **Current Task:** Activating Strength to move Boulder at (21, 43) and access the upper northern/western path.
-- **Team Status:** Healthy. Paprika (Lv40) leading. Basalt (Lv17) activating Strength.
+- **Current Task:** Exploring the southeast path to find the exit to Route 42.
+- **Team Status:** Healthy. Paprika (Lv40) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
