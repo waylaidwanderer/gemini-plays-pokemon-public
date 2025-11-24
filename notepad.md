@@ -7,9 +7,9 @@
 - [ ] Stop the Radio Signal (Current)
 
 ## Status
-- **Location:** Team Rocket Base B3F.
+- **Location:** Team Rocket Base B2F.
 - **Objective:** Open Transmitter Door (B2F).
-- **Current Task:** Go to Ladder at (27, 14) to reach B2F South.
+- **Current Task:** Go to Locked Door at (15, 12).
 - **Team Status:** Paprika (Lv44, 108/137 HP).
 - **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
 - **Backlog:**
