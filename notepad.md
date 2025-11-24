@@ -34,7 +34,7 @@
 - **Levels Over Type Advantage:** A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
 - **Low-HP Threat:** A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
 - **Type Immunity vs. Level Disparity:** Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
-- **Positional & Data Verification:** I must ALWAYS verify my current `(x, y)` coordinates AND map ID in the Game State Information after ANY interruption (battle, phone call, map transition, menu, etc.) before planning my next move. My memory of map layouts or my location can be flawed; the game state is the absolute source of truth. Assuming a transition has occurred or a path has completed without verification is a critical failure.
+
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive.
 - **Trainer Line of Sight:** Assume a trainer can see you unless their facing direction and the path geometry make it impossible. When party health is critical, do not risk walking near trainers; find a guaranteed safe path or backtrack.
@@ -188,7 +188,7 @@
 
 # Data Hygiene Tasks
 - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE in areas without strong POKéMON.
-- **Positional & Data Verification:** I must ALWAYS verify my current `(x, y)` coordinates AND map ID in the Game State Information after ANY interruption (battle, phone call, map transition, menu, etc.) before planning my next move. My memory of map layouts or my location can be flawed; the game state is the absolute source of truth. Assuming a transition has occurred or a path has completed without verification is a critical failure.
+
 - Hiker ANTHONY called again, confirming he's on Route 33 for a rematch.
 
 # Party Development
@@ -204,7 +204,7 @@
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 
 # Lessons from Reflection (Turn 11532)
-- **Positional & Data Verification:** I must ALWAYS verify my current `(x, y)` coordinates AND map ID in the Game State Information after ANY interruption (battle, phone call, map transition, menu, etc.) before planning my next move. My memory of map layouts or my location can be flawed; the game state is the absolute source of truth. Assuming a transition has occurred or a path has completed without verification is a critical failure.
+
 - **Discipline in Automation:** I must be more disciplined in using my own automation tools (`switch_train_lead`, `select_battle_option`) instead of performing actions manually. Failing to use existing automation is inefficient and error-prone.
 
 # Lessons from Reflection (Turn 11740)
