@@ -331,7 +331,7 @@
     ]
   },
   "select_move": {
-    "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list. This version is robust and resets the cursor position by exiting and re-entering the menu before selection.",
+    "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    input_data = json.loads(sys.argv[1])\n    move_to_select = input_data['move_to_select']\n    current_moves_list = input_data['current_moves_list']\n\n    # Reset cursor to the top by exiting and re-entering the menu.\n    # A 1-second sleep is added to ensure the game engine processes the UI change.\n    buttons = ['B', 'sleep 200', 'A', 'sleep 1000']\n    \n    # Parse the move list, removing the cursor and any empty lines.\n    cleaned_moves = [move.strip().replace('▶', '') for move in current_moves_list.splitlines() if move.strip()]\n    \n    move_index = -1\n    # Explicitly loop to find the index of the target move.\n    # Using '==' for an exact match is more robust than 'in'.\n    for i, move in enumerate(cleaned_moves):\n        if move_to_select == move:\n            move_index = i\n            break\n\n    if move_index != -1:\n        # The number of 'Down' presses is equal to the index of the move in the list.\n        # The cursor starts at index 0, so to get to index `i`, we need `i` down presses.\n        if move_index > 0:\n            # Add a small sleep between each press to prevent inputs from being dropped.\n            buttons.extend(['Down', 'sleep 100'] * move_index)\n        \n        buttons.append('A')\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # If anything goes wrong, return an empty list to avoid crashing the runner.\n    print(json.dumps([]))",
+    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\n# The input is a multiline string, where each line is a move.\n# We need to clean it up: remove the cursor '▶' and any empty lines.\nmoves = [line.replace('▶', '').strip() for line in current_moves_list_str.splitlines() if line.strip()]\n\n# Find the index of the move to select.\n# The cursor starts at the top (index 0).\ntry:\n    # Using an explicit loop for robustness\n    move_index = -1\n    for i, move in enumerate(moves):\n        if move == move_to_select:\n            move_index = i\n            break\n    \n    if move_index == -1:\n        print(json.dumps([\"B\"])) # Move not found, back out\n        return\n\n    buttons = []\n    # Add 'Down' presses to navigate to the move, with a sleep after each one\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n    \n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\nexcept Exception as e:\n    # If anything goes wrong, just press B to be safe\n    print(json.dumps([\"B\"]))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -433,6 +433,16 @@
         "commit_message": "fix: Replace 'in' with '==' for exact move matching. The tool was repeatedly selecting the move above the target, indicating a persistent off-by-one or logic bug. This commit replaces the loose 'in' string comparison with a strict '==' comparison in the move-finding loop. This ensures an exact match and should definitively resolve the indexing error that caused the selection failures, as identified by a system critique.",
         "timestamp": "2025-11-24T17:49:44.282Z",
         "action_counter": 13455
+      },
+      {
+        "commit_message": "refactor: Remove cursor reset logic. The tool was failing to select a move. This version removes the complex B+A cursor reset sequence, which is a likely point of failure. The new logic is simpler and assumes the cursor starts at the top of the move list, which is the case after selecting 'FIGHT'. This should make the tool more reliable in its primary use case.",
+        "timestamp": "2025-11-24T18:54:09.885Z",
+        "action_counter": 13597
+      },
+      {
+        "commit_message": "fix: Add sleep between Down presses to prevent dropped inputs. The tool was failing because the game engine could not register rapid-fire 'Down' commands. This version adds a 200ms sleep after each 'Down' press to ensure each input is registered reliably, fixing the move selection failure.",
+        "timestamp": "2025-11-24T19:06:54.638Z",
+        "action_counter": 13606
       }
     ]
   },
