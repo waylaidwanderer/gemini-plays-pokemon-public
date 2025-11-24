@@ -160,3 +160,5 @@
 - **Mahogany Town Info:** Gramps mentioned Gyarados rampage at the Lake of Rage. Likely the next major destination.
 - **Mahogany Town Event:** NPCs are reacting to a Team Rocket announcement or arrival. Confirmed by Pokefan M in Pokemon Center.
 - Mahogany PokeCenter Cooltrainer F: Confirmed mechanic that evolved Pokémon learn moves at later levels.
+- **Mechanic Confirmed:** Persian Statues contain security cameras. Crossing their line of sight triggers Rocket Grunt battles.
+- **Objective:** Find a 'secret switch' to disable the security system and stop the Grunts from respawning.
