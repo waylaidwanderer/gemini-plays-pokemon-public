@@ -207,3 +207,7 @@
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent. A flawed assumption about UI behavior can lead to repeated tool failures.
 
 - Poisoned Pokémon remain poisoned after a wild battle concludes. They lose HP for every few steps taken in the overworld.
+
+# Integrated Lessons
+- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
+- **Poison Status:** Poisoned Pokémon remain poisoned after a wild battle concludes and lose 1 HP for every four steps taken in the overworld.
