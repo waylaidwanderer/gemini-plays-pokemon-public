@@ -8,8 +8,9 @@
 ## Status
 - **Location:** Lake of Rage.
 - **Objective:** Investigate Lake of Rage.
-- **Current Task:** Weaken and catch the Red Gyarados.
-- **Team Status:** Healthy. Paprika (Lv41) leading.
+- **Current Task:** Talk to Lance at the shore.
+- **Team Status:** Paprika (Lv41, 48/127 HP). Warning: Low HP.
+- **Key Items:** Red Scale (Obtained from Red Gyarados).
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
