@@ -63,10 +63,10 @@
 - BERRY trees grow new BERRIES every day.
 - Healing at a Pokémon Center restores all HP and PP for the entire party and cures any status conditions.
 
-# Current Quest: Defeat Whitney
-- **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
-- **Status:** Training on Route 32.
-- **Sub-task:** Investigate unmarked warp at (33, 9) in Goldenrod City after dealing with Whitney.
+# Current Quest: Find a Path North
+- **Objective:** Find a way to progress north past the one-way route blockades on Route 30 and Route 46.
+- **Status:** Trapped on Route 46, exploring south to find an exit.
+- **Sub-task:** Find a suitable training area on this route to level up for whatever lies ahead.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
