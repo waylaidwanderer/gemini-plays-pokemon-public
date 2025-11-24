@@ -66,17 +66,6 @@
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 
-## Goldenrod Pokecenter 1F (11_20)
-- **Status:** Visited. Healed team.
-- **Geography:** Entrance (3,7). Counter (3,2). 2F Stairs (0,7).
-- **NPCs:** Nurse Joy, Gameboy Kid, Lass, Pokefan F.
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - COUNTER: Impassable. Interact from adjacent tile.
-  - WARP_CARPET_DOWN: Exit to Goldenrod City.
-  - LADDER: To 2F.
-- **Battle Cursor Memory:** The move cursor remembers the last used move. In Turn 3406, a manual move selection failed (selected Tackle) because the cursor was *already* on Rock Throw, causing the inputs to wrap to Tackle. Always check Screen Text for `▶` before navigating.
-
 ## Route 35 National Park Gate
 - **Status:** Entered.
 - **NPCs:** Officer (Bug Catching Contest) at (2, 1).
