@@ -114,11 +114,16 @@
   - HM04 Strength obtained.
   - Good Rod obtained.
 
-# Route 42 & Mt. Mortar
-- **Status:** Route 42 (East Side). Defeated Pokemaniac Shane and Hiker Benjamin. Paprika grew to Lv41.
-- **Goal:** Traverse to Mahogany Town.
-- **Geography:** Entrance at (3, 33). Inner cave entrance at (11, 21).
-- **Items:** Ultra Ball found on Route 42.
+## Route 42 & Mt. Mortar (Traversed)
+- **Status:** Traversed East to Mahogany.
+- **Key Events:** Defeated Pokemaniac Shane, Hiker Benjamin. Paprika Lv41.
+- **Geography:** Mt. Mortar entrances at (3, 33), (11, 21).
+- **Items:** Ultra Ball.
+
+## Route 43
+- **Status:** Exploring North towards Lake of Rage.
+- **Geography:** Route connecting Mahogany Town and Lake of Rage.
+- **Signs:** (11, 49) - Route 43 Sign.
 ## Olivine Lighthouse (Cleared)
 - **Summary:** Delivered SecretPotion to Jasmine.
 - **Puzzle Solution:** To reach top: 5F West Ladder -> Drop into Pit (16,7) -> Walk North to Pit (8,3) -> Climb Central Ladders.
