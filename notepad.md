@@ -190,4 +190,4 @@
 - **Use Battle Tools:** To ensure accuracy and efficiency, I must consistently use the `select_battle_option` tool to navigate the main battle menu instead of attempting manual button presses.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails repeatedly, it's safer to replace a smaller, unique line of text as an anchor rather than a large, multi-line block which is prone to mismatch errors.
 - **Tile Mechanic Verification:** The ASCII map legend for Route 30 mentions `LONG_GRASS`. I need to find and test this tile type to confirm its mechanics.
-- **LONG_GRASS**: The ASCII map legend lists this tile type with the same emoji as TALL_GRASS. Based on exploration and map data, it appears to be functionally identical (traversable, triggers wild encounters) or is not actually present on Route 30.
+- **LONG_GRASS**: The ASCII map legend lists this tile type, but analysis of the map's XML data shows no tiles of this type are actually present on Route 30. This serves as a lesson to prioritize raw map data over potentially inaccurate ASCII map legends.
