@@ -6,7 +6,7 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Mt. Mortar 1F Outside (Northeast Plateau).
+- **Location:** Mt. Mortar 1F Inside. Eastern section confirmed as dead end (Revive obtained). Backtracking to explore NW corridor.
 - **Objective:** Descend Mt. Mortar to reach Mahogany Town.
 - **Team Status:** Healthy. Paprika (Lv40) leading.
 - **Backlog:**
