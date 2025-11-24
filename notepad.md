@@ -5,9 +5,9 @@
 - [ ] Talk to Lance (Primary)
 
 ## Status
-- **Location:** Team Rocket Base B1F.
+- **Location:** Team Rocket Base B1F (North-East).
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Find Secret Switch to disable alarms.
+- **Current Task:** Explore West past the security cameras.
 - **Team Status:** Paprika (Lv42, 130/130 HP).
 - **Key Items:** Red Scale.
 - **Backlog:**
