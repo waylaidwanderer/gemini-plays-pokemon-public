@@ -112,12 +112,8 @@
 - **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
 - **Phone Calls:**
-    - Youngster JOEY called, wanting a rematch. He's on Route 30.
-    - Youngster JOEY called again, confirming he's on Route 30 for a rematch.
-    - Youngster JOEY called a third time for a rematch on Route 30.
-    - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE in areas without strong POKéMON.
-    - Hiker ANTHONY called again, confirming he's on Route 33 for a rematch.
-    - Youngster JOEY called for a rematch on Route 30.
+    - Youngster JOEY called multiple times for a rematch on Route 30.
+    - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He also called for a rematch on Route 33.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
