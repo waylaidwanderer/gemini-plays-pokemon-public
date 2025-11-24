@@ -1,8 +1,7 @@
 # Strategic Principles & Lessons Learned
-- **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task (e.g., `select_battle_option`, `switch_train_lead`), I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
+- **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task (e.g., `select_battle_option`), I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 - **DEBUG TOOLS IMMEDIATELY:** If a trusted tool provides an output that contradicts obvious reality (e.g., 'No path found' to a clearly visible and reachable tile), the tool is broken. Debugging and fixing the tool becomes the absolute highest priority, superseding any other gameplay objective.
 - **TRUST DATA OVER INTUITION:** My custom tools (especially pathfinders) analyze the raw game data, which is the absolute source of truth. My visual interpretation of the screen or my memory can be flawed. If a tool reports 'No path found' or provides contradictory information, I must treat its output as the discovery of a fact about the game state (e.g., a hidden wall, a flawed assumption), not as a bug in the tool itself. I must always verify my root assumptions against the game data before pursuing complex solutions.
-- **Automation Consistency:** I must consistently use my automation tools (like `select_battle_option`) to improve efficiency and reduce errors, especially when prompted by system critiques. Inconsistent use is a failure of strategy. For built-in tools, I must use them as designed (e.g., passing 'RUN' as an argument to `select_battle_option`) rather than manually scripting button presses.
 - **Tool & Knowledge Base Maintenance:** If a tool is flawed or an in-game observation contradicts a hypothesis, my absolute highest priority is to immediately correct the tool or my internal knowledge base (notepad). Deferring maintenance is a critical failure.
 - **Tool Consistency:** When one tool's logic is updated (like `find_path`), any other tools that use similar logic must be updated immediately to prevent conflicting results and strategic errors.
 - **Tool Debugging Priority:** When a core tool like a pathfinder fails, debugging it becomes the absolute highest priority, superseding all gameplay goals. A systematic approach is required: 1. Confirm the tool is the problem, not a misunderstanding of the map (e.g., by testing a path manually). 2. Add targeted logging to trace execution and understand the algorithm's decision process. 3. Analyze logs to form a specific hypothesis about the bug before attempting a fix. Do not blindly refactor or revert without evidence.
@@ -34,7 +33,6 @@
 - **Levels Over Type Advantage:** A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
 - **Low-HP Threat:** A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
 - **Type Immunity vs. Level Disparity:** Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
-
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
 - **Proactive Object Marking:** I must mark any unidentified object as soon as it appears on screen. Waiting until it blocks my path is inefficient and reactive.
 - **Trainer Line of Sight:** Assume a trainer can see you unless their facing direction and the path geometry make it impossible. When party health is critical, do not risk walking near trainers; find a guaranteed safe path or backtrack.
@@ -50,11 +48,13 @@
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails, it's better to use a smaller, more unique line of text as the anchor for replacement rather than a large, complex block which is prone to mismatch errors.
 - **Resilience & Stat-lowering moves:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker. Furthermore, repeated use of stat-lowering moves (like TAIL WHIP) can quickly turn an easy battle into a risky situation by neutralizing a level advantage.
 - **Efficient Traversal:** When the primary goal is to traverse an area with frequent wild encounters (like a cave), using a Repel is more time and resource-efficient than fighting or running from every battle.
-
 - **Pathfinding Procedure:** The correct, two-step navigation process is: 1. Call the `find_path` tool to generate a list of coordinates. 2. In the following turn, use the `path` button with the generated `path_plan`. Any other method, such as calling a non-existent `path` tool, is a hallucination and will fail.
 - **Menu Navigation:** Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
 - **Inefficient Strategies:** When a strategy proves inefficient or clumsy (like fumbling through menus mid-battle), I must pivot immediately to a more direct solution (like switching to a stronger Pokémon) instead of persisting with the flawed approach. I must actively identify and challenge false constraints that limit my strategic options.
 - **Use Battle Tools:** To ensure accuracy and efficiency, I must consistently use the `select_battle_option` tool to navigate the main battle menu instead of attempting manual button presses.
+- **Verify Warp Types:** Before setting a navigation goal with `is_warp: true`, I must verify that the destination tile is a `DOOR`, `WARP_CARPET`, `LADDER`, or `CAVE`. Standard map-edge transitions are `FLOOR` tiles and are not warps.
+- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
+- **Tool Input Format:** I must always ensure the data passed to a tool matches its expected input schema. The `JSONDecodeError` in `select_move` was caused by passing a raw string instead of a JSON string, which was a failure of input validation on my part.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -85,7 +85,7 @@
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
-- Poisoned Pokémon lose 1 HP every four steps outside of battle.
+- Poisoned Pokémon lose 1 HP every four steps outside of battle and remain poisoned after a wild battle concludes.
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
@@ -111,9 +111,13 @@
 - Received MIRACLE SEED from a trainer on Route 32.
 - **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-- Youngster JOEY called, wanting a rematch. He's on Route 30.
-- Youngster JOEY called again, confirming he's on Route 30 for a rematch.
-- Youngster JOEY called a third time for a rematch on Route 30.
+- **Phone Calls:**
+    - Youngster JOEY called, wanting a rematch. He's on Route 30.
+    - Youngster JOEY called again, confirming he's on Route 30 for a rematch.
+    - Youngster JOEY called a third time for a rematch on Route 30.
+    - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE in areas without strong POKéMON.
+    - Hiker ANTHONY called again, confirming he's on Route 33 for a rematch.
+    - Youngster JOEY called for a rematch on Route 30.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -182,33 +186,5 @@
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 - **Menu Layout Verification:** Before creating a tool to automate menu navigation, I must first manually navigate the menu to confirm its layout (e.g., 2x2 grid vs. vertical list). A flawed assumption about the layout will cause the tool to fail.
 
-# Data Hygiene Tasks
-- Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE in areas without strong POKéMON.
-
-- Hiker ANTHONY called again, confirming he's on Route 33 for a rematch.
-
 # Party Development
 - Chrono (Hoothoot) grew to Lv11 and learned PECK. This is a reliable Flying-type attacking move.
-
-# Lessons from Reflection (Turn 11376)
-- **Discipline in Automation:** I must be more disciplined in using my own automation tools (`switch_train_lead`, `select_battle_option`) instead of performing actions manually. Failing to use existing automation is inefficient and error-prone.
-- **Verify Warp Types:** Before setting a navigation goal with `is_warp: true`, I must verify that the destination tile is a `DOOR`, `WARP_CARPET`, `LADDER`, or `CAVE`. Standard map-edge transitions are `FLOOR` tiles and are not warps.
-
-# Lessons from Reflection (Turn 11427)
-- **Tool Timing:** UI-dependent tools (like `select_battle_option`) will fail if called before the relevant menu is visible on screen. Always wait for the UI to stabilize before calling the tool.
-- Youngster JOEY called for a rematch on Route 30.
-- **WATER**: Impassable terrain without a specific HM (likely Surf).
-
-# Lessons from Reflection (Turn 11532)
-
-- **Discipline in Automation:** I must be more disciplined in using my own automation tools (`switch_train_lead`, `select_battle_option`) instead of performing actions manually. Failing to use existing automation is inefficient and error-prone.
-
-# Lessons from Reflection (Turn 11740)
-- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent. A flawed assumption about UI behavior can lead to repeated tool failures.
-
-- Poisoned Pokémon remain poisoned after a wild battle concludes. They lose HP for every few steps taken in the overworld.
-
-# Integrated Lessons
-- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
-- **Poison Status:** Poisoned Pokémon remain poisoned after a wild battle concludes and lose 1 HP for every four steps taken in the overworld.
-- **Tool Input Format:** I must always ensure the data passed to a tool matches its expected input schema. The `JSONDecodeError` in `select_move` was caused by passing a raw string instead of a JSON string, which was a failure of input validation on my part.
