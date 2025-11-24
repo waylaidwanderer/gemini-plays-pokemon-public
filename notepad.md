@@ -171,14 +171,15 @@
 - Trap Tiles (Rocket Base): May have lower escape ratios or prevent escape entirely. Be prepared to fight.
 
 ## Team Rocket Base
-### B1F & B2F (Cleared)
-- **Traps (B1F):** Dense traps in West corridor. Confirmed: (2,7), (2,10-12), (3,8), (4,7), (4,9), (4,11-13).
-- **Lance (B2F):** Heals team at (5, 13).
-
 ### B3F (Current)
 - **Objective:** Get 2 Passwords for Executive's door.
 - **Status:**
   - [x] Scientist Ross: Defeated.
-  - [ ] Rocket Girl: At (21, 7). Priority Target.
-  - [ ] Male Grunt: Location TBD.
+  - [x] Rocket Girl: Defeated at (21, 7). **Get Password.**
+  - [ ] Male Grunt: Search West Office.
   - [ ] Item Ball: At (28, 9).
+
+### B1F & B2F (Cleared)
+- **Traps (B1F):** Confirmed at (2,7), (2,10-12), (3,8), (4,7), (4,9), (4,11-13).
+- **Lance (B2F):** Heals at (5, 13).
+- **Notes:** Grunts on B2F did not have passwords.
