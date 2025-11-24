@@ -169,3 +169,7 @@
 - Confirmed Safe: (3,7), (4,8), (4,10).
 - Warp at B1F (25,2) is a ONE-WAY arrival point. It does not allow return to (5,15).
 - Trap Tiles (Rocket Base): May have lower escape ratios or prevent escape entirely. Be prepared to fight.
+
+## Team Rocket Base B2F
+- Objective: Defeat Grunts to collect 2 passwords.
+- Lance is located here and acts as a Healer.
