@@ -66,17 +66,6 @@
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 
-## Route 35 National Park Gate
-- **Status:** Entered.
-- **NPCs:** Officer (Bug Catching Contest) at (2, 1).
-- **Warps:** To Route 35 (South), To National Park (North).
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - DOOR: Warp.
-  - COUNTER: Impassable.
-  - PC: Impassable.
-
 ## National Park
 - **Status:** Entered from South Gate.
 - **Geography:** Large park area connecting Route 35 and 36.
