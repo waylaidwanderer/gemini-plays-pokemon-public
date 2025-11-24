@@ -8,7 +8,7 @@
 
 ## Status
 - **Location:** Team Rocket Base B2F.
-- **Objective:** Open Transmitter Door (B2F).
+- **Objective:** Stop the Radio Signal.
 - **Current Task:** Defeat Rocket Executive Ariana and Grunt (Double Battle).
 - **Team Status:** Paprika (Lv44, 108/137 HP).
 - **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
