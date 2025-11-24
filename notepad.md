@@ -61,10 +61,10 @@
 - BERRY trees grow new BERRIES every day.
 - Healing at a Pokémon Center restores all HP and PP for the entire party and cures any status conditions.
 
-# Current Quest: Find a Path North
-- **Objective:** Find a way to progress north past the one-way route blockades on Route 30 and Route 46.
-- **Status:** Trapped on Route 46, exploring south to find an exit.
-- **Sub-task:** Find a suitable training area on this route to level up for whatever lies ahead.
+# Current Quest: Train for Whitney Rematch
+- **Objective:** Defeat Whitney at the Goldenrod Gym.
+- **Status:** Training JUBILEE and WEAVER on Route 30.
+- **Target Level:** At least Lv15 for both.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -101,6 +101,7 @@
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
 - `select_move` (Tool): Selects a move from the battle menu by name.
+- `select_battle_option` (Tool): Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 - `switch_pokemon` (Tool): Automates switching to a specific Pokémon in the party during a battle.
 - `switch_party_order` (Tool): Switches the position of two Pokémon in the party menu outside of battle.
 
@@ -112,8 +113,7 @@
 - **Phone Calls:**
     - Youngster JOEY called multiple times for a rematch on Route 30.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He also called for a rematch on Route 33.
-    -     - Juggler IRWIN called, just to introduce himself.
-    - Hiker ANTHONY called for a rematch on Route 33.
+    - Juggler IRWIN called, just to introduce himself.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
