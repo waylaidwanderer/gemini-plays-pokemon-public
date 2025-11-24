@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import sys\nimport json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_string = input_data['current_moves_list']\n\nmoves_list = current_moves_string.splitlines()\n\ndown_presses = 0\nfor i, move in enumerate(moves_list):\n    cleaned_move = move.replace('▶', '').strip()\n    if move_to_select.strip() == cleaned_move:\n        down_presses = i\n        break\n\npresses = ['Up', 'Up', 'Up', 'Up', 'sleep 500']\n\nfor _ in range(down_presses):\n    presses.extend(['Down', 'sleep 300'])\n\npresses.append('A')\n\nprint(json.dumps(presses))\nsys.exit()\n",
+    "python_script": "import json\nimport sys\nimport time\n\n# Get input from the harness\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\n# Parse the move list string into a list of moves\nmoves = [move for move in current_moves_list_str.split('\\n') if move]\n\n# Find the starting index (where the '▶' is) and the target index\nstart_index = -1\nclean_moves = []\nfor i, move in enumerate(moves):\n    if '▶' in move:\n        start_index = i\n        clean_moves.append(move.replace('▶', '').strip())\n    else:\n        clean_moves.append(move.strip())\n\ntry:\n    target_index = clean_moves.index(move_to_select)\nexcept ValueError:\n    # Move not found, exit gracefully\n    sys.exit()\n\nif start_index == -1:\n    # Cursor not found, exit gracefully\n    sys.exit()\n\n# Calculate the difference and create the button press list\npresses = []\ndiff = target_index - start_index\n\nif diff > 0:\n    for _ in range(diff):\n        presses.append('Down')\n        presses.append('sleep 200')\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.append('Up')\n        presses.append('sleep 200')\n\npresses.append('A')\n\n# Output the JSON array of button presses\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -468,6 +468,11 @@
         "commit_message": "fix: Handle '▶' cursor prefix in move list. The tool was failing to select the correct move because the string comparison was failing due to the '▶' character on the currently highlighted move. This version explicitly removes the prefix before comparison, ensuring the correct move index is found. This resolves a critical bug preventing reliable battle automation.",
         "timestamp": "2025-11-24T20:25:49.455Z",
         "action_counter": 13757
+      },
+      {
+        "commit_message": "refactor: Overhaul cursor logic to be state-aware. The previous cursor reset methods (B+A and 'Up' spam) have been proven unreliable due to game engine timing issues. This complete overhaul removes reset logic entirely. The new script now reads the current cursor position from the '▶' symbol in the input, calculates the exact number of 'Up' or 'Down' presses required to reach the target, and executes them. This makes the tool's logic deterministic and robust against timing failures.",
+        "timestamp": "2025-11-24T21:11:32.102Z",
+        "action_counter": 13846
       }
     ]
   },
