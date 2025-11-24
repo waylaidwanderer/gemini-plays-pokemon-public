@@ -63,6 +63,7 @@
 - **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 - **Sprite Deception:** NPCs may use sprites that don't match their trainer class (e.g. Hiker Benjamin looked like a Pokefan). Always verify identity via interaction or battle.
+- **Security Cameras:** Hypothesis: Cameras in Rocket Base may trigger alarms/battles. Avoid line of sight.
 
 ## National Park (Cleared)
 - Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
