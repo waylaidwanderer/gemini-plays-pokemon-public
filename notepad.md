@@ -50,7 +50,7 @@
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails, it's better to use a smaller, more unique line of text as the anchor for replacement rather than a large, complex block which is prone to mismatch errors.
 - **Resilience & Stat-lowering moves:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker. Furthermore, repeated use of stat-lowering moves (like TAIL WHIP) can quickly turn an easy battle into a risky situation by neutralizing a level advantage.
 - **Efficient Traversal:** When the primary goal is to traverse an area with frequent wild encounters (like a cave), using a Repel is more time and resource-efficient than fighting or running from every battle.
-- **Resilience:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker, turning an expected one-hit KO into a prolonged battle.
+
 - **Pathfinding Procedure:** The correct, two-step navigation process is: 1. Call the `find_path` tool to generate a list of coordinates. 2. In the following turn, use the `path` button with the generated `path_plan`. Any other method, such as calling a non-existent `path` tool, is a hallucination and will fail.
 - **Menu Navigation:** Always verify the order of items in the `Inventory` list from the game state *before* navigating menus to avoid wasting significant time on simple actions. The in-game sort order may not match the data's alphabetical sort.
 - **Inefficient Strategies:** When a strategy proves inefficient or clumsy (like fumbling through menus mid-battle), I must pivot immediately to a more direct solution (like switching to a stronger Pokémon) instead of persisting with the flawed approach. I must actively identify and challenge false constraints that limit my strategic options.
@@ -171,7 +171,6 @@
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **Check Movesets:** Before switching a low-level or unfamiliar Pokémon into battle for training, I must first check its moveset to ensure it has at least one attacking move. Switching in a Pokémon that can't fight (like Jubilee) is a wasted turn and puts them at risk.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-- **Resilience:** Do not underestimate low-level opponents. A resilient Pokémon can withstand multiple hits from a higher-level attacker, turning an expected one-hit KO into a prolonged battle.
 
 # General Object Interaction
 - To interact with objects like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
