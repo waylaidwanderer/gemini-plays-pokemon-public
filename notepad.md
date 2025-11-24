@@ -6,9 +6,9 @@
 - [ ] Investigate Lake of Rage (Primary)
 
 ## Status
-- **Location:** Mahogany Mart.
-- **Objective:** Go to Lake of Rage.
-- **Current Task:** Exit Mart and head North.
+- **Location:** Route 43 (Heading North).
+- **Objective:** Investigate Lake of Rage.
+- **Current Task:** Navigate Route 43.
 - **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
