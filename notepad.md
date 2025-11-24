@@ -2,7 +2,8 @@
 
 ## Current Goals
 - [x] Get Password 2 from Male Grunt (Completed)
-- [ ] Open Executive's Door (Current)
+- [x] Open Executive's Door (Completed)
+- [ ] Defeat Executive (Current)
 - [x] Investigate Lake of Rage (Completed)
 
 ## Status
