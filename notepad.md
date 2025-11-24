@@ -181,6 +181,4 @@
   - [ ] Item Ball: At (28, 9).
 
 ### B1F & B2F (Cleared)
-- **Traps (B1F):** Confirmed at (2,7), (2,10-12), (3,8), (4,7), (4,9), (4,11-13).
-- **Lance (B2F):** Heals at (5, 13).
-- **Notes:** Grunts on B2F did not have passwords.
+- Lance heals on B2F (5, 13). B1F traps are dangerous.
