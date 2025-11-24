@@ -183,3 +183,4 @@
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
 - **Input Separation:** I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next. This applies to both overworld and menu navigation.
     - Juggler IRWIN called, just to introduce himself.
+- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails repeatedly, verify the notepad's current state before retrying, as the edit may have already succeeded. It's often safer to replace a smaller, unique line of text as an anchor.
