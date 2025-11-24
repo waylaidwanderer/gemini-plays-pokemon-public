@@ -172,3 +172,9 @@
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 - `select_battle_option` (Built-in): Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+
+# Strategic Principles & Lessons Learned (Post-Reflection Update)
+- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I recently failed by stating my intent to use automation tools but then manually pressing buttons, directly contradicting my own strategy. This is a critical failure. I MUST ensure my actions in `buttons_to_press` or `tools_to_call` perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
+
+# Tile & Object Mechanics (Post-Reflection Update)
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
