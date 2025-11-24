@@ -6,10 +6,10 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Route 42 (East Side).
-- **Objective:** Travel East to Mahogany Town.
-- **Current Task:** Navigating past trainers on Route 42 to reach Mahogany Town.
-- **Team Status:** Healthy. Paprika (Lv40) leading.
+- **Location:** Mahogany Town.
+- **Objective:** Explore Mahogany Town.
+- **Current Task:** Locate Gym and Poke Center.
+- **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
