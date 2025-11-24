@@ -186,3 +186,4 @@
 
 # Reminders
 - Place a map marker for Hiker Anthony's rematch the next time I am on Route 33.
+- **Adhere to Documented Procedures:** Hallucinating tools (like a non-existent `path` tool) is a critical failure. I must strictly follow the documented, two-step procedures for complex actions like pathfinding (`find_path` then `path` button). This prevents wasted turns and ensures reliable execution.
