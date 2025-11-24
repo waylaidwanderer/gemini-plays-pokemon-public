@@ -23,6 +23,7 @@
 - **Olivine City:** Gym empty. Jasmine at Lighthouse.
 - **Olivine Lighthouse:** Climbed to top. Jasmine needs SecretPotion.
 - **Sea Routes (40/41):** Navigated to Cianwood.
+- **Routes 34-39:** Explored and cleared. Trainers defeated.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive, Plain, Fog.
