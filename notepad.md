@@ -135,22 +135,19 @@
 - Defeated Pokefan Derek (Pikachu Lv17) at (10, 19).
 - Farmhouse: Pokefan F mentions milk is shipped to Kanto.
 - Quest: Feed Berries to sick Miltank in Barn. (Status: Paused. Requires standard 'BERRY' item. 2 fed so far. Needs more.)
-## Olivine City
-- **Status:** Surfing to Cianwood City via Route 40/41.
-- **Landmarks:**
-  - Sign at (17, 11): 'The Port Closest to Foreign Lands'.
-  - Pokémon Center at (13, 21).
-  - Poké Mart at (19, 17).
-  - Gym at (10, 11).
-  - Fishing Guru House at (13, 15). Obtained Good Rod.
-  - Tim's House at (25, 11). Trade: Krabby for Voltorb.
-  - Olivine Cafe at (7, 21). Contains Generous Sailor (HM Strength).
-- **NPCs:** Youngster (20, 13), Sailor (16, 22).
-- **Quests:**
-  - **Jasmine & Lighthouse:** Quest Complete. Jasmine returned to Gym.
-  - **HM Strength:** Fisher in Pokémon Center said a "Generous Sailor" in the "Olivine Cafe next door" teaches Strength.
-  - **Good Rod:** Obtained from the Fishing Guru in the house north of the Pokémon Center.
-  - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
+## Olivine City (Completed)
+- **Status:** Cleared. Mineral Badge obtained.
+- **Key Events:**
+  - Jasmine cured (SecretPotion delivered).
+  - Mineral Badge obtained.
+  - HM04 Strength obtained.
+  - Good Rod obtained.
+
+# Route 42 & Mt. Mortar
+- **Status:** Exploring Mt. Mortar 1F Outside.
+- **Goal:** Traverse to Mahogany Town.
+- **Geography:** Entrance at (3, 33). Inner cave entrance at (11, 21).
+- **Items:** Ultra Ball found on Route 42.
 ## Olivine Lighthouse
 - **Goal:** Retrieve SecretPotion from Cianwood.
 - **Status:** Descending via East Pits.
