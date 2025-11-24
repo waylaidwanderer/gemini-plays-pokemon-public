@@ -112,7 +112,8 @@
 - **Phone Calls:**
     - Youngster JOEY called multiple times for a rematch on Route 30.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He also called for a rematch on Route 33.
-    - Juggler IRWIN called, just to introduce himself.
+    -     - Juggler IRWIN called, just to introduce himself.
+    - Hiker ANTHONY called for a rematch on Route 33.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
