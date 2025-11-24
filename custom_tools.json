@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list = input_data['current_moves_list']\n\n# Clean up the input list: remove cursor, split into lines,\n# strip whitespace, and filter out any empty lines.\nlines = current_moves_list.replace('▶', '').splitlines()\nmoves_list = [move.strip() for move in lines if move.strip()]\n\n# Find the index of the move to select\ntry:\n    move_index = moves_list.index(move_to_select)\nexcept ValueError:\n    # If the move is not found, just back out of the menu\n    print(json.dumps([\"B\"]))\n    exit()\n\n# Start with a menu reset (B to exit, A to re-enter) to guarantee cursor is at the top\npresses = ['B', 'A', 'sleep 500']\n\n# Add down presses with delays to prevent the game from dropping inputs\nfor _ in range(move_index):\n    presses.extend(['Down', 'sleep 100'])\n\n# Final 'A' press to select the move\npresses.append('A')\n\nprint(json.dumps(presses))",
+    "python_script": "import json\nimport time\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\nmoves = []\nfor m in current_moves_list_str.splitlines():\n    cleaned_move = m.strip().replace('▶', '').strip()\n    if cleaned_move:\n        moves.append(cleaned_move)\n\nmove_index = -1\nfor i, move in enumerate(moves):\n    if move == move_to_select:\n        move_index = i\n        break\n\nif move_index == -1:\n    print(json.dumps([]))\nelse:\n    presses = [\"B\", \"A\", \"sleep 1000\"]\n\n    for _ in range(move_index):\n        presses.append(\"Down\")\n        presses.append(\"sleep 100\")\n\n    presses.append(\"A\")\n    \n    print(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -393,6 +393,11 @@
         "commit_message": "fix: Correct move list parsing logic. The previous version failed with an IndexError because it did not filter out empty lines when parsing the move list string, leading to an inaccurate internal representation of the menu and incorrect index calculations. This version, based on the `python_code_debugger` agent's analysis, adds a filter to remove empty strings, ensuring the move index is always correct.",
         "timestamp": "2025-11-24T03:00:23.603Z",
         "action_counter": 12126
+      },
+      {
+        "commit_message": "fix: Increase sleep duration for menu reset. The B+A cursor reset logic is failing, likely due to a timing issue where the game engine hasn't processed the menu transition before the next input arrives. Increasing the sleep duration from 500ms to 1000ms should provide a more reliable window for the UI to stabilize, hopefully fixing the intermittent selection failures.",
+        "timestamp": "2025-11-24T08:25:21.852Z",
+        "action_counter": 12410
       }
     ]
   },
