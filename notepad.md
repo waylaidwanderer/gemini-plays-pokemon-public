@@ -179,7 +179,6 @@
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **Menu Input Separation:** To avoid input errors, especially in multi-step menu actions like switching Pokémon, I must separate directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') into different turns. Move the cursor in one turn, then press 'A' to confirm in the next.
-- **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
 - **Verify Route Traversability:** Before committing to a long-distance travel plan, I must verify that the entire route is traversable in my intended direction. One-way ledges can completely block a path, as demonstrated by Route 30 (southbound only) and Route 46 (southbound only). Trust the `find_path` tool's output; 'No path found' is a critical piece of information, not a bug.
 - Flying-type moves (like PECK) are not very effective against Rock/Ground-types (like GEODUDE).
 - **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
