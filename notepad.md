@@ -170,7 +170,6 @@
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
-- **Check Movesets:** Before switching a low-level or unfamiliar Pokémon into battle for training, I must first check its moveset to ensure it has at least one attacking move. Switching in a Pokémon that can't fight (like Jubilee) is a wasted turn and puts them at risk.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **Menu Input Separation:** To avoid input errors, especially in multi-step menu actions like switching Pokémon, I must separate directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') into different turns. Move the cursor in one turn, then press 'A' to confirm in the next.
