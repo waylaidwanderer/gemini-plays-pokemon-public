@@ -8,7 +8,7 @@
 ## Status
 - **Location:** Lake of Rage.
 - **Objective:** Investigate Lake of Rage.
-- **Current Task:** Surf to the center of the lake and confront the Red Gyarados.
+- **Current Task:** Weaken and catch the Red Gyarados.
 - **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
