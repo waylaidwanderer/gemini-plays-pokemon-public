@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Deliver SecretPotion to Jasmine (Completed)
-- [x] Earn the Mineral Badge (Completed)
-- [ ] Travel to Mahogany Town (Primary)
+- [x] Travel to Mahogany Town (Completed)
+- [ ] Investigate Mahogany Town & Lake of Rage (Primary)
+- [ ] Check Suspicious Shop (Secondary)
 
 ## Status
-- **Location:** Mahogany Town.
-- **Objective:** Explore Mahogany Town.
-- **Current Task:** Locate Gym and Poke Center.
+- **Location:** Mahogany Mart.
+- **Objective:** Investigate the shop.
+- **Current Task:** Talk to Black Belt.
 - **Team Status:** Healthy. Paprika (Lv41) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
