@@ -6,9 +6,9 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Mt. Mortar 1F Outside (East Side).
-- **Objective:** Traverse Mt. Mortar to Mahogany Town.
-- **Current Task:** Exiting Mt. Mortar via the eastern warp at (37, 33).
+- **Location:** Route 42 (East Side).
+- **Objective:** Travel East to Mahogany Town.
+- **Current Task:** Navigating past trainers on Route 42 to reach Mahogany Town.
 - **Team Status:** Healthy. Paprika (Lv40) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
