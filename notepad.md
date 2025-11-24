@@ -29,6 +29,7 @@
 - **PIT / HOLE:** Traversable warp. Falling in warps player to the floor below. Essential for some puzzles.
 - **INVISIBLE_FLOOR (Ecruteak Gym):** Traversable only on specific tiles. Stepping on the wrong tile warps player to start. Safe path must be discovered.
 - **LEDGE_HOP_DOWN:** Walkable only from the tile directly above. Acts as a WALL from all other directions. Automatically jumps the player down one tile.
+- **FLOOR_UP_WALL:** Visual ledge that acts as a solid WALL. Cannot be jumped over. Treat as an obstacle.
 - **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
 - **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
 - **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
