@@ -6,8 +6,8 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Olivine Gym.
-- **Objective:** Defeat Jasmine (Steel-type).
+- **Location:** Olivine City.
+- **Objective:** Fly to Ecruteak, then Route 42 to Mahogany.
 - **Team Status:** Fully Healed. Paprika (Fire) & Basalt (Ground) are key.
 - **Inventory:** HM02 Fly obtained. SecretPotion delivered.
 - **Gym Intel:** Chuck Defeated. Storm Badge obtained.
