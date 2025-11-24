@@ -1,8 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
+- [ ] Get Password 2 from Male Grunt (Current)
+- [ ] Open Executive's Door (Primary)
 - [x] Investigate Lake of Rage (Completed)
-- [ ] Talk to Lance (Primary)
 
 ## Status
 - **Location:** Team Rocket Base B3F.
