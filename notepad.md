@@ -6,11 +6,10 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Olivine City.
-- **Objective:** Fly to Ecruteak, then Route 42 to Mahogany.
-- **Team Status:** Fully Healed. Paprika (Fire) & Basalt (Ground) are key.
-- **Inventory:** HM02 Fly obtained. SecretPotion delivered.
-- **Gym Intel:** Chuck Defeated. Storm Badge obtained.
+- **Location:** Mt. Mortar 1F Inside.
+- **Objective:** Traverse Mt. Mortar to reach Mahogany Town.
+- **Team Status:** Healthy. Paprika (Lv40) leading.
+- **Inventory:** Ether obtained.
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
