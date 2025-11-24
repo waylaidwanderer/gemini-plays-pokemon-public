@@ -179,7 +179,8 @@
   - [x] Rocket Girl: Defeated. Password 1: **SLOWPOKETAIL**.
   - [x] Male Grunt: Defeated/Talked. Password 2: **RATICATE TAIL**.
   - [ ] Locked Door: Use passwords at (10, 9).
-  - [ ] Item Ball: At (28, 9) and (14, 10).
+  - [x] Item Ball: At (28, 9) (Full Heal).
+  - [ ] Item Ball: At (14, 10).
 
 ### B1F & B2F (Cleared)
 - Lance heals on B2F (5, 13). B1F traps are dangerous.
