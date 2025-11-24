@@ -6,7 +6,7 @@
 - [ ] Travel to Mahogany Town (Primary)
 
 ## Status
-- **Location:** Mt. Mortar 1F Inside (East).
+- **Location:** Mt. Mortar 1F Outside (Northeast Plateau).
 - **Objective:** Descend Mt. Mortar to reach Mahogany Town.
 - **Team Status:** Healthy. Paprika (Lv40) leading.
 - **Backlog:**
