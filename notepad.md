@@ -6,9 +6,9 @@
 - [x] Investigate Lake of Rage (Completed)
 
 ## Status
-- **Location:** Team Rocket Base B3F.
+- **Location:** Team Rocket Base B2F.
 - **Objective:** Open Executive's Door.
-- **Current Task:** Return to B3F Main Area via ladder at (3, 2).
+- **Current Task:** Check Locked Door on B2F (14, 12).
 - **Team Status:** Paprika (Lv43, 133/133 HP).
 - **Key Items:** Red Scale, Password 1 (SLOWPOKETAIL), Password 2 (RATICATE TAIL).
 - **Backlog:**
