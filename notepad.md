@@ -120,11 +120,6 @@
 - **Solution:** The central fence maze blocks direct access North. The correct path is to enter the eastern section near (20, 41), then pass through the gap in the fence at (18, 39). This leads to the main northern area.
 - **Items:** Received Quick Claw from Teacher at (27, 40).
 
-## Route 36
-- **Status:** Cleared. Sudowoodo defeated.
-- **Trainers:** Schoolboy Alan, Psychic Mark (Defeated).
-### Observed Movesets
-- **Sudowoodo (Lv20):** Flail, Low Kick, Mimic (Learned Ember). (Suspected: Rock Throw).
 ## Route 37
 - **Status:** Exploring. Heading North to Ecruteak.
 - **Trainers:**
