@@ -1,9 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Travel to Mahogany Town (Completed)
-- [x] Check Suspicious Shop (Completed)
-- [x] Investigate Lake of Rage (Red Gyarados Defeated)
+- [x] Investigate Lake of Rage (Completed)
 - [ ] Talk to Lance (Primary)
 
 ## Status
