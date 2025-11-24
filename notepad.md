@@ -104,6 +104,7 @@
 - `stealth_pathfinder` (Tool): Finds a path while avoiding a given list of forbidden tiles.
 - `select_move` (Tool): Selects a move from the battle menu by name.
 - `switch_pokemon` (Tool): Automates switching to a specific Pokémon in the party during a battle.
+- `select_battle_option` (Built-in Tool): Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
