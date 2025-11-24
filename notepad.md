@@ -8,7 +8,7 @@
 ## Status
 - **Location:** Team Rocket Base B2F.
 - **Objective:** Open Executive's Door.
-- **Current Task:** Open Locked Door at B3F (10, 9).
+- **Current Task:** Loop to B3F West via B2F Ladder (3, 2).
 - **Team Status:** Paprika (Lv43, 133/133 HP).
 - **Key Items:** Red Scale, Password 1 (SLOWPOKETAIL), Password 2 (RATICATE TAIL).
 - **Backlog:**
