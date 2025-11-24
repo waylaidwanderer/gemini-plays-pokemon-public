@@ -174,3 +174,9 @@
 - Objective: Defeat Grunts to collect 2 passwords.
 - Lance is located here and acts as a Healer.
 - Updated `find_path` tool to treat furniture (Counters, PCs, etc.) as solid obstacles.
+## Team Rocket Base B3F
+- **Objective:** Obtain passwords from the Female Grunt and Male Grunt in the lab.
+- **Targets:**
+  - Rocket Girl (Password: Slowpoketail?)
+  - Male Grunt (Password: Raticate Tail?)
+  - Boss (Executive) behind locked door.
