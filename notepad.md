@@ -183,3 +183,6 @@
 - Flying-type moves (like PECK) are not very effective against Rock/Ground-types (like GEODUDE).
 - **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
 - **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
+
+# Reminders
+- Place a map marker for Hiker Anthony's rematch the next time I am on Route 33.
