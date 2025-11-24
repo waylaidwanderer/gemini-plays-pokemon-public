@@ -266,3 +266,4 @@
 - **Cianwood Event:** Encountered Suicune at (10, 14), but it fled. Eusine appeared and challenged me to a battle to earn Suicune's respect.
 - Defeated Eusine (Drowzee Lv23, Electrode Lv25, Haunter Lv23). Paprika HP Critical (24/117).
 - **Status Update:** Arrived in Olivine City via Fly. Heading to Lighthouse to deliver SecretPotion.
+- **Event:** Joey called (Turn 6420). Ignoring for now.
