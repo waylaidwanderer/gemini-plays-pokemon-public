@@ -1,15 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Get Password 2 from Male Grunt (Completed)
-- [x] Open Executive's Door (Completed)
 - [x] Defeat Executive (Completed)
+- [x] Defeat Ariana & Grunt (Completed)
+- [ ] Defeat 6 Electrodes (Current)
 - [ ] Stop the Radio Signal (Current)
 
 ## Status
 - **Location:** Team Rocket Base B2F.
 - **Objective:** Stop the Radio Signal.
-- **Current Task:** Defeat Rocket Executive Ariana and Grunt (Double Battle).
+- **Current Task:** Defeat the Electrodes powering the transmitter (Voltorbs).
 - **Team Status:** Paprika (Lv44, 108/137 HP).
 - **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
 - **Backlog:**
