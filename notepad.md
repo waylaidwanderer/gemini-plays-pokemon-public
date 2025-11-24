@@ -65,7 +65,7 @@
 
 # Current Quest: Defeat Whitney
 - **Objective:** Defeat Whitney, the Goldenrod Gym Leader.
-- **Status:** Training in Union Cave.
+- **Status:** Training on Route 32.
 - **Sub-task:** Investigate unmarked warp at (33, 9) in Goldenrod City after dealing with Whitney.
 
 # Key Items
