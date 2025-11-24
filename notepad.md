@@ -138,7 +138,7 @@
   - Good Rod obtained.
 
 # Route 42 & Mt. Mortar
-- **Status:** Route 42 (East Side). Defeated Pokemaniac Shane.
+- **Status:** Route 42 (East Side). Defeated Pokemaniac Shane and Hiker Benjamin. Paprika grew to Lv41.
 - **Goal:** Traverse to Mahogany Town.
 - **Geography:** Entrance at (3, 33). Inner cave entrance at (11, 21).
 - **Items:** Ultra Ball found on Route 42.
