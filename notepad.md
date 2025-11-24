@@ -77,19 +77,6 @@
   - LADDER: To 2F.
 - **Battle Cursor Memory:** The move cursor remembers the last used move. In Turn 3406, a manual move selection failed (selected Tackle) because the cursor was *already* on Rock Throw, causing the inputs to wrap to Tackle. Always check Screen Text for `▶` before navigating.
 
-## Route 35
-- **Status:** Arrived from Goldenrod Gatehouse.
-- **Geography:** Path North to Route 36.
-- **Trainers:**
-  - Picnicker Kim (Vulpix Lv15) at (10, 26). Defeated.
-  - Camper Ivan (Diglett Lv10/14, Zubat Lv10) at (5, 19). Defeated.
-  - Juggler Irwin (Voltorb Lv2/6/10/14) at (5, 10). Defeated.
-  - Firebreather Walt (Magmar Lv11/13) at (3, 10). Defeated.
-- **Correction:** Psyduck's name is 'F', not 'Flux'.
-- **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - TALL_GRASS: Wild encounters.
 ## Route 35 National Park Gate
 - **Status:** Entered.
 - **NPCs:** Officer (Bug Catching Contest) at (2, 1).
