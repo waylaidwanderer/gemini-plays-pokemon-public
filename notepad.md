@@ -61,16 +61,11 @@
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 - **Sprite Deception:** NPCs may use sprites that don't match their trainer class (e.g. Hiker Benjamin looked like a Pokefan). Always verify identity via interaction or battle.
 
-## National Park
-- **Status:** Entered from South Gate.
-- **Geography:** Large park area connecting Route 35 and 36.
-- **Trainers:**
-  - Pokefan Beverly (Snubbull Lv14) at (17, 29). Defeated.
-  - Pokefan William (Raichu Lv14) at (16, 9). Defeated.
-- **Events:** Bug Catching Contest (Tues/Thurs/Sat).
-- **Warps:** South exit to Gatehouse.
-- **Obstacles:** Two Youngsters blocking the path North at (10, 41) and (11, 41).
-- **Exits:** South Gate (WARP_CARPET_DOWN).
+## National Park (Cleared)
+- Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
+
+## Phone Log
+- Hiker Anthony: Mentioned wild Geodude appearing often (Swarm?).
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
