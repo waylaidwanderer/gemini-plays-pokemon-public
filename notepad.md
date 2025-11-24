@@ -3,15 +3,15 @@
 ## Current Goals
 - [x] Get Password 2 from Male Grunt (Completed)
 - [x] Open Executive's Door (Completed)
-- [ ] Defeat Executive (Current)
-- [x] Investigate Lake of Rage (Completed)
+- [x] Defeat Executive (Completed)
+- [ ] Stop the Radio Signal (Current)
 
 ## Status
-- **Location:** Team Rocket Base B2F.
-- **Objective:** Open Executive's Door.
-- **Current Task:** Loop to B3F West via B2F Ladder (3, 2).
-- **Team Status:** Paprika (Lv43, 133/133 HP).
-- **Key Items:** Red Scale, Password 1 (SLOWPOKETAIL), Password 2 (RATICATE TAIL).
+- **Location:** Team Rocket Base B3F.
+- **Objective:** Open Transmitter Door (B2F).
+- **Current Task:** Backtrack to B2F via ladders.
+- **Team Status:** Paprika (Lv44, 108/137 HP).
+- **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
