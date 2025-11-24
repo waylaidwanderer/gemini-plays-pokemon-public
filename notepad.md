@@ -8,7 +8,7 @@
 ## Status
 - **Location:** Mt. Mortar 1F Outside (East Side).
 - **Objective:** Traverse Mt. Mortar to Mahogany Town.
-- **Current Task:** Exploring the southeast path to find the exit to Route 42.
+- **Current Task:** Exiting Mt. Mortar via the eastern warp at (37, 33).
 - **Team Status:** Healthy. Paprika (Lv40) leading.
 - **Backlog:**
   - Cure Miltank (Needs berries).
