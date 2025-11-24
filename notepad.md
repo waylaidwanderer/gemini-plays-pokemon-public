@@ -102,9 +102,9 @@
 - `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
-- `stealth_pathfinder` (Tool): Finds a path while avoiding a given list of forbidden tiles.
 - `select_move` (Tool): Selects a move from the battle menu by name.
 - `switch_pokemon` (Tool): Automates switching to a specific Pokémon in the party during a battle.
+- `switch_party_order` (Tool): Switches the position of two Pokémon in the party menu outside of battle.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
