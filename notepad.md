@@ -5,9 +5,9 @@
 - [ ] Talk to Lance (Primary)
 
 ## Status
-- **Location:** Team Rocket Base B2F.
+- **Location:** Team Rocket Base B3F.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Explore East B2F for Boss/Passwords.
+- **Current Task:** Get 2 Passwords.
 - **Team Status:** Paprika (Lv43, 133/133 HP).
 - **Key Items:** Red Scale.
 - **Backlog:**
