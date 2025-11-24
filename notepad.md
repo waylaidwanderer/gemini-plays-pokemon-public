@@ -25,7 +25,7 @@
 ## Quest Log
 - **Badges:** Zephyr, Hive, Plain, Fog.
 - **Recent Events:**
-  - Received SecretPotion from Cianwood Pharmacist.
+  - Delivered SecretPotion to Jasmine. Amphy cured.
   - Acquired Shuckie from Mania.
 
 ## Global Game Mechanics
