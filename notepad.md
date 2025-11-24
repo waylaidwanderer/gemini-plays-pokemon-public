@@ -186,6 +186,5 @@
 
 # Reminders
 
-- **Adhere to Documented Procedures:** Hallucinating tools (like a non-existent `path` tool) is a critical failure. I must strictly follow the documented, two-step procedures for complex actions like pathfinding (`find_path` then `path` button). This prevents wasted turns and ensures reliable execution.
     - Juggler IRWIN called, just to introduce himself.
 - **Follow Documented Strategy & Perform Immediate Maintenance:** My documented strategies and principles are useless if I don't follow them. The repeated hallucination of a `path (tool)` is a critical failure of this principle; the correct procedure is to call the `find_path` tool, then use the `path` button with the generated plan. Similarly, data hygiene tasks must be performed immediately, not deferred.
