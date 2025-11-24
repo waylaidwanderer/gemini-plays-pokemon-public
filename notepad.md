@@ -163,3 +163,7 @@
 - **Objective:** Find a 'secret switch' to disable the security system and stop the Grunts from respawning.
 - **Trap Warning:** The security cameras in Team Rocket Base B1F (e.g., at 6,1) create an infinite loop of battles if you remain in their line of sight. You must move immediately after a battle ends.
 - **Floor Traps:** A Grunt warned of traps set in the floor. Proceed with caution.
+### Team Rocket Base B1F Traps
+- Hypothesis: Tiles where x+y is ODD are traps. Tiles where x+y is EVEN are safe.
+- Confirmed Traps: (3,8), (4,7), (4,9).
+- Confirmed Safe: (3,7), (4,8).
