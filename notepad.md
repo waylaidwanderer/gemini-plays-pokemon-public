@@ -169,7 +169,7 @@
   - Olivine Cafe at (7, 21). Contains Generous Sailor (HM Strength).
 - **NPCs:** Youngster (20, 13), Sailor (16, 22).
 - **Quests:**
-  - **Jasmine & Lighthouse:** Rival Silver said Jasmine is at the Lighthouse. Gym is empty.
+  - **Jasmine & Lighthouse:** Quest Complete. Jasmine returned to Gym.
   - **HM Strength:** Fisher in Pokémon Center said a "Generous Sailor" in the "Olivine Cafe next door" teaches Strength.
   - **Good Rod:** Obtained from the Fishing Guru in the house north of the Pokémon Center.
   - **Friendship Rater:** The NPC in the Pokémon Center is a Friendship Rater.
