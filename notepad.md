@@ -198,3 +198,6 @@
 # Reflection Insights (Turn 12937)
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent. This was the root cause of the `select_move` tool failure.
 - **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, it means the proposed change has already been successfully applied in a previous turn. Do not retry the same definition; proceed with the next action.
+
+# Reflection Insights (Turn 12988)
+- **Tool Parameter Verification:** When calling a tool, especially one that automates actions like `select_move`, I must double-check all parameters, such as `autopress_buttons`, to ensure the call is correctly formatted and will execute as intended. A simple oversight can waste a turn.
