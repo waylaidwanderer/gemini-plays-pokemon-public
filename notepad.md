@@ -182,3 +182,4 @@
 - **Verify Route Traversability:** Before committing to a long-distance travel plan, I must verify that the entire route is traversable in my intended direction. One-way ledges can completely block a path, as demonstrated by Route 30 (southbound only) and Route 46 (southbound only). Trust the `find_path` tool's output; 'No path found' is a critical piece of information, not a bug.
 - Flying-type moves (like PECK) are not very effective against Rock/Ground-types (like GEODUDE).
 - **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
+- **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
