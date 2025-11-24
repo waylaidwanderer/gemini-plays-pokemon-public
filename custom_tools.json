@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\n\n# input_data is injected\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_raw = input_data['current_moves_list']\n\nmoves = [move.replace('▶', '').strip() for move in current_moves_list_raw.splitlines() if move.strip()]\n\n# Find the index of the move to select\ntarget_index = -1\nfor i, move in enumerate(moves):\n    if move == move_to_select:\n        target_index = i\n        break\n\nif target_index == -1:\n    print(json.dumps([\"A\"])) # Default to first move if not found\n    sys.exit() # Exit the script if the move is not found\n\nbuttons = []\n# The cursor starts at the first move (index 0)\nfor _ in range(target_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\n# input_data is injected\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_raw = input_data['current_moves_list']\n\nmoves = [move.replace('▶', '').strip() for move in current_moves_list_raw.splitlines() if move.strip()]\n\ntarget_index = -1\nfor i, move in enumerate(moves):\n    if move == move_to_select:\n        target_index = i\n        break\n\nif target_index == -1:\n    print(json.dumps([\"A\"])) # Default to first move if not found\n    sys.exit()\n\n# B+A to reset cursor position to the top, with sleeps for stability\nbuttons = [\"B\", \"sleep 500\", \"A\", \"sleep 1000\"]\n\n# Add Down presses to reach the target move\nfor _ in range(target_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -448,6 +448,11 @@
         "commit_message": "fix: Correct SyntaxError by replacing 'return' with 'sys.exit()'. The tool was failing because 'return' was used outside of a function. This commit, based on the `python_code_debugger` agent's output, replaces it with the correct `sys.exit()` to terminate the script, resolving the critical syntax error.",
         "timestamp": "2025-11-24T19:09:45.167Z",
         "action_counter": 13612
+      },
+      {
+        "commit_message": "fix: Re-implement B+A cursor reset logic. The tool was unreliable because it did not account for the game's cursor memory. This version re-introduces the B+A sequence to exit and re-enter the move menu, which guarantees the cursor resets to the top position. Added sleep timers to ensure UI stability. This addresses a critical system critique.",
+        "timestamp": "2025-11-24T19:15:21.295Z",
+        "action_counter": 13621
       }
     ]
   },

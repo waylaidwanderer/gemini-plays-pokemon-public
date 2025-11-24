@@ -101,7 +101,6 @@
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
 - `select_move` (Tool): Selects a move from the battle menu by name.
-- `select_battle_option` (Tool): Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 - `switch_pokemon` (Tool): Automates switching to a specific Pokémon in the party during a battle.
 - `switch_party_order` (Tool): Switches the position of two Pokémon in the party menu outside of battle.
 
