@@ -5,10 +5,10 @@
 - [ ] Talk to Lance (Primary)
 
 ## Status
-- **Location:** Team Rocket Base B1F (North-East).
+- **Location:** Team Rocket Base B2F.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Defeat Rocket Grunts on B2F for passwords.
-- **Team Status:** Paprika (Lv42, 130/130 HP).
+- **Current Task:** Get password from defeated Grunt.
+- **Team Status:** Paprika (Lv43, 133/133 HP).
 - **Key Items:** Red Scale.
 - **Backlog:**
   - Cure Miltank (Needs berries).
