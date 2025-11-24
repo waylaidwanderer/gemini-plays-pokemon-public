@@ -165,5 +165,5 @@
 - **Floor Traps:** A Grunt warned of traps set in the floor. Proceed with caution.
 ### Team Rocket Base B1F Traps
 - Hypothesis: Tiles where x+y is ODD are traps. Tiles where x+y is EVEN are safe.
-- Confirmed Traps: (3,8), (4,7), (4,9).
-- Confirmed Safe: (3,7), (4,8).
+- Confirmed Traps: (3,8), (4,7), (4,9), (4,11).
+- Confirmed Safe: (3,7), (4,8), (4,10).
