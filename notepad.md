@@ -189,3 +189,8 @@
 - **Reinforce Tool Usage:** Added a principle to always use the `select_battle_option` tool for reliability in battle menus.
 - **Task Reminder:** Added a note to mark the uncollected item on Route 30 after training is complete.
     - Juggler IRWIN called, just to introduce himself.
+
+# Reflection Insights (Turn 12887)
+- **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on, such as adding, deleting, or fixing an agent, tool, marker, or notepad entry, MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred.
+- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
+- **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
