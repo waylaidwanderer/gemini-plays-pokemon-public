@@ -173,3 +173,4 @@
 ## Team Rocket Base B2F
 - Objective: Defeat Grunts to collect 2 passwords.
 - Lance is located here and acts as a Healer.
+- Updated `find_path` tool to treat furniture (Counters, PCs, etc.) as solid obstacles.
