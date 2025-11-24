@@ -184,3 +184,7 @@
 - **Input Separation:** I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next. This applies to both overworld and menu navigation.
     - Juggler IRWIN called, just to introduce himself.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails repeatedly, verify the notepad's current state before retrying, as the edit may have already succeeded. It's often safer to replace a smaller, unique line of text as an anchor.
+
+# Reflection Insights (Turn 12832)
+- **Reinforce Tool Usage:** Added a principle to always use the `select_battle_option` tool for reliability in battle menus.
+- **Task Reminder:** Added a note to mark the uncollected item on Route 30 after training is complete.
