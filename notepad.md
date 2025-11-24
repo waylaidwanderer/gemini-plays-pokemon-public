@@ -6,10 +6,10 @@
 
 ## Status
 - **Location:** Team Rocket Base B3F.
-- **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Defeat Scientist and Grunts on B3F for passwords.
+- **Objective:** Get 2 Passwords for Executive's Door.
+- **Current Task:** Find Male Grunt in West Office for 2nd Password.
 - **Team Status:** Paprika (Lv43, 133/133 HP).
-- **Key Items:** Red Scale.
+- **Key Items:** Red Scale, Password 1 (SLOWPOKETAIL).
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
