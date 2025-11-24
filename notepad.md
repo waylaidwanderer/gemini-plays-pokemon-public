@@ -9,8 +9,8 @@
 ## Status
 - **Location:** Mahogany Town.
 - **Objective:** Investigate Radio Broadcast.
-- **Current Task:** Heal at Pokemon Center.
-- **Team Status:** Paprika (Lv41, 48/127 HP). Warning: Low HP.
+- **Current Task:** Investigate Mahogany Mart.
+- **Team Status:** Paprika (Lv41, 127/127 HP). Fully Healed.
 - **Key Items:** Red Scale.
 - **Backlog:**
   - Cure Miltank (Needs berries).
