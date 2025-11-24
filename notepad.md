@@ -3,14 +3,15 @@
 ## Current Goals
 - [x] Travel to Mahogany Town (Completed)
 - [x] Check Suspicious Shop (Completed)
-- [ ] Investigate Lake of Rage (Primary)
+- [x] Investigate Lake of Rage (Red Gyarados Defeated)
+- [ ] Talk to Lance (Primary)
 
 ## Status
 - **Location:** Lake of Rage.
-- **Objective:** Investigate Lake of Rage.
-- **Current Task:** Talk to Lance at the shore.
+- **Objective:** Talk to Lance.
+- **Current Task:** Navigate to shore and speak to Lance.
 - **Team Status:** Paprika (Lv41, 48/127 HP). Warning: Low HP.
-- **Key Items:** Red Scale (Obtained from Red Gyarados).
+- **Key Items:** Red Scale.
 - **Backlog:**
   - Cure Miltank (Needs berries).
 
@@ -20,8 +21,8 @@
 ## Quest Log
 - **Badges:** Zephyr, Hive, Plain, Fog.
 - **Recent Events:**
-  - Delivered SecretPotion to Jasmine. Amphy cured.
-  - Acquired Shuckie from Mania.
+  - Defeated Red Gyarados. Obtained Red Scale.
+  - Met Lance at Lake of Rage.
 
 ## Global Game Mechanics
 ### Tile Mechanics
@@ -49,6 +50,7 @@
 - **Cursor Memory:** The move cursor remembers the last used move. ALWAYS check cursor position before selecting!
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
+- **Selecting Slot 1:** To reliably select the first move (Slot 1), do NOT just press Up once from the top (wraps to bottom). Either trust cursor memory (Press A) or use a sequence like Down x3 then Up x3.
 
 ## Strategy Notes
 - Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
@@ -67,6 +69,7 @@
 
 ## Phone Log
 - Hiker Anthony: Mentioned wild Geodude appearing often (Swarm?).
+- Youngster Joey: Wants to battle on Route 30.
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
@@ -121,7 +124,7 @@
 - **Geography:** Route connecting Mahogany Town and Lake of Rage.
 - **Signs:** (11, 49) - Route 43 Sign.
 ## Olivine Lighthouse (Cleared)
-- **Summary:** Delivered SecretPotion to Jasmine.
+- **Summary:** Delivered SecretPotion to Jasmine. 
 - **Puzzle Solution:** To reach top: 5F West Ladder -> Drop into Pit (16,7) -> Walk North to Pit (8,3) -> Climb Central Ladders.
 - **Items:** TM34 (Swagger), Super Repel.
 ## Route 40
