@@ -9,7 +9,7 @@
 ## Status
 - **Location:** Team Rocket Base B3F.
 - **Objective:** Open Transmitter Door (B2F).
-- **Current Task:** Backtrack to B2F via ladders.
+- **Current Task:** Go to Ladder at (27, 14) to reach B2F South.
 - **Team Status:** Paprika (Lv44, 108/137 HP).
 - **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
 - **Backlog:**
