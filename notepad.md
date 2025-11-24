@@ -119,27 +119,10 @@
 - **Goal:** Traverse to Mahogany Town.
 - **Geography:** Entrance at (3, 33). Inner cave entrance at (11, 21).
 - **Items:** Ultra Ball found on Route 42.
-## Olivine Lighthouse
-- **Goal:** Retrieve SecretPotion from Cianwood.
-- **Status:** Descending via East Pits.
-- **Proven Path to Top:**
-  1. Go to 5F (West Ladder).
-  2. Drop into Pit at (16, 7). Lands on 4F East Balcony.
-  3. Walk North to Pits at (8,3)/(9,3). Drop into them. Lands in 3F Central Room.
-  4. Climb Central Ladder at 3F (9,5) -> 4F Central (9,5).
-  5. Climb Central Ladder at 4F (9,7) -> 5F Central (9,7).
-  6. Walk South past Sailor to find next ladder.
-- **Floor Guide:**
-  - **1F:** Sailor (8,2), Ladder (3,11), Lore: Lighthouse honors Pokémon that lit the sea.
-  - **2F:** Gentleman Alfred, Sailor Huey, Ladder (5,3).
-  - **3F:** Bird Keeper Theo (West), Gentleman Preston (East), Central Ladder (9,5) [KEY].
-  - **4F:** Lass Connie, Sailor Kent, Central Ladder (9,7) [KEY].
-  - **5F:**
-    - West/North: Bird Keeper Denis. Ladder to 4F (3,5).
-    - East: Pits to 4F East.
-    - Central: Arrival from 4F Ladder. Path South to hidden area.
-    - Items: TM34 (Swagger) at (2,13).
-- Found Super Repel at (6, 15) on Lighthouse 5F.
+## Olivine Lighthouse (Cleared)
+- **Summary:** Delivered SecretPotion to Jasmine.
+- **Puzzle Solution:** To reach top: 5F West Ladder -> Drop into Pit (16,7) -> Walk North to Pit (8,3) -> Climb Central Ladders.
+- **Items:** TM34 (Swagger), Super Repel.
 ## Route 40
 - **Status:** Surfing South to Cianwood.
 - **NPCs:**
