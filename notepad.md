@@ -87,20 +87,12 @@
   - **Drowzee (Lv17):** Hypnosis.
 - **Lesson:** Always verify specific tile mechanics (e.g. directional ledges) are explicitly coded in pathfinding tools to avoid invalid paths.
 - **Tool Usage:** Always remember to set `autopress_buttons: true` when using custom tools that return button sequences.
-## Burned Tower
-- **Status:** Cleared. Defeated Rival Silver.
-- **Geography:** Central area is walled off. Must loop around the East side (Column 16) and likely cross via Row 7 to reach Rival.
-- **Goals:** Defeat Rival, Find Suicune.
-### Critical Lessons
-- **Action is Truth:** Never assume a tool is updated unless the `tool_code_updated` message appears. Hallucinating fixes leads to dangerous behavior.
-- **Wild Escapes:** Escape probability increases with each failed attempt. Persisting in RUN is statistically better than fighting trash mobs when conserving resources.
-- **Tile Mechanics:** HOLE tiles are warps/hazards. Avoid unless intentional.
-- **Fake Hazards:** The hole at (10, 9) in Burned Tower is a visual fake. Trust Game State Warps list over visual tiles.
-- **FAKE_HOLE (Burned Tower):** Some visual hole tiles (e.g. 10,9) do not function as warps and are walkable. Always verify hazards against the Game State Warps list.
-- Used Revive on Paprika during Silver battle.
-- **Tool Usage:** `sequence_press` MUST have `autopress_buttons: true` set to function.
-- **Battle Menu Cursor Memory:** The Party Menu cursor seems to remember its last position even after exiting and re-entering. Always verify cursor position visually before blindly navigating.
-- Battle Result: Defeated Silver. XQH sacrificed to ensure victory.
+## Burned Tower (Archived)
+- Cleared. Rival defeated. Beasts released.
+- **Key Lessons:**
+  - **Action is Truth:** Never assume a tool is updated unless the `tool_code_updated` message appears.
+  - **Wild Escapes:** Escape probability increases with failed attempts.
+  - **Fake Hazards:** Some visual holes (e.g. Burned Tower B1F 10,9) are safe. Verify with Game State.
 
 ## Route 38
 - **Status:** Cleared.
