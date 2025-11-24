@@ -165,7 +165,7 @@
 - **Floor Traps:** A Grunt warned of traps set in the floor. Proceed with caution.
 ### Team Rocket Base B1F Traps
 - Hypothesis: Alternating pattern failed at (4,12). High density of traps. Proceed with extreme caution.
-- Confirmed Traps: (2,7), (2,10), (2,11), (3,8), (4,7), (4,9), (4,11), (4,12).
+- Confirmed Traps: (2,7), (2,10), (2,11), (2,12), (3,8), (4,7), (4,9), (4,11), (4,12), (4,13).
 - Confirmed Safe: (3,7), (4,8), (4,10).
 - Warp at B1F (25,2) is a ONE-WAY arrival point. It does not allow return to (5,15).
 - Trap Tiles (Rocket Base): May have lower escape ratios or prevent escape entirely. Be prepared to fight.
