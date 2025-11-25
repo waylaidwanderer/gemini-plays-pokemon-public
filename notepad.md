@@ -8,7 +8,7 @@
 ## Status
 - **Location:** Mahogany Gym (Leader Defeated).
 - **Objective:** Leave Gym.
-- **Current Task:** Slide to exit.
+- **Current Task:** Exit Gym. Route: Slide Down -> (9,10), Left -> (5,10), Down -> (5,14), Walk Out.
 - **Team Status:** Fully Healed. Lead: Paprika (Lv45).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
