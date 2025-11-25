@@ -30,6 +30,7 @@
   - Defeated Super Nerd Teru.
   - Found Coin Case.
   - Defeated Pokemaniac Isaac.
+  - Defeated Super Nerd Eric.
 
 ## Global Game Mechanics
 ### Tile Mechanics
@@ -185,3 +186,4 @@
 - **Interaction Fix:** If an interaction fails despite correct positioning, try a 'wiggle' maneuver (move away and back) to reset the facing/state.
 - **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
   - Defeated Pokemaniac Isaac.
+  - Defeated Super Nerd Eric.
