@@ -256,3 +256,6 @@
 # Reflection Lessons (Turn 15483)
 - **IMMEDIATE TOOL MAINTENANCE IS NON-NEGOTIABLE:** My failure to immediately fix the flawed `choose_battle_action` tool led to a prolonged loop of errors, wasting turns and resources. If a tool is broken or a better one can be made, it MUST be the absolute highest priority, superseding any in-game action.
 - Fire-type moves (like EMBER) are not very effective against Rock/Ground-types (like GEODUDE).
+
+# Reminders
+- **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.

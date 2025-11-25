@@ -402,7 +402,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import sys\nimport json\n\nmoves_input = input_data.get(\"current_moves_list\", \"\")\nmove_to_select = input_data.get(\"move_to_select\", \"\")\n\n# The target move must also be cleaned of the '▶' character and whitespace\n# to ensure it can be found in the cleaned `moves` list.\nmove_to_select = move_to_select.replace('▶', '').strip()\n\nmoves = [line.strip() for line in moves_input.split('\\n') if line.strip()]\n\ncurrent_selection_index = -1\nfor i, move in enumerate(moves):\n    if move.startswith('▶'):\n        current_selection_index = i\n        moves[i] = move.replace('▶', '').strip()\n        break\n\nif current_selection_index == -1 or move_to_select not in moves:\n    sys.exit(1)\n\ntarget_index = moves.index(move_to_select)\n\nnum_moves = len(moves)\ndistance_down = (target_index - current_selection_index + num_moves) % num_moves\ndistance_up = (current_selection_index - target_index + num_moves) % num_moves\n\nbuttons = []\nif distance_down <= distance_up:\n    for _ in range(distance_down):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\nelse:\n    for _ in range(distance_up):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 250\")\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\nmoves = [line.strip() for line in current_moves_list_str.split('\\n')]\n\ncurrent_move_index = -1\nfor i, move in enumerate(moves):\n    if '▶' in move:\n        current_move_index = i\n        break\n\nif current_move_index == -1:\n    current_move_index = 0\n\ncleaned_moves = [move.replace('▶', '').strip() for move in moves]\ncleaned_target = move_to_select.replace('▶', '').strip()\n\ntarget_move_index = -1\ntry:\n    target_move_index = cleaned_moves.index(cleaned_target)\nexcept ValueError:\n    exit(1)\n\nif current_move_index == target_move_index:\n    print(json.dumps([\"A\"]))\n    exit()\n\ndiff = target_move_index - current_move_index\nbuttons = []\nif diff > 0:\n    for _ in range(diff):\n        buttons.extend([\"Down\", \"sleep 250\"])\nelse:\n    for _ in range(abs(diff)):\n        buttons.extend([\"Up\", \"sleep 250\"])\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -563,6 +563,11 @@
         "commit_message": "fix: Prevent premature exit on selected move. The script failed to clean the '▶' character from the `move_to_select` input, causing a mismatch when the target move was already selected. This led to a `sys.exit(1)` call and an empty output, resulting in a JSON parsing error. This fix, provided by the `python_code_debugger` agent, adds a cleaning step for the input variable to ensure a correct match.",
         "timestamp": "2025-11-25T08:23:49.219Z",
         "action_counter": 15243
+      },
+      {
+        "commit_message": "refactor: Overhaul index calculation and directional logic. The previous version produced incorrect directional output (e.g., 'Up' instead of 'Down'). This complete rewrite ensures that the current and target indices are found reliably from a consistent, cleaned list of moves. It correctly calculates the directional difference and generates the appropriate 'Up' or 'Down' presses with sleeps for stability, resolving the critical navigation failure.",
+        "timestamp": "2025-11-25T13:24:31.605Z",
+        "action_counter": 15731
       }
     ]
   },
