@@ -262,3 +262,4 @@
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
 - **FLOWER**: Fully traversable decorative tile.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
+- **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
