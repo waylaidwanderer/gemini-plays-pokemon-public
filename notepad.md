@@ -6,8 +6,8 @@
 
 ## Status
 - **Location:** Radio Tower 2F.
-- **Objective:** Defeat Team Rocket.
-- **Current Task:** Explore West side. (Defeated Rocket Girl).
+- **Objective:** Reach 3F.
+- **Current Task:** Navigate to stairs at (0,0). Defeat blocking Grunt at (1,4).
 - **Team Status:** Paprika (114/143).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
