@@ -2,7 +2,7 @@
 - **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on, such as adding, deleting, or fixing an agent, tool, marker, or notepad entry, MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred.
 - **IMMEDIATE TOOL MAINTENANCE:** If a tool is flawed, a better one can be conceived, or a hallucinated tool needs to be replaced, this is the absolute highest priority. I must define, refine, or delete the necessary tool in the current turn, not defer it as a goal or a future task. This prevents repeated manual errors and enforces my 'DEFAULT TO AUTOMATION' principle.
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
-- **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task (e.g., `select_battle_option`), I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
+- **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task, I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
 - **Tool Parameter Verification:** When calling a tool, especially one that automates actions like `select_move`, I must double-check all parameters, such as `autopress_buttons`, to ensure the call is correctly formatted and will execute as intended. A simple oversight can waste a turn.
 - **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, it means the proposed change has already been successfully applied in a previous turn. Do not retry the same definition; proceed with the next action.
@@ -42,6 +42,7 @@
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I recently failed by stating my intent to use automation tools but then manually pressing buttons, directly contradicting my own strategy. This is a critical failure. I MUST ensure my actions in `buttons_to_press` or `tools_to_call` perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
+- **Data Structure Verification:** Do not assume data structures or sorting order within the game (e.g., inventory lists). Always verify against direct observation before building automation that relies on it. A faulty assumption about data will lead to tool failure.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -58,7 +59,7 @@
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
-- **Status:** On Route 34, navigating towards Goldenrod City.
+- **Status:** In Union Cave, training GIBRALTAR.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -72,9 +73,6 @@
 - **TM31 MUD-SLAP**
 - **TM39 SWIFT**
 - **TM49 FURY CUTTER**
-
-# Consumable Items
-- Received a BITTER BERRY from the tree at (16, 7) on Route 31.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -92,17 +90,6 @@
 
 # Available Tools & Agents
 
-## Built-in Tools
-- `notepad_edit`: Edits the persistent notepad.
-- `run_code`: Runs a single-use Python script.
-- `define_agent`: Creates or updates a custom agent.
-- `delete_agent`: Deletes a custom agent.
-- `define_tool`: Defines a new custom tool.
-- `delete_tool`: Deletes a custom tool.
-- `define_map_marker`: Defines or updates a map marker.
-- `delete_map_marker`: Deletes a map marker.
-- `stun_npc`: Freezes or unfreezes an NPC.
-
 ## Custom Agents
 - `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
 - `python_code_debugger`: Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
@@ -112,6 +99,7 @@
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
+- `select_item_from_pack`: Automates selecting an item from the player's bag.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
@@ -171,9 +159,9 @@
 - **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. Its behavior when approached from other directions is untested. It may be a one-way ledge. My pathfinding tools currently treat it as a WALL to be safe.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
@@ -187,7 +175,6 @@
 # Reminders
 - **Follow Documented Strategy:** I must adhere to my documented strategies and principles. A single high-level Pokémon cannot carry an under-leveled team through a major battle. 
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
-
 - **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
