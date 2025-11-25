@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Switch 1 is ON. Explore the western corridor (Row 4) to find Switch 2 & 3.
+- **Current Task:** Switch 1 & 2 are ON. Explore the western corridor (Row 4) to find Switch 3.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
