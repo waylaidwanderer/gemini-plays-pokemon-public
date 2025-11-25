@@ -227,3 +227,7 @@
 
 # Strategic Principles & Lessons Learned
 - **VERIFY LOCATION BEFORE NAVIGATION:** After any map transition or interruption, and before any navigational planning or action, I must immediately verify my current map ID and coordinates from the Game State Information to prevent hallucinations and failed pathing.
+
+# PC Inventory
+- **Box 1:**
+  - Hestia (MAGBY), Lv15, Female
