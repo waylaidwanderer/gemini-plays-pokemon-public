@@ -7,7 +7,12 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Testing Switch Config [ON, ON, ON].
+### Switch Puzzle Log
+- [ON, OFF, OFF]: Opens East, Middle, West.
+- [ON, ON, OFF]: Far East Closed.
+- [OFF, OFF, OFF]: Far East Closed.
+- [OFF, ON, OFF]: Far East Closed.
+- **Current Test:** [ON, ON, ON] (Pending Verification)
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
