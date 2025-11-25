@@ -204,3 +204,7 @@
 - 6F: TRANQUIL SQUARE
 - ROOFTOP LOOKOUT
 - **B1F Box Puzzle - Hypothesis 2 (Agent):** The moving Black Belt's patrol path is the key. Observed path: (9, 9) -> (9, 10) -> (9, 11) and back. Test: Follow this exact path.
+
+# New Lessons Learned (Reflection)
+- If a `notepad_edit` call fails with 'text not found', it likely means the edit was already successfully applied in a previous turn. Do not retry the same edit; verify the notepad's current content first.
+- Added `WARP_CARPET_UP` to Tile Mechanics: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate.
