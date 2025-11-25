@@ -186,24 +186,14 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-### Shutter Puzzle (Goldenrod Underground)
-- **Objective:** Access Warehouse Entrance (West Corridor, warps at 4,29/5,29).
-- **Mechanics:** Switches 1, 2, 3 control shutters.
-- **Tests:**
-  1. S1=ON, S2=OFF, S3=OFF: East Shutter Open. Path to Item Ball. Warehouse blocked.
-  2. S1=ON, S2=OFF, S3=ON: West Shutter Closed.
-- **Current Plan:** Testing S1=ON, S2=ON, S3=ON. (S1=ON, S2=ON, S3=OFF opened Shutter 1 but Shutter 2 remained closed).
-- **Pharmacist:** Sighted at (9, 12). Avoid line of sight if possible.
-  3. S1=ON, S2=ON, S3=ON: West Shutter 2 (Row 10) Closed.
-  4. S1=OFF, S2=ON, S3=OFF: West Shutter 2 (Row 10) Closed.
-- **Next Test:** S1=OFF, S2=ON, S3=ON.
-  3. S1=ON, S2=ON, S3=ON: West Shutter 1 Open, West Shutter 2 Closed.
-- **Next Test:** S1=OFF, S2=ON, S3=OFF (Reset S3, then toggle S1).
-### Shutter Puzzle SOLVED
-- **Configuration:** S1=OFF, S2=ON, S3=OFF.
-- **Result:** West Corridor (Rows 6-11) is fully OPEN.
-- **Action:** Proceeding to Warehouse Entrance at (4, 29).
-- Tested S1=OFF, S2=ON, S3=ON: Failed. Shutter 2 (Row 10) still closed.
-- Plan: Reset to S1=ON, S2=OFF, S3=OFF. Then press 3 -> 2 -> 1.
-- Tested S1=OFF, S2=OFF, S3=ON: Shutter 1 Open, Shutter 2 Closed.
-- Next Test: S1=OFF, S2=OFF, S3=OFF (All OFF).
+### Shutter Puzzle Log
+| S1 | S2 | S3 | Result |
+|---|---|---|---|
+| ON | OFF | OFF | East Open, West Closed |
+| ON | OFF | ON | West Closed |
+| ON | ON | OFF | West Shutter 1 Open, Shutter 2 Closed |
+| ON | ON | ON | West Shutter 1 Open, Shutter 2 Closed |
+| OFF | ON | OFF | West Shutter 1 Open, Shutter 2 Closed |
+| OFF | ON | ON | West Shutter 1 Open, Shutter 2 Closed |
+| OFF | OFF | ON | West Shutter 1 Open, Shutter 2 Closed |
+| OFF | OFF | OFF | Next Test (All OFF) |
