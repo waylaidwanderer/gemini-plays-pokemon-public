@@ -259,3 +259,6 @@
 
 # Reminders
 - **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
+- **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
+- **FLOWER**: Fully traversable decorative tile.
+- **SIGN**: An impassable, interactable object. Functions as a wall.
