@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Executing Solution (S1=ON, S2=OFF, S3=OFF). Heading to East Shutter (12, 9) to access Warehouse.
+- **Current Task:** Resetting to S1=ON, S2=OFF, S3=OFF. Heading to East Area to explore unseen tiles.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
