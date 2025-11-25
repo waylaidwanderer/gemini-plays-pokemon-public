@@ -218,3 +218,7 @@
   - **Test:** Path to (5, 8), face left, and press 'A'.
   - **Result:** Black Belt gave new dialogue ("Come on, kid, scoot!"). Map layout did not change immediately.
   - **Conclusion:** Interaction is a necessary step, but not the complete solution. The next step is to follow his instruction to "scoot."
+- **Hypothesis 3 (Agent):** Defeating the moving Black Belt at (9, 11) is the trigger.
+  - **Test 1:** Walk into his line of sight.
+  - **Result:** No battle triggered. He moved past me.
+  - **Conclusion:** Hypothesis sub-test failed. Line of sight is not the trigger.
