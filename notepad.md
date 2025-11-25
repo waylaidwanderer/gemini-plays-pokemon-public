@@ -24,6 +24,7 @@
   - Defeated Red Gyarados. Obtained Red Scale.
   - Stopped Team Rocket radio signal.
   - Defeated Pryce. Earned Glacier Badge and TM16.
+  - Picnicker Gina reported Team Rocket takeover of Goldenrod Radio Tower.
 
 ## Global Game Mechanics
 ### Tile Mechanics
