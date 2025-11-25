@@ -9,7 +9,7 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 - **Current Task:** Navigate through the Underground to find the Director.
 - **Team Status:** Full Health. Paprika (149/149).
-- **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge.
+- **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
   - Cure Miltank (Needs berries).
   - Trade Red Scale to Mr. Pokémon.
