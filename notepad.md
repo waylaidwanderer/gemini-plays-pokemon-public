@@ -1,14 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Reach 3F (Current)
+- [ ] Reach 4F (Current)
+- [ ] Find Director on 5F
 - [ ] Defeat Team Rocket
 
 ## Status
 - **Location:** Radio Tower 3F.
 - **Objective:** Find Director on 5F.
 - **Current Task:** Go to 4F via stairs at (7,0). Get Card Key from Director.
-- **Team Status:** Paprika (114/143).
+- **Team Status:** Paprika (117/146) Lv47.
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
@@ -25,6 +26,7 @@
   - Stopped Team Rocket radio signal.
   - Defeated Pryce. Earned Glacier Badge and TM16.
   - Picnicker Gina reported Team Rocket takeover of Goldenrod Radio Tower.
+  - Learned Director is on 5F with Card Key.
 
 ## Global Game Mechanics
 ### Tile Mechanics
