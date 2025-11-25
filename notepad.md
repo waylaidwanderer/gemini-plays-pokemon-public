@@ -197,3 +197,4 @@
   1. **S1=ON, S2=ON, S3=ON:** West Shutter (6,9) OPEN. East Shutter (12,9) CLOSED.
   2. **S1=OFF, S2=ON, S3=OFF:** East Shutter (12,9) OPEN initially, then CLOSED when tile (11,7) opened. Complex linkage suspected.
   3. **Current Test:** S1=OFF, S2=OFF, S3=OFF. Hypothesis: Opens East Shutter (12,9).
+- Test: S1=OFF, S2=OFF, S3=OFF. Checking if (12, 9) opens.
