@@ -191,13 +191,9 @@
 - **Switch 3:** Located at (2, 1).
 - **Pharmacist:** Sighted at (4, 8). Likely a trainer.
 ### Shutter Puzzle Mechanics
-- **Switch 3 (2, 1):** Controls Shutter at (2, 6).
-  - **OFF:** Shutter OPEN.
-  - **ON:** Shutter CLOSED.
-- **Switch 2 (10, 1):** Controls Shutters at Row 9.
-  - **ON:** West (6, 9) OPEN, East (12, 9) CLOSED.
-  - **OFF:** West (6, 9) CLOSED, East (12, 9) OPEN (Verified).
-- **Switch 1 (16, 1):** Testing control of Shutter at (16, 6).
-  - **ON:** Shutter CLOSED.
-  - **OFF:** Testing now.
+- **Switch 3 (2, 1):** OFF opens Shutter (2, 6).
+- **Switch 2 (10, 1):** Toggles Row 9 Shutters. OFF likely opens East (12, 9).
+- **Switch 1 (16, 1):** OFF combined with others affects Row 6/9 connectivity.
+- **Discovery:** Gap at (11, 7) opens with S1=OFF, S2=ON, S3=OFF, but caused (12, 9) to CLOSE.
 - **Current State:** S1=OFF, S2=ON, S3=OFF.
+- **Plan:** Turn S2 OFF to reopen (12, 9).
