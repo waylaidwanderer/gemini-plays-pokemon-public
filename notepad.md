@@ -1,28 +1,30 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Defeat Mahogany Gym Leader Pryce (Current)
+- [ ] Exit Mahogany Gym (Current)
+- [ ] Check Radio/Phone for next objective
 - [ ] Buy supplies (Mart Empty - Paused)
 
 ## Status
-- **Location:** Mahogany Gym.
-- **Objective:** Earn the Glacier Badge.
-- **Current Task:** Navigate Ice Puzzle.
+- **Location:** Mahogany Gym (Leader Defeated).
+- **Objective:** Leave Gym.
+- **Current Task:** Slide to exit.
 - **Team Status:** Fully Healed. Lead: Paprika (Lv45).
-- **Key Items:** HM06 Whirlpool, Red Scale.
+- **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
   - Trade Red Scale to Mr. Pokémon.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
-- **Mahogany Area:** Cleared Team Rocket Base.
+- **Mahogany Area:** Cleared Team Rocket Base. Defeated Gym Leader Pryce.
 
 ## Quest Log
-- **Badges:** Zephyr, Hive, Plain, Fog, Storm, Mineral.
+- **Badges:** Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
 - **Recent Events:**
   - Defeated Red Gyarados. Obtained Red Scale.
-  - Met Lance at Lake of Rage.
+  - Stopped Team Rocket radio signal.
+  - Defeated Pryce. Earned Glacier Badge and TM16.
 
 ## Global Game Mechanics
 ### Tile Mechanics
@@ -76,6 +78,7 @@
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
+
 ## Fly Map Mechanics
 - **Navigation:** The Fly map cursor navigation appears to be list-based (cycling through towns in a specific order: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver) rather than purely spatial. Use UP/DOWN to cycle efficiently.
 
@@ -89,6 +92,7 @@
   - **Drowzee (Lv17):** Hypnosis.
 - **Lesson:** Always verify specific tile mechanics (e.g. directional ledges) are explicitly coded in pathfinding tools to avoid invalid paths.
 - **Tool Usage:** Always remember to set `autopress_buttons: true` when using custom tools that return button sequences.
+
 ## Burned Tower (Archived)
 - Cleared. Rival defeated. Beasts released.
 - **Key Lessons:**
@@ -100,6 +104,7 @@
 - **Status:** Cleared.
 - **Trainers:** Sailor Harry, Lass Dana, Beauty Olivia (Defeated).
 - **Lore:** Olivia mentions Moomoo Milk. Farm likely nearby.
+
 ## Route 39
 - **Status:** Arrived from Route 38 (East).
 - **Geography:** Route connecting Ecruteak/Route 38 to Olivine City.
@@ -108,6 +113,7 @@
 - Defeated Pokefan Derek (Pikachu Lv17) at (10, 19).
 - Farmhouse: Pokefan F mentions milk is shipped to Kanto.
 - Quest: Feed Berries to sick Miltank in Barn. (Status: Paused. Requires standard 'BERRY' item. 2 fed so far. Needs more.)
+
 ## Olivine City (Completed)
 - **Status:** Cleared. Mineral Badge obtained.
 - **Key Events:**
@@ -126,10 +132,12 @@
 - **Status:** Exploring North towards Lake of Rage.
 - **Geography:** Route connecting Mahogany Town and Lake of Rage.
 - **Signs:** (11, 49) - Route 43 Sign.
+
 ## Olivine Lighthouse (Cleared)
 - **Summary:** Delivered SecretPotion to Jasmine. 
 - **Puzzle Solution:** To reach top: 5F West Ladder -> Drop into Pit (16,7) -> Walk North to Pit (8,3) -> Climb Central Ladders.
 - **Items:** TM34 (Swagger), Super Repel.
+
 ## Route 40
 - **Status:** Surfing South to Cianwood.
 - **NPCs:**
@@ -139,15 +147,13 @@
 - **Objects:** Sign (14, 10), Rocks at (6,9), (7,8), (7,11).
 - **Trainers:**
   - Swimmer Elaine (Staryu Lv21) at (5, 19). Defeated.
-  - Swimmer Paula (Staryu Lv19, Shellder Lv19) at (10, 25). Defeated.
-  - Swimmer Randall (Shellder Lv18, Wartortle Lv20). Defeated.
-- Received call from Joey about his Rattata.
 - **BUOY:** Impassable obstacle.
 - **Lesson:** Navigation tools must explicitly check player state (e.g., surfing) to correctly identify traversable tiles like WATER.
 
 ## Route 41 (Cleared)
 - Traversed sea route to Cianwood.
 - Defeated Swimmers Charlie, Susie, Kirk, Wendy.
+
 ## Cianwood City
 - **Gym:** Leader Chuck (Fighting). Weak to Psychic.
 - **Puzzle:** Requires Strength to move boulders.
@@ -156,35 +162,19 @@
 - **Navigation Protocol:** Always step 1 tile away from warps before pathfinding.
 - **Cianwood Photo Studio:** Located at (9, 31). Not the Gym.
 - **Cianwood Event:** Encountered Suicune at (10, 14), but it fled. Eusine appeared and challenged me to a battle to earn Suicune's respect.
-- Defeated Eusine (Drowzee Lv23, Electrode Lv25, Haunter Lv23). Paprika HP Critical (24/117).
-- **Status Update:** Arrived in Olivine City via Fly. Heading to Lighthouse to deliver SecretPotion.
-- **Event:** Joey called (Turn 6420). Ignoring for now.
-- **Mahogany Town Info:** Team Rocket's radio signal has been stopped. The Gyarados rampage is over.
-- **Mahogany Town Event:** NPCs are reacting to a Team Rocket announcement or arrival. Confirmed by Pokefan M in Pokemon Center.
-- Mahogany PokeCenter Cooltrainer F: Confirmed mechanic that evolved Pokémon learn moves at later levels.
+- Defeated Eusine (Drowzee Lv23, Electrode Lv25, Haunter Lv23).
+
+## Mahogany Town Info
+- **Status:** Safe. Team Rocket defeated.
+- **Gym:** Leader Pryce (Ice) Defeated.
 - **Mechanic Confirmed:** Persian Statues contain security cameras. Crossing their line of sight triggers Rocket Grunt battles.
-- **Objective:** Find a 'secret switch' to disable the security system and stop the Grunts from respawning.
+- **Objective:** Continue adventure.
 - **Trap Warning:** The security cameras in Team Rocket Base B1F (e.g., at 6,1) create an infinite loop of battles if you remain in their line of sight. You must move immediately after a battle ends.
 - **Floor Traps:** A Grunt warned of traps set in the floor. Proceed with caution.
-### Team Rocket Base B1F Traps
-- Hypothesis: Alternating pattern failed at (4,12). High density of traps. Proceed with extreme caution.
-- Confirmed Traps: (2,7), (2,10), (2,11), (2,12), (3,8), (4,7), (4,9), (4,11), (4,12), (4,13).
-- Confirmed Safe: (3,7), (4,8), (4,10).
-- Warp at B1F (25,2) is a ONE-WAY arrival point. It does not allow return to (5,15).
-- Trap Tiles (Rocket Base): May have lower escape ratios or prevent escape entirely. Be prepared to fight.
 
-## Team Rocket Base
-### B3F (Current)
-- **Objective:** Open Executive's Door.
-- **Status:**
-  - [x] Scientist Ross: Defeated.
-  - [x] Rocket Girl: Defeated. Password 1: **SLOWPOKETAIL**.
-  - [x] Male Grunt: Defeated/Talked. Password 2: **RATICATE TAIL**.
-  - [ ] Locked Door: Use passwords at (10, 9).
-  - [x] Item Ball: At (28, 9) (Full Heal).
-  - [ ] Item Ball: At (14, 10).
-
-### B1F & B2F (Cleared)
-- Lance heals on B2F (5, 13). B1F traps are dangerous.
-- **Lesson:** Pathfinding tools may treat stale object markers or cleared item locations as obstacles. Verify path manually if the tool returns an inefficient route.
+## Team Rocket Base (Cleared)
+- **Summary:** Cleared B1F, B2F, B3F. Defeated Executives. Stopped Radio Signal.
+- **Key Items:** HM06 Whirlpool obtained from Lance.
+- **Traps:** Floor traps on B1F. Security cameras on B1F.
+- **Passwords:** SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI.
 - **Interaction Fix:** If an interaction fails despite correct positioning, try a 'wiggle' maneuver (move away and back) to reset the facing/state.
