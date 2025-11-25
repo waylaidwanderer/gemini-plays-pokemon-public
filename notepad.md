@@ -224,3 +224,6 @@
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
 - Youngster JOEY called for a rematch on Route 30.
 - **Tool Logic Consistency:** When writing tool scripts, ensure that data comparisons (like finding list indices) are performed using a single, consistent frame of reference. Using different versions of a list (e.g., one with a cursor marker and one without) for the same logical operation can lead to subtle, hard-to-diagnose bugs. This was the root cause of the `select_move` tool failure.
+
+# Strategic Principles & Lessons Learned
+- **VERIFY LOCATION BEFORE NAVIGATION:** After any map transition or interruption, and before any navigational planning or action, I must immediately verify my current map ID and coordinates from the Game State Information to prevent hallucinations and failed pathing.
