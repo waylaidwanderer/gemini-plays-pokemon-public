@@ -8,7 +8,7 @@
 ## Status
 - **Location:** Radio Tower 4F.
 - **Objective:** Find Director on 5F.
-- **Current Task:** Explore West 4F. East side blocked by wall.
+- **Current Task:** Explore West 4F. Wall blocks East side (Stairs to 5F). Need to find a way around.
 - **Team Status:** Paprika (111/146) Lv47.
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
