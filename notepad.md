@@ -198,3 +198,5 @@
 - **Correction:** Switch 1 was found OFF (contradicting previous marker). The shutter at (16, 6) was CLOSED while S1=OFF. Toggling S1 to ON to see if it opens the shutter.
 - **Experiment 2:** S1=ON. Result: Shutter (16, 6) still Closed.
 - **Plan:** Toggle S2 to ON (Resulting state: S1=ON, S2=ON, S3=ON).
+- Observation: At S1=ON, S2=OFF, S3=ON, (6,9) is CLOSED and (12,9) is OPEN.
+- Action: Toggling S2 to ON. Hypothesis: This might invert the shutter states at Row 9.
