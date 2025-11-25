@@ -5,9 +5,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground.
+- **Location:** Underground Switch Room Entrances.
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Navigate through the Underground to find the Director.
+- **Current Task:** Infiltrate the Warehouse. Step 1: Gather intel from Teacher. Step 2: Enter via south warps.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
