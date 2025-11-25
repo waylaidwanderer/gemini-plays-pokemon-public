@@ -100,7 +100,7 @@
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
 - **LADDER**: A traversable warp tile that moves the player between floors.
-- **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. Its behavior when approached from other directions is untested. It may be a one-way ledge. My pathfinding tools currently treat it as a WALL to be safe.
+- **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. My previous hypothesis that it was a one-way ledge was a hallucination.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
@@ -130,7 +130,9 @@
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
 - `select_item_from_pack`: Automates selecting an item from the player's bag.
-- **select_battle_option**: A *built-in* tool that automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
+
+## Built-in Tools
+- **select_battle_option**: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
