@@ -55,12 +55,10 @@
 - **ICE:** Slippery. Stepping onto this tile forces the player to slide in the direction of movement until colliding with a WALL, OBJECT, or landing on a non-ICE tile.
 
 ### Battle Mechanics
-- **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
-- **Move Menu Layout:** The move selection menu is a vertical list. Use UP/DOWN to navigate. LEFT/RIGHT do not work.
-- **Cursor Memory:** The move cursor remembers the last used move. ALWAYS check cursor position before selecting!
+- **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
+- **Move Selection Menu:** ALWAYS use the `select_move` tool. It automatically handles cursor position and button presses.
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
-- **Selecting Slot 1:** To reliably select the first move (Slot 1), do NOT just press Up once from the top (wraps to bottom). Either trust cursor memory (Press A) or use a sequence like Down x3 then Up x3.
 
 ## Strategy Notes
 - Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
