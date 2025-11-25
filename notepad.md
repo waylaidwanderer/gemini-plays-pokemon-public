@@ -9,7 +9,7 @@
 - **Location:** Radio Tower 5F (Director's Office).
 - **Objective:** Defeat Rocket Executive.
 - **Current Task:** Defeat the Imposter Director to reveal the real Director's location.
-- **Team Status:** Paprika (97/146) Lv47.
+- **Team Status:** Paprika (92/146) Lv47. (Acc -1)
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
