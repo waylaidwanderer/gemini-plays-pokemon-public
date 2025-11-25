@@ -182,3 +182,7 @@
 - **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
 - **HEADBUTT_TREE:** This is an impassable, interactable tree. It likely requires the Headbutt move to trigger an event, such as a Pokémon encounter.
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
+
+# New Lessons & Mechanics (Reflection)
+- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match, including all formatting like Markdown bolding (`**`). If an edit fails, it's often due to a small discrepancy. Always double-check the source text.
+- **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
