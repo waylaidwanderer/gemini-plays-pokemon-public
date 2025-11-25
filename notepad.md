@@ -238,3 +238,7 @@
   - **Test:** Talk to Kurt at (3, 2) in his house.
   - **Result:** Kurt's dialogue was only about making Poké Balls from Apricorns.
   - **Conclusion:** Hypothesis failed. Kurt is not the immediate trigger for the Slowpoke Well event.
+- **Hypothesis 3:** A Youngster at (8, 9) might have information.
+  - **Test:** Talk to the Youngster.
+  - **Result:** He mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a major clue.
+  - **Conclusion:** The Charcoal Man, likely found at the Charcoal Kiln (21, 13), is the next person to investigate.
