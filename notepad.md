@@ -44,6 +44,7 @@
 - **BUOY:** Impassable obstacle. Forms barriers on sea routes. Look for gaps.
 - **ROCK:** Impassable obstacle. Treated as a solid object.
 - **SECURITY_CAMERA (Persian Statue):** Impassable WALL. Triggers infinite alarm battles if player crosses its line of sight (specific columns/rows). Must be disabled.
+- **ICE:** Slippery. Stepping onto this tile forces the player to slide in the direction of movement until colliding with a WALL, OBJECT, or landing on a non-ICE tile.
 
 ### Battle Mechanics
 - **Menu Navigation:** ALWAYS use `select_battle_option` for the main battle menu. Never use raw directional inputs here.
