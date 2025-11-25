@@ -58,7 +58,7 @@
 
 ## Strategy Notes
 - Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
-- Protocol: Mark NPCs immediately.
+- Protocol: Mark NPCs immediately. NEVER delete markers for defeated trainers; they remain as solid obstacles. Mark as 'Defeated'.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
 - **Screen Text:** Trust visual evidence (Screen Text) over system notes if they conflict. Text can persist or trigger unexpectedly.
 - Record new Pokémon discoveries immediately, even during battle.
