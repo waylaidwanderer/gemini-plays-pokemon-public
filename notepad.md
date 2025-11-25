@@ -27,6 +27,7 @@
   - Defeated Pryce. Earned Glacier Badge and TM16.
   - Picnicker Gina reported Team Rocket takeover of Goldenrod Radio Tower.
   - Learned Director is on 5F with Card Key.
+  - Defeated Pokemaniac Donald in Underground.
 
 ## Global Game Mechanics
 ### Tile Mechanics
