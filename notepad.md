@@ -194,3 +194,4 @@
 - **Experiment 1:** Turn Switch 1 OFF (Others ON).
 - **Hypothesis:** Toggling switches changes shutter states.
 - **Status:** Checking shutter at (16, 6) with configuration: S1=ON, S2=OFF, S3=ON. If closed, will try toggling Switch 1.
+- **Observation:** Map update detected. (6, 9) became WALL (Closed), (12, 9) became FLOOR (Open). Current State: S1=ON, S2=OFF, S3=ON. Hypothesis: S2=OFF opens (12, 9)?
