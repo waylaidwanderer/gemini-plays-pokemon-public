@@ -253,3 +253,9 @@
 - **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
 - **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
 - **CRITICAL LOCATION VERIFICATION:** After any map transition (entering/exiting a building, changing routes), I MUST immediately verify my current map ID and coordinates from the Game State Information. This is the only way to prevent severe hallucinations about my location, which has been a recurring critical failure.
+
+# Reflection Lessons (Turn 15483)
+- **IMMEDIATE TOOL MAINTENANCE IS NON-NEGOTIABLE:** My failure to immediately fix the flawed `choose_battle_action` tool led to a prolonged loop of errors, wasting turns and resources. If a tool is broken or a better one can be made, it MUST be the absolute highest priority, superseding any in-game action.
+
+# Tile & Object Mechanics (Addendum)
+- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
