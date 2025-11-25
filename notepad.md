@@ -1,14 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Exit Mahogany Gym (Current)
-- [ ] Check Radio/Phone for next objective
-- [ ] Buy supplies (Mart Empty - Paused)
+- [ ] Fly to Goldenrod City (Current)
+- [ ] Investigate Radio Tower
 
 ## Status
 - **Location:** Mahogany Town.
 - **Objective:** Investigate Radio Broadcasts.
-- **Current Task:** Heal at Pokemon Center.
+- **Current Task:** Fly to Goldenrod City.
 - **Team Status:** Paprika (119/140).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
