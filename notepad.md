@@ -188,17 +188,6 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-### Shutter Puzzle Log
-| S1 | S2 | S3 | Result |
-|---|---|---|---|
-| ON | OFF | OFF | East Open, West Closed |
-| ON | OFF | ON | West Closed |
-| ON | ON | OFF | West Shutter 1 Open, Shutter 2 Closed |
-| ON | ON | ON | West Shutter 1 Open, Shutter 2 Closed |
-| OFF | ON | OFF | West Shutter 1 Open, Shutter 2 Closed |
-| OFF | ON | ON | West Shutter 1 Open, Shutter 2 Closed |
-| OFF | OFF | ON | West Shutter 1 Open, Shutter 2 Closed |
-| OFF | OFF | OFF | Shutter 2 Closed |
-| ON | ON | OFF | Testing Middle Shutter (10,6) |
-| ON | OFF | ON | Next Test |
-- **Solved:** Switch configuration [ON, OFF, OFF] successfully opened the East Shutter at (16, 6). Path to Warehouse is clear.
+### Shutter Puzzle Solved
+- **Solution:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
+- **Effect:** Opens East, Middle, and West Shutters.
