@@ -255,3 +255,6 @@
 - **VERIFY PARTY/PC STATUS:** Before using the PC or party menu to deposit, withdraw, or switch a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
+
+# High-Priority Tasks
+- **CRITICAL:** The `select_move` tool is fundamentally broken. All attempts to fix it based on text parsing have failed. I must completely redesign and rebuild it from scratch. The new logic must be based on parsing the visual structure of the UI (e.g., the box borders) rather than unreliable text content. This task must be completed before attempting any major trainer battles where automation is critical.
