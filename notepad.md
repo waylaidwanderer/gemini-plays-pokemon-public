@@ -183,3 +183,4 @@
 - **Passwords:** SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI.
 - **Interaction Fix:** If an interaction fails despite correct positioning, try a 'wiggle' maneuver (move away and back) to reset the facing/state.
 - **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
+  - Defeated Pokemaniac Isaac.
