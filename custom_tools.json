@@ -382,6 +382,16 @@
         "commit_message": "refactor: Remove debug logging. The extensive logging successfully confirmed the tool's logic is correct and that the path was genuinely blocked, which was a player misunderstanding. The debug prints are no longer needed for standard operation.",
         "timestamp": "2025-11-25T12:41:41.363Z",
         "action_counter": 15644
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The tool incorrectly reported no reachable unseen tiles despite a system alert indicating otherwise. This version adds comprehensive print statements to stderr to trace grid generation, player position finding, and the step-by-step execution of the BFS queue. This will help diagnose why the algorithm is failing to explore the map.",
+        "timestamp": "2025-11-25T15:35:17.013Z",
+        "action_counter": 15952
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging successfully confirmed the tool's logic is correct and that the path was genuinely blocked, which was a player misunderstanding. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-25T15:36:24.092Z",
+        "action_counter": 15954
       }
     ]
   },

@@ -246,3 +246,4 @@
 # Reflection Lessons (Turn 15483)
 - **IMMEDIATE TOOL MAINTENANCE IS NON-NEGOTIABLE:** My failure to immediately fix the flawed `choose_battle_action` tool led to a prolonged loop of errors, wasting turns and resources. If a tool is broken or a better one can be made, it MUST be the absolute highest priority, superseding any in-game action.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
