@@ -203,3 +203,4 @@
 - 5F: TM CORNER
 - 6F: TRANQUIL SQUARE
 - ROOFTOP LOOKOUT
+- **B1F Box Puzzle - Hypothesis 2 (Agent):** The moving Black Belt's patrol path is the key. Observed path: (9, 9) -> (9, 10) -> (9, 11) and back. Test: Follow this exact path.
