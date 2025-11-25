@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Testing S3=ON (S1=ON, S2=OFF). Result: Middle (6,9) OPEN. Checking path south. Far East (x>18) confirmed dead end.
+- **Current Task:** Executing Solution (S1=ON, S2=OFF, S3=OFF). Heading to East Shutter (12, 9) to access Warehouse.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
