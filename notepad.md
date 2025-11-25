@@ -124,15 +124,13 @@
 - `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
 - `python_code_debugger`: Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
 
-## Built-in Tools
-- `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
-
 ## Custom Tools
 - `find_path`: Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
 - `select_item_from_pack`: Automates selecting an item from the player's bag.
+- `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
@@ -245,5 +243,3 @@
 
 # Reflection Lessons (Turn 15483)
 - **IMMEDIATE TOOL MAINTENANCE IS NON-NEGOTIABLE:** My failure to immediately fix the flawed `choose_battle_action` tool led to a prolonged loop of errors, wasting turns and resources. If a tool is broken or a better one can be made, it MUST be the absolute highest priority, superseding any in-game action.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
