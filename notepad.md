@@ -12,7 +12,8 @@
 - [ON, ON, OFF]: Far East Closed.
 - [OFF, OFF, OFF]: Far East Closed.
 - [OFF, ON, OFF]: Far East Closed.
-- **Current Test:** [ON, ON, ON] (Pending Verification)
+- [ON, ON, ON]: Far East Closed.
+- **Current Test:** [ON, OFF, ON] (Pending Verification)
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
