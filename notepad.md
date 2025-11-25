@@ -190,10 +190,10 @@
 - **Shutter System:** Rocket Grunt dialogue ("Open one shutter, another closes") implies switches toggle mutually exclusive paths. Activating one switch may block access to another area. Need to find the correct combination/order.
 - **Switch 3:** Located at (2, 1).
 - **Pharmacist:** Sighted at (4, 8). Likely a trainer.
-### Shutter Puzzle Mechanics
-- **Switch 3 (2, 1):** OFF opens Shutter (2, 6).
-- **Switch 2 (10, 1):** Toggles Row 9 Shutters. OFF likely opens East (12, 9).
-- **Switch 1 (16, 1):** OFF combined with others affects Row 6/9 connectivity.
-- **Discovery:** Gap at (11, 7) opens with S1=OFF, S2=ON, S3=OFF, but caused (12, 9) to CLOSE.
-- **Current State:** S1=OFF, S2=ON, S3=OFF.
-- **Plan:** Turn S2 OFF to reopen (12, 9).
+### Shutter Puzzle State
+- **Current Configuration:** S1=OFF, S2=OFF, S3=OFF (Testing).
+- **Goal:** Open Shutter (12, 9) to access East path.
+- **Observations:**
+  - S1=OFF, S2=ON, S3=OFF: Opened gap (11, 7), but Shutter (12, 9) CLOSED.
+  - S3=OFF: Opens Shutter (2, 6).
+  - Hypothesis: S2=OFF will open Shutter (12, 9).
