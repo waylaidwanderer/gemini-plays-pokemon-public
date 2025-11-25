@@ -208,3 +208,9 @@
 # New Lessons Learned (Reflection)
 - If a `notepad_edit` call fails with 'text not found', it likely means the edit was already successfully applied in a previous turn. Do not retry the same edit; verify the notepad's current content first.
 - Added `WARP_CARPET_UP` to Tile Mechanics: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate.
+
+## Goldenrod Dept. Store B1F Box Puzzle Log
+- **Hypothesis 1:** The puzzle solution involves interacting with the Machop at (7, 7).
+  - **Test:** Path to (6, 7) and press 'A' on the Machop.
+  - **Result:** Machop gave dialogue ("MACHOKE: Maaacho!") but the map layout did not change. Path to the item at (14, 2) remained blocked.
+  - **Conclusion:** Hypothesis failed. Simple interaction with the Machop is not the solution.
