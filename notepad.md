@@ -190,15 +190,8 @@
 - **Shutter System:** Rocket Grunt dialogue ("Open one shutter, another closes") implies switches toggle mutually exclusive paths. Activating one switch may block access to another area. Need to find the correct combination/order.
 - **Switch 3:** Located at (2, 1).
 - **Pharmacist:** Sighted at (4, 8). Likely a trainer.
-### Shutter Puzzle Mechanics
+### Shutter Puzzle Solved
 - **Goal:** Open East Shutter at (12, 9).
-- **Mechanics:**
-  - **Switch 3 (2,1):** OFF opens Shutter (2, 6).
-  - **Switch 2 (10,1):** Toggles shutters in Row 9 (West vs East).
-  - **Switch 1 (16,1):** Likely a modifier for the other switches.
-- **Experiment Log:**
-  - [Fail] S1=ON, S2=ON, S3=ON -> (16,6) Closed.
-  - [Fail] S1=OFF, S2=OFF, S3=OFF -> (12,9) Closed.
-  - [Fail] S1=OFF, S2=ON, S3=OFF -> (12,9) Closed (vertical path open).
-  - [Fail] S1=ON, S2=ON, S3=OFF -> (12,9) Closed.
-  - [Current Test] S1=ON, S2=OFF, S3=OFF -> Checking (12,9)...
+- **Solution:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
+- **Effect:** Opens East Shutter (12, 9) and Central Vertical Corridor (Cols 10-11).
+- **Access:** Grants access to Item at (14, 9) and the Warehouse Entrance to the South.
