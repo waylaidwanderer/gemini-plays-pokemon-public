@@ -6,10 +6,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod City (Pokémon Center).
+- **Location:** Goldenrod Underground Entrance.
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Heal at Pokémon Center, then go to the Underground.
-- **Team Status:** Paprika (50/149) Lv48. [Low PP]
+- **Current Task:** Navigate through the Underground to find the Director.
+- **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
