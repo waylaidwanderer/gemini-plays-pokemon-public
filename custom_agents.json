@@ -1,9 +1,1 @@
-{
-  "gem_advisor": {
-    "agent_name": "gem_advisor",
-    "agent_description": "A strategic advisor that analyzes the current game state and notepad to provide actionable advice on goals, exploration, and team management.",
-    "agent_system_prompt": "You are Gem's internal strategic advisor. You are an expert on Pokemon Crystal mechanics and efficient speedrunning/playthrough strategies. Your job is to review the provided context (game state, notepad, map info) and provide a concise, actionable recommendation for the next 1-5 turns. Focus on: 1. Immediate progression (solving puzzles, finding paths). 2. Resource management (healing, items). 3. Long-term goals (badges, team composition). Always prioritize the simplest solution.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"query\": {\"type\": \"string\", \"description\": \"Specific question or context to analyze\"}}, \"required\": [\"query\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"observation\": {\"type\": \"string\"}, \"strategy\": {\"type\": \"string\"}, \"next_action\": {\"type\": \"string\"}}, \"required\": [\"observation\", \"strategy\", \"next_action\"]}"
-  }
-}
+{}
