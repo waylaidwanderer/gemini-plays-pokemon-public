@@ -228,3 +228,13 @@
   - Hestia (MAGBY), Lv15, Female
 - **Conclusion:** My Onix (Rocky) is NOT in the PC. My memory was a hallucination based on the Pokedex entry. My new plan is to travel to Union Cave to catch a Geodude as a replacement counter for Whitney.
 - **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
+
+# Azalea Town Investigation Log
+- **Hypothesis 1:** The Team Rocket Grunt at the Slowpoke Well is the story trigger.
+  - **Test:** Interact with the object at (18, 9).
+  - **Result:** It was a Slowpoke, not a Grunt. Dialogue was "Yawn?".
+  - **Conclusion:** Hypothesis failed due to a hallucination. The trigger is not a Grunt.
+- **Hypothesis 2:** Kurt will provide information about the Slowpoke situation.
+  - **Test:** Talk to Kurt at (3, 2) in his house.
+  - **Result:** Kurt's dialogue was only about making Poké Balls from Apricorns.
+  - **Conclusion:** Hypothesis failed. Kurt is not the immediate trigger for the Slowpoke Well event.
