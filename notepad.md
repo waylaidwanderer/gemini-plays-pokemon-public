@@ -8,8 +8,8 @@
 ## Status
 - **Location:** Radio Tower 4F.
 - **Objective:** Find Director on 5F.
-- **Current Task:** Explore 4F to find path to 5F stairs.
-- **Team Status:** Paprika (117/146) Lv47.
+- **Current Task:** Explore West 4F. East side blocked by wall.
+- **Team Status:** Paprika (111/146) Lv47.
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
