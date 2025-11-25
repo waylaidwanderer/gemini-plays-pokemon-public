@@ -135,7 +135,7 @@
 
 ## Goldenrod Department Store
 - **Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
-- **B1F Box Puzzle:** Leaving the room and returning clears the central path, but does not grant access to the items in the side alcoves. The full solution is currently unknown, and the items may be inaccessible for now. The clue is the workers' dialogue about working 'behind the scenes'.
+- **B1F Box Puzzle:** My own movement is causing changes in the map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
 
 ## Goldenrod Gym
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
