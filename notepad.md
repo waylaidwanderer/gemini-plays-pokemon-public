@@ -180,3 +180,4 @@
 # New Lessons & Mechanics (Reflection)
 - **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
 - **HEADBUTT_TREE:** This is an impassable, interactable tree. It likely requires the Headbutt move to trigger an event, such as a Pokémon encounter.
+- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.

@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import sys\nimport json\n\nmoves_input = input_data['current_moves_list']\ntarget_move = input_data['move_to_select']\n\nmoves_list = [move.strip() for move in moves_input.split('\\n') if move.strip()]\n\ncurrent_index = -1\nfor i, move in enumerate(moves_list):\n    if '▶' in move:\n        current_index = i\n        break\n\nif current_index == -1:\n    sys.exit(1)\n\ncleaned_moves_list = [move.replace('▶', '').strip() for move in moves_list]\n\ntarget_index = -1\nfor i, move in enumerate(cleaned_moves_list):\n    if move == target_move:\n        target_index = i\n        break\n\nif target_index == -1:\n    sys.exit(1)\n\nbuttons = []\nindex_diff = target_index - current_index\n\nif index_diff > 0:\n    for _ in range(index_diff):\n        buttons.append('Down')\n        buttons.append('sleep 100')\nelif index_diff < 0:\n    for _ in range(abs(index_diff)):\n        buttons.append('Up')\n        buttons.append('sleep 100')\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\nimport sys\n\nmoves_list_str = input_data['current_moves_list']\nmove_to_select = input_data['move_to_select']\n\nmoves = [move.strip() for move in moves_list_str.split('\\n') if move.strip()]\n\ncurrent_index = -1\nfor i, move in enumerate(moves):\n    if '▶' in move:\n        current_index = i\n        break\n\nif current_index == -1:\n    print(json.dumps([]))\n    sys.exit()\n\ncleaned_moves = [move.replace('▶', '').strip() for move in moves]\n\ntry:\n    target_index = cleaned_moves.index(move_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\ndiff = target_index - current_index\n\nbuttons = []\nif diff > 0:\n    for _ in range(diff):\n        buttons.extend([\"Down\", \"sleep 250\"])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.extend([\"Up\", \"sleep 250\"])\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -493,6 +493,11 @@
         "commit_message": "refactor: Rewrite move calculation and add sleep. The tool's logic was confirmed correct by debug logs, but it repeatedly failed to produce a JSON output. This complete refactor rewrites the button generation loop and adds 100ms sleep intervals between directional presses to improve stability, which may resolve the underlying execution failure.",
         "timestamp": "2025-11-25T00:13:43.362Z",
         "action_counter": 14212
+      },
+      {
+        "commit_message": "fix: Increase sleep duration to prevent dropped inputs. The tool was selecting the wrong move because the game engine was dropping rapid directional inputs. This commit, based on the `python_code_debugger` agent's analysis, increases the sleep between presses from 100ms to 250ms to ensure each input is reliably registered.",
+        "timestamp": "2025-11-25T00:20:25.407Z",
+        "action_counter": 14223
       }
     ]
   },
