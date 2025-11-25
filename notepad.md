@@ -14,7 +14,6 @@
 - **Data Hygiene:** Map markers for resolved events (like collected items) must be deleted immediately to avoid confusion and wasted turns. When updating a marker for an object (e.g., after defeating a trainer), the old marker must be deleted to prevent redundant and conflicting information. Markers should also be linked to their corresponding `object_id` whenever possible to ensure they move with the object.
 - **NPC Interactions:** Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger.
 - **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
-- **Tile Mechanic Verification:** I must verify the mechanics of every tile type through direct observation and experimentation. Assumptions based on a tile's name can be wrong and lead to critical tool failures. I must never assume I know how a tile works until I have tested it.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Marker Hygiene for Moving Objects:** When an object with a linked marker moves off-screen, the marker becomes stale. I must immediately delete the marker. A new marker should only be created if/when the object reappears at a new location.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
@@ -22,7 +21,7 @@
 - **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
 - **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
 - **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
-- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
+- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs, it's a strong indicator of a bug in one of them. I must immediately stop and debug the a to resolve the discrepancy instead of trusting one over the other.
 - **Verify Root Assumptions:** When a plan fails, especially when a trusted tool like a pathfinder reports an issue, the root hypothesis about the map/mechanic is likely flawed. Do not repeatedly try minor variations of the failed plan. Instead, re-examine the map to find the contradiction and form a new, fundamentally different hypothesis (e.g., trying to go east instead of west when blocked).
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
@@ -34,15 +33,17 @@
 - **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
 - **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
 - **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
-- **Team Leveling Strategy:** A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym. I must ensure my whole team is adequately leveled and balanced before challenging a Gym Leader.
-- **Levels Over Type Advantage:** A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
-- **Low-HP Threat:** A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
-- **Type Immunity vs. Level Disparity:** Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
-- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
-- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I recently failed by stating my intent to use automation tools but then manually pressing buttons, directly contradicting my own strategy. This is a critical failure. I MUST ensure my actions in `buttons_to_press` or `tools_to_call` perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 - **Data Structure Verification:** Do not assume data structures or sorting order within the game (e.g., inventory lists). Always verify against direct observation before building automation that relies on it. A faulty assumption about data will lead to tool failure.
+- **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
+- **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
+- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
+- **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
+- **Execution Errors:** I must ensure my actions match my plan. A recent failure was caused by manually pressing buttons (`B`, `A`) instead of calling the intended tool, which wasted a turn and accomplished nothing. I must double-check that I am pressing the `tool` button when my plan is to use a tool.
+- **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
+- **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
+- **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -55,24 +56,6 @@
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
 - **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-- **Route 34 Fence:** A long, impassable fence (WALL tiles from approx. (9,24) to (9,32)) divides the route, preventing east-west travel. The western side, including the item at (7,30), is inaccessible from the main path.
-
-# Current Quest: Train for Whitney Rematch
-- **Objective:** Defeat Whitney at the Goldenrod Gym.
-- **Status:** In Union Cave, training GIBRALTAR.
-
-# Key Items
-- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
-- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
-- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
-- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
-
-# TMs
-- **TM02 HEADBUTT:** Received from a Rocker in Ilex Forest. Can be used to shake trees and find sleeping Pokémon.
-- **TM12 SWEET Scent**
-- **TM31 MUD-SLAP**
-- **TM39 SWIFT**
-- **TM49 FURY CUTTER**
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -82,60 +65,18 @@
 - Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
 - Normal-type moves have no effect on Ghost-type Pokémon.
 - Normal-type moves (like TACKLE) are not very effective against Rock/Ground-types (like GEODUDE).
+- Flying-type moves (like PECK) are not very effective against Rock/Ground-types (like GEODUDE).
+- Fire-type moves (like EMBER) are not very effective against Rock/Ground-types (like GEODUDE).
+- A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym.
+- Levels Over Type Advantage: A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
+- Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
+- Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
+- **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
-
-# Available Tools & Agents
-
-## Custom Agents
-- `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
-- `python_code_debugger`: Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
-
-## Built-in Tools
-- `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
-
-## Custom Tools
-- `find_path`: Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
-- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
-- `select_move`: Selects a move from the battle menu by name.
-- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-- `select_item_from_pack`: Automates selecting an item from the player's bag.
-
-# NPC Dialogue
-- **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
-- Received MIRACLE SEED from a trainer on Route 32.
-- **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
-- A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-- **Phone Calls:**
-    - Youngster JOEY called for a rematch on Route 30.
-    - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
-    - Juggler IRWIN called, just to introduce himself.
-
-# Crafting
-- Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
-
-# Puzzle Solutions
-
-## Azalea Gym
-- Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
-- **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
-
-## Goldenrod Department Store
-- **Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
-- **B1F Box Puzzle:** My own movement is causing changes in the map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
-
-## Goldenrod Gym
-- Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
-- **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
-
-# Obstacles and Solutions
-- A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
-
-# Held Items
-- **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
 # Tile & Object Mechanics
 - **WALL**: Impassable terrain.
@@ -170,18 +111,78 @@
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
-- Flying-type moves (like PECK) are not very effective against Rock/Ground-types (like GEODUDE).
 - **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
 - **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+- **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
+- **FLOWER**: Fully traversable decorative tile.
+- **SIGN**: An impassable, interactable object. Functions as a wall.
 
-# Reminders
-- **Follow Documented Strategy:** I must adhere to my documented strategies and principles. A single high-level Pokémon cannot carry an under-leveled team through a major battle. 
-- **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
-- **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
-- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
-- **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
-- **Execution Errors:** I must ensure my actions match my plan. A recent failure was caused by manually pressing buttons (`B`, `A`) instead of calling the intended tool, which wasted a turn and accomplished nothing. I must double-check that I am pressing the `tool` button when my plan is to use a tool.
+# Available Tools & Agents
+
+## Custom Agents
+- `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
+- `python_code_debugger`: Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
+
+## Built-in Tools
+- `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
+
+## Custom Tools
+- `find_path`: Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
+- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
+- `select_move`: Selects a move from the battle menu by name.
+- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
+- `select_item_from_pack`: Automates selecting an item from the player's bag.
+
+# Current Quest: Train for Whitney Rematch
+- **Objective:** Defeat Whitney at the Goldenrod Gym.
+- **Status:** In Union Cave, training GIBRALTAR. Currently heading to Azalea Town to heal.
+
+# Key Items
+- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
+- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
+- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
+- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+
+# TMs
+- **TM02 HEADBUTT:** Received from a Rocker in Ilex Forest. Can be used to shake trees and find sleeping Pokémon.
+- **TM12 SWEET Scent**
+- **TM31 MUD-SLAP**
+- **TM39 SWIFT**
+- **TM49 FURY CUTTER**
+
+# NPC Dialogue
+- **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
+- Received MIRACLE SEED from a trainer on Route 32.
+- **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
+- A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
+- **Phone Calls:**
+    - Youngster JOEY called for a rematch on Route 30.
+    - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
+    - Juggler IRWIN called, just to introduce himself.
+
+# Crafting
+- Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
+
+# Puzzle Solutions
+
+## Azalea Gym
+- Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
+- **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
+
+## Goldenrod Department Store
+- **Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
+- **B1F Box Puzzle:** My own movement is causing changes in the map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
+
+## Goldenrod Gym
+- Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
+- **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
+
+# Obstacles and Solutions
+- A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
+
+# Held Items
+- **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
 # Goldenrod Department Store Directory
 - 1F: SERVICE COUNTER
@@ -244,12 +245,3 @@
 
 # Reflection Lessons (Turn 15483)
 - **IMMEDIATE TOOL MAINTENANCE IS NON-NEGOTIABLE:** My failure to immediately fix the flawed `choose_battle_action` tool led to a prolonged loop of errors, wasting turns and resources. If a tool is broken or a better one can be made, it MUST be the absolute highest priority, superseding any in-game action.
-- Fire-type moves (like EMBER) are not very effective against Rock/Ground-types (like GEODUDE).
-
-# Reminders
-- **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
-- **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
-- **FLOWER**: Fully traversable decorative tile.
-- **SIGN**: An impassable, interactable object. Functions as a wall.
-- **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
-- **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
