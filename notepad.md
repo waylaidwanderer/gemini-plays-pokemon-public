@@ -5,9 +5,9 @@
 - [ ] Investigate Radio Tower
 
 ## Status
-- **Location:** Mahogany Town.
-- **Objective:** Investigate Radio Broadcasts.
-- **Current Task:** Fly to Goldenrod City.
+- **Location:** Goldenrod City.
+- **Objective:** Investigate Radio Tower.
+- **Current Task:** Enter Radio Tower.
 - **Team Status:** Paprika (119/140).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
