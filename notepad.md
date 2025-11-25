@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Reach 2F (Current)
+- [ ] Reach 3F (Current)
 - [ ] Defeat Team Rocket
 
 ## Status
 - **Location:** Radio Tower 2F.
 - **Objective:** Defeat Team Rocket.
-- **Current Task:** Explore 2F.
-- **Team Status:** Paprika (119/140).
+- **Current Task:** Explore West side. (Defeated Rocket Girl).
+- **Team Status:** Paprika (114/143).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
