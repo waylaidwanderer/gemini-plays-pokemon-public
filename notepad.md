@@ -47,6 +47,13 @@
 - The PC in Pokémon Centers is used for Pokémon and item storage.
 - BERRY trees grow new BERRIES every day.
 - Healing at a Pokémon Center restores all HP and PP for the entire party and cures any status conditions.
+- **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
+- **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
+- **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
+- **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
+- **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
+- **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
+- **Route 34 Fence:** A long, impassable fence (WALL tiles from approx. (9,24) to (9,32)) divides the route, preventing east-west travel. The western side, including the item at (7,30), is inaccessible from the main path.
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
@@ -190,26 +197,3 @@
 - **Execution Errors:** I must ensure my actions match my plan. A recent failure was caused by manually pressing buttons (`B`, `A`) instead of calling the intended tool, which wasted a turn and accomplished nothing. I must double-check that I am pressing the `tool` button when my plan is to use a tool.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 - `select_battle_option` (Built-in): Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-
-# Environmental Mechanics
-- The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-
-# New Lessons & Mechanics
-- **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
-- **HEADBUTT_TREE:** This is an impassable, interactable tree. It likely requires the Headbutt move to trigger an event, such as a Pokémon encounter.
-- **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
-- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match, including all formatting like Markdown bolding (`**`). If an edit fails, it's often due to a small discrepancy. Always double-check the source text.
-- **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
-- **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
-- **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
-- **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-- **Route 34 Fence:** A long, impassable fence (WALL tiles from approx. (9,24) to (9,32)) divides the route, preventing east-west travel. The western side, including the item at (7,30), is inaccessible from the main path.
-- **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-- **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
-
-# Environmental Mechanics
-- The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-
-# New Lessons & Mechanics
-- **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
-- **Environmental Mechanics:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
