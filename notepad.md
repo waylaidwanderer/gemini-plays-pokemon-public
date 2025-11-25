@@ -187,3 +187,4 @@
 ### B1F & B2F (Cleared)
 - Lance heals on B2F (5, 13). B1F traps are dangerous.
 - **Lesson:** Pathfinding tools may treat stale object markers or cleared item locations as obstacles. Verify path manually if the tool returns an inefficient route.
+- **Interaction Fix:** If an interaction fails despite correct positioning, try a 'wiggle' maneuver (move away and back) to reset the facing/state.
