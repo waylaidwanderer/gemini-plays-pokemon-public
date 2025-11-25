@@ -1,26 +1,27 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Defeat Executive (Completed)
-- [x] Defeat Ariana & Grunt (Completed)
 - [x] Stop the Radio Signal (Completed)
-- [ ] Escape Team Rocket Base (Current)
-- [ ] Defeat Mahogany Gym Leader Pryce
+- [x] Escape Team Rocket Base (Completed)
+- [ ] Buy supplies at Mahogany Mart
+- [ ] Defeat Mahogany Gym Leader Pryce (Current)
 
 ## Status
-- **Location:** Team Rocket Base B1F.
-- **Objective:** Escape Team Rocket Base.
-- **Current Task:** Exit base via Warp Panel at (5, 15).
-- **Team Status:** Paprika (Lv44, 108/137 HP).
-- **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
+- **Location:** Mahogany Town (Pokémon Center).
+- **Objective:** Earn the Glacier Badge.
+- **Current Task:** Buy healing items, then challenge Gym.
+- **Team Status:** Fully Healed. Lead: Paprika (Lv44).
+- **Key Items:** HM06 Whirlpool, Red Scale.
 - **Backlog:**
   - Cure Miltank (Needs berries).
+  - Trade Red Scale to Mr. Pokémon.
 
 ## Completed Areas Summary
-- **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared (Beasts released). Lighthouse cleared. Sea Routes traversed.
+- **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
+- **Mahogany Area:** Cleared Team Rocket Base.
 
 ## Quest Log
-- **Badges:** Zephyr, Hive, Plain, Fog.
+- **Badges:** Zephyr, Hive, Plain, Fog, Storm, Mineral.
 - **Recent Events:**
   - Defeated Red Gyarados. Obtained Red Scale.
   - Met Lance at Lake of Rage.
