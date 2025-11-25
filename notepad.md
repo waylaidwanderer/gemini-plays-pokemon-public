@@ -5,9 +5,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod City.
-- **Objective:** Investigate Radio Tower.
-- **Current Task:** Enter Radio Tower.
+- **Location:** Radio Tower 2F.
+- **Objective:** Defeat Team Rocket.
+- **Current Task:** Explore 2F.
 - **Team Status:** Paprika (119/140).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
