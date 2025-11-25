@@ -244,3 +244,4 @@
 - **CRITICAL LOCATION VERIFICATION:** After any map transition (entering/exiting a building, changing routes), I MUST immediately verify my current map ID and coordinates from the Game State Information. This is the only way to prevent severe hallucinations about my location, which has been a recurring critical failure.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
 - **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
+- Ground-type moves have no effect on Flying-type Pokémon.
