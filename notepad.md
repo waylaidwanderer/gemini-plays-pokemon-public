@@ -112,7 +112,6 @@
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-- `choose_battle_action`: Automates selecting a main battle menu option (FIGHT, PKMN, PACK, RUN). Requires the current screen text to be state-aware.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
