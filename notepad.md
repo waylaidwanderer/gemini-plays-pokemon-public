@@ -5,7 +5,7 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground (Main Tunnel).
+- **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
 - **Current Task:** Defeat Super Nerd at (7, 14) then investigate the northern corridor (12, 7) for the locked door.
 - **Team Status:** Full Health. Paprika (149/149).
