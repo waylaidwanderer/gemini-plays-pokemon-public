@@ -5,9 +5,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Underground Switch Room Entrances.
+- **Location:** Goldenrod Underground (Main Tunnel).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Infiltrate the Warehouse. Step 1: Gather intel from Teacher. Step 2: Enter via south warps.
+- **Current Task:** Defeat Super Nerd at (7, 14) then investigate the northern corridor (12, 7) for the locked door.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
