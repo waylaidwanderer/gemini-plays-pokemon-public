@@ -230,4 +230,6 @@
 
 # PC Inventory
 - **Box 1:**
+  - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
+- **Conclusion:** My Onix (Rocky) is NOT in the PC. My memory was a hallucination based on the Pokedex entry. My new plan is to travel to Union Cave to catch a Geodude as a replacement counter for Whitney.
