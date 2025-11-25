@@ -187,14 +187,10 @@
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 ### Shutter Puzzle (Goldenrod Underground)
-- **Objective:** Access the Warehouse Entrance (South-East).
-- **Mechanics:** Switches 1, 2, and 3 control shutters in Row 6 and Row 9, as well as vertical walls in columns 10-11.
-- **Confirmed Solution:**
-  - **Switch 1:** ON (16, 1)
-  - **Switch 2:** OFF (10, 1)
-  - **Switch 3:** OFF (2, 1)
-- **Result:**
-  - Opens East Shutter at (12, 9).
-  - Opens Vertical Passage at (10,7)-(11,7).
-  - Grants access to Item Ball (Smoke Ball) and Warehouse path.
+- **Objective:** Access Warehouse Entrance (West Corridor, warps at 4,29/5,29).
+- **Mechanics:** Switches 1, 2, 3 control shutters.
+- **Tests:**
+  1. S1=ON, S2=OFF, S3=OFF: East Shutter Open. Path to Item Ball. Warehouse blocked.
+  2. S1=ON, S2=OFF, S3=ON: West Shutter Closed.
+- **Current Plan:** Test S1=ON, S2=ON, S3=OFF.
 - **Pharmacist:** Sighted at (9, 12). Avoid line of sight if possible.
