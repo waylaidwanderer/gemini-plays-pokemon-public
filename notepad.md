@@ -202,4 +202,4 @@
 - Action: Toggling S2 to ON. Hypothesis: This might invert the shutter states at Row 9.
 - Mechanic Confirmed: Switch 2 toggles Row 9 shutters. ON = Left(6,9) OPEN, Right(12,9) CLOSED. OFF = Left CLOSED, Right OPEN.
 - Current Path: West Shutter (6, 9) is OPEN. Heading there.
-- Puzzle Hypothesis: Switch 3 (2, 1) controls the shutter at (2, 6). Currently S3=ON, (2, 6)=CLOSED. Plan: Toggle S3 to OFF.
+- Puzzle Hypothesis: Switch 3 (2, 1) controls the shutter at (2, 6). Confirmed: S3=OFF opens (2, 6). Plan: Turn S2 OFF to open (12, 9), then path South via (2, 6) -> (2, 9) -> East.
