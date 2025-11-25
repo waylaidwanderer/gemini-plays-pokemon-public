@@ -205,3 +205,5 @@
 - **Action:** Proceeding to Warehouse Entrance at (4, 29).
 - Tested S1=OFF, S2=ON, S3=ON: Failed. Shutter 2 (Row 10) still closed.
 - Plan: Reset to S1=ON, S2=OFF, S3=OFF. Then press 3 -> 2 -> 1.
+- Tested S1=OFF, S2=OFF, S3=ON: Shutter 1 Open, Shutter 2 Closed.
+- Next Test: S1=OFF, S2=OFF, S3=OFF (All OFF).
