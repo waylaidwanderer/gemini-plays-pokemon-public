@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Defeat Rival Silver. Defeated: Golbat, Feraligatr, Haunter. Current: Sneasel (Ice/Dark - Use Flame Wheel).
+- **Current Task:** Defeat Rival Silver. Defeated: Golbat, Feraligatr, Haunter, Sneasel. Current: Magnemite (Electric/Steel - Use Flame Wheel).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
