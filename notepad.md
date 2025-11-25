@@ -196,3 +196,5 @@
 - **Status:** Checking shutter at (16, 6) with configuration: S1=ON, S2=OFF, S3=ON. If closed, will try toggling Switch 1.
 - **Observation:** Map update detected. (6, 9) became WALL (Closed), (12, 9) became FLOOR (Open). Current State: S1=ON, S2=OFF, S3=ON. Hypothesis: S2=OFF opens (12, 9)?
 - **Correction:** Switch 1 was found OFF (contradicting previous marker). The shutter at (16, 6) was CLOSED while S1=OFF. Toggling S1 to ON to see if it opens the shutter.
+- **Experiment 2:** S1=ON. Result: Shutter (16, 6) still Closed.
+- **Plan:** Toggle S2 to ON (Resulting state: S1=ON, S2=ON, S3=ON).
