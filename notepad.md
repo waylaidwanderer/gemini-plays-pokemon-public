@@ -6,7 +6,7 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground Entrance.
+- **Location:** Goldenrod Underground.
 - **Objective:** Rescue Director from Underground Warehouse.
 - **Current Task:** Navigate through the Underground to find the Director.
 - **Team Status:** Full Health. Paprika (149/149).
