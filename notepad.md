@@ -263,3 +263,6 @@
 
 # Strategic Principles & Lessons Learned
 - **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
+
+# Strategic Principles & Lessons Learned
+- **UI Automation Timing:** Simple button sequences can fail due to game engine lag or animation timing. I must incorporate 'sleep' commands or wait a full turn after opening a new menu before sending subsequent inputs to ensure the UI is in the expected state.
