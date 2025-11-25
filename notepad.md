@@ -132,7 +132,7 @@
 - `select_item_from_pack`: Automates selecting an item from the player's bag.
 
 ## Built-in Tools
-- **select_battle_option**: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
