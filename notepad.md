@@ -84,6 +84,14 @@
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
 # Custom Tools & Agents
+- `define_agent`: Creates or updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `define_tool`: Defines a new custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `define_map_marker`: Defines or updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `run_code`: Runs a single-use Python script.
+- `stun_npc`: Freezes or unfreezes an NPC.
 - `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
 - `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
 - `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
