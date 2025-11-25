@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Defeat Super Nerd at (7, 14) then investigate the northern corridor (12, 7) for the locked door.
+- **Current Task:** Enter the Warehouse Depth via the ladder at (22, 27) and locate the Director.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
