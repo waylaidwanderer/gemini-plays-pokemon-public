@@ -8,9 +8,9 @@
 - [ ] Defeat Mahogany Gym Leader Pryce
 
 ## Status
-- **Location:** Team Rocket Base B2F.
+- **Location:** Team Rocket Base B1F.
 - **Objective:** Escape Team Rocket Base.
-- **Current Task:** Head to B1F warp at (3, 14).
+- **Current Task:** Exit base via Warp Panel at (5, 15).
 - **Team Status:** Paprika (Lv44, 108/137 HP).
 - **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
 - **Backlog:**
