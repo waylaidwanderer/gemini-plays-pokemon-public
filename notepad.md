@@ -3,7 +3,7 @@
 ## Current Goals
 - [x] Defeat Executive (Completed)
 - [x] Defeat Ariana & Grunt (Completed)
-- [ ] Defeat 6 Electrodes (Current)
+- [ ] Defeat 6 Electrodes (1/6 Defeated)
 - [ ] Stop the Radio Signal (Current)
 
 ## Status
