@@ -27,6 +27,8 @@
   - Picnicker Gina reported Team Rocket takeover of Goldenrod Radio Tower.
   - Learned Director is on 5F with Card Key.
   - Defeated Pokemaniac Donald in Underground.
+  - Defeated Super Nerd Teru.
+  - Found Coin Case.
 
 ## Global Game Mechanics
 ### Tile Mechanics
