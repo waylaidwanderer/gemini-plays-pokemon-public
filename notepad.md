@@ -33,18 +33,22 @@
 - **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
 - **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
 - **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
-- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I recently failed by stating my intent to use automation tools but then manually pressing buttons, directly contradicting my own strategy. This is a critical failure. I MUST ensure my actions in `buttons_to_press` or `tools_to_call` perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
+- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 - **Data Structure Verification:** Do not assume data structures or sorting order within the game (e.g., inventory lists). Always verify against direct observation before building automation that relies on it. A faulty assumption about data will lead to tool failure.
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
 - **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
-- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
+- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
 - **Execution Errors:** I must ensure my actions match my plan. A recent failure was caused by manually pressing buttons (`B`, `A`) instead of calling the intended tool, which wasted a turn and accomplished nothing. I must double-check that I am pressing the `tool` button when my plan is to use a tool.
 - **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
 - **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
-- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
+- **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
+- **Warp Carpet Anomaly:** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
+- **Tool Context Awareness:** Tools like `select_battle_option` are context-specific and will fail if used when the required UI (e.g., the main battle menu) is not visible. Always verify the game state before calling a context-dependent tool.
+- **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements are superior to complex, brittle ones that rely on variable content.
+- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -57,6 +61,7 @@
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
 - **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
+- **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -73,6 +78,7 @@
 - Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
 - Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
+- Ground-type moves have no effect on Flying-type Pokémon.
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
@@ -243,30 +249,3 @@
   - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
 - **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
-- **CRITICAL LOCATION VERIFICATION:** After any map transition (entering/exiting a building, changing routes), I MUST immediately verify my current map ID and coordinates from the Game State Information. This is the only way to prevent severe hallucinations about my location, which has been a recurring critical failure.
-- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
-- **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
-- Ground-type moves have no effect on Flying-type Pokémon.
-- **Warp Carpet Anomaly:** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
-
-# Tile & Object Mechanics
-- **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
-
-# Strategic Principles & Lessons Learned
-- **VERIFY PARTY/PC STATUS:** Before using the PC or party menu to deposit, withdraw, or switch a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
-- **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
-- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
-
-# Strategic Principles & Lessons Learned
-- **Tool Context Awareness:** Tools like `select_battle_option` are context-specific and will fail if used when the required UI (e.g., the main battle menu) is not visible. Always verify the game state before calling a context-dependent tool.
-- **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements are superior to complex, brittle ones that rely on variable content.
-
-# Strategic Principles & Lessons Learned
-- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
-
-# Strategic Principles & Lessons Learned
-- **UI Automation Timing:** Simple button sequences can fail due to game engine lag or animation timing. I must incorporate 'sleep' commands or wait a full turn after opening a new menu before sending subsequent inputs to ensure the UI is in the expected state.
-
-# Game Mechanics & Systems
-- **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown.
-- **Trust Pathfinder Output:** If `find_path` reports 'No path found' to a seemingly reachable location, trust the tool. It is analyzing the raw map data and has likely identified an obstacle or layout issue (like one-way paths or impassable terrain) that is not immediately obvious. Re-examine the map visually to understand the blockage instead of assuming the tool is bugged.
