@@ -102,7 +102,6 @@
 - `define_map_marker`: Defines or updates a map marker.
 - `delete_map_marker`: Deletes a map marker.
 - `stun_npc`: Freezes or unfreezes an NPC.
-- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 ## Custom Agents
 - `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
