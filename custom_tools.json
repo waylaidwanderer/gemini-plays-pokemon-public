@@ -245,5 +245,31 @@
         "action_counter": 3843
       }
     ]
+  },
+  "select_move": {
+    "description": "Automatically selects a move in the battle menu by calculating the required button presses based on the cursor position in the screen text. Requires the move name and current screen text as input.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "move_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\n\nmove_name = str(input_data['move_name']).upper()\nscreen_text = str(input_data['screen_text'])\n\nlines = screen_text.split('\\n')\ncursor_line_index = -1\ntarget_line_index = -1\n\n# Search from the bottom up to find the menu elements (avoiding log text)\nfor i in range(len(lines) - 1, -1, -1):\n    line = lines[i]\n    if '▶' in line and cursor_line_index == -1:\n        cursor_line_index = i\n    if move_name in line and target_line_index == -1:\n        target_line_index = i\n\nbuttons = []\nif cursor_line_index != -1 and target_line_index != -1:\n    diff = target_line_index - cursor_line_index\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nelse:\n    # Fallback if parsing fails: just print empty array or error\n    print(\"[]\")",
+    "history": [
+      {
+        "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
+        "timestamp": "2025-11-25T17:55:51.068Z",
+        "action_counter": 7861
+      }
+    ]
   }
 }
