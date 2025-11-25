@@ -249,3 +249,4 @@
 - **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. My previous hypothesis that it was a one-way ledge was a hallucination.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - **Tool Logic Consistency:** When writing tool scripts, ensure that data comparisons (like finding list indices) are performed using a single, consistent frame of reference. Using different versions of a list (e.g., one with a cursor marker and one without) for the same logical operation can lead to subtle, hard-to-diagnose bugs. This was the root cause of the `select_move` tool failure.
+- Rock-type moves (like ROCK THROW) are not very effective against Ground-types (like SANDSHREW).
