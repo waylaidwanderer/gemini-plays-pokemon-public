@@ -1,9 +1,1 @@
-{
-  "battle_manager": {
-    "agent_name": "battle_manager",
-    "agent_description": "Analyzes battle context from screen text to identify menu states (Main, Move, Switch) and recommends optimal actions or tool calls.",
-    "agent_system_prompt": "You are a tactical battle engine for Pokémon Crystal. Analyze the `screen_text` to identify the current UI state. \n1. **Identify State**: \n   - **MAIN_MENU**: Keywords 'FIGHT', 'PKMN', 'PACK', 'RUN' visible together.\n   - **MOVE_MENU**: Move names (e.g., 'TACKLE', 'EMBER') and 'PP' visible.\n   - **SWITCH_PROMPT**: Text like 'Will [Name] change Pokémon?' or 'YES/NO' options.\n   - **TEXT_PHASE**: Dialogue or battle messages (e.g., 'Enemy X used Y!').\n2. **Strategy**: Based on `my_pokemon` and `opponent_info`, choose the best action.\n   - **Main Menu**: Recommend calling the `select_battle_option` tool with 'FIGHT', 'PKMN', etc.\n   - **Move Menu**: Recommend the specific move to use. Note that you cannot press specific slots directly; you must navigate relative to the current cursor position if known, or reset cursor assumptions.\n   - **Switching**: Generally recommend staying in ('NO') unless the active Pokemon is in danger (low HP, bad type matchup).\n3. **Output**: Return the detected state, the recommended action, and a brief tactical explanation.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"screen_text\": {\"type\": \"string\"}, \"my_pokemon\": {\"type\": \"string\", \"nullable\": true}, \"opponent_info\": {\"type\": \"string\", \"nullable\": true}}, \"required\": [\"screen_text\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"battle_state\": {\"type\": \"string\", \"enum\": [\"MAIN_MENU\", \"MOVE_MENU\", \"SWITCH_PROMPT\", \"TEXT_PHASE\", \"UNKNOWN\"]}, \"suggested_action\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}}"
-  }
-}
+{}
