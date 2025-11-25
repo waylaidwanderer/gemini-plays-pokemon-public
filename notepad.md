@@ -255,3 +255,4 @@
 
 # Reflection Lessons (Turn 15483)
 - **IMMEDIATE TOOL MAINTENANCE IS NON-NEGOTIABLE:** My failure to immediately fix the flawed `choose_battle_action` tool led to a prolonged loop of errors, wasting turns and resources. If a tool is broken or a better one can be made, it MUST be the absolute highest priority, superseding any in-game action.
+- Fire-type moves (like EMBER) are not very effective against Rock/Ground-types (like GEODUDE).

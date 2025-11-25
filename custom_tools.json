@@ -372,6 +372,16 @@
         "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the process of identifying explorable areas by parsing the map, finding all unseen tiles, and using a BFS pathfinder to determine which ones are currently reachable from the player's position. This directly addresses a recurring system suggestion and will improve exploration efficiency.",
         "timestamp": "2025-11-25T06:28:47.384Z",
         "action_counter": 15015
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The tool failed to find any reachable unseen tiles despite being on a new, open map. This version adds comprehensive print statements to stderr to trace the grid generation, player position finding, and the step-by-step execution of the BFS queue to diagnose the failure.",
+        "timestamp": "2025-11-25T12:40:49.917Z",
+        "action_counter": 15642
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging successfully confirmed the tool's logic is correct and that the path was genuinely blocked, which was a player misunderstanding. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-25T12:41:41.363Z",
+        "action_counter": 15644
       }
     ]
   },
@@ -573,7 +583,7 @@
         "party_list_json"
       ]
     },
-    "python_script": "import json\nimport sys\nimport re\n\nparty_list_json = input_data['party_list_json']\ntarget_pokemon_name = input_data['target_pokemon_name']\n\ntry:\n    party_list = json.loads(party_list_json)\n    \n    current_index = -1\n    target_index = -1\n    \n    cleaned_party_names = []\n    for i, line in enumerate(party_list):\n        line_content = line.strip()\n        if line_content.startswith('▶'):\n            current_index = i\n            line_content = line_content.replace('▶', '').strip()\n        \n        # Use regex to extract the name, which is all letters and spaces before the numbers.\n        match = re.match(r'([A-Z\\s]+)', line_content)\n        if match:\n            name = match.group(1).strip()\n            cleaned_party_names.append(name)\n        else:\n            # Failsafe in case a line doesn't match\n            cleaned_party_names.append(\"\")\n\n    if current_index == -1:\n        sys.exit(1) # Could not find the current selection cursor.\n\n    try:\n        target_index = cleaned_party_names.index(target_pokemon_name)\n    except ValueError:\n        sys.exit(1) # Target Pokémon name not found in the parsed list.\n\n    if current_index == target_index:\n        print(json.dumps([])) # Already selected, do nothing.\n        sys.exit(0)\n\n    moves = target_index - current_index\n    buttons = []\n    if moves > 0:\n        buttons.extend(['Down'] * moves)\n    elif moves < 0:\n        buttons.extend(['Up'] * abs(moves))\n        \n    buttons.append('A') # Select the target pokemon\n    buttons.append('Down') # Navigate sub-menu to 'SWITCH'\n    buttons.append('A') # Select 'SWITCH'\n    \n    # Move back to the original lead's position to swap with it.\n    if moves > 0:\n        buttons.extend(['Up'] * moves)\n    elif moves < 0:\n        buttons.extend(['Down'] * abs(moves))\n        \n    buttons.append('A') # Confirm the switch\n\n    print(json.dumps(buttons))\n\nexcept Exception:\n    sys.exit(1)\n",
+    "python_script": "import json\nimport re\nimport sys\n\nparty_list_json = input_data['party_list_json']\ntarget_pokemon_name = input_data['target_pokemon_name']\n\ntry:\n    party_list = json.loads(party_list_json)\nexcept json.JSONDecodeError:\n    party_list = eval(party_list_json)\n\ndef get_pokemon_name(line):\n    match = re.match(r'^\\s*(?:▶\\s*)?([A-Z\\'’]+(?:\\s[A-Z\\'’]+)?)', line)\n    if match:\n        return match.group(1).strip()\n    return None\n\ncurrent_index = -1\ntarget_index = -1\ncleaned_party_names = []\n\nfor i, line in enumerate(party_list):\n    name = get_pokemon_name(line)\n    if name:\n        cleaned_party_names.append(name)\n        if '▶' in line:\n            current_index = len(cleaned_party_names) - 1\n        if name == target_pokemon_name.upper():\n            target_index = len(cleaned_party_names) - 1\n\nif current_index == -1 or target_index == -1:\n    sys.exit(1)\n\nmoves = target_index - current_index\nbuttons = []\n\nif moves > 0:\n    for _ in range(moves):\n        buttons.append(\"Down\")\nelif moves < 0:\n    for _ in range(abs(moves)):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 250\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create switch_pokemon tool for general battle switching. This tool takes a target Pokémon's name and the party list to automate switching to any party member. This directly addresses a system critique about inefficient manual switching and replaces the now-deleted, overly specific `switch_train_lead` tool.",
@@ -614,6 +624,11 @@
         "commit_message": "fix: Implement robust name parsing. The tool was still failing because it couldn't handle multi-word names (e.g., 'GIB RALTAR') or names followed by HP data. This new version replaces the fragile string splitting with a regular expression to reliably extract the full Pokémon name from each line of the party list, resolving the parsing error and making the tool functional.",
         "timestamp": "2025-11-25T10:39:42.403Z",
         "action_counter": 15501
+      },
+      {
+        "commit_message": "fix: Correct sub-menu navigation logic. The previous version failed to correctly interact with the party sub-menu, instead navigating to the 'STATS' screen. This version simplifies the final action sequence to `['A', 'sleep 250', 'A']`, which correctly selects the Pokémon and confirms the default 'SWITCH' option. This resolves the critical failure and makes battle switching reliable.",
+        "timestamp": "2025-11-25T12:51:03.820Z",
+        "action_counter": 15663
       }
     ]
   },
