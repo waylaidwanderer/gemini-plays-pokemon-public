@@ -222,3 +222,7 @@
   - **Test 1:** Walk into his line of sight.
   - **Result:** No battle triggered. He moved past me.
   - **Conclusion:** Hypothesis sub-test failed. Line of sight is not the trigger.
+- **Hypothesis 3 (Agent):** Defeating the moving Black Belt at (9, 11) is the trigger.
+  - **Test 2:** Interact with him directly.
+  - **Result:** Confirmed! Interaction triggered dialogue ("Hey, kid! You're holding us up!") and caused the map layout to change, opening the path to the east.
+  - **Conclusion:** The puzzle is solved by a sequence of interactions and movement.
