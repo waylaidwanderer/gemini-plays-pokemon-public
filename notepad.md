@@ -57,7 +57,7 @@
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
-- **Status:** On Route 34, heading to Goldenrod City.
+- **Status:** On Route 34, navigating towards Goldenrod City.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -187,7 +187,6 @@
 
 # Reminders
 - **Follow Documented Strategy:** I must adhere to my documented strategies and principles. A single high-level Pokémon cannot carry an under-leveled team through a major battle. 
-- **Use Battle Tools:** To ensure accuracy and efficiency, I must consistently use my custom tools like `select_battle_option` and `select_move` to navigate battle menus instead of attempting manual button presses.
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
 
 - **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
