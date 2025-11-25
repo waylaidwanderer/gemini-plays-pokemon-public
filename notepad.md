@@ -29,6 +29,7 @@
   - Defeated Pokemaniac Donald in Underground.
   - Defeated Super Nerd Teru.
   - Found Coin Case.
+  - Defeated Pokemaniac Isaac.
 
 ## Global Game Mechanics
 ### Tile Mechanics
