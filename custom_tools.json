@@ -616,12 +616,17 @@
         "option_to_select"
       ]
     },
-    "python_script": "import json\noption = input_data['option_to_select']\nbuttons = []\nif option == 'FIGHT':\n    buttons = ['A']\nelif option == 'PKMN':\n    buttons = ['Right', 'A']\nelif option == 'PACK':\n    buttons = ['Down', 'A']\nelif option == 'RUN':\n    buttons = ['Right', 'Down', 'A']\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\noption = input_data['option_to_select']\nbuttons = []\n# Default cursor is on FIGHT\nif option == \"FIGHT\":\n    buttons.append(\"A\")\nelif option == \"PKMN\":\n    buttons.extend([\"Right\", \"A\"])\nelif option == \"PACK\":\n    buttons.extend([\"Down\", \"A\"])\nelif option == \"RUN\":\n    buttons.extend([\"Right\", \"Down\", \"A\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-11-25T07:04:15.194Z",
         "action_counter": 15094
+      },
+      {
+        "commit_message": "feat: Create choose_battle_action tool. This custom tool replicates the functionality of the built-in `select_battle_option` but allows for the use of `autopress_buttons`. This is a direct result of a reflection identifying the inefficiency of the built-in tool and will improve battle automation.",
+        "timestamp": "2025-11-25T08:08:54.142Z",
+        "action_counter": 15223
       }
     ]
   }
