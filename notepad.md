@@ -193,9 +193,8 @@
 ### Shutter Puzzle Mechanics
 - **Goal:** Open path to Warehouse (South East).
 - **Switches:** S1 (16,1), S2 (10,1), S3 (2,1).
-- **Observations:**
-  1. **S1=ON, S2=ON, S3=ON:** West Shutter (6,9) OPEN. East Shutter (12,9) CLOSED.
-  2. **S1=OFF, S2=ON, S3=OFF:** East Shutter (12,9) OPEN initially, then CLOSED when tile (11,7) opened. Complex linkage suspected.
-  3. **Current Test:** S1=OFF, S2=OFF, S3=OFF. Hypothesis: Opens East Shutter (12,9).
-- Test: S1=OFF, S2=OFF, S3=OFF. Checking if (12, 9) opens.
-- Test: S1=OFF, S2=OFF, S3=OFF. Result: East Shutter (12, 9) CLOSED. Vertical path (10, 7) CLOSED.
+- **Configuration Log:**
+  1. **S1=ON, S2=ON, S3=ON:** West (6,9) OPEN, East (12,9) CLOSED.
+  2. **S1=OFF, S2=OFF, S3=OFF:** East (12,9) CLOSED.
+  3. **S1=OFF, S2=ON, S3=OFF:** East (12,9) OPEN. (Target Configuration).
+- **Current Action:** Turning S2 ON to achieve Config #3.
