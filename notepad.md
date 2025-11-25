@@ -266,3 +266,6 @@
 
 # Strategic Principles & Lessons Learned
 - **UI Automation Timing:** Simple button sequences can fail due to game engine lag or animation timing. I must incorporate 'sleep' commands or wait a full turn after opening a new menu before sending subsequent inputs to ensure the UI is in the expected state.
+
+# Game Mechanics & Systems
+- **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown.
