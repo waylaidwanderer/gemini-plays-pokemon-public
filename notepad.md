@@ -187,3 +187,4 @@
 - **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
+- **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
