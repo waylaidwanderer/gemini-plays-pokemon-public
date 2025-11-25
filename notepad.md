@@ -83,23 +83,30 @@
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
-# Custom Tools & Agents
+# Available Tools & Agents
+
+## Built-in Tools
+- `notepad_edit`: Edits the persistent notepad.
+- `run_code`: Runs a single-use Python script.
 - `define_agent`: Creates or updates a custom agent.
 - `delete_agent`: Deletes a custom agent.
 - `define_tool`: Defines a new custom tool.
 - `delete_tool`: Deletes a custom tool.
 - `define_map_marker`: Defines or updates a map marker.
 - `delete_map_marker`: Deletes a map marker.
-- `run_code`: Runs a single-use Python script.
 - `stun_npc`: Freezes or unfreezes an NPC.
-- `gym_puzzle_solver` (Agent): Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
-- `python_code_debugger` (Agent): Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
-- `find_path` (Tool): Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
-- `find_reachable_unseen_tiles` (Tool): Finds all reachable unseen tiles on the current map.
-- `select_move` (Tool): Selects a move from the battle menu by name.
-- `switch_pokemon` (Tool): Automates switching to a specific Pokémon in the party during a battle.
-- `switch_party_order` (Tool): Switches the position of two Pokémon in the party menu outside of battle.
-- `select_battle_option` (Built-in): Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+- `select_battle_option`: Automatically selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
+
+## Custom Agents
+- `gym_puzzle_solver`: Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions.
+- `python_code_debugger`: Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.
+
+## Custom Tools
+- `find_path`: Finds a path from a start to an end coordinate on the current map using the BFS algorithm.
+- `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
+- `select_move`: Selects a move from the battle menu by name.
+- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
+- `switch_party_order`: Switches the position of two Pokémon in the party menu outside of battle.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
