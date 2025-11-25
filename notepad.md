@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Fly to Goldenrod City (Current)
-- [ ] Investigate Radio Tower
+- [ ] Reach 2F (Current)
+- [ ] Defeat Team Rocket
 
 ## Status
 - **Location:** Goldenrod City.
