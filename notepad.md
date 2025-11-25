@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Reach 4F (Current)
-- [ ] Find Director on 5F
+- [x] Reach 4F
+- [ ] Find Director on 5F (Current)
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Radio Tower 3F.
+- **Location:** Radio Tower 4F.
 - **Objective:** Find Director on 5F.
-- **Current Task:** Go to 4F via stairs at (7,0). Get Card Key from Director.
+- **Current Task:** Explore 4F to find path to 5F stairs.
 - **Team Status:** Paprika (117/146) Lv47.
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
