@@ -6,8 +6,8 @@
 
 ## Status
 - **Location:** Radio Tower 3F.
-- **Objective:** Reach 4F.
-- **Current Task:** Explore 3F. Defeat Rocket Grunts.
+- **Objective:** Find Director on 5F.
+- **Current Task:** Go to 4F via stairs at (7,0). Get Card Key from Director.
 - **Team Status:** Paprika (114/143).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
