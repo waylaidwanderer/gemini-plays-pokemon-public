@@ -196,3 +196,5 @@
 - **Pharmacist:** Sighted at (9, 12). Avoid line of sight if possible.
   3. S1=ON, S2=ON, S3=ON: West Shutter 2 (Row 10) Closed.
 - **Next Test:** S1=OFF, S2=ON, S3=OFF.
+  3. S1=ON, S2=ON, S3=ON: West Shutter 1 Open, West Shutter 2 Closed.
+- **Next Test:** S1=OFF, S2=ON, S3=OFF (Reset S3, then toggle S1).
