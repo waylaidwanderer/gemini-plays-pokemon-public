@@ -209,5 +209,41 @@
         "action_counter": 3843
       }
     ]
+  },
+  "predict_ice_slide": {
+    "description": "Predicts the final landing position and path when sliding on ice from a given start coordinate in a specific direction. Useful for solving ice puzzles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "UP",
+            "DOWN",
+            "LEFT",
+            "RIGHT"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "direction"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndirection = input_data.get('direction', '').upper()\nstart_x = int(input_data.get('start_x', 0))\nstart_y = int(input_data.get('start_y', 0))\n\nif not direction or start_x == 0 or start_y == 0:\n    print(json.dumps({\"error\": \"Invalid arguments. Start coordinates must be > 0.\"}))\n    exit()\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\n# Build map grid\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        t_type = tile.attrib.get('type', 'WALL')\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        # Check for child objects just in case attrib is missing\n        if not has_object and tile.findall('Object'):\n            has_object = True\n        \n        grid[(x, y)] = {'type': t_type, 'has_object': has_object}\n\ncurr_x, curr_y = start_x, start_y\npath = []\n\ndx, dy = 0, 0\nif direction == 'UP': dy = -1\nelif direction == 'DOWN': dy = 1\nelif direction == 'LEFT': dx = -1\nelif direction == 'RIGHT': dx = 1\n\nwhile True:\n    next_x = curr_x + dx\n    next_y = curr_y + dy\n    \n    # Check bounds\n    if next_x < 0 or next_x >= width or next_y < 0 or next_y >= height:\n        break # Hit map edge\n        \n    next_tile = grid.get((next_x, next_y), {'type': 'WALL', 'has_object': False})\n    \n    if next_tile['type'] == 'WALL' or next_tile['has_object']:\n        # Stop BEFORE hitting wall/object\n        break\n    \n    # Move to next tile\n    curr_x, curr_y = next_x, next_y\n    path.append((curr_x, curr_y))\n    \n    # If this tile is NOT ICE, we stop ON this tile\n    if next_tile['type'] != 'ICE':\n        break\n\nprint(json.dumps({\"final_pos\": [curr_x, curr_y], \"path\": path}))",
+    "history": [
+      {
+        "commit_message": "feat: Add predict_ice_slide tool to calculate sliding paths on ICE tiles.",
+        "timestamp": "2025-11-25T01:12:02.560Z",
+        "action_counter": 7379
+      }
+    ]
   }
 }

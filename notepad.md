@@ -1,16 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Stop the Radio Signal (Completed)
-- [x] Escape Team Rocket Base (Completed)
-- [ ] Buy supplies at Mahogany Mart
 - [ ] Defeat Mahogany Gym Leader Pryce (Current)
+- [ ] Buy supplies (Mart Empty - Paused)
 
 ## Status
 - **Location:** Mahogany Gym.
 - **Objective:** Earn the Glacier Badge.
-- **Current Task:** Navigate Ice Puzzle to Leader.
-- **Team Status:** Fully Healed. Lead: Paprika (Lv44).
+- **Current Task:** Navigate Ice Puzzle.
+- **Team Status:** Fully Healed. Lead: Paprika (Lv45).
 - **Key Items:** HM06 Whirlpool, Red Scale.
 - **Backlog:**
   - Cure Miltank (Needs berries).
