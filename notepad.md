@@ -260,3 +260,12 @@
   - **Test:** Talk to the Black Belt.
   - **Result:** His dialogue ('You chased off TEAM ROCKET...') contradicts the current game state.
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
+
+# Items
+- **CHARCOAL:** Received from a Youngster in the Charcoal Kiln. Boosts the power of Fire-type moves when held.
+
+# Azalea Town Investigation Log
+- **Hypothesis 5:** The Youngster at (6, 4) in the Charcoal Kiln is the 'Charcoal Man' or has information.
+  - **Test:** Talk to the Youngster.
+  - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
+  - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
