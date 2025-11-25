@@ -422,7 +422,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\nmoves_list = current_moves_list_str.strip().split('\\n')\n\ncleaned_moves = [move.replace('▶', '').strip() for move in moves_list]\n\ncurrent_index = -1\nfor i, move in enumerate(moves_list):\n    if '▶' in move:\n        current_index = i\n        break\n\nif move_to_select not in cleaned_moves:\n    sys.exit(1) # Target move not found\n\ntarget_index = cleaned_moves.index(move_to_select)\n\nif current_index == -1:\n    sys.exit(1) # Cursor not found\n\nif current_index == target_index:\n    print(json.dumps(['A']))\n    sys.exit(0)\n\nnum_moves = target_index - current_index\ndirection = \"Down\" if num_moves > 0 else \"Up\"\n\nbuttons = []\nfor _ in range(abs(num_moves)):\n    buttons.append(direction)\n    buttons.append(\"sleep 250\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import sys\nimport json\nimport re\n\ndef get_presses(move_to_select, current_screen_text):\n    lines = [line for line in current_screen_text.split('\\n')]\n\n    moves_raw = []\n    in_move_list = False\n    for line in lines:\n        if '▶' in line:\n            in_move_list = True\n\n        if in_move_list and len(moves_raw) < 4:\n            if re.search(r'\\d+/\\d+', line) or '-' in line:\n                moves_raw.append(line.strip())\n\n    if not moves_raw:\n        return\n\n    moves_cleaned = [re.sub(r'[^A-Z\\s-]', '', move).strip() for move in moves_raw]\n    \n    current_index = -1\n    for i, move in enumerate(moves_raw):\n        if '▶' in move:\n            current_index = i\n            break\n\n    try:\n        target_index = moves_cleaned.index(move_to_select)\n    except ValueError:\n        return\n\n    if current_index == -1:\n        return\n\n    if current_index == target_index:\n        print(json.dumps(['A']))\n        return\n\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 250'])\n    presses.append('A')\n    print(json.dumps(presses))\n\nget_presses(input_data['move_to_select'], input_data['current_moves_list'])",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -603,6 +603,21 @@
         "commit_message": "fix: Overhaul index calculation logic. The tool was failing because it compared an index from the raw, unprocessed list of moves against an index from a cleaned list. This version ensures both the current and target indices are found using a consistent frame of reference (the raw list for the cursor, a fully cleaned list for the target), making the movement calculation reliable and robust.",
         "timestamp": "2025-11-25T18:02:16.511Z",
         "action_counter": 16155
+      },
+      {
+        "commit_message": "fix: Implement more robust text parsing and index calculation. The previous version relied on brittle assumptions about the screen text structure, leading to failures. This version actively searches for all four move lines within the UI box, uses a consistent frame of reference for calculating both the current and target move indices, and includes better error handling to prevent empty outputs. This resolves the critical JSON parsing failure.",
+        "timestamp": "2025-11-25T20:38:57.262Z",
+        "action_counter": 16423
+      },
+      {
+        "commit_message": "fix: Implement robust visual parsing for move list. The tool was repeatedly failing due to brittle text parsing that couldn't handle UI variations. This complete rewrite identifies the move selection box based on its consistent visual border ('│ │') rather than relying on specific move names or line numbers. This makes the parsing logic independent of the selected move or other on-screen text, resolving the critical JSON output failure.",
+        "timestamp": "2025-11-25T20:48:28.537Z",
+        "action_counter": 16429
+      },
+      {
+        "commit_message": "fix: Implement robust parsing to handle descriptive UI text. The previous version failed when the UI displayed extra text between move names, causing it to misread the move list and fail with no output. This version generalizes the start condition to any selected move and adds a regex filter to ensure only valid move lines are parsed, resolving the critical failure.",
+        "timestamp": "2025-11-25T20:59:37.634Z",
+        "action_counter": 16450
       }
     ]
   },
