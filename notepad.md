@@ -186,12 +186,15 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-### Puzzle Mechanics
-- **Shutter System:** Rocket Grunt dialogue ("Open one shutter, another closes") implies switches toggle mutually exclusive paths. Activating one switch may block access to another area. Need to find the correct combination/order.
-- **Switch 3:** Located at (2, 1).
-- **Pharmacist:** Sighted at (4, 8). Likely a trainer.
-### Shutter Puzzle Solved
-- **Goal:** Open East Shutter at (12, 9).
-- **Solution:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
-- **Effect:** Opens East Shutter (12, 9) and Central Vertical Corridor (Cols 10-11).
-- **Access:** Grants access to Item at (14, 9) and the Warehouse Entrance to the South.
+### Shutter Puzzle (Goldenrod Underground)
+- **Objective:** Access the Warehouse Entrance (South-East).
+- **Mechanics:** Switches 1, 2, and 3 control shutters in Row 6 and Row 9, as well as vertical walls in columns 10-11.
+- **Confirmed Solution:**
+  - **Switch 1:** ON (16, 1)
+  - **Switch 2:** OFF (10, 1)
+  - **Switch 3:** OFF (2, 1)
+- **Result:**
+  - Opens East Shutter at (12, 9).
+  - Opens Vertical Passage at (10,7)-(11,7).
+  - Grants access to Item Ball (Smoke Ball) and Warehouse path.
+- **Pharmacist:** Sighted at (9, 12). Avoid line of sight if possible.
