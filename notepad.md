@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Switch 1 & 2 are ON. Defeated Grunt guarding Switch 3. Activate Switch 3 (2, 1).
+- **Current Task:** All 3 switches are ON. Navigate south through (2, 6) to explore the warehouse depth and find the Director.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
