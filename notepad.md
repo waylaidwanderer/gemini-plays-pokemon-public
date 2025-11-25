@@ -7,9 +7,9 @@
 - [ ] Defeat Mahogany Gym Leader Pryce (Current)
 
 ## Status
-- **Location:** Mahogany Town (Pokémon Center).
+- **Location:** Mahogany Gym.
 - **Objective:** Earn the Glacier Badge.
-- **Current Task:** Buy healing items, then challenge Gym.
+- **Current Task:** Navigate Ice Puzzle to Leader.
 - **Team Status:** Fully Healed. Lead: Paprika (Lv44).
 - **Key Items:** HM06 Whirlpool, Red Scale.
 - **Backlog:**
