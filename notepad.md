@@ -3,13 +3,14 @@
 ## Current Goals
 - [x] Defeat Executive (Completed)
 - [x] Defeat Ariana & Grunt (Completed)
-- [ ] Defeat 6 Electrodes (3/6 Defeated)
-- [ ] Stop the Radio Signal (Current)
+- [x] Stop the Radio Signal (Completed)
+- [ ] Escape Team Rocket Base (Current)
+- [ ] Defeat Mahogany Gym Leader Pryce
 
 ## Status
 - **Location:** Team Rocket Base B2F.
-- **Objective:** Stop the Radio Signal.
-- **Current Task:** Defeat the Electrodes powering the transmitter (Voltorbs).
+- **Objective:** Escape Team Rocket Base.
+- **Current Task:** Head to B1F warp at (3, 14).
 - **Team Status:** Paprika (Lv44, 108/137 HP).
 - **Key Items:** Red Scale, Passwords (SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI).
 - **Backlog:**
