@@ -387,7 +387,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\nimport sys\n\nmoves_list_str = input_data['current_moves_list']\nmove_to_select = input_data['move_to_select']\n\nmoves = [move.strip() for move in moves_list_str.split('\\n') if move.strip()]\n\ncurrent_index = -1\nfor i, move in enumerate(moves):\n    if '▶' in move:\n        current_index = i\n        break\n\nif current_index == -1:\n    print(json.dumps([]))\n    sys.exit()\n\ncleaned_moves = [move.replace('▶', '').strip() for move in moves]\n\ntry:\n    target_index = cleaned_moves.index(move_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\ndiff = target_index - current_index\n\nbuttons = []\nif diff > 0:\n    for _ in range(diff):\n        buttons.extend([\"Down\", \"sleep 250\"])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.extend([\"Up\", \"sleep 250\"])\n\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\n# The input_data dictionary is automatically injected.\n# It contains the arguments passed to the tool.\n\ncurrent_moves_list = input_data['current_moves_list']\nmove_to_select = input_data['move_to_select']\n\ntry:\n    current_moves_list_data = json.loads(current_moves_list)\n    current_moves_list_cleaned = [move.replace('▶', '').strip() for move in current_moves_list_data]\n    target_move = move_to_select.strip()\n\n    try:\n        current_move_with_marker = [move for move in current_moves_list_data if '▶' in move][0]\n    except IndexError:\n        print(json.dumps([\"A\"])) # Failsafe: no '▶' marker found\n        sys.exit()\n\n    current_move_name = current_move_with_marker.replace('▶', '').strip()\n\n    try:\n        current_index = current_moves_list_cleaned.index(current_move_name)\n        target_index = current_moves_list_cleaned.index(target_move)\n    except ValueError:\n        print(json.dumps([\"A\"])) # Failsafe: move name not found in list\n        sys.exit()\n\n    diff = target_index - current_index\n    buttons = []\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend([\"Down\", \"sleep 250\"])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.extend([\"Up\", \"sleep 250\"])\n    \n    # Remove the last sleep if it exists, as it's not needed before the final 'A'\n    if buttons and isinstance(buttons[-1], str) and buttons[-1].startswith('sleep'):\n        buttons.pop()\n\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(f\"Error in select_move_logic: {e}\", file=sys.stderr)\n    print(json.dumps([\"A\"])) # Failsafe",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -538,6 +538,11 @@
         "commit_message": "fix: Increase sleep duration to prevent dropped inputs. The tool was selecting the wrong move because the game engine was dropping rapid directional inputs. This commit, based on the `python_code_debugger` agent's analysis, increases the sleep between presses from 100ms to 250ms to ensure each input is reliably registered.",
         "timestamp": "2025-11-25T00:20:25.407Z",
         "action_counter": 14223
+      },
+      {
+        "commit_message": "fix: Refactor index logic for consistency. The tool was failing because it derived the current move's index from the original list (with '▶') but the target move's index from a separate, cleaned list. This version, based on the `python_code_debugger` agent's analysis, now finds both indices from the same cleaned list to ensure the comparison is always reliable and robust.",
+        "timestamp": "2025-11-25T05:52:10.775Z",
+        "action_counter": 14935
       }
     ]
   },
