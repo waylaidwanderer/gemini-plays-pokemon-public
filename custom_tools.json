@@ -305,6 +305,16 @@
         "commit_message": "fix: Add MART_SHELF to impassable tiles. The tool was incorrectly generating paths through impassable MART_SHELF tiles, causing movement to fail. This commit adds the tile type to the IMPASSABLE_TILES set, correcting the pathfinding logic.",
         "timestamp": "2025-11-25T03:56:36.226Z",
         "action_counter": 14676
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The pathfinder failed to find a path after a visible map change. This version adds comprehensive print statements to trace grid generation, target selection, and the BFS queue execution to diagnose why it's not seeing the new, open path.",
+        "timestamp": "2025-11-25T04:58:44.131Z",
+        "action_counter": 14821
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging successfully confirmed the tool's logic is correct and the path was genuinely blocked by a wall, which was a player misunderstanding. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-25T04:59:50.131Z",
+        "action_counter": 14823
       }
     ]
   },
@@ -347,6 +357,16 @@
         "commit_message": "fix: Align ledge logic with find_path tool. The BFS in this tool was using outdated logic for the 'FLOOR_UP_WALL' tile, causing it to incorrectly report unreachable areas as reachable. This commit updates the impassable tiles list to include 'FLOOR_UP_WALL', bringing it into alignment with the verified mechanics in the `find_path` tool and resolving a critical data contradiction.",
         "timestamp": "2025-11-23T05:38:56.675Z",
         "action_counter": 9663
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to BFS. The tool incorrectly reported no reachable unseen tiles on a wide-open map. This version adds comprehensive print statements to stderr to trace grid generation, player position finding, and the step-by-step execution of the BFS queue. This will help diagnose why the algorithm is failing to explore the map.",
+        "timestamp": "2025-11-25T05:15:49.546Z",
+        "action_counter": 14860
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The extensive logging successfully confirmed the tool's logic is correct and that the path was genuinely blocked by a wall, which was a player misunderstanding. The debug prints are no longer needed for standard operation.",
+        "timestamp": "2025-11-25T05:16:47.892Z",
+        "action_counter": 14862
       }
     ]
   },

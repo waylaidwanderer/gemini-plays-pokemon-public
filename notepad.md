@@ -40,6 +40,7 @@
 - **Pathfinding Failure as a Clue:** When a pathfinding tool repeatedly reports no path to a major area, it's a strong signal that a story-based trigger is required to proceed or the map layout is not what it seems. Instead of assuming the tool is bugged or trying minor path variations, I must re-evaluate my root assumptions about the map's traversability and pivot to finding the trigger event, often hinted at by recent NPC dialogue.
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I recently failed by stating my intent to use automation tools but then manually pressing buttons, directly contradicting my own strategy. This is a critical failure. I MUST ensure my actions in `buttons_to_press` or `tools_to_call` perfectly match the plan articulated in my thoughts. Defaulting to automation is not optional; it is a core principle.
+- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -193,7 +194,6 @@
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I must immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
 - **Execution Errors:** I must ensure my actions match my plan. A recent failure was caused by manually pressing buttons (`B`, `A`) instead of calling the intended tool, which wasted a turn and accomplished nothing. I must double-check that I am pressing the `tool` button when my plan is to use a tool.
-- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 
 # Goldenrod Department Store Directory
 - 1F: SERVICE COUNTER
@@ -203,11 +203,6 @@
 - 5F: TM CORNER
 - 6F: TRANQUIL SQUARE
 - ROOFTOP LOOKOUT
-- **B1F Box Puzzle - Hypothesis 2 (Agent):** The moving Black Belt's patrol path is the key. Observed path: (9, 9) -> (9, 10) -> (9, 11) and back. Test: Follow this exact path.
-
-# New Lessons Learned (Reflection)
-- If a `notepad_edit` call fails with 'text not found', it likely means the edit was already successfully applied in a previous turn. Do not retry the same edit; verify the notepad's current content first.
-- Added `WARP_CARPET_UP` to Tile Mechanics: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate.
 
 ## Goldenrod Dept. Store B1F Box Puzzle Log
 - **Hypothesis 1:** The puzzle solution involves interacting with the Machop at (7, 7).
