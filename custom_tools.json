@@ -406,7 +406,7 @@
     ]
   },
   "select_move": {
-    "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list.",
+    "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list and that the four moves are the last four non-empty lines of the screen text that contain alphabetical characters.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -422,7 +422,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import sys\nimport json\nimport re\n\ndef get_presses(move_to_select, current_screen_text):\n    lines = [line for line in current_screen_text.split('\\n')]\n\n    def is_plausible_move_line(line):\n        stripped = line.strip()\n        # A valid move line must be enclosed in the '│' characters.\n        if not stripped.startswith('│') or not stripped.endswith('│'):\n            return False\n        # Extract content between the outer bars\n        content = stripped[1:-1].strip()\n        # It must contain the inner bar and some text\n        if not content.startswith('│'):\n            return False\n        # Extract the actual move text\n        move_text = content[1:].strip()\n        # A move is either a placeholder or contains capital letters\n        if '--' in move_text:\n            return True\n        if re.search(r'[A-Z]', move_text):\n            return True\n        return False\n\n    cursor_line_idx = -1\n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_line_idx = i\n            break\n\n    if cursor_line_idx == -1:\n        return\n\n    block_start_idx = cursor_line_idx\n    while block_start_idx > 0 and is_plausible_move_line(lines[block_start_idx - 1]):\n        block_start_idx -= 1\n\n    moves_raw = lines[block_start_idx : block_start_idx + 4]\n    \n    if len(moves_raw) < 4:\n        return\n\n    # Clean the raw lines to get just the move names\n    cleaned_moves = []\n    for move in moves_raw:\n        # Remove box characters, cursor, and other symbols, then strip whitespace\n        cleaned = re.sub(r'[^A-Z\\s-]', '', move).upper().strip()\n        cleaned_moves.append(cleaned)\n\n    current_index = -1\n    for i, move in enumerate(moves_raw):\n        if '▶' in move:\n            current_index = i\n            break\n            \n    try:\n        target_index = cleaned_moves.index(move_to_select.upper())\n    except ValueError:\n        return\n        \n    if current_index == -1:\n        return\n        \n    if current_index == target_index:\n        print(json.dumps(['A']))\n        return\n        \n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 250'])\n    presses.append('A')\n    print(json.dumps(presses))",
+    "python_script": "import sys\nimport json\nimport re\n\nlines = [line.strip() for line in input_data['current_moves_list'].split('\\n') if line.strip()]\n\nmove_lines_raw = []\nfor line in reversed(lines):\n    if re.search(r'[A-Z]', line):\n        move_lines_raw.append(line)\n    if len(move_lines_raw) == 4:\n        break\n\nmove_lines_raw.reverse()\n\nif len(move_lines_raw) < 4:\n    sys.exit(0)\n\nmoves_cleaned = [re.sub(r'[^A-Z\\s-]', '', move).upper().strip() for move in move_lines_raw]\n\ncurrent_index = -1\nfor i, move in enumerate(move_lines_raw):\n    if '▶' in move:\n        current_index = i\n        break\n\ntry:\n    target_index = moves_cleaned.index(input_data['move_to_select'].upper())\nexcept ValueError:\n    sys.exit(0)\n\nif current_index == -1:\n    # Fallback if cursor isn't found for some reason\n    current_index = 0\n\nif current_index == target_index:\n    print(json.dumps(['A']))\n    sys.exit(0)\n\npresses = []\ndiff = target_index - current_index\ndirection = 'Down' if diff > 0 else 'Up'\nfor _ in range(abs(diff)):\n    presses.extend([direction, 'sleep 250'])\npresses.append('A')\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -628,6 +628,21 @@
         "commit_message": "fix: Overhaul move parsing with visual structure analysis. The previous agent-provided logic failed because it hallucinated that PP counters existed on move lines. This complete rewrite replaces the faulty content-based check with a robust, visually-based one that identifies move lines by their consistent '│ │' border. This resolves the critical parsing failure by relying on the actual screen layout.",
         "timestamp": "2025-11-25T21:05:07.561Z",
         "action_counter": 16458
+      },
+      {
+        "commit_message": "refactor: Overhaul move parsing with simplified list slicing. All previous attempts using complex text parsing and anchor-based searches have failed due to noisy screen text and hallucinated UI elements. This complete rewrite adopts the simplest possible hypothesis: the four moves are always the last four non-empty lines of the screen text. This removes all complex regex and unreliable pattern matching, aiming for robustness through simplicity.",
+        "timestamp": "2025-11-25T21:29:29.554Z",
+        "action_counter": 16503
+      },
+      {
+        "commit_message": "fix: Overhaul move parsing to filter out UI box art. The previous 'simplest hypothesis' logic failed because it incorrectly identified the box's bottom border as the fourth move. This version refines the logic to only consider lines containing alphabetical characters, which correctly isolates the four move names and ignores UI elements. This should resolve the critical parsing failure.",
+        "timestamp": "2025-11-25T21:32:57.151Z",
+        "action_counter": 16509
+      },
+      {
+        "commit_message": "fix: Correct sleep command syntax. The tool was failing because it output `['sleep', '250']` instead of the correct `['sleep 250']`. This commit corrects the string formatting in the `presses.extend` call to produce a valid button press array.",
+        "timestamp": "2025-11-25T21:33:44.572Z",
+        "action_counter": 16511
       }
     ]
   },
