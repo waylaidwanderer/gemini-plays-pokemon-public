@@ -198,3 +198,7 @@
 - **Next Test:** S1=OFF, S2=ON, S3=OFF.
   3. S1=ON, S2=ON, S3=ON: West Shutter 1 Open, West Shutter 2 Closed.
 - **Next Test:** S1=OFF, S2=ON, S3=OFF (Reset S3, then toggle S1).
+### Shutter Puzzle SOLVED
+- **Configuration:** S1=OFF, S2=ON, S3=OFF.
+- **Result:** West Corridor (Rows 6-11) is fully OPEN.
+- **Action:** Proceeding to Warehouse Entrance at (4, 29).
