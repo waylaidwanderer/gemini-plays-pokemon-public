@@ -188,3 +188,5 @@
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 ### Puzzle Mechanics
 - **Shutter System:** Rocket Grunt dialogue ("Open one shutter, another closes") implies switches toggle mutually exclusive paths. Activating one switch may block access to another area. Need to find the correct combination/order.
+- **Switch 3:** Located at (2, 1).
+- **Pharmacist:** Sighted at (4, 8). Likely a trainer.
