@@ -573,7 +573,7 @@
         "party_list_json"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    party_list = json.loads(input_data['party_list_json'])\n    target_pokemon_name = input_data['target_pokemon_name']\n\n    target_index = -1\n    for i, name in enumerate(party_list):\n        if name == target_pokemon_name:\n            target_index = i\n            break\n\n    if target_index <= 0: # Can't switch to lead or if not found\n        print(json.dumps(['B']))\n    else:\n        commands = ['Down'] * target_index\n        commands.append('A') # Select the Pokémon\n        commands.append('A') # Select 'SWITCH' from the sub-menu\n        print(json.dumps(commands))\n\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))",
+    "python_script": "import sys\nimport json\n\ntarget_pokemon_name = input_data['target_pokemon_name']\nparty_list_json = input_data['party_list_json']\n\ntry:\n    party_list = json.loads(party_list_json)\nexcept (json.JSONDecodeError, TypeError):\n    party_list = [line.strip() for line in party_list_json.split('\\n') if line.strip()]\n\ncurrent_index = -1\ntarget_index = -1\n\nfor i, pokemon_str in enumerate(party_list):\n    if '▶' in pokemon_str:\n        current_index = i\n    if target_pokemon_name in pokemon_str:\n        target_index = i\n\nif current_index == -1 or target_index == -1 or current_index == target_index:\n    sys.exit(1)\n\nbuttons = []\nmoves = target_index - current_index\n\nif moves > 0:\n    for _ in range(moves):\n        buttons.append(\"Down\")\nelif moves < 0:\n    for _ in range(abs(moves)):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create switch_pokemon tool for general battle switching. This tool takes a target Pokémon's name and the party list to automate switching to any party member. This directly addresses a system critique about inefficient manual switching and replaces the now-deleted, overly specific `switch_train_lead` tool.",
@@ -599,6 +599,11 @@
         "commit_message": "fix: Replace .index() with explicit loop. The tool continued to fail with a TypeError despite previous fixes. This version replaces the `list.index()` method with a more robust and explicit `for` loop to find the target Pokémon's index. This avoids any potential subtle issues with the `.index()` implementation and should definitively resolve the persistent bug.",
         "timestamp": "2025-11-23T23:53:55.580Z",
         "action_counter": 11806
+      },
+      {
+        "commit_message": "fix: Make tool state-aware. The previous version was not state-aware and failed catastrophically by assuming the cursor always started at the top of the party list. This new version, based on the `python_code_debugger` agent's analysis, correctly identifies the current cursor position ('▶') and calculates the relative 'Up' or 'Down' presses needed to reach the target Pokémon, making the tool reliable and robust.",
+        "timestamp": "2025-11-25T08:50:27.385Z",
+        "action_counter": 15277
       }
     ]
   },

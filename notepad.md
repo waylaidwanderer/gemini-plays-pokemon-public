@@ -250,3 +250,4 @@
   - **Test:** Talk to the Youngster.
   - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
+- **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
