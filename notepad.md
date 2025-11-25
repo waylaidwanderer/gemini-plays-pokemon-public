@@ -6,7 +6,7 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Radio Tower 4F.
+- **Location:** Radio Tower 5F.
 - **Objective:** Find Director on 5F.
 - **Current Task:** Explore West 4F. Wall blocks East side (Stairs to 5F). Need to find a way around.
 - **Team Status:** Paprika (111/146) Lv47.
