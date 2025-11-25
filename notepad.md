@@ -222,3 +222,4 @@
   - **Result:** Confirmed! Interaction triggered dialogue ("Hey, kid! You're holding us up!") and caused the map layout to change, opening the path to the east.
   - **Conclusion:** The puzzle is solved by a sequence of interactions and movement.
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
+- Youngster JOEY called for a rematch on Route 30.
