@@ -7,10 +7,10 @@
 
 ## Status
 - **Location:** Radio Tower 5F (Director's Office).
-- **Objective:** Defeat Rocket Executive.
-- **Current Task:** Defeat the Imposter Director to reveal the real Director's location.
-- **Team Status:** Paprika (50/149) Lv48. (Acc -1) [Low PP]
-- **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
+- **Objective:** Rescue Director from Underground Warehouse.
+- **Current Task:** Exit Radio Tower and go to the Underground.
+- **Team Status:** Paprika (50/149) Lv48. [Low PP]
+- **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
   - Trade Red Scale to Mr. Pokémon.
