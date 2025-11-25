@@ -597,43 +597,31 @@
       }
     ]
   },
-  "switch_party_order": {
-    "description": "Switches the position of two Pokémon in the party menu outside of battle. Takes the current party list, the name of the Pokémon to move, and the name of the Pokémon to switch with.",
+  "choose_battle_action": {
+    "description": "Automates selecting a main battle menu option (FIGHT, PKMN, PACK, RUN).",
     "input_schema": {
       "type": "object",
       "properties": {
-        "party_list_json": {
-          "type": "string"
-        },
-        "pokemon_to_move": {
-          "type": "string"
-        },
-        "pokemon_to_switch_with": {
-          "type": "string"
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "PACK",
+            "RUN"
+          ]
         }
       },
       "required": [
-        "party_list_json",
-        "pokemon_to_move",
-        "pokemon_to_switch_with"
+        "option_to_select"
       ]
     },
-    "python_script": "import json\n\nparty_list_str = input_data['party_list_json']\nparty_list = json.loads(party_list_str)\npokemon_to_move = input_data['pokemon_to_move']\npokemon_to_switch_with = input_data['pokemon_to_switch_with']\n\ntry:\n    start_index = party_list.index(pokemon_to_move)\n    end_index = party_list.index(pokemon_to_switch_with)\nexcept ValueError:\n    print(json.dumps([])) # Pokemon not found\n    exit()\n\n# Open menu, move down to POKEMON, select POKEMON\npresses = [\"Start\", \"sleep 500\", \"Down\", \"sleep 100\", \"A\", \"sleep 500\"]\n\n# Move to the first pokemon\nfor _ in range(start_index):\n    presses.extend([\"Down\", \"sleep 100\"])\n\npresses.extend([\"A\", \"sleep 500\"]) # Select the pokemon\n\n# In the party sub-menu, the cursor starts on 'STATS'. 'SWITCH' is one position down.\npresses.extend([\"Down\", \"sleep 100\", \"A\", \"sleep 500\"]) # Select SWITCH\n\n# Calculate moves to the target pokemon\ndelta = end_index - start_index\nif delta > 0: # Moving down\n    for _ in range(delta):\n        presses.extend([\"Down\", \"sleep 100\"])\nelse: # Moving up\n    for _ in range(abs(delta)):\n        presses.extend([\"Up\", \"sleep 100\"])\n\npresses.extend([\"A\", \"sleep 500\"]) # Confirm switch\n\npresses.extend([\"B\", \"sleep 500\", \"B\", \"sleep 500\"]) # Close menu\n\nprint(json.dumps(presses))",
+    "python_script": "import json\noption = input_data['option_to_select']\nbuttons = []\nif option == 'FIGHT':\n    buttons = ['A']\nelif option == 'PKMN':\n    buttons = ['Right', 'A']\nelif option == 'PACK':\n    buttons = ['Down', 'A']\nelif option == 'RUN':\n    buttons = ['Right', 'Down', 'A']\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create switch_party_order tool. This tool automates the process of reordering Pokémon in the party menu outside of battle, which is a frequent and repetitive task during training sessions. It calculates the necessary button presses to select two Pokémon and swap their positions, improving overall gameplay efficiency.",
-        "timestamp": "2025-11-24T13:07:12.561Z",
-        "action_counter": 12997
-      },
-      {
-        "commit_message": "fix: Correct JSON parsing logic. The tool was failing because it incorrectly treated the `party_list_json` input as a newline-separated string instead of a JSON string. This commit replaces the faulty `splitlines()` method with `json.loads()` to correctly parse the party list, resolving the critical bug.",
-        "timestamp": "2025-11-24T13:08:06.285Z",
-        "action_counter": 12999
-      },
-      {
-        "commit_message": "fix: Add 'Down' press for Start Menu navigation. The tool was failing because it didn't account for the cursor starting on 'POKéDEX'. This fix adds the necessary 'Down' press to correctly select the 'POKéMON' option before proceeding, making the menu navigation reliable.",
-        "timestamp": "2025-11-24T13:09:49.386Z",
-        "action_counter": 13002
+        "commit_message": "Initial version",
+        "timestamp": "2025-11-25T07:04:15.194Z",
+        "action_counter": 15094
       }
     ]
   }

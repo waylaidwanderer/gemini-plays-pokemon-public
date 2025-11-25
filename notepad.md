@@ -112,7 +112,7 @@
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-- `switch_party_order`: Switches the position of two Pokémon in the party menu outside of battle.
+- `choose_battle_action`: Automates selecting a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
@@ -123,6 +123,7 @@
     - Youngster JOEY called multiple times for a rematch on Route 30.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He also called for a rematch on Route 33.
     - Juggler IRWIN called, just to introduce himself.
+    - Youngster JOEY called for a rematch on Route 30.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
