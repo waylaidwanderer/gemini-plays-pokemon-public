@@ -1,9 +1,1 @@
-{
-  "strategy_advisor": {
-    "agent_name": "strategy_advisor",
-    "agent_description": "Analyzes game state, dialogue, and lore to provide strategic advice and deduce the next logical step.",
-    "agent_system_prompt": "You are a strategic advisor for a Pokémon Crystal playthrough. Your goal is to analyze the current situation, dialogue, and quest log to determine the most logical next step. You understand standard Pokémon mechanics and the specific plot of Pokémon Crystal.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_situation\":{\"type\":\"string\"},\"recent_dialogue\":{\"type\":\"string\"},\"quest_log\":{\"type\":\"string\"}},\"required\":[\"current_situation\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"recommended_action\"]}"
-  }
-}
+{}
