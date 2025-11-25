@@ -129,7 +129,7 @@
 - `find_reachable_unseen_tiles`: Finds all reachable unseen tiles on the current map.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-- `grind_in_place`: Generates a sequence of alternating 'Left' and 'Right' button presses to automate grinding for wild Pokémon encounters in a small area.
+- `select_item`: Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.
 
 ## Built-in Tools
 - `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).

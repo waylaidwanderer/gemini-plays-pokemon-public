@@ -677,25 +677,29 @@
       }
     ]
   },
-  "grind_in_place": {
-    "description": "Generates a sequence of alternating 'Left' and 'Right' button presses to automate grinding for wild Pokémon encounters in a small area. Takes the total number of steps as input.",
+  "select_item": {
+    "description": "Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "num_steps": {
+        "item_to_select": {
+          "type": "string"
+        },
+        "current_screen_text": {
           "type": "string"
         }
       },
       "required": [
-        "num_steps"
+        "item_to_select",
+        "current_screen_text"
       ]
     },
-    "python_script": "import json\nnum_steps = int(input_data['num_steps'])\nbuttons = []\nfor i in range(num_steps):\n    if i % 2 == 0:\n        buttons.append('Left')\n    else:\n        buttons.append('Right')\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\nitem_to_select = input_data['item_to_select']\ncurrent_screen_text = input_data['current_screen_text']\n\nlines = [line.strip() for line in current_screen_text.split('\\n') if line.strip()]\n\ntry:\n    start_index = lines.index('---------------------') + 1\nexcept ValueError:\n    print(json.dumps([]), file=sys.stderr)\n    sys.exit()\n\nitems_on_screen = []\ncurrent_cursor_index = -1\nitem_index_counter = 0\n\n# This parsing logic is a heuristic and might need refinement.\nfor i in range(start_index, len(lines)):\n    line = lines[i]\n    \n    if 'Pocket:' in line or 'Heals' in line or 'Restores' in line or 'Raises' in line:\n        break\n        \n    has_cursor = line.startswith('▶')\n    if has_cursor:\n        current_cursor_index = item_index_counter\n        line = line.replace('▶', '').strip()\n    \n    # Further clean up potential junk from parsing\n    if '<' in line and '>' in line:\n        continue\n\n    # Attempt to isolate just the item name\n    item_name = line.split('×')[0].strip()\n    if item_name:\n        items_on_screen.append(item_name)\n        if not has_cursor:\n            item_index_counter += 1\n\nif not items_on_screen or current_cursor_index == -1:\n    print(json.dumps([]), file=sys.stderr)\n    sys.exit()\n\ntry:\n    target_item_index = items_on_screen.index(item_to_select)\nexcept ValueError:\n    print(json.dumps([]), file=sys.stderr)\n    sys.exit()\n\nmoves = []\ndiff = target_item_index - current_cursor_index\n\nif diff > 0:\n    for _ in range(diff):\n        moves.extend([\"Down\", \"sleep 250\"])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.extend([\"Up\", \"sleep 250\"])\n\nmoves.append(\"A\")\n\nprint(json.dumps(moves))",
     "history": [
       {
-        "commit_message": "feat: Create grind_in_place tool to automate training. This tool addresses the repetitive manual action of walking back and forth to trigger wild encounters, aligning with the 'DEFAULT TO AUTOMATION' principle identified during self-reflection. It takes a number of steps and generates the button presses, improving efficiency.",
-        "timestamp": "2025-11-25T17:31:50.425Z",
-        "action_counter": 16109
+        "commit_message": "feat: Create select_item tool to automate bag navigation. This tool addresses a major inefficiency identified after manually searching for a SUPER POTION. It parses the screen text to find the current cursor and target item, then generates the necessary button presses. This aligns with the 'DEFAULT TO AUTOMATION' principle and will save significant time in the future.",
+        "timestamp": "2025-11-25T19:55:54.391Z",
+        "action_counter": 16348
       }
     ]
   }
