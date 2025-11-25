@@ -5,9 +5,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Radio Tower 2F.
-- **Objective:** Reach 3F.
-- **Current Task:** Navigate to stairs at (0,0). Defeat blocking Grunt at (1,4).
+- **Location:** Radio Tower 3F.
+- **Objective:** Reach 4F.
+- **Current Task:** Explore 3F. Investigate 'Gym Guide' at (3,4).
 - **Team Status:** Paprika (114/143).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
