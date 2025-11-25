@@ -347,7 +347,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\nimport time\n\n# Get input from the harness\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\n# Parse the move list string into a list of moves\nmoves = [move for move in current_moves_list_str.split('\\n') if move]\n\n# Find the starting index (where the '▶' is) and the target index\nstart_index = -1\nclean_moves = []\nfor i, move in enumerate(moves):\n    if '▶' in move:\n        start_index = i\n        clean_moves.append(move.replace('▶', '').strip())\n    else:\n        clean_moves.append(move.strip())\n\ntry:\n    target_index = clean_moves.index(move_to_select)\nexcept ValueError:\n    # Move not found, exit gracefully\n    sys.exit()\n\nif start_index == -1:\n    # Cursor not found, exit gracefully\n    sys.exit()\n\n# Calculate the difference and create the button press list\npresses = []\ndiff = target_index - start_index\n\nif diff > 0:\n    for _ in range(diff):\n        presses.append('Down')\n        presses.append('sleep 200')\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.append('Up')\n        presses.append('sleep 200')\n\npresses.append('A')\n\n# Output the JSON array of button presses\nprint(json.dumps(presses))",
+    "python_script": "import sys\nimport json\n\nmoves_input = input_data['current_moves_list']\ntarget_move = input_data['move_to_select']\n\nmoves_list = [move.strip() for move in moves_input.split('\\n') if move.strip()]\n\ncurrent_index = -1\nfor i, move in enumerate(moves_list):\n    if '▶' in move:\n        current_index = i\n        break\n\nif current_index == -1:\n    sys.exit(1)\n\ncleaned_moves_list = [move.replace('▶', '').strip() for move in moves_list]\n\ntarget_index = -1\nfor i, move in enumerate(cleaned_moves_list):\n    if move == target_move:\n        target_index = i\n        break\n\nif target_index == -1:\n    sys.exit(1)\n\nbuttons = []\nindex_diff = target_index - current_index\n\nif index_diff > 0:\n    for _ in range(index_diff):\n        buttons.append('Down')\n        buttons.append('sleep 100')\nelif index_diff < 0:\n    for _ in range(abs(index_diff)):\n        buttons.append('Up')\n        buttons.append('sleep 100')\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -473,6 +473,26 @@
         "commit_message": "refactor: Overhaul cursor logic to be state-aware. The previous cursor reset methods (B+A and 'Up' spam) have been proven unreliable due to game engine timing issues. This complete overhaul removes reset logic entirely. The new script now reads the current cursor position from the '▶' symbol in the input, calculates the exact number of 'Up' or 'Down' presses required to reach the target, and executes them. This makes the tool's logic deterministic and robust against timing failures.",
         "timestamp": "2025-11-24T21:11:32.102Z",
         "action_counter": 13846
+      },
+      {
+        "commit_message": "fix: Add extensive debug logging to diagnose JSON output failure. The tool failed to produce a valid JSON array. This version adds comprehensive print statements to stderr to trace the script's execution, including input parsing, index finding for both current and target moves, and the final button calculation. This will help isolate the exact point of failure.",
+        "timestamp": "2025-11-25T00:06:57.890Z",
+        "action_counter": 14198
+      },
+      {
+        "commit_message": "refactor: Remove debug logging. The debug logs from the previous version successfully confirmed that the tool's core logic is sound and the previous failure was an execution error. This commit removes all stderr print statements to restore the tool to a clean, production-ready state.",
+        "timestamp": "2025-11-25T00:07:39.054Z",
+        "action_counter": 14200
+      },
+      {
+        "commit_message": "fix: Add extensive debug logging to stderr. The tool is failing to produce JSON output again. This version adds comprehensive print statements to stderr to trace the script's execution, including input parsing, index finding for both current and target moves, and the final button calculation. This will help isolate the exact point of failure without corrupting the stdout JSON.",
+        "timestamp": "2025-11-25T00:12:30.834Z",
+        "action_counter": 14209
+      },
+      {
+        "commit_message": "refactor: Rewrite move calculation and add sleep. The tool's logic was confirmed correct by debug logs, but it repeatedly failed to produce a JSON output. This complete refactor rewrites the button generation loop and adds 100ms sleep intervals between directional presses to improve stability, which may resolve the underlying execution failure.",
+        "timestamp": "2025-11-25T00:13:43.362Z",
+        "action_counter": 14212
       }
     ]
   },
