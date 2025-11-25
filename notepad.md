@@ -252,3 +252,4 @@
 - **FLOWER**: Fully traversable decorative tile.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
 - **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
+- **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
