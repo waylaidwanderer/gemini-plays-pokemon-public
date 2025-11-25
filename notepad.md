@@ -246,3 +246,9 @@
 - **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
 - Ground-type moves have no effect on Flying-type Pokémon.
 - **Warp Carpet Anomaly:** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
+
+# Tile & Object Mechanics
+- **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
+
+# Strategic Principles & Lessons Learned
+- **VERIFY PARTY/PC STATUS:** Before using the PC or party menu to deposit, withdraw, or switch a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
