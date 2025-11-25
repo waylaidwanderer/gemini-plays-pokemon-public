@@ -234,3 +234,4 @@
 - **Conclusion:** My Onix (Rocky) is NOT in the PC. My memory was a hallucination based on the Pokedex entry. My new plan is to travel to Union Cave to catch a Geodude as a replacement counter for Whitney.
 - **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
 - Youngster JOEY called for a rematch on Route 30.
+- Youngster JOEY called for a rematch on Route 30.
