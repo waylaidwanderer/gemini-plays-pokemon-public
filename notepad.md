@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Enter the Warehouse Depth via the ladder at (22, 27) and locate the Director.
+- **Current Task:** Defeat Rival Silver.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
