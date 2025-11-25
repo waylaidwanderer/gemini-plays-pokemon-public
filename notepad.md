@@ -130,7 +130,7 @@
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
 - `select_item_from_pack`: Automates selecting an item from the player's bag.
-- `select_battle_option`: Automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
+- **select_battle_option**: A *built-in* tool that automatically selects the requested main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
