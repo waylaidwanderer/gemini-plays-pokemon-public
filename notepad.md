@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Defeated Rival Silver. Proceed west to the Switch Room to find the Director.
+- **Current Task:** Defeated Rival Silver. Battling Rocket Grunt (Rattata Lv27). Proceed west to the Switch Room to find the Director.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
