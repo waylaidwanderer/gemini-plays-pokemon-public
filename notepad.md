@@ -60,6 +60,7 @@
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
 
 # TMs
+- **TM02 HEADBUTT:** Received from a Rocker in Ilex Forest. Can be used to shake trees and find sleeping Pokémon.
 - **TM12 SWEET Scent**
 - **TM31 MUD-SLAP**
 - **TM39 SWIFT**
