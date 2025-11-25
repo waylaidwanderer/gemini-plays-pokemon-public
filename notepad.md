@@ -6,9 +6,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Radio Tower 5F (Director's Office).
+- **Location:** Goldenrod City (Pokémon Center).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Exit Radio Tower and go to the Underground.
+- **Current Task:** Heal at Pokémon Center, then go to the Underground.
 - **Team Status:** Paprika (50/149) Lv48. [Low PP]
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
