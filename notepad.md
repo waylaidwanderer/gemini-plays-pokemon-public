@@ -214,3 +214,7 @@
   - **Test:** Path to (6, 7) and press 'A' on the Machop.
   - **Result:** Machop gave dialogue ("MACHOKE: Maaacho!") but the map layout did not change. Path to the item at (14, 2) remained blocked.
   - **Conclusion:** Hypothesis failed. Simple interaction with the Machop is not the solution.
+- **Hypothesis 2:** Interacting with the static Black Belt at (4, 8) will solve the puzzle, based on his dialogue about being watched.
+  - **Test:** Path to (5, 8), face left, and press 'A'.
+  - **Result:** Black Belt gave new dialogue ("Come on, kid, scoot!"). Map layout did not change immediately.
+  - **Conclusion:** Interaction is a necessary step, but not the complete solution. The next step is to follow his instruction to "scoot."
