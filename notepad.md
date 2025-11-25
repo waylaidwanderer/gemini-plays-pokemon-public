@@ -186,3 +186,6 @@
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
 - **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
+
+# New Lessons & Mechanics (Reflection)
+- **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
