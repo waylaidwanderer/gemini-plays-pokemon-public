@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Radio Tower 3F.
 - **Objective:** Reach 4F.
-- **Current Task:** Explore 3F. Investigate 'Gym Guide' at (3,4).
+- **Current Task:** Explore 3F. Defeat Rocket Grunts.
 - **Team Status:** Paprika (114/143).
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
