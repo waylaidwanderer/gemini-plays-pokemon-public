@@ -192,5 +192,5 @@
 - **Tests:**
   1. S1=ON, S2=OFF, S3=OFF: East Shutter Open. Path to Item Ball. Warehouse blocked.
   2. S1=ON, S2=OFF, S3=ON: West Shutter Closed.
-- **Current Plan:** Test S1=ON, S2=ON, S3=OFF.
+- **Current Plan:** Testing S1=ON, S2=ON, S3=ON. (S1=ON, S2=ON, S3=OFF opened Shutter 1 but Shutter 2 remained closed).
 - **Pharmacist:** Sighted at (9, 12). Avoid line of sight if possible.
