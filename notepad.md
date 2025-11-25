@@ -1,5 +1,6 @@
 # Strategic Principles & Lessons Learned
 - **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on, such as adding, deleting, or fixing an agent, tool, marker, or notepad entry, MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred.
+- **IMMEDIATE TOOL MAINTENANCE:** If a tool is flawed, a better one can be conceived, or a hallucinated tool needs to be replaced, this is the absolute highest priority. I must define, refine, or delete the necessary tool in the current turn, not defer it as a goal or a future task. This prevents repeated manual errors and enforces my 'DEFAULT TO AUTOMATION' principle.
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task (e.g., `select_battle_option`), I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
@@ -52,7 +53,6 @@
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
 - **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
-- **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - **Route 34 Fence:** A long, impassable fence (WALL tiles from approx. (9,24) to (9,32)) divides the route, preventing east-west travel. The western side, including the item at (7,30), is inaccessible from the main path.
 
@@ -120,10 +120,9 @@
 - **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
 - **Phone Calls:**
-    - Youngster JOEY called multiple times for a rematch on Route 30.
+    - Youngster JOEY called for a rematch on Route 30.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He also called for a rematch on Route 33.
     - Juggler IRWIN called, just to introduce himself.
-    - Youngster JOEY called for a rematch on Route 30.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -222,20 +221,10 @@
   - **Result:** Confirmed! Interaction triggered dialogue ("Hey, kid! You're holding us up!") and caused the map layout to change, opening the path to the east.
   - **Conclusion:** The puzzle is solved by a sequence of interactions and movement.
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
-- Youngster JOEY called for a rematch on Route 30.
 - **Tool Logic Consistency:** When writing tool scripts, ensure that data comparisons (like finding list indices) are performed using a single, consistent frame of reference. Using different versions of a list (e.g., one with a cursor marker and one without) for the same logical operation can lead to subtle, hard-to-diagnose bugs. This was the root cause of the `select_move` tool failure.
-
-# Strategic Principles & Lessons Learned
-- **VERIFY LOCATION BEFORE NAVIGATION:** After any map transition or interruption, and before any navigational planning or action, I must immediately verify my current map ID and coordinates from the Game State Information to prevent hallucinations and failed pathing.
 
 # PC Inventory
 - **Box 1:**
-  - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
 - **Conclusion:** My Onix (Rocky) is NOT in the PC. My memory was a hallucination based on the Pokedex entry. My new plan is to travel to Union Cave to catch a Geodude as a replacement counter for Whitney.
 - **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
-- Youngster JOEY called for a rematch on Route 30.
-- Youngster JOEY called for a rematch on Route 30.
-
-# Strategic Principles & Lessons Learned
-- **IMMEDIATE TOOL MAINTENANCE:** If a tool is flawed, a better one can be conceived, or a hallucinated tool needs to be replaced, this is the absolute highest priority. I must define, refine, or delete the necessary tool in the current turn, not defer it as a goal or a future task. This prevents repeated manual errors and enforces my 'DEFAULT TO AUTOMATION' principle.
