@@ -192,10 +192,13 @@
 - **Pharmacist:** Sighted at (4, 8). Likely a trainer.
 ### Shutter Puzzle Mechanics
 - **Goal:** Open East Shutter at (12, 9).
-- **Confirmed Effects:**
-  - **Switch 3 (2,1):** OFF opens Shutter (2, 6). (Confirmed)
-- **Experiment Log (East Shutter):**
-  - [Fail] S1=OFF, S2=OFF, S3=OFF -> (12, 9) Closed.
-  - [Fail] S1=OFF, S2=ON, S3=OFF -> (12, 9) Closed (momentarily open?).
-  - [Fail] S1=ON, S2=ON, S3=OFF -> (12, 9) Closed. (Current State)
-  - [Next] S1=ON, S2=OFF, S3=OFF -> Hypothesis: Open.
+- **Mechanics:**
+  - **Switch 3 (2,1):** OFF opens Shutter (2, 6).
+  - **Switch 2 (10,1):** Toggles shutters in Row 9 (West vs East).
+  - **Switch 1 (16,1):** Likely a modifier for the other switches.
+- **Experiment Log:**
+  - [Fail] S1=ON, S2=ON, S3=ON -> (16,6) Closed.
+  - [Fail] S1=OFF, S2=OFF, S3=OFF -> (12,9) Closed.
+  - [Fail] S1=OFF, S2=ON, S3=OFF -> (12,9) Closed (vertical path open).
+  - [Fail] S1=ON, S2=ON, S3=OFF -> (12,9) Closed.
+  - [Current Test] S1=ON, S2=OFF, S3=OFF -> Checking (12,9)...
