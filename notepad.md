@@ -196,4 +196,5 @@
 | OFF | ON | OFF | West Shutter 1 Open, Shutter 2 Closed |
 | OFF | ON | ON | West Shutter 1 Open, Shutter 2 Closed |
 | OFF | OFF | ON | West Shutter 1 Open, Shutter 2 Closed |
-| OFF | OFF | OFF | Next Test (All OFF) |
+| OFF | OFF | OFF | Shutter 2 Closed |
+| ON | OFF | ON | Next Test |
