@@ -197,5 +197,6 @@
 | OFF | ON | ON | West Shutter 1 Open, Shutter 2 Closed |
 | OFF | OFF | ON | West Shutter 1 Open, Shutter 2 Closed |
 | OFF | OFF | OFF | Shutter 2 Closed |
+| ON | ON | OFF | Testing Middle Shutter (10,6) |
 | ON | OFF | ON | Next Test |
 - **Confirmed:** S1=ON, S2=OFF, S3=OFF opens East Shutter (12,8 & 12,9). System notification observed.
