@@ -6,10 +6,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Radio Tower 5F.
-- **Objective:** Find Director on 5F.
-- **Current Task:** Explore West 4F. Wall blocks East side (Stairs to 5F). Need to find a way around.
-- **Team Status:** Paprika (111/146) Lv47.
+- **Location:** Radio Tower 5F (Director's Office).
+- **Objective:** Defeat Rocket Executive.
+- **Current Task:** Defeat the Imposter Director to reveal the real Director's location.
+- **Team Status:** Paprika (97/146) Lv47.
 - **Key Items:** HM06 Whirlpool, Red Scale, Glacier Badge.
 - **Backlog:**
   - Cure Miltank (Needs berries).
