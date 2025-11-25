@@ -159,6 +159,7 @@
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
 - **Phone Calls:**
     - Youngster JOEY called for a rematch on Route 30.
+    - Hiker ANTHONY called for a rematch on Route 33.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
     - Juggler IRWIN called, just to introduce himself.
 
