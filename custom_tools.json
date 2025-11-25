@@ -608,7 +608,7 @@
     ]
   },
   "choose_battle_action": {
-    "description": "Automates selecting a main battle menu option (FIGHT, PKMN, PACK, RUN).",
+    "description": "Automates selecting a main battle menu option (FIGHT, PKMN, PACK, RUN). Requires the current screen text to be state-aware.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -620,13 +620,17 @@
             "PACK",
             "RUN"
           ]
+        },
+        "current_screen_text": {
+          "type": "string"
         }
       },
       "required": [
-        "option_to_select"
+        "option_to_select",
+        "current_screen_text"
       ]
     },
-    "python_script": "import json\n\noption = input_data['option_to_select']\nbuttons = []\n# Default cursor is on FIGHT\nif option == \"FIGHT\":\n    buttons.append(\"A\")\nelif option == \"PKMN\":\n    buttons.extend([\"Right\", \"A\"])\nelif option == \"PACK\":\n    buttons.extend([\"Down\", \"A\"])\nelif option == \"RUN\":\n    buttons.extend([\"Right\", \"Down\", \"A\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\npositions = {\n    \"FIGHT\": (0, 0),\n    \"PKMN\": (1, 0),\n    \"PACK\": (0, 1),\n    \"RUN\": (1, 1)\n}\n\ntarget_option = input_data['option_to_select']\nscreen_text = input_data['current_screen_text']\n\ncurrent_option = None\n# Need to check for the different ways the game might render PKMN\nif \"▶FIGHT\" in screen_text:\n    current_option = \"FIGHT\"\nelif \"▶<PK><MN>\" in screen_text or \"▶PKMN\" in screen_text:\n    current_option = \"PKMN\"\nelif \"▶PACK\" in screen_text:\n    current_option = \"PACK\"\nelif \"▶RUN\" in screen_text:\n    current_option = \"RUN\"\n\nif not current_option or current_option == target_option:\n    print(json.dumps([\"A\"]))\n    exit()\n\ncurrent_pos = positions[current_option]\ntarget_pos = positions[target_option]\n\ndx = target_pos[0] - current_pos[0]\ndy = target_pos[1] - current_pos[1]\n\nbuttons = []\nif dx > 0:\n    buttons.append(\"Right\")\nelif dx < 0:\n    buttons.append(\"Left\")\n\nif dy > 0:\n    buttons.append(\"Down\")\nelif dy < 0:\n    buttons.append(\"Up\")\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -637,6 +641,11 @@
         "commit_message": "feat: Create choose_battle_action tool. This custom tool replicates the functionality of the built-in `select_battle_option` but allows for the use of `autopress_buttons`. This is a direct result of a reflection identifying the inefficiency of the built-in tool and will improve battle automation.",
         "timestamp": "2025-11-25T08:08:54.142Z",
         "action_counter": 15223
+      },
+      {
+        "commit_message": "feat: Make tool state-aware. The tool now requires `current_screen_text` as input to parse the cursor's current position (▶). It calculates the relative 'Up'/'Down'/'Left'/'Right' presses needed to reach the target option, making it reliable regardless of the initial menu state. This resolves a critical bug causing repeated incorrect selections.",
+        "timestamp": "2025-11-25T09:54:19.755Z",
+        "action_counter": 15421
       }
     ]
   }
