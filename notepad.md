@@ -1,8 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Reach 4F
-- [ ] Find Director on 5F (Current)
+- [ ] Rescue Director in Underground Warehouse (Current)
 - [ ] Defeat Team Rocket
 
 ## Status
