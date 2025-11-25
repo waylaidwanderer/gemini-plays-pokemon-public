@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-- **Current Task:** Defeated Rival Silver and Rocket Grunt. Navigate past the Grunt to the switch/west.
+- **Current Task:** Turn on Switch 1. Return to Goldenrod Underground (Ladder 23,3) to find entrances to other switches.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
