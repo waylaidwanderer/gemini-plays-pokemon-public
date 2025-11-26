@@ -8,7 +8,7 @@
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
 ### Switch Puzzle Log
-- [ON, OFF, OFF]: Opens East, Middle, West.
+- [ON, OFF, OFF]: West Shutter (2,6) CLOSED. (Correction: previous note was wrong).
 - [ON, ON, OFF]: Far East Closed.
 - [OFF, OFF, OFF]: Far East Closed.
 - [OFF, ON, OFF]: Far East Closed.
