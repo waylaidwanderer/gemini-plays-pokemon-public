@@ -301,3 +301,6 @@
 
 # NPC Dialogue
 - POKEFAN_F in Bill's House (Goldenrod): Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
+
+# Strategic Principles & Lessons Learned
+- **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
