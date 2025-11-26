@@ -8,8 +8,8 @@
 - **Location:** Goldenrod Underground (Switch Room).
 - **Objective:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
 - **Current Switch State:** [ON, OFF, OFF] (S1, S2, S3).
-- **Observations:** Top East Shutter (16,6) is OPEN.
-- **Immediate Task:** Check Inner Shutter (16,10).
+- **Observations:** [ON, OFF, OFF] -> Top East & East Connector OPEN. South Shutters CLOSED.
+- **Immediate Task:** Test [ON, OFF, ON] (Verify S3->S2 Linkage).
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
