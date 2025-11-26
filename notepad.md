@@ -200,7 +200,7 @@
 - Verified State [ON, OFF, ON]: Top West OPEN, West Connector CLOSED (6,9), Bottom West CLOSED (3,10). This state allows entry to West Room but no exit South or East.
 Verified [OFF, OFF, OFF]: Top West OPEN. Top East & Top Middle CLOSED. Bottoms UNKNOWN.
 Verified [OFF, OFF, ON]: Top West OPEN. Bottom West CLOSED.
-Testing [OFF, OFF, OFF]: Checking Bottom West Shutter.
+Status Update: Found Switch 3 ON. Correcting internal state. Proceeding to verify Switch 2 is OFF to achieve [ON, OFF, ON].
 ### Puzzle Solution Plan (Trap Theory)
 Target State: [ON, OFF, ON]
 Logic: Closes Top East (Entrance), Opens Bottom East (Goal).
