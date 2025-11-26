@@ -207,11 +207,8 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-### Shutter Puzzle Solved
-- **Solution:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
-- **Effect:** Opens East, Middle, and West Shutters.
-- [ON, ON, ON]: Middle Shutter (10,6) CLOSED.
-- Observation: Switch 1 OFF changed (12,8) and (12,9) from WALL to FLOOR. This opens the vertical divider between Middle and East sections.
-- Hypothesis: Switches might need to be OFF to open dividers/shutters.
-- Observation: West Inner Door (2,10) is CLOSED with Switch 3 OFF.
-- Plan: Checking East Inner Door (18,10) with Switch 1 OFF.
+### Verified Switch Logic
+- **Switch 1:** OFF = East Shutter (12,9) OPEN (Verified). ON = Closed.
+- **Switch 2:** Controls Middle Shutter (10,6). Expect ON to OPEN.
+- **Switch 3:** Toggles West/East Dividers.
+- **Current Plan:** Set [OFF, ON, OFF]. This keeps East Shutter OPEN (via S1) and should open Middle Shutter (via S2).
