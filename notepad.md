@@ -187,23 +187,13 @@
 **Goal:** Open Path South (Bottom West 3,10 / Bottom Middle 10,10 / Inner Shutter 16,10).
 
 **Verified Logic & States:**
-1. **[ON, ON, OFF] (Current):** 
-   - Top Middle (10,6): OPEN (Verified).
-   - West Connector (6,9): Likely OPEN.
-   - Top East (16,6): CLOSED.
-   - East Connector (12,8): CLOSED.
-2. **[OFF, ON, OFF]:**
-   - Top West (3,6): CLOSED.
-   - West Connector (6,9): OPEN.
-   - Top Middle (10,6): OPEN (Deduced from XML).
-3. **[OFF, ON, ON]:**
-   - Top West (3,6): CLOSED.
-   - West Connector (6,9): CLOSED.
-4. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
-5. **[ON, OFF, OFF]:** Top East CLOSED.
+1. **[ON, ON, ON]:** Top West OPEN. Bottom West CLOSED. West Connector CLOSED.
+2. **[ON, ON, OFF]:** Top Middle OPEN. East Connector OPEN. South Shutters CLOSED.
+3. **[OFF, ON, OFF]:** Top West CLOSED. West Connector OPEN.
+4. **[OFF, ON, ON]:** Top West CLOSED. West Connector CLOSED.
+5. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
+6. **[ON, OFF, OFF]:** Top East CLOSED. (Hypothesis: Opens Bottom East?)
 
 **Current Plan:**
-1. Verify Top Middle is OPEN.
-2. Enter Middle Room.
-3. Cross West Connector (6,9) to West Room.
-4. Inspect Bottom West Shutter (3,10).
+1. Transition to [ON, OFF, OFF] (S3 OFF -> S2 OFF).
+2. Check Bottom East Shutter.
