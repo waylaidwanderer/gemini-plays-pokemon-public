@@ -8,25 +8,24 @@
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
 
-### Switch Puzzle Analysis
+### Switch Puzzle Rules & Logic
 **Goal:** Open Bottom East Shutter (16,10).
-**CRITICAL INSIGHT:** Mental Map is STALE for off-screen tiles. Visually verify changes.
+**Current State:** [ON, OFF, ON] (S1 ON, S2 OFF, S3 ON).
 
-**Verified Rules:**
-1. **Switch 1 (East):** MASTER. ON opens Top East, OFF closes it.
-2. **Switch 3 (West):** Controls Top West (3,6). OFF = Open, ON = Closed.
-3. **Linkage:** S3 ON -> Forces S2 ON.
-4. **Switch 2 (Middle):** ON closes Top East Shutter (Overrides S1).
+**Truth Table / Verified Rules:**
+1. **Switch 1 (East):** MASTER POWER. Must be ON to open Top East Shutter.
+2. **Switch 3 (West):** 
+   - ON forces Switch 2 to ON (Linkage).
+   - ON closes Top West Shutter.
+   - Hypothesis: ON is required for Bottom East Shutter.
+3. **Switch 2 (Middle):** 
+   - ON closes Top East Shutter (Overrides S1).
+   - OFF keeps Top East Shutter OPEN (if S1 is ON).
 
-**Current Test:** [ON, ON, OFF] (S1 ON, S2 ON, S3 OFF).
-**Result:** Top East Shutter (16,6) CLOSED.
-**Hypothesis:** S2 ON opens Connectors (6,9 & 12,9).
-**Next Step:** Check East Connector (12,9). If open, path is: Top West -> West Room -> Middle Room -> East Room (South).
-**Tested & Failed:**
-- [ON, OFF, OFF]
-- [ON, OFF, ON]
-- [ON, ON, ON]
-- **Goal:** Reach Emergency Switch (20,11) in East Room.
+**Solution Strategy:**
+- **Target Config:** [ON, OFF, ON].
+- **Execution Order:** Turn S3 ON (Forces S2 ON) -> Manually turn S2 OFF.
+- **Status:** Execution complete. Now verifying shutter access.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
