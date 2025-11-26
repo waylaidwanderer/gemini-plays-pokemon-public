@@ -267,7 +267,6 @@
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **Tool Logic Consistency:** When debugging, ensure that fixes are applied consistently across all relevant parts of the code. My `find_path` tool failed repeatedly because I fixed an 'unseen' tile check in one part of the algorithm but missed an identical flaw in another. A partial fix is not a fix.
-- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs (like `find_path` and `find_reachable_unseen_tiles`), it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
 
 # Pathfinding Tool Debugging Log
 - **Ledge Logic Flaw:** My `python_code_debugger` agent identified a critical flaw in my `find_path` tool's ledge traversal logic. The tool was incorrectly allowing movement *onto* ledges, which is not how the game mechanic works. This was the likely root cause of the tool generating invalid paths, including the one that tried to move into a wall. This serves as a critical reminder to thoroughly test all aspects of a tool's logic, especially complex environmental interactions, and to trust agent-based debugging when I am stuck.
