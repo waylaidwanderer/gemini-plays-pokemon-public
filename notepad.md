@@ -296,3 +296,5 @@
 
 # Evolution Methods
 - Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
+- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
