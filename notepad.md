@@ -212,3 +212,6 @@
 - **[OFF, OFF, ON]**: Top West (3,6) OPEN. Bottom West (3,10) CLOSED.
 - **[OFF, ON, OFF]**: Top West OPEN. Top Middle OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
 - **[ON, ON, ON]**: CURRENTLY TESTING. Hypothesis: Opens Inner East or Bottom Middle?
+- **[ON, ON, ON]**: Bottom Middle (10,10) CLOSED. West Connector (6,9) OPEN. Top Middle (10,6) OPEN.
+**Lesson:** `sequence_press` tool requires `autopress_buttons: true` to work.
+**Next Test:** [OFF, ON, ON] (Turn S1 OFF).
