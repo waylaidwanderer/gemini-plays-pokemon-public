@@ -10,17 +10,18 @@
 ### Master Switch Logic (Consolidated)
 - **Switch 1 (East Control):**
   - ON: Opens Top East Shutter (16,6).
-  - OFF: Closes Top East Shutter (16,6). Opens West Connector (6,9). Closes East Connector (12,9).
+  - OFF: Closes Top East Shutter (16,6) [TRAP]. Opens West Connector (6,9). Closes East Connector (12,9).
 - **Switch 2 (Middle Control):**
   - ON: Opens Middle Shutter (10,6).
   - OFF: Closes Middle Shutter.
 - **Switch 3 (West Control):**
   - ON: Opens Top West Shutter (3,6).
   - OFF: Closes Middle Shutter (10,6). Bottom West (3,10) CLOSED.
-- **Tested:** [ON, OFF, OFF] -> Middle Closed, Bottom West Closed. Top East/West Open.
-- **Tested:** [ON, ON, OFF] -> Middle Closed, Bottom West Closed.
-- **Tested:** [ON, OFF, ON] -> Unstable. Shutters closed unexpectedly.
-- **Current Plan:** Turn Switch 3 OFF. Revert to [ON, OFF, OFF] to open Top East Shutter (16,6).
+- **Tested Configurations:**
+  - [ON, OFF, OFF]: Top East/West OPEN. Middle/Bottom West CLOSED.
+  - [ON, ON, OFF]: Testing Now.
+  - [ON, OFF, ON]: FAILED (Unstable).
+- **Goal:** Open Bottom East Shutter (16,10).
 - **Goal:** Reach Emergency Switch (20,11) in East Room.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
