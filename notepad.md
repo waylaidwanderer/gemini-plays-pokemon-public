@@ -8,14 +8,10 @@
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
 ### Switch Puzzle Log
-- [ON, OFF, OFF]: West Shutter (2,6) CLOSED.
 - [ON, OFF, ON]: West Shutter (2,6) CLOSED.
-- [ON, ON, OFF]: Far East Closed.
-- [OFF, OFF, OFF]: Far East Closed.
-- [OFF, ON, OFF]: Far East Closed.
-- [ON, ON, ON]: Far East Closed.
-- [OFF, OFF, ON]: Far East Closed.
-- [OFF, ON, ON]: Far East Closed.
+- [ON, ON, ON]: Middle (10,6) & East (18,6) CLOSED.
+- [OFF, ON, ON]: Divider (12,8) OPEN.
+- Testing [OFF, OFF, ON].
 - **Conclusion:** West Shutter is stubborn. Need to test Middle/East shutters with different combos.
 - **Plan:** Navigate East via Row 4/5 to reach Switches 2 & 1.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
