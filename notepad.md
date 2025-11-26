@@ -10,7 +10,7 @@
 
 ### Switch Puzzle Rules & Logic
 **Goal:** Enter West Room via Top West Shutter (3,6) to reach Warehouse.
-**Current State:** [OFF, OFF, ON]. East Connector (12,9) CLOSED. West Connector (6,9) likely OPEN. Executing Config [ON, ON, OFF]. Switch 2 turned ON. Next: S3 OFF, S1 ON.
+**Current State:** [OFF, OFF, ON]. East Connector (12,9) CLOSED. West Connector (6,9) likely OPEN. Linkage S3->S2 DISPROVED. Executing Config [ON, ON, OFF]. Switch 2 ON. Next: S3 OFF, S1 ON.
 
 **Verified Mechanics:**
 1. **Switch 1 (East):** 
