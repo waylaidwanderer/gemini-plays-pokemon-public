@@ -196,8 +196,7 @@
 5. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
 
 **Current State:** [ON, OFF, ON] (S1=ON, S2=OFF, S3=ON).
-**Hypothesis:** S3 ON might affect South Shutters when combined with S1 ON/S2 OFF.
+**Hypothesis:** [ON, OFF, ON] opens Inner Shutter (16,10).
 
 **Current Plan:**
-1. Keep S2 OFF.
-2. Check Top East Shutter (16,6) and Inner Shutter (16,10).
+1. Check Top East Shutter (16,6) and Inner Shutter (16,10).
