@@ -10,8 +10,8 @@
 
 ### Switch Puzzle Rules & Logic
 **Goal:** Enter West Room via Top West Shutter (3,6) to reach Warehouse.
-**Current State:** [OFF, OFF, OFF]. S1 OFF, S2 OFF, S3 OFF.
-- **Verified:** Top Middle Shutter (10,6) CLOSED.
+**Current State:** [ON, OFF, OFF]. S1 ON, S2 OFF, S3 OFF.
+- **Verified:** Top Middle Shutter (10,6) CLOSED. Top East Shutter (16,6) OPEN.
 **Next Test:** [ON, OFF, ON]. (S1 ON, S2 OFF, S3 ON).
 **History:**
 - [ON, ON, OFF]: Top East Open. Inner (16,10) CLOSED.
