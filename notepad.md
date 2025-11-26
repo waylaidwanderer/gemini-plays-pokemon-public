@@ -14,13 +14,15 @@
 **Goal:** Open South Path (Bottom West 3,10 | Bottom Middle 10,10 | Inner Shutter 16,10).
 
 **Verified State Log:**
-1. **[ON, OFF, ON]:** Top West OPEN. Top East CLOSED. Bottom West CLOSED. West Conn CLOSED.
-2. **[ON, OFF, OFF]:** Top East OPEN. Top West CLOSED. Inner Shutter CLOSED.
-3. **[ON, ON, OFF]:** Top East & Top West OPEN. Inner Shutter CLOSED. Bottom West CLOSED. Top Middle CLOSED.
-4. **[ON, ON, ON]:** Top East & Top West OPEN. Inner Shutter CLOSED. Bottom West CLOSED. West Conn CLOSED.
-5. **[OFF, ON, ON]:** Top East & Top West CLOSED.
-6. **[OFF, ON, OFF]:** Top West OPEN. Top Middle CLOSED. West Conn CLOSED. Bottom West CLOSED.
-7. **[OFF, OFF, OFF]:** Testing next.
+| S1 | S2 | S3 | Top East (16,6) | Top Mid (10,6) | Top West (3,6) | Bot East (16,10) | Bot West (3,10) | Notes |
+|---|---|---|---|---|---|---|---|---|
+| ON | OFF | ON | CLOSED | ? | OPEN | ? | CLOSED | West Conn Closed |
+| ON | OFF | OFF | OPEN | ? | CLOSED | CLOSED | ? | |
+| ON | ON | OFF | OPEN | CLOSED | OPEN | CLOSED | CLOSED | |
+| ON | ON | ON | OPEN | ? | OPEN | CLOSED | CLOSED | West Conn Closed |
+| OFF | ON | ON | CLOSED | ? | CLOSED | ? | ? | |
+| OFF | ON | OFF | ? | CLOSED | OPEN | ? | CLOSED | West Conn Closed |
+| OFF | OFF | OFF | CLOSED | CLOSED | ? | ? | ? | Current Test |
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
