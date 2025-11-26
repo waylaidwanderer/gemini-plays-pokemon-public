@@ -7,14 +7,16 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-### Switch Puzzle Log
-- **SOLUTION CONFIRMED:** [OFF, ON, OFF].
-  - Middle Shutter (10,6) is OPEN. Proceeding to Warehouse.
-- Dead Ends verified:
-  - [OFF, OFF, ON]: West Shutter Open (Dead End).
-  - [OFF, ON, ON]: East Divider Open.
-  - [OFF, OFF, OFF]: All Shutters Closed.
-- **Plan:** Enter Warehouse via West Shutter.
+### Switch Mechanics Analysis
+- **Switch 1 (OFF):** Master switch for Dividers (Row 8/9). Must be OFF to cross between sections.
+- **Switch 2 (ON):** Opens Middle Shutter (10, 6).
+- **Switch 3:** Toggles Dividers when Switch 1 is OFF.
+  - **ON:** Opens East Divider (12, 8).
+  - **OFF:** Opens West Divider (6, 8).
+- **Current Hypothesis [OFF, ON, ON]:**
+  - Switch 1 OFF + Switch 3 ON -> Open East Divider.
+  - Switch 2 ON -> Open Middle Shutter.
+  - Plan: Enter Middle Shutter, cross East Divider, exit East Inner Door.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
