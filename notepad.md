@@ -201,3 +201,6 @@
 - **[OFF, ON, OFF]**: Top West Open. West Conn OPEN. East Conn CLOSED. Trapped in Middle Room.
 - **[OFF, ON, ON]**: Top West OPEN. Top Middle CLOSED. West Connector (6,9) OPEN. East Connector (12,9) CLOSED. Plan: Enter Top West -> West Connector -> Middle Room -> Search for Lower East Connector.
 **Next Step:** Retry [OFF, ON, ON] and explore East Room fully.
+**PUZZLE CORRECTION:**
+- [OFF, ON, ON] results in Top Middle CLOSED (Verified Turn 9331). Previous entry saying it was OPEN was an error.
+- S3 Logic: ON + S2 OFF = West Conn OPEN. ON + S2 ON = West Conn CLOSED.
