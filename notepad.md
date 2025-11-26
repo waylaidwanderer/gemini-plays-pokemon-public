@@ -217,3 +217,4 @@
 **Next Test:** [OFF, ON, ON] (Turn S1 OFF).
 - **[ON, ON, ON]**: Bottom West (3,10) CLOSED. Bottom Middle (10,10) CLOSED. West Connector (6,9) OPEN.
 **Next Test:** [OFF, ON, ON] (Turn S1 OFF).
+- **[OFF, ON, ON]**: East Connector (12, 9) OPEN. Testing West Shutters.
