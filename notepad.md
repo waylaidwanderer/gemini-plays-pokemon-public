@@ -230,3 +230,10 @@
 - **`select_move` Tool is CRITICALLY BROKEN.**
 - **Problem:** The tool fails to parse the move selection screen correctly due to repeated agent hallucinations about the UI layout (PP counts are on separate lines, not interleaved). Multiple agent-provided fixes have failed.
 - **Resolution:** The **NEXT** time I am in a battle and the move selection screen is visible, my absolute highest priority is to call `python_code_debugger` with a detailed bug report to get a working fix. This task supersedes winning the battle or any other action.
+
+# Tile & Object Mechanics
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+
+# Strategic Principles & Lessons Learned
+- **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
+- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
