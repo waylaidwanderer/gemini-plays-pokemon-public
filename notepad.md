@@ -15,11 +15,11 @@
   - ON: Opens Middle Shutter (10,6).
   - OFF: Closes Middle Shutter.
 - **Switch 3 (West Control):**
-  - OFF: (Default).
-- **Current Configuration:** [OFF, ON, OFF].
-  - Result: West Connector (6,9) OPEN. East Connector (12,9) CLOSED.
-- **Plan:** Go South to (10,9), then West through (6,9) to the West Room. The Warehouse Entrance is at (4,29) (West Side).
-- **Correction:** Warehouse Warps are at x=4/5 (West), not East.
+  - OFF: Default.
+  - ON: Opens Top West Shutter (3,6). Bottom West Shutter (3,10) CLOSED.
+- **Current Configuration:** [OFF, ON, ON].
+  - Result: Top West Open. Bottom West Closed.
+- **Plan:** Move to Switch 2 (10,1) and turn OFF. Hypothesis: S2 controls bottom shutters.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**

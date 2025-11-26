@@ -225,9 +225,9 @@
     ]
   },
   "check_shutter_status": {
-    "description": "Checks the WALL/FLOOR status of critical shutter tiles in the Underground Switch Room (West x=3, Middle x=10, East x=16, East Shutter x=12) to verify which paths are open.",
+    "description": "Checks the WALL/FLOOR status of critical shutter tiles and connectors in the Underground Switch Room (West, Middle, East) to verify which paths are open.",
     "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    shutter_tiles = [\n        (3, 6), (10, 6), (16, 6), (12, 9),\n        (3, 7), (10, 7), (16, 7),\n        (3, 10), (10, 10), (16, 10)\n    ]\n    status = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            if (x, y) in shutter_tiles:\n                status[f\"{x},{y}\"] = tile.attrib.get('type', 'UNKNOWN')\n    print(json.dumps(status))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    shutter_tiles = [\n        (3, 6), (10, 6), (16, 6),       # Top Shutters\n        (6, 9), (12, 9),                # Connectors (West, East)\n        (3, 7), (10, 7), (16, 7),       # Top Shutters (Row 7 check)\n        (3, 10), (10, 10), (16, 10)     # Bottom Shutters\n    ]\n    status = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            if (x, y) in shutter_tiles:\n                status[f\"{x},{y}\"] = tile.attrib.get('type', 'UNKNOWN')\n    print(json.dumps(status))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -238,6 +238,11 @@
         "commit_message": "feat: Add check_shutter_status tool for efficient puzzle state verification.",
         "timestamp": "2025-11-26T02:59:43.000Z",
         "action_counter": 8557
+      },
+      {
+        "commit_message": "feat: Add West Connector (6,9) to checked tiles. This ensures we can verify if the path to the West Room is open.",
+        "timestamp": "2025-11-26T03:50:30.152Z",
+        "action_counter": 8627
       }
     ]
   }
