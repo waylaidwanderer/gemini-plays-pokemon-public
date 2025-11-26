@@ -13,17 +13,18 @@
 **Current State:** [OFF, OFF, ON]. East Connector (12,9) CLOSED. West Connector (6,9) likely OPEN. Checking Top West Shutter (3,6).
 
 **Verified Mechanics:**
-1. **Switch 1 (East):** Controls East Side. ON opens Top East Shutter (16,6) and East Connector (12,9).
+1. **Switch 1 (East):** Controls East Side. ON opens Top East Shutter (16,6). ON+S3_OFF opens East Connector (12,9).
 2. **Switch 3 (West):** 
    - ON opens West Connector (6,9).
-   - ON keeps Top West Shutter (3,6) CLOSED (in [ON, OFF, ON] config).
+   - ON closes East Connector (12,9) (observed in [ON, OFF, ON]).
+   - ON does NOT open Top West Shutter (3,6) in [ON, OFF, ON].
 3. **Switch 2 (Middle):**
    - ON closes Top East Shutter (16,6).
 
 **Solution Strategy:**
-- **Current Hypothesis:** Flanking Route.
-- **Reasoning:** Since Top West Shutter is closed but West Connector (6,9) is open, I can reach the West Room by going East Room -> Middle Room -> West Room.
-- **Plan:** Enter via Top East Shutter (16,6). Go through East Connector (12,9). Go through West Connector (6,9). Access West Room.
+- **Current Hypothesis:** Toggle Switch 1 OFF.
+- **Reasoning:** S1 ON locks the East side open but seems to enforce closures elsewhere. Turning S1 OFF might release the lock on the West side or allow S3's effect to propagate to the shutter.
+- **Plan:** Test configuration [OFF, OFF, ON]. Check Top West Shutter (3,6).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 
