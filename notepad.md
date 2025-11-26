@@ -204,3 +204,4 @@
 **PUZZLE CORRECTION:**
 - [OFF, ON, ON] results in Top Middle CLOSED (Verified Turn 9331). Previous entry saying it was OPEN was an error.
 - S3 Logic: ON + S2 OFF = West Conn OPEN. ON + S2 ON = West Conn CLOSED.
+- **Observation (Turn 9403):** S1 ON caused Top Middle Shutter (10,6-7, 11,6-7) to OPEN. Also caused (6,8) to OPEN (WALL->FLOOR) and (12,8) to CLOSE (FLOOR->WALL). This implies S1 ON might block the direct path to the East Connector at (12,9) from the north.
