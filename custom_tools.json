@@ -492,7 +492,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import json\nimport sys\nimport re\n\nscreen_text = input_data['current_screen_text']\nmove_to_select = input_data['move_to_select'].upper()\n\nlines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n\n# Find the move block by looking for lines with the specific visual prefix of the move menu.\nmove_block = [line for line in lines if line.startswith('│   │')]\n\npresses = []\nif len(move_block) == 4:\n    current_moves_list = []\n    cursor_pos = -1\n\n    for i, line in enumerate(move_block):\n        if '▶' in line:\n            cursor_pos = i\n        # Clean the line to extract just the move name.\n        cleaned_move = re.sub(r'[^A-Z]', '', line.upper())\n        current_moves_list.append(cleaned_move)\n\n    try:\n        target_index = current_moves_list.index(move_to_select)\n        moves = target_index - cursor_pos\n        \n        if moves > 0:\n            for _ in range(moves):\n                presses.extend([\"Down\", \"sleep 250\"])\n        elif moves < 0:\n            for _ in range(abs(moves)):\n                presses.extend([\"Up\", \"sleep 250\"])\n                \n        presses.append(\"A\")\n        \n    except ValueError:\n        pass\n\nprint(json.dumps(presses))",
+    "python_script": "import json\nimport sys\nimport re\n\nscreen_text = input_data['current_moves_list']\nmove_to_select = input_data['move_to_select'].upper()\n\n# Find the move block by looking for lines with the correct visual prefix\nmove_block = [line for line in screen_text.split('\\n') if line.strip().startswith('│   │')]\n\npresses = []\nif len(move_block) == 4:\n    current_moves_list = []\n    cursor_pos = -1\n\n    # Parse the identified move block to get move names and the cursor position\n    for i, line in enumerate(move_block):\n        if '▶' in line:\n            cursor_pos = i\n        # Clean the line to extract just the move name\n        cleaned_move = re.sub(r'[^A-Z]', '', line.upper())\n        current_moves_list.append(cleaned_move)\n\n    try:\n        target_index = current_moves_list.index(move_to_select)\n        moves = target_index - cursor_pos\n        \n        if moves > 0:\n            for _ in range(moves):\n                presses.extend([\"Down\", \"sleep 250\"])\n        elif moves < 0:\n            for _ in range(abs(moves)):\n                presses.extend([\"Up\", \"sleep 250\"])\n                \n        presses.append(\"A\")\n    except ValueError:\n        pass\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -743,6 +743,16 @@
         "commit_message": "fix: Overhaul move block detection with visual pattern matching. The previous logic was too generic and incorrectly identified a UI box as the move list. This new version specifically filters for lines starting with the '│   │' prefix, which is unique to the move menu. This robustly isolates the correct four moves and resolves the critical parsing failure.",
         "timestamp": "2025-11-26T02:24:01.233Z",
         "action_counter": 17001
+      },
+      {
+        "commit_message": "fix: Correct KeyError by using the correct input variable. The script was trying to access `input_data['current_screen_text']` but the tool's schema defines the input as `current_moves_list`. This commit changes the variable name to match the schema, resolving the critical crash.",
+        "timestamp": "2025-11-26T02:42:00.779Z",
+        "action_counter": 17035
+      },
+      {
+        "commit_message": "fix: Correct line splitting logic. The script was using `split('\\\\n')` which failed to parse the screen text correctly because the input uses actual newline characters (`\\n`). This commit changes the split method to use the correct delimiter, resolving the critical parsing failure that resulted in an empty output.",
+        "timestamp": "2025-11-26T02:43:21.499Z",
+        "action_counter": 17038
       }
     ]
   },
