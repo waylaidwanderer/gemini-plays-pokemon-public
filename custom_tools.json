@@ -492,7 +492,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import sys\nimport json\nimport re\n\nlines = input_data['current_moves_list'].split('\\n')\nmove_to_select = input_data['move_to_select']\n\n# New, simplified logic: Find all lines with letters and take the last four.\n# This is more robust than the agent's hallucinated UI parsing.\nlines_with_text = [line for line in lines if re.search(r'[a-zA-Z]', line)]\nmoves_raw = lines_with_text[-4:]\n\nif not moves_raw or len(moves_raw) < 1:\n    sys.exit(0)\n\n# The rest of the logic for finding indices and calculating presses is sound.\nmoves_cleaned = [re.sub(r'[^A-Z\\s-]', '', move.upper()).strip() for move in moves_raw]\n\ncurrent_index = -1\nfor i, move in enumerate(moves_raw):\n    if '▶' in move:\n        current_index = i\n        break\n\nif current_index == -1:\n    sys.exit(0) # Cursor not found, cannot proceed.\n\ntry:\n    target_index = moves_cleaned.index(move_to_select.upper())\nexcept ValueError:\n    sys.exit(0) # Target move not found in the list.\n\nif current_index == target_index:\n    print(json.dumps(['A']))\n    sys.exit(0)\n\npresses = []\ndiff = target_index - current_index\ndirection = 'Down' if diff > 0 else 'Up'\nfor _ in range(abs(diff)):\n    presses.extend([direction, 'sleep 250'])\npresses.append('A')\nprint(json.dumps(presses))",
+    "python_script": "import json\nimport sys\nimport re\n\nscreen_text = input_data['current_screen_text']\nmove_to_select = input_data['move_to_select'].upper()\n\nlines = [line.strip() for line in screen_text.split('\\n') if line.strip()]\n\n# Find the move block by looking for lines with the specific visual prefix of the move menu.\nmove_block = [line for line in lines if line.startswith('│   │')]\n\npresses = []\nif len(move_block) == 4:\n    current_moves_list = []\n    cursor_pos = -1\n\n    for i, line in enumerate(move_block):\n        if '▶' in line:\n            cursor_pos = i\n        # Clean the line to extract just the move name.\n        cleaned_move = re.sub(r'[^A-Z]', '', line.upper())\n        current_moves_list.append(cleaned_move)\n\n    try:\n        target_index = current_moves_list.index(move_to_select)\n        moves = target_index - cursor_pos\n        \n        if moves > 0:\n            for _ in range(moves):\n                presses.extend([\"Down\", \"sleep 250\"])\n        elif moves < 0:\n            for _ in range(abs(moves)):\n                presses.extend([\"Up\", \"sleep 250\"])\n                \n        presses.append(\"A\")\n        \n    except ValueError:\n        pass\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -728,6 +728,21 @@
         "commit_message": "refactor: Overhaul move parsing with simple list slicing. The agent-provided, anchor-based logic has failed multiple times due to hallucinating UI elements (like PP counters on move lines). This complete rewrite abandons that complex approach and implements a much simpler, more robust one: the four moves are assumed to be the last four lines of screen text that contain any alphabetical characters. This avoids brittle parsing and should be more reliable.",
         "timestamp": "2025-11-25T22:29:59.147Z",
         "action_counter": 16591
+      },
+      {
+        "commit_message": "fix: Overhaul move parsing with state-aware, cursor-based logic. The previous version used a simplistic and faulty method of assuming the last four alphabetical lines were the moves, causing it to parse non-move text. It was also not state-aware, failing to detect the cursor's actual position. This complete rewrite, based on the `python_code_debugger` agent's analysis, now robustly identifies the correct 4-line move block by searching for the '▶' cursor. It then correctly parses the moves and cursor position from this block, making it state-aware and reliable. It also ensures a valid empty JSON array `[]` is outputted on failure to prevent parsing errors.",
+        "timestamp": "2025-11-26T02:20:53.616Z",
+        "action_counter": 16994
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to stderr. The tool is failing to produce output, suggesting a crash. This version adds comprehensive print statements to stderr to trace the script's execution, including line parsing, move block detection, and index calculation. This will provide the necessary data to diagnose the root cause of the failure without corrupting the JSON output to stdout.",
+        "timestamp": "2025-11-26T02:23:07.484Z",
+        "action_counter": 16999
+      },
+      {
+        "commit_message": "fix: Overhaul move block detection with visual pattern matching. The previous logic was too generic and incorrectly identified a UI box as the move list. This new version specifically filters for lines starting with the '│   │' prefix, which is unique to the move menu. This robustly isolates the correct four moves and resolves the critical parsing failure.",
+        "timestamp": "2025-11-26T02:24:01.233Z",
+        "action_counter": 17001
       }
     ]
   },
