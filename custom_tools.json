@@ -1,16 +1,4 @@
 {
-  "analyze_map": {
-    "description": "Analyzes the map XML to find reachable 'unseen' frontier tiles and identifying accessible areas. Returns the 5 closest unexplored tiles.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        p_tile = root.find(\".//Tile[@has-player='true']\")\n        if p_tile is None:\n            print(json.dumps({\"error\": \"No player found\"}))\n            return\n\n        start_x = int(p_tile.get('id'))\n        start_y = int(p_tile.get('coordinate').split(',')[1].strip(') '))\n        \n        # Parse map into grid\n        grid = {}\n        unseen = set()\n        \n        base_obstacles = {\n            \"WALL\", \"COUNTER\", \"PC\", \"SIGN\", \"TREE\", \"ROCK\", \"BOULDER\", \"WHIRLPOOL\", \n            \"LEDGE_DOWN\", \"LEDGE_UP\", \"LEDGE_LEFT\", \"LEDGE_RIGHT\", \n            \"LEDGE_HOP_DOWN\", \"LEDGE_HOP_UP\", \"LEDGE_HOP_LEFT\", \"LEDGE_HOP_RIGHT\",\n            \"WINDOW\", \"DOOR_LOCKED\", \"HEADBUTT_TREE\", \"PIT\", \"LADDER\", \"BUOY\",\n            \"FLOOR_UP_WALL\", \"FLOOR_DOWN_WALL\", \"FLOOR_LEFT_WALL\", \"FLOOR_RIGHT_WALL\"\n        }\n\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                seen = tile.get('seen') == 'true'\n                has_object = tile.get('has-object') == 'true'\n                \n                # Identify unseen\n                if not seen or t_type == \"unseen\":\n                    unseen.add((x, y))\n                    continue\n                \n                # Walkability\n                walkable = True\n                if t_type in base_obstacles:\n                    walkable = False\n                if has_object:\n                    walkable = False\n                \n                # Markers\n                for marker in tile.findall('Marker'):\n                    label = marker.text or \"\"\n                    emoji = marker.get('emoji') or \"\"\n                    if \"Hole\" in label or \"🕳️\" in emoji:\n                        walkable = False\n                \n                if walkable:\n                    grid[(x, y)] = True\n        \n        # BFS for Reachable\n        queue = deque([(start_x, start_y, 0)])\n        visited = set([(start_x, start_y)])\n        reachable_frontiers = []\n        \n        while queue:\n            cx, cy, dist = queue.popleft()\n            \n            # Check neighbors\n            for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                \n                # If neighbor is unseen, it's a frontier\n                if (nx, ny) in unseen:\n                    # Check if already added\n                    is_added = False\n                    for f in reachable_frontiers:\n                        if f['coord'] == [nx, ny]:\n                            is_added = True\n                            break\n                    if not is_added:\n                        reachable_frontiers.append({\"coord\": [nx, ny], \"dist\": dist + 1})\n                    continue\n\n                # If neighbor is walkable and not visited, add to queue\n                if grid.get((nx, ny)) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, dist + 1))\n        \n        # Sort frontiers by distance\n        reachable_frontiers.sort(key=lambda k: k['dist'])\n        \n        print(json.dumps({\n            \"frontiers\": reachable_frontiers[:5], \n            \"total_frontiers\": len(reachable_frontiers)\n        }))\n\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "feat: Add analyze_map tool to identify reachable unseen tiles (frontiers) for exploration.",
-        "timestamp": "2025-11-24T01:43:39.303Z",
-        "action_counter": 6548
-      }
-    ]
-  },
   "find_path": {
     "description": "Calculates a path from the player's current position to a target coordinate (x, y) using BFS. Treats walls, objects, dangerous markers (Trap, Hole, Bomb), and FURNITURE (Counter, Bookshelf, PC, etc.) as obstacles. Context-aware for Surfing.",
     "input_schema": {
@@ -187,42 +175,6 @@
       }
     ]
   },
-  "predict_ice_slide": {
-    "description": "Predicts the final landing position and path when sliding on ice from a given start coordinate in a specific direction. Useful for solving ice puzzles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "direction": {
-          "type": "string",
-          "enum": [
-            "UP",
-            "DOWN",
-            "LEFT",
-            "RIGHT"
-          ]
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "direction"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndirection = input_data.get('direction', '').upper()\nstart_x = int(input_data.get('start_x', 0))\nstart_y = int(input_data.get('start_y', 0))\n\nif not direction or start_x == 0 or start_y == 0:\n    print(json.dumps({\"error\": \"Invalid arguments. Start coordinates must be > 0.\"}))\n    exit()\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\n# Build map grid\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        t_type = tile.attrib.get('type', 'WALL')\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        # Check for child objects just in case attrib is missing\n        if not has_object and tile.findall('Object'):\n            has_object = True\n        \n        grid[(x, y)] = {'type': t_type, 'has_object': has_object}\n\ncurr_x, curr_y = start_x, start_y\npath = []\n\ndx, dy = 0, 0\nif direction == 'UP': dy = -1\nelif direction == 'DOWN': dy = 1\nelif direction == 'LEFT': dx = -1\nelif direction == 'RIGHT': dx = 1\n\nwhile True:\n    next_x = curr_x + dx\n    next_y = curr_y + dy\n    \n    # Check bounds\n    if next_x < 0 or next_x >= width or next_y < 0 or next_y >= height:\n        break # Hit map edge\n        \n    next_tile = grid.get((next_x, next_y), {'type': 'WALL', 'has_object': False})\n    \n    if next_tile['type'] == 'WALL' or next_tile['has_object']:\n        # Stop BEFORE hitting wall/object\n        break\n    \n    # Move to next tile\n    curr_x, curr_y = next_x, next_y\n    path.append((curr_x, curr_y))\n    \n    # If this tile is NOT ICE, we stop ON this tile\n    if next_tile['type'] != 'ICE':\n        break\n\nprint(json.dumps({\"final_pos\": [curr_x, curr_y], \"path\": path}))",
-    "history": [
-      {
-        "commit_message": "feat: Add predict_ice_slide tool to calculate sliding paths on ICE tiles.",
-        "timestamp": "2025-11-25T01:12:02.560Z",
-        "action_counter": 7379
-      }
-    ]
-  },
   "sequence_press": {
     "description": "Executes a sequence of button presses provided as a comma-separated string. Essential for navigating menus or keyboards where mixing directional and action inputs is required in a single turn.",
     "input_schema": {
@@ -269,6 +221,23 @@
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
         "timestamp": "2025-11-25T17:55:51.068Z",
         "action_counter": 7861
+      }
+    ]
+  },
+  "check_shutter_status": {
+    "description": "Checks the WALL/FLOOR status of critical shutter tiles in the Underground Switch Room (West x=3, Middle x=10, East x=16, East Shutter x=12) to verify which paths are open.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    shutter_tiles = [\n        (3, 6), (10, 6), (16, 6), (12, 9),\n        (3, 7), (10, 7), (16, 7),\n        (3, 10), (10, 10), (16, 10)\n    ]\n    status = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            if (x, y) in shutter_tiles:\n                status[f\"{x},{y}\"] = tile.attrib.get('type', 'UNKNOWN')\n    print(json.dumps(status))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-11-26T02:56:35.357Z",
+        "action_counter": 8553
+      },
+      {
+        "commit_message": "feat: Add check_shutter_status tool for efficient puzzle state verification.",
+        "timestamp": "2025-11-26T02:59:43.000Z",
+        "action_counter": 8557
       }
     ]
   }
