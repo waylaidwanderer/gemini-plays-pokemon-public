@@ -275,3 +275,4 @@
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
 - **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
 - Youngster JOEY called for a rematch on Route 30.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
