@@ -257,3 +257,5 @@
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+- **Tool Logic Consistency:** When debugging, ensure that fixes are applied consistently across all relevant parts of the code. My `find_path` tool failed repeatedly because I fixed an 'unseen' tile check in one part of the algorithm but missed an identical flaw in another. A partial fix is not a fix.
+- **Tool Contradiction Analysis:** If two of my tools provide contradictory outputs (like `find_path` and `find_reachable_unseen_tiles`), it's a strong indicator of a bug in one of them. I must immediately stop and debug the tools to resolve the discrepancy instead of trusting one over the other.
