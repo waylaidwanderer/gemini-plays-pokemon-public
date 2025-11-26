@@ -218,3 +218,5 @@
 - **[ON, OFF, OFF]**: Retrying. Hypothesis: S2 OFF + S3 OFF opens Bottom Middle (10,10).
 - **[ON, ON, ON]**: Top Middle (10,6) OPEN. (Verified Turn 9146)
 - **Mechanic**: Switch 2 ON opens Top Middle Shutter.
+- [OFF, OFF, ON]: Top West CLOSED. (Verified Turn 9315)
+- Plan: Restore [OFF, ON, ON] to open Top West & Lower East Connector.
