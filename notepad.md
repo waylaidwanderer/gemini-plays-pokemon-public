@@ -225,4 +225,5 @@
 - **Current Test**: [ON, OFF, ON]. Checking Inner Shutter (16, 10).
 - **[ON, OFF, ON]**: Top East (16,6) CLOSED (Unexpected). Inner (16,10) Unreachable.
 - **[ON, OFF, ON]**: Top East (16,6) CLOSED (Unexpected). Inner (16,10) Unreachable.
-- **[OFF, OFF, OFF]**: Testing. S1 OFF, S2 OFF, S3 OFF.
+- **[OFF, OFF, OFF]**: Top West (3,6) CLOSED. Dead End.
+- **[ON, OFF, OFF]**: Retrying. Hypothesis: S2 OFF + S3 OFF opens Bottom Middle (10,10).
