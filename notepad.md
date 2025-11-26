@@ -201,9 +201,7 @@
 - **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN.
 
 **Current Strategy:**
-Testing **[OFF, ON, OFF]**. 
-Hypothesis: 
-- S1 OFF -> East Connector (12,9) OPEN.
-- S2 ON + S3 OFF -> West Connector (6,9) & Top West (3,6) OPEN.
-Route: Entrance -> Top West -> West Room -> Middle Room -> East Room.
-Status: S1=OFF, S2=OFF (Turning ON), S3=OFF.
+Testing **[OFF, ON, OFF]**.
+- **State:** S1=OFF, S2=ON, S3=OFF.
+- **Hypothesis:** S2 ON opens West Connector (6,9). S1 OFF keeps East Connector (12,9) open.
+- **Route:** Enter West Room (via Top West) -> Check West Connector -> Cross to Middle -> Check East Connector -> Enter East Room.
