@@ -222,3 +222,4 @@
 - **Map vs. Tool:** If a pathfinding tool consistently reports 'No path found' on a visually simple map, do not immediately assume the tool is broken. The map layout itself may be deceptive. Use debug logging or manual movement to verify the raw traversability of the path before attempting to fix the tool.
 - **GENTLEMAN in Game Corner:** Mentioned teaching BLIZZARD to his POKéMON after getting enough coins, confirming TMs are available as prizes.
 - **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
+- **Phone Call (Youngster JOEY):** Called for a rematch on Route 30.
