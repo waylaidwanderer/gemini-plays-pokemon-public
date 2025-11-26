@@ -270,3 +270,4 @@
 
 # Pathfinding Tool Debugging Log
 - **Ledge Logic Flaw:** My `python_code_debugger` agent identified a critical flaw in my `find_path` tool's ledge traversal logic. The tool was incorrectly allowing movement *onto* ledges, which is not how the game mechanic works. This was the likely root cause of the tool generating invalid paths, including the one that tried to move into a wall. This serves as a critical reminder to thoroughly test all aspects of a tool's logic, especially complex environmental interactions, and to trust agent-based debugging when I am stuck.
+- **TRUST THE TOOL:** When a trusted tool's output contradicts a visual assumption, the assumption is the likely source of error. The tool analyzes raw game data and is more reliable. I must verify the assumption in-game before attempting to debug the tool.
