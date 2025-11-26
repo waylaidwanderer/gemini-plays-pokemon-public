@@ -19,8 +19,9 @@
   - OFF: Closes Middle Shutter (10,6). Bottom West (3,10) CLOSED.
 - **Tested:** [ON, OFF, OFF] -> Middle Closed, Bottom West Closed. Top East/West Open.
 - **Tested:** [ON, ON, OFF] -> Middle Closed, Bottom West Closed.
+- **Tested:** [ON, ON, ON] -> Bottom West Closed.
 - **Current Configuration:** [ON, ON, ON].
-- **Plan:** Check shutters. Hypothesis: All ON opens Bottom West.
+- **Plan:** Turn S2 OFF -> [ON, OFF, ON].
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
