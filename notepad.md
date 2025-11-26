@@ -221,3 +221,4 @@
 - **Phone Call (Hiker ANTHONY):** Called again to say there are 'tons of DUNSPARCE' in DARK CAVE, and that they are timid and not found near strong POKéMON.
 - **Tool Debugging Verification:** When debugging a tool that fails on a specific map, the final verification test for the fix MUST be performed on that same map. A fix for one scenario (e.g., ledges) may not address the root cause of failure in another scenario (e.g., a genuinely blocked path).
 - **Map vs. Tool:** If a pathfinding tool consistently reports 'No path found' on a visually simple map, do not immediately assume the tool is broken. The map layout itself may be deceptive. Use debug logging or manual movement to verify the raw traversability of the path before attempting to fix the tool.
+- **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
