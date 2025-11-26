@@ -1,4 +1,5 @@
 # Strategic Principles & Lessons Learned
+- **Execution Discipline (Tool Usage):** A tool is useless if not called. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent failure was caused by manually pressing buttons instead of calling the intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
 - **Pathing Around Off-Screen Objects:** When planning long paths that go off-screen, I must consult my map markers to manually account for known off-screen obstacles (like NPCs). My `find_path` tool is blind to off-screen objects, and relying on it alone for long paths will lead to interruptions.
 - **Tool Collision Logic:** A pathfinding tool's failure to account for all on-screen game objects (like NPCs) makes it unreliable. If a tool attempts to path through a visible obstacle, its object collision detection logic is flawed and must be debugged immediately. The `has_object` check is the likely point of failure.
 - **TRUST THE TOOL (Consolidated):** When a trusted tool's output (e.g., 'No path found') contradicts a visual assumption, the assumption is the likely source of error. The tool analyzes raw game data and is more reliable than my visual interpretation. I must verify the assumption in-game *before* attempting to debug a working tool. This lesson has been learned multiple times.
@@ -56,6 +57,8 @@
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
 - **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
+- **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
+- **Trust the Pathfinder:** When the `find_path` tool reports 'No path found,' the path is genuinely blocked. My own visual assessment can be flawed. I must trust the tool's analysis of the map data and immediately pivot my strategy instead of questioning the tool.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -231,5 +234,3 @@
 - **`select_move` Tool is CRITICALLY BROKEN.**
 - **Problem:** The tool fails to parse the move selection screen correctly due to repeated agent hallucinations about the UI layout (PP counts are on separate lines, not interleaved). Multiple agent-provided fixes have failed.
 - **Resolution:** The **NEXT** time I am in a battle and the move selection screen is visible, my absolute highest priority is to call `python_code_debugger` with a detailed bug report to get a working fix. This task supersedes winning the battle or any other action.
-- **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
-- **Trust the Pathfinder:** When the `find_path` tool reports 'No path found,' the path is genuinely blocked. My own visual assessment can be flawed. I must trust the tool's analysis of the map data and immediately pivot my strategy instead of questioning the tool.
