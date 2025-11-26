@@ -207,4 +207,5 @@
 - **[ON, OFF, OFF]**: Top East Open, Top West Open, Middle CLOSED, Bottom West CLOSED.
 - **[ON, ON, OFF]**: Middle CLOSED, Bottom West CLOSED.
 - **[ON, ON, ON]**: Bottom West CLOSED.
-- **[ON, OFF, ON]**: Current Test.
+- **[ON, OFF, ON]**: Top West OPEN. Bottom West (3,10) CLOSED. Connector (6,9) CLOSED.
+- **[OFF, ON, ON]**: Next Test (Aim: Open Connector 6,9 + Top West).
