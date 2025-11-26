@@ -246,3 +246,6 @@
 - **Confirm Screen is Clear:** After any interaction (NPC dialogue, shop menu, etc.), I must confirm the screen is clear of all text before attempting any movement. Lingering dialogue boxes will block movement and cause severe hallucinations about my position.
 - **Positional Hallucination Recovery:** A 'Position Mismatch' validation error signifies a critical failure in my situational awareness. I must immediately discard my current plan, re-verify my actual coordinates from the Game State Information, and formulate a new plan from scratch based on my true location. Acting on a hallucinated position is a guaranteed waste of a turn.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
+
+# NPC Dialogue
+- **LASS on Goldenrod Dept. Store 5F:** A lady gives away TMs on Sundays.
