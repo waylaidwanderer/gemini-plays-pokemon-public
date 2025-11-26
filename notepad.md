@@ -304,3 +304,6 @@
 
 # Strategic Principles & Lessons Learned
 - **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
+
+# Strategic Principles & Lessons Learned
+- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
