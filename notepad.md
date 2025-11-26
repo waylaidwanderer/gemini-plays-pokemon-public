@@ -202,3 +202,5 @@
 - **Solution:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
 - **Effect:** Opens East, Middle, and West Shutters.
 - [ON, ON, ON]: Middle Shutter (10,6) CLOSED.
+- Observation: Switch 1 OFF changed (12,8) and (12,9) from WALL to FLOOR. This opens the vertical divider between Middle and East sections.
+- Hypothesis: Switches might need to be OFF to open dividers/shutters.
