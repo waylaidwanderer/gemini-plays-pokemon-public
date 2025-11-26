@@ -27,7 +27,7 @@
 - **Switch 2:** OFF = Middle Shutter (10,6) Closed. ON = Middle Shutter (10,6) OPEN.
 - **Switch 3:** OFF = West Shutter Open / East Divider Closed. ON = West Shutter Closed / East Divider Open.
 - **Interaction:** S2 ON closes East Shutter even if S1 is OFF.
-- **Current Status:** [OFF, ON, OFF]. Middle Path blocked at (10,10). East Shutter Closed. Plan: Turn S2 OFF to open East Path.
+- **Current Status:** [OFF, OFF, OFF]. Testing East Shutter at (12, 9). Expecting it to be OPEN.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
