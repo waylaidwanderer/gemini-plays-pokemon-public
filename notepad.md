@@ -215,3 +215,5 @@
 - **[ON, ON, ON]**: Bottom Middle (10,10) CLOSED. West Connector (6,9) OPEN. Top Middle (10,6) OPEN.
 **Lesson:** `sequence_press` tool requires `autopress_buttons: true` to work.
 **Next Test:** [OFF, ON, ON] (Turn S1 OFF).
+- **[ON, ON, ON]**: Bottom West (3,10) CLOSED. Bottom Middle (10,10) CLOSED. West Connector (6,9) OPEN.
+**Next Test:** [OFF, ON, ON] (Turn S1 OFF).
