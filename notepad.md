@@ -201,3 +201,5 @@
 - [ON, ON, ON]: Middle Shutter (10,6) CLOSED.
 - Observation: Switch 1 OFF changed (12,8) and (12,9) from WALL to FLOOR. This opens the vertical divider between Middle and East sections.
 - Hypothesis: Switches might need to be OFF to open dividers/shutters.
+- Observation: West Inner Door (2,10) is CLOSED with Switch 3 OFF.
+- Plan: Checking East Inner Door (18,10) with Switch 1 OFF.
