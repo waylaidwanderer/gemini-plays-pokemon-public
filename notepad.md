@@ -7,22 +7,19 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-### Master Switch Logic (Consolidated)
-- **Goal:** Open Bottom East Shutter (16,10) to reach Emergency Switch.
-- **Switch 1 (East):** MASTER for East side.
-  - **ON:** Opens Top East Shutter (16,6).
-  - **OFF:** Closes Top East Shutter (16,6) [TRAP].
-- **Switch 3 (West):** Controls Top West Shutter (3,6).
-  - **OFF:** Top West OPEN.
-  - **ON:** Top West CLOSED.
-- **Switch 2 (Middle):** Dependency unclear. S2 ON + S3 OFF did NOT open Middle Shutter.
-- **Configurations Tested:**
-  - [ON, OFF, OFF]: Top East OPEN, Top West OPEN. Bottom East CLOSED.
-  - [OFF, OFF, OFF]: TRAP (Top East Closed).
-  - [ON, OFF, ON]: Top East OPEN, Top West CLOSED. Bottom East CLOSED.
-  - [ON, ON, OFF]: Middle Shutter CLOSED.
-  - [ON, ON, ON]: Testing Now.
-- **Goal:** Open Bottom East Shutter (16,10).
+
+### Switch Puzzle Analysis
+**Goal:** Open Bottom East Shutter (16,10).
+**Current State:** [ON, ON, ON] -> Bottom East CLOSED.
+**Key Findings:**
+1. **Switch 1 (East):** MASTER. Must be **ON** to open Top East Shutter (16,6). Turning OFF is a trap.
+2. **Switch 3 (West):** Controls Top West (3,6). **OFF** = Open, **ON** = Closed.
+3. **Linkage:** Turning S3 ON **automatically turns S2 ON**.
+**Tested Configurations:**
+- [ON, OFF, OFF]: Top East Open, Top West Open. Bottom East Closed.
+- [ON, OFF, ON]: Top East Open, Top West Closed. Bottom East Closed.
+- [ON, ON, ON]: Top East Open, Top West Closed. Bottom East Closed.
+**Hypothesis:** The solution is likely **[ON, ON, OFF]**. I need to verify if turning S3 OFF leaves S2 ON.
 - **Goal:** Reach Emergency Switch (20,11) in East Room.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
