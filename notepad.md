@@ -8,19 +8,20 @@
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
 ### Master Switch Logic (Consolidated)
-- **Switch 1 (East Control):**
-  - ON: Opens Top East Shutter (16,6).
-  - OFF: Closes Top East Shutter (16,6) [TRAP]. Opens West Connector (6,9). Closes East Connector (12,9).
-- **Switch 2 (Middle Control):**
-  - ON: Opens Middle Shutter (10,6).
-  - OFF: Closes Middle Shutter.
-- **Switch 3 (West Control):**
-  - ON: Opens Top West Shutter (3,6).
-  - OFF: Closes Middle Shutter (10,6). Bottom West (3,10) CLOSED.
-- **Tested Configurations:**
-  - [ON, OFF, OFF]: Top East/West OPEN. Middle/Bottom West CLOSED.
-  - [ON, ON, OFF]: Testing Now.
-  - [ON, OFF, ON]: FAILED (Unstable).
+- **Goal:** Open Bottom East Shutter (16,10) to reach Emergency Switch.
+- **Switch 1 (East):** MASTER for East side.
+  - **ON:** Opens Top East Shutter (16,6).
+  - **OFF:** Closes Top East Shutter (16,6) [TRAP].
+- **Switch 3 (West):** Controls Top West Shutter (3,6).
+  - **OFF:** Top West OPEN.
+  - **ON:** Top West CLOSED.
+- **Switch 2 (Middle):** Dependency unclear. S2 ON + S3 OFF did NOT open Middle Shutter.
+- **Configurations Tested:**
+  - [ON, OFF, OFF]: Top East OPEN, Top West OPEN. Bottom East CLOSED.
+  - [OFF, OFF, OFF]: TRAP (Top East Closed).
+  - [ON, OFF, ON]: Top East OPEN, Top West CLOSED. Bottom East CLOSED.
+  - [ON, ON, OFF]: Middle Shutter CLOSED.
+  - [ON, ON, ON]: Testing Now.
 - **Goal:** Open Bottom East Shutter (16,10).
 - **Goal:** Reach Emergency Switch (20,11) in East Room.
 - **Team Status:** Full Health. Paprika (149/149).
