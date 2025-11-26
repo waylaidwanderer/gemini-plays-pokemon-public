@@ -23,7 +23,7 @@
 | OFF | ON | ON | CLOSED | ? | CLOSED | ? | ? | |
 | OFF | ON | OFF | ? | CLOSED | OPEN | ? | CLOSED | West Conn Closed |
 | OFF | OFF | OFF | CLOSED | CLOSED | OPEN | ? | ? | West Room Dead End |
-| OFF | OFF | ON | ? | ? | ? | ? | ? | Current Test |
+| OFF | OFF | ON | ? | ? | ? | ? | ? | Testing Bottom West |
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
