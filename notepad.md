@@ -55,7 +55,6 @@
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
-- **Pathing Around Off-Screen Objects:** When planning long paths that go off-screen, I must consult my map markers to manually account for known off-screen obstacles (like NPCs). My `find_path` tool is blind to off-screen objects, and relying on it alone for long paths will lead to interruptions.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -133,6 +132,9 @@
 - **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
 - **Tool Logic Consistency:** When debugging, ensure that fixes are applied consistently across all relevant parts of the code. My `find_path` tool failed repeatedly because I fixed an 'unseen' tile check in one part of the algorithm but missed an identical flaw in another. A partial fix is not a fix.
 - **SUPER_NERD**: Impassable NPC, functions as a wall.
+- **`stun_npc` Tool:** The `stun_npc` tool can be effective for freezing moving NPCs to clear a path, as demonstrated with the Lass in Goldenrod City. While a previous attempt seemed to fail, this successful use case confirms its utility. It should be used proactively to prevent pathing interruptions.
+- **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
+- **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
@@ -213,6 +215,3 @@
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
 - When a pathfinding tool reports 'No path found' multiple times, even after attempting to reset the map state (like leaving and re-entering), the path is genuinely blocked. Do not get stuck in a loop of re-attempting the same path. Pivot to a new target or strategy.
 - Double-check tool outputs. A quick glance can lead to misinterpreting success as failure, wasting turns on flawed assumptions.
-- **Tool Unreliability:** The built-in `stun_npc` tool is unreliable. It may report success (e.g., 'Sprite stopped') while the NPC continues to move in-game. Avoid using it until its behavior is better understood.
-- **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
-- **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
