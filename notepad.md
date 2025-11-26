@@ -14,21 +14,14 @@
 **Goal:** Open Path South (Inner Shutter 16,10 or Bottom Middle 10,10).
 
 **Verified States:**
-1. **[OFF, OFF, ON] (Verified):**
-   - **OPEN:** Top West Shutter (3,6).
-   - **CLOSED:** Top East (16,6), Bottom West (3,10), West Connector (6,9), Top Middle (10,6), Bottom Middle (10,10), Inner Shutter (16,10).
-   - **Note:** Discovered Switch 1 was OFF during this observation.
+1. **[OFF, OFF, ON]:** Top West OPEN. Top East, West Connector, Bottom West CLOSED.
+2. **[ON, OFF, ON]:** Top West OPEN. Top East, West Connector, Bottom West CLOSED.
+3. **[ON, OFF, OFF]:** Testing next. Hypothesis: Opens Bottom East.
 
-2. **[ON, OFF, ON] (Pending Verification):**
-   - Testing now.
-2. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED.
-3. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South Shutters CLOSED.
-4. **[ON, ON, ON]:** Top West OPEN. South Shutters CLOSED.
-5. **[OFF, ON, OFF]:** West Connector OPEN. Top West CLOSED.
-6. **[OFF, ON, ON]:** West Connector CLOSED. Top West CLOSED.
-
-**Untested:**
-- **[OFF, OFF, ON]:** (S1 OFF, S2 OFF, S3 ON). Potential solution for East side?
+**Historical Notes (May need re-verification):**
+- [ON, ON, OFF]: Top Middle & East Connector OPEN.
+- [OFF, ON, OFF]: West Connector OPEN.
+- [OFF, ON, ON]: West Connector CLOSED.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
