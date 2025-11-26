@@ -184,24 +184,26 @@
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 
 ### Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Open Inner Shutter (16,10) or Bottom Middle (10,10).
-**Observed Logic:**
-- **Switch 1 (East):**
-  - **ON:** Opens Top Middle Shutter (10,6). Opens (6,8). **CLOSES** path to East Connector at (12,8).
-- **Switch 2 (Middle):**
-  - **ON:** Combined with S3 OFF = Top West OPEN. S1 ON + S2 ON = Top Middle OPEN.
-- **Switch 3 (West):**
-  - **ON:** Combined with S2 OFF = West Connector OPEN.
+**Goal:** Open Path South (Bottom West 3,10 / Bottom Middle 10,10 / Inner Shutter 16,10).
 
-**Verified States (S1, S2, S3):**
-- **[ON, ON, OFF]:** Top Middle OPEN. Top East CLOSED. (12,8) CLOSED.
-- **[ON, OFF, OFF]:** Top East CLOSED. Top Middle CLOSED. West Conn CLOSED.
-- **[OFF, ON, OFF]:** Top West CLOSED. West Conn OPEN. (Verified Turn 9437)
-- **[OFF, ON, ON]:** Top West OPEN. Top Middle CLOSED. West Conn CLOSED.
-- **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN.
+**Verified Logic & States:**
+1. **[ON, ON, OFF] (Current):** 
+   - Top Middle (10,6): OPEN (Verified).
+   - West Connector (6,9): Likely OPEN.
+   - Top East (16,6): CLOSED.
+   - East Connector (12,8): CLOSED.
+2. **[OFF, ON, OFF]:**
+   - Top West (3,6): CLOSED.
+   - West Connector (6,9): OPEN.
+   - Top Middle (10,6): OPEN (Deduced from XML).
+3. **[OFF, ON, ON]:**
+   - Top West (3,6): CLOSED.
+   - West Connector (6,9): CLOSED.
+4. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
+5. **[ON, OFF, OFF]:** Top East CLOSED.
 
-**Current Strategy:**
-Testing **[OFF, ON, OFF]**.
-- **State:** S1=OFF, S2=ON, S3=OFF.
-- **Hypothesis:** S2 ON opens West Connector (6,9). S1 OFF keeps East Connector (12,9) open.
-- **Route:** Enter West Room (via Top West) -> Check West Connector -> Cross to Middle -> Check East Connector -> Enter East Room.
+**Current Plan:**
+1. Verify Top Middle is OPEN.
+2. Enter Middle Room.
+3. Cross West Connector (6,9) to West Room.
+4. Inspect Bottom West Shutter (3,10).
