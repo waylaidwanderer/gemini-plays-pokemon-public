@@ -211,3 +211,5 @@
 - When a pathfinding tool reports 'No path found' multiple times, even after attempting to reset the map state (like leaving and re-entering), the path is genuinely blocked. Do not get stuck in a loop of re-attempting the same path. Pivot to a new target or strategy.
 - Double-check tool outputs. A quick glance can lead to misinterpreting success as failure, wasting turns on flawed assumptions.
 - **Tool Unreliability:** The built-in `stun_npc` tool is unreliable. It may report success (e.g., 'Sprite stopped') while the NPC continues to move in-game. Avoid using it until its behavior is better understood.
+- **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
+- **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
