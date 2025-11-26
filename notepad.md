@@ -184,24 +184,24 @@
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 
 ### Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
-**Mechanics Observed:**
-- **S1 (East):** ON=Top East Open. OFF=East Connector Open (Hypothesis).
-- **S2 (Middle):** ON=Top Middle Open & Top West Open. OFF=Bottom Shutters Open (Hypothesis).
-- **S3 (West):** ON=West Connector Open (Verified for [OFF, OFF, ON] but CLOSED for [OFF, ON, ON]).
+**Goal:** Open Inner Shutter (16,10) or Bottom Middle (10,10).
+**Observed Logic:**
+- **Switch 1 (East):**
+  - **ON:** Opens Top Middle Shutter (10,6). Opens (6,8). **CLOSES** path to East Connector at (12,8).
+  - **OFF:** Necessary for East Connector access?
+- **Switch 2 (Middle):**
+  - **ON:** Combined with S3 OFF = Top West OPEN.
+- **Switch 3 (West):**
+  - **ON:** Combined with S2 OFF = West Connector OPEN.
+  - **ON + S2 ON:** West Connector CLOSED.
 
-**Verified Configurations (S1, S2, S3):**
-- **[ON, OFF, OFF]:** Top East OPEN. Inner CLOSED. West Conn OPEN. East Conn CLOSED.
-- **[ON, ON, OFF]:** Top East OPEN. Inner CLOSED.
-- **[ON, ON, ON]:** Top Middle OPEN. West Conn OPEN. Bottoms CLOSED.
-- **[ON, OFF, ON]:** Top East CLOSED. Lockout from North.
-- **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN. Bottom Middle CLOSED.
-- **[OFF, ON, ON]:** Top West OPEN. West Conn CLOSED (Dead End). Top Middle OPEN.
-**Tested Configs:**
-- **[OFF, ON, OFF]**: Top West Open. West Conn OPEN. East Conn CLOSED. Trapped in Middle Room.
-- **[OFF, ON, ON]**: Top West OPEN. Top Middle CLOSED. West Connector (6,9) OPEN. East Connector (12,9) CLOSED. Plan: Enter Top West -> West Connector -> Middle Room -> Search for Lower East Connector.
-**Next Step:** Retry [OFF, ON, ON] and explore East Room fully.
-**PUZZLE CORRECTION:**
-- [OFF, ON, ON] results in Top Middle CLOSED (Verified Turn 9331). Previous entry saying it was OPEN was an error.
-- S3 Logic: ON + S2 OFF = West Conn OPEN. ON + S2 ON = West Conn CLOSED.
-- **Observation (Turn 9403):** S1 ON caused Top Middle Shutter (10,6-7, 11,6-7) to OPEN. Also caused (6,8) to OPEN (WALL->FLOOR) and (12,8) to CLOSE (FLOOR->WALL). This implies S1 ON might block the direct path to the East Connector at (12,9) from the north.
+**Verified States (S1, S2, S3):**
+- **[ON, ON, OFF]:** Top Middle OPEN. (12,8) CLOSED. Top East CLOSED.
+- **[OFF, ON, OFF]:** Top West OPEN. West Conn OPEN. East Conn CLOSED.
+- **[OFF, ON, ON]:** Top West OPEN. Top Middle CLOSED. West Conn CLOSED.
+- **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN.
+
+**Current Strategy:**
+Testing **[ON, OFF, OFF]**. 
+Hypothesis: S1 ON + S2 OFF might open Top East.
+Status: S1=ON, S2=OFF (Pending), S3=OFF.
