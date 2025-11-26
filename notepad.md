@@ -295,3 +295,7 @@
 
 # Evolution Methods
 - Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
+
+# Strategic Principles & Lessons Learned
+- **TRUST THE TOOL:** When a trusted tool's output contradicts a visual assumption (e.g., 'No path found' on a seemingly open path), the assumption is the likely source of error. The tool analyzes raw game data and is more reliable. I must verify the assumption in-game before attempting to debug the tool.
+- **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
