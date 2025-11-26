@@ -52,6 +52,8 @@
 - **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
 - **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
+- **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
+- **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -65,6 +67,7 @@
 - **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown.
+- **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -156,12 +159,12 @@
     - Juggler IRWIN called to introduce himself, wants to be friends.
 - **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
 - **POKEFAN_F in Bill's House (Goldenrod):** Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
+- **LASS on Goldenrod Dept. Store 5F:** A lady gives away TMs on Sundays.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
 
 # Puzzle Solutions
-
 ## Azalea Gym
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
@@ -180,40 +183,9 @@
 # Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
-# Goldenrod Department Store Directory
-- 1F: SERVICE COUNTER
-- 2F: TRAINER'S MARKET
-- 3F: BATTLE COLLECTION
-- 4F: MEDICINE BOX
-- 5F: TM CORNER
-- 6F: TRANQUIL SQUARE
-- ROOFTOP LOOKOUT
-
-## Goldenrod Dept. Store B1F Box Puzzle Log
-- **Hypothesis 1:** The puzzle solution involves interacting with the Machop at (7, 7).
-  - **Test:** Path to (6, 7) and press 'A' on the Machop.
-  - **Result:** Machop gave dialogue ("MACHOKE: Maaacho!") but the map layout did not change. Path to the item at (14, 2) remained blocked.
-  - **Conclusion:** Hypothesis failed. Simple interaction with the Machop is not the solution.
-- **Hypothesis 2:** Interacting with the static Black Belt at (4, 8) will solve the puzzle, based on his dialogue about being watched.
-  - **Test:** Path to (5, 8), face left, and press 'A'.
-  - **Result:** Black Belt gave new dialogue ("Come on, kid, scoot!"). Map layout did not change immediately.
-  - **Conclusion:** Interaction is a necessary step, but not the complete solution. The next step is to follow his instruction to "scoot."
-- **Hypothesis 3 (Agent):** Defeating the moving Black Belt at (9, 11) is the trigger.
-  - **Test 1:** Walk into his line of sight.
-  - **Result:** No battle triggered. He moved past me.
-  - **Conclusion:** Hypothesis sub-test failed. Line of sight is not the trigger.
-- **Hypothesis 3 (Agent):** Defeating the moving Black Belt at (9, 11) is the trigger.
-  - **Test 2:** Interact with him directly.
-  - **Result:** Confirmed! Interaction triggered dialogue ("Hey, kid! You're holding us up!") and caused the map layout to change, opening the path to the east.
-  - **Conclusion:** The puzzle is solved by a sequence of interactions and movement.
-- **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
-- **Tool Logic Consistency:** When writing tool scripts, ensure that data comparisons (like finding list indices) are performed using a single, consistent frame of reference. Using different versions of a list (e.g., one with a cursor marker and one without) for the same logical operation can lead to subtle, hard-to-diagnose bugs. This was the root cause of the `select_move` tool failure.
-
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
-- **Conclusion:** My Onix (Rocky) is NOT in the PC. My memory was a hallucination based on the Pokedex entry. My new plan is to travel to Union Cave to catch a Geodude as a replacement counter for Whitney.
-- **VERIFY PARTY/PC STATUS:** Before using the PC to deposit or withdraw a Pokémon, I must first verify the current composition of both my party and the relevant PC box to prevent hallucinations and wasted actions based on a faulty internal state.
 
 # Azalea Town Investigation Log
 - **Hypothesis 1:** The Team Rocket Grunt at the Slowpoke Well is the story trigger.
@@ -236,16 +208,3 @@
   - **Test:** Talk to the Youngster.
   - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
-- **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
-- **Pathfinding Tool Debugging Log:** My `python_code_debugger` agent identified a critical flaw in my `find_path` tool's ledge traversal logic. The tool was incorrectly allowing movement *onto* ledges, which is not how the game mechanic works. This was the likely root cause of the tool generating invalid paths, including the one that tried to move into a wall. This serves as a critical reminder to thoroughly test all aspects of a tool's logic, especially complex environmental interactions, and to trust agent-based debugging when I am stuck.
-- **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
-- **UI Parsing Debugging:** When debugging a UI parsing tool, the root cause of repeated failures is often a flawed assumption about the UI's structure or the raw input data (e.g., how newlines are represented). Use debug logs to verify the raw input and confirm the parsing logic matches the actual text.
-- **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
-- **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
-- **Notepad Overwrite Threshold:** The `overwrite` action has a 20% net loss threshold to prevent accidental data deletion. Major refactoring must be done in smaller, incremental `replace` actions.
-- **Confirm Screen is Clear:** After any interaction (NPC dialogue, shop menu, etc.), I must confirm the screen is clear of all text before attempting any movement. Lingering dialogue boxes will block movement and cause severe hallucinations about my position.
-- **Positional Hallucination Recovery:** A 'Position Mismatch' validation error signifies a critical failure in my situational awareness. I must immediately discard my current plan, re-verify my actual coordinates from the Game State Information, and formulate a new plan from scratch based on my true location. Acting on a hallucinated position is a guaranteed waste of a turn.
-- **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
-
-# NPC Dialogue
-- **LASS on Goldenrod Dept. Store 5F:** A lady gives away TMs on Sundays.
