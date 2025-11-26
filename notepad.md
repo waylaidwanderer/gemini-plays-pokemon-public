@@ -161,7 +161,6 @@
 - **Phone Calls:**
     - Youngster JOEY called for a rematch on Route 30.
     - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE.
-    - Juggler IRWIN called to introduce himself, wants to be friends.
 - **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
 - **POKEFAN_F in Bill's House (Goldenrod):** Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
 - **LASS on Goldenrod Dept. Store 5F:** A lady gives away TMs on Sundays.
@@ -221,6 +220,5 @@
 - **Phone Call (Hiker ANTHONY):** Called again to say there are 'tons of DUNSPARCE' in DARK CAVE, and that they are timid and not found near strong POKéMON.
 - **Tool Debugging Verification:** When debugging a tool that fails on a specific map, the final verification test for the fix MUST be performed on that same map. A fix for one scenario (e.g., ledges) may not address the root cause of failure in another scenario (e.g., a genuinely blocked path).
 - **Map vs. Tool:** If a pathfinding tool consistently reports 'No path found' on a visually simple map, do not immediately assume the tool is broken. The map layout itself may be deceptive. Use debug logging or manual movement to verify the raw traversability of the path before attempting to fix the tool.
-- **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
 - **GENTLEMAN in Game Corner:** Mentioned teaching BLIZZARD to his POKéMON after getting enough coins, confirming TMs are available as prizes.
 - **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
