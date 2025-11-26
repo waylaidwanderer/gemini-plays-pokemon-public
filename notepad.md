@@ -293,3 +293,6 @@
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+
+# Evolution Methods
+- Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
