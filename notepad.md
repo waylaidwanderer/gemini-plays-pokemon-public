@@ -23,9 +23,11 @@
    - OFF keeps Top East Shutter OPEN (if S1 is ON).
 
 **Solution Strategy:**
-- **Target Config:** [ON, OFF, ON].
-- **Execution Order:** Turn S3 ON (Forces S2 ON) -> Manually turn S2 OFF.
-- **Status:** Execution complete. Now verifying shutter access.
+- **New Insight:** West Room Warps lead to Warehouse (GOAL). East Room Warps lead to City (EXIT).
+- **Plan:** Enter West Room via Top West Shutter (3,6). Proceed South to Warehouse.
+- **Switch Logic:** S3 OFF opens Top West Shutter.
+- **Current Config:** [ON, OFF, ON].
+- **Next Step:** Turn S3 OFF.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
