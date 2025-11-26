@@ -58,6 +58,7 @@
 - **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
 - **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
 - **Trust the Pathfinder:** When the `find_path` tool reports 'No path found,' the path is genuinely blocked. My own visual assessment can be flawed. I must trust the tool's analysis of the map data and immediately pivot my strategy instead of questioning the tool.
+- **`select_move` Workflow:** The tool's logic for calculating button presses is correct, but the `autopress_buttons` feature is unreliable due to game engine timing. The correct and verified workflow is: 1. Call the tool with `autopress_buttons: false`. 2. Manually input the button presses returned by the tool. 3. Press 'A' in the next turn to execute the move.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -71,7 +72,7 @@
 - **CRITICAL DATA VERIFICATION:** My memory of game mechanics or map layouts can be flawed. I must always trust the raw Game State Information (Map Memory, Map Events) over my own assumptions. If a plan fails, the first step is to re-verify all assumptions against the game data.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown.
-- **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
+- **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -193,8 +194,3 @@
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
-
-# High-Priority Task: Tool Repair
-- **`select_move` Tool is CRITICALLY BROKEN (AGAIN).**
-- **Problem:** The tool returned an empty list during the last battle, indicating a parsing failure. The logic does not account for the `│   │` characters at the start of the move lines, causing the move name matching to fail.
-- **Resolution:** The **NEXT** time I am in a battle and the move selection screen is visible, my absolute highest priority is to call `python_code_debugger` with the broken script and a detailed bug report to get a working fix. This task supersedes winning the battle.

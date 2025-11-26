@@ -603,7 +603,7 @@
         "current_screen_text"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef select_move_logic(current_screen_text, move_to_select):\n    lines = current_screen_text.split('\\n')\n    cursor_line_index = -1\n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_line_index = i\n            break\n    if cursor_line_index == -1:\n        return []\n    move_lines = []\n    current_move_index = -1\n    for i in range(4):\n        start_index = cursor_line_index - i\n        if start_index >= 0 and start_index + 4 <= len(lines):\n            candidate_window = lines[start_index : start_index + 4]\n            if \"\".join(candidate_window).count('▶') == 1:\n                move_lines = candidate_window\n                current_move_index = i\n                break\n    if not move_lines:\n        return []\n    moves = []\n    for line in move_lines:\n        match = re.search(r'([A-Z][A-Z -]*)', line)\n        if match:\n            move_name = match.group(1).strip()\n            moves.append(move_name)\n\n    try:\n        target_move_index = -1\n        for i, move in enumerate(moves):\n            if move.lower() == move_to_select.lower():\n                target_move_index = i\n                break\n        if target_move_index == -1:\n            raise ValueError(\"Target move not found in the list.\")\n    except ValueError:\n        return []\n    moves_to_make = target_move_index - current_move_index\n    button_presses = []\n    if moves_to_make > 0:\n        button_presses.extend(['Down'] * moves_to_make)\n    elif moves_to_make < 0:\n        button_presses.extend(['Up'] * abs(moves_to_make))\n    return button_presses\n\nresult = select_move_logic(input_data['current_screen_text'], input_data['move_to_select'])\nprint(json.dumps(result))",
+    "python_script": "import re\nimport json\nimport sys\n\ndef select_move_logic(current_screen_text, move_to_select):\n    lines = current_screen_text.split('\\n')\n    cursor_line_index = -1\n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_line_index = i\n            break\n    if cursor_line_index == -1:\n        print(json.dumps([]))\n        return\n\n    move_lines = []\n    current_move_index = -1\n    for i in range(4):\n        start_index = cursor_line_index - i\n        if start_index >= 0 and start_index + 4 <= len(lines):\n            candidate_window = lines[start_index : start_index + 4]\n            # A valid move block should contain exactly one cursor\n            if \"\".join(candidate_window).count('▶') == 1:\n                move_lines = candidate_window\n                current_move_index = i\n                break\n    \n    if not move_lines:\n        print(json.dumps([]))\n        return\n\n    moves = []\n    for line in move_lines:\n        # Strip trailing UI characters before the regex search\n        cleaned_line = line.strip().rstrip('│')\n        match = re.search(r'([A-Z][A-Z -]+)$', cleaned_line)\n        if match:\n            move_name = match.group(1).strip()\n            moves.append(move_name)\n\n    try:\n        target_move_index = moves.index(move_to_select.upper())\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    moves_to_make = target_move_index - current_move_index\n    button_presses = []\n    if moves_to_make > 0:\n        for _ in range(moves_to_make):\n            button_presses.extend(['Down', 'sleep 250'])\n    elif moves_to_make < 0:\n        for _ in range(abs(moves_to_make)):\n            button_presses.extend(['Up', 'sleep 250'])\n    \n    print(json.dumps(button_presses))\n\nselect_move_logic(input_data['current_screen_text'], input_data['move_to_select'])",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -939,6 +939,31 @@
         "commit_message": "fix: Overhaul parsing logic with regex via python_code_debugger. The agent identified that the previous parsing logic was brittle and failed because it did not account for UI formatting characters like '│'. This new version uses a regular expression to robustly extract only the move name from the start of the line, resolving the critical parsing failure and making the tool reliable.",
         "timestamp": "2025-11-26T21:56:04.173Z",
         "action_counter": 18799
+      },
+      {
+        "commit_message": "fix: Overhaul regex for robust move parsing via python_code_debugger. The agent identified that the previous regex was too simple and failed to handle UI formatting characters like '│'. This new version uses a more specific regex (`r'([A-Z][A-Z -]+)$'`) anchored to the end of the stripped line, ensuring it correctly isolates the move name regardless of preceding UI elements. This resolves the critical parsing failure.",
+        "timestamp": "2025-11-26T22:06:20.621Z",
+        "action_counter": 18820
+      },
+      {
+        "commit_message": "fix: Add sleep commands to prevent dropped inputs. The tool was failing because the game engine was not registering rapid directional presses. This commit adds a 250ms sleep after each 'Up' or 'Down' command to ensure each input is reliably registered, resolving the critical selection failure.",
+        "timestamp": "2025-11-26T22:11:08.019Z",
+        "action_counter": 18830
+      },
+      {
+        "commit_message": "refactor: Add extensive debug logging to stderr. The tool is catastrophically failing to select the correct move, indicating a deep logic or timing flaw that previous fixes have not addressed. This commit adds comprehensive print statements to stderr to trace the entire execution flow, including line parsing, move block identification, cursor and target index calculation, and the final generated button sequence. This will provide the necessary data to diagnose the root cause of the failure without corrupting the JSON output to stdout.",
+        "timestamp": "2025-11-26T22:15:04.277Z",
+        "action_counter": 18838
+      },
+      {
+        "commit_message": "fix: Correct parsing by stripping trailing UI characters. The debug logs revealed that the regex was failing because the `line.strip()` method did not remove the trailing '│' character from the move lines. This commit adds `.rstrip('│')` to the cleaning process, ensuring the regex anchor `$` can correctly match the move name at the end of the string. This resolves the critical parsing failure.",
+        "timestamp": "2025-11-26T22:16:08.915Z",
+        "action_counter": 18841
+      },
+      {
+        "commit_message": "refactor: Remove all debug logging. The tool's logic is confirmed correct, but the `autopress_buttons` feature is unreliable. This commit removes all debug prints to stderr to restore the tool to a clean, production-ready state for its new operational procedure where the user executes the generated button presses manually.",
+        "timestamp": "2025-11-26T22:22:26.583Z",
+        "action_counter": 18854
       }
     ]
   },
