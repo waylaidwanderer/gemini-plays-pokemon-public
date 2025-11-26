@@ -5,11 +5,27 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground (Switch Room).
-- **Objective:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
-- **Current Switch State:** [ON, OFF, ON] (S1, S2(Unverified), S3).
-- **Observations:** [ON, OFF, OFF] -> Top East & East Connector OPEN. South Shutters CLOSED.
-- **Immediate Task:** Verify if S3 turned S2 ON (Linkage). Then check shutters.
+- **Location:** Goldenrod Underground (Behind Counters).
+- **Objective:** Find Director or Key Items. Return to Switch Room if dead end.
+- **Current Switch State:** [ON, OFF, ON] (S1, S2, S3).
+- **Key Finding:** This state opens the path to the West Room South, but it appeared to be a dead end. Re-investigation required.
+
+## Switch Puzzle Analysis (Goldenrod Underground)
+**Goal:** Open Path South (Inner Shutter 16,10 or Bottom Middle 10,10).
+
+**Verified States:**
+1. **[ON, OFF, ON] (Current):**
+   - **OPEN:** Top Middle (10,6), Top East (16,6), West Connector (6,9), Bottom West Shutter (3,10).
+   - **CLOSED:** Bottom Middle (10,10), Inner Shutter (16,10).
+   - **Result:** Access to West Room South (Dead End?).
+2. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED.
+3. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South Shutters CLOSED.
+4. **[ON, ON, ON]:** Top West OPEN. South Shutters CLOSED.
+5. **[OFF, ON, OFF]:** West Connector OPEN. Top West CLOSED.
+6. **[OFF, ON, ON]:** West Connector CLOSED. Top West CLOSED.
+
+**Untested:**
+- **[OFF, OFF, ON]:** (S1 OFF, S2 OFF, S3 ON). Potential solution for East side?
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
@@ -183,22 +199,3 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-
-### Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Open Path South (Bottom West 3,10 / Bottom Middle 10,10 / Inner Shutter 16,10).
-
-**Verified Logic & States:**
-- **Linkage S3->S2:** FALSE (Verified Independent).
-1. **[ON, ON, ON]:** Top West OPEN. South CLOSED.
-2. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South CLOSED.
-3. **[OFF, ON, OFF]:** West Connector OPEN. Top West CLOSED.
-4. **[ON, OFF, OFF]:** Top East & East Connector OPEN. Inner Shutter CLOSED.
-5. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
-6. **[ON, OFF, ON]:** Top Middle & Top East & West Connector OPEN. Inner Shutter CLOSED.
-
-**Current State:** [ON, OFF, ON] (S1=ON, S2=OFF, S3=ON).
-**Result:** This configuration OPENS the Bottom West Shutter (3,10).
-
-**Current Plan:**
-1. Proceed South through the open Bottom West Shutter.
-2. Locate the Director or Key Items.
