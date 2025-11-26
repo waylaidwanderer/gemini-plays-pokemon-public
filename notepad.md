@@ -282,3 +282,4 @@
 
 # Route 34 Gatehouse
 - A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
+- **Phone Call:** Hiker ANTHONY called for a rematch on Route 33.
