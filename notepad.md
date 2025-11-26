@@ -32,12 +32,10 @@
    - ON: Closes Top East Shutter (16,6).
 
 **Solution Strategy:**
-- **Status:** SOLVED (Entrance).
-- **Configuration:** [OFF, OFF, ON] (S1 OFF, S2 OFF, S3 ON).
-- **Result:** Opens Top West Shutter (3,6).
-- **Next Step:** Proceed through West Room. Check Bottom West Shutter (3,10).
-- **Team Status:** Full Health. Paprika (149/149).
-- **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
+- **Status:** Testing [OFF, OFF, ON].
+- **Hypothesis:** S3 ON opens West Connector (if S2 OFF). Need to check Bottom Middle Shutter.
+- **Mechanics Update:** S2 ON closes West Connector (Override). S3 ON required for West Connector.
+- **Next Step:** Turn S3 ON, check West Connector (6,9) and Bottom Middle (10,10).
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
