@@ -203,7 +203,7 @@
 - **Switch 1:** OFF = East Shutter (12,9) OPEN (Verified). ON = Closed.
 - **Switch 2:** Controls Middle Shutter (10,6). Expect ON to OPEN.
 - **Switch 3:** Toggles West/East Dividers.
-- **Current Status:** Testing [ON, ON, ON].
+- **Current Status:** Testing Switch 1 OFF.
+  - Verified [ON, ON, ON] blocks (16,10) and (3,6).
   - Verified [ON, OFF, OFF] blocks (16,10).
-  - Verified [ON, OFF, ON] blocks (16,10).
-  - Plan: Turn S3 ON, then S2 ON.
+  - Hypothesis: S1 ON blocks progress. Testing S1 OFF to achieve [OFF, ON, ON].
