@@ -52,6 +52,7 @@
 - **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
 - **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
+- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -119,13 +120,14 @@
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-- **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
-- **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
-- **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
 - **FLOWER**: Fully traversable decorative tile.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
+- **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
+- **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
+- **Verify Warp Coordinates:** Before setting a navigation goal that is a warp, I must verify its existence and coordinates in the 'Map Events -> Warps' list for the current map to avoid hallucinations and failed pathing.
+- **Tool Logic Consistency:** When debugging, ensure that fixes are applied consistently across all relevant parts of the code. My `find_path` tool failed repeatedly because I fixed an 'unseen' tile check in one part of the algorithm but missed an identical flaw in another. A partial fix is not a fix.
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
@@ -153,6 +155,8 @@
     - Youngster JOEY called for a rematch on Route 30.
     - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE.
     - Juggler IRWIN called to introduce himself, wants to be friends.
+- **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
+- **POKEFAN_F in Bill's House (Goldenrod):** Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -234,41 +238,9 @@
   - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
 - **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
-- **FLOWER**: Fully traversable decorative tile.
-- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
-- **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate.
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
-- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-- **Tool Logic Consistency:** When debugging, ensure that fixes are applied consistently across all relevant parts of the code. My `find_path` tool failed repeatedly because I fixed an 'unseen' tile check in one part of the algorithm but missed an identical flaw in another. A partial fix is not a fix.
-
-# Pathfinding Tool Debugging Log
-- **Ledge Logic Flaw:** My `python_code_debugger` agent identified a critical flaw in my `find_path` tool's ledge traversal logic. The tool was incorrectly allowing movement *onto* ledges, which is not how the game mechanic works. This was the likely root cause of the tool generating invalid paths, including the one that tried to move into a wall. This serves as a critical reminder to thoroughly test all aspects of a tool's logic, especially complex environmental interactions, and to trust agent-based debugging when I am stuck.
-
-    - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
+- **Pathfinding Tool Debugging Log:** My `python_code_debugger` agent identified a critical flaw in my `find_path` tool's ledge traversal logic. The tool was incorrectly allowing movement *onto* ledges, which is not how the game mechanic works. This was the likely root cause of the tool generating invalid paths, including the one that tried to move into a wall. This serves as a critical reminder to thoroughly test all aspects of a tool's logic, especially complex environmental interactions, and to trust agent-based debugging when I am stuck.
 - **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
-- Youngster JOEY called for a rematch on Route 30.
 - **UI Parsing Debugging:** When debugging a UI parsing tool, the root cause of repeated failures is often a flawed assumption about the UI's structure or the raw input data (e.g., how newlines are represented). Use debug logs to verify the raw input and confirm the parsing logic matches the actual text.
-- Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE.
-- **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-
-# Route 34 Gatehouse
-- A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
-- **Phone Call:** Hiker ANTHONY called for a rematch on Route 33.
-
-# Tile & Object Mechanics
-- **WALL**: Impassable terrain.
-- **FLOOR**: A standard, fully traversable tile.
-- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
-- **STAIRCASE**: A traversable warp tile that moves the player between floors.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
-
-# Evolution Methods
-- Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
-
+- **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
 - **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
 - **Notepad Overwrite Threshold:** The `overwrite` action has a 20% net loss threshold to prevent accidental data deletion. Major refactoring must be done in smaller, incremental `replace` actions.
-
-# NPC Dialogue
-- POKEFAN_F in Bill's House (Goldenrod): Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
-- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
