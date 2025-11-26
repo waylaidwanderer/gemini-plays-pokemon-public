@@ -15,10 +15,10 @@
   - ON: Opens Middle Shutter (10,6). (Side effect: Closes East Shutter).
   - OFF: Closes Middle Shutter.
 - **Switch 3 (Divider/West Control):**
-  - ON: Opens East Divider (Hypothesis revised). Closes West Shutter.
-  - OFF: Opens West Shutter.
+  - ON: Inner Shutter (16,10) remains CLOSED (Verified).
+  - OFF: Testing effect on Inner Shutter.
 - **Current Configuration:** [ON, OFF, OFF].
-  - Result: (16,6) OPEN. (16,7) OPEN (Verified by Notification).
+  - Result: Verifying path at x=16.
 - **Plan:** Proceed South through the open path at (16, 6-7).
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
