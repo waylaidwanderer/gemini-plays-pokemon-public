@@ -198,3 +198,5 @@
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Verified State [ON, OFF, ON]: Top West OPEN, West Connector CLOSED (6,9), Bottom West CLOSED (3,10). This state allows entry to West Room but no exit South or East.
+Verified [OFF, OFF, OFF]: Top West OPEN. Top East & Top Middle CLOSED. Bottoms CLOSED.
+Testing [OFF, OFF, ON]: Hypothesis - Opens Bottom West?
