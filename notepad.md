@@ -129,7 +129,7 @@
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
-- **Status:** In Union Cave, training GIBRALTAR. Currently heading to Azalea Town to heal.
+- **Status:** Exploring the Goldenrod Department Store to find items or TMs to help with the rematch.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
