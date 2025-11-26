@@ -201,3 +201,10 @@
 Verified [OFF, OFF, OFF]: Top West OPEN. Top East & Top Middle CLOSED. Bottoms UNKNOWN.
 Verified [OFF, OFF, ON]: Top West OPEN. Bottom West CLOSED.
 Testing [OFF, OFF, OFF]: Checking Bottom West Shutter.
+### Puzzle Solution Plan (Trap Theory)
+Target State: [ON, OFF, ON]
+Logic: Closes Top East (Entrance), Opens Bottom East (Goal).
+Sequence:
+1. Turn S1 ON -> [ON, OFF, OFF]
+2. Turn S3 ON -> [ON, ON, ON] (Linkage forces S2 ON)
+3. Turn S2 OFF -> [ON, OFF, ON] (Trap State)
