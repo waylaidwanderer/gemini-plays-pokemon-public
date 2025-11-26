@@ -13,18 +13,17 @@
 **Current State:** [ON, OFF, ON]. Top West (3,6) CLOSED. West Connector (6,9) OPEN. Checking Top East Shutter.
 
 **Verified Mechanics:**
-1. **Switch 1 (East):** Master Power. Must be ON.
+1. **Switch 1 (East):** Controls East Side. ON opens Top East Shutter (16,6) and East Connector (12,9).
 2. **Switch 3 (West):** 
-   - ON is required for Top West Shutter (3,6) to be OPEN (Verified Turn 8834: S3 OFF caused 3,6 to Close).
+   - ON opens West Connector (6,9).
+   - ON keeps Top West Shutter (3,6) CLOSED (in [ON, OFF, ON] config).
 3. **Switch 2 (Middle):**
    - ON closes Top East Shutter (16,6).
-   - ON combined with S3 ON opens Top West Shutter (3,6). (Duced from Turn 8834 transition).
-   - OFF combined with S3 ON opens Connectors (6,9).
 
 **Solution Strategy:**
-- **Current Hypothesis:** [ON, OFF, OFF] (S1: ON, S2: OFF, S3: OFF).
-- **Reasoning:** [OFF, OFF, OFF] closed all top shutters. S1 ON should open Top East (Entry). S2 OFF might open Bottom Middle or Bottom East.
-- **Plan:** Turn Switch 1 ON. Enter East Room. Check East Connector (12,9) and Bottom Shutters.
+- **Current Hypothesis:** Flanking Route.
+- **Reasoning:** Since Top West Shutter is closed but West Connector (6,9) is open, I can reach the West Room by going East Room -> Middle Room -> West Room.
+- **Plan:** Enter via Top East Shutter (16,6). Go through East Connector (12,9). Go through West Connector (6,9). Access West Room.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 
