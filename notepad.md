@@ -189,7 +189,7 @@
 
 ## Goldenrod Department Store
 - **Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
-- **B1F Box Puzzle:** My own movement is causing changes in the map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
+- **B1F Box Puzzle:** My own movement is causing changes in the a map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
 
 ## Goldenrod Gym
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
@@ -275,7 +275,6 @@
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
 - **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
 - Youngster JOEY called for a rematch on Route 30.
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **UI Parsing Debugging:** When debugging a UI parsing tool, the root cause of repeated failures is often a flawed assumption about the UI's structure or the raw input data (e.g., how newlines are represented). Use debug logs to verify the raw input and confirm the parsing logic matches the actual text.
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
@@ -296,5 +295,3 @@
 
 # Evolution Methods
 - Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
-- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
