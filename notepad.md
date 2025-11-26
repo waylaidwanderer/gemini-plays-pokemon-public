@@ -10,9 +10,10 @@
 ### Switch Puzzle Log
 - [ON, OFF, ON] (S1=ON, S3=ON): West Shutter CLOSED.
 - [OFF, OFF, ON] (S1=OFF, S3=ON): West Shutter OPEN (Dead End).
-- [OFF, ON, ON] (S1=OFF, S2=ON): East Divider (12,8) OPEN.
+- [OFF, ON, ON] (S1=OFF, S2=ON): East Divider (12,8) OPEN. Shutters CLOSED.
 - [ON, ON, ON] (S1=ON): East Divider CLOSED. Middle/East Shutters CLOSED.
-- Testing [OFF, OFF, OFF] (Current). Goal: Open Middle/East Shutter.
+- [OFF, OFF, OFF]: Middle Shutter CLOSED. East Shutter CLOSED.
+- Testing [OFF, ON, OFF] (Current). Goal: Open Middle/East Shutter.
 - **Plan:** Enter Warehouse via West Shutter.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
