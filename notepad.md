@@ -20,8 +20,9 @@
 - **Tested:** [ON, OFF, OFF] -> Middle Closed, Bottom West Closed. Top East/West Open.
 - **Tested:** [ON, ON, OFF] -> Middle Closed, Bottom West Closed.
 - **Tested:** [ON, ON, ON] -> Bottom West Closed.
-- **Current Configuration:** [ON, ON, ON].
-- **Plan:** Turn S2 OFF -> [ON, OFF, ON].
+- **Current Configuration:** [ON, OFF, ON].
+- **Result:** Testing...
+- **Plan:** Check shutters. Hypothesis: S1/S3 ON + S2 OFF opens Bottom West.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
