@@ -204,6 +204,7 @@
 - [ON, OFF, ON]: Blocked at Inner East (16,10).
 - [OFF, OFF, ON]: Blocked (All Shutters Closed).
 - [ON, ON, ON]: Blocked at Inner East (16,10).
-- **Current Test:** [OFF, ON, ON].
-  - Strategy: S1 OFF (Current), S3 ON (Current), S2 ON (Next Step).
-  - Goal: Open East Shutter (12,9) or Inner East (16,10).
+- [OFF, ON, ON]: Middle Open (10,6), but Blocked at (10,10). West/East Closed.
+- **Current Test:** [ON, ON, OFF].
+  - Strategy: Turn S1 ON, then S3 OFF. S2 remains ON.
+  - Goal: Open Inner East Shutter (16,10).
