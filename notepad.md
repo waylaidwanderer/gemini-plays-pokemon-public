@@ -16,7 +16,8 @@
 **Verified States:**
 1. **[OFF, OFF, ON]:** Top West OPEN. Top East, West Connector, Bottom West CLOSED.
 2. **[ON, OFF, ON]:** Top West OPEN. Top East, West Connector, Bottom West CLOSED.
-3. **[ON, OFF, OFF]:** Testing next. Hypothesis: Opens Bottom East.
+3. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED. (Verified).
+4. **[ON, ON, OFF]:** Testing next. Hypothesis: Opens Top Middle or East Connector.
 
 **Historical Notes (May need re-verification):**
 - [ON, ON, OFF]: Top Middle & East Connector OPEN.
