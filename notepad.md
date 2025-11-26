@@ -201,9 +201,11 @@
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 ### Verified Switch Configurations (S1, S2, S3)
-- **[ON, ON, ON]**: Top East OPEN, Top Middle OPEN, Top West OPEN. Bottoms CLOSED. Connectors: East OPEN, West CLOSED.
-- **[ON, OFF, ON]**: Top West OPEN. Top Middle CLOSED. Bottom West CLOSED.
-- **[OFF, ON, ON]**: Top West OPEN, Top Middle OPEN. West Connector OPEN. Bottom West CLOSED.
-- **[OFF, ON, OFF]**: Top Middle OPEN. East Connector OPEN. Bottoms CLOSED.
+- **[ON, ON, ON]**: Top East OPEN, Middle OPEN, Top West OPEN. East Connector OPEN. West Connector CLOSED. Bottoms CLOSED.
+- **[ON, OFF, ON]**: Top West OPEN. Middle CLOSED. Bottom West CLOSED.
+- **[ON, ON, OFF]**: East Connector OPEN. Bottoms CLOSED.
+- **[OFF, ON, ON]**: Top West OPEN, Middle OPEN. West Connector OPEN. Bottom West CLOSED.
+- **[OFF, OFF, ON]**: Top Middle CLOSED.
+- **[OFF, ON, OFF]**: West Connector OPEN. East Connector CLOSED. Bottoms CLOSED.
 - **[OFF, OFF, OFF]**: Top West OPEN. Top Middle CLOSED. Top East CLOSED. Bottom West CLOSED.
-- **[ON, OFF, OFF]**: Testing Now.
+- **[ON, OFF, OFF]**: Testing Now. Goal: Check Bottom East Shutter.
