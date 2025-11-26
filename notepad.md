@@ -10,10 +10,11 @@
 ### Switch Puzzle Log
 - [ON, OFF, ON]: West Shutter (2,6) CLOSED. West Divider (6,8) CLOSED.
 - [ON, ON, ON]: Middle Shutter (10,6) CLOSED. East Shutter (18,6) CLOSED.
-- [OFF, ON, ON]: East Divider (12,8) OPEN. East Shutter (18,6) CLOSED.
+- [OFF, ON, ON]: East Divider (12,8) OPEN.
+- [OFF, OFF, ON]: Middle Shutter (10,6) CLOSED.
 - Current Config: [OFF, OFF, ON].
-- **Hypothesis:** "OFF" opens barriers. Switch 3 -> West, Switch 2 -> Middle, Switch 1 -> East.
-- **Plan:** Inspect Middle Shutter (10,6). If closed, turn Switch 3 OFF to test [OFF, OFF, OFF].
+- **Hypothesis:** "OFF" opens barriers.
+- **Plan:** Turn Switch 3 OFF -> Test [OFF, OFF, OFF].
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
