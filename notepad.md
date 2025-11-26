@@ -10,12 +10,12 @@
 
 ### Switch Puzzle Rules & Logic
 **Goal:** Find open path to Warehouse.
-**Current State:** [ON, ON, ON] (Testing).
+**Current State:** [ON, OFF, OFF] (Testing West Path).
 - **Verified Results:**
-  - [OFF, OFF, ON]: Top West Open. West Connector Closed. Bottom West Closed.
-  - [OFF, OFF, OFF]: All Closed.
-  - [OFF, ON, OFF]: Top West Open. West Connector Closed.
-**Next Step:** Turn S2 ON, S1 ON. Check Top East (16,6) and Inner Shutter (16,10).
+  - [OFF, OFF, ON]: West Connector Closed.
+  - [ON, OFF, ON]: West Connector Closed.
+  - [ON, ON, ON]: Dead End.
+**Next Step:** Check West Connector (6,9) and Bottom West Shutter (3,10).
 **History:**
 - [OFF, OFF, ON]: Top West Open. West Connector Open. Bottom West Closed.
 - [ON, OFF, OFF]: Top East Open. Inner (16,10) CLOSED.
