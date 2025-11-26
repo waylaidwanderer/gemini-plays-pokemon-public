@@ -22,9 +22,9 @@
    - OFF combined with S3 ON opens Connectors (6,9).
 
 **Solution Strategy:**
-- **Current Hypothesis:** [OFF, ON, ON] (S1: OFF, S2: ON, S3: ON).
-- **Reasoning:** S3=ON keeps Top West Open. S1=OFF might open Connector (6,9) to bypass blocked Bottom West.
-- **Plan:** Turn Switch 2 ON, then Switch 1 OFF. Check Connector (6,9).
+- **Current Hypothesis:** [ON, OFF, OFF] (S1: ON, S2: OFF, S3: OFF).
+- **Reasoning:** [OFF, OFF, OFF] closed all top shutters. S1 ON should open Top East (Entry). S2 OFF might open Bottom Middle or Bottom East.
+- **Plan:** Turn Switch 1 ON. Enter East Room. Check East Connector (12,9) and Bottom Shutters.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 
