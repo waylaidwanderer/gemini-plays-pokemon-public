@@ -225,3 +225,4 @@
 - **Pattern Observation**: In all configurations where S2 is ON, the bottom shutters have remained CLOSED. This suggests S2 must be OFF to open them.
 - **Current Test**: [ON, OFF, ON]. Checking Inner Shutter (16, 10).
 - **[ON, OFF, ON]**: Inner Shutter (16,10) CLOSED. Top East (16,6) OPEN.
+- **[ON, OFF, ON]**: Inner Shutter (16,10) CLOSED. Top East (16,6) OPEN.
