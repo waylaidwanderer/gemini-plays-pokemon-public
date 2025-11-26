@@ -206,16 +206,9 @@
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 ### Verified Switch Configurations (S1, S2, S3)
-- **[ON, ON, ON]**: Top East OPEN, Middle OPEN, Top West OPEN. East Connector OPEN. West Connector CLOSED. Bottoms CLOSED.
-- **[ON, OFF, ON]**: Top West OPEN. Middle CLOSED. Bottom West CLOSED.
-- **[ON, ON, OFF]**: East Connector OPEN. Bottoms CLOSED.
-- **[OFF, ON, ON]**: Top West OPEN, Middle OPEN. West Connector OPEN. Bottom West CLOSED.
-- **[OFF, OFF, ON]**: Top Middle CLOSED.
-- **[OFF, ON, OFF]**: West Connector OPEN. East Connector CLOSED. Bottoms CLOSED.
-- **[OFF, OFF, OFF]**: Top West OPEN. Top Middle CLOSED. Top East CLOSED. Bottom West CLOSED.
-- **[ON, OFF, OFF]**: Top East (16,6) OPEN. Inner (16,10) CLOSED. East Connector (12,9) OPEN. Middle Room (Row 9) dead end. Opens (6,12) connector (unreachable).
-- **[OFF, ON, OFF]**: Top Middle OPEN (Confirmed). Top East CLOSED.
-- **[OFF, ON, OFF]**: West Connector (6,9) OPEN. Top Middle (10,6) OPEN. Path to West Room via Middle Room confirmed.
-Bottom West Shutter (3,10) CLOSED. Checking Bottom Middle Shutter.
-- **[OFF, ON, OFF]**: Top West OPEN. Top Middle OPEN. West Connector OPEN. Bottom West (3,10) CLOSED. Bottom Middle (10,10) CLOSED.
-New Plan: Test [ON, ON, ON] to see if S3 affects Bottom East (16,10).
+**Note:** S1 controls Entry (East vs West). S2 likely controls Middle/Bottoms. S3 controls Connectors/Linkages.
+- **[ON, OFF, OFF]**: Top East (16,6) OPEN. Inner (16,10) CLOSED. East Connector (12,9) OPEN.
+- **[ON, ON, OFF]**: Top East OPEN. Inner (16,10) CLOSED.
+- **[OFF, OFF, ON]**: Top West (3,6) OPEN. Bottom West (3,10) CLOSED.
+- **[OFF, ON, OFF]**: Top West OPEN. Top Middle OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
+- **[ON, ON, ON]**: CURRENTLY TESTING. Hypothesis: Opens Inner East or Bottom Middle?
