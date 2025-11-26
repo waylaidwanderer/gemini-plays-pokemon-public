@@ -200,7 +200,5 @@
 **Hypothesis:** Access Middle/West Rooms to check southern shutters.
 
 **Current Plan:**
-1. Inspect Bottom Middle Shutter (10,10).
-2. Cross West Connector (6,9) to West Room.
-3. Inspect Bottom West Shutter (3,10).
-4. Investigate Unexplored Warp at (22,10).
+1. Inspect Bottom West Shutter (3,10) (Bottom Middle confirmed CLOSED).
+2. If closed, re-evaluate puzzle logic. Consider [OFF, OFF, ON] or investigating the Unexplored Warp at (22,10) via East Room.
