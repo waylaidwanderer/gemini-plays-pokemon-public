@@ -9,18 +9,17 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 ### Master Switch Logic (Consolidated)
 - **Switch 1 (East Control):**
-  - ON: (16,6) CLOSED.
-  - OFF: Opens Connector (12,9).
+  - ON: Closes West Connector (6,9)? (Hypothesis)
+  - OFF: Opens West Connector (6,9). Closes East Connector (12,9).
 - **Switch 2 (Middle Control):**
   - ON: Opens Middle Shutter (10,6).
   - OFF: Closes Middle Shutter.
 - **Switch 3 (West Control):**
-  - ON: (16,10) CLOSED.
-  - OFF: Currently OFF.
+  - OFF: (Default).
 - **Current Configuration:** [OFF, ON, OFF].
-  - Result: Middle (10,6) Open. Connector (12,9) Open.
-- **Plan:** Go South through (10,6), then East through (12,9) to Warehouse.
-- **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
+  - Result: West Connector (6,9) OPEN. East Connector (12,9) CLOSED.
+- **Plan:** Go South to (10,9), then West through (6,9) to the West Room. The Warehouse Entrance is at (4,29) (West Side).
+- **Correction:** Warehouse Warps are at x=4/5 (West), not East.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
