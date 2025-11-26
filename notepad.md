@@ -286,3 +286,10 @@
 
 # Strategic Principles & Lessons Learned
 - **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
+
+# Tile & Object Mechanics
+- **WALL**: Impassable terrain.
+- **FLOOR**: A standard, fully traversable tile.
+- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
+- **STAIRCASE**: A traversable warp tile that moves the player between floors.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
