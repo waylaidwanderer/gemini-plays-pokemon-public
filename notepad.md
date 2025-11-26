@@ -10,16 +10,18 @@
 
 ### Switch Puzzle Analysis
 **Goal:** Open Bottom East Shutter (16,10).
-**Current State:** [ON, ON, ON] -> Bottom East CLOSED.
-**Key Findings:**
-1. **Switch 1 (East):** MASTER. Must be **ON** to open Top East Shutter (16,6). Turning OFF is a trap.
-2. **Switch 3 (West):** Controls Top West (3,6). **OFF** = Open, **ON** = Closed.
-3. **Linkage:** Turning S3 ON **automatically turns S2 ON**.
-**Tested Configurations:**
-- [ON, OFF, OFF]: Top East Open, Top West Open. Bottom East Closed.
-- [ON, OFF, ON]: Top East Open, Top West Closed. Bottom East Closed.
-- [ON, ON, ON]: Top East Open, Top West Closed. Bottom East Closed.
-**Hypothesis:** The solution is likely **[ON, ON, OFF]**. I need to verify if turning S3 OFF leaves S2 ON.
+**CRITICAL INSIGHT:** Mental Map (and thus `check_shutter_status`) is STALE for off-screen tiles. Must visually verify changes.
+
+**Verified Rules:**
+1. **Switch 1 (East):** MASTER. Must be **ON** to access East Room. OFF closes Top East Shutter.
+2. **Switch 3 (West):** Controls Top West (3,6). OFF = Open, ON = Closed.
+3. **Linkage:** S3 ON -> Forces S2 ON.
+
+**Current Test:** [ON, ON?, OFF] (S1 ON, S3 turned OFF). Testing if S2 stays ON.
+**Tested & Failed:**
+- [ON, OFF, OFF]
+- [ON, OFF, ON]
+- [ON, ON, ON]
 - **Goal:** Reach Emergency Switch (20,11) in East Room.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
