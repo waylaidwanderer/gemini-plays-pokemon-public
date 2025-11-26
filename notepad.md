@@ -13,8 +13,8 @@
 **Current State:** [ON, ON, ON] (S1 ON, S2 ON, S3 ON).
 - **Verified:** Top Middle (10,6) CLOSED.
 - **Analysis:** [ON, ON, ON] is a dead end.
-**Next Test:** [ON, OFF, OFF]. (S1 ON, S2 OFF, S3 OFF).
-- **Reasoning:** [ON, OFF, ON] failed. [ON, ON, ON] failed. [ON, ON, OFF] failed. [ON, OFF, OFF] is the remaining S1-ON variant to fully verify.
+**Current Test:** [ON, OFF, OFF]. (S1 ON, S2 OFF, S3 OFF).
+- **Reasoning:** Systematically testing S3=OFF variants. [ON, OFF, ON] failed (S3 closes things). [ON, ON, ON] failed. Next up: [ON, OFF, OFF].
 **History:**
 - [ON, ON, OFF]: Top East Open. Inner (16,10) CLOSED.
 - [OFF, OFF, ON]: Top West Open. Bottom West Closed.
