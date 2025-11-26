@@ -197,5 +197,7 @@
 - **[ON, OFF, ON]:** Top East CLOSED. Lockout from North.
 - **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN. Bottom Middle CLOSED.
 - **[OFF, ON, ON]:** Top West OPEN. West Conn CLOSED (Dead End). Top Middle OPEN.
-**Current Test:** [OFF, ON, OFF].
-**Hypothesis:** S1 OFF opens East Conn? S3 OFF opens West Conn? S2 ON keeps Top Open?
+**Tested Configs:**
+- **[OFF, ON, OFF]**: Top West Open. West Conn OPEN. East Conn CLOSED. Trapped in Middle Room.
+- **[OFF, ON, ON]**: Top Middle Open. Connector to East Room OPEN (Snake Path). West Conn Closed.
+**Next Step:** Retry [OFF, ON, ON] and explore East Room fully.
