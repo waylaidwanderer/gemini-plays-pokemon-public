@@ -12,8 +12,9 @@
 **Goal:** Enter West Room via Top West Shutter (3,6) to reach Warehouse.
 **Current State:** [ON, OFF, ON]. S1 ON, S2 OFF, S3 ON.
 - **Verified:** [ON, OFF, ON] result: Top Middle (10,6) CLOSED. Top East (16,6) OPEN. Inner Shutter (16,10) CLOSED.
-**Next Test:** [ON, ON, ON]. (S1 ON, S2 ON, S3 ON).
-**Hypothesis:** S2 ON + S1 ON might open Inner Shutter via Middle Path.
+**Verified:** [ON, ON, ON] -> Top Middle CLOSED. Top East CLOSED.
+**Next Test:** [ON, ON, OFF]. (S1 ON, S2 ON, S3 OFF).
+**Hypothesis:** S3 OFF allows Top Middle to open (via S2).
 **Next Test:** [ON, OFF, ON]. (S1 ON, S2 OFF, S3 ON).
 **History:**
 - [ON, ON, OFF]: Top East Open. Inner (16,10) CLOSED.
