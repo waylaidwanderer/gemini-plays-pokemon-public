@@ -223,3 +223,4 @@
 - **GENTLEMAN in Game Corner:** Mentioned teaching BLIZZARD to his POKéMON after getting enough coins, confirming TMs are available as prizes.
 - **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
 - **Phone Call (Youngster JOEY):** Called for a rematch on Route 30.
+- **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
