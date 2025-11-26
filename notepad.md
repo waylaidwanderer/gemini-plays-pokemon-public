@@ -1,5 +1,5 @@
 # Strategic Principles & Lessons Learned
-- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted a failure where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
+- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted failures where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
 - **Pathing Around Off-Screen Objects:** When planning long paths that go off-screen, I must consult my map markers to manually account for known off-screen obstacles (like NPCs). My `find_path` tool is blind to off-screen objects, and relying on it alone for long paths will lead to interruptions.
 - **Tool Collision Logic:** A pathfinding tool's failure to account for all on-screen game objects (like NPCs) makes it unreliable. If a tool attempts to path through a visible obstacle, its object collision detection logic is flawed and must be debugged immediately. The `has_object` check is the likely point of failure.
 - **TRUST THE TOOL (Consolidated):** When a trusted tool's output (e.g., 'No path found') contradicts a visual assumption, the assumption is the likely source of error. The tool analyzes raw game data and is more reliable than my visual interpretation. I must verify the assumption in-game *before* attempting to debug a working tool. This lesson has been learned multiple times.
@@ -123,7 +123,7 @@
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
-- **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER**: These NPC objects are impassable and function as walls.
+- **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER / POKEFAN_M**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
@@ -193,40 +193,6 @@
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
-
-# Azalea Town Investigation Log
-- **Hypothesis 1:** The Team Rocket Grunt at the Slowpoke Well is the story trigger.
-  - **Test:** Interact with the object at (18, 9).
-  - **Result:** It was a Slowpoke, not a Grunt. Dialogue was "Yawn?".
-  - **Conclusion:** Hypothesis failed due to a hallucination. The trigger is not a Grunt.
-- **Hypothesis 2:** Kurt will provide information about the Slowpoke situation.
-  - **Test:** Talk to Kurt at (3, 2) in his house.
-  - **Result:** Kurt's dialogue was only about making Poké Balls from Apricorns.
-  - **Conclusion:** Hypothesis failed. Kurt is not the immediate trigger for the Slowpoke Well event.
-- **Hypothesis 3:** A Youngster at (8, 9) might have information.
-  - **Test:** Talk to the Youngster.
-  - **Result:** He mentioned that the 'CHARCOAL MAN's POKéMON can CUT down trees.' This is a major clue.
-  - **Conclusion:** The Charcoal Man, likely found at the Charcoal Kiln (21, 13), is the next person to investigate.
-- **Hypothesis 4:** The Black Belt at (2, 3) in the Charcoal Kiln is the 'Charcoal Man'.
-  - **Test:** Talk to the Black Belt.
-  - **Result:** His dialogue ('You chased off TEAM ROCKET...') contradicts the current game state.
-  - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
-- **Hypothesis 5:** The Youngster at (6, 4) in the Charcoal Kiln is the 'Charcoal Man' or has information.
-  - **Test:** Talk to the Youngster.
-  - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
-  - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
-- When a pathfinding tool reports 'No path found' multiple times, even after attempting to reset the map state (like leaving and re-entering), the path is genuinely blocked. Do not get stuck in a loop of re-attempting the same path. Pivot to a new target or strategy.
-- Double-check tool outputs. A quick glance can lead to misinterpreting success as failure, wasting turns on flawed assumptions.
-- **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
-- **EXECUTION DISCIPLINE:** I must ensure my actions perfectly match my plan. A recent critique highlighted a failure where I was hallucinating tool names instead of calling my actual, defined tools (like `select_move`). This is a critical lapse and wastes turns. I must always use the correct, existing tools for their intended purpose.
-- **Phone Call (Hiker ANTHONY):** Called again to say there are 'tons of DUNSPARCE' in DARK CAVE, and that they are timid and not found near strong POKéMON.
-- **Tool Debugging Verification:** When debugging a tool that fails on a specific map, the final verification test for the fix MUST be performed on that same map. A fix for one scenario (e.g., ledges) may not address the root cause of failure in another scenario (e.g., a genuinely blocked path).
-- **Map vs. Tool:** If a pathfinding tool consistently reports 'No path found' on a visually simple map, do not immediately assume the tool is broken. The map layout itself may be deceptive. Use debug logging or manual movement to verify the raw traversability of the path before attempting to fix the tool.
-- **GENTLEMAN in Game Corner:** Mentioned teaching BLIZZARD to his POKéMON after getting enough coins, confirming TMs are available as prizes.
-- **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
-- **Phone Call (Youngster JOEY):** Called for a rematch on Route 30.
-- **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
-- **Execution Discipline (Battle):** Double-check the selected move on the screen before pressing 'A' to confirm. An execution error led to using ROLLOUT instead of the intended MAGNITUDE, locking me into a multi-turn move. Careful confirmation prevents such mistakes.
 
 # High-Priority Task: Tool Repair
 - **`select_move` Tool is CRITICALLY BROKEN.**
