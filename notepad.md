@@ -9,30 +9,24 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 
 ### Switch Puzzle Rules & Logic
-**Goal:** Open Bottom East Shutter (16,10).
-**Current State:** [ON, OFF, ON] (S1 ON, S2 OFF, S3 ON).
+**Goal:** Enter West Room via Top West Shutter (3,6) to reach Warehouse.
+**Current State:** [ON, OFF, ON].
 
-**Truth Table / Verified Rules:**
-1. **Switch 1 (East):** MASTER POWER. Must be ON to open Top East Shutter.
+**Verified Mechanics:**
+1. **Switch 1 (East):** Master Power. Must be ON.
 2. **Switch 3 (West):** 
-   - ON forces Switch 2 to ON (Linkage).
-   - ON closes Top West Shutter.
-   - Hypothesis: ON is required for Bottom East Shutter.
-3. **Switch 2 (Middle):** 
-   - ON closes Top East Shutter (Overrides S1).
-   - OFF keeps Top East Shutter OPEN (if S1 is ON).
+   - ON is required for Top West Shutter (3,6) to be OPEN (Verified Turn 8834: S3 OFF caused 3,6 to Close).
+3. **Switch 2 (Middle):**
+   - ON closes Top East Shutter (16,6).
+   - ON combined with S3 ON opens Top West Shutter (3,6). (Duced from Turn 8834 transition).
+   - OFF combined with S3 ON opens Connectors (6,9).
 
 **Solution Strategy:**
-- **New Insight:** West Room Warps lead to Warehouse (GOAL). East Room Warps lead to City (EXIT).
-- **Plan:** Enter West Room via Top West Shutter (3,6). Proceed South to Warehouse.
-- **Switch Logic:** S3 OFF opens Top West Shutter.
-- **Current Config:** [ON, OFF, ON].
-- **Next Step:** Turn S3 OFF.
+- **Target Config:** [ON, ON, ON].
+- **Reasoning:** In Turn 8834, transitioning from [ON, ON, ON] to [ON, ON, OFF] caused (3,6) to close. Thus, [ON, ON, ON] must have had it open.
+- **Next Step:** Turn Switch 2 ON.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
-- **Backlog:**
-  - Cure Miltank (Needs berries).
-  - Trade Red Scale to Mr. Pokémon.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
