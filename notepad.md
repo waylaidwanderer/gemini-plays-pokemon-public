@@ -15,7 +15,9 @@
 - [ON, ON, ON]: Far East Closed.
 - [ON, OFF, ON]: Far East Closed.
 - [OFF, OFF, ON]: Far East Closed.
-- **Current Test:** [OFF, ON, ON] (Active)
+- [OFF, ON, ON]: Far East Closed.
+- **Conclusion:** Far East Shutter (20,6) is NOT opened by any static binary combo.
+- **Plan:** Restore [ON, OFF, OFF] (Opens West/Mid/East) and force path South past Row 14.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
