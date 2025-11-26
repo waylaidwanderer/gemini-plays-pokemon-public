@@ -215,3 +215,4 @@
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
 - When a pathfinding tool reports 'No path found' multiple times, even after attempting to reset the map state (like leaving and re-entering), the path is genuinely blocked. Do not get stuck in a loop of re-attempting the same path. Pivot to a new target or strategy.
 - Double-check tool outputs. A quick glance can lead to misinterpreting success as failure, wasting turns on flawed assumptions.
+- EXECUTION DISCIPLINE & PARAMETER CHECKS: A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. This includes double-checking all tool parameters (like `autopress_buttons`) before execution to prevent wasted turns.
