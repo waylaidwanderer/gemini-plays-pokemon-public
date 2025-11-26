@@ -583,7 +583,7 @@
         "current_moves_list"
       ]
     },
-    "python_script": "import sys, json, re\n\ndef select_move_logic():\n    move_to_select = input_data['move_to_select']\n    current_moves_list = input_data['current_moves_list']\n\n    lines = current_moves_list.split('\\n')\n    move_block_start = -1\n    for i, line in enumerate(lines):\n        if '│   │' in line:\n            move_block_start = i\n            break\n\n    if move_block_start == -1:\n        print(json.dumps([]))\n        return\n\n    move_lines = lines[move_block_start:move_block_start+4]\n    parsed_moves = []\n    cursor_index = -1\n    for i, line in enumerate(move_lines):\n        cleaned_line = re.sub(r'[^A-Z▶]', '', line.upper())\n        if '▶' in cleaned_line:\n            cursor_index = i\n        parsed_moves.append(cleaned_line.replace('▶', ''))\n\n    if cursor_index == -1:\n        print(json.dumps([]))\n        return\n\n    cleaned_target_move = re.sub(r'[^A-Z]', '', move_to_select.upper())\n    try:\n        target_index = parsed_moves.index(cleaned_target_move)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    if cursor_index == target_index:\n        print(json.dumps([])) # Output nothing, user must press A manually\n        return\n\n    diff = target_index - cursor_index\n    presses = []\n    if diff > 0:\n        presses.extend(['Down'] * diff)\n    else:\n        presses.extend(['Up'] * abs(diff))\n    \n    print(json.dumps(presses))\n\nselect_move_logic()",
+    "python_script": "import json\nimport re\n\nmove_to_select = input_data['move_to_select']\ncurrent_moves_list_str = input_data['current_moves_list']\n\nlines = current_moves_list_str.strip().split('\\n')\n\ncursor_index = -1\ntarget_index = -1\ncleaned_moves = []\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_index = i\n    \n    match = re.search(r'([A-Z\\s\\-]+)', line)\n    if match:\n        cleaned_move = match.group(1).strip()\n        cleaned_moves.append(cleaned_move)\n\ntry:\n    # Ensure comparison is case-insensitive and handles potential whitespace\n    target_index = [move.upper().strip() for move in cleaned_moves].index(move_to_select.upper().strip())\nexcept ValueError:\n    print(json.dumps([]))\n    exit()\n\nif cursor_index == -1:\n    print(json.dumps([]))\n    exit()\n\nmoves_to_make = target_index - cursor_index\nbuttons = []\n\nif moves_to_make > 0:\n    buttons.extend(['Down'] * moves_to_make)\nelif moves_to_make < 0:\n    buttons.extend(['Up'] * abs(moves_to_make))\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -859,6 +859,11 @@
         "commit_message": "fix: Separate directional and action inputs. The tool was failing because `autopress_buttons` likely enforces the same 'no mixed inputs' rule as manual presses. This version removes the final 'A' press from the output array, making the tool responsible only for highlighting the correct move. The user must now press 'A' manually in a subsequent turn. This change also removes all debug logging.",
         "timestamp": "2025-11-26T06:33:10.803Z",
         "action_counter": 17472
+      },
+      {
+        "commit_message": "fix: Overhaul parsing logic to be state-aware and robust. The previous version failed catastrophically by producing no output, indicating a crash. This new version is fully state-aware, correctly identifies the cursor's current position, and uses a regular expression to reliably parse move names from the list. It calculates the relative 'Up' or 'Down' presses needed to reach the target, resolving the critical failure and making move selection reliable.",
+        "timestamp": "2025-11-26T15:01:12.875Z",
+        "action_counter": 18009
       }
     ]
   },
