@@ -11,10 +11,10 @@
 ### Switch Puzzle Rules & Logic
 **Goal:** Find open path to Warehouse.
 **Current State:** [ON, ON, ON] (S1 ON, S2 ON, S3 ON).
-**Hypothesis:** Testing if S2 ON opens Top Middle (resolving contradiction).
-- **Recent Failures:**
-  - [ON, OFF, ON]: Top East Open, Inner Closed, Bottom Middle Closed.
-  - [ON, ON, OFF]: Top East Closed, Top Middle Closed.
+- **Verified:** Top Middle (10,6) CLOSED.
+- **Analysis:** [ON, ON, ON] is a dead end.
+**Next Test:** [ON, OFF, OFF]. (S1 ON, S2 OFF, S3 OFF).
+- **Reasoning:** [ON, OFF, ON] failed. [ON, ON, ON] failed. [ON, ON, OFF] failed. [ON, OFF, OFF] is the remaining S1-ON variant to fully verify.
 **History:**
 - [ON, ON, OFF]: Top East Open. Inner (16,10) CLOSED.
 - [OFF, OFF, ON]: Top West Open. Bottom West Closed.
