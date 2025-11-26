@@ -10,14 +10,18 @@
 
 ### Switch Puzzle Analysis
 **Goal:** Open Bottom East Shutter (16,10).
-**CRITICAL INSIGHT:** Mental Map (and thus `check_shutter_status`) is STALE for off-screen tiles. Must visually verify changes.
+**CRITICAL INSIGHT:** Mental Map is STALE for off-screen tiles. Visually verify changes.
 
 **Verified Rules:**
-1. **Switch 1 (East):** MASTER. Must be **ON** to access East Room. OFF closes Top East Shutter.
+1. **Switch 1 (East):** MASTER. ON opens Top East, OFF closes it.
 2. **Switch 3 (West):** Controls Top West (3,6). OFF = Open, ON = Closed.
 3. **Linkage:** S3 ON -> Forces S2 ON.
+4. **Switch 2 (Middle):** ON closes Top East Shutter (Overrides S1).
 
-**Current Test:** [ON, ON, OFF] (S1 ON, S2 ON, S3 OFF). Confirmed S2 stayed ON. Checking Shutters.
+**Current Test:** [ON, ON, OFF] (S1 ON, S2 ON, S3 OFF).
+**Result:** Top East Shutter (16,6) CLOSED.
+**Hypothesis:** S2 ON opens Connectors (6,9 & 12,9).
+**Next Step:** Check East Connector (12,9). If open, path is: Top West -> West Room -> Middle Room -> East Room (South).
 **Tested & Failed:**
 - [ON, OFF, OFF]
 - [ON, OFF, ON]
