@@ -7,8 +7,8 @@
 ## Status
 - **Location:** Goldenrod Underground (Switch Room).
 - **Objective:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
-- **Current Switch State:** [OFF, ON, OFF] (S1, S2, S3).
-- **Immediate Task:** Check West Connector (6,9).
+- **Current Switch State:** [ON, OFF, OFF] (S1, S2, S3).
+- **Immediate Task:** Toggle Switch 1 to OFF.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
@@ -188,20 +188,19 @@
 **Observed Logic:**
 - **Switch 1 (East):**
   - **ON:** Opens Top Middle Shutter (10,6). Opens (6,8). **CLOSES** path to East Connector at (12,8).
-  - **OFF:** Necessary for East Connector access?
 - **Switch 2 (Middle):**
-  - **ON:** Combined with S3 OFF = Top West OPEN.
+  - **ON:** Combined with S3 OFF = Top West OPEN. S1 ON + S2 ON = Top Middle OPEN.
 - **Switch 3 (West):**
   - **ON:** Combined with S2 OFF = West Connector OPEN.
-  - **ON + S2 ON:** West Connector CLOSED.
 
 **Verified States (S1, S2, S3):**
-- **[ON, ON, OFF]:** Top Middle OPEN. (12,8) CLOSED. Top East CLOSED.
+- **[ON, ON, OFF]:** Top Middle OPEN. Top East CLOSED. (12,8) CLOSED.
+- **[ON, OFF, OFF]:** Top East CLOSED. Top Middle CLOSED. West Conn CLOSED.
 - **[OFF, ON, OFF]:** Top West OPEN. West Conn OPEN. East Conn CLOSED.
 - **[OFF, ON, ON]:** Top West OPEN. Top Middle CLOSED. West Conn CLOSED.
 - **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN.
 
 **Current Strategy:**
-Testing **[ON, OFF, OFF]**. 
-Hypothesis: S1 ON + S2 OFF might open Top East.
-Status: S1=ON, S2=OFF (Pending), S3=OFF.
+Testing **[OFF, OFF, OFF]**. 
+Hypothesis: Resetting S1 might unlock East side logic.
+Status: S1=ON (Changing to OFF), S2=OFF, S3=OFF.
