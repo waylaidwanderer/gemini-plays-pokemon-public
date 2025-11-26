@@ -13,8 +13,9 @@
 **Current State:** [ON, OFF, ON]. S1 ON, S2 OFF, S3 ON.
 - **Verified:** [ON, OFF, ON] result: Top Middle (10,6) CLOSED. Top East (16,6) OPEN. Inner Shutter (16,10) CLOSED.
 **Verified:** [ON, ON, ON] -> Top Middle CLOSED. Top East CLOSED.
+**Analysis:** S3 ON closes Top East/Middle. S3 must be OFF.
 **Next Test:** [ON, ON, OFF]. (S1 ON, S2 ON, S3 OFF).
-**Hypothesis:** S3 OFF allows Top Middle to open (via S2).
+**Hypothesis:** S1 ON opens Top East. S2 ON opens Bottom East (Target).
 **Next Test:** [ON, OFF, ON]. (S1 ON, S2 OFF, S3 ON).
 **History:**
 - [ON, ON, OFF]: Top East Open. Inner (16,10) CLOSED.
