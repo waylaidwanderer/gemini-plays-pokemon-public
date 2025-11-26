@@ -279,3 +279,4 @@
 - **UI Parsing Debugging:** When debugging a UI parsing tool, the root cause of repeated failures is often a flawed assumption about the UI's structure or the raw input data (e.g., how newlines are represented). Use debug logs to verify the raw input and confirm the parsing logic matches the actual text.
 - **Phone Call:** Hiker Anthony called to say there are lots of timid DUNSPARCE in DARK CAVE, away from stronger POKéMON.
 - **Phone Call:** Hiker Anthony called to say there are lots of timid DUNSPARCE in DARK CAVE, away from stronger POKéMON.
+- **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
