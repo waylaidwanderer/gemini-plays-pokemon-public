@@ -196,7 +196,7 @@
 **Verified States (S1, S2, S3):**
 - **[ON, ON, OFF]:** Top Middle OPEN. Top East CLOSED. (12,8) CLOSED.
 - **[ON, OFF, OFF]:** Top East CLOSED. Top Middle CLOSED. West Conn CLOSED.
-- **[OFF, ON, OFF]:** Top West OPEN. West Conn OPEN. East Conn CLOSED.
+- **[OFF, ON, OFF]:** Top West CLOSED. West Conn OPEN. (Verified Turn 9437)
 - **[OFF, ON, ON]:** Top West OPEN. Top Middle CLOSED. West Conn CLOSED.
 - **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN.
 
