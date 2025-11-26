@@ -194,4 +194,3 @@
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
-- **`select_move` Workflow:** The tool's logic for calculating button presses is correct, but the `autopress_buttons` feature is unreliable due to game engine timing. The correct and verified workflow is: 1. Call the tool with `autopress_buttons: false`. 2. Manually input the button presses returned by the tool. 3. Press 'A' in the next turn to execute the move.
