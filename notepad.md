@@ -22,9 +22,9 @@
    - OFF combined with S3 ON opens Connectors (6,9).
 
 **Solution Strategy:**
-- **Solved Config:** [ON, OFF, OFF] (S1: ON, S2: OFF, S3: OFF).
-- **Result:** Top West Shutter (3,6) is OPEN.
-- **Plan:** Enter West Room, defeat Pharmacist (3,8), and proceed South to Warehouse.
+- **Current Hypothesis:** [OFF, ON, ON] (S1: OFF, S2: ON, S3: ON).
+- **Reasoning:** S3=ON keeps Top West Open. S1=OFF might open Connector (6,9) to bypass blocked Bottom West.
+- **Plan:** Turn Switch 2 ON, then Switch 1 OFF. Check Connector (6,9).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 
