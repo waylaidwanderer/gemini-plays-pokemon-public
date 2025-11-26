@@ -10,8 +10,9 @@
 
 ### Switch Puzzle Rules & Logic
 **Goal:** Find open path to Warehouse.
-**Current State:** [OFF, ON, OFF] (S1 OFF, S2 ON, S3 OFF).
+**Current State:** [OFF, OFF, OFF] (Target).
 - **Verified Results:**
+  - [OFF, ON, OFF]: Top West Open, Bottom West Closed, West Connector Closed.
   - [OFF, ON, ON]: Top West Open, Bottom West Closed, West Connector Closed.
 **History:**
 - [OFF, OFF, ON]: Top West Open. West Connector Open. Bottom West Closed.
