@@ -274,3 +274,4 @@
 - **TRUST THE TOOL:** When a trusted tool's output contradicts a visual assumption, the assumption is the likely source of error. The tool analyzes raw game data and is more reliable. I must verify the assumption in-game before attempting to debug the tool.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
 - **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
+- Youngster JOEY called for a rematch on Route 30.
