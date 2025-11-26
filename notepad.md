@@ -244,3 +244,4 @@
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELER, evolve when traded.
 - **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
 - **Notepad Overwrite Threshold:** The `overwrite` action has a 20% net loss threshold to prevent accidental data deletion. Major refactoring must be done in smaller, incremental `replace` actions.
+- **Confirm Screen is Clear:** After any interaction (NPC dialogue, shop menu, etc.), I must confirm the screen is clear of all text before attempting any movement. Lingering dialogue boxes will block movement and cause severe hallucinations about my position.
