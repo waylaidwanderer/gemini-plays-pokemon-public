@@ -201,6 +201,9 @@
 - **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN.
 
 **Current Strategy:**
-Testing **[OFF, OFF, OFF]**. 
-Hypothesis: Resetting S1 might unlock East side logic.
-Status: S1=ON (Changing to OFF), S2=OFF, S3=OFF.
+Testing **[OFF, ON, OFF]**. 
+Hypothesis: 
+- S1 OFF -> East Connector (12,9) OPEN.
+- S2 ON + S3 OFF -> West Connector (6,9) & Top West (3,6) OPEN.
+Route: Entrance -> Top West -> West Room -> Middle Room -> East Room.
+Status: S1=OFF, S2=OFF (Turning ON), S3=OFF.
