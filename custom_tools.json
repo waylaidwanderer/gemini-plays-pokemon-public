@@ -500,6 +500,37 @@
       }
     ]
   },
+  "select_item": {
+    "description": "Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_to_select": {
+          "type": "string"
+        },
+        "current_screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_to_select",
+        "current_screen_text"
+      ]
+    },
+    "python_script": "import re\nimport json\n\ndef select_item_logic(item_to_select, current_screen_text):\n    lines = [line for line in current_screen_text.split('\\n') if line.strip()]\n    \n    items_on_screen = []\n    current_selection_index = -1\n    \n    item_pattern = re.compile(r'([A-Z0-9\\s-]+)')\n\n    for i, line in enumerate(lines):\n        is_current = '▶' in line\n        \n        if '×' in line or '▶' in line or re.search(r'[A-Z]', line):\n            cleaned_line = re.sub(r'^[^A-Z]*', '', line).strip()\n            match = item_pattern.search(cleaned_line)\n            if match:\n                item_name = match.group(1).strip()\n                if 'POCKET' in item_name or 'ITEMS' in item_name or not item_name:\n                    continue\n                items_on_screen.append(item_name)\n                if is_current:\n                    current_selection_index = len(items_on_screen) - 1\n\n    if not items_on_screen or current_selection_index == -1:\n        return []\n\n    try:\n        target_index = items_on_screen.index(item_to_select.upper())\n        moves = target_index - current_selection_index\n        presses = []\n        if moves > 0:\n            presses.extend(['Down'] * moves)\n        elif moves < 0:\n            presses.extend(['Up'] * abs(moves))\n        presses.append('A')\n        return presses\n    except ValueError:\n        # Item not on screen, so scroll down to find it.\n        if items_on_screen:\n            return ['Down'] * len(items_on_screen)\n        else:\n            return []\n\nprint(json.dumps(select_item_logic(input_data['item_to_select'], input_data['current_screen_text'])))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_item tool to automate bag navigation. This tool addresses a major inefficiency identified after manually searching for a SUPER POTION. It parses the screen text to find the current cursor and target item, then generates the necessary button presses. This aligns with the 'DEFAULT TO AUTOMATION' principle and will save significant time in the future.",
+        "timestamp": "2025-11-25T19:55:54.391Z",
+        "action_counter": 16348
+      },
+      {
+        "commit_message": "fix: Implement scrolling for off-screen items. The previous version failed when the target item was not visible, returning an empty list. This new version, provided by the python_code_debugger agent, correctly handles this case by generating 'Down' presses to scroll the list by one page, allowing for iterative searching.",
+        "timestamp": "2025-11-26T00:34:32.234Z",
+        "action_counter": 16805
+      }
+    ]
+  },
   "select_move": {
     "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list and that the four moves are the last four non-empty lines of the screen text that contain alphabetical characters.",
     "input_schema": {
@@ -854,37 +885,6 @@
         "commit_message": "refactor: Make tool state-aware and improve parsing. The tool was failing because it was not state-aware and could not handle multi-word names. This complete rewrite makes the tool read the current cursor position from the screen text and uses a regular expression to reliably parse Pokémon names, resolving the critical failure.",
         "timestamp": "2025-11-25T14:54:52.137Z",
         "action_counter": 15887
-      }
-    ]
-  },
-  "select_item": {
-    "description": "Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_to_select": {
-          "type": "string"
-        },
-        "current_screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "item_to_select",
-        "current_screen_text"
-      ]
-    },
-    "python_script": "import re\nimport json\n\ndef select_item_logic(item_to_select, current_screen_text):\n    lines = [line for line in current_screen_text.split('\\n') if line.strip()]\n    \n    items_on_screen = []\n    current_selection_index = -1\n    \n    item_pattern = re.compile(r'([A-Z0-9\\s-]+)')\n\n    for i, line in enumerate(lines):\n        is_current = '▶' in line\n        \n        if '×' in line or '▶' in line or re.search(r'[A-Z]', line):\n            cleaned_line = re.sub(r'^[^A-Z]*', '', line).strip()\n            match = item_pattern.search(cleaned_line)\n            if match:\n                item_name = match.group(1).strip()\n                if 'POCKET' in item_name or 'ITEMS' in item_name or not item_name:\n                    continue\n                items_on_screen.append(item_name)\n                if is_current:\n                    current_selection_index = len(items_on_screen) - 1\n\n    if not items_on_screen or current_selection_index == -1:\n        return []\n\n    try:\n        target_index = items_on_screen.index(item_to_select.upper())\n        moves = target_index - current_selection_index\n        presses = []\n        if moves > 0:\n            presses.extend(['Down'] * moves)\n        elif moves < 0:\n            presses.extend(['Up'] * abs(moves))\n        presses.append('A')\n        return presses\n    except ValueError:\n        # Item not on screen, so scroll down to find it.\n        if items_on_screen:\n            return ['Down'] * len(items_on_screen)\n        else:\n            return []\n\nprint(json.dumps(select_item_logic(input_data['item_to_select'], input_data['current_screen_text'])))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_item tool to automate bag navigation. This tool addresses a major inefficiency identified after manually searching for a SUPER POTION. It parses the screen text to find the current cursor and target item, then generates the necessary button presses. This aligns with the 'DEFAULT TO AUTOMATION' principle and will save significant time in the future.",
-        "timestamp": "2025-11-25T19:55:54.391Z",
-        "action_counter": 16348
-      },
-      {
-        "commit_message": "fix: Implement scrolling for off-screen items. The previous version failed when the target item was not visible, returning an empty list. This new version, provided by the python_code_debugger agent, correctly handles this case by generating 'Down' presses to scroll the list by one page, allowing for iterative searching.",
-        "timestamp": "2025-11-26T00:34:32.234Z",
-        "action_counter": 16805
       }
     ]
   }

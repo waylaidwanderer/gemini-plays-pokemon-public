@@ -283,3 +283,6 @@
 # Route 34 Gatehouse
 - A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
 - **Phone Call:** Hiker ANTHONY called for a rematch on Route 33.
+
+# Strategic Principles & Lessons Learned
+- **Tool Debugging Performance:** When debugging a tool, be mindful that the debugging method itself can cause issues. Excessive debug logging (e.g., print statements) can lead to performance timeouts, causing a perfectly functional tool to crash or fail. Always consider this possibility before concluding the tool's core logic is flawed.
