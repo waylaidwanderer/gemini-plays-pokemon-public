@@ -197,8 +197,8 @@
 6. **[ON, OFF, ON]:** Top Middle & Top East & West Connector OPEN. Inner Shutter CLOSED.
 
 **Current State:** [ON, OFF, ON] (S1=ON, S2=OFF, S3=ON).
-**Hypothesis:** Access Middle/West Rooms to check southern shutters.
+**Result:** This configuration OPENS the Bottom West Shutter (3,10).
 
 **Current Plan:**
-1. Inspect Bottom West Shutter (3,10) (Bottom Middle confirmed CLOSED).
-2. If closed, re-evaluate puzzle logic. Consider [OFF, OFF, ON] or investigating the Unexplored Warp at (22,10) via East Room.
+1. Proceed South through the open Bottom West Shutter.
+2. Locate the Director or Key Items.
