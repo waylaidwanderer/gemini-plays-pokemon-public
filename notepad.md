@@ -227,3 +227,5 @@
 - **[ON, OFF, ON]**: Top East (16,6) CLOSED (Unexpected). Inner (16,10) Unreachable.
 - **[OFF, OFF, OFF]**: Top West (3,6) CLOSED. Dead End.
 - **[ON, OFF, OFF]**: Retrying. Hypothesis: S2 OFF + S3 OFF opens Bottom Middle (10,10).
+- **[ON, ON, ON]**: Top Middle (10,6) OPEN. (Verified Turn 9146)
+- **Mechanic**: Switch 2 ON opens Top Middle Shutter.
