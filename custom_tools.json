@@ -567,23 +567,23 @@
     ]
   },
   "select_move": {
-    "description": "Selects a move from the battle menu by name. Assumes the menu is a vertical list and that the four moves are the last four non-empty lines of the screen text that contain alphabetical characters. This version only selects the move; a manual 'A' press is required to execute it.",
+    "description": "Selects a move from the battle menu by name. Takes the full screen text as input, finds the cursor's current position, and calculates the button presses needed to reach the target move. This version only selects the move; a manual 'A' press is required to execute it.",
     "input_schema": {
       "type": "object",
       "properties": {
         "move_to_select": {
           "type": "string"
         },
-        "current_moves_list": {
+        "current_screen_text": {
           "type": "string"
         }
       },
       "required": [
         "move_to_select",
-        "current_moves_list"
+        "current_screen_text"
       ]
     },
-    "python_script": "import sys\nimport json\nimport re\n\ncurrent_moves_list = input_data['current_moves_list']\nmove_to_select = input_data['move_to_select']\n\n# Clean the target move name for robust comparison\ncleaned_move_to_select = re.sub(r'[^A-Z]', '', move_to_select.upper())\n\nlines = current_moves_list.split('\\n')\nmoves = []\ncursor_pos = -1\nmove_lines = []\ncursor_line_index = -1\n\n# Stage 1: Find the line with the cursor '▶' which is a reliable anchor.\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_line_index = i\n        break\n\nif cursor_line_index == -1:\n    # Cursor not found, so we can't determine the move list.\n    print(json.dumps([]))\n    sys.exit()\n\n# Stage 2: Identify the 4-line move block around the cursor's position.\n# A move line is identified by containing a '│' character.\ndef is_move_line(line):\n    return '│' in line\n\n# We test 4 possible blocks of 4 lines, assuming the cursor can be in any of the 4 slots.\nfor offset in range(4):\n    start_index = cursor_line_index - offset\n    end_index = start_index + 4\n    \n    # Check if this window is valid (within the bounds of the lines list)\n    if start_index < 0 or end_index > len(lines):\n        continue\n    \n    candidate_lines = lines[start_index:end_index]\n    \n    # Check if all lines in the candidate block look like move lines.\n    if all(is_move_line(line) for line in candidate_lines):\n        # We found the block. The cursor's position within this block is the offset.\n        move_lines = candidate_lines\n        cursor_pos = offset\n        break\n\nif not move_lines:\n    # Could not find a valid 4-line move block around the cursor.\n    print(json.dumps([]))\n    sys.exit()\n\n# Stage 3: Parse the move names from the identified lines.\nfor line in move_lines:\n    # Remove the cursor and the vertical bars, then strip whitespace.\n    move_name = re.sub(r'[│▶]', '', line).strip()\n    if move_name:\n        moves.append(move_name)\n\n# Sanity check: we must have found exactly 4 moves and a cursor.\nif len(moves) != 4 or cursor_pos == -1:\n    print(json.dumps([]))\n    sys.exit()\n\n# Stage 4: Calculate the necessary key presses.\ncleaned_moves = [re.sub(r'[^A-Z]', '', move.upper()) for move in moves]\n\ntry:\n    target_pos = cleaned_moves.index(cleaned_move_to_select)\nexcept ValueError:\n    # Target move not found in the list.\n    print(json.dumps([]))\n    sys.exit()\n\ndiff = target_pos - cursor_pos\npresses = []\nif diff > 0:\n    presses.extend(['Down'] * diff)\nelif diff < 0:\n    presses.extend(['Up'] * abs(diff))\n\nprint(json.dumps(presses))",
+    "python_script": "import sys\nimport json\nimport re\n\ncurrent_screen_text = input_data['current_screen_text']\nmove_to_select = input_data['move_to_select']\n\ncleaned_move_to_select = re.sub(r'[^A-Z]', '', move_to_select.upper())\n\nlines = current_screen_text.split('\\n')\nmoves = []\ncursor_pos = -1\nmove_lines = []\ncursor_line_index = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_line_index = i\n        break\n\nif cursor_line_index == -1:\n    print(json.dumps([]))\n    sys.exit()\n\ndef is_move_line(line):\n    # A move line in the battle screen text contains a vertical bar '│'\n    return '│' in line\n\nfor offset in range(4):\n    start_index = cursor_line_index - offset\n    end_index = start_index + 4\n    \n    if start_index < 0 or end_index > len(lines):\n        continue\n    \n    candidate_lines = lines[start_index:end_index]\n    \n    if all(is_move_line(line) for line in candidate_lines):\n        move_lines = candidate_lines\n        cursor_pos = offset\n        break\n\nif not move_lines:\n    print(json.dumps([]))\n    sys.exit()\n\nfor line in move_lines:\n    move_name = re.sub(r'[│▶]', '', line).strip()\n    if move_name:\n        moves.append(move_name)\n\nif len(moves) != 4 or cursor_pos == -1:\n    print(json.dumps([]))\n    sys.exit()\n\ncleaned_moves = [re.sub(r'[^A-Z]', '', move.upper()) for move in moves]\n\ntry:\n    target_pos = cleaned_moves.index(cleaned_move_to_select)\nexcept ValueError:\n    print(json.dumps([]))\n    sys.exit()\n\ndiff = target_pos - cursor_pos\npresses = []\nif diff > 0:\n    presses.extend(['Down'] * diff)\nelif diff < 0:\n    presses.extend(['Up'] * abs(diff))\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "feat: Create select_move tool to automate battle move selection. This tool takes a move name and a list of current moves, then calculates and outputs the necessary button presses to select that move. This directly addresses a system critique about inefficient manual menu navigation and will improve battle speed and reduce errors.",
@@ -879,6 +879,11 @@
         "commit_message": "fix: Overhaul parsing logic to anchor on cursor. The tool failed catastrophically because it was searching for a UI border ('┌') that was a hallucination and does not exist in the game. This complete rewrite removes the faulty logic and implements a robust, cursor-anchored search. It now reliably finds the '▶' cursor and intelligently identifies the surrounding 4-line move block, resolving the critical parsing failure.",
         "timestamp": "2025-11-26T15:23:01.820Z",
         "action_counter": 18043
+      },
+      {
+        "commit_message": "refactor: Overhaul tool to use raw screen text. The tool was fundamentally flawed because its schema expected a pre-parsed list of moves, but its parsing logic was designed for the full, complex screen text. This commit corrects the input schema to take `current_screen_text` and updates the script variable accordingly. This aligns the tool's logic with its data source and resolves the root cause of the persistent parsing failures.",
+        "timestamp": "2025-11-26T15:49:16.266Z",
+        "action_counter": 18092
       }
     ]
   },
