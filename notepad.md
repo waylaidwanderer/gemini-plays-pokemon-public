@@ -7,8 +7,8 @@
 ## Status
 - **Location:** Goldenrod Underground (Switch Room).
 - **Objective:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
-- **Current Switch State:** [ON, OFF, OFF] (S1, S2, S3).
-- **Immediate Task:** Toggle Switch 1 to OFF.
+- **Current Switch State:** [ON, ON, ON] (S1, S2, S3).
+- **Immediate Task:** Execute Agent Plan: Set to [ON, OFF, OFF] (Turn S3 OFF, then S2 OFF).
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
