@@ -219,3 +219,4 @@
 
 # Strategic Principles Update
 - **Pathing Around Off-Screen Objects:** When planning long paths that go off-screen, I must consult my map markers to manually account for known off-screen obstacles (like NPCs). My `find_path` tool is blind to off-screen objects, and relying on it alone for long paths will lead to interruptions.
+- **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements (like the '▶' cursor) are superior to complex, brittle ones that rely on variable or non-existent content (like a hallucinated '┌' border).
