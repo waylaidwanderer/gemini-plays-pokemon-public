@@ -194,3 +194,4 @@
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
+- **EXECUTION DISCIPLINE FAILURE:** A critique highlighted a failure where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose. This is a critical failure of the 'DEFAULT TO AUTOMATION' principle.
