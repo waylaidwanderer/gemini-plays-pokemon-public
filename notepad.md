@@ -9,12 +9,14 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 
 ### Switch Puzzle Rules & Logic
-**Goal:** Enter West Room via Top West Shutter (3,6) to reach Warehouse.
-**Current State:** [ON, OFF, ON]. S1 ON, S2 OFF, S3 ON.
-- **Verified:** [ON, OFF, ON] result: Top Middle (10,6) CLOSED. Top East (16,6) OPEN. Inner Shutter (16,10) CLOSED.
-**Verified:** [ON, ON, ON] -> Top Middle CLOSED. Top East CLOSED.
-**Analysis:** S3 ON closes Top East/Middle. S3 must be OFF.
-**Next Test:** [ON, ON, OFF]. (S1 ON, S2 ON, S3 OFF).
+**Goal:** Find open path to Warehouse.
+**Current State:** [ON, OFF, ON] (S1 ON, S2 OFF, S3 ON).
+- **Verified Results:**
+  - Top East (16,6): OPEN.
+  - Inner Shutter (16,10): CLOSED.
+  - East Connector (12,9): OPEN.
+  - Top Middle (10,6): CLOSED.
+- **Next Check:** Bottom Middle Shutter (10,10).
 **Hypothesis:** S1 ON opens Top East. S2 ON opens Bottom East (Target).
 **Next Test:** [ON, OFF, ON]. (S1 ON, S2 OFF, S3 ON).
 **History:**
