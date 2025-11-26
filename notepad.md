@@ -15,11 +15,11 @@
   - ON: Opens Middle Shutter (10,6).
   - OFF: Closes Middle Shutter.
 - **Switch 3 (West Control):**
-  - OFF: Default.
   - ON: Opens Top West Shutter (3,6). Bottom West Shutter (3,10) CLOSED.
+  - OFF: Hypothesis: Opens Bottom West Shutter (3,10).
 - **Current Configuration:** [OFF, ON, ON].
   - Result: Top West Open. Bottom West Closed.
-- **Plan:** Move to Switch 2 (10,1) and turn OFF. Hypothesis: S2 controls bottom shutters.
+- **Plan:** Turn Switch 3 OFF. Exit via Middle Room (S2 ON). Go West via Connector (6,9).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
