@@ -249,3 +249,11 @@
   - **Result:** He gave me CHARCOAL as a thank you, but no information about the Slowpoke situation.
   - **Conclusion:** Hypothesis failed. He is not the immediate story trigger.
 - **State-Aware Automation:** Any tool that navigates a list-based UI (like the party menu or move list) MUST be state-aware. It must identify the current cursor position (e.g., from a '▶' marker) and calculate relative movements ('Up'/'Down') rather than assuming a fixed starting point. This prevents catastrophic failures when the UI state is not what's expected.
+- **TALL_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
+- **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
+- **FLOWER**: Fully traversable decorative tile.
+- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
+- **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate.
+- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
+- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
