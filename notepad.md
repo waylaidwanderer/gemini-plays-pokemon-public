@@ -17,7 +17,7 @@
 2. **Switch 3 (West):** Controls Top West (3,6). OFF = Open, ON = Closed.
 3. **Linkage:** S3 ON -> Forces S2 ON.
 
-**Current Test:** [ON, ON?, OFF] (S1 ON, S3 turned OFF). Testing if S2 stays ON.
+**Current Test:** [ON, ON, OFF] (S1 ON, S2 ON, S3 OFF). Confirmed S2 stayed ON. Checking Shutters.
 **Tested & Failed:**
 - [ON, OFF, OFF]
 - [ON, OFF, ON]
