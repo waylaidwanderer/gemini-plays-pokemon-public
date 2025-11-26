@@ -188,13 +188,12 @@
 **Goal:** Open Path South (Bottom West 3,10 / Bottom Middle 10,10 / Inner Shutter 16,10).
 
 **Verified Logic & States:**
-1. **[ON, ON, ON]:** Top West OPEN. Bottom West CLOSED. West Connector CLOSED.
-2. **[ON, ON, OFF]:** Top Middle OPEN. East Connector OPEN. South Shutters CLOSED.
-3. **[OFF, ON, OFF]:** Top West CLOSED. West Connector OPEN.
-4. **[OFF, ON, ON]:** Top West CLOSED. West Connector CLOSED.
+1. **[ON, ON, ON]:** Top West OPEN. South CLOSED.
+2. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South CLOSED.
+3. **[OFF, ON, OFF]:** West Connector OPEN. Top West CLOSED.
+4. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED.
 5. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
-6. **[ON, OFF, OFF]:** Top East CLOSED. (Hypothesis: Opens Bottom East?)
 
 **Current Plan:**
-1. Transition to [ON, OFF, OFF] (S3 OFF -> S2 OFF).
-2. Check Bottom East Shutter.
+1. Verify Switch 2 state to confirm Linkage (S3 ON -> S2 ON?).
+2. Test [ON, OFF, ON].
