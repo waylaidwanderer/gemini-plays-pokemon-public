@@ -201,3 +201,4 @@
 ### Shutter Puzzle Solved
 - **Solution:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
 - **Effect:** Opens East, Middle, and West Shutters.
+- [ON, ON, ON]: Middle Shutter (10,6) CLOSED.
