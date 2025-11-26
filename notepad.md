@@ -207,5 +207,6 @@
 - **[ON, OFF, OFF]**: Top East Open, Top West Open, Middle CLOSED, Bottom West CLOSED.
 - **[ON, ON, OFF]**: Middle CLOSED, Bottom West CLOSED.
 - **[ON, ON, ON]**: Top East OPEN, Middle OPEN, Top West OPEN, Bottom West CLOSED.
+- **[ON, ON, ON]**: Top East OPEN, Middle OPEN, Top West OPEN, Bottom West CLOSED.
 - **[ON, OFF, ON]**: Top West OPEN. Bottom West (3,10) CLOSED. Connector (6,9) CLOSED.
 - **[OFF, ON, ON]**: West Connector (6,9) OPEN. Bottom West (3,10) CLOSED. Top West OPEN.
