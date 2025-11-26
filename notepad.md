@@ -15,12 +15,11 @@
   - ON: Opens Middle Shutter (10,6). (Side effect: Closes East Shutter).
   - OFF: Closes Middle Shutter.
 - **Switch 3 (Divider/West Control):**
-  - ON: Opens East Divider (16,7) / Closes West Shutter.
-  - OFF: Closes East Divider (16,7) / Opens West Shutter.
-  - **Constraint:** S3 ON also forces Middle Shutter CLOSED.
+  - ON: Opens East Divider (Hypothesis revised). Closes West Shutter.
+  - OFF: Opens West Shutter.
 - **Current Configuration:** [ON, OFF, OFF].
-  - Result: (16,6) OPEN, (16,7) CLOSED.
-- **Plan:** Turn S3 ON. Target: [ON, OFF, ON] to open (16,7).
+  - Result: (16,6) OPEN. (16,7) OPEN (Verified by Notification).
+- **Plan:** Proceed South through the open path at (16, 6-7).
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
