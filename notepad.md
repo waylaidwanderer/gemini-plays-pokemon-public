@@ -9,8 +9,8 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 ### Master Switch Logic (Consolidated)
 - **Switch 1 (East Control):**
-  - ON: Closes West Connector (6,9)? (Hypothesis)
-  - OFF: Opens West Connector (6,9). Closes East Connector (12,9).
+  - ON: Opens Top East Shutter (16,6).
+  - OFF: Closes Top East Shutter (16,6). Opens West Connector (6,9). Closes East Connector (12,9).
 - **Switch 2 (Middle Control):**
   - ON: Opens Middle Shutter (10,6).
   - OFF: Closes Middle Shutter.
