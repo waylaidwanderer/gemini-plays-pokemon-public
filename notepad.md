@@ -23,10 +23,10 @@
   - ON: Untested recently. Currently testing [ON, OFF, OFF].
 
 ### Verified Switch Logic
-- **Switch 1:** OFF = East Shutter (12,9) OPEN (Verified). ON = Closed.
-- **Switch 2:** OFF = Middle Shutter (10,6) Closed. Hypothesis: ON = Open.
+- **Switch 1:** OFF = East Shutter (12,9) OPEN. ON = Closed.
+- **Switch 2:** OFF = Middle Shutter (10,6) Closed. ON = Middle Shutter (10,6) OPEN.
 - **Switch 3:** OFF = West Shutter Open / East Divider Closed. ON = West Shutter Closed / East Divider Open.
-- **Current Status:** Switches set to [OFF, ON, OFF]. Testing Middle Shutter (10,6). S1 is OFF (East Shutter Open). S2 is ON.
+- **Current Status:** Switches set to [OFF, ON, OFF]. Middle Shutter OPEN. Proceeding South to rescue Director.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
