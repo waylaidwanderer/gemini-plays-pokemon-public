@@ -217,3 +217,5 @@
 - **[OFF, ON, OFF]**: Top Middle OPEN (Confirmed). Top East CLOSED.
 - **[OFF, ON, OFF]**: West Connector (6,9) OPEN. Top Middle (10,6) OPEN. Path to West Room via Middle Room confirmed.
 Bottom West Shutter (3,10) CLOSED. Checking Bottom Middle Shutter.
+- **[OFF, ON, OFF]**: Top West OPEN. Top Middle OPEN. West Connector OPEN. Bottom West (3,10) CLOSED. Bottom Middle (10,10) CLOSED.
+New Plan: Test [ON, ON, ON] to see if S3 affects Bottom East (16,10).
