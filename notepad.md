@@ -26,7 +26,7 @@
 - **Switch 1:** OFF = East Shutter (12,9) OPEN (Verified). ON = Closed.
 - **Switch 2:** OFF = Middle Shutter (10,6) Closed. Hypothesis: ON = Open.
 - **Switch 3:** OFF = West Shutter Open / East Divider Closed. ON = West Shutter Closed / East Divider Open.
-- **Current Plan:** Set [OFF, ON, OFF]. This keeps East Shutter OPEN (via S1) and should open Middle Shutter (via S2).
+- **Current Status:** Switches set to [OFF, ON, OFF]. Testing Middle Shutter (10,6). S1 is OFF (East Shutter Open). S2 is ON.
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
@@ -211,4 +211,4 @@
 - **Switch 1:** OFF = East Shutter (12,9) OPEN (Verified). ON = Closed.
 - **Switch 2:** Controls Middle Shutter (10,6). Expect ON to OPEN.
 - **Switch 3:** Toggles West/East Dividers.
-- **Current Plan:** Set [OFF, ON, OFF]. This keeps East Shutter OPEN (via S1) and should open Middle Shutter (via S2).
+- **Current Status:** Switches set to [OFF, ON, OFF]. Testing Middle Shutter (10,6). S1 is OFF (East Shutter Open). S2 is ON.
