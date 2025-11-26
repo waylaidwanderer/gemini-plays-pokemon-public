@@ -22,14 +22,11 @@
   - OFF: Seems to enable the Divider logic.
   - ON: Untested recently. Currently testing [ON, OFF, OFF].
 
-### Puzzle Logic Conflict
-- To reach East Section: Need East Divider OPEN (Requires S3 ON).
-- To enter area: Need Middle Shutter OPEN (Requires S2 ON).
-- Problem: S3 ON closes Middle Shutter.
-- **Solution Search:**
-  - Must find a state where Middle Shutter AND East Divider are OPEN.
-  - OR find a different entry point (East Shutter?).
-  - OR find a state where S3 ON *doesn't* close Middle Shutter (maybe S1 ON prevents the override?).
+### Verified Switch Logic
+- **Switch 1:** OFF = East Shutter (12,9) OPEN (Verified). ON = Closed.
+- **Switch 2:** OFF = Middle Shutter (10,6) Closed. Hypothesis: ON = Open.
+- **Switch 3:** OFF = West Shutter Open / East Divider Closed. ON = West Shutter Closed / East Divider Open.
+- **Current Plan:** Set [OFF, ON, OFF]. This keeps East Shutter OPEN (via S1) and should open Middle Shutter (via S2).
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
