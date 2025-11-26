@@ -199,4 +199,4 @@
 - Mark the unmarked warp at (33, 19) in the National Park after the Bug-Catching Contest.
 
 # To-Do
-- Refine `select_battle_option` tool to handle the Bug-Catching Contest's 'PARKBALL' option.
+- Define `select_contest_option` tool to handle the Bug-Catching Contest's 'PARKBALL' option.
