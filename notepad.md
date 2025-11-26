@@ -222,3 +222,4 @@
 - Plan: Restore [OFF, ON, ON] to open Top West & Lower East Connector.
 - **[OFF, OFF, ON]**: Tested. Top West (3,6) CLOSED (Collision verified). West Connector (6,9) OPEN. Bottom Middle (10,10) CLOSED. 
   - Conclusion: Switch 2 MUST be ON to open Top West Shutter.
+- [OFF, ON, ON]: Top West (3,6) OPEN. West Connector (6,9) CLOSED. Dead End.
