@@ -14,8 +14,8 @@
 
 **Verified Mechanics:**
 1. **Switch 1 (East):** 
-   - ON: Opens Top East Shutter (16,6) and West Connector (6,9).
-   - OFF: Required for Top West Shutter (3,6) to open (with S3 ON).
+   - ON: Required for West Connector (6,9) and Top East Shutter (16,6).
+   - OFF: Required for Top West Shutter (3,6). (Mutual exclusivity confirmed).
 2. **Switch 3 (West):** 
    - ON: With S1 OFF, opens Top West Shutter (3,6).
 3. **Switch 2 (Middle):**
