@@ -277,10 +277,8 @@
 - Youngster JOEY called for a rematch on Route 30.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **UI Parsing Debugging:** When debugging a UI parsing tool, the root cause of repeated failures is often a flawed assumption about the UI's structure or the raw input data (e.g., how newlines are represented). Use debug logs to verify the raw input and confirm the parsing logic matches the actual text.
-- **Phone Call:** Hiker Anthony called to say there are lots of timid DUNSPARCE in DARK CAVE, away from stronger POKéMON.
-- **Phone Call:** Hiker Anthony called to say there are lots of timid DUNSPARCE in DARK CAVE, away from stronger POKéMON.
+- Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-- **Phone Call:** Hiker Anthony called for another rematch on Route 33.
 
 # Route 34 Gatehouse
 - A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
