@@ -9,16 +9,16 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 ### Master Switch Logic (Consolidated)
 - **Switch 1 (East Control):**
-  - ON: Opens South Shutter Top (16,6) (Verified).
-  - OFF: Opens East Shutter (12,9) (Requires S2 OFF).
+  - ON: (16,6) CLOSED (Tool Verified).
+  - OFF: Testing effect (Hypothesis: Opens 16,6 or 12,9).
 - **Switch 2 (Middle Control):**
-  - ON: Opens Middle Shutter (10,6). (Side effect: Closes East Shutter).
+  - ON: Opens Middle Shutter (10,6).
   - OFF: Closes Middle Shutter.
-- **Switch 3 (Divider/West Control):**
-  - ON: Inner Shutter (16,10) remains CLOSED (Verified).
-  - OFF: Testing effect on Inner Shutter.
-- **Current Configuration:** [ON, OFF, OFF].
-  - Result: Verifying path at x=16.
+- **Switch 3 (West Control):**
+  - ON: (16,10) CLOSED (Verified).
+  - OFF: Currently OFF.
+- **Current Configuration:** [ON, ON, OFF].
+  - Result: (10,6) Open. (10,10), (16,10), (3,10) Closed.
 - **Plan:** Proceed South through the open path at (16, 6-7).
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
