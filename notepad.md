@@ -5,22 +5,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground (Warehouse Entrance).
-- **Objective:** Rescue Director from Underground Warehouse.
-
-### Switch Puzzle Rules & Logic
-**Goal:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
-**Current State:** [OFF, ON, ON] (S1, S2, S3).
-**Plan:** Transition to [ON, OFF, ON]. Turn S2 OFF, then S1 ON.
-**Hypothesis:** Top West will be OPEN. Path: Top West -> West Connector -> East Connector -> Inner Shutter.
-
-**Verified History:**
-1. [ON, OFF, OFF]: Top East OPEN. Inner (16,10) CLOSED. East Connector CLOSED. West Connector OPEN.
-2. [ON, ON, OFF]: Top East OPEN. Inner (16,10) CLOSED.
-3. [ON, ON, ON]: Top Middle OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
-4. [OFF, ON, ON]: Top West OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
-5. [OFF, OFF, ON]: Top West OPEN. West Connector OPEN. Bottom Middle CLOSED.
-6. [ON, OFF, ON]: Top East CLOSED.
+- **Location:** Goldenrod Underground (Switch Room).
+- **Objective:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
+- **Current Switch State:** [OFF, ON, OFF] (S1, S2, S3).
+- **Immediate Task:** Check West Connector (6,9).
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
@@ -194,32 +182,20 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-### Verified Switch Configurations (S1, S2, S3)
-**Note:** S1 controls Entry (East vs West). S2 likely controls Middle/Bottoms. S3 controls Connectors/Linkages.
-- **[ON, OFF, OFF]**: Top East (16,6) OPEN. Inner (16,10) CLOSED. East Connector (12,9) OPEN.
-- **[ON, ON, OFF]**: Top East OPEN. Inner (16,10) CLOSED.
-- **[OFF, OFF, ON]**: Top West (3,6) OPEN. Bottom West (3,10) CLOSED.
-- **[OFF, ON, OFF]**: Top West OPEN. Top Middle OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
-- **[ON, ON, ON]**: Bottom West (3,10) CLOSED. Bottom Middle (10,10) CLOSED. West Connector (6,9) OPEN. Top Middle (10,6) OPEN.
-**Lesson:** `sequence_press` tool requires `autopress_buttons: true` to work.
-**Next Test:** [OFF, ON, ON] (Turn S1 OFF).
-- **[ON, ON, ON]**: Bottom West (3,10) CLOSED. Bottom Middle (10,10) CLOSED. West Connector (6,9) OPEN.
-**Next Test:** [OFF, ON, ON] (Turn S1 OFF).
-- **[OFF, ON, ON]**: East Connector (12, 9) OPEN. Testing West Shutters.
-- **[OFF, ON, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9113)
-- **[OFF, ON, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9114)
-- **[OFF, OFF, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9118)
-- **[OFF, OFF, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9118)
-- **Pattern Observation**: In all configurations where S2 is ON, the bottom shutters have remained CLOSED. This suggests S2 must be OFF to open them.
-- **Current Test**: [ON, OFF, ON]. Checking Inner Shutter (16, 10).
-- **[ON, OFF, ON]**: Top East (16,6) CLOSED (Unexpected). Inner (16,10) Unreachable.
-- **[ON, OFF, ON]**: Top East (16,6) CLOSED (Unexpected). Inner (16,10) Unreachable.
-- **[OFF, OFF, OFF]**: Top West (3,6) CLOSED. Dead End.
-- **[ON, OFF, OFF]**: Retrying. Hypothesis: S2 OFF + S3 OFF opens Bottom Middle (10,10).
-- **[ON, ON, ON]**: Top Middle (10,6) OPEN. (Verified Turn 9146)
-- **Mechanic**: Switch 2 ON opens Top Middle Shutter.
-- [OFF, OFF, ON]: Top West CLOSED. (Verified Turn 9315)
-- Plan: Restore [OFF, ON, ON] to open Top West & Lower East Connector.
-- **[OFF, OFF, ON]**: Tested. Top West (3,6) CLOSED (Collision verified). West Connector (6,9) OPEN. Bottom Middle (10,10) CLOSED. 
-  - Conclusion: Switch 2 MUST be ON to open Top West Shutter.
-- [OFF, ON, ON]: Top West (3,6) OPEN. West Connector (6,9) CLOSED. Dead End.
+
+### Switch Puzzle Analysis (Goldenrod Underground)
+**Goal:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
+**Mechanics Observed:**
+- **S1 (East):** ON=Top East Open. OFF=East Connector Open (Hypothesis).
+- **S2 (Middle):** ON=Top Middle Open & Top West Open. OFF=Bottom Shutters Open (Hypothesis).
+- **S3 (West):** ON=West Connector Open (Verified for [OFF, OFF, ON] but CLOSED for [OFF, ON, ON]).
+
+**Verified Configurations (S1, S2, S3):**
+- **[ON, OFF, OFF]:** Top East OPEN. Inner CLOSED. West Conn OPEN. East Conn CLOSED.
+- **[ON, ON, OFF]:** Top East OPEN. Inner CLOSED.
+- **[ON, ON, ON]:** Top Middle OPEN. West Conn OPEN. Bottoms CLOSED.
+- **[ON, OFF, ON]:** Top East CLOSED. Lockout from North.
+- **[OFF, OFF, ON]:** Top West CLOSED. West Conn OPEN. Bottom Middle CLOSED.
+- **[OFF, ON, ON]:** Top West OPEN. West Conn CLOSED (Dead End). Top Middle OPEN.
+**Current Test:** [OFF, ON, OFF].
+**Hypothesis:** S1 OFF opens East Conn? S3 OFF opens West Conn? S2 ON keeps Top Open?
