@@ -188,12 +188,16 @@
 **Goal:** Open Path South (Bottom West 3,10 / Bottom Middle 10,10 / Inner Shutter 16,10).
 
 **Verified Logic & States:**
+- **Linkage S3->S2:** FALSE (Verified Independent).
 1. **[ON, ON, ON]:** Top West OPEN. South CLOSED.
 2. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South CLOSED.
 3. **[OFF, ON, OFF]:** West Connector OPEN. Top West CLOSED.
 4. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED.
 5. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
 
+**Current State:** [ON, OFF, ON] (S1=ON, S2=OFF, S3=ON).
+**Hypothesis:** S3 ON might affect South Shutters when combined with S1 ON/S2 OFF.
+
 **Current Plan:**
-1. Verify Switch 2 state to confirm Linkage (S3 ON -> S2 ON?).
-2. Test [ON, OFF, ON].
+1. Keep S2 OFF.
+2. Check Top East Shutter (16,6) and Inner Shutter (16,10).
