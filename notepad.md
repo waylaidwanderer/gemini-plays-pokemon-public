@@ -280,3 +280,4 @@
 - **Phone Call:** Hiker Anthony called to say there are lots of timid DUNSPARCE in DARK CAVE, away from stronger POKéMON.
 - **Phone Call:** Hiker Anthony called to say there are lots of timid DUNSPARCE in DARK CAVE, away from stronger POKéMON.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
+- **Phone Call:** Hiker Anthony called for another rematch on Route 33.
