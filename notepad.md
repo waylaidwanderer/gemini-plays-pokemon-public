@@ -16,7 +16,10 @@
   - Inner Shutter (16,10): CLOSED.
   - East Connector (12,9): OPEN.
   - Top Middle (10,6): CLOSED.
-- **Next Check:** Bottom Middle Shutter (10,10).
+  - Bottom Middle (10,10): CLOSED.
+**Analysis:** [ON, OFF, ON] is a dead end.
+**Next Test:** [ON, ON, ON]. (S1 ON, S2 ON, S3 ON).
+- **Hypothesis:** Re-testing if S2 ON opens Top Middle (contradiction in notes).
 **Hypothesis:** S1 ON opens Top East. S2 ON opens Bottom East (Target).
 **Next Test:** [ON, OFF, ON]. (S1 ON, S2 OFF, S3 ON).
 **History:**
