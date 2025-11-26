@@ -7,27 +7,20 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-### Switch Mechanics (Verified & Deduced)
-- **Switch 2 (Middle Shutter Control):**
-  - ON: Opens Middle Shutter (Verified in [OFF, ON, OFF]).
+### Master Switch Logic (Consolidated)
+- **Switch 1 (East Control):**
+  - ON: Opens South Shutter Top (16,6) (Verified).
+  - OFF: Opens East Shutter (12,9) (Requires S2 OFF).
+- **Switch 2 (Middle Control):**
+  - ON: Opens Middle Shutter (10,6). (Side effect: Closes East Shutter).
   - OFF: Closes Middle Shutter.
-  - **Constraint:** Switch 3 ON seems to OVERRIDE this and CLOSE the Middle Shutter (Verified in [OFF, ON, ON]).
-
-- **Switch 3 (West/East Toggle):**
-  - OFF: Opens West Shutter (Verified). Closes East Divider (Verified).
-  - ON: Closes West Shutter. Opens East Divider (Verified).
-  - **Side Effect:** Turning S3 ON closes the Middle Shutter even if S2 is ON.
-
-- **Switch 1 (Unknown/Divider Control):**
-  - OFF: Seems to enable the Divider logic.
-  - ON: Untested recently. Currently testing [ON, OFF, OFF].
-
-### Verified Switch Logic
-- **Switch 1:** ON = Opens South Shutter Top (16,6). OFF = Opens East Shutter (12,9) (Requires S2 OFF).
-- **Switch 2:** ON = Opens Middle Shutter (10,6). OFF = Allows East Shutter (12,9) to open.
-- **Switch 3:** ON = Hypothesized to open East Divider (16,7). OFF = Default.
-- **Current Status:** [ON, OFF, OFF]. (16,6) OPEN, (16,7) CLOSED. (12,9) CLOSED.
-- **Plan:** Turn S3 ON. Target: [ON, OFF, ON] to try and open (16,7).
+- **Switch 3 (Divider/West Control):**
+  - ON: Opens East Divider (16,7) / Closes West Shutter.
+  - OFF: Closes East Divider (16,7) / Opens West Shutter.
+  - **Constraint:** S3 ON also forces Middle Shutter CLOSED.
+- **Current Configuration:** [ON, OFF, OFF].
+  - Result: (16,6) OPEN, (16,7) CLOSED.
+- **Plan:** Turn S3 ON. Target: [ON, OFF, ON] to open (16,7).
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
