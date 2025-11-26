@@ -11,22 +11,16 @@
 - **Key Finding:** This state opens the path to the West Room South, but it appeared to be a dead end. Re-investigation required.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Open Path South (Inner Shutter 16,10 or Bottom Middle 10,10).
+**Goal:** Open South Path (Bottom West 3,10 | Bottom Middle 10,10 | Inner Shutter 16,10).
 
-**Verified States:**
-1. **[OFF, OFF, ON]:** Top West OPEN. Top East, West Connector, Bottom West CLOSED.
-2. **[ON, OFF, ON]:** Top West OPEN. Top East, West Connector, Bottom West CLOSED.
-3. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED. (Verified).
-4. **[ON, ON, OFF]:** Top East & Top West OPEN. Inner Shutter & Bottom West CLOSED. (Verified).
-5. **[ON, ON, ON]:** Top East & Top West OPEN. West Connector (6, 9) & Bottom West (3, 10) CLOSED.
-6. **[OFF, ON, ON]:** Top East & Top West CLOSED. (Verified).
-7. **[OFF, ON, OFF]:** Top West OPEN. Top Middle CLOSED. (Verified).
-8. **[OFF, OFF, OFF]:** Testing next.
-
-**Historical Notes (May need re-verification):**
-- [ON, ON, OFF]: Top Middle & East Connector OPEN.
-- [OFF, ON, OFF]: West Connector OPEN.
-- [OFF, ON, ON]: West Connector CLOSED.
+**Verified State Log:**
+1. **[ON, OFF, ON]:** Top West OPEN. Top East CLOSED. Bottom West CLOSED. West Conn CLOSED.
+2. **[ON, OFF, OFF]:** Top East OPEN. Top West CLOSED. Inner Shutter CLOSED.
+3. **[ON, ON, OFF]:** Top East & Top West OPEN. Inner Shutter CLOSED. Bottom West CLOSED. Top Middle CLOSED.
+4. **[ON, ON, ON]:** Top East & Top West OPEN. Inner Shutter CLOSED. Bottom West CLOSED. West Conn CLOSED.
+5. **[OFF, ON, ON]:** Top East & Top West CLOSED.
+6. **[OFF, ON, OFF]:** Top West OPEN. Top Middle CLOSED. West Conn CLOSED. Bottom West CLOSED.
+7. **[OFF, OFF, OFF]:** Testing next.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
