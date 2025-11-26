@@ -11,7 +11,8 @@
 ### Switch Puzzle Rules & Logic
 **Goal:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
 **Current State:** [OFF, ON, ON] (S1, S2, S3).
-**Agent Status:** Testing Snake Path (Deviated from agent rec due to potential lockout).
+**Plan:** Transition to [ON, OFF, ON]. Turn S2 OFF, then S1 ON.
+**Hypothesis:** Top West will be OPEN. Path: Top West -> West Connector -> East Connector -> Inner Shutter.
 
 **Verified History:**
 1. [ON, OFF, OFF]: Top East OPEN. Inner (16,10) CLOSED. East Connector CLOSED. West Connector OPEN.
