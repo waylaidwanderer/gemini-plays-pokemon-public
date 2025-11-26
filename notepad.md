@@ -195,6 +195,6 @@
   - Hestia (MAGBY), Lv15, Female
 
 # High-Priority Task: Tool Repair
-- **`select_move` Tool is CRITICALLY BROKEN.**
-- **Problem:** The tool fails to parse the move selection screen correctly due to repeated agent hallucinations about the UI layout (PP counts are on separate lines, not interleaved). Multiple agent-provided fixes have failed.
-- **Resolution:** The **NEXT** time I am in a battle and the move selection screen is visible, my absolute highest priority is to call `python_code_debugger` with a detailed bug report to get a working fix. This task supersedes winning the battle or any other action.
+- **`select_move` Tool is CRITICALLY BROKEN (AGAIN).**
+- **Problem:** The tool returned an empty list during the last battle, indicating a parsing failure. The logic likely does not account for the `│   │` characters or other UI elements on the move lines.
+- **Resolution:** The **NEXT** time I am in a battle and the move selection screen is visible, my absolute highest priority is to call `python_code_debugger` with the broken script and a detailed bug report to get a working fix. This task supersedes winning the battle.
