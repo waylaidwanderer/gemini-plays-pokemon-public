@@ -23,13 +23,11 @@
   - ON: Untested recently. Currently testing [ON, OFF, OFF].
 
 ### Verified Switch Logic
-- **Switch 1:** ON = Opens South Shutter Top (16,6) (Verified). OFF = Closed.
-- **Switch 2:** ON = Opens Middle Shutter (10,6).
-- **Switch 3:** ON = Opens East Divider / West Shutter Closed. OFF = West Open.
-- **Hypothesis:** S1 ON opens (16,6). S3 ON might open (16,7) (East Divider?).
-- **Current Status:** [ON, OFF, OFF]. (16,6) is OPEN. (16,7) is CLOSED.
-- **Plan:** Turn S3 ON. Target: [ON, OFF, ON].
-- **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
+- **Switch 1:** ON = Opens South Shutter Top (16,6). OFF = Opens East Shutter (12,9) (Requires S2 OFF).
+- **Switch 2:** ON = Opens Middle Shutter (10,6). OFF = Allows East Shutter (12,9) to open.
+- **Switch 3:** ON = Hypothesized to open East Divider (16,7). OFF = Default.
+- **Current Status:** [ON, OFF, OFF]. (16,6) OPEN, (16,7) CLOSED. (12,9) CLOSED.
+- **Plan:** Turn S3 ON. Target: [ON, OFF, ON] to try and open (16,7).
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
