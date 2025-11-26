@@ -220,3 +220,4 @@
 - **[OFF, ON, ON]**: East Connector (12, 9) OPEN. Testing West Shutters.
 - **[OFF, ON, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9113)
 - **[OFF, ON, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9114)
+- **[OFF, OFF, ON]**: Top West OPEN. West Connector OPEN. Bottom West CLOSED. (Verified Turn 9118)
