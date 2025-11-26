@@ -4,7 +4,6 @@
 - **IMMEDIATE TOOL MAINTENANCE:** If a tool is flawed, a better one can be conceived, or a hallucinated tool needs to be replaced, this is the absolute highest priority. I must define, refine, or delete the necessary tool in the current turn, not defer it as a goal or a future task. This prevents repeated manual errors and enforces my 'DEFAULT TO AUTOMATION' principle.
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task, I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
-- **TRUST THE TOOL:** The most critical lesson from the Route 31 pathfinding failure: The `find_path` tool was *correctly* reporting 'No path found' because my visual assumption about the map layout was wrong. I wasted dozens of turns 'fixing' a working tool instead of questioning my own root assumption. The tool's analysis of the raw game data is the source of truth, not my eyes.
 - **Agent Escalation for Debugging:** If I am struggling to debug a tool manually after a few attempts, I MUST escalate to the `python_code_debugger` agent. It can often identify logical flaws more quickly and efficiently than I can.
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
 - **Tool Parameter Verification:** When calling a tool, especially one that automates actions like `select_move`, I must double-check all parameters, such as `autopress_buttons`, to ensure the call is correctly formatted and will execute as intended. A simple oversight can waste a turn.
@@ -50,6 +49,8 @@
 - **Tool Context Awareness:** Tools like `select_battle_option` are context-specific and will fail if used when the required UI (e.g., the main battle menu) is not visible. Always verify the game state before calling a context-dependent tool.
 - **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements are superior to complex, brittle ones that rely on variable content.
 - **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
+- **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
+- **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -273,11 +274,3 @@
 - **TRUST THE TOOL:** When a trusted tool's output contradicts a visual assumption, the assumption is the likely source of error. The tool analyzes raw game data and is more reliable. I must verify the assumption in-game before attempting to debug the tool.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
 - **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
-
-# Strategic Principles & Lessons Learned
-- **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
-- **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
-
-# Strategic Principles & Lessons Learned
-- **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
-- **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
