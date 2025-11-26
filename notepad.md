@@ -220,3 +220,5 @@
 - **Mechanic**: Switch 2 ON opens Top Middle Shutter.
 - [OFF, OFF, ON]: Top West CLOSED. (Verified Turn 9315)
 - Plan: Restore [OFF, ON, ON] to open Top West & Lower East Connector.
+- **[OFF, OFF, ON]**: Tested. Top West (3,6) CLOSED (Collision verified). West Connector (6,9) OPEN. Bottom Middle (10,10) CLOSED. 
+  - Conclusion: Switch 2 MUST be ON to open Top West Shutter.
