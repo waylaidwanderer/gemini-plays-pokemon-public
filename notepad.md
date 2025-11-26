@@ -201,12 +201,11 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-### Tested Switch Configurations
-- [ON, OFF, OFF]: Blocked at Inner East (16,10).
-- [ON, OFF, ON]: Blocked at Inner East (16,10).
-- [OFF, OFF, ON]: Blocked (All Shutters Closed).
-- [ON, ON, ON]: Blocked at Inner East (16,10).
-- [OFF, ON, ON]: Middle Open (10,6), but Blocked at (10,10). West/East Closed.
-- **Current Test:** [ON, ON, OFF].
-  - Strategy: Turn S1 ON, then S3 OFF. S2 remains ON.
-  - Goal: Open Inner East Shutter (16,10).
+### Verified Switch Configurations (S1, S2, S3)
+- **[OFF, ON, ON]**: Top West Open, Middle Open, Bottom West CLOSED.
+- **[OFF, ON, OFF]**: Top West Open, Middle CLOSED, Bottom West CLOSED.
+- **[OFF, OFF, OFF]**: Middle CLOSED, Bottom West CLOSED.
+- **[ON, OFF, OFF]**: Top East Open, Top West Open, Middle CLOSED, Bottom West CLOSED.
+- **[ON, ON, OFF]**: Middle CLOSED, Bottom West CLOSED.
+- **[ON, ON, ON]**: Bottom West CLOSED.
+- **[ON, OFF, ON]**: Current Test.
