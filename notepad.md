@@ -192,11 +192,15 @@
 1. **[ON, ON, ON]:** Top West OPEN. South CLOSED.
 2. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South CLOSED.
 3. **[OFF, ON, OFF]:** West Connector OPEN. Top West CLOSED.
-4. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED.
+4. **[ON, OFF, OFF]:** Top East & East Connector OPEN. Inner Shutter CLOSED.
 5. **[OFF, OFF, OFF]:** All Top Shutters CLOSED.
+6. **[ON, OFF, ON]:** Top Middle & Top East & West Connector OPEN. Inner Shutter CLOSED.
 
 **Current State:** [ON, OFF, ON] (S1=ON, S2=OFF, S3=ON).
-**Hypothesis:** [ON, OFF, ON] opens Inner Shutter (16,10).
+**Hypothesis:** Access Middle/West Rooms to check southern shutters.
 
 **Current Plan:**
-1. Check Top East Shutter (16,6) and Inner Shutter (16,10).
+1. Inspect Bottom Middle Shutter (10,10).
+2. Cross West Connector (6,9) to West Room.
+3. Inspect Bottom West Shutter (3,10).
+4. Investigate Unexplored Warp at (22,10).
