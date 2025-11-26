@@ -55,6 +55,7 @@
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
+- **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -230,10 +231,3 @@
 - **`select_move` Tool is CRITICALLY BROKEN.**
 - **Problem:** The tool fails to parse the move selection screen correctly due to repeated agent hallucinations about the UI layout (PP counts are on separate lines, not interleaved). Multiple agent-provided fixes have failed.
 - **Resolution:** The **NEXT** time I am in a battle and the move selection screen is visible, my absolute highest priority is to call `python_code_debugger` with a detailed bug report to get a working fix. This task supersedes winning the battle or any other action.
-
-# Tile & Object Mechanics
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-
-# Strategic Principles & Lessons Learned
-- **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
-- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
