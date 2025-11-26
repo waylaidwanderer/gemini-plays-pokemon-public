@@ -14,9 +14,10 @@
 **Goal:** Open Path South (Inner Shutter 16,10 or Bottom Middle 10,10).
 
 **Verified States:**
-1. **[ON, OFF, ON] (Current):**
-   - **OPEN:** Top West Shutter (3,6), Bottom West Shutter (3,10).
-   - **CLOSED:** West Connector (6,9), Top Middle (10,6), Top East (16,6), Bottom Middle (10,10), Inner Shutter (16,10).
+1. **[ON, OFF, ON] (Verified):**
+   - **OPEN:** Top West Shutter (3,6).
+   - **CLOSED:** Top East (16,6), Bottom West (3,10), West Connector (6,9), Top Middle (10,6), Bottom Middle (10,10), Inner Shutter (16,10).
+   - **Note:** Switch 2 verified OFF. No linkage from Switch 3.
 2. **[ON, OFF, OFF]:** Top East OPEN. Inner Shutter CLOSED.
 3. **[ON, ON, OFF]:** Top Middle & East Connector OPEN. South Shutters CLOSED.
 4. **[ON, ON, ON]:** Top West OPEN. South Shutters CLOSED.
