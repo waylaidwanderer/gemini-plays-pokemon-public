@@ -9,37 +9,17 @@
 - **Objective:** Rescue Director from Underground Warehouse.
 
 ### Switch Puzzle Rules & Logic
-**Goal:** Find open path to Warehouse.
-**Current State:** [OFF, ON, ON].
-- **Verified Results:**
-  - [ON, OFF, OFF]: Top East OPEN. Inner (16,10) CLOSED. East Connector CLOSED. West Connector OPEN.
-  - [OFF, OFF, ON]: West Connector OPEN. Top West OPEN.
-  - [ON, OFF, ON]: West Connector Closed.
-  - [OFF, ON, ON]: Top West OPEN. West Connector OPEN. Bottom West CLOSED.
-**Next Test:** Check Bottom Middle Shutter (10,10).
-**Hypothesis:** S2 ON likely closes bottom shutters. S1 OFF likely opens East Connector.
-**History:**
-- [OFF, OFF, ON]: Top West Open. West Connector Open. Bottom West Closed.
-- [ON, OFF, OFF]: Top East Open. Inner (16,10) CLOSED.
-- [ON, OFF, ON]: Top East Open. Inner (16,10) CLOSED. Bottom Middle (10,10) CLOSED.
-- [ON, ON, OFF]: Top East Open. Inner (16,10) CLOSED.
-- [ON, ON, ON]: Top Middle (10,6) CLOSED.
-**Next Test:** Check Top West Shutter (3,6) and West Connector (6,9).
+**Goal:** Open path to South (Inner Shutter 16,10 or Bottom Middle 10,10).
+**Current State:** [OFF, OFF, ON] (S1, S2, S3).
+**Agent Status:** Invoked `puzzle_logic_analyst` to deduce rules.
 
-**Verified Mechanics:**
-1. **Switch 1 (East):** 
-   - ON: Required for West Connector (6,9) and Top East Shutter (16,6).
-   - OFF: Required for Top West Shutter (3,6). (Mutual exclusivity confirmed).
-2. **Switch 3 (West):** 
-   - ON: With S1 OFF, opens Top West Shutter (3,6).
-3. **Switch 2 (Middle):**
-   - ON: Closes Top East Shutter (16,6).
-
-**Solution Strategy:**
-- **Status:** Testing [OFF, OFF, ON].
-- **Hypothesis:** S3 ON opens West Connector (if S2 OFF). Need to check Bottom Middle Shutter.
-- **Mechanics Update:** S2 ON closes West Connector (Override). S3 ON required for West Connector.
-- **Next Step:** Turn S3 ON, check West Connector (6,9) and Bottom Middle (10,10).
+**Verified History:**
+1. [ON, OFF, OFF]: Top East OPEN. Inner (16,10) CLOSED. East Connector CLOSED. West Connector OPEN.
+2. [ON, ON, OFF]: Top East OPEN. Inner (16,10) CLOSED.
+3. [ON, ON, ON]: Top Middle OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
+4. [OFF, ON, ON]: Top West OPEN. West Connector OPEN. Bottom West CLOSED. Bottom Middle CLOSED.
+5. [OFF, OFF, ON]: Top West OPEN. West Connector OPEN. Bottom Middle CLOSED.
+6. [ON, OFF, ON]: Top East CLOSED.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
