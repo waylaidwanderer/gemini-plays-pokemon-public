@@ -208,4 +208,4 @@
 - **[OFF, OFF, ON]**: Top Middle CLOSED.
 - **[OFF, ON, OFF]**: West Connector OPEN. East Connector CLOSED. Bottoms CLOSED.
 - **[OFF, OFF, OFF]**: Top West OPEN. Top Middle CLOSED. Top East CLOSED. Bottom West CLOSED.
-- **[ON, OFF, OFF]**: Top East (16,6) OPEN. Inner (16,10) CLOSED. East Connector (12,9) OPEN. Checking Middle Room.
+- **[ON, OFF, OFF]**: Top East (16,6) OPEN. Inner (16,10) CLOSED. East Connector (12,9) OPEN. Middle Room (Row 9) dead end. Opens (6,12) connector (unreachable).
