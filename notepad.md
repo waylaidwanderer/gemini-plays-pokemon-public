@@ -224,3 +224,4 @@
 - **Phone Call (Juggler IRWIN):** Called to introduce himself and wants to be friends.
 - **Phone Call (Youngster JOEY):** Called for a rematch on Route 30.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
+- **Execution Discipline (Battle):** Double-check the selected move on the screen before pressing 'A' to confirm. An execution error led to using ROLLOUT instead of the intended MAGNITUDE, locking me into a multi-turn move. Careful confirmation prevents such mistakes.
