@@ -226,3 +226,4 @@
 - **Current Test**: [ON, OFF, ON]. Checking Inner Shutter (16, 10).
 - **[ON, OFF, ON]**: Inner Shutter (16,10) CLOSED. Top East (16,6) OPEN.
 - **[ON, OFF, ON]**: Inner Shutter (16,10) CLOSED. Top East (16,6) OPEN.
+- **[OFF, OFF, OFF]**: Testing. S1 OFF, S2 OFF, S3 OFF.
