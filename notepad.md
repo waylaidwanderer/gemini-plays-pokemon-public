@@ -7,16 +7,29 @@
 ## Status
 - **Location:** Goldenrod Underground (Warehouse Entrance).
 - **Objective:** Rescue Director from Underground Warehouse.
-### Switch Mechanics Analysis
-- **Switch 1 (OFF):** Master switch for Dividers (Row 8/9). Must be OFF to cross between sections.
-- **Switch 2 (ON):** Opens Middle Shutter (10, 6).
-- **Switch 3:** Toggles Dividers when Switch 1 is OFF.
-  - **ON:** Opens East Divider (12, 8).
-  - **OFF:** Opens West Divider (6, 8).
-- **Current Hypothesis [OFF, ON, ON]:**
-  - Switch 1 OFF + Switch 3 ON -> Open East Divider.
-  - Switch 2 ON -> Open Middle Shutter.
-  - Plan: Enter Middle Shutter, cross East Divider, exit East Inner Door.
+### Switch Mechanics (Verified & Deduced)
+- **Switch 2 (Middle Shutter Control):**
+  - ON: Opens Middle Shutter (Verified in [OFF, ON, OFF]).
+  - OFF: Closes Middle Shutter.
+  - **Constraint:** Switch 3 ON seems to OVERRIDE this and CLOSE the Middle Shutter (Verified in [OFF, ON, ON]).
+
+- **Switch 3 (West/East Toggle):**
+  - OFF: Opens West Shutter (Verified). Closes East Divider (Verified).
+  - ON: Closes West Shutter. Opens East Divider (Verified).
+  - **Side Effect:** Turning S3 ON closes the Middle Shutter even if S2 is ON.
+
+- **Switch 1 (Unknown/Divider Control):**
+  - OFF: Seems to enable the Divider logic.
+  - ON: Untested recently. Currently testing [ON, OFF, OFF].
+
+### Puzzle Logic Conflict
+- To reach East Section: Need East Divider OPEN (Requires S3 ON).
+- To enter area: Need Middle Shutter OPEN (Requires S2 ON).
+- Problem: S3 ON closes Middle Shutter.
+- **Solution Search:**
+  - Must find a state where Middle Shutter AND East Divider are OPEN.
+  - OR find a different entry point (East Shutter?).
+  - OR find a state where S3 ON *doesn't* close Middle Shutter (maybe S1 ON prevents the override?).
 - **Recent Victory:** Defeated Burglar Duncan. Paprika reached Lv50.
 - **Lesson:** Trust system notifications about off-screen tile changes (e.g. FLOOR->WALL).
 - **Team Status:** Full Health. Paprika (149/149).
