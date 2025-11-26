@@ -10,7 +10,7 @@
 
 ### Switch Puzzle Rules & Logic
 **Goal:** Enter West Room via Top West Shutter (3,6) to reach Warehouse.
-**Current State:** [ON, OFF, ON]. Switch 3 turned ON. Checking Top West Shutter.
+**Current State:** [ON, OFF, ON]. Top West (3,6) CLOSED. West Connector (6,9) OPEN. Checking Top East Shutter.
 
 **Verified Mechanics:**
 1. **Switch 1 (East):** Master Power. Must be ON.
