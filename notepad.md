@@ -199,5 +199,5 @@
 - **[OFF, ON, ON]:** Top West OPEN. West Conn CLOSED (Dead End). Top Middle OPEN.
 **Tested Configs:**
 - **[OFF, ON, OFF]**: Top West Open. West Conn OPEN. East Conn CLOSED. Trapped in Middle Room.
-- **[OFF, ON, ON]**: Top Middle Open. Connector to East Room OPEN (Snake Path). West Conn Closed.
+- **[OFF, ON, ON]**: Top West OPEN. Top Middle CLOSED. West Connector (6,9) OPEN. East Connector (12,9) CLOSED. Plan: Enter Top West -> West Connector -> Middle Room -> Search for Lower East Connector.
 **Next Step:** Retry [OFF, ON, ON] and explore East Room fully.
