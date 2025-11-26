@@ -213,3 +213,9 @@
 - **Tool Unreliability:** The built-in `stun_npc` tool is unreliable. It may report success (e.g., 'Sprite stopped') while the NPC continues to move in-game. Avoid using it until its behavior is better understood.
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
 - **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
+
+# Tile & Object Mechanics Update
+- SUPER_NERD: Impassable NPC, functions as a wall.
+
+# Strategic Principles Update
+- **Pathing Around Off-Screen Objects:** When planning long paths that go off-screen, I must consult my map markers to manually account for known off-screen obstacles (like NPCs). My `find_path` tool is blind to off-screen objects, and relying on it alone for long paths will lead to interruptions.
