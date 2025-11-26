@@ -273,3 +273,7 @@
 - **TRUST THE TOOL:** When a trusted tool's output contradicts a visual assumption, the assumption is the likely source of error. The tool analyzes raw game data and is more reliable. I must verify the assumption in-game before attempting to debug the tool.
     - Hiker ANTHONY called, mentioning that lots of timid DUNSPARCE can be found in DARK CAVE. He has called for a rematch on Route 33 multiple times.
 - **Pathfinding Segmentation:** Long-distance pathfinding is inherently unreliable because off-screen objects (like moving NPCs) are not visible to the pathfinding tool and can block the calculated route. It's more effective to plan paths in shorter, on-screen segments to avoid interruptions.
+
+# Strategic Principles & Lessons Learned
+- **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
+- **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
