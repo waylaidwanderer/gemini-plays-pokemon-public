@@ -19,9 +19,9 @@
   - OFF: Closes Middle Shutter (10,6). Bottom West (3,10) CLOSED.
 - **Tested:** [ON, OFF, OFF] -> Middle Closed, Bottom West Closed. Top East/West Open.
 - **Tested:** [ON, ON, OFF] -> Middle Closed, Bottom West Closed.
-- **Verified:** [ON, OFF, ON] opens Top East Shutter (16,6).
-- **Plan:** Explore East Room. Reach Emergency Switch (20,11).
-- **Hypothesis:** Emergency Switch opens West Shutters or provides new path.
+- **Tested:** [ON, OFF, ON] -> Unstable. Shutters closed unexpectedly.
+- **Current Plan:** Turn Switch 3 OFF. Revert to [ON, OFF, OFF] to open Top East Shutter (16,6).
+- **Goal:** Reach Emergency Switch (20,11) in East Room.
 - **Team Status:** Full Health. Paprika (149/149).
 - **Key Items:** Basement Key, HM06 Whirlpool, Red Scale, Glacier Badge, Coin Case.
 - **Backlog:**
