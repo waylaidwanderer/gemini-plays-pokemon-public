@@ -248,3 +248,5 @@ Sequence:
 - **Switch 3:** TBD.
 - **Observation:** Switch 3 ON closes East Wall (16, 6) even if Switch 1 is ON.
 - **Plan:** Test `[OFF, ON, ON]`. Step 1: Turn S2 ON to ensure West Exit.
+- **Observation:** In `[ON, ON, ON]`, East Wall (16, 6) CLOSED. S3 appears to override S1.
+- **Current Task:** Inspecting West Wall (3, 6) to see if S3 also overrides S2.
