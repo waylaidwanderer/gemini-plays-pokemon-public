@@ -5,9 +5,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Dept Store 1F.
-- **Objective:** Exit to city, then re-enter Underground to reach Warehouse.
-- **Context:** B1F path blocked. Must try accessing Warehouse from the Underground Switch Room side.
+- **Location:** Switch Room Entrances (East Shaft).
+- **Objective:** Descend ladder to Underground (3_53), then use Door (18,6) to reach Switch Room Puzzle.
+- **Context:** Re-entering Underground via North Entrance.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
