@@ -216,3 +216,4 @@
 
 # Tile & Object Mechanics (Addendum)
 - **INCENSE_BURNER**: An impassable decorative object.
+- **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
