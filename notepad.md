@@ -263,3 +263,6 @@
 
 # NPC Dialogue
 - **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".
+
+# NPC Dialogue
+- **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
