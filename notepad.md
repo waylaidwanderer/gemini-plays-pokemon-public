@@ -270,3 +270,5 @@ Update: [ON, ON, OFF] failed to open East Wall. Trying [ON, OFF, OFF].
 Update: [ON, ON, OFF] failed. Trying [OFF, ON, ON]. Step 1: Turn S1 OFF. Step 2: Turn S3 ON.
 - **Discovery:** Configuration `[ON, ON, OFF]` opens Bottom West Door (6, 12).
 - **Discovery:** Configuration `[ON, ON, OFF]` opens Central Connector (12, 9).
+- **New Hypothesis:** Switch 3 (Lockdown) might open the Bottom East Shutter (Emergency Route). 
+- **Plan:** Re-enter Switch Room, verify Connector (12, 9) is open (requires S1 ON?), go to S3, turn ON, check Shutter.
