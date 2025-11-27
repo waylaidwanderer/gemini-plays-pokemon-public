@@ -8,7 +8,7 @@
 - **Location:** Goldenrod Underground (Behind Counters).
 - **Objective:** Find Director or Key Items. Return to Switch Room if dead end.
 - **Current Switch State:** [OFF, OFF, OFF] (S1, S2, S3).
-- **Key Finding:** [OFF, OFF, OFF] closes Top East, Top West, and Connectors (Lockdown).
+- **Key Finding:** [OFF, OFF, OFF] is a 'Lockdown' state. Switch 2 is disabled with a hint: "The switch on the end is the one to press first".
 - **Next Step:** Verify Bottom East Shutter (Goal).
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
