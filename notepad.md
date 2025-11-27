@@ -254,3 +254,4 @@
 - Youngster JOEY called again for a rematch on Route 30.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted failures where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
 - **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
+- Hiker ANTHONY (Route 33) called to say he tried eating BERRIES like his MACHOP and that he's been seeing a lot of wild HOPPIP.
