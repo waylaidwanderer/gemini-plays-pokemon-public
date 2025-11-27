@@ -1,8 +1,8 @@
 # Goldenrod City Notes
-- **Current Objective**: Get SquirtBottle from Flower Shop in Goldenrod.
+- **Current Objective**: Find Floria (sister) on Route 36 to unlock SquirtBottle.
 - **Long Term**: Travel to Ecruteak City for the Fog Badge.
 - **Party Status**: Healthy. Kimchi (Quilava) is the carry.
 - **To-Do**:
-  - Visit Flower Shop (top right of city?)
   - Head North to Route 35 -> 36.
-  - Use SquirtBottle on Sudowoodo.
+  - Find Floria near Sudowoodo.
+  - Return to Flower Shop for SquirtBottle.
