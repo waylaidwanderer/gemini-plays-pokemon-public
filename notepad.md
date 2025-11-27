@@ -5,11 +5,11 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground (22, 27).
-- **Objective:** Access Emergency Switch area (Map 3_54 South).
-- **Current Switch State:** [ON, OFF, OFF].
-- **Verification:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
-- **Plan:** Re-enter Switch Room NE via ladder (22, 27). Locate open Top East Shutter.
+- **Location:** Switch Room NE (3_54).
+- **Objective:** Reach Emergency Switch (20, 11).
+- **Switch State:** [OFF, ON, OFF] (Verified).
+- **Puzzle Solution:** This state opens the Bottom East Shutter (16, 10) but closes the internal East Wall.
+- **Plan:** Exit via Ladder (23, 3) -> Main Underground -> Enter Door (18, 6) -> South Section -> Emergency Switch.
 
 ## Switch Puzzle Analysis (Solved)
 **Goal:** Access Emergency Switch (20,11) in South East Section.
