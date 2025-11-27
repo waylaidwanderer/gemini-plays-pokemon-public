@@ -5,11 +5,11 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground (Behind Counters).
-- **Objective:** Find Director or Key Items. Return to Switch Room if dead end.
-- **Current Switch State:** [OFF, ON, OFF] (S1=OFF, S2=ON, S3=OFF).
-- **Key Finding:** Top West Shutter verified OPEN. Exploring West Room.
-- **Next Step:** Verify Bottom East Shutter (Goal).
+- **Location:** Switch Room (Top East). Returning to Main Underground.
+- **Objective:** Verify Top East Shutter in Warehouse.
+- **Current Switch State:** [ON, OFF, OFF] (S1=ON, S2=OFF, S3=OFF).
+- **Key Finding:** This state should open the Top East Shutter.
+- **Next Step:** Exit via Ladder -> Exit Behind Counters via (21, 29) -> Enter Warehouse.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
