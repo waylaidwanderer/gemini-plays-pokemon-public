@@ -209,7 +209,7 @@
 | S1 | S2 | S3 | West (3,6) | Mid (10,6) | Top East (16,6) | Bot East (16,10) | Notes |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | OFF | OFF | OFF | CLOSED | CLOSED | ? | ? | West & Mid Verified. Checking East. |
-| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bot East Open. No entry. |
+| ON | OFF | OFF | CLOSED | CLOSED | OPEN | CLOSED | Top East Open. Bot East Closed. Central Conn Open. |
 | OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All Closed. |
 | ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Middle Open. Central Conn (12,9) Closed. |
 | ON | ON | ON | CLOSED | OPEN | ? | ? | West Conn Closed. |
