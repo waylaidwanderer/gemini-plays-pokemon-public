@@ -236,3 +236,7 @@ Sequence:
 - **Lesson:** Warp Carpets often require walking INTO the wall below/beside them to trigger. Merely standing on them is insufficient.
 - **Switch Room Strategy:** West Shaft exits to Goldenrod City (Dead End). Primary target: Door at (22, 10) in Main Underground (Map 3_53). This is the most likely entrance to the Central/East Switch Room.
 - Verified Switch Room NE (23,3) is a dead end. Returning to Goldenrod City to check Unknown House at (24, 27).
+**Mechanics Update:**
+- **Switch 1 (ON):** Opens East Wall (16, 6-7).
+- **Switch 2 (ON):** Opens West Wall (3, 6-7).
+- **Switch 3:** TBD.
