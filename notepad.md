@@ -215,3 +215,8 @@
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **unknown**: A tile type whose properties have not yet been determined. My current position is on one.
 - **LADDER**: A traversable warp tile that moves the player between floors.
+
+## Goldenrod Underground Switch Room Puzzle
+- **Mechanic:** The layout of the 'GoldenrodUndergroundSwitchRoomEntrances' map changes each time I enter the area.
+- **Hypothesis 1:** The puzzle is solved by repeatedly entering and exiting the area to cycle through different room configurations until a path to the western chambers is revealed.
+- **Test 1:** Leave and re-enter via the northern warp carpet at (20, 29) to see if the layout changes again.
