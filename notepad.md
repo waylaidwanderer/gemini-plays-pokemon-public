@@ -221,9 +221,15 @@
 ## Truth Table (Verified)
 | S1 | S2 | S3 | West Gate | Mid Gate | Top East | Bot East | Notes |
 |---|---|---|---|---|---|---|---|
-| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | All Closed |
-| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bot East Open, others closed |
-| ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Mid Open, Central Conn Closed, West South Closed |
+| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | All Northern Gates Closed |
+| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bottom East Open |
+| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All Northern Gates Closed |
+| ON | ON | OFF | CLOSED | CLOSED | CLOSED | ? | Middle Gate CLOSED (Verified Turn 10691). West Conn OPEN. |
+| ON | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed |
+| OFF | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed |
+| ON | ON | ON | CLOSED | ? | ? | ? | West Gate/Connector Closed |
+
+**Hypothesis:** Top East Shutter might open with S3 ON + S1 OFF.
 | ON | ON | ON | CLOSED | ? | ? | ? | West Conn Closed |
 | OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | Unexpectedly all closed? |
 | OFF | ON | ON | CLOSED | CLOSED | ? | ? | |
