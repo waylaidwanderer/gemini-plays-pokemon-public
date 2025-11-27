@@ -11,31 +11,19 @@
 - **Verification:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF.
 - **Plan:** Re-enter Switch Room NE via ladder (22, 27). Locate open Top East Shutter.
 
-## Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Reach Emergency Switch (20,11) via South Section.
+## Switch Puzzle Analysis (Solved)
+**Goal:** Access Emergency Switch (20,11) in South East Section.
 
-**Mechanics:**
-- **Switch 1:** Controls East Security Wall (16, 6). ON = OPEN.
-- **Switch 2:** Controls West Security Wall (3, 6). ON = OPEN. NO Linkage to S3 observed.
-- **Switch 3:** Unknown function. Likely shutters.
+**Verified Mechanics:**
+- **Switch 1 (East):** Controls East Security Wall (16,6) AND Bottom East Shutter (16,10).
+  - S1 ON = East Wall OPEN, Shutter CLOSED.
+  - S1 OFF = East Wall CLOSED, Shutter OPEN.
+- **Switch 2 (West):** Controls West Security Wall (3,6). ON = OPEN.
+- **Switch 3 (Middle):** Controls Central Connector (12,9). OFF = OPEN.
 
-**Mechanics (Verified):**
-- **Switch 1:** Toggles East Security Wall (16, 6).
-- **Switch 2:** Toggles West Security Wall (3, 6).
-- **Switch 3:** Likely toggles Shutters.
-- **Linkage:** Disproven. Switches appear independent.
-
-**Tested States:**
-- `[ON, OFF, OFF]`: East Open, West Closed.
-- `[ON, ON, OFF]`: East Open, West Open. Linkage disproven.
-- **Test Result:** `[ON, ON, ON]` -> Wall (12, 9) CLOSED. Shutters CLOSED.
-- **Test Result:** `[ON, OFF, ON]` -> East Wall (16, 6) CLOSED. West Wall (3, 6) Likely OPEN (Map). Checking Shutters via West.
-
-**Hypothesis:** Switch 2 might control the shutters.
-**Plan:**
-1. Turn Switch 2 ON (Target State: [ON, ON, OFF]).
-2. Verify if this affects Switch 3 (Linkage).
-3. Check Shutters again.
+**Solution State:** `[OFF, ON, OFF]`
+- **Result:** Bottom East Shutter is OPEN. East Wall is CLOSED. West Wall is OPEN.
+- **Implication:** The internal path to the Emergency Switch is blocked by the closed East Wall. Access must be achieved via an external entrance (likely the Locked Door at 18,6 in the Main Underground) that leads directly to the South Section.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
