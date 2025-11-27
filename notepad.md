@@ -5,10 +5,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Dept Store Elevator.
-- **Objective:** Find path to Underground Warehouse / Rescue Director.
+- **Location:** Goldenrod Dept Store B1F.
+- **Objective:** Investigate B1F items and potential path to Underground.
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Exploring 2F. Checking Directory and NPCs.
+- **Action:** Exploring B1F. Checking if northern section is reachable.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
