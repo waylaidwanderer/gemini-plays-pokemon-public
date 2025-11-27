@@ -222,7 +222,7 @@ Sequence:
 - [ ] (15, 27): Marked 'Pokémon Center' (Verify?)
 - [ ] (24, 27): Unknown House
 - [ ] (29, 29): Bike Shop
-- [ ] (31, 21): Unknown House (High Priority - East Side)
+- [ ] (31, 21): Unknown House (High Priority - TARGET). Blocked by Grunt at (28, 20).
 - [ ] (33, 9): Unknown House (High Priority - East Side)
 
 **Coordinate Theory:** West Shaft exit is x=11. East Shaft is ~19 tiles east in dungeon, so exit should be ~x=30 in City.
