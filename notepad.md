@@ -7,9 +7,9 @@
 ## Status
 - **Location:** Switch Room NE (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Switch State:** [OFF, ON, OFF] (Verified).
-- **Puzzle Solution:** This state opens the Bottom East Shutter (16, 10) but closes the internal East Wall.
-- **Plan:** Exit via Ladder (23, 3) -> Main Underground -> Enter West Shaft (3, 34) -> Switch Room West -> Cross to East Section -> Emergency Switch.
+- **Switch State:** Found S2 OFF. Current: [OFF, OFF, OFF]. West Wall CLOSED.
+- **Action:** Turning S2 ON to achieve [OFF, ON, OFF].
+- **Plan:** Turn S2 ON -> Verify West Wall OPEN -> Cross Central Connector -> Enter East Section -> Emergency Switch.
 
 ## Switch Puzzle Analysis (Solved)
 **Goal:** Access Emergency Switch (20,11) in South East Section.
