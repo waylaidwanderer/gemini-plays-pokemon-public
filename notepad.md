@@ -256,3 +256,6 @@
 
 # Ruins of Alph Research Center
 - Computer: Displays 'RUINS OF ALPH Exploration Year 10'.
+
+# Ruins of Alph Research Center
+- Bookshelf at (6, 5) contains books titled "Ancient Ruins…" and "Mysteries of the Ancients…".
