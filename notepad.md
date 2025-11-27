@@ -5,7 +5,7 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Dept Store 2F.
+- **Location:** Goldenrod Dept Store Elevator.
 - **Objective:** Find path to Underground Warehouse / Rescue Director.
 - **Switch State:** [ON, ON, ON] (Lockdown).
 - **Action:** Exploring 2F. Checking Directory and NPCs.
