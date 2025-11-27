@@ -207,7 +207,8 @@
 
 | Config [S1,S2,S3] | West Gate (3,6) | Middle Gate (10,6) | Top East (16,6) | Bot East (16,10) | Upper Conn (Row 4) | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| [OFF, OFF, OFF] | CLOSED | CLOSED | Checking... | ? | OPEN | Current State. |
+| [OFF, OFF, OFF] | CLOSED | CLOSED | CLOSED | ? | OPEN | Dead End North. |
+| [ON, OFF, ON] | ? | ? | ? | ? | ? | Testing Next. |
 | [ON, OFF, OFF] | CLOSED | CLOSED | CLOSED | OPEN | OPEN | Dead End North. |
 | [ON, ON, OFF] | CLOSED | OPEN | CLOSED | OPEN | CLOSED | Central Conn CLOSED (S1 Override). |
 | [OFF, ON, OFF] | CLOSED | CLOSED | CLOSED | ? | OPEN | Middle unexpected closed. |
