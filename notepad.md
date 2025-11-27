@@ -5,12 +5,12 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Underground (Main Corridor).
-- **Objective:** Verify Top East Shutter in Warehouse.
+- **Location:** Switch Room Entrances (West Shaft).
+- **Objective:** Reach East Shaft via Goldenrod City (15, 27).
 - **Current Switch State:** [ON, OFF, OFF].
-- **Discovery:** Warp Carpet at (22, 31) exits 'Behind Counters' area. Trigger is walking DOWN into the wall.
-- **Loop Confirmed:** Door at (18, 6) leads to 'Behind Counters' area (21, 31). It is NOT the Warehouse.
-- **Next Step:** Navigate to (3, 34) (Bottom Left), the likely Warehouse entrance.
+- **Discovery:** West Shaft leads to Goldenrod City (11, 29).
+- **Hypothesis:** Second City door (15, 27) leads to East Shaft/Emergency Switch.
+- **Next Step:** Warp to City and enter (15, 27).
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
