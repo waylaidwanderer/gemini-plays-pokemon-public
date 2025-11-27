@@ -40,7 +40,7 @@
 - **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
 - **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
-- **Data Structure Verification:** Do not assume data structures or sorting order within the game (e.g., inventory lists). Always verify against direct observation before building automation that relies on it. A faulty assumption about data will lead to tool failure.
+- **Data Structure Verification:** Do not assume data structures, sorting order, or string casing within the game (e.g., inventory lists, item names). Always verify against direct observation before building automation that relies on it. A faulty assumption about data, like case-sensitivity, will lead to tool failure.
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
 - **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
@@ -172,6 +172,12 @@
 - **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
 - **POKEFAN_F in Bill's House (Goldenrod):** Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
 - **LASS on Goldenrod Dept. Store 5F:** A lady gives away TMs on Sundays.
+- **Scientist in Ruins of Alph Research Center:** Confirmed that the appearance of Pokémon in the ruins is a recent and incredible discovery that needs investigation. The UNOWN Pokémon are very similar to the drawings on the walls of the ruins, implying there are many different kinds.
+- **Computer in Ruins of Alph Research Center:** Displays 'RUINS OF ALPH Exploration Year 10'.
+- **Bookshelf at (6, 5) in Ruins of Alph Research Center:** contains books titled "Ancient Ruins…" and "Mysteries of the Ancients…".
+- **Youngster in Route 32 Gatehouse:** Mentioned trying to move the stone panels in the ruins, wondering what they are.
+- **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".
+- **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -195,6 +201,10 @@
 - **Agent Hypothesis #1 (Full Traversal):** FAILED. Attempted to walk from the north entrance to the south entrance. Path was blocked by a SUPER_NERD at (3, 27) that appears only in the 'north entrance' configuration. This confirms a simple traversal is impossible.
 - **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. The SUPER_NERD at (3, 27) that blocks the path does not initiate a battle, only dialogue. This makes defeating all trainers impossible in this configuration.
 - **Agent Hypothesis #3 (In-and-Out Ladders):** FAILED for northern ladder (3, 2). The blocking SUPER_NERD at (3, 27) did not move. Will proceed to test other accessible ladders.
+
+## Ruins of Alph - Kabuto Chamber Puzzle
+- **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
+- **Solution:** The image is KABUTO.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -220,7 +230,6 @@
 - `select_item`: Automates selecting a specific item from the bag menu.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-
 - `verify_reachability`: Checks a list of coordinates to see which are reachable from the player's current position.
 ## Custom Agents (via `define_agent`)
 - `gym_puzzle_solver`: Generates simple, testable hypotheses for gym puzzles.
@@ -228,51 +237,8 @@
 
 # Phone Calls
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
-- Youngster JOEY called for a rematch on Route 30.
-
-# Tool Failures
-
-# Ruins of Alph - Kabuto Chamber Puzzle
-- **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
-- **Solution:** The image is KABUTO.
-- **Data Structure Verification:** Do not assume data structures, sorting order, or string casing within the game (e.g., inventory lists, item names). Always verify against direct observation before building automation that relies on it. A faulty assumption about data, like case-sensitivity, will lead to tool failure.
+- Youngster JOEY called for a rematch on Route 30. He also called to brag about his RATTATA and that he defeated a wild SPINARAK and a wild HOOTHOOT.
 
 # Tool Development Lessons
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
-
-# Tool Development Lessons
-- **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
-
-# Current Location: Ruins of Alph
-- **Objective:** Fully explore the ruins and the research center.
-- **Note:** UNOWN encounters are frequent. Must buy standard POKé BALLS at the next Poké Mart to catch one for the Pokédex.
-
-# NPC Dialogue
-- **Scientist in Ruins of Alph Research Center:** Confirmed that the appearance of Pokémon in the ruins is a recent and incredible discovery that needs investigation.
-
-# Phone Calls
-- **Youngster JOEY:** Called to brag about his RATTATA and that he defeated a wild SPINARAK.
-- **Scientist in Ruins of Alph Research Center:** The UNOWN Pokémon are very similar to the drawings on the walls of the ruins, implying there are many different kinds.
-
-# Ruins of Alph Research Center
-- Computer: Displays 'RUINS OF ALPH Exploration Year 10'.
-
-# Ruins of Alph Research Center
-- Bookshelf at (6, 5) contains books titled "Ancient Ruins…" and "Mysteries of the Ancients…".
-- **Youngster in Route 32 Gatehouse:** Mentioned trying to move the stone panels in the ruins, wondering what they are.
-
-# NPC Dialogue
-- **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".
-
-# NPC Dialogue
-- **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
-- **Youngster JOEY:** Called to brag about his RATTATA and that he defeated a wild HOOTHOOT.
-
-# Tool Development Lessons
-- **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
-
-# Tool Development Lessons
-- **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
-
-# Tool Development Lessons
 - **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
