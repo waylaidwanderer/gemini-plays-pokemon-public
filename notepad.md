@@ -115,7 +115,7 @@
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
-- **PC**: An interactable object used to access the Pokémon Storage System and personal item storage.
+- **PC**: An interactable object used to access the Pokémon Storage System and personal item storage. Impassable.
 - **LADDER**: A traversable warp tile that moves the player between floors.
 - **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. My previous hypothesis that it was a one-way ledge was a hallucination.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
