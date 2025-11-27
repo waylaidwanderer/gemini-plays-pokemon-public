@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Switch Room NE (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Switch State:** Current: [ON, OFF, OFF].
+- **Switch State:** Current: [ON, ON, OFF].
 - **Action:** Investigating Bottom East Shutter (16, 10).
 - **Verified Mechanics:**
   - [ON, OFF, OFF] = East Wall (16, 6) OPEN.
