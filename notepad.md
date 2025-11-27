@@ -211,3 +211,4 @@ Sequence:
 ### Verified Puzzle Rules
 1. **Linkage:** Turning Switch 3 ON automatically turns Switch 2 ON.
 2. **Inverse Hypothesis:** The Bottom East Shutter (Goal) likely opens when the Top East Shutter (Entrance) closes. This requires the state [ON, OFF, ON].
+- **Correction:** Warp at (21, 31) is blocked by a wall. Correct exit from 'Behind Counters' is (21, 29).
