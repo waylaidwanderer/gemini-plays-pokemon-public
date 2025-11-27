@@ -225,3 +225,6 @@
 
 # Phone Calls
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
+
+# Tool Failures
+- **`switch_pokemon` Critical Failure (Turn 19455):** The tool is still broken. It generated a long, incorrect sequence of 'Up' presses when trying to switch from 'CANCEL' to 'GIB RALTAR'. The index calculation or parsing is fundamentally flawed. Must be fixed at the next battle opportunity.
