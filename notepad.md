@@ -29,7 +29,7 @@
 - `[ON, OFF, OFF]`: East Open, West Closed.
 - `[ON, ON, OFF]`: East Open, West Open. Linkage disproven.
 - **Test Result:** `[ON, ON, ON]` -> Wall (12, 9) CLOSED. Shutters CLOSED.
-- **Next Test:** `[ON, OFF, ON]`. Turning Switch 2 OFF.
+- **Test Result:** `[ON, OFF, ON]` -> East Wall (16, 6) CLOSED. West Wall (3, 6) Likely OPEN (Map). Checking Shutters via West.
 
 **Hypothesis:** Switch 2 might control the shutters.
 **Plan:**
