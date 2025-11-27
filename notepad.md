@@ -5,12 +5,12 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod City North (9, 6).
-- **Objective:** Locate entrance to Emergency Switch area (likely an Unknown House).
+- **Location:** Goldenrod City East (28, 19).
+- **Objective:** Access Emergency Switch area (Map 3_54 Central).
 - **Current Switch State:** [ON, OFF, OFF].
-- **Discovery:** East Shaft exits at (9, 5). West Shaft exits at (11, 29).
-- **Hypothesis:** Entrance is at (33, 9), (31, 21), or (24, 27).
-- **Plan:** Verify Unknown Houses on East side.
+- **Discovery:** Surface Unknown Houses are blocked by static Rocket Grunts.
+- **Hypothesis:** Entrance is the internal door at (22, 10) in Main Underground (Map 3_53).
+- **Plan:** Enter Underground via (9, 5) -> Navigate to door at (22, 10).
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
