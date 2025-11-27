@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle State:** S1 OFF (Verified). S2 ON (Assumed - Needs Verification). S3 ON (Assumed). Middle Gate (10,6) is CLOSED.
+- **Puzzle State:** S1 OFF (Verified). S2 found OFF (Verified). S3 ON (Assumed). Turning S2 ON to open Middle Gate.
 - **Plan:** Leave S1 OFF. Go West to S2. Verify S2 is ON. Go South through Middle Path.
 
 ## Completed Areas Summary
