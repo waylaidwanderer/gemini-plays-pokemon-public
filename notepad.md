@@ -7,7 +7,8 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle State:** S1 OFF (Verified). S2 ON (Verified). S3 ON (Assumed). Middle Gate Open. Central Connector (12,9) is CLOSED. Path to East blocked.
+- **Puzzle State:** S1 ON (Verified). S2 ON (Verified). S3 Unknown. Middle Gate Open. Bottom East Shutter CLOSED.
+- **Observations:** [ON, ON, ?] failed to open Bottom East Shutter.
 - **Plan:** Turn S1 ON. Test configuration [ON, ON, ON]. Verify S3 state later.
 
 ## Completed Areas Summary
