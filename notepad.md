@@ -246,3 +246,5 @@ Sequence:
 - **Switch 1 (ON):** Opens East Wall (16, 6-7).
 - **Switch 2 (ON):** Opens West Wall (3, 6-7).
 - **Switch 3:** TBD.
+- **Observation:** Switch 3 ON closes East Wall (16, 6) even if Switch 1 is ON.
+- **Plan:** Test `[OFF, ON, ON]`. Step 1: Turn S2 ON to ensure West Exit.
