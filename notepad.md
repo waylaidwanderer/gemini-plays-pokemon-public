@@ -10,24 +10,6 @@
 - **Plan:** Go to 2F, then return to B1F.
 - **Context:** Black Belt asked me to "scoot". Leaving the map should allow them to move the crates.
 
-## Switch Puzzle Analysis
-**Goal:** Access Emergency Switch (20,11) in South East Section.
-
-**Current State:** [ON, ON, ON] (Lockdown Mode).
-
-**Verified Mechanics:**
-- **Switch 1 (East):** ON = Closes East Wall (16,6). OFF = Opens East Wall.
-- **Switch 2 (Middle):** ON = Opens Middle Path (10,7) (unless overridden).
-- **Switch 3 (West):** ON = Lockdown. Closes West (3,6), Middle (10,6), and East (16,6) walls.
-
-**Strategy:**
-- **Hypothesis:** Lockdown Mode (S3 ON) opens the Emergency Shutter (16,10).
-- **Problem:** Lockdown closes all northern entrances.
-- **Solution:** Approach the Emergency Shutter from the South.
-- **Plan:**
-  1. Exit via NE Ladder (23, 3) to Goldenrod Underground.
-  2. Locate the southern entrance to the Switch Room (likely connected to the "Unexplored Door" at 22,10).
-
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
 - **Mahogany Area:** Cleared Team Rocket Base. Defeated Gym Leader Pryce.
@@ -67,7 +49,7 @@
 - **ROCK:** Impassable obstacle. Treated as a solid object.
 - **SECURITY_CAMERA (Persian Statue):** Impassable WALL. Triggers infinite alarm battles if player crosses its line of sight (specific columns/rows). Must be disabled.
 - **ICE:** Slippery. Stepping onto this tile forces the player to slide in the direction of movement until colliding with a WALL, OBJECT, or landing on a non-ICE tile.
-- **CRATE:** Impassable. Acts as a WALL. Likely requires a specific event or Pokémon (Machop) to move.
+- **CRATE:** Impassable. Acts as a WALL. Likely requires a specific event or Pokémon (Machop) to move. Cannot be pushed by player manually.
 
 ### Battle Mechanics
 - **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
@@ -87,6 +69,7 @@
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 - **Sprite Deception:** NPCs may use sprites that don't match their trainer class (e.g. Hiker Benjamin looked like a Pokefan). Always verify identity via interaction or battle.
 - **Security Cameras:** Confirmed: Passing Persian statues/cameras triggers 'Intruder alert!' and summons Rocket Grunts. Each statue likely has a line of sight trigger.
+- **Puzzle Lesson:** 'Scoot' often means you must leave the map area entirely to allow the game state to update (e.g. NPCs moving objects).
 
 ## National Park (Cleared)
 - Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
@@ -205,21 +188,7 @@
 Verified [OFF, OFF, OFF]: Top West OPEN. Top East & Top Middle CLOSED. Bottoms UNKNOWN.
 Verified [OFF, OFF, ON]: Top West OPEN. Bottom West CLOSED.
 Status Update: Verified [OFF, OFF, ON] causes Lockdown (West & East Walls CLOSED). Switch 3 ON overrides S2. Returning to [OFF, OFF, OFF] to test West Wall entry.
-### Puzzle Solution Plan (Trap Theory)
-Target State: [ON, OFF, ON]
-Logic: Closes Top East (Entrance), Opens Bottom East (Goal).
-Sequence:
-1. Turn S1 ON -> [ON, OFF, OFF]
-2. Turn S3 ON -> [ON, ON, ON] (Linkage forces S2 ON)
-3. Turn S2 OFF -> [ON, OFF, ON] (Trap State)
-### Verified Puzzle Rules
-1. **Linkage:** Turning Switch 3 ON automatically turns Switch 2 ON.
-2. **Inverse Hypothesis:** The Bottom East Shutter (Goal) likely opens when the Top East Shutter (Entrance) closes. This requires the state [ON, OFF, ON].
-- **Correction:** Warp at (21, 31) is blocked by a wall. Correct exit from 'Behind Counters' is (21, 29).
-### Reflection (Turn 9823)
-- **Lesson:** Game State data is the source of truth. Critique suggested a warp at (21, 29) which does not exist. Always verify.
-- **Warp Anomaly:** Warp Carpets at (21, 31) and (22, 31) are blocked by WALL tiles at y=32. Standard 'walk off' mechanic fails. Hypothesis: Wall might be a trigger or these are entrances only.
-- **Correction:** Switch Room NE (via Ladder) is a verified Dead End.
+
 ## Warp Verification Checklist (Goldenrod)
 - [x] (5, 25): Bill's House (Verified)
 - [ ] (15, 27): Marked 'Pokémon Center'
@@ -228,21 +197,31 @@ Sequence:
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
-**Coordinate Theory:** West Shaft exit is x=11. East Shaft is ~19 tiles east in dungeon, so exit should be ~x=30 in City.
-- **Goldenrod City West:** Verified cul-de-sac. Blocked East by Rocket Grunt (16, 23) and walls. Blocked North by Game Corner. Must use Underground to reach East side.
-- **Goldenrod City:** Verified (5, 25) is Bill's House (Dead End).
-- **Lesson:** Warp Carpets often require walking INTO the wall below/beside them to trigger. Merely standing on them is insufficient.
-- **Switch Room Strategy:** West Shaft exits to Goldenrod City (Dead End). Primary target: Door at (22, 10) in Main Underground (Map 3_53). This is the most likely entrance to the Central/East Switch Room.
-- Verified Switch Room NE (23,3) is a dead end. Returning to Goldenrod City to check Unknown House at (24, 27).
-**Mechanics Update:**
-- **Switch 1 (ON):** Opens East Wall (16, 6-7).
-- **Switch 2 (ON):** Opens West Wall (3, 6-7).
-- **Switch 3:** TBD.
-- **Observation:** Switch 3 ON closes East Wall (16, 6) even if Switch 1 is ON.
-- **Plan:** Test `[OFF, ON, ON]`. Step 1: Turn S2 ON to ensure West Exit.
-- **Observation:** In `[ON, ON, ON]`, East Wall (16, 6) CLOSED. S3 appears to override S1.
-- **Current Task:** Inspecting West Wall (3, 6) to see if S3 also overrides S2.
-
+## Switch Puzzle Analysis (Reference)
+**Goal:** Access Emergency Switch (20,11) in South East Section.
+**Current State:** [ON, ON, ON] (Lockdown Mode).
+**Verified Mechanics:**
+- **Switch 1 (East):** ON = Closes East Wall (16,6). OFF = Opens East Wall.
+- **Switch 2 (Middle):** ON = Opens Middle Path (10,7) (unless overridden).
+- **Switch 3 (West):** ON = Lockdown. Closes West (3,6), Middle (10,6), and East (16,6) walls.
+**Strategy:**
+- **Hypothesis:** Lockdown Mode (S3 ON) opens the Emergency Shutter (16,10).
+- **Problem:** Lockdown closes all northern entrances.
+- **Solution:** Approach the Emergency Shutter from the South.
+- **Plan:**
+  1. Exit via NE Ladder (23, 3) to Goldenrod Underground.
+  2. Locate the southern entrance to the Switch Room (likely connected to the "Unexplored Door" at 22,10).
+**Puzzle Solution Plan (Trap Theory)**
+Target State: [ON, OFF, ON]
+Logic: Closes Top East (Entrance), Opens Bottom East (Goal).
+Sequence:
+1. Turn S1 ON -> [ON, OFF, OFF]
+2. Turn S3 ON -> [ON, ON, ON] (Linkage forces S2 ON)
+3. Turn S2 OFF -> [ON, OFF, ON] (Trap State)
+**Verified Puzzle Rules**
+1. **Linkage:** Turning Switch 3 ON automatically turns Switch 2 ON.
+2. **Inverse Hypothesis:** The Bottom East Shutter (Goal) likely opens when the Top East Shutter (Entrance) closes. This requires the state [ON, OFF, ON].
+- **Correction:** Warp at (21, 31) is blocked by a wall. Correct exit from 'Behind Counters' is (21, 29).
 **Deduction & Plan (Turn 9994):**
 - **Logic:** S1 ON closes Shutter -> Must be OFF. S1 OFF closes East Wall -> Must use West Wall (S2 ON). S3 ON closes Connector -> Must be OFF.
 - **Target Config:** `[OFF, ON, OFF]`.
@@ -250,20 +229,8 @@ Sequence:
 2. Turn S1 OFF.
 3. Verify S2 is ON.
 4. Enter via West Wall -> Connector -> Shutter.
-
 **Logic Puzzle Solution (Agent):**
 Target Configuration: `[OFF, ON, OFF]`.
 - S3 OFF: Keeps Connector Open.
 - S2 ON: Opens West Wall (Access).
 - S1 OFF: Opens Bottom East Shutter (Goal).
-**Switch Puzzle Analysis**
-**Status:** Locked out by S3 ON (Lockdown). Northern paths closed.
-**Dead Ends Verified:**
-- SE Shaft (21, 25): Dead end. Exits to City.
-- SW Shaft (5, 25): Dead end. Exits to City.
-- Door at 3_53 (18, 6): Loop to Behind Counters.
-**Strategy:**
-- Investigate Unknown Houses in Goldenrod City ((33, 9) and (31, 21)).
-- If blocked by Grunts, re-enter Underground via (9, 5) -> SE Shaft -> Main Underground.
-- Return to Switch Room (North) and test [OFF, OFF, OFF] configuration.
-- Hypothesis: S1 OFF (Wall Open) + S2 OFF (Middle Closed) might Open Shutter.
