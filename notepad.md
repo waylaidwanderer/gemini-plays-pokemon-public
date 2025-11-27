@@ -232,3 +232,25 @@
 - West-Middle Connection (6,8/9): OPEN
 - Central Connector (12,9): CLOSED
 - Implication: Path forces detour through West Room.
+
+## Switch Room Puzzle Analysis (Latest)
+**Objective:** Reach Emergency Switch (20,11).
+**Status:** Testing Configuration [OFF, ON, ON].
+
+**Verified Truth Table:**
+| Config | S1 | S2 | S3 | Entry Gates (North) | Internal Connections | Exit Gate (South) | Notes |
+|---|---|---|---|---|---|---|---|
+| [OFF,OFF,OFF] | OFF | OFF | OFF | All Closed | ? | ? | Baseline. Fails. |
+| [ON,OFF,OFF] | ON | OFF | OFF | Top East OPEN | Central OPEN | Bot East CLOSED | Entry possible, but South blocked. |
+| [OFF,ON,OFF] | OFF | ON | OFF | Middle OPEN | West-Mid OPEN, Central CLOSED | ? | Entry possible. Path to West Room. No South exit found yet. |
+| [OFF,ON,ON] | OFF | ON | ON | ? | ? | ? | **Testing Now.** Hypothesis: S3 opens Central Connector? |
+
+**Key Mechanics Deductions:**
+- **S1 (East Switch):**
+  - ON: Opens Top East Gate (Entry). Closes Bottom East Gate (Exit). Opens Central Connector.
+  - OFF: Closes Top East Gate. Opens Bottom East Gate (Exit). Closes Central Connector (unless S3 helps?).
+- **S2 (Middle Switch):**
+  - ON: Opens Middle Gate (Entry).
+- **S3 (West Switch):**
+  - Effect Unknown/Testing.
+  - Hypothesis: Toggles Central Connector or West Gate.
