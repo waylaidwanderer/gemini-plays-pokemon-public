@@ -7,8 +7,9 @@
 ## Status
 - **Location:** Goldenrod Underground (Behind Counters).
 - **Objective:** Find Director or Key Items. Return to Switch Room if dead end.
-- **Current Switch State:** [ON, OFF, ON] (S1, S2, S3).
-- **Key Finding:** This state opens the path to the West Room South, but it appeared to be a dead end. Re-investigation required.
+- **Current Switch State:** [ON, OFF, OFF] (S1, S2, S3).
+- **Key Finding:** Top East Shutter OPEN. Bottom East CLOSED. Bottom Middle CLOSED.
+- **Next Step:** Execute Trap Theory: Turn S3 ON (forces S2 ON) -> Turn S2 OFF -> Check Bottom East.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Open South Path (Bottom West 3,10 | Bottom Middle 10,10 | Inner Shutter 16,10).
