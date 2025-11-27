@@ -7,14 +7,14 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle State:** S1 ON, S2 OFF, S3 ON.
+- **Puzzle State:** S1 ON, S2 ON, S3 ON.
 - **Observations:**
   - [OFF, OFF, OFF]: Middle Gate CLOSED. Upper Connector (Row 4) OPEN. Central Connector CLOSED.
   - [ON, OFF, OFF]: Top East Shutter CLOSED. **Bottom East Shutter (16,10) OPEN.** Upper Connector OPEN.
   - [OFF, ON, OFF]: Middle Gate OPEN. Central Connector OPEN. Path South blocked (10,10). West Connector (6,9) OPEN.
   - [ON, ON, OFF]: Middle Gate OPEN. **Central Connector (12,9) CLOSED.** Path South blocked (10,10). West Connector (6,9) OPEN. West Room South (3,10) CLOSED.
-  - [ON, OFF, ON]: West Gate (3,6) CLOSED.
-- **Hypothesis:** S3 ON might open West Room South (3,10) or West Connector South (6,12), accessible via Middle Room.
+  - [ON, OFF, ON]: West Gate (3,6) CLOSED. West Connector (6,9) CLOSED.
+- **Hypothesis:** Testing [ON, ON, ON]. Hoping S2+S3 interaction opens West Gate or access to West Room South.
 - **Conclusion:** S1 ON closes the Central Connector, preventing access to the open Bottom Shutter from the Middle Room.
 - **New Plan:** Check West Connector (6,9). If open, attempt to reach Row 12 via West Room to bypass the blocked Central Connector.
 
