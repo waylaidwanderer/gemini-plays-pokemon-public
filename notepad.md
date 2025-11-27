@@ -228,3 +228,4 @@ Sequence:
 - [ ] (33, 9): Unknown House (High Priority - East Side)
 
 **Coordinate Theory:** West Shaft exit is x=11. East Shaft is ~19 tiles east in dungeon, so exit should be ~x=30 in City.
+- **Goldenrod City West:** Verified cul-de-sac. Blocked East by Rocket Grunt (16, 23) and walls. Blocked North by Game Corner. Must use Underground to reach East side.
