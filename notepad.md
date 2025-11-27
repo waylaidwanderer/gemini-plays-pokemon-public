@@ -235,3 +235,4 @@
 # Ruins of Alph - Kabuto Chamber Puzzle
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
+- **Data Structure Verification:** Do not assume data structures, sorting order, or string casing within the game (e.g., inventory lists, item names). Always verify against direct observation before building automation that relies on it. A faulty assumption about data, like case-sensitivity, will lead to tool failure.
