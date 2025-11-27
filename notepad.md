@@ -12,18 +12,22 @@
 - **Plan:** Re-enter Switch Room NE via ladder (22, 27). Locate open Top East Shutter.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Reach Emergency Switch (20,11) via East Room.
+**Goal:** Reach Emergency Switch (20,11) via South Section.
 
-**Verified State Log:**
-- **[ON, OFF, OFF]:** Top East OPEN. East Connector OPEN. West Connector CLOSED. (Current State)
-- **[OFF, ON, ON]:** Top West OPEN. (Dead End)
-- **[OFF, OFF, OFF]:** Lockdown.
-- **[ON, OFF, ON]:** Trap State.
+**Mechanics:**
+- **Switch 1:** Controls Security Wall at (16, 6). ON = OPEN. OFF = CLOSED.
+- **Switch 2:** Controls Switch 3 (Linkage) or other shutters? (To be verified).
+- **Switch 3:** Controls Switch 2 (Linkage) or other shutters? (To be verified).
 
-**Current Plan:**
-1. Confirmed State `[ON, OFF, OFF]` (S1=ON, S2=OFF, S3=OFF).
-2. Enter East Room via `(16, 6)`.
-3. Activate Emergency Switch at `(20, 11)`.
+**Current State:** [ON, OFF, OFF]
+- Wall (16, 6): OPEN.
+- Inner Shutter (16, 10): Status Unknown (Checking now).
+
+**Plan:**
+1. Navigate south through opened wall.
+2. Check Inner Shutter at (16, 10).
+3. If open, proceed to Emergency Switch (20, 11).
+4. If closed, analyze logic for Switch 2 & 3.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
