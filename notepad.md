@@ -15,11 +15,13 @@
 **Goal:** Reach Emergency Switch (20,11) via South Section.
 
 **Mechanics:**
-- **Switch 1:** Controls Security Wall at (16, 6). ON = OPEN. OFF = CLOSED.
-- **Switch 2:** Controls Switch 3 (Linkage) or other shutters? (To be verified).
-- **Switch 3:** Controls Switch 2 (Linkage) or other shutters? (To be verified).
+- **Switch 1:** Controls East Security Wall (16, 6). ON = OPEN.
+- **Switch 2:** Controls West Security Wall (3, 6). ON = OPEN. NO Linkage to S3 observed.
+- **Switch 3:** Unknown function. Likely shutters.
 
-**Tested State:** [ON, OFF, OFF]
+**Tested States:**
+- `[ON, OFF, OFF]`: East Wall OPEN. West Wall CLOSED. Shutters CLOSED.
+- `[ON, ON, OFF]` (Current): East Wall OPEN. West Wall OPEN. Shutters TBD.
 - Wall (16, 6): OPEN.
 - Wall (12, 9): OPEN (Access to West Room).
 - Inner Shutter (16, 10): CLOSED.
