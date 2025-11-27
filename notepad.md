@@ -208,3 +208,6 @@ Sequence:
 1. Turn S1 ON -> [ON, OFF, OFF]
 2. Turn S3 ON -> [ON, ON, ON] (Linkage forces S2 ON)
 3. Turn S2 OFF -> [ON, OFF, ON] (Trap State)
+### Verified Puzzle Rules
+1. **Linkage:** Turning Switch 3 ON automatically turns Switch 2 ON.
+2. **Inverse Hypothesis:** The Bottom East Shutter (Goal) likely opens when the Top East Shutter (Entrance) closes. This requires the state [ON, OFF, ON].
