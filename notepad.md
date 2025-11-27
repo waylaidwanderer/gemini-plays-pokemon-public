@@ -8,7 +8,7 @@
 - **Location:** Goldenrod Dept Store B1F.
 - **Objective:** Rescue Director (Underground Warehouse).
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Take Elevator to B1F and search for Warehouse entrance.
+- **Action:** Explore B1F. Talk to Black Belt.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
