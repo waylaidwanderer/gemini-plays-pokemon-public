@@ -185,10 +185,7 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-- Verified State [ON, OFF, ON]: Top West CLOSED (Trap). Top East CLOSED. Bottom West CLOSED. (Correction: Trap State confirmed).
-Verified [OFF, OFF, OFF]: Top West OPEN. Top East & Top Middle CLOSED. Bottoms UNKNOWN.
-Verified [OFF, OFF, ON]: Top West OPEN. Bottom West CLOSED.
-Status Update: Verified [OFF, OFF, ON] causes Lockdown (West & East Walls CLOSED). Switch 3 ON overrides S2. Returning to [OFF, OFF, OFF] to test West Wall entry.
+- Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
 ## Warp Verification Checklist (Goldenrod)
 - [x] (5, 25): Bill's House (Verified)
