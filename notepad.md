@@ -7,13 +7,14 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle State:** S1 ON, S2 ON, S3 OFF (Current Test).
+- **Puzzle State:** S1 ON, S2 ON, S3 OFF.
 - **Observations:**
-  - [OFF, OFF, OFF]: Top East Shutter CLOSED. Middle Gate CLOSED. Upper Connector (Row 4) OPEN.
-  - [ON, OFF, OFF]: Top East Shutter CLOSED. **Bottom East Shutter (16,10) OPEN.** (Critical discovery).
-  - [OFF, ON, OFF]: Middle Gate OPEN. Central Connector OPEN. Top East Shutter CLOSED. Path South from Row 9 blocked.
-- **Hypothesis:** [ON, ON, OFF] combines S2's Middle access with S1's Bottom Shutter access.
-- **Plan:** Verify Middle Gate (10,6) and Central Connector (12,9). If open, proceed to East Room South.
+  - [OFF, OFF, OFF]: Middle Gate CLOSED. Upper Connector (Row 4) OPEN. Central Connector CLOSED.
+  - [ON, OFF, OFF]: Top East Shutter CLOSED. **Bottom East Shutter (16,10) OPEN.**
+  - [OFF, ON, OFF]: Middle Gate OPEN. Central Connector OPEN. Path South blocked. West Connector (6,9) OPEN.
+  - [ON, ON, OFF]: Middle Gate OPEN. **Central Connector (12,9) CLOSED.** Path South blocked.
+- **Conclusion:** S1 ON closes the Central Connector, preventing access to the open Bottom Shutter from the Middle Room.
+- **New Plan:** Check West Connector (6,9). If open, attempt to reach Row 12 via West Room to bypass the blocked Central Connector.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
