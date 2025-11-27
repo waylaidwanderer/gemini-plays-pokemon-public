@@ -258,3 +258,10 @@ Sequence:
 2. Turn S1 OFF.
 3. Verify S2 is ON.
 4. Enter via West Wall -> Connector -> Shutter.
+
+**Logic Puzzle Solution (Agent):**
+Target Configuration: `[OFF, ON, OFF]`.
+- S3 OFF: Keeps Connector Open.
+- S2 ON: Opens West Wall (Access).
+- S1 OFF: Opens Bottom East Shutter (Goal).
+Status: S3 is OFF. Moving to turn S2 ON.
