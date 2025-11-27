@@ -7,9 +7,13 @@
 ## Status
 - **Location:** Switch Room NE (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Switch State:** Found S2 OFF. Current: [OFF, OFF, OFF]. West Wall CLOSED.
-- **Action:** Turning S2 ON to achieve [OFF, ON, OFF].
-- **Plan:** Turn S2 ON -> Verify West Wall OPEN -> Cross Central Connector -> Enter East Section -> Emergency Switch.
+- **Switch State:** Current: [ON, OFF, OFF].
+- **Action:** Verifying East Security Wall (16, 6).
+- **Plan:** If East Wall OPEN -> Enter East Section -> Investigate Unexplored Door (22, 10).
+- **Recent Tests:**
+  - [OFF, OFF, OFF]: West Wall CLOSED.
+  - [OFF, ON, ON]: All Walls CLOSED (Lockdown).
+  - [ON, ON, OFF]: East Wall CLOSED.
 
 ## Switch Puzzle Analysis (In Progress)
 **Goal:** Access Emergency Switch (20,11) in South East Section.
