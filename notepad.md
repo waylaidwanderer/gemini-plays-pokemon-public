@@ -46,6 +46,8 @@
 - **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
+- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
+- **CONSULT YOUR KNOWLEDGE BASE:** My notepad contains critical, verified information about game mechanics (like impassable tiles). I MUST consult this knowledge base *before* attempting an action to avoid repeating solved problems and wasting turns on impossible movements, as seen with the COUNTER tile incident.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -123,11 +125,11 @@
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 - **HEADBUTT_TREE**: An impassable tree that can be interacted with using the move HEADBUTT.
+- **INCENSE_BURNER**: An impassable decorative object.
 
 # Current Quest: Journey to Ecruteak City
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
-- **Status:** Just defeated Whitney in Goldenrod. Need to heal at the Pokémon Center, then get the SQUIRTBOTTLE from the Flower Shop to clear the path on Route 36.
-- **New Hypothesis:** After thoroughly exploring Route 36 and finding only dead ends or one-way ledges, it's highly likely the path to Ecruteak City is not from Route 36. I must re-examine previous areas, like Goldenrod City or the National Park, for a previously missed path.
+- **Status:** I have arrived in Ecruteak City. The Gym Leader, Morty, is not at the gym. My next step is to find the Burned Tower, which is the most likely place to find him.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -160,6 +162,7 @@
 - **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".
 - **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
 - **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
+- **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -202,18 +205,3 @@
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
 - **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-
-# Current Quest: Journey to Ecruteak City
-- **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
-- **Status:** After exploring all other paths on Route 36 and confirming they are loops or dead ends, I've re-examined the map and realized I prematurely abandoned the northern path. There are reachable unseen tiles at the northern edge of the map, which is now the most likely path forward.
-- **Positional Verification:** After any map transition (warp, map edge), I MUST verify my new coordinates from the game state before taking any action to prevent hallucinations.
-
-# Strategic Principles & Lessons Learned
-- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
-
-# Strategic Principles & Lessons Learned (Addendum)
-- **CONSULT YOUR KNOWLEDGE BASE:** My notepad contains critical, verified information about game mechanics (like impassable tiles). I MUST consult this knowledge base *before* attempting an action to avoid repeating solved problems and wasting turns on impossible movements, as seen with the COUNTER tile incident.
-
-# Tile & Object Mechanics (Addendum)
-- **INCENSE_BURNER**: An impassable decorative object.
-- **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
