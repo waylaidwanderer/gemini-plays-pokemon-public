@@ -1,33 +1,27 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Rescue Director in Underground Warehouse (Current)
-- [ ] Defeat Team Rocket
+- [ ] Rescue Director in Underground Warehouse (Primary)
+- [ ] Reset Switches to [ON, OFF, OFF] to access East Room Door
 
 ## Status
-- **Location:** Switch Room (3_54).
+- **Location:** Switch Room Entrances (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Current Plan:** Reset switches to [ON, OFF, OFF] to access the 'Unexplored Door' at (22, 10) in the East Room.
-- **Puzzle State:** Currently [OFF, ON, ON]. Resetting to [ON, OFF, OFF].
+- **Current Puzzle State:** [OFF, OFF, ON].
+- **Immediate Task:** Turn S3 OFF, then S1 ON.
 
-## Switch Room Puzzle (Consolidated & Verified)
-**Goal:** Access Emergency Switch at (20, 11).
-**Constraint:** Bottom East Gate (16, 10) blocks direct path south in most configurations.
+## Underground Switch Room Puzzle (Consolidated)
+**Goal:** Reach Emergency Switch at (20, 11).
+**Constraint:** Bottom East Gate (16, 10) blocks path south when S1 is ON.
 **Key Discovery:** The "Unexplored Door" at (22, 10) is accessible when Top East Gate is OPEN.
 
-**Verified Truth Table:**
-| Configuration | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | Central Conn (12,9) | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[ON, OFF, OFF]** | **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | **OPEN** | **Target Configuration.** Allows entry to East Room & access to Door (22,10). |
-| [OFF, ON, OFF] | OFF | ON | OFF | CLOSED | ? | **OPEN** | **CLOSED** | Opens path to West Room (Dead End). |
-| [OFF, ON, ON] | OFF | ON | ON | CLOSED | ? | **CLOSED** | ? | Middle Gate closes. Dead End. |
-| [OFF, OFF, OFF]| OFF | OFF | OFF | CLOSED | ? | CLOSED | ? | Baseline. All North Gates Closed. |
+**Verified Configurations:**
+- **[ON, OFF, OFF]:** Top East (16,6) OPEN. Bot East (16,10) CLOSED. Middle (10,6) CLOSED. Central Conn (12,9) OPEN. -> **Target State.**
+- **[OFF, ON, OFF]:** Middle (10,6) OPEN. Central Conn (12,9) CLOSED. West-Mid Conn OPEN. -> Dead End in West Room.
+- **[OFF, ON, ON]:** Middle (10,6) CLOSED. West Gate (3,6) CLOSED. -> Dead End.
+- **[OFF, OFF, OFF]:** All North Gates CLOSED.
 
-**Deductions:**
-- S1 ON opens Top East Gate (Entry) but closes Bottom East Gate.
-- S1 OFF opens Bottom East Gate (Exit) but closes Top East Gate and Central Connector.
-- S2 ON opens Middle Gate (Entry) but only if S3 is OFF? (See [OFF, ON, ON] failure).
-- **Strategy:** The solution likely involves the door at (22, 10) bypassing the Bottom East Gate.
+**Strategy:** The door at (22, 10) likely bypasses the Bottom East Gate.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
