@@ -9,8 +9,8 @@
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Puzzle State:** S1 ON (Verified). S2 ON (Verified). S3 Unknown. Middle Gate Open. Bottom East Shutter CLOSED.
 - **Puzzle State:** S1 ON, S2 ON, S3 OFF.
-- **Observations:** [ON, ON, ON] kept Central Connector CLOSED.
-- **Plan:** Testing [ON, ON, OFF]. Verify Central Connector (12, 9) and Top East Shutter (16, 6).
+- **Observations:** [ON, ON, OFF] opened West Gate (3, 6) and Central Connector (12, 9).
+- **Plan:** Navigate to Emergency Switch (20, 11) via Central Connector.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
