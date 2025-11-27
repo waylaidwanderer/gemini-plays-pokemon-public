@@ -23,7 +23,7 @@
 | OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. |
 | **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | S1 opens Top East & Central Conn. Closes Bot East. |
 | OFF | **ON** | OFF | CLOSED | ? | **OPEN** | **OPEN** | CLOSED | **OPEN** | S2 opens Middle. S1 OFF opens Row 12 Conn & West Gate. Top East Closed. West-Mid Conn Open. |
-| **ON** | **ON** | OFF | **OPEN** | CLOSED | **OPEN** | ? | **CLOSED** | CLOSED | S2 overrides S1 for Central Conn (Force Close). Middle & Top East Open. |
+| **ON** | **ON** | OFF | **OPEN** | CLOSED | **OPEN** | ? | **OPEN** | CLOSED | S2 and S1 coexist! Middle, Top East, & Central Conn ALL OPEN. |
 
 **Analysis:**
 - **Recent Finding:** Configuration [ON, ON, OFF] results in Middle Gate OPEN but Central Connector CLOSED. This confirms S2 ON overrides S1's opening of the Central Connector.
