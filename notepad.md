@@ -224,3 +224,13 @@
 - North East Switch Room (via Top East Gate) leads to a dead end. Path south is blocked.
 - Hypothesis: The ladder at (3, 2) in Main Underground leads to the South East Switch Room (East Shaft). I might be able to walk North from there to reach the Emergency Switch.
 - Plan: Exit Behind Counters area -> Go to (3, 2) -> Take ladder -> Check path North.
+### [OFF, ON, OFF] Findings
+- **Top East Gate (16, 6):** CLOSED.
+- **West Gate (3, 6):** OPEN.
+- **West-Mid Connector (6, 9):** OPEN.
+- **South West-Mid Connector (6, 12):** CLOSED.
+- **South Mid-East Connector (12, 12):** OPEN.
+
+### [OFF, ON, ON] Testing
+- **West Gate (3, 6):** OPEN.
+- Checking Row 10 barrier...
