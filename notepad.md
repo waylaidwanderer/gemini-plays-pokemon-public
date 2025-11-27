@@ -15,26 +15,27 @@
   - Switch 3 ON = Lockdown (Closes walls).
 - **Plan:** Check Shutter (16, 10). If CLOSED, check Door (22, 10).
 
-## Switch Puzzle Analysis (In Progress)
+## Switch Puzzle Analysis
 **Goal:** Access Emergency Switch (20,11) in South East Section.
 
 **Verified Mechanics:**
 - **Switch 1 (East):** Controls East Security Wall (16,6) AND Bottom East Shutter (16,10).
-  - S1 ON = East Wall OPEN, Shutter CLOSED. (Verified)
-  - S1 OFF = East Wall CLOSED, Shutter OPEN. (Verified)
-  - **OVERRIDE:** S1 ON overrides S2, forcing Middle Path (10, 6) CLOSED.
-- **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN (unless overridden).
-- **Switch 3 (West):**
-  - ON = Lockdown (Closes East, West, and Middle paths). (Verified)
-  - OFF = Normal operation.
-- **Combination Rules:**
-  - S1 ON + S2 ON = Central Connector (12, 9) OPEN.
+  - S1 ON = East Wall OPEN (Top Entrance), Shutter CLOSED (Goal blocked).
+  - S1 OFF = East Wall CLOSED (Top Entrance blocked), Shutter OPEN (Goal accessible).
+  - **Constraint:** S1 must be OFF to reach the Goal, but this blocks the Top Entrance.
+- **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN.
+- **Switch 3 (West):** ON = Lockdown (Closes paths). OFF = Normal.
 
-**Current State:** `[OFF, ON, OFF]` (Testing)
+**Strategy:**
+- Since S1 must be OFF to open the goal shutter, the Top East Entrance is closed.
+- I must enter the East Section from the **Bottom**.
 - **Plan:**
-  1. Turn S1 OFF (Done).
-  2. Enter via Middle Entrance (10, 6) (Should be OPEN).
-  3. Check Central Connector (12, 9). If OPEN -> Cross to East -> Goal.
+  1. Keep S1 OFF.
+  2. Exit the Top Section (via Middle Path).
+  3. Re-enter the Underground via the City.
+  4. Enter the East Section via the East Shaft Ladder (21, 25).
+  5. Walk North to the "Unexplored Door" at (22, 10).
+  6. Access the Emergency Switch.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
