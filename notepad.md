@@ -229,4 +229,3 @@
 - Youngster JOEY called for a rematch on Route 30.
 
 # Tool Failures
-- **TM08 ROCK SMASH:** Received from a man on Route 36 after defeating the Sudowoodo.
