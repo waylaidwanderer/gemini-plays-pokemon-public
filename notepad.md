@@ -150,12 +150,14 @@
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+- **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
 
 # TMs
 - **TM02 HEADBUTT:** Received from a Rocker in Ilex Forest. Can be used to shake trees and find sleeping Pokémon.
 - **TM12 SWEET Scent**
 - **TM31 MUD-SLAP**
 - **TM39 SWIFT**
+- **TM45 ATTRACT**
 - **TM49 FURY CUTTER**
 
 # NPC Dialogue
@@ -163,9 +165,6 @@
 - Received MIRACLE SEED from a trainer on Route 32.
 - **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
 - A POKEFAN_M in the Game Corner lost his COIN CASE in the UNDERGROUND. This is likely required to play the games.
-- **Phone Calls:**
-    - Youngster JOEY called for a rematch on Route 30.
-    - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE.
 - **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
 - **POKEFAN_F in Bill's House (Goldenrod):** Her son, BILL, is an expert on Pokémon and is at the Pokémon Center in ECRUTEAK CITY. Her husband is at the GAME CORNER.
 - **LASS on Goldenrod Dept. Store 5F:** A lady gives away TMs on Sundays.
@@ -203,6 +202,8 @@
 - `define_map_marker` / `delete_map_marker`: Manages map markers for data hygiene.
 - `stun_npc`: Freezes NPCs to assist with pathing and interaction.
 - `select_battle_option`: Selects main battle menu options (FIGHT, PKMN, PACK, RUN).
+- `define_agent` / `delete_agent`: Manages custom reasoning agents.
+- `define_tool` / `delete_tool`: Manages custom Python tools.
 ## Custom Tools (via `define_tool`)
 - `find_path`: Finds a path from a start to an end coordinate on the current map.
 - `select_item`: Automates selecting a specific item from the bag menu.
@@ -225,11 +226,10 @@
 
 # Phone Calls
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
-
-# Tool Failures
-- **`switch_pokemon` Critical Failure (Turn 19455):** The tool is still broken. It generated a long, incorrect sequence of 'Up' presses when trying to switch from 'CANCEL' to 'GIB RALTAR'. The index calculation or parsing is fundamentally flawed. Must be fixed at the next battle opportunity.
+- Youngster JOEY called for a rematch on Route 30.
 
 # Reflection Learnings (Turn 19485)
 - **CRITICAL LESSON - Verify Location:** I have repeatedly hallucinated my location after map transitions. I MUST verify my current map ID and coordinates from the Game State Information after every warp or map change before taking any other action.
 - **CRITICAL LESSON - Trust Tool Failures:** When a trusted tool like `find_path` reports 'No path found', it is a strong signal that my own understanding of the game state (my location, the map layout) is fundamentally flawed. I must question my own assumptions before questioning the tool.
-- **TODO - Mark Whitney:** I failed to mark Whitney as defeated. I must return to the Goldenrod Gym (Map ID 11_3) at the next opportunity to find her object ID and add a '☠️' marker.
+
+# Tool Failures
