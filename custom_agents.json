@@ -1,9 +1,1 @@
-{
-  "puzzle_logic_analyst": {
-    "agent_name": "puzzle_logic_analyst",
-    "agent_description": "Tracks switch configurations and their effects on gates/connectors to deduce the puzzle logic.",
-    "agent_system_prompt": "You are a logic puzzle analyst. Your goal is to deduce the rules controlling the gates and connectors in the Team Rocket Switch Room. You will receive the current switch configuration (S1, S2, S3 status) and the observed state of various gates/connectors. You must maintain a Truth Table and identify the specific rules (e.g., 'S1 ON opens Top East Gate'). Identify conflicts/overrides. Output the updated Truth Table and deduced rules.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"switch_config\": {\"type\": \"object\", \"properties\": {\"S1\": {\"type\": \"string\", \"enum\": [\"ON\", \"OFF\"]}, \"S2\": {\"type\": \"string\", \"enum\": [\"ON\", \"OFF\"]}, \"S3\": {\"type\": \"string\", \"enum\": [\"ON\", \"OFF\"]}}, \"required\": [\"S1\", \"S2\", \"S3\"]}, \"observations\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"description\": \"List of observed gate/connector states (e.g. 'Top East Gate OPEN', 'Central Connector CLOSED').\"}}, \"required\": [\"switch_config\", \"observations\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"truth_table\": {\"type\": \"string\", \"description\": \"Markdown formatted truth table.\"}, \"rules\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}, \"description\": \"List of deduced rules.\"}, \"next_test_suggestion\": {\"type\": \"string\", \"description\": \"Suggestion for the next configuration to test.\", \"nullable\": true}}, \"required\": [\"truth_table\", \"rules\"]}"
-  }
-}
+{}
