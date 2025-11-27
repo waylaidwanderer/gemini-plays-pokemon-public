@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Behind Counters).
 - **Objective:** Find Director or Key Items. Return to Switch Room if dead end.
-- **Current Switch State:** [ON, OFF, OFF] (S1, S2, S3).
+- **Current Switch State:** [ON, ON, ON] (S1, S2, S3). (Linkage triggered).
 - **Key Finding:** Top East Shutter OPEN. Bottom East CLOSED. Bottom Middle CLOSED.
 - **Next Step:** Execute Trap Theory: Turn S3 ON (forces S2 ON) -> Turn S2 OFF -> Check Bottom East.
 
