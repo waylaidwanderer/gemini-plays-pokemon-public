@@ -483,37 +483,6 @@
       }
     ]
   },
-  "select_contest_option": {
-    "description": "Automates selecting an option (FIGHT, PARKBALL, RUN) from the Bug-Catching Contest battle menu. Takes the current screen text as input.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_to_select": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PARKBALL",
-            "RUN"
-          ]
-        },
-        "current_screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "option_to_select",
-        "current_screen_text"
-      ]
-    },
-    "python_script": "import json\n\ndef select_contest_option(screen_text, option):\n    lines = screen_text.split('\\n')\n    current_selection = ''\n    for line in lines:\n        if '▶' in line:\n            if 'FIGHT' in line:\n                current_selection = 'FIGHT'\n            elif 'PARKBALL' in line:\n                current_selection = 'PARKBALL'\n            elif 'RUN' in line:\n                current_selection = 'RUN'\n            break\n    \n    if not current_selection:\n        print(json.dumps(['A'])) # Failsafe\n        return\n        \n    if current_selection.upper() == option.upper():\n        print(json.dumps(['A']))\n        return\n\n    moves = []\n    if current_selection == 'FIGHT':\n        if option.upper() == 'PARKBALL': moves = ['Down']\n        elif option.upper() == 'RUN': moves = ['Down', 'Right']\n    elif current_selection == 'PARKBALL':\n        if option.upper() == 'FIGHT': moves = ['Up']\n        elif option.upper() == 'RUN': moves = ['Right']\n    elif current_selection == 'RUN':\n        if option.upper() == 'FIGHT': moves = ['Left', 'Up']\n        elif option.upper() == 'PARKBALL': moves = ['Left']\n        \n    moves.append('A')\n    print(json.dumps(moves))\n\nselect_contest_option(input_data['current_screen_text'], input_data['option_to_select'])",
-    "history": [
-      {
-        "commit_message": "feat: Create select_contest_option tool. This tool automates navigation in the unique Bug-Catching Contest battle menu, addressing a manual task identified by a system critique. This aligns with the 'DEFAULT TO AUTOMATION' principle.",
-        "timestamp": "2025-11-26T23:49:43.625Z",
-        "action_counter": 19051
-      }
-    ]
-  },
   "select_item": {
     "description": "Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.",
     "input_schema": {
@@ -1009,6 +978,37 @@
         "commit_message": "fix: Ignore 'FNT' status line during parsing. The `python_code_debugger` agent identified that the tool's regex was too general and incorrectly matched the 'FNT' (fainted) status line as a selectable menu option. This added an invalid entry to the options list and caused the index calculation to be off by one, resulting in a catastrophic failure. This commit adds a specific conditional check to explicitly ignore any parsed option named 'FNT', ensuring the list of selectable options is always correct.",
         "timestamp": "2025-11-27T03:15:41.250Z",
         "action_counter": 19459
+      }
+    ]
+  },
+  "verify_reachability": {
+    "description": "Checks a list of coordinates to see which are reachable from the player's current position using pathfinding logic. Intended for use with the 'Potentially Reachable Unseen Tiles' system alert.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "coords_to_check_json": {
+          "type": "string",
+          "description": "A JSON string of a list of coordinate pairs, e.g., '[[25, 0], [26, 0]]'"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "coords_to_check_json"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_path_logic(map_xml_string, start_x, start_y, end_x, end_y):\n    root = ET.fromstring(map_xml_string)\n    IMPASSABLE_TILES = {\"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"CUT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\", \"DOOR\"}\n    LEDGE_TILES = {'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_DOWN'}\n    \n    grid = {}\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            coord = (x, y)\n            grid[coord] = {\n                'type': tile_elem.get('type'),\n                'has_object': tile_elem.find('Object') is not None,\n                'is_warp': tile_elem.find('Warp') is not None\n            }\n\n    start_node = (start_x, start_y)\n    end_node = (end_x, end_y)\n\n    target_nodes = []\n    end_tile_info = grid.get(end_node)\n    is_end_impassable = (not end_tile_info or \n                         end_tile_info['type'] in IMPASSABLE_TILES or \n                         end_tile_info['has_object'] or\n                         end_tile_info['type'] == 'unseen')\n\n    if is_end_impassable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_node = (end_node[0] + dx, end_node[1] + dy)\n            adj_tile_info = grid.get(adj_node)\n            if adj_tile_info and not (adj_tile_info['type'] in IMPASSABLE_TILES or adj_tile_info['has_object'] or adj_tile_info['type'] == 'unseen'):\n                target_nodes.append(adj_node)\n        if not target_nodes:\n            return None\n    else:\n        target_nodes.append(end_node)\n\n    start_tile_info = grid.get(start_node)\n    if not start_tile_info or start_tile_info['type'] in IMPASSABLE_TILES or start_tile_info['has_object']:\n        return None\n\n    queue = deque([start_node])\n    visited = {start_node}\n    came_from = {start_node: None}\n\n    found_target = None\n    while queue:\n        current = queue.popleft()\n        cx, cy = current\n\n        if current in target_nodes:\n            found_target = current\n            break\n\n        current_type = grid[current]['type']\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (cx + dx, cy + dy)\n            \n            if neighbor not in grid or neighbor in visited:\n                continue\n\n            neighbor_info = grid[neighbor]\n            neighbor_type = neighbor_info['type']\n\n            if neighbor_info['has_object']:\n                continue\n\n            if neighbor_type in IMPASSABLE_TILES or neighbor_type == 'unseen':\n                continue\n            \n            if neighbor_info['is_warp'] and neighbor not in target_nodes:\n                continue\n\n            if current_type in LEDGE_TILES:\n                allowed = False\n                if current_type == 'LEDGE_HOP_LEFT' and (dx, dy) == (-1, 0): allowed = True\n                elif current_type == 'LEDGE_HOP_RIGHT' and (dx, dy) == (1, 0): allowed = True\n                elif current_type == 'LEDGE_HOP_DOWN' and (dx, dy) == (0, 1): allowed = True\n                if not allowed:\n                    continue\n            \n            is_illegal_ledge_entry = False\n            if neighbor_type == 'LEDGE_HOP_DOWN' and dy == -1: is_illegal_ledge_entry = True\n            elif neighbor_type == 'LEDGE_HOP_LEFT' and dx == 1: is_illegal_ledge_entry = True\n            elif neighbor_type == 'LEDGE_HOP_RIGHT' and dx == -1: is_illegal_ledge_entry = True\n            if is_illegal_ledge_entry:\n                continue\n            \n            visited.add(neighbor)\n            came_from[neighbor] = current\n            queue.append(neighbor)\n\n    if found_target:\n        path = []\n        step = found_target\n        while step is not None:\n            path.append(step)\n            step = came_from.get(step)\n        path.reverse()\n        return path\n    return None\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ncoords_to_check = json.loads(input_data['coords_to_check_json'])\n\nreachable_coords = []\nfor x, y in coords_to_check:\n    path = find_path_logic(map_xml_string, start_x, start_y, x, y)\n    if path:\n        reachable_coords.append([x, y])\n\nprint(json.dumps(reachable_coords))",
+    "history": [
+      {
+        "commit_message": "feat: Create verify_reachability tool. This tool automates checking which 'Potentially Reachable Unseen Tiles' are actually reachable from the player's current position. It reuses the robust pathfinding logic from the `find_path` tool to iterate through a list of coordinates and returns a filtered list of those that have a valid path. This addresses a key strategic need for efficient exploration identified during a mandatory reflection.",
+        "timestamp": "2025-11-27T04:11:41.733Z",
+        "action_counter": 19539
       }
     ]
   }
