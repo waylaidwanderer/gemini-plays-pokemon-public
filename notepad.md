@@ -7,9 +7,9 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle State:** S1 ON (Verified), S2 ON (Verified), S3 OFF (Verified).
-- **Observations:** [ON, ON, OFF] opened Central Connector (12, 9), but the path south of Bottom East Shutter (16, 10) is a dead end.
-- **Plan:** Turn S1 OFF. Hypothesis: S1 OFF opens Top East Shutter (16, 6), allowing access to East Room via Row 5.
+- **Puzzle State:** S1 OFF (Verified), S2 ON (Verified), S3 OFF (Verified).
+- **Observations:** [OFF, ON, OFF] opens Central Connector (12, 9) but Top Shutter (16, 6) is CLOSED. [ON, ON, OFF] kept Top Shutter CLOSED.
+- **Plan:** Turn S3 ON. Test [OFF, ON, ON] for Top Shutter.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
