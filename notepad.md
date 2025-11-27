@@ -220,6 +220,7 @@
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
 - `select_contest_option`: Automates selecting an option from the Bug-Catching Contest battle menu.
+- `verify_reachability`: Checks a list of coordinates to see which are reachable from the player's current position.
 ## Custom Agents (via `define_agent`)
 - `gym_puzzle_solver`: Generates simple, testable hypotheses for gym puzzles.
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
