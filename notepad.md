@@ -5,10 +5,10 @@
 - [ ] Access East Room Door (22, 10) via Top East Gate (Secondary)
 
 ## Status
-- **Location:** Switch Room (Far South Shaft).
-- **Discovery:** Path North from (21, 25) is blocked by wall at Row 21.
-- **Hypothesis:** Row 12 connects Middle and East rooms. Entry via Middle Gate (10, 6) requires [OFF, ON, OFF].
-- **Plan:** Return to Switches. Set [OFF, ON, OFF]. Enter Middle Gate (10, 6). Walk South to Row 12, then East to Switch.
+- **Location:** Goldenrod City (North Entrance).
+- **Status:** East Shaft leads to city. Access to Unknown Houses blocked by Grunts.
+- **Correction:** Row 12 in Switch Room blocked at (18, 12).
+- **Plan:** Return to Switch Room. Test if S1 OFF opens Bottom East Gate (16, 10) with [OFF, ON, OFF].
 
 ## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | West-Mid Conn (6,8) | Notes |
