@@ -254,3 +254,6 @@
 - **S3 (West Switch):**
   - Effect Unknown/Testing.
   - Hypothesis: Toggles Central Connector or West Gate.
+| [OFF,ON,ON] | OFF | ON | ON | CLOSED | ? | ? | Fails. S3 appears to override S2, closing Middle Gate. |
+
+**New Hypothesis:** The 'Unexplored Door' at (22,10) in the East Room is the key. It is accessible via Top East Gate (S1 ON) and likely bypasses the Bottom East Gate.
