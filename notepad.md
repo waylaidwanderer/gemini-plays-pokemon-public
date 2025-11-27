@@ -20,15 +20,19 @@
 
 **Verified Mechanics:**
 - **Switch 1 (East):** Controls East Security Wall (16,6) AND Bottom East Shutter (16,10).
-  - S1 ON = East Wall OPEN, Shutter CLOSED.
-  - S1 OFF = East Wall CLOSED, Shutter OPEN.
-- **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN.
-- **Switch 3 (West):** Likely controls West Security Wall (3,6). TBD.
-- **Central Connector (12,9):** Controlled by S3? Currently OPEN with S3 OFF.
+  - S1 ON = East Wall OPEN, Shutter CLOSED. (Verified)
+  - S1 OFF = East Wall CLOSED, Shutter OPEN. (Verified)
+- **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN. (Verified)
+- **Switch 3 (West):**
+  - ON = Lockdown (Closes East & West Walls). (Verified)
+  - OFF = Normal operation.
 
-**Current State:** `[OFF, ON, OFF]`
-- **Result:** Bottom East Shutter OPEN. East Wall CLOSED. Middle Path OPEN. West Wall CLOSED.
-- **Plan:** Investigate newly opened Middle Path (Column 10) to see if it leads to the goal or another switch.
+**Current State:** `[ON, OFF, OFF]`
+- **Result:** East Wall OPEN. Bottom East Shutter CLOSED.
+- **Problem:** "Catch-22". Opening the entrance closes the goal path.
+- **Next Steps:**
+  1. Investigate "Unexplored Door" at (22, 10). Accessible via Row 4 service corridor.
+  2. Test configuration `[ON, ON, OFF]`. Maybe S2 ON keeps the shutter open?
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
