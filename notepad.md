@@ -218,12 +218,12 @@ Sequence:
 - **Warp Anomaly:** Warp Carpets at (21, 31) and (22, 31) are blocked by WALL tiles at y=32. Standard 'walk off' mechanic fails. Hypothesis: Wall might be a trigger or these are entrances only.
 - **Correction:** Switch Room NE (via Ladder) is a verified Dead End.
 ## Warp Verification Checklist (Goldenrod)
-- [x] (5, 25): Bill's House (Verified - Not the Warehouse)
-- [ ] (15, 27): Marked 'Pokémon Center' (Verify?)
-- [ ] (24, 27): Unknown House
+- [x] (5, 25): Bill's House (Verified)
+- [ ] (15, 27): Marked 'Pokémon Center'
+- [x] (24, 27): Dept Store (Verified)
 - [ ] (29, 29): Bike Shop
-- [ ] (31, 21): Unknown House (High Priority - TARGET). Blocked by Grunt at (28, 20).
-- [ ] (33, 9): Unknown House (High Priority - East Side)
+- [ ] (31, 21): Unknown House (High Priority - TARGET)
+- [ ] (33, 9): Unknown House (Guarded by Grunt)
 
 **Coordinate Theory:** West Shaft exit is x=11. East Shaft is ~19 tiles east in dungeon, so exit should be ~x=30 in City.
 - **Goldenrod City West:** Verified cul-de-sac. Blocked East by Rocket Grunt (16, 23) and walls. Blocked North by Game Corner. Must use Underground to reach East side.
