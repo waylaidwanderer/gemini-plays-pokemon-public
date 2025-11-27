@@ -1,4 +1,6 @@
 # Strategic Principles & Lessons Learned
+- **CRITICAL LESSON - Verify Location:** I have repeatedly hallucinated my location after map transitions. I MUST verify my current map ID and coordinates from the Game State Information after every warp or map change before taking any other action.
+- **CRITICAL LESSON - Trust Tool Failures:** When a trusted tool like `find_path` reports 'No path found', it is a strong signal that my own understanding of the game state (my location, the map layout) is fundamentally flawed. I must question my own assumptions before questioning the tool.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted failures where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
 - **Pathfinding Tool Principles (Consolidated):**
   - **Trust the Tool's Data:** When a pathfinder's output (e.g., 'No path found') contradicts a visual assumption, trust the tool. Its analysis of raw map data is more reliable than visual interpretation. Verify the game state in-game before debugging a trusted tool.
@@ -185,6 +187,13 @@
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
 - **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
 
+## Goldenrod Underground Switch Room Puzzle
+- **Failed Hypothesis:** The puzzle is solved by repeatedly entering and exiting the 'GoldenrodUndergroundSwitchRoomEntrances' area to cycle through different room configurations. (Failed after 5+ attempts, triggered a loop warning).
+- **New Hypothesis:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. I will re-enter the underground from the southern entrance in Goldenrod City and explore the lower level again, as my path was previously blocked and new events (Granny NPC) may have occurred.
+- **Agent Hypothesis #1 (Full Traversal):** FAILED. Attempted to walk from the north entrance to the south entrance. Path was blocked by a SUPER_NERD at (3, 27) that appears only in the 'north entrance' configuration. This confirms a simple traversal is impossible.
+- **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. The SUPER_NERD at (3, 27) that blocks the path does not initiate a battle, only dialogue. This makes defeating all trainers impossible in this configuration.
+- **Agent Hypothesis #3 (In-and-Out Ladders):** FAILED for northern ladder (3, 2). The blocking SUPER_NERD at (3, 27) did not move. Will proceed to test other accessible ladders.
+
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 
@@ -213,23 +222,9 @@
 ## Custom Agents (via `define_agent`)
 - `gym_puzzle_solver`: Generates simple, testable hypotheses for gym puzzles.
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
-- **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
-- **unknown**: A tile type whose properties have not yet been determined. My current position is on one.
-- **LADDER**: A traversable warp tile that moves the player between floors.
-
-## Goldenrod Underground Switch Room Puzzle
-- **Failed Hypothesis:** The puzzle is solved by repeatedly entering and exiting the 'GoldenrodUndergroundSwitchRoomEntrances' area to cycle through different room configurations. (Failed after 5+ attempts, triggered a loop warning).
-- **New Hypothesis:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. I will re-enter the underground from the southern entrance in Goldenrod City and explore the lower level again, as my path was previously blocked and new events (Granny NPC) may have occurred.
-- **Agent Hypothesis #1 (Full Traversal):** FAILED. Attempted to walk from the north entrance to the south entrance. Path was blocked by a SUPER_NERD at (3, 27) that appears only in the 'north entrance' configuration. This confirms a simple traversal is impossible.
-- **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. The SUPER_NERD at (3, 27) that blocks the path does not initiate a battle, only dialogue. This makes defeating all trainers impossible in this configuration.
-- **Agent Hypothesis #3 (In-and-Out Ladders):** FAILED for northern ladder (3, 2). The blocking SUPER_NERD at (3, 27) did not move. Will proceed to test other accessible ladders.
 
 # Phone Calls
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
 - Youngster JOEY called for a rematch on Route 30.
-
-# Reflection Learnings (Turn 19485)
-- **CRITICAL LESSON - Verify Location:** I have repeatedly hallucinated my location after map transitions. I MUST verify my current map ID and coordinates from the Game State Information after every warp or map change before taking any other action.
-- **CRITICAL LESSON - Trust Tool Failures:** When a trusted tool like `find_path` reports 'No path found', it is a strong signal that my own understanding of the game state (my location, the map layout) is fundamentally flawed. I must question my own assumptions before questioning the tool.
 
 # Tool Failures
