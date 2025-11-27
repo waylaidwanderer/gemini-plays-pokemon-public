@@ -77,6 +77,7 @@
 - Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
 - Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
 - Ground-type moves have no effect on Flying-type Pokémon.
+- **Type Anomaly:** Normal-type moves (like CUT) are not very effective against Water/Rock-types (like CORSOLA). This is a unique mechanic to this game.
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
@@ -222,4 +223,3 @@
 
 ## Route 38 Navigation
 - The westernmost area containing Beauty Olivia at (5, 8) is accessible by navigating west along the southern path of Route 38.
-- **Type Anomaly:** Normal-type moves (like CUT) are not very effective against Water/Rock-types (like CORSOLA). This is a unique mechanic to this game.
