@@ -266,3 +266,4 @@
 
 # NPC Dialogue
 - **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
+- **Youngster JOEY:** Called to brag about his RATTATA and that he defeated a wild HOOTHOOT.
