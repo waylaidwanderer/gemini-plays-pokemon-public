@@ -26,6 +26,7 @@
 | OFF | **ON** | **ON** | CLOSED | ? | **CLOSED** | CLOSED | ? | ? | Fails to open Middle Gate. |
 
 **Analysis:**
+- **Recent Finding:** Configuration [ON, ON, OFF] results in Middle Gate OPEN but Central Connector CLOSED. This confirms S2 ON overrides S1's opening of the Central Connector.
 - **Paradox:** Reaching the Emergency Switch (South East) requires passing the Bottom East Gate. S1 ON closes this gate. S1 OFF opens it (presumably) but closes the entrance (Top East) and the connector (Central).
 - **Solution Strategy:** The door at (22, 10) in the East Room is accessible when S1 is ON. It likely leads to a path that bypasses the blocked gate.
 
