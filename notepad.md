@@ -8,7 +8,7 @@
 - **Location:** Goldenrod Dept Store B1F.
 - **Objective:** Find path to Underground Warehouse / Rescue Director.
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Exploring B1F. Machop (7,7) says 'Maaacho!'. Heading to Black Belt (4, 8).
+- **Action:** Black Belt (4, 8) was rude. North area inaccessible from Elevator. Returning to 1F to try Stairs.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
