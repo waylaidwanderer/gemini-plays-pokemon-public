@@ -242,3 +242,7 @@
 
 # Tool Development Lessons
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
+
+# Current Location: Ruins of Alph
+- **Objective:** Fully explore the ruins and the research center.
+- **Note:** UNOWN encounters are frequent. Must buy standard POKé BALLS at the next Poké Mart to catch one for the Pokédex.
