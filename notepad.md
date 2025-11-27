@@ -230,4 +230,5 @@ Sequence:
 **Coordinate Theory:** West Shaft exit is x=11. East Shaft is ~19 tiles east in dungeon, so exit should be ~x=30 in City.
 - **Goldenrod City West:** Verified cul-de-sac. Blocked East by Rocket Grunt (16, 23) and walls. Blocked North by Game Corner. Must use Underground to reach East side.
 - **Goldenrod City:** Verified (5, 25) is Bill's House (Dead End).
-- **Switch Room Strategy:** West Shaft verified as dead end. Primary target: Door at (22, 10) in Main Underground (likely leads to Middle Room/Emergency Switch). Secondary: Re-verify NE Ladder (22, 27) for East Shaft access.
+- **Lesson:** Warp Carpets often require walking INTO the wall below/beside them to trigger. Merely standing on them is insufficient.
+- **Switch Room Strategy:** West Shaft exits to Goldenrod City (Dead End). Primary target: Door at (22, 10) in Main Underground (Map 3_53). This is the most likely entrance to the Central/East Switch Room.
