@@ -2,33 +2,24 @@
 
 ## Current Goals
 - [ ] Rescue Director in Underground Warehouse (Primary)
-- [ ] Reset Switches to [ON, OFF, OFF] to access East Room Door
+- [ ] Access East Room Door (22, 10) via Top East Gate (Secondary)
 
 ## Status
 - **Location:** Switch Room Entrances (3_54).
-- **Objective:** Reach Emergency Switch (20, 11).
-- **Current Puzzle State:** [OFF, OFF, ON] (Transitioning to [ON, OFF, OFF]).
-- **Immediate Task:** Turn S3 OFF, then S1 ON.
+- **Current Config:** [ON, OFF, OFF].
+- **Objective:** Enter East Room and check door at (22, 10).
 
-## Underground Switch Room Puzzle (Consolidated)
-**Goal:** Reach Emergency Switch at (20, 11).
-**Strategy:** Access the "Unexplored Door" at (22, 10) in the East Room.
-**Current Plan:** Reset switches to [ON, OFF, OFF] to open Top East Gate (16, 6) and reach the door.
-
-**Verified Gate States:**
-| Configuration | S1 | S2 | S3 | West (3,6) | Mid (10,6) | Top East (16,6) | Bot East (16,10) | Central Conn (12,9) | Notes |
+## Switch Room Truth Table (Verified)
+| S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | West-Mid Conn (6,8) | Notes |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| [OFF, OFF, OFF] | OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | OPEN | Baseline. |
-| [ON, OFF, OFF] | ON | OFF | OFF | CLOSED | CLOSED | **OPEN** | CLOSED | **OPEN** | Allows entry to East Room via Top Gate. |
-| [OFF, ON, OFF] | OFF | ON | OFF | CLOSED | **OPEN** | CLOSED | ? | CLOSED | Opens Middle Gate. Connects Mid <-> West. |
-| [OFF, ON, ON] | OFF | ON | ON | CLOSED | CLOSED | CLOSED | ? | ? | Dead End. |
-| [OFF, OFF, ON] | OFF | OFF | ON | CLOSED | ? | ? | ? | ? | West Gate Closed. |
+| OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. All North gates closed. |
+| **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | Allows entry to East Room. Blocks South. |
+| OFF | **ON** | OFF | CLOSED | ? | **OPEN** | CLOSED | **CLOSED** | **OPEN** | Opens Middle & West-Mid path. Dead end in West Room. |
+| OFF | **ON** | **ON** | CLOSED | ? | **CLOSED** | CLOSED | ? | ? | Fails to open Middle Gate. |
 
-**Deductions:**
-- S1 ON: Opens Top East (16,6), Closes Bot East (16,10), Opens Central Conn (12,9).
-- S1 OFF: Closes Top East, Opens Bot East (Presumed), Closes Central Conn.
-- S2 ON: Opens Middle Gate (10,6) *only if* S3 is OFF.
-- S3 ON: Seems to override/close Middle Gate.
+**Analysis:**
+- **Paradox:** Reaching the Emergency Switch (South East) requires passing the Bottom East Gate. S1 ON closes this gate. S1 OFF opens it (presumably) but closes the entrance (Top East) and the connector (Central).
+- **Solution Strategy:** The door at (22, 10) in the East Room is accessible when S1 is ON. It likely leads to a path that bypasses the blocked gate.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
