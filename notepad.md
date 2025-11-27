@@ -30,7 +30,8 @@
 **Current State:** `[ON, ON, OFF]`
 - **Result:** East Wall OPEN. Bottom East Shutter CLOSED.
 - **Status:** 'Catch-22' confirmed. Direct path to goal blocked by shutter.
-- **Plan:** Inspect Middle Path (10, 7) with S2 ON. If open, check Central Connector (12, 9) and Bottom Middle Door (10, 10).
+- **Discovery:** Central Connector (12, 9) is OPEN (S1+S2 ON)! Top Middle Path (10, 6) is CLOSED.
+- **Plan:** Inspect Bottom Middle Door (10, 10). If open, exit to South Corridor.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
