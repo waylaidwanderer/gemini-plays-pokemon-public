@@ -18,24 +18,20 @@
 ## Switch Puzzle Analysis
 **Goal:** Access Emergency Switch (20,11) in South East Section.
 
+**Current State:** [ON, ON, ON] (Lockdown Mode).
+
 **Verified Mechanics:**
-- **Switch 1 (East):** Controls East Security Wall (16,6) AND Bottom East Shutter (16,10).
-  - **S1 OFF:** East Wall OPEN (Top Entrance), Shutter CLOSED (Goal blocked). (Verified)
-  - **S1 ON:** East Wall CLOSED (Top Entrance blocked), Shutter OPEN (Goal accessible). (Hypothesis)
-  - **Strategy:** Turn S1 ON to open the Goal Shutter. This locks the Top Entrance. Exit via NE Ladder (23, 3) to reach the South Entrance.
-- **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN.
-- **Switch 3 (West):** ON = Lockdown (Closes paths). OFF = Normal.
+- **Switch 1 (East):** ON = Closes East Wall (16,6). OFF = Opens East Wall.
+- **Switch 2 (Middle):** ON = Opens Middle Path (10,7) (unless overridden).
+- **Switch 3 (West):** ON = Lockdown. Closes West (3,6), Middle (10,6), and East (16,6) walls.
 
 **Strategy:**
-- Since S1 must be OFF to open the goal shutter, the Top East Entrance is closed.
-- I must enter the East Section from the **Bottom**.
+- **Hypothesis:** Lockdown Mode (S3 ON) opens the Emergency Shutter (16,10).
+- **Problem:** Lockdown closes all northern entrances.
+- **Solution:** Approach the Emergency Shutter from the South.
 - **Plan:**
-  1. Keep S1 OFF.
-  2. Exit the Top Section (via Middle Path).
-  3. Re-enter the Underground via the City.
-  4. Enter the East Section via the East Shaft Ladder (21, 25).
-  5. Walk North to the "Unexplored Door" at (22, 10).
-  6. Access the Emergency Switch.
+  1. Exit via NE Ladder (23, 3) to Goldenrod Underground.
+  2. Locate the southern entrance to the Switch Room (likely connected to the "Unexplored Door" at 22,10).
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
