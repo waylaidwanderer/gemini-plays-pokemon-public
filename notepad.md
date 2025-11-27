@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Underground (Behind Counters).
 - **Objective:** Find Director or Key Items. Return to Switch Room if dead end.
-- **Current Switch State:** [ON, OFF, ON] (S1, S2, S3). Linkage rule disproven.
+- **Current Switch State:** [ON, ON, ON] (S1, S2, S3). Resetting to open side rooms.
 - **Key Finding:** Top East Shutter CLOSED (Entrance).
 - **Next Step:** Verify Bottom East Shutter (Goal).
 
