@@ -218,3 +218,13 @@
 **Key Rules:**
 - S1 ON opens Bottom East Shutter (16,10).
 - S1 ON closes Central Connector (12,9).
+## Truth Table (Verified)
+| S1 | S2 | S3 | West Gate | Mid Gate | Top East | Bot East | Notes |
+|---|---|---|---|---|---|---|---|
+| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | All Closed |
+| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bot East Open, others closed |
+| ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Mid Open, Central Conn Closed, West South Closed |
+| ON | ON | ON | CLOSED | ? | ? | ? | West Conn Closed |
+| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | Unexpectedly all closed? |
+| OFF | ON | ON | CLOSED | CLOSED | ? | ? | |
+| ON | OFF | ON | ? | ? | ? | ? | Testing Now |
