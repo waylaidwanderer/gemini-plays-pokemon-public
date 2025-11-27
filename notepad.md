@@ -202,36 +202,16 @@
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
-## Switch Room Truth Table (Consolidated)
+## Switch Room Puzzle (Verified & Consolidated)
 **Goal:** Reach Emergency Switch (20,11).
-**Strategy:** Must enter South area via Row 6 Gates. Wall at Col 18 likely blocks approach from Middle Room. Must open path to Cols 19-22.
+**Strategy:** The 'Unexplored Door' at (22,10) is the target. It is accessible when Top East Gate (16,6) is OPEN.
 
-| S1 | S2 | S3 | West (3,6) | Mid (10,6) | Top East (16,6) | Bot East (16,10) | Notes |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| OFF | OFF | OFF | CLOSED | CLOSED | ? | ? | West & Mid Verified. Checking East. |
-| ON | OFF | OFF | CLOSED | CLOSED | OPEN | CLOSED | Top East Open. Bot East Closed. Central Conn Open. |
-| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All Closed. |
-| ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Middle Open. Central Conn (12,9) Closed. |
-| ON | ON | ON | CLOSED | OPEN | ? | ? | West Conn Closed. |
-| OFF | ON | ON | CLOSED | CLOSED | CLOSED | ? | All Closed. |
-| OFF | OFF | ON | CLOSED | ? | ? | ? | West Closed. |
-| ON | OFF | ON | ? | ? | ? | ? | Untested. |
-
-**Deductions:**
-- S1 ON -> Bot East Open, Central Conn Closed.
-- S2 ON -> Middle Gate Open ONLY if S1 is also ON? (AND Condition?).
-- S3 ON -> Appears to close West/Middle gates.
-- **Hypothesis:** Try [OFF, OFF, OFF]. If that fails, try [ON, OFF, ON].
-### Verified State [ON, OFF, OFF]
-- Top East (16,6): OPEN
-- Bottom East (16,10): CLOSED
-- Middle Gate (10,6): CLOSED
-- Implication: S1 ON opens Top East, closes Bottom East.
-### Verified State [OFF, ON, OFF]
-- Middle Gate (10,6): OPEN
-- West-Middle Connection (6,8/9): OPEN
-- Central Connector (12,9): CLOSED
-- Implication: Path forces detour through West Room.
+| Config | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | Connectors | Notes |
+|---|---|---|---|---|---|---|---|---|
+| [OFF,OFF,OFF] | OFF | OFF | OFF | CLOSED | ? | CLOSED | ? | Baseline. |
+| [ON,OFF,OFF] | ON | OFF | OFF | **OPEN** | CLOSED | CLOSED | Central OPEN | **Target State.** Access to East Room Door. |
+| [OFF,ON,OFF] | OFF | ON | OFF | CLOSED | ? | OPEN | West-Mid OPEN | Access to West Room (Dead End). |
+| [OFF,ON,ON] | OFF | ON | ON | CLOSED | ? | CLOSED | ? | Fails. S3 closes Middle Gate. |
 
 ## Switch Room Puzzle Analysis (Latest)
 **Objective:** Reach Emergency Switch (20,11).
