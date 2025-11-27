@@ -125,6 +125,7 @@
 - **`stun_npc` Tool:** The `stun_npc` tool can be effective for freezing moving NPCs to clear a path, as demonstrated with the Lass in Goldenrod City. While a previous attempt seemed to fail, this successful use case confirms its utility. It should be used proactively to prevent pathing interruptions.
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
+- **HEADBUTT_TREE**: An impassable tree that can be interacted with using the move HEADBUTT.
 
 # Current Quest: Journey to Ecruteak City
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
