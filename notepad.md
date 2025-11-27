@@ -9,7 +9,7 @@
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Switch State:** [OFF, ON, OFF] (Verified).
 - **Puzzle Solution:** This state opens the Bottom East Shutter (16, 10) but closes the internal East Wall.
-- **Plan:** Exit via Ladder (23, 3) -> Main Underground -> Enter Door (18, 6) -> South Section -> Emergency Switch.
+- **Plan:** Exit via Ladder (23, 3) -> Main Underground -> Enter West Shaft (3, 34) -> Switch Room West -> Cross to East Section -> Emergency Switch.
 
 ## Switch Puzzle Analysis (Solved)
 **Goal:** Access Emergency Switch (20,11) in South East Section.
