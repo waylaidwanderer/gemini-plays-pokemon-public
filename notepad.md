@@ -5,10 +5,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Switch Room NE (3_54).
-- **Objective:** Reach Emergency Switch (20, 11).
-- **Switch State:** Current: [ON, ON, ON].
-- **Action:** Navigate to Emergency Shutter (16, 10) to verify if Lockdown Mode opened it.
+- **Location:** Goldenrod Dept Store 1F (11_11).
+- **Objective:** Rescue Director (Underground Warehouse).
+- **Switch State:** [ON, ON, ON] (Lockdown).
+- **Action:** Check Dept Store B1F for Warehouse entrance.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
