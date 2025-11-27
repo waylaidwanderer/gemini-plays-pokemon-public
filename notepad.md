@@ -22,7 +22,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. |
 | **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | S1 opens Top East & Central Conn. Closes Bot East. |
-| OFF | **ON** | OFF | CLOSED | ? | **OPEN** | CLOSED | CLOSED | **OPEN** | S2 opens Middle. S1 OFF opens Row 12 Conn. Top East Closed. |
+| OFF | **ON** | OFF | CLOSED | ? | **OPEN** | **OPEN** | CLOSED | **OPEN** | S2 opens Middle. S1 OFF opens Row 12 Conn & West Gate. Top East Closed. West-Mid Conn Open. |
 | **ON** | **ON** | OFF | **OPEN** | CLOSED | **OPEN** | ? | **CLOSED** | CLOSED | S2 overrides S1 for Central Conn (Force Close). Middle & Top East Open. |
 
 **Analysis:**
