@@ -211,3 +211,11 @@
 - **Pathing into the Unknown:** Pathfinding tools (`find_path`, `verify_reachability`) correctly treat 'unseen' tiles as impassable walls. This is a feature, not a bug. To explore, I must pathfind to a known, adjacent tile and then manually step into the unseen area. This prevents the tool from generating invalid paths through unexplored territory.
 - **Pathing Interruption:** Automated paths can be interrupted by wild battles. After the battle, the original path is void and must be recalculated from the new current position.
 - **BROKEN_FLOOR**: An impassable tile that functions as a wall. Found in the Burned Tower.
+
+# Strategic Principles & Lessons Learned (Addendum)
+- **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
+
+# Current Plan
+- Re-enter the Burned Tower.
+- **Hypothesis:** The `BROKEN_FLOOR` tiles can be destroyed using the move ROCK SMASH.
+- **Test:** Find a `BROKEN_FLOOR` tile, stand adjacent to it, and attempt to use ROCK SMASH from the party menu.
