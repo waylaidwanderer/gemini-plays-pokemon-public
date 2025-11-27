@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle State:** S1 OFF (Verified). S2 ON (Verified). S3 ON (Assumed). Middle Gate Open. Checking Central Connector (12,9).
+- **Puzzle State:** S1 OFF (Verified). S2 ON (Verified). S3 ON (Assumed). Middle Gate Open. Central Connector (12,9) is CLOSED. Path to East blocked.
 - **Plan:** Leave S1 OFF. Go West to S2. Verify S2 is ON. Go South through Middle Path.
 
 ## Completed Areas Summary
