@@ -199,3 +199,4 @@
 **Goal:** Access Emergency Switch (20,11).
 **Solution:** S3 OFF, S1 OFF, S2 ON. Route: West -> Connector -> Shutter.
 **B1F Status:** Crates blocked. Workers blocking. Must access from Switch Room side.
+- **Test:** S1 ON, S2 ON, S3 OFF. Checking Top East Shutter (16,6).
