@@ -10,7 +10,9 @@
 - **Current Switch State:** [ON, OFF, OFF].
 - **Discovery:** West Shaft leads to Goldenrod City (11, 29).
 - **Hypothesis:** Second City door (15, 27) leads to East Shaft/Emergency Switch.
-- **Next Step:** Warp to City and enter (15, 27).
+- **Obstacle:** Rocket Grunt at (16, 23) blocks East path.
+- **Plan:** Interact/Defeat Grunt. If blocked, detour North to Row 16.
+- **East Shaft Theory:** Dungeon x=23 -> City x~30. Candidates: (31, 21) or (33, 9).
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
