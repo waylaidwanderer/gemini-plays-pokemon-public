@@ -27,8 +27,8 @@
 
 **Tested States:**
 - `[ON, OFF, OFF]`: East Open, West Closed.
-- `[ON, ON, OFF]`: East Open, West Open.
-- **Next Test:** `[ON, ON, ON]` to open Shutters.
+- `[ON, ON, OFF]`: East Open, West Open. Linkage disproven.
+- **Next Test:** `[ON, ON, ON]` (Current). Hypothesis: Opens Shutters.
 - Wall (16, 6): OPEN.
 - Wall (12, 9): OPEN (Access to West Room).
 - Inner Shutter (16, 10): CLOSED.
