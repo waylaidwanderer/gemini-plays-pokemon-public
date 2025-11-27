@@ -202,11 +202,18 @@
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
-## Reference: Underground Switch Puzzle
-**Goal:** Access Emergency Switch (20,11).
-**Solution:** S3 OFF, S1 OFF, S2 ON. Route: West -> Connector -> Shutter.
-**B1F Status:** Crates blocked. Workers blocking. Must access from Switch Room side.
-- **Test:** S1 ON, S2 ON, S3 OFF. Checking Top East Shutter (16,6).
-- **Critical Mechanic:** Switch 1 (ON) overrides Switch 2 regarding the Central Connector (12,9). Even if S2 is ON, S1 ON forces the connector CLOSED.
-- **Puzzle Insight:** S1 ON is required for Bottom East Shutter (16,10), but blocks direct access. Must find alternative route (likely Upper Connector or West Room).
-- [ON, ON, ON]: West Gate (3,6) CLOSED. West Connector (6,9) CLOSED. Upper Connector (Row 4) OPEN. Dead end.
+## Switch Room Truth Table
+**Goal:** Reach Emergency Switch (20,11) via Bottom East Shutter (16,10).
+
+| Config [S1,S2,S3] | West Gate (3,6) | Middle Gate (10,6) | Top East (16,6) | Bot East (16,10) | Upper Conn (Row 4) | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| [OFF, OFF, OFF] | CLOSED | CLOSED | Checking... | ? | OPEN | Current State. |
+| [ON, OFF, OFF] | CLOSED | CLOSED | CLOSED | OPEN | OPEN | Dead End North. |
+| [ON, ON, OFF] | CLOSED | OPEN | CLOSED | OPEN | CLOSED | Central Conn CLOSED (S1 Override). |
+| [OFF, ON, OFF] | CLOSED | CLOSED | CLOSED | ? | OPEN | Middle unexpected closed. |
+| [OFF, ON, ON] | CLOSED | CLOSED | ? | ? | ? | West Conn Closed. |
+| [ON, ON, ON] | CLOSED | OPEN | ? | ? | OPEN | West Conn Closed. |
+
+**Key Rules:**
+- S1 ON opens Bottom East Shutter (16,10).
+- S1 ON closes Central Connector (12,9).
