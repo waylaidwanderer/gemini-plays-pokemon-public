@@ -202,34 +202,26 @@
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
-## Switch Room Truth Table
+## Switch Room Truth Table (Consolidated)
 **Goal:** Reach Emergency Switch (20,11) via Bottom East Shutter (16,10).
 
-| Config [S1,S2,S3] | West Gate (3,6) | Middle Gate (10,6) | Top East (16,6) | Bot East (16,10) | Upper Conn (Row 4) | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| [OFF, OFF, OFF] | CLOSED | CLOSED | CLOSED | ? | OPEN | Dead End North. |
-| [ON, OFF, ON] | ? | ? | ? | ? | ? | Testing Next. |
-| [ON, OFF, OFF] | CLOSED | CLOSED | CLOSED | OPEN | OPEN | Dead End North. |
-| [ON, ON, OFF] | CLOSED | OPEN | CLOSED | OPEN | CLOSED | Central Conn CLOSED (S1 Override). |
-| [OFF, ON, OFF] | CLOSED | CLOSED | CLOSED | ? | OPEN | Middle unexpected closed. |
-| [OFF, ON, ON] | CLOSED | CLOSED | ? | ? | ? | West Conn Closed. |
-| [ON, ON, ON] | CLOSED | OPEN | ? | ? | OPEN | West Conn Closed. |
+| S1 | S2 | S3 | West Gate (3,6) | Mid Gate (10,6) | Top East (16,6) | Bot East (16,10) | Notes |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | All North Gates Closed. Row 4 Open. |
+| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bot East Open. |
+| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All North Gates Closed. |
+| ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Middle Open. Central Conn (12,9) CLOSED (S1 Override). |
+| ON | ON | ON | CLOSED | OPEN | ? | ? | West Conn (6,9) CLOSED. |
+| OFF | ON | ON | CLOSED | CLOSED | ? | ? | West Conn (6,9) CLOSED. |
+| OFF | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed. |
+| ON | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed. |
 
-**Key Rules:**
-- S1 ON opens Bottom East Shutter (16,10).
-- S1 ON closes Central Connector (12,9).
-## Truth Table (Verified)
-| S1 | S2 | S3 | West Gate | Mid Gate | Top East | Bot East | Notes |
-|---|---|---|---|---|---|---|---|
-| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | All Northern Gates Closed |
-| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bottom East Open |
-| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All Northern Gates Closed |
-| ON | ON | OFF | CLOSED | CLOSED | CLOSED | ? | Middle Gate CLOSED (Verified Turn 10691). West Conn OPEN. |
-| ON | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed |
-| OFF | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed |
-| ON | ON | ON | CLOSED | ? | ? | ? | West Gate/Connector Closed |
-
-**Hypothesis:** Top East Shutter might open with S3 ON + S1 OFF.
+**Logic Deductions:**
+- S1 ON opens Bot East (16,10) but closes Central Conn (12,9).
+- S2 ON opens Middle Gate (10,6) (unless overridden?).
+- S1 ON + S2 ON = Middle Open, but East Path blocked by Central Conn.
+- Need a way to reach Bot East (16,10). Likely via West Room -> South?
+- **Next Test:** [ON, OFF, ON] (re-verify) and [OFF, OFF, ON].
 | ON | ON | ON | CLOSED | ? | ? | ? | West Conn Closed |
 | OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | Unexpectedly all closed? |
 | OFF | ON | ON | CLOSED | CLOSED | ? | ? | |
