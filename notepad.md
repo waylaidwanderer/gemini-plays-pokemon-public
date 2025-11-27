@@ -5,9 +5,10 @@
 - [ ] Access East Room Door (22, 10) via Top East Gate (Secondary)
 
 ## Status
-- **Location:** Switch Room Entrances (3_54).
-- **Current Config:** [ON, OFF, OFF].
-- **Objective:** Enter East Room and check door at (22, 10).
+- **Location:** Switch Room (Far South Shaft).
+- **Discovery:** Path North from (21, 25) is blocked by wall at Row 21.
+- **Hypothesis:** Row 12 connects Middle and East rooms. Entry via Middle Gate (10, 6) requires [OFF, ON, OFF].
+- **Plan:** Return to Switches. Set [OFF, ON, OFF]. Enter Middle Gate (10, 6). Walk South to Row 12, then East to Switch.
 
 ## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | West-Mid Conn (6,8) | Notes |
