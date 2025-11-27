@@ -6,9 +6,9 @@
 
 ## Status
 - **Location:** Goldenrod Dept Store B1F.
-- **Objective:** Rescue Director (Underground Warehouse).
+- **Objective:** Find path to Underground Warehouse / Rescue Director.
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Talk to Machop (7, 7) and retrieve Item Balls.
+- **Action:** Exploring B1F. Machop (7,7) says 'Maaacho!'. Heading to Black Belt (4, 8).
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
