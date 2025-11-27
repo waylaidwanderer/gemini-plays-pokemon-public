@@ -7,7 +7,7 @@
 ## Status
 - **Location:** Goldenrod Dept Store Elevator.
 - **Objective:** Reset B1F state to trigger Machoke event.
-- **Plan:** Go to 2F, then return to B1F.
+- **Plan:** Return to B1F and check crates.
 - **Context:** Black Belt asked me to "scoot". Leaving the map should allow them to move the crates.
 
 ## Completed Areas Summary
@@ -58,6 +58,7 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
+- **Puzzle Lesson:** 'Scoot' means you must leave the map area entirely to allow the game state to update (e.g. NPCs moving objects).
 - Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
 - Protocol: Mark NPCs immediately. NEVER delete markers for defeated trainers; they remain as solid obstacles. Mark as 'Defeated'.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
@@ -69,7 +70,6 @@
 - **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
 - **Sprite Deception:** NPCs may use sprites that don't match their trainer class (e.g. Hiker Benjamin looked like a Pokefan). Always verify identity via interaction or battle.
 - **Security Cameras:** Confirmed: Passing Persian statues/cameras triggers 'Intruder alert!' and summons Rocket Grunts. Each statue likely has a line of sight trigger.
-- **Puzzle Lesson:** 'Scoot' often means you must leave the map area entirely to allow the game state to update (e.g. NPCs moving objects).
 
 ## National Park (Cleared)
 - Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
@@ -197,40 +197,17 @@ Status Update: Verified [OFF, OFF, ON] causes Lockdown (West & East Walls CLOSED
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
-## Switch Puzzle Analysis (Reference)
+## Reference: Underground Switch Puzzle
 **Goal:** Access Emergency Switch (20,11) in South East Section.
-**Current State:** [ON, ON, ON] (Lockdown Mode).
 **Verified Mechanics:**
 - **Switch 1 (East):** ON = Closes East Wall (16,6). OFF = Opens East Wall.
 - **Switch 2 (Middle):** ON = Opens Middle Path (10,7) (unless overridden).
 - **Switch 3 (West):** ON = Lockdown. Closes West (3,6), Middle (10,6), and East (16,6) walls.
-**Strategy:**
-- **Hypothesis:** Lockdown Mode (S3 ON) opens the Emergency Shutter (16,10).
-- **Problem:** Lockdown closes all northern entrances.
-- **Solution:** Approach the Emergency Shutter from the South.
-- **Plan:**
-  1. Exit via NE Ladder (23, 3) to Goldenrod Underground.
-  2. Locate the southern entrance to the Switch Room (likely connected to the "Unexplored Door" at 22,10).
-**Puzzle Solution Plan (Trap Theory)**
-Target State: [ON, OFF, ON]
-Logic: Closes Top East (Entrance), Opens Bottom East (Goal).
-Sequence:
-1. Turn S1 ON -> [ON, OFF, OFF]
-2. Turn S3 ON -> [ON, ON, ON] (Linkage forces S2 ON)
-3. Turn S2 OFF -> [ON, OFF, ON] (Trap State)
-**Verified Puzzle Rules**
-1. **Linkage:** Turning Switch 3 ON automatically turns Switch 2 ON.
-2. **Inverse Hypothesis:** The Bottom East Shutter (Goal) likely opens when the Top East Shutter (Entrance) closes. This requires the state [ON, OFF, ON].
-- **Correction:** Warp at (21, 31) is blocked by a wall. Correct exit from 'Behind Counters' is (21, 29).
-**Deduction & Plan (Turn 9994):**
-- **Logic:** S1 ON closes Shutter -> Must be OFF. S1 OFF closes East Wall -> Must use West Wall (S2 ON). S3 ON closes Connector -> Must be OFF.
-- **Target Config:** `[OFF, ON, OFF]`.
+**Puzzle Solution (Trap Theory)**
+Target State: [ON, OFF, ON] -> Closes Top East (Entrance), Opens Bottom East (Goal).
+**Final Logic:**
+- Target Config: `[OFF, ON, OFF]`.
 1. Turn S3 OFF.
 2. Turn S1 OFF.
 3. Verify S2 is ON.
 4. Enter via West Wall -> Connector -> Shutter.
-**Logic Puzzle Solution (Agent):**
-Target Configuration: `[OFF, ON, OFF]`.
-- S3 OFF: Keeps Connector Open.
-- S2 ON: Opens West Wall (Access).
-- S1 OFF: Opens Bottom East Shutter (Goal).
