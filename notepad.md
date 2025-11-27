@@ -250,3 +250,4 @@
 
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
+- **Verify Root Assumptions:** When a plan fails repeatedly or a system warning indicates a hallucination, the root hypothesis is likely flawed. Do not get stuck trying minor variations of a failed plan. Instead, immediately and aggressively re-verify the foundational assumptions (e.g., warp locations, item requirements) against the raw game state data. A simple check of the `Map Events` list would have prevented the roof navigation loop.
