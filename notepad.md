@@ -227,3 +227,8 @@
 - Bottom East (16,10): CLOSED
 - Middle Gate (10,6): CLOSED
 - Implication: S1 ON opens Top East, closes Bottom East.
+### Verified State [OFF, ON, OFF]
+- Middle Gate (10,6): OPEN
+- West-Middle Connection (6,8/9): OPEN
+- Central Connector (12,9): CLOSED
+- Implication: Path forces detour through West Room.
