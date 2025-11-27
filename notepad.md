@@ -5,10 +5,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Dept Store B1F.
+- **Location:** Goldenrod Dept Store 2F.
 - **Objective:** Find path to Underground Warehouse / Rescue Director.
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Black Belt (4, 8) was rude. North area inaccessible from Elevator. Returning to 1F to try Stairs.
+- **Action:** Exploring 2F. Checking Directory and NPCs.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
