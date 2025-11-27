@@ -217,6 +217,5 @@
 - **LADDER**: A traversable warp tile that moves the player between floors.
 
 ## Goldenrod Underground Switch Room Puzzle
-- **Mechanic:** The layout of the 'GoldenrodUndergroundSwitchRoomEntrances' map changes each time I enter the area.
-- **Hypothesis 1:** The puzzle is solved by repeatedly entering and exiting the area to cycle through different room configurations until a path to the western chambers is revealed.
-- **Test 1:** Leave and re-enter via the northern warp carpet at (20, 29) to see if the layout changes again.
+- **Failed Hypothesis:** The puzzle is solved by repeatedly entering and exiting the 'GoldenrodUndergroundSwitchRoomEntrances' area to cycle through different room configurations. (Failed after 5+ attempts, triggered a loop warning).
+- **New Hypothesis:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. I will re-enter the underground from the southern entrance in Goldenrod City and explore the lower level again, as my path was previously blocked and new events (Granny NPC) may have occurred.
