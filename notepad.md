@@ -259,3 +259,4 @@
 
 # Ruins of Alph Research Center
 - Bookshelf at (6, 5) contains books titled "Ancient Ruins…" and "Mysteries of the Ancients…".
+- **Youngster in Route 32 Gatehouse:** Mentioned trying to move the stone panels in the ruins, wondering what they are.
