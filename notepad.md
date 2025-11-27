@@ -214,3 +214,4 @@
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - **Verify Location After Transitions:** After any map transition (entering/exiting a building or route), I MUST immediately verify my current map ID and coordinates from the Game State Information to prevent severe hallucinations about my location.
 - **unknown**: A tile type whose properties have not yet been determined. My current position is on one.
+- **LADDER**: A traversable warp tile that moves the player between floors.
