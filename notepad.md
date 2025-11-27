@@ -253,3 +253,4 @@ Target Configuration: `[OFF, ON, OFF]`.
 - S2 ON: Opens West Wall (Access).
 - S1 OFF: Opens Bottom East Shutter (Goal).
 Status: S3 is OFF. Moving to turn S2 ON.
+- **Correction:** NW Ladder (3, 2) leads to Switch Room SE Shaft (21, 25), which is a dead end exiting to City. West Shaft (3, 34) is also a dead end. The ONLY entrance to the main puzzle is the NE Ladder (22, 27). I must solve it from there.
