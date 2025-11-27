@@ -223,3 +223,4 @@
 
 ## Route 38 Navigation
 - The westernmost area containing Beauty Olivia at (5, 8) is accessible by navigating west along the southern path of Route 38.
+- **NPC Battle Confirmation:** Do not assume an NPC is a trainer until the battle screen appears. Update markers with battle status only *after* a battle has been won or lost.
