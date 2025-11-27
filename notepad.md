@@ -222,3 +222,8 @@
 - S2 ON -> Middle Gate Open ONLY if S1 is also ON? (AND Condition?).
 - S3 ON -> Appears to close West/Middle gates.
 - **Hypothesis:** Try [OFF, OFF, OFF]. If that fails, try [ON, OFF, ON].
+### Verified State [ON, OFF, OFF]
+- Top East (16,6): OPEN
+- Bottom East (16,10): CLOSED
+- Middle Gate (10,6): CLOSED
+- Implication: S1 ON opens Top East, closes Bottom East.
