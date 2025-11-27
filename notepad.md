@@ -221,5 +221,5 @@
 - **External Triggers:** When multiple simple hypotheses for progression fail within a confined area (like a puzzle room), the trigger is likely external. Instead of getting stuck in a loop re-testing failed ideas, pivot to a new location or objective to see if that unlocks the path.
 
 ## Route 38 Navigation
-- The westernmost area containing a Beauty trainer at (5, 8) is inaccessible from the main path due to a series of one-way `LEDGE_HOP_LEFT` and `LEDGE_HOP_RIGHT` tiles. It must be approached from a different direction, likely from further west.
+- The westernmost area containing Beauty Olivia at (5, 8) is accessible by navigating west along the southern path of Route 38.
 - **Type Anomaly:** Normal-type moves (like CUT) are not very effective against Water/Rock-types (like CORSOLA). This is a unique mechanic to this game.
