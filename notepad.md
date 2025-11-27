@@ -8,7 +8,7 @@
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Puzzle State:** S1 ON (Verified). S2 ON (Verified). S3 Unknown. Middle Gate Open. Bottom East Shutter CLOSED.
-- **Puzzle State:** S1 ON. S2 ON. S3 ON (Verified). Testing [ON, ON, ON]. Goal: Check Central Connector (12, 9) and East Shutters.
+- **Puzzle State:** S1 ON. S2 ON. S3 ON. [ON, ON, ON] confirmed Central Connector (12, 9) CLOSED. Plan: Turn S3 OFF to test [ON, ON, OFF].
 - **Hypothesis:** [ON, ON, OFF] results in Top East Shutter CLOSED. Testing [ON, ON, ON].
 - **Plan:** Turn S3 ON. Verify Top East Shutter (16,6) and Bottom East Shutter (16,10).
 
