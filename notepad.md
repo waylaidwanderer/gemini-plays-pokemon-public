@@ -15,16 +15,13 @@
 **Goal:** Reach Emergency Switch (20,11) via East Room.
 
 **Verified State Log:**
-- **[ON, OFF, OFF]:** Top East OPEN. East Connector OPEN. West Connector CLOSED. (Best Entry State)
-- **[OFF, ON, ON]:** Top West OPEN. (Best Entry State for West Room - Dead End)
-- **[OFF, OFF, OFF]:** Lockdown. All Top Shutters & Connectors CLOSED. S2 Disabled.
-- **[ON, OFF, ON]:** Trap State. Top East CLOSED.
+- **[ON, OFF, OFF]:** Top East OPEN. East Connector OPEN. West Connector CLOSED. (Current State)
+- **[OFF, ON, ON]:** Top West OPEN. (Dead End)
+- **[OFF, OFF, OFF]:** Lockdown.
+- **[ON, OFF, ON]:** Trap State.
 
 **Current Plan:**
-1. Establish `[ON, OFF, OFF]` to open Top East Shutter.
-   - S1: ON (Done)
-   - S2: OFF (Next)
-   - S3: OFF (Done)
+1. Confirmed State `[ON, OFF, OFF]` (S1=ON, S2=OFF, S3=OFF).
 2. Enter East Room via `(16, 6)`.
 3. Activate Emergency Switch at `(20, 11)`.
 
