@@ -223,3 +223,9 @@
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
 - **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
+
+# Strategic Principles & Lessons Learned
+- **IMMEDIATE TOOL FIXES:** When a core tool like a pathfinder fails, debugging and fixing it becomes the absolute highest priority, superseding all other gameplay goals. Do not continue to use a known-broken tool.
+
+# Current Quest: Journey to Ecruteak City
+- **New Hypothesis:** After thoroughly exploring Route 36 and finding only dead ends or one-way ledges, it's highly likely the path to Ecruteak City is not from Route 36. I must re-examine previous areas, like Goldenrod City or the National Park, for a previously missed path.
