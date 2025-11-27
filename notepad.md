@@ -212,3 +212,6 @@
 - Next Step: Inspect far east wall (x=22) for openings.
 | ON | OFF | ON | CLOSED | CLOSED | OPEN | CLOSED | Central Conn CLOSED. West-Mid Conn OPEN. Dead End. |
 - Exploring North East section to find path to South East (Emergency Switch). Current path blocked by wall at Row 6-10.
+- North East Switch Room (via Top East Gate) leads to a dead end. Path south is blocked.
+- Hypothesis: The ladder at (3, 2) in Main Underground leads to the South East Switch Room (East Shaft). I might be able to walk North from there to reach the Emergency Switch.
+- Plan: Exit Behind Counters area -> Go to (3, 2) -> Take ladder -> Check path North.
