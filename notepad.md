@@ -8,7 +8,7 @@
 - **Location:** Goldenrod Dept Store B1F.
 - **Objective:** Rescue Director (Underground Warehouse).
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Explore East Side of B1F to find path around crates.
+- **Action:** Talk to Machop (7, 7) and retrieve Item Balls.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
