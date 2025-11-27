@@ -209,3 +209,4 @@
 - **Test:** S1 ON, S2 ON, S3 OFF. Checking Top East Shutter (16,6).
 - **Critical Mechanic:** Switch 1 (ON) overrides Switch 2 regarding the Central Connector (12,9). Even if S2 is ON, S1 ON forces the connector CLOSED.
 - **Puzzle Insight:** S1 ON is required for Bottom East Shutter (16,10), but blocks direct access. Must find alternative route (likely Upper Connector or West Room).
+- [ON, ON, ON]: West Gate (3,6) CLOSED. West Connector (6,9) CLOSED. Upper Connector (Row 4) OPEN. Dead end.
