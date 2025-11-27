@@ -15,7 +15,7 @@
   - West Shaft (5, 25) <-> SW Underground (3, 34)
   - East Shaft (21, 25) <-> NW Underground (3, 2)
   - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
-- **Current Plan:** Test [OFF, ON, OFF]. Hypothesis: S1 OFF opens Bottom East Gate (16, 10) while S2 ON opens Middle Gate (10, 6), allowing access to SE Room.
+- **Current Plan:** Explore East Room with [ON, ON, OFF]. S1 & S2 coexist, opening Top East, Middle, and Central Connector. Checking Bottom East Gate (16, 10) and Door at (22, 10).
 
 ## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | West-Mid Conn (6,8) | Notes |
