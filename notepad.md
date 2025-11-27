@@ -67,6 +67,7 @@
 - **ROCK:** Impassable obstacle. Treated as a solid object.
 - **SECURITY_CAMERA (Persian Statue):** Impassable WALL. Triggers infinite alarm battles if player crosses its line of sight (specific columns/rows). Must be disabled.
 - **ICE:** Slippery. Stepping onto this tile forces the player to slide in the direction of movement until colliding with a WALL, OBJECT, or landing on a non-ICE tile.
+- **CRATE:** Impassable. Acts as a WALL. Likely requires a specific event or Pokémon (Machop) to move.
 
 ### Battle Mechanics
 - **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
