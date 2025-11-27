@@ -214,4 +214,5 @@
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
 # Current Plan
-- Interact with the stunned Gym Leader Morty at (14, 14). All other paths are blocked, and my agent suggested this is the most likely way to progress.
+- **Primary Hypothesis:** My agent suggested finding a way to another floor. The unmarked warp at (14, 14) is the most likely path. It is currently blocked by the moving NPC, Morty.
+- **Strategy:** Wait on an adjacent tile (like 14, 13) for Morty to move off the warp. As soon as the tile is clear, step onto it to trigger the warp.
