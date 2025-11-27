@@ -19,15 +19,17 @@
 - **Switch 2:** Controls Switch 3 (Linkage) or other shutters? (To be verified).
 - **Switch 3:** Controls Switch 2 (Linkage) or other shutters? (To be verified).
 
-**Current State:** [ON, OFF, OFF]
+**Tested State:** [ON, OFF, OFF]
 - Wall (16, 6): OPEN.
-- Inner Shutter (16, 10): Status Unknown (Checking now).
+- Wall (12, 9): OPEN (Access to West Room).
+- Inner Shutter (16, 10): CLOSED.
+- Bottom Middle Shutter (10, 10): CLOSED.
 
+**Hypothesis:** Switch 2 might control the shutters.
 **Plan:**
-1. Navigate south through opened wall.
-2. Check Inner Shutter at (16, 10).
-3. If open, proceed to Emergency Switch (20, 11).
-4. If closed, analyze logic for Switch 2 & 3.
+1. Turn Switch 2 ON (Target State: [ON, ON, OFF]).
+2. Verify if this affects Switch 3 (Linkage).
+3. Check Shutters again.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
