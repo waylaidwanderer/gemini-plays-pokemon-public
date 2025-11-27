@@ -202,7 +202,7 @@
 - Verified State [ON, OFF, ON]: Top West CLOSED (Trap). Top East CLOSED. Bottom West CLOSED. (Correction: Trap State confirmed).
 Verified [OFF, OFF, OFF]: Top West OPEN. Top East & Top Middle CLOSED. Bottoms UNKNOWN.
 Verified [OFF, OFF, ON]: Top West OPEN. Bottom West CLOSED.
-Status Update: Confirmed [ON, OFF, OFF] opens Top East but keeps Bottom East/Middle CLOSED. Plan: Turn Switch 1 OFF to test [OFF, OFF, OFF].
+Status Update: Verified [ON, OFF, OFF] opens Top East Shutter & East Connector, but closes West Connector & Bottom Shutters. Moving to test [OFF, OFF, OFF].
 ### Puzzle Solution Plan (Trap Theory)
 Target State: [ON, OFF, ON]
 Logic: Closes Top East (Entrance), Opens Bottom East (Goal).
