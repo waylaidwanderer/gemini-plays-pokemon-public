@@ -260,14 +260,13 @@ Target Configuration: `[OFF, ON, OFF]`.
 - S3 OFF: Keeps Connector Open.
 - S2 ON: Opens West Wall (Access).
 - S1 OFF: Opens Bottom East Shutter (Goal).
-Status: S3 is OFF. Moving to turn S2 ON.
-- **Correction:** NW Ladder (3, 2) leads to Switch Room SE Shaft (21, 25), which is a dead end exiting to City. West Shaft (3, 34) is also a dead end. The ONLY entrance to the main puzzle is the NE Ladder (22, 27). I must solve it from there.
-Update: [ON, ON, OFF] failed to open East Wall. Trying [ON, OFF, OFF].
-Update: [ON, ON, OFF] failed. Trying [OFF, ON, ON]. Step 1: Turn S1 OFF. Step 2: Turn S3 ON.
-- **Discovery:** Configuration `[ON, ON, OFF]` opens Bottom West Door (6, 12).
-- **Discovery:** Configuration `[ON, ON, OFF]` opens Central Connector (12, 9).
-- **New Hypothesis:** Switch 3 (Lockdown) might open the Bottom East Shutter (Emergency Route). 
-- **Plan:** Re-enter Switch Room, verify Connector (12, 9) is open (requires S1 ON?), go to S3, turn ON, check Shutter.
-- **Observation:** [ON, ON, ON] closes internal walls (10, 6) and (16, 6), blocking North-South movement inside the Switch Room. Must exit via NE Ladder.
-- **Lockdown Confirmed:** S3 ON closes West (3, 6), Middle (10, 6), and East (16, 6) walls. North strip is isolated.
-- **Strategy:** Exit via NE Ladder (23, 3). Investigate 'Unknown Houses' in Goldenrod City or re-check East Shaft (21, 25) for access to the South East section (Emergency Switch).
+**Switch Puzzle Analysis**
+**Status:** Locked out by S3 ON (Lockdown). Northern paths closed.
+**Dead Ends Verified:**
+- SE Shaft (21, 25): Dead end. Exits to City.
+- SW Shaft (5, 25): Dead end. Exits to City.
+- Door at 3_53 (18, 6): Loop to Behind Counters.
+**Strategy:**
+- Find entrance to East Room South Section (Target: Unexplored Door at 22, 10).
+- Likely access point: Unknown House in Goldenrod City.
+- Action: Exit to City and explore houses.
