@@ -9,6 +9,7 @@
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Puzzle State:** S1 OFF, S2 ON, S3 ON.
 - **Observations:** [OFF, ON, ON] confirmed Top East Shutter CLOSED and Middle Gate CLOSED.
+- **Discovery:** [OFF, ON, OFF] opens Middle Gate (10,6), West Connector North (6,9), and East Connector South (12,12). East Connector North (12,9) is CLOSED. West Connector South (6,12) is CLOSED. Path South from Row 9 is blocked.
 - **History:**
   - [OFF, ON, OFF]: Central Connector OPEN, Top Shutter CLOSED.
   - [ON, ON, OFF]: Top Shutter CLOSED.
