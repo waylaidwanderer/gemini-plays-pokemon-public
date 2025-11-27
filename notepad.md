@@ -5,10 +5,9 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Dept Store Elevator.
-- **Objective:** Return to Goldenrod Underground (Switch Room).
-- **Context:** 'Scoot' event on B1F failed (crates unmoved). Pivot to finding Warehouse entrance via Underground.
-- **Mechanics:** CRATEs require events to move.
+- **Location:** Goldenrod Dept Store 1F.
+- **Objective:** Exit to city, then re-enter Underground to reach Warehouse.
+- **Context:** B1F path blocked. Must try accessing Warehouse from the Underground Switch Room side.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
