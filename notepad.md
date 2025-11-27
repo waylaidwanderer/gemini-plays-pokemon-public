@@ -249,3 +249,5 @@
 
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
 - **Verify Root Assumptions:** When a plan fails repeatedly or a system warning indicates a hallucination, the root hypothesis is likely flawed. Do not get stuck trying minor variations of a failed plan. Instead, immediately and aggressively re-verify the foundational assumptions (e.g., warp locations, item requirements) against the raw game state data. A simple check of the `Map Events` list would have prevented the roof navigation loop.
+- **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
+- **POST-WARP VERIFICATION (CRITICAL):** After EVERY warp or map transition, my absolute first action MUST be to verify my new map ID and (x, y) coordinates against the Game State Information. Failure to do this led to a major hallucination on the Dept. Store roof. Do not assume you know where you are; verify it.
