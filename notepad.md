@@ -139,6 +139,7 @@
 - **`stun_npc` Tool:** The `stun_npc` tool can be effective for freezing moving NPCs to clear a path, as demonstrated with the Lass in Goldenrod City. While a previous attempt seemed to fail, this successful use case confirms its utility. It should be used proactively to prevent pathing interruptions.
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
 - **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
+- **PLANT**: A decorative object that functions as an impassable WALL tile.
 
 # Current Quest: Train for Whitney Rematch
 - **Objective:** Defeat Whitney at the Goldenrod Gym.
@@ -195,9 +196,19 @@
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
 
-# Custom Tools
+# Automation Suite
+## Built-in Tools
+- `notepad_edit`: Edits the persistent notepad.
+- `run_code`: Executes single-use Python code.
+- `define_map_marker` / `delete_map_marker`: Manages map markers for data hygiene.
+- `stun_npc`: Freezes NPCs to assist with pathing and interaction.
+- `select_battle_option`: Selects main battle menu options (FIGHT, PKMN, PACK, RUN).
+## Custom Tools (via `define_tool`)
 - `find_path`: Finds a path from a start to an end coordinate on the current map.
 - `select_item`: Automates selecting a specific item from the bag menu.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
 - `select_contest_option`: Automates selecting an option from the Bug-Catching Contest battle menu.
+## Custom Agents (via `define_agent`)
+- `gym_puzzle_solver`: Generates simple, testable hypotheses for gym puzzles.
+- `python_code_debugger`: Analyzes and corrects faulty Python scripts.
