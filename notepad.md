@@ -204,3 +204,9 @@
 - [ ] (29, 29): Bike Shop
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
+### Verified State [ON, OFF, ON]
+- Top East Gate (16, 6): OPEN
+- Bottom East Gate (16, 10): CLOSED
+- Central Connector (12, 9): CLOSED
+- Note: S3 ON does not toggle Bot East when S1 is ON.
+- Next Step: Inspect far east wall (x=22) for openings.
