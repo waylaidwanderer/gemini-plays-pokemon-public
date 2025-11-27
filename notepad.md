@@ -1,7 +1,6 @@
 # Strategic Principles & Lessons Learned
 - **Warp Navigation Lesson:** When setting a `navigation_goal` to a warp, the coordinates provided in `navigation_goal_coordinates` MUST be the coordinates of the warp tile on the *current* map, not the destination map. Verifying this against the `Map Events -> Warps` list is critical to avoid hallucinations and validation errors.
 - CRITICAL LESSON - Trust Warp Data: My visual count of warps in the Kabuto Chamber was a hallucination. I must always trust the raw Game State Information's 'Map Events -> Warps' list over my own memory or visual assessment. Verify against the data.
-
 - **CRITICAL LESSON - Trust Tool Failures:** When a trusted tool like `find_path` reports 'No path found', it is a strong signal that my own understanding of the game state (my location, the map layout) is fundamentally flawed. I must question my own assumptions before questioning the tool.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted failures where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
 - **Pathfinding Tool Principles (Consolidated):**
@@ -37,7 +36,6 @@
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
 - **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
 - **Puzzle State Changes:** Some puzzles, like the Goldenrod Dept. Store basement, may change their state based on triggers that are not immediately obvious, such as leaving and re-entering the area. If internal solutions fail, I must consider external actions as potential triggers.
-- **Interaction Loops:** If repeated interaction with an NPC doesn't change the outcome, the solution lies elsewhere. Don't get stuck in an interaction loop; pivot to testing environmental or sequential triggers.
 - **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
 - **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
@@ -45,7 +43,6 @@
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
 - **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
 - **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
-- **Execution Errors:** I must ensure my actions match my plan. A recent failure was caused by manually pressing buttons (`B`, `A`) instead of calling the intended tool, which wasted a turn and accomplished nothing. I must double-check that I am pressing the `tool` button when my plan is to use a tool.
 - **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
 - **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
@@ -62,6 +59,11 @@
 - **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
 - **Trust the Pathfinder:** When the `find_path` tool reports 'No path found,' the path is genuinely blocked. My own visual assessment can be flawed. I must trust the tool's analysis of the map data and immediately pivot my strategy instead of questioning the tool.
 - **`select_move` Workflow:** The tool's logic for calculating button presses is correct, but the `autopress_buttons` feature is unreliable due to game engine timing. The correct and verified workflow is: 1. Call the tool with `autopress_buttons: false`. 2. Manually input the button presses returned by the tool. 3. Press 'A' in the next turn to execute the move.
+- **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
+- **Verify Root Assumptions:** When a plan fails repeatedly or a system warning indicates a hallucination, the root hypothesis is likely flawed. Do not get stuck trying minor variations of a failed plan. Instead, immediately and aggressively re-verify the foundational assumptions (e.g., warp locations, item requirements) against the raw game state data.
+- **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
+- **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
+- **Marker Verification:** CRITICAL FAILURE. I must consult my map markers before planning any NPC interaction. Ignoring my own data leads to significant wasted time and repeating discoveries. This is a non-negotiable step in my planning process.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -217,43 +219,7 @@
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
 
-# Automation Suite
-## Built-in Tools
-- `notepad_edit`: Edits the persistent notepad.
-- `run_code`: Executes single-use Python code.
-- `define_map_marker` / `delete_map_marker`: Manages map markers for data hygiene.
-- `stun_npc`: Freezes NPCs to assist with pathing and interaction.
-- `select_battle_option`: Selects main battle menu options (FIGHT, PKMN, PACK, RUN).
-- `define_agent` / `delete_agent`: Manages custom reasoning agents.
-- `define_tool` / `delete_tool`: Manages custom Python tools.
-## Custom Tools (via `define_tool`)
-- `find_path`: Finds a path from a start to an end coordinate on the current map.
-- `select_item`: Automates selecting a specific item from the bag menu.
-- `select_move`: Selects a move from the battle menu by name.
-- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-- `verify_reachability`: Checks a list of coordinates to see which are reachable from the player's current position.
-## Custom Agents (via `define_agent`)
-- `gym_puzzle_solver`: Generates simple, testable hypotheses for gym puzzles.
-- `python_code_debugger`: Analyzes and corrects faulty Python scripts.
-
-# Phone Calls
-- Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON. He also called to say he tried eating BERRIES like his MACHOP and that he's been seeing a lot of wild HOPPIP.
-- Youngster JOEY called for a rematch on Route 30. He also called to brag about his RATTATA and that he defeated a wild SPINARAK and a wild HOOTHOOT.
-
 # Tool Development Lessons
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
 - **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-
-# Ilex Forest
-- **Objective:** Traverse the forest to reach Route 34.
-- **Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
-
-- **Verify Root Assumptions:** When a plan fails repeatedly or a system warning indicates a hallucination, the root hypothesis is likely flawed. Do not get stuck trying minor variations of a failed plan. Instead, immediately and aggressively re-verify the foundational assumptions (e.g., warp locations, item requirements) against the raw game state data. A simple check of the `Map Events` list would have prevented the roof navigation loop.
-- **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
-- **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted failures where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
-- **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
-
-# Strategic Principles & Lessons Learned (Addendum)
-- **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
-- **Marker Verification:** CRITICAL FAILURE. I must consult my map markers before planning any NPC interaction. Ignoring my own data leads to significant wasted time and repeating discoveries. This is a non-negotiable step in my planning process.
