@@ -483,6 +483,37 @@
       }
     ]
   },
+  "select_contest_option": {
+    "description": "Automates selecting an option (FIGHT, PARKBALL, RUN) from the Bug-Catching Contest battle menu. Takes the current screen text as input.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "option_to_select": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PARKBALL",
+            "RUN"
+          ]
+        },
+        "current_screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "option_to_select",
+        "current_screen_text"
+      ]
+    },
+    "python_script": "import json\n\ndef select_contest_option(screen_text, option):\n    lines = screen_text.split('\\n')\n    current_selection = ''\n    for line in lines:\n        if '▶' in line:\n            if 'FIGHT' in line:\n                current_selection = 'FIGHT'\n            elif 'PARKBALL' in line:\n                current_selection = 'PARKBALL'\n            elif 'RUN' in line:\n                current_selection = 'RUN'\n            break\n    \n    if not current_selection:\n        print(json.dumps(['A'])) # Failsafe\n        return\n        \n    if current_selection.upper() == option.upper():\n        print(json.dumps(['A']))\n        return\n\n    moves = []\n    if current_selection == 'FIGHT':\n        if option.upper() == 'PARKBALL': moves = ['Down']\n        elif option.upper() == 'RUN': moves = ['Down', 'Right']\n    elif current_selection == 'PARKBALL':\n        if option.upper() == 'FIGHT': moves = ['Up']\n        elif option.upper() == 'RUN': moves = ['Right']\n    elif current_selection == 'RUN':\n        if option.upper() == 'FIGHT': moves = ['Left', 'Up']\n        elif option.upper() == 'PARKBALL': moves = ['Left']\n        \n    moves.append('A')\n    print(json.dumps(moves))\n\nselect_contest_option(input_data['current_screen_text'], input_data['option_to_select'])",
+    "history": [
+      {
+        "commit_message": "feat: Create select_contest_option tool. This tool automates navigation in the unique Bug-Catching Contest battle menu, addressing a manual task identified by a system critique. This aligns with the 'DEFAULT TO AUTOMATION' principle.",
+        "timestamp": "2025-11-26T23:49:43.625Z",
+        "action_counter": 19051
+      }
+    ]
+  },
   "select_item": {
     "description": "Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.",
     "input_schema": {
@@ -963,37 +994,6 @@
         "commit_message": "refactor: Make tool state-aware and improve parsing. The tool was failing because it was not state-aware and could not handle multi-word names. This complete rewrite makes the tool read the current cursor position from the screen text and uses a regular expression to reliably parse Pokémon names, resolving the critical failure.",
         "timestamp": "2025-11-25T14:54:52.137Z",
         "action_counter": 15887
-      }
-    ]
-  },
-  "select_contest_option": {
-    "description": "Automates selecting an option (FIGHT, PARKBALL, RUN) from the Bug-Catching Contest battle menu. Takes the current screen text as input.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "option_to_select": {
-          "type": "string",
-          "enum": [
-            "FIGHT",
-            "PARKBALL",
-            "RUN"
-          ]
-        },
-        "current_screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "option_to_select",
-        "current_screen_text"
-      ]
-    },
-    "python_script": "import json\n\ndef select_contest_option(screen_text, option):\n    lines = screen_text.split('\\n')\n    current_selection = ''\n    for line in lines:\n        if '▶' in line:\n            if 'FIGHT' in line:\n                current_selection = 'FIGHT'\n            elif 'PARKBALL' in line:\n                current_selection = 'PARKBALL'\n            elif 'RUN' in line:\n                current_selection = 'RUN'\n            break\n    \n    if not current_selection:\n        print(json.dumps(['A'])) # Failsafe\n        return\n        \n    if current_selection.upper() == option.upper():\n        print(json.dumps(['A']))\n        return\n\n    moves = []\n    if current_selection == 'FIGHT':\n        if option.upper() == 'PARKBALL': moves = ['Down']\n        elif option.upper() == 'RUN': moves = ['Down', 'Right']\n    elif current_selection == 'PARKBALL':\n        if option.upper() == 'FIGHT': moves = ['Up']\n        elif option.upper() == 'RUN': moves = ['Right']\n    elif current_selection == 'RUN':\n        if option.upper() == 'FIGHT': moves = ['Left', 'Up']\n        elif option.upper() == 'PARKBALL': moves = ['Left']\n        \n    moves.append('A')\n    print(json.dumps(moves))\n\nselect_contest_option(input_data['current_screen_text'], input_data['option_to_select'])",
-    "history": [
-      {
-        "commit_message": "feat: Create select_contest_option tool. This tool automates navigation in the unique Bug-Catching Contest battle menu, addressing a manual task identified by a system critique. This aligns with the 'DEFAULT TO AUTOMATION' principle.",
-        "timestamp": "2025-11-26T23:49:43.625Z",
-        "action_counter": 19051
       }
     ]
   }
