@@ -8,12 +8,12 @@
 - **Location:** Switch Room NE (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Switch State:** Current: [ON, OFF, OFF].
-- **Action:** Verifying East Security Wall (16, 6).
-- **Plan:** If East Wall OPEN -> Enter East Section -> Investigate Unexplored Door (22, 10).
-- **Recent Tests:**
-  - [OFF, OFF, OFF]: West Wall CLOSED.
-  - [OFF, ON, ON]: All Walls CLOSED (Lockdown).
-  - [ON, ON, OFF]: East Wall CLOSED.
+- **Action:** Investigating Bottom East Shutter (16, 10).
+- **Verified Mechanics:**
+  - [ON, OFF, OFF] = East Wall (16, 6) OPEN.
+  - [OFF, OFF, OFF] = West Wall (3, 6) CLOSED.
+  - Switch 3 ON = Lockdown (Closes walls).
+- **Plan:** Check Shutter (16, 10). If CLOSED, check Door (22, 10).
 
 ## Switch Puzzle Analysis (In Progress)
 **Goal:** Access Emergency Switch (20,11) in South East Section.
