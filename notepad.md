@@ -131,9 +131,9 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
-# Current Quest: Journey to Ecruteak City
-- **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
-- **Status:** I have arrived in Ecruteak City. The Gym Leader, Morty, is not at the gym. I have found him in the Burned Tower.
+# Current Quest: Journey to Olivine City
+- **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
+- **Status:** I am in Ecruteak City and have determined that I am currently blocked from progressing in the Burned Tower. My only other lead is the rumor about a sick Pokémon in Olivine City.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
