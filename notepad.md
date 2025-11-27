@@ -4,23 +4,22 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Vertical Shaft Strategy
-- **Hypothesis:** The Switch Room is composed of three vertical shafts (West, Middle, East).
-- **Goal:** Enter East Shaft via Underground to bypass northern barriers.
-- **Path:** West Shaft Entrance -> North to (3,2) -> East Switch Room -> South.
+## Switch Room Strategy
+- **Hypothesis:** The "East Shaft" loop is a dead end. The key to reaching the Emergency Switch (South East) lies within the East Room of the main hub, specifically the locked door at (22, 10).
+- **Goal:** Open Top East Gate (Switch 1 ON) and investigate door at (22, 10).
+- **Path:** Main Underground (3_53) -> Main Switch Room Hub (via 18, 6) -> Toggle Switch 1 ON -> Enter East Room -> Check Door.
 
 ## Status
-- **Location:** Goldenrod City (North Entrance).
-- **Status:** Testing Switch Room configurations. 
-- **Disproven Theories:** 
-  1. **City Backdoor:** Unknown Houses in East Goldenrod are blocked by Grunts. No access to Switch Room SE from city.
-  2. **Row 12 Access:** Path from Middle Room to East Room via Row 12 is blocked by a wall at (18, 12).
-  3. **East Shaft:** Ladder at 3_54 (21, 25) connects to Underground 3_53 (3, 2) (NW), NOT the South East Room.
+- **Location:** Goldenrod Underground (North West).
+- **Status:** Returning to Main Hub.
+- **Disproven Theories:**
+  1. **City Backdoor:** The East Shaft exit leads to Goldenrod North, but the path north back into the Switch Room is blocked.
+  2. **Vertical Shaft Bypass:** Entering via the Underground East Shaft (3, 2) puts me in an isolated southern section.
+  3. **Row 12 Access:** Path from Middle Room to East Room via Row 12 is blocked by a wall at (18, 12).
 - **Ladder Connections (Verified):**
   - West Shaft (5, 25) <-> SW Underground (3, 34)
   - East Shaft (21, 25) <-> NW Underground (3, 2)
   - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
-- **Current Plan:** Configuration [OFF, ON, OFF] confirmed. Northern route blocked by barriers at Row 10. New Strategy: Enter Switch Room via West Shaft (Underground 3, 34 -> Switch Room 5, 25). Attempt to access South section (Row 12) from the West Shaft, bypassing northern barriers.
 
 ## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | Row 12 Conn (12,12) | Notes |
