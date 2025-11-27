@@ -8,7 +8,7 @@
 - **Agent Escalation for Debugging:** If I am struggling to debug a tool manually after a few attempts, I MUST escalate to the `python_code_debugger` agent. It can often identify logical flaws more quickly and efficiently than I can.
 - **UI Automation Timing:** When automating UI interactions, simple button sequences can fail due to game engine lag or animation timing. Incorporate 'sleep' commands to ensure the UI is in the expected state before the next input is sent.
 - **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, it means the proposed change has already been successfully applied in a previous turn. Do not retry the same definition; proceed with the next action.
-- **NPC Interactions:** Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger.
+- **NPC Interactions:** Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger. Non-Battling NPCs: Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
 - **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
@@ -41,13 +41,13 @@
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
 - **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
-- **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
 - **`select_move` Workflow:** The tool's logic for calculating button presses is correct, but the `autopress_buttons` feature is unreliable due to game engine timing. The correct and verified workflow is: 1. Call the tool with `autopress_buttons: false`. 2. Manually input the button presses returned by the tool. 3. Press 'A' in the next turn to execute the move.
 - **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 - **CONSULT YOUR KNOWLEDGE BASE:** My notepad contains critical, verified information about game mechanics (like impassable tiles). I MUST consult this knowledge base *before* attempting an action to avoid repeating solved problems and wasting turns on impossible movements, as seen with the COUNTER tile incident.
+- **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -128,10 +128,11 @@
 - **INCENSE_BURNER**: An impassable decorative object.
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
+- **BROKEN_FLOOR**: An impassable tile that functions as a wall. Found in the Burned Tower.
 
 # Current Quest: Journey to Ecruteak City
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
-- **Status:** I have arrived in Ecruteak City. The Gym Leader, Morty, is not at the gym. My next step is to find the Burned Tower, which is the most likely place to find him.
+- **Status:** I have arrived in Ecruteak City. The Gym Leader, Morty, is not at the gym. I have found him in the Burned Tower.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -207,13 +208,3 @@
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
 - **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-
-# NPC Interactions
-- **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
-- **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
-
-# Strategic Principles & Lessons Learned
-- **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
-
-# Tile & Object Mechanics
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
