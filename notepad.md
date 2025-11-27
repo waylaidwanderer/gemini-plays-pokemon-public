@@ -8,8 +8,9 @@
 - **Location:** Goldenrod Underground (Main Corridor).
 - **Objective:** Verify Top East Shutter in Warehouse.
 - **Current Switch State:** [ON, OFF, OFF].
-- **Discovery:** Warp Carpet at (22, 31) exits 'Behind Counters' area and leads to (18, 6). Trigger is walking DOWN into the wall.
-- **Next Step:** Enter Warehouse.
+- **Discovery:** Warp Carpet at (22, 31) exits 'Behind Counters' area. Trigger is walking DOWN into the wall.
+- **Loop Confirmed:** Door at (18, 6) leads to 'Behind Counters' area (21, 31). It is NOT the Warehouse.
+- **Next Step:** Navigate to (3, 34) (Bottom Left), the likely Warehouse entrance.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
