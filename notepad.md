@@ -210,3 +210,9 @@
 
 # Strategic Principles & Lessons Learned
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
+
+# Strategic Principles & Lessons Learned (Addendum)
+- **CONSULT YOUR KNOWLEDGE BASE:** My notepad contains critical, verified information about game mechanics (like impassable tiles). I MUST consult this knowledge base *before* attempting an action to avoid repeating solved problems and wasting turns on impossible movements, as seen with the COUNTER tile incident.
+
+# Tile & Object Mechanics (Addendum)
+- **INCENSE_BURNER**: An impassable decorative object.
