@@ -1,4 +1,5 @@
 # Strategic Principles & Lessons Learned
+- **Warp Navigation Lesson:** When setting a `navigation_goal` to a warp, the coordinates provided in `navigation_goal_coordinates` MUST be the coordinates of the warp tile on the *current* map, not the destination map. Verifying this against the `Map Events -> Warps` list is critical to avoid hallucinations and validation errors.
 - CRITICAL LESSON - Trust Warp Data: My visual count of warps in the Kabuto Chamber was a hallucination. I must always trust the raw Game State Information's 'Map Events -> Warps' list over my own memory or visual assessment. Verify against the data.
 - **CRITICAL LESSON - Verify Location:** I have repeatedly hallucinated my location after map transitions. I MUST verify my current map ID and coordinates from the Game State Information after every warp or map change before taking any other action.
 - **CRITICAL LESSON - Trust Tool Failures:** When a trusted tool like `find_path` reports 'No path found', it is a strong signal that my own understanding of the game state (my location, the map layout) is fundamentally flawed. I must question my own assumptions before questioning the tool.
