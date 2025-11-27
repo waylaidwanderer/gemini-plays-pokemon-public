@@ -11,19 +11,20 @@
 - **Action:** Turning S2 ON to achieve [OFF, ON, OFF].
 - **Plan:** Turn S2 ON -> Verify West Wall OPEN -> Cross Central Connector -> Enter East Section -> Emergency Switch.
 
-## Switch Puzzle Analysis (Solved)
+## Switch Puzzle Analysis (In Progress)
 **Goal:** Access Emergency Switch (20,11) in South East Section.
 
 **Verified Mechanics:**
 - **Switch 1 (East):** Controls East Security Wall (16,6) AND Bottom East Shutter (16,10).
   - S1 ON = East Wall OPEN, Shutter CLOSED.
   - S1 OFF = East Wall CLOSED, Shutter OPEN.
-- **Switch 2 (West):** Controls West Security Wall (3,6). ON = OPEN.
-- **Switch 3 (Middle):** Controls Central Connector (12,9). OFF = OPEN.
+- **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN.
+- **Switch 3 (West):** Likely controls West Security Wall (3,6). TBD.
+- **Central Connector (12,9):** Controlled by S3? Currently OPEN with S3 OFF.
 
-**Solution State:** `[OFF, ON, OFF]`
-- **Result:** Bottom East Shutter is OPEN. East Wall is CLOSED. West Wall is OPEN.
-- **Implication:** The internal path to the Emergency Switch is blocked by the closed East Wall. Access must be achieved via an external entrance (likely the Locked Door at 18,6 in the Main Underground) that leads directly to the South Section.
+**Current State:** `[OFF, ON, OFF]`
+- **Result:** Bottom East Shutter OPEN. East Wall CLOSED. Middle Path OPEN. West Wall CLOSED.
+- **Plan:** Investigate newly opened Middle Path (Column 10) to see if it leads to the goal or another switch.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
