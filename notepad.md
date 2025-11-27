@@ -8,7 +8,7 @@
 - **Location:** Goldenrod Dept Store Elevator.
 - **Objective:** Rescue Director (Underground Warehouse).
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Check Elevator for B1F option.
+- **Action:** Take Elevator to B1F and search for Warehouse entrance.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
