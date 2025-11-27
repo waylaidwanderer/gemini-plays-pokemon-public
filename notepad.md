@@ -161,6 +161,7 @@
 - **TM39 SWIFT**
 - **TM45 ATTRACT**
 - **TM49 FURY CUTTER**
+- **TM08 ROCK SMASH:** Received from a man on Route 36 after defeating the Sudowoodo.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
