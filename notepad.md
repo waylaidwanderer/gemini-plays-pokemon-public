@@ -7,16 +7,27 @@
 ## Status
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Puzzle Truth Table (Verified):**
-  - [ON, ON, ON]: West Gate CLOSED. West Conn CLOSED. Dead End.
-  - [ON, ON, OFF]: Middle Gate OPEN. Central Conn CLOSED (S1 Override). West Conn OPEN. West Room South CLOSED.
-  - [ON, OFF, OFF]: Top East CLOSED. Middle Gate CLOSED. West Gate CLOSED. Bottom East OPEN.
-  - [OFF, ON, OFF]: Middle Gate CLOSED. Top East CLOSED. West Gate CLOSED.
-  - [OFF, ON, ON]: West Gate CLOSED. Middle Gate CLOSED.
-  - [OFF, OFF, OFF]: Upper Conn (Row 4) OPEN. *To Verify: West Gate, Middle Gate.*
+- **Current Plan:** Reset switches to [ON, OFF, OFF] to access the 'Unexplored Door' at (22, 10) in the East Room.
+- **Puzzle State:** Currently [OFF, ON, ON]. Resetting to [ON, OFF, OFF].
 
-- **Current Plan:** Test [OFF, OFF, OFF]. Check West Gate (3,6) and Middle Gate (10,6).
-- **Reference:** Underground Solution in log was [OFF, ON, OFF] but failed in re-test (Middle Gate closed). Possible missing variable or sequence.
+## Switch Room Puzzle (Consolidated & Verified)
+**Goal:** Access Emergency Switch at (20, 11).
+**Constraint:** Bottom East Gate (16, 10) blocks direct path south in most configurations.
+**Key Discovery:** The "Unexplored Door" at (22, 10) is accessible when Top East Gate is OPEN.
+
+**Verified Truth Table:**
+| Configuration | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | Central Conn (12,9) | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[ON, OFF, OFF]** | **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | **OPEN** | **Target Configuration.** Allows entry to East Room & access to Door (22,10). |
+| [OFF, ON, OFF] | OFF | ON | OFF | CLOSED | ? | **OPEN** | **CLOSED** | Opens path to West Room (Dead End). |
+| [OFF, ON, ON] | OFF | ON | ON | CLOSED | ? | **CLOSED** | ? | Middle Gate closes. Dead End. |
+| [OFF, OFF, OFF]| OFF | OFF | OFF | CLOSED | ? | CLOSED | ? | Baseline. All North Gates Closed. |
+
+**Deductions:**
+- S1 ON opens Top East Gate (Entry) but closes Bottom East Gate.
+- S1 OFF opens Bottom East Gate (Exit) but closes Top East Gate and Central Connector.
+- S2 ON opens Middle Gate (Entry) but only if S3 is OFF? (See [OFF, ON, ON] failure).
+- **Strategy:** The solution likely involves the door at (22, 10) bypassing the Bottom East Gate.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
@@ -201,42 +212,3 @@
 - [ ] (29, 29): Bike Shop
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
-
-## Switch Room Puzzle (Verified & Consolidated)
-**Goal:** Reach Emergency Switch (20,11).
-**Strategy:** The 'Unexplored Door' at (22,10) is the target. It is accessible when Top East Gate (16,6) is OPEN.
-
-| Config | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | Connectors | Notes |
-|---|---|---|---|---|---|---|---|---|
-| [OFF,OFF,OFF] | OFF | OFF | OFF | CLOSED | ? | CLOSED | ? | Baseline. |
-| [ON,OFF,OFF] | ON | OFF | OFF | **OPEN** | CLOSED | CLOSED | Central OPEN | **Target State.** Access to East Room Door. |
-| [OFF,ON,OFF] | OFF | ON | OFF | CLOSED | ? | OPEN | West-Mid OPEN | Access to West Room (Dead End). |
-| [OFF,ON,ON] | OFF | ON | ON | CLOSED | ? | CLOSED | ? | Fails. S3 closes Middle Gate. |
-
-## Switch Room Puzzle Analysis (Latest)
-**Objective:** Reach Emergency Switch (20,11).
-**Status:** Testing Configuration [OFF, ON, ON].
-
-**Verified Truth Table:**
-| Config | S1 | S2 | S3 | Entry Gates (North) | Internal Connections | Exit Gate (South) | Notes |
-|---|---|---|---|---|---|---|---|
-| [OFF,OFF,OFF] | OFF | OFF | OFF | All Closed | ? | ? | Baseline. Fails. |
-| [ON,OFF,OFF] | ON | OFF | OFF | Top East OPEN | Central OPEN | Bot East CLOSED | Entry possible, but South blocked. |
-| [OFF,ON,OFF] | OFF | ON | OFF | Middle OPEN | West-Mid OPEN, Central CLOSED | ? | Entry possible. Path to West Room. No South exit found yet. |
-| [OFF,ON,ON] | OFF | ON | ON | ? | ? | ? | **Testing Now.** Hypothesis: S3 opens Central Connector? |
-
-**Key Mechanics Deductions:**
-- **S1 (East Switch):**
-  - ON: Opens Top East Gate (Entry). Closes Bottom East Gate (Exit). Opens Central Connector.
-  - OFF: Closes Top East Gate. Opens Bottom East Gate (Exit). Closes Central Connector (unless S3 helps?).
-- **S2 (Middle Switch):**
-  - ON: Opens Middle Gate (Entry).
-- **S3 (West Switch):**
-  - Effect Unknown/Testing.
-  - Hypothesis: Toggles Central Connector or West Gate.
-| [OFF,ON,ON] | OFF | ON | ON | CLOSED | ? | ? | Fails. S3 appears to override S2, closing Middle Gate. |
-
-**New Hypothesis:** The 'Unexplored Door' at (22,10) in the East Room is the key. It is accessible via Top East Gate (S1 ON) and likely bypasses the Bottom East Gate.
-| [OFF,ON,ON] | OFF | ON | ON | CLOSED | ? | ? | Fails. S3 appears to override S2, closing Middle Gate. |
-
-**New Hypothesis:** The 'Unexplored Door' at (22,10) in the East Room is the key. It is accessible via Top East Gate (S1 ON) and likely bypasses the Bottom East Gate.
