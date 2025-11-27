@@ -207,5 +207,6 @@
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 
 # Current Quest: Journey to Ecruteak City
-- **New Hypothesis:** After thoroughly exploring Route 36 and finding only dead ends or one-way ledges, it's highly likely the path to Ecruteak City is not from Route 36. I must re-examine previous areas, like Goldenrod City or the National Park, for a previously missed path.
+- **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
+- **Status:** After exploring all other paths on Route 36, I've discovered a `CUT_TREE` at (27, 12). This is the only remaining path and is the confirmed way forward.
 - **Positional Verification:** After any map transition (warp, map edge), I MUST verify my new coordinates from the game state before taking any action to prevent hallucinations.
