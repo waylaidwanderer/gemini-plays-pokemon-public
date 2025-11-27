@@ -5,11 +5,11 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Switch Room (Top East - Dead End Section).
-- **Objective:** Escape 'Behind Counters' area.
+- **Location:** Goldenrod Underground (Main Corridor).
+- **Objective:** Verify Top East Shutter in Warehouse.
 - **Current Switch State:** [ON, OFF, OFF].
-- **Problem:** Ladder at (22, 27) leads to isolated dead end. Warp at (21, 31) seems blocked.
-- **Next Step:** Return to 3_53 via Ladder. Explore West side (Super Nerd area).
+- **Discovery:** Warp Carpet at (22, 31) exits 'Behind Counters' area and leads to (18, 6). Trigger is walking DOWN into the wall.
+- **Next Step:** Enter Warehouse.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
