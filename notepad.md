@@ -214,4 +214,4 @@
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
 # Current Plan
-- Investigate the unexplored warp hole at (7, 15) on the western side of Burned Tower 1F. The eastern path is blocked, and this is the last unexplored point of interest on this floor.
+- Interact with the stunned Gym Leader Morty at (14, 14). All other paths are blocked, and my agent suggested this is the most likely way to progress.
