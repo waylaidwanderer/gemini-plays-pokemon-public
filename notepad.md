@@ -19,10 +19,16 @@
 - **Switch 2:** Controls West Security Wall (3, 6). ON = OPEN. NO Linkage to S3 observed.
 - **Switch 3:** Unknown function. Likely shutters.
 
+**Mechanics (Verified):**
+- **Switch 1:** Toggles East Security Wall (16, 6).
+- **Switch 2:** Toggles West Security Wall (3, 6).
+- **Switch 3:** Likely toggles Shutters.
+- **Linkage:** Disproven. Switches appear independent.
+
 **Tested States:**
-- `[ON, OFF, OFF]`: East Wall OPEN. West Wall CLOSED. Connector (12, 9) CLOSED. Shutters CLOSED.
-- `[ON, ON, OFF]`: East Wall OPEN. West Wall OPEN. Connector (12, 9) OPEN. Shutters CLOSED.
-- **Hypothesis:** Switch 3 controls the Shutters. Target State: `[ON, ON, ON]`.
+- `[ON, OFF, OFF]`: East Open, West Closed.
+- `[ON, ON, OFF]`: East Open, West Open.
+- **Next Test:** `[ON, ON, ON]` to open Shutters.
 - Wall (16, 6): OPEN.
 - Wall (12, 9): OPEN (Access to West Room).
 - Inner Shutter (16, 10): CLOSED.
