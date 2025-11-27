@@ -126,6 +126,8 @@
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 - **HEADBUTT_TREE**: An impassable tree that can be interacted with using the move HEADBUTT.
 - **INCENSE_BURNER**: An impassable decorative object.
+- **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
+- **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 
 # Current Quest: Journey to Ecruteak City
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
@@ -207,5 +209,4 @@
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 
 # NPC Interactions
-- To interact with NPCs behind counters (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
-- **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
+- **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
