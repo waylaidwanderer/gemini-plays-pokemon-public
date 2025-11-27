@@ -210,3 +210,4 @@
 - Central Connector (12, 9): CLOSED
 - Note: S3 ON does not toggle Bot East when S1 is ON.
 - Next Step: Inspect far east wall (x=22) for openings.
+| ON | OFF | ON | CLOSED | CLOSED | OPEN | CLOSED | Central Conn CLOSED. West-Mid Conn OPEN. Dead End. |
