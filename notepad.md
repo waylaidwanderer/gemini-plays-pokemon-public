@@ -5,10 +5,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Goldenrod Dept Store B1F.
-- **Objective:** Clear crate blockade to reach items.
-- **Action:** Interacting with Black Belt (ID 6) to move Machoke.
-- **Observations:** Machoke at (7,7) says "Maaacho!". Black Belt at (4,8) is the likely trainer.
+- **Location:** Goldenrod Dept Store Elevator.
+- **Objective:** Reset B1F state to trigger Machoke event.
+- **Plan:** Go to 2F, then return to B1F.
+- **Context:** Black Belt asked me to "scoot". Leaving the map should allow them to move the crates.
 
 ## Switch Puzzle Analysis
 **Goal:** Access Emergency Switch (20,11) in South East Section.
