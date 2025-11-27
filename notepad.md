@@ -229,3 +229,4 @@
 
 # Current Quest: Journey to Ecruteak City
 - **New Hypothesis:** After thoroughly exploring Route 36 and finding only dead ends or one-way ledges, it's highly likely the path to Ecruteak City is not from Route 36. I must re-examine previous areas, like Goldenrod City or the National Park, for a previously missed path.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
