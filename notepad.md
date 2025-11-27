@@ -20,8 +20,9 @@
 - **Switch 3:** Unknown function. Likely shutters.
 
 **Tested States:**
-- `[ON, OFF, OFF]`: East Wall OPEN. West Wall CLOSED. Shutters CLOSED.
-- `[ON, ON, OFF]` (Current): East Wall OPEN. West Wall OPEN. Shutters TBD.
+- `[ON, OFF, OFF]`: East Wall OPEN. West Wall CLOSED. Connector (12, 9) CLOSED. Shutters CLOSED.
+- `[ON, ON, OFF]`: East Wall OPEN. West Wall OPEN. Connector (12, 9) OPEN. Shutters CLOSED.
+- **Hypothesis:** Switch 3 controls the Shutters. Target State: `[ON, ON, ON]`.
 - Wall (16, 6): OPEN.
 - Wall (12, 9): OPEN (Access to West Room).
 - Inner Shutter (16, 10): CLOSED.
