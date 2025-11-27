@@ -27,7 +27,7 @@
   - ON = Lockdown (Closes East, West, and Middle paths). (Verified)
   - OFF = Normal operation.
 
-**Current State:** `[ON, OFF, OFF]`
+**Current State:** `[ON, ON, OFF]`
 - **Result:** East Wall OPEN. Bottom East Shutter CLOSED.
 - **Status:** 'Catch-22' confirmed. Direct path to goal blocked by shutter.
 - **Plan:** Investigate "Unexplored Door" at (22, 10). This door is accessible via the northern service corridor (Row 4) and might bypass the shutter or lead to the Director.
