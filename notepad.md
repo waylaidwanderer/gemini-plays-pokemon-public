@@ -210,3 +210,4 @@
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
 - **Status:** After exploring all other paths on Route 36 and confirming they are loops or dead ends, I've re-examined the map and realized I prematurely abandoned the northern path. There are reachable unseen tiles at the northern edge of the map, which is now the most likely path forward.
 - **Positional Verification:** After any map transition (warp, map edge), I MUST verify my new coordinates from the game state before taking any action to prevent hallucinations.
+- **Data Hygiene (Markers):** When creating a marker for an object, it is critical to link it to the object's ID immediately. Failure to do so creates unreliable data that will lead to confusion and wasted turns. This is a non-negotiable step.
