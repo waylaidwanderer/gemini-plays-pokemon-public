@@ -218,7 +218,7 @@ Sequence:
 - **Warp Anomaly:** Warp Carpets at (21, 31) and (22, 31) are blocked by WALL tiles at y=32. Standard 'walk off' mechanic fails. Hypothesis: Wall might be a trigger or these are entrances only.
 - **Correction:** Switch Room NE (via Ladder) is a verified Dead End.
 ## Warp Verification Checklist (Goldenrod)
-- [x] (5, 25): Bill's House (Verified)
+- [x] (5, 25): Bill's House (Verified - Not the Warehouse)
 - [ ] (15, 27): Marked 'Pokémon Center' (Verify?)
 - [ ] (24, 27): Unknown House
 - [ ] (29, 29): Bike Shop
