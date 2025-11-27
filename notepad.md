@@ -18,13 +18,12 @@
 - **Current Plan:** Explore East Room with [ON, ON, OFF]. S1 & S2 coexist, opening Top East, Middle, and Central Connector. Checking Bottom East Gate (16, 10) and Door at (22, 10).
 
 ## Switch Room Truth Table (Verified)
-| S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | West-Mid Conn (6,8) | Notes |
+| S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | Row 12 Conn (12,12) | Notes |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. All North gates closed. |
-| **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | Allows entry to East Room. Blocks South. |
-| OFF | **ON** | OFF | CLOSED | ? | **OPEN** | CLOSED | **CLOSED** | **OPEN** | Opens Middle & West-Mid path. Dead end in West Room. |
-| OFF | **ON** | **ON** | CLOSED | ? | **CLOSED** | CLOSED | ? | ? | Fails to open Middle Gate. |
-| **ON** | **ON** | OFF | **OPEN** | ? | **OPEN** | ? | **OPEN** | ? | **SUCCESS!** S1 & S2 coexist. Both gates/connectors open. |
+| OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. |
+| **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | S1 opens Top East & Central Conn. Closes Bot East. |
+| OFF | **ON** | OFF | CLOSED | ? | **OPEN** | CLOSED | CLOSED | **OPEN** | S2 opens Middle. S1 OFF opens Row 12 Conn. Top East Closed. |
+| **ON** | **ON** | OFF | **OPEN** | CLOSED | **OPEN** | ? | **CLOSED** | CLOSED | S2 overrides S1 for Central Conn (Force Close). Middle & Top East Open. |
 
 **Analysis:**
 - **Recent Finding:** Configuration [ON, ON, OFF] results in Middle Gate OPEN but Central Connector CLOSED. This confirms S2 ON overrides S1's opening of the Central Connector.
