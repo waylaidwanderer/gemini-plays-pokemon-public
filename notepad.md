@@ -194,6 +194,3 @@
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
-
-# To-Do
-- Mark the unmarked warp at (33, 19) in the National Park after the Bug-Catching Contest.
