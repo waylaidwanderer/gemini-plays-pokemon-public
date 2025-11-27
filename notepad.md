@@ -7,21 +7,28 @@
 ## Status
 - **Location:** Switch Room Entrances (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Current Puzzle State:** [OFF, OFF, ON].
+- **Current Puzzle State:** [OFF, OFF, ON] (Transitioning to [ON, OFF, OFF]).
 - **Immediate Task:** Turn S3 OFF, then S1 ON.
 
 ## Underground Switch Room Puzzle (Consolidated)
 **Goal:** Reach Emergency Switch at (20, 11).
-**Constraint:** Bottom East Gate (16, 10) blocks path south when S1 is ON.
-**Key Discovery:** The "Unexplored Door" at (22, 10) is accessible when Top East Gate is OPEN.
+**Strategy:** Access the "Unexplored Door" at (22, 10) in the East Room.
+**Current Plan:** Reset switches to [ON, OFF, OFF] to open Top East Gate (16, 6) and reach the door.
 
-**Verified Configurations:**
-- **[ON, OFF, OFF]:** Top East (16,6) OPEN. Bot East (16,10) CLOSED. Middle (10,6) CLOSED. Central Conn (12,9) OPEN. -> **Target State.**
-- **[OFF, ON, OFF]:** Middle (10,6) OPEN. Central Conn (12,9) CLOSED. West-Mid Conn OPEN. -> Dead End in West Room.
-- **[OFF, ON, ON]:** Middle (10,6) CLOSED. West Gate (3,6) CLOSED. -> Dead End.
-- **[OFF, OFF, OFF]:** All North Gates CLOSED.
+**Verified Gate States:**
+| Configuration | S1 | S2 | S3 | West (3,6) | Mid (10,6) | Top East (16,6) | Bot East (16,10) | Central Conn (12,9) | Notes |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| [OFF, OFF, OFF] | OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | OPEN | Baseline. |
+| [ON, OFF, OFF] | ON | OFF | OFF | CLOSED | CLOSED | **OPEN** | CLOSED | **OPEN** | Allows entry to East Room via Top Gate. |
+| [OFF, ON, OFF] | OFF | ON | OFF | CLOSED | **OPEN** | CLOSED | ? | CLOSED | Opens Middle Gate. Connects Mid <-> West. |
+| [OFF, ON, ON] | OFF | ON | ON | CLOSED | CLOSED | CLOSED | ? | ? | Dead End. |
+| [OFF, OFF, ON] | OFF | OFF | ON | CLOSED | ? | ? | ? | ? | West Gate Closed. |
 
-**Strategy:** The door at (22, 10) likely bypasses the Bottom East Gate.
+**Deductions:**
+- S1 ON: Opens Top East (16,6), Closes Bot East (16,10), Opens Central Conn (12,9).
+- S1 OFF: Closes Top East, Opens Bot East (Presumed), Closes Central Conn.
+- S2 ON: Opens Middle Gate (10,6) *only if* S3 is OFF.
+- S3 ON: Seems to override/close Middle Gate.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
