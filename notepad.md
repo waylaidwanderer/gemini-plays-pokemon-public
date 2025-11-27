@@ -14,17 +14,19 @@
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Open South Path (Bottom West 3,10 | Bottom Middle 10,10 | Inner Shutter 16,10).
 
-**Verified State Log:**
-| S1 | S2 | S3 | Top East (16,6) | Top Mid (10,6) | Top West (3,6) | Bot East (16,10) | Bot West (3,10) | Notes |
-|---|---|---|---|---|---|---|---|---|
-| ON | OFF | ON | CLOSED | ? | OPEN | ? | CLOSED | West Conn Closed |
-| ON | OFF | OFF | OPEN | ? | CLOSED | CLOSED | ? | |
-| ON | ON | OFF | OPEN | CLOSED | OPEN | CLOSED | CLOSED | |
-| ON | ON | ON | OPEN | ? | OPEN | CLOSED | CLOSED | West Conn Closed |
-| OFF | ON | ON | CLOSED | ? | CLOSED | ? | ? | |
-| OFF | ON | OFF | ? | CLOSED | OPEN | ? | CLOSED | West Conn Closed |
-| OFF | OFF | OFF | CLOSED | CLOSED | OPEN | ? | CLOSED | Verified |
-| OFF | OFF | ON | ? | ? | OPEN | ? | CLOSED | Verified |
+**Verified Logic:**
+1. **Linkage:** Switch 3 ON -> Switch 2 ON automatically. Can be overridden manually.
+2. **Top East Shutter (Entrance):**
+   - [ON, OFF, OFF] -> **OPEN** (Verified). Allows entry to East Room.
+   - [ON, OFF, ON] -> **CLOSED** (Verified). 'Trap' state.
+   - [ON, ON, ON] -> **CLOSED** (Verified).
+3. **Bottom Shutters (Exit):**
+   - [ON, OFF, OFF] -> Bot East CLOSED.
+   - [ON, OFF, ON] -> Bot East likely OPEN (Hypothesis), but entrance is closed.
+
+**Strategy:**
+- Re-establish [ON, OFF, OFF] to enter East Room.
+- Reach **Emergency Switch** at (20, 11) in East Room.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
