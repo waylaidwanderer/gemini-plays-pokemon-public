@@ -222,3 +222,4 @@
 
 ## Route 38 Navigation
 - The westernmost area containing a Beauty trainer at (5, 8) is inaccessible from the main path due to a series of one-way `LEDGE_HOP_LEFT` and `LEDGE_HOP_RIGHT` tiles. It must be approached from a different direction, likely from further west.
+- **Type Anomaly:** Normal-type moves (like CUT) are not very effective against Water/Rock-types (like CORSOLA). This is a unique mechanic to this game.
