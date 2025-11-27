@@ -141,9 +141,9 @@
 - **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 
-# Current Quest: Train for Whitney Rematch
-- **Objective:** Defeat Whitney at the Goldenrod Gym.
-- **Status:** Exploring the Goldenrod Department Store to find items or TMs to help with the rematch.
+# Current Quest: Journey to Ecruteak City
+- **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
+- **Status:** Just defeated Whitney in Goldenrod. Need to heal at the Pokémon Center, then get the SQUIRTBOTTLE from the Flower Shop to clear the path on Route 36.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
