@@ -265,3 +265,4 @@ Status: S3 is OFF. Moving to turn S2 ON.
 Update: [ON, ON, OFF] failed to open East Wall. Trying [ON, OFF, OFF].
 Update: [ON, ON, OFF] failed. Trying [OFF, ON, ON]. Step 1: Turn S1 OFF. Step 2: Turn S3 ON.
 - **Discovery:** Configuration `[ON, ON, OFF]` opens Bottom West Door (6, 12).
+- **Discovery:** Configuration `[ON, ON, OFF]` opens Central Connector (12, 9).
