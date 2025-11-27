@@ -264,3 +264,4 @@ Status: S3 is OFF. Moving to turn S2 ON.
 - **Correction:** NW Ladder (3, 2) leads to Switch Room SE Shaft (21, 25), which is a dead end exiting to City. West Shaft (3, 34) is also a dead end. The ONLY entrance to the main puzzle is the NE Ladder (22, 27). I must solve it from there.
 Update: [ON, ON, OFF] failed to open East Wall. Trying [ON, OFF, OFF].
 Update: [ON, ON, OFF] failed. Trying [OFF, ON, ON]. Step 1: Turn S1 OFF. Step 2: Turn S3 ON.
+- **Discovery:** Configuration `[ON, ON, OFF]` opens Bottom West Door (6, 12).
