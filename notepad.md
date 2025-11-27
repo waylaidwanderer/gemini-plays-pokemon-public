@@ -208,3 +208,4 @@
 
 # NPC Interactions
 - To interact with NPCs behind counters (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
+- **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
