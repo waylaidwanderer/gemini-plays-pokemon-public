@@ -214,5 +214,5 @@
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
 # Current Plan
-- **Current Hypothesis:** After failing to find a hidden item, the most logical path forward is to explore the reachable unmarked warps. My `verify_reachability` tool confirmed that the warps at (5, 6) and (4, 6) are accessible.
-- **Strategy:** Systematically explore and mark the reachable warps, starting with the one at (5, 6).
+- **Hypothesis:** After exhausting all leads in the Burned Tower, the most logical path for progression is to follow the rumor about a sick Pokémon in Olivine City.
+- **Strategy:** Exit Ecruteak City to the west, travel through Route 38, and continue towards Olivine City.
