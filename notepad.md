@@ -20,9 +20,9 @@
 
 **Verified Mechanics:**
 - **Switch 1 (East):** Controls East Security Wall (16,6) AND Bottom East Shutter (16,10).
-  - S1 ON = East Wall OPEN (Top Entrance), Shutter CLOSED (Goal blocked).
-  - S1 OFF = East Wall CLOSED (Top Entrance blocked), Shutter OPEN (Goal accessible).
-  - **Constraint:** S1 must be OFF to reach the Goal, but this blocks the Top Entrance.
+  - **S1 OFF:** East Wall OPEN (Top Entrance), Shutter CLOSED (Goal blocked). (Verified)
+  - **S1 ON:** East Wall CLOSED (Top Entrance blocked), Shutter OPEN (Goal accessible). (Hypothesis)
+  - **Strategy:** Turn S1 ON to open the Goal Shutter. This locks the Top Entrance. Exit via NE Ladder (23, 3) to reach the South Entrance.
 - **Switch 2 (Middle):** Controls Middle Path (10,7). ON = OPEN.
 - **Switch 3 (West):** ON = Lockdown (Closes paths). OFF = Normal.
 
