@@ -8,7 +8,7 @@
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Puzzle State:** S1 OFF (Verified). S2 ON (Verified). S3 ON (Assumed). Middle Gate Open. Central Connector (12,9) is CLOSED. Path to East blocked.
-- **Plan:** Leave S1 OFF. Go West to S2. Verify S2 is ON. Go South through Middle Path.
+- **Plan:** Turn S1 ON. Test configuration [ON, ON, ON]. Verify S3 state later.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
