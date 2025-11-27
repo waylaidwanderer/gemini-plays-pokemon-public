@@ -196,10 +196,5 @@
 
 ## Reference: Underground Switch Puzzle
 **Goal:** Access Emergency Switch (20,11).
-**Solution:**
-1. Turn S3 OFF.
-2. Turn S1 OFF.
-3. Verify S2 ON.
-4. Route: West Wall -> Connector -> Shutter.
-- Returned to B1F. Crates unmoved. Investigating South area.
-- **B1F Puzzle:** 'Scoot' event failed. Workers say 'You're holding us up!'. Confirms path is blocked from this side. Must access Warehouse from Underground Switch Room.
+**Solution:** S3 OFF, S1 OFF, S2 ON. Route: West -> Connector -> Shutter.
+**B1F Status:** Crates blocked. Workers blocking. Must access from Switch Room side.
