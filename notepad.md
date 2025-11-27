@@ -267,6 +267,7 @@ Target Configuration: `[OFF, ON, OFF]`.
 - SW Shaft (5, 25): Dead end. Exits to City.
 - Door at 3_53 (18, 6): Loop to Behind Counters.
 **Strategy:**
-- Find entrance to East Room South Section (Target: Unexplored Door at 22, 10).
-- Likely access point: Unknown House in Goldenrod City.
-- Action: Exit to City and explore houses.
+- Investigate Unknown Houses in Goldenrod City ((33, 9) and (31, 21)).
+- If blocked by Grunts, re-enter Underground via (9, 5) -> SE Shaft -> Main Underground.
+- Return to Switch Room (North) and test [OFF, OFF, OFF] configuration.
+- Hypothesis: S1 OFF (Wall Open) + S2 OFF (Middle Closed) might Open Shutter.
