@@ -5,14 +5,12 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Switch Room Entrances (West Shaft).
-- **Objective:** Reach East Shaft via Goldenrod City (15, 27).
+- **Location:** Goldenrod City North (9, 6).
+- **Objective:** Locate entrance to Emergency Switch area (likely an Unknown House).
 - **Current Switch State:** [ON, OFF, OFF].
-- **Discovery:** West Shaft leads to Goldenrod City (11, 29).
-- **Hypothesis:** Second City door (15, 27) leads to East Shaft/Emergency Switch.
-- **Obstacle:** Rocket Grunt at (16, 23) blocks East path.
-- **Plan:** Grunt at (16, 23) is unresponsive. Detouring North to Row 16 to reach East side.
-- **East Shaft Theory:** Dungeon x=23 -> City x~30. Candidates: (31, 21) or (33, 9).
+- **Discovery:** East Shaft exits at (9, 5). West Shaft exits at (11, 29).
+- **Hypothesis:** Entrance is at (33, 9), (31, 21), or (24, 27).
+- **Plan:** Verify Unknown Houses on East side.
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
 **Goal:** Reach Emergency Switch (20,11) via East Room.
