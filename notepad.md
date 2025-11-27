@@ -212,3 +212,7 @@ Sequence:
 1. **Linkage:** Turning Switch 3 ON automatically turns Switch 2 ON.
 2. **Inverse Hypothesis:** The Bottom East Shutter (Goal) likely opens when the Top East Shutter (Entrance) closes. This requires the state [ON, OFF, ON].
 - **Correction:** Warp at (21, 31) is blocked by a wall. Correct exit from 'Behind Counters' is (21, 29).
+### Reflection (Turn 9823)
+- **Lesson:** Game State data is the source of truth. Critique suggested a warp at (21, 29) which does not exist. Always verify.
+- **Warp Anomaly:** Warp Carpets at (21, 31) and (22, 31) are blocked by WALL tiles at y=32. Standard 'walk off' mechanic fails. Hypothesis: Wall might be a trigger or these are entrances only.
+- **Correction:** Switch Room NE (via Ladder) is a verified Dead End.
