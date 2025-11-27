@@ -6,14 +6,14 @@
 
 ## Status
 - **Location:** Goldenrod Dept Store B1F.
-- **Objective:** Investigate B1F items and potential path to Underground.
+- **Objective:** Move crates to access items.
+- **Action:** Talking to Black Belt to move Machoke.
+- **B1F Layout:** Northern items blocked by crates. Machoke at (7,7). Black Belt at (4,8).
 - **Switch State:** [ON, ON, ON] (Lockdown).
-- **Action:** Exploring B1F. Checking if northern section is reachable.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
   - S3 ON = Lockdown (Hypothesis: Opens Emergency Shutter).
-- **Plan:** Turn S3 ON. Check Emergency Shutter (16, 10).
 
 ## Switch Puzzle Analysis
 **Goal:** Access Emergency Switch (20,11) in South East Section.
