@@ -28,11 +28,8 @@
 **Tested States:**
 - `[ON, OFF, OFF]`: East Open, West Closed.
 - `[ON, ON, OFF]`: East Open, West Open. Linkage disproven.
-- **Next Test:** `[ON, ON, ON]` (Current). Hypothesis: Opens Shutters.
-- Wall (16, 6): OPEN.
-- Wall (12, 9): OPEN (Access to West Room).
-- Inner Shutter (16, 10): CLOSED.
-- Bottom Middle Shutter (10, 10): CLOSED.
+- **Test Result:** `[ON, ON, ON]` -> Wall (12, 9) CLOSED. Shutters CLOSED.
+- **Next Test:** `[ON, OFF, ON]`. Turning Switch 2 OFF.
 
 **Hypothesis:** Switch 2 might control the shutters.
 **Plan:**
