@@ -6,9 +6,10 @@
 
 ## Status
 - **Location:** Goldenrod Dept Store Elevator.
-- **Objective:** Reset B1F state to trigger Machoke event.
-- **Plan:** Return to B1F and check crates.
-- **Context:** Black Belt asked me to "scoot". Leaving the map should allow them to move the crates.
+- **Objective:** Return to B1F to check if crates moved.
+- **Plan:** Select B1F -> Exit -> Check North area.
+- **Context:** Black Belt said "scoot". I left to 2F and am returning to reset the map state.
+- **Mechanics:** CRATEs require events to move.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
