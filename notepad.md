@@ -202,3 +202,4 @@
 2. Turn S1 OFF.
 3. Verify S2 ON.
 4. Route: West Wall -> Connector -> Shutter.
+- Returned to B1F. Crates unmoved. Investigating South area.
