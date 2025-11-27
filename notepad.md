@@ -246,3 +246,9 @@
 # Current Location: Ruins of Alph
 - **Objective:** Fully explore the ruins and the research center.
 - **Note:** UNOWN encounters are frequent. Must buy standard POKé BALLS at the next Poké Mart to catch one for the Pokédex.
+
+# NPC Dialogue
+- **Scientist in Ruins of Alph Research Center:** Confirmed that the appearance of Pokémon in the ruins is a recent and incredible discovery that needs investigation.
+
+# Phone Calls
+- **Youngster JOEY:** Called to brag about his RATTATA and that he defeated a wild SPINARAK.
