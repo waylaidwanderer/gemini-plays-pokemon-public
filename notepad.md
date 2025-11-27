@@ -7,8 +7,8 @@
 ## Status
 - **Location:** Switch Room NE (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
-- **Switch State:** Current: [ON, ON, OFF].
-- **Action:** Turning Switch 3 ON (Lockdown Mode).
+- **Switch State:** Current: [ON, ON, ON].
+- **Action:** Navigate to Emergency Shutter (16, 10) to verify if Lockdown Mode opened it.
 - **Verified Mechanics:**
   - S1 ON = East Wall (16, 6) CLOSED, Middle Path (10, 6) CLOSED.
   - S1 OFF = East Wall (16, 6) OPEN.
