@@ -12,20 +12,21 @@
 - **Next Step:** Verify Bottom East Shutter (Goal).
 
 ## Switch Puzzle Analysis (Goldenrod Underground)
-**Goal:** Open South Path (Bottom West 3,10 | Bottom Middle 10,10 | Inner Shutter 16,10).
+**Goal:** Reach Emergency Switch (20,11) via East Room.
 
-**Verified States:**
-- **[ON, OFF, OFF]:** Top East OPEN (Entrance).
-- **[OFF, OFF, OFF]:** ALL Top Shutters & Connectors CLOSED (Lockdown). Switch 2 Disabled.
-- **[ON, OFF, ON] / [ON, ON, ON]:** Top East CLOSED.
+**Verified State Log:**
+- **[ON, OFF, OFF]:** Top East OPEN. East Connector OPEN. West Connector CLOSED. (Best Entry State)
+- **[OFF, ON, ON]:** Top West OPEN. (Best Entry State for West Room - Dead End)
+- **[OFF, OFF, OFF]:** Lockdown. All Top Shutters & Connectors CLOSED. S2 Disabled.
+- **[ON, OFF, ON]:** Trap State. Top East CLOSED.
 
-**Verified Mechanics:**
-- **Linkage:** Switch 3 ON forces Switch 2 ON.
-- **Lockdown:** S1=OFF & S3=OFF disables Switch 2. Must start with S1 or S3.
-
-**Current Strategy:**
-1. Turn Switch 3 ON. Predicted State: [OFF, ON, ON].
-2. Test if this opens Top West Shutter (3, 6).
+**Current Plan:**
+1. Establish `[ON, OFF, OFF]` to open Top East Shutter.
+   - S1: ON (Done)
+   - S2: OFF (Next)
+   - S3: OFF (Done)
+2. Enter East Room via `(16, 6)`.
+3. Activate Emergency Switch at `(20, 11)`.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
