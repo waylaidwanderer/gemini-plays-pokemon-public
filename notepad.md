@@ -199,16 +199,9 @@ Status Update: Verified [OFF, OFF, ON] causes Lockdown (West & East Walls CLOSED
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
 ## Reference: Underground Switch Puzzle
-**Goal:** Access Emergency Switch (20,11) in South East Section.
-**Verified Mechanics:**
-- **Switch 1 (East):** ON = Closes East Wall (16,6). OFF = Opens East Wall.
-- **Switch 2 (Middle):** ON = Opens Middle Path (10,7) (unless overridden).
-- **Switch 3 (West):** ON = Lockdown. Closes West (3,6), Middle (10,6), and East (16,6) walls.
-**Puzzle Solution (Trap Theory)**
-Target State: [ON, OFF, ON] -> Closes Top East (Entrance), Opens Bottom East (Goal).
-**Final Logic:**
-- Target Config: `[OFF, ON, OFF]`.
+**Goal:** Access Emergency Switch (20,11).
+**Solution:**
 1. Turn S3 OFF.
 2. Turn S1 OFF.
-3. Verify S2 is ON.
-4. Enter via West Wall -> Connector -> Shutter.
+3. Verify S2 ON.
+4. Route: West Wall -> Connector -> Shutter.
