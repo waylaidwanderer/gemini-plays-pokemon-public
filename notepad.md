@@ -256,3 +256,4 @@
 
 # Strategic Principles & Lessons Learned (Addendum)
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
+- **Marker Verification:** CRITICAL FAILURE. I must consult my map markers before planning any NPC interaction. Ignoring my own data leads to significant wasted time and repeating discoveries. This is a non-negotiable step in my planning process.
