@@ -267,3 +267,6 @@
 # NPC Dialogue
 - **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
 - **Youngster JOEY:** Called to brag about his RATTATA and that he defeated a wild HOOTHOOT.
+
+# Tool Development Lessons
+- **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
