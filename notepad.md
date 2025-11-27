@@ -250,3 +250,11 @@ Sequence:
 - **Plan:** Test `[OFF, ON, ON]`. Step 1: Turn S2 ON to ensure West Exit.
 - **Observation:** In `[ON, ON, ON]`, East Wall (16, 6) CLOSED. S3 appears to override S1.
 - **Current Task:** Inspecting West Wall (3, 6) to see if S3 also overrides S2.
+
+**Deduction & Plan (Turn 9994):**
+- **Logic:** S1 ON closes Shutter -> Must be OFF. S1 OFF closes East Wall -> Must use West Wall (S2 ON). S3 ON closes Connector -> Must be OFF.
+- **Target Config:** `[OFF, ON, OFF]`.
+1. Turn S3 OFF.
+2. Turn S1 OFF.
+3. Verify S2 is ON.
+4. Enter via West Wall -> Connector -> Shutter.
