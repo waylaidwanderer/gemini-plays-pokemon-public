@@ -243,3 +243,7 @@
 # Tool Development Lessons
 - **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
 - **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
+
+# Ilex Forest
+- **Objective:** Traverse the forest to reach Route 34.
+- **Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
