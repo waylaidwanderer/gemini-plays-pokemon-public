@@ -5,9 +5,10 @@
 - [ ] Defeat Team Rocket
 
 ## Status
-- **Location:** Switch Room Entrances (East Shaft).
-- **Objective:** Descend ladder to Underground (3_53), then use Door (18,6) to reach Switch Room Puzzle.
-- **Context:** Re-entering Underground via North Entrance.
+- **Location:** Switch Room (3_54).
+- **Objective:** Reach Emergency Switch (20, 11).
+- **Puzzle State:** S1 OFF (Verified). S2 ON (Assumed). S3 ON (Assumed).
+- **Plan:** Leave S1 OFF. Go West to S2. Verify S2 is ON. Go South through Middle Path.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
