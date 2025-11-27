@@ -214,5 +214,5 @@
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
 # Current Plan
-- **Primary Hypothesis:** My agent suggested finding a way to another floor. The unmarked warp at (14, 14) is the most likely path. It is currently blocked by the moving NPC, Morty.
-- **Strategy:** Wait on an adjacent tile (like 14, 13) for Morty to move off the warp. As soon as the tile is clear, step onto it to trigger the warp.
+- **Primary Hypothesis:** After failing to solve the NPC puzzle, the most logical path forward is to explore the unmarked warps identified by the system. The warp at (10, 9) is the highest priority target.
+- **Strategy:** Systematically explore and mark all remaining unmarked warps on this floor, starting with the one at (10, 9).
