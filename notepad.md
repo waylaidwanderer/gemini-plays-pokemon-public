@@ -230,7 +230,6 @@
 - Youngster JOEY called for a rematch on Route 30.
 
 # Tool Failures
-- Youngster JOEY called for a rematch on Route 30.
 
 # Ruins of Alph - Kabuto Chamber Puzzle
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
