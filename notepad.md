@@ -2,7 +2,12 @@
 
 ## Current Goals
 - [ ] Rescue Director in Underground Warehouse (Primary)
-- [ ] Access East Room Door (22, 10) via Top East Gate (Secondary)
+- [ ] Reach Emergency Switch in Switch Room South East (Secondary)
+
+## Vertical Shaft Strategy
+- **Hypothesis:** The Switch Room is composed of three vertical shafts (West, Middle, East).
+- **Goal:** Enter East Shaft via Underground to bypass northern barriers.
+- **Path:** West Shaft Entrance -> North to (3,2) -> East Switch Room -> South.
 
 ## Status
 - **Location:** Goldenrod City (North Entrance).
