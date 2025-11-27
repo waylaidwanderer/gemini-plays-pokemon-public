@@ -8,12 +8,13 @@
 - **Location:** Switch Room (3_54).
 - **Objective:** Reach Emergency Switch (20, 11).
 - **Puzzle State:** S1 OFF, S2 ON, S3 ON.
-- **Observations:** [OFF, ON, ON] CLOSED the Middle Gate (10, 6). Testing Top Shutter (16, 6).
+- **Observations:** [OFF, ON, ON] confirmed Top East Shutter CLOSED and Middle Gate CLOSED.
 - **History:**
   - [OFF, ON, OFF]: Central Connector OPEN, Top Shutter CLOSED.
   - [ON, ON, OFF]: Top Shutter CLOSED.
   - [ON, ON, ON]: Central Connector CLOSED, Top Shutter CLOSED.
-- **Plan:** Verify Top Shutter. If closed, re-evaluate logic.
+  - [OFF, ON, ON]: Top Shutter CLOSED, Middle Gate CLOSED.
+- **Plan:** Turn S3 OFF. Turn S2 OFF. Test [OFF, OFF, OFF].
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
