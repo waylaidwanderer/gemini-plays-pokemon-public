@@ -6,9 +6,16 @@
 
 ## Status
 - **Location:** Goldenrod City (North Entrance).
-- **Status:** East Shaft leads to city. Access to Unknown Houses blocked by Grunts.
-- **Correction:** Row 12 in Switch Room blocked at (18, 12).
-- **Plan:** Return to Switch Room. Test if S1 OFF opens Bottom East Gate (16, 10) with [OFF, ON, OFF].
+- **Status:** Testing Switch Room configurations. 
+- **Disproven Theories:** 
+  1. **City Backdoor:** Unknown Houses in East Goldenrod are blocked by Grunts. No access to Switch Room SE from city.
+  2. **Row 12 Access:** Path from Middle Room to East Room via Row 12 is blocked by a wall at (18, 12).
+  3. **East Shaft:** Ladder at 3_54 (21, 25) connects to Underground 3_53 (3, 2) (NW), NOT the South East Room.
+- **Ladder Connections (Verified):**
+  - West Shaft (5, 25) <-> SW Underground (3, 34)
+  - East Shaft (21, 25) <-> NW Underground (3, 2)
+  - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
+- **Current Plan:** Test [OFF, ON, OFF]. Hypothesis: S1 OFF opens Bottom East Gate (16, 10) while S2 ON opens Middle Gate (10, 6), allowing access to SE Room.
 
 ## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | West-Mid Conn (6,8) | Notes |
