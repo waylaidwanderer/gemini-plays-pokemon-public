@@ -273,3 +273,5 @@ Update: [ON, ON, OFF] failed. Trying [OFF, ON, ON]. Step 1: Turn S1 OFF. Step 2:
 - **New Hypothesis:** Switch 3 (Lockdown) might open the Bottom East Shutter (Emergency Route). 
 - **Plan:** Re-enter Switch Room, verify Connector (12, 9) is open (requires S1 ON?), go to S3, turn ON, check Shutter.
 - **Observation:** [ON, ON, ON] closes internal walls (10, 6) and (16, 6), blocking North-South movement inside the Switch Room. Must exit via NE Ladder.
+- **Lockdown Confirmed:** S3 ON closes West (3, 6), Middle (10, 6), and East (16, 6) walls. North strip is isolated.
+- **Strategy:** Exit via NE Ladder (23, 3). Investigate 'Unknown Houses' in Goldenrod City or re-check East Shaft (21, 25) for access to the South East section (Emergency Switch).
