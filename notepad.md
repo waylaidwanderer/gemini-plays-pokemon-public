@@ -194,3 +194,10 @@
 # PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
+
+# Custom Tools
+- `find_path`: Finds a path from a start to an end coordinate on the current map.
+- `select_item`: Automates selecting a specific item from the bag menu.
+- `select_move`: Selects a move from the battle menu by name.
+- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
+- `select_contest_option`: Automates selecting an option from the Bug-Catching Contest battle menu.
