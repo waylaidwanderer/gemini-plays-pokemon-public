@@ -256,3 +256,4 @@
 - **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
 - Hiker ANTHONY (Route 33) called to say he tried eating BERRIES like his MACHOP and that he's been seeing a lot of wild HOPPIP.
 - **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
+- **POST-WARP VERIFICATION (CRITICAL):** After EVERY warp or map transition, my absolute first action MUST be to verify my new map ID and (x, y) coordinates against the Game State Information. Failure to do this led to a major hallucination. Do not assume you know where you are; verify it.
