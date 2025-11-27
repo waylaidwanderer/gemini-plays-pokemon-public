@@ -248,7 +248,5 @@
 - **Objective:** Traverse the forest to reach Route 34.
 - **Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 
-# Tool Development Backlog
-- **`select_move` tool:** The `autopress_buttons` feature is unreliable. A critique noted my manual workaround is inefficient. I must investigate and fix the root cause the next time I am in a battle. The problem is likely timing-related, and simply adding more `sleep` commands might not be the correct fix. I need to debug it properly in context.
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
