@@ -203,26 +203,22 @@
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 
 ## Switch Room Truth Table (Consolidated)
-**Goal:** Reach Emergency Switch (20,11) via Bottom East Shutter (16,10).
+**Goal:** Reach Emergency Switch (20,11).
+**Strategy:** Must enter South area via Row 6 Gates. Wall at Col 18 likely blocks approach from Middle Room. Must open path to Cols 19-22.
 
-| S1 | S2 | S3 | West Gate (3,6) | Mid Gate (10,6) | Top East (16,6) | Bot East (16,10) | Notes |
+| S1 | S2 | S3 | West (3,6) | Mid (10,6) | Top East (16,6) | Bot East (16,10) | Notes |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | ? | All North Gates Closed. Row 4 Open. |
-| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bot East Open. |
-| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All North Gates Closed. |
-| ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Middle Open. Central Conn (12,9) CLOSED (S1 Override). |
-| ON | ON | ON | CLOSED | OPEN | ? | ? | West Conn (6,9) CLOSED. |
-| OFF | ON | ON | CLOSED | CLOSED | ? | ? | West Conn (6,9) CLOSED. |
-| OFF | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed. |
-| ON | OFF | ON | CLOSED | ? | ? | ? | West Gate Closed. |
+| OFF | OFF | OFF | ? | ? | ? | ? | Testing Next |
+| ON | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Bot East Open. No entry. |
+| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | All Closed. |
+| ON | ON | OFF | CLOSED | OPEN | CLOSED | OPEN | Middle Open. Central Conn (12,9) Closed. |
+| ON | ON | ON | CLOSED | OPEN | ? | ? | West Conn Closed. |
+| OFF | ON | ON | CLOSED | CLOSED | CLOSED | ? | All Closed. |
+| OFF | OFF | ON | CLOSED | ? | ? | ? | West Closed. |
+| ON | OFF | ON | ? | ? | ? | ? | Untested. |
 
-**Logic Deductions:**
-- S1 ON opens Bot East (16,10) but closes Central Conn (12,9).
-- S2 ON opens Middle Gate (10,6) (unless overridden?).
-- S1 ON + S2 ON = Middle Open, but East Path blocked by Central Conn.
-- Need a way to reach Bot East (16,10). Likely via West Room -> South?
-- **Next Test:** [ON, OFF, ON] (re-verify) and [OFF, OFF, ON].
-| ON | ON | ON | CLOSED | ? | ? | ? | West Conn Closed |
-| OFF | ON | OFF | CLOSED | CLOSED | CLOSED | ? | Unexpectedly all closed? |
-| OFF | ON | ON | CLOSED | CLOSED | ? | ? | |
-| ON | OFF | ON | ? | ? | ? | ? | Testing Now |
+**Deductions:**
+- S1 ON -> Bot East Open, Central Conn Closed.
+- S2 ON -> Middle Gate Open ONLY if S1 is also ON? (AND Condition?).
+- S3 ON -> Appears to close West/Middle gates.
+- **Hypothesis:** Try [OFF, OFF, OFF]. If that fails, try [ON, OFF, ON].
