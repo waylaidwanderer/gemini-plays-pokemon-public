@@ -219,3 +219,6 @@
 - Re-enter the Burned Tower.
 - **Hypothesis:** The `BROKEN_FLOOR` tiles can be destroyed using the move ROCK SMASH.
 - **Test:** Find a `BROKEN_FLOOR` tile, stand adjacent to it, and attempt to use ROCK SMASH from the party menu.
+
+# Strategic Principles & Lessons Learned (Addendum)
+- **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
