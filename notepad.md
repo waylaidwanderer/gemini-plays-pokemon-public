@@ -217,3 +217,12 @@ Sequence:
 - **Lesson:** Game State data is the source of truth. Critique suggested a warp at (21, 29) which does not exist. Always verify.
 - **Warp Anomaly:** Warp Carpets at (21, 31) and (22, 31) are blocked by WALL tiles at y=32. Standard 'walk off' mechanic fails. Hypothesis: Wall might be a trigger or these are entrances only.
 - **Correction:** Switch Room NE (via Ladder) is a verified Dead End.
+## Warp Verification Checklist (Goldenrod)
+- [ ] (5, 25): Unmarked (Checking Now)
+- [ ] (15, 27): Marked 'Pokémon Center' (Verify?)
+- [ ] (24, 27): Unknown House
+- [ ] (29, 29): Bike Shop
+- [ ] (31, 21): Unknown House (High Priority - East Side)
+- [ ] (33, 9): Unknown House (High Priority - East Side)
+
+**Coordinate Theory:** West Shaft exit is x=11. East Shaft is ~19 tiles east in dungeon, so exit should be ~x=30 in City.
