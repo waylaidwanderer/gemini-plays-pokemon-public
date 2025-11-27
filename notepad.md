@@ -208,3 +208,4 @@
 
 # Current Quest: Journey to Ecruteak City
 - **New Hypothesis:** After thoroughly exploring Route 36 and finding only dead ends or one-way ledges, it's highly likely the path to Ecruteak City is not from Route 36. I must re-examine previous areas, like Goldenrod City or the National Park, for a previously missed path.
+- **Positional Verification:** After any map transition (warp, map edge), I MUST verify my new coordinates from the game state before taking any action to prevent hallucinations.
