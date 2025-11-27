@@ -30,7 +30,7 @@
 **Current State:** `[ON, ON, OFF]`
 - **Result:** East Wall OPEN. Bottom East Shutter CLOSED.
 - **Status:** 'Catch-22' confirmed. Direct path to goal blocked by shutter.
-- **Plan:** Investigate "Unexplored Door" at (22, 10). This door is accessible via the northern service corridor (Row 4) and might bypass the shutter or lead to the Director.
+- **Plan:** Inspect Middle Path (10, 7) with S2 ON. If open, check Central Connector (12, 9) and Bottom Middle Door (10, 10).
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
