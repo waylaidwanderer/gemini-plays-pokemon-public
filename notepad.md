@@ -6,9 +6,8 @@
 
 ## Status
 - **Location:** Goldenrod Dept Store Elevator.
-- **Objective:** Return to B1F to check if crates moved.
-- **Plan:** Select B1F -> Exit -> Check North area.
-- **Context:** Black Belt said "scoot". I left to 2F and am returning to reset the map state.
+- **Objective:** Return to Goldenrod Underground (Switch Room).
+- **Context:** 'Scoot' event on B1F failed (crates unmoved). Pivot to finding Warehouse entrance via Underground.
 - **Mechanics:** CRATEs require events to move.
 
 ## Completed Areas Summary
