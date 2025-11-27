@@ -128,7 +128,7 @@
 - **INCENSE_BURNER**: An impassable decorative object.
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
-- **BROKEN_FLOOR**: An impassable tile that functions as a wall. Found in the Burned Tower.
+- **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
 # Current Quest: Journey to Ecruteak City
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
@@ -210,7 +210,7 @@
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - **Pathing into the Unknown:** Pathfinding tools (`find_path`, `verify_reachability`) correctly treat 'unseen' tiles as impassable walls. This is a feature, not a bug. To explore, I must pathfind to a known, adjacent tile and then manually step into the unseen area. This prevents the tool from generating invalid paths through unexplored territory.
 - **Pathing Interruption:** Automated paths can be interrupted by wild battles. After the battle, the original path is void and must be recalculated from the new current position.
-- **BROKEN_FLOOR**: An impassable tile that functions as a wall. Found in the Burned Tower.
+- **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 
 # Strategic Principles & Lessons Learned (Addendum)
 - **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
