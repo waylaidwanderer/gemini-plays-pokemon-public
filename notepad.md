@@ -252,3 +252,4 @@
 
 # Phone Calls
 - **Youngster JOEY:** Called to brag about his RATTATA and that he defeated a wild SPINARAK.
+- **Scientist in Ruins of Alph Research Center:** The UNOWN Pokémon are very similar to the drawings on the walls of the ruins, implying there are many different kinds.
