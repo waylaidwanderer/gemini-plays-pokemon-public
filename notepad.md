@@ -24,6 +24,7 @@
 | **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | Allows entry to East Room. Blocks South. |
 | OFF | **ON** | OFF | CLOSED | ? | **OPEN** | CLOSED | **CLOSED** | **OPEN** | Opens Middle & West-Mid path. Dead end in West Room. |
 | OFF | **ON** | **ON** | CLOSED | ? | **CLOSED** | CLOSED | ? | ? | Fails to open Middle Gate. |
+| **ON** | **ON** | OFF | **OPEN** | ? | **OPEN** | ? | **CLOSED** | ? | S2 ON overrides S1 for Connector. |
 
 **Analysis:**
 - **Recent Finding:** Configuration [ON, ON, OFF] results in Middle Gate OPEN but Central Connector CLOSED. This confirms S2 ON overrides S1's opening of the Central Connector.
