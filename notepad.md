@@ -15,7 +15,7 @@
   - West Shaft (5, 25) <-> SW Underground (3, 34)
   - East Shaft (21, 25) <-> NW Underground (3, 2)
   - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
-- **Current Plan:** Configuration [OFF, ON, OFF] restored. Navigate via West-Mid Connector (6, 9) -> Middle Room -> South Mid-East Connector (12, 12) -> East Room -> Emergency Switch (20, 11).
+- **Current Plan:** Configuration [OFF, ON, OFF] confirmed. Northern route blocked by barriers at Row 10. New Strategy: Enter Switch Room via West Shaft (Underground 3, 34 -> Switch Room 5, 25). Attempt to access South section (Row 12) from the West Shaft, bypassing northern barriers.
 
 ## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | Row 12 Conn (12,12) | Notes |
