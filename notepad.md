@@ -228,3 +228,8 @@
 
 # Tool Failures
 - **`switch_pokemon` Critical Failure (Turn 19455):** The tool is still broken. It generated a long, incorrect sequence of 'Up' presses when trying to switch from 'CANCEL' to 'GIB RALTAR'. The index calculation or parsing is fundamentally flawed. Must be fixed at the next battle opportunity.
+
+# Reflection Learnings (Turn 19485)
+- **CRITICAL LESSON - Verify Location:** I have repeatedly hallucinated my location after map transitions. I MUST verify my current map ID and coordinates from the Game State Information after every warp or map change before taking any other action.
+- **CRITICAL LESSON - Trust Tool Failures:** When a trusted tool like `find_path` reports 'No path found', it is a strong signal that my own understanding of the game state (my location, the map layout) is fundamentally flawed. I must question my own assumptions before questioning the tool.
+- **TODO - Mark Whitney:** I failed to mark Whitney as defeated. I must return to the Goldenrod Gym (Map ID 11_3) at the next opportunity to find her object ID and add a '☠️' marker.
