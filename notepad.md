@@ -216,3 +216,4 @@
 # Current Plan
 - **Hypothesis:** After exhausting all leads in the Burned Tower, the most logical path for progression is to follow the rumor about a sick Pokémon in Olivine City.
 - **Strategy:** Exit Ecruteak City to the west, travel through Route 38, and continue towards Olivine City.
+- **External Triggers:** When multiple simple hypotheses for progression fail within a confined area (like a puzzle room), the trigger is likely external. Instead of getting stuck in a loop re-testing failed ideas, pivot to a new location or objective to see if that unlocks the path.
