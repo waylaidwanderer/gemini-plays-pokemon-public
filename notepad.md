@@ -142,6 +142,7 @@
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
 - **Warp Verification:** My navigation goals for warps can be hallucinations. I must always verify a warp's existence and coordinates against the 'Map Events -> Warps' list for the current map before setting it as a goal to avoid validation errors and failed plans.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
+- **POST-WARP VERIFICATION (CRITICAL):** After EVERY warp or map transition, my absolute first action MUST be to verify my new map ID and (x, y) coordinates against the Game State Information. Failure to do this led to a major hallucination. Do not assume you know where you are; verify it.
 
 # Current Quest: Journey to Ecruteak City
 - **Objective:** Obtain the Fog Badge from the Ecruteak City Gym Leader.
@@ -177,6 +178,7 @@
 - **Youngster in Route 32 Gatehouse:** Mentioned trying to move the stone panels in the ruins, wondering what they are.
 - **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".
 - **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
+- **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -235,7 +237,7 @@
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 
 # Phone Calls
-- Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
+- Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON. He also called to say he tried eating BERRIES like his MACHOP and that he's been seeing a lot of wild HOPPIP.
 - Youngster JOEY called for a rematch on Route 30. He also called to brag about his RATTATA and that he defeated a wild SPINARAK and a wild HOOTHOOT.
 
 # Tool Development Lessons
@@ -247,13 +249,7 @@
 - **Objective:** Traverse the forest to reach Route 34.
 - **Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 
-- Hiker ANTHONY (Route 33) has called multiple times for rematches and mentioned that timid DUNSPARCE can be found in DARK CAVE, away from stronger POKéMON.
 - **Verify Root Assumptions:** When a plan fails repeatedly or a system warning indicates a hallucination, the root hypothesis is likely flawed. Do not get stuck trying minor variations of a failed plan. Instead, immediately and aggressively re-verify the foundational assumptions (e.g., warp locations, item requirements) against the raw game state data. A simple check of the `Map Events` list would have prevented the roof navigation loop.
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
-- **POST-WARP VERIFICATION (CRITICAL):** After EVERY warp or map transition, my absolute first action MUST be to verify my new map ID and (x, y) coordinates against the Game State Information. Failure to do this led to a major hallucination on the Dept. Store roof. Do not assume you know where you are; verify it.
-- Youngster JOEY called again for a rematch on Route 30.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. A recent critique highlighted failures where I manually pressed buttons instead of calling my intended `select_battle_option` tool. I must always call the correct, existing tools for their intended purpose.
 - **Non-Battling NPCs:** Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
-- Hiker ANTHONY (Route 33) called to say he tried eating BERRIES like his MACHOP and that he's been seeing a lot of wild HOPPIP.
-- **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
-- **POST-WARP VERIFICATION (CRITICAL):** After EVERY warp or map transition, my absolute first action MUST be to verify my new map ID and (x, y) coordinates against the Game State Information. Failure to do this led to a major hallucination. Do not assume you know where you are; verify it.
