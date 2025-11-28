@@ -212,7 +212,6 @@
 
 ## Olivine Lighthouse Puzzle
 - **Mechanic Discovery (CRITICAL):** The puzzle on 2F is a 'path of light' style puzzle. Stepping on a sparkly floor tile causes it to go dark and one or more other tiles on the floor to light up. The goal is likely to create a continuous path of light to the ladder at (5, 3).
-- **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
