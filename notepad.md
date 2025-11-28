@@ -241,3 +241,4 @@
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 ## Olivine Lighthouse - Sailor Huey Puzzle
 - **Agent Hypothesis #1 (Map Reset):** FAILED. Descended to 1F and returned to 2F. The sailor's interaction is still bugged and does not initiate a battle.
+- **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. I have explored the entirety of OlivineLighthouse2F and confirmed that Gentleman Alfred is the only other trainer. Since he is already defeated, this condition is met, but Sailor Huey's interaction remains bugged. This hypothesis is incorrect.
