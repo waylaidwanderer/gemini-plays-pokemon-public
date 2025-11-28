@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 38
-- **Location:** Route 38.
-- **Goal:** Return to Ecruteak City.
-- **Status:** Transit.
-- **Next Step:** Retrieve Vortex from PC.
+- **Location:** Ecruteak City - Pokémon Center.
+- **Goal:** Retrieve Vortex from PC.
+- **Status:** PC Management.
+- **Next Step:** Swap Cirrus for Vortex, then Heal.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
