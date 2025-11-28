@@ -191,6 +191,18 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
+## Olivine Lighthouse 1F Warp Puzzle
+- **Summary:** The warp on 1F at (16, 13) and (17, 13) is not triggered by any simple, internal mechanic.
+- **Exhausted Hypotheses:**
+  - Direct interaction ('A' button).
+  - Stepping on the tiles from all valid cardinal directions.
+  - Continuous movement across both tiles (west-to-east and east-to-west).
+  - Changing facing direction while on the tiles.
+  - The wandering NPC's position (tested randomly and systematically).
+  - Interacting with the NPC.
+  - A full systematic sweep of every floor tile to find an invisible switch.
+- **Conclusion:** Having exhausted all internal triggers, the solution must be external to this room. I must explore Olivine City for a clue, item, or NPC to progress.
+
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 
@@ -215,49 +227,3 @@
 - **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
 - **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
 - **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
-
-# Olivine Lighthouse 1F Warp Puzzle
-- **Observation:** Two adjacent FLOOR tiles at (16, 13) and (17, 13) are marked as warps in the game data, but have no visible trigger like a ladder or stairs. A POKEFAN_F NPC wanders the room.
-- **Failed Hypothesis #1:** The warp is triggered by standing on it and pressing 'A'.
-  - **Test:** Stood on (16, 13) and pressed 'A'.
-  - **Conclusion:** Failed. No text or warp occurred.
-- **Failed Hypothesis #2:** The warp is triggered by moving between the two adjacent warp tiles.
-  - **Test:** Moved from (16, 13) to (17, 13).
-  - **Conclusion:** Failed. No warp occurred.
-- **Failed Hypothesis #3:** Interacting with the POKEFAN_F at (16, 9) is required to activate the warp.
-  - **Test:** Stunned the NPC, approached, and initiated dialogue.
-  - **Conclusion:** Failed. NPC provided only flavor text. No event was triggered.
-- **Hypothesis #4 (Agent):** The warp is triggered by stepping onto one of the warp tiles from a specific cardinal direction.
-  - **Test #1:** Step onto warp tile (16, 13) from the west (by moving Right from (15, 13)).
-    - **Conclusion:** Failed. No warp occurred.
-  - **Test #2:** Step onto warp tile (16, 13) from the east (by moving Left from (17, 13)).
-    - **Conclusion:** Failed. No warp occurred.
-  - **Test #3:** Step onto warp tile (16, 13) from the north (by moving Down from (16, 12)).
-    - **Conclusion:** Failed. No warp occurred.
-- **Hypothesis #5 (Tile 17,13):** The warp is triggered by stepping onto the warp tile from a specific cardinal direction.
-  - **Test #1:** Step onto warp tile (17, 13) from the west (by moving Right from (16, 13)).
-    - **Conclusion:** Failed. No warp occurred.
-  - **Test #2:** Step onto warp tile (17, 13) from the north (by moving Down from (17, 12)).
-    - **Conclusion:** Failed. No warp occurred.
-
-# Olivine Lighthouse 1F Warp Puzzle - Agent Hypotheses
-- **Agent Output Received:** My puzzle solver agent provided several new hypotheses.
-- **Invalid Hypotheses (Verified against map):**
-  - Approaching (16, 13) from the south (16, 14 is a WALL).
-  - Approaching (17, 13) from the south (17, 14 is a WALL).
-  - Approaching (17, 13) from the east (18, 13 is a WALL).
-- **Hypothesis #6 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from west to east. (FAILED)
-- **Hypothesis #7 (Agent):** The warp requires the player to be facing a specific direction while standing on the tile.
-- **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location.
-- **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location. (FAILED after multiple random attempts, triggered a loop warning).
-
-# Olivine Lighthouse 1F Warp Puzzle - Agent Hypotheses (Round 2)
-- **Invalid Hypotheses (Verified against map):**
-  - Approaching (16, 13) from the south (16, 14 is a WALL).
-  - Approaching (17, 13) from the south (17, 14 is a WALL).
-- **Hypothesis #9 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from east to west.
-- **Hypothesis #10 (Agent):** An invisible switch tile must be stepped on elsewhere in the room to activate the warps.
-- **Hypothesis #11 (Agent):** The player must initiate a conversation with the NPC while standing on one of the warp tiles.
-- **Hypothesis #12 (Agent):** The warp is triggered by stepping on it only when the wandering NPC is on a specific half of the room.
-- **Hypothesis #9 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from east to west. (FAILED)
-- **Puzzle Strategy Lesson:** If a strategy based on random chance (like waiting for a moving NPC) fails repeatedly, I must switch to a deterministic, systematic strategy (like a full room sweep) to avoid getting stuck in a loop.
