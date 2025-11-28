@@ -194,4 +194,6 @@
 
 ## Tin Tower
 - Wise Trio Defeated. Access granted.
-- Paprika PP restored.
+- Entered 1F.
+- **LEGENDARY BEASTS SIGHTED:** Suicune and Entei are visible in the main hall. Raikou is likely nearby.
+- Suicune is at (9, 9). Entei is at (12, 11).
