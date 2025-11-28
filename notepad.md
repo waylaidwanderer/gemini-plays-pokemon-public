@@ -3,7 +3,7 @@
 ## Current Goals
 - [x] Stop Team Rocket at Radio Tower (Completed)
 - [ ] Investigate Tin Tower in Ecruteak (Primary)
-- [ ] Collect Item on 5F (Secondary)
+- [x] Collect Item on 5F (Ultra Ball) (Completed)
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
