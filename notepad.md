@@ -8,20 +8,17 @@
 - **Objective:** Access South East area (Emergency Switch).
 - **Current Config:** [S1: OFF, S2: ON, S3: OFF].
 - **Switch 1 (East):** 
-  - ON: Opens Top East Gate (16, 6). Verified.
-  - OFF: Closes Top East Gate (16, 6). Verified.
+  - ON: Opens Top East Gate (16, 6).
 - **Switch 2 (Middle):** 
-  - ON: Effect blocked if S1 is ON. Testing [S1: OFF, S2: ON] next.
-  - OFF: Closes Middle Gate (10, 6). Verified.
+  - ON + S1 ON: Middle Gate (10, 6) CLOSED.
+  - OFF + S1 ON: Middle Gate (10, 6) CLOSED.
+  - ON + S1 OFF: **To Be Verified** (Previous attempt failed due to checking wrong location).
 - **Switch 3 (West):** 
-  - ON: Closes West Gate (3, 6). Closes Central Connector (12, 9). Verified.
-  - OFF: Opens West Gate (3, 6). Opens Central Connector (12, 9). Verified.
+  - OFF: Opens West Gate (3, 6).
+  - ON: West Gate (3, 6) CLOSED.
 
-### Gate Dependencies
-- **Top East Gate (16, 6):** Controlled by S1.
-- **Middle Gate (10, 6):** Controlled by S2 (Hypothesis: Requires S1 OFF).
-- **West Gate (3, 6):** Controlled by S3 (OFF=Open).
-- **Central Connector (12, 9):** Controlled by S3 (OFF=Open).
+### Lessons Learned
+- **Position Verification:** In Turn 11586, I hallucinated my position (15, 5) as (10, 5) and checked a wall in the East Room instead of the Middle Gate. Always check coordinates!
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
