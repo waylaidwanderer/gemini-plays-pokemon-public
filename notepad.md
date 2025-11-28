@@ -24,24 +24,17 @@
 - **Interaction vs. Line of Sight:** If direct interaction with a trainer-like NPC results in a dialogue loop, the battle trigger is likely entering their line of sight. If both methods fail, they may not be a battlable trainer.
 - **Positional Awareness:** Always verify my own coordinates and the coordinates of relevant NPCs before using a targeted tool like `stun_npc`. Wasting a turn on an unnecessary action is a failure of observation.
 - **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
-- **Data Structure Verification:** Do not assume data structures, sorting order, or string casing within the game (e.g., inventory lists, item names). Always verify against direct observation before building automation that relies on it. A faulty assumption about data, like case-sensitivity, will lead to tool failure.
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
-- **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
-- **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
 - **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
-- **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
 - **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
 - **Warp Carpet Anomaly:** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
 - **Tool Context Awareness:** Tools like `select_battle_option` are context-specific and will fail if used when the required UI (e.g., the main battle menu) is not visible. Always verify the game state before calling a context-dependent tool.
-- **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements are superior to complex, brittle ones that rely on variable content.
-- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
 - **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
 - **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
-
 - **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
@@ -123,15 +116,12 @@
 - **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
 - **SUPER_NERD**: Impassable NPC, functions as a wall.
-- **`stun_npc` Tool:** The `stun_npc` tool can be effective for freezing moving NPCs to clear a path, as demonstrated with the Lass in Goldenrod City. While a previous attempt seemed to fail, this successful use case confirms its utility. It should be used proactively to prevent pathing interruptions.
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
-- **HEADBUTT_TREE**: An impassable tree that can be interacted with using the move HEADBUTT.
 - **INCENSE_BURNER**: An impassable decorative object.
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
-- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
 
 # Current Quest: Journey to Olivine City
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
@@ -169,6 +159,7 @@
 - **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
 - **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
 - **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
+- **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -213,30 +204,11 @@
 - **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
 - **Pathing into the Unknown:** Pathfinding tools (`find_path`, `verify_reachability`) correctly treat 'unseen' tiles as impassable walls. This is a feature, not a bug. To explore, I must pathfind to a known, adjacent tile and then manually step into the unseen area. This prevents the tool from generating invalid paths through unexplored territory.
 - **Pathing Interruption:** Automated paths can be interrupted by wild battles. After the battle, the original path is void and must be recalculated from the new current position.
-- **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
-- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
-
-# Current Plan
-- **Hypothesis:** After exhausting all leads in the Burned Tower, the most logical path for progression is to follow the rumor about a sick Pokémon in Olivine City.
-- **Strategy:** Exit Ecruteak City to the west, travel through Route 38, and continue towards Olivine City.
-- **External Triggers:** When multiple simple hypotheses for progression fail within a confined area (like a puzzle room), the trigger is likely external. Instead of getting stuck in a loop re-testing failed ideas, pivot to a new location or objective to see if that unlocks the path.
-
-## Route 38 Navigation
-- The westernmost area containing Beauty Olivia at (5, 8) is accessible by navigating west along the southern path of Route 38.
-- **NPC Battle Confirmation:** Do not assume an NPC is a trainer until the battle screen appears. Update markers with battle status only *after* a battle has been won or lost.
-
-# Tile & Object Mechanics (Addendum)
-- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
+- **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
+- **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
+- **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
+- **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements are superior to complex, brittle ones that rely on variable content.
+- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
+- **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
 - **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
 - **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
-
-# Tool Development Lessons
-- **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
-
-# Tool Development Lessons
-- Trust the game state and tool output over my own visual perception, especially when navigating complex layouts.
-- When a tool repeatedly fails in an unexpected way, question the root assumption of the problem. The bug may not be in the obvious logic, but in the execution environment or input data.
-
-# Tool Development Lessons
-- **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-- **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
