@@ -249,7 +249,7 @@
 - **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
 - **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
 - **Hypothesis 5 (Sequence):** FAILED. Neither L->R nor R->L stepping sequence worked.
-- **Current Test:** Testing Hypothesis 3 (Directional Approach). Approaching (16, 11) from the South FAILED. Now testing approach from the West.
+- **Current Test:** Testing Hypothesis 3 (Directional Approach). South & West approaches to (16, 11) FAILED. Now positioning to approach from the North.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (Defeat Trainers):** The hidden warp tiles on 2F are activated by defeating all trainers on the floor. (Status: Likely already failed, all known trainers defeated).
@@ -258,4 +258,4 @@
 - **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
 - **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
 - **Hypothesis 5 (Sequence):** FAILED. Neither L->R nor R->L stepping sequence worked.
-- **Current Test:** Testing Hypothesis 3 (Directional Approach). Approaching (16, 11) from the South FAILED. Now testing approach from the West.
+- **Current Test:** Testing Hypothesis 3 (Directional Approach). South & West approaches to (16, 11) FAILED. Now positioning to approach from the North.
