@@ -211,7 +211,7 @@
 - **Solution:** The image is KABUTO.
 
 ## Olivine Lighthouse Puzzle
-- **Mechanic:** The puzzle seems to involve navigating between floors using ladders and pits. The exact solution is still under investigation. My previous conclusion that the pits were a red herring was incorrect.
+- **Mechanic Discovery (CRITICAL):** The puzzle on 2F is a 'path of light' style puzzle. Stepping on a sparkly floor tile causes it to go dark and one or more other tiles on the floor to light up. The goal is likely to create a continuous path of light to the ladder at (5, 3).
 - **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
 
 # Obstacles and Solutions
@@ -238,25 +238,7 @@
 - **CHALLENGE ROOT ASSUMPTIONS:** Getting stuck in the lighthouse puzzle was a result of a flawed root assumption (that the pits were the *only* way forward, then that they were a *red herring*). When a strategy leads to a loop or a dead end, I must not just try variations of that strategy. I must backtrack to the very first decision point and question the fundamental belief that led me down that path.
 - **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
 
-## Olivine Lighthouse 2F - Sparkly Tile Puzzle
-- Location: (16, 11) and (17, 11)
-- Observation: System identifies these as unmarked warps. Visually, they are sparkly floor tiles.
-- Hypothesis 1 (for 16, 11): It's a step-on warp.
-  - Test: Walked onto the tile.
-  - Conclusion: Failed. No warp occurred.
-- Hypothesis 2 (for 16, 11): It's an interaction-based warp.
-  - Test: Stood on the tile and pressed 'A'.
-  - Conclusion: Failed. No interaction occurred.
-- Hypothesis 3 (for 17, 11): It's an interaction-based warp.
-  - Test: Stood on the tile and pressed 'A'.
-  - Conclusion: Failed. No interaction occurred.
-- New Hypothesis: Defeating the Gentleman trainer was the trigger. I will re-test stepping on the tiles.
-
-# Strategic Principles & Lessons Learned (Additions)
-- **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
-- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
-
-# Notepad Maintenance (Turn 24061)
+## Notepad Maintenance (Turn 24061)
 
 ## Tools & Agents (Correction)
 My previous 'Tools & Agents' list was incomplete. Here is the full list for my reference:
