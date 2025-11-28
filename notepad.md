@@ -11,9 +11,11 @@
   - **S1:** OFF = Row 12 Connector (12,12) OPEN. ON = Top East Open.
   - **S2:** OFF = West Gate allows opening (if S3 ON). ON = Middle Gate Open, but CLOSES West Gate.
   - **S3:** ON = West Gate (3,6) OPEN (Requires S2 OFF).
-- **Working Hypothesis (The Winning Path):**
-  - Config [OFF, OFF, ON] opens West Gate (3,6) and keeps Row 12 Connector (12,12) open.
-  - **Path:** Enter West Gate -> Go South to Row 12 -> Head East across the map -> Enter East Room from bottom.
+- **Failed Hypothesis (West Route):** [OFF, OFF, ON] opens West Gate, but inner connector (6,9) is CLOSED. Dead end.
+- **New Hypothesis (Middle Route):**
+  - Objective: Open Middle Gate (10,6).
+  - Logic: S2 ON opens Middle Gate. S3 ON overrides S2. Thus, S3 must be OFF.
+  - **Target Config:** [S1: OFF, S2: ON, S3: OFF].
 - **Recent Tests:**
   - [OFF, ON, ON]: West Gate CLOSED. Middle South blocked at Row 10.
   - [ON, OFF, ON]: Top East Open, Bottom East Closed.
