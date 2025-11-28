@@ -2,9 +2,9 @@
 
 ## 📍 Current Status: Ecruteak City
 - **Location:** Ecruteak City.
-- **Goal:** Teach Fly to Vortex, then Fly to Goldenrod to get item from Gina.
-- **Status:** Team assembled. Vortex needs to learn Fly.
-- **Next Step:** Open Pack, Teach HM02 to Vortex.
+- **Goal:** Fly to Goldenrod to get item from Gina, then head to Blackthorn.
+- **Status:** Vortex learned Fly. Ready to travel.
+- **Next Step:** Fly to Goldenrod City.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
