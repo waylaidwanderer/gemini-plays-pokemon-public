@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Mahogany Town
-- **Location:** Mahogany Town (19, 8).
-- **Goal:** Head East to Route 44 -> Ice Path -> Blackthorn City.
-- **Status:** Investigated town. Heading to Route 44.
-- **Next Step:** Walk East into Route 44.
+## 📍 Current Status: Route 44
+- **Location:** Route 44 (6, 11).
+- **Goal:** Traverse Route 44 East to Ice Path.
+- **Status:** Exploring. Reading sign.
+- **Next Step:** Check Fruit Tree and battle trainers.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
