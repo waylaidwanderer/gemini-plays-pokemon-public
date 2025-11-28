@@ -229,3 +229,6 @@
 - **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
 - **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
 - **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
+
+# Tool Development Lessons
+- **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
