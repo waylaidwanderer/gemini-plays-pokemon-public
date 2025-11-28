@@ -237,3 +237,7 @@
 - Checking Row 10 barrier...
 - [OFF, ON, ON]: West Gate (3, 6) CLOSED. Row 12 Conn (12, 12) Status: TBD.
 - [OFF, ON, ON]: West Gate (3, 6) CLOSED. West-Mid Conn (6, 9) CLOSED (Trapped).
+### Puzzle Dependencies
+- **Switch 3:** Controls West-Mid Connector (6, 9). ON = Closed (Trap). OFF = Open.
+- **Switch 1:** Likely controls Row 12 Connector (12, 12). OFF = Open (Verified previously). ON = Closed.
+- **Switch 2:** Controls Middle Gate (10, 6). ON = Open. OFF = Closed.
