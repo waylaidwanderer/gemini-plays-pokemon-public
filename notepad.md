@@ -7,19 +7,20 @@
 
 ## Switch Room Puzzle
 - **Current State:**
-  - **Switch 1:** OFF (Verified)
-  - **Switch 2:** ON (Verified)
+  - **Switch 1:** ON (Verified)
+  - **Switch 2:** OFF (Verified)
   - **Switch 3:** ON (Verified)
   - **Emergency Switch:** ON (Verified)
 - **Gate States:**
-  - **Top East (16,6):** CLOSED (Likely overridden by Emergency Switch)
-  - **Middle (10,6):** OPEN
-  - **West (3,6):** OPEN
+  - **Top East (16,6):** CLOSED (Verified with S1:ON, S3:ON, Emerg:ON)
+  - **Middle (10,6):** CLOSED (Verified with S2:OFF)
+  - **West (3,6):** OPEN (Verified with S3:ON)
 - **Failed Tests:**
   - [S1: ON, S3: OFF, Emerg: ON] -> Top East Gate CLOSED.
   - [S1: OFF, S3: OFF, Emerg: ON] -> Top East Gate CLOSED.
   - [S1: OFF, S3: ON, Emerg: ON] -> Connector (6,9) CLOSED.
-- **Action Plan:** Test [S1: ON, S3: ON, Emerg: ON]. Verify Top East Gate.
+  - [S1: ON, S3: ON, Emerg: ON] -> Top East Gate CLOSED.
+- **Action Plan:** Inspect Middle Room South Path (10,10) with S2:OFF. Consult agent.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
