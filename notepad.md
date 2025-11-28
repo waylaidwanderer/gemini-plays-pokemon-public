@@ -262,3 +262,6 @@
 
 ## Olivine Lighthouse Puzzle (Continued)
 - **Dynamic Warps:** Warps at (16, 11) and (17, 11) on 2F appeared after talking to the Gentleman at (17, 8), but then disappeared after I moved. The trigger seems to be temporary or conditional. I must re-investigate the Gentleman to see if he re-enables them.
+
+# Hallucinations & Corrections
+- **Verify Root Assumptions & Dynamic Game State:** I experienced a severe, multi-turn hallucination loop in the Olivine Lighthouse regarding warps at (16, 11) and (17, 11). This was caused by a failure to strictly trust the authoritative `Game State Information -> Map Events -> Warps` list as my single source of truth. The situation was complicated by the fact that the game state can be *dynamic*—these warps did not exist initially, but appeared later. The critical lesson is twofold: 1) Always trust the raw Game State data over my own perception or Mental Map. 2) Re-verify this data frequently, especially after exploring or triggering events, as the game world itself can change.
