@@ -259,3 +259,4 @@
 - **Hypothesis #10 (Agent):** An invisible switch tile must be stepped on elsewhere in the room to activate the warps.
 - **Hypothesis #11 (Agent):** The player must initiate a conversation with the NPC while standing on one of the warp tiles.
 - **Hypothesis #12 (Agent):** The warp is triggered by stepping on it only when the wandering NPC is on a specific half of the room.
+- **Hypothesis #9 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from east to west. (FAILED)
