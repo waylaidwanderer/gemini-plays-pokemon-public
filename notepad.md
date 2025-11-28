@@ -49,6 +49,8 @@
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
 - **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
 - **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
+- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
+- **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -256,9 +258,3 @@
 
 # To-Do
 - Place '🚫' marker at OlivineLighthouse3F (5, 3) to mark the dead-end path.
-
-# Tile & Object Mechanics
-- **LADDER**: A traversable warp tile that moves the player between floors.
-
-# Strategic Principles & Lessons Learned
-- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
