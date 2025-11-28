@@ -198,4 +198,4 @@
 - **LEGENDARY BEASTS SIGHTED:** Suicune and Entei are visible in the main hall. Raikou is likely nearby.
 - Suicune is at (9, 9). Entei is at (12, 11).
 - **BATTLE:** Encountered Suicune (Lv40). Paprika (Lv52) is lead. Risk: Water moves vs Fire. Strategy: Smokescreen -> Chip Damage -> Ultra Balls.
-- Battle Update: Suicune (Red HP, Acc -2, Rain). Paprika (66/162, Def -1). Great Ball failed (9 left). Suicune used Rain Dance. Priority: Heal Paprika.
+- Battle Update: Suicune (Red HP, Acc -2, Rain). Paprika (116/162, Def -1). Great Ball failed (8 left). Suicune used Leer (missed). Plan: Throw Great Ball.
