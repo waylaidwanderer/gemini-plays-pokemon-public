@@ -232,3 +232,7 @@
 
 # Tool Development Lessons
 - **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
+
+# Tool Development Lessons
+- Trust the game state and tool output over my own visual perception, especially when navigating complex layouts.
+- When a tool repeatedly fails in an unexpected way, question the root assumption of the problem. The bug may not be in the obvious logic, but in the execution environment or input data.
