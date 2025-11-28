@@ -263,3 +263,6 @@
   - Test 1: Attempted to walk through window at (8, 1).
   - Result: Movement blocked. The window is impassable.
   - Conclusion: This specific window is not an exit.
+
+# Hallucinations & Corrections
+- **Verify Root Assumptions:** My repeated failures in the lighthouse were caused by a hallucination that the game state had dynamically added new warps. My root assumption was flawed because I failed to strictly verify it against the authoritative `Game State Information -> Map Events -> Warps` list. Lesson: Before pursuing a complex or unusual solution, I MUST rigorously test my foundational belief against the raw game data. Trust the Game State's lists over my own perception or even my Mental Map, which can become corrupted by past hallucinations.
