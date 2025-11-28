@@ -210,3 +210,5 @@
 - **Next Step:** Restock balls at Mart and start the hunt.
 - **Sages:** Spoken to all.
 - **Mechanic Confirmed:** 'Scoot' principle (leaving and re-entering map) successfully refreshed map state and moved Sages.
+### Tool Lessons
+- **Robustness:** For obstacle detection, use substring matching (e.g. "TREE" in type) to handle variants like HEADBUTT_TREE.
