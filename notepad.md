@@ -17,7 +17,8 @@
   - [OFF, ON, OFF]: Middle Gate (10,6) CLOSED.
   - [OFF, OFF, ON]: West Gate OPEN. Connector (6,12) OPEN.
 - **Tested S1 First:** Failed. Top East Gate CLOSED.
-- **Current Plan:** Test Order S3 -> S2 -> S1. (S3 is ON).
+- **Tested Sequence [S3->S2->S1]:** Top East Gate CLOSED.
+- **Current Plan:** Check Middle (10, 6) and West (3, 6) gates. If all closed, hypothesis [S3 First] failed.
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
