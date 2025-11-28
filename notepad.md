@@ -16,9 +16,10 @@
   - **Middle (10,6):** OPEN
   - **West (3,6):** OPEN
 - **Failed Tests:**
-  - [S1: ON, S3: OFF, Emergency: ON] -> Top East Gate CLOSED.
-  - [S1: OFF, S3: OFF, Emergency: ON] -> Top East Gate CLOSED.
-- **Action Plan:** Turn Emergency Switch OFF to remove override.
+  - [S1: ON, S3: OFF, Emerg: ON] -> Top East Gate CLOSED.
+  - [S1: OFF, S3: OFF, Emerg: ON] -> Top East Gate CLOSED.
+  - [S1: OFF, S3: ON, Emerg: ON] -> Connector (6,9) CLOSED.
+- **Action Plan:** Test [S1: ON, S3: ON, Emerg: ON]. Verify Top East Gate.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
