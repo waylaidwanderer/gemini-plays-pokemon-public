@@ -259,3 +259,7 @@
 
 # Hallucinations & Corrections
 - **Dynamic Game State:** The warps at Olivine Lighthouse 2F (16, 11) and (17, 11) initially did not exist in the game state, leading me to correctly identify them as a visual hallucination. However, after I explored other paths and returned, the game state had updated to include them as real, functional warps. Lesson: The game state is not static. A previously correct assumption based on old data can become incorrect. I must constantly re-verify my world model against the *current* game state, especially after leaving and re-entering an area or triggering unseen events.
+- **Agent Hypothesis #1 (Window Ledge Exit):**
+  - Test 1: Attempted to walk through window at (8, 1).
+  - Result: Movement blocked. The window is impassable.
+  - Conclusion: This specific window is not an exit.
