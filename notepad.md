@@ -9,11 +9,13 @@
   - **S1:** Controls East Section. ON = Top East Open, Bottom/Row 12 Closed. OFF = Top East Closed, Row 12 Connector (12,12) OPEN.
   - **S2:** Controls Middle Gate (10,6). ON = OPEN. OFF = CLOSED.
   - **S3:** Controls West Section. ON = West Gate (3,6) OPEN. Connector (6,9) status TBD. OFF = West Gate Closed.
-- **Current Config:** [S1: OFF, S2: OFF, S3: OFF].
+- **Current Config:** [S1: ON, S2: OFF, S3: OFF].
 - **Goal:** Reach Emergency Switch in South East.
-- **East Shaft Findings:** Path North from East Shaft (Column 24) is blocked by a wall at Row 21.
-- **New Plan:** Enter West Shaft via Underground (Ladder at 5, 25) and attempt to navigate North.
-- **Status:** Returning to Underground.
+- **Recent Findings:**
+  - West Shaft and East Shaft southern entrances are both dead ends (blocked by walls at Row 21/23).
+  - [S1: OFF, S2: OFF, S3: ON] opened West Gate (3,6) and Connector (6,12), allowing access to Row 12, but path to East Room was blocked.
+- **Current Plan:** Testing [S1: ON, S2: OFF, S3: OFF]. Hypothesis: Opens Top East Gate (16, 6).
+- **Next Step:** Inspect Top East Gate and explore Northern East Room for path to Unexplored Door (22, 10).
 - **Switch Logic Update:** 
   - [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN, West Gate OPEN, (12,9) Conn CLOSED.
   - [S1:OFF, S2:OFF, S3:OFF] -> Middle Gate CLOSED, West Gate CLOSED, (12,9) Conn OPEN.
