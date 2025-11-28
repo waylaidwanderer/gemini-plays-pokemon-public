@@ -193,10 +193,10 @@
 - Team Rocket Disbanded.
 
 ## Tin Tower
-- Wise Trio Defeated. Access granted.
-- Entered 1F.
-- **LEGENDARY BEASTS SIGHTED:** Suicune and Entei are visible in the main hall. Raikou is likely nearby.
-- Suicune and Entei have fled.
-- **Suicune Event:** Battled Suicune (Lv40). Ran out of balls, forced to defeat it. Eusine was impressed and mentioned Suicune's power summons a 'rainbow-colored Pokémon' (Ho-Oh). Suicune fled/vanished.
-- **Entei/Raikou:** Status unknown, likely fled.
-- **Current Status:** Out of Poké Balls. Need to restock.
+- **Status:** Exploring 1F. Wise Trio Defeated.
+- **Legendary Beasts Event:**
+  - Suicune, Entei, and Raikou were present but fled.
+  - Battled Suicune (Lv40). Defeated it (out of balls).
+  - Eusine appeared, mentioned Ho-Oh, then left.
+- **Current Goal:** Explore the rest of the tower.
+- **Needs:** Restock Poké Balls.
