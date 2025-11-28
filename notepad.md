@@ -6,7 +6,7 @@
 
 ## Switch Room Logic Summary (Verified)
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: ON, S2: OFF, S3: OFF].
+- **Current Config:** [S1: ON, S2: ON, S3: OFF].
 - **Switch 1 (East):** 
   - ON: Opens Top East Gate (16, 6) (Verified).
   - OFF: Closes Top East Gate (16, 6).
