@@ -6,22 +6,16 @@
 
 ## Switch Room Strategy
 - **Logic Confirmed:**
-  - **S1:** Controls East Section. ON = Top East Open, Bottom/Row 12 Closed. OFF = Top East Closed, Row 12 Connector (12,12) OPEN.
+  - **S1:** Controls East Section. ON = Top East Open. OFF = Row 12 Connector (12,12) OPEN.
   - **S2:** Controls Middle Gate (10,6). ON = OPEN. OFF = CLOSED.
-  - **S3:** Controls West Section. ON = West Gate (3,6) OPEN. Connector (6,9) status TBD. OFF = West Gate Closed.
-- **Current Config:** [S1: OFF, S2: ON, S3: ON].
-- **Recent Test:** [S1: OFF, S2: ON, S3: ON] -> West Gate CLOSED.
-- **Goal:** Reach Emergency Switch in South East.
-- **Recent Findings:**
-  - West Shaft and East Shaft southern entrances are both dead ends (blocked by walls at Row 21/23).
-  - [S1: OFF, S2: OFF, S3: ON] opened West Gate (3,6) and Connector (6,12), allowing access to Row 12, but path to East Room was blocked.
-- **Current Plan:** Testing [S1: OFF, S2: ON, S3: OFF].
-- **Recent Findings:**
-  - [S1: ON, S2: OFF, S3: OFF] confirmed Dead End. Top East (16, 6) OPEN, but Bottom East (16, 10) CLOSED.
-- **Next Step:** Turn S1 OFF, Turn S2 ON. Check path via Middle Gate (10, 6) -> Row 12 Connector (12, 12).
-- **Switch Logic Update:** 
-  - [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN, West Gate CLOSED (hypothesized), (12,9) Conn CLOSED (hypothesized), (6,12) Conn CLOSED (verified), (16,10) Bot East CLOSED (verified).
-  - [S1:OFF, S2:OFF, S3:OFF] -> Middle Gate CLOSED, West Gate CLOSED, (12,9) Conn OPEN.
+  - **S3:** Controls West Section. ON = West Gate (3,6) OPEN (if S2 is OFF). OFF = West Gate Closed.
+- **Constraint:** S2 ON overrides S3 ON, keeping West Gate CLOSED.
+- **Current Config:** [S1: OFF, S2: OFF, S3: ON].
+- **Verified Results:**
+  - [OFF, OFF, ON]: West Gate (3,6) OPEN.
+  - [ON, OFF, ON]: Top East Open, Bottom East Closed.
+  - [OFF, ON, ON]: West Gate Closed.
+- **Plan:** Go West Gate -> South to (6,12) -> East to (12,12) -> East Room.
 
 ## Status
 - **Location:** Goldenrod Underground (North West).
