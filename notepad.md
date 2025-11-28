@@ -212,5 +212,7 @@
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 - Obtained TM35 (Sleep Talk) in Underground Warehouse.
 - [S1: ON, S3: ON, Emerg: ON] -> Top East Gate CLOSED.
-- **Constraint Identified:** Switch 1 (East) is unreachable due to Top East Gate (16,6) being locked by Emergency Switch. S1 is fixed to ON.
+- **Correction:** Switch 1 (East) is located at (16,1) in the northern corridor and IS reachable. The Top East Gate (16,6) blocks the *room*, not the switch.
+- **Test Result:** [S1:ON, S2:ON, S3:ON] -> Connector (6,9) CLOSED. Middle Gate CLOSED.
+- **Next Test:** [S1:ON, S2:ON, S3:OFF] -> Check Connector (6,9).
 - **Connector Verified:** S1:ON + S2:ON opens Connector (12,9) (Middle -> East).
