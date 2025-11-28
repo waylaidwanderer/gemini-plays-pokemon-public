@@ -222,3 +222,4 @@
 - **Test Result:** [S1:ON, S2:ON, S3:ON] -> Connector (6,9) CLOSED. Middle Gate CLOSED.
 - **Next Test:** [S1:ON, S2:ON, S3:OFF] -> Check Connector (6,9).
 - **Connector Verified:** S1:ON + S2:ON opens Connector (12,9) (Middle -> East).
+- **Verified Config 5:** [S1:OFF, S2:ON, S3:OFF] -> Middle Gate (10, 6) OPEN. West-Middle Connector (6, 9) OPEN. Middle-East Connector (12, 9) CLOSED. South Shutter (10, 10) CLOSED. Allows West <-> Middle travel.
