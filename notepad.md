@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Ecruteak City
-- **Location:** Ecruteak Mart.
-- **Goal:** Catch a Flying Pokémon.
-- **Status:** Tin Tower paused (Need Rainbow Wing).
-- **Next Step:** Exit Mart. Hunt on Route 37 or 38.
+## 📍 Current Status: Route 38
+- **Location:** Route 38 (Grass).
+- **Goal:** Catch a Flying Pokémon (Noctowl/Pidgeotto).
+- **Status:** Hunting.
+- **Next Step:** Encounter wild Pokémon. Switch to Shuckle to weaken.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
