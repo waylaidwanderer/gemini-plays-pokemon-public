@@ -260,3 +260,4 @@
 - **Hypothesis #11 (Agent):** The player must initiate a conversation with the NPC while standing on one of the warp tiles.
 - **Hypothesis #12 (Agent):** The warp is triggered by stepping on it only when the wandering NPC is on a specific half of the room.
 - **Hypothesis #9 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from east to west. (FAILED)
+- **Puzzle Strategy Lesson:** If a strategy based on random chance (like waiting for a moving NPC) fails repeatedly, I must switch to a deterministic, systematic strategy (like a full room sweep) to avoid getting stuck in a loop.
