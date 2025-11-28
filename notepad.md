@@ -16,7 +16,8 @@
   - [ON, ON, OFF]: Gate (16,6) CLOSED.
   - [OFF, ON, OFF]: Middle Gate (10,6) CLOSED.
   - [OFF, OFF, ON]: West Gate OPEN. Connector (6,12) OPEN.
-- **Current Plan:** Reset to [OFF, OFF, OFF]. Press S1 FIRST.
+- **Tested S1 First:** Failed. Top East Gate CLOSED.
+- **Current Plan:** Test Order S3 -> S2 -> S1. (S3 is ON).
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
