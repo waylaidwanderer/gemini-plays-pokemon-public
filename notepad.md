@@ -1,11 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
-## Current Goals
-- [ ] Investigate Tin Tower in Ecruteak (Primary)
+## 📍 Current Status: Tin Tower 1F
+- **Location:** Ecruteak City, Tin Tower 1F.
+- **Event:** Legendary Beasts (Suicune, Entei, Raikou) fled. Eusine left.
+- **Problem:** No stairs to 2F listed in Game State Warps.
+- **Hypothesis:** Must interact with Sages (y=13) or exit/re-enter to unlock progression.
+- **Immediate Plan:** Talk to Sage at (7, 13) [Facing Right]. Interact from (8, 13).
 
-## New Insights
-- **Inventory Lists:** Not always alphabetical. Be careful with scrolling tools.
-- **Phone:** Gina (Route 34) called. "Come for it". Likely an item.
+## 🎯 Goals
+- [ ] Unlock access to Tin Tower 2F (Primary)
+- [ ] Restock Poké Balls (Secondary) - Critical for catching.
+- [ ] Retrieve item from Gina (Route 34).
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
