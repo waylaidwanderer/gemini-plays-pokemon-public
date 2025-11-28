@@ -47,6 +47,7 @@
 - **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
 - **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
+- **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -65,17 +66,25 @@
 - Poisoned Pokémon lose 1 HP every four steps outside of battle and remain poisoned after a wild battle concludes.
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
-- Grass-type moves (like VINE WHIP) are not very effective against Fire-types.
-- Normal-type moves have no effect on Ghost-type Pokémon.
-- Normal-type moves (like TACKLE) are not very effective against Rock/Ground-types (like GEODUDE).
-- Flying-type moves (like PECK) are not very effective against Rock/Ground-types (like GEODUDE).
-- Fire-type moves (like EMBER) are not very effective against Rock/Ground-types (like GEODUDE).
 - A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym.
 - Levels Over Type Advantage: A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
 - Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
 - Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
-- Ground-type moves have no effect on Flying-type Pokémon.
-- **Type Anomaly:** Normal-type moves (like CUT) are not very effective against Water/Rock-types (like CORSOLA). This is a unique mechanic to this game.
+
+## Type Effectiveness Chart (Verified)
+| Attacking Type | Defending Type | Effectiveness |
+| :--- | :--- | :--- |
+| Grass | Fire | Not Very Effective |
+| Normal | Ghost | No Effect |
+| Normal | Rock | Not Very Effective |
+| Flying | Rock | Not Very Effective |
+| Fire | Rock | Not Very Effective |
+| Ground | Flying | No Effect |
+| Normal | Water/Rock | Not Very Effective |
+| Rock | Flying | Super Effective |
+| Water | Fire | Super Effective |
+| Water | Rock | Super Effective |
+| Water | Ground | Super Effective |
 
 # Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
@@ -221,6 +230,3 @@
 
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
-
-# Puzzle Strategy
-- **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
