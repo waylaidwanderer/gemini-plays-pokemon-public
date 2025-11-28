@@ -4,28 +4,32 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Switch Room Strategy
+## Switch Room Logic Summary
 - **Objective:** Access South East area (Emergency Switch).
 - **Current Config:** [S1: ON, S2: ON, S3: OFF].
-- **Findings:**
-  - [ON, ON, OFF] opened Central Connector (12,9), but Top/Bottom East Gates remain CLOSED.
-  - Middle East area (x=12-17, y=8-9) is isolated.
-- **Next Step:** Explore 'Behind Counters' area in Underground (3_53) for hidden door to Warehouse/SE Switch Room. Verify blockage at y=24.
-- **Verified Logic:**
-  - **S1:** OFF = Row 12 Connector (12,12) OPEN. ON = Central Connector (12,9) OPEN. Top East Gate CLOSED.
-  - **S2:** OFF = West Gate allows opening (if S3 ON). ON = Middle Gate Open, but CLOSES West Gate.
-  - **S3:** ON = West Gate (3,6) OPEN (Requires S2 OFF).
-- **Failed Hypothesis (West Route):** [OFF, OFF, ON] opens West Gate, but inner connector (6,9) is CLOSED. Dead end.
-- **New Hypothesis (Middle Route):**
-  - Objective: Open Middle Gate (10,6).
-  - Logic: S2 ON opens Middle Gate. S3 ON overrides S2. Thus, S3 must be OFF.
-  - **Target Config:** [S1: OFF, S2: ON, S3: OFF].
-- **Recent Tests:**
-  - [OFF, ON, ON]: West Gate CLOSED. Middle South blocked at Row 10.
-  - [ON, OFF, ON]: Top East Open, Bottom East Closed.
-  - [ON, ON, ON]: Top East Closed, Middle Gate Closed. (S3 ON overrides S2 ON).
-  - [ON, OFF, OFF]: Top East Gate CLOSED. (Implies S3 is required for Top East).
-  - [OFF, OFF, ON]: West Gate OPEN. (Confirmed).
+
+### Confirmed Mechanics
+- **Switch 1 (East/Connectors):**
+  - **ON:** Opens Central Connector (12, 9). Closes Row 12 Connector (12, 12). 
+  - **OFF:** Opens Row 12 Connector (12, 12). Closes Central Connector (12, 9).
+  - **Note:** Top East Gate (16, 6) requires S3 ON (and possibly S1 ON) to open. Bottom East Gate (16, 10) condition unknown but closed by [ON, ON, OFF].
+
+- **Switch 2 (Middle):**
+  - **ON:** Opens Middle Gate (10, 6) *if S3 is OFF*.
+  - **OFF:** Default state.
+
+- **Switch 3 (West/Override):**
+  - **ON:** Opens West Gate (3, 6). Closes Inner West Connector (6, 9) (Trap). Overrides S2 (Closes Middle Gate).
+  - **OFF:** Opens Inner West Connector (6, 9).
+
+### Dead Ends & Blockages
+- **West Route (S3 ON):** Access West Room, but Inner Connector (6, 9) is closed. Dead end.
+- **Middle Route (S1 OFF, S2 ON):** Access Middle Room, but blocked south at Row 10.
+- **East Route (S1 ON):** Access via Central Connector (12, 9), but isolated in Middle-East section. Top/Bottom East Gates closed.
+- **Underground 'Behind Counters':** Dead end at (22, 24). No hidden door found.
+
+### Next Hypothesis
+- **East Shaft (3, 2):** Previous check found it blocked at Row 21. Re-checking with current config [S1: ON, S2: ON, S3: OFF] to see if the blockage has opened.
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
