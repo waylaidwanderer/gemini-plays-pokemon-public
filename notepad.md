@@ -4,24 +4,18 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Switch Room Puzzle (Active)
-- **Goal:** Open path to Emergency Switch (South East).
-- **Hint:** "Change the order of switching." - Rocket Grunt.
-- **Current State (Sequence: S3 -> S2 -> S1):**
-  - **S1, S2, S3:** ALL ON.
-  - **West Gate (3, 6):** OPEN.
-  - **Connector (6, 9):** OPEN (Trap Deactivated!).
-  - **Middle Gate (10, 6):** CLOSED.
-  - **Top East Gate (16, 6):** CLOSED.
-  - **New Discovery:** Path at (11, 10) is NOW OPEN (Tiles changed to FLOOR).
-- **Verified Mechanics:**
-  - **Sequence Matters:** The order [S3 -> S2 -> S1] successfully opened the trap connector at (6, 9).
-  - **S3:** Normally opens West Gate.
-
-## Switch Room Connections (Verified)
-- **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
-- **East Shaft (21, 25):** Connects to NW Underground. Path North blocked.
-- **Main Hub (23, 3):** Connects to 'Behind Counters' area.
+## Switch Room Puzzle (Solved)
+- **Solution:** Sequence [S3 -> S2 -> S1] (Order Matters).
+- **Effect:** Opens West Gate (3, 6), Connector (6, 9) [Bypassing Trap], and opens path at (11, 10) to South East Section.
+- **Emergency Switch:** Located at (20, 11). Currently ON.
+- **Mechanics:**
+  - **Switch 3:** Controls West Gate (Open) and Connector 6,9 (Trap/Open).
+  - **Switch 2:** Controls Middle Gate.
+  - **Switch 1:** Controls Top East Gate and Connector 12,9.
+- **Connections:**
+  - **West Shaft (5, 25):** Connects to SW Underground.
+  - **East Shaft (21, 25):** Connects to NW Underground.
+  - **Main Hub (23, 3):** Connects to 'Behind Counters' area.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
