@@ -2,9 +2,9 @@
 
 ## 📍 Current Status: Route 34
 - **Location:** Route 34 (10, 25).
-- **Goal:** Retrieve item from Gina.
-- **Status:** Standing next to Gina.
-- **Next Step:** Talk to Gina (Press A).
+- **Goal:** Fly to Mahogany Town.
+- **Status:** Gina had no item. Resuming journey.
+- **Next Step:** Fly to Mahogany (Start -> Pokemon -> Vortex -> Fly -> Up x4).
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
