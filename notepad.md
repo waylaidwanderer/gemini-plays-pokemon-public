@@ -256,3 +256,9 @@
 
 # To-Do
 - Place '🚫' marker at OlivineLighthouse3F (5, 3) to mark the dead-end path.
+
+# Tile & Object Mechanics
+- **LADDER**: A traversable warp tile that moves the player between floors.
+
+# Strategic Principles & Lessons Learned
+- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
