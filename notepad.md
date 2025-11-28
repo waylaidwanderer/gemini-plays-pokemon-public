@@ -51,6 +51,7 @@
 - **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
 - **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
+- **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -206,12 +207,12 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-# Olivine Lighthouse Puzzle
+## Olivine Lighthouse Puzzle
 - **Objective:** Find a way to the top of the lighthouse.
 - **Status:** I am on 2F, trying to find a path upwards.
 - **Dynamic Warp Puzzle:** The way forward is through two dynamic warps at (16, 11) and (17, 11). These warps are not always visible or active.
-- **Trigger Mechanic:** After defeating the Gentleman trainer at (17, 8), stepping on the tile where a warp should be (e.g., 17, 11) causes it to visually appear. However, it is not yet active.
-- **Current Blocker:** I can make the warp appear, but all simple interaction methods to activate the transport (moving off/on, pressing 'A' while facing it) have failed. I am currently stuck trying to figure out how to use the revealed warp.
+- **Trigger Mechanic:** After defeating the Gentleman trainer at (17, 8), stepping on the tiles at (16, 11) and (17, 11) causes the warps to visually appear. Stepping off the tiles causes them to disappear.
+- **Current Blocker:** While I can make the warps appear, I have not yet found the correct sequence or interaction method to activate them and trigger the transport. I am currently testing hypotheses from my `puzzle_solver` agent.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -227,13 +228,3 @@
 - **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
 - **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`
 - **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
-
-# Key Items
-- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
-- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
-- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
-- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
-- **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
-
-# Strategic Principles & Lessons Learned (Addendum)
-- **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
