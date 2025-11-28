@@ -235,3 +235,4 @@
 ### [OFF, ON, ON] Testing
 - **West Gate (3, 6):** OPEN.
 - Checking Row 10 barrier...
+- [OFF, ON, ON]: West Gate (3, 6) CLOSED. Row 12 Conn (12, 12) Status: TBD.
