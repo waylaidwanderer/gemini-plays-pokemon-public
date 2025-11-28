@@ -192,18 +192,6 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse 1F Warp Puzzle
-- **Summary:** The warp on 1F at (16, 13) and (17, 13) is not triggered by any simple, internal mechanic.
-- **Exhausted Hypotheses:**
-  - Direct interaction ('A' button).
-  - Stepping on the tiles from all valid cardinal directions.
-  - Continuous movement across both tiles (west-to-east and east-to-west).
-  - Changing facing direction while on the tiles.
-  - The wandering NPC's position (tested randomly and systematically).
-  - Interacting with the NPC.
-  - A full systematic sweep of every floor tile to find an invisible switch.
-- **Conclusion:** Having exhausted all internal triggers, the solution must be external to this room. I must explore Olivine City for a clue, item, or NPC to progress.
-
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 
