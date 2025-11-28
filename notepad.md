@@ -1,13 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Ecruteak City / Mart
+## 📍 Current Status: Ecruteak City
 - **Location:** Ecruteak Mart.
-- **Goal:** Restock Poké Balls.
+- **Goal:** Catch a Flying Pokémon.
 - **Status:** Tin Tower paused (Need Rainbow Wing).
-- **Next Step:** Buy Great Balls (Mart has no Ultra Balls). Catch a Flyer.
+- **Next Step:** Exit Mart. Hunt on Route 37 or 38.
 
 ## 🎯 Goals
-- [ ] Restock Poké Balls (Great Balls).
+- [x] Restock Poké Balls (40 Great Balls bought).
 - [ ] Catch a Pokémon that can Fly (e.g. Noctowl/Pidgeotto).
 - [ ] Retrieve item from Gina (Route 34).
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
