@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Mahogany Town House
-- **Location:** Mahogany Town House (2, 7).
-- **Goal:** Talk to NPCs -> Exit -> Head East to Route 44 -> Blackthorn City.
-- **Status:** Finished talking to NPCs in Mahogany House.
-- **Next Step:** Exit house and head East to Route 44.
+## 📍 Current Status: Mahogany Town
+- **Location:** Mahogany Town (19, 8).
+- **Goal:** Head East to Route 44 -> Ice Path -> Blackthorn City.
+- **Status:** Investigated town. Heading to Route 44.
+- **Next Step:** Walk East into Route 44.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
