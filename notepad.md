@@ -7,15 +7,18 @@
 
 ## Switch Room Puzzle
 - **Current State:**
-  - **Switch 1:** OFF (Verified)
-  - **Switch 2:** UNKNOWN (Checking)
+  - **Switch 1:** ON (Verified)
+  - **Switch 2:** ON (Verified)
   - **Switch 3:** OFF (Verified)
   - **Emergency Switch:** ON (Verified)
 - **Gate States:**
-  - **Top East (16,6):** CLOSED
+  - **Top East (16,6):** CLOSED (Likely overridden by Emergency Switch)
+  - **Middle (10,6):** OPEN
   - **West (3,6):** OPEN
-  - **Connector (6,9):** CLOSED
-  - **Middle (10,6):** UNKNOWN
+- **Failed Tests:**
+  - [S1: ON, S3: OFF, Emergency: ON] -> Top East Gate CLOSED.
+  - [S1: OFF, S3: OFF, Emergency: ON] -> Top East Gate CLOSED.
+- **Action Plan:** Turn Emergency Switch OFF to remove override.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
