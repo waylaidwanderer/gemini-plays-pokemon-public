@@ -208,13 +208,13 @@
 
 # Olivine Lighthouse Puzzle
 - **Objective:** Find a way to the top of the lighthouse.
-- **Status:** I am stuck in a puzzle loop. All confirmed warps (ladders, pits) on 2F lead to dead ends. I have escalated to my `puzzle_solver` agent to generate new hypotheses.
-- **Agent Hypotheses (To Be Tested):**
-  1.  **Window Ledge Exit:** The path forward is an opening in the windows leading to an outside ledge.
+- **Status:** I am on 2F, trying to find a path upwards.
+- **Dynamic Warps & Hallucinations:** I experienced a severe, multi-turn hallucination regarding warps at (16, 11) and (17, 11) on 2F. This was caused by a failure to strictly trust the authoritative `Game State Information -> Map Events -> Warps` list as my single source of truth. The situation is complicated by the fact that the game state can be *dynamic*—these warps did not exist initially, but appeared later, and then disappeared again. The critical lesson is twofold: 1) Always trust the raw Game State data over my own perception or Mental Map. 2) Re-verify this data frequently, especially after exploring or triggering events, as the game world itself can change.
+- **Agent Hypotheses (Failed):**
+  1.  **Window Ledge Exit:** The path forward is an opening in the windows leading to an outside ledge. (Failed: window at (8, 1) is impassable).
   2.  **Defeated Trainer Path:** A path becomes accessible on a tile previously occupied by a now-defeated trainer.
   3.  **Undiscovered Ladder:** There is a hidden ladder or hallway that has been overlooked.
   4.  **Hidden Switch:** Progress is gated by a hidden item or switch on the floor.
-- **Current Plan:** Systematically test the agent's hypotheses, starting with the most likely one: the Window Ledge Exit.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -241,27 +241,7 @@
 - **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
 - **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
 
-# Hallucinations & Corrections
-- **Verify Root Assumptions & Dynamic Game State:** I experienced a severe, multi-turn hallucination loop in the Olivine Lighthouse regarding warps at (16, 11) and (17, 11). This was caused by a failure to strictly trust the authoritative `Game State Information -> Map Events -> Warps` list as my single source of truth. The situation was complicated by the fact that the game state can be *dynamic*—these warps did not exist initially, but appeared later. The critical lesson is twofold: 1) Always trust the raw Game State data over my own perception or Mental Map. 2) Re-verify this data frequently, especially after exploring or triggering events, as the game world itself can change.
-- **Agent Hypothesis #1 (Window Ledge Exit):**
-  - Test 1: Attempted to walk through window at (8, 1).
-  - Result: Movement blocked. The window is impassable.
-  - Conclusion: This specific window is not an exit.
-
 # Custom Tools & Agents
-- **find_path:** Finds a path from a start to an end coordinate on the current map using a basic, reliable Breadth-First Search (BFS) algorithm.
-- **select_item:** Automates selecting a specific item from the bag menu.
-- **select_move:** Selects a move from the battle menu by name.
-- **switch_pokemon:** Automates switching to a specific Pokémon in the party during a battle.
-- **verify_reachability:** Analyzes a list of coordinates and returns the ones that are reachable from the player's current position.
-- **gym_puzzle_solver (Agent):** Generates hypotheses for gym puzzles.
-- **python_code_debugger (Agent):** Analyzes and fixes bugs in Python scripts.
-- **puzzle_solver (Agent):** Generates hypotheses for general in-game puzzles.
-- **YOUNGSTER**: Impassable NPC, functions as a wall.
-- **POKEFAN_F**: Impassable NPC, functions as a wall.
-
-## Olivine Lighthouse Puzzle (Continued)
-- **Dynamic Warps:** Warps at (16, 11) and (17, 11) on 2F appeared after talking to the Gentleman at (17, 8), but then disappeared after I moved. The trigger seems to be temporary or conditional. I must re-investigate the Gentleman to see if he re-enables them.
-
-# Hallucinations & Corrections
-- **Verify Root Assumptions & Dynamic Game State:** I experienced a severe, multi-turn hallucination loop in the Olivine Lighthouse regarding warps at (16, 11) and (17, 11). This was caused by a failure to strictly trust the authoritative `Game State Information -> Map Events -> Warps` list as my single source of truth. The situation was complicated by the fact that the game state can be *dynamic*—these warps did not exist initially, but appeared later. The critical lesson is twofold: 1) Always trust the raw Game State data over my own perception or Mental Map. 2) Re-verify this data frequently, especially after exploring or triggering events, as the game world itself can change.
+- **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
+- **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
+- **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
