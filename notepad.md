@@ -232,3 +232,7 @@
 # Battle Anomaly 2
 - A second battle anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue 'Hey, let's battle again!' appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions or pathing interruptions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach, interact, or path around them.
+
+# Critical Lessons from Olivine Lighthouse Loop
+- **TRUST GAME STATE OVER MEMORY (CRITICAL FAILURE):** I experienced a severe hallucination, believing a ladder existed at (14, 8) on OlivineLighthouse1F. The system and raw game state data confirmed this was false. This is a non-negotiable directive: if my memory or visual assessment contradicts the raw `Game State Information`, the game state is the absolute truth and my memory must be discarded.
+- **CHALLENGE ROOT ASSUMPTIONS:** Getting stuck in the lighthouse puzzle was a result of a flawed root assumption (that the pits were the *only* way forward, then that they were a *red herring*). When a strategy leads to a loop or a dead end, I must not just try variations of that strategy. I must backtrack to the very first decision point and question the fundamental belief that led me down that path.
