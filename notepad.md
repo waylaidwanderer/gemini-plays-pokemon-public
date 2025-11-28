@@ -55,6 +55,9 @@
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 - **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
 - **Observe Before Assuming:** When seemingly stuck (e.g., trapped in a room), the first action must be to re-examine the entire known map for obvious, overlooked exits before assuming a complex, hidden solution is required. Trust the map data over my own narrative of the situation.
+- **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
+- **REMINDER:** When I return to OlivineLighthouse2F, I must check on the Sailor at (9, 3). If he is still present and blocking the path, I must mark him with '🚫' and the label 'Path blocked by static/bugged Sailor'.
+- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -65,7 +68,7 @@
 - **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-- **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown.
+- **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown. A second anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 
 # Battle Mechanics
@@ -227,31 +230,7 @@
 - **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
 - **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
 - **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
-- **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
-- **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
-
-# Battle Anomaly 2
-- A second battle anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue 'Hey, let's battle again!' appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
-- **Proactive Stunning:** To avoid wasting turns on failed interactions or pathing interruptions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach, interact, or path around them.
 
 # Critical Lessons from Olivine Lighthouse Loop
 - **TRUST GAME STATE OVER MEMORY (CRITICAL FAILURE):** I experienced a severe hallucination, believing a ladder existed at (14, 8) on OlivineLighthouse1F. The system and raw game state data confirmed this was false. This is a non-negotiable directive: if my memory or visual assessment contradicts the raw `Game State Information`, the game state is the absolute truth and my memory must be discarded.
 - **CHALLENGE ROOT ASSUMPTIONS:** Getting stuck in the lighthouse puzzle was a result of a flawed root assumption (that the pits were the *only* way forward, then that they were a *red herring*). When a strategy leads to a loop or a dead end, I must not just try variations of that strategy. I must backtrack to the very first decision point and question the fundamental belief that led me down that path.
-- **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
-
-## Notepad Maintenance (Turn 24061)
-
-## Tools & Agents (Correction)
-My previous 'Tools & Agents' list was incomplete. Here is the full list for my reference:
-- **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
-
-## New Lessons & Reminders
-- **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
-- **REMINDER:** When I return to OlivineLighthouse2F, I must check on the Sailor at (9, 3). If he is still present and blocking the path, I must mark him with '🚫' and the label 'Path blocked by static/bugged Sailor'.
-
-# New Lessons & Reminders (Post-Reflection)
-- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
-
-# Tile & Object Mechanics (Additions)
-- **LADDER**: A traversable warp tile that moves the player between floors.
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
