@@ -197,3 +197,4 @@
 - Entered 1F.
 - **LEGENDARY BEASTS SIGHTED:** Suicune and Entei are visible in the main hall. Raikou is likely nearby.
 - Suicune is at (9, 9). Entei is at (12, 11).
+- **BATTLE:** Encountered Suicune (Lv40). Paprika (Lv52) is lead. Risk: Water moves vs Fire. Strategy: Smokescreen -> Chip Damage -> Ultra Balls.
