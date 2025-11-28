@@ -198,8 +198,8 @@
 - Team Rocket Disbanded.
 
 ## Tin Tower
-- **Status:** Tin Tower 1F. Sages moved after map refresh. Stairs at (10, 2) inactive.
-- **Investigation:** Checking if Sages' new positions unlock the path.
+- **Status:** Tin Tower 1F. Spoke to all Sages (Lore unlocked).
+- **Investigation:** Refreshing map ('Scoot') to see if stairs at (10, 2) unlock.
 - **Sages:**
   - Sage 5: (5, 9)
   - Sage 6: (11, 11)
