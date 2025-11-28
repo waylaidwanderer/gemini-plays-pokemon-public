@@ -243,3 +243,4 @@
 - **Agent Hypothesis #2 (Alternate Path from 2F):** IN PROGRESS. Currently investigating the anomalous floor tiles at 2F (16, 11) and (17, 11).
   - **Sub-Hypothesis:** The tiles are not step-on warps but require interaction (like a switch).
   - **Test:** Interact with the tiles from an adjacent position. Attempting to interact from (17, 12) after failing from (17, 10).
+- **Loop Breaking:** If I am stuck in a loop of failed actions (e.g., repeatedly trying to interact with an object with no result), I must recognize this pattern quickly. Instead of trying minor variations of the failed action, I must pivot to a completely new hypothesis or backtrack to re-evaluate the puzzle from a different perspective. Persisting in a loop is a strategic failure.
