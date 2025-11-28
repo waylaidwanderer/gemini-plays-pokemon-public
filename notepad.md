@@ -250,3 +250,12 @@
 - **Hypothesis #7 (Agent):** The warp requires the player to be facing a specific direction while standing on the tile.
 - **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location.
 - **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location. (FAILED after multiple random attempts, triggered a loop warning).
+
+# Olivine Lighthouse 1F Warp Puzzle - Agent Hypotheses (Round 2)
+- **Invalid Hypotheses (Verified against map):**
+  - Approaching (16, 13) from the south (16, 14 is a WALL).
+  - Approaching (17, 13) from the south (17, 14 is a WALL).
+- **Hypothesis #9 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from east to west.
+- **Hypothesis #10 (Agent):** An invisible switch tile must be stepped on elsewhere in the room to activate the warps.
+- **Hypothesis #11 (Agent):** The player must initiate a conversation with the NPC while standing on one of the warp tiles.
+- **Hypothesis #12 (Agent):** The warp is triggered by stepping on it only when the wandering NPC is on a specific half of the room.
