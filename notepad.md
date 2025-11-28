@@ -6,7 +6,7 @@
 
 ## Switch Room Logic Summary
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: ON, S2: ON, S3: OFF] (Verified: Mid Gate Open, West Gate Closed).
+- **Current Config:** [S1: OFF, S2: OFF, S3: OFF] (Transitioning to Deep South Config).
 - **Lesson:** Trust Tile Types (WALL/FLOOR) over old markers. S2 found ON. S3 found OFF.
 
 ### Truth Table (Verified)
