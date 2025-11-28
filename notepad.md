@@ -245,3 +245,13 @@
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
 - **NPC Hints vs. Core Assumptions:** If progress is blocked and simple solutions fail, actively seek out NPC dialogue. Hints from NPCs can directly invalidate a core hypothesis (like 'all trainers must be defeated') and reveal the puzzle's true nature, preventing wasted time on a flawed strategy.
+
+# Custom Tools & Agents
+- **find_path:** Finds a path from a start to an end coordinate on the current map.
+- **select_item:** Automates selecting a specific item from the bag menu.
+- **select_move:** Selects a move from the battle menu by name.
+- **switch_pokemon:** Automates switching to a specific Pokémon in the party during a battle.
+- **verify_reachability:** Analyzes a list of coordinates and returns the ones that are reachable from the player's current position.
+- **gym_puzzle_solver (Agent):** Generates hypotheses for gym puzzles.
+- **python_code_debugger (Agent):** Analyzes and fixes bugs in Python scripts.
+- **puzzle_solver (Agent):** Generates hypotheses for general in-game puzzles.
