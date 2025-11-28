@@ -197,13 +197,9 @@
 - Cleared Radio Tower and Underground.
 - Team Rocket Disbanded.
 
-## Tin Tower
-- **Status:** Tin Tower 1F. Spoke to all Sages (Lore unlocked).
-- **Investigation:** Refreshing map ('Scoot') to see if stairs at (10, 2) unlock.
-- **Sages:**
-  - Sage 5: (5, 9)
-  - Sage 6: (11, 11)
-  - Sage 7: (14, 6)
-- **Legendary Beasts:** Fled. Suicune defeated (No balls).
-- **Needs:** Restock Poké Balls.
+## Tin Tower (Paused)
+- **Status:** Access to 2F requires Rainbow Wing.
+- **Requirement:** Catch all 3 Legendary Beasts (Raikou, Entei, Suicune) to prove worthiness.
+- **Next Step:** Restock balls at Mart and start the hunt.
+- **Sages:** Spoken to all.
 - **Mechanic Confirmed:** 'Scoot' principle (leaving and re-entering map) successfully refreshed map state and moved Sages.
