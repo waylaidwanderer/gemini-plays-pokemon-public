@@ -6,7 +6,7 @@
 
 ## Switch Room Strategy
 - **Objective:** Reach East Room (South East) via Row 12 Connector.
-- **Current Config:** [S1: OFF, S2: OFF, S3: ON]
+- **Current Config:** [S1: OFF, S2: ON, S3: OFF] (Hypothesis: Opens Middle Gate)
 - **Verified Logic:**
   - **S1:** OFF = Row 12 Connector (12,12) OPEN. ON = Top East Open.
   - **S2:** OFF = West Gate allows opening (if S3 ON). ON = Middle Gate Open, but CLOSES West Gate.
