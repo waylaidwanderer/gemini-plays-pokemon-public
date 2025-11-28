@@ -5,14 +5,15 @@
 - [ ] Open 3F Shutters with Card Key (Secondary)
 - [x] Rescue Director in Underground Warehouse (Completed)
 
-## Switch Room Puzzle (Solved)
-- **Solution:** Sequence [S3 -> S2 -> S1] (Order Matters).
-- **Effect:** Opens West Gate (3, 6), Connector (6, 9) [Bypassing Trap], and opens path at (11, 10) to South East Section.
-- **Emergency Switch:** Located at (20, 11). Verified OFF. Turning ON to clear walls.
-- **Mechanics:**
-  - **Switch 3:** Controls West Gate (Open) and Connector 6,9 (Trap/Open).
-  - **Switch 2:** Controls Middle Gate.
-  - **Switch 1:** Controls Top East Gate and Connector 12,9.
+## Switch Room Puzzle
+- **Current State:**
+  - **Switch 1:** ON (Presumed)
+  - **Switch 2:** ON (Presumed)
+  - **Switch 3:** OFF (Verified)
+  - **Emergency Switch:** ON (Verified)
+- **Observations:**
+  - S3 OFF seems to keep West Gate (3,6) OPEN (Unexpected).
+  - Goal: Check Top East Gate (16,6). Expecting OPEN due to S1 ON.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
