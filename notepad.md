@@ -6,7 +6,7 @@
 
 ## Switch Room Logic Summary (Testing)
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: ON, S2: OFF, S3: OFF].
+- **Current Config:** [S1: OFF, S2: OFF, S3: OFF].
 - **Observations:**
   - [S1: ON, S2: OFF, S3: ON] -> West Gate (3, 6) CLOSED. Connector (6, 9) CLOSED. (Trapped in NW).
   - [S1: ON, S2: OFF, S3: OFF] -> Top East Gate (16, 6) OPEN. Wall (16, 7) OPEN. Connector (12, 9) OPEN. West Gate (3, 6) CLOSED.
