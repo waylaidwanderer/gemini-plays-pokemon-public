@@ -248,3 +248,10 @@ My previous 'Tools & Agents' list was incomplete. Here is the full list for my r
 ## New Lessons & Reminders
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
 - **REMINDER:** When I return to OlivineLighthouse2F, I must check on the Sailor at (9, 3). If he is still present and blocking the path, I must mark him with '🚫' and the label 'Path blocked by static/bugged Sailor'.
+
+# New Lessons & Reminders (Post-Reflection)
+- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+
+# Tile & Object Mechanics (Additions)
+- **LADDER**: A traversable warp tile that moves the player between floors.
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
