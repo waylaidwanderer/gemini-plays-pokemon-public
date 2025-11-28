@@ -211,8 +211,9 @@
   - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
   - **H3 (Directional Approach):** Approaching either anomalous tile from any cardinal direction (N, S, E, W) does not activate them.
   - **H4 (Re-search 1F Pit Room):** A systematic search of the room revealed no hidden items or triggers.
-  - **Pit at (17, 13) on 2F:** Leads to a dead-end area on 1F. The paths at (14, 8) and around (8, 11) were confirmed dead ends.
-- **Current Hypothesis (H1):** The second pit at (16, 13) on 2F must lead to the correct path forward.
+  - **Pit Hypothesis:** Both pits on 2F at (16, 13) and (17, 13) lead to dead-end areas on 1F. This is not the correct path forward.
+- **New Hypothesis:** The main path upwards via the ladders is correct, and I missed something on a higher floor (likely 3F or 4F).
+- **Plan:** Exit the lighthouse, re-climb to 3F, and conduct a thorough, systematic search of that floor and any floors accessible from it.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
