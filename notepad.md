@@ -236,3 +236,4 @@
 - **West Gate (3, 6):** OPEN.
 - Checking Row 10 barrier...
 - [OFF, ON, ON]: West Gate (3, 6) CLOSED. Row 12 Conn (12, 12) Status: TBD.
+- [OFF, ON, ON]: West Gate (3, 6) CLOSED. West-Mid Conn (6, 9) CLOSED (Trapped).
