@@ -234,7 +234,7 @@
 
 ## Olivine Lighthouse Puzzle
 - **2F Eastern Path:** Confirmed dead end. The path only leads to the PITs at (16, 13) and (17, 13), which are a one-way drop to a dead-end room on 1F.
-- **Anomalous Warps:** The tiles at 2F (16, 11) and (17, 11) are visually labeled as warps on-screen, but do not appear in the Game State event list. Simple interaction and movement tests have failed to activate them. Their function is a key part of the current puzzle.
+- **Anomalous Warps Confirmed:** The tiles at 2F (16, 11) and (17, 11) are confirmed to be special, hidden warps. A high-level system warning overrode the raw `Game State -> Map Events` list, which does not show them. This is a critical discovery: some warps may be intentionally hidden from the game's standard data. My previous conclusion that I was hallucinating was incorrect. The puzzle solution must involve activating these tiles.
 - **3F Western Path:** This area was initially dismissed as a dead end, but since all other paths are exhausted, it must be re-investigated for a hidden connection to the eastern side of the floor.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
 
