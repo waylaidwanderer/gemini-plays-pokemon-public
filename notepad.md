@@ -10,8 +10,12 @@
   - **S2:** Controls Middle Gate (10,6). ON = OPEN. OFF = CLOSED.
   - **S3:** Controls West Section. ON = West Gate Closed & Connector (6,9) Closed (TRAP). OFF = Safe.
 - **Current Config:** [S1: OFF, S2: ON, S3: OFF].
-- **Goal:** Reach Unexplored Door at (22, 10) via Middle Room -> Row 12 Connector.
-- **Path:** Switch 1 (OFF) -> Middle Gate (10,6) -> Row 12 Connector (12,12) -> East.
+- **Goal:** Reach Unexplored Door at (22, 10) via East Shaft (Column 24).
+- **Path:** East Shaft Ladder (21, 25) -> South to Row 28 -> East to Column 24 -> North to Target.
+- **Status:** Exploring East Corridor.
+- **Switch Logic Update:** 
+  - [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN, West Gate OPEN, (12,9) Conn CLOSED.
+  - [S1:OFF, S2:OFF, S3:OFF] -> Middle Gate CLOSED, West Gate CLOSED, (12,9) Conn OPEN.
 
 ## Status
 - **Location:** Goldenrod Underground (North West).
