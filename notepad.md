@@ -5,13 +5,10 @@
 - [ ] Open 3F Shutters with Card Key (Secondary)
 - [x] Rescue Director in Underground Warehouse (Completed)
 
-## Switch Room Puzzle (Solved)
-- **Solution:** [S1:ON, S2:OFF, S3:ON] opens the 'Lower Highway' (Row 12).
-- **Outcome:** Puzzle solved, but Card Key was already in possession. Proceeding to Radio Tower.
-
-## Radio Tower
-- **Objective:** Reach 3F and use Card Key to open shutters.
-- **Current Status:** On 1F. Heading to 2F.
+## Radio Tower Infiltration
+- **Objective:** Reach 5F to stop Team Rocket.
+- **Current Task:** Insert Card Key at 3F (14, 2) to open shutters.
+- **Status:** On 3F. Navigating past Grunts.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
