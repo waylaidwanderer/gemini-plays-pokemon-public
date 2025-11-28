@@ -25,15 +25,15 @@
   - East Shaft (21, 25) <-> NW Underground (3, 2)
   - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
 
-## Switch Room Truth Table (Rebuilding)
+## Switch Room Truth Table (Verified)
 | S1 | S2 | S3 | Top East (16,6) | Middle (10,6) | Bot East (16,10) | Row 12 Conn (12,12) | Notes |
 |---|---|---|---|---|---|---|---|
-| OFF | OFF | OFF | CLOSED | CLOSED | ? | ? | Baseline (Verified S2 OFF = Middle Closed). |
-| ON | OFF | ? | OPEN | CLOSED | CLOSED | ? | S1 controls East/Mid-East? |
-| OFF | ON | OFF | ? | ? | ? | ? | Current Test. Hypothesis: Opens Middle Gate. |
+| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Baseline. (Row 12 Conn Open verified previously). |
+| ON | OFF | OFF | OPEN | CLOSED | CLOSED | CLOSED | Verified Turn 11118. S1 ON opens Top East. |
+| OFF | ON | OFF | ? | OPEN | ? | OPEN | Target Config. Hypothesis: Middle Open, Row 12 Open. |
 
-**Goal:** Find config to reach Bottom East (Emergency Switch).
-**Hypothesis:** S2 ON opens Middle Gate. S1 OFF opens Row 12 Connector?
+**Goal:** Reach Unexplored Door at (22, 10) via Middle Room -> Row 12 Connector.
+**Next Step:** Turn S1 OFF, Turn S2 ON.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
