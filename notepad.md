@@ -6,22 +6,21 @@
 
 ## Switch Room Logic Summary (Verified)
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: ON, S2: ON, S3: OFF].
+- **Current Config:** [S1: OFF, S2: OFF, S3: OFF].
 - **Switch 1 (East):** 
-  - ON: Opens Top East Gate (16, 6). Opens West Gate (3, 6). Closes Middle Gate (10, 6) (Hypothesis).
-  - OFF: Closes Top East Gate (16, 6). Closes West Gate (3, 6) (Verified).
+  - ON: Opens Top East Gate (16, 6). Verified.
+  - OFF: Closes Top East Gate (16, 6). Verified.
 - **Switch 2 (Middle):** 
-  - ON: Opens Middle Gate (10, 6) (Hypothesis).
-  - OFF: Closes Middle Gate (10, 6) (Verified).
+  - ON: Effect blocked if S1 is ON. Testing [S1: OFF, S2: ON] next.
+  - OFF: Closes Middle Gate (10, 6). Verified.
 - **Switch 3 (West):** 
-  - ON: Closes Central Connector (12, 9).
-  - OFF: Opens Central Connector (12, 9) (Verified with S1/S2 OFF).
-  - *Note:* West Gate (3, 6) remains CLOSED in both ON/OFF states (with S1/S2 OFF).
+  - ON: Closes West Gate (3, 6). Closes Central Connector (12, 9). Verified.
+  - OFF: Opens West Gate (3, 6). Opens Central Connector (12, 9). Verified.
 
 ### Gate Dependencies
 - **Top East Gate (16, 6):** Controlled by S1.
-- **Middle Gate (10, 6):** Controlled by S2.
-- **West Gate (3, 6):** Unknown. Likely S2 or S1 dependency.
+- **Middle Gate (10, 6):** Controlled by S2 (Hypothesis: Requires S1 OFF).
+- **West Gate (3, 6):** Controlled by S3 (OFF=Open).
 - **Central Connector (12, 9):** Controlled by S3 (OFF=Open).
 
 ## Switch Room Connections (Verified)
