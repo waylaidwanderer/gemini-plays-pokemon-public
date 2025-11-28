@@ -1,10 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (6, 11).
+- **Location:** Route 44 (7, 9).
 - **Goal:** Traverse Route 44 East to Ice Path.
-- **Status:** Exploring. Reading sign.
-- **Next Step:** Check Fruit Tree and battle trainers.
+- **Status:** Defeated Psychic Phil.
+- **Next Step:** Harvest Fruit Tree.
+
+## Route 44
+- **Trainers:**
+  - Psychic Phil (Natu Lv24, Kadabra Lv26) at (8, 9). Defeated.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
