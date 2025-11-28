@@ -247,3 +247,4 @@
 - **Unexplored:** Area east of (22, 10) is unseen but potentially reachable.
 - Observation (Turn 11531): Found Switch 1 ON. Cancelled interaction to keep it ON. Checking if this opens Bottom East Gate.
 - Test: [S1: ON, S2: ON, S3: OFF] -> Middle Gate (10, 6) CLOSED. Hypothesis denied.
+- **Discovery:** Turning Switch 1 ON opens the connector at (6, 12), linking West and Middle Rooms South.
