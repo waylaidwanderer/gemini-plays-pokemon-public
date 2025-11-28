@@ -227,3 +227,4 @@
 
 # Tile & Object Mechanics (Addendum)
 - **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
+- **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
