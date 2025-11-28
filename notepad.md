@@ -1,15 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Stop Team Rocket at Radio Tower (Primary)
-- [ ] Open 3F Shutters with Card Key (Secondary)
-- [x] Rescue Director in Underground Warehouse (Completed)
+- [x] Stop Team Rocket at Radio Tower (Completed)
+- [ ] Investigate Tin Tower in Ecruteak (Primary)
+- [ ] Collect Item on 5F (Secondary)
 
-## Radio Tower Infiltration
-- **Objective:** Reach 5F to stop Team Rocket.
-- **Status:** On 5F (East Side).
-- **Current Task:** Checking West Stairs at (0,0). If dead end, backtrack to 3F to find East Stairs.
-- **Layout Note:** 4F is split by a wall. West side (current) has Scientist. East side has 5F access.
+## Radio Tower Infiltration (Cleared)
+- **Status:** Team Rocket disbanded. Executives defeated.
+- **Key Item:** Clear Bell obtained from Director.
+- **Next Step:** Exit tower and fly to Ecruteak.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
