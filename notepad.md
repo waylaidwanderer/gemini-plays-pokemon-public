@@ -52,6 +52,7 @@
 - **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 - **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
+- **Observe Before Assuming:** When seemingly stuck (e.g., trapped in a room), the first action must be to re-examine the entire known map for obvious, overlooked exits before assuming a complex, hidden solution is required. Trust the map data over my own narrative of the situation.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -211,8 +212,7 @@
 - **Objective:** Find a way to the top of the lighthouse.
 - **Status:** I am on 2F, trying to find a path upwards.
 - **Dynamic Warp Puzzle:** The way forward is through two dynamic warps at (16, 11) and (17, 11). These warps are not always visible or active.
-- **Trigger Mechanic:** After defeating the Gentleman trainer at (17, 8), stepping on the tiles at (16, 11) and (17, 11) causes the warps to visually appear. Stepping off the tiles causes them to disappear.
-- **Current Blocker:** While I can make the warps appear, I have not yet found the correct sequence or interaction method to activate them and trigger the transport. I am currently testing hypotheses from my `puzzle_solver` agent.
+- **Trigger Mechanic:** After defeating the Gentleman trainer at (17, 8), stepping on the tiles at (16, 11) and (17, 11) causes the warps to visually appear. Stepping off the tiles causes them to disappear. The exact activation method is still under investigation, but it is not a simple interaction or stepping sequence.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
