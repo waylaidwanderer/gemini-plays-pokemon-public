@@ -206,7 +206,7 @@
 
 # Olivine Lighthouse Puzzle
 - **Objective:** Find a way to the top of the lighthouse.
-- **Blocker:** The direct path up is blocked. There are two anomalous, non-functional warp tiles on 2F at (16, 11) and (17, 11).
+- **Blocker:** The direct path up is blocked. Based on a contradiction between my Mental Map and the Game State Information, I've confirmed that the tiles at (16, 11) and (17, 11) on 2F are NOT warps. This was a hallucination.
 - **Tested & Failed Hypotheses:**
   - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
   - **H3 (Directional Approach):** Approaching either anomalous tile from any cardinal direction (N, S, E, W) does not activate them.
