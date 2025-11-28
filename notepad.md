@@ -248,3 +248,4 @@
 - **Config [S1: OFF, S2: OFF, S3: ON]:** Opens West Gate (3, 6). DEAD END at (3, 10).
 - **Config [S1: ON, S2: OFF, S3: ON]:** Top East Gate (16, 6) appears CLOSED. Testing wall at (22, 6).
 - **CRITICAL HINT:** Rocket Grunt at (3, 2) says 'Change the order of switching. That'll change the ways the shutters open and close.' This implies sequential logic (e.g., S3 then S1 != S1 then S3).
+- **Hypothesis Update (Turn 11724):** Gate state might be edge-triggered (OFF->ON). [S1: ON, S3: OFF] didn't open gate immediately because S1 was already ON. Plan: Toggle S1.
