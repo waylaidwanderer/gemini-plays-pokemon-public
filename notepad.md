@@ -239,3 +239,13 @@
     - **Conclusion:** Failed. No warp occurred.
   - **Test #2:** Step onto warp tile (17, 13) from the north (by moving Down from (17, 12)).
     - **Conclusion:** Failed. No warp occurred.
+
+# Olivine Lighthouse 1F Warp Puzzle - Agent Hypotheses
+- **Agent Output Received:** My puzzle solver agent provided several new hypotheses.
+- **Invalid Hypotheses (Verified against map):**
+  - Approaching (16, 13) from the south (16, 14 is a WALL).
+  - Approaching (17, 13) from the south (17, 14 is a WALL).
+  - Approaching (17, 13) from the east (18, 13 is a WALL).
+- **Hypothesis #6 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from west to east.
+- **Hypothesis #7 (Agent):** The warp requires the player to be facing a specific direction while standing on the tile.
+- **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location.
