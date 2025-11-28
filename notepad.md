@@ -21,19 +21,15 @@
   - East Shaft (21, 25) <-> NW Underground (3, 2)
   - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
 
-## Switch Room Truth Table (SUSPECT - RE-VERIFYING S2)
-**CRITICAL CORRECTION:** Discovered S2 was likely OFF when previously thought ON (Middle Gate Closed). All 'S2 ON' entries below need re-verification.
-| S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | Row 12 Conn (12,12) | Notes |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. |
-| **ON** | OFF | OFF | **OPEN** | **CLOSED** | CLOSED | CLOSED | **OPEN** | CLOSED | S1 opens Top East & Central Conn. Closes Bot East. |
-| OFF | **ON** | OFF | CLOSED | ? | **OPEN** | **OPEN** | CLOSED | **OPEN** | S2 opens Middle. S1 OFF opens Row 12 Conn & West Gate. Top East Closed. West-Mid Conn Open. |
-| **ON** | **ON** | OFF | **OPEN** | CLOSED | **OPEN** | ? | **OPEN** | CLOSED | S2 and S1 coexist! Middle, Top East, & Central Conn ALL OPEN. |
+## Switch Room Truth Table (Rebuilding)
+| S1 | S2 | S3 | Top East (16,6) | Middle (10,6) | Bot East (16,10) | Row 12 Conn (12,12) | Notes |
+|---|---|---|---|---|---|---|---|
+| OFF | OFF | OFF | CLOSED | CLOSED | ? | ? | Baseline (Verified S2 OFF = Middle Closed). |
+| ON | OFF | ? | OPEN | CLOSED | CLOSED | ? | S1 controls East/Mid-East? |
+| OFF | ON | OFF | ? | ? | ? | ? | Current Test. Hypothesis: Opens Middle Gate. |
 
-**Analysis:**
-- **Recent Finding:** Configuration [ON, ON, OFF] results in Middle Gate OPEN but Central Connector CLOSED. This confirms S2 ON overrides S1's opening of the Central Connector.
-- **Paradox:** Reaching the Emergency Switch (South East) requires passing the Bottom East Gate. S1 ON closes this gate. S1 OFF opens it (presumably) but closes the entrance (Top East) and the connector (Central).
-- **Solution Strategy:** The door at (22, 10) in the East Room is accessible when S1 is ON. It likely leads to a path that bypasses the blocked gate.
+**Goal:** Find config to reach Bottom East (Emergency Switch).
+**Hypothesis:** S2 ON opens Middle Gate. S1 OFF opens Row 12 Connector?
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
