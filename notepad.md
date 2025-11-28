@@ -11,7 +11,7 @@
 - **Current State:**
   - **Switch 1:** ON
   - **Switch 2:** ON (Verified)
-  - **Switch 3:** ON
+  - **Switch 3:** OFF
   - **Emergency Switch:** ON
 - **Failed Config:** [S1:ON, S2:ON, S3:ON] -> Middle Gate CLOSED.
 - **Gate Logic Findings:**
@@ -19,7 +19,7 @@
   - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
   - **Middle Gate (10,6):** Controlled by S2 (ON=OPEN).
   - **Connector (12,9):** Requires S1 ON + S2 ON.
-- **Action Plan:** Inspect Middle Room South Path (10,10) with S2:OFF. Consult agent.
+- **Action Plan:** Inspect Middle Gate (10,6) with S2:ON, S3:OFF.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
