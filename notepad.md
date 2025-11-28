@@ -233,3 +233,4 @@
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 ## Olivine Lighthouse Puzzle (Solution)
 - **Mechanic:** The lighthouse is a vertical puzzle. Progress is made by intentionally falling through specific `PIT` tiles on upper floors (like 2F) to access previously unreachable sections of lower floors (like 1F). These new sections contain ladders that lead back up to the other side of the upper floors, opening the path forward.
+- **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
