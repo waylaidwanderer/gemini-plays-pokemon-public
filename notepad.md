@@ -194,4 +194,4 @@
 
 ## Tin Tower
 - Wise Trio Defeated. Access granted.
-- Paprika PP Critical (Flame Wheel 0). MUST use Ether.
+- Paprika PP restored.
