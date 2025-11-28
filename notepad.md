@@ -255,3 +255,6 @@
 - **gym_puzzle_solver (Agent):** Generates hypotheses for gym puzzles.
 - **python_code_debugger (Agent):** Analyzes and fixes bugs in Python scripts.
 - **puzzle_solver (Agent):** Generates hypotheses for general in-game puzzles.
+
+# To-Do
+- Place '🚫' marker at OlivineLighthouse3F (5, 3) to mark the dead-end path.
