@@ -4,34 +4,25 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Switch Room Logic Summary
+## Switch Room Logic Summary (Verified)
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: OFF, S2: OFF, S3: OFF] (Transitioning to Deep South Config).
-- **Lesson:** Trust Tile Types (WALL/FLOOR) over old markers. S2 found ON. S3 found OFF.
-
-### Truth Table (Under Revision)
-| Switch | ON Effect | OFF Effect |
-| :--- | :--- | :--- |
-| **S1 (East)** | Closes West-Mid Conn (6,9). | Connector (12,12) CLOSED (Verified). |
-| **S2 (Mid)** | Opens Middle Gate (10,6). Opens Central Conn (12,9). | Closes Middle Gate (10,6). Closes Central Conn (12,9). |
-| **S3 (West)** | Opens Connector (6,9). West Gate (3,6) CLOSED. | Closes Connector (6,9). Testing West Gate. |
+- **Current Config:** [S1: ON, S2: OFF, S3: OFF].
+- **Switch 1 (East):** 
+  - ON: Opens Top East Gate (16, 6) (Verified).
+  - OFF: Closes Top East Gate (16, 6).
+- **Switch 2 (Middle):** 
+  - ON: Opens Middle Gate (10, 6) (Hypothesis).
+  - OFF: Closes Middle Gate (10, 6) (Verified).
+- **Switch 3 (West):** 
+  - ON: Closes Central Connector (12, 9).
+  - OFF: Opens Central Connector (12, 9) (Verified with S1/S2 OFF).
+  - *Note:* West Gate (3, 6) remains CLOSED in both ON/OFF states (with S1/S2 OFF).
 
 ### Gate Dependencies
-- **Top East Gate (16,6):** Requires [S1: ON, S3: ON] (Verified).
-- **Bottom East Gate (16,10):** Closed by [ON, ON, OFF] and [ON, OFF, ON]. Likely requires S1 OFF?
-- **West-Mid Connector (6,9):** Requires [S1: OFF, S3: OFF] to OPEN.
-
-### Dead Ends & Blockages
-- **West Route (S3 ON):** Access West Room, but Inner Connector (6, 9) is closed. Dead end.
-- **Middle Route (S1 OFF, S2 ON):** Access Middle Room, but blocked south at Row 10.
-- **East Route (S1 ON):** Access via Central Connector (12, 9), but isolated in Middle-East section. Top/Bottom East Gates closed.
-- **Underground 'Behind Counters':** Dead end at (22, 24). No hidden door found.
-
-### Switch Room Experiments
-- **Test 1:** [S1: OFF, S2: OFF, S3: ON] -> West Gate (3, 6) CLOSED. Connector (6, 9) CLOSED.
-- **Test 2:** [S1: OFF, S2: OFF, S3: OFF] -> West Gate (3, 6) CLOSED. Connector (6, 9) OPEN.
-- **Conclusion:** S3 ON closes (6, 9). Neither ON/OFF opens West Gate in isolation (requires S1/S2 dependency).
-- **Next Plan:** Try S1 ON to reach Unexplored Door at (22, 10) in East Room.
+- **Top East Gate (16, 6):** Controlled by S1.
+- **Middle Gate (10, 6):** Controlled by S2.
+- **West Gate (3, 6):** Unknown. Likely S2 or S1 dependency.
+- **Central Connector (12, 9):** Controlled by S3 (OFF=Open).
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
