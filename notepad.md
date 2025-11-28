@@ -101,7 +101,7 @@
 - **TOWN_MAP**: An interactable object on a wall; impassable.
 - **TV**: An impassable object.
 - **BOOKSHELF**: An impassable object.
-- **WINDOW**: An impassable object, functions like a wall.
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **RADIO**: An impassable object.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
