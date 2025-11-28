@@ -27,11 +27,11 @@
 - **East Route (S1 ON):** Access via Central Connector (12, 9), but isolated in Middle-East section. Top/Bottom East Gates closed.
 - **Underground 'Behind Counters':** Dead end at (22, 24). No hidden door found.
 
-### Active Hypothesis
-- **West Route Deep South:**
-  - **Target Config:** [S1: OFF, S2: OFF, S3: ON].
-  - **Logic:** S3 ON opens West Gate (3, 6). It closes (6, 9) but I suspect (6, 12) is OPEN.
-  - **Plan:** Enter West Gate, bypass (6, 9), head South to Row 12, cross East via (6, 12).
+### Switch Room Experiments
+- **Test 1:** [S1: OFF, S2: OFF, S3: ON] -> West Gate (3, 6) CLOSED. Connector (6, 9) CLOSED.
+- **Test 2:** [S1: OFF, S2: OFF, S3: OFF] -> West Gate (3, 6) CLOSED. Connector (6, 9) OPEN.
+- **Conclusion:** S3 ON closes (6, 9). Neither ON/OFF opens West Gate in isolation (requires S1/S2 dependency).
+- **Next Plan:** Try S1 ON to reach Unexplored Door at (22, 10) in East Room.
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
