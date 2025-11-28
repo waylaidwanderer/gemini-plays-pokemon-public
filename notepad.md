@@ -234,3 +234,6 @@
     - **Conclusion:** Failed. No warp occurred.
   - **Test #3:** Step onto warp tile (16, 13) from the north (by moving Down from (16, 12)).
     - **Conclusion:** Failed. No warp occurred.
+- **Hypothesis #5 (Tile 17,13):** The warp is triggered by stepping onto the warp tile from a specific cardinal direction.
+  - **Test #1:** Step onto warp tile (17, 13) from the west (by moving Right from (16, 13)).
+    - **Conclusion:** Failed. No warp occurred.
