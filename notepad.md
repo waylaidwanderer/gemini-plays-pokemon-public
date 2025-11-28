@@ -189,7 +189,3 @@
 ## Goldenrod Notes (Archived)
 - Solved Switch Puzzle: Row 12 opens with Switch 1 ON.
 - Rescued Director, obtained Card Key.
-## Switch Puzzle Solution (Verified)
-- **Configuration:** [S1:ON, S2:OFF, S3:ON]
-- **Effect:** Opens the "Lower Highway" along Row 12 by opening the connector at (6, 12).
-- **Result:** Path West -> East is open via Row 12, bypassing internal shutters.
