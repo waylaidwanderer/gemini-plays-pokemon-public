@@ -21,7 +21,8 @@
   - East Shaft (21, 25) <-> NW Underground (3, 2)
   - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
 
-## Switch Room Truth Table (Verified)
+## Switch Room Truth Table (SUSPECT - RE-VERIFYING S2)
+**CRITICAL CORRECTION:** Discovered S2 was likely OFF when previously thought ON (Middle Gate Closed). All 'S2 ON' entries below need re-verification.
 | S1 | S2 | S3 | Top East (16,6) | Bot East (16,10) | Middle (10,6) | West (3,6) | Central Conn (12,9) | Row 12 Conn (12,12) | Notes |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | OFF | OFF | OFF | CLOSED | ? | CLOSED | CLOSED | ? | ? | Baseline. |
