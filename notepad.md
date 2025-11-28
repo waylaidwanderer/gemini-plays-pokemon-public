@@ -256,3 +256,4 @@
 - [S1: OFF, S2: ON, S3: ON] -> West Gate CLOSED (S2 ON likely overrides S3 ON).
 - **Interaction Lesson:** Always check facing direction (Up/Down/Left/Right) before interacting.
 - **Unexplored:** Area east of (22, 10) is unseen but potentially reachable.
+- Observation (Turn 11531): Found Switch 1 ON. Cancelled interaction to keep it ON. Checking if this opens Bottom East Gate.
