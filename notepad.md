@@ -7,7 +7,7 @@
 
 ## Radio Tower Infiltration
 - **Objective:** Reach 5F to stop Team Rocket.
-- **Status:** On 4F (West Side).
+- **Status:** On 5F (East Side).
 - **Current Task:** Checking West Stairs at (0,0). If dead end, backtrack to 3F to find East Stairs.
 - **Layout Note:** 4F is split by a wall. West side (current) has Scientist. East side has 5F access.
 
