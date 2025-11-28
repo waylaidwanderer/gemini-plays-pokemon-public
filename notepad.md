@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 38
-- **Location:** Route 38 (Grass).
-- **Goal:** Catch a Flying Pokémon (Noctowl/Pidgeotto).
-- **Status:** Hunting.
-- **Next Step:** Encounter wild Pokémon. Switch to Shuckle to weaken.
+- **Location:** Route 38.
+- **Goal:** Return to Ecruteak City.
+- **Status:** Transit.
+- **Next Step:** Retrieve Vortex from PC.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
-- [ ] Catch a Pokémon that can Fly (e.g. Noctowl/Pidgeotto).
+- [x] Catch a Pokémon that can Fly (Vortex caught).
 - [ ] Retrieve item from Gina (Route 34).
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
