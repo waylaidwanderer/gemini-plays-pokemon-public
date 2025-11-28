@@ -5,9 +5,13 @@
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
 ## Switch Room Strategy
-- **Hypothesis:** The "East Shaft" loop is a dead end. The key to reaching the Emergency Switch (South East) lies within the East Room of the main hub, specifically the locked door at (22, 10).
-- **Goal:** Open Top East Gate (Switch 1 ON) and investigate door at (22, 10).
-- **Path:** Main Underground (3_53) -> Main Switch Room Hub (via 18, 6) -> Toggle Switch 1 ON -> Enter East Room -> Check Door.
+- **Logic Confirmed:**
+  - **S1:** Controls East Section. ON = Top East Open, Bottom/Row 12 Closed. OFF = Top East Closed, Row 12 Connector (12,12) OPEN.
+  - **S2:** Controls Middle Gate (10,6). ON = OPEN. OFF = CLOSED.
+  - **S3:** Controls West Section. ON = West Gate Closed & Connector (6,9) Closed (TRAP). OFF = Safe.
+- **Current Config:** [S1: OFF, S2: ON, S3: OFF].
+- **Goal:** Reach Unexplored Door at (22, 10) via Middle Room -> Row 12 Connector.
+- **Path:** Switch 1 (OFF) -> Middle Gate (10,6) -> Row 12 Connector (12,12) -> East.
 
 ## Status
 - **Location:** Goldenrod Underground (North West).
