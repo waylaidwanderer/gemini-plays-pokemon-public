@@ -143,7 +143,7 @@
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. The pit at (17, 13) on 2F is the correct path forward, leading to a new area on 1F.
+- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. Both pits on 2F lead to an isolated section of 1F, which in turn leads to a dead-end on 3F. The pit mechanic in this area is a red herring and not the path forward.
 
 # Current Quest: Journey to Olivine City
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
