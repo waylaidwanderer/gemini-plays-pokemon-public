@@ -249,3 +249,11 @@
 - **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
 - **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
 - **Current Test:** Testing Hypothesis 5 by moving from (17, 11) to (16, 11).
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (Defeat Trainers):** The hidden warp tiles on 2F are activated by defeating all trainers on the floor. (Status: Likely already failed, all known trainers defeated).
+- **Hypothesis 2 (Defeat Blocker):** The trainer blocking the path on 3F must be defeated. (Status: Already failed, trainer defeated and did not move).
+- **Hypothesis 3 (Directional Approach):** The hidden warps must be stepped on from a specific side.
+- **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
+- **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
+- **Current Test:** None.
