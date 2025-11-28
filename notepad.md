@@ -264,4 +264,4 @@ My previous 'Tools & Agents' list was incomplete. Here is the full list for my r
 
 ## New Lessons & Reminders
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
-- **REMINDER:** When I return to OlivineLighthouse2F, I must mark the Sailor at (9, 3) with '🚫' and the label 'Path blocked'.
+- **REMINDER:** When I return to OlivineLighthouse2F, I must check on the Sailor at (9, 3). If he is still present and blocking the path, I must mark him with '🚫' and the label 'Path blocked by static/bugged Sailor'.
