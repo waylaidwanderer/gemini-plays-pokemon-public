@@ -214,7 +214,7 @@
 - **Solution:** The image is KABUTO.
 
 ## Olivine Lighthouse Puzzle
-- **Mechanic Discovery (CRITICAL):** The puzzle on 2F is a 'path of light' style puzzle. Stepping on a sparkly floor tile causes it to go dark and one or more other tiles on the floor to light up. The goal is likely to create a continuous path of light to the ladder at (5, 3).
+- **Agent Hypothesis #1 (Post-Battle Dialogue):** FAILED. Spoke to Gentleman Alfred at (17, 8) after defeating him. His dialogue was unchanged, and no event was triggered.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
