@@ -245,7 +245,7 @@
 - **NPC Hints vs. Core Assumptions:** If progress is blocked and simple solutions fail, actively seek out NPC dialogue. Hints from NPCs can directly invalidate a core hypothesis (like 'all trainers must be defeated') and reveal the puzzle's true nature, preventing wasted time on a flawed strategy.
 
 # Custom Tools & Agents
-- **find_path:** [BROKEN] Do not use. Fails on simple paths.
+- **find_path:** Finds a path from a start to an end coordinate on the current map using a basic, reliable Breadth-First Search (BFS) algorithm.
 - **select_item:** Automates selecting a specific item from the bag menu.
 - **select_move:** Selects a move from the battle menu by name.
 - **switch_pokemon:** Automates switching to a specific Pokémon in the party during a battle.
