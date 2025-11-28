@@ -7,6 +7,7 @@
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. I must always call the correct, existing tools for their intended purpose.
 - **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on—adding, deleting, or fixing an agent, tool, marker, or notepad entry—MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred. If a tool is flawed, a better one can be conceived, or it contradicts reality, fixing or creating it is the top priority, superseding all other objectives.
 - **VERIFY POSITION & SEPARATE INPUTS:** After any interruption (battle, menu, etc.) and before any action, I MUST verify my current `(x, y)` coordinates in the Game State Information. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
+- **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task, I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 - **MAP MARKER & DATA HYGIENE:** Maintaining an accurate world model is a critical, non-negotiable priority. 1) **Consult First:** Before any interaction or navigation, I MUST consult my map markers to avoid repeating actions or making routing errors based on old information. 2) **Link Immediately:** When creating a marker for an object, it MUST be linked to its `object_id` immediately. 3) **Update Promptly:** Markers must be updated immediately after an event (e.g., marking a trainer as 'defeated' with ☠️, deleting markers for collected items with ✅). Old markers must be deleted when new ones are created for the same object. 4) **Handle Stale Data:** If an object with a linked marker moves off-screen, the marker becomes stale and must be deleted. A new marker should only be created if the object reappears.
 - **Agent Escalation for Debugging:** If I am struggling to debug a tool manually after a few attempts, I MUST escalate to the `python_code_debugger` agent. It can often identify logical flaws more quickly and efficiently than I can.
@@ -121,7 +122,7 @@
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
-- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
+- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER / POKEFAN_M**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
@@ -206,13 +207,15 @@
 - **Solution:** The image is KABUTO.
 
 # Olivine Lighthouse Puzzle
-- **Critical Discovery:** The tiles at 2F (16, 11) and (17, 11) are confirmed to be special, hidden warps. A high-level system warning overrode the raw `Game State -> Map Events` list, which does not show them. This is a critical discovery: some warps may be intentionally hidden from the game's standard data. The puzzle solution must involve activating these tiles.
-- **Failed Hypotheses:**
-  - The western side of 3F is a confirmed dead end, blocked by Bird Keeper Theo. Leaving and re-entering the floor does not move him.
-  - The eastern path on 2F is a dead end leading to one-way pits that drop to a dead-end room on 1F.
-  - The anomalous warps on 2F are not activated by stepping on them, interacting from adjacent tiles (left, below), or stepping on them in sequence.
-  - Defeating all trainers does not appear to be the trigger.
-  - Talking to defeated trainers again provides no new clues.
+- **Objective:** Find a way to the top of the lighthouse.
+- **Blocker:** The direct path up is blocked. There are two anomalous, non-functional warp tiles on 2F at (16, 11) and (17, 11).
+- **Tested & Failed Hypotheses:**
+  - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
+  - **H3 (Directional Approach):** Approaching either anomalous tile from any cardinal direction (N, S, E, W) does not activate them.
+- **Current Hypothesis (H4):** A hidden item or trigger exists in the isolated room on 1F, accessible only by falling through the pits on 2F.
+- **Next Hypotheses to Test:**
+  - **H1 (Defeat All Trainers):** Re-verify that all trainers on 2F and 3F have been defeated.
+  - **H2 (Defeat Blocker):** This was already confirmed to have failed. The trainer at 3F does not move after defeat.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -241,21 +244,3 @@
 
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Defeat Trainers):** The hidden warp tiles on 2F are activated by defeating all trainers on the floor. (Status: Likely already failed, all known trainers defeated).
-- **Hypothesis 2 (Defeat Blocker):** The trainer blocking the path on 3F must be defeated. (Status: Already failed, trainer defeated and did not move).
-- **Hypothesis 3 (Directional Approach):** The hidden warps must be stepped on from a specific side.
-- **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
-- **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
-- **Hypothesis 5 (Sequence):** FAILED. Neither L->R nor R->L stepping sequence worked.
-- **Hypothesis 3 (Directional Approach):** FAILED. All directional approaches on both anomalous tiles have been tested and did not activate the warps.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Defeat Trainers):** The hidden warp tiles on 2F are activated by defeating all trainers on the floor. (Status: Likely already failed, all known trainers defeated).
-- **Hypothesis 2 (Defeat Blocker):** The trainer blocking the path on 3F must be defeated. (Status: Already failed, trainer defeated and did not move).
-- **Hypothesis 3 (Directional Approach):** The hidden warps must be stepped on from a specific side.
-- **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
-- **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
-- **Hypothesis 5 (Sequence):** FAILED. Neither L->R nor R->L stepping sequence worked.
-- **Hypothesis 3 (Directional Approach):** FAILED. All directional approaches on both anomalous tiles have been tested and did not activate the warps.
