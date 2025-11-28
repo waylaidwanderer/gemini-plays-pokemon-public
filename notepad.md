@@ -19,7 +19,7 @@
   - [S1: ON, S2: OFF, S3: OFF] confirmed Dead End. Top East (16, 6) OPEN, but Bottom East (16, 10) CLOSED.
 - **Next Step:** Turn S1 OFF, Turn S2 ON. Check path via Middle Gate (10, 6) -> Row 12 Connector (12, 12).
 - **Switch Logic Update:** 
-  - [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN, West Gate OPEN, (12,9) Conn CLOSED.
+  - [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN, West Gate CLOSED (hypothesized), (12,9) Conn CLOSED (hypothesized), (6,12) Conn CLOSED (verified), (16,10) Bot East CLOSED (verified).
   - [S1:OFF, S2:OFF, S3:OFF] -> Middle Gate CLOSED, West Gate CLOSED, (12,9) Conn OPEN.
 
 ## Status
