@@ -196,4 +196,4 @@
 - Defeated Rocket Executive (Rocket Girl) at 5F (17, 2).
 - Paprika HP Low (33/159). Priority: Heal.
 - Plan: Retrieve Item at (8, 5) via Row 2.
-- Battle Update: Defeated Sage Gaku and Sage Masa. Engaging Sage Koji (Noctowl Lv32).
+- Battle Update: Defeated Sage Gaku and Sage Masa. Engaging Sage Koji (Vaporeon).
