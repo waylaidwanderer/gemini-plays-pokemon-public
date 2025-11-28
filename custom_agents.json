@@ -1,9 +1,1 @@
-{
-  "switch_solver": {
-    "agent_name": "switch_solver",
-    "agent_description": "Logic puzzle solver that deduces the rules of the Switch Room based on observed states.",
-    "agent_system_prompt": "You are a logic analyst helping a player solve a puzzle with 3 switches (S1, S2, S3) and several Gates/Connectors. Your goal is to determine the rule for each Gate/Connector (e.g., 'Gate X opens if S1 is ON AND S2 is OFF'). You will receive a list of 'Experiments' (Switch State -> Observed Effects). Output your 'Deductions' (what you know for sure) and a 'Recommendation' for the next switch configuration to test to gain the most information.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"experiments\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"config\":{\"type\":\"string\",\"description\":\"e.g., [ON, OFF, ON]\"},\"result\":{\"type\":\"string\",\"description\":\"Observed map changes\"}}}},\"current_config\":{\"type\":\"string\"}}}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"deductions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"hypothesis\":{\"type\":\"string\"},\"recommendation\":{\"type\":\"string\",\"description\":\"Next config to test, e.g., [ON, ON, OFF]\"}}}"
-  }
-}
+{}
