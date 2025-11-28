@@ -133,7 +133,7 @@
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
 - **FLOWER**: Fully traversable decorative tile.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
-- **To interact with objects** like ladders, signs, or switches, you must be standing on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
+- **To interact with objects** like ladders, signs, or switches, you must be on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
 - **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
 - **SUPER_NERD**: Impassable NPC, functions as a wall.
 - **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
@@ -211,6 +211,7 @@
 
 ## Olivine Lighthouse Puzzle (Solution)
 - **Mechanic:** The lighthouse is a vertical puzzle. Progress is made by intentionally falling through specific `PIT` tiles on upper floors (like 2F) to access previously unreachable sections of lower floors (like 1F). These new sections contain ladders that lead back up to the other side of the upper floors, opening the path forward.
+- **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -229,7 +230,3 @@
 
 # Battle Anomaly 2
 - A second battle anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue 'Hey, let's battle again!' appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
-- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
-## Olivine Lighthouse Puzzle (Solution)
-- **Mechanic:** The lighthouse is a vertical puzzle. Progress is made by intentionally falling through specific `PIT` tiles on upper floors (like 2F) to access previously unreachable sections of lower floors (like 1F). These new sections contain ladders that lead back up to the other side of the upper floors, opening the path forward.
-- **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
