@@ -251,6 +251,7 @@
 - **Switch 1:** Likely controls Row 12 Connector (12, 12). OFF = Open (Verified previously). ON = Closed.
 - **Switch 2:** Controls Middle Gate (10, 6). ON = Open. OFF = Closed.
 - Teacher in West Shaft (3, 27): Warns of trainers downstairs (Main Underground).
-- **New Discovery:** With [S1: OFF, S2: OFF, S3: OFF], the West Gate (3, 6) is CLOSED. Previously with [S1: OFF, S2: ON, S3: OFF], it was OPEN. This implies Switch 2 may control the West Gate (ON = OPEN).
+- **Confirmed Logic:** [S1: OFF, S2: OFF, S3: ON] -> West Gate (3, 6) OPEN, Connector (6, 9) CLOSED, Connector (6, 12) OPEN.
+- **Path:** West Room -> South to (6, 12) -> Middle Room South -> (12, 12) -> East Room South.
 - **Lesson:** Always verify switch states explicitly via interaction text. Do not rely on memory or markers if they conflict.
 - **Dead Ends:** Confirmed that both the East Shaft (via 3,2) and West Shaft (via 5,25) are blocked by walls at Row 21/23, preventing access to the northern Switch Room sections from the Underground.
