@@ -1,1 +1,9 @@
-{}
+{
+  "switch_logic_agent": {
+    "agent_name": "switch_logic_agent",
+    "agent_description": "A logic puzzle solver that tracks the state of 3 switches (S1, S2, S3) and their effects on various gates/shutters to deduce the correct permutation for reaching specific areas.",
+    "agent_system_prompt": "You are a logic puzzle assistant for a game. There are 3 switches (Switch 1, Switch 2, Switch 3) that toggle ON/OFF. These switches control various security gates/shutters (Top East, Bottom East, Middle, West, Central Connector, etc.). Your goal is to analyze observed states and deduce the rules governing the gates. You will receive the current switch configuration and the observed state of gates. Output a hypothesis about which switch controls which gate and suggest the next configuration to test if the goal is not met. The goal is usually to open a specific path (e.g., to the South East Emergency Switch).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"switches\":{\"type\":\"object\",\"properties\":{\"S1\":{\"type\":\"string\",\"enum\":[\"ON\",\"OFF\"]},\"S2\":{\"type\":\"string\",\"enum\":[\"ON\",\"OFF\"]},\"S3\":{\"type\":\"string\",\"enum\":[\"ON\",\"OFF\"]}},\"required\":[\"S1\",\"S2\",\"S3\"]},\"observations\":{\"type\":\"string\",\"description\":\"List of observed gate states (e.g., 'Top East: OPEN, Middle: CLOSED')\"},\"goal\":{\"type\":\"string\"}},\"required\":[\"switches\",\"observations\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"hypothesis\":{\"type\":\"string\"},\"suggested_config\":{\"type\":\"object\",\"properties\":{\"S1\":{\"type\":\"string\"},\"S2\":{\"type\":\"string\"},\"S3\":{\"type\":\"string\"}}}}}"
+  }
+}
