@@ -4,20 +4,13 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Switch Room Logic Summary (Verified)
+## Switch Room Logic Summary (Testing)
 - **Objective:** Access South East area (Emergency Switch).
 - **Current Config:** [S1: ON, S2: OFF, S3: OFF].
-- **Switch 1 (East):** 
-  - ON: Opens Top East Gate (16, 6).
-- **Switch 2 (Middle):** 
-  - ON + S1 ON: Middle Gate (10, 6) CLOSED.
-  - OFF + S1 ON: Middle Gate (10, 6) CLOSED.
-  - ON + S1 OFF: **To Be Verified** (Previous attempt failed due to checking wrong location).
-- **Switch 3 (West):** 
-  - OFF: Opens West Gate (3, 6).
-  - ON: West Gate (3, 6) CLOSED.
-- **Switch 1 (East):**
-  - ON: Opens Top East Gate (16, 6), West Gate (3, 6), wall at (16, 7)/(17, 7), and Connector (12, 9).
+- **Observations:**
+  - [S1: ON, S2: OFF, S3: ON] -> West Gate (3, 6) CLOSED. Connector (6, 9) CLOSED. (Trapped in NW).
+  - [S1: ON, S2: OFF, S3: OFF] -> Top East Gate (16, 6) OPEN. Wall (16, 7) OPEN. Connector (12, 9) OPEN. West Gate (3, 6) TBD.
+- **Hypothesis:** S3 controls West Gate, but S1 might override or interact.
 
 ### Lessons Learned
 - **Position Verification:** In Turn 11586, I hallucinated my position (15, 5) as (10, 5) and checked a wall in the East Room instead of the Middle Gate. Always check coordinates!
