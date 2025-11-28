@@ -8,25 +8,28 @@
 ## Switch Room Puzzle
 - **Objective:** Reach Emergency Switch (SE Corner, 20,11).
 - **Current Config:** [S1:ON, S2:OFF, S3:ON].
-- **Solution Found:** S1:ON opens the lower connector (6,12), creating a 'highway' along Row 12 to the East.
+- **Problem:** West Room South Path (Row 10) is BLOCKED (WALL) with this config.
+- **Hypothesis:** Turn S3 OFF. If S3 controls West Shutter (like S1 controls Middle Shutter), S3:OFF might open it. S1:ON should keep West Gate open.
 - **Gate Logic Summary:**
   - **S1:ON:**
     - South Shutter (10,10): OPEN
-    - Upper Connectors (6,9 & 12,9): CLOSED (Observed with S2:OFF)
-    - Lower Connector (6,12): OPEN (Verified)
+    - Upper Connectors (6,9 & 12,9): CLOSED
+    - Lower Connector (6,12): OPEN
     - Middle Gate (10,6): CLOSED
+    - West Gate (3,6): OPEN
   - **S1:OFF:**
     - South Shutter (10,10): CLOSED
-    - Upper Connectors (6,9): OPEN (Verified with S2:ON)
-    - Middle Gate (10,6): OPEN (Verified with S2:ON)
-  - **S2:** Controls Middle Gate (ON=Open, unless overridden by S1).
-  - **S3:** Controls West Gate (ON=Open).
-- **Strategy:** With S1:ON, bypass the upper blocks by using the lower connector (6,12) to traverse West -> Middle -> East along Row 12.
+    - Upper Connectors (6,9): OPEN
+    - Middle Gate (10,6): OPEN
+  - **S2:** Controls Middle Gate (ON=Open).
+  - **S3:** Controls West Gate (ON=Open). Maybe West Shutter too?
 - **Verified Configurations:**
   1. [ON, ON, OFF] -> Mid Gate Closed, (6,9) Closed, (12,9) Open.
   2. [OFF, ON, OFF] -> Mid Gate Open, (6,9) Open, Shutter Closed.
   3. [OFF, ON, ON] -> Mid Gate Open, (6,9) Open, Shutter Closed.
-  4. [ON, OFF, ON] -> (Current) (6,9) Closed, (6,12) OPEN.
+  4. [ON, OFF, ON] -> (Current) (6,9) Closed, (6,12) OPEN, West Shutter (3,10) CLOSED.
+  5. [OFF, ON, OFF] -> Middle Gate (10, 6) OPEN. West-Middle Connector (6, 9) OPEN. Middle-East Connector (12, 9) CLOSED. South Shutter (10, 10) CLOSED.
+  6. [OFF, ON, ON] -> Middle Gate OPEN. West-Middle Connector (6, 9) OPEN. South Shutter (10, 10) CLOSED. West Gate OPEN.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
