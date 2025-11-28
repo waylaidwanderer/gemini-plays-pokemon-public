@@ -229,3 +229,5 @@
   - **Conclusion:** Failed. NPC provided only flavor text. No event was triggered.
 - **Hypothesis #4 (Agent):** The warp is triggered by stepping onto one of the warp tiles from a specific cardinal direction.
   - **Test #1:** Step onto warp tile (16, 13) from the west (by moving Right from (15, 13)).
+    - **Conclusion:** Failed. No warp occurred.
+  - **Test #2:** Step onto warp tile (16, 13) from the east (by moving Left from (17, 13)).
