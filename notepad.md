@@ -239,3 +239,5 @@
 - **Agent Hypothesis #4 (Hidden Item - Part 2):** FAILED. Searched the puzzle tile at (17, 11) for a hidden item. Nothing was found.
 - **VERIFY POSITION & SEPARATE INPUTS (CRITICAL UPDATE):** A critical hallucination occurred because I failed to verify my coordinates after a pathing tool execution. I MUST verify my current `(x, y)` in the Game State Information after EVERY movement or interruption (battle, menu, etc.) before planning my next action. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+## Olivine Lighthouse - Sailor Huey Puzzle
+- **Agent Hypothesis #1 (Map Reset):** FAILED. Descended to 1F and returned to 2F. The sailor's interaction is still bugged and does not initiate a battle.
