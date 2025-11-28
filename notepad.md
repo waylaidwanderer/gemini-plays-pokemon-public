@@ -1,9 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [x] Stop Team Rocket at Radio Tower (Completed)
 - [ ] Investigate Tin Tower in Ecruteak (Primary)
-- [x] Collect Item on 5F (Ultra Ball) (Completed)
+
+## New Insights
+- **Inventory Lists:** Not always alphabetical. Be careful with scrolling tools.
+- **Phone:** Gina (Route 34) called. "Come for it". Likely an item.
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
