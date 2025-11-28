@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 34
-- **Location:** Route 34 (10, 25).
-- **Goal:** Fly to Mahogany Town.
-- **Status:** Gina had no item. Resuming journey.
-- **Next Step:** Fly to Mahogany (Start -> Pokemon -> Vortex -> Fly -> Up x4).
+## 📍 Current Status: Mahogany Town
+- **Location:** Mahogany Town (15, 14).
+- **Goal:** Head East to Route 44 -> Ice Path -> Blackthorn City.
+- **Status:** Arrived via Fly. Standing in front of Pokemon Center.
+- **Next Step:** Navigate East to find the exit to Route 44.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
