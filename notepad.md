@@ -3,8 +3,8 @@
 ## 📍 Current Status: Mahogany Town House
 - **Location:** Mahogany Town House (2, 7).
 - **Goal:** Talk to NPCs -> Exit -> Head East to Route 44 -> Blackthorn City.
-- **Status:** Inside house. Moving to talk to Teacher.
-- **Next Step:** Talk to Teacher, then exit to Route 44.
+- **Status:** Finished talking to NPCs in Mahogany House.
+- **Next Step:** Exit house and head East to Route 44.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
