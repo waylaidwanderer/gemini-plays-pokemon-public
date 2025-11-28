@@ -8,8 +8,8 @@
 - **Objective:** Access South East area (Emergency Switch).
 - **Current Config:** [S1: ON, S2: ON, S3: OFF].
 - **Switch 1 (East):** 
-  - ON: Opens Top East Gate (16, 6) (Verified).
-  - OFF: Closes Top East Gate (16, 6).
+  - ON: Opens Top East Gate (16, 6). Opens West Gate (3, 6). Closes Middle Gate (10, 6) (Hypothesis).
+  - OFF: Closes Top East Gate (16, 6). Closes West Gate (3, 6) (Verified).
 - **Switch 2 (Middle):** 
   - ON: Opens Middle Gate (10, 6) (Hypothesis).
   - OFF: Closes Middle Gate (10, 6) (Verified).
