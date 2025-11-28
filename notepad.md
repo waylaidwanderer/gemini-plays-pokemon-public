@@ -259,3 +259,6 @@
 - **puzzle_solver (Agent):** Generates hypotheses for general in-game puzzles.
 - **YOUNGSTER**: Impassable NPC, functions as a wall.
 - **POKEFAN_F**: Impassable NPC, functions as a wall.
+
+## Olivine Lighthouse Puzzle (Continued)
+- **Dynamic Warps:** Warps at (16, 11) and (17, 11) on 2F appeared after talking to the Gentleman at (17, 8), but then disappeared after I moved. The trigger seems to be temporary or conditional. I must re-investigate the Gentleman to see if he re-enables them.
