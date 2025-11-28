@@ -241,3 +241,7 @@
 - Observation (Turn 11531): Found Switch 1 ON. Cancelled interaction to keep it ON. Checking if this opens Bottom East Gate.
 - Test: [S1: ON, S2: ON, S3: OFF] -> Middle Gate (10, 6) CLOSED. Hypothesis denied.
 - **Discovery:** Turning Switch 1 ON opens the connector at (6, 12), linking West and Middle Rooms South.
+## Switch Room SOLVED
+- **Configuration:** [S1: OFF, S2: OFF, S3: ON]
+- **Result:** Opens West Gate (3, 6) and Southern Connector (6, 12).
+- **Path:** Go West -> South -> East to bypass walls and reach the Emergency Switch.
