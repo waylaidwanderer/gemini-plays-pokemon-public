@@ -237,3 +237,9 @@
 - **Anomalous Warps:** The tiles at 2F (16, 11) and (17, 11) are visually labeled as warps on-screen, but do not appear in the Game State event list. Simple interaction and movement tests have failed to activate them. Their function is a key part of the current puzzle.
 - **3F Western Path:** This area was initially dismissed as a dead end, but since all other paths are exhausted, it must be re-investigated for a hidden connection to the eastern side of the floor.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
+
+# Olivine Lighthouse Puzzle
+- **Agent Hypothesis #1 (Reset NPC):** FAILED. Leaving and re-entering OlivineLighthouse3F did not move Bird Keeper Theo from his blocking position at (3, 9). The western side of 3F is a confirmed dead end.
+- **Agent Hypothesis #2 (Alternate Path from 2F):** IN PROGRESS. Currently investigating the anomalous floor tiles at 2F (16, 11) and (17, 11).
+  - **Sub-Hypothesis:** The tiles are not step-on warps but require interaction (like a switch).
+  - **Test:** Interact with the tiles from an adjacent position. Attempting to interact from (17, 12) after failing from (17, 10).
