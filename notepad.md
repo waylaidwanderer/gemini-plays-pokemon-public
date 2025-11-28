@@ -242,8 +242,11 @@
 - **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
 
 # Hallucinations & Corrections
-- **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
-- **NPC Hints vs. Core Assumptions:** If progress is blocked and simple solutions fail, actively seek out NPC dialogue. Hints from NPCs can directly invalidate a core hypothesis (like 'all trainers must be defeated') and reveal the puzzle's true nature, preventing wasted time on a flawed strategy.
+- **Verify Root Assumptions & Dynamic Game State:** I experienced a severe, multi-turn hallucination loop in the Olivine Lighthouse regarding warps at (16, 11) and (17, 11). This was caused by a failure to strictly trust the authoritative `Game State Information -> Map Events -> Warps` list as my single source of truth. The situation was complicated by the fact that the game state can be *dynamic*—these warps did not exist initially, but appeared later. The critical lesson is twofold: 1) Always trust the raw Game State data over my own perception or Mental Map. 2) Re-verify this data frequently, especially after exploring or triggering events, as the game world itself can change.
+- **Agent Hypothesis #1 (Window Ledge Exit):**
+  - Test 1: Attempted to walk through window at (8, 1).
+  - Result: Movement blocked. The window is impassable.
+  - Conclusion: This specific window is not an exit.
 
 # Custom Tools & Agents
 - **find_path:** Finds a path from a start to an end coordinate on the current map using a basic, reliable Breadth-First Search (BFS) algorithm.
@@ -256,13 +259,3 @@
 - **puzzle_solver (Agent):** Generates hypotheses for general in-game puzzles.
 - **YOUNGSTER**: Impassable NPC, functions as a wall.
 - **POKEFAN_F**: Impassable NPC, functions as a wall.
-
-# Hallucinations & Corrections
-- **Dynamic Game State:** The warps at Olivine Lighthouse 2F (16, 11) and (17, 11) initially did not exist in the game state, leading me to correctly identify them as a visual hallucination. However, after I explored other paths and returned, the game state had updated to include them as real, functional warps. Lesson: The game state is not static. A previously correct assumption based on old data can become incorrect. I must constantly re-verify my world model against the *current* game state, especially after leaving and re-entering an area or triggering unseen events.
-- **Agent Hypothesis #1 (Window Ledge Exit):**
-  - Test 1: Attempted to walk through window at (8, 1).
-  - Result: Movement blocked. The window is impassable.
-  - Conclusion: This specific window is not an exit.
-
-# Hallucinations & Corrections
-- **Verify Root Assumptions:** My repeated failures in the lighthouse were caused by a hallucination that the game state had dynamically added new warps. My root assumption was flawed because I failed to strictly verify it against the authoritative `Game State Information -> Map Events -> Warps` list. Lesson: Before pursuing a complex or unusual solution, I MUST rigorously test my foundational belief against the raw game data. Trust the Game State's lists over my own perception or even my Mental Map, which can become corrupted by past hallucinations.
