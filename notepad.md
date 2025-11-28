@@ -195,4 +195,4 @@
 - Defeated Rocket Executive (Rocket Girl) at 5F (17, 2).
 - Paprika HP Low (33/159). Priority: Heal.
 - Plan: Retrieve Item at (8, 5) via Row 2.
-- Battle Update: Engaging Rocket Executive at (13, 5). He uses Houndour and Koffing.
+- Battle Update: Engaging Rocket Executive at (13, 5). He uses Houndour, Koffing, and Houndoom.
