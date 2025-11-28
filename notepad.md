@@ -48,6 +48,7 @@
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
 - **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
 - **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
+- **Recognizing Unproductive Loops:** If I find myself repeating the same failed actions or testing minor variations of a failed hypothesis, I must recognize this pattern quickly. Instead of persisting, I must pivot to a completely new hypothesis or backtrack to re-evaluate the puzzle from a different perspective. Persisting in a loop is a strategic failure.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -203,6 +204,15 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
+# Olivine Lighthouse Puzzle
+- **Critical Discovery:** The tiles at 2F (16, 11) and (17, 11) are confirmed to be special, hidden warps. A high-level system warning overrode the raw `Game State -> Map Events` list, which does not show them. This is a critical discovery: some warps may be intentionally hidden from the game's standard data. The puzzle solution must involve activating these tiles.
+- **Failed Hypotheses:**
+  - The western side of 3F is a confirmed dead end, blocked by Bird Keeper Theo. Leaving and re-entering the floor does not move him.
+  - The eastern path on 2F is a dead end leading to one-way pits that drop to a dead-end room on 1F.
+  - The anomalous warps on 2F are not activated by stepping on them, interacting from adjacent tiles (left, below), or stepping on them in sequence.
+  - Defeating all trainers does not appear to be the trigger.
+  - Talking to defeated trainers again provides no new clues.
+
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 
@@ -230,17 +240,3 @@
 
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
-- **Olivine Lighthouse 2F Warps:** I hallucinated that warps existed at (16, 11) and (17, 11) based on a faulty system warning and corrupted mental map data. The `Game State Information -> Map Events -> Warps` list, which is the absolute source of truth, confirms no warps exist at these locations. This is a critical lesson to always trust the raw game state event list over any other source, including system warnings or my own map XML.
-
-## Olivine Lighthouse Puzzle
-- **2F Eastern Path:** Confirmed dead end. The path only leads to the PITs at (16, 13) and (17, 13), which are a one-way drop to a dead-end room on 1F.
-- **Anomalous Warps Confirmed:** The tiles at 2F (16, 11) and (17, 11) are confirmed to be special, hidden warps. A high-level system warning overrode the raw `Game State -> Map Events` list, which does not show them. This is a critical discovery: some warps may be intentionally hidden from the game's standard data. My previous conclusion that I was hallucinating was incorrect. The puzzle solution must involve activating these tiles.
-- **3F Western Path:** This area was initially dismissed as a dead end, but since all other paths are exhausted, it must be re-investigated for a hidden connection to the eastern side of the floor.
-- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
-
-# Olivine Lighthouse Puzzle
-- **Agent Hypothesis #1 (Reset NPC):** FAILED. Leaving and re-entering OlivineLighthouse3F did not move Bird Keeper Theo from his blocking position at (3, 9). The western side of 3F is a confirmed dead end.
-- **Agent Hypothesis #2 (Alternate Path from 2F):** IN PROGRESS. Currently investigating the anomalous floor tiles at 2F (16, 11) and (17, 11).
-  - **Sub-Hypothesis:** The tiles are not step-on warps but require interaction (like a switch).
-  - **Test:** Interact with the tiles from an adjacent position. Attempting to interact from (17, 12) after failing from (17, 10).
-- **Loop Breaking:** If I am stuck in a loop of failed actions (e.g., repeatedly trying to interact with an object with no result), I must recognize this pattern quickly. Instead of trying minor variations of the failed action, I must pivot to a completely new hypothesis or backtrack to re-evaluate the puzzle from a different perspective. Persisting in a loop is a strategic failure.
