@@ -237,3 +237,4 @@
 - **Agent Hypothesis #3 (Different Pit Outcomes):** FAILED. Both the left pit (16, 13) and the right pit (17, 13) on 2F lead to the same interconnected room on 1F. There is no difference in outcome.
 - **Agent Hypothesis #4 (Hidden Item - Part 1):** FAILED. Searched the puzzle tile at (16, 11) for a hidden item. Nothing was found.
 - **Agent Hypothesis #4 (Hidden Item - Part 2):** FAILED. Searched the puzzle tile at (17, 11) for a hidden item. Nothing was found.
+- **VERIFY POSITION & SEPARATE INPUTS (CRITICAL UPDATE):** A critical hallucination occurred because I failed to verify my coordinates after a pathing tool execution. I MUST verify my current `(x, y)` in the Game State Information after EVERY movement or interruption (battle, menu, etc.) before planning my next action. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
