@@ -19,7 +19,9 @@
   - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
   - **Middle Gate (10,6):** Controlled by S2 (ON=OPEN).
   - **Connector (12,9):** Requires S1 ON + S2 ON.
-- **Verified Config:** [S1:ON, S2:ON, S3:OFF] -> Middle Gate CLOSED. West Gate OPEN. Connector (12,9) OPEN.
+- **Verified Config 1:** [S1:ON, S2:ON, S3:OFF] -> Middle Gate CLOSED. West Gate OPEN. Connector (12,9) OPEN.
+- **Verified Config 2:** [S1:ON, S2:ON, S3:ON] -> Connector (6,9) CLOSED. Middle Gate CLOSED. (S3:ON does not open the West-Middle path).
+- **Current Test:** [S1:ON, S2:ON, S3:OFF] -> Re-verifying West Gate and checking Connector (6,9).
 - **New Hypothesis:** Turning S3 ON will open West-Middle Connector (6,9), creating full path West->Middle->East.
 - **Action Plan:** Turn S3 ON, then check connector at (6,9).
 - **Connections:**
