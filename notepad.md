@@ -256,4 +256,4 @@
 - **Hypothesis 3 (Directional Approach):** The hidden warps must be stepped on from a specific side.
 - **Hypothesis 4 (Re-search 1F Pit Room):** The dead-end room on 1F contains a hidden item or trigger.
 - **Hypothesis 5 (Sequence):** The two hidden warp tiles must be stepped on in a specific sequence.
-- **Current Test:** None.
+- **Current Test:** Testing Hypothesis 5 by moving from (17, 11) to (16, 11).
