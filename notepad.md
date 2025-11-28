@@ -210,9 +210,8 @@
 
 ## Olivine Lighthouse Puzzle
 - **Objective:** Find a way to the top of the lighthouse.
-- **Status:** I am on 2F, trying to find a path upwards.
-- **Dynamic Warp Puzzle:** The way forward is through two dynamic warps at (16, 11) and (17, 11). These warps are not always visible or active.
-- **Trigger Mechanic:** After defeating the Gentleman trainer at (17, 8), stepping on the tiles at (16, 11) and (17, 11) causes the warps to visually appear. Stepping off the tiles causes them to disappear. The exact activation method is still under investigation, but it is not a simple interaction or stepping sequence.
+- **Status:** I am on 2F.
+- **Red Herring Puzzle:** The tiles at (16, 11) and (17, 11) appear to be warps but are not, according to the Game State. They are likely a visual distraction. The true path is elsewhere, likely on another floor.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
