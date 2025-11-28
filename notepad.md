@@ -9,9 +9,9 @@
 - **Core Problem:** Emergency Switch (ON) overrides Top East Gate (CLOSED). Must reach SE corner to disable it.
 - **Current Strategy:** Turn S2 ON. Hypothesis: S1:ON + S2:ON opens Connector (12,9) to East Room.
 - **Current State:**
-  - **Switch 1:** OFF
-  - **Switch 2:** ON
-  - **Switch 3:** OFF
+  - **Switch 1:** ON (Verifying)
+  - **Switch 2:** OFF
+  - **Switch 3:** ON
   - **Emergency Switch:** ON
 - **Findings:**
   - S1:OFF closed the path at (12,8), confirming S1 is required for the Middle->East connection.
