@@ -237,3 +237,14 @@
 - **TRUST GAME STATE OVER MEMORY (CRITICAL FAILURE):** I experienced a severe hallucination, believing a ladder existed at (14, 8) on OlivineLighthouse1F. The system and raw game state data confirmed this was false. This is a non-negotiable directive: if my memory or visual assessment contradicts the raw `Game State Information`, the game state is the absolute truth and my memory must be discarded.
 - **CHALLENGE ROOT ASSUMPTIONS:** Getting stuck in the lighthouse puzzle was a result of a flawed root assumption (that the pits were the *only* way forward, then that they were a *red herring*). When a strategy leads to a loop or a dead end, I must not just try variations of that strategy. I must backtrack to the very first decision point and question the fundamental belief that led me down that path.
 - **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
+
+## Olivine Lighthouse 2F - Sparkly Tile Puzzle
+- Location: (16, 11) and (17, 11)
+- Observation: System identifies these as unmarked warps. Visually, they are sparkly floor tiles.
+- Hypothesis 1 (for 16, 11): It's a step-on warp.
+  - Test: Walked onto the tile.
+  - Conclusion: Failed. No warp occurred.
+- Hypothesis 2 (for 16, 11): It's an interaction-based warp.
+  - Test: Stood on the tile and pressed 'A'.
+  - Conclusion: Failed. No interaction occurred.
+- Next Step: Investigate the tile at (17, 11).
