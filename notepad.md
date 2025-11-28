@@ -46,6 +46,7 @@
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
 - **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
+- **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -126,6 +127,7 @@
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
+- **PIT**: A warp tile found in the Olivine Lighthouse. Stepping on it or pressing 'A' does not trigger it. It is likely a one-way hole that the player falls through to a lower floor, but this needs to be tested.
 
 # Current Quest: Journey to Olivine City
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
@@ -219,9 +221,3 @@
 
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
-
-# Tile & Object Mechanics
-- **PIT**: A warp tile found in the Olivine Lighthouse. Stepping on it or pressing 'A' does not trigger it. It is likely a one-way hole that the player falls through to a lower floor, but this needs to be tested.
-
-# Strategic Principles & Lessons Learned
-- **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
