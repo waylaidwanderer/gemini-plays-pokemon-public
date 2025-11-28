@@ -245,3 +245,4 @@
 - **Configuration:** [S1: OFF, S2: OFF, S3: ON]
 - **Result:** Opens West Gate (3, 6) and Southern Connector (6, 12).
 - **Path:** Go West -> South -> East to bypass walls and reach the Emergency Switch.
+- **West Room Dead End:** With [S1: OFF, S2: OFF, S3: ON], West Gate is OPEN, but path south is blocked by a wall at (3, 10). Access to South is impossible via West Room.
