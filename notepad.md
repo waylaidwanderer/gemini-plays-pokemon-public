@@ -117,6 +117,8 @@
 - **Status:** Cleared.
 - **Trainers:** Sailor Harry, Lass Dana, Beauty Olivia (Defeated).
   - Schoolboy Chad (Mr. Mime Lv19) at (4, 1). Defeated.
+  - Bird Keeper Toby (Doduo x3) at (12, 15). Defeated.
+- **Geography:** Southern path (Row 16) dead-ends at x=4.
 - **Lore:** Olivia mentions Moomoo Milk. Farm likely nearby.
 
 ## Route 39
