@@ -5,23 +5,20 @@
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
 ## Switch Room Logic Summary
-- **Hint:** Rocket Grunt says 'The switch on the end is the one to press first'.
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: OFF, S2: OFF, S3: ON].
+- **Current Config:** [S1: ON, S2: OFF, S3: ON] (Correction verified).
 
-### Confirmed Mechanics
-- **Switch 1 (East/Connectors):**
-  - **ON:** Opens Central Connector (12, 9). Closes Row 12 Connector (12, 12). 
-  - **OFF:** Opens Row 12 Connector (12, 12). Closes Central Connector (12, 9).
-  - **Note:** Top East Gate (16, 6) requires S3 ON (and possibly S1 ON) to open. Bottom East Gate (16, 10) condition unknown but closed by [ON, ON, OFF].
+### Truth Table (Verified)
+| Switch | ON Effect | OFF Effect |
+| :--- | :--- | :--- |
+| **S1 (East)** | Opens Central Conn (12,9). Closes Row 12 Conn (12,12). Closes West-Mid Conn (6,9). | Opens Row 12 Conn (12,12). Closes Central Conn (12,9). |
+| **S2 (Mid)** | Opens Middle Gate (10,6) (if S3 OFF). | Closes Middle Gate (10,6). |
+| **S3 (West)** | Opens West Gate (3,6). Closes West-Mid Conn (6,9). Overrides S2 (Closes Mid Gate). | Opens West-Mid Conn (6,9). Closes West Gate (3,6). |
 
-- **Switch 2 (Middle):**
-  - **ON:** Opens Middle Gate (10, 6) *if S3 is OFF*.
-  - **OFF:** Default state.
-
-- **Switch 3 (West/Override):**
-  - **ON:** Opens West Gate (3, 6). Closes Inner West Connector (6, 9) (Trap). Overrides S2 (Closes Middle Gate).
-  - **OFF:** Opens Inner West Connector (6, 9).
+### Gate Dependencies
+- **Top East Gate (16,6):** Requires [S1: ON, S3: ON] (Verified).
+- **Bottom East Gate (16,10):** Closed by [ON, ON, OFF] and [ON, OFF, ON]. Likely requires S1 OFF?
+- **West-Mid Connector (6,9):** Requires [S1: OFF, S3: OFF] to OPEN.
 
 ### Dead Ends & Blockages
 - **West Route (S3 ON):** Access West Room, but Inner Connector (6, 9) is closed. Dead end.
