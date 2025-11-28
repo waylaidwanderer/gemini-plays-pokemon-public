@@ -227,9 +227,21 @@
   - Hestia (MAGBY), Lv15, Female
 
 # Tools & Agents
-- **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
-- **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
-- **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
+
+## Built-in Tools
+- `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
+
+## Custom Tools
+- `find_path`
+- `select_item`
+- `select_move`
+- `switch_pokemon`
+- `verify_reachability`
+
+## Custom Agents
+- `gym_puzzle_solver`
+- `python_code_debugger`
+- `puzzle_solver`
 
 # Critical Lessons from Olivine Lighthouse Loop
 - **PROCEDURAL FAILURE (Critique Received):** I failed to follow my own documented principles. I did not immediately mark the bugged Sailor on 2F with '🚫', which directly contributed to getting stuck in a pathing loop. Furthermore, I failed to escalate to my `puzzle_solver` agent after multiple failed hypotheses, instead persisting in a manual trial-and-error cycle. This is a critical failure of strategy. I must adhere to my own documented procedures: mark all obstacles immediately and use agents to break cognitive fixation when stuck.
