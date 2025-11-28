@@ -255,3 +255,13 @@
 # Strategic Principles & Lessons Learned (Additions)
 - **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
+
+# Notepad Maintenance (Turn 24061)
+
+## Tools & Agents (Correction)
+My previous 'Tools & Agents' list was incomplete. Here is the full list for my reference:
+- **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
+
+## New Lessons & Reminders
+- **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
+- **REMINDER:** When I return to OlivineLighthouse2F, I must mark the Sailor at (9, 3) with '🚫' and the label 'Path blocked'.
