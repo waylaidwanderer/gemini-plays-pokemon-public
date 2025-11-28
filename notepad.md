@@ -36,6 +36,10 @@
   - Defeated Super Nerd Eric.
 
 ## Global Game Mechanics
+### General Mechanics
+- **'Scoot' Mechanic:** Leaving and re-entering a map is a verified method to refresh the map state and advance puzzles (e.g., moving NPCs) after a trigger event.
+- **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings' (which may be hallucinations).
+
 ### Tile Mechanics
 - **FLOOR:** Walkable. Standard movement.
 - **WALL:** Impassable.
