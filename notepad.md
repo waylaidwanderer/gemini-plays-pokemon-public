@@ -247,4 +247,7 @@
 - Hypothesis 2 (for 16, 11): It's an interaction-based warp.
   - Test: Stood on the tile and pressed 'A'.
   - Conclusion: Failed. No interaction occurred.
-- Next Step: Investigate the tile at (17, 11).
+- Hypothesis 3 (for 17, 11): It's an interaction-based warp.
+  - Test: Stood on the tile and pressed 'A'.
+  - Conclusion: Failed. No interaction occurred.
+- New Hypothesis: Defeating the Gentleman trainer was the trigger. I will re-test stepping on the tiles.
