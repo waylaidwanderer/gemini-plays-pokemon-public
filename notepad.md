@@ -19,7 +19,9 @@
   - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
   - **Middle Gate (10,6):** Controlled by S2 (ON=OPEN).
   - **Connector (12,9):** Requires S1 ON + S2 ON.
-- **Action Plan:** Inspect Middle Gate (10,6) with S2:ON, S3:OFF.
+- **Verified Config:** [S1:ON, S2:ON, S3:OFF] -> Middle Gate CLOSED. West Gate OPEN. Connector (12,9) OPEN.
+- **New Hypothesis:** Turning S3 ON will open West-Middle Connector (6,9), creating full path West->Middle->East.
+- **Action Plan:** Turn S3 ON, then check connector at (6,9).
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
