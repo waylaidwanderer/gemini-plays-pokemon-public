@@ -257,3 +257,4 @@
 - **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 - **HM04 STRENGTH:** Received from a Sailor in the Olivine Cafe. Allows moving large boulders outside of battle.
+- **Tool Failure Protocol:** If a custom tool fails to produce the correct output twice in a row, I must immediately stop attempting to use it and prioritize debugging and fixing the tool. Persisting with a broken tool is a critical strategic failure.
