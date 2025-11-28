@@ -234,3 +234,6 @@
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
+
+# Strategic Principles & Lessons Learned (Addendum)
+- **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
