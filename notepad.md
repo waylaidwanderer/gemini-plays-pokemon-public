@@ -191,3 +191,4 @@
 - Solved Switch Puzzle: Row 12 opens with Switch 1 ON.
 - Rescued Director, obtained Card Key.
 - Defeated Rocket Executive at 4F (East Side).
+- **Note:** Paprika Flame Wheel PP critical (2 left). Consider using Ether or Swift.
