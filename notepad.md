@@ -209,3 +209,4 @@
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
 - Obtained TM35 (Sleep Talk) in Underground Warehouse.
+- [S1: ON, S3: ON, Emerg: ON] -> Top East Gate CLOSED.
