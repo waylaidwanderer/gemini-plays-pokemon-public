@@ -186,21 +186,9 @@
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
-## Warp Verification Checklist (Goldenrod)
-- [x] (5, 25): Bill's House (Verified)
-- [ ] (15, 27): Marked 'Pokémon Center'
-- [x] (24, 27): Dept Store (Verified)
-- [ ] (29, 29): Bike Shop
-- [ ] (31, 21): Unknown House (High Priority - TARGET)
-- [ ] (33, 9): Unknown House (Guarded by Grunt)
-- Obtained TM35 (Sleep Talk) in Underground Warehouse.
-- [S1: ON, S3: ON, Emerg: ON] -> Top East Gate CLOSED.
-- **Correction:** Switch 1 (East) is located at (16,1) in the northern corridor and IS reachable. The Top East Gate (16,6) blocks the *room*, not the switch.
-- **Test Result:** [S1:ON, S2:ON, S3:ON] -> Connector (6,9) CLOSED. Middle Gate CLOSED.
-- **Next Test:** [S1:ON, S2:ON, S3:OFF] -> Check Connector (6,9).
-- **Connector Verified:** S1:ON + S2:ON opens Connector (12,9) (Middle -> East).
-- **Verified Config 5:** [S1:OFF, S2:ON, S3:OFF] -> Middle Gate (10, 6) OPEN. West-Middle Connector (6, 9) OPEN. Middle-East Connector (12, 9) CLOSED. South Shutter (10, 10) CLOSED. Allows West <-> Middle travel.
-- **Verified Config 6:** [S1:OFF, S2:ON, S3:ON] -> Middle Gate OPEN. West-Middle Connector (6, 9) OPEN. South Shutter (10, 10) CLOSED. West Gate OPEN. (S3:ON keeps West Gate open). Confirms S1 is required for Shutter.
+## Goldenrod Notes (Archived)
+- Solved Switch Puzzle: Row 12 opens with Switch 1 ON.
+- Rescued Director, obtained Card Key.
 ## Switch Puzzle Solution (Verified)
 - **Configuration:** [S1:ON, S2:OFF, S3:ON]
 - **Effect:** Opens the "Lower Highway" along Row 12 by opening the connector at (6, 12).
