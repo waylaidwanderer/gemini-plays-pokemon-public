@@ -209,12 +209,9 @@
 # Olivine Lighthouse Puzzle
 - **Objective:** Find a way to the top of the lighthouse.
 - **Status:** I am on 2F, trying to find a path upwards.
-- **Dynamic Warps & Hallucinations:** I experienced a severe, multi-turn hallucination regarding warps at (16, 11) and (17, 11) on 2F. This was caused by a failure to strictly trust the authoritative `Game State Information -> Map Events -> Warps` list as my single source of truth. The situation is complicated by the fact that the game state can be *dynamic*—these warps did not exist initially, but appeared later, and then disappeared again. The critical lesson is twofold: 1) Always trust the raw Game State data over my own perception or Mental Map. 2) Re-verify this data frequently, especially after exploring or triggering events, as the game world itself can change.
-- **Agent Hypotheses (Failed):**
-  1.  **Window Ledge Exit:** The path forward is an opening in the windows leading to an outside ledge. (Failed: window at (8, 1) is impassable).
-  2.  **Defeated Trainer Path:** A path becomes accessible on a tile previously occupied by a now-defeated trainer.
-  3.  **Undiscovered Ladder:** There is a hidden ladder or hallway that has been overlooked.
-  4.  **Hidden Switch:** Progress is gated by a hidden item or switch on the floor.
+- **Dynamic Warp Puzzle:** The way forward is through two dynamic warps at (16, 11) and (17, 11). These warps are not always visible or active.
+- **Trigger Mechanic:** After defeating the Gentleman trainer at (17, 8), stepping on the tile where a warp should be (e.g., 17, 11) causes it to visually appear. However, it is not yet active.
+- **Current Blocker:** I can make the warp appear, but all simple interaction methods to activate the transport (moving off/on, pressing 'A' while facing it) have failed. I am currently stuck trying to figure out how to use the revealed warp.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -226,22 +223,14 @@
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
 
-# Tool Development Lessons
-- **Case-Insensitive Parsing:** When creating tools that parse UI text (like item or move names), all string comparisons must be made case-insensitive (e.g., by converting both strings to uppercase). The game's text can have subtle capitalization differences (like 'POKé BALL' vs 'POKÉ BALL') that will cause case-sensitive logic to fail catastrophically.
-- **Pathing Over Warps:** Pathfinding tools must not treat all warp tiles as non-traversable. Some warps, like multi-tile WARP_CARPETS, are part of a valid path and must be treated as regular floor tiles unless they are the final destination.
-- **Warp vs. Map Edge:** I must distinguish between formal warp tiles (like doors, listed in Map Events) and map edge transitions (walking off the map). Hallucinating a warp where a transition exists can cause validation errors and flawed navigation plans. Always verify against the `Map Events -> Warps` list.
-- **Pathing into the Unknown:** Pathfinding tools (`find_path`, `verify_reachability`) correctly treat 'unseen' tiles as impassable walls. This is a feature, not a bug. To explore, I must pathfind to a known, adjacent tile and then manually step into the unseen area. This prevents the tool from generating invalid paths through unexplored territory.
-- **Pathing Interruption:** Automated paths can be interrupted by wild battles. After the battle, the original path is void and must be recalculated from the new current position.
-- **Tool Output for Autopress:** When a custom tool has `autopress_buttons: true`, its `print()` output MUST be a valid JSON array of strings. Any other text, such as debug statements, will corrupt the output and cause a JSON parsing error.
-- **Tool Debugging Logic:** When a tool fails repeatedly in a predictable way (e.g., always selecting the wrong item), the problem is likely a core logic or syntax error, not a simple timing issue. I must investigate the code itself rather than just tweaking parameters like sleep timers.
-- **Tool Robustness:** Tools must be written to handle all likely edge cases. A tool failing because a target is already selected indicates a lack of robust design. Fixing such flaws immediately is critical to maintaining automation efficiency.
-- **Agent UI Parsing Warning:** Agents can hallucinate the structure of a UI when parsing it from screen text. I must always verify an agent's core assumptions about the UI layout before trusting its code. Simple, robust parsing methods that rely on stable structural elements are superior to complex, brittle ones that rely on variable content.
-- **Agent Code Verification:** Agent-provided code, especially for UI parsing, must be critically scrutinized. The agent may hallucinate UI elements or structure (e.g., PP counters on the same line as a move name). Always verify the agent's core assumptions against direct observation of the screen text before implementing its code. Simple, observation-based logic is often more robust and reliable.
-- **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
-- **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
-- **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
-
-# Custom Tools & Agents
+# Tools & Agents
 - **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
 - **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
 - **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
+
+# Key Items
+- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
+- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
+- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
+- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+- **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
