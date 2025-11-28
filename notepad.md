@@ -242,3 +242,5 @@
 ## Olivine Lighthouse - Sailor Huey Puzzle
 - **Agent Hypothesis #1 (Map Reset):** FAILED. Descended to 1F and returned to 2F. The sailor's interaction is still bugged and does not initiate a battle.
 - **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. I have explored the entirety of OlivineLighthouse2F and confirmed that Gentleman Alfred is the only other trainer. Since he is already defeated, this condition is met, but Sailor Huey's interaction remains bugged. This hypothesis is incorrect.
+- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
+- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
