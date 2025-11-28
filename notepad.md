@@ -10,7 +10,7 @@
 - **Findings:**
   - [ON, ON, OFF] opened Central Connector (12,9), but Top/Bottom East Gates remain CLOSED.
   - Middle East area (x=12-17, y=8-9) is isolated.
-- **Next Step:** Backtrack to Underground. Search for SE entrance.
+- **Next Step:** Explore 'Behind Counters' area in Underground (3_53) for hidden door to Warehouse/SE Switch Room. Verify blockage at y=24.
 - **Verified Logic:**
   - **S1:** OFF = Row 12 Connector (12,12) OPEN. ON = Central Connector (12,9) OPEN. Top East Gate CLOSED.
   - **S2:** OFF = West Gate allows opening (if S3 ON). ON = Middle Gate Open, but CLOSES West Gate.
