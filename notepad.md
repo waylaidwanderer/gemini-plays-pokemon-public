@@ -1,8 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## Current Goals
-- [ ] Rescue Director in Underground Warehouse (Primary)
-- [ ] Reach Emergency Switch in Switch Room South East (Secondary)
+- [ ] Stop Team Rocket at Radio Tower (Primary)
+- [ ] Open 3F Shutters with Card Key (Secondary)
+- [x] Rescue Director in Underground Warehouse (Completed)
 
 ## Switch Room Puzzle (Solved)
 - **Solution:** Sequence [S3 -> S2 -> S1] (Order Matters).
