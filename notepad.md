@@ -4,19 +4,19 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Switch Room Logic Summary (Ongoing)
-- **Objective:** Open Top East Gate (16, 6) or Far East Wall (22, 6).
-- **Current Config:** [S1: ON, S2: ON, S3: OFF].
-- **Findings:**
-  - [S1: ON, S2: OFF, S3: OFF] (Rising Edge Test): FAILED. Top East Gate remained CLOSED.
-  - S1 ON opens Connector (12, 9).
-- **Hypothesis:** S2 is required in combination with S1.
-- **Plan:**
-  1. Check Middle Gate (10, 6).
-  2. Check Top East Gate (16, 6).
-
-### Lessons Learned
-- **Position Verification:** In Turn 11586, I hallucinated my position (15, 5) as (10, 5) and checked a wall in the East Room instead of the Middle Gate. Always check coordinates!
+## Switch Room Puzzle (Active)
+- **Goal:** Open path to Emergency Switch (South East).
+- **Hint:** "Change the order of switching." - Rocket Grunt.
+- **Switch Functions (Verified):**
+  - **S1 (East):** Opens Connector (12, 9).
+  - **S2 (Middle):** Opens Middle Gate (10, 6).
+  - **S3 (West):** Opens West Gate (3, 6). TRAP: Closes Connector (6, 9) & Top East Gate (16, 6).
+- **Combinations Tested:**
+  - [ON, OFF, OFF]: Gate (16,6) CLOSED.
+  - [ON, ON, OFF]: Gate (16,6) CLOSED.
+  - [OFF, ON, OFF]: Middle Gate (10,6) CLOSED.
+  - [OFF, OFF, ON]: West Gate OPEN. Connector (6,12) OPEN.
+- **Current Plan:** Reset to [OFF, OFF, OFF]. Press S1 FIRST.
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
