@@ -231,3 +231,5 @@
   - **Test #1:** Step onto warp tile (16, 13) from the west (by moving Right from (15, 13)).
     - **Conclusion:** Failed. No warp occurred.
   - **Test #2:** Step onto warp tile (16, 13) from the east (by moving Left from (17, 13)).
+    - **Conclusion:** Failed. No warp occurred.
+  - **Test #3:** Step onto warp tile (16, 13) from the north (by moving Down from (16, 12)).
