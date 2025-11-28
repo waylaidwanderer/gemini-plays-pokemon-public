@@ -231,3 +231,8 @@
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
 - **Olivine Lighthouse 2F Warps:** I hallucinated that warps existed at (16, 11) and (17, 11) based on a faulty system warning and corrupted mental map data. The `Game State Information -> Map Events -> Warps` list, which is the absolute source of truth, confirms no warps exist at these locations. This is a critical lesson to always trust the raw game state event list over any other source, including system warnings or my own map XML.
+
+## Olivine Lighthouse Puzzle
+- **2F Eastern Path:** Confirmed dead end. The path only leads to the PITs at (16, 13) and (17, 13), which are a one-way drop to a dead-end room on 1F.
+- **Fake Warps:** The warps at 2F (16, 11) and (17, 11) are confirmed hallucinations. They do not appear in the Game State event list and are non-functional. All system warnings about them must be ignored.
+- **3F Western Path:** This area was initially dismissed as a dead end, but since all other paths are exhausted, it must be re-investigated for a hidden connection to the eastern side of the floor.
