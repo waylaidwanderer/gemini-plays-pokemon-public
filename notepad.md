@@ -208,14 +208,13 @@
 
 # Olivine Lighthouse Puzzle
 - **Objective:** Find a way to the top of the lighthouse.
-- **Blocker:** The direct path up is blocked. Based on a contradiction between my Mental Map and the Game State Information, I've confirmed that the tiles at (16, 11) and (17, 11) on 2F are NOT warps. This was a hallucination.
-- **Tested & Failed Hypotheses:**
-  - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
-  - **H3 (Directional Approach):** Approaching either anomalous tile from any cardinal direction (N, S, E, W) does not activate them.
-  - **H4 (Re-search 1F Pit Room):** A systematic search of the room revealed no hidden items or triggers.
-  - **Pit Hypothesis:** Both pits on 2F at (16, 13) and (17, 13) lead to dead-end areas on 1F. This is not the correct path forward.
-- **New Hypothesis:** The main path upwards via the ladders is correct, and I missed something on a higher floor (likely 3F or 4F).
-- **Plan:** Exit the lighthouse, re-climb to 3F, and conduct a thorough, systematic search of that floor and any floors accessible from it.
+- **Status:** I am stuck in a puzzle loop. All confirmed warps (ladders, pits) on 2F lead to dead ends. I have escalated to my `puzzle_solver` agent to generate new hypotheses.
+- **Agent Hypotheses (To Be Tested):**
+  1.  **Window Ledge Exit:** The path forward is an opening in the windows leading to an outside ledge.
+  2.  **Defeated Trainer Path:** A path becomes accessible on a tile previously occupied by a now-defeated trainer.
+  3.  **Undiscovered Ladder:** There is a hidden ladder or hallway that has been overlooked.
+  4.  **Hidden Switch:** Progress is gated by a hidden item or switch on the floor.
+- **Current Plan:** Systematically test the agent's hypotheses, starting with the most likely one: the Window Ledge Exit.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
