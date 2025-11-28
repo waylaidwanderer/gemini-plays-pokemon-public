@@ -14,8 +14,10 @@
 - **Recent Findings:**
   - West Shaft and East Shaft southern entrances are both dead ends (blocked by walls at Row 21/23).
   - [S1: OFF, S2: OFF, S3: ON] opened West Gate (3,6) and Connector (6,12), allowing access to Row 12, but path to East Room was blocked.
-- **Current Plan:** Testing [S1: ON, S2: OFF, S3: OFF]. Hypothesis: Opens Top East Gate (16, 6).
-- **Next Step:** Inspect Top East Gate and explore Northern East Room for path to Unexplored Door (22, 10).
+- **Current Plan:** Testing [S1: OFF, S2: ON, S3: OFF].
+- **Recent Findings:**
+  - [S1: ON, S2: OFF, S3: OFF] confirmed Dead End. Top East (16, 6) OPEN, but Bottom East (16, 10) CLOSED.
+- **Next Step:** Turn S1 OFF, Turn S2 ON. Check path via Middle Gate (10, 6) -> Row 12 Connector (12, 12).
 - **Switch Logic Update:** 
   - [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN, West Gate OPEN, (12,9) Conn CLOSED.
   - [S1:OFF, S2:OFF, S3:OFF] -> Middle Gate CLOSED, West Gate CLOSED, (12,9) Conn OPEN.
