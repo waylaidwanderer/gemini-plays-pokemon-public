@@ -116,6 +116,7 @@
 ## Route 38
 - **Status:** Cleared.
 - **Trainers:** Sailor Harry, Lass Dana, Beauty Olivia (Defeated).
+  - Schoolboy Chad (Mr. Mime Lv19) at (4, 1). Defeated.
 - **Lore:** Olivia mentions Moomoo Milk. Farm likely nearby.
 
 ## Route 39
