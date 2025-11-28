@@ -5,8 +5,12 @@
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
 ## Switch Room Strategy
-- **Objective:** Reach East Room (South East) via Central Connector (12,9).
-- **Current Config:** [S1: ON, S2: ON, S3: OFF] (Verified: Opens Central Connector 12,9)
+- **Objective:** Access South East area (Emergency Switch).
+- **Current Config:** [S1: ON, S2: ON, S3: OFF].
+- **Findings:**
+  - [ON, ON, OFF] opened Central Connector (12,9), but Top/Bottom East Gates remain CLOSED.
+  - Middle East area (x=12-17, y=8-9) is isolated.
+- **Next Step:** Backtrack to Underground. Search for SE entrance.
 - **Verified Logic:**
   - **S1:** OFF = Row 12 Connector (12,12) OPEN. ON = Central Connector (12,9) OPEN. Top East Gate CLOSED.
   - **S2:** OFF = West Gate allows opening (if S3 ON). ON = Middle Gate Open, but CLOSES West Gate.
