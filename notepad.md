@@ -13,7 +13,7 @@
   - **Switch 2:** ON (Verified)
   - **Switch 3:** OFF
   - **Emergency Switch:** ON
-- **Failed Config:** [S1:ON, S2:ON, S3:ON] -> Middle Gate CLOSED.
+- **Failed Config:** [S1:ON, S2:ON, S3:ON] -> Middle Gate CLOSED. Connector (6,9) CLOSED.
 - **Gate Logic Findings:**
   - **Top East (16,6):** Locked by Emergency Switch.
   - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
