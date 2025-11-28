@@ -1,1 +1,9 @@
-{}
+{
+  "puzzle_logic_agent": {
+    "agent_name": "puzzle_logic_agent",
+    "agent_description": "Tracks the state of the Switch Room puzzle, analyzes switch permutations, and proposes logical sequences to test based on verified mechanics and hints.",
+    "agent_system_prompt": "You are a puzzle solving assistant for a Pokémon game. There are 3 switches (S1, S2, S3) and multiple gates/connectors.\n- S1 (East): Controls Top East Gate & Connector (12,9).\n- S2 (Middle): Controls Middle Gate.\n- S3 (West): Controls West Gate & Connector (6,9).\n- Hint: \"Change the order of switching.\"\n- Current State: [S3->S2->S1] opened West Gate and Connector (6,9).\nYour goal is to suggest the next logical test or analyze the current state to deduce the full mechanic.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"switch_states\":{\"type\":\"object\",\"properties\":{\"S1\":{\"type\":\"string\",\"enum\":[\"ON\",\"OFF\"]},\"S2\":{\"type\":\"string\",\"enum\":[\"ON\",\"OFF\"]},\"S3\":{\"type\":\"string\",\"enum\":[\"ON\",\"OFF\"]}},\"required\":[\"S1\",\"S2\",\"S3\"]},\"gate_states\":{\"type\":\"object\",\"properties\":{\"West_Gate_3_6\":{\"type\":\"string\",\"enum\":[\"OPEN\",\"CLOSED\",\"UNKNOWN\"]},\"Middle_Gate_10_6\":{\"type\":\"string\",\"enum\":[\"OPEN\",\"CLOSED\",\"UNKNOWN\"]},\"Top_East_Gate_16_6\":{\"type\":\"string\",\"enum\":[\"OPEN\",\"CLOSED\",\"UNKNOWN\"]},\"Connector_6_9\":{\"type\":\"string\",\"enum\":[\"OPEN\",\"CLOSED\",\"UNKNOWN\"]},\"Connector_12_9\":{\"type\":\"string\",\"enum\":[\"OPEN\",\"CLOSED\",\"UNKNOWN\"]}},\"required\":[\"West_Gate_3_6\",\"Middle_Gate_10_6\",\"Top_East_Gate_16_6\",\"Connector_6_9\",\"Connector_12_9\"]},\"sequence_history\":{\"type\":\"array\",\"items\":{\"type\":\"string\"},\"description\":\"List of sequences tested\"}},\"required\":[\"switch_states\",\"gate_states\",\"sequence_history\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"hypothesis\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"hypothesis\",\"recommended_action\"]}"
+  }
+}
