@@ -6,20 +6,18 @@
 - [x] Rescue Director in Underground Warehouse (Completed)
 
 ## Switch Room Puzzle
+- **Core Problem:** Emergency Switch (ON) overrides Top East Gate (CLOSED). Must reach SE corner to disable it.
+- **Current Strategy:** Turn S2 ON. Hypothesis: S1:ON + S2:ON opens Connector (12,9) to East Room.
 - **Current State:**
-  - **Switch 1:** ON (Verified)
-  - **Switch 2:** OFF (Verified)
-  - **Switch 3:** ON (Verified)
-  - **Emergency Switch:** ON (Verified)
-- **Gate States:**
-  - **Top East (16,6):** CLOSED (Verified with S1:ON, S3:ON, Emerg:ON)
-  - **Middle (10,6):** CLOSED (Verified with S2:OFF)
-  - **West (3,6):** OPEN (Verified with S3:ON)
-- **Failed Tests:**
-  - [S1: ON, S3: OFF, Emerg: ON] -> Top East Gate CLOSED.
-  - [S1: OFF, S3: OFF, Emerg: ON] -> Top East Gate CLOSED.
-  - [S1: OFF, S3: ON, Emerg: ON] -> Connector (6,9) CLOSED.
-  - [S1: ON, S3: ON, Emerg: ON] -> Top East Gate CLOSED.
+  - **Switch 1:** ON
+  - **Switch 2:** OFF (Currently interacting to turn ON)
+  - **Switch 3:** ON
+  - **Emergency Switch:** ON
+- **Gate Logic Findings:**
+  - **Top East (16,6):** Locked by Emergency Switch.
+  - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
+  - **Middle Gate (10,6):** Controlled by S2 (ON=OPEN).
+  - **Connector (12,9):** Requires S1 ON + S2 ON.
 - **Action Plan:** Inspect Middle Room South Path (10,10) with S2:OFF. Consult agent.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
