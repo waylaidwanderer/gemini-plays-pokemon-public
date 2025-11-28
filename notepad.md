@@ -198,10 +198,11 @@
 - Team Rocket Disbanded.
 
 ## Tin Tower
-- **Status:** Exploring 1F. Searching for stairs to 2F. (10, 2) was a false lead.
-- **Legendary Beasts Event:**
-  - Suicune, Entei, and Raikou were present but fled.
-  - Battled Suicune (Lv40). Defeated it (out of balls).
-  - Eusine appeared, mentioned Ho-Oh, then left.
-- **Current Goal:** Explore the rest of the tower.
+- **Status:** Tin Tower 1F. Sages moved after map refresh. Stairs at (10, 2) inactive.
+- **Investigation:** Checking if Sages' new positions unlock the path.
+- **Sages:**
+  - Sage 5: (5, 9)
+  - Sage 6: (11, 11)
+  - Sage 7: (14, 6)
+- **Legendary Beasts:** Fled. Suicune defeated (No balls).
 - **Needs:** Restock Poké Balls.
