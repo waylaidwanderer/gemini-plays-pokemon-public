@@ -201,3 +201,4 @@
 - [ ] (29, 29): Bike Shop
 - [ ] (31, 21): Unknown House (High Priority - TARGET)
 - [ ] (33, 9): Unknown House (Guarded by Grunt)
+- Obtained TM35 (Sleep Talk) in Underground Warehouse.
