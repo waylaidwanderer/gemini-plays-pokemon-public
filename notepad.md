@@ -12,8 +12,8 @@
 ### Truth Table (Verified)
 | Switch | ON Effect | OFF Effect |
 | :--- | :--- | :--- |
-| **S1 (East)** | Opens Central Conn (12,9). Closes Row 12 Conn (12,12). Closes West-Mid Conn (6,9). | Opens Row 12 Conn (12,12). Closes Central Conn (12,9). |
-| **S2 (Mid)** | Opens Middle Gate (10,6) (if S3 OFF). | Closes Middle Gate (10,6). |
+| **S1 (East)** | Closes Row 12 Conn (12,12). Closes West-Mid Conn (6,9). | Opens Row 12 Conn (12,12). |
+| **S2 (Mid)** | Opens Middle Gate (10,6) (if S3 OFF). Opens Central Conn (12,9). | Closes Middle Gate (10,6). Closes Central Conn (12,9). |
 | **S3 (West)** | Opens West Gate (3,6). Closes West-Mid Conn (6,9). Overrides S2 (Closes Mid Gate). | Opens West-Mid Conn (6,9). Closes West Gate (3,6). |
 
 ### Gate Dependencies
