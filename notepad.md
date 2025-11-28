@@ -4,13 +4,14 @@
 - [ ] Rescue Director in Underground Warehouse (Primary)
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
-## Switch Room Logic Summary (Testing Order)
-- **Objective:** Access South East area (Emergency Switch).
+## Switch Room Logic Summary (Grand Weave Strategy)
+- **Objective:** Reach South East area via Underground Flank.
 - **Current Config:** [S1: ON, S2: OFF, S3: ON].
-- **Hypothesis:** Order matters (S3 then S1).
-  - S1 (ON) then S3 (OFF) -> East Gate CLOSED. (Verified)
-  - S1 (ON) then S3 (ON) -> East Gate CLOSED. (Verified)
-  - Plan: Establish S3 ON, then toggle S1 (OFF->ON).
+- **Discovery:** S3 ON overrides S1 ON, keeping Top East Gate CLOSED regardless of order.
+- **Grand Weave Plan:**
+  1. Reset: Turn S1 OFF, Turn S3 OFF.
+  2. Set S1 ON (Last). This reproduces the successful state from Turn 11546.
+  3. Path: Enter East Room via Top East Gate (16, 6) -> Cross to Middle Room via Connector (12, 9) -> Go South in Middle Room -> Cross to West Room via Connector (6, 12) -> Go South to West Shaft -> Underground -> East Shaft -> Emergency Switch.
 
 ### Lessons Learned
 - **Position Verification:** In Turn 11586, I hallucinated my position (15, 5) as (10, 5) and checked a wall in the East Room instead of the Middle Gate. Always check coordinates!
