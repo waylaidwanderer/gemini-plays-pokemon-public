@@ -8,12 +8,14 @@
 ## Switch Room Puzzle
 - **Current State:**
   - **Switch 1:** OFF (Verified)
-  - **Switch 2:** ON (Presumed)
+  - **Switch 2:** UNKNOWN (Checking)
   - **Switch 3:** OFF (Verified)
   - **Emergency Switch:** ON (Verified)
-- **Observations:**
-  - S3 OFF seems to keep West Gate (3,6) OPEN (Unexpected).
-  - Goal: Check Top East Gate (16,6). Expecting OPEN due to S1 ON.
+- **Gate States:**
+  - **Top East (16,6):** CLOSED
+  - **West (3,6):** OPEN
+  - **Connector (6,9):** CLOSED
+  - **Middle (10,6):** UNKNOWN
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
