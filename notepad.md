@@ -29,7 +29,10 @@
 - **Underground 'Behind Counters':** Dead end at (22, 24). No hidden door found.
 
 ### Active Hypothesis
-- **East Shaft (East side of map 3_54):** Previously blocked at Row 21. Hypothesis: Config [S1: ON, S2: ON, S3: OFF] opens this blockage. Testing now.
+- **West Route Deep South:**
+  - **Target Config:** [S1: OFF, S2: OFF, S3: ON].
+  - **Logic:** S3 ON opens West Gate (3, 6). It closes (6, 9) but I suspect (6, 12) is OPEN.
+  - **Plan:** Enter West Gate, bypass (6, 9), head South to Row 12, cross East via (6, 12).
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
