@@ -1,3 +1,6 @@
+# Core Principles
+- **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations, it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state. My hierarchy of truth is: 1) Raw Game State, 2) Verified Tool Outputs, 3) My own interpretation (least reliable).
+
 # Strategic Principles & Lessons Learned
 - **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. I must always call the correct, existing tools for their intended purpose.
