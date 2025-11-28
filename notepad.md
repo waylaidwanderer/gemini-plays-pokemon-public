@@ -17,6 +17,7 @@
 - **Recent Tests:**
   - [OFF, ON, ON]: West Gate CLOSED. Middle South blocked at Row 10.
   - [ON, OFF, ON]: Top East Open, Bottom East Closed.
+  - [ON, ON, ON]: Top East Closed, Middle Gate Closed. (S3 ON overrides S2 ON).
   - [ON, OFF, OFF]: Top East Gate CLOSED. (Implies S3 is required for Top East).
   - [OFF, OFF, ON]: West Gate OPEN. (Confirmed).
 
