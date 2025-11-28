@@ -206,3 +206,4 @@
   - Sage 7: (14, 6)
 - **Legendary Beasts:** Fled. Suicune defeated (No balls).
 - **Needs:** Restock Poké Balls.
+- **Mechanic Confirmed:** 'Scoot' principle (leaving and re-entering map) successfully refreshed map state and moved Sages.
