@@ -227,6 +227,8 @@
 - **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
 - **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
 - **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
+- **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
+- **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
 
 # Battle Anomaly 2
 - A second battle anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue 'Hey, let's battle again!' appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
