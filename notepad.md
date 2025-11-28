@@ -1,16 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Ecruteak City / Tin Tower
-- **Location:** Ecruteak City (Outside Tin Tower).
-- **Goal:** Trigger unlocking of Tin Tower 2F.
-- **Status:** Spoke to all 3 Sages on 1F. Exited to refresh map.
-- **Next Step:** Re-enter Tin Tower immediately to check if Sages moved or stairs appeared at (10, 2).
-- **Needs:** Restock Poké Balls (Critical).
+## 📍 Current Status: Ecruteak City / Mart
+- **Location:** Ecruteak Mart.
+- **Goal:** Restock Poké Balls.
+- **Status:** Tin Tower paused (Need Rainbow Wing).
+- **Next Step:** Buy Great Balls (Mart has no Ultra Balls). Catch a Flyer.
 
 ## 🎯 Goals
-- [ ] Unlock access to Tin Tower 2F (Primary)
-- [ ] Restock Poké Balls (Secondary) - Critical for catching.
+- [ ] Restock Poké Balls (Great Balls).
+- [ ] Catch a Pokémon that can Fly (e.g. Noctowl/Pidgeotto).
 - [ ] Retrieve item from Gina (Route 34).
+- [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
