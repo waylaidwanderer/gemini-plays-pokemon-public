@@ -17,7 +17,7 @@
   - OFF: Opens West Gate (3, 6).
   - ON: West Gate (3, 6) CLOSED.
 - **Switch 1 (East):**
-  - ON: Opens Top East Gate (16, 6), West Gate (3, 6), AND opens the wall at (16, 7)/(17, 7).
+  - ON: Opens Top East Gate (16, 6), West Gate (3, 6), wall at (16, 7)/(17, 7), and Connector (12, 9).
 
 ### Lessons Learned
 - **Position Verification:** In Turn 11586, I hallucinated my position (15, 5) as (10, 5) and checked a wall in the East Room instead of the Middle Gate. Always check coordinates!
