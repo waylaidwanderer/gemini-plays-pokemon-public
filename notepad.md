@@ -4,7 +4,7 @@
 - **Location:** Ecruteak City - Pokémon Center.
 - **Goal:** Retrieve Vortex from PC.
 - **Status:** PC Management.
-- **Next Step:** Swap Cirrus for Vortex, then Heal.
+- **Next Step:** Withdraw Vortex (Box 1), then Heal.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
