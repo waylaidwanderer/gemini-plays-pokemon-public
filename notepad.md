@@ -193,7 +193,7 @@
 - Team Rocket Disbanded.
 
 ## Tin Tower
-- **Status:** Exploring 1F. Wise Trio Defeated.
+- **Status:** Exploring 1F. Searching for stairs to 2F. (10, 2) was a false lead.
 - **Legendary Beasts Event:**
   - Suicune, Entei, and Raikou were present but fled.
   - Battled Suicune (Lv40). Defeated it (out of balls).
