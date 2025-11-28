@@ -209,11 +209,10 @@
 - **Blocker:** The direct path up is blocked. There are two anomalous, non-functional warp tiles on 2F at (16, 11) and (17, 11).
 - **Tested & Failed Hypotheses:**
   - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
-- **Tested & Failed Hypotheses:**
-  - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
   - **H3 (Directional Approach):** Approaching either anomalous tile from any cardinal direction (N, S, E, W) does not activate them.
   - **H4 (Re-search 1F Pit Room):** A systematic search of the room revealed no hidden items or triggers.
-- **Current Hypothesis (H1):** Re-verify that all trainers on 2F and 3F have been defeated.
+  - **Pit at (17, 13) on 2F:** Leads to a dead-end area on 1F. The paths at (14, 8) and around (8, 11) were confirmed dead ends.
+- **Current Hypothesis (H1):** The second pit at (16, 13) on 2F must lead to the correct path forward.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
