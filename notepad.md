@@ -6,13 +6,14 @@
 
 ## Switch Room Logic Summary (Ongoing)
 - **Objective:** Open Top East Gate (16, 6) or Far East Wall (22, 6).
-- **Current Config:** [S1: ON, S2: OFF, S3: OFF].
-- **Status:** Top East Gate (16, 6) is CLOSED. Connector (12, 9) is OPEN.
-- **Hypothesis:** S1 needs to be toggled while S3 is OFF, or S2 is involved.
+- **Current Config:** [S1: ON, S2: ON, S3: OFF].
+- **Findings:**
+  - [S1: ON, S2: OFF, S3: OFF] (Rising Edge Test): FAILED. Top East Gate remained CLOSED.
+  - S1 ON opens Connector (12, 9).
+- **Hypothesis:** S2 is required in combination with S1.
 - **Plan:**
-  1. Check wall at (22, 6).
-  2. Toggle Switch 1 (OFF then ON).
-  3. Test [S1: ON, S2: ON, S3: OFF].
+  1. Check Middle Gate (10, 6).
+  2. Check Top East Gate (16, 6).
 
 ### Lessons Learned
 - **Position Verification:** In Turn 11586, I hallucinated my position (15, 5) as (10, 5) and checked a wall in the East Room instead of the Middle Gate. Always check coordinates!
