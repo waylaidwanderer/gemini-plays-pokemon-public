@@ -189,11 +189,9 @@
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
 ## Goldenrod Notes (Archived)
-- Solved Switch Puzzle: Row 12 opens with Switch 1 ON.
-- Rescued Director, obtained Card Key.
-- Defeated Rocket Executive at 4F (East Side).
-- **Note:** Paprika Flame Wheel PP critical (2 left). Consider using Ether or Swift.
-- Defeated Rocket Executive (Rocket Girl) at 5F (17, 2).
-- Paprika HP Low (33/159). Priority: Heal.
-- Plan: Retrieve Item at (8, 5) via Row 2.
-- Wise Trio Defeated. Access to Tin Tower granted. Paprika low on PP (Flame Wheel 0, Swift 5). Consider using Ether.
+- Cleared Radio Tower and Underground.
+- Team Rocket Disbanded.
+
+## Tin Tower
+- Wise Trio Defeated. Access granted.
+- Paprika PP Critical (Flame Wheel 0). MUST use Ether.
