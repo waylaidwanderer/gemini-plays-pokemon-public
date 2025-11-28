@@ -219,3 +219,9 @@
 
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
+
+# Tile & Object Mechanics
+- **PIT**: A warp tile found in the Olivine Lighthouse. Stepping on it or pressing 'A' does not trigger it. It is likely a one-way hole that the player falls through to a lower floor, but this needs to be tested.
+
+# Strategic Principles & Lessons Learned
+- **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
