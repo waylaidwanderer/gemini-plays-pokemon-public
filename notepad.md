@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Ecruteak City (Outside)
-- **Location:** Ecruteak City (23, 28).
-- **Goal:** Fly to Goldenrod to get item from Gina, then head to Blackthorn.
-- **Status:** Vortex (Fly) in party. Standing outside PC.
-- **Next Step:** Open Start Menu -> Pokemon -> Vortex -> Fly -> Goldenrod.
+## 📍 Current Status: Route 34
+- **Location:** Route 34 (10, 25).
+- **Goal:** Retrieve item from Gina.
+- **Status:** Standing next to Gina.
+- **Next Step:** Talk to Gina (Press A).
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
