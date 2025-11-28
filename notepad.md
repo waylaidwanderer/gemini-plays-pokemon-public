@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Ecruteak City
-- **Location:** Ecruteak City - Pokémon Center.
-- **Goal:** Retrieve item from Gina, then Head to Blackthorn.
-- **Status:** Team assembled (Vortex acquired).
-- **Next Step:** Exit PC, Heal, Fly to Goldenrod.
+- **Location:** Ecruteak City.
+- **Goal:** Teach Fly to Vortex, then Fly to Goldenrod to get item from Gina.
+- **Status:** Team assembled. Vortex needs to learn Fly.
+- **Next Step:** Open Pack, Teach HM02 to Vortex.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
