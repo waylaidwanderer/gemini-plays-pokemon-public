@@ -15,9 +15,10 @@
   - Config [OFF, OFF, ON] opens West Gate (3,6) and keeps Row 12 Connector (12,12) open.
   - **Path:** Enter West Gate -> Go South to Row 12 -> Head East across the map -> Enter East Room from bottom.
 - **Recent Tests:**
-  - [OFF, ON, ON]: West Gate CLOSED (S2 overrides S3). Middle South blocked at Row 10.
-  - [ON, OFF, ON]: Top East Open, Bottom East Closed (Dead End).
-  - [OFF, OFF, ON]: West Gate OPEN. (Current State).
+  - [OFF, ON, ON]: West Gate CLOSED. Middle South blocked at Row 10.
+  - [ON, OFF, ON]: Top East Open, Bottom East Closed.
+  - [ON, OFF, OFF]: Top East Gate CLOSED. (Implies S3 is required for Top East).
+  - [OFF, OFF, ON]: West Gate OPEN. (Confirmed).
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
