@@ -5,8 +5,9 @@
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
 ## Switch Room Logic Summary
+- **Hint:** Rocket Grunt says 'The switch on the end is the one to press first'.
 - **Objective:** Access South East area (Emergency Switch).
-- **Current Config:** [S1: ON, S2: ON, S3: OFF].
+- **Current Config:** [S1: OFF, S2: ON, S3: OFF].
 
 ### Confirmed Mechanics
 - **Switch 1 (East/Connectors):**
