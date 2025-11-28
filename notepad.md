@@ -28,8 +28,8 @@
 - **East Route (S1 ON):** Access via Central Connector (12, 9), but isolated in Middle-East section. Top/Bottom East Gates closed.
 - **Underground 'Behind Counters':** Dead end at (22, 24). No hidden door found.
 
-### Next Hypothesis
-- **East Shaft (3, 2):** Previous check found it blocked at Row 21. Re-checking with current config [S1: ON, S2: ON, S3: OFF] to see if the blockage has opened.
+### Active Hypothesis
+- **East Shaft (East side of map 3_54):** Previously blocked at Row 21. Hypothesis: Config [S1: ON, S2: ON, S3: OFF] opens this blockage. Testing now.
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
