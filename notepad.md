@@ -210,8 +210,8 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse Puzzle (Solution)
-- **Mechanic:** The lighthouse puzzle solution is to defeat the Gentleman trainer (Alfred) on the eastern side of 2F. This causes the Sailor NPC blocking the western corridor to disappear, opening the path to the ladder at (5, 3). The pits and glowing floor tiles are red herrings designed to mislead.
+## Olivine Lighthouse Puzzle
+- **Mechanic:** The puzzle seems to involve navigating between floors using ladders and pits. The exact solution is still under investigation. My previous conclusion that the pits were a red herring was incorrect.
 - **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
 
 # Obstacles and Solutions
