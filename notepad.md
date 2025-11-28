@@ -208,10 +208,8 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse Puzzle
-- **Objective:** Find a way to the top of the lighthouse.
-- **Status:** I am on 2F.
-- **Red Herring Puzzle:** The tiles at (16, 11) and (17, 11) appear to be warps but are not, according to the Game State. They are likely a visual distraction. The true path is elsewhere, likely on another floor.
+## Olivine Lighthouse Puzzle (Solution)
+- **Mechanic:** The lighthouse is a vertical puzzle. Progress is made by intentionally falling through specific `PIT` tiles on upper floors (like 2F) to access previously unreachable sections of lower floors (like 1F). These new sections contain ladders that lead back up to the other side of the upper floors, opening the path forward.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
