@@ -225,3 +225,7 @@
 - **Connector Verified:** S1:ON + S2:ON opens Connector (12,9) (Middle -> East).
 - **Verified Config 5:** [S1:OFF, S2:ON, S3:OFF] -> Middle Gate (10, 6) OPEN. West-Middle Connector (6, 9) OPEN. Middle-East Connector (12, 9) CLOSED. South Shutter (10, 10) CLOSED. Allows West <-> Middle travel.
 - **Verified Config 6:** [S1:OFF, S2:ON, S3:ON] -> Middle Gate OPEN. West-Middle Connector (6, 9) OPEN. South Shutter (10, 10) CLOSED. West Gate OPEN. (S3:ON keeps West Gate open). Confirms S1 is required for Shutter.
+## Switch Puzzle Solution (Verified)
+- **Configuration:** [S1:ON, S2:OFF, S3:ON]
+- **Effect:** Opens the "Lower Highway" along Row 12 by opening the connector at (6, 12).
+- **Result:** Path West -> East is open via Row 12, bypassing internal shutters.
