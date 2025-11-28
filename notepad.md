@@ -225,7 +225,7 @@
 
 # Tools & Agents
 - **Built-in Tools:** `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
-- **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`, `verify_reachability`
+- **Custom Tools:** `find_path`, `select_item`, `select_move`, `switch_pokemon`
 - **Custom Agents:** `gym_puzzle_solver`, `python_code_debugger`, `puzzle_solver`
 
 # Key Items
