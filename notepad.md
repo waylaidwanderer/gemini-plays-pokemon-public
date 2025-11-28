@@ -211,7 +211,7 @@
 - **Solution:** The image is KABUTO.
 
 ## Olivine Lighthouse Puzzle (Solution)
-- **Mechanic:** The lighthouse is a vertical puzzle. Progress is made by intentionally falling through specific `PIT` tiles on upper floors (like 2F) to access previously unreachable sections of lower floors (like 1F). These new sections contain ladders that lead back up to the other side of the upper floors, opening the path forward.
+- **Mechanic:** The lighthouse puzzle solution is to defeat the Gentleman trainer (Alfred) on the eastern side of 2F. This causes the Sailor NPC blocking the western corridor to disappear, opening the path to the ladder at (5, 3). The pits and glowing floor tiles are red herrings designed to mislead.
 - **Vertical Puzzle Logic:** When stuck in a multi-floor structure (like a tower or lighthouse), if all upward paths (ladders, stairs) lead to dead ends, the solution often involves moving *down* first. Intentionally falling through specific pits or taking different downward paths can unlock new areas on lower floors that contain the correct path to continue ascending.
 
 # Obstacles and Solutions
