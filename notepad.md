@@ -8,7 +8,7 @@
 - **Logic Confirmed:**
   - **S1:** Controls East Section. ON = Top East Open, Bottom/Row 12 Closed. OFF = Top East Closed, Row 12 Connector (12,12) OPEN.
   - **S2:** Controls Middle Gate (10,6). ON = OPEN. OFF = CLOSED.
-  - **S3:** Controls West Section. ON = West Gate Closed & Connector (6,9) Closed (TRAP). OFF = Safe.
+  - **S3:** Controls West Section. ON = West Gate (3,6) OPEN. Connector (6,9) status TBD. OFF = West Gate Closed.
 - **Current Config:** [S1: OFF, S2: OFF, S3: ON].
 - **Goal:** Reach Emergency Switch in South East.
 - **East Shaft Findings:** Path North from East Shaft (Column 24) is blocked by a wall at Row 21.
