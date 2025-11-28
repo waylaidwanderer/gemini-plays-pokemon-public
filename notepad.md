@@ -7,9 +7,9 @@
 
 ## Switch Room Puzzle
 - **Current State:**
-  - **Switch 1:** ON (Verified)
+  - **Switch 1:** OFF (Verified)
   - **Switch 2:** ON (Verified)
-  - **Switch 3:** OFF (Verified)
+  - **Switch 3:** ON (Verified)
   - **Emergency Switch:** ON (Verified)
 - **Gate States:**
   - **Top East (16,6):** CLOSED (Likely overridden by Emergency Switch)
