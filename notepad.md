@@ -215,3 +215,15 @@
 - **Inventory-Aware Tools:** Any tool designed to interact with a player's inventory (like `select_item`) MUST parse the *current, visible* inventory from the screen text. Relying on a hardcoded, complete list of all possible items in the game is a fundamental design flaw, as it does not reflect the player's actual possessions and will lead to catastrophic pathfinding and selection errors.
 - **Tool Integrity:** If a tool is broken, I must fix it immediately. Manually performing the tool's intended action is a violation of the 'Default to Automation' principle and indicates a critical failure that must be addressed before any other action.
 - **Debugging Escalation:** When a tool repeatedly fails in a predictable way, the problem is likely a core logic or syntax error, not a simple timing issue. Escalate complex debugging to specialized agents (like `python_code_debugger`) promptly instead of attempting prolonged manual fixes.
+
+# Olivine Lighthouse 1F Warp Puzzle
+- **Observation:** Two adjacent FLOOR tiles at (16, 13) and (17, 13) are marked as warps in the game data, but have no visible trigger like a ladder or stairs. A POKEFAN_F NPC wanders the room.
+- **Failed Hypothesis #1:** The warp is triggered by standing on it and pressing 'A'.
+  - **Test:** Stood on (16, 13) and pressed 'A'.
+  - **Conclusion:** Failed. No text or warp occurred.
+- **Failed Hypothesis #2:** The warp is triggered by moving between the two adjacent warp tiles.
+  - **Test:** Moved from (16, 13) to (17, 13).
+  - **Conclusion:** Failed. No warp occurred.
+- **Failed Hypothesis #3:** Interacting with the POKEFAN_F at (16, 9) is required to activate the warp.
+  - **Test:** Stunned the NPC, approached, and initiated dialogue.
+  - **Conclusion:** Failed. NPC provided only flavor text. No event was triggered.
