@@ -249,3 +249,4 @@
 - **Hypothesis #6 (Agent):** The warp is triggered by walking across both warp tiles in a single continuous movement from west to east. (FAILED)
 - **Hypothesis #7 (Agent):** The warp requires the player to be facing a specific direction while standing on the tile.
 - **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location.
+- **Hypothesis #8 (Agent):** The warp is triggered only when the wandering NPC is at a specific location. (FAILED after multiple random attempts, triggered a loop warning).
