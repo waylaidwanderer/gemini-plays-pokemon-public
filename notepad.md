@@ -1,11 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Tin Tower 1F
-- **Location:** Ecruteak City, Tin Tower 1F.
-- **Event:** Legendary Beasts (Suicune, Entei, Raikou) fled. Eusine left.
-- **Problem:** No stairs to 2F listed in Game State Warps.
-- **Hypothesis:** Must interact with Sages (y=13) or exit/re-enter to unlock progression.
-- **Immediate Plan:** Talk to Sage at (7, 13) [Facing Right]. Interact from (8, 13).
+## 📍 Current Status: Ecruteak City / Tin Tower
+- **Location:** Ecruteak City (Outside Tin Tower).
+- **Goal:** Trigger unlocking of Tin Tower 2F.
+- **Status:** Spoke to all 3 Sages on 1F. Exited to refresh map.
+- **Next Step:** Re-enter Tin Tower immediately to check if Sages moved or stairs appeared at (10, 2).
+- **Needs:** Restock Poké Balls (Critical).
 
 ## 🎯 Goals
 - [ ] Unlock access to Tin Tower 2F (Primary)
