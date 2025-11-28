@@ -212,3 +212,4 @@
 - **Mechanic Confirmed:** 'Scoot' principle (leaving and re-entering map) successfully refreshed map state and moved Sages.
 ### Tool Lessons
 - **Robustness:** For obstacle detection, use substring matching (e.g. "TREE" in type) to handle variants like HEADBUTT_TREE.
+- **Inventory Sorting:** TMs are listed numerically first, with HMs appearing at the bottom of the list (after the last TM).
