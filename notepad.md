@@ -7,7 +7,7 @@
 
 ## Switch Room Puzzle
 - **Current State:**
-  - **Switch 1:** ON (Presumed)
+  - **Switch 1:** OFF (Verified)
   - **Switch 2:** ON (Presumed)
   - **Switch 3:** OFF (Verified)
   - **Emergency Switch:** ON (Verified)
