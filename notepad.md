@@ -5,39 +5,24 @@
 - [ ] Reach Emergency Switch in Switch Room South East (Secondary)
 
 ## Switch Room Strategy
-- **Logic Confirmed:**
-  - **S1:** Controls East Section. ON = Top East Open. OFF = Row 12 Connector (12,12) OPEN.
-  - **S2:** Controls Middle Gate (10,6). ON = OPEN. OFF = CLOSED.
-  - **S3:** Controls West Section. ON = West Gate (3,6) OPEN (if S2 is OFF). OFF = West Gate Closed.
-- **Constraint:** S2 ON overrides S3 ON, keeping West Gate CLOSED.
-- **Current Config:** [S1: OFF, S2: OFF, S3: ON].
-- **Verified Results:**
-  - [OFF, OFF, ON]: West Gate (3,6) OPEN.
-  - [ON, OFF, ON]: Top East Open, Bottom East Closed.
-  - [OFF, ON, ON]: West Gate Closed.
-- **Plan:** Go West Gate -> South to (6,12) -> East to (12,12) -> East Room.
+- **Objective:** Reach East Room (South East) via Row 12 Connector.
+- **Current Config:** [S1: OFF, S2: OFF, S3: ON]
+- **Verified Logic:**
+  - **S1:** OFF = Row 12 Connector (12,12) OPEN. ON = Top East Open.
+  - **S2:** OFF = West Gate allows opening (if S3 ON). ON = Middle Gate Open, but CLOSES West Gate.
+  - **S3:** ON = West Gate (3,6) OPEN (Requires S2 OFF).
+- **Working Hypothesis (The Winning Path):**
+  - Config [OFF, OFF, ON] opens West Gate (3,6) and keeps Row 12 Connector (12,12) open.
+  - **Path:** Enter West Gate -> Go South to Row 12 -> Head East across the map -> Enter East Room from bottom.
+- **Recent Tests:**
+  - [OFF, ON, ON]: West Gate CLOSED (S2 overrides S3). Middle South blocked at Row 10.
+  - [ON, OFF, ON]: Top East Open, Bottom East Closed (Dead End).
+  - [OFF, OFF, ON]: West Gate OPEN. (Current State).
 
-## Status
-- **Location:** Goldenrod Underground (North West).
-- **Status:** Returning to Main Hub.
-- **Disproven Theories:**
-  1. **City Backdoor:** The East Shaft exit leads to Goldenrod North, but the path north back into the Switch Room is blocked.
-  2. **Vertical Shaft Bypass:** Entering via the Underground East Shaft (3, 2) puts me in an isolated southern section.
-  3. **Row 12 Access:** Path from Middle Room to East Room via Row 12 is blocked by a wall at (18, 12).
-- **Ladder Connections (Verified):**
-  - West Shaft (5, 25) <-> SW Underground (3, 34)
-  - East Shaft (21, 25) <-> NW Underground (3, 2)
-  - Main Switch Room (23, 3) <-> Mid-East Underground (22, 27)
-
-## Switch Room Truth Table (Verified)
-| S1 | S2 | S3 | Top East (16,6) | Middle (10,6) | Bot East (16,10) | Row 12 Conn (12,12) | Notes |
-|---|---|---|---|---|---|---|---|
-| OFF | OFF | OFF | CLOSED | CLOSED | CLOSED | OPEN | Baseline. (Row 12 Conn Open verified previously). |
-| ON | OFF | OFF | OPEN | CLOSED | CLOSED | CLOSED | Verified Turn 11118. S1 ON opens Top East. |
-| OFF | ON | OFF | ? | OPEN | ? | OPEN | Target Config. Hypothesis: Middle Open, Row 12 Open. |
-
-**Goal:** Reach Unexplored Door at (22, 10) via Middle Room -> Row 12 Connector.
-**Next Step:** Turn S1 OFF, Turn S2 ON.
+## Switch Room Connections (Verified)
+- **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
+- **East Shaft (21, 25):** Connects to NW Underground. Path North blocked.
+- **Main Hub (23, 3):** Connects to 'Behind Counters' area.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
