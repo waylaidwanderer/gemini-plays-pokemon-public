@@ -10,9 +10,10 @@
 - **Current Strategy:** Turn S2 ON. Hypothesis: S1:ON + S2:ON opens Connector (12,9) to East Room.
 - **Current State:**
   - **Switch 1:** ON
-  - **Switch 2:** OFF (Currently interacting to turn ON)
+  - **Switch 2:** ON (Verified)
   - **Switch 3:** ON
   - **Emergency Switch:** ON
+- **Failed Config:** [S1:ON, S2:ON, S3:ON] -> Middle Gate CLOSED.
 - **Gate Logic Findings:**
   - **Top East (16,6):** Locked by Emergency Switch.
   - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
