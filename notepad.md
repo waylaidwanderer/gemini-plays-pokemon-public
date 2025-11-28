@@ -230,3 +230,4 @@
 
 # Battle Anomaly 2
 - A second battle anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue 'Hey, let's battle again!' appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
+- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
