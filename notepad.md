@@ -24,7 +24,7 @@
 - **Verified Config 1:** [S1:ON, S2:ON, S3:OFF] -> Middle Gate CLOSED. West Gate OPEN. Connector (12,9) OPEN.
 - **Verified Config 2:** [S1:ON, S2:ON, S3:ON] -> Connector (6,9) CLOSED. Middle Gate CLOSED. (S3:ON does not open the West-Middle path).
 - **Verified Config 3:** [S1:ON, S2:ON, S3:OFF] -> West Gate OPEN. Middle Gate CLOSED. Connector (6,9) CLOSED. Connector (12,9) OPEN. Shutter (10,10) OPEN.
-- **Verified Config 4:** [S1:OFF, S2:ON, S3:OFF] -> Middle Gate CLOSED. (Disproved hypothesis that S1 alone locks it).
+- **Verified Config 4:** [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN. (Confirmed S1 locks Middle Gate). South Shutter (10,10) OPEN. East Connector (12,9) CLOSED.
 - **Current Strategy:** Testing [S1:OFF, S2:ON, S3:ON]. Hypothesis: S3:ON might open West-Middle connector (6,9) if S1 is OFF.
 - **New Hypothesis:** Turning S3 ON will open West-Middle Connector (6,9), creating full path West->Middle->East.
 - **Action Plan:** Turn S3 ON, then check connector at (6,9).
