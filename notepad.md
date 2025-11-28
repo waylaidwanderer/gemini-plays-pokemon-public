@@ -231,7 +231,3 @@
 
 # Hallucinations & Corrections
 - **Olivine Lighthouse Staircase:** I hallucinated that the staircase at (8, 12) was a warp tile. The game state confirmed it is a WALL. The actual entry point is likely an adjacent traversable tile, such as (8, 11). This is a critical reminder to always trust game state data over visual interpretation.
-
-# Tile & Object Mechanics
-- **DOOR**: A traversable warp tile leading into or out of a building.
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
