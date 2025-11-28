@@ -7,18 +7,16 @@
 ## Switch Room Puzzle (Active)
 - **Goal:** Open path to Emergency Switch (South East).
 - **Hint:** "Change the order of switching." - Rocket Grunt.
-- **Switch Functions (Verified):**
-  - **S1 (East):** Opens Connector (12, 9).
-  - **S2 (Middle):** Opens Middle Gate (10, 6).
-  - **S3 (West):** Opens West Gate (3, 6). TRAP: Closes Connector (6, 9) & Top East Gate (16, 6).
-- **Combinations Tested:**
-  - [ON, OFF, OFF]: Gate (16,6) CLOSED.
-  - [ON, ON, OFF]: Gate (16,6) CLOSED.
-  - [OFF, ON, OFF]: Middle Gate (10,6) CLOSED.
-  - [OFF, OFF, ON]: West Gate OPEN. Connector (6,12) OPEN.
-- **Tested S1 First:** Failed. Top East Gate CLOSED.
-- **Tested Sequence [S3->S2->S1]:** Top East Gate CLOSED.
-- **Current Plan:** Check Middle (10, 6) and West (3, 6) gates. If all closed, hypothesis [S3 First] failed.
+- **Current State (Sequence: S3 -> S2 -> S1):**
+  - **S1, S2, S3:** ALL ON.
+  - **West Gate (3, 6):** OPEN.
+  - **Connector (6, 9):** OPEN (Trap Deactivated!).
+  - **Middle Gate (10, 6):** CLOSED.
+  - **Top East Gate (16, 6):** CLOSED.
+  - **New Discovery:** Path at (11, 10) is NOW OPEN (Tiles changed to FLOOR).
+- **Verified Mechanics:**
+  - **Sequence Matters:** The order [S3 -> S2 -> S1] successfully opened the trap connector at (6, 9).
+  - **S3:** Normally opens West Gate.
 
 ## Switch Room Connections (Verified)
 - **West Shaft (5, 25):** Connects to SW Underground. Path North blocked.
