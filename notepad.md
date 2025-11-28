@@ -230,3 +230,4 @@
 
 # Battle Anomaly 2
 - A second battle anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue 'Hey, let's battle again!' appeared, but then the game immediately returned to the overworld without initiating the battle. The cause is unknown.
+- **Proactive Stunning:** To avoid wasting turns on failed interactions or pathing interruptions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach, interact, or path around them.
