@@ -223,5 +223,31 @@
         "action_counter": 3843
       }
     ]
+  },
+  "select_item": {
+    "description": "Selects an item from a list menu (like Bag or PC) by scanning screen text. If the item is found, it navigates to it and presses A. If not found, it outputs 5 Down presses to scroll.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\n\ntarget_item = str(input_data['item_name']).upper()\nscreen_text = str(input_data['screen_text'])\n\nlines = screen_text.split('\\n')\ncursor_line = -1\nitem_line = -1\n\nfor i, line in enumerate(lines):\n    clean_line = line.replace('▶', '').strip()\n    if '▶' in line:\n        cursor_line = i\n    if clean_line.startswith(target_item):\n        item_line = i\n        break\n\nbuttons = []\n\nif cursor_line != -1 and item_line != -1:\n    diff = item_line - cursor_line\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\nelse:\n    buttons = [\"Down\"] * 5\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-11-28T16:06:06.713Z",
+        "action_counter": 12182
+      }
+    ]
   }
 }
