@@ -6,29 +6,27 @@
 - [x] Rescue Director in Underground Warehouse (Completed)
 
 ## Switch Room Puzzle
-- **Core Problem:** Emergency Switch (ON) overrides Top East Gate (CLOSED). Must reach SE corner to disable it.
-- **Current Strategy:** Turn S2 ON. Hypothesis: S1:ON + S2:ON opens Connector (12,9) to East Room.
-- **Current State:**
-  - **Switch 1:** ON (Confirmed)
-  - **Switch 2:** OFF (Confirmed)
-  - **Switch 3:** ON (Confirmed)
-  - **Testing Config:** [S1:ON, S2:OFF, S3:ON] -> Expect West Gate OPEN, Connector (6,9) OPEN, Shutter (10,10) OPEN.
-  - **Emergency Switch:** ON
-- **Findings:**
-  - S1:OFF closed the path at (12,8), confirming S1 is required for the Middle->East connection.
-- **Failed Config:** [S1:ON, S2:ON, S3:ON] -> Middle Gate CLOSED. Connector (6,9) CLOSED.
-- **Gate Logic Findings:**
-  - **Top East (16,6):** Locked by Emergency Switch.
-  - **West Gate (3,6):** Controlled by S3 (ON=OPEN).
-  - **Middle Gate (10,6):** Controlled by S2 (ON=OPEN).
-  - **Connector (12,9):** Requires S1 ON + S2 ON.
-- **Verified Config 1:** [S1:ON, S2:ON, S3:OFF] -> Middle Gate CLOSED. West Gate OPEN. Connector (12,9) OPEN.
-- **Verified Config 2:** [S1:ON, S2:ON, S3:ON] -> Connector (6,9) CLOSED. Middle Gate CLOSED. (S3:ON does not open the West-Middle path).
-- **Verified Config 3:** [S1:ON, S2:ON, S3:OFF] -> West Gate OPEN. Middle Gate CLOSED. Connector (6,9) CLOSED. Connector (12,9) OPEN. Shutter (10,10) OPEN.
-- **Verified Config 4:** [S1:OFF, S2:ON, S3:OFF] -> Middle Gate OPEN. (Confirmed S1 locks Middle Gate). South Shutter (10,10) OPEN. East Connector (12,9) CLOSED.
-- **Current Strategy:** Testing [S1:OFF, S2:ON, S3:ON]. Hypothesis: S3:ON might open West-Middle connector (6,9) if S1 is OFF.
-- **New Hypothesis:** Turning S3 ON will open West-Middle Connector (6,9), creating full path West->Middle->East.
-- **Action Plan:** Turn S3 ON, then check connector at (6,9).
+- **Objective:** Reach Emergency Switch (SE Corner, 20,11).
+- **Current Config:** [S1:ON, S2:OFF, S3:ON].
+- **Solution Found:** S1:ON opens the lower connector (6,12), creating a 'highway' along Row 12 to the East.
+- **Gate Logic Summary:**
+  - **S1:ON:**
+    - South Shutter (10,10): OPEN
+    - Upper Connectors (6,9 & 12,9): CLOSED (Observed with S2:OFF)
+    - Lower Connector (6,12): OPEN (Verified)
+    - Middle Gate (10,6): CLOSED
+  - **S1:OFF:**
+    - South Shutter (10,10): CLOSED
+    - Upper Connectors (6,9): OPEN (Verified with S2:ON)
+    - Middle Gate (10,6): OPEN (Verified with S2:ON)
+  - **S2:** Controls Middle Gate (ON=Open, unless overridden by S1).
+  - **S3:** Controls West Gate (ON=Open).
+- **Strategy:** With S1:ON, bypass the upper blocks by using the lower connector (6,12) to traverse West -> Middle -> East along Row 12.
+- **Verified Configurations:**
+  1. [ON, ON, OFF] -> Mid Gate Closed, (6,9) Closed, (12,9) Open.
+  2. [OFF, ON, OFF] -> Mid Gate Open, (6,9) Open, Shutter Closed.
+  3. [OFF, ON, ON] -> Mid Gate Open, (6,9) Open, Shutter Closed.
+  4. [ON, OFF, ON] -> (Current) (6,9) Closed, (6,12) OPEN.
 - **Connections:**
   - **West Shaft (5, 25):** Connects to SW Underground.
   - **East Shaft (21, 25):** Connects to NW Underground.
