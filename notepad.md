@@ -9,12 +9,12 @@
 - **Current Config:** [S1: OFF, S2: OFF, S3: OFF] (Transitioning to Deep South Config).
 - **Lesson:** Trust Tile Types (WALL/FLOOR) over old markers. S2 found ON. S3 found OFF.
 
-### Truth Table (Verified)
+### Truth Table (Under Revision)
 | Switch | ON Effect | OFF Effect |
 | :--- | :--- | :--- |
-| **S1 (East)** | Closes Row 12 Conn (12,12). Closes West-Mid Conn (6,9). | Opens Row 12 Conn (12,12). |
-| **S2 (Mid)** | Opens Middle Gate (10,6) (if S3 OFF). Opens Central Conn (12,9). | Closes Middle Gate (10,6). Closes Central Conn (12,9). |
-| **S3 (West)** | Opens West Gate (3,6). Closes West-Mid Conn (6,9). Overrides S2 (Closes Mid Gate). | Opens West-Mid Conn (6,9). Closes West Gate (3,6). |
+| **S1 (East)** | Closes West-Mid Conn (6,9). | Connector (12,12) CLOSED (Verified). |
+| **S2 (Mid)** | Opens Middle Gate (10,6). Opens Central Conn (12,9). | Closes Middle Gate (10,6). Closes Central Conn (12,9). |
+| **S3 (West)** | Opens Connector (6,9). West Gate (3,6) CLOSED. | Closes Connector (6,9). Testing West Gate. |
 
 ### Gate Dependencies
 - **Top East Gate (16,6):** Requires [S1: ON, S3: ON] (Verified).
