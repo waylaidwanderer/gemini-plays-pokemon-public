@@ -259,3 +259,4 @@
 - **Path:** West Room -> South to (6, 12) -> Middle Room South -> (12, 12) -> East Room South.
 - **Lesson:** Always verify switch states explicitly via interaction text. Do not rely on memory or markers if they conflict.
 - **Dead Ends:** Confirmed that both the East Shaft (via 3,2) and West Shaft (via 5,25) are blocked by walls at Row 21/23, preventing access to the northern Switch Room sections from the Underground.
+- [S1: OFF, S2: ON, S3: ON] -> West Gate CLOSED (S2 ON likely overrides S3 ON).
