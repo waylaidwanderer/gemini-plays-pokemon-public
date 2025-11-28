@@ -212,7 +212,8 @@
 - **Tested & Failed Hypotheses:**
   - **H5 (Sequence):** Stepping on the two anomalous tiles in a specific sequence (L->R or R->L) does not activate them.
   - **H3 (Directional Approach):** Approaching either anomalous tile from any cardinal direction (N, S, E, W) does not activate them.
-- **Current Hypothesis (H4):** A hidden item or trigger exists in the isolated room on 1F, accessible only by falling through the pits on 2F.
+- H4 (Re-search 1F Pit Room): FAILED. A systematic search of the room revealed no hidden items or triggers.
+- **Current Hypothesis (H1):** Re-verify that all trainers on 2F and 3F have been defeated.
 - **Next Hypotheses to Test:**
   - **H1 (Defeat All Trainers):** Re-verify that all trainers on 2F and 3F have been defeated.
   - **H2 (Defeat Blocker):** This was already confirmed to have failed. The trainer at 3F does not move after defeat.
