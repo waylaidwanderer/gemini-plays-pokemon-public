@@ -298,9 +298,8 @@
 - **Loop Avoidance:** When a path is confirmed to be a dead end (e.g., the western side of OlivineLighthouse3F), I must not return to it. Persisting in a loop is a critical failure. The correct response is to backtrack and systematically re-evaluate all other unexplored paths from the last major junction.
 
 # Strategic Principles & Lessons Learned
-- **CONSULT YOUR KNOWLEDGE BASE (CRITICAL FAILURE NOTED):** I completely ignored my own documented solution for the Olivine Lighthouse puzzle, leading to a repetitive loop. I MUST consult my knowledge base *before* forming ANY new plan. My own verified findings are more reliable than my memory. Ignoring my documented solutions is a critical failure.
-- **IMMEDIATE DEAD END MARKING:** I failed to mark the ladder at OlivineLighthouse2F (5, 3) as a dead end, which directly caused the loop. All dead ends MUST be marked with '🚫' immediately upon discovery.
-- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
+- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My own memory is the least reliable source.
+- **CONSULT YOUR KNOWLEDGE BASE & EXPLORE METHODICALLY (CRITICAL FAILURE NOTED):** I have repeatedly fallen into loops by ignoring my own map markers (e.g., the 'dead end' ladder) and by not thoroughly exploring new areas reached via one-way paths (e.g., the 1F pit landing). These are my two biggest strategic failures. To prevent this, I must adhere to a strict protocol: 1) Before forming any plan, I MUST consult my map markers and notepad. 2) When arriving in a new, isolated area, I MUST systematically explore every single reachable tile before using any exits.
 
 # Olivine Lighthouse Puzzle v5 (Agent Hypotheses)
 - **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
