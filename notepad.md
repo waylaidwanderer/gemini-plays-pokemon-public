@@ -11,8 +11,9 @@
      - **Current State:** Boulder 7 at (7, 1). Player at (8, 1).
   2. **Pit Filling Strategy (Final):**
      - **Step 1 (Clear Path):** Push Boulder 8 North to (8, 10). This clears the path at (8, 11) allowing access to the North East area via Column 9.
-     - **Step 2 (Top Pit):** Go to Boulder 7 at (7, 1) via Column 9. Push it East to (8, 1), then South into Pit (8, 3).
-     - **Step 3 (Bottom Pit):** Bring a boulder from the Left Side (e.g. Boulder 6) through Gap (5, 4). Push it East to fill Pit (8, 7).
+     - **Hypothesis:** Wall at (8, 4) might be fake/breakable. Testing from South.
+     - **Hypothesis:** Wall at (6, 3) or (6, 4) might be fake.
+     - **Failed Strategy:** Cannot push Boulder 8 West from Column 9 (Column 10 is VOID).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
