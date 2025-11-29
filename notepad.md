@@ -287,3 +287,4 @@
 
 # New Lessons & Mechanics
 - **Dead Ends & Non-Linear Puzzles:** NPC dialogue (like the Youngster on 3F) can confirm if an area is a dead end. When a path is confirmed as a dead end, do not persist. The solution is likely elsewhere, often in a non-linear direction (e.g., going down via pits instead of up via ladders).
+- **Trust Your Tools:** If multiple tools (like `find_path` and `find_reachable_unseen_tiles`) confirm a path is blocked, it's blocked. Don't assume the tools are wrong; re-evaluate the core strategy and challenge the assumption that the path is necessary.
