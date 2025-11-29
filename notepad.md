@@ -236,6 +236,12 @@
   - Sign at (34, 24): "Blackthorn City - A Quiet Mountain Retreat"
   - Emy's House at (29, 23)
 - **Trade:** Lass in Emy's House wants a female Dragonair (DRAGONAIR♀) for a Dodrio.
+- **Trainers:**
+  - Cooltrainer F (Hints at Move Deleter) at (10, 25).
+  - Youngster (Patrolling row 15) at (12, 15).
+  - Super Nerd sighted at (19, 12).
+- **Navigation:**
+  - Path to Northern District via gap at (13, 17).
 - **Tile Mechanics:** `FLOOR_UP_WALL` observed at (37, 20). Need to verify traversability.
 ## Blackthorn Dragon Speech House
 - **Location:** (13, 21) in Blackthorn City.
