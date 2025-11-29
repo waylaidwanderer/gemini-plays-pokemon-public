@@ -268,3 +268,4 @@
   - Boulders at (2, 3), (3, 3), (8, 14).
   - Pits at (2, 5), (8, 7).
 - **Tool Note:** Use '⚫' for boulders (other emojis failed).
+- **Strength Activation:** Requires interacting with a boulder and selecting 'YES' to activate the mode. Merely walking into it does not work.
