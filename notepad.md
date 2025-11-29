@@ -5,15 +5,15 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Climb to 2F and execute Gap Strategy.
 - **Active Strategy:**
-  1. **Investigation Phase:**
-     - Testing Row 0: (8, 0) is WALL. Testing (9, 0).
-     - **Alternative:** Test if (6, 4) is fake wall from (5, 4).
-     - **Current State:** Boulder 7 at (7, 1). Player at (8, 1).
-  2. **Pit Filling Strategy (Final):**
-     - **Step 1 (Clear Path):** Push Boulder 8 North to (8, 10). This clears the path at (8, 11) allowing access to the North East area via Column 9.
-     - **Hypothesis:** Wall at (8, 4) might be fake/breakable. Testing from South.
-     - **Hypothesis:** Wall at (6, 3) or (6, 4) might be fake.
-     - **Failed Strategy:** Cannot push Boulder 8 West from Column 9 (Column 10 is VOID).
+  1. **Confirmed Walls:** Row 0 (5,0 to 9,0), (6,3), (6,4), (8,4), (9,4), (8,8), (7,10), (7,11), (9,12), (9,13), (9,14).
+  2. **Failed Strategies:**
+     - Pushing Boulder 7 South from Row 1 (Blocked by Row 0).
+     - Pushing Boulder 8 West from Col 8 (Blocked by Col 9 walls).
+  3. **Current Strategy (Left Side):**
+     - Investigate Boulder 6 at (3, 3).
+     - Attempt to push South down Column 3.
+     - Look for crossing points to Right Side at Row 13 or Row 11.
+     - Test walls in Column 2 for fake walls (e.g., 2, 13).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
