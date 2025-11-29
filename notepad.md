@@ -3,11 +3,12 @@
 ## 📍 Current Status: Ice Path
 - **Location:** Ice Path B2F Mahogany Side (3_63).
 - **Goal:** Reach Blackthorn City.
-- **Current Task:** Solve B1F Boulder Puzzle to access Central B2F.
-- **Hypothesis:** Pushing boulders into pits on B1F creates landing spots/paths on B2F.
-- **Puzzle Plan:**
-  - Boulder 2 (11, 7): Push DOWN to open path.
-  - Boulder 1 (17, 7): Push LEFT to (16, 7), DOWN to (16, 13), LEFT to Pit (12, 13).
+- **Current Task:** Solve Northwest Boulder Puzzle (B1F).
+- **Hypothesis:** Pushing remaining boulders into pits creates path on B2F.
+- **Puzzle Plan (Northwest):**
+  1. Push Boulder 3 (8, 9) RIGHT to (9, 9) to open path.
+  2. Push Boulder 2 (7, 8) LEFT to (5, 8), UP to (5, 6), LEFT to (4, 6), DOWN into Pit (4, 7).
+  3. Push Boulder 3 (9, 9) DOWN to (9, 11), LEFT to (5, 11), DOWN into Pit (5, 12).
 
 ## Route 44
 - **Trainers:**
