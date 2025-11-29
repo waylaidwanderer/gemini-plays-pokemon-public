@@ -3,7 +3,7 @@
 ## 📍 Current Status: Blackthorn City
 - **Location:** Blackthorn City Pokémon Center.
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Explore Blackthorn City, find Gym and Center.
+- **Current Task:** Challenge Blackthorn Gym.
 - **Recent Progress:** Arrived in Blackthorn via Ice Path.
 - **Notes:** Need to find Move Deleter.
 
