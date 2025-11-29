@@ -263,5 +263,49 @@
         "action_counter": 3843
       }
     ]
+  },
+  "solve_ice_path": {
+    "description": "Solves ice sliding puzzles by finding a path from start to target using BFS with ice physics. Returns a JSON array of button presses with necessary sleep delays for sliding.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\n\n# Parse Map\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        t_type = tile.attrib.get('type', 'WALL')\n        grid[(x, y)] = t_type\n\ndef is_walkable(x, y):\n    if (x, y) not in grid:\n        return False\n    t = grid[(x, y)]\n    if 'WALL' in t or 'unseen' in t or 'BOULDER' in t or 'ROCK' in t:\n        return False\n    return True\n\ndef get_slide_dest(sx, sy, dx, dy):\n    cx, cy = sx, sy\n    # First step: move one tile.\n    nx, ny = cx + dx, cy + dy\n    if not is_walkable(nx, ny):\n        return cx, cy, False\n    \n    # Check if we landed on ICE\n    t_type = grid.get((nx, ny), 'WALL')\n    if 'ICE' not in t_type:\n        # Landed on floor, stop.\n        return nx, ny, False\n    \n    # We are on ICE, so slide until stop\n    cx, cy = nx, ny\n    while True:\n        nx, ny = cx + dx, cy + dy\n        if not is_walkable(nx, ny):\n            return cx, cy, True\n        \n        t_type = grid.get((nx, ny), 'WALL')\n        if 'ICE' not in t_type:\n            # Landed on floor/stop\n            return nx, ny, True\n        \n        cx, cy = nx, ny\n\nqueue = deque([(start_x, start_y, [])])\nvisited = set([(start_x, start_y)])\ndirections = [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]\n\npath_found = None\n\nwhile queue:\n    cx, cy, path = queue.popleft()\n    \n    if (cx, cy) == (target_x, target_y):\n        path_found = path\n        break\n    \n    for dx, dy, move in directions:\n        nx, ny, was_slide = get_slide_dest(cx, cy, dx, dy)\n        if (nx, ny) not in visited:\n            visited.add((nx, ny))\n            new_path = path + [move]\n            if was_slide:\n                # Calculate Manhattan distance for rough timing\n                dist = abs(nx - cx) + abs(ny - cy)\n                # 150ms per tile + 1000ms buffer\n                delay = max(1000, dist * 150)\n                new_path.append(f\"sleep {int(delay)}\")\n            queue.append((nx, ny, new_path))\n\nif path_found:\n    print(json.dumps(path_found))\nelse:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Add solve_ice_path tool to calculate moves for ice sliding puzzles.",
+        "timestamp": "2025-11-29T02:19:11.575Z",
+        "action_counter": 12978
+      },
+      {
+        "commit_message": "fix: Add sleep delays for ice sliding moves to ensure input reliability. Also correctly distinguish between walking (on floor) and sliding (on ice) to apply delays only when necessary.",
+        "timestamp": "2025-11-29T02:25:25.529Z",
+        "action_counter": 12982
+      },
+      {
+        "commit_message": "fix: Correctly handle transition from FLOOR to ICE. Previously, stepping from a non-ice tile to an ice tile was treated as a single step walk, preventing the slide logic from engaging. Now, the tool checks if the destination tile is ICE and initiates sliding immediately.",
+        "timestamp": "2025-11-29T02:32:56.358Z",
+        "action_counter": 12988
+      }
+    ]
   }
 }
