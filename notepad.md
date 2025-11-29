@@ -3,11 +3,11 @@
 ## 📍 Current Status: Ice Path
 - **Location:** Ice Path B2F Mahogany Side (3_63).
 - **Goal:** Reach Blackthorn City.
-- **Current Task:** Return to B1F (via ladder at 17,1) to try dropping from pit at (5, 12).
-- **Hypothesis:** Central B2F is accessed via specific B1F drops.
-- **Drop Log:**
-  - B1F(11, 2) -> B2F(11, 4): Sliding DOWN hits perimeter loop. Try LEFT/RIGHT.
-  - B1F(4, 7) -> B2F(4, 6): Leads to dead end/perimeter.
+- **Current Task:** Solve B1F Boulder Puzzle to access Central B2F.
+- **Hypothesis:** Pushing boulders into pits on B1F creates landing spots/paths on B2F.
+- **Puzzle Plan:**
+  - Boulder 2 (11, 7): Push DOWN to open path.
+  - Boulder 1 (17, 7): Push LEFT to (16, 7), DOWN to (16, 13), LEFT to Pit (12, 13).
 
 ## Route 44
 - **Trainers:**
