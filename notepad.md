@@ -271,3 +271,6 @@
 - **DOOR:** Traversable warp tile.
 - **WATER:** Impassable without Surf.
 - **BUOY:** Impassable object in water.
+
+# Olivine Lighthouse Puzzle - Investigation (Update)
+- Agent Hypothesis #2 (Sailor is a Trainer): FAILED. Walked directly into the sailor's line of sight at (8, 2). No battle was initiated, and no dialogue was triggered. This confirms he is not a standard line-of-sight trainer.
