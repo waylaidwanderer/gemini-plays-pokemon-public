@@ -259,3 +259,6 @@
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 - Unstun Sailor (ID 1) in Olivine City when I return.
 - **Tool Limitations & Game State:** Some tools, like `stun_npc`, are dependent on the live game state and will fail if their target is not currently rendered on-screen. I must ensure an object is visible before attempting to use a tool that targets it.
+
+# Lessons Learned
+- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
