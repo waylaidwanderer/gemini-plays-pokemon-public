@@ -301,3 +301,10 @@
 - **CONSULT YOUR KNOWLEDGE BASE (CRITICAL FAILURE NOTED):** I completely ignored my own documented solution for the Olivine Lighthouse puzzle, leading to a repetitive loop. I MUST consult my knowledge base *before* forming ANY new plan. My own verified findings are more reliable than my memory. Ignoring my documented solutions is a critical failure.
 - **IMMEDIATE DEAD END MARKING:** I failed to mark the ladder at OlivineLighthouse2F (5, 3) as a dead end, which directly caused the loop. All dead ends MUST be marked with '🚫' immediately upon discovery.
 - **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
+
+# Olivine Lighthouse Puzzle v5 (Agent Hypotheses)
+- **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
+- **Agent Hypothesis #1:** There is a hidden pit in the 'dead end' section of 3F (accessed via ladder at 2F (5, 3)).
+- **Agent Hypothesis #2:** Defeating all trainers on 2F is a trigger. (Likely already completed).
+- **Agent Hypothesis #3:** One of the pits on the eastern side of 2F leads to a different destination.
+- **Current Plan:** Systematically test Hypothesis #1.
