@@ -253,3 +253,4 @@
 # Reminders & To-Do
 - Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the area for good.
 - When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
+- Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the area for good.
