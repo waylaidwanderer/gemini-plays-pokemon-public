@@ -57,6 +57,7 @@
 
 ## Global Game Mechanics
 ### General Mechanics
+- **Physics:** Boulders cannot push other boulders. You must occupy the tile 'behind' a boulder to push it.
 - **'Scoot' Mechanic:** Leaving and re-entering a map is a verified method to refresh the map state and advance puzzles (e.g., moving NPCs) after a trigger event.
 - **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings' (which may be hallucinations).
 
