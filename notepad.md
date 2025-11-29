@@ -275,11 +275,12 @@
   - Boulder 8 at (8,14).
 - **Critical Logic:** Pushing Boulder 7 East from (5,1) traps the player at (6,1) unless there is a fake wall. 
 - **Current Plan:**
-  1. Do NOT push Boulder 7 East yet.
-  2. Navigate to Row 5 via Gap (5,4).
-  3. Hypothesis: Access Top-Right area via 1F. Go to Ladder (7, 9), descend, and explore 1F North for a second ladder.
-  4. If passage found: Go to (7,1), push Boulder 7 West to (5,1), then South through Gap (5,4) to Pit (8,3).
-  5. Boulder 8: Use loop (South to Row 16 -> West -> North) to fill Pit (8,7).
+  1. Push Boulder 7 East to (8, 1) to clear Row 1.
+  2. Test (6, 0) and (7, 0) for fake walls.
+  3. If solid, go South, move Boulder 8 North to (8, 10) to open path to Right Side.
+  4. Access Right Side, go North to (9, 1).
+  5. Check (8, 4) from the South (requires moving Boulder 8). Check (6, 3) for fake wall.
+  6. Objective: Find a valid angle to push a boulder into Pit (8, 3).
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
