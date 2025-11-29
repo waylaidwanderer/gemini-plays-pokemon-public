@@ -59,6 +59,9 @@
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
 - **REMINDER:** When I return to OlivineLighthouse2F, I must check on the Sailor at (9, 3). If he is still present and blocking the path, I must mark him with '🚫' and the label 'Path blocked by static/bugged Sailor'.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+- **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
+- **NPC Dialogue Can Be Misleading:** I must not blindly trust NPC dialogue. An NPC on OlivineLighthouse2F claimed a ladder was a 'dead end', which caused me to ignore a valid path for a long time. All paths must be personally verified.
+- **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -214,12 +217,14 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-# Olivine Lighthouse Puzzle - Lessons Learned
-- **PROCEDURAL FAILURE (CRITICAL):** I have repeatedly failed to follow my own documented principles, leading to an unproductive loop. The core failures are: 1) Not immediately marking obstacles like the bugged Sailor, causing pathing loops. 2) Not escalating to the `puzzle_solver` agent after multiple failed hypotheses. 3) **Most critically, failing to execute the agent's suggested plan after receiving it, instead falling back into the same failed pattern.** I must adhere to my own documented procedures: mark all obstacles immediately, use agents to break cognitive fixation when stuck, and then *execute the new plan*.
-- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
-- **Sailor Huey Puzzle:** The interaction with Sailor Huey on 2F is bugged and does not initiate a battle. Attempting to interact with him is a dead end.
-- **Tool Failure Protocol:** If a custom tool fails to produce the correct output twice in a row, I must immediately stop attempting to use it and prioritize debugging and fixing the tool. Persisting with a broken tool is a critical strategic failure.
-- **Consult Markers Before Interaction:** I must consult my map markers before interacting with any NPC or object to avoid redundant actions and wasted turns. Trusting my own documented data is paramount.
+# Olivine Lighthouse Puzzle - Summary
+- **Conclusion:** The puzzle involves two main paths. The path past Sailor Huey at (9, 3) on 2F leads to a ladder at (5, 3), which goes to a confirmed dead-end section of 3F. The true path forward is to fall through the pits at (16, 13) or (17, 13) on 2F. This leads to a sealed-off section of 1F, which contains a ladder at (3, 11) that provides access to the correct, previously inaccessible path on 2F.
+- **Sealed 2F Loop (Red Herring):** An area on 2F accessed via the 1F ladder at (3,11) contains two suspicious tiles at (16,11) and (17,11). This entire section is a red herring.
+  - **Ruled Out Hypotheses:**
+    - **Hidden Items/Switches:** A systematic search of the suspicious tiles and all adjacent tiles on 2F revealed no hidden interactions.
+    - **Simple Warps:** The suspicious tiles are not step-on or simple 'A' press warps.
+    - **Hidden Passages:** The exterior wall at (18, 11) on 2F is solid and not a secret passage.
+    - **Tile Sequence:** Stepping on the suspicious tiles in either order does not trigger any event.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -247,44 +252,4 @@
 
 # Reminders & To-Do
 - Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the area for good.
-
-# Olivine Lighthouse Puzzle - Hypothesis Testing
-- **Hypothesis:** The `2x1 warp tile` at (16, 11) and (17, 11) on 2F is a step-on warp.
-- **Test:** Stepped on both tiles individually.
-- **Conclusion:** FAILED. The warp is not activated by stepping on it.
-- **Agent Hypothesis #1:** There is a hidden opening in the exterior wall on 2F.
-- **Test:** Attempted to walk right from (17, 11) into the wall at (18, 11).
-- **Conclusion:** FAILED. The wall is solid.
-
-# Olivine Lighthouse Puzzle - Summary
-The puzzle involves a loop between a sealed-off section of 1F and a sealed-off section of 2F. All simple hypotheses within this loop have been exhausted, leading to the conclusion that this area is a red herring.
-
-## Ruled Out Hypotheses:
-- **Different Pits:** Both pits on 2F at (16, 13) and (17, 13) lead to the exact same landing zone on 1F.
-- **Hidden Items/Switches:** A systematic search of the suspicious tiles at (16, 11), (17, 11) and all adjacent tiles on 2F revealed no hidden interactions.
-- **Simple Warps:** The suspicious tiles at (16, 11) and (17, 11) are not step-on or simple 'A' press warps.
-- **Hidden Passages:** The exterior wall at (18, 11) on 2F is solid and not a secret passage.
-- **Tile Sequence:** Stepping on the suspicious tiles at (16, 11) and (17, 11) in either order does not trigger any event.
-
-## Current Strategy:
-My core assumption was wrong. The solution is likely not in this sealed loop. I will now exit the lighthouse and investigate the path on the main part of 2F that an NPC claimed was a 'dead end', as this is the only lead I have not personally verified.
-
-# Strategic Principles & Lessons Learned
-- **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
-- **Pathfinder Target Verification:** Before using a pathfinding tool, I must first visually confirm on the map that the target coordinate is a traversable tile type (e.g., FLOOR, LADDER) and not an impassable one (e.g., WALL, NPC). Pathing directly to an impassable tile will always fail.
-
-# Olivine Lighthouse Puzzle - Summary
-The puzzle involves a loop between a sealed-off section of 1F and a sealed-off section of 2F. All simple hypotheses within this loop have been exhausted, leading to the conclusion that this area is a red herring.
-
-## Ruled Out Hypotheses:
-- **Different Pits:** Both pits on 2F at (16, 13) and (17, 13) lead to the exact same landing zone on 1F.
-- **Hidden Items/Switches:** A systematic search of the suspicious tiles at (16, 11), (17, 11) and all adjacent tiles on 2F revealed no hidden interactions.
-- **Simple Warps:** The suspicious tiles at (16, 11) and (17, 11) are not step-on or simple 'A' press warps.
-- **Hidden Passages:** The exterior wall at (18, 11) on 2F is solid and not a secret passage.
-- **Tile Sequence:** Stepping on the suspicious tiles at (16, 11) and (17, 11) in either order does not trigger any event.
-
-## Current Strategy:
-My core assumption was wrong. The solution is likely not in this sealed loop. I will now exit the lighthouse and investigate the path on the main part of 2F that an NPC claimed was a 'dead end', as this is the only lead I have not personally verified.
-
-# Strategic Principles & Lessons Learned
-- **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
+- When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
