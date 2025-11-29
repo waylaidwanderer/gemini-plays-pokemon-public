@@ -260,3 +260,6 @@
 - **Hypothesis 2 (Hidden Path):** There is an undiscovered narrow path on 2F that bypasses the sailor.
 - **Hypothesis 3 (Trainer Trigger):** Defeating all trainers on 2F will cause the sailor to move.
 - **Hypothesis 4 (Hidden Switch/Item):** There is a hidden item or switch in the sealed-off section of 1F. (Testing this now)
+
+# Strategic Principles & Lessons Learned
+- **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
