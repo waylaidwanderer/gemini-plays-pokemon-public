@@ -297,3 +297,8 @@
 - **Next Step:** Push Boulder (3,3) North, then circle to push Boulder (2,3) South into the pit.
 - **Gym 1F Left Side:** Confirmed boulder falls to (2, 5). Area is a dead end. Puzzle purpose is clearing 2F path.
 - **Gym Puzzle Update:** Map reset on exit. Must redo 'Sacrifice Boulder 8' to fill Pit 1 (8, 7), cross it to reach Column 9, then use Northern Boulders to fill Pit 2 (8, 3).
+### Reflection (Turn 13720)
+- Reviewed last 50 turns. Corrected tool usage errors.
+- Map markers cleaned up.
+- Strategy verified: 'Sacrifice Boulder 8' is the correct solution.
+- Proceeding with Strength activation.
