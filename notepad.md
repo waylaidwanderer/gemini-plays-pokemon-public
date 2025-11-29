@@ -279,3 +279,4 @@
 - **Gym Puzzle Logic:** Pushing Boulder 8 North to (8, 10) on 2F causes a soft-lock. The boulder becomes immovable against the wall. The correct solution likely involves navigating the unseen area in Column 9.
 - Cooltrainer Cody (Horsea Lv34, Seadra Lv36) at (4, 1). Defeated.
 - **Lesson:** Strength status resets upon map transition (e.g., using ladders). Must re-activate.
+- Pushed Boulder (8, 2) into Pit (8, 3). Jumping in to follow it.
