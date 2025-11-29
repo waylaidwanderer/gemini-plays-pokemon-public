@@ -285,3 +285,7 @@
 # Olivine Lighthouse Puzzle - Investigation (Update)
 - Agent Hypothesis (Re-entry): FAILED. Exited and re-entered the lighthouse entrance. The room layout and state did not change.
 - Sailor at (26, 27) in Olivine City only provides flavor text about the lighthouse beacon. Not a puzzle trigger.
+
+# Lessons Learned (Post-Reflection)
+- **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
+- **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
