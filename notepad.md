@@ -5,10 +5,14 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Explore Bottom Left Area.
 - **Puzzle Strategy (Active):**
-  1. **Reset:** Exit and re-enter map to reset boulder positions.
-  2. **Right Side:** Flank Boulder (8, 14) via the bottom path (Row 16). Push it North into Pit (8, 7).
-  3. **Left Side:** Solve Left Side puzzle (currently blocked by Trainer Cody).
-  4. **Inventory:** Known Boulders: (3,3), (6,1), (8,14). Known Pits: (2,5), (8,3), (8,7).
+  1. **Reset:** Exit and re-enter map via Ladder (1, 7).
+  2. **Right Side Solution (SOLVED):**
+     - Push Boulder (8, 14) North to (8, 11).
+     - Push East to (9, 11).
+     - Push North to (9, 7).
+     - Push West into Pit (8, 7).
+     - Retrieve Boulder (6, 1) and push into Pit (8, 3).
+  3. **Left Side:** Investigate Boulder (3, 3) movement options.
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
