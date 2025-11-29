@@ -5,18 +5,19 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Solve Right Side Boulder Puzzle.
 - **Active Strategy:**
-  1. **Confirmed Walls:** Row 0 (5,0 to 9,0), (6,3), (6,4), (8,4), (9,4), (8,8), (7,10), (7,11), (9,12), (9,13), (9,14).
-  2. **Failed Strategies:**
-     - Pushing Boulder 7 South from Row 1 (Blocked by Row 0).
-     - Pushing Boulder 8 West from Col 8 (Blocked by Col 9 walls).
-     - Left Side Pit (2, 5): Leads to trapped dead end on 1F.
-  3. **Current Strategy (Right Side):**
-     - Navigate to bottom-right area (Row 13/14).
-     - Target Boulder 8 at (8, 14).
-     - Use 'puzzle_advisor' agent to verify safe pushes.
-     - Aim to drop boulders into Pits at (8, 3) and (8, 7).
+  1. **Confirmed Geometry:**
+     - Left Side Pit (2, 5) is a RESET TRAP (leads to dead end).
+     - Column 9: (9, 12) and (9, 13) are WALLS (blocking right-side flank).
+  2. **Current Plan (Right Side):**
+     - **Path:** Loop around via Column 6 to reach (8, 15) (behind Boulder 8).
+     - **Push Sequence:**
+       1. Push Boulder 8 North to (8, 11).
+       2. Push East to (9, 11).
+       3. Push North along Column 9 to (9, 7).
+       4. Push West into Pit (8, 7).
+     - Use 'puzzle_advisor' before first push.
 - **Lesson:** Strength deactivates on map change. Must re-interact.
-- **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
+- **Lesson:** Visual Map Deception: Walls may be floors, but don't assume the whole column is open. Always verify with collision tests.
 
 ## Route 44
 - **Trainers:**
