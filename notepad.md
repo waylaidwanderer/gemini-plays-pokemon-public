@@ -232,5 +232,6 @@
 - **Exploration:** Fell through ice hole at (12, 12) to new area (Map 3_63 top-left).
 - **Inventory:** Freed space by tossing Antidotes. Ready to pick up item at B2F (0, 2).
 - Puzzle B2F Center: Dropping from B1F(11,2) lands at (11,4). Sliding DOWN escapes to perimeter (Fail). Must try sliding LEFT or RIGHT next.
-- Puzzle B2F Center: Dropping from B1F(11,2) lands at (11,4). Sliding DOWN escapes to perimeter (Fail). Must try sliding LEFT or RIGHT next.
+### Lessons Learned
+- **Tool Safety:** ALWAYS set 'autopress_buttons: true' for movement tools. Verify movement occurred before assuming success.
 - Dropped from B1F (4, 7) -> Landed at B2F (4, 6). (4, 6) is solid ice. Sliding Down to test path.
