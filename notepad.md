@@ -269,3 +269,5 @@
 # Lessons Learned
 - **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
 - **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
+## Olivine Lighthouse Puzzle - 3F Dead End
+- **Agent Hypothesis #1 (Re-explore 3F ladder):** FAILED. The ladder at (5, 3) on 2F leads to an isolated, dead-end section of 3F. The item ball and trainer on this floor are in a separate, unreachable section. Confirmed by `find_path` tool returning 'No path found'.
