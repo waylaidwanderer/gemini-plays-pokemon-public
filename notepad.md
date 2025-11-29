@@ -259,10 +259,7 @@
 # Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (Different Pits):** FAILED. Both pits at (16, 13) and (17, 13) lead to the same landing zone on 1F.
 - **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
-- **Hypothesis 3 (Hidden Item/Switch):**
-  - Test on (16, 11): FAILED. No hidden item found.
-  - Test on (17, 11): FAILED. No hidden item found.
-  - Test on adjacent tiles: Untested.
+- **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
 - **Hypothesis 4 (Tile Sequence Trigger):** Untested.
 
 # Strategic Principles & Lessons Learned
@@ -272,8 +269,5 @@
 # Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (Different Pits):** FAILED. Both pits at (16, 13) and (17, 13) lead to the same landing zone on 1F.
 - **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
-- **Hypothesis 3 (Hidden Item/Switch):**
-  - Test on (16, 11): FAILED. No hidden item found.
-  - Test on (17, 11): FAILED. No hidden item found.
-  - Test on adjacent tiles: Untested.
+- **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
 - **Hypothesis 4 (Tile Sequence Trigger):** Untested.
