@@ -231,3 +231,4 @@
 - **Item Found:** HM07 (Waterfall) at Ice Path 1F (North-East).
 - **Exploration:** Fell through ice hole at (12, 12) to new area (Map 3_63 top-left).
 - **Inventory:** Freed space by tossing Antidotes. Ready to pick up item at B2F (0, 2).
+- Puzzle B2F Center: Dropping from B1F(11,2) lands at (11,4). Sliding DOWN escapes to perimeter (Fail). Must try sliding LEFT or RIGHT next.
