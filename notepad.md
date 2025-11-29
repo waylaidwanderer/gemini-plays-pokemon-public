@@ -256,25 +256,35 @@
 - **Test:** Attempted to walk right from (17, 11) into the wall at (18, 11).
 - **Conclusion:** FAILED. The wall is solid.
 
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Different Pits):** FAILED. Both pits at (16, 13) and (17, 13) lead to the same landing zone on 1F.
-- **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
-- **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
-- **Hypothesis 4 (Tile Sequence Trigger):**
-  - Test Sequence (16,11) -> (17,11): FAILED. No event triggered.
-  - Test Sequence (17,11) -> (16,11): FAILED. No event triggered.
+# Olivine Lighthouse Puzzle - Summary
+The puzzle involves a loop between a sealed-off section of 1F and a sealed-off section of 2F. All simple hypotheses within this loop have been exhausted, leading to the conclusion that this area is a red herring.
+
+## Ruled Out Hypotheses:
+- **Different Pits:** Both pits on 2F at (16, 13) and (17, 13) lead to the exact same landing zone on 1F.
+- **Hidden Items/Switches:** A systematic search of the suspicious tiles at (16, 11), (17, 11) and all adjacent tiles on 2F revealed no hidden interactions.
+- **Simple Warps:** The suspicious tiles at (16, 11) and (17, 11) are not step-on or simple 'A' press warps.
+- **Hidden Passages:** The exterior wall at (18, 11) on 2F is solid and not a secret passage.
+- **Tile Sequence:** Stepping on the suspicious tiles at (16, 11) and (17, 11) in either order does not trigger any event.
+
+## Current Strategy:
+My core assumption was wrong. The solution is likely not in this sealed loop. I will now exit the lighthouse and investigate the path on the main part of 2F that an NPC claimed was a 'dead end', as this is the only lead I have not personally verified.
 
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
 - **Pathfinder Target Verification:** Before using a pathfinding tool, I must first visually confirm on the map that the target coordinate is a traversable tile type (e.g., FLOOR, LADDER) and not an impassable one (e.g., WALL, NPC). Pathing directly to an impassable tile will always fail.
 
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Different Pits):** FAILED. Both pits at (16, 13) and (17, 13) lead to the same landing zone on 1F.
-- **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
-- **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
-- **Hypothesis 4 (Tile Sequence Trigger):**
-  - Test Sequence (16,11) -> (17,11): FAILED. No event triggered.
-  - Test Sequence (17,11) -> (16,11): FAILED. No event triggered.
+# Olivine Lighthouse Puzzle - Summary
+The puzzle involves a loop between a sealed-off section of 1F and a sealed-off section of 2F. All simple hypotheses within this loop have been exhausted, leading to the conclusion that this area is a red herring.
+
+## Ruled Out Hypotheses:
+- **Different Pits:** Both pits on 2F at (16, 13) and (17, 13) lead to the exact same landing zone on 1F.
+- **Hidden Items/Switches:** A systematic search of the suspicious tiles at (16, 11), (17, 11) and all adjacent tiles on 2F revealed no hidden interactions.
+- **Simple Warps:** The suspicious tiles at (16, 11) and (17, 11) are not step-on or simple 'A' press warps.
+- **Hidden Passages:** The exterior wall at (18, 11) on 2F is solid and not a secret passage.
+- **Tile Sequence:** Stepping on the suspicious tiles at (16, 11) and (17, 11) in either order does not trigger any event.
+
+## Current Strategy:
+My core assumption was wrong. The solution is likely not in this sealed loop. I will now exit the lighthouse and investigate the path on the main part of 2F that an NPC claimed was a 'dead end', as this is the only lead I have not personally verified.
 
 # Strategic Principles & Lessons Learned
 - **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
