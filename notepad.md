@@ -280,22 +280,14 @@
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
 - Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
 - Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
-- **Gym Puzzle Logic:** Left Side Solution: Push Boulder (3,3) North to (3,2). This clears the path. The boulder at (2,3) was a hallucination/marker error. Path to ladder at (1,7) is clear.
-- Cooltrainer Cody (Horsea Lv34, Seadra Lv36) at (4, 1). Defeated.
-- **Lesson:** Strength status resets upon map transition (e.g., using ladders). Must re-activate.
-- Pushed Boulder (8, 2) into Pit (8, 3). Jumping in to follow it.
-- Dropped Top-Right Boulder. It fell through to 1F.
-- Landed at 1F (7, 6).
-- Resetting Gym to solve Bottom-Right Boulder.
-- Confirmed: Pits on 2F Right Side drop to isolated room on 1F (7, 6). This is a loop.
-- Must cross to Left Side on 2F to exit. Need to bypass Cody (4, 1) or Fran (4, 11).
-### Gym Puzzle Analysis (Updated)
-- **Mechanic:** Pits on the Right Side (Column 8) are a trap/loop that drop to an isolated room on 1F.
-- **Goal:** Clear boulders on Left Side to reach North Corridor (Row 1).
-- **Observation:** No boulder fell to 1F from the Right Side drop, implying the goal is clearing the path on 2F, not building a bridge on 1F.
-- **Next Step:** Push Boulder (3,3) North, then circle to push Boulder (2,3) South into the pit.
-- **Gym 1F Left Side:** Confirmed boulder falls to (2, 5). Area is a dead end. Puzzle purpose is clearing 2F path.
-- **Gym Puzzle Update:** Map reset on exit. Must redo 'Sacrifice Boulder 8' to fill Pit 1 (8, 7), cross it to reach Column 9, then use Northern Boulders to fill Pit 2 (8, 3).
+### Blackthorn Gym Puzzle Solution
+- **Left Side:** Status: STUCK. Boulder (3,3) appears trapped in Column 3 because Trainer Cody (4,1) blocks the only exit to the West. 
+- **Right Side Strategy (SOLVED):**
+  1. **Flank Maneuver:** Navigate to (8, 15) by circling through the middle of the map (Col 5 -> Col 6 -> Row 16 -> Col 8).
+  2. **Push North:** From (8, 15), push Boulder (8, 14) North all the way into Pit (8, 7).
+  3. **Second Boulder:** Retrieve Boulder (6, 1), push East to (8, 1), then South into Pit (8, 3).
+  4. **Outcome:** Both pits filled. Boulders drop to 1F Isolated Room.
+- **Next Step:** Execute Right Side strategy, then descend Ladder (7, 9) to investigate 1F Isolated Room with the new boulders.
 ### Reflection (Turn 13720)
 - Reviewed last 50 turns. Corrected tool usage errors.
 - Map markers cleaned up.
