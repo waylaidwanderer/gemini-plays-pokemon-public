@@ -240,12 +240,15 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `verify_reachability`
+- `systematic_search`
 
 ## Custom Agents
 - `gym_puzzle_solver`
 - `python_code_debugger`
 - `puzzle_solver`
+
+# Reminders & To-Do
+- Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the area for good.
 
 # Olivine Lighthouse Puzzle - Hypothesis Testing
 - **Hypothesis:** The `2x1 warp tile` at (16, 11) and (17, 11) on 2F is a step-on warp.
