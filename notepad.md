@@ -267,7 +267,7 @@
 - **Pathfinder Target Verification:** Before using a pathfinding tool, I must first visually confirm on the map that the target coordinate is a traversable tile type (e.g., FLOOR, LADDER) and not an impassable one (e.g., WALL, NPC). Pathing directly to an impassable tile will always fail.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 24699)
-- **Hypothesis 1 (Different Pits):** One of the two pits at (16, 13) and (17, 13) leads to a new area on 1F with a path forward, while the other is a loop.
+- **Hypothesis 1 (Different Pits):** FAILED. Both pits at (16, 13) and (17, 13) lead to the same landing zone on 1F. This is not the solution.
   - **Test Plan:** Systematically fall through each pit and compare the landing zones on 1F.
 - **Hypothesis 2 (Hidden Path):** There is an undiscovered narrow path on 2F that bypasses the sailor.
 - **Hypothesis 3 (Trainer Trigger):** Defeating all trainers on 2F will cause the sailor to move.
