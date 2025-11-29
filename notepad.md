@@ -1,18 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Blackthorn Gym
+## 📍 Current Status: Blackthorn Gym Puzzle
 - **Location:** Blackthorn Gym 2F.
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Explore Bottom Left Area.
-- **Puzzle Strategy (Active):**
-  1. **Reset:** Exit and re-enter map via Ladder (1, 7).
-  2. **Right Side Solution (SOLVED):**
-     - Push Boulder (8, 14) North to (8, 11).
-     - Push East to (9, 11).
-     - Push North to (9, 7).
-     - Push West into Pit (8, 7).
-     - Retrieve Boulder (6, 1) and push into Pit (8, 3).
-  3. **Left Side:** Investigate Boulder (3, 3) movement options.
+- **Current Task:** Solve Right Side Puzzle (Part 2).
+- **Active Strategy:**
+  1. **Right Side:**
+     - 'Sacrifice Boulder' (8, 14) has been pushed to (8, 10) to clear the path.
+     - **Next Step:** Retrieve Boulder (6, 1).
+     - **Path:** Push Boulder (6, 1) West to (5, 1), South to (5, 7), then East into Pit (8, 7).
+  2. **Left Side:**
+     - Currently blocked by Cooltrainer Cody (4, 1). Needs investigation.
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
