@@ -251,3 +251,6 @@
 - **Hypothesis:** The `2x1 warp tile` at (16, 11) and (17, 11) on 2F is a step-on warp.
 - **Test:** Stepped on both tiles individually.
 - **Conclusion:** FAILED. The warp is not activated by stepping on it.
+- **Agent Hypothesis #1:** There is a hidden opening in the exterior wall on 2F.
+- **Test:** Attempted to walk right from (17, 11) into the wall at (18, 11).
+- **Conclusion:** FAILED. The wall is solid.
