@@ -6,9 +6,12 @@
 - **Current Task:** Solve Northwest Boulder Puzzle (B1F).
 - **Hypothesis:** Pushing remaining boulders into pits creates path on B2F.
 - **Puzzle Plan (Northwest):**
-  1. Push Boulder 3 (8, 9) RIGHT to (9, 9) to open path.
-  2. Push Boulder 2 (7, 8) LEFT to (5, 8), UP to (5, 6), LEFT to (4, 6), DOWN into Pit (4, 7).
-  3. Push Boulder 3 (9, 9) DOWN to (9, 11), LEFT to (5, 11), DOWN into Pit (5, 12).
+  1. Push Boulder 3 (8, 9) RIGHT to (9, 9) [Done].
+  2. Push Boulder 3 (9, 9) DOWN to (9, 11) [Done].
+  3. Navigate loop (North -> East -> South -> West) to reach (10, 11).
+  4. Push Boulder 3 (9, 11) LEFT to (5, 11).
+  5. Push Boulder 3 (5, 11) DOWN into Pit (5, 12).
+  6. Return to Boulder 2 (7, 8): Push LEFT to (5, 8), UP to (5, 6), LEFT to (4, 6), DOWN into Pit (4, 7).
 
 ## Route 44
 - **Trainers:**
