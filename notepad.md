@@ -216,14 +216,13 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-# Olivine Lighthouse Puzzle - Summary
-- **Conclusion:** The puzzle involves two main paths. The path past Sailor Huey at (9, 3) on 2F leads to a ladder at (5, 3), which goes to a confirmed dead-end section of 3F. The true path forward is to fall through the pits at (16, 13) or (17, 13) on 2F. This leads to a sealed-off section of 1F, which contains a ladder at (3, 11) that provides access to the correct, previously inaccessible path on 2F.
-- **Sealed 2F Loop (Red Herring):** An area on 2F accessed via the 1F ladder at (3,11) contains two suspicious tiles at (16,11) and (17,11). This entire section is a red herring.
-  - **Ruled Out Hypotheses:**
-    - **Hidden Items/Switches:** A systematic search of the suspicious tiles and all adjacent tiles on 2F revealed no hidden interactions.
-    - **Simple Warps:** The suspicious tiles are not step-on or simple 'A' press warps.
-    - **Hidden Passages:** The exterior wall at (18, 11) on 2F is solid and not a secret passage.
-    - **Tile Sequence:** Stepping on the suspicious tiles in either order does not trigger any event.
+# Olivine Lighthouse Puzzle - Investigation
+- **Current Blocker:** I am stuck in a loop between OlivineLighthouse1F, 2F, and 3F. Both the path through the pits and the path up the western ladder appear to be dead ends or loops.
+- **Agent Hypotheses (from `puzzle_solver`):**
+  - **Hypothesis #1 (FAILED):** An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from. (Test: Walked into the wall at (18, 7), movement was blocked.)
+  - **Hypothesis #2 (IN PROGRESS):** The sealed area on the 1st floor, accessed by the pits, contains another exit besides the ladder back to the 2F walkway. (Test: Systematically checking all walls for hidden passages.)
+  - **Hypothesis #3 (PENDING):** Defeating all the trainers on the main part of OlivineLighthouse2F triggers a change.
+  - **Hypothesis #4 (PENDING):** Interacting with the wall next to the pits on the main part of 2F reveals a hidden switch or passage.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
