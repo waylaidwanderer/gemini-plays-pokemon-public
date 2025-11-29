@@ -4,8 +4,8 @@
 - **Location:** Ice Path B2F Mahogany Side (3_63).
 - **Goal:** Traverse Ice Path to reach Blackthorn City.
 - **Status:** Exploring B2F. Probing horizontal rows for obstacles.
-- **Findings:** Rows 0, 1, and 2 are clear horizontal slides (no center obstacles).
-- **Next Step:** Test Row 3.
+- **Findings:** Rows 0-3 are clear horizontal slides. Column 16 is a clear vertical slide.
+- **Next Step:** Test Row 16 (Bottom edge).
 - **Lesson:** Ice physics require checking if the *landing* tile is ICE to trigger a slide.
 
 ## Route 44
