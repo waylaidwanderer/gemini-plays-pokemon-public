@@ -255,6 +255,6 @@
 - When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
-- Unstun Pokefan F (ID 2) on OlivineLighthouse1F if I return to that specific area.
+- Unstun Pokefan F (ID 2) on OlivineLighthouse1F. NOTE: Must be done when she is visible on-screen, as the tool failed when she was off-screen.
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 - Unstun Sailor (ID 1) in Olivine City when I return.
