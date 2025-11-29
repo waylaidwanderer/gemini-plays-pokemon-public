@@ -274,3 +274,4 @@
 - **Hypothesis:** Gym boulder puzzles likely reset upon leaving the map. Since the right-side boulder is stuck, I must reset. 
 - **Correction:** Ladder at 2F(7,9) led DOWN to 1F(7,9), not up to 3F. Now exploring isolated section of 1F.
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
+- Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
