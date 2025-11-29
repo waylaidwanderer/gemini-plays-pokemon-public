@@ -4,11 +4,11 @@
 - **Location:** Blackthorn Gym 2F.
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Explore Bottom Left Area.
-- **Puzzle Strategy:** 
-  1. **Sacrifice:** Boulder (8, 14) moved to (8, 17). Path cleared.
-  2. **Exploration:** Search Bottom Left (Cols 0-2, Rows 8-17) for a 4th Boulder.
-  3. **Inventory:** Known Boulders: (3,3), (6,1). Known Pits: (2,5), (8,3), (8,7).
-  4. **Hypothesis:** Need 3 boulders for 3 pits. Finding a 4th boulder is critical.
+- **Puzzle Strategy (Active):**
+  1. **Reset:** Exit and re-enter map to reset boulder positions.
+  2. **Right Side:** Flank Boulder (8, 14) via the bottom path (Row 16). Push it North into Pit (8, 7).
+  3. **Left Side:** Solve Left Side puzzle (currently blocked by Trainer Cody).
+  4. **Inventory:** Known Boulders: (3,3), (6,1), (8,14). Known Pits: (2,5), (8,3), (8,7).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
