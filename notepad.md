@@ -276,3 +276,4 @@
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
 - Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
 - Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
+- **Gym Puzzle Logic:** Pushing Boulder 8 North to (8, 10) on 2F causes a soft-lock. The boulder becomes immovable against the wall. The correct solution likely involves navigating the unseen area in Column 9.
