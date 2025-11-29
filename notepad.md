@@ -15,11 +15,13 @@
   7. **CRITICAL:** Push Down ONCE to (4, 12) [Done].
   8. Move to (3, 12) and push Right into Pit (5, 12) [Done].
   9. **Current:** Solve Boulder 2 (7, 8).
-     a. Move to (8, 8).
-     b. Push Left to (5, 8).
-     c. Push Up to (5, 6).
-     d. Push Left to (4, 6).
-     e. Push Down into Pit (4, 7).
+     a. Move to (8, 8) [Done].
+     b. Push Left to (5, 8) [Done].
+     c. Push Up to (5, 6) [Executing].
+     d. Navigate to (6, 6) via West Corridor (Col 3, Row 3).
+     e. Push Left to (4, 6).
+     f. Navigate to (4, 5).
+     g. Push Down into Pit (4, 7).
 
 ## Route 44
 - **Trainers:**
