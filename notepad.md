@@ -271,4 +271,5 @@
 - **Strength Activation:** Requires interacting with a boulder and selecting 'YES' to activate the mode. Merely walking into it does not work.
 - **Puzzle Failure (Gym 2F):** Pushing Boulder 8 North to (8, 10) allows entry to Column 9 but traps the boulder. Verified Puzzle Advisor's warning. Must reset map. 
 - **Exploration:** Exploring Column 9 to find alternative solutions.
-- **Hypothesis:** Gym boulder puzzles likely reset upon leaving the map. Since the right-side boulder is stuck, I must reset. Exploring 3F/Ladder first to gain knowledge.
+- **Hypothesis:** Gym boulder puzzles likely reset upon leaving the map. Since the right-side boulder is stuck, I must reset. 
+- **Correction:** Ladder at 2F(7,9) led DOWN to 1F(7,9), not up to 3F. Now exploring isolated section of 1F.
