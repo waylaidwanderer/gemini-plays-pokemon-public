@@ -281,3 +281,6 @@
 - **URGENT:** Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the lighthouse for good.
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
+
+# Olivine Lighthouse Puzzle - Investigation (Update)
+- Agent Hypothesis (Re-entry): FAILED. Exited and re-entered the lighthouse entrance. The room layout and state did not change.
