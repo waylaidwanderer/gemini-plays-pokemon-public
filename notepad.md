@@ -299,3 +299,8 @@
   - *Test Plan:* Systematically inspect and fall down each pit on 2F, confirming they all lead to the same location.
 - **Hypothesis 4 (Hidden Switch):** An inanimate object like a window or pillar is a hidden switch.
   - *Test Plan:* Interact with all background objects on all floors from all four cardinal directions.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses (Sailor Block)
+- **Agent Hypothesis #1 (NPC Trigger):** Another NPC on 2F must be spoken to. (DISPROVEN: No other NPCs exist on this floor.)
+- **Agent Hypothesis #2 (Line of Sight):** The sailor battle is triggered by walking into his line of sight, not direct interaction. (TESTING NEXT)
+- **Agent Hypothesis #3 (Multi-floor Solution):** The path forward is on another floor, bypassing the sailor entirely.
