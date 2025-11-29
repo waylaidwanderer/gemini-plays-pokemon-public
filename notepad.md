@@ -281,3 +281,7 @@
 - **Layout:** Multiple floors connected by ladders and one-way pits.
 - **Key Points:** System has identified two previously missed unmarked warps on 2F at (16, 11) and (17, 11). These must be investigated.
 - **System Hallucination:** The system repeatedly and incorrectly flags warps at OlivineLighthouse2F (16, 11) and (17, 11). The game state confirms no warps exist there. This warning should be ignored.
+
+# Olivine Lighthouse Puzzle v3
+- **Objective:** Find the sick Pokémon.
+- **Layout:** 3F. Arrived via ladder from 2F at (5, 3). Two new unmarked warps at (8, 3) and (9, 3) need investigation. Item ball at (8, 2).
