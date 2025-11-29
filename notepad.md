@@ -285,3 +285,4 @@
 # Olivine Lighthouse Puzzle v3
 - **Objective:** Find the sick Pokémon.
 - **Layout:** 3F. Arrived via ladder from 2F at (5, 3). Two new unmarked warps at (8, 3) and (9, 3) need investigation. Item ball at (8, 2).
+- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
