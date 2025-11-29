@@ -221,13 +221,8 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse Puzzle - In Progress
-- **Problem:** I am stuck in a navigational loop. The lighthouse is divided into a western entrance area and an eastern puzzle area, with no direct path between them on 1F. The eastern area's only ladder at (3, 11) leads to a section of 2F where falling through pits returns me to the eastern 1F area, creating a loop.
-- **Failed Hypotheses:**
-  1. A hidden item exists in the eastern 1F area (disproven with ITEMFINDER).
-  2. The POKEFAN_F NPC is the trigger (disproven by interaction).
-  3. Leaving and re-entering the lighthouse changes the puzzle state (disproven).
-- **Current Objective:** Systematically re-evaluate the eastern section of 1F and the connected loop on 2F to find a missed path or trigger.
+## Olivine Lighthouse Puzzle - BLOCKED
+- **Status:** All internal paths have been exhausted and lead to loops or dead ends. The primary goal is currently blocked. Pivoting to explore Olivine Port Passage.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
