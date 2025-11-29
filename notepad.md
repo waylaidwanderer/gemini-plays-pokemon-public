@@ -226,7 +226,8 @@
 # Olivine Lighthouse Puzzle
 - **Status:** Stuck on west side of 2F, blocked by Sailor at (9, 3). Escalated to `puzzle_solver` agent.
 - **Agent Hypothesis #1 (DISPROVEN for West Side):** The sailor is a red herring; the real path is a hidden pit on this side of the floor. A systematic search of all accessible tiles on the west side of 2F revealed no pits.
-- **Agent Hypothesis #3 (IN PROGRESS):** The solution was missed in the isolated 1F area. Test by returning to the area and performing a thorough search.
+- **Agent Hypothesis #3 (DISPROVEN):** The solution was missed in the isolated 1F area. A full, automated search of the area with `sweep_and_search` revealed no hidden items or triggers.
+- **New Hypothesis (External Trigger):** All internal paths in the lighthouse are blocked or dead ends. The solution is likely external, possibly related to healing the sick MILTANK on Route 39.
 - **Agent Hypothesis #2 (DISPROVEN):** The sailor is a line-of-sight trainer battle. Walking into his line of sight from (11, 3) to (10, 3) did not trigger a battle.
 - **Agent Hypothesis #3:** The solution was missed in the isolated 1F area.
 - **Agent Hypothesis #4:** There is a hidden item on the floor needed to progress.
