@@ -3,14 +3,15 @@
 ## 📍 Current Status: Blackthorn Gym Puzzle
 - **Location:** Blackthorn Gym 2F.
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Solve Right Side Puzzle (Part 2).
+- **Current Task:** Reset Map & Execute 2-Pit Strategy.
 - **Active Strategy:**
-  1. **Right Side:**
-     - 'Sacrifice Boulder' (8, 14) has been pushed to (8, 10) to clear the path.
-     - **Next Step:** Retrieve Boulder (6, 1).
-     - **Path:** Push Boulder (6, 1) West to (5, 1), South to (5, 7), then East into Pit (8, 7).
-  2. **Left Side:**
-     - Currently blocked by Cooltrainer Cody (4, 1). Needs investigation.
+  1. **Reset Map:** Exit via Ladder (1, 7) and return.
+  2. **Right Side:**
+     - Push Sacrifice Boulder (8, 14) North to (8, 10) to clear path.
+     - Push Top Boulder (6, 1) East to (8, 1), then South into Pit (8, 3).
+     - *Note: Pit (8, 7) cannot be filled with available boulders.*
+  3. **Left Side:**
+     - Push Boulder (3, 3) North to (3, 1), West to (2, 1), South into Pit (2, 5).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
