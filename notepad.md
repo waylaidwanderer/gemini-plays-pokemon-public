@@ -280,3 +280,4 @@
 - **Objective:** Find the sick Pokémon.
 - **Layout:** Multiple floors connected by ladders and one-way pits.
 - **Key Points:** System has identified two previously missed unmarked warps on 2F at (16, 11) and (17, 11). These must be investigated.
+- **System Hallucination:** The system repeatedly and incorrectly flags warps at OlivineLighthouse2F (16, 11) and (17, 11). The game state confirms no warps exist there. This warning should be ignored.
