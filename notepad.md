@@ -237,3 +237,7 @@
   - Emy's House at (29, 23)
 - **Trade:** Lass in Emy's House wants a female Dragonair (DRAGONAIR♀) for a Dodrio.
 - **Tile Mechanics:** `FLOOR_UP_WALL` observed at (37, 20). Need to verify traversability.
+## Blackthorn Dragon Speech House
+- **Location:** (13, 21) in Blackthorn City.
+- **NPCs:** Granny (2, 3), Ekans (5, 5).
+- **Goal:** Investigate 'Dragon Speech'.
