@@ -262,3 +262,4 @@
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - Unstun Pokefan F (ID 2) on OlivineLighthouse1F if I return to that specific area.
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
+- Unstun Sailor (ID 1) in Olivine City when I return.
