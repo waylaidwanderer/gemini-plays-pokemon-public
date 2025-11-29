@@ -1,11 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Ice Path
-- **Location:** Ice Path B3F (3_65).
+- **Location:** Ice Path B1F (3_62).
 - **Goal:** Reach Blackthorn City.
-- **Current Task:** Explore B3F.
-- **Wild Pokémon:** Swinub.
-- **Recent Progress:** Solved B2F boulder puzzle, descended to B3F.
+- **Current Task:** Explore East Corridor.
+- **Wild Pokémon:** Swinub, Golbat.
+- **Recent Progress:** Ascended from B2F to new B1F section.
 
 ## Route 44
 - **Trainers:**
