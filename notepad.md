@@ -332,3 +332,6 @@
 - **Agent Hypothesis #2 (DISPROVEN):** The sailor is a line-of-sight trainer battle. Walking into his line of sight from (11, 3) to (10, 3) did not trigger a battle.
 - **Agent Hypothesis #3:** The solution was missed in the isolated 1F area.
 - **Agent Hypothesis #4:** There is a hidden item on the floor needed to progress.
+
+# New Lessons & Mechanics (Reflection Turn 26660)
+- **Challenge False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
