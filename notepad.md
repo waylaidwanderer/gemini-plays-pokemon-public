@@ -278,3 +278,4 @@
 # Lessons Learned (Post-Reflection)
 - **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
 - **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search (like using `systematic_search`) can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
+- **URGENT:** Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the lighthouse for good.
