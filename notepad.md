@@ -262,7 +262,7 @@
 - **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
 - **Hypothesis 4 (Tile Sequence Trigger):**
   - Test Sequence (16,11) -> (17,11): FAILED. No event triggered.
-  - Test Sequence (17,11) -> (16,11): Untested.
+  - Test Sequence (17,11) -> (16,11): FAILED. No event triggered.
 
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
@@ -274,7 +274,7 @@
 - **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
 - **Hypothesis 4 (Tile Sequence Trigger):**
   - Test Sequence (16,11) -> (17,11): FAILED. No event triggered.
-  - Test Sequence (17,11) -> (16,11): Untested.
+  - Test Sequence (17,11) -> (16,11): FAILED. No event triggered.
 
 # Strategic Principles & Lessons Learned
 - **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
