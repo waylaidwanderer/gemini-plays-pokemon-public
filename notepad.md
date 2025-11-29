@@ -264,3 +264,4 @@
 
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
+- **Pathfinder Target Verification:** Before using a pathfinding tool, I must first visually confirm on the map that the target coordinate is a traversable tile type (e.g., FLOOR, LADDER) and not an impassable one (e.g., WALL, NPC). Pathing directly to an impassable tile will always fail.
