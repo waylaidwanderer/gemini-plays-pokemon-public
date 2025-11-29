@@ -261,3 +261,8 @@
 
 # Critical Lessons from Olivine Lighthouse Loop
 - **PROCEDURAL FAILURE (Critique Received):** I failed to follow my own documented principles. I did not immediately mark the bugged Sailor on 2F with '🚫', which directly contributed to getting stuck in a pathing loop. Furthermore, I failed to escalate to my `puzzle_solver` agent after multiple failed hypotheses, instead persisting in a manual trial-and-error cycle. This is a critical failure of strategy. I must adhere to my own documented procedures: mark all obstacles immediately and use agents to break cognitive fixation when stuck.
+
+# Lessons from Mandatory Reflection (Turn 24476)
+- **Tool Failure Protocol:** If a custom tool fails to produce the correct output twice in a row, I must immediately stop attempting to use it and prioritize debugging and fixing the tool. Persisting with a broken tool is a critical strategic failure.
+- **Consult Markers Before Interaction:** I must consult my map markers before interacting with any NPC or object to avoid redundant actions and wasted turns. Trusting my own documented data is paramount.
+- **Agent Escalation Reminder:** I must adhere to my own principle of escalating to a puzzle-solving agent when I'm stuck in a repetitive loop. Failing to do so is a strategic error that leads to wasted time.
