@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Ice Path
-- **Location:** Ice Path B1F (3_62).
+- **Location:** Ice Path B2F Mahogany Side (3_63).
 - **Goal:** Traverse Ice Path to reach Blackthorn City.
-- **Status:** Exploring B1F. Found Boulder at (7, 8).
-- **Next Step:** Explore North-East area to find path forward.
+- **Status:** Exploring B2F. Arrived via ladder from B1F.
+- **Next Step:** Explore the ice room to find items or path forward.
 - **Lesson:** Ice physics require checking if the *landing* tile is ICE to trigger a slide.
 
 ## Route 44
