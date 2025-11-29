@@ -253,3 +253,4 @@
 ## Ice Path (Re-visit)
 - **Warp Malfunction:** Exit at (36, 27) failed to trigger multiple times. Suspect specific trigger needed or bug.
 - **Tile Mechanics:** `FLOOR_UP_WALL` observed at (32, 24). Need to verify if traversable.
+- Picnicker Gina: Wants to battle on Route 34.
