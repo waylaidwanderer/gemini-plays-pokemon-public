@@ -278,22 +278,15 @@
 - **Strength Activation:** Requires interacting with a boulder and selecting 'YES' to activate the mode. Merely walking into it does not work.
 - **Puzzle Failure (Gym 2F):** Pushing Boulder 8 North to (8, 10) allows entry to Column 9 but traps the boulder. Verified Puzzle Advisor's warning. Must reset map. 
 - **Exploration:** Exploring Column 9 to find alternative solutions.
-- **Hypothesis:** Gym boulder puzzles likely reset upon leaving the map. Since the right-side boulder is stuck, I must reset. 
-- **Correction:** Ladder at 2F(7,9) led DOWN to 1F(7,9), not up to 3F. Now exploring isolated section of 1F.
+- **Correction:** Ladder at 2F(7,9) led DOWN to 1F(7,9). Now exploring isolated section of 1F.
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
-- Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
-- Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
-### Blackthorn Gym Puzzle Solution (Current Strategy: 2-Pit)
-- **Concept:** Verified that filling all 3 pits is likely impossible due to wall constraints. The goal is to fill Pit (8, 3) and Pit (2, 5).
-- **Step 1: The Sacrifice:**
-  - Push Boulder (8, 14) North to (8, 10). This clears the path at (8, 11) but renders this boulder unusable for pits.
-- **Step 2: The Top Boulder (6, 1):**
-  - Goal: Fill Pit (8, 3).
-  - Obstacle: Need to verify if Row 0 walls are passable to push South.
-- **Step 3: The Left Boulder (3, 3):**
-  - Goal: Fill Pit (2, 5).
-  - Obstacle: Need to bypass Cooltrainer Cody at (4, 1) to push West.
-- **Status:** Testing wall permeability in Row 0 and interaction with Cody.
+- Floor tiles at (7, 6) and (7, 7) are drop zones, not warps.
+### Blackthorn Gym Puzzle Solution
+- **Status:** Cooltrainer Cody (4, 1) is a SOLID OBSTACLE. Left Side puzzle currently blocked.
+- **Status:** Row 0 confirmed WALLs. Top boulders cannot be pushed South from the top.
+- **New Plan for Pit (8, 7):** Use Boulder (8, 14). Route: Push N to (8, 12) -> W to (5, 12) -> N to (5, 7) -> E to (8, 7).
+- **Plan for Pit (8, 3):** Unsolved. Boulder (6, 1) appears trapped. Need to verify if wall at (6, 2) is real.
+- **Plan for Pit (2, 5):** Unsolved. Blocked by Cody.
 ### Reflection (Turn 13720)
 - Reviewed last 50 turns. Corrected tool usage errors.
 - Map markers cleaned up.
