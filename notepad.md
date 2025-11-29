@@ -304,7 +304,7 @@
 
 # Olivine Lighthouse Puzzle v5 (Agent Hypotheses)
 - **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
-- **Agent Hypothesis #1:** There is a hidden pit in the 'dead end' section of 3F (accessed via ladder at 2F (5, 3)).
+- **Agent Hypothesis #1 (DISPROVEN for West Side):** There is a hidden pit in the 'dead end' section of 3F. The western section (accessed via ladder at 2F (5, 3)) has been fully searched with no pit found.
 - **Agent Hypothesis #2:** Defeating all trainers on 2F is a trigger. (Likely already completed).
 - **Agent Hypothesis #3:** One of the pits on the eastern side of 2F leads to a different destination.
 - **Current Plan:** Systematically test Hypothesis #1.
