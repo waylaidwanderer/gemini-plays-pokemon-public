@@ -304,3 +304,7 @@
 - **Agent Hypothesis #1 (NPC Trigger):** Another NPC on 2F must be spoken to. (DISPROVEN: No other NPCs exist on this floor.)
 - **Agent Hypothesis #2 (Line of Sight):** The sailor battle is triggered by walking into his line of sight, not direct interaction. (TESTING NEXT)
 - **Agent Hypothesis #3 (Multi-floor Solution):** The path forward is on another floor, bypassing the sailor entirely.
+
+# Olivine Lighthouse Puzzle - Sailor Block (Continued)
+- **Agent Hypothesis #2 (Line of Sight):** FAILED. Walked from (11, 3) to (10, 3), entering the sailor's line of sight. No battle was triggered.
+- **New Plan:** Since the sailor at (9, 3) is an impassable block, I will test the agent's other hypothesis. I will return to the eastern side of 2F and test the second pit at (17, 13) to see if it leads to a different, unblocked path.
