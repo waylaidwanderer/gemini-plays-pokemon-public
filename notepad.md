@@ -280,3 +280,6 @@
 - Cooltrainer Cody (Horsea Lv34, Seadra Lv36) at (4, 1). Defeated.
 - **Lesson:** Strength status resets upon map transition (e.g., using ladders). Must re-activate.
 - Pushed Boulder (8, 2) into Pit (8, 3). Jumping in to follow it.
+- Dropped Top-Right Boulder. It fell through to 1F.
+- Landed at 1F (7, 6).
+- Resetting Gym to solve Bottom-Right Boulder.
