@@ -71,6 +71,7 @@
 - **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
 - **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
 - **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
+- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
