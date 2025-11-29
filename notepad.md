@@ -10,12 +10,8 @@
      - Column 9: (9, 12) and (9, 13) are WALLS (blocking right-side flank).
   2. **Current Plan (Right Side):**
      - **Path:** Loop around via Column 6 to reach (8, 15) (behind Boulder 8).
-     - **Push Sequence:**
-       1. Push Boulder 8 North to (8, 11).
-       2. Push East to (9, 11).
-       3. Push North along Column 9 to (9, 7).
-       4. Push West into Pit (8, 7).
-     - Use 'puzzle_advisor' before first push.
+     - **Boulder 8 Status:** TRAPPED. (7, 11) is Wall (blocks East push). (9, 16) is Wall (blocks South flank).
+     - **New Plan:** Investigate Boulder 7 at (6, 1). Attempt to push West to (5, 1) then South down Column 5 to Pit (8, 7).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Visual Map Deception: Walls may be floors, but don't assume the whole column is open. Always verify with collision tests.
 
