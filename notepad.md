@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (51, 7) - Eastern Plateau.
-- **Goal:** Enter Ice Path.
-- **Status:** Defeated Bird Keeper Vance.
-- **Next Step:** Enter Ice Path at (56, 7).
+- **Location:** Ice Path 1F (4, 19).
+- **Goal:** Traverse Ice Path to reach Blackthorn City.
+- **Status:** Just entered Ice Path.
+- **Next Step:** Explore Ice Path 1F.
 - **Lesson:** Always verify successful transition to special states (like Surfing) via Game State before queuing movement commands.
 
 ## Route 44
