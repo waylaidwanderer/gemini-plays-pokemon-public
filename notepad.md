@@ -289,3 +289,13 @@
 - **Trust Your Tools:** If a pathfinding tool returns 'No path found,' or if multiple tools confirm a path is blocked, trust them. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 - **Interaction vs. Line of Sight & Flawed Assumptions:** If direct interaction with a trainer-like NPC results in a dialogue loop (like with Sailor Huey), the battle trigger might be line of sight. However, I must first challenge the root assumption that a battle is necessary at all. I wasted significant time trying to force an interaction when a simple path around the NPC existed. Lesson: Always verify if an obstacle is truly blocking the path before attempting to resolve it through complex interactions or battles. Check for alternative routes first.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (External Ledge):** An opening on an upper floor (like a window) leads to an external ledge instead of being a pit.
+  - *Test Plan:* On 2F, walk south through the rightmost opening in the southern wall.
+- **Hypothesis 2 (Non-Standard Interaction):** A trainer requires interaction from a non-standard direction.
+  - *Test Plan:* Approach Sailor Huey on 2F from the side and behind, interacting at each angle.
+- **Hypothesis 3 (Distinct Pit):** One pit on 2F is visually different and leads to a new area.
+  - *Test Plan:* Systematically inspect and fall down each pit on 2F, confirming they all lead to the same location.
+- **Hypothesis 4 (Hidden Switch):** An inanimate object like a window or pillar is a hidden switch.
+  - *Test Plan:* Interact with all background objects on all floors from all four cardinal directions.
