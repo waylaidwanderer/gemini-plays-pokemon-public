@@ -257,10 +257,13 @@
 - **Conclusion:** FAILED. The wall is solid.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Different Pits):** Falling through the other pit on 2F leads to a different outcome.
-- **Hypothesis 2 (Hidden Path):** There is an undiscovered narrow path on 2F that bypasses the sailor.
-- **Hypothesis 3 (Trainer Trigger):** Defeating all trainers on 2F will cause the sailor to move.
-- **Hypothesis 4 (Hidden Switch/Item):** There is a hidden item or switch in the sealed-off section of 1F. (Testing this now)
+- **Hypothesis 1 (Different Pits):** FAILED. Both pits at (16, 13) and (17, 13) lead to the same landing zone on 1F.
+- **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
+- **Hypothesis 3 (Hidden Item/Switch):**
+  - Test on (16, 11): FAILED. No hidden item found.
+  - Test on (17, 11): Untested.
+  - Test on adjacent tiles: Untested.
+- **Hypothesis 4 (Tile Sequence Trigger):** Untested.
 
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
