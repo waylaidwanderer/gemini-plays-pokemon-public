@@ -310,3 +310,4 @@
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
+- **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
