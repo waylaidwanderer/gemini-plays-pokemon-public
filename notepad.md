@@ -258,3 +258,7 @@
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis #1 (Agent):** An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from.
+- **Test Plan:** Walk to the easternmost part of the sealed walkway (around x=17) and attempt to walk right into the outer wall.
