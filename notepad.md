@@ -271,3 +271,6 @@
 - **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
 - **Hypothesis 3 (Hidden Item/Switch):** FAILED. A systematic search of the suspicious tiles and all adjacent tiles revealed no hidden items or switches.
 - **Hypothesis 4 (Tile Sequence Trigger):** Untested.
+
+# Strategic Principles & Lessons Learned
+- **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
