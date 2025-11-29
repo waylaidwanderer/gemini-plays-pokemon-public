@@ -249,7 +249,6 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `systematic_search`
 
 ## Custom Agents
 - `gym_puzzle_solver`
