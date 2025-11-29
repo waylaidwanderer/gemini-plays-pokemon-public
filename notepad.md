@@ -296,4 +296,4 @@
 - **Observation:** No boulder fell to 1F from the Right Side drop, implying the goal is clearing the path on 2F, not building a bridge on 1F.
 - **Next Step:** Push Boulder (3,3) North, then circle to push Boulder (2,3) South into the pit.
 - **Gym 1F Left Side:** Confirmed boulder falls to (2, 5). Area is a dead end. Puzzle purpose is clearing 2F path.
-- **Gym Puzzle Update:** Pushed boulder into Pit (8, 7) on 2F. Dropped to 1F (7, 6). Need to return to 2F to verify if pit remains filled.
+- **Gym Puzzle Update:** Map reset on exit. Must redo 'Sacrifice Boulder 8' to fill Pit 1 (8, 7), cross it to reach Column 9, then use Northern Boulders to fill Pit 2 (8, 3).
