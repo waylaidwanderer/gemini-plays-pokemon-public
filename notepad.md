@@ -307,3 +307,6 @@
 - **Agent Hypothesis #2:** Defeating all the trainers on 2F triggers an event. Test by re-checking all trainers and then re-checking the ladder and pits.
 - **Agent Hypothesis #3:** The 1F area reached via the pits contains a hidden exit or switch. Test by jumping down a pit and thoroughly exploring the 1F area before taking the ladder.
 - **Agent Hypothesis #4:** A non-trainer NPC provides a new hint or item. Test by re-talking to all non-battling NPCs on 2F.
+
+# Rematch Opportunities
+- Hiker Anthony on Route 33 called for a battle.
