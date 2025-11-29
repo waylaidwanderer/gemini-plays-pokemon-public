@@ -273,3 +273,4 @@
 - **Exploration:** Exploring Column 9 to find alternative solutions.
 - **Hypothesis:** Gym boulder puzzles likely reset upon leaving the map. Since the right-side boulder is stuck, I must reset. 
 - **Correction:** Ladder at 2F(7,9) led DOWN to 1F(7,9), not up to 3F. Now exploring isolated section of 1F.
+- Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
