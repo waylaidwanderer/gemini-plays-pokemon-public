@@ -284,7 +284,7 @@
 ### Blackthorn Gym Puzzle Solution
 - **Mechanic Update:** Simply entering 1F did NOT reset the 2F boulder positions. Must exit the Gym entirely to force a reset.
 - **Status:** Resetting puzzle by exiting Gym.
-- **Plan for Pit (8, 7):** Confirmed Path: Use Boulder (8, 14). Push N to (8, 12) -> W to (5, 12) -> N to (5, 7) -> E to (8, 7).
+- **Plan for Pit (8, 7):** Confirmed Path: Use Boulder (8, 14). Push N to (8, 12) -> W to (6, 12) -> N to (6, 7) -> E to (8, 7).
 - **Plan for Pit (8, 3):** After filling Pit (8, 7), use Boulder (6, 1). Route TBD based on wall checks.
 - **Plan for Pit (2, 5):** Use Boulder (3, 3). Requires bypassing Cody or finding alternate path.
 ### Reflection (Turn 13720)
