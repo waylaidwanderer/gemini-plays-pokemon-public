@@ -1162,20 +1162,20 @@
     ]
   },
   "systematic_search": {
-    "description": "Automates a systematic search of a given area. It takes a JSON string of coordinates, then generates and executes a path to each coordinate, presses 'A', and sleeps to allow text to appear. It stops if any text is found on screen.",
+    "description": "Automates a systematic search of a given area. It takes a JSON string of coordinates and directions, then generates and executes a path to each coordinate, turns in the specified direction, presses 'A', and sleeps. It stops if any text is found on screen.",
     "input_schema": {
       "type": "object",
       "properties": {
         "coords_to_search_json": {
           "type": "string",
-          "description": "A JSON string of a list of coordinate pairs, e.g., '[[25, 0], [26, 0]]'"
+          "description": "A JSON string of a list of [coordinate_pair, direction_string] lists, e.g., '[[[25, 0], \"Up\"], [[26, 0], \"Up\"]]'"
         }
       },
       "required": [
         "coords_to_search_json"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\n# Load the coordinates to search from the input data\ncoords_to_search = json.loads(input_data['coords_to_search_json'])\n\n# Parse the map XML to find the player's actual starting position\n# The 'map_xml_string' is provided by the harness\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Tile[@has-player=\"true\"]')\nif player_tile is None:\n    # Fallback or error handling if player is not found\n    print(json.dumps([]))\n    # It's better to exit or handle this case gracefully\nelse:\n    player_coords_str = player_tile.get('coordinate') # e.g., \"(11, 17)\"\n    current_x, current_y = map(int, player_coords_str.strip('()').split(', '))\n\n    # This list will hold the sequence of valid button presses\n    button_presses = []\n\n    # Iterate through each target coordinate\n    for coord in coords_to_search:\n        target_x, target_y = coord\n\n        # Calculate the difference between the target and current coordinates\n        delta_x = target_x - current_x\n        delta_y = target_y - current_y\n\n        # Generate LEFT/RIGHT presses for the horizontal movement\n        if delta_x > 0:\n            button_presses.extend([\"Right\"] * delta_x)\n        elif delta_x < 0:\n            button_presses.extend([\"Left\"] * abs(delta_x))\n\n        # Generate UP/DOWN presses for the vertical movement\n        if delta_y > 0:\n            button_presses.extend([\"Down\"] * delta_y)\n        elif delta_y < 0:\n            button_presses.extend([\"Up\"] * abs(delta_y))\n\n        # After moving to the coordinate, press 'A' to interact\n        button_presses.append(\"A\")\n\n        # Add a pause to allow the game to update\n        button_presses.append(\"sleep 1000\")\n\n        # Update the current position to the new coordinate for the next iteration\n        current_x = target_x\n        current_y = target_y\n\n    # Print the final list of button presses as a JSON string\n    print(json.dumps(button_presses))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path_and_convert_to_buttons(map_xml_string, start_pos, end_pos):\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    IMPASSABLE_TILES = {\"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\", \"NPC\", \"SIGN\", \"ITEM_BALL\", \"BOULDER\"}\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            coord = (x, y)\n            tile_type = tile_elem.get('type')\n            has_object = tile_elem.find('.//Object') is not None\n            is_impassable = (tile_type in IMPASSABLE_TILES or has_object or tile_type == 'unseen')\n            grid[coord] = not is_impassable\n    \n    queue = deque([start_pos])\n    visited = {start_pos}\n    came_from = {start_pos: None}\n    path_found = False\n\n    while queue:\n        current = queue.popleft()\n        if current == end_pos:\n            path_found = True\n            break\n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (cx + dx, cy + dy)\n            if grid.get(neighbor, False) and neighbor not in visited:\n                visited.add(neighbor)\n                came_from[neighbor] = current\n                queue.append(neighbor)\n\n    if not path_found:\n        return None\n\n    path = []\n    step = end_pos\n    while step is not None:\n        path.append(step)\n        step = came_from.get(step)\n    path.reverse()\n\n    buttons = []\n    if len(path) > 1:\n        for i in range(len(path) - 1):\n            x1, y1 = path[i]\n            x2, y2 = path[i+1]\n            if x2 > x1: buttons.append(\"Right\")\n            elif x2 < x1: buttons.append(\"Left\")\n            elif y2 > y1: buttons.append(\"Down\")\n            elif y2 < y1: buttons.append(\"Up\")\n    return buttons\n\ncoords_to_search = json.loads(input_data['coords_to_search_json'])\n\nroot = ET.fromstring(map_xml_string)\ncurrent_pos = None\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        if tile_elem.find('Player') is not None:\n            current_pos = (int(tile_elem.get('id')), int(row_elem.get('id')))\n            break\n    if current_pos:\n        break\n\nif not current_pos:\n    print(json.dumps([]))\nelse:\n    all_buttons = []\n    for target_data in coords_to_search:\n        target_coord = tuple(target_data[0])\n        direction = target_data[1]\n        \n        if current_pos == target_coord:\n            buttons_for_path = []\n        else:\n            buttons_for_path = find_path_and_convert_to_buttons(map_xml_string, current_pos, target_coord)\n\n        if buttons_for_path is not None:\n            all_buttons.extend(buttons_for_path)\n            all_buttons.append(direction)\n            all_buttons.append(\"A\")\n            all_buttons.append(\"sleep 500\")\n            current_pos = target_coord\n        else:\n            break\n    print(json.dumps(all_buttons))",
     "history": [
       {
         "commit_message": "feat: Create systematic_search tool. This tool automates the tedious process of moving to a series of tiles and pressing 'A' to check for hidden items or switches. This was created in response to the manual, repetitive, and error-prone search of the Olivine Lighthouse, fulfilling a key need identified during a mandatory reflection.",
@@ -1191,6 +1191,16 @@
         "commit_message": "fix: Make tool state-aware by parsing player's current position via python_code_debugger. The agent identified that the tool was catastrophically failing because it assumed a hardcoded starting position of (0,0). This commit integrates XML parsing to read the player's actual starting coordinates from `map_xml_string`, ensuring all path calculations are relative to the true game state and resolving the navigation failure.",
         "timestamp": "2025-11-29T00:59:34.627Z",
         "action_counter": 24537
+      },
+      {
+        "commit_message": "feat: Create systematic_search tool. This tool automates the tedious process of moving to a series of tiles and pressing 'A' to check for hidden items or switches. This was created in response to the manual, repetitive, and error-prone search of the Olivine Lighthouse, fulfilling a key need identified during a mandatory reflection.",
+        "timestamp": "2025-11-29T05:24:27.893Z",
+        "action_counter": 25052
+      },
+      {
+        "commit_message": "feat: Add directional turning to systematic_search. The tool now accepts a direction to face for each coordinate, allowing it to interact with walls or objects in any orientation. This was a necessary feature to properly test the puzzle agent's hypothesis in the Olivine Lighthouse.",
+        "timestamp": "2025-11-29T05:25:11.508Z",
+        "action_counter": 25053
       }
     ]
   }
