@@ -276,7 +276,7 @@
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
 - Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
 - Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
-- **Gym Puzzle Logic:** Pushing Boulder 8 North to (8, 10) on 2F causes a soft-lock. The boulder becomes immovable against the wall. The correct solution likely involves navigating the unseen area in Column 9.
+- **Gym Puzzle Logic:** Left Side Solution: Push Boulder (3,3) North to (3,2). This clears the path. The boulder at (2,3) was a hallucination/marker error. Path to ladder at (1,7) is clear.
 - Cooltrainer Cody (Horsea Lv34, Seadra Lv36) at (4, 1). Defeated.
 - **Lesson:** Strength status resets upon map transition (e.g., using ladders). Must re-activate.
 - Pushed Boulder (8, 2) into Pit (8, 3). Jumping in to follow it.
