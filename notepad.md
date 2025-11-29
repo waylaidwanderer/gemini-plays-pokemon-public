@@ -292,3 +292,5 @@
 - Map markers cleaned up.
 - Strategy verified: 'Sacrifice Boulder 8' is the correct solution.
 - Proceeding with Strength activation.
+- **Failed Hypothesis:** Pushing Boulder 7 to (6, 1) traps it if the player is on the East side. Must ensure player can reach the West side via the gap at (5, 4) BEFORE pushing.
+- **Strategy Correction:** Use the gap at (5, 4) to navigate between the top and bottom sections. This allows flanking boulders.
