@@ -265,7 +265,6 @@
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 
 ## Olivine City
-- **URGENT DATA HYGIENE:** Immediately upon returning to OlivineLighthouse3F, delete the stale 'Unknown Warp' markers at (8,3) and (9,3). This is a high-priority task identified by critique agent.
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
