@@ -238,4 +238,4 @@
 ### Ice Path Puzzle Update
 - B2F Perimeter Loop: Confirmed that drops from (11,2), (5,12), and (4,7) lead to the outer loop.
 - Solution Plan: Push boulders into pits on B1F to create stop points on B2F.
-- Boulder 1 (17, 7): Push Right -> Down to (18, 11) -> Left -> Down -> Left -> Down -> Left to Pit (12, 13).
+- Boulder 4 (Starts 17,7): Push Right to (18,7) -> Push Down to (18,12) -> Push Left to (15,12) -> Push Down to (15,13) -> Push Left into Pit (12,13).
