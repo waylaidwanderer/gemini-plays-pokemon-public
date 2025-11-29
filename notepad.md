@@ -291,7 +291,7 @@
 - **Interaction vs. Line of Sight & Flawed Assumptions:** If direct interaction with a trainer-like NPC results in a dialogue loop (like with Sailor Huey), the battle trigger might be line of sight. However, I must first challenge the root assumption that a battle is necessary at all. I wasted significant time trying to force an interaction when a simple path around the NPC existed. Lesson: Always verify if an obstacle is truly blocking the path before attempting to resolve it through complex interactions or battles. Check for alternative routes first.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (External Ledge):** An opening on an upper floor (like a window) leads to an external ledge instead of being a pit.
+- **Hypothesis 1 (External Ledge):** An opening on an upper floor (like a window) leads to an external ledge instead of being a pit. (DISPROVEN: Attempting to walk south from (12, 15) was blocked by a WALL at (12, 16).)
   - *Test Plan:* On 2F, walk south through the rightmost opening in the southern wall.
 - **Hypothesis 2 (Non-Standard Interaction):** A trainer requires interaction from a non-standard direction.
   - *Test Plan:* Approach Sailor Huey on 2F from the side and behind, interacting at each angle.
