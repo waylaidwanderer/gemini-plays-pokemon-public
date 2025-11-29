@@ -252,7 +252,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `sweep_and_search`
+- `find_reachable_unseen_tiles`
 
 ## Custom Agents
 - `gym_puzzle_solver`

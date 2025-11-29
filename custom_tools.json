@@ -1211,42 +1211,15 @@
       }
     ]
   },
-  "sweep_and_search": {
-    "description": "Automates a systematic 'snake' pattern search of a rectangular area for hidden items, starting from the player's current position (assumed to be a corner of the rectangle). It moves to each tile in the specified range and presses 'A'. This version is map-aware and will not move onto warp tiles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nwarp_tiles = set()\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.get('is-warp') == 'true':\n            warp_tiles.add((x, y))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nx_min, x_max = min(start_x, end_x), max(start_x, end_x)\ny_min, y_max = min(start_y, end_y), max(start_y, end_y)\n\nbuttons = []\ncurrent_x, current_y = start_x, start_y\ndirection = 1\n\nif (current_x, current_y) not in warp_tiles:\n    buttons.extend([\"A\", \"sleep 500\"])\n\nfor y in range(y_min, y_max + 1):\n    if y > current_y:\n        # This handles moving down between rows\n        next_x = current_x\n        next_y = y\n        if (next_x, next_y) not in warp_tiles:\n            buttons.extend([\"Down\", \"sleep 250\"])\n            buttons.extend([\"A\", \"sleep 500\"])\n            current_y = next_y\n        else:\n            break\n\n    x_range = range(x_min, x_max + 1) if direction == 1 else range(x_max, x_min - 1, -1)\n    \n    for x in x_range:\n        if x == current_x:\n            continue\n\n        next_x = current_x + direction\n        next_y = current_y\n        \n        if (next_x, next_y) not in warp_tiles:\n            move = \"Right\" if direction == 1 else \"Left\"\n            buttons.extend([move, \"sleep 250\"])\n            buttons.extend([\"A\", \"sleep 500\"])\n            current_x = next_x\n        else:\n            break\n            \ndirection *= -1\n\nprint(json.dumps(buttons))",
+  "find_reachable_unseen_tiles": {
+    "description": "Analyzes the current map's XML data to identify all 'unseen' tiles that are reachable from the player's current position. This helps prioritize exploration by finding valid new paths.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\n    \"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \n    \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\"\n}\n\ngrid = {}\nplayer_pos = None\nunseen_tiles = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord = (x, y)\n        tile_type_raw = tile_elem.get('type')\n        tile_type = tile_type_raw.upper() if tile_type_raw is not None else None\n        has_object = tile_elem.find('.//Object') is not None\n        is_warp = tile_elem.get('is-warp') == 'true'\n        is_unseen = tile_type == 'UNSEEN'\n\n        if tile_elem.find('Player') is not None:\n            player_pos = coord\n\n        if is_unseen:\n            unseen_tiles.append(coord)\n        \n        impassable_by_type = (\n            tile_type is None or \n            tile_type in IMPASSABLE_TILES or \n            is_unseen\n        )\n        is_impassable = impassable_by_type or has_object\n\n        grid[coord] = {'type': tile_type, 'impassable': is_impassable, 'is_warp': is_warp}\n\ndef bfs(start, end_node):\n    if not start or start not in grid or grid[start]['impassable']:\n        return False\n    \n    queue = deque([start])\n    visited = {start}\n\n    while queue:\n        current = queue.popleft()\n\n        if current == end_node:\n            return True\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n\n            if neighbor not in grid or neighbor in visited:\n                continue\n            \n            # For this tool, the target is an unseen tile, so we must allow pathing TO it.\n            # But the path itself must consist of seen, non-warp tiles.\n            if neighbor != end_node and (grid[neighbor]['impassable'] or grid[neighbor]['is_warp']):\n                continue\n\n            # Ledge logic\n            current_type = grid[current]['type']\n            neighbor_type = grid[neighbor]['type']\n            if (current_type == 'LEDGE_HOP_DOWN' and dy == -1) or \\\n               (current_type == 'LEDGE_HOP_LEFT' and dx == 1) or \\\n               (current_type == 'LEDGE_HOP_RIGHT' and dx == -1):\n                continue\n            if (neighbor_type == 'LEDGE_HOP_DOWN' and dy != 1) or \\\n               (neighbor_type == 'LEDGE_HOP_LEFT' and dx != -1) or \\\n               (neighbor_type == 'LEDGE_HOP_RIGHT' and dx != 1):\n                continue\n            \n            visited.add(neighbor)\n            queue.append(neighbor)\n            \n    return False\n\nreachable_unseen = []\nif player_pos:\n    for unseen_coord in unseen_tiles:\n        # Find a reachable, seen, non-warp, non-object tile adjacent to the unseen tile to path to.\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            path_target = (unseen_coord[0] + dx, unseen_coord[1] + dy)\n            if path_target in grid and not grid[path_target]['impassable'] and not grid[path_target]['is_warp']:\n                if bfs(player_pos, path_target):\n                    reachable_unseen.append(unseen_coord)\n                    break # Found a path, no need to check other neighbors\n\nprint(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in sorted(list(set(reachable_unseen)))]))",
     "history": [
       {
-        "commit_message": "feat: Create sweep_and_search tool to automate hidden item searches. This tool generates a sequence of button presses to perform a systematic 'snake' pattern search of a rectangular area, pressing 'A' on each tile. This automates a tedious and error-prone manual task, improving exploration efficiency.",
-        "timestamp": "2025-11-29T20:40:35.465Z",
-        "action_counter": 26712
-      },
-      {
-        "commit_message": "fix: Add warp-awareness to prevent pathing loops. The tool was catastrophically failing by blindly walking onto warp tiles, interrupting the search. This commit adds logic to parse the `map_xml_string`, identify all warp tiles, and explicitly check if a target tile is a warp before moving. This resolves the critical unproductive loop.",
-        "timestamp": "2025-11-29T20:59:23.209Z",
-        "action_counter": 26731
+        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool automates the process of identifying which unexplored ('unseen') tiles on the current map are actually reachable from the player's position. It parses the map XML, finds all unseen tiles, and then runs a BFS from the player to an adjacent seen tile to confirm reachability. This will significantly improve exploration efficiency by highlighting viable new paths.",
+        "timestamp": "2025-11-29T21:20:57.281Z",
+        "action_counter": 26766
       }
     ]
   }
