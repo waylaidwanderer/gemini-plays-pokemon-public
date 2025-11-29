@@ -1,11 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Blackthorn City
-- **Location:** Blackthorn City (North Entrance).
+- **Location:** Blackthorn City (South Entrance).
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Locate Pokémon Center and Gym.
-- **Recent Progress:** Cleared Ice Path. Arrived in Blackthorn.
-- **Notes:** Need to find the Move Deleter (Lore says he is here).
+- **Current Task:** Explore Blackthorn City, find Gym and Center.
+- **Recent Progress:** Arrived in Blackthorn via Ice Path.
+- **Notes:** Investigating building at (29, 23). Need to find Move Deleter.
 
 ## Route 44
 - **Trainers:**
