@@ -4,7 +4,7 @@
 - **Location:** Ice Path 1F (30, 7) - North-East Ice Puzzle.
 - **Goal:** Traverse Ice Path to reach Blackthorn City.
 - **Status:** Retrieved HM07 (Waterfall). Solving North-East Ice Puzzle.
-- **Next Step:** Navigate to Item Ball at (35, 9).
+- **Next Step:** Take Ladder at (37, 5) to B1F. Item Ball at (35, 9) likely requires falling from above.
 - **Lesson:** Ice physics require checking if the *landing* tile is ICE to trigger a slide.
 
 ## Route 44
