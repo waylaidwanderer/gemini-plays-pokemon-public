@@ -8,9 +8,10 @@
   1. **Investigation Phase:**
      - Verify if Row 0 contains fake walls. If solid, Boulder 7 on Row 1 cannot be pushed South.
      - **Current State:** Boulder 7 at (7, 1). Boulder 8 at (8, 14).
-  2. **Pit Filling Strategy (Revised):**
-     - **Pit (8, 7):** Must be filled first to allow access to top area. Use Boulder 8. Path: (8, 14) -> (8, 16) -> (6, 16) -> (6, 7) -> (7, 7) -> Pit (8, 7).
-     - **Pit (8, 3):** Requires a boulder at (8, 2) pushed South. Geometry dictates boulder must come from (7, 1) -> (8, 1) -> (8, 2) -> (8, 3). This requires pushing South from (8, 1), which is blocked by Wall (8, 0). Re-evaluating source of second boulder.
+  2. **Pit Filling Strategy (Final):**
+     - **Step 1 (Clear Path):** Push Boulder 8 North to (8, 10). This clears the path at (8, 11) allowing access to the North East area via Column 9.
+     - **Step 2 (Top Pit):** Go to Boulder 7 at (7, 1) via Column 9. Push it East to (8, 1), then South into Pit (8, 3).
+     - **Step 3 (Bottom Pit):** Bring a boulder from the Left Side (e.g. Boulder 6) through Gap (5, 4). Push it East to fill Pit (8, 7).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
