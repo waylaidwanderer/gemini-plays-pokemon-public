@@ -285,3 +285,8 @@
 - Resetting Gym to solve Bottom-Right Boulder.
 - Confirmed: Pits on 2F Right Side drop to isolated room on 1F (7, 6). This is a loop.
 - Must cross to Left Side on 2F to exit. Need to bypass Cody (4, 1) or Fran (4, 11).
+### Gym Puzzle Analysis (Updated)
+- **Mechanic:** Pits on the Right Side (Column 8) are a trap/loop that drop to an isolated room on 1F.
+- **Goal:** Clear boulders on Left Side to reach North Corridor (Row 1).
+- **Observation:** No boulder fell to 1F from the Right Side drop, implying the goal is clearing the path on 2F, not building a bridge on 1F.
+- **Next Step:** Push Boulder (3,3) North, then circle to push Boulder (2,3) South into the pit.
