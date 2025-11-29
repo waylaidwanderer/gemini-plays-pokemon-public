@@ -221,7 +221,7 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse Puzzle - Solved
+## Olivine Lighthouse Puzzle - In Progress
 - **Solution:** Progress through the lighthouse requires falling through specific pits on the upper floors (e.g., the pits on 2F at (16, 13) and (17, 13)). These pits lead to previously inaccessible sections of the floor below, which contain ladders that form the correct path upwards. The direct ladder paths are often dead ends designed to mislead.
 
 # Obstacles and Solutions
