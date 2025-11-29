@@ -9,10 +9,10 @@
      - Tile (6, 11) is a verified FLOOR.
      - Column 9: (9, 12) to (9, 16) are WALLS.
   2. **Current Plan (Right Side):**
-     - **Step 1:** Push Boulder 8 NORTH to (8, 11).
-     - **Step 2:** Loop around map (Col 6 -> Row 1 -> Col 9) to reach (9, 11).
-     - **Step 3:** Push Boulder 8 WEST to (6, 11).
-     - **Step 4:** Push Boulder 8 NORTH on Column 6 to Row 7, then EAST into Pit (8, 7).
+     - **Step 1:** Return to 2F.
+     - **Step 2:** Investigate Row 15 (Tiles 7,15 and 9,15) for a crossing.
+     - **Step 3:** If open, push Boulder 8 South to (8, 15), then West to Column 6.
+     - **Step 4:** Push North on Column 6 to Row 7, then East into Pit (8, 7).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Visual Map Deception: Walls may be floors, but don't assume the whole column is open. Always verify with collision tests.
 
