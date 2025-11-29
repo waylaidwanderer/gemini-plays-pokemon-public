@@ -262,6 +262,9 @@
 ## Blackthorn Gym 2F
 - Arrived at 2F via ladder.
 - Puzzle: Push boulders into pits.
-- Cooltrainer F detected at (4, 11).
-- **Lesson:** Avoid using '🪨' for map markers; it causes tool errors. Use '🟤' for boulders instead. 'path (tool)' is not a valid button input; use 'tool'.
-- **Correction:** '🟤' also failed. Using '⚫' for boulders now.
+- **Trainers:**
+  - Cooltrainer Fran (Seadra Lv37) at (4, 11). Defeated.
+- **Objects:**
+  - Boulders at (2, 3), (3, 3), (8, 14).
+  - Pits at (2, 5), (8, 7).
+- **Tool Note:** Use '⚫' for boulders (other emojis failed).
