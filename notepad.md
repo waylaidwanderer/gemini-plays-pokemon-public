@@ -286,8 +286,5 @@
 
 # New Lessons & Mechanics
 - **Dead Ends & Non-Linear Puzzles:** NPC dialogue (like the Youngster on 3F) can confirm if an area is a dead end. When a path is confirmed as a dead end, do not persist. The solution is likely elsewhere, often in a non-linear direction (e.g., going down via pits instead of up via ladders).
-- **Trust Your Tools:** If multiple tools (like `find_path` and `find_reachable_unseen_tiles`) confirm a path is blocked, it's blocked. Don't assume the tools are wrong; re-evaluate the core strategy and challenge the assumption that the path is necessary.
-
-# New Lessons & Mechanics
-- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
+- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' or if multiple tools confirm a path is blocked, trust them. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
