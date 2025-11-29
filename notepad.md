@@ -264,3 +264,10 @@
 
 # Olivine Lighthouse Puzzle - Investigation (Update)
 - My `find_path` tool has confirmed that OlivineLighthouse1F is composed of two separate, disconnected areas. The entrance room is completely isolated from the main part of the floor containing the ladder up.
+
+# Olivine City Tile Mechanics (Verified)
+- **FLOOR:** Fully traversable.
+- **WALL:** Impassable.
+- **DOOR:** Traversable warp tile.
+- **WATER:** Impassable without Surf.
+- **BUOY:** Impassable object in water.
