@@ -278,3 +278,4 @@
 - Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
 - **Gym Puzzle Logic:** Pushing Boulder 8 North to (8, 10) on 2F causes a soft-lock. The boulder becomes immovable against the wall. The correct solution likely involves navigating the unseen area in Column 9.
 - Cooltrainer Cody (Horsea Lv34, Seadra Lv36) at (4, 1). Defeated.
+- **Lesson:** Strength status resets upon map transition (e.g., using ladders). Must re-activate.
