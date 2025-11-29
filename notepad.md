@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Blackthorn City
-- **Location:** Blackthorn City (South Entrance).
+- **Location:** Blackthorn City Pokémon Center.
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Explore Blackthorn City, find Gym and Center.
 - **Recent Progress:** Arrived in Blackthorn via Ice Path.
