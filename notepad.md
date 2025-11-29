@@ -270,23 +270,13 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Strategy
-- **Objective:** Fill pits at (8,3) and (8,7).
-- **Key Discovery:** Gap at (5,4) allows passage between top and bottom sections.
-- **Boulder Locations (Reset):** 
-  - Boulder 7 at (6,1).
-  - Boulder 8 at (8,14).
-- **Critical Logic:** Pushing Boulder 7 East from (5,1) traps the player at (6,1) unless there is a fake wall. 
-- **Current Plan (Boulder 8 to Pit 8,7):**
-  1. Activate Strength.
-  2. Navigate to (8, 15) via Column 6 & Row 17.
-  3. Push Boulder 8 North to (8, 10).
-  4. Go to (9, 10) via (9, 11).
-  5. Push Boulder 8 West to (7, 10), then to (6, 10).
-  6. Push Boulder 8 North to (6, 7).
-  7. Push Boulder 8 East into Pit (8, 7).
+- **Objective:** Fill Bottom Pit (8,7).
+- **Status:** Top Pit (8,3) appears impossible from North due to solid walls at (8,0), (6,0), (6,3), (6,4), (8,4), (9,4), (9,0).
+- **Hypothesis:** Solving Bottom Pit (8,7) may open path or be the primary solution.
+- **Current Plan (Bottom Pit Focus):**
+  1. Move Boulder 8 (Starts at 8,14).
+  2. Investigate walls at (7,11) and (9,12) for hidden paths to maneuver Boulder 8 West.
+  3. If path found, push Boulder 8 North to Row 7, then East into Pit (8,7).
 - **Tile Mechanics:**
-  - FLOOR: Walkable.
-  - WALL: Impassable.
-  - PIT: Drop to 1F.
-  - LADDER: Change floor.
-  - GAP: (5,4) is FLOOR.
+  - VOID: Impassable (Column 10).
+  - Confirmed Walls: (5,0), (6,0), (8,0), (9,0), (6,3), (6,4), (8,4), (9,4), (8,8).
