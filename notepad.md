@@ -5,11 +5,10 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Solve Right Side Boulder Puzzle.
 - **Active Strategy:**
-  1. **Right Side (Pit 8,7):** Top boulders are trapped. Boulder (8, 14) is the key but appears trapped in Column 8.
-     - **Hypothesis:** Wall at (8, 9) is fake or passable.
-     - **Action:** Confirm Strength, then walk North to test (8, 9) collision.
-     - If (8, 9) is passable: Push (8, 14) North to Pit (8, 7).
-     - If (8, 9) is blocked: Re-evaluate wall data for (7, 10), (7, 11), or (9, 12).
+  1. **Right Side (Pit 8,7):**
+     - **Discovery:** Gap found at (5, 4) connects top and bottom sections!
+     - **Strategy:** Use Top Boulder (7, 1). Push West to (5, 1), South through gap at (5, 4) to (5, 7), then East to Pit (8, 7).
+     - **Note:** Boulder (8, 14) was a decoy/trap.
   3. **Left Side:**
      - Push Boulder (3, 3) North to (3, 1), West to (2, 1), South into Pit (2, 5).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
