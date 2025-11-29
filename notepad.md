@@ -265,3 +265,10 @@
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
 - **Pathfinder Target Verification:** Before using a pathfinding tool, I must first visually confirm on the map that the target coordinate is a traversable tile type (e.g., FLOOR, LADDER) and not an impassable one (e.g., WALL, NPC). Pathing directly to an impassable tile will always fail.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 24699)
+- **Hypothesis 1 (Different Pits):** One of the two pits at (16, 13) and (17, 13) leads to a new area on 1F with a path forward, while the other is a loop.
+  - **Test Plan:** Systematically fall through each pit and compare the landing zones on 1F.
+- **Hypothesis 2 (Hidden Path):** There is an undiscovered narrow path on 2F that bypasses the sailor.
+- **Hypothesis 3 (Trainer Trigger):** Defeating all trainers on 2F will cause the sailor to move.
+- **Hypothesis 4 (Hidden Switch/Item):** There is a hidden item or switch in the sealed-off section of 1F.
