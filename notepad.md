@@ -293,8 +293,8 @@
 # Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (External Ledge):** An opening on an upper floor (like a window) leads to an external ledge instead of being a pit. (DISPROVEN: Attempting to walk south from (12, 15) was blocked by a WALL at (12, 16).)
   - *Test Plan:* On 2F, walk south through the rightmost opening in the southern wall.
-- **Hypothesis 2 (Non-Standard Interaction):** A trainer requires interaction from a non-standard direction.
-  - *Test Plan:* Approach Sailor Huey on 2F from the side and behind, interacting at each angle.
+- **Hypothesis 2 (DISPROVEN):** A trainer requires interaction from a non-standard direction.
+  - *Test Plan:* Approach Sailor Huey on 2F from the side and behind, interacting at each angle. (Result: Interaction from the side triggered the same failed battle-start loop.)
 - **Hypothesis 3 (Distinct Pit):** One pit on 2F is visually different and leads to a new area.
   - *Test Plan:* Systematically inspect and fall down each pit on 2F, confirming they all lead to the same location.
 - **Hypothesis 4 (Hidden Switch):** An inanimate object like a window or pillar is a hidden switch.
