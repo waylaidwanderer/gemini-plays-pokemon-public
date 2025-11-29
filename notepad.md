@@ -1,15 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Blackthorn Gym Puzzle
-- **Location:** Blackthorn Gym 1F.
+- **Location:** Blackthorn Gym 2F.
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Ascend to 2F and Execute Right Side Solution.
+- **Current Task:** Solve Right Side Boulder Puzzle.
 - **Active Strategy:**
-  1. **Ascend:** Take ladder at (1, 7) to 2F.
-  2. **Right Side:**
-     - Verify Boulder positions.
-     - Execute path to fill Pit (8, 7) using Boulder (8, 14).
-     - Execute path to fill Pit (8, 3) using Boulder (6, 1).
+  1. **Right Side (Pit 8,7):** The top-right boulders are trapped by walls in Row 0. The ONLY movable boulder for the right side is at (8, 14).
+     - Navigate to (8, 13).
+     - Move Boulder (8, 14) North to (8, 10).
+     - Move West to (5, 10).
+     - Move North to (5, 7).
+     - Move East into Pit (8, 7).
   3. **Left Side:**
      - Push Boulder (3, 3) North to (3, 1), West to (2, 1), South into Pit (2, 5).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
