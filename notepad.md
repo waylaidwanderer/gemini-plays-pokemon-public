@@ -282,3 +282,6 @@
 
 # Olivine Lighthouse Puzzle Clue (3F)
 - **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly confirms that the entire western section of 3F is a dead end and the way forward must be on a lower floor.
+
+# New Lessons & Mechanics
+- **Dead Ends & Non-Linear Puzzles:** NPC dialogue (like the Youngster on 3F) can confirm if an area is a dead end. When a path is confirmed as a dead end, do not persist. The solution is likely elsewhere, often in a non-linear direction (e.g., going down via pits instead of up via ladders).
