@@ -2,9 +2,9 @@
 
 ## 📍 Current Status: Route 44
 - **Location:** Route 44 (51, 7) - Eastern Plateau.
-- **Goal:** Reach Ice Path via Northern Route.
-- **Status:** Battling Bird Keeper Vance (Pidgeotto Lv25) at (51, 7).
-- **Next Step:** Defeat trainer and enter Ice Path at (56, 7).
+- **Goal:** Enter Ice Path.
+- **Status:** Defeated Bird Keeper Vance.
+- **Next Step:** Enter Ice Path at (56, 7).
 - **Lesson:** Always verify successful transition to special states (like Surfing) via Game State before queuing movement commands.
 
 ## Route 44
@@ -13,6 +13,7 @@
   - Fisher Edgar at (19, 13). Defeated.
   - Cooltrainer Cybil (Butterfree Lv25, Bellossom) at (27, 14). Defeated.
   - Cooltrainer Allen (Charmeleon Lv27) at (37, 15). Defeated.
+  - Bird Keeper Vance (Pidgeotto x2 Lv25) at (51, 6). Defeated.
 - **Items:**
   - Max Repel (14, 9). Picked up.
 
