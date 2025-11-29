@@ -283,3 +283,5 @@
 - Dropped Top-Right Boulder. It fell through to 1F.
 - Landed at 1F (7, 6).
 - Resetting Gym to solve Bottom-Right Boulder.
+- Confirmed: Pits on 2F Right Side drop to isolated room on 1F (7, 6). This is a loop.
+- Must cross to Left Side on 2F to exit. Need to bypass Cody (4, 1) or Fran (4, 11).
