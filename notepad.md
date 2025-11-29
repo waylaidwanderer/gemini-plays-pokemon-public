@@ -3,9 +3,10 @@
 ## 📍 Current Status: Ice Path
 - **Location:** Ice Path 1F (East Side).
 - **Goal:** Reach Blackthorn City.
-- **Current Task:** Explore 1F East Puzzle.
+- **Current Task:** Solve 1F East Ice Puzzle.
 - **Wild Pokémon:** Swinub, Golbat.
-- **Recent Progress:** Ascended from B2F to new B1F section.
+- **Recent Progress:** Ascended from B2F to new B1F section. Picked up Protein at (35, 9).
+- **Puzzle Plan:** Jump ledge at (35, 17), slide Left to (32, 18), slide Up to (32, 15) to access floor area.
 
 ## Route 44
 - **Trainers:**
