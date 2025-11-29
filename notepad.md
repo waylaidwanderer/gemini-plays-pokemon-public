@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (36, 15).
+- **Location:** Route 44 (45, 5).
 - **Goal:** Traverse Route 44 East to Ice Path.
-- **Status:** Exploring East. Defeated Fisher Edgar, Cooltrainer Cybil, and Cooltrainer Allen.
-- **Next Step:** Continue East.
+- **Status:** Exploring East. Defeated Fisher Edgar, Cooltrainer Cybil, and Cooltrainer Allen. Found Item Ball at (45, 4).
+- **Next Step:** Pick up Item Ball, then Surf West to bypass ledges.
 
 ## Route 44
 - **Trainers:**
