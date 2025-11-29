@@ -1,13 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Blackthorn City
-- **Location:** Blackthorn City Pokémon Center.
+## 📍 Current Status: Blackthorn Gym
+- **Location:** Blackthorn Gym 2F (Right Side).
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Defeat Gym Leader Clair.
-- **Status:** Inside Blackthorn Gym 2F.
-- **Puzzle Hypothesis:** The boulder at (6, 16) acts as a blockade. Pushing it South to (6, 17) is required to access the path to the east (Column 7/8). It will be trapped there, but this sacrifice is necessary to solve the puzzle involving the boulder at (8, 14).
-- **Recent Progress:** Arrived in Blackthorn via Ice Path.
-- **Notes:** Need to find Move Deleter.
+- **Current Task:** Solve Right Side Boulder Puzzle.
+- **Puzzle Strategy:** 
+  1. Sacrifice Boulder (6, 16) by pushing South to (6, 17). This clears path to East.
+  2. Loop around to (8, 15) to push Boulder (8, 14) North into pits.
+  3. Use Boulder (6, 1) if needed for second pit.
+- **Lesson:** Strength deactivates on map change. Must re-interact.
+- **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
 ## Route 44
 - **Trainers:**
