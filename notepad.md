@@ -1,6 +1,6 @@
 # Core Principles
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
-- **Recognizing Unproductive Loops:** If I find myself repeating the same failed actions or testing minor variations of a failed hypothesis, I must recognize this pattern quickly. Instead of persisting, I must pivot to a completely new hypothesis or backtrack to re-evaluate the puzzle from a different perspective. Persisting in a loop is a strategic failure.
+- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop. I was repeatedly attempting to access a confirmed dead end. I must be more vigilant in recognizing these patterns by consulting my notes/markers before acting, and break them by choosing a different path or objective immediately.
 
 # Strategic Protocol
 - **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
