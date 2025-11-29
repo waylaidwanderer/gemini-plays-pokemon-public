@@ -294,3 +294,4 @@
 - **Agent Hypothesis #3:** A defeated trainer has new dialogue. Test by re-talking to Sailor Huey.
 - **Agent Hypothesis #4:** There is an invisible path across a gap. Test by trying to walk over chasms.
 - **Current Plan:** Systematically test Hypothesis #1.
+- **Loop Avoidance:** When a path is confirmed to be a dead end (e.g., the western side of OlivineLighthouse3F), I must not return to it. Persisting in a loop is a critical failure. The correct response is to backtrack and systematically re-evaluate all other unexplored paths from the last major junction.
