@@ -278,3 +278,6 @@
 # Olivine Lighthouse 3F Notes
 - The floor is split into two sections by a wall at x=6. I am on the western side.
 - The eastern side contains an item ball, a sailor, and three unmarked warps at (9, 5), (8, 3), and (9, 3). These are currently inaccessible.
+
+# Olivine Lighthouse Puzzle Clue (3F)
+- **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly confirms that the entire western section of 3F is a dead end and the way forward must be on a lower floor.
