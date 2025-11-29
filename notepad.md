@@ -221,13 +221,8 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse Puzzle - Investigation
-- **Current Blocker:** I am stuck in a loop between OlivineLighthouse1F, 2F, and 3F. Both the path through the pits and the path up the western ladder appear to be dead ends or loops.
-- **Agent Hypotheses (from `puzzle_solver`):
-  - **Hypothesis #1 (FAILED):** An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from. (Test: Walked into the wall at (18, 7), movement was blocked.)
-  - **Hypothesis #2 (FAILED):** The sealed area on the 1st floor, accessed by the pits, contains another exit besides the ladder back to the 2F walkway. (Test: Systematically checked all walls for hidden passages.)
-  - **Hypothesis #3 (PENDING):** Defeating all the trainers on the main part of OlivineLighthouse2F triggers a change.
-  - **Hypothesis #4 (PENDING):** Interacting with the wall next to the pits on the main part of 2F reveals a hidden switch or passage.
+## Olivine Lighthouse Puzzle - Solved
+- **Solution:** Progress through the lighthouse requires falling through specific pits on the upper floors (e.g., the pits on 2F at (16, 13) and (17, 13)). These pits lead to previously inaccessible sections of the floor below, which contain ladders that form the correct path upwards. The direct ladder paths are often dead ends designed to mislead.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
