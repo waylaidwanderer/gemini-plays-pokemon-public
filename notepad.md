@@ -324,3 +324,4 @@
 - **Trust External Guidance:** External confirmation (like from the critique agent or even an NPC) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
 - **Tile Mechanics Update:**
   - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+- **POKEFAN_F on OlivineLighthouse1F (16, 8):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
