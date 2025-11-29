@@ -275,3 +275,10 @@
 - **Agent Hypothesis #2 (Hidden Window Path):** There is a hidden path leading outside through one of the 'windows'.
   - **Test Plan:** Systematically check each window on the southern wall by standing in front of it and attempting to walk south.
     - **Step 1:** Check window at (4, 17). Status: PENDING.
+
+# Lessons Learned (Critical Updates)
+- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My failure to do this in the lighthouse caused a major unproductive loop chasing phantom warps.
+- **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
+
+# Tile & Object Mechanics (Update)
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
