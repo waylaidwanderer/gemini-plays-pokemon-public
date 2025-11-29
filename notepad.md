@@ -283,15 +283,17 @@
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
 - Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
 - Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
-### Blackthorn Gym Puzzle Solution (Verified)
-- **Concept:** The boulder at (8, 14) is a 'Sacrifice' to open the path. It cannot reach Pit (8, 7).
-- **Right Side:**
-  1. Reset Map to restore boulders.
-  2. Push Boulder (8, 14) North to (8, 10) to open the intersection at (8, 11).
-  3. Go East to (9, 11), then North to (9, 1).
-  4. Push Boulder (6, 1) East to (8, 1), then South to Pit (8, 3).
-- **Left Side:**
-  - Still investigating. Need to bypass Cody at (4, 1) to move Boulder (3, 3) West.
+### Blackthorn Gym Puzzle Solution (Current Strategy: 2-Pit)
+- **Concept:** Verified that filling all 3 pits is likely impossible due to wall constraints. The goal is to fill Pit (8, 3) and Pit (2, 5).
+- **Step 1: The Sacrifice:**
+  - Push Boulder (8, 14) North to (8, 10). This clears the path at (8, 11) but renders this boulder unusable for pits.
+- **Step 2: The Top Boulder (6, 1):**
+  - Goal: Fill Pit (8, 3).
+  - Obstacle: Need to verify if Row 0 walls are passable to push South.
+- **Step 3: The Left Boulder (3, 3):**
+  - Goal: Fill Pit (2, 5).
+  - Obstacle: Need to bypass Cooltrainer Cody at (4, 1) to push West.
+- **Status:** Testing wall permeability in Row 0 and interaction with Cody.
 ### Reflection (Turn 13720)
 - Reviewed last 50 turns. Corrected tool usage errors.
 - Map markers cleaned up.
