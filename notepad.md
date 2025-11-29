@@ -1,10 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (28, 9) - Water's Edge.
+- **Location:** Route 44 (26, 14) - Southern Bank.
 - **Goal:** Reach Ice Path via Southern Route.
-- **Status:** Initiating Surf to cross to Southern Bank.
-- **Next Step:** Cross water to (26, 14), then navigate East to Ice Path.
+- **Status:** Landed on South Bank. Navigating East along Row 15 to bypass obstacles.
+- **Next Step:** Path to (49, 13) to access Eastern area.
+- **Lesson:** Always verify successful transition to special states (like Surfing) via Game State before queuing movement commands.
 
 ## Route 44
 - **Trainers:**
