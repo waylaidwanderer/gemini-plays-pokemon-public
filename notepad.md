@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (14, 10).
-- **Goal:** Traverse Route 44 East to Ice Path.
-- **Status:** Defeated Psychic Phil. Picked up Max Repel.
-- **Next Step:** Continue East.
+- **Location:** Route 44 (19, 12).
+- **Goal:** Defeat Fisher Edgar, then traverse Route 44 East to Ice Path.
+- **Status:** In battle with Fisher Edgar. Picked up Max Repel.
+- **Next Step:** Finish battle, continue East.
 
 ## Route 44
 - **Trainers:**
