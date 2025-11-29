@@ -325,3 +325,10 @@
 - **Tile Mechanics Update:**
   - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **POKEFAN_F on OlivineLighthouse1F (16, 8):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
+
+# Olivine Lighthouse Puzzle v7 (Agent Hypotheses)
+- **Status:** Stuck on west side of 2F, blocked by Sailor at (9, 3).
+- **Agent Hypothesis #1 (IN PROGRESS):** The sailor is a red herring; the real path is a hidden pit on this side of the floor.
+- **Agent Hypothesis #2 (DISPROVEN):** The sailor is a line-of-sight trainer battle. Walking into his line of sight from (11, 3) to (10, 3) did not trigger a battle.
+- **Agent Hypothesis #3:** The solution was missed in the isolated 1F area.
+- **Agent Hypothesis #4:** There is a hidden item on the floor needed to progress.
