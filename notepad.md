@@ -239,5 +239,5 @@
 - **Tile Mechanics:** `FLOOR_UP_WALL` observed at (37, 20). Need to verify traversability.
 ## Blackthorn Dragon Speech House
 - **Location:** (13, 21) in Blackthorn City.
-- **NPCs:** Granny (2, 3), Ekans (5, 5).
+- **NPCs:** Granny (2, 3), Dratini (5, 5).
 - **Goal:** Investigate 'Dragon Speech'.
