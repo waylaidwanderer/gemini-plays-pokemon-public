@@ -1,19 +1,21 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (7, 9).
+- **Location:** Route 44 (14, 10).
 - **Goal:** Traverse Route 44 East to Ice Path.
-- **Status:** Defeated Psychic Phil.
-- **Next Step:** Harvest Fruit Tree.
+- **Status:** Defeated Psychic Phil. Picked up Max Repel.
+- **Next Step:** Continue East.
 
 ## Route 44
 - **Trainers:**
   - Psychic Phil (Natu Lv24, Kadabra Lv26) at (8, 9). Defeated.
+- **Items:**
+  - Max Repel (14, 9). Picked up.
 
 ## 🎯 Goals
 - [x] Restock Poké Balls (40 Great Balls bought).
 - [x] Catch a Pokémon that can Fly (Vortex caught).
-- [ ] Retrieve item from Gina (Route 34).
+- [x] Retrieve item from Gina (Route 34) - Checked, nothing yet.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
 ## Radio Tower Infiltration (Cleared)
