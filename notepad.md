@@ -279,19 +279,12 @@
 - **Teacher in Olivine Pokémon Center:** Mentioned a person in CIANWOOD CITY across the sea who brags about a rare POKéMON.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 
-# Olivine Lighthouse Puzzle v3
-- **Objective:** Find the sick Pokémon.
-- **Layout:** 3F. Arrived via ladder from 2F at (5, 3). Two new unmarked warps at (8, 3) and (9, 3) need investigation. Item ball at (8, 2).
-- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
-
-# Olivine Lighthouse Puzzle v4 (Agent Hypotheses)
-- **Status:** Stuck in a loop on 2F. Escalated to `puzzle_solver` agent.
-- **Agent Hypothesis #1:** There is a hidden opening to an exterior ledge. Test by walking the outer perimeter.
-- **Agent Hypothesis #2:** A specific, non-obvious tile is a unique drop point. Test by walking off every edge tile.
-- **Agent Hypothesis #3:** A defeated trainer has new dialogue. Test by re-talking to Sailor Huey.
-- **Agent Hypothesis #4:** There is an invisible path across a gap. Test by trying to walk over chasms.
-- **Current Plan:** Systematically test Hypothesis #1.
-- **Loop Avoidance:** When a path is confirmed to be a dead end (e.g., the western side of OlivineLighthouse3F), I must not return to it. Persisting in a loop is a critical failure. The correct response is to backtrack and systematically re-evaluate all other unexplored paths from the last major junction.
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
+- **Hypothesis #1 (In Progress):** There is a hidden opening in an external wall. Test by walking the perimeter.
+- **Hypothesis #2:** Defeating all trainers on 2F is a trigger.
+- **Hypothesis #3 (DISPROVEN):** The 1F area reached via the pits contains a hidden exit. (Thoroughly explored, only exit is the ladder).
+- **Hypothesis #4:** A non-trainer NPC provides a new hint or item.
 
 # Strategic Protocol
 - **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
