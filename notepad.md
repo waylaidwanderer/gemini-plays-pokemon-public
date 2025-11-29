@@ -3,6 +3,7 @@
 - **Recognizing Unproductive Loops:** If I find myself repeating the same failed actions or testing minor variations of a failed hypothesis, I must recognize this pattern quickly. Instead of persisting, I must pivot to a completely new hypothesis or backtrack to re-evaluate the puzzle from a different perspective. Persisting in a loop is a strategic failure.
 
 # Strategic Principles & Lessons Learned
+- **TRUST THE TOOL'S OUTPUT:** My `find_path` tool correctly reported 'No path found' on OlivineLighthouse3F because the map is physically divided into two unreachable sections. My visual assessment was wrong. Lesson: If the pathfinder fails, trust its analysis and re-evaluate the map for alternative routes (like warps) instead of assuming the tool is broken.
 - **CONSULT YOUR KNOWLEDGE BASE (CRITICAL FAILURE NOTED):** I completely ignored my own documented solution for the Olivine Lighthouse puzzle, leading to a repetitive loop. I MUST consult my knowledge base *before* forming ANY new plan. My own verified findings are more reliable than my memory. Ignoring my documented solutions is a critical failure.
 - **IMMEDIATE DEAD END MARKING:** I failed to mark the ladder at OlivineLighthouse2F (5, 3) as a dead end, which directly caused the loop. All dead ends MUST be marked with '🚫' immediately upon discovery.
 - **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
@@ -266,6 +267,3 @@
 
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
-
-# Strategic Principles & Lessons Learned
-- **TRUST THE TOOL'S OUTPUT:** My `find_path` tool correctly reported 'No path found' on OlivineLighthouse3F because the map is physically divided into two unreachable sections. My visual assessment was wrong. Lesson: If the pathfinder fails, trust its analysis and re-evaluate the map for alternative routes (like warps) instead of assuming the tool is broken.
