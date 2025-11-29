@@ -156,7 +156,7 @@
 - **Items:** TM34 (Swagger), Super Repel.
 
 ## Route 40
-- **Status:** Surfing South to Cianwood.
+- **Status:** Traversed.
 - **NPCs:**
   - Silver (14, 15) - Passive.
   - Silver (18, 30) - Sighted.
