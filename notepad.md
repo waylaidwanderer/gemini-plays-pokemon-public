@@ -5,12 +5,11 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Solve Right Side Boulder Puzzle.
 - **Active Strategy:**
-  1. **Right Side (Pit 8,7):** The top-right boulders are trapped by walls in Row 0. The ONLY movable boulder for the right side is at (8, 14).
-     - Navigate to (8, 13).
-     - Move Boulder (8, 14) North to (8, 10).
-     - Move West to (5, 10).
-     - Move North to (5, 7).
-     - Move East into Pit (8, 7).
+  1. **Right Side (Pit 8,7):** Top boulders are trapped. Boulder (8, 14) is the key but appears trapped in Column 8.
+     - **Hypothesis:** Wall at (8, 9) is fake or passable.
+     - **Action:** Confirm Strength, then walk North to test (8, 9) collision.
+     - If (8, 9) is passable: Push (8, 14) North to Pit (8, 7).
+     - If (8, 9) is blocked: Re-evaluate wall data for (7, 10), (7, 11), or (9, 12).
   3. **Left Side:**
      - Push Boulder (3, 3) North to (3, 1), West to (2, 1), South into Pit (2, 5).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
