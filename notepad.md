@@ -1,15 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Ice Path
-- **Location:** Ice Path B2F Mahogany Side (3_63).
+- **Location:** Ice Path B3F (3_65).
 - **Goal:** Reach Blackthorn City.
-- **Current Task:** Solve final Boulder 2 puzzle.
-- **Hypothesis:** Pushing all boulders into pits opens B2F path.
-- **Puzzle Plan:**
-  1. **Boulder 2:**
-     a. Push Left to (4, 6) [Next].
-     b. Reposition to (4, 5).
-     c. Push Down into Pit (4, 7).
+- **Current Task:** Explore B3F.
+- **Recent Progress:** Solved B2F boulder puzzle, descended to B3F.
 
 ## Route 44
 - **Trainers:**
