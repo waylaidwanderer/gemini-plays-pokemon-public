@@ -243,6 +243,9 @@
 
 ## Custom Tools
 - `find_path`
+- `select_item`
+- `select_move`
+- `switch_pokemon`
 - `systematic_search`
 
 ## Custom Agents
