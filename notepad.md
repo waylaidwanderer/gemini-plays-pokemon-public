@@ -4,9 +4,9 @@
 - **Location:** Ice Path B2F Mahogany Side (3_63).
 - **Goal:** Traverse Ice Path to reach Blackthorn City.
 - **Status:** Exploring B2F. Probing horizontal rows for obstacles.
-- **Findings:** Rows 0-3 and Row 16 are clear. Column 16 is clear.
-- **Hypothesis:** Reaching the center requires falling from the pit at B1F (11, 2).
-- **Next Step:** Test Column 3 (Left edge).
+- **Findings:** The entire B2F perimeter (Rows 0-3, 16; Cols 3, 16) is a closed loop.
+- **Conclusion:** No entry to center from perimeter. Must fall from B1F.
+- **Next Step:** Return to B1F and drop into the pit at (11, 2).
 - **Lesson:** Ice physics require checking if the *landing* tile is ICE to trigger a slide.
 
 ## Route 44
