@@ -1,12 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Ice Path
-- **Location:** Ice Path 1F (East Side).
-- **Goal:** Reach Blackthorn City.
-- **Current Task:** Solve 1F East Ice Puzzle.
-- **Wild Pokémon:** Swinub, Golbat.
-- **Recent Progress:** Ascended from B2F to new B1F section. Picked up Protein at (35, 9).
-- **Puzzle Plan:** Jump ledge at (35, 17), slide Down to (35, 22) to access southern floor area.
+## 📍 Current Status: Blackthorn City
+- **Location:** Blackthorn City (North Entrance).
+- **Goal:** Defeat Gym Leader Clair.
+- **Current Task:** Locate Pokémon Center and Gym.
+- **Recent Progress:** Cleared Ice Path. Arrived in Blackthorn.
+- **Notes:** Need to find the Move Deleter (Lore says he is here).
 
 ## Route 44
 - **Trainers:**
