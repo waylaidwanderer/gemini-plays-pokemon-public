@@ -258,3 +258,4 @@
 - Unstun Pokefan F (ID 2) on OlivineLighthouse1F. NOTE: Must be done when she is visible on-screen, as the tool failed when she was off-screen.
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 - Unstun Sailor (ID 1) in Olivine City when I return.
+- **Tool Limitations & Game State:** Some tools, like `stun_npc`, are dependent on the live game state and will fail if their target is not currently rendered on-screen. I must ensure an object is visible before attempting to use a tool that targets it.
