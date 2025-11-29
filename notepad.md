@@ -270,11 +270,10 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Strategy
-- **Objective:** Fill Top Pit (8,3) or Bottom Pit (8,7).
-- **Status:** All obvious paths seem blocked. Entering 'Exhaustive Verification' mode.
-- **Verification Tasks:**
-  1. Re-verify (9,0) and (8,0) and MARK them.
-  2. Verify (7,4) from the North.
-  3. Re-examine Boulder 8 options at Row 12 (check if standing at 9,12 is possible - confirmed impossible).
-  4. Re-examine Left Side Boulder 6 (blocked by Col 4 wall).
-- **Current Action:** Activating Strength to push Boulder 7 East, then verify Row 0 walls.
+- **Objective:** Fill Bottom Pit (8, 7).
+- **Solution Found:** Use Boulder 8.
+  1. Push Boulder 8 South to (8, 16).
+  2. Push West to (6, 16).
+  3. Push North to (6, 7).
+  4. Push East into Pit (8, 7).
+- **Top Pit Status:** Row 0 and Col 9 access confirmed blocked/difficult. Testing (9,0) as final check.
