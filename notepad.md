@@ -258,3 +258,6 @@
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 - **HM04 STRENGTH:** Received from a Sailor in the Olivine Cafe. Allows moving large boulders outside of battle.
 - **Tool Failure Protocol:** If a custom tool fails to produce the correct output twice in a row, I must immediately stop attempting to use it and prioritize debugging and fixing the tool. Persisting with a broken tool is a critical strategic failure.
+
+# Critical Lessons from Olivine Lighthouse Loop
+- **PROCEDURAL FAILURE (Critique Received):** I failed to follow my own documented principles. I did not immediately mark the bugged Sailor on 2F with '🚫', which directly contributed to getting stuck in a pathing loop. Furthermore, I failed to escalate to my `puzzle_solver` agent after multiple failed hypotheses, instead persisting in a manual trial-and-error cycle. This is a critical failure of strategy. I must adhere to my own documented procedures: mark all obstacles immediately and use agents to break cognitive fixation when stuck.
