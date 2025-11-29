@@ -228,4 +228,4 @@
 - **Ice Physics:** When implementing ice sliding logic, ensure the transition from non-ice to ice is treated as the start of a slide immediately upon entry, not as a single step.
 - **Item Found:** HM07 (Waterfall) at Ice Path 1F (North-East).
 - **Exploration:** Fell through ice hole at (12, 12) to new area (Map 3_63 top-left).
-- **Inventory Full:** Cannot pick up item at B2F (0, 2). Need to free space (Use Rare Candy/Protein or Toss Antidotes).
+- **Inventory:** Freed space by tossing Antidotes. Ready to pick up item at B2F (0, 2).
