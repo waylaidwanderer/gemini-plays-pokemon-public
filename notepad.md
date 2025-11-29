@@ -266,3 +266,6 @@
 
 # Strategic Principles & Lessons Learned
 - **TRUST THE GAME STATE ON WARPS:** My visual assessment and even the Mental Map XML can be misleading about the existence of warps. The `Game State Information -> Map Events -> Warps` list is the only absolute source of truth. I must verify a warp's existence in this list before planning a path to it.
+
+# Strategic Principles & Lessons Learned
+- **TRUST THE TOOL'S OUTPUT:** My `find_path` tool correctly reported 'No path found' on OlivineLighthouse3F because the map is physically divided into two unreachable sections. My visual assessment was wrong. Lesson: If the pathfinder fails, trust its analysis and re-evaluate the map for alternative routes (like warps) instead of assuming the tool is broken.
