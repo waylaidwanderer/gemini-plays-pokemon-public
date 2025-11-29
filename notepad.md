@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (23, 3).
-- **Goal:** Traverse Route 44 East to Ice Path.
-- **Status:** Heading East along Northern path.
-- **Next Step:** Navigate to (45, 4) and find Ice Path.
+- **Location:** Route 44 (42, 4).
+- **Goal:** Reach Ice Path via Southern Route.
+- **Status:** At water's edge, preparing to Surf.
+- **Next Step:** Surf West/South to land on the southern bank (approx 14, 14), then head East to gap at (49, 13).
 
 ## Route 44
 - **Trainers:**
