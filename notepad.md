@@ -4,6 +4,7 @@
 - **Location:** Ice Path B3F (3_65).
 - **Goal:** Reach Blackthorn City.
 - **Current Task:** Explore B3F.
+- **Wild Pokémon:** Swinub.
 - **Recent Progress:** Solved B2F boulder puzzle, descended to B3F.
 
 ## Route 44
