@@ -309,3 +309,4 @@
 - **Agent Hypothesis #3:** One of the pits on the eastern side of 2F leads to a different destination.
 - **Current Plan:** Systematically test Hypothesis #1.
 - **Agent Hypothesis #3 (Different Pits):** DISPROVEN. Tested pits at 2F (16, 13) and (17, 13). Both lead to the same isolated area on 1F.
+- **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly supports the agent's hypothesis that the path forward is non-obvious and likely involves a hidden pit in this seemingly dead-end area.
