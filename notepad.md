@@ -4,7 +4,8 @@
 - **Location:** Blackthorn City Pokémon Center.
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Defeat Gym Leader Clair.
-- **Status:** Inside Blackthorn Gym 1F.
+- **Status:** Inside Blackthorn Gym 2F.
+- **Puzzle Hypothesis:** The boulder at (6, 16) acts as a blockade. Pushing it South to (6, 17) is required to access the path to the east (Column 7/8). It will be trapped there, but this sacrifice is necessary to solve the puzzle involving the boulder at (8, 14).
 - **Recent Progress:** Arrived in Blackthorn via Ice Path.
 - **Notes:** Need to find Move Deleter.
 
