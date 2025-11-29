@@ -286,3 +286,11 @@
 - **Objective:** Find the sick Pokémon.
 - **Layout:** 3F. Arrived via ladder from 2F at (5, 3). Two new unmarked warps at (8, 3) and (9, 3) need investigation. Item ball at (8, 2).
 - **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
+
+# Olivine Lighthouse Puzzle v4 (Agent Hypotheses)
+- **Status:** Stuck in a loop on 2F. Escalated to `puzzle_solver` agent.
+- **Agent Hypothesis #1:** There is a hidden opening to an exterior ledge. Test by walking the outer perimeter.
+- **Agent Hypothesis #2:** A specific, non-obvious tile is a unique drop point. Test by walking off every edge tile.
+- **Agent Hypothesis #3:** A defeated trainer has new dialogue. Test by re-talking to Sailor Huey.
+- **Agent Hypothesis #4:** There is an invisible path across a gap. Test by trying to walk over chasms.
+- **Current Plan:** Systematically test Hypothesis #1.
