@@ -6,8 +6,8 @@
 - **Current Task:** Climb to 2F and execute Gap Strategy.
 - **Active Strategy:**
   1. **Investigation Phase:**
-     - Verify if Row 0 contains fake walls. If solid, Boulder 7 on Row 1 cannot be pushed South.
-     - **Current State:** Boulder 7 at (7, 1). Boulder 8 at (8, 14).
+     - Testing Row 0 for fake walls. Specifically testing (8, 0) now.
+     - **Current State:** Boulder 7 at (7, 1). Boulder 8 at (8, 14). Player at (9, 1). Path to (8, 1) is clear.
   2. **Pit Filling Strategy (Final):**
      - **Step 1 (Clear Path):** Push Boulder 8 North to (8, 10). This clears the path at (8, 11) allowing access to the North East area via Column 9.
      - **Step 2 (Top Pit):** Go to Boulder 7 at (7, 1) via Column 9. Push it East to (8, 1), then South into Pit (8, 3).
