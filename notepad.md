@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (30, 9) - Central Area.
+- **Location:** Route 44 (28, 9) - Water's Edge.
 - **Goal:** Reach Ice Path via Southern Route.
-- **Status:** Retrieved Max Revive (30, 8). Heading to surf.
-- **Next Step:** Surf West to (27, 9), then navigate to Southern Bank.
+- **Status:** Initiating Surf to cross to Southern Bank.
+- **Next Step:** Cross water to (26, 14), then navigate East to Ice Path.
 
 ## Route 44
 - **Trainers:**
