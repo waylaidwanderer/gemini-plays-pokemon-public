@@ -241,3 +241,5 @@
 - **Location:** (13, 21) in Blackthorn City.
 - **NPCs:** Granny (2, 3), Dratini (5, 5).
 - **Goal:** Investigate 'Dragon Speech'.
+- **NPCs:**
+  - Cooltrainer F (10, 25): Hints that the Move Deleter is in this city.
