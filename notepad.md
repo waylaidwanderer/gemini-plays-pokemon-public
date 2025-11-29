@@ -3,7 +3,7 @@
 ## 📍 Current Status: Route 44
 - **Location:** Route 44 (51, 7) - Eastern Plateau.
 - **Goal:** Reach Ice Path via Northern Route.
-- **Status:** Battling Trainer near Ice Path entrance.
+- **Status:** Battling Bird Keeper Vance (Pidgeotto Lv25) at (51, 7).
 - **Next Step:** Defeat trainer and enter Ice Path at (56, 7).
 - **Lesson:** Always verify successful transition to special states (like Surfing) via Game State before queuing movement commands.
 
