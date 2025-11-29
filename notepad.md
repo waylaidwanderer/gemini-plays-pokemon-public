@@ -257,13 +257,14 @@
 - `puzzle_solver`
 
 # Reminders & To-Do
-- When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
-- **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
-- **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
-- Unstun Pokefan F (ID 2) on OlivineLighthouse1F. NOTE: Must be done when she is visible on-screen, as the tool failed when she was off-screen.
+
+## General
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
-- Unstun Sailor (ID 1) in Olivine City when I return.
-- **Tool Limitations & Game State:** Some tools, like `stun_npc`, are dependent on the live game state and will fail if their target is not currently rendered on-screen. I must ensure an object is visible before attempting to use a tool that targets it. Deferred tasks like unstunning an NPC must wait until I return to their map and they are visible.
+
+## Olivine City
+- When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
+- Unstun Pokefan F (ID 2) on OlivineLighthouse1F.
+- Unstun Sailor (ID 1) in Olivine City.
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.

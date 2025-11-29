@@ -1,6 +1,6 @@
 {
   "find_path": {
-    "description": "Finds a path from a start to an end coordinate on the current map using a basic, reliable Breadth-First Search (BFS) algorithm. This is a foundational rewrite to ensure stability.",
+    "description": "Finds a path from a start to an end coordinate on the current map. This version includes logic to correctly navigate one-way ledge tiles.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -24,7 +24,7 @@
         "end_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\n    \"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \n    \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\",\n    \"NPC\", \"SIGN\", \"ITEM_BALL\", \"BOULDER\"\n}\n\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord = (x, y)\n        tile_type = tile_elem.get('type')\n        # Correctly find the 'Object' child element\n        has_object = tile_elem.find('Object') is not None\n        is_impassable = (tile_type in IMPASSABLE_TILES or has_object or tile_type == 'unseen')\n        grid[coord] = not is_impassable\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\n\ndef bfs(start, targets):\n    if start not in grid or not grid[start]:\n        return None\n    \n    queue = deque([start])\n    visited = {start}\n    came_from = {start: None}\n\n    while queue:\n        current = queue.popleft()\n\n        if current in targets:\n            path = []\n            step = current\n            while step is not None:\n                path.append(step)\n                step = came_from.get(step)\n            path.reverse()\n            return path\n\n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (cx + dx, cy + dy)\n            if neighbor in grid and grid[neighbor] and neighbor not in visited:\n                visited.add(neighbor)\n                came_from[neighbor] = current\n                queue.append(neighbor)\n    return None\n\ntarget_nodes = []\nif grid.get(end_node, False):\n    target_nodes.append(end_node)\nelse:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_node = (end_node[0] + dx, end_node[1] + dy)\n        if grid.get(adj_node, False):\n            target_nodes.append(adj_node)\n\nif not target_nodes:\n    path = None\nelse:\n    path = bfs(start_node, set(target_nodes))\n\nif path:\n    print(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in path]))\nelse:\n    print(\"No path found.\")\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\n    \"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \n    \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\",\n    \"NPC\", \"SIGN\", \"ITEM_BALL\", \"BOULDER\"\n}\n\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord = (x, y)\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.find('Object') is not None\n        is_impassable = (tile_type in IMPASSABLE_TILES or has_object or tile_type == 'unseen')\n        grid[coord] = {'type': tile_type, 'impassable': is_impassable}\n\ndef bfs(start, targets):\n    start_info = grid.get(start)\n    if not start_info or start_info['impassable']:\n        return None\n    \n    queue = deque([start])\n    visited = {start}\n    came_from = {start: None}\n\n    while queue:\n        current = queue.popleft()\n        cx, cy = current\n\n        if current in targets:\n            path = []\n            step = current\n            while step is not None:\n                path.append(step)\n                step = came_from.get(step)\n            path.reverse()\n            return path\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (cx + dx, cy + dy)\n\n            if neighbor not in grid or grid[neighbor]['impassable']:\n                continue\n\n            if neighbor in visited:\n                continue\n\n            current_type = grid[current]['type']\n            neighbor_type = grid[neighbor]['type']\n\n            # Rule: Can't move backwards off a ledge\n            if current_type == 'LEDGE_HOP_DOWN' and dy == -1: continue\n            if current_type == 'LEDGE_HOP_LEFT' and dx == 1: continue\n            if current_type == 'LEDGE_HOP_RIGHT' and dx == -1: continue\n\n            # Rule: Must enter a ledge from the correct direction\n            if neighbor_type == 'LEDGE_HOP_DOWN' and dy != 1: continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and dx != -1: continue\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n            \n            visited.add(neighbor)\n            came_from[neighbor] = current\n            queue.append(neighbor)\n            \n    return None\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\n\ntarget_nodes = []\nend_node_info = grid.get(end_node)\nif end_node_info and not end_node_info['impassable']:\n    target_nodes.append(end_node)\nelse:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        adj_node = (end_node[0] + dx, end_node[1] + dy)\n        adj_node_info = grid.get(adj_node)\n        if adj_node_info and not adj_node_info['impassable']:\n            target_nodes.append(adj_node)\n\nif not target_nodes:\n    path = None\nelse:\n    path = bfs(start_node, set(target_nodes))\n\nif path:\n    print(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in path]))\nelse:\n    print(\"No path found.\")\n",
     "history": [
       {
         "commit_message": "feat: Re-implement find_path tool from scratch. This is a complete rewrite of the A* algorithm to establish a simple, correct, and reliable foundation for navigation. This version handles basic impassable tiles and objects but omits complex logic for ledges and other special tiles, which will be added back incrementally after this core logic is proven to be stable. This action is a direct response to repeated tool failures and strategic critiques.",
@@ -555,6 +555,11 @@
         "commit_message": "fix: Correct object detection logic via python_code_debugger. The agent identified a critical flaw where the tool was pathing through NPCs because the XML parsing used `tile_elem.find('.//Object')`, which is invalid syntax for the library. This commit replaces it with the correct `tile_elem.find('Object')` to properly search for direct child elements, ensuring that tiles with objects are correctly identified as impassable. This resolves the catastrophic navigation failure.",
         "timestamp": "2025-11-29T09:27:23.643Z",
         "action_counter": 25422
+      },
+      {
+        "commit_message": "feat: Add logic for one-way ledge traversal. The previous BFS implementation treated all tiles symmetrically, causing it to fail on maps with one-way ledges like Route 39. This commit overhauls the neighbor-checking logic to account for tile types (`LEDGE_HOP_DOWN`, `LEDGE_HOP_LEFT`, `LEDGE_HOP_RIGHT`), correctly enforcing directional movement rules. This resolves the critical pathfinding failure and unblocks route navigation.",
+        "timestamp": "2025-11-29T12:04:16.291Z",
+        "action_counter": 25714
       }
     ]
   },
@@ -1163,49 +1168,6 @@
         "commit_message": "fix: Ignore 'FNT' status line during parsing. The `python_code_debugger` agent identified that the tool's regex was too general and incorrectly matched the 'FNT' (fainted) status line as a selectable menu option. This added an invalid entry to the options list and caused the index calculation to be off by one, resulting in a catastrophic failure. This commit adds a specific conditional check to explicitly ignore any parsed option named 'FNT', ensuring the list of selectable options is always correct.",
         "timestamp": "2025-11-27T03:15:41.250Z",
         "action_counter": 19459
-      }
-    ]
-  },
-  "systematic_search": {
-    "description": "Automates a systematic search of a given area. It takes a JSON string of coordinates and directions, then generates and executes a path to each coordinate, turns in the specified direction, presses 'A', and sleeps. It stops if any text is found on screen.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "coords_to_search_json": {
-          "type": "string",
-          "description": "A JSON string of a list of [coordinate_pair, direction_string] lists, e.g., '[[[25, 0], \"Up\"], [[26, 0], \"Up\"]]'"
-        }
-      },
-      "required": [
-        "coords_to_search_json"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path_and_convert_to_buttons(map_xml_string, start_pos, end_pos):\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    IMPASSABLE_TILES = {\"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\", \"NPC\", \"SIGN\", \"ITEM_BALL\", \"BOULDER\"}\n\n    for row_elem in root.findall('Row'):\n        y = int(row_elem.get('id'))\n        for tile_elem in row_elem.findall('Tile'):\n            x = int(tile_elem.get('id'))\n            coord = (x, y)\n            tile_type = tile_elem.get('type')\n            has_object = tile_elem.find('.//Object') is not None\n            is_impassable = (tile_type in IMPASSABLE_TILES or has_object or tile_type == 'unseen')\n            grid[coord] = not is_impassable\n    \n    queue = deque([start_pos])\n    visited = {start_pos}\n    came_from = {start_pos: None}\n    path_found = False\n\n    while queue:\n        current = queue.popleft()\n        if current == end_pos:\n            path_found = True\n            break\n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (cx + dx, cy + dy)\n            if grid.get(neighbor, False) and neighbor not in visited:\n                visited.add(neighbor)\n                came_from[neighbor] = current\n                queue.append(neighbor)\n\n    if not path_found:\n        return None\n\n    path = []\n    step = end_pos\n    while step is not None:\n        path.append(step)\n        step = came_from.get(step)\n    path.reverse()\n\n    buttons = []\n    if len(path) > 1:\n        for i in range(len(path) - 1):\n            x1, y1 = path[i]\n            x2, y2 = path[i+1]\n            if x2 > x1: buttons.append(\"Right\")\n            elif x2 < x1: buttons.append(\"Left\")\n            elif y2 > y1: buttons.append(\"Down\")\n            elif y2 < y1: buttons.append(\"Up\")\n    return buttons\n\ncoords_to_search = json.loads(input_data['coords_to_search_json'])\n\nroot = ET.fromstring(map_xml_string)\ncurrent_pos = None\nfor row_elem in root.findall('Row'):\n    for tile_elem in row_elem.findall('Tile'):\n        if tile_elem.find('Player') is not None:\n            current_pos = (int(tile_elem.get('id')), int(row_elem.get('id')))\n            break\n    if current_pos:\n        break\n\nif not current_pos:\n    print(json.dumps([]))\nelse:\n    all_buttons = []\n    for target_data in coords_to_search:\n        target_coord = tuple(target_data[0])\n        direction = target_data[1]\n        \n        if current_pos == target_coord:\n            buttons_for_path = []\n        else:\n            buttons_for_path = find_path_and_convert_to_buttons(map_xml_string, current_pos, target_coord)\n\n        if buttons_for_path is not None:\n            all_buttons.extend(buttons_for_path)\n            all_buttons.append(direction)\n            all_buttons.append(\"A\")\n            all_buttons.append(\"sleep 500\")\n            current_pos = target_coord\n        else:\n            break\n    print(json.dumps(all_buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create systematic_search tool. This tool automates the tedious process of moving to a series of tiles and pressing 'A' to check for hidden items or switches. This was created in response to the manual, repetitive, and error-prone search of the Olivine Lighthouse, fulfilling a key need identified during a mandatory reflection.",
-        "timestamp": "2025-11-29T00:50:38.846Z",
-        "action_counter": 24530
-      },
-      {
-        "commit_message": "fix: Replace invalid harness commands with valid button presses via python_code_debugger. The agent identified that the tool was catastrophically failing because it used unsupported high-level commands like 'path'. The corrected script now generates sequences of basic directional inputs and uses a 'sleep' command to allow for manual observation, making the tool functional within the harness's limitations.",
-        "timestamp": "2025-11-29T00:53:16.319Z",
-        "action_counter": 24533
-      },
-      {
-        "commit_message": "fix: Make tool state-aware by parsing player's current position via python_code_debugger. The agent identified that the tool was catastrophically failing because it assumed a hardcoded starting position of (0,0). This commit integrates XML parsing to read the player's actual starting coordinates from `map_xml_string`, ensuring all path calculations are relative to the true game state and resolving the navigation failure.",
-        "timestamp": "2025-11-29T00:59:34.627Z",
-        "action_counter": 24537
-      },
-      {
-        "commit_message": "feat: Create systematic_search tool. This tool automates the tedious process of moving to a series of tiles and pressing 'A' to check for hidden items or switches. This was created in response to the manual, repetitive, and error-prone search of the Olivine Lighthouse, fulfilling a key need identified during a mandatory reflection.",
-        "timestamp": "2025-11-29T05:24:27.893Z",
-        "action_counter": 25052
-      },
-      {
-        "commit_message": "feat: Add directional turning to systematic_search. The tool now accepts a direction to face for each coordinate, allowing it to interact with walls or objects in any orientation. This was a necessary feature to properly test the puzzle agent's hypothesis in the Olivine Lighthouse.",
-        "timestamp": "2025-11-29T05:25:11.508Z",
-        "action_counter": 25053
       }
     ]
   }
