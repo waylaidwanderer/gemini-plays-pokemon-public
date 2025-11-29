@@ -5,11 +5,11 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Solve Right Side Boulder Puzzle.
 - **Puzzle Strategy:** 
-  1. Navigate to (8, 13). Push Boulder (8, 14) South to (8, 17) (Sacrifice).
-  2. Search for second boulder in Column 4 or elsewhere (Boulder at 6,16 confirmed missing).
-  3. Once found, push second boulder to fill Pit (8, 7).
-  4. Push Boulder (6, 1) East to clear Row 1.
-  5. Push Boulder (8, 2) South to Pit (8, 3).
+  1. **Sacrifice:** Push Boulder (8, 14) South to (8, 17) to clear Row 17.
+  2. **Import:** Go to Left Side via Row 17. Push Boulder (3, 3) South to (3, 13).
+  3. **Transport:** Push Boulder (3, 13) East to (6, 13), then North to (6, 7).
+  4. **Fill Pit 1:** Push Boulder (6, 7) East into Pit (8, 7).
+  5. **Cross & Solve:** Cross filled pit. Push Boulder (6, 1) East. Push Boulder (8, 2) South into Pit (8, 3).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
