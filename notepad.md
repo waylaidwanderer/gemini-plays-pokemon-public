@@ -274,3 +274,7 @@
 - **TRUST MAP DATA OVER MARKERS:** My own markers can be wrong due to hallucinations or outdated information. The raw map data (WALLs, FLOORs, etc.) is the source of truth. If a marker contradicts the map, the map is correct.
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
+
+# Olivine Lighthouse 3F Notes
+- The floor is split into two sections by a wall at x=6. I am on the western side.
+- The eastern side contains an item ball, a sailor, and three unmarked warps at (9, 5), (8, 3), and (9, 3). These are currently inaccessible.
