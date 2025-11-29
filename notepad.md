@@ -263,7 +263,6 @@
 ## Olivine City
 - When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
 - Unstun Pokefan F (ID 2) on OlivineLighthouse1F.
-- Unstun Sailor (ID 1) in Olivine City.
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
