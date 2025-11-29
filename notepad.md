@@ -61,6 +61,11 @@
 - **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
 - **NPC Dialogue Can Be Misleading:** I must not blindly trust NPC dialogue. An NPC on OlivineLighthouse2F claimed a ladder was a 'dead end', which caused me to ignore a valid path for a long time. All paths must be personally verified.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
+- **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
+- **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search (like using `systematic_search`) can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
+- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+- **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
+- **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -192,7 +197,7 @@
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
 
-# Puzzle Solutions
+# Solved Puzzle Solutions
 ## Azalea Gym
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
@@ -216,11 +221,11 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-# Olivine Lighthouse Puzzle - Investigation
+## Olivine Lighthouse Puzzle - Investigation
 - **Current Blocker:** I am stuck in a loop between OlivineLighthouse1F, 2F, and 3F. Both the path through the pits and the path up the western ladder appear to be dead ends or loops.
-- **Agent Hypotheses (from `puzzle_solver`):**
+- **Agent Hypotheses (from `puzzle_solver`):
   - **Hypothesis #1 (FAILED):** An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from. (Test: Walked into the wall at (18, 7), movement was blocked.)
-  - **Hypothesis #2 (IN PROGRESS):** The sealed area on the 1st floor, accessed by the pits, contains another exit besides the ladder back to the 2F walkway. (Test: Systematically checking all walls for hidden passages.)
+  - **Hypothesis #2 (FAILED):** The sealed area on the 1st floor, accessed by the pits, contains another exit besides the ladder back to the 2F walkway. (Test: Systematically checked all walls for hidden passages.)
   - **Hypothesis #3 (PENDING):** Defeating all the trainers on the main part of OlivineLighthouse2F triggers a change.
   - **Hypothesis #4 (PENDING):** Interacting with the wall next to the pits on the main part of 2F reveals a hidden switch or passage.
 
@@ -255,37 +260,3 @@
 - When on OlivineLighthouse3F, delete the 'Unknown Warp' markers at (8,3) and (9,3) as that area is a confirmed dead end.
 - **URGENT:** Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the lighthouse for good.
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
-- **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis #1 (Agent):** FAILED. An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from. Test: Walked into the wall at (18, 7), movement was blocked.
-- **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
-
-# Olivine Lighthouse Puzzle - Investigation (Update)
-- My `find_path` tool has confirmed that OlivineLighthouse1F is composed of two separate, disconnected areas. The entrance room is completely isolated from the main part of the floor containing the ladder up.
-
-# Olivine City Tile Mechanics (Verified)
-- **FLOOR:** Fully traversable.
-- **WALL:** Impassable.
-- **DOOR:** Traversable warp tile.
-- **WATER:** Impassable without Surf.
-- **BUOY:** Impassable object in water.
-
-# Olivine Lighthouse Puzzle - Investigation (Update)
-- Agent Hypothesis #2 (Sailor is a Trainer): FAILED. Walked directly into the sailor's line of sight at (8, 2). No battle was initiated, and no dialogue was triggered. This confirms he is not a standard line-of-sight trainer.
-
-# Lessons Learned (Post-Reflection)
-- **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
-- **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search (like using `systematic_search`) can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
-- **URGENT:** Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the lighthouse for good.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
-- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
-
-# Olivine Lighthouse Puzzle - Investigation (Update)
-- Agent Hypothesis (Re-entry): FAILED. Exited and re-entered the lighthouse entrance. The room layout and state did not change.
-- Sailor at (26, 27) in Olivine City only provides flavor text about the lighthouse beacon. Not a puzzle trigger.
-
-# Lessons Learned (Post-Reflection)
-- **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
-- **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
