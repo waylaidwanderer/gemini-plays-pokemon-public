@@ -296,3 +296,7 @@
 - **Agent Hypothesis #4:** There is an invisible path across a gap. Test by trying to walk over chasms.
 - **Current Plan:** Systematically test Hypothesis #1.
 - **Loop Avoidance:** When a path is confirmed to be a dead end (e.g., the western side of OlivineLighthouse3F), I must not return to it. Persisting in a loop is a critical failure. The correct response is to backtrack and systematically re-evaluate all other unexplored paths from the last major junction.
+
+# Strategic Principles & Lessons Learned
+- **CONSULT YOUR KNOWLEDGE BASE (CRITICAL FAILURE NOTED):** I completely ignored my own documented solution for the Olivine Lighthouse puzzle, leading to a repetitive loop. I MUST consult my knowledge base *before* forming ANY new plan. My own verified findings are more reliable than my memory. Ignoring my documented solutions is a critical failure.
+- **IMMEDIATE DEAD END MARKING:** I failed to mark the ladder at OlivineLighthouse2F (5, 3) as a dead end, which directly caused the loop. All dead ends MUST be marked with '🚫' immediately upon discovery.
