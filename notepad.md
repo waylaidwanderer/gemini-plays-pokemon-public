@@ -250,3 +250,6 @@
 - **NPCs:**
   - Cooltrainer F (10, 25): Hints that the Move Deleter is in this city.
 - **Move Deleter:** Found in house at Blackthorn (9, 31).
+## Ice Path (Re-visit)
+- **Warp Malfunction:** Exit at (36, 27) failed to trigger multiple times. Suspect specific trigger needed or bug.
+- **Tile Mechanics:** `FLOOR_UP_WALL` observed at (32, 24). Need to verify if traversable.
