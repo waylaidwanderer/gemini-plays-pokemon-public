@@ -146,7 +146,7 @@
 - **Items:** Ultra Ball.
 
 ## Route 43
-- **Status:** Exploring North towards Lake of Rage.
+- **Status:** Traversed.
 - **Geography:** Route connecting Mahogany Town and Lake of Rage.
 - **Signs:** (11, 49) - Route 43 Sign.
 
