@@ -5,12 +5,13 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Solve Right Side Boulder Puzzle.
 - **Active Strategy:**
-  1. **Right Side (Pit 8,7):**
-     - **Discovery:** Gap found at (5, 4) connects top and bottom sections!
-     - **Strategy:** Use Top Boulder (7, 1). Push West to (5, 1), South through gap at (5, 4) to (5, 7), then East to Pit (8, 7).
-     - **Note:** Boulder (8, 14) was a decoy/trap.
-  3. **Left Side:**
-     - Push Boulder (3, 3) North to (3, 1), West to (2, 1), South into Pit (2, 5).
+  1. **Right Side Pits (8,3 & 8,7):**
+     - **Hypothesis:** Boulder (8, 14) is a trap. Must use Top Right (7, 1) and a Left Side boulder.
+     - **Step 1:** Move Top Right Boulder (7, 1) West to Column 5, South through gap at (5, 4).
+     - **Step 2:** Move a Left Side Boulder to Column 5.
+     - **Step 3:** Use these two boulders to fill Pits (8, 3) and (8, 7).
+  2. **Left Side Pit (2, 5):**
+     - Use remaining Left Side boulder.
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
