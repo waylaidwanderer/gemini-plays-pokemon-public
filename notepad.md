@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (43, 4).
+- **Location:** Route 44 (33, 3).
 - **Goal:** Traverse Route 44 East to Ice Path.
-- **Status:** Engaging Super Nerd at (43, 3). Picked up Ultra Ball at (45, 4).
-- **Next Step:** Defeat Super Nerd, then Surf West to bypass ledges.
+- **Status:** Exploring West side. Defeated Super Nerd Zach. Bypassed Fisher at (35, 3).
+- **Next Step:** Continue West to find access to Southern path.
 
 ## Route 44
 - **Trainers:**
