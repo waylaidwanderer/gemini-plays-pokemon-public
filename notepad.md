@@ -243,3 +243,4 @@
 - **Goal:** Investigate 'Dragon Speech'.
 - **NPCs:**
   - Cooltrainer F (10, 25): Hints that the Move Deleter is in this city.
+- **Move Deleter:** Found in house at Blackthorn (9, 31).
