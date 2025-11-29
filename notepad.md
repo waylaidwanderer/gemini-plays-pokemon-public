@@ -308,3 +308,4 @@
 # Olivine Lighthouse Puzzle - Sailor Block (Continued)
 - **Agent Hypothesis #2 (Line of Sight):** FAILED. Walked from (11, 3) to (10, 3), entering the sailor's line of sight. No battle was triggered.
 - **New Plan:** Since the sailor at (9, 3) is an impassable block, I will test the agent's other hypothesis. I will return to the eastern side of 2F and test the second pit at (17, 13) to see if it leads to a different, unblocked path.
+- **Challenging False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
