@@ -52,26 +52,15 @@
 - **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings' (which may be hallucinations).
 
 ### Tile Mechanics
-- **FLOOR:** Walkable. Standard movement.
+- **FLOOR:** Walkable.
 - **WALL:** Impassable.
-- **PIT / HOLE:** Traversable warp. Falling in warps player to the floor below. Essential for some puzzles.
-- **INVISIBLE_FLOOR (Ecruteak Gym):** Traversable only on specific tiles. Stepping on the wrong tile warps player to start. Safe path must be discovered.
-- **LEDGE_HOP_DOWN:** Walkable only from the tile directly above. Acts as a WALL from all other directions. Automatically jumps the player down one tile.
-- **FLOOR_UP_WALL:** Visual ledge that acts as a solid WALL. Cannot be jumped over. Treat as an obstacle.
-- **HEADBUTT_TREE:** Impassable. Treated as a solid obstacle.
-- **TALL_GRASS / LONG_GRASS:** Walkable. Contains wild Pokémon encounters.
-- **WARP_CARPET (DOWN/UP/LEFT/RIGHT):** Walk 'off' the map edge in the direction of the carpet to exit. Merely standing on the tile is insufficient.
-- **DOOR / LADDER / STAIRS / CAVE:** Walk onto to warp to a new area or floor.
-- **COUNTER:** Impassable. Interact with NPCs from the adjacent tile facing the counter.
-- **PC / SIGNS / HOUSE_OBJECTS:** Impassable. Includes Bookshelves, TVs, Radios, Windows, etc. Interact from adjacent tile.
-- **FAKE_HOLE:** Tiles appearing as holes/warps in Burned Tower B1F (e.g. 10,8) are traversable floors. Verify with Game State Warps list.
-- **WATER:** Traversable using Surf. Contains wild Pokémon and Swimmers.
-- **WHIRLPOOL:** Impassable obstacle. Requires HM Whirlpool to cross (Hypothesis).
-- **BUOY:** Impassable obstacle. Forms barriers on sea routes. Look for gaps.
-- **ROCK:** Breakable obstacle. Requires TM08 Rock Smash. (Confirmed at Ice Path B3F 6,6).
-- **SECURITY_CAMERA (Persian Statue):** Impassable WALL. Triggers infinite alarm battles if player crosses its line of sight (specific columns/rows). Must be disabled.
-- **ICE:** Slippery. Stepping onto this tile forces the player to slide in the direction of movement until colliding with a WALL, OBJECT, or landing on a non-ICE tile.
-- **CRATE:** Impassable. Acts as a WALL. Likely requires a specific event or Pokémon (Machop) to move. Cannot be pushed by player manually.
+- **PIT / HOLE:** Traversable warp.
+- **ICE:** Slippery. Slide until hitting a wall or non-ice tile.
+- **LEDGE_HOP_DOWN:** One-way jump South.
+- **LEDGE_HOP_LEFT:** One-way jump Left. Acts as a reset on Map 3_64.
+- **ROCK:** Breakable (Rock Smash).
+- **BOULDER:** Pushable (Strength).
+- **WARP_CARPET:** Walk off map to exit.
 
 ### Battle Mechanics
 - **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
