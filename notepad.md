@@ -7,6 +7,7 @@
 - **TRUST THE TOOL'S OUTPUT:** My `find_path` tool correctly reported 'No path found' on OlivineLighthouse3F because the map is physically divided into two unreachable sections. My visual assessment was wrong. Lesson: If the pathfinder fails, trust its analysis and re-evaluate the map for alternative routes (like warps) instead of assuming the tool is broken.
 - **IMMEDIATE DEAD END MARKING:** I failed to mark the ladder at OlivineLighthouse2F (5, 3) as a dead end, which directly caused the loop. All dead ends MUST be marked with '🚫' immediately upon discovery.
 - **TRUST, BUT VERIFY: THE HIERARCHY OF TRUTH:** My own memory and visual assessment are unreliable and prone to hallucinations. I must operate under a strict hierarchy of truth: 1) Raw Game State Information is the absolute, unquestionable source of truth. 2) The output of verified, trusted tools (like pathfinders) is the next most reliable source, as they analyze the raw data. 3) My own interpretation is the least reliable and must ALWAYS be challenged and verified against the game state data before acting. If a tool's output contradicts my visual assessment, the tool is correct until proven otherwise by direct in-game evidence.
+- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My failure to do this in the lighthouse caused a major unproductive loop chasing phantom warps.
 - **EXECUTION DISCIPLINE:** A plan is useless if not executed. I must ensure my actions perfectly match the plan articulated in my thoughts. I must always call the correct, existing tools for their intended purpose.
 - **IMMEDIATE DATA & TOOL MAINTENANCE:** My absolute highest priority is maintaining a perfect, up-to-the-second internal state. Any task I decide on—adding, deleting, or fixing an agent, tool, marker, or notepad entry—MUST be performed in the CURRENT turn. This task is more important than any in-game action and must never be deferred. If a tool is flawed, a better one can be conceived, or it contradicts reality, fixing or creating it is the top priority, superseding all other objectives.
 - **VERIFY POSITION & SEPARATE INPUTS (CRITICAL UPDATE):** A critical hallucination occurred because I failed to verify my coordinates after a pathing tool execution. I MUST verify my current `(x, y)` in the Game State Information after EVERY movement or interruption (battle, menu, etc.) before planning my next action. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
@@ -66,6 +67,10 @@
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
+- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
+- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
+- **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
+- **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -260,28 +265,5 @@
 - Unstun Sailor (ID 1) in Olivine City when I return.
 - **Tool Limitations & Game State:** Some tools, like `stun_npc`, are dependent on the live game state and will fail if their target is not currently rendered on-screen. I must ensure an object is visible before attempting to use a tool that targets it. Deferred tasks like unstunning an NPC must wait until I return to their map and they are visible.
 
-# Lessons Learned
-- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
-
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
-
-# Lessons Learned
-- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
-- **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
-## Olivine Lighthouse Puzzle - 3F Dead End
-- **Agent Hypothesis #1 (Re-explore 3F ladder):** FAILED. The ladder at (5, 3) on 2F leads to an isolated, dead-end section of 3F. The item ball and trainer on this floor are in a separate, unreachable section. Confirmed by `find_path` tool returning 'No path found'.
-## Olivine Lighthouse Puzzle - 2F
-- **Agent Hypothesis #2 (Hidden Window Path):** There is a hidden path leading outside through one of the 'windows'.
-  - **Test Plan:** Systematically check each window on the southern wall by standing in front of it and attempting to walk south.
-    - **Step 1:** Check window at (4, 17). Status: PENDING.
-
-# Lessons Learned (Critical Updates)
-- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My failure to do this in the lighthouse caused a major unproductive loop chasing phantom warps.
-- **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
-
-# Tile & Object Mechanics (Update)
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
-
-# Lessons Learned (Critical Updates)
-- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My failure to do this in the lighthouse caused a major unproductive loop chasing phantom warps.
