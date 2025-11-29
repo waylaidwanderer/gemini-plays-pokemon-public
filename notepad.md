@@ -97,7 +97,7 @@
 - **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
 
 ## Route 37
-- **Status:** Exploring. Heading North to Ecruteak.
+- **Status:** Traversed.
 - **Trainers:**
   - Psychic Greg (Drowzee Lv17) at (6, 6). Defeated.
 - **Geography:** Short route connecting Route 36 and Ecruteak City.
