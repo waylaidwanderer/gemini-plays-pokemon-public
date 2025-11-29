@@ -2,17 +2,12 @@
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
 - **Recognizing Unproductive Loops:** If I find myself repeating the same failed actions or testing minor variations of a failed hypothesis, I must recognize this pattern quickly. Instead of persisting, I must pivot to a completely new hypothesis or backtrack to re-evaluate the puzzle from a different perspective. Persisting in a loop is a strategic failure.
 
-# Strategic Principles & Lessons Learned
-- **CONSULT YOUR KNOWLEDGE BASE (CRITICAL FAILURE NOTED):** I completely ignored my own documented solution for the Olivine Lighthouse puzzle, leading to a repetitive loop. I MUST consult my knowledge base *before* forming ANY new plan. My own verified findings are more reliable than my memory. Ignoring my documented solutions is a critical failure.
-- **TRUST THE TOOL'S OUTPUT:** My `find_path` tool correctly reported 'No path found' on OlivineLighthouse3F because the map is physically divided into two unreachable sections. My visual assessment was wrong. Lesson: If the pathfinder fails, trust its analysis and re-evaluate the map for alternative routes (like warps) instead of assuming the tool is broken.
-- **IMMEDIATE DEAD END MARKING:** I failed to mark the ladder at OlivineLighthouse2F (5, 3) as a dead end, which directly caused the loop. All dead ends MUST be marked with '🚫' immediately upon discovery.
-
 # Strategic Protocol
 - **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
-- **VERIFY POSITION & SEPARATE INPUTS (CRITICAL UPDATE):** A critical hallucination occurred because I failed to verify my coordinates after a pathing tool execution. I MUST verify my current `(x, y)` in the Game State Information after EVERY movement or interruption (battle, menu, etc.) before planning my next action. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
+- **VERIFY POSITION & SEPARATE INPUTS:** A critical hallucination occurred because I failed to verify my coordinates after a pathing tool execution. I MUST verify my current `(x, y)` in the Game State Information after EVERY movement or interruption (battle, menu, etc.) before planning my next action. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
 - **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task, I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 - **MAP MARKER & DATA HYGIENE:** Maintaining an accurate world model is a critical, non-negotiable priority. 1) **Consult First:** Before any interaction or navigation, I MUST consult my map markers to avoid repeating actions or making routing errors based on old information. 2) **Link Immediately:** When creating a marker for an object, it MUST be linked to its `object_id` immediately. 3) **Update Promptly:** Markers must be updated immediately after an event (e.g., marking a trainer as 'defeated' with ☠️, deleting markers for collected items with ✅). Old markers must be deleted when new ones are created for the same object. 4) **Handle Stale Data:** If an object with a linked marker moves off-screen, the marker becomes stale and must be deleted. A new marker should only be created if the object reappears.
@@ -70,10 +65,8 @@
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
-- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
-- **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
 - **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
-- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
+- **Challenging False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -86,6 +79,7 @@
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
 - **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown. A second anomaly occurred with Sailor Huey on Olivine Lighthouse 2F. After pressing 'A' to interact, the battle-starting dialogue appeared, but then the game immediately returned to the overworld without initiating the battle. This has now happened twice in a row, confirming it's a recurring issue. The cause is unknown.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
+- **Intermediate Warp Pathing:** My `find_path` tool was causing loops by treating intermediate warp tiles (like ladders) as normal floor tiles. Lesson: Pathfinding tools must treat all warps as impassable unless they are the explicit final destination of the path.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -162,7 +156,7 @@
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. Both pits on 2F lead to an isolated section of 1F, which in turn leads to a dead-end on 3F. The pits on 2F are the correct path forward. They lead to a previously inaccessible section of 1F.
+- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. The pits on 2F are the correct path forward. They lead to a previously inaccessible section of 1F.
 
 # Current Quest: Journey to Olivine City
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
@@ -176,7 +170,6 @@
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
 
 # TMs
-
 - **TM12 SWEET Scent**
 - **TM31 MUD-SLAP**
 - **TM39 SWIFT**
@@ -201,6 +194,7 @@
 - **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
 - **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
 - **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
+- **POKEFAN_F on OlivineLighthouse1F (16, 8):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -229,8 +223,12 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-## Olivine Lighthouse Puzzle - BLOCKED
-- **Status:** All internal paths have been exhausted and lead to loops or dead ends. The primary goal is currently blocked. Pivoting to explore Olivine Port Passage.
+# Olivine Lighthouse Puzzle
+- **Status:** Stuck on west side of 2F, blocked by Sailor at (9, 3). Escalated to `puzzle_solver` agent.
+- **Agent Hypothesis #1 (IN PROGRESS):** The sailor is a red herring; the real path is a hidden pit on this side of the floor. Test by systematically walking over every floor tile.
+- **Agent Hypothesis #2 (DISPROVEN):** The sailor is a line-of-sight trainer battle. Walking into his line of sight from (11, 3) to (10, 3) did not trigger a battle.
+- **Agent Hypothesis #3:** The solution was missed in the isolated 1F area.
+- **Agent Hypothesis #4:** There is a hidden item on the floor needed to progress.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -275,63 +273,4 @@
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 - **TRUST MAP DATA OVER MARKERS:** My own markers can be wrong due to hallucinations or outdated information. The raw map data (WALLs, FLOORs, etc.) is the source of truth. If a marker contradicts the map, the map is correct.
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
-- **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
-- **Teacher in Olivine Pokémon Center:** Mentioned a person in CIANWOOD CITY across the sea who brags about a rare POKéMON.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
-- **Hypothesis #1 (In Progress):** There is a hidden opening in an external wall. Test by walking the perimeter.
-- **Hypothesis #2:** Defeating all trainers on 2F is a trigger.
-- **Hypothesis #3 (DISPROVEN):** The 1F area reached via the pits contains a hidden exit. (Thoroughly explored, only exit is the ladder).
-- **Hypothesis #4:** A non-trainer NPC provides a new hint or item.
-
-# Strategic Protocol
-- **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
-- **PLAN-EXECUTE-VERIFY CYCLE:**
-  1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
-  2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
-
-# Olivine Lighthouse Puzzle v5 (Agent Hypotheses)
-- **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
-- **Agent Hypothesis #1 (DISPROVEN for West Side):** There is a hidden pit in the 'dead end' section of 3F. The western section (accessed via ladder at 2F (5, 3)) has been fully searched with no pit found.
-- **Agent Hypothesis #2:** Defeating all trainers on 2F is a trigger. (Likely already completed).
-- **Agent Hypothesis #3:** One of the pits on the eastern side of 2F leads to a different destination.
-- **Current Plan:** Systematically test Hypothesis #1.
-- **Agent Hypothesis #3 (Different Pits):** DISPROVEN. Tested pits at 2F (16, 13) and (17, 13). Both lead to the same isolated area on 1F.
-- **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly supports the agent's hypothesis that the path forward is non-obvious and likely involves a hidden pit in this seemingly dead-end area.
-
-# Olivine Lighthouse Puzzle v6 (Agent Hypotheses)
-- **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
-- **Agent Hypothesis #1:** There is an opening in an external wall that allows the player to walk outside onto a ledge, leading to a new path. Test by walking the perimeter of 2F.
-- **Agent Hypothesis #2:** Defeating all the trainers on 2F triggers an event. Test by re-checking all trainers and then re-checking the ladder and pits.
-- **Agent Hypothesis #3:** The 1F area reached via the pits contains a hidden exit or switch. Test by jumping down a pit and thoroughly exploring the 1F area before taking the ladder.
-- **Agent Hypothesis #4:** A non-trainer NPC provides a new hint or item. Test by re-talking to all non-battling NPCs on 2F.
-
-# Rematch Opportunities
-- Hiker Anthony on Route 33 called for a battle.
-- **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
-
-# New Lessons & Mechanics (Reflection Turn 26556)
-- **Intermediate Warp Pathing:** My `find_path` tool was causing loops by treating intermediate warp tiles (like ladders) as normal floor tiles. Lesson: Pathfinding tools must treat all warps as impassable unless they are the explicit final destination of the path.
-- **Challenging False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
-- **Tile Mechanics Update:**
-  - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-  - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
-
-# New Lessons & Mechanics (Reflection Turn 26607)
-- **Challenge False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
-- **Trust External Guidance:** External confirmation (like from the critique agent or even an NPC) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
-- **Tile Mechanics Update:**
-  - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-- **POKEFAN_F on OlivineLighthouse1F (16, 8):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
-
-# Olivine Lighthouse Puzzle v7 (Agent Hypotheses)
-- **Status:** Stuck on west side of 2F, blocked by Sailor at (9, 3).
-- **Agent Hypothesis #1 (IN PROGRESS):** The sailor is a red herring; the real path is a hidden pit on this side of the floor.
-- **Agent Hypothesis #2 (DISPROVEN):** The sailor is a line-of-sight trainer battle. Walking into his line of sight from (11, 3) to (10, 3) did not trigger a battle.
-- **Agent Hypothesis #3:** The solution was missed in the isolated 1F area.
-- **Agent Hypothesis #4:** There is a hidden item on the floor needed to progress.
-
-# New Lessons & Mechanics (Reflection Turn 26660)
-- **Challenge False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
