@@ -264,3 +264,4 @@
 - Puzzle: Push boulders into pits.
 - Cooltrainer F detected at (4, 11).
 - **Lesson:** Avoid using '🪨' for map markers; it causes tool errors. Use '🟤' for boulders instead. 'path (tool)' is not a valid button input; use 'tool'.
+- **Correction:** '🟤' also failed. Using '⚫' for boulders now.
