@@ -6,10 +6,10 @@
 - **Current Task:** Solve Right Side Boulder Puzzle.
 - **Puzzle Strategy:** 
   1. Navigate to (8, 13). Push Boulder (8, 14) South to (8, 17) (Sacrifice).
-  2. Navigate via (7, 16) to (6, 17). Push Boulder (6, 16) North up Column 6 to Row 7.
-  3. Push Boulder (6, 7) East to Pit (8, 7).
-  3. Push Boulder (6, 1) East to clear Row 1.
-  4. Push Boulder (8, 2) South to Pit (8, 3).
+  2. Search for second boulder in Column 4 or elsewhere (Boulder at 6,16 confirmed missing).
+  3. Once found, push second boulder to fill Pit (8, 7).
+  4. Push Boulder (6, 1) East to clear Row 1.
+  5. Push Boulder (8, 2) South to Pit (8, 3).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
