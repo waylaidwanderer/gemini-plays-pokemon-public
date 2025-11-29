@@ -254,3 +254,9 @@
 - **Agent Hypothesis #1:** There is a hidden opening in the exterior wall on 2F.
 - **Test:** Attempted to walk right from (17, 11) into the wall at (18, 11).
 - **Conclusion:** FAILED. The wall is solid.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (Different Pits):** Falling through the other pit on 2F leads to a different outcome.
+- **Hypothesis 2 (Hidden Path):** There is an undiscovered narrow path on 2F that bypasses the sailor.
+- **Hypothesis 3 (Trainer Trigger):** Defeating all trainers on 2F will cause the sailor to move.
+- **Hypothesis 4 (Hidden Switch/Item):** There is a hidden item or switch in the sealed-off section of 1F. (Testing this now)
