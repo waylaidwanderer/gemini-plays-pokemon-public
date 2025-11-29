@@ -265,3 +265,7 @@
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
+
+# Lessons Learned
+- **Methodical Exploration:** When arriving in a new, isolated area via a one-way path (like falling through a pit), I must systematically explore every single reachable tile before attempting to use any exits. Rushing to the most obvious exit led to a critical loop because I missed the *actual* correct path on the first floor.
+- **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
