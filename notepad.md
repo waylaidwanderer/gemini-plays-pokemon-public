@@ -232,4 +232,8 @@
 - **Boulder Mechanics:** Use `sequence_press` for pushing. Ensure Strength is active. Pushing requires moving INTO the boulder.
 - Boulder 2 (Moved): Pushed to (11, 8) to clear path.
 ## Blackthorn City
-- **Trade:** Lass in house at (29, 23) wants a female Dragonair (DRAGONAIR♀) for a Dodrio.
+- **Landmarks:**
+  - Sign at (34, 24): "Blackthorn City - A Quiet Mountain Retreat"
+  - Emy's House at (29, 23)
+- **Trade:** Lass in Emy's House wants a female Dragonair (DRAGONAIR♀) for a Dodrio.
+- **Tile Mechanics:** `FLOOR_UP_WALL` observed at (37, 20). Need to verify traversability.
