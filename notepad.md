@@ -318,3 +318,9 @@
 - **Tile Mechanics Update:**
   - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
   - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
+
+# New Lessons & Mechanics (Reflection Turn 26607)
+- **Challenge False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
+- **Trust External Guidance:** External confirmation (like from the critique agent or even an NPC) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
+- **Tile Mechanics Update:**
+  - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
