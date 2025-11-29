@@ -5,7 +5,7 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Explore Blackthorn City, find Gym and Center.
 - **Recent Progress:** Arrived in Blackthorn via Ice Path.
-- **Notes:** Investigating building at (29, 23). Need to find Move Deleter.
+- **Notes:** Need to find Move Deleter.
 
 ## Route 44
 - **Trainers:**
