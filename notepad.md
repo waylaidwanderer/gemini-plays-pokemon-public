@@ -307,3 +307,10 @@
 - **Current Plan:** Systematically test Hypothesis #1.
 - **Agent Hypothesis #3 (Different Pits):** DISPROVEN. Tested pits at 2F (16, 13) and (17, 13). Both lead to the same isolated area on 1F.
 - **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly supports the agent's hypothesis that the path forward is non-obvious and likely involves a hidden pit in this seemingly dead-end area.
+
+# Olivine Lighthouse Puzzle v6 (Agent Hypotheses)
+- **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
+- **Agent Hypothesis #1:** There is an opening in an external wall that allows the player to walk outside onto a ledge, leading to a new path. Test by walking the perimeter of 2F.
+- **Agent Hypothesis #2:** Defeating all the trainers on 2F triggers an event. Test by re-checking all trainers and then re-checking the ladder and pits.
+- **Agent Hypothesis #3:** The 1F area reached via the pits contains a hidden exit or switch. Test by jumping down a pit and thoroughly exploring the 1F area before taking the ladder.
+- **Agent Hypothesis #4:** A non-trainer NPC provides a new hint or item. Test by re-talking to all non-battling NPCs on 2F.
