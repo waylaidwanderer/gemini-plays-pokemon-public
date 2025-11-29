@@ -222,7 +222,8 @@
 - **Solution:** The image is KABUTO.
 
 ## Olivine Lighthouse Puzzle - In Progress
-- **Solution:** Progress through the lighthouse requires falling through specific pits on the upper floors (e.g., the pits on 2F at (16, 13) and (17, 13)). These pits lead to previously inaccessible sections of the floor below, which contain ladders that form the correct path upwards. The direct ladder paths are often dead ends designed to mislead.
+- **Problem:** I am stuck in a navigation loop. Falling through the pits on 2F leads to an isolated section of 1F. The only exit from this section is a ladder at (3, 11) which leads back to a section of 2F where the only exits are the same pits, creating a loop.
+- **Current Hypothesis:** There must be a hidden item or switch in the isolated section of 1F that breaks the loop. I am currently using the ITEMFINDER to search this area.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
