@@ -232,4 +232,4 @@
 - **Boulder Mechanics:** Use `sequence_press` for pushing. Ensure Strength is active. Pushing requires moving INTO the boulder.
 - Boulder 2 (Moved): Pushed to (11, 8) to clear path.
 ## Blackthorn City
-- **Trade:** Lass in house at (29, 23) wants a female Dragonair (DRAGONAIR♀). Offer unknown.
+- **Trade:** Lass in house at (29, 23) wants a female Dragonair (DRAGONAIR♀) for a Dodrio.
