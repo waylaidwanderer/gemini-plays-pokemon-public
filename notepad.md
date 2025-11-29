@@ -3,23 +3,13 @@
 ## 📍 Current Status: Ice Path
 - **Location:** Ice Path B2F Mahogany Side (3_63).
 - **Goal:** Reach Blackthorn City.
-- **Current Task:** Reset Map (Ladder at 3,15) to retry Boulder 3.
-- **Hypothesis:** Pushing remaining boulders into pits creates path on B2F.
-- **Puzzle Plan (Northwest) - RETRY:**
-  1. Push Boulder 1 (Gate) Down to open path.
-  2. Push Boulder 3 Right to (9, 9).
-  3. Push Down to (9, 11).
-  4. Loop to (10, 11).
-  5. Push Left to (4, 11).
-  6. Loop to (4, 10).
-  7. **CRITICAL:** Push Down ONCE to (4, 12) [Done].
-  8. Move to (3, 12) and push Right into Pit (5, 12) [Done].
-  9. **Current:** Solve Boulder 2.
-     a. Pushed to (5, 6) [Done].
-     b. Positioned at (6, 6) [Done].
-     c. Push Left to (4, 6) [Next].
-     d. Reposition to (4, 5).
-     e. Push Down into Pit (4, 7).
+- **Current Task:** Solve final Boulder 2 puzzle.
+- **Hypothesis:** Pushing all boulders into pits opens B2F path.
+- **Puzzle Plan:**
+  1. **Boulder 2:**
+     a. Push Left to (4, 6) [Next].
+     b. Reposition to (4, 5).
+     c. Push Down into Pit (4, 7).
 
 ## Route 44
 - **Trainers:**
