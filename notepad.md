@@ -261,7 +261,7 @@
 - **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
 - **Hypothesis 3 (Hidden Item/Switch):**
   - Test on (16, 11): FAILED. No hidden item found.
-  - Test on (17, 11): Untested.
+  - Test on (17, 11): FAILED. No hidden item found.
   - Test on adjacent tiles: Untested.
 - **Hypothesis 4 (Tile Sequence Trigger):** Untested.
 
@@ -274,6 +274,6 @@
 - **Hypothesis 2 (Different Pit on Main Floor):** FAILED. There is no other accessible pit on the main part of 2F.
 - **Hypothesis 3 (Hidden Item/Switch):**
   - Test on (16, 11): FAILED. No hidden item found.
-  - Test on (17, 11): Untested.
+  - Test on (17, 11): FAILED. No hidden item found.
   - Test on adjacent tiles: Untested.
 - **Hypothesis 4 (Tile Sequence Trigger):** Untested.
