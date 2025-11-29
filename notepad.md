@@ -283,3 +283,6 @@
 
 # Tile & Object Mechanics (Update)
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+
+# Lessons Learned (Critical Updates)
+- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My failure to do this in the lighthouse caused a major unproductive loop chasing phantom warps.
