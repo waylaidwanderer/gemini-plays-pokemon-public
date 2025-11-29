@@ -260,5 +260,4 @@
 - **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis #1 (Agent):** An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from.
-- **Test Plan:** Walk to the easternmost part of the sealed walkway (around x=17) and attempt to walk right into the outer wall.
+- **Hypothesis #1 (Agent):** FAILED. An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from. Test: Walked into the wall at (18, 7), movement was blocked.
