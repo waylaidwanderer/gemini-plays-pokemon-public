@@ -284,3 +284,4 @@
 
 # Olivine Lighthouse Puzzle - Investigation (Update)
 - Agent Hypothesis (Re-entry): FAILED. Exited and re-entered the lighthouse entrance. The room layout and state did not change.
+- Sailor at (26, 27) in Olivine City only provides flavor text about the lighthouse beacon. Not a puzzle trigger.
