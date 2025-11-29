@@ -279,7 +279,7 @@
 - **Current Plan:**
   1. Do NOT push Boulder 7 East yet.
   2. Navigate to Row 5 via Gap (5,4).
-  3. Test walls at (6,4), (7,4), (8,4) for a secret passage to reach (7,1).
+  3. Use `run_code` to check XML tile types for (6,4)-(9,4) and (6,0)-(9,0) to find fake walls.
   4. If passage found: Go to (7,1), push Boulder 7 West to (5,1), then South through Gap (5,4) to Pit (8,3).
   5. Boulder 8: Use loop (South to Row 16 -> West -> North) to fill Pit (8,7).
 - **Tile Mechanics:**
