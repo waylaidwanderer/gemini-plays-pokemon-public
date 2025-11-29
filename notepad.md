@@ -235,3 +235,7 @@
 ### Lessons Learned
 - **Tool Safety:** ALWAYS set 'autopress_buttons: true' for movement tools. Verify movement occurred before assuming success.
 - Dropped from B1F (4, 7) -> Landed at B2F (4, 6). (4, 6) is solid ice. Sliding Down to test path.
+### Ice Path Puzzle Update
+- B2F Perimeter Loop: Confirmed that drops from (11,2), (5,12), and (4,7) all lead to the outer ice ring with no access to the center.
+- Center Island: Contains Item at (8,9) and Ladder at (9,11). Requires sliding stop point.
+- Hypothesis: Must push a boulder on B1F into a pit to create an obstacle on B2F, or find a specific drop at B1F(10,9).
