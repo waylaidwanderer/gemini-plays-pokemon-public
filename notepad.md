@@ -282,11 +282,11 @@
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
 - Floor tiles at (7, 6) and (7, 7) are drop zones, not warps.
 ### Blackthorn Gym Puzzle Solution
-- **Status:** Cooltrainer Cody (4, 1) is a SOLID OBSTACLE. Left Side puzzle currently blocked.
-- **Status:** Row 0 confirmed WALLs. Top boulders cannot be pushed South from the top.
-- **New Plan for Pit (8, 7):** Use Boulder (8, 14). Route: Push N to (8, 12) -> W to (5, 12) -> N to (5, 7) -> E to (8, 7).
-- **Plan for Pit (8, 3):** Unsolved. Boulder (6, 1) appears trapped. Need to verify if wall at (6, 2) is real.
-- **Plan for Pit (2, 5):** Unsolved. Blocked by Cody.
+- **Mechanic Update:** Simply entering 1F did NOT reset the 2F boulder positions. Must exit the Gym entirely to force a reset.
+- **Status:** Resetting puzzle by exiting Gym.
+- **Plan for Pit (8, 7):** Confirmed Path: Use Boulder (8, 14). Push N to (8, 12) -> W to (5, 12) -> N to (5, 7) -> E to (8, 7).
+- **Plan for Pit (8, 3):** After filling Pit (8, 7), use Boulder (6, 1). Route TBD based on wall checks.
+- **Plan for Pit (2, 5):** Use Boulder (3, 3). Requires bypassing Cody or finding alternate path.
 ### Reflection (Turn 13720)
 - Reviewed last 50 turns. Corrected tool usage errors.
 - Map markers cleaned up.
