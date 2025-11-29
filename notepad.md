@@ -261,3 +261,6 @@
 
 # Reminders & To-Do (Reflection Update)
 - **URGENT:** Unstun Pokefan F (ID 2) on OlivineLighthouse1F before leaving the lighthouse for good.
+
+# Strategic Principles & Lessons Learned (Reflection Update)
+- **CONSULT YOUR KNOWLEDGE BASE (CRITICAL FAILURE NOTED):** I completely ignored my own documented solution for the Olivine Lighthouse puzzle, leading to a repetitive loop. I MUST consult my knowledge base *before* forming ANY new plan. My own verified findings are more reliable than my memory. Ignoring my documented solutions is a critical failure.
