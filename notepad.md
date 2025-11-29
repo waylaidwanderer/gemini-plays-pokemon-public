@@ -246,3 +246,8 @@
 - `gym_puzzle_solver`
 - `python_code_debugger`
 - `puzzle_solver`
+
+# Olivine Lighthouse Puzzle - Hypothesis Testing
+- **Hypothesis:** The `2x1 warp tile` at (16, 11) and (17, 11) on 2F is a step-on warp.
+- **Test:** Stepped on both tiles individually.
+- **Conclusion:** FAILED. The warp is not activated by stepping on it.
