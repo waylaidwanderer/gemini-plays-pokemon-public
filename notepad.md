@@ -311,3 +311,10 @@
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
+
+# New Lessons & Mechanics (Reflection Turn 26556)
+- **Intermediate Warp Pathing:** My `find_path` tool was causing loops by treating intermediate warp tiles (like ladders) as normal floor tiles. Lesson: Pathfinding tools must treat all warps as impassable unless they are the explicit final destination of the path.
+- **Challenging False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
+- **Tile Mechanics Update:**
+  - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+  - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
