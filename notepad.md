@@ -272,3 +272,4 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
+- **TRUST MAP DATA OVER MARKERS:** My own markers can be wrong due to hallucinations or outdated information. The raw map data (WALLs, FLOORs, etc.) is the source of truth. If a marker contradicts the map, the map is correct.
