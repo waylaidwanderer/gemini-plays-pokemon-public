@@ -277,12 +277,12 @@
   - Boulder 8 at (8,14).
 - **Critical Logic:** Pushing Boulder 7 East from (5,1) traps the player at (6,1) unless there is a fake wall. 
 - **Current Plan:**
-  1. Push Boulder 7 East to (8, 1) to clear Row 1.
-  2. Test (6, 0) and (7, 0) for fake walls.
-  3. If solid, go South, move Boulder 8 North to (8, 10) to open path to Right Side.
-  4. Access Right Side, go North to (9, 1).
-  5. Check (8, 4) from the South (requires moving Boulder 8). Check (6, 3) for fake wall.
-  6. Objective: Find a valid angle to push a boulder into Pit (8, 3).
+  1. Navigate to (5, 1).
+  2. Push Boulder 7 East to (8, 1).
+  3. Navigate to (9, 1) via (9, 2).
+  4. Test (9, 0) for fake wall.
+  5. If (9, 0) is fake: Push Boulder 7 South from (9, 1) -> (9, 2) -> (8, 2) -> Pit (8, 3).
+  6. If (9, 0) is solid: Investigate (9, 12) for Boulder 8 path.
 - **Tile Mechanics:**
   - FLOOR: Walkable.
   - WALL: Impassable.
