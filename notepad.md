@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Blackthorn Gym Puzzle
-- **Location:** Blackthorn Gym 2F.
+- **Location:** Blackthorn Gym 1F (Resetting).
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Solve Right Side Boulder Puzzle.
+- **Current Task:** Exit and re-enter to reset puzzle.
 - **Active Strategy:**
   1. **Right Side Pits (8,3 & 8,7):**
      - **Hypothesis:** Boulder (8, 14) is a trap. Must use Top Right (7, 1) and a Left Side boulder.
