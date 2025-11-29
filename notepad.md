@@ -269,31 +269,22 @@
 ## Blackthorn Gym
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
-## Blackthorn Gym 2F
-- Arrived at 2F via ladder.
-- Puzzle: Push boulders into pits.
-- **Trainers:**
-  - Cooltrainer Fran (Seadra Lv37) at (4, 11). Defeated.
-- **Objects:**
-  - Boulders at (2, 3), (3, 3), (8, 14).
-  - Pits at (2, 5), (8, 7).
-- **Tool Note:** Use '⚫' for boulders (other emojis failed).
-- **Strength Activation:** Requires interacting with a boulder and selecting 'YES' to activate the mode. Merely walking into it does not work.
-- **Puzzle Failure (Gym 2F):** Pushing Boulder 8 North to (8, 10) allows entry to Column 9 but traps the boulder. Verified Puzzle Advisor's warning. Must reset map. 
-- **Exploration:** Exploring Column 9 to find alternative solutions.
-- **Correction:** Ladder at 2F(7,9) led DOWN to 1F(7,9). Now exploring isolated section of 1F.
-- Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
-- Floor tiles at (7, 6) and (7, 7) are drop zones, not warps.
-### Blackthorn Gym Puzzle Solution
-- **Mechanic Update:** Simply entering 1F did NOT reset the 2F boulder positions. Must exit the Gym entirely to force a reset.
-- **Status:** Resetting puzzle by exiting Gym.
-- **Plan for Pit (8, 7):** Push Boulder (7, 1) East to (8, 1) to open top path. Loop via Column 9 to (8, 10). Push Boulder (8, 11) South to (8, 16), then maneuver to Pit.
-- **Plan for Pit (8, 3):** After filling Pit (8, 7), use Boulder (6, 1). Route TBD based on wall checks.
-- **Plan for Pit (2, 5):** Use Boulder (3, 3). Requires bypassing Cody or finding alternate path.
-### Reflection (Turn 13720)
-- Reviewed last 50 turns. Corrected tool usage errors.
-- Map markers cleaned up.
-- Strategy verified: 'Sacrifice Boulder 8' is the correct solution.
-- Proceeding with Strength activation.
-- **Failed Hypothesis:** Pushing Boulder 7 to (6, 1) traps it if the player is on the East side. Must ensure player can reach the West side via the gap at (5, 4) BEFORE pushing.
-- **Strategy Correction:** Use the gap at (5, 4) to navigate between the top and bottom sections. This allows flanking boulders.
+## Blackthorn Gym 2F Puzzle Strategy
+- **Objective:** Fill pits at (8,3) and (8,7).
+- **Key Discovery:** Gap at (5,4) allows passage between top and bottom sections.
+- **Boulder Locations (Reset):** 
+  - Boulder 7 at (6,1).
+  - Boulder 8 at (8,14).
+- **Critical Logic:** Pushing Boulder 7 East from (5,1) traps the player at (6,1) unless there is a fake wall. 
+- **Current Plan:**
+  1. Do NOT push Boulder 7 East yet.
+  2. Navigate to Row 5 via Gap (5,4).
+  3. Test walls at (6,4), (7,4), (8,4) for a secret passage to reach (7,1).
+  4. If passage found: Go to (7,1), push Boulder 7 West to (5,1), then South through Gap (5,4) to Pit (8,3).
+  5. Boulder 8: Use loop (South to Row 16 -> West -> North) to fill Pit (8,7).
+- **Tile Mechanics:**
+  - FLOOR: Walkable.
+  - WALL: Impassable.
+  - PIT: Drop to 1F.
+  - LADDER: Change floor.
+  - GAP: (5,4) is FLOOR.
