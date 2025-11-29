@@ -3,16 +3,17 @@
 ## 📍 Current Status: Blackthorn Gym Puzzle
 - **Location:** Blackthorn Gym 2F.
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Loop Boulder 8.
+- **Current Task:** Solve Boulder 8 Puzzle (Right Side).
 - **Active Strategy:**
-  1. **Push North:** Push Boulder 8 from (8, 14) North to (8, 11).
-  2. **The Loop:** Navigate West to Col 6, North to Row 1, East to Col 9, South to (9, 11).
-  3. **The Flank:** Push Boulder 8 West from (9, 11) to (6, 11).
-  4. **The Finish:** Push Boulder 8 North to Row 7, then East into Pit (8, 7).
+  1. **Preparation:** Ensure Strength is active.
+  2. **Positioning:** Push Boulder 8 North from (8, 14) to (8, 11).
+  3. **The Loop:** Navigate West -> North -> East -> South to reach (9, 11).
+  4. **The Critical Push:** Push Boulder 8 West from (8, 11) into (7, 11). Hypothesis: (7, 11) is a fake wall.
+  5. **The Finish:** Push Boulder 8 into Column 6, North to Row 7, then East into Pit (8, 7).
 - **Confirmed Geometry:**
-  - (6, 11) is FLOOR.
-  - (9, 16) is WALL (Bottom-Right loop blocked).
-  - (8, 16) is FLOOR.
+  - (6, 11) is VERIFIED FLOOR.
+  - (9, 12), (9, 13), (9, 16) are VERIFIED WALLS.
+  - (8, 0) is VERIFIED WALL (Boulder 7 dead end).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Visual Map Deception: Walls may be floors, but don't assume the whole column is open. Always verify with collision tests.
 
