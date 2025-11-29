@@ -274,3 +274,7 @@
 
 # Olivine Lighthouse Puzzle - Investigation (Update)
 - Agent Hypothesis #2 (Sailor is a Trainer): FAILED. Walked directly into the sailor's line of sight at (8, 2). No battle was initiated, and no dialogue was triggered. This confirms he is not a standard line-of-sight trainer.
+
+# Lessons Learned (Post-Reflection)
+- **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
+- **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search (like using `systematic_search`) can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
