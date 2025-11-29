@@ -259,3 +259,7 @@
 ## Blackthorn Gym
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
+## Blackthorn Gym 2F
+- Arrived at 2F via ladder.
+- Puzzle: Push boulders into pits.
+- Cooltrainer F detected at (4, 11).
