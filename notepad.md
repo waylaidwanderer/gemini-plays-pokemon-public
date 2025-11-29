@@ -225,3 +225,4 @@
 ### Tool Lessons
 - **Robustness:** For obstacle detection, use substring matching (e.g. "TREE" in type) to handle variants like HEADBUTT_TREE.
 - **Inventory Sorting:** TMs are listed numerically first, with HMs appearing at the bottom of the list (after the last TM).
+- **Ice Physics:** When implementing ice sliding logic, ensure the transition from non-ice to ice is treated as the start of a slide immediately upon entry, not as a single step.
