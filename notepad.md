@@ -260,3 +260,4 @@
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis #1 (Agent):** FAILED. An opening in the outer wall of the sealed walkway on 2F is a ledge that can be jumped from. Test: Walked into the wall at (18, 7), movement was blocked.
+- **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
