@@ -283,14 +283,15 @@
 - Cooltrainer Mike (Dragonair Lv37) at (6, 7). Defeated.
 - Investigation: Floor tiles at (7, 6) and (7, 7) look like warps but are not in the Game State Warp list. Suspected traps or scripted teleporters.
 - Investigation: Floor tiles at (7, 6) and (7, 7) are confirmed inactive/fake warps. Standing on them triggers nothing.
-### Blackthorn Gym Puzzle Solution
-- **Left Side:** Status: STUCK. Boulder (3,3) appears trapped in Column 3 because Trainer Cody (4,1) blocks the only exit to the West. 
-- **Right Side Strategy (SOLVED):**
-  1. **Flank Maneuver:** Navigate to (8, 15) by circling through the middle of the map (Col 5 -> Col 6 -> Row 16 -> Col 8).
-  2. **Push North:** From (8, 15), push Boulder (8, 14) North all the way into Pit (8, 7).
-  3. **Second Boulder:** Retrieve Boulder (6, 1), push East to (8, 1), then South into Pit (8, 3).
-  4. **Outcome:** Both pits filled. Boulders drop to 1F Isolated Room.
-- **Next Step:** Execute Right Side strategy, then descend Ladder (7, 9) to investigate 1F Isolated Room with the new boulders.
+### Blackthorn Gym Puzzle Solution (Verified)
+- **Concept:** The boulder at (8, 14) is a 'Sacrifice' to open the path. It cannot reach Pit (8, 7).
+- **Right Side:**
+  1. Reset Map to restore boulders.
+  2. Push Boulder (8, 14) North to (8, 10) to open the intersection at (8, 11).
+  3. Go East to (9, 11), then North to (9, 1).
+  4. Push Boulder (6, 1) East to (8, 1), then South to Pit (8, 3).
+- **Left Side:**
+  - Still investigating. Need to bypass Cody at (4, 1) to move Boulder (3, 3) West.
 ### Reflection (Turn 13720)
 - Reviewed last 50 turns. Corrected tool usage errors.
 - Map markers cleaned up.
