@@ -271,3 +271,7 @@
 - **Challenge Root Assumptions:** When stuck in a repetitive loop, it's a sign that my fundamental understanding of the puzzle is wrong. I must stop, identify my root assumption (e.g., "the way forward is through this specific door"), and actively try to disprove it by exploring completely different options, even if they seem counterintuitive.
 ## Olivine Lighthouse Puzzle - 3F Dead End
 - **Agent Hypothesis #1 (Re-explore 3F ladder):** FAILED. The ladder at (5, 3) on 2F leads to an isolated, dead-end section of 3F. The item ball and trainer on this floor are in a separate, unreachable section. Confirmed by `find_path` tool returning 'No path found'.
+## Olivine Lighthouse Puzzle - 2F
+- **Agent Hypothesis #2 (Hidden Window Path):** There is a hidden path leading outside through one of the 'windows'.
+  - **Test Plan:** Systematically check each window on the southern wall by standing in front of it and attempting to walk south.
+    - **Step 1:** Check window at (4, 17). Status: PENDING.
