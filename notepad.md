@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Ice Path
-- **Location:** Ice Path 1F (30, 7) - North-East Ice Puzzle.
+- **Location:** Ice Path B1F (3_62).
 - **Goal:** Traverse Ice Path to reach Blackthorn City.
-- **Status:** Retrieved HM07 (Waterfall). Solving North-East Ice Puzzle.
-- **Next Step:** Take Ladder at (37, 5) to B1F. Item Ball at (35, 9) likely requires falling from above.
+- **Status:** Exploring B1F. Found Boulder at (7, 8).
+- **Next Step:** Explore North-East area to find path forward.
 - **Lesson:** Ice physics require checking if the *landing* tile is ICE to trigger a slide.
 
 ## Route 44
