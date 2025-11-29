@@ -1210,5 +1210,44 @@
         "action_counter": 19459
       }
     ]
+  },
+  "sweep_and_search": {
+    "description": "Automates a systematic 'snake' pattern search of a rectangular area for hidden items, starting from the player's current position (assumed to be a corner of the rectangle). It moves to each tile in the specified range and presses 'A'. This version is map-aware and will not move onto warp tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\nwarp_tiles = set()\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.get('is-warp') == 'true':\n            warp_tiles.add((x, y))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nx_min, x_max = min(start_x, end_x), max(start_x, end_x)\ny_min, y_max = min(start_y, end_y), max(start_y, end_y)\n\nbuttons = []\ncurrent_x, current_y = start_x, start_y\ndirection = 1\n\nif (current_x, current_y) not in warp_tiles:\n    buttons.extend([\"A\", \"sleep 500\"])\n\nfor y in range(y_min, y_max + 1):\n    if y > current_y:\n        # This handles moving down between rows\n        next_x = current_x\n        next_y = y\n        if (next_x, next_y) not in warp_tiles:\n            buttons.extend([\"Down\", \"sleep 250\"])\n            buttons.extend([\"A\", \"sleep 500\"])\n            current_y = next_y\n        else:\n            break\n\n    x_range = range(x_min, x_max + 1) if direction == 1 else range(x_max, x_min - 1, -1)\n    \n    for x in x_range:\n        if x == current_x:\n            continue\n\n        next_x = current_x + direction\n        next_y = current_y\n        \n        if (next_x, next_y) not in warp_tiles:\n            move = \"Right\" if direction == 1 else \"Left\"\n            buttons.extend([move, \"sleep 250\"])\n            buttons.extend([\"A\", \"sleep 500\"])\n            current_x = next_x\n        else:\n            break\n            \ndirection *= -1\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create sweep_and_search tool to automate hidden item searches. This tool generates a sequence of button presses to perform a systematic 'snake' pattern search of a rectangular area, pressing 'A' on each tile. This automates a tedious and error-prone manual task, improving exploration efficiency.",
+        "timestamp": "2025-11-29T20:40:35.465Z",
+        "action_counter": 26712
+      },
+      {
+        "commit_message": "fix: Add warp-awareness to prevent pathing loops. The tool was catastrophically failing by blindly walking onto warp tiles, interrupting the search. This commit adds logic to parse the `map_xml_string`, identify all warp tiles, and explicitly check if a target tile is a warp before moving. This resolves the critical unproductive loop.",
+        "timestamp": "2025-11-29T20:59:23.209Z",
+        "action_counter": 26731
+      }
+    ]
   }
 }
