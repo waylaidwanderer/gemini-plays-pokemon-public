@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Ice Path
-- **Location:** Ice Path 1F (20, 23).
+- **Location:** Ice Path 1F (30, 15).
 - **Goal:** Traverse Ice Path to reach Blackthorn City.
-- **Status:** Cleared first ice sliding section.
-- **Next Step:** Explore the path to the East (Row 23).
+- **Status:** Exploring the northern corridor.
+- **Next Step:** Check Row 10 for a path to the East side.
 - **Lesson:** Always verify successful transition to special states (like Surfing) via Game State before queuing movement commands.
 
 ## Route 44
