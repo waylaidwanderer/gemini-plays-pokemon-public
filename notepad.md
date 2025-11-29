@@ -1,14 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 44
-- **Location:** Route 44 (19, 12).
-- **Goal:** Defeat Fisher Edgar, then traverse Route 44 East to Ice Path.
-- **Status:** In battle with Fisher Edgar. Picked up Max Repel.
-- **Next Step:** Finish battle, continue East.
+- **Location:** Route 44 (36, 15).
+- **Goal:** Traverse Route 44 East to Ice Path.
+- **Status:** Exploring East. Defeated Fisher Edgar, Cooltrainer Cybil, and Cooltrainer Allen.
+- **Next Step:** Continue East.
 
 ## Route 44
 - **Trainers:**
   - Psychic Phil (Natu Lv24, Kadabra Lv26) at (8, 9). Defeated.
+  - Fisher Edgar at (19, 13). Defeated.
+  - Cooltrainer Cybil (Butterfree Lv25, Bellossom) at (27, 14). Defeated.
+  - Cooltrainer Allen (Charmeleon Lv27) at (37, 15). Defeated.
 - **Items:**
   - Max Repel (14, 9). Picked up.
 
