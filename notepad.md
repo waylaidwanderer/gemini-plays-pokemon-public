@@ -297,9 +297,11 @@
 - **Current Plan:** Systematically test Hypothesis #1.
 - **Loop Avoidance:** When a path is confirmed to be a dead end (e.g., the western side of OlivineLighthouse3F), I must not return to it. Persisting in a loop is a critical failure. The correct response is to backtrack and systematically re-evaluate all other unexplored paths from the last major junction.
 
-# Strategic Principles & Lessons Learned
-- **HIERARCHY OF TRUTH (CRITICAL UPDATE):** Authoritative Game State lists (like the `Warps` list) are the absolute highest source of truth. They must be trusted over system warnings or the Mental Map XML if a conflict arises. My own memory is the least reliable source.
-- **CONSULT YOUR KNOWLEDGE BASE & EXPLORE METHODICALLY (CRITICAL FAILURE NOTED):** I have repeatedly fallen into loops by ignoring my own map markers (e.g., the 'dead end' ladder) and by not thoroughly exploring new areas reached via one-way paths (e.g., the 1F pit landing). These are my two biggest strategic failures. To prevent this, I must adhere to a strict protocol: 1) Before forming any plan, I MUST consult my map markers and notepad. 2) When arriving in a new, isolated area, I MUST systematically explore every single reachable tile before using any exits.
+# Strategic Protocol
+- **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
+- **PLAN-EXECUTE-VERIFY CYCLE:**
+  1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
+  2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
 
 # Olivine Lighthouse Puzzle v5 (Agent Hypotheses)
 - **Status:** Stuck on 2F. Escalated to `puzzle_solver` agent.
