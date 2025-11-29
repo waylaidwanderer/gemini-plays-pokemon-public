@@ -8,7 +8,8 @@
   1. Navigate to (8, 13). Push Boulder (8, 14) South to (8, 17) (Sacrifice).
   2. Navigate via (7, 16) to (6, 17). Push Boulder (6, 16) North up Column 6 to Row 7.
   3. Push Boulder (6, 7) East to Pit (8, 7).
-  3. Use Boulder (8, 2) or (6, 1) for Pit (8, 3).
+  3. Push Boulder (6, 1) East to clear Row 1.
+  4. Push Boulder (8, 2) South to Pit (8, 3).
 - **Lesson:** Strength deactivates on map change. Must re-interact.
 - **Lesson:** Always use 'autopress_buttons: true' for sequence_press.
 
