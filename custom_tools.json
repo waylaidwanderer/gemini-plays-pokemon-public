@@ -1240,55 +1240,5 @@
         "action_counter": 19459
       }
     ]
-  },
-  "plan_systematic_search_path": {
-    "description": "Calculates an efficient, continuous, and walkable path to visit every coordinate in a given list, starting from a specified point. Uses a BFS to path between nearest-neighbor points.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "tiles_to_visit": {
-          "type": "string"
-        },
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "tiles_to_visit",
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\n    \"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \n    \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\"\n}\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord = (x, y)\n        tile_type_raw = tile_elem.get('type')\n        tile_type = tile_type_raw.upper() if tile_type_raw is not None else None\n        has_object = tile_elem.find('.//Object') is not None\n        is_warp = tile_elem.get('is-warp') == 'true'\n        has_obstacle_marker = False\n        for marker_elem in tile_elem.findall('.//Marker'):\n            if marker_elem.get('object_id') is not None:\n                has_obstacle_marker = True\n                break\n        impassable_by_type = (\n            tile_type is None or \n            tile_type in IMPASSABLE_TILES or \n            tile_type == 'UNSEEN'\n        )\n        is_impassable = impassable_by_type or has_object or has_obstacle_marker\n        grid[coord] = {'impassable': is_impassable, 'type': tile_type, 'is_warp': is_warp}\n\ndef bfs_to_nearest(start, targets):\n    if start not in grid or grid[start]['impassable']:\n        return None\n    queue = deque([start])\n    visited = {start}\n    came_from = {start: None}\n    while queue:\n        current = queue.popleft()\n        if current in targets:\n            path = []\n            step = current\n            while step is not None:\n                path.append(step)\n                step = came_from.get(step)\n            path.reverse()\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n            if neighbor not in grid or neighbor in visited:\n                continue\n            if grid[neighbor]['is_warp']:\n                continue\n            if grid[neighbor]['impassable']:\n                 continue\n            neighbor_type = grid[neighbor]['type']\n            if neighbor_type == 'LEDGE_HOP_DOWN' and dy == -1:\n                continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and dx == 1:\n                continue\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and dx == -1:\n                continue\n            visited.add(neighbor)\n            came_from[neighbor] = current\n            queue.append(neighbor)\n    return None\n\ntiles_str = input_data['tiles_to_visit']\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\ntiles_list = json.loads(tiles_str)\n\n# Filter the list of targets to only include valid, passable tiles.\ntiles_to_visit = set()\nfor d in tiles_list:\n    coord = (d['x'], d['y'])\n    if coord in grid and not grid[coord]['impassable']:\n        tiles_to_visit.add(coord)\n\nstart_node = (start_x, start_y)\n\nfull_path = []\ncurrent_node = start_node\n\n# The start node itself might not be a target, but it needs to be on a passable tile.\nif start_node in grid and grid[start_node]['impassable']:\n    print(json.dumps({'error': 'Start node is on an impassable tile.'}))\n    exit()\n\nif start_node not in tiles_to_visit:\n    # If there are no valid targets, we can't create a path.\n    if not tiles_to_visit:\n        print(json.dumps([{'x': start_node[0], 'y': start_node[1]}] if start_node in grid and not grid[start_node]['impassable'] else []))\n        exit()\n    path_to_start = bfs_to_nearest(start_node, tiles_to_visit)\n    if not path_to_start:\n        print(json.dumps({'error': 'Start node is not on the visit list and no path to the visit list could be found.'}))\n        exit()\n    full_path.extend(path_to_start)\n    current_node = path_to_start[-1]\nelse:\n    full_path.append(start_node)\n\nfor node in full_path:\n    tiles_to_visit.discard(node)\n\nwhile tiles_to_visit:\n    path_to_next = bfs_to_nearest(current_node, tiles_to_visit)\n    if not path_to_next:\n        break \n    full_path.extend(path_to_next[1:])\n    current_node = path_to_next[-1]\n    for node in path_to_next:\n        tiles_to_visit.discard(node)\n\noutput_path = [{'x': p[0], 'y': p[1]} for p in full_path]\nprint(json.dumps(output_path))",
-    "history": [
-      {
-        "commit_message": "feat: Create plan_systematic_search_path tool. This tool automates the creation of an efficient path to visit a list of coordinates, which is essential for systematic area searches. This will prevent missed tiles and make exploration more reliable.",
-        "timestamp": "2025-11-30T12:32:15.197Z",
-        "action_counter": 28506
-      },
-      {
-        "commit_message": "fix: Overhaul path generation with integrated BFS. The previous version used a naive nearest-neighbor algorithm that did not account for obstacles, resulting in unwalkable paths that tried to move through walls. This commit replaces that logic with a new system that uses a BFS to find a valid, walkable path to the next closest point in the search set, ensuring the generated route is always valid. This resolves the catastrophic pathing failure.",
-        "timestamp": "2025-11-30T12:34:37.602Z",
-        "action_counter": 28509
-      },
-      {
-        "commit_message": "fix: Replace entire script with a robust version based on the working `find_path` tool. The previous version repeatedly failed by generating unwalkable paths through walls. This complete overhaul incorporates a proven BFS implementation for pathing between search points, includes proper ledge and warp handling for future use, and adds resiliency by allowing the search to resume correctly after an interruption. This resolves the catastrophic pathing failures.",
-        "timestamp": "2025-11-30T12:47:55.532Z",
-        "action_counter": 28526
-      },
-      {
-        "commit_message": "fix: Correct JSON parsing for target tiles. The tool was catastrophically failing because it incorrectly converted the input list of dictionaries into a set of tuples, leading to an invalid target set for the BFS. This commit changes `tuple(coord)` to `(d['x'], d['y'])` to ensure the coordinate data is parsed correctly, resolving the pathfinding failure.",
-        "timestamp": "2025-11-30T13:10:51.259Z",
-        "action_counter": 28559
-      },
-      {
-        "commit_message": "fix: Sanitize input to prevent pathing to impassable tiles. The `python_code_debugger` agent identified that the tool was catastrophically failing by attempting to generate paths to impassable tiles (like WALLs) included in its input list. This commit adds a critical input sanitization step that filters the target coordinates, ensuring the BFS algorithm only ever receives a list of valid, traversable tiles. This resolves the root cause of the invalid path generation.",
-        "timestamp": "2025-11-30T15:35:53.807Z",
-        "action_counter": 28822
-      }
-    ]
   }
 }
