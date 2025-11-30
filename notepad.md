@@ -248,10 +248,6 @@
 ## Built-in Tools
 - `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
 
-## Custom Tools
-- `find_path`
-- **`find_path` Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
-
 ## Custom Agents
 - `python_code_debugger`
 - `puzzle_solver`
