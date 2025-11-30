@@ -161,7 +161,7 @@
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. My hypothesis is that the pits on 2F are the correct path forward, as they lead to a previously inaccessible section of 1F.
+- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
 
 # Current Quest: Journey to Olivine City
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
@@ -230,12 +230,8 @@
 
 # Olivine Lighthouse Puzzle - Consolidated Findings
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Confirmed Dead Ends & Loops:**
-  - The path up from the isolated 1F room needs to be personally verified. My previous conclusion that it was a dead end was based on unverified NPC dialogue.
-  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. This path needs to be re-investigated.
-- **Current Status:**
-  - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
-  - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
+- **Key Insight:** Progress is not linear. The correct path involved falling through a PIT on 2F to access a new area on 1F, which then led to a new ladder back up to 2F.
+- **Current Status:** I am on 3F. The western side is a confirmed dead end. The way forward must be through the eastern side of the floor, which is currently inaccessible from my position. I must return to 2F to find another way up to the eastern side of 3F.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -282,51 +278,3 @@
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
-
-# Olivine Lighthouse Puzzle - Hypothesis Test
-- **Hypothesis (from puzzle_solver agent):** There is an opening in the wall on the 2nd floor that leads to an external ledge.
-- **Test:** Attempted to walk south through the windows at (12, 17), (8, 17), and (4, 17).
-- **Conclusion:** FAILED. All windows are blocked by a solid row of WALL tiles at y=16, making them inaccessible.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Secret Ledge):** An opening on an exterior wall of the 2nd floor leads to a hidden outer ledge.
-  - **Test Plan:** Walk along the entire eastern exterior wall.
-  - **Results:**
-    - Test at (18, 9): FAILED.
-    - Test at (18, 7): FAILED.
-    - Test at (18, 6): FAILED.
-    - Test at (18, 5): FAILED.
-    - Test at (18, 4): FAILED. Concluding this part of the hypothesis is incorrect.
-
-# Olivine Lighthouse Puzzle - Agent Hypothesis Test #2
-- **Hypothesis (from puzzle_solver agent):** Talking to one of the trainers after defeating them provides a clue or triggers an event.
-- **Test Plan:** Re-talk to Gentleman Alfred and Sailor Huey.
-- **Conclusion:** FAILED. Re-talking to both trainers resulted in either repeated dialogue or the known battle-start anomaly, with no new events triggered.
-
-# Olivine Lighthouse Puzzle - Hypothesis Test #3
-- **Hypothesis (from puzzle_solver agent):** There is a hidden item or switch on the floor that must be activated by pressing the interact button.
-- **Test Plan:** Systematically walk to every dead-end tile and corner on the 2nd floor and press the 'interact' button. Starting with the eastern alcove.
-
-# Olivine Lighthouse Puzzle - Hypothesis Test #4
-- **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
-- **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
-- **Conclusion:** PENDING
-
-# Olivine Lighthouse Puzzle - Hypothesis Test #5
-- **Hypothesis:** Having exhausted all other possibilities, the solution must be a hidden item or switch on the floor of the isolated 1F room, which is activated by pressing the interact button.
-- **Test Plan:** Systematically walk to every single traversable tile in the isolated 1F room and press 'A'. To prevent accidental movement, I will turn to face an adjacent wall before each interaction.
-- **Conclusion:** FAILED. A systematic search of all floor tiles yielded no hidden switches or triggers. The solution must lie elsewhere.
-- **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
-
-# Olivine Lighthouse Puzzle - Consolidated Findings
-- **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Confirmed Dead Ends & Loops:**
-  - The path up from the isolated 1F room needs to be personally verified. My previous conclusion that it was a dead end was based on unverified NPC dialogue.
-  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. This path needs to be re-investigated.
-- **Current Status:**
-  - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
-  - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
-
-# Lessons Learned
-- **Agent Hypothesis Fixation:** When a hypothesis from a problem-solving agent leads to a prolonged, unproductive loop (like a systematic search with no results), I must recognize the loop, mark the hypothesis as failed, and re-engage the agent with the new context to generate better ideas. Don't get fixated on a single output.
