@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 26 (Kanto!)
-- **Location:** Route 26 (North).
+- **Location:** Route 26 (Northern Section).
 - **Goal:** Traverse Route 26 North to Victory Road.
-- **Status:** Exploring Route 26 (North of Rest House).
-- **Team:** Paprika (Lv57), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+- **Status:** Just defeated Cooltrainer Jake. Continuing North.
+- **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
