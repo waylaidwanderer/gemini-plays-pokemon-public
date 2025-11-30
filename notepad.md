@@ -344,3 +344,6 @@
 # Core Principles (Addendum)
 - **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
 - **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
+
+# Core Principles (Addendum)
+- **VERIFY POSITION AFTER MAP CHANGE:** After any map transition (warp, ladder, door), I MUST immediately verify my new `map_id` and `(x, y)` coordinates in the Game State Information before planning any further action. This is critical to prevent hallucinations and routing errors based on stale data.
