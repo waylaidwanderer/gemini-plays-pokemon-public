@@ -342,3 +342,6 @@
 - **Hypothesis (from puzzle_solver agent):** Talking to one of the trainers after defeating them provides a clue or triggers an event.
 - **Test Plan:** Re-talk to Gentleman Alfred and Sailor Huey.
 - **Conclusion:** FAILED. Re-talking to both trainers resulted in either repeated dialogue or the known battle-start anomaly, with no new events triggered.
+
+# Core Principles (Addendum)
+- **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
