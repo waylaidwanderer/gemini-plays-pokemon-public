@@ -1,10 +1,7 @@
 # Gem's Pokémon Crystal Adventure!
 
+## Game Plan
+- Start my journey and get my first Pokémon.
+
 ## Tile Mechanics
-*This section will document how different tile types work.*
-
-## Party
-*This section will list my current Pokémon team.*
-
-## Adventure Log
-*Just started my journey!*
+*I will document my observations on tile traversal rules here.*
