@@ -278,3 +278,8 @@
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis #1 (Primary):** The path to the eastern section of 3F requires descending from the 4th floor. (Test: Find a way to 4F, then find a hole/stairs leading down into the inaccessible eastern part of 3F.)
+- **Hypothesis #2 (Secondary):** An external balcony on a higher floor provides access. (Test: Find a door to an outside ledge on 4F and follow it.)
+- **Hypothesis #3 (Tertiary):** A previously used warp has a dual destination. (Test: Re-use all known warps on 1F and 2F.)
