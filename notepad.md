@@ -329,3 +329,8 @@
 # Core Principles (Addendum)
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The system has identified multiple severe unproductive loops. I must be more vigilant in recognizing these patterns and break them by choosing a different path or objective immediately, rather than repeating the same failed actions.
 - **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
+
+# Olivine Lighthouse Puzzle - Hypothesis Test #4
+- **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
+- **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
+- **Conclusion:** PENDING
