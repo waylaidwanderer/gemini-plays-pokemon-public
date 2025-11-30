@@ -154,8 +154,8 @@
   - **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F.
   - **Summary of Findings:**
     - **2F:** Two pits at (16, 13) and (17, 13) both lead to the eastern section of 1F. The western path has a ladder at (5, 3) leading up. The eastern path appears to be a dead end. Suspected warps at (16, 11) and (17, 11) are non-functional.
-    - **3F:** The western side, accessed from 2F, is a confirmed dead end (Youngster NPC is also stuck). The eastern side is currently inaccessible.
-  - **Current Hypothesis:** The way forward is on the 1st floor, which has not been fully explored yet.
+    - **3F:** The western side, accessed from 2F, is a confirmed dead end. The eastern side is currently inaccessible.
+  - **Current Hypothesis:** The correct path to the upper floors must be on the eastern side of 2F. The western ladder is a confirmed dead end. I need to find the ladder on the eastern side of 2F.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
