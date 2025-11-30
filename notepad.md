@@ -303,3 +303,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 - **Deterministic Strategy:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach.
 - **Tool Precondition Verification:** Before using a tool, I must verify its preconditions are met (e.g., for `stun_npc`, the target object must be on-screen and thus present in the `Map Objects On Screen` list).
 - **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly.
+
+# Reflection Lessons (Turn 29378)
+- **CRITICAL HALLUCINATION:** I hallucinated being on Route 39 when I was still in Olivine City, causing a tool to crash and wasting a turn. This is a recurring problem. I MUST verify my `current_map_id` and `current_position` in the Game State Information *before* every single action, especially before using any coordinate-based tools. Trusting memory is a critical failure.
