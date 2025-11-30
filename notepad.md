@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Dragon's Den
-- **Location:** Dragon's Den B1F (Near Shrine).
-- **Goal:** Enter the Shrine and complete the Dragon User Challenge.
+## 📍 Current Status: Dragon Shrine
+- **Location:** Dragon Shrine (Interior).
+- **Goal:** Complete Dragon User Challenge (Answer correctly).
 - **Team:** Paprika (Lv55). F (Psyduck) needs to learn Whirlpool.
 
 ## 🎯 Goals
