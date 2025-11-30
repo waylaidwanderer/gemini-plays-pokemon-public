@@ -2,9 +2,9 @@
 
 ## 📍 Current Status: Dragon's Den Challenge
 - **Location:** Blackthorn City.
-- **Goal:** Heal at Pokémon Center, then head to Dragon's Den.
-- **Status:** Clair defeated. Badge withheld pending challenge.
-- **Team:** Paprika (Lv55, Paralyzed). Needs healing.
+- **Goal:** Enter Dragon's Den (Surf behind Gym).
+- **Status:** Clair defeated. Party healed.
+- **Team:** Paprika (Lv55).
 
 ## Route 44
 - **Trainers:**
