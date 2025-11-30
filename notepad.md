@@ -247,3 +247,4 @@
 - **Dragon's Den Exit Strategy:** Navigate West Channel (x=10). Path: Surf North to (10, 21), Clear Whirlpool at (10, 20), Exit at (20, 3).
 - **Tools:** Defined `attempt_surf` for robust surfing interaction. Added `sequence_press` to tool list.
 - **Tools:** Defined `attempt_surf` to standardize surfing interactions. Documented `sequence_press` usage.
+- **Pathfinding Lesson:** Weighted edges are critical for Surfing. Penalize Water->Land transitions massively (cost 1000+) unless the destination is the specific target to prevent accidental dismounting on islands.
