@@ -1,9 +1,9 @@
 # Core Principles
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop. I was repeatedly attempting to access a confirmed dead end. I must be more vigilant in recognizing these patterns by consulting my notes/markers before acting, and break them by choosing a different path or objective immediately.
+- **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
 
 # Strategic Protocol
-- **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
@@ -223,14 +223,14 @@
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-# Olivine Lighthouse Puzzle
-- **Status:** Stuck on west side of 2F, blocked by Sailor at (9, 3). Escalated to `puzzle_solver` agent.
-- **Agent Hypothesis #1 (DISPROVEN for West Side):** The sailor is a red herring; the real path is a hidden pit on this side of the floor. A systematic search of all accessible tiles on the west side of 2F revealed no pits.
-- **Agent Hypothesis #3 (DISPROVEN):** The solution was missed in the isolated 1F area. A full, automated search of the area with `sweep_and_search` revealed no hidden items or triggers.
-- **New Hypothesis (External Trigger):** All internal paths in the lighthouse are blocked or dead ends. The solution is likely external, possibly related to healing the sick MILTANK on Route 39.
-- **Agent Hypothesis #2 (DISPROVEN):** The sailor is a line-of-sight trainer battle. Walking into his line of sight from (11, 3) to (10, 3) did not trigger a battle.
-- **Agent Hypothesis #3:** The solution was missed in the isolated 1F area.
-- **Agent Hypothesis #4:** There is a hidden item on the floor needed to progress.
+# Olivine Lighthouse Puzzle - Consolidated Findings
+- **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
+- **Confirmed Dead Ends & Loops:**
+  - The ladder on the western side of 2F at (3, 11) leads to a section of 3F that is a confirmed dead end (NPC at (3, 9) on 3F stated he "can't get up there").
+  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. This area has been fully explored and its only exit is the ladder at (3, 11) on 1F, which leads back to the western side of 2F, creating an unproductive loop.
+- **Current Status:**
+  - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
+  - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -253,6 +253,7 @@
 - `select_move`
 - `switch_pokemon`
 - `find_reachable_unseen_tiles`
+- **`find_path` Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 
 ## Custom Agents
 - `gym_puzzle_solver`
@@ -276,52 +277,3 @@
 - **TRUST MAP DATA OVER MARKERS:** My own markers can be wrong due to hallucinations or outdated information. The raw map data (WALLs, FLOORs, etc.) is the source of truth. If a marker contradicts the map, the map is correct.
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
-
-# Olivine Lighthouse 3F Notes
-- The floor is split into two sections by a wall at x=6. I am on the western side.
-- The eastern side contains an item ball, a sailor, and three unmarked warps at (9, 5), (8, 3), and (9, 3). These are currently inaccessible.
-
-# Olivine Lighthouse Puzzle Clue (3F)
-- **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly confirms that the entire western section of 3F is a dead end and the way forward must be on a lower floor.
-
-# New Lessons & Mechanics
-- **Dead Ends & Non-Linear Puzzles:** NPC dialogue (like the Youngster on 3F) can confirm if an area is a dead end. When a path is confirmed as a dead end, do not persist. The solution is likely elsewhere, often in a non-linear direction (e.g., going down via pits instead of up via ladders).
-- **Trust Your Tools:** If a pathfinding tool returns 'No path found,' or if multiple tools confirm a path is blocked, trust them. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
-- **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
-- **Interaction vs. Line of Sight & Flawed Assumptions:** If direct interaction with a trainer-like NPC results in a dialogue loop (like with Sailor Huey), the battle trigger might be line of sight. However, I must first challenge the root assumption that a battle is necessary at all. I wasted significant time trying to force an interaction when a simple path around the NPC existed. Lesson: Always verify if an obstacle is truly blocking the path before attempting to resolve it through complex interactions or battles. Check for alternative routes first.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (External Ledge):** An opening on an upper floor (like a window) leads to an external ledge instead of being a pit. (DISPROVEN: Attempting to walk south from (12, 15) was blocked by a WALL at (12, 16).)
-  - *Test Plan:* On 2F, walk south through the rightmost opening in the southern wall.
-- **Hypothesis 2 (DISPROVEN):** A trainer requires interaction from a non-standard direction.
-  - *Test Plan:* Approach Sailor Huey on 2F from the side and behind, interacting at each angle. (Result: Interaction from the side triggered the same failed battle-start loop.)
-- **Hypothesis 3 (Distinct Pit):** One pit on 2F is visually different and leads to a new area.
-  - *Test Plan:* Systematically inspect and fall down each pit on 2F, confirming they all lead to the same location.
-- **Hypothesis 4 (Hidden Switch):** An inanimate object like a window or pillar is a hidden switch.
-  - *Test Plan:* Interact with all background objects on all floors from all four cardinal directions.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses (Sailor Block)
-- **Agent Hypothesis #1 (NPC Trigger):** Another NPC on 2F must be spoken to. (DISPROVEN: No other NPCs exist on this floor.)
-- **Agent Hypothesis #2 (Line of Sight):** The sailor battle is triggered by walking into his line of sight, not direct interaction. (TESTING NEXT)
-- **Agent Hypothesis #3 (Multi-floor Solution):** The path forward is on another floor, bypassing the sailor entirely.
-
-# Olivine Lighthouse Puzzle - Sailor Block (Continued)
-- **Agent Hypothesis #2 (Line of Sight):** FAILED. Walked from (11, 3) to (10, 3), entering the sailor's line of sight. No battle was triggered.
-- **New Plan:** Since the sailor at (9, 3) is an impassable block, I will test the agent's other hypothesis. I will return to the eastern side of 2F and test the second pit at (17, 13) to see if it leads to a different, unblocked path.
-- **Challenging False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
-
-# New Lessons & Mechanics
-- **Tool Logic & World Models:** My custom tools, like `find_path`, are only as good as the logic I give them. When a tool fails in a new situation (e.g., ledges), it's a sign that its underlying model of the game world is incomplete. I must immediately prioritize updating the tool's logic to account for the new mechanic before trying to work around the failure manually.
-
-# Olivine Lighthouse Puzzle Clue (3F)
-- **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly confirms that the entire western section of 3F is a dead end and the way forward must be on a lower floor.
-
-# Core Principles (Addendum)
-- **Challenging False Constraints:** When stuck on a puzzle or blocked by an obstacle, I must aggressively challenge my foundational assumptions. If a strategy (e.g., 'I must get past this NPC') is failing repeatedly, the root hypothesis is likely a false constraint. I must stop trying to solve the problem as I see it and instead look for completely different solutions (e.g., non-linear paths, external triggers) that bypass the perceived problem entirely.
-- **Trust NPC Hints:** Direct dialogue from NPCs can provide critical clues and even explicitly confirm if a path is a dead end. This information must be trusted and used to guide my strategy, preventing wasted time exploring confirmed dead ends.
-
-# Tools & Agents
-- **`find_path` Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
-
-# New Lessons & Mechanics
-- **Cognitive Loop Breaking:** When stuck in an unproductive loop (like the 2F pits), it's a sign that the root hypothesis about the solution is likely a false constraint. I must aggressively challenge my foundational assumptions and re-examine all available data (map, game state, system warnings) for overlooked clues instead of persisting with a failing strategy.
