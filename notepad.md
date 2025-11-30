@@ -227,7 +227,7 @@
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
 - **Confirmed Dead Ends & Loops:**
   - The ladder on the western side of 2F at (3, 11) leads to a section of 3F that is a confirmed dead end (NPC at (3, 9) on 3F stated he "can't get up there").
-  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. This area has been fully explored and its only exit is the ladder at (3, 11) on 1F, which leads back to the western side of 2F, creating an unproductive loop.
+  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. The path from this 1F section leads to a dead-end on 3F.
 - **Current Status:**
   - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
   - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
