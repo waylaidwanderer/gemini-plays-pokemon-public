@@ -66,7 +66,7 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
-- **Dragon's Den:** Cleared. Bahamut (Dratini) obtained from Elder.
+- **Dragon's Den:** Cleared. Bahamut (Dratini) obtained. Found Dragon Fang.
 - **Surfing Navigation:** When surfing, pathfinding tools must explicitly treat land tiles as obstacles (unless it's the target tile) to prevent accidental dismounting during travel.
 - **Puzzle Mechanics:** 'Scoot' (leaving/re-entering map) refreshes map state/NPCs.
 - **General Protocol:** Mark NPCs immediately. Keep markers for defeated trainers. Verify position after interruptions. Trust visual Screen Text.
