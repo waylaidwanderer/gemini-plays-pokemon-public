@@ -52,7 +52,7 @@
 - **LEDGE_HOP_DOWN:** One-way jump South.
 - **TALL_GRASS:** Walkable (Wild Encounters).
 - **WATER:** Traversable (Surf required).
-- **FLOOR_UP_WALL:** Visual ledge at (5, 22) in Dragon's Den B1F confirmed IMPASSABLE from North. Acts as a wall.
+- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Acts as a reset on Map 3_64.
 - **ROCK:** Breakable (Rock Smash).
 - **BOULDER:** Pushable (Strength).
