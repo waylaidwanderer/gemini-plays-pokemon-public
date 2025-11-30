@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Dragon Shrine
-- **Location:** Dragon Shrine (Interior).
+## 📍 Current Status: Dragon's Den
+- **Location:** Dragon's Den B1F.
 - **Goal:** Challenge the Pokémon League.
 - **Status:** Rising Badge obtained! Can use Waterfall. All Pokémon obey.
 - **Team:** Paprika (Lv55). F (Psyduck) knows Whirlpool.
@@ -10,7 +10,7 @@
 - [x] Obtain Rising Badge.
 - [x] Receive TM24 (Dragonbreath) from Clair.
 - [x] Deposit Pokémon at PC to make space for Dratini.
-- [ ] Return to Dragon's Den for Dratini (Current Task).
+- [ ] Return to Dragon Shrine for Dratini (Current Task).
 - [ ] Receive Dratini from Elder (Special gift for correct answers).
 - [ ] Fly to New Bark Town -> Surf East to Pokémon League.
 - [ ] Return to New Bark Town.
