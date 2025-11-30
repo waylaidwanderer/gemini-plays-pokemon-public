@@ -317,3 +317,7 @@
 - **Hypothesis (from puzzle_solver agent):** There is a hidden, invisible pit in the short dead-end path to the east of the Gentleman at (17, 8).
 - **Test Plan:** Walk to the area east of the Gentleman. Systematically step on every floor tile in this small alcove, specifically the tiles around coordinates (18, 8), (18, 9), and (17, 9).
 - **Conclusion:** FAILED. Systematically walked over tiles (17, 9), (16, 9), (15, 9), and (14, 9). No hidden pit was found.
+
+# Olivine Lighthouse Puzzle - Agent Hypothesis Test #3
+- **Hypothesis (from puzzle_solver agent):** There is a hidden item or switch on the floor that must be activated by pressing the interact button.
+- **Test Plan:** Systematically walk to every dead-end tile and corner on the 2nd floor and press the 'interact' button. Starting with the eastern alcove.
