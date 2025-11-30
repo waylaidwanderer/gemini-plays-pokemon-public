@@ -2,6 +2,8 @@
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop. I was repeatedly attempting to access a confirmed dead end. I must be more vigilant in recognizing these patterns by consulting my notes/markers before acting, and break them by choosing a different path or objective immediately.
 - **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
+- **NPC dialogue can be misleading; all paths must be personally verified.**
+- **Audit my own notes for assumptions that violate my stated principles.**
 
 # Strategic Protocol
 - **PLAN-EXECUTE-VERIFY CYCLE:**
@@ -57,7 +59,6 @@
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 - **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
-- **NPC Dialogue Can Be Misleading:** I must not blindly trust NPC dialogue. An NPC on OlivineLighthouse2F claimed a ladder was a 'dead end', which caused me to ignore a valid path for a long time. All paths must be personally verified.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 - **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
 - **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
@@ -226,8 +227,8 @@
 # Olivine Lighthouse Puzzle - Consolidated Findings
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
 - **Confirmed Dead Ends & Loops:**
-  - The ladder on the western side of 2F at (3, 11) leads to a section of 3F that is a confirmed dead end (NPC at (3, 9) on 3F stated he "can't get up there").
-  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. The path from this 1F section leads to a dead-end on 3F.
+  - The path up from the isolated 1F room needs to be personally verified. My previous conclusion that it was a dead end was based on unverified NPC dialogue.
+  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. This path needs to be re-investigated.
 - **Current Status:**
   - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
   - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
@@ -278,7 +279,6 @@
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
-- **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
 
 ## Olivine Lighthouse Puzzle - Hypothesis Test
 - **Hypothesis (from puzzle_solver agent):** There is an opening in the wall on the 2nd floor that leads to an external ledge.
