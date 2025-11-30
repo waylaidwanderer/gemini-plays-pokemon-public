@@ -65,6 +65,7 @@
 - **Move Selection Menu:** ALWAYS use the `select_move` tool. It automatically handles cursor position and button presses.
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
+- **Type Effectiveness:** Fire is 0.5x effective against Water/Ground (not 0.25x).
 
 ## Strategy Notes
 - **Dragon's Den:** Cleared. Bahamut (Dratini) obtained. Found Dragon Fang.

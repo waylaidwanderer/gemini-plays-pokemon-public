@@ -317,7 +317,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\n\nmove_name = input_data['move_name'].upper()\nscreen_text = input_data['screen_text']\n\nlines = screen_text.split('\\n')\ncursor_index = -1\ntarget_index = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_index = i\n    if move_name in line.upper():\n        target_index = i\n\nbuttons = []\nif cursor_index != -1 and target_index != -1:\n    diff = target_index - cursor_index\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend([\"Down\", \"sleep 200\"])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.extend([\"Up\", \"sleep 200\"])\n    buttons.append(\"A\")\nelse:\n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\ntry:\n    # 1. Parse Inputs\n    screen_text = input_data.get('screen_text', '')\n    target_move = input_data.get('move_name', '').upper().strip()\n    \n    if not screen_text or not target_move:\n        print(json.dumps([]))\n        sys.exit()\n\n    lines = screen_text.split('\\n')\n    \n    # 2. Identify Move List Logic\n    cursor_line = -1\n    target_line = -1\n    \n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_line = i\n        if target_move in line.upper():\n            target_line = i\n            \n    # 3. Validation\n    if cursor_line == -1 or target_line == -1:\n        print(json.dumps([]))\n        sys.exit()\n        \n    # 4. Calculate Path\n    buttons = []\n    diff = target_line - cursor_line\n    \n    if diff > 0:\n        buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        buttons.extend([\"Up\"] * abs(diff))\n        \n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
@@ -348,6 +348,11 @@
         "commit_message": "fix: Remove debug print statements that were causing JSON parsing errors. The tool now strictly outputs only the JSON array of button presses.",
         "timestamp": "2025-11-30T16:50:55.137Z",
         "action_counter": 15149
+      },
+      {
+        "commit_message": "fix: Remove debug print statements causing JSON errors. Improve cursor and target detection logic to strictly output valid JSON button arrays.",
+        "timestamp": "2025-11-30T17:09:48.544Z",
+        "action_counter": 15170
       }
     ]
   },
