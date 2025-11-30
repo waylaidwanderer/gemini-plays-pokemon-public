@@ -279,13 +279,6 @@
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
 
-# Puzzle Solutions & Lessons
-- **VERIFY POSITION POST-WARP:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
-- **Internal vs. External Puzzles:** If all internal paths in a puzzle area are exhaustively and methodically proven to be dead ends, the root hypothesis that a solution exists internally is false. I must pivot to an external search for a trigger or item much faster instead of getting stuck in a loop.
-- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
-- Puzzle State Changes: My assumption that exploring a new area on 2F would change the layout of 3F was incorrect. Puzzle states are likely only changed by direct interaction or explicit triggers, not by simply visiting other areas.
-- Hiker Anthony on Route 33 called for a battle.
-
 ### Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (FAILED):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
   - **Test Result:** Systematically walked over every floor tile on the western side of 3F. No hidden pit was found. Hypothesis is disproven.
