@@ -230,9 +230,11 @@
 
 # Olivine Lighthouse Puzzle
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Key Insight:** The puzzle involves vertical movement between floors via pits. The pit at (17, 13) on 2F leads to an otherwise inaccessible section of 1F.
-- **Current Path:** From the new section of 1F, a ladder at (3, 11) leads up to the eastern side of 2F. This is the current area of exploration.
-- **New Discovery:** System warnings have confirmed that tiles at (16, 11) and (17, 11) on 2F are real, unexplored warps. These are my new primary investigation targets.
+- **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F.
+- **Summary of Findings:**
+  - **2F:** Two pits at (16, 13) and (17, 13) both lead to the eastern section of 1F. The western path has a ladder at (5, 3) leading up. The eastern path appears to be a dead end. Suspected warps at (16, 11) and (17, 11) are non-functional.
+  - **3F:** The western side, accessed from 2F, is a confirmed dead end (Youngster NPC is also stuck). The eastern side is currently inaccessible.
+- **Current Hypothesis:** The way forward is on the 1st floor, which has not been fully explored yet.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
