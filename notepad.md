@@ -274,9 +274,9 @@
 - **Boulder Analysis:**
   - **Boulder A (6, 1):** FAILED. Row 0 (5,0 to 8,0) confirmed SOLID. Boulder cannot be maneuvered to pits.
   - **Boulder B (3, 3):** Used to clear initial path.
-  - **Boulder C (8, 14):** Currently testing. Pushing North to check if wall at (8, 8) is fake/breakable.
+  - **Boulder C (8, 14):** Push North FAILED (Dead End).
+  - **New Plan:** Push Boulder C South to (8, 16) to access West area.
+  - **Target:** Find Boulder D at (6, 16) and push to Pit (8, 7).
 - **Critical Verification:**
   - Row 0 verified SOLID.
   - Column 7/9 walls around (8, 14) appear solid.
-- **Hypothesis:**
-  - Boulder C (8, 14) is the only remaining option. Wall at (8, 8) MUST be fake or breakable for this to work.
