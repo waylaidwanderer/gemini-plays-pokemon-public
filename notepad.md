@@ -334,3 +334,6 @@
 - **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
 - **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
 - **Conclusion:** PENDING
+
+# Core Principles (Addendum)
+- **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
