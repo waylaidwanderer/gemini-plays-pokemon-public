@@ -247,3 +247,8 @@
 - **Tools:** Defined `attempt_surf` for robust surfing interaction. Added `sequence_press` to tool list.
 - **Tools:** Defined `attempt_surf` to standardize surfing interactions. Documented `sequence_press` usage.
 - **Pathfinding Lesson:** Weighted edges are critical for Surfing. Penalize Water->Land transitions massively (cost 1000+) unless the destination is the specific target to prevent accidental dismounting on islands.
+## Tool Reference
+- **find_path**: Custom tool for pathfinding. Handles obstacles and surfing penalties.
+- **attempt_surf**: Standardized surfing interaction sequence.
+- **select_move**: Automates battle move selection.
+- **sequence_press**: Executes button sequences.
