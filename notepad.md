@@ -66,6 +66,7 @@
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 - **Type Effectiveness:** Fire is 0.5x effective against Water/Ground (not 0.25x).
+- **Weather:** Rain Dance reduces Fire-type damage by 50%.
 
 ## Strategy Notes
 - **Dragon's Den:** Cleared. Bahamut (Dratini) obtained. Found Dragon Fang.
