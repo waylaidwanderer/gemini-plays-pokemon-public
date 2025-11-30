@@ -256,7 +256,7 @@
 - **select_move**: Automates battle move selection.
 - **sequence_press**: Executes button sequences.
 - **battle_advisor**: Custom agent for battle strategy analysis.
-- **WATERFALL**: Traversable from below using HM07 Waterfall. Acts as a one-way path up.
+- **scan_unseen**: Scans for reachable unseen tiles.
 ## Route 26 Progress
 - Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
 - Received call from Picnicker Gina (Route 34): Has a gift for me (Leaf Stone/etc likely).

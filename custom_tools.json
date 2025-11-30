@@ -417,5 +417,17 @@
         "action_counter": 15055
       }
     ]
+  },
+  "scan_unseen": {
+    "description": "Scans the map to find 'unseen' tiles that are reachable from the player's current position using a BFS algorithm. Useful for prioritizing exploration.",
+    "input_schema": {},
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    grid = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'FLOOR')\n            seen = tile.attrib.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true' or tile.find('Object') is not None\n            grid[(x,y)] = {'type': t_type, 'seen': seen, 'obstacle': has_object}\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n\n    if not player_pos:\n        print(json.dumps([]))\n        exit()\n\n    queue = collections.deque([player_pos])\n    visited = {player_pos}\n    reachable_unseen = []\n    directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\n    while queue:\n        cx, cy = queue.popleft()\n        # If current tile is unseen, add to list and stop expanding this branch\n        if not grid[(cx, cy)]['seen'] or grid[(cx, cy)]['type'] == 'unseen':\n            reachable_unseen.append((cx, cy))\n            continue\n\n        for dx, dy in directions:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                if tile['obstacle']:\n                    continue\n                t_type = tile['type']\n                if 'WALL' in t_type or 'BUOY' in t_type:\n                    continue\n                if 'LEDGE_HOP_DOWN' in t_type and dy != 1:\n                    continue\n                visited.add((nx, ny))\n                queue.append((nx, ny))\n                \n    print(json.dumps(list(reachable_unseen)))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Add scan_unseen tool to identify reachable exploration targets.",
+        "timestamp": "2025-11-30T19:03:12.982Z",
+        "action_counter": 15329
+      }
+    ]
   }
 }
