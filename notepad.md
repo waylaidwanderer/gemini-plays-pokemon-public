@@ -320,3 +320,7 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Battle Anomaly
 - A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
+
+# Reflection Lessons (Turn 29571)
+- CRITICAL HALLUCINATION RECOVERY: I have repeatedly hallucinated my current map and coordinates, causing tools to crash and wasting turns. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
+- LADDER Mechanic Update: Ladders are warp tiles. Pressing 'A' on or adjacent to them does not work. They are activated by moving onto the tile, and then typically pressing 'Up' or 'Down' depending on the direction of travel.
