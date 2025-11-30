@@ -292,3 +292,9 @@
 
 # Future Tool Ideas
 - **Exploration Manager Agent:** Create an agent that can manage the `plan_systematic_search_path` tool. It would take a long path, break it into smaller, more manageable chunks, and execute them one by one, re-evaluating for obstacles between each chunk. This would make exploration more robust and less prone to interruption.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 29277)
+My systematic exploration is failing. Escalated to `puzzle_solver` agent.
+- **Hypothesis 1 (DISPROVEN):** NPCs are trainers to be defeated. (I have already defeated both Sailor Huey and the Gentleman).
+- **Hypothesis 2 (TESTING):** The inactive warps on 2F are landing spots for a pit on 3F. (The 'dead-end' room on 3F may contain a hidden pitfall. This is the most likely solution).
+- **Hypothesis 3 (PENDING):** A trigger on 1F moves the NPCs. (Fallback plan if Hypothesis 2 fails).
