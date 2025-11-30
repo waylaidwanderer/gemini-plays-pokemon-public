@@ -327,3 +327,6 @@
 - **Current Status:**
   - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
   - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
+
+# Lessons Learned
+- **Agent Hypothesis Fixation:** When a hypothesis from a problem-solving agent leads to a prolonged, unproductive loop (like a systematic search with no results), I must recognize the loop, mark the hypothesis as failed, and re-engage the agent with the new context to generate better ideas. Don't get fixated on a single output.
