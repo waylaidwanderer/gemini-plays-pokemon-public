@@ -8,10 +8,10 @@
 
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
-- [ ] Receive Dratini from Elder (Special gift for correct answers).
 - [x] Receive TM24 (Dragonbreath) from Clair.
-- [ ] Deposit Pokémon at PC to make space for Dratini.
-- [ ] Return to Dragon's Den for Dratini.
+- [x] Deposit Pokémon at PC to make space for Dratini.
+- [ ] Return to Dragon's Den for Dratini (Current Task).
+- [ ] Receive Dratini from Elder (Special gift for correct answers).
 - [ ] Fly to New Bark Town -> Surf East to Pokémon League.
 - [ ] Return to New Bark Town.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
