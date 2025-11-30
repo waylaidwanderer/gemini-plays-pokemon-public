@@ -312,3 +312,6 @@
 
 # New Lessons & Mechanics
 - **Tool Logic & World Models:** My custom tools, like `find_path`, are only as good as the logic I give them. When a tool fails in a new situation (e.g., ledges), it's a sign that its underlying model of the game world is incomplete. I must immediately prioritize updating the tool's logic to account for the new mechanic before trying to work around the failure manually.
+
+# Olivine Lighthouse Puzzle Clue (3F)
+- **Clue from Youngster on 3F:** An NPC at (3, 9) explicitly stated he wants to see the sick Pokémon but "can't get up there." This strongly confirms that the entire western section of 3F is a dead end and the way forward must be on a lower floor.
