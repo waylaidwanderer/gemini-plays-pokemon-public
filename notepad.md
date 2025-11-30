@@ -62,6 +62,7 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
+- **Dragon's Den:** East/Central paths blocked by buoys. Flanking West.
 - **Puzzle Lesson:** 'Scoot' means you must leave the map area entirely to allow the game state to update (e.g. NPCs moving objects). Confirmed: Leaving Tin Tower refreshed the map and moved the Sages, advancing the puzzle.
 - **Inventory:** In-game list order differs from Game State list. Always scroll fully if item not seen.
 - Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
