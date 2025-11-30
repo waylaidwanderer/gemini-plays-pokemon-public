@@ -244,6 +244,6 @@
 - **Lesson:** Surfing interaction requires specific facing and confirmation. Pathfinding must heavily penalize dismounting unless at the specific destination to avoid 'island hopping'.
 - **Correction:** Turn 15025 reported surfing at (24, 30) was a hallucination. Verify 'Standing on tile: WATER' before confirming surfing state.
 - **Pathfinding Issue:** `find_path` repeatedly dismounts player when surfing in Dragon's Den. Switch to manual surfing for now.
-- **Dragon's Den Exit Strategy:** East Channel (x=28) is a DEAD END blocked by buoys at Row 20. Correct path: Walk West to (14, 30), Surf Left, use West Channel (x=10) to go North.
+- **Dragon's Den Exit Strategy:** Navigate West Channel (x=10). Path: Surf North to (10, 21), Clear Whirlpool at (10, 20), Exit at (20, 3).
 - **Tools:** Defined `attempt_surf` for robust surfing interaction. Added `sequence_press` to tool list.
 - **Tools:** Defined `attempt_surf` to standardize surfing interactions. Documented `sequence_press` usage.
