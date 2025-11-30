@@ -282,11 +282,6 @@
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
 
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis #1 (Primary):** The path to the eastern section of 3F requires descending from the 4th floor. (Test: Find a way to 4F, then find a hole/stairs leading down into the inaccessible eastern part of 3F.)
-- **Hypothesis #2 (Secondary):** An external balcony on a higher floor provides access. (Test: Find a door to an outside ledge on 4F and follow it.)
-- **Hypothesis #3 (Tertiary):** A previously used warp has a dual destination. (Test: Re-use all known warps on 1F and 2F.)
-
 # Puzzle Lessons
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
