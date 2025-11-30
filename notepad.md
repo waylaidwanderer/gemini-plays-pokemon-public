@@ -243,3 +243,6 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 - **Exit Strategy:** The 1F south path is blocked. Must take East Ladder (7, 9) to 2F, traverse to West Ladder, and descend to (1, 7) to reach the exit.
+## Dragon's Den 1F Navigation
+- **Obstacle:** `FLOOR_UP_WALL` at (6, 16) is IMPASSABLE.
+- **Route:** Use Ladder at (5, 13) to bypass walls and reach the exit at (3, 5).
