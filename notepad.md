@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Dragon's Den Challenge
-- **Location:** Blackthorn City.
-- **Goal:** Enter Dragon's Den (Surf behind Gym).
-- **Status:** Clair defeated. Party healed.
+- **Location:** Dragon's Den B1F.
+- **Goal:** Complete Dragon User Challenge.
+- **Status:** Defeated Cooltrainer Darin. Exploring deeper.
 - **Team:** Paprika (Lv55).
 
 ## Route 44
