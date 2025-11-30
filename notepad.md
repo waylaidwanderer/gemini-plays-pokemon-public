@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 26 (Kanto!)
-- **Location:** Route 26 (South).
+- **Location:** Route 26 (North).
 - **Goal:** Traverse Route 26 North to Victory Road.
-- **Status:** Just arrived from Route 27. Heading North.
-- **Team:** Paprika (Lv56), Bahamut (Lv15).
+- **Status:** Reached rest house at (15, 57). Exploring.
+- **Team:** Paprika (Lv57), Bahamut (Lv15).
 
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
