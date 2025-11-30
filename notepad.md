@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 23
-- **Location:** Route 23 (ID: 16_1).
-- **Status:** Approaching Indigo Plateau.
+## 📍 Current Status: Indigo Plateau
+- **Location:** Indigo Plateau Pokémon Center (ID: 16_2).
+- **Status:** Preparing to challenge the Elite Four.
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
