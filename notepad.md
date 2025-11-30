@@ -3,8 +3,7 @@
 ## 📍 Current Status: Route 27 (Kanto!)
 - **Location:** Tohjo Falls (Kanto/Johto Border).
 - **Goal:** Traverse Tohjo Falls to reach Indigo Plateau.
-- **Status:** Inside Tohjo Falls. Need to ascend waterfall.
-- **Team:** Paprika (Lv55), Bahamut (Lv15).
+- **Status:** Surfing at the top of Tohjo Falls. Exploring East.
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals
