@@ -1,10 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Blackthorn Gym 2F Puzzle
-- **Location:** Blackthorn Gym 2F (South East).
-- **Goal:** Solve the puzzle to reach Clair.
-- **Constraint:** Boulder C at (8, 14) is flanked by walls. I cannot get South of it to push North. **My only option is to push it South.**
-- **Active Strategy:** Battle vs Clair. Kingdra (Lv40) vs Paprika (Lv54). Use Smokescreen to lower accuracy, then Swift.
+## 📍 Current Status: Battle vs Clair
+- **Location:** Blackthorn Gym.
+- **Goal:** Defeat Clair to earn the Rising Badge.
+- **Active Strategy:** Paprika (Lv54) vs Kingdra (Lv40). Kingdra at -3 Accuracy. Spam Swift.
 
 ## Route 44
 - **Trainers:**
@@ -70,7 +69,8 @@
 
 ## Strategy Notes
 - **Puzzle Lesson:** 'Scoot' means you must leave the map area entirely to allow the game state to update (e.g. NPCs moving objects). Confirmed: Leaving Tin Tower refreshed the map and moved the Sages, advancing the puzzle.
-- Team Strategy: Paprika (Typhlosion) is the carry and current lead (Paralyzed). Basalt (Geodude) has Magnitude.
+- **Inventory:** In-game list order differs from Game State list. Always scroll fully if item not seen.
+- Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
 - Protocol: Mark NPCs immediately. NEVER delete markers for defeated trainers; they remain as solid obstacles. Mark as 'Defeated'.
 - **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
 - **Screen Text:** Trust visual evidence (Screen Text) over system notes if they conflict. Text can persist or trigger unexpectedly.
@@ -258,19 +258,3 @@
 ## Blackthorn Gym
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
-## Blackthorn Gym 2F Puzzle Status
-- **Goal:** Reach the Right Side of the gym (Ladder at 7,9).
-- **Current Status:** Navigating Central Area (Column 3) to Right Side via Row 13.
-- **Wall Tests (Column 4):**
-  - (4, 3): SOLID (Verified).
-  - (4, 4): SOLID (Verified).
-  - (4, 5): SOLID (Verified).
-  - **Conclusion:** Column 4 is a solid barrier, EXCEPT at Row 13.
-- **Gap at (2, 9):** CONFIRMED OPEN. Successfully crossed from Left Side.
-- **Next Step:** Go South to (3, 13), East to (6, 13), then North to Ladder at (7, 9).
-- **Rejected Hypotheses:**
-  - Bridge via Boulder B (Impossible).
-  - Fake walls on 2F (Column 4 verified solid).
-  - 1F Crossing (Blocked by Row 11 walls isolating the Ladder).
-  - Southern Crossing at Row 13 (Blocked by wall at 2,13).
-- **Battle Data:** Clair's Dragonair (Lv37) Surf vs Paprika (Lv54): Consistent 32-33 DMG. Paprika (169 Max HP) survives ~5 hits from full. At 72 HP, survives 2 hits (non-crit). Paralysis reduces speed significantly; prioritize curing if HP > 40.
