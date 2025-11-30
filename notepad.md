@@ -300,4 +300,5 @@
 ### Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (FAILED):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
   - **Test Result:** Systematically walked over every floor tile on the western side of 3F. No hidden pit was found. Hypothesis is disproven.
-- **Hypothesis 2 (Active):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
+- **Hypothesis 2 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
+  - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
