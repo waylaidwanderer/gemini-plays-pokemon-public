@@ -3,7 +3,7 @@
 ## 📍 Current Status: Battle vs Clair
 - **Location:** Blackthorn Gym.
 - **Goal:** Defeat Clair to earn the Rising Badge.
-- **Active Strategy:** Paprika (Lv54) vs Kingdra (Lv40). Kingdra at -3 Accuracy. Spam Swift.
+- **Active Strategy:** Paprika (Lv55) vs Dragonair. Kingdra defeated! Paprika is at full HP. Strategy: Stay in, spam Swift (neutral damage).
 
 ## Route 44
 - **Trainers:**
