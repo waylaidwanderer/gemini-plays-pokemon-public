@@ -268,3 +268,8 @@
 - Haunter (Lv35)
 - Kadabra (Lv35)
 - Magneton (Lv34)
+### Shopping Plan (Indigo Plateau)
+- [ ] Deposit TMs/Items to free space (Target: 2-3 slots)
+- [ ] Buy Full Restore x10
+- [ ] Buy Revive x20
+- [ ] Withdraw useful items if space permits
