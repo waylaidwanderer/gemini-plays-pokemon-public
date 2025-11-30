@@ -1,9 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Battle vs Clair
-- **Location:** Blackthorn Gym.
-- **Goal:** Defeat Clair to earn the Rising Badge.
-- **Active Strategy:** Paprika (Lv55) vs Dragonair (Lv37). Paralyzed, 105/172 HP. Swift PP 0. Strategy: Use Quick Attack.
+## 📍 Current Status: Dragon's Den Challenge
+- **Location:** Blackthorn City (Heading to Dragon's Den).
+- **Goal:** Complete the Dragon User Challenge to earn the Rising Badge.
+- **Status:** Defeated Clair, but she refused to give the badge. Directed to Dragon's Den behind the gym.
+- **Team:** Paprika (Lv55, Paralyzed).
 
 ## Route 44
 - **Trainers:**
