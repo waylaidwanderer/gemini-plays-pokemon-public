@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 27 (Kanto!)
-- **Location:** Arrived in Kanto via Route 27.
-- **Goal:** Challenge the Pokémon League.
-- **Status:** Met Kanto Greeter (Fisher). Heading East to Tohjo Falls.
+- **Location:** Tohjo Falls (Kanto/Johto Border).
+- **Goal:** Traverse Tohjo Falls to reach Indigo Plateau.
+- **Status:** Inside Tohjo Falls. Need to ascend waterfall.
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
