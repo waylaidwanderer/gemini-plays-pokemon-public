@@ -54,6 +54,8 @@
 - **PIT / HOLE:** Traversable warp.
 - **ICE:** Slippery. Slide until hitting a wall or non-ice tile.
 - **LEDGE_HOP_DOWN:** One-way jump South.
+- **TALL_GRASS:** Walkable (Wild Encounters).
+- **WATER:** Traversable (Surf required).
 - **FLOOR_UP_WALL:** Visual ledge at (5, 22) in Dragon's Den B1F confirmed IMPASSABLE from North. Acts as a wall.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Acts as a reset on Map 3_64.
 - **ROCK:** Breakable (Rock Smash).
