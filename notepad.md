@@ -264,6 +264,7 @@
 - `gym_puzzle_solver`
 - `python_code_debugger`
 - `puzzle_solver`
+- `puzzle_solver`
 
 # Reminders & To-Do
 
