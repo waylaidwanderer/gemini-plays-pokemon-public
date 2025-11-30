@@ -1,20 +1,10 @@
-# Pokémon Crystal Playthrough Notes
+# Gem's Pokémon Crystal Adventure!
 
-## Current Party
+## Tile Mechanics
+*This section will document how different tile types work.*
 
-## Game Mechanics & Systems
-- **Tile Mechanics:**
+## Party
+*This section will list my current Pokémon team.*
 
-## Battle and Pokémon Information
-- **Type Effectiveness Chart:**
-- **Observed Movesets:**
-- **Pokémon Locations:**
-
-## Area and Navigation Insights
-
-## NPCs and Interactions
-
-## Obstacles and Solutions
-
-## Current Plan
-- Start a new game.
+## Adventure Log
+*Just started my journey!*
