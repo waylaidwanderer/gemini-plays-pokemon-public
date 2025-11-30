@@ -269,9 +269,7 @@
 - Haunter (Lv35)
 - Kadabra (Lv35)
 - Magneton (Lv34)
-### Shopping Plan (Indigo Plateau)
-- [x] Deposit TMs/Items (Deposited: Bitter Berry x1, X Special x1, Protein x2)
-- [x] Buy Full Restore x10
-- [x] Buy Revive x11 (Funds depleted)
-- [ ] Withdraw useful items if space permits
-- **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences (like `sequence_press`) to ensure execution.
+### Elite Four Strategy
+- **Will:** Slowbro is a tank (Amnesia/Curse). Counter: Smokescreen (-6 Acc) + Swift. Heal aggressively.
+- **General:** Keep Paprika healthy. Revive spam if needed.
+- **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences.
