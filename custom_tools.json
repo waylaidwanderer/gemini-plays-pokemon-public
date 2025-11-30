@@ -293,34 +293,5 @@
         "action_counter": 3843
       }
     ]
-  },
-  "interact_in_direction": {
-    "description": "Turns the player to face a specified direction, waits for the game to register the turn, and then interacts (presses A). Useful for talking to NPCs or using objects like Whirlpools/Cut trees.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "description": "The direction to face before interacting."
-        }
-      },
-      "required": [
-        "direction"
-      ]
-    },
-    "python_script": "import json\ndirection = input_data.get('direction', 'Down')\n# Sequence: Face direction -> Wait -> Press A -> Wait -> Press A (Confirm)\nbuttons = [direction, \"sleep 500\", \"A\", \"sleep 500\", \"A\"]\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create interact_in_direction tool to reliably handle face-then-interact actions with proper delays.",
-        "timestamp": "2025-11-30T08:31:56.575Z",
-        "action_counter": 14758
-      }
-    ]
   }
 }
