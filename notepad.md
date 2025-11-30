@@ -1,9 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 27 (En Route to League)
-- **Location:** Surfing East of New Bark Town.
+## 📍 Current Status: Route 27 (Kanto!)
+- **Location:** Arrived in Kanto via Route 27.
 - **Goal:** Challenge the Pokémon League.
-- **Status:** Master Ball obtained! Heading to Victory Road.
+- **Status:** Met Kanto Greeter (Fisher). Heading East to Tohjo Falls.
+- **Team:** Paprika (Lv55), Bahamut (Lv15).
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals
