@@ -6,13 +6,6 @@
 - **Status:** Managing inventory to collect HP Up at (7, 38).
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
-## 🎯 Goals
-- [x] Obtain Rising Badge.
-- [x] Receive Dratini (Bahamut).
-- [x] Visit Prof. Elm (Received Master Ball).
-- [ ] Surf East to Pokémon League.
-- [ ] Catch Legendary Beasts (Need Rainbow Wing).
-
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
 - **Key Item:** Clear Bell obtained from Director.
