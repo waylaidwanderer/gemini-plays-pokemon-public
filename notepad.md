@@ -271,10 +271,13 @@
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Strategy
 - **Objective:** Fill Pits (8, 3) and (8, 7).
-- **Status:** Resetting Room.
-- **Hypothesis A (Top Pit):** Boulder 7 (6, 1) -> Push East to (8, 1). Check if (8, 0) is fake wall. If so, push South to Pit (8, 3).
-- **Hypothesis B (Top Pit):** Boulder 7 -> Push to (9, 1). Check if (9, 0) is fake wall. Push South down Col 9, then West.
-- **Hypothesis C (Bottom Pit):** Boulder 6 (3, 3) -> South to Row 13 -> East to Col 6 -> North to (6, 7) -> East to Pit (8, 7).
+- **Current Plan (Two Boulder Strategy):**
+  1. **Boulder 6 (Top-Left):** Must fill Bottom Pit (8, 7). 
+     - Requires crossing Row 5 barrier. 
+     - **Hypothesis:** Fake wall at (5, 5) or (6, 5).
+  2. **Boulder 8 (Bottom-Right):** Must fill Top Pit (8, 3).
+     - Requires crossing Row 11 barrier (impossible?) OR crossing filled Bottom Pit.
+- **Status:** Reset Complete. Testing Row 5 walls.
 - **Failed Strategies:**
-  - **Boulder 7:** Pushing East to (7, 1) traps it; (7, 0) is a CONFIRMED WALL.
-  - **Boulder 8:** North blocked at (8, 9); East blocked at (9, 12); South loop to bottom pit plausible but untried.
+  - **Boulder 7:** Trapped in Row 1. Walls at (7,0) and (8,0) confirmed solid.
+  - **Boulder 8:** Trapped in Bottom Zone. Walls at Row 11 and Column 9 confirmed solid.
