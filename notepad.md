@@ -127,7 +127,6 @@
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
 - **PC**: An interactable object used to access the Pokémon Storage System and personal item storage. Impassable.
-- **LADDER**: A traversable warp tile that moves the player between floors. Hypothesis: May only be traversable vertically, not horizontally. Needs testing.
 - **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. My previous hypothesis that it was a one-way ledge was a hallucination.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
@@ -152,6 +151,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
+- **LADDER**: A traversable warp tile that moves the player between floors. Hypothesis: May only be traversable vertically, not horizontally. Needs testing.
 
 # Current Quest: Journey to Olivine City
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
@@ -289,8 +289,4 @@
 # Puzzle Solutions & Lessons
 - **VERIFY POSITION POST-WARP:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
 - **Internal vs. External Puzzles:** If all internal paths in a puzzle area are exhaustively and methodically proven to be dead ends, the root hypothesis that a solution exists internally is false. I must pivot to an external search for a trigger or item much faster instead of getting stuck in a loop.
-- Youngster Joey on Route 30 called for a rematch.
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
-- **LADDER**: A traversable warp tile that moves the player between floors. Hypothesis: May only be traversable vertically, not horizontally. Needs testing.
-- **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
-- **Teacher in Olivine Pokémon Center:** Mentioned a person in Cianwood City, across the sea, who has a rare POKéMON.
