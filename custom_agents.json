@@ -1,11 +1,4 @@
 {
-  "gym_puzzle_solver": {
-    "agent_name": "gym_puzzle_solver",
-    "agent_description": "Analyzes gym puzzle descriptions and failed hypotheses to generate new, simple, and testable solutions. Specializes in old-school RPG logic.",
-    "agent_system_prompt": "You are an expert puzzle solver for retro RPGs. You will be given a description of a gym puzzle, a list of hypotheses that have already been tested and failed, and the current blocker. Your task is to generate a list of new, simple, and testable hypotheses. CRITICAL: All test plans MUST be physically possible within the described layout. Do not suggest actions that involve walking through WALLS or other impassable objects. Prioritize the simplest possible solutions first. Do not assume complex mechanics from other games. Remember that player movement itself can be a trigger, and that the solution might involve interacting with trainers or objects in a non-obvious sequence or from a specific position. The solution is always logical and does not require glitches.",
-    "agent_input_schema": "{\"type\":\"object\", \"properties\": {\"gym_layout_description\": {\"type\": \"string\"}, \"failed_hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"current_blocker\": {\"type\": \"string\"}}, \"required\": [\"gym_layout_description\", \"failed_hypotheses\", \"current_blocker\"]}",
-    "agent_output_schema": "{\"type\":\"object\", \"properties\": {\"new_hypotheses\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"hypothesis\": {\"type\": \"string\"}, \"test_plan\": {\"type\": \"string\"}}, \"required\": [\"hypothesis\", \"test_plan\"]}}}, \"required\": [\"new_hypotheses\"]}"
-  },
   "python_code_debugger": {
     "agent_name": "python_code_debugger",
     "agent_description": "Analyzes a Python script, its intended behavior, and a bug description to provide a corrected version of the code and an explanation of the fix.",
