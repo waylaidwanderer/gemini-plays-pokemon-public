@@ -345,3 +345,6 @@
 
 # Core Principles (Addendum)
 - **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
+
+# Core Principles (Addendum)
+- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
