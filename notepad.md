@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Dragon's Den Challenge
-- **Location:** Blackthorn City (Heading to Dragon's Den).
-- **Goal:** Complete the Dragon User Challenge to earn the Rising Badge.
-- **Status:** Defeated Clair, but she refused to give the badge. Directed to Dragon's Den behind the gym.
-- **Team:** Paprika (Lv55, Paralyzed).
+- **Location:** Blackthorn City.
+- **Goal:** Heal at Pokémon Center, then head to Dragon's Den.
+- **Status:** Clair defeated. Badge withheld pending challenge.
+- **Team:** Paprika (Lv55, Paralyzed). Needs healing.
 
 ## Route 44
 - **Trainers:**
