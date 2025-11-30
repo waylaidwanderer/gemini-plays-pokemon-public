@@ -298,3 +298,6 @@
 # Core Principles (Addendum)
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
 - **VERIFY POSITION BEFORE TOOL USE:** A critical hallucination occurred because I failed to verify my coordinates before a pathing tool execution. I MUST verify my current `(x, y)` and `map_id` in the Game State Information after EVERY movement or interruption before planning my next action, especially before using any coordinate-based tools.
+
+# Core Principles (Addendum)
+- **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
