@@ -263,9 +263,8 @@
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Status
 - **Goal:** Reach the Right Side of the gym (Ladder at 7,9).
-- **Strategy:** Cross from Left to Right on 1F via Row 16 (bottom of the room), which appears to be a clear path connecting the two sides.
+- **Strategy:** Flank via 2F Column 0. Path: Go to (0,3) -> South to (0,9) (bypassing Ladder warp at 1,7) -> East to (3,9) -> South to (3,13) -> East to (6,13) -> North to Ladder at (7,9).
 - **Rejected Hypotheses:**
-  - Bridge via Boulder B (Impossible to position).
-  - Fake walls on 2F (Column 4 walls verified solid).
-  - 1F Row 11 crossing (Blocked by walls).
-- **Correction:** Previously missed that Row 16 on 1F is fully traversable FLOOR tiles.
+  - Bridge via Boulder B (Impossible).
+  - Fake walls on 2F (Column 4 verified solid).
+  - 1F Crossing (Blocked by Row 11 walls isolating the Ladder).
