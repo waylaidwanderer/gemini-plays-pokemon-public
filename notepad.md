@@ -10,7 +10,7 @@
 - [x] Obtain Rising Badge.
 - [x] Receive Dratini (Bahamut).
 - [x] Exit Dragon's Den.
-- [ ] Fly to New Bark Town (Visit Prof. Elm).
+- [x] Fly to New Bark Town (Visit Prof. Elm).
 - [ ] Surf East to Pokémon League.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
