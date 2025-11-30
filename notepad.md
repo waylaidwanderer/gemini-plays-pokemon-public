@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 27 (Kanto!)
-- **Location:** Route 27 (Bridges).
-- **Goal:** Traverse Route 27 to reach Indigo Plateau.
-- **Status:** Crossing bridges East of Rest House. Defeated Megan, Blake, Brian, Gilbert, Reena.
+## 📍 Current Status: Route 26 (Kanto!)
+- **Location:** Route 26 (South).
+- **Goal:** Traverse Route 26 North to Victory Road.
+- **Status:** Just arrived from Route 27. Heading North.
 - **Team:** Paprika (Lv56), Bahamut (Lv15).
 
 ## 🎯 Goals
