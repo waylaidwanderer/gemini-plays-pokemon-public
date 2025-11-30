@@ -2,14 +2,15 @@
 
 ## 📍 Current Status: Dragon Shrine
 - **Location:** Dragon Shrine (Interior).
-- **Goal:** Obtain Rising Badge.
-- **Status:** Dragon User Challenge Passed (Answers: Friend, Raising, Anybody, Love, Both).
+- **Goal:** Challenge the Pokémon League.
+- **Status:** Rising Badge obtained! Can use Waterfall. All Pokémon obey.
 - **Team:** Paprika (Lv55). F (Psyduck) knows Whirlpool.
 
 ## 🎯 Goals
-- [x] Complete Dragon User Challenge.
-- [ ] Teach Whirlpool to F (Psyduck).
-- [ ] Obtain Rising Badge from Clair.
+- [x] Obtain Rising Badge.
+- [ ] Receive Dratini from Elder (Special gift for correct answers).
+- [ ] Receive TM24 (Dragonbreath) from Clair (Likely at Gym or exit).
+- [ ] Return to New Bark Town.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
 ## Route 44 (Cleared)
