@@ -280,3 +280,7 @@
   - **Test Result:** Systematically walked over every floor tile on the western side of 3F. No hidden pit was found. Hypothesis is disproven.
 - **Hypothesis 2 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
   - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
+
+# Reflection Lessons
+- **Incremental Notepad Edits:** If a large `notepad_edit` fails (especially `overwrite`), break the changes into smaller, verifiable chunks using `replace` or `append` and interleave them with gameplay actions to maintain momentum and avoid getting stuck in editing loops.
+- **WARP_CARPET_UP:** A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
