@@ -258,3 +258,5 @@
 - Received call from Picnicker Gina (Route 34): Has a gift for me (Leaf Stone/etc likely).
   - Psychic Richard (Espeon Lv36) at (13, 79). Defeated.
   - Reached House at (15, 57). Investigating.
+## Lessons Learned
+- **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
