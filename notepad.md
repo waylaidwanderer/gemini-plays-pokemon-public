@@ -333,3 +333,7 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29571)
 - CRITICAL HALLUCINATION RECOVERY: I have repeatedly hallucinated my current map and coordinates, causing tools to crash and wasting turns. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
+
+# Reflection Lessons (Turn 29624)
+- **Path Interruption Strategy:** When a long, automated path (like from `plan_systematic_search_path`) is interrupted by a new or moving obstacle, the entire path is invalid. The correct procedure is to immediately regenerate the path from the new current position, not attempt to resume the old one.
+- **Dynamic NPC Presence:** Some NPCs that appear static may despawn and respawn based on player position or other triggers. Their sudden absence can open previously blocked paths, and their reappearance can re-block them. The map state is not always persistent even within a single visit.
