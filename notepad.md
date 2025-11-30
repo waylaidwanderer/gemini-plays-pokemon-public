@@ -247,12 +247,10 @@
 - **Correction:** Turn 15025 reported surfing at (24, 30) was a hallucination. Verify 'Standing on tile: WATER' before confirming surfing state.
 - **Pathfinding Issue:** `find_path` repeatedly dismounts player when surfing in Dragon's Den. Switch to manual surfing for now.
 - **Dragon's Den Exit Strategy:** Navigate West Channel (x=10). Path: Surf North to (10, 21), Clear Whirlpool at (10, 20), Exit at (20, 3).
-- **Tools:** Defined `attempt_surf` for robust surfing interaction. Added `sequence_press` to tool list.
-- **Tools:** Defined `attempt_surf` to standardize surfing interactions. Documented `sequence_press` usage.
-- **Pathfinding Lesson:** Weighted edges are critical for Surfing. Penalize Water->Land transitions massively (cost 1000+) unless the destination is the specific target to prevent accidental dismounting on islands.
 ## Tool Reference
-- **find_path**: Custom tool for pathfinding. Handles obstacles and surfing penalties. (Executed via 'path' command in logs).
+- **find_path**: Custom tool for pathfinding. Handles obstacles and surfing penalties.
 - **attempt_surf**: Standardized surfing interaction sequence.
 - **select_move**: Automates battle move selection.
 - **sequence_press**: Executes button sequences.
-- **WATERFALL:** Traversable from below using HM07 Waterfall. Acts as a one-way path up.
+- **battle_advisor**: Custom agent for battle strategy analysis.
+- **WATERFALL**: Traversable from below using HM07 Waterfall. Acts as a one-way path up.
