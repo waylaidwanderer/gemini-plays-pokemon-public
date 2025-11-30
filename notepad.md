@@ -9,7 +9,7 @@
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
 - [x] Receive Dratini (Bahamut).
-- [ ] Exit Dragon's Den.
+- [ ] Exit Dragon's Den (In Progress).
 - [ ] Fly to New Bark Town (Visit Prof. Elm).
 - [ ] Surf East to Pokémon League.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
