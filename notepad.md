@@ -296,3 +296,7 @@
 # Core Principles
 - **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
 - **VERIFY POSITION POST-WARP:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
+
+### Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (Active):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
+  - **Test Plan:** Go to 3F and systematically walk over every floor tile to find a hidden pit.
