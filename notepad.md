@@ -23,8 +23,10 @@
 - **Next Step:** Exit tower and fly to Ecruteak.
 
 ## Completed Areas Summary
-- **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower cleared. Lighthouse cleared.
-- **Mahogany Area:** Cleared Team Rocket Base. Defeated Gym Leader Pryce.
+- **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower & Lighthouse cleared.
+- **Mahogany/Lake:** Cleared Team Rocket Base & Gyarados. Defeated Pryce.
+- **Goldenrod:** Radio Tower liberated. Team Rocket disbanded.
+- **Blackthorn:** Gym Leader Clair defeated. Dragon's Den cleared (Rising Badge obtained).
 
 ## Quest Log
 - **Badges:** Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
