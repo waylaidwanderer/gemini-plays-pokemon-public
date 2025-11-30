@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: New Bark Town
-- **Location:** Prof. Elm's Lab.
+## 📍 Current Status: Route 27 (En Route to League)
+- **Location:** Surfing East of New Bark Town.
 - **Goal:** Challenge the Pokémon League.
-- **Status:** Master Ball obtained! Rising Badge obtained.
+- **Status:** Master Ball obtained! Heading to Victory Road.
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals
