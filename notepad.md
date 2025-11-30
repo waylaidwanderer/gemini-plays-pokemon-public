@@ -319,3 +319,6 @@
 # Core Principles (Addendum)
 - **Challenging False Constraints:** When stuck on a puzzle or blocked by an obstacle, I must aggressively challenge my foundational assumptions. If a strategy (e.g., 'I must get past this NPC') is failing repeatedly, the root hypothesis is likely a false constraint. I must stop trying to solve the problem as I see it and instead look for completely different solutions (e.g., non-linear paths, external triggers) that bypass the perceived problem entirely.
 - **Trust NPC Hints:** Direct dialogue from NPCs can provide critical clues and even explicitly confirm if a path is a dead end. This information must be trusted and used to guide my strategy, preventing wasted time exploring confirmed dead ends.
+
+# Tools & Agents
+- **`find_path` Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
