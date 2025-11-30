@@ -263,13 +263,14 @@
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Status
 - **Goal:** Reach the Right Side of the gym (Ladder at 7,9).
-- **Current Status:** Stuck on Left Side (Column 0-3).
+- **Current Status:** Navigating Central Area (Column 3) to Right Side via Row 13.
 - **Wall Tests (Column 4):**
   - (4, 3): SOLID (Verified).
   - (4, 4): SOLID (Verified).
   - (4, 5): SOLID (Verified).
-  - **Conclusion:** Column 4 is a solid barrier.
-- **Next Step:** Verify gap at (2, 9). Map data shows FLOOR, visual looked like wall earlier. Must re-verify.
+  - **Conclusion:** Column 4 is a solid barrier, EXCEPT at Row 13.
+- **Gap at (2, 9):** CONFIRMED OPEN. Successfully crossed from Left Side.
+- **Next Step:** Go South to (3, 13), East to (6, 13), then North to Ladder at (7, 9).
 - **Rejected Hypotheses:**
   - Bridge via Boulder B (Impossible).
   - Fake walls on 2F (Column 4 verified solid).
