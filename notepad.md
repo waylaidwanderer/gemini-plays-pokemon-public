@@ -323,10 +323,6 @@
 - **Test Plan:** Systematically walk to every dead-end tile and corner on the 2nd floor and press the 'interact' button. Starting with the eastern alcove.
 
 # Core Principles (Addendum)
-- **Proactive Stunning:** If a path is repeatedly blocked by a moving NPC, stunning them with `stun_npc` is a more reliable and efficient strategy than repeatedly recalculating the path.
-- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
-
-# Core Principles (Addendum)
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The system has identified multiple severe unproductive loops. I must be more vigilant in recognizing these patterns and break them by choosing a different path or objective immediately, rather than repeating the same failed actions.
 - **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
 
