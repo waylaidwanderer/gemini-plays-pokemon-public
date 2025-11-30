@@ -290,3 +290,4 @@
 - **VERIFY POSITION POST-WARP:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
 - **Internal vs. External Puzzles:** If all internal paths in a puzzle area are exhaustively and methodically proven to be dead ends, the root hypothesis that a solution exists internally is false. I must pivot to an external search for a trigger or item much faster instead of getting stuck in a loop.
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
+- Puzzle State Changes: My assumption that exploring a new area on 2F would change the layout of 3F was incorrect. Puzzle states are likely only changed by direct interaction or explicit triggers, not by simply visiting other areas.
