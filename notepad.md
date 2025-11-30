@@ -298,5 +298,6 @@
 - **VERIFY POSITION POST-WARP:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
 
 ### Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Active):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
-  - **Test Plan:** Go to 3F and systematically walk over every floor tile to find a hidden pit.
+- **Hypothesis 1 (FAILED):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
+  - **Test Result:** Systematically walked over every floor tile on the western side of 3F. No hidden pit was found. Hypothesis is disproven.
+- **Hypothesis 2 (Active):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
