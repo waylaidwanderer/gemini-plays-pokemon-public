@@ -230,8 +230,8 @@
 
 # Olivine Lighthouse Puzzle - Consolidated Findings
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Key Insight:** Progress is not linear. The correct path involved falling through a PIT on 2F to access a new area on 1F, which then led to a new ladder back up to 2F.
-- **Current Status:** I am on 3F. The western side is a confirmed dead end. The way forward must be through the eastern side of the floor, which is currently inaccessible from my position. I must return to 2F to find another way up to the eastern side of 3F.
+- **Key Insight:** Progress is not linear. The correct path involved falling through a specific PIT on 2F (the one at (17, 13)) to access a new area on 1F.
+- **Current Status:** My previous exploration of the eastern side of OlivineLighthouse2F was incomplete. I incorrectly concluded it was a dead end. This is now the most promising path forward and must be fully explored.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -283,7 +283,6 @@
 - **Hypothesis #1 (Primary):** The path to the eastern section of 3F requires descending from the 4th floor. (Test: Find a way to 4F, then find a hole/stairs leading down into the inaccessible eastern part of 3F.)
 - **Hypothesis #2 (Secondary):** An external balcony on a higher floor provides access. (Test: Find a door to an outside ledge on 4F and follow it.)
 - **Hypothesis #3 (Tertiary):** A previously used warp has a dual destination. (Test: Re-use all known warps on 1F and 2F.)
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 
 # Puzzle Lessons
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
