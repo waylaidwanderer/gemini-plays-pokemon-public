@@ -5,7 +5,7 @@
 - **Goal:** Defeat Gym Leader Clair.
 - **Current Task:** Re-investigate Right Side Puzzle (Boulder 8).
 - **Active Strategy:**
-  1. **Transit:** Move to Right Side via 1F Ladder (7, 9).
+  1. **Transit:** Return to 2F via Ladder (1, 7). Cross to Right Side via Row 13.
   2. **Hypothesis:** Verify walls at (8, 8) and (8, 9) on 2F. If fake, Boulder 8 can be pushed North.
   3. **Alternative:** Re-examine Column 9 constraints.
 - **Failed Strategy (Left Side):**
