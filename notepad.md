@@ -3,7 +3,7 @@
 ## 📍 Current Status: Victory Road
 - **Location:** Victory Road (ID: 3_91).
 - **Goal:** Traverse Victory Road to Indigo Plateau.
-- **Status:** Exploring Victory Road. Picked up Full Heal at (15, 48) and Max Revive at (12, 48). Exploring West side.
+- **Status:** Exploring central area. Climbed ladder at (1, 35). Heading to item at (7, 38).
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## 🎯 Goals
