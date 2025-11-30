@@ -262,13 +262,11 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Status
-- **Goal:** Fill Pits at (8, 3) and (8, 7) to reach Clair.
-- **Boulder Analysis:**
-  - **Boulder A (7, 1):** Located at (7, 1). Push East blocked by wall at (8,0). Push West blocked by Cooltrainer at (4,1). Need to clear Cooltrainer or find fake wall.
-  - **Boulder B (3, 3):** Used to clear initial path.
-  - **Boulder C (8, 14):** Push North FAILED (Dead End).
-  - **New Plan:** Push Boulder C South to (8, 16) to access West area.
-  - **Target:** Find Boulder D at (6, 16) and push to Pit (8, 7).
-- **Critical Verification:**
-  - Row 0 verified SOLID.
-  - Column 7/9 walls around (8, 14) appear solid.
+- **Goal:** Reach the Right Side of the gym to solve the main puzzle.
+- **Hypothesis:** The Right Side is inaccessible from the 2F Left Side directly. I must create a bridge on 1F to cross over.
+- **Active Strategy:**
+  1. Push Boulder B (3, 3) South to (3, 4).
+  2. Push Boulder B West to (2, 4).
+  3. Push Boulder B South into Pit (2, 5).
+  4. Drop into Pit (2, 5) to land on 1F.
+  5. Use the dropped boulder to cross the gap on 1F and reach the Right Side ladder at (7, 9).
