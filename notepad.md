@@ -291,3 +291,4 @@
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 - **LADDER**: A traversable warp tile that moves the player between floors. Hypothesis: May only be traversable vertically, not horizontally. Needs testing.
 - **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
+- **Teacher in Olivine Pokémon Center:** Mentioned a person in Cianwood City, across the sea, who has a rare POKéMON.
