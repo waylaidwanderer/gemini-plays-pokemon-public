@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Indigo Plateau
-- **Location:** Indigo Plateau Pokémon Center (ID: 16_2).
-- **Status:** Preparing to challenge the Elite Four.
-- **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+## 📍 Current Status: Elite Four - Will
+- **Location:** Will's Room (ID: 16_3).
+- **Status:** Battling Will (Slowbro).
+- **Team:** Paprika (Lv59), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
