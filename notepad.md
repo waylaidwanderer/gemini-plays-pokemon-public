@@ -1,20 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Dragon Shrine
-- **Location:** Dragon Shrine (Interior).
+## 📍 Current Status: Dragon's Den
+- **Location:** Dragon's Den B1F.
 - **Goal:** Challenge the Pokémon League.
-- **Status:** Rising Badge obtained. Dratini acquired!
-- **Team:** Paprika (Lv55). Dratini joined!
+- **Status:** Rising Badge obtained. Bahamut (Dratini) joined the team!
+- **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
-- [x] Receive TM24 (Dragonbreath) from Clair.
-- [x] Deposit Pokémon at PC to make space for Dratini.
-- [x] Return to Dragon Shrine for Dratini.
-- [x] Receive Dratini from Elder.
-- [ ] Nickname Dratini (Current Task).
-- [ ] Fly to New Bark Town -> Surf East to Pokémon League.
-- [ ] Return to New Bark Town.
+- [x] Receive Dratini (Bahamut).
+- [ ] Exit Dragon's Den.
+- [ ] Fly to New Bark Town (Visit Prof. Elm).
+- [ ] Surf East to Pokémon League.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
 ## Route 44 (Cleared)
