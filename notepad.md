@@ -292,3 +292,7 @@
 - **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 - Puzzle State Changes: My assumption that exploring a new area on 2F would change the layout of 3F was incorrect. Puzzle states are likely only changed by direct interaction or explicit triggers, not by simply visiting other areas.
 - Hiker Anthony on Route 33 called for a battle.
+
+# Core Principles
+- **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
+- **VERIFY POSITION POST-WARP:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
