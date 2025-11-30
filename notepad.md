@@ -2,8 +2,7 @@
 
 ## 📍 Current Status: Victory Road
 - **Location:** Victory Road (ID: 3_91).
-- **Goal:** Traverse Victory Road to Indigo Plateau.
-- **Status:** Managing inventory to collect HP Up at (7, 38).
+- **Status:** Traversing the eastern corridor to reach the northern section.
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
