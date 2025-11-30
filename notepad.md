@@ -288,3 +288,4 @@
 - **Verify Position Post-Warp:** To combat hallucinations, I MUST verify my current map and coordinates in the Game State Information after every single map transition before planning my next action.
 - **Internal vs. External Puzzles:** If all internal paths in a puzzle area are exhaustively and methodically proven to be dead ends, the root hypothesis that a solution exists internally is false. I must pivot to an external search for a trigger or item much faster instead of getting stuck in a loop.
 - Youngster Joey on Route 30 called for a rematch.
+- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
