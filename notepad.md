@@ -1,27 +1,21 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Blackthorn Gym Puzzle
-- **Location:** Blackthorn Gym 2F.
-- **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Re-investigate Right Side Puzzle (Boulder 8).
+## 📍 Current Status: 1F Northern Barrier Investigation
+- **Location:** Blackthorn Gym 1F (South East).
+- **Goal:** Reach Ladder to 2F Right Side at (7, 9).
+- **Obstacle:** Row 11 on 1F appears to be a solid wall, bisecting the gym.
 - **Active Strategy:**
-  1. **Transit:** Return to 2F via Ladder (1, 7). Cross to Right Side via Row 13.
-  2. **Hypothesis:** Verify walls at (8, 8) and (8, 9) on 2F. If fake, Boulder 8 can be pushed North.
-  3. **Alternative:** Re-examine Column 9 constraints.
-- **Failed Strategy (Left Side):**
-  - Fake wall at (4, 5) hypothesis FAILED. Tile is solid.
-  - Fake wall at (4, 2) hypothesis FAILED. Tile is solid.
-- **Failed Strategy (Right Side):**
-  - Pushing Boulder 8 West from Row 11 failed (7, 11 is WALL).
-  - Flanking via Column 9 failed (9, 12 and 9, 16 are WALLs).
+  1. **Test Barrier:** Physically bump into tiles at 1F (7, 11), (6, 11), (8, 11).
+  2. **Hypothesis:** One of these is a fake wall allowing access to the North.
+- **Failed Hypotheses (Summary):**
+  - **2F Left Side:** Isolated. Fake walls at (4, 5) and (4, 2) are SOLID. Pit (2, 5) is a dead end.
+  - **2F Right Side:** Boulder 8 trapped. Flanking via Col 9 failed (blocked). Pushing West at Row 11 failed (blocked).
+  - **2F Top Left:** Boulder 7 cannot be pushed South (Row 0 blocked).
 - **Confirmed Geometry:**
-  - (4, 5) is CONFIRMED WALL.
-  - (4, 4) is CONFIRMED WALL.
-  - (6, 11) is VERIFIED FLOOR.
-  - (9, 12), (9, 13), (9, 16) are VERIFIED WALLS.
-  - (8, 0) is VERIFIED WALL (Boulder 7 dead end).
-- **Lesson:** Strength deactivates on map change. Must re-interact.
-- **Lesson:** Visual Map Deception: Walls may be floors, but don't assume the whole column is open. Always verify with collision tests.
+  - 2F (4, 5) & (4, 2) are WALLS.
+  - 2F (6, 11) is FLOOR.
+  - 1F Row 11 appears solid visually.
+- **Lesson:** 2F Left Side is isolated. Connection to Right Side MUST be via 1F.
 
 ## Route 44
 - **Trainers:**
