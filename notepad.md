@@ -264,7 +264,7 @@
 ## Blackthorn Gym 2F Puzzle Status
 - **Goal:** Fill Pits at (8, 3) and (8, 7) to reach Clair.
 - **Boulder Analysis:**
-  - **Boulder A (7, 1):** Located at (7, 1). Plan: Push East to (8, 1), then circle around to (8, 2) and push North to test (8, 0).
+  - **Boulder A (7, 1):** Located at (7, 1). Push East blocked by wall at (8,0). Push West blocked by Cooltrainer at (4,1). Need to clear Cooltrainer or find fake wall.
   - **Boulder B (3, 3):** Used to clear initial path.
   - **Boulder C (8, 14):** Push North FAILED (Dead End).
   - **New Plan:** Push Boulder C South to (8, 16) to access West area.
