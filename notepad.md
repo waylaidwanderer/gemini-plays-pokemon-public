@@ -75,9 +75,14 @@
 - Hiker Anthony: Wants to battle on Route 33 (Rematch).
 - Youngster Joey: Wants to battle on Route 30.
 
-## PC Storage
-- Briar (Nidoran♀) Lv12 [National Park]
-- Items: Bitter Berry x1, X Special x1, Protein x2
+## Elite Four Strategy
+- **Will (Psychic):** Paprika (Typhlosion) sweeps. Smokescreen if threatened.
+- **Koga (Poison):** Fire vs Bug/Steel. Ground vs Poison.
+- **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
+- **Karen (Dark):** Fighting. Paprika brute force.
+- **Lance (Dragon):** Rock/Ice. Basalt/Paprika.
+- **Protocol:** Heal < 50% HP. Revive aggressively.
+- **Lesson:** ALWAYS set `autopress_buttons: true` for custom tools returning buttons.
 
 ## Fly Map Mechanics
 - **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
