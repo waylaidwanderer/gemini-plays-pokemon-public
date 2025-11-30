@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 27 (Kanto!)
-- **Location:** Route 27 (Rest House).
+- **Location:** Route 27 (Bridges).
 - **Goal:** Traverse Route 27 to reach Indigo Plateau.
-- **Status:** Received TM37 (Sandstorm). Exiting Rest House to Route 27.
-- **Team:** Paprika (Lv55), Bahamut (Lv15).
+- **Status:** Crossing bridges East of Rest House. Defeated Megan, Blake, Brian, Gilbert, Reena.
+- **Team:** Paprika (Lv56), Bahamut (Lv15).
 
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
