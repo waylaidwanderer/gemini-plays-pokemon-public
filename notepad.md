@@ -77,6 +77,7 @@
 
 ## PC Storage
 - Briar (Nidoran♀) Lv12 [National Park]
+- Items: Bitter Berry x1, X Special x1, Protein x2
 
 ## Fly Map Mechanics
 - **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
