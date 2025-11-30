@@ -259,3 +259,4 @@
 ## Blackthorn Gym
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
+- **Exit Strategy:** The 1F south path is blocked. Must take East Ladder (7, 9) to 2F, traverse to West Ladder, and descend to (1, 7) to reach the exit.
