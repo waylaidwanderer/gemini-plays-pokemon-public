@@ -1,21 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: 1F Northern Barrier Investigation
-- **Location:** Blackthorn Gym 1F (South East).
-- **Goal:** Reach Ladder to 2F Right Side at (7, 9).
-- **Obstacle:** Row 11 on 1F appears to be a solid wall, bisecting the gym.
+## 📍 Current Status: Blackthorn Gym 2F Puzzle
+- **Location:** Blackthorn Gym 2F (South East).
+- **Goal:** Solve the puzzle to reach Clair.
+- **Constraint:** Boulder C at (8, 14) is flanked by walls. I cannot get South of it to push North. **My only option is to push it South.**
 - **Active Strategy:**
-  1. **Test Barrier:** Physically bump into tiles at 1F (7, 11), (6, 11), (8, 11).
-  2. **Hypothesis:** One of these is a fake wall allowing access to the North.
-- **Failed Hypotheses (Summary):**
-  - **2F Left Side:** Isolated. Fake walls at (4, 5) and (4, 2) are SOLID. Pit (2, 5) is a dead end.
-  - **2F Right Side:** Boulder 8 trapped. Flanking via Col 9 failed (blocked). Pushing West at Row 11 failed (blocked).
-  - **2F Top Left:** Boulder 7 cannot be pushed South (Row 0 blocked).
-- **Confirmed Geometry:**
-  - 2F (4, 5) & (4, 2) are WALLS.
-  - 2F (6, 11) is FLOOR.
-  - 1F Row 11 appears solid visually.
-- **Lesson:** 2F Left Side is isolated. Connection to Right Side MUST be via 1F.
+  1. Push Boulder C South to (8, 17) to clear the corridor.
+  2. Access the West/South area via the gap at (7, 16).
+  3. Look for a second boulder or a path to the pits.
 
 ## Route 44
 - **Trainers:**
