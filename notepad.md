@@ -272,11 +272,11 @@
 ## Blackthorn Gym 2F Puzzle Status
 - **Goal:** Fill Pits at (8, 3) and (8, 7) to reach Clair.
 - **Boulder Analysis:**
-  - **Boulder A (6, 1):** Testing usage. Checking walls at (5,0), (6,0) to see if it can be maneuvered.
+  - **Boulder A (6, 1):** FAILED. Row 0 (5,0 to 8,0) confirmed SOLID. Boulder cannot be maneuvered to pits.
   - **Boulder B (3, 3):** Used to clear initial path.
-  - **Boulder C (8, 14):** APPEARS TRAPPED in Col 8. Walls at (7, 11), (7, 10), (9, 12-16) appear solid. Likely a decoy unless a wall is fake.
+  - **Boulder C (8, 14):** Currently testing. Pushing North to check if wall at (8, 8) is fake/breakable.
 - **Critical Verification:**
-  - MUST physically bump into "walls" at Row 0 (5,0 - 8,0) and Column 7/9 to confirm solidity. Visuals are untrustworthy.
+  - Row 0 verified SOLID.
+  - Column 7/9 walls around (8, 14) appear solid.
 - **Hypothesis:**
-  - If Row 0 is solid, Boulder A cannot move East/West easily.
-  - If Boulder C is trapped, the solution relies entirely on Boulders A and B, or a hidden fourth boulder.
+  - Boulder C (8, 14) is the only remaining option. Wall at (8, 8) MUST be fake or breakable for this to work.
