@@ -14,6 +14,8 @@
   - Pushing Boulder 8 West from Row 11 failed (7, 11 is WALL).
   - Flanking via Column 9 failed (9, 12 and 9, 16 are WALLs).
 - **Confirmed Geometry:**
+  - (4, 5) is FAKE WALL (Traversable).
+  - (4, 4) is CONFIRMED WALL.
   - (6, 11) is VERIFIED FLOOR.
   - (9, 12), (9, 13), (9, 16) are VERIFIED WALLS.
   - (8, 0) is VERIFIED WALL (Boulder 7 dead end).
