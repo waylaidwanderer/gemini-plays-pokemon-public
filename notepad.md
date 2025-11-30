@@ -1,26 +1,19 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Dragon's Den Challenge
-- **Location:** Dragon's Den B1F.
-- **Goal:** Complete Dragon User Challenge.
-- **Status:** Defeated Cooltrainer Darin. Exploring deeper.
-- **Team:** Paprika (Lv55).
-
-## Route 44
-- **Trainers:**
-  - Psychic Phil (Natu Lv24, Kadabra Lv26) at (8, 9). Defeated.
-  - Fisher Edgar at (19, 13). Defeated.
-  - Cooltrainer Cybil (Butterfree Lv25, Bellossom) at (27, 14). Defeated.
-  - Cooltrainer Allen (Charmeleon Lv27) at (37, 15). Defeated.
-  - Bird Keeper Vance (Pidgeotto x2 Lv25) at (51, 6). Defeated.
-- **Items:**
-  - Max Repel (14, 9). Picked up.
+## 📍 Current Status: Dragon's Den
+- **Location:** Dragon's Den B1F (Near Shrine).
+- **Goal:** Enter the Shrine and complete the Dragon User Challenge.
+- **Team:** Paprika (Lv55). F (Psyduck) needs to learn Whirlpool.
 
 ## 🎯 Goals
-- [x] Restock Poké Balls (40 Great Balls bought).
-- [x] Catch a Pokémon that can Fly (Vortex caught).
-- [x] Retrieve item from Gina (Route 34) - Checked, nothing yet.
+- [ ] Complete Dragon User Challenge (Answer questions correctly).
+- [ ] Teach Whirlpool to F (Psyduck).
+- [ ] Obtain Rising Badge from Clair.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
+
+## Route 44 (Cleared)
+- **Trainers:** Psychic Phil, Fisher Edgar, Cooltrainer Cybil, Cooltrainer Allen, Bird Keeper Vance (All Defeated).
+- **Items:** Max Repel (Picked up).
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
