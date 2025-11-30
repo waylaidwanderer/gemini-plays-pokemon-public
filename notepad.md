@@ -273,3 +273,4 @@
 - [ ] Buy Full Restore x10
 - [ ] Buy Revive x20
 - [ ] Withdraw useful items if space permits
+- **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences (like `sequence_press`) to ensure execution.
