@@ -256,7 +256,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `find_reachable_unseen_tiles`
+- `plan_systematic_search_path`
 - **`find_path` Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 
 ## Custom Agents

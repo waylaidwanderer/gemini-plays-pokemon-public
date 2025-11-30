@@ -633,18 +633,6 @@
       }
     ]
   },
-  "find_reachable_unseen_tiles": {
-    "description": "Analyzes the current map's XML data to identify all 'unseen' tiles that are reachable from the player's current position. This helps prioritize exploration by finding valid new paths.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\n    \"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \n    \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\"\n}\n\ngrid = {}\nplayer_pos = None\nunseen_tiles = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord = (x, y)\n        tile_type_raw = tile_elem.get('type')\n        tile_type = tile_type_raw.upper() if tile_type_raw is not None else None\n        has_object = tile_elem.find('.//Object') is not None\n        is_warp = tile_elem.get('is-warp') == 'true'\n        is_unseen = tile_type == 'UNSEEN'\n\n        if tile_elem.find('Player') is not None:\n            player_pos = coord\n\n        if is_unseen:\n            unseen_tiles.append(coord)\n        \n        impassable_by_type = (\n            tile_type is None or \n            tile_type in IMPASSABLE_TILES or \n            is_unseen\n        )\n        is_impassable = impassable_by_type or has_object\n\n        grid[coord] = {'type': tile_type, 'impassable': is_impassable, 'is_warp': is_warp}\n\ndef bfs(start, end_node):\n    if not start or start not in grid or grid[start]['impassable']:\n        return False\n    \n    queue = deque([start])\n    visited = {start}\n\n    while queue:\n        current = queue.popleft()\n\n        if current == end_node:\n            return True\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n\n            if neighbor not in grid or neighbor in visited:\n                continue\n            \n            # For this tool, the target is an unseen tile, so we must allow pathing TO it.\n            # But the path itself must consist of seen, non-warp tiles.\n            if neighbor != end_node and (grid[neighbor]['impassable'] or grid[neighbor]['is_warp']):\n                continue\n\n            # Ledge logic\n            current_type = grid[current]['type']\n            neighbor_type = grid[neighbor]['type']\n            if (current_type == 'LEDGE_HOP_DOWN' and dy == -1) or \\\n               (current_type == 'LEDGE_HOP_LEFT' and dx == 1) or \\\n               (current_type == 'LEDGE_HOP_RIGHT' and dx == -1):\n                continue\n            if (neighbor_type == 'LEDGE_HOP_DOWN' and dy != 1) or \\\n               (neighbor_type == 'LEDGE_HOP_LEFT' and dx != -1) or \\\n               (neighbor_type == 'LEDGE_HOP_RIGHT' and dx != 1):\n                continue\n            \n            visited.add(neighbor)\n            queue.append(neighbor)\n            \n    return False\n\nreachable_unseen = []\nif player_pos:\n    for unseen_coord in unseen_tiles:\n        # Find a reachable, seen, non-warp, non-object tile adjacent to the unseen tile to path to.\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            path_target = (unseen_coord[0] + dx, unseen_coord[1] + dy)\n            if path_target in grid and not grid[path_target]['impassable'] and not grid[path_target]['is_warp']:\n                if bfs(player_pos, path_target):\n                    reachable_unseen.append(unseen_coord)\n                    break # Found a path, no need to check other neighbors\n\nprint(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in sorted(list(set(reachable_unseen)))]))",
-    "history": [
-      {
-        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool automates the process of identifying which unexplored ('unseen') tiles on the current map are actually reachable from the player's position. It parses the map XML, finds all unseen tiles, and then runs a BFS from the player to an adjacent seen tile to confirm reachability. This will significantly improve exploration efficiency by highlighting viable new paths.",
-        "timestamp": "2025-11-29T21:20:57.281Z",
-        "action_counter": 26766
-      }
-    ]
-  },
   "select_item": {
     "description": "Automates selecting a specific item from the bag menu. It takes the target item's name and the current screen text as input. It must be state-aware, calculating moves relative to the current cursor position.",
     "input_schema": {
@@ -1250,6 +1238,46 @@
         "commit_message": "fix: Ignore 'FNT' status line during parsing. The `python_code_debugger` agent identified that the tool's regex was too general and incorrectly matched the 'FNT' (fainted) status line as a selectable menu option. This added an invalid entry to the options list and caused the index calculation to be off by one, resulting in a catastrophic failure. This commit adds a specific conditional check to explicitly ignore any parsed option named 'FNT', ensuring the list of selectable options is always correct.",
         "timestamp": "2025-11-27T03:15:41.250Z",
         "action_counter": 19459
+      }
+    ]
+  },
+  "plan_systematic_search_path": {
+    "description": "Calculates an efficient, continuous, and walkable path to visit every coordinate in a given list, starting from a specified point. Uses a BFS to path between nearest-neighbor points.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "tiles_to_visit": {
+          "type": "string"
+        },
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "tiles_to_visit",
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\nroot = ET.fromstring(map_xml_string)\nIMPASSABLE_TILES = {\n    \"WALL\", \"WATER\", \"HEADBUTT_TREE\", \"COUNTER\", \"TV\", \"BOOKSHELF\", \n    \"RADIO\", \"TOWN_MAP\", \"WINDOW\", \"PC\", \"FLOOR_UP_WALL\", \"MART_SHELF\"\n}\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        coord = (x, y)\n        tile_type_raw = tile_elem.get('type')\n        tile_type = tile_type_raw.upper() if tile_type_raw is not None else None\n        has_object = tile_elem.find('.//Object') is not None\n        is_warp = tile_elem.get('is-warp') == 'true'\n        has_obstacle_marker = False\n        for marker_elem in tile_elem.findall('.//Marker'):\n            if marker_elem.get('object_id') is not None:\n                has_obstacle_marker = True\n                break\n        impassable_by_type = (\n            tile_type is None or \n            tile_type in IMPASSABLE_TILES or \n            tile_type == 'UNSEEN'\n        )\n        is_impassable = impassable_by_type or has_object or has_obstacle_marker\n        grid[coord] = {'impassable': is_impassable, 'type': tile_type, 'is_warp': is_warp}\n\ndef bfs_to_nearest(start, targets):\n    if start not in grid or grid[start]['impassable']:\n        return None\n    queue = deque([start])\n    visited = {start}\n    came_from = {start: None}\n    while queue:\n        current = queue.popleft()\n        if current in targets:\n            path = []\n            step = current\n            while step is not None:\n                path.append(step)\n                step = came_from.get(step)\n            path.reverse()\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (current[0] + dx, current[1] + dy)\n            if neighbor not in grid or neighbor in visited:\n                continue\n            if grid[neighbor]['is_warp']:\n                continue\n            if grid[neighbor]['impassable']:\n                 continue\n            neighbor_type = grid[neighbor]['type']\n            if neighbor_type == 'LEDGE_HOP_DOWN' and dy == -1:\n                continue\n            if neighbor_type == 'LEDGE_HOP_LEFT' and dx == 1:\n                continue\n            if neighbor_type == 'LEDGE_HOP_RIGHT' and dx == -1:\n                continue\n            visited.add(neighbor)\n            came_from[neighbor] = current\n            queue.append(neighbor)\n    return None\n\ntiles_str = input_data['tiles_to_visit']\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\ntiles_list = json.loads(tiles_str)\ntiles_to_visit = set(tuple(coord) for coord in tiles_list)\nstart_node = (start_x, start_y)\n\nif start_node not in tiles_to_visit:\n    path_to_start = bfs_to_nearest(start_node, tiles_to_visit)\n    if not path_to_start:\n        print(json.dumps({'error': 'Start node is not on the visit list and no path to the visit list could be found.'}))\n        exit()\n    full_path = path_to_start\n    current_node = path_to_start[-1]\n    for node in path_to_start:\n        tiles_to_visit.discard(node)\nelse:\n    full_path = [start_node]\n    tiles_to_visit.discard(start_node)\n    current_node = start_node\n\nwhile tiles_to_visit:\n    path_to_next = bfs_to_nearest(current_node, tiles_to_visit)\n    if not path_to_next:\n        break \n    full_path.extend(path_to_next[1:])\n    current_node = path_to_next[-1]\n    for node in path_to_next:\n        tiles_to_visit.discard(node)\n\noutput_path = [{'x': p[0], 'y': p[1]} for p in full_path]\nprint(json.dumps(output_path))",
+    "history": [
+      {
+        "commit_message": "feat: Create plan_systematic_search_path tool. This tool automates the creation of an efficient path to visit a list of coordinates, which is essential for systematic area searches. This will prevent missed tiles and make exploration more reliable.",
+        "timestamp": "2025-11-30T12:32:15.197Z",
+        "action_counter": 28506
+      },
+      {
+        "commit_message": "fix: Overhaul path generation with integrated BFS. The previous version used a naive nearest-neighbor algorithm that did not account for obstacles, resulting in unwalkable paths that tried to move through walls. This commit replaces that logic with a new system that uses a BFS to find a valid, walkable path to the next closest point in the search set, ensuring the generated route is always valid. This resolves the catastrophic pathing failure.",
+        "timestamp": "2025-11-30T12:34:37.602Z",
+        "action_counter": 28509
+      },
+      {
+        "commit_message": "fix: Replace entire script with a robust version based on the working `find_path` tool. The previous version repeatedly failed by generating unwalkable paths through walls. This complete overhaul incorporates a proven BFS implementation for pathing between search points, includes proper ledge and warp handling for future use, and adds resiliency by allowing the search to resume correctly after an interruption. This resolves the catastrophic pathing failures.",
+        "timestamp": "2025-11-30T12:47:55.532Z",
+        "action_counter": 28526
       }
     ]
   }
