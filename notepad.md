@@ -313,3 +313,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # To-Do List
 - **High Priority:** Return to Olivine Lighthouse 2F and unstun Sailor Huey (ID 1) and the Gentleman (ID 2) once back in the area.
+
+# Reflection Lessons (Turn 29468)
+- **VERIFY ALL WARPS:** I hallucinated the coordinates for a warp. Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong and cannot be trusted.
