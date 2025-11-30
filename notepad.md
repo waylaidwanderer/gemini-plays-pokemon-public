@@ -3,7 +3,7 @@
 ## 📍 Current Status: Route 26 (Kanto!)
 - **Location:** Route 26 (Northern Section).
 - **Goal:** Traverse Route 26 North to Victory Road.
-- **Status:** Just defeated Cooltrainer Jake. Continuing North.
+- **Status:** Defeated Cooltrainer Beth. Investigating House at (7, 5).
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## 🎯 Goals
