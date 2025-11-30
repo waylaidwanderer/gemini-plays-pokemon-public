@@ -640,5 +640,31 @@
         "action_counter": 29089
       }
     ]
+  },
+  "plan_systematic_search_path": {
+    "description": "Generates a path to systematically visit every reachable, traversable tile in a contiguous area from a starting point. Useful for ensuring complete exploration of a room or puzzle area.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ngrid = []\nTRAVERSABLE_TILES = ['FLOOR', 'PIT', 'TALL_GRASS', 'LONG_GRASS', 'GRASS', 'FLOWER'] # Only search on basic floor types\n\nfor y, row_elem in enumerate(root.findall('Row')):\n    row = []\n    for x, tile_elem in enumerate(row_elem.findall('Tile')):\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.find('Object') is not None\n        is_traversable = tile_type in TRAVERSABLE_TILES and not has_object\n        row.append(1 if is_traversable else 0)\n    grid.append(row)\n\nstart_node = (start_x, start_y)\n\n# 1. Find all reachable nodes using BFS\nreachable_nodes = set()\nqueue = deque([start_node])\nvisited_bfs = {start_node}\nif grid[start_y][start_x] == 1:\n    reachable_nodes.add(start_node)\n\nwhile queue:\n    (x, y) = queue.popleft()\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] == 1 and (nx, ny) not in visited_bfs:\n            visited_bfs.add((nx, ny))\n            reachable_nodes.add((nx, ny))\n            queue.append((nx, ny))\n\nif not reachable_nodes:\n    print(json.dumps('No traversable area found.'))\nelse:\n    # 2. Find a path that visits all reachable nodes (TSP approximation - Nearest Neighbor)\n    unvisited = list(reachable_nodes)\n    unvisited.remove(start_node)\n    path = [start_node]\n    current_node = start_node\n\n    while unvisited:\n        # Find the nearest unvisited node using a simple BFS for pathfinding\n        q = deque([(current_node, [current_node])])\n        visited_path = {current_node}\n        nearest_target = None\n        shortest_sub_path = []\n        \n        found_in_unvisited = False\n        while q:\n            (cx, cy), cpath = q.popleft()\n            if (cx, cy) in unvisited:\n                nearest_target = (cx, cy)\n                shortest_sub_path = cpath\n                found_in_unvisited = True\n                break\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] == 1 and (nx, ny) not in visited_path:\n                    visited_path.add((nx, ny))\n                    new_path = list(cpath)\n                    new_path.append((nx, ny))\n                    q.append(((nx, ny), new_path))\n        \n        if nearest_target:\n            path.extend(shortest_sub_path[1:]) # Extend the main path\n            current_node = nearest_target\n            unvisited.remove(nearest_target)\n        else:\n            # Should not happen if all nodes are in one connected component\n            break\n\n    json_path = [{'x': p[0], 'y': p[1]} for p in path]\n    print(json.dumps(json_path))",
+    "history": [
+      {
+        "commit_message": "feat: Initial implementation of systematic search tool. This tool will generate a path to explore every reachable tile in a given area, ensuring no hidden items or triggers are missed. This is a proactive measure to solve complex exploration puzzles like the Olivine Lighthouse.",
+        "timestamp": "2025-11-30T19:07:22.103Z",
+        "action_counter": 29198
+      }
+    ]
   }
 }
