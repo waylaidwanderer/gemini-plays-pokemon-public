@@ -146,9 +146,16 @@
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
 - **LADDER**: A traversable warp tile that moves the player between floors. Hypothesis: May only be traversable vertically, not horizontally. Needs testing.
 
-# Current Quest: Journey to Olivine City
+# Current Quest: Olivine Lighthouse
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
-- **Status:** I am in Ecruteak City and have determined that I am currently blocked from progressing in the Burned Tower. My only other lead is the rumor about a sick Pokémon in Olivine City.
+- **Status:** I am on the 1st floor of the Olivine Lighthouse, in a previously inaccessible eastern section.
+- **Olivine Lighthouse Puzzle:**
+  - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
+  - **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F.
+  - **Summary of Findings:**
+    - **2F:** Two pits at (16, 13) and (17, 13) both lead to the eastern section of 1F. The western path has a ladder at (5, 3) leading up. The eastern path appears to be a dead end. Suspected warps at (16, 11) and (17, 11) are non-functional.
+    - **3F:** The western side, accessed from 2F, is a confirmed dead end (Youngster NPC is also stuck). The eastern side is currently inaccessible.
+  - **Current Hypothesis:** The way forward is on the 1st floor, which has not been fully explored yet.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -224,14 +231,6 @@
 ### Ruins of Alph - Kabuto Chamber Puzzle
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
-
-### Olivine Lighthouse Puzzle
-- **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F.
-- **Summary of Findings:**
-  - **2F:** Two pits at (16, 13) and (17, 13) both lead to the eastern section of 1F. The western path has a ladder at (5, 3) leading up. The eastern path appears to be a dead end. Suspected warps at (16, 11) and (17, 11) are non-functional.
-  - **3F:** The western side, accessed from 2F, is a confirmed dead end (Youngster NPC is also stuck). The eastern side is currently inaccessible.
-- **Current Hypothesis:** The way forward is on the 1st floor, which has not been fully explored yet.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
