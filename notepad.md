@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Route 27 (Kanto!)
-- **Location:** Tohjo Falls (Kanto/Johto Border).
-- **Goal:** Traverse Tohjo Falls to reach Indigo Plateau.
-- **Status:** Descended second waterfall. Exploring Southeast for exit.
+- **Location:** Route 27 (Rest House).
+- **Goal:** Traverse Route 27 to reach Indigo Plateau.
+- **Status:** Exited Tohjo Falls. Inside Rest House (Sandstorm House).
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals

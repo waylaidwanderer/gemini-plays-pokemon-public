@@ -317,7 +317,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\n\nmove_name = str(input_data['move_name']).upper()\nscreen_text = str(input_data['screen_text'])\n\nprint(f\"DEBUG: Target Move: {move_name}\")\n# print(f\"DEBUG: Screen Text:\\n{screen_text}\")\n\nlines = screen_text.split('\\n')\ncursor_line_index = -1\ntarget_line_index = -1\n\n# Search from the bottom up to find the menu elements (avoiding log text)\n# We assume the menu is at the bottom.\nfor i in range(len(lines) - 1, -1, -1):\n    line = lines[i]\n    # Check for cursor.\n    # Note: The arrow might be represented differently depending on OCR/Text extraction.\n    # Usually it is '▶'.\n    if '▶' in line and cursor_line_index == -1:\n        cursor_line_index = i\n        print(f\"DEBUG: Found cursor at line {i}: '{line}'\")\n    \n    # Check for target move.\n    if move_name in line and target_line_index == -1:\n        target_line_index = i\n        print(f\"DEBUG: Found target at line {i}: '{line}'\")\n\nbuttons = []\nif cursor_line_index != -1 and target_line_index != -1:\n    diff = target_line_index - cursor_line_index\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nelse:\n    print(f\"DEBUG: Failed to find cursor ({cursor_line_index}) or target ({target_line_index})\")\n    # Fail safe: Do not return random buttons. Return empty to avoid bad presses.\n    print(\"[]\")",
+    "python_script": "import json\n\nmove_name = input_data['move_name'].upper()\nscreen_text = input_data['screen_text']\n\nlines = screen_text.split('\\n')\ncursor_index = -1\ntarget_index = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_index = i\n    if move_name in line.upper():\n        target_index = i\n\nbuttons = []\nif cursor_index != -1 and target_index != -1:\n    diff = target_index - cursor_index\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend([\"Down\", \"sleep 200\"])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.extend([\"Up\", \"sleep 200\"])\n    buttons.append(\"A\")\nelse:\n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
@@ -343,6 +343,11 @@
         "commit_message": "fix: Refine select_move logic to robustly detect cursor and target move from screen text, adding debug prints to diagnose issues. This ensures the tool correctly handles persistent cursor memory in menus.",
         "timestamp": "2025-11-30T07:34:46.846Z",
         "action_counter": 14693
+      },
+      {
+        "commit_message": "fix: Remove debug print statements that were causing JSON parsing errors. The tool now strictly outputs only the JSON array of button presses.",
+        "timestamp": "2025-11-30T16:50:55.137Z",
+        "action_counter": 15149
       }
     ]
   },
