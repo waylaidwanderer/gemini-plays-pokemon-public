@@ -356,3 +356,7 @@
 
 # Core Principles (Addendum)
 - **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
+
+# Core Principles (Addendum)
+- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
+- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
