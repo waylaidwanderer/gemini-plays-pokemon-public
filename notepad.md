@@ -322,3 +322,6 @@
 
 # Tools & Agents
 - **`find_path` Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
+
+# New Lessons & Mechanics
+- **Cognitive Loop Breaking:** When stuck in an unproductive loop (like the 2F pits), it's a sign that the root hypothesis about the solution is likely a false constraint. I must aggressively challenge my foundational assumptions and re-examine all available data (map, game state, system warnings) for overlooked clues instead of persisting with a failing strategy.
