@@ -241,3 +241,4 @@
 - Prof. Elm called: Requests visit to Lab.
 - Plan: Get Dratini -> Visit Elm -> Route 34 (Gina's Gift).
 - **Surfing Interaction:** If pressing A or walking into water fails to trigger Surf, use the Start Menu -> Pokémon -> Surf method. It is more reliable.
+- **Lesson:** Surfing interaction requires specific facing and confirmation. Pathfinding must heavily penalize dismounting unless at the specific destination to avoid 'island hopping'.
