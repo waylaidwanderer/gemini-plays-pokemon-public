@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Victory Road
-- **Location:** Victory Road (ID: 3_91).
-- **Status:** Traversing the eastern corridor to reach the northern section.
+## 📍 Current Status: Route 23
+- **Location:** Route 23 (ID: 16_1).
+- **Status:** Approaching Indigo Plateau.
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
