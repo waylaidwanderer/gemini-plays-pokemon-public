@@ -318,3 +318,4 @@
 - **Test Plan:** Systematically walk to every single traversable tile in the isolated 1F room and press 'A'. To prevent accidental movement, I will turn to face an adjacent wall before each interaction.
 - **Conclusion:** FAILED. A systematic search of all floor tiles yielded no hidden switches or triggers. The solution must lie elsewhere.
 - **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
+- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
