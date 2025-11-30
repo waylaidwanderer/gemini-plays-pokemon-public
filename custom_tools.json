@@ -226,7 +226,7 @@
     ]
   },
   "select_move": {
-    "description": "Automatically selects a move in the battle menu by calculating the required button presses based on the cursor position in the screen text. Requires the move name and current screen text as input.",
+    "description": "Automatically selects a move in the battle menu by calculating the required button presses based on the cursor position in the screen text. Requires the move name and current screen text as input. Handles persistent cursor memory by scanning screen text.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -242,12 +242,17 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\n\nmove_name = str(input_data['move_name']).upper()\nscreen_text = str(input_data['screen_text'])\n\nlines = screen_text.split('\\n')\ncursor_line_index = -1\ntarget_line_index = -1\n\n# Search from the bottom up to find the menu elements (avoiding log text)\nfor i in range(len(lines) - 1, -1, -1):\n    line = lines[i]\n    if '▶' in line and cursor_line_index == -1:\n        cursor_line_index = i\n    if move_name in line and target_line_index == -1:\n        target_line_index = i\n\nbuttons = []\nif cursor_line_index != -1 and target_line_index != -1:\n    diff = target_line_index - cursor_line_index\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nelse:\n    # Fallback if parsing fails: just print empty array or error\n    print(\"[]\")",
+    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\nimport json\n\ntry:\n    move_name = str(input_data.get('move_name', '')).upper().strip()\n    screen_text = str(input_data.get('screen_text', ''))\n    \n    if not move_name or not screen_text:\n        print(\"[]\")\n        exit()\n\n    lines = screen_text.split('\\n')\n    cursor_line_index = -1\n    target_line_index = -1\n\n    # Search from the bottom up to find the active menu elements.\n    # This helps ensure we find the cursor in the battle menu rather than elsewhere.\n    for i in range(len(lines) - 1, -1, -1):\n        line = lines[i]\n        # Look for the cursor. The cursor char is usually '▶' (U+25B6).\n        if '▶' in line and cursor_line_index == -1:\n            cursor_line_index = i\n        \n        # Look for the move name. \n        if move_name in line.upper() and target_line_index == -1:\n            target_line_index = i\n            \n    buttons = []\n    if cursor_line_index != -1 and target_line_index != -1:\n        diff = target_line_index - cursor_line_index\n        if diff > 0:\n            buttons = [\"Down\"] * diff\n        elif diff < 0:\n            buttons = [\"Up\"] * abs(diff)\n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    else:\n        # If we can't find the cursor or target, return empty to prevent input errors.\n        print(\"[]\")\n\nexcept Exception:\n    print(\"[]\")",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
         "timestamp": "2025-11-25T17:55:51.068Z",
         "action_counter": 7861
+      },
+      {
+        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
+        "timestamp": "2025-11-30T07:21:13.927Z",
+        "action_counter": 14672
       }
     ]
   },
