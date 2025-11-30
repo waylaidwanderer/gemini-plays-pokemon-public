@@ -260,3 +260,5 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 - **Exit Strategy:** The 1F south path is blocked. Must take East Ladder (7, 9) to 2F, traverse to West Ladder, and descend to (1, 7) to reach the exit.
+### Tool Lessons
+- **select_move:** The game remembers the last cursor position in menus. Tools must account for this by either resetting the cursor or checking the current position before calculating button presses.
