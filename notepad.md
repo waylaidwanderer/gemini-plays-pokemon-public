@@ -349,3 +349,7 @@
 # Core Principles (Addendum)
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **POKEFAN_F**: An impassable NPC object, functions as a wall.
+
+# Core Principles (Addendum)
+- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
+- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
