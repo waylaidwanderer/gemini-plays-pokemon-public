@@ -284,3 +284,5 @@
 # Reflection Lessons
 - **Incremental Notepad Edits:** If a large `notepad_edit` fails (especially `overwrite`), break the changes into smaller, verifiable chunks using `replace` or `append` and interleave them with gameplay actions to maintain momentum and avoid getting stuck in editing loops.
 - **WARP_CARPET_UP:** A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
+- **Tool Design Philosophy:** Tool logic must be robust enough to handle all variations of game data structures. A fix for one edge case should not break the general case. Test fixes thoroughly.
+- **Task Management:** If a high-priority maintenance task (like a major notepad refactor) fails repeatedly, break it into smaller, incremental steps or temporarily abandon it to maintain gameplay momentum. Avoid getting stuck in unproductive loops.
