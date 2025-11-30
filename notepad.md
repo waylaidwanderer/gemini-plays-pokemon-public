@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 26 (Kanto!)
-- **Location:** Route 26 (Northern Section).
-- **Goal:** Traverse Route 26 North to Victory Road.
-- **Status:** Defeated Cooltrainer Beth. Investigating House at (7, 5).
+## 📍 Current Status: Victory Road Gate
+- **Location:** Victory Road Gate (ID: 23_13).
+- **Goal:** Traverse Victory Road to Indigo Plateau.
+- **Status:** Entered Victory Road Gate from Route 26.
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## 🎯 Goals
