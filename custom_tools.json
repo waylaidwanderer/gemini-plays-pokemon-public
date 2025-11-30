@@ -242,7 +242,7 @@
         "screen_text"
       ]
     },
-    "python_script": "# injected imports [\"sys\", \"json\"]\n# injected variables [\"map_xml_string\", \"input_data\"]\n\nimport json\n\ntry:\n    move_name = str(input_data['move_name']).upper().strip()\n    screen_text = str(input_data['screen_text'])\n\n    lines = screen_text.split('\\n')\n    cursor_line_index = -1\n    target_line_index = -1\n\n    # Search from the bottom up to find the menu elements (avoiding log text)\n    # This handles persistent cursor memory by finding where the cursor IS currently.\n    for i in range(len(lines) - 1, -1, -1):\n        line = lines[i]\n        if '▶' in line and cursor_line_index == -1:\n            cursor_line_index = i\n        if move_name in line and target_line_index == -1:\n            target_line_index = i\n\n    buttons = []\n    if cursor_line_index != -1 and target_line_index != -1:\n        diff = target_line_index - cursor_line_index\n        if diff > 0:\n            buttons = [\"Down\"] * diff\n        elif diff < 0:\n            buttons = [\"Up\"] * abs(diff)\n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    else:\n        # If we can't find the cursor or the move, return empty list to avoid erratic behavior\n        print(\"[]\")\nexcept Exception as e:\n    print(\"[]\")",
+    "python_script": "import json\n\nmove_name = str(input_data['move_name']).upper()\nscreen_text = str(input_data['screen_text'])\n\nprint(f\"DEBUG: Target Move: {move_name}\")\n# print(f\"DEBUG: Screen Text:\\n{screen_text}\")\n\nlines = screen_text.split('\\n')\ncursor_line_index = -1\ntarget_line_index = -1\n\n# Search from the bottom up to find the menu elements (avoiding log text)\n# We assume the menu is at the bottom.\nfor i in range(len(lines) - 1, -1, -1):\n    line = lines[i]\n    # Check for cursor.\n    # Note: The arrow might be represented differently depending on OCR/Text extraction.\n    # Usually it is '▶'.\n    if '▶' in line and cursor_line_index == -1:\n        cursor_line_index = i\n        print(f\"DEBUG: Found cursor at line {i}: '{line}'\")\n    \n    # Check for target move.\n    if move_name in line and target_line_index == -1:\n        target_line_index = i\n        print(f\"DEBUG: Found target at line {i}: '{line}'\")\n\nbuttons = []\nif cursor_line_index != -1 and target_line_index != -1:\n    diff = target_line_index - cursor_line_index\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nelse:\n    print(f\"DEBUG: Failed to find cursor ({cursor_line_index}) or target ({target_line_index})\")\n    # Fail safe: Do not return random buttons. Return empty to avoid bad presses.\n    print(\"[]\")",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
@@ -263,6 +263,11 @@
         "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
         "timestamp": "2025-11-30T07:25:07.230Z",
         "action_counter": 14678
+      },
+      {
+        "commit_message": "fix: Refine select_move logic to robustly detect cursor and target move from screen text, adding debug prints to diagnose issues. This ensures the tool correctly handles persistent cursor memory in menus.",
+        "timestamp": "2025-11-30T07:34:46.846Z",
+        "action_counter": 14693
       }
     ]
   },

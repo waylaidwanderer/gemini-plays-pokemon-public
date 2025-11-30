@@ -212,26 +212,9 @@
 - **Next Step:** Restock balls at Mart and start the hunt.
 - **Sages:** Spoken to all.
 - **Mechanic Confirmed:** 'Scoot' principle (leaving and re-entering map) successfully refreshed map state and moved Sages.
-### Tool Lessons
-- **Robustness:** For obstacle detection, use substring matching (e.g. "TREE" in type) to handle variants like HEADBUTT_TREE.
-- **Inventory Sorting:** TMs are listed numerically first, with HMs appearing at the bottom of the list (after the last TM).
-- **Ice Physics:** When implementing ice sliding logic, ensure the transition from non-ice to ice is treated as the start of a slide immediately upon entry, not as a single step.
-- **Item Found:** HM07 (Waterfall) at Ice Path 1F (North-East).
-- **Exploration:** Fell through ice hole at (12, 12) to new area (Map 3_63 top-left).
-- **Inventory:** Freed space by tossing Antidotes. Ready to pick up item at B2F (0, 2).
-- Puzzle B2F Center: Dropping from B1F(11,2) lands at (11,4). Sliding DOWN escapes to perimeter (Fail). Must try sliding LEFT or RIGHT next.
-### Lessons Learned
-- **Tool Safety:** ALWAYS set 'autopress_buttons: true' for movement tools. Verify movement occurred before assuming success.
-- Dropped from B1F (4, 7) -> Landed at B2F (4, 6). (4, 6) is solid ice. Sliding Down to test path.
-### Ice Path Puzzle Update
-- B2F Perimeter Loop: Confirmed that drops from (11,2), (5,12), and (4,7) lead to the outer loop.
-- Solution Plan: Push boulders into pits on B1F to create stop points on B2F.
-- Boulder 4 (Current: 15, 12): Push Down to (15, 13) -> Push Left into Pit (12, 13).
-
-### Lessons Learned
-- **Tool Safety:** Always double-check syntax when editing tools. A crash causes position hallucinations.
-- **Boulder Mechanics:** Use `sequence_press` for pushing. Ensure Strength is active. Pushing requires moving INTO the boulder.
-- Boulder 2 (Moved): Pushed to (11, 8) to clear path.
+### Archived Notes
+- **Ice Path:** Cleared. Puzzles solved using boulder drops.
+- **Tools:** `select_move` updated to handle persistent cursor.
 ## Blackthorn City
 - **Landmarks:**
   - Sign at (34, 24): "Blackthorn City - A Quiet Mountain Retreat"
