@@ -312,3 +312,8 @@
 - **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
 - **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
 - **Conclusion:** PENDING
+
+# Olivine Lighthouse Puzzle - Hypothesis Test #5
+- **Hypothesis:** Having exhausted all other possibilities, the solution must be a hidden item or switch on the floor of the isolated 1F room, which is activated by pressing the interact button.
+- **Test Plan:** Systematically walk to every single traversable tile in the isolated 1F room and press 'A'. To prevent accidental movement, I will turn to face an adjacent wall before each interaction.
+- **Conclusion:** PENDING
