@@ -246,3 +246,4 @@
 - **Pathfinding Issue:** `find_path` repeatedly dismounts player when surfing in Dragon's Den. Switch to manual surfing for now.
 - **Dragon's Den Exit Strategy:** East Channel (x=28) is a DEAD END blocked by buoys at Row 20. Correct path: Walk West to (14, 30), Surf Left, use West Channel (x=10) to go North.
 - **Tools:** Defined `attempt_surf` for robust surfing interaction. Added `sequence_press` to tool list.
+- **Tools:** Defined `attempt_surf` to standardize surfing interactions. Documented `sequence_press` usage.
