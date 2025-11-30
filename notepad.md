@@ -276,3 +276,4 @@
   - Fake walls on 2F (Column 4 verified solid).
   - 1F Crossing (Blocked by Row 11 walls isolating the Ladder).
   - Southern Crossing at Row 13 (Blocked by wall at 2,13).
+- **Battle Data:** Clair's Dragonair (Lv37) Surf vs Paprika (Lv54): ~32 DMG. Paprika can survive ~2-3 hits from full HP, or 2 hits from current 90 HP.
