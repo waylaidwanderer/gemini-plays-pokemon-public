@@ -321,3 +321,7 @@
 # Olivine Lighthouse Puzzle - Agent Hypothesis Test #3
 - **Hypothesis (from puzzle_solver agent):** There is a hidden item or switch on the floor that must be activated by pressing the interact button.
 - **Test Plan:** Systematically walk to every dead-end tile and corner on the 2nd floor and press the 'interact' button. Starting with the eastern alcove.
+
+# Core Principles (Addendum)
+- **Proactive Stunning:** If a path is repeatedly blocked by a moving NPC, stunning them with `stun_npc` is a more reliable and efficient strategy than repeatedly recalculating the path.
+- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
