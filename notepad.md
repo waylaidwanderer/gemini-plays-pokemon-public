@@ -348,3 +348,4 @@
 
 # Core Principles (Addendum)
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+- **POKEFAN_F**: An impassable NPC object, functions as a wall.
