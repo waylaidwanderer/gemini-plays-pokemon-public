@@ -320,3 +320,12 @@
 - **Conclusion:** FAILED. A systematic search of all floor tiles yielded no hidden switches or triggers. The solution must lie elsewhere.
 - **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
+
+# Olivine Lighthouse Puzzle - Consolidated Findings
+- **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
+- **Confirmed Dead Ends & Loops:**
+  - The path up from the isolated 1F room needs to be personally verified. My previous conclusion that it was a dead end was based on unverified NPC dialogue.
+  - Both pits on the eastern side of 2F (at (16, 13) and (17, 13)) lead to the same isolated section of 1F. This path needs to be re-investigated.
+- **Current Status:**
+  - Sailor Huey at (9, 3) on 2F has been defeated, granting full access to the entire floor.
+  - The correct path upwards must be on 2F, as all other known paths are confirmed loops or dead ends.
