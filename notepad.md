@@ -298,3 +298,8 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 - **Hypothesis 1 (DISPROVEN):** NPCs are trainers to be defeated. (I have already defeated both Sailor Huey and the Gentleman).
 - **Hypothesis 2 (DISPROVEN - WEST):** The inactive warps on 2F are landing spots for a pit on 3F. Test: Systematically walked over every tile on the accessible western side of 3F. Result: No pit found. The eastern side remains inaccessible from this floor.
 - **Hypothesis 3 (PENDING):** A trigger on 1F moves the NPCs. (Fallback plan if Hypothesis 2 fails).
+
+# Reflection Lessons (Turn 29363)
+- **Deterministic Strategy:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach.
+- **Tool Precondition Verification:** Before using a tool, I must verify its preconditions are met (e.g., for `stun_npc`, the target object must be on-screen and thus present in the `Map Objects On Screen` list).
+- **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly.
