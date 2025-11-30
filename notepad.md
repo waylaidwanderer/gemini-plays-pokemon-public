@@ -3,18 +3,19 @@
 ## 📍 Current Status: Blackthorn Gym Puzzle
 - **Location:** Blackthorn Gym 2F.
 - **Goal:** Defeat Gym Leader Clair.
-- **Current Task:** Solve Boulder 6 Puzzle (Left Side).
+- **Current Task:** Re-investigate Right Side Puzzle (Boulder 8).
 - **Active Strategy:**
-  1. **Reset:** Room reset complete via pit drop.
-  2. **Positioning:** Go to Left Side (Boulder 6 at 3,3).
-  3. **The Push:** Push Boulder 6 South down Column 3 to Row 13.
-  4. **The Transfer:** Push Boulder 6 East from (3, 13) to Column 6.
-  5. **The Finish:** Push Boulder 6 North up Column 6 to Row 7, then East into Pit (8, 7).
+  1. **Transit:** Move to Right Side via 1F Ladder (7, 9).
+  2. **Hypothesis:** Verify walls at (8, 8) and (8, 9) on 2F. If fake, Boulder 8 can be pushed North.
+  3. **Alternative:** Re-examine Column 9 constraints.
+- **Failed Strategy (Left Side):**
+  - Fake wall at (4, 5) hypothesis FAILED. Tile is solid.
+  - Fake wall at (4, 2) hypothesis FAILED. Tile is solid.
 - **Failed Strategy (Right Side):**
   - Pushing Boulder 8 West from Row 11 failed (7, 11 is WALL).
   - Flanking via Column 9 failed (9, 12 and 9, 16 are WALLs).
 - **Confirmed Geometry:**
-  - (4, 5) is FAKE WALL (Traversable).
+  - (4, 5) is CONFIRMED WALL.
   - (4, 4) is CONFIRMED WALL.
   - (6, 11) is VERIFIED FLOOR.
   - (9, 12), (9, 13), (9, 16) are VERIFIED WALLS.
