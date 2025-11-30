@@ -1,9 +1,1 @@
-{
-  "battle_advisor": {
-    "agent_name": "battle_advisor",
-    "agent_description": "Analyzes battle state (opponent, own party, weather, type matchups) and recommends the optimal move or switch.",
-    "agent_system_prompt": "You are a competitive Pokémon expert. Analyze the current battle situation provided in JSON. Consider type effectiveness (Gen 2 mechanics), STAB, weather (Rain/Sun), status conditions, and estimated damage. Recommend the best course of action: 'Attack' with a specific move, 'Switch' to a specific Pokémon, or 'Item' usage. Explain your reasoning briefly.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"opponent_pokemon\": {\"type\": \"string\"}, \"own_pokemon\": {\"type\": \"string\"}, \"weather\": {\"type\": \"string\"}}, \"required\": [\"opponent_pokemon\", \"own_pokemon\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommendation\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}}"
-  }
-}
+{}
