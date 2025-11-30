@@ -2,11 +2,12 @@
 
 ## 📍 Current Status: Dragon Shrine
 - **Location:** Dragon Shrine (Interior).
-- **Goal:** Complete Dragon User Challenge (Answer correctly).
-- **Team:** Paprika (Lv55). F (Psyduck) needs to learn Whirlpool.
+- **Goal:** Obtain Rising Badge.
+- **Status:** Dragon User Challenge Passed (Answers: Friend, Raising, Anybody, Love, Both).
+- **Team:** Paprika (Lv55). F (Psyduck) knows Whirlpool.
 
 ## 🎯 Goals
-- [ ] Complete Dragon User Challenge (Answer questions correctly).
+- [x] Complete Dragon User Challenge.
 - [ ] Teach Whirlpool to F (Psyduck).
 - [ ] Obtain Rising Badge from Clair.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
