@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Victory Road Gate
-- **Location:** Victory Road Gate (ID: 23_13).
+## 📍 Current Status: Victory Road
+- **Location:** Victory Road (ID: 3_91).
 - **Goal:** Traverse Victory Road to Indigo Plateau.
-- **Status:** Entered Victory Road Gate from Route 26.
+- **Status:** Exploring Victory Road. Found item at (15, 48).
 - **Team:** Paprika (Lv58), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## 🎯 Goals
