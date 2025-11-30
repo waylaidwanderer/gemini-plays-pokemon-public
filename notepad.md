@@ -76,12 +76,12 @@
 - Youngster Joey: Wants to battle on Route 30.
 
 ## Elite Four Strategy
-- **Will (Psychic):** Paprika (Typhlosion) sweeps. Smokescreen if threatened.
-- **Koga (Poison):** Fire vs Bug/Steel. Ground vs Poison.
+- **Will (Psychic):** Defeated! Strategy: Smokescreen + Swift/Flame Wheel worked perfectly.
+- **Koga (Poison):** NEXT TARGET. Watch for Toxic/Evasion strats. Paprika's Fire kills Bugs/Steel. Ground for Muk/Weezing.
 - **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
 - **Karen (Dark):** Fighting. Paprika brute force.
 - **Lance (Dragon):** Rock/Ice. Basalt/Paprika.
-- **Protocol:** Heal < 50% HP. Revive aggressively.
+- **Protocol:** Heal to 100% between battles. Use Super Potions to save Full Restores.
 - **Lesson:** ALWAYS set `autopress_buttons: true` for custom tools returning buttons.
 
 ## Fly Map Mechanics
