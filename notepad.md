@@ -240,3 +240,4 @@
 - **Route:** Use Ladder at (5, 13) to bypass walls and reach the exit at (3, 5).
 - Prof. Elm called: Requests visit to Lab.
 - Plan: Get Dratini -> Visit Elm -> Route 34 (Gina's Gift).
+- **Surfing Interaction:** If pressing A or walking into water fails to trigger Surf, use the Start Menu -> Pokémon -> Surf method. It is more reliable.
