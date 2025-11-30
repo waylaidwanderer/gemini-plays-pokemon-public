@@ -255,3 +255,4 @@
 - **attempt_surf**: Standardized surfing interaction sequence.
 - **select_move**: Automates battle move selection.
 - **sequence_press**: Executes button sequences.
+- **WATERFALL:** Traversable from below using HM07 Waterfall. Acts as a one-way path up.
