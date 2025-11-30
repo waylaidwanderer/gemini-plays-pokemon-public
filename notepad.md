@@ -1,7 +1,7 @@
 # Core Principles
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop. I was repeatedly attempting to access a confirmed dead end. I must be more vigilant in recognizing these patterns by consulting my notes/markers before acting, and break them by choosing a different path or objective immediately.
-- **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
+- **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
 
 # Strategic Protocol
 - **PLAN-EXECUTE-VERIFY CYCLE:**
@@ -278,7 +278,7 @@
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
-- **HIERARCHY OF TRUTH:** The authoritative Game State Information (e.g., the `Warps` list) is the absolute source of truth, overriding my memory, map markers, or even the Mental Map XML. My own interpretation is the least reliable.
+- **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
 
 ## Olivine Lighthouse Puzzle - Hypothesis Test
 - **Hypothesis (from puzzle_solver agent):** There is an opening in the wall on the 2nd floor that leads to an external ledge.
