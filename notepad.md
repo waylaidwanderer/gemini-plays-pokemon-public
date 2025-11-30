@@ -12,6 +12,7 @@
 - **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
 - **VERIFY POSITION AFTER MAP CHANGE:** After any map transition (warp, ladder, door), I MUST immediately verify my new `map_id` and `(x, y)` coordinates in the Game State Information before planning any further action. This is critical to prevent hallucinations and routing errors based on stale data.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
+- **Warp Data Conflict Resolution:** If the Mental Map XML or a system warning indicates a warp exists, but it's not on the official `Game State Information -> Warps` list and initial interaction tests fail, do not immediately dismiss it as a hallucination. Treat it as a potentially real warp with a non-obvious or event-based trigger. Mark it and continue to investigate other paths, but keep it in mind as a possible solution if all other avenues are exhausted.
 
 # Strategic Protocol
 - **PLAN-EXECUTE-VERIFY CYCLE:**
@@ -311,6 +312,3 @@
 - **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
 - **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
 - **Conclusion:** PENDING
-
-# Core Principles (Addendum)
-- **Warp Data Conflict Resolution:** If the Mental Map XML or a system warning indicates a warp exists, but it's not on the official `Game State Information -> Warps` list and initial interaction tests fail, do not immediately dismiss it as a hallucination. Treat it as a potentially real warp with a non-obvious or event-based trigger. Mark it and continue to investigate other paths, but keep it in mind as a possible solution if all other avenues are exhausted.
