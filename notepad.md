@@ -284,3 +284,10 @@
 - **Hypothesis (from puzzle_solver agent):** There is an opening in the wall on the 2nd floor that leads to an external ledge.
 - **Test:** Attempted to walk south through the windows at (12, 17), (8, 17), and (4, 17).
 - **Conclusion:** FAILED. All windows are blocked by a solid row of WALL tiles at y=16, making them inaccessible.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (Secret Ledge):** An opening on an exterior wall of the 2nd floor leads to a hidden outer ledge.
+  - **Test Plan:** Walk along the entire eastern exterior wall.
+  - **Results:**
+    - Test at (18, 9): FAILED.
+    - Test at (18, 7): FAILED.
