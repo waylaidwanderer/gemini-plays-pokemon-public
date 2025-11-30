@@ -316,3 +316,4 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29468)
 - **VERIFY ALL WARPS:** I hallucinated the coordinates for a warp. Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong and cannot be trusted.
+- Sailor Huey called for a rematch at the Olivine Lighthouse.
