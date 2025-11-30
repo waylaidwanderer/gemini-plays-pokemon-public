@@ -303,3 +303,7 @@
 - **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
+
+# Olivine Lighthouse Puzzle - Agent Hypothesis Test #1
+- **Hypothesis (from puzzle_solver agent):** The two visible pits at (16, 13) and (17, 13) lead to different areas on the floor below.
+- **Test Plan:** Jump down the right pit at (17, 13) and observe the landing zone on the 1st floor. Compare it to the known landing zone from the left pit.
