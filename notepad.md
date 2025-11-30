@@ -287,3 +287,4 @@
 
 # Puzzle Lessons
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
