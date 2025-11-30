@@ -293,3 +293,12 @@
 
 # Puzzle Lessons
 - **Agent Escalation:** When my own reasoning gets stuck in a repetitive loop, I must escalate to a specialized agent (like `puzzle_solver`). This is critical for breaking cognitive fixation and finding solutions based on different premises.
+
+# Critical Hallucination Protocol
+- If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
+
+# Puzzle Lessons
+- **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
+
+# Rematch Opportunities
+- Hiker Anthony on Route 33 called for a battle.
