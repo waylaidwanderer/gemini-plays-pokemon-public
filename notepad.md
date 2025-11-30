@@ -265,10 +265,6 @@
 - `python_code_debugger`
 - `puzzle_solver`
 
-## Custom Agents
-- `python_code_debugger`
-- `puzzle_solver`
-
 # Reminders & To-Do
 
 ## General
