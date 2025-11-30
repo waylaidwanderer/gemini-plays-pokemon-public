@@ -269,7 +269,7 @@
 - Kadabra (Lv35)
 - Magneton (Lv34)
 ### Shopping Plan (Indigo Plateau)
-- [ ] Deposit TMs/Items to free space (Target: 2-3 slots)
+- [x] Deposit TMs/Items (Deposited: Bitter Berry x1, X Special x1, Protein x2)
 - [ ] Buy Full Restore x10
 - [ ] Buy Revive x20
 - [ ] Withdraw useful items if space permits
