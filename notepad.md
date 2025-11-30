@@ -269,15 +269,14 @@
 ## Blackthorn Gym
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
-## Blackthorn Gym 2F Puzzle Strategy
-- **Objective:** Fill Pits (8, 3) and (8, 7).
-- **Current Plan (Two Boulder Strategy):**
-  1. **Boulder 6 (Top-Left):** Must fill Bottom Pit (8, 7). 
-     - Requires crossing Row 5 barrier. 
-     - **Hypothesis:** Fake wall at (5, 5) or (6, 5).
-  2. **Boulder 8 (Bottom-Right):** Must fill Top Pit (8, 3).
-     - Requires crossing Row 11 barrier (impossible?) OR crossing filled Bottom Pit.
-- **Status:** Reset Complete. Testing Row 5 walls.
-- **Failed Strategies:**
-  - **Boulder 7:** Trapped in Row 1. Walls at (7,0) and (8,0) confirmed solid.
-  - **Boulder 8:** Trapped in Bottom Zone. Walls at Row 11 and Column 9 confirmed solid.
+## Blackthorn Gym 2F Puzzle Status
+- **Goal:** Fill Pits at (8, 3) and (8, 7) to reach Clair.
+- **Boulder Analysis:**
+  - **Boulder A (6, 1):** Testing usage. Checking walls at (5,0), (6,0) to see if it can be maneuvered.
+  - **Boulder B (3, 3):** Used to clear initial path.
+  - **Boulder C (8, 14):** APPEARS TRAPPED in Col 8. Walls at (7, 11), (7, 10), (9, 12-16) appear solid. Likely a decoy unless a wall is fake.
+- **Critical Verification:**
+  - MUST physically bump into "walls" at Row 0 (5,0 - 8,0) and Column 7/9 to confirm solidity. Visuals are untrustworthy.
+- **Hypothesis:**
+  - If Row 0 is solid, Boulder A cannot move East/West easily.
+  - If Boulder C is trapped, the solution relies entirely on Boulders A and B, or a hidden fourth boulder.
