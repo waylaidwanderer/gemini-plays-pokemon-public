@@ -3,7 +3,7 @@
 ## 📍 Current Status: Battle vs Clair
 - **Location:** Blackthorn Gym.
 - **Goal:** Defeat Clair to earn the Rising Badge.
-- **Active Strategy:** Paprika (Lv55) vs Dragonair (Lv37). Paralyzed, 122/172 HP. Swift PP 0. Strategy: Use Quick Attack.
+- **Active Strategy:** Paprika (Lv55) vs Dragonair (Lv37). Paralyzed, 105/172 HP. Swift PP 0. Strategy: Use Quick Attack.
 
 ## Route 44
 - **Trainers:**
