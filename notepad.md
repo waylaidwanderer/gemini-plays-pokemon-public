@@ -4,10 +4,7 @@
 - **Location:** Blackthorn Gym 2F (South East).
 - **Goal:** Solve the puzzle to reach Clair.
 - **Constraint:** Boulder C at (8, 14) is flanked by walls. I cannot get South of it to push North. **My only option is to push it South.**
-- **Active Strategy:**
-  1. Push Boulder C South to (8, 17) to clear the corridor.
-  2. Access the West/South area via the gap at (7, 16).
-  3. Look for a second boulder or a path to the pits.
+- **Active Strategy:** Battle vs Clair. Kingdra (Lv40) vs Paprika (Lv54). Use Smokescreen to lower accuracy, then Swift.
 
 ## Route 44
 - **Trainers:**
