@@ -3,7 +3,7 @@
 ## 📍 Current Status: Route 27 (Kanto!)
 - **Location:** Route 27 (Rest House).
 - **Goal:** Traverse Route 27 to reach Indigo Plateau.
-- **Status:** Exited Tohjo Falls. Inside Rest House (Sandstorm House).
+- **Status:** Received TM37 (Sandstorm). Exiting Rest House to Route 27.
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals
