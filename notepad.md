@@ -283,3 +283,7 @@
 - **Hypothesis #1 (Primary):** The path to the eastern section of 3F requires descending from the 4th floor. (Test: Find a way to 4F, then find a hole/stairs leading down into the inaccessible eastern part of 3F.)
 - **Hypothesis #2 (Secondary):** An external balcony on a higher floor provides access. (Test: Find a door to an outside ledge on 4F and follow it.)
 - **Hypothesis #3 (Tertiary):** A previously used warp has a dual destination. (Test: Re-use all known warps on 1F and 2F.)
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
+
+# Puzzle Lessons
+- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
