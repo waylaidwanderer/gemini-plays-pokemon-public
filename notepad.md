@@ -311,3 +311,6 @@
 - **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
 - **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
 - **Conclusion:** PENDING
+
+# Core Principles (Addendum)
+- **Warp Data Conflict Resolution:** If the Mental Map XML or a system warning indicates a warp exists, but it's not on the official `Game State Information -> Warps` list and initial interaction tests fail, do not immediately dismiss it as a hallucination. Treat it as a potentially real warp with a non-obvious or event-based trigger. Mark it and continue to investigate other paths, but keep it in mind as a possible solution if all other avenues are exhausted.
