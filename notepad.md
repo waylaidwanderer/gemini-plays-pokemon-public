@@ -247,4 +247,4 @@
 - **Obstacle:** `FLOOR_UP_WALL` at (6, 16) is IMPASSABLE.
 - **Route:** Use Ladder at (5, 13) to bypass walls and reach the exit at (3, 5).
 - Prof. Elm called: Requests visit to Lab.
-- Plan: Deposit Pokémon -> Get Dratini -> Visit Elm.
+- Plan: Get Dratini -> Visit Elm -> Route 34 (Gina's Gift).
