@@ -299,8 +299,6 @@
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
 - **VERIFY POSITION BEFORE TOOL USE:** A critical hallucination occurred because I failed to verify my coordinates before a pathing tool execution. I MUST verify my current `(x, y)` and `map_id` in the Game State Information after EVERY movement or interruption before planning my next action, especially before using any coordinate-based tools.
 
-# Core Principles (Addendum)
-- **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 - **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
 
@@ -331,16 +329,10 @@
 - **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
 - **Conclusion:** PENDING
 
-# Core Principles (Addendum)
-- **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
-
 # Olivine Lighthouse Puzzle - Agent Hypothesis Test #2
 - **Hypothesis (from puzzle_solver agent):** Talking to one of the trainers after defeating them provides a clue or triggers an event.
 - **Test Plan:** Re-talk to Gentleman Alfred and Sailor Huey.
 - **Conclusion:** FAILED. Re-talking to both trainers resulted in either repeated dialogue or the known battle-start anomaly, with no new events triggered.
-
-# Core Principles (Addendum)
-- **CRITICAL HALLUCINATION PROTOCOL:** If the system issues a position or map ID mismatch warning, a severe hallucination has occurred. All current plans, hypotheses, and assumptions are immediately invalid and must be discarded. The only valid next action is to re-ground my entire strategy based on the authoritative Game State Information before proceeding.
 
 # Core Principles (Addendum)
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
