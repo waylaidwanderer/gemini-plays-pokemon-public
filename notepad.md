@@ -3,7 +3,7 @@
 ## 📍 Current Status: Route 26 (Kanto!)
 - **Location:** Route 26 (North).
 - **Goal:** Traverse Route 26 North to Victory Road.
-- **Status:** Reached rest house at (15, 57). Exploring.
+- **Status:** Inside Rest House (Route 26). Healing team.
 - **Team:** Paprika (Lv57), Bahamut (Lv15).
 
 ## 🎯 Goals
