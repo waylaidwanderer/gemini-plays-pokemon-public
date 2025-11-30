@@ -1,9 +1,17 @@
 # Core Principles
 - **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
-- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop. I was repeatedly attempting to access a confirmed dead end. I must be more vigilant in recognizing these patterns by consulting my notes/markers before acting, and break them by choosing a different path or objective immediately.
 - **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
 - **NPC dialogue can be misleading; all paths must be personally verified.**
 - **Audit my own notes for assumptions that violate my stated principles.**
+- **IMMEDIATE TOOL MAINTENANCE:** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
+- **VERIFY POSITION BEFORE TOOL USE:** A critical hallucination occurred because I failed to verify my coordinates before a pathing tool execution. I MUST verify my current `(x, y)` and `map_id` in the Game State Information after EVERY movement or interruption before planning my next action, especially before using any coordinate-based tools.
+- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified multiple severe unproductive loops. I must be more vigilant in recognizing these patterns and break them by choosing a different path or objective immediately, rather than repeating the same failed actions.
+- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
+- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
+- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
+- **VERIFY POSITION AFTER MAP CHANGE:** After any map transition (warp, ladder, door), I MUST immediately verify my new `map_id` and `(x, y)` coordinates in the Game State Information before planning any further action. This is critical to prevent hallucinations and routing errors based on stale data.
+- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
 
 # Strategic Protocol
 - **PLAN-EXECUTE-VERIFY CYCLE:**
@@ -24,7 +32,6 @@
 - **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
 - **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
-- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop (like the stun-gun strategy), I must escalate to a more powerful problem-solving tool like an agent. Even if the agent's initial suggestions are not the final solution, they serve the critical purpose of breaking cognitive fixation and forcing a re-evaluation of the problem's root assumptions.
 - **Herding Puzzles:** Interacting with an object (like the Farfetch'd) from an adjacent tile can trigger movement along a complex, pre-determined path, not just simple repulsion. The direction of approach is the key trigger.
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
 - **Debugging Cycle Avoidance:** When a core tool repeatedly fails despite multiple fixes, the core algorithm is likely fundamentally flawed. I must avoid getting stuck in a loop of incremental, failing changes. The correct approach is to either replace the logic with a known-working version from another tool or re-implement it from first principles, rather than continuing with minor tweaks.
@@ -42,7 +49,6 @@
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 - **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
-- **IMMEDIATE TOOL MAINTENANCE (Addendum):** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
 - **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
@@ -57,7 +63,6 @@
 - **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
 - **Observe Before Assuming:** When seemingly stuck (e.g., trapped in a room), the first action must be to re-examine the entire known map for obvious, overlooked exits before assuming a complex, hidden solution is required. Trust the map data over my own narrative of the situation.
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
-- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 - **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 - **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
@@ -65,9 +70,7 @@
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
-- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
 - **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
-- **Challenging False Constraints:** I got stuck in a loop with Sailor Huey because my root hypothesis was "I must get past him." This was a false constraint. When stuck, I must aggressively challenge my foundational assumptions and look for completely different solutions instead of persisting with a failing strategy.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -195,7 +198,7 @@
 - **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
 - **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
 - **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
-- **POKEFAN_F on OlivineLighthouse1F (16, 8):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
+- **POKEFAN_F on OlivineLighthouse1F (16, 9):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -280,7 +283,7 @@
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
 
-## Olivine Lighthouse Puzzle - Hypothesis Test
+# Olivine Lighthouse Puzzle - Hypothesis Test
 - **Hypothesis (from puzzle_solver agent):** There is an opening in the wall on the 2nd floor that leads to an external ledge.
 - **Test:** Attempted to walk south through the windows at (12, 17), (8, 17), and (4, 17).
 - **Conclusion:** FAILED. All windows are blocked by a solid row of WALL tiles at y=16, making them inaccessible.
@@ -295,55 +298,16 @@
     - Test at (18, 5): FAILED.
     - Test at (18, 4): FAILED. Concluding this part of the hypothesis is incorrect.
 
-# Core Principles (Addendum)
-- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
-- **VERIFY POSITION BEFORE TOOL USE:** A critical hallucination occurred because I failed to verify my coordinates before a pathing tool execution. I MUST verify my current `(x, y)` and `map_id` in the Game State Information after EVERY movement or interruption before planning my next action, especially before using any coordinate-based tools.
-
-- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
-- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified a severe unproductive loop in the Olivine Lighthouse. I was repeatedly falling through the pit on 2F, climbing the ladder on 1F back to a new section of 2F, and then immediately pathing back to the same pit without exploring the new area. I must be more vigilant in recognizing these patterns and breaking them by choosing a different path or objective.
-
-# Olivine Lighthouse Puzzle - Agent Hypothesis Test #1
-- **Hypothesis (from puzzle_solver agent):** The two visible pits at (16, 13) and (17, 13) lead to different areas on the floor below.
-- **Test Plan:** Jump down the right pit at (17, 13) and observe the landing zone on the 1st floor. Compare it to the known landing zone from the left pit.
-- **Conclusion:** FAILED. Both pits lead to the same isolated room on 1F.
-
-# Olivine Lighthouse Puzzle - Agent Hypothesis Test #2
-- **Hypothesis (from puzzle_solver agent):** There is a hidden, invisible pit in the short dead-end path to the east of the Gentleman at (17, 8).
-- **Test Plan:** Walk to the area east of the Gentleman. Systematically step on every floor tile in this small alcove, specifically the tiles around coordinates (18, 8), (18, 9), and (17, 9).
-
-# Olivine Lighthouse Puzzle - Agent Hypothesis Test #2
-- **Hypothesis (from puzzle_solver agent):** There is a hidden, invisible pit in the short dead-end path to the east of the Gentleman at (17, 8).
-- **Test Plan:** Walk to the area east of the Gentleman. Systematically step on every floor tile in this small alcove, specifically the tiles around coordinates (18, 8), (18, 9), and (17, 9).
-- **Conclusion:** FAILED. Systematically walked over tiles (17, 9), (16, 9), (15, 9), and (14, 9). No hidden pit was found.
-
-# Olivine Lighthouse Puzzle - Agent Hypothesis Test #3
-- **Hypothesis (from puzzle_solver agent):** There is a hidden item or switch on the floor that must be activated by pressing the interact button.
-- **Test Plan:** Systematically walk to every dead-end tile and corner on the 2nd floor and press the 'interact' button. Starting with the eastern alcove.
-
-# Core Principles (Addendum)
-- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The system has identified multiple severe unproductive loops. I must be more vigilant in recognizing these patterns and break them by choosing a different path or objective immediately, rather than repeating the same failed actions.
-- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
-
-# Olivine Lighthouse Puzzle - Hypothesis Test #4
-- **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
-- **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
-- **Conclusion:** PENDING
-
 # Olivine Lighthouse Puzzle - Agent Hypothesis Test #2
 - **Hypothesis (from puzzle_solver agent):** Talking to one of the trainers after defeating them provides a clue or triggers an event.
 - **Test Plan:** Re-talk to Gentleman Alfred and Sailor Huey.
 - **Conclusion:** FAILED. Re-talking to both trainers resulted in either repeated dialogue or the known battle-start anomaly, with no new events triggered.
 
-# Core Principles (Addendum)
-- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
-- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
+# Olivine Lighthouse Puzzle - Hypothesis Test #3
+- **Hypothesis (from puzzle_solver agent):** There is a hidden item or switch on the floor that must be activated by pressing the interact button.
+- **Test Plan:** Systematically walk to every dead-end tile and corner on the 2nd floor and press the 'interact' button. Starting with the eastern alcove.
 
-# Core Principles (Addendum)
-- **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
-
-# Core Principles (Addendum)
-- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
-- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
-
-# Core Principles (Addendum)
-- **VERIFY POSITION AFTER MAP CHANGE:** After any map transition (warp, ladder, door), I MUST immediately verify my new `map_id` and `(x, y)` coordinates in the Game State Information before planning any further action. This is critical to prevent hallucinations and routing errors based on stale data.
+# Olivine Lighthouse Puzzle - Hypothesis Test #4
+- **Hypothesis:** There is a hidden item or switch on the floor of the northern corridor that must be activated by pressing the 'interact' button.
+- **Test Plan:** Systematically walk to every tile in the northern corridor (starting at (17, 4)) and press 'A'. Turn to face a wall before pressing 'A' to avoid accidental movement.
+- **Conclusion:** PENDING
