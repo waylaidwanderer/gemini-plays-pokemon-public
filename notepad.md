@@ -262,11 +262,10 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Status
-- **Goal:** Reach the Right Side of the gym to solve the main puzzle.
-- **Hypothesis:** The Right Side is inaccessible from the 2F Left Side directly. I must create a bridge on 1F to cross over.
+- **Goal:** Reach the Right Side of the gym.
+- **Rejected Hypothesis:** Bridge on 1F via Boulder B into Pit (2, 5).
+  - Reason: Boulder B cannot be pushed West into the pit due to Wall at (4, 4) preventing player positioning.
+- **New Hypothesis:** One of the walls in Column 4 (connecting Left and Right sides) is fake.
 - **Active Strategy:**
-  1. Push Boulder B (3, 3) South to (3, 4).
-  2. Push Boulder B West to (2, 4).
-  3. Push Boulder B South into Pit (2, 5).
-  4. Drop into Pit (2, 5) to land on 1F.
-  5. Use the dropped boulder to cross the gap on 1F and reach the Right Side ladder at (7, 9).
+  1. Test walls at (4, 3), (4, 4), and (4, 5) for passability.
+  2. If solid, return to 1F and search for a gap in the Row 11 barrier.
