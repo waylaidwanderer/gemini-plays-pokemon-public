@@ -13,10 +13,6 @@
 - [ ] Surf East to Pokémon League.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
-## Route 44 (Cleared)
-- **Trainers:** Psychic Phil, Fisher Edgar, Cooltrainer Cybil, Cooltrainer Allen, Bird Keeper Vance (All Defeated).
-- **Items:** Max Repel (Picked up).
-
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
 - **Key Item:** Clear Bell obtained from Director.
