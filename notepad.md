@@ -144,18 +144,18 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
-- **LADDER**: A traversable warp tile that moves the player between floors. Hypothesis: May only be traversable vertically, not horizontally. Needs testing.
+- **LADDER**: A traversable warp tile. Activated by moving onto the tile, and then typically pressing 'Up' or 'Down' depending on the direction of travel. Pressing 'A' on or adjacent to them does not work.
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
-- **Status:** I am on the 1st floor of the Olivine Lighthouse, in a previously inaccessible eastern section.
+- **Status:** I am on the 2nd floor of the Olivine Lighthouse, in the eastern section.
 - **Olivine Lighthouse Puzzle:**
   - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-  - **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F.
+  - **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F. The path upwards is from this eastern section.
   - **Summary of Findings:**
-    - **2F:** Two pits at (16, 13) and (17, 13) both lead to the eastern section of 1F. The western path has a ladder at (5, 3) leading up. The eastern path appears to be a dead end. Suspected warps at (16, 11) and (17, 11) are non-functional.
+    - **2F:** The western path has a ladder at (5, 3) leading up to a confirmed dead end on 3F. The eastern path is where I am currently exploring.
     - **3F:** The western side, accessed from 2F, is a confirmed dead end. The eastern side is currently inaccessible.
-  - **Current Hypothesis:** The correct path to the upper floors must be on the eastern side of 2F. The western ladder is a confirmed dead end. I need to find the ladder on the eastern side of 2F.
+  - **Current Hypothesis:** The correct path to the upper floors must be on this eastern side of 2F. I am systematically searching the area.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -191,6 +191,7 @@
 - **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
 - **Teacher in Olivine Pokémon Center:** Mentioned a person in Cianwood City, across the sea, who has a rare POKéMON.
 - **POKEFAN_F on OlivineLighthouse1F (16, 9):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
+- **Gentleman on OlivineLighthouse2F (17, 8):** The sick Pokémon at the top needs 'special medicine'.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -247,9 +248,17 @@
 ## Built-in Tools
 - `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
 
+## Custom Tools
+- `select_item`
+- `select_move`
+- `switch_pokemon`
+- `find_path`
+- `plan_systematic_search_path`
+
 ## Custom Agents
 - `python_code_debugger`
 - `puzzle_solver`
+- `exploration_manager`
 
 # Reminders & To-Do
 
@@ -261,6 +270,7 @@
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
+- Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
@@ -323,4 +333,3 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29571)
 - CRITICAL HALLUCINATION RECOVERY: I have repeatedly hallucinated my current map and coordinates, causing tools to crash and wasting turns. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
-- LADDER Mechanic Update: Ladders are warp tiles. Pressing 'A' on or adjacent to them does not work. They are activated by moving onto the tile, and then typically pressing 'Up' or 'Down' depending on the direction of travel.
