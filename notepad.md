@@ -270,7 +270,7 @@
 - Magneton (Lv34)
 ### Shopping Plan (Indigo Plateau)
 - [x] Deposit TMs/Items (Deposited: Bitter Berry x1, X Special x1, Protein x2)
-- [ ] Buy Full Restore x10
-- [ ] Buy Revive x20
+- [x] Buy Full Restore x10
+- [x] Buy Revive x11 (Funds depleted)
 - [ ] Withdraw useful items if space permits
 - **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences (like `sequence_press`) to ensure execution.
