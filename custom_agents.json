@@ -1,9 +1,1 @@
-{
-  "puzzle_advisor": {
-    "agent_name": "puzzle_advisor",
-    "agent_description": "Validates puzzle moves (especially boulder pushes) to prevent irreversible mistakes or soft-locks.",
-    "agent_system_prompt": "You are an expert at Pokémon Gen 2 puzzle mechanics. Your goal is to prevent the player from getting stuck or resetting the puzzle. Analyze the provided player position, boulder position, and intended push direction. Consider the grid layout (walls, pits, other boulders). If pushing the boulder in that direction would trap it against a wall or corner with no way out, or move it away from the goal, mark it as unsafe. Return a JSON with `is_safe` and `analysis`.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"player_pos\": {\"type\": \"array\", \"items\": {\"type\": \"integer\"}}, \"boulder_pos\": {\"type\": \"array\", \"items\": {\"type\": \"integer\"}}, \"push_direction\": {\"type\": \"string\"}, \"context\": {\"type\": \"string\"}}, \"required\": [\"player_pos\", \"boulder_pos\", \"push_direction\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_safe\": {\"type\": \"boolean\"}, \"analysis\": {\"type\": \"string\"}}, \"required\": [\"is_safe\", \"analysis\"]}"
-  }
-}
+{}
