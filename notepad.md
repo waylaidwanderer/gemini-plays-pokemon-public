@@ -277,3 +277,4 @@
   3. Push North to (6, 7).
   4. Push East into Pit (8, 7).
 - **Top Pit Status:** Row 0 and Col 9 access confirmed blocked/difficult. Testing (9,0) as final check.
+- **Hypothesis:** (7, 11) is a fake wall allowing access to push Boulder 8 East. Testing now.
