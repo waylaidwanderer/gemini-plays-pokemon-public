@@ -270,11 +270,14 @@
 - **Trainers:**
   - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
 ## Blackthorn Gym 2F Puzzle Strategy
-- **Objective:** Fill Bottom Pit (8, 7).
-- **Solution Found:** Use Boulder 8.
-  1. Push Boulder 8 South to (8, 16).
-  2. Push West to (6, 16).
-  3. Push North to (6, 7).
-  4. Push East into Pit (8, 7).
-- **Top Pit Status:** Row 0 and Col 9 access confirmed blocked/difficult. Testing (9,0) as final check.
-- **Hypothesis:** (7, 11) is a fake wall allowing access to push Boulder 8 East. Testing now.
+- **Objective:** Fill Pit (8, 7).
+- **Current Plan (Boulder 8):**
+  1. Push Boulder 8 North from (8, 14) to (8, 12).
+  2. Check if (9, 12) is a fake wall.
+  3. If yes, Push West to (6, 12) -> North to (6, 7) -> East to Pit.
+- **Backup Plan (Boulder 7):**
+  - Move Boulder 7 to (8, 1).
+  - Test if (8, 0) is a fake wall allowing a South push.
+- **Failed Strategies:**
+  - Pushing Boulder 8 South: Dead end.
+  - Flanking via Column 9: Blocked by walls (verified?).
