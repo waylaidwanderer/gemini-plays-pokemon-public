@@ -66,20 +66,14 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 
 ## Strategy Notes
-- **Dragon's Den:** East/Central paths blocked by buoys. Flanking West.
-- **Puzzle Lesson:** 'Scoot' means you must leave the map area entirely to allow the game state to update (e.g. NPCs moving objects). Confirmed: Leaving Tin Tower refreshed the map and moved the Sages, advancing the puzzle.
-- **Inventory:** In-game list order differs from Game State list. Always scroll fully if item not seen.
-- Team Strategy: Paprika (Typhlosion) is the carry and current lead. Basalt (Geodude) has Magnitude.
-- Protocol: Mark NPCs immediately. NEVER delete markers for defeated trainers; they remain as solid obstacles. Mark as 'Defeated'.
-- **Position Verification:** When movement is interrupted (e.g. by new object), immediately check actual coordinates. Do not assume movement completed.
-- **Screen Text:** Trust visual evidence (Screen Text) over system notes if they conflict. Text can persist or trigger unexpectedly.
-- Record new Pokémon discoveries immediately, even during battle.
-- Always verify object existence before interacting.
-- **NPC Interaction:** Use `stun_npc` on moving NPCs to ensure successful interaction.
-- **Smokescreen Survival:** Against stronger/type-advantaged opponents, stacking accuracy debuffs is a verified survival strategy.
-- **Marking Protocol:** Mark objects *immediately* upon sighting to capture their ID.
-- **Sprite Deception:** NPCs may use sprites that don't match their trainer class (e.g. Hiker Benjamin looked like a Pokefan). Always verify identity via interaction or battle.
-- **Security Cameras:** Confirmed: Passing Persian statues/cameras triggers 'Intruder alert!' and summons Rocket Grunts. Each statue likely has a line of sight trigger.
+- **Dragon's Den:** Cleared. Bahamut (Dratini) obtained from Elder.
+- **Surfing Navigation:** When surfing, pathfinding tools must explicitly treat land tiles as obstacles (unless it's the target tile) to prevent accidental dismounting during travel.
+- **Puzzle Mechanics:** 'Scoot' (leaving/re-entering map) refreshes map state/NPCs.
+- **General Protocol:** Mark NPCs immediately. Keep markers for defeated trainers. Verify position after interruptions. Trust visual Screen Text.
+- **Sprite Deception:** NPCs may use misleading sprites (e.g. Hiker as Pokefan).
+- **Security Cameras:** Persian statues trigger alarms (Rocket Base).
+- **Inventory:** In-game list order differs from Game State list.
+- **Team:** Paprika (Typhlosion) lead. Basalt (Geodude) backup.
 
 ## National Park (Cleared)
 - Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
