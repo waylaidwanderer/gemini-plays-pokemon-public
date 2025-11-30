@@ -1,16 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Dragon's Den
-- **Location:** Dragon's Den B1F.
+## 📍 Current Status: New Bark Town
+- **Location:** Prof. Elm's Lab.
 - **Goal:** Challenge the Pokémon League.
-- **Status:** Rising Badge obtained. Bahamut (Dratini) joined the team!
+- **Status:** Master Ball obtained! Rising Badge obtained.
 - **Team:** Paprika (Lv55), Bahamut (Lv15).
 
 ## 🎯 Goals
 - [x] Obtain Rising Badge.
 - [x] Receive Dratini (Bahamut).
-- [x] Exit Dragon's Den.
-- [x] Fly to New Bark Town (Visit Prof. Elm).
+- [x] Visit Prof. Elm (Received Master Ball).
 - [ ] Surf East to Pokémon League.
 - [ ] Catch Legendary Beasts (Need Rainbow Wing).
 
