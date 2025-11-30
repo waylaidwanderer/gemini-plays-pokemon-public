@@ -5,21 +5,12 @@
 - **Audit my own notes for assumptions that violate my stated principles.**
 - **IMMEDIATE TOOL MAINTENANCE:** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
 - **VERIFY POSITION BEFORE TOOL USE:** A critical hallucination occurred because I failed to verify my coordinates before a pathing tool execution. I MUST verify my current `(x, y)` and `map_id` in the Game State Information after EVERY movement or interruption before planning my next action, especially before using any coordinate-based tools.
-- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
-- **Recognizing Unproductive Loops (CRITICAL FAILURE NOTED):** The critique agent identified multiple severe unproductive loops. I must be more vigilant in recognizing these patterns and break them by choosing a different path or objective immediately, rather than repeating the same failed actions.
-- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
-- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
-- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
-- **VERIFY POSITION AFTER MAP CHANGE:** After any map transition (warp, ladder, door), I MUST immediately verify my new `map_id` and `(x, y)` coordinates in the Game State Information before planning any further action. This is critical to prevent hallucinations and routing errors based on stale data.
-- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
-- **Warp Data Conflict Resolution:** If the Mental Map XML or a system warning indicates a warp exists, but it's not on the official `Game State Information -> Warps` list and initial interaction tests fail, do not immediately dismiss it as a hallucination. Treat it as a potentially real warp with a non-obvious or event-based trigger. Mark it and continue to investigate other paths, but keep it in mind as a possible solution if all other avenues are exhausted.
 
 # Strategic Protocol
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
 - **VERIFY POSITION & SEPARATE INPUTS:** A critical hallucination occurred because I failed to verify my coordinates after a pathing tool execution. I MUST verify my current `(x, y)` in the Game State Information after EVERY movement or interruption (battle, menu, etc.) before planning my next action. I must NEVER mix directional inputs (Up, Down, Left, Right) and action inputs ('A', 'B') in the same turn. Movement/turning must happen in one turn, and interaction in the next.
-- **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **DEFAULT TO AUTOMATION:** If a custom tool or built-in function exists for a task, I MUST use it by default instead of performing the action with manual button presses. Manual inputs are less efficient and more error-prone.
 - **MAP MARKER & DATA HYGIENE:** Maintaining an accurate world model is a critical, non-negotiable priority. 1) **Consult First:** Before any interaction or navigation, I MUST consult my map markers to avoid repeating actions or making routing errors based on old information. 2) **Link Immediately:** When creating a marker for an object, it MUST be linked to its `object_id` immediately. 3) **Update Promptly:** Markers must be updated immediately after an event (e.g., marking a trainer as 'defeated' with ☠️, deleting markers for collected items with ✅). Old markers must be deleted when new ones are created for the same object. 4) **Handle Stale Data:** If an object with a linked marker moves off-screen, the marker becomes stale and must be deleted. A new marker should only be created if the object reappears.
 - **Agent Escalation for Debugging:** If I am struggling to debug a tool manually after a few attempts, I MUST escalate to the `python_code_debugger` agent. It can often identify logical flaws more quickly and efficiently than I can.
@@ -29,7 +20,6 @@
 - **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
-- **Problem-Solving Escalation:** When stuck on a puzzle after exhausting simple, self-generated hypotheses, I must escalate to a more powerful problem-solving tool, such as my custom agents. Repeating failed attempts is inefficient.
 - **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
 - **Tool Input Verification:** Before concluding a tool is broken (e.g., `find_path` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
@@ -58,7 +48,6 @@
 - **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
 - **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
-- **Puzzle Loops:** If a path or series of warps (like the PITs in the Lighthouse) consistently returns me to a previously explored area without opening any new paths, it should be treated as a dead end or a loop. Instead of repeating the loop, I must re-evaluate my core hypothesis and search for an alternative solution, such as exploring unseen areas for a trigger or a different path.
 - **Trust Your Tools:** If a pathfinding tool returns 'No path found,' trust it. The issue is likely a flawed assumption about the map layout, not a broken tool. Re-evaluate the path and look for alternatives instead of repeating the failed attempt.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 - **Critical Hallucination Protocol:** If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
@@ -204,31 +193,44 @@
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
 
-# Solved Puzzle Solutions
-## Azalea Gym
+# Puzzle Solutions & Lessons
+- **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
+- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
+- **Warp Data Conflict Resolution:** If the Mental Map XML or a system warning indicates a warp exists, but it's not on the official `Game State Information -> Warps` list and initial interaction tests fail, do not immediately dismiss it as a hallucination. Treat it as a potentially real warp with a non-obvious or event-based trigger. Mark it and continue to investigate other paths, but keep it in mind as a possible solution if all other avenues are exhausted.
+- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
+- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
+- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
+- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
+- **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
+- **Internal vs. External Puzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
+- **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
+
+## Solved Puzzles
+### Azalea Gym
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
 
-## Goldenrod Department Store
+### Goldenrod Department Store
 - **Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
 - **B1F Box Puzzle:** My own movement is causing changes in the a map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
 
-## Goldenrod Gym
+### Goldenrod Gym
 - Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
 - **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
 
-## Goldenrod Underground Switch Room Puzzle
+### Goldenrod Underground Switch Room Puzzle
 - **Failed Hypothesis:** The puzzle is solved by repeatedly entering and exiting the 'GoldenrodUndergroundSwitchRoomEntrances' area to cycle through different room configurations. (Failed after 5+ attempts, triggered a loop warning).
 - **New Hypothesis:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. I will re-enter the underground from the southern entrance in Goldenrod City and explore the lower level again, as my path was previously blocked and new events (Granny NPC) may have occurred.
 - **Agent Hypothesis #1 (Full Traversal):** FAILED. Attempted to walk from the north entrance to the south entrance. Path was blocked by a SUPER_NERD at (3, 27) that appears only in the 'north entrance' configuration. This confirms a simple traversal is impossible.
 - **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. The SUPER_NERD at (3, 27) that blocks the path does not initiate a battle, only dialogue. This makes defeating all trainers impossible in this configuration.
 - **Agent Hypothesis #3 (In-and-Out Ladders):** FAILED for northern ladder (3, 2). The blocking SUPER_NERD at (3, 27) did not move. Will proceed to test other accessible ladders.
 
-## Ruins of Alph - Kabuto Chamber Puzzle
+### Ruins of Alph - Kabuto Chamber Puzzle
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
 
-# Olivine Lighthouse Puzzle
+### Olivine Lighthouse Puzzle
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
 - **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F.
 - **Summary of Findings:**
@@ -281,24 +283,3 @@
 - **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
-
-# Puzzle Lessons
-- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
-
-# Puzzle Lessons
-- **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
-- **Internal vs. External Puzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
-- **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
-
-# Puzzle Lessons
-- **Agent Escalation:** When my own reasoning gets stuck in a repetitive loop, I must escalate to a specialized agent (like `puzzle_solver`). This is critical for breaking cognitive fixation and finding solutions based on different premises.
-
-# Critical Hallucination Protocol
-- If a system warning indicates a position mismatch or turn number mismatch, a severe hallucination has occurred. All current plans and assumptions must be immediately discarded. The only valid action is to re-ground myself by analyzing the current, authoritative Game State and forming a new plan from scratch.
-
-# Puzzle Lessons
-- **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
-
-# Rematch Opportunities
-- Hiker Anthony on Route 33 called for a battle.
