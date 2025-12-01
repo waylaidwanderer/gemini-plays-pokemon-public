@@ -22,21 +22,10 @@
 
 ## Quest Log
 - **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
-  - **Structure:** Map 15_6 (Cabins) is disjointed. 15_7 is Engine Room.
-  - **Status:** Captain's Cabin verified as DEAD END (sprites are rugs). Checked all 1F cabins except Player's Cabin.
-  - **Current Lead:** Sailor said "South". Checked all cabins (including Player's). Re-investigating Engine Room and Captain's Cabin (Captain sprite).
-  - **Cabins Checklist (1F):**
-    - (27, 8): Checked (Empty)
-    - (23, 8): Checked (Defeated Hiker Noland)
-    - (19, 8): Checked (Empty - Lazy Sailor's Room)
-    - (15, 8): Checked (Player's Cabin - Heals)
-    - (19, 15): Checked (Empty)
-    - (23, 15): Checked again (Twins/Colin). No Granddaughter.
-    - (27, 15): Checked again (Gentleman). Empty. Quest: Find Granddaughter.
-    - (30, 14): Ladder to B1F (Traversed).
-  - **B1F Engine Room:**
-    - Entered via Ladder at (31, 13).
-    - Blockade cleared: Sailor let me pass after I defeated his partner. He mentioned seeing the granddaughter go by.
+  - **Status:** Checked ALL cabins on 1F (including Player's), Dining Room, and Captain's Cabin. All negative.
+  - **Clue:** Sailor in Engine Room said she went "South" (up the ladder to 1F Corridor).
+  - **Hypothesis:** She might be on the Deck (door at 25,1) or I missed a spot in the Engine Room.
+  - **Lesson:** Sprites can be non-interactive decorations (e.g., Captain's Cabin rugs).
 
 ## Global Game Mechanics
 ### General Mechanics
