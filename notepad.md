@@ -51,7 +51,7 @@
 
 ### Battle Mechanics
 - **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
-- **Move Selection Menu:** The menu is a VERTICAL LIST in Crystal. The `select_move` tool incorrectly assumes a 2x2 grid. Use `sequence_press` with manual steps (e.g. 'Down, A') until fixed.
+- **Move Selection Menu:** The menu is a vertical list. The `select_move` tool has been updated to handle this correctly.
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 - **Type Effectiveness:** Fire is 0.5x effective against Water/Ground (not 0.25x).
