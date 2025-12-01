@@ -285,13 +285,8 @@
 # Reflection Lessons (Turn 29782)
 - **Tool Robustness:** My `plan_systematic_search_path` tool failed catastrophically because its XML parser used a brittle `find('Object')` method that failed to detect nested objects, causing paths to lead directly into NPCs. The fix was to use a robust `find('.//Object')` search. **Lesson:** Tool logic must be generalized to handle all variations of game data structures. Prefer simple, robust rules over complex, specific ones that are prone to failure.
 
-# To-Do List (New)
-
 # Reflection Lessons (Turn 30144)
-- **Path Interruption:** My long, automated path was interrupted because I tried to move onto a one-way ledge tile in the wrong direction. Lesson: For long paths, either break them into smaller, verifiable chunks or use a robust tool like `exploration_manager` to handle interruptions gracefully. Blindly executing a long path is risky and prone to failure.
-
-# Pathing Strategy Update
-- My long paths are constantly being interrupted. The system critique correctly pointed out that I should be using the `exploration_manager` agent to handle this. Once `find_path` is confirmed to be working correctly, I MUST use `exploration_manager` to break long paths into smaller, manageable chunks to avoid these repeated failures.
+- **Path Interruption:** My long, automated path was interrupted because I tried to move onto a one-way ledge tile in the wrong direction. Lesson: For long paths, break them into smaller, verifiable chunks. Blindly executing a long path is risky and prone to failure.
 
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
