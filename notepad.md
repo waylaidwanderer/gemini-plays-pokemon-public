@@ -86,5 +86,5 @@
 - **Systematically Test All Tile Types:** My biggest mistake was assuming the bookshelf was impassable. When stuck, I must test the traversability of every single tile type in the area, even if it looks like a solid object. Do not rely on visual intuition alone.
 - **Incremental Notepad Edits:** When a large `notepad_edit` action like `overwrite` or `replace` fails due to the character loss safeguard, I must immediately switch to smaller, incremental edits instead of repeatedly trying the same large edit.
 
-## Tile Mechanics (To Test)
-- `TYPE_ffbb`: Found on the doormat at (6, 7) and (7, 7). Need to test if it's traversable or a warp.
+## Tile Mechanics (Confirmed)
+- `TYPE_ffbb`: Confirmed to be a warp tile (doormat). Acts as an exit from a building.
