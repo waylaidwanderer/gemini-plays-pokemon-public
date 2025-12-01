@@ -94,3 +94,7 @@
 - **Lesson on Positional Awareness:** Always verify my current position against the Game State before planning a path, especially after a potential screen transition or cutscene, to avoid hallucinations.
 
 ## Missing Pokémon Puzzle
+- **Hypothesis 4 (from `puzzle_solver`):** Exit and re-enter the lab to trigger a missed event.
+- **Test:** Exited to New Bark Town and observed the game state.
+- **Result:** Party remains empty. No event triggered.
+- **Conclusion:** Hypothesis 4 is false.
