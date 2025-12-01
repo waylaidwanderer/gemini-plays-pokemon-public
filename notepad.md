@@ -286,3 +286,4 @@
 # New Lessons
 - **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. An attempt to unstun an NPC on a different map will fail, and they may already be moving upon return.
 - **Challenge False Constraints:** The lighthouse pit puzzle was solved by challenging the root assumption that the second pit had to be accessed from the west. When stuck in a loop of failing hypotheses, the foundational belief that led to the strategy is likely flawed. I must aggressively re-verify my core assumptions instead of just refining the failing strategy.
+- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
