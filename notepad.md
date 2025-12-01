@@ -70,3 +70,6 @@
 
 - The PC interaction was unchanged after the radio event; it still triggered the TV.
 - The SELECT button on the radio only displayed a generic help message.
+- **Hypothesis (from `puzzle_solver`):** Interacting with the radio and then using a directional button would unlock the stairs.
+- **Test:** Interacted with radio, pressed 'Right'. The dialogue box closed (a new result), but the stairs at (0, 4) remained impassable.
+- **Conclusion:** This hypothesis is false.
