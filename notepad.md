@@ -49,6 +49,7 @@
 - **LADDER:** Traversable warp.
 - **WARP_CARPET_DOWN:** Walk Down to warp.
 - **STAIRCASE:** Traversable warp.
+- **COUNTER:** Impassable. Allows interaction with Entity on other side.
 
 ### Battle Mechanics
 - **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
