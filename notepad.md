@@ -59,7 +59,6 @@
 - **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
 - **Tool Logic Verification:** When debugging a tool, I must verify its behavior in various states, not just the one that caused the initial failure. This includes its interaction with the player's own position and other dynamic game elements.
 - **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
-- **Hiker Anthony on Phone:** Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -74,36 +73,6 @@
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Intermediate Warp Pathing:** My `find_path` tool was causing loops by treating intermediate warp tiles (like ladders) as normal floor tiles. Lesson: Pathfinding tools must treat all warps as impassable unless they are the explicit final destination of the path.
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
-
-# Battle Mechanics
-- Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
-- Poisoned Pokémon lose 1 HP every four steps outside of battle and remain poisoned after a wild battle concludes.
-- Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
-- The auto-activation threshold for a held BERRY is likely below 25% HP.
-- A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym.
-- Levels Over Type Advantage: A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
-- Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
-- Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
-
-## Type Effectiveness Chart (Verified)
-| Attacking Type | Defending Type | Effectiveness |
-| :--- | :--- | :--- |
-| Grass | Fire | Not Very Effective |
-| Normal | Ghost | No Effect |
-| Normal | Rock | Not Very Effective |
-| Flying | Rock | Not Very Effective |
-| Fire | Rock | Not Very Effective |
-| Ground | Flying | No Effect |
-| Normal | Water/Rock | Not Very Effective |
-| Rock | Flying | Super Effective |
-| Water | Fire | Super Effective |
-| Water | Rock | Super Effective |
-| Water | Ground | Super Effective |
-
-# Menu Navigation
-- For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
-- In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
-- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
 # Tile & Object Mechanics
 - **WALL**: Impassable terrain.
@@ -150,6 +119,36 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
 - **LADDER**: A traversable warp tile. Activated by stepping *onto* the tile, which immediately triggers the warp. No additional button presses are needed.
+
+# Battle Mechanics
+- Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
+- Poisoned Pokémon lose 1 HP every four steps outside of battle and remain poisoned after a wild battle concludes.
+- Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
+- The auto-activation threshold for a held BERRY is likely below 25% HP.
+- A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym.
+- Levels Over Type Advantage: A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
+- Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
+- Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
+
+## Type Effectiveness Chart (Verified)
+| Attacking Type | Defending Type | Effectiveness |
+| :--- | :--- | :--- |
+| Grass | Fire | Not Very Effective |
+| Normal | Ghost | No Effect |
+| Normal | Rock | Not Very Effective |
+| Flying | Rock | Not Very Effective |
+| Fire | Rock | Not Very Effective |
+| Ground | Flying | No Effect |
+| Normal | Water/Rock | Not Very Effective |
+| Rock | Flying | Super Effective |
+| Water | Fire | Super Effective |
+| Water | Rock | Super Effective |
+| Water | Ground | Super Effective |
+
+# Menu Navigation
+- For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
+- In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
+- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
@@ -282,3 +281,6 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
+
+# Hiker Anthony on Phone:
+- Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
