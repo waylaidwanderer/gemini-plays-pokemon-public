@@ -24,7 +24,9 @@
 - `TYPE_17bc`: Stairs.
 - `TYPE_ffbb`: Doormat warp tile.
 
-## Town Map Puzzle
+## Archived Puzzles
+
+### Town Map Puzzle
 - **Observation:** After interacting with the bookshelf at (6, 0), all movement was blocked.
 - **Initial Incorrect Hypothesis:** I was soft-locked by a story event.
 - **Corrected Observation:** The screen displayed text ('SILVER CAVE') that did not match the current location (PlayersHouse2F). This indicates I was viewing the Town Map, not the overworld.
@@ -36,7 +38,7 @@
 - **Result:** No event triggered.
 - **Conclusion:** Hypothesis 7 is false. Interacting with the bed does not advance the story.
 
-## Puzzle Update: Radio Success!
+### Puzzle Update: Radio Success!
 - **Hypothesis (from `puzzle_solver`):** Interact with the radio.
 - **Test:** Interacted with the radio at (3, 1).
 - **Result:** Triggered the 'PROF.OAK'S POKéMON TALK!' dialogue.
