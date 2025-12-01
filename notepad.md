@@ -280,3 +280,6 @@
 
 # Hiker Anthony on Phone:
 - Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
+
+# Hiker Anthony on Phone:
+- Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
