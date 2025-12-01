@@ -24,7 +24,7 @@
 - **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
   - **Structure:** Map 15_6 (Cabins) is disjointed. 15_7 is Engine Room.
   - **Status:** Captain's Cabin verified as DEAD END (sprites are rugs). Checked all 1F cabins except Player's Cabin.
-  - **Current Lead:** Sailor said "South". Player's Cabin (15, 8) is the only unchecked location fitting this description.
+  - **Current Lead:** Sailor said "South". Checked all cabins (including Player's). Re-investigating Engine Room and Captain's Cabin (Captain sprite).
   - **Cabins Checklist (1F):**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
