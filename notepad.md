@@ -77,7 +77,7 @@
 
 ## Elite Four Strategy
 - **Will (Psychic):** Defeated! Strategy: Smokescreen + Swift/Flame Wheel worked perfectly.
-- **Koga (Poison):** BATTLE ACTIVE. Forretress defeated. Facing Muk. Watch for Minimize (Use Swift).
+- **Koga (Poison):** BATTLE ACTIVE. Forretress defeated. Facing Muk (Used Minimize). Switching to Swift.
 - **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
 - **Karen (Dark):** Fighting. Paprika brute force.
 - **Lance (Dragon):** Rock/Ice. Basalt/Paprika.
