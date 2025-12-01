@@ -3,9 +3,10 @@
 ## 📍 Current Status: Saffron City
 - **Location:** Saffron City Pokémon Center.
 - **Status:** Healing team.
-- **Current Objective:** Heal team, find Copycat, and challenge Gym. (Psychic TM obtained)
+- **Current Objective:** Explore Saffron City (Gym, Copycat).
 - **Intel:**
   - Pokefan M (21, 30): Magnet Train is down.
+  - Fisher (Saffron PC): Commotion at Power Plant (linked to Rock Tunnel).
 - **Map Notes:**
   - 12_1: Route 6. Saffron Gate open. Underground Path blocked.
   - 12_12: Route 6 Saffron Gate. Officer present but passive.
