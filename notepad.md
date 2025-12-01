@@ -71,8 +71,6 @@
 
 ## General Lessons
 - **Lesson on Scripted Events:** During a cutscene or scripted event, the game state (like party composition) might appear strange. Don't try to debug this mid-event. The priority is to advance the dialogue and wait for the event to conclude, as the state will likely normalize afterward.
-
-## General Lessons
 - **Lesson on Positional Awareness:** Always verify my current position against the Game State before planning a path, especially after a potential screen transition or cutscene, to avoid hallucinations.
 
 ## Missing Pokémon Puzzle
