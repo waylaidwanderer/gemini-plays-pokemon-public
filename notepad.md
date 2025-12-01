@@ -306,3 +306,6 @@
 - Phone Call: Youngster Joey wants a rematch on Route 30.
 - Checked Southern Cabins (1F) again. Empty.
 - Checking Northern Cabins next, starting with (27, 8). Path requires looping via East Corridor (x=30).
+- Phone Call: Youngster Joey wants a rematch on Route 30.
+- Checked Southern Cabins (1F) again. Empty.
+- Checking Northern Cabins next, starting with (27, 8). Path requires looping via East Corridor (x=30).
