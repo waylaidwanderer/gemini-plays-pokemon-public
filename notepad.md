@@ -298,7 +298,7 @@
 - **Dragonite #1 (Lv47):** Defeated. (Thunder Wave failed due to Smokescreen).
 - **Dragonite #2 (Lv47):** Defeated. (Smokescreen x2, Flamethrower). Thunder Wave failed repeatedly.
 - **Charizard (Incoming):** Fire/Flying. Strategy: Smokescreen + Swift/Flamethrower.
-- Tool Failure: `select_move` failed to navigate from SMOKESCREEN to FLAMETHROWER on Turn 16025. Screen text showed arrow on SMOKESCREEN, but tool output 'A'.
+
 - Charizard (Lv46): Defeated (Crit Flamethrower).
 - Status: Facing Dragonite #3 (Lv50). Smokescreen PP is 0. Flamethrower PP: 4.
 - **Tool Usage Rule:** Do NOT use `autopress_buttons: true` with built-in tools (like `select_battle_option`) or tools that return coordinates (like `find_path`). It ONLY works for custom tools that return a list of button strings.
