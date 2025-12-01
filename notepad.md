@@ -343,3 +343,10 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29728)
 - **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area (like the Olivine Lighthouse) yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly, rather than getting stuck re-testing failed internal hypotheses.
+
+# Reflection Lessons (Turn 29782)
+- **Tool Robustness:** My `plan_systematic_search_path` tool failed catastrophically because its XML parser used a brittle `find('Object')` method that failed to detect nested objects, causing paths to lead directly into NPCs. The fix was to use a robust `find('.//Object')` search. **Lesson:** Tool logic must be generalized to handle all variations of game data structures. Prefer simple, robust rules over complex, specific ones that are prone to failure.
+
+# To-Do List (New)
+- Unstun Sailor (ID 1) in Olivine City after leaving the lighthouse.
+- Unstun POKEFAN_F (ID 2) in Olivine Lighthouse 1F before leaving.
