@@ -3,10 +3,11 @@
 ## 📍 Current Status: Route 6
 - **Location:** Route 6 (South Entrance).
 - **Status:** Defeated Lt. Surge. Thunder Badge obtained.
-- **Current Objective:** Travel North to Saffron City.
+- **Current Objective:** Find alternate route (Underground Path?) or solve Power Plant crisis.
+- **Blockade:** Saffron Gatehouse (17, 4) blocked by Pokefan M. "Road closed until Power Plant problem is solved."
 - **Map Notes:**
-  - 12_1: Route 6. Connects Vermilion (South) to Saffron (North).
-  - 12_3: Vermilion City. Gym, PC, Mart, Port.
+  - 12_1: Route 6. Gatehouse to Saffron is blocked. Underground Path Sign at (19, 5).
+  - 12_3: Vermilion City. Gym (Thunder Badge), PC, Mart, Port.
 - **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
