@@ -118,5 +118,7 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
 - **Result:** No event triggered.
 - **Conclusion:** Hypothesis 2 is false.
 
-### Hypothesis 3 Test: Menu Trigger
-- **Current Plan:** Move to (2, 3) to stand in front of Elm, then open the menu and view the Trainer Card.
+### Hypothesis 3 Test: Menu Trigger (Failed)
+- **Test:** Stood at (2, 3), opened the menu, and viewed the Trainer Card.
+- **Result:** No event triggered upon closing the menu.
+- **Conclusion:** Hypothesis 3 is false.
