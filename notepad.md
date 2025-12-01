@@ -260,6 +260,7 @@
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
+- Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
