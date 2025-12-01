@@ -85,3 +85,6 @@
 - `TYPE_9f3` (Elm's Lab - Starter Machine?)
 - `TYPE_a82` (Elm's Lab - PC?)
 - `TYPE_1fdc` (Elm's Lab - TV?)
+
+## General Lessons
+- **Lesson on Scripted Events:** During a cutscene or scripted event, the game state (like party composition) might appear strange. Don't try to debug this mid-event. The priority is to advance the dialogue and wait for the event to conclude, as the state will likely normalize afterward.
