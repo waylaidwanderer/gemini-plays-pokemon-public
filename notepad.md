@@ -1,17 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Vermilion City
-- **Location:** Vermilion Gym.
+## 📍 Current Status: Route 6
+- **Location:** Route 6 (South Entrance).
 - **Status:** Defeated Lt. Surge. Thunder Badge obtained.
-- **Current Objective:** Heal, then North to Saffron.
+- **Current Objective:** Travel North to Saffron City.
 - **Map Notes:**
-  - 12_3: Vermilion City. Port at South. Gym at (10, 19). Pokemon Center at (9, 5).
-  - 12_10: House (Gentleman).
-  - 12_8: House (Magnet Train Info).
-  - 12_11: Vermilion Gym. Lt. Surge (Defeated, No TM) at (5, 2).
-  - **Navigation:** Must use Cut on tree at (13, 18) to access North Vermilion.
+  - 12_1: Route 6. Connects Vermilion (South) to Saffron (North).
+  - 12_3: Vermilion City. Gym, PC, Mart, Port.
 - **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
-- **Lesson:** Always verify building signs before assuming function (e.g. PC).
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
