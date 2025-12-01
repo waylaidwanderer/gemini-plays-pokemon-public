@@ -307,4 +307,4 @@
 - **Raichu (Lv44):** Defeated.
 - **Electrode #1 (Lv40):** Defeated (Crit Swift).
 - **Electrode #2 (Lv40):** Defeated.
-- **Electabuzz (Incoming):** Keeping Paprika in.
+- **Electabuzz (Lv46):** Active. Strategy: Swift.
