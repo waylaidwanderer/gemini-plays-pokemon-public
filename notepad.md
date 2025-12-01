@@ -145,15 +145,13 @@
 - **LADDER**: A traversable warp tile. Activated by stepping *onto* the tile, which immediately triggers the warp. No additional button presses are needed.
 
 # Current Quest: Olivine Lighthouse
-- **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
-- **Status:** I am on the 2nd floor of the Olivine Lighthouse, in the eastern section.
+- **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
+- **Status:** I am on the 2nd floor of the Olivine Lighthouse.
 - **Olivine Lighthouse Puzzle:**
   - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-  - **Key Insight:** Progress is made by falling through pits on 2F to access a sealed-off eastern section of 1F. The path upwards is from this eastern section.
+  - **Key Insight:** The path to the upper floors is accessed by falling through the pits at (16, 13) and (17, 13) on 2F. This leads to a sealed-off eastern section of 1F, which contains the ladder to the upper floors.
   - **Summary of Findings:**
-    - **2F:** The western path has a ladder at (5, 3) leading up to a confirmed dead end on 3F. The eastern path is where I am currently exploring.
-    - **3F:** The western side, accessed from 2F, is a confirmed dead end. The eastern side is currently inaccessible.
-  - **Current Hypothesis:** The correct path to the upper floors must be on this eastern side of 2F. I am systematically searching the area.
+    - **2F:** The western path has a ladder at (5, 3) leading up to a confirmed dead end on 3F. The eastern path is where the correct progression path is located.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -197,7 +195,7 @@
 # Puzzle Solutions & Lessons
 - **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
-- **Warp Data Conflict Resolution:** If the Mental Map XML or a system warning indicates a warp exists, but it's not on the official `Game State Information -> Warps` list and initial interaction tests fail, do not immediately dismiss it as a hallucination. Treat it as a potentially real warp with a non-obvious or event-based trigger. Mark it and continue to investigate other paths, but keep it in mind as a possible solution if all other avenues are exhausted.
+- **Warp Data Conflict Resolution:** The official `Game State Information -> Warps` list is the single source of truth for all active warps. Data from other sources (like the Mental Map XML) that suggests a warp exists where one is not officially listed should be treated as a potential data artifact or an inactive warp that requires an external, non-obvious trigger. Do not get stuck in loops testing these.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 - **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
 - **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
@@ -360,7 +358,7 @@
 - **External Triggers:** If all internal solutions to a puzzle are exhausted, the trigger is likely external.
 - **Task Immediacy:** Perform tasks like unstunning NPCs immediately after the interaction is complete.
 - **TOOL USAGE DISCIPLINE:** Remember to set `autopress_buttons: true` for custom tools that output button presses.
-- **Item Interaction Mechanics:** To give an item to an overworld sprite, interact with it directly. The game may require a specific item type (e.g., 'BERRY') and not accept similar items.
+- **Item Interaction Mechanics:** To give an item to an overworld sprite, I must interact with it directly. The game may require a specific item type (e.g., 'BERRY') and not accept similar items.
 - **Tool Design Philosophy:** Design tools with simple, general rules over complex, specific ones to make them more robust.
 - **Path Interruption Strategy:** If an automated path is interrupted, regenerate it from the new current position.
 - **Dynamic NPC Presence:** Some NPCs may despawn and respawn based on player position, opening or closing paths.
