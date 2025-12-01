@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Olivine Port Passage
-- **Location:** Olivine Port Passage (ID: 15_8).
+## 📍 Current Status: Olivine Port
+- **Location:** Olivine Port (ID: 15_1).
 - **Status:** JOHTO LEAGUE CHAMPION! En route to Kanto.
 - **Current Objective:** Navigate passage to Board S.S. Aqua.
 - **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
