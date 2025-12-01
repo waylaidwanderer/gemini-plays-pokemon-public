@@ -22,8 +22,8 @@
 
 ## Quest Log
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Status:** Defeated Lazy Sailor Stanly. Returning to B1F Engine Room.
-  - **Current Task:** Navigate to B1F ladder at (30, 14).
+  - **Status:** Exploring B1F Engine Room.
+  - **Current Task:** Find Granddaughter in Western section.
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
   - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
   - **Status:** Found Gentleman. Searching for Granddaughter in B1F.

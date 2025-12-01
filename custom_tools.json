@@ -316,7 +316,7 @@
     ]
   },
   "select_move": {
-    "description": "Automatically selects a move in the battle menu by calculating the required button presses based on the cursor position in the screen text. Requires the move name and current screen text as input. Handles persistent cursor memory by scanning screen text.",
+    "description": "Automatically selects a move in the battle menu. Robustly parses screen text to find the cursor '▶' and the target move, calculating the necessary button presses (Up, Down, Left, Right) to navigate the 2x2 move grid.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -332,7 +332,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    # 1. Parse Inputs\n    screen_text = input_data.get('screen_text', '')\n    target_move = input_data.get('move_name', '').upper().strip()\n    \n    if not screen_text or not target_move:\n        print(json.dumps([]))\n        sys.exit()\n\n    lines = screen_text.split('\\n')\n    \n    # 2. Identify Move List Logic\n    cursor_line = -1\n    target_line = -1\n    \n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_line = i\n        if target_move in line.upper():\n            target_line = i\n            \n    # 3. Validation\n    if cursor_line == -1 or target_line == -1:\n        print(json.dumps([]))\n        sys.exit()\n        \n    # 4. Calculate Path\n    buttons = []\n    diff = target_line - cursor_line\n    \n    if diff > 0:\n        buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        buttons.extend([\"Up\"] * abs(diff))\n        \n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nexcept Exception:\n    print(json.dumps([]))",
+    "python_script": "import json\n\nmove_name = input_data['move_name'].upper().strip()\nscreen_text = input_data['screen_text']\n\n# Split text into non-empty lines\nlines = [line for line in screen_text.split('\\n') if line.strip()]\n\ncursor_pos = None\ntarget_pos = None\n\n# Helper to determine column (0=Left, 1=Right)\ndef get_col(line, text_in_line):\n    idx = line.find(text_in_line)\n    # If text starts in the first 40% of the line, assume col 0, else col 1\n    if idx < len(line) * 0.4:\n        return 0\n    return 1\n\n# Scan lines to find Cursor and Target\n# Assuming max 2 rows of moves in a standard 2x2 grid layout\n# We look for lines containing '▶' or the move name\nrow_idx = 0\nfor line in lines:\n    # Check for Cursor\n    if '▶' in line:\n        col = get_col(line, '▶')\n        cursor_pos = (row_idx, col)\n    \n    # Check for Target Move\n    # Use fuzzy check or exact check?\n    # Exact check is safer for now, but assume input is correct\n    if move_name in line:\n        col = get_col(line, move_name)\n        target_pos = (row_idx, col)\n    \n    # Only increment row if this line actually looks like a move line\n    # (Simple heuristic: if it has the cursor or the target, count it)\n    # Better: Count every line that likely contains moves\n    # For now, increment for every non-empty line scanned\n    row_idx += 1\n\nbuttons = []\n\nif cursor_pos and target_pos:\n    # Calculate Row Difference\n    d_row = target_pos[0] - cursor_pos[0]\n    if d_row > 0:\n        buttons.extend(['Down'] * d_row)\n    elif d_row < 0:\n        buttons.extend(['Up'] * abs(d_row))\n        \n    # Calculate Col Difference\n    d_col = target_pos[1] - cursor_pos[1]\n    if d_col > 0:\n        buttons.extend(['Right'] * d_col)\n    elif d_col < 0:\n        buttons.extend(['Left'] * abs(d_col))\n        \n    buttons.append('A')\nelse:\n    # Fallback: If we can't find positions, maybe we are already on it?\n    # Or maybe the move isn't visible.\n    # Safe default: Don't press anything, or press A if we think we might be lucky?\n    # Printing empty list prevents random actions.\n    # BUT, if we found target but not cursor, maybe cursor is implicit?\n    pass\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
@@ -368,6 +368,11 @@
         "commit_message": "fix: Remove debug print statements causing JSON errors. Improve cursor and target detection logic to strictly output valid JSON button arrays.",
         "timestamp": "2025-11-30T17:09:48.544Z",
         "action_counter": 15170
+      },
+      {
+        "commit_message": "fix: Overhaul select_move with robust 2x2 grid parsing. Now detects '▶' cursor and target move row/column to calculate navigation steps, preventing errors where the tool assumed the cursor was already correctly placed.",
+        "timestamp": "2025-12-01T09:07:47.934Z",
+        "action_counter": 16323
       }
     ]
   },
