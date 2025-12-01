@@ -1,9 +1,8 @@
-- **TRUST THE GAME STATE OVER MEMORY:** After experiencing severe hallucinations (e.g., battling a non-existent trainer, being in the wrong location), it is a critical, non-negotiable directive to always trust the raw Game State Information as the absolute source of truth. My own memory or interpretation of events is unreliable and must be discarded if it contradicts the game state.
-- **HIERARCHY OF TRUTH (CORRECTED):** The Mental Map XML is the most detailed source of truth for the immediate environment, as it can show undiscovered elements like warps that are not yet listed in the summarized `Game State Information` lists. I must trust my direct observation of the map data over incomplete summaries.
-- **NPC dialogue can be misleading; all paths must be personally verified.**
-- **Audit my own notes for assumptions that violate my stated principles.**
-- **IMMEDIATE TOOL MAINTENANCE:** Do not defer tool fixes. If a tool breaks in a specific context (like a battle menu), I must stay in that context and fix it immediately, even if it means taking damage or losing a turn. The context is critical for debugging and is lost once I leave.
-- **VERIFY POSITION BEFORE TOOL USE:** A critical hallucination occurred because I failed to verify my coordinates before a pathing tool execution. I MUST verify my current `(x, y)` and `map_id` in the Game State Information after EVERY movement or interruption before planning my next action, especially before using any coordinate-based tools.
+# CRITICAL DIRECTIVE: ANTI-HALLUCINATION PROTOCOL
+- My memory is unreliable. The Game State Information is the absolute source of truth.
+- I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
+- I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
+- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 
 # Strategic Protocol
 - **PLAN-EXECUTE-VERIFY CYCLE:**
@@ -38,7 +37,6 @@
 - **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
-- **VERIFY ALL WARPS:** Before setting a navigation goal to a warp, I MUST first confirm its existence and coordinates in the `Game State Information -> Map Events -> Warps` list. My visual assessment or memory can be wrong.
 - **CONSULT YOUR KNOWLEDGE BASE:** My notepad contains critical, verified information about game mechanics (like impassable tiles). I MUST consult this knowledge base *before* attempting an action to avoid repeating solved problems and wasting turns on impossible movements, as seen with the COUNTER tile incident.
 - **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
@@ -65,7 +63,7 @@
 - **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-- **Battle Anomaly:** A wild battle terminated unexpectedly. After pressing 'A' on the main battle menu's 'FIGHT' option, I was returned to the overworld without any battle resolution. The cause is unknown. A recurring battle anomaly has been observed. Interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred) sometimes displays the battle-starting dialogue but then returns to the overworld without initiating combat. However, this is inconsistent; a later attempt to battle Sailor Huey triggered a proper battle. The exact cause or trigger condition is unknown.
+- **Battle Anomaly:** A recurring battle anomaly has been observed. Interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred) sometimes displays the battle-starting dialogue but then returns to the overworld without initiating combat. However, this is inconsistent; a later attempt to battle Sailor Huey triggered a proper battle. The exact cause or trigger condition is unknown.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Intermediate Warp Pathing:** My `find_path` tool was causing loops by treating intermediate warp tiles (like ladders) as normal floor tiles. Lesson: Pathfinding tools must treat all warps as impassable unless they are the explicit final destination of the path.
 
@@ -275,8 +273,6 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-- **TRUST MAP DATA OVER MARKERS:** My own markers can be wrong due to hallucinations or outdated information. The raw map data (WALLs, FLOORs, etc.) is the source of truth. If a marker contradicts the map, the map is correct.
-- **Warp Coordinate Hallucination:** I incorrectly identified a navigation target as a warp when no warp existed at those coordinates. I must always verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before setting `is_warp: true` in my navigation goals.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
 - **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
 
@@ -286,34 +282,10 @@
 - **Hypothesis 2 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
   - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
 
-# Reflection Lessons
-- **Incremental Notepad Edits:** If a large `notepad_edit` fails (especially `overwrite`), break the changes into smaller, verifiable chunks using `replace` or `append` and interleave them with gameplay actions to maintain momentum and avoid getting stuck in editing loops.
-- **WARP_CARPET_UP:** A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
-- **Tool Design Philosophy:** Tool logic must be robust enough to handle all variations of game data structures. A fix for one edge case should not break the general case. Test fixes thoroughly.
-- **Task Management:** If a high-priority maintenance task (like a major notepad refactor) fails repeatedly, break it into smaller, incremental steps or temporarily abandon it to maintain gameplay momentum. Avoid getting stuck in unproductive loops.
-- **Trust Your Tools:** My `find_path` tool correctly identified a path on Olivine Lighthouse 1F that I had completely missed through manual exploration. This proves that I should trust the output of my verified tools over my own flawed visual assessment, especially in complex layouts. A tool's 'No path found' is equally valuable information.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
-- **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles or move to bring objects on-screen before pathing.
-
-# Future Tool Ideas
-- **Exploration Manager Agent:** Create an agent that can manage the `plan_systematic_search_path` tool. It would take a long path, break it into smaller, more manageable chunks, and execute them one by one, re-evaluating for obstacles between each chunk. This would make exploration more robust and less prone to interruption.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 29277)
-My systematic exploration is failing. Escalated to `puzzle_solver` agent.
-- **Hypothesis 1 (DISPROVEN):** NPCs are trainers to be defeated. (I have already defeated both Sailor Huey and the Gentleman).
-- **Hypothesis 2 (DISPROVEN - WEST):** The inactive warps on 2F are landing spots for a pit on 3F. Test: Systematically walked over every tile on the accessible western side of 3F. Result: No pit found. The eastern side remains inaccessible from this floor.
-- **Hypothesis 3 (PENDING):** A trigger on 1F moves the NPCs. (Fallback plan if Hypothesis 2 fails).
-
-# Reflection Lessons (Turn 29378)
-- **CRITICAL HALLUCINATION:** I hallucinated being on Route 39 when I was still in Olivine City, causing a tool to crash and wasting a turn. This is a recurring problem. I MUST verify my `current_map_id` and `current_position` in the Game State Information *before* every single action, especially before using any coordinate-based tools. Trusting memory is a critical failure.
-
 # To-Do List
 
 # Battle Anomaly
 - A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
-
-# Reflection Lessons (Turn 29571)
-- CRITICAL HALLUCINATION RECOVERY: I have repeatedly hallucinated my current map and coordinates, causing tools to crash and wasting turns. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
 
 # Reflection Lessons (Turn 29624)
 - **Path Interruption Strategy:** When a long, automated path (like from `plan_systematic_search_path`) is interrupted by a new or moving obstacle, the entire path is invalid. The correct procedure is to immediately regenerate the path from the new current position, not attempt to resume the old one.
@@ -339,8 +311,5 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 - **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly, rather than getting stuck re-testing failed internal hypotheses.
 
 # Reflection Lessons (Turn 29932)
-- **CRITICAL HALLUCINATION RECOVERY:** I had another severe hallucination, believing I was in Olivine City when I was still in the Port Passage. This caused a tool crash and wasted a turn. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information *before* EVERY single action, especially before using coordinate-based tools or setting navigation goals.
-
-# Reflection Lessons (Turn 30040)
 - **TRUST YOUR TOOLS:** If `find_path` returns 'No path found', it is a definitive statement that the destination is unreachable from the current position based on known traversable tiles. I must trust this output and immediately form a new hypothesis about the path forward, rather than questioning the tool.
-- **MANDATORY VERIFICATION:** My repeated positional hallucinations are a critical failure. I MUST verify my `current_map_id` and `current_position` from the Game State Information *before* every single action, especially before using coordinate-based tools or setting navigation goals. This is a non-negotiable step to prevent wasted turns and tool crashes.
+- **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles or move to bring objects on-screen before pathing.
