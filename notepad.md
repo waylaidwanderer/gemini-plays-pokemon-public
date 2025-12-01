@@ -82,3 +82,6 @@
 ## Untested Tile Types
 - `TYPE_989e` (Neighbor's House - Bookshelf?)
 - `TYPE_4a21` (Neighbor's House - Chair?)
+- `TYPE_9f3` (Elm's Lab - Starter Machine?)
+- `TYPE_a82` (Elm's Lab - PC?)
+- `TYPE_1fdc` (Elm's Lab - TV?)
