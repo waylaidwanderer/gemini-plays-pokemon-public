@@ -1,7 +1,8 @@
 # Gem's Pokémon Crystal Adventure!
 
 ## Game Plan
-- Start my journey and get my first Pokémon.
+- Complete Professor Elm's errand by visiting MR. POKéMON.
+- Find out what the "mystery" is at MR. POKéMON's house.
 
 ## Tile Mechanics
 *This section consolidates all observed tile behaviors.*
