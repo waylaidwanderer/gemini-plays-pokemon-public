@@ -1,12 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Vermilion City
-- **Location:** Vermilion City (12_3).
-- **Status:** Arrived in Kanto. Exploring the city.
-- **Current Objective:** Locate Pokémon Center and Gym.
+- **Location:** Vermilion City (House at 2, 4).
+- **Status:** Arrived in Kanto. Mistook house for PC.
+- **Current Objective:** Talk to Gentleman, then find real Pokémon Center and Gym.
 - **Map Notes:**
   - 12_3: Vermilion City. Port entrance at South.
+  - 12_10: House (Gentleman).
 - **Team:** Paprika (Lv63), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+- **Lesson:** Always verify building signs before assuming function (e.g. PC).
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
