@@ -3,17 +3,15 @@
 ## 📍 Current Status: Champion Battle - Lance
 - **Location:** Lance's Room (ID: 16_7).
 - **Status:** In Battle vs Champion Lance!
-- **Opponent:** Gyarados (Lv44) [Active]
+- **Opponent:** Aerodactyl (Lv46) [Active]
 - **Team:** Paprika (Lv61) [Active], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Champion Lance Strategy
 - **Opponent:** Dragon Specialist.
-- **Threats:** Dragonites (Dragon/Flying), Gyarados (Water/Flying), Charizard (Fire/Flying), Aerodactyl (Rock/Flying).
-- **Paprika's Matchup:**
-  - **Flamethrower:** Resisted by Dragon (0.5x), Water (0.5x), Fire (0.5x), Rock (0.5x). BAD MATCHUP.
-  - **Swift/Quick Attack:** Neutral (1.0x) vs most. Resisted by Rock/Steel (Aerodactyl).
-  - **Smokescreen:** CRITICAL. Blind them to survive.
-- **Plan:** Lead with Smokescreen. Heal spam. Use Swift. Maximize Evasion/Accuracy diff.
+- **Threats:** Dragonites (Dragon/Flying), Charizard (Fire/Flying), Aerodactyl (Rock/Flying).
+- **Current Tactics:**
+  - **Aerodactyl:** Blinded (-2 Acc). Spam Flamethrower (Best damage despite resist).
+  - **General:** Smokescreen is the MVP. Heal when low.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower & Lighthouse cleared.
