@@ -84,3 +84,10 @@
     - **Test:** Walked to the exit mat at (2, 7).
     - **Result:** No event triggered. I successfully stood on the warp tile without being stopped.
     - **Conclusion:** Hypothesis is false.
+
+### Additional Tile Mechanics (Elm's Lab)
+- `TYPE_989e`: Window. Confirmed impassable.
+- `TYPE_9f3`: Pokémon machine. Confirmed impassable.
+
+## New General Lessons
+- **Lesson on Notepad Edits:** Large `overwrite` or `replace` actions are likely to fail due to the data loss safeguard. Large refactoring tasks must be broken down into smaller, incremental edits to succeed.
