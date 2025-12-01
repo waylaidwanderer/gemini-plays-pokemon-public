@@ -23,17 +23,6 @@
 - `TYPE_17bc`: Stairs.
 - `TYPE_ffbb`: Doormat warp tile.
 
-## Puzzle Log: Leaving the Bedroom
-
-**Failed Hypotheses:**
-- **Stairs:** All attempts at direct interaction (walking onto them, pressing 'A', approaching from above) have failed. The stair tiles are confirmed impassable.
-
-- **PC:** All attempts at interaction from (4, 2) trigger the TV instead. Side interaction is blocked by the chair.
-
-## New Plan
-- Since interacting with the PC has failed from all possible angles, I will now attempt to interact with other objects in the room.
-- Next Target: Bookshelves at (6, 0) and (7, 0). I will move to (6, 1) to interact with them.
-
 ## Lessons Learned
 - Do not re-test a hypothesis that has already been proven false. For example, once a tile type is confirmed to be impassable, do not attempt to move onto it as part of a new hypothesis.
 
