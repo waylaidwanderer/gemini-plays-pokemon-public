@@ -66,10 +66,7 @@
 
 - Opening/closing the main menu after the event did not unlock the stairs.
 
-- **Hypothesis (from `puzzle_solver`):** A new option appeared in the main menu, possibly in 'OPTION', to set the time.
-- **Test:** Opened the main menu and navigated to 'OPTION'.
-- **Result:** No new options were present. The menu contained standard game settings.
-- **Conclusion:** Hypothesis is false. The menu is not the key.
+- The 'OPTION' menu did not contain any new settings.
 
 - **Hypothesis (from `puzzle_solver`):** The radio event unlocked a new function on the PC.
 - **Test:** After the radio event, moved to (4, 2) and interacted with the object at (4, 1).
