@@ -274,7 +274,6 @@
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 
 # Reminders & To-Do
-- Unstun POKEFAN_F (ID 2) on OlivineLighthouse1F.
 
 # Olivine Lighthouse Puzzle Hypotheses (from agent)
 - **Hypothesis #1:** The path forward is through an opening on the eastern side of the 2nd floor that leads to an exterior ledge.
