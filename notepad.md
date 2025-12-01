@@ -308,7 +308,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 - **CRITICAL HALLUCINATION:** I hallucinated being on Route 39 when I was still in Olivine City, causing a tool to crash and wasting a turn. This is a recurring problem. I MUST verify my `current_map_id` and `current_position` in the Game State Information *before* every single action, especially before using any coordinate-based tools. Trusting memory is a critical failure.
 
 # To-Do List
-- **High Priority:** Return to Olivine Lighthouse 2F and unstun Sailor Huey (ID 1) and the Gentleman (ID 2) once back in the area.
 
 # Battle Anomaly
 - A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
