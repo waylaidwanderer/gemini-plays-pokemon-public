@@ -75,7 +75,12 @@
 - **Conclusion:** This is the correct story trigger! The current objective is to advance through this dialogue.
 
 ## Puzzle Update: Stairs Still Locked
-- **Hypothesis:** Listening to the radio event unlocked the stairs.
+- **Hypothesis 1:** Listening to the radio event unlocked the stairs.
 - **Test:** After the radio dialogue concluded, attempted to move left from (1, 4) onto the stair tile (0, 4).
 - **Result:** Failed. Movement was blocked.
-- **Conclusion:** The radio event does not unlock the stairs. The puzzle is not yet solved.
+- **Conclusion:** The radio event does not unlock the stairs.
+
+- **Hypothesis 2:** The sequence of listening to the radio, then opening and closing the main menu, unlocked the stairs.
+- **Test:** After completing the sequence, attempted to move left from (1, 4) onto the stair tile (0, 4).
+- **Result:** Failed. Movement was blocked.
+- **Conclusion:** The puzzle is not yet solved. All simple hypotheses have failed.
