@@ -10,7 +10,7 @@
 - `TYPE_17bc`: Hypothesized impassable (bookshelf).
 - `TYPE_3fe2`: Confirmed traversable floor tile.
 - `TYPE_a82`: Hypothesized impassable (PC).
-- `TYPE_1fdc`: Hypothesized impassable (TV).
+- `TYPE_1fdc`: Confirmed impassable (TV).
 
 ## Puzzle Solutions
 ### Staircase (PlayersHouse2F)
