@@ -330,3 +330,15 @@
 - The `exploration_manager` agent has been deleted as it is now obsolete.
 - **New Method:** For exploring complex, unknown areas, I will visually divide the map into quadrants. I will then use the reliable `find_path` tool to navigate to a central, traversable point within each quadrant to ensure full coverage without relying on a single, fragile, all-encompassing path.
 - If a core tool requires more than 2-3 debug cycles to fix, its fundamental logic is likely flawed. It is more efficient to delete the tool and adopt a simpler, more reliable strategy than to get stuck in an unproductive debugging loop.
+
+# Tile & Object Mechanics (New)
+- **TOWN_MAP**: An interactable object on a wall; impassable.
+- **TV**: An impassable object.
+- **BOOKSHELF**: An impassable object.
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
+- **RADIO**: An impassable object.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+
+# Item Interaction Mechanics
+- To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
+- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
