@@ -299,3 +299,11 @@
 - The ladder at (5, 3) on OlivineLighthouse2F leads to a confirmed dead-end on 3F West. DO NOT TAKE THIS LADDER AGAIN.
 
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. More importantly, the tool will fail if the target NPC is not currently on-screen and rendered in the game.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+My `puzzle_solver` agent has provided new hypotheses after I got stuck in a loop.
+
+- **Hypothesis 1:** The path to 3F East is on 2F East.
+  - **Test Plan:** Fall through a pit to 1F East, then find a ladder up to 2F East and search for a new ladder leading to 3F. I will test this hypothesis first.
+- **Hypothesis 2:** The pits themselves are a puzzle, and a specific one leads to a new area.
+  - **Test Plan:** Systematically fall through each pit and map their destinations on 1F.
