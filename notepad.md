@@ -68,8 +68,5 @@
 
 - The 'OPTION' menu did not contain any new settings.
 
-- **Hypothesis (from `puzzle_solver`):** The radio event unlocked a new function on the PC.
-- **Result:** Interacting from (4, 2) still triggered the TV.
-
-- **Hypothesis (from `puzzle_solver`):** The SELECT button has a hidden function on the radio.
-- **Result:** Displayed a generic help message.
+- The PC interaction was unchanged after the radio event; it still triggered the TV.
+- The SELECT button on the radio only displayed a generic help message.
