@@ -297,3 +297,6 @@
 
 # Lighthouse Navigation Loop
 - The ladder at (5, 3) on OlivineLighthouse2F leads to a confirmed dead-end on 3F West. DO NOT TAKE THIS LADDER AGAIN.
+
+# New Lessons
+- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. More importantly, the tool will fail if the target NPC is not currently on-screen and rendered in the game.
