@@ -1,13 +1,15 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 6
-- **Location:** Route 6 (South Entrance).
-- **Status:** Defeated Lt. Surge. Thunder Badge obtained.
-- **Current Objective:** Find alternate route (Underground Path?) or solve Power Plant crisis.
-- **Blockade:** Saffron Gatehouse (17, 4) blocked by Pokefan M. "Road closed until Power Plant problem is solved."
+## 📍 Current Status: Saffron City
+- **Location:** Saffron City (South).
+- **Status:** Arrived via Route 6 Gate.
+- **Current Objective:** Explore Saffron, find Copycat, obtain Psychic TM, challenge Gym.
+- **Intel:**
+  - Pokefan M (21, 30): Magnet Train is down.
 - **Map Notes:**
-  - 12_1: Route 6. Building at (6, 1) is Saffron Gate. Underground Path blocked at (17, 4). Saffron likely closed.
-  - 12_12: Route 6 Saffron Gate. Officer at (0, 4).
+  - 12_1: Route 6. Saffron Gate open. Underground Path blocked.
+  - 12_12: Route 6 Saffron Gate. Officer present but passive.
+  - 25_2: Saffron City. Mr. Psychic's House sign at (25, 29).
   - 12_3: Vermilion City. Gym (Thunder Badge), PC, Mart, Port.
 - **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
