@@ -370,3 +370,6 @@
 - **Path Interruption (Revisited):** For long paths, break them into smaller chunks.
 - **Tool Logic Robustness (Revisited):
 - **Positional Awareness after Interruption:** If an automated path is interrupted, my internal state for my current position might be wrong. I MUST verify my `current_position` from the Game State Information before recalculating a path to avoid hallucinations.
+
+# Reflection Lessons (Turn 30560)
+- **Data Source Hierarchy:** When there is a conflict between my internal map data (XML) and the official `Game State Information` (e.g., the warp list), the Game State is the absolute source of truth. Relying on unverified data from the XML can lead to unproductive testing loops.
