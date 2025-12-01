@@ -284,3 +284,4 @@
 - **Will:** Slowbro is a tank (Amnesia/Curse). Counter: Smokescreen (-6 Acc) + Swift. Heal aggressively.
 - **General:** Keep Paprika healthy. Revive spam if needed.
 - **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences.
+- **Menu Navigation:** Item lists are not strictly alphabetical. New items (like those bought at Indigo Plateau) may appear at the bottom. Always scroll down if an item is missing.
