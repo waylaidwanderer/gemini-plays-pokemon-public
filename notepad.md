@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Elite Four - Will
-- **Location:** Will's Room (ID: 16_3).
-- **Status:** Battling Will (Slowbro).
+## 📍 Current Status: Elite Four - Koga
+- **Location:** Koga's Room (ID: 16_4).
+- **Status:** Approaching Koga.
 - **Team:** Paprika (Lv59), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
