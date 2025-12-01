@@ -127,3 +127,8 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
 - **Test:** Walked to the exit mat at (2, 7).
 - **Result:** No event triggered. I successfully stood on the warp tile without being stopped.
 - **Conclusion:** Hypothesis 4 is false. Attempting to leave does not trigger an event.
+
+### Hypothesis 5 Test: Thematic Trigger (Failed)
+- **Test:** Stood at (2, 1) and interacted with the window at (2, 0).
+- **Result:** Received flavor text: "My reflection! Lookin' good!". No event triggered.
+- **Conclusion:** Hypothesis 5 is false.
