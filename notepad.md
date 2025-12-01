@@ -144,7 +144,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **BROKEN_FLOOR**: Not yet encountered. Previous note about it being in the Burned Tower was likely a hallucination.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
-- **LADDER**: A traversable warp tile. Activated by moving onto the tile, and then typically pressing 'Up' or 'Down' depending on the direction of travel. Pressing 'A' on or adjacent to them does not work.
+- **LADDER**: A traversable warp tile. Activated by stepping *onto* the tile, which immediately triggers the warp. No additional button presses are needed.
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Investigate the sick Pokémon at the Olivine Lighthouse.
