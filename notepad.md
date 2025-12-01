@@ -283,3 +283,4 @@
 ## Saffron City
 - Arrived via Route 6 Gate.
 - Goal: Explore, find Copycat, Gym.
+- **System Correction:** 'path' is a button command, not a tool. Ensure `buttons_to_press` uses `['path']` (not `['path (tool)']`) and `tools_to_call` uses `find_path`.
