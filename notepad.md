@@ -42,3 +42,10 @@
 
 ## Lessons Learned
 - Do not re-test a hypothesis that has already been proven false. For example, once a tile type is confirmed to be impassable, do not attempt to move onto it as part of a new hypothesis.
+
+## Town Map Puzzle
+- **Observation:** After interacting with the bookshelf at (6, 0), all movement was blocked.
+- **Initial Incorrect Hypothesis:** I was soft-locked by a story event.
+- **Corrected Observation:** The screen displayed text ('SILVER CAVE') that did not match the current location (PlayersHouse2F). This indicates I was viewing the Town Map, not the overworld.
+- **New Hypothesis:** Pressing 'B' (the cancel/back button) will close the Town Map view.
+- **Lesson Learned:** Screen elements beyond transcribed text are critical. An unexpected screen display signals a change in game state that may alter input controls.
