@@ -295,11 +295,6 @@
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles or move to bring objects on-screen before pathing.
 
-# Reflection Lessons (Turn 29260)
-- **Path Interruption Strategy:** When a long, automated path (like from `plan_systematic_search_path`) is interrupted by a new or moving obstacle, the entire path is invalid. The correct procedure is to immediately regenerate the path from the new current position, not attempt to resume the old one.
-- **TRUST YOUR KNOWLEDGE BASE (Case Study):** I ignored my own map marker '🚫 Leads to 3F dead end. Do not use.' at (5, 3) on 2F, went up to 3F, and wasted several turns re-confirming it was a dead end. This is a critical failure of discipline. I must consult my markers before navigating.
-- **Lighthouse Puzzle Note:** The suspected warps at (16, 11) and (17, 11) on 2F were previously tested and seemed non-functional. If a clear path up is not found after a full systematic search of this floor, the next hypothesis is that these warps require a different activation method, such as an 'A' press from an adjacent tile. This must be tested thoroughly before assuming the floor is a dead end.
-
 # Future Tool Ideas
 - **Exploration Manager Agent:** Create an agent that can manage the `plan_systematic_search_path` tool. It would take a long path, break it into smaller, more manageable chunks, and execute them one by one, re-evaluating for obstacles between each chunk. This would make exploration more robust and less prone to interruption.
 
