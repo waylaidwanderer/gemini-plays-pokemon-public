@@ -313,3 +313,6 @@
 # Reflection Lessons (Turn 29932)
 - **TRUST YOUR TOOLS:** If `find_path` returns 'No path found', it is a definitive statement that the destination is unreachable from the current position based on known traversable tiles. I must trust this output and immediately form a new hypothesis about the path forward, rather than questioning the tool.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles or move to bring objects on-screen before pathing.
+
+# Reflection Lessons (Turn 30144)
+- **Path Interruption:** My long, automated path was interrupted because I tried to move onto a one-way ledge tile in the wrong direction. Lesson: For long paths, either break them into smaller, verifiable chunks or use a robust tool like `exploration_manager` to handle interruptions gracefully. Blindly executing a long path is risky and prone to failure.
