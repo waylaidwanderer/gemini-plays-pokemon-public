@@ -53,6 +53,13 @@
 - **Tool Robustness:** My `plan_systematic_search_path` tool failed catastrophically because its XML parser used a brittle `find('Object')` method that failed to detect nested objects, causing paths to lead directly into NPCs. The fix was to use a robust `find('.//Object')` search. **Lesson:** Tool logic must be generalized to handle all variations of game data structures. Prefer simple, robust rules over complex, specific ones that are prone to failure.
 - **Data Source Hierarchy:** When there is a conflict between my internal map data (XML) and the official `Game State Information` (e.g., the warp list), the Game State is the absolute source of truth. Relying on unverified data from the XML can lead to unproductive testing loops.
 - **Defeated Trainers as Obstacles:** Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
+- **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. Do not rely on it for multi-map pathing.
+- **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
+- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
+- **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
+- **Tool Logic Verification:** When debugging a tool, I must verify its behavior in various states, not just the one that caused the initial failure. This includes its interaction with the player's own position and other dynamic game elements.
+- **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
+- **Hiker Anthony on Phone:** Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -196,11 +203,15 @@
 - **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
 - **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
-- **Internal vs. External Pzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
+- **Internal vs. External Puzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
 - **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
 - **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
+- **Failed Hypothesis (Lighthouse 2F):** The path forward is through an opening on the eastern side of the 2nd floor that leads to an exterior ledge. (FAILED: Searched eastern wall, no openings found).
+- **Failed Hypothesis (Lighthouse 3F):** There is a hidden pitfall on the western side of the 3rd floor. (FAILED: Systematic search complete, no pits found. Item and sailor are inaccessible from the west).
+- **Hypothesis (Active):** The eastern side of the 1st floor has an exit to an exterior path that was previously missed.
+  - **Test Plan:** Return to 1F East. Re-examine the area for any doors or openings leading outside.
 
 ## Solved Puzzles
 ### Azalea Gym
@@ -271,26 +282,3 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-
-# Reminders & To-Do
-
-# Olivine Lighthouse Puzzle Hypotheses (from agent)
-- **Hypothesis #1 (FAILED):** The path forward is through an opening on the eastern side of the 2nd floor that leads to an exterior ledge.
-  - **Test Plan:** Go to 2F East. Search for an opening in the wall (window/doorway) and try to walk through it.
-- **Hypothesis #2 (FAILED):** There is a hidden pitfall on the western side of the 3rd floor. Systematic search complete, no pits found. The item and sailor in this area are also inaccessible from the west.
-- **Hypothesis #3:** The eastern side of the 1st floor has an exit to an exterior path that was previously missed.
-  - **Test Plan:** Return to 1F East. Re-examine the area for any doors or openings leading outside.
-
-# Strategic Protocol
-- **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. Do not rely on it for multi-map pathing.
-- **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
-- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
-- **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
-
-# Strategic Protocol
-- **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
-- **Hiker Anthony on Phone:** Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
-
-# Strategic Protocol
-- **Automated Path Vetting:** Automated paths can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
-- **Tool Logic Verification:** When debugging a tool, I must verify its behavior in various states, not just the one that caused the initial failure. This includes its interaction with the player's own position and other dynamic game elements.
