@@ -275,3 +275,11 @@
 
 # Reminders & To-Do
 - Unstun POKEFAN_F (ID 2) on OlivineLighthouse1F.
+
+# Olivine Lighthouse Puzzle Hypotheses (from agent)
+- **Hypothesis #1:** The path forward is through an opening on the eastern side of the 2nd floor that leads to an exterior ledge.
+  - **Test Plan:** Go to 2F East. Search for an opening in the wall (window/doorway) and try to walk through it.
+- **Hypothesis #2:** There is a hidden pitfall on the western side of the 3rd floor that leads to the inaccessible eastern side of the 2nd floor.
+  - **Test Plan:** Go to 3F West. Walk over every single tile to check for a hidden hole.
+- **Hypothesis #3:** The eastern side of the 1st floor has an exit to an exterior path that was previously missed.
+  - **Test Plan:** Return to 1F East. Re-examine the area for any doors or openings leading outside.
