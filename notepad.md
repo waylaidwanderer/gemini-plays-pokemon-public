@@ -146,7 +146,7 @@
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Current Hypothesis:** The main path upwards on 2F was likely bypassed by falling through the pits. The solution may be on the main, initial section of 2F. The next step is to exit the lighthouse and re-enter to explore 2F without falling.
+- **Current Hypothesis (from puzzle_solver):** The unlisted warps at (16, 11) and (17, 11) are activated by falling onto them from the floor above (3F). The current plan is to reach 3F via the ladder at (5, 3) and search for a corresponding pit.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
