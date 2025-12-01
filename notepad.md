@@ -88,3 +88,9 @@
 
 ## Tile Mechanics (Confirmed)
 - `TYPE_ffbb`: Confirmed to be a warp tile (doormat). Acts as an exit from a building.
+- `TYPE_201b`: Observed as a building doorway tile. Appears to be impassable from the outside.
+- `TYPE_4e8c`: Observed at the edge of the water. Likely impassable.
+- `TYPE_80fc`: Observed at the edge of the water. Likely impassable.
+
+## Lessons Learned (New)
+- If movement is blocked by an NPC, especially in a seemingly scripted position, the intended solution is likely to interact with them ('A' button), not to find a way around them. Repeatedly trying to move past a blocking NPC will result in a loop.
