@@ -46,7 +46,8 @@
     - (15, 8): Checked (Player's Cabin - Heals)
     - (19, 15): Checked (Empty)
     - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
-    - (27, 15): Current Location (Gentleman). **Task:** Explore east side of this room.
+    - (27, 15): Checked (Gentleman). Quest: Find Granddaughter.
+    - (30, 14): Unexplored Ladder (Next Target).
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -220,7 +221,8 @@
     - (15, 8): Checked (Player's Cabin - Heals)
     - (19, 15): Checked (Empty)
     - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
-    - (27, 15): Current Location (Gentleman). **Task:** Explore east side of this room.
+    - (27, 15): Checked (Gentleman). Quest: Find Granddaughter.
+    - (30, 14): Unexplored Ladder (Next Target).
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
