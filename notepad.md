@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Champion Battle - Lance
-- **Location:** Lance's Room (ID: 16_7).
-- **Status:** In Battle vs Champion Lance!
-- **Opponent:** Dragonite (Incoming)
-- **Team:** Paprika (Lv61) [Active], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+## 📍 Current Status: Hall of Fame
+- **Location:** Hall of Fame (ID: 16_8).
+- **Status:** JOHTO LEAGUE CHAMPION!
+- **Current Objective:** Register in the Hall of Fame.
+- **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Champion Lance Strategy
 - **Opponent:** Dragon Specialist.
