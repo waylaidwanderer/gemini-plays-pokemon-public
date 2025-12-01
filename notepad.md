@@ -6,11 +6,11 @@
 ## Tile Mechanics
 *I will document my observations on tile traversal rules here.*
 - `TYPE_2889`: Confirmed impassable. Acts as a wall or solid object.
-- `TYPE_1dc2`: Unknown, part of the bookshelf.
-- `TYPE_17bc`: Unknown, part of the bookshelf.
+- `TYPE_1dc2`: Hypothesized impassable (bookshelf).
+- `TYPE_17bc`: Hypothesized impassable (bookshelf).
 - `TYPE_3fe2`: Confirmed traversable floor tile.
-- `TYPE_a82`: Unknown, appears to be a PC.
-- `TYPE_1fdc`: Unknown, appears to be a TV.
+- `TYPE_a82`: Hypothesized impassable (PC).
+- `TYPE_1fdc`: Hypothesized impassable (TV).
 
 ## Puzzle Solutions
 ### Staircase (PlayersHouse2F)
