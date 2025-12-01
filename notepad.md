@@ -21,12 +21,10 @@
 - **Key Feats:** Red Gyarados, Radio Tower, Lighthouse, Dragon's Den, Elite Four Defeated.
 
 ## Quest Log
-- **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Status:** Exploring B1F Engine Room.
-  - **Current Task:** Investigate Little Girl in Captain's Cabin (15_6).
-- **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
-  - **Status:** Found Gentleman. Searching for Granddaughter in B1F.
+- **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
+  - **Structure:** Map 15_6 (Cabins) is disjointed. 15_7 is Engine Room.
+  - **Status:** Found 'Little Girl' and 'Captain' sprites in Captain's Cabin (15_6, bottom warp). 
+  - **Hypothesis:** Sprites at (7, 31) and (7, 33) are non-interactive solid tiles (likely dolls or glitched), as they do not appear in Game State and yield no text on interaction. Will test by checking wall objects and refreshing map.
   - **Cabins Checklist (1F):**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
