@@ -304,11 +304,6 @@
 # Pathing Strategy Update
 - My long paths are constantly being interrupted. The system critique correctly pointed out that I should be using the `exploration_manager` agent to handle this. Once `find_path` is confirmed to be working correctly, I MUST use `exploration_manager` to break long paths into smaller, manageable chunks to avoid these repeated failures.
 
-# Reflection Lessons (Turn 30196)
-- **Tool Logic Robustness:** My `find_path` tool failed because its one-way ledge logic was incomplete. It only checked the a current tile, not the destination tile, allowing it to generate illegal paths *onto* ledges. **Lesson:** When developing tools, logic must be tested against all edge cases. Prefer simple, general rules that cover all possibilities over complex, specific ones.
-- **Tool Input Validity:** Attempting to use `find_path` to navigate to an 'unseen' tile is an invalid use of the tool, as it correctly treats them as impassable. My strategy must adapt to the tool's known logic and limitations.
-- **`find_path` Off-Screen Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers or shorter paths to navigate around known off-screen obstacles.
-
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
