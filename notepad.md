@@ -111,3 +111,6 @@
 - `TYPE_9f3` (Elm's Lab - Starter Machine?)
 - `TYPE_a82` (Elm's Lab - PC?)
 - `TYPE_1fdc` (Elm's Lab - TV?)
+
+## General Lessons
+- **Lesson on Positional Awareness:** Always verify my current position against the Game State before planning a path, especially after a potential screen transition or cutscene, to avoid hallucinations.
