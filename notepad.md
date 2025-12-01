@@ -39,9 +39,9 @@
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
   - Cabins Checklist:
     - (27, 8): Checked (Empty)
-    - (23, 8): To Check
+    - (23, 8): To Check (Next Target)
     - (19, 8): Checked (Empty)
-    - (15, 8): To Check (Current Target)
+    - (15, 8): Checked (Empty)
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -208,9 +208,9 @@
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
   - Cabins Checklist:
     - (27, 8): Checked (Empty)
-    - (23, 8): To Check
+    - (23, 8): To Check (Next Target)
     - (19, 8): Checked (Empty)
-    - (15, 8): To Check (Current Target)
+    - (15, 8): Checked (Empty)
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
