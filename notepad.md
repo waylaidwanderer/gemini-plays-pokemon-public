@@ -3,7 +3,8 @@
 ## 📍 Current Status: Hall of Fame
 - **Location:** Hall of Fame (ID: 16_8).
 - **Status:** JOHTO LEAGUE CHAMPION!
-- **Current Objective:** Register in the Hall of Fame.
+- **Current Objective:** Watch the credits and wait for post-game.
+- **Status:** CREDITS ROLLING. JOHTO CHAMPION CONFIRMED.
 - **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Champion Lance Strategy
