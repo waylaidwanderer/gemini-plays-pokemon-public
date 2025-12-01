@@ -303,3 +303,5 @@
 - **Vermilion Gym:** Traps are INACTIVE per Gym Guide. Path to Lt. Surge should be clear.
 - Defeated Super Nerd (Magnemite x3) at (3, 10).
 - Defeated Gentleman Gregory at (7, 8).
+## Battle Log: Lt. Surge
+- **Raichu (Lv44):** Active. Paprika (Lv64) vs Raichu. Strategy: Swift.
