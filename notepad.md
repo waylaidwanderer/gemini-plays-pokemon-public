@@ -42,6 +42,7 @@
     - (23, 8): Checked (Defeated Hiker Noland)
     - (19, 8): Checked (Empty)
     - (15, 8): Checked (Empty)
+    - (19, 15): Checked (Empty)
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -211,6 +212,7 @@
     - (23, 8): Checked (Defeated Hiker Noland)
     - (19, 8): Checked (Empty)
     - (15, 8): Checked (Empty)
+    - (19, 15): Checked (Empty)
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
