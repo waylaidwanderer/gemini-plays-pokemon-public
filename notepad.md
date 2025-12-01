@@ -46,17 +46,8 @@
 
 ## Current Puzzle: Obtaining a Starter Pokémon
 - **Objective:** Receive a starter Pokémon from Professor Elm.
-- **Location:** Elm's Lab.
-- **Key Objects:** Pokémon machine at (0, 1), Professor Elm at (5, 4).
-- **Failed Hypotheses:**
-    1.  **Hypothesis:** Interacting with the Pokémon machine at (0, 1) will immediately present the choice of starters.
-        - **Test:** Interacted with the machine.
-        - **Result:** Displayed text about Prof. Elm's research. No Pokémon choice was offered.
-        - **Conclusion:** Hypothesis is false.
-    2.  **Hypothesis:** After viewing the machine's text, talking to Professor Elm at (5, 4) will trigger the Pokémon selection event.
-        - **Test:** Walked to (5, 3) and talked to Prof. Elm.
-        - **Result:** Interrupted by his son's dialogue. The event did not progress. Repeated attempts yielded the same result.
-        - **Conclusion:** Hypothesis is false.
+- **Summary of Failures:** I have systematically tested multiple hypotheses: interacting with the Pokémon machine, talking to Prof. Elm (from multiple angles), interacting with all other objects in the lab (TV, window, bookshelves), attempting to leave the lab, and exploring the main menu. All have failed to trigger the event.
+- **Current Hypothesis:** Talking to the lab assistant is the last remaining interactive element to test.
 
 ## General Lessons
 - **Lesson on Scripted Events:** During a cutscene or scripted event, the game state (like party composition) might appear strange. Don't try to debug this mid-event. The priority is to advance the dialogue and wait for the event to conclude, as the state will likely normalize afterward.
