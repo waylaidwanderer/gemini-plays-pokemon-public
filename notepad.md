@@ -28,3 +28,6 @@
 
 - **Hypothesis 4 (Current):** A story trigger is required before the stairs can be used. The PC at (4, 1) is a likely candidate for this trigger.
 - **Test Plan:** Move to (4, 2) and interact with the PC.
+
+## Lessons Learned
+- Do not re-test a hypothesis that has already been proven false. For example, once a tile type is confirmed to be impassable, do not attempt to move onto it as part of a new hypothesis.
