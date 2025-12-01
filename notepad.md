@@ -39,7 +39,7 @@
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
   - Cabins Checklist:
     - (27, 8): Checked (Empty)
-    - (23, 8): To Check (Next Target)
+    - (23, 8): Checked (Pokefan M found)
     - (19, 8): Checked (Empty)
     - (15, 8): Checked (Empty)
 
@@ -208,7 +208,7 @@
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
   - Cabins Checklist:
     - (27, 8): Checked (Empty)
-    - (23, 8): To Check (Next Target)
+    - (23, 8): Checked (Pokefan M found)
     - (19, 8): Checked (Empty)
     - (15, 8): Checked (Empty)
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
