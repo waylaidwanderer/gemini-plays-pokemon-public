@@ -27,7 +27,10 @@
 - **Conclusion:** This hypothesis was flawed, as it required moving onto `TYPE_2889`, which was already confirmed to be impassable.
 
 - **Hypothesis 4 (Current):** A story trigger is required before the stairs can be used. The PC at (4, 1) is a likely candidate for this trigger.
-- **Test Plan:** Move to (4, 2) and interact with the PC.
+- **Test 1:** Moved to (4, 2), faced PC, and pressed A.
+- **Result:** Interacted with the TV instead. Test failed.
+- **Conclusion:** Need to find a way to interact with the PC specifically.
+- **Test 2 Plan:** Close the dialogue and press A again from the same position to re-attempt PC interaction.
 
 ## Lessons Learned
 - Do not re-test a hypothesis that has already been proven false. For example, once a tile type is confirmed to be impassable, do not attempt to move onto it as part of a new hypothesis.
