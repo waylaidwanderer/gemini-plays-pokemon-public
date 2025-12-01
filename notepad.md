@@ -77,3 +77,7 @@
 - **Test:** Waited for 3 turns in the center of the room.
 - **Result:** No event triggered.
 - **Conclusion:** Hypothesis is false.
+- **Hypothesis (from `puzzle_solver`):** The radio event updated the character status screen with a new objective.
+- **Test:** Opened the main menu and selected 'GEC' to view the status screen.
+- **Result:** The status screen was normal, with no new information or options.
+- **Conclusion:** Hypothesis is false.
