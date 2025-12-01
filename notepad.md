@@ -6,23 +6,16 @@
 
 ## Tile Mechanics
 *This section consolidates all observed tile behaviors.*
-
-### Confirmed Traversable
-- `TYPE_3fe2`: Standard floor tile.
-- `TYPE_ffbb`: Doormat warp tile. Acts as an exit/entrance from a building.
-
-### Confirmed Impassable
-- `TYPE_2889`: Wall or solid object.
-- `TYPE_1dc2`: Wall/object.
-- `TYPE_a82`: PC.
-- `TYPE_1fdc`: TV.
-- `TYPE_201b`: Building doorway tile. Appears impassable from the outside.
-- `TYPE_4e8c`: Edge of water.
-- `TYPE_80fc`: Edge of water.
-
-### Confirmed Warp
-- `TYPE_17bc`: Stairs.
-- `TYPE_ffbb`: Doormat warp tile.
+- `TYPE_3fe2`: Standard floor tile. (Traversable)
+- `TYPE_ffbb`: Doormat warp tile. (Traversable, Warp)
+- `TYPE_2889`: Wall or solid object. (Impassable)
+- `TYPE_1dc2`: Wall/object. (Impassable)
+- `TYPE_a82`: PC. (Impassable)
+- `TYPE_1fdc`: TV. (Impassable)
+- `TYPE_201b`: Building doorway tile. Appears impassable from the outside. (Impassable)
+- `TYPE_4e8c`: Edge of water. (Impassable)
+- `TYPE_80fc`: Edge of water. (Impassable)
+- `TYPE_17bc`: Stairs. (Warp)
 
 ## Archived Puzzles
 
