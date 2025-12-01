@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Elite Four - Koga
+## 📍 Current Status: Elite Four - Bruno
 - **Location:** Koga's Room (ID: 16_4).
-- **Status:** Approaching Koga.
-- **Team:** Paprika (Lv59), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+- **Status:** Koga Defeated. Healing and advancing to Bruno.
+- **Team:** Paprika (Lv60), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
