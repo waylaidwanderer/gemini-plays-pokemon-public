@@ -287,3 +287,9 @@
 - **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. An attempt to unstun an NPC on a different map will fail, and they may already be moving upon return.
 - **Challenge False Constraints:** The lighthouse pit puzzle was solved by challenging the root assumption that the second pit had to be accessed from the west. When stuck in a loop of failing hypotheses, the foundational belief that led to the strategy is likely flawed. I must aggressively re-verify my core assumptions instead of just refining the failing strategy.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
+
+### New Lessons
+- **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
+- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
+- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
