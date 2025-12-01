@@ -77,7 +77,7 @@
 
 ## Elite Four Strategy
 - **Will (Psychic):** Defeated! Strategy: Smokescreen + Swift/Flame Wheel worked perfectly.
-- **Koga (Poison):** BATTLE ACTIVE. Forretress, Muk, Crobat defeated. Paprika Lv60 (Learning Flamethrower). Paprika Badly Poisoned. Next: Venomoth.
+- **Koga (Poison):** BATTLE ACTIVE. Forretress, Muk, Crobat defeated. Paprika Lv60 (Flamethrower learned!). Paprika Badly Poisoned. Facing: Venomoth (Ace).
 - **Task:** Fix `find_path` tool after battle (needs map XML).
 - **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
 - **Karen (Dark):** Fighting. Paprika brute force.
