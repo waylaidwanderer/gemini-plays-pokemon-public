@@ -6,6 +6,7 @@
 
 # Strategic Protocol
 - **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
+- **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
