@@ -42,9 +42,9 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Structure:** Map 15_6 contains disjointed cabins.
-  - **Status:** Found Gentleman at (2, 17) in cabin via (27, 15).
-  - **Cabins Checklist:**
+  - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
+  - **Status:** Found Gentleman. Searching for Granddaughter in B1F.
+  - **Cabins Checklist (1F):**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
     - (19, 8): Checked (Empty)
@@ -52,7 +52,11 @@
     - (19, 15): Checked (Empty)
     - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
     - (27, 15): Checked (Gentleman). Quest: Find Granddaughter.
-    - (30, 14): Unexplored Ladder (Next Target).
+    - (30, 14): Ladder to B1F (Traversed).
+  - **B1F Engine Room:**
+    - Entered via Ladder at (31, 13).
+    - Sailor at (31, 6) blocking path.
+    - Anomaly: Initially perceived a second Sailor at (30, 6), but Game State confirms only one at (31, 6).
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -217,9 +221,9 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Structure:** Map 15_6 contains disjointed cabins.
-  - **Status:** Found Gentleman at (2, 17) in cabin via (27, 15).
-  - **Cabins Checklist:**
+  - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
+  - **Status:** Found Gentleman. Searching for Granddaughter in B1F.
+  - **Cabins Checklist (1F):**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
     - (19, 8): Checked (Empty)
@@ -227,7 +231,11 @@
     - (19, 15): Checked (Empty)
     - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
     - (27, 15): Checked (Gentleman). Quest: Find Granddaughter.
-    - (30, 14): Unexplored Ladder (Next Target).
+    - (30, 14): Ladder to B1F (Traversed).
+  - **B1F Engine Room:**
+    - Entered via Ladder at (31, 13).
+    - Sailor at (31, 6) blocking path.
+    - Anomaly: Initially perceived a second Sailor at (30, 6), but Game State confirms only one at (31, 6).
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
