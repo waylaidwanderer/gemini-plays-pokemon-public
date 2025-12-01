@@ -77,7 +77,7 @@
 
 ## Elite Four Strategy
 - **Will (Psychic):** Defeated! Strategy: Smokescreen + Swift/Flame Wheel worked perfectly.
-- **Koga (Poison):** BATTLE ACTIVE. Forretress, Muk defeated. Facing Crobat. Paprika Badly Poisoned.
+- **Koga (Poison):** BATTLE ACTIVE. Forretress, Muk defeated. Facing Crobat (Used Double Team). Paprika Badly Poisoned. Plan: Use Swift.
 - **Task:** Fix `find_path` tool after battle (needs map XML).
 - **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
 - **Karen (Dark):** Fighting. Paprika brute force.
