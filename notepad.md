@@ -293,3 +293,6 @@
 - **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+
+# Lighthouse Navigation Loop
+- The ladder at (5, 3) on OlivineLighthouse2F leads to a confirmed dead-end on 3F West. DO NOT TAKE THIS LADDER AGAIN.
