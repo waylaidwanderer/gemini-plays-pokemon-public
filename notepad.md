@@ -321,16 +321,6 @@
 - **Tool Input Validity:** Attempting to use `find_path` to navigate to an 'unseen' tile is an invalid use of the tool, as it correctly treats them as impassable. My strategy must adapt to the tool's known logic and limitations.
 - **`find_path` Off-Screen Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers or shorter paths to navigate around known off-screen obstacles.
 
-# Reflection Lessons (Turn 30248)
-- **Proactive Stunning:** When a planned path goes near a moving NPC, even if it doesn't directly interact with them, proactively stunning them is the most reliable strategy to prevent random path interruptions. Relying on path recalculation after an interruption is less efficient.
-- **Stun Mechanic:** The 'stun' effect from `stun_npc` is temporary. The POKEFAN_F in the lighthouse started moving again after a few turns. The effect likely wears off after a set number of steps or turns.
-
-# New Exploration Strategy
-- The `plan_systematic_search_path` tool has been deleted due to being fundamentally buggy and unreliable.
-- The `exploration_manager` agent has been deleted as it is now obsolete.
-- **New Method:** For exploring complex, unknown areas, I will visually divide the map into quadrants. I will then use the reliable `find_path` tool to navigate to a central, traversable point within each quadrant to ensure full coverage without relying on a single, fragile, all-encompassing path.
-- If a core tool requires more than 2-3 debug cycles to fix, its fundamental logic is likely flawed. It is more efficient to delete the tool and adopt a simpler, more reliable strategy than to get stuck in an unproductive debugging loop.
-
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
