@@ -77,7 +77,7 @@
 
 ## Elite Four Strategy
 - **Will, Koga, Bruno:** Defeated.
-- **Task:** IMMEDIATE PRIORITY: Fix `find_path` surfing logic NOW (before moving).
+
 - **Karen (Dark):** Fighting/Bug weakness. Paprika brute force. Watch out for Houndoom (Fire/Dark).
 - **Lance (Dragon):** Rock/Ice weakness. Basalt (Rock) and Paprika (Fire) are key.
 - **Protocol:** Heal to 100% between battles. Use Super Potions to save Full Restores.
