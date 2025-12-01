@@ -290,3 +290,4 @@
 
 # Strategic Protocol
 - **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
+- **Hiker Anthony on Phone:** Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
