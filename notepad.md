@@ -277,3 +277,8 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
+
+# Reflection Lessons (Turn 31911)
+- **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `find_path` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
+- **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), I must not assume they are functionally identical. Each variable must be tested independently to avoid missing a unique solution.
+- **Stun Reset on Map Change:** The `stun_npc` effect is temporary and resets immediately upon leaving and re-entering a map. It cannot be relied upon for multi-map navigation strategies.
