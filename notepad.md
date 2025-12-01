@@ -38,7 +38,7 @@
     - (30, 14): Ladder to B1F (Traversed).
   - **B1F Engine Room:**
     - Entered via Ladder at (31, 13).
-    - Sailor blocking path mirrors player's X-coordinate. He is waiting for his 'lazy bum' partner. Task: Find the lazy Sailor on 1F (likely in a cabin or corridor) to clear the blockade.
+    - Blockade cleared: Sailor let me pass after I defeated his partner. He mentioned seeing the granddaughter go by.
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -216,7 +216,7 @@
     - (30, 14): Ladder to B1F (Traversed).
   - **B1F Engine Room:**
     - Entered via Ladder at (31, 13).
-    - Sailor blocking path mirrors player's X-coordinate. He is waiting for his 'lazy bum' partner. Task: Find the lazy Sailor on 1F (likely in a cabin or corridor) to clear the blockade.
+    - Blockade cleared: Sailor let me pass after I defeated his partner. He mentioned seeing the granddaughter go by.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
