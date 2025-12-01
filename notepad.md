@@ -57,11 +57,12 @@
 - **Result:** Triggered the 'PROF.OAK'S POKéMON TALK!' dialogue.
 - **Conclusion:** This is the correct story trigger! The current objective is to advance through this dialogue.
 
-## Puzzle Update: Stairs Still Locked
-- **Hypothesis 1:** Listening to the radio event unlocked the stairs.
-- **Test:** After the radio dialogue concluded, attempted to move left from (1, 4) onto the stair tile (0, 4).
-- **Result:** Failed. Movement was blocked.
-- **Conclusion:** The radio event does not unlock the stairs.
+## Current Puzzle: Leaving the Bedroom
+
+**Key Discovery:** Interacting with the radio at (3, 1) triggers a story event ('PROF.OAK'S POKéMON TALK!'). This appears to be the main trigger, but its effect is unknown.
+
+**Post-Radio Failed Hypotheses:**
+- The stairs were not unlocked immediately after the event.
 
 - **Hypothesis 2:** The sequence of listening to the radio, then opening and closing the main menu, unlocked the stairs.
 - **Test:** After completing the sequence, attempted to move left from (1, 4) onto the stair tile (0, 4).
