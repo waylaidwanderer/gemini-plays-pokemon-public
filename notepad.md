@@ -32,8 +32,13 @@
 - **Conclusion:** Need to find a way to interact with the PC specifically.
 - **Test 2:** Remained at (4, 2) and pressed A again.
 - **Result:** Interacted with the TV again. Test failed.
-- **Conclusion:** Interacting from (4, 2) while facing up consistently targets the TV, not the PC. The interaction logic is not what I expected.
-- **Test 3 Plan:** Move to (3, 2), face right towards (4, 1), and press A. This will test if interaction works from the side.
+- Test 3: Attempt to move to (3, 2) to interact with the PC from the side.
+- Result: Failed. Movement to (3, 2) is blocked.
+- Conclusion: An object (a chair) on a normally traversable tile type (`TYPE_3fe2`) can make it impassable. This is a new mechanic. Interacting with the PC from the side is not possible.
+
+## New Plan
+- Since interacting with the PC has failed from all possible angles, I will now attempt to interact with other objects in the room.
+- Next Target: Bookshelves at (6, 0) and (7, 0). I will move to (6, 1) to interact with them.
 
 ## Lessons Learned
 - Do not re-test a hypothesis that has already been proven false. For example, once a tile type is confirmed to be impassable, do not attempt to move onto it as part of a new hypothesis.
