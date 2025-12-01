@@ -279,3 +279,5 @@
 
 ### Olivine Lighthouse Pit Puzzle - Hypothesis Testing
 - **Hypothesis 1 (FAILED):** Use BICYCLE to gain speed and cross the pits. **Test Result:** Game displays "This isn't the time to use that!" when trying to use the BICYCLE indoors. Hypothesis disproven.
+- **Hypothesis 3 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
+  - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
