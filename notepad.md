@@ -287,4 +287,5 @@
 ## Battle Log: Champion Lance
 - **Gyarados (Lv44):** Defeated. (Rain Dance, Surf). Strategy: Smokescreen + Swift/Flamethrower.
 - **Aerodactyl (Lv46):** Defeated. (Rock Slide missed). Strategy: Smokescreen x2 + Flamethrower.
-- **Dragonite (Lv47):** Active. (Thunder Wave failed 'It didn't affect Paprika!'). Strategy: Smokescreen x2 + Flamethrower.
+- **Dragonite #1 (Lv47):** Defeated. (Thunder Wave failed due to Smokescreen).
+- **Dragonite #2 (Lv47):** Active. Strategy: Smokescreen x2 + Flamethrower.
