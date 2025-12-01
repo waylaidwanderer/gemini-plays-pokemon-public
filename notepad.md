@@ -317,7 +317,7 @@
 - My long paths are constantly being interrupted. The system critique correctly pointed out that I should be using the `exploration_manager` agent to handle this. Once `find_path` is confirmed to be working correctly, I MUST use `exploration_manager` to break long paths into smaller, manageable chunks to avoid these repeated failures.
 
 # Reflection Lessons (Turn 30196)
-- **Tool Logic Robustness:** My `find_path` tool failed because its one-way ledge logic was incomplete. It only checked the current tile, not the destination tile, allowing it to generate illegal paths *onto* ledges. **Lesson:** When developing tools, logic must be tested against all edge cases. Prefer simple, general rules that cover all possibilities over complex, specific ones.
+- **Tool Logic Robustness:** My `find_path` tool failed because its one-way ledge logic was incomplete. It only checked the a current tile, not the destination tile, allowing it to generate illegal paths *onto* ledges. **Lesson:** When developing tools, logic must be tested against all edge cases. Prefer simple, general rules that cover all possibilities over complex, specific ones.
 - **Tool Input Validity:** Attempting to use `find_path` to navigate to an 'unseen' tile is an invalid use of the tool, as it correctly treats them as impassable. My strategy must adapt to the tool's known logic and limitations.
 - **`find_path` Off-Screen Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers or shorter paths to navigate around known off-screen obstacles.
 
@@ -330,14 +330,6 @@
 - The `exploration_manager` agent has been deleted as it is now obsolete.
 - **New Method:** For exploring complex, unknown areas, I will visually divide the map into quadrants. I will then use the reliable `find_path` tool to navigate to a central, traversable point within each quadrant to ensure full coverage without relying on a single, fragile, all-encompassing path.
 - If a core tool requires more than 2-3 debug cycles to fix, its fundamental logic is likely flawed. It is more efficient to delete the tool and adopt a simpler, more reliable strategy than to get stuck in an unproductive debugging loop.
-
-# Tile & Object Mechanics (New)
-- **TOWN_MAP**: An interactable object on a wall; impassable.
-- **TV**: An impassable object.
-- **BOOKSHELF**: An impassable object.
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
-- **RADIO**: An impassable object.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
