@@ -22,10 +22,9 @@
 
 ## Quest Log
 - **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
-  - **Status:** Checked ALL 1F cabins & Captain's Cabin. Deck blocked.
+  - **Status:** FOUND THEM! Captain (3, 25) and Twin (2, 25) are at the north end of the Captain's Cabin (15_6). Previous check missed them due to obstacles.
   - **Clue:** Sailor in Engine Room (30, 6) said she went "South".
-  - **Hypothesis:** She is hiding in the Engine Room (B1F) south of the Sailor.
-  - **Lesson:** Trust Game State 'Map Objects'. If a sprite isn't listed, it's a decoration (e.g., Captain's Cabin).
+  - **Lesson:** Always check the entire room, even if parts are blocked.
 
 ## Global Game Mechanics
 ### General Mechanics
