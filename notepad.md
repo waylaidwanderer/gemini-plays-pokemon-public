@@ -6,7 +6,7 @@
 ## Tile Mechanics
 *I will document my observations on tile traversal rules here.*
 - `TYPE_2889`: Confirmed impassable. Acts as a wall or solid object.
-- `TYPE_1dc2`: Hypothesized impassable (bookshelf).
+- `TYPE_1dc2`: Confirmed impassable. Tested by attempting to move Up from (6, 1).
 - `TYPE_17bc`: Hypothesized impassable (bookshelf).
 - `TYPE_3fe2`: Confirmed traversable floor tile.
 - `TYPE_a82`: Confirmed impassable (PC). Tested by attempting to move Up from (4, 2).
