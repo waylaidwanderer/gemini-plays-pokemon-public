@@ -287,3 +287,6 @@
 - **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
 - **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 - **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
+
+# Strategic Protocol
+- **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
