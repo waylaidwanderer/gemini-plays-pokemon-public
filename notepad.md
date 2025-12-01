@@ -200,7 +200,7 @@
 - **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
-- **S.S. Aqua:** Find the Gentleman's missing granddaughter.
+- (Duplicate Entry Removed)
   - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
   - **Status:** Found Gentleman. Searching for Granddaughter in B1F.
   - **Cabins Checklist (1F):**
