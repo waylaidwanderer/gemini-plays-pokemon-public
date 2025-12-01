@@ -73,3 +73,7 @@
 - **Hypothesis (from `puzzle_solver`):** Interacting with the radio and then using a directional button would unlock the stairs.
 - **Test:** Interacted with radio, pressed 'Right'. The dialogue box closed (a new result), but the stairs at (0, 4) remained impassable.
 - **Conclusion:** This hypothesis is false.
+- **Hypothesis (from `puzzle_solver`):** A timed event will occur if I wait in the room.
+- **Test:** Waited for 3 turns in the center of the room.
+- **Result:** No event triggered.
+- **Conclusion:** Hypothesis is false.
