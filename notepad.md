@@ -2,14 +2,14 @@
 
 ## 📍 Current Status: Vermilion City
 - **Location:** Vermilion Gym.
-- **Status:** Challenging Lt. Surge.
-- **Current Objective:** Defeat Lt. Surge.
+- **Status:** Defeated Lt. Surge. Thunder Badge obtained.
+- **Current Objective:** Check for TM from Surge, then Heal.
 - **Map Notes:**
   - 12_3: Vermilion City. Port entrance at South.
   - 12_10: House (Gentleman).
   - 12_8: House (Magnet Train Info).
-  - 12_11: Vermilion Gym. Traps are INACTIVE. Lt. Surge found at (5, 2).
-- **Team:** Paprika (Lv63), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+  - 12_11: Vermilion Gym. Traps are INACTIVE. Lt. Surge (Defeated) at (5, 2).
+- **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 - **Lesson:** Always verify building signs before assuming function (e.g. PC).
 
 ## Kanto Campaign
