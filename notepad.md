@@ -1,9 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: S.S. Aqua
-- **Location:** S.S. Aqua (ID: 15_3).
+- **Location:** S.S. Aqua B1F (ID: 15_7).
 - **Status:** JOHTO LEAGUE CHAMPION! En route to Kanto.
-- **Current Objective:** Explore S.S. Aqua.
+- **Current Objective:** Find Granddaughter in B1F.
+- **Map Notes:**
+  - 15_3: 1F Corridor.
+  - 15_5: Lower Deck (South). Disjointed.
+  - 15_6: Lower Deck (East). Disjointed (Twins, Gentleman).
+  - 15_7: B1F (Engine Room/Cargo?).
 - **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
