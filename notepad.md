@@ -334,3 +334,56 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
+
+# Lessons Learned
+- **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, the change has already been applied. Do not retry.
+- **NPC Interactions:** Some interactions are multi-step. Clear all dialogue. If dialogue repeats without a battle, the NPC is non-battling.
+- **Pathfinding Logic:** If a path is blocked, visually re-examine the map for alternatives like ledges.
+- **Dialogue & Movement:** Always close dialogue boxes with 'A' before moving.
+- **Exploration Before Puzzles:** Explore all reachable areas before attempting complex puzzles.
+- **Tool Input Verification:** Pathing to an 'unseen' tile is an invalid input for `find_path`.
+- **Random Chance Strategy:** If a random strategy (waiting for NPCs) fails 3+ times, switch to a deterministic one (stunning them).
+- **Herding Puzzles:** The direction of approach can be the key trigger for object movement.
+- **Visual Path Verification:** Visually confirm paths on the ASCII map to supplement tools.
+- **Debugging Cycle Avoidance:** If a core tool repeatedly fails, its algorithm is likely flawed. Replace or delete it, don't get stuck in a fix loop.
+- **Puzzle State Changes:** Puzzle states can change based on external triggers like leaving and re-entering an area.
+- **Interaction vs. Line of Sight:** If direct interaction fails, consider line of sight. But first, challenge the root assumption that interaction is necessary at all. Always look for a path *around* an obstacle first.
+- **Positional Awareness:** Always verify your own and your target's coordinates before using a targeted tool like `stun_npc`.
+- **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert is not a guarantee of a wild battle.
+- **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game.
+- **Proactive Automation:** Automate repetitive, complex, or error-prone manual actions immediately.
+- **Resource Management:** Run from inefficient battles to conserve PP.
+- **Warp Carpet Anomaly:** A manual 'Down' press on a `WARP_CARPET_DOWN` can fail due to a wall, but an automated path may succeed. The mechanic needs more investigation.
+- **Tool Context Awareness:** Context-specific tools will fail if used when the required UI is not visible.
+- **Type Disadvantage Switching:** Switching out is critical when facing a significant type disadvantage.
+- **Interaction Pre-check:** Verify you are adjacent and facing your target before pressing 'A'.
+- **Proactive Stunning:** Stun moving NPCs *before* attempting to approach and interact.
+- **Pathing Interruption:** Short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy.
+- **Movement Loop Breaking:** Change your immediate navigation target to break a movement loop.
+- **Interaction Loops:** If 'A' presses (2-3 times) don't advance the game state, the interaction is stuck. Move away and back to reset it.
+- **CONSULT YOUR KNOWLEDGE BASE:** Always check the notepad and map markers before acting to avoid repeating solved problems.
+- **One-Way Warps:** Some warps (like pits) may be one-way exits. Test multiple interaction methods before giving up.
+- **Warp Loop Anomaly:** If a warp behaves unexpectedly (like the Olivine Port Passage loop), mark it as problematic and find an alternative route.
+- **Warp Activation Diversity:** Warps can be activated by step-on, 'A' press, one-way drops, or external triggers.
+- **Trust Your Tools:** A verified tool's output (like `find_path`) should be trusted over flawed visual assessment.
+- **TOOL FAILURE INVESTIGATION:** Investigate the root cause of any tool failure immediately.
+- **Observe Before Assuming:** When stuck, re-examine the map for obvious exits before assuming a complex solution.
+- **IMMEDIATE OBSTACLE MARKING:** Mark all critical obstacles with '🚫' immediately.
+- **`find_path` Tool Limitation:** The tool cannot see off-screen objects. Rely on map markers to navigate around known off-screen obstacles.
+- **Trust NPC Guidance:** Key NPC dialogue should override your own flawed assumptions.
+- **Value of Brute-Force Automation:** A systematic, automated search can reveal paths missed by manual exploration.
+- **Non-Linear Puzzles:** The correct path forward can sometimes be 'backwards' or 'down'.
+- **External Triggers:** If all internal solutions to a puzzle are exhausted, the trigger is likely external.
+- **Task Immediacy:** Perform tasks like unstunning NPCs immediately after the interaction is complete.
+- **TOOL USAGE DISCIPLINE:** Remember to set `autopress_buttons: true` for custom tools that output button presses.
+- **Item Interaction Mechanics:** To give an item to an overworld sprite, interact with it directly. The game may require a specific item type (e.g., 'BERRY') and not accept similar items.
+- **Tool Design Philosophy:** Design tools with simple, general rules over complex, specific ones to make them more robust.
+- **Path Interruption Strategy:** If an automated path is interrupted, regenerate it from the new current position.
+- **Dynamic NPC Presence:** Some NPCs may despawn and respawn based on player position, opening or closing paths.
+- **Reactive Loop Breaking:** If a plan is repeatedly interrupted, switch to a deterministic strategy (like stunning).
+- **External Puzzle Solutions:** When a self-contained area is fully explored with no path forward, the solution is likely external. Trust NPC dialogue pointing to an external requirement.
+- **Tool Robustness:** Tool logic must be generalized to handle all variations of game data structures.
+- **Tool Failure Protocol:** If a core tool has a fundamental logic failure, stop using it and fix it immediately.
+- **TRUST YOUR TOOLS (Revisited):** 'No path found' is a definitive statement that the destination is unreachable with current knowledge.
+- **Path Interruption (Revisited):** For long paths, break them into smaller chunks.
+- **Tool Logic Robustness (Revisited):
