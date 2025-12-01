@@ -1,12 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Vermilion Port
-- **Location:** Vermilion Port (15_2).
-- **Status:** Disembarked S.S. Aqua.
+## 📍 Current Status: Vermilion Port Passage
+- **Location:** Vermilion Port Passage (15_9).
+- **Status:** Traversing passage to Vermilion City.
 - **Current Objective:** Enter Vermilion City.
 - **Map Notes:**
   - 15_3: 1F Corridor (Exit to Vermilion Port at 25,1).
   - 15_2: Vermilion Port. Long pier to the north.
+  - 15_9: Port Passage. Corridor at X=15 leads North to City.
 - **Team:** Paprika (Lv63), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
