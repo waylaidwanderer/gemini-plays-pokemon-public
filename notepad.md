@@ -288,4 +288,5 @@
 - **Gyarados (Lv44):** Defeated. (Rain Dance, Surf). Strategy: Smokescreen + Swift/Flamethrower.
 - **Aerodactyl (Lv46):** Defeated. (Rock Slide missed). Strategy: Smokescreen x2 + Flamethrower.
 - **Dragonite #1 (Lv47):** Defeated. (Thunder Wave failed due to Smokescreen).
-- **Dragonite #2 (Lv47):** Active. Strategy: Smokescreen x2 + Flamethrower.
+- **Dragonite #2 (Lv47):** Defeated. (Smokescreen x2, Flamethrower). Thunder Wave failed repeatedly.
+- **Charizard (Incoming):** Fire/Flying. Strategy: Smokescreen + Swift/Flamethrower.
