@@ -312,4 +312,4 @@
 - **Magneton (Incoming):** Electric/Steel. Weak to Fire/Ground. Light Screen active. Strategy: Use last Flamethrower PP.
 - Found Pokémon Fan Club at Vermilion (7, 13).
 - Contains Fisher, Fairy object (likely Copycat's Doll), Oddish sprite, and Teacher.
-- Quest Added: Retrieve Lost Item (Clefairy Doll) for Copycat in Saffron (Magnet Train Pass).
+- Quest Update: Found Clefairy Doll in Vermilion Fan Club. Interaction only gave description. Need to trigger quest at Copycat in Saffron first to pick it up.
