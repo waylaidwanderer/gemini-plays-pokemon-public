@@ -55,30 +55,19 @@
 - **Result:** Triggered the 'PROF.OAK'S POKéMON TALK!' dialogue.
 - **Conclusion:** This is the correct story trigger! The current objective is to advance through this dialogue.
 
-## Current Puzzle: Leaving the Bedroom
-
-**Key Discovery:** Interacting with the radio at (3, 1) triggers a story event ('PROF.OAK'S POKéMON TALK!'). This appears to be the main trigger, but its effect is unknown.
-
-**Post-Radio Failed Hypotheses:**
-- The stairs were not unlocked immediately after the event.
-
-- Opening/closing the main menu after the event did not unlock the stairs.
-
-- The 'OPTION' menu did not contain any new settings.
-
-- The PC interaction was unchanged after the radio event; it still triggered the TV.
-- The SELECT button on the radio only displayed a generic help message.
-- **Hypothesis (from `puzzle_solver`):** Interacting with the radio and then using a directional button would unlock the stairs.
-- **Test:** Interacted with radio, pressed 'Right'. The dialogue box closed (a new result), but the stairs at (0, 4) remained impassable.
-- **Conclusion:** This hypothesis is false.
-- **Hypothesis (from `puzzle_solver`):** A timed event will occur if I wait in the room.
-- **Test:** Waited for 3 turns in the center of the room.
-- **Result:** No event triggered.
-- **Conclusion:** Hypothesis is false.
-- **Hypothesis (from `puzzle_solver`):** The radio event updated the character status screen with a new objective.
-- **Test:** Opened the main menu and selected 'GEC' to view the status screen.
-- **Result:** The status screen was normal, with no new information or options.
-- **Conclusion:** Hypothesis is false.
+## Current Puzzle: Obtaining a Starter Pokémon
+- **Objective:** Receive a starter Pokémon from Professor Elm.
+- **Location:** Elm's Lab.
+- **Key Objects:** Pokémon machine at (0, 1), Professor Elm at (5, 4).
+- **Failed Hypotheses:**
+    1.  **Hypothesis:** Interacting with the Pokémon machine at (0, 1) will immediately present the choice of starters.
+        - **Test:** Interacted with the machine.
+        - **Result:** Displayed text about Prof. Elm's research. No Pokémon choice was offered.
+        - **Conclusion:** Hypothesis is false.
+    2.  **Hypothesis:** After viewing the machine's text, talking to Professor Elm at (5, 4) will trigger the Pokémon selection event.
+        - **Test:** Walked to (5, 3) and talked to Prof. Elm.
+        - **Result:** Interrupted by his son's dialogue. The event did not progress. Repeated attempts yielded the same result.
+        - **Conclusion:** Hypothesis is false.
 
 ## Untested Tile Types
 - `TYPE_989e` (Neighbor's House - Bookshelf?)
