@@ -307,4 +307,4 @@
 - **Raichu (Lv44):** Defeated.
 - **Electrode #1 (Lv40):** Defeated (Crit Swift).
 - **Electrode #2 (Lv40):** Defeated.
-- **Electabuzz (Lv46):** HP: Yellow. Used Light Screen (Ineffective vs Physical Swift). Strategy: Swift.
+- **Electabuzz (Lv46):** Healed with Hyper Potion. Light Screen active (Ineffective vs Physical Swift). Strategy: Swift.
