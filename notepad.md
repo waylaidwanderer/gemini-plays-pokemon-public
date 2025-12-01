@@ -69,13 +69,6 @@
         - **Result:** Interrupted by his son's dialogue. The event did not progress. Repeated attempts yielded the same result.
         - **Conclusion:** Hypothesis is false.
 
-## Untested Tile Types
-- `TYPE_989e` (Neighbor's House - Bookshelf?)
-- `TYPE_4a21` (Neighbor's House - Chair?)
-- `TYPE_9f3` (Elm's Lab - Starter Machine?)
-- `TYPE_a82` (Elm's Lab - PC?)
-- `TYPE_1fdc` (Elm's Lab - TV?)
-
 ## General Lessons
 - **Lesson on Scripted Events:** During a cutscene or scripted event, the game state (like party composition) might appear strange. Don't try to debug this mid-event. The priority is to advance the dialogue and wait for the event to conclude, as the state will likely normalize afterward.
 
