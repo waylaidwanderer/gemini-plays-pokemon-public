@@ -329,3 +329,4 @@
 - The `plan_systematic_search_path` tool has been deleted due to being fundamentally buggy and unreliable.
 - The `exploration_manager` agent has been deleted as it is now obsolete.
 - **New Method:** For exploring complex, unknown areas, I will visually divide the map into quadrants. I will then use the reliable `find_path` tool to navigate to a central, traversable point within each quadrant to ensure full coverage without relying on a single, fragile, all-encompassing path.
+- If a core tool requires more than 2-3 debug cycles to fix, its fundamental logic is likely flawed. It is more efficient to delete the tool and adopt a simpler, more reliable strategy than to get stuck in an unproductive debugging loop.
