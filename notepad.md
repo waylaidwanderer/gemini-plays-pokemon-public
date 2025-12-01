@@ -282,3 +282,7 @@
 - **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `find_path` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
 - **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), I must not assume they are functionally identical. Each variable must be tested independently to avoid missing a unique solution.
 - **Stun Reset on Map Change:** The `stun_npc` effect is temporary and resets immediately upon leaving and re-entering a map. It cannot be relied upon for multi-map navigation strategies.
+
+# Reflection Lessons (Turn 31964)
+- **Trust Your Tools Over Visuals:** My `find_path` tool correctly identified a path on Olivine Lighthouse 1F that I had completely missed through manual exploration. I must trust the output of my verified tools over my own flawed visual assessment, as they can reveal paths I've overlooked.
+- **Immediate State Cleanup:** I must remember to perform immediate cleanup actions, like unstunning a non-critical NPC, as soon as the need for the stun is over. Deferring these tasks can lead to them being forgotten.
