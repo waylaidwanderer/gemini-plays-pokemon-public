@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Vermilion City
-- **Location:** Vermilion City (House at 2, 4).
-- **Status:** Arrived in Kanto. Mistook house for PC.
-- **Current Objective:** Talk to Gentleman, then find real Pokémon Center and Gym.
+- **Location:** Vermilion City.
+- **Status:** Arrived in Kanto. Gentleman confirmed Diglett's Cave connection.
+- **Current Objective:** Find real Pokémon Center and Gym.
 - **Map Notes:**
   - 12_3: Vermilion City. Port entrance at South.
   - 12_10: House (Gentleman).
