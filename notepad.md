@@ -94,3 +94,8 @@
 - **Test:** After the radio event, moved to (4, 2) and interacted with the object at (4, 1).
 - **Result:** Interacted with the TV again. No change.
 - **Conclusion:** Hypothesis is false. The radio event does not change the interaction at (4, 2).
+
+- **Hypothesis (from `puzzle_solver`):** The SELECT button has a hidden function on the radio.
+- **Test:** Faced radio at (3, 1) and pressed 'Select'.
+- **Result:** Displayed a generic help message: "An item in your PACK may be registered for use on SELECT Button."
+- **Conclusion:** Hypothesis is false. The SELECT button has no special function here.
