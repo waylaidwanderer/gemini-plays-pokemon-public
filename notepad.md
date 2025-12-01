@@ -3,7 +3,7 @@
 ## 📍 Current Status: S.S. Aqua
 - **Location:** S.S. Aqua B1F (ID: 15_7).
 - **Status:** JOHTO LEAGUE CHAMPION! En route to Kanto.
-- **Current Objective:** Find Granddaughter in B1F.
+- **Current Objective:** Investigate Little Girl in Captain's Cabin (15_6).
 - **Map Notes:**
   - 15_3: 1F Corridor.
   - 15_5: Lower Deck (South). Disjointed.
