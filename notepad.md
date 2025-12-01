@@ -281,35 +281,7 @@
 - **General:** Keep Paprika healthy. Revive spam if needed.
 - **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences.
 - **Menu Navigation:** Item lists are not strictly alphabetical. New items (like those bought at Indigo Plateau) may appear at the bottom. Always scroll down if an item is missing.
-## Battle Log: Champion Lance
-- **Gyarados (Lv44):** Defeated. (Rain Dance, Surf). Strategy: Smokescreen + Swift/Flamethrower.
-- **Aerodactyl (Lv46):** Defeated. (Rock Slide missed). Strategy: Smokescreen x2 + Flamethrower.
-- **Dragonite #1 (Lv47):** Defeated. (Thunder Wave failed due to Smokescreen).
-- **Dragonite #2 (Lv47):** Defeated. (Smokescreen x2, Flamethrower). Thunder Wave failed repeatedly.
-- **Charizard (Incoming):** Fire/Flying. Strategy: Smokescreen + Swift/Flamethrower.
-
-- Charizard (Lv46): Defeated (Crit Flamethrower).
-- Status: Facing Dragonite #3 (Lv50). Smokescreen PP is 0. Flamethrower PP: 4.
-- **Tool Usage Rule:** Do NOT use `autopress_buttons: true` with built-in tools (like `select_battle_option`) or tools that return coordinates (like `find_path`). It ONLY works for custom tools that return a list of button strings.
-- Defeated Sailor Jeff (Raticate x2) at (9, 11).
-- Phone Call: Youngster Joey wants a rematch on Route 30.
-- Checked Southern Cabins (1F) again. Empty.
-- Checking Northern Cabins next, starting with (27, 8). Path requires looping via East Corridor (x=30).
-- Phone Call: Youngster Joey wants a rematch on Route 30.
-- Checked Southern Cabins (1F) again. Empty.
-- Checking Northern Cabins next, starting with (27, 8). Path requires looping via East Corridor (x=30).
-- **Correction:** Building at Vermilion (13, 13) is a House, not the Pokémon Center.
-- **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
-- **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
-- **Vermilion Gym:** Traps are INACTIVE per Gym Guide. Path to Lt. Surge should be clear.
-- Defeated Super Nerd (Magnemite x3) at (3, 10).
-- Defeated Gentleman Gregory at (7, 8).
-## Battle Log: Lt. Surge
-- **Raichu (Lv44):** Defeated.
-- **Electrode #1 (Lv40):** Defeated (Crit Swift).
-- **Electrode #2 (Lv40):** Defeated.
-- **Electabuzz (Lv46):** Defeated.
-- **Magneton (Incoming):** Electric/Steel. Weak to Fire/Ground. Light Screen active. Strategy: Use last Flamethrower PP.
-- Found Pokémon Fan Club at Vermilion (7, 13).
-- Contains Fisher, Fairy object (likely Copycat's Doll), Oddish sprite, and Teacher.
-- Quest Update: Found Clefairy Doll in Vermilion Fan Club. Interaction only gave description. Need to trigger quest at Copycat in Saffron first to pick it up.
+## Recent Victories
+- **Champion Lance:** Defeated.
+- **Lt. Surge:** Defeated. Strategy: Paprika (Swift/Flamethrower) swept. Light Screen ignored by Gen 2 Swift (Physical).
+- **Quest Update:** Found Clefairy Doll in Vermilion Fan Club. Must trigger quest at Copycat in Saffron first to pick it up.
