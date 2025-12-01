@@ -6,10 +6,14 @@
 - **Team:** Paprika (Lv61) [Healed], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 - **Note:** Paprika HP 175/191, Flamethrower PP restored.
 
-## Radio Tower Infiltration (Cleared)
-- **Status:** Team Rocket disbanded. Executives defeated.
-- **Key Item:** Clear Bell obtained from Director.
-- **Next Step:** Exit tower and fly to Ecruteak.
+## Champion Lance Strategy
+- **Opponent:** Dragon Specialist.
+- **Threats:** Dragonites (Dragon/Flying), Gyarados (Water/Flying), Charizard (Fire/Flying), Aerodactyl (Rock/Flying).
+- **Paprika's Matchup:**
+  - **Flamethrower:** Resisted by Dragon (0.5x), Water (0.5x), Fire (0.5x), Rock (0.5x). BAD MATCHUP.
+  - **Swift/Quick Attack:** Neutral (1.0x) vs most. Resisted by Rock/Steel (Aerodactyl).
+  - **Smokescreen:** CRITICAL. Blind them to survive.
+- **Plan:** Lead with Smokescreen. Heal spam. Use Swift. Maximize Evasion/Accuracy diff.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower & Lighthouse cleared.
