@@ -6,13 +6,16 @@
 - **Current Objective:** Visit Professor Elm to start Kanto Journey.
 - **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
-## Champion Lance Strategy
-- **Opponent:** Dragon Specialist.
-- **Threats:** Dragonites (Dragon/Flying), Charizard (Fire/Flying).
-- **Defeated:** Gyarados, Aerodactyl.
-- **Current Tactics:**
-  - **Dragonite:** Fire is Resisted. Lead with **Smokescreen** to blind it. Use Swift (Neutral) or Flamethrower (Resisted but STAB).
-  - **General:** Smokescreen is the MVP. Heal to full if HP drops below ~100.
+## Kanto Campaign
+- **Objective:** Travel to Kanto Region.
+- **Next Step:** Get S.S. Ticket from Professor Elm in New Bark Town.
+- **Transport:** S.S. Aqua (likely departs from Olivine City).
+
+## Johto Campaign Summary (Completed)
+- **Status:** Champion of the Johto League.
+- **Badges:** All 8 Johto Badges obtained.
+- **Key Feats:** Disbanded Team Rocket (Radio Tower), Calmed Red Gyarados, Cleared Lighthouse, Dragon's Den.
+- **Elite Four:** Defeated Will, Koga, Bruno, Karen, and Lance.
 
 ## Completed Areas Summary
 - **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower & Lighthouse cleared.
