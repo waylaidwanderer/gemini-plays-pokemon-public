@@ -113,5 +113,10 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
   - **Result:** No dialogue or event triggered.
 - **Conclusion:** Hypothesis 1 is false. The sequence does not trigger any event.
 
-### Hypothesis 2 Test: Time-Gated Event
-- **Current Plan:** Stand at (0, 2) and wait for 30 seconds (i.e., submit a turn with no actions).
+### Hypothesis 2 Test: Time-Gated Event (Failed)
+- **Test:** Stood at (0, 2) and waited for 30 seconds.
+- **Result:** No event triggered.
+- **Conclusion:** Hypothesis 2 is false.
+
+### Hypothesis 3 Test: Menu Trigger
+- **Current Plan:** Move to (2, 3) to stand in front of Elm, then open the menu and view the Trainer Card.
