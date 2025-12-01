@@ -250,8 +250,10 @@
 - **attempt_surf**: Standardized surfing interaction sequence.
 - **select_move**: Automates battle move selection.
 - **sequence_press**: Executes button sequences.
-- **battle_advisor**: Custom agent for battle strategy analysis.
 - **scan_unseen**: Scans for reachable unseen tiles.
+
+## Agent Reference
+- **battle_advisor**: Custom agent for battle strategy analysis.
 ## Route 26 Progress
 - Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
 - Received call from Picnicker Gina (Route 34): Has a gift for me (Leaf Stone/etc likely).
