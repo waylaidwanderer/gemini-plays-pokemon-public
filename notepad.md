@@ -251,12 +251,10 @@
 - `select_move`
 - `switch_pokemon`
 - `find_path`
-- `plan_systematic_search_path`
 
 ## Custom Agents
 - `python_code_debugger`
 - `puzzle_solver`
-- `exploration_manager`
 
 # Reminders & To-Do
 
