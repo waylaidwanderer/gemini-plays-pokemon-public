@@ -123,13 +123,13 @@
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
 - **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
-- **unseen**: A tile that has not yet been explored. Its properties are unknown until visited.
+- **unseen**: A tile that has not yet been explored. Its properties are unknown until visited. It is treated as impassable by pathfinding tools.
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
 - **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
 - **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER / POKEFAN_M**: These NPC objects are impassable and function as walls.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
 - **FLOWER**: Fully traversable decorative tile.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
@@ -146,7 +146,7 @@
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Current Blocker:** I am unable to find a path to ascend to the upper floors. The western side of 3F is a confirmed dead end. The pits on 2F lead to an eastern section which is also a confirmed dead end for upward progression. The true path is unknown.
+- **Current Strategy:** After getting stuck in a strategic loop, the new plan is to perform a complete, methodical re-exploration of the entire lighthouse from the main entrance, challenging all previous assumptions.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
