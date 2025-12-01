@@ -23,8 +23,8 @@
 ## Quest Log
 - **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
   - **Structure:** Map 15_6 (Cabins) is disjointed. 15_7 is Engine Room.
-  - **Status:** Found 'Little Girl' and 'Captain' sprites in Captain's Cabin (15_6, bottom warp). 
-  - **Hypothesis:** Sprites at (7, 31) and (7, 33) are non-interactive solid tiles (likely dolls or glitched), as they do not appear in Game State and yield no text on interaction. Will test by checking wall objects and refreshing map.
+  - **Status:** Investigated Captain's Cabin (15_6). Found 'Little Girl' and 'Captain' sprites at (7, 31) and (7, 33) but verified they are non-interactive decorations.
+  - **Current Lead:** Sailor at (30, 6) in B1F Engine Room mentions seeing a little girl.
   - **Cabins Checklist (1F):**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
