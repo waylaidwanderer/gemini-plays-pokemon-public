@@ -307,10 +307,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 # Reflection Lessons (Turn 29378)
 - **CRITICAL HALLUCINATION:** I hallucinated being on Route 39 when I was still in Olivine City, causing a tool to crash and wasting a turn. This is a recurring problem. I MUST verify my `current_map_id` and `current_position` in the Game State Information *before* every single action, especially before using any coordinate-based tools. Trusting memory is a critical failure.
 
-# Reflection Lessons (Turn 29415)
-- **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself. My tool correctly reported an error when I tried to path to a WALL tile.
-- **Task Prioritization:** While immediate task execution is critical, high-overhead tasks that deviate significantly from the primary goal (like returning to a previous large dungeon to unstun NPCs) can be deferred if they are non-critical. I will add a 'To-Do' section to my notepad for such tasks.
-
 # To-Do List
 - **High Priority:** Return to Olivine Lighthouse 2F and unstun Sailor Huey (ID 1) and the Gentleman (ID 2) once back in the area.
 
