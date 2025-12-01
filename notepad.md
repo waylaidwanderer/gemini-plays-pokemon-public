@@ -146,7 +146,7 @@
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Current Hypothesis:** The western side of 3F was a confirmed dead end. The pit at (16, 13) on 2F leads to the ladder for that dead end. Therefore, the alternate pit at (17, 13) on 2F is the likely correct path forward.
+- **Solution:** The path forward is through the pits on the 2nd floor. Falling through the pit at (16, 13) or (17, 13) leads to a previously inaccessible eastern section of the 1st floor, which contains the ladder to the correct path upwards.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
