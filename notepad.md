@@ -146,12 +146,7 @@
 
 # Current Quest: Olivine Lighthouse
 - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Status:** I am on the 2nd floor of the Olivine Lighthouse.
-- **Olivine Lighthouse Puzzle:**
-  - **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-  - **Key Insight:** The path to the upper floors is accessed by falling through the pits at (16, 13) and (17, 13) on 2F. This leads to a sealed-off eastern section of 1F, which contains the ladder to the upper floors.
-  - **Summary of Findings:**
-    - **2F:** The western path has a ladder at (5, 3) leading up to a confirmed dead end on 3F. The eastern path is where the correct progression path is located.
+- **Current Hypothesis:** The main path upwards on 2F was likely bypassed by falling through the pits. The solution may be on the main, initial section of 2F. The next step is to exit the lighthouse and re-enter to explore 2F without falling.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
