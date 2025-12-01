@@ -1,10 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Hall of Fame
-- **Location:** Hall of Fame (ID: 16_8).
+## 📍 Current Status: New Bark Town (Post-Game)
+- **Location:** New Bark Town (ID: 24_4).
 - **Status:** JOHTO LEAGUE CHAMPION!
-- **Current Objective:** Load Save File and start Kanto Journey.
-- **Status:** Title Screen reached. Attempting to load save.
+- **Current Objective:** Visit Professor Elm to start Kanto Journey.
 - **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Champion Lance Strategy
