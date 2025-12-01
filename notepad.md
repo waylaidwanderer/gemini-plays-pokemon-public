@@ -82,3 +82,11 @@
 
 ## New General Lessons
 - **Lesson on Notepad Edits:** Large `overwrite` or `replace` actions are likely to fail due to the data loss safeguard. Large refactoring tasks must be broken down into smaller, incremental edits to succeed.
+
+- **Hypothesis:** Talking to the lab assistant is the key.
+    - **Test:** Faced assistant from (1, 4) and pressed 'A'.
+    - **Result:** No event or dialogue triggered.
+    - **Conclusion:** Hypothesis is false.
+
+**Current Puzzle Status: Impasse**
+I have now tested every single plausible hypothesis. The only remaining suggestion from `puzzle_solver` is to stand still in the center of the room for a minute. This is my next planned action.
