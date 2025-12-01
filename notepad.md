@@ -281,3 +281,7 @@
 - **Hypothesis 1 (FAILED):** Use BICYCLE to gain speed and cross the pits. **Test Result:** Game displays "This isn't the time to use that!" when trying to use the BICYCLE indoors. Hypothesis disproven.
 - **Hypothesis 3 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
   - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
+
+# New Lessons
+- **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. An attempt to unstun an NPC on a different map will fail, and they may already be moving upon return.
+- **Challenge False Constraints:** The lighthouse pit puzzle was solved by challenging the root assumption that the second pit had to be accessed from the west. When stuck in a loop of failing hypotheses, the foundational belief that led to the strategy is likely flawed. I must aggressively re-verify my core assumptions instead of just refining the failing strategy.
