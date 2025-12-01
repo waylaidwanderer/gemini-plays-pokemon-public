@@ -286,3 +286,4 @@
 # Reflection Lessons (Turn 31964)
 - **Trust Your Tools Over Visuals:** My `find_path` tool correctly identified a path on Olivine Lighthouse 1F that I had completely missed through manual exploration. I must trust the output of my verified tools over my own flawed visual assessment, as they can reveal paths I've overlooked.
 - **Immediate State Cleanup:** I must remember to perform immediate cleanup actions, like unstunning a non-critical NPC, as soon as the need for the stun is over. Deferring these tasks can lead to them being forgotten.
+- **Logical Loop Breaking:** When stuck in a repetitive loop exploring a confirmed dead end, the root assumption is likely flawed. I must escalate to an agent or fundamentally change my strategy (e.g., by exploring a different floor) instead of repeating failed tests.
