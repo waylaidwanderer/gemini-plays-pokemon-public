@@ -287,9 +287,6 @@
 
 # To-Do List (New)
 
-# Reflection Lessons (Turn 29831)
-- **Tool Failure Protocol:** If a core tool demonstrates a fundamental logic failure (e.g., `plan_systematic_search_path` generating a non-contiguous path), I must stop all attempts to use it immediately. The only valid next action is to debug and fix the tool. Attempting to re-run the tool or work around its output is an inefficient loop and a strategic failure.
-
 # Reflection Lessons (Turn 29932)
 - **TRUST YOUR TOOLS:** If `find_path` returns 'No path found', it is a definitive statement that the destination is unreachable from the current position based on known traversable tiles. I must trust this output and immediately form a new hypothesis about the path forward, rather than questioning the tool.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles or move to bring objects on-screen before pathing.
