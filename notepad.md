@@ -2,7 +2,7 @@
 
 ## 📍 Current Status: Elite Four - Karen
 - **Location:** Karen's Room (ID: 16_6).
-- **Status:** Battling Karen. Defeated Umbreon. Facing Gengar.
+- **Status:** Battling Karen. Defeated Umbreon, Gengar. Facing Murkrow.
 - **Team:** Paprika (Lv60), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
