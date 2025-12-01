@@ -290,10 +290,12 @@
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
 - **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 
-### New Lessons
+# New Lessons
 - **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
+- **Tool Logic Flaw (plan_systematic_search_path):** The tool was generating paths that looped back onto warp tiles like ladders, causing unintentional map transitions. The fix was to exclude warp tiles from the tool's definition of traversable tiles for search purposes. This is a crucial lesson for future tool design: pathing logic must be context-aware.
 
 # Lighthouse Navigation Loop
 - The ladder at (5, 3) on OlivineLighthouse2F leads to a confirmed dead-end on 3F West. DO NOT TAKE THIS LADDER AGAIN.
