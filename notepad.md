@@ -90,3 +90,9 @@
 
 **Current Puzzle Status: Impasse**
 I have now tested every single plausible hypothesis. The only remaining suggestion from `puzzle_solver` is to stand still in the center of the room for a minute. This is my next planned action.
+
+## Critical Obstacle Discovery
+- **Location:** Elm's Lab, coordinate (1, 5).
+- **Observation:** A large plant is visually present on this tile, making it impassable.
+- **Problem:** My Mental Map and `find_path` tool incorrectly identify this tile (`TYPE_3fe2`) as traversable floor. This is a critical data error.
+- **Conclusion:** I cannot trust my map data for this tile. All future navigation in this room must manually account for this impassable plant.
