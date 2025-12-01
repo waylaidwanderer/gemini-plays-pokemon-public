@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Saffron City
-- **Location:** Saffron City (South).
-- **Status:** Arrived via Route 6 Gate.
+- **Location:** Saffron City Pokémon Center.
+- **Status:** Healing team.
 - **Current Objective:** Explore Saffron, find Copycat, obtain Psychic TM, challenge Gym.
 - **Intel:**
   - Pokefan M (21, 30): Magnet Train is down.
