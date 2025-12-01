@@ -56,6 +56,7 @@
 - **ROCK:** Breakable (Rock Smash).
 - **BOULDER:** Pushable (Strength).
 - **WARP_CARPET:** Walk off map to exit.
+- **LADDER:** Traversable warp.
 
 ### Battle Mechanics
 - **Main Battle Menu:** ALWAYS use the `select_battle_option` tool. Never use raw directional inputs.
