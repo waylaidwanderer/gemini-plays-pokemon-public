@@ -338,3 +338,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29884)
 - **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly, rather than getting stuck re-testing failed internal hypotheses.
+
+# Reflection Lessons (Turn 29932)
+- **CRITICAL HALLUCINATION RECOVERY:** I had another severe hallucination, believing I was in Olivine City when I was still in the Port Passage. This caused a tool crash and wasted a turn. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information *before* EVERY single action, especially before using coordinate-based tools or setting navigation goals.
