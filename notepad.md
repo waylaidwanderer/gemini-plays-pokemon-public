@@ -299,3 +299,4 @@
 - **Correction:** Building at Vermilion (13, 13) is a House, not the Pokémon Center.
 - **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
 - **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
+- **Vermilion Gym:** Traps are INACTIVE per Gym Guide. Path to Lt. Surge should be clear.
