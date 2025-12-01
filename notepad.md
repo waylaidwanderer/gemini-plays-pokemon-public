@@ -307,4 +307,5 @@
 - **Raichu (Lv44):** Defeated.
 - **Electrode #1 (Lv40):** Defeated (Crit Swift).
 - **Electrode #2 (Lv40):** Defeated.
-- **Electabuzz (Lv46):** Healed with Hyper Potion. Light Screen active (Ineffective vs Physical Swift). Strategy: Swift.
+- **Electabuzz (Lv46):** Defeated.
+- **Magneton (Incoming):** Electric/Steel. Weak to Fire/Ground. Light Screen active. Strategy: Use last Flamethrower PP.
