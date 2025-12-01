@@ -3,7 +3,7 @@
 ## 📍 Current Status: S.S. Aqua
 - **Location:** S.S. Aqua B1F (ID: 15_7).
 - **Status:** JOHTO LEAGUE CHAMPION! En route to Kanto.
-- **Current Objective:** Explore East Engine Room. Found Super Nerd & Sailor.
+- **Current Objective:** Explore East Engine Room. Super Nerd is seasick. Checking Sailor/Ladder.
 - **Map Notes:**
   - 15_3: 1F Corridor.
   - 15_5: Lower Deck (South). Disjointed.
