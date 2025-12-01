@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Elite Four - Karen
-- **Location:** Karen's Room (ID: 16_6).
-- **Status:** Karen Defeated! Ready for Champion Lance.
-- **Team:** Paprika (Lv61) [Healed], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
-- **Note:** Paprika HP 175/191, Flamethrower PP restored.
+## 📍 Current Status: Champion Battle - Lance
+- **Location:** Lance's Room (ID: 16_7).
+- **Status:** In Battle vs Champion Lance!
+- **Opponent:** Gyarados (Lv44) [Active]
+- **Team:** Paprika (Lv61) [Active], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Champion Lance Strategy
 - **Opponent:** Dragon Specialist.
