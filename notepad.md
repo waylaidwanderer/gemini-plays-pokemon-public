@@ -96,3 +96,8 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
 - **Observation:** A large plant is visually present on this tile, making it impassable.
 - **Problem:** My Mental Map and `find_path` tool incorrectly identify this tile (`TYPE_3fe2`) as traversable floor. This is a critical data error.
 - **Conclusion:** I cannot trust my map data for this tile. All future navigation in this room must manually account for this impassable plant.
+
+## Critical Misidentification
+- **Mistake:** I incorrectly identified the NPC at (5,4) as Professor Elm. This was his son.
+- **Correction:** Professor Elm is the NPC located at (1,4).
+- **New Plan:** I must interact with the NPC at (1,4) to receive a starter Pokémon. The best position to interact from is likely (2,3).
