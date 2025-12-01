@@ -300,3 +300,7 @@
 # Reflection Lessons (Turn 30560)
 - **Data Source Hierarchy:** When there is a conflict between my internal map data (XML) and the official `Game State Information` (e.g., the warp list), the Game State is the absolute source of truth. Relying on unverified data from the XML can lead to unproductive testing loops.
 - **LADDER**: A traversable warp tile. Activated by stepping *onto* the tile, which immediately triggers the warp. No additional button presses are needed.
+
+# Pathing Lessons
+- Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
+- Long automated paths are unreliable due to off-screen and moving NPCs. Break them into smaller, visually confirmed segments to avoid interruptions.
