@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Vermilion City
-- **Location:** Vermilion City.
-- **Status:** Arrived in Kanto. Gentleman confirmed Diglett's Cave connection.
-- **Current Objective:** Find real Pokémon Center and Gym.
+- **Location:** Vermilion Gym.
+- **Status:** Challenging Lt. Surge.
+- **Current Objective:** Defeat Lt. Surge.
 - **Map Notes:**
   - 12_3: Vermilion City. Port entrance at South.
   - 12_10: House (Gentleman).
