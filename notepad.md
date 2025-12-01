@@ -64,10 +64,7 @@
 **Post-Radio Failed Hypotheses:**
 - The stairs were not unlocked immediately after the event.
 
-- **Hypothesis 2:** The sequence of listening to the radio, then opening and closing the main menu, unlocked the stairs.
-- **Test:** After completing the sequence, attempted to move left from (1, 4) onto the stair tile (0, 4).
-- **Result:** Failed. Movement was blocked.
-- **Conclusion:** The puzzle is not yet solved. All simple hypotheses have failed.
+- Opening/closing the main menu after the event did not unlock the stairs.
 
 - **Hypothesis (from `puzzle_solver`):** A new option appeared in the main menu, possibly in 'OPTION', to set the time.
 - **Test:** Opened the main menu and navigated to 'OPTION'.
