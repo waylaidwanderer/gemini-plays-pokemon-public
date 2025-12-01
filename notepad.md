@@ -1,20 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: S.S. Aqua
-- **Location:** S.S. Aqua B1F (ID: 15_7).
-- **Status:** JOHTO LEAGUE CHAMPION! En route to Kanto.
-- **Current Objective:** Explore East Engine Room. Investigating Sailor at (30, 6).
+## 📍 Current Status: Vermilion City (Docked)
+- **Location:** S.S. Aqua (Captain's Cabin).
+- **Status:** Arrived in Kanto!
+- **Current Objective:** Disembark ship and enter Vermilion City.
 - **Map Notes:**
-  - 15_3: 1F Corridor.
-  - 15_5: Lower Deck (South). Disjointed.
-  - 15_6: Lower Deck (East). Disjointed (Twins, Gentleman).
-  - 15_7: B1F (Engine Room/Cargo?).
-- **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+  - 15_3: 1F Corridor (Exit to Vermilion likely at 25,1).
+  - 15_6: Captain's Cabin / Lower Deck.
+- **Team:** Paprika (Lv63), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
-- **Objective:** Travel to Kanto Region.
-- **Next Step:** Get S.S. Ticket from Professor Elm in New Bark Town.
-- **Transport:** S.S. Aqua (likely departs from Olivine City).
+- **Objective:** Obtain Kanto Badges.
+- **Next Step:** Explore Vermilion City.
 
 ## Johto Campaign Summary (Completed)
 - **Status:** Johto League Champion. All 8 Badges obtained. Team Rocket Disbanded.
