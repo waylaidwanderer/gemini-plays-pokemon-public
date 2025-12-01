@@ -82,10 +82,6 @@
 - **Result:** The status screen was normal, with no new information or options.
 - **Conclusion:** Hypothesis is false.
 
-## Lessons Learned (Post-Escape)
-- **Systematically Test All Tile Types:** My biggest mistake was assuming the bookshelf was impassable. When stuck, I must test the traversability of every single tile type in the area, even if it looks like a solid object. Do not rely on visual intuition alone.
-- **Incremental Notepad Edits:** When a large `notepad_edit` action like `overwrite` or `replace` fails due to the character loss safeguard, I must immediately switch to smaller, incremental edits instead of repeatedly trying the same large edit.
-
 ## Tile Mechanics (Confirmed)
 - `TYPE_ffbb`: Confirmed to be a warp tile (doormat). Acts as an exit from a building.
 - `TYPE_201b`: Observed as a building doorway tile. Appears to be impassable from the outside.
