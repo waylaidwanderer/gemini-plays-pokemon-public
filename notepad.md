@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: New Bark Town (Post-Game)
-- **Location:** New Bark Town (ID: 24_4).
-- **Status:** JOHTO LEAGUE CHAMPION!
-- **Current Objective:** Visit Professor Elm to start Kanto Journey.
+## 📍 Current Status: Olivine Port Passage
+- **Location:** Olivine Port Passage (ID: 15_8).
+- **Status:** JOHTO LEAGUE CHAMPION! En route to Kanto.
+- **Current Objective:** Navigate passage to Board S.S. Aqua.
 - **Team:** Paprika (Lv62) [MVP], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
