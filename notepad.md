@@ -6,7 +6,8 @@
 - **Current Objective:** Find alternate route (Underground Path?) or solve Power Plant crisis.
 - **Blockade:** Saffron Gatehouse (17, 4) blocked by Pokefan M. "Road closed until Power Plant problem is solved."
 - **Map Notes:**
-  - 12_1: Route 6. Gatehouse to Saffron is blocked. Underground Path Sign at (19, 5).
+  - 12_1: Route 6. Building at (6, 1) is Saffron Gate. Underground Path blocked at (17, 4). Saffron likely closed.
+  - 12_12: Route 6 Saffron Gate. Officer at (0, 4).
   - 12_3: Vermilion City. Gym (Thunder Badge), PC, Mart, Port.
 - **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
