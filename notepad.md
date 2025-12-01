@@ -310,3 +310,6 @@
 - **Electrode #2 (Lv40):** Defeated.
 - **Electabuzz (Lv46):** Defeated.
 - **Magneton (Incoming):** Electric/Steel. Weak to Fire/Ground. Light Screen active. Strategy: Use last Flamethrower PP.
+- Found Pokémon Fan Club at Vermilion (7, 13).
+- Contains Fisher, Fairy object (likely Copycat's Doll), Oddish sprite, and Teacher.
+- Quest Added: Retrieve Lost Item (Clefairy Doll) for Copycat in Saffron (Magnet Train Pass).
