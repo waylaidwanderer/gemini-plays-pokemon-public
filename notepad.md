@@ -299,3 +299,7 @@
 # Pathing Lessons
 - Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
 - Long automated paths are unreliable due to off-screen and moving NPCs. Break them into smaller, visually confirmed segments to avoid interruptions.
+
+# Pathing Lessons
+- Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
+- I MUST consult my own map markers before executing a navigational plan to avoid re-exploring confirmed dead ends.
