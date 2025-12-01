@@ -22,10 +22,10 @@
 
 ## Quest Log
 - **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
-  - **Status:** Checked ALL cabins on 1F (including Player's), Dining Room, and Captain's Cabin. All negative.
-  - **Clue:** Sailor in Engine Room said she went "South" (up the ladder to 1F Corridor).
-  - **Hypothesis:** She might be on the Deck (door at 25,1) or I missed a spot in the Engine Room.
-  - **Lesson:** Sprites can be non-interactive decorations (e.g., Captain's Cabin rugs).
+  - **Status:** Checked ALL 1F cabins & Captain's Cabin. Deck blocked.
+  - **Clue:** Sailor in Engine Room (30, 6) said she went "South".
+  - **Hypothesis:** She is hiding in the Engine Room (B1F) south of the Sailor.
+  - **Lesson:** Trust Game State 'Map Objects'. If a sprite isn't listed, it's a decoration (e.g., Captain's Cabin).
 
 ## Global Game Mechanics
 ### General Mechanics
