@@ -23,9 +23,6 @@
 - `TYPE_17bc`: Stairs.
 - `TYPE_ffbb`: Doormat warp tile.
 
-## Lessons Learned
-- Do not re-test a hypothesis that has already been proven false. For example, once a tile type is confirmed to be impassable, do not attempt to move onto it as part of a new hypothesis.
-
 ## Town Map Puzzle
 - **Observation:** After interacting with the bookshelf at (6, 0), all movement was blocked.
 - **Initial Incorrect Hypothesis:** I was soft-locked by a story event.
