@@ -49,3 +49,11 @@
 - **Corrected Observation:** The screen displayed text ('SILVER CAVE') that did not match the current location (PlayersHouse2F). This indicates I was viewing the Town Map, not the overworld.
 - **New Hypothesis:** Pressing 'B' (the cancel/back button) will close the Town Map view.
 - **Lesson Learned:** Screen elements beyond transcribed text are critical. An unexpected screen display signals a change in game state that may alter input controls.
+
+- **Hypothesis 1 (Re-test):** Walk directly left onto stair tile `TYPE_2889` at (0, 4) after viewing the Town Map.
+- **Result:** Failed. Movement was blocked.
+- **Conclusion:** Viewing the Town Map did not change the properties of the stair tiles. `TYPE_2889` remains impassable. This hypothesis is definitively false.
+
+- **Hypothesis 5 (New):** The warp trigger is an invisible event on a traversable floor tile at the top landing of the stairs.
+- **Test 1:** Stand on tile (1, 4). Result: No event.
+- **Test 2 Plan:** Move to and stand on tile (1, 5).
