@@ -350,3 +350,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 # To-Do List (New)
 - Unstun Sailor (ID 1) in Olivine City after leaving the lighthouse.
 - Unstun POKEFAN_F (ID 2) in Olivine Lighthouse 1F before leaving.
+
+# Reflection Lessons (Turn 29831)
+- **Tool Failure Protocol:** If a core tool demonstrates a fundamental logic failure (e.g., `plan_systematic_search_path` generating a non-contiguous path), I must stop all attempts to use it immediately. The only valid next action is to debug and fix the tool. Attempting to re-run the tool or work around its output is an inefficient loop and a strategic failure.
