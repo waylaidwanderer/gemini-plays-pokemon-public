@@ -670,5 +670,52 @@
         "action_counter": 30155
       }
     ]
+  },
+  "plan_systematic_search_path": {
+    "description": "Generates a path to visit every traversable tile within a specified rectangular area, avoiding walls and objects. Uses a robust pathfinding algorithm to ensure path validity.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "min_x": {
+          "type": "string"
+        },
+        "min_y": {
+          "type": "string"
+        },
+        "max_x": {
+          "type": "string"
+        },
+        "max_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "min_x",
+        "min_y",
+        "max_x",
+        "max_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nmin_x = int(input_data['min_x'])\nmin_y = int(input_data['min_y'])\nmax_x = int(input_data['max_x'])\nmax_y = int(input_data['max_y'])\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ngrid = []\nTRAVERSABLE_TILES = ['FLOOR', 'LADDER', 'PIT', 'STAIRCASE', 'DOOR', 'CAVE', 'TALL_GRASS', 'LONG_GRASS', 'GRASS', 'FLOWER']\n\nfor y, row_elem in enumerate(root.findall('Row')):\n    row = []\n    for x, tile_elem in enumerate(row_elem.findall('Tile')):\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.find('.//Object') is not None\n        if tile_type in TRAVERSABLE_TILES and not has_object:\n            row.append(0)\n        else:\n            row.append(1)\n    grid.append(row)\n\ndef find_shortest_path(grid, start, end):\n    queue = deque([(start, [start])])\n    visited = {start}\n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == end:\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited and grid[ny][nx] == 0:\n                visited.add((nx, ny))\n                new_path = list(path)\n                new_path.append((nx, ny))\n                queue.append(((nx, ny), new_path))\n    return None\n\ntarget_tiles = set()\nfor y in range(min_y, max_y + 1):\n    for x in range(min_x, max_x + 1):\n        if grid[y][x] == 0:\n            target_tiles.add((x, y))\n\nfull_path = [(start_x, start_y)]\ncurrent_pos = (start_x, start_y)\nif current_pos in target_tiles:\n    target_tiles.remove(current_pos)\n\nwhile target_tiles:\n    closest_tile = None\n    shortest_path_to_tile = None\n    min_dist = float('inf')\n\n    for tile in target_tiles:\n        path_segment = find_shortest_path(grid, current_pos, tile)\n        if path_segment and len(path_segment) < min_dist:\n            min_dist = len(path_segment)\n            closest_tile = tile\n            shortest_path_to_tile = path_segment\n\n    if shortest_path_to_tile:\n        full_path.extend(shortest_path_to_tile[1:])\n        current_pos = closest_tile\n        # Remove all tiles visited in the last segment from the target set\n        for pos in shortest_path_to_tile:\n            if pos in target_tiles:\n                target_tiles.remove(pos)\n    else:\n        # No path to any remaining target tiles, break the loop\n        break\n\njson_path = [{'x': p[0], 'y': p[1]} for p in full_path]\nprint(json.dumps(json_path))",
+    "history": [
+      {
+        "commit_message": "feat: Initial implementation of systematic search tool. This tool will generate a path to visit every traversable tile in a defined rectangular area. It uses a simple nearest-neighbor approach to build the path, which is sufficient for simple, open areas. This is a critical tool for ensuring exhaustive exploration and finding hidden triggers.",
+        "timestamp": "2025-12-01T12:34:35.765Z",
+        "action_counter": 30882
+      },
+      {
+        "commit_message": "fix: Replace naive pathing with robust BFS. The previous version used a catastrophically flawed nearest-neighbor algorithm that did not respect walls, causing it to generate invalid paths. This commit replaces that logic with the proven Breadth-First Search (BFS) algorithm from the `find_path` tool, ensuring all generated paths are valid and traversable. Also updated object detection to use `find('.//Object')` for robustness.",
+        "timestamp": "2025-12-01T12:40:21.986Z",
+        "action_counter": 30890
+      }
+    ]
   }
 }
