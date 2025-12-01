@@ -279,10 +279,6 @@
 # Battle Anomaly
 - A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
 
-# Reflection Lessons (Turn 29624)
-- **Path Interruption Strategy:** When a long, automated path (like from `plan_systematic_search_path`) is interrupted by a new or moving obstacle, the entire path is invalid. The correct procedure is to immediately regenerate the path from the new current position, not attempt to resume the old one.
-- **Dynamic NPC Presence:** Some NPCs that appear static may despawn and respawn based on player position or other triggers. Their sudden absence can open previously blocked paths, and their reappearance can re-block them. The map state is not always persistent even within a single visit.
-
 # Reflection Lessons (Turn 29676)
 - **Reactive Loop Breaking:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach. Recognizing and breaking these reactive loops is critical to avoid wasting time.
 
