@@ -77,7 +77,7 @@
 
 ## Elite Four Strategy
 - **Will (Psychic):** Defeated! Strategy: Smokescreen + Swift/Flame Wheel worked perfectly.
-- **Koga (Poison):** NEXT TARGET. Watch for Toxic/Evasion strats. Paprika's Fire kills Bugs/Steel. Ground for Muk/Weezing.
+- **Koga (Poison):** BATTLE ACTIVE. Forretress defeated. Facing Muk. Watch for Minimize (Use Swift).
 - **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
 - **Karen (Dark):** Fighting. Paprika brute force.
 - **Lance (Dragon):** Rock/Ice. Basalt/Paprika.
