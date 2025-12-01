@@ -306,4 +306,4 @@
 ## Battle Log: Lt. Surge
 - **Raichu (Lv44):** Defeated.
 - **Electrode #1 (Lv40):** Defeated (Crit Swift).
-- **Electrode #2 (Lv40):** Incoming. Keeping Paprika in.
+- **Electrode #2 (Lv40):** Active. Using Swift.
