@@ -292,3 +292,7 @@
 # Strategic Protocol
 - **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
 - **Hiker Anthony on Phone:** Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
+
+# Strategic Protocol
+- **Automated Path Vetting:** Automated paths can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
+- **Tool Logic Verification:** When debugging a tool, I must verify its behavior in various states, not just the one that caused the initial failure. This includes its interaction with the player's own position and other dynamic game elements.
