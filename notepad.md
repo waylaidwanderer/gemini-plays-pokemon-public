@@ -67,7 +67,7 @@
 - Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
 
 ## Phone Log
-- Hiker Anthony: Wants to battle on Route 33 (Rematch).
+- Hiker Anthony: Reported Dunsparce swarm in Dark Cave.
 - Youngster Joey: Wants to battle on Route 30.
 
 ## Elite Four Strategy
