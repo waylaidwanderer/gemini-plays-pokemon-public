@@ -5,7 +5,7 @@
 - **Status:** Defeated Lt. Surge. Thunder Badge obtained.
 - **Current Objective:** Heal, then North to Saffron.
 - **Map Notes:**
-  - 12_3: Vermilion City. Port entrance at South.
+  - 12_3: Vermilion City. Port at South. Gym at (10, 19). PC likely North-West.
   - 12_10: House (Gentleman).
   - 12_8: House (Magnet Train Info).
   - 12_11: Vermilion Gym. Lt. Surge (Defeated, No TM) at (5, 2).
