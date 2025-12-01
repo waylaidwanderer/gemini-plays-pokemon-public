@@ -2,9 +2,9 @@
 
 ## 📍 Current Status: Elite Four - Karen
 - **Location:** Karen's Room (ID: 16_6).
-- **Status:** Karen Defeated! Preparing for Champion Lance.
-- **Team:** Paprika (Lv61), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
-- **Critical:** Paprika Low PP (Flamethrower: 2). MUST use Max Ether/Elixir.
+- **Status:** Karen Defeated! Ready for Champion Lance.
+- **Team:** Paprika (Lv61) [Healed], Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+- **Note:** Paprika HP 175/191, Flamethrower PP restored.
 
 ## Radio Tower Infiltration (Cleared)
 - **Status:** Team Rocket disbanded. Executives defeated.
