@@ -55,7 +55,7 @@
     - (30, 14): Ladder to B1F (Traversed).
   - **B1F Engine Room:**
     - Entered via Ladder at (31, 13).
-    - Sailor blocking path shifts between (30, 6) and (31, 6). Currently at (30, 6).
+    - Sailor blocking path shifts between (30, 6) and (31, 6). Currently at (31, 6).
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -233,7 +233,7 @@
     - (30, 14): Ladder to B1F (Traversed).
   - **B1F Engine Room:**
     - Entered via Ladder at (31, 13).
-    - Sailor blocking path shifts between (30, 6) and (31, 6). Currently at (30, 6).
+    - Sailor blocking path shifts between (30, 6) and (31, 6). Currently at (31, 6).
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
