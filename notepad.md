@@ -122,3 +122,8 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
 - **Test:** Stood at (2, 3), opened the menu, and viewed the Trainer Card.
 - **Result:** No event triggered upon closing the menu.
 - **Conclusion:** Hypothesis 3 is false.
+
+### Hypothesis 4 Test: Exit/Re-enter Trigger (Failed)
+- **Test:** Walked to the exit mat at (2, 7).
+- **Result:** No event triggered. I successfully stood on the warp tile without being stopped.
+- **Conclusion:** Hypothesis 4 is false. Attempting to leave does not trigger an event.
