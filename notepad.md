@@ -6,7 +6,6 @@
 
 # Strategic Protocol
 - **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
-- **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
@@ -48,7 +47,6 @@
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 - **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
 - **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
@@ -68,6 +66,7 @@
 - **Battle Anomaly:** A recurring battle anomaly has been observed. Interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred) sometimes displays the battle-starting dialogue but then returns to the overworld without initiating combat. However, this is inconsistent; a later attempt to battle Sailor Huey triggered a proper battle. The exact cause or trigger condition is unknown.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Intermediate Warp Pathing:** My `find_path` tool was causing loops by treating intermediate warp tiles (like ladders) as normal floor tiles. Lesson: Pathfinding tools must treat all warps as impassable unless they are the explicit final destination of the path.
+- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -199,6 +198,9 @@
 - **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
 - **Internal vs. External Pzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
 - **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
+- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+- **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
+- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 
 ## Solved Puzzles
 ### Azalea Gym
@@ -267,47 +269,6 @@
 # Battle Anomaly
 - A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
 
-### Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (FAILED):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
-  - **Test Result:** Systematically walked over every floor tile on the western side of 3F. No hidden pit was found. Hypothesis is disproven.
-- **Hypothesis 2 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
-  - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
-
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-- **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
-- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
-
-### Olivine Lighthouse Pit Puzzle - Hypothesis Testing
-- **Hypothesis 1 (FAILED):** Use BICYCLE to gain speed and cross the pits. **Test Result:** Game displays "This isn't the time to use that!" when trying to use the BICYCLE indoors. Hypothesis disproven.
-- **Hypothesis 3 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
-  - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
-
-# New Lessons
-- **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. An attempt to unstun an NPC on a different map will fail, and they may already be moving upon return.
-- **Challenge False Constraints:** The lighthouse pit puzzle was solved by challenging the root assumption that the second pit had to be accessed from the west. When stuck in a loop of failing hypotheses, the foundational belief that led to the strategy is likely flawed. I must aggressively re-verify my core assumptions instead of just refining the failing strategy.
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
-
-# New Lessons
-- **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
-- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
-- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
-- **Tool Logic Flaw (plan_systematic_search_path):** The tool was generating paths that looped back onto warp tiles like ladders, causing unintentional map transitions. The fix was to exclude warp tiles from the tool's definition of traversable tiles for search purposes. This is a crucial lesson for future tool design: pathing logic must be context-aware.
-
-# Lighthouse Navigation Loop
-- The ladder at (5, 3) on OlivineLighthouse2F leads to a confirmed dead-end on 3F West. DO NOT TAKE THIS LADDER AGAIN.
-
-- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. More importantly, the tool will fail if the target NPC is not currently on-screen and rendered in the game.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-My `puzzle_solver` agent has provided new hypotheses after I got stuck in a loop.
-
-- **Hypothesis 1 (FAILED):** The path to 3F East is on 2F East.
-  - **Test Plan:** Fall through a pit to 1F East, then find a ladder up to 2F East and search for a new ladder leading to 3F.
-  - **Test Result:** Systematically searched the entire accessible area of 1F East. No ladder leading up was found. Hypothesis is disproven.
-- **Hypothesis 2 (FAILED):** The pits themselves are a puzzle, and a specific one leads to a new area.
-  - **Test Plan:** Systematically fall through each pit and map their destinations on 1F.
-  - **Test Result:** Both pits at (16, 13) and (17, 13) on 2F lead to the same dead-end eastern section of 1F. Hypothesis is disproven.
