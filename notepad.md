@@ -200,21 +200,7 @@
 - **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
-- (Duplicate Entry Removed)
-  - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
-  - **Status:** Found Gentleman. Searching for Granddaughter in B1F.
-  - **Cabins Checklist (1F):**
-    - (27, 8): Checked (Empty)
-    - (23, 8): Checked (Defeated Hiker Noland)
-    - (19, 8): Checked (Empty)
-    - (15, 8): Checked (Player's Cabin - Heals)
-    - (19, 15): Checked (Empty)
-    - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
-    - (27, 15): Checked (Gentleman). Quest: Find Granddaughter.
-    - (30, 14): Ladder to B1F (Traversed).
-  - **B1F Engine Room:**
-    - Entered via Ladder at (31, 13).
-    - Blockade cleared: Sailor let me pass after I defeated his partner. He mentioned seeing the granddaughter go by.
+
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
