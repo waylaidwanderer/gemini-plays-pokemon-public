@@ -247,6 +247,7 @@
 - `switch_pokemon`
 - `find_path`
 - `plan_systematic_search_path`
+- `plan_systematic_search_path`
 
 ## Custom Agents
 - `python_code_debugger`
