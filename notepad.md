@@ -73,3 +73,9 @@
 - **Test:** Interacted with the radio at (3, 1).
 - **Result:** Triggered the 'PROF.OAK'S POKéMON TALK!' dialogue.
 - **Conclusion:** This is the correct story trigger! The current objective is to advance through this dialogue.
+
+## Puzzle Update: Stairs Still Locked
+- **Hypothesis:** Listening to the radio event unlocked the stairs.
+- **Test:** After the radio dialogue concluded, attempted to move left from (1, 4) onto the stair tile (0, 4).
+- **Result:** Failed. Movement was blocked.
+- **Conclusion:** The radio event does not unlock the stairs. The puzzle is not yet solved.
