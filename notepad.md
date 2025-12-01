@@ -3,7 +3,7 @@
 ## 📍 Current Status: Saffron City
 - **Location:** Saffron City Pokémon Center.
 - **Status:** Healing team.
-- **Current Objective:** Explore Saffron, find Copycat, obtain Psychic TM, challenge Gym.
+- **Current Objective:** Heal team, find Copycat, and challenge Gym. (Psychic TM obtained)
 - **Intel:**
   - Pokefan M (21, 30): Magnet Train is down.
 - **Map Notes:**
