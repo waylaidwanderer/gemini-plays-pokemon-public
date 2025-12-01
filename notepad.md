@@ -327,3 +327,4 @@
 
 # Reflection Lessons (Turn 30248)
 - **Proactive Stunning:** When a planned path goes near a moving NPC, even if it doesn't directly interact with them, proactively stunning them is the most reliable strategy to prevent random path interruptions. Relying on path recalculation after an interruption is less efficient.
+- **Stun Mechanic:** The 'stun' effect from `stun_npc` is temporary. The POKEFAN_F in the lighthouse started moving again after a few turns. The effect likely wears off after a set number of steps or turns.
