@@ -297,3 +297,4 @@
 - Checked Southern Cabins (1F) again. Empty.
 - Checking Northern Cabins next, starting with (27, 8). Path requires looping via East Corridor (x=30).
 - **Correction:** Building at Vermilion (13, 13) is a House, not the Pokémon Center.
+- **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
