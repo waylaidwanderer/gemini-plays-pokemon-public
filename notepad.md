@@ -104,9 +104,14 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
   5. **Thematic Trigger:** Face the window behind Elm's desk and wait for a minute.
   6. **Save Trigger:** Interact with the PC and save the game.
 
-### Hypothesis 1 Test: Sequence Interaction
+### Hypothesis 1 Test: Sequence Interaction (Failed)
 - **Step 1: Talk to Elm**
   - **Test:** Stood at (2, 3) and pressed 'A' to interact with Elm at (1, 4).
   - **Result:** No dialogue or event triggered.
-  - **Conclusion:** Step 1 failed. The sequence did not initiate.
-- **Next Step:** Attempting Step 2 (interact with Poké Ball) directly to see if the sequence starts there.
+- **Step 2: Interact with Poké Ball**
+  - **Test:** Stood at (0, 2) and pressed 'A' to interact with the machine at (0, 1).
+  - **Result:** No dialogue or event triggered.
+- **Conclusion:** Hypothesis 1 is false. The sequence does not trigger any event.
+
+### Hypothesis 2 Test: Time-Gated Event
+- **Current Plan:** Stand at (0, 2) and wait for 30 seconds (i.e., submit a turn with no actions).
