@@ -17,15 +17,7 @@
 **Failed Hypotheses:**
 - **Stairs:** All attempts at direct interaction (walking onto them, pressing 'A', approaching from above) have failed. The stair tiles are confirmed impassable.
 
-- **Hypothesis 4 (Current):** A story trigger is required before the stairs can be used. The PC at (4, 1) is a likely candidate for this trigger.
-- **Test 1:** Moved to (4, 2), faced PC, and pressed A.
-- **Result:** Interacted with the TV instead. Test failed.
-- **Conclusion:** Need to find a way to interact with the PC specifically.
-- **Test 2:** Remained at (4, 2) and pressed A again.
-- **Result:** Interacted with the TV again. Test failed.
-- Test 3: Attempt to move to (3, 2) to interact with the PC from the side.
-- Result: Failed. Movement to (3, 2) is blocked.
-- Conclusion: An object (a chair) on a normally traversable tile type (`TYPE_3fe2`) can make it impassable. This is a new mechanic. Interacting with the PC from the side is not possible.
+- **PC:** All attempts at interaction from (4, 2) trigger the TV instead. Side interaction is blocked by the chair.
 
 ## New Plan
 - Since interacting with the PC has failed from all possible angles, I will now attempt to interact with other objects in the room.
