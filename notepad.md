@@ -1,12 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Vermilion City (Docked)
-- **Location:** S.S. Aqua (Captain's Cabin).
-- **Status:** Arrived in Kanto!
-- **Current Objective:** Disembark ship and enter Vermilion City.
+## 📍 Current Status: Vermilion Port
+- **Location:** Vermilion Port (15_2).
+- **Status:** Disembarked S.S. Aqua.
+- **Current Objective:** Enter Vermilion City.
 - **Map Notes:**
-  - 15_3: 1F Corridor (Exit to Vermilion likely at 25,1).
-  - 15_6: Captain's Cabin / Lower Deck.
+  - 15_3: 1F Corridor (Exit to Vermilion Port at 25,1).
+  - 15_2: Vermilion Port. Long pier to the north.
 - **Team:** Paprika (Lv63), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
