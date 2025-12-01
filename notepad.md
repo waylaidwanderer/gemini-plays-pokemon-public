@@ -324,3 +324,6 @@
 - **Tool Logic Robustness:** My `find_path` tool failed because its one-way ledge logic was incomplete. It only checked the current tile, not the destination tile, allowing it to generate illegal paths *onto* ledges. **Lesson:** When developing tools, logic must be tested against all edge cases. Prefer simple, general rules that cover all possibilities over complex, specific ones.
 - **Tool Input Validity:** Attempting to use `find_path` to navigate to an 'unseen' tile is an invalid use of the tool, as it correctly treats them as impassable. My strategy must adapt to the tool's known logic and limitations.
 - **`find_path` Off-Screen Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers or shorter paths to navigate around known off-screen obstacles.
+
+# Reflection Lessons (Turn 30248)
+- **Proactive Stunning:** When a planned path goes near a moving NPC, even if it doesn't directly interact with them, proactively stunning them is the most reliable strategy to prevent random path interruptions. Relying on path recalculation after an interruption is less efficient.
