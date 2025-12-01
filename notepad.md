@@ -67,3 +67,9 @@
 - **Test 1:** Faced bed from (1, 4) and pressed 'A'.
 - **Result:** No event triggered.
 - **Conclusion:** Hypothesis 7 is false. Interacting with the bed does not advance the story.
+
+## Puzzle Update: Radio Success!
+- **Hypothesis (from `puzzle_solver`):** Interact with the radio.
+- **Test:** Interacted with the radio at (3, 1).
+- **Result:** Triggered the 'PROF.OAK'S POKéMON TALK!' dialogue.
+- **Conclusion:** This is the correct story trigger! The current objective is to advance through this dialogue.
