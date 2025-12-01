@@ -301,3 +301,4 @@
 - **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
 - **Vermilion Gym:** Gym Guide states traps are INACTIVE. Direct path to Lt. Surge expected.
 - **Vermilion Gym:** Traps are INACTIVE per Gym Guide. Path to Lt. Surge should be clear.
+- Defeated Super Nerd (Magnemite x3) at (3, 10).
