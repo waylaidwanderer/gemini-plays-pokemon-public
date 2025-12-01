@@ -12,19 +12,10 @@
 - `TYPE_a82`: Hypothesized impassable (PC).
 - `TYPE_1fdc`: Confirmed impassable (TV).
 
-## Puzzle Solutions
-### Staircase (PlayersHouse2F)
-- **Hypothesis 1:** Walk directly left onto stair tiles (`TYPE_2889`) at (0, 4) or (0, 5).
-- **Result:** Failed. Movement was blocked from (1, 4) and (1, 5).
-- **Conclusion:** Direct horizontal entry is impossible.
+## Puzzle Log: Leaving the Bedroom
 
-- **Hypothesis 2:** Interact with the stairs using the 'A' button.
-- **Result:** Failed. No event triggered when facing (0, 4).
-- **Conclusion:** Stairs are not activated by interaction.
-
-- **Hypothesis 3:** Entry is from the tile directly above the stairs, at (0, 3).
-- **Result:** Failed. Attempting to move down from (0, 3) to (0, 4) was blocked.
-- **Conclusion:** This hypothesis was flawed, as it required moving onto `TYPE_2889`, which was already confirmed to be impassable.
+**Failed Hypotheses:**
+- **Stairs:** All attempts at direct interaction (walking onto them, pressing 'A', approaching from above) have failed. The stair tiles are confirmed impassable.
 
 - **Hypothesis 4 (Current):** A story trigger is required before the stairs can be used. The PC at (4, 1) is a likely candidate for this trigger.
 - **Test 1:** Moved to (4, 2), faced PC, and pressed A.
