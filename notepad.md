@@ -18,15 +18,9 @@
 - **Objective:** Obtain Kanto Badges.
 - **Next Step:** Explore Vermilion City.
 
-## Johto Campaign Summary (Completed)
-- **Status:** Johto League Champion. All 8 Badges obtained. Team Rocket Disbanded.
-- **Key Feats:** Red Gyarados, Radio Tower, Lighthouse, Dragon's Den, Elite Four Defeated.
-
-## Quest Log
-- **S.S. Aqua Quest:** Find the Gentleman's missing granddaughter.
-  - **Status:** FOUND THEM! Captain (3, 25) and Twin (2, 25) are at the north end of the Captain's Cabin (15_6). Previous check missed them due to obstacles.
-  - **Clue:** Sailor in Engine Room (30, 6) said she went "South".
-  - **Lesson:** Always check the entire room, even if parts are blocked.
+## Archived Logs
+- **Johto:** Champion. Rocket Disbanded.
+- **S.S. Aqua:** Rescue complete.
 
 ## Global Game Mechanics
 ### General Mechanics
