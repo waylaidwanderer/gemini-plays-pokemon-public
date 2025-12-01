@@ -5,13 +5,14 @@
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 
 # Strategic Protocol
+- **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
-
+- **PROACTIVE OBSTACLE MANAGEMENT:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach. Deferring this is a strategic failure.
 - **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, it means the proposed change has already been successfully applied in a previous turn. Do not retry the same definition; proceed with the next action.
 - **NPC Interactions:** Some interactions, like battling a trainer, can be multi-step. Ensure all initial dialogue is cleared with 'A' presses before the main event (like the battle) will trigger. Non-Battling NPCs: Not all moving NPCs are trainers. If an NPC's dialogue repeats without initiating a battle after multiple interaction attempts (direct, line-of-sight), they are likely a non-battling character. Do not get stuck in an interaction loop; update markers and move on.
-- **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed.
+- **Pathfinding Logic:** If a path is repeatedly blocked or a tool reports 'No path found,' do not assume you are soft-locked. Re-examine the map visually for alternative routes like ledges or other one-way tiles that may have been missed. Long automated paths are unreliable due to off-screen and moving NPCs; break them into smaller, visually confirmed segments.
 - **Dialogue & Movement:** I must ensure all dialogue boxes are closed by pressing 'A' before attempting any movement inputs. Trying to move with text on screen will fail.
 - **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
 - **Exploration Before Puzzles:** Prioritize exploring all reachable areas of a new map before attempting complex puzzles to ensure all context and potential clues have been gathered.
@@ -32,12 +33,10 @@
 - **Tool Context Awareness:** Tools like `select_battle_option` are context-specific and will fail if used when the required UI (e.g., the main battle menu) is not visible. Always verify the game state before calling a context-dependent tool.
 - **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
-- **Proactive Stunning:** To avoid wasting turns on failed interactions with moving NPCs, the default strategy must be to use `stun_npc` to freeze them in place *before* attempting to approach and talk to them.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
 - **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Interaction Loops:** If repeated 'A' presses (2-3 times) on an NPC or object do not advance the game state (dialogue, battle start, etc.), the interaction is likely stuck. Do not continue pressing 'A'. Break the loop by performing a different action, such as moving one tile away and back, to reset the state before attempting to interact again.
-- **CONSULT YOUR KNOWLEDGE BASE:** My notepad contains critical, verified information about game mechanics (like impassable tiles). I MUST consult this knowledge base *before* attempting an action to avoid repeating solved problems and wasting turns on impossible movements, as seen with the COUNTER tile incident.
 - **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
 - **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
 - **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
@@ -45,7 +44,6 @@
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 - **Observe Before Assuming:** When seemingly stuck (e.g., trapped in a room), the first action must be to re-examine the entire known map for obvious, overlooked exits before assuming a complex, hidden solution is required. Trust the map data over my own narrative of the situation.
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
-- **Notepad Edit Loops:** If a `notepad_edit` 'replace' action fails with a 'text not found' error multiple times, it is highly likely the edit was already successful in a previous turn. I must verify the current notepad content before retrying the same edit to avoid getting stuck in an unproductive loop.
 - **`find_path` Tool Limitation:** The tool cannot see off-screen objects. This means it can generate paths that appear valid but are blocked by NPCs that are not currently rendered. I must rely on my own map markers to navigate around known off-screen obstacles.
 - **Trust NPC Guidance:** External NPC confirmation (like the Gym Guide directing me to the lighthouse) must override my own flawed assumptions or conclusions that a path is a dead end. I must re-investigate any such location with the new information.
 - **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
@@ -53,6 +51,9 @@
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
+- **Tool Robustness:** My `plan_systematic_search_path` tool failed catastrophically because its XML parser used a brittle `find('Object')` method that failed to detect nested objects, causing paths to lead directly into NPCs. The fix was to use a robust `find('.//Object')` search. **Lesson:** Tool logic must be generalized to handle all variations of game data structures. Prefer simple, robust rules over complex, specific ones that are prone to failure.
+- **Data Source Hierarchy:** When there is a conflict between my internal map data (XML) and the official `Game State Information` (e.g., the warp list), the Game State is the absolute source of truth. Relying on unverified data from the XML can lead to unproductive testing loops.
+- **Defeated Trainers as Obstacles:** Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -193,7 +194,6 @@
 - **Warp Data Conflict Resolution:** The official `Game State Information -> Warps` list is the single source of truth for all active warps. Data from other sources (like the Mental Map XML) that suggests a warp exists where one is not officially listed should be treated as a potential data artifact or an inactive warp that requires an external, non-obvious trigger. Do not get stuck in loops testing these.
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
 - **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
-- **TRUST YOUR KNOWLEDGE BASE:** I wasted significant time in a loop because I ignored my own verified map marker and notepad entry. I MUST consult my own data before forming a new plan to avoid repeating solved puzzles.
 - **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
 - **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
 - **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
@@ -262,11 +262,10 @@
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
-# Item Interaction Mechanics
-- To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
-- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-- **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
-- **Battle Start Anomaly:** Interacting with some trainers (Sailor Huey, Gentleman Alfred) displays the battle-starting dialogue, but then the game returns to the overworld without initiating combat. This has happened multiple times and seems to be a recurring issue.
+# To-Do List
+
+# Battle Anomaly
+- A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
 
 ### Olivine Lighthouse Puzzle - Agent Hypotheses
 - **Hypothesis 1 (FAILED):** There is a hidden pit on the 3rd floor (western side) that drops the player onto the suspicious tiles on the 2nd floor.
@@ -274,32 +273,7 @@
 - **Hypothesis 2 (FAILED):** Exhausting the Gentleman NPC's dialogue on the eastern 2nd floor will activate the suspicious tiles.
   - **Test Result:** Spoke to the NPC twice. Dialogue repeated with no effect. Hypothesis is disproven.
 
-# To-Do List
-
-# Battle Anomaly
-- A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
-
-# Reflection Lessons (Turn 29676)
-- **Reactive Loop Breaking:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach. Recognizing and breaking these reactive loops is critical to avoid wasting time.
-
-# Reflection Lessons (Turn 29782)
-- **Tool Robustness:** My `plan_systematic_search_path` tool failed catastrophically because its XML parser used a brittle `find('Object')` method that failed to detect nested objects, causing paths to lead directly into NPCs. The fix was to use a robust `find('.//Object')` search. **Lesson:** Tool logic must be generalized to handle all variations of game data structures. Prefer simple, robust rules over complex, specific ones that are prone to failure.
-
-# Reflection Lessons (Turn 30144)
-- **Path Interruption:** My long, automated path was interrupted because I tried to move onto a one-way ledge tile in the wrong direction. Lesson: For long paths, break them into smaller, verifiable chunks. Blindly executing a long path is risky and prone to failure.
-
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-
-# Reflection Lessons (Turn 30560)
-- **Data Source Hierarchy:** When there is a conflict between my internal map data (XML) and the official `Game State Information` (e.g., the warp list), the Game State is the absolute source of truth. Relying on unverified data from the XML can lead to unproductive testing loops.
-- **LADDER**: A traversable warp tile. Activated by stepping *onto* the tile, which immediately triggers the warp. No additional button presses are needed.
-
-# Pathing Lessons
-- Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
-- Long automated paths are unreliable due to off-screen and moving NPCs. Break them into smaller, visually confirmed segments to avoid interruptions.
-
-# Pathing Lessons
-- Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
-- I MUST consult my own map markers before executing a navigational plan to avoid re-exploring confirmed dead ends.
+- **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
