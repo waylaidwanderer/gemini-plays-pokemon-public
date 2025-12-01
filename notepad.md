@@ -93,13 +93,6 @@
 - `TYPE_a82`: Elm's Lab - PC. Impassable.
 - `TYPE_1fdc`: Elm's Lab - TV. Impassable.
 
-## Missing Pokémon Puzzle
-
-- **Hypothesis 1 (from `puzzle_solver`):** Check the PC in the lab.
-- **Test:** Interacted with the object at (4, 1).
-- **Result:** The object is a TV, not a PC. Dialogue: 'It's a TV.'
-- **Conclusion:** Hypothesis 1 is false. The premise was incorrect.
-
 ## General Lessons
 - **Lesson on Positional Awareness:** Always verify my current position against the Game State before planning a path, especially after a potential screen transition or cutscene, to avoid hallucinations.
 
