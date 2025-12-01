@@ -103,3 +103,7 @@
 
 ## General Lessons
 - **Lesson on Positional Awareness:** Always verify my current position against the Game State before planning a path, especially after a potential screen transition or cutscene, to avoid hallucinations.
+- **Hypothesis (from `puzzle_solver`):** Attempt to leave the lab to trigger an event.
+    - **Test:** Walked to the exit mat at (2, 7).
+    - **Result:** No event triggered. I successfully stood on the warp tile without being stopped.
+    - **Conclusion:** Hypothesis is false.
