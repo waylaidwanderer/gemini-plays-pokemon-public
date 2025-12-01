@@ -292,9 +292,6 @@
 # Reflection Lessons (Turn 29676)
 - **Reactive Loop Breaking:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach. Recognizing and breaking these reactive loops is critical to avoid wasting time.
 
-# Reflection Lessons (Turn 29728)
-- **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area (like the Olivine Lighthouse) yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly, rather than getting stuck re-testing failed internal hypotheses.
-
 # Reflection Lessons (Turn 29782)
 - **Tool Robustness:** My `plan_systematic_search_path` tool failed catastrophically because its XML parser used a brittle `find('Object')` method that failed to detect nested objects, causing paths to lead directly into NPCs. The fix was to use a robust `find('.//Object')` search. **Lesson:** Tool logic must be generalized to handle all variations of game data structures. Prefer simple, robust rules over complex, specific ones that are prone to failure.
 
