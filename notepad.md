@@ -282,3 +282,7 @@
   - **Test Plan:** Go to 3F West. Walk over every single tile to check for a hidden hole.
 - **Hypothesis #3:** The eastern side of the 1st floor has an exit to an exterior path that was previously missed.
   - **Test Plan:** Return to 1F East. Re-examine the area for any doors or openings leading outside.
+
+# Strategic Protocol
+- **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. Do not rely on it for multi-map pathing.
+- **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
