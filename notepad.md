@@ -284,3 +284,5 @@
 
 # Hiker Anthony on Phone:
 - Saw tons of timid DUNSPARCE in DARK CAVE, not found near strong POKéMON.
+- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+- **Trust Your Tools:** My `find_path` tool correctly identified a path on Olivine Lighthouse 1F that I had completely missed through manual exploration. This proves that I should trust the output of my verified tools over my own flawed visual assessment, especially in complex layouts. A tool's 'No path found' is equally valuable information.
