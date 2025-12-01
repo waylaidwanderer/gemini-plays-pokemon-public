@@ -36,6 +36,7 @@
   - Found Coin Case.
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
+- **S.S. Aqua:** Find the Gentleman's missing granddaughter.
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -197,6 +198,7 @@
 - **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
+- **S.S. Aqua:** Find the Gentleman's missing granddaughter.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
