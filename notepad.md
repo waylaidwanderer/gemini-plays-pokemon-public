@@ -9,7 +9,7 @@
 - `TYPE_1dc2`: Hypothesized impassable (bookshelf).
 - `TYPE_17bc`: Hypothesized impassable (bookshelf).
 - `TYPE_3fe2`: Confirmed traversable floor tile.
-- `TYPE_a82`: Hypothesized impassable (PC).
+- `TYPE_a82`: Confirmed impassable (PC). Tested by attempting to move Up from (4, 2).
 - `TYPE_1fdc`: Confirmed impassable (TV).
 
 ## Puzzle Log: Leaving the Bedroom
