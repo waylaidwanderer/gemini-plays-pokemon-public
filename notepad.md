@@ -4,13 +4,24 @@
 - Start my journey and get my first Pokémon.
 
 ## Tile Mechanics
-*I will document my observations on tile traversal rules here.*
-- `TYPE_2889`: Confirmed impassable. Acts as a wall or solid object.
-- `TYPE_1dc2`: Confirmed impassable. Tested by attempting to move Up from (6, 1).
-- `TYPE_17bc`: Confirmed to be a warp tile. Acts as stairs.
-- `TYPE_3fe2`: Confirmed traversable floor tile.
-- `TYPE_a82`: Confirmed impassable (PC). Tested by attempting to move Up from (4, 2).
-- `TYPE_1fdc`: Confirmed impassable (TV).
+*This section consolidates all observed tile behaviors.*
+
+### Confirmed Traversable
+- `TYPE_3fe2`: Standard floor tile.
+- `TYPE_ffbb`: Doormat warp tile. Acts as an exit/entrance from a building.
+
+### Confirmed Impassable
+- `TYPE_2889`: Wall or solid object.
+- `TYPE_1dc2`: Wall/object.
+- `TYPE_a82`: PC.
+- `TYPE_1fdc`: TV.
+- `TYPE_201b`: Building doorway tile. Appears impassable from the outside.
+- `TYPE_4e8c`: Edge of water.
+- `TYPE_80fc`: Edge of water.
+
+### Confirmed Warp
+- `TYPE_17bc`: Stairs.
+- `TYPE_ffbb`: Doormat warp tile.
 
 ## Puzzle Log: Leaving the Bedroom
 
