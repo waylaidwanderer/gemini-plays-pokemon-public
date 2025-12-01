@@ -340,3 +340,6 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29676)
 - **Reactive Loop Breaking:** When a plan is repeatedly interrupted by a variable element (like a moving NPC), I must immediately switch to a deterministic strategy (like using `stun_npc`) instead of retrying the same failed approach. Recognizing and breaking these reactive loops is critical to avoid wasting time.
+
+# Reflection Lessons (Turn 29728)
+- **External Puzzle Solutions:** When a complete, systematic exploration of a self-contained area (like the Olivine Lighthouse) yields no path forward, the solution is likely external. I must trust key NPC dialogue that points toward an external requirement (like needing 'special medicine') and shift my objective accordingly, rather than getting stuck re-testing failed internal hypotheses.
