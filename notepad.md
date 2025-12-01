@@ -387,3 +387,4 @@
 - **TRUST YOUR TOOLS (Revisited):** 'No path found' is a definitive statement that the destination is unreachable with current knowledge.
 - **Path Interruption (Revisited):** For long paths, break them into smaller chunks.
 - **Tool Logic Robustness (Revisited):
+- **Positional Awareness after Interruption:** If an automated path is interrupted, my internal state for my current position might be wrong. I MUST verify my `current_position` from the Game State Information before recalculating a path to avoid hallucinations.
