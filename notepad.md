@@ -92,3 +92,10 @@
 - `TYPE_9f3`: Elm's Lab - Starter Machine. Impassable.
 - `TYPE_a82`: Elm's Lab - PC. Impassable.
 - `TYPE_1fdc`: Elm's Lab - TV. Impassable.
+
+## Missing Pokémon Puzzle
+
+- **Hypothesis 1 (from `puzzle_solver`):** Check the PC in the lab.
+- **Test:** Interacted with the object at (4, 1).
+- **Result:** The object is a TV, not a PC. Dialogue: 'It's a TV.'
+- **Conclusion:** Hypothesis 1 is false. The premise was incorrect.
