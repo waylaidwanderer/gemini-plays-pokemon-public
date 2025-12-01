@@ -282,3 +282,6 @@
 - **Lt. Surge:** Defeated. Strategy: Paprika (Swift/Flamethrower) swept. Light Screen ignored by Gen 2 Swift (Physical).
 - **Quest Update:** Found Clefairy Doll in Vermilion Fan Club. Must trigger quest at Copycat in Saffron first to pick it up.
 - **Route 6:** Path to Saffron Gatehouse is blocked by a Pokefan M at (17, 4). Nearby sign for Underground Path.
+## Saffron City
+- Arrived via Route 6 Gate.
+- Goal: Explore, find Copycat, Gym.
