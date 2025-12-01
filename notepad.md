@@ -31,19 +31,6 @@
 - **New Hypothesis:** Pressing 'B' (the cancel/back button) will close the Town Map view.
 - **Lesson Learned:** Screen elements beyond transcribed text are critical. An unexpected screen display signals a change in game state that may alter input controls.
 
-- **Hypothesis 1 (Re-test):** Walk directly left onto stair tile `TYPE_2889` at (0, 4) after viewing the Town Map.
-- **Result:** Failed. Movement was blocked.
-- **Conclusion:** Viewing the Town Map did not change the properties of the stair tiles. `TYPE_2889` remains impassable. This hypothesis is definitively false.
-
-- **Hypothesis 5 (New):** The warp trigger is an invisible event on a traversable floor tile at the top landing of the stairs.
-- **Test 1:** Stand on tile (1, 4). Result: No event.
-- **Test 2 Plan:** Move to and stand on tile (1, 5).
-- **Test 2:** Stand on tile (1, 5). Result: No event.
-- **Conclusion:** Hypothesis 5 is false. Standing on the floor tiles at the top of the stairs does not trigger a warp.
-
-- **Hypothesis 6 (New):** The way forward is unlocked via the main menu, which may have updated after viewing the Town Map.
-- **Test 1 Plan:** Press 'Start' to open the menu and inspect it for new options or items.
-
 - **Hypothesis 7 (From `puzzle_solver`):** Interacting with the bed will trigger a story event.
 - **Test 1:** Faced bed from (1, 4) and pressed 'A'.
 - **Result:** No event triggered.
