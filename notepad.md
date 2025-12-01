@@ -37,14 +37,16 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Structure:** Map 15_6 contains disjointed cabins. Current cabin is accessed from (23, 15). Captain's Cabin is likely elsewhere on this map ID.
-  - Cabins Checklist:
+  - **Structure:** Map 15_6 contains disjointed cabins.
+  - **Status:** Found Gentleman at (2, 17) in cabin via (27, 15).
+  - **Cabins Checklist:**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
     - (19, 8): Checked (Empty)
-    - (15, 8): Checked (Empty)
+    - (15, 8): Checked (Player's Cabin - Heals)
     - (19, 15): Checked (Empty)
     - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
+    - (27, 15): Current Location (Gentleman). **Task:** Explore east side of this room.
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -209,14 +211,16 @@
   - Defeated Pokemaniac Isaac.
   - Defeated Super Nerd Eric.
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
-  - **Structure:** Map 15_6 contains disjointed cabins. Current cabin is accessed from (23, 15). Captain's Cabin is likely elsewhere on this map ID.
-  - Cabins Checklist:
+  - **Structure:** Map 15_6 contains disjointed cabins.
+  - **Status:** Found Gentleman at (2, 17) in cabin via (27, 15).
+  - **Cabins Checklist:**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
     - (19, 8): Checked (Empty)
-    - (15, 8): Checked (Empty)
+    - (15, 8): Checked (Player's Cabin - Heals)
     - (19, 15): Checked (Empty)
     - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
+    - (27, 15): Current Location (Gentleman). **Task:** Explore east side of this room.
 - **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
 - Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
 
