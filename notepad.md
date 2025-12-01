@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Elite Four - Bruno
-- **Location:** Bruno's Room (ID: 16_5).
-- **Status:** Arrived. Healing Paprika, then challenging Bruno.
+## 📍 Current Status: Elite Four - Karen
+- **Location:** Karen's Room (ID: 16_6).
+- **Status:** Standing before Karen. Ready to battle.
 - **Team:** Paprika (Lv60), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Radio Tower Infiltration (Cleared)
