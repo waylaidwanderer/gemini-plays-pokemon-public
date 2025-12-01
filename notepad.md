@@ -209,8 +209,6 @@
 - **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 - **Failed Hypothesis (Lighthouse 2F):** The path forward is through an opening on the eastern side of the 2nd floor that leads to an exterior ledge. (FAILED: Searched eastern wall, no openings found).
 - **Failed Hypothesis (Lighthouse 3F):** There is a hidden pitfall on the western side of the 3rd floor. (FAILED: Systematic search complete, no pits found. Item and sailor are inaccessible from the west).
-- **Hypothesis (Active):** The eastern side of the 1st floor has an exit to an exterior path that was previously missed.
-  - **Test Plan:** Return to 1F East. Re-examine the area for any doors or openings leading outside.
 
 ## Solved Puzzles
 ### Azalea Gym
