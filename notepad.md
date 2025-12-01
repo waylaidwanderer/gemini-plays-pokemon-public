@@ -304,4 +304,6 @@
 - Defeated Super Nerd (Magnemite x3) at (3, 10).
 - Defeated Gentleman Gregory at (7, 8).
 ## Battle Log: Lt. Surge
-- **Raichu (Lv44):** Active. Paprika (Lv64) vs Raichu. Strategy: Swift.
+- **Raichu (Lv44):** Defeated.
+- **Electrode #1 (Lv40):** Defeated (Crit Swift).
+- **Electrode #2 (Lv40):** Incoming. Keeping Paprika in.
