@@ -284,3 +284,7 @@
 - **General:** Keep Paprika healthy. Revive spam if needed.
 - **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences.
 - **Menu Navigation:** Item lists are not strictly alphabetical. New items (like those bought at Indigo Plateau) may appear at the bottom. Always scroll down if an item is missing.
+## Battle Log: Champion Lance
+- **Gyarados (Lv44):** Defeated. (Rain Dance, Surf). Strategy: Smokescreen + Swift/Flamethrower.
+- **Aerodactyl (Lv46):** Defeated. (Rock Slide missed). Strategy: Smokescreen x2 + Flamethrower.
+- **Dragonite (Lv47):** Active. (Thunder Wave failed 'It didn't affect Paprika!'). Strategy: Smokescreen x2 + Flamethrower.
