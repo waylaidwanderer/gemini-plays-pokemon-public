@@ -28,7 +28,7 @@
   - **Cabins Checklist (1F):**
     - (27, 8): Checked (Empty)
     - (23, 8): Checked (Defeated Hiker Noland)
-    - (19, 8): Checked (Empty)
+    - (19, 8): Checked (Empty - Lazy Sailor's Room)
     - (15, 8): Checked (Player's Cabin - Heals)
     - (19, 15): Checked (Empty)
     - (23, 15): Checked again (Twins/Colin). No Granddaughter.
