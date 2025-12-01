@@ -76,9 +76,8 @@
 - Youngster Joey: Wants to battle on Route 30.
 
 ## Elite Four Strategy
-- **Will (Psychic):** Defeated! Strategy: Smokescreen + Swift/Flame Wheel worked perfectly.
-- **Koga (Poison):** Defeated.
-- **Task:** Fix `find_path` tool (surfing logic) when next needed.
+- **Will & Koga:** Defeated.
+- **Task:** IMMEDIATE PRIORITY: Fix `find_path` surfing logic immediately after Bruno battle.
 - **Bruno (Fighting):** Flying/Psychic. Paprika brute force.
 - **Karen (Dark):** Fighting. Paprika brute force.
 - **Lance (Dragon):** Rock/Ice. Basalt/Paprika.
