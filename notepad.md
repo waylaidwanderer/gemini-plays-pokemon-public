@@ -31,7 +31,7 @@
     - (19, 8): Checked (Empty)
     - (15, 8): Checked (Player's Cabin - Heals)
     - (19, 15): Checked (Empty)
-    - (23, 15): Checked (Defeated Pokefan Colin, Twins Meg & Peg)
+    - (23, 15): Checked again (Twins/Colin). No Granddaughter.
     - (27, 15): Checked again (Gentleman). Empty. Quest: Find Granddaughter.
     - (30, 14): Ladder to B1F (Traversed).
   - **B1F Engine Room:**
