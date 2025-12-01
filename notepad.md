@@ -17,30 +17,14 @@
 - **Transport:** S.S. Aqua (likely departs from Olivine City).
 
 ## Johto Campaign Summary (Completed)
-- **Status:** Champion of the Johto League.
-- **Badges:** All 8 Johto Badges obtained.
-- **Key Feats:** Disbanded Team Rocket (Radio Tower), Calmed Red Gyarados, Cleared Lighthouse, Dragon's Den.
-- **Elite Four:** Defeated Will, Koga, Bruno, Karen, and Lance.
-
-## Completed Areas Summary
-- **Johto West:** Cleared Ecruteak, Goldenrod, Olivine, Cianwood Gyms. Burned Tower & Lighthouse cleared.
-- **Mahogany/Lake:** Cleared Team Rocket Base & Gyarados. Defeated Pryce.
-- **Goldenrod:** Radio Tower liberated. Team Rocket disbanded.
-- **Blackthorn:** Gym Leader Clair defeated. Dragon's Den cleared (Rising Badge obtained).
+- **Status:** Johto League Champion. All 8 Badges obtained. Team Rocket Disbanded.
+- **Key Feats:** Red Gyarados, Radio Tower, Lighthouse, Dragon's Den, Elite Four Defeated.
 
 ## Quest Log
-- **Badges:** Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
-- **Recent Events:**
-  - Defeated Red Gyarados. Obtained Red Scale.
-  - Stopped Team Rocket radio signal.
-  - Defeated Pryce. Earned Glacier Badge and TM16.
-  - Picnicker Gina reported Team Rocket takeover of Goldenrod Radio Tower.
-  - Learned Director is on 5F with Card Key.
-  - Defeated Pokemaniac Donald in Underground.
-  - Defeated Super Nerd Teru.
-  - Found Coin Case.
-  - Defeated Pokemaniac Isaac.
-  - Defeated Super Nerd Eric.
+- **S.S. Aqua:** Find the Gentleman's missing granddaughter.
+  - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
+  - **Status:** Found Gentleman. Searching for Granddaughter in B1F. Path blocked by Sailor waiting for partner.
+  - **Current Task:** Find 'lazy bum' sailor on 1F.
 - **S.S. Aqua:** Find the Gentleman's missing granddaughter.
   - **Structure:** Map 15_6 contains disjointed cabins. B1F (15_7) is the Engine Room.
   - **Status:** Found Gentleman. Searching for Granddaughter in B1F.
