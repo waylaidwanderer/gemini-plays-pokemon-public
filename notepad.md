@@ -102,3 +102,6 @@
 - **Test:** Opened the PACK.
 - **Result:** The PACK is empty. There is no POKéGEAR item to use.
 - **Conclusion:** Hypothesis 5 is false.
+
+## General Lessons
+- **Lesson on Game State:** The Game State Information is the absolute source of truth. If it contradicts my memory of an event (like receiving a Pokémon), the Game State is correct and my memory is a hallucination. I must not waste time trying to solve a problem that doesn't exist.
