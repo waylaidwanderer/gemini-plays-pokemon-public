@@ -5,10 +5,11 @@
 - **Status:** Defeated Lt. Surge. Thunder Badge obtained.
 - **Current Objective:** Heal, then North to Saffron.
 - **Map Notes:**
-  - 12_3: Vermilion City. Port at South. Gym at (10, 19). PC likely North-West.
+  - 12_3: Vermilion City. Port at South. Gym at (10, 19). West path blocked by walls/signs.
   - 12_10: House (Gentleman).
   - 12_8: House (Magnet Train Info).
   - 12_11: Vermilion Gym. Lt. Surge (Defeated, No TM) at (5, 2).
+  - **Navigation:** Must use Cut on tree at (13, 18) to access North Vermilion.
 - **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 - **Lesson:** Always verify building signs before assuming function (e.g. PC).
 
