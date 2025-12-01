@@ -304,3 +304,5 @@
 - **Tool Usage Rule:** Do NOT use `autopress_buttons: true` with built-in tools (like `select_battle_option`) or tools that return coordinates (like `find_path`). It ONLY works for custom tools that return a list of button strings.
 - Defeated Sailor Jeff (Raticate x2) at (9, 11).
 - Phone Call: Youngster Joey wants a rematch on Route 30.
+- Checked Southern Cabins (1F) again. Empty.
+- Checking Northern Cabins next, starting with (27, 8). Path requires looping via East Corridor (x=30).
