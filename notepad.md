@@ -62,3 +62,8 @@
 
 - **Hypothesis 6 (New):** The way forward is unlocked via the main menu, which may have updated after viewing the Town Map.
 - **Test 1 Plan:** Press 'Start' to open the menu and inspect it for new options or items.
+
+- **Hypothesis 7 (From `puzzle_solver`):** Interacting with the bed will trigger a story event.
+- **Test 1:** Faced bed from (1, 4) and pressed 'A'.
+- **Result:** No event triggered.
+- **Conclusion:** Hypothesis 7 is false. Interacting with the bed does not advance the story.
