@@ -340,3 +340,7 @@ My systematic exploration is failing. Escalated to `puzzle_solver` agent.
 
 # Reflection Lessons (Turn 29932)
 - **CRITICAL HALLUCINATION RECOVERY:** I had another severe hallucination, believing I was in Olivine City when I was still in the Port Passage. This caused a tool crash and wasted a turn. The root cause is trusting my memory over the game state. NEW MANDATORY RULE: I MUST verify my `current_map_id` and `current_position` from the Game State Information *before* EVERY single action, especially before using coordinate-based tools or setting navigation goals.
+
+# Reflection Lessons (Turn 30040)
+- **TRUST YOUR TOOLS:** If `find_path` returns 'No path found', it is a definitive statement that the destination is unreachable from the current position based on known traversable tiles. I must trust this output and immediately form a new hypothesis about the path forward, rather than questioning the tool.
+- **MANDATORY VERIFICATION:** My repeated positional hallucinations are a critical failure. I MUST verify my `current_map_id` and `current_position` from the Game State Information *before* every single action, especially before using coordinate-based tools or setting navigation goals. This is a non-negotiable step to prevent wasted turns and tool crashes.
