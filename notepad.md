@@ -94,3 +94,7 @@
 
 ## Lessons Learned (New)
 - If movement is blocked by an NPC, especially in a seemingly scripted position, the intended solution is likely to interact with them ('A' button), not to find a way around them. Repeatedly trying to move past a blocking NPC will result in a loop.
+
+## Untested Tile Types
+- `TYPE_989e` (Neighbor's House - Bookshelf?)
+- `TYPE_4a21` (Neighbor's House - Chair?)
