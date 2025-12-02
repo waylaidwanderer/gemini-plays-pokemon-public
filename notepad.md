@@ -108,3 +108,4 @@
 - **Machine Part Search:** Resetting search due to position errors. Currently entering water at (1, 5) to re-verify top-left corner (1, 2)/(2, 2).
 - **Interaction Mechanics:** The 'Want to Surf?' prompt overrides item pickup interactions. To check a water tile for a hidden item, you must face it from another water tile. To check a land edge from the water, surf to it and face the land.
 - **Itemfinder Scan:** Negative for entire gym (Scans at 7,11; 3,5; 7,4; 5,4). Proceeding to manual verification of Central Pool.
+- **Correction:** Previous blind surf sequence failed. Retrying surf entry at (3, 2) to reach search target (1, 5).
