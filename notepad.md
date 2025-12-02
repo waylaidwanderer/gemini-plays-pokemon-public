@@ -92,16 +92,6 @@
   - Camper Dean (Defeated) at (21, 11).
   - Lass (Sighted) at (12, 15).
   - Pokefan M (Sighted) at (36, 15).
-## Route 9
-- **Status:** Traversing East to Power Plant.
-- **Key Features:**
-  - **Cut Tree:** At (5, 8), blocks main path. (Cleared).
-  - **Ledges:** Multiple one-way ledges creating split paths.
-  - **Warps:** (0, 4) leads to Cerulean City.
-- **Trainers:**
-  - Camper Dean (Defeated) at (21, 11).
-  - Lass (Sighted) at (12, 15).
-  - Pokefan M (Sighted) at (36, 15).
 
 ## Quest Log: Machine Part
 - **Status:** Missing Trigger.
