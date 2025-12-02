@@ -322,3 +322,6 @@
 
 # CORRECTION (Turn 33123)
 - The custom tool `find_reachable_unseen_tiles` was a hallucination and does not exist. Any conclusions based on its supposed output were derived from manual exploration and pathfinding tests, not from a dedicated tool.
+
+# Strategic Lessons
+- **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
