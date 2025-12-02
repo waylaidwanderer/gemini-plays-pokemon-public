@@ -2,9 +2,10 @@
 
 ## 📍 Current Status: Cerulean Gym
 - **Location:** Cerulean Gym.
-- **Status:** Searching for Machine Part.
-- **Current Objective:** Retrieve Machine Part from the pool.
-- **Hypothesis:** Item hidden in the central pool (likely corners or center).
+- **Status:** Surfing in Cerulean Gym.
+- **Current Objective:** Systematically check water tiles for Machine Part.
+- **Hypothesis:** Item hidden at (1, 2), (2, 2), (1, 3), or (2, 3).
+- **Lesson:** Hidden items in water must be checked while surfing. Land interaction triggers surf prompt.
 - **House Intel:** Trade Speech House (13,19) investigated. 'Rhydon' was a Kangaskhan.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
