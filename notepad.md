@@ -5,9 +5,9 @@
 **Objective:** Clear Central Platform and South-West Water.
 
 **Priority:**
-1. Check surroundings of (3, 14).
-2. Surf West to check (1, 14), (1, 15).
-3. Check remaining water tiles in South-West.
+1. Move to (3, 7) and check (4, 7).
+2. Surf South into enclosed pool (3, 8).
+3. Search enclosed pool area.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
