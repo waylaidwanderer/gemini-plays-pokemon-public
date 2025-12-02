@@ -1,17 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Saffron City
-- **Location:** Saffron City Pokémon Center.
-- **Status:** Healing team.
-- **Current Objective:** Explore Saffron City (Gym, Copycat).
+## 📍 Current Status: Route 5
+- **Location:** Route 5 (South End).
+- **Status:** Exploring northbound towards Cerulean.
+- **Current Objective:** Reach Cerulean City.
 - **Intel:**
-  - Pokefan M (21, 30): Magnet Train is down.
-  - Fisher (Saffron PC): Commotion at Power Plant (linked to Rock Tunnel).
+  - Magnet Train down (Power Plant issues).
+  - Underground Path likely nearby.
 - **Map Notes:**
-  - 12_1: Route 6. Saffron Gate open. Underground Path blocked.
-  - 12_12: Route 6 Saffron Gate. Officer present but passive.
-  - 25_2: Saffron City. Mr. Psychic's House sign at (25, 29).
-  - 12_3: Vermilion City. Gym (Thunder Badge), PC, Mart, Port.
+  - 25_1: Route 5. Ledges block direct south travel. Path likely on west side.
+  - 25_14: Saffron Gate (Route 5 side).
+  - 25_2: Saffron City. Open.
+  - 12_1: Route 6. Saffron Gate open.
 - **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
 
 ## Kanto Campaign
