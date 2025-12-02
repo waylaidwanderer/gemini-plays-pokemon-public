@@ -4,6 +4,7 @@
 - **Location:** Cerulean Gym.
 - **Status:** Searching for Machine Part.
 - **Current Objective:** Retrieve Machine Part from the pool.
+- **Hypothesis:** Item hidden in the central pool (likely corners or center).
 - **House Intel:** Trade Speech House (13,19) investigated. 'Rhydon' was a Kangaskhan.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
@@ -143,7 +144,7 @@
 - **Signs:** (11, 49) - Route 43 Sign.
 
 ## Olivine Lighthouse (Cleared)
-- **Summary:** Delivered SecretPotion to Jasmine. 
+- **Summary:** Delivered SecretPotion to Jasmine.
 - **Puzzle Solution:** To reach top: 5F West Ladder -> Drop into Pit (16,7) -> Walk North to Pit (8,3) -> Climb Central Ladders.
 - **Items:** TM34 (Swagger), Super Repel.
 
@@ -268,21 +269,14 @@
 - Haunter (Lv35)
 - Kadabra (Lv35)
 - Magneton (Lv34)
-### Rival Silver (Victory Road Exit)
-- Sneasel (Lv34)
-- Feraligatr (Lv38)
-- Golbat (Lv36)
-- Haunter (Lv35)
-- Kadabra (Lv35)
-- Magneton (Lv34)
 ### Elite Four Strategy
 - **Will:** Slowbro is a tank (Amnesia/Curse). Counter: Smokescreen (-6 Acc) + Swift. Heal aggressively.
 - **General:** Keep Paprika healthy. Revive spam if needed.
-- **Tool Usage:** Always set `autopress_buttons: true` for custom tools that return button sequences.
+- **Tool Usage:** Always set `autopress_buttons: true` for custom tools returning buttons.
 - **Menu Navigation:** Item lists are not strictly alphabetical. New items (like those bought at Indigo Plateau) may appear at the bottom. Always scroll down if an item is missing.
 ## Recent Victories
 - **Champion Lance:** Defeated.
-- **Lt. Surge:** Defeated. Strategy: Paprika (Swift/Flamethrower) swept. Light Screen ignored by Gen 2 Swift (Physical).
+- **Lt. Surge:** Defeated.
 - **Quest Update:** Found Clefairy Doll in Vermilion Fan Club. Must trigger quest at Copycat in Saffron first to pick it up.
 - **Route 6:** Path to Saffron Gatehouse is blocked by a Pokefan M at (17, 4). Nearby sign for Underground Path.
 ## Saffron City
