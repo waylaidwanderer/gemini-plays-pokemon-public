@@ -1,13 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Entering Central Pool at (4, 8).
-**Objective:** Manual Check West Pool Corner (1,2).
+**Status:** Scanning SW Corner (1, 14).
+**Objective:** Complete West Pool Scan.
 
 **Search Status: Cerulean Gym Pool**
-- East/Central Pools: Cleared (Itemfinder & Manual).
-- West Pool: Itemfinder Negative. Performing manual edge check.
-- Hypothesis: Itemfinder may fail on story items. Manual check required.
+- East/Central/NW Pools: Cleared (Itemfinder & Manual).
+- West Pool: Scanning SW sector.
+- Hypothesis: Machine Part is 'inside the water'.
 
 **Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. Use Itemfinder or check from adjacent water.
 
