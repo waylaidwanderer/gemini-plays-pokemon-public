@@ -78,7 +78,7 @@
 ## Saffron City
 - Arrived via Route 6 Gate.
 - Goal: Explore, find Copycat, Gym.
-- **System Correction:** 'path' is a button command, not a tool. Ensure `buttons_to_press` uses `['path']` (not `['path (tool)']`) and `tools_to_call` uses `find_path`.
+- **System Correction:** Only standard Game Boy buttons are valid in buttons_to_press. 'path' is NOT a button.
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
