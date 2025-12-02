@@ -345,3 +345,6 @@
 - **Objective:** Travel to Cianwood City to get the SECRETPOTION for Amphy.
 - **Location:** Cianwood City is across the sea.
 - **Source:** A pharmacy in Cianwood City.
+
+# Item Interaction Mechanics
+- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'MINT BERRY').
