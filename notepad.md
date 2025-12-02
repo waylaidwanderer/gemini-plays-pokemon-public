@@ -71,14 +71,6 @@
 - **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
 - **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
 
-## Western Johto (Archived)
-- Cleared: R37, Burned Tower (Beasts released), R38, R39, Olivine (Mineral Badge).
-
-## Mid-Game Johto (Archived)
-- **Traversed:** Route 42 (Mt. Mortar), Route 43, Route 40, Route 41.
-- **Cleared:** Olivine Lighthouse (Jasmine healed).
-- **Key Notes:** Route 40 BUOYS are impassable obstacles. Navigation tools must check surfing state.
-
 ## Cianwood City
 - **Gym:** Leader Chuck (Fighting). Weak to Psychic.
 - **Puzzle:** Requires Strength to move boulders.
