@@ -5,9 +5,10 @@
 **Objective:** Search Central Pool (3,8)-(4,9).
 
 **Search Status: Cerulean Gym Pool**
-- East Pool (x=6-9): Scanned. Negative.
-- West Pool (x=1-3): Scanned. Negative.
-- Central Pool (x=4-5): Scanning now at (5, 4).
+- East Pool: Scanned (Itemfinder). Negative.
+- West Pool: Scanned (Itemfinder). Negative.
+- Central Pool: Scanned (Itemfinder). Negative.
+- NW Corner: Scanning now at (4, 1).
 
 **Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. Use Itemfinder or check from adjacent water.
 
