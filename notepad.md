@@ -50,31 +50,11 @@
 - **Surfing:** Pathfinding must strictly separate Land/Water.
 - **Team:** Paprika (Lead), Basalt (Backup).
 
-## Johto Archives
-- **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base.
-- **Phone:** Hiker Anthony (Dark Cave Swarm), Joey (Rematch).
-- **Fly Map:** Up=Forward, Down=Backward.
-- **Lesson:** Autopress buttons for tools.
-
-## Team Rocket Base (Archived)
-- Cleared. HM06 obtained.
-- **Lesson:** 'Wiggle' to reset facing if interaction fails. Phone calls pause movement (press B). Simple emojis only for markers.
-
-## Goldenrod Notes (Archived)
-- Cleared Radio Tower and Underground.
-- Team Rocket Disbanded.
-
-## Tin Tower (Paused)
-- **Status:** Access to 2F requires Rainbow Wing.
-- **Requirement:** Catch all 3 Legendary Beasts (Raikou, Entei, Suicune) to prove worthiness.
-- **Next Step:** Restock balls at Mart and start the hunt.
-- **Sages:** Spoken to all.
-- **Mechanic Confirmed:** 'Scoot' principle (leaving and re-entering map) successfully refreshed map state and moved Sages.
-### Archived Notes
-- **Ice Path:** Cleared. Puzzles solved using boulder drops.
-- **Tools:** `select_move` updated to handle persistent cursor.
-## Blackthorn (Cleared)
-- Badge & Dratini obtained. Move Deleter at (9, 31).
+## Johto History
+- **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base, Ice Path, Blackthorn.
+- **Key Items:** HM06 (Whirlpool), Rising Badge, Dratini.
+- **Tin Tower:** Paused. Need Rainbow Wing (Catch Raikou, Entei, Suicune).
+- **Mechanics:** 'Scoot' refreshes map. Phone calls pause movement.
 
 ## Route 26 Progress
 - Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
