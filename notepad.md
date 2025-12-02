@@ -295,16 +295,3 @@
 
 # Strategic Lessons
 - **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 32625)
-My `puzzle_solver` agent has generated new hypotheses to break the loop in the western section.
-
-- **Hypothesis #1 (FAILED):** There is an opening in the western wall of the 4F platform that leads to an exterior ledge or balcony.
-  - **Test Plan:** Go to the western platform on 4F. Walk along the entire westernmost wall, attempting to walk through it at each tile to find an exit to the outside.
-  - **Result:** Tested all tiles on the western wall of the platform at (8,4) through (8,7). All were solid walls. Hypothesis is falsified for this platform.
-
-- **Hypothesis #2:** The 'dead end' on the 5th floor contains an interactable object, like a switch or NPC, that was previously overlooked.
-  - **Test Plan:** Take the ladder from the 4F platform up to the 5th floor. Systematically search the entire room by pressing the action button on all walls, floors, and any visible objects to find a hidden trigger.
-
-- **Hypothesis #3:** An interactable object or switch exists in one of the isolated 3F rooms that was missed during the search for hidden passages or items.
-  - **Test Plan:** Go down each of the three paths from 4F (pit at (8,3), pit at (9,3), and ladder at (9,5)) one by one. In each of the resulting 3F rooms, press the action button on every wall tile and floor tile to check for interactions missed by the ITEMFINDER.
