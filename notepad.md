@@ -72,16 +72,9 @@
 - **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
 - **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
 
-## Route 37
-- **Status:** Traversed.
-- **Trainers:**
-  - Psychic Greg (Drowzee Lv17) at (6, 6). Defeated.
-- **Geography:** Short route connecting Route 36 and Ecruteak City.
-- **Apricorns:** Suspected 'Weird Trees' (Red/Blue/Black Apricorns usually found here).
-- **Observed Movesets:**
-  - **Drowzee (Lv17):** Hypnosis.
-- **Lesson:** Always verify specific tile mechanics (e.g. directional ledges) are explicitly coded in pathfinding tools to avoid invalid paths.
-- **Tool Usage:** Always remember to set `autopress_buttons: true` when using custom tools that return button sequences.
+## Route 37 (Traversed)
+- Trainers: Psychic Greg (Defeated).
+- Connects Route 36 & Ecruteak. Apricorn trees present.
 
 ## Burned Tower (Archived)
 - Cleared. Rival defeated. Beasts released.
