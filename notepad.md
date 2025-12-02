@@ -11,7 +11,7 @@
 **Column 6 (Water):**
 - [x] (6, 4) Water - Checked
 - [ ] (6, 5) Water - Current Position (Check from adj if needed)
-- [ ] (6, 6) Water - Target
+- [x] (6, 6) Water - Checked
 - [x] (6, 7) Water - Checked
 
 **Column 7 (Rim):**
