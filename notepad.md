@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean Gym
-- **Location:** Cerulean Gym. Surfing at (6, 5).
+- **Location:** Cerulean Gym. Surfing at (6, 6).
 - **Goal:** Locate Machine Part. Systematic search of pool.
-- **Sequence:** Check (6, 6) [Down]. Check (5, 5) [Left]. Move Down to (6, 6). Exit to (7, 6). Check (7, 5) [Up].
+- **Sequence:** Check (7, 6) [Right]. Move Left to (5, 6). Check (6, 6) [Right], (5, 5) [Up].
 - **Intel:** Gym Leader Misty (Water). Weakness: Electric/Grass. Magnet Train down.
 
 ## Kanto Campaign
