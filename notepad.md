@@ -306,3 +306,7 @@
 - **Mechanics Lesson:** Do NOT use `autopress_buttons: true` for built-in tools like `select_battle_option`.
 - **Obstacles:** Path East on Row 14 blocked at x=42. Investigating Row 16 `FLOOR_UP_WALL`.
 - **Tool Usage Lesson:** Do NOT use `autopress_buttons: true` for tools that do not return a JSON array of button strings (like `find_path`) or built-in tools (like `select_battle_option`).
+## Quest Hypothesis
+- **Rocket Grunt Sequence:** Power Plant (Trigger) -> Cerulean Gym (Encounter) -> Route 24 (Battle).
+- **Current State:** Gym Empty. Police confirmed theft.
+- **Next Step:** If Grunt not on Bridge, go to Power Plant via Route 9 (East of Cerulean).
