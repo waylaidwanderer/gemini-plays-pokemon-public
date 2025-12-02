@@ -123,44 +123,12 @@
 ### Archived Notes
 - **Ice Path:** Cleared. Puzzles solved using boulder drops.
 - **Tools:** `select_move` updated to handle persistent cursor.
-## Blackthorn City
-- **Landmarks:**
-  - Sign at (34, 24): "Blackthorn City - A Quiet Mountain Retreat"
-  - Emy's House at (29, 23)
-- **Trade:** Lass in Emy's House wants a female Dragonair (DRAGONAIR♀) for a Dodrio.
-- **Trainers:**
-  - Cooltrainer F (Hints at Move Deleter) at (10, 25).
-  - Youngster (Patrolling row 15) at (12, 15).
-  - Super Nerd sighted at (19, 12).
-- **Navigation:**
-  - Path to Northern District via gap at (13, 17).
-- **Tile Mechanics:** `FLOOR_UP_WALL` observed at (37, 20). Need to verify traversability.
-## Blackthorn Dragon Speech House
-- **Location:** (13, 21) in Blackthorn City.
-- **NPCs:** Granny (2, 3), Dratini (5, 5).
-- **Goal:** Investigate 'Dragon Speech'.
-- **NPCs:**
-  - Cooltrainer F (10, 25): Hints that the Move Deleter is in this city.
-- **Move Deleter:** Found in house at Blackthorn (9, 31).
-## Ice Path (Re-visit)
-- **Warp Malfunction:** Exit at (36, 27) failed to trigger multiple times. Suspect specific trigger needed or bug.
-- **Tile Mechanics:** `FLOOR_UP_WALL` observed at (32, 24). Need to verify if traversable.
-- Picnicker Gina: Wants to battle on Route 34.
-
-## Blackthorn Gym
-- **Trainers:**
-  - Cooltrainer Paul (Dratini x3 Lv34) at (1, 14). Defeated.
-- **Exit Strategy:** The 1F south path is blocked. Must take East Ladder (7, 9) to 2F, traverse to West Ladder, and descend to (1, 7) to reach the exit.
-## Dragon's Den 1F Navigation
-- **Obstacle:** `FLOOR_UP_WALL` at (6, 16) is IMPASSABLE.
-- **Route:** Use Ladder at (5, 13) to bypass walls and reach the exit at (3, 5).
-- Prof. Elm called: Requests visit to Lab.
-- Plan: Get Dratini -> Visit Elm -> Route 34 (Gina's Gift).
-- **Surfing Interaction:** If pressing A or walking into water fails to trigger Surf, use the Start Menu -> Pokémon -> Surf method. It is more reliable.
-- **Lesson:** Surfing interaction requires specific facing and confirmation. Pathfinding must heavily penalize dismounting unless at the specific destination to avoid 'island hopping'.
-- **Correction:** Turn 15025 reported surfing at (24, 30) was a hallucination. Verify 'Standing on tile: WATER' before confirming surfing state.
-- **Pathfinding Issue:** `find_path` repeatedly dismounts player when surfing in Dragon's Den. Switch to manual surfing for now.
-- **Dragon's Den Exit Strategy:** Navigate West Channel (x=10). Path: Surf North to (10, 21), Clear Whirlpool at (10, 20), Exit at (20, 3).
+## Blackthorn City & Dragon's Den (Cleared)
+- **Status:** Badge obtained, Dratini obtained.
+- **Key Locations:** Move Deleter at (9, 31).
+- **Trade:** Female Dragonair for Dodrio at Emy's House (29, 23).
+- **Dragon's Den:** West Channel exit requires Whirlpool.
+- **Lesson:** Surfing requires manual interaction/Start menu if buggy. Pathfinding must check state.
 
 ## Route 26 Progress
 - Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
