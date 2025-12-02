@@ -5,9 +5,9 @@
 **Objective:** Manual Check West Pool Corner (1,2).
 
 **Search Status: Cerulean Gym Pool**
-- Itemfinder: Negative in all sectors.
-- Hypothesis: Itemfinder may not detect story item, or checking specific tile required.
-- Action: Manual sweep of West Pool corners (1, 2) and edges.
+- East/Central Pools: Cleared (Itemfinder & Manual).
+- West Pool: Itemfinder Negative. Performing manual edge check.
+- Hypothesis: Itemfinder may fail on story items. Manual check required.
 
 **Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. Use Itemfinder or check from adjacent water.
 
