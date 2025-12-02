@@ -1,14 +1,14 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Scanning SW Corner (1, 14).
-**Objective:** Complete West Pool Scan.
+**Status:** Investigating Central Pool NW Corner (1, 5).
+**Objective:** Verify Clue Analyst Hypothesis.
 
 **Search Status: Cerulean Gym Pool**
-- **East Pool:** Cleared.
-- **West Pool:** Cleared.
-- **Central Pool:** Checking inner ring (adjacent to island).
-- **Hypothesis:** Item is at a specific coordinate in the water, requiring exact interaction while surfing.
+- **East Pool:** Cleared (Itemfinder Negative).
+- **West Pool:** Cleared (Itemfinder Negative).
+- **Central Pool:** Investigating specific tiles.
+- **Hypothesis (Clue Analyst):** Machine Part is at the NW Corner of the Central Pool (likely 1, 5). Must be checked while Surfing, facing the corner.
 - **CRITICAL LESSON:** You CANNOT check water tiles from land (triggers Surf prompt). You MUST be in the water to check adjacent water tiles.
 
 ## Kanto Campaign
