@@ -5,9 +5,9 @@
 **Objective:** Search Central Pool (3,8)-(4,9).
 
 **Priority:**
-1. Search East Pool Edge (x=8) [Current].
-2. Surf South from (8, 10) to (8, 13).
-3. Check adjacent water tiles.
+1. Search East Pool (x=8) around (8, 13) [Current].
+2. Move North to check remaining East Pool tiles.
+3. Move to Central Pool.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
