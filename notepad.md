@@ -2,7 +2,7 @@
 
 ## 📍 Current Status: Cerulean City
 - **Location:** Cerulean City (7_17).
-- **Status:** Exploring West side for Northern Route 9 access.
+- **Status:** Exploring North-East side. Seeking Route 9 entrance.
 - **Current Objective:** Find Northern Route 9 Entrance to reach Power Plant.
 - **House Intel:** Trade Speech House (13,19) investigated. 'Rhydon' was a Kangaskhan.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
