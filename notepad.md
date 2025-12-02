@@ -301,6 +301,5 @@
 - **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is likely segmented in a non-obvious way. The solution may require non-linear thinking, such as ascending to a higher, fully connected floor to cross over an obstacle before descending again.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 32707)
-- **Hypothesis 1:** There is a specific opening on the 6th floor that allows a drop down to the western section of the 5th floor. (Test: Systematically walk the perimeter, trying to walk through openings.)
-- **Hypothesis 2:** An NPC or key object on the 6th floor must be interacted with to reveal the path. (Test: Interact with Jasmine again, and the central lighthouse lamp.)
-- **Hypothesis 3:** There is a doorway on the 6th floor leading to an exterior balcony that connects to the western section. (Test: Examine all walls for an exit.)
+- **Hypothesis 1 (FAILED):** There is a specific opening on the 6th floor that allows a drop down. A systematic test of the entire western perimeter revealed no openings.
+- **Next Step:** Test Hypothesis 2 - Interact with Jasmine and the central lighthouse lamp.
