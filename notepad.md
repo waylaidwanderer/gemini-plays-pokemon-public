@@ -1,9 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean City
-- **Location:** Cerulean Trade Speech House.
-- **Status:** Searching for Route 9 North Entrance.
-- **Current Objective:** Talk to locals for clues.
+- **Location:** Cerulean Trade Speech House (7_3).
+- **Status:** Interviewing residents (Granny, Gramps).
+- **Current Objective:** Finish dialogue with Gramps, then find Northern Route 9 Entrance.
+- **House Intel:** Granny (2,4) discusses trading. Gramps (1,2) is happy. Rhydon (5,2) and Zubat (5,6) sprites present.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
   - Gym Leader: Misty (Water).
