@@ -1,13 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Surfing at (7, 10).
-**Objective:** Search remaining unchecked Water tiles.
+**Status:** Surfing Western Pool.
+**Objective:** Find Machine Part.
 
 **Priority:**
-1. Check (6, 10), (8, 10), (7, 11).
-2. Move South to (7, 11).
-3. Continue South/West sweep.
+1. Surf North from (1, 14).
+2. Check Column 1 (West Edge).
+3. Check (4, 2) corner.
 
 **Completed:**
 - Col 5: (5, 6) Checked.
