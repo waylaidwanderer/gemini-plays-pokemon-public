@@ -303,3 +303,4 @@
   - Pokefan M (Sighted) at (36, 15).
 - **Mechanics Lesson:** Do NOT use `autopress_buttons: true` for built-in tools like `select_battle_option`.
 - **Obstacles:** Path East on Row 14 blocked at x=42. Investigating Row 16 `FLOOR_UP_WALL`.
+- **Tool Usage Lesson:** Do NOT use `autopress_buttons: true` for tools that do not return a JSON array of button strings (like `find_path`) or built-in tools (like `select_battle_option`).
