@@ -5,9 +5,10 @@
 **Objective:** Speak to Manager to trigger Machine Part spawn.
 **Reason:** Itemfinder failed in Gym. Clue Analyst confirmed missing trigger.
 
-**Cerulean Gym Findings:**
-- Itemfinder Negative at (5,5), (5,12), (3,11).
-- Manual checks of NW corners (1,2) & (2,5) Negative.
+**Cerulean Gym Search Summary:**
+- Systematically searched pool (North, Central, South) and edges.
+- Itemfinder Negative (Land & Surf).
+- Conclusion: Machine Part not spawned. Must trigger Power Plant event first.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
