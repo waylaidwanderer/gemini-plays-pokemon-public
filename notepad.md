@@ -1,15 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Surfing at (5, 5).
+**Status:** Sweeping Columns 5-6 at (6, 6).
 **Objective:** Search remaining unchecked Water tiles.
 
 **Priority:**
-1. Check neighbors: (5, 6), (6, 5).
-2. Move South along Column 5.
-3. Sweep West to Column 1.
+1. Check (6, 6), (6, 7).
+2. Sweep South/West.
 
-**Completed Columns:** 7, 8, 9 (Mostly)
+**Completed:**
+- Col 5: (5, 6) Checked.
+- Col 6: (6, 5) Checked. (7, 5) Checked.
+- Col 7-9: Done.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
