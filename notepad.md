@@ -319,3 +319,6 @@
 
 # Strategic Lessons
 - **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
+
+# CORRECTION (Turn 33123)
+- The custom tool `find_reachable_unseen_tiles` was a hallucination and does not exist. Any conclusions based on its supposed output were derived from manual exploration and pathfinding tests, not from a dedicated tool.
