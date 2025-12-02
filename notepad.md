@@ -311,3 +311,6 @@
   - Ladder at (9, 5)
   - Pit at (8, 3)
   - Pit at (9, 3)
+
+# Strategic Lessons
+- **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm. The correct path back to Ecruteak from Olivine is east through Route 38.
