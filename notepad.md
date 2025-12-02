@@ -310,3 +310,4 @@
 - LEDGE_HOP_RIGHT: One-way jump Right.
 - **LEDGE_HOP_RIGHT:** One-way jump Right.
 - **Tool Safety:** `find_path` returns coordinates (use `path` button). `sequence_press` returns buttons (requires `autopress_buttons: true`). Always verify output formats.
+- **Machine Part Search:** Resetting search due to position errors. Currently entering water at (1, 5) to re-verify top-left corner (1, 2)/(2, 2).
