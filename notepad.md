@@ -311,3 +311,4 @@
 - **Current State:** Gym Empty. Police confirmed theft.
 - **Next Step:** If Grunt not on Bridge, go to Power Plant via Route 9 (East of Cerulean).
 - **Pathfinding Update:** Fixed `find_path` to treat LEDGE_HOP tiles as strictly one-way. They can only be entered from the 'hop' direction (e.g., Down for LEDGE_HOP_DOWN).
+- LEDGE_HOP_RIGHT: One-way jump Right.
