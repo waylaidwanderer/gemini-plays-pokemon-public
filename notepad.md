@@ -99,13 +99,7 @@
 - **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
 - **Victory Road Navigation:** Ridge at Y=12 blocked South->North at X=9,10,11. Pit seen at (0,11) but currently unreachable from South.
 ## Trainer Rosters
-### Rival Silver (Victory Road)
-- Sneasel (Lv34)
-- Feraligatr (Lv38)
-- Golbat (Lv36)
-- Haunter (Lv35)
-- Kadabra (Lv35)
-- Magneton (Lv34)
+
 ### Elite Four Strategy
 - **Will:** Slowbro is a tank (Amnesia/Curse). Counter: Smokescreen (-6 Acc) + Swift. Heal aggressively.
 - **General:** Keep Paprika healthy. Revive spam if needed.
