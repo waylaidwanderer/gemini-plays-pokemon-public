@@ -1,15 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Repositioning to (5, 5) for Itemfinder scan.
-**Objective:** Locate Machine Part.
+## 📍 Current Mission: Restore Power
+**Status:** En route to Power Plant (Route 10).
+**Objective:** Speak to Manager to trigger Machine Part spawn.
+**Reason:** Itemfinder failed in Gym. Clue Analyst confirmed missing trigger.
 
-**Search Status: Cerulean Gym Pool**
-- **East/West Pools:** Cleared.
-- **Central Pool:** (1,5), (2,5), (2,4) Checked - Negative.
-- **NW Corner (1,2):** Checked - Negative.
-- **Current Plan:** Use Itemfinder from center of pool (5,5) to cover max area.
-- **Lesson:** `path` is a button command, `find_path` is the tool.
+**Cerulean Gym Findings:**
+- Itemfinder Negative at (5,5), (5,12), (3,11).
+- Manual checks of NW corners (1,2) & (2,5) Negative.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
