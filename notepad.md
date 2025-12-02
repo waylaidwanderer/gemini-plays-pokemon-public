@@ -49,14 +49,9 @@
 - **Weather:** Rain Dance reduces Fire-type damage by 50%.
 
 ## Strategy Notes
-- **Dragon's Den:** Cleared. Bahamut (Dratini) obtained. Found Dragon Fang.
-- **Surfing Navigation:** When surfing, pathfinding tools must explicitly treat land tiles as obstacles (unless it's the target tile) to prevent accidental dismounting during travel.
-- **Puzzle Mechanics:** 'Scoot' (leaving/re-entering map) refreshes map state/NPCs.
-- **General Protocol:** Mark NPCs immediately. Keep markers for defeated trainers. Verify position after interruptions. Trust visual Screen Text.
-- **Sprite Deception:** NPCs may use misleading sprites (e.g. Hiker as Pokefan).
-- **Security Cameras:** Persian statues trigger alarms (Rocket Base).
-- **Inventory:** In-game list order differs from Game State list.
-- **Team:** Paprika (Typhlosion) lead. Basalt (Geodude) backup.
+- **Mechanics:** 'Scoot' refreshes map. Trust Screen Text. Mark NPCs.
+- **Surfing:** Pathfinding must strictly separate Land/Water.
+- **Team:** Paprika (Lead), Basalt (Backup).
 
 ## National Park (Cleared)
 - Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
