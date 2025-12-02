@@ -88,21 +88,18 @@
   - Youngster (11, 4) sighted on Northern path (unreachable from current position).
   - Lass (12, 15) sighted on Southern path.
 ## Route 9
-- **Status:** Exploring East towards Power Plant.
+- **Status:** Traversing East to Power Plant.
+- **Key Features:**
+  - **Cut Tree:** At (5, 8), blocks main path. (Cleared).
+  - **Ledges:** Multiple one-way ledges creating split paths.
+  - **Warps:** (0, 4) leads to Cerulean City.
 - **Trainers:**
   - Camper Dean (Defeated) at (21, 11).
   - Lass (Sighted) at (12, 15).
   - Pokefan M (Sighted) at (36, 15).
-- **Mechanics Lesson:** Do NOT use `autopress_buttons: true` for built-in tools like `select_battle_option`.
-- **Obstacles:** Path East on Row 14 blocked at x=42. Investigating Row 16 `FLOOR_UP_WALL`.
-- **Tool Usage Lesson:** Do NOT use `autopress_buttons: true` for tools that do not return a JSON array of button strings (like `find_path`) or built-in tools (like `select_battle_option`).
-## Quest Hypothesis
-- **Rocket Grunt Sequence:** Power Plant (Trigger) -> Cerulean Gym (Encounter) -> Route 24 (Battle).
-- **Current State:** Gym Empty. Police confirmed theft.
-- **Next Step:** If Grunt not on Bridge, go to Power Plant via Route 9 (East of Cerulean).
-- **Pathfinding Update:** Fixed `find_path` to treat LEDGE_HOP tiles as strictly one-way. They can only be entered from the 'hop' direction (e.g., Down for LEDGE_HOP_DOWN).
-- LEDGE_HOP_RIGHT: One-way jump Right.
-- **LEDGE_HOP_RIGHT:** One-way jump Right.
-- **Tool Safety:** `find_path` returns coordinates (use `path` button). `sequence_press` returns buttons (requires `autopress_buttons: true`). Always verify output formats.
-- **Machine Part Search:** Resetting search due to position errors. Currently entering water at (1, 5) to re-verify top-left corner (1, 2)/(2, 2).
-- **Interaction Mechanics:** The 'Want to Surf?' prompt overrides item pickup interactions. To check a water tile for a hidden item, you must face it from another water tile. To check a land edge from the water, surf to it and face the land.
+
+## Quest Log: Machine Part
+- **Status:** Missing Trigger.
+- **Investigation:** Searched Cerulean Gym pool thoroughly (North, Central, South, Corners) with Itemfinder and manual checks. All results negative.
+- **Conclusion:** Machine Part has not spawned. Must trigger the event by speaking to the Power Plant Manager first.
+- **Next Step:** Reach Power Plant via Route 9.
