@@ -57,12 +57,8 @@
 - Hiker Anthony: Reported Dunsparce swarm in Dark Cave.
 - Youngster Joey: Ready for rematch on Route 30.
 
-## Elite Four Strategy
-- **Will, Koga, Bruno:** Defeated.
-
-- **Karen (Dark):** Fighting/Bug weakness. Paprika brute force. Watch out for Houndoom (Fire/Dark).
-- **Lance (Dragon):** Rock/Ice weakness. Basalt (Rock) and Paprika (Fire) are key.
-- **Protocol:** Heal to 100% between battles. Use Super Potions to save Full Restores.
+## Elite Four Strategy (Archived)
+- Defeated.
 - **Lesson:** ALWAYS set `autopress_buttons: true` for custom tools returning buttons.
 
 ## Fly Map Mechanics
