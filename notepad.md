@@ -1,33 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Surfing at (6, 5).
-**Objective:** Systematically check remaining water/rim tiles.
+**Status:** Entering Water at (2, 5).
+**Objective:** Check SW Corner.
 
-**Column 5 (Water):**
-- [x] (5, 5) Water - Checked
-- [ ] (5, 6) Water - Target
+**Column 2 (Water):**
+- [ ] (2, 4) Floor - Target (Check from (2, 5))
+- [ ] (2, 5) Water - Current Position
+- [ ] (1, 5) Water - Target
+- [ ] (3, 5) Water - Target
 
-**Column 6 (Water):**
-- [x] (6, 4) Water - Checked
-- [ ] (6, 5) Water - Current Position (Check from adj if needed)
-- [x] (6, 6) Water - Checked
-- [x] (6, 7) Water - Checked
-
-**Column 7 (Rim):**
-- [x] (7, 4) Rim - Checked
-- [x] (7, 5) Rim - Checked
-- [x] (7, 6) Rim - Checked
-
-**Column 8 (Water):**
-- [x] (8, 4) Water - Checked
-- [ ] (8, 5) Water - Needs Re-check
-- [x] (8, 6) Water - Checked
-
-**Column 9 (Rim):**
-- [ ] (9, 4) Rim
-- [ ] (9, 5) Rim
-- [x] (9, 6) Rim - Checked
+**Completed Columns:** 6, 7, 8, 9 (Mostly)
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
