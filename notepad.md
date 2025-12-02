@@ -9,7 +9,8 @@
 - West Pool: Scanning SW sector.
 - Hypothesis: Machine Part is 'inside the water'.
 
-**Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. Use Itemfinder or check from adjacent water.
+**Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. You MUST be surfing to check adjacent water tiles.
+**Itemfinder Limitation:** Itemfinder scans the screen. If it's negative in all sectors, the item is likely NOT on the screen, or requires a specific trigger.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
