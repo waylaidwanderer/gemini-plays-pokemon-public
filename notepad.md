@@ -318,3 +318,9 @@
 
 # Strategic Lessons
 - **DISCIPLINE FAILURE (OLIVINE LIGHTHOUSE):** I correctly identified the western ascent as a 'red herring' loop in my notes, yet I repeatedly re-entered it, ignoring both my own conclusions and my `find_path` tool's correct 'No path found' outputs. This is a catastrophic failure of strategic discipline. **NEW DIRECTIVE:** I MUST consult my notepad and map markers BEFORE every navigational decision and I MUST trust my tool outputs over my own flawed visual assessment.
+
+# To-Do: Map Hygiene
+- When I return to OlivineLighthouse4F, I MUST mark the following as dead ends (🚫):
+  - Ladder at (9, 5)
+  - Pit at (8, 3)
+  - Pit at (9, 3)
