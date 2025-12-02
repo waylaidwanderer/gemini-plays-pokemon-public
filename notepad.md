@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean City
-- **Location:** Cerulean City (Outside Gym).
-- **Status:** Located Gym. Fisher confirmed it.
-- **Current Objective:** Investigate Power Plant. Check Police House (28,17). Misty is out.
+- **Location:** Cerulean Police Station.
+- **Status:** Investigating Robbery.
+- **Current Objective:** Investigate Power Plant. Police Station: Robbery confirmed by Pokefan F. Investigating clues (Diglett, Guru). Misty is out.
 - **Intel:**
   - Gym Leader: Misty (Water).
   - Weakness: Electric/Grass (Paprika's raw power should suffice).
