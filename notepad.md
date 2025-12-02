@@ -322,3 +322,6 @@
 
 # New Lessons Learned
 - **Location Verification:** I have repeatedly hallucinated my location, especially after using a warp, causing my pathfinder to crash. I MUST verify my `current_map_id` and `current_position` from the Game State Information before every single navigational action.
+
+# New Lessons Learned
+- **Trust Tool Outputs:** A tool returning an unexpected result (like `find_reachable_unseen_tiles` returning an empty list) is valuable data, not necessarily a tool failure. It can indicate a dead end, forcing a strategic pivot instead of a debugging loop.
