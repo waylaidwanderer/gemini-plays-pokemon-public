@@ -1,28 +1,11 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean Gym
-- **Location:** Cerulean Gym.
-- **Status:** Surfing in Cerulean Gym.
-- **Current Objective:** Locate Machine Part in Top-Left Pool (1,2 to 2,3).
+- **Location:** Cerulean Gym. Surfing at (1, 2).
+- **Goal:** Locate Machine Part in Top-Left Pool.
 - **Search Method:** Surf to tile -> Face adjacent tiles -> Press A.
-- **Sequence:**
-  1. Go to (2, 3). Check neighbors.
-  2. Go to (1, 3). Check neighbors.
-  3. Go to (2, 2). Check neighbors.
-  4. Go to (1, 2). Check neighbors.
-- **House Intel:** Trade Speech House (13,19) investigated. 'Rhydon' was a Kangaskhan.
-- **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
-- **Intel:**
-  - Gym Leader: Misty (Water).
-  - Weakness: Electric/Grass (Paprika's raw power should suffice).
-  - Magnet Train down (Power Plant issues).
-  - Underground Path likely nearby.
-- **Map Notes:**
-  - 25_1: Route 5. Ledges block direct NORTH travel. Path likely on west side.
-  - 25_14: Saffron Gate (Route 5 side).
-  - 25_2: Saffron City. Open.
-  - 12_1: Route 6. Saffron Gate open.
-- **Team:** Paprika (Lv64), Basalt (Lv17), XQH (Lv6), F (Lv8), Vortex (Lv16), Bahamut (Lv15).
+- **Sequence:** Currently at (1, 2). Checking neighbors.
+- **Intel:** Gym Leader Misty (Water). Weakness: Electric/Grass. Magnet Train down.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
