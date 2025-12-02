@@ -5,8 +5,8 @@
 **Objective:** Find Machine Part.
 
 **Priority:**
-1. Surf North from (1, 14).
-2. Check Column 1 (West Edge).
+1. Search Column 1 Northbound.
+2. Check adjacent statues/walls.
 3. Check (4, 2) corner.
 
 **Completed:**
