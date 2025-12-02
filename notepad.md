@@ -311,3 +311,6 @@
 
 # Rematch Opportunities
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
+
+# New Lessons Learned
+- **Trust Tool Outputs:** A tool reporting 'No path found' is valuable data, not a tool failure. I must trust this output and investigate the environment for physical blockades (like NPCs) before assuming the tool's code is flawed. My failure to do this in the Olivine Mart was a critical error.
