@@ -300,11 +300,9 @@
 # Agent Escalation Protocol
 - When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
 
-## New Lessons Learned
-- **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
-- **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
-- Youngster Joey called for a rematch.
-
 # New Lessons Learned
 - **Agent Escalation Protocol:** When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
 - **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
+- **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
+- **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
+- Youngster Joey called for a rematch.
