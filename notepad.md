@@ -37,7 +37,7 @@
 - **ROCK:** Breakable (Rock Smash).
 - **BOULDER:** Pushable (Strength).
 - **WARP_CARPET:** Walk off map to exit.
-- **LADDER:** Traversable warp.
+- **LADDER:** Context Dependent. Traversable warp. Verified as walkable bridge on Cerulean Gym (7_6).
 - **WARP_CARPET_DOWN:** Walk Down to warp.
 - **STAIRCASE:** Traversable warp.
 - **COUNTER:** Impassable. Allows interaction with Entity on other side.
