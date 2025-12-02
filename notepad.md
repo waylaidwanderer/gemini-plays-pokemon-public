@@ -290,12 +290,12 @@
 - **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (Window Exit):** There is an exit through a window on the 4th floor that leads to an external ledge. (Low probability)
-- **Hypothesis 2 (Variable Pits):** Not all pits on the 4th floor lead to the same spot. A specific pit may drop you into a previously inaccessible area on the 3rd floor. (High probability - testing this first).
-- **Hypothesis 3 (5F Re-check):** The 'dead-end' on the 5th floor contains an interactable element that was previously missed.
-- **Trust Your Tools:** If a verified tool (like `find_path`) reports a negative result (e.g., "No path found"), my default assumption MUST be that the tool is correct and my own visual assessment is flawed. I must not immediately jump to debugging the tool without first rigorously re-examining the map data to find the obstacle the tool has identified. This is a recurring failure point.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses (Take 2)
 - **Hypothesis 1 (2F Path):** The path to the eastern section is on the 2nd floor. Test Plan: Backtrack to 2F and search for a new path leading up to the eastern side of 3F.
 - **Hypothesis 2 (Eastern Pits):** The correct pit is on the eastern side of 4F. Test Plan: Find a way to the eastern side of 4F and test the pits there.
 - **Hypothesis 3 (Exterior Ledge):** There is a hidden exterior ledge on 4F. Test Plan: Go to 4F and check the ledge overlooking 3F for a walkable path.
+
+# Olivine Lighthouse Puzzle - Root Cause Analysis
+- My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse."
+- I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4.
+- Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist.
+- **LESSON:** When a verified tool provides a negative result (e.g., "No path found"), my default assumption MUST be that the tool is correct and my own visual assessment is flawed. I must not immediately jump to debugging the tool without first rigorously re-examining the map data to find the obstacle the tool has identified. This is a recurring failure point and must be corrected.
