@@ -71,23 +71,10 @@
 - **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
 - **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
 
-## Cianwood City
-- **Gym:** Leader Chuck (Fighting). Weak to Psychic.
-- **Puzzle:** Requires Strength to move boulders.
-- **Gym Guide:** Warns of bullies.
-- **Pharmacy:** Acquired SecretPotion.
-- **Navigation Protocol:** Always step 1 tile away from warps before pathfinding.
-- **Cianwood Photo Studio:** Located at (9, 31). Not the Gym.
-- **Cianwood Event:** Encountered Suicune at (10, 14), but it fled. Eusine appeared and challenged me to a battle to earn Suicune's respect.
-- Defeated Eusine (Drowzee Lv23, Electrode Lv25, Haunter Lv23).
-
-## Mahogany Town Info
-- **Status:** Safe. Team Rocket defeated.
-- **Gym:** Leader Pryce (Ice) Defeated.
-- **Mechanic Confirmed:** Persian Statues contain security cameras. Crossing their line of sight triggers Rocket Grunt battles.
-- **Objective:** Continue adventure.
-- **Trap Warning:** The security cameras in Team Rocket Base B1F (e.g., at 6,1) create an infinite loop of battles if you remain in their line of sight. You must move immediately after a battle ends.
-- **Floor Traps:** A Grunt warned of traps set in the floor. Proceed with caution.
+## Cianwood & Mahogany (Cleared)
+- **Cianwood:** Chuck Defeated. Pharmacy has SecretPotion. Photo Studio at (9, 31).
+- **Mahogany:** Pryce Defeated. Rocket Base Cleared.
+- **Mechanics:** Persian Statues = Security Cameras (Battle Loop).
 
 ## Team Rocket Base (Cleared)
 - **Summary:** Cleared B1F, B2F, B3F. Defeated Executives. Stopped Radio Signal.
