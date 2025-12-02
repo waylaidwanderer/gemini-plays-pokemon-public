@@ -188,12 +188,6 @@
 - **Correction:** Turn 15025 reported surfing at (24, 30) was a hallucination. Verify 'Standing on tile: WATER' before confirming surfing state.
 - **Pathfinding Issue:** `find_path` repeatedly dismounts player when surfing in Dragon's Den. Switch to manual surfing for now.
 - **Dragon's Den Exit Strategy:** Navigate West Channel (x=10). Path: Surf North to (10, 21), Clear Whirlpool at (10, 20), Exit at (20, 3).
-## Tool Reference
-- **find_path**: Custom tool for pathfinding. Handles obstacles and surfing penalties.
-- **attempt_surf**: Standardized surfing interaction sequence.
-- **select_move**: Automates battle move selection.
-- **sequence_press**: Executes button sequences.
-- **scan_unseen**: Scans for reachable unseen tiles.
 
 ## Route 26 Progress
 - Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
