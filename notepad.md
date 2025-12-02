@@ -8,7 +8,7 @@
   - Magnet Train down (Power Plant issues).
   - Underground Path likely nearby.
 - **Map Notes:**
-  - 25_1: Route 5. Ledges block direct south travel. Path likely on west side.
+  - 25_1: Route 5. Ledges block direct NORTH travel. Path likely on west side.
   - 25_14: Saffron Gate (Route 5 side).
   - 25_2: Saffron City. Open.
   - 12_1: Route 6. Saffron Gate open.
