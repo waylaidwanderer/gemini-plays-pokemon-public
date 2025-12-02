@@ -317,3 +317,6 @@
 
 # Strategic Lessons
 - **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
+
+# Strategic Lessons
+- **Olivine City Layout:** The path to Route 38 is not directly east from the southern part of the city. The correct exit is located on the northern edge of the city, requiring northward travel before heading east.
