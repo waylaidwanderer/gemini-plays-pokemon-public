@@ -1,18 +1,17 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Surfing Western Pool.
-**Objective:** Find Machine Part.
+**Status:** Surfing at (1, 12).
+**Objective:** Search Column 1 Northbound.
 
 **Priority:**
-1. Search Column 1 Northbound.
-2. Check adjacent statues/walls.
-3. Check (4, 2) corner.
+1. Check (1, 11), (2, 12), (1, 12) from adjacent.
+2. Continue North to (1, 10), (1, 9), etc.
+3. Check (4, 2) corner (last resort).
 
 **Completed:**
-- Col 5: (5, 6) Checked.
-- Col 6: (6, 5) Checked. (7, 5) Checked.
-- Col 7-9: Done.
+- Col 5-9: Done.
+- Col 1: (1, 13) Checked.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
