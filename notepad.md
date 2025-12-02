@@ -312,3 +312,6 @@
 
 # Olivine Lighthouse Notes
 - Unmarked warps on 3F at (16, 9) and (17, 9). Need to investigate.
+
+# Olivine Lighthouse Notes
+- Unmarked warps on 3F at (16, 9) and (17, 9). Need to investigate.
