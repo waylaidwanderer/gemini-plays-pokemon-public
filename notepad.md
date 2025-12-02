@@ -135,3 +135,14 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
 
 ## Investigation Note
 - System has warned about an unmarked warp at (3, 7) in Elm's House. I need to investigate this location after testing all hypotheses in the lab.
+### Hypothesis 6 Test: Save Trigger (Failed)
+- **Test:** Stood at (1, 1) and interacted with the PC at (0, 1).
+- **Result:** Triggered flavor text about research papers. No event or save menu appeared.
+- **Conclusion:** Hypothesis 6 is false. The PC is not the trigger.
+
+## CRITICAL REALIZATION: I'M IN THE WRONG BUILDING
+- **Observation:** The map is named "ElmsHouse", not "ElmsLab". I have been trying to solve the starter Pokémon puzzle in Professor Elm's *home*.
+- **New Plan:** I must exit this house and find the actual laboratory. My previous attempts failed because the trigger event is not located here.
+- **Next Steps:**
+    1. Exit Elm's House via the warp at (2, 7).
+    2. Explore New Bark Town to find Professor Elm's Lab.
