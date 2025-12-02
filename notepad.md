@@ -325,3 +325,4 @@
 
 # Strategic Lessons
 - **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
+- When all physical routes are confirmed as blocked (like my loop in Olivine/Route 39), the progression is likely tied to an event trigger (like the sick Miltank) rather than a missed path. I must pivot from exploration to solving the local event.
