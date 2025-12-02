@@ -3,7 +3,8 @@
 ## 📍 Current Status: Cerulean City
 - **Location:** Cerulean Police Station.
 - **Status:** Investigating Robbery.
-- **Current Objective:** Investigate Power Plant. Police Station: Robbery confirmed. Fishing Guru reports a 'shady character skulking about'. Misty is out. Re-checking Gym.
+- **Current Objective:** Search Cerulean Gym (Back Area) for 'shady character'.
+- **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
   - Gym Leader: Misty (Water).
   - Weakness: Electric/Grass (Paprika's raw power should suffice).
