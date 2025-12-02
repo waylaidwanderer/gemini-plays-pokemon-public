@@ -3,7 +3,7 @@
 ## 📍 Current Status: Cerulean City
 - **Location:** Cerulean Police Station.
 - **Status:** Investigating Robbery.
-- **Current Objective:** Investigate Power Plant. Police Station: Robbery confirmed by Pokefan F. Investigating clues (Diglett, Guru). Misty is out.
+- **Current Objective:** Investigate Power Plant. Police Station: Robbery confirmed. Fishing Guru reports a 'shady character skulking about'. Misty is out. Re-checking Gym.
 - **Intel:**
   - Gym Leader: Misty (Water).
   - Weakness: Electric/Grass (Paprika's raw power should suffice).
