@@ -1,12 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Surfing at (4, 9).
-**Objective:** Search West Side of Pool.
+**Status:** Searching Central Platform at (3, 14).
+**Objective:** Clear Central Platform and South-West Water.
 
 **Priority:**
-1. Check (4, 9) surroundings.
-2. Search Column 4.
+1. Check surroundings of (3, 14).
+2. Surf West to check (1, 14), (1, 15).
+3. Check remaining water tiles in South-West.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
