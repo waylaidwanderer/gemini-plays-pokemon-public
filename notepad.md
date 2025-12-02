@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Surfing at (6, 2).
-**Objective:** Search Northern Row Eastbound.
+**Status:** Surfing at (6, 3).
+**Objective:** Search East Side of Pool.
 
 **Priority:**
 1. Check (5, 1), (5, 3), (6, 2).
