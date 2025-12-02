@@ -56,11 +56,6 @@
 - **Tin Tower:** Paused. Need Rainbow Wing (Catch Raikou, Entei, Suicune).
 - **Mechanics:** 'Scoot' refreshes map. Phone calls pause movement.
 
-## Route 26 Progress
-- Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
-- Received call from Picnicker Gina (Route 34): Has a gift for me (Leaf Stone/etc likely).
-  - Psychic Richard (Espeon Lv36) at (13, 79). Defeated.
-  - Reached House at (15, 57). Investigating.
 ## Lessons Learned
 - **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
 - **Victory Road Navigation:** Ridge at Y=12 blocked South->North at X=9,10,11. Pit seen at (0,11) but currently unreachable from South.
