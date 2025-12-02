@@ -132,3 +132,6 @@ I have now tested every single plausible hypothesis. The only remaining suggesti
 - **Test:** Stood at (2, 1) and interacted with the window at (2, 0).
 - **Result:** Received flavor text: "My reflection! Lookin' good!". No event triggered.
 - **Conclusion:** Hypothesis 5 is false.
+
+## Investigation Note
+- System has warned about an unmarked warp at (3, 7) in Elm's House. I need to investigate this location after testing all hypotheses in the lab.
