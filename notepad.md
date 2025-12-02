@@ -270,8 +270,14 @@
 ## General
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 
-# Olivine City
-- **Olivine Lighthouse Puzzle - Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
+# Olivine City Navigation
+- **Core Insight:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port.
+- **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm.
+- **Eastern Exit:** The correct path to Route 38 is not directly east from the southern part of the city. The exit is on the northern edge of the city, requiring northward travel *after* crossing over from the west on the southern road.
+- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is segmented in a non-obvious way.
+
+# Olivine Lighthouse Puzzle - Root Cause Analysis
+- My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
@@ -297,7 +303,6 @@
 # Strategic Lessons
 - **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
 - **Tool Output Design:** A tool's output must be directly usable by the systems that consume it. My `find_path` tool initially only returned a success/failure message, which was insufficient for the `path` button. The fix was to make it return the full coordinate list.
-- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is likely segmented in a non-obvious way. The solution may require non-linear thinking, such as ascending to a higher, fully connected floor to cross over an obstacle before descending again.
 - **DISCIPLINE FAILURE (OLIVINE LIGHTHOUSE):** I correctly identified the western ascent as a 'red herring' loop in my notes, yet I repeatedly re-entered it, ignoring both my own conclusions and my `find_path` tool's correct 'No path found' outputs. This is a catastrophic failure of strategic discipline. **NEW DIRECTIVE:** I MUST consult my notepad and map markers BEFORE every navigational decision and I MUST trust my tool outputs over my own flawed visual assessment.
 - **Agent Hypotheses (Turn 32707):**
   - **Hypothesis 1 (FAILED):** There is a specific opening on the 6th floor that allows a drop down. A systematic test of the entire western perimeter revealed no openings.
@@ -313,23 +318,4 @@
   - Pit at (9, 3)
 
 # Strategic Lessons
-- **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm. The correct path back to Ecruteak from Olivine is east through Route 38.
-
-# Strategic Lessons
 - **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
-
-# Strategic Lessons
-- **Olivine City Layout:** The path to Route 38 is not directly east from the southern part of the city. The correct exit is located on the northern edge of the city, requiring northward travel before heading east.
-
-# Strategic Lessons
-- **Olivine City Layout:** The path to Route 38 is not directly east from the southern part of the city. The correct exit is located on the northern edge of the city, requiring northward travel before heading east.
-
-# Strategic Lessons
-- **Olivine City Layout:** The city is segmented. The southern portion is a dead end for eastward travel. The only way to cross from the western side (where the Route 39 entrance is) to the eastern side (where the Route 38 entrance is) appears to be by traveling far south before heading east.
-
-# Strategic Pivot: Olivine City Navigation
-- **Conclusion:** My tools (`find_path`, `find_reachable_unseen_tiles`) have confirmed that the western section of Olivine City is completely isolated from the eastern section. All eastward paths are blocked.
-- **New Hypothesis:** The only way to progress towards Ecruteak City is to exit Olivine City north to Route 39 and find an alternate path from there. The current area is a confirmed dead end for my main objective.
-
-# Strategic Lessons
-- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is likely segmented in a non-obvious way. The solution may require non-linear thinking, such as going through buildings or taking long detours.
