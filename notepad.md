@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Cerulean City
-- **Location:** Cerulean City.
-- **Status:** Returned from Route 25. Rocket Grunt defeated.
-- **Current Objective:** Retrieve Machine Part from Cerulean Gym.
+## 📍 Current Status: Cerulean Gym
+- **Location:** Cerulean Gym.
+- **Status:** Searching for Machine Part.
+- **Current Objective:** Retrieve Machine Part from the pool.
 - **House Intel:** Trade Speech House (13,19) investigated. 'Rhydon' was a Kangaskhan.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
