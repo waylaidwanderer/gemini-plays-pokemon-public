@@ -296,29 +296,15 @@
 
 # Strategic Lessons
 - **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
-
-# Strategic Lessons
 - **Tool Output Design:** A tool's output must be directly usable by the systems that consume it. My `find_path` tool initially only returned a success/failure message, which was insufficient for the `path` button. The fix was to make it return the full coordinate list.
 - **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is likely segmented in a non-obvious way. The solution may require non-linear thinking, such as ascending to a higher, fully connected floor to cross over an obstacle before descending again.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 32707)
-- **Hypothesis 1 (FAILED):** There is a specific opening on the 6th floor that allows a drop down. A systematic test of the entire western perimeter revealed no openings.
-- **Next Step:** Test Hypothesis 2 - Interact with Jasmine and the central lighthouse lamp.
-
-# Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 32737)
-- **Hypothesis 2 (FAILED):** Interacting with Jasmine again would trigger a new event. Her dialogue was identical to the first interaction.
-
-# Strategic Lessons
-- **Challenge Root Hypothesis After Failure:** When all complex hypotheses (including those from agents) for a puzzle fail, the root assumption is likely flawed. Aggressively test the simplest, most obvious solution (e.g., retracing steps) before continuing to search for a hidden or complex one. This was the key failure in the Olivine Lighthouse, where I assumed a secret exit *must* exist instead of just going back the way I came.
-
-# Olivine Lighthouse Notes
-- Unmarked warps on 3F at (16, 9) and (17, 9). Need to investigate.
-
-# Olivine Lighthouse Notes
-- Unmarked warps on 3F at (16, 9) and (17, 9). Need to investigate.
-
-# Strategic Lessons
 - **DISCIPLINE FAILURE (OLIVINE LIGHTHOUSE):** I correctly identified the western ascent as a 'red herring' loop in my notes, yet I repeatedly re-entered it, ignoring both my own conclusions and my `find_path` tool's correct 'No path found' outputs. This is a catastrophic failure of strategic discipline. **NEW DIRECTIVE:** I MUST consult my notepad and map markers BEFORE every navigational decision and I MUST trust my tool outputs over my own flawed visual assessment.
+- **Agent Hypotheses (Turn 32707):**
+  - **Hypothesis 1 (FAILED):** There is a specific opening on the 6th floor that allows a drop down. A systematic test of the entire western perimeter revealed no openings.
+  - **Next Step:** Test Hypothesis 2 - Interact with Jasmine and the central lighthouse lamp.
+- **Agent Hypotheses (Turn 32737):**
+  - **Hypothesis 2 (FAILED):** Interacting with Jasmine again would trigger a new event. Her dialogue was identical to the first interaction.
+- **Challenge Root Hypothesis After Failure:** When all complex hypotheses (including those from agents) for a puzzle fail, the root assumption is likely flawed. Aggressively test the simplest, most obvious solution (e.g., retracing steps) before continuing to search for a hidden or complex one. This was the key failure in the Olivine Lighthouse, where I assumed a secret exit *must* exist instead of just going back the way I came.
 
 # To-Do: Map Hygiene
 - HIGH PRIORITY: If I return to OlivineLighthouse4F, I MUST immediately mark the following as dead ends (🚫):
