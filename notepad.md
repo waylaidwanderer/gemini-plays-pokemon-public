@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Status: Route 5
-- **Location:** Route 5 (South End).
-- **Status:** Exploring northbound towards Cerulean.
-- **Current Objective:** Reach Cerulean City.
+## 📍 Current Status: Cerulean City
+- **Location:** Cerulean City (South Entrance).
+- **Status:** Arrived from Route 5.
+- **Current Objective:** Explore Cerulean City and locate the Gym.
 - **Intel:**
   - Magnet Train down (Power Plant issues).
   - Underground Path likely nearby.
