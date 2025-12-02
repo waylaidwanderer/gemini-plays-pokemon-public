@@ -5,7 +5,7 @@
 **Objective:** Systematically check remaining water/rim tiles.
 
 **Column 5 (Water):**
-- [ ] (5, 5) Water - Target
+- [x] (5, 5) Water - Checked
 - [ ] (5, 6) Water - Target
 
 **Column 6 (Water):**
