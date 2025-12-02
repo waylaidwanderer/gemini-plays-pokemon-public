@@ -125,6 +125,7 @@
 - **Machine Part Search:** Resetting search due to position errors. Currently entering water at (1, 5) to re-verify top-left corner (1, 2)/(2, 2).
 - **Interaction Mechanics:** The 'Want to Surf?' prompt overrides item pickup interactions. To check a water tile for a hidden item, you must face it from another water tile. To check a land edge from the water, surf to it and face the land.
 **Column 4 (Water):**
-- [ ] (4, 4) Floor - Check from Water
-- [ ] (4, 5) Water - Target (Check from (3, 5))
-- [x] (4, 6) Water - Checked
+- [ ] (3, 6) Water - Checking now
+- [ ] (4, 5) Water - Moving to
+- [ ] (4, 4) Floor - Check from (4, 5)
+- [ ] (4, 6) Water - Previously occupied
