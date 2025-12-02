@@ -73,11 +73,7 @@
 - **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
 
 ## Western Johto (Archived)
-- **Cleared Areas:** Route 37, Burned Tower, Route 38, Route 39, Olivine City.
-- **Key Events:**
-  - **Burned Tower:** Rival defeated, Beasts released.
-  - **Olivine:** Jasmine cured, Mineral Badge, Strength, Good Rod obtained.
-  - **Quest:** Miltank fed 2 Berries (paused).
+- Cleared: R37, Burned Tower (Beasts released), R38, R39, Olivine (Mineral Badge).
 
 ## Route 42 & Mt. Mortar (Traversed)
 - **Status:** Traversed East to Mahogany.
