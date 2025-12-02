@@ -314,3 +314,6 @@
 
 # Strategic Lessons
 - **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm. The correct path back to Ecruteak from Olivine is east through Route 38.
+
+# Strategic Lessons
+- **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
