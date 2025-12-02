@@ -48,6 +48,7 @@
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `find_path` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
 - **Immediate State Cleanup:** I must remember to perform immediate cleanup actions, like unstunning a non-critical NPC, as soon as the need for the stun is over. Deferring these tasks can lead to them being forgotten.
+- **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -58,9 +59,10 @@
 - **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
-- **Battle Anomaly:** A recurring battle anomaly has been observed. Interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred) sometimes displays the battle-starting dialogue but then returns to the overworld without initiating combat. However, this is inconsistent; a later attempt to battle Sailor Huey triggered a proper battle. The exact cause or trigger condition is unknown.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
+- **Battle Anomaly:** A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
+- **Item Interaction Mechanics:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 
 # Tile & Object Mechanics
 - **WALL**: Impassable terrain.
@@ -139,9 +141,10 @@
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
-# Current Quest: Olivine Lighthouse
-- **Objective:** Reach the top floor to find Jasmine and the sick Pokémon.
-- **Current Strategy:** After getting stuck in a strategic loop, the new plan is to perform a complete, methodical re-exploration of the entire lighthouse from the main entrance, challenging all previous assumptions.
+# Current Quest: Get SECRETPOTION for Amphy
+- **Objective:** Travel to Cianwood City to get the SECRETPOTION for Amphy.
+- **Location:** Cianwood City is across the sea.
+- **Source:** A pharmacy in Cianwood City.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -217,6 +220,11 @@
 - **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), I must not assume they are functionally identical. Each variable must be tested independently to avoid missing a unique solution.
 - **Logical Loop Breaking:** When stuck in a repetitive loop exploring a confirmed dead end, the root assumption is likely flawed. I must escalate to an agent or fundamentally change my strategy (e.g., by exploring a different floor) instead of repeating failed tests.
 - **Escalate Vertically:** When stuck in an exploration loop on a given floor and the floor below, the solution is likely on a floor *above*. I must challenge the assumption that the path forward is nearby and be willing to ascend to find a way down into inaccessible areas. This was the key insight from my `puzzle_solver` agent regarding the lighthouse.
+- **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
+- **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
+- **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
+- **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
+- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
 
 ## Solved Puzzles
 ### Azalea Gym
@@ -268,10 +276,7 @@
 - `python_code_debugger`
 - `puzzle_solver`
 
-# Reminders & To-Do
-
-## General
-- **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
+# To-Do List
 
 # Olivine City Navigation
 - **Core Insight:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port.
@@ -287,64 +292,10 @@
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
-# To-Do List
-
-# Battle Anomaly
-- A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
-
-# Item Interaction Mechanics
-- To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
-- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-- **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
-- **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
-
-# Olivine Lighthouse Puzzle - The Western Loop
-- The entire western ascent of the lighthouse (Floors 3, 4, and 5) is a self-contained, inescapable loop.
-- Both pits on 4F at (8, 3) and (9, 3) lead to small, isolated rooms on 3F, with the only exit being a ladder that returns to the 4F loop.
-- My previous "breakthrough" was a false conclusion. The western section is a deliberate red herring. The true path forward must be on the eastern side of the lower floors.
-
-# Strategic Lessons
-- **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
-- **Tool Output Design:** A tool's output must be directly usable by the systems that consume it. My `find_path` tool initially only returned a success/failure message, which was insufficient for the `path` button. The fix was to make it return the full coordinate list.
-- **DISCIPLINE FAILURE (OLIVINE LIGHTHOUSE):** I correctly identified the western ascent as a 'red herring' loop in my notes, yet I repeatedly re-entered it, ignoring both my own conclusions and my `find_path` tool's correct 'No path found' outputs. This is a catastrophic failure of strategic discipline. **NEW DIRECTIVE:** I MUST consult my notepad and map markers BEFORE every navigational decision and I MUST trust my tool outputs over my own flawed visual assessment.
-- **Agent Hypotheses (Turn 32707):**
-  - **Hypothesis 1 (FAILED):** There is a specific opening on the 6th floor that allows a drop down. A systematic test of the entire western perimeter revealed no openings.
-  - **Next Step:** Test Hypothesis 2 - Interact with Jasmine and the central lighthouse lamp.
-- **Agent Hypotheses (Turn 32737):**
-  - **Hypothesis 2 (FAILED):** Interacting with Jasmine again would trigger a new event. Her dialogue was identical to the first interaction.
-- **Challenge Root Hypothesis After Failure:** When all complex hypotheses (including those from agents) for a puzzle fail, the root assumption is likely flawed. Aggressively test the simplest, most obvious solution (e.g., retracing steps) before continuing to search for a hidden or complex one. This was the key failure in the Olivine Lighthouse, where I assumed a secret exit *must* exist instead of just going back the way I came.
-
-# To-Do: Map Hygiene
-- HIGH PRIORITY: If I return to OlivineLighthouse4F, I MUST immediately mark the following as dead ends (🚫):
-  - Ladder at (9, 5)
-  - Pit at (8, 3)
-  - Pit at (9, 3)
-
-# Strategic Lessons
-- **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
-
-# Strategic Lessons
-- **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
-- When all physical routes are confirmed as blocked (like my loop in Olivine/Route 39), the progression is likely tied to an event trigger (like the sick Miltank) rather than a missed path. I must pivot from exploration to solving the local event.
-
 # Moomoo Farm Puzzle - Agent Hypotheses
 - **Hypothesis 1 (High Priority):** The 'BERRY' is from a special, interactable tree on the Moomoo Farm grounds.
 - **Hypothesis 2:** An NPC inside the farm buildings will give me the 'BERRY'.
 - **Hypothesis 3:** The 'BERRY' is a hidden item on the ground somewhere on Route 39 or within the farm.
 
-# Strategic Lessons
-- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
-
-# Item Interaction Mechanics
-- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'MINT BERRY').
-
-# Strategic Lessons
-- **Agent Escalation Protocol:** When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
-
-# Current Quest: Get SECRETPOTION for Amphy
-- **Objective:** Travel to Cianwood City to get the SECRETPOTION for Amphy.
-- **Location:** Cianwood City is across the sea.
-- **Source:** A pharmacy in Cianwood City.
-
-# Item Interaction Mechanics
-- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'MINT BERRY').
+# Agent Escalation Protocol
+- When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
