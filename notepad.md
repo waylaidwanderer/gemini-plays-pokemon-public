@@ -326,3 +326,7 @@
 
 # Strategic Lessons
 - **Olivine City Layout:** The city is segmented. The southern portion is a dead end for eastward travel. The only way to cross from the western side (where the Route 39 entrance is) to the eastern side (where the Route 38 entrance is) appears to be by traveling far south before heading east.
+
+# Strategic Pivot: Olivine City Navigation
+- **Conclusion:** My tools (`find_path`, `find_reachable_unseen_tiles`) have confirmed that the western section of Olivine City is completely isolated from the eastern section. All eastward paths are blocked.
+- **New Hypothesis:** The only way to progress towards Ecruteak City is to exit Olivine City north to Route 39 and find an alternate path from there. The current area is a confirmed dead end for my main objective.
