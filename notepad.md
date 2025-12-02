@@ -131,6 +131,7 @@
 | Ground | Flying | No Effect |
 | Normal | Water/Rock | Not Very Effective |
 | Rock | Flying | Super Effective |
+| Rock | Bug | Super Effective |
 | Water | Fire | Super Effective |
 | Water | Rock | Super Effective |
 | Water | Ground | Super Effective |
