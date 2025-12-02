@@ -271,6 +271,7 @@
 - `switch_pokemon`
 - `find_path`
 - `find_reachable_unseen_tiles`
+- `find_reachable_unseen_tiles`
 
 ## Custom Agents
 - `python_code_debugger`
