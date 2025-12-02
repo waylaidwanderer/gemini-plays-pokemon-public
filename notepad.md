@@ -44,6 +44,7 @@
 - **STAIRCASE:** Traversable warp.
 - **COUNTER:** Impassable. Allows interaction with Entity on other side.
 - **WATER/LAND Interaction:** Moving from Water to Land triggers 'Want to get off?'. Cancel with B to face Land. Moving from Land to Water triggers 'Want to Surf?'. Both prompts override hidden item checks.
+- **STATUE:** Interactable. Stand BELOW, face UP, press A.
 
 ### Battle Mechanics
 - **Switch Prompt:** Defaults to YES. Press B to decline safely.
