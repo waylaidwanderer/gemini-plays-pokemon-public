@@ -330,3 +330,6 @@
 # Strategic Pivot: Olivine City Navigation
 - **Conclusion:** My tools (`find_path`, `find_reachable_unseen_tiles`) have confirmed that the western section of Olivine City is completely isolated from the eastern section. All eastward paths are blocked.
 - **New Hypothesis:** The only way to progress towards Ecruteak City is to exit Olivine City north to Route 39 and find an alternate path from there. The current area is a confirmed dead end for my main objective.
+
+# Strategic Lessons
+- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is likely segmented in a non-obvious way. The solution may require non-linear thinking, such as going through buildings or taking long detours.
