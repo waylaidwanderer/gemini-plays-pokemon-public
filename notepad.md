@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean City
-- **Location:** Cerulean Police Station.
-- **Status:** Investigating Robbery.
-- **Current Objective:** Search Cerulean Gym (Back Area) for 'shady character'.
+- **Location:** Cerulean Trade Speech House.
+- **Status:** Searching for Route 9 North Entrance.
+- **Current Objective:** Talk to locals for clues.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
   - Gym Leader: Misty (Water).
