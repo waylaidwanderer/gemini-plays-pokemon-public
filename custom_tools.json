@@ -725,5 +725,21 @@
         "action_counter": 19459
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Parses the current map XML to find all 'unseen' tiles and determines which ones are actually reachable from the player's current position by pathfinding to an adjacent traversable tile. Returns a JSON list of coordinates for reachable unseen tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\nimport sys\n\nroot = ET.fromstring(map_xml_string)\nplayer_tile = root.find('.//Player/..')\nif player_tile is None:\n    print(json.dumps([]))\n    sys.exit()\n\nstart_x = int(player_tile.get('id'))\nstart_y = int(player_tile.getparent().get('id'))\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\nTRAVERSABLE_TILES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'LADDER'}\nWARP_TILES = {'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'PIT'}\n\ngrid = [['WALL' for _ in range(width)] for _ in range(height)]\nunseen_tiles = []\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        \n        if tile_type == 'unseen':\n            unseen_tiles.append((x, y))\n\n        is_traversable = tile_type in TRAVERSABLE_TILES\n        has_object = tile_elem.find('Object') is not None\n        is_warp = tile_type in WARP_TILES or (tile_type == 'LADDER' and tile_elem.find('Warp') is not None)\n        \n        if (x == start_x and y == start_y):\n            grid[y][x] = 'FLOOR'\n            continue\n        if has_object:\n            grid[y][x] = 'WALL'\n            continue\n        if is_warp:\n            grid[y][x] = 'WALL'\n            continue\n        if is_traversable:\n            grid[y][x] = 'FLOOR'\n\ndef bfs(grid, start, end):\n    queue = collections.deque([[start]])\n    seen = {start}\n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        if (x, y) == end:\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = x + dx, y + dy\n            if 0 <= next_y < len(grid) and 0 <= next_x < len(grid[0]):\n                if grid[next_y][next_x] == 'FLOOR' and (next_x, next_y) not in seen:\n                    seen.add((next_x, next_y))\n                    new_path = list(path)\n                    new_path.append((next_x, next_y))\n                    queue.append(new_path)\n    return None\n\nreachable_unseen = []\nstart_node = (start_x, start_y)\n\nfor ux, uy in unseen_tiles:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = ux + dx, uy + dy\n        if 0 <= ny < height and 0 <= nx < width and grid[ny][nx] == 'FLOOR':\n            path = bfs(grid, start_node, (nx, ny))\n            if path:\n                if {\"x\": ux, \"y\": uy} not in reachable_unseen:\n                    reachable_unseen.append({\"x\": ux, \"y\": uy})\n                break\n\nprint(json.dumps(reachable_unseen))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find reachable unseen tiles. This tool automates the process of identifying new exploration targets by parsing the map XML, locating all unseen tiles, and using a BFS pathfinding algorithm to confirm reachability from the player's current position. This directly addresses the strategic need highlighted by the system's sticky note.",
+        "timestamp": "2025-12-02T07:41:11.879Z",
+        "action_counter": 32952
+      }
+    ]
   }
 }
