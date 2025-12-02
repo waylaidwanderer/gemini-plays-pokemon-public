@@ -3,7 +3,7 @@
 ## 📍 Current Status: Cerulean Gym
 - **Location:** Cerulean Gym. Standing at (7, 5).
 - **Goal:** Locate Machine Part. Systematic search of pool.
-- **Sequence:** Check (7, 6) [Down]. Surf Left to (6, 5). Check (6, 6) [Down], (5, 5) [Left].
+- **Sequence:** Surf Left to (6, 5). Check (7, 5) [Right]. Move Down to (6, 6). Check (7, 6) [Right].
 - **Intel:** Gym Leader Misty (Water). Weakness: Electric/Grass. Magnet Train down.
 
 ## Kanto Campaign
