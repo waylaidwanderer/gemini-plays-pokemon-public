@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Searching West Edge of Central Platform.
+**Status:** Checking West Statue (2, 13) and adjacent water (1, 14).
 **Objective:** Clear Central Platform and South-West Water.
 
 **Priority:**
