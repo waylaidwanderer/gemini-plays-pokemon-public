@@ -71,7 +71,7 @@
 
 ## Phone Log
 - Hiker Anthony: Reported Dunsparce swarm in Dark Cave.
-- Youngster Joey: Wants to battle on Route 30.
+- Youngster Joey: Ready for rematch on Route 30.
 
 ## Elite Four Strategy
 - **Will, Koga, Bruno:** Defeated.
