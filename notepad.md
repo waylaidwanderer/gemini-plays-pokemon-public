@@ -334,3 +334,6 @@
 
 # Strategic Lessons
 - **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
+
+# Item Interaction Mechanics
+- The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'MINT BERRY').
