@@ -288,3 +288,8 @@
 - **TRUST YOUR TOOLS:** If a verified tool (like `find_path`) reports a negative result (e.g., "No path found"), my default assumption MUST be that the tool is correct and my own visual assessment is flawed. I must not immediately jump to debugging the tool without first rigorously re-examining the map data to find the obstacle the tool has identified. This is a recurring failure point.
 - **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
 - **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (Window Exit):** There is an exit through a window on the 4th floor that leads to an external ledge. (Low probability)
+- **Hypothesis 2 (Variable Pits):** Not all pits on the 4th floor lead to the same spot. A specific pit may drop you into a previously inaccessible area on the 3rd floor. (High probability - testing this first).
+- **Hypothesis 3 (5F Re-check):** The 'dead-end' on the 5th floor contains an interactable element that was previously missed.
