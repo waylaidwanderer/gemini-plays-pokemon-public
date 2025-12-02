@@ -62,10 +62,7 @@
 ## Trainer Rosters
 
 ### Elite Four Strategy
-- **Will:** Slowbro is a tank (Amnesia/Curse). Counter: Smokescreen (-6 Acc) + Swift. Heal aggressively.
-- **General:** Keep Paprika healthy. Revive spam if needed.
-- **Tool Usage:** Always set `autopress_buttons: true` for custom tools returning buttons.
-- **Menu Navigation:** Item lists are not strictly alphabetical. New items (like those bought at Indigo Plateau) may appear at the bottom. Always scroll down if an item is missing.
+- Defeated.
 ## Recent Victories
 - **Champion Lance:** Defeated.
 - **Lt. Surge:** Defeated.
