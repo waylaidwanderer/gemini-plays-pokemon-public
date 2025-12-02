@@ -74,37 +74,10 @@
 ## Western Johto (Archived)
 - Cleared: R37, Burned Tower (Beasts released), R38, R39, Olivine (Mineral Badge).
 
-## Route 42 & Mt. Mortar (Traversed)
-- **Status:** Traversed East to Mahogany.
-- **Key Events:** Defeated Pokemaniac Shane, Hiker Benjamin. Paprika Lv41.
-- **Geography:** Mt. Mortar entrances at (3, 33), (11, 21).
-- **Items:** Ultra Ball.
-
-## Route 43
-- **Status:** Traversed.
-- **Geography:** Route connecting Mahogany Town and Lake of Rage.
-- **Signs:** (11, 49) - Route 43 Sign.
-
-## Olivine Lighthouse (Cleared)
-- **Summary:** Delivered SecretPotion to Jasmine.
-- **Puzzle Solution:** To reach top: 5F West Ladder -> Drop into Pit (16,7) -> Walk North to Pit (8,3) -> Climb Central Ladders.
-- **Items:** TM34 (Swagger), Super Repel.
-
-## Route 40
-- **Status:** Traversed.
-- **NPCs:**
-  - Silver (14, 15) - Passive.
-  - Silver (18, 30) - Sighted.
-- **Geography:** Sea route connecting Olivine to Cianwood.
-- **Objects:** Sign (14, 10), Rocks at (6,9), (7,8), (7,11).
-- **Trainers:**
-  - Swimmer Elaine (Staryu Lv21) at (5, 19). Defeated.
-- **BUOY:** Impassable obstacle.
-- **Lesson:** Navigation tools must explicitly check player state (e.g., surfing) to correctly identify traversable tiles like WATER.
-
-## Route 41 (Cleared)
-- Traversed sea route to Cianwood.
-- Defeated Swimmers Charlie, Susie, Kirk, Wendy.
+## Mid-Game Johto (Archived)
+- **Traversed:** Route 42 (Mt. Mortar), Route 43, Route 40, Route 41.
+- **Cleared:** Olivine Lighthouse (Jasmine healed).
+- **Key Notes:** Route 40 BUOYS are impassable obstacles. Navigation tools must check surfing state.
 
 ## Cianwood City
 - **Gym:** Leader Chuck (Fighting). Weak to Psychic.
