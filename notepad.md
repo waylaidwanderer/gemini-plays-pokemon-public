@@ -294,3 +294,4 @@
 - **Geography:** Split path separated by ledges. Currently on Southern path.
 - **Trainers:**
   - Youngster (11, 4) sighted on Northern path (unreachable from current position).
+  - Lass (12, 15) sighted on Southern path.
