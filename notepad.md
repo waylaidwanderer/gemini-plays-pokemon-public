@@ -314,3 +314,4 @@
 - **Pathfinding Update:** Fixed `find_path` to treat LEDGE_HOP tiles as strictly one-way. They can only be entered from the 'hop' direction (e.g., Down for LEDGE_HOP_DOWN).
 - LEDGE_HOP_RIGHT: One-way jump Right.
 - **LEDGE_HOP_RIGHT:** One-way jump Right.
+- **Tool Safety:** `find_path` returns coordinates (use `path` button). `sequence_press` returns buttons (requires `autopress_buttons: true`). Always verify output formats.
