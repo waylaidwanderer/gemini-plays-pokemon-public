@@ -289,3 +289,8 @@
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
+## Route 9
+- **Status:** Entered from Cerulean (South Path).
+- **Geography:** Split path separated by ledges. Currently on Southern path.
+- **Trainers:**
+  - Youngster (11, 4) sighted on Northern path (unreachable from current position).
