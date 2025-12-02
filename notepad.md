@@ -5,9 +5,9 @@
 **Objective:** Search Central Pool (3,8)-(4,9).
 
 **Priority:**
-1. Search East Pool (x=8) around (8, 13) [Current].
-2. Move North to check remaining East Pool tiles.
-3. Move to Central Pool.
+1. Itemfinder used at (7, 11) - Negative.
+2. Move to West Pool (Cols 1-3).
+3. Use Itemfinder in West Pool.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
