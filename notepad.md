@@ -1,13 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Search Plan: Cerulean Gym Pool
-**Status:** Checking West Statue (2, 13) and adjacent water (1, 14).
-**Objective:** Clear Central Platform and South-West Water.
+**Status:** Entering Central Pool at (4, 8).
+**Objective:** Search Central Pool (3,8)-(4,9).
 
 **Priority:**
-1. Move to (3, 7) and check (4, 7).
-2. Surf South into enclosed pool (3, 8).
-3. Search enclosed pool area.
+1. Check (5, 9) [Down].
+2. Surf into (4, 8) [Left].
+3. Check (3, 8), (3, 9), (4, 9).
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
@@ -104,10 +104,3 @@
 - **Tool Safety:** `find_path` returns coordinates (use `path` button). `sequence_press` returns buttons (requires `autopress_buttons: true`). Always verify output formats.
 - **Machine Part Search:** Resetting search due to position errors. Currently entering water at (1, 5) to re-verify top-left corner (1, 2)/(2, 2).
 - **Interaction Mechanics:** The 'Want to Surf?' prompt overrides item pickup interactions. To check a water tile for a hidden item, you must face it from another water tile. To check a land edge from the water, surf to it and face the land.
-**Column 4 (Center):**
-- [x] (3, 6) Water - Checked
-- [x] (3, 4) Floor - Checked
-- [x] (4, 3) Floor - Checked
-- [ ] (4, 5) Water - Check from Water
-- [ ] (4, 4) Floor - Check from (5, 4)
-- [ ] (5, 4) Floor - Checking Now
