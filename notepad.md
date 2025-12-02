@@ -342,3 +342,8 @@
 
 # Strategic Lessons
 - **Agent Escalation Protocol:** When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
+
+# Current Quest: Get SECRETPOTION for Amphy
+- **Objective:** Travel to Cianwood City to get the SECRETPOTION for Amphy.
+- **Location:** Cianwood City is across the sea.
+- **Source:** A pharmacy in Cianwood City.
