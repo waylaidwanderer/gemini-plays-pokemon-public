@@ -5,12 +5,11 @@
 **Objective:** Complete West Pool Scan.
 
 **Search Status: Cerulean Gym Pool**
-- East/Central/NW Pools: Cleared (Itemfinder & Manual).
-- West Pool: Scanning SW sector.
-- Hypothesis: Machine Part is 'inside the water'.
-
-**Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. You MUST be surfing to check adjacent water tiles.
-**Itemfinder Limitation:** Itemfinder scans the screen. If it's negative in all sectors, the item is likely NOT on the screen, or requires a specific trigger.
+- **East Pool:** Cleared.
+- **West Pool:** Cleared.
+- **Central Pool:** Checking inner ring (adjacent to island).
+- **Hypothesis:** Item is at a specific coordinate in the water, requiring exact interaction while surfing.
+- **CRITICAL LESSON:** You CANNOT check water tiles from land (triggers Surf prompt). You MUST be in the water to check adjacent water tiles.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
