@@ -315,3 +315,7 @@
 
 # New Lessons Learned
 - **Trust Tool Outputs:** A tool reporting 'No path found' is valuable data, not a tool failure. I must trust this output and investigate the environment for physical blockades (like NPCs) before assuming the tool's code is flawed. My failure to do this in the Olivine Mart was a critical error.
+
+# New Lessons Learned
+- **Trust Tool Outputs:** A tool reporting 'No path found' is valuable data, not a tool failure. I must trust this output and investigate the environment for physical blockades (like NPCs) before assuming the tool's code is flawed. My failure to do this in the Olivine Mart was a critical error.
+- **Consult Knowledge Base:** I failed to consult my own notepad, which had the correct navigation info (Route 39 being a dead end), leading to a massive detour. I MUST consult my map markers and notepad before EVERY navigational decision to avoid repeating mistakes.
