@@ -74,18 +74,9 @@
 - **Mahogany:** Pryce Defeated. Rocket Base Cleared.
 - **Mechanics:** Persian Statues = Security Cameras (Battle Loop).
 
-## Team Rocket Base (Cleared)
-- **Summary:** Cleared B1F, B2F, B3F. Defeated Executives. Stopped Radio Signal.
-- **Key Items:** HM06 Whirlpool obtained from Lance.
-- **Traps:** Floor traps on B1F. Security cameras on B1F.
-- **Passwords:** SLOWPOKETAIL, RATICATE TAIL, HAIL GIOVANNI.
-- **Interaction Fix:** If an interaction fails despite correct positioning, try a 'wiggle' maneuver (move away and back) to reset the facing/state.
-- **Phone Calls:** Receiving a call stops movement and leaves a text box open. MUST press 'B' to clear it before moving again.
-  - Defeated Pokemaniac Isaac.
-  - Defeated Super Nerd Eric.
-
-- **Lesson:** Map marker emojis must be simple single characters. Complex emojis (like '🧑‍🦰') cause tool failures.
-- Switch Mechanics: Verified complex interactions between S1, S2, and S3. S3 often acts as a reset or trap trigger.
+## Team Rocket Base (Archived)
+- Cleared. HM06 obtained.
+- **Lesson:** 'Wiggle' to reset facing if interaction fails. Phone calls pause movement (press B). Simple emojis only for markers.
 
 ## Goldenrod Notes (Archived)
 - Cleared Radio Tower and Underground.
