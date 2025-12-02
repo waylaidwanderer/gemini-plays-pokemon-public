@@ -82,11 +82,16 @@
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
 ## Route 9
-- **Status:** Entered from Cerulean (South Path).
-- **Geography:** Split path separated by ledges. Currently on Southern path.
+- **Status:** Traversing East to Power Plant.
+- **Key Features:**
+  - **Cut Tree:** At (5, 8), blocks main path. (Cleared).
+  - **Ledges:** Multiple one-way ledges creating split paths.
+  - **Warps:** (0, 4) leads to Cerulean City.
 - **Trainers:**
-  - Youngster (11, 4) sighted on Northern path (unreachable from current position).
-  - Lass (12, 15) sighted on Southern path.
+  - Youngster (11, 4) on Northern path (currently unreachable).
+  - Camper Dean (Defeated) at (21, 11).
+  - Lass (Sighted) at (12, 15).
+  - Pokefan M (Sighted) at (36, 15).
 ## Route 9
 - **Status:** Traversing East to Power Plant.
 - **Key Features:**
