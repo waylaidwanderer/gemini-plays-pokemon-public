@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean City
-- **Location:** Cerulean City (7_17).
-- **Status:** Exploring North-East side. Seeking Route 9 entrance.
-- **Current Objective:** Find Northern Route 9 Entrance to reach Power Plant.
+- **Location:** Route 24 (Nugget Bridge).
+- **Status:** Crossing bridge. Searching for Rocket Grunt.
+- **Current Objective:** Recover Machine Part from Rocket Grunt.
 - **House Intel:** Trade Speech House (13,19) investigated. 'Rhydon' was a Kangaskhan.
 - **CRITICAL:** Use 'path' button, NOT 'path (tool)'. find_path requires autopress_buttons: false.
 - **Intel:**
