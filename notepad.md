@@ -292,3 +292,6 @@
 - **Hypothesis 1 (2F Path):** The path to the eastern section is on the 2nd floor. Test Plan: Backtrack to 2F and search for a new path leading up to the eastern side of 3F.
 - **Hypothesis 2 (Eastern Pits):** The correct pit is on the eastern side of 4F. Test Plan: Find a way to the eastern side of 4F and test the pits there.
 - **Hypothesis 3 (Exterior Ledge):** There is a hidden exterior ledge on 4F. Test Plan: Go to 4F and check the ledge overlooking 3F for a walkable path.
+
+# Olivine Lighthouse Puzzle - 5F Discovery
+- The 5th floor is split into two disconnected sections (East and West). The ladder at (9, 7) leads to the eastern section, which is a dead end for upward progression. The path to the western section must be found on a lower floor.
