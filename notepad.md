@@ -6,9 +6,6 @@
 
 # Strategic Protocol
 - **KNOWLEDGE-DRIVEN STRATEGY (PRIMARY DIRECTIVE):** My own visual assessment and memory are unreliable. I MUST trust my documented knowledge (map markers, notepad) and verified tool outputs (`find_path`) over my own intuition. A 'No path found' result is valuable, correct data, not a tool failure. I MUST consult this knowledge base before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
-- **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
-- **TRUST YOUR TOOLS:** My `find_path` tool has been repeatedly and correctly reporting that paths are blocked or that map sections are isolated. My failure to trust this tool, especially in the Olivine Lighthouse, has been the single greatest cause of wasted turns. A 'No path found' result is valuable, correct data, not a tool failure. I must trust it over my own flawed visual assessment.
-- **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
   2. **METHODICAL EXPLORATION:** When arriving in a new or isolated area (especially via a one-way path), I MUST systematically explore every single reachable tile before using any exits to avoid missing hidden paths or triggers.
@@ -49,6 +46,9 @@
 - **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `find_path` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
 - **Immediate State Cleanup:** I must remember to perform immediate cleanup actions, like unstunning a non-critical NPC, as soon as the need for the stun is over. Deferring these tasks can lead to them being forgotten.
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
+- **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
+- **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
+- **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -271,7 +271,6 @@
 - `switch_pokemon`
 - `find_path`
 - `find_reachable_unseen_tiles`
-- `find_reachable_unseen_tiles`
 
 ## Custom Agents
 - `python_code_debugger`
@@ -300,28 +299,3 @@
 
 # Agent Escalation Protocol
 - When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
-
-# New Lessons Learned
-- **Agent Escalation Protocol:** When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
-- **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
-- **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
-- **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
-- Youngster Joey called for a rematch.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
-- **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in an internal loop; expand the search area.
-
-# Rematch Opportunities
-- Sailor Huey at the Olivine Lighthouse called for a rematch.
-
-# New Lessons Learned
-- **Trust Tool Outputs:** A tool reporting 'No path found' is valuable data, not a tool failure. I must trust this output and investigate the environment for physical blockades (like NPCs) before assuming the tool's code is flawed. My failure to do this in the Olivine Mart was a critical error.
-
-# New Lessons Learned
-- **Trust Tool Outputs:** A tool reporting 'No path found' is valuable data, not a tool failure. I must trust this output and investigate the environment for physical blockades (like NPCs) before assuming the tool's code is flawed. My failure to do this in the Olivine Mart was a critical error.
-- **Consult Knowledge Base:** I failed to consult my own notepad, which had the correct navigation info (Route 39 being a dead end), leading to a massive detour. I MUST consult my map markers and notepad before EVERY navigational decision to avoid repeating mistakes.
-
-# New Lessons Learned
-- **Location Verification:** I have repeatedly hallucinated my location, especially after using a warp, causing my pathfinder to crash. I MUST verify my `current_map_id` and `current_position` from the Game State Information before every single navigational action.
-
-# New Lessons Learned
-- **Trust Tool Outputs:** A tool returning an unexpected result (like `find_reachable_unseen_tiles` returning an empty list) is valuable data, not necessarily a tool failure. It can indicate a dead end, forcing a strategic pivot instead of a debugging loop.
