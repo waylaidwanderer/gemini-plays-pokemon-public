@@ -331,3 +331,6 @@
 - **Hypothesis 1 (High Priority):** The 'BERRY' is from a special, interactable tree on the Moomoo Farm grounds.
 - **Hypothesis 2:** An NPC inside the farm buildings will give me the 'BERRY'.
 - **Hypothesis 3:** The 'BERRY' is a hidden item on the ground somewhere on Route 39 or within the farm.
+
+# Strategic Lessons
+- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
