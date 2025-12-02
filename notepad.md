@@ -5,6 +5,7 @@
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 
 # Strategic Protocol
+- **KNOWLEDGE-DRIVEN STRATEGY (PRIMARY DIRECTIVE):** My own visual assessment and memory are unreliable. I MUST trust my documented knowledge (map markers, notepad) and verified tool outputs (`find_path`) over my own intuition. A 'No path found' result is valuable, correct data, not a tool failure. I MUST consult this knowledge base before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **TRUST YOUR TOOLS:** My `find_path` tool has been repeatedly and correctly reporting that paths are blocked or that map sections are isolated. My failure to trust this tool, especially in the Olivine Lighthouse, has been the single greatest cause of wasted turns. A 'No path found' result is valuable, correct data, not a tool failure. I must trust it over my own flawed visual assessment.
 - **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
