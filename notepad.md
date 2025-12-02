@@ -50,25 +50,11 @@
 - **Surfing:** Pathfinding must strictly separate Land/Water.
 - **Team:** Paprika (Lead), Basalt (Backup).
 
-## National Park (Cleared)
-- Connected Route 35 & 36. Bug Catching Contest (Tue/Thu/Sat).
-
-## Phone Log
-- Hiker Anthony: Reported Dunsparce swarm in Dark Cave.
-- Youngster Joey: Ready for rematch on Route 30.
-
-## Elite Four Strategy (Archived)
-- Defeated.
-- **Lesson:** ALWAYS set `autopress_buttons: true` for custom tools returning buttons.
-
-## Fly Map Mechanics
-- **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
-- **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
-
-## Cianwood & Mahogany (Cleared)
-- **Cianwood:** Chuck Defeated. Pharmacy has SecretPotion. Photo Studio at (9, 31).
-- **Mahogany:** Pryce Defeated. Rocket Base Cleared.
-- **Mechanics:** Persian Statues = Security Cameras (Battle Loop).
+## Johto Archives
+- **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base.
+- **Phone:** Hiker Anthony (Dark Cave Swarm), Joey (Rematch).
+- **Fly Map:** Up=Forward, Down=Backward.
+- **Lesson:** Autopress buttons for tools.
 
 ## Team Rocket Base (Archived)
 - Cleared. HM06 obtained.
