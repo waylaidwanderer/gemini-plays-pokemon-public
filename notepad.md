@@ -285,3 +285,5 @@
 - Goal: Explore, find Copycat, Gym.
 - **System Correction:** 'path' is a button command, not a tool. Ensure `buttons_to_press` uses `['path']` (not `['path (tool)']`) and `tools_to_call` uses `find_path`.
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
+- Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
+- Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
