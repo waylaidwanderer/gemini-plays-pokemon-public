@@ -5,6 +5,7 @@
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 
 # Strategic Protocol
+- **TRUST YOUR TOOLS:** My `find_path` tool has been repeatedly and correctly reporting that paths are blocked or that map sections are isolated. My failure to trust this tool, especially in the Olivine Lighthouse, has been the single greatest cause of wasted turns. A 'No path found' result is valuable, correct data, not a tool failure. I must trust it over my own flawed visual assessment.
 - **CONSULT KNOWLEDGE BASE:** I MUST consult my own map markers and notepad before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
@@ -66,7 +67,6 @@
 - **TOWN_MAP**: An interactable object on a wall; impassable.
 - **TV**: An impassable object.
 - **BOOKSHELF**: An impassable object.
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **RADIO**: An impassable object.
 - **DOOR**: A traversable warp tile leading into or out of a building.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
@@ -104,6 +104,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
 - **LADDER**: A traversable warp tile. Activated by stepping *onto* the tile, which immediately triggers the warp. No additional button presses are needed.
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -184,7 +185,6 @@
 ## Tool Development & Debugging Lessons
 - **IMMEDIATE TOOL MAINTENANCE:** If a core tool (like `find_path`) fails, fixing it becomes the absolute highest priority, superseding all other gameplay actions. Deferring fixes leads to repeated, catastrophic failures.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
-- **Trust Your Tools:** My `find_path` tool correctly identified a path on Olivine Lighthouse 1F that I had completely missed through manual exploration. This proves that I should trust the output of my verified tools over my own flawed visual assessment, especially in complex layouts. A tool's 'No path found' is equally valuable information.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
 - **Agent Output Verification:** When a custom agent provides a fix for a tool, especially one that parses game data like the map XML, I must manually verify the agent's core assumptions against the actual data structure. Blindly implementing a fix without this verification step can lead to repeated, frustrating tool failures.
 - **Tool Context Awareness:** Tools like `select_battle_option` are context-specific and will fail if used when the required UI (e.g., the main battle menu) is not visible. Always verify the game state before calling a context-dependent tool.
@@ -198,7 +198,6 @@
 - **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
 - **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 - **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
-- **Trust Your Tools Over Visuals:** My `find_path` tool correctly identified a path on Olivine Lighthouse 1F that I had completely missed through manual exploration. I must trust the output of my verified tools over my own flawed visual assessment, as they can reveal paths I've overlooked.
 
 ## General Puzzle Lessons
 - **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
@@ -271,6 +270,7 @@
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 
 ## Olivine City
+- **Olivine Lighthouse Puzzle - Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
 
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
@@ -285,7 +285,6 @@
 # Item Interaction Mechanics
 - To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON.
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-- **TRUST YOUR TOOLS:** If a verified tool (like `find_path`) reports a negative result (e.g., "No path found"), my default assumption MUST be that the tool is correct and my own visual assessment is flawed. I must not immediately jump to debugging the tool without first rigorously re-examining the map data to find the obstacle the tool has identified. This is a recurring failure point.
 - **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
 - **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
 
@@ -293,9 +292,3 @@
 - **Hypothesis 1 (2F Path):** The path to the eastern section is on the 2nd floor. Test Plan: Backtrack to 2F and search for a new path leading up to the eastern side of 3F.
 - **Hypothesis 2 (Eastern Pits):** The correct pit is on the eastern side of 4F. Test Plan: Find a way to the eastern side of 4F and test the pits there.
 - **Hypothesis 3 (Exterior Ledge):** There is a hidden exterior ledge on 4F. Test Plan: Go to 4F and check the ledge overlooking 3F for a walkable path.
-
-# Olivine Lighthouse Puzzle - Root Cause Analysis
-- My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse."
-- I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4.
-- Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist.
-- **LESSON:** When a verified tool provides a negative result (e.g., "No path found"), my default assumption MUST be that the tool is correct and my own visual assessment is flawed. I must not immediately jump to debugging the tool without first rigorously re-examining the map data to find the obstacle the tool has identified. This is a recurring failure point and must be corrected.
