@@ -302,3 +302,6 @@
 
 # Strategic Lessons
 - **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
+
+# Olivine Lighthouse Puzzle - Final Breakthrough
+- The western section of floors 3 and 4 is a deliberate loop. The solution was not a hidden switch, but recognizing that the two pits on 4F at (8, 3) and (9, 3) are distinct warps. I was stuck because I only ever tested the pit at (8, 3). The key to progress is to intentionally use the pit at (9, 3) to access the previously unreachable eastern section of the lighthouse.
