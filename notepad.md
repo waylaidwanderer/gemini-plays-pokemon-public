@@ -91,12 +91,8 @@
 ### Archived Notes
 - **Ice Path:** Cleared. Puzzles solved using boulder drops.
 - **Tools:** `select_move` updated to handle persistent cursor.
-## Blackthorn City & Dragon's Den (Cleared)
-- **Status:** Badge obtained, Dratini obtained.
-- **Key Locations:** Move Deleter at (9, 31).
-- **Trade:** Female Dragonair for Dodrio at Emy's House (29, 23).
-- **Dragon's Den:** West Channel exit requires Whirlpool.
-- **Lesson:** Surfing requires manual interaction/Start menu if buggy. Pathfinding must check state.
+## Blackthorn (Cleared)
+- Badge & Dratini obtained. Move Deleter at (9, 31).
 
 ## Route 26 Progress
 - Defeated Fisher Scott (Seaking Lv34, Qwilfish x2 Lv30).
