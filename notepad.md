@@ -2,7 +2,7 @@
 
 ## 📍 Search Plan: Cerulean Gym Pool
 **Status:** Entering Central Pool at (4, 8).
-**Objective:** Search Central Pool (3,8)-(4,9).
+**Objective:** Manual Check West Pool Corner (1,2).
 
 **Search Status: Cerulean Gym Pool**
 - Itemfinder: Negative in all sectors.
