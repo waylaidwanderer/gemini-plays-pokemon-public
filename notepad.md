@@ -72,41 +72,12 @@
 - **Navigation:** The Fly map cursor navigation is list-based. **UP moves Forward** (New Bark -> Cherrygrove), **DOWN moves Backward**.
 - **Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn -> Mt. Silver.
 
-## Route 37 (Traversed)
-- Trainers: Psychic Greg (Defeated).
-- Connects Route 36 & Ecruteak. Apricorn trees present.
-
-## Burned Tower (Archived)
-- Cleared. Rival defeated. Beasts released.
-- **Key Lessons:**
-  - **Action is Truth:** Never assume a tool is updated unless the `tool_code_updated` message appears.
-  - **Wild Escapes:** Escape probability increases with failed attempts.
-  - **Fake Hazards:** Some visual holes (e.g. Burned Tower B1F 10,9) are safe. Verify with Game State.
-
-## Route 38
-- **Status:** Cleared.
-- **Trainers:** Sailor Harry, Lass Dana, Beauty Olivia (Defeated).
-  - Schoolboy Chad (Mr. Mime Lv19) at (4, 1). Defeated.
-  - Bird Keeper Toby (Doduo x3) at (12, 15). Defeated.
-- **Geography:** Southern path (Row 16) dead-ends at x=4.
-- **Lore:** Olivia mentions Moomoo Milk. Farm likely nearby.
-
-## Route 39
-- **Status:** Arrived from Route 38 (East).
-- **Geography:** Route connecting Ecruteak/Route 38 to Olivine City.
-- **Landmarks:** Sign at (15, 7).
-- Defeated Pokefan Ruth (Pikachu Lv17) at (14, 19).
-- Defeated Pokefan Derek (Pikachu Lv17) at (10, 19).
-- Farmhouse: Pokefan F mentions milk is shipped to Kanto.
-- Quest: Feed Berries to sick Miltank in Barn. (Status: Paused. Requires standard 'BERRY' item. 2 fed so far. Needs more.)
-
-## Olivine City (Completed)
-- **Status:** Cleared. Mineral Badge obtained.
+## Western Johto (Archived)
+- **Cleared Areas:** Route 37, Burned Tower, Route 38, Route 39, Olivine City.
 - **Key Events:**
-  - Jasmine cured (SecretPotion delivered).
-  - Mineral Badge obtained.
-  - HM04 Strength obtained.
-  - Good Rod obtained.
+  - **Burned Tower:** Rival defeated, Beasts released.
+  - **Olivine:** Jasmine cured, Mineral Badge, Strength, Good Rod obtained.
+  - **Quest:** Miltank fed 2 Berries (paused).
 
 ## Route 42 & Mt. Mortar (Traversed)
 - **Status:** Traversed East to Mahogany.
