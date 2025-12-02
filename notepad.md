@@ -110,3 +110,4 @@
 - **Itemfinder Scan:** Negative for entire gym (Scans at 7,11; 3,5; 7,4; 5,4). Proceeding to manual verification of Central Pool.
 - **Correction:** Previous blind surf sequence failed. Retrying surf entry at (3, 2) to reach search target (1, 5).
 - **Search Log:** (1, 2) Checked (Negative). Moving to check Central Pool corners (1, 5) and (2, 5).
+- **Search Log:** Checking surroundings of (2, 5) [NW Corner of Central Pool].
