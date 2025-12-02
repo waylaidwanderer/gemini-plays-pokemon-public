@@ -1,10 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Status: Cerulean City
-- **Location:** Cerulean City (South Entrance).
-- **Status:** Arrived from Route 5.
-- **Current Objective:** Explore Cerulean City and locate the Gym.
+- **Location:** Cerulean City (Outside Gym).
+- **Status:** Located Gym. Fisher confirmed it.
+- **Current Objective:** Defeat Misty at Cerulean Gym.
 - **Intel:**
+  - Gym Leader: Misty (Water).
+  - Weakness: Electric/Grass (Paprika's raw power should suffice).
   - Magnet Train down (Power Plant issues).
   - Underground Path likely nearby.
 - **Map Notes:**
