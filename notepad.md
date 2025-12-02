@@ -111,3 +111,4 @@
 - **Correction:** Previous blind surf sequence failed. Retrying surf entry at (3, 2) to reach search target (1, 5).
 - **Search Log:** (1, 2) Checked (Negative). Moving to check Central Pool corners (1, 5) and (2, 5).
 - **Search Log:** Checking surroundings of (2, 5) [NW Corner of Central Pool].
+- **Search Update:** Itemfinder failed at (5, 5) and (3, 11). Manually checked (1, 2) and (2, 5) - Negative. Suspect missing Power Plant trigger.
