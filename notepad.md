@@ -299,3 +299,6 @@
 
 # Olivine Lighthouse Puzzle - 5F Discovery
 - The 5th floor is split into two disconnected sections (East and West). The ladder at (9, 7) leads to the eastern section, which is a dead end for upward progression. The path to the western section must be found on a lower floor.
+
+# Strategic Lessons
+- **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
