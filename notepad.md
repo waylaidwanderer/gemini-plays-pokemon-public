@@ -320,3 +320,6 @@
 
 # Strategic Lessons
 - **Olivine City Layout:** The path to Route 38 is not directly east from the southern part of the city. The correct exit is located on the northern edge of the city, requiring northward travel before heading east.
+
+# Strategic Lessons
+- **Olivine City Layout:** The path to Route 38 is not directly east from the southern part of the city. The correct exit is located on the northern edge of the city, requiring northward travel before heading east.
