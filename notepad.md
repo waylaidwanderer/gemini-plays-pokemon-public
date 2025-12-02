@@ -306,3 +306,6 @@
 
 # Olivine Lighthouse Puzzle - Agent Hypotheses (Turn 32737)
 - **Hypothesis 2 (FAILED):** Interacting with Jasmine again would trigger a new event. Her dialogue was identical to the first interaction.
+
+# Strategic Lessons
+- **Challenge Root Hypothesis After Failure:** When all complex hypotheses (including those from agents) for a puzzle fail, the root assumption is likely flawed. Aggressively test the simplest, most obvious solution (e.g., retracing steps) before continuing to search for a hidden or complex one. This was the key failure in the Olivine Lighthouse, where I assumed a secret exit *must* exist instead of just going back the way I came.
