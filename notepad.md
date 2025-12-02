@@ -264,16 +264,12 @@
 - `python_code_debugger`
 - `puzzle_solver`
 
-## Custom Agents
-- `python_code_debugger`
-- `puzzle_solver`
-
 # Reminders & To-Do
 
 ## General
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 
-## Olivine City
+# Olivine City
 - **Olivine Lighthouse Puzzle - Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
 
 # Rematch Opportunities
@@ -292,16 +288,10 @@
 - **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
 - **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
 
-# Olivine Lighthouse Puzzle - Agent Hypotheses
-- **Hypothesis 1 (2F Path):** The path to the eastern section is on the 2nd floor. Test Plan: Backtrack to 2F and search for a new path leading up to the eastern side of 3F.
-- **Hypothesis 2 (Eastern Pits):** The correct pit is on the eastern side of 4F. Test Plan: Find a way to the eastern side of 4F and test the pits there.
-- **Hypothesis 3 (Exterior Ledge):** There is a hidden exterior ledge on 4F. Test Plan: Go to 4F and check the ledge overlooking 3F for a walkable path.
-
-# Olivine Lighthouse Puzzle - 5F Discovery
-- The 5th floor is split into two disconnected sections (East and West). The ladder at (9, 7) leads to the eastern section, which is a dead end for upward progression. The path to the western section must be found on a lower floor.
+# Olivine Lighthouse Puzzle - The Western Loop
+- The entire western ascent of the lighthouse (Floors 3, 4, and 5) is a self-contained, inescapable loop.
+- Both pits on 4F at (8, 3) and (9, 3) lead to small, isolated rooms on 3F, with the only exit being a ladder that returns to the 4F loop.
+- My previous "breakthrough" was a false conclusion. The western section is a deliberate red herring. The true path forward must be on the eastern side of the lower floors.
 
 # Strategic Lessons
 - **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
-
-# Olivine Lighthouse Puzzle - Final Breakthrough
-- The western section of floors 3 and 4 is a deliberate loop. The solution was not a hidden switch, but recognizing that the two pits on 4F at (8, 3) and (9, 3) are distinct warps. I was stuck because I only ever tested the pit at (8, 3). The key to progress is to intentionally use the pit at (9, 3) to access the previously unreachable eastern section of the lighthouse.
