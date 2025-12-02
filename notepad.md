@@ -5,7 +5,7 @@
 - [x] (9, 6) Rim
 - [x] (7, 6) Rim
 - [x] (7, 4) Rim
-- [ ] (7, 5) Rim (Target: Check from (7, 4) facing Down)
+- [x] (7, 5) Rim
 - [ ] (6, 5) Water
 - [ ] (6, 6) Water
 - [ ] (8, 5) Water
