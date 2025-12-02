@@ -295,3 +295,7 @@
 
 # Strategic Lessons
 - **Loop Breaking:** When stuck in a physical loop where all exits lead back to the start (like the western part of Olivine Lighthouse), the root assumption about the puzzle's solution is flawed. Stop testing variables within the loop and backtrack to a much earlier point in the puzzle to find a completely different path. Trust tools that report 'No path found' as evidence that an area is isolated.
+
+# Strategic Lessons
+- **Tool Output Design:** A tool's output must be directly usable by the systems that consume it. My `find_path` tool initially only returned a success/failure message, which was insufficient for the `path` button. The fix was to make it return the full coordinate list.
+- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is likely segmented in a non-obvious way. The solution may require non-linear thinking, such as ascending to a higher, fully connected floor to cross over an obstacle before descending again.
