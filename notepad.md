@@ -308,3 +308,6 @@
 - Youngster Joey called for a rematch.
 - **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in an internal loop; expand the search area.
+
+# Rematch Opportunities
+- Sailor Huey at the Olivine Lighthouse called for a rematch.
