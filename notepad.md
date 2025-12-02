@@ -44,6 +44,7 @@
 - **External Triggers:** If all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **TOOL USAGE DISCIPLINE:** When using a custom tool that outputs button presses, I MUST remember to set `autopress_buttons: true` if I want the actions to be executed. Forgetting this parameter causes the tool to do nothing, wasting a turn.
+- **BATTLE TOOL DISCIPLINE:** In battle, I must use my `select_battle_option` tool to choose FIGHT/PKMN/PACK/RUN instead of manual presses to avoid errors. Similarly, I must use `select_move` and `switch_pokemon` for their respective sub-menus.
 - **Data Source Hierarchy:** When there is a conflict between my internal map data (XML) and the official `Game State Information` (e.g., the warp list), the Game State is the absolute source of truth. Relying on unverified data from the XML can lead to unproductive testing loops.
 - **Defeated Trainers as Obstacles:** Defeated trainers are still physical obstacles. Pathfinding must account for their current coordinates, even if they are static and non-hostile.
 - **Stun Reset:** The `stun_npc` effect appears to reset when leaving and re-entering a map. Do not rely on it for multi-map pathing.
