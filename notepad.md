@@ -293,3 +293,4 @@
 - **Hypothesis 1 (Window Exit):** There is an exit through a window on the 4th floor that leads to an external ledge. (Low probability)
 - **Hypothesis 2 (Variable Pits):** Not all pits on the 4th floor lead to the same spot. A specific pit may drop you into a previously inaccessible area on the 3rd floor. (High probability - testing this first).
 - **Hypothesis 3 (5F Re-check):** The 'dead-end' on the 5th floor contains an interactable element that was previously missed.
+- **Trust Your Tools:** If a verified tool (like `find_path`) reports a negative result (e.g., "No path found"), my default assumption MUST be that the tool is correct and my own visual assessment is flawed. I must not immediately jump to debugging the tool without first rigorously re-examining the map data to find the obstacle the tool has identified. This is a recurring failure point.
