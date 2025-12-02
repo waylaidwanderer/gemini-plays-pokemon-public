@@ -4,10 +4,12 @@
 **Status:** Entering Central Pool at (4, 8).
 **Objective:** Search Central Pool (3,8)-(4,9).
 
-**Priority:**
-1. Itemfinder used at (7, 11) - Negative.
-2. Move to West Pool (Cols 1-3).
-3. Use Itemfinder in West Pool.
+**Search Status: Cerulean Gym Pool**
+- East Pool (x=6-9): Scanned. Negative.
+- West Pool (x=1-3): Scanned. Negative.
+- Central Pool (x=4-5): Scanning now at (5, 4).
+
+**Lesson:** Checking water tiles for hidden items from land triggers the 'Want to Surf?' prompt, overriding the check. Use Itemfinder or check from adjacent water.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
