@@ -2,8 +2,13 @@
 
 ## 📍 Current Status: Cerulean Gym
 - **Location:** Cerulean Gym. Standing at (7, 5).
-- **Goal:** Locate Machine Part. Systematic search of pool.
-- **Sequence:** Surf Left to (6, 5). Check (7, 5) [Right]. Move Down to (6, 6). Check (7, 6) [Right]. Check (7, 7) [from (6, 7)].
+- **Goal:** Locate Machine Part.
+- **Search Plan:**
+  - **Col 9 (Rim):** Checked (9, 6). Needs: (9, 4), (9, 5).
+  - **Col 8 (Water):** Checked (8, 1)-(8, 4), (8, 6). Needs: (8, 5).
+  - **Col 7 (Rim):** Checked (7, 4), (7, 6). Needs: (7, 5), (7, 7).
+  - **Col 6 (Water):** Checked (6, 7). Needs: (6, 5), (6, 6).
+- **Immediate Action:** Move to (7, 4) to check (7, 5). Then Surf at (6, 5).
 - **Intel:** Gym Leader Misty (Water). Weakness: Electric/Grass. Magnet Train down.
 
 ## Kanto Campaign
