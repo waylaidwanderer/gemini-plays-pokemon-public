@@ -339,3 +339,6 @@
 
 # Item Interaction Mechanics
 - The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'MINT BERRY').
+
+# Strategic Lessons
+- **Agent Escalation Protocol:** When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
