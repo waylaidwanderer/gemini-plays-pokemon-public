@@ -295,3 +295,11 @@
 - **Trainers:**
   - Youngster (11, 4) sighted on Northern path (unreachable from current position).
   - Lass (12, 15) sighted on Southern path.
+## Route 9
+- **Status:** Exploring East towards Power Plant.
+- **Trainers:**
+  - Camper Dean (Defeated) at (21, 11).
+  - Lass (Sighted) at (12, 15).
+  - Pokefan M (Sighted) at (36, 15).
+- **Mechanics Lesson:** Do NOT use `autopress_buttons: true` for built-in tools like `select_battle_option`.
+- **Obstacles:** Path East on Row 14 blocked at x=42. Investigating Row 16 `FLOOR_UP_WALL`.
