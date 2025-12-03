@@ -468,7 +468,7 @@
     ]
   },
   "force_press_button": {
-    "description": "Generates a sequence of button presses, prepended with 'A, sleep 1000' to bypass harness text checks and handle mode toggles/menu entry.",
+    "description": "Generates a sequence of button presses to automate repetitive inputs. NOTE: Does NOT prepend any bypass buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -496,7 +496,7 @@
         "count"
       ]
     },
-    "python_script": "import json\ninput_data = input_data\nbutton = input_data['button']\ncount = int(input_data['count'])\n# Prepend Single A bypass sequence with longer sleep\nbuttons = ['A', 'sleep 1000'] + [button] * count\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbutton = input_data['button']\ncount = int(input_data['count'])\nbuttons = [button] * count\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add force_press_button tool to bypass harness text checks and automate repetitive inputs.",
@@ -547,6 +547,11 @@
         "commit_message": "fix: Update force_press_button to use a single 'A' prefix with 1s sleep. This covers both 'Enter Tuner' (from menu) and 'Toggle Mode' (from tuner) cases more reliably than double A.",
         "timestamp": "2025-12-03T23:15:50.079Z",
         "action_counter": 18901
+      },
+      {
+        "commit_message": "fix: Remove 'A' prefix from force_press_button. The 'A' press was causing unintended menu selections (exiting Pokegear) when trying to navigate the main menu. The tool now strictly outputs the requested buttons.",
+        "timestamp": "2025-12-03T23:20:30.254Z",
+        "action_counter": 18909
       }
     ]
   }
