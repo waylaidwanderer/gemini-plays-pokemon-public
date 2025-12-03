@@ -160,4 +160,4 @@
 ### Radio & Menu Notes
 - **Menu Hierarchy:** Start -> Pokegear -> Radio (4th Icon) -> Tuner.
 - **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
-- **Tool Usage:** `force_press_button` updated to prepend 'A' + sleep to bypass 'TUNING' text blockage.
+- **Tool Usage:** `force_press_button` prepends 'A' + sleep. This bypasses text checks and handles both 'Enter Menu' and 'Toggle Mode' actions robustly.
