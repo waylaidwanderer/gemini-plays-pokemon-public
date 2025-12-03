@@ -113,3 +113,7 @@
 - **Split Layout:** The map is divided into two isolated sections by a vertical wall at x=3 and a horizontal barrier of FLOOR_UP_WALL tiles at y=4.
 - **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
 - **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
+## Route 10 North
+- **Split Layout:** The map is divided into two isolated sections by a vertical wall at x=3 and a horizontal barrier of FLOOR_UP_WALL tiles at y=4.
+- **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
+- **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
