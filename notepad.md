@@ -142,3 +142,4 @@
 - **Connection Found:** Warp O (19, 5) [NW Room] -> (1, 15) [SW Room] (Warp L).
 - **Connection Found:** Warp M (1, 17) [SW Room] -> (11, 5) [Central Room] (Warp M).
 - **Connection Found:** Warp P (9, 5) [Central Room] -> (5, 9) [SW-Central Room] (Warp S).
+- **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (19, 11) [NE Room] (Warp E).
