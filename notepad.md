@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Radio Tower Expansion
-**Status:** In Saffron City.
-**Objective:** Obtain the Radio Expansion Card in Lavender Town.
-**Next Step:** Visit Copycat (NW Saffron) to trigger doll quest, then head East to Lavender.
+**Status:** In Lavender Town.
+**Objective:** Obtain the Radio Expansion Card.
+**Next Step:** Locate and enter the Radio Tower.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
