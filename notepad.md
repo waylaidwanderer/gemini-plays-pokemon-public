@@ -130,6 +130,7 @@
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs, bypassing harness text checks.
+- **Menu Verification:** ALWAYS verify the specific menu state using screen text before executing blind input sequences.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
