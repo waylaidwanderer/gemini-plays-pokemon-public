@@ -2,12 +2,13 @@
 
 ## 📍 Current Mission: Wake Snorlax
 **Status:** Vermilion City.
-**Objective:** Wake Snorlax.
+**Objective:** Retrieve EXPN Card.
+**Critical:** EXPN Card is missing from inventory.
 **Plan:**
-1. Approach Snorlax (34, 8).
-2. Open Pokegear -> Radio.
-3. Tune to Poke Flute Channel (Top/Center).
-4. Interact with Snorlax.
+1. Fly to Lavender Town.
+2. Go to Radio Tower (North).
+3. Talk to Gentleman to get EXPN Card.
+4. Return to Vermilion.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
