@@ -95,10 +95,10 @@
   - Pokefan M (Sighted) at (36, 15).
 
 ## Quest Log: Machine Part
-- **Status:** Missing Trigger.
-- **Investigation:** Searched Cerulean Gym pool thoroughly (North, Central, South, Corners) with Itemfinder and manual checks. All results negative.
-- **Conclusion:** Machine Part has not spawned. Must trigger the event by speaking to the Power Plant Manager first.
-- **Next Step:** Locate Manager inside Power Plant.
+- **Status:** Event Triggered.
+- **Objective:** Find Rocket Grunt in Cerulean Gym.
+- **Progress:** Spoke to Manager (Fisher) and Officer. Officer asked for cooperation.
+- **Next Step:** Return to Cerulean Gym.
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
 
 ## Active Custom Tools
