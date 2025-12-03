@@ -37,6 +37,7 @@
 - **LEDGE_HOP_RIGHT:** One-way jump Right.
 - **ROCK:** Breakable (Rock Smash).
 - **BOULDER:** Pushable (Strength).
+- **CUT_TREE:** Obstacle. Removable (Cut).
 - **WARP_CARPET:** Walk off map to exit.
 - **LADDER:** Context Dependent. Usually a warp, but verified as a walkable bridge (FLOOR behavior) on Cerulean Gym (7_6).
 - **WARP_CARPET_DOWN:** Walk Down to warp.
