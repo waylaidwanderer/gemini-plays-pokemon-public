@@ -95,11 +95,10 @@
   - Pokefan M (Sighted) at (36, 15).
 
 ## Quest Log: Machine Part
-- **Status:** Retrieved.
-- **Objective:** Return to Power Plant.
-- **Progress:** Found Machine Part in Cerulean Gym pool.
-- **Next Step:** Travel East to Route 9, then South to Power Plant.
-- **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
+- **Status:** Complete!
+- **Objective:** Obtain Kanto Radio Card.
+- **Progress:** Returned Machine Part to Manager. Power restored. Received TM07 (Zap Cannon).
+- **Next Step:** Go to Lavender Town Radio Tower to get the expansion card.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
