@@ -75,7 +75,7 @@
 - **Route 6:** Path to Saffron Gatehouse is blocked by a Pokefan M at (17, 4). Nearby sign for Underground Path.
 ## Saffron City
 - Arrived via Route 6 Gate.
-- Goal: Explore, find Copycat, Gym.
+- Goal: Visit Copycat (NW). Gym found at (34, 3).
 - **Syntax Reminder:** Do not use 'path' as a button input. Use 'path_plan' or directional buttons.
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
 - **Location:** North Saffron (near Magnet Train).
