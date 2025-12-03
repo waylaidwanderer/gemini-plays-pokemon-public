@@ -81,7 +81,7 @@
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
 ## Route 9
-- **Status:** Traversing East to Power Plant.
+- **Status:** Backtracking to Cut Tree (5, 8). Southern valley is a dead end.
 - **Key Features:**
   - **Cut Tree:** At (5, 8), blocks main path. (Cleared).
   - **Ledges:** Multiple one-way ledges creating split paths. Gap at x=53 allows Northbound travel.
