@@ -133,3 +133,5 @@
 - NW Room Warps: (19, 3) [Warp G]
 - Warp G (19, 3) -> (15, 15) [SE Room]
 - Next: Warp H (15, 17)
+- Warp H (15, 17) -> (5, 15) [SW Room]
+- Next: Explore SW Room (Warps I, J)
