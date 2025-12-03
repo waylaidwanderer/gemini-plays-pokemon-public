@@ -100,7 +100,7 @@
 - **Status:** Missing Trigger.
 - **Investigation:** Searched Cerulean Gym pool thoroughly (North, Central, South, Corners) with Itemfinder and manual checks. All results negative.
 - **Conclusion:** Machine Part has not spawned. Must trigger the event by speaking to the Power Plant Manager first.
-- **Next Step:** Reach Power Plant via Route 9.
+- **Next Step:** Locate Manager inside Power Plant.
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
 
 ## Active Custom Tools
