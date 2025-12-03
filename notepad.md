@@ -61,6 +61,7 @@
 - **Mechanics:** 'Scoot' refreshes map. Trust Screen Text. Mark NPCs.
 - **Surfing:** Pathfinding must strictly separate Land/Water.
 - **Team:** Paprika (Lead), Basalt (Backup).
+- **Menu Navigation:** Verify cursor state step-by-step using screen text.
 
 ## Johto History
 - **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base, Ice Path, Blackthorn.
@@ -128,6 +129,7 @@
 - **attempt_surf:** Automates surfing interaction.
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
+- **force_press_button:** Automates repetitive inputs, bypassing harness text checks.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
