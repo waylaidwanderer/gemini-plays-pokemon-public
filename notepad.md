@@ -127,3 +127,5 @@
 - Start Room Warp (11, 15) -> Warp B (19, 17)
 - Warp C (19, 15) -> (19, 9) [NE Room]
 - NE Room Warps: (15, 9) [Warp D], (19, 11) [Warp E], (15, 11) [Warp F]
+- Warp D (15, 9) -> (15, 3) [NW Room]
+- NW Room Warps: (19, 3) [Warp G]
