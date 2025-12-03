@@ -160,4 +160,5 @@
 ### Radio & Menu Notes
 - **Menu Hierarchy:** Start -> Pokegear -> Radio (4th Icon) -> Tuner.
 - **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
-- **Tool Usage:** `force_press_button` prepends 'A' + sleep. This bypasses text checks and handles both 'Enter Menu' and 'Toggle Mode' actions robustly.
+- **Tool Usage:** `force_press_button` uses 'A, sleep, A, sleep' to bypass text checks. This double-tap neutralizes mode toggles, allowing directional input.
+- **Strategy:** To wake Snorlax, tune Radio to 20.0 (Poke Flute). Verify menu state via Screen Text.
