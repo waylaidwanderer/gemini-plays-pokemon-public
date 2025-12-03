@@ -1,7 +1,7 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Radio Tower Expansion
-**Status:** In Lavender Town.
+**Status:** In Lavender Town (Soul House).
 **Objective:** Obtain the Radio Expansion Card.
 **Next Step:** Locate and enter the Radio Tower.
 **Side Quest:**
@@ -25,6 +25,7 @@
 ### Tile Mechanics
 - **FLOOR:** Walkable.
 - **WALL:** Impassable.
+- **WINDOW:** Impassable Wall.
 - **PIT / HOLE:** Traversable warp.
 - **ICE:** Slippery. Slide until hitting a wall or non-ice tile.
 - **LEDGE_HOP_DOWN:** One-way jump South.
@@ -63,6 +64,7 @@
 
 ## Lessons Learned
 - **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
+- **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
 - **Victory Road Navigation:** Ridge at Y=12 blocked South->North at X=9,10,11. Pit seen at (0,11) but currently unreachable from South.
 
 ## Trainer Rosters
@@ -80,6 +82,11 @@
 - **Lt. Surge:** Defeated.
 - **Quest Update:** Found Clefairy Doll in Vermilion Fan Club. Must trigger quest at Copycat in Saffron first to pick it up.
 - **Route 6:** Path to Saffron Gatehouse is blocked by a Pokefan M at (17, 4). Nearby sign for Underground Path.
+
+## Lavender Town
+- **Soul House:** Located South-Central. Not the Radio Tower.
+- **Radio Tower:** Still searching. Likely North or East.
+
 ## Saffron City
 - Arrived via Route 6 Gate.
 - Goal: Challenge Saffron Gym. Then find Copycat (NW).
@@ -131,8 +138,6 @@
 - **Status:** Cleared. Marsh Badge obtained.
 - **Leader Sabrina:** Defeated.
 
-## Lessons Learned
-- **Pathfinding:** Unseen tiles are assumed traversable. Expect reroutes in complex city layouts.
 ## Route 8
 - **Status:** Exploring East towards Lavender.
 - **Obstacles:**
@@ -141,4 +146,3 @@
 - **Points of Interest:**
   - Locked Door at (10, 5).
   - Underground Path Sign at (11, 7).
-- **Tool Usage Lesson:** `find_path` outputs a coordinate list for `path_plan`, NOT button presses. Do NOT use `autopress_buttons: true` with it.
