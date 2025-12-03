@@ -88,6 +88,7 @@
 - **Location:** North Saffron (near Magnet Train).
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
+- Fisher (Saffron PC): Cerulean Cave has collapsed.
 ## Route 9
 - **Status:** Explored.
 - **Key Features:**
