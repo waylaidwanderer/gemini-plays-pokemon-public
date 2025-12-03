@@ -1,13 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Restore Power
-**Status:** Event Triggered.
-**Objective:** Return the Machine Part to the Power Plant.
-**Side Quest:** Gina (Route 34) offered an item via phone. Anthony (Route 33) & Joey (Route 30) want rematches.
-**Reason:** Spoke to Manager and Officer. Officer asked for cooperation, confirming the event is active.
-
-**Cerulean Gym Search Summary:**
-- Previous search negative. Retrying now that event is triggered.
+## 📍 Current Mission: Radio Tower Expansion
+**Status:** Power Restored!
+**Objective:** Obtain the Radio Expansion Card in Lavender Town.
+**Next Step:** Travel to Lavender Town (South of Rock Tunnel).
+**Side Quest:**
+- **Copycat (Saffron):** Trigger quest to pick up Clefairy Doll in Vermilion.
+- **Rematches:** Anthony (Route 33), Joey (Route 30).
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
