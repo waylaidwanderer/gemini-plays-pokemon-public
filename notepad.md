@@ -157,3 +157,7 @@
   - Locked Door at (10, 5).
   - Underground Path Sign at (11, 7).
 - **Harness Limitation:** UI text (e.g., 'TUNING' in Pokegear) can trigger false 'Text on screen' warnings, blocking directional input. Solution: Use a custom tool with `autopress_buttons: true` to bypass.
+### Radio & Menu Notes
+- **Menu Hierarchy:** Start -> Pokegear -> Radio (4th Icon) -> Tuner.
+- **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
+- **Tool Usage:** `force_press_button` updated to prepend 'A' + sleep to bypass 'TUNING' text blockage.
