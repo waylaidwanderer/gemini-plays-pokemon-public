@@ -106,7 +106,6 @@
 - **attempt_surf:** Automates surfing interaction.
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
-- **sequence_press:** Executes blind button sequences.
 
 ## Active Custom Agents
 - **clue_analyst:** Agent for puzzle solving.
