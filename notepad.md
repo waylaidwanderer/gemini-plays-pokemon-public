@@ -153,3 +153,4 @@
 - **Points of Interest:**
   - Locked Door at (10, 5).
   - Underground Path Sign at (11, 7).
+- **Harness Limitation:** UI text (e.g., 'TUNING' in Pokegear) can trigger false 'Text on screen' warnings, blocking directional input. Solution: Use a custom tool with `autopress_buttons: true` to bypass.
