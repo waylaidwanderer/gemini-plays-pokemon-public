@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Restore Power
-**Status:** Surfing South on Route 9 towards Power Plant.
+**Status:** Inside Power Plant.
 **Objective:** Speak to Manager to trigger Machine Part spawn.
-**Side Quest:** Gina (Route 34) offered an item via phone.
+**Side Quest:** Gina (Route 34) offered an item via phone. Anthony (Route 33) wants a rematch.
 **Reason:** Itemfinder failed in Gym. Clue Analyst confirmed missing trigger.
 
 **Cerulean Gym Search Summary:**
