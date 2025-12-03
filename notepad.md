@@ -1,14 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Wake Snorlax
-**Status:** Vermilion City.
-**Objective:** Retrieve EXPN Card.
-**Critical:** EXPN Card is missing from inventory.
-**Plan:**
-1. Fly to Lavender Town.
-2. Go to Radio Tower (North).
-3. Talk to Gentleman to get EXPN Card.
-4. Return to Vermilion.
+## 📍 Current Mission: Retrieve EXPN Card
+**Status:** Lavender Radio Tower.
+**Objective:** Talk to Gentleman to get EXPN Card.
+**Next Step:** Fly back to Vermilion to wake Snorlax.
+**Context:** Snorlax waking failed due to missing card. Power Plant quest is complete, so the Gentleman (Director) should give it now.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
