@@ -131,3 +131,5 @@
 - NE Room Warps: (15, 9) [Warp D], (19, 11) [Warp E], (15, 11) [Warp F]
 - Warp D (15, 9) -> (15, 3) [NW Room]
 - NW Room Warps: (19, 3) [Warp G]
+- Warp G (19, 3) -> (15, 15) [SE Room]
+- Next: Warp H (15, 17)
