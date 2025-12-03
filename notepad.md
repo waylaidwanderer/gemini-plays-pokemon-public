@@ -64,9 +64,14 @@
 ## Lessons Learned
 - **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
 - **Victory Road Navigation:** Ridge at Y=12 blocked South->North at X=9,10,11. Pit seen at (0,11) but currently unreachable from South.
+
 ## Trainer Rosters
-- **Psychic Jared (Saffron Gym):** Mr. Mime (Lv 32), Exeggcute (Lv 35), Exeggcute (Lv 35).
-- **Medium Rebecca (Saffron Gym):** Drowzee (Lv 35), Hypno (Lv 35).
+- **Saffron Gym:**
+  - **Leader Sabrina:** Espeon (Lv 46), Mr. Mime (Lv 46, Knows: Reflect), Alakazam (Expected).
+  - **Psychic Jared:** Mr. Mime (Lv 32), Exeggcute (Lv 35), Exeggcute (Lv 35).
+  - **Medium Rebecca:** Drowzee (Lv 35), Hypno (Lv 35).
+  - **Psychic Franklin:** Kadabra (Lv 37).
+  - **Medium Doris:** Defeated.
 
 ### Elite Four Strategy
 - Defeated.
@@ -116,10 +121,6 @@
 - **Split Layout:** The map is divided into two isolated sections by a vertical wall at x=3 and a horizontal barrier of FLOOR_UP_WALL tiles at y=4.
 - **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
 - **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
-## Route 10 North
-- **Split Layout:** The map is divided into two isolated sections by a vertical wall at x=3 and a horizontal barrier of FLOOR_UP_WALL tiles at y=4.
-- **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
-- **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
 
 # Saffron Gym
 - Puzzle: Warp tiles.
@@ -135,7 +136,6 @@
 - Next: Warp H (15, 17)
 - Warp H (15, 17) -> (5, 15) [SW Room]
 - Next: Explore SW Room (Warps I, J)
-- **Psychic Franklin (Saffron Gym):** Kadabra (Lv 37).
 - **SW Room Warps:** Found Warps I(5,11), J(5,17), K(1,11), L(1,15), M(1,17).
 - **Connection Found:** Warp (5, 15) [SW Room] -> (19, 1) [NW Room].
 - **NW Room Warps:** Found Warps N(15,5) and O(19,5).
@@ -144,7 +144,5 @@
 - **Connection Found:** Warp P (9, 5) [Central Room] -> (5, 9) [SW-Central Room] (Warp S).
 - **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (19, 11) [NE Room] (Warp E).
 - **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
-- **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
-- **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
 - **Connection Found:** Warp Q (11, 3) [North-Central Room] -> (5, 3) [NW-Central Room] (Arrival).
-- NW-Central Room Warps: (1, 3), (5, 3) [To Q], (1, 5), (5, 5). Trainer: Medium Doris (Defeated).
+- NW-Central Room Warps: (1, 3), (5, 3) [To Q], (1, 5), (5, 5).
