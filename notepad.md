@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Radio Tower Expansion
-**Status:** In Lavender Town (Soul House).
-**Objective:** Obtain the Radio Expansion Card.
-**Next Step:** Locate and enter the Radio Tower.
+## 📍 Current Mission: Wake Snorlax
+**Status:** Lavender Radio Tower 1F.
+**Objective:** Wake Snorlax in Vermilion City using Poke Flute Channel.
+**Next Step:** Check Officer at Radio Tower 1F, then travel to Vermilion City.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
@@ -15,6 +15,8 @@
 ## Archived Logs
 - **Johto:** Champion. Rocket Disbanded.
 - **S.S. Aqua:** Rescue complete.
+- **Power Plant:** Power restored.
+- **Radio Tower:** EXPN Card obtained.
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -77,15 +79,16 @@
 
 ### Elite Four Strategy
 - Defeated.
+
 ## Recent Victories
 - **Champion Lance:** Defeated.
 - **Lt. Surge:** Defeated.
-- **Quest Update:** Found Clefairy Doll in Vermilion Fan Club. Must trigger quest at Copycat in Saffron first to pick it up.
-- **Route 6:** Path to Saffron Gatehouse is blocked by a Pokefan M at (17, 4). Nearby sign for Underground Path.
+- **Lavender Radio Tower:** Obtained EXPN Card.
 
 ## Lavender Town
-- **Soul House:** Located South-Central. Not the Radio Tower.
-- **Radio Tower:** Still searching. Likely North or East.
+- **Soul House:** Located South-Central. Memorial site.
+- **Radio Tower:** Located North.
+- **Name Rater:** Likely the house south of the mart.
 
 ## Saffron City
 - Arrived via Route 6 Gate.
@@ -94,8 +97,9 @@
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
 - **Location:** North Saffron (near Magnet Train).
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
-- Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
+- Cerulean: Cooltrainer F at (21, 24) has a Slowbro. 
 - Fisher (Saffron PC): Cerulean Cave has collapsed.
+
 ## Route 9
 - **Status:** Explored.
 - **Key Features:**
@@ -109,11 +113,11 @@
   - Lass (Sighted) at (12, 15).
   - Pokefan M (Sighted) at (36, 15).
 
-## Quest Log: Machine Part
-- **Status:** Complete!
-- **Objective:** Obtain Kanto Radio Card.
-- **Progress:** Returned Machine Part to Manager. Power restored. Received TM07 (Zap Cannon).
-- **Next Step:** Go to Lavender Town Radio Tower to get the expansion card.
+## Quest Log: Snorlax Blockade
+- **Status:** Active.
+- **Objective:** Wake Snorlax.
+- **Progress:** Obtained EXPN Card.
+- **Next Step:** Tune to Poke Flute Channel.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
@@ -121,10 +125,9 @@
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
 
-## Active Custom Agents
-
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
+
 ## Route 10 North
 - **Split Layout:** The map is divided into two isolated sections by a vertical wall at x=3 and a horizontal barrier of FLOOR_UP_WALL tiles at y=4.
 - **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
