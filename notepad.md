@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Wake Snorlax
-**Status:** Lavender Radio Tower 1F.
+**Status:** Lavender Town.
 **Objective:** Wake Snorlax in Vermilion City using Poke Flute Channel.
-**Next Step:** Check Officer at Radio Tower 1F, then travel to Vermilion City.
+**Next Step:** Fly to Vermilion City.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
