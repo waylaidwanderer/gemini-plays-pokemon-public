@@ -137,3 +137,5 @@
 - Next: Explore SW Room (Warps I, J)
 - **Psychic Franklin (Saffron Gym):** Kadabra (Lv 37).
 - **SW Room Warps:** Found Warps I(5,11), J(5,17), K(1,11), L(1,15), M(1,17).
+- **Connection Found:** Warp (5, 15) [SW Room] -> (19, 1) [NW Room].
+- **NW Room Warps:** Found Warps N(15,5) and O(19,5).
