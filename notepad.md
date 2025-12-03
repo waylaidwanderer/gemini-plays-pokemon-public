@@ -3,7 +3,7 @@
 ## 📍 Current Mission: Restore Power
 **Status:** Event Triggered.
 **Objective:** Return to Cerulean Gym to find Rocket Grunt.
-**Side Quest:** Gina (Route 34) offered an item via phone. Anthony (Route 33) wants a rematch.
+**Side Quest:** Gina (Route 34) offered an item via phone. Anthony (Route 33) & Joey (Route 30) want rematches.
 **Reason:** Spoke to Manager and Officer. Officer asked for cooperation, confirming the event is active.
 
 **Cerulean Gym Search Summary:**
