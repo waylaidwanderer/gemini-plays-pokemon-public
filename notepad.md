@@ -133,3 +133,11 @@
 
 ## Lessons Learned
 - **Pathfinding:** Unseen tiles are assumed traversable. Expect reroutes in complex city layouts.
+## Route 8
+- **Status:** Exploring East towards Lavender.
+- **Obstacles:**
+  - Biker Gang blocking x=10 (Rows 8-10). Bypass: North (Row 6).
+  - Cut Tree at (21, 12).
+- **Points of Interest:**
+  - Locked Door at (10, 5).
+  - Underground Path Sign at (11, 7).
