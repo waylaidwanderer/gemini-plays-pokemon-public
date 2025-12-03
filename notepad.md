@@ -124,4 +124,5 @@
 - Exit: (8, 17)
 - Start Room Warps: (11, 15)
 ## Saffron Gym Warp Log
-- Start Room Warp (11, 15) -> TBD
+- Start Room Warp (11, 15) -> Warp B (19, 17)
+- Warp C (19, 15) -> TBD
