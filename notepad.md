@@ -102,3 +102,12 @@
 - **Conclusion:** Machine Part has not spawned. Must trigger the event by speaking to the Power Plant Manager first.
 - **Next Step:** Reach Power Plant via Route 9.
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
+
+## Active Custom Tools
+- **find_path:** Pathfinding with A*.
+- **attempt_surf:** Automates surfing interaction.
+- **scan_unseen:** Scans for reachable unseen tiles.
+- **select_move:** Selects battle moves via screen text.
+- **sequence_press:** Executes blind button sequences.
+- **select_battle_option:** Selects main battle menu options.
+- **clue_analyst:** Agent for puzzle solving.
