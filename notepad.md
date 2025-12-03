@@ -78,6 +78,7 @@
 - Goal: Explore, find Copycat, Gym.
 - **Syntax Reminder:** Do not use 'path' as a button input. Use 'path_plan' or directional buttons.
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
+- **Location:** North Saffron (near Magnet Train).
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
 ## Route 9
