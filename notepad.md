@@ -65,6 +65,8 @@
 - **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
 - **Victory Road Navigation:** Ridge at Y=12 blocked South->North at X=9,10,11. Pit seen at (0,11) but currently unreachable from South.
 ## Trainer Rosters
+- **Psychic Jared (Saffron Gym):** Mr. Mime (Lv 32), Exeggcute (Lv 35), Exeggcute (Lv 35).
+- **Medium Rebecca (Saffron Gym):** Drowzee (Lv 35), Hypno (Lv 35).
 
 ### Elite Four Strategy
 - Defeated.
