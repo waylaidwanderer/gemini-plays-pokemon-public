@@ -81,7 +81,7 @@
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro.
 ## Route 9
-- **Status:** Looping North through tall grass to reach Cut Tree (5, 8). Southern valley verified as dead end.
+- **Status:** TRAPPED in Southern Valley (Row 14). Escaping via Fly to Cerulean. Goal: Reach Cut Tree (5, 8) from Cerulean side.
 - **Key Features:**
   - **Cut Tree:** At (5, 8), blocks main path. (Cleared).
   - **Ledges:** Multiple one-way ledges creating split paths. Gap at x=53 allows Northbound travel.
