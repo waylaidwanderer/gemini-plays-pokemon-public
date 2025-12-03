@@ -111,3 +111,5 @@
 - **sequence_press:** Executes blind button sequences.
 - **select_battle_option:** Selects main battle menu options.
 - **clue_analyst:** Agent for puzzle solving.
+## Power Plant
+- Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
