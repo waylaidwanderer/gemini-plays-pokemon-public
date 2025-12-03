@@ -468,7 +468,7 @@
     ]
   },
   "force_press_button": {
-    "description": "Generates a sequence of identical button presses. Prepends 'A', 'sleep', 'A', 'sleep' to robustly bypass harness text checks and neutralize mode toggling.",
+    "description": "Generates a sequence of identical button presses. Does NOT prepend any bypass keys.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -496,7 +496,7 @@
         "count"
       ]
     },
-    "python_script": "import json\nbutton = input_data['button']\ncount = int(input_data['count'])\n# Double A press to bypass harness, enter menu if needed, and neutralize mode toggle\nbuttons = [\"A\", \"sleep 500\", \"A\", \"sleep 500\"] + [button for _ in range(count)]\nprint(json.dumps(buttons))",
+    "python_script": "import json\ninput_data = input_data\nbutton = input_data['button']\ncount = int(input_data['count'])\nbuttons = [button] * count\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add force_press_button tool to bypass harness text checks and automate repetitive inputs.",
@@ -532,6 +532,11 @@
         "commit_message": "fix: Update bypass sequence to 'A', 'sleep', 'A', 'sleep'. This double-tap allows entering the tuner from the menu OR toggling the mode back and forth if already inside, ensuring the subsequent directional inputs function correctly.",
         "timestamp": "2025-12-03T22:58:13.735Z",
         "action_counter": 18875
+      },
+      {
+        "commit_message": "fix: Remove prepended 'A' and sleep sequence. The tool now strictly outputs the requested buttons. This allows for clean menu navigation without triggering unwanted selections.",
+        "timestamp": "2025-12-03T23:09:40.775Z",
+        "action_counter": 18893
       }
     ]
   }
