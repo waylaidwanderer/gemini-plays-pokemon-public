@@ -5,7 +5,7 @@
 **Objective:** Obtain the Radio Expansion Card in Lavender Town.
 **Next Step:** Visit Copycat (NW Saffron) to trigger doll quest, then head East to Lavender.
 **Side Quest:**
-- **Copycat (Saffron):** Trigger quest to pick up Clefairy Doll in Vermilion.
+- **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## Kanto Campaign
