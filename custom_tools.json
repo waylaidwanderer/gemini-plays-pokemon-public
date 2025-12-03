@@ -456,28 +456,5 @@
         "action_counter": 16736
       }
     ]
-  },
-  "sequence_press": {
-    "description": "Executes a sequence of button presses provided as a comma-separated string. Essential for navigating menus or keyboards where mixing directional and action inputs is required in a single turn.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "string",
-          "description": "Comma-separated list of buttons to press, e.g., 'A, Down, Down, A'"
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nbuttons_str = input_data.get('buttons', '')\nif not buttons_str:\n    print('[]')\nelse:\n    button_list = [btn.strip() for btn in buttons_str.split(',')]\n    print(json.dumps(button_list))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-11-22T06:30:16.355Z",
-        "action_counter": 3843
-      }
-    ]
   }
 }

@@ -1,9 +1,1 @@
-{
-  "clue_analyst": {
-    "agent_name": "clue_analyst",
-    "agent_description": "A detective agent specializing in solving Pokémon puzzles and riddles. Analyzes quest clues, game mechanics, and map layouts to suggest missed item locations or triggers.",
-    "agent_system_prompt": "You are a master Pokémon puzzle solver and detective. The player is stuck looking for a hidden item or solving a progression blocker. \n\nYour Goal: Analyze the provided clues, the player's search history, and the game context to provide a ranked list of likely solutions.\n\nConsider:\n1. The exact wording of clues (literal vs. figurative).\n2. Game mechanics (e.g., how the Itemfinder works, interaction rules).\n3. Map layout quirks (corners, unique tiles, props).\n4. Common tropes in Pokémon games (e.g., items hidden in trash cans, statues, or specific water tiles).\n\nOutput a structured analysis including your top theories and a reasoning for each.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"quest_context\":{\"type\":\"string\",\"description\":\"The current quest or objective.\"},\"clues\":{\"type\":\"string\",\"description\":\"Any dialogue, hints, or lore related to the item.\"},\"what_has_been_tried\":{\"type\":\"string\",\"description\":\"A summary of the player's failed attempts and search methods.\"}},\"required\":[\"quest_context\",\"clues\",\"what_has_been_tried\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\",\"description\":\"Your deduction of the situation.\"},\"top_theories\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\",\"description\":\"Specific place to check.\"},\"action\":{\"type\":\"string\",\"description\":\"What to do there (e.g., 'Face Up and press A', 'Surf to X,Y').\"},\"reason\":{\"type\":\"string\",\"description\":\"Why this is likely.\"}}}}},\"required\":[\"analysis\",\"top_theories\"]}"
-  }
-}
+{}
