@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Retrieve EXPN Card
-**Status:** In Transit (Flying).
-**Objective:** Wake Snorlax in Vermilion City.
-**Next Step:** Navigate Fly Map to Vermilion (approx. Right x2, Down x2 from Indigo Plateau).
-**Context:** EXPN Card obtained. Tuning Radio to 20.0 (Poke Flute) is now possible.
+## 📍 Current Mission: Wake Snorlax & Get Doll
+**Status:** In Vermilion City (Answering Phone).
+**Objective:** Retrieve Clefairy Doll and Wake Snorlax.
+**Next Step:** Finish phone call. Visit Fan Club for Doll. Then tune Radio to Poke Flute for Snorlax.
+**Context:** EXPN Card obtained.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
