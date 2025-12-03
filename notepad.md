@@ -109,7 +109,8 @@
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
 - **sequence_press:** Executes blind button sequences.
-- **select_battle_option:** Selects main battle menu options.
+
+## Active Custom Agents
 - **clue_analyst:** Agent for puzzle solving.
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
