@@ -123,3 +123,5 @@
 - Puzzle: Warp tiles.
 - Exit: (8, 17)
 - Start Room Warps: (11, 15)
+## Saffron Gym Warp Log
+- Start Room Warp (11, 15) -> TBD
