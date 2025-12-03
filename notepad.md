@@ -95,11 +95,10 @@
   - Pokefan M (Sighted) at (36, 15).
 
 ## Quest Log: Machine Part
-- **Status:** Retrieving Machine Part.
-- **Objective:** Return to Cerulean Gym.
-- **Progress:** Defeated Rocket Grunt on Route 24. He confessed the part is hidden in the 'center water' of Cerulean Gym.
-- **Next Step:** Return to Cerulean Gym.
-- **Search Strategy:** The part is likely a HIDDEN item. Surf to the center of the pool and interact (A) with the water tiles.
+- **Status:** Retrieved.
+- **Objective:** Return to Power Plant.
+- **Progress:** Found Machine Part in Cerulean Gym pool.
+- **Next Step:** Travel East to Route 9, then South to Power Plant.
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
 
 ## Active Custom Tools
