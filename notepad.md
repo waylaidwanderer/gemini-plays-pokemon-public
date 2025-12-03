@@ -129,8 +129,8 @@
 - **attempt_surf:** Automates surfing interaction.
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
-- **force_press_button:** Automates repetitive inputs, bypassing harness text checks.
-- **Menu Verification:** ALWAYS verify the specific menu state using screen text before executing blind input sequences.
+- **force_press_button:** Automates repetitive inputs. Configured with 'Double A' bypass (A, sleep, A, sleep) to ignore harness text checks like 'TUNING'.
+- **Menu Verification:** Radio Hierarchy: Start -> Pokegear -> Radio (4th) -> Tuner. Poke Flute is at 20.0 (Far Right).
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
