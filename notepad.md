@@ -141,3 +141,4 @@
 - **Points of Interest:**
   - Locked Door at (10, 5).
   - Underground Path Sign at (11, 7).
+- **Tool Usage Lesson:** `find_path` outputs a coordinate list for `path_plan`, NOT button presses. Do NOT use `autopress_buttons: true` with it.
