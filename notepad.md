@@ -95,10 +95,10 @@
   - Pokefan M (Sighted) at (36, 15).
 
 ## Quest Log: Machine Part
-- **Status:** Event Triggered.
+- **Status:** Event Triggered (Confirmed).
 - **Objective:** Find Rocket Grunt in Cerulean Gym.
-- **Progress:** Spoke to Manager (Fisher) and Officer. Officer asked for cooperation.
-- **Next Step:** Return to Cerulean Gym.
+- **Progress:** Spoke to Manager (Fisher) about the missing part. Spoke to Officer at entrance who mentioned a 'shady character' in Cerulean.
+- **Next Step:** Enter Cerulean Gym and confront the Rocket Grunt.
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
 
 ## Active Custom Tools
