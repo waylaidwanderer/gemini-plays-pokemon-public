@@ -1,8 +1,8 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Restore Power
-**Status:** Inside Power Plant.
-**Objective:** Speak to Manager to trigger Machine Part spawn.
+**Status:** Spoken to Manager. Leaving Power Plant.
+**Objective:** Leave Power Plant to trigger 'Shady Character' event (Cerulean Gym).
 **Side Quest:** Gina (Route 34) offered an item via phone. Anthony (Route 33) wants a rematch.
 **Reason:** Itemfinder failed in Gym. Clue Analyst confirmed missing trigger.
 
