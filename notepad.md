@@ -98,7 +98,7 @@
 - **Status:** Event Triggered (Confirmed).
 - **Objective:** Find Rocket Grunt in Cerulean Gym.
 - **Progress:** Spoke to Manager (Fisher) about the missing part. Spoke to Officer at entrance who mentioned a 'shady character' in Cerulean.
-- **Next Step:** Confronting Rocket Grunt in Cerulean Gym (Event in progress).
+- **Next Step:** Chase Rocket Grunt (Fled Gym, likely heading North towards Route 24).
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
 
 ## Active Custom Tools
