@@ -127,23 +127,8 @@
 - Exit: (8, 17)
 - Start Room Warps: (11, 15)
 ## Saffron Gym Warp Log
-- Start Room Warp (11, 15) -> Warp B (19, 17)
-- Warp C (19, 15) -> (19, 9) [NE Room]
-- NE Room Warps: (15, 9) [Warp D], (19, 11) [Warp E], (15, 11) [Warp F]
-- Warp D (15, 9) -> (15, 3) [NW Room]
-- NW Room Warps: (19, 3) [Warp G]
-- Warp G (19, 3) -> (15, 15) [SE Room]
-- Next: Warp H (15, 17)
-- Warp H (15, 17) -> (5, 15) [SW Room]
-- Next: Explore SW Room (Warps I, J)
-- **SW Room Warps:** Found Warps I(5,11), J(5,17), K(1,11), L(1,15), M(1,17).
-- **Connection Found:** Warp (5, 15) [SW Room] -> (19, 1) [NW Room].
-- **NW Room Warps:** Found Warps N(15,5) and O(19,5).
-- **Connection Found:** Warp O (19, 5) [NW Room] -> (1, 15) [SW Room] (Warp L).
-- **Connection Found:** Warp M (1, 17) [SW Room] -> (11, 5) [Central Room] (Warp M).
-- **Connection Found:** Warp P (9, 5) [Central Room] -> (5, 9) [SW-Central Room] (Warp S).
-- **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (19, 11) [NE Room] (Warp E).
-- **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
-- **Connection Found:** Warp Q (11, 3) [North-Central Room] -> (5, 3) [NW-Central Room] (Arrival).
-- NW-Central Room Warps: (1, 3) [To NE], (5, 3) [To Q], (1, 5) [To Central], (5, 5) [To SW].
-- **Connection Found:** Warp T (5, 5) [NW-Central Room] -> (1, 11) [SW Room] (Warp K).
+- **Status:** Cleared. Marsh Badge obtained.
+- **Leader Sabrina:** Defeated.
+
+## Lessons Learned
+- **Pathfinding:** Unseen tiles are assumed traversable. Expect reroutes in complex city layouts.
