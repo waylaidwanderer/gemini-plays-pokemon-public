@@ -87,6 +87,7 @@
 - **Key Features:**
   - **Cut Tree:** At (5, 8), blocks main path. (Cleared).
   - **Ledges:** Multiple one-way ledges creating split paths. Gap at x=53 allows Northbound travel.
+  - **Water Access:** Blocked at Rows 5-14 by wall at x=55. Accessible at (55, 4).
   - **Warps:** (0, 4) leads to Cerulean City.
 - **Trainers:**
   - Youngster (11, 4) on Northern path (currently unreachable).
