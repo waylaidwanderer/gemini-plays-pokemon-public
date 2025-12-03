@@ -6,7 +6,7 @@
 **Next Step:** Travel to Lavender Town (South of Rock Tunnel).
 **Side Quest:**
 - **Copycat (Saffron):** Trigger quest to pick up Clefairy Doll in Vermilion.
-- **Rematches:** Anthony (Route 33), Joey (Route 30).
+- **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
