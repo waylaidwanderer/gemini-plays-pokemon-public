@@ -146,3 +146,4 @@
 - **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
 - **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
 - **Connection Found:** Warp V (1, 9) [SW-Central Room] -> (9, 3) [North-Central Room] (Warp R).
+- **Connection Found:** Warp Q (11, 3) [North-Central Room] -> (5, 3) [NW-Central Room] (Arrival).
