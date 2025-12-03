@@ -67,7 +67,7 @@
 
 ## Trainer Rosters
 - **Saffron Gym:**
-  - **Leader Sabrina:** Espeon (Lv 46), Mr. Mime (Lv 46, Knows: Reflect), Alakazam (Expected).
+  - **Leader Sabrina:** Defeated. Espeon (Lv 46), Mr. Mime (Lv 46, Reflect), Alakazam (Lv 48).
   - **Psychic Jared:** Mr. Mime (Lv 32), Exeggcute (Lv 35), Exeggcute (Lv 35).
   - **Medium Rebecca:** Drowzee (Lv 35), Hypno (Lv 35).
   - **Psychic Franklin:** Kadabra (Lv 37).
