@@ -98,7 +98,8 @@
 - **Status:** Retrieving Machine Part.
 - **Objective:** Return to Cerulean Gym.
 - **Progress:** Defeated Rocket Grunt on Route 24. He confessed the part is hidden in the 'center water' of Cerulean Gym.
-- **Next Step:** Return to Cerulean Gym and search the pool.
+- **Next Step:** Return to Cerulean Gym.
+- **Search Strategy:** The part is likely a HIDDEN item. Surf to the center of the pool and interact (A) with the water tiles.
 - **Route 10 North:** Water channel dead-ends at y=14 (Wall). Must land on western bank (Grass) at (15, 11) to bypass.
 
 ## Active Custom Tools
