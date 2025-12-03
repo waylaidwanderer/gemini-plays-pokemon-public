@@ -299,3 +299,7 @@
 
 # Agent Escalation Protocol
 - When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
+
+# find_path Failure Analysis (Olivine Lighthouse)
+- The tool repeatedly failed by treating all intermediate warp tiles (even walkable `FLOOR` tiles with a warp property) as impassable walls. This created false negatives where clear paths were reported as 'No path found'.
+- The proposed fix is to introduce a `TRANSITION_WARP_TYPES` set (`DOOR`, `STAIRCASE`, `CAVE`, `PIT`, `LADDER`) to differentiate warps that force a map transition from those that are just walkable entry points. The logic should only mark intermediate `TRANSITION_WARP_TYPES` as walls, allowing the pathfinder to correctly navigate over walkable warp tiles.
