@@ -38,7 +38,7 @@
 - **BOULDER:** Pushable (Strength).
 - **CUT_TREE:** Obstacle. Removable (Cut).
 - **WARP_CARPET:** Walk off map to exit.
-- **LADDER:** Context Dependent. Usually a warp, but verified as a walkable bridge (FLOOR behavior) on Cerulean Gym (7_6).
+- **LADDER:** Context Dependent. Usually a warp, but verified as a walkable bridge (FLOOR behavior) on Cerulean Gym (7_6) and Route 24 (7_15).
 - **WARP_CARPET_DOWN:** Walk Down to warp.
 - **STAIRCASE:** Traversable warp.
 - **COUNTER:** Impassable. Allows interaction with Entity on other side.
