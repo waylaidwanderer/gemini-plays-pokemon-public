@@ -71,9 +71,9 @@
 - **Mechanics:** 'Scoot' refreshes map. Phone calls pause movement.
 
 ## Lessons Learned
-- **Menu Navigation:** Blind sequence inputs in menus are unreliable due to state latency. Verify cursor state step-by-step using screen text.
+- **Item Verification:** Always verify possession of Key Items in the Game State list before attempting puzzles. Memory/Logs can be wrong.
+- **Menu Navigation:** Blind sequence inputs in menus are unreliable. Verify cursor state step-by-step using screen text.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
-- **Victory Road Navigation:** Ridge at Y=12 blocked South->North at X=9,10,11. Pit seen at (0,11) but currently unreachable from South.
 
 ## Trainer Rosters
 - **Saffron Gym:**
