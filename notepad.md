@@ -109,6 +109,6 @@
 - **select_move:** Selects battle moves via screen text.
 
 ## Active Custom Agents
-- **clue_analyst:** Agent for puzzle solving.
+
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
