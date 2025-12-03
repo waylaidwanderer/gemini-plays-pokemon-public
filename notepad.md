@@ -1,15 +1,13 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Restore Power
-**Status:** Spoken to Manager. Leaving Power Plant.
-**Objective:** Leave Power Plant to trigger 'Shady Character' event (Cerulean Gym).
+**Status:** Event Triggered.
+**Objective:** Return to Cerulean Gym to find Rocket Grunt.
 **Side Quest:** Gina (Route 34) offered an item via phone. Anthony (Route 33) wants a rematch.
-**Reason:** Itemfinder failed in Gym. Clue Analyst confirmed missing trigger.
+**Reason:** Spoke to Manager and Officer. Officer asked for cooperation, confirming the event is active.
 
 **Cerulean Gym Search Summary:**
-- Systematically searched pool (North, Central, South) and edges.
-- Itemfinder Negative (Land & Surf).
-- Conclusion: Machine Part not spawned. Must trigger Power Plant event first.
+- Previous search negative. Retrying now that event is triggered.
 
 ## Kanto Campaign
 - **Objective:** Obtain Kanto Badges.
