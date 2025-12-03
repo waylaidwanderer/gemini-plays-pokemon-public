@@ -125,4 +125,5 @@
 - Start Room Warps: (11, 15)
 ## Saffron Gym Warp Log
 - Start Room Warp (11, 15) -> Warp B (19, 17)
-- Warp C (19, 15) -> TBD
+- Warp C (19, 15) -> (19, 9) [NE Room]
+- NE Room Warps: (15, 9) [Warp D], (19, 11) [Warp E], (15, 11) [Warp F]
