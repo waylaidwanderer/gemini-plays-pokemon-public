@@ -1,12 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Wake Snorlax
-**Status:** In Vermilion City (Pokegear Menu).
-**Objective:** Wake Snorlax.
-**Next Step:** Enter Radio Tuner. Force Retune (Tune away then back to 20.0) to fix audio state. Exit and interact with Snorlax.
-**Context:** EXPN Card obtained. Lost Item (Clefairy Doll) obtained.
+## 📍 Current Mission: Obtain EXPN Card
+**Status:** In Vermilion City.
+**Objective:** Fly to Lavender Town.
+**Next Step:** Open Start Menu and Fly to Lavender Town.
+**Context:** CRITICAL CORRECTION: EXPN Card is NOT in inventory. Tuning failed because I lack the item. Returning to Lavender Radio Tower to get it.
 **Side Quest:**
-- **Copycat (Saffron):** Quest Active. Have Doll. Return to Copycat after Snorlax.
+- **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## Kanto Campaign
