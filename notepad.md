@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Obtain EXPN Card
-**Status:** Flying to Lavender Town.
-**Objective:** Obtain EXPN Card.
-**Next Step:** Enter Radio Tower and talk to Gentleman.
-**Context:** Spoke to Gentleman. He implies I have the EXPN Card/Upgrade. It does not appear in Key Items, suggesting it's a passive Pokegear flag. Verifying by tuning Radio.
+## 📍 Current Mission: Wake Snorlax
+**Status:** Flying to Vermilion City.
+**Objective:** Wake Snorlax using the Poke Flute Radio Channel.
+**Next Step:** Fly to Vermilion, approach Snorlax, and tune radio to 20.0.
+**Context:** Confirmed with Lavender Radio Tower Gentleman that I have the Kanto Radio expansion (passive upgrade). I possess the LOST ITEM (Doll) for Copycat.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
