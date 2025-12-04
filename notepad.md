@@ -159,3 +159,4 @@
 - **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
 - **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
 - **Radio Mechanics:** Phone calls reset the Radio frequency. You must retune to the specific channel (e.g., Poké Flute at 20.0) after a call.
+- **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
