@@ -119,7 +119,7 @@
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
 - **Progress:** Obtained EXPN Card.
-- **Next Step:** Tune to Poke Flute Channel.
+- **Next Step:** Phone call cleared. Retune Radio to 20.0 (Poke Flute) and wake Snorlax.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
