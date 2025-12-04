@@ -159,3 +159,4 @@
 - **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
 - **Tool Usage:** `force_press_button` uses 'A, sleep, A, sleep' to bypass text checks. This double-tap neutralizes mode toggles, allowing directional input.
 - **Strategy:** To wake Snorlax, tune Radio to 20.0 (Poke Flute). Verify menu state via Screen Text.
+- **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects (unlike `force_press_button` which adds 'A' presses).
