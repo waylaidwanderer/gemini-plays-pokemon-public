@@ -119,8 +119,9 @@
 ## Quest Log: Snorlax Blockade
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
-- **Progress:** Obtained EXPN Card.
-- **Next Step:** Use `navigate_menu` to tune Radio to 20.0 and wake Snorlax.
+- **Progress:** Obtained EXPN Card. Radio tuned to 20.0 (Poke Flute).
+- **Observation:** Snorlax sprite is 2x2, blocking (34, 8-9) and (35, 8-9). Interaction must be from (34, 10).
+- **Next Step:** Interact with Snorlax.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
