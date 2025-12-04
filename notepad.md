@@ -1,12 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Wake Snorlax & Get Doll
-**Status:** In Vermilion City (Answering Phone).
-**Objective:** Retrieve Clefairy Doll and Wake Snorlax.
-**Next Step:** Finish phone call. Visit Fan Club for Doll. Then tune Radio to Poke Flute for Snorlax.
-**Context:** EXPN Card obtained.
+## 📍 Current Mission: Wake Snorlax
+**Status:** In Vermilion City (Fan Club).
+**Objective:** Wake Snorlax.
+**Next Step:** Exit Fan Club. Go to Snorlax (34, 8). Tune Radio to Poke Flute (20.0).
+**Context:** EXPN Card obtained. Lost Item (Clefairy Doll) obtained.
 **Side Quest:**
-- **Copycat (Saffron):** Quest Active. Retrieve Clefairy Doll from Vermilion Fan Club.
+- **Copycat (Saffron):** Quest Active. Have Doll. Return to Copycat after Snorlax.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## Kanto Campaign
