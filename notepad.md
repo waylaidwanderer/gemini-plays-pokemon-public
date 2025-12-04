@@ -127,8 +127,9 @@
 
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs. Configured with 'Double A' bypass (A, sleep, A, sleep) to ignore harness text checks like 'TUNING'.
-- **tune_radio:** Presses a direction button multiple times to tune the radio. Bypasses text checks.
+- **press_sequence:** Executes a list of button presses. Useful for complex menu navigation or macros.
 - **Menu Verification:** Radio Hierarchy: Start -> Pokegear -> Radio (4th) -> Tuner. Poke Flute is at 20.0 (Far Right).
+- **Radio Mechanics:** Phone calls reset the frequency. ALWAYS retune to 20.0 after a call. Verify needle position before interacting.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
