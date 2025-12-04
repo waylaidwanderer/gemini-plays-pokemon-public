@@ -451,7 +451,7 @@
     ]
   },
   "force_press_button": {
-    "description": "Generates a sequence of button presses to automate repetitive inputs. Prepends 'A, sleep, A, sleep' to bypass harness text checks and handle menu transitions.",
+    "description": "Generates a sequence of button presses to automate repetitive inputs. Strictly outputs the requested buttons without any prefixes.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -479,7 +479,7 @@
         "count"
       ]
     },
-    "python_script": "import json\nbutton = input_data['button']\ncount = int(input_data['count'])\n# Prefix with Double A bypass and generous sleep for transitions\nprefix = [\"A\", \"sleep 1000\", \"A\", \"sleep 500\"]\nbuttons = prefix + [button] * count\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbuttons = []\nbtn = input_data['button']\ncnt = int(input_data['count'])\nfor _ in range(cnt):\n    buttons.append(btn)\n    buttons.append(\"sleep 500\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add force_press_button tool to bypass harness text checks and automate repetitive inputs.",
@@ -540,6 +540,11 @@
         "commit_message": "feat: Re-add 'Double A' bypass with increased sleep delays (1000ms/500ms) to robustly handle menu transitions and text blocking.",
         "timestamp": "2025-12-03T23:21:51.079Z",
         "action_counter": 18910
+      },
+      {
+        "commit_message": "fix: Remove automatic 'A' prefix. The tool should strictly output the requested button presses to allow for precise menu navigation without unintended side effects like mode toggling or double-entry.",
+        "timestamp": "2025-12-04T02:01:08.394Z",
+        "action_counter": 19062
       }
     ]
   },
