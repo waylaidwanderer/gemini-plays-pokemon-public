@@ -482,6 +482,29 @@
       }
     ]
   },
+  "press_sequence": {
+    "description": "Presses a custom sequence of buttons with a delay between each press. Useful for menu navigation, UI resets, or complex interactions. Input is a comma-separated string of buttons (e.g., 'A, B, Start, Up').",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "string",
+          "description": "Comma-separated list of buttons to press (e.g., 'A, B, Down')"
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nbuttons_str = input_data['buttons']\nbutton_list = [b.strip() for b in buttons_str.split(',')]\noutput = []\nfor btn in button_list:\n    output.append(btn)\n    output.append(\"sleep 500\")\nprint(json.dumps(output))",
+    "history": [
+      {
+        "commit_message": "feat: Add press_sequence tool to allow execution of complex, multi-button sequences in a single turn. This replaces tune_radio and overcomes the limitation of force_press_button.",
+        "timestamp": "2025-12-04T05:38:36.863Z",
+        "action_counter": 19297
+      }
+    ]
+  },
   "select_move": {
     "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list.",
     "input_schema": {
@@ -545,29 +568,6 @@
         "commit_message": "fix: Update select_move to handle vertical move lists used in Gen 2 (Crystal), replacing the incorrect 2x2 grid logic. Calculates button presses based on line difference between the cursor '▶' and the target move in the screen text.",
         "timestamp": "2025-12-01T21:58:56.900Z",
         "action_counter": 16736
-      }
-    ]
-  },
-  "press_sequence": {
-    "description": "Presses a custom sequence of buttons with a delay between each press. Useful for menu navigation, UI resets, or complex interactions. Input is a comma-separated string of buttons (e.g., 'A, B, Start, Up').",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "string",
-          "description": "Comma-separated list of buttons to press (e.g., 'A, B, Down')"
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nbuttons_str = input_data['buttons']\nbutton_list = [b.strip() for b in buttons_str.split(',')]\noutput = []\nfor btn in button_list:\n    output.append(btn)\n    output.append(\"sleep 500\")\nprint(json.dumps(output))",
-    "history": [
-      {
-        "commit_message": "feat: Add press_sequence tool to allow execution of complex, multi-button sequences in a single turn. This replaces tune_radio and overcomes the limitation of force_press_button.",
-        "timestamp": "2025-12-04T05:38:36.863Z",
-        "action_counter": 19297
       }
     ]
   }
