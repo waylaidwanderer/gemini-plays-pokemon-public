@@ -162,3 +162,4 @@
 - **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
 - **Phone Call:** Hiker Anthony called (Vermilion). Reported 'didn't see any' (likely Dunsparce), implying NO swarm active.
 - **Phone Call:** Picnicker Gina (Route 34) called. Shared battle story about a Snubbull.
+- **Interaction Loops:** If an interaction text box (e.g., 'Snorlax is snoring') appears while trying to access a menu, the menu inputs will likely fail or re-trigger the interaction. Aggressively clear with 'B' before retrying.
