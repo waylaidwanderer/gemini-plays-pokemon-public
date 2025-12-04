@@ -170,3 +170,4 @@
 - **Menu Navigation Correction:** Start Menu cursor memory can lead to wrong selections (e.g. Party vs Pokegear). To fix, force cursor to top (Up x5) before navigating down.
 - **Radio Mechanics:** Confirmed again: Phone calls ABSOLUTELY reset the radio frequency. Must retune immediately after any call.
 - **Phone Call:** Hiker Anthony called (Vermilion). Interrupted radio tuning sequence. (Resolved)
+- **Menu Order:** Verified Start Menu: Pokedex, Pokemon, Pack, Pokegear (4th), Status (Player), Save, Option, Exit.
