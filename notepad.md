@@ -119,7 +119,7 @@
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
 - **Progress:** Obtained EXPN Card.
-- **Next Step:** Retune Radio to 20.0 (Poke Flute) and wake Snorlax. (Phone call reset frequency).
+- **Next Step:** Wake Snorlax. Radio retuning in progress.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
