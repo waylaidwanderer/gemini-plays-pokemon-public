@@ -4,7 +4,7 @@
 **Status:** Flying to Lavender Town.
 **Objective:** Obtain EXPN Card.
 **Next Step:** Enter Radio Tower and talk to Gentleman.
-**Context:** CRITICAL CORRECTION: EXPN Card is NOT in inventory. Tuning failed because I lack the item. Returning to Lavender Radio Tower to get it.
+**Context:** Spoke to Gentleman. He implies I have the EXPN Card/Upgrade. It does not appear in Key Items, suggesting it's a passive Pokegear flag. Verifying by tuning Radio.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
