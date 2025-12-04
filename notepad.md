@@ -80,7 +80,6 @@
 ## Recent Victories
 - **Champion Lance:** Defeated.
 - **Lt. Surge:** Defeated.
-- **Lavender Radio Tower:** Obtained EXPN Card.
 
 ## Lavender Town
 - **Soul House:** Located South-Central. Memorial site.
