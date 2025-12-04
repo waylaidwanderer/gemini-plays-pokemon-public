@@ -67,7 +67,8 @@
 - **Tin Tower:** Paused. Need Rainbow Wing (Catch Raikou, Entei, Suicune).
 
 ## Lessons Learned
-- **Item Verification:** Always verify possession of Key Items in the Game State list before attempting puzzles. However, note that some passive upgrades (like Radio Cards) do not appear in the list.
+- **Item Verification:** Passive upgrades (e.g., Radio Card) often don't appear in the inventory; trust NPC dialogue.
+- **Radio Mechanics:** Phone calls reset the radio frequency. Always retune after a call.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
 - **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects.
 
