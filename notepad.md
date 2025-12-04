@@ -50,6 +50,9 @@
 - **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
+# High Priority Task
+- Fix the `find_path` tool. The `simple_path` tool is too unreliable as it doesn't account for objects. The main tool needs to be updated to correctly handle on-screen objects and complex warp tiles to prevent future pathing failures.
+
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
@@ -221,6 +224,7 @@
 - **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
 - **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
 - **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
+- **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `find_path` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
 
 ## Solved Puzzles
 ### Azalea Gym
@@ -245,6 +249,9 @@
 ### Ruins of Alph - Kabuto Chamber Puzzle
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - **Solution:** The image is KABUTO.
+
+### Olivine Lighthouse Puzzle
+- **Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -272,15 +279,3 @@
 # find_path Failure Analysis (Olivine Lighthouse)
 - The tool repeatedly failed by treating all intermediate warp tiles (even walkable `FLOOR` tiles with a warp property) as impassable walls. This created false negatives where clear paths were reported as 'No path found'.
 - The proposed fix is to introduce a `TRANSITION_WARP_TYPES` set (`DOOR`, `STAIRCASE`, `CAVE`, `PIT`, `LADDER`) to differentiate warps that force a map transition from those that are just walkable entry points. The logic should only mark intermediate `TRANSITION_WARP_TYPES` as walls, allowing the pathfinder to correctly navigate over walkable warp tiles.
-
-# Olivine City Navigation
-- **Core Insight:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port.
-- **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm.
-- **Eastern Exit:** The correct path to Route 38 is not directly east from the southern part of the city. The exit is on the northern edge of the city, requiring northward travel *after* crossing over from the west on the southern road.
-- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is segmented in a non-obvious way.
-
-# Olivine Lighthouse Puzzle - Root Cause Analysis
-- My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
-
-# High Priority Task
-- Fix the `find_path` tool. The `simple_path` tool is too unreliable as it doesn't account for objects. The main tool needs to be updated to correctly handle on-screen objects and complex warp tiles to prevent future pathing failures.
