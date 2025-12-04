@@ -287,3 +287,6 @@
 
 # High Priority Task
 - Fix the `find_path` tool. The `simple_path` tool is too unreliable as it doesn't account for objects. The main tool needs to be updated to correctly handle on-screen objects and complex warp tiles to prevent future pathing failures.
+
+# High Priority Task
+- Fix the `find_path` tool. The `simple_path` tool is too unreliable as it doesn't account for objects. The main tool needs to be updated to correctly handle on-screen objects and complex warp tiles to prevent future pathing failures.
