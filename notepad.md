@@ -24,10 +24,9 @@
 - **Physics:** Boulders cannot push other boulders. You must occupy the tile 'behind' a boulder to push it.
 - **'Scoot' Mechanic:** Leaving and re-entering a map is a verified method to refresh the map state and advance puzzles (e.g., moving NPCs) after a trigger event.
 - **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings'.
-- **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
-- **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
-- **Menu Navigation:** Blind sequence inputs are unreliable. Verify cursor state step-by-step using screen text. Pokegear icons are arranged in a horizontal row: Back, Map, Phone, Radio.
-- **Key Items:** Some key items (like the Radio Expansion) function as passive upgrades and may not appear in the inventory list. Trust NPC dialogue and context.
+- **Pokegear:** Icons: Back, Map, Phone, Radio. Blind inputs unreliable.
+- **Radio:** 'A' toggles Manual/Preset. Tune to 20.0 for Poké Flute. Phone calls reset frequency.
+- **Key Items:** Passive upgrades (e.g., Radio Card) may not list in inventory.
 
 ### Tile Mechanics
 - **FLOOR:** Walkable.
