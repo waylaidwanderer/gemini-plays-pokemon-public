@@ -482,6 +482,39 @@
       }
     ]
   },
+  "navigate_menu": {
+    "description": "Navigates a visible vertical menu to a specific option by reading the screen text. Detects the cursor '▶' and the target text to calculate the required Up/Down presses. Robustly handles menu spacers by counting only valid options.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_option": {
+          "type": "string",
+          "description": "The text of the menu option to select (case-insensitive)."
+        },
+        "screen_text": {
+          "type": "string",
+          "description": "The current screen text to parse."
+        }
+      },
+      "required": [
+        "target_option",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\n\nscreen_text = input_data['screen_text']\ntarget_option = input_data['target_option'].upper()\n\nlines = screen_text.split('\\n')\nvalid_lines = []\ncursor_idx = -1\ntarget_idx = -1\n\nfor line in lines:\n    # Filter out top/bottom borders\n    if \"┌\" in line or \"└\" in line:\n        continue\n    \n    # Check if line has meaningful text inside │...│\n    start_pipe = line.find('│')\n    end_pipe = line.rfind('│')\n    \n    if start_pipe != -1 and end_pipe != -1 and start_pipe < end_pipe:\n        inner_text = line[start_pipe+1:end_pipe]\n        # Remove cursor and whitespace to check for content\n        clean_text = inner_text.replace('▶', '').replace('◀', '').strip()\n        \n        if len(clean_text) > 0:\n            # It's a valid option line\n            valid_lines.append(line)\n            \n            # Check for cursor in the original line\n            if '▶' in line:\n                cursor_idx = len(valid_lines) - 1\n            \n            # Check for target in the inner text or line\n            if target_option in line.upper() or target_option in inner_text.upper():\n                target_idx = len(valid_lines) - 1\n\nbuttons = []\nif cursor_idx != -1 and target_idx != -1:\n    diff = target_idx - cursor_idx\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Add navigate_menu tool to robustly select menu options by text, fixing issues with blind navigation and wrapping menus.",
+        "timestamp": "2025-12-04T22:21:14.486Z",
+        "action_counter": 19438
+      },
+      {
+        "commit_message": "fix: Update navigate_menu to count logical menu options instead of raw lines. This handles the double-spaced menu layout in Pokemon Crystal by filtering out empty or decorative lines and calculating the button presses based on the index difference between the cursor and the target option.",
+        "timestamp": "2025-12-04T22:26:31.974Z",
+        "action_counter": 19444
+      }
+    ]
+  },
   "select_move": {
     "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list.",
     "input_schema": {
@@ -545,39 +578,6 @@
         "commit_message": "fix: Update select_move to handle vertical move lists used in Gen 2 (Crystal), replacing the incorrect 2x2 grid logic. Calculates button presses based on line difference between the cursor '▶' and the target move in the screen text.",
         "timestamp": "2025-12-01T21:58:56.900Z",
         "action_counter": 16736
-      }
-    ]
-  },
-  "navigate_menu": {
-    "description": "Navigates a visible vertical menu to a specific option by reading the screen text. Detects the cursor '▶' and the target text to calculate the required Up/Down presses. Robustly handles menu spacers by counting only valid options.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_option": {
-          "type": "string",
-          "description": "The text of the menu option to select (case-insensitive)."
-        },
-        "screen_text": {
-          "type": "string",
-          "description": "The current screen text to parse."
-        }
-      },
-      "required": [
-        "target_option",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\n\nscreen_text = input_data['screen_text']\ntarget_option = input_data['target_option'].upper()\n\nlines = screen_text.split('\\n')\nvalid_lines = []\ncursor_idx = -1\ntarget_idx = -1\n\nfor line in lines:\n    # Filter out top/bottom borders\n    if \"┌\" in line or \"└\" in line:\n        continue\n    \n    # Check if line has meaningful text inside │...│\n    start_pipe = line.find('│')\n    end_pipe = line.rfind('│')\n    \n    if start_pipe != -1 and end_pipe != -1 and start_pipe < end_pipe:\n        inner_text = line[start_pipe+1:end_pipe]\n        # Remove cursor and whitespace to check for content\n        clean_text = inner_text.replace('▶', '').replace('◀', '').strip()\n        \n        if len(clean_text) > 0:\n            # It's a valid option line\n            valid_lines.append(line)\n            \n            # Check for cursor in the original line\n            if '▶' in line:\n                cursor_idx = len(valid_lines) - 1\n            \n            # Check for target in the inner text or line\n            if target_option in line.upper() or target_option in inner_text.upper():\n                target_idx = len(valid_lines) - 1\n\nbuttons = []\nif cursor_idx != -1 and target_idx != -1:\n    diff = target_idx - cursor_idx\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Add navigate_menu tool to robustly select menu options by text, fixing issues with blind navigation and wrapping menus.",
-        "timestamp": "2025-12-04T22:21:14.486Z",
-        "action_counter": 19438
-      },
-      {
-        "commit_message": "fix: Update navigate_menu to count logical menu options instead of raw lines. This handles the double-spaced menu layout in Pokemon Crystal by filtering out empty or decorative lines and calculating the button presses based on the index difference between the cursor and the target option.",
-        "timestamp": "2025-12-04T22:26:31.974Z",
-        "action_counter": 19444
       }
     ]
   }
