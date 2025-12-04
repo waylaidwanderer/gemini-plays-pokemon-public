@@ -148,7 +148,7 @@
 - **Pokegear Navigation:** The menu is a horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps or clamps. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3). Exit by selecting BACK.
 - **Pokegear Navigation:** Verified as a HORIZONTAL ROW: [BACK] [MAP] [PHONE] [RADIO]. 'B' exits functions (Map/Tuner) but NOT the Main Menu; must select 'BACK' to exit.
 - **Cursor Memory:** Start Menu cursor remembers the last selection. After using PACK, it stays on PACK. POKEGEAR is one slot below PACK.
-- **Pokegear Menu:** 'B' button does NOT close the main menu. Must navigate to and select [BACK].
+- **Pokegear Menu:** Verified that 'B' button DOES close the main menu and returns to the Overworld.
 - **Phone Call:** Youngster Joey called. Discussed Rattata/Status. Reset Radio frequency.
 - **Radio Mechanic:** Confirmed that receiving a phone call resets the radio frequency to default. Must retune after every call.
 - **Radio Tuning:** Snorlax snoring message confirms radio must be active. Phone calls reset frequency. Retuning to 20.0 is mandatory after every interruption.
