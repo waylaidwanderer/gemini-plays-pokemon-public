@@ -134,14 +134,6 @@
 - **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
 - **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
 
-# Saffron Gym
-- Puzzle: Warp tiles.
-- Exit: (8, 17)
-- Start Room Warps: (11, 15)
-## Saffron Gym Warp Log
-- **Status:** Cleared. Marsh Badge obtained.
-- **Leader Sabrina:** Defeated.
-
 ## Route 8
 - **Status:** Exploring East towards Lavender.
 - **Obstacles:**
