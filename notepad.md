@@ -112,9 +112,10 @@
 ## Quest Log: Snorlax Blockade
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
-- **Progress:** Obtained EXPN Card. Attempting to tune Radio to 20.0 (Poke Flute).
-- **Observation:** Snorlax sprite is 2x2, blocking (34, 8-9) and (35, 8-9). Interaction must be from (34, 10).
-- **Next Step:** Interact with Snorlax.
+- **Progress:** Obtained EXPN Card. Interaction attempt 1 failed ("Snoring peacefully").
+- **Hypothesis:** Radio frequency is incorrect (likely reset by phone call).
+- **Observation:** Snorlax sprite is 2x2. Interaction from (34, 10) targets (34, 9).
+- **Next Step:** Open Pokegear -> Radio -> Tune to 20.0 -> Interact.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
