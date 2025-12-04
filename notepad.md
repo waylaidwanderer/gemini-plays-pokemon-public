@@ -119,7 +119,7 @@
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
 - **Progress:** Obtained EXPN Card.
-- **Next Step:** Wake Snorlax. Radio retuning in progress.
+- **Next Step:** Execute macro to retune Radio to 20.0 and wake Snorlax.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
