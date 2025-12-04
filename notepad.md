@@ -172,3 +172,4 @@
 - **Radio Mechanics:** Confirmed again: Phone calls ABSOLUTELY reset the radio frequency. Must retune immediately after any call.
 - **Phone Call:** Hiker Anthony called (Vermilion). Interrupted radio tuning sequence. (Resolved)
 - **Menu Order:** Verified Start Menu: Pokedex, Pokemon, Pack, Pokegear (4th), Status (Player), Save, Option, Exit.
+- **Radio Tuning Correction:** 'Up/Down' cycles presets. To manually tune to the Poke Flute (20.0), use 'Right' to move the needle to the far end of the spectrum.
