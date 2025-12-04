@@ -173,3 +173,4 @@
 - **Radio Mechanic:** Confirmed that receiving a phone call resets the radio frequency to default. Must retune after every call.
 - **Radio Tuning:** Snorlax snoring message confirms radio must be active. Phone calls reset frequency. Retuning to 20.0 is mandatory after every interruption.
 - **UI Mixed State:** Observed Pokegear menu header persisting over interaction text boxes. Requires aggressive 'B' pressing to clear both layers.
+- **Menu Navigation Correction:** Start Menu cursor memory can lead to wrong selections (e.g. Party vs Pokegear). To fix, force cursor to top (Up x5) before navigating down.
