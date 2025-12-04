@@ -384,72 +384,6 @@
       }
     ]
   },
-  "select_move": {
-    "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_name": {
-          "type": "string"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "move_name",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\nscreen_text = input_data.get('screen_text', '')\ntarget_move = input_data.get('move_name', '').upper().strip()\n\nif not screen_text or not target_move:\n    print(json.dumps([]))\n    exit()\n\nlines = screen_text.split('\\n')\ncursor_row = -1\ntarget_row = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_row = i\n    if target_move in line.upper():\n        target_row = i\n\nif cursor_row != -1 and target_row != -1:\n    diff = target_row - cursor_row\n    buttons = []\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.append('A')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
-        "timestamp": "2025-11-25T17:55:51.068Z",
-        "action_counter": 7861
-      },
-      {
-        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
-        "timestamp": "2025-11-30T07:21:13.927Z",
-        "action_counter": 14672
-      },
-      {
-        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
-        "timestamp": "2025-11-30T07:23:59.588Z",
-        "action_counter": 14676
-      },
-      {
-        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
-        "timestamp": "2025-11-30T07:25:07.230Z",
-        "action_counter": 14678
-      },
-      {
-        "commit_message": "fix: Refine select_move logic to robustly detect cursor and target move from screen text, adding debug prints to diagnose issues. This ensures the tool correctly handles persistent cursor memory in menus.",
-        "timestamp": "2025-11-30T07:34:46.846Z",
-        "action_counter": 14693
-      },
-      {
-        "commit_message": "fix: Remove debug print statements that were causing JSON parsing errors. The tool now strictly outputs only the JSON array of button presses.",
-        "timestamp": "2025-11-30T16:50:55.137Z",
-        "action_counter": 15149
-      },
-      {
-        "commit_message": "fix: Remove debug print statements causing JSON errors. Improve cursor and target detection logic to strictly output valid JSON button arrays.",
-        "timestamp": "2025-11-30T17:09:48.544Z",
-        "action_counter": 15170
-      },
-      {
-        "commit_message": "fix: Overhaul select_move with robust 2x2 grid parsing. Now detects '▶' cursor and target move row/column to calculate navigation steps, preventing errors where the tool assumed the cursor was already correctly placed.",
-        "timestamp": "2025-12-01T09:07:47.934Z",
-        "action_counter": 16323
-      },
-      {
-        "commit_message": "fix: Update select_move to handle vertical move lists used in Gen 2 (Crystal), replacing the incorrect 2x2 grid logic. Calculates button presses based on line difference between the cursor '▶' and the target move in the screen text.",
-        "timestamp": "2025-12-01T21:58:56.900Z",
-        "action_counter": 16736
-      }
-    ]
-  },
   "force_press_button": {
     "description": "Generates a sequence of button presses to automate repetitive inputs. Strictly outputs the requested buttons without any prefixes.",
     "input_schema": {
@@ -545,6 +479,72 @@
         "commit_message": "fix: Remove automatic 'A' prefix. The tool should strictly output the requested button presses to allow for precise menu navigation without unintended side effects like mode toggling or double-entry.",
         "timestamp": "2025-12-04T02:01:08.394Z",
         "action_counter": 19062
+      }
+    ]
+  },
+  "select_move": {
+    "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "move_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\nscreen_text = input_data.get('screen_text', '')\ntarget_move = input_data.get('move_name', '').upper().strip()\n\nif not screen_text or not target_move:\n    print(json.dumps([]))\n    exit()\n\nlines = screen_text.split('\\n')\ncursor_row = -1\ntarget_row = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_row = i\n    if target_move in line.upper():\n        target_row = i\n\nif cursor_row != -1 and target_row != -1:\n    diff = target_row - cursor_row\n    buttons = []\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.append('A')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
+        "timestamp": "2025-11-25T17:55:51.068Z",
+        "action_counter": 7861
+      },
+      {
+        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
+        "timestamp": "2025-11-30T07:21:13.927Z",
+        "action_counter": 14672
+      },
+      {
+        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
+        "timestamp": "2025-11-30T07:23:59.588Z",
+        "action_counter": 14676
+      },
+      {
+        "commit_message": "fix: Refine select_move to strictly validate inputs and ensure robust cursor detection logic, addressing the persistent cursor memory issue identified in critique.",
+        "timestamp": "2025-11-30T07:25:07.230Z",
+        "action_counter": 14678
+      },
+      {
+        "commit_message": "fix: Refine select_move logic to robustly detect cursor and target move from screen text, adding debug prints to diagnose issues. This ensures the tool correctly handles persistent cursor memory in menus.",
+        "timestamp": "2025-11-30T07:34:46.846Z",
+        "action_counter": 14693
+      },
+      {
+        "commit_message": "fix: Remove debug print statements that were causing JSON parsing errors. The tool now strictly outputs only the JSON array of button presses.",
+        "timestamp": "2025-11-30T16:50:55.137Z",
+        "action_counter": 15149
+      },
+      {
+        "commit_message": "fix: Remove debug print statements causing JSON errors. Improve cursor and target detection logic to strictly output valid JSON button arrays.",
+        "timestamp": "2025-11-30T17:09:48.544Z",
+        "action_counter": 15170
+      },
+      {
+        "commit_message": "fix: Overhaul select_move with robust 2x2 grid parsing. Now detects '▶' cursor and target move row/column to calculate navigation steps, preventing errors where the tool assumed the cursor was already correctly placed.",
+        "timestamp": "2025-12-01T09:07:47.934Z",
+        "action_counter": 16323
+      },
+      {
+        "commit_message": "fix: Update select_move to handle vertical move lists used in Gen 2 (Crystal), replacing the incorrect 2x2 grid logic. Calculates button presses based on line difference between the cursor '▶' and the target move in the screen text.",
+        "timestamp": "2025-12-01T21:58:56.900Z",
+        "action_counter": 16736
       }
     ]
   },
