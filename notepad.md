@@ -3,7 +3,7 @@
 ## 📍 Current Mission: Wake Snorlax
 **Status:** In Vermilion City.
 **Objective:** Wake Snorlax using the Poke Flute Radio Channel.
-**Next Step:** Use `navigate_menu` to tune Radio to 20.0 and wake Snorlax.
+**Next Step:** Tune Radio to 20.0 and wake Snorlax.
 **Context:** Confirmed with Lavender Radio Tower Gentleman that I have the Kanto Radio expansion (passive upgrade). I possess the LOST ITEM (Doll) for Copycat.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
@@ -17,7 +17,6 @@
 - **Johto:** Champion. Rocket Disbanded.
 - **S.S. Aqua:** Rescue complete.
 - **Power Plant:** Power restored.
-- **Radio Tower:** EXPN Card obtained.
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -73,12 +72,7 @@
 - **Menu Navigation:** Blind menu macros are unreliable due to wrapping and cursor memory. Always use `navigate_menu` or visual feedback tools.
 
 ## Trainer Rosters
-- **Saffron Gym:**
-  - **Leader Sabrina:** Defeated. Espeon (Lv 46), Mr. Mime (Lv 46, Reflect), Alakazam (Lv 48).
-  - **Psychic Jared:** Mr. Mime (Lv 32), Exeggcute (Lv 35), Exeggcute (Lv 35).
-  - **Medium Rebecca:** Drowzee (Lv 35), Hypno (Lv 35).
-  - **Psychic Franklin:** Kadabra (Lv 37).
-  - **Medium Doris:** Defeated.
+- **Saffron Gym:** Defeated.
 
 ### Elite Four Strategy
 - Defeated.
@@ -119,7 +113,7 @@
 ## Quest Log: Snorlax Blockade
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
-- **Progress:** Obtained EXPN Card. Radio tuned to 20.0 (Poke Flute).
+- **Progress:** Obtained EXPN Card. Attempting to tune Radio to 20.0 (Poke Flute).
 - **Observation:** Snorlax sprite is 2x2, blocking (34, 8-9) and (35, 8-9). Interaction must be from (34, 10).
 - **Next Step:** Interact with Snorlax.
 
