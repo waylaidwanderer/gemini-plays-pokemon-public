@@ -3,7 +3,7 @@
 ## 📍 Current Mission: Wake Snorlax
 **Status:** In Vermilion City (Pokegear Menu).
 **Objective:** Wake Snorlax.
-**Next Step:** Enter Radio Tuner. Tune to Poke Flute (20.0). Exit and interact with Snorlax.
+**Next Step:** Enter Radio Tuner. Force Retune (Tune away then back to 20.0) to fix audio state. Exit and interact with Snorlax.
 **Context:** EXPN Card obtained. Lost Item (Clefairy Doll) obtained.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll. Return to Copycat after Snorlax.
