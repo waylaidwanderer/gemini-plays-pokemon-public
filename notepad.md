@@ -23,9 +23,11 @@
 ### General Mechanics
 - **Physics:** Boulders cannot push other boulders. You must occupy the tile 'behind' a boulder to push it.
 - **'Scoot' Mechanic:** Leaving and re-entering a map is a verified method to refresh the map state and advance puzzles (e.g., moving NPCs) after a trigger event.
-- **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings' (which may be hallucinations).
+- **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings'.
 - **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
 - **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
+- **Menu Navigation:** Blind sequence inputs are unreliable. Verify cursor state step-by-step using screen text. Pokegear icons are arranged in a horizontal row: Back, Map, Phone, Radio.
+- **Key Items:** Some key items (like the Radio Expansion) function as passive upgrades and may not appear in the inventory list. Trust NPC dialogue and context.
 
 ### Tile Mechanics
 - **FLOOR:** Walkable.
@@ -57,24 +59,18 @@
 - **Weather:** Rain Dance reduces Fire-type damage by 50%.
 
 ## Strategy Notes
-- **Mechanics:** 'Scoot' refreshes map. Trust Screen Text. Mark NPCs.
 - **Surfing:** Pathfinding must strictly separate Land/Water.
 - **Team:** Paprika (Lead), Basalt (Backup).
-- **Menu Navigation:** Blind sequence inputs in menus are unreliable. Verify cursor state step-by-step using screen text.
-  - **Pokegear Layout:** Icons are arranged in a horizontal row: Back, Map, Phone, Radio. NOT a 2x2 grid.
-  - **Menu Hierarchy:** Start -> Pokegear -> Radio (4th Icon) -> Tuner.
 
 ## Johto History
 - **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base, Ice Path, Blackthorn.
 - **Key Items:** HM06 (Whirlpool), Rising Badge, Dratini.
 - **Tin Tower:** Paused. Need Rainbow Wing (Catch Raikou, Entei, Suicune).
-- **Mechanics:** 'Scoot' refreshes map. Phone calls pause movement.
 
 ## Lessons Learned
-- **Item Verification:** Always verify possession of Key Items in the Game State list before attempting puzzles. Memory/Logs can be wrong.
-- **Menu Navigation:** Blind sequence inputs in menus are unreliable. Verify cursor state step-by-step using screen text.
+- **Item Verification:** Always verify possession of Key Items in the Game State list before attempting puzzles. However, note that some passive upgrades (like Radio Cards) do not appear in the list.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
-- **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects (unlike `force_press_button` which adds 'A' presses).
+- **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects.
 
 ## Trainer Rosters
 - **Saffron Gym:**
