@@ -170,3 +170,4 @@
 - **Cursor Memory:** Start Menu cursor remembers the last selection. After using PACK, it stays on PACK. POKEGEAR is one slot below PACK.
 - **Pokegear Menu:** 'B' button does NOT close the main menu. Must navigate to and select [BACK].
 - **Phone Call:** Youngster Joey called. Discussed Rattata/Status. Reset Radio frequency.
+- **Radio Mechanic:** Confirmed that receiving a phone call resets the radio frequency to default. Must retune after every call.
