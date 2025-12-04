@@ -169,3 +169,4 @@
 - **Pokegear Navigation:** Verified as a HORIZONTAL ROW: [BACK] [MAP] [PHONE] [RADIO]. 'B' exits functions (Map/Tuner) but NOT the Main Menu; must select 'BACK' to exit.
 - **Cursor Memory:** Start Menu cursor remembers the last selection. After using PACK, it stays on PACK. POKEGEAR is one slot below PACK.
 - **Pokegear Menu:** 'B' button does NOT close the main menu. Must navigate to and select [BACK].
+- **Phone Call:** Youngster Joey called. Discussed Rattata/Status. Reset Radio frequency.
