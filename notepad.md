@@ -158,13 +158,7 @@
 - **UI Desync:** If text boxes and menus overlap, use a sequence of 'B' presses to fully exit to the Overworld before re-opening menus. Do not trust mixed states.
 - **Tool Usage:** Multiple tool calls in one turn overwrite each other's button outputs. Use `run_code` or a custom tool to chain multiple distinct button actions.
 - **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
-- **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
-- **Radio Mechanics:** Phone calls reset the Radio frequency. You must retune to the specific channel (e.g., Poké Flute at 20.0) after a call.
-- **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
-- **Phone Call:** Hiker Anthony called (Vermilion). Reported 'didn't see any' (likely Dunsparce), implying NO swarm active.
-- **Phone Call:** Picnicker Gina (Route 34) called. Shared battle story about a Snubbull.
-- **Interaction Loops:** If an interaction text box (e.g., 'Snorlax is snoring') appears while trying to access a menu, the menu inputs will likely fail or re-trigger the interaction. Aggressively clear with 'B' before retrying.
-- **Phone Call:** Youngster Joey called. Discussed Pidgey. Reset Radio frequency.
+
 - **Pokegear Navigation:** The menu is a horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps or clamps. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3). Exit by selecting BACK.
 - **Pokegear Navigation:** Verified as a HORIZONTAL ROW: [BACK] [MAP] [PHONE] [RADIO]. 'B' exits functions (Map/Tuner) but NOT the Main Menu; must select 'BACK' to exit.
 - **Cursor Memory:** Start Menu cursor remembers the last selection. After using PACK, it stays on PACK. POKEGEAR is one slot below PACK.
