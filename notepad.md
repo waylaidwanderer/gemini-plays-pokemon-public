@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Obtain EXPN Card
-**Status:** In Vermilion City.
-**Objective:** Fly to Lavender Town.
-**Next Step:** Open Start Menu and Fly to Lavender Town.
+**Status:** Flying to Lavender Town.
+**Objective:** Obtain EXPN Card.
+**Next Step:** Enter Radio Tower and talk to Gentleman.
 **Context:** CRITICAL CORRECTION: EXPN Card is NOT in inventory. Tuning failed because I lack the item. Returning to Lavender Radio Tower to get it.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
