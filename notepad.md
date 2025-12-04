@@ -165,4 +165,4 @@
 - **Phone Call:** Picnicker Gina (Route 34) called. Shared battle story about a Snubbull.
 - **Interaction Loops:** If an interaction text box (e.g., 'Snorlax is snoring') appears while trying to access a menu, the menu inputs will likely fail or re-trigger the interaction. Aggressively clear with 'B' before retrying.
 - **Phone Call:** Youngster Joey called. Discussed Pidgey. Reset Radio frequency.
-- **Pokegear Navigation:** The menu is a 2x2 GRID (Back/Map top, Phone/Radio bottom). Use 'Right, Down' from 'Back' to reach 'Radio'.
+- **Pokegear Navigation:** The menu is a horizontal ROW (Back, Map, Phone, Radio). Use 'Right' x3 from 'Back' to reach 'Radio'.
