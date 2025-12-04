@@ -129,7 +129,7 @@
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
 - **attempt_surf:** Automates surfing interaction.
-- **scan_unseen:** Scans for reachable unseen tiles.
+
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs. Configured with 'Double A' bypass (A, sleep, A, sleep) to ignore harness text checks like 'TUNING'.
 - **tune_radio:** Presses a direction button multiple times to tune the radio. Bypasses text checks.
