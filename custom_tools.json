@@ -548,15 +548,31 @@
       }
     ]
   },
-  "tune_radio_recovery": {
-    "description": "Clears text, opens Pokegear, and tunes radio to 20.0. Does NOT interact with Snorlax.",
-    "input_schema": {},
-    "python_script": "import json\nbuttons = []\ndef add_btn(btn, delay=500):\n    buttons.append(btn)\n    buttons.append(f\"sleep {delay}\")\n\n# Clear text (B x4)\nfor _ in range(4): add_btn(\"B\")\n\n# Open Menu\nadd_btn(\"Start\", 1000)\n\n# Reset Cursor (Up x5)\nfor _ in range(5): buttons.append(\"Up\")\nbuttons.append(\"sleep 500\")\n\n# Go to Pokegear (Down x3)\nfor _ in range(3): buttons.append(\"Down\")\nbuttons.append(\"sleep 500\")\n\n# Enter Pokegear\nadd_btn(\"A\", 1500)\n\n# Reset to Back (Left x3)\nfor _ in range(3): buttons.append(\"Left\")\nbuttons.append(\"sleep 500\")\n\n# Go to Radio (Right x3)\nfor _ in range(3): buttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\n\n# Enter Tuner\nadd_btn(\"A\", 1000)\n\n# Tune to 20.0 (Right x35)\nfor _ in range(35): buttons.append(\"Right\")\n\nprint(json.dumps(buttons))",
+  "navigate_menu": {
+    "description": "Navigates a visible vertical menu to a specific option by reading the screen text. Detects the cursor '▶' and the target text to calculate the required Up/Down presses. Does not handle scrolling if the target is off-screen.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_option": {
+          "type": "string",
+          "description": "The text of the menu option to select (case-insensitive)."
+        },
+        "screen_text": {
+          "type": "string",
+          "description": "The current screen text to parse."
+        }
+      },
+      "required": [
+        "target_option",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\n\nscreen_text = input_data['screen_text']\ntarget = input_data['target_option'].upper()\nlines = screen_text.split('\\n')\ncursor_row = -1\ntarget_row = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_row = i\n    if target in line.upper():\n        target_row = i\n\nbuttons = []\nif cursor_row != -1 and target_row != -1:\n    diff = target_row - cursor_row\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\nelse:\n    # If finding the target fails, we do nothing to avoid erratic behavior.\n    # This allows the agent to handle the error or retry.\n    pass\n\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Add tune_radio_recovery tool to handle the Snorlax radio loop reliably.",
-        "timestamp": "2025-12-04T21:48:10.445Z",
-        "action_counter": 19416
+        "commit_message": "feat: Add navigate_menu tool to robustly select menu options by text, fixing issues with blind navigation and wrapping menus.",
+        "timestamp": "2025-12-04T22:21:14.486Z",
+        "action_counter": 19438
       }
     ]
   }
