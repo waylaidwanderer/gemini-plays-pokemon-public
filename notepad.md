@@ -157,3 +157,4 @@
 - **UI Desync:** If text boxes and menus overlap, use a sequence of 'B' presses to fully exit to the Overworld before re-opening menus. Do not trust mixed states.
 - **Tool Usage:** Multiple tool calls in one turn overwrite each other's button outputs. Use `run_code` or a custom tool to chain multiple distinct button actions.
 - **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
+- **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
