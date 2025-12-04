@@ -3,7 +3,7 @@
 ## 📍 Current Mission: Wake Snorlax
 **Status:** In Vermilion City.
 **Objective:** Wake Snorlax using the Poke Flute Radio Channel.
-**Next Step:** Approach Snorlax and tune radio to 20.0.
+**Next Step:** Retune radio to 20.0 (Poke Flute) and interact with Snorlax again. (Previous attempt failed, likely due to phone call reset).
 **Context:** Confirmed with Lavender Radio Tower Gentleman that I have the Kanto Radio expansion (passive upgrade). I possess the LOST ITEM (Doll) for Copycat.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
