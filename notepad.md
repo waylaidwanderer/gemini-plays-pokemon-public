@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Wake Snorlax
-**Status:** In Vermilion City (Fan Club).
+**Status:** In Vermilion City (Pokegear Menu).
 **Objective:** Wake Snorlax.
-**Next Step:** Exit Fan Club. Go to Snorlax (34, 8). Tune Radio to Poke Flute (20.0).
+**Next Step:** Enter Radio Tuner. Tune to Poke Flute (20.0). Exit and interact with Snorlax.
 **Context:** EXPN Card obtained. Lost Item (Clefairy Doll) obtained.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll. Return to Copycat after Snorlax.
@@ -24,6 +24,8 @@
 - **Physics:** Boulders cannot push other boulders. You must occupy the tile 'behind' a boulder to push it.
 - **'Scoot' Mechanic:** Leaving and re-entering a map is a verified method to refresh the map state and advance puzzles (e.g., moving NPCs) after a trigger event.
 - **Warp Verification:** The Game State 'Warps' list is the absolute source of truth. If a tile is not listed there, it is NOT a warp, regardless of visual cues or 'system warnings' (which may be hallucinations).
+- **Phone Calls:** Receiving a phone call resets the Radio audio, requiring the player to retune the channel.
+- **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
 
 ### Tile Mechanics
 - **FLOOR:** Walkable.
@@ -58,7 +60,9 @@
 - **Mechanics:** 'Scoot' refreshes map. Trust Screen Text. Mark NPCs.
 - **Surfing:** Pathfinding must strictly separate Land/Water.
 - **Team:** Paprika (Lead), Basalt (Backup).
-- **Menu Navigation:** Verify cursor state step-by-step using screen text.
+- **Menu Navigation:** Blind sequence inputs in menus are unreliable. Verify cursor state step-by-step using screen text.
+  - **Pokegear Layout:** Icons are arranged in a horizontal row: Back, Map, Phone, Radio. NOT a 2x2 grid.
+  - **Menu Hierarchy:** Start -> Pokegear -> Radio (4th Icon) -> Tuner.
 
 ## Johto History
 - **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base, Ice Path, Blackthorn.
@@ -70,6 +74,7 @@
 - **Item Verification:** Always verify possession of Key Items in the Game State list before attempting puzzles. Memory/Logs can be wrong.
 - **Menu Navigation:** Blind sequence inputs in menus are unreliable. Verify cursor state step-by-step using screen text.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
+- **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects (unlike `force_press_button` which adds 'A' presses).
 
 ## Trainer Rosters
 - **Saffron Gym:**
@@ -127,6 +132,7 @@
 - **scan_unseen:** Scans for reachable unseen tiles.
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs. Configured with 'Double A' bypass (A, sleep, A, sleep) to ignore harness text checks like 'TUNING'.
+- **tune_radio:** Presses a direction button multiple times to tune the radio. Bypasses text checks.
 - **Menu Verification:** Radio Hierarchy: Start -> Pokegear -> Radio (4th) -> Tuner. Poke Flute is at 20.0 (Far Right).
 
 ## Power Plant
@@ -153,10 +159,3 @@
 - **Points of Interest:**
   - Locked Door at (10, 5).
   - Underground Path Sign at (11, 7).
-- **Harness Limitation:** UI text (e.g., 'TUNING' in Pokegear) can trigger false 'Text on screen' warnings, blocking directional input. Solution: Use a custom tool with `autopress_buttons: true` to bypass.
-### Radio & Menu Notes
-- **Menu Hierarchy:** Start -> Pokegear -> Radio (4th Icon) -> Tuner.
-- **Radio Mechanics:** 'A' toggles between Manual Tuning and Preset Selection. 'Right/Left' tunes or scans.
-- **Tool Usage:** `force_press_button` uses 'A, sleep, A, sleep' to bypass text checks. This double-tap neutralizes mode toggles, allowing directional input.
-- **Strategy:** To wake Snorlax, tune Radio to 20.0 (Poke Flute). Verify menu state via Screen Text.
-- **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects (unlike `force_press_button` which adds 'A' presses).
