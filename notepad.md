@@ -146,7 +146,7 @@
 - **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
 
 - **Pokegear Navigation:** The menu is a horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps or clamps. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3). Exit by selecting BACK.
-- **Pokegear Navigation:** Verified as a HORIZONTAL ROW: [BACK] [MAP] [PHONE] [RADIO]. 'B' exits functions (Map/Tuner) but NOT the Main Menu; must select 'BACK' to exit.
+- **Pokegear Navigation:** Verified as a HORIZONTAL ROW: [BACK] [MAP] [PHONE] [RADIO]. 'B' exits the Tuner/Map, and pressing 'B' in the Main Menu closes the Pokegear and returns to the Start Menu.
 - **Cursor Memory:** Start Menu cursor remembers the last selection. After using PACK, it stays on PACK. POKEGEAR is one slot below PACK.
 - **Pokegear Menu:** Verified that 'B' button DOES close the main menu and returns to the Overworld.
 - **Phone Call:** Youngster Joey called. Discussed Rattata/Status. Reset Radio frequency.
