@@ -165,7 +165,7 @@
 - **Phone Call:** Picnicker Gina (Route 34) called. Shared battle story about a Snubbull.
 - **Interaction Loops:** If an interaction text box (e.g., 'Snorlax is snoring') appears while trying to access a menu, the menu inputs will likely fail or re-trigger the interaction. Aggressively clear with 'B' before retrying.
 - **Phone Call:** Youngster Joey called. Discussed Pidgey. Reset Radio frequency.
-- **Pokegear Navigation:** The menu is a horizontal ROW (Back, Map, Phone, Radio). Use 'Right' x3 from 'Back' to reach 'Radio'.
+- **Pokegear Navigation:** The menu is a horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps or clamps. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3). Exit by selecting BACK.
 - **Pokegear Navigation:** Verified as a HORIZONTAL ROW: [BACK] [MAP] [PHONE] [RADIO]. 'B' exits functions (Map/Tuner) but NOT the Main Menu; must select 'BACK' to exit.
 - **Cursor Memory:** Start Menu cursor remembers the last selection. After using PACK, it stays on PACK. POKEGEAR is one slot below PACK.
 - **Pokegear Menu:** 'B' button does NOT close the main menu. Must navigate to and select [BACK].
