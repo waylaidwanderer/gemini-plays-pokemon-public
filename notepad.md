@@ -3,7 +3,7 @@
 ## 📍 Current Mission: Wake Snorlax
 **Status:** In Vermilion City.
 **Objective:** Wake Snorlax using the Poke Flute Radio Channel.
-**Next Step:** Interact with Snorlax (Radio is tuned to 20.0).
+**Next Step:** Use `navigate_menu` to tune Radio to 20.0 and wake Snorlax.
 **Context:** Confirmed with Lavender Radio Tower Gentleman that I have the Kanto Radio expansion (passive upgrade). I possess the LOST ITEM (Doll) for Copycat.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
@@ -70,6 +70,7 @@
 - **Item Verification:** Passive upgrades (e.g., Radio Card) often don't appear in the inventory; trust NPC dialogue.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
 - **Radio Mechanics:** Phone calls reset the Radio frequency to default. Always retune to 20.0 after a call before interacting with Snorlax.
+- **Menu Navigation:** Blind menu macros are unreliable due to wrapping and cursor memory. Always use `navigate_menu` or visual feedback tools.
 
 ## Trainer Rosters
 - **Saffron Gym:**
@@ -119,15 +120,14 @@
 - **Status:** Active.
 - **Objective:** Wake Snorlax.
 - **Progress:** Obtained EXPN Card.
-- **Next Step:** Execute macro to retune Radio to 20.0 and wake Snorlax.
+- **Next Step:** Use `navigate_menu` to tune Radio to 20.0 and wake Snorlax.
 
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
 - **attempt_surf:** Automates surfing interaction.
-
 - **select_move:** Selects battle moves via screen text.
-- **force_press_button:** Automates repetitive inputs. Configured with 'Double A' bypass (A, sleep, A, sleep) to ignore harness text checks like 'TUNING'.
-- **press_sequence:** Executes a list of button presses. Useful for complex menu navigation or macros.
+- **force_press_button:** Automates repetitive inputs.
+- **navigate_menu:** Robustly selects menu options by reading screen text.
 - **Menu Verification:** Radio Hierarchy: Start -> Pokegear -> Radio (4th) -> Tuner. Poke Flute is at 20.0 (Far Right).
 - **Radio Mechanics:** Phone calls reset the frequency. ALWAYS retune to 20.0 after a call. Verify needle position before interacting.
 
