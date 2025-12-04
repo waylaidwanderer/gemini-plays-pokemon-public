@@ -186,8 +186,6 @@
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
 
 # Puzzle Solutions & Lessons
-
-## Tool Development & Debugging Lessons
 - **IMMEDIATE TOOL MAINTENANCE:** If a core tool (like `find_path`) fails, fixing it becomes the absolute highest priority, superseding all other gameplay actions. Deferring fixes leads to repeated, catastrophic failures.
 - **TOOL FAILURE INVESTIGATION:** If a tool produces an unexpected result (e.g., pathing into a wall), I must investigate the root cause immediately. Continuing without understanding the failure risks repeating the error. This may involve examining the tool's code, verifying input data, or checking for stale game state information.
 - **Tool Design Philosophy:** My `find_path` tool failed repeatedly because its logic was too specific (relying on a list of NPC names). The fix was to generalize the rule: any tile with any object is impassable. **Lesson:** When designing tools, prefer simple, general rules over complex, specific ones that are brittle and likely to fail when encountering new or unexpected game elements. Similarly, my `plan_systematic_search_path` tool failed because it used a naive nearest-neighbor algorithm instead of true pathfinding. **Lesson:** Build new tools on the proven, robust logic of existing tools whenever possible to avoid re-introducing fundamental flaws.
@@ -204,8 +202,6 @@
 - **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 - **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
 - **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `find_path` tool assumed all `LADDER` tiles were warps, which failed on the Olivine Port pier where they are walkable. Lesson: Always be prepared to refine tools when they encounter new game contexts that violate their core assumptions.
-
-## General Puzzle Lessons
 - **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
 - **Warp Data Conflict Resolution:** The official `Game State Information -> Warps` list is the single source of truth for all active warps. Data from other sources (like the Mental Map XML) that suggests a warp exists where one is not officially listed should be treated as a potential data artifact or an inactive warp that requires an external, non-obvious trigger. Do not get stuck in loops testing these.
@@ -260,33 +256,6 @@
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
 
-# Tools & Agents
-
-## Built-in Tools
-- `notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`
-
-## Custom Tools
-- `select_item`
-- `select_move`
-- `switch_pokemon`
-- `find_path`
-- `find_reachable_unseen_tiles`
-
-## Custom Agents
-- `python_code_debugger`
-- `puzzle_solver`
-
-# To-Do List
-
-# Olivine City Navigation
-- **Core Insight:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port.
-- **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm.
-- **Eastern Exit:** The correct path to Route 38 is not directly east from the southern part of the city. The exit is on the northern edge of the city, requiring northward travel *after* crossing over from the west on the southern road.
-- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is segmented in a non-obvious way.
-
-# Olivine Lighthouse Puzzle - Root Cause Analysis
-- My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
-
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
@@ -303,3 +272,12 @@
 # find_path Failure Analysis (Olivine Lighthouse)
 - The tool repeatedly failed by treating all intermediate warp tiles (even walkable `FLOOR` tiles with a warp property) as impassable walls. This created false negatives where clear paths were reported as 'No path found'.
 - The proposed fix is to introduce a `TRANSITION_WARP_TYPES` set (`DOOR`, `STAIRCASE`, `CAVE`, `PIT`, `LADDER`) to differentiate warps that force a map transition from those that are just walkable entry points. The logic should only mark intermediate `TRANSITION_WARP_TYPES` as walls, allowing the pathfinder to correctly navigate over walkable warp tiles.
+
+# Olivine City Navigation
+- **Core Insight:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port.
+- **Route 39 is a Dead End:** This route is not a valid path from Olivine City to Ecruteak City. It is a dead end for northbound travel, only serving as a connection to Moomoo Farm.
+- **Eastern Exit:** The correct path to Route 38 is not directly east from the southern part of the city. The exit is on the northern edge of the city, requiring northward travel *after* crossing over from the west on the southern road.
+- **Trust Pathfinding Data:** If the `find_path` tool repeatedly reports that two areas are disconnected, trust this data. Do not assume the tool is broken. The map is segmented in a non-obvious way.
+
+# Olivine Lighthouse Puzzle - Root Cause Analysis
+- My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
