@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Wake Snorlax
-**Status:** Flying to Vermilion City.
+**Status:** In Vermilion City.
 **Objective:** Wake Snorlax using the Poke Flute Radio Channel.
-**Next Step:** Fly to Vermilion, approach Snorlax, and tune radio to 20.0.
+**Next Step:** Approach Snorlax and tune radio to 20.0.
 **Context:** Confirmed with Lavender Radio Tower Gentleman that I have the Kanto Radio expansion (passive upgrade). I possess the LOST ITEM (Doll) for Copycat.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
