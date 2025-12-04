@@ -69,7 +69,7 @@
 ## Lessons Learned
 - **Item Verification:** Passive upgrades (e.g., Radio Card) often don't appear in the inventory; trust NPC dialogue.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
-- **Tool Definition:** Defined `tune_radio` to strictly handle radio tuning without side effects.
+- **Radio Mechanics:** Phone calls reset the Radio frequency to default. Always retune to 20.0 after a call before interacting with Snorlax.
 
 ## Trainer Rosters
 - **Saffron Gym:**
