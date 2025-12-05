@@ -6,10 +6,10 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** In Celadon City. 4/8 Badges.
+**Status:** In Celadon Pokémon Center. 4/8 Badges.
 **Objective:** Defeat Erika (Celadon Gym).
 **Action Plan:**
-1. Locate Pokémon Center.
+1. Heal Party.
 2. Locate and Challenge Celadon Gym.
 
 ### Completed Objectives
