@@ -6,11 +6,11 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Inside Celadon Gym. 4/8 Badges.
-**Objective:** Defeat Erika (Celadon Gym).
+**Status:** Celadon Gym Cleared. 5/8 Badges.
+**Objective:** Obtain TM19 (Giga Drain) and Exit.
 **Action Plan:**
-1. Navigate Gym layout (Beware of trainers).
-2. Defeat Erika.
+1. Receive TM from Erika.
+2. Exit Gym.
 3. (Night) Return to Pharmacist in Mansion Penthouse.
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
