@@ -303,3 +303,7 @@
 ## Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
+
+# Navigational & Quest Progression Lessons
+- **Route 39 Ledges:** This route contains one-way ledges that make northbound travel from Olivine City impossible. It's a critical dead end when attempting to backtrack north.
+- **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
