@@ -171,10 +171,10 @@
 - **Locations:**
   - Prize Room: (23, 19).
 - **Key NPCs:**
-  - Gentleman (PC): Friendship Rater.
-  - Pharmacist (PC): Flavor text.
-  - Super Nerd (PC): Eusine? (Mentioned Suicune).
-  - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
+  - Gentleman (PokeCenter): Friendship Rater.
+  - Super Nerd (PokeCenter): Eusine? (Mentioned Suicune).
+  - Cooltrainer F (PokeCenter): Confirmed Erika uses Grass-types.
+  - Gentleman (Prize Room): Wanted Porygon.
 ## Celadon Mansion
 - **Structure:** Split into East (Main) and West (Back) wings, separated by walls.
 - **East Wing:** Accessible from City front. Contains Manager Suite (1F), Meeting Room (2F), Dev Room (3F), Roof East.
