@@ -6,12 +6,11 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Pass Obtained. 4/8 Badges.
-**Objective:** Defeat Erika in Celadon City.
+**Status:** In Celadon City. 4/8 Badges.
+**Objective:** Defeat Erika (Celadon Gym).
 **Action Plan:**
-1. Exit Copycat's House.
-2. Travel West to Celadon City (via Route 7).
-3. Locate and Challenge Celadon Gym.
+1. Locate Pokémon Center.
+2. Locate and Challenge Celadon Gym.
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
