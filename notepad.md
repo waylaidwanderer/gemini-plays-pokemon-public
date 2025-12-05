@@ -320,3 +320,9 @@
 
 # Navigational Lessons
 - **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
+
+# To-Do
+- Unstun Sailor (ID 3) in Olivine City when I return.
+
+# Puzzle Solutions & Lessons
+- **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits or disconnected map sections. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
