@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** In Fuchsia Speech House (Route 16). Heading back to West Side.
+**Status:** On Route 16 East. Heading back to West Side (must re-Cut tree).
 **Objective:** Travel to Fuchsia City (Janine).
 **Action Plan:**
 1. Return to Route 16 West Side via Gatehouse.
