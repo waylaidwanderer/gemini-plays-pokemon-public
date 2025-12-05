@@ -178,7 +178,7 @@
   - 1F (Manager's Suite): Visited.
   - 2F: Current Location.
 - **NPCs (1F):** Granny (1, 5), Meowth (2, 6), Clefairy (3, 4), Nidoran (4, 4).
-- **NPCs (3F):** Game Designer (Cooltrainer M), Programmer (Super Nerd).
+- **NPCs (3F):** Game Designer (Cooltrainer M), Programmer (Super Nerd - "Play the slot machines!").
 - **Meeting Room (2F West):** Empty so far. Contains a Computer (0, 3) and Bookshelf (2, 3).
 - **Celadon Mansion 2F:** Stairs at (0,0) and (1,0) are blocked by a wall. Must access from another floor.
 - **Celadon Mansion 3F:** Game Freak Development Room. Contains staff and a drawing.
