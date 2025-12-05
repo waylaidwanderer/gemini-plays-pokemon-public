@@ -169,3 +169,6 @@
   - Pharmacist (PC): Flavor text.
   - Super Nerd (PC): Eusine? (Mentioned Suicune).
   - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
+## Celadon Mansion
+- **Status:** Exploring 1F.
+- **Geography:** Entrance at (16, 9) in Celadon City.
