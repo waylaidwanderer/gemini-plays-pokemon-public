@@ -174,18 +174,11 @@
   - Super Nerd (PC): Eusine? (Mentioned Suicune).
   - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
 ## Celadon Mansion
-- **Roof Structure:** Split into East (accessible) and West (inaccessible). West has Door (2,5) and Stairs (1,1). Need back entrance.
-- **Status:** Searching for back entrance.
-- **3F Structure:** West side (0,0 & 1,0) walled off. Contains inaccessible stairs.
-- **Geography:**
-  - Entrance: (16, 9) in Celadon City.
-  - 1F (Manager's Suite): Visited.
-  - 2F: Empty Meeting Room.
-  - 3F: Game Freak Development Room.
-  - Roof: Current Location.
-- **NPCs (1F):** Granny (1, 5), Meowth (2, 6), Clefairy (3, 4), Nidoran (4, 4).
-- **NPCs (3F):** Game Designer (Cooltrainer M), Programmer (Super Nerd - "Play the slot machines!").
-- **NPCs (Roof):** Fisher (7, 4) - "High places--I do love them so!".
-- **Meeting Room (2F West):** Contains a Computer (0, 3) and Bookshelf (2, 3).
-- **Celadon Mansion 2F:** Stairs at (0,0) and (1,0) are blocked by a wall. Must access from another floor.
-- **Celadon Mansion 3F:** Contains staff and a drawing.
+- **Structure:** Split into East (Main) and West (Back) wings, separated by walls.
+- **East Wing:** Accessible from City front. Contains Manager Suite (1F), Meeting Room (2F), Dev Room (3F), Roof East.
+- **West Wing:** Accessible ONLY via Back Door (East Alley -> North Path -> West Path -> Back Door). Contains isolated stairwell connecting 1F, 2F, 3F, and Roof West.
+- **Roof West:** Contains a Door (Penthouse?) and stairs down.
+- **NPCs:**
+  - 1F: Manager (Granny), Meowth.
+  - 3F: Game Freak Staff (Designer, Programmer).
+  - Roof: Fisher.
