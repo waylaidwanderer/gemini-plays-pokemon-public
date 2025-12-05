@@ -26,14 +26,6 @@
 - **Geography:** Diglett's Cave South (12, 7). Nugget House East (15, 15).
 - **Status:** Path to Pewter cleared (Cut Tree removed).
 
-**Side Quest:**
-- **Copycat (Saffron):** Quest Active. Have Doll.
-- **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
-
-## Kanto Campaign
-- **Objective:** Obtain Kanto Badges.
-- **Next Step:** Explore Vermilion City.
-
 ## Archived Logs
 - **Johto:** Champion. Rocket Disbanded.
 - **S.S. Aqua:** Rescue complete.
