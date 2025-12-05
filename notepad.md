@@ -6,8 +6,8 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Route 3 (En route to Mt. Moon).
-**Objective:** Travel East to Route 3 and Mt. Moon.
+**Status:** Route 3 (Mt. Moon Entrance).
+**Objective:** Enter Mt. Moon and traverse to Cerulean City.
 **Action Plan:**
 1. Head East to Route 3.
 2. Traverse Mt. Moon to reach Cerulean City.
