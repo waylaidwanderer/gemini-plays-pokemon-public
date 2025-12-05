@@ -395,7 +395,7 @@
     ]
   },
   "force_press_button": {
-    "description": "Generates a sequence of button presses to automate repetitive inputs. Strictly outputs the requested buttons without any prefixes.",
+    "description": "Generates a sequence of button presses to automate repetitive inputs. Supports an optional delay between presses to handle fast-paced mechanics or slow menus. Strictly outputs the requested buttons without any prefixes.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -416,6 +416,12 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 50
+        },
+        "delay": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5000,
+          "description": "Delay in milliseconds between presses. Default is 500."
         }
       },
       "required": [
@@ -423,7 +429,7 @@
         "count"
       ]
     },
-    "python_script": "import json\nbuttons = []\nbtn = input_data['button']\ncnt = int(input_data['count'])\nfor _ in range(cnt):\n    buttons.append(btn)\n    buttons.append(\"sleep 500\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbutton = input_data['button']\ncount = int(input_data['count'])\n# Handle optional delay, default to 500ms\nif 'delay' in input_data:\n    delay = int(input_data['delay'])\nelse:\n    delay = 500\n\nbuttons = []\nfor i in range(count):\n    buttons.append(button)\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add force_press_button tool to bypass harness text checks and automate repetitive inputs.",
@@ -489,6 +495,11 @@
         "commit_message": "fix: Remove automatic 'A' prefix. The tool should strictly output the requested button presses to allow for precise menu navigation without unintended side effects like mode toggling or double-entry.",
         "timestamp": "2025-12-04T02:01:08.394Z",
         "action_counter": 19062
+      },
+      {
+        "commit_message": "feat: Add optional 'delay' argument to force_press_button. This allows for rapid input sequences (e.g., for Cycling Road mechanics) by overriding the default 500ms sleep. Default remains 500ms for menu safety.",
+        "timestamp": "2025-12-05T23:53:49.234Z",
+        "action_counter": 21014
       }
     ]
   },
