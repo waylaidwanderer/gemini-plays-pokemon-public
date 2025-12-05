@@ -170,3 +170,4 @@
   - 3F: Game Freak Staff (Designer, Programmer).
   - Roof: Fisher.
 - **Pharmacist (Penthouse):** Tells a scary story only at NIGHT.
+- **Shortcuts:** Cut Tree at (28, 35) removed, opening southern path to Gym.
