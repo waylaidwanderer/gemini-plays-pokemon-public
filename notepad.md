@@ -173,7 +173,8 @@
   - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
 ## Celadon Mansion
 - **Roof Structure:** Split into East (accessible) and West (inaccessible). West has Door (2,5) and Stairs (1,1). Need back entrance.
-- **Status:** Exploring Celadon Mansion Roof.
+- **Status:** Searching for back entrance.
+- **3F Structure:** West side (0,0 & 1,0) walled off. Contains inaccessible stairs.
 - **Geography:**
   - Entrance: (16, 9) in Celadon City.
   - 1F (Manager's Suite): Visited.
