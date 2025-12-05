@@ -6,16 +6,15 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** On Route 16 East. Heading back to West Side (must re-Cut tree).
+**Status:** On Cycling Road (Route 17).
 **Objective:** Travel to Fuchsia City (Janine).
 **Action Plan:**
-1. Return to Route 16 West Side via Gatehouse.
-2. Mount BICYCLE.
-3. Ride West to enter Cycling Road (Route 17).
-4. Ride South to Fuchsia City.
+1. Ride South to Fuchsia City.
+2. Defeat Trainers for EXP/Money.
 **Route 16 Notes:**
-- **East Side (North Path):** Leads to Fuchsia Speech House (Dead End).
-- **West Side (South Path):** Entrance to Cycling Road (Route 17). Requires BICYCLE to bypass guard script.
+- **West Side (South Path):** Confirmed entrance to Cycling Road. Requires BICYCLE to bypass guard script.
+- **East Side (North Path):** Dead End (Fuchsia Speech House).
+- **Lesson Learned:** Scripted push-backs often indicate a missing requirement (Item/Badge), not a hard dead end. Verify requirements before abandoning a path.
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
 - **Celadon Gym:** Erika Defeated (Rainbow Badge Obtained).
