@@ -288,3 +288,6 @@
 # Navigational Planning
 - A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
+
+# Moomoo Farm Puzzle Solution
+- The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
