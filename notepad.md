@@ -7,11 +7,12 @@
 
 ## 📍 Current Mission: Kanto Journey
 **Status:** Celadon Gym Cleared. 5/8 Badges.
-**Objective:** Obtain TM19 (Giga Drain) and Exit.
+**Objective:** Travel to Fuchsia City (Janine).
 **Action Plan:**
-1. Receive TM from Erika.
-2. Exit Gym.
-3. (Night) Return to Pharmacist in Mansion Penthouse.
+1. Exit Gym.
+2. Heal at Center (Optional).
+3. Head West to Route 16/17 (Cycling Road).
+4. Reach Fuchsia City.
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
 
