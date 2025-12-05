@@ -4,7 +4,7 @@
 - I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 
-# Strategic Protocol
+# STRATEGIC PROTOCOL
 - **KNOWLEDGE-DRIVEN STRATEGY (PRIMARY DIRECTIVE):** My own visual assessment and memory are unreliable. I MUST trust my documented knowledge (map markers, notepad) and verified tool outputs (`find_path`) over my own intuition. A 'No path found' result is valuable, correct data, not a tool failure. I MUST consult this knowledge base before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
 - **PLAN-EXECUTE-VERIFY CYCLE:**
   1. **CONSULT KNOWLEDGE BASE:** Before forming ANY plan, I MUST consult my notepad and map markers to avoid repeating mistakes or ignoring solved puzzles.
@@ -49,19 +49,42 @@
 - **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
 - **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
+- **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
+- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
+- **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
+- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `find_path` tool assumed all `LADDER` tiles were warps, which failed on the Olivine Port pier where they are walkable. Lesson: Always be prepared to refine tools when they encounter new game contexts that violate their core assumptions.
+- **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
+- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
+- **Warp Data Conflict Resolution:** The official `Game State Information -> Warps` list is the single source of truth for all active warps. Data from other sources (like the Mental Map XML) that suggests a warp exists where one is not officially listed should be treated as a potential data artifact or an inactive warp that requires an external, non-obvious trigger. Do not get stuck in loops testing these.
+- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
+- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
+- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
+- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution.
+- **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
+- **Internal vs. External Puzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
+- **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
+- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+- **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), I must not assume they are functionally identical. Each variable must be tested independently to avoid missing a unique solution.
+- **Logical Loop Breaking:** When stuck in a repetitive loop exploring a confirmed dead end, the root assumption is likely flawed. I must escalate to an agent or fundamentally change my strategy (e.g., by exploring a different floor) instead of repeating failed tests.
+- **Escalate Vertically:** When stuck in an exploration loop on a given floor and the floor below, the solution is likely on a floor *above*. I must challenge the assumption that the path forward is nearby and be willing to ascend to find a way down into inaccessible areas. This was the key insight from my `puzzle_solver` agent regarding the lighthouse.
+- **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
+- **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
+- **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
+- **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
+- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
 
 # STRATEGIC KNOWLEDGE BASE
 ## Navigational Lessons
 - **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **Quest Trigger Logic:** Accepting a quest from a key NPC (like Jasmine) does not guarantee that all related NPC blockers will immediately be removed. Some paths may remain closed until a different, often unrelated, major objective is completed (like obtaining a new HM or badge).
 - **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
 - **Trust Tools Over Visuals (Route 39):** My `find_path` tool correctly identified a maze-like path on Route 39 that I visually misinterpreted as a simple straight path. This confirms that a 'No path found' or a convoluted path result is valuable, correct data, not a tool failure. I must trust my verified tools and map data over my own flawed visual assessment.
+- **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `find_path` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
+- **Vertical Puzzle Solutions:** When stuck on a lower floor of a multi-level puzzle, the solution may require ascending to a higher floor to find a path that leads down into the previously inaccessible area. Don't assume the path forward is always on the same level or immediately adjacent.
 
-# Game Mechanics & Systems
+## Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
 - The PC in Pokémon Centers is used for Pokémon and item storage.
@@ -74,7 +97,7 @@
 - **Battle Anomaly:** A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
 - **Item Interaction Mechanics:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 
-# Tile & Object Mechanics
+## Tile & Object Mechanics
 - **WALL**: Impassable terrain.
 - **FLOOR**: A standard, fully traversable tile.
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
@@ -122,7 +145,7 @@
 - **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
 - **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
 
-# Battle Mechanics
+## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
 - Poisoned Pokémon lose 1 HP every four steps outside of battle and remain poisoned after a wild battle concludes.
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
@@ -148,15 +171,13 @@
 | Water | Rock | Super Effective |
 | Water | Ground | Super Effective |
 
-# Menu Navigation
+## Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
 
-# Current Quest: Get SECRETPOTION for Amphy
-- **Objective:** Travel to Cianwood City to get the SECRETPOTION for Amphy.
-- **Location:** Cianwood City is across the sea.
-- **Source:** A pharmacy in Cianwood City.
+# CURRENT QUEST: Investigate Olivine Lighthouse
+- **Objective:** Find the trigger that opens the path to Ecruteak City, which is likely inside the Olivine Lighthouse.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -197,34 +218,7 @@
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
 
-- **Challenge NPC Dialogue:** Do not blindly trust NPC dialogue that suggests a path is a dead end, especially if it blocks the only apparent way forward. Always verify with your own systematic exploration.
-- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
-- **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
-- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `find_path` tool assumed all `LADDER` tiles were warps, which failed on the Olivine Port pier where they are walkable. Lesson: Always be prepared to refine tools when they encounter new game contexts that violate their core assumptions.
-- **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
-- **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
-- **Warp Data Conflict Resolution:** The official `Game State Information -> Warps` list is the single source of truth for all active warps. Data from other sources (like the Mental Map XML) that suggests a warp exists where one is not officially listed should be treated as a potential data artifact or an inactive warp that requires an external, non-obvious trigger. Do not get stuck in loops testing these.
-- **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
-- **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
-- **Challenge False Constraints:** My loop was prolonged by the false assumption that a solution *had* to be on the eastern side of 2F. When stuck, I must identify and challenge the root assumption that is constraining my strategy.
-- **Test All Variables:** When a puzzle has multiple similar elements (like the two pits in the lighthouse), they may not be functionally identical. Systematically test each one to ensure you don't miss a unique solution path.
-- **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction while on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
-- **Internal vs. External Puzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
-- **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
-- **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), I must not assume they are functionally identical. Each variable must be tested independently to avoid missing a unique solution.
-- **Logical Loop Breaking:** When stuck in a repetitive loop exploring a confirmed dead end, the root assumption is likely flawed. I must escalate to an agent or fundamentally change my strategy (e.g., by exploring a different floor) instead of repeating failed tests.
-- **Escalate Vertically:** When stuck in an exploration loop on a given floor and the floor below, the solution is likely on a floor *above*. I must challenge the assumption that the path forward is nearby and be willing to ascend to find a way down into inaccessible areas. This was the key insight from my `puzzle_solver` agent regarding the lighthouse.
-- **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
-- **Challenge Root Hypothesis in Loops:** When physically stuck in a repetitive loop (e.g., walled off in a section with only one entrance/exit), the root hypothesis about how to progress is likely flawed. I assumed the central column was the only path up, which was wrong. I must backtrack to an earlier point and find an entirely different route instead of trying to force a solution within the loop.
-- **Deterministic vs. Random Chance:** If a strategy based on random chance (like waiting for a moving NPC) fails even once, immediately switch to a deterministic strategy (like using `stun_npc`). Relying on luck is inefficient and leads to wasted turns.
-- **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
-- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
-- **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `find_path` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
-- **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits or disconnected map sections. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
-- **Vertical Puzzle Solutions:** When stuck on a lower floor of a multi-level puzzle, the solution may require ascending to a higher floor to find a path that leads down into the previously inaccessible area. Don't assume the path forward is always on the same level or immediately adjacent.
-
-## Solved Puzzles
+# Solved Puzzles
 ### Azalea Gym
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
@@ -250,18 +244,16 @@
 
 ### Olivine Lighthouse Puzzle
 - **Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `find_path` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
-
-### Olivine Lighthouse Puzzle - Hypothesis Testing
-- Agent Hypothesis #1 (Window Exit): FAILED. Interacting with the window at (4, 1) on 3F only produces flavor text. Attempting to walk through it results in a bump. The window is not an exit.
 - **Hypothesis 1 (Two Pits):** FAILED. Tested both pits on 2F at (16, 13) and (17, 13). Both lead to the same dead-end exit room on 1F. This is not the path forward.
 - **Descending Path Fallacy:** Just because a path goes down (like a pit) does not mean it leads to progress. As seen in the Olivine Lighthouse, some descending paths are simply one-way exits or resets designed to force the player to restart the ascent. I must evaluate these paths critically and not assume they are the correct way forward.
 - **Agent Hypothesis #2 (Hidden Item on 2F Ledge):** FAILED. Systematically searched every tile on the exterior ledge connecting the western and eastern sides of 2F. No hidden items or switches were found. This path is not the solution.
 
 ### Moomoo Farm Puzzle Solution
-- The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
+- The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer. The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
+- **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
 
 # Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
@@ -273,21 +265,7 @@
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
-- Hiker Anthony on Route 33 called for a battle.
-- Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
-
-# Moomoo Farm Puzzle - Agent Hypotheses
-- **Hypothesis 1 (High Priority):** The 'BERRY' is from a special, interactable tree on the Moomoo Farm grounds.
-- **Hypothesis 2:** An NPC inside the farm buildings will give me the 'BERRY'.
-- **Hypothesis 3:** The 'BERRY' is a hidden item on the ground somewhere on Route 39 or within the farm.
-
-# Agent Escalation Protocol
-- When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
-
-# To-Do
-- Unstun Sailor (ID 3) in Olivine City when I return.
-- **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
 
 # Custom Tools & Agents
 ## Custom Tools
@@ -297,26 +275,5 @@
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
 
-# Lessons Learned from Moomoo Farm
-- **Item Specificity:** The game may require a generic item (e.g., 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY'). This is a critical mechanic for item-based quests.
-- **Location Verification:** A major hallucination occurred where I believed I was on Route 39 while still inside the farmhouse. This wasted turns and caused tool failures. Lesson: I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY action to prevent this type of critical error.
-
-# Moomoo Farm Puzzle Solution
-- The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
-- The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
-
-# Navigational Lessons
-- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-
 # To-Do
 - Unstun Sailor (ID 3) in Olivine City when I return.
-
-# Puzzle Solutions & Lessons
-- **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits or disconnected map sections. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
-
-# Navigational Lessons
-- **Trust Tools Over Visuals (Route 39):** My `find_path` tool correctly identified a maze-like path on Route 39 that I visually misinterpreted as a simple straight path. This confirms that a 'No path found' or a convoluted path result is valuable, correct data, not a tool failure. I must trust my verified tools and map data over my own flawed visual assessment.
-
-# Navigational Lessons
-- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-- **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `find_path` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
