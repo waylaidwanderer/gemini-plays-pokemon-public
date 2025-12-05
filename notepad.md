@@ -167,3 +167,5 @@
 - **Key NPCs:**
   - Gentleman (PC): Friendship Rater.
   - Pharmacist (PC): Flavor text.
+  - Super Nerd (PC): Eusine? (Mentioned Suicune).
+  - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
