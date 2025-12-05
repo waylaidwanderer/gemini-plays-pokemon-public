@@ -49,6 +49,10 @@
 - **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
 - **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
+
+# Navigational & Quest Progression Lessons
+- **Route 39 Ledges:** This route contains one-way ledges that make northbound travel from Olivine City impossible. It's a critical dead end when attempting to backtrack north.
+- **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 
 # Game Mechanics & Systems
@@ -59,7 +63,6 @@
 - Healing at a Pokémon Center restores all HP and PP for the entire party and cures any status conditions.
 - **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
-- **Environmental Obstacle Resets:** The CUT_TREE at (8, 25) in Ilex Forest reappeared after I left the map and returned. This suggests some environmental obstacles might reset upon re-entry.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
 - **Battle Anomaly:** A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
@@ -307,3 +310,4 @@
 # Navigational & Quest Progression Lessons
 - **Route 39 Ledges:** This route contains one-way ledges that make northbound travel from Olivine City impossible. It's a critical dead end when attempting to backtrack north.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
+- **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
