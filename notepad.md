@@ -6,12 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Misty Found (Returned to Gym).
-**Objective:** Defeat Misty at Cerulean Gym.
+**Status:** Misty Defeated (Cascade Badge Obtained).
+**Objective:** Return Doll to Copycat (Saffron).
 **Action Plan:**
-1. Return to Cerulean City via Route 24.
-2. Defeat Misty at the Gym.
-3. Return Doll to Copycat (Saffron).
+1. Exit Cerulean Gym.
+2. Travel South to Saffron City (via Route 5).
+3. Return Doll to Copycat.
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
