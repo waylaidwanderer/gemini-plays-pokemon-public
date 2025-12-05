@@ -74,6 +74,20 @@
 - **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
 
 # STRATEGIC KNOWLEDGE BASE
+
+## Game Mechanics & Systems
+- **Day/Night Cycle:** An important mechanic, affecting events.
+- **POKé BALLS:** Received 5 from the scientist in Elm's Lab. Can now catch wild Pokémon.
+- **PC Storage:** Used for Pokémon and item storage in Pokémon Centers.
+- **BERRY Trees:** Grow new BERRIES every day.
+- **Healing:** Pokémon Centers restore all HP/PP and cure status conditions.
+- **Game State Updates:** Map data (like a `CUT_TREE` changing to a `FLOOR`) doesn't fully update until all on-screen text is cleared. Using tools like `find_path` before the overworld is fully interactive will use stale data and fail.
+- **HEADBUTT Mechanic:** Can be used outside of battle on `HEADBUTT_TREE` tiles to encounter sleeping Pokémon.
+- **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELER) evolve when traded.
+- **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
+- **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
+- **Item Interaction:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own Pokémon. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
+
 ## Navigational Lessons
 - **Trust Pathfinder Data:** When `find_path` returns 'No path found', it is providing accurate data about the map's layout. I must treat this as a signal that I'm facing a navigation puzzle, not a tool failure. Wasting time in Olivine City was a direct result of not trusting this data.
 - **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
@@ -85,66 +99,41 @@
 - **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `find_path` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
 - **Vertical Puzzle Solutions:** When stuck on a lower floor of a multi-level puzzle, the solution may require ascending to a higher floor to find a path that leads down into the previously inaccessible area. Don't assume the path forward is always on the same level or immediately adjacent.
 
-## Game Mechanics & Systems
-- The Day/Night cycle is an important mechanic in this game, affecting events.
-- Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
-- The PC in Pokémon Centers is used for Pokémon and item storage.
-- BERRY trees grow new BERRIES every day.
-- Healing at a Pokémon Center restores all HP and PP for the entire party and cures any status conditions.
-- **Game State Updates:** The game's internal map data (like a `CUT_TREE` changing to a `FLOOR`) does not fully update until all on-screen text from the preceding action is cleared. Attempting to use tools like `find_path` before the overworld is fully interactive will result in the tool using stale data and failing.
-- **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
-- **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
-- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
-- **Rematch Mechanic:** Some trainers, like Sailor Huey, will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
-- **Item Interaction Mechanics:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
-
 ## Tile & Object Mechanics
-- **WALL**: Impassable terrain.
+- **BOOKSHELF**: An impassable object.
+- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
+- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
+- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC. To interact with NPCs behind counters, face the counter tile directly in front of them and press A.
+- **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
+- **DOOR**: A traversable warp tile leading into or out of a building.
+- **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
+- **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
+- **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above.
+- **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
+- **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
+- **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
+- **INCENSE_BURNER**: An impassable decorative object.
+- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface.
+- **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
+- **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
+- **MART_SHELF**: Impassable terrain, functions like a wall.
+- **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
+- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
+- **PLANT**: A decorative object that functions as an impassable WALL tile.
+- **RADIO**: An impassable object.
+- **SIGN**: An impassable, interactable object. Functions as a wall.
 - **STAIRCASE**: A traversable warp tile that moves the player between floors.
+- **TALL_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **TOWN_MAP**: An interactable object on a wall; impassable.
 - **TV**: An impassable object.
-- **BOOKSHELF**: An impassable object.
-- **RADIO**: An impassable object.
-- **DOOR**: A traversable warp tile leading into or out of a building.
-- **WATER**: Impassable terrain without a specific HM (likely Surf).
-- **HEADBUTT_TREE**: An interactable tree, probably requires the Headbutt move. Impassable.
-- **TALL_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
-- **LEDGE_HOP_RIGHT**: A one-way traversable tile. Can only be entered from the left, moving right.
-- **LEDGE_HOP_DOWN**: A one-way traversable tile. Can only be entered from above, moving down.
-- **LEDGE_HOP_LEFT**: A one-way traversable tile. Can only be entered from the right, moving left.
-- **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
-- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC.
-- **MART_SHELF**: Impassable terrain, functions like a wall.
-- **LONG_GRASS**: Fully traversable tile. Wild POKéMON can be encountered here.
-- **PC**: An interactable object used to access the Pokémon Storage System and personal item storage. Impassable.
-- **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile above. My previous hypothesis that it was a one-way ledge was a hallucination.
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right. To activate, you must attempt to move right from the carpet tile, effectively trying to walk 'off' the map.
-- **WARP_CARPET_UP**: A traversable warp tile at the edge of a map that transitions to the adjacent map above. Must move up to activate. Confirmed that moving from this tile to a FLOOR tile below it is possible, so it is not a one-way ledge.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map below. Must move down to activate.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited. It is treated as impassable by pathfinding tools.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
-- **WARP_CARPET_LEFT**: A traversable warp tile at the edge of a a map that transitions to the adjacent map on the left. To activate, you must attempt to move left from the carpet tile, effectively trying to walk 'off' the map.
-- **TEACHER / LASS / BIRD / OFFICER / YOUNGSTER / POKEFAN_M**: These NPC objects are impassable and function as walls.
-- **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item (like PRZCUREBERRY) when interacted with for the first time. Subsequent interactions yield nothing.
-- **CAVE**: A traversable warp tile that functions as an entrance to a cave.
-- **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild POKéMON can be encountered here.
-- **FLOWER**: Fully traversable decorative tile.
-- **SIGN**: An impassable, interactable object. Functions as a wall.
-- **To interact with objects** like ladders, signs, or switches, you must be on an adjacent tile and facing the object. Attempting to interact while standing *on* the object itself will fail.
-- **Route 30's one-way ledges** (`LEDGE_HOP_DOWN`) make northbound travel from Cherrygrove City impossible. The route is effectively a one-way path when traveling south from Route 31. This is a critical piece of information for future navigation planning.
-- **SUPER_NERD**: Impassable NPC, functions as a wall.
-- **Pathing to Impassable Objects:** When using a pathfinding tool to navigate to an impassable object (like an NPC, sign, or vending machine), the target coordinates must be a valid, traversable tile *adjacent* to the object, not the object's tile itself.
-- **PLANT**: A decorative object that functions as an impassable WALL tile.
-- **INCENSE_BURNER**: An impassable decorative object.
-- **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
-- **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. This is an environmental warp and will NOT appear in the official `Game State Information -> Warps` list.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
+- **WALL**: Impassable terrain.
+- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
+- **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
-- **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
-- **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
+- **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 
 ## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -152,9 +141,9 @@
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
 - The auto-activation threshold for a held BERRY is likely below 25% HP.
 - A single high-level Pokémon cannot carry an entire under-leveled team through a major battle like a Gym.
-- Levels Over Type Advantage: A significant level disparity can completely negate type advantages. My Lv8 ROCKY was one-shot by a move it should have resisted, proving that raw power from a higher level is a critical factor.
-- Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat. Prioritize eliminating it quickly, even if it means using a stronger Pokémon and not spreading EXP optimally, to avoid having the whole team disabled.
-- Type Immunity vs. Level Disparity: Type immunity (e.g., Flying vs. Ground) is not a guaranteed defense against a much higher-level opponent. A significant level gap means the opponent can still knock out the immune Pokémon with its other, non-resisted moves.
+- Levels Over Type Advantage: A significant level disparity can completely negate type advantages.
+- Low-HP Threat: A low-HP Pokémon with a status move like Hypnosis is still a major threat.
+- Type Immunity vs. Level Disparity: Type immunity is not a guaranteed defense against a much higher-level opponent.
 
 ## Type Effectiveness Chart (Verified)
 | Attacking Type | Defending Type | Effectiveness |
@@ -173,9 +162,9 @@
 | Water | Ground | Super Effective |
 
 ## Menu Navigation
-- For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next. Do not mix directional and action buttons in the same input sequence to avoid errors.
-- In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves. Confusing these leads to menu loops.
-- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right). Navigating from FIGHT requires 'Right' for PKMN and 'Down' for PACK.
+- For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next.
+- In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves.
+- The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right).
 
 # CURRENT QUEST: Investigate Olivine Lighthouse
 - **Objective:** Find the trigger that opens the path to Ecruteak City, which is likely inside the Olivine Lighthouse.
