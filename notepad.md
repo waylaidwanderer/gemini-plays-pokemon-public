@@ -6,11 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Celadon Mansion Penthouse. 4/8 Badges.
+**Status:** Celadon City (Central). 4/8 Badges.
 **Objective:** Defeat Erika (Celadon Gym).
 **Action Plan:**
-1. Locate and Challenge Celadon Gym.
-2. (Optional) Return to Pharmacist at night.
+1. Locate Celadon Gym (South).
+2. Challenge Erika.
+3. (Night) Return to Pharmacist in Mansion Penthouse.
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
