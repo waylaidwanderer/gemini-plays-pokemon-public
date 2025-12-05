@@ -17,13 +17,14 @@
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
 
 ## Pewter City
-- **Status:** Exploring.
+- **Status:** Explored.
 - **Geography:**
   - Pokémon Center: (13, 25).
   - Gym: (16, 17).
   - Mart: (23, 17).
   - Museum: (15, 9).
-- **Key NPCs:** Old Man (Silver Wing) - Check East side.
+  - Nidoran House: (29, 13).
+- **Key NPCs:** Old Man (Silver Wing Obtained) - (28, 17).
 
 ## Route 2 (Traversed)
 - **Geography:** Diglett's Cave South (12, 7). Nugget House East (15, 15).
