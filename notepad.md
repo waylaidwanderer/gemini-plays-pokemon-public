@@ -12,7 +12,6 @@
 1. Locate Celadon Gym (South).
 2. Challenge Erika.
 3. (Night) Return to Pharmacist in Mansion Penthouse.
-
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
 
