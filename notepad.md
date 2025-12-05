@@ -169,6 +169,7 @@
   - Pharmacist (PC): Flavor text.
   - Super Nerd (PC): Eusine? (Mentioned Suicune).
   - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
-## Celadon Mansion
+## Celadon Mansion (Manager's Suite)
 - **Status:** Exploring 1F.
 - **Geography:** Entrance at (16, 9) in Celadon City.
+- **NPCs:** Granny (1, 5), Growlithe (2, 6).
