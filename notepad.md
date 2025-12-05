@@ -296,21 +296,10 @@
 - **Quest Trigger Logic:** Accepting a quest from a key NPC (like Jasmine) does not guarantee that all related NPC blockers will immediately be removed. Some paths may remain closed until a different, often unrelated, major objective is completed (like obtaining a new HM or badge).
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
-# Tools & Agents
-## Built-in Tools
-- `notepad_edit`: Edits the notepad.
-- `run_code`: Executes Python code.
-- `define_map_marker`: Creates or updates a map marker.
-- `delete_map_marker`: Deletes a map marker.
-- `stun_npc`: Freezes or unfreezes an NPC.
-- `define_tool`: Creates or updates a reusable custom tool.
-- `delete_tool`: Deletes a custom tool.
-- `define_agent`: Creates or updates a custom agent.
-- `delete_agent`: Deletes a custom agent.
-- `select_battle_option`: Selects a main battle menu option.
+# Custom Tools & Agents
 ## Custom Tools
 - `find_path`: Calculates the shortest path between two points on the current map.
-- `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type. (BROKEN - DO NOT USE)
+- `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type.
 - `select_item`: Automates selecting an item from the bag menu.
 - `select_move`: Automates selecting a move from the battle menu.
 - `switch_pokemon`: Automates switching Pokémon during a battle.
