@@ -333,3 +333,9 @@
 
 # Tool Failure Log
 - `plan_systematic_search_path`: Catastrophically fails with a `ModuleNotFoundError` for the standard 'xml' library. Re-defining the tool does not fix the issue. Do not use this tool until a new solution is found. This appears to be a system-level execution error, not a logic bug in the script.
+
+# Tile & Object Mechanics (New)
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+
+# Puzzle Solutions & Lessons (New)
+- **Tool Logic Philosophy:** My `find_path` tool failed repeatedly due to overly complex, multi-step, and brittle logic for obstacle detection. The correct solution was to replace it with a single, clear, and robust conditional. Lesson: When designing tools, prefer simple, general rules over complex, specific ones that are prone to edge-case failures.
