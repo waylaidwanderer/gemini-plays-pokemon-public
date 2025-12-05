@@ -320,3 +320,6 @@
 # Moomoo Farm Puzzle Solution
 - The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
 - The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
+
+# Navigational Lessons
+- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
