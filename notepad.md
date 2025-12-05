@@ -261,10 +261,13 @@
 ## Custom Tools
 - `find_path`: Calculates the shortest path between two points on the current map.
 - `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type.
+- `select_item`: Automates selecting a specific item from the bag menu.
+- `select_move`: Selects a move from the battle menu by name.
+- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
+
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 
 # Navigational Lessons
 - **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), they may not be functionally identical. Each variable must be tested independently to avoid missing a unique solution.
