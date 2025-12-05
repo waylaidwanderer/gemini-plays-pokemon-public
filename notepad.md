@@ -326,3 +326,6 @@
 
 # Puzzle Solutions & Lessons
 - **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits or disconnected map sections. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
+
+# Navigational Lessons
+- **Trust Tools Over Visuals (Route 39):** My `find_path` tool correctly identified a maze-like path on Route 39 that I visually misinterpreted as a simple straight path. This confirms that a 'No path found' or a convoluted path result is valuable, correct data, not a tool failure. I must trust my verified tools and map data over my own flawed visual assessment.
