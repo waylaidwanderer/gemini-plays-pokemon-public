@@ -1,12 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Pewter City Gym Challenge
-**Status:** Inside Pokémon Center (14_6).
+**Status:** In Pewter City (Healed).
 **Objective:** Defeat Brock (Boulder Badge).
 **Action Plan:**
-1. Heal at Pokémon Center.
-2. Find Old Man (East Pewter) for Silver Wing.
-3. Challenge Brock.
+1. Locate Gym (North/West).
+2. Challenge Brock.
+3. Find Old Man (East Pewter) for Silver Wing.
 
 ## Pewter City
 - **Status:** Exploring.
