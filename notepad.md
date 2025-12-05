@@ -182,3 +182,4 @@
   - 1F: Manager (Granny), Meowth.
   - 3F: Game Freak Staff (Designer, Programmer).
   - Roof: Fisher.
+- **Pharmacist (Penthouse):** Tells a scary story only at NIGHT.
