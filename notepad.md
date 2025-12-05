@@ -174,4 +174,4 @@
 ## Celadon Mansion (Manager's Suite)
 - **Status:** Exploring 1F.
 - **Geography:** Entrance at (16, 9) in Celadon City.
-- **NPCs:** Granny (1, 5), Meowth (2, 6), Clefairy (3, 4), Growlithe (4, 4).
+- **NPCs:** Granny (1, 5), Meowth (2, 6), Clefairy (3, 4), Nidoran (4, 4).
