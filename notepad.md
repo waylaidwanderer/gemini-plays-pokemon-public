@@ -9,10 +9,9 @@
 **Status:** Inside Pewter Gym.
 **Objective:** Defeat Brock (Boulder Badge).
 **Action Plan:**
-1. Go East to x=19 to bypass wall (Completed).
-2. Head North to locate Gym and Museum.
-3. Locate Old Man in East Pewter for Silver Wing.
-4. Challenge Brock.
+1. Defeat Camper Jerry (Completed).
+2. Challenge Brock.
+3. Locate Old Man in East Pewter for Silver Wing (After Gym).
 
 ## Pewter City
 - **Status:** Exploring.
