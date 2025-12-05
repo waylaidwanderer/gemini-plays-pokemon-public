@@ -316,3 +316,7 @@
 # Lessons Learned from Moomoo Farm
 - **Item Specificity:** The game may require a generic item (e.g., 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY'). This is a critical mechanic for item-based quests.
 - **Location Verification:** A major hallucination occurred where I believed I was on Route 39 while still inside the farmhouse. This wasted turns and caused tool failures. Lesson: I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY action to prevent this type of critical error.
+
+# Moomoo Farm Puzzle Solution
+- The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
+- The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
