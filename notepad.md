@@ -285,3 +285,4 @@
 
 # To-Do
 - After this battle, use `check_reachable_unseen_tiles` to investigate the tile at Route 39 (1, 35).
+- After this battle, use `check_reachable_unseen_tiles` to investigate the tile at Route 39 (1, 35).
