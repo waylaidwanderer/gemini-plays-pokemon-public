@@ -516,7 +516,7 @@
     ]
   },
   "select_move": {
-    "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list.",
+    "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list. Adds sleep delays for robustness.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -532,7 +532,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\nscreen_text = input_data.get('screen_text', '')\ntarget_move = input_data.get('move_name', '').upper().strip()\n\nif not screen_text or not target_move:\n    print(json.dumps([]))\n    exit()\n\nlines = screen_text.split('\\n')\ncursor_row = -1\ntarget_row = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_row = i\n    if target_move in line.upper():\n        target_row = i\n\nif cursor_row != -1 and target_row != -1:\n    diff = target_row - cursor_row\n    buttons = []\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.append('A')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))",
+    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\nscreen_text = input_data.get('screen_text', '')\ntarget_move = input_data.get('move_name', '').upper()\n\nlines = screen_text.split('\\n')\ncursor_line = -1\ntarget_line = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_line = i\n    if target_move in line.upper():\n        target_line = i\n\nbuttons = []\nif cursor_line != -1 and target_line != -1:\n    diff = target_line - cursor_line\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 500\")\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
@@ -578,6 +578,11 @@
         "commit_message": "fix: Update select_move to handle vertical move lists used in Gen 2 (Crystal), replacing the incorrect 2x2 grid logic. Calculates button presses based on line difference between the cursor '▶' and the target move in the screen text.",
         "timestamp": "2025-12-01T21:58:56.900Z",
         "action_counter": 16736
+      },
+      {
+        "commit_message": "fix: Add sleep delays (500ms) between directional inputs in select_move to ensure the game registers each press during menu navigation. This addresses reliability issues where rapid inputs were ignored.",
+        "timestamp": "2025-12-05T07:29:11.785Z",
+        "action_counter": 19985
       }
     ]
   }
