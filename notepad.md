@@ -290,3 +290,16 @@
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
 - **Quest Trigger Logic:** Accepting a quest from a key NPC (like Jasmine) does not guarantee that all related NPC blockers will immediately be removed. Some paths may remain closed until a different, often unrelated, major objective is completed (like obtaining a new HM or badge).
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
+
+# Custom Tools & Agents
+
+## Tools
+- `check_reachable_unseen_tiles`: Finds all reachable, unexplored tiles on the current map.
+- `find_path`: Calculates the shortest path between two points on the current map.
+- `select_item`: Automates selecting an item from the bag menu.
+- `select_move`: Automates selecting a move from the battle menu.
+- `switch_pokemon`: Automates switching Pokémon during a battle.
+
+## Agents
+- `python_code_debugger`: Analyzes and corrects faulty Python scripts.
+- `puzzle_solver`: Generates new hypotheses for in-game puzzles.
