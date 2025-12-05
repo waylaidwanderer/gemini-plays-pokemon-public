@@ -6,10 +6,10 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Celadon Mansion Roof (West Wing). 4/8 Badges.
+**Status:** Celadon Mansion Penthouse. 4/8 Badges.
 **Objective:** Defeat Erika (Celadon Gym).
 **Action Plan:**
-1. Explore the isolated West Wing (Penthouse).
+1. Talk to the Pharmacist (Penthouse).
 2. Locate and Challenge Celadon Gym.
 
 ### Completed Objectives
