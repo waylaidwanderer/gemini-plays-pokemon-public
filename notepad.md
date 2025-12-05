@@ -1,5 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
+## 🌍 Global Status & Quests
+- **Kanto Campaign:** Obtain 8 Badges.
+- **Copycat (Saffron):** Quest Active. Have Doll. Return to Saffron.
+- **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
+
 ## 📍 Current Mission: Pewter City Gym Challenge
 **Status:** In Pewter City (Healed).
 **Objective:** Defeat Brock (Boulder Badge).
