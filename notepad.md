@@ -6,13 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Mt. Moon Gift Shop.
-**Objective:** Enter Mt. Moon and traverse to Cerulean City.
+**Status:** Arrived in Cerulean City.
+**Objective:** Heal at PC, then challenge Misty.
 **Action Plan:**
-1. Head East to Route 3.
-2. Traverse Mt. Moon to reach Cerulean City.
-3. Locate Misty (Cerulean) and return Doll to Copycat (Saffron).
-(Note: Deviating from Strategist's South recommendation to prioritize these objectives.)
+1. Heal at Pokémon Center (19, 21).
+2. Locate and defeat Misty (Cerulean Gym).
+3. Return Doll to Copycat (Saffron).
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
