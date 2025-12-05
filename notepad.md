@@ -10,7 +10,7 @@
 **Objective:** Defeat Brock (Boulder Badge).
 **Action Plan:**
 1. Defeat Camper Jerry (Completed).
-2. Challenge Brock (In Progress - Current: Onix Lv 44).
+2. Challenge Brock (In Progress - Current: Kabutops).
 3. Locate Old Man in East Pewter for Silver Wing (After Gym).
 
 ## Pewter City
