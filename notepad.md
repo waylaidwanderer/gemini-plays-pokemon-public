@@ -185,6 +185,7 @@
 - **TM08 ROCK SMASH:** Received from a man on Route 36 after a battle.
 
 # NPC Dialogue
+- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
 - **FIREBREATHER WALT on Route 35:** Said "I'm practicing my fire breathing." despite appearing as a FISHER sprite. Likely a Fire-type trainer.
