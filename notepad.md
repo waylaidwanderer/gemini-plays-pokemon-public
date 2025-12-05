@@ -167,7 +167,7 @@
 - **Map Markers:** Use simple, standard Unicode emojis. Complex or composite emojis (e.g., ⚕️) may fail validation.
 
 ## Celadon City
-- **Status:** Arrived. At Pokémon Center.
+- **Status:** Exploring. West alley (x=12) dead end. Heading to East alley (x=32) to find Mansion back door.
 - **Key NPCs:**
   - Gentleman (PC): Friendship Rater.
   - Pharmacist (PC): Flavor text.
