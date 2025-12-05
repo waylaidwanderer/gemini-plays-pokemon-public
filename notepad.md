@@ -339,3 +339,6 @@
 
 # Puzzle Solutions & Lessons (New)
 - **Tool Logic Philosophy:** My `find_path` tool failed repeatedly due to overly complex, multi-step, and brittle logic for obstacle detection. The correct solution was to replace it with a single, clear, and robust conditional. Lesson: When designing tools, prefer simple, general rules over complex, specific ones that are prone to edge-case failures.
+
+# Puzzle Solutions & Lessons (New)
+- **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
