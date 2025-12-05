@@ -20,8 +20,9 @@
 - **Status:** Exploring.
 - **Geography:**
   - Pokémon Center: (13, 25).
-  - Gym: Likely Central/West.
-  - Museum: Likely North.
+  - Gym: (16, 17).
+  - Mart: (23, 17).
+  - Museum: (15, 9).
 - **Key NPCs:** Old Man (Silver Wing) - Check East side.
 
 ## Route 2 (Traversed)
