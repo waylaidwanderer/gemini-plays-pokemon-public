@@ -111,7 +111,7 @@
 - **To interact with NPCs behind counters** (like Nurses or Clerks), you must face the counter tile directly in front of them, not the NPC tile itself, and then press A.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile. Confirmed by attempting to move onto it.
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. This is an environmental warp and will NOT appear in the official `Game State Information -> Warps` list.
-- **LADDER**: Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a `<Warp>` child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
+- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
 - **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
@@ -294,16 +294,25 @@
 - **Quest Trigger Logic:** Accepting a quest from a key NPC (like Jasmine) does not guarantee that all related NPC blockers will immediately be removed. Some paths may remain closed until a different, often unrelated, major objective is completed (like obtaining a new HM or badge).
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
-# Custom Tools & Agents
-
-## Tools
+# Tools & Agents
+## Built-in Tools
+- `notepad_edit`: Edits the notepad.
+- `run_code`: Executes Python code.
+- `define_map_marker`: Creates or updates a map marker.
+- `delete_map_marker`: Deletes a map marker.
+- `stun_npc`: Freezes or unfreezes an NPC.
+- `define_tool`: Creates or updates a reusable custom tool.
+- `delete_tool`: Deletes a custom tool.
+- `define_agent`: Creates or updates a custom agent.
+- `delete_agent`: Deletes a custom agent.
+- `select_battle_option`: Selects a main battle menu option.
+## Custom Tools
 - `check_reachable_unseen_tiles`: Finds all reachable, unexplored tiles on the current map.
 - `find_path`: Calculates the shortest path between two points on the current map.
 - `select_item`: Automates selecting an item from the bag menu.
 - `select_move`: Automates selecting a move from the battle menu.
 - `switch_pokemon`: Automates switching Pokémon during a battle.
-
-## Agents
+## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
 
@@ -311,6 +320,5 @@
 - **Route 39 Ledges:** This route contains one-way ledges that make northbound travel from Olivine City impossible. It's a critical dead end when attempting to backtrack north.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a `<Warp>` child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a `<Warp>` child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
+- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
