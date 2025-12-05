@@ -2,16 +2,16 @@
 
 ## 🌍 Global Status & Quests
 - **Kanto Campaign:** Obtain 8 Badges.
-- **Copycat (Saffron):** Quest Active. Have Doll. Return to Saffron.
+- **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Misty Defeated (Cascade Badge Obtained).
-**Objective:** Return Doll to Copycat (Saffron).
+**Status:** Pass Obtained. 4/8 Badges.
+**Objective:** Defeat Erika in Celadon City.
 **Action Plan:**
-1. Exit Cerulean Gym.
-2. Travel South to Saffron City (via Route 5).
-3. Return Doll to Copycat.
+1. Exit Copycat's House.
+2. Travel West to Celadon City (via Route 7).
+3. Locate and Challenge Celadon Gym.
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
