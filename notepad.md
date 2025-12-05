@@ -4,9 +4,10 @@
 **Status:** In Pewter City (Healed).
 **Objective:** Defeat Brock (Boulder Badge).
 **Action Plan:**
-1. Locate Gym (North/West).
-2. Challenge Brock.
-3. Find Old Man (East Pewter) for Silver Wing.
+1. Go East to x=19 to bypass wall.
+2. Head North to locate Gym and Museum.
+3. Locate Old Man in East Pewter for Silver Wing.
+4. Challenge Brock.
 
 ## Pewter City
 - **Status:** Exploring.
