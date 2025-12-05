@@ -295,9 +295,6 @@
 # Agent Escalation Protocol
 - When an exploration path is confirmed as a dead end (e.g., blocked by an unmovable NPC), I MUST immediately mark it with '🚫' to prevent getting stuck in a wasteful exploration loop. Furthermore, if I find myself repeatedly testing failed hypotheses for a puzzle, I MUST escalate to my `puzzle_solver` agent instead of continuing the loop. This is a non-negotiable protocol to prevent strategic stagnation.
 
-# Tool Failure Log
-- `plan_systematic_search_path`: Catastrophically fails with a `ModuleNotFoundError` for the standard 'xml' library. Re-defining the tool does not fix the issue. Do not use this tool until a new solution is found. This appears to be a system-level execution error, not a logic bug in the script.
-
 # To-Do
 - Unstun Sailor (ID 3) in Olivine City when I return.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
