@@ -171,3 +171,4 @@
 - **Pharmacist (Penthouse):** Tells a scary story only at NIGHT.
 - **Shortcuts:** Cut Tree at (28, 35) removed, opening southern path to Gym.
 - **Tool Usage:** Custom tools returning button arrays (e.g., `select_move`) MUST be called with `autopress_buttons: true` to execute.
+- Route 16 West Gatehouse Exit (0,4) leads to a dead end. The correct path to Cycling Road requires Cut on the East side (Celadon side).
