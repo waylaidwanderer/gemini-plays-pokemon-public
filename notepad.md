@@ -325,3 +325,6 @@
 
 # Olivine Lighthouse Puzzle - Hypothesis Testing
 - Agent Hypothesis #1 (Window Exit): FAILED. Interacting with the window at (4, 1) on 3F only produces flavor text. Attempting to walk through it results in a bump. The window is not an exit.
+
+# Olivine Lighthouse Puzzle - Agent Hypotheses
+- **Hypothesis 1 (Two Pits):** FAILED. Tested both pits on 2F at (16, 13) and (17, 13). Both lead to the same dead-end exit room on 1F. This is not the path forward.
