@@ -118,7 +118,6 @@
 - **find_path:** Pathfinding with A*.
 - **attempt_surf:** Automates surfing interaction.
 - **select_move:** Selects battle moves via screen text.
-- **select_battle_option:** Automatically selects main battle menu options.
 - **force_press_button:** Automates repetitive inputs.
 - **navigate_menu:** Robustly selects menu options by reading screen text.
 - **kanto_strategist:** Tracks Kanto badges and objectives to recommend next steps.
