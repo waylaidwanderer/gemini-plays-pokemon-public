@@ -9,7 +9,8 @@
 **Status:** Celadon City (South). 4/8 Badges.
 **Objective:** Defeat Erika (Celadon Gym).
 **Action Plan:**
-1. Locate Celadon Gym (South).
+1. Locate Celadon Gym (South). [Found Visually]
+2. Find Gym Entrance.
 2. Challenge Erika.
 3. (Night) Return to Pharmacist in Mansion Penthouse.
 ### Completed Objectives
