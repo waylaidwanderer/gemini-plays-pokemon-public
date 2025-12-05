@@ -9,9 +9,10 @@
 **Status:** Pewter City (Silver Wing Obtained).
 **Objective:** Travel East to Route 3 and Mt. Moon.
 **Action Plan:**
-1. Investigate House at (29, 13).
-2. Head East to Route 3.
-3. Traverse Mt. Moon.
+1. Head East to Route 3.
+2. Traverse Mt. Moon to reach Cerulean City.
+3. Locate Misty (Cerulean) and return Doll to Copycat (Saffron).
+(Note: Deviating from Strategist's South recommendation to prioritize these objectives.)
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
