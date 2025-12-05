@@ -5,13 +5,13 @@
 - **Copycat (Saffron):** Quest Active. Have Doll. Return to Saffron.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
-## 📍 Current Mission: Silver Wing Quest
-**Status:** Pewter City (Gym Defeated).
-**Objective:** Locate Old Man in East Pewter for Silver Wing.
+## 📍 Current Mission: Kanto Journey
+**Status:** Pewter City (Silver Wing Obtained).
+**Objective:** Travel East to Route 3 and Mt. Moon.
 **Action Plan:**
-1. Exit Pewter Gym.
-2. Talk to Old Man at (31, 17).
-3. Obtain Silver Wing.
+1. Investigate House at (29, 13).
+2. Head East to Route 3.
+3. Traverse Mt. Moon.
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
