@@ -280,3 +280,7 @@
 # Tile & Object Mechanics
 - **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
 - **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
+
+# Tile & Object Mechanics
+- **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
+- **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
