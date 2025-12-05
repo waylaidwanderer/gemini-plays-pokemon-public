@@ -161,3 +161,4 @@
 - Battle Strategy: Smokescreen forces Rollout misses, resetting its damage chain.
 - **Strategy Deviation:** Strategist advised South to Cinnabar, but opting for East to Cerulean/Saffron for quest efficiency (Copycat/Misty).
 - Route 3: Upper path blocked at x=24. Jumped down ledges at x=21. Exploring lower area (Grass/Trainers).
+- **Sprite Reliability:** Overworld sprites can be misleading (e.g., Firebreather using Fisher sprite). Always trust the battle intro text for accurate trainer identification.
