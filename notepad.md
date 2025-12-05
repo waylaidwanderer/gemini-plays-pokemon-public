@@ -109,15 +109,11 @@
 - **Radio Tower:** Located North.
 - **Name Rater:** Likely the house south of the mart.
 
-## Saffron City
-- Arrived via Route 6 Gate.
-- Goal: Deliver Lost Item (Doll) to Copycat (NW). Gym Defeated.
-- **Syntax Reminder:** 'path' is a valid harness command for buttons_to_press, but NOT a custom tool. Use 'find_path' to generate the coordinates for it.
-  - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
-- **Location:** North Saffron (near Magnet Train).
-- Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
-- Cerulean: Cooltrainer F at (21, 24) has a Slowbro. 
-- Fisher (Saffron PC): Cerulean Cave has collapsed.
+## Saffron City (Cleared)
+- **Gym:** Sabrina Defeated (Marsh Badge).
+- **Copycat:** Doll Returned. Train Pass Obtained.
+- **Connection:** Magnet Train operational.
+- **Notes:** Fisher (PC) confirmed Cerulean Cave collapse.
 
 ## Active Custom Tools & Features
 - **find_path:** Pathfinding with A*.
