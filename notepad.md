@@ -90,7 +90,7 @@
 - **Menu Navigation:** Blind menu macros are unreliable due to wrapping and cursor memory. Always use `navigate_menu` or visual feedback tools.
 
 ## Trainer Rosters
-- **Cerulean Gym (Misty):** Golduck (Lv42), Quagsire (Lv42), Lapras.
+- **Cerulean Gym (Misty):** Golduck (Lv42), Quagsire (Lv42), Lapras (Lv44), Starmie.
 - **Saffron Gym:** Defeated.
 
 ### Elite Four Strategy
