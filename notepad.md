@@ -269,6 +269,8 @@
 # Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
+- Hiker Anthony on Route 33 called for a battle.
+- Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 # Moomoo Farm Puzzle - Agent Hypotheses
