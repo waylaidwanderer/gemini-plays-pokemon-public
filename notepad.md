@@ -75,6 +75,7 @@
 
 # STRATEGIC KNOWLEDGE BASE
 ## Navigational Lessons
+- **Trust Pathfinder Data:** When `find_path` returns 'No path found', it is providing accurate data about the map's layout. I must treat this as a signal that I'm facing a navigation puzzle, not a tool failure. Wasting time in Olivine City was a direct result of not trusting this data.
 - **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
@@ -94,7 +95,7 @@
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
-- **Battle Anomaly:** A recurring issue has been observed where interacting with some trainers (e.g., Sailor Huey, Gentleman Alfred, Youngster on Route 39) displays their pre-battle dialogue, but the game then returns to the overworld without initiating combat. This is inconsistent, as some of these trainers have been successfully battled on later attempts. If a battle fails to start after 1-2 attempts, mark the trainer as bugged and move on to avoid getting stuck in an interaction loop.
+- **Rematch Mechanic:** Some trainers, like Sailor Huey, will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. The previous 'Battle Anomaly' was a misunderstanding of this mechanic. A trainer might not battle if you haven't received their call yet.
 - **Item Interaction Mechanics:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 
 ## Tile & Object Mechanics
@@ -192,7 +193,7 @@
 - **TM39 SWIFT**
 - **TM45 ATTRACT**
 - **TM49 FURY CUTTER**
-- **TM08 ROCK SMASH:** Received from a man on Route 36 after defeating the Sudowoodo.
+- **TM08 ROCK SMASH:** Received from a man on Route 36 after a battle.
 
 # NPC Dialogue
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
@@ -274,12 +275,6 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# To-Do
-- Unstun Sailor (ID 3) in Olivine City when I return.
-
-# To-Do
-- Unstun Sailor (ID 1) on OlivineLighthouse2F after exploring.
 
 # New Lessons
 - Trust verified tool outputs over my own visual assessment. A 'No path found' result is valuable, correct data about the map's layout, not a tool failure.
