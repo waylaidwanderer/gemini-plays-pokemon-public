@@ -320,3 +320,4 @@
 # Navigational Lessons
 - **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
 - **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `find_path` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
+- **To-Do:** Unstun Sailor (ID 3) in Olivine City.
