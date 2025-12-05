@@ -293,9 +293,6 @@
 ## Custom Tools
 - `find_path`: Calculates the shortest path between two points on the current map.
 - `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type.
-- `select_item`: Automates selecting an item from the bag menu.
-- `select_move`: Automates selecting a move from the battle menu.
-- `switch_pokemon`: Automates switching Pokémon during a battle.
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
