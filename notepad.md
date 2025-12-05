@@ -54,6 +54,8 @@
 - **TALL_GRASS:** Walkable (Wild Encounters).
 - **WATER:** Traversable (Surf required).
 - **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), and Route 3 (18, 12).
+- **FLOOR_LEFT_WALL:** Directional Wall. Blocks movement to the LEFT. Verified on Celadon Mansion Roof.
+- **FLOOR_RIGHT_WALL:** Directional Wall. Blocks movement to the RIGHT. Verified on Celadon Mansion Roof.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Acts as a reset on Map 3_64.
 - **LEDGE_HOP_RIGHT:** One-way jump Right.
 - **ROCK:** Breakable (Rock Smash).
