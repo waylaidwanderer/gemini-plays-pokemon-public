@@ -715,40 +715,6 @@
       }
     ]
   },
-  "simple_path": {
-    "description": "A simplified pathfinding tool that navigates between two points, avoiding only impassable tile types like 'WALL'. It does not account for objects or warps, making it less intelligent but more reliable for basic navigation when the main `find_path` tool is broken.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y:\n        max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x:\n            max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\nWALKABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'LADDER', 'PIT', 'DOOR', 'STAIRCASE', 'CAVE'}\n\ngrid = [['WALL' for _ in range(width)] for _ in range(height)]\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        if tile_type in WALKABLE_TYPES:\n            grid[y][x] = 'FLOOR'\n\ndef bfs(grid, start, end):\n    queue = collections.deque([[start]])\n    seen = {start}\n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        if (x, y) == end:\n            return path\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            next_x, next_y = x + dx, y + dy\n            if 0 <= next_y < len(grid) and 0 <= next_x < len(grid[0]):\n                if grid[next_y][next_x] == 'FLOOR' and (next_x, next_y) not in seen:\n                    seen.add((next_x, next_y))\n                    new_path = list(path)\n                    new_path.append((next_x, next_y))\n                    queue.append(new_path)\n    return None\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\npath = bfs(grid, start_node, end_node)\n\nif path:\n    formatted_path = [{'x': x, 'y': y} for x, y in path]\n    print(json.dumps(formatted_path))\nelse:\n    print(json.dumps('No path found'))",
-    "history": [
-      {
-        "commit_message": "feat: Create simple_path tool. This is a temporary, less intelligent pathfinder that only avoids impassable tile types. It's being created to break the debugging loop on the more complex `find_path` tool and allow for reliable basic navigation in the short term.",
-        "timestamp": "2025-12-03T08:15:01.120Z",
-        "action_counter": 34277
-      }
-    ]
-  },
   "switch_pokemon": {
     "description": "Automates switching to a specific Pokémon in the party during a battle. Takes the target Pokémon's name and a string of the current screen text.",
     "input_schema": {
