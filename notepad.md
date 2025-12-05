@@ -50,9 +50,6 @@
 - **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
-# High Priority Task
-- Fix the `find_path` tool. The `simple_path` tool is too unreliable as it doesn't account for objects. The main tool needs to be updated to correctly handle on-screen objects and complex warp tiles to prevent future pathing failures.
-
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
 - Received 5 POKé BALLS from the scientist in Elm's Lab. I can now catch wild Pokémon.
