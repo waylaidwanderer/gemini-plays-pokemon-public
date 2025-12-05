@@ -176,6 +176,7 @@
 - **Pharmacist (Penthouse):** Tells a scary story only at NIGHT.
 - **Shortcuts:** Cut Tree at (28, 35) removed, opening southern path to Gym.
 - **Tool Usage:** Custom tools returning button arrays (e.g., `select_move`) MUST be called with `autopress_buttons: true` to execute.
-- Route 16 West Gatehouse Exit (0,4) leads to a dead end. The correct path to Cycling Road requires Cut on the East side (Celadon side).
-- **Hypothesis:** The Cut Tree at (15,4) on the East Side likely leads to a western path (Rows 2-4) connecting to Cycling Road. I previously only explored North (Row 0) which was a dead end, but the mental map shows open floor to the West.
-- **Route 16 Layout:** The map is divided horizontally by a wall at Row 5. The **Bottom Path** (West Gatehouse Exit) is a dead end. The **Top Path** (Accessed via Cut Tree on East Side) allows travel West along y=2, likely leading to Cycling Road.
+- **Route 16 Correction:**
+  - **East Side:** The path behind the Cut tree leads to the Fuchsia Speech House (Dead End).
+  - **West Side:** The southern path (previously thought to be a dead end) is the true entrance to Cycling Road.
+  - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
