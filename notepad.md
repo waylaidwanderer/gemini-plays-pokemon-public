@@ -167,7 +167,9 @@
 - **Map Markers:** Use simple, standard Unicode emojis. Complex or composite emojis (e.g., ⚕️) may fail validation.
 
 ## Celadon City
-- **Status:** Exploring. West alley (x=12) dead end. Heading to East alley (x=32) to find Mansion back door.
+- **Status:** Exploring South side. Found Prize Room at (23, 19).
+- **Locations:**
+  - Prize Room: (23, 19).
 - **Key NPCs:**
   - Gentleman (PC): Friendship Rater.
   - Pharmacist (PC): Flavor text.
