@@ -159,3 +159,4 @@
 - **Radio Tuning Correction:** 'Up/Down' cycles presets. To manually tune to the Poke Flute (20.0), use 'Right' to move the needle to the far end of the spectrum.
 - **Pokegear Menu:** Horizontal layout [BACK | MAP | PHONE | RADIO]. Use `force_press_button` for navigation, as `navigate_menu` is vertical-only.
 - Battle Strategy: Smokescreen forces Rollout misses, resetting its damage chain.
+- **Strategy Deviation:** Strategist advised South to Cinnabar, but opting for East to Cerulean/Saffron for quest efficiency (Copycat/Misty).
