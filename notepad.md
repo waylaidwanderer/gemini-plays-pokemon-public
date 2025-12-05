@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Mt. Moon Square.
+**Status:** Mt. Moon Gift Shop.
 **Objective:** Enter Mt. Moon and traverse to Cerulean City.
 **Action Plan:**
 1. Head East to Route 3.
