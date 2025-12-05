@@ -180,4 +180,4 @@
 - **NPCs (1F):** Granny (1, 5), Meowth (2, 6), Clefairy (3, 4), Nidoran (4, 4).
 - **Meeting Room (2F West):** Empty so far. Contains a Computer (0, 3) and Bookshelf (2, 3).
 - **Celadon Mansion 2F:** Stairs at (0,0) and (1,0) are blocked by a wall. Must access from another floor.
-- **Celadon Mansion 3F:** Arrived via stairs. Layout similar to 2F. Likely Game Freak office.
+- **Celadon Mansion 3F:** Game Freak Development Room. Contains staff and a drawing.
