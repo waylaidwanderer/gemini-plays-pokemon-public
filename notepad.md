@@ -1,8 +1,12 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Reach Pewter City
-**Status:** Exploring Route 2 Northbound.
-**Objective:** Reach Pewter City.
+## 📍 Current Mission: Pewter City Gym Challenge
+**Status:** Arriving in Pewter City.
+**Objective:** Defeat Brock (Boulder Badge).
+**Action Plan:**
+1. Heal at Pokémon Center.
+2. Get Silver Wing (Old Man, East Pewter).
+3. Challenge Brock.
 
 ## Route 2
 - **Geography:**
