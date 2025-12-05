@@ -277,3 +277,9 @@
 
 # To-Do
 - Unstun Sailor (ID 3) in Olivine City when I return.
+
+# To-Do
+- Unstun Sailor (ID 1) on OlivineLighthouse2F after exploring.
+
+# New Lessons
+- Trust verified tool outputs over my own visual assessment. A 'No path found' result is valuable, correct data about the map's layout, not a tool failure.
