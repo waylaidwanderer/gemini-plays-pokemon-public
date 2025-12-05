@@ -6,15 +6,14 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Celadon Gym Cleared. 5/8 Badges.
+**Status:** On Route 16. Heading to Cycling Road.
 **Objective:** Travel to Fuchsia City (Janine).
 **Action Plan:**
-1. Exit Gym.
-2. Heal at Center (Optional).
-3. Head West to Route 16/17 (Cycling Road).
-4. Reach Fuchsia City.
+1. Enter Cycling Road (Route 17).
+2. Ride South to Fuchsia City.
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
+- **Celadon Gym:** Erika Defeated (Rainbow Badge Obtained).
 
 ## Pewter City
 - **Status:** Explored.
