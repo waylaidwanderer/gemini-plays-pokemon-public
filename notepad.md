@@ -49,6 +49,7 @@
 - **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
 - **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
+- **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
@@ -109,6 +110,8 @@
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below. This is an environmental warp and will NOT appear in the official `Game State Information -> Warps` list.
 - **LADDER**: Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a `<Warp>` child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
+- **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
+- **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
 
 # Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -276,18 +279,6 @@
 # find_path Failure Analysis (Olivine Lighthouse)
 - The tool repeatedly failed by treating all intermediate warp tiles (even walkable `FLOOR` tiles with a warp property) as impassable walls. This created false negatives where clear paths were reported as 'No path found'.
 - The proposed fix is to introduce a `TRANSITION_WARP_TYPES` set (`DOOR`, `STAIRCASE`, `CAVE`, `PIT`, `LADDER`) to differentiate warps that force a map transition from those that are just walkable entry points. The logic should only mark intermediate `TRANSITION_WARP_TYPES` as walls, allowing the pathfinder to correctly navigate over walkable warp tiles.
-
-# Tile & Object Mechanics
-- **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
-- **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
-
-# Tile & Object Mechanics
-- **Counter Interaction:** To interact with an NPC behind a counter (like a Nurse), I must stand on the tile directly in front of the counter and press 'A'. Attempting to move onto the counter tile itself is incorrect.
-- **Map Transitions vs. Warps:** Map transitions (like the one to Route 39 at Olivine City (21, 0)) are activated by walking onto the tile at the edge of the map. They are not 'warps' in the same way doors are and should not be marked as such in my navigation goals.
-
-# Navigational Planning
-- A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
-- **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
 
 # Moomoo Farm Puzzle Solution
 - The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
