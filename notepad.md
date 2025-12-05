@@ -161,3 +161,9 @@
 - Route 3: Upper path blocked at x=24. Jumped down ledges at x=21. Exploring lower area (Grass/Trainers).
 - **Sprite Reliability:** Overworld sprites can be misleading (e.g., Firebreather using Fisher sprite). Always trust the battle intro text for accurate trainer identification.
 - **Map Markers:** Use simple, standard Unicode emojis. Complex or composite emojis (e.g., ⚕️) may fail validation.
+
+## Celadon City
+- **Status:** Arrived. At Pokémon Center.
+- **Key NPCs:**
+  - Gentleman (PC): Friendship Rater.
+  - Pharmacist (PC): Flavor text.
