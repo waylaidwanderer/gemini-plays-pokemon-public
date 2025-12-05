@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Pewter City (Silver Wing Obtained).
+**Status:** Route 3 (En route to Mt. Moon).
 **Objective:** Travel East to Route 3 and Mt. Moon.
 **Action Plan:**
 1. Head East to Route 3.
