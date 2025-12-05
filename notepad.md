@@ -51,7 +51,7 @@
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
 # Navigational & Quest Progression Lessons
-- **Route 39 Ledges:** This route contains one-way ledges that make northbound travel from Olivine City impossible. It's a critical dead end when attempting to backtrack north.
+- **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 
@@ -319,7 +319,7 @@
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
 
 # Navigational & Quest Progression Lessons
-- **Route 39 Ledges:** This route contains one-way ledges that make northbound travel from Olivine City impossible. It's a critical dead end when attempting to backtrack north.
+- **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
