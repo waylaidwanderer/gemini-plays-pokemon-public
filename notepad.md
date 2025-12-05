@@ -353,3 +353,6 @@
 
 # Puzzle Solutions & Lessons (New)
 - **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits or disconnected map sections. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
+
+# Puzzle Solutions & Lessons (New)
+- **Vertical Puzzle Solutions:** When stuck on a lower floor of a multi-level puzzle, the solution may require ascending to a higher floor to find a path that leads down into the previously inaccessible area. Don't assume the path forward is always on the same level or immediately adjacent.
