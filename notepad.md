@@ -88,7 +88,7 @@
 ## Saffron City
 - Arrived via Route 6 Gate.
 - Goal: Deliver Lost Item (Doll) to Copycat (NW). Gym Defeated.
-- **Syntax Reminder:** Do not use 'path' as a button input. Use 'path_plan' or directional buttons.
+- **Syntax Reminder:** The tool 'path' does not exist. Use 'find_path' for calculations or standard directional buttons for movement.
   - 25_14: Route 5 Saffron Gate. Officer at (0, 4).
 - **Location:** North Saffron (near Magnet Train).
 - Phone: Hiker Anthony reported Geodude swarm (likely Route 46).
