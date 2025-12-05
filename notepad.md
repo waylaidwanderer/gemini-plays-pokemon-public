@@ -97,6 +97,7 @@
 - Defeated.
 
 ## Recent Victories
+- **Misty:** Defeated (Cascade Badge).
 - **Champion Lance:** Defeated.
 - **Lt. Surge:** Defeated.
 
