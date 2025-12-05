@@ -167,6 +167,7 @@
 - **Status:** Exploring South side. Found Prize Room at (23, 19).
 - **Locations:**
   - Prize Room: (23, 19).
+  - Celadon Cafe: (25, 29).
 - **Key NPCs:**
   - Gentleman (PokeCenter): Friendship Rater.
   - Super Nerd (PokeCenter): Eusine? (Mentioned Suicune).
