@@ -282,3 +282,6 @@
 
 # Moomoo Farm Puzzle Solution
 - The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer.
+
+# To-Do
+- After this battle, use `check_reachable_unseen_tiles` to investigate the tile at Route 39 (1, 35).
