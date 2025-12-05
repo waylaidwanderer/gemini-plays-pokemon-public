@@ -1,24 +1,25 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Pewter City Gym Challenge
-**Status:** Arriving in Pewter City.
+**Status:** Inside Pokémon Center (14_6).
 **Objective:** Defeat Brock (Boulder Badge).
 **Action Plan:**
 1. Heal at Pokémon Center.
-2. Get Silver Wing (Old Man, East Pewter).
+2. Find Old Man (East Pewter) for Silver Wing.
 3. Challenge Brock.
 
 ## Pewter City
-- **Status:** In Pokémon Center.
-- **Objectives:** Heal, Challenge Gym, Get Silver Wing.
-
-## Route 2
+- **Status:** Exploring.
 - **Geography:**
-  - South: Diglett's Cave (12, 7).
-  - East: Nugget House (15, 15). Fisher gave Nugget.
-  - Central: Cut Tree at (5, 8) removed.
-- **Obstacles:**
-  - Bug Catcher at (6, 4) facing Right.
+  - Pokémon Center: (13, 25).
+  - Gym: Likely Central/West.
+  - Museum: Likely North.
+- **Key NPCs:** Old Man (Silver Wing) - Check East side.
+
+## Route 2 (Traversed)
+- **Geography:** Diglett's Cave South (12, 7). Nugget House East (15, 15).
+- **Status:** Path to Pewter cleared (Cut Tree removed).
+
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
