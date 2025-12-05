@@ -44,6 +44,7 @@
 - **Pokegear:** Icons: Back, Map, Phone, Radio. Blind inputs unreliable.
 - **Radio:** 'A' toggles Manual/Preset. Tune to 20.0 for Poké Flute. Phone calls reset frequency.
 - **Key Items:** Passive upgrades (e.g., Radio Card) may not list in inventory.
+- **path:** Harness Feature. Automatically moves along the `path_plan` coordinate list. NOT a custom tool.
 
 ### Tile Mechanics
 - **FLOOR:** Walkable.
