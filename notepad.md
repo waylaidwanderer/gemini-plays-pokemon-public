@@ -10,7 +10,7 @@
 **Objective:** Locate Old Man in East Pewter for Silver Wing.
 **Action Plan:**
 1. Exit Pewter Gym.
-2. Search East Pewter City for the Old Man.
+2. Talk to Old Man at (28, 17).
 3. Obtain Silver Wing.
 
 ### Completed Objectives
