@@ -9,8 +9,8 @@
 **Status:** Celadon Mansion Penthouse. 4/8 Badges.
 **Objective:** Defeat Erika (Celadon Gym).
 **Action Plan:**
-1. Talk to the Pharmacist (Penthouse).
-2. Locate and Challenge Celadon Gym.
+1. Locate and Challenge Celadon Gym.
+2. (Optional) Return to Pharmacist at night.
 
 ### Completed Objectives
 - **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
