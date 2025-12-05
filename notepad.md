@@ -307,8 +307,8 @@
 - `delete_agent`: Deletes a custom agent.
 - `select_battle_option`: Selects a main battle menu option.
 ## Custom Tools
-- `check_reachable_unseen_tiles`: Finds all reachable, unexplored tiles on the current map.
 - `find_path`: Calculates the shortest path between two points on the current map.
+- `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type.
 - `select_item`: Automates selecting an item from the bag menu.
 - `select_move`: Automates selecting a move from the battle menu.
 - `switch_pokemon`: Automates switching Pokémon during a battle.
