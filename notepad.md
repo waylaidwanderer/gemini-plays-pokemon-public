@@ -50,13 +50,16 @@
 - **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 
-# Navigational & Quest Progression Lessons
+# STRATEGIC KNOWLEDGE BASE
+## Navigational Lessons
 - **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
 - **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **Quest Trigger Logic:** Accepting a quest from a key NPC (like Jasmine) does not guarantee that all related NPC blockers will immediately be removed. Some paths may remain closed until a different, often unrelated, major objective is completed (like obtaining a new HM or badge).
+- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
+- **Trust Tools Over Visuals (Route 39):** My `find_path` tool correctly identified a maze-like path on Route 39 that I visually misinterpreted as a simple straight path. This confirms that a 'No path found' or a convoluted path result is valuable, correct data, not a tool failure. I must trust my verified tools and map data over my own flawed visual assessment.
 
 # Game Mechanics & Systems
 - The Day/Night cycle is an important mechanic in this game, affecting events.
