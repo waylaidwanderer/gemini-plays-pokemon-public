@@ -172,7 +172,7 @@
   - Super Nerd (PC): Eusine? (Mentioned Suicune).
   - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
 ## Celadon Mansion
-- **Status:** Exploring 2F.
+- **Status:** Heading to Roof via 3F.
 - **Geography:**
   - Entrance: (16, 9) in Celadon City.
   - 1F (Manager's Suite): Visited.
