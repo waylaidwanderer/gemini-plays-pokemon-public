@@ -8,6 +8,10 @@
 2. Get Silver Wing (Old Man, East Pewter).
 3. Challenge Brock.
 
+## Pewter City
+- **Status:** In Pokémon Center.
+- **Objectives:** Heal, Challenge Gym, Get Silver Wing.
+
 ## Route 2
 - **Geography:**
   - South: Diglett's Cave (12, 7).
