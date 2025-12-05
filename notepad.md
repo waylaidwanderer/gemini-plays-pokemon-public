@@ -5,13 +5,16 @@
 - **Copycat (Saffron):** Quest Active. Have Doll. Return to Saffron.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
-## 📍 Current Mission: Pewter City Gym Challenge
-**Status:** Inside Pewter Gym.
-**Objective:** Defeat Brock (Boulder Badge).
+## 📍 Current Mission: Silver Wing Quest
+**Status:** Pewter City (Gym Defeated).
+**Objective:** Locate Old Man in East Pewter for Silver Wing.
 **Action Plan:**
-1. Defeat Camper Jerry (Completed).
-2. Challenge Brock (In Progress - Current: Kabutops).
-3. Locate Old Man in East Pewter for Silver Wing (After Gym).
+1. Exit Pewter Gym.
+2. Search East Pewter City for the Old Man.
+3. Obtain Silver Wing.
+
+### Completed Objectives
+- **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
 
 ## Pewter City
 - **Status:** Exploring.
