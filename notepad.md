@@ -322,3 +322,6 @@
 - **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. If it has a <Warp> child element in the map XML, it's a warp activated by stepping *onto* the tile. If not, it is simply a walkable surface. Context is key.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+
+# Olivine Lighthouse Puzzle - Hypothesis Testing
+- Agent Hypothesis #1 (Window Exit): FAILED. Interacting with the window at (4, 1) on 3F only produces flavor text. Attempting to walk through it results in a bump. The window is not an exit.
