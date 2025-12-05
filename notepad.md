@@ -1,10 +1,10 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Wake Snorlax
-**Status:** In Vermilion City.
-**Objective:** Wake Snorlax using the Poke Flute Radio Channel.
-**Next Step:** Tune Radio to 20.0 and wake Snorlax.
-**Context:** Confirmed with Lavender Radio Tower Gentleman that I have the Kanto Radio expansion (passive upgrade). I possess the LOST ITEM (Doll) for Copycat.
+## 📍 Current Mission: Catch Snorlax
+**Status:** Battling Snorlax (Lv 50) in Vermilion City.
+**Objective:** Weaken and capture Snorlax.
+**Strategy:** Use weak moves (Quick Attack) to chip health. Throw Great Balls when low.
+**Context:** Radio successfully tuned to 20.0. Snorlax woke up.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
