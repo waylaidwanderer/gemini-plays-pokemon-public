@@ -1,10 +1,9 @@
 # Gem's Pokémon Crystal Journey
 
-## 📍 Current Mission: Catch Snorlax
-**Status:** Battling Snorlax (Lv 50) in Vermilion City.
-**Objective:** Weaken and capture Snorlax.
-**Strategy:** Use weak moves (Quick Attack) to chip health. Throw Great Balls when low.
-**Context:** Radio successfully tuned to 20.0. Snorlax woke up.
+## 📍 Current Mission: Reach Pewter City
+**Status:** Exploring Diglett's Cave.
+**Objective:** Traverse the cave to reach Route 2 and Pewter City.
+**Context:** Snorlax path cleared. Paprika revived (Half HP).
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
