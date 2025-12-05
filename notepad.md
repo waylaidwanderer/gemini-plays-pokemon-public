@@ -172,6 +172,7 @@
   - Super Nerd (PC): Eusine? (Mentioned Suicune).
   - Cooltrainer F (PC): Confirmed Erika uses Grass-types.
 ## Celadon Mansion
+- **Roof Structure:** Split into East (accessible) and West (inaccessible). West has Door (2,5) and Stairs (1,1). Need back entrance.
 - **Status:** Exploring Celadon Mansion Roof.
 - **Geography:**
   - Entrance: (16, 9) in Celadon City.
