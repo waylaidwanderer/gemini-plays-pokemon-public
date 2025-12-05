@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Pewter City Gym Challenge
-**Status:** In Pewter City (Healed).
+**Status:** Inside Pewter Gym.
 **Objective:** Defeat Brock (Boulder Badge).
 **Action Plan:**
 1. Go East to x=19 to bypass wall (Completed).
