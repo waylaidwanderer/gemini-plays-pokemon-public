@@ -121,7 +121,7 @@
 - **force_press_button:** Automates repetitive inputs.
 - **navigate_menu:** Robustly selects menu options by reading screen text.
 - **kanto_strategist:** Tracks Kanto badges and objectives to recommend next steps.
-- **path:** Harness feature (not a tool) to execute movement plans.
+- **path:** Movement execution tool. Executes path plans via the harness.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
