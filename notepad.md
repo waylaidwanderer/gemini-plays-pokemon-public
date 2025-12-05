@@ -118,8 +118,6 @@
 - **force_press_button:** Automates repetitive inputs.
 - **navigate_menu:** Robustly selects menu options by reading screen text.
 - **kanto_strategist:** Tracks Kanto badges and objectives to recommend next steps.
-- **Menu Verification:** Radio Hierarchy: Start -> Pokegear -> Radio (4th) -> Tuner. Poke Flute is at 20.0 (Far Right).
-- **Radio Mechanics:** Phone calls reset the frequency. ALWAYS retune to 20.0 after a call. Verify needle position before interacting.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
