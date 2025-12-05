@@ -95,7 +95,7 @@
 - **HEADBUTT Mechanic:** The move HEADBUTT can be used outside of battle to shake certain trees (`HEADBUTT_TREE` tiles). This can cause sleeping Pokémon to fall out, providing a new method for encounters.
 - **Evolution Methods:** Some POKéMON, like MACHOKE, KADABRA, HAUNTER, and GRAVELer, evolve when traded.
 - **Stun Reset & Off-Screen Failure:** The `stun_npc` effect resets when leaving and re-entering a map. The tool will fail if the target NPC is not currently on-screen and rendered in the game. The stun effect is also very short-lived, making long automated paths after stunning an NPC unreliable.
-- **Rematch Mechanic:** Some trainers, like Sailor Huey, will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. The previous 'Battle Anomaly' was a misunderstanding of this mechanic. A trainer might not battle if you haven't received their call yet.
+- **Rematch Mechanic:** Some trainers, like Sailor Huey, will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
 - **Item Interaction Mechanics:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own POKéMON. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 
 ## Tile & Object Mechanics
@@ -275,6 +275,3 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# New Lessons
-- Trust verified tool outputs over my own visual assessment. A 'No path found' result is valuable, correct data about the map's layout, not a tool failure.
