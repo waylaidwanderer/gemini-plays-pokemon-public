@@ -274,3 +274,4 @@
 
 ## Tile & Object Mechanics
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
+- **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
