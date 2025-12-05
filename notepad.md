@@ -111,10 +111,6 @@
 - Cerulean: Cooltrainer F at (21, 24) has a Slowbro. 
 - Fisher (Saffron PC): Cerulean Cave has collapsed.
 
-## Route 9 [Archived]
-- **Status:** Traversed.
-- **Notes:** Connected Cerulean to Route 10. Cut tree cleared.
-
 ## Active Custom Tools
 - **find_path:** Pathfinding with A*.
 - **attempt_surf:** Automates surfing interaction.
