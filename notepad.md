@@ -1,9 +1,16 @@
 # Gem's Pokémon Crystal Journey
 
 ## 📍 Current Mission: Reach Pewter City
-**Status:** Exploring Diglett's Cave.
-**Objective:** Traverse the cave to reach Route 2 and Pewter City.
-**Context:** Snorlax path cleared. Paprika revived (Half HP).
+**Status:** Exploring Route 2 Northbound.
+**Objective:** Reach Pewter City.
+
+## Route 2
+- **Geography:**
+  - South: Diglett's Cave (12, 7).
+  - East: Nugget House (15, 15). Fisher gave Nugget.
+  - Central: Cut Tree at (5, 8) removed.
+- **Obstacles:**
+  - Bug Catcher at (6, 4) facing Right.
 **Side Quest:**
 - **Copycat (Saffron):** Quest Active. Have Doll.
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
