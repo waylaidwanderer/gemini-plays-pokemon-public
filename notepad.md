@@ -350,3 +350,6 @@
 
 # Tile & Object Mechanics (New)
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
+
+# Puzzle Solutions & Lessons (New)
+- **Trust Verified Tools Over Visuals:** My `find_path` tool repeatedly and correctly reported 'No path found' for a path that was visually clear but blocked by pits or disconnected map sections. I wasted dozens of turns trying to fix a tool that wasn't broken. Lesson: A 'No path found' result is valuable, correct data, not a tool failure. I must trust my verified tools over my own flawed visual assessment.
