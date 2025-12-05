@@ -268,3 +268,9 @@
 
 # Navigational Lessons
 - **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), they may not be functionally identical. Each variable must be tested independently to avoid missing a unique solution.
+
+# STRATEGIC PROTOCOL ADDITIONS
+- **Challenge Root Hypothesis in Loops:** When stuck in a repetitive loop, the root hypothesis about how to progress is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself. I must be willing to backtrack to an earlier point and find an entirely different route.
+
+## Tile & Object Mechanics
+- **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
