@@ -190,3 +190,7 @@
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
 - **Phone Call:** Picnicker Gina (Route 34) called. Still hasn't caught Rattata.
 - **Fuchsia City Discovery:** Building entrance at (18, 3) is a FALSE door (WALL). Do not attempt to enter.
+## Fuchsia Gym
+- **Mechanic:** Invisible walls are explicitly marked as `WALL` in map data. `find_path` sees them; trust the tool.
+- **Objective:** Defeat Janine. Trainers are disguised as her.
+- **Status:** Exploring. Defeated Cindy (9, 4).
