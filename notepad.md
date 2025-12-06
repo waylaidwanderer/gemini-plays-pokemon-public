@@ -267,10 +267,7 @@
 - Debris (LADDER tiles) at (4-7, 14-15) act as obstacles.
 - Swimmer Nikki (Seel x2, Dewgong) - Defeated at (11, 16).
 ## Cinnabar Island
-- **Status:** Arrived.
-- **PokeCenter:** Located at (11, 11). Mistaken for Gym.
-- **Gym Status:** Located! Blaine is in the Seafoam Islands cave.
-## Cinnabar Island
-- **Status:** Arrived.
-- **PokeCenter:** Located at (11, 11). Mistaken for Gym.
-- **Gym Status:** Located! Blaine is in the Seafoam Islands cave.
+- **Status:** Explored.
+- **PokeCenter:** Located at (11, 11).
+- **Gym Status:** Destroyed by volcano. Blaine moved to Seafoam Islands (East).
+- **Blue:** Found. Declined battle. Said to challenge him at Viridian Gym.
