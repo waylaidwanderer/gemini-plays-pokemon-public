@@ -675,5 +675,21 @@
         "action_counter": 36734
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map. It performs a breadth-first search (BFS) from the player's location to identify all traversable unseen tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\nroot = ET.fromstring(map_xml_string)\n\n# Find player start position\nplayer_x, player_y = -1, -1\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        if tile_elem.find('Player') is not None:\n            player_x = int(tile_elem.get('id'))\n            player_y = y\n            break\n    if player_x != -1:\n        break\n\nstart_node = (player_x, player_y)\n\nmax_x = max(int(t.get('id')) for r in root.findall('Row') for t in r.findall('Tile'))\nmax_y = max(int(r.get('id')) for r in root.findall('Row'))\nwidth = max_x + 1\nheight = max_y + 1\n\nTRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)'}\n\ngrid = [['WALL' for _ in range(width)] for _ in range(height)]\nis_unseen = [[False for _ in range(width)] for _ in range(height)]\n\nfor r in root.findall('Row'):\n    y = int(r.get('id'))\n    for t in r.findall('Tile'):\n        x = int(t.get('id'))\n        tile_type = t.get('type')\n        has_object = t.find('.//Object') is not None\n        if tile_type in TRAVERSABLE_TYPES and not has_object:\n            grid[y][x] = tile_type\n        if t.get('seen') == 'false':\n            is_unseen[y][x] = True\n\ndef bfs_find_unseen(grid, start):\n    height = len(grid)\n    width = len(grid[0])\n    queue = collections.deque([start])\n    seen = {start}\n    reachable_unseen = []\n    \n    while queue:\n        x, y = queue.popleft()\n\n        if is_unseen[y][x]:\n            reachable_unseen.append({'x': x, 'y': y})\n\n        current_tile_type = grid[y][x]\n        \n        moves = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n        if current_tile_type == 'LEDGE_HOP_DOWN': moves = [(0, 1)]\n        elif current_tile_type == 'LEDGE_HOP_LEFT': moves = [(-1, 0)]\n        elif current_tile_type == 'LEDGE_HOP_RIGHT': moves = [(1, 0)]\n\n        for dx, dy in moves:\n            next_x, next_y = x + dx, y + dy\n            if not (0 <= next_y < height and 0 <= next_x < width) or (next_x, next_y) in seen or grid[next_y][next_x] == 'WALL':\n                continue\n            \n            next_tile_type = grid[next_y][next_x]\n            if (next_tile_type == 'LEDGE_HOP_DOWN' and dy == -1) or \\\n               (next_tile_type == 'LEDGE_HOP_LEFT' and dx == 1) or \\\n               (next_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1):\n                continue\n\n            seen.add((next_x, next_y))\n            queue.append((next_x, next_y))\n            \n    return reachable_unseen\n\nfound_tiles = bfs_find_unseen(grid, start_node)\nprint(json.dumps(found_tiles))",
+    "history": [
+      {
+        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool addresses a key inefficiency identified during self-reflection by parsing the map XML to find all 'unseen' tiles that are physically reachable from the player's current position. This will filter the noisy system alert into an actionable list for more efficient exploration.",
+        "timestamp": "2025-12-06T17:56:22.400Z",
+        "action_counter": 37062
+      }
+    ]
   }
 }
