@@ -259,3 +259,7 @@
 - **Geography:** Ledges and tall grass.
 - **Trainers:**
   - Youngster (4, 12) facing Right. Avoid cols 5-8.
+## Pallet Town
+- **Status:** Arrived via Route 1.
+- **Geography:** Red's House (West), Blue's House (East), Oak's Lab (South).
+- **Objectives:** Locate Oak's Lab, Surf South to Cinnabar.
