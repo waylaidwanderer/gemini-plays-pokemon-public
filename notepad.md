@@ -9,8 +9,11 @@
 **Status:** Mt. Silver Access Granted.
 **Objective:** Conquer Mt. Silver.
 **Action Plan:**
-1. Fly to Indigo Plateau (Current).
-2. Head West to Route 28/Mt. Silver.
+1. Fly to Cinnabar Island (Done).
+2. Surf to Pallet Town (Done).
+3. Walk North to Viridian City.
+4. Unlock Viridian Fly destination (Enter PokeCenter).
+5. Head West to Route 22 -> Reception Gate -> Route 28 -> Mt. Silver.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
