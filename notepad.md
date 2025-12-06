@@ -9,9 +9,8 @@
 **Status:** Mt. Silver Access Granted.
 **Objective:** Conquer Mt. Silver.
 **Action Plan:**
-1. Exit Oak's Lab.
-2. Fly to Indigo Plateau.
-3. Head West to Route 28/Mt. Silver.
+1. Fly to Indigo Plateau (Current).
+2. Head West to Route 28/Mt. Silver.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
