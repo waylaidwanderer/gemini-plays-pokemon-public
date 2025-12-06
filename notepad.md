@@ -6,12 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Battling Blue (Viridian Gym).
-**Objective:** Defeat Blue (Earth Badge).
+**Status:** Earth Badge Obtained (16 Badges Total).
+**Objective:** Unlock Mt. Silver.
 **Action Plan:**
-1. Defeat Blue.
-   - Team: Pidgeot, Rhydon, Gyarados, Alakazam, Arcanine (All Defeated). Exeggutor (Active).
-   - Paprika: 136/237 HP (Lv 74). Reflect Faded.
+1. Heal at Viridian PokeCenter.
+2. Travel to Pallet Town.
+3. Speak to Professor Oak.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
