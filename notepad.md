@@ -184,4 +184,4 @@
   - **East Side:** The path behind the Cut tree leads to the Fuchsia Speech House (Dead End).
   - **West Side:** The southern path (previously thought to be a dead end) is the true entrance to Cycling Road.
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
-- **Tool Limitation:** `run_code` does NOT support `autopress_buttons: true`. Must use `define_tool` for custom rapid-fire input sequences.
+- **Cycling Road Physics:** Constant downward force overrides standard inputs. Defined `slope_escape` tool (Up+Dir alternating) to shimmy laterally.
