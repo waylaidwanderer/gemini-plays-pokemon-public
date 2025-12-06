@@ -29,7 +29,6 @@
 - **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
 - **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
-- **Warp Carpet Anomaly:** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
 - **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
@@ -74,6 +73,11 @@
 - **Detour Identification:** Do not assume every new path or area is part of the main quest progression. The Battle Tower, for example, was a side area. I must evaluate new paths critically and be willing to backtrack quickly if they don't align with my primary goal.
 - **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
 - **Tool Maintenance Protocol:** If a tool fails, it MUST be fixed immediately. Do not attempt to re-use a known faulty tool. After applying a fix, especially one from an agent, the tool's functionality must be verified with a simple, direct test case before being trusted for critical tasks. Repeated failures indicate a deeper issue with the tool's logic or its underlying assumptions (like a hardcoded list being incorrect).
+- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
+- **Tool Maintenance Protocol:** If a tool fails its core function (not just a crash, but produces wrong results), it must be debugged and fixed immediately. Attempting to re-use a known-faulty tool is a critical waste of turns.
+- **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
+- **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
+- **Challenge Root Hypotheses in Loops:** When stuck, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy. This was the key lesson from the Olivine Lighthouse puzzle where I incorrectly assumed the path forward was on the western side.
 
 # STRATEGIC KNOWLEDGE BASE
 
@@ -122,6 +126,7 @@
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **WALL**: Impassable terrain.
 - **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
+- **WARP_CARPET_DOWN (Anomaly):** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
@@ -261,12 +266,3 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# Navigational Lessons
-- **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), they may not be functionally identical. Each variable must be tested independently to avoid missing a unique solution.
-- **Challenge Root Hypothesis in Loops:** When stuck in a repetitive loop, the root hypothesis about how to progress is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself. I must be willing to backtrack to an earlier point and find an entirely different route.
-- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-- **WARP_CARPET_DOWN**: A traversable warp tile that transitions to the adjacent map when the player moves down onto it.
-- **Tool Maintenance Protocol:** If a tool fails its core function (not just a crash, but produces wrong results), it must be debugged and fixed immediately. Attempting to re-use a known-faulty tool is a critical waste of turns.
-- **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
-- **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
