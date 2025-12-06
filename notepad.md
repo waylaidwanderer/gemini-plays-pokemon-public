@@ -324,6 +324,6 @@
   - Cave Entrance: (18, 11).
   - PokeCenter: (23, 19).
   - Western Shore (x<14): Dead end blocked by ledges to the North.
-  - Eastern Shore (Row 28): Landing spot. Blocked from North (PokeCenter) by ledges. Heading East to Route 28.
+  - Eastern Shore (Row 28): Landing spot. Path to PokeCenter found via gaps in ledges at (25, 27) and (23, 23). Route 28 likely accessible from the high ground near PokeCenter.
 - **Events:**
   - Phone Call: Joey (Route 30). Radio reset.
