@@ -257,9 +257,6 @@
 ## Custom Tools
 - `route_planner`: Calculates the shortest path between two points on the current map.
 - `find_reachable_unseen_tiles`: Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
-- `select_item`: Automates selecting a specific item from the bag menu.
-- `select_move`: Selects a move from the battle menu by name.
-- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
 
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
