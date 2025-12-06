@@ -7,11 +7,11 @@
 
 ## 📍 Current Mission: Kanto Journey
 **Status:** En route to Seafoam Islands (Route 20).
-**Objective:** Find Blaine at Seafoam Islands.
+**Objective:** Defeat Blaine at Seafoam Islands.
 **Action Plan:**
-1. Surf East from Cinnabar Island along Route 20.
-2. Locate Seafoam Islands entrance.
-3. Defeat Blaine (Volcano Badge).
+1. Explore the exterior platform of Seafoam Islands (Route 20 West).
+2. Enter Seafoam Islands Cave.
+3. Locate and defeat Blaine (Volcano Badge).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
