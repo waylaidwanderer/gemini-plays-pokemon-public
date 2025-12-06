@@ -6,12 +6,10 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** En route to Seafoam Islands (Route 20).
-**Objective:** Defeat Blaine at Seafoam Islands.
+**Status:** Inside Seafoam Islands Gym.
+**Objective:** Defeat Blaine (Volcano Badge).
 **Action Plan:**
-1. Explore the western exterior of Seafoam Islands (Route 20 West).
-2. Enter Seafoam Islands Cave via the entrance at (38, 7).
-3. Locate and defeat Blaine (Volcano Badge).
+1. Challenge Blaine.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
