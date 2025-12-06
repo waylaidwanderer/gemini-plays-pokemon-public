@@ -123,9 +123,9 @@
 - Defeated.
 
 ## Recent Victories
+- **Blaine:** Defeated (Volcano Badge).
+- **Janine:** Defeated (Soul Badge).
 - **Misty:** Defeated (Cascade Badge).
-- **Champion Lance:** Defeated.
-- **Lt. Surge:** Defeated.
 
 ## Lavender Town
 - **Soul House:** Located South-Central. Memorial site.
