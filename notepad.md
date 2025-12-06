@@ -266,3 +266,7 @@
 ## Route 21
 - Debris (LADDER tiles) at (4-7, 14-15) act as obstacles.
 - Swimmer Nikki (Seel x2, Dewgong) - Defeated at (11, 16).
+## Cinnabar Island
+- **Status:** Arrived.
+- **PokeCenter:** Located at (11, 11). Mistaken for Gym.
+- **Gym Status:** Unknown. Need to investigate.
