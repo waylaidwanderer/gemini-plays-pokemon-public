@@ -268,3 +268,4 @@
 
 # STRATEGIC PROTOCOL ADDITIONS
 - **Internal vs. External Puzzles:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by fully exploring a key location or a recent major event. Do not get stuck in a loop trying to leave; expand the internal search.
+- **Confirmation Bias Mitigation:** To avoid getting stuck in loops caused by flawed assumptions, I must actively try to *disprove* my own hypotheses. After a test seems to confirm a belief, I should design a follow-up test specifically aimed at falsifying that belief.
