@@ -314,3 +314,5 @@
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
+## Silver Cave Room 1
+- Protein found at (15, 29).
