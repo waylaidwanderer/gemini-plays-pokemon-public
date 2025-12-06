@@ -6,11 +6,11 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Arrived on Route 18 via Cycling Road Gate.
-**Objective:** Travel East to Fuchsia City (Janine).
+**Status:** In Fuchsia City.
+**Objective:** Find Janine (Gym Leader).
 **Action Plan:**
-1. Head East through Route 18.
-2. Defeat Trainers for EXP/Money.
+1. Locate Gym.
+2. Defeat Janine.
 
 ## Route 17 (Cycling Road)
 - **Mechanics:** Slope forces constant Down movement.
@@ -134,7 +134,6 @@
 
 ## Active Custom Tools & Features
 - **find_path:** Pathfinding with A*.
-
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs.
 - **navigate_menu:** Robustly selects menu options by reading screen text.
@@ -170,6 +169,7 @@
   - Super Nerd (PokeCenter): Eusine? (Mentioned Suicune).
   - Cooltrainer F (PokeCenter): Confirmed Erika uses Grass-types.
   - Gentleman (Prize Room): Wanted Porygon.
+
 ## Celadon Mansion
 - **Structure:** Split into East (Main) and West (Back) wings, separated by walls.
 - **East Wing:** Accessible from City front. Contains Manager Suite (1F), Meeting Room (2F), Dev Room (3F), Roof East.
@@ -186,14 +186,4 @@
   - **East Side:** The path behind the Cut tree leads to the Fuchsia Speech House (Dead End).
   - **West Side:** The southern path (previously thought to be a dead end) is the true entrance to Cycling Road.
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
-- **Cycling Road Physics:** Constant downward force overrides standard inputs. Defined `slope_escape` tool (Up+Dir alternating) to shimmy laterally.
 - **Phone Call:** Picnicker Gina (Route 34) called. Still hasn't caught Rattata.
-- **Route 17 Physics:** When pinned against an obstacle on the slope, pure 'Up' movement fails. You MUST use 'Up + Left/Right' to strafe to a clear column.
-- **Physics Update:** `slope_escape` (Right, 15ms) failed to break the collision lock at (4, 13). Attempting Left.
-- **Physics Update:** `slope_escape` (Left, 15ms) also failed. Hypothesis: 'Up' inputs might be keeping the player pinned. Testing pure directional input with standard timing.
-- **Physics Update:** `force_press_button` (Left, 50ms) failed to move player from (4, 13). 50ms appears too slow to overcome slope collision reset. Testing 0ms delay.
-- **Physics Update:** Pure 'Left' burst (0ms) failed. Downward slope physics likely take priority when blocked. Testing alternating 'Up, Left' sequence with 0ms delay to neutralize slope and strafe simultaneously.
-- **Tool Correction:** `run_code` does NOT support `autopress_buttons`. The previous test failed because no buttons were pressed. Updating `slope_escape` to use 0ms delay and re-testing.
-- **Route 17 Collision Strategy:** When pinned by slope physics against an object, standard alternating inputs fail. Strategy: Use `escape_collision` tool to burst 'Up' (create gap) then 'Left/Right' (strafe) in a single high-speed sequence (approx 20ms delay).
-- **Physics Update:** `escape_collision` (Up x3, Left x3, 20ms) failed at (4, 13). 20ms delay likely too slow. Retrying with 0ms delay and increased input count (10x).
-- **Physics Update:** `escape_collision` (Up x10, Left x10, 0ms) SUCCESS. Escaped lock at (4, 13) and slid down to (1, 76).
