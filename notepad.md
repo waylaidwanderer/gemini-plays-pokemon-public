@@ -280,3 +280,6 @@
 # STRATEGIC PROTOCOL ADDITIONS
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
 - **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
+
+# STRATEGIC PROTOCOL ADDITIONS
+- **Root Hypothesis Failure:** When all apparent paths related to a primary objective are confirmed blocked, the root assumption about the game's progression is likely flawed. Do not get stuck re-testing dead ends; pivot to a completely different, previously dismissed objective (like the strange tree) that might have become the new critical path.
