@@ -279,3 +279,4 @@
 - **Geography:**
   - Pokémon Center: (23, 25).
   - Gym: To be located.
+- Trainer House: (23, 15).
