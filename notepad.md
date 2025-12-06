@@ -327,3 +327,4 @@
   - Eastern Shore (Row 28): Landing spot. Path to PokeCenter found via gaps in ledges at (25, 27) and (23, 23). Route 28 likely accessible from the high ground near PokeCenter.
 - **Events:**
   - Phone Call: Joey (Route 30). Radio reset.
+- **Wild Encounters:** Ponyta, Tangela.
