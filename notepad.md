@@ -257,7 +257,7 @@
 - **Status:** Traversing South to Pallet Town.
 - **Geography:** Ledges and tall grass.
 - **Trainers:**
-  - Youngster (7, 12) - Battle initiated.
+  - Schoolboy Danny (7, 12) - Defeated.
   - Cooltrainer F (9, 25) - Avoid.
 ## Pallet Town
 - **Status:** Arrived via Route 1.
