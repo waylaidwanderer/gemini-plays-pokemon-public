@@ -140,7 +140,7 @@
 - **find_path:** Pathfinding with A*.
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs.
-- **navigate_menu:** Robustly selects menu options by reading screen text.
+
 - **escape_collision:** Escapes slope collision locks using rapid directional bursts.
 
 ## Power Plant
