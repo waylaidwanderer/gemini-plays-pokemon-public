@@ -275,3 +275,4 @@
 - **Notepad Edit Efficiency:** The `replace` action requires an exact match. If it fails more than once on a complex entry, it is more efficient to append a correction or use `overwrite` as a last resort than to waste multiple turns trying to find the exact text.
 - **TALL_GRASS Tile:** Added to tile mechanics. It is a fully traversable tile where wild Pokémon can be encountered.
 - **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right.
+- Youngster Joey on Route 30 called for a rematch.
