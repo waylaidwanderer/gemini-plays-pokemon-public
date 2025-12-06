@@ -238,3 +238,6 @@
   - Youngster (42, 6) - Marked.
   - Youngster (43, 6) - Marked.
 - **Lesson:** Mark trainers as obstacles immediately upon sighting to avoid pathfinding collisions.
+## Route 12
+- **Status:** Just arrived from Route 13 (South). Heading North.
+- **Geography:** Boardwalk/Bridge structure over water.
