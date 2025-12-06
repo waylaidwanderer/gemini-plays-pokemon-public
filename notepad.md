@@ -274,3 +274,6 @@
 # CRITICAL STRATEGIC PROTOCOL: KNOWLEDGE BASE FIRST
 - Before forming ANY navigational plan, I MUST consult my map markers and notepad for the destination area. 
 - Ignoring my own verified data (e.g., 'Dead End' markers) in favor of unverified in-game hints is a catastrophic failure of strategy. Trust my data over dialogue.
+
+# Route 39 Exploration
+- The western path at (1, 13) is a confirmed dead end, blocked by a WALL tile at (0, 13). The way forward is not here.
