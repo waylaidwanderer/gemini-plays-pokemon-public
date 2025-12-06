@@ -569,7 +569,7 @@
     ]
   },
   "slope_escape": {
-    "description": "Executes a rapid sequence of 'Up' followed by the target direction to escape slope collision physics. Uses 20ms delays for tighter timing.",
+    "description": "Executes a rapid sequence of inputs to escape slope collision physics. Starts with a burst of 'Up' to gain clearance, then alternates 'Up' and 'Direction' with 15ms delays.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -585,7 +585,7 @@
         "direction"
       ]
     },
-    "python_script": "import json\ninput_dir = input_data.get(\"direction\", \"Right\")\nbuttons = []\n# Alternating Up and Direction rapidly to break collision lock\nfor _ in range(8):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 20\")\n    buttons.append(input_dir)\n    buttons.append(\"sleep 20\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\ndirection = input_data.get(\"direction\", \"Right\")\nbuttons = []\n# Burst Up to break contact\nfor _ in range(5):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 15\")\n# Strafe pattern\nfor _ in range(20):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 15\")\n    buttons.append(direction)\n    buttons.append(\"sleep 15\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create slope_escape tool for Cycling Road. Alternates Up and Direction to bypass slope collision.",
@@ -596,6 +596,11 @@
         "commit_message": "fix: Reduce sleep delay from 50ms to 20ms and increase iterations. 50ms proved too slow to overcome the constant downward physics on Cycling Road, resulting in a collision loop. Faster inputs are required to strafe effectively.",
         "timestamp": "2025-12-06T00:22:00.435Z",
         "action_counter": 21039
+      },
+      {
+        "commit_message": "fix: Aggressive timing update. Reduced sleep to 15ms (approx 1 frame) and added initial 'Up' burst to break collision lock with obstacles on slopes.",
+        "timestamp": "2025-12-06T00:24:52.538Z",
+        "action_counter": 21042
       }
     ]
   }
