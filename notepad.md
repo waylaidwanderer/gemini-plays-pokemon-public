@@ -185,3 +185,4 @@
   - **West Side:** The southern path (previously thought to be a dead end) is the true entrance to Cycling Road.
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
 - **Cycling Road Physics:** Constant downward force overrides standard inputs. Defined `slope_escape` tool (Up+Dir alternating) to shimmy laterally.
+- **Phone Call:** Picnicker Gina (Route 34) called. Still hasn't caught Rattata.
