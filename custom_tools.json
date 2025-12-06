@@ -569,7 +569,7 @@
     ]
   },
   "slope_escape": {
-    "description": "Executes a rapid sequence of inputs to escape slope collision physics. Starts with a burst of 'Up' to gain clearance, then alternates 'Up' and 'Direction' with 15ms delays.",
+    "description": "Executes a rapid sequence of inputs to escape slope collision physics. Alternates 'Up' and 'Direction' without any sleep delay to maximize input density and break collision locks.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -585,7 +585,7 @@
         "direction"
       ]
     },
-    "python_script": "import json\ndirection = input_data.get(\"direction\", \"Right\")\nbuttons = []\n# Burst Up to break contact\nfor _ in range(5):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 15\")\n# Strafe pattern\nfor _ in range(20):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 15\")\n    buttons.append(direction)\n    buttons.append(\"sleep 15\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\ninput_dir = input_data['direction']\nbuttons = []\n# Alternating Up and Direction, no sleep to overcome physics\nfor _ in range(20):\n    buttons.append(\"Up\")\n    buttons.append(input_dir)\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create slope_escape tool for Cycling Road. Alternates Up and Direction to bypass slope collision.",
@@ -601,6 +601,11 @@
         "commit_message": "fix: Aggressive timing update. Reduced sleep to 15ms (approx 1 frame) and added initial 'Up' burst to break collision lock with obstacles on slopes.",
         "timestamp": "2025-12-06T00:24:52.538Z",
         "action_counter": 21042
+      },
+      {
+        "commit_message": "fix: Remove all sleep delays from slope_escape. Previous tests showed 15ms was too slow to overcome slope physics. Now sends pure alternating inputs as fast as possible.",
+        "timestamp": "2025-12-06T00:37:07.541Z",
+        "action_counter": 21051
       }
     ]
   }
