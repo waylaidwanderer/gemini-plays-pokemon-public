@@ -285,3 +285,4 @@
 # Navigational Lessons
 - **WARP_CARPET_DOWN**: A traversable warp tile that transitions to the adjacent map when the player moves down onto it.
 - **Tool Maintenance Protocol:** If a tool fails its core function (not just a crash, but produces wrong results), it must be debugged and fixed immediately. Attempting to re-use a known-faulty tool is a critical waste of turns.
+- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. If a warp exists, it is activated by stepping *onto* the tile. If not, it is simply a walkable surface.
