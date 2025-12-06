@@ -263,3 +263,4 @@
 - **Status:** Arrived via Route 1.
 - **Geography:** Red's House (West), Blue's House (East), Oak's Lab (South).
 - **Objectives:** Locate Oak's Lab, Surf South to Cinnabar.
+- **Route 21:** Debris (LADDER tiles) at (4-7, 14-15) act as obstacles.
