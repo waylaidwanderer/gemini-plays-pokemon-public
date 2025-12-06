@@ -313,4 +313,4 @@
 - **Warp Anomaly:** Tiles at (1, 7) and (2, 7) are labeled `WARP_CARPET_DOWN` but do not trigger when walked over horizontally. Movement south is blocked by a wall. Investigating exit mechanism (likely walking off map edge).
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
-- **Status:** Just arrived from Victory Road Gate (West Exit).
+- **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
