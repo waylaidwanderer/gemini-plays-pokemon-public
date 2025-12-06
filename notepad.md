@@ -268,4 +268,3 @@
 
 # Puzzle Solver Agent - Olivine Blockade
 - **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
