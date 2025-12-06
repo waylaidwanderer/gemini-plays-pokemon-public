@@ -271,3 +271,6 @@
 - I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 - I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
+
+# Puzzle Solver Agent - Olivine Blockade
+- **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
