@@ -245,3 +245,4 @@
 - **Geography:** Extensive boardwalks connecting small islands. LADDER tiles here act as FLOOR (Boardwalk).
 - **Locations:** House at (11, 33).
 - **Barriers:** Fisher at (10, 38) blocks the east boardwalk. Item Ball at (5, 43) requires Cut.
+- **Super Rod:** Obtained from Fishing Guru on Route 12.
