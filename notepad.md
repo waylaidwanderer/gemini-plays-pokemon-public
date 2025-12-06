@@ -257,7 +257,8 @@
 - **Status:** Traversing South to Pallet Town.
 - **Geography:** Ledges and tall grass.
 - **Trainers:**
-  - Youngster (4, 12) facing Right. Avoid cols 5-8.
+  - Youngster (7, 12) - Battle initiated.
+  - Cooltrainer F (9, 25) - Avoid.
 ## Pallet Town
 - **Status:** Arrived via Route 1.
 - **Geography:** Red's House (West), Blue's House (East), Oak's Lab (South).
