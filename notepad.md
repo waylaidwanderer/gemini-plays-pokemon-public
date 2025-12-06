@@ -266,3 +266,5 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
+- **Trust Physical Evidence Over Dialogue/Markers:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. A map marker I created also claimed this path was valid. Lesson: If NPC/sign dialogue or my own markers contradict the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked.
+- **TODO:** My `route_planner` failed in the Moomoo Farm barn, trying to path through a fence wall. I need to investigate and fix this immediately after resolving the Miltank situation.
