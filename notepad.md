@@ -191,7 +191,7 @@
   - **East Side:** The path behind the Cut tree leads to the Fuchsia Speech House (Dead End).
   - **West Side:** The southern path (previously thought to be a dead end) is the true entrance to Cycling Road.
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
-- **Phone Call:** Picnicker Gina (Route 34) called. Still hasn't caught Rattata.
+- **Phone Call:** Picnicker Gina (Route 34) called. Frustrated about not catching Abra. (Note: Calls can trigger on map entry).
 - **Fuchsia City Discovery:** Building entrance at (18, 3) is a FALSE door (WALL). Do not attempt to enter.
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are explicitly marked as `WALL` in map data.
