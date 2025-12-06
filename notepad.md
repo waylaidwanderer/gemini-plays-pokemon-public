@@ -9,8 +9,8 @@
 **Status:** Arrived in Viridian City.
 **Objective:** Defeat Blue (Earth Badge).
 **Action Plan:**
-1. Enter Pokémon Center (Unlock Fly).
-2. Locate and Challenge Blue (Gym).
+1. Locate and Challenge Blue (Gym).
+   - Intel: No underlings in Viridian Gym. Blue fights alone.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
