@@ -283,5 +283,9 @@
 - Gym: (27, 7).
 - Viridian Gym: (32, 7). Blocked by Gramps at (30, 8).
 ## Viridian City
-- **Gym Location:** (32, 7). Entrance blocked by Gramps at (30, 8).
+- **Geography:**
+  - Pokémon Center: (23, 25).
+  - Trainer House: (23, 15).
+  - Nickname House: (21, 9).
+  - Gym: (32, 7). Entrance blocked by Gramps at (30, 8).
 - **Strategy:** Navigate around the Gym building (North side) to reach the entrance from the East.
