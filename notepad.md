@@ -256,7 +256,7 @@
 # Custom Tools & Agents
 ## Custom Tools
 - `route_planner`: Calculates the shortest path between two points on the current map.
-- `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type.
+- `find_reachable_unseen_tiles`: Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
 - `select_item`: Automates selecting a specific item from the bag menu.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
