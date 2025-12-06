@@ -248,4 +248,5 @@
 - **Geography:** One-way southbound ledges dominate the center/east (Columns 6-13). Northbound travel to Cerulean City requires using the West path (Columns 1-4).
 - **House (10, 11):** Blocked by ledges from the South. Must access from the North (likely via Cerulean).
 - **Underground Path:** Not immediately visible, may be closed or moved in this generation.
-- **Route 4 Navigation:** Entrance from Cerulean is at (39, 10). Path leads West to a wall at x=33. **Verified:** Gap exists at (33, 14). Path forces South to y=14 to bypass the wall. Area West of x=33 is accessible via this gap. Dead end confirmed at x=24 (Wall) and Row 16 (Floor_Up_Wall). Route 4 is one-way Eastbound. Plan: Fly to Pewter City.
+- **Route 4 Navigation:** Confirmed DEAD END from the East. One-way Eastbound only (ledges). Successfully bypassed via Fly to Pewter City.
+- **Current Route:** Pewter City -> Route 2 -> Viridian City -> Route 1 -> Pallet Town -> Surf to Cinnabar Island.
