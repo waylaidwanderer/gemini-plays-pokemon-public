@@ -9,9 +9,10 @@
 **Status:** Soul Badge Obtained. Heading to Cinnabar.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
-1. Exit Pokemon Center.
-2. Travel South to Route 19.
-3. Surf South to Cinnabar Island.
+1. Route 19 blocked by construction (Verified).
+2. Fly to Pewter City.
+3. Travel South to Viridian City -> Pallet Town.
+4. Surf South from Pallet (Route 21) to Cinnabar.
 
 **Recent Achievements:**
 - Defeated Janine (Soul Badge obtained).
