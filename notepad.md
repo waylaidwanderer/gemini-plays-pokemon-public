@@ -269,8 +269,8 @@
 ## Cinnabar Island
 - **Status:** Arrived.
 - **PokeCenter:** Located at (11, 11). Mistaken for Gym.
-- **Gym Status:** Fisher says a volcano erupted a year ago. Investigating Cooltrainer F for leads.
+- **Gym Status:** Located! Blaine is in the Seafoam Islands cave.
 ## Cinnabar Island
 - **Status:** Arrived.
 - **PokeCenter:** Located at (11, 11). Mistaken for Gym.
-- **Gym Status:** Fisher says a volcano erupted a year ago. Investigating Cooltrainer F for leads.
+- **Gym Status:** Located! Blaine is in the Seafoam Islands cave.
