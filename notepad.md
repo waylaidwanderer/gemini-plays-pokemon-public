@@ -274,3 +274,4 @@
 - **Trust Physical Evidence Over Notes:** My own recent traversal of a route is a higher source of truth than an old notepad entry. If my memory of walking a path conflicts with a note saying it's a dead end, I must re-investigate the path immediately instead of forming complex plans based on the faulty note.
 - **Notepad Edit Efficiency:** The `replace` action requires an exact match. If it fails more than once on a complex entry, it is more efficient to append a correction or use `overwrite` as a last resort than to waste multiple turns trying to find the exact text.
 - **TALL_GRASS Tile:** Added to tile mechanics. It is a fully traversable tile where wild Pokémon can be encountered.
+- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right.
