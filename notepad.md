@@ -9,9 +9,8 @@
 **Status:** Earth Badge Obtained (16 Badges Total).
 **Objective:** Unlock Mt. Silver.
 **Action Plan:**
-1. Heal at Viridian PokeCenter.
-2. Travel to Pallet Town.
-3. Speak to Professor Oak.
+1. Travel to Pallet Town (via Route 1).
+2. Speak to Professor Oak.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
