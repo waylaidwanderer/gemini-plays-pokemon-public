@@ -512,6 +512,29 @@
       }
     ]
   },
+  "press_sequence": {
+    "description": "Executes a custom sequence of button presses defined by a comma-separated string. Useful for navigating menus or executing complex combos that involve multiple different buttons.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "sequence": {
+          "type": "string",
+          "description": "Comma-separated list of buttons and sleep commands (e.g. 'A, sleep 500, Down, sleep 500, B'). Valid buttons: A, B, Up, Down, Left, Right, Start, Select."
+        }
+      },
+      "required": [
+        "sequence"
+      ]
+    },
+    "python_script": "import json\n# Split the input string by comma and strip whitespace from each element\nbuttons = [x.strip() for x in input_data['sequence'].split(',')]\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "feat: Create press_sequence tool to allow execution of complex, mixed-button sequences in a single turn, overcoming the limitations of force_press_button (single button type) and run_code (no autopress).",
+        "timestamp": "2025-12-06T08:59:06.250Z",
+        "action_counter": 21796
+      }
+    ]
+  },
   "select_move": {
     "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list. Adds sleep delays for robustness.",
     "input_schema": {
@@ -580,29 +603,6 @@
         "commit_message": "fix: Add sleep delays (500ms) between directional inputs in select_move to ensure the game registers each press during menu navigation. This addresses reliability issues where rapid inputs were ignored.",
         "timestamp": "2025-12-05T07:29:11.785Z",
         "action_counter": 19985
-      }
-    ]
-  },
-  "press_sequence": {
-    "description": "Executes a custom sequence of button presses defined by a comma-separated string. Useful for navigating menus or executing complex combos that involve multiple different buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "sequence": {
-          "type": "string",
-          "description": "Comma-separated list of buttons and sleep commands (e.g. 'A, sleep 500, Down, sleep 500, B'). Valid buttons: A, B, Up, Down, Left, Right, Start, Select."
-        }
-      },
-      "required": [
-        "sequence"
-      ]
-    },
-    "python_script": "import json\n# Split the input string by comma and strip whitespace from each element\nbuttons = [x.strip() for x in input_data['sequence'].split(',')]\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "feat: Create press_sequence tool to allow execution of complex, mixed-button sequences in a single turn, overcoming the limitations of force_press_button (single button type) and run_code (no autopress).",
-        "timestamp": "2025-12-06T08:59:06.250Z",
-        "action_counter": 21796
       }
     ]
   }
