@@ -281,3 +281,4 @@
   - Gym: To be located.
 - Trainer House: (23, 15).
 - Gym: (27, 7).
+- Viridian Gym: (32, 7). Blocked by Gramps at (30, 8).
