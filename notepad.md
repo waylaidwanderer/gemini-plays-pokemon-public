@@ -260,7 +260,6 @@
 - `select_item`: Automates selecting a specific item from the bag menu.
 - `select_move`: Selects a move from the battle menu by name.
 - `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-- `stun_npc`: Temporarily freezes or unfreezes an NPC's movement.
 
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
