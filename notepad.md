@@ -217,3 +217,6 @@
 
 ## Route 14
 - Status: Just arrived from Route 15 (West). Heading North to Lavender.
+## Route 14
+- Defeated PokeFan Trevor (Psyduck Lv33).
+- Phone Call: Anthony (Route 33) mentioned Hoppip.
