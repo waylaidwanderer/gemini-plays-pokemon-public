@@ -270,3 +270,7 @@
 - **PokeCenter:** Located at (11, 11).
 - **Gym Status:** Destroyed by volcano. Blaine moved to Seafoam Islands (East).
 - **Blue:** Found. Declined battle. Said to challenge him at Viridian Gym.
+## Route 20
+- **Status:** Surfing East to Seafoam Islands.
+- **Trainers:**
+  - Swimmer Cameron (Marill Lv34) - Defeated.
