@@ -269,3 +269,6 @@
 - **WARP_CARPET_DOWN**: A traversable warp tile that transitions to the adjacent map when the player moves down onto it.
 - **Tool Maintenance Protocol:** If a tool fails its core function (not just a crash, but produces wrong results), it must be debugged and fixed immediately. Attempting to re-use a known-faulty tool is a critical waste of turns.
 - **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
+
+# Navigational Lessons
+- **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
