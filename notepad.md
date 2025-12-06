@@ -6,16 +6,20 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Fuchsia Gym Cleared.
-**Objective:** Heal and proceed to next city.
+**Status:** Soul Badge Obtained. Heading to Cinnabar.
+**Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
-1. Heal at Pokemon Center.
-2. Travel South to Route 19 (Beach).
-3. Surf to Cinnabar Island.
+1. Exit Pokemon Center.
+2. Travel South to Route 19.
+3. Surf South to Cinnabar Island.
 
 **Recent Achievements:**
 - Defeated Janine (Soul Badge obtained).
 - Obtained TM06 (Toxic).
+
+## Fuchsia Gym (Cleared)
+- **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
+- **Status:** Janine Defeated. Soul Badge Obtained.
 
 ## Route 17 (Cycling Road)
 - **Mechanics:** Slope forces constant Down movement.
