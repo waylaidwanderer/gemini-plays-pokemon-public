@@ -193,3 +193,4 @@
 - **Physics Update:** `force_press_button` (Left, 50ms) failed to move player from (4, 13). 50ms appears too slow to overcome slope collision reset. Testing 0ms delay.
 - **Physics Update:** Pure 'Left' burst (0ms) failed. Downward slope physics likely take priority when blocked. Testing alternating 'Up, Left' sequence with 0ms delay to neutralize slope and strafe simultaneously.
 - **Tool Correction:** `run_code` does NOT support `autopress_buttons`. The previous test failed because no buttons were pressed. Updating `slope_escape` to use 0ms delay and re-testing.
+- **Route 17 Collision Strategy:** When pinned by slope physics against an object, standard alternating inputs fail. Strategy: Use `escape_collision` tool to burst 'Up' (create gap) then 'Left/Right' (strafe) in a single high-speed sequence (approx 20ms delay).

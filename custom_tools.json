@@ -568,8 +568,8 @@
       }
     ]
   },
-  "slope_escape": {
-    "description": "Executes a rapid sequence of inputs to escape slope collision physics. Alternates 'Up' and 'Direction' without any sleep delay to maximize input density and break collision locks.",
+  "escape_collision": {
+    "description": "Executes a sequence of 'Up' inputs followed by 'Direction' inputs to escape collision locks on slopes. Allows configurable delay.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -579,33 +579,30 @@
             "Left",
             "Right"
           ]
+        },
+        "up_steps": {
+          "type": "integer"
+        },
+        "side_steps": {
+          "type": "integer"
+        },
+        "delay": {
+          "type": "integer"
         }
       },
       "required": [
-        "direction"
+        "direction",
+        "up_steps",
+        "side_steps",
+        "delay"
       ]
     },
-    "python_script": "import json\ninput_dir = input_data['direction']\nbuttons = []\n# Alternating Up and Direction, no sleep to overcome physics\nfor _ in range(20):\n    buttons.append(\"Up\")\n    buttons.append(input_dir)\nprint(json.dumps(buttons))",
+    "python_script": "import json\ndirection = input_data[\"direction\"]\nup_steps = int(input_data[\"up_steps\"])\nside_steps = int(input_data[\"side_steps\"])\ndelay = int(input_data[\"delay\"])\n\nbuttons = []\nfor _ in range(up_steps):\n    buttons.append(\"Up\")\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nfor _ in range(side_steps):\n    buttons.append(direction)\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "feat: Create slope_escape tool for Cycling Road. Alternates Up and Direction to bypass slope collision.",
-        "timestamp": "2025-12-06T00:19:13.570Z",
-        "action_counter": 21034
-      },
-      {
-        "commit_message": "fix: Reduce sleep delay from 50ms to 20ms and increase iterations. 50ms proved too slow to overcome the constant downward physics on Cycling Road, resulting in a collision loop. Faster inputs are required to strafe effectively.",
-        "timestamp": "2025-12-06T00:22:00.435Z",
-        "action_counter": 21039
-      },
-      {
-        "commit_message": "fix: Aggressive timing update. Reduced sleep to 15ms (approx 1 frame) and added initial 'Up' burst to break collision lock with obstacles on slopes.",
-        "timestamp": "2025-12-06T00:24:52.538Z",
-        "action_counter": 21042
-      },
-      {
-        "commit_message": "fix: Remove all sleep delays from slope_escape. Previous tests showed 15ms was too slow to overcome slope physics. Now sends pure alternating inputs as fast as possible.",
-        "timestamp": "2025-12-06T00:37:07.541Z",
-        "action_counter": 21051
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-06T00:59:56.184Z",
+        "action_counter": 21056
       }
     ]
   }
