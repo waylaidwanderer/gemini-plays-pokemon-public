@@ -270,3 +270,7 @@
 - **Status:** Arrived.
 - **PokeCenter:** Located at (11, 11). Mistaken for Gym.
 - **Gym Status:** Unknown. Need to investigate.
+## Cinnabar Island
+- **Status:** Arrived.
+- **PokeCenter:** Located at (11, 11). Mistaken for Gym.
+- **Gym Status:** Unknown. Need to investigate.
