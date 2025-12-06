@@ -21,6 +21,7 @@
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
+- **Moving NPC Blockades:** If a path is repeatedly blocked by a moving NPC, stop recalculating the path. The most efficient solution is to use `stun_npc` to freeze them in a favorable position and then proceed.
 - **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
 - **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 - **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
@@ -133,10 +134,11 @@
 - **WALL**: Impassable terrain.
 - **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
 - **WARP_CARPET_DOWN (Anomaly):** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
+- **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
+- **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
-- **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 
 ## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -204,6 +206,7 @@
 - **Teacher in Olivine Pokémon Center:** Mentioned a person in Cianwood City, across the sea, who has a rare POKéMON.
 - **POKEFAN_F on OlivineLighthouse1F (16, 9):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
 - **Gentleman on OlivineLighthouse2F (17, 8):** The sick Pokémon at the top needs 'special medicine'.
+- **COOLTRAINER_M in EcruteakItemfinderHouse:** Mentioned finding items in the BURNED TOWER.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -241,6 +244,11 @@
 ### Moomoo Farm Puzzle Solution
 - The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer. The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
 
+### Burned Tower Puzzle
+- **Hypothesis 1 (Pits are step-on warps):** FAILED. Stepping on the pit at (5, 14) did not trigger a warp.
+- **Hypothesis 2 (Pits are 'A' press warps):** FAILED. Pressing 'A' while standing on the pit at (5, 14) did not trigger a warp.
+- **Hypothesis 3 (Boulders are obstacles):** The boulders in the tower might be movable with Strength, opening new paths.
+
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
@@ -269,10 +277,3 @@
 # Puzzle Solver Agent - Olivine Blockade
 - **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
 - **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
-
-# Reflection Lessons (Turn 37477)
-- **Trust Physical Evidence Over Notes:** My own recent traversal of a route is a higher source of truth than an old notepad entry. If my memory of walking a path conflicts with a note saying it's a dead end, I must re-investigate the path immediately instead of forming complex plans based on the faulty note.
-- **Notepad Edit Efficiency:** The `replace` action requires an exact match. If it fails more than once on a complex entry, it is more efficient to append a correction or use `overwrite` as a last resort than to waste multiple turns trying to find the exact text.
-- **TALL_GRASS Tile:** Added to tile mechanics. It is a fully traversable tile where wild Pokémon can be encountered.
-- **WARP_CARPET_RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map on the right.
-- Youngster Joey on Route 30 called for a rematch.
