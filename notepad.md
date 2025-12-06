@@ -203,4 +203,4 @@
 ## Route 19
 - **Structure:** Split into East (Dead End) and West (Path to Seafoam) sections.
 - **East Entrance:** Located at Fuchsia (7, 35). Leads to a dead end.
-- **West Entrance:** Located at Fuchsia (~3, 35). This is the correct path.
+- **Route 19 Access:** Use the Gatehouse at (7, 35). Inside, exit via the **LEFT DOOR** to reach the traversable West side.
