@@ -295,3 +295,4 @@
 ### Menu Navigation
 - **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear, Status, Save, Option, Exit.
 - **Cursor Memory:** The game remembers the last cursor position. Always visually confirm or reset cursor (e.g., press Up x5) before navigating blind.
+- **Fly Destination Lock:** Confirmed inability to Fly to Pewter/Viridian/Pallet. Reinforces the rule that entering the Pokémon Center is required to unlock them.
