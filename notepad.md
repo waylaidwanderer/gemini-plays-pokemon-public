@@ -251,3 +251,4 @@
 - **Underground Path:** Not immediately visible, may be closed or moved in this generation.
 - **Route 4 Navigation:** Confirmed DEAD END from the East. One-way Eastbound only (ledges). Successfully bypassed via Fly to Pewter City.
 - **Current Route:** Pewter City -> Route 2 -> Viridian City -> Route 1 -> Pallet Town -> Surf to Cinnabar Island.
+- Route 2: Left Elixer at (14, 50) due to full bag.
