@@ -9,10 +9,9 @@
 **Status:** Soul Badge Obtained. Heading to Cinnabar.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
-1. Route 19 blocked by construction (Verified).
-2. Fly to Pewter City.
-3. Travel South to Viridian City -> Pallet Town.
-4. Surf South from Pallet (Route 21) to Cinnabar.
+1. Fly to Pewter Failed (Looping). Route 19 Blocked.
+2. EXECUTE LONG WALK: Fuchsia -> Route 15 -> 14 -> 13 -> 12 -> Lavender -> 8 -> Saffron -> 5 -> Cerulean -> 4 -> Pewter -> 2 -> Viridian -> 1 -> Pallet.
+3. Surf South to Cinnabar.
 
 **Recent Achievements:**
 - Defeated Janine (Soul Badge obtained).
