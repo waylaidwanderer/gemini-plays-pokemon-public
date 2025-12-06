@@ -270,3 +270,7 @@
 - **Internal vs. External Puzzles:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by fully exploring a key location or a recent major event. Do not get stuck in a loop trying to leave; expand the internal search.
 - **Confirmation Bias Mitigation:** To avoid getting stuck in loops caused by flawed assumptions, I must actively try to *disprove* my own hypotheses. After a test seems to confirm a belief, I should design a follow-up test specifically aimed at falsifying that belief.
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
+
+# CRITICAL STRATEGIC PROTOCOL: KNOWLEDGE BASE FIRST
+- Before forming ANY navigational plan, I MUST consult my map markers and notepad for the destination area. 
+- Ignoring my own verified data (e.g., 'Dead End' markers) in favor of unverified in-game hints is a catastrophic failure of strategy. Trust my data over dialogue.
