@@ -79,6 +79,8 @@
 - **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
 - **Challenge Root Hypotheses in Loops:** When stuck, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy. This was the key lesson from the Olivine Lighthouse puzzle where I incorrectly assumed the path forward was on the western side.
 
+# CURRENT QUEST: Get the SECRETPOTION for Amphy.
+
 # STRATEGIC KNOWLEDGE BASE
 
 ## Game Mechanics & Systems
@@ -162,9 +164,6 @@
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next.
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right).
-
-# CURRENT QUEST: Find a way to progress the main story
-- **Hypothesis:** Healing the sick Miltank at Moomoo Farm is required to unlock the northern exit of Route 39.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -267,17 +266,5 @@
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
 
-# CURRENT QUEST: Backtrack to Dark Cave
-- **Reminder:** Unstun Sailor (ID 3) in Olivine City before leaving.
-- **COUNTER**: Impassable terrain, usually a barrier in front of an NPC. To interact with NPCs behind counters, face the counter tile directly in front of them and press A.
-- **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. If a warp exists, it is activated by stepping *onto* the tile. If not, it is simply a walkable surface.
-
 # STRATEGIC PROTOCOL ADDITIONS
 - **Internal vs. External Puzzles:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by fully exploring a key location or a recent major event. Do not get stuck in a loop trying to leave; expand the internal search.
-
-# TILE & OBJECT MECHANICS ADDITIONS
-- **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
-- **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
-
-# CURRENT QUEST: Backtrack to Dark Cave
