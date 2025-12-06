@@ -5,13 +5,18 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-## 📍 Current Mission: Kanto Journey
-**Status:** Exploring Mt. Silver.
-**Objective:** Defeat Red.
+## Current Mission: Mt. Silver Summit
+**Status:** Silver Cave Outside (High Ground).
+**Objective:** Reach Route 28 Entrance.
 **Action Plan:**
-1. Explore Silver Cave to find the summit.
-   - Current Sub-goal: Find Route 28 entrance from High Ground.
-2. Defeat Red.
+1. Navigate Southeast to (39, 31) via Row 32.
+2. Enter Route 28.
+
+## Silver Cave Outside Notes
+- **PokeCenter:** (23, 19). Fly Destination.
+- **Geography:** High Ground accessible via ledges at (25, 27) and (23, 23). SE Corner (Route 28) accessible via Row 32 gap.
+- **Route 28:** Entrance located at Southeast corner (39, 31).
+- **Encounters:** Ponyta, Tangela.
 
 ## Silver Cave Room 1 Notes
 - **Geography:** Divided into High Ground (West/North) and Low Ground (Southeast).
