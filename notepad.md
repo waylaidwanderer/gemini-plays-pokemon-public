@@ -157,13 +157,12 @@
 - **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
 
 ## Route 8
-- **Status:** Exploring East towards Lavender.
+- **Status:** Traversing West to Saffron City.
+- **Geography:** Northern path has a Locked Door (10, 5) and Underground Path Sign (11, 7). Southern path requires Cut.
 - **Obstacles:**
-  - Biker Gang blocking x=10 (Rows 8-10). Bypass: North (Row 6).
-  - Cut Tree at (21, 12).
-- **Points of Interest:**
-  - Locked Door at (10, 5).
-  - Underground Path Sign at (11, 7).
+  - Biker Gang at x=10 (Rows 8-10). Defeated Biker Zeke (7, 10). Battling Biker Harris (7, 9).
+  - Cut Tree at (21, 12) - CLEARED.
+  - Cut Tree at (27, 10) - CLEARED.
 - **Tool Usage:** Multiple tool calls in one turn overwrite each other's button outputs. Use `run_code` or a custom tool to chain multiple distinct button actions.
 - **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
 - **Sprite Reliability:** Overworld sprites can be misleading (e.g., Firebreather using Fisher sprite). Always trust the battle intro text for accurate trainer identification.
