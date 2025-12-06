@@ -274,3 +274,8 @@
 - **Status:** Surfing East to Seafoam Islands.
 - **Trainers:**
   - Swimmer Cameron (Marill Lv34) - Defeated.
+## Viridian City
+- **Status:** Exploring.
+- **Geography:**
+  - Pokémon Center: (23, 25).
+  - Gym: To be located.
