@@ -88,7 +88,7 @@
 - **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELER) evolve when traded.
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
-- **Item Interaction:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own Pokémon. The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
+- **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -158,8 +158,8 @@
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right).
 
-# CURRENT QUEST: Investigate Olivine Lighthouse
-- **Objective:** Find the trigger that opens the path to Ecruteak City, which is likely inside the Olivine Lighthouse.
+# CURRENT QUEST: Find a way to progress the main story
+- **Hypothesis:** Healing the sick Miltank at Moomoo Farm is required to unlock the northern exit of Route 39.
 
 # Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
@@ -269,6 +269,4 @@
 - **WARP_CARPET_DOWN**: A traversable warp tile that transitions to the adjacent map when the player moves down onto it.
 - **Tool Maintenance Protocol:** If a tool fails its core function (not just a crash, but produces wrong results), it must be debugged and fixed immediately. Attempting to re-use a known-faulty tool is a critical waste of turns.
 - **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
-
-# Navigational Lessons
 - **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
