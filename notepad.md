@@ -269,3 +269,8 @@
 # Puzzle Solver Agent - Olivine Blockade
 - **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
 - **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
+
+# Reflection Lessons (Turn 37477)
+- **Trust Physical Evidence Over Notes:** My own recent traversal of a route is a higher source of truth than an old notepad entry. If my memory of walking a path conflicts with a note saying it's a dead end, I must re-investigate the path immediately instead of forming complex plans based on the faulty note.
+- **Notepad Edit Efficiency:** The `replace` action requires an exact match. If it fails more than once on a complex entry, it is more efficient to append a correction or use `overwrite` as a last resort than to waste multiple turns trying to find the exact text.
+- **TALL_GRASS Tile:** Added to tile mechanics. It is a fully traversable tile where wild Pokémon can be encountered.
