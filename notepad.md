@@ -13,8 +13,10 @@
    - Current Sub-goal: Access East side of Room 1 via Row 32.
 2. Defeat Red.
 
-## Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as a WALL when approached from the North (e.g., Silver Cave Outside). Acts as a LEDGE (jumpable) when approached from the North inside caves (e.g., Silver Cave Room 1).
+## Silver Cave Room 1 Notes
+- **Geography:** Divided into High Ground (West/North) and Low Ground (Southeast).
+- **Status:** Explored Low Ground (Protein). High Ground access required (likely from Outside).
+- **Mechanics:** FLOOR_UP_WALL is IMPASSABLE from the North here (confirmed at 8,34).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
