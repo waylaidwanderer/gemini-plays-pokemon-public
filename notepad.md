@@ -314,3 +314,4 @@
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
+- **Silver Cave Outside:** `FLOOR_UP_WALL` tiles (e.g., at 39,32) act as walls blocking movement from the North.
