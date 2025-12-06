@@ -6,10 +6,10 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** In Cerulean City. Heading West to Route 4.
+**Status:** Traversing Route 2 South towards Viridian City.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
-1. Traverse Route 8 -> Saffron City -> Route 5 -> Cerulean City -> Route 4 -> Pewter City -> Route 2 -> Viridian City -> Route 1 -> Pallet Town.
+1. Route 2 -> Viridian City -> Route 1 -> Pallet Town.
 2. Surf South to Cinnabar Island.
 
 ## Fuchsia Gym (Cleared)
