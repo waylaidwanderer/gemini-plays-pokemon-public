@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Quests
 - **Kanto Campaign:** Obtain 8 Badges.
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
-- **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
+- **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
 **Status:** Traversing Route 2 South towards Viridian City.
