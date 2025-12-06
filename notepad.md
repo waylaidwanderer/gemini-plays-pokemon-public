@@ -158,11 +158,15 @@
 
 ## Route 8
 - **Status:** Traversing West to Saffron City.
-- **Geography:** Northern path has a Locked Door (10, 5) and Underground Path Sign (11, 7). Southern path requires Cut.
+- **Geography:**
+  - **North Path:** Locked Door (10, 5), Underground Path Sign (11, 7).
+  - **South Path:** Cleared. Cut Trees at (27,10) and (21,12) removed.
+  - **Exit:** Saffron Gate at (4, 5) via Row 6.
 - **Obstacles:**
-  - Biker Gang at x=10 (Rows 8-10). Defeated Biker Zeke (7, 10). Battling Biker Harris (7, 9).
-  - Cut Tree at (21, 12) - CLEARED.
-  - Cut Tree at (27, 10) - CLEARED.
+  - **Biker Gang (x=7):**
+    - Zeke (Row 10): Defeated.
+    - Harris (Row 9): Defeated.
+    - Unnamed (Row 8): Active. Facing Left. Battle inevitable at (6, 8).
 - **Tool Usage:** Multiple tool calls in one turn overwrite each other's button outputs. Use `run_code` or a custom tool to chain multiple distinct button actions.
 - **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
 - **Sprite Reliability:** Overworld sprites can be misleading (e.g., Firebreather using Fisher sprite). Always trust the battle intro text for accurate trainer identification.
