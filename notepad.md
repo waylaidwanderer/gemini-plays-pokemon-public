@@ -6,11 +6,11 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Arrived in Viridian City.
+**Status:** Battling Blue (Viridian Gym).
 **Objective:** Defeat Blue (Earth Badge).
 **Action Plan:**
-1. Locate and Challenge Blue (Gym).
-   - Intel: No underlings in Viridian Gym. Blue fights alone.
+1. Defeat Blue.
+   - Team: Pidgeot (Lv56), Rhydon (Lv56).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
