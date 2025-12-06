@@ -9,8 +9,8 @@
 **Status:** En route to Seafoam Islands (Route 20).
 **Objective:** Defeat Blaine at Seafoam Islands.
 **Action Plan:**
-1. Explore the exterior platform of Seafoam Islands (Route 20 West).
-2. Enter Seafoam Islands Cave.
+1. Explore the western exterior of Seafoam Islands (Route 20 West).
+2. Enter Seafoam Islands Cave via the entrance at (38, 7).
 3. Locate and defeat Blaine (Volcano Badge).
 
 ## Fuchsia Gym (Cleared)
