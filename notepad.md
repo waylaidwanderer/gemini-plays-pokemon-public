@@ -6,14 +6,15 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Riding down Cycling Road (Route 17).
+**Status:** Riding down Cycling Road (Route 17). Bypassed Biker Riley.
 **Objective:** Travel to Fuchsia City (Janine).
 **Action Plan:**
 1. Ride South to Fuchsia City.
 2. Defeat Trainers for EXP/Money.
 
 ## Route 17 (Cycling Road)
-- **Mechanics:** Slope forces constant Down movement. **Escape Strategy:** Pure directional spam fails against collision. Use 'Wiggle' input: Alternate UP (to cancel slide) and LATERAL (to move) rapidly. Example: `["Up", "Right", "Up", "Right"]` with 50ms sleep.
+- **Mechanics:** Slope forces constant Down movement.
+- **Escape Strategy:** **Verified:** `slope_escape` tool (Up + Dir with 50ms sleep) successfully breaks collision locks. Use this to strafe laterally.
 - **Trainers:**
   - Biker Riley (Weezing Lv34) - Defeated. Acts as a WALL obstacle.
 
