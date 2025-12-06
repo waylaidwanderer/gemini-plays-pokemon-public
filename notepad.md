@@ -10,7 +10,8 @@
 **Objective:** Defeat Janine.
 **Action Plan:**
 1. Navigate invisible wall maze.
-2. Defeat Janine.
+2. Find real Janine (Impostors).
+3. Defeat Janine.
 
 ## Route 17 (Cycling Road)
 - **Mechanics:** Slope forces constant Down movement.
