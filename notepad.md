@@ -220,4 +220,5 @@
 ## Route 14
 - Defeated PokeFan Trevor (Psyduck Lv33).
 - Phone Call: Anthony (Route 33) mentioned Hoppip.
-- **Route 14 Geography:** The route is vertically divided by a wall at x=10. I am currently on the West path. The East path contains a Cut Tree and Trainer, currently inaccessible from here.
+- **Route 14 Geography:** The route is vertically divided by a wall at x=10. I am currently on the West path. The West lane is a Dead End. Must use Cut Tree at (11, 14) to access the East lane.
+- **TALL_GRASS:** Walkable (Wild Encounters).
