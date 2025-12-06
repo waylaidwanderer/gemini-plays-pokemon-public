@@ -248,3 +248,4 @@
 - **Geography:** One-way southbound ledges dominate the center/east (Columns 6-13). Northbound travel to Cerulean City requires using the West path (Columns 1-4).
 - **House (10, 11):** Blocked by ledges from the South. Must access from the North (likely via Cerulean).
 - **Underground Path:** Not immediately visible, may be closed or moved in this generation.
+- **Route 4 Navigation:** Entrance from Cerulean is at (39, 10). Path leads West to a wall at x=33, then forces South to y=14. The area West of x=33 (between y=10 and y=15) appears enclosed by walls/ledges. Investigating a path through y=14 and potentially along Row 16 (`FLOOR_UP_WALL`).
