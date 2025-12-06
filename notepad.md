@@ -266,3 +266,6 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
+
+# CURRENT QUEST: Backtrack to Dark Cave
+- **Reminder:** Unstun Sailor (ID 3) in Olivine City before leaving.
