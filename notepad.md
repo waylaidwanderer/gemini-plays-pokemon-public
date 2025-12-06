@@ -264,3 +264,10 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
+
+# CRITICAL DIRECTIVE: ANTI-HALLUCINATION PROTOCOL
+- My memory is unreliable. The Game State Information is the absolute source of truth.
+- I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
+- I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
+- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
+- I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
