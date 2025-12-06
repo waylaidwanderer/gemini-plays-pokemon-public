@@ -1,4 +1,42 @@
 {
+  "escape_collision": {
+    "description": "Executes a sequence of 'Up' inputs followed by 'Direction' inputs to escape collision locks on slopes. Allows configurable delay.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Left",
+            "Right"
+          ]
+        },
+        "up_steps": {
+          "type": "integer"
+        },
+        "side_steps": {
+          "type": "integer"
+        },
+        "delay": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "direction",
+        "up_steps",
+        "side_steps",
+        "delay"
+      ]
+    },
+    "python_script": "import json\ndirection = input_data[\"direction\"]\nup_steps = int(input_data[\"up_steps\"])\nside_steps = int(input_data[\"side_steps\"])\ndelay = int(input_data[\"delay\"])\n\nbuttons = []\nfor _ in range(up_steps):\n    buttons.append(\"Up\")\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nfor _ in range(side_steps):\n    buttons.append(direction)\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-06T00:59:56.184Z",
+        "action_counter": 21056
+      }
+    ]
+  },
   "find_path": {
     "description": "Calculates a path using A*. Strictly handles Surfing state and Directional Ledges. Treats WALL, CUT_TREE, BUOY, WHIRLPOOL, WINDOW, CAVE_WALL, BOOKSHELF, TV, PC, TOWN_MAP, and MART_SHELF as obstacles. Handles directional walls (FLOOR_LEFT_WALL, FLOOR_RIGHT_WALL) by blocking exit in the specific direction.",
     "input_schema": {
@@ -565,44 +603,6 @@
         "commit_message": "fix: Add sleep delays (500ms) between directional inputs in select_move to ensure the game registers each press during menu navigation. This addresses reliability issues where rapid inputs were ignored.",
         "timestamp": "2025-12-05T07:29:11.785Z",
         "action_counter": 19985
-      }
-    ]
-  },
-  "escape_collision": {
-    "description": "Executes a sequence of 'Up' inputs followed by 'Direction' inputs to escape collision locks on slopes. Allows configurable delay.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "direction": {
-          "type": "string",
-          "enum": [
-            "Left",
-            "Right"
-          ]
-        },
-        "up_steps": {
-          "type": "integer"
-        },
-        "side_steps": {
-          "type": "integer"
-        },
-        "delay": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "direction",
-        "up_steps",
-        "side_steps",
-        "delay"
-      ]
-    },
-    "python_script": "import json\ndirection = input_data[\"direction\"]\nup_steps = int(input_data[\"up_steps\"])\nside_steps = int(input_data[\"side_steps\"])\ndelay = int(input_data[\"delay\"])\n\nbuttons = []\nfor _ in range(up_steps):\n    buttons.append(\"Up\")\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nfor _ in range(side_steps):\n    buttons.append(direction)\n    if delay > 0:\n        buttons.append(f\"sleep {delay}\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-06T00:59:56.184Z",
-        "action_counter": 21056
       }
     ]
   }
