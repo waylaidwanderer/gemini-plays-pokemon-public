@@ -6,10 +6,10 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Riding down Cycling Road (Route 17). Bypassed Biker Riley.
-**Objective:** Travel to Fuchsia City (Janine).
+**Status:** Arrived on Route 18 via Cycling Road Gate.
+**Objective:** Travel East to Fuchsia City (Janine).
 **Action Plan:**
-1. Ride South to Fuchsia City.
+1. Head East through Route 18.
 2. Defeat Trainers for EXP/Money.
 
 ## Route 17 (Cycling Road)
