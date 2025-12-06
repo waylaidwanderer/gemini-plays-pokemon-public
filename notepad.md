@@ -13,7 +13,7 @@
 2. Defeat Trainers for EXP/Money.
 
 ## Route 17 (Cycling Road)
-- **Mechanics:** Slope forces constant Down movement. To bypass obstacles, first move UP to create vertical clearance (break collision), THEN move Laterally. Lateral movement while 'bonking' against an obstacle often fails.
+- **Mechanics:** Slope forces constant Down movement. To bypass obstacles, first move UP to create vertical clearance (break collision), THEN move Laterally. **CRITICAL:** Standard inputs fail due to slope resetting position/facing. Use `force_press_button` with `delay: 20` (Rapid Fire) to overcome slope physics.
 - **Trainers:**
   - Biker Riley (Weezing Lv34) - Defeated. Acts as a WALL obstacle.
 
