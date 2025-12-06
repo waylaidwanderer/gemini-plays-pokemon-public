@@ -319,7 +319,10 @@
 ## Silver Cave Room 1
 - Protein found at (15, 29).
 ## Silver Cave Outside
-- **Status:** Exploring South towards water.
+- **Status:** Surfing South to find High Ground access.
 - **Geography:**
   - Cave Entrance: (18, 11).
   - PokeCenter: (23, 19).
+  - Western Shore (x<14): Dead end blocked by ledges to the North.
+- **Events:**
+  - Phone Call: Joey (Route 30). Radio reset.
