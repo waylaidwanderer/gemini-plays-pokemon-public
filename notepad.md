@@ -268,3 +268,4 @@
 
 # Puzzle Solver Agent - Olivine Blockade
 - **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
+- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
