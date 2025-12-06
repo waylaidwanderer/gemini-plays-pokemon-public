@@ -6,11 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Earth Badge Obtained (16 Badges Total).
-**Objective:** Unlock Mt. Silver.
+**Status:** Mt. Silver Access Granted.
+**Objective:** Conquer Mt. Silver.
 **Action Plan:**
-1. Travel to Pallet Town (via Route 1). [Complete]
-2. Speak to Professor Oak.
+1. Exit Oak's Lab.
+2. Fly to Indigo Plateau.
+3. Head West to Route 28/Mt. Silver.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
