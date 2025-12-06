@@ -6,11 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Traversing Route 2 South towards Viridian City.
+**Status:** In Viridian City.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
-1. Route 2 -> Viridian City -> Route 1 -> Pallet Town.
-2. Surf South to Cinnabar Island.
+1. Explore Viridian City (Gym, Items).
+2. Route 1 -> Pallet Town.
+3. Surf South to Cinnabar Island.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
