@@ -13,9 +13,10 @@
 2. Defeat Trainers for EXP/Money.
 
 ## Route 17 (Cycling Road)
-- **Mechanics:** Slope forces auto-movement Down.
+- **Mechanics:** Slope forces constant Down movement. To bypass obstacles, move Laterally (Left/Right). Moving Up is ineffective as the slope resets position.
 - **Trainers:**
   - Biker Riley (Weezing Lv34) - Defeated.
+  - Biker (4, 14) - Blocking path.
 
 ## Route 16 (Archived)
 - **East Side:** Cut Tree path leads to Fuchsia Speech House (Dead End).
