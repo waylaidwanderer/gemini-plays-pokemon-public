@@ -272,3 +272,4 @@
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC. To interact with NPCs behind counters, face the counter tile directly in front of them and press A.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. If a warp exists, it is activated by stepping *onto* the tile. If not, it is simply a walkable surface.
+- **Reminder:** Unstun Sailor (ID 1) and Sailor (ID 3) in Olivine City after leaving the lighthouse.
