@@ -12,11 +12,6 @@
 1. Traverse Route 8 -> Saffron City -> Route 5 -> Cerulean City -> Route 4 -> Pewter City -> Route 2 -> Viridian City -> Route 1 -> Pallet Town.
 2. Surf South to Cinnabar Island.
 
-**Route 8 Status:**
-- **Geography:** Northern path blocked by Cut Tree (cleared) and locked door. Southern path blocked by Cut Tree (cleared).
-- **Obstacles:** Biker Gang blocking the main path at x=10 (rows 8-10). Must battle through.
-- **Progress:** Defeated Biker Zeke. Battling Biker at (7, 9).
-
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
 - **Status:** Janine Defeated. Soul Badge Obtained.
