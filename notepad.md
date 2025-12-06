@@ -9,7 +9,7 @@
 **Status:** Earth Badge Obtained (16 Badges Total).
 **Objective:** Unlock Mt. Silver.
 **Action Plan:**
-1. Travel to Pallet Town (via Route 1).
+1. Travel to Pallet Town (via Route 1). [Complete]
 2. Speak to Professor Oak.
 
 ## Fuchsia Gym (Cleared)
