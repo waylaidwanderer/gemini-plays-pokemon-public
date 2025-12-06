@@ -10,7 +10,7 @@
 **Objective:** Defeat Blue (Earth Badge).
 **Action Plan:**
 1. Defeat Blue.
-   - Team: Pidgeot (Defeated), Rhydon (Defeated), Gyarados (Active, Rain Dance Up). Paprika 233/233 HP.
+   - Team: Pidgeot (Defeated), Rhydon (Defeated), Gyarados (Active, Rain Stopped, Moves: Rain Dance/Hydro Pump/Twister/Hyper Beam). Paprika 222/233 HP.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
