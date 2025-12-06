@@ -11,6 +11,7 @@
 **Action Plan:**
 1. Navigate invisible wall maze.
 2. Find real Janine (Impostors).
+   - Defeated Picnicker Cindy (9, 4).
 3. Defeat Janine.
 
 ## Route 17 (Cycling Road)
