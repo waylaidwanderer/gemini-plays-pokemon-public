@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Soul Badge Obtained. Heading to Cinnabar.
+**Status:** Executing Long Walk. Heading East to Route 15.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
 1. Fly to Pewter Failed (Looping). Route 19 Blocked.
