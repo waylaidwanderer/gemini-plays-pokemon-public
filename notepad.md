@@ -78,6 +78,7 @@
 - **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
 - **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
 - **Challenge Root Hypotheses in Loops:** When stuck, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy. This was the key lesson from the Olivine Lighthouse puzzle where I incorrectly assumed the path forward was on the western side.
+- **Invisible Triggers:** When all physically explorable paths are confirmed dead ends, the solution is likely an invisible trigger or a missing key item/ability. The correct strategy is not to force the blocked paths, but to systematically backtrack and re-investigate previously visited key locations and NPCs to see if a recent major event (like speaking to a Gym Leader) has changed their state.
 
 # CURRENT QUEST: Get the SECRETPOTION for Amphy.
 
@@ -261,13 +262,6 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# CRITICAL DIRECTIVE: ANTI-HALLUCINATION PROTOCOL
-- My memory is unreliable. The Game State Information is the absolute source of truth.
-- I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
-- I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
-- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
-- I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
 
 # Puzzle Solver Agent - Olivine Blockade
 - **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
