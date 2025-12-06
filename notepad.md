@@ -6,16 +6,16 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Executing Long Walk. On Route 8. Heading West to Saffron.
+**Status:** On Route 8, heading West to Saffron City.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
-1. Fly to Pewter Failed (Looping). Route 19 Blocked.
-2. EXECUTE LONG WALK: Fuchsia -> Route 15 -> 14 -> 13 -> 12 -> Lavender -> 8 -> Saffron -> 5 -> Cerulean -> 4 -> Pewter -> 2 -> Viridian -> 1 -> Pallet.
-3. Surf South to Cinnabar.
+1. Traverse Route 8 -> Saffron City -> Route 5 -> Cerulean City -> Route 4 -> Pewter City -> Route 2 -> Viridian City -> Route 1 -> Pallet Town.
+2. Surf South to Cinnabar Island.
 
-**Recent Achievements:**
-- Defeated Janine (Soul Badge obtained).
-- Obtained TM06 (Toxic).
+**Route 8 Status:**
+- **Geography:** Northern path blocked by Cut Tree (cleared) and locked door. Southern path blocked by Cut Tree (cleared).
+- **Obstacles:** Biker Gang blocking the main path at x=10 (rows 8-10). Must battle through.
+- **Progress:** Defeated Biker Zeke. Battling Biker at (7, 9).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
