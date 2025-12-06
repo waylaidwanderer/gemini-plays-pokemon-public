@@ -200,3 +200,7 @@
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are explicitly marked as `WALL` in map data.
 - **Status:** Soul Badge Obtained. Janine & Impostors defeated.
+## Route 19
+- **Structure:** Split into East (Dead End) and West (Path to Seafoam) sections.
+- **East Entrance:** Located at Fuchsia (7, 35). Leads to a dead end.
+- **West Entrance:** Located at Fuchsia (~3, 35). This is the correct path.
