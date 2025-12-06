@@ -6,13 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Arrived at Cinnabar Island.
-**Objective:** Travel to Cinnabar Island (Blaine).
+**Status:** En route to Seafoam Islands (Route 20).
+**Objective:** Find Blaine at Seafoam Islands.
 **Action Plan:**
-1. Explore Viridian City (Gym, Items).
-   - House at (21, 9): Nickname Speech House (Not Gym).
-2. Route 1 -> Pallet Town.
-3. Surf South to Cinnabar Island.
+1. Surf East from Cinnabar Island along Route 20.
+2. Locate Seafoam Islands entrance.
+3. Defeat Blaine (Volcano Badge).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
