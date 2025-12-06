@@ -195,3 +195,4 @@
 - **Tool Correction:** `run_code` does NOT support `autopress_buttons`. The previous test failed because no buttons were pressed. Updating `slope_escape` to use 0ms delay and re-testing.
 - **Route 17 Collision Strategy:** When pinned by slope physics against an object, standard alternating inputs fail. Strategy: Use `escape_collision` tool to burst 'Up' (create gap) then 'Left/Right' (strafe) in a single high-speed sequence (approx 20ms delay).
 - **Physics Update:** `escape_collision` (Up x3, Left x3, 20ms) failed at (4, 13). 20ms delay likely too slow. Retrying with 0ms delay and increased input count (10x).
+- **Physics Update:** `escape_collision` (Up x10, Left x10, 0ms) SUCCESS. Escaped lock at (4, 13) and slid down to (1, 76).
