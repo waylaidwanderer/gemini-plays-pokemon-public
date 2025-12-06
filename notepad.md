@@ -244,3 +244,7 @@
 - **Locations:** House at (11, 33).
 - **Barriers:** Fisher at (10, 38) blocks the east boardwalk. Item Ball at (5, 43) requires Cut.
 - **Super Rod:** Obtained from Fishing Guru on Route 12.
+## Route 5
+- **Geography:** One-way southbound ledges dominate the center/east (Columns 6-13). Northbound travel to Cerulean City requires using the West path (Columns 1-4).
+- **House (10, 11):** Blocked by ledges from the South. Must access from the North (likely via Cerulean).
+- **Underground Path:** Not immediately visible, may be closed or moved in this generation.
