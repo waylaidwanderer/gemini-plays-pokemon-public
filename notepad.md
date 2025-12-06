@@ -213,3 +213,4 @@
 - **Lower Path:** Eastbound (Traversable).
 - **Item:** Ball at (12, 5) on Upper Path (currently unreachable).
 - Defeated Teacher Colette (Clefairy Lv36).
+- Route 15 Wild Encounters: Nidorina, Pidgeotto.
