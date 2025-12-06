@@ -11,8 +11,8 @@
 **Action Plan:**
 1. Fly to Cinnabar Island (Done).
 2. Surf to Pallet Town (Done).
-3. Walk North to Viridian City.
-4. Unlock Viridian Fly destination (Enter PokeCenter).
+3. Walk North to Viridian City (Done).
+4. Unlock Viridian Fly destination (Done).
 5. Head West to Route 22 -> Reception Gate -> Route 28 -> Mt. Silver.
 
 ## Fuchsia Gym (Cleared)
