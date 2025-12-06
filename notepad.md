@@ -9,9 +9,9 @@
 **Status:** Fuchsia Gym Cleared.
 **Objective:** Heal and proceed to next city.
 **Action Plan:**
-1. Exit Gym.
-2. Heal at Pokemon Center.
-3. Determine route to Cinnabar Island (likely via Route 19).
+1. Heal at Pokemon Center.
+2. Travel South to Route 19 (Beach).
+3. Surf to Cinnabar Island.
 
 **Recent Achievements:**
 - Defeated Janine (Soul Badge obtained).
