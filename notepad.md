@@ -191,3 +191,4 @@
 - **Physics Update:** `slope_escape` (Right, 15ms) failed to break the collision lock at (4, 13). Attempting Left.
 - **Physics Update:** `slope_escape` (Left, 15ms) also failed. Hypothesis: 'Up' inputs might be keeping the player pinned. Testing pure directional input with standard timing.
 - **Physics Update:** `force_press_button` (Left, 50ms) failed to move player from (4, 13). 50ms appears too slow to overcome slope collision reset. Testing 0ms delay.
+- **Physics Update:** Pure 'Left' burst (0ms) failed. Downward slope physics likely take priority when blocked. Testing alternating 'Up, Left' sequence with 0ms delay to neutralize slope and strafe simultaneously.
