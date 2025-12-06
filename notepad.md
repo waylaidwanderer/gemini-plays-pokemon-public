@@ -6,13 +6,16 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** In Fuchsia Gym.
-**Objective:** Defeat Janine.
+**Status:** Fuchsia Gym Cleared.
+**Objective:** Heal and proceed to next city.
 **Action Plan:**
-1. Navigate invisible wall maze.
-2. Find real Janine (Impostors).
-   - Defeated Picnicker Cindy (9, 4).
-3. Defeat Janine.
+1. Exit Gym.
+2. Heal at Pokemon Center.
+3. Determine route to Cinnabar Island (likely via Route 19).
+
+**Recent Achievements:**
+- Defeated Janine (Soul Badge obtained).
+- Obtained TM06 (Toxic).
 
 ## Route 17 (Cycling Road)
 - **Mechanics:** Slope forces constant Down movement.
