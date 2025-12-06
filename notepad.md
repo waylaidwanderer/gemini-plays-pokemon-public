@@ -94,7 +94,6 @@
 - **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELER) evolve when traded.
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
-- **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -111,6 +110,7 @@
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
 - **INCENSE_BURNER**: An impassable decorative object.
+- **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. If a warp exists, it is activated by stepping *onto* the tile. If not, it is simply a walkable surface.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
@@ -264,29 +264,3 @@
 ## Custom Agents
 - `python_code_debugger`: Analyzes and corrects faulty Python scripts.
 - `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# STRATEGIC PROTOCOL ADDITIONS
-- **Internal vs. External Puzzles:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by fully exploring a key location or a recent major event. Do not get stuck in a loop trying to leave; expand the internal search.
-- **Confirmation Bias Mitigation:** To avoid getting stuck in loops caused by flawed assumptions, I must actively try to *disprove* my own hypotheses. After a test seems to confirm a belief, I should design a follow-up test specifically aimed at falsifying that belief.
-- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
-
-# CRITICAL STRATEGIC PROTOCOL: KNOWLEDGE BASE FIRST
-- Before forming ANY navigational plan, I MUST consult my map markers and notepad for the destination area. 
-- Ignoring my own verified data (e.g., 'Dead End' markers) in favor of unverified in-game hints is a catastrophic failure of strategy. Trust my data over dialogue.
-
-# Route 39 Exploration
-- The western path at (1, 13) is a confirmed dead end, blocked by a WALL tile at (0, 13). The way forward is not here.
-
-# STRATEGIC PROTOCOL ADDITIONS
-- **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
-- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-
-# STRATEGIC PROTOCOL ADDITIONS
-- **Root Hypothesis Failure:** When all apparent paths related to a primary objective are confirmed blocked, the root assumption about the game's progression is likely flawed. Do not get stuck re-testing dead ends; pivot to a completely different, previously dismissed objective (like the strange tree) that might have become the new critical path.
-
-# STRATEGIC PROTOCOL ADDITIONS
-- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-
-## Tile & Object Mechanics
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
-- **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
