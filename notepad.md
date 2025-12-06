@@ -241,3 +241,7 @@
 ## Route 12
 - **Status:** Just arrived from Route 13 (South). Heading North.
 - **Geography:** Boardwalk/Bridge structure over water.
+## Route 12
+- **Geography:** Extensive boardwalks connecting small islands. LADDER tiles here act as FLOOR (Boardwalk).
+- **Locations:** House at (11, 33).
+- **Barriers:** Fisher at (10, 38) blocks the east boardwalk. Item Ball at (5, 43) requires Cut.
