@@ -285,3 +285,12 @@
 - **PIT (Burned Tower):** The pit at (15, 5) does not activate by stepping on it or by pressing 'A' while standing on it. This confirms it is not a simple warp.
 - **ROCK (Burned Tower):** The rock at (15, 4) cannot be pushed north with Strength. This hypothesis has failed.
 - **PIT (Burned Tower, (5, 5)):** The pit does not activate by stepping on it or by pressing 'A' while standing on it. This confirms it is not a simple warp.
+
+# CORRECTED Custom Tools & Agents (Turn 37773)
+## Custom Tools
+- `route_planner`: Calculates the shortest path between two points on the current map.
+- `find_reachable_unseen_tiles`: Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
+
+## Custom Agents
+- `python_code_debugger`: Analyzes and corrects faulty Python scripts.
+- `puzzle_solver`: Generates new hypotheses for in-game puzzles.
