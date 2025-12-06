@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Executing Long Walk. In Lavender Town. Heading West to Route 8.
+**Status:** Executing Long Walk. On Route 8. Heading West to Saffron.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
 1. Fly to Pewter Failed (Looping). Route 19 Blocked.
