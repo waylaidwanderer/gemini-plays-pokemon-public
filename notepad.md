@@ -10,6 +10,7 @@
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
 1. Explore Viridian City (Gym, Items).
+   - House at (21, 9): Nickname Speech House (Not Gym).
 2. Route 1 -> Pallet Town.
 3. Surf South to Cinnabar Island.
 
