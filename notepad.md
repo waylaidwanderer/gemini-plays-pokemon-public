@@ -259,7 +259,7 @@
 
 # Custom Tools & Agents
 ## Custom Tools
-- `find_path`: Calculates the shortest path between two points on the current map.
+- `route_planner`: Calculates the shortest path between two points on the current map.
 - `plan_systematic_search_path`: Generates a path to systematically visit every reachable tile of a specified type.
 - `select_item`: Automates selecting a specific item from the bag menu.
 - `select_move`: Selects a move from the battle menu by name.
