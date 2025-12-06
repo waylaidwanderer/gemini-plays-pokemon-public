@@ -10,7 +10,7 @@
 **Objective:** Defeat Blue (Earth Badge).
 **Action Plan:**
 1. Exit Seafoam Gym.
-2. Fly to Viridian City.
+2. Travel to Viridian City (via Pallet Town & Route 1).
 3. Challenge Blue.
 
 ## Fuchsia Gym (Cleared)
