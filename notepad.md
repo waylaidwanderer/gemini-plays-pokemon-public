@@ -10,7 +10,7 @@
 **Objective:** Defeat Red.
 **Action Plan:**
 1. Explore Silver Cave to find the summit.
-   - Current Sub-goal: Access East side of Room 1 via Row 32.
+   - Current Sub-goal: Find High Ground access (likely via Water/Waterfall outside).
 2. Defeat Red.
 
 ## Silver Cave Room 1 Notes
