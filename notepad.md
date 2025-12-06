@@ -258,7 +258,7 @@
 - **Geography:** Ledges and tall grass.
 - **Trainers:**
   - Schoolboy Danny (7, 12) - Defeated.
-  - Cooltrainer F (9, 25) - Avoid.
+  - Cooltrainer F (9, 25) - Battling.
 ## Pallet Town
 - **Status:** Arrived via Route 1.
 - **Geography:** Red's House (West), Blue's House (East), Oak's Lab (South).
