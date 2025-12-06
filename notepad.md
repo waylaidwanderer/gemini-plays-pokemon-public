@@ -6,14 +6,11 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Mt. Silver Access Granted.
-**Objective:** Conquer Mt. Silver.
+**Status:** Exploring Mt. Silver.
+**Objective:** Defeat Red.
 **Action Plan:**
-1. Fly to Cinnabar Island (Done).
-2. Surf to Pallet Town (Done).
-3. Walk North to Viridian City (Done).
-4. Unlock Viridian Fly destination (Done).
-5. Head West to Route 22 -> Reception Gate -> Route 28 -> Mt. Silver.
+1. Explore Silver Cave to find the summit.
+2. Defeat Red.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
@@ -78,7 +75,7 @@
 - **LEDGE_HOP_DOWN:** One-way jump South.
 - **TALL_GRASS:** Walkable (Wild Encounters).
 - **WATER:** Traversable (Surf required).
-- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), and Route 20 (Seafoam).
+- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), and Silver Cave Outside (blocking Southbound movement).
 - **FLOOR_LEFT_WALL:** Directional Wall. Blocks movement to the LEFT. Verified on Celadon Mansion Roof.
 - **FLOOR_RIGHT_WALL:** Directional Wall. Blocks movement to the RIGHT. Verified on Celadon Mansion Roof.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Blocks movement from the Left (cannot walk East through it). Verified on Fuchsia City.
@@ -144,7 +141,6 @@
 - **find_path:** Pathfinding with A*.
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs.
-
 - **escape_collision:** Escapes slope collision locks using rapid directional bursts.
 - **press_sequence:** Executes a comma-separated sequence of buttons and sleep commands.
 
@@ -314,4 +310,3 @@
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
-- **Silver Cave Outside:** `FLOOR_UP_WALL` tiles (e.g., at 39,32) act as walls blocking movement from the North.
