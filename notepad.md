@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm] (Called about Rattata - Chatter), Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** Traversing Route 21 (Water Route).
+**Status:** Arrived at Cinnabar Island.
 **Objective:** Travel to Cinnabar Island (Blaine).
 **Action Plan:**
 1. Explore Viridian City (Gym, Items).
