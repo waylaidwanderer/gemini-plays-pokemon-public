@@ -276,3 +276,7 @@
 
 # Route 39 Exploration
 - The western path at (1, 13) is a confirmed dead end, blocked by a WALL tile at (0, 13). The way forward is not here.
+
+# STRATEGIC PROTOCOL ADDITIONS
+- **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
+- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
