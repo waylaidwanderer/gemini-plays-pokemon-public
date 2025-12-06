@@ -6,8 +6,8 @@
 
 ## Status
 - **Badges:** 13 (Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising, Boulder, Cascade, Thunder, Rainbow, Marsh).
-- **Location:** Route 17. Just arrived.
+- **Location:** Route 16. Heading South.
 
 ## Observations
-- **Route 17:** Cycling Road. Slope automatically pulls player down (usually).
-- **Obstacles:** Biker directly in path at (4, 14).
+- **Route 16:** Unexpected transition from Rt 17.
+- **Path:** Road seems open to the South.
