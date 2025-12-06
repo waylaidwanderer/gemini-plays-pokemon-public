@@ -569,7 +569,7 @@
     ]
   },
   "slope_escape": {
-    "description": "Executes a rapid sequence of 'Up' followed by the target direction to escape slope collision physics. Uses 50ms delays for tight timing.",
+    "description": "Executes a rapid sequence of 'Up' followed by the target direction to escape slope collision physics. Uses 20ms delays for tighter timing.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -585,12 +585,17 @@
         "direction"
       ]
     },
-    "python_script": "import json\nd = input_data['direction']\n# Sequence: Up (break collision), sleep, Dir (Turn/Move), sleep, Dir (Move/Confirm)\n# Using 50ms to be faster than physics update if possible\ncmds = [\"Up\", \"sleep 50\", d, \"sleep 50\", d, \"sleep 50\", d, \"sleep 50\"]\nprint(json.dumps(cmds))",
+    "python_script": "import json\ninput_dir = input_data.get(\"direction\", \"Right\")\nbuttons = []\n# Alternating Up and Direction rapidly to break collision lock\nfor _ in range(8):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 20\")\n    buttons.append(input_dir)\n    buttons.append(\"sleep 20\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create slope_escape tool for Cycling Road. Alternates Up and Direction to bypass slope collision.",
         "timestamp": "2025-12-06T00:19:13.570Z",
         "action_counter": 21034
+      },
+      {
+        "commit_message": "fix: Reduce sleep delay from 50ms to 20ms and increase iterations. 50ms proved too slow to overcome the constant downward physics on Cycling Road, resulting in a collision loop. Faster inputs are required to strafe effectively.",
+        "timestamp": "2025-12-06T00:22:00.435Z",
+        "action_counter": 21039
       }
     ]
   }
