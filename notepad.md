@@ -289,3 +289,4 @@
   - Nickname House: (21, 9).
   - Gym: (32, 7). Entrance blocked by Gramps at (30, 8).
 - **Strategy:** Navigate around the Gym building (North side) to reach the entrance from the East.
+- **Viridian Gym:** Found Blue at (5, 3). Challenging him now.
