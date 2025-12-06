@@ -228,3 +228,9 @@
 - Geography: Fence Maze.
 - Trainers:
   - Hiker Kenny (Sandslash, Graveler, Golem) - Defeated at (13, 10).
+## Route 13
+- **Geography:** Fence Maze. Fences are `WALL` tiles.
+- **Trainers:**
+  - Pokefan M (14, 10) - Avoid/Defeated.
+  - Hiker Kenny (13, 10) - Defeated. Guards the gap at (12, 11).
+- **Lesson:** Mark trainers as obstacles immediately upon sighting to avoid pathfinding collisions.
