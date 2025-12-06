@@ -212,3 +212,4 @@
 - **Upper Path:** Westbound only (Ledges jump Left).
 - **Lower Path:** Eastbound (Traversable).
 - **Item:** Ball at (12, 5) on Upper Path (currently unreachable).
+- Defeated Teacher Colette (Clefairy Lv36).
