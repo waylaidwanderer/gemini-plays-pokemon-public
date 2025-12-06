@@ -280,3 +280,6 @@
 # TILE & OBJECT MECHANICS ADDITIONS
 - **PIT**: Confirmed one-way warp tile in Olivine Lighthouse. Stepping on it causes the player to fall to the floor below.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
+
+# CURRENT QUEST: Backtrack to Dark Cave
+- **Reminder:** Unstun Sailor (ID 1) and Sailor (ID 3) in Olivine City after leaving the lighthouse.
