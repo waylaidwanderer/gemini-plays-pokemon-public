@@ -6,10 +6,10 @@
 - **Rematches:** Anthony (Route 33) [Spearow Swarm], Joey (Route 30).
 
 ## 📍 Current Mission: Kanto Journey
-**Status:** In Fuchsia City.
-**Objective:** Find Janine (Gym Leader).
+**Status:** In Fuchsia Gym.
+**Objective:** Defeat Janine.
 **Action Plan:**
-1. Locate Gym.
+1. Navigate invisible wall maze.
 2. Defeat Janine.
 
 ## Route 17 (Cycling Road)
