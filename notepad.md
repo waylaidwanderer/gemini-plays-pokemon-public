@@ -318,3 +318,8 @@
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
 ## Silver Cave Room 1
 - Protein found at (15, 29).
+## Silver Cave Outside
+- **Status:** Exploring South towards water.
+- **Geography:**
+  - Cave Entrance: (18, 11).
+  - PokeCenter: (23, 19).
