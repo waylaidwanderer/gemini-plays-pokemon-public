@@ -193,4 +193,4 @@
 ## Fuchsia Gym
 - **Mechanic:** Invisible walls are explicitly marked as `WALL` in map data. `find_path` sees them; trust the tool.
 - **Objective:** Defeat Janine. Trainers are disguised as her.
-- **Status:** Exploring. Defeated Cindy (9, 4).
+- **Status:** Exploring. Defeated Cindy (9, 4), Lass Alice (5, 7).
