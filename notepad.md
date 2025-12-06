@@ -10,7 +10,7 @@
 **Objective:** Defeat Red.
 **Action Plan:**
 1. Explore Silver Cave to find the summit.
-   - Current Sub-goal: Find High Ground access (likely via Water/Waterfall outside).
+   - Current Sub-goal: Find Route 28 entrance from High Ground.
 2. Defeat Red.
 
 ## Silver Cave Room 1 Notes
