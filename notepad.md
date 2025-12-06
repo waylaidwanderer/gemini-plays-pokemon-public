@@ -3,6 +3,7 @@
 - I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
 - I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
+- I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
 
 # STRATEGIC PROTOCOL
 - **KNOWLEDGE-DRIVEN STRATEGY (PRIMARY DIRECTIVE):** My own visual assessment and memory are unreliable. I MUST trust my documented knowledge (map markers, notepad) and verified tool outputs (`route_planner`) over my own intuition. A 'No path found' result is valuable, correct data, not a tool failure. I MUST consult this knowledge base before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
@@ -89,17 +90,6 @@
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
 - **Item Interaction:** To give an item to an overworld sprite (like the sick Miltank), I must interact with the sprite directly. Using the item from the PACK menu only works on my own Pokémon. The game may require a specific item type (e.g., a generic 'BERRY') and will not accept functionally similar but differently named items (e.g., 'BITTER BERRY').
 
-## Navigational Lessons
-- **Trust Pathfinder Data:** When `route_planner` returns 'No path found', it is providing accurate data about the map's layout. I must treat this as a signal that I'm facing a navigation puzzle, not a tool failure. Wasting time in Olivine City was a direct result of not trusting this data.
-- **Route 39 Ledges:** This route contains one-way ledges, but northbound travel IS possible by navigating around the central fence. It is not a dead end.
-- **Post-Event NPC Checks:** After a major plot event (like reaching a quest objective at the top of the lighthouse), I must re-interact with key quest-related NPCs. Their dialogue or the game's state may have changed, providing the trigger to progress.
-- **Navigational Planning:** A major navigational error (traveling to Route 39 instead of Route 37) wasted significant time. Lesson: Before committing to a long journey, I must consult my map and notes to verify the correct route, especially after clearing a major roadblock like the strange tree. Do not rely on memory alone for multi-route travel.
-- **Quest Trigger Logic:** Accepting a quest from a key NPC (like Jasmine) does not guarantee that all related NPC blockers will immediately be removed. Some paths may remain closed until a different, often unrelated, major objective is completed (like obtaining a new HM or badge).
-- **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-- **Trust Tools Over Visuals (Route 39):** My `route_planner` tool correctly identified a maze-like path on Route 39 that I visually misinterpreted as a simple straight path. This confirms that a 'No path found' or a convoluted path result is valuable, correct data, not a tool failure. I must trust my verified tools and map data over my own flawed visual assessment.
-- **Olivine City Navigation:** Olivine City is physically divided into western and eastern sections by impassable walls and buildings. The only way to cross between them is via the main southern road that runs east-west near the Pokémon Center and port. If `route_planner` returns 'No path found', it's likely due to this segmentation. The solution is to backtrack and find a different street to navigate around the central building block.
-- **Vertical Puzzle Solutions:** When stuck on a lower floor of a multi-level puzzle, the solution may require ascending to a higher floor to find a path that leads down into the previously inaccessible area. Don't assume the path forward is always on the same level or immediately adjacent.
-
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
 - **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
@@ -135,6 +125,7 @@
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
+- **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 
 ## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -273,16 +264,8 @@
 
 # Navigational Lessons
 - **Test All Puzzle Variables:** When a puzzle has multiple similar elements (e.g., two pits on the same floor), they may not be functionally identical. Each variable must be tested independently to avoid missing a unique solution.
-
-# STRATEGIC PROTOCOL ADDITIONS
 - **Challenge Root Hypothesis in Loops:** When stuck in a repetitive loop, the root hypothesis about how to progress is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself. I must be willing to backtrack to an earlier point and find an entirely different route.
-
-## Tile & Object Mechanics
-- **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
-- **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
 - **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City, but the path north was a physical dead end. Lesson: If NPC or sign dialogue contradicts the observable, physical layout of the map, trust the physical evidence. A path that is visibly blocked is blocked, regardless of what a sign says.
-
-# Navigational Lessons
 - **WARP_CARPET_DOWN**: A traversable warp tile that transitions to the adjacent map when the player moves down onto it.
 - **Tool Maintenance Protocol:** If a tool fails its core function (not just a crash, but produces wrong results), it must be debugged and fixed immediately. Attempting to re-use a known-faulty tool is a critical waste of turns.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. If a warp exists, it is activated by stepping *onto* the tile. If not, it is simply a walkable surface.
+- **Agent Escalation:** When stuck in a puzzle loop and my own hypotheses fail repeatedly, I must escalate to the `puzzle_solver` agent. It provides fresh perspectives that can break cognitive fixation, as demonstrated by its correct hypothesis about the narrow path in the Olivine Lighthouse.
