@@ -187,4 +187,4 @@
   - **West Side:** The southern path (previously thought to be a dead end) is the true entrance to Cycling Road.
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
 - **Phone Call:** Picnicker Gina (Route 34) called. Still hasn't caught Rattata.
-- **Fuchsia City Discovery:** Building entrance at (3, 18) is a FALSE door (WALL). Do not attempt to enter.
+- **Fuchsia City Discovery:** Building entrance at (18, 3) is a FALSE door (WALL). Do not attempt to enter.
