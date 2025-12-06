@@ -188,3 +188,4 @@
 - **Cycling Road Physics:** Constant downward force overrides standard inputs. Defined `slope_escape` tool (Up+Dir alternating) to shimmy laterally.
 - **Phone Call:** Picnicker Gina (Route 34) called. Still hasn't caught Rattata.
 - **Route 17 Physics:** When pinned against an obstacle on the slope, pure 'Up' movement fails. You MUST use 'Up + Left/Right' to strafe to a clear column.
+- **Physics Update:** `slope_escape` (Right, 15ms) failed to break the collision lock at (4, 13). Attempting Left.
