@@ -309,3 +309,5 @@
   - North Exit: Likely Victory Road.
   - South Exit: Route 26.
 - **Observations:** Black Belt guard at (12, 5) is gone (likely due to 16 badges). Path West appears open.
+## Victory Road Gate
+- **Warp Anomaly:** Tiles at (1, 7) and (2, 7) are labeled `WARP_CARPET_DOWN` but do not trigger when walked over horizontally. Movement south is blocked by a wall. Investigating exit mechanism (likely walking off map edge).
