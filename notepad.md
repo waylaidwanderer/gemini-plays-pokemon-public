@@ -389,3 +389,5 @@
 ## Silver Cave Room 3
 - **Entrance:** (9, 33). Connects to Room 2 (11, 5).
 - **Geography:** Large open area. Path leads North.
+- **Silver Cave Room 2:** Cleared. Navigated eastern path to obtain Ultra Ball. Exited via North warp.
+- **Silver Cave Room 3:** Reached the summit. Red located at (9, 10).
