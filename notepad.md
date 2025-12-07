@@ -8,7 +8,7 @@
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 - I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
 
-# STRATEGIC PROTOCOL
+# STRATEGIC PROTOCOL & LESSONS LEARNED
 
 ## Core Principles & Planning
 - **KNOWLEDGE-DRIVEN STRATEGY (PRIMARY DIRECTIVE):** My own visual assessment and memory are unreliable. I MUST trust my documented knowledge (map markers, notepad) and verified tool outputs (`route_planner`) over my own intuition. A 'No path found' result is valuable, correct data, not a tool failure. I MUST consult this knowledge base before EVERY navigational decision to avoid re-exploring confirmed dead ends or repeating solved puzzles. This is my most critical failure point.
@@ -20,19 +20,16 @@
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
-
-## Core Lessons Learned
 - **Verify State Before Modifying:** My repeated failure to update the notepad was caused by not using the exact 'old_text'. I must verify the current content of a document before attempting a 'replace' action to avoid wasting turns on a task that may have already been completed or is based on a faulty premise.
 - **Deferred Tasks are Forgotten Tasks:** The overwatch critique correctly identified that I deferred fixing the 'route_planner' tool. Any identified bug or necessary maintenance must be performed in the immediate next turn, overriding other gameplay actions.
 - **Verify Location Post-Warp/Event:** I hallucinated my location after leaving the mart, which was interrupted by a phone call. I MUST verify my `current_map_id` and `current_position` after every map transition or unexpected event to prevent critical planning failures.
 - **Immediate Data Hygiene is Non-Negotiable:** Forgetting to mark the defeated Sage at (2, 7) caused me to waste multiple turns attempting to re-battle him. All defeated trainers, used warps, and confirmed dead ends MUST be marked immediately.
-- **Trust Agent for Tool Repair:** My manual attempts to fix `select_move` and `switch_pokemon` repeatedly failed. Escalating to the `python_code_debugger` agent was the correct and most efficient way to get a robust solution. Do not get stuck in a loop of failed manual debugging.
 - **Trust Observation Over Faulty Agents:** If an agent provides a solution that contradicts the observable game state (e.g., suggesting a path through a wall), the agent's logic is flawed. I must trust my own direct observation and prioritize refining the faulty agent over attempting to follow an impossible instruction.
-- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
 - **Notepad Edit Failures:** Repeated `notepad_edit` failures are often caused by providing inexact `old_text`. I must verify the exact text or accept that the edit may have already succeeded despite an error message, which would indicate a hallucination on my part.
 - **Warp Hallucination:** I hallucinated a warp at (13, 17) in Ecruteak City. I MUST verify a warp's existence in `Game State Information -> Map Events -> Warps` before setting it as a navigation goal to prevent this critical error.
 - **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
 - **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
+- **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -44,7 +41,6 @@
 - **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
 - **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
-- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
 
 ## Puzzle Solving & Logic
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
@@ -58,7 +54,7 @@
 - **Escalate Vertically:** When stuck in an exploration loop on a given floor and the floor below, the solution is likely on a floor *above*. I must challenge the assumption that the path forward is nearby and be willing to ascend to find a way down into inaccessible areas. This was the key insight from my `puzzle_solver` agent regarding the lighthouse.
 - **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
 - **External Triggers:** When all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
-- **Value of Brute-Force Automation:** When visually stuck, a systematic, a automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
+- **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 - **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
@@ -76,22 +72,17 @@
 - **NPC Movement Triggers:** Moving NPCs may not move on a passive timer. Their movement can be triggered by the player's proximity or by walking into their line of sight. If an NPC is blocking a path, attempting to approach them can be a valid strategy to make them move.
 
 ## Tool & Agent Management
+- **Trust Agent for Tool Repair:** My manual attempts to fix `select_move` and `switch_pokemon` repeatedly failed. Escalating to the `python_code_debugger` agent was the correct and most efficient way to get a robust solution. Do not get stuck in a loop of failed manual debugging.
+- **Robust UI Parsing (Critical Lesson):** My UI automation tools (`select_item`, `switch_pokemon`, etc.) repeatedly failed due to brittle parsing logic. Future UI tools MUST use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing, and account for all possible contexts (different bag pockets, fainted Pokémon, etc.). Relying on exact string matches for UI elements is a critical point of failure. I must escalate to the `python_code_debugger` agent for these tasks.
 - **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, it means the proposed change has already been successfully applied in a previous turn. Do not retry the same definition; proceed with the next action.
-- **Agent-based fixes must be verified in both simple and complex scenarios before a tool is considered fully functional. A fix for one case may not cover all failure conditions.
 - **Tool Input Verification:** Before concluding a tool is broken (e.g., `route_planner` returning 'No path found'), I must first verify that my inputs and assumptions are correct. Pathing to an 'unseen' tile is an invalid input, as the tool correctly treats them as impassable. My strategy must adapt to the tool's logic.
-- **Notepad Edit Precision:** When using `notepad_edit` with the `replace` action, the `old_text` must be an exact match. If an edit fails because the text is not found, it's possible the change was already successfully applied in a previous turn. Verify the current notepad content before retrying.
 - **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `route_planner` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
 - **Immediate State Cleanup:** I must remember to perform immediate cleanup actions, like unstunning a non-critical NPC, as soon as the need for the stun is over. Deferring these tasks can lead to them being forgotten.
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
-- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool assumed all `LADDER` tiles were warps, which failed on the Olivine Port pier where they are walkable. Lesson: Always be prepared to refine tools when they encounter new game contexts that violate their core assumptions.
+- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool failed because its configuration was incorrect for the current context (surfing vs. walking). Lesson: Always verify a tool's configuration is appropriate for the current situation before use. Consider creating context-aware tools or different versions for different states.
 - **Tool Maintenance Protocol:** If a tool fails, it MUST be fixed immediately. Do not attempt to re-use a known faulty tool. After applying a fix, especially one from an agent, the tool's functionality must be verified with a simple, direct test case before being trusted for critical tasks. Repeated failures indicate a deeper issue with the tool's logic or its underlying assumptions (like a hardcoded list being incorrect).
-- **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
-- **Immediate Task Execution:** Maintenance tasks (tool fixes, notepad organization) must be performed the moment they are identified, overriding any immediate gameplay actions. Deferring them leads to errors and wasted turns.
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
-- **UI Parsing Lesson (Multi-word names):** My `switch_pokemon` tool failed because its regex `r'([A-Z]+)'` could not parse multi-word names like 'GIB RALTAR'. The fix, `r'([A-Z\s]+)',` correctly includes spaces in the character set. This is a critical lesson for all UI parsing tools: always account for spaces in names and labels.
-- **UI Parsing Lesson (Text Formatting):** My `select_item` and `switch_pokemon` tools repeatedly failed because their parsing logic made rigid assumptions about how text is formatted on-screen (e.g., 'H1' vs 'HM01'). Lesson: All UI automation tools must use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing. Relying on exact string matches for UI elements is a critical point of failure.
 - **Trust Tool Output:** My `route_planner` correctly identified Route 41 south as a dead end. When a pathfinding tool repeatedly returns 'No path found' for a general direction, I must trust this as accurate data about the map's layout and not a tool failure. I should immediately pivot my strategy instead of wasting turns retrying minor variations of the failed path.
-- **Robust UI Parsing (Context):** My `switch_pokemon` and `select_item` tools failed due to brittle parsing logic. Future UI automation tools MUST use robust parsing (e.g., specific, anchored regex; checking for structural cues like cursors) and account for all possible contexts (e.g., different bag pockets, fainted Pokémon, status effects) to avoid catastrophic failures.
 
 ## Battle & Resource Management
 - **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
@@ -134,11 +125,15 @@
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
 - **INCENSE_BURNER**: An impassable decorative object.
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent. **Burned Tower B1F Anomaly:** The ladder at (10, 8) is NOT a simple step-on warp. Failed tests include: stepping on and pressing 'Up', stepping on and pressing 'A', interacting from adjacent tile (9, 8), entering from below (10, 9 -> 10, 8), and entering from above (10, 7 -> 10, 8). The solution is not a simple, direct interaction.
+- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
+- **PIT (Context-Dependent):** This tile's function varies by location.
+  - **Olivine Lighthouse:** One-way warp downwards.
+  - **Burned Tower:** Inactive puzzle element, requires an external trigger (defeating rival).
+  - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 - **RADIO**: An impassable object.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
@@ -149,18 +144,14 @@
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited. It is treated as impassable by pathfinding tools.
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+- **WALL**: An impassable tile that blocks movement.
 - **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
-- **WARP_CARPET_DOWN (Anomaly):** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
-- **PIT (Context-Dependent):** This tile's function varies by location.
-  - **Olivine Lighthouse:** One-way warp downwards.
-  - **Burned Tower:** Inactive puzzle element, requires an external trigger (defeating rival).
-  - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
 
 ## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -187,6 +178,7 @@
 | Water | Fire | Super Effective |
 | Water | Rock | Super Effective |
 | Water | Ground | Super Effective |
+| Water | Water | Not Very Effective |
 
 ## Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next.
@@ -206,7 +198,8 @@
 - **Computer in Ruins of Alph Research Center:** Displays 'RUINS OF ALPH Exploration Year 10'.
 - **Bookshelf at (6, 5) in Ruins of Alph Research Center:** contains books titled "Ancient Ruins…" and "Mysteries of the Ancients…".
 - **Youngster in Route 32 Gatehouse:** Mentioned trying to move the stone panels in the ruins, wondering what they are.
-- **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".n- **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
+- **Officer in Route 32 Gatehouse:** Said "RUINS OF ALPH".
+- **Route 32 Sign at (13, 5):** Reads 'ROUTE 32, VIOLET CITY - AZALEA TOWN'.
 - **GRAMPS in Route 36 Gatehouse:** Mentioned the strange tree was the reason fewer people were visiting the RUINS OF ALPH.
 - **FISHER on Ecruteak City (9, 22):** Heard a rumor that the Pokémon at the Olivine Lighthouse is sick.
 - **Fisher in Olivine Pokémon Center:** A sailor in the Olivine Cafe next door can teach the move STRENGTH, which can move big boulders.
@@ -252,9 +245,6 @@
 ### Goldenrod Underground Switch Room Puzzle
 - **Failed Hypothesis:** The puzzle is solved by repeatedly entering and exiting the 'GoldenrodUndergroundSwitchRoomEntrances' area to cycle through different room configurations. (Failed after 5+ attempts, triggered a loop warning).
 - **New Hypothesis:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. I will re-enter the underground from the southern entrance in Goldenrod City and explore the lower level again, as my path was previously blocked and new events (Granny NPC) may have occurred.
-- **Agent Hypothesis #1 (Full Traversal):** FAILED. Attempted to walk from the north entrance to the south entrance. Path was blocked by a SUPER_NERD at (3, 27) that appears only in the 'north entrance' configuration. This confirms a simple traversal is impossible.
-- **Agent Hypothesis #2 (Defeat All Trainers):** FAILED. The SUPER_NERD at (3, 27) that blocks the path does not initiate a battle, only dialogue. This makes defeating all trainers impossible in this configuration.
-- **Agent Hypothesis #3 (In-and-Out Ladders):** FAILED for northern ladder (3, 2). The blocking SUPER_NERD at (3, 27) did not move. Will proceed to test other accessible ladders.
 
 ### Ruins of Alph - Kabuto Chamber Puzzle
 - **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
@@ -262,18 +252,16 @@
 
 ### Olivine Lighthouse Puzzle
 - **Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `route_planner` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. The western column is a confirmed dead-end loop.
-- **Hypothesis 1 (Two Pits):** FAILED. Tested both pits on 2F at (16, 13) and (17, 13). Both lead to the same dead-end exit room on 1F. This is not the path forward.
 - **Descending Path Fallacy:** Just because a path goes down (like a pit) does not mean it leads to progress. As seen in the Olivine Lighthouse, some descending paths are simply one-way exits or resets designed to force the player to restart the ascent. I must evaluate these paths critically and not assume they are the correct way forward.
-- **Agent Hypothesis #2 (Hidden Item on 2F Ledge):** FAILED. Systematically searched every tile on the exterior ledge connecting the western and eastern sides of 2F. No hidden items or switches were found. This path is not the solution.
 
 ### Moomoo Farm Puzzle Solution
 - The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer. The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
 
 ### Burned Tower Puzzle
-- **Hypothesis 1 (Pits are step-on warps):** FAILED. Stepping on the pit at (5, 14) did not trigger a warp.
-- **Hypothesis 2 (Pits are 'A' press warps):** FAILED. Pressing 'A' while standing on the pit at (5, 14) did not trigger a warp.
-- **Hypothesis 3 (Boulders are obstacles):** The boulders in the tower might be movable with Strength, opening new paths.
 - **Puzzle Solution:** Defeating my rival, SILVER, on the first floor caused the floor to collapse, revealing the basement and the legendary beasts.
+
+### Ecruteak Gym Puzzle
+- **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -291,35 +279,12 @@
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
-# Solved Puzzles
-### Ecruteak Gym Puzzle
-- **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
-
 # Custom Tools & Agents
 - **route_planner:** Custom pathfinding tool.
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
 - **select_item:** Custom tool to select an item from the bag.
-
+- **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
-### Olivine Lighthouse Puzzle (Agent Intervention)
-- **Agent Hypothesis #1 (Test Other Pit):** The solution might be to fall through the *other* pit on 2F. My previous test only confirmed one of the two pits leads to a dead end. **Plan:** Exit the lighthouse, re-ascend to 2F, and fall through the pit at (17, 13).
-- **Agent Hypothesis #2 (Hidden Passage):** There could be a hidden switch or passage in the isolated 1F room I'm currently in. **Plan:** Before leaving this room, interact with all adjacent walls and floor tiles.
-## Core Lessons Learned
-- **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
-- **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
-- **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `route_planner` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
-
-## Core Lessons Learned
-- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool failed because its configuration was incorrect for the current context (surfing vs. walking). Lesson: Always verify a tool's configuration is appropriate for the current situation before use. Consider creating context-aware tools or different versions for different states.
-
-## Tile & Object Mechanics
-- **WALL**: An impassable tile that blocks movement.
-| Water | Water | Not Very Effective |
-- **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
-## Core Lessons Learned
-- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool failed because its configuration was incorrect for the current context (surfing vs. walking). Lesson: Always verify a tool's configuration is appropriate for the current situation before use. Consider creating context-aware tools or different versions for different states.
