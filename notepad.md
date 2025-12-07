@@ -300,7 +300,7 @@
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
 - **select_item:** Custom tool to select an item from the bag.
-- **interact_with_object:** Custom tool to automate moving to and interacting with objects.
+
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
