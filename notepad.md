@@ -294,3 +294,4 @@
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross.
+- **WHIRLPOOL**: An obstacle in the water at (42, 24) on Route 41. Traversability is currently unknown, but it likely requires a specific HM move to cross.
