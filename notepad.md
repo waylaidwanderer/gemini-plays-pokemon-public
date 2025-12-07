@@ -1,5 +1,6 @@
-# TO-DO LIST
-- Mark all PIT tiles in Ecruteak Gym as warps after this series of battles.
+# ECRUTEAK GYM PUZZLE
+- The floor is an invisible path over a pit. Defeating trainers reveals sections of the path.
+- After this series of battles, I will systematically step on each PIT tile to confirm they are warps and mark their destinations.
 
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth.
