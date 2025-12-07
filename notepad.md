@@ -306,3 +306,5 @@
 ### Olivine Lighthouse Puzzle (Agent Intervention)
 - **Agent Hypothesis #1 (Test Other Pit):** The solution might be to fall through the *other* pit on 2F. My previous test only confirmed one of the two pits leads to a dead end. **Plan:** Exit the lighthouse, re-ascend to 2F, and fall through the pit at (17, 13).
 - **Agent Hypothesis #2 (Hidden Passage):** There could be a hidden switch or passage in the isolated 1F room I'm currently in. **Plan:** Before leaving this room, interact with all adjacent walls and floor tiles.
+## Core Lessons Learned
+- **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
