@@ -7,11 +7,15 @@
 
 ## Current Mission: Mt. Silver Conquest
 **Status:** Silver Cave Room 1.
-**Objective:** Explore North-West Corridor.
+**Objective:** Explore Northern Ridge (Row 14).
 **Action Plan:**
-1. Nickname Larvitar "BEDROCK" - **Complete.**
-2. Explore the western area (Rows 15-20).
+1. Climb the ridge at Row 14.
+2. Explore the northern high ground.
 3. Locate connection to High Ground or other exits.
+
+### Recent Logs
+- Caught Larvitar "BEDROCK".
+- Collected Ultra Ball at (7, 18).
 
 ## Route 28 Notes
 - **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
