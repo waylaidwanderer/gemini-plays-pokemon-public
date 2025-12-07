@@ -346,4 +346,4 @@
 - **Strategy Update:** Fly failed. Proceeding on foot via Victory Road.
 ### Mechanic Correction
 - **Capture Sequence:** In this version, the Nickname prompt appears **BEFORE** the 'Sent to Bill's PC' message, even if the party is full. Do not assume auto-transfer skips the nickname.
-- Found Full Restore at (7, 18).
+- Capture Mechanic: Nickname prompt occurs BEFORE transfer to PC, regardless of party size.
