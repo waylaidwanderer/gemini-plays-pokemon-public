@@ -25,6 +25,13 @@
 - **Verify State Before Modifying:** My repeated failure to update the notepad was caused by not using the exact 'old_text'. I must verify the current content of a document before attempting a 'replace' action to avoid wasting turns on a task that may have already been completed or is based on a faulty premise.
 - **Deferred Tasks are Forgotten Tasks:** The overwatch critique correctly identified that I deferred fixing the 'route_planner' tool. Any identified bug or necessary maintenance must be performed in the immediate next turn, overriding other gameplay actions.
 - **Verify Location Post-Warp:** I hallucinated my location after entering the Ecruteak Pokémon Center, causing tool failures. I MUST verify my `current_map_id` and `current_position` after every map transition to prevent this critical error.
+- **Immediate Data Hygiene is Non-Negotiable:** Forgetting to mark the defeated Sage at (2, 7) caused me to waste multiple turns attempting to re-battle him. All defeated trainers, used warps, and confirmed dead ends MUST be marked immediately.
+- **Trust Agent for Tool Repair:** My manual attempts to fix `select_move` and `switch_pokemon` repeatedly failed. Escalating to the `python_code_debugger` agent was the correct and most efficient way to get a robust solution. Do not get stuck in a loop of failed manual debugging.
+- **Trust Observation Over Faulty Agents:** If an agent provides a solution that contradicts the observable game state (e.g., suggesting a path through a wall), the agent's logic is flawed. I must trust my own direct observation and prioritize refining the faulty agent over attempting to follow an impossible instruction.
+- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
+- **Notepad Edit Failures:** Repeated `notepad_edit` failures are often caused by providing inexact `old_text`. I must verify the exact text or accept that the edit may have already succeeded despite an error message, which would indicate a hallucination on my part.
+- **Warp Hallucination:** I hallucinated a warp at (13, 17) in Ecruteak City. I MUST verify a warp's existence in `Game State Information -> Map Events -> Warps` before setting it as a navigation goal to prevent this critical error.
+- **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -131,7 +138,6 @@
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited. It is treated as impassable by pathfinding tools.
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-- **WALL**: Impassable terrain.
 - **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
 - **WARP_CARPET_DOWN (Anomaly):** The `WARP_CARPET_DOWN` tile at Union Cave (17, 3) was confusing. A manual 'Down' press failed due to a wall, but an automated path through the same tile succeeded in warping me. The exact mechanic is unclear and needs further investigation.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
@@ -140,6 +146,10 @@
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
+- **PIT (Context-Dependent):** This tile's function varies by location.
+  - **Olivine Lighthouse:** One-way warp downwards.
+  - **Burned Tower:** Inactive puzzle element, requires an external trigger (defeating rival).
+  - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
 
 ## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -270,34 +280,6 @@
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
-# Core Lessons Learned (Update)
-- **Immediate Data Hygiene is Non-Negotiable:** Forgetting to mark the defeated Sage at (2, 7) caused me to waste multiple turns attempting to re-battle him. All defeated trainers, used warps, and confirmed dead ends MUST be marked immediately.
-- **Trust Agent for Tool Repair:** My manual attempts to fix `select_move` and `switch_pokemon` repeatedly failed. Escalating to the `python_code_debugger` agent was the correct and most efficient way to get a robust solution. Do not get stuck in a loop of failed manual debugging.
-
-# Tile & Object Mechanics (Update)
-- **PIT (Context-Dependent):** This tile's function varies by location.
-  - **Olivine Lighthouse:** One-way warp downwards.
-  - **Burned Tower:** Inactive puzzle element, requires an external trigger (defeating rival).
-  - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
+# Solved Puzzles
 ### Ecruteak Gym Puzzle
 - **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
-
-# Core Lessons Learned
-- **Trust Observation Over Faulty Agents:** If an agent provides a solution that contradicts the observable game state (e.g., suggesting a path through a wall), the agent's logic is flawed. I must trust my own direct observation and prioritize refining the faulty agent over attempting to follow an impossible instruction.
-- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
-
-# Core Lessons Learned (Update)
-- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
-- **Notepad Edit Failures:** Repeated `notepad_edit` failures are often caused by providing inexact `old_text`. I must verify the exact text or accept that the edit may have already succeeded despite an error message, which would indicate a hallucination on my part.
-
-# Core Lessons Learned (Update)
-- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
-
-# Core Lessons Learned (Update)
-- **Warp Hallucination:** I hallucinated a warp at (13, 17) in Ecruteak City. I MUST verify a warp's existence in `Game State Information -> Map Events -> Warps` before setting it as a navigation goal to prevent this critical error.
-
-# Tile & Object Mechanics (Update)
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
-
-# Core Lessons Learned (Update)
-- **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
