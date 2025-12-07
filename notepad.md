@@ -281,3 +281,9 @@
   - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
 ### Ecruteak Gym Puzzle
 - **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
+
+# Core Lessons Learned (Update)
+- **Trust Observation Over Faulty Agents:** If an agent provides a solution that contradicts the observable game state (e.g., suggesting a path through a wall), the agent's logic is flawed. I must trust my own direct observation and prioritize refining the faulty agent over attempting to follow an impossible instruction.
+
+# Tile & Object Mechanics (Update)
+- **PIT (Ecruteak Gym):** In this specific location, this tile is a one-way warp that sends the player back to the gym entrance at (4, 14). It is a puzzle mechanic designed to reset the player's position if they step off the correct path.
