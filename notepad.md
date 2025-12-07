@@ -383,3 +383,6 @@
 - **Route 28 Loop:** The map has a High Ground (North, House) and Low Ground (South, Row 13). It's a one-way loop: Enter via Secret Path -> House -> Jump Ledges -> Lower Area -> Exit via (0, 13) -> Back to Silver Cave Outside (SE).
 - **Route 28 High Plateau:** Confirmed that the southern ridge (x=30, 31) is impassable. Cannot jump down to the eastern secluded area from here.
 - Western Corridor (14, 11): Visually confirmed blocked by wall at x=15. No external access. Must be accessed from inside.
+## Silver Cave Room 2
+- **Entrance:** (17, 31). Connects to Room 1 (15, 1).
+- **Geography:** Southern area has multiple rows of WARP_CARPET_DOWN tiles. Walls at Row 27 with gaps at x=19 and x=22.
