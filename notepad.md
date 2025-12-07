@@ -6,13 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Route 28 Exploration
-**Status:** On Route 23 (Indigo Plateau). Walking to Silver Cave (Fly failed).
-**Objective:** Reach Silver Cave via Victory Road -> Route 28.
+**Status:** At Victory Road Gate. Heading West to Route 28.
+**Objective:** Reach Silver Cave.
 **Action Plan:**
-1. Travel South through Victory Road to Reception Gate.
-2. Exit West to Route 28.
-3. Traverse Route 28 to Silver Cave.
-4. Explore High Ground for Route 28 House path.
+1. Exit West to Route 28.
+2. Traverse Route 28 to Silver Cave.
+3. Explore High Ground for Route 28 House path.
 
 ## Route 28 Notes
 - **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
