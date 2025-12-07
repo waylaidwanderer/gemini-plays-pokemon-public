@@ -326,3 +326,6 @@
 - **BUOY**: Confirmed impassable object in water, functions as a WALL.
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 - **UI Parsing Lesson (Multi-word names):** My `switch_pokemon` tool failed because its regex `r'([A-Z]+)'` could not parse multi-word names like 'GIB RALTAR'. The fix, `r'([A-Z\s]+)',` correctly includes spaces in the character set. This is a critical lesson for all UI parsing tools: always account for spaces in names and labels.
+
+# Reflection Updates (Turn 39193)
+- **Trust Tool Output:** My `route_planner` correctly identified Route 41 south as a dead end. When a pathfinding tool repeatedly returns 'No path found' for a general direction, I must trust this as accurate data about the map's layout and not a tool failure. I should immediately pivot my strategy instead of wasting turns retrying minor variations of the failed path.
