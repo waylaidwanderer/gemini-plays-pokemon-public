@@ -366,3 +366,4 @@
   - **South Barrier:** FLOOR_UP_WALL at Row 30 is impassable from the North (Ridge Base).
   - **Exit:** Must jump ledge at (11, 24) to return to water.
 - **Silver Cave Outside (South-East):** Path south of ridge (28, 32) is a DEAD END for westward progress. Returning to surf west.
+- **Navigation Correction:** The 'Western Landing' at (13, 24) is a one-way exit from the western plateau. It does not provide access TO the area. Access must be found elsewhere, likely north of the Main Cave Entrance.
