@@ -9,9 +9,9 @@
 **Status:** Silver Cave Room 1.
 **Objective:** Explore North-West Corridor.
 **Action Plan:**
-1. Explore the western area (Rows 15-20).
-2. Locate connection to High Ground or other exits.
-3. Verify if 'Bedrock' (Larvitar) was sent to PC.
+1. Nickname Larvitar "BEDROCK".
+2. Explore the western area (Rows 15-20).
+3. Locate connection to High Ground or other exits.
 
 ## Route 28 Notes
 - **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
