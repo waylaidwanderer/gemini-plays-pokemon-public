@@ -302,3 +302,4 @@
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 
 # IMMEDIATE TASKS
+- **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
