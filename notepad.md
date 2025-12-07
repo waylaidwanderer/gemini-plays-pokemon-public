@@ -357,4 +357,4 @@
 - **Access:** Via secret path from Silver Cave Outside (cut tree at 34, 23).
 - **Steel Wing House (19_4):** Located at (7, 3) in the secret area.
   - **NPC:** Cooltrainer F (Celebrity?). Gave TM47 (Steel Wing). Asked for secrecy.
-  - **Object:** Moltres Sprite.
+  - **Object:** Fearow (uses Moltres sprite).
