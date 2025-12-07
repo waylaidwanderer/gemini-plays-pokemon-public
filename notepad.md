@@ -279,3 +279,5 @@
   - **Olivine Lighthouse:** One-way warp downwards.
   - **Burned Tower:** Inactive puzzle element, requires an external trigger (defeating rival).
   - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
+### Ecruteak Gym Puzzle
+- **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
