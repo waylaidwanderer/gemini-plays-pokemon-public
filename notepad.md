@@ -17,7 +17,9 @@
 - **Silver Cave Room 1:** The Central Plateau (accessed via entrance at 18,11) is a DEAD END containing an Ultra Ball. The Northern and Western sections are walled off from this central area. Must find a different entrance.
 
 ## Route 28 Notes
-- **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
+- **Geography:** East Section connects to Victory Road Gatehouse.
+- **West Section (Secret Area):** Accessed via path from Silver Cave Outside (cut tree at 34, 23).
+  - **Celebrity House:** Located at (7, 3). Contains Cooltrainer F (gives TM47 Steel Wing) and a Fearow (uses Moltres sprite).
 - **Landmarks:** Door to Victory Road Gate at (33, 5).
 
 ## Silver Cave Outside Notes
