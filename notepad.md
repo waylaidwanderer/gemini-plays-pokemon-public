@@ -30,6 +30,7 @@
 - **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
 - **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
 - **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
+- **Dead End Pivot:** If multiple paths in a large area (like the sea routes) are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy (like investigating Union Cave) instead of continuing to search the dead-end area.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -108,10 +109,11 @@
 - **Healing:** Pokémon Centers restore all HP/PP and cure status conditions.
 - **Game State Updates:** Map data (like a `CUT_TREE` changing to a `FLOOR`) doesn't fully update until all on-screen text is cleared. Using tools like `route_planner` before the overworld is fully interactive will use stale data and fail.
 - **HEADBUTT Mechanic:** Can be used outside of battle on `HEADBUTT_TREE` tiles to encounter sleeping Pokémon.
-- **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELER) evolve when traded.
+- **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELer) evolve when traded.
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
+- **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -132,6 +134,7 @@
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
+- **LEDGE_HOP_LEFT**: A one-way traversable tile that can only be moved across from right to left.
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
@@ -154,6 +157,7 @@
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
+- **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
@@ -288,16 +292,7 @@
 - **route_planner:** Custom pathfinding tool.
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
-- **select_item:** Custom tool to select an item from the bag.
 - **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
-- **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross.
-- **WHIRLPOOL**: An obstacle in the water at (42, 24) on Route 41. Traversability is currently unknown, but it likely requires a specific HM move to cross.
-- **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
-## Tile & Object Mechanics
-- **LEDGE_HOP_LEFT**: A one-way traversable tile that can only be moved across from right to left.
-
-## STRATEGIC PROTOCOL & LESSONS LEARNED
-- **Dead End Pivot:** If multiple paths in a large area (like the sea routes) are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy (like investigating Union Cave) instead of continuing to search the dead-end area.
