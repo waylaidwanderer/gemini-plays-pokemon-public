@@ -296,3 +296,8 @@
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross.
 - **WHIRLPOOL**: An obstacle in the water at (42, 24) on Route 41. Traversability is currently unknown, but it likely requires a specific HM move to cross.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
+## Tile & Object Mechanics
+- **LEDGE_HOP_LEFT**: A one-way traversable tile that can only be moved across from right to left.
+
+## STRATEGIC PROTOCOL & LESSONS LEARNED
+- **Dead End Pivot:** If multiple paths in a large area (like the sea routes) are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy (like investigating Union Cave) instead of continuing to search the dead-end area.
