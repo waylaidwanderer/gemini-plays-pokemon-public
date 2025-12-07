@@ -319,3 +319,4 @@
 
 ## Tile & Object Mechanics
 - **WALL**: An impassable tile that blocks movement.
+| Water | Water | Not Very Effective |
