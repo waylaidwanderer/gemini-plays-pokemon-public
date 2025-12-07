@@ -294,3 +294,6 @@
 
 # NPC Dialogue
 - **COOLTRAINER_F in Ecruteak Pokémon Center:** "MORTY, the GYM LEADER, is soooo cool. His POKéMON are really tough too."
+
+# NPC Dialogue
+- **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
