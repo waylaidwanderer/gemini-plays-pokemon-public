@@ -371,3 +371,4 @@
 - **Main Entrance (18, 11 outside -> 9, 33 inside):** DEAD END. Leads to a small foyer. Northern path blocked by ledge at Row 20. Western item (5, 30) blocked by ledge at (7, 30). Must find another entrance.
 - **Silver Cave Room 1 (Main Entrance):** Confirmed DEAD END. Entrance at (18, 11) leads to a small southern foyer (3_74). Northern path blocked by one-way ledges at Row 20. Western item blocked by ledge. Must find alternate entrance.
 - **Route 28 Loop:** The map has a High Ground (North, House) and Low Ground (South, Row 13). It's a one-way loop: Enter via Secret Path -> House -> Jump Ledges -> Lower Area -> Exit via (0, 13) -> Back to Silver Cave Outside (SE).
+- **Route 28 High Plateau:** Confirmed that the southern ridge (x=30, 31) is impassable. Cannot jump down to the eastern secluded area from here.
