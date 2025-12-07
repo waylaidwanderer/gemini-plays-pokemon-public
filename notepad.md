@@ -299,3 +299,6 @@
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
 - **COOLTRAINER_M in EcruteakItemfinderHouse:** Mentioned finding items in the BURNED TOWER.
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
+
+# Recent Lessons Learned
+- **Verify Location Post-Warp:** I hallucinated my location after entering the Ecruteak Pokémon Center, causing tool failures. I MUST verify my `current_map_id` and `current_position` after every map transition to prevent this critical error.
