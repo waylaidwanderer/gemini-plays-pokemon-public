@@ -293,14 +293,15 @@
 - **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
 
 # Custom Tools & Agents
-- **route_planner:** Reliable pathfinding tool.
-- **select_move:** Selects a move in battle.
-- **switch_pokemon:** Switches Pokémon in battle.
-- **find_reachable_unseen_tiles:** Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
-- **select_item:** Automates selecting a specific item from the bag menu.
-- **select_battle_option:** Selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
-- **python_code_debugger (Agent):** Debugs my Python scripts.
-- **puzzle_solver (Agent):** Helps with in-game puzzles.
+- **route_planner:** Custom pathfinding tool.
+- **select_move:** Custom tool to select a move in battle.
+- **switch_pokemon:** Custom tool to switch Pokémon in battle. (Currently unreliable)
+- **find_reachable_unseen_tiles:** Custom tool to find reachable unseen tiles.
+- **select_item:** Custom tool to select an item from the bag.
+- **select_battle_option:** Built-in tool to select a main battle menu option.
+- **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
+- **puzzle_solver (Agent):** Custom agent for in-game puzzles.
+- Note: `path_plan` is a system command, not a custom tool.
 
 # Reflection Updates (Turn 38621)
 - **WALL Tile:** A standard, impassable tile type that blocks movement.
