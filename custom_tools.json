@@ -526,7 +526,7 @@
         "sequence"
       ]
     },
-    "python_script": "import json\n\ninput_str = input_data['sequence']\n# Split by comma and strip whitespace\nbuttons = [p.strip() for p in input_str.split(',') if p.strip()]\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nsequence = input_data['sequence']\n# Split by comma and strip whitespace from each component\nbuttons = [btn.strip() for btn in sequence.split(',')]\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create press_sequence tool to allow execution of complex, mixed-button sequences in a single turn, overcoming the limitations of force_press_button (single button type) and run_code (no autopress).",
@@ -562,6 +562,11 @@
         "commit_message": "fix: Ensure output is valid JSON using json.dumps and strip whitespace from input components. This resolves the invalid JSON error caused by Python's default single-quote string representation.",
         "timestamp": "2025-12-07T22:14:24.466Z",
         "action_counter": 23885
+      },
+      {
+        "commit_message": "fix: Ensure output is valid JSON using json.dumps and strip whitespace from input components. This resolves the invalid JSON error caused by Python's default single-quote string representation.",
+        "timestamp": "2025-12-07T22:16:48.647Z",
+        "action_counter": 23890
       }
     ]
   },
