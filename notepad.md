@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Paprika (87 HP). Trapped. Rain Stopped. Blastoise Acc -1. Action: Smokescreen (Attempt 2).
+**Status:** BATTLE VS RED. Paprika (115 HP). Rain Active. Blastoise Acc -3. Basalt Alive. Action: Reviving XQH.
 **Objective:** DEFEAT RED.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
