@@ -1,6 +1,5 @@
-# ECRUTEAK GYM PUZZLE
-- The floor is an invisible path over a pit. Defeating trainers reveals sections of the path.
-- After this series of battles, I will systematically step on each PIT tile to confirm they are warps and mark their destinations.
+# IMMEDIATE TASKS
+- **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
 
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth.
@@ -45,7 +44,7 @@
 - **Abandon Failed Hypotheses Quickly:** If a puzzle element fails multiple simple tests (e.g., a suspected warp doesn't trigger on step-on, interaction on tile, or interaction from adjacent tile), I must abandon the hypothesis immediately. Mark the area as a dead end (🚫) to avoid getting stuck in unproductive testing loops.
 - **Internal vs. External Puzzles:** When all paths inside a puzzle area (like the lighthouse) are confirmed dead ends, the solution is likely external. I must expand my search area instead of getting stuck in an internal loop.
 - **Challenge Root Hypotheses:** When stuck or pursuing an overly complex strategy, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy instead of just refining the failing strategy itself.
-- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like falling through a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
+- **Non-Linear Puzzles:** Puzzle solutions are not always linear; moving 'backwards' or 'down' (like a pit) can be the correct way forward, especially when the obvious 'up' path is a confirmed dead end.
 - **Logical Loop Breaking:** When stuck in a repetitive loop exploring a confirmed dead end, the root assumption is likely flawed. I must escalate to an agent or fundamentally change my strategy (e.g., by exploring a different floor) instead of repeating failed tests.
 - **Escalate Vertically:** When stuck in an exploration loop on a given floor and the floor below, the solution is likely on a floor *above*. I must challenge the assumption that the path forward is nearby and be willing to ascend to find a way down into inaccessible areas. This was the key insight from my `puzzle_solver` agent regarding the lighthouse.
 - **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
@@ -122,7 +121,7 @@
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
-- **PIT**: Can function as a one-way warp (Olivine Lighthouse) or an inactive puzzle element (Burned Tower). In the Burned Tower, the pits at (5, 5) and (15, 5) do not activate by stepping on them or pressing 'A'. They likely require an external trigger, which was confirmed to be defeating my rival.
+- **PIT**: Can function as a one-way warp (Olivine Lighthouse) or an inactive puzzle element (Burned Tower). In the Burned Tower, the pits at (5, 5) and (15, 5) do not activate by stepping on them or pressing 'A'. They likely require an external trigger, which was confirmed to be defeating my rival. In the Ecruteak Gym, all `PIT` tiles are confirmed to be warps that send the player back to the gym entrance area. This is a puzzle mechanic, not a hazard.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 - **RADIO**: An impassable object.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
