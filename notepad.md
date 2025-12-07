@@ -6,12 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** Exploring Silver Cave Room 1.
-**Objective:** Navigate to the upper levels.
-**Action Plan:**
-1. Bypass the ridge at Row 20 via the western gap (x=5).
-2. Locate the exit to the western outside area or the path deeper into the cave.
-3. Check for hidden items (Item Finder).
+**Status:** Reached the Summit. Standing before Red.
+**Objective:** DEFEAT RED.
+**Strategy:**
+- **Lead:** Paprika (Typhlosion Lv74).
+- **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
+- **Contingency:** 'Zombie Phoenix' Strategy. If Paprika faints, switch to fodder, use Revive on Paprika, let fodder faint, switch Paprika back in. I have 30 Revives.
 
 ### Recent Logs
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
