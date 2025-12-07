@@ -303,3 +303,6 @@
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
+### Olivine Lighthouse Puzzle (Agent Intervention)
+- **Agent Hypothesis #1 (Test Other Pit):** The solution might be to fall through the *other* pit on 2F. My previous test only confirmed one of the two pits leads to a dead end. **Plan:** Exit the lighthouse, re-ascend to 2F, and fall through the pit at (17, 13).
+- **Agent Hypothesis #2 (Hidden Passage):** There could be a hidden switch or passage in the isolated 1F room I'm currently in. **Plan:** Before leaving this room, interact with all adjacent walls and floor tiles.
