@@ -270,3 +270,13 @@
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
+
+# Core Lessons Learned (Update)
+- **Immediate Data Hygiene is Non-Negotiable:** Forgetting to mark the defeated Sage at (2, 7) caused me to waste multiple turns attempting to re-battle him. All defeated trainers, used warps, and confirmed dead ends MUST be marked immediately.
+- **Trust Agent for Tool Repair:** My manual attempts to fix `select_move` and `switch_pokemon` repeatedly failed. Escalating to the `python_code_debugger` agent was the correct and most efficient way to get a robust solution. Do not get stuck in a loop of failed manual debugging.
+
+# Tile & Object Mechanics (Update)
+- **PIT (Context-Dependent):** This tile's function varies by location.
+  - **Olivine Lighthouse:** One-way warp downwards.
+  - **Burned Tower:** Inactive puzzle element, requires an external trigger (defeating rival).
+  - **Ecruteak Gym:** Confirmed to be one-way warps that send the player back to the gym entrance area.
