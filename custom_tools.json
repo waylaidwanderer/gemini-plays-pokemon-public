@@ -513,7 +513,7 @@
     ]
   },
   "press_sequence": {
-    "description": "Executes a custom sequence of button presses defined by a comma-separated string. Robustly handles whitespace. Valid buttons: A, B, Up, Down, Left, Right, Start, Select.",
+    "description": "Executes a custom sequence of button presses defined by a comma-separated string. Robustly handles whitespace and returns valid JSON. Valid buttons: A, B, Up, Down, Left, Right, Start, Select.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -526,7 +526,7 @@
         "sequence"
       ]
     },
-    "python_script": "import json\nsequence = input_data['sequence'].split(',')\nbuttons = []\nfor item in sequence:\n    item = item.strip()\n    if item:  # Ensure empty strings are ignored\n        buttons.append(item)\nprint(json.dumps(buttons))",
+    "python_script": "import json\ninput_seq = input_data['sequence']\nparts = input_seq.split(',')\nbuttons = [p.strip() for p in parts]\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create press_sequence tool to allow execution of complex, mixed-button sequences in a single turn, overcoming the limitations of force_press_button (single button type) and run_code (no autopress).",
@@ -552,6 +552,11 @@
         "commit_message": "fix: Use json.dumps to ensure output is valid JSON (double quotes). Previous version used single quotes which caused parsing errors.",
         "timestamp": "2025-12-07T21:34:03.551Z",
         "action_counter": 23868
+      },
+      {
+        "commit_message": "fix: Ensure output is valid JSON using json.dumps and strip whitespace from input components. This resolves the invalid JSON error caused by Python's default single-quote string representation.",
+        "timestamp": "2025-12-07T22:08:40.922Z",
+        "action_counter": 23877
       }
     ]
   },
