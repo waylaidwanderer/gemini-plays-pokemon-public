@@ -365,3 +365,4 @@
 - **Silver Cave Outside (Western Shore):** Area at x=5-13, y=24-29 is a DEAD END.
   - **South Barrier:** FLOOR_UP_WALL at Row 30 is impassable from the North (Ridge Base).
   - **Exit:** Must jump ledge at (11, 24) to return to water.
+- **Silver Cave Outside (South-East):** Path south of ridge (28, 32) is a DEAD END for westward progress. Returning to surf west.
