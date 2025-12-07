@@ -314,3 +314,8 @@
 
 # Reflection Update (Turn 38916)
 - **Warp Hallucination Recovery:** I experienced a critical hallucination, believing I was on Route 39 when I was still inside the farmhouse. This led to a failed navigation plan. Lesson: I MUST verify my map and position after every single map transition before planning my next action. This is a non-negotiable step to prevent cascading failures.
+
+# TOOL DEBUGGING BLOCKER (Turn 38932)
+- I have identified that the `switch_pokemon` tool is broken and needs to be fixed immediately as per my reflection protocol.
+- However, I cannot use the `python_code_debugger` agent to fix it because I do not have access to the tool's current source code to provide as the `code_to_debug` argument.
+- This remains the highest priority technical task to resolve as soon as I can access the tool's code.
