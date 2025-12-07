@@ -133,7 +133,7 @@
 
 ## Strategy Notes
 - **Surfing:** Pathfinding must strictly separate Land/Water.
-- **Team:** Paprika (Lead), Basalt (Backup).
+- **Team:** Paprika (Lead). Basalt (HM Slave/Fodder).
 
 ## Johto History
 - **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base, Ice Path, Blackthorn.
