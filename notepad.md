@@ -315,3 +315,6 @@
 - The source code of a tool is not stored in a retrievable way; I must reconstruct it from memory or logic if I need to debug it.
 - **Immediate Task:** The `switch_pokemon` tool is broken. I must reconstruct its intended logic, use `python_code_debugger` to generate a robust version, and then use `define_tool` to update it.
 - **BUOY**: An impassable object found in water. Functions as a WALL tile.
+
+# Reflection Updates (Turn 39036)
+- **UI Parsing Lesson:** My `select_item` and `switch_pokemon` tools repeatedly failed because their parsing logic made rigid assumptions about how text is formatted on-screen (e.g., 'H1' vs 'HM01'). Lesson: All UI automation tools must use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing. Relying on exact string matches for UI elements is a critical point of failure.
