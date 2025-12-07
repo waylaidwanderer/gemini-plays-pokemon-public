@@ -311,3 +311,5 @@
 - **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
 - **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
 - **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `route_planner` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
