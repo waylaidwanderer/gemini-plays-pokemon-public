@@ -284,3 +284,10 @@
 # Recent Lessons Learned
 - **Verify State Before Modifying:** My repeated failure to update the notepad was caused by not using the exact 'old_text'. I must verify the current content of a document before attempting a 'replace' action to avoid wasting turns on a task that may have already been completed or is based on a faulty premise.
 - **Deferred Tasks are Forgotten Tasks:** The overwatch critique correctly identified that I deferred fixing the 'route_planner' tool. Any identified bug or necessary maintenance must be performed in the immediate next turn, overriding other gameplay actions.
+
+# Game Mechanics & Systems
+- **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
+
+# STRATEGIC PROTOCOL
+## Puzzle Solving & Logic
+- **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
