@@ -299,7 +299,6 @@
 - **select_item:** Automates selecting a specific item from the bag menu.
 - **python_code_debugger (Agent):** Debugs my Python scripts.
 - **puzzle_solver (Agent):** Helps with in-game puzzles.
-- **select_battle_option:** (Built-in) Selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Reflection Updates (Turn 38621)
 - **WALL Tile:** A standard, impassable tile type that blocks movement.
