@@ -121,7 +121,7 @@
         "inventory"
       ]
     },
-    "python_script": "import sys\nimport json\nimport re\n\ndef solve():\n    input_data_str = sys.stdin.read()\n    input_data = json.loads(input_data_str)\n    \n    inventory = input_data['inventory']\n    item_to_select = input_data['item_to_select']\n    current_screen_text = input_data['current_screen_text']\n    \n    lines = current_screen_text.split('\\n')\n    \n    cursor_item = None\n    item_pattern = re.compile(r'([A-Z][A-Z\\s-]+[A-Z0-9])')\n\n    for line in lines:\n        if '▶' in line:\n            match = item_pattern.search(line)\n            if match:\n                cursor_item = match.group(1).strip()\n                break\n\n    if cursor_item is None:\n        print(json.dumps([]))\n        return\n\n    try:\n        current_index = inventory.index(cursor_item)\n        target_index = inventory.index(item_to_select)\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    moves = []\n    diff = target_index - current_index\n    \n    if diff > 0:\n        moves.extend([\"Down\"] * diff)\n    elif diff < 0:\n        moves.extend([\"Up\"] * abs(diff))\n        \n    print(json.dumps(moves))\n\nsolve()\n",
+    "python_script": "import sys\nimport json\nimport re\n\n# The 'input_data' variable is injected by the harness.\n# The previous version incorrectly tried to read from sys.stdin, causing a crash.\n\ninventory = input_data['inventory']\nitem_to_select = input_data['item_to_select']\ncurrent_screen_text = input_data['current_screen_text']\n\nlines = current_screen_text.split('\\n')\n\ncursor_item = None\nitem_pattern = re.compile(r'([A-Z][A-Z\\s-]+[A-Z0-9])')\n\nfor line in lines:\n    if '▶' in line:\n        match = item_pattern.search(line)\n        if match:\n            cursor_item = match.group(1).strip()\n            break\n\nif cursor_item is None:\n    print(json.dumps([]))\nelse:\n    try:\n        current_index = inventory.index(cursor_item)\n        target_index = inventory.index(item_to_select)\n        \n        moves = []\n        diff = target_index - current_index\n        \n        if diff > 0:\n            moves.extend([\"Down\"] * diff)\n        elif diff < 0:\n            moves.extend([\"Up\"] * abs(diff))\n            \n        print(json.dumps(moves))\n    except ValueError:\n        print(json.dumps([]))",
     "history": [
       {
         "commit_message": "feat: Create select_item tool to automate bag navigation. This tool addresses a major inefficiency identified after manually searching for a SUPER POTION. It parses the screen text to find the current cursor and target item, then generates the necessary button presses. This aligns with the 'DEFAULT TO AUTOMATION' principle and will save significant time in the future.",
@@ -317,6 +317,11 @@
         "commit_message": "fix: Overhaul logic to use full inventory list via python_code_debugger. The previous version catastrophically failed because it only parsed visible items and could not calculate paths to off-screen targets. This commit implements the agent's robust fix, which requires the full inventory list as input to accurately calculate the index difference between the current and target items, resolving the critical navigation failure.",
         "timestamp": "2025-12-07T18:11:32.982Z",
         "action_counter": 40026
+      },
+      {
+        "commit_message": "fix: Correct script entry point to use injected `input_data`. The agent-provided script was catastrophically failing with a JSONDecodeError because it was incorrectly trying to read from `sys.stdin` instead of using the harness-provided `input_data` dictionary. This commit removes the faulty `stdin` call and ensures the script uses the injected variable directly, resolving the crash.",
+        "timestamp": "2025-12-07T18:12:34.650Z",
+        "action_counter": 40028
       }
     ]
   },
