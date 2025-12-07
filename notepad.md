@@ -6,16 +6,15 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** Silver Cave Room 1 (High Ground).
-**Objective:** Explore Northern Plateau & Get Item at (4, 9).
+**Status:** Silver Cave Outside.
+**Objective:** Heal at PokeCenter, then find Western Entrance.
 **Action Plan:**
-1. Move North to Row 10.
-2. Find path West to Item Ball.
-3. Explore remaining northern area.
+1. Heal at PokeCenter (23, 19).
+2. Explore East/South for access to Western area.
 
 ### Recent Logs
-- Caught Larvitar "BEDROCK".
-- Collected Ultra Ball at (7, 18).
+- **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
+- **Silver Cave Room 1:** The Central Plateau (accessed via entrance at 18,11) is a DEAD END containing an Ultra Ball. The Northern and Western sections are walled off from this central area. Must find a different entrance.
 
 ## Route 28 Notes
 - **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
@@ -26,11 +25,12 @@
 - **Geography:**
   - High Ground accessible via gaps in ledges at (25, 27) and (23, 23).
   - Route 28 Entrance at Southeast corner (39, 31).
+  - **Western Entrance:** Likely accessed via Surf or Route 28 West.
 - **Encounters:** Ponyta, Tangela, Rapidash.
 
 ## Silver Cave Room 1 Notes
-- **Geography:** Divided into High Ground (West/North) and Low Ground (Southeast).
-- **Status:** Explored Low Ground (Protein). High Ground access likely via Route 28 or Outside.
+- **Geography:** Central Plateau is isolated. High Ground (North) and Low Ground (Southeast) are not connected to the entrance area.
+- **Status:** Central Plateau explored (Ultra Ball). Need to find path to North/West areas.
 - **Mechanics:** FLOOR_UP_WALL at (9, 20) is traversable from the South (climb up) but blocks movement North (one-way ridge).
 
 ## Fuchsia Gym (Cleared)
