@@ -289,3 +289,6 @@
 # Core Lessons Learned (Update)
 - **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
 - **Notepad Edit Failures:** Repeated `notepad_edit` failures are often caused by providing inexact `old_text`. I must verify the exact text or accept that the edit may have already succeeded despite an error message, which would indicate a hallucination on my part.
+
+# Core Lessons Learned (Update)
+- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
