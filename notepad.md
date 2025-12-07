@@ -109,7 +109,7 @@
 - **CUT_TREE:** Obstacle. Removable (Cut).
 - **WARP_CARPET:** Walk off map to exit.
 - **LADDER:** Context Dependent. Usually a warp, but verified as a walkable bridge (FLOOR behavior) on Cerulean Gym (7_6) and Route 24 (7_15).
-- **WARP_CARPET_DOWN:** Walk Down to warp.
+- **WARP_CARPET_DOWN:** Walk Down to warp. May require walking *into* the bottom map edge or wall while standing on the tile to trigger, rather than just landing on it.
 - **STAIRCASE:** Traversable warp.
 - **COUNTER:** Impassable. Allows interaction with Entity on other side.
 - **WATER/LAND Interaction:** Moving from Water to Land triggers 'Want to get off?'. Cancel with B to face Land. Moving from Land to Water triggers 'Want to Surf?'. Both prompts override hidden item checks.
