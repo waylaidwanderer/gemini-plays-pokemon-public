@@ -28,7 +28,7 @@
 - **Geography:**
   - High Ground accessible via gaps in ledges at (25, 27) and (23, 23).
   - Route 28 Entrance at Southeast corner (39, 31).
-  - **Path North:** Tree cut at (34, 23). Leads to corridor at (39, 21).
+  - **Path North:** Tree cut at (31, 24). Leads to corridor at (39, 21).
   - **Western Entrance:** Likely accessed via Surf or Route 28 West.
 - **Encounters:** Ponyta, Tangela, Rapidash.
 
