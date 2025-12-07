@@ -329,3 +329,6 @@
 
 # Reflection Updates (Turn 39193)
 - **Trust Tool Output:** My `route_planner` correctly identified Route 41 south as a dead end. When a pathfinding tool repeatedly returns 'No path found' for a general direction, I must trust this as accurate data about the map's layout and not a tool failure. I should immediately pivot my strategy instead of wasting turns retrying minor variations of the failed path.
+
+# IMMEDIATE TASK
+- The `switch_pokemon` tool is catastrophically broken. It selected the wrong Pokémon (CLAUDIUS instead of CRUNCH). After this battle, I MUST use `python_code_debugger` to analyze its pathfinding logic and `define_tool` to implement the fix. This is a top-priority maintenance task.
