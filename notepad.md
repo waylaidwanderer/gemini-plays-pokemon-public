@@ -344,3 +344,4 @@
 - **Wrapping:** Menus wrap around! Pressing 'Up' at the top moves to the bottom. Do not blindly mash 'Up' to reset cursor position.
 - **Tool Usage Correction:** Must set `buttons_to_press` to `["tool"]` when using `press_sequence` or any tool that presses buttons. Putting manual buttons in `buttons_to_press` overrides the tool.
 - **Strategy Update:** One final attempt to Fly to Silver Cave with precise inputs. If this fails, will walk via Route 23 -> Reception Gate -> Route 28.
+- **Fly Navigation Failed:** Multiple attempts to Fly to Silver Cave from Indigo Plateau failed (cursor didn't move or input dropped). Switching to walking path: Route 23 -> Victory Road -> Reception Gate -> Route 28.
