@@ -295,7 +295,7 @@
 # Custom Tools & Agents
 - **route_planner:** Custom pathfinding tool.
 - **select_move:** Custom tool to select a move in battle.
-- **switch_pokemon:** Custom tool to switch Pokémon in battle. (Currently unreliable)
+- **switch_pokemon:** Custom tool to switch Pokémon in battle.
 - **find_reachable_unseen_tiles:** Custom tool to find reachable unseen tiles.
 - **select_item:** Custom tool to select an item from the bag.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
