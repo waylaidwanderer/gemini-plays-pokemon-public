@@ -31,6 +31,8 @@
 - **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
 - **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
 - **Dead End Pivot:** If multiple paths in a large area (like the sea routes) are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy (like investigating Union Cave) instead of continuing to search the dead-end area.
+- **Warp Hallucination Prevention:** I have repeatedly hallucinated warps that do not exist (e.g., at map transitions or by misremembering building locations). Before setting ANY navigation goal that involves a warp, I MUST first verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the current map. This is a non-negotiable step to prevent critical navigation failures.
+- **Trust Verified Tool Outputs:** When a reliable tool like `route_planner` returns a 'No path found' result, it is providing correct, valuable data about the map layout. I must trust this output over my own assumptions and immediately pivot my strategy instead of retrying the failed path. Wasting turns trying to force a non-existent path is a critical error.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -42,6 +44,7 @@
 - **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
 - **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
 - **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
+- **Route 39 One-Way Path:** Route 39 is a one-way path south due to a series of ledges. It is impossible to travel north through this route from the Olivine City entrance.
 
 ## Puzzle Solving & Logic
 - **Challenge Assumptions:** My progress in the lighthouse was blocked by my own assumption that all pits were traps. I must systematically test all environmental possibilities, even those that seem like dead ends or hazards, as they might be the intended path forward. Falsifying my own root hypotheses is critical to avoiding puzzle loops.
@@ -296,17 +299,3 @@
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
-## Navigation & Exploration
-- **Consult Map Markers:** I must consult my own map markers before interacting with objects like fruit trees to avoid wasting turns on resources I have already collected. This is a critical failure of self-documentation.
-
-- **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
-
-# IMMEDIATE TASKS
-- **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
-
-## Core Principles & Planning (New Lessons)
-- **Warp Hallucination Prevention:** I have repeatedly hallucinated warps that do not exist (e.g., at map transitions or by misremembering building locations). Before setting ANY navigation goal that involves a warp, I MUST first verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the current map. This is a non-negotiable step to prevent critical navigation failures.
-- **Trust Verified Tool Outputs:** When a reliable tool like `route_planner` returns a 'No path found' result, it is providing correct, valuable data about the map layout. I must trust this output over my own assumptions and immediately pivot my strategy instead of retrying the failed path. Wasting turns trying to force a non-existent path is a critical error.
-
-## Navigation & Exploration (New Lessons)
-- **Route 39 One-Way Path:** Route 39 is a one-way path south due to a series of ledges. It is impossible to travel north through this route from the Olivine City entrance.
