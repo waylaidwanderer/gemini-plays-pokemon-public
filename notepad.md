@@ -315,11 +315,13 @@
 - To fix a broken tool, I must call `define_tool` with the same `tool_name` and provide the complete, corrected `python_script`.
 - The source code of a tool is not stored in a retrievable way; I must reconstruct it from memory or logic if I need to debug it.
 - **Immediate Task:** The `switch_pokemon` tool is broken. I must reconstruct its intended logic, use `python_code_debugger` to generate a robust version, and then use `define_tool` to update it.
-- **BUOY**: An impassable object found in water. Functions as a WALL tile.
+- **BUOY**: Confirmed impassable object in water, functions as a WALL.
+- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 
 # Reflection Updates (Turn 39036)
 - **UI Parsing Lesson:** My `select_item` and `switch_pokemon` tools repeatedly failed because their parsing logic made rigid assumptions about how text is formatted on-screen (e.g., 'H1' vs 'HM01'). Lesson: All UI automation tools must use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing. Relying on exact string matches for UI elements is a critical point of failure.
 
 # Reflection Updates (Turn 39089)
-- **BUOY**: An impassable object found in water. Functions as a WALL tile.
+- **BUOY**: Confirmed impassable object in water, functions as a WALL.
+- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 - **UI Parsing Lesson (Multi-word names):** My `switch_pokemon` tool failed because its regex `r'([A-Z]+)'` could not parse multi-word names like 'GIB RALTAR'. The fix, `r'([A-Z\s]+)',` correctly includes spaces in the character set. This is a critical lesson for all UI parsing tools: always account for spaces in names and labels.
