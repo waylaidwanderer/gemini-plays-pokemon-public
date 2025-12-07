@@ -314,3 +314,4 @@
 - To fix a broken tool, I must call `define_tool` with the same `tool_name` and provide the complete, corrected `python_script`.
 - The source code of a tool is not stored in a retrievable way; I must reconstruct it from memory or logic if I need to debug it.
 - **Immediate Task:** The `switch_pokemon` tool is broken. I must reconstruct its intended logic, use `python_code_debugger` to generate a robust version, and then use `define_tool` to update it.
+- **BUOY**: An impassable object found in water. Functions as a WALL tile.
