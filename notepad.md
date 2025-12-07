@@ -5,22 +5,24 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-## Current Mission: Mt. Silver Summit
-**Status:** Silver Cave Outside (High Ground).
-**Objective:** Reach Route 28 Entrance.
+## Current Mission: Kanto Journey
+**Status:** Exploring Route 28.
+**Objective:** Loot items and find the path to Mt. Silver Summit.
 **Action Plan:**
-1. Navigate Southeast to (39, 31) via Row 32.
-2. Enter Route 28.
+1. Explore Route 28 for rare items and TMs.
+2. Return to Silver Cave to ascend to the summit.
+3. Defeat Red.
 
 ## Silver Cave Outside Notes
-- **PokeCenter:** (23, 19). Fly Destination.
-- **Geography:** High Ground accessible via ledges at (25, 27) and (23, 23). SE Corner (Route 28) accessible via Row 32 gap.
-- **Route 28:** Entrance located at Southeast corner (39, 31).
-- **Encounters:** Ponyta, Tangela.
+- **PokeCenter:** (23, 19). Fly Destination. High Ground.
+- **Geography:**
+  - High Ground accessible via gaps in ledges at (25, 27) and (23, 23).
+  - Route 28 Entrance at Southeast corner (39, 31).
+- **Encounters:** Ponyta, Tangela, Rapidash.
 
 ## Silver Cave Room 1 Notes
 - **Geography:** Divided into High Ground (West/North) and Low Ground (Southeast).
-- **Status:** Explored Low Ground (Protein). High Ground access required (likely from Outside).
+- **Status:** Explored Low Ground (Protein). High Ground access likely via Route 28 or Outside.
 - **Mechanics:** FLOOR_UP_WALL is IMPASSABLE from the North here (confirmed at 8,34).
 
 ## Fuchsia Gym (Cleared)
@@ -65,7 +67,6 @@
 - **'Scoot' Mechanic:** Leaving and re-entering a map refreshes map state (e.g., moving NPCs).
 - **Warp Verification:** Game State 'Warps' list is the source of truth.
 - **Key Items:** Passive upgrades (e.g., Radio Card) may not list in inventory.
-- **path:** Harness Feature. Automatically moves along the `path_plan` coordinate list. NOT a custom tool.
 
 ### Pokegear & Radio Systems
 - **Menu Layout:** Horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps/clamps. 'B' exits to Overworld.
@@ -86,7 +87,7 @@
 - **LEDGE_HOP_DOWN:** One-way jump South.
 - **TALL_GRASS:** Walkable (Wild Encounters).
 - **WATER:** Traversable (Surf required).
-- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), and Silver Cave Outside (blocking Southbound movement).
+- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), Silver Cave Room 1, and Silver Cave Outside (blocking Southbound movement).
 - **FLOOR_LEFT_WALL:** Directional Wall. Blocks movement to the LEFT. Verified on Celadon Mansion Roof.
 - **FLOOR_RIGHT_WALL:** Directional Wall. Blocks movement to the RIGHT. Verified on Celadon Mansion Roof.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Blocks movement from the Left (cannot walk East through it). Verified on Fuchsia City.
@@ -291,7 +292,7 @@
   - Pokémon Center: (23, 25).
   - Gym: To be located.
 - Trainer House: (23, 15).
-- Gym: (27, 7).
+- Gym: (27, 7). 
 - Viridian Gym: (32, 7). Blocked by Gramps at (30, 8).
 ## Viridian City
 - **Geography:**
