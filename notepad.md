@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Route 28 Exploration
-**Status:** At Indigo Plateau Lobby. Exiting to Fly to Silver Cave.
+**Status:** On Route 23 (Indigo Plateau). Recovering from menu confusion to Fly to Silver Cave.
 **Objective:** Find the path to the Route 28 House via Silver Cave High Ground.
 **Action Plan:**
 1. Exit Lobby to Route 23 (Outside).
