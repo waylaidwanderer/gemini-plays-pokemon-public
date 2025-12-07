@@ -87,6 +87,7 @@
 - **WALL:** Impassable.
 - **WINDOW:** Impassable Wall.
 - **PIT / HOLE:** Traversable warp.
+- **CAVE:** Context Dependent. Usually a warp entrance/exit.
 - **ICE:** Slippery. Slide until hitting a wall or non-ice tile.
 - **LEDGE_HOP_DOWN:** One-way jump South.
 - **TALL_GRASS:** Walkable (Wild Encounters).
