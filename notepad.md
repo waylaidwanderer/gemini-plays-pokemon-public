@@ -362,3 +362,6 @@
   - **NPC:** Cooltrainer F (Celebrity?). Gave TM47 (Steel Wing). Asked for secrecy.
   - **Object:** Fearow (uses Moltres sprite).
 - **Exploration Update:** The landing at (13, 24) leads to an isolated plateau (x=4-10, y=24-29). It is a DEAD END blocked by walls West and a Ridge (FLOOR_UP_WALL) South. Must surf South to bypass the ridge.
+- **Silver Cave Outside (Western Shore):** Area at x=5-13, y=24-29 is a DEAD END.
+  - **South Barrier:** FLOOR_UP_WALL at Row 30 is impassable from the North (Ridge Base).
+  - **Exit:** Must jump ledge at (11, 24) to return to water.
