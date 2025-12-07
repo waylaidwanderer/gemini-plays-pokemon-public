@@ -294,3 +294,7 @@
 - **switch_pokemon:** Switches Pokémon in battle.
 - **python_code_debugger (Agent):** Debugs my Python scripts.
 - **puzzle_solver (Agent):** Helps with in-game puzzles.
+
+# Reflection Updates (Turn 38621)
+- **WALL Tile:** A standard, impassable tile type that blocks movement.
+- **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
