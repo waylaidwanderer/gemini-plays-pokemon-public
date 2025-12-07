@@ -320,3 +320,4 @@
 ## Tile & Object Mechanics
 - **WALL**: An impassable tile that blocks movement.
 | Water | Water | Not Very Effective |
+- **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
