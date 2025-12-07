@@ -300,3 +300,5 @@
 # Reflection Updates (Turn 38621)
 - **WALL Tile:** A standard, impassable tile type that blocks movement.
 - **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
+## Core Lessons Learned
+- **Tool Failure (select_item):** The tool failed catastrophically because it was based on two hallucinations: a non-existent Key Item list and incorrect circular scrolling logic. Lesson: I MUST verify basic UI mechanics through simple, manual tests before committing to building complex automation.
