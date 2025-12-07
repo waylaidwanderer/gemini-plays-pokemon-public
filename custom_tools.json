@@ -844,5 +844,26 @@
         "action_counter": 39691
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Parses the map XML to find all 'unseen' tiles that are adjacent to 'seen', traversable tiles, providing a list of exploration targets.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "is_surfing": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nis_surfing = input_data.get('is_surfing', 'false').lower() == 'true'\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y:\n        max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x:\n            max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\ngrid = [[('unseen', False) for _ in range(width)] for _ in range(height)]\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        seen = tile_elem.get('seen') == 'true'\n        grid[y][x] = (tile_type, seen)\n\nTRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT'}\nif is_surfing:\n    TRAVERSABLE_TYPES.add('WATER')\n\nreachable_unseen = []\nfor y in range(height):\n    for x in range(width):\n        tile_type, seen = grid[y][x]\n        if not seen:\n            is_reachable = False\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    neighbor_type, neighbor_seen = grid[ny][nx]\n                    if neighbor_seen and neighbor_type in TRAVERSABLE_TYPES:\n                        is_reachable = True\n                        break\n            if is_reachable:\n                reachable_unseen.append({'x': x, 'y': y})\n\nprint(json.dumps(reachable_unseen))",
+    "history": [
+      {
+        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool automates the process of identifying explorable 'unseen' tiles by checking for adjacency to known traversable areas. This will significantly improve exploration efficiency and prevent manual oversight.",
+        "timestamp": "2025-12-07T16:01:00.912Z",
+        "action_counter": 39770
+      }
+    ]
   }
 }
