@@ -330,6 +330,7 @@
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
 ## Silver Cave Room 1
 - Protein found at (15, 29).
+- Ultra Ball found at (7, 18).
 ## Silver Cave Outside
 - **Status:** Surfing South to find High Ground access.
 - **Geography:**
