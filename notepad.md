@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Espeon (-1 Acc) vs Paprika (168 HP). Pikachu Defeated.
+**Status:** BATTLE VS RED. Espeon (-1 Acc, Reflect) vs Paprika (182 HP). Pikachu Defeated.
 **Objective:** DEFEAT RED.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
