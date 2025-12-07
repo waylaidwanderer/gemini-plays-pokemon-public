@@ -321,3 +321,5 @@
 - **WALL**: An impassable tile that blocks movement.
 | Water | Water | Not Very Effective |
 - **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
+## Core Lessons Learned
+- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool failed because its configuration was incorrect for the current context (surfing vs. walking). Lesson: Always verify a tool's configuration is appropriate for the current situation before use. Consider creating context-aware tools or different versions for different states.
