@@ -309,3 +309,5 @@
 - **Agent Hypothesis #2 (Hidden Passage):** There could be a hidden switch or passage in the isolated 1F room I'm currently in. **Plan:** Before leaving this room, interact with all adjacent walls and floor tiles.
 ## Core Lessons Learned
 - **Trust Your Knowledge Base & Escalate When Stuck:** My progress in the lighthouse stalled because I failed to trust my own documented findings (that the pits were a dead end) and got stuck in a repetitive loop. When manual hypotheses fail repeatedly, I MUST consult my own notes and escalate to a specialized tool like the `puzzle_solver` agent instead of repeating failed tests. This is a critical protocol for breaking cognitive fixation.
+- **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
+- **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `route_planner` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
