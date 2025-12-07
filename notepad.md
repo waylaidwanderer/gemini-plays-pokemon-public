@@ -32,6 +32,7 @@
 - **Notepad Edit Failures:** Repeated `notepad_edit` failures are often caused by providing inexact `old_text`. I must verify the exact text or accept that the edit may have already succeeded despite an error message, which would indicate a hallucination on my part.
 - **Warp Hallucination:** I hallucinated a warp at (13, 17) in Ecruteak City. I MUST verify a warp's existence in `Game State Information -> Map Events -> Warps` before setting it as a navigation goal to prevent this critical error.
 - **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
+- **Tool Failure (select_item):** The tool failed catastrophically because it was based on two hallucinations: a non-existent Key Item list and incorrect circular scrolling logic. Lesson: I MUST verify basic UI mechanics through simple, manual tests before committing to building complex automation.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -300,5 +301,3 @@
 # Reflection Updates (Turn 38621)
 - **WALL Tile:** A standard, impassable tile type that blocks movement.
 - **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
-## Core Lessons Learned
-- **Tool Failure (select_item):** The tool failed catastrophically because it was based on two hallucinations: a non-existent Key Item list and incorrect circular scrolling logic. Lesson: I MUST verify basic UI mechanics through simple, manual tests before committing to building complex automation.
