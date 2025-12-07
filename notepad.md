@@ -40,9 +40,12 @@
 - **Encounters:** Ponyta, Tangela, Rapidash.
 
 ## Silver Cave Room 1 Notes
-- **Geography:** Central Plateau is isolated. High Ground (North) and Low Ground (Southeast) are not connected to the entrance area.
-- **Status:** Central Plateau explored (Ultra Ball). Need to find path to North/West areas.
-- **Mechanics:** FLOOR_UP_WALL generally acts as a ridge blocking movement from the South (cannot climb up) in Silver Cave. Verified at (12, 20) and (4, 14). Consistent behavior observed.
+- **Geography:**
+  - **Entrance Area (South):** Access to East/West paths.
+  - **Central Plateau:** Isolated, contains Ultra Ball. Blocked by ridges at Row 20.
+  - **Western Path (x=5):** Leads to a dead end at (8, 14) blocked by a ridge.
+  - **Eastern Path (x=15):** **CONFIRMED PATH.** Go East to x=15, then North through gap at (15, 17). This bypasses the ridges.
+- **Mechanics:** FLOOR_UP_WALL acts as a ridge blocking movement from the South. Verified at (12, 20), (4, 14), and (8, 14).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
