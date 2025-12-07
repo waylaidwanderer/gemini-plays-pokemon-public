@@ -21,6 +21,7 @@
 - **West Section (Secret Area):** Accessed via path from Silver Cave Outside (cut tree at 34, 23).
   - **Celebrity House:** Located at (7, 3). Contains Cooltrainer F (gives TM47 Steel Wing) and a Fearow (uses Moltres sprite).
 - **Landmarks:** Door to Victory Road Gate at (33, 5).
+- **West Exit:** Path at (0, 13) leads to Silver Cave Outside (East Plateau).
 
 ## Silver Cave Outside Notes
 - **PokeCenter:** (23, 19). Fly Destination. High Ground.
