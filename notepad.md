@@ -306,12 +306,6 @@
 - **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
 - **Immediate Task Execution:** Maintenance tasks (tool fixes, notepad organization) must be performed the moment they are identified, overriding any immediate gameplay actions. Deferring them leads to errors and wasted turns.
 
-# TOOL BUG REPORT (Turn 38803)
-- **Tool:** `switch_pokemon`
-- **Symptom:** Returned an empty string when trying to switch to 'CHRONO' in battle. Failed to generate button presses.
-- **Immediate Action:** Switched manually to proceed with battle.
-- **TODO:** Must investigate and fix this tool using `python_code_debugger` as soon as possible. The current parser is likely failing on the two-line party member format.
-
 # Reflection Update (Turn 38916)
 - **Warp Hallucination Recovery:** I experienced a critical hallucination, believing I was on Route 39 when I was still inside the farmhouse. This led to a failed navigation plan. Lesson: I MUST verify my map and position after every single map transition before planning my next action. This is a non-negotiable step to prevent cascading failures.
 
