@@ -6,12 +6,12 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** Silver Cave Room 1.
-**Objective:** Explore Northern Ridge (Row 14).
+**Status:** Silver Cave Room 1 (High Ground).
+**Objective:** Explore Northern Plateau & Get Item at (4, 9).
 **Action Plan:**
-1. Climb the ridge at Row 14.
-2. Explore the northern high ground.
-3. Locate connection to High Ground or other exits.
+1. Move North to Row 10.
+2. Find path West to Item Ball.
+3. Explore remaining northern area.
 
 ### Recent Logs
 - Caught Larvitar "BEDROCK".
