@@ -32,7 +32,7 @@
 - **Notepad Edit Failures:** Repeated `notepad_edit` failures are often caused by providing inexact `old_text`. I must verify the exact text or accept that the edit may have already succeeded despite an error message, which would indicate a hallucination on my part.
 - **Warp Hallucination:** I hallucinated a warp at (13, 17) in Ecruteak City. I MUST verify a warp's existence in `Game State Information -> Map Events -> Warps` before setting it as a navigation goal to prevent this critical error.
 - **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
-- **Tool Failure (select_item):** The tool failed catastrophically because it was based on two hallucinations: a non-existent Key Item list and incorrect circular scrolling logic. Lesson: I MUST verify basic UI mechanics through simple, manual tests before committing to building complex automation.
+- **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -57,7 +57,7 @@
 - **Escalate Vertically:** When stuck in an exploration loop on a given floor and the floor below, the solution is likely on a floor *above*. I must challenge the assumption that the path forward is nearby and be willing to ascend to find a way down into inaccessible areas. This was the key insight from my `puzzle_solver` agent regarding the lighthouse.
 - **Red Herring Passages:** A hidden passage is not a guaranteed path forward. The secret passage on Olivine Lighthouse 5F at (8, 7) led to a confirmed dead end. If a new path quickly proves fruitless, I must be willing to backtrack immediately rather than assuming there's a deeper puzzle.
 - **External Triggers:** When all internal solutions to a puzzle are exhausted (e.g., the lighthouse entrance), the trigger is likely external. Do not get stuck in a loop; expand the search area.
-- **Value of Brute-Force Automation:** When visually stuck, a systematic, automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
+- **Value of Brute-Force Automation:** When visually stuck, a systematic, a automated search can reveal paths or triggers that are easily missed by manual exploration. It's a valid strategy for breaking through a perceived dead end.
 - **Internal Triggers:** When all external paths from a location are confirmed dead ends, the solution is likely an internal change within that area, triggered by a recent major event (like a key conversation).
 - **Methodical Puzzle Testing:** When testing a hypothesis with multiple steps (e.g., checking all directions), I must systematically test each step, document the outcome in my notepad, and only conclude the entire hypothesis has failed after all steps have been exhausted.
 - **Agent Escalation:** When multiple self-generated hypotheses for a puzzle have failed, especially after getting stuck in a repetitive loop, I must escalate to a more powerful problem-solving tool like an agent. This is critical for breaking cognitive fixation.
@@ -84,6 +84,13 @@
 - **Tool Glitch Recovery:** If a tool repeatedly fails with a bizarre error despite the code appearing correct (like a `ModuleNotFoundError` for a valid library), force a re-definition of the tool with a new commit message to clear any cached or corrupted state.
 - **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool assumed all `LADDER` tiles were warps, which failed on the Olivine Port pier where they are walkable. Lesson: Always be prepared to refine tools when they encounter new game contexts that violate their core assumptions.
 - **Tool Maintenance Protocol:** If a tool fails, it MUST be fixed immediately. Do not attempt to re-use a known faulty tool. After applying a fix, especially one from an agent, the tool's functionality must be verified with a simple, direct test case before being trusted for critical tasks. Repeated failures indicate a deeper issue with the tool's logic or its underlying assumptions (like a hardcoded list being incorrect).
+- **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
+- **Immediate Task Execution:** Maintenance tasks (tool fixes, notepad organization) must be performed the moment they are identified, overriding any immediate gameplay actions. Deferring them leads to errors and wasted turns.
+- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
+- **UI Parsing Lesson (Multi-word names):** My `switch_pokemon` tool failed because its regex `r'([A-Z]+)'` could not parse multi-word names like 'GIB RALTAR'. The fix, `r'([A-Z\s]+)',` correctly includes spaces in the character set. This is a critical lesson for all UI parsing tools: always account for spaces in names and labels.
+- **UI Parsing Lesson (Text Formatting):** My `select_item` and `switch_pokemon` tools repeatedly failed because their parsing logic made rigid assumptions about how text is formatted on-screen (e.g., 'H1' vs 'HM01'). Lesson: All UI automation tools must use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing. Relying on exact string matches for UI elements is a critical point of failure.
+- **Trust Tool Output:** My `route_planner` correctly identified Route 41 south as a dead end. When a pathfinding tool repeatedly returns 'No path found' for a general direction, I must trust this as accurate data about the map's layout and not a tool failure. I should immediately pivot my strategy instead of wasting turns retrying minor variations of the failed path.
+- **Robust UI Parsing (Context):** My `switch_pokemon` and `select_item` tools failed due to brittle parsing logic. Future UI automation tools MUST use robust parsing (e.g., specific, anchored regex; checking for structural cues like cursors) and account for all possible contexts (e.g., different bag pockets, fainted Pokémon, status effects) to avoid catastrophic failures.
 
 ## Battle & Resource Management
 - **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
@@ -111,7 +118,7 @@
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area.
+- **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC. To interact with NPCs behind counters, face the counter tile directly in front of them and press A.
 - **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
@@ -146,7 +153,6 @@
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
-- **BUOY**: An object found in water. Appears to be impassable, functioning like a WALL tile within a WATER area. (Hypothesis - needs testing).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
@@ -288,56 +294,12 @@
 ### Ecruteak Gym Puzzle
 - **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
 
-# Reflection Updates (Turn 38569)
-- **VOID Tile:** An impassable tile type found at the edges of some maps, functions as a wall.
-- **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
-
 # Custom Tools & Agents
 - **route_planner:** Custom pathfinding tool.
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
-- **find_reachable_unseen_tiles:** Custom tool to find reachable unseen tiles.
 - **select_item:** Custom tool to select an item from the bag.
+- **interact_with_object:** Custom tool to automate moving to and interacting with objects.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
-- Note: `path_plan` is a system command, not a custom tool.
-
-# Rematch Opportunities
-- Hiker Anthony on Route 33 called for a battle.
-- Youngster Joey on Route 30 called for a rematch.
-- Sailor Huey at the Olivine Lighthouse called for a rematch.
-
-# Reflection Updates (Turn 38621)
-- **WALL Tile:** A standard, impassable tile type that blocks movement.
-- **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
-- **Immediate Task Execution:** Maintenance tasks (tool fixes, notepad organization) must be performed the moment they are identified, overriding any immediate gameplay actions. Deferring them leads to errors and wasted turns.
-
-# Reflection Update (Turn 38916)
-- **Warp Hallucination Recovery:** I experienced a critical hallucination, believing I was on Route 39 when I was still inside the farmhouse. This led to a failed navigation plan. Lesson: I MUST verify my map and position after every single map transition before planning my next action. This is a non-negotiable step to prevent cascading failures.
-
-# TOOL DEBUGGING PROTOCOL
-- The `define_tool` function is used for both creating and updating tools.
-- To fix a broken tool, I must call `define_tool` with the same `tool_name` and provide the complete, corrected `python_script`.
-- The source code of a tool is not stored in a retrievable way; I must reconstruct it from memory or logic if I need to debug it.
-- **Immediate Task:** The `switch_pokemon` tool is broken. I must reconstruct its intended logic, use `python_code_debugger` to generate a robust version, and then use `define_tool` to update it.
-- **BUOY**: Confirmed impassable object in water, functions as a WALL.
-- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
-
-# Reflection Updates (Turn 39036)
-- **UI Parsing Lesson:** My `select_item` and `switch_pokemon` tools repeatedly failed because their parsing logic made rigid assumptions about how text is formatted on-screen (e.g., 'H1' vs 'HM01'). Lesson: All UI automation tools must use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing. Relying on exact string matches for UI elements is a critical point of failure.
-
-# Reflection Updates (Turn 39089)
-- **BUOY**: Confirmed impassable object in water, functions as a WALL.
-- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
-- **UI Parsing Lesson (Multi-word names):** My `switch_pokemon` tool failed because its regex `r'([A-Z]+)'` could not parse multi-word names like 'GIB RALTAR'. The fix, `r'([A-Z\s]+)',` correctly includes spaces in the character set. This is a critical lesson for all UI parsing tools: always account for spaces in names and labels.
-
-# Reflection Updates (Turn 39193)
-- **Trust Tool Output:** My `route_planner` correctly identified Route 41 south as a dead end. When a pathfinding tool repeatedly returns 'No path found' for a general direction, I must trust this as accurate data about the map's layout and not a tool failure. I should immediately pivot my strategy instead of wasting turns retrying minor variations of the failed path.
-
-# IMMEDIATE TASK
-- The `switch_pokemon` tool is catastrophically broken. It selected the wrong Pokémon (CLAUDIUS instead of CRUNCH). After this battle, I MUST use `python_code_debugger` to analyze its pathfinding logic and `define_tool` to implement the fix. This is a top-priority maintenance task.
-- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
-
-# Tool Design Lessons
-- **Robust UI Parsing:** My `switch_pokemon` and `select_item` tools failed due to brittle parsing logic. Future UI automation tools MUST use robust parsing (e.g., specific, anchored regex; checking for structural cues like cursors) and account for all possible contexts (e.g., different bag pockets, fainted Pokémon, status effects) to avoid catastrophic failures.
