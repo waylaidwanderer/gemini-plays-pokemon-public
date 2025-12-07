@@ -337,3 +337,4 @@
 
 # IMMEDIATE TASK
 - The `switch_pokemon` tool is catastrophically broken. It selected the wrong Pokémon (CLAUDIUS instead of CRUNCH). After this battle, I MUST use `python_code_debugger` to analyze its pathfinding logic and `define_tool` to implement the fix. This is a top-priority maintenance task.
+- **WARP_CARPET_DOWN**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
