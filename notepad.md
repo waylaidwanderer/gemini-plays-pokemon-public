@@ -288,3 +288,9 @@
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
+
+## State Awareness & Verification
+- **IMMEDIATE LOCATION VERIFICATION (CRITICAL):** After EVERY map transition (warp, ladder, etc.) or unexpected event (like a phone call), I MUST immediately verify my `current_map_id` and `current_position` from the Game State Information. My recent hallucination of being outside the Pokémon Center while still inside was a catastrophic failure caused by neglecting this step. This protocol is non-negotiable.
+
+## Tool & Agent Management
+- **Tool Logic Must Mirror Game Mechanics:** A tool will fail catastrophically if its internal model of the game is inaccurate. The `switch_pokemon` tool failed because it did not account for the 'CANCEL' option in the party menu's circular list. All future tools must be designed with a perfect understanding of the in-game UI and mechanics they interact with.
