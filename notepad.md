@@ -298,3 +298,6 @@
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
 ## Navigation & Exploration
 - **Consult Map Markers:** I must consult my own map markers before interacting with objects like fruit trees to avoid wasting turns on resources I have already collected. This is a critical failure of self-documentation.
+
+# Moomoo Farm Puzzle Update
+- The sick Miltank requires a generic 'BERRY' item, not a specialized one like MINT BERRY. The FRUIT_TREE on Route 39 is empty. This quest is currently blocked until a generic BERRY can be found.
