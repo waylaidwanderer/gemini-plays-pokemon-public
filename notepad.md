@@ -299,3 +299,4 @@
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
+- **NPC Repositioning:** An NPC moving does not guarantee a path is clear. They may simply move to a new blocking position, requiring a different solution (e.g., SILVER on Route 40).
