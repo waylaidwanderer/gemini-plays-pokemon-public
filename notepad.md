@@ -302,4 +302,3 @@
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 
 # IMMEDIATE TASKS
-- Unstun Sailor (ID 3) at (18, 21) before leaving Olivine City.
