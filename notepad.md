@@ -125,6 +125,7 @@
 - **Tin Tower:** Paused. Need Rainbow Wing (Catch Raikou, Entei, Suicune).
 
 ## Lessons Learned
+- **Fly Reliability:** Flying to Silver Cave from Indigo Plateau proved unreliable (likely due to input timing or map constraints). Walking via Victory Road is the robust fallback.
 - **Fly Mechanics:** Fly destinations are only unlocked by entering the city's Pokémon Center. Visiting the city map is not enough (missed Pallet, Viridian, Pewter).
 - **Item Verification:** Passive upgrades (e.g., Radio Card) often don't appear in the inventory; trust NPC dialogue.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
