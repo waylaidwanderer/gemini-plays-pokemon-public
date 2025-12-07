@@ -283,3 +283,7 @@
 # Solved Puzzles
 ### Ecruteak Gym Puzzle
 - **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
+
+# Reflection Updates (Turn 38569)
+- **VOID Tile:** An impassable tile type found at the edges of some maps, functions as a wall.
+- **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
