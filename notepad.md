@@ -386,3 +386,6 @@
 ## Silver Cave Room 2
 - **Entrance:** (17, 31). Connects to Room 1 (15, 1).
 - **Geography:** Southern area has multiple rows of WARP_CARPET_DOWN tiles. Walls at Row 27 with gaps at x=19 and x=22.
+## Silver Cave Room 3
+- **Entrance:** (9, 33). Connects to Room 2 (11, 5).
+- **Geography:** Large open area. Path leads North.
