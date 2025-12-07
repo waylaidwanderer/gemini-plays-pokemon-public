@@ -287,3 +287,9 @@
 
 # Tile & Object Mechanics (Update)
 - **PIT (Ecruteak Gym):** In this specific location, this tile is a one-way warp that sends the player back to the gym entrance at (4, 14). It is a puzzle mechanic designed to reset the player's position if they step off the correct path.
+
+# Core Lessons Learned (Update)
+- **Tool Limitations vs. Puzzle Logic:** My `route_planner` is unable to navigate the Ecruteak Gym because the puzzle relies on hidden logic (a single safe path) that isn't represented in the basic tile data. For puzzles with invisible paths or traps, automated pathfinding is unreliable. Manual, step-by-step exploration and hypothesis testing is the correct strategy.
+
+# Tile & Object Mechanics (Update)
+- **PIT (Ecruteak Gym):** In this specific location, this tile is a one-way warp that sends the player back to the gym entrance at (4, 14). It is a puzzle mechanic designed to reset the player's position if they step off the correct path.
