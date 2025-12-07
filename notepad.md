@@ -303,3 +303,7 @@
 
 # IMMEDIATE TASKS
 - **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
+
+## Core Principles & Planning (New Lessons)
+- **Warp Hallucination Prevention:** I have repeatedly hallucinated warps that do not exist (e.g., at map transitions or by misremembering building locations). Before setting ANY navigation goal that involves a warp, I MUST first verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the current map. This is a non-negotiable step to prevent critical navigation failures.
+- **Trust Verified Tool Outputs:** When a reliable tool like `route_planner` returns a 'No path found' result, it is providing correct, valuable data about the map layout. I must trust this output over my own assumptions and immediately pivot my strategy instead of retrying the failed path. Wasting turns trying to force a non-existent path is a critical error.
