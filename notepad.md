@@ -294,3 +294,4 @@
 
 ## Tool & Agent Management
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail catastrophically if its internal model of the game is inaccurate. The `switch_pokemon` tool failed because it did not account for the 'CANCEL' option in the party menu's circular list. All future tools must be designed with a perfect understanding of the in-game UI and mechanics they interact with.
+- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
