@@ -340,3 +340,5 @@
 - **Events:**
   - Phone Call: Joey (Route 30). Radio reset.
 - **Wild Encounters:** Ponyta, Tangela.
+### Menu Navigation
+- **Wrapping:** Menus wrap around! Pressing 'Up' at the top moves to the bottom. Do not blindly mash 'Up' to reset cursor position.
