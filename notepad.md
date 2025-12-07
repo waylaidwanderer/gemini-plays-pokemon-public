@@ -121,7 +121,6 @@
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
-- **PIT**: Can function as a one-way warp (Olivine Lighthouse) or an inactive puzzle element (Burned Tower). In the Burned Tower, the pits at (5, 5) and (15, 5) do not activate by stepping on them or pressing 'A'. They likely require an external trigger, which was confirmed to be defeating my rival. In the Ecruteak Gym, all `PIT` tiles are confirmed to be warps that send the player back to the gym entrance area. This is a puzzle mechanic, not a hazard.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 - **RADIO**: An impassable object.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
