@@ -313,3 +313,9 @@
 - **Trust Markers Over Tools:** If my map markers indicate a path is blocked by an NPC, I must trust that information over a `route_planner` result, as the tool cannot see off-screen NPCs. Do not attempt to path through known blockades.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
+
+## Core Lessons Learned
+- **Tool Context-Dependency:** A tool's logic may be based on assumptions that are not universally true. The `route_planner` tool failed because its configuration was incorrect for the current context (surfing vs. walking). Lesson: Always verify a tool's configuration is appropriate for the current situation before use. Consider creating context-aware tools or different versions for different states.
+
+## Tile & Object Mechanics
+- **WALL**: An impassable tile that blocks movement.
