@@ -302,3 +302,9 @@
 - **WALL Tile:** A standard, impassable tile type that blocks movement.
 - **Tool Logic Lesson (UI Parsing):** My `switch_pokemon` tool failed because its text parsing was too general, incorrectly identifying non-selectable headers as menu items. The agent's fix confirmed that relying on stable, structural UI cues (like cursors '▶' or indentation) is far more robust than parsing based on text content alone. This is a critical lesson for all future UI automation tools.
 - **Immediate Task Execution:** Maintenance tasks (tool fixes, notepad organization) must be performed the moment they are identified, overriding any immediate gameplay actions. Deferring them leads to errors and wasted turns.
+
+# TOOL BUG REPORT (Turn 38803)
+- **Tool:** `switch_pokemon`
+- **Symptom:** Returned an empty string when trying to switch to 'CHRONO' in battle. Failed to generate button presses.
+- **Immediate Action:** Switched manually to proceed with battle.
+- **TODO:** Must investigate and fix this tool using `python_code_debugger` as soon as possible. The current parser is likely failing on the two-line party member format.
