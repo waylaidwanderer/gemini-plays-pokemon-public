@@ -5,13 +5,13 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-## Current Mission: Route 28 Exploration
-**Status:** On Route 28. Heading West to Silver Cave.
-**Objective:** Reach Silver Cave.
+## Current Mission: Mt. Silver Conquest
+**Status:** Silver Cave Outside.
+**Objective:** Enter Silver Cave.
 **Action Plan:**
-1. Exit West to Route 28.
-2. Traverse Route 28 to Silver Cave.
-3. Explore High Ground for Route 28 House path.
+1. Heal at PokeCenter (23, 19) to unlock Fly.
+2. Enter Silver Cave (18, 11).
+3. Explore Silver Cave to find Red and items.
 
 ## Route 28 Notes
 - **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
