@@ -369,9 +369,10 @@
   - **NPC:** Cooltrainer F (Celebrity?). Gave TM47 (Steel Wing). Asked for secrecy.
   - **Object:** Fearow (uses Moltres sprite).
 - **Exploration Update:** The landing at (13, 24) leads to an isolated plateau (x=4-10, y=24-29). It is a DEAD END blocked by walls West and a Ridge (FLOOR_UP_WALL) South. Must surf South to bypass the ridge.
-- **Silver Cave Outside (Western Shore):** Area at x=5-13, y=24-29 is a DEAD END.
-  - **South Barrier:** FLOOR_UP_WALL at Row 30 is impassable from the North (Ridge Base).
-  - **Exit:** Must jump ledge at (11, 24) to return to water.
+- **Silver Cave Outside (Western Shore):**
+  - **Central Plateau (x=5-13, y=24-29):** DEAD END. Must jump ledge at (11, 24) to exit.
+  - **South Pocket (x=4-15, y=29-30):** DEAD END. Blocked by Ridge South (4, 30) and Wall West (3, 29).
+  - **Conclusion:** This entire western landmass seems to be an exit-only loop from Route 28, not an entrance.
 - **Silver Cave Outside (South-East):** Path south of ridge (28, 32) is a DEAD END for westward progress. Returning to surf west.
 - **Navigation Correction:** The 'Western Landing' at (13, 24) is a one-way exit from the western plateau. It does not provide access TO the area. Access must be found elsewhere, likely north of the Main Cave Entrance.
 - **Main Entrance (18, 11 outside -> 9, 33 inside):** DEAD END. Leads to a small foyer. Northern path blocked by ledge at Row 20. Western item (5, 30) blocked by ledge at (7, 30). Must find another entrance.
