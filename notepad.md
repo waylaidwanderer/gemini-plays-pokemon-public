@@ -1,3 +1,6 @@
+# TO-DO LIST
+- Mark all PIT tiles in Ecruteak Gym as warps after this series of battles.
+
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth.
 - I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
@@ -17,6 +20,11 @@
 - **Random Chance Strategy:** If a strategy based on random chance (like waiting for moving NPCs) fails repeatedly (3+ times), I must switch to a deterministic strategy (like proactively stunning them in favorable positions).
 - **Task Immediacy:** Deferred tasks are often forgotten. Actions like unstunning non-critical NPCs should be done immediately after the interaction is complete to maintain good state hygiene.
 - **Proactive Automation:** I must not wait until a manual task becomes a major bottleneck before automating it. If I identify any repetitive, complex, or error-prone manual action, creating a tool or agent to handle it becomes an immediate high-priority task, superseding non-critical gameplay actions. Deferring automation is a strategic failure.
+
+## Core Lessons Learned
+- **Verify State Before Modifying:** My repeated failure to update the notepad was caused by not using the exact 'old_text'. I must verify the current content of a document before attempting a 'replace' action to avoid wasting turns on a task that may have already been completed or is based on a faulty premise.
+- **Deferred Tasks are Forgotten Tasks:** The overwatch critique correctly identified that I deferred fixing the 'route_planner' tool. Any identified bug or necessary maintenance must be performed in the immediate next turn, overriding other gameplay actions.
+- **Verify Location Post-Warp:** I hallucinated my location after entering the Ecruteak Pokémon Center, causing tool failures. I MUST verify my `current_map_id` and `current_position` after every map transition to prevent this critical error.
 
 ## Navigation & Exploration
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
@@ -74,16 +82,6 @@
 - **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
 - **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
 
-## Game-Specific Knowledge
-- **Ilex Forest Path:** The entrance is from Azalea Town, and the exit is at (1, 5).
-- **One-Way Warps:** Some warps, especially holes in the floor, may be one-way exits. If simple interaction methods (stepping on, pressing 'A', pressing a direction) fail repeatedly, assume it is an exit or requires a complex external trigger. Do not get stuck testing simple interactions.
-- **Warp Loop Anomaly:** The warp at Olivine City (19, 27) creates a confusing loop by repeatedly sending me to the Port Passage. If a warp behaves unexpectedly, I must mark it as problematic and investigate alternative routes immediately rather than getting stuck in a repetitive cycle.
-- **Warp Activation Diversity:** Warps can be activated in multiple ways: step-on (ladders), interaction ('A' press), one-way drops (likely PITs), or by external triggers. I must test multiple methods before concluding a warp is inactive.
-- **Warp Data Conflict Resolution:** The official `Game State Information -> Warps` list is the single source of truth for all active warps. Data from other sources (like the Mental Map XML) that suggests a warp exists where one is not officially listed should be treated as a potential data artifact or an inactive warp that requires an external, non-obvious trigger. Do not get stuck in loops testing these.
-- **Empty Gyms:** If a Gym Leader is absent, the gym itself might be empty and serve as a clue or trigger rather than a battle challenge. Full exploration is still necessary.
-- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
-- **Invisible Triggers:** When all physically explorable paths are confirmed dead ends, the solution is likely an invisible trigger or a missing key item/ability. The correct strategy is not to force the blocked paths, but to systematically backtrack and re-investigate previously visited key locations and NPCs to see if a recent major event (like speaking to a Gym Leader) has changed their state.
-
 # CURRENT QUEST: Get the SECRETPOTION for Amphy.
 
 # STRATEGIC KNOWLEDGE BASE
@@ -99,6 +97,7 @@
 - **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELER) evolve when traded.
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
+- **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -107,6 +106,7 @@
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC. To interact with NPCs behind counters, face the counter tile directly in front of them and press A.
 - **CUT_TREE**: An impassable tree that likely requires the HM move Cut to remove.
 - **DOOR**: A traversable warp tile leading into or out of a building.
+- **Ecruteak Gym Floor**: Appears as a PIT, but is a traversable FLOOR tile that forms an invisible path. The path is revealed by defeating trainers.
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
@@ -130,6 +130,7 @@
 - **TOWN_MAP**: An interactable object on a wall; impassable.
 - **TV**: An impassable object.
 - **unseen**: A tile that has not yet been explored. Its properties are unknown until visited. It is treated as impassable by pathfinding tools.
+- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **WALL**: Impassable terrain.
 - **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A traversable warp tile at the edge of a map that transitions to the adjacent map.
@@ -139,6 +140,7 @@
 - **WATER**: Impassable terrain without a specific HM (likely Surf).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
+- **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
 
 ## Battle Mechanics
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
@@ -171,22 +173,7 @@
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right).
 
-# Key Items
-- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
-- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
-- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
-- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
-- **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
-
-# TMs
-- **TM12 SWEET Scent**
-- **TM31 MUD-SLAP**
-- **TM39 SWIFT**
-- **TM45 ATTRACT**
-- **TM49 FURY CUTTER**
-- **TM08 ROCK SMASH:** Received from a man on Route 36 after a battle.
-
-# NPC Dialogue
+# LORE & DIALOGUE
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
@@ -207,6 +194,24 @@
 - **POKEFAN_F on OlivineLighthouse1F (16, 9):** Mentioned that in the past, Pokémon were used to light the sea at night, and the lighthouse was built in their honor.
 - **Gentleman on OlivineLighthouse2F (17, 8):** The sick Pokémon at the top needs 'special medicine'.
 - **COOLTRAINER_M in EcruteakItemfinderHouse:** Mentioned finding items in the BURNED TOWER.
+- **COOLTRAINER_F in Ecruteak Pokémon Center:** "MORTY, the GYM LEADER, is soooo cool. His POKéMON are really tough too."
+- **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
+
+# KEY ITEMS & TMs
+## Key Items
+- **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
+- **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
+- **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
+- **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+- **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
+
+## TMs
+- **TM12 SWEET Scent**
+- **TM31 MUD-SLAP**
+- **TM39 SWIFT**
+- **TM45 ATTRACT**
+- **TM49 FURY CUTTER**
+- **TM08 ROCK SMASH:** Received from a man on Route 36 after a battle.
 
 # Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
@@ -265,40 +270,3 @@
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
-
-# Custom Tools & Agents
-## Tool & Agent Management
-- **State Verification:** Always verify the current state of a document/map before attempting a modification, especially after a tool error, to avoid trying to change something that has already been changed. This was a critical failure during the Burned Tower basement puzzle.
-
-## Custom Tools
-- `route_planner`: Calculates the shortest path between two points on the current map.
-- `find_reachable_unseen_tiles`: Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
-- `select_item`: Automates selecting a specific item from the bag menu.
-- `select_move`: Selects a move from the battle menu by name.
-- `switch_pokemon`: Automates switching to a specific Pokémon in the party during a battle.
-
-## Custom Agents
-- `python_code_debugger`: Analyzes and corrects faulty Python scripts.
-- `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# Recent Lessons Learned
-- **Verify State Before Modifying:** My repeated failure to update the notepad was caused by not using the exact 'old_text'. I must verify the current content of a document before attempting a 'replace' action to avoid wasting turns on a task that may have already been completed or is based on a faulty premise.
-- **Deferred Tasks are Forgotten Tasks:** The overwatch critique correctly identified that I deferred fixing the 'route_planner' tool. Any identified bug or necessary maintenance must be performed in the immediate next turn, overriding other gameplay actions.
-
-# Game Mechanics & Systems
-- **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
-
-# STRATEGIC PROTOCOL
-## Puzzle Solving & Logic
-- **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
-
-# NPC Dialogue
-- **COOLTRAINER_F in Ecruteak Pokémon Center:** "MORTY, the GYM LEADER, is soooo cool. His POKéMON are really tough too."
-
-# NPC Dialogue
-- **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
-- **COOLTRAINER_M in EcruteakItemfinderHouse:** Mentioned finding items in the BURNED TOWER.
-- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
-
-# Recent Lessons Learned
-- **Verify Location Post-Warp:** I hallucinated my location after entering the Ecruteak Pokémon Center, causing tool failures. I MUST verify my `current_map_id` and `current_position` after every map transition to prevent this critical error.
