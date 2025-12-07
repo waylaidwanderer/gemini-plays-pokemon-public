@@ -1,36 +1,4 @@
 {
-  "find_reachable_unseen_tiles": {
-    "description": "Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map. It performs a breadth-first search (BFS) from the player's location to identify all traversable unseen tiles.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\nroot = ET.fromstring(map_xml_string)\n\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ngrid_types = [['' for _ in range(width)] for _ in range(height)]\nplayer_x, player_y = -1, -1\n\nfor r_idx, row_elem in enumerate(root.findall('Row')):\n    for t_idx, tile_elem in enumerate(row_elem.findall('Tile')):\n        grid_types[r_idx][t_idx] = tile_elem.get('type')\n        if tile_elem.find('Player') is not None:\n            player_x, player_y = t_idx, r_idx\n\nif player_x == -1:\n    print(json.dumps([]))\nelse:\n    TRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT', 'WATER'}\n    \n    queue = collections.deque([(player_x, player_y)])\n    visited = set([(player_x, player_y)])\n    reachable_unseen = set()\n\n    while queue:\n        x, y = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                neighbor_type = grid_types[ny][nx]\n                if neighbor_type == 'unseen':\n                    reachable_unseen.add((nx, ny))\n                elif (nx, ny) not in visited and neighbor_type in TRAVERSABLE_TYPES:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n\n    # Sort for consistent output\n    sorted_results = sorted(list(reachable_unseen))\n    print(json.dumps([{'x': x, 'y': y} for x, y in sorted_results]))",
-    "history": [
-      {
-        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool addresses a key inefficiency identified during self-reflection by parsing the map XML to find all 'unseen' tiles that are physically reachable from the player's current position. This will filter the noisy system alert into an actionable list for more efficient exploration.",
-        "timestamp": "2025-12-06T17:56:22.400Z",
-        "action_counter": 37062
-      },
-      {
-        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool addresses a key inefficiency identified during self-reflection by parsing the map XML to find all 'unseen' tiles that are physically reachable from the player's current position. This will filter the noisy system alert into an actionable list for more efficient exploration.",
-        "timestamp": "2025-12-06T21:27:06.370Z",
-        "action_counter": 37424
-      },
-      {
-        "commit_message": "fix: Correct player position search logic. The previous version crashed with an AttributeError because it used the non-existent `getparent()` method. This commit, based on the `python_code_debugger` agent's output, implements a robust nested loop to find the player's y-coordinate from the parent Row element's context, resolving the critical crash.",
-        "timestamp": "2025-12-07T03:24:18.024Z",
-        "action_counter": 38207
-      },
-      {
-        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool addresses a key inefficiency identified during self-reflection by parsing the map XML to find all 'unseen' tiles that are physically reachable from the player's current position. This will filter the noisy system alert into an actionable list for more efficient exploration.",
-        "timestamp": "2025-12-07T05:10:20.310Z",
-        "action_counter": 38465
-      },
-      {
-        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool addresses a key inefficiency identified during self-reflection by parsing the map XML to find all 'unseen' tiles that are physically reachable from the player's current position. This will filter the noisy system alert into an actionable list for more efficient exploration.",
-        "timestamp": "2025-12-07T09:20:19.991Z",
-        "action_counter": 38984
-      }
-    ]
-  },
   "route_planner": {
     "description": "A new, reliable pathfinding tool that calculates the shortest path between two points on the current map, avoiding obstacles.",
     "input_schema": {
