@@ -93,7 +93,7 @@
 - **LEDGE_HOP_DOWN:** One-way jump South.
 - **TALL_GRASS:** Walkable (Wild Encounters).
 - **WATER:** Traversable (Surf required).
-- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), Silver Cave Room 1, and Silver Cave Outside (blocking Southbound movement).
+- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), Silver Cave Room 1, Silver Cave Outside, and Victory Road (3_91) at (13, 12) (blocking Southbound movement).
 - **FLOOR_LEFT_WALL:** Directional Wall. Blocks movement to the LEFT. Verified on Celadon Mansion Roof.
 - **FLOOR_RIGHT_WALL:** Directional Wall. Blocks movement to the RIGHT. Verified on Celadon Mansion Roof.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Blocks movement from the Left (cannot walk East through it). Verified on Fuchsia City.
