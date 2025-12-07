@@ -295,3 +295,4 @@
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross.
 - **WHIRLPOOL**: An obstacle in the water at (42, 24) on Route 41. Traversability is currently unknown, but it likely requires a specific HM move to cross.
+- **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
