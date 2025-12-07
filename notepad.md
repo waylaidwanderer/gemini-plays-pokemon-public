@@ -318,3 +318,7 @@
 
 # Reflection Updates (Turn 39036)
 - **UI Parsing Lesson:** My `select_item` and `switch_pokemon` tools repeatedly failed because their parsing logic made rigid assumptions about how text is formatted on-screen (e.g., 'H1' vs 'HM01'). Lesson: All UI automation tools must use robust, flexible parsing (like adaptable regex) that can handle minor variations in text, prefixes, and spacing. Relying on exact string matches for UI elements is a critical point of failure.
+
+# Reflection Updates (Turn 39089)
+- **BUOY**: An impassable object found in water. Functions as a WALL tile.
+- **UI Parsing Lesson (Multi-word names):** My `switch_pokemon` tool failed because its regex `r'([A-Z]+)'` could not parse multi-word names like 'GIB RALTAR'. The fix, `r'([A-Z\s]+)',` correctly includes spaces in the character set. This is a critical lesson for all UI parsing tools: always account for spaces in names and labels.
