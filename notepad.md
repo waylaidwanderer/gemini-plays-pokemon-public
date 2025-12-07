@@ -35,6 +35,7 @@
 - **Trust Verified Tool Outputs:** When a reliable tool like `route_planner` returns a 'No path found' result, it is providing correct, valuable data about the map layout. I must trust this output over my own assumptions and immediately pivot my strategy instead of retrying the failed path. Wasting turns trying to force a non-existent path is a critical error.
 
 ## Navigation & Exploration
+- **Dead End Verification:** Do not declare an entire area a 'dead end' based on a single failed pathfinding attempt, especially to an unseen tile. A 'No path found' result is valuable data, but the area must be systematically and physically explored to be conclusively ruled out. My dismissal of Route 41's eastern channel was a critical strategic error based on insufficient evidence.
 - **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
 - **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
 - **Moving NPC Blockades:** If a path is repeatedly blocked by a moving NPC, stop recalculating the path. The most efficient solution is to use `stun_npc` to freeze them in a favorable position and then proceed.
