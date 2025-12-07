@@ -6,15 +6,15 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Route 28 Exploration
-**Status:** Navigating Eastern Route 28.
-**Objective:** Reach Victory Road Gate (33, 5).
+**Status:** Rerouting to Silver Cave High Ground.
+**Objective:** Find the path to the Route 28 House.
 **Action Plan:**
-1. Navigate to the door at (33, 5).
-2. Determine if Victory Road Gate allows access to Route 28 West (House).
-3. Ascend Mt. Silver.
+1. Fly to Silver Cave (PokeCenter).
+2. Explore the High Ground WEST of the PokeCenter.
+3. Find the hidden entrance to Route 28 West.
 
 ## Route 28 Notes
-- **Geography:** East Section (current) leads to Victory Road Gate. West Section (House) is blocked by ledges (Row 5).
+- **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
 - **Landmarks:** Door to Victory Road Gate at (33, 5).
 
 ## Silver Cave Outside Notes
