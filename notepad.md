@@ -295,3 +295,9 @@
 
 # Core Lessons Learned (Update)
 - **Warp Hallucination:** I hallucinated a warp at (13, 17) in Ecruteak City. I MUST verify a warp's existence in `Game State Information -> Map Events -> Warps` before setting it as a navigation goal to prevent this critical error.
+
+# Tile & Object Mechanics (Update)
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+
+# Core Lessons Learned (Update)
+- **Hallucination Recovery:** When a system warning corrects my location, I must immediately discard my previous flawed plan and re-evaluate my next action based on the correct information. Attempting to continue with a plan based on a hallucinated state is a critical failure.
