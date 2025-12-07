@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Route 28 Exploration
-**Status:** At Victory Road Gate. Heading West to Route 28.
+**Status:** On Route 28. Heading West to Silver Cave.
 **Objective:** Reach Silver Cave.
 **Action Plan:**
 1. Exit West to Route 28.
