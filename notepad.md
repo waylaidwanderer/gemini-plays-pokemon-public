@@ -287,3 +287,10 @@
 # Reflection Updates (Turn 38569)
 - **VOID Tile:** An impassable tile type found at the edges of some maps, functions as a wall.
 - **NPC Challenge Verification:** When a challenge involves multiple similar-looking NPCs (like the Kimono Girls), do not assume they are all trainers. Test each one with interaction to confirm their role before committing to a path, as some may be non-battling characters.
+
+# Custom Tools & Agents
+- **route_planner:** Reliable pathfinding tool.
+- **select_move:** Selects a move in battle.
+- **switch_pokemon:** Switches Pokémon in battle.
+- **python_code_debugger (Agent):** Debugs my Python scripts.
+- **puzzle_solver (Agent):** Helps with in-game puzzles.
