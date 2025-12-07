@@ -9,7 +9,7 @@
 **Status:** Silver Cave Room 1.
 **Objective:** Explore North-West Corridor.
 **Action Plan:**
-1. Nickname Larvitar "BEDROCK".
+1. Nickname Larvitar "BEDROCK" - **Complete.**
 2. Explore the western area (Rows 15-20).
 3. Locate connection to High Ground or other exits.
 
@@ -27,7 +27,7 @@
 ## Silver Cave Room 1 Notes
 - **Geography:** Divided into High Ground (West/North) and Low Ground (Southeast).
 - **Status:** Explored Low Ground (Protein). High Ground access likely via Route 28 or Outside.
-- **Mechanics:** FLOOR_UP_WALL is IMPASSABLE from the North here (confirmed at 8,34).
+- **Mechanics:** FLOOR_UP_WALL at (9, 20) is traversable from the South (climb up) but blocks movement North (one-way ridge).
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
@@ -73,7 +73,7 @@
 - **Key Items:** Passive upgrades (e.g., Radio Card) may not list in inventory.
 
 ### Pokegear & Radio Systems
-- **Menu Layout:** Horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps/clamps. 'B' exits to Overworld.
+- **Menu Layout:** Horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps/clamps. 'B' exits to Overworld. 
 - **Navigation:** Blind inputs unreliable. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3). Use `force_press_button`.
 - **Radio Tuning:** 'A' toggles Manual/Preset. 'Up/Down' cycles presets. 'Right' moves needle manually. Tune to 20.0 for Poké Flute.
 - **Interruption Mechanics:** Receiving a phone call ABSOLUTELY resets the radio frequency to default. Must retune to 20.0 after every call before interacting with Snorlax.
@@ -92,7 +92,7 @@
 - **LEDGE_HOP_DOWN:** One-way jump South.
 - **TALL_GRASS:** Walkable (Wild Encounters).
 - **WATER:** Traversable (Surf required).
-- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), Silver Cave Room 1, Silver Cave Outside, and Victory Road (3_91) at (13, 12) (blocking Southbound movement).
+- **FLOOR_UP_WALL:** Context Dependent. Verified TRAVERSABLE on Victory Road (3_91) at (13, 38). IMPASSABLE in Dragon's Den B1F, Route 10 North, Route 9, Diglett's Cave (3_84) at (12, 24), Route 3 (18, 12), Route 20 (Seafoam), Silver Cave Outside, and Victory Road (3_91) at (13, 12) (blocking Southbound movement). **In Silver Cave Room 1 (9, 20), it is traversable from the South (climb up) but blocks movement North (one-way ridge).**
 - **FLOOR_LEFT_WALL:** Directional Wall. Blocks movement to the LEFT. Verified on Celadon Mansion Roof.
 - **FLOOR_RIGHT_WALL:** Directional Wall. Blocks movement to the RIGHT. Verified on Celadon Mansion Roof.
 - **LEDGE_HOP_LEFT:** One-way jump Left. Blocks movement from the Left (cannot walk East through it). Verified on Fuchsia City.
