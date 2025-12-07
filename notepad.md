@@ -24,7 +24,7 @@
 ## Core Lessons Learned
 - **Verify State Before Modifying:** My repeated failure to update the notepad was caused by not using the exact 'old_text'. I must verify the current content of a document before attempting a 'replace' action to avoid wasting turns on a task that may have already been completed or is based on a faulty premise.
 - **Deferred Tasks are Forgotten Tasks:** The overwatch critique correctly identified that I deferred fixing the 'route_planner' tool. Any identified bug or necessary maintenance must be performed in the immediate next turn, overriding other gameplay actions.
-- **Verify Location Post-Warp:** I hallucinated my location after entering the Ecruteak Pokémon Center, causing tool failures. I MUST verify my `current_map_id` and `current_position` after every map transition to prevent this critical error.
+- **Verify Location Post-Warp/Event:** I hallucinated my location after leaving the mart, which was interrupted by a phone call. I MUST verify my `current_map_id` and `current_position` after every map transition or unexpected event to prevent critical planning failures.
 - **Immediate Data Hygiene is Non-Negotiable:** Forgetting to mark the defeated Sage at (2, 7) caused me to waste multiple turns attempting to re-battle him. All defeated trainers, used warps, and confirmed dead ends MUST be marked immediately.
 - **Trust Agent for Tool Repair:** My manual attempts to fix `select_move` and `switch_pokemon` repeatedly failed. Escalating to the `python_code_debugger` agent was the correct and most efficient way to get a robust solution. Do not get stuck in a loop of failed manual debugging.
 - **Trust Observation Over Faulty Agents:** If an agent provides a solution that contradicts the observable game state (e.g., suggesting a path through a wall), the agent's logic is flawed. I must trust my own direct observation and prioritize refining the faulty agent over attempting to follow an impossible instruction.
@@ -72,6 +72,7 @@
 - **Trust Physical Evidence Over Dialogue:** A sign on Route 39 claimed it connected to Ecruteak City. My initial exploration suggested the path north was a dead end, but this was incorrect. The path does continue north, connecting to Route 38. Lesson: Thoroughly explore all paths before concluding they are dead ends.
 - **Interaction Pre-check:** Before pressing 'A' to interact with any NPC or object, I must first perform a pre-check: verify my character is standing on an adjacent tile AND is facing the target directly. Wasting a turn on a failed interaction due to poor positioning is a critical error.
 - **Safe Interaction Positioning:** When planning to interact with the tile you are standing on (e.g., searching for a hidden switch), first turn to face a solid, non-hazardous adjacent tile (like a WALL) before pressing 'A'. This prevents accidental movement into hazards like pits.
+- **NPC Movement Triggers:** Moving NPCs may not move on a passive timer. Their movement can be triggered by the player's proximity or by walking into their line of sight. If an NPC is blocking a path, attempting to approach them can be a valid strategy to make them move.
 
 ## Tool & Agent Management
 - **Tool Definition Errors:** If `define_tool` fails with an 'identical script' error, it means the proposed change has already been successfully applied in a previous turn. Do not retry the same definition; proceed with the next action.
@@ -85,6 +86,7 @@
 - **Tool Maintenance Protocol:** If a tool fails, it MUST be fixed immediately. Do not attempt to re-use a known faulty tool. After applying a fix, especially one from an agent, the tool's functionality must be verified with a simple, direct test case before being trusted for critical tasks. Repeated failures indicate a deeper issue with the tool's logic or its underlying assumptions (like a hardcoded list being incorrect).
 
 ## Battle & Resource Management
+- **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
 - **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
 - **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
 - **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
@@ -297,6 +299,7 @@
 - **select_item:** Automates selecting a specific item from the bag menu.
 - **python_code_debugger (Agent):** Debugs my Python scripts.
 - **puzzle_solver (Agent):** Helps with in-game puzzles.
+- **select_battle_option:** (Built-in) Selects a main battle menu option (FIGHT, PKMN, PACK, RUN).
 
 # Reflection Updates (Turn 38621)
 - **WALL Tile:** A standard, impassable tile type that blocks movement.
