@@ -121,7 +121,7 @@
         "inventory"
       ]
     },
-    "python_script": "import json\nimport re\n\ninventory = input_data['inventory']\nitem_to_select = input_data['item_to_select']\ncurrent_screen_text = input_data['current_screen_text']\n\nlines = current_screen_text.split('\\n')\n\ncursor_item = None\nitem_pattern = re.compile(r'([A-Z][A-Z\\s-]+[A-Z0-9])')\n\nfor line in lines:\n    if '▶' in line:\n        potential_items = item_pattern.findall(line)\n        for potential in potential_items:\n            item_name = potential.strip()\n            if item_name in inventory:\n                cursor_item = item_name\n                break\n    if cursor_item:\n        break\n\nif cursor_item is None:\n    print(json.dumps([]))\nelse:\n    try:\n        current_index = inventory.index(cursor_item)\n        target_index = inventory.index(item_to_select)\n        n = len(inventory)\n\n        # Calculate shortest path in a circular list\n        down_moves = (target_index - current_index + n) % n\n        up_moves = (current_index - target_index + n) % n\n\n        moves = []\n        if down_moves <= up_moves:\n            moves.extend([\"Down\"] * down_moves)\n        else:\n            moves.extend([\"Up\"] * up_moves)\n            \n        print(json.dumps(moves))\n    except ValueError:\n        print(json.dumps([]))",
+    "python_script": "import json\nimport re\n\nitem_to_select = input_data['item_to_select']\ncurrent_screen_text = input_data['current_screen_text']\n\nlines = current_screen_text.split('\\n')\n\nvisible_items = []\ncursor_index = -1\n\nitem_pattern = re.compile(r'(.+?)\\s+x\\d+')\n\nfor line in lines:\n    match = item_pattern.search(line)\n    if match:\n        item_name = match.group(1).replace('▶', '').strip()\n        visible_items.append(item_name)\n\n        if '▶' in line:\n            cursor_index = len(visible_items) - 1\n\nmoves = []\n\nif cursor_index != -1:\n    if item_to_select in visible_items:\n        target_index = visible_items.index(item_to_select)\n        \n        diff = target_index - cursor_index\n        \n        if diff > 0:\n            moves.extend([\"Down\"] * diff)\n        elif diff < 0:\n            moves.extend([\"Up\"] * abs(diff))\n    \n    else:\n        moves.append(\"Down\")\n\nprint(json.dumps(moves))",
     "history": [
       {
         "commit_message": "feat: Create select_item tool to automate bag navigation. This tool addresses a major inefficiency identified after manually searching for a SUPER POTION. It parses the screen text to find the current cursor and target item, then generates the necessary button presses. This aligns with the 'DEFAULT TO AUTOMATION' principle and will save significant time in the future.",
@@ -332,6 +332,11 @@
         "commit_message": "fix: Overhaul pathfinding with modular arithmetic for circular menus. The tool was catastrophically failing by using linear pathfinding on a circular list, generating extremely long and incorrect move sequences. This commit implements shortest-path logic using modular arithmetic to correctly calculate the most efficient path in either direction, resolving the critical navigation failure.",
         "timestamp": "2025-12-07T18:20:30.486Z",
         "action_counter": 40034
+      },
+      {
+        "commit_message": "fix: Overhaul with agent-designed logic to remove faulty master list. The tool was catastrophically failing because it relied on a hallucinated, hardcoded item list. This commit implements the `python_code_debugger` agent's robust fix, which removes the master list entirely and instead parses the visible screen to calculate moves. If an item is off-screen, it now scrolls down iteratively, making the tool reliable and based on actual game data. This resolves the critical navigation failure.",
+        "timestamp": "2025-12-07T18:26:11.764Z",
+        "action_counter": 40037
       }
     ]
   },
