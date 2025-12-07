@@ -17,12 +17,18 @@
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
 - **Silver Cave Room 1:** The Central Plateau (accessed via entrance at 18,11) is a DEAD END containing an Ultra Ball. The Northern and Western sections are walled off from this central area. Must find a different entrance.
 
-## Route 28 Notes
-- **Geography:** East Section connects to Victory Road Gatehouse.
-- **West Section (Secret Area):** Accessed via path from Silver Cave Outside (cut tree at 31, 24).
-  - **Celebrity House:** Located at (7, 3). Contains Cooltrainer F (gives TM47 Steel Wing) and a Fearow (uses Moltres sprite).
-- **Landmarks:** Door to Victory Road Gate at (33, 5).
-- **West Exit:** Path at (0, 13) leads to Silver Cave Outside (East Plateau).
+## Route 28 Master Log
+- **Geography:** Complex map with isolated sections.
+  - **West (Secret Area):** Accessible from Silver Cave Outside. Contains Celebrity House. Loop leads back to Silver Cave Outside.
+  - **East (Gatehouse Area):** Accessible from Victory Road Gate. Dead end.
+  - **South-East (Secluded):** Visually present but currently inaccessible from Route 28. Confirmed High Plateau Ridge is a WALL.
+- **Landmarks:**
+  - **Celebrity House:** (7, 3). TM47 Steel Wing.
+  - **Victory Road Gate Connection:** (33, 5).
+- **Dead Ends Confirmed:**
+  - **High Plateau Ridge (31, 12):** Wall.
+  - **Southern Water Channel (27, 15):** Dead end.
+  - **Eastern Path (35, 6):** Dead end.
 
 ## Silver Cave Outside Notes
 - **PokeCenter:** (23, 19). Fly Destination. High Ground.
