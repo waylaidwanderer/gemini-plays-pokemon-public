@@ -30,7 +30,7 @@
   - High Ground accessible via gaps in ledges at (25, 27) and (23, 23).
   - Route 28 Entrance at Southeast corner (39, 31).
   - **Path North:** Tree cut at (31, 24). Leads to corridor at (39, 21).
-  - **Western Entrance:** Likely accessed via Surf or Route 28 West.
+  - **Western Entrance:** Theory disproven. Route 28 West loops back to Silver Cave Outside (East). Entrance must be inside main cave.
 - **Encounters:** Ponyta, Tangela, Rapidash.
 
 ## Silver Cave Room 1 Notes
