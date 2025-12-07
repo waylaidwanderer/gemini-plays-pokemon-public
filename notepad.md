@@ -357,7 +357,7 @@
 - **Capture Sequence:** In this version, the Nickname prompt appears **BEFORE** the 'Sent to Bill's PC' message, even if the party is full. Do not assume auto-transfer skips the nickname.
 - Capture Mechanic: Nickname prompt occurs BEFORE transfer to PC, regardless of party size.
 ## Route 28 Secret Area
-- **Access:** Via secret path from Silver Cave Outside (cut tree at 34, 23).
+- **Access:** Via secret path from Silver Cave Outside (cut tree at 31, 24).
 - **Steel Wing House (19_4):** Located at (7, 3) in the secret area.
   - **NPC:** Cooltrainer F (Celebrity?). Gave TM47 (Steel Wing). Asked for secrecy.
   - **Object:** Fearow (uses Moltres sprite).
