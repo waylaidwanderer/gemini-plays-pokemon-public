@@ -805,5 +805,27 @@
         "action_counter": 39254
       }
     ]
+  },
+  "interact_with_object": {
+    "description": "Automates moving to and interacting with a target object. It finds the object by its ID, calculates a path to the tile directly below it, turns to face up, and presses 'A'. This is for standard, non-counter interactions.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_object_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_object_id"
+      ]
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ntarget_object_id = input_data['target_object_id']\nroot = ET.fromstring(map_xml_string)\n\n# Find player and target coordinates\nplayer_x, player_y = -1, -1\ntarget_x, target_y = -1, -1\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if tile_elem.find('.//Player') is not None:\n            player_x, player_y = x, y\n        target_obj = tile_elem.find(f\".//Object[@id='{target_object_id}']\")\n        if target_obj is not None:\n            target_x, target_y = x, y\n\nif player_x == -1 or target_x == -1:\n    print(json.dumps([]))\nelse:\n    interaction_x, interaction_y = target_x, target_y + 1\n\n    # BFS Pathfinding Logic (copied from route_planner)\n    max_x = max(int(tile.get('id')) for row in root.findall('Row') for tile in row.findall('Tile'))\n    max_y = max(int(row.get('id')) for row in root.findall('Row'))\n    width, height = max_x + 1, max_y + 1\n\n    TRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT', 'WATER'}\n    grid = [['WALL' for _ in range(width)] for _ in range(height)]\n\n    for r_elem in root.findall('Row'):\n        y_coord = int(r_elem.get('id'))\n        for t_elem in r_elem.findall('Tile'):\n            x_coord = int(t_elem.get('id'))\n            tile_type = t_elem.get('type')\n            has_object = t_elem.find('.//Object') is not None and not (x_coord == player_x and y_coord == player_y)\n            if tile_type in TRAVERSABLE_TYPES and not has_object:\n                grid[y_coord][x_coord] = tile_type\n\n    def bfs(grid, start, end):\n        h, w = len(grid), len(grid[0])\n        if not (0 <= end[1] < h and 0 <= end[0] < w and grid[end[1]][end[0]] != 'WALL'):\n            return None # Target is invalid\n        queue = collections.deque([[start]])\n        seen = {start}\n        while queue:\n            path = queue.popleft()\n            x, y = path[-1]\n            if (x, y) == end:\n                return path\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if 0 <= ny < h and 0 <= nx < w and (nx, ny) not in seen and grid[ny][nx] != 'WALL':\n                    seen.add((nx, ny))\n                    new_path = list(path)\n                    new_path.append((nx, ny))\n                    queue.append(new_path)\n        return None\n\n    path = bfs(grid, (player_x, player_y), (interaction_x, interaction_y))\n\n    if path:\n        buttons = []\n        for i in range(len(path) - 1):\n            cx, cy = path[i]\n            nx, ny = path[i+1]\n            if nx > cx: buttons.append('Right')\n            elif nx < cx: buttons.append('Left')\n            elif ny > cy: buttons.append('Down')\n            elif ny < cy: buttons.append('Up')\n        buttons.append('Up') # Turn to face the object\n        buttons.append('A')  # Interact\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create interact_with_object tool. This tool automates the common, error-prone sequence of moving to an object, turning to face it, and pressing 'A'. It combines object location parsing with BFS pathfinding to generate a complete button sequence, streamlining NPC interactions and reducing manual errors.",
+        "timestamp": "2025-12-07T11:50:32.712Z",
+        "action_counter": 39302
+      }
+    ]
   }
 }
