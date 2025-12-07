@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Blastoise Active. Basalt Revived. Paprika Active. Strategy: Switch to Basalt next turn.
+**Status:** BATTLE VS RED. Blastoise Active. Revive failed (input error). Retrying Revive on Basalt. Paprika Active.
 **Objective:** DEFEAT RED.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
