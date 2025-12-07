@@ -292,6 +292,8 @@
 - **route_planner:** Reliable pathfinding tool.
 - **select_move:** Selects a move in battle.
 - **switch_pokemon:** Switches Pokémon in battle.
+- **find_reachable_unseen_tiles:** Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
+- **select_item:** Automates selecting a specific item from the bag menu.
 - **python_code_debugger (Agent):** Debugs my Python scripts.
 - **puzzle_solver (Agent):** Helps with in-game puzzles.
 
