@@ -307,3 +307,6 @@
 ## Core Principles & Planning (New Lessons)
 - **Warp Hallucination Prevention:** I have repeatedly hallucinated warps that do not exist (e.g., at map transitions or by misremembering building locations). Before setting ANY navigation goal that involves a warp, I MUST first verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the current map. This is a non-negotiable step to prevent critical navigation failures.
 - **Trust Verified Tool Outputs:** When a reliable tool like `route_planner` returns a 'No path found' result, it is providing correct, valuable data about the map layout. I must trust this output over my own assumptions and immediately pivot my strategy instead of retrying the failed path. Wasting turns trying to force a non-existent path is a critical error.
+
+## Navigation & Exploration (New Lessons)
+- **Route 39 One-Way Path:** Route 39 is a one-way path south due to a series of ledges. It is impossible to travel north through this route from the Olivine City entrance.
