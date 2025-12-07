@@ -5,13 +5,17 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-## Current Mission: Kanto Journey
-**Status:** Exploring Route 28.
-**Objective:** Loot items and find the path to Mt. Silver Summit.
+## Current Mission: Route 28 Exploration
+**Status:** Navigating Eastern Route 28.
+**Objective:** Reach Victory Road Gate (33, 5).
 **Action Plan:**
-1. Explore Route 28 for rare items and TMs.
-2. Return to Silver Cave to ascend to the summit.
-3. Defeat Red.
+1. Navigate to the door at (33, 5).
+2. Determine if Victory Road Gate allows access to Route 28 West (House).
+3. Ascend Mt. Silver.
+
+## Route 28 Notes
+- **Geography:** East Section (current) leads to Victory Road Gate. West Section (House) is blocked by ledges (Row 5).
+- **Landmarks:** Door to Victory Road Gate at (33, 5).
 
 ## Silver Cave Outside Notes
 - **PokeCenter:** (23, 19). Fly Destination. High Ground.
