@@ -6,11 +6,11 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** Silver Cave Room 1.
-**Objective:** Find Red.
+**Status:** Silver Cave Room 1. Battling Larvitar.
+**Objective:** Catch Larvitar.
 **Action Plan:**
-1. Explore Room 1 Northbound.
-2. Locate path to High Ground or next room.
+1. Throw Great Balls until caught.
+2. Explore Room 1 Westbound to (5, 21).
 
 ## Route 28 Notes
 - **Geography:** East Section connects to Victory Road Gatehouse (Shortcut to League). West Section (House) is inaccessible from here.
