@@ -513,25 +513,30 @@
     ]
   },
   "press_sequence": {
-    "description": "Executes a custom sequence of button presses defined by a comma-separated string. Useful for navigating menus or executing complex combos that involve multiple different buttons.",
+    "description": "Executes a custom sequence of button presses defined by a comma-separated string. Robustly handles whitespace. Valid buttons: A, B, Up, Down, Left, Right, Start, Select.",
     "input_schema": {
       "type": "object",
       "properties": {
         "sequence": {
           "type": "string",
-          "description": "Comma-separated list of buttons and sleep commands (e.g. 'A, sleep 500, Down, sleep 500, B'). Valid buttons: A, B, Up, Down, Left, Right, Start, Select."
+          "description": "Comma-separated list of buttons and sleep commands (e.g. 'A, sleep 500, Down')."
         }
       },
       "required": [
         "sequence"
       ]
     },
-    "python_script": "import json\n# Split the input string by comma and strip whitespace from each element\nbuttons = [x.strip() for x in input_data['sequence'].split(',')]\nprint(json.dumps(buttons))",
+    "python_script": "import json\nsequence = input_data['sequence']\nbuttons = []\nparts = sequence.split(',')\nfor part in parts:\n    clean_part = part.strip()\n    if clean_part:\n        buttons.append(clean_part)\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create press_sequence tool to allow execution of complex, mixed-button sequences in a single turn, overcoming the limitations of force_press_button (single button type) and run_code (no autopress).",
         "timestamp": "2025-12-06T08:59:06.250Z",
         "action_counter": 21796
+      },
+      {
+        "commit_message": "fix: Strip whitespace from input components to ensure reliable parsing. Previous version likely failed on inputs like 'Up, A' due to leading spaces.",
+        "timestamp": "2025-12-07T20:45:07.508Z",
+        "action_counter": 23841
       }
     ]
   },
