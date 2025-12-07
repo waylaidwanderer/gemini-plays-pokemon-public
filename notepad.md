@@ -4,11 +4,6 @@
 - I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 - I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
-- My memory is unreliable. The Game State Information is the absolute source of truth.
-- I MUST verify my `current_map_id` and `current_position` from the Game State Information before EVERY single action, especially before using coordinate-based tools or setting navigation goals.
-- I MUST verify a warp's existence in the `Game State Information -> Map Events -> Warps` list before assuming it's a valid warp.
-- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
-- I must verify my location after every map transition or system warning to prevent hallucinations from compounding.
 
 # STRATEGIC PROTOCOL
 
@@ -126,7 +121,7 @@
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
-- **PIT**: Can function as a one-way warp (Olivine Lighthouse) or an inactive puzzle element (Burned Tower). In the Burned Tower, the pits at (5, 5) and (15, 5) do not activate by stepping on them or pressing 'A'. They likely require an external trigger.
+- **PIT**: Can function as a one-way warp (Olivine Lighthouse) or an inactive puzzle element (Burned Tower). In the Burned Tower, the pits at (5, 5) and (15, 5) do not activate by stepping on them or pressing 'A'. They likely require an external trigger, which was confirmed to be defeating my rival.
 - **PLANT**: A decorative object that functions as an impassable WALL tile.
 - **RADIO**: An impassable object.
 - **SIGN**: An impassable, interactable object. Functions as a wall.
@@ -253,6 +248,7 @@
 - **Hypothesis 1 (Pits are step-on warps):** FAILED. Stepping on the pit at (5, 14) did not trigger a warp.
 - **Hypothesis 2 (Pits are 'A' press warps):** FAILED. Pressing 'A' while standing on the pit at (5, 14) did not trigger a warp.
 - **Hypothesis 3 (Boulders are obstacles):** The boulders in the tower might be movable with Strength, opening new paths.
+- **Puzzle Solution:** Defeating my rival, SILVER, on the first floor caused the floor to collapse, revealing the basement and the legendary beasts.
 
 # Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
@@ -271,22 +267,6 @@
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 # Custom Tools & Agents
-## Custom Tools
-- `route_planner`: Calculates the shortest path between two points on the current map.
-- `find_reachable_unseen_tiles`: Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
-
-## Custom Agents
-- `python_code_debugger`: Analyzes and corrects faulty Python scripts.
-- `puzzle_solver`: Generates new hypotheses for in-game puzzles.
-
-# Puzzle Solver Agent - Olivine Blockade
-- **Hypothesis #1 (Cafe NPC):** FAILED. Spoke to the sailor at (4, 3) in the Olivine Cafe after meeting Jasmine. His dialogue was unchanged and he did not provide a new item or path.
-- **Local Solutions:** When a quest is presented in a specific location (e.g., a sick Miltank at Moomoo Farm), the solution is very likely found within that same immediate area. Do not assume a long journey to another location is required unless explicitly directed.
-- **PIT (Burned Tower):** The pit at (15, 5) does not activate by stepping on it or by pressing 'A' while standing on it. This confirms it is not a simple warp.
-- **ROCK (Burned Tower):** The rock at (15, 4) cannot be pushed north with Strength. This hypothesis has failed.
-- **PIT (Burned Tower, (5, 5)):** The pit does not activate by stepping on it or by pressing 'A' while standing on it. This confirms it is not a simple warp.
-
-# CORRECTED Custom Tools & Agents (Turn 37773)
 ## Custom Tools
 - `route_planner`: Calculates the shortest path between two points on the current map.
 - `find_reachable_unseen_tiles`: Finds all 'unseen' tiles that are actually reachable from the player's current position on the current map.
