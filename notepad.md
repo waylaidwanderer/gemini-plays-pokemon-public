@@ -260,6 +260,7 @@
 
 ### Custom Tools
 - `find_true_reachable_unseen_tiles`
+- `find_true_reachable_unseen_tiles`
 - `route_planner`
 - `select_item`
 - `select_move`
