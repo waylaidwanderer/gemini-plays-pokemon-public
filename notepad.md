@@ -223,12 +223,7 @@
 - **Mechanic:** Invisible walls are explicitly marked as `WALL` in map data.
 - **Status:** Soul Badge Obtained. Janine & Impostors defeated.
 ## Route 19
-- **Structure:** Split into East (Dead End) and West (Path to Seafoam) sections.
-- **East Entrance:** Located at Fuchsia (7, 35). Leads to a dead end.
-- **Route 19 Access:** Use the Gatehouse at (7, 35). Inside, exit via the **LEFT DOOR** to reach the traversable West side.
-- **Route 19 Access:** Confirmed separate lanes in gatehouse. West lane (x=4) leads to Route 19 West. East lane (x=5) leads to Dead End.
-- **Route 19 Correction:** Both gatehouse exits (x=4 and x=5) lead to the same warp at Route 19 (7, 3), which deposits the player on the East (Dead End) side. The West side (with ledges) is inaccessible from this warp. Path North at x=10 needs investigation.
-- Fly Map Navigation: At Fuchsia City, 'Left' input resulted in no change (remained at Fuchsia).
+- **Summary:** Explored. East side is a dead end. West side access confirmed tricky.
 ## Route 15
 - **Structure:** Split into Upper (North) and Lower (South) paths.
 - **Upper Path:** Westbound only (Ledges jump Left).
