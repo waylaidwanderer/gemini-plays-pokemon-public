@@ -420,3 +420,15 @@
 **Outcome:** Defeat.
 **Lesson:** Level 20 opponents have fully optimized TMs (Blizzard, Hyper Beam, Earthquake). My team (Lv15-19) is too underleveled and frail.
 **Next Step:** Train team to Level 20 on Route 38/39. Find BERRY for Moomoo Farm.
+
+# Battle Tower Challenge (Run 4 Prep)
+**Goal:** Train to Level 20 cap.
+**Target Team:**
+- Basalt (Geodude): Physical Sweeper. Needs Grind to Lv20.
+- Vortex (Pidgeotto): Pivot/Support (Fly/Sand-Attack). Needs Grind to Lv20.
+- Bahamut (Dratini): Resistances/Paralysis Support. Needs Grind to Lv20.
+**Agent Advice:** Avoid Larvitar (compounds Water/Grass weakness). Use Dratini for resists.
+**ToDo:**
+1. Talk to NPCs outside Tower.
+2. Go to Route 38/39 to grind.
+3. Find BERRY for Moomoo Farm.
