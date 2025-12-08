@@ -404,3 +404,8 @@
 - **Party Adjustment:** Depositing Paprika (Lv75) and Bahamut (Lv15) to form a valid 3-mon team (Bedrock, Basalt, Vortex).
 - **Battle Tower Menu:** Level 20 is accessible by pressing **UP** from the default 'L:10' start position. The menu wraps or is inverted.
 - **Battle Tower Success:** Successfully entered Level 20 by pressing **UP** at the level selection screen. The menu wraps.
+
+# Battle Tower: Level 20 Challenge
+- **Round 1:** vs Lass Thornton
+  - Opponent: Starmie (Lv20)
+  - Strategy: Vortex lead. Use Sand-Attack to counter speed/power advantage.
