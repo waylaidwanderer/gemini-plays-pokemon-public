@@ -339,3 +339,6 @@ if path_found:
 else:
     print(json.dumps("No path found"))
 ```
+## Tile & Object Mechanics Update
+- **FLOOR_UP_WALL (Updated):** Functions as a one-way ledge. It is impassable when trying to move *up* onto it, but traversable when moving *down* off of it.
+- **LADDER (Updated):** Activation can be complex. Stepping onto a ladder tile from an adjacent `FLOOR_UP_WALL` tile above it has been confirmed to trigger the warp.
