@@ -308,3 +308,4 @@
 - **delete_agent:** Built-in tool to delete custom agents.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **NPC Repositioning:** An NPC moving does not guarantee a path is clear. They may simply move to a new blocking position, requiring a different solution (e.g., SILVER on Route 40).
+- **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
