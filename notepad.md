@@ -309,3 +309,10 @@
 - **delete_agent:** Built-in tool to delete custom agents.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
+
+### Cianwood Gym Puzzle
+- **Hypothesis 1:** The two remaining trainers at (3, 12) and (5, 12) must be defeated to progress.
+- **Test 1:** Interacted with both trainers from adjacent tiles.
+- **Result 1:** Both trainers only provide dialogue hints ('Fighting POKéMON are afraid of psychics…') and do not initiate battles. **Hypothesis 1 is FALSE.**
+- **Hypothesis 2:** The boulders that appeared at (3, 7), (4, 7), and (5, 7) must be moved using the HM move STRENGTH to clear the path to the Gym Leader.
+- **Test 2 Plan:** Move to a position adjacent to one of the boulders (e.g., (5, 8)) and attempt to use STRENGTH via the party menu.
