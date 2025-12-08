@@ -3,6 +3,14 @@
 
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION & POSITIONAL VERIFICATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
+- **Before EVERY navigational action, goal setting, or use of a pathfinding tool:**
+  1. I MUST verify my `current_map_id` and `current_position` from the Game State Information.
+  2. If the goal involves a warp, I MUST verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the **current map** and that the tile has `is-warp="true"` in the map XML before planning a route to it. Never assume a map transition exists based on map shape or common game tropes.
+- **After EVERY map transition, system warning, or unexpected event (e.g., phone call):**
+  1. I MUST immediately re-verify my `current_map_id` and `current_position`.
+  2. I MUST discard any previous plan based on a now-invalidated location and re-evaluate my next action from the correct state.
+- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns. Trusting my own memory leads to critical hallucinations.
+- My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
 - **Before EVERY navigational action or goal setting:**
   1. I MUST verify my `current_map_id` and `current_position`.
   2. If the goal involves a warp, I MUST verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the **current map** and that the tile has `is-warp="true"` in the map XML before planning a route to it. Never assume a map transition exists based on map shape or common game tropes.
