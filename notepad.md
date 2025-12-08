@@ -306,3 +306,6 @@
 # STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
 - **IMMEDIATE DATA HYGIENE (CRITICAL):** All discoveries, such as confirmed dead ends, defeated trainers, or used warps, MUST be marked on the map immediately. Deferring this task, as I did with the Route 41 dead end, leads to wasted time and repeated mistakes. This is a non-negotiable protocol.
 - **MAP CONTEXT AWARENESS (ANTI-HALLUCINATION):** I must verify my `current_map_id` from the Game State Information *before* setting a navigation goal that involves coordinates on a different map. My recent hallucination of a warp on Route 41 (which is actually in Olivine City) was caused by a failure to confirm my current location before planning.
+
+## STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
+- **Trust Documented Knowledge:** My own memory and intuition about game mechanics can be flawed (e.g., the SURF orientation issue). I must prioritize trusting my verified, documented knowledge in the notepad over assumptions. If there's a conflict, I must re-test the mechanic to confirm, but the default assumption should be that my notes are correct.
