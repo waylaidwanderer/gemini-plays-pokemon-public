@@ -119,6 +119,7 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 - **Type Effectiveness:** Fire is 0.5x effective against Water/Ground (not 0.25x).
 - **Weather:** Rain Dance reduces Fire-type damage by 50%.
+- **Gen 2 Mechanics:** Dark is Special (e.g. Bite). Ghost is Physical.
 
 ## Strategy Notes
 - **Surfing:** Pathfinding must strictly separate Land/Water.
