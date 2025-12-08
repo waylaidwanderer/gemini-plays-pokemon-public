@@ -5,10 +5,16 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-## 🏆 MISSION ACCOMPLISHED: RED DEFEATED 🏆
-**Status:** VICTORY! Red has been defeated atop Mt. Silver.
-**MVP:** Paprika (Typhlosion Lv75) - The Godslayer.
-**Objective:** Watch Credits & Celebrate.
+# 🏆 POKÉMON CRYSTAL: COMPLETED 🏆
+**Final Status:** Red Defeated. 16 Badges. Pokedex: 13.
+**The Champion Team:**
+- **Paprika (Typhlosion Lv75):** The MVP. Burned Snorlax, roasted Venusaur.
+- **Basalt (Geodude):** Reliable support.
+- **Vortex (Pidgeotto):** The Flyer.
+- **Bahamut (Dratini):** The Future.
+- **XQH (Sandshrew) & F (Psyduck):** The Cut/Surf/Whirlpool squad.
+
+**Mission Complete.** Time to rest.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
 - **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
