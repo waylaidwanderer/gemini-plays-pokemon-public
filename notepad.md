@@ -299,7 +299,12 @@
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
 - **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
-- **select_battle_option:** Built-in tool to select a main battle menu option.
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
+- **stun_npc:** Built-in tool to stop/resume NPC movement.
+- **define_tool:** Built-in tool to create new reusable tools.
+- **delete_tool:** Built-in tool to delete custom tools.
+- **define_agent:** Built-in tool to create new agents.
+- **delete_agent:** Built-in tool to delete custom agents.
+- **select_battle_option:** Built-in tool to select a main battle menu option.
 - **NPC Repositioning:** An NPC moving does not guarantee a path is clear. They may simply move to a new blocking position, requiring a different solution (e.g., SILVER on Route 40).
