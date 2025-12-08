@@ -9,7 +9,7 @@
 - **After EVERY map transition, system warning, or unexpected event (e.g., phone call):**
   1. I MUST immediately re-verify my `current_map_id` and `current_position`.
   2. I MUST discard any previous plan based on a now-invalidated location and re-evaluate my next action from the correct state.
-- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
+- Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns. Trusting my own memory leads to critical hallucinations.
 
 # STRATEGIC PROTOCOL
 
@@ -254,7 +254,6 @@
 - **delete_agent:** Built-in tool to delete custom agents.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
 - **select_item:** Custom tool to select an item from the bag.
-- **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 
 ## Ongoing Investigations
@@ -273,7 +272,3 @@
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
 ## Lessons Learned
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
-## Lessons Learned
-- **Positional Verification is Critical:** After a map transition, system warning, or any unexpected event, I must immediately re-verify my `current_map_id` and `current_position` from the Game State Information. Trusting my own memory leads to critical hallucinations and wasted turns.
-## Lessons Learned
-- **Positional Verification is Critical:** After a map transition, system warning, or any unexpected event, I must immediately re-verify my `current_map_id` and `current_position` from the Game State Information. Trusting my own memory leads to critical hallucinations and wasted turns.
