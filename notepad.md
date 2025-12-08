@@ -416,3 +416,6 @@
 **Current Battle:** vs Juggler Fairfield (Tauros).
 - Basalt switched in on Hyper Beam. Tauros recharging. Free hit!
 - Turn 2: Basalt used Magnitude 9. Massive damage. Tauros in critical range. Basalt at 24/51 HP.
+- Turn 3: Tauros used Blizzard (Super Effective). Basalt Fainted.
+- Tauros Moves: Hyper Beam, Blizzard.
+- Sending Bahamut (Dratini) for Extremespeed cleanup.
