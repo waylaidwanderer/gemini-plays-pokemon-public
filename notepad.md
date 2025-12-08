@@ -72,7 +72,10 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
-- **FLOOR_UP_WALL**: Confirmed impassable when trying to move onto it from an adjacent tile below.
+- **FLOOR_UP_WALL**: Confirmed impassable from below. In-game movement attempts to move DOWN onto this tile from adjacent `FLOOR` and `WATER` tiles have both failed. It should be treated as a solid wall until proven otherwise.
+
+## Lessons Learned from Errors
+- **Trust In-Game Proof over Assumptions:** A failed movement attempt is definitive proof of a tile's impassability under those specific conditions. This empirical evidence MUST override any personal assumptions based on tile names (e.g., "ledge") or common RPG tropes. My `route_planner` failed repeatedly because I coded it based on a faulty assumption about `FLOOR_UP_WALL` instead of verifying the mechanic in-game first.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
