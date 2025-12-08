@@ -248,7 +248,7 @@
 - `route_planner`
 - `select_move`
 - `switch_pokemon`
-- `find_reachable_unseen_tiles`
+- `find_true_reachable_unseen_tiles`
 - `select_item`
 
 ### Custom Agents
