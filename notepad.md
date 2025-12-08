@@ -382,3 +382,4 @@
 # Post-Game Exploration
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
 **Current Objective:** Fly to Goldenrod City (GS Ball check).
+- GS Ball event didn't trigger on exit. Checking PC storage.
