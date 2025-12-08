@@ -432,3 +432,4 @@
 1. Talk to NPCs outside Tower.
 2. Go to Route 38/39 to grind.
 3. Find BERRY for Moomoo Farm. Search locations: Route 29 (Pink Tree), Route 30, Route 38, Route 46.
+- Battle Tower Tip: Winning a 'whole lot' of battles awards special gifts (Rocker).
