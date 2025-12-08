@@ -72,16 +72,13 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
-- **FLOOR_UP_WALL**: Confirmed impassable from below. In-game movement attempts to move DOWN onto this tile from adjacent `FLOOR` and `WATER` tiles have both failed. It should be treated as a solid wall until proven otherwise.
-
-## Lessons Learned from Errors
-- **Trust In-Game Proof over Assumptions:** A failed movement attempt is definitive proof of a tile's impassability under those specific conditions. This empirical evidence MUST override any personal assumptions based on tile names (e.g., "ledge") or common RPG tropes. My `route_planner` failed repeatedly because I coded it based on a faulty assumption about `FLOOR_UP_WALL` instead of verifying the mechanic in-game first.
+- **FLOOR_UP_WALL**: Confirmed impassable from below and from the side. My tool's logic was based on the faulty assumption it was a one-way ledge, but in-game movement attempts to move DOWN onto this tile from an adjacent `FLOOR` tile and from the side have both failed. It should be treated as a solid wall until proven otherwise.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
 - **INCENSE_BURNER**: An impassable decorative object.
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent.
+- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent. Activation can be complex. Stepping onto a ladder tile from an adjacent `FLOOR_UP_WALL` tile above it has been confirmed to trigger the warp.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
 - **LEDGE_HOP_LEFT**: A one-way traversable tile that can only be moved across from right to left.
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
@@ -261,8 +258,7 @@
 - `select_battle_option`
 
 ### Custom Tools
-- `find_true_reachable_unseen_tiles`
-- `route_planner`
+- `advanced_route_planner`
 - `select_item`
 - `select_move`
 - `switch_pokemon`
@@ -341,10 +337,7 @@ if path_found:
     print(json.dumps(path_found))
 else:
     print(json.dumps("No path found"))
-```
-## Tile & Object Mechanics Update
-- **FLOOR_UP_WALL (Updated):** Functions as a one-way ledge. It is impassable when trying to move *up* onto it, but traversable when moving *down* off of it.
-- **LADDER (Updated):** Activation can be complex. Stepping onto a ladder tile from an adjacent `FLOOR_UP_WALL` tile above it has been confirmed to trigger the warp.
+
 ## Mt. Mortar Exploration Log
 - The cave entrance on Route 42 at (28, 9) leads to a dead-end section of the mountain. The southern plateau is inaccessible from this area.
 - **Tool Logic Synchronization:** My tools' internal models of the game must be consistent. A discrepancy between two tools (e.g., `route_planner` and `find_true_reachable_unseen_tiles` disagreeing on what's reachable) is a critical failure signal. I must immediately halt and debug the faulty tool to synchronize its logic with the more reliable one.
