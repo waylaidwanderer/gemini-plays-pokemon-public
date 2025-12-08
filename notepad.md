@@ -17,7 +17,7 @@
 
 **Current Objective:** Battle Tower Challenge (Level 20).
 **Strategy:** Challenge the Tower with Basalt (Lv19), Vortex (Lv17), Bahamut (Lv15).
-**Status:** Team assembled (Geodude, Pidgeotto, Dratini). Bedrock deposited. Ready to challenge.
+**Status:** Challenge Initiated. Team: Basalt (Geodude), Vortex (Pidgeotto), Bahamut (Dratini).
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
