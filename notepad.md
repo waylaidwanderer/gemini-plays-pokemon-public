@@ -388,4 +388,4 @@
 - **Battle Tower Menu:** Navigating the level selection is tricky. It seems 'Down' from the start might select 'CANCEL'. Need to verify if L:20 is available or unlocked.
 - **Battle Tower Entry:** Select 'Challenge' -> Advance 'Before entering' -> Advance 'Already save file' -> Confirm 'Overwrite' -> Wait for Save (~6s) -> Level Selection Menu.
 - **Menu Issue:** Default is 'L:10'. My party (Lv15+) is rejected. 'Down' press might be selecting 'CANCEL' instead of 'L:20'. Investigating menu layout.
-- **Menu Verification:** Currently at Save Confirmation. Will observe post-save state to determine menu layout (L:10 vs L:20 availability).
+- **Menu Verification:** Confirming save to observe the Level Selection menu. Suspect 'L:20' might be missing or in a different slot.
