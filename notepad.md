@@ -314,3 +314,8 @@
 
 ## Olivine Lighthouse
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
+## Lessons Learned
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+
+## Tile & Object Mechanics
+- **FLOOR_UP_WALL**: A one-way impassable tile. It can be jumped down from, but not climbed up onto from a lower elevation. Its side-to-side traversability is still unconfirmed.
