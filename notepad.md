@@ -315,3 +315,4 @@
 ### Cianwood Gym Puzzle
 - **Hypothesis:** The gym is a trainer gauntlet. Defeating all trainers is required to clear a path to the Gym Leader, Chuck. The boulders that appeared seem to be the primary obstacle, likely requiring STRENGTH to move.
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
+- **Teacher in CianwoodLugiaSpeechHouse:** Mentioned a mythical sea creature hiding in the four islands between Cianwood and Olivine.
