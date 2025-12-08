@@ -56,6 +56,10 @@
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+- **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
+- **Olivine Lighthouse 2F Marker Cleanup:** The critique noted my markers on OlivineLighthouse2F are cluttered. As soon as I return to that floor, I must consolidate the redundant pit markers into a single, clear marker to improve map hygiene.
+- **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -242,15 +246,24 @@
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 ## Tools & Agents
-### Available Tools
-`notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`, `find_true_reachable_unseen_tiles`, `route_planner`, `select_item`, `select_move`, `switch_pokemon`, `python_code_debugger`, `puzzle_solver`
+### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_agent`
+- `delete_agent`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `define_tool`
+- `delete_tool`
+- `select_battle_option`
 
 ### Custom Tools
+- `find_true_reachable_unseen_tiles`
 - `route_planner`
+- `select_item`
 - `select_move`
 - `switch_pokemon`
-- `find_true_reachable_unseen_tiles`
-- `select_item`
 
 ### Custom Agents
 - `python_code_debugger`
