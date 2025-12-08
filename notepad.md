@@ -18,7 +18,7 @@
 **Current Objective:** Travel to Azalea Town.
 **Strategy:**
 - **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Hypothesis: Must speak to Kurt in Azalea Town to initialize event.
-- **Travel:** Exit Goldenrod PC -> Fly to Azalea Town.
+- **Travel:** Walk South through Route 34 to Ilex Forest. (Day Care entrance blocked/inactive).
 
 ### Recent Logs
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
