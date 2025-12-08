@@ -242,7 +242,7 @@
 
 ## Tools & Agents
 ### Available Tools
-`notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`, `find_reachable_unseen_tiles`, `route_planner`, `select_item`, `select_move`, `switch_pokemon`, `python_code_debugger`, `puzzle_solver`
+`notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`, `find_true_reachable_unseen_tiles`, `route_planner`, `select_item`, `select_move`, `switch_pokemon`, `python_code_debugger`, `puzzle_solver`
 
 ### Custom Tools
 - `route_planner`
