@@ -38,10 +38,7 @@
 - **Status:** Janine Defeated. Soul Badge Obtained.
 
 ## Route 17 (Cycling Road)
-- **Mechanics:** Slope forces constant Down movement.
-- **Escape Strategy:** **Verified:** `escape_collision` tool (Up x10, Side x10, 0ms delay) successfully breaks collision locks.
-- **Trainers:**
-  - Biker Riley (Weezing Lv34) - Defeated. Acts as a WALL obstacle.
+- **Status:** Traversed. Slope mechanics require `escape_collision` tool.
 
 ## Route 16 (Archived)
 - **East Side:** Cut Tree path leads to Fuchsia Speech House (Dead End).
