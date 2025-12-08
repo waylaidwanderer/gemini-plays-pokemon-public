@@ -274,3 +274,6 @@
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 ## Lessons Learned
 - Ignoring my own pre-battle level assessment protocol leads to difficult, resource-draining battles. I must adhere to my own strategic plans to ensure victory and avoid wasting time and resources.
+## Key Items & TMs
+- **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
+- **TM01 DYNAMICPUNCH:** From Chuck. An inaccurate but powerful move that causes confusion when it hits.
