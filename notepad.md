@@ -277,3 +277,13 @@
 - **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
 - **Olivine Lighthouse 2F Marker Cleanup:** The critique noted my markers on OlivineLighthouse2F are cluttered. As soon as I return to that floor, I must consolidate the redundant pit markers into a single, clear marker to improve map hygiene.
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
+
+## Olivine City Gym Strategy
+- **Gym Leader:** Jasmine
+- **Known Information:** She was caring for a sick Ampharos (Electric-type), which implies she might use Electric or Steel types, given the lighthouse's theme. The gym is likely Steel-type, as Olivine is known for its steel.
+- **Team Composition:**
+  - VULCAN (Quilava): Fire-type moves will be super-effective against Steel.
+  - CLAUDIUS (Krabby): Water-type moves are neutral, but STRENGTH is useful.
+  - CRUNCH (Pinsir): Fighting-type moves (Seismic Toss) are super-effective against Steel.
+  - JUBILEE (Togetic): Normal/Flying, likely weak to Steel/Rock moves. Should be used cautiously.
+- **Plan:** Lead with VULCAN to deal heavy damage. Switch to CRUNCH if VULCAN is in trouble. Use CLAUDIUS as a backup. Avoid using JUBILEE unless necessary.
