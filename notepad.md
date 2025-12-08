@@ -399,9 +399,10 @@
   - **Current:** Bedrock vs Heracross (Lv20).
   - **Mechanic:** Confirmed Dark is Special in Gen 2 (Bite uses Sp.Atk).
   - **Strategy:** Bedrock to use Sandstorm for residual damage vs Heracross.
-### PC Box 1 Inventory (In Progress)
+### PC Box 1 Inventory
 - M (Caterpie) Lv15
-- WEAVER
-- CHRONO
-- GIB RALTAR
-- SHUCKIE
+- WEAVER (Spinarak) Lv14
+- CHRONO (Hoothoot) Lv16
+- GIB RALTAR (Graveler) Lv37
+- SHUCKIE (Shuckle) Lv15
+- XQH (Sandshrew) Lv12
