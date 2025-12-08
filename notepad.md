@@ -380,6 +380,6 @@
 
 # Post-Game Exploration
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
-**Current Objective:** Fly to Goldenrod City (GS Ball check).
-- GS Ball event didn't trigger on exit. Checking PC storage.
-- **GS Ball Check:** Not in Key Items or PC Storage. Event at Goldenrod PC did not trigger on exit/re-entry. Next step: Check Kurt in Azalea Town.
+**Current Objective:** Travel to Azalea Town.
+**Strategy:** Walk South through Route 34 to Ilex Forest.
+- **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Hypothesis: Must speak to Kurt in Azalea Town to initialize event.
