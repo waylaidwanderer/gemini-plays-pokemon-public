@@ -394,3 +394,11 @@
 - **Level 20 Attempt 1:** Failed vs Lass Thornton (Starmie).
   - **Lesson:** Rock/Ground heavy team is too vulnerable to Water. Need balanced coverage.
   - **Action:** Retrieving Paprika (Typhlosion) from PC to restructure team.
+
+## Battle Tower Challenge Log (Run 2)
+- **Team:** Vortex (Lv17), Bedrock (Lv20), Bahamut (Lv15).
+- **Battle 1 vs Fisher:**
+  - **Opponent:** Steelix (Lv20). Vortex (Sand-Attack) > Fainted. Bahamut (Wrap/Twister) > Fainted.
+  - **Current:** Bedrock vs Heracross (Lv20).
+  - **Mechanic:** Confirmed Dark is Special in Gen 2 (Bite uses Sp.Atk).
+  - **Strategy:** Bedrock to use Sandstorm for residual damage vs Heracross.
