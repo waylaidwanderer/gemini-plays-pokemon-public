@@ -107,6 +107,7 @@
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
+- **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
 
 ## Battle & Resource Management
 - **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
@@ -231,6 +232,8 @@
 ## Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
+- **Route 42 Impasse:** All three Mt. Mortar entrances on Route 42 have been confirmed to be isolated dead ends from the west side. Surfing across the central lakes does not connect the western and eastern landmasses. The path is completely blocked. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
+- A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle. However, my `advanced_route_planner` confirmed the area is unreachable from the west side of the route.
 
 ## Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
@@ -299,60 +302,6 @@
   - JUBILEE (Togetic): Normal/Flying, likely weak to Steel/Rock moves. Should be used cautiously.
 - **Plan:** Lead with VULCAN to deal heavy damage. Switch to CRUNCH if VULCAN is in trouble. Use CLAUDIUS as a backup. Avoid using JUBILEE unless necessary.
 
-## Reusable Code Snippets
-### Fly Route Planner (One-off Script)
-python
-import json
-
-# Updated graph with new discoveries
-fly_map = {
-    'NEW BARK TOWN': {'Up': 'CHERRYGROVE CITY'},
-    'CHERRYGROVE CITY': {'Down': 'NEW BARK TOWN', 'Up': 'VIOLET CITY'},
-    'VIOLET CITY': {'Down': 'CHERRYGROVE CITY', 'Up': 'AZALEA TOWN'},
-    'AZALEA TOWN': {'Down': 'VIOLET CITY', 'Up': 'GOLDENROD CITY'},
-    'GOLDENROD CITY': {'Down': 'AZALEA TOWN', 'Up': 'ECRUTEAK CITY'},
-    'ECRUTEAK CITY': {'Down': 'GOLDENROD CITY'}
-}
-
-start_city = 'CHERRYGROVE CITY' # Example input
-destination_city = 'ECRUTEAK CITY' # Example input
-
-# BFS to find the shortest path
-queue = [(start_city, [])]
-visited = {start_city}
-path_found = None
-
-while queue:
-    current, path = queue.pop(0)
-    if current == destination_city:
-        path_found = path
-        break
-
-    for direction, neighbor in fly_map.get(current, {}).items():
-        if neighbor not in visited:
-            visited.add(neighbor)
-            new_path = path + [direction]
-            queue.append((neighbor, new_path))
-
-if path_found:
-    print(json.dumps(path_found))
-else:
-    print(json.dumps("No path found"))
-
-## Mt. Mortar Exploration Log
-- The cave entrance on Route 42 at (28, 9) leads to a dead-end section of the mountain. The southern plateau is inaccessible from this area.
-- **Tool Logic Synchronization:** My tools' internal models of the game must be consistent. A discrepancy between two tools (e.g., `route_planner` and `find_true_reachable_unseen_tiles` disagreeing on what's reachable) is a critical failure signal. I must immediately halt and debug the faulty tool to synchronize its logic with the more reliable one.
-
-# PENDING TOOL UPGRADES
-- **`route_planner` Replacement:** The current tool cannot handle mixed-mode (walk/surf) paths. I must define a new, more advanced pathfinding tool to replace it. This is a high-priority task to improve navigational efficiency.
 ## Lessons Learned
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail catastrophically if its internal model of the game is inaccurate (e.g., how a specific tile type affects movement). All assumptions about game mechanics must be rigorously verified with in-game tests before being encoded into a tool. Trust the tool's output when it contradicts your assumptions, as it often reveals a flaw in your understanding of the map or mechanics.
-
-## Tile & Object Mechanics
-- **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
-
-## Route 42 Impasse
-- **Conclusion:** Route 42 is currently impassable. All three Mt. Mortar entrances have been confirmed to be isolated dead ends from this side. Surfing across the central lakes does not connect the western and eastern landmasses. The path is completely blocked. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
-
-### Obstacles and Solutions (Update)
-- A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle blocking a path. However, my `advanced_route_planner` confirmed the area is unreachable from the west side of the route. This tree may be part of the solution to cross the route, but it must be approached from the eastern side.
+- **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
