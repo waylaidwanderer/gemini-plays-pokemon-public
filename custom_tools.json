@@ -1,152 +1,4 @@
 {
-  "route_planner": {
-    "description": "A new, reliable pathfinding tool that calculates the shortest path between two points on the current map, avoiding obstacles. Now includes a parameter to handle surfing.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        },
-        "is_surfing": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nis_surfing = input_data.get('is_surfing', 'false').lower() == 'true'\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y:\n        max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x:\n            max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\nTRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT'}\nif is_surfing:\n    TRAVERSABLE_TYPES.add('WATER')\n\ngrid = [['WALL' for _ in range(width)] for _ in range(height)]\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        is_start = (x == start_x and y == start_y)\n        is_end = (x == end_x and y == end_y)\n        has_object = tile_elem.find('.//Object') is not None\n\n        if has_object and not is_start and not is_end:\n            grid[y][x] = 'WALL'\n            continue\n\n        if tile_type in TRAVERSABLE_TYPES:\n            grid[y][x] = tile_type\n\ndef bfs(grid, start, end):\n    height = len(grid)\n    width = len(grid[0])\n    if not (0 <= start[1] < height and 0 <= start[0] < width and 0 <= end[1] < height and 0 <= end[0] < width):\n        return None\n    if grid[end[1]][end[0]] == 'WALL':\n        found_adjacent = False\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_x, adj_y = end[0] + dx, end[1] + dy\n            if 0 <= adj_y < height and 0 <= adj_x < width and grid[adj_y][adj_x] != 'WALL':\n                end = (adj_x, adj_y)\n                found_adjacent = True\n                break\n        if not found_adjacent:\n            return None\n\n    queue = collections.deque([[start]])\n    seen = {start}\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n\n        if (x, y) == end:\n            return path\n\n        current_tile_type = grid[y][x]\n        \n        if current_tile_type == 'LEDGE_HOP_DOWN':\n            moves = [(0, 1)]\n        elif current_tile_type == 'LEDGE_HOP_LEFT':\n            moves = [(-1, 0)]\n        elif current_tile_type == 'LEDGE_HOP_RIGHT':\n            moves = [(1, 0)]\n        else:\n            moves = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\n        for dx, dy in moves:\n            next_x, next_y = x + dx, y + dy\n\n            if not (0 <= next_y < height and 0 <= next_x < width):\n                continue\n            if (next_x, next_y) in seen:\n                continue\n\n            next_tile_type = grid[next_y][next_x]\n            if next_tile_type == 'WALL':\n                continue\n            \n            if next_tile_type == 'LEDGE_HOP_DOWN' and (dx, dy) == (0, -1): continue\n            if next_tile_type == 'LEDGE_HOP_LEFT' and (dx, dy) == (1, 0): continue\n            if next_tile_type == 'LEDGE_HOP_RIGHT' and (dx, dy) == (-1, 0): continue\n\n            seen.add((next_x, next_y))\n            new_path = list(path)\n            new_path.append((next_x, next_y))\n            queue.append(new_path)\n            \n    return None\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\n\npath = bfs(grid, start_node, end_node)\n\nif path:\n    formatted_path = [{'x': x, 'y': y} for x, y in path]\n    print(json.dumps(formatted_path))\nelse:\n    print(json.dumps('No path found'))",
-    "history": [
-      {
-        "commit_message": "feat: Create new route_planner tool. The previous `find_path` tool was irredeemably broken after multiple failed fix attempts. This new tool is a complete rewrite with a simplified, more robust two-pass grid construction logic to avoid the catastrophic pathing failures of its predecessor. Restoring reliable navigation is the top priority.",
-        "timestamp": "2025-12-06T05:04:02.081Z",
-        "action_counter": 36130
-      },
-      {
-        "commit_message": "fix: Overhaul grid creation with single-pass logic via python_code_debugger. The agent identified that the previous two-pass system for building the map grid was logically flawed, as it could prematurely mark a tile as walkable before checking for an impassable object. This commit replaces that fragile logic with a robust, single-pass system that correctly prioritizes obstacles over terrain type, resolving the catastrophic failure where the tool generated paths through solid walls.",
-        "timestamp": "2025-12-06T08:51:11.718Z",
-        "action_counter": 36512
-      },
-      {
-        "commit_message": "fix: Remove 'PIT' from traversable tiles. The tool was catastrophically failing by generating paths that led directly into pits, treating them as walkable ground instead of one-way warps. This commit removes 'PIT' from the `TRAVERSABLE_TYPES` set, forcing the pathfinder to correctly navigate around these hazards and resolving the critical movement loop.",
-        "timestamp": "2025-12-06T12:35:09.616Z",
-        "action_counter": 36734
-      },
-      {
-        "commit_message": "fix: Correct pathing logic to target adjacent tiles. The tool was catastrophically failing by pathing directly *onto* impassable NPC tiles because the grid creation logic explicitly excluded the destination tile from being marked as a wall. This commit removes that exclusion, allowing the existing adjacent-tile-finding logic to correctly target a walkable tile next to the NPC, resolving the pathing failure.",
-        "timestamp": "2025-12-07T01:03:49.219Z",
-        "action_counter": 37922
-      },
-      {
-        "commit_message": "feat: Add 'PIT' to traversable tiles for Ecruteak Gym. The pathfinder was failing because it treated the gym's PIT tiles as walls, but they are required for traversal. This change allows the tool to correctly plan paths across the invisible maze.",
-        "timestamp": "2025-12-07T03:37:06.237Z",
-        "action_counter": 38234
-      },
-      {
-        "commit_message": "fix: Add 'PIT' to traversable tiles. The tool was failing to generate paths within the Ecruteak Gym because it treated the essential PIT tiles as impassable walls. This commit adds 'PIT' to the TRAVERSABLE_TYPES set, resolving the critical pathing failure and enabling navigation for the gym puzzle.",
-        "timestamp": "2025-12-07T03:37:53.238Z",
-        "action_counter": 38236
-      },
-      {
-        "commit_message": "feat: Add 'WATER' to traversable tiles. The tool was failing to generate paths while surfing because 'WATER' was not considered a valid tile type. This commit resolves the pathing failure for water routes.",
-        "timestamp": "2025-12-07T09:46:42.615Z",
-        "action_counter": 39042
-      },
-      {
-        "commit_message": "fix: Remove 'WATER' from traversable tiles for land navigation. The tool was catastrophically failing by generating paths through water when the player is not surfing. This commit removes 'WATER' from the TRAVERSABLE_TYPES set, ensuring the pathfinder correctly treats water as an obstacle during land-based pathing and resolving the critical navigation failure.",
-        "timestamp": "2025-12-07T11:55:46.512Z",
-        "action_counter": 39311
-      },
-      {
-        "commit_message": "feat: Add 'WATER' to traversable tiles. The tool was failing to generate paths while surfing because 'WATER' was not considered a valid tile type. This commit resolves the pathing failure for water routes.",
-        "timestamp": "2025-12-07T14:08:50.347Z",
-        "action_counter": 39548
-      },
-      {
-        "commit_message": "fix: Remove 'WATER' from traversable tiles for land navigation. The tool was catastrophically failing by generating paths through water when the player is not surfing. This commit removes 'WATER' from the TRAVERSABLE_TYPES set, ensuring the pathfinder correctly treats water as an obstacle during land-based pathing and resolving the critical navigation failure.",
-        "timestamp": "2025-12-07T14:33:46.373Z",
-        "action_counter": 39594
-      },
-      {
-        "commit_message": "feat: Add 'WATER' to traversable tiles. The tool was failing to generate paths while surfing because 'WATER' was not considered a valid tile type. This commit resolves the pathing failure for water routes.",
-        "timestamp": "2025-12-07T14:51:22.534Z",
-        "action_counter": 39631
-      },
-      {
-        "commit_message": "fix: Remove 'WATER' from traversable tiles for land navigation. The tool was incorrectly configured for surfing after returning to land. This commit removes 'WATER' from the TRAVERSABLE_TYPES set, ensuring the pathfinder correctly treats water as an obstacle during land-based pathing and resolving potential pathing failures.",
-        "timestamp": "2025-12-07T15:14:14.702Z",
-        "action_counter": 39679
-      },
-      {
-        "commit_message": "feat: Add is_surfing parameter for contextual pathfinding. The tool repeatedly failed by either trying to path through water on land or treating water as a wall while surfing. This commit adds an 'is_surfing' boolean parameter, allowing the tool to dynamically add 'WATER' to the traversable tile set only when appropriate, resolving the critical context-switching failure.",
-        "timestamp": "2025-12-07T15:33:53.661Z",
-        "action_counter": 39713
-      },
-      {
-        "commit_message": "fix: Correct pathfinding logic to allow pathing to destination tiles with objects. The agent identified that the tool was incorrectly marking destination tiles with objects (like warps or ladders) as impassable walls, causing it to fail on valid paths. This commit adds an exception for the 'end' tile, resolving the critical pathfinding failure.",
-        "timestamp": "2025-12-07T20:08:41.794Z",
-        "action_counter": 40223
-      },
-      {
-        "commit_message": "feat: Add FLOOR_UP_WALL to traversable tiles with one-way logic. The pathfinder was failing in Mt. Mortar because it treated FLOOR_UP_WALL as an impassable wall. This commit adds the tile to the traversable set and includes logic to prevent pathing upwards onto it, correctly modeling it as a one-way ledge. This resolves the critical navigation failure.",
-        "timestamp": "2025-12-08T16:26:56.880Z",
-        "action_counter": 42618
-      },
-      {
-        "commit_message": "fix: Complete one-way logic for FLOOR_UP_WALL. The agent identified that the previous logic only prevented moving *up onto* the tile, but not *up from* it. This commit adds a check for the current tile type, excluding upward movement when on a FLOOR_UP_WALL, fully implementing the one-way ledge mechanic and resolving the critical pathing failure.",
-        "timestamp": "2025-12-08T16:32:04.768Z",
-        "action_counter": 42621
-      },
-      {
-        "commit_message": "fix: Overhaul grid creation to ignore objects via python_code_debugger. The agent identified that the tool was catastrophically failing by incorrectly marking any tile with an object as an impassable 'WALL'. This was severing valid paths, especially over ledges. This commit removes the faulty object-checking logic entirely, relying solely on the tile's 'type' attribute for traversability. This resolves the critical pathing failure on the Mt. Mortar plateau.",
-        "timestamp": "2025-12-08T16:37:41.344Z",
-        "action_counter": 42625
-      },
-      {
-        "commit_message": "fix: Re-implement object collision. The previous fix catastrophically removed all object collision checks, causing the pathfinder to generate invalid paths through NPCs. This commit reverts that change, restoring the logic that treats tiles with objects as impassable walls. While this may re-introduce issues on specific maps with traversable objects (like ledges), it fixes the more common and critical failure of pathing through solid entities.",
-        "timestamp": "2025-12-08T16:44:51.952Z",
-        "action_counter": 42637
-      },
-      {
-        "commit_message": "fix: Remove FLOOR_UP_WALL from traversable tiles. The previous pathing logic incorrectly assumed this tile could be traversed by moving downwards onto it. An in-game movement attempt failed, proving this assumption wrong. This commit removes the tile from the TRAVERSABLE_TYPES set entirely, treating it as an impassable wall to prevent future pathing failures until its mechanics can be fully understood.",
-        "timestamp": "2025-12-08T17:17:39.661Z",
-        "action_counter": 42688
-      },
-      {
-        "commit_message": "fix: Remove 'CAVE' from traversable tiles. The tool was repeatedly pathing into a cave entrance that needed to be avoided. By treating cave warps as impassable walls, the pathfinder will now correctly navigate around them instead of through them, resolving the critical pathing loop.",
-        "timestamp": "2025-12-08T17:23:27.985Z",
-        "action_counter": 42701
-      },
-      {
-        "commit_message": "feat: Add FLOOR_UP_WALL to traversable tiles with one-way logic. The pathfinder was failing in Mt. Mortar because it treated FLOOR_UP_WALL as an impassable wall. This commit adds the tile to the traversable set and includes logic to prevent pathing upwards onto it, correctly modeling it as a one-way ledge. This resolves the critical navigation failure.",
-        "timestamp": "2025-12-08T18:21:30.812Z",
-        "action_counter": 42810
-      },
-      {
-        "commit_message": "fix: Add source tile check for ledge jumps. The pathfinder was generating invalid paths by attempting to move from a WATER tile directly onto a FLOOR_UP_WALL tile. This commit adds a check to ensure the source tile is 'FLOOR' before allowing a downward move onto a ledge, correctly modeling the game's mechanics and resolving the critical pathing failure.",
-        "timestamp": "2025-12-08T18:23:08.669Z",
-        "action_counter": 42813
-      },
-      {
-        "commit_message": "fix: Remove FLOOR_UP_WALL from traversable tiles. A failed in-game movement attempt from a FLOOR tile onto a FLOOR_UP_WALL tile confirmed that this tile is impassable, contradicting previous assumptions. This commit removes it from the TRAVERSABLE_TYPES set entirely, treating it as a standard wall to prevent further critical pathing failures.",
-        "timestamp": "2025-12-08T18:24:45.211Z",
-        "action_counter": 42816
-      }
-    ]
-  },
   "select_item": {
     "description": "Automates selecting an item from the bag during or outside of a battle. Takes the target item's name and the current screen text as input.",
     "input_schema": {
@@ -831,6 +683,32 @@
         "commit_message": "fix: Separate move generation from validation via python_code_debugger. The agent identified a critical flaw where the tool used the effective tile type (from the `grid`) to determine possible moves, causing it to generate invalid paths through walls when on a special tile blocked by an object. This commit implements the agent's robust fix, which correctly uses the intrinsic tile type (from `tile_types`) for move generation while still using the `grid` for destination validation, resolving the catastrophic pathing failure.",
         "timestamp": "2025-12-08T19:59:49.374Z",
         "action_counter": 42974
+      }
+    ]
+  },
+  "find_true_reachable_unseen_tiles": {
+    "description": "Parses the current map XML and player's position to find all 'unseen' tiles that are actually reachable via a valid path, ignoring those blocked by walls or other obstacles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y: max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x: max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\nWALKABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT', 'CAVE'}\n\ngrid = {}\ntile_info = {}\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        seen = tile_elem.get('seen') == 'true'\n        has_object = tile_elem.find('.//Object') is not None\n        tile_info[(x, y)] = {'type': tile_type, 'seen': seen}\n        \n        is_traversable = (tile_type in WALKABLE_TYPES) and not has_object\n        grid[(x, y)] = is_traversable\n\nqueue = collections.deque([(start_x, start_y)])\nvisited = set([(start_x, start_y)])\nreachable_unseen = []\n\nwhile queue:\n    x, y = queue.popleft()\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_x, next_y = x + dx, y + dy\n        next_pos = (next_x, next_y)\n\n        if not (0 <= next_y < height and 0 <= next_x < width):\n            continue\n\n        if next_pos in visited:\n            continue\n        \n        visited.add(next_pos)\n        \n        info = tile_info.get(next_pos)\n        if not info:\n            continue\n\n        if not info['seen']:\n            # Only add if the unseen tile itself is considered walkable based on its type if known\n            # This avoids adding unseen WALLs to the list\n            if grid.get(next_pos, False):\n                reachable_unseen.append({'x': next_x, 'y': next_y})\n            # Do not traverse into the unseen tile\n            continue\n\n        if grid.get(next_pos, False):\n            queue.append(next_pos)\n\nprint(json.dumps(reachable_unseen))",
+    "history": [
+      {
+        "commit_message": "feat: Create tool to find truly reachable unseen tiles. This tool implements a Breadth-First Search (BFS) starting from the player's position to explore all connected, traversable tiles. It identifies adjacent unseen tiles that can be directly moved to, addressing the system alert's suggestion and improving exploration efficiency by filtering out unreachable 'unseen' tiles.",
+        "timestamp": "2025-12-08T20:05:21.308Z",
+        "action_counter": 42985
       }
     ]
   }
