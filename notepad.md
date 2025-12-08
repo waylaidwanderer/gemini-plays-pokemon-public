@@ -344,3 +344,8 @@ else:
 
 # PENDING TOOL UPGRADES
 - **`route_planner` Replacement:** The current tool cannot handle mixed-mode (walk/surf) paths. I must define a new, more advanced pathfinding tool to replace it. This is a high-priority task to improve navigational efficiency.
+## Lessons Learned
+- **Tool Logic Must Mirror Game Mechanics:** A tool will fail catastrophically if its internal model of the game is inaccurate (e.g., how a specific tile type affects movement). All assumptions about game mechanics must be rigorously verified with in-game tests before being encoded into a tool. Trust the tool's output when it contradicts your assumptions, as it often reveals a flaw in your understanding of the map or mechanics.
+
+## Tile & Object Mechanics
+- **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
