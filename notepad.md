@@ -419,3 +419,7 @@
 - Turn 3: Tauros used Blizzard (Super Effective). Basalt Fainted.
 - Tauros Moves: Hyper Beam, Blizzard.
 - Sending Bahamut (Dratini) for Extremespeed cleanup.
+- Turn 4: Bahamut used Extremespeed. Tauros survived (~50% HP). Tauros used Hyper Beam. Bahamut Fainted.
+- Critical Context: Tauros is RECHARGING next turn.
+- Sending Vortex (Pidgeotto).
+- Strategy: Use Sand-Attack on the recharge turn to cripple accuracy.
