@@ -109,6 +109,8 @@
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
 - **SURF Mechanic:** To use SURF, the player must be standing on a tile adjacent to water AND be facing the water tile. The game will NOT automatically turn the character.
+- **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
+- **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -290,6 +292,10 @@
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 ## Custom Tools & Agents
+- **notepad_edit:** Built-in tool to edit the notepad.
+- **run_code:** Built-in tool to run Python code.
+- **define_map_marker:** Built-in tool to create map markers.
+- **delete_map_marker:** Built-in tool to delete map markers.
 - **route_planner:** Custom pathfinding tool.
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
@@ -302,6 +308,3 @@
 - **define_agent:** Built-in tool to create new agents.
 - **delete_agent:** Built-in tool to delete custom agents.
 - **select_battle_option:** Built-in tool to select a main battle menu option.
-- **NPC Repositioning:** An NPC moving does not guarantee a path is clear. They may simply move to a new blocking position, requiring a different solution (e.g., SILVER on Route 40).
-- **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
-- **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
