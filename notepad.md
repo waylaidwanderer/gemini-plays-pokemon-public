@@ -15,8 +15,9 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Travel to Azalea Town.
-**Strategy:**
+**Current Objective:** Battle Tower Challenge (Level 10).
+**Strategy:** Fly to Olivine City.
+(Previous Goal Archived: Azalea/GS Ball - Cancelled)
 - **GS Ball Quest:** CANCELLED. Developer confirmed unobtainable in US Crystal without cheats.
 - **Primary Goal:** Battle Tower Challenge (Level 10). Strategy: Scout first, then prepare.
 - **Travel:** Finish phone call, talk to Teacher, then Fly to Olivine City -> Battle Tower.
@@ -381,6 +382,7 @@
 
 # Post-Game Exploration
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
-**Current Objective:** Travel to Azalea Town.
-**Strategy:** Walk South through Route 34 to Ilex Forest.
+**Current Objective:** Battle Tower Challenge (Level 10).
+**Strategy:** Fly to Olivine City.
+(Previous Goal Archived: Azalea/GS Ball - Cancelled) Walk South through Route 34 to Ilex Forest.
 - **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Agent Hypothesis: Ball likely already with Kurt (inspecting). Action: Check Kurt in Azalea Town.
