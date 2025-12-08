@@ -23,8 +23,8 @@
 - **Travel:** Finish phone call, talk to Teacher, then Fly to Olivine City -> Battle Tower.
 
 ### Recent Logs
+- **Route 38 Navigation:** Westward path blocked by Wall at (29, 8) and Ledges at (21, 12). Must use North Path (Row 5).
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
-- **Silver Cave Room 1:** The Central Plateau (accessed via entrance at 18,11) is a DEAD END containing an Ultra Ball. The Northern and Western sections are walled off from this central area. Must find a different entrance.
 
 ## Mt. Silver & Route 28 (Archived)
 - **Status:** Fully Explored. Red Defeated.
