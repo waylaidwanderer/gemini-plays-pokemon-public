@@ -25,35 +25,12 @@
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
 - **Silver Cave Room 1:** The Central Plateau (accessed via entrance at 18,11) is a DEAD END containing an Ultra Ball. The Northern and Western sections are walled off from this central area. Must find a different entrance.
 
-## Route 28 Master Log
-- **Geography:** Complex map with isolated sections.
-  - **West (Secret Area):** Accessible from Silver Cave Outside. Contains Celebrity House. Loop leads back to Silver Cave Outside.
-  - **East (Gatehouse Area):** Accessible from Victory Road Gate. Dead end.
-  - **South-East (Secluded):** Visually present but currently inaccessible from Route 28. Confirmed High Plateau Ridge is a WALL.
-- **Landmarks:**
-  - **Celebrity House:** (7, 3). TM47 Steel Wing.
-  - **Victory Road Gate Connection:** (33, 5).
-- **Dead Ends Confirmed:**
-  - **High Plateau Ridge (31, 12):** Wall.
-  - **Southern Water Channel (27, 15):** Dead end.
-  - **Eastern Path (35, 6):** Dead end.
-
-## Silver Cave Outside Notes
-- **PokeCenter:** (23, 19). Fly Destination. High Ground.
-- **Geography:**
-  - High Ground accessible via gaps in ledges at (25, 27) and (23, 23).
-  - Route 28 Entrance at Southeast corner (39, 31).
-  - **Path North:** Tree cut at (31, 24). Leads to corridor at (39, 21).
-  - **Western Entrance:** Theory disproven. Route 28 West loops back to Silver Cave Outside (East). Entrance must be inside main cave.
-- **Encounters:** Ponyta, Tangela, Rapidash.
-
-## Silver Cave Room 1 Notes
-- **Geography:**
-  - **Entrance Area (South):** Access to East/West paths.
-  - **Central Plateau:** Isolated, contains Ultra Ball. Blocked by ridges at Row 20.
-  - **Western Path (x=5):** Leads to a dead end at (8, 14) blocked by a ridge.
-  - **Eastern Path (x=15):** **CONFIRMED PATH.** Go East to x=15, then North through gap at (15, 17). This bypasses the ridges.
-- **Mechanics:** FLOOR_UP_WALL acts as a ridge blocking movement from the South. Verified at (12, 20), (4, 14), and (8, 14).
+## Mt. Silver & Route 28 (Archived)
+- **Status:** Fully Explored. Red Defeated.
+- **Route 28:** Secret House (TM47 Steel Wing) accessed via Cut path from Silver Cave Outside.
+- **Silver Cave:**
+  - **Outside:** PokeCenter (23,19).
+  - **Room 1:** East path (x=15) leads North.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
