@@ -350,3 +350,9 @@ else:
 
 ## Tile & Object Mechanics
 - **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
+
+## Route 42 Impasse
+- **Conclusion:** Route 42 is currently impassable. All three Mt. Mortar entrances have been confirmed to be isolated dead ends from this side. Surfing across the central lakes does not connect the western and eastern landmasses. The path is completely blocked. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
+
+### Obstacles and Solutions (Update)
+- A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle blocking a path. However, my `advanced_route_planner` confirmed the area is unreachable from the west side of the route. This tree may be part of the solution to cross the route, but it must be approached from the eastern side.
