@@ -384,4 +384,4 @@
 ## Route 39 & 40 (Olivine Area)
 - **Route 39:** Psychic Norman (13, 7) Defeated. Moomoo Farm visited.
 - **Route 40:** Battle Tower Entrance at (9, 5).
-- **Battle Tower Menu:** The 'What level do you want to challenge?' text box is blocking. You MUST press 'A' to advance it before the level selection list becomes active.
+- **Battle Tower Menu:** The 'What level do you want to challenge?' text box is NOT blocking. Do NOT press 'A' to advance it, or you will accidentally select the first option (L:10). Wait for the menu to load, then scroll.
