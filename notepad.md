@@ -257,6 +257,7 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
+- `select_battle_option`
 
 ### Custom Tools
 - `find_true_reachable_unseen_tiles`
