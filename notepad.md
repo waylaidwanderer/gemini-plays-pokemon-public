@@ -319,3 +319,5 @@
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **SURF Dismount Mechanic:** When adjacent to a land tile while surfing, pressing the directional button towards that land tile will automatically dismount and move the player onto it in a single action.
+## Lessons from Reflection (Turn 42518)
+- **Positional Hallucination:** A critical hallucination occurred where I believed I was outside the Pokémon Center when I was still inside. This reinforces the absolute necessity of the Positional Verification Protocol. I MUST check my `current_map_id` and `current_position` from the Game State Information before every single navigational action, without exception. Trusting my own memory is a guaranteed path to failure.
