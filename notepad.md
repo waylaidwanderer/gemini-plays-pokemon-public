@@ -297,3 +297,4 @@
 
 ## Tile & Object Mechanics (Updates)
 - **WARP_CARPET_DOWN**: A one-way traversable warp tile at the edge of a map that transitions to the adjacent map. Observed in Olivine City Port leading to the S.S. Aqua passage.
+- **Officer in Route 42 Gatehouse:** Warned that MT. MORTAR is a maze and to be careful not to get lost.
