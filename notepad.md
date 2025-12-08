@@ -390,5 +390,6 @@
 - **Fly Map Navigation:** From Cherrygrove, 'Left' input is invalid. Must press 'Up' (to Violet) before moving 'Left' (to Ecruteak/Olivine).
 ## Route 39
 - **Status:** Exploring. Heading to Moomoo Farm.
+- **Navigation:** Wall at (11, 8) blocks Westbound path. Bypass via Row 7.
 - **Trainers:**
   - Psychic Norman (13, 7): Defeated.
