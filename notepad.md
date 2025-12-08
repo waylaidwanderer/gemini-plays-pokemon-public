@@ -392,3 +392,4 @@
 - **Observation:** The Level Selection menu ('What level...') appears after saving, but is immediately canceled by an automated 'B' press. Must act quickly to interact with it.
 - **Hypothesis:** The harness is auto-pressing 'B' to clear the 'What level...' text box, inadvertently canceling the menu. 
 - **Strategy:** Using a rapid `press_sequence` (Down, A, sleep 200, Down, A) to select Level 20 before the harness can intervene.
+- **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
