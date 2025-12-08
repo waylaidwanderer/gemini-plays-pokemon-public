@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Snorlax (Lv75, SLP). Paprika (210/237 HP). Swift PP: 0. Strategy: Quick Attack spam. Snorlax -6 Acc.
+**Status:** BATTLE VS RED. Snorlax (Lv75, SLP, Yellow HP). Paprika (237/237 HP). Snorlax -6 Acc. Strategy: Flamethrower spam.
 **Objective:** DEFEAT RED.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
