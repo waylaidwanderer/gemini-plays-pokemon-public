@@ -5,7 +5,7 @@
 - My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
 - **Before EVERY navigational action or goal setting:**
   1. I MUST verify my `current_map_id` and `current_position`.
-  2. If the goal involves a warp, I MUST verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the **current map**. Never assume a map transition exists based on map shape or common game tropes. Always verify its existence as a `WARP_CARPET` tile or a tile with `is-warp="true"` in the map XML before planning a route to it.
+  2. If the goal involves a warp, I MUST verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the **current map** and that the tile has `is-warp="true"` in the map XML before planning a route to it. Never assume a map transition exists based on map shape or common game tropes.
 - **After EVERY map transition, system warning, or unexpected event (e.g., phone call):**
   1. I MUST immediately re-verify my `current_map_id` and `current_position`.
   2. I MUST discard any previous plan based on a now-invalidated location and re-evaluate my next action from the correct state.
@@ -55,6 +55,7 @@
 - **SURF Mechanic:** To use SURF, the player must be standing on a tile adjacent to water AND be facing the water tile. The game will NOT automatically turn the character.
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
+- **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -239,29 +240,9 @@
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
-## Custom Tools & Agents
-### Built-in Tools
-- `notepad_edit`
-- `run_code`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `define_tool`
-- `delete_tool`
-- `define_agent`
-- `delete_agent`
-- `select_battle_option`
-### Built-in Tools
-- `notepad_edit`
-- `run_code`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `define_tool`
-- `delete_tool`
-- `define_agent`
-- `delete_agent`
-- `select_battle_option`
+## Tools & Agents
+### Available Tools
+`notepad_edit`, `run_code`, `define_agent`, `delete_agent`, `define_map_marker`, `delete_map_marker`, `stun_npc`, `define_tool`, `delete_tool`, `select_battle_option`, `find_reachable_unseen_tiles`, `route_planner`, `select_item`, `select_move`, `switch_pokemon`, `python_code_debugger`, `puzzle_solver`
 
 ### Custom Tools
 - `route_planner`
@@ -292,4 +273,3 @@
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
-- **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
