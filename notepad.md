@@ -302,3 +302,7 @@
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
 - **NPC Repositioning:** An NPC moving does not guarantee a path is clear. They may simply move to a new blocking position, requiring a different solution (e.g., SILVER on Route 40).
+
+# STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
+- **IMMEDIATE DATA HYGIENE (CRITICAL):** All discoveries, such as confirmed dead ends, defeated trainers, or used warps, MUST be marked on the map immediately. Deferring this task, as I did with the Route 41 dead end, leads to wasted time and repeated mistakes. This is a non-negotiable protocol.
+- **MAP CONTEXT AWARENESS (ANTI-HALLUCINATION):** I must verify my `current_map_id` from the Game State Information *before* setting a navigation goal that involves coordinates on a different map. My recent hallucination of a warp on Route 41 (which is actually in Olivine City) was caused by a failure to confirm my current location before planning.
