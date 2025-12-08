@@ -331,19 +331,12 @@
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
-## Silver Cave Room 1
-- Protein found at (15, 29).
-- Ultra Ball found at (7, 18).
-## Silver Cave Outside
-- **Status:** Surfing South to find High Ground access.
-- **Geography:**
-  - Cave Entrance: (18, 11).
-  - PokeCenter: (23, 19).
-  - Western Shore (x<14): Dead end blocked by ledges to the North.
-  - Eastern Shore (Row 28): Landing spot. Path to PokeCenter found via gaps in ledges at (25, 27) and (23, 23). Route 28 likely accessible from the high ground near PokeCenter.
-- **Events:**
-  - Phone Call: Joey (Route 30). Radio reset.
-- **Wild Encounters:** Ponyta, Tangela.
+## Silver Cave & Route 28 (Archived)
+- **Status:** Fully Explored. Red Defeated.
+- **Route 28:** Secret House (TM47 Steel Wing) accessed via Cut path from Silver Cave Outside.
+- **Silver Cave:**
+  - **Outside:** PokeCenter (23,19).
+  - **Room 1:** East path (x=15) leads North.
 ### Menu Navigation
 - **Wrapping:** Menus wrap around! Pressing 'Up' at the top moves to the bottom. Do not blindly mash 'Up' to reset cursor position.
 - **Tool Usage Correction:** Must set `buttons_to_press` to `["tool"]` when using `press_sequence` or any tool that presses buttons. Putting manual buttons in `buttons_to_press` overrides the tool.
