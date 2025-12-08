@@ -287,3 +287,5 @@
   - CRUNCH (Pinsir): Fighting-type moves (Seismic Toss) are super-effective against Steel.
   - JUBILEE (Togetic): Normal/Flying, likely weak to Steel/Rock moves. Should be used cautiously.
 - **Plan:** Lead with VULCAN to deal heavy damage. Switch to CRUNCH if VULCAN is in trouble. Use CLAUDIUS as a backup. Avoid using JUBILEE unless necessary.
+## Lessons from Reflection (Turn 42050)
+- **Warp Coordinate Hallucination:** I experienced a critical hallucination when setting a navigation goal to exit the lighthouse, attempting to warp to (10, 18) which does not exist. This was a failure to follow my own anti-hallucination protocol. **LESSON:** I must *always* verify the exact coordinates of a target warp in the `Game State Information -> Map Events -> Warps` list for the current map *before* setting it as a `navigation_goal`. Trusting visual memory or estimation is unreliable and leads to wasted turns.
