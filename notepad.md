@@ -33,6 +33,10 @@
 - **Dead End Pivot:** If multiple paths in a large area (like the sea routes) are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy (like investigating Union Cave) instead of continuing to search the dead-end area.
 - **Warp Hallucination Prevention:** I have repeatedly hallucinated warps that do not exist (e.g., at map transitions or by misremembering building locations). Before setting ANY navigation goal that involves a warp, I MUST first verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the current map. This is a non-negotiable step to prevent critical navigation failures.
 - **Trust Verified Tool Outputs:** When a reliable tool like `route_planner` returns a 'No path found' result, it is providing correct, valuable data about the map layout. I must trust this output over my own assumptions and immediately pivot my strategy instead of retrying the failed path. Wasting turns trying to force a non-existent path is a critical error.
+- **IMMEDIATE DATA HYGIENE (CRITICAL):** All discoveries, such as confirmed dead ends, defeated trainers, or used warps, MUST be marked on the map immediately. Deferring this task, as I did with the Route 41 dead end, leads to wasted time and repeated mistakes. This is a non-negotiable protocol.
+- **MAP CONTEXT AWARENESS (ANTI-HALLUCINATION):** I must verify my `current_map_id` from the Game State Information *before* setting a navigation goal that involves coordinates on a different map. My recent hallucination of a warp on Route 41 (which is actually in Olivine City) was caused by a failure to confirm my current location before planning.
+- **Trust Documented Knowledge:** My own memory and intuition about game mechanics can be flawed (e.g., the SURF orientation issue). I must prioritize trusting my verified, documented knowledge in the notepad over assumptions. If there's a conflict, I must re-test the mechanic to confirm, but the default assumption should be that my notes are correct.
+- **Warp vs. Map Transition:** I must distinguish between formal warp tiles (listed in `Game State Information -> Map Events -> Warps`) and map transitions at the edge of a map. Hallucinating a warp where there is only a transition point is a critical navigation failure. I must verify all warps before setting them as a navigation goal.
 
 ## Navigation & Exploration
 - **Dead End Verification:** Do not declare an entire area a 'dead end' based on a single failed pathfinding attempt, especially to an unseen tile. A 'No path found' result is valuable data, but the area must be systematically and physically explored to be conclusively ruled out. My dismissal of Route 41's eastern channel was a critical strategic error based on insufficient evidence.
@@ -302,14 +306,3 @@
 - **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
 - **puzzle_solver (Agent):** Custom agent for in-game puzzles.
 - **NPC Repositioning:** An NPC moving does not guarantee a path is clear. They may simply move to a new blocking position, requiring a different solution (e.g., SILVER on Route 40).
-
-# STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
-- **IMMEDIATE DATA HYGIENE (CRITICAL):** All discoveries, such as confirmed dead ends, defeated trainers, or used warps, MUST be marked on the map immediately. Deferring this task, as I did with the Route 41 dead end, leads to wasted time and repeated mistakes. This is a non-negotiable protocol.
-- **MAP CONTEXT AWARENESS (ANTI-HALLUCINATION):** I must verify my `current_map_id` from the Game State Information *before* setting a navigation goal that involves coordinates on a different map. My recent hallucination of a warp on Route 41 (which is actually in Olivine City) was caused by a failure to confirm my current location before planning.
-
-## STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
-- **Trust Documented Knowledge:** My own memory and intuition about game mechanics can be flawed (e.g., the SURF orientation issue). I must prioritize trusting my verified, documented knowledge in the notepad over assumptions. If there's a conflict, I must re-test the mechanic to confirm, but the default assumption should be that my notes are correct.
-- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
-
-# STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
-- **Warp vs. Map Transition:** I must distinguish between formal warp tiles (listed in `Game State Information -> Map Events -> Warps`) and map transitions at the edge of a map. Hallucinating a warp where there is only a transition point is a critical navigation failure. I must verify all warps before setting them as a navigation goal.
