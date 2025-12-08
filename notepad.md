@@ -16,7 +16,7 @@
 - **XQH & F:** HM Squad.
 
 **Current Objective:** Battle Tower Challenge (Level 10).
-**Strategy:** Fly to Olivine City.
+**Strategy:** Walk to Olivine City via Route 38 & 39 (Fly destination locked).
 (Previous Goal Archived: Azalea/GS Ball - Cancelled)
 - **GS Ball Quest:** CANCELLED. Developer confirmed unobtainable in US Crystal without cheats.
 - **Primary Goal:** Battle Tower Challenge (Level 10). Strategy: Scout first, then prepare.
@@ -383,7 +383,7 @@
 # Post-Game Exploration
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
 **Current Objective:** Battle Tower Challenge (Level 10).
-**Strategy:** Fly to Olivine City.
+**Strategy:** Walk to Olivine City via Route 38 & 39 (Fly destination locked).
 (Previous Goal Archived: Azalea/GS Ball - Cancelled) Walk South through Route 34 to Ilex Forest.
 - **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Agent Hypothesis: Ball likely already with Kurt (inspecting). Action: Check Kurt in Azalea Town.
 - **Goldenrod City:** Cursor defaulted to Cherrygrove on Fly map despite being in Goldenrod. Unexplored tiles detected at map edges (Row 0, 1, 35, Col 0).
