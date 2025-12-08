@@ -91,7 +91,7 @@
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail catastrophically if its internal model of the game is inaccurate. The `switch_pokemon` tool failed because it did not account for the 'CANCEL' option in the party menu's circular list. All future tools must be designed with a perfect understanding of the in-game UI and mechanics they interact with.
 - **Precondition Verification:** When a sequence of actions (like using an HM from a menu) fails, do not immediately repeat the sequence. First, verify all necessary preconditions are met in the overworld (e.g., character position, orientation). Repeating a sequence without ensuring the preconditions are correct is a critical failure.
 - **UI Automation is Brittle:** My repeated failures with the `select_item` tool demonstrate that UI automation based on screen-parsing is inherently fragile. Future tools must use robust, state-aware parsing and avoid relying on external data (like the alphabetically-sorted inventory list) that doesn't match the observable UI.
-- **Abandon Failing Methods:** I wasted dozens of turns trying to fix a broken tool in a critical moment. If a method (especially a complex automated one) fails repeatedly, I must abandon it and switch to a simpler, more direct solution (like manual input) to solve the immediate problem. Tool maintenance should not block critical gameplay.
+- **Tool Maintenance is Highest Priority:** If a tool fails, fixing it becomes the immediate highest priority, overriding any in-game action, including critical battles. Deferring a fix is a critical failure, as the context required for debugging will be lost. This protocol is non-negotiable.
 
 # KNOWLEDGE BASE
 
