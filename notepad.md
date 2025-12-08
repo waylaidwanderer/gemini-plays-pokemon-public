@@ -393,3 +393,4 @@
 - **Navigation:** Wall at (11, 8) blocks Westbound path. Bypass via Row 7.
 - **Trainers:**
   - Psychic Norman (13, 7): Defeated.
+- **Moomoo Farm Quest:** Farmer needs BERRIES to cure sick Miltank. (Current status: 0 BERRIES in inventory). Quest paused.
