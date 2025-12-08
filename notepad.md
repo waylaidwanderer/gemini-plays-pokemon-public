@@ -309,3 +309,4 @@
 
 ## STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
 - **Trust Documented Knowledge:** My own memory and intuition about game mechanics can be flawed (e.g., the SURF orientation issue). I must prioritize trusting my verified, documented knowledge in the notepad over assumptions. If there's a conflict, I must re-test the mechanic to confirm, but the default assumption should be that my notes are correct.
+- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
