@@ -396,5 +396,5 @@
 - **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
 
 # CRITICAL ALERT
-- **MISSING POKEMON:** Paprika (Typhlosion) and Basalt (Geodude) are missing from the party. Box 1 is empty. Must check other PC boxes immediately.
+- **MISSING POKEMON:** Paprika (Typhlosion) and Basalt (Geodude) are likely in Box 1. Screen text confirmed Box 1 has 9/20 Pokemon, contradicting the Game State metadata which claimed it was empty. Switching back to Box 1 to retrieve them.
 - **Battle Tower:** Level 20 is LOCKED. Requires beating Level 10 first. Level 10 requires party <= Lv10. Current party ineligible. Aborting goal.
