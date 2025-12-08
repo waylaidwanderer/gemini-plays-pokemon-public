@@ -411,17 +411,12 @@
 - Bedrock (Larvitar) Lv20
 
 # Battle Tower Challenge (Run 3)
-**Status:** Run 2 Failed (Wiped by Heracross). Run 3 Started.
+**Status:** FAILED. Wiped by Juggler Fairfield (Tauros).
 **Team:** Basalt (Geodude), Vortex (Pidgeotto), Bahamut (Dratini).
-**Current Battle:** vs Juggler Fairfield (Tauros).
-- Basalt switched in on Hyper Beam. Tauros recharging. Free hit!
-- Turn 2: Basalt used Magnitude 9. Massive damage. Tauros in critical range. Basalt at 24/51 HP.
-- Turn 3: Tauros used Blizzard (Super Effective). Basalt Fainted.
-- Tauros Moves: Hyper Beam, Blizzard.
-- Sending Bahamut (Dratini) for Extremespeed cleanup.
-- Turn 4: Bahamut used Extremespeed. Tauros survived (~50% HP). Tauros used Hyper Beam. Bahamut Fainted.
-- Critical Context: Tauros is RECHARGING next turn.
-- Sending Vortex (Pidgeotto).
-- Strategy: Use Sand-Attack on the recharge turn to cripple accuracy.
-- Lesson: Battle Tower opponents (even at Lv20) have optimized movesets (Earthquake, Blizzard, Hyper Beam). Teams need perfect coverage and synergy.
-- Battle Log: Bahamut fainted to Hyper Beam. Tauros is Recharging. Sending Vortex to use Sand-Attack.
+**Battle Log:**
+- Basalt vs Tauros: Magnitude 9 dealt 50%. Basalt OHKO'd by Blizzard.
+- Bahamut vs Tauros: Extremespeed failed to kill. Bahamut OHKO'd by Hyper Beam.
+- Vortex vs Tauros: Landed Sand-Attack. Fainted to Quick Attack/Thunderbolt? (Lost).
+**Outcome:** Defeat.
+**Lesson:** Level 20 opponents have fully optimized TMs (Blizzard, Hyper Beam, Earthquake). My team (Lv15-19) is too underleveled and frail.
+**Next Step:** Train team to Level 20 on Route 38/39. Find BERRY for Moomoo Farm.
