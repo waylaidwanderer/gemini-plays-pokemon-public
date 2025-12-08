@@ -15,11 +15,10 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Fly to Goldenrod City.
+**Current Objective:** Travel to Azalea Town.
 **Strategy:**
-- **Lead:** Paprika (Typhlosion Lv74).
-- **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
-- **Contingency:** NO REVIVES AVAILABLE. Paprika must survive. Use Max Elixir to restore PP. Rely on -6 Accuracy debuff on Snorlax.
+- **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Hypothesis: Must speak to Kurt in Azalea Town to initialize event.
+- **Travel:** Exit Goldenrod PC -> Fly to Azalea Town.
 
 ### Recent Logs
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
