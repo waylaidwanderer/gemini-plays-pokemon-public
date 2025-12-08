@@ -387,3 +387,4 @@
 (Previous Goal Archived: Azalea/GS Ball - Cancelled) Walk South through Route 34 to Ilex Forest.
 - **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Agent Hypothesis: Ball likely already with Kurt (inspecting). Action: Check Kurt in Azalea Town.
 - **Goldenrod City:** Cursor defaulted to Cherrygrove on Fly map despite being in Goldenrod. Unexplored tiles detected at map edges (Row 0, 1, 35, Col 0).
+- **Fly Map Navigation:** From Cherrygrove, 'Left' input is invalid. Must press 'Up' (to Violet) before moving 'Left' (to Ecruteak/Olivine).
