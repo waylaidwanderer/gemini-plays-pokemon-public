@@ -173,6 +173,7 @@
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
+- **HM02 FLY:** Obtained from Chuck's wife in Cianwood City. Allows flying to previously visited towns.
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
 - **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
 
