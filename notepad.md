@@ -17,8 +17,9 @@
 
 **Current Objective:** Travel to Azalea Town.
 **Strategy:**
-- **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Agent Hypothesis: Ball likely already with Kurt (inspecting). Action: Check Kurt in Azalea Town.
-- **Travel:** Walk South through Route 34 to Ilex Forest. (Day Care entrance blocked/inactive).
+- **GS Ball Quest:** CANCELLED. Developer confirmed unobtainable in US Crystal without cheats.
+- **Primary Goal:** Battle Tower Challenge (Level 10). Strategy: Scout first, then prepare.
+- **Travel:** Finish phone call, talk to Teacher, then Fly to Olivine City -> Battle Tower.
 
 ### Recent Logs
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
