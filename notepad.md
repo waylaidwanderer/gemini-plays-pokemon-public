@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Venusaur (Incoming). Paprika (Lv75, 188/240 HP). Strategy: Flamethrower.
+**Status:** BATTLE VS RED. Venusaur (Lv77). Paprika (Lv75, 203/240 HP). Strategy: Flamethrower.
 **Objective:** DEFEAT RED.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
