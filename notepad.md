@@ -19,17 +19,10 @@
 - **Proactive Mindset:** I must anticipate future needs (HMs, items, levels) and proactively address them before they become blockers. When a plan is repeatedly interrupted by a variable (e.g., moving NPC), I must switch to a deterministic strategy (e.g., `stun_npc`) immediately.
 - **Pre-Battle Level Assessment:** Before challenging a Gym Leader or other major opponent, assess the level gap. If my team is significantly lower-leveled (5+ levels), I must prioritize level grinding to a competitive level before attempting the battle. Rushing in under-leveled leads to wasted resources and time.
 
-## Navigation & Exploration
-- **Dead End Verification:** Do not declare an entire area a 'dead end' based on a single failed pathfinding attempt, especially to an unseen tile. A 'No path found' result is valuable data, but the area must be systematically and physically explored to be conclusively ruled out. My dismissal of Route 41's eastern channel was a critical strategic error based on insufficient evidence.
-- **Visual Path Verification:** Before executing a move, I must visually confirm the path on the ASCII map and game screen to avoid simple navigational errors like walking into walls. This supplements tool-based pathfinding.
-- **Pathing Interruption:** Even short, automated paths can be interrupted by moving NPCs. Proactive stunning is the most reliable strategy to ensure path execution and successful interaction.
-- **Moving NPC Blockades:** If a path is repeatedly blocked by a moving NPC, stop recalculating the path. The most efficient solution is to use `stun_npc` to freeze them in a favorable position and then proceed.
-- **Movement Loop Breaking:** When stuck in a movement loop or repeatedly blocked, changing the immediate navigation target is an effective strategy to break the cycle and find a new, clear path.
-- **Pathing Near Hazards:** When navigating near multiple hazards (like adjacent pits), automated pathing can be unreliable if interrupted. To avoid repeated errors, break down the path into smaller, manually-controlled segments for the final, critical steps to ensure precise positioning.
-- **Automated Path Vetting:** Automated paths, especially from `plan_systematic_search_path`, can unintentionally lead into warps. I MUST visually inspect the generated coordinate list for known warp tiles before executing the path to avoid accidental map transitions.
-- **Map Transition Failures:** If a map transition (like walking into a boundary wall) fails repeatedly (3+ times), the root assumption about how to trigger it is wrong. Do not continue repeating the failed action. Immediately pivot to a different objective or explore alternative routes. This is a critical lesson from the Route 39 blockage.
-- **IMMEDIATE OBSTACLE MARKING:** I failed to mark Sailor Huey as a blocker, causing me to waste time retrying a failed path. All critical obstacles MUST be marked with '🚫' immediately upon discovery to prevent loops.
-- **Re-Exploration Strategy:** When all forward paths are confirmed dead ends, the solution may be in a previously visited area. Do not assume re-exploring is inefficient; a missed item, NPC, or trainer could be the key to progression.
+## 3. Navigation & Exploration
+- **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
+- **Dead End Verification & Pivoting:** Do not declare an area a dead end based on a single failed pathfinding attempt. However, if multiple paths in a large area are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy.
+- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` instead of retrying the same failed path.
 - **Route 39 One-Way Path:** Route 39 is a one-way path south due to a series of ledges. It is impossible to travel north through this route from the Olivine City entrance.
 
 ## Puzzle Solving & Logic
