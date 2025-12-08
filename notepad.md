@@ -191,6 +191,7 @@
 | Water | Rock | Super Effective |
 | Water | Ground | Super Effective |
 | Water | Water | Not Very Effective |
+| Fighting | Rock | Super Effective |
 
 ## Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next.
