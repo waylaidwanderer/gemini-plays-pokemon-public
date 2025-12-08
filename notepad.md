@@ -5,16 +5,16 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-# 🏆 POKÉMON CRYSTAL: COMPLETED 🏆
-**Final Status:** Red Defeated. 16 Badges. Pokedex: 13.
+# 🏆 POKÉMON CRYSTAL: POST-GAME 🏆
+**Status:** Red Defeated! Back in Silver Cave Outside. Investigating new message.
 **The Champion Team:**
-- **Paprika (Typhlosion Lv75):** The MVP. Burned Snorlax, roasted Venusaur.
+- **Paprika (Typhlosion Lv75):** The MVP.
 - **Basalt (Geodude):** Reliable support.
 - **Vortex (Pidgeotto):** The Flyer.
 - **Bahamut (Dratini):** The Future.
 - **XQH (Sandshrew) & F (Psyduck):** The Cut/Surf/Whirlpool squad.
 
-**Mission Complete.** Time to rest.
+**Current Objective:** Read the mysterious message about an item in the PACK.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
 - **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
