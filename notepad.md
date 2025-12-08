@@ -381,3 +381,7 @@
 # POST-GAME
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
 **Next:** Fly to Goldenrod City (GS Ball Check).
+
+# Post-Game Exploration
+**Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
+**Current Objective:** Fly to Goldenrod City (GS Ball check).
