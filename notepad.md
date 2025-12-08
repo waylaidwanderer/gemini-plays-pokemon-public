@@ -98,18 +98,9 @@
 - **UI Automation is Brittle:** My repeated failures with the `select_item` tool demonstrate that UI automation based on screen-parsing is inherently fragile. Future tools must use robust, state-aware parsing and avoid relying on external data (like the alphabetically-sorted inventory list) that doesn't match the observable UI.
 - **Abandon Failing Methods:** I wasted dozens of turns trying to fix a broken tool in a critical moment. If a method (especially a complex automated one) fails repeatedly, I must abandon it and switch to a simpler, more direct solution (like manual input) to solve the immediate problem. Tool maintenance should not block critical gameplay.
 
-## Battle & Resource Management
-- **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
-- **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
-- **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
-- **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
-- **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
+# KNOWLEDGE BASE
 
-# CURRENT QUEST: Get the SECRETPOTION for Amphy.
-
-# STRATEGIC KNOWLEDGE BASE
-
-## Game Mechanics & Systems
+## Game Systems & Mechanics
 - **Day/Night Cycle:** An important mechanic, affecting events.
 - **POKé BALLS:** Received 5 from the scientist in Elm's Lab. Can now catch wild Pokémon.
 - **PC Storage:** Used for Pokémon and item storage in Pokémon Centers.
@@ -171,7 +162,13 @@
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
 
-## Battle Mechanics
+## Battle & Resource Management
+- **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
+- **Blocked Movement vs. Battle Start:** A 'Movement Blocked' alert does not guarantee a wild battle has started. I must wait for the battle screen text to appear before assuming I am in a battle and pressing 'A' to advance dialogue. This prevents wasted turns from incorrect assumptions.
+- **Struggle Mechanic Failure:** Repeatedly selecting a 0 PP move does not trigger Struggle in this game. If a Pokémon runs out of PP, the only viable options are to switch out or use an item. Do not get stuck in a loop trying to force Struggle.
+- **Resource Management:** Avoid inefficient battles (e.g., against high-defense, low-EXP opponents) that drain PP for minimal gain. Running away is often the more strategic option to conserve resources for more important fights or exploration.
+- **Type Disadvantage Switching:** When a Pokémon is facing an opponent with a significant type advantage (e.g., Rock/Ground vs. Fighting), switching out is not just an option, it's a critical necessity to avoid taking massive damage or being knocked out. Preserving HP is key.
+- **Battle Interruption:** Battles, even with rival trainers, can be unexpectedly interrupted by in-game cutscenes or story events.
 - Pokémon holding a BERRY can automatically use it to heal themselves when their HP gets low in battle.
 - Poisoned Pokémon lose 1 HP every four steps outside of battle and remain poisoned after a wild battle concludes.
 - Accuracy-lowering moves like SMOKESCREEN are not a guaranteed defense.
@@ -203,7 +200,7 @@
 - In the party screen, the 'SWITCH' option is used to reorder Pokémon. The 'MOVE' option is for reordering a Pokémon's moves.
 - The main battle menu options are laid out in a 2x2 grid: FIGHT (top-left), PKMN (top-right), PACK (bottom-left), RUN (bottom-right).
 
-# LORE & DIALOGUE
+## LORE & DIALOGUE
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
 - **POKEFAN_M in Violet City House:** Traded Pokémon grow quickly but may disobey without the correct Gym Badge.
 - Received MIRACLE SEED from a trainer on Route 32.
@@ -228,7 +225,7 @@
 - **COOLTRAINER_F in Ecruteak Pokémon Center:** "MORTY, the GYM LEADER, is soooo cool. His POKéMON are really tough too."
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
 
-# KEY ITEMS & TMs
+## KEY ITEMS & TMs
 ## Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
@@ -244,10 +241,10 @@
 - **TM49 FURY CUTTER**
 - **TM08 ROCK SMASH:** Received from a man on Route 36 after a battle.
 
-# Crafting
+## Crafting
 - Kurt in Azalea Town can make special POKé BALLS from APRICORNS. I received a LURE BALL from him as an example.
 
-# Solved Puzzles
+## Solved Puzzles
 ### Azalea Gym
 - Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
@@ -281,23 +278,23 @@
 ### Ecruteak Gym Puzzle
 - **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
 
-# Obstacles and Solutions
+## Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
 
-# Held Items
+## Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
-# PC Inventory
+## PC Inventory
 - **Box 1:**
   - Hestia (MAGBY), Lv15, Female
 
-# Rematch Opportunities
+## Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
-# Custom Tools & Agents
+## Custom Tools & Agents
 - **route_planner:** Custom pathfinding tool.
 - **select_move:** Custom tool to select a move in battle.
 - **switch_pokemon:** Custom tool to switch Pokémon in battle.
