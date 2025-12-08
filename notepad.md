@@ -409,3 +409,9 @@
 - F (Psyduck) Lv??
 - Paprika (Typhlosion) Lv75
 - Bedrock (Larvitar) Lv20
+
+# Battle Tower Challenge (Run 3)
+**Status:** Run 2 Failed (Wiped by Heracross). Run 3 Started.
+**Team:** Basalt (Geodude), Vortex (Pidgeotto), Bahamut (Dratini).
+**Current Battle:** vs Juggler Fairfield (Tauros).
+- Basalt switched in on Hyper Beam. Tauros recharging. Free hit!
