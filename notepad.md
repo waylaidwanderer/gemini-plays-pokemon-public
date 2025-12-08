@@ -383,3 +383,4 @@
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
 **Current Objective:** Fly to Goldenrod City (GS Ball check).
 - GS Ball event didn't trigger on exit. Checking PC storage.
+- **GS Ball Check:** Not in Key Items or PC Storage. Event at Goldenrod PC did not trigger on exit/re-entry. Next step: Check Kurt in Azalea Town.
