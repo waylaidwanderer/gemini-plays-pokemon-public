@@ -331,3 +331,5 @@
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken. This was proven correct when it identified the southern part of Route 42 as a dead end.
 ## Lessons from Reflection (Turn 42755)
 - **Critical Positional Hallucination:** I experienced a catastrophic hallucination, believing I had warped from Mt. Mortar to Route 42 when I had not. My entire subsequent turn was based on this false reality. **LESSON:** My memory of events across map transitions is completely unreliable. I MUST adhere to the Positional Verification Protocol without exception: after ANY map transition, I must immediately verify my `current_map_id` and `current_position` from the Game State Information before taking any other action. Trusting my memory is a guaranteed path to critical failure.
+## Rematch Opportunities
+- Sailor Huey at the Olivine Lighthouse called for a rematch.
