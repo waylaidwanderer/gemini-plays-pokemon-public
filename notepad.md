@@ -6,15 +6,16 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 # 🏆 POKÉMON CRYSTAL: POST-GAME 🏆
-**Status:** Red Defeated! Back in Silver Cave Outside. Investigating new message.
+**Status:** Red Defeated! The 'mysterious message' was just a tutorial.
+**Next Stop:** Goldenrod City (GS Ball/Celebi check).
 **The Champion Team:**
 - **Paprika (Typhlosion Lv75):** The MVP.
-- **Basalt (Geodude):** Reliable support.
-- **Vortex (Pidgeotto):** The Flyer.
+- **Basalt (Geodude):** Support.
+- **Vortex (Pidgeotto):** Flyer.
 - **Bahamut (Dratini):** The Future.
-- **XQH (Sandshrew) & F (Psyduck):** The Cut/Surf/Whirlpool squad.
+- **XQH & F:** HM Squad.
 
-**Current Objective:** Read the mysterious message about an item in the PACK.
+**Current Objective:** Fly to Goldenrod City.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
 - **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
