@@ -348,3 +348,6 @@ else:
 ## Mt. Mortar Exploration Log
 - The cave entrance on Route 42 at (28, 9) leads to a dead-end section of the mountain. The southern plateau is inaccessible from this area.
 - **Tool Logic Synchronization:** My tools' internal models of the game must be consistent. A discrepancy between two tools (e.g., `route_planner` and `find_true_reachable_unseen_tiles` disagreeing on what's reachable) is a critical failure signal. I must immediately halt and debug the faulty tool to synchronize its logic with the more reliable one.
+
+# PENDING TOOL UPGRADES
+- **`route_planner` Replacement:** The current tool cannot handle mixed-mode (walk/surf) paths. I must define a new, more advanced pathfinding tool to replace it. This is a high-priority task to improve navigational efficiency.
