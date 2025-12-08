@@ -6,7 +6,7 @@
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
 ## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Charizard (Lv77, -6 Acc [Capped]). Paprika (237/237 HP). Strategy: Swift spam.
+**Status:** BATTLE VS RED. Charizard (Lv77, -6 Acc). Paprika (219/237 HP). Swift PP: 17/20. Strategy: Swift spam.
 **Objective:** DEFEAT RED.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
