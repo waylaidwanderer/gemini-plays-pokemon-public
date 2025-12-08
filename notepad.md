@@ -11,7 +11,7 @@
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
 - **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
-- **Contingency:** 'Zombie Phoenix' Strategy. If Paprika faints, switch to fodder, use Revive on Paprika, let fodder faint, switch Paprika back in. I have 30 Revives.
+- **Contingency:** NO REVIVES AVAILABLE. Paprika must survive. Use Max Elixir to restore PP. Rely on -6 Accuracy debuff on Snorlax.
 
 ### Recent Logs
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
