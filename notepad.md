@@ -374,20 +374,13 @@
 
 # Post-Game Exploration
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
-**Current Objective:** Fly to Goldenrod City (GS Ball check).
+**Current Objective:** Battle Tower Challenge (Level 20).
+**Strategy:** Enter Battle Tower.
+**Quest Log:**
+- **GS Ball:** CANCELLED (Unobtainable).
+- **Moomoo Farm:** Paused. Needs BERRY.
+- **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
-# Post-Game Exploration
-**Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
-**Current Objective:** Battle Tower Challenge (Level 10).
-**Strategy:** Walk to Olivine City via Route 38 & 39 (Fly destination locked).
-(Previous Goal Archived: Azalea/GS Ball - Cancelled) Walk South through Route 34 to Ilex Forest.
-- **GS Ball Quest:** Goldenrod PC event failed to trigger. PC Storage check negative. Agent Hypothesis: Ball likely already with Kurt (inspecting). Action: Check Kurt in Azalea Town.
-- **Goldenrod City:** Cursor defaulted to Cherrygrove on Fly map despite being in Goldenrod. Unexplored tiles detected at map edges (Row 0, 1, 35, Col 0).
-- **Fly Map Navigation:** From Cherrygrove, 'Left' input is invalid. Must press 'Up' (to Violet) before moving 'Left' (to Ecruteak/Olivine).
-## Route 39
-- **Status:** Exploring. Heading to Moomoo Farm.
-- **Navigation:** Wall at (11, 8) blocks Westbound path. Bypass via Row 7.
-- **Trainers:**
-  - Psychic Norman (13, 7): Defeated.
-- **Moomoo Farm Quest:** Farmer needs BERRIES to cure sick Miltank. (Current status: 0 BERRIES in inventory). Quest paused.
-- **Route 40:** Arrived via Olivine City. Heading to Battle Tower entrance at (9, 5).
+## Route 39 & 40 (Olivine Area)
+- **Route 39:** Psychic Norman (13, 7) Defeated. Moomoo Farm visited.
+- **Route 40:** Battle Tower Entrance at (9, 5).
