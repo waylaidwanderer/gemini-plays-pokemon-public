@@ -319,3 +319,5 @@
 
 ## Tile & Object Mechanics
 - **FLOOR_UP_WALL**: A one-way impassable tile. It can be jumped down from, but not climbed up onto from a lower elevation. Its side-to-side traversability is still unconfirmed.
+## Tools & Agents
+- **`advanced_route_planner` Behavior:** The tool correctly calculates paths that cross both land and water. However, it does not automate the transition. I must manually use SURF when the generated path moves from a land tile to an adjacent water tile. The tool's output is a set of coordinates; the method of traversal is my responsibility.
