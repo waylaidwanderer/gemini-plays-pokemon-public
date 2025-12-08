@@ -300,3 +300,4 @@
 - **Officer in Route 42 Gatehouse:** Warned that MT. MORTAR is a maze and to be careful not to get lost.
 ## Lessons from Reflection (Turn 42205)
 - **Immediate Updates are Critical:** The overwatch critique highlighted that I sometimes wait for a reflection to update my notepad. This is a flawed process. As an LLM, I have no 'later'. All new information, learned mechanics, or strategic lessons MUST be documented in the notepad or via map markers in the *exact same turn* they are discovered. Deferring this task is a critical failure of my core directive to maintain a perfect, up-to-the-second internal state.
+- **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
