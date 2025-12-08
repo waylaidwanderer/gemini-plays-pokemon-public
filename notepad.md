@@ -56,7 +56,7 @@
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point. Fly transports the player to a predetermined location within a city, not to a specific coordinate that can be targeted.
 - **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
 - **Olivine Lighthouse 2F Marker Cleanup:** The critique noted my markers on OlivineLighthouse2F are cluttered. As soon as I return to that floor, I must consolidate the redundant pit markers into a single, clear marker to improve map hygiene.
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
@@ -99,13 +99,12 @@
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **WALL**: An impassable tile that blocks movement.
-- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A one-way traversable warp tile at the edge of a map that transitions to the adjacent map.
+- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A one-way traversable warp tile at the edge of a map that transitions to the adjacent map. Its activation method is complex; simply stepping on it, pressing 'A' on it, moving in the specified direction *while on it*, or moving in the specified direction *onto it* from an adjacent tile have all failed in Mt. Mortar. The exact trigger is still under investigation.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
 
@@ -289,10 +288,6 @@
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
-## Game Systems & Mechanics
-- **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
-- **Olivine Lighthouse 2F Marker Cleanup:** The critique noted my markers on OlivineLighthouse2F are cluttered. As soon as I return to that floor, I must consolidate the redundant pit markers into a single, clear marker to improve map hygiene.
-- **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 
 ## Olivine City Gym Strategy
 - **Gym Leader:** Jasmine
@@ -303,33 +298,44 @@
   - CRUNCH (Pinsir): Fighting-type moves (Seismic Toss) are super-effective against Steel.
   - JUBILEE (Togetic): Normal/Flying, likely weak to Steel/Rock moves. Should be used cautiously.
 - **Plan:** Lead with VULCAN to deal heavy damage. Switch to CRUNCH if VULCAN is in trouble. Use CLAUDIUS as a backup. Avoid using JUBILEE unless necessary.
-## Lessons from Reflection (Turn 42050)
-- **Warp Coordinate Hallucination:** I experienced a critical hallucination when setting a navigation goal to exit the lighthouse, attempting to warp to (10, 18) which does not exist. This was a failure to follow my own anti-hallucination protocol. **LESSON:** I must *always* verify the exact coordinates of a target warp in the `Game State Information -> Map Events -> Warps` list for the current map *before* setting it as a `navigation_goal`. Trusting visual memory or estimation is unreliable and leads to wasted turns.
-- **Menu Navigation Verification:** When menu navigation is uncertain (especially with fainted party members), test with single button presses and observe the intermediate state before committing to a sequence. Do not assume how the menu will behave.
-- **Holistic Battle Strategy:** A simple type advantage can be completely negated by a significant level gap, weather effects (like SUNNY DAY weakening Water moves), or speed differences. A holistic battle strategy must account for all these factors, not just type matchups.
 
-## Game Systems & Mechanics (Updates)
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+## Reusable Code Snippets
+### Fly Route Planner (One-off Script)
+python
+import json
 
-## Tile & Object Mechanics (Updates)
-- **WARP_CARPET_DOWN**: A one-way traversable warp tile at the edge of a map that transitions to the adjacent map. Observed in Olivine City Port leading to the S.S. Aqua passage.
-- **Officer in Route 42 Gatehouse:** Warned that MT. MORTAR is a maze and to be careful not to get lost.
-## Lessons from Reflection (Turn 42205)
-- **Immediate Updates are Critical:** The overwatch critique highlighted that I sometimes wait for a reflection to update my notepad. This is a flawed process. As an LLM, I have no 'later'. All new information, learned mechanics, or strategic lessons MUST be documented in the notepad or via map markers in the *exact same turn* they are discovered. Deferring this task is a critical failure of my core directive to maintain a perfect, up-to-the-second internal state.
-- **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
-- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
-- **SURF Dismount Mechanic:** When adjacent to a land tile while surfing, pressing the directional button towards that land tile will automatically dismount and move the player onto it in a single action.
-## Lessons from Reflection (Turn 42518)
-- **Positional Hallucination:** A critical hallucination occurred where I believed I was outside the Pokémon Center when I was still inside. This reinforces the absolute necessity of the Positional Verification Protocol. I MUST check my `current_map_id` and `current_position` from the Game State Information before every single navigational action, without exception. Trusting my own memory is a guaranteed path to failure.
-## Lessons from Reflection (Turn 42569)
-- **Trust the Pathfinder:** In complex, non-linear mazes like Mt. Mortar, my visual assessment of the path can be unreliable. If the `route_planner` tool indicates a path exists, I must trust its output over my own intuition to avoid getting stuck or concluding I'm at a dead end prematurely.
-## Lessons from Reflection (Turn 42686)
-- **Warp Coordinate Hallucination:** I experienced a critical hallucination, assuming a warp to Mahogany Town existed at (59, 9) without verification. This is a direct violation of my anti-hallucination protocol. **LESSON:** I must *always* verify the exact coordinates of a target warp in the `Game State Information -> Map Events -> Warps` list for the current map *before* setting it as a `navigation_goal`. Assuming a map transition exists at the edge of a map is a form of hallucination and must be avoided.
-## Lessons from Reflection (Turn 42705)
-- **Fly Destination Hallucination:** I experienced a critical hallucination by setting a specific warp coordinate as a navigation goal for using Fly. This is a failure to understand the Fly mechanic. **LESSON:** Fly transports the player to a predetermined location within a city, not to a specific coordinate that can be targeted. Future navigation goals involving Fly must target the city name, not a specific tile.
-## Lessons from Reflection (Turn 42725)
-- **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken. This was proven correct when it identified the southern part of Route 42 as a dead end.
-## Lessons from Reflection (Turn 42755)
-- **Critical Positional Hallucination:** I experienced a catastrophic hallucination, believing I had warped from Mt. Mortar to Route 42 when I had not. My entire subsequent turn was based on this false reality. **LESSON:** My memory of events across map transitions is completely unreliable. I MUST adhere to the Positional Verification Protocol without exception: after ANY map transition, I must immediately verify my `current_map_id` and `current_position` from the Game State Information before taking any other action. Trusting my memory is a guaranteed path to critical failure.
-## Rematch Opportunities
-- Sailor Huey at the Olivine Lighthouse called for a rematch.
+# Updated graph with new discoveries
+fly_map = {
+    'NEW BARK TOWN': {'Up': 'CHERRYGROVE CITY'},
+    'CHERRYGROVE CITY': {'Down': 'NEW BARK TOWN', 'Up': 'VIOLET CITY'},
+    'VIOLET CITY': {'Down': 'CHERRYGROVE CITY', 'Up': 'AZALEA TOWN'},
+    'AZALEA TOWN': {'Down': 'VIOLET CITY', 'Up': 'GOLDENROD CITY'},
+    'GOLDENROD CITY': {'Down': 'AZALEA TOWN', 'Up': 'ECRUTEAK CITY'},
+    'ECRUTEAK CITY': {'Down': 'GOLDENROD CITY'}
+}
+
+start_city = 'CHERRYGROVE CITY' # Example input
+destination_city = 'ECRUTEAK CITY' # Example input
+
+# BFS to find the shortest path
+queue = [(start_city, [])]
+visited = {start_city}
+path_found = None
+
+while queue:
+    current, path = queue.pop(0)
+    if current == destination_city:
+        path_found = path
+        break
+
+    for direction, neighbor in fly_map.get(current, {}).items():
+        if neighbor not in visited:
+            visited.add(neighbor)
+            new_path = path + [direction]
+            queue.append((neighbor, new_path))
+
+if path_found:
+    print(json.dumps(path_found))
+else:
+    print(json.dumps("No path found"))
+```
