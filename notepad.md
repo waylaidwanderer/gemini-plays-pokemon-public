@@ -400,6 +400,5 @@
 - **Battle Tower:** Level 20 is LOCKED. Requires beating Level 10 first. Level 10 requires party <= Lv10. Current party ineligible. Aborting goal.
 
 # Status Update [Turn 24729]
-- **Battle Tower:** Level 20 Locked. Challenge Aborted.
-- **PC Box 1:** Confirmed contains 9 Pokémon (likely missing team).
-- **Current Objective:** Retrieve Paprika and Basalt from Box 1.
+- **Battle Tower:** Retrying Level 20 Challenge per dev instruction.
+- **Party Adjustment:** Depositing Paprika (Lv75) and Bahamut (Lv15) to form a valid 3-mon team (Bedrock, Basalt, Vortex).
