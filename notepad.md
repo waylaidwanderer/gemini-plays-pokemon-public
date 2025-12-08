@@ -400,3 +400,7 @@
 - **Silver Cave Room 2:** Cleared. Navigated eastern path to obtain Ultra Ball. Exited via North warp.
 - **Silver Cave Room 3:** Reached the summit. Red located at (9, 10).
 - **Menu Reliability:** Menus have persistent cursor memory and wrapping. Always visually verify cursor position or use 'force_press_button' with delays. Do not rely on blind input sequences.
+
+# POST-GAME
+**Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
+**Next:** Fly to Goldenrod City (GS Ball Check).
