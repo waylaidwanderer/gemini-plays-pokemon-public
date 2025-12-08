@@ -101,6 +101,7 @@
 - **WATER**: Traversable using the HM move SURF.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
 
