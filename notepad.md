@@ -393,3 +393,7 @@
 - **Hypothesis:** The harness is auto-pressing 'B' to clear the 'What level...' text box, inadvertently canceling the menu. 
 - **Strategy:** Using a rapid `press_sequence` (Down, A, sleep 200, Down, A) to select Level 20 before the harness can intervene.
 - **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
+
+# CRITICAL ALERT
+- **MISSING POKEMON:** Paprika (Typhlosion) and Basalt (Geodude) are missing from the party. Box 1 is empty. Must check other PC boxes immediately.
+- **Battle Tower:** Level 20 is LOCKED. Requires beating Level 10 first. Level 10 requires party <= Lv10. Current party ineligible. Aborting goal.
