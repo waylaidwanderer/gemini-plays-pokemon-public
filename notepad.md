@@ -312,4 +312,4 @@
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 
 ### Cianwood Gym
-- **Solution:** The gym puzzle is a trainer gauntlet. Defeating trainers causes new ones to appear, eventually clearing a path to the Gym Leader, Chuck. The boulders that appear are obstacles, not a puzzle to be solved with STRENGTH.
+- **Solution:** The gym puzzle is a trainer gauntlet. Defeating all the trainers clears a path to the Gym Leader, Chuck. The boulders that appear after defeating the first trainers must be pushed aside with STRENGTH to reach the final trainers and the Gym Leader.
