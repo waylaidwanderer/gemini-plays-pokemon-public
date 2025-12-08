@@ -20,7 +20,7 @@
 
 ## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
-- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` instead of retrying the same failed path.
+- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
 
 ## 3. Puzzle Solving & Logic
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
@@ -28,6 +28,7 @@
 
 ## 4. NPC & Object Interaction
 - **Interaction Pre-check:** Before pressing 'A', I must verify I am adjacent to and facing the target directly. Close all dialogue boxes before attempting to move.
+- **Interaction Loop Protocol:** If an NPC interaction enters a repetitive loop (e.g., repeatedly opening a shop menu), repeating the same interaction is not the solution. I must break the loop by changing the context, such as leaving and re-entering the area or interacting with other objects/NPCs before returning.
 - **Trust But Verify Dialogue:** Trust NPC guidance that opens up new paths (e.g., Gym Guide), but be skeptical of dialogue that claims a path is a dead end, especially if it contradicts physical evidence (like a sign). Always verify with my own exploration.
 
 ## 5. Tool & Agent Management
@@ -308,8 +309,6 @@
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
 ## Lessons Learned
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
-
-## Tile & Object Mechanics
 
 ## Tools & Agents
 - **`advanced_route_planner` Behavior:** The tool correctly calculates paths that cross both land and water. However, it does not automate the transition. I must manually use SURF when the generated path moves from a land tile to an adjacent water tile. The tool's output is a set of coordinates; the method of traversal is my responsibility.
