@@ -322,3 +322,8 @@
 - **Hypothesis 1:** Push boulders by walking into them. **Result:** Failed. Character bumps into boulder without moving it.
 - **Hypothesis 2:** Push boulders by pressing 'A' while facing them. **Result:** Failed. Displays generic text 'A POKéMON may be able to move this' but does not trigger the move.
 - **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
+## Cianwood Gym Boulder Puzzle Solution
+- My repeated failures were caused by the flawed root hypothesis that all boulders must be pushed north. The solution, identified by the `puzzle_solver` agent, involves creating an empty space by pushing a side boulder north, and then pushing the middle boulder sideways into that space to clear the central path.
+
+## Puzzle Solving Strategy
+- When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
