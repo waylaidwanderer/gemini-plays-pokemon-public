@@ -16,8 +16,8 @@
 - **XQH & F:** HM Squad.
 
 **Current Objective:** Battle Tower Challenge (Level 20).
-**Strategy:** Challenge the Tower with Bedrock (Lv20), Vortex (Lv17), Bahamut (Lv15).
-**Status:** Team assembled. Ready to challenge.
+**Strategy:** Challenge the Tower with Basalt (Lv19), Vortex (Lv17), Bahamut (Lv15).
+**Status:** Team assembled (Geodude, Pidgeotto, Dratini). Bedrock deposited. Ready to challenge.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
