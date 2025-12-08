@@ -5,9 +5,10 @@
 - **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
 - **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Called - Radio Reset].
 
-## Current Mission: Mt. Silver Conquest
-**Status:** BATTLE VS RED. Venusaur (Lv77). Paprika (Lv75, 203/240 HP). Strategy: Flamethrower.
-**Objective:** DEFEAT RED.
+## 🏆 MISSION ACCOMPLISHED: RED DEFEATED 🏆
+**Status:** VICTORY! Red has been defeated atop Mt. Silver.
+**MVP:** Paprika (Typhlosion Lv75) - The Godslayer.
+**Objective:** Watch Credits & Celebrate.
 **Strategy:**
 - **Lead:** Paprika (Typhlosion Lv74).
 - **Tactics:** Aggressive Fire attacks. Smokescreen vs Water/Rock types if possible.
