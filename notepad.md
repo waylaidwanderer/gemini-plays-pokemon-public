@@ -305,3 +305,6 @@
 ## Lessons Learned
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail catastrophically if its internal model of the game is inaccurate (e.g., how a specific tile type affects movement). All assumptions about game mechanics must be rigorously verified with in-game tests before being encoded into a tool. Trust the tool's output when it contradicts your assumptions, as it often reveals a flaw in your understanding of the map or mechanics.
 - **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
+
+## Olivine Lighthouse
+- Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
