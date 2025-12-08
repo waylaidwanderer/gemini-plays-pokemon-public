@@ -395,17 +395,7 @@
 - **Strategy:** Using a rapid `press_sequence` (Down, A, sleep 200, Down, A) to select Level 20 before the harness can intervene.
 - **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
 
-# CRITICAL ALERT
-- **MISSING POKEMON:** Paprika (Typhlosion) and Basalt (Geodude) are likely in Box 1. Screen text confirmed Box 1 has 9/20 Pokemon, contradicting the Game State metadata which claimed it was empty. Switching back to Box 1 to retrieve them.
-- **Battle Tower:** Level 20 is LOCKED. Requires beating Level 10 first. Level 10 requires party <= Lv10. Current party ineligible. Aborting goal.
-
-# Status Update [Turn 24729]
-- **Battle Tower:** Retrying Level 20 Challenge per dev instruction.
-- **Party Adjustment:** Depositing Paprika (Lv75) and Bahamut (Lv15) to form a valid 3-mon team (Bedrock, Basalt, Vortex).
-- **Battle Tower Menu:** Level 20 is accessible by pressing **UP** from the default 'L:10' start position. The menu wraps or is inverted.
-- **Battle Tower Success:** Successfully entered Level 20 by pressing **UP** at the level selection screen. The menu wraps.
-
-# Battle Tower: Level 20 Challenge
-- **Round 1:** vs Lass Thornton
-  - Opponent: Starmie (Lv20)
-  - Strategy: Vortex lead. Use Sand-Attack to counter speed/power advantage.
+# Battle Tower Challenge Log
+- **Level 20 Attempt 1:** Failed vs Lass Thornton (Starmie).
+  - **Lesson:** Rock/Ground heavy team is too vulnerable to Water. Need balanced coverage.
+  - **Action:** Retrieving Paprika (Typhlosion) from PC to restructure team.
