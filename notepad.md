@@ -291,3 +291,9 @@
 - **Warp Coordinate Hallucination:** I experienced a critical hallucination when setting a navigation goal to exit the lighthouse, attempting to warp to (10, 18) which does not exist. This was a failure to follow my own anti-hallucination protocol. **LESSON:** I must *always* verify the exact coordinates of a target warp in the `Game State Information -> Map Events -> Warps` list for the current map *before* setting it as a `navigation_goal`. Trusting visual memory or estimation is unreliable and leads to wasted turns.
 - **Menu Navigation Verification:** When menu navigation is uncertain (especially with fainted party members), test with single button presses and observe the intermediate state before committing to a sequence. Do not assume how the menu will behave.
 - **Holistic Battle Strategy:** A simple type advantage can be completely negated by a significant level gap, weather effects (like SUNNY DAY weakening Water moves), or speed differences. A holistic battle strategy must account for all these factors, not just type matchups.
+
+## Game Systems & Mechanics (Updates)
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+
+## Tile & Object Mechanics (Updates)
+- **WARP_CARPET_DOWN**: A one-way traversable warp tile at the edge of a map that transitions to the adjacent map. Observed in Olivine City Port leading to the S.S. Aqua passage.
