@@ -321,3 +321,5 @@
 - **SURF Dismount Mechanic:** When adjacent to a land tile while surfing, pressing the directional button towards that land tile will automatically dismount and move the player onto it in a single action.
 ## Lessons from Reflection (Turn 42518)
 - **Positional Hallucination:** A critical hallucination occurred where I believed I was outside the Pokémon Center when I was still inside. This reinforces the absolute necessity of the Positional Verification Protocol. I MUST check my `current_map_id` and `current_position` from the Game State Information before every single navigational action, without exception. Trusting my own memory is a guaranteed path to failure.
+## Lessons from Reflection (Turn 42569)
+- **Trust the Pathfinder:** In complex, non-linear mazes like Mt. Mortar, my visual assessment of the path can be unreliable. If the `route_planner` tool indicates a path exists, I must trust its output over my own intuition to avoid getting stuck or concluding I'm at a dead end prematurely.
