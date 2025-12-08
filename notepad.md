@@ -317,3 +317,8 @@
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 - **Teacher in CianwoodLugiaSpeechHouse:** Mentioned a mythical sea creature hiding in the four islands between Cianwood and Olivine.
 - **Lass in CianwoodLugiaSpeechHouse:** Mentioned a creature that can only be seen if you have a SILVER WING.
+
+### Cianwood Gym Puzzle Log
+- **Hypothesis 1:** Push boulders by walking into them. **Result:** Failed. Character bumps into boulder without moving it.
+- **Hypothesis 2:** Push boulders by pressing 'A' while facing them. **Result:** Failed. Displays generic text 'A POKéMON may be able to move this' but does not trigger the move.
+- **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
