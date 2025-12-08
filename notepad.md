@@ -17,11 +17,10 @@
 
 **Current Objective:** Battle Tower Challenge (Level 20).
 **Strategy:** Challenge the Tower with Bedrock (Lv20), Vortex (Lv17), Bahamut (Lv15).
-(Previous Goal Archived: Azalea/GS Ball - Cancelled)
-- **GS Ball Quest:** CANCELLED. Developer confirmed unobtainable in US Crystal without cheats.
-- **Primary Goal:** Locate Missing Pokémon (Paprika, Basalt).
-- **Battle Tower:** Level 20 is LOCKED. Requires beating Level 10 first. Level 10 requires party <= Lv10. Current party ineligible.
-- **Travel:** Finish phone call, talk to Teacher, then Fly to Olivine City -> Battle Tower.
+**Status:** Team assembled. Ready to challenge.
+**Battle Tower Rules:**
+- 3 Pokémon team.
+- All Pokémon must be ≤ Level 20 for the L:20 challenge.
 
 ### Recent Logs
 - **Route 38 Navigation:** Westward path blocked by Wall at (29, 8) and Ledges at (21, 12). Must use North Path (Row 5).
