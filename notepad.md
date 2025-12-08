@@ -275,3 +275,5 @@
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 ## Lessons Learned
 - **Positional Verification is Critical:** After a map transition, system warning, or any unexpected event, I must immediately re-verify my `current_map_id` and `current_position` from the Game State Information. Trusting my own memory leads to critical hallucinations and wasted turns.
+## Lessons Learned
+- **Positional Verification is Critical:** After a map transition, system warning, or any unexpected event, I must immediately re-verify my `current_map_id` and `current_position` from the Game State Information. Trusting my own memory leads to critical hallucinations and wasted turns.
