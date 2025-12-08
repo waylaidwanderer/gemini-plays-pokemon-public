@@ -406,6 +406,6 @@
 - GIB RALTAR (Graveler) Lv37
 - SHUCKIE (Shuckle) Lv15
 - XQH (Sandshrew) Lv12
-- F (Psyduck) Lv?? (Unknown, likely <20)
+- F (Psyduck) Lv??
 - Paprika (Typhlosion) Lv75
-- Basalt (Geodude) Lv19
+- Bedrock (Larvitar) Lv20
