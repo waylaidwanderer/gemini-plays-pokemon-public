@@ -1,4 +1,25 @@
 {
+  "find_reachable_unseen_tiles": {
+    "description": "Parses the map XML to find all 'unseen' tiles that are adjacent to 'seen', traversable tiles, providing a list of exploration targets.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "is_surfing": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nis_surfing = input_data.get('is_surfing', 'false').lower() == 'true'\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y:\n        max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x:\n            max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\ngrid = [[('unseen', False) for _ in range(width)] for _ in range(height)]\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        seen = tile_elem.get('seen') == 'true'\n        grid[y][x] = (tile_type, seen)\n\nTRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT'}\nif is_surfing:\n    TRAVERSABLE_TYPES.add('WATER')\n\nreachable_unseen = []\nfor y in range(height):\n    for x in range(width):\n        tile_type, seen = grid[y][x]\n        if not seen:\n            is_reachable = False\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    neighbor_type, neighbor_seen = grid[ny][nx]\n                    if neighbor_seen and neighbor_type in TRAVERSABLE_TYPES:\n                        is_reachable = True\n                        break\n            if is_reachable:\n                reachable_unseen.append({'x': x, 'y': y})\n\nprint(json.dumps(reachable_unseen))",
+    "history": [
+      {
+        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool automates the process of identifying explorable 'unseen' tiles by checking for adjacency to known traversable areas. This will significantly improve exploration efficiency and prevent manual oversight.",
+        "timestamp": "2025-12-07T16:01:00.912Z",
+        "action_counter": 39770
+      }
+    ]
+  },
   "route_planner": {
     "description": "A new, reliable pathfinding tool that calculates the shortest path between two points on the current map, avoiding obstacles. Now includes a parameter to handle surfing.",
     "input_schema": {
@@ -99,6 +120,42 @@
         "commit_message": "fix: Correct pathfinding logic to allow pathing to destination tiles with objects. The agent identified that the tool was incorrectly marking destination tiles with objects (like warps or ladders) as impassable walls, causing it to fail on valid paths. This commit adds an exception for the 'end' tile, resolving the critical pathfinding failure.",
         "timestamp": "2025-12-07T20:08:41.794Z",
         "action_counter": 40223
+      }
+    ]
+  },
+  "select_item": {
+    "description": "Automates selecting an item from the bag during or outside of a battle. Takes the target item's name and the current screen text as input.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_item_name": {
+          "type": "string"
+        },
+        "current_screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_item_name",
+        "current_screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ncurrent_screen_text = input_data['current_screen_text']\ntarget_item_name = input_data['target_item_name']\n\nitem_names = []\ncursor_index = -1\nlines = current_screen_text.split('\\n')\n\n# Find the header of the item list to know where to start parsing\nstart_index = -1\nfor i, line in enumerate(lines):\n    if 'POCKET' in line and 'ITEMS' in line:\n        start_index = i + 1\n        break\n\n# If the header is found, proceed with parsing\nif start_index != -1:\n    item_lines = lines[start_index:]\n    \n    for line in item_lines:\n        stripped_line = line.strip()\n        \n        # Stop parsing at the bottom of the item box or an empty line\n        if '└' in stripped_line or not stripped_line:\n            break\n        \n        # Skip decorative lines\n        if '├' in stripped_line:\n            continue\n\n        # Check for cursor and clean the line\n        has_cursor = stripped_line.startswith('▶')\n        if has_cursor:\n            content = stripped_line.lstrip('▶').strip()\n        else:\n            content = stripped_line\n\n        # Remove any remaining UI characters like vertical bars\n        content = content.replace('│', '').strip()\n        \n        # If the line is empty after cleaning, it's not an item\n        if not content:\n            continue\n            \n        # Extract the item name by splitting off the quantity part (e.g., \" x10\")\n        # This is robust and handles items with or without quantities.\n        item_name = re.split(r'\\s*x\\s*\\d+', content)[0].strip()\n        \n        if item_name:\n            item_names.append(item_name)\n            if has_cursor:\n                cursor_index = len(item_names) - 1\n\n# If parsing was successful and the target item is in the list, calculate moves\nif target_item_name in item_names and cursor_index != -1:\n    target_index = item_names.index(target_item_name)\n    num_items = len(item_names)\n    \n    # Calculate the shortest path using modulo arithmetic\n    forward = (target_index - cursor_index + num_items) % num_items\n    backward = (cursor_index - target_index + num_items) % num_items\n    \n    buttons = []\n    if forward <= backward:\n        buttons.extend([\"Down\"] * forward)\n    else:\n        buttons.extend([\"Up\"] * backward)\n    \n    # Add button presses to use the item\n    buttons.extend(['A', 'sleep 500', 'A'])\n    \n    print(json.dumps(buttons))\nelse:\n    # If parsing failed or item not found, output an empty list\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "feat: Create select_item tool to automate bag navigation. This tool parses the item list from the screen text, calculates the shortest path to a target item, and outputs the necessary button presses. This addresses a critical overwatch suggestion to stop inefficient manual scrolling and improves battle efficiency.",
+        "timestamp": "2025-12-08T05:08:28.550Z",
+        "action_counter": 41341
+      },
+      {
+        "commit_message": "fix: Overhaul parser with robust findall logic via python_code_debugger. The previous `re.match` logic was too brittle and catastrophically failed on lines with OCR noise. This commit implements the agent's robust fix, which uses `re.findall` to capture all potential names and selects the last one, correctly identifying the item while ignoring leading artifacts. This resolves the critical parsing failure.",
+        "timestamp": "2025-12-08T05:10:48.436Z",
+        "action_counter": 41344
+      },
+      {
+        "commit_message": "fix: Overhaul parser with robust structural logic via python_code_debugger. The previous regex-based parser was too brittle and failed on names with non-standard characters. This commit implements the agent's robust, structure-based parser, which correctly identifies item names by removing surrounding UI elements and splitting on the quantity indicator. This resolves the catastrophic parsing failure.",
+        "timestamp": "2025-12-08T05:38:41.427Z",
+        "action_counter": 41409
       }
     ]
   },
@@ -691,63 +748,6 @@
         "commit_message": "fix: Overhaul parser to use HP stats as a stable anchor. The previous agent-provided logic catastrophically failed by incorrectly using 'LV' as a filter, which did not appear on the same line as the Pokémon's name. This commit implements a robust new parser that correctly identifies selectable menu items by looking for the 'HP/HP' stat block, ensuring the tool builds an accurate list and resolves the critical failure.",
         "timestamp": "2025-12-08T05:05:49.619Z",
         "action_counter": 41334
-      }
-    ]
-  },
-  "find_reachable_unseen_tiles": {
-    "description": "Parses the map XML to find all 'unseen' tiles that are adjacent to 'seen', traversable tiles, providing a list of exploration targets.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "is_surfing": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\nis_surfing = input_data.get('is_surfing', 'false').lower() == 'true'\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y:\n        max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x:\n            max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\ngrid = [[('unseen', False) for _ in range(width)] for _ in range(height)]\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        seen = tile_elem.get('seen') == 'true'\n        grid[y][x] = (tile_type, seen)\n\nTRAVERSABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'CAVE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT'}\nif is_surfing:\n    TRAVERSABLE_TYPES.add('WATER')\n\nreachable_unseen = []\nfor y in range(height):\n    for x in range(width):\n        tile_type, seen = grid[y][x]\n        if not seen:\n            is_reachable = False\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    neighbor_type, neighbor_seen = grid[ny][nx]\n                    if neighbor_seen and neighbor_type in TRAVERSABLE_TYPES:\n                        is_reachable = True\n                        break\n            if is_reachable:\n                reachable_unseen.append({'x': x, 'y': y})\n\nprint(json.dumps(reachable_unseen))",
-    "history": [
-      {
-        "commit_message": "feat: Create find_reachable_unseen_tiles tool. This tool automates the process of identifying explorable 'unseen' tiles by checking for adjacency to known traversable areas. This will significantly improve exploration efficiency and prevent manual oversight.",
-        "timestamp": "2025-12-07T16:01:00.912Z",
-        "action_counter": 39770
-      }
-    ]
-  },
-  "select_item": {
-    "description": "Automates selecting an item from the bag during or outside of a battle. Takes the target item's name and the current screen text as input.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_item_name": {
-          "type": "string"
-        },
-        "current_screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_item_name",
-        "current_screen_text"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ncurrent_screen_text = input_data['current_screen_text']\ntarget_item_name = input_data['target_item_name']\n\nitem_names = []\ncursor_index = -1\nlines = current_screen_text.split('\\n')\n\n# Find the header of the item list to know where to start parsing\nstart_index = -1\nfor i, line in enumerate(lines):\n    if 'POCKET' in line and 'ITEMS' in line:\n        start_index = i + 1\n        break\n\n# If the header is found, proceed with parsing\nif start_index != -1:\n    item_lines = lines[start_index:]\n    \n    for line in item_lines:\n        stripped_line = line.strip()\n        \n        # Stop parsing at the bottom of the item box or an empty line\n        if '└' in stripped_line or not stripped_line:\n            break\n        \n        # Skip decorative lines\n        if '├' in stripped_line:\n            continue\n\n        # Check for cursor and clean the line\n        has_cursor = stripped_line.startswith('▶')\n        if has_cursor:\n            content = stripped_line.lstrip('▶').strip()\n        else:\n            content = stripped_line\n\n        # Remove any remaining UI characters like vertical bars\n        content = content.replace('│', '').strip()\n        \n        # If the line is empty after cleaning, it's not an item\n        if not content:\n            continue\n            \n        # Extract the item name by splitting off the quantity part (e.g., \" x10\")\n        # This is robust and handles items with or without quantities.\n        item_name = re.split(r'\\s*x\\s*\\d+', content)[0].strip()\n        \n        if item_name:\n            item_names.append(item_name)\n            if has_cursor:\n                cursor_index = len(item_names) - 1\n\n# If parsing was successful and the target item is in the list, calculate moves\nif target_item_name in item_names and cursor_index != -1:\n    target_index = item_names.index(target_item_name)\n    num_items = len(item_names)\n    \n    # Calculate the shortest path using modulo arithmetic\n    forward = (target_index - cursor_index + num_items) % num_items\n    backward = (cursor_index - target_index + num_items) % num_items\n    \n    buttons = []\n    if forward <= backward:\n        buttons.extend([\"Down\"] * forward)\n    else:\n        buttons.extend([\"Up\"] * backward)\n    \n    # Add button presses to use the item\n    buttons.extend(['A', 'sleep 500', 'A'])\n    \n    print(json.dumps(buttons))\nelse:\n    # If parsing failed or item not found, output an empty list\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "feat: Create select_item tool to automate bag navigation. This tool parses the item list from the screen text, calculates the shortest path to a target item, and outputs the necessary button presses. This addresses a critical overwatch suggestion to stop inefficient manual scrolling and improves battle efficiency.",
-        "timestamp": "2025-12-08T05:08:28.550Z",
-        "action_counter": 41341
-      },
-      {
-        "commit_message": "fix: Overhaul parser with robust findall logic via python_code_debugger. The previous `re.match` logic was too brittle and catastrophically failed on lines with OCR noise. This commit implements the agent's robust fix, which uses `re.findall` to capture all potential names and selects the last one, correctly identifying the item while ignoring leading artifacts. This resolves the critical parsing failure.",
-        "timestamp": "2025-12-08T05:10:48.436Z",
-        "action_counter": 41344
-      },
-      {
-        "commit_message": "fix: Overhaul parser with robust structural logic via python_code_debugger. The previous regex-based parser was too brittle and failed on names with non-standard characters. This commit implements the agent's robust, structure-based parser, which correctly identifies item names by removing surrounding UI elements and splitting on the quantity indicator. This resolves the catastrophic parsing failure.",
-        "timestamp": "2025-12-08T05:38:41.427Z",
-        "action_counter": 41409
       }
     ]
   }
