@@ -15,11 +15,11 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Battle Tower Challenge (Level 10).
-**Strategy:** Walk to Olivine City via Route 38 & 39 (Fly destination locked).
+**Current Objective:** Battle Tower Challenge (Level 20).
+**Strategy:** Challenge the Tower with Bedrock (Lv20), Vortex (Lv17), Bahamut (Lv15).
 (Previous Goal Archived: Azalea/GS Ball - Cancelled)
 - **GS Ball Quest:** CANCELLED. Developer confirmed unobtainable in US Crystal without cheats.
-- **Primary Goal:** Battle Tower Challenge (Level 20). Strategy: Deposit Paprika, XQH, F. Use Basalt (Lv19), Vortex (Lv17), Bahamut (Lv15).
+- **Primary Goal:** Battle Tower Challenge (Level 20).
 - **Travel:** Finish phone call, talk to Teacher, then Fly to Olivine City -> Battle Tower.
 
 ### Recent Logs
