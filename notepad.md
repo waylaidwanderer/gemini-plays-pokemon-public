@@ -310,3 +310,6 @@
 ## STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
 - **Trust Documented Knowledge:** My own memory and intuition about game mechanics can be flawed (e.g., the SURF orientation issue). I must prioritize trusting my verified, documented knowledge in the notepad over assumptions. If there's a conflict, I must re-test the mechanic to confirm, but the default assumption should be that my notes are correct.
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
+
+# STRATEGIC PROTOCOL & LESSONS LEARNED (Reflection Update)
+- **Warp vs. Map Transition:** I must distinguish between formal warp tiles (listed in `Game State Information -> Map Events -> Warps`) and map transitions at the edge of a map. Hallucinating a warp where there is only a transition point is a critical navigation failure. I must verify all warps before setting them as a navigation goal.
