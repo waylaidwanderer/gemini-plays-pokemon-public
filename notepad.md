@@ -423,3 +423,5 @@
 - Critical Context: Tauros is RECHARGING next turn.
 - Sending Vortex (Pidgeotto).
 - Strategy: Use Sand-Attack on the recharge turn to cripple accuracy.
+- Lesson: Battle Tower opponents (even at Lv20) have optimized movesets (Earthquake, Blizzard, Hyper Beam). Teams need perfect coverage and synergy.
+- Battle Log: Bahamut fainted to Hyper Beam. Tauros is Recharging. Sending Vortex to use Sand-Attack.
