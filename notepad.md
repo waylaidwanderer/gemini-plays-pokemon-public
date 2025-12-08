@@ -251,6 +251,17 @@
 - `define_agent`
 - `delete_agent`
 - `select_battle_option`
+### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `define_tool`
+- `delete_tool`
+- `define_agent`
+- `delete_agent`
+- `select_battle_option`
 
 ### Custom Tools
 - `route_planner`
