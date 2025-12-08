@@ -259,6 +259,7 @@
 
 ### Custom Tools
 - `advanced_route_planner`
+- `find_true_reachable_unseen_tiles`
 - `select_item`
 - `select_move`
 - `switch_pokemon`
