@@ -2,7 +2,7 @@
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
 
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION & POSITIONAL VERIFICATION PROTOCOL
-- My memory is unreliable. The Game State Information is the absolute source of truth.
+- My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
 - **Before EVERY navigational action or goal setting:**
   1. I MUST verify my `current_map_id` and `current_position`.
   2. If the goal involves a warp, I MUST verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the **current map**.
@@ -174,8 +174,10 @@
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
 - **HM01 CUT:** Obtained from the charcoal maker in Ilex Forest. Allows cutting small trees outside of battle. Requires the Hive Badge.
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
+- **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
 
 ## TMs
+- **TM01 DYNAMICPUNCH:** From Chuck. An inaccurate but powerful move that causes confusion when it hits.
 - **TM12 SWEET Scent**
 - **TM31 MUD-SLAP**
 - **TM39 SWIFT**
@@ -237,23 +239,29 @@
 - Sailor Huey at the Olivine Lighthouse called for a rematch.
 
 ## Custom Tools & Agents
-- **notepad_edit:** Built-in tool to edit the notepad.
-- **run_code:** Built-in tool to run Python code.
-- **define_map_marker:** Built-in tool to create map markers.
-- **delete_map_marker:** Built-in tool to delete map markers.
-- **route_planner:** Custom pathfinding tool.
-- **select_move:** Custom tool to select a move in battle.
-- **switch_pokemon:** Custom tool to switch Pokémon in battle.
-- **find_reachable_unseen_tiles:** Custom tool to find explorable unseen tiles.
-- **python_code_debugger (Agent):** Custom agent for debugging Python scripts.
-- **puzzle_solver (Agent):** Custom agent for in-game puzzles.
-- **stun_npc:** Built-in tool to stop/resume NPC movement.
-- **define_tool:** Built-in tool to create new reusable tools.
-- **delete_tool:** Built-in tool to delete custom tools.
-- **define_agent:** Built-in tool to create new agents.
-- **delete_agent:** Built-in tool to delete custom agents.
-- **select_battle_option:** Built-in tool to select a main battle menu option.
-- **select_item:** Custom tool to select an item from the bag.
+### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `define_tool`
+- `delete_tool`
+- `define_agent`
+- `delete_agent`
+- `select_battle_option`
+
+### Custom Tools
+- `route_planner`
+- `select_move`
+- `switch_pokemon`
+- `find_reachable_unseen_tiles`
+- `select_item`
+
+### Custom Agents
+- `python_code_debugger`
+- `puzzle_solver`
+
 - **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 
 ## Ongoing Investigations
@@ -270,10 +278,4 @@
 ## Cianwood Gym Boulder Puzzle Solution
 - My repeated failures were caused by the flawed root hypothesis that all boulders must be pushed north. The solution, identified by the `puzzle_solver` agent, involves creating an empty space by pushing a side boulder north, and then pushing the middle boulder sideways into that space to clear the central path.
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
-## Lessons Learned
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
-## Lessons Learned
-- Ignoring my own pre-battle level assessment protocol leads to difficult, resource-draining battles. I must adhere to my own strategic plans to ensure victory and avoid wasting time and resources.
-## Key Items & TMs
-- **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
-- **TM01 DYNAMICPUNCH:** From Chuck. An inaccurate but powerful move that causes confusion when it hits.
