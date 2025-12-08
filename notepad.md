@@ -118,7 +118,7 @@
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. Interacting with them after a call will trigger a new battle. My previous assumption that trainers could only be fought once was incorrect.
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
-- **SURF Mechanic:** The player can use SURF while adjacent to a water tile, even if not directly facing it. The game will automatically turn the character to face the water before executing the move.
+- **SURF Mechanic:** To use SURF, the player must be standing on a tile adjacent to water AND be facing the water tile. The game will NOT automatically turn the character.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
