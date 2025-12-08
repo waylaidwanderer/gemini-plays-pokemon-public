@@ -11,30 +11,24 @@
   2. I MUST discard any previous plan based on a now-invalidated location and re-evaluate my next action from the correct state.
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns.
 
-# STRATEGIC PROTOCOL & LESSONS LEARNED
+# STRATEGIC PROTOCOL
 
-## 1. Core Principles
-- **Anti-Hallucination Protocol:** My memory is unreliable. The Game State Information is the absolute source of truth. Before EVERY navigational action, I MUST verify my `current_map_id` and `current_position`. After EVERY map transition or unexpected event, I MUST immediately re-verify and re-evaluate my plan.
+## 1. Core Principles & Planning
 - **Plan-Execute-Verify Cycle:** I must follow a strict cycle: 1) Consult my knowledge base (notepad, markers) before acting. 2) Execute a methodical plan. 3) Verify the outcome and update my knowledge base immediately.
 - **Proactive Mindset:** I must anticipate future needs (HMs, items, levels) and proactively address them before they become blockers. When a plan is repeatedly interrupted by a variable (e.g., moving NPC), I must switch to a deterministic strategy (e.g., `stun_npc`) immediately.
 - **Pre-Battle Level Assessment:** Before challenging a Gym Leader or other major opponent, assess the level gap. If my team is significantly lower-leveled (5+ levels), I must prioritize level grinding to a competitive level before attempting the battle. Rushing in under-leveled leads to wasted resources and time.
 
-## 3. Navigation & Exploration
+## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
-- **Dead End Verification & Pivoting:** Do not declare an area a dead end based on a single failed pathfinding attempt. However, if multiple paths in a large area are confirmed dead ends, the root assumption that the solution is in that area is likely flawed. I must pivot to a completely different location or strategy.
 - **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` instead of retrying the same failed path.
-- **Route 39 One-Way Path:** Route 39 is a one-way path south due to a series of ledges. It is impossible to travel north through this route from the Olivine City entrance.
 
-## 4. Puzzle Solving
+## 3. Puzzle Solving & Logic
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
-- **Non-Linear & External Solutions:** Puzzle solutions are not always linear; moving 'backwards' or 'down' can be the correct way forward. If all internal solutions are exhausted, the trigger is likely external to the puzzle area.
-- **Cianwood Gym Boulder Puzzle Solution:** The solution involves creating an empty space by pushing a side boulder north, and then pushing the middle boulder sideways into that space to clear the central path. Pushing all boulders north is a flawed assumption.
+- **Escalate to Puzzle Solver:** When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
 
-## NPC & Object Interaction
+## 4. NPC & Object Interaction
 - **Interaction Pre-check:** Before pressing 'A', I must verify I am adjacent to and facing the target directly. Close all dialogue boxes before attempting to move.
-- **Interaction Loops:** If an interaction doesn't advance the game state after 2-3 'A' presses, the interaction is stuck. I must move away and back to reset it. Do not get stuck in a loop.
 - **Trust But Verify Dialogue:** Trust NPC guidance that opens up new paths (e.g., Gym Guide), but be skeptical of dialogue that claims a path is a dead end, especially if it contradicts physical evidence (like a sign). Always verify with my own exploration.
-- **Battle Triggers:** A battle might be triggered by direct interaction or line of sight. However, I must first challenge the root assumption that a battle is necessary at all and look for a path around the NPC before attempting to force an interaction.
 
 ## 5. Tool & Agent Management
 - **Tool Maintenance is Highest Priority:** If a tool fails, it MUST be fixed immediately, overriding any in-game action. Deferring a fix is a critical failure. After applying a fix, especially from an agent, the tool's functionality must be verified with a simple test case.
@@ -274,9 +268,3 @@
 - **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
 ## Cianwood Gym Boulder Puzzle Solution
 - My repeated failures were caused by the flawed root hypothesis that all boulders must be pushed north. The solution, identified by the `puzzle_solver` agent, involves creating an empty space by pushing a side boulder north, and then pushing the middle boulder sideways into that space to clear the central path.
-
-## Puzzle Solving Strategy
-- When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
-## Tool & Agent Management
-- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
-- **Pre-Battle Level Assessment:** Before challenging a Gym Leader or other major opponent, assess the level gap. If my team is significantly lower-leveled (5+ levels), I must prioritize level grinding to a competitive level before attempting the battle. Rushing in under-leveled leads to wasted resources and time.
