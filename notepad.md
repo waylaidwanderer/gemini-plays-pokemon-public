@@ -268,3 +268,4 @@
 - **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
 ## Cianwood Gym Boulder Puzzle Solution
 - My repeated failures were caused by the flawed root hypothesis that all boulders must be pushed north. The solution, identified by the `puzzle_solver` agent, involves creating an empty space by pushing a side boulder north, and then pushing the middle boulder sideways into that space to clear the central path.
+- **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency.
