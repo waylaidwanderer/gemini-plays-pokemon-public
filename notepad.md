@@ -394,3 +394,4 @@
 - **Trainers:**
   - Psychic Norman (13, 7): Defeated.
 - **Moomoo Farm Quest:** Farmer needs BERRIES to cure sick Miltank. (Current status: 0 BERRIES in inventory). Quest paused.
+- **Route 40:** Arrived via Olivine City. Heading to Battle Tower entrance at (9, 5).
