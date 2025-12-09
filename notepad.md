@@ -163,8 +163,10 @@
 
 ## Training Strategy (Level 20)
 - **Location:** Route 39 (Moomoo Farm). Wild Pokémon Lv13-16.
-- **Leader:** Vortex (Pidgeotto) or Bahamut (Dratini).
-- **Tactics:** Vortex (Fly/Gust), Bahamut (Extremespeed), Basalt (Magnitude vs Magnemite).
+- **Strategy:** Switch Training. Lead with Bahamut (Dratini), switch to Basalt (Geodude) immediately.
+- **Targets:** Magnemite (Basalt resists Electric/Steel, OHKO with Magnitude), Meowth, Raticate.
+- **Avoid:** Miltank, Tauros (Too bulky/dangerous).
+- **Battle Tower Advice:** Current team is weak. Recommends replacing Dratini/Pidgeotto with Starmie/Abra/Gastly if this fails. ALL must be Lv20.
 - **Immediate Goal:** Deliver Berry to Moomoo Farm (Have 2 in bag).
 
 ## Power Plant
