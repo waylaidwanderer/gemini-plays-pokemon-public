@@ -1,3 +1,18 @@
+# LESSONS LEARNED
+
+## Tool & Agent Management
+- **Proactive Tool Testing:** I must test tools in their expected environments (e.g., a pathfinder on a water route) *before* relying on them for critical navigation to avoid mid-task failures.
+- **Tool-Game Mechanic Parity:** Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types like WATER, or not understanding a menu's structure). All tools must be designed with a perfect understanding of the game mechanics and UI they interact with.
+- **UI Parser Integrity:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
+- **Simplify, Don't Over-Engineer:** When a complex tool repeatedly fails debugging, replace it with a simpler, more robust version that accomplishes a smaller part of the task reliably. This avoids wasting turns on complex, buggy automation.
+- **`advanced_route_planner` Behavior:** The tool correctly calculates paths that cross both land and water. However, it does not automate the transition. I must manually use SURF when the generated path moves from a land tile to an adjacent water tile. The tool's output is a set of coordinates; the method of traversal is my responsibility.
+
+## Navigation & Exploration
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+
+## Hypothesis Testing
+- **Precise Test Execution:** When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
+
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
 
@@ -57,7 +72,6 @@
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point. Fly transports the player to a predetermined location within a city, not to a specific coordinate that can be targeted.
 - **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
 - **Olivine Lighthouse 2F Marker Cleanup:** The critique noted my markers on OlivineLighthouse2F are cluttered. As soon as I return to that floor, I must consolidate the redundant pit markers into a single, clear marker to improve map hygiene.
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
@@ -263,23 +277,20 @@
 
 ### Custom Tools
 - `advanced_route_planner`
-- `find_true_reachable_unseen_tiles`
 - `select_item`
 - `select_move`
 - `switch_pokemon`
+- `find_adjacent_unseen`
 
 ### Custom Agents
 - `python_code_debugger`
 - `puzzle_solver`
-
-- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 
 ---
 
 ## Ongoing Investigations
 ### Cianwood Gym Puzzle
 - **Hypothesis:** The gym puzzle involves moving boulders with STRENGTH to clear a path to the Gym Leader, Chuck. Some of the Black Belts in the gym are non-battling NPCs.
-- **UI Parser Integrity Lesson:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
 - **Teacher in CianwoodLugiaSpeechHouse:** Mentioned a mythical sea creature hiding in the four islands between Cianwood and Olivine.
 - **Lass in CianwoodLugiaSpeechHouse:** Mentioned a creature that can only be seen if you have a SILVER WING.
 
@@ -307,17 +318,3 @@
 
 ## Olivine Lighthouse
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
-## Lessons Learned
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
-
-## Tools & Agents
-- **`advanced_route_planner` Behavior:** The tool correctly calculates paths that cross both land and water. However, it does not automate the transition. I must manually use SURF when the generated path moves from a land tile to an adjacent water tile. The tool's output is a set of coordinates; the method of traversal is my responsibility.
-
-## Lessons Learned
-- When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
-
-## Lessons Learned (from Reflection)
-- **Proactive Tool Testing:** I must test tools in their expected environments (e.g., a pathfinder on a water route) *before* relying on them for critical navigation to avoid mid-task failures.
-- **Tool-Game Mechanic Parity:** The UI Parser Integrity lesson is a specific case of a broader principle. Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types like WATER, or not understanding a menu's structure). All tools must be designed with a perfect understanding of the game mechanics and UI they interact with.
-## Lessons Learned
-- When a complex tool repeatedly fails debugging, replace it with a simpler, more robust version that accomplishes a smaller part of the task reliably. This avoids wasting turns on complex, buggy automation.
