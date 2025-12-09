@@ -161,11 +161,10 @@
 - **battle_tower_advisor:** Analyzes team composition for Battle Tower.
 
 ## Training Strategy (Level 20)
-- **Leader:** Bahamut (Dratini).
-- **Tactics:** Spam Extremespeed (Priority +1). Thunder Wave if target survives.
-- **Targets:** Smeargle, Hoppip, Wooper, Natu (Ruins of Alph / Route 32).
-- **Avoid:** Geodude, Onix, Mareep (Union Cave).
-- **Notes:** Basalt handles Mareep. Keep Bahamut away from Rock/Ground types.
+- **Location:** Route 39 (Moomoo Farm). Wild Pokémon Lv13-16.
+- **Leader:** Vortex (Pidgeotto) or Bahamut (Dratini).
+- **Tactics:** Vortex (Fly/Gust), Bahamut (Extremespeed), Basalt (Magnitude vs Magnemite).
+- **Immediate Goal:** Deliver Berry to Moomoo Farm (Have 2 in bag).
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
