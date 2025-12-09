@@ -334,3 +334,4 @@
 - **WARP_CARPET_DOWN:** A warp tile at the edge of a map. The activation method is direction-specific. Pressing 'Down' while standing on the tile has been confirmed to trigger the warp.
 ## Navigation & Exploration
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
