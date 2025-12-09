@@ -460,3 +460,4 @@
 - **Interaction Lesson:** Reading a sign opens a text box that MUST be manually closed (B/A) before movement inputs will register. Always verify screen text state after interaction.
 - **Scientist 1:** Surprised by Pokémon in ruins.
 - **Scientist 2:** Theorizes Unown are the drawings on the walls come to life, implying many variations exist.
+- Research Center Printer: Currently displays 'This doesn't seem to work yet.' Likely requires more Unown progress.
