@@ -333,3 +333,4 @@
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
 - **Trust the Pathfinder (Reinforced):** When the `advanced_route_planner` returns 'No path found,' I must immediately abandon the current pathing assumption and test a fundamentally different route. The tool's output, based on the game's map data, is more reliable than my own spatial reasoning or memory. Ignoring the tool's output is the direct cause of getting stuck in navigational loops.
 - Youngster Joey on Route 30 called for a rematch.
+- **Consult Map Markers Before Interaction:** A critical failure was wasting turns trying to battle an NPC already marked as defeated. I MUST consult existing map markers for an object or NPC before planning an interaction to avoid repeating actions or attempting impossible ones.
