@@ -158,8 +158,7 @@
 - **press_sequence:** Executes a comma-separated sequence of buttons and sleep commands.
 
 ## Active Custom Agents
-- **training_optimiser:** Recommends efficient leveling strategies.
-- **battle_tower_advisor:** Analyzes team composition for Battle Tower.
+- (None)
 
 ## Training Strategy (Level 20)
 - **Location:** Route 39 (Moomoo Farm). Wild Pokémon Lv13-16.
