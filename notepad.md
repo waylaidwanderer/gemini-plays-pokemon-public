@@ -466,3 +466,4 @@
 - **Targets:** Magnemite (Use Magnitude), Meowth, Raticate.
 - **Avoid:** Miltank, Tauros (High damage risk).
 - **Notes:** Vortex is injured, keep safe. Basalt is immune to Electric.
+- Picked up MINT BERRY from Route 39 tree. (Likely not the cure for Miltank).
