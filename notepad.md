@@ -376,7 +376,7 @@
 **Strategy:** Enter Battle Tower.
 **Quest Log:**
 - **GS Ball:** CANCELLED (Unobtainable).
-- **Moomoo Farm:** Paused. Have Mint/Ice Berries to test.
+- **Moomoo Farm:** Paused. Inventory: Mint Berry x2, Ice Berry x2 (Untested). Note: Route 39 Sign (5,31) was empty.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
 ## Route 39 & 40 (Olivine Area)
