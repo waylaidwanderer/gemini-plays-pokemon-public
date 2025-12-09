@@ -332,3 +332,5 @@
 - **STRENGTH HM Mechanic:** Using STRENGTH is a two-step process. First, the move must be selected from the Pokémon's menu while standing adjacent to a boulder to 'activate' the ability. Second, the player must then walk into the boulder to push it. Simply walking into it without prior activation does nothing.
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography or the destination's reachability is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **WARP_CARPET_DOWN:** A warp tile at the edge of a map. The activation method is direction-specific. Pressing 'Down' while standing on the tile has been confirmed to trigger the warp.
+## Navigation & Exploration
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
