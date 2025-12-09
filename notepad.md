@@ -305,10 +305,6 @@
 - `puzzle_solver`
 
 ## Ongoing Investigations
-### Cianwood Gym Puzzle
-- **Hypothesis:** The gym puzzle involves moving boulders with STRENGTH to clear a path to the Gym Leader, Chuck. Some of the Black Belts in the gym are non-battling NPCs.
-- **Teacher in CianwoodLugiaSpeechHouse:** Mentioned a mythical sea creature hiding in the four islands between Cianwood and Olivine.
-- **Lass in CianwoodLugiaSpeechHouse:** Mentioned a creature that can only be seen if you have a SILVER WING.
 
 ### Cianwood Gym Puzzle Log
 - **Hypothesis 1:** Push boulders by walking into them. **Result:** Failed. Character bumps into boulder without moving it.
