@@ -391,18 +391,12 @@
 - **Strategy:** Using a rapid `press_sequence` (Down, A, sleep 200, Down, A) to select Level 20 before the harness can intervene.
 - **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
 
-# Battle Tower Challenge Log
-- **Level 20 Attempt 1:** Failed vs Lass Thornton (Starmie).
-  - **Lesson:** Rock/Ground heavy team is too vulnerable to Water. Need balanced coverage.
-  - **Action:** Retrieving Paprika (Typhlosion) from PC to restructure team.
-
-## Battle Tower Challenge Log (Run 2)
-- **Team:** Vortex (Lv17), Bedrock (Lv20), Bahamut (Lv15).
-- **Battle 1 vs Fisher:**
-  - **Opponent:** Steelix (Lv20). Vortex (Sand-Attack) > Fainted. Bahamut (Wrap/Twister) > Fainted.
-  - **Current:** Bedrock vs Heracross (Lv20).
-  - **Mechanic:** Confirmed Dark is Special in Gen 2 (Bite uses Sp.Atk).
-  - **Strategy:** Bedrock to use Sandstorm for residual damage vs Heracross.
+# Battle Tower Lessons (Archived)
+- **Summary:** Early attempts failed due to type disadvantages (Water vs Ground/Rock) and level gaps.
+- **Key Learnings:**
+  - Need balanced coverage; Rock/Ground heavy is risky.
+  - Dark is Special in Gen 2.
+  - Team needs to be closer to Level 20 cap.
 ### PC Box 1 Inventory
 - M (Caterpie) Lv15
 - WEAVER (Spinarak) Lv14
