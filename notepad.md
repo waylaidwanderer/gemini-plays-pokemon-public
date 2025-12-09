@@ -45,6 +45,7 @@
 ## 3. Puzzle Solving & Logic
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
 - **Escalate to Puzzle Solver:** When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
+- **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
 
 ## 4. NPC & Object Interaction
 - **Interaction Pre-check:** Before pressing 'A', I must verify I am adjacent to and facing the target directly. Close all dialogue boxes before attempting to move.
@@ -341,4 +342,4 @@
 - **Trust the Notepad:** I must trust and follow my own documented solutions. Ignoring my notepad after solving the Olivine Lighthouse puzzle was the direct cause of a major navigational loop. My documented plans are more reliable than my memory or in-the-moment hypotheses.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving or stationary NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. This provides a deterministic solution to a variable problem.
 ## LESSONS LEARNED (Recent)
-- **Test All Puzzle Elements:** When solving a puzzle, I must systematically test all interactive elements, even those that appear to be hazards (like pits). Committing to a single hypothesis without exploring all variables is a critical error. A seemingly negative or dangerous element might be the actual intended path.
+- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Systematically test all interactive elements, even those that appear to be hazards (like pits), and don't commit to a single hypothesis without exploring all variables.
