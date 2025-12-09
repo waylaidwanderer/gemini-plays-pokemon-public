@@ -161,7 +161,6 @@
 
 ## Battle Tower Prep (Level 20 Cap)
 **Goal:** Optimize team for L:20 Challenge.
-**Advisor:** Battle Strategist Agent.
 
 ### Team & Moveset Plan
 1. **Bahamut (Dratini):** Lead / Status Spreader.
