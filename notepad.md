@@ -408,22 +408,11 @@
 - Paprika (Typhlosion) Lv75
 - Bedrock (Larvitar) Lv20
 
-# Battle Tower Challenge (Run 4 Prep)
-**Goal:** Train to Level 20 cap.
-**Target Team:**
-- Basalt (Geodude): Physical Sweeper. Needs Grind to Lv20.
-- Vortex (Pidgeotto): Pivot/Support (Fly/Sand-Attack). Needs Grind to Lv20.
-- Bahamut (Dratini): Resistances/Paralysis Support. Needs Grind to Lv20.
-**Agent Advice:** Avoid Larvitar (compounds Water/Grass weakness). Use Dratini for resists.
-**ToDo:**
-1. Talk to NPCs outside Tower.
-2. Go to Route 38/39 to grind.
-3. Find BERRY for Moomoo Farm.
-   - Route 30: Collected.
-   - Route 29: Next target.
-   - Route 46: Backup.
-   - Route 38: Backup.
-- Battle Tower Tip: Winning a 'whole lot' of battles awards special gifts (Rocker).
+# Active Training Plan
+- **Goal:** Reach Level 20 cap for Battle Tower.
+- **Location:** Route 38/39.
+- **Team:** Basalt, Vortex, Bahamut.
+- **Status:** BERRY obtained. Delivering to Moomoo Farm.
 - **Tool Lesson:** `find_path` ignores off-screen objects even if marked. Updated tool to treat markers with `object_id` as obstacles.
 - **Navigation Update:** Fly interface proved unreliable for Westward travel from Violet. Proceeding on foot to Olivine via Route 36.
 ### Ruins of Alph
