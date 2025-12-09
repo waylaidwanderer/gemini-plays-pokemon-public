@@ -158,7 +158,7 @@
 - **press_sequence:** Executes a comma-separated sequence of buttons and sleep commands.
 
 ## Active Custom Agents
-- (None)
+- **battle_strategist:** Analyzes team composition and suggests movesets/strategies.
 
 ## Battle Tower Prep (Level 20 Cap)
 **Goal:** Optimize team for L:20 Challenge.
