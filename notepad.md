@@ -151,7 +151,7 @@
 - **Notes:** Fisher (PC) confirmed Cerulean Cave collapse.
 
 ## Active Custom Tools
-- **find_path:** Pathfinding with A*.
+- **find_path:** Pathfinding with A*. (Tool name is `find_path`, not `path`).
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs.
 - **escape_collision:** Escapes slope collision locks using rapid directional bursts.
