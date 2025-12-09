@@ -439,3 +439,4 @@
    - Route 38: Backup.
 - Battle Tower Tip: Winning a 'whole lot' of battles awards special gifts (Rocker).
 - **Tool Lesson:** `find_path` ignores off-screen objects even if marked. Updated tool to treat markers with `object_id` as obstacles.
+- **Navigation Update:** Fly interface proved unreliable for Westward travel from Violet. Proceeding on foot to Olivine via Route 36.
