@@ -460,3 +460,9 @@
 - Heading West to Route 38 -> Route 39 (Moomoo Farm) for training and delivery.
 - **Training Spot:** Route 39 Tall Grass (5, 20). Good for Magnemites/Meowths.
 - **Tile Mechanic:** TALL_GRASS is traversable but triggers encounters, interrupting movement tools.
+
+## Route 39 Training Plan
+- **Strategy:** Switch-Training. Lead Bahamut (Dratini), switch to Basalt (Geodude) turn 1.
+- **Targets:** Magnemite (Use Magnitude), Meowth, Raticate.
+- **Avoid:** Miltank, Tauros (High damage risk).
+- **Notes:** Vortex is injured, keep safe. Basalt is immune to Electric.
