@@ -439,7 +439,7 @@
 - **Interaction Rule:** Computers and wall-mounted objects usually require standing on the tile BELOW them and facing UP.
 
 ### Observations
-- Research Center Computer: Displays 'RUINS OF ALPH' (start of text).
+- Research Center Computer: Displays 'RUINS OF ALPH Exploration Year 10'.
 ## Ecruteak City
 - Arrived via Fly.
 - Heading West to Route 38 -> Route 39 (Moomoo Farm) for training and delivery.
