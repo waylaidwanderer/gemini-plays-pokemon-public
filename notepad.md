@@ -318,3 +318,7 @@
 
 ## Olivine Lighthouse
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
+
+## Gameplay Strategy
+- **Verify UI Before Tool Use:** Before calling a tool that interacts with a specific menu or UI element (like `select_battle_option`), I must first confirm that the expected UI is actually on-screen. Acting prematurely leads to tool failure and wasted turns.
+- **Expect Travel Interruptions:** When planning long-distance travel, especially over large bodies of water or through tall grass, I must anticipate interruptions from wild Pokémon encounters. These are normal delays, not necessarily an indication that the chosen path is wrong.
