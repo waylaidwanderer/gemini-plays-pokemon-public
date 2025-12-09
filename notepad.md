@@ -387,7 +387,7 @@
 **Strategy:** Enter Battle Tower.
 **Quest Log:**
 - **GS Ball:** CANCELLED (Unobtainable).
-- **Route 36:** Sudowoodo event complete. Path to Ecruteak City is CLEAR.
+- **Route 36:** Sudowoodo event complete. Path to Ecruteak City is CLEAR. Fruit Tree at (21, 4) contains ICE BERRY.
 - **Moomoo Farm:** Paused. Inventory: Mint Berry x2, Ice Berry x2 (Untested). Note: Route 39 Sign (5,31) was empty.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
