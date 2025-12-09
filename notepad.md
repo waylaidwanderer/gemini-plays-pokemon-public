@@ -7,7 +7,11 @@
 
 # 🏆 POKÉMON CRYSTAL: POST-GAME 🏆
 **Status:** Red Defeated! The 'mysterious message' was just a tutorial.
-**Next Stop:** Goldenrod City (GS Ball/Celebi check).
+**Next Stop:** Ruins of Alph / Ecruteak City.
+**Current Objectives:**
+1. Train team to Level 20 (Battle Tower Prep).
+2. Deliver Berry to Moomoo Farm (Route 39).
+3. Explore Ruins of Alph.
 **The Champion Team:**
 - **Paprika (Typhlosion Lv75):** The MVP.
 - **Basalt (Geodude):** Support.
