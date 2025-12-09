@@ -315,3 +315,7 @@
 
 ## Lessons Learned
 - When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
+
+## Lessons Learned (from Reflection)
+- **Proactive Tool Testing:** I must test tools in their expected environments (e.g., a pathfinder on a water route) *before* relying on them for critical navigation to avoid mid-task failures.
+- **Tool-Game Mechanic Parity:** The UI Parser Integrity lesson is a specific case of a broader principle. Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types like WATER, or not understanding a menu's structure). All tools must be designed with a perfect understanding of the game mechanics and UI they interact with.
