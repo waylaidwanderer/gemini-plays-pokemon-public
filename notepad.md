@@ -432,3 +432,7 @@
 - Battle Tower Tip: Winning a 'whole lot' of battles awards special gifts (Rocker).
 - **Tool Lesson:** `find_path` ignores off-screen objects even if marked. Updated tool to treat markers with `object_id` as obstacles.
 - **Navigation Update:** Fly interface proved unreliable for Westward travel from Violet. Proceeding on foot to Olivine via Route 36.
+### Ruins of Alph
+- **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
+- **Inner Chamber:** "Strange presence" text appeared upon entry (likely Unown).
+- **Tool Lesson:** `find_path` tool outputs a list of coordinates, NOT button strings. Do NOT use `autopress_buttons=True` with it; use `path_plan` instead.
