@@ -98,7 +98,7 @@
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
 - **INCENSE_BURNER**: An impassable decorative object.
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
-- **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent. Activation can be complex. Stepping onto a ladder tile from an adjacent `FLOOR_UP_WALL` tile above it has been confirmed to trigger the warp.
+- **LADDER:** A warp tile. Stepping onto a LADDER tile from an adjacent FLOOR tile has been confirmed to trigger the warp, moving the player between floors. This works for both ascending and descending.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
