@@ -35,7 +35,7 @@
 
 ## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
-- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
+- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
 
 ## 3. Puzzle Solving & Logic
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
