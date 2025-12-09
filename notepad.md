@@ -437,3 +437,9 @@
 - **Inner Chamber:** "Strange presence" text appeared upon entry (likely Unown).
 - **Tool Lesson:** `find_path` tool outputs a list of coordinates, NOT button strings. Do NOT use `autopress_buttons=True` with it; use `path_plan` instead.
 - Entered Ruins of Alph Research Center.
+### Tile Mechanics Updates
+- **BOOKSHELF:** Impassable Obstacle.
+- **Interaction Rule:** Computers and wall-mounted objects usually require standing on the tile BELOW them and facing UP.
+
+### Observations
+- Research Center Computer: Displays 'RUINS OF ALPH' (start of text).
