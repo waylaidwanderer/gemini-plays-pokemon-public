@@ -324,3 +324,4 @@
 
 ## Olivine Lighthouse
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
+- **Trust the Pathfinder (Reinforced):** When the `advanced_route_planner` returns 'No path found,' I must immediately abandon the current pathing assumption and test a fundamentally different route. The tool's output, based on the game's map data, is more reliable than my own spatial reasoning or memory. Ignoring the tool's output is the direct cause of getting stuck in navigational loops.
