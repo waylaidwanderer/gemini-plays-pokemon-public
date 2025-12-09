@@ -128,7 +128,7 @@
 - **Tin Tower:** Paused. Need Rainbow Wing (Catch Raikou, Entei, Suicune).
 
 ## Lessons Learned
-- **Fly Reliability:** The Fly map interface is unstable. The cursor often sticks or drops inputs. Entering a city resets the cursor to that location, which fixes the issue. Always verify cursor movement visually.
+- **Fly Reliability:** The Fly map interface is unstable. The cursor often sticks or drops inputs. **Critical Observation:** The cursor defaulted to New Bark Town when opened from Olivine City. Always visually verify cursor position before selecting a destination.
 - **Fly Mechanics:** Fly destinations are only unlocked by entering the city's Pokémon Center. Visiting the city map is not enough (missed Pallet, Viridian, Pewter).
 - **Item Verification:** Passive upgrades (e.g., Radio Card) often don't appear in the inventory; trust NPC dialogue.
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
