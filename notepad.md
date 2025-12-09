@@ -259,19 +259,6 @@
 - `stun_npc`
 - `define_tool`
 - `delete_tool`
-- `select_battle_option`
-
-### Built-in Tools
-- `notepad_edit`
-- `run_code`
-- `define_agent`
-- `delete_agent`
-- `define_map_marker`
-- `delete_map_marker`
-- `stun_npc`
-- `define_tool`
-- `delete_tool`
-- `select_battle_option`
 
 ### Custom Tools
 - `advanced_route_planner`
@@ -279,6 +266,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
+- `select_battle_option`
 
 ### Custom Agents
 - `python_code_debugger`
