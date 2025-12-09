@@ -463,3 +463,4 @@
 - **Scientist 2:** Theorizes Unown are the drawings on the walls come to life, implying many variations exist.
 - Research Center Printer: Currently displays 'This doesn't seem to work yet.' Likely requires more Unown progress.
 - **Ruins of Alph:** Printer inactive even with Unown in party. Next: Show Unown to Scientists.
+- **Ruins of Alph:** Scientist confirmed 'many kinds' of Unown exist. Implies catching different letter variants is key.
