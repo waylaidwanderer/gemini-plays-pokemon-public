@@ -160,8 +160,6 @@
 ## Active Custom Agents
 - **battle_tower_analyst:** Team strategy advisor.
 
-## Active Custom Agents
-
 ## Battle Tower Prep (Level 20 Cap)
 **Goal:** Optimize team for L:20 Challenge.
 
