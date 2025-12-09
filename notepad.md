@@ -452,3 +452,6 @@
 
 ### Observations
 - Research Center Computer: Displays 'RUINS OF ALPH' (start of text).
+## Ecruteak City
+- Arrived via Fly.
+- Heading West to Route 38 -> Route 39 (Moomoo Farm) for training and delivery.
