@@ -8,7 +8,8 @@
 - **`advanced_route_planner` Behavior:** The tool correctly calculates paths that cross both land and water. However, it does not automate the transition. I must manually use SURF when the generated path moves from a land tile to an adjacent water tile. The tool's output is a set of coordinates; the method of traversal is my responsibility.
 
 ## Navigation & Exploration
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
+- **Pathfinding & Moving NPCs:** The `advanced_route_planner` uses a static map snapshot. It cannot predict the movement of NPCs. For reliable pathfinding in areas with moving NPCs, use the `stun_npc` tool on the relevant NPC *before* calling the planner to ensure the generated path remains clear.
 
 ## Hypothesis Testing
 - **Precise Test Execution:** When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
@@ -333,5 +334,6 @@
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography or the destination's reachability is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **WARP_CARPET_DOWN:** A warp tile at the edge of a map. The activation method is direction-specific. Pressing 'Down' while standing on the tile has been confirmed to trigger the warp.
 ## Navigation & Exploration
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed paths between cities. Movement is restricted to specific connections, not cardinal directions from every point.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
+- **Pathfinding & Moving NPCs:** The `advanced_route_planner` uses a static map snapshot. It cannot predict the movement of NPCs. For reliable pathfinding in areas with moving NPCs, use the `stun_npc` tool on the relevant NPC *before* calling the planner to ensure the generated path remains clear.
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
