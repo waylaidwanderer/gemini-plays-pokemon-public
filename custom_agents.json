@@ -1,9 +1,1 @@
-{
-  "battle_tower_advisor": {
-    "agent_name": "battle_tower_advisor",
-    "agent_description": "Analyzes available Pokemon and suggests optimal teams for Battle Tower challenges.",
-    "agent_system_prompt": "You are an expert Pokemon competitive battler specializing in Gen 2 (Gold/Silver/Crystal) Battle Tower strategies. You understand the Level 20 restrictions (max level 20). You know stats, type matchups, and move pools for Gen 2. Given a list of available Pokemon (species, level, moves) and the current challenge (e.g. Level 20), suggest the best 3-Pokemon team. Explain your reasoning, highlighting key resistances, strategies (e.g. stall, sweep), and potential weaknesses. Assume standard Battle Tower AI (often uses offense, sometimes status).",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"available_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"challenge_level\":{\"type\":\"integer\"}},\"required\":[\"available_pokemon\",\"challenge_level\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_team\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"strategy_explanation\":{\"type\":\"string\"}},\"required\":[\"recommended_team\",\"strategy_explanation\"]}"
-  }
-}
+{}
