@@ -163,6 +163,7 @@
 - **force_press_button:** Automates repetitive inputs.
 - **escape_collision:** Escapes slope collision locks using rapid directional bursts.
 - **press_sequence:** Executes a comma-separated sequence of buttons and sleep commands.
+- **battle_tower_advisor:** Analyzes team composition for Battle Tower.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
