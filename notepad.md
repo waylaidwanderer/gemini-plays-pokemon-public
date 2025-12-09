@@ -472,3 +472,4 @@
 - **Quest Update:** Miltank rejected Mint/Ice Berries. Strictly requires standard 'BERRY'. Hunting on Route 38.
 - **Lesson:** Always set `autopress_buttons: true` when calling custom tools that return button sequences (like `force_press_button`).
 - **Quest Update:** Miltank Cured! Claiming reward.
+- **Quest Update:** Miltank needs more BERRIES. Out of stock. Heading to Route 38 to forage.
