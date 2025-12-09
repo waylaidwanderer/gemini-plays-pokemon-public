@@ -414,17 +414,6 @@
 - Paprika (Typhlosion) Lv75
 - Bedrock (Larvitar) Lv20
 
-# Battle Tower Challenge (Run 3)
-**Status:** FAILED. Wiped by Juggler Fairfield (Tauros).
-**Team:** Basalt (Geodude), Vortex (Pidgeotto), Bahamut (Dratini).
-**Battle Log:**
-- Basalt vs Tauros: Magnitude 9 dealt 50%. Basalt OHKO'd by Blizzard.
-- Bahamut vs Tauros: Extremespeed failed to kill. Bahamut OHKO'd by Hyper Beam.
-- Vortex vs Tauros: Landed Sand-Attack. Fainted to Quick Attack/Thunderbolt? (Lost).
-**Outcome:** Defeat.
-**Lesson:** Level 20 opponents have fully optimized TMs (Blizzard, Hyper Beam, Earthquake). My team (Lv15-19) is too underleveled and frail.
-**Next Step:** Train team to Level 20 on Route 38/39. Find BERRY for Moomoo Farm.
-
 # Battle Tower Challenge (Run 4 Prep)
 **Goal:** Train to Level 20 cap.
 **Target Team:**
