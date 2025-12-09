@@ -340,3 +340,4 @@
 - **Failed Hypothesis (Agent #1):** There is a second, undiscovered ladder on 1F. **Result:** FAILED. All reachable areas of 1F have been explored, and the unseen section is walled off.
 - **Failed Hypothesis (Agent #2):** There is an external path on 2F. **Result:** FAILED. Interacting with reachable windows yielded no results.
 - **Conclusion:** The entire western ascent route is a red herring. Progress must be made by accessing the eastern column of the lighthouse.
+- **Consult Map Markers Before Interaction:** A critical failure was wasting turns trying to battle an NPC already marked as defeated. I MUST consult existing map markers for an object or NPC before planning an interaction to avoid repeating actions or attempting impossible ones.
