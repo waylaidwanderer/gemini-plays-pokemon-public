@@ -167,7 +167,7 @@
 - **Targets:** Magnemite (Basalt resists Electric/Steel, OHKO with Magnitude), Meowth, Raticate.
 - **Avoid:** Miltank, Tauros (Too bulky/dangerous).
 - **Battle Tower Advice:** Current team is weak. Recommends replacing Dratini/Pidgeotto with Starmie/Abra/Gastly if this fails. ALL must be Lv20.
-- **Quest Status:** Fed 2 Berries to Miltank. Still sick. Have Mint/Ice Berries (Untested). Need to verify if they work.
+- **Quest Status:** Farmer didn't help; must feed Miltank directly. Have Mint/Ice Berries to test in Barn. If these fail, I need to hunt for standard BERRIES.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
