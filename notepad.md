@@ -149,13 +149,22 @@
 - **Connection:** Magnet Train operational.
 - **Notes:** Fisher (PC) confirmed Cerulean Cave collapse.
 
-## Active Custom Tools & Features
+## Active Custom Tools
 - **find_path:** Pathfinding with A*.
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs.
 - **escape_collision:** Escapes slope collision locks using rapid directional bursts.
 - **press_sequence:** Executes a comma-separated sequence of buttons and sleep commands.
+
+## Active Custom Agents
+- **training_optimiser:** Recommends efficient leveling strategies.
 - **battle_tower_advisor:** Analyzes team composition for Battle Tower.
+
+## Training Strategy (Level 20)
+- **Leader:** Bahamut (Dratini) with Extremespeed.
+- **Targets:** Smeargle, Hoppip, Wooper, Natu.
+- **Avoid:** Geodude, Onix, Mareep (Switch to Basalt).
+- **Notes:** Keep Bahamut away from Rock/Ground types.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
