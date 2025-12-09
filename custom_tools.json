@@ -68,52 +68,6 @@
       }
     ]
   },
-  "find_true_reachable_unseen_tiles": {
-    "description": "Parses the current map XML and player's position to find all 'unseen' tiles that are actually reachable via a valid path, ignoring those blocked by walls or other obstacles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y: max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x: max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\ntile_info = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        seen = tile_elem.get('seen') == 'true'\n        tile_info[(x, y)] = {'type': tile_type, 'seen': seen}\n\nstart_node = (start_x, start_y)\nstart_tile_type = tile_info.get(start_node, {}).get('type')\n\nif start_tile_type == 'WATER':\n    TRAVERSABLE_TYPES = {'WATER'}\nelse:\n    TRAVERSABLE_TYPES = {\n        'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE',\n        'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT',\n        'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT',\n        'Warp (FLOOR)', 'PIT', 'CAVE'\n    }\n\ngrid = {}\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.find('.//Object') is not None\n        is_traversable = tile_type in TRAVERSABLE_TYPES and not has_object\n        grid[(x, y)] = is_traversable\n\nqueue = deque([start_node])\nvisited = {start_node}\nreachable_unseen_tiles = []\n\nwhile queue:\n    x, y = queue.popleft()\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        next_x, next_y = x + dx, y + dy\n        next_pos = (next_x, next_y)\n\n        if not (0 <= next_y < height and 0 <= next_x < width):\n            continue\n\n        if next_pos in visited:\n            continue\n\n        info = tile_info.get(next_pos)\n        if not info: continue\n\n        visited.add(next_pos)\n\n        if not info['seen']:\n            reachable_unseen_tiles.append({'x': next_x, 'y': next_y})\n        elif grid.get(next_pos, False):\n            queue.append(next_pos)\n\nunique_reachable_unseen_tiles = [dict(t) for t in {tuple(d.items()) for d in reachable_unseen_tiles}]\n\nprint(json.dumps(unique_reachable_unseen_tiles))",
-    "history": [
-      {
-        "commit_message": "feat: Create tool to find truly reachable unseen tiles. This tool implements a Breadth-First Search (BFS) starting from the player's position to explore all connected, traversable tiles. It identifies adjacent unseen tiles that can be directly moved to, addressing the system alert's suggestion and improving exploration efficiency by filtering out unreachable 'unseen' tiles.",
-        "timestamp": "2025-12-08T20:05:21.308Z",
-        "action_counter": 42985
-      },
-      {
-        "commit_message": "feat: Create tool to find truly reachable unseen tiles. This tool implements a Breadth-First Search (BFS) starting from the player's position to explore all connected, traversable tiles. It identifies adjacent unseen tiles that can be directly moved to, addressing the system alert's suggestion and improving exploration efficiency by filtering out unreachable 'unseen' tiles.",
-        "timestamp": "2025-12-08T21:06:19.891Z",
-        "action_counter": 43089
-      },
-      {
-        "commit_message": "feat: Add WATER to traversable types. The tool was failing on water routes because it only considered land-based walkable tiles. This adds 'WATER' to the set of traversable tiles, allowing the BFS to correctly explore surfable areas.",
-        "timestamp": "2025-12-09T00:31:48.766Z",
-        "action_counter": 43490
-      },
-      {
-        "commit_message": "fix: Overhaul BFS logic to correctly handle barriers via python_code_debugger. The agent identified a critical flaw where the BFS did not mark impassable tiles as visited, causing it to 'leak' across barriers and report unreachable tiles. This commit implements the agent's robust fix, which marks every tile as visited upon first encounter, ensuring the search is correctly constrained to the reachable area and resolving the catastrophic exploration failure.",
-        "timestamp": "2025-12-09T00:54:13.049Z",
-        "action_counter": 43515
-      },
-      {
-        "commit_message": "fix: Add movement state awareness to BFS via python_code_debugger. The agent identified a critical flaw where the tool used a static list of traversable tiles, causing it to incorrectly path between land and water. This commit implements the agent's robust fix, which dynamically sets the traversable tiles based on the player's starting tile type (walking vs. surfing), ensuring the search is correctly constrained and resolving the catastrophic exploration failure.",
-        "timestamp": "2025-12-09T00:59:21.152Z",
-        "action_counter": 43520
-      }
-    ]
-  },
   "select_item": {
     "description": "Automates selecting an item from the bag during or outside of a battle. Takes the target item's name and the current screen text as input.",
     "input_schema": {
