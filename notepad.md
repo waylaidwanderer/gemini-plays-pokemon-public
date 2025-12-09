@@ -340,3 +340,4 @@
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 ## Puzzle Solving & Logic
 - **Trust Tools & Pivot:** When stuck in a navigational puzzle, I must trust my `advanced_route_planner`'s 'No path found' output and my own analysis. If a path is confirmed to be a dead end after multiple attempts, I must abandon that path and test a fundamentally different hypothesis (like descending to ascend differently), as recommended by the puzzle_solver agent, instead of repeating the failed strategy.
+- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
