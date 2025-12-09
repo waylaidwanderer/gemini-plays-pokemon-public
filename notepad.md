@@ -469,3 +469,5 @@
 - Picked up MINT BERRY from Route 39 tree. (Likely not the cure for Miltank).
 - **Navigation Insight:** Wild encounters interrupt `find_path`/`path_plan` execution. When actively hunting in tall grass, use `press_sequence` (e.g., 'Up, Down, Up, Down') instead of target coordinates to avoid 'Movement Blocked' errors.
 - **Quest Update:** Miltank rejected Mint/Ice Berries. Needs standard BERRY. Hunting on Route 38.
+- **Quest Update:** Miltank rejected Mint/Ice Berries. Strictly requires standard 'BERRY'. Hunting on Route 38.
+- **Lesson:** Always set `autopress_buttons: true` when calling custom tools that return button sequences (like `force_press_button`).
