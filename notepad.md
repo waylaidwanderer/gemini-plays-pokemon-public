@@ -151,8 +151,7 @@
 - **Notes:** Fisher (PC) confirmed Cerulean Cave collapse.
 
 ## Active Custom Tools
-- **find_path:** Pathfinding with A*. Generates coordinates for the 'path' command. (Note: 'path' is a button command, 'find_path' is the tool).
-- **Sign (12, 16):** 'The RUINS hide a huge secret!'
+- **find_path:** Pathfinding with A*. Generates coordinates for the 'path' command.
 - **select_move:** Selects battle moves via screen text.
 - **force_press_button:** Automates repetitive inputs.
 - **escape_collision:** Escapes slope collision locks using rapid directional bursts.
