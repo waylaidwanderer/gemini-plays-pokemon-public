@@ -1,3 +1,8 @@
+# LESSONS LEARNED (Recent)
+- **Trust the Notepad:** I must trust and follow my own documented solutions. Ignoring my notepad after solving the Olivine Lighthouse puzzle was the direct cause of a major navigational loop. My documented plans are more reliable than my memory or in-the-moment hypotheses.
+- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving or stationary NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. This provides a deterministic solution to a variable problem.
+- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Systematically test all interactive elements, even those that appear to be hazards (like pits), and don't commit to a single hypothesis without exploring all variables.
+
 # LESSONS LEARNED
 
 ## Tool & Agent Management
@@ -43,7 +48,6 @@
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography or the destination's reachability is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 
 ## 3. Puzzle Solving & Logic
-- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
 - **Escalate to Puzzle Solver:** When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
 - **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
 
@@ -338,8 +342,3 @@
 - **Failed Hypothesis (Agent #2):** There is an external path on 2F. **Result:** FAILED. Interacting with reachable windows yielded no results.
 - **Conclusion:** The entire western ascent route is a red herring. Progress must be made by accessing the eastern column of the lighthouse.
 - **Consult Map Markers Before Interaction:** A critical failure was wasting turns trying to battle an NPC already marked as defeated. I MUST consult existing map markers for an object or NPC before planning an interaction to avoid repeating actions or attempting impossible ones.
-## LESSONS LEARNED (Recent)
-- **Trust the Notepad:** I must trust and follow my own documented solutions. Ignoring my notepad after solving the Olivine Lighthouse puzzle was the direct cause of a major navigational loop. My documented plans are more reliable than my memory or in-the-moment hypotheses.
-- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving or stationary NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. This provides a deterministic solution to a variable problem.
-## LESSONS LEARNED (Recent)
-- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Systematically test all interactive elements, even those that appear to be hazards (like pits), and don't commit to a single hypothesis without exploring all variables.
