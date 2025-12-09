@@ -13,9 +13,11 @@
 
 ## Hypothesis Testing
 - **Precise Test Execution:** When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
+- **Trust Tools & Pivot:** When stuck in a navigational puzzle, I must trust my `advanced_route_planner`'s 'No path found' output and my own analysis. If a path is confirmed to be a dead end after multiple attempts, I must abandon that path and test a fundamentally different hypothesis (like descending to ascend differently), as recommended by the puzzle_solver agent, instead of repeating the failed strategy.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
+- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
 
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION & POSITIONAL VERIFICATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
@@ -37,6 +39,7 @@
 ## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
 - **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
+- **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography or the destination's reachability is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 
 ## 3. Puzzle Solving & Logic
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
@@ -74,8 +77,8 @@
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
 - **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
-- **Olivine Lighthouse 2F Marker Cleanup:** The critique noted my markers on OlivineLighthouse2F are cluttered. As soon as I return to that floor, I must consolidate the redundant pit markers into a single, clear marker to improve map hygiene.
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
+- **STRENGTH HM Mechanic:** Using STRENGTH is a two-step process. First, the move must be selected from the Pokémon's menu while standing adjacent to a boulder to 'activate' the ability. Second, the player must then walk into the boulder to push it. Simply walking into it without prior activation does nothing.
 
 ## Tile & Object Mechanics
 - **BOOKSHELF**: An impassable object.
@@ -96,7 +99,6 @@
 - **Item Interaction:** The game requires a specific item type for some interactions. The sick Miltank needs a generic 'BERRY' and will not accept functionally similar but differently named items (e.g., 'MINT BERRY'). This was confirmed by the interaction prompt.
 - **LADDER:** Can function as a standard traversable tile (e.g., on a pier) or a warp tile. Its function must be verified by checking for a <Warp> child element in the map XML. Activation methods are complex and context-dependent. Activation can be complex. Stepping onto a ladder tile from an adjacent `FLOOR_UP_WALL` tile above it has been confirmed to trigger the warp.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT**: One-way traversable tiles.
-- **LEDGE_HOP_LEFT**: A one-way traversable tile that can only be moved across from right to left.
 - **LONG_GRASS**: Fully traversable tile. Wild Pokémon can be encountered here.
 - **MART_SHELF**: Impassable terrain, functions like a wall.
 - **PC**: An interactable object used to access the Pokémon Storage System. Impassable.
@@ -119,11 +121,11 @@
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
+- **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
 - **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
-- **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
 
 ## Battle & Resource Management
 - **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
@@ -198,7 +200,6 @@
 - **HM02 FLY:** Obtained from Chuck's wife in Cianwood City. Allows flying to previously visited towns.
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
 - **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
-- **HM02 FLY:** Obtained from Chuck's wife in Cianwood City. Allows flying to previously visited towns.
 
 ## TMs
 - **TM01 DYNAMICPUNCH:** From Chuck. An inaccurate but powerful move that causes confusion when it hits.
@@ -295,8 +296,6 @@
 - `python_code_debugger`
 - `puzzle_solver`
 
----
-
 ## Ongoing Investigations
 ### Cianwood Gym Puzzle
 - **Hypothesis:** The gym puzzle involves moving boulders with STRENGTH to clear a path to the Gym Leader, Chuck. Some of the Black Belts in the gym are non-battling NPCs.
@@ -308,7 +307,6 @@
 - **Hypothesis 2:** Push boulders by pressing 'A' while facing them. **Result:** Failed. Displays generic text 'A POKéMON may be able to move this' but does not trigger the move.
 - **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
-- **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
 
 ## Olivine City Gym Strategy
@@ -325,19 +323,3 @@
 
 ## Olivine Lighthouse
 - Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
-
-## Gameplay Strategy
-- **Verify UI Before Tool Use:** Before calling a tool that interacts with a specific menu or UI element (like `select_battle_option`), I must first confirm that the expected UI is actually on-screen. Acting prematurely leads to tool failure and wasted turns.
-- **Expect Travel Interruptions:** When planning long-distance travel, especially over large bodies of water or through tall grass, I must anticipate interruptions from wild Pokémon encounters. These are normal delays, not necessarily an indication that the chosen path is wrong.
-- **unknown**: A placeholder tile type for areas that have not yet been seen. Once visited, the tile's true type (e.g., FLOOR, WALL) is revealed. It is treated as impassable by pathfinding tools until its true nature is revealed.
-- **STRENGTH HM Mechanic:** Using STRENGTH is a two-step process. First, the move must be selected from the Pokémon's menu while standing adjacent to a boulder to 'activate' the ability. Second, the player must then walk into the boulder to push it. Simply walking into it without prior activation does nothing.
-- **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography or the destination's reachability is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
-- **WARP_CARPET_DOWN:** A warp tile at the edge of a map. The activation method is direction-specific. Pressing 'Down' while standing on the tile has been confirmed to trigger the warp.
-## Navigation & Exploration
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
-- **Pathfinding & Moving NPCs:** The `advanced_route_planner` uses a static map snapshot. It cannot predict the movement of NPCs. For reliable pathfinding in areas with moving NPCs, use the `stun_npc` tool on the relevant NPC *before* calling the planner to ensure the generated path remains clear.
-- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
-- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
-## Puzzle Solving & Logic
-- **Trust Tools & Pivot:** When stuck in a navigational puzzle, I must trust my `advanced_route_planner`'s 'No path found' output and my own analysis. If a path is confirmed to be a dead end after multiple attempts, I must abandon that path and test a fundamentally different hypothesis (like descending to ascend differently), as recommended by the puzzle_solver agent, instead of repeating the failed strategy.
-- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
