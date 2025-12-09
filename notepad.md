@@ -134,18 +134,6 @@
 - **Tool Usage:** `find_path` outputs a coordinate list for `path_plan`. Do NOT use `autopress_buttons: true` with it.
 - **Menu Navigation:** Blind menu macros are unreliable due to wrapping and cursor memory. Use `force_press_button` with visual verification or manual inputs.
 
-## Trainer Rosters
-- **Cerulean Gym (Misty):** Golduck (Lv42), Quagsire (Lv42), Lapras (Lv44), Starmie.
-- **Saffron Gym:** Defeated.
-
-### Elite Four Strategy
-- Defeated.
-
-## Recent Victories
-- **Blaine:** Defeated (Volcano Badge).
-- **Janine:** Defeated (Soul Badge).
-- **Misty:** Defeated (Cascade Badge).
-
 ## Lavender Town
 - **Soul House:** Located South-Central. Memorial site.
 - **Radio Tower:** Located North.
