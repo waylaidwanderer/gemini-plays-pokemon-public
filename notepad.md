@@ -436,3 +436,4 @@
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
 - **Inner Chamber:** "Strange presence" text appeared upon entry (likely Unown).
 - **Tool Lesson:** `find_path` tool outputs a list of coordinates, NOT button strings. Do NOT use `autopress_buttons=True` with it; use `path_plan` instead.
+- Entered Ruins of Alph Research Center.
