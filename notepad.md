@@ -35,7 +35,7 @@
 
 ## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
-- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
+- **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
 
 ## 3. Puzzle Solving & Logic
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Test all variables, even those that seem like hazards or dead ends (e.g., pits in a lighthouse).
@@ -114,7 +114,7 @@
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **WALL**: An impassable tile that blocks movement.
-- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A one-way traversable warp tile at the edge of a map that transitions to the adjacent map. Its activation method is complex; simply stepping on it, pressing 'A' on it, moving in the specified direction *while on it*, or moving in the specified direction *onto it* from an adjacent tile have all failed in Mt. Mortar. The exact trigger is still under investigation.
+- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A warp tile at the edge of a map. The activation method is direction-specific. For a `WARP_CARPET_DOWN`, pressing 'Down' while standing on the tile has been confirmed to trigger the warp. Other directions are still under investigation.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
@@ -244,6 +244,13 @@
 ### Ecruteak Gym Puzzle
 - **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
 
+### Cianwood Gym Boulder Puzzle Solution
+- **Failed Hypothesis 1:** Push all boulders straight up. This blocks the path and creates a dead end.
+- **Correct Solution:** The puzzle requires creating an empty space to maneuver the boulders. The correct sequence is:
+  1. Push the leftmost boulder (3, 7) up to (3, 6).
+  2. Push the middle boulder (4, 7) left into the now-empty space at (3, 7).
+  3. Now that the central path is clear, the remaining boulders can be pushed up to reach the Gym Leader.
+
 ## Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
@@ -298,8 +305,6 @@
 - **Hypothesis 1:** Push boulders by walking into them. **Result:** Failed. Character bumps into boulder without moving it.
 - **Hypothesis 2:** Push boulders by pressing 'A' while facing them. **Result:** Failed. Displays generic text 'A POKéMON may be able to move this' but does not trigger the move.
 - **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
-## Cianwood Gym Boulder Puzzle Solution
-- My repeated failures were caused by the flawed root hypothesis that all boulders must be pushed north. The solution, identified by the `puzzle_solver` agent, involves creating an empty space by pushing a side boulder north, and then pushing the middle boulder sideways into that space to clear the central path.
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
 - **Trust the Pathfinder:** If the `route_planner` returns 'No path found,' the root assumption about the map's geography is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
@@ -323,7 +328,3 @@
 - **Verify UI Before Tool Use:** Before calling a tool that interacts with a specific menu or UI element (like `select_battle_option`), I must first confirm that the expected UI is actually on-screen. Acting prematurely leads to tool failure and wasted turns.
 - **Expect Travel Interruptions:** When planning long-distance travel, especially over large bodies of water or through tall grass, I must anticipate interruptions from wild Pokémon encounters. These are normal delays, not necessarily an indication that the chosen path is wrong.
 - **unknown**: A placeholder tile type for areas that have not yet been seen. Once visited, the tile's true type (e.g., FLOOR, WALL) is revealed. It is treated as impassable by pathfinding tools until its true nature is revealed.
-- **Hypothesis 3:** Pushing the middle boulder (4, 7) straight up is incorrect as it blocks the path. The puzzle likely requires pushing a side boulder up to create space, then pushing the middle boulder sideways.
-- **Test Plan:**
-  1. Move to (3, 8) and push the boulder at (3, 7) up to (3, 6).
-  2. Move to (4, 8) and push the boulder at (4, 7) left into the new empty space at (3, 7).
