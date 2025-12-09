@@ -340,4 +340,3 @@
 ## LESSONS LEARNED (Recent)
 - **Trust the Notepad:** I must trust and follow my own documented solutions. Ignoring my notepad after solving the Olivine Lighthouse puzzle was the direct cause of a major navigational loop. My documented plans are more reliable than my memory or in-the-moment hypotheses.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving or stationary NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. This provides a deterministic solution to a variable problem.
-- **Trust the Notepad:** I must trust and follow my own documented solutions. Ignoring my notepad after solving the Olivine Lighthouse puzzle was the direct cause of a major navigational loop. My documented plans are more reliable than my memory or in-the-moment hypotheses.
