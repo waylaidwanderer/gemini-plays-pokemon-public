@@ -10,6 +10,7 @@
 ## Navigation & Exploration
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
 - **Pathfinding & Moving NPCs:** The `advanced_route_planner` uses a static map snapshot. It cannot predict the movement of NPCs. For reliable pathfinding in areas with moving NPCs, use the `stun_npc` tool on the relevant NPC *before* calling the planner to ensure the generated path remains clear.
+- **Trust Tools & Pivot:** When stuck in a navigational puzzle, I must trust my `advanced_route_planner`'s 'No path found' output. If a path is confirmed to be a dead end after multiple attempts, I must abandon that path and test a fundamentally different hypothesis (like descending to ascend differently), as recommended by the `puzzle_solver` agent, instead of repeating the failed strategy.
 
 ## Hypothesis Testing
 - **Precise Test Execution:** When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
