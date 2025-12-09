@@ -323,3 +323,7 @@
 - **Verify UI Before Tool Use:** Before calling a tool that interacts with a specific menu or UI element (like `select_battle_option`), I must first confirm that the expected UI is actually on-screen. Acting prematurely leads to tool failure and wasted turns.
 - **Expect Travel Interruptions:** When planning long-distance travel, especially over large bodies of water or through tall grass, I must anticipate interruptions from wild Pokémon encounters. These are normal delays, not necessarily an indication that the chosen path is wrong.
 - **unknown**: A placeholder tile type for areas that have not yet been seen. Once visited, the tile's true type (e.g., FLOOR, WALL) is revealed. It is treated as impassable by pathfinding tools until its true nature is revealed.
+- **Hypothesis 3:** Pushing the middle boulder (4, 7) straight up is incorrect as it blocks the path. The puzzle likely requires pushing a side boulder up to create space, then pushing the middle boulder sideways.
+- **Test Plan:**
+  1. Move to (3, 8) and push the boulder at (3, 7) up to (3, 6).
+  2. Move to (4, 8) and push the boulder at (4, 7) left into the new empty space at (3, 7).
