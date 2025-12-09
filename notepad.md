@@ -259,6 +259,7 @@
 - `stun_npc`
 - `define_tool`
 - `delete_tool`
+- `select_battle_option`
 
 ### Custom Tools
 - `advanced_route_planner`
@@ -266,7 +267,6 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `select_battle_option`
 
 ### Custom Agents
 - `python_code_debugger`
