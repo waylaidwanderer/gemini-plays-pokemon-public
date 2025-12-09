@@ -197,6 +197,7 @@
 - **HM02 FLY:** Obtained from Chuck's wife in Cianwood City. Allows flying to previously visited towns.
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
 - **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
+- **HM02 FLY:** Obtained from Chuck's wife in Cianwood City. Allows flying to previously visited towns.
 
 ## TMs
 - **TM01 DYNAMICPUNCH:** From Chuck. An inaccurate but powerful move that causes confusion when it hits.
