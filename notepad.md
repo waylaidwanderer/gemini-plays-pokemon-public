@@ -459,3 +459,4 @@
 - **TM08 (Rock Smash):** Obtained from Fisher on Route 36 (44, 9). Allows breaking cracked rocks.
 - **WARP_CARPET_LEFT:** Walk Left off the map to exit.
 - **Interaction Lesson:** Reading a sign opens a text box that MUST be manually closed (B/A) before movement inputs will register. Always verify screen text state after interaction.
+- Scientist (Research Center): Surprised to hear about Pokémon in the ruins. Said 'We'll need to investigate this'.
