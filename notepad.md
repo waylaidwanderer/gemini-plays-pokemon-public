@@ -265,8 +265,15 @@
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
 
 ## PC Inventory
-- **Box 1:**
-  - Hestia (MAGBY), Lv15, Female
+- **Box 1:** (Empty)
+- **Box 2:** (Empty)
+- **Box 3:** (Empty)
+- **Box 4:**
+  - M (CATERPIE), Lv15, Female
+  - WEAVER (SPINARAK), Lv14, Male
+  - CHRONO (HOOTHOOT), Lv16, Male
+  - GIB RALTAR (GRAVELER), Lv37, Female
+  - SHUCKIE (SHUCKLE), Lv15, Female
 
 ## Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
