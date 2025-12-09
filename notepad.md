@@ -303,6 +303,11 @@
 ### Custom Agents
 - `python_code_debugger`
 - `puzzle_solver`
+- `switch_pokemon`
+
+### Custom Agents
+- `python_code_debugger`
+- `puzzle_solver`
 
 ## Ongoing Investigations
 
