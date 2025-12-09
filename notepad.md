@@ -376,7 +376,7 @@
 **Strategy:** Enter Battle Tower.
 **Quest Log:**
 - **GS Ball:** CANCELLED (Unobtainable).
-- **Moomoo Farm:** Paused. Needs BERRY.
+- **Moomoo Farm:** Paused. Have Mint/Ice Berries to test.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
 ## Route 39 & 40 (Olivine Area)
