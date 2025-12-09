@@ -337,3 +337,4 @@
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
 - **Pathfinding & Moving NPCs:** The `advanced_route_planner` uses a static map snapshot. It cannot predict the movement of NPCs. For reliable pathfinding in areas with moving NPCs, use the `stun_npc` tool on the relevant NPC *before* calling the planner to ensure the generated path remains clear.
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
+- **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
