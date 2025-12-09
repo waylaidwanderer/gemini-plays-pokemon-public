@@ -290,6 +290,10 @@
 - `select_move`
 - `switch_pokemon`
 - `find_adjacent_unseen`
+- `select_item`
+- `select_move`
+- `switch_pokemon`
+- `find_adjacent_unseen`
 
 ### Custom Agents
 - `python_code_debugger`
