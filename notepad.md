@@ -151,11 +151,14 @@
 - **Notes:** Fisher (PC) confirmed Cerulean Cave collapse.
 
 ## Active Custom Tools
-- **find_path:** Pathfinding with A*. Generates coordinates for the 'path' command.
-- **select_move:** Selects battle moves via screen text.
-- **force_press_button:** Automates repetitive inputs.
-- **escape_collision:** Escapes slope collision locks using rapid directional bursts.
-- **press_sequence:** Executes a comma-separated sequence of buttons and sleep commands.
+- **find_path:** A* Pathfinding (Outputs coordinates).
+- **select_move:** Battle move selection.
+- **force_press_button:** Input automation.
+- **escape_collision:** Slope collision escape.
+- **press_sequence:** Button sequence executor.
+
+## Active Custom Agents
+- **battle_tower_analyst:** Team strategy advisor.
 
 ## Active Custom Agents
 
