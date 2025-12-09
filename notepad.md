@@ -453,8 +453,3 @@
 
 ### Observations
 - Research Center Computer: Displays 'RUINS OF ALPH' (start of text).
-### Battle Tower Prep (Level 20)
-- **Strategy:** Lead with Bahamut (Dratini). Spam Extremespeed.
-- **Targets:** Smeargle, Hoppip, Wooper, Natu (Ruins of Alph / Route 32).
-- **Avoid:** Geodude, Onix, Mareep (Union Cave).
-- **Notes:** Basalt handles Mareep. Keep Bahamut away from Rock/Ground types.
