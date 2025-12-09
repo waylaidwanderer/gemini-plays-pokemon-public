@@ -455,3 +455,4 @@
 - **Quest Status:** Miltank is still sick. Needs standard BERRY. Route 38 tree was empty. Exploring Violet City area.
 - **Lesson:** Always set `autopress_buttons: true` when calling custom tools that return button sequences.
 - **Quest Status Update:** Miltank is still sick. The Route 38 tree contained a Bitter Berry (not the cure). Now heading to Route 30 to check the Berry tree there.
+- **TM08 (Rock Smash):** Obtained from Fisher on Route 36 (44, 9). Allows breaking cracked rocks.
