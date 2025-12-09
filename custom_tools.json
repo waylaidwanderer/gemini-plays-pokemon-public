@@ -83,6 +83,32 @@
       }
     ]
   },
+  "find_adjacent_unseen": {
+    "description": "Checks the four tiles adjacent (Up, Down, Left, Right) to the player's current position and returns a list of coordinates for any that are 'unseen'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "string"
+        },
+        "current_y": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ncurrent_x = int(input_data['current_x'])\ncurrent_y = int(input_data['current_y'])\n\nroot = ET.fromstring(map_xml_string)\nadjacent_unseen = []\nmoves = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\nfor dx, dy in moves:\n    next_x, next_y = current_x + dx, current_y + dy\n    \n    tile_elem = root.find(f\".//Row[@id='{next_y}']/Tile[@id='{next_x}']\")\n    if tile_elem is not None:\n        if tile_elem.get('seen') == 'false':\n            adjacent_unseen.append({'x': next_x, 'y': next_y})\n\nprint(json.dumps(adjacent_unseen))",
+    "history": [
+      {
+        "commit_message": "feat: Create find_adjacent_unseen tool. This is a simple, robust replacement for the deleted, overly complex BFS-based exploration tool. It only checks the four adjacent tiles for unseen status, providing reliable, step-by-step exploration guidance and avoiding the catastrophic pathing failures of its predecessor.",
+        "timestamp": "2025-12-09T01:20:46.218Z",
+        "action_counter": 43555
+      }
+    ]
+  },
   "select_item": {
     "description": "Automates selecting an item from the bag during or outside of a battle. Takes the target item's name and the current screen text as input.",
     "input_schema": {
@@ -708,32 +734,6 @@
         "commit_message": "fix: Overhaul parser to use HP stats as a stable anchor. The previous agent-provided logic catastrophically failed by incorrectly using 'LV' as a filter, which did not appear on the same line as the Pokémon's name. This commit implements a robust new parser that correctly identifies selectable menu items by looking for the 'HP/HP' stat block, ensuring the tool builds an accurate list and resolves the critical failure.",
         "timestamp": "2025-12-08T05:05:49.619Z",
         "action_counter": 41334
-      }
-    ]
-  },
-  "find_adjacent_unseen": {
-    "description": "Checks the four tiles adjacent (Up, Down, Left, Right) to the player's current position and returns a list of coordinates for any that are 'unseen'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_x": {
-          "type": "string"
-        },
-        "current_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "current_x",
-        "current_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ncurrent_x = int(input_data['current_x'])\ncurrent_y = int(input_data['current_y'])\n\nroot = ET.fromstring(map_xml_string)\nadjacent_unseen = []\nmoves = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\nfor dx, dy in moves:\n    next_x, next_y = current_x + dx, current_y + dy\n    \n    tile_elem = root.find(f\".//Row[@id='{next_y}']/Tile[@id='{next_x}']\")\n    if tile_elem is not None:\n        if tile_elem.get('seen') == 'false':\n            adjacent_unseen.append({'x': next_x, 'y': next_y})\n\nprint(json.dumps(adjacent_unseen))",
-    "history": [
-      {
-        "commit_message": "feat: Create find_adjacent_unseen tool. This is a simple, robust replacement for the deleted, overly complex BFS-based exploration tool. It only checks the four adjacent tiles for unseen status, providing reliable, step-by-step exploration guidance and avoiding the catastrophic pathing failures of its predecessor.",
-        "timestamp": "2025-12-09T01:20:46.218Z",
-        "action_counter": 43555
       }
     ]
   }
