@@ -514,3 +514,10 @@
 - **WATERFALL:** Water obstacle. Passable with HM07.
 - **WEIRD_TREE Anomaly:** Twins Ann & Anne on Route 37 are labeled as WEIRD_TREE in game state.
 - **Lesson:** Always check inventory space before foraging.
+### Route 37 Findings
+- **Anomaly:** Twins Ann & Anne are labeled as `WEIRD_TREE` in the game state object list.
+- **Lesson:** Always check inventory space before foraging. A full pack prevents looting fruit trees.
+- **Resources:**
+  - Red Apricorn: (13, 5)
+  - Black Apricorn: (15, 7)
+  - Blue Apricorn: (16, 5)
