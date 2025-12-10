@@ -302,3 +302,5 @@
 - `find_reachable_unseen_tiles` and `advanced_route_planner` gave contradictory results for the reachability of (0, 21) on Route 41. The pathfinder reported 'No path found,' while the exploration tool listed it as reachable. I am trusting the pathfinder for now, but I must investigate the logic of `find_reachable_unseen_tiles` to find the bug.
 ## LESSONS LEARNED (Reinforced)
 - **Tool Contradiction Protocol:** When two tools give contradictory outputs (like `find_reachable_unseen_tiles` and `advanced_route_planner`), I must trust the more reliable one (`advanced_route_planner` for pathing) and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
+## Ongoing Investigations
+- **JUGGLER IRWIN (Phone):** Called to congratulate me on saving the POKéMON at the LIGHTHOUSE, even though I haven't done it yet. This is a strange inconsistency.
