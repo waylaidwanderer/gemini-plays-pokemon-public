@@ -431,6 +431,7 @@
 - **Navigation Update:** Fly interface proved unreliable for Westward travel from Violet. Proceeding on foot to Olivine via Route 36.
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
+- **Kabuto Chamber Secret:** Back wall at (4,0) reads 'Patterns appeared on the walls...'. Suspect Escape Rope puzzle.
 - **Inner Chamber:** "Strange presence" text appeared upon entry (likely Unown).
 - **Tool Lesson:** `find_path` tool outputs a list of coordinates, NOT button strings. Do NOT use `autopress_buttons=True` with it; use `path_plan` instead.
 - Entered Ruins of Alph Research Center.
