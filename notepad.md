@@ -305,3 +305,10 @@
 ## LESSONS FROM REFLECTION (Turn 45844)
 - **Trust Verified Tools:** If a pathfinding tool reports a path is blocked, trust its output. Investigate the potential obstacle in-game rather than assuming the tool is flawed, especially after a recent fix. My own visual assessment can be misleading.
 - **Accurate Mechanic Modeling:** Custom tools must accurately model all relevant game mechanics to be reliable. My pathfinder's failure to account for walk/surf transitions was a critical flaw. Future tools must be designed with a comprehensive understanding of the systems they interact with.
+
+# REFLECTION LESSONS (Turn 45895)
+- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
+- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
+
+## Tile & Object Mechanics (Addendum)
+- **WARP_CARPET_LEFT**: A warp tile at the edge of a map. Pressing 'Left' while standing on the tile has been confirmed to trigger the warp.
