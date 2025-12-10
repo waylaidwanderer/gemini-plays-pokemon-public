@@ -41,7 +41,7 @@
 
 ### Current Logs
 - **Lesson:** ALWAYS verify Map ID and coordinates against Game State before assuming location to avoid hallucinations (e.g., thinking I'm outside when in PC).
-- **Route 29 Navigation:** Northern path to Berry Tree blocked from West. Requires access from East (New Bark side) or Cut.
+- **Route 29 Navigation:** Northern path (Berry Tree) accessible via Cut Tree at (30, 9) or from New Bark Town (East).
 - **Action:** Withdrew XQH (Sandshrew) for Cut. Heading to Route 29.
 
 ## Mt. Silver & Route 28 (Archived)
