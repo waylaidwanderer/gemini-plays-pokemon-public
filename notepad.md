@@ -327,3 +327,5 @@
 
 ## Tile & Object Mechanics (Addendum)
 - **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from.
+## LESSONS FROM REFLECTION (Turn 46103)
+- **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. I must ensure my tools account for all relevant mechanics (like walk/surf transitions, one-way ledges, etc.) to be reliable. Trusting a tool with a flawed world model leads to critical strategic errors.
