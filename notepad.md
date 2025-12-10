@@ -19,15 +19,14 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Heal, Unlock Fly, and Locate Larvitar (Bedrock).
-**Strategy:** Heal at Center to set Fly point. Access PC to organize team for Battle Tower (Deposit high levels, find Larvitar).
+**Current Objective:** Challenge Battle Tower (Level 20).
+**Strategy:** Equip held items (Quick Claw, Berries). Go to Battle Tower (West of Olivine).
 **Team:**
 1. Bahamut (Dratini) Lv17
 2. Vortex (Pidgeotto) Lv19
-3. XQH (Sandshrew) Lv12
-4. Gib Raltar (Graveler) Lv37
+3. Bedrock (Larvitar) Lv20
+4. XQH (Sandshrew) Lv12
 5. F (Psyduck) Lv8
-6. Chrono (Hoothoot) Lv16
 **Status:** Olivine City Pokémon Center.
 **Battle Tower Rules:**
 - 3 Pokémon team.
