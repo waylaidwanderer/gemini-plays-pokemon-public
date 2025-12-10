@@ -12,6 +12,15 @@
 - **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
 - **Tool Contradiction Protocol:** When two tools give contradictory outputs (like `find_reachable_unseen_tiles` and `advanced_route_planner`), I must trust the more reliable one (`advanced_route_planner` for pathing) and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
 - **Catastrophic Hallucination Failure:** My attempt to re-battle a defeated Gym Leader was a critical failure to adhere to my own verification protocols. Before any major action, I MUST verify the current game state against my inventory (badges, items) and documented progress. Trusting memory is the root cause of these blunders.
+- **Trust Verified Tools:** If a pathfinding tool reports a path is blocked, trust its output. Investigate the potential obstacle in-game rather than assuming the tool is flawed, especially after a recent fix. My own visual assessment can be misleading.
+- **Accurate Mechanic Modeling:** Custom tools must accurately model all relevant game mechanics to be reliable. My pathfinder's failure to account for walk/surf transitions was a critical flaw. Future tools must be designed with a comprehensive understanding of the systems they interact with.
+- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
+- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
+- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
+- **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
+- **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
+- **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
+- **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. I must ensure my tools account for all relevant mechanics (like walk/surf transitions, one-way ledges, etc.) to be reliable. Trusting a tool with a flawed world model leads to critical strategic errors.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
@@ -89,7 +98,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
-- **FLOOR_UP_WALL**: Confirmed impassable from below and from the side. My tool's logic was based on the faulty assumption it was a one-way ledge, but in-game movement attempts to move DOWN onto this tile from an adjacent `FLOOR` tile and from the side have both failed. It should be treated as a solid wall until proven otherwise.
+- **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
@@ -117,6 +126,7 @@
 - **WALL**: An impassable tile that blocks movement.
 - **WARP_CARPET_DOWN**: A warp tile at the edge of a map. Pressing 'Down' while standing on the tile has been confirmed to trigger the warp.
 - **WARP_CARPET_RIGHT**: A warp tile at the edge of a map. Pressing 'Right' while standing on the tile has been confirmed to trigger the warp.
+- **WARP_CARPET_LEFT**: A warp tile at the edge of a map. Pressing 'Left' while standing on the tile has been confirmed to trigger the warp.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
@@ -302,30 +312,3 @@
 - When a tool generates a physically impossible action (like walking on water), its core logic is fundamentally flawed and must be fixed immediately. Trusting a broken tool leads to wasted turns and critical failures.
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - When stuck in a puzzle loop, the root cause is often a missed story event or key NPC interaction, not a hidden switch or obscure passage. Prioritize re-checking key NPCs before assuming complex puzzle mechanics. My failure to talk to Kurt in the Slowpoke Well led to a long, fruitless search.
-
-## LESSONS FROM REFLECTION (Turn 45844)
-- **Trust Verified Tools:** If a pathfinding tool reports a path is blocked, trust its output. Investigate the potential obstacle in-game rather than assuming the tool is flawed, especially after a recent fix. My own visual assessment can be misleading.
-- **Accurate Mechanic Modeling:** Custom tools must accurately model all relevant game mechanics to be reliable. My pathfinder's failure to account for walk/surf transitions was a critical flaw. Future tools must be designed with a comprehensive understanding of the systems they interact with.
-
-# REFLECTION LESSONS (Turn 45895)
-- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
-- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
-
-## Tile & Object Mechanics (Addendum)
-- **WARP_CARPET_LEFT**: A warp tile at the edge of a map. Pressing 'Left' while standing on the tile has been confirmed to trigger the warp.
-
-## LESSONS FROM REFLECTION (Turn 45948)
-- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
-
-## LESSONS FROM REFLECTION (Turn 45966)
-- **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
-## LESSONS FROM REFLECTION (Turn 46000)
-- **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
-
-## LESSONS FROM REFLECTION (Turn 46052)
-- **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
-
-## Tile & Object Mechanics (Addendum)
-- **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from.
-## LESSONS FROM REFLECTION (Turn 46103)
-- **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. I must ensure my tools account for all relevant mechanics (like walk/surf transitions, one-way ledges, etc.) to be reliable. Trusting a tool with a flawed world model leads to critical strategic errors.
