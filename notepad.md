@@ -397,9 +397,10 @@
 - **GS Ball:** CANCELLED (Unobtainable).
 - **Route 36:** Sudowoodo event complete. Path to Ecruteak City is CLEAR. Fruit Tree at (21, 4) contains ICE BERRY.
 - **Moomoo Farm:** Quest Active. Miltank is sick. Needs regular BERRIES. Inventory: 2. 
-  - Left Twin: "We're feeding MOOMOO!"
-  - Miltank: "Mooo!" (No prompt yet). 
-  - Plan: Talk to Right Twin, then forage for more berries if needed.
+  - Miltank: Interaction just says 'Mooo!'. No feeding prompt.
+  - Twins: Both say 'We're feeding MOOMOO!'.
+  - Farmer: Just sells Moomoo Milk.
+  - Plan: Talk to Pokefan F (Farmer's Wife) to find the quest trigger.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
 ## Route 39 & 40 (Olivine Area)
