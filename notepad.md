@@ -1,6 +1,5 @@
 # LESSONS LEARNED
 - **Immediate Tool Maintenance:** Tool maintenance is the highest priority and must be performed immediately upon discovering a bug. Deferring a fix leads to flawed strategies based on unreliable data and is a critical failure.
-- **Trust the Pathfinder:** If the `advanced_route_planner` returns 'No path found,' I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken. Ignoring the tool's output is the direct cause of getting stuck in navigational loops.
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
 - **Tool Logic Must Mirror Game Mechanics:** Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types or UI structures). All tools must be designed with a perfect understanding of the game mechanics they interact with.
@@ -10,17 +9,17 @@
 - **Mechanic Failure Analysis:** Before assuming a puzzle is blocked by a complex mechanic, thoroughly check for simple, alternate paths. My inability to push the boulder at Cianwood (5, 29) was not a mechanic failure, but a perception failure, as I later discovered I could simply walk around it.
 - **Tool Usage Loops:** When a tool fails repeatedly, especially one requiring precise text input like `notepad_edit`, the root cause is likely user error (e.g., incorrect `old_text`). I must meticulously copy the exact text from error suggestions instead of re-typing or paraphrasing to avoid getting stuck in correctable loops.
 - **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
-- **Tool Contradiction Protocol:** When two tools give contradictory outputs (like `find_reachable_unseen_tiles` and `advanced_route_planner`), I must trust the more reliable one (`advanced_route_planner` for pathing) and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
+- **Tool Contradiction Protocol:** When two tools give contradictory outputs, I must trust the more reliable one and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
 - **Catastrophic Hallucination Failure:** My attempt to re-battle a defeated Gym Leader was a critical failure to adhere to my own verification protocols. Before any major action, I MUST verify the current game state against my inventory (badges, items) and documented progress. Trusting memory is the root cause of these blunders.
-- **Trust Verified Tools:** If a pathfinding tool reports a path is blocked, trust its output. Investigate the potential obstacle in-game rather than assuming the tool is flawed, especially after a recent fix. My own visual assessment can be misleading.
 - **Accurate Mechanic Modeling:** Custom tools must accurately model all relevant game mechanics to be reliable. My pathfinder's failure to account for walk/surf transitions was a critical flaw. Future tools must be designed with a comprehensive understanding of the systems they interact with.
 - **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
 - **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
 - **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
-- **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
+- **Trust Verified Tools Over Perception:** A verified tool can analyze map data more accurately than visual inspection. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
 - **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. I must ensure my tools account for all relevant mechanics (like walk/surf transitions, one-way ledges, etc.) to be reliable. Trusting a tool with a flawed world model leads to critical strategic errors.
+- **Robust Tool Design:** Tools must be designed to handle all UI states, not just the simplest ones. The `select_item` tool's fix, while necessary, caused a regression by removing its ability to prevent infinite scrolling. Future tools must be built with edge cases like this in mind from the start.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
@@ -46,7 +45,6 @@
 ## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
 - **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
-- **Trust the Pathfinder:** If the `advanced_route_planner` returns 'No path found,' the root assumption about the map's geography or the destination's reachability is likely flawed. I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken.
 
 ## 3. Puzzle Solving & Logic
 - **Escalate to Puzzle Solver:** When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
@@ -61,7 +59,7 @@
 - **Tool Maintenance is Highest Priority:** If a tool fails, it MUST be fixed immediately, overriding any in-game action. Deferring a fix is a critical failure. After applying a fix, especially from an agent, the tool's functionality must be verified with a simple test case.
 - **Trust Agent for Tool Repair:** Manual debugging of UI parsing tools has a high failure rate. When a UI automation tool fails, I must escalate to the `python_code_debugger` agent for a robust solution instead of attempting multiple manual fixes.
 - **Robust UI Parsing:** UI automation tools MUST use robust, flexible parsing that can handle minor variations in text and spacing. Relying on exact string matches or flawed assumptions about UI structure (e.g., name and level on the same line) is a critical point of failure.
-- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration (e.g., `is_surfing`) is correct for the current context. A 'No path found' result is often accurate data about the map, not a tool failure.
+- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration is correct for the current context. A 'No path found' result is often accurate data about the map, not a tool failure.
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate (e.g., not accounting for the 'CANCEL' option in a circular menu). All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
 
 # KNOWLEDGE BASE
@@ -72,7 +70,7 @@
 - **PC Storage:** Used for Pokémon and item storage in Pokémon Centers.
 - **BERRY Trees:** Grow new BERRIES every day.
 - **Healing:** Pokémon Centers restore all HP/PP and cure status conditions.
-- **Game State Updates:** Map data (like a `CUT_TREE` changing to a `FLOOR`) doesn't fully update until all on-screen text is cleared. Using tools like `route_planner` before the overworld is fully interactive will use stale data and fail.
+- **Game State Updates:** Map data (like a `CUT_TREE` changing to a `FLOOR`) doesn't fully update until all on-screen text is cleared. Using tools before the overworld is fully interactive will use stale data and fail.
 - **HEADBUTT Mechanic:** Can be used outside of battle on `HEADBUTT_TREE` tiles to encounter sleeping Pokémon.
 - **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELer) evolve when traded.
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
@@ -254,7 +252,7 @@
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
 - **Route 42 Impasse:** All three Mt. Mortar entrances on Route 42 have been confirmed to be isolated dead ends from the west side. Surfing across the central lakes does not connect the western and eastern landmasses. The path to the east and the Lake of Rage is completely blocked from Ecruteak City. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
-- A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle. However, my `advanced_route_planner` confirmed the area is unreachable from the west side of the route.
+- A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle. However, my exploration confirmed the area is unreachable from the west side of the route.
 
 ## Held Items
 - **QUICK CLAW:** Received from a Teacher in the National Park. When held by a Pokémon, it may allow them to attack first in battle.
@@ -307,14 +305,11 @@
 
 # Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, FLASH). Would need to handle multi-screen menu navigation, possibly with a state machine or by being broken into smaller, single-screen tools. This would prevent the 'mixed input' errors from manual menuing.
-- **Tool Contradiction Protocol:** When two tools give contradictory outputs (like `find_reachable_unseen_tiles` and `advanced_route_planner`), I must trust the more reliable one (`advanced_route_planner` for pathing) and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
 - When a tool generates a physically impossible action (like walking on water), its core logic is fundamentally flawed and must be fixed immediately. Trusting a broken tool leads to wasted turns and critical failures.
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - When stuck in a puzzle loop, the root cause is often a missed story event or key NPC interaction, not a hidden switch or obscure passage. Prioritize re-checking key NPCs before assuming complex puzzle mechanics. My failure to talk to Kurt in the Slowpoke Well led to a long, fruitless search.
-- **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
 
 ## Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
-- **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - Tool maintenance, even mid-battle, is a higher priority than any gameplay action. A broken tool leads to failed strategies.
 - When navigation seems impossible, my own perception of the map is likely flawed. I must re-examine every tile for overlooked interactions (like landing from SURF) and use the `puzzle_solver` agent to challenge my root assumptions.
