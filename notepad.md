@@ -305,3 +305,12 @@
 ## Tile & Object Mechanics
 - **WARP_CARPET_RIGHT**: A warp tile at the edge of a map. Pressing 'Right' while standing on the tile has been confirmed to trigger the warp.
 - **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
+
+# LESSONS LEARNED (Reinforced)
+- **Trust the Pathfinder:** If `advanced_route_planner` returns 'No path found,' the destination is likely unreachable or on an impassable tile. I must trust the tool and re-evaluate my target coordinates, not assume the tool is broken.
+
+# Tile & Object Mechanics
+- **WARP_CARPET_RIGHT**: A warp tile at the edge of a map. Pressing 'Right' while standing on the tile has been confirmed to trigger the warp.
+
+# Tool Ideas
+- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, FLASH). Would need to handle multi-screen menu navigation, possibly with a state machine or by being broken into smaller, single-screen tools. This would prevent the 'mixed input' errors from manual menuing.
