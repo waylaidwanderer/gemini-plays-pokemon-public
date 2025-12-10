@@ -263,7 +263,7 @@
 ## Rematch Opportunities
 - Hiker Anthony on Route 33 called for a battle.
 - Youngster Joey on Route 30 called for a rematch.
-- Sailor Huey at the Olivine Lighthouse called for a rematch.
+- Sailor Huey at the Olivine Lighthouse called for a rematch (multiple calls).
 
 ## Tools & Agents
 ### Built-in Tools
