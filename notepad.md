@@ -279,11 +279,9 @@
 - `select_battle_option`
 
 ### Custom Tools
-- `advanced_route_planner`
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `find_reachable_unseen_tiles`
 
 ### Custom Agents
 - `python_code_debugger`
