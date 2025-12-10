@@ -314,4 +314,4 @@
 
 ## LESSONS LEARNED (Reinforced)
 - **Anti-Hallucination Protocol is Non-Negotiable:** My recent catastrophic pathfinding failures were caused by a complete failure to adhere to my own verification protocol. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition, without exception. Trusting my memory is the root cause of all major strategic failures.
-- **Mechanic Failure Analysis:** If a known mechanic (like STRENGTH) that has previously worked fails in a new context, it strongly implies there is an additional, undiscovered condition for its use in that specific location or a story flag that has not been met. Do not repeat the failed action; instead, investigate the surrounding area for new triggers or change objectives.
+- **Mechanic Failure Analysis:** Before assuming a puzzle is blocked by a complex mechanic, thoroughly check for simple, alternate paths. My inability to push the boulder at Cianwood (5, 29) was not a mechanic failure, but a perception failure, as I later discovered I could simply walk around it.
