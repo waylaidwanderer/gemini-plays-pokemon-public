@@ -235,7 +235,7 @@
 ## Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
-- **Route 42 Impasse:** All three Mt. Mortar entrances on Route 42 have been confirmed to be isolated dead ends from the west side. Surfing across the central lakes does not connect the western and eastern landmasses. The path is completely blocked. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
+- **Route 42 Impasse:** - **Route 42 Impasse:** All three Mt. Mortar entrances on Route 42 have been confirmed to be isolated dead ends from the west side. Surfing across the central lakes does not connect the western and eastern landmasses. The path to the east and the Lake of Rage is completely blocked from Ecruteak City. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
 - A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle. However, my `advanced_route_planner` confirmed the area is unreachable from the west side of the route.
 
 ## Held Items
