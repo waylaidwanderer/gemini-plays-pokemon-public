@@ -465,8 +465,8 @@
 - **Ruins of Alph:** Printer inactive with current Unown (5 types). Scientists dialogue generic. Need to catch more varieties.
 - **Ruins of Alph:** Scientist confirmed 'many kinds' of Unown exist. Implies catching different letter variants is key.
 - **Stealth Strategy:** Use `stun_npc` to freeze patrolling Scientists to avoid pathfinding blocks.
-- **Ruins Mystery:** Unown Dex Unlocked (Mode unlocked by Scientist 3). Printer still locked with 5 Unown. Scientist 2 dialogue is generic.
-- **Unown Collection:** 5 Caught (SIGIL, CIPE, RUNE, LEXICON, ALPHA). Need more for Printer?
+- **Ruins Mystery:** Unown Dex Unlocked. Printer locked.
+- **Unown Collection:** 3 Caught (SIGIL, CIPE, RUNE). Discovered discrepancy: 'L' and 'A' are missing. Need to catch more varieties.
 - **Hypothesis:** Must speak to Scientist to update progress, or need more than 5.
 - **Unown Mode:** Unlocked (likely with 3 forms). Records forms in catch order.
 - **Tool Usage Lesson:** Custom tools that return button sequences (like `press_sequence`) MUST be called with `autopress_buttons: true` to actually execute the presses. System tools do not require this.
