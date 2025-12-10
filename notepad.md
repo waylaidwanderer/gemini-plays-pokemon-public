@@ -9,9 +9,9 @@
 **Status:** Red Defeated! The 'mysterious message' was just a tutorial.
 **Next Stop:** Ruins of Alph / Ecruteak City.
 **Current Objectives:**
-1. Locate Larvitar & Organize Team.
-2. Train team to Level 20 (Battle Tower Prep).
-3. Explore Ruins of Alph.
+1. Catch Magnemite (Route 38/39) - Steel type to counter Battle Tower Tauros.
+2. Catch Chinchou (Good Rod) or Staryu (Super Rod, Night) in Olivine City/Route 40.
+3. Train team to Level 20.
 **The Champion Team:**
 - **Paprika (Typhlosion Lv75):** The MVP.
 - **Basalt (Geodude):** Support.
