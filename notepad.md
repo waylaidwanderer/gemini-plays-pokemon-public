@@ -269,6 +269,8 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
+- `delete_tool`
+- `select_battle_option`
 
 ### Custom Tools
 - `advanced_route_planner`
