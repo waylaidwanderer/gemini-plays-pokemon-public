@@ -1,4 +1,5 @@
 # LESSONS LEARNED
+- **Immediate Tool Maintenance:** Tool maintenance is the highest priority and must be performed immediately upon discovering a bug. Deferring a fix leads to flawed strategies based on unreliable data and is a critical failure.
 - **Trust the Pathfinder:** If the `advanced_route_planner` returns 'No path found,' I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken. Ignoring the tool's output is the direct cause of getting stuck in navigational loops.
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths.
@@ -108,7 +109,7 @@
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **WALL**: An impassable tile that blocks movement.
-- **WARP_CARPET_UP/DOWN/LEFT/RIGHT**: A warp tile at the edge of a map. The activation method is direction-specific. For a `WARP_CARPET_DOWN`, pressing 'Down' while standing on the tile has been confirmed to trigger the warp. Other directions are still under investigation.
+- **WARP_CARPET_DOWN**: A warp tile at the edge of a map. Pressing 'Down' while standing on the tile has been confirmed to trigger the warp.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
 - **WATER**: Traversable using the HM move SURF.
@@ -235,7 +236,7 @@
 ## Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
 - **Rival on Route 40:** Confirmed that interacting with SILVER on Route 40 after accepting Jasmine's quest does not trigger a battle or make him move. He remains a static blocker.
-- **Route 42 Impasse:** - **Route 42 Impasse:** All three Mt. Mortar entrances on Route 42 have been confirmed to be isolated dead ends from the west side. Surfing across the central lakes does not connect the western and eastern landmasses. The path to the east and the Lake of Rage is completely blocked from Ecruteak City. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
+- **Route 42 Impasse:** All three Mt. Mortar entrances on Route 42 have been confirmed to be isolated dead ends from the west side. Surfing across the central lakes does not connect the western and eastern landmasses. The path to the east and the Lake of Rage is completely blocked from Ecruteak City. Do not attempt to cross Route 42 again until a new key item or story event provides a solution.
 - A `CUT_TREE` at (24, 13) on Route 42 was identified as a potential obstacle. However, my `advanced_route_planner` confirmed the area is unreachable from the west side of the route.
 
 ## Held Items
@@ -284,24 +285,13 @@
 ## Ongoing Investigations
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
 - **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
-
-## Navigation & Exploration
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
-
-## Tile & Object Mechanics
-- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
 - **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
+- **JUGGLER IRWIN (Phone):** Called to congratulate me on saving the POKéMON at the LIGHTHOUSE, even though I haven't done it yet. This is a strange inconsistency.
+- **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
 
 ## LESSONS LEARNED (Reinforced)
 - **Anti-Hallucination Protocol is Non-Negotiable:** My recent catastrophic pathfinding failures were caused by a complete failure to adhere to my own verification protocol. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition, without exception. Trusting my memory is the root cause of all major strategic failures.
 - **Mechanic Failure Analysis:** Before assuming a puzzle is blocked by a complex mechanic, thoroughly check for simple, alternate paths. My inability to push the boulder at Cianwood (5, 29) was not a mechanic failure, but a perception failure, as I later discovered I could simply walk around it.
 - **Tool Usage Loops:** When a tool fails repeatedly, especially one requiring precise text input like `notepad_edit`, the root cause is likely user error (e.g., incorrect `old_text`). I must meticulously copy the exact text from error suggestions instead of re-typing or paraphrasing to avoid getting stuck in correctable loops.
-## LESSONS LEARNED (Reinforced)
 - **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
-## Tool Investigation
-- `find_reachable_unseen_tiles` and `advanced_route_planner` gave contradictory results for the reachability of (0, 21) on Route 41. The pathfinder reported 'No path found,' while the exploration tool listed it as reachable. I am trusting the pathfinder for now, but I must investigate the logic of `find_reachable_unseen_tiles` to find the bug.
-## LESSONS LEARNED (Reinforced)
 - **Tool Contradiction Protocol:** When two tools give contradictory outputs (like `find_reachable_unseen_tiles` and `advanced_route_planner`), I must trust the more reliable one (`advanced_route_planner` for pathing) and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
-## Ongoing Investigations
-- **JUGGLER IRWIN (Phone):** Called to congratulate me on saving the POKéMON at the LIGHTHOUSE, even though I haven't done it yet. This is a strange inconsistency.
-- **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
