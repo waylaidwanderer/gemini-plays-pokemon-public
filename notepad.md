@@ -178,10 +178,12 @@
 3. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
 
 **Strategy:** Bahamut covers the team's Water/Electric weakness. Use Thunder Wave to cripple faster threats.
-**Status:** In Battle (Thornton).
+**Status:** Defeated by Lass Thornton (Tauros).
 **Opponent Intel:**
-- **Lass Thornton's Tauros:** Blizzard, Hyper Beam.
+- **Lass Thornton's Tauros:** Blizzard (Ice), Hyper Beam. Outsped entire team.
+- **Critical Weakness:** Entire team (Ground, Flying, Dragon) is weak to Ice.
 - **Mechanic:** Hyper Beam requires recharge even on KO.
+**Next Steps:** Train Vortex/Bahamut to Level 20. Consider finding a Water-type (resists Ice) or Steel-type.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
