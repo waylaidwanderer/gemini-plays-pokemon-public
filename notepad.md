@@ -9,8 +9,8 @@
 **Status:** Red Defeated! The 'mysterious message' was just a tutorial.
 **Next Stop:** Ruins of Alph / Ecruteak City.
 **Current Objectives:**
-1. Train team to Level 20 (Battle Tower Prep).
-2. Buy Moomoo Milk (Route 39).
+1. Locate Larvitar & Organize Team.
+2. Train team to Level 20 (Battle Tower Prep).
 3. Explore Ruins of Alph.
 **The Champion Team:**
 - **Paprika (Typhlosion Lv75):** The MVP.
