@@ -19,19 +19,13 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Challenge Battle Tower (Level 20).
-**Strategy:** Equip held items (Quick Claw, Berries). Go to Battle Tower (West of Olivine).
-**Team:**
-1. Vortex (Pidgeotto) Lv19
-2. Bedrock (Larvitar) Lv20
-3. Bahamut (Dratini) Lv17
-**Status:** Battle Tower (Lobby).
-**Battle Tower Rules:**
-- 3 Pokémon team.
-- All Pokémon must be ≤ Level 20 for the L:20 challenge.
-
-**Observed Threats:**
-- **Miltank (Teacher Marino):** Knows Surf (Water) and Thunder (Electric). Wiped Rock/Ground/Flying team. Counter: Dragon type (Bahamut).
+**Current Objective:** Heal & Re-equip for Rematch.
+**Strategy:** Return to Olivine PC. Equip Quick Claw (Bedrock) and Berries (Vortex/Bahamut).
+**Team Status:** Wiped by Scientist Nickel (Azumarill - Surf/Blizzard).
+**Needs:**
+1. HEALING (Olivine PC).
+2. HELD ITEMS (Equip from Bag).
+3. STRATEGY ADJUSTMENT (Azumarill is a wall. Need Electric/Grass coverage).
 
 ### Recent Logs (Archived)
 - **Route 38:** Explored. Larvitar "BEDROCK" caught.
