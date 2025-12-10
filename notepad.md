@@ -19,15 +19,16 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Reorganize Party at Violet PC (Get HM Users).
-**Strategy:** Harvested Route 29 Berry (1/7?). Heading to Route 46 to check for more.
+**Current Objective:** Train Team to Level 20 & Loot Route 37 Apricorn.
+**Strategy:** Bag is full (20/20). Deposit items (TMs, Nugget, Rare Candy) at Ecruteak PC. Then return to Route 37 for Blue Apricorn.
 **Team:**
 1. Bahamut (Dratini) Lv17
-2. Bedrock (Larvitar) Lv20
-3. Vortex (Pidgeotto) Lv19
-4. Shuckie (Shuckle) Lv15
-5. XQH (Sandshrew) Lv12 (Cut)
-**Status:** On phone with Joey.
+2. Vortex (Pidgeotto) Lv19
+3. XQH (Sandshrew) Lv12
+4. Gib Raltar (Graveler) Lv37
+5. F (Psyduck) Lv8
+6. Chrono (Hoothoot) Lv16
+**Status:** Outside Ecruteak PC.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
