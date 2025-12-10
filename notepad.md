@@ -491,3 +491,10 @@
 - **Navigation:** One-way Southbound only. Northern section (Berry Tree) is inaccessible from the South. Must access via Dark Cave (Route 31 entrance).
 - **Sign:** "MOUNTAIN RD. AHEAD" at (9, 27).
 - **Route 30:** Harvested PSNCUREBERRY at (11, 5). Tree is now empty. Heading to Dark Cave via Route 31.
+## Dark Cave (Violet Entrance)
+- **Status:** Just entered from Route 31.
+- **Geography:**
+  - Entrance: (3, 15).
+  - East Path: Blocked by Rock Obstacle (ID 4) at (7, 14).
+  - South Path: Blocked by Ridge (FLOOR_UP_WALL) at (2, 16). Hypothesis: Traversable from North (Down).
+- **Goal:** Reach Route 46 (North) via the western path.
