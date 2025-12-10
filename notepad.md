@@ -486,3 +486,7 @@
 - **Route 29 Navigation:** Northern path accessible via Cut (Tree at 30, 9 removed). Proceeding to forage on Route 46.
 - **Route 29 Navigation (Eastbound):** Direct path blocked by ledges at x=8 and x=28. Must use the Southern Path (Row 14) to bypass the x=28 barrier, then loop North through the gap at (31, 13) to reach the Cut Tree/Gatehouse.
 - **Route 29 Navigation Update:** Cut Tree at (30, 9) removed. Northern path is now accessible from the West.
+## Route 46
+- **Status:** Explored Southern Basin.
+- **Navigation:** One-way Southbound only. Northern section (Berry Tree) is inaccessible from the South due to ledges.
+- **Sign:** "MOUNTAIN RD. AHEAD" at (9, 27).
