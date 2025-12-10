@@ -499,3 +499,4 @@
   - South Path: Blocked by Ridge (FLOOR_UP_WALL) at (2, 16). Hypothesis: Traversable from North (Down).
 - **Goal:** Reach Route 46 (North) via the western path.
 - **Dark Cave (Violet Entrance):** The path South from the entrance is blocked by a one-way ridge (FLOOR_UP_WALL) at (2, 16). Cannot reach the western side without Surf or Rock Smash. Returning to Violet City to get HM users.
+- **Violet PC:** Deposited Bedrock/Shuckie. Withdrew Gib Raltar. Plan: Withdraw F (Surf) and Chrono (Flash).
