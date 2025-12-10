@@ -479,3 +479,4 @@
 - **Phone Call:** Joey (Route 30) called. Flavor text about Rattata and Hoothoot.
 - **Moomoo Farm:** Pokefan F says Miltank won't give milk. This confirms the quest.
 - **Route 29 Navigation:** The northern path (containing the Berry Tree) is blocked by ledges when approaching from Cherrygrove (West). You MUST enter from New Bark Town (East) to access the upper area.
+Navigation Update: Validated New Bark Town West exit. The northern exit (y=3) suggested by critique is BLOCKED by a wall. Only exit is at y=8/9. Access to Route 29 Northern Path (Berry Tree) likely requires CUT. Plan: Travel West to Cherrygrove to withdraw XQH (Cut).
