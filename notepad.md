@@ -127,6 +127,9 @@
 - **WATER/LAND Interaction:** Moving from Water to Land triggers 'Want to get off?'. Cancel with B to face Land. Moving from Land to Water triggers 'Want to Surf?'. Both prompts override hidden item checks.
 - **STATUE:** Interactable. Stand BELOW, face UP, press A.
 - **BOOKSHELF:** Impassable Obstacle.
+- **HEADBUTT_TREE:** Obstacle. Interacting may trigger wild encounters.
+- **WHIRLPOOL:** Water obstacle. Passable with HM06.
+- **WATERFALL:** Water obstacle. Passable with HM07.
 - **Map Markers:** Use simple emojis (e.g., ⭐) to prevent errors.
 
 ### Battle Mechanics
