@@ -522,3 +522,7 @@
   - Red Apricorn: (13, 5)
   - Black Apricorn: (15, 7)
   - Blue Apricorn: (16, 5)
+### Recent Lessons & Anomalies
+- **Anomaly:** Twins Ann & Anne on Route 37 are labeled as 'WEIRD_TREE' in the game state object list.
+- **Lesson:** Inventory limit is strict (20 slots). Stacks count as 1 slot. Always check space before foraging.
+- **Progress:** Deposited Nugget, Rare Candy, Protein (x2).
