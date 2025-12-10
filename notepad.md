@@ -19,13 +19,15 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Withdraw XQH (Cut).
-**Strategy:** In Cherrygrove PC. Withdraw Sandshrew. Access Route 29 Northern Berry Tree.
+**Current Objective:** Harvest Route 29 Berry.
+**Strategy:** XQH (Cut) obtained. Exit PC -> Route 29 East. Cut trees to reach Northern Berry Tree (12, 2).
 **Team:**
-1. Vortex (Pidgeotto) Lv19
+1. Bahamut (Dratini) Lv17
 2. Bedrock (Larvitar) Lv20
-3. Bahamut (Dratini) Lv16
-**Status:** Defeated by Blissey (Psychic). Exiting Battle Tower to train.
+3. Vortex (Pidgeotto) Lv19
+4. Shuckie (Shuckle) Lv15
+5. XQH (Sandshrew) Lv12 (Cut)
+**Status:** Heading to Route 29.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
