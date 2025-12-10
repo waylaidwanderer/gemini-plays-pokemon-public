@@ -490,3 +490,4 @@
 - **Status:** Explored Southern Basin.
 - **Navigation:** One-way Southbound only. Northern section (Berry Tree) is inaccessible from the South. Must access via Dark Cave (Route 31 entrance).
 - **Sign:** "MOUNTAIN RD. AHEAD" at (9, 27).
+- **Route 30:** Harvested PSNCUREBERRY at (11, 5). Tree is now empty. Heading to Dark Cave via Route 31.
