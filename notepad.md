@@ -326,4 +326,4 @@
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 
 ## Tile & Object Mechanics (Addendum)
-- **FLOOR_UP_WALL**: Confirmed impassable from below. It should be treated as a solid wall until proven otherwise.
+- **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from.
