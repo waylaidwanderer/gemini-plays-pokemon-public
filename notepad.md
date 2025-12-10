@@ -440,9 +440,6 @@
 - Research Center Computer: Displays 'RUINS OF ALPH Exploration Year 10'.
 ## Ecruteak City
 - Arrived via Fly.
-- Heading West to Route 38 -> Route 39 (Moomoo Farm) for training and delivery.
-- **Training Spot:** Route 39 Tall Grass (5, 20). Good for Magnemites/Meowths.
-- **Tile Mechanic:** TALL_GRASS is traversable but triggers encounters, interrupting movement tools.
 
 ## Battle Tower Rules
 - **Item Clause:** Enforced. No two Pokémon can hold the same item.
