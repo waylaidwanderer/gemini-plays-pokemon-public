@@ -37,6 +37,7 @@
 - **Route 38 Navigation:** Westward path blocked by Wall at (29, 8) and Ledges at (21, 12). Must use North Path (Row 5).
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
 - **Phone Call:** Hiker Anthony (Route 33) interrupted exit to Route 38. Flavor text about Machop eating berries (No Swarm).
+- **Phone Call:** Anthony (Route 33) called. Flavor text about Spearow (No Swarm).
 
 ## Mt. Silver & Route 28 (Archived)
 - **Status:** Fully Explored. Red Defeated.
