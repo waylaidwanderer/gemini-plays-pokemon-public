@@ -167,7 +167,7 @@
 - **press_sequence:** Button sequence executor.
 
 ## Active Custom Agents
-(None)
+- **battle_assistant:** Battle tactician for Level 20 Tower. (Usage: Analyze matchups & team comp).
 
 ## Battle Tower Challenge (Level 20)
 **Goal:** Defeat opponents in the L:20 Class.
