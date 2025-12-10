@@ -178,7 +178,10 @@
 3. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
 
 **Strategy:** Bahamut covers the team's Water/Electric weakness. Use Thunder Wave to cripple faster threats.
-**Status:** Ready for Battle Tower Level 20.
+**Status:** In Battle (Thornton).
+**Opponent Intel:**
+- **Lass Thornton's Tauros:** Blizzard, Hyper Beam.
+- **Mechanic:** Hyper Beam requires recharge even on KO.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
