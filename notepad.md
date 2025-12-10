@@ -312,3 +312,7 @@
 - When a tool generates a physically impossible action (like walking on water), its core logic is fundamentally flawed and must be fixed immediately. Trusting a broken tool leads to wasted turns and critical failures.
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - When stuck in a puzzle loop, the root cause is often a missed story event or key NPC interaction, not a hidden switch or obscure passage. Prioritize re-checking key NPCs before assuming complex puzzle mechanics. My failure to talk to Kurt in the Slowpoke Well led to a long, fruitless search.
+- **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
+
+## Tool Ideas
+- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
