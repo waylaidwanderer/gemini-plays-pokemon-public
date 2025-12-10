@@ -474,3 +474,4 @@
 - **Encounter:** Wild Unown (Form 'L'?). Attempting capture.
 - Scientist 3 (Left): "The UNOWN you catch will all be recorded. Check to see how many kinds exist."
 - Scientist 3 (Left): "I wonder how many kinds of POKéMON are in the RUINS?"
+- Kabuto Item Room: Found Heal Powder at (2, 4).
