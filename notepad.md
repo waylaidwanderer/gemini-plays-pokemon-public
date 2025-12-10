@@ -478,3 +478,4 @@
 - **Battle Tower Gatehouse:** Rocker mentions special gifts for win streaks.
 - **Phone Call:** Joey (Route 30) called. Flavor text about Rattata and Hoothoot.
 - **Moomoo Farm:** Pokefan F says Miltank won't give milk. This confirms the quest.
+- **Route 29 Navigation:** The northern path (containing the Berry Tree) is blocked by ledges when approaching from Cherrygrove (West). You MUST enter from New Bark Town (East) to access the upper area.
