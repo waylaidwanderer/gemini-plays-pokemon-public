@@ -387,7 +387,7 @@
 **Quest Log:**
 - **GS Ball:** CANCELLED (Unobtainable).
 - **Route 36:** Sudowoodo event complete. Path to Ecruteak City is CLEAR. Fruit Tree at (21, 4) contains ICE BERRY.
-- **Moomoo Farm:** Farmer confirmed Miltank needs 'lots o' BERRIES' (Regular Berries) to recover. Currently have 2 Berries to feed it. May need to forage for more.
+- **Moomoo Farm:** Quest Active. Needs 'lots o' BERRIES'. Hypothesis: Likely needs 5-7. Inventory: 2. Plan: Feed current stock, then forage on Route 38/39/46 if needed.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
 ## Route 39 & 40 (Olivine Area)
