@@ -520,3 +520,4 @@
 - **Anomaly:** Twins Ann & Anne on Route 37 are labeled as 'WEIRD_TREE' in the game state object list.
 - **Lesson:** Inventory limit is strict (20 slots). Stacks count as 1 slot. Always check space before foraging.
 - **Progress:** Deposited Nugget, Rare Candy, Protein (x2).
+- **PC/Party Management:** Always verify the 'Party' list in Game State Information before attempting to withdraw Pokémon. Misremembering party state leads to wasted turns.
