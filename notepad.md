@@ -342,3 +342,9 @@
 - **Failed Hypothesis (Agent #2):** There is an external path on 2F. **Result:** FAILED. Interacting with reachable windows yielded no results.
 - **Conclusion:** The entire western ascent route is a red herring. Progress must be made by accessing the eastern column of the lighthouse.
 - **Consult Map Markers Before Interaction:** A critical failure was wasting turns trying to battle an NPC already marked as defeated. I MUST consult existing map markers for an object or NPC before planning an interaction to avoid repeating actions or attempting impossible ones.
+
+## Navigation & Exploration
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
+
+## Tile & Object Mechanics
+- **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
