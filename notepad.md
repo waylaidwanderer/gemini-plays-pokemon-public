@@ -301,3 +301,7 @@
 - When a tool generates a physically impossible action (like walking on water), its core logic is fundamentally flawed and must be fixed immediately. Trusting a broken tool leads to wasted turns and critical failures.
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - When stuck in a puzzle loop, the root cause is often a missed story event or key NPC interaction, not a hidden switch or obscure passage. Prioritize re-checking key NPCs before assuming complex puzzle mechanics. My failure to talk to Kurt in the Slowpoke Well led to a long, fruitless search.
+
+## LESSONS FROM REFLECTION (Turn 45844)
+- **Trust Verified Tools:** If a pathfinding tool reports a path is blocked, trust its output. Investigate the potential obstacle in-game rather than assuming the tool is flawed, especially after a recent fix. My own visual assessment can be misleading.
+- **Accurate Mechanic Modeling:** Custom tools must accurately model all relevant game mechanics to be reliable. My pathfinder's failure to account for walk/surf transitions was a critical flaw. Future tools must be designed with a comprehensive understanding of the systems they interact with.
