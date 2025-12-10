@@ -444,11 +444,9 @@
 - **Training Spot:** Route 39 Tall Grass (5, 20). Good for Magnemites/Meowths.
 - **Tile Mechanic:** TALL_GRASS is traversable but triggers encounters, interrupting movement tools.
 
-## Route 39 Training Plan
-- **Strategy:** Switch-Training. Lead Bahamut (Dratini), switch to Basalt (Geodude) turn 1.
-- **Targets:** Magnemite (Use Magnitude), Meowth, Raticate.
-- **Avoid:** Miltank, Tauros (High damage risk).
-- **Notes:** Vortex is injured, keep safe. Basalt is immune to Electric.
+## Battle Tower Rules
+- **Item Clause:** Enforced. No two Pokémon can hold the same item.
+- **Auto-Heal:** Team is automatically healed after a challenge (win or loss).
 - Picked up MINT BERRY from Route 39 tree. (Likely not the cure for Miltank).
 - **Navigation Insight:** Wild encounters interrupt `find_path`/`path_plan` execution. When actively hunting in tall grass, use `press_sequence` (e.g., 'Up, Down, Up, Down') instead of target coordinates to avoid 'Movement Blocked' errors.
 - **Quest Status:** Miltank is still sick. Needs standard BERRY. Route 38 tree was empty. Exploring Violet City area.
