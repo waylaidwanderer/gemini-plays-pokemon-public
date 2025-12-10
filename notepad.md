@@ -23,8 +23,8 @@
 **Strategy:** Enter Route 40 and locate Battle Tower.
 **Team:**
 1. Vortex (Pidgeotto) Lv19
-2. Basalt (Geodude) Lv19
-3. Bedrock (Larvitar) Lv20
+2. Bedrock (Larvitar) Lv20
+3. Bahamut (Dratini) Lv16
 **Status:** On Route 40. Approaching Battle Tower.
 **Battle Tower Rules:**
 - 3 Pokémon team.
