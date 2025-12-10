@@ -488,5 +488,5 @@
 - **Route 29 Navigation Update:** Cut Tree at (30, 9) removed. Northern path is now accessible from the West.
 ## Route 46
 - **Status:** Explored Southern Basin.
-- **Navigation:** One-way Southbound only. Northern section (Berry Tree) is inaccessible from the South due to ledges.
+- **Navigation:** One-way Southbound only. Northern section (Berry Tree) appears blocked by ledges, but investigating potential gaps in columns 15 and 17.
 - **Sign:** "MOUNTAIN RD. AHEAD" at (9, 27).
