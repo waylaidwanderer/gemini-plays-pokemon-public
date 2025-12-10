@@ -483,7 +483,6 @@
 - **Battle Tower Gatehouse:** Rocker mentions special gifts for win streaks.
 - **Phone Call:** Joey (Route 30) called. Flavor text about Rattata and Hoothoot.
 - **Moomoo Farm:** Pokefan F says Miltank won't give milk. This confirms the quest.
-- **Route 29 Navigation:** The northern path (containing the Berry Tree) is blocked by ledges when approaching from Cherrygrove (West). You MUST enter from New Bark Town (East) to access the upper area.
-Navigation Update: Validated New Bark Town West exit. The northern exit (y=3) suggested by critique is BLOCKED by a wall. Only exit is at y=8/9. Access to Route 29 Northern Path (Berry Tree) likely requires CUT. Plan: Travel West to Cherrygrove to withdraw XQH (Cut).
+- **Route 29 Navigation:** Northern path accessible via Cut (Tree at 30, 9 removed). Proceeding to forage on Route 46.
 - **Route 29 Navigation (Eastbound):** Direct path blocked by ledges at x=8 and x=28. Must use the Southern Path (Row 14) to bypass the x=28 barrier, then loop North through the gap at (31, 13) to reach the Cut Tree/Gatehouse.
 - **Route 29 Navigation Update:** Cut Tree at (30, 9) removed. Northern path is now accessible from the West.
