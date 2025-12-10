@@ -19,8 +19,8 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Train Team to Level 20 & Loot Route 37 Apricorn.
-**Strategy:** Bag is full (20/20). Deposit items (TMs, Nugget, Rare Candy) at Ecruteak PC. Then return to Route 37 for Blue Apricorn.
+**Current Objective:** Heal, Unlock Fly, and Locate Larvitar (Bedrock).
+**Strategy:** Heal at Center to set Fly point. Access PC to organize team for Battle Tower (Deposit high levels, find Larvitar).
 **Team:**
 1. Bahamut (Dratini) Lv17
 2. Vortex (Pidgeotto) Lv19
@@ -28,7 +28,7 @@
 4. Gib Raltar (Graveler) Lv37
 5. F (Psyduck) Lv8
 6. Chrono (Hoothoot) Lv16
-**Status:** Route 39 Farmhouse.
+**Status:** Olivine City Pokémon Center.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
