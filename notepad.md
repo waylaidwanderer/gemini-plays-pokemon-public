@@ -282,6 +282,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
+- `advanced_route_planner`
 
 ### Custom Agents
 - `python_code_debugger`
