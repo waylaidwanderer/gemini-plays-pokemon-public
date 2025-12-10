@@ -410,7 +410,9 @@
 - XQH (Sandshrew) Lv12
 - F (Psyduck) Lv??
 - Paprika (Typhlosion) Lv75
-- Bedrock (Larvitar) Lv20
+- SIGIL (Unown)
+- CIPE (Unown)
+- RUNE (Unown)
 
 # Active Training Plan
 - **Goal:** Reach Level 20 cap for Battle Tower.
