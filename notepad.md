@@ -20,8 +20,12 @@
 - **XQH & F:** HM Squad.
 
 **Current Objective:** Battle Tower Challenge (Level 20).
-**Strategy:** Challenge the Tower with Basalt (Lv19), Vortex (Lv17), Bahamut (Lv15).
-**Status:** Challenge Initiated. Team: Basalt (Geodude), Vortex (Pidgeotto), Bahamut (Dratini).
+**Strategy:** Enter Route 40 and locate Battle Tower.
+**Team:**
+1. Vortex (Pidgeotto) Lv19
+2. Basalt (Geodude) Lv19
+3. Bedrock (Larvitar) Lv20
+**Status:** Arrived in Olivine (0,24). Exiting to Route 40.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
