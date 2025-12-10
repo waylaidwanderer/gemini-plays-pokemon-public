@@ -476,3 +476,4 @@
 - Scientist 3 (Left): "I wonder how many kinds of POKéMON are in the RUINS?"
 - Kabuto Item Room: Found Heal Powder at (2, 4).
 - **Battle Tower Gatehouse:** Rocker mentions special gifts for win streaks.
+- **Phone Call:** Joey (Route 30) called. Flavor text about Rattata and Hoothoot.
