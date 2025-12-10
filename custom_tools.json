@@ -635,59 +635,5 @@
         "action_counter": 41334
       }
     ]
-  },
-  "advanced_route_planner": {
-    "description": "An advanced A* route planner that finds the shortest path between two points on the current map. It can navigate walking and surfing areas, accounting for one-way ledges and other obstacles. It is the preferred tool for all pathfinding tasks.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\nimport heapq\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\n\nroot = ET.fromstring(map_xml_string)\n\nmax_x = 0\nmax_y = 0\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    if y > max_y: max_y = y\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        if x > max_x: max_x = x\nwidth = max_x + 1\nheight = max_y + 1\n\nWALKABLE_TYPES = {'FLOOR', 'TALL_GRASS', 'GRASS', 'LONG_GRASS', 'FLOWER', 'DOOR', 'STAIRCASE', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'Warp (FLOOR)', 'PIT', 'CAVE'}\nSURFABLE_TYPES = {'WATER'}\n\ngrid = [['WALL' for _ in range(width)] for _ in range(height)]\n\nfor row_elem in root.findall('Row'):\n    y = int(row_elem.get('id'))\n    for tile_elem in row_elem.findall('Tile'):\n        x = int(tile_elem.get('id'))\n        tile_type = tile_elem.get('type')\n        has_object = tile_elem.get('has-object') == 'true'\n\n        if has_object and not (x == start_x and y == start_y) and not (x == end_x and y == end_y):\n            grid[y][x] = 'WALL'\n        elif tile_type == 'PIT' and not (x == end_x and y == end_y):\n            grid[y][x] = 'WALL'\n        elif tile_type in WALKABLE_TYPES or tile_type in SURFABLE_TYPES:\n            grid[y][x] = tile_type\n        else:\n            grid[y][x] = 'WALL'\n\nstart_node = (start_x, start_y)\nend_node = (end_x, end_y)\n\nstart_tile_type = grid[start_y][start_x]\nstart_mode = 'surf' if start_tile_type in SURFABLE_TYPES else 'walk'\n\nqueue = [(0, (start_x, start_y, start_mode), [])]\nvisited = set()\n\nwhile queue:\n    cost, current_state, path = heapq.heappop(queue)\n    current_pos = (current_state[0], current_state[1])\n    current_mode = current_state[2]\n\n    if (current_pos, current_mode) in visited:\n        continue\n\n    visited.add((current_pos, current_mode))\n\n    path = path + [current_pos]\n\n    if current_pos == end_node:\n        formatted_path = [{'x': x, 'y': y} for x, y in path]\n        print(json.dumps(formatted_path))\n        exit()\n\n    x, y = current_pos\n\n    if current_mode == 'walk':\n        # Action 1: Walk to adjacent walkable tiles.\n        current_tile_type = grid[y][x]\n        if current_tile_type == 'LEDGE_HOP_DOWN': moves = [(0, 1)]\n        elif current_tile_type == 'LEDGE_HOP_LEFT': moves = [(-1, 0)]\n        elif current_tile_type == 'LEDGE_HOP_RIGHT': moves = [(1, 0)]\n        else: moves = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\n        for dx, dy in moves:\n            next_x, next_y = x + dx, y + dy\n            next_pos = (next_x, next_y)\n\n            if 0 <= next_y < height and 0 <= next_x < width:\n                next_tile_type = grid[next_y][next_x]\n                if next_tile_type in WALKABLE_TYPES:\n                    if next_tile_type == 'LEDGE_HOP_DOWN' and (dx, dy) == (0, -1): continue\n                    if next_tile_type == 'LEDGE_HOP_LEFT' and (dx, dy) == (1, 0): continue\n                    if next_tile_type == 'LEDGE_HOP_RIGHT' and (dx, dy) == (-1, 0): continue\n                    \n                    if (next_pos, 'walk') not in visited:\n                        heapq.heappush(queue, (cost + 1, (next_x, next_y, 'walk'), path))\n\n        # Action 2: Change mode to 'surf' if adjacent to water (a non-movement action).\n        is_adjacent_to_water = False\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            adj_x, adj_y = x + dx, y + dy\n            if 0 <= adj_y < height and 0 <= adj_x < width and grid[adj_y][adj_x] in SURFABLE_TYPES:\n                is_adjacent_to_water = True\n                break\n        if is_adjacent_to_water:\n            if (current_pos, 'surf') not in visited:\n                heapq.heappush(queue, (cost + 1, (x, y, 'surf'), path))\n\n    elif current_mode == 'surf':\n        # Action 3: Surf to adjacent water or land tiles.\n        moves = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n        for dx, dy in moves:\n            next_x, next_y = x + dx, y + dy\n            next_pos = (next_x, next_y)\n\n            if 0 <= next_y < height and 0 <= next_x < width:\n                next_tile_type = grid[next_y][next_x]\n                \n                if next_tile_type in SURFABLE_TYPES:\n                    if (next_pos, 'surf') not in visited:\n                        heapq.heappush(queue, (cost + 1, (next_x, next_y, 'surf'), path))\n                elif next_tile_type in WALKABLE_TYPES:\n                    if (next_pos, 'walk') not in visited:\n                        heapq.heappush(queue, (cost + 1, (next_x, next_y, 'walk'), path))\n\nprint(json.dumps(\"No path found\"))",
-    "history": [
-      {
-        "commit_message": "fix: Enable walk/surf transitions. The previous logic locked the pathfinder into its starting movement mode (walk or surf), preventing it from planning routes that crossed between land and water. This commit corrects the logic by dynamically determining the `next_mode` based on the destination tile type, allowing for correct pathfinding across mixed terrain. This resolves the critical failure where the tool reported 'No path found' for valid, traversable routes.",
-        "timestamp": "2025-12-10T19:29:56.039Z",
-        "action_counter": 45820
-      },
-      {
-        "commit_message": "fix: Exempt destination tile from object collision. The agent `python_code_debugger` identified a critical flaw where the grid creation logic marked any tile with an object as a 'WALL', including the destination tile. This made it impossible to pathfind to warps or items. This commit implements the agent's fix by adding an exception for the `end_node`, ensuring it is never marked as impassable. This resolves the catastrophic 'No path found' failure.",
-        "timestamp": "2025-12-10T20:42:22.564Z",
-        "action_counter": 45964
-      },
-      {
-        "commit_message": "fix: Overhaul movement logic to correctly model walk/surf transitions. The agent `python_code_debugger` identified a critical flaw where the tool allowed illegal moves, such as stepping directly from a land tile onto a water tile. This commit implements the agent's robust fix, which explicitly checks the current movement mode ('walk' or 'surf') and only allows valid adjacent moves or valid mode transitions (e.g., walk-to-surf). This resolves the catastrophic pathing failures.",
-        "timestamp": "2025-12-10T20:59:14.561Z",
-        "action_counter": 46003
-      },
-      {
-        "commit_message": "refactor: Resubmit code to fix persistent ModuleNotFoundError. Despite the previous commit containing the correct `xml.etree.ElementTree` import, the execution environment is still throwing an error for a non-existent `xml.et` module. This commit resubmits the known-good code to force a clean update and resolve the suspected state inconsistency.",
-        "timestamp": "2025-12-10T21:00:20.938Z",
-        "action_counter": 46005
-      },
-      {
-        "commit_message": "fix: Overhaul pathfinding logic to correctly model the 'initiate surf' action. The previous version allowed illegal direct moves from land to water. This commit implements the `python_code_debugger` agent's robust, two-step logic: the pathfinder now correctly models spending a turn to change from 'walk' to 'surf' mode while on a land tile adjacent to water, *before* allowing movement onto the water. This accurately reflects game mechanics and resolves the catastrophic pathing failures.",
-        "timestamp": "2025-12-10T21:03:50.943Z",
-        "action_counter": 46009
-      }
-    ]
   }
 }
