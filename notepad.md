@@ -160,26 +160,16 @@
 ## Active Custom Agents
 (None)
 
-## Battle Tower Prep (Level 20 Cap)
-**Goal:** Optimize team for L:20 Challenge.
+## Battle Tower Challenge (Level 20)
+**Goal:** Defeat opponents in the L:20 Class.
 
-### Team & Moveset Plan
-1. **Bahamut (Dratini):** Lead / Status Spreader.
-   - **Teach:** TM24 Dragonbreath, TM16 Icy Wind.
-   - **Keep:** Thunder Wave, Extremespeed.
-   - **Role:** Paralyze everything. Pivot on Water/Electric.
-2. **Vortex (Pidgeotto):** Physical Sweeper / Debuffer.
-   - **Teach:** TM47 Steel Wing (Coverage vs Rock/Ice), TM31 Mud-Slap (Accuracy cheese).
-   - **Keep:** Quick Attack, Fly.
-   - **Role:** Clean up low HP mons, debuff accuracy.
-3. **Basalt (Geodude):** Heavy Hitter.
-   - **Moves:** Magnitude, Rock Throw, Strength, Defense Curl.
-   - **Role:** Tank Normal/Poison/Electric/Fire. Click Magnitude.
+### Current Team
+1. **Vortex (Pidgeotto) Lv19:** Flying/Normal. Coverage: Steel Wing, Mud-Slap.
+2. **Basalt (Geodude) Lv19:** Rock/Ground. Physical Tank.
+3. **Bedrock (Larvitar) Lv20:** Rock/Ground. Heavy Hitter.
 
-### Training Plan
-- **Location:** Route 38/39 (Moomoo Farm).
-- **Target:** All team members must be exactly Level 20.
-- **Quest Status:** Have BERRY. Deliver to Moomoo Farm.
+**Risks:** Major weakness to Water and Grass (4x on Basalt/Bedrock).
+**Status:** Team Assembled. Heading to Battle Tower via Olivine.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
