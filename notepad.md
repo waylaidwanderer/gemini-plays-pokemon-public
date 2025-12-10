@@ -464,3 +464,5 @@
 - Research Center Printer: Currently displays 'This doesn't seem to work yet.' Likely requires more Unown progress.
 - **Ruins of Alph:** Printer inactive even with Unown in party. Next: Show Unown to Scientists.
 - **Ruins of Alph:** Scientist confirmed 'many kinds' of Unown exist. Implies catching different letter variants is key.
+- **Stealth Strategy:** Use `stun_npc` to freeze patrolling Scientists to avoid pathfinding blocks.
+- **Ruins Mystery:** Printer requires 'many kinds' of Unown (Collection threshold), not just one.
