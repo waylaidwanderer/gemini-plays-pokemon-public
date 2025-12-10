@@ -313,3 +313,6 @@
 
 ## Tile & Object Mechanics (Addendum)
 - **WARP_CARPET_LEFT**: A warp tile at the edge of a map. Pressing 'Left' while standing on the tile has been confirmed to trigger the warp.
+
+## LESSONS FROM REFLECTION (Turn 45948)
+- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
