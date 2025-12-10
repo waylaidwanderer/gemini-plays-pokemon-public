@@ -206,44 +206,31 @@
 
 ## Solved Puzzles
 ### Azalea Gym
-- Gym Guide: The Gym Leader is BUGSY. His Bug POKéMON are weak to Fire and Flying-type moves.
 - **Solution:** The gym puzzle involves finding two hidden floor switches. The first, located on the path to the right-side trainer, makes a new trainer appear on the left side. The second, on the path to the left-side trainer, makes another new trainer appear. The path to these trainers is not blocked by the Twins in the middle; it is possible to walk around the bottom of the gym. Defeating all trainers is not required to reach Bugsy.
 
 ### Goldenrod Department Store
-- **Elevator:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
-- **B1F Box Puzzle:** My own movement is causing changes in the a map layout. A WALL at (5, 10) changed to a FLOOR after I moved. The Machop at (7, 7) is likely the key to solving the puzzle. The previous solution of leaving and returning the room seems to be only a partial trigger.
+- **Solution:** The elevator is controlled by the panel at (3, 0). Interacting with the panel brings up a floor selection menu. After selecting a floor, you must walk onto the corresponding warp carpet to travel. The warp to B1F is at (1, 3) and the warp to 1F is at (2, 3).
 
 ### Goldenrod Gym
-- Gym Guide: This is a Normal-type gym. Fighting-type POKéMON are recommended.
-- **Puzzle Mechanic:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
+- **Solution:** The gym puzzle is solved by walking along the outer perimeter of the entrance room. The direction and sequence of these walks cause different trainers to appear and disappear, opening and closing paths. The correct sequence of perimeter walks and trainer battles is required to open the path to the main gym area.
 
 ### Goldenrod Underground Switch Room Puzzle
-- **Failed Hypothesis:** The puzzle is solved by repeatedly entering and exiting the 'GoldenrodUndergroundSwitchRoomEntrances' area to cycle through different room configurations. (Failed after 5+ attempts, triggered a loop warning).
-- **New Hypothesis:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. I will re-enter the underground from the southern entrance in Goldenrod City and explore the lower level again, as my path was previously blocked and new events (Granny NPC) may have occurred.
+- **Solution:** The puzzle requires accessing the switch rooms from a different path. The main underground connects the north and south city entrances. Re-entering the underground from the southern entrance in Goldenrod City and exploring the lower level again, after triggering the Granny NPC event, is the correct path.
 
 ### Ruins of Alph - Kabuto Chamber Puzzle
-- **Clue:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
-- **Solution:** The image is KABUTO.
+- **Solution:** The image is KABUTO. The clue was "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 
 ### Olivine Lighthouse Puzzle
-- **Root Cause Analysis:** My progress was catastrophically stalled by a single, flawed root hypothesis: "The way forward MUST be in the western section of the lighthouse." I failed to trust my `route_planner` tool, which repeatedly and correctly told me the western and eastern sections were disconnected on floors 3 and 4. Instead of trying to falsify my hypothesis (e.g., by immediately attempting a strategic retreat to a lower floor), I spent dozens of turns in a loop, trying to force a path that didn't exist. Failed Hypothesis (Self): The path forward involves ascending the western side of the lighthouse. Result: FAILED. The western path leads to a dead-end on 3F with no pits or alternate routes.
-- **Descending Path Fallacy:** Just because a path goes down (like a pit) does not mean it leads to progress. As seen in the Olivine Lighthouse, some descending paths are simply one-way exits or resets designed to force the player to restart the ascent. I must evaluate these paths critically and not assume they are the correct way forward.
+- **Solution:** The entire western ascent route is a red herring. Progress must be made by accessing the eastern column of the lighthouse. The correct path involves strategically falling through pits on the eastern side of the upper floors to access ladders on the western side of the lower floors.
 
 ### Moomoo Farm Puzzle Solution
-- The sick Miltank needs to be fed 'lots o' BERRIES' to get better. This was confirmed by the farmer. The FRUIT_TREE at (9, 3) on Route 39 only gives a MINT BERRY and is not the solution.
+- **Solution:** The sick Miltank needs to be fed 'lots o' BERRIES' to get better. The FRUIT_TREE on Route 39 is not the solution; multiple berries must be acquired and fed to it.
 
 ### Burned Tower Puzzle
-- **Puzzle Solution:** Defeating my rival, SILVER, on the first floor caused the floor to collapse, revealing the basement and the legendary beasts.
-
-### Ecruteak Gym Puzzle
-- **Agent Hypothesis #1 (Talk to Sage):** FAILED. Interacted with the Sage at (3, 13) after defeating Morty. The dialogue was generic and did not provide a clue or unblock the path.
+- **Solution:** Defeating the rival, SILVER, on the first floor caused the floor to collapse, revealing the basement and the legendary beasts.
 
 ### Cianwood Gym Boulder Puzzle Solution
-- **Failed Hypothesis 1:** Push all boulders straight up. This blocks the path and creates a dead end.
-- **Correct Solution:** The puzzle requires creating an empty space to maneuver the boulders. The correct sequence is:
-  1. Push the leftmost boulder (3, 7) up to (3, 6).
-  2. Push the middle boulder (4, 7) left into the now-empty space at (3, 7).
-  3. Now that the central path is clear, the remaining boulders can be pushed up to reach the Gym Leader.
+- **Solution:** The puzzle requires creating an empty space to maneuver the boulders. The correct sequence is: 1. Push the leftmost boulder (3, 7) up to (3, 6). 2. Push the middle boulder (4, 7) left into the now-empty space at (3, 7). 3. Now that the central path is clear, the remaining boulders can be pushed up to reach the Gym Leader.
 
 ## Obstacles and Solutions
 - A strange tree blocks the road north of Goldenrod City (Route 35). It can be cleared using a SQUIRTBOTTLE, which is obtained from the Flower Shop after defeating Whitney. The Lass in the shop confirms this is the correct sequence of events.
