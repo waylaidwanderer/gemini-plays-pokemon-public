@@ -298,3 +298,5 @@
 - **Tool Usage Loops:** When a tool fails repeatedly, especially one requiring precise text input like `notepad_edit`, the root cause is likely user error (e.g., incorrect `old_text`). I must meticulously copy the exact text from error suggestions instead of re-typing or paraphrasing to avoid getting stuck in correctable loops.
 ## LESSONS LEARNED (Reinforced)
 - **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
+## Tool Investigation
+- `find_reachable_unseen_tiles` and `advanced_route_planner` gave contradictory results for the reachability of (0, 21) on Route 41. The pathfinder reported 'No path found,' while the exploration tool listed it as reachable. I am trusting the pathfinder for now, but I must investigate the logic of `find_reachable_unseen_tiles` to find the bug.
