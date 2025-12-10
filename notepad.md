@@ -509,3 +509,8 @@
   - (13, 5): Red Apricorn (Looted).
   - (15, 7): Black Apricorn (Pack Full, Left Behind).
   - (16, 5): Checking...
+- **HEADBUTT_TREE:** Obstacle. Interacting may trigger wild encounters.
+- **WHIRLPOOL:** Water obstacle. Passable with HM06.
+- **WATERFALL:** Water obstacle. Passable with HM07.
+- **WEIRD_TREE Anomaly:** Twins Ann & Anne on Route 37 are labeled as WEIRD_TREE in game state.
+- **Lesson:** Always check inventory space before foraging.
