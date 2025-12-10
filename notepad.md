@@ -25,7 +25,7 @@
 1. Vortex (Pidgeotto) Lv19
 2. Basalt (Geodude) Lv19
 3. Bedrock (Larvitar) Lv20
-**Status:** Arrived in Olivine (0,24). Exiting to Route 40.
+**Status:** On Route 40. Approaching Battle Tower.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
