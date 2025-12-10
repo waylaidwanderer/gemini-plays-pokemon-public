@@ -471,3 +471,4 @@
 - **Unown Mode:** Unlocked (likely with 3 forms). Records forms in catch order.
 - **Tool Usage Lesson:** Custom tools that return button sequences (like `press_sequence`) MUST be called with `autopress_buttons: true` to actually execute the presses. System tools do not require this.
 - **Encounter:** Wild Unown (Form 'L'?). Attempting capture.
+- Scientist 3 (Left): "The UNOWN you catch will all be recorded. Check to see how many kinds exist."
