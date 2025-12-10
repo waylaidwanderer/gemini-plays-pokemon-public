@@ -467,3 +467,4 @@
 - **Stealth Strategy:** Use `stun_npc` to freeze patrolling Scientists to avoid pathfinding blocks.
 - **Ruins Mystery:** Printer requires 'many kinds' of Unown (Collection threshold).
 - **Unown Collection:** 3 Caught (SIGIL, CIPE, RUNE). Aiming for 5+ forms. Party full (6/6); subsequent catches sent to PC.
+- **Unown Mode:** Scientist triggered event with 4 Unown caught. Offered Pokédex upgrade at Research Center.
