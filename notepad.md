@@ -129,7 +129,7 @@
 - **WARP_CARPET_LEFT**: A warp tile at the edge of a map. Pressing 'Left' while standing on the tile has been confirmed to trigger the warp.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
-- **WATER**: Traversable using the HM move SURF.
+- **WATER**: Traversable using the HM move SURF. To initiate surfing, the player must be standing on a tile adjacent to the water, face the water tile, and then manually select SURF from the Pokémon's party menu.
 - **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
