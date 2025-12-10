@@ -431,13 +431,9 @@
 - CIPE (Unown)
 - RUNE (Unown)
 
-# Active Training Plan
-- **Goal:** Reach Level 20 cap for Battle Tower.
-- **Location:** Route 38/39.
-- **Team:** Basalt, Vortex, Bahamut.
-- **Status:** Moomoo Milk Run.
-- **Tool Lesson:** `find_path` ignores off-screen objects even if marked. Updated tool to treat markers with `object_id` as obstacles.
-- **Navigation Update:** Fly interface proved unreliable for Westward travel from Violet. Proceeding on foot to Olivine via Route 36.
+# Active Training Plan (Completed)
+- Team reached target levels. Bedrock (Lv20), Vortex (Lv19), Bahamut (Lv17).
+- Ready for Battle Tower.
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
 - **Kabuto Chamber Secret:** Solved! Escape Rope opened secret passage to Item Room. 
