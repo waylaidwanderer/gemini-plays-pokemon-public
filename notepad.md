@@ -1,25 +1,10 @@
-# LESSONS LEARNED (Recent)
-- **Trust the Notepad:** I must trust and follow my own documented solutions. Ignoring my notepad after solving the Olivine Lighthouse puzzle was the direct cause of a major navigational loop. My documented plans are more reliable than my memory or in-the-moment hypotheses.
-- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving or stationary NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. This provides a deterministic solution to a variable problem.
-- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy. Systematically test all interactive elements, even those that appear to be hazards (like pits), and don't commit to a single hypothesis without exploring all variables.
-
 # LESSONS LEARNED
-
-## Tool & Agent Management
-- **Proactive Tool Testing:** I must test tools in their expected environments (e.g., a pathfinder on a water route) *before* relying on them for critical navigation to avoid mid-task failures.
-- **Tool-Game Mechanic Parity:** Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types like WATER, or not understanding a menu's structure). All tools must be designed with a perfect understanding of the game mechanics and UI they interact with.
-- **UI Parser Integrity:** A tool's pathfinding logic can be correct, but will fail catastrophically if its UI parser is not robust. A parser must be anchored and use boundary detection (like the 'CANCEL' option) to avoid including non-selectable UI elements in its data. Feeding corrupt data (wrong list size, wrong indices) to a correct algorithm produces incorrect results.
-- **Simplify, Don't Over-Engineer:** When a complex tool repeatedly fails debugging, replace it with a simpler, more robust version that accomplishes a smaller part of the task reliably. This avoids wasting turns on complex, buggy automation.
-- **`advanced_route_planner` Behavior:** The tool correctly calculates paths that cross both land and water. However, it does not automate the transition. I must manually use SURF when the generated path moves from a land tile to an adjacent water tile. The tool's output is a set of coordinates; the method of traversal is my responsibility.
-
-## Navigation & Exploration
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
-- **Pathfinding & Moving NPCs:** The `advanced_route_planner` uses a static map snapshot. It cannot predict the movement of NPCs. For reliable pathfinding in areas with moving NPCs, use the `stun_npc` tool on the relevant NPC *before* calling the planner to ensure the generated path remains clear.
-- **Trust Tools & Pivot:** When stuck in a navigational puzzle, I must trust my `advanced_route_planner`'s 'No path found' output. If a path is confirmed to be a dead end after multiple attempts, I must abandon that path and test a fundamentally different hypothesis (like descending to ascend differently), as recommended by the `puzzle_solver` agent, instead of repeating the failed strategy.
-
-## Hypothesis Testing
-- **Precise Test Execution:** When testing a hypothesis from an agent, I must follow the test plan precisely. Incomplete tests can lead to incorrect conclusions and wasted time.
-- **Trust Tools & Pivot:** When stuck in a navigational puzzle, I must trust my `advanced_route_planner`'s 'No path found' output and my own analysis. If a path is confirmed to be a dead end after multiple attempts, I must abandon that path and test a fundamentally different hypothesis (like descending to ascend differently), as recommended by the puzzle_solver agent, instead of repeating the failed strategy.
+- **Trust the Pathfinder:** If the `advanced_route_planner` returns 'No path found,' I must trust the tool's output and re-evaluate my understanding of the map instead of assuming the tool is broken. Ignoring the tool's output is the direct cause of getting stuck in navigational loops.
+- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
+- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths.
+- **Tool Logic Must Mirror Game Mechanics:** Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types or UI structures). All tools must be designed with a perfect understanding of the game mechanics they interact with.
+- **Simplify, Don't Over-Engineer:** When a complex tool repeatedly fails, replace it with a simpler, more robust version that accomplishes a smaller part of the task reliably.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
