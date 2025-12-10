@@ -507,3 +507,6 @@
 - **HEADBUTT_TREE:** Obstacle. Interacting may trigger wild encounters.
 - **WHIRLPOOL:** Water obstacle. Passable with HM06.
 - **WATERFALL:** Water obstacle. Passable with HM07.
+- **HEADBUTT_TREE:** Obstacle. Interacting may trigger wild encounters.
+- **WHIRLPOOL:** Water obstacle. Passable with HM06.
+- **WATERFALL:** Water obstacle. Passable with HM07.
