@@ -465,7 +465,7 @@
 - **Ruins of Alph:** Printer inactive even with Unown in party. Next: Show Unown to Scientists.
 - **Ruins of Alph:** Scientist confirmed 'many kinds' of Unown exist. Implies catching different letter variants is key.
 - **Stealth Strategy:** Use `stun_npc` to freeze patrolling Scientists to avoid pathfinding blocks.
-- **Ruins Mystery:** Scientist 3 said "Check to see how many kinds exist." Computer: "Exploration Year 10". Checking Printer again.
+- **Ruins Mystery:** Scientist 3 said "Check to see how many kinds exist." Checked Unown Dex, but Printer is still locked. Reporting back to Scientist 3.
 - **Unown Collection:** 5 Caught (SIGIL, CIPE, RUNE, LEXICON, ALPHA).
 - **Hypothesis:** Must speak to Scientist to update progress, or need more than 5.
 - **Unown Mode:** Unlocked (likely with 3 forms). Records forms in catch order.
