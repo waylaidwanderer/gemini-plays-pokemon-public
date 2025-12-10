@@ -79,7 +79,7 @@
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. It has been observed that some trainers, like Sailor Huey, can be battled again even without a new call, suggesting some rematches may be repeatable. My previous assumption that trainers could only be fought once was incorrect.
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
-- **SURF Mechanic:** To use SURF, the player must be standing on a tile adjacent to water AND be facing the water tile. The game will NOT automatically turn the character.
+- **SURF Mechanic:** To use SURF, the player must be standing on a valid tile (e.g., FLOOR) adjacent to water. The game will automatically turn the character to face the water when the move is used.
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
@@ -292,7 +292,6 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `advanced_route_planner`
 
 ### Custom Agents
 - `python_code_debugger`
