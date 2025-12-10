@@ -298,3 +298,4 @@
 
 ## LESSONS LEARNED (Reinforced)
 - **Catastrophic Hallucination Failure:** My attempt to re-battle a defeated Gym Leader was a critical failure to adhere to my own verification protocols. Before any major action, I MUST verify the current game state against my inventory (badges, items) and documented progress. Trusting memory is the root cause of these blunders.
+- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
