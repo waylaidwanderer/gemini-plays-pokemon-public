@@ -19,7 +19,7 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Forage Berries (Route 46).
+**Current Objective:** Reorganize Party at Violet PC (Get HM Users).
 **Strategy:** Harvested Route 29 Berry (1/7?). Heading to Route 46 to check for more.
 **Team:**
 1. Bahamut (Dratini) Lv17
