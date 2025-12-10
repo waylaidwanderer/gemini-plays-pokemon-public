@@ -627,5 +627,31 @@
         "action_counter": 19985
       }
     ]
+  },
+  "smart_scroll": {
+    "description": "Selects an item or move from a vertical list by parsing screen text. If the target is found, navigates to it and presses A. If not found, scrolls down to reveal more options.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_text": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_text",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\ntry:\n    target = input_data['target_text'].upper()\n    text = input_data['screen_text']\n    lines = text.split('\\n')\n    cursor_row = -1\n    target_row = -1\n    \n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_row = i\n        if target in line.upper():\n            target_row = i\n            \n    buttons = []\n    if cursor_row != -1 and target_row != -1:\n        # Target is on screen\n        diff = target_row - cursor_row\n        if diff > 0:\n            for _ in range(diff):\n                buttons.append(\"Down\")\n                buttons.append(\"sleep 200\")\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                buttons.append(\"Up\")\n                buttons.append(\"sleep 200\")\n        buttons.append(\"A\")\n    else:\n        # Target not found, scroll down 3 times\n        for _ in range(3):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n            \n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-10T03:05:49.734Z",
+        "action_counter": 26395
+      }
+    ]
   }
 }
