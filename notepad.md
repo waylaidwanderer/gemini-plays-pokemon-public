@@ -299,3 +299,8 @@
 ## LESSONS LEARNED (Reinforced)
 - **Catastrophic Hallucination Failure:** My attempt to re-battle a defeated Gym Leader was a critical failure to adhere to my own verification protocols. Before any major action, I MUST verify the current game state against my inventory (badges, items) and documented progress. Trusting memory is the root cause of these blunders.
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
+## LESSONS LEARNED (Reinforced)
+- When a path is repeatedly blocked by a moving NPC, use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
+
+## Tile & Object Mechanics
+- **WARP_CARPET_RIGHT**: A warp tile at the edge of a map. Pressing 'Right' while standing on the tile has been confirmed to trigger the warp.
