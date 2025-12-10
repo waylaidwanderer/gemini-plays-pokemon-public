@@ -304,3 +304,4 @@
 
 ## Tile & Object Mechanics
 - **WARP_CARPET_RIGHT**: A warp tile at the edge of a map. Pressing 'Right' while standing on the tile has been confirmed to trigger the warp.
+- **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
