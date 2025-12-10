@@ -35,11 +35,14 @@
 **Observed Threats:**
 - **Miltank (Teacher Marino):** Knows Surf (Water) and Thunder (Electric). Wiped Rock/Ground/Flying team. Counter: Dragon type (Bahamut).
 
-### Recent Logs
-- **Route 38 Navigation:** Westward path blocked by Wall at (29, 8) and Ledges at (21, 12). Must use North Path (Row 5).
-- **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
-- **Phone Call:** Hiker Anthony (Route 33) interrupted exit to Route 38. Flavor text about Machop eating berries (No Swarm).
-- **Phone Call:** Anthony (Route 33) called. Flavor text about Spearow (No Swarm).
+### Recent Logs (Archived)
+- **Route 38:** Explored. Larvitar "BEDROCK" caught.
+- **Phone Calls:** Anthony (Route 33) - Flavor text.
+
+### Current Logs
+- **Lesson:** ALWAYS verify Map ID and coordinates against Game State before assuming location to avoid hallucinations (e.g., thinking I'm outside when in PC).
+- **Route 29 Navigation:** Northern path to Berry Tree blocked from West. Requires access from East (New Bark side) or Cut.
+- **Action:** Withdrew XQH (Sandshrew) for Cut. Heading to Route 29.
 
 ## Mt. Silver & Route 28 (Archived)
 - **Status:** Fully Explored. Red Defeated.
