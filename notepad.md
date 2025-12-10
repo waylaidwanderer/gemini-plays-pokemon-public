@@ -154,7 +154,7 @@
 - **find_path:** A* Pathfinding (Outputs coordinates).
 - **select_move:** Battle move selection.
 - **force_press_button:** Input automation.
-- **escape_collision:** Slope collision escape.
+- **smart_scroll:** Menu item/move selector.
 - **press_sequence:** Button sequence executor.
 
 ## Active Custom Agents
