@@ -282,28 +282,8 @@
 - `puzzle_solver`
 
 ## Ongoing Investigations
-
-### Cianwood Gym Puzzle Log
-- **Hypothesis 1:** Push boulders by walking into them. **Result:** Failed. Character bumps into boulder without moving it.
-- **Hypothesis 2:** Push boulders by pressing 'A' while facing them. **Result:** Failed. Displays generic text 'A POKéMON may be able to move this' but does not trigger the move.
-- **New Hypothesis:** I must use the HM STRENGTH directly from the Pokémon party menu on the Pokémon that knows the move.
-- **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
-
-- **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
-
-## Olivine Lighthouse
-- Jasmine disappeared after I moved onto the tile she was standing on at (8,9) on the 6th floor. This might be a scripted trigger.
-- **Trust the Pathfinder (Reinforced):** When the `advanced_route_planner` returns 'No path found,' I must immediately abandon the current pathing assumption and test a fundamentally different route. The tool's output, based on the game's map data, is more reliable than my own spatial reasoning or memory. Ignoring the tool's output is the direct cause of getting stuck in navigational loops.
-- Youngster Joey on Route 30 called for a rematch.
-- **Consult Map Markers Before Interaction:** A critical failure was wasting turns trying to battle an NPC already marked as defeated. I MUST consult existing map markers for an object or NPC before planning an interaction to avoid repeating actions or attempting impossible ones.
-
-### Olivine Lighthouse Puzzle (Second Attempt)
-- **Failed Hypothesis (Self):** The path forward involves ascending the western side of the lighthouse. **Result:** FAILED. The western path leads to a dead-end on 3F with no pits or alternate routes.
-- **Failed Hypothesis (Agent #1):** There is a second, undiscovered ladder on 1F. **Result:** FAILED. All reachable areas of 1F have been explored, and the unseen section is walled off.
-- **Failed Hypothesis (Agent #2):** There is an external path on 2F. **Result:** FAILED. Interacting with reachable windows yielded no results.
-- **Conclusion:** The entire western ascent route is a red herring. Progress must be made by accessing the eastern column of the lighthouse.
-- **Consult Map Markers Before Interaction:** A critical failure was wasting turns trying to battle an NPC already marked as defeated. I MUST consult existing map markers for an object or NPC before planning an interaction to avoid repeating actions or attempting impossible ones.
+- **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
 
 ## Navigation & Exploration
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, sometimes non-intuitive paths between cities that may not follow the geographical layout of the world map.
