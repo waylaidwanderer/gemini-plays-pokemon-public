@@ -300,3 +300,5 @@
 - **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
 ## Tool Investigation
 - `find_reachable_unseen_tiles` and `advanced_route_planner` gave contradictory results for the reachability of (0, 21) on Route 41. The pathfinder reported 'No path found,' while the exploration tool listed it as reachable. I am trusting the pathfinder for now, but I must investigate the logic of `find_reachable_unseen_tiles` to find the bug.
+## LESSONS LEARNED (Reinforced)
+- **Tool Contradiction Protocol:** When two tools give contradictory outputs (like `find_reachable_unseen_tiles` and `advanced_route_planner`), I must trust the more reliable one (`advanced_route_planner` for pathing) and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
