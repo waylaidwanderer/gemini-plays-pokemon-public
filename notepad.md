@@ -462,7 +462,7 @@
 - **Scientist 1:** Surprised by Pokémon in ruins.
 - **Scientist 2:** Theorizes Unown are the drawings on the walls come to life, implying many variations exist.
 - Research Center Printer: Currently displays 'This doesn't seem to work yet.' Likely requires more Unown progress.
-- **Ruins of Alph:** Printer inactive even with Unown in party. Next: Show Unown to Scientists.
+- **Ruins of Alph:** Printer inactive with current Unown (5 types). Scientists dialogue generic. Need to catch more varieties.
 - **Ruins of Alph:** Scientist confirmed 'many kinds' of Unown exist. Implies catching different letter variants is key.
 - **Stealth Strategy:** Use `stun_npc` to freeze patrolling Scientists to avoid pathfinding blocks.
 - **Ruins Mystery:** Unown Dex Unlocked (Mode unlocked by Scientist 3). Printer still locked with 5 Unown. Scientist 2 dialogue is generic.
