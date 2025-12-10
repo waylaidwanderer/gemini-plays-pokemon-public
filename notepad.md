@@ -504,9 +504,3 @@
 - **Dark Cave (Violet Entrance):** The path South from the entrance is blocked by a one-way ridge (FLOOR_UP_WALL) at (2, 16). Cannot reach the western side without Surf or Rock Smash. Returning to Violet City to get HM users.
 - **Violet PC:** Deposited Bedrock/Shuckie. Withdrew Gib Raltar. Plan: Withdraw F (Surf) and Chrono (Flash).
 - **Route 37 Anomaly:** Twins Ann & Anne are labeled as 'WEIRD_TREE' in the game state object list. Dialogue confirms they are trainers.
-- **HEADBUTT_TREE:** Obstacle. Interacting may trigger wild encounters.
-- **WHIRLPOOL:** Water obstacle. Passable with HM06.
-- **WATERFALL:** Water obstacle. Passable with HM07.
-- **HEADBUTT_TREE:** Obstacle. Interacting may trigger wild encounters.
-- **WHIRLPOOL:** Water obstacle. Passable with HM06.
-- **WATERFALL:** Water obstacle. Passable with HM07.
