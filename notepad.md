@@ -290,16 +290,6 @@
 - **Training Efficiency:** If a grinding location consistently provides poor matchups or low EXP yield, it is a strategic failure to remain there. I must immediately pivot to a new location or a different training method (like finding un-battled trainers) to maintain efficiency. Battling trainers is far more efficient than grinding wild Pokémon.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
 
-## Olivine City Gym Strategy
-- **Gym Leader:** Jasmine
-- **Known Information:** She was caring for a sick Ampharos (Electric-type), which implies she might use Electric or Steel types, given the lighthouse's theme. The gym is likely Steel-type, as Olivine is known for its steel.
-- **Team Composition:**
-  - VULCAN (Quilava): Fire-type moves will be super-effective against Steel.
-  - CLAUDIUS (Krabby): Water-type moves are neutral, but STRENGTH is useful.
-  - CRUNCH (Pinsir): Fighting-type moves (Seismic Toss) are super-effective against Steel.
-  - JUBILEE (Togetic): Normal/Flying, likely weak to Steel/Rock moves. Should be used cautiously.
-- **Plan:** Lead with VULCAN to deal heavy damage. Switch to CRUNCH if VULCAN is in trouble. Use CLAUDIUS as a backup. Avoid using JUBILEE unless necessary.
-
 - **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
 
 ## Olivine Lighthouse
