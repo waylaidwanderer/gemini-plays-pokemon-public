@@ -10,7 +10,7 @@
 **Next Stop:** Ruins of Alph / Ecruteak City.
 **Current Objectives:**
 1. Train team to Level 20 (Battle Tower Prep).
-2. Deliver Berry to Moomoo Farm (Route 39).
+2. Buy Moomoo Milk (Route 39).
 3. Explore Ruins of Alph.
 **The Champion Team:**
 - **Paprika (Typhlosion Lv75):** The MVP.
@@ -28,7 +28,7 @@
 4. Gib Raltar (Graveler) Lv37
 5. F (Psyduck) Lv8
 6. Chrono (Hoothoot) Lv16
-**Status:** Outside Ecruteak PC.
+**Status:** Route 39 Farmhouse.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
@@ -44,6 +44,7 @@
 - **Lesson:** ALWAYS verify Map ID and coordinates against Game State before assuming location to avoid hallucinations (e.g., thinking I'm outside when in PC).
 - **Route 29 Navigation:** Northern path (Berry Tree) accessible via Cut Tree at (30, 9) or from New Bark Town (East).
 - **Action:** Withdrew XQH (Sandshrew) for Cut. Heading to Route 29.
+- **Moomoo Farm:** Quest Complete! Miltank cured. Reward: TM13 (Snore). Farmer now sells Moomoo Milk.
 
 ## Mt. Silver & Route 28 (Archived)
 - **Status:** Fully Explored. Red Defeated.
@@ -318,7 +319,7 @@
 - **Geography:**
   - Pokémon Center: (23, 25).
   - Gym: To be located.
-- Trainer House: (23, 15).
+- Trainer House: (23, 15). 
 - Gym: (27, 7). 
 - Viridian Gym: (32, 7). Blocked by Gramps at (30, 8).
 ## Viridian City
@@ -331,7 +332,7 @@
 - **Viridian Gym:** Found Blue at (5, 3). Challenging him now.
 - **Battle Strategy Update:** Paprika critical. Gyarados too strong. Switching to fodder to stall out Hydro Pump PP (5 total) and heal Paprika with Super Potions.
 ### Menu Navigation
-- **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear, Status, Save, Option, Exit.
+- **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
 - **Cursor Memory:** The game remembers the last cursor position. Always visually confirm or reset cursor (e.g., press Up x5) before navigating blind.
 - **Fly Destination Lock:** Confirmed inability to Fly to Pewter/Viridian/Pallet. Reinforces the rule that entering the Pokémon Center is required to unlock them.
 - **Fly Destination Lock:** Confirmed inability to Fly to Pewter/Viridian/Pallet. Reinforces the rule that entering the Pokémon Center is required to unlock them.
@@ -374,7 +375,7 @@
   - **Conclusion:** This entire western landmass seems to be an exit-only loop from Route 28, not an entrance.
 - **Silver Cave Outside (South-East):** Path south of ridge (28, 32) is a DEAD END for westward progress. Returning to surf west.
 - **Navigation Correction:** The 'Western Landing' at (13, 24) is a one-way exit from the western plateau. It does not provide access TO the area. Access must be found elsewhere, likely north of the Main Cave Entrance.
-- **Main Entrance (18, 11 outside -> 9, 33 inside):** DEAD END. Leads to a small foyer. Northern path blocked by ledge at Row 20. Western item (5, 30) blocked by ledge at (7, 30). Must find another entrance.
+- **Main Entrance (18, 11 outside -> 9, 33 inside):** DEAD END. Leads to a small foyer. Northern path blocked by one-way ledges at Row 20. Western item (5, 30) blocked by ledge at (7, 30). Must find alternate entrance.
 - **Silver Cave Room 1 (Main Entrance):** Confirmed DEAD END. Entrance at (18, 11) leads to a small southern foyer (3_74). Northern path blocked by one-way ledges at Row 20. Western item blocked by ledge. Must find alternate entrance.
 - **Route 28 Loop:** The map has a High Ground (North, House) and Low Ground (South, Row 13). It's a one-way loop: Enter via Secret Path -> House -> Jump Ledges -> Lower Area -> Exit via (0, 13) -> Back to Silver Cave Outside (SE).
 - **Route 28 High Plateau:** Confirmed that the southern ridge (x=30, 31) is impassable. Cannot jump down to the eastern secluded area from here.
@@ -396,11 +397,7 @@
 **Quest Log:**
 - **GS Ball:** CANCELLED (Unobtainable).
 - **Route 36:** Sudowoodo event complete. Path to Ecruteak City is CLEAR. Fruit Tree at (21, 4) contains ICE BERRY.
-- **Moomoo Farm:** Quest Active. Miltank is sick. Needs regular BERRIES. Inventory: 2. 
-  - Miltank: Interaction just says 'Mooo!'. No feeding prompt.
-  - Twins: Both say 'We're feeding MOOMOO!'.
-  - Farmer: Just sells Moomoo Milk.
-  - Plan: Talk to Pokefan F (Farmer's Wife) to find the quest trigger.
+- **Moomoo Farm:** Quest Complete! Miltank cured. Reward: TM13 (Snore). Farmer now sells Moomoo Milk.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
 ## Route 39 & 40 (Olivine Area)
@@ -439,12 +436,12 @@
 - **Goal:** Reach Level 20 cap for Battle Tower.
 - **Location:** Route 38/39.
 - **Team:** Basalt, Vortex, Bahamut.
-- **Status:** BERRY obtained. Delivering to Moomoo Farm.
+- **Status:** Moomoo Milk Run.
 - **Tool Lesson:** `find_path` ignores off-screen objects even if marked. Updated tool to treat markers with `object_id` as obstacles.
 - **Navigation Update:** Fly interface proved unreliable for Westward travel from Violet. Proceeding on foot to Olivine via Route 36.
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
-- **Kabuto Chamber Secret:** Solved! Escape Rope opened secret passage to Item Room.
+- **Kabuto Chamber Secret:** Solved! Escape Rope opened secret passage to Item Room. 
 - **Inner Chamber:** "Strange presence" text appeared upon entry (likely Unown).
 - **Tool Lesson:** `find_path` tool outputs a list of coordinates, NOT button strings. Do NOT use `autopress_buttons=True` with it; use `path_plan` instead.
 - Entered Ruins of Alph Research Center.
