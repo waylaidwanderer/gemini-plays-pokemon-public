@@ -269,14 +269,10 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
-- `delete_tool`
-- `select_battle_option`
-- `delete_tool`
-- `select_battle_option`
 
 ### Custom Tools
 - `advanced_route_planner`
-- `find_adjacent_unseen`
+- `find_reachable_unseen_tiles`
 - `select_item`
 - `select_move`
 - `switch_pokemon`
