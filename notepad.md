@@ -19,15 +19,15 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Harvest Route 29 Berry.
-**Strategy:** XQH (Cut) obtained. Exit PC -> Route 29 East. Cut trees to reach Northern Berry Tree (12, 2).
+**Current Objective:** Forage Berries (Route 46).
+**Strategy:** Harvested Route 29 Berry (1/7?). Heading to Route 46 to check for more.
 **Team:**
 1. Bahamut (Dratini) Lv17
 2. Bedrock (Larvitar) Lv20
 3. Vortex (Pidgeotto) Lv19
 4. Shuckie (Shuckle) Lv15
 5. XQH (Sandshrew) Lv12 (Cut)
-**Status:** Heading to Route 29.
+**Status:** On phone with Joey.
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
