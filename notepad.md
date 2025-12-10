@@ -468,3 +468,4 @@
 - **Ruins Mystery:** Printer requires 'many kinds' of Unown (Collection threshold).
 - **Unown Collection:** 4 Caught (SIGIL, CIPE, RUNE, ICON). Need 1 more for printer (Total 5).
 - **Unown Mode:** Unlocked (likely with 3 forms). Records forms in catch order.
+- **Tool Usage Lesson:** Custom tools that return button sequences (like `press_sequence`) MUST be called with `autopress_buttons: true` to actually execute the presses. System tools do not require this.
