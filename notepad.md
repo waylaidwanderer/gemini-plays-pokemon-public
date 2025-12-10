@@ -321,3 +321,9 @@
 - **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
 ## LESSONS FROM REFLECTION (Turn 46000)
 - **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
+
+## LESSONS FROM REFLECTION (Turn 46052)
+- **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
+
+## Tile & Object Mechanics (Addendum)
+- **FLOOR_UP_WALL**: Confirmed impassable from below. It should be treated as a solid wall until proven otherwise.
