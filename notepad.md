@@ -313,3 +313,4 @@
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
 - Tool maintenance, even mid-battle, is a higher priority than any gameplay action. A broken tool leads to failed strategies.
 - When navigation seems impossible, my own perception of the map is likely flawed. I must re-examine every tile for overlooked interactions (like landing from SURF) and use the `puzzle_solver` agent to challenge my root assumptions.
+- **Pathing Verification:** My pathfinding failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
