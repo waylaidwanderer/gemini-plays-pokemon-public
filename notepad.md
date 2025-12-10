@@ -423,9 +423,9 @@
 - CIPE (Unown)
 - RUNE (Unown)
 
-# Active Training Plan (Completed)
-- Team reached target levels. Bedrock (Lv20), Vortex (Lv19), Bahamut (Lv17).
-- Ready for Battle Tower.
+# Battle Tower Challenge
+- **Rule:** Item Clause Enforced (No duplicate items).
+- **Strategy:** Vortex (Berry), Bedrock (Quick Claw), Bahamut (Dragon Fang).
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
 - **Kabuto Chamber Secret:** Solved! Escape Rope opened secret passage to Item Room. 
