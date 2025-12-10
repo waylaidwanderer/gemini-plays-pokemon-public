@@ -19,8 +19,8 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Train Team to Level 20.
-**Strategy:** Grind XP on Route 38/39 or water routes. Need to counter special attackers like Blissey.
+**Current Objective:** Withdraw XQH (Cut).
+**Strategy:** In Cherrygrove PC. Withdraw Sandshrew. Access Route 29 Northern Berry Tree.
 **Team:**
 1. Vortex (Pidgeotto) Lv19
 2. Bedrock (Larvitar) Lv20
