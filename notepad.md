@@ -516,3 +516,4 @@
 - **Progress:** Deposited Nugget, Rare Candy, Protein (x2).
 - **PC/Party Management:** Always verify the 'Party' list in Game State Information before attempting to withdraw Pokémon. Misremembering party state leads to wasted turns.
 - **Item Discovery:** Bahamut (Dratini) came holding a **Dragon Fang**. Swapped for Berry.
+- **Battle Tower Mechanics:** Auto-heals party after a challenge (win or loss).
