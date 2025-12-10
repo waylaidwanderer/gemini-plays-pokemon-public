@@ -30,6 +30,9 @@
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
 
+**Observed Threats:**
+- **Miltank (Teacher Marino):** Knows Surf (Water) and Thunder (Electric). Wiped Rock/Ground/Flying team. Counter: Dragon type (Bahamut).
+
 ### Recent Logs
 - **Route 38 Navigation:** Westward path blocked by Wall at (29, 8) and Ledges at (21, 12). Must use North Path (Row 5).
 - **Larvitar Caught:** Nicknamed "BEDROCK". Sent to PC.
