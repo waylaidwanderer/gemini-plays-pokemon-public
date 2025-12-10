@@ -168,12 +168,12 @@
 **Goal:** Defeat opponents in the L:20 Class.
 
 ### Current Team
-1. **Vortex (Pidgeotto) Lv19:** Flying/Normal. Coverage: Steel Wing, Mud-Slap.
-2. **Basalt (Geodude) Lv19:** Rock/Ground. Physical Tank.
-3. **Bedrock (Larvitar) Lv20:** Rock/Ground. Heavy Hitter.
+1. **Vortex (Pidgeotto) Lv19:** Flying/Normal. Lead.
+2. **Bahamut (Dratini) Lv16:** Dragon. Pivot (Resists Water/Electric/Grass/Fire). Thunder Wave support.
+3. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
 
-**Risks:** Major weakness to Water and Grass (4x on Basalt/Bedrock).
-**Status:** Team Assembled. Heading to Battle Tower via Olivine.
+**Strategy:** Bahamut covers the team's Water/Electric weakness. Use Thunder Wave to cripple faster threats.
+**Status:** Ready for Battle Tower Level 20.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
