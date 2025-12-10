@@ -320,3 +320,4 @@
 
 ## Tile & Object Mechanics
 - **VOID**: An impassable tile type found at the edges of some maps, functions as a wall.
+- **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
