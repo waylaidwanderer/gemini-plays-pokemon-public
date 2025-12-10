@@ -466,5 +466,5 @@
 - **Ruins of Alph:** Scientist confirmed 'many kinds' of Unown exist. Implies catching different letter variants is key.
 - **Stealth Strategy:** Use `stun_npc` to freeze patrolling Scientists to avoid pathfinding blocks.
 - **Ruins Mystery:** Printer requires 'many kinds' of Unown (Collection threshold).
-- **Unown Collection:** 3 Caught (SIGIL, CIPE, RUNE). Verified count. Need 2 more for printer (Total 5).
+- **Unown Collection:** 4 Caught (SIGIL, CIPE, RUNE, ICON). Need 1 more for printer (Total 5).
 - **Unown Mode:** Unlocked (likely with 3 forms). Records forms in catch order.
