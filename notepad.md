@@ -316,3 +316,6 @@
 
 ## LESSONS FROM REFLECTION (Turn 45948)
 - **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
+
+## LESSONS FROM REFLECTION (Turn 45966)
+- **Trust Verified Tools Over Perception:** The `advanced_route_planner` correctly identified a path as blocked, even when my visual inspection suggested it was clear. This is a critical reminder to trust the output of my verified tools, as they can analyze the map data more accurately than I can. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
