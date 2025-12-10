@@ -22,12 +22,10 @@
 **Current Objective:** Challenge Battle Tower (Level 20).
 **Strategy:** Equip held items (Quick Claw, Berries). Go to Battle Tower (West of Olivine).
 **Team:**
-1. Bahamut (Dratini) Lv17
-2. Vortex (Pidgeotto) Lv19
-3. Bedrock (Larvitar) Lv20
-4. XQH (Sandshrew) Lv12
-5. F (Psyduck) Lv8
-**Status:** Olivine City Pokémon Center.
+1. Vortex (Pidgeotto) Lv19
+2. Bedrock (Larvitar) Lv20
+3. Bahamut (Dratini) Lv17
+**Status:** Battle Tower (Lobby).
 **Battle Tower Rules:**
 - 3 Pokémon team.
 - All Pokémon must be ≤ Level 20 for the L:20 challenge.
