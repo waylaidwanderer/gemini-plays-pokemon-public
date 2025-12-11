@@ -34,7 +34,7 @@
 - **Location:** Battle Tower Battle Room.
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
 - **Active:** Vortex (Pidgeotto).
-- **Note:** Umbreon's Toxic failed.
+- **Note:** Umbreon used Toxic (Vortex Badly Poisoned). Umbreon is faster. Umbreon used Protect last turn.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
