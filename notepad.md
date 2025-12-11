@@ -361,3 +361,4 @@
 - **Tool Rule:** `autopress_buttons: true` is ONLY for Custom Tools (e.g., `select_move`). System tools (e.g., `select_battle_option`) fail/ignore if this is set.
 - Status Update: Team critical. Retreating to Olivine to heal.
 - **Note:** Umbreon holds Leftovers.
+- **Battle Update:** Vortex Badly Poisoned by Umbreon. Switching to Bahamut to reset Toxic counter and attempt Thunder Wave.
