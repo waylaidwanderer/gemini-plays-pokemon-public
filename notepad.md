@@ -9,7 +9,8 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Ready to Challenge.
+- **Status:** Failed Attempt 1 (Heracross sweep). Needs Healing.
+- **Intel:** Heracross (Lv20) is DANGEROUS. Moves: Megahorn (OHKO Vortex), Earthquake (OHKO Basalt). Outspeeds Lv19s.
 - **Party:** Bahamut (Lv19), Vortex (Lv19), Basalt (Lv19).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
