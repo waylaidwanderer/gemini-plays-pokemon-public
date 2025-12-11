@@ -160,7 +160,7 @@
 - **select_move:** Battle move selection.
 - **press_sequence:** Button sequence executor.
 - **hunt_routine:** Automated wild encounter hunting.
-- **battle_assistant:** Battle tactician agent.
+
 - **select_battle_option:** Battle menu selector.
 
 ## Active Custom Agents
