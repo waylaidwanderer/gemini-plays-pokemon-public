@@ -36,11 +36,6 @@
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
 - **Status:** Janine Defeated. Soul Badge Obtained.
 
-## Archived Logs
-- **Johto:** Champion. Rocket Disbanded.
-- **S.S. Aqua:** Rescue complete.
-- **Power Plant:** Power restored.
-
 ## Global Game Mechanics
 ### General Mechanics
 - **Physics:** Boulders cannot push other boulders. You must occupy the tile 'behind' a boulder to push it.
