@@ -361,3 +361,8 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 # LESSONS LEARNED
 - **External Puzzle Triggers:** When a self-contained area (like a dungeon floor) is fully explored and no progress can be made, the trigger for progression is likely external (e.g., an NPC in town, a story event elsewhere). Challenge the root assumption that the solution must be found within the immediate area.
 - **Proactive NPC Management:** When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (from Reflection)
+- **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
+- **Event Triggers Can Alter Maps:** Defeating key enemies (like Team Rocket) can physically alter the map layout, opening previously inaccessible paths. After a major event, always re-explore the relevant area.
+- **Verify Locations Before Acting:** Hallucinations about object and warp locations are a critical failure point. I MUST verify coordinates from the Game State Information or my Mental Map *before* planning a path or interacting with something.
