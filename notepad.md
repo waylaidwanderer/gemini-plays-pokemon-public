@@ -7,15 +7,17 @@
 - **Party:** Gauss (Lv20), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19), Rumpus (Lv15).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Current Battle:** vs Blissey (Psychic, Submission). Strategy: Screech with Bedrock, then sweep with Vortex.
-- **Status:** In Battle vs Blissey (Psychic, Submission). Strategy: Screech then Vortex.
+- **Current Battle:** vs Blissey (Psychic, Submission).
+- **Status:** Losing. Vortex/Gauss fainted. Bedrock (Larvitar) left.
+- **Critical Failure:** Bedrock has NO Physical moves. Bite is Special (Gen 2). Walled by Blissey.
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Strategy:**
-  1. **Gauss (Magnemite):** Lead. Resists Normal/Ice/Flying. Key for Tauros.
-  2. **Bedrock (Larvitar):** Physical Sweeper/Tank. Watch out for Water/Grass.
-  3. **Vortex (Pidgeotto):** Pivot. Immunity to Ground. Resists Fighting/Bug/Grass.
+  1. **Gauss (Magnemite):** Lead. Resists Normal/Ice/Flying.
+  2. **Bedrock (Larvitar):** Tank. Needs Rock Slide/Throw for Physical coverage.
+  3. **Vortex (Pidgeotto):** Pivot. Fainted.
 - **Opponent Intel:**
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
+  - **Blissey:** Psychic, Submission. Massive Sp.Def.
 - **Mechanics:** Party is auto-healed after every challenge.
 - **UI Note:** The "What level..." text box is NOT blocking. Do not auto-mash 'A'. Navigate carefully to L:20.
 
