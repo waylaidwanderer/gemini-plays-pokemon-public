@@ -296,8 +296,7 @@
 - **BOULDER**: An object that can be pushed with the HM STRENGTH. Otherwise impassable.
 
 ## ONGOING INVESTIGATIONS
-- **Pathfinder Inefficiency:** My `find_path` tool produces extremely long and inefficient paths. This suggests a bug in its cost calculation or handling of one-way tiles. This needs to be investigated and fixed when time permits.
-- **Abandon Unreliable Tools:** If a custom tool, especially a pathfinder, repeatedly fails even after multiple agent-led bug fixes, the tool's core logic is likely flawed. Instead of getting stuck in an endless debug cycle, it is more efficient to abandon the tool and switch to a reliable manual process. The `find_path_multimodal` tool is a prime example of this failure.
+- **A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool.** The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
 
 # Slowpoke Well B1F Island Puzzle
 My `puzzle_solver` agent provided new hypotheses after I got stuck on the central island:
