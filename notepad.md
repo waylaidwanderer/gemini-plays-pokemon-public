@@ -57,7 +57,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
-- **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from. It is also impossible to move DOWN onto it from an adjacent FLOOR tile.
+- **FLOOR_UP_WALL**: A one-way traversable tile. It is impassable when moving up into it (from below), but can be jumped down onto from above.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
@@ -276,10 +276,10 @@
 - **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
 - **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
 - **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
-- **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate. All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
 - **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
 - **Navigation Failure implies Puzzle:** When both automated (tools) and manual pathing attempts repeatedly fail in a small, seemingly simple area, the root cause is likely a misunderstanding of a puzzle, not a pathing error. I must pivot from trying to navigate to trying to solve the underlying puzzle.
 - **Plan Shorter Manual Paths:** When navigating manually, especially in complex or unfamiliar areas, plan short, simple paths of only a few steps at a time. This reduces the chance of making a planning error and running into a wall, which wastes turns.
+- **Tool Logic Must Perfectly Mirror Mechanics:** A tool will catastrophically fail if its internal model of the game is inaccurate (e.g., incorrect tile traversal rules). All tool logic must be based on rigorously verified in-game observations.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
