@@ -35,7 +35,7 @@
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
 - **Active:** Basalt (41/51 HP, Acc-1). Vortex Fainted.
 - **Opponent:** Umbreon (PAR, Leftovers, Acc-2, Damaged).
-- **Strategy:** Basalt attacking with Strength. Umbreon fully paralyzed last turn.
+- **Strategy:** Basalt attacking with Strength. Umbreon missed Mud-Slap.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
