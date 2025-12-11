@@ -290,7 +290,10 @@
 - Arrived via Fly.
 
 ## Battle Tower Rules
-- **Item Clause:** Enforced. No two Pokémon can hold the same item.
+- **Item Clause Check:**
+  - Gauss: No Item (Confirmed).
+  - Vortex: Checking...
+  - Bahamut: Checking...
 - **Auto-Heal:** Team is automatically healed after a challenge (win or loss).
 - Picked up MINT BERRY from Route 39 tree. (Likely not the cure for Miltank).
 - **Navigation Insight:** Wild encounters interrupt `find_path`/`path_plan` execution. When actively hunting in tall grass, use `press_sequence` (e.g., 'Up, Down, Up, Down') instead of target coordinates to avoid 'Movement Blocked' errors.
