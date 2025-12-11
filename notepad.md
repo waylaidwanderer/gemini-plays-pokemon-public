@@ -328,3 +328,7 @@
 
 # LESSONS LEARNED
 - **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`verify_path`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
+
+# LESSONS LEARNED
+- **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. My pathfinder's failure to account for one-way ledges by checking both the source *and* destination tile was a critical flaw. Future tools must be designed with a comprehensive understanding of all relevant mechanics to be reliable.
+- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends (like in Slowpoke Well B1F), the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
