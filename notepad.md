@@ -32,13 +32,6 @@
 - **Lesson:** ALWAYS verify Map ID and coordinates against Game State.
 - **Moomoo Farm:** Quest Complete! Miltank cured.
 
-## Mt. Silver & Route 28 (Archived)
-- **Status:** Fully Explored. Red Defeated.
-- **Route 28:** Secret House (TM47 Steel Wing) accessed via Cut path from Silver Cave Outside.
-- **Silver Cave:**
-  - **Outside:** PokeCenter (23,19).
-  - **Room 1:** East path (x=15) leads North.
-
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
 - **Status:** Janine Defeated. Soul Badge Obtained.
