@@ -26,8 +26,7 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Recent Logs (Archived)
-- **Route 38:** Explored. Larvitar "BEDROCK" caught.
-- **Phone Calls:** Anthony (Route 33) - Flavor text.
+(Entries cleared)
 
 ### Current Logs
 - **Olivine City:** Explored Center, Mart, Gym location. Preparing to train on Route 39.
