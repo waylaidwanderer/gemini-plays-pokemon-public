@@ -373,3 +373,4 @@
 - **Item Discovery:** Bahamut (Dratini) came holding a **Dragon Fang**. Swapped for Berry.
 - **Battle Tower Mechanics:** Auto-heals party after a challenge (win or loss).
 - **Encounter:** Wild Magnemite on Route 39! Switching to Bahamut to catch.
+- **Route 39:** Retreated to Olivine City to heal Gauss (7/38 HP).
