@@ -365,3 +365,4 @@
 ## New Discoveries
 - **Route 39:** Meowth (Wild).
 - **Lucre (Meowth):** Lv16. Scratch, Growl, Bite.
+- **Event:** Dunsparce Swarm reported in Dark Cave (Violet Entrance) by Anthony.
