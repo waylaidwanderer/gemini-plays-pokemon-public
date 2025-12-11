@@ -8,8 +8,8 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Failed (Lost to Kimono Girl Arita). Preparing to Train.
-- **Party:** Gauss (Lv21), Vortex (Lv19), Bahamut (Lv19).
+- **Status:** Ready to Challenge.
+- **Party:** Bahamut (Lv19), Vortex (Lv19), Basalt (Lv19).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
