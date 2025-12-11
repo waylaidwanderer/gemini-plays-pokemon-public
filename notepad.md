@@ -151,29 +151,6 @@
 - **Lass Thornton's Tauros:** Blizzard (Ice), Hyper Beam.
 **Next Steps:** Train Gauss to Lv20.
 
-## Power Plant
-- Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
-
-## Route 10 North
-- **Split Layout:** The map is divided into two isolated sections by a vertical wall at x=3 and a horizontal barrier of FLOOR_UP_WALL tiles at y=4.
-- **East Section:** Accessed from Route 9 (East). Contains PokeCenter. Dead end.
-- **West Section:** Contains Rock Tunnel. Must be accessed from the western side of Route 9.
-
-## Route 8
-- **Status:** Traversing West to Saffron City.
-- **Geography:**
-  - **North Path:** Locked Door (10, 5), Underground Path Sign (11, 7).
-  - **South Path:** Cleared. Cut Trees at (27,10) and (21,12) removed.
-  - **Exit:** Saffron Gate at (4, 5) via Row 6.
-- **Obstacles:**
-  - **Biker Gang (x=7):**
-    - Zeke (Row 10): Defeated.
-    - Harris (Row 9): Defeated.
-    - Unnamed (Row 8): Active. Facing Left. Battle inevitable at (6, 8).
-- **Tool Usage:** Multiple tool calls in one turn overwrite each other's button outputs. Use `run_code` or a custom tool to chain multiple distinct button actions.
-- **Tool Limitations:** `run_code` cannot use `autopress_buttons: true`. To execute complex button sequences, define a custom tool.
-- **Sprite Reliability:** Overworld sprites can be misleading (e.g., Firebreather using Fisher sprite). Always trust the battle intro text for accurate trainer identification.
-
 ## Celadon City
 - **Status:** Exploring South side. Found Prize Room at (23, 19).
 - **Locations:**
