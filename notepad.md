@@ -283,12 +283,7 @@
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
 - **Status:** Exploring West. Confirmed 'ROUTE 28' via sign at (31, 5).
-## Silver Cave & Route 28 (Archived)
-- **Status:** Fully Explored. Red Defeated.
-- **Route 28:** Secret House (TM47 Steel Wing) accessed via Cut path from Silver Cave Outside.
-- **Silver Cave:**
-  - **Outside:** PokeCenter (23,19).
-  - **Room 1:** East path (x=15) leads North.
+
 ### Menu Navigation
 - **Wrapping:** Menus wrap around! Pressing 'Up' at the top moves to the bottom. Do not blindly mash 'Up' to reset cursor position.
 - **Tool Usage Correction:** Must set `buttons_to_press` to `["tool"]` when using `press_sequence` or any tool that presses buttons. Putting manual buttons in `buttons_to_press` overrides the tool.
