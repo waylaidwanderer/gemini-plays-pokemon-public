@@ -302,3 +302,4 @@
 ## LESSONS LEARNED
 - **`find_path_bfs` Limitation:** The tool cannot generate a single path that requires a state change (e.g., walking to surfing). It will create an invalid path that tries to walk on water. Paths requiring HMs must be manually executed in segments: 1) Path to the HM usage point. 2) Use the HM. 3) Path from the new position to the destination.
 - **Hypothesis 2 (Failed):** A hidden switch exists on an adjacent wall. **Test:** Systematically pressed 'A' on every wall segment accessible from the island. **Conclusion:** No switch was found. This hypothesis is disproven.
+- **Hypothesis 3 (Failed):** Stepping on a specific floor tile changes the state of the Gym Guide. **Test:** Walked over every tile, then re-interacted with the guide. **Conclusion:** The guide's dialogue was unchanged. This hypothesis is disproven.
