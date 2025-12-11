@@ -367,3 +367,6 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Event Triggers Can Alter Maps:** Defeating key enemies (like Team Rocket) can physically alter the map layout, opening previously inaccessible paths. After a major event, always re-explore the relevant area.
 - **Verify Locations Before Acting:** Hallucinations about object and warp locations are a critical failure point. I MUST verify coordinates from the Game State Information or my Mental Map *before* planning a path or interacting with something.
 - **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
+
+# LESSONS LEARNED
+- A pathfinding tool repeatedly failing in a small, seemingly simple area is a strong indicator of an unsolved puzzle or a flawed core assumption, not necessarily a faulty tool. I must pivot from trying to debug the tool to questioning the premise that a path should exist.
