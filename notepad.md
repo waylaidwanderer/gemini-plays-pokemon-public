@@ -31,9 +31,9 @@
 ### Recent Logs (Archived)
 
 ### Current Logs
-- **Route 39:** Caught Meowth (Lucre).
-- **Status:** Inside Olivine City Pokémon Center. Swapping Gauss for Basalt.
-- **Phone Call:** Joey (Route 30) challenged me to a rematch.
+- **Location:** Battle Tower Lobby.
+- **Status:** Entering Level 20 Challenge.
+- **Phone Call:** Gina (Route 34) called.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
