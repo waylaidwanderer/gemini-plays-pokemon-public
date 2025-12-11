@@ -366,3 +366,4 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
 - **Event Triggers Can Alter Maps:** Defeating key enemies (like Team Rocket) can physically alter the map layout, opening previously inaccessible paths. After a major event, always re-explore the relevant area.
 - **Verify Locations Before Acting:** Hallucinations about object and warp locations are a critical failure point. I MUST verify coordinates from the Game State Information or my Mental Map *before* planning a path or interacting with something.
+- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
