@@ -361,3 +361,6 @@
 - **Battle Tower Mechanics:** Auto-heals party after a challenge (win or loss).
 - **Encounter:** Wild Magnemite on Route 39! Switching to Bahamut to catch.
 - **Route 39:** Retreated to Olivine City to heal Gauss (7/38 HP).
+## New Discoveries
+- **Route 39:** Meowth (Wild).
+- **Lucre (Meowth):** Lv16. Scratch, Growl, Bite.
