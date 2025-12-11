@@ -22,13 +22,12 @@
 - **Mechanics:** Party is CONFIRMED auto-healed after every challenge.
 
 ## 📝 Quest & Event Log
-- **Moomoo Farm:** Quest Complete! Miltank cured. Farmer sells Moomoo Milk.
+ Farmer sells Moomoo Milk.
 - **Ruins of Alph:** Unown Mode unlocked. 9 Forms caught. "Strange presence" in Inner Chamber. Scientists researching.
 - **Kanto Campaign:** 8 Badges obtained. Red defeated.
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Recent Logs (Archived)
-- **Moomoo Farm:** Quest Complete! Miltank cured.
 
 ### Current Logs
 - **Route 39:** Caught Meowth (Lucre).
@@ -239,7 +238,7 @@
 **Quest Log:**
 - **GS Ball:** CANCELLED (Unobtainable).
 - **Route 36:** Sudowoodo event complete. Path to Ecruteak City is CLEAR. Fruit Tree at (21, 4) contains ICE BERRY.
-- **Moomoo Farm:** Quest Complete! Miltank cured. Reward: TM13 (Snore). Farmer now sells Moomoo Milk.
+ Reward: TM13 (Snore). Farmer now sells Moomoo Milk.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
 ## Route 39 & 40 (Olivine Area)
