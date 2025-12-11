@@ -317,7 +317,7 @@
 - Kabuto Item Room: Found Heal Powder at (2, 4).
 - **Battle Tower Gatehouse:** Rocker mentions special gifts for win streaks.
 - **Phone Call:** Joey (Route 30) called. Flavor text about Rattata and Hoothoot.
-- **Moomoo Farm:** Pokefan F says Miltank won't give milk. This confirms the quest.
+
 - **Route 29 Navigation:** Northern path accessible via Cut (Tree at 30, 9 removed). Proceeding to forage on Route 46.
 - **Route 29 Navigation (Eastbound):** Direct path blocked by ledges at x=8 and x=28. Must use the Southern Path (Row 14) to bypass the x=28 barrier, then loop North through the gap at (31, 13) to reach the Cut Tree/Gatehouse.
 - **Route 29 Navigation Update:** Cut Tree at (30, 9) removed. Northern path is now accessible from the West.
