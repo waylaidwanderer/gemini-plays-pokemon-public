@@ -352,23 +352,7 @@
 ### Mechanic Correction
 - **Capture Sequence:** In this version, the Nickname prompt appears **BEFORE** the 'Sent to Bill's PC' message, even if the party is full. Do not assume auto-transfer skips the nickname.
 - Capture Mechanic: Nickname prompt occurs BEFORE transfer to PC, regardless of party size.
-## Route 28 Secret Area
-- **Access:** Via secret path from Silver Cave Outside (cut tree at 31, 24).
-- **Steel Wing House (19_4):** Located at (7, 3) in the secret area.
-  - **NPC:** Cooltrainer F (Celebrity?). Gave TM47 (Steel Wing). Asked for secrecy.
-  - **Object:** Fearow (uses Moltres sprite).
-- **Exploration Update:** The landing at (13, 24) leads to an isolated plateau (x=4-10, y=24-29). It is a DEAD END blocked by walls West and a Ridge (FLOOR_UP_WALL) South. Must surf South to bypass the ridge.
-- **Silver Cave Outside (Western Shore):**
-  - **Central Plateau (x=5-13, y=24-29):** DEAD END. Must jump ledge at (11, 24) to exit.
-  - **South Pocket (x=4-15, y=29-30):** DEAD END. Blocked by Ridge South (4, 30) and Wall West (3, 29).
-  - **Conclusion:** This entire western landmass seems to be an exit-only loop from Route 28, not an entrance.
-- **Silver Cave Outside (South-East):** Path south of ridge (28, 32) is a DEAD END for westward progress. Returning to surf west.
-- **Navigation Correction:** The 'Western Landing' at (13, 24) is a one-way exit from the western plateau. It does not provide access TO the area. Access must be found elsewhere, likely north of the Main Cave Entrance.
-- **Main Entrance (18, 11 outside -> 9, 33 inside):** DEAD END. Leads to a small foyer. Northern path blocked by one-way ledges at Row 20. Western item (5, 30) blocked by ledge at (7, 30). Must find alternate entrance.
-- **Silver Cave Room 1 (Main Entrance):** Confirmed DEAD END. Entrance at (18, 11) leads to a small southern foyer (3_74). Northern path blocked by one-way ledges at Row 20. Western item blocked by ledge. Must find alternate entrance.
-- **Route 28 Loop:** The map has a High Ground (North, House) and Low Ground (South, Row 13). It's a one-way loop: Enter via Secret Path -> House -> Jump Ledges -> Lower Area -> Exit via (0, 13) -> Back to Silver Cave Outside (SE).
-- **Route 28 High Plateau:** Confirmed that the southern ridge (x=30, 31) is impassable. Cannot jump down to the eastern secluded area from here.
-- Western Corridor (14, 11): Visually confirmed blocked by wall at x=15. No external access. Must be accessed from inside.
+
 ## Silver Cave Room 2
 - **Entrance:** (17, 31). Connects to Room 1 (15, 1).
 - **Geography:** Southern area has multiple rows of WARP_CARPET_DOWN tiles. Walls at Row 27 with gaps at x=19 and x=22.
