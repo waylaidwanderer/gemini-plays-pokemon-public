@@ -305,3 +305,9 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Hypothesis 2:** The western boulder puzzle is a trigger. **Status: PENDING.** (Test: Return to the boulder and push it onto a special tile, then check for changes.)
 - **Hypothesis 3:** There is a hidden switch on the central island. **Status: PENDING.** (Test: Systematically interact with every wall and floor tile on the island.)
 - **Pathing Verification:** Do not trust memory for pathing. I MUST meticulously verify every step of a manual path against the XML map data. To prevent simple, turn-wasting errors, I should ALWAYS default to using the `find_path` tool for navigation. Manual pathing should only be used for very short, visually trivial movements.
+
+# LESSONS LEARNED
+- **Trust System Feedback:** If the system reports a tool was successfully updated (e.g., via a 'script is identical' error), trust that the change was applied. Do not get stuck in a loop re-submitting the same fix. Test the tool's functionality to verify.
+
+# PLANS
+- **Slowpoke Well Strategy Pivot:** After exhausting all hypotheses (hidden switches, boulder puzzle, B2F exploration), the current area seems unsolvable. The root assumption that a solution is immediately available is likely a false constraint. The new plan is to backtrack to Azalea Town and speak with Kurt again, as he is the quest-giver and may provide the trigger needed to progress.
