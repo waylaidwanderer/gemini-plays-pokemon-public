@@ -339,3 +339,6 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
     7. Select the target HM move.
     8. Press 'A' to use it.
   - **Challenge:** Requires robust screen text parsing for both the party list and the individual Pokémon's move list, which can be complex and error-prone. Will require significant testing.
+
+## Slowpoke Well B1F Boulder Puzzle
+- **Solution:** A hidden switch is located under the initial boulder at (3, 2). After pushing the boulder off its starting position, stand on (3, 2) and press 'A' to activate the switch. This enables other boulders in the well to be moved. Pushing the first boulder traps the player, forcing this discovery.
