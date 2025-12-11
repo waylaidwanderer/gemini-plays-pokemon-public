@@ -19,13 +19,9 @@
 - **Bahamut (Dratini):** The Future.
 - **XQH & F:** HM Squad.
 
-**Current Objective:** Heal & Re-equip for Rematch.
-**Strategy:** Return to Olivine PC. Equip Quick Claw (Bedrock) and Berries (Vortex/Bahamut).
-**Team Status:** Wiped by Scientist Nickel (Azumarill - Surf/Blizzard).
-**Needs:**
-1. HEALING (Olivine PC).
-2. HELD ITEMS (Equip from Bag).
-3. STRATEGY ADJUSTMENT (Azumarill is a wall. Need Electric/Grass coverage).
+**Current Objective:** Train Gauss (Magnemite) on Route 39.
+**Strategy:** Grind wild encounters.
+**Team Status:** Healthy. Gauss leading.
 
 ### Recent Logs (Archived)
 - **Route 38:** Explored. Larvitar "BEDROCK" caught.
