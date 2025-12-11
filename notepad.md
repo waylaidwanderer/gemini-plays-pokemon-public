@@ -2,8 +2,8 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Head to Battle Tower for Level 20 Challenge.
-- **Location:** Route 39.
+- **Current Task:** Train on Route 39 (Gauss Lv20, Vortex Lv19, Bahamut Lv17).
+- **Location:** Route 40.
 - **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17).
 
 ## 🏆 Battle Tower Challenge (Level 20)
