@@ -14,7 +14,7 @@
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
-- **Strategy:** Train Bahamut and Vortex to Lv20 on Route 39/38.
+- **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Basalt.
 - **Opponent Intel (Pool):**
   - **Kimono Girl Arita:** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
   - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
