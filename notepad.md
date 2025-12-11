@@ -33,7 +33,8 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room.
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Strategy:** Paralysis with Bahamut.
+- **Active:** Vortex (Pidgeotto).
+- **Note:** Umbreon's Toxic failed.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
