@@ -9,7 +9,7 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Failed (Lost to Kimono Girl Arita). Preparing to Train.
-- **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17).
+- **Party:** Gauss (Lv21), Vortex (Lv19), Bahamut (Lv19).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
