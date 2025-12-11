@@ -304,3 +304,4 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Hypothesis 1:** An interactable NPC/Slowpoke on the island creates a path. **Status: PENDING.** (Test: Get on the island and interact with any objects/creatures.)
 - **Hypothesis 2:** The western boulder puzzle is a trigger. **Status: PENDING.** (Test: Return to the boulder and push it onto a special tile, then check for changes.)
 - **Hypothesis 3:** There is a hidden switch on the central island. **Status: PENDING.** (Test: Systematically interact with every wall and floor tile on the island.)
+- **Pathing Verification:** Do not trust memory for pathing. I MUST meticulously verify every step of a manual path against the XML map data. To prevent simple, turn-wasting errors, I should ALWAYS default to using the `find_path` tool for navigation. Manual pathing should only be used for very short, visually trivial movements.
