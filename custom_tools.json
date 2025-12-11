@@ -671,5 +671,33 @@
         "action_counter": 46624
       }
     ]
+  },
+  "verify_path": {
+    "description": "Parses the map_xml_string to verify if a given path plan is traversable. It checks each step of the path for impassable tiles (like WALLs, or WATER when not surfing) and objects. Returns a JSON object indicating if the path is valid and identifies the blocking tile if it is not.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "path_plan": {
+          "type": "string",
+          "description": "A JSON string representing a list of coordinate dictionaries, e.g., '[{\"x\":1, \"y\":2}, {\"x\":1, \"y\":3}]'"
+        },
+        "is_surfing": {
+          "type": "string",
+          "description": "'true' or 'false', indicating the player's current movement mode."
+        }
+      },
+      "required": [
+        "path_plan",
+        "is_surfing"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport sys\n\ntry:\n    path_plan_str = input_data['path_plan']\n    is_surfing_str = input_data['is_surfing']\n    \n    path_plan = json.loads(path_plan_str)\n    is_surfing = is_surfing_str.lower() == 'true'\n\n    root = ET.fromstring(map_xml_string)\n    \n    impassable_while_walking = {'WALL', 'WATER', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE', 'BUOY', 'MART_SHELF', 'PC', 'COUNTER'}\n    impassable_while_surfing = {'WALL', 'FLOOR', 'GRASS', 'TALL_GRASS', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE'}\n\n    impassable_tiles = impassable_while_surfing if is_surfing else impassable_while_walking\n\n    # The first coordinate is the current position, skip it\n    for coord in path_plan[1:]:\n        x, y = coord['x'], coord['y']\n        tile_element = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n        \n        if tile_element is None:\n            print(json.dumps({\"is_valid\": False, \"blocker_coord\": {\"x\": x, \"y\": y}, \"reason\": \"Coordinate out of bounds\"}))\n            sys.exit(0)\n            \n        tile_type = tile_element.get('type')\n        has_object = tile_element.get('has-object') == 'true'\n\n        if tile_type in impassable_tiles or has_object:\n            reason = f\"Impassable tile type '{tile_type}'\" if tile_type in impassable_tiles else \"Object on tile\"\n            print(json.dumps({\"is_valid\": False, \"blocker_coord\": {\"x\": x, \"y\": y}, \"reason\": reason}))\n            sys.exit(0)\n\n    print(json.dumps({\"is_valid\": True, \"blocker_coord\": None, \"reason\": \"Path is clear\"}))\n\nexcept Exception as e:\n    print(json.dumps({\"is_valid\": False, \"blocker_coord\": None, \"reason\": f\"An error occurred: {str(e)}\"}))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-11T03:17:17.651Z",
+        "action_counter": 46780
+      }
+    ]
   }
 }
