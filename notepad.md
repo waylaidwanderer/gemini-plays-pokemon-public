@@ -31,8 +31,8 @@
 ### Recent Logs (Archived)
 
 ### Current Logs
-- **Location:** Battle Tower Elevator.
-- **Status:** Entering Battle Room.
+- **Location:** Battle Tower Battle Room.
+- **Status:** Challenge Round 1 vs Fisher.
 - **Phone Call:** Gina (Route 34) called.
 
 ## Fuchsia Gym (Cleared)
