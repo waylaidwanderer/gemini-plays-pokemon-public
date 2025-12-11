@@ -357,3 +357,7 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 # LESSONS LEARNED
 - **Pivot to Systematic Search:** When multiple simple hypotheses for a puzzle fail (e.g., direct pathing, HM usage, external NPC triggers), the next step is to pivot to a systematic, in-place investigation of the puzzle area itself for hidden triggers (switches, internal NPCs). Repeating failed hypotheses is inefficient.
 - **Verify Map Connectivity:** Do not assume map features (like bodies of water or paths) are connected just because they appear close on the map. Always verify connectivity with movement before committing to a path that relies on it.
+
+# LESSONS LEARNED
+- **External Puzzle Triggers:** When a self-contained area (like a dungeon floor) is fully explored and no progress can be made, the trigger for progression is likely external (e.g., an NPC in town, a story event elsewhere). Challenge the root assumption that the solution must be found within the immediate area.
+- **Proactive NPC Management:** When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
