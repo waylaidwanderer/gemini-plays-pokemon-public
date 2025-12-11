@@ -2,10 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Heal at Olivine City, then train Flux.
-- **Location:** Route 39.
+- **Current Task:** Get HM04 (Strength) from Olivine Cafe, then train Flux.
+- **Location:** Olivine City Pokemon Center.
 - **Party:** Bahamut (Lv19), Vortex (Lv19), Flux (Lv16).
-- **Recent Event:** Flux secured! Heading to Pokemon Center.
+- **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
