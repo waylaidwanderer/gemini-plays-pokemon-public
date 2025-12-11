@@ -12,7 +12,7 @@
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Strategy:**
   1. **Gauss (Magnemite):** Lead. Steel/Electric resists Normal/Ice/Flying.
-  2. **Basalt (Geodude):** Physical Attacker (Rock Throw, Magnitude). Handles Blissey.
+  2. **Bahamut (Dratini):** Special/Status (Thunder Wave, Dragonbreath). Resists Fire/Water/Electric/Grass. Replaces Basalt to counter Miltank (Surf/Thunder).
   3. **Vortex (Pidgeotto):** Pivot. Immune to Ground/Ghost.
 - **Opponent Intel:**
   - **Rocker (Current):** Miltank (Earthquake, Thunder, Surf, Attract). Critical threat to entire team.
