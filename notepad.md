@@ -282,7 +282,7 @@
   - Bahamut: No Item (Dragon Fang Removed -> Inventory).
 - **Auto-Heal:** Team is automatically healed after a challenge (win or loss).
 - Picked up MINT BERRY from Route 39 tree.
-- **Navigation Insight:** Wild encounters interrupt `find_path`/`path_plan` execution. When actively hunting in tall grass, use `press_sequence` (e.g., 'Up, Down, Up, Down') instead of target coordinates to avoid 'Movement Blocked' errors.
+- **Navigation Insight:** Wild encounters interrupt `find_path` execution. When actively hunting in tall grass, use `press_sequence` (e.g., 'Up, Down, Up, Down') instead of target coordinates to avoid 'Movement Blocked' errors.
 
 - **Lesson:** Always set `autopress_buttons: true` when calling custom tools that return button sequences.
 - **Battle Tower Menu:** Level Selection uses 'Up'/'Down' to toggle levels (e.g., 10 -> 20). Press 'A' to confirm.
