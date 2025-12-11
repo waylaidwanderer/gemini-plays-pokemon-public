@@ -297,3 +297,4 @@
 - **Hypothesis 1 (Failed):** A hidden pressure plate exists on the island floor. **Test:** Systematically walked over every single floor tile. **Conclusion:** No trigger activated. This hypothesis is disproven.
 - **Hypothesis 2 (Failed):** A hidden switch exists on an adjacent wall. **Test:** Systematically pressed 'A' on every wall segment accessible from the island. **Conclusion:** No switch was found. This hypothesis is disproven.
 - **Hypothesis 3 (Failed):** Stepping on a specific floor tile changes the state of the Gym Guide. **Test:** Walked over every tile, then re-interacted with the guide. **Conclusion:** The guide's dialogue was unchanged. This hypothesis is disproven.
+- **Hypothesis 4 (Failed):** The Gym Guide can be moved using the HM STRENGTH. **Test:** Activated STRENGTH from the party menu and attempted to push the Gym Guide. **Conclusion:** The player cannot push the NPC. This hypothesis is disproven.
