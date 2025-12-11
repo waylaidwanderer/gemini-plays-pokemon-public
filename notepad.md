@@ -43,26 +43,6 @@
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
 - **Status:** Janine Defeated. Soul Badge Obtained.
 
-## Route 17 (Cycling Road)
-- **Status:** Traversed. Slope mechanics require `escape_collision` tool.
-
-## Route 16 (Archived)
-- **East Side:** Cut Tree path leads to Fuchsia Speech House (Dead End).
-- **West Side:** Guard script requires BICYCLE to pass. Leads to Route 17.
-### Completed Objectives
-- **Pewter Gym:** Brock Defeated (Boulder Badge Obtained).
-- **Celadon Gym:** Erika Defeated (Rainbow Badge Obtained).
-
-## Pewter City
-- **Status:** Explored.
-- **Geography:**
-  - Pokémon Center: (13, 25).
-  - Gym: (16, 17).
-  - Mart: (23, 17).
-  - Museum: (15, 9).
-  - Nidoran House: (29, 13).
-- **Key NPCs:** Old Man (Silver Wing Obtained) - (28, 17).
-
 ## Route 2 (Traversed)
 - **Geography:** Diglett's Cave South (12, 7). Nugget House East (15, 15).
 - **Status:** Path to Pewter cleared (Cut Tree removed).
