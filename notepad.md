@@ -131,10 +131,9 @@
 **Goal:** Defeat opponents in the L:20 Class.
 
 ### Current Team
-1. **Gauss (Magnemite) Lv16:** Electric/Steel. Lead.
+1. **Gauss (Magnemite) Lv20:** Electric/Steel. Lead.
 2. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
-3. **Bahamut (Dratini) Lv17:** Dragon. Pivot.
-4. **Vortex (Pidgeotto) Lv19:** Flyer.
+3. **Vortex (Pidgeotto) Lv19:** Pivot. Immunity to Ground.
 
 **Strategy:** Gauss resists Normal/Ice (Tauros). Bedrock cleans up.
 **Status:** Preparing for rematch.
