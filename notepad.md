@@ -293,3 +293,7 @@
 - **Question Paradoxical Tool Outputs:** If a tool's output contradicts a fundamental game principle (e.g., reporting a path is blocked when it would result in a soft-lock), the tool's logic must be suspected and verified immediately. Do not escalate to other problem-solving methods based on a faulty premise.
 - **Question Paradoxical Tool Outputs:** If a tool's output contradicts a fundamental game principle (e.g., reporting a path is blocked when it would result in a soft-lock), the tool's logic must be suspected and verified immediately. Do not escalate to other problem-solving methods based on a faulty premise.
 - **Multi-Modal Pathing:** A single pathfinding tool call cannot handle a journey that requires a state change (e.g., from walking to surfing). Such routes must be executed in segments: 1) Path to the edge of the new terrain (e.g., water's edge). 2) Manually perform the state change action (e.g., use SURF). 3) Path from the new position to the final destination.
+- **BOULDER**: An object that can be pushed with the HM STRENGTH. Otherwise impassable.
+
+## ONGOING INVESTIGATIONS
+- **Pathfinder Inefficiency:** My `find_path_multimodal` tool, while functional, produces extremely long and inefficient paths. This suggests a bug in its cost calculation or handling of one-way tiles. This needs to be investigated and fixed when time permits.
