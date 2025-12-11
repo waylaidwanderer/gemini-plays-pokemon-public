@@ -641,34 +641,6 @@
       }
     ]
   },
-  "verify_path": {
-    "description": "Parses the map_xml_string to verify if a given path plan is traversable. It checks each step of the path for impassable tiles (like WALLs, or WATER when not surfing) and objects. Returns a JSON object indicating if the path is valid and identifies the blocking tile if it is not.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "path_plan": {
-          "type": "string",
-          "description": "A JSON string representing a list of coordinate dictionaries, e.g., '[{\"x\":1, \"y\":2}, {\"x\":1, \"y\":3}]'"
-        },
-        "is_surfing": {
-          "type": "string",
-          "description": "'true' or 'false', indicating the player's current movement mode."
-        }
-      },
-      "required": [
-        "path_plan",
-        "is_surfing"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport sys\n\ntry:\n    path_plan_str = input_data['path_plan']\n    is_surfing_str = input_data['is_surfing']\n    \n    path_plan = json.loads(path_plan_str)\n    is_surfing = is_surfing_str.lower() == 'true'\n\n    root = ET.fromstring(map_xml_string)\n    \n    impassable_while_walking = {'WALL', 'WATER', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE', 'BUOY', 'MART_SHELF', 'PC', 'COUNTER'}\n    impassable_while_surfing = {'WALL', 'FLOOR', 'GRASS', 'TALL_GRASS', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE'}\n\n    impassable_tiles = impassable_while_surfing if is_surfing else impassable_while_walking\n\n    # The first coordinate is the current position, skip it\n    for coord in path_plan[1:]:\n        x, y = coord['x'], coord['y']\n        tile_element = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n        \n        if tile_element is None:\n            print(json.dumps({\"is_valid\": False, \"blocker_coord\": {\"x\": x, \"y\": y}, \"reason\": \"Coordinate out of bounds\"}))\n            sys.exit(0)\n            \n        tile_type = tile_element.get('type')\n        has_object = tile_element.get('has-object') == 'true'\n\n        if tile_type in impassable_tiles or has_object:\n            reason = f\"Impassable tile type '{tile_type}'\" if tile_type in impassable_tiles else \"Object on tile\"\n            print(json.dumps({\"is_valid\": False, \"blocker_coord\": {\"x\": x, \"y\": y}, \"reason\": reason}))\n            sys.exit(0)\n\n    print(json.dumps({\"is_valid\": True, \"blocker_coord\": None, \"reason\": \"Path is clear\"}))\n\nexcept Exception as e:\n    print(json.dumps({\"is_valid\": False, \"blocker_coord\": None, \"reason\": f\"An error occurred: {str(e)}\"}))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-11T03:17:17.651Z",
-        "action_counter": 46780
-      }
-    ]
-  },
   "find_path": {
     "description": "Finds a traversable path between two points on the current map using a Breadth-First Search (BFS) algorithm. It parses the map_xml_string to avoid impassable tiles (like WALLs or WATER) and tiles with objects. If the destination is impassable, it finds a path to an adjacent traversable tile. Returns a JSON object with the path or an error.",
     "input_schema": {
@@ -719,6 +691,44 @@
         "commit_message": "fix: Overhaul ledge traversal logic for FLOOR_UP_WALL. The previous logic catastrophically failed by incorrectly grouping 'FLOOR_UP_WALL' with 'LEDGE_HOP_DOWN', assuming identical movement rules. This commit implements the `python_code_debugger` agent's robust, targeted fix, which adds a specific rule to block *any* vertical movement onto a 'FLOOR_UP_WALL' tile based on direct in-game observation. This resolves the critical pathing failure.",
         "timestamp": "2025-12-11T04:18:32.189Z",
         "action_counter": 46900
+      }
+    ]
+  },
+  "path_planner": {
+    "description": "Finds a traversable path between two points on the current map using a Breadth-First Search (BFS) algorithm. It parses the map_xml_string to avoid impassable tiles (like WALLs or WATER) and tiles with objects. If the destination is impassable, it finds a path to an adjacent traversable tile. Returns a JSON object with the path or an error.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "is_surfing": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "is_surfing"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nis_surfing = input_data['is_surfing'].lower() == 'true'\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ngrid_types = [['' for _ in range(width)] for _ in range(height)]\ngrid_objects = [[False for _ in range(width)] for _ in range(height)]\n\nimpassable_walking = {'WALL', 'WATER', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE', 'BUOY', 'MART_SHELF', 'PC', 'COUNTER'}\nimpassable_surfing = {'WALL', 'FLOOR', 'GRASS', 'TALL_GRASS', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE'}\nimpassable_tiles = impassable_surfing if is_surfing else impassable_walking\n\nfor y, row_element in enumerate(root.findall('Row')):\n    for x, tile_element in enumerate(row_element.findall('Tile')):\n        grid_types[y][x] = tile_element.get('type')\n        grid_objects[y][x] = tile_element.get('has-object') == 'true'\n\ndef get_simple_neighbors(x, y):\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        if 0 <= nx < width and 0 <= ny < height:\n            neighbors.append((nx, ny))\n    return neighbors\n\nqueue = deque([[(start_x, start_y)]])\nvisited = set([(start_x, start_y)])\n\nis_destination_impassable = (grid_types[end_y][end_x] in impassable_tiles) or grid_objects[end_y][end_x]\n\nif is_destination_impassable:\n    original_end_x, original_end_y = end_x, end_y\n    found_target = False\n    for tx, ty in get_simple_neighbors(original_end_x, original_end_y):\n        is_adj_impassable = (grid_types[ty][tx] in impassable_tiles) or grid_objects[ty][tx]\n        if not is_adj_impassable:\n            end_x, end_y = tx, ty\n            found_target = True\n            break\n    if not found_target:\n        print(json.dumps({'status': 'error', 'message': 'No traversable tile adjacent to destination'}))\n        exit()\n\npath_found = False\nwhile queue:\n    path = queue.popleft()\n    x, y = path[-1]\n\n    if x == end_x and y == end_y:\n        path_found = True\n        print(json.dumps({'status': 'success', 'path': [{'x': px, 'y': py} for px, py in path]}))\n        break\n\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n\n        if not (0 <= nx < width and 0 <= ny < height):\n            continue\n        \n        current_tile_type = grid_types[y][x]\n        neighbor_tile_type = grid_types[ny][nx]\n\n        # Prevent moving OFF a ledge in the wrong direction\n        if current_tile_type in ('LEDGE_HOP_DOWN', 'FLOOR_UP_WALL') and dy == -1:\n            continue\n        if current_tile_type == 'LEDGE_HOP_LEFT' and dx == 1:\n            continue\n        if current_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1:\n            continue\n\n        # Prevent moving ONTO a ledge from the wrong direction\n        if neighbor_tile_type == 'LEDGE_HOP_DOWN' and dy == -1:\n            continue\n        if neighbor_tile_type == 'FLOOR_UP_WALL' and (dy == -1 or dy == 1):\n            continue\n        if neighbor_tile_type == 'LEDGE_HOP_LEFT' and dx == 1:\n            continue\n        if neighbor_tile_type == 'LEDGE_HOP_RIGHT' and dx == -1:\n            continue\n\n        is_neighbor_impassable = (neighbor_tile_type in impassable_tiles) or grid_objects[ny][nx]\n\n        if (nx, ny) not in visited and not is_neighbor_impassable:\n            visited.add((nx, ny))\n            new_path = list(path)\n            new_path.append((nx, ny))\n            queue.append(new_path)\n\nif not path_found:\n    print(json.dumps({'status': 'error', 'message': 'No path found'}))",
+    "history": [
+      {
+        "commit_message": "feat: Create path_planner tool. This tool implements a robust, agent-corrected BFS algorithm to automate pathfinding, addressing a critical, long-standing issue of repeated manual and tool-based pathing failures. This replaces the need for error-prone manual planning and the previously hallucinated `find_path` tool.",
+        "timestamp": "2025-12-11T04:40:11.990Z",
+        "action_counter": 46936
       }
     ]
   }
