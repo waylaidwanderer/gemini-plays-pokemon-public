@@ -32,8 +32,8 @@
 
 ### Current Logs
 - **Location:** Battle Tower Battle Room.
-- **Status:** Challenge Round 1 vs Fisher.
-- **Phone Call:** Gina (Route 34) called.
+- **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
+- **Strategy:** Paralysis with Bahamut.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
