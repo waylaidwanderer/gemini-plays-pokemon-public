@@ -34,7 +34,7 @@
 - **Location:** Battle Tower Battle Room.
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
 - **Active:** Bahamut (Dratini).
-- **Note:** Umbreon is Paralyzed. Bahamut using Extremespeed to target lower Def.
+- **Note:** Bahamut (PSN/Infatuated) vs Umbreon (PAR/Leftovers). Vortex (PSN). Strategy: Damage rush with Extremespeed.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
