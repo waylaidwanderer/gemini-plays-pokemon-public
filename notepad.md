@@ -33,9 +33,9 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room (22_12).
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Active:** Basalt (51/51 HP). Vortex Fainted.
+- **Active:** Basalt (41/51 HP, Acc-1). Vortex Fainted.
 - **Opponent:** Umbreon (PAR, Leftovers, Acc-2).
-- **Strategy:** Basalt to attack with Strength/Rock Throw.
+- **Strategy:** Basalt to attack with Strength.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
