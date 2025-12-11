@@ -668,5 +668,43 @@
         "action_counter": 46780
       }
     ]
+  },
+  "find_path": {
+    "description": "Finds a traversable path between two points on the current map using a Breadth-First Search (BFS) algorithm. It parses the map_xml_string to avoid impassable tiles (like WALLs or WATER) and tiles with objects. If the destination is impassable, it finds a path to an adjacent traversable tile. Returns a JSON object with the path or an error.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "end_x": {
+          "type": "string"
+        },
+        "end_y": {
+          "type": "string"
+        },
+        "is_surfing": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "is_surfing"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nis_surfing = input_data['is_surfing'].lower() == 'true'\n\nroot = ET.fromstring(map_xml_string)\nwidth = int(root.get('width'))\nheight = int(root.get('height'))\n\ngrid = [[None for _ in range(width)] for _ in range(height)]\nimpassable_walking = {'WALL', 'WATER', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE', 'BUOY', 'MART_SHELF', 'PC', 'COUNTER'}\nimpassable_surfing = {'WALL', 'FLOOR', 'GRASS', 'TALL_GRASS', 'VOID', 'unseen', 'unknown', 'CUT_TREE', 'HEADBUTT_TREE'}\nimpassable_tiles = impassable_surfing if is_surfing else impassable_walking\n\nfor y, row_element in enumerate(root.findall('Row')):\n    for x, tile_element in enumerate(row_element.findall('Tile')):\n        tile_type = tile_element.get('type')\n        has_object = tile_element.get('has-object') == 'true'\n        grid[y][x] = tile_type in impassable_tiles or has_object\n\ndef get_neighbors(x, y):\n    neighbors = []\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = x + dx, y + dy\n        if 0 <= nx < width and 0 <= ny < height:\n            neighbors.append((nx, ny))\n    return neighbors\n\nqueue = deque([[(start_x, start_y)]])\nvisited = set([(start_x, start_y)])\n\nif grid[end_y][end_x]:\n    # Destination is impassable, find adjacent traversable tile\n    found_target = False\n    for tx, ty in get_neighbors(end_x, end_y):\n        if not grid[ty][tx]:\n            end_x, end_y = tx, ty\n            found_target = True\n            break\n    if not found_target:\n        print(json.dumps({'status': 'error', 'message': 'No traversable tile adjacent to destination'}))\n        exit()\n\npath_found = False\nwhile queue:\n    path = queue.popleft()\n    x, y = path[-1]\n\n    if x == end_x and y == end_y:\n        path_found = True\n        print(json.dumps({'status': 'success', 'path': [{'x': px, 'y': py} for px, py in path]}))\n        break\n\n    for nx, ny in get_neighbors(x, y):\n        if (nx, ny) not in visited and not grid[ny][nx]:\n            visited.add((nx, ny))\n            new_path = list(path)\n            new_path.append((nx, ny))\n            queue.append(new_path)\n\nif not path_found:\n    print(json.dumps({'status': 'error', 'message': 'No path found'}))\n",
+    "history": [
+      {
+        "commit_message": "feat: Create find_path tool to automate pathfinding. This tool implements a Breadth-First Search (BFS) algorithm to find a valid path between two points, parsing the mental map to avoid obstacles. This is a critical fix for my repeated manual pathing failures, which have wasted numerous turns. This tool will ensure all future navigation is efficient and error-free.",
+        "timestamp": "2025-12-11T03:47:45.020Z",
+        "action_counter": 46843
+      }
+    ]
   }
 }
