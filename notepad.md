@@ -36,10 +36,6 @@
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
 - **Status:** Janine Defeated. Soul Badge Obtained.
 
-## Route 2 (Traversed)
-- **Geography:** Diglett's Cave South (12, 7). Nugget House East (15, 15).
-- **Status:** Path to Pewter cleared (Cut Tree removed).
-
 ## Archived Logs
 - **Johto:** Champion. Rocket Disbanded.
 - **S.S. Aqua:** Rescue complete.
