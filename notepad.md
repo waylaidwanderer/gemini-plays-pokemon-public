@@ -1,27 +1,28 @@
 # Gem's Pokémon Crystal Journey
 
-## 🌍 Global Status & Quests
-- **Kanto Campaign:** Obtain 8 Badges.
-- **Copycat (Saffron):** Quest Complete. Magnet Train Pass Obtained.
-- **Rematches:** Anthony (Route 33) [Dunsparce Swarm in Dark Cave] (Radio Reset), Joey (Route 30) [Flavor: Rattata/Caterpie - No Rematch].
+## 🌍 Global Status & Goals
+- **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
+- **Current Task:** Train "Gauss" (Magnemite) to Level 20 on Route 39.
+- **Location:** Olivine City (North Exit).
+- **Party:** Gauss (Lv18), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19).
 
-# 🏆 POKÉMON CRYSTAL: POST-GAME 🏆
-**Status:** Red Defeated! The 'mysterious message' was just a tutorial.
-**Next Stop:** Ruins of Alph / Ecruteak City.
-**Current Objectives:**
-1. Train "Gauss" (Magnemite) to Level 20.
-2. Catch Chinchou (Good Rod) or Staryu (Super Rod, Night) in Olivine City/Route 40.
-3. Train team to Level 20.
-**The Champion Team:**
-- **Paprika (Typhlosion Lv75):** The MVP.
-- **Basalt (Geodude):** Support.
-- **Vortex (Pidgeotto):** Flyer.
-- **Bahamut (Dratini):** The Future.
-- **XQH & F:** HM Squad.
+## 🏆 Battle Tower Challenge (Level 20)
+- **Status:** Preparing for Rematch. Need Level 20 coverage.
+- **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
+- **Strategy:**
+  1. **Gauss (Magnemite):** Lead. Resists Normal/Ice/Flying. Key for Tauros.
+  2. **Bedrock (Larvitar):** Physical Sweeper/Tank. Watch out for Water/Grass.
+  3. **Bahamut (Dratini):** Pivot. Resistant to Fire/Water/Grass/Electric.
+- **Opponent Intel:**
+  - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
+- **Mechanics:** Party is auto-healed after every challenge.
+- **UI Note:** The "What level..." text box is NOT blocking. Do not auto-mash 'A'. Navigate carefully to L:20.
 
-**Current Objective:** Train Gauss (Magnemite) on Route 39.
-**Strategy:** Grind wild encounters.
-**Team Status:** Healthy. Gauss leading.
+## 📝 Quest & Event Log
+- **Moomoo Farm:** Quest Complete! Miltank cured. Farmer sells Moomoo Milk.
+- **Ruins of Alph:** Unown Mode unlocked. 9 Forms caught. "Strange presence" in Inner Chamber. Scientists researching.
+- **Kanto Campaign:** 8 Badges obtained. Red defeated.
+- **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Recent Logs (Archived)
 - **Route 38:** Explored. Larvitar "BEDROCK" caught.
