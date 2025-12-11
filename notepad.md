@@ -315,3 +315,7 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 
 # CRITICAL TOOL FAILURE
 - **`find_path` is UNRELIABLE:** The tool has repeatedly failed to find valid paths on this map, even after multiple bug fixes. Its logic for `FLOOR_UP_WALL` is fundamentally broken. DO NOT USE this tool for navigation until it has been completely overhauled. Rely on manual pathing.
+
+# LESSONS LEARNED
+- When pathfinding tools and manual pathing both fail in a seemingly simple, enclosed area, it's a sign of a puzzle, not a pathing error. The goal should shift from 'how do I navigate out?' to 'how do I change the map state?'.
+- Always test the most obvious, simple solution first before moving to more complex or obscure hypotheses. Obvious interactable objects (like a single boulder in a room) should be the first priority.
