@@ -322,3 +322,4 @@
 
 # Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH, SURF). This would prevent manual menuing errors.
+- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
