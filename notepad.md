@@ -349,3 +349,6 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 
 ## Slowpoke Well B1F Boulder Puzzle
 - **Solution:** A hidden switch is located under the initial boulder at (3, 2). After pushing the boulder off its starting position, stand on (3, 2) and press 'A' to activate the switch. This enables other boulders in the well to be moved. Pushing the first boulder traps the player, forcing this discovery.
+
+# LESSONS LEARNED
+- **Abandon Unreliable Tools:** If a custom tool repeatedly fails even after multiple agent-led bug fixes, the tool's core logic is likely flawed. Instead of getting stuck in an endless debug cycle, it is more efficient to abandon the tool and switch to a reliable manual process to maintain progress.
