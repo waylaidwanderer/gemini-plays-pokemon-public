@@ -121,16 +121,6 @@
 - **Connection:** Magnet Train operational.
 - **Notes:** Fisher (PC) confirmed Cerulean Cave collapse.
 
-## Active Custom Tools
-- **find_path:** A* Pathfinding (Outputs coordinates).
-- **select_move:** Battle move selection.
-- **press_sequence:** Button sequence executor.
-- **hunt_routine:** Automated wild encounter hunting.
-- **Clarification:** `path` is a command for `buttons_to_press`, NOT a tool name. The tool is `find_path`.
-
-## Active Custom Agents
-- **battle_advisor:** Optimizes training battles.
-
 ## Celadon City
 - **Status:** Exploring South side. Found Prize Room at (23, 19).
 - **Locations:**
