@@ -20,6 +20,8 @@
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
 - **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. I must ensure my tools account for all relevant mechanics (like walk/surf transitions, one-way ledges, etc.) to be reliable. Trusting a tool with a flawed world model leads to critical strategic errors.
 - **Robust Tool Design:** Tools must be designed to handle all UI states, not just the simplest ones. The `select_item` tool's fix, while necessary, caused a regression by removing its ability to prevent infinite scrolling. Future tools must be built with edge cases like this in mind from the start.
+- **Pathing Verification:** My pathfinding failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
+- **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
@@ -74,7 +76,7 @@
 - **HEADBUTT Mechanic:** Can be used outside of battle on `HEADBUTT_TREE` tiles to encounter sleeping Pokémon.
 - **Evolution Methods:** Some Pokémon (MACHOKE, KADABRA, HAUNTER, GRAVELer) evolve when traded.
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
-- **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. It has been observed that some trainers, like Sailor Huey, can be battled again even without a new call, suggesting some rematches may be repeatable. My previous assumption that trainers could only be fought once was incorrect.
+- **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. It has been observed that some trainers, like Sailor Huey and Hiker Anthony, can be battled again even without a new call, suggesting some rematches may be repeatable. My previous assumption that trainers could only be fought once was incorrect.
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
 - **SURF Mechanic:** To use SURF, the player must be standing on a valid tile (e.g., FLOOR) adjacent to water. The game will automatically turn the character to face the water when the move is used.
@@ -85,7 +87,7 @@
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 - **STRENGTH HM Mechanic:** Using STRENGTH is a two-step process. First, the move must be selected from the Pokémon's menu while standing adjacent to a boulder to 'activate' the ability. Second, the player must then walk into the boulder to push it. Simply walking into it without prior activation does nothing.
 
-## Tile & Object Mechanics
+# TILE & OBJECT MECHANICS (CONSOLIDATED)
 - **BOOKSHELF**: An impassable object.
 - **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
@@ -303,18 +305,9 @@
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on saving the POKéMON at the LIGHTHOUSE, even though I haven't done it yet. This is a strange inconsistency.
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
 
-# Tool Ideas
-- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, FLASH). Would need to handle multi-screen menu navigation, possibly with a state machine or by being broken into smaller, single-screen tools. This would prevent the 'mixed input' errors from manual menuing.
-- When a tool generates a physically impossible action (like walking on water), its core logic is fundamentally flawed and must be fixed immediately. Trusting a broken tool leads to wasted turns and critical failures.
-- **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
-- When stuck in a puzzle loop, the root cause is often a missed story event or key NPC interaction, not a hidden switch or obscure passage. Prioritize re-checking key NPCs before assuming complex puzzle mechanics. My failure to talk to Kurt in the Slowpoke Well led to a long, fruitless search.
-
 ## Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
 - Tool maintenance, even mid-battle, is a higher priority than any gameplay action. A broken tool leads to failed strategies.
 - When navigation seems impossible, my own perception of the map is likely flawed. I must re-examine every tile for overlooked interactions (like landing from SURF) and use the `puzzle_solver` agent to challenge my root assumptions.
-- **Pathing Verification:** My pathfinding failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
 - **Catastrophic Positional Hallucination:** A critical failure to adhere to the verification protocol resulted in hallucinating my position, leading to multiple turns of failed pathing. I MUST verify my `current_position` from the Game State Information before every single navigational plan. No exceptions.
-
-## LESSONS LEARNED
 - **Warp Verification Protocol:** A critical hallucination occurred where I assumed a map transition was a formal 'warp' tile without verifying it in the `Game State Information -> Map Events -> Warps` list. I MUST check this list before setting a navigation goal to a warp to prevent pathing to non-existent points.
