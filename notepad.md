@@ -33,8 +33,8 @@
 ### Current Logs
 - **Location:** Battle Tower Lobby (22_11).
 - **Status:** Team Management.
-- **Problem:** Gauss (Magnemite) is Lv 21, exceeding the Lv 20 cap.
-- **Immediate Goal:** Deposit Gauss. Plan to catch a new Magnemite (< Lv 20) on Route 39.
+- **Lesson:** Battle Tower Level 20 Room has a STRICT cap. Party members > Lv20 are ineligible.
+- **Action:** Deposited Gauss. Catching replacement (< Lv20) on Route 39.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
