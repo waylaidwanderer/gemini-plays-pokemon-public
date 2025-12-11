@@ -33,8 +33,8 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room.
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Active:** Vortex (Pidgeotto).
-- **Note:** Umbreon used Toxic (Vortex Badly Poisoned). Umbreon is faster. Strategy: Spam Mud-Slap to lower accuracy.
+- **Active:** Bahamut (Dratini).
+- **Note:** Umbreon is Paralyzed. Bahamut using Extremespeed to target lower Def.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
