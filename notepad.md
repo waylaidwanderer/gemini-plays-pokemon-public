@@ -161,8 +161,6 @@
 - **press_sequence:** Button sequence executor.
 - **hunt_routine:** Automated wild encounter hunting.
 
-- **select_battle_option:** Battle menu selector.
-
 ## Active Custom Agents
 - **battle_assistant:** Battle tactician for Level 20 Tower. (Usage: Analyze matchups & team comp).
 
