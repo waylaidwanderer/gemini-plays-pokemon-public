@@ -356,8 +356,7 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Paradoxical Directives:** Encountered a conflict where the overwatch critique demanded I fix a specific flawed lesson, but the `notepad_edit` tool repeatedly reported the text was not found. Per my 'Trust Tool Outputs Over Critiques' protocol, I must conclude the tool's feedback is the source of truth and the critique was hallucinating. I will no longer attempt to fix the non-existent note.
 - Youngster Joey on Route 30 called for a rematch.
 
-# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
-
+# STRATEGIC INSIGHTS & LESSONS LEARNED
 - **Trust Tool Outputs as Data:** A tool's output, especially an error like 'No path found' from a pathfinder, is not a bug but a critical piece of information about the game state. Misinterpreting this data as a tool failure leads to wasted turns. A pathfinding failure in an enclosed area is a strong indicator of an unsolved puzzle, not a faulty tool.
 - **Correct Escalation Path:** When a pathfinding tool reports no path in a small area, the correct escalation is to the `puzzle_solver` agent to challenge the assumption that a path should exist, not to the `python_code_debugger` to fix a non-existent bug.
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy.
@@ -367,3 +366,10 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists, I must follow it exactly instead of attempting unverified shortcuts.
 - **Tool Logic Must Perfectly Mirror Mechanics:** A tool will catastrophically fail if its internal model of the game is inaccurate. All tool logic must be based on rigorously verified in-game observations.
 - **Paradoxical Directives:** If a critique demands I fix text but the `notepad_edit` tool reports the text is not found, I must trust the tool's output as the source of truth and conclude the critique was based on a hallucination.
+- **Verify Object Existence:** A recurring failure is hallucinating NPCs and attempting to interact with them. I MUST verify an object's existence and coordinates in the `Map Objects On Screen` list before pressing 'A'.
+- **Exhaust All Angles:** When confronted with a physical puzzle (like a boulder), do not fixate on a single approach. If one side is blocked, methodically check for paths to access the puzzle from all other possible directions before concluding it's unsolvable from the current map state.
+- **`find_path` Limitation:** The tool cannot generate a path that requires a state change (e.g., walking to surfing). It will fail because such transitions are illegal without a manual HM activation. Paths requiring HMs must be executed in segments: 1) Path to the HM usage point. 2) Manually use the HM. 3) Path from the new position to the destination.
+- **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
+- **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
+- **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
+- **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
