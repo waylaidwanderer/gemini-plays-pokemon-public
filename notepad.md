@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Train on Route 39 (Gauss Lv20, Vortex Lv19, Bahamut Lv17).
+- **Current Task:** Train Vortex, Bahamut, and Lucre on Route 39.
 - **Location:** Route 39.
-- **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17).
+- **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17), Lucre (Lv16).
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Failed (Lost to Kimono Girl Arita). Preparing to Train.
