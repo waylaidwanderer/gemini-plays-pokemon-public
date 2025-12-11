@@ -312,3 +312,6 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 # PLANS
 - **Slowpoke Well Strategy Pivot:** After exhausting all hypotheses (hidden switches, boulder puzzle, B2F exploration), the current area seems unsolvable. The root assumption that a solution is immediately available is likely a false constraint. The new plan is to backtrack to Azalea Town and speak with Kurt again, as he is the quest-giver and may provide the trigger needed to progress.
 - **Verify Object Existence:** A recurring failure is hallucinating NPCs and attempting to interact with them. I MUST verify an object's existence and coordinates in the `Map Objects On Screen` list before pressing 'A'.
+
+# CRITICAL TOOL FAILURE
+- **`find_path` is UNRELIABLE:** The tool has repeatedly failed to find valid paths on this map, even after multiple bug fixes. Its logic for `FLOOR_UP_WALL` is fundamentally broken. DO NOT USE this tool for navigation until it has been completely overhauled. Rely on manual pathing.
