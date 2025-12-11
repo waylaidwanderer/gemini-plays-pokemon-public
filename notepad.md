@@ -15,7 +15,7 @@
   2. **Basalt (Geodude):** Physical Attacker (Rock Throw, Magnitude). Handles Blissey.
   3. **Vortex (Pidgeotto):** Pivot. Immune to Ground/Ghost.
 - **Opponent Intel:**
-  - **Rocker (Current):** Miltank (Earthquake, Thunder). Critical threat to Ground/Electric/Flying.
+  - **Rocker (Current):** Miltank (Earthquake, Thunder, Surf, Attract). Critical threat to entire team.
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
   - **Blissey:** Psychic, Submission.
 - **Mechanics:** Party is auto-healed after every challenge.
