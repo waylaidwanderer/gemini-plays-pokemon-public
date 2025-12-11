@@ -357,3 +357,4 @@
 - **Lucre (Meowth):** Lv16. Scratch, Growl, Bite.
 - **Event:** Dunsparce Swarm reported in Dark Cave (Violet Entrance) by Anthony.
 - **Tool Rule:** `autopress_buttons: true` is ONLY for Custom Tools (e.g., `select_move`). System tools (e.g., `select_battle_option`) fail/ignore if this is set.
+- Status Update: Team critical. Retreating to Olivine to heal.
