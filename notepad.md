@@ -340,14 +340,14 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
   - **Challenge:** Requires robust screen text parsing for both the party list and the individual Pokémon's move list, which can be complex and error-prone. Will require significant testing.
 
 ## Slowpoke Well B1F Boulder Puzzle
-- **Solution:** A hidden switch is located under the initial boulder at (3, 2). After pushing the boulder off its starting position, stand on (3, 2) and press 'A' to activate the switch. This enables other boulders in the well to be moved. Pushing the first boulder traps the player, forcing this discovery.
+- **Solution:** A hidden switch is located under the initial boulder at its starting position. After pushing the boulder off its starting tile, the switch is revealed. To activate it, stand on the tile *below* the switch's location, face up, and press 'A'. Interacting with the switch tile directly or with the boulder after it has been moved does not work. This specific interaction method (stand below, face up, press A) appears to be a general rule for some hidden switches and objects.
 
 # LESSONS LEARNED
 - A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool. The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
 - Immediately escalate paradoxical tool failures (e.g., 'No path found' on a visually clear path) to the `python_code_debugger` agent. Do not waste turns re-running a broken tool.
 
 ## Slowpoke Well B1F Boulder Puzzle
-- **Solution:** A hidden switch is located under the initial boulder at (3, 2). After pushing the boulder off its starting position, stand on (3, 2) and press 'A' to activate the switch. This enables other boulders in the well to be moved. Pushing the first boulder traps the player, forcing this discovery.
+- **Solution:** A hidden switch is located under the initial boulder at its starting position. After pushing the boulder off its starting tile, the switch is revealed. To activate it, stand on the tile *below* the switch's location, face up, and press 'A'. Interacting with the switch tile directly or with the boulder after it has been moved does not work. This specific interaction method (stand below, face up, press A) appears to be a general rule for some hidden switches and objects.
 
 # LESSONS LEARNED
 - A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool. The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
