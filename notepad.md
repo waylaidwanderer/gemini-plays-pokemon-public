@@ -362,3 +362,4 @@
 - Status Update: Team critical. Retreating to Olivine to heal.
 - **Note:** Umbreon holds Leftovers.
 - **Battle Update:** Vortex Badly Poisoned by Umbreon. Switching to Bahamut to reset Toxic counter and attempt Thunder Wave.
+- **Battle Update:** Umbreon used Attract (Failed). Bahamut paralyzed Umbreon with Thunder Wave. Umbreon moves known: Toxic, Protect, Attract.
