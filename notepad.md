@@ -268,9 +268,6 @@
   - Dark is Special in Gen 2.
   - Team needs to be closer to Level 20 cap.
 
-# Battle Tower Challenge
-- **Rule:** Item Clause Enforced (No duplicate items).
-- **Strategy:** Vortex (Berry), Bedrock (Quick Claw), Bahamut (Dragon Fang).
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
 - **Kabuto Chamber Secret:** Solved! Escape Rope opened secret passage to Item Room. 
