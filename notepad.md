@@ -34,7 +34,7 @@
 - **Location:** Battle Tower Battle Room (22_12).
 - **Status:** DEFEAT vs Fisher Hanson (Umbreon Lv20).
 - **Analysis:** Umbreon's bulk + Toxic + Leftovers is a hard counter to my current team. Need Fighting/Bug coverage.
-- **Next:** Regroup in Lobby.
+- **Strategy Update:** Withdrawing GAUSS (Magnemite) from PC. Steel type grants immunity to Toxic and resistance to Dark/Normal. Sonicboom (20 fixed dmg) is a reliable 3HKO on Lv20 Pokemon (~50-60 HP). Replacing Basalt.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
