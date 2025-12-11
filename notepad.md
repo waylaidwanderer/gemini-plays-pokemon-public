@@ -33,7 +33,7 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room (22_12).
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Active:** Basalt (32/51 HP, Acc-1, PSN). Vortex Fainted.
+- **Active:** Basalt (23/51 HP, Acc-1, PSN). Vortex Fainted.
 - **Opponent:** Umbreon (PAR, Leftovers, Acc-2, Damaged).
 - **Strategy:** Basalt attacking with Strength. Umbreon used Toxic.
 
