@@ -287,6 +287,7 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
+- `path` (used in `buttons_to_press` to follow `path_plan`)
 
 ### Custom Tools
 - `select_item`
