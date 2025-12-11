@@ -314,10 +314,9 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 
 # LESSONS LEARNED
 - A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool. The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
-
-# LESSONS LEARNED
 - When pathfinding tools and manual pathing both fail in a seemingly simple, enclosed area, it's a sign of a puzzle, not a pathing error. The goal should shift from 'how do I navigate out?' to 'how do I change the map state?'.
 - Always test the most obvious, simple solution first before moving to more complex or obscure hypotheses. Obvious interactable objects (like a single boulder in a room) should be the first priority.
+- When multiple logical puzzle-solving hypotheses (e.g., hidden switches, pressure plates) fail, re-evaluate the environment for a more obvious, non-puzzle solution that may have been overlooked, such as using an HM move like SURF to bypass the obstacle entirely.
 
 # CONTINGENCY PLAN
 - **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
