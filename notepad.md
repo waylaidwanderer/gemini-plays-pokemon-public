@@ -2,16 +2,16 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Defeat Fisher Hanson.
-- **Location:** Battle Tower Battle Room.
-- **Party:** Bahamut (Lv19), Vortex (Lv19), Basalt (Lv19).
-- **Recent Event:** Phone call from Picnicker Gina.
+- **Current Task:** Catch Magnemite (< Lv 20) on Route 39.
+- **Location:** Route 40.
+- **Party:** Bahamut (Lv19), Vortex (Lv19).
+- **Recent Event:** Deposited Gauss (Lv21).
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 2. Ready (Auto-healed).
+- **Status:** Preparing for Attempt 3.
 - **Intel:** Heracross (Lv20) is DANGEROUS. Moves: Megahorn, Earthquake. Strategy: TWave immediately to cripple speed.
-- **Party:** Bahamut (Lv19), Vortex (Lv19), Basalt (Lv19).
+- **Party:** Bahamut (Lv19), Vortex (Lv19), [Empty Slot].
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Basalt.
