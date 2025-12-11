@@ -263,6 +263,7 @@
 - **`systematic_area_checker` tool:** A tool that, when in a confined area, generates a path to visit every single reachable tile and presses 'A' on each to search for hidden items or switches. This would automate tedious brute-force searches.
 
 # LESSONS LEARNED (CONSOLIDATED)
+- **`find_path_bfs` Limitation:** The tool cannot generate a path that requires a state change (e.g., walking to surfing). It will fail because such transitions are illegal without a manual HM activation. Paths requiring HMs must be executed in segments: 1) Path to the HM usage point. 2) Manually use the HM. 3) Path from the new position to the destination.
 - **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
@@ -291,15 +292,8 @@
 - **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
 - **Challenge False Constraints:** My belief that I was trapped in the Slowpoke Well was a false constraint born from repeated navigation failures. When a situation seems impossible (like being soft-locked), the root hypothesis is flawed. I must trust my tools when they report a path is blocked and aggressively re-evaluate the puzzle's premise instead of brute-forcing a solution based on a wrong assumption.
-- **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
-- **`find_path_bfs` Limitation:** The tool cannot generate a single path that requires a state change (e.g., walking to surfing). It will create an invalid path that tries to walk on water. Paths requiring HMs must be manually executed in segments: 1) Path to the HM usage point. 2) Use the HM. 3) Path from the new position to the destination.
 
 ## Slowpoke Well B2F Puzzle
-- **Hypothesis 1 (Failed):** A hidden switch exists on the central island. **Test:** Systematically pressed 'A' on every tile of the island. **Conclusion:** No switch was found. This hypothesis is disproven.
-- **`find_path_bfs` Limitation:** The tool cannot generate a single path that requires a state change (e.g., walking to surfing). It will create an invalid path that tries to walk on water. Paths requiring HMs must be manually executed in segments: 1) Path to the HM usage point. 2) Use the HM. 3) Path from the new position to the destination.
-## Slowpoke Well B2F Puzzle
 - **Hypothesis 1 (Failed):** A hidden pressure plate exists on the island floor. **Test:** Systematically walked over every single floor tile. **Conclusion:** No trigger activated. This hypothesis is disproven.
-## LESSONS LEARNED
-- **`find_path_bfs` Limitation:** The tool cannot generate a single path that requires a state change (e.g., walking to surfing). It will create an invalid path that tries to walk on water. Paths requiring HMs must be manually executed in segments: 1) Path to the HM usage point. 2) Use the HM. 3) Path from the new position to the destination.
 - **Hypothesis 2 (Failed):** A hidden switch exists on an adjacent wall. **Test:** Systematically pressed 'A' on every wall segment accessible from the island. **Conclusion:** No switch was found. This hypothesis is disproven.
 - **Hypothesis 3 (Failed):** Stepping on a specific floor tile changes the state of the Gym Guide. **Test:** Walked over every tile, then re-interacted with the guide. **Conclusion:** The guide's dialogue was unchanged. This hypothesis is disproven.
