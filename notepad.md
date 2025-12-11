@@ -33,7 +33,7 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room (22_12).
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Active:** Vortex (27/59 HP, PSN).
+- **Active:** Vortex (13/59 HP, PSN, Critical). Umbreon (PAR, Acc-1).
 - **Opponent:** Umbreon (PAR, Leftovers).
 - **Strategy:** Using Mud-Slap to lower accuracy. Vortex is active.
 
