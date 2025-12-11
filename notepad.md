@@ -170,17 +170,15 @@
 **Goal:** Defeat opponents in the L:20 Class.
 
 ### Current Team
-1. **Vortex (Pidgeotto) Lv19:** Flying/Normal. Lead.
-2. **Bahamut (Dratini) Lv16:** Dragon. Pivot (Resists Water/Electric/Grass/Fire). Thunder Wave support.
-3. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
+1. **Gauss (Magnemite) Lv16:** Electric/Steel. Lead.
+2. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
+3. **Bahamut (Dratini) Lv17:** Dragon. Pivot.
 
-**Strategy:** Bahamut covers the team's Water/Electric weakness. Use Thunder Wave to cripple faster threats.
-**Status:** Defeated by Lass Thornton (Tauros).
+**Strategy:** Gauss resists Normal/Ice (Tauros). Bedrock cleans up.
+**Status:** Preparing for rematch.
 **Opponent Intel:**
-- **Lass Thornton's Tauros:** Blizzard (Ice), Hyper Beam. Outsped entire team.
-- **Critical Weakness:** Entire team (Ground, Flying, Dragon) is weak to Ice.
-- **Mechanic:** Hyper Beam requires recharge even on KO.
-**Next Steps:** Catch **Magnemite** (Route 38/39). Train to Lv20. Steel resists Tauros's entire kit.
+- **Lass Thornton's Tauros:** Blizzard (Ice), Hyper Beam.
+**Next Steps:** Train Gauss to Lv20.
 
 ## Power Plant
 - Trade: Gym Guide (5, 5) wants Dugtrio for Magneton.
