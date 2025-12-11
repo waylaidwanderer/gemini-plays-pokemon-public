@@ -245,7 +245,7 @@
 
 ## Route 39 & 40 (Olivine Area)
 - **Route 39:** Psychic Norman (13, 7) Defeated. Moomoo Farm visited.
-- **Wild Intel:** Magnemites here can FLEE (approx 10% chance). Catch quickly.
+- **Wild Intel:** Magnemites here can FLEE (approx 10% chance). Catch quickly. Moves: Supersonic, Sonicboom.
 - **Route 40:** Battle Tower Entrance at (9, 5).
 - **Battle Tower Menu:** The 'What level do you want to challenge?' text box is NOT blocking. Do NOT press 'A' to advance it, or you will accidentally select the first option (L:10). Wait for the menu to load, then scroll.
 - **Battle Tower Menu:** Navigating the level selection is tricky. It seems 'Down' from the start might select 'CANCEL'. Need to verify if L:20 is available or unlocked.
