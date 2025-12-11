@@ -315,3 +315,6 @@
 - When navigation seems impossible, my own perception of the map is likely flawed. I must re-examine every tile for overlooked interactions (like landing from SURF) and use the `puzzle_solver` agent to challenge my root assumptions.
 - **Pathing Verification:** My pathfinding failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
 - **Catastrophic Positional Hallucination:** A critical failure to adhere to the verification protocol resulted in hallucinating my position, leading to multiple turns of failed pathing. I MUST verify my `current_position` from the Game State Information before every single navigational plan. No exceptions.
+
+## LESSONS LEARNED
+- **Warp Verification Protocol:** A critical hallucination occurred where I assumed a map transition was a formal 'warp' tile without verifying it in the `Game State Information -> Map Events -> Warps` list. I MUST check this list before setting a navigation goal to a warp to prevent pathing to non-existent points.
