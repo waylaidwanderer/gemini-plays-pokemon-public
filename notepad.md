@@ -353,16 +353,6 @@
 - **Capture Sequence:** In this version, the Nickname prompt appears **BEFORE** the 'Sent to Bill's PC' message, even if the party is full. Do not assume auto-transfer skips the nickname.
 - Capture Mechanic: Nickname prompt occurs BEFORE transfer to PC, regardless of party size.
 
-## Silver Cave Room 2
-- **Entrance:** (17, 31). Connects to Room 1 (15, 1).
-- **Geography:** Southern area has multiple rows of WARP_CARPET_DOWN tiles. Walls at Row 27 with gaps at x=19 and x=22.
-## Silver Cave Room 3
-- **Entrance:** (9, 33). Connects to Room 2 (11, 5).
-- **Geography:** Large open area. Path leads North.
-- **Silver Cave Room 2:** Cleared. Navigated eastern path to obtain Ultra Ball. Exited via North warp.
-- **Silver Cave Room 3:** Reached the summit. Red located at (9, 10).
-- **Menu Reliability:** Menus have persistent cursor memory and wrapping. Always visually verify cursor position or use 'force_press_button' with delays. Do not rely on blind input sequences.
-
 # Post-Game Exploration
 **Status:** Red Defeated. Credits rolled. Resuming at Mt. Silver.
 **Current Objective:** Battle Tower Challenge (Level 20).
