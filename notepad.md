@@ -12,8 +12,7 @@
 - **Strategy:**
   1. **Gauss (Magnemite):** Lead. Resists Normal/Ice/Flying. Key for Tauros.
   2. **Bedrock (Larvitar):** Physical Sweeper/Tank. Watch out for Water/Grass.
-  3. **Bahamut (Dratini):** Pivot. Resistant to Fire/Water/Grass/Electric.
-  4. **Rumpus (Tauros):** Backup Physical Attacker.
+  3. **Vortex (Pidgeotto):** Pivot. Immunity to Ground. Resists Fighting/Bug/Grass.
 - **Opponent Intel:**
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
 - **Mechanics:** Party is auto-healed after every challenge.
