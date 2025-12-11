@@ -7,6 +7,7 @@
 - **Party:** Gauss (Lv20), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19), Rumpus (Lv15).
 
 ## 🏆 Battle Tower Challenge (Level 20)
+- **Current Battle:** vs Blissey (Psychic, Submission). Strategy: Screech with Bedrock, then sweep with Vortex.
 - **Status:** In Battle vs Blissey (Psychic, Submission). Strategy: Screech then Vortex.
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Strategy:**
