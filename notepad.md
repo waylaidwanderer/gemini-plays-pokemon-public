@@ -56,7 +56,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
-- **FLOOR_UP_WALL**: A one-way traversable tile. It is impassable when moving up into it (from below), but can be jumped down onto from above.
+- **FLOOR_UP_WALL**: A misleadingly named tile. Verified that movement *up* onto this tile from a `FLOOR` or `LADDER` tile below is possible. The previous assumption that it was a one-way ledge was incorrect. Its behavior when moving down onto it is still unverified.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
