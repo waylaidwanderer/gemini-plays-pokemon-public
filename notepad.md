@@ -31,7 +31,7 @@
 
 ### Current Logs
 - **Route 39:** Caught Meowth (Lucre).
-- **Status:** Retreating to Olivine City Pokémon Center to heal. Team Critical.
+- **Status:** Inside Olivine City Pokémon Center. Healing team.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
