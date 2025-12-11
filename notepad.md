@@ -11,6 +11,7 @@
 - **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
+- **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Strategy:** Train Bahamut and Vortex to Lv20 on Route 39/38.
 - **Opponent Intel (Pool):**
   - **Kimono Girl Arita:** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
