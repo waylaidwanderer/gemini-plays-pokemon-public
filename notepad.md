@@ -292,7 +292,7 @@
 ## Battle Tower Rules
 - **Item Clause Check:**
   - Gauss: No Item (Confirmed).
-  - Vortex: Checking...
+  - Vortex: No Item (Berry Removed).
   - Bahamut: Checking...
 - **Auto-Heal:** Team is automatically healed after a challenge (win or loss).
 - Picked up MINT BERRY from Route 39 tree. (Likely not the cure for Miltank).
