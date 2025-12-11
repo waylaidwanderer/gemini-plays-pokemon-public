@@ -290,3 +290,4 @@
 - **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
 - **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
+- **Challenge False Constraints:** My belief that I was trapped in the Slowpoke Well was a false constraint born from repeated navigation failures. When a situation seems impossible (like being soft-locked), the root hypothesis is flawed. I must trust my tools when they report a path is blocked and aggressively re-evaluate the puzzle's premise instead of brute-forcing a solution based on a wrong assumption.
