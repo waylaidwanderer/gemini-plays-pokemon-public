@@ -7,7 +7,7 @@
 - **Party:** Gauss (Lv20), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19), Rumpus (Lv15).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Rematch. Need Level 20 coverage.
+- **Status:** In Battle vs Blissey (Psychic, Submission). Strategy: Screech then Vortex.
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Strategy:**
   1. **Gauss (Magnemite):** Lead. Resists Normal/Ice/Flying. Key for Tauros.
