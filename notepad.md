@@ -32,7 +32,7 @@
 ### Current Logs
 - **Route 39:** Caught Meowth (Lucre).
 - **Status:** Team Healed. Heading north to Route 39 to train.
-- **Reflection:** Validated `path_plan` execution. Transition to Olivine confirmed at (10, 35).
+- **Status:** Training on Route 39. Target: Level 20 for Bahamut & Lucre.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
