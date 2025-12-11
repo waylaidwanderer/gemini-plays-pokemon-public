@@ -127,7 +127,7 @@
 - **hunt_routine:** Automated wild encounter hunting.
 
 ## Active Custom Agents
-- **battle_assistant:** Battle tactician for Level 20 Tower. (Usage: Analyze matchups & team comp).
+- (None)
 
 ## Battle Tower Challenge (Level 20)
 **Goal:** Defeat opponents in the L:20 Class.
