@@ -13,7 +13,6 @@
 - **Party:** Bahamut (Lv19), Vortex (Lv19), Basalt (Lv19).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
-- **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Basalt.
 - **Opponent Intel (Pool):**
   - **Kimono Girl Arita:** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
