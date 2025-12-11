@@ -32,10 +32,9 @@
 
 ### Current Logs
 - **Location:** Battle Tower Battle Room (22_12).
-- **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Active:** Bahamut (~5/48 HP, PSN). Vortex & Basalt Fainted. Umbreon Fully Paralyzed!
-- **Opponent:** Umbreon (PAR, Leftovers, Acc-2, Damaged).
-- **Strategy:** Basalt attacking with Strength. Umbreon used Toxic.
+- **Status:** DEFEAT vs Fisher Hanson (Umbreon Lv20).
+- **Analysis:** Umbreon's bulk + Toxic + Leftovers is a hard counter to my current team. Need Fighting/Bug coverage.
+- **Next:** Regroup in Lobby.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
