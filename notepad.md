@@ -415,18 +415,6 @@
   - Need balanced coverage; Rock/Ground heavy is risky.
   - Dark is Special in Gen 2.
   - Team needs to be closer to Level 20 cap.
-### PC Box 1 Inventory
-- M (Caterpie) Lv15
-- WEAVER (Spinarak) Lv14
-- CHRONO (Hoothoot) Lv16
-- GIB RALTAR (Graveler) Lv37
-- SHUCKIE (Shuckle) Lv15
-- XQH (Sandshrew) Lv12
-- F (Psyduck) Lv??
-- Paprika (Typhlosion) Lv75
-- SIGIL (Unown)
-- CIPE (Unown)
-- RUNE (Unown)
 
 # Battle Tower Challenge
 - **Rule:** Item Clause Enforced (No duplicate items).
