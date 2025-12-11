@@ -22,7 +22,7 @@
 - **Mechanics:** Party is CONFIRMED auto-healed after every challenge.
 
 ## 📝 Quest & Event Log
- Farmer sells Moomoo Milk.
+
 - **Ruins of Alph:** Unown Mode unlocked. 9 Forms caught. "Strange presence" in Inner Chamber. Scientists researching.
 - **Kanto Campaign:** 8 Badges obtained. Red defeated.
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
