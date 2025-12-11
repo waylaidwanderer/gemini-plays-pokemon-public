@@ -171,6 +171,7 @@
 1. **Gauss (Magnemite) Lv16:** Electric/Steel. Lead.
 2. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
 3. **Bahamut (Dratini) Lv17:** Dragon. Pivot.
+4. **Vortex (Pidgeotto) Lv19:** Flyer.
 
 **Strategy:** Gauss resists Normal/Ice (Tauros). Bedrock cleans up.
 **Status:** Preparing for rematch.
