@@ -293,6 +293,8 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
+- `find_reachable_unseen_tiles`
+- `verify_path`
 
 ### Custom Agents
 - `python_code_debugger`
