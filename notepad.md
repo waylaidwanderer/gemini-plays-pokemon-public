@@ -4,7 +4,7 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Head to Battle Tower for Level 20 Challenge.
 - **Location:** Route 39.
-- **Party:** Gauss (Lv20), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19), Rumpus (Lv15).
+- **Party:** Gauss (Lv20), Vortex (Lv19), Basalt (Lv19).
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Current Battle:** vs Blissey (Psychic, Submission).
