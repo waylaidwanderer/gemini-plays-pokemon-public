@@ -322,3 +322,20 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 
 # CONTINGENCY PLAN
 - **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
+
+# LESSONS LEARNED
+- **Exhaust All Angles:** When confronted with a physical puzzle (like a boulder), do not fixate on a single approach. If one side is blocked, methodically check for paths to access the puzzle from all other possible directions before concluding it's unsolvable from the current map state.
+
+## Tool Ideas
+- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH).
+  - **Inputs:** `pokemon_name` (string), `move_name` (string), `current_screen_text` (string).
+  - **Logic:**
+    1. Press Start to open the main menu.
+    2. Select 'POKéMON'.
+    3. Parse the Pokémon list from the screen text.
+    4. Navigate to the target Pokémon.
+    5. Press 'A' to open its action menu.
+    6. Parse the move list.
+    7. Select the target HM move.
+    8. Press 'A' to use it.
+  - **Challenge:** Requires robust screen text parsing for both the party list and the individual Pokémon's move list, which can be complex and error-prone. Will require significant testing.
