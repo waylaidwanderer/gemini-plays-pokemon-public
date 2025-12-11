@@ -252,6 +252,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
+- `find_path_bfs`
 
 ### Custom Agents
 - `python_code_debugger`
