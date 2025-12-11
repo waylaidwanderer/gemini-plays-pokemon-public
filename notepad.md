@@ -14,7 +14,7 @@
 - **Party:** Bahamut (Lv19), Vortex (Lv19), [Empty Slot].
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
-- **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Magnemite (once caught).
+- **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Flux (Magnemite).
 - **Opponent Intel (Pool):**
   - **Kimono Girl Arita:** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
   - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
