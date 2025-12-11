@@ -129,20 +129,6 @@
 ## Active Custom Agents
 - (None)
 
-## Battle Tower Challenge (Level 20)
-**Goal:** Defeat opponents in the L:20 Class.
-
-### Current Team
-1. **Gauss (Magnemite) Lv20:** Electric/Steel. Lead.
-2. **Bedrock (Larvitar) Lv20:** Rock/Ground. Sweeper.
-3. **Vortex (Pidgeotto) Lv19:** Pivot. Immunity to Ground.
-
-**Strategy:** Gauss resists Normal/Ice (Tauros). Bedrock cleans up.
-**Status:** Preparing for rematch.
-**Opponent Intel:**
-- **Lass Thornton's Tauros:** Blizzard (Ice), Hyper Beam.
-**Next Steps:** Train Gauss to Lv20.
-
 ## Celadon City
 - **Status:** Exploring South side. Found Prize Room at (23, 19).
 - **Locations:**
