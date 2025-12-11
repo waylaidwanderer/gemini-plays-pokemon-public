@@ -125,9 +125,10 @@
 - **select_move:** Battle move selection.
 - **press_sequence:** Button sequence executor.
 - **hunt_routine:** Automated wild encounter hunting.
+- **Note:** `["path"]` in `buttons_to_press` executes the calculated plan. It is not a tool.
 
 ## Active Custom Agents
-- (None)
+- **battle_advisor:** Optimizes training battles.
 
 ## Celadon City
 - **Status:** Exploring South side. Found Prize Room at (23, 19).
