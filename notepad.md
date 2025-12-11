@@ -1,26 +1,22 @@
 # LESSONS LEARNED
-- **Immediate Tool Maintenance:** Tool maintenance is the highest priority and must be performed immediately upon discovering a bug. Deferring a fix leads to flawed strategies based on unreliable data and is a critical failure.
+- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
-- **Tool Logic Must Mirror Game Mechanics:** Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types or UI structures). All tools must be designed with a perfect understanding of the game mechanics they interact with.
-- **Simplify, Don't Over-Engineer:** When a complex tool repeatedly fails, replace it with a simpler, more robust version that accomplishes a smaller part of the task reliably.
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
 - **Anti-Hallucination Protocol is Non-Negotiable:** My recent catastrophic pathing failures were caused by a complete failure to adhere to my own verification protocol. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition, without exception. Trusting my memory is the root cause of all major strategic failures.
 - **Mechanic Failure Analysis:** Before assuming a puzzle is blocked by a complex mechanic, thoroughly check for simple, alternate paths. My inability to push the boulder at Cianwood (5, 29) was not a mechanic failure, but a perception failure, as I later discovered I could simply walk around it.
 - **Tool Usage Loops:** When a tool fails repeatedly, especially one requiring precise text input like `notepad_edit`, the root cause is likely user error (e.g., incorrect `old_text`). I must meticulously copy the exact text from error suggestions instead of re-typing or paraphrasing to avoid getting stuck in correctable loops.
-- **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
-- **Tool Contradiction Protocol:** When two tools give contradictory outputs, I must trust the more reliable one and immediately investigate the other for bugs. Deferring the fix is a critical error that leads to wasted time and flawed strategies.
 - **Catastrophic Hallucination Failure:** My attempt to re-battle a defeated Gym Leader was a critical failure to adhere to my own verification protocols. Before any major action, I MUST verify the current game state against my inventory (badges, items) and documented progress. Trusting memory is the root cause of these blunders.
-- **Accurate Mechanic Modeling:** Custom tools must accurately model all relevant game mechanics to be reliable. My pathfinder's failure to account for walk/surf transitions was a critical flaw. Future tools must be designed with a comprehensive understanding of the systems they interact with.
 - **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
 - **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
 - **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
-- **Trust Verified Tools and Game Data Over Perception:** A verified tool can analyze map data more accurately than visual inspection. A 'No path found' result from a tool like `verify_path` is a signal to re-evaluate my own assumptions about the map's layout.
 - **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
-- **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
-- **Robust Tool Design:** Tools must be designed to handle all UI states, not just the simplest ones. The `select_item` tool's fix, while necessary, caused a regression by removing its ability to prevent infinite scrolling. Future tools must be built with edge cases like this in mind from the start.
 - **Manual Pathing Verification:** My navigation failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
 - **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
+- **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
+- **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
+- **Re-evaluation of Blocked Paths:** When a path appears to be a dead end, especially after being stuck for some time, it is crucial to re-evaluate the entire area. A missed turn or an alternative route (like using an HM like SURF) is a likely solution. Trusting tools like `puzzle_solver` to challenge my assumptions is a valid strategy.
+- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`path_planner`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
@@ -60,7 +56,7 @@
 - **Tool Maintenance is Highest Priority:** If a tool fails, it MUST be fixed immediately, overriding any in-game action. Deferring a fix is a critical failure. After applying a fix, especially from an agent, the tool's functionality must be verified with a simple test case.
 - **Trust Agent for Tool Repair:** Manual debugging of UI parsing tools has a high failure rate. When a UI automation tool fails, I must escalate to the `python_code_debugger` agent for a robust solution instead of attempting multiple manual fixes.
 - **Robust UI Parsing:** UI automation tools MUST use robust, flexible parsing that can handle minor variations in text and spacing. Relying on exact string matches or flawed assumptions about UI structure (e.g., name and level on the same line) is a critical point of failure.
-- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration is correct for the current context. A 'No path found' result from a tool like `verify_path` is often accurate data about the map, not a tool failure.
+- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration is correct for the current context.
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate (e.g., not accounting for the 'CANCEL' option in a circular menu). All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
 
 # KNOWLEDGE BASE
@@ -292,7 +288,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `verify_path`
+- `path_planner`
 
 ### Custom Agents
 - `python_code_debugger`
@@ -308,16 +304,3 @@
 
 ## Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
-- Tool maintenance, even mid-battle, is a higher priority than any gameplay action. A broken tool leads to failed strategies.
-- When navigation seems impossible, my own perception of the map is likely flawed. I must re-examine every tile for overlooked interactions (like landing from SURF) and use the `puzzle_solver` agent to challenge my root assumptions.
-- **Catastrophic Positional Hallucination:** A critical failure to adhere to the verification protocol resulted in hallucinating my position, leading to multiple turns of failed pathing. I MUST verify my `current_position` from the Game State Information before every single navigational plan. No exceptions.
-- **Warp Verification Protocol:** A critical hallucination occurred where I assumed a map transition was a formal 'warp' tile without verifying it in the `Game State Information -> Map Events -> Warps` list. I MUST check this list before setting a navigation goal to a warp to prevent pathing to non-existent points.
-- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
-- **Consult Existing Knowledge:** A critical failure was repeatedly attempting to navigate through areas I had already marked as dead ends. I MUST consult my notepad and map markers *before* forming a navigation plan to avoid repeating known failures.
-- **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
-- **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
-
-# LESSONS LEARNED
-- **Re-evaluation of Blocked Paths:** When a path appears to be a dead end, especially after being stuck for some time, it is crucial to re-evaluate the entire area. A missed turn or an alternative route (like using an HM like SURF) is a likely solution. Trusting tools like `puzzle_solver` to challenge my assumptions is a valid strategy.
-- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`verify_path`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
-- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends (like in Slowpoke Well B1F), the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
