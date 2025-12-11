@@ -355,3 +355,15 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 # LESSONS LEARNED
 - **Paradoxical Directives:** Encountered a conflict where the overwatch critique demanded I fix a specific flawed lesson, but the `notepad_edit` tool repeatedly reported the text was not found. Per my 'Trust Tool Outputs Over Critiques' protocol, I must conclude the tool's feedback is the source of truth and the critique was hallucinating. I will no longer attempt to fix the non-existent note.
 - Youngster Joey on Route 30 called for a rematch.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+
+- **Trust Tool Outputs as Data:** A tool's output, especially an error like 'No path found' from a pathfinder, is not a bug but a critical piece of information about the game state. Misinterpreting this data as a tool failure leads to wasted turns. A pathfinding failure in an enclosed area is a strong indicator of an unsolved puzzle, not a faulty tool.
+- **Correct Escalation Path:** When a pathfinding tool reports no path in a small area, the correct escalation is to the `puzzle_solver` agent to challenge the assumption that a path should exist, not to the `python_code_debugger` to fix a non-existent bug.
+- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy.
+- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition.
+- **Multi-Level & Event-Based Puzzles:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map.
+- **Exhaust Simple Solutions First:** When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
+- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists, I must follow it exactly instead of attempting unverified shortcuts.
+- **Tool Logic Must Perfectly Mirror Mechanics:** A tool will catastrophically fail if its internal model of the game is inaccurate. All tool logic must be based on rigorously verified in-game observations.
+- **Paradoxical Directives:** If a critique demands I fix text but the `notepad_edit` tool reports the text is not found, I must trust the tool's output as the source of truth and conclude the critique was based on a hallucination.
