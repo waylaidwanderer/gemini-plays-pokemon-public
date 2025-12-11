@@ -38,7 +38,6 @@
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. It has been observed that some trainers, like Sailor Huey and Hiker Anthony, can be battled again even without a new call, suggesting some rematches may be repeatable. My previous assumption that trainers could only be fought once was incorrect.
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
-- **SURF Mechanic:** To use SURF, the player must be standing on a valid tile (e.g., FLOOR) adjacent to water, face the water tile, and then manually select SURF from the Pokémon's party menu.
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
@@ -88,7 +87,7 @@
 - **WARP_CARPET_LEFT**: A warp tile at the edge of a map. Pressing 'Left' while standing on the tile has been confirmed to trigger the warp.
 - **Warp (FLOOR):** A special tile type that appears to be a normal FLOOR tile but also functions as a warp. Observed as landing zones after falling through a PIT.
 - **Warp (WALL):** Observed in Burned Tower. Appears to be a WALL tile that also functions as a warp. Its activation method is currently unknown.
-- **WATER**: Traversable using the HM move SURF. To initiate surfing, the player must be standing on a tile adjacent to the water, face the water tile, and then manually select SURF from the Pokémon's party menu.
+- **WATER**: Traversable using the HM move SURF. To initiate surfing, a specific multi-step manual process is required: 1) Stand on a valid land tile (e.g., FLOOR) adjacent to a WATER tile. 2) Turn to face the WATER tile. 3) Open the party menu. 4) Select the Pokémon that knows SURF. 5) Select the SURF move from its action menu. This state change cannot be automated by the current pathfinding tool.
 - **WATERFALL:** Appears to be an impassable tile, similar to a WALL. Further investigation is needed to see if an HM is required to traverse it.
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
@@ -291,13 +290,6 @@
 - **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
 - **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
-- **Challenge False Constraints:** My belief that I was trapped in the Slowpoke Well was a false constraint born from repeated navigation failures. When a situation seems impossible (like being soft-locked), the root hypothesis is flawed. I must trust my tools when they report a path is blocked and aggressively re-evaluate the puzzle's premise instead of brute-forcing a solution based on a wrong assumption.
-
-## Slowpoke Well B2F Puzzle
-- **Hypothesis 1 (Failed):** A hidden pressure plate exists on the island floor. **Test:** Systematically walked over every single floor tile. **Conclusion:** No trigger activated. This hypothesis is disproven.
-- **Hypothesis 2 (Failed):** A hidden switch exists on an adjacent wall. **Test:** Systematically pressed 'A' on every wall segment accessible from the island. **Conclusion:** No switch was found. This hypothesis is disproven.
-- **Hypothesis 3 (Failed):** Stepping on a specific floor tile changes the state of the Gym Guide. **Test:** Walked over every tile, then re-interacted with the guide. **Conclusion:** The guide's dialogue was unchanged. This hypothesis is disproven.
-- **Hypothesis 4 (Failed):** The Gym Guide can be moved using the HM STRENGTH. **Test:** Activated STRENGTH from the party menu and attempted to push the Gym Guide. **Conclusion:** The player cannot push the NPC. This hypothesis is disproven.
 - **Question Paradoxical Tool Outputs:** If a tool's output contradicts a fundamental game principle (e.g., reporting a path is blocked when it would result in a soft-lock), the tool's logic must be suspected and verified immediately. Do not escalate to other problem-solving methods based on a faulty premise.
 - **Question Paradoxical Tool Outputs:** If a tool's output contradicts a fundamental game principle (e.g., reporting a path is blocked when it would result in a soft-lock), the tool's logic must be suspected and verified immediately. Do not escalate to other problem-solving methods based on a faulty premise.
 - **Multi-Modal Pathing:** A single pathfinding tool call cannot handle a journey that requires a state change (e.g., from walking to surfing). Such routes must be executed in segments: 1) Path to the edge of the new terrain (e.g., water's edge). 2) Manually perform the state change action (e.g., use SURF). 3) Path from the new position to the final destination.
