@@ -43,7 +43,7 @@
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
 - **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
-- **STRENGTH HM Mechanic:** Using STRENGTH is a two-step process. First, the move must be selected from the Pokémon's menu while standing adjacent to a boulder to 'activate' the ability. Second, the player must then walk into the boulder to push it. Simply walking into it without prior activation does nothing.
+- **STRENGTH HM Mechanic:** Using STRENGTH is a multi-step process. 1) Select the move from the Pokémon's menu while adjacent to a boulder to 'activate' the ability. 2) Walk into the boulder to push it one tile. The player does NOT automatically move into the boulder's previous space. 3) The player must then perform a separate movement action to occupy the now-empty tile.
 
 ## TILE & OBJECT MECHANICS (CONSOLIDATED)
 - **BOOKSHELF**: An impassable object.
