@@ -319,3 +319,6 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 # LESSONS LEARNED
 - When pathfinding tools and manual pathing both fail in a seemingly simple, enclosed area, it's a sign of a puzzle, not a pathing error. The goal should shift from 'how do I navigate out?' to 'how do I change the map state?'.
 - Always test the most obvious, simple solution first before moving to more complex or obscure hypotheses. Obvious interactable objects (like a single boulder in a room) should be the first priority.
+
+# CONTINGENCY PLAN
+- **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
