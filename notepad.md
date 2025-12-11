@@ -4,7 +4,8 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Train Vortex, Bahamut, and Lucre on Route 39.
 - **Location:** Route 39.
-- **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17), Lucre (Lv16).
+- **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv18), Lucre (Lv16). Status: Fully Healed.
+- **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Failed (Lost to Kimono Girl Arita). Preparing to Train.
