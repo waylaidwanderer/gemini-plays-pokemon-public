@@ -11,7 +11,7 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparing for Attempt 3.
 - **Intel:** Heracross (Lv20) is DANGEROUS. Moves: Megahorn, Earthquake. Strategy: TWave immediately to cripple speed.
-- **Party:** Bahamut (Lv19), Vortex (Lv19), [Empty Slot].
+- **Party:** Bahamut (Lv19), Vortex (Lv19), Flux (Lv16).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Flux (Magnemite).
