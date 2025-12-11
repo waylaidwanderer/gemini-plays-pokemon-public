@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Train Vortex, Bahamut, and Lucre on Route 39.
-- **Location:** Route 39.
-- **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv18), Lucre (Lv16). Status: Fully Healed.
+- **Location:** Olivine City Pokémon Center.
+- **Party:** Gauss (Lv21), Vortex (Lv19), Bahamut (Lv19), Lucre (Lv16). Status: Healed. Swapping Gauss for Basalt.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
