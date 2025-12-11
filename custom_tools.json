@@ -385,6 +385,37 @@
       }
     ]
   },
+  "hunt_routine": {
+    "description": "Generates a sequence of movement buttons to hunt for wild Pokemon. Supports 'box', 'vertical', and 'horizontal' patterns.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "integer",
+          "default": 20,
+          "description": "Number of steps to take"
+        },
+        "pattern": {
+          "type": "string",
+          "enum": [
+            "box",
+            "vertical",
+            "horizontal"
+          ],
+          "default": "box",
+          "description": "Movement pattern to use"
+        }
+      }
+    },
+    "python_script": "import json\ntry:\n    steps = int(input_data.get('steps', '20'))\nexcept:\n    steps = 20\npattern = input_data.get('pattern', 'box')\n\nbuttons = []\nseq = []\nif pattern == 'box':\n    seq = ['Up', 'Down', 'Left', 'Right']\nelif pattern == 'vertical':\n    seq = ['Up', 'Down']\nelif pattern == 'horizontal':\n    seq = ['Left', 'Right']\nelse:\n    seq = ['Up', 'Down', 'Left', 'Right']\n\nfor i in range(steps):\n    buttons.append(seq[i % len(seq)])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-10T23:57:36.117Z",
+        "action_counter": 27574
+      }
+    ]
+  },
   "press_sequence": {
     "description": "Executes a custom sequence of button presses defined by a comma-separated string. Robustly handles whitespace and returns valid JSON. Valid buttons: A, B, Up, Down, Left, Right, Start, Select.",
     "input_schema": {
@@ -516,37 +547,6 @@
         "commit_message": "fix: Add sleep delays (500ms) between directional inputs in select_move to ensure the game registers each press during menu navigation. This addresses reliability issues where rapid inputs were ignored.",
         "timestamp": "2025-12-05T07:29:11.785Z",
         "action_counter": 19985
-      }
-    ]
-  },
-  "hunt_routine": {
-    "description": "Generates a sequence of movement buttons to hunt for wild Pokemon. Supports 'box', 'vertical', and 'horizontal' patterns.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "steps": {
-          "type": "integer",
-          "default": 20,
-          "description": "Number of steps to take"
-        },
-        "pattern": {
-          "type": "string",
-          "enum": [
-            "box",
-            "vertical",
-            "horizontal"
-          ],
-          "default": "box",
-          "description": "Movement pattern to use"
-        }
-      }
-    },
-    "python_script": "import json\ntry:\n    steps = int(input_data.get('steps', '20'))\nexcept:\n    steps = 20\npattern = input_data.get('pattern', 'box')\n\nbuttons = []\nseq = []\nif pattern == 'box':\n    seq = ['Up', 'Down', 'Left', 'Right']\nelif pattern == 'vertical':\n    seq = ['Up', 'Down']\nelif pattern == 'horizontal':\n    seq = ['Left', 'Right']\nelse:\n    seq = ['Up', 'Down', 'Left', 'Right']\n\nfor i in range(steps):\n    buttons.append(seq[i % len(seq)])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-10T23:57:36.117Z",
-        "action_counter": 27574
       }
     ]
   }
