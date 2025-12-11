@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Train "Gauss" (Magnemite) to Level 20 on Route 39.
-- **Location:** Olivine City (North Exit).
-- **Party:** Gauss (Lv18), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19).
+- **Current Task:** Train "Gauss" (Magnemite) to Level 20 on Route 39. Heal Gauss (Critical HP).
+- **Location:** Route 39 (Tall Grass).
+- **Party:** Gauss (Lv19), Bedrock (Lv20), Bahamut (Lv17), Vortex (Lv19), Rumpus (Lv15).
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparing for Rematch. Need Level 20 coverage.
@@ -13,6 +13,7 @@
   1. **Gauss (Magnemite):** Lead. Resists Normal/Ice/Flying. Key for Tauros.
   2. **Bedrock (Larvitar):** Physical Sweeper/Tank. Watch out for Water/Grass.
   3. **Bahamut (Dratini):** Pivot. Resistant to Fire/Water/Grass/Electric.
+  4. **Rumpus (Tauros):** Backup Physical Attacker.
 - **Opponent Intel:**
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
 - **Mechanics:** Party is auto-healed after every challenge.
