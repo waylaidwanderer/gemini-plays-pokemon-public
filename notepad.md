@@ -11,12 +11,12 @@
 - **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
 - **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
 - **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
-- **Manual Pathing Verification:** My navigation failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
 - **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
 - **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
 - **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
 - **Re-evaluation of Blocked Paths:** When a path appears to be a dead end, especially after being stuck for some time, it is crucial to re-evaluate the entire area. A missed turn or an alternative route (like using an HM like SURF) is a likely solution. Trusting tools like `puzzle_solver` to challenge my assumptions is a valid strategy.
 - **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`path_planner`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
+- **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate. All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
 
 # IMMEDIATE TASKS
 - **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
@@ -93,7 +93,7 @@
 - **FENCE (Visual):** The fence-like structure on Route 38 at (30, 11) is functionally an impassable `WALL` tile.
 - **FLOWER**: Fully traversable decorative tile.
 - **FLOOR**: A standard, fully traversable tile.
-- **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from.
+- **FLOOR_UP_WALL**: Confirmed to be a one-way ledge. It is impassable from below, but can be jumped down from. It is also impossible to move DOWN onto it from an adjacent FLOOR tile.
 - **FRUIT_TREE**: An impassable, interactable object. Gives one BERRY item when interacted with for the first time.
 - **GRASS**: Fully traversable tile, similar to TALL_GRASS. Wild Pokémon can be encountered here.
 - **HEADBUTT_TREE**: An interactable tree, requires the Headbutt move. Impassable.
@@ -282,7 +282,6 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
-- `path` (special command used in `buttons_to_press` to follow a path_plan)
 
 ### Custom Tools
 - `select_item`
