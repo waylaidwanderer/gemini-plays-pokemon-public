@@ -353,3 +353,7 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **Object Interaction Protocol:** Many objects (e.g., hidden switches, PCs) have specific interaction rules. A common requirement is to stand on an adjacent tile (often directly below the target), face the object, and then press 'A'. Standing directly on the object or facing the wrong way will fail.
+
+# LESSONS LEARNED
+- **Pivot to Systematic Search:** When multiple simple hypotheses for a puzzle fail (e.g., direct pathing, HM usage, external NPC triggers), the next step is to pivot to a systematic, in-place investigation of the puzzle area itself for hidden triggers (switches, internal NPCs). Repeating failed hypotheses is inefficient.
+- **Verify Map Connectivity:** Do not assume map features (like bodies of water or paths) are connected just because they appear close on the map. Always verify connectivity with movement before committing to a path that relies on it.
