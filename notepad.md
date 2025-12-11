@@ -125,7 +125,7 @@
 - **select_move:** Battle move selection.
 - **press_sequence:** Button sequence executor.
 - **hunt_routine:** Automated wild encounter hunting.
-- **Note:** `["path"]` in `buttons_to_press` executes the calculated plan. It is not a tool.
+- **Clarification:** `path` is a command for `buttons_to_press`, NOT a tool name. The tool is `find_path`.
 
 ## Active Custom Agents
 - **battle_advisor:** Optimizes training battles.
