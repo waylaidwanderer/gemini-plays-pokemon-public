@@ -37,16 +37,13 @@
 - **`stun_npc` Mechanic:** The stun effect is very short-lived and resets when leaving and re-entering a map. The tool will also fail if the target NPC is not currently on-screen and rendered in the game.
 - **Rematch Mechanic:** Some trainers will call for a rematch via the Pokégear. It has been observed that some trainers, like Sailor Huey and Hiker Anthony, can be battled again even without a new call, suggesting some rematches may be repeatable. My previous assumption that trainers could only be fought once was incorrect.
 - **Roaming Legendaries:** Encounters with Pokémon like Entei can be random. They may flee on the first turn, even if the player's attempt to run fails.
-- **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
 - **Gift Pokémon Nicknaming:** Gift Pokémon may be automatically given a nickname by the game upon receipt. This was observed with the Shuckle received from the Rocker in ManiasHouse.
-- **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **HM Move Permanence:** HM moves cannot be forgotten by a Pokémon once they have been taught. This was confirmed when attempting to replace FLASH on Togetic.
-- **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
-- **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 - **STRENGTH HM Mechanic:** Using STRENGTH is a multi-step process. 1) Select the move from the Pokémon's menu while adjacent to a boulder to 'activate' the ability. 2) Walk into the boulder to push it one tile. The player does NOT automatically move into the boulder's previous space. 3) The player must then perform a separate movement action to occupy the now-empty tile.
 
 ## TILE & OBJECT MECHANICS (CONSOLIDATED)
 - **BOOKSHELF**: An impassable object.
+- **BOULDER**: An object that can be pushed with the HM STRENGTH. Otherwise impassable.
 - **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
 - **COUNTER**: Impassable terrain, usually a barrier in front of an NPC. To interact with NPCs behind counters, face the counter tile directly in front of them and press A.
@@ -92,7 +89,6 @@
 - **WHIRLPOOL**: An obstacle in the water. Traversability is currently unknown, but it likely requires a specific HM move to cross. Observed on Route 41 at (42, 24).
 - **WINDOW**: An impassable object that can be interacted with to display text. Functions like a wall.
 - **NPC Objects (TEACHER, LASS, etc.)**: These are impassable and function as walls.
-- **Verify Interaction Methods:** Do not assume all objects of the same type (e.g., ladders) have the same activation method. If a simple interaction (step-on, 'A' press from adjacent tile) fails, the object may require a different, non-obvious trigger. Systematically test and document interaction attempts.
 
 ## Battle & Resource Management
 - **Inventory Pre-check:** Before starting a resource-dependent task (like catching Pokémon), I must verify I have the necessary items (e.g., Poké Balls). Running out mid-task is a critical failure of preparation.
@@ -260,62 +256,6 @@
 ## Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
 - **`systematic_area_checker` tool:** A tool that, when in a confined area, generates a path to visit every single reachable tile and presses 'A' on each to search for hidden items or switches. This would automate tedious brute-force searches.
-
-# LESSONS LEARNED (CONSOLIDATED)
-- **`find_path` Limitation:** The tool cannot generate a path that requires a state change (e.g., walking to surfing). It will fail because such transitions are illegal without a manual HM activation. Paths requiring HMs must be executed in segments: 1) Path to the HM usage point. 2) Manually use the HM. 3) Path from the new position to the destination.
-- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
-- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
-- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
-- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
-- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
-- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts.
-- **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
-- **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
-- **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
-- **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
-- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
-- **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
-- **Navigation Failure implies Puzzle:** When both automated (tools) and manual pathing attempts repeatedly fail in a small, seemingly simple area, the root cause is likely a misunderstanding of a puzzle, not a pathing error. I must pivot from trying to navigate to trying to solve the underlying puzzle.
-- **Plan Shorter Manual Paths:** When navigating manually, especially in complex or unfamiliar areas, plan short, simple paths of only a few steps at a time. This reduces the chance of making a planning error and running into a wall, which wastes turns.
-- **Tool Logic Must Perfectly Mirror Mechanics:** A tool will catastrophically fail if its internal model of the game is inaccurate (e.g., incorrect tile traversal rules). All tool logic must be based on rigorously verified in-game observations.
-
-# IMMEDIATE TASKS
-- **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
-- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
-
-- **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
-- **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
-- **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
-- **Question Paradoxical Tool Outputs:** If a tool's output contradicts a fundamental game principle (e.g., reporting a path is blocked when it would result in a soft-lock), the tool's logic must be suspected and verified immediately. Do not escalate to other problem-solving methods based on a faulty premise.
-- **Question Paradoxical Tool Outputs:** If a tool's output contradicts a fundamental game principle (e.g., reporting a path is blocked when it would result in a soft-lock), the tool's logic must be suspected and verified immediately. Do not escalate to other problem-solving methods based on a faulty premise.
-- **Multi-Modal Pathing:** A single pathfinding tool call cannot handle a journey that requires a state change (e.g., from walking to surfing). Such routes must be executed in segments: 1) Path to the edge of the new terrain (e.g., water's edge). 2) Manually perform the state change action (e.g., use SURF). 3) Path from the new position to the final destination.
-- **BOULDER**: An object that can be pushed with the HM STRENGTH. Otherwise impassable.
-
-## ONGOING INVESTIGATIONS
-- **A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool.** The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
-
-# Slowpoke Well B1F Island Puzzle
-My `puzzle_solver` agent provided new hypotheses after I got stuck on the central island:
-- **Hypothesis 1:** An interactable NPC/Slowpoke on the island creates a path. **Status: PENDING.** (Test: Get on the island and interact with any objects/creatures.)
-- **Hypothesis 2:** The western boulder puzzle is a trigger. **Status: PENDING.** (Test: Return to the boulder and push it onto a special tile, then check for changes.)
-- **Hypothesis 3:** There is a hidden switch on the central island. **Status: PENDING.** (Test: Systematically interact with every wall and floor tile on the island.)
-- **Pathing Verification:** Do not trust memory for pathing. I MUST meticulously verify every step of a manual path against the XML map data. To prevent simple, turn-wasting errors, I should ALWAYS default to using the `find_path` tool for navigation. Manual pathing should only be used for very short, visually trivial movements.
-
-# LESSONS LEARNED
-- **Trust System Feedback:** If the system reports a tool was successfully updated (e.g., via a 'script is identical' error), trust that the change was applied. Do not get stuck in a loop re-submitting the same fix. Test the tool's functionality to verify.
-
-# PLANS
-- **Slowpoke Well Strategy Pivot:** After exhausting all hypotheses (hidden switches, boulder puzzle, B2F exploration), the current area seems unsolvable. The root assumption that a solution is immediately available is likely a false constraint. The new plan is to backtrack to Azalea Town and speak with Kurt again, as he is the quest-giver and may provide the trigger needed to progress.
-- **Verify Object Existence:** A recurring failure is hallucinating NPCs and attempting to interact with them. I MUST verify an object's existence and coordinates in the `Map Objects On Screen` list before pressing 'A'.
-
-# CONTINGENCY PLAN
-- **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
-
-# LESSONS LEARNED
-- **Exhaust All Angles:** When confronted with a physical puzzle (like a boulder), do not fixate on a single approach. If one side is blocked, methodically check for paths to access the puzzle from all other possible directions before concluding it's unsolvable from the current map state.
-
-## Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH).
   - **Inputs:** `pokemon_name` (string), `move_name` (string), `current_screen_text` (string).
   - **Logic:**
@@ -329,44 +269,59 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
     8. Press 'A' to use it.
   - **Challenge:** Requires robust screen text parsing for both the party list and the individual Pokémon's move list, which can be complex and error-prone. Will require significant testing.
 
-- Immediately escalate paradoxical tool failures (e.g., 'No path found' on a visually clear path) to the `python_code_debugger` agent. Do not waste turns re-running a broken tool.
-
-# LESSONS LEARNED
-- **Paradoxical Directives:** Encountered a conflict where the overwatch critique demanded I fix a specific flawed lesson, but the `notepad_edit` tool repeatedly reported the text was not found. Per my 'Trust Tool Outputs Over Critiques' protocol, I must conclude the tool's feedback is the source of truth and the critique was hallucinating. I will no longer attempt to fix the non-existent note.
-- Youngster Joey on Route 30 called for a rematch.
-
-# STRATEGIC INSIGHTS & LESSONS LEARNED
-- **Trust Tool Outputs as Data:** A tool's output, especially an error like 'No path found' from a pathfinder, is not a bug but a critical piece of information about the game state. Misinterpreting this data as a tool failure leads to wasted turns. A pathfinding failure in an enclosed area is a strong indicator of an unsolved puzzle, not a faulty tool.
+# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+- **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
 - **Correct Escalation Path:** When a pathfinding tool reports no path in a small area, the correct escalation is to the `puzzle_solver` agent to challenge the assumption that a path should exist, not to the `python_code_debugger` to fix a non-existent bug.
-- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. Aggressively re-verify the foundational belief that led to the current strategy.
-- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition.
-- **Multi-Level & Event-Based Puzzles:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map.
-- **Exhaust Simple Solutions First:** When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
-- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists, I must follow it exactly instead of attempting unverified shortcuts.
-- **Tool Logic Must Perfectly Mirror Mechanics:** A tool will catastrophically fail if its internal model of the game is inaccurate. All tool logic must be based on rigorously verified in-game observations.
+- **`find_path` Limitation:** The tool cannot generate a path that requires a state change (e.g., walking to surfing). It will fail because such transitions are illegal without a manual HM activation. Paths requiring HMs must be executed in segments: 1) Path to the HM usage point. 2) Manually use the HM. 3) Path from the new position to the destination.
+- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
+- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
+- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
+- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
+- **Multi-Level & Event-Based Puzzles:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
+- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts.
+- **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
+- **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
+- **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
+- **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
+- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
+- **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
+- **Navigation Failure implies Puzzle:** When both automated (tools) and manual pathing attempts repeatedly fail in a small, seemingly simple area, the root cause is likely a misunderstanding of a puzzle, not a pathing error. I must pivot from trying to navigate to trying to solve the underlying puzzle.
+- **Plan Shorter Manual Paths:** When navigating manually, especially in complex or unfamiliar areas, plan short, simple paths of only a few steps at a time. This reduces the chance of making a planning error and running into a wall, which wastes turns.
+- **Tool Logic Must Perfectly Mirror Mechanics:** A tool will catastrophically fail if its internal model of the game is inaccurate (e.g., incorrect tile traversal rules). All tool logic must be based on rigorously verified in-game observations.
+- **Trust System Feedback:** If the system reports a tool was successfully updated (e.g., via a 'script is identical' error), trust that the change was applied. Do not get stuck in a loop re-submitting the same fix. Test the tool's functionality to verify.
 - **Paradoxical Directives:** If a critique demands I fix text but the `notepad_edit` tool reports the text is not found, I must trust the tool's output as the source of truth and conclude the critique was based on a hallucination.
 - **Verify Object Existence:** A recurring failure is hallucinating NPCs and attempting to interact with them. I MUST verify an object's existence and coordinates in the `Map Objects On Screen` list before pressing 'A'.
 - **Exhaust All Angles:** When confronted with a physical puzzle (like a boulder), do not fixate on a single approach. If one side is blocked, methodically check for paths to access the puzzle from all other possible directions before concluding it's unsolvable from the current map state.
-- **`find_path` Limitation:** The tool cannot generate a path that requires a state change (e.g., walking to surfing). It will fail because such transitions are illegal without a manual HM activation. Paths requiring HMs must be executed in segments: 1) Path to the HM usage point. 2) Manually use the HM. 3) Path from the new position to the destination.
 - **Verify Before Acting:** I must verify on-screen text and game state information *before* creating map markers or editing the notepad to prevent hallucinations and data errors. This is a critical check against my own faulty memory.
 - **Dialogue Loop Evasion:** If an NPC's dialogue repeatedly triggers and blocks progress, it's likely due to being in their line of sight. Instead of repeatedly trying to clear the dialogue, move out of the trigger zone to break the loop.
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 - **Marker Emoji Reliability:** Using complex or uncommon emojis for map markers can cause tool failures. Stick to simple, standard emojis (like arrows, checkmarks, etc.) to ensure reliability and avoid wasting turns on preventable errors.
 - **Object Interaction Protocol:** Many objects (e.g., hidden switches, PCs) have specific interaction rules. A common requirement is to stand on an adjacent tile (often directly below the target), face the object, and then press 'A'. Standing directly on the object or facing the wrong way will fail.
-
-# LESSONS LEARNED
 - **Pivot to Systematic Search:** When multiple simple hypotheses for a puzzle fail (e.g., direct pathing, HM usage, external NPC triggers), the next step is to pivot to a systematic, in-place investigation of the puzzle area itself for hidden triggers (switches, internal NPCs). Repeating failed hypotheses is inefficient.
 - **Verify Map Connectivity:** Do not assume map features (like bodies of water or paths) are connected just because they appear close on the map. Always verify connectivity with movement before committing to a path that relies on it.
-
-# LESSONS LEARNED
 - **External Puzzle Triggers:** When a self-contained area (like a dungeon floor) is fully explored and no progress can be made, the trigger for progression is likely external (e.g., an NPC in town, a story event elsewhere). Challenge the root assumption that the solution must be found within the immediate area.
-- **Proactive NPC Management:** When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
-
-# STRATEGIC INSIGHTS & LESSONS LEARNED (from Reflection)
-- **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
 - **Event Triggers Can Alter Maps:** Defeating key enemies (like Team Rocket) can physically alter the map layout, opening previously inaccessible paths. After a major event, always re-explore the relevant area.
-- **Verify Locations Before Acting:** Hallucinations about object and warp locations are a critical failure point. I MUST verify coordinates from the Game State Information or my Mental Map *before* planning a path or interacting with something.
-- **Hiker Anthony (Phone):** Confirmed that DUNSPARCE are found in DARK CAVE in large numbers, specifically in areas where there are no strong POKéMON.
-
-# LESSONS LEARNED
 - A pathfinding tool repeatedly failing in a small, seemingly simple area is a strong indicator of an unsolved puzzle or a flawed core assumption, not necessarily a faulty tool. I must pivot from trying to debug the tool to questioning the premise that a path should exist.
+
+# IMMEDIATE TASKS
+- **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
+- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
+- **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
+- **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
+
+# ONGOING INVESTIGATIONS
+- **A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool.** The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
+
+# Slowpoke Well B1F Island Puzzle
+My `puzzle_solver` agent provided new hypotheses after I got stuck on the central island:
+- **Hypothesis 1:** An interactable NPC/Slowpoke on the island creates a path. **Status: PENDING.** (Test: Get on the island and interact with any objects/creatures.)
+- **Hypothesis 2:** The western boulder puzzle is a trigger. **Status: PENDING.** (Test: Return to the boulder and push it onto a special tile, then check for changes.)
+- **Hypothesis 3:** There is a hidden switch on the central island. **Status: PENDING.** (Test: Systematically interact with every wall and floor tile on the island.)
+- **Pathing Verification:** Do not trust memory for pathing. I MUST meticulously verify every step of a manual path against the XML map data. To prevent simple, turn-wasting errors, I should ALWAYS default to using the `find_path` tool for navigation. Manual pathing should only be used for very short, visually trivial movements.
+
+# PLANS
+- **Slowpoke Well Strategy Pivot:** After exhausting all hypotheses (hidden switches, boulder puzzle, B2F exploration), the current area seems unsolvable. The root assumption that a solution is immediately available is likely a false constraint. The new plan is to backtrack to Azalea Town and speak with Kurt again, as he is the quest-giver and may provide the trigger needed to progress.
+
+# CONTINGENCY PLAN
+- **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
