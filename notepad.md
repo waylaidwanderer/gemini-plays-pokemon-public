@@ -15,7 +15,8 @@
   2. **Bahamut (Dratini):** Special/Status (Thunder Wave, Dragonbreath). Resists Fire/Water/Electric/Grass. Replaces Basalt to counter Miltank (Surf/Thunder).
   3. **Vortex (Pidgeotto):** Pivot. Immune to Ground/Ghost.
 - **Opponent Intel:**
-  - **Rocker (Current):** Miltank (Earthquake, Thunder, Surf, Attract). Critical threat to entire team.
+  - **Kimono Girl Arita (Current):** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
+  - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
   - **Blissey:** Psychic, Submission.
 - **Mechanics:** Party is auto-healed after every challenge.
