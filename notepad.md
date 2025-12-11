@@ -325,3 +325,6 @@
 # Tool Ideas
 - **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH, SURF). This would prevent manual menuing errors.
 - **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
+
+# LESSONS LEARNED
+- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`verify_path`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
