@@ -316,3 +316,9 @@
 - **Consult Existing Knowledge:** A critical failure was repeatedly attempting to navigate through areas I had already marked as dead ends. I MUST consult my notepad and map markers *before* forming a navigation plan to avoid repeating known failures.
 - **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
 - **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
+
+# LESSONS LEARNED
+- **Re-evaluation of Blocked Paths:** When a path appears to be a dead end, especially after being stuck for some time, it is crucial to re-evaluate the entire area. A missed turn or an alternative route (like using an HM like SURF) is a likely solution. Trusting tools like `puzzle_solver` to challenge my assumptions is a valid strategy.
+
+# Tool Ideas
+- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH, SURF). This would prevent manual menuing errors.
