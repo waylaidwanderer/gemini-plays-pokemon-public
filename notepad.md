@@ -296,7 +296,7 @@
 - **Navigation Insight:** Wild encounters interrupt `find_path`/`path_plan` execution. When actively hunting in tall grass, use `press_sequence` (e.g., 'Up, Down, Up, Down') instead of target coordinates to avoid 'Movement Blocked' errors.
 
 - **Lesson:** Always set `autopress_buttons: true` when calling custom tools that return button sequences.
-- **Quest Status Update:** Miltank is still sick. The Route 38 tree contained a Bitter Berry (not the cure). Now heading to Route 30 to check the Berry tree there.
+- **Battle Tower Menu:** Level Selection uses 'Up'/'Down' to toggle levels (e.g., 10 -> 20). Press 'A' to confirm.
 - **TM08 (Rock Smash):** Obtained from Fisher on Route 36 (44, 9). Allows breaking cracked rocks.
 - **WARP_CARPET_LEFT:** Walk Left off the map to exit.
 - **Interaction Lesson:** Reading a sign opens a text box that MUST be manually closed (B/A) before movement inputs will register. Always verify screen text state after interaction.
