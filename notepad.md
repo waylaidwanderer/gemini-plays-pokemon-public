@@ -5,7 +5,7 @@
 - **Tool Logic Must Mirror Game Mechanics:** Tools will fail catastrophically if their internal model of the game is inaccurate (e.g., not accounting for all traversable tile types or UI structures). All tools must be designed with a perfect understanding of the game mechanics they interact with.
 - **Simplify, Don't Over-Engineer:** When a complex tool repeatedly fails, replace it with a simpler, more robust version that accomplishes a smaller part of the task reliably.
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
-- **Anti-Hallucination Protocol is Non-Negotiable:** My recent catastrophic pathfinding failures were caused by a complete failure to adhere to my own verification protocol. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition, without exception. Trusting my memory is the root cause of all major strategic failures.
+- **Anti-Hallucination Protocol is Non-Negotiable:** My recent catastrophic pathing failures were caused by a complete failure to adhere to my own verification protocol. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition, without exception. Trusting my memory is the root cause of all major strategic failures.
 - **Mechanic Failure Analysis:** Before assuming a puzzle is blocked by a complex mechanic, thoroughly check for simple, alternate paths. My inability to push the boulder at Cianwood (5, 29) was not a mechanic failure, but a perception failure, as I later discovered I could simply walk around it.
 - **Tool Usage Loops:** When a tool fails repeatedly, especially one requiring precise text input like `notepad_edit`, the root cause is likely user error (e.g., incorrect `old_text`). I must meticulously copy the exact text from error suggestions instead of re-typing or paraphrasing to avoid getting stuck in correctable loops.
 - **Proactive Tool Design:** When designing a tool, I must consider all potential edge cases and game mechanics it will interact with (e.g., scrolling in menus, different UI states). A tool that only works in the simplest scenario is brittle and will fail. Proactively building robust tools is more efficient than reactive debugging.
@@ -15,12 +15,11 @@
 - **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
 - **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
 - **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
-- **Trust Verified Tools Over Perception:** A verified tool can analyze map data more accurately than visual inspection. A 'No path found' result is a signal to re-evaluate my own assumptions about the map's layout.
+- **Trust Verified Tools and Game Data Over Perception:** A verified tool can analyze map data more accurately than visual inspection. A 'No path found' result from a tool like `verify_path` is a signal to re-evaluate my own assumptions about the map's layout.
 - **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
 - **Abandon Broken Tools:** If a custom tool fails repeatedly and multiple agent-assisted fixes are unsuccessful, it is more efficient to delete the tool and switch to a manual strategy. Wasting turns on a fundamentally broken tool is a critical failure of strategy.
-- **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. I must ensure my tools account for all relevant mechanics (like walk/surf transitions, one-way ledges, etc.) to be reliable. Trusting a tool with a flawed world model leads to critical strategic errors.
 - **Robust Tool Design:** Tools must be designed to handle all UI states, not just the simplest ones. The `select_item` tool's fix, while necessary, caused a regression by removing its ability to prevent infinite scrolling. Future tools must be built with edge cases like this in mind from the start.
-- **Pathing Verification:** My pathfinding failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
+- **Manual Pathing Verification:** My navigation failures are due to creating flawed plans. Before executing a `path_plan`, I must visually trace the entire path on the ASCII map to ensure it doesn't lead into walls, water (without SURF), or other obvious obstacles. This simple verification step will prevent wasted turns from failed movements.
 - **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
 
 # IMMEDIATE TASKS
@@ -29,7 +28,7 @@
 
 # CRITICAL DIRECTIVE: ANTI-HALLUCINATION & POSITIONAL VERIFICATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
-- **Before EVERY navigational action, goal setting, or use of a pathfinding tool:**
+- **Before EVERY navigational action, goal setting, or use of a pathing tool:**
   1. I MUST verify my `current_map_id` and `current_position` from the Game State Information.
   2. If the goal involves a warp, I MUST verify its existence and coordinates in the `Game State Information -> Map Events -> Warps` list for the **current map** and that the tile has `is-warp="true"` in the map XML before planning a route to it. Never assume a map transition exists based on map shape or common game tropes.
 - **After EVERY map transition, system warning, or unexpected event (e.g., phone call):**
@@ -61,7 +60,7 @@
 - **Tool Maintenance is Highest Priority:** If a tool fails, it MUST be fixed immediately, overriding any in-game action. Deferring a fix is a critical failure. After applying a fix, especially from an agent, the tool's functionality must be verified with a simple test case.
 - **Trust Agent for Tool Repair:** Manual debugging of UI parsing tools has a high failure rate. When a UI automation tool fails, I must escalate to the `python_code_debugger` agent for a robust solution instead of attempting multiple manual fixes.
 - **Robust UI Parsing:** UI automation tools MUST use robust, flexible parsing that can handle minor variations in text and spacing. Relying on exact string matches or flawed assumptions about UI structure (e.g., name and level on the same line) is a critical point of failure.
-- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration is correct for the current context. A 'No path found' result is often accurate data about the map, not a tool failure.
+- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration is correct for the current context. A 'No path found' result from a tool like `verify_path` is often accurate data about the map, not a tool failure.
 - **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate (e.g., not accounting for the 'CANCEL' option in a circular menu). All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
 
 # KNOWLEDGE BASE
@@ -320,14 +319,5 @@
 
 # LESSONS LEARNED
 - **Re-evaluation of Blocked Paths:** When a path appears to be a dead end, especially after being stuck for some time, it is crucial to re-evaluate the entire area. A missed turn or an alternative route (like using an HM like SURF) is a likely solution. Trusting tools like `puzzle_solver` to challenge my assumptions is a valid strategy.
-
-# Tool Ideas
-- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH, SURF). This would prevent manual menuing errors.
-- **unknown**: A tile type whose properties have not yet been observed. It is treated as impassable by pathfinding tools until its true nature is revealed.
-
-# LESSONS LEARNED
 - **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`verify_path`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
-
-# LESSONS LEARNED
-- **Accurate Mechanic Modeling:** A tool's failure is often due to an incomplete or inaccurate model of the game world. My pathfinder's failure to account for one-way ledges by checking both the source *and* destination tile was a critical flaw. Future tools must be designed with a comprehensive understanding of all relevant mechanics to be reliable.
 - **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends (like in Slowpoke Well B1F), the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
