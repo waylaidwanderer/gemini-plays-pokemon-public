@@ -287,13 +287,12 @@
 - `define_tool`
 - `delete_tool`
 - `select_battle_option`
-- `path` (used in `buttons_to_press` to follow `path_plan`)
+- `path` (special command used in `buttons_to_press` to follow a path_plan)
 
 ### Custom Tools
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `find_reachable_unseen_tiles`
 - `verify_path`
 
 ### Custom Agents
