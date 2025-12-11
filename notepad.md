@@ -297,3 +297,5 @@
 ## Slowpoke Well B2F Puzzle
 - **Hypothesis 1 (Failed):** A hidden switch exists on the central island. **Test:** Systematically pressed 'A' on every tile of the island. **Conclusion:** No switch was found. This hypothesis is disproven.
 - **`find_path_bfs` Limitation:** The tool cannot generate a single path that requires a state change (e.g., walking to surfing). It will create an invalid path that tries to walk on water. Paths requiring HMs must be manually executed in segments: 1) Path to the HM usage point. 2) Use the HM. 3) Path from the new position to the destination.
+## Slowpoke Well B2F Puzzle
+- **Hypothesis 1 (Failed):** A hidden pressure plate exists on the island floor. **Test:** Systematically walked over every single floor tile. **Conclusion:** No trigger activated. This hypothesis is disproven.
