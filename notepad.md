@@ -3,8 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Enter Battle Tower.
-- **Location:** Olivine City Pokémon Center.
+- **Location:** Battle Tower Gatehouse.
 - **Party:** Bahamut (Lv19), Vortex (Lv19), Basalt (Lv19).
+- **Recent Event:** Phone call from Picnicker Gina.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
