@@ -31,10 +31,11 @@
 ### Recent Logs (Archived)
 
 ### Current Logs
-- **Location:** Battle Tower Battle Room.
+- **Location:** Battle Tower Battle Room (22_12).
 - **Status:** Round 1 vs Fisher Hanson (Umbreon Lv20).
-- **Active:** Bahamut (Dratini).
-- **Note:** Bahamut (PSN/Infatuated) vs Umbreon (PAR/Leftovers). Moves: Toxic, Protect. Vortex (PSN). Strategy: Extremespeed.
+- **Active:** Bahamut (37/48 HP, PSN, Infatuated).
+- **Opponent:** Umbreon (PAR, Leftovers).
+- **Strategy:** Using Extremespeed. Umbreon is Paralyzed.
 
 ## Fuchsia Gym (Cleared)
 - **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
