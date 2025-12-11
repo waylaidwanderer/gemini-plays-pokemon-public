@@ -162,9 +162,10 @@
 ## Active Custom Tools
 - **find_path:** A* Pathfinding (Outputs coordinates).
 - **select_move:** Battle move selection.
-- **force_press_button:** Input automation.
-- **smart_scroll:** Menu item/move selector.
 - **press_sequence:** Button sequence executor.
+- **hunt_routine:** Automated wild encounter hunting.
+- **battle_assistant:** Battle tactician agent.
+- **select_battle_option:** Battle menu selector.
 
 ## Active Custom Agents
 - **battle_assistant:** Battle tactician for Level 20 Tower. (Usage: Analyze matchups & team comp).
