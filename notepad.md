@@ -7,20 +7,16 @@
 - **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Registering for new challenge.
+- **Status:** Failed (Lost to Kimono Girl Arita). Preparing to Train.
 - **Party:** Gauss (Lv20), Vortex (Lv19), Bahamut (Lv17).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
-- **Strategy:**
-  1. **Gauss (Magnemite):** Lead. Steel/Electric resists Normal/Ice/Flying.
-  2. **Bahamut (Dratini):** Special/Status (Thunder Wave, Dragonbreath). Resists Fire/Water/Electric/Grass. Replaces Basalt to counter Miltank (Surf/Thunder).
-  3. **Vortex (Pidgeotto):** Pivot. Immune to Ground/Ghost.
-- **Opponent Intel:**
-  - **Kimono Girl Arita (Current):** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
+- **Strategy:** Train Bahamut and Vortex to Lv20 on Route 39/38.
+- **Opponent Intel (Pool):**
+  - **Kimono Girl Arita:** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
   - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
   - **Blissey:** Psychic, Submission.
-- **Mechanics:** Party is auto-healed after every challenge.
-- **UI Note:** The "What level..." text box is NOT blocking. Do not auto-mash 'A'. Navigate carefully to L:20.
+- **Mechanics:** Party is CONFIRMED auto-healed after every challenge.
 
 ## 📝 Quest & Event Log
 - **Moomoo Farm:** Quest Complete! Miltank cured. Farmer sells Moomoo Milk.
