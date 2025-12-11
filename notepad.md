@@ -1,28 +1,6 @@
-# LESSONS LEARNED
-- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
-- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
-- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
-- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
-- **Anti-Hallucination Protocol is Non-Negotiable:** My recent catastrophic pathing failures were caused by a complete failure to adhere to my own verification protocol. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition, without exception. Trusting my memory is the root cause of all major strategic failures.
-- **Mechanic Failure Analysis:** Before assuming a puzzle is blocked by a complex mechanic, thoroughly check for simple, alternate paths. My inability to push the boulder at Cianwood (5, 29) was not a mechanic failure, but a perception failure, as I later discovered I could simply walk around it.
-- **Tool Usage Loops:** When a tool fails repeatedly, especially one requiring precise text input like `notepad_edit`, the root cause is likely user error (e.g., incorrect `old_text`). I must meticulously copy the exact text from error suggestions instead of re-typing or paraphrasing to avoid getting stuck in correctable loops.
-- **Catastrophic Hallucination Failure:** My attempt to re-battle a defeated Gym Leader was a critical failure to adhere to my own verification protocols. Before any major action, I MUST verify the current game state against my inventory (badges, items) and documented progress. Trusting memory is the root cause of these blunders.
-- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
-- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
-- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts. My failed attempt to push the boulder by pressing 'A' on it instead of using STRENGTH from the menu is a direct result of ignoring my own knowledge base.
-- **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
-- **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
-- **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
-- **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
-- **Re-evaluation of Blocked Paths:** When a path appears to be a dead end, especially after being stuck for some time, it is crucial to re-evaluate the entire area. A missed turn or an alternative route (like using an HM like SURF) is a likely solution. Trusting tools like `puzzle_solver` to challenge my assumptions is a valid strategy.
-- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool (`path_planner`) to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
-- **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate. All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
+# CRITICAL DIRECTIVES
 
-# IMMEDIATE TASKS
-- **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
-- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
-
-# CRITICAL DIRECTIVE: ANTI-HALLUCINATION & POSITIONAL VERIFICATION PROTOCOL
+## ANTI-HALLUCINATION & POSITIONAL VERIFICATION PROTOCOL
 - My memory is unreliable. The Game State Information is the absolute source of truth. I am forbidden from using knowledge from other games or previous playthroughs; all strategies MUST be derived from verified, in-game observations from the current session.
 - **Before EVERY navigational action, goal setting, or use of a pathing tool:**
   1. I MUST verify my `current_map_id` and `current_position` from the Game State Information.
@@ -32,32 +10,18 @@
   2. I MUST discard any previous plan based on a now-invalidated location and re-evaluate my next action from the correct state.
 - Failure to adhere to this protocol is the root cause of all major strategic failures and wasted turns. Trusting my own memory leads to critical hallucinations.
 
-# STRATEGIC PROTOCOL
-
-## 1. Core Principles & Planning
+## STRATEGIC PROTOCOL
 - **Plan-Execute-Verify Cycle:** I must follow a strict cycle: 1) Consult my knowledge base (notepad, markers) before acting. 2) Execute a methodical plan. 3) Verify the outcome and update my knowledge base immediately.
 - **Proactive Mindset:** I must anticipate future needs (HMs, items, levels) and proactively address them before they become blockers. When a plan is repeatedly interrupted by a variable (e.g., moving NPC), I must switch to a deterministic strategy (e.g., `stun_npc`) immediately.
 - **Pre-Battle Level Assessment:** Before challenging a Gym Leader or other major opponent, assess the level gap. If my team is significantly lower-leveled (5+ levels), I must prioritize level grinding to a competitive level before attempting the battle. Rushing in under-leveled leads to wasted resources and time.
-
-## 2. Navigation & Exploration
 - **Systematic Exploration:** When in a new area, I MUST systematically explore every single reachable tile before exiting to avoid missing hidden paths. An area is NOT a 'dead end' if there are any reachable unseen tiles.
 - **Obstacle Management:** All critical obstacles (blockers, required HMs) MUST be marked with '🚫' immediately upon discovery. When a path is repeatedly blocked by a moving NPC, use `stun_npc` immediately instead of retrying the same failed path.
-
-## 3. Puzzle Solving & Logic
 - **Escalate to Puzzle Solver:** When stuck in a puzzle loop, especially one where I'm trapping myself, the root assumption about the solution's structure is likely wrong. I must escalate to the `puzzle_solver` agent to challenge my flawed hypotheses instead of repeating them.
 - **Re-evaluate Core Assumptions:** When multiple paths in a single area (like the three Mt. Mortar caves) all lead to dead ends, the fundamental assumption about needing to go through that area is likely wrong. I must broaden my search for alternatives instead of re-testing the same failed area.
-
-## 4. NPC & Object Interaction
 - **Interaction Pre-check:** Before pressing 'A', I must verify I am adjacent to and facing the target directly. Close all dialogue boxes before attempting to move.
 - **Interaction Loop Protocol:** If an NPC interaction enters a repetitive loop (e.g., repeatedly opening a shop menu), repeating the same interaction is not the solution. I must break the loop by changing the context, such as leaving and re-entering the area or interacting with other objects/NPCs before returning.
 - **Trust But Verify Dialogue:** Trust NPC guidance that opens up new paths (e.g., Gym Guide), but be skeptical of dialogue that claims a path is a dead end, especially if it contradicts physical evidence (like a sign). Always verify with my own exploration.
-
-## 5. Tool & Agent Management
 - **Tool Maintenance is Highest Priority:** If a tool fails, it MUST be fixed immediately, overriding any in-game action. Deferring a fix is a critical failure. After applying a fix, especially from an agent, the tool's functionality must be verified with a simple test case.
-- **Trust Agent for Tool Repair:** Manual debugging of UI parsing tools has a high failure rate. When a UI automation tool fails, I must escalate to the `python_code_debugger` agent for a robust solution instead of attempting multiple manual fixes.
-- **Robust UI Parsing:** UI automation tools MUST use robust, flexible parsing that can handle minor variations in text and spacing. Relying on exact string matches or flawed assumptions about UI structure (e.g., name and level on the same line) is a critical point of failure.
-- **Verify Inputs and Context:** Before assuming a tool is broken, I must first verify that my inputs are valid and the tool's configuration is correct for the current context.
-- **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate (e.g., not accounting for the 'CANCEL' option in a circular menu). All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
 
 # KNOWLEDGE BASE
 
@@ -82,7 +46,7 @@
 - **Verify Before Marking:** A critical error was creating numerous hallucinatory map markers based on faulty memory. I MUST verify the existence of an object or warp and its exact coordinates in the Game State Information *before* using `define_map_marker`.
 - **STRENGTH HM Mechanic:** Using STRENGTH is a two-step process. First, the move must be selected from the Pokémon's menu while standing adjacent to a boulder to 'activate' the ability. Second, the player must then walk into the boulder to push it. Simply walking into it without prior activation does nothing.
 
-# TILE & OBJECT MECHANICS (CONSOLIDATED)
+## TILE & OBJECT MECHANICS (CONSOLIDATED)
 - **BOOKSHELF**: An impassable object.
 - **BUOY**: An impassable object found in water, functions as a WALL tile within a WATER area.
 - **CAVE**: A traversable warp tile that functions as an entrance to a cave.
@@ -196,7 +160,7 @@
 - **Route 34 Gatehouse:** A Lass at (3, 5) mentioned a shrine in Ilex Forest honoring a 'protector' that 'watches over the FOREST from across time' and is likely a Grass-type POKéMON.
 
 ## KEY ITEMS & TMs
-## Key Items
+### Key Items
 - **HIVEBADGE:** From Bugsy. Allows traded POKéMON up to L30 to obey and enables the use of CUT outside of battle.
 - **POKéDEX:** A high-tech encyclopedia from PROF. OAK to record POKéMON data.
 - **HM05 FLASH:** Obtained from the Elder of Sprout Tower. Illuminates dark caves. Requires the Zephyr Badge to use outside of battle.
@@ -205,7 +169,7 @@
 - **PLAINBADGE:** From Whitney. Boosts POKéMON's Speed and allows the use of STRENGTH outside of battle.
 - **STORMBADGE:** From Chuck. Makes all POKéMON up to L70 obey and enables the use of FLY outside of battle.
 
-## TMs
+### TMs
 - **TM01 DYNAMICPUNCH:** From Chuck. An inaccurate but powerful move that causes confusion when it hits.
 - **TM12 SWEET Scent**
 - **TM31 MUD-SLAP**
@@ -270,7 +234,8 @@
 - Youngster Joey on Route 30 called for a rematch.
 - Sailor Huey at the Olivine Lighthouse called for a rematch (multiple calls).
 
-## Tools & Agents
+# TOOLS & AGENTS
+## Available Tools & Agents
 ### Built-in Tools
 - `notepad_edit`
 - `run_code`
@@ -292,17 +257,35 @@
 - `python_code_debugger`
 - `puzzle_solver`
 
-## Ongoing Investigations
+## Tool Ideas
+- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
+- **`systematic_area_checker` tool:** A tool that, when in a confined area, generates a path to visit every single reachable tile and presses 'A' on each to search for hidden items or switches. This would automate tedious brute-force searches.
+
+# LESSONS LEARNED (CONSOLIDATED)
+- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
+- **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
+- **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
+- **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
+- **Positional Verification is Non-Negotiable:** My memory is unreliable. I MUST verify my `current_map_id` and `current_position` from the Game State Information after EVERY map transition. Failure to do so leads to catastrophic hallucinations and wasted turns.
+- **Multi-Level Puzzle Logic:** When all paths on a single map level are confirmed dead ends, the solution likely involves vertical movement (other floors) or an external event trigger outside the current map. Do not remain stuck on a single-floor hypothesis.
+- **Procedural Adherence:** When a documented procedure for a complex mechanic (like using an HM) exists in the notepad, I must follow it exactly instead of attempting unverified shortcuts.
+- **Re-evaluate Core Assumptions:** When a documented mechanic (like using STRENGTH) fails to solve an apparent puzzle, the root assumption that it *is* the puzzle is likely flawed. The obstacle may be a distraction. Instead of repeating the failed action, I must immediately pivot to exploring alternate paths or re-evaluating the fundamental goal.
+- **Perception Error:** I must be wary of perception errors, such as assuming a path is only one tile wide when it is wider. Before concluding a path is blocked, I must test adjacent tiles.
+- **Exhaust Simple Solutions First:** My fixation on using SURF to cross the Slowpoke Well was a false constraint. It caused me to ignore a simple, valid land route. When a path seems blocked, I must exhaust all simple, alternative land routes before attempting complex solutions involving HMs.
+- **Trust Tool Outputs Over Critiques:** If a tool like `notepad_edit` fails because text isn't found, it means the critique's premise was likely based on a hallucination. Verify the source of truth (the tool's output) before attempting a fix based on a critique's claim.
+- **Automate Error-Prone Tasks:** When a manual process like path planning repeatedly fails due to simple errors, the correct response is to create a tool to automate validation and prevent future mistakes. Relying on flawed manual attempts is inefficient.
+- **Tool Logic Must Mirror Game Mechanics:** A tool will fail if its internal model of the game is inaccurate. All future tools must be designed with a perfect understanding of the UI and mechanics they interact with.
+- **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
+- **Navigation Failure implies Puzzle:** When both automated (tools) and manual pathing attempts repeatedly fail in a small, seemingly simple area, the root cause is likely a misunderstanding of a puzzle, not a pathing error. I must pivot from trying to navigate to trying to solve the underlying puzzle.
+- **Plan Shorter Manual Paths:** When navigating manually, especially in complex or unfamiliar areas, plan short, simple paths of only a few steps at a time. This reduces the chance of making a planning error and running into a wall, which wastes turns.
+
+# IMMEDIATE TASKS
+- **Ecruteak Gym Warp Mapping:** After defeating the Gym Leader, I must systematically step on every single `PIT` tile in this gym. The system alert has confirmed they are warps. I will document the destination of each one with a `define_map_marker` call to ensure my map data is complete. This is a high-priority task to address the map hygiene critique.
+- **Olivine Lighthouse 2F Warp Mapping:** Once accessible, investigate and mark the warps (pits) at (16, 13) and (17, 13).
+
+# ONGOING INVESTIGATIONS
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on defeating MORTY, even though I just defeated CHUCK. This is a strange inconsistency.
 - **JUGGLER IRWIN (Phone):** Called to congratulate me on saving the POKéMON at the LIGHTHOUSE, even though I haven't done it yet. This is a strange inconsistency.
 - **Mt. Mortar Dead Ends:** All three entrances on Route 42 lead to dead ends from the west. The area is currently impassable.
 - **Silver Wing:** A Lass in the house at Cianwood (15, 37) mentioned a SILVER WING is needed to see a mythical sea creature. This item apparently has the same 'scent' as the creature.
-- **JUGGLER IRWIN (Phone):** Called to congratulate me on saving the POKéMON at the LIGHTHOUSE, even though I haven't done it yet. This is a strange inconsistency.
 - **GYM_GUIDE in Ecruteak Pokémon Center:** Mentioned a 'GYARADOS swarm' at the 'LAKE OF RAGE' and a potential 'conspiracy'. This seems like a major plot point.
-
-## Tool Ideas
-- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
-
-# LESSONS LEARNED
-- **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
-- **Tool Logic Must Handle State Transitions:** My `path_planner` tool failed because it couldn't calculate a path from a water tile to a land tile. This is a critical logic flaw. Tools that automate movement must be able to handle transitions between different movement states (e.g., surfing to walking) by finding the nearest valid transition point and planning the path in segments.
