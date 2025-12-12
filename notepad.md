@@ -11,7 +11,8 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** In Battle vs Kimono Girl Saito. Flux Fainted. Bahamut vs Pikachu.
-- **Strategy:** Fisher Hughes' Quagsire has Earthquake. Kimono Girl Saito's Umbreon has Mud-Slap. For both: Switch Vortex (Flying) to immune.
+- **Strategy:** vs Pikachu: Extremespeed (Physical, Priority). Scout for coverage moves. 
+- **Lesson:** Flux fainted to unexpected coverage. Always scout movesets first.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
 - **Registration Guide:**
