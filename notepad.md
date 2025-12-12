@@ -328,5 +328,5 @@
 - **Danger:** Wild Magnemites have Sonicboom (20 dmg). Flux is at risk.
 - **Trainer:** Pokefan F (4, 22) battles only at Night.
 - **Log:** Bought 10 Super Potions in Olivine Mart.
-- **Lesson:** Blind menu macros are unreliable. Always force the cursor to a known position (e.g., press Up x4 in Start Menu) and use generous sleep delays between inputs.
+- **Lesson:** Blind menu macros (press_sequence) are FAILING for Party Switching. I must use MANUAL, step-by-step button presses with visual verification for this task to avoid loops.
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
