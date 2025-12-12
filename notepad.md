@@ -3,7 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Win Battle 1.
-- **Status:** Battle 1 vs Fisher Hanson (Scizor).
+- **Status:** Lobby (Restarting).
+- **Last Loss:** Fisher Hanson (Scizor - Outsped Vortex!).
 - **Last Loss:** Scientist Nickel (Nidoking - Earthquake).
 - **Last Loss:** Scientist Thurman (Exeggutor).
 - **Location:** Battle Tower Battle Room.
