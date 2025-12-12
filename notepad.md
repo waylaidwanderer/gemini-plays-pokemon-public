@@ -2,18 +2,19 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Register for Level 20 Challenge.
+- **Current Task:** Confirm Level Selection.
 - **Status:** In Lobby.
-- **Last Loss:** Teacher Kawakami (Heracross).
-- **Location:** Battle Tower Battle Room.
-- **Party:** Bahamut (FNT), Vortex (Low), Flux (Active).
-- **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'.
+- **Last Loss:** Super Nerd Ogden (Scizor).
+- **Location:** Battle Tower Lobby.
+- **Party:** Bahamut, Flux, Vortex.
+- **Battle Tower Menu:** Level 20 Selected. Ready to Confirm.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Battle 1 vs Super Nerd Ogden.
-- **Recent Loss:** Teacher Kawakami (Heracross).
-  - **Threat:** Heracross (Megahorn, Earthquake). Fast physical sweeper. OHKO'd Flux and Bahamut.
-- **Strategy:** Lead Bahamut (Paralyze). Vortex equipped with Metal Coat.
+- **Status:** Registering.
+- **Recent Loss:** Super Nerd Ogden (Scizor).
+  - **Threat:** Scizor (Steel Wing, Sandstorm). Walls Vortex completely.
+  - **Strategy Adjustment:** Switch to Flux (Electric/Steel) immediately vs Scizor. Sonicboom ignores defense.
+- **Strategy:** Lead Bahamut (Paralyze).
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?).
 - **Opponent Intel (Pool):**
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
