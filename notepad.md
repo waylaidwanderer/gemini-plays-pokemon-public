@@ -328,3 +328,4 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 
 ### Slowpoke Well Boulder Puzzle
 - **Solution:** The boulder at (3, 2) blocks the path to the western platform. The solution is to activate the HM STRENGTH while adjacent to the boulder, then walk into it from the right (standing at (4, 2)) to push it left into the empty space at (2, 2), clearing the path.
+- **Tool Input Verification:** A tool will produce incorrect results or fail if given incorrect inputs. Always verify critical inputs, such as the player's current coordinates, against the Game State Information before calling a tool. Relying on memory for inputs is a common source of error.
