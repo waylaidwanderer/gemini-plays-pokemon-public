@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Defeat Lass.
-- **Status:** Battle 1.
-- **Location:** Battle Tower Battle Room.
+- **Current Task:** Register for Level 20 Challenge.
+- **Status:** Lobby (Restarting).
+- **Location:** Battle Tower Lobby.
 - **Party:** Bahamut, Flux, Vortex.
 
 ## 🏆 Battle Tower Challenge (Level 20)
