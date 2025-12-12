@@ -43,7 +43,7 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room (22_12).
 - **Status:** Round 1 vs Scientist Nickel.
-- **Action:** Battling Lapras. Switching Vortex -> Flux.
+- **Action:** Battling Lapras. Flux active. Lapras is Paralyzed.
 
 ## Global Game Mechanics
 ### General Mechanics
