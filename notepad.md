@@ -364,3 +364,4 @@
 - **Pokéfan Stock:** Miltank (Earthquake). MAJOR THREAT to Flux.
 - Bahamut fainted to Miltank's Earthquake. Switching to Vortex (Immune to Ground).
 - **Battle Update:** Teacher Kawakami's Heracross (Lv20) used Megahorn. Dealt 35 DMG to Vortex (Resisted). EXTREME DAMAGE THREAT. Likely OHKO on neutrals.
+- **Strategy Update:** Vortex OUTSPED Heracross! Fly dealt ~60% dmg. Heracross in Kill Range. Using Fly again.
