@@ -179,7 +179,6 @@
   - North Exit: Likely Victory Road.
   - South Exit: Route 26.
 - **Observations:** Black Belt guard at (12, 5) is gone (likely due to 16 badges). Path West appears open.
-## Victory Road Gate
 
 ## Route 28
 - **Mechanic Discovery:** WARP_CARPET_DOWN tiles may require walking 'Down' into a visual wall to trigger, rather than just walking onto them.
