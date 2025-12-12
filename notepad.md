@@ -8,25 +8,25 @@
 - **Party:** Bahamut, Flux, Vortex.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Lobby (Restarting).
-- **Recent Defeat:** Picnicker Andrews (Aerodactyl).
-  - **Aerodactyl:** Earthquake, Hyper Beam. Outspeeds entire team. **TEAM WIPER**.
-  - **Fatal Error:** Flux (Steel/Electric) is 4x weak to Ground. Aerodactyl MUST be countered by Vortex (Immune) or a high-defense wall.
-- **Critical Lesson:** Quick Claw users (Lapras, Scizor) are deadly.
-- **Strategy:** Lead Bahamut.
-- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?, Toxic).
+- **Status:** Preparation Phase (Rumpus).
+- **Strategy:**
+  1. **The Rumpus Gambit:** Train Rumpus (Tauros) to Lv20.
+  2. **Anti-Psychic Tech:** Teach TM30 (Shadow Ball) to Rumpus.
+     - **Why:** Alakazam/Starmie/Exeggutor are Special walls but Physically frail. Shadow Ball (Ghost) is Physical in Gen 2 and SE vs Psychic. Rumpus (Normal) has good Attack and Speed.
+  3. **Lead:** Bahamut (TWave/Extremespeed).
+  4. **Pivot:** Flux (Steel) for Ice/Psychic resistance.
+  5. **Sweeper:** Rumpus (Shadow Ball).
+- **Recent Lessons:**
+  - **Alakazam:** Fast, high SpAtk. Wiped team with Elemental Punches. Needs physical counter.
+  - **Aerodactyl:** Fast, Earthquake. Needs Ground immunity (Vortex) or tank.
+  - **Blissey:** Counter user. Do NOT use Normal moves (Sonicboom). Use Special attacks or Ghost moves.
 - **Opponent Intel (Pool):**
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
-  - **Picnicker Diaz:** Azumarill (Blizzard, Surf). **EXTREME THREAT**.
-  - **Youngster Wright:** Aerodactyl (Earthquake, Hyper Beam, Gold Berry). **DANGEROUS**.
-  - **Picnicker Andrews:** Aerodactyl.
-  - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
-  - **Fisher Hughes:** Quagsire (Water/Ground), Hitmonchan (Fire/Ice/Mega Punch).
-  - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast).
-  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras, Steelix (Swagger, Iron Tail, Earthquake). High Def, Low SpDef.
-  - **Teacher Marino:** Starmie (Surf, Psychic). Fast sweeper.
-  - **Super Nerd Morse:** Azumarill (Blizzard, Surf).
-  - **Fisher Hanson:** Scizor (Toxic, Sandstorm, Steel Wing).
+  - **Picnicker Diaz/Morse:** Azumarill (Blizzard, Surf). **EXTREME THREAT**.
+  - **Youngster Wright/Andrews:** Aerodactyl (Earthquake, Hyper Beam). **DANGEROUS**.
+  - **Kimono Girl Arita:** Lapras (Blizzard).
+  - **Scientist Nickel/Thurman:** Blissey (Psychic, Counter), Alakazam (Punches), Exeggutor.
+  - **Teacher Marino:** Starmie (Surf, Psychic).
 
 ## 📝 Quest & Event Log
 
