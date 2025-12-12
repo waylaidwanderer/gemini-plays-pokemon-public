@@ -4,7 +4,7 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Train Flux (Magnemite) to Lv 20 on Route 39. (HM04 Strength is already owned).
 - **Location:** Route 39. Training Flux.
-- **Party:** Flux (Lv17), Vortex (Lv19), Bahamut (Lv19).
+- **Party:** Flux (Lv17, PAR), Vortex (Lv19), Bahamut (Lv19).
 - **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
 - **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
@@ -12,7 +12,7 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparing for Attempt 3.
 - **Intel:** Heracross (Lv20) is DANGEROUS. Moves: Megahorn, Earthquake. Strategy: TWave immediately to cripple speed.
-- **Party:** Flux (Lv17), Vortex (Lv19), Bahamut (Lv19).
+- **Party:** Flux (Lv17, PAR), Vortex (Lv19), Bahamut (Lv19).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Flux (Magnemite).
