@@ -350,7 +350,7 @@
   - **Fisher Hughes:** Quagsire (Water/Ground). Earthquake. Immune to Electric.
 - **Correction:** Rejection was due to Level 10 selection. Item Clause verified: Bahamut (Dragon Fang), others None. Challenge accepted.
 - Update: Scientist Nickel's Lapras also knows Psychic.
-- Battle Log: Bahamut fainted. Vortex vs Lapras (Paralyzed).
+- Battle Log: Bahamut and Flux fainted. Vortex vs Starmie (Full HP). Plan: Quick Attack (Priority).
 - **Teacher Marino:** Starmie (Water/Psychic). Moves: Psychic (High Dmg!). Counter: Flux (Resists Psychic). High Speed.
  Plan: Bahamut uses Thunder Wave.
 - **Battle Update:** Bahamut fainted to Psychic (50 dmg). Vortex sent out. Starmie is faster and hits hard.
