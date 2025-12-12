@@ -3,38 +3,26 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Register for Level 20 Challenge.
-- **Status:** Lobby (Post-Defeat).
-- **Last Loss:** Fisher Hughes (Hitmonchan).
+- **Status:** Lobby (Post-Defeat). Party Auto-Healed.
+- **Last Loss:** Pokéfan Stock (Miltank).
 - **Location:** Battle Tower Lobby.
 - **Party:** Bahamut (Lv20), Vortex (Lv20), Flux (Lv20).
-- **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'. Pressing 'Down' selects 'CANCEL'.
-- **Log:** Stocked up on 10 Super Potions in Olivine.
-- **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
+- **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Lobby. Preparing to retry.
-- **Recent Lesson:** AERODACTYL HAS EARTHQUAKE. Flux (Magnemite) is 4x Weak. Do NOT switch Flux in against it.
-- **Strategy:** Lead Bahamut. Thunder Wave immediately against fast threats (Aerodactyl, Starmie, Alakazam).
+- **Status:** Retrying.
+- **Strategy:** Lead Bahamut (Paralyze). Switch Vortex vs Ground. BEWARE COVERAGE (Thunder/Blizzard/Fire Punch).
+- **Recent Lesson:** Miltank (Stock) has Earthquake/Thunder/Surf/Attract. Covers all my weaknesses.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
-- **Registration Guide:**
-  1. Select 'Challenge'.
-  2. Advance text boxes until save confirmation.
-  3. **CRITICAL:** The Level Selection menu appears *immediately* after the save delay (~6s).
-  4. Use manual inputs (Up -> A) to select Level 20. Do NOT use blind macros.
-- **NPC Intel:**
-  - **Granny:** Advises holding items.
-  - **Youngster:** Warns the *first* opponent is surprisingly tough.
-  - **Bug Catcher:** Avoid Fire types.
 - **Opponent Intel (Pool):**
+  - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
   - **Youngster Wright:** Aerodactyl (Earthquake, Hyper Beam, Gold Berry). **DANGEROUS**.
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
-  - **Rocker Masuda / Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). WARNING: Thunder hits through Fly!
-  - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
-  - **Blissey:** Psychic, Submission.
-  - **Magnemite:** Sonicboom (20 fixed dmg).
-  - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast, Gold Berry). High HP/Def.
-  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras (Water/Ice, Confuse Ray, Blizzard, Thunderbolt, Psychic).
-  - **Fisher Hughes:** Quagsire (Water/Ground, Earthquake, Rain Dance), Hitmonchan (Fire/Ice/Mega Punch).
+  - **Fisher Hughes:** Quagsire (Water/Ground), Hitmonchan (Fire/Ice/Mega Punch).
+  - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast).
+  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras.
+  - **Teacher Marino:** Starmie (Surf, Psychic). Fast sweeper.
+  - **Super Nerd Morse:** Azumarill (Blizzard, Surf).
 
 ## 📝 Quest & Event Log
 
