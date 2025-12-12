@@ -321,7 +321,7 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Pathing Verification:** Do not trust memory for pathing. I MUST meticulously verify every step of a manual path against the XML map data. To prevent simple, turn-wasting errors, I should ALWAYS default to using the `find_path` tool for navigation. Manual pathing should only be used for very short, visually trivial movements.
 
 # PLANS
-- **Slowpoke Well Strategy Pivot:** My pathfinding tools have confirmed that Slowpoke Well B1F is physically divided and impassable on foot. This makes the B2F area, previously thought to be a dead end, the only logical path forward. The new plan is to systematically re-investigate B2F for a hidden trigger, puzzle, or NPC that I missed on my first pass.
+- **Slowpoke Well B1F Strategy:** My pathfinding tools have confirmed that the eastern and western sections of B1F are physically separated by land. The B2F ladder is a confirmed dead end. The only remaining path forward is to use SURF to explore the western body of water from the eastern platform.
 
 # CONTINGENCY PLAN
 - **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
