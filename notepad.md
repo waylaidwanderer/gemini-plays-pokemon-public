@@ -360,4 +360,4 @@
   2. Bahamut paralyzed Azumarill.
   3. Bahamut used Dragonbreath (Azumarill -> Red HP).
   4. Azumarill used Blizzard (Hit). Bahamut fainted.
-  5. Current: Vortex vs Umbreon (Full HP). Vortex is last Pokemon. Plan: Use Fly for STAB damage.
+  5. Current: Vortex vs Umbreon. Vortex Badly Poisoned (Toxic). Umbreon is FASTER. Umbreon used Protect (Blocked Fly). Plan: Pivot to Steel Wing to avoid Fly lock.
