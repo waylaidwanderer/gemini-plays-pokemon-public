@@ -2,8 +2,8 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Win Battle 1.
-- **Status:** Battle 1 vs Super Nerd Ogden (Scizor Active).
+- **Current Task:** Register for Level 20 Challenge.
+- **Status:** In Lobby.
 - **Last Loss:** Teacher Kawakami (Heracross).
 - **Location:** Battle Tower Battle Room.
 - **Party:** Bahamut (FNT), Vortex (Low), Flux (Active).
