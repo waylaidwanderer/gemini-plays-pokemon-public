@@ -339,3 +339,4 @@
 ### Battle Tower Lobby Interactions
 - **Granny:** Advised holding items.
 - **Youngster:** Warned that the first opponent is surprisingly tough.
+  - **Fisher Hughes:** Quagsire (Water/Ground). Immune to Electric.
