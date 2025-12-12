@@ -10,8 +10,9 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Attempt 3.
-- **Intel:** Heracross (Lv20) is DANGEROUS. Moves: Megahorn, Earthquake. Strategy: TWave immediately to cripple speed.
+- **Status:** Battle 1 vs Boarder Crawford.
+- **Opponent:** Exeggutor (Lv20). Moves: Psychic.
+- **Strategy:** Sacrifice Flux (Sonicboom) -> Revenge kill with Vortex (Fly).
 - **Party:** Flux (Lv20), Vortex (Lv19), Bahamut (Lv19).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
