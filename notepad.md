@@ -13,17 +13,14 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Defeated (Round 1) by Alakazam. Restarting.
-- **New Intel:** Alakazam (Thurman) has Psychic/Thunderpunch & outspeeds team.
+- **Status:** Defeated (Round 2) by Blackbelt Nguyen's Alakazam. Restarting.
+- **New Intel:** Alakazam (Base 120 Speed) outspeeds entire team. Knows Psychic, Thunderpunch, likely Ice Punch.
 - **Counter-Strategies:**
-  - **Vs Lapras:** IMMEDIATE switch to Flux. Walls Ice/Electric. Use Thundershock.
-  - **Vs Exeggutor:** Flux RESISTS Psychic/Grass but takes ~55% HP (26 dmg) from Psychic. NOT a safe wall. Supersonic gambit may be required.
-  - **Vs Nidoking:** IMMEDIATE switch to Vortex (Immune to Ground).
-  - **Vs Electric:** Bahamut resists.
-  - **General:** Bahamut Leads. Aggressive switching based on immunities/resistances.
-- **Lesson:** Pikachu is high threat. Umbreon uses Mud-Slap.
+  - **Vs Alakazam:** **PRIORITY SPAM.** Do not switch. Lead Bahamut -> Extremespeed. If faints, Vortex -> Quick Attack. Target weak Physical Defense.
+  - **Vs Lapras:** Flux walls Ice/Electric. Thundershock.
+  - **Vs Exeggutor:** Flux resists Psychic/Grass but takes heavy damage. Risky.
+  - **General:** Speed is the enemy. Use Priority moves (Extremespeed, Quick Attack) to bypass speed tiers.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
-- **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
 - **Registration Guide:**
   1. Select 'Challenge'.
   2. Advance text boxes until save confirmation.
