@@ -353,3 +353,4 @@
 - Battle Log: Bahamut fainted. Vortex vs Lapras (Paralyzed).
 - **Teacher Marino:** Starmie (Water/Psychic). Moves: Psychic (High Dmg!). Counter: Flux (Resists Psychic). High Speed.
  Plan: Bahamut uses Thunder Wave.
+- **Battle Update:** Bahamut fainted to Psychic (50 dmg). Vortex sent out. Starmie is faster and hits hard.
