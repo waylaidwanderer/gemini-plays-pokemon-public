@@ -2,15 +2,15 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Confirm Level Selection.
-- **Status:** In Lobby.
+- **Current Task:** Follow Receptionist to Battle Room.
+- **Status:** Escorted by Receptionist.
 - **Last Loss:** Super Nerd Ogden (Scizor).
-- **Location:** Battle Tower Lobby.
+- **Location:** Battle Tower Hallway.
 - **Party:** Bahamut, Flux, Vortex.
-- **Battle Tower Menu:** Level 20 Selected. Ready to Confirm.
+- **Battle Tower Menu:** Challenge Active.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Registering.
+- **Status:** Entering Battle 1.
 - **Recent Loss:** Super Nerd Ogden (Scizor).
   - **Threat:** Scizor (Steel Wing, Sandstorm). Walls Vortex completely.
   - **Strategy Adjustment:** Switch to Flux (Electric/Steel) immediately vs Scizor. Sonicboom ignores defense.
