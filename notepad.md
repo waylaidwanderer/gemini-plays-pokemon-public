@@ -13,7 +13,7 @@
   - **Threat:** Scizor (Steel Wing, Sandstorm). Walls Vortex completely.
   - **Strategy Adjustment:** Switch to Flux (Electric/Steel) immediately vs Scizor. Sonicboom ignores defense.
 - **Strategy:** Lead Bahamut (Paralyze).
-- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?).
+- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?, Toxic).
 - **Opponent Intel (Pool):**
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
   - **Picnicker Diaz:** Azumarill (Blizzard, Surf). **EXTREME THREAT**.
