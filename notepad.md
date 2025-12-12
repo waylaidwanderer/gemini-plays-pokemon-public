@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Train Flux (Magnemite) to Lv 20 on Route 39. (HM04 Strength is already owned).
-- **Location:** Route 39. Training Flux.
-- **Party:** Flux (Lv18), Vortex (Lv19), Bahamut (Lv19).
+- **Current Task:** Head to Battle Tower for Level 20 Challenge.
+- **Location:** Route 39. Heading South.
+- **Party:** Flux (Lv20), Vortex (Lv19), Bahamut (Lv19).
 - **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
 - **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
