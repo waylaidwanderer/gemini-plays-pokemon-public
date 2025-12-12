@@ -6,6 +6,7 @@
 - **Location:** Route 39. Training Flux.
 - **Party:** Bahamut (Lv19), Vortex (Lv19), Flux (Lv16).
 - **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
+- **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
