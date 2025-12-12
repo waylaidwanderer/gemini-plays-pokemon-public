@@ -340,59 +340,13 @@
 - **Log:** Bought 10 Super Potions in Olivine Mart.
 - **Lesson:** Blind menu macros (press_sequence) are FAILING for Party Switching. I must use MANUAL, step-by-step button presses with visual verification for this task to avoid loops.
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
-### Battle Tower Lobby Interactions
-- **Granny:** Advised holding items.
-- **Youngster:** Warned that the first opponent is surprisingly tough.
-  - **Fisher Hughes:** Quagsire (Water/Ground). Earthquake. Immune to Electric.
-- **Correction:** Rejection was due to Level 10 selection. Item Clause verified: Bahamut (Dragon Fang), others None. Challenge accepted.
-- Update: Scientist Nickel's Lapras also knows Psychic.
-- Battle Log: Bahamut and Flux fainted. Vortex vs Starmie (Full HP). Plan: Quick Attack (Priority).
-- **Teacher Marino:** Starmie (Water/Psychic). Moves: Psychic, Surf (High Dmg). Counter: Bahamut (Resists Surf), Flux (Resists Psychic). BEWARE: Outspeeds entire team.
- Plan: Bahamut uses Thunder Wave.
-- **Battle Update:** Bahamut fainted to Psychic (50 dmg). Vortex sent out. Starmie is faster and hits hard.
-- **Defeat:** Teacher Marino (Starmie). Starmie (Water/Psychic) outspeeds entire team. Surf hits Flux neutral but hard. Psychic hits Bahamut neutral. Strategy: Bahamut resists Water. Must switch Bahamut in and use Thunder Wave immediately.
-- Battle 1 vs Scientist Thurman: Switched Bahamut -> Flux vs Alakazam.
-- **Intel:** Alakazam's Psychic deals ~29 dmg to Steel types (Resisted). Likely OHKO on others.
-- **Battle Update:** Exeggutor outspeeds Flux/Bahamut. Psychic deals ~52 neutral dmg (OHKO threat). Vortex (Speed 71) is the only check.
-- Round 2: Super Nerd Morse (Azumarill Lv20). Note: Knows Blizzard (OHKO Bahamut).
-- **Last Battle (Youngster Leong):** DEFEAT. 
-  - Azumarill: Surf, Blizzard (Major Threat to Dragons). 
-  - Umbreon: Toxic, Protect, Leftovers (Stall Strategy). 
-  - Lesson: Need a plan for Toxic stallers. Steel Wing was the right idea but Toxic damage accumulated too fast.
-- Battle 1 vs Psychic Santiago: Blissey Lv20 (Psychic). Bahamut 20/50 HP. Strategy: Spam Extremespeed (Physical).
-- Bahamut fainted to Blissey's Psychic.
-- Switch to Vortex (Physical Attacker) to target Blissey's low Def.
-- Battle Update: Blissey outsped Vortex (?). Vortex (34/61). Blissey Low HP.
-- Plan: Quick Attack to bypass speed.
-- Strategy: Blissey has Counter. Sonicboom (Normal=Physical) is UNSAFE. Use Thundershock (Electric=Special) to bypass Counter.
-- Battle 1: Bahamut fainted to Hitmonchan (Crit Mega Punch). Switching to Vortex.
-- **Battle Intel:** Vortex (Lv20 Pidgeotto) outspeeds Fisher's Hitmonchan (Lv20). Fly is safe.
-- **Battle Update:** Vortex fainted to Ice Punch. Hitmonchan has Ice Punch confirmed. Flux sent out. Plan: Sonicboom.
-- **Battle Critical:** Hitmonchan has Fire Punch (SE) and Gold Berry. Flux 16/45 HP. Plan: Supersonic.
-- **Pokéfan Stock:** Miltank (Earthquake). MAJOR THREAT to Flux.
-- Bahamut fainted to Miltank's Earthquake. Switching to Vortex (Immune to Ground).
-- **Battle Update:** Teacher Kawakami's Heracross (Lv20) used Megahorn. Dealt 35 DMG to Vortex (Resisted). EXTREME DAMAGE THREAT. Likely OHKO on neutrals.
-- **Strategy Update:** Vortex OUTSPED Heracross! Fly dealt ~60% dmg. Heracross in Kill Range. Using Fly again.
-- **Correction:** Party does NOT auto-heal perfectly or I failed to reset. Flux entered Battle 1 with 18/45 HP.
-- **Battle 1 Update:** Flux fainted to Exeggutor's Psychic (Resisted, ~18 dmg). Switching to Vortex (Fly is SE).
-- **Battle 1:** Youngster Leong. Blissey vs Bahamut. Strategy: Extremespeed.
- Bahamut fainted. Switched to Vortex. Strategy: Fly.
- Fly dealt ~50%. Blissey HP Low. Vortex 30/61 (Crit Range).
- Battle Calc: Blissey HP ~45% (Leftovers). Fly (STAB 105) vs Quick Attack (STAB 60). Fly is the only win condition. Vortex Faster -> Fly dodges Psychic.
-- Battle Update: Blissey OUTSPED Vortex (Base 55 vs 71). Critical Psychic KO'd Vortex. Suspect Quick Claw. Flux in. Plan: Sonicboom (20 dmg fixed) vs Blissey (High HP/SpDef).
-- Battle Update: Blissey used Softboiled. Flux used Sonicboom (20 dmg). It's a stall war. Flux has 19 Sonicbooms left.
-- Defeat: Youngster Leong (Blissey). Blissey used COUNTER on Sonicboom (Normal=Physical) for KO. Lesson: Sonicboom is unsafe vs Counter.
-- Vortex fainted to Ice Punch (Super Effective).
-- Hitmonchan survived Critical Fly.
-- Switching to Flux.
-
-## 🔬 Scientist Thurman Analysis (Post-Battle 1)
-- **Hitmonchan:** Ice/Fire/Thunder Punch. Paralyze with Bahamut.
-- **Umbreon:** Mud-Slap (Ground). **Flux Weakness Confirmed.**
-- **Strategy:** Switch Vortex into Umbreon (Immune to Ground).
-- **Battle 1 vs Pokéfan Jackson:** Lapras likely holds Quick Claw (Outsped Vortex while Paralyzed).
-- Battle 1: Swimmer Javier (Alakazam Lv20). Threat: Elemental Punches.
-- Battle 1: Switched Bahamut -> Flux vs Alakazam.
-- **Intel:** Alakazam's Psychic deals ~30 dmg to Steel types (Resisted). Likely OHKO on others.
-- Youngster at (6, 12) outside Battle Tower is a non-combatant.
-- Lass at (13, 4) on Route 40 is a non-combatant.
+## 🛡️ Battle Tower Threat Analysis (Consolidated)
+- **Blissey:** High HP, **Counter**. NEVER use Physical/Normal moves (Sonicboom, Strength, Fly). Use Special (Thundershock, Dragonbreath).
+- **Alakazam:** Fast, Elemental Punches. Weak Def. Counter: Physical moves (Strength, Fly).
+- **Aerodactyl:** Fast, Earthquake. Counter: Vortex (Immune).
+- **Starmie:** Fast, Surf/Psychic. Counter: Bahamut (TWave).
+- **Umbreon:** Toxic/Protect Stall. Counter: Toxic back.
+- **Heracross:** Megahorn (Huge Dmg). Counter: Vortex (Fly).
+- **Hitmonchan:** Elemental Punches. Counter: Vortex (Fly).
+- **Lapras:** Blizzard, Quick Claw.
+- **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
