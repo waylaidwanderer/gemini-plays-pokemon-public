@@ -43,7 +43,7 @@
 ### Current Logs
 - **Location:** Battle Tower Battle Room (22_12).
 - **Status:** Round 1 vs Scientist Nickel.
-- **Action:** Battling Lapras. Bahamut active (Confused). Lapras (Paralyzed, Critical HP).
+- **Action:** Battling Lapras. Bahamut active (Confused). Lapras (Paralyzed, Healed/Green HP).
 
 ## Global Game Mechanics
 ### General Mechanics
