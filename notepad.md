@@ -18,6 +18,7 @@
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
   - **Picnicker Diaz:** Azumarill (Blizzard, Surf). **EXTREME THREAT**.
   - **Youngster Wright:** Aerodactyl (Earthquake, Hyper Beam, Gold Berry). **DANGEROUS**.
+  - **Picnicker Andrews:** Aerodactyl.
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
   - **Fisher Hughes:** Quagsire (Water/Ground), Hitmonchan (Fire/Ice/Mega Punch).
   - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast).
