@@ -11,10 +11,12 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** In Progress (Round 1).
-- **Strategy:**
-  - **Vs Lapras:** Switch to Flux (Resists Ice/Electric).
-  - **Vs Exeggutor:** Switch to Flux (Resists Psychic/Normal) or Vortex (Fly vs Hyper Beam).
-  - **General:** Flux leads. Vortex pivots on Ground. Bahamut cleans up.
+- **Counter-Strategies:**
+  - **Vs Lapras:** IMMEDIATE switch to Flux. Walls Ice/Electric. Use Thundershock.
+  - **Vs Exeggutor:** IMMEDIATE switch to Flux (walls Psychic/Normal). Sonicboom is reliable.
+  - **Vs Nidoking:** IMMEDIATE switch to Vortex (Immune to Ground).
+  - **Vs Electric:** Bahamut resists.
+  - **General:** Bahamut Leads. Aggressive switching based on immunities/resistances.
 - **Lesson:** Pikachu is high threat. Umbreon uses Mud-Slap.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
