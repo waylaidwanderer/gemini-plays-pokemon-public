@@ -41,9 +41,9 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Battle Room (22_12).
-- **Status:** Round 1 vs Scientist Nickel.
-- **Action:** Battling Lapras. Bahamut active (Confused). Lapras (Paralyzed, Healed/Green HP).
+- **Location:** Battle Tower Hallway (22_14).
+- **Status:** Round 1 (Restarted).
+- **Action:** Entering Battle Room.
 
 ## Global Game Mechanics
 ### General Mechanics
