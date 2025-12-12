@@ -44,7 +44,7 @@
 - **Location:** Battle Room (22_12).
 - **Status:** Round 1 vs Pokefan Stock.
 - **Opponent:** Exeggutor (Lv20). Moves: Hyper Beam, Psychic. Item: Leftovers.
-- **Action:** Battling. Flux active vs Exeggutor. Exeggutor used Hyper Beam (Missed). Flux resists Psychic/Normal. Plan: Sonicboom (Fixed 20 Dmg).
+- **Action:** Desperate. Bahamut/Flux fainted. Vortex (4 HP) vs Exeggutor (~45%). Plan: Fly.
 - **Lesson:** Hyper Beam does NOT require recharge if it misses.
 
 ## Global Game Mechanics
