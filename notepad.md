@@ -3,9 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Prepare Rumpus (Tauros) for Battle Tower.
-- **Status:** Withdrawing Rumpus from PC.
-- **Location:** Battle Tower Lobby.
-- **Party:** Bahamut, Flux, Vortex.
+- **Status:** Training Rumpus (Tauros).
+- **Location:** Battle Tower Outside.
+- **Party:** Rumpus, Bahamut, Flux, Vortex.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparation Phase (Rumpus).
