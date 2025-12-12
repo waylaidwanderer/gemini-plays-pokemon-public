@@ -13,8 +13,8 @@
 - **Status:** Training for Rematch.
 - **Defeat Log:** Lost to Boarder Crawford (Exeggutor Lv20). Outsped and overpowered.
 - **Lesson:** Need full team at Lv20. Speed is critical.
-- **Current Task:** Train Vortex and Bahamut to Lv20 on Route 39.
-- **Party:** Flux (Lv20), Vortex (Lv19), Bahamut (Lv19).
+- **Current Task:** Train Bahamut to Lv20 on Route 39.
+- **Party:** Bahamut (Lv19), Vortex (Lv20), Flux (Lv20).
 - **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
 - **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
 - **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Flux (Magnemite).
