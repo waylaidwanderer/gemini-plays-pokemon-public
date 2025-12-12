@@ -374,3 +374,6 @@
 - Battle Update: Blissey OUTSPED Vortex (Base 55 vs 71). Critical Psychic KO'd Vortex. Suspect Quick Claw. Flux in. Plan: Sonicboom (20 dmg fixed) vs Blissey (High HP/SpDef).
 - Battle Update: Blissey used Softboiled. Flux used Sonicboom (20 dmg). It's a stall war. Flux has 19 Sonicbooms left.
 - Defeat: Youngster Leong (Blissey). Blissey used COUNTER on Sonicboom (Normal=Physical) for KO. Lesson: Sonicboom is unsafe vs Counter.
+- Vortex fainted to Ice Punch (Super Effective).
+- Hitmonchan survived Critical Fly.
+- Switching to Flux.
