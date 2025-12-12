@@ -389,3 +389,4 @@
 - Battle 1: Swimmer Javier (Alakazam Lv20). Threat: Elemental Punches.
 - Battle 1: Switched Bahamut -> Flux vs Alakazam.
 - **Intel:** Alakazam's Psychic deals ~30 dmg to Steel types (Resisted). Likely OHKO on others.
+- Youngster at (6, 12) outside Battle Tower is a non-combatant.
