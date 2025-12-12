@@ -13,8 +13,11 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Defeated (Round 2) by Blackbelt Nguyen's Alakazam. Restarting.
-- **New Intel:** Alakazam (Base 120 Speed) outspeeds entire team. Knows Psychic, Thunderpunch, likely Ice Punch.
+- **Status:** In Battle (Round 1) vs Youngster Wright.
+- **Opponent:** Aerodactyl (Hyper Beam, Gold Berry). Paralyzed.
+- **State:** Bahamut/Vortex FNT. Flux active.
+- **Strategy:** Flux walls Aerodactyl (Resists Rock/Flying). Spam Thundershock.
+- **New Intel:** Aerodactyl carries Gold Berry.
 - **Counter-Strategies:**
   - **Vs Alakazam:** **PRIORITY SPAM.** Do not switch. Lead Bahamut -> Extremespeed. If faints, Vortex -> Quick Attack. Target weak Physical Defense.
   - **Vs Lapras:** Flux walls Ice/Electric. Thundershock.
