@@ -361,3 +361,4 @@
 - **Battle Update:** Bahamut used Extremespeed (Crit). Umbreon used Toxic (Bahamut Badly Poisoned). Umbreon recovered with Leftovers.
 - **NPC Blockades:** Erratic NPCs in narrow paths can disrupt navigation. Use `stun_npc` to freeze them, then recalculate the path to go around.
 - **Route 39:** Pokefan F at (4, 22) is a Night-only battler.
+- **Route 39 Intel:** Wild Magnemites know Sonicboom (20 fixed dmg). Dangerous for low HP Pokémon. Pokefan F at (4, 22) is a Night-only battler.
