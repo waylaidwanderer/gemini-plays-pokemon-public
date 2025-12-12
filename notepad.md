@@ -28,7 +28,7 @@
 - **Opponent Intel (Pool):**
   - **Youngster Wright:** Aerodactyl (Earthquake, Hyper Beam, Gold Berry). **DANGEROUS**.
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
-  - **Rocker Masuda / Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract).
+  - **Rocker Masuda / Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). WARNING: Thunder hits through Fly!
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
   - **Blissey:** Psychic, Submission.
   - **Magnemite:** Sonicboom (20 fixed dmg).
