@@ -373,4 +373,4 @@
  Battle Calc: Blissey HP ~45% (Leftovers). Fly (STAB 105) vs Quick Attack (STAB 60). Fly is the only win condition. Vortex Faster -> Fly dodges Psychic.
 - Battle Update: Blissey OUTSPED Vortex (Base 55 vs 71). Critical Psychic KO'd Vortex. Suspect Quick Claw. Flux in. Plan: Sonicboom (20 dmg fixed) vs Blissey (High HP/SpDef).
 - Battle Update: Blissey used Softboiled. Flux used Sonicboom (20 dmg). It's a stall war. Flux has 19 Sonicbooms left.
-- Battle Update: Blissey revealed SUBMISSION (Fighting, 20 dmg). Flux 25/45. Blissey took recoil. Sonicboom landed (20 dmg). Race to the finish.
+- Defeat: Youngster Leong (Blissey). Blissey used COUNTER on Sonicboom (Normal=Physical) for KO. Lesson: Sonicboom is unsafe vs Counter.
