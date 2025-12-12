@@ -362,3 +362,4 @@
 - Battle 1 vs Scientist Thurman: Switched Bahamut -> Flux vs Alakazam.
 - **Intel:** Alakazam's Psychic deals ~29 dmg to Steel types (Resisted). Likely OHKO on others.
 - **Battle Update:** Exeggutor outspeeds Flux/Bahamut. Psychic deals ~52 neutral dmg (OHKO threat). Vortex (Speed 71) is the only check.
+- Round 2: Super Nerd Morse (Azumarill Lv20).
