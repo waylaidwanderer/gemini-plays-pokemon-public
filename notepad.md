@@ -360,3 +360,5 @@
   - Umbreon: Toxic, Protect, Leftovers (Stall Strategy). 
   - Lesson: Need a plan for Toxic stallers. Steel Wing was the right idea but Toxic damage accumulated too fast.
 - Battle 1 vs Psychic Santiago: Blissey Lv20 (Psychic). Bahamut 20/50 HP. Strategy: Spam Extremespeed (Physical).
+- Bahamut fainted to Blissey's Psychic.
+- Switch to Vortex (Physical Attacker) to target Blissey's low Def.
