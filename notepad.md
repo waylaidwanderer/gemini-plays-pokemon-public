@@ -360,4 +360,4 @@
   2. Bahamut paralyzed Azumarill.
   3. Bahamut used Dragonbreath (Azumarill -> Red HP).
   4. Azumarill used Blizzard (Hit). Bahamut fainted.
-  5. Current: Vortex vs Umbreon. Vortex Badly Poisoned (Toxic, 43/61 HP). Umbreon used Protect (Blocked Steel Wing). Plan: Spam Steel Wing (Protect likely to fail this turn).
+  5. Current: Vortex vs Umbreon. Vortex Badly Poisoned (16/61 HP). Umbreon used Protect x2. Plan: Quick Attack (Priority) to ensure damage before fainting.
