@@ -43,8 +43,8 @@
 ### Current Logs
 - **Location:** Battle Room (22_12).
 - **Status:** Round 1 vs Pokefan Stock.
-- **Opponent:** Exeggutor (Lv20).
-- **Action:** Battling. Bahamut active. Plan: Icy Wind.
+- **Opponent:** Exeggutor (Lv20). Move: Hyper Beam (Recharge).
+- **Action:** Battling. Bahamut Fainted. Plan: Switch to Vortex (Fly).
 
 ## Global Game Mechanics
 ### General Mechanics
