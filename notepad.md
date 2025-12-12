@@ -13,7 +13,7 @@
 - **Status:** Defeated by Kimono Girl Saito. Regrouping in Lobby.
 - **Strategy:** Need better answers for Electric/Ground coverage. Considering Basalt (Geodude).
 - **Lesson:** Pikachu is high threat. Umbreon uses Mud-Slap.
-- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
+- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, None).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
 - **Registration Guide:**
   1. Select 'Challenge'.
