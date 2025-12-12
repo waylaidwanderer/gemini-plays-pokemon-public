@@ -354,3 +354,4 @@
 - **Teacher Marino:** Starmie (Water/Psychic). Moves: Psychic, Surf (High Dmg). Counter: Bahamut (Resists Surf), Flux (Resists Psychic). BEWARE: Outspeeds entire team.
  Plan: Bahamut uses Thunder Wave.
 - **Battle Update:** Bahamut fainted to Psychic (50 dmg). Vortex sent out. Starmie is faster and hits hard.
+- **Defeat:** Teacher Marino (Starmie). Starmie (Water/Psychic) outspeeds entire team. Surf hits Flux neutral but hard. Psychic hits Bahamut neutral. Strategy: Bahamut resists Water. Must switch Bahamut in and use Thunder Wave immediately.
