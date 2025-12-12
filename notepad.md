@@ -385,3 +385,4 @@
 - **Umbreon:** Mud-Slap (Ground). **Flux Weakness Confirmed.**
 - **Strategy:** Switch Vortex into Umbreon (Immune to Ground).
 - **Battle 1 vs Pokéfan Jackson:** Lapras likely holds Quick Claw (Outsped Vortex while Paralyzed).
+- Battle 1: Swimmer Javier (Alakazam Lv20). Threat: Elemental Punches.
