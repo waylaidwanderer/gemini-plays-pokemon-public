@@ -17,7 +17,7 @@
 - **New Intel:** Alakazam (Thurman) has Psychic/Thunderpunch & outspeeds team.
 - **Counter-Strategies:**
   - **Vs Lapras:** IMMEDIATE switch to Flux. Walls Ice/Electric. Use Thundershock.
-  - **Vs Exeggutor:** IMMEDIATE switch to Flux (walls Psychic/Normal). Sonicboom is reliable.
+  - **Vs Exeggutor:** Flux RESISTS Psychic/Grass but takes ~55% HP (26 dmg) from Psychic. NOT a safe wall. Supersonic gambit may be required.
   - **Vs Nidoking:** IMMEDIATE switch to Vortex (Immune to Ground).
   - **Vs Electric:** Bahamut resists.
   - **General:** Bahamut Leads. Aggressive switching based on immunities/resistances.
