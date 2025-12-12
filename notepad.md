@@ -12,7 +12,7 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Battle 1 vs Super Nerd Ogden.
 - **Recent Loss:** Teacher Kawakami (Heracross).
-  - **Threat:** Miltank (Earthquake, Thunder, Surf, Attract). High Speed/Defense. Earthquake OHKO'd Flux.
+  - **Threat:** Heracross (Megahorn, Earthquake). Fast physical sweeper. OHKO'd Flux and Bahamut.
 - **Strategy:** Lead Bahamut (Paralyze). Vortex equipped with Metal Coat.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?).
 - **Opponent Intel (Pool):**
