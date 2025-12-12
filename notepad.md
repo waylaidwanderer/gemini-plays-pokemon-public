@@ -30,6 +30,7 @@
   - **Blissey:** Psychic, Submission.
   - **Magnemite:** Sonicboom (20 fixed dmg).
   - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast, Gold Berry). High HP/Def.
+  - **Scientist Nickel:** Blissey (Psychic), Nidoking.
 
 ## 📝 Quest & Event Log
 
