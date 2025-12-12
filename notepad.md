@@ -5,7 +5,7 @@
 - **Current Task:** Enter Battle Tower Level 20 Challenge.
 - **Location:** Olivine City.
 - **Party:** Bahamut (Lv20), Vortex (Lv20), Flux (Lv20).
-- **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
+- **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'. Pressing 'Down' selects 'CANCEL'.
 - **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
