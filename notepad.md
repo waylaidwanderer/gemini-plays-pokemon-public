@@ -2,27 +2,19 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Win Battle 1 (Vs Scientist).
-- **Status:** In Battle Room. Dialogue started.
-- **Opponent:** Scientist Thurman.
-- **Opponent Lead:** Alakazam (Lv20).
-- **Location:** Battle Tower (Round 1).
+- **Current Task:** Register for Level 20 Challenge.
+- **Status:** Lobby (Post-Defeat).
+- **Last Loss:** Youngster Wright (Aerodactyl).
+- **Location:** Battle Tower Lobby.
 - **Party:** Bahamut (Lv20), Vortex (Lv20), Flux (Lv20).
 - **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'. Pressing 'Down' selects 'CANCEL'.
 - **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** In Battle (Round 1) vs Youngster Wright.
-- **Opponent:** Aerodactyl (Hyper Beam, Gold Berry). Paralyzed.
-- **State:** Bahamut/Vortex FNT. Flux active.
-- **Strategy:** Flux walls Aerodactyl (Resists Rock/Flying). Spam Thundershock.
-- **New Intel:** Aerodactyl carries Gold Berry.
-- **Counter-Strategies:**
-  - **Vs Alakazam:** **PRIORITY SPAM.** Do not switch. Lead Bahamut -> Extremespeed. If faints, Vortex -> Quick Attack. Target weak Physical Defense.
-  - **Vs Lapras:** Flux walls Ice/Electric. Thundershock.
-  - **Vs Exeggutor:** Flux resists Psychic/Grass but takes heavy damage. Risky.
-  - **General:** Speed is the enemy. Use Priority moves (Extremespeed, Quick Attack) to bypass speed tiers.
+- **Status:** Lobby. Preparing to retry.
+- **Recent Lesson:** AERODACTYL HAS EARTHQUAKE. Flux (Magnemite) is 4x Weak. Do NOT switch Flux in against it.
+- **Strategy:** Lead Bahamut. Thunder Wave immediately against fast threats (Aerodactyl, Starmie, Alakazam).
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
 - **Registration Guide:**
   1. Select 'Challenge'.
@@ -34,13 +26,14 @@
   - **Youngster:** Warns the *first* opponent is surprisingly tough.
   - **Bug Catcher:** Avoid Fire types.
 - **Opponent Intel (Pool):**
+  - **Youngster Wright:** Aerodactyl (Earthquake, Hyper Beam, Gold Berry). **DANGEROUS**.
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
   - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
   - **Blissey:** Psychic, Submission.
   - **Magnemite:** Sonicboom (20 fixed dmg).
   - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast, Gold Berry). High HP/Def.
-  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras (Water/Ice, Confuse Ray, Blizzard, Thunderbolt, Psychic). (Defeated me in Round 1).
+  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras (Water/Ice, Confuse Ray, Blizzard, Thunderbolt, Psychic).
   - **Fisher Hughes:** Quagsire (Water/Ground, Earthquake, Rain Dance).
 
 ## 📝 Quest & Event Log
@@ -52,8 +45,6 @@
 ### Current Logs
 - **Location:** Battle Tower Lobby.
 - **Status:** Restarting Challenge.
-- **Last Defeat:** Pokefan Stock (Exeggutor). Fast Psychic user.
-- **Action:** Registering for Level 20 Challenge.
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -315,7 +306,7 @@
 - **Lesson:** Always check inventory space before foraging.
 ### Route 37 Findings
 - **Anomaly:** Twins Ann & Anne are labeled as `WEIRD_TREE` in the game state object list.
-- **Lesson:** Always check inventory space before foraging. A full pack prevents looting fruit trees.
+- **Lesson:** Inventory limit is strict (20 slots). Stacks count as 1 slot. Always check space before foraging. A full pack prevents looting fruit trees.
 - **Resources:**
   - Red Apricorn: (13, 5)
   - Black Apricorn: (15, 7)
