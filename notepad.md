@@ -327,3 +327,4 @@
 ## Route 39
 - Danger: Wild Magnemites know Sonicboom (20 fixed dmg). Dangerous for low HP Pokémon.
 - Trainer: Pokefan F at (4, 22) battles only at Night.
+- **Route 39 Strategy:** Flee from wild Magnemites (Sonicboom risk). Target Rattata or Meowth for training Flux.
