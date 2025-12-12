@@ -322,7 +322,7 @@
 - **Encounter:** Wild Magnemite on Route 39! Switching to Bahamut to catch.
 - **Route 39:** Retreated to Olivine City to heal Gauss (7/38 HP).
 ## New Discoveries
-- **Route 39:** Meowth (Wild).
+- **Route 39:** Meowth (Wild), Raticate (Wild).
 - **Lucre (Meowth):** Lv16. Scratch, Growl, Bite.
 - **Event:** Dunsparce Swarm reported in Dark Cave (Violet Entrance) by Anthony.
 - **Tool Rule:** `autopress_buttons: true` is ONLY for Custom Tools (e.g., `select_move`). System tools (e.g., `select_battle_option`) fail/ignore if this is set.
