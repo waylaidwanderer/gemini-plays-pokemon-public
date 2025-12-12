@@ -342,4 +342,4 @@
 - **Granny:** Advised holding items.
 - **Youngster:** Warned that the first opponent is surprisingly tough.
   - **Fisher Hughes:** Quagsire (Water/Ground). Earthquake. Immune to Electric.
-- **Correction:** Rejection likely due to selecting Level 10 Challenge (Party is Lv20). Item Clause violation unconfirmed. Verifying items now.
+- **Correction:** Rejection was due to Level 10 selection. Item Clause verified: Bahamut (Dragon Fang), others None. Challenge accepted.
