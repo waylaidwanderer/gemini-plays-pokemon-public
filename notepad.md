@@ -10,12 +10,14 @@
 - **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Retrying.
-- **Strategy:** Lead Bahamut (Paralyze). Switch Vortex vs Ground. BEWARE COVERAGE (Thunder/Blizzard/Fire Punch).
-- **Recent Lesson:** Miltank (Stock) has Earthquake/Thunder/Surf/Attract. Covers all my weaknesses.
-- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
+- **Status:** Lobby (Restarting).
+- **Recent Loss:** Picnicker Diaz (Azumarill).
+  - **Threat:** Azumarill (Blizzard, Surf). Outsped Bahamut/Flux. Blizzard is fatal.
+- **Strategy:** Lead Bahamut (Paralyze). Equip Metal Coat to Vortex.
+- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?).
 - **Opponent Intel (Pool):**
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
+  - **Picnicker Diaz:** Azumarill (Blizzard, Surf). **EXTREME THREAT**.
   - **Youngster Wright:** Aerodactyl (Earthquake, Hyper Beam, Gold Berry). **DANGEROUS**.
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
   - **Fisher Hughes:** Quagsire (Water/Ground), Hitmonchan (Fire/Ice/Mega Punch).
