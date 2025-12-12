@@ -372,3 +372,4 @@
  Fly dealt ~50%. Blissey HP Low. Vortex 30/61 (Crit Range).
  Battle Calc: Blissey HP ~45% (Leftovers). Fly (STAB 105) vs Quick Attack (STAB 60). Fly is the only win condition. Vortex Faster -> Fly dodges Psychic.
 - Battle Update: Blissey OUTSPED Vortex (Base 55 vs 71). Critical Psychic KO'd Vortex. Suspect Quick Claw. Flux in. Plan: Sonicboom (20 dmg fixed) vs Blissey (High HP/SpDef).
+- Battle Update: Blissey used Softboiled. Flux used Sonicboom (20 dmg). It's a stall war. Flux has 19 Sonicbooms left.
