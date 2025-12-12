@@ -321,7 +321,7 @@ My `puzzle_solver` agent provided new hypotheses after I got stuck on the centra
 - **Pathing Verification:** Do not trust memory for pathing. I MUST meticulously verify every step of a manual path against the XML map data. To prevent simple, turn-wasting errors, I should ALWAYS default to using the `find_path` tool for navigation. Manual pathing should only be used for very short, visually trivial movements.
 
 # PLANS
-- **Slowpoke Well Strategy Pivot:** After exhausting all hypotheses (hidden switches, boulder puzzle, B2F exploration), the current area seems unsolvable. The root assumption that a solution is immediately available is likely a false constraint. The new plan is to backtrack to Azalea Town and speak with Kurt again, as he is the quest-giver and may provide the trigger needed to progress.
+- **Slowpoke Well Strategy Pivot:** My pathfinding tools have confirmed that Slowpoke Well B1F is physically divided and impassable on foot. This makes the B2F area, previously thought to be a dead end, the only logical path forward. The new plan is to systematically re-investigate B2F for a hidden trigger, puzzle, or NPC that I missed on my first pass.
 
 # CONTINGENCY PLAN
 - **Slowpoke Well Puzzle:** If the 'fake wall' hypothesis fails after testing every southern wall tile, the root assumption that the solution is *inside* this chamber is likely a false constraint. The next step is to leave the well and speak with Kurt in Azalea Town again.
