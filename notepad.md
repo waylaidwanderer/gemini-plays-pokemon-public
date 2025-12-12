@@ -364,3 +364,4 @@
 - Switch to Vortex (Physical Attacker) to target Blissey's low Def.
 - Battle Update: Blissey outsped Vortex (?). Vortex (34/61). Blissey Low HP.
 - Plan: Quick Attack to bypass speed.
+- Strategy: Blissey has Counter. Sonicboom (Normal=Physical) is UNSAFE. Use Thundershock (Electric=Special) to bypass Counter.
