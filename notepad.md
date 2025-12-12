@@ -5,7 +5,7 @@
 - **Current Task:** Registering for Battle Tower.
 - **Status:** Saving Game.
 - **Last Loss:** Scientist Thurman (Exeggutor).
-- **Location:** Battle Tower Elevator.
+- **Location:** Battle Tower Hallway.
 - **Party:** Bahamut, Flux, Vortex.
 - **Battle Tower Menu:** Challenge Active.
 
