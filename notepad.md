@@ -5,7 +5,9 @@
 - **Current Task:** Registering for Battle Tower.
 - **Status:** Saving Game.
 - **Last Loss:** Scientist Thurman (Exeggutor).
-- **Location:** Battle Tower Hallway.
+- **Location:** Battle Tower Battle Room.
+- **Status:** Facing Scientist Thurman (Round 1).
+- **Strategy:** Switch to Flux immediately vs Exeggutor.
 - **Party:** Bahamut, Flux, Vortex.
 - **Battle Tower Menu:** Challenge Active.
 
