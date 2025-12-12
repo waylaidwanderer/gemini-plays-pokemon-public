@@ -10,9 +10,9 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** In Battle vs Kimono Girl Saito. Flux & Bahamut Fainted. Vortex (Last Stand) vs Pikachu.
-- **Strategy:** vs Pikachu: Extremespeed (Physical, Priority). Scout for coverage moves. 
-- **Lesson:** Flux fainted to unexpected coverage. Always scout movesets first.
+- **Status:** Defeated by Kimono Girl Saito. Regrouping in Lobby.
+- **Strategy:** Need better answers for Electric/Ground coverage. Considering Basalt (Geodude).
+- **Lesson:** Pikachu is high threat. Umbreon uses Mud-Slap.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
 - **Registration Guide:**
