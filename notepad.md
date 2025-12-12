@@ -256,12 +256,6 @@
 
 ## Tool Ideas
 - **`systematic_area_checker` tool:** A tool that, when in a confined area, generates a path to visit every single reachable tile and presses 'A' on each to search for hidden items or switches. This would automate tedious brute-force searches.
-
-# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
-- **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
-- **Correct Escalation Path:** When a pathfinding tool reports no path in a small area, the correct escalation is to the `puzzle_solver` agent to challenge the assumption that a path should exist, not to the `python_code_debugger` to fix a non-existent bug.
-- **`find_path` Limitation:** The tool cannot generate a path that requires a state change (e.g., walking to surfing). It will fail because such transitions are illegal without a manual HM activation. Paths requiring HMs must be executed in segments: 1) Path to the HM usage point. 2) Manually use the HM. 3) Path from the new position to the destination.
-- **Tool Verification is Mandatory:** A critical hallucination occurred where I believed a custom tool existed when it did not. I MUST verify the existence of any custom tool by checking the provided `Available Tools` list before documenting or attempting to use it. Relying on memory is a critical failure.
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using the `puzzle_solver` agent if necessary.
 - **Use `stun_npc` Proactively:** When a path is repeatedly blocked by a moving NPC, I must use the `stun_npc` tool immediately instead of wasting turns recalculating paths. A deterministic strategy is superior to repeated failed attempts with a probabilistic one.
 - **Fly Map Navigation:** The Fly map is not a free-roam grid. It consists of fixed, non-intuitive paths between cities.
