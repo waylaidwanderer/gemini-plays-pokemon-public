@@ -228,12 +228,13 @@
 - **Strategy:** Using a rapid `press_sequence` (Down, A, sleep 200, Down, A) to select Level 20 before the harness can intervene.
 - **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
 
-# Battle Tower Lessons (Archived)
-- **Summary:** Early attempts failed due to type disadvantages (Water vs Ground/Rock) and level gaps.
-- **Key Learnings:**
-  - Need balanced coverage; Rock/Ground heavy is risky.
-  - Dark is Special in Gen 2.
-  - Team needs to be closer to Level 20 cap.
+# Battle Tower Intel
+- **General Strategy:** Lead Bahamut (TWave). Flux resists Ice/Psychic/Normal. Vortex immune to Ground.
+- **Known Threats:**
+  - **Aerodactyl:** Earthquake, Hyper Beam. (Counters Flux).
+  - **Starmie:** Surf, Psychic. Fast.
+  - **Azumarill:** Blizzard, Surf. (Counters Dragons).
+  - **Alakazam:** Psychic, Elemental Punches.
 
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
