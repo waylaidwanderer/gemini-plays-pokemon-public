@@ -361,3 +361,4 @@
 - **Defeat:** Teacher Marino (Starmie). Starmie (Water/Psychic) outspeeds entire team. Surf hits Flux neutral but hard. Psychic hits Bahamut neutral. Strategy: Bahamut resists Water. Must switch Bahamut in and use Thunder Wave immediately.
 - Battle 1 vs Scientist Thurman: Switched Bahamut -> Flux vs Alakazam.
 - **Intel:** Alakazam's Psychic deals ~29 dmg to Steel types (Resisted). Likely OHKO on others.
+- **Battle Update:** Exeggutor outspeeds Flux/Bahamut. Psychic deals ~52 neutral dmg (OHKO threat). Vortex (Speed 71) is the only check.
