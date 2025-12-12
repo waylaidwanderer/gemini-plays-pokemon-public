@@ -10,7 +10,7 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Defeated by Kimono Girl Saito. Regrouping in Lobby.
+- **Status:** In Progress (Round 1).
 - **Strategy:** Need better answers for Electric/Ground coverage. Considering Basalt (Geodude).
 - **Lesson:** Pikachu is high threat. Umbreon uses Mud-Slap.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
