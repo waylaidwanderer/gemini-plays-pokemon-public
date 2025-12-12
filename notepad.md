@@ -34,10 +34,6 @@
 - **Lesson:** Battle Tower Level 20 Room has a STRICT cap. Party members > Lv20 are ineligible.
 - **Action:** Deposited Gauss. Catching replacement (< Lv20) on Route 39.
 
-## Fuchsia Gym (Cleared)
-- **Mechanic:** Invisible walls are present but explicitly marked as `WALL` in the map data. `find_path` tool navigates them perfectly.
-- **Status:** Janine Defeated. Soul Badge Obtained.
-
 ## Global Game Mechanics
 ### General Mechanics
 - **Physics:** Boulders cannot push other boulders. You must occupy the tile 'behind' a boulder to push it.
