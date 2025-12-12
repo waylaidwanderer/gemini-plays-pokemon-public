@@ -354,4 +354,4 @@
 - **Intel:** Alakazam's Psychic deals ~29 dmg to Steel types (Resisted). Likely OHKO on others.
 - **Battle Update:** Exeggutor outspeeds Flux/Bahamut. Psychic deals ~52 neutral dmg (OHKO threat). Vortex (Speed 71) is the only check.
 - Round 2: Super Nerd Morse (Azumarill Lv20). Note: Knows Blizzard (OHKO Bahamut).
-- **Battle 1 (Youngster Leong):** Flux fainted to Azumarill (Surf). Bahamut active. Strategy: Thunder Wave.
+- **Battle 1 (Youngster Leong):** Flux fainted. Azumarill (~65% HP, Paralyzed). Bahamut (Full HP) active.
