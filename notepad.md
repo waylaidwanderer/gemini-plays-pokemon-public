@@ -359,3 +359,4 @@
 - **Battle Update:** Vortex Badly Poisoned by Umbreon. Switching to Bahamut to reset Toxic counter and attempt Thunder Wave.
 - **Battle Update:** Umbreon used Attract (Failed). Bahamut paralyzed Umbreon with Thunder Wave. Umbreon moves known: Toxic, Protect, Attract.
 - **Battle Update:** Bahamut used Extremespeed (Crit). Umbreon used Toxic (Bahamut Badly Poisoned). Umbreon recovered with Leftovers.
+- **NPC Blockades:** Erratic NPCs in narrow paths can disrupt navigation. Use `stun_npc` to freeze them, then recalculate the path to go around.
