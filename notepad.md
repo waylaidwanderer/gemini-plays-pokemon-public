@@ -44,7 +44,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Lobby.
-- **Status:** Restarting Challenge.
+- **Status:** Challenge Started (Level 20).
 
 ## Global Game Mechanics
 ### General Mechanics
