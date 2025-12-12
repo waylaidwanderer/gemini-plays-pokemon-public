@@ -32,10 +32,9 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Lobby (22_11).
-- **Status:** Team Management.
-- **Lesson:** Battle Tower Level 20 Room has a STRICT cap. Party members > Lv20 are ineligible.
-- **Action:** Deposited Gauss. Catching replacement (< Lv20) on Route 39.
+- **Location:** Route 40 Battle Tower Gate (22_15).
+- **Status:** Entering Battle Tower Challenge.
+- **Action:** Team ready (All Lv20). Heading to Lobby.
 
 ## Global Game Mechanics
 ### General Mechanics
