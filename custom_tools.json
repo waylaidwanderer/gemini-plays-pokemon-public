@@ -793,5 +793,35 @@
         "action_counter": 41334
       }
     ]
+  },
+  "use_hm_move": {
+    "description": "Automates using an HM move from the party menu. It navigates to the specified Pokémon and selects the move.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_name": {
+          "type": "string"
+        },
+        "move_name": {
+          "type": "string"
+        },
+        "current_screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "pokemon_name",
+        "move_name",
+        "current_screen_text"
+      ]
+    },
+    "python_script": "import json\nimport re\n\ndef parse_pokemon_list(screen_text):\n    lines = screen_text.split('\\n')\n    pokemon_list = []\n    for line in lines:\n        if 'LV' in line:\n            match = re.search(r'([A-Z][A-Z ]+)', line)\n            if match:\n                pokemon_list.append(match.group(1).strip())\n    return pokemon_list\n\ndef get_path(current_index, target_index, list_size):\n    down_moves = (target_index - current_index + list_size) % list_size\n    up_moves = (current_index - target_index + list_size) % list_size\n    return ['Down'] * down_moves if down_moves <= up_moves else ['Up'] * up_moves\n\ntarget_pokemon = input_data['pokemon_name']\ntarget_move = input_data['move_name']\nscreen_text = input_data['current_screen_text']\n\n# This simplified version assumes we are already in the party menu\n\npokemon_on_screen = parse_pokemon_list(screen_text)\n\nif target_pokemon not in pokemon_on_screen:\n    print(json.dumps([])) \n    exit()\n\ncursor_pos = -1\nfor i, line in enumerate(screen_text.split('\\n')):\n    if '>' in line:\n        cursor_pos = i\n        break\n\ncurrent_index = 0\ntry:\n    # This is a fragile way to find the current index, relies on cursor position\n    current_pokemon_name = pokemon_on_screen[cursor_pos]\n    current_index = pokemon_on_screen.index(current_pokemon_name)\nexcept (IndexError, ValueError):\n    pass\n\ntarget_index = pokemon_on_screen.index(target_pokemon)\n\npath_to_pokemon = get_path(current_index, target_index, len(pokemon_on_screen))\n\n# For now, we assume the HM is the first move. A robust version needs another screen parse.\npath_to_move = [] \n\ncommands = ['Start', 'A'] + path_to_pokemon + ['A'] + path_to_move + ['A']\n\nprint(json.dumps(commands))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-12T07:09:39.535Z",
+        "action_counter": 48863
+      }
+    ]
   }
 }
