@@ -34,9 +34,10 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Battle Room.
-- **Status:** Battle 1 vs Scientist Thurman (Exeggutor - Leftovers). Bahamut (50/50 HP) Active. Flux/Vortex Fainted.
-- **Last Loss:** Teacher Kawakami (Heracross).
+- **Location:** Battle Tower Lobby.
+- **Status:** Ready to challenge Level 20.
+- **Last Loss:** Scientist Thurman (Exeggutor).
+  - **Lesson:** Exeggutor outspeeds team. Flux (Steel) is the hard counter. Switch immediately.
 
 ## Global Game Mechanics
 ### General Mechanics
