@@ -386,3 +386,5 @@
 - **Strategy:** Switch Vortex into Umbreon (Immune to Ground).
 - **Battle 1 vs Pokéfan Jackson:** Lapras likely holds Quick Claw (Outsped Vortex while Paralyzed).
 - Battle 1: Swimmer Javier (Alakazam Lv20). Threat: Elemental Punches.
+- Battle 1: Switched Bahamut -> Flux vs Alakazam.
+- **Intel:** Alakazam's Psychic deals ~30 dmg to Steel types (Resisted). Likely OHKO on others.
