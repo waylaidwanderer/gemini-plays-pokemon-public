@@ -43,8 +43,8 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Lobby.
-- **Status:** Restarting Challenge.
+- **Location:** Battle Tower Battle Room.
+- **Status:** Battle 1 vs Fisher (Hitmonchan).
 - **Recent Defeat:** Psychic Santiago (Blissey). Moves: Psychic, Submission, Counter, Softboiled. Strategy: Extremespeed spam, avoid weak physical hits.
 
 ## Global Game Mechanics
