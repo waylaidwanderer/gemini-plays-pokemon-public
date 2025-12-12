@@ -10,7 +10,7 @@
 - **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Lobby (Restarting).
+- **Status:** Entering Battle 1 (Level 20).
 - **Recent Loss:** Pokéfan Stock (Miltank).
   - **Threat:** Miltank (Earthquake, Thunder, Surf, Attract). High Speed/Defense. Earthquake OHKO'd Flux.
 - **Strategy:** Lead Bahamut (Paralyze). Vortex equipped with Metal Coat.
