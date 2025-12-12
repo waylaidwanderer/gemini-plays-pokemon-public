@@ -248,7 +248,7 @@
 - `select_move`
 - `switch_pokemon`
 - `find_path`
-- `use_hm_move`
+- `explore_accessible_tiles`
 
 ### Custom Agents
 - `python_code_debugger`
