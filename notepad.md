@@ -170,15 +170,6 @@
   - Youngster (43, 6) - Marked.
 - **Lesson:** Mark trainers as obstacles immediately upon sighting to avoid pathfinding collisions.
 
-## Viridian City
-- **Geography:**
-  - Pokémon Center: (23, 25).
-  - Trainer House: (23, 15).
-  - Nickname House: (21, 9).
-  - Gym: (32, 7). Entrance blocked by Gramps at (30, 8).
-- **Strategy:** Navigate around the Gym building (North side) to reach the entrance from the East.
-- **Viridian Gym:** Found Blue at (5, 3). Challenging him now.
-- **Battle Strategy Update:** Paprika critical. Gyarados too strong. Switching to fodder to stall out Hydro Pump PP (5 total) and heal Paprika with Super Potions.
 ### Menu Navigation
 - **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
 - **Cursor Memory:** The game remembers the last cursor position. Always visually confirm or reset cursor (e.g., press Up x5) before navigating blind.
