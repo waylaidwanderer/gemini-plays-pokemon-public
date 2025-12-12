@@ -355,9 +355,7 @@
 - **Intel:** Alakazam's Psychic deals ~29 dmg to Steel types (Resisted). Likely OHKO on others.
 - **Battle Update:** Exeggutor outspeeds Flux/Bahamut. Psychic deals ~52 neutral dmg (OHKO threat). Vortex (Speed 71) is the only check.
 - Round 2: Super Nerd Morse (Azumarill Lv20). Note: Knows Blizzard (OHKO Bahamut).
-- **Battle 1 (Youngster Leong):** 
-  1. Flux fainted (Sacrifice).
-  2. Bahamut paralyzed Azumarill.
-  3. Bahamut used Dragonbreath (Azumarill -> Red HP).
-  4. Azumarill used Blizzard (Hit). Bahamut fainted.
-  5. Current: Vortex vs Umbreon. Vortex Badly Poisoned (16/61 HP). Umbreon used Protect x2. Plan: Quick Attack (Priority) to ensure damage before fainting.
+- **Last Battle (Youngster Leong):** DEFEAT. 
+  - Azumarill: Surf, Blizzard (Major Threat to Dragons). 
+  - Umbreon: Toxic, Protect, Leftovers (Stall Strategy). 
+  - Lesson: Need a plan for Toxic stallers. Steel Wing was the right idea but Toxic damage accumulated too fast.
