@@ -368,3 +368,4 @@
 - **Correction:** Party does NOT auto-heal perfectly or I failed to reset. Flux entered Battle 1 with 18/45 HP.
 - **Battle 1 Update:** Flux fainted to Exeggutor's Psychic (Resisted, ~18 dmg). Switching to Vortex (Fly is SE).
 - **Battle 1:** Youngster Leong. Blissey vs Bahamut. Strategy: Extremespeed.
+ Bahamut fainted. Switched to Vortex. Strategy: Fly.
