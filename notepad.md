@@ -9,6 +9,7 @@
 - **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
+- **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparing for Attempt 3.
