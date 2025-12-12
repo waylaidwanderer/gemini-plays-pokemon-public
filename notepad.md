@@ -30,6 +30,7 @@
   - **Blissey:** Psychic, Submission.
   - **Magnemite:** Sonicboom (20 fixed dmg).
   - **Swimmer Dykstra:** Wigglytuff (Blizzard, Gold Berry).
+  - **Swimmer Dykstra:** Wigglytuff (Blizzard, Gold Berry).
 
 ## 📝 Quest & Event Log
 
