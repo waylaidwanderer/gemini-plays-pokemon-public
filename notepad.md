@@ -11,9 +11,9 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Lobby (Restarting).
-- **Recent Loss:** Picnicker Diaz (Azumarill).
-  - **Threat:** Azumarill (Blizzard, Surf). Outsped Bahamut/Flux. Blizzard is fatal.
-- **Strategy:** Lead Bahamut (Paralyze). Equip Metal Coat to Vortex.
+- **Recent Loss:** Pokéfan Stock (Miltank).
+  - **Threat:** Miltank (Earthquake, Thunder, Surf, Attract). High Speed/Defense. Earthquake OHKO'd Flux.
+- **Strategy:** Lead Bahamut (Paralyze). Vortex equipped with Metal Coat.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?).
 - **Opponent Intel (Pool):**
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
