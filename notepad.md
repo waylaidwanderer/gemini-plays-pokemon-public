@@ -328,3 +328,4 @@
 - **Danger:** Wild Magnemites have Sonicboom (20 dmg). Flux is at risk.
 - **Trainer:** Pokefan F (4, 22) battles only at Night.
 - **Log:** Bought 10 Super Potions in Olivine Mart.
+- **Lesson:** Blind menu macros are unreliable. Always force the cursor to a known position (e.g., press Up x4 in Start Menu) and use generous sleep delays between inputs.
