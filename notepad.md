@@ -11,8 +11,9 @@
 - **Status:** Preparation Phase (Rumpus).
 - **Strategy:**
   1. **The Rumpus Gambit:** Train Rumpus (Tauros) to Lv20.
-  2. **Anti-Psychic Tech:** Teach TM30 (Shadow Ball) to Rumpus.
-     - **Why:** Alakazam/Starmie/Exeggutor are Special walls but Physically frail. Shadow Ball (Ghost) is Physical in Gen 2 and SE vs Psychic. Rumpus (Normal) has good Attack and Speed.
+  2. **The Strength Gambit:** Teach HM04 (Strength) to Rumpus.
+     - **Correction:** Tauros cannot learn Shadow Ball in Gen 2 (Verified).
+     - **New Plan:** Use STAB Strength (80 BP) to brute force frail Psychics.
   3. **Lead:** Bahamut (TWave/Extremespeed).
   4. **Pivot:** Flux (Steel) for Ice/Psychic resistance.
   5. **Sweeper:** Rumpus (Shadow Ball).
