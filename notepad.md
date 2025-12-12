@@ -10,7 +10,7 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Lobby. **ACTION:** Re-equipping items (Dragon Fang is in bag).
+- **Status:** Lobby. **ACTION:** Equipping Mint Berry to Vortex.
 - **Strategy:** Fisher Hughes' Quagsire has Earthquake. Lead/Switch Vortex (Flying) to immune.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
