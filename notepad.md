@@ -345,3 +345,4 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 
 # STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **Trust Tool Outputs Over Assumptions:** A recurring critical failure has been assuming a tool is broken when it produces an undesirable result (e.g., 'No path found'). The tool's output must be treated as the source of truth about the game state. If the tool says a path is impossible, the correct response is to re-evaluate the strategic assumption that a path should exist, not to debug the tool. Questioning the root hypothesis is more productive than questioning the tool that's testing it.
+- **Trust Tools Over Perception:** A critical failure was assuming I was trapped in a room when a path was available. My own visual perception can be flawed. If the `find_path` tool reports a valid path, I must trust its output as the source of truth, even if I cannot immediately see the route myself.
