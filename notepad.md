@@ -43,9 +43,10 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Battle Room.
-- **Status:** Battle 1 vs Fisher (Hitmonchan).
-- **Recent Defeat:** Psychic Santiago (Blissey). Moves: Psychic, Submission, Counter, Softboiled. Strategy: Extremespeed spam, avoid weak physical hits.
+- **Location:** Battle Tower Lobby.
+- **Status:** Restarting Challenge.
+- **Last Loss:** Fisher Hughes (Hitmonchan). Moves: Fire Punch, Ice Punch, Mega Punch. Covers all weaknesses.
+- **Strategy Update:** Hitmonchan is a priority threat. Must paralyze immediately. Vortex's Fly is risky due to Ice Punch but might be necessary.
 
 ## Global Game Mechanics
 ### General Mechanics
