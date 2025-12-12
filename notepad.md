@@ -10,24 +10,29 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparation Phase (Rumpus).
 - **Strategy:**
-  1. **The Rumpus Gambit:** Train Rumpus (Tauros) to Lv20.
-  2. **The Strength Gambit:** Teach HM04 (Strength) to Rumpus.
-     - **Correction:** Tauros cannot learn Shadow Ball in Gen 2 (Verified).
-     - **New Plan:** Use STAB Strength (80 BP) to brute force frail Psychics.
-  3. **Lead:** Bahamut (TWave/Extremespeed).
-  4. **Pivot:** Flux (Steel) for Ice/Psychic resistance.
-  5. **Sweeper:** Rumpus (Shadow Ball).
-- **Recent Lessons:**
-  - **Alakazam:** Fast, high SpAtk. Wiped team with Elemental Punches. Needs physical counter.
-  - **Aerodactyl:** Fast, Earthquake. Needs Ground immunity (Vortex) or tank.
-  - **Blissey:** Counter user. Do NOT use Normal moves (Sonicboom). Use Special attacks or Ghost moves.
-- **Opponent Intel (Pool):**
-  - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
-  - **Picnicker Diaz/Morse:** Azumarill (Blizzard, Surf). **EXTREME THREAT**.
-  - **Youngster Wright/Andrews:** Aerodactyl (Earthquake, Hyper Beam). **DANGEROUS**.
-  - **Kimono Girl Arita:** Lapras (Blizzard).
-  - **Scientist Nickel/Thurman:** Blissey (Psychic, Counter), Alakazam (Punches), Exeggutor.
-  - **Teacher Marino:** Starmie (Surf, Psychic).
+  1. **Train Rumpus:** Get Tauros to Lv20. Teach Strength for high BP STAB.
+  2. **Team:** Rumpus (Lead/Sweeper), Flux (Steel Pivot), Vortex (Ground Immunity), Bahamut (Paralysis Support).
+
+### Known Threats & Counter-Strategies
+- **Blissey:** High HP, **Counter**. 
+  - **RULE:** DO NOT use Physical/Normal moves (Sonicboom, Strength, Fly, Extremespeed) or you will die. 
+  - **Strategy:** Use Special moves (Thundershock, Dragonbreath, Mud-Slap) or Toxic.
+- **Alakazam:** Fast, Elemental Punches. Low Def.
+  - **Strategy:** Survive a hit and OHKO with Physical moves (Strength, Fly).
+- **Aerodactyl:** Fast, Earthquake. 
+  - **Strategy:** Switch to Vortex immediately (Immune to Ground).
+- **Azumarill:** Tanky, Blizzard/Surf.
+  - **Strategy:** Use Electric moves. Beware Blizzard on Dragons/Birds.
+- **Starmie:** Fast, Surf/Psychic.
+  - **Strategy:** Thunder Wave is priority.
+- **Umbreon:** Toxic/Protect stall.
+  - **Strategy:** Toxic it back with Flux, or brute force.
+- **Miltank:** Earthquake user.
+  - **Strategy:** Vortex (Immune) or kill fast.
+
+### Non-Combatant NPCs (Don't check again)
+- **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
+- **Route 40:** Lass (13, 4).
 
 ## 📝 Quest & Event Log
 
