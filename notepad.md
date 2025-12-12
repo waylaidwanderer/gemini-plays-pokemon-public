@@ -361,3 +361,6 @@
 - **NPC Blockades:** Erratic NPCs in narrow paths can disrupt navigation. Use `stun_npc` to freeze them, then recalculate the path to go around.
 - **Route 39:** Pokefan F at (4, 22) is a Night-only battler.
 - **Route 39 Intel:** Wild Magnemites know Sonicboom (20 fixed dmg). Dangerous for low HP Pokémon. Pokefan F at (4, 22) is a Night-only battler.
+## Route 39
+- **Danger:** Wild Magnemites have Sonicboom (20 dmg). Flux is at risk.
+- **Trainer:** Pokefan F (4, 22) battles only at Night.
