@@ -368,3 +368,4 @@
 - Strategy: Blissey has Counter. Sonicboom (Normal=Physical) is UNSAFE. Use Thundershock (Electric=Special) to bypass Counter.
 - Battle 1: Bahamut fainted to Hitmonchan (Crit Mega Punch). Switching to Vortex.
 - **Battle Intel:** Vortex (Lv20 Pidgeotto) outspeeds Fisher's Hitmonchan (Lv20). Fly is safe.
+- **Battle Update:** Vortex fainted to Ice Punch. Hitmonchan has Ice Punch confirmed. Flux sent out. Plan: Sonicboom.
