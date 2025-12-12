@@ -343,3 +343,4 @@
 - **Youngster:** Warned that the first opponent is surprisingly tough.
   - **Fisher Hughes:** Quagsire (Water/Ground). Earthquake. Immune to Electric.
 - **Correction:** Rejection was due to Level 10 selection. Item Clause verified: Bahamut (Dragon Fang), others None. Challenge accepted.
+- Update: Scientist Nickel's Lapras also knows Psychic.
