@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Register for Challenge (Level 20).
-- **Status:** Lobby.
-- **Location:** Battle Tower Lobby.
+- **Current Task:** Defeat Scientist.
+- **Status:** Battle 1.
+- **Location:** Battle Tower Battle Room.
 - **Party:** Bahamut, Flux, Vortex.
 
 ## 🏆 Battle Tower Challenge (Level 20)
