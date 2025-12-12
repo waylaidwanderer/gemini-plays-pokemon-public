@@ -31,6 +31,7 @@
   - **Magnemite:** Sonicboom (20 fixed dmg).
   - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast, Gold Berry). High HP/Def.
   - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake).
+  - **Fisher Hughes:** Quagsire (Water/Ground, Earthquake, Rain Dance).
 
 ## 📝 Quest & Event Log
 
