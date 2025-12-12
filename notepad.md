@@ -372,3 +372,4 @@
 - **Battle Update:** Vortex fainted to Ice Punch. Hitmonchan has Ice Punch confirmed. Flux sent out. Plan: Sonicboom.
 - **Battle Critical:** Hitmonchan has Fire Punch (SE) and Gold Berry. Flux 16/45 HP. Plan: Supersonic.
 - **Pokéfan Stock:** Miltank (Earthquake). MAJOR THREAT to Flux.
+- Bahamut fainted to Miltank's Earthquake. Switching to Vortex (Immune to Ground).
