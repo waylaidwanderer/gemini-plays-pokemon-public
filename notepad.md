@@ -10,7 +10,7 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** In Lobby, preparing to register.
+- **Status:** Registered (Lv20). Entering Battle Room.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
 - **Registration Guide:**
