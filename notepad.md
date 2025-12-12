@@ -8,11 +8,11 @@
 - **Party:** Bahamut, Flux, Vortex.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Battle 1 vs Pokefan (Miltank Threat).
-- **Critical Lesson:** Fisher Hanson's Scizor OUTSPEEDS Vortex (Base 65 vs 71 - likely Max Stats/Quick Claw).
-  - **Threat:** Scizor (Steel Wing, Sandstorm). Walls Vortex completely.
-  - **Strategy Adjustment:** Switch to Flux (Electric/Steel) immediately vs Scizor. Sonicboom ignores defense.
-- **Strategy:** Lead Bahamut (Paralyze).
+- **Status:** Lobby (Restarting).
+- **Recent Defeat:** Pokéfan Jackson (Lapras).
+  - **Lapras:** Quick Claw, Blizzard, Psychic, Confuse Ray. **TEAM WIPER**.
+- **Critical Lesson:** Quick Claw users (Lapras, Scizor) are deadly.
+- **Strategy:** Lead Bahamut.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?, Toxic).
 - **Opponent Intel (Pool):**
   - **Pokéfan Stock:** Miltank (Earthquake, Thunder, Surf, Attract). **EXTREME THREAT**.
