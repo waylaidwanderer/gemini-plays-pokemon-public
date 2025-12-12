@@ -341,3 +341,4 @@
 - **Granny:** Advised holding items.
 - **Youngster:** Warned that the first opponent is surprisingly tough.
   - **Fisher Hughes:** Quagsire (Water/Ground). Earthquake. Immune to Electric.
+- **Correction:** Rejection likely due to selecting Level 10 Challenge (Party is Lv20). Item Clause violation unconfirmed. Verifying items now.
