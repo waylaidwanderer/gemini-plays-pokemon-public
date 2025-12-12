@@ -28,8 +28,6 @@
 - **Kanto Campaign:** 8 Badges obtained. Red defeated.
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
-### Recent Logs (Archived)
-
 ### Current Logs
 - **Location:** Battle Tower Lobby (22_11).
 - **Status:** Team Management.
