@@ -10,20 +10,23 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Training for Rematch.
-- **Defeat Log:** Lost to Boarder Crawford (Exeggutor Lv20). Outsped and overpowered.
-- **Lesson:** Need full team at Lv20. Speed is critical.
-- **Current Task:** Train Bahamut to Lv20 on Route 39.
-- **Party:** Bahamut (Lv19), Vortex (Lv20), Flux (Lv20).
-- **Rules:** Item Clause (No duplicate held items). Lv20 Cap.
-- **Menu:** Level Selection uses 'Up'/'Down' to toggle levels. 'A' to confirm.
-- **Strategy:** Attempt Level 20 Battle Tower Challenge with Bahamut, Vortex, and Flux (Magnemite). Equip items (Dragon Fang, Berry, Mint Berry).
+- **Status:** In Lobby, preparing to register.
+- **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
+- **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
+- **Registration Guide:**
+  1. Select 'Challenge'.
+  2. Advance text boxes until save confirmation.
+  3. **CRITICAL:** The Level Selection menu appears *immediately* after the save delay (~6s).
+  4. Use manual inputs (Down -> A) to select Level 20. Do NOT use blind macros.
+- **NPC Intel:**
+  - **Granny:** Advises holding items.
+  - **Youngster:** Warns the *first* opponent is surprisingly tough.
 - **Opponent Intel (Pool):**
-  - **Kimono Girl Arita:** Lapras (Blizzard). Threat: High (Ice vs Dragon/Flying).
+  - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
   - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
   - **Lass Thornton:** Tauros (Blizzard, Hyper Beam).
   - **Blissey:** Psychic, Submission.
-- **Mechanics:** Party is CONFIRMED auto-healed after every challenge.
+  - **Magnemite:** Sonicboom (20 fixed dmg).
 
 ## 📝 Quest & Event Log
 
