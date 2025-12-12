@@ -41,9 +41,9 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Route 40 Battle Tower Gate (22_15).
-- **Status:** Entering Battle Tower Challenge.
-- **Action:** Team ready (All Lv20). Heading to Lobby.
+- **Location:** Battle Tower Battle Room (22_12).
+- **Status:** Round 1 vs Scientist Nickel.
+- **Action:** Battling Lapras. Switching Vortex -> Flux.
 
 ## Global Game Mechanics
 ### General Mechanics
