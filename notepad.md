@@ -21,6 +21,7 @@
 - **NPC Intel:**
   - **Granny:** Advises holding items.
   - **Youngster:** Warns the *first* opponent is surprisingly tough.
+  - **Bug Catcher:** Avoid Fire types.
 - **Opponent Intel (Pool):**
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
   - **Rocker Masuda:** Miltank (Earthquake, Thunder, Surf, Attract).
