@@ -166,11 +166,6 @@
 - **TALL_GRASS:** Walkable (Wild Encounters).
 
 ## Route 13
-- Arrived from Route 14.
-- Geography: Fence Maze.
-- Trainers:
-  - Hiker Kenny (Sandslash, Graveler, Golem) - Defeated at (13, 10).
-## Route 13
 - **Geography:** Fence Maze with a Zigzag structure (alternating East/West corridors). Fences are `WALL` tiles. Look for gaps at the far East or West ends of each lane.
 - **Trainers:**
   - Hiker Kenny (13, 10) - Defeated.
