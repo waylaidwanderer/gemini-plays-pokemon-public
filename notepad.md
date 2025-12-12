@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Begin Level 20 Challenge (Battle 1/7).
-- **Location:** Battle Tower Elevator.
+- **Location:** Battle Tower Battle Room (Battle 1).
 - **Party:** Flux (Lv20), Vortex (Lv19), Bahamut (Lv19).
 - **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
 - **Log:** Stocked up on 10 Super Potions in Olivine.
