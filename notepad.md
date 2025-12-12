@@ -370,3 +370,4 @@
 - **Battle 1:** Youngster Leong. Blissey vs Bahamut. Strategy: Extremespeed.
  Bahamut fainted. Switched to Vortex. Strategy: Fly.
  Fly dealt ~50%. Blissey HP Low. Vortex 30/61 (Crit Range).
+ Battle Calc: Blissey HP ~45% (Leftovers). Fly (STAB 105) vs Quick Attack (STAB 60). Fly is the only win condition. Vortex Faster -> Fly dodges Psychic.
