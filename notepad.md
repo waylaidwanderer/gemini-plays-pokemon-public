@@ -3,10 +3,10 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Win Battle 1.
-- **Status:** Ascending to Battle Room.
+- **Status:** Battle 1 vs Fisher (Likely Hughes).
 - **Last Loss:** Scientist Nickel (Nidoking - Earthquake).
 - **Last Loss:** Scientist Thurman (Exeggutor).
-- **Location:** Battle Tower Elevator.
+- **Location:** Battle Tower Battle Room.
 - **Strategy:** Vortex Mud-Slap spam (Accuracy drop + Special Dmg).
 - **Party:** Bahamut, Flux, Vortex.
 - **Battle Tower Menu:** Challenge Active.
