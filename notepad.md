@@ -2,12 +2,11 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Registering for Battle Tower.
-- **Status:** Saving Game.
+- **Current Task:** Win Battle 1.
+- **Status:** Battling Scientist Nickel (Steelix Active).
 - **Last Loss:** Scientist Thurman (Exeggutor).
 - **Location:** Battle Tower Battle Room.
-- **Status:** Facing Scientist Thurman (Round 1).
-- **Strategy:** Switch to Flux immediately vs Exeggutor.
+- **Strategy:** Vortex Mud-Slap spam (Accuracy drop + Special Dmg).
 - **Party:** Bahamut, Flux, Vortex.
 - **Battle Tower Menu:** Challenge Active.
 
