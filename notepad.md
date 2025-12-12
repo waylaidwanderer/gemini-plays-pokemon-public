@@ -151,9 +151,6 @@
   - **Requirement:** Must be riding BICYCLE to pass the guard script at x=5.
 - **Phone Call:** Picnicker Gina (Route 34) called. Frustrated about not catching Abra. (Note: Calls can trigger on map entry).
 - **Fuchsia City Discovery:** Building entrance at (18, 3) is a FALSE door (WALL). Do not attempt to enter.
-## Fuchsia Gym (Cleared)
-- **Mechanic:** Invisible walls are explicitly marked as `WALL` in map data.
-- **Status:** Soul Badge Obtained. Janine & Impostors defeated.
 ## Route 19
 - **Summary:** Explored. East side is a dead end. West side access confirmed tricky.
 ## Route 15
