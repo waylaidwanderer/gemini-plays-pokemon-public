@@ -35,7 +35,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Battle Room.
-- **Status:** Battle 1 vs Super Nerd Ogden.
+- **Status:** Battle 1 vs Scientist Thurman (Exeggutor).
 - **Last Loss:** Teacher Kawakami (Heracross).
 
 ## Global Game Mechanics
