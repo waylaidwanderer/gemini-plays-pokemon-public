@@ -44,7 +44,8 @@
 
 ### Current Logs
 - **Location:** Battle Tower Lobby.
-- **Status:** Battle 1 (Youngster).
+- **Status:** Restarting Challenge.
+- **Recent Defeat:** Psychic Santiago (Blissey). Moves: Psychic, Submission, Counter, Softboiled. Strategy: Extremespeed spam, avoid weak physical hits.
 
 ## Global Game Mechanics
 ### General Mechanics
