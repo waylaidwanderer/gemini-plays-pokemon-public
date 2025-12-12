@@ -35,7 +35,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Battle Room.
-- **Status:** Battle 1 vs Scientist Thurman (Exeggutor - Low HP, Leftovers). Vortex (5/61 HP).
+- **Status:** Battle 1 vs Scientist Thurman (Exeggutor - Likely Full HP). Bahamut (50/50 HP) is last hope.
 - **Last Loss:** Teacher Kawakami (Heracross).
 
 ## Global Game Mechanics
