@@ -369,3 +369,4 @@
 - **Battle 1 Update:** Flux fainted to Exeggutor's Psychic (Resisted, ~18 dmg). Switching to Vortex (Fly is SE).
 - **Battle 1:** Youngster Leong. Blissey vs Bahamut. Strategy: Extremespeed.
  Bahamut fainted. Switched to Vortex. Strategy: Fly.
+ Fly dealt ~50%. Blissey HP Low. Vortex 30/61 (Crit Range).
