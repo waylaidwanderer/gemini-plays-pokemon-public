@@ -43,8 +43,8 @@
 ### Current Logs
 - **Location:** Battle Room (22_12).
 - **Status:** Round 1 vs Pokefan Stock.
-- **Opponent:** Exeggutor (Lv20). Move: Hyper Beam (Recharge).
-- **Action:** Battling. Vortex active vs Exeggutor (Recharging). Plan: Fly.
+- **Opponent:** Exeggutor (Lv20). Moves: Hyper Beam, Psychic. Item: Leftovers.
+- **Action:** Battling. Vortex active vs Exeggutor. Used Fly (SE). Plan: Fly again.
 
 ## Global Game Mechanics
 ### General Mechanics
