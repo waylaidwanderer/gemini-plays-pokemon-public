@@ -9,8 +9,9 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Lobby (Restarting).
-- **Recent Defeat:** Pokéfan Jackson (Lapras).
-  - **Lapras:** Quick Claw, Blizzard, Psychic, Confuse Ray. **TEAM WIPER**.
+- **Recent Defeat:** Picnicker Andrews (Aerodactyl).
+  - **Aerodactyl:** Earthquake, Hyper Beam. Outspeeds entire team. **TEAM WIPER**.
+  - **Fatal Error:** Flux (Steel/Electric) is 4x weak to Ground. Aerodactyl MUST be countered by Vortex (Immune) or a high-defense wall.
 - **Critical Lesson:** Quick Claw users (Lapras, Scizor) are deadly.
 - **Strategy:** Lead Bahamut.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Metal Coat), Flux (Lv20, Berry?, Toxic).
