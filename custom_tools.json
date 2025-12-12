@@ -386,7 +386,7 @@
     ]
   },
   "hunt_routine": {
-    "description": "Generates a sequence of movement buttons to hunt for wild Pokemon. Supports 'box', 'vertical', and 'horizontal' patterns.",
+    "description": "Generates a sequence of movement buttons to hunt for wild Pokemon. Automatically detects valid directions to avoid walls/obstacles based on the current map state. Supports 'vertical', 'horizontal', and 'box' patterns.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -402,17 +402,22 @@
             "vertical",
             "horizontal"
           ],
-          "default": "box",
+          "default": "vertical",
           "description": "Movement pattern to use"
         }
       }
     },
-    "python_script": "import json\ntry:\n    steps = int(input_data.get('steps', '20'))\nexcept:\n    steps = 20\npattern = input_data.get('pattern', 'box')\n\nbuttons = []\nseq = []\nif pattern == 'box':\n    seq = ['Up', 'Down', 'Left', 'Right']\nelif pattern == 'vertical':\n    seq = ['Up', 'Down']\nelif pattern == 'horizontal':\n    seq = ['Left', 'Right']\nelse:\n    seq = ['Up', 'Down', 'Left', 'Right']\n\nfor i in range(steps):\n    buttons.append(seq[i % len(seq)])\n\nprint(json.dumps(buttons))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# Parse Map\nroot = ET.fromstring(map_xml_string)\ngrid = {}\nplayer_pos = None\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        t_type = tile.attrib['type'].strip().upper()\n        has_object = tile.attrib.get('has-object') == 'true'\n        \n        if tile.find('Player') is not None:\n            player_pos = (x, y)\n        \n        # Check for objects in children\n        if not has_object:\n            if tile.find('Object') is not None:\n                has_object = True\n            if tile.find('Marker') is not None and tile.find('Marker').attrib.get('object_id'):\n                 has_object = True\n                \n        grid[(x, y)] = {\n            'type': t_type,\n            'blocked': has_object\n        }\n\nif not player_pos:\n    print(json.dumps([\"Up\", \"Down\"])) # Fallback\n    exit()\n\npx, py = player_pos\nsteps = int(input_data.get('steps', 20))\npattern = input_data.get('pattern', 'vertical')\n\ndef is_walkable(x, y):\n    if (x, y) not in grid: return False\n    tile = grid[(x, y)]\n    walkable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS']\n    if tile['type'] not in walkable_types: return False\n    if tile['blocked']: return False\n    return True\n\nseq = []\nmove_pairs = []\n\nif pattern == 'vertical':\n    if is_walkable(px, py-1):\n        move_pairs = ['Up', 'Down']\n    elif is_walkable(px, py+1):\n        move_pairs = ['Down', 'Up']\n\nif pattern == 'horizontal' or (not move_pairs and pattern == 'vertical'):\n    if is_walkable(px-1, py):\n        move_pairs = ['Left', 'Right']\n    elif is_walkable(px+1, py):\n        move_pairs = ['Right', 'Left']\n\nif pattern == 'box':\n    # Check for 2x2 area: Top-Left relative to player\n    # Path: Left -> Up -> Right -> Down\n    if is_walkable(px-1, py) and is_walkable(px-1, py-1) and is_walkable(px, py-1):\n        moves = ['Left', 'sleep 300', 'Up', 'sleep 300', 'Right', 'sleep 300', 'Down', 'sleep 300']\n        for _ in range(steps // 4):\n            seq.extend(moves)\n        print(json.dumps(seq))\n        exit()\n    # If box fails, fall back to smart vertical/horizontal\n    if is_walkable(px, py-1): move_pairs = ['Up', 'Down']\n    elif is_walkable(px, py+1): move_pairs = ['Down', 'Up']\n    elif is_walkable(px-1, py): move_pairs = ['Left', 'Right']\n    elif is_walkable(px+1, py): move_pairs = ['Right', 'Left']\n\nif not move_pairs:\n    # Fallback if trapped\n    move_pairs = ['Up', 'Down']\n\nfor i in range(steps):\n    m = move_pairs[i % 2]\n    seq.append(m)\n    seq.append(\"sleep 300\")\n\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-10T23:57:36.117Z",
         "action_counter": 27574
+      },
+      {
+        "commit_message": "feat: Update hunt_routine to be context-aware. It now parses the map XML to check adjacent tiles for walkability (checking tile type and objects) and automatically selects a valid starting direction (e.g., Down if Up is blocked). This prevents collision errors and makes the tool reusable in restricted spaces.",
+        "timestamp": "2025-12-12T23:46:48.833Z",
+        "action_counter": 30723
       }
     ]
   },
