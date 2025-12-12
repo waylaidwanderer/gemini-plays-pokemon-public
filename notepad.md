@@ -2,10 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Follow Receptionist to Battle Room.
-- **Status:** Escorted by Receptionist.
-- **Last Loss:** Super Nerd Ogden (Scizor).
-- **Location:** Battle Tower Hallway.
+- **Current Task:** Registering for Battle Tower.
+- **Status:** Saving Game.
+- **Last Loss:** Scientist Thurman (Exeggutor).
+- **Location:** Battle Tower Lobby.
 - **Party:** Bahamut, Flux, Vortex.
 - **Battle Tower Menu:** Challenge Active.
 
