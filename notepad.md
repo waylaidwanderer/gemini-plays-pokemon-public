@@ -11,7 +11,10 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** In Progress (Round 1).
-- **Strategy:** Flux (Magnemite) handles Water/Flying. Vortex (Pidgeotto) pivots on Ground. Bahamut (Dratini) cleans up.
+- **Strategy:**
+  - **Vs Lapras:** Switch to Flux (Resists Ice/Electric).
+  - **Vs Exeggutor:** Switch to Flux (Resists Psychic/Normal) or Vortex (Fly vs Hyper Beam).
+  - **General:** Flux leads. Vortex pivots on Ground. Bahamut cleans up.
 - **Lesson:** Pikachu is high threat. Umbreon uses Mud-Slap.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, None), Flux (Lv20, None).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
