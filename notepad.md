@@ -25,7 +25,7 @@
   - **Kimono Girl Arita:** Lapras (Blizzard). High Threat.
   - **Fisher Hughes:** Quagsire (Water/Ground), Hitmonchan (Fire/Ice/Mega Punch).
   - **Swimmer Dykstra:** Wigglytuff (Blizzard, Fire Blast).
-  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras, Steelix (Swagger, High Def).
+  - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras, Steelix (Swagger, High Def, Iron Tail).
   - **Teacher Marino:** Starmie (Surf, Psychic). Fast sweeper.
   - **Super Nerd Morse:** Azumarill (Blizzard, Surf).
 
