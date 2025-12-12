@@ -360,4 +360,4 @@
   2. Bahamut paralyzed Azumarill.
   3. Bahamut used Dragonbreath (Azumarill -> Red HP).
   4. Azumarill used Blizzard (Hit). Bahamut fainted.
-  5. Current: Vortex vs Azumarill (Low HP, Paralyzed). Plan: Quick Attack.
+  5. Current: Vortex vs Umbreon (Full HP). Vortex is last Pokemon. Plan: Consult advisor.
