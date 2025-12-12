@@ -356,3 +356,4 @@
 - Round 2: Super Nerd Morse (Azumarill Lv20). Note: Knows Blizzard (OHKO Bahamut).
 - **Battle 1 (Youngster Leong):** Flux fainted. Azumarill (~65% HP, Paralyzed). Bahamut (Full HP) active.
  Round 2: Using Dragonbreath (STAB+Item). Flux fainted.
+- Round 3: Blizzard missed! Azumarill Critical. Finishing with Dragonbreath.
