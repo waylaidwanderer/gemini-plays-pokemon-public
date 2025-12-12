@@ -549,35 +549,5 @@
         "action_counter": 19985
       }
     ]
-  },
-  "swap_party_members": {
-    "description": "Swaps two Pokemon in the party by their slot indices (1-6). Assumes the player is in the Overworld.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "slot_1": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "slot_2": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "slot_1",
-        "slot_2"
-      ]
-    },
-    "python_script": "import json\n\nslot_1 = int(input_data['slot_1'])\nslot_2 = int(input_data['slot_2'])\n\nbuttons = []\n\n# Open Start Menu and Reset Cursor to Top\nbuttons.append(\"Start\")\nbuttons.append(\"sleep 500\")\nbuttons.extend([\"Up\"] * 7) # Ensure we are at Pokedex\n\n# Navigate to Pokemon (2nd option)\nbuttons.append(\"Down\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Reset Party Cursor to Top (Slot 1)\nbuttons.extend([\"Up\"] * 6)\n\n# Navigate to Slot 1\nif slot_1 > 1:\n    buttons.extend([\"Down\"] * (slot_1 - 1))\n\n# Select Slot 1\nbuttons.append(\"Select\")\nbuttons.append(\"sleep 500\")\n\n# Navigate to Slot 2\ndiff = slot_2 - slot_1\nif diff > 0:\n    buttons.extend([\"Down\"] * diff)\nelif diff < 0:\n    buttons.extend([\"Up\"] * abs(diff))\n\n# Swap\nbuttons.append(\"Select\")\nbuttons.append(\"sleep 500\")\n\n# Exit Menus\nbuttons.append(\"B\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"B\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-12T22:34:23.040Z",
-        "action_counter": 30631
-      }
-    ]
   }
 }
