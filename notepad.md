@@ -13,7 +13,8 @@
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** In Progress (Round 1).
+- **Status:** Defeated (Round 1) by Alakazam. Restarting.
+- **New Intel:** Alakazam (Thurman) has Psychic/Thunderpunch & outspeeds team.
 - **Counter-Strategies:**
   - **Vs Lapras:** IMMEDIATE switch to Flux. Walls Ice/Electric. Use Thundershock.
   - **Vs Exeggutor:** IMMEDIATE switch to Flux (walls Psychic/Normal). Sonicboom is reliable.
