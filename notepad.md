@@ -377,3 +377,8 @@
 - Vortex fainted to Ice Punch (Super Effective).
 - Hitmonchan survived Critical Fly.
 - Switching to Flux.
+
+## 🔬 Scientist Thurman Analysis (Post-Battle 1)
+- **Hitmonchan:** Ice/Fire/Thunder Punch. Paralyze with Bahamut.
+- **Umbreon:** Mud-Slap (Ground). **Flux Weakness Confirmed.**
+- **Strategy:** Switch Vortex into Umbreon (Immune to Ground).
