@@ -44,7 +44,7 @@
 - **Location:** Battle Room (22_12).
 - **Status:** Round 1 vs Pokefan Stock.
 - **Opponent:** Exeggutor (Lv20). Move: Hyper Beam (Recharge).
-- **Action:** Battling. Bahamut Fainted. Plan: Switch to Vortex (Fly).
+- **Action:** Battling. Vortex active vs Exeggutor (Recharging). Plan: Fly.
 
 ## Global Game Mechanics
 ### General Mechanics
