@@ -18,7 +18,7 @@
   1. Select 'Challenge'.
   2. Advance text boxes until save confirmation.
   3. **CRITICAL:** The Level Selection menu appears *immediately* after the save delay (~6s).
-  4. Use manual inputs (Down -> A) to select Level 20. Do NOT use blind macros.
+  4. Use manual inputs (Up -> A) to select Level 20. Do NOT use blind macros.
 - **NPC Intel:**
   - **Granny:** Advises holding items.
   - **Youngster:** Warns the *first* opponent is surprisingly tough.
