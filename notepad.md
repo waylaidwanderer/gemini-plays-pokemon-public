@@ -2,19 +2,14 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Win Battle 1.
-- **Status:** Lobby (Restarting).
-- **Last Loss:** Fisher Hanson (Scizor - Outsped Vortex!).
-- **Last Loss:** Scientist Nickel (Nidoking - Earthquake).
-- **Last Loss:** Scientist Thurman (Exeggutor).
-- **Location:** Battle Tower Battle Room.
-- **Strategy:** Vortex Mud-Slap spam (Accuracy drop + Special Dmg).
+- **Current Task:** Register for Challenge (Level 20).
+- **Status:** Lobby.
+- **Location:** Battle Tower Lobby.
 - **Party:** Bahamut, Flux, Vortex.
-- **Battle Tower Menu:** Challenge Active.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Entering Battle 1.
-- **Recent Loss:** Super Nerd Ogden (Scizor).
+- **Status:** Restarting.
+- **Critical Lesson:** Fisher Hanson's Scizor OUTSPEEDS Vortex (Base 65 vs 71 - likely Max Stats/Quick Claw).
   - **Threat:** Scizor (Steel Wing, Sandstorm). Walls Vortex completely.
   - **Strategy Adjustment:** Switch to Flux (Electric/Steel) immediately vs Scizor. Sonicboom ignores defense.
 - **Strategy:** Lead Bahamut (Paralyze).
