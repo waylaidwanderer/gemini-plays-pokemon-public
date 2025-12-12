@@ -11,7 +11,7 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Lobby. Team verified (Mint Berry, Dragon Fang, Berry). Ready for L20 Challenge.
-- **Strategy:** Fisher Hughes' Quagsire has Earthquake. Lead/Switch Vortex (Flying) to immune.
+- **Strategy:** Fisher Hughes' Quagsire has Earthquake. Kimono Girl Saito's Umbreon has Mud-Slap. For both: Switch Vortex (Flying) to immune.
 - **Team:** Bahamut (Lv20, Dragon Fang), Vortex (Lv20, Mint Berry), Flux (Lv20, Berry).
 - **Rules:** Item Clause (No duplicate items). Lv20 Cap (Max). 3 Pokemon.
 - **Registration Guide:**
