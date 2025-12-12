@@ -352,3 +352,4 @@
 - Update: Scientist Nickel's Lapras also knows Psychic.
 - Battle Log: Bahamut fainted. Vortex vs Lapras (Paralyzed).
 - **Teacher Marino:** Starmie (Water/Psychic). Moves: Psychic (High Dmg!). Counter: Flux (Resists Psychic). High Speed.
+ Plan: Bahamut uses Thunder Wave.
