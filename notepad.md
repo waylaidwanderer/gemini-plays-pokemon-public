@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Train Bahamut to Lv20 on Route 39.
+- **Current Task:** Enter Battle Tower Level 20 Challenge.
 - **Location:** Route 39.
-- **Party:** Bahamut (Lv19), Vortex (Lv20), Flux (Lv20).
+- **Party:** Bahamut (Lv20), Vortex (Lv20), Flux (Lv20).
 - **Recent Event:** Fisher hinted that the Sailor in Olivine Cafe teaches Strength.
 - **Log:** Stocked up on 10 Super Potions in Olivine.
 - **Lesson:** When grinding against Magnemites, switch out any Pokemon with < 30 HP to avoid a KO from Sonicboom (20 fixed dmg).
