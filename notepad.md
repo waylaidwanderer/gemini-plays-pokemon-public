@@ -41,9 +41,10 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Hallway (22_14).
-- **Status:** Round 1 (Restarted).
-- **Action:** Entering Battle Room.
+- **Location:** Battle Room (22_12).
+- **Status:** Round 1 vs Pokefan Stock.
+- **Opponent:** Exeggutor (Lv20).
+- **Action:** Battling. Bahamut active. Plan: Icy Wind.
 
 ## Global Game Mechanics
 ### General Mechanics
