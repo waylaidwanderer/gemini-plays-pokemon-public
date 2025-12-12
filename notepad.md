@@ -28,6 +28,7 @@
   - **Scientist Nickel:** Blissey (Psychic), Nidoking (Earthquake), Lapras, Steelix (Swagger, Iron Tail, Earthquake). High Def, Low SpDef.
   - **Teacher Marino:** Starmie (Surf, Psychic). Fast sweeper.
   - **Super Nerd Morse:** Azumarill (Blizzard, Surf).
+  - **Fisher Hanson:** Scizor (Toxic, Sandstorm, Steel Wing).
 
 ## 📝 Quest & Event Log
 
