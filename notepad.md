@@ -44,7 +44,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Lobby.
-- **Status:** Challenge Started (Level 20).
+- **Status:** Battle 1 (Youngster).
 
 ## Global Game Mechanics
 ### General Mechanics
