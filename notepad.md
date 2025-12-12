@@ -4,7 +4,8 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Win Battle 1 (Vs Scientist).
 - **Status:** In Battle Room. Dialogue started.
-- **Opponent:** Scientist (Likely Nickel).
+- **Opponent:** Scientist Thurman.
+- **Opponent Lead:** Alakazam (Lv20).
 - **Location:** Battle Tower (Round 1).
 - **Party:** Bahamut (Lv20), Vortex (Lv20), Flux (Lv20).
 - **Battle Tower Menu:** Level Selection defaults to L:10. Press 'Up' to select 'L:20'. Pressing 'Down' selects 'CANCEL'.
