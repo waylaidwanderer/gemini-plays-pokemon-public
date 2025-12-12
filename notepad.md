@@ -329,3 +329,6 @@
 - **Log:** Bought 10 Super Potions in Olivine Mart.
 - **Lesson:** Blind menu macros (press_sequence) are FAILING for Party Switching. I must use MANUAL, step-by-step button presses with visual verification for this task to avoid loops.
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
+### Battle Tower Lobby Interactions
+- **Granny:** Advised holding items.
+- **Youngster:** Warned that the first opponent is surprisingly tough.
