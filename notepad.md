@@ -186,14 +186,6 @@
 - **Lesson:** Mark trainers as obstacles immediately upon sighting to avoid pathfinding collisions.
 
 ## Viridian City
-- **Status:** Exploring.
-- **Geography:**
-  - Pokémon Center: (23, 25).
-  - Gym: To be located.
-- Trainer House: (23, 15). 
-- Gym: (27, 7). 
-- Viridian Gym: (32, 7). Blocked by Gramps at (30, 8).
-## Viridian City
 - **Geography:**
   - Pokémon Center: (23, 25).
   - Trainer House: (23, 15).
