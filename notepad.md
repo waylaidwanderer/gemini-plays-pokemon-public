@@ -341,3 +341,6 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 
 # STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+- **Trust Tool Outputs Over Assumptions:** A recurring critical failure has been assuming a tool is broken when it produces an undesirable result (e.g., 'No path found'). The tool's output must be treated as the source of truth about the game state. If the tool says a path is impossible, the correct response is to re-evaluate the strategic assumption that a path should exist, not to debug the tool. Questioning the root hypothesis is more productive than questioning the tool that's testing it.
