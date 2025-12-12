@@ -255,20 +255,7 @@
 - `puzzle_solver`
 
 ## Tool Ideas
-- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH). This would prevent manual menuing errors.
 - **`systematic_area_checker` tool:** A tool that, when in a confined area, generates a path to visit every single reachable tile and presses 'A' on each to search for hidden items or switches. This would automate tedious brute-force searches.
-- **`use_hm_move` tool:** A tool to automate using an HM from the party menu (e.g., CUT, STRENGTH, FLASH).
-  - **Inputs:** `pokemon_name` (string), `move_name` (string), `current_screen_text` (string).
-  - **Logic:**
-    1. Press Start to open the main menu.
-    2. Select 'POKéMON'.
-    3. Parse the Pokémon list from the screen text.
-    4. Navigate to the target Pokémon.
-    5. Press 'A' to open its action menu.
-    6. Parse the move list.
-    7. Select the target HM move.
-    8. Press 'A' to use it.
-  - **Challenge:** Requires robust screen text parsing for both the party list and the individual Pokémon's move list, which can be complex and error-prone. Will require significant testing.
 
 # STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
