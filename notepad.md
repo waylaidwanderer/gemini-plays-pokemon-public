@@ -41,11 +41,10 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Room (22_12).
-- **Status:** Round 1 vs Pokefan Stock.
-- **Opponent:** Exeggutor (Lv20). Moves: Hyper Beam, Psychic. Item: Leftovers.
-- **Action:** Desperate. Bahamut/Flux fainted. Vortex (4 HP) vs Exeggutor (~45%). Plan: Fly.
-- **Lesson:** Hyper Beam does NOT require recharge if it misses.
+- **Location:** Battle Tower Lobby.
+- **Status:** Restarting Challenge.
+- **Last Defeat:** Pokefan Stock (Exeggutor). Fast Psychic user.
+- **Action:** Registering for Level 20 Challenge.
 
 ## Global Game Mechanics
 ### General Mechanics
