@@ -11,12 +11,11 @@
 - **Status:** Attempt 9. Round 1.
 - **Party:**
   - **Rumpus (Tauros):** Fainted.
-  - **Vortex (Pidgeotto):** Critical (3 HP, Badly Poisoned). Sacrificing.
-  - **Flux (Magnemite):** Critical (12 HP). Win Condition.
+  - **Vortex (Pidgeotto):** Fainted (Poison).
+  - **Flux (Magnemite):** Critical (12 HP). Last Stand.
 - **Opponent:** Starmie.
 - **Strategy:**
-  1. **Sacrifice:** Vortex uses Quick Attack (Priority) to chip Starmie.
-  2. **Sweep:** Flux cleans up with Electric moves (Resists Starmie's Psychic/Ice/Electric).
+  1. **Flux:** Thundershock (SE). Hope to outspeed or survive.
   2. **Task:** Defeat 7 Trainers.
 
 ### Non-Combatant NPCs (Don't check again)
