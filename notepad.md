@@ -339,7 +339,7 @@
 - **Starmie:** Fast, Surf/Psychic. Counter: Thunder Wave.
 - **Umbreon:** Toxic/Protect/Substitute/Mud-Slap. Counter: Toxic back or Brute Force.
 - **Miltank:** Earthquake. Counter: Vortex.
-- **Heracross:** Megahorn. Counter: Vortex (Fly).
+- **Heracross:** Megahorn, Earthquake, Endure (Reversal risk). Counter: Vortex (Fly/Immunity).
 - **Hitmonchan:** Elemental Punches. Counter: Vortex (Fly).
 - **Lapras:** Blizzard/Thunderbolt/Psychic. Counter: Flux (Resists) or Brute Force.
 - **Pikachu:** Likely holds Light Ball (Massive damage even when resisted). Danger!
