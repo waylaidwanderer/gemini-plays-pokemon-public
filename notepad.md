@@ -3,11 +3,11 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Challenge Battle Tower Level 20.
-- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus, Bahamut, Vortex.
+- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus, Flux, Vortex.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparation Phase (Rumpus).
+- **Status:** Ready to Challenge.
 - **Strategy:**
   1. **Train Rumpus:** Get Tauros to Lv20. (Strength Taught). **CRITICAL:** STOP EXACTLY AT LV20. Exceeding Lv20 (even by 1) DISQUALIFIES him.
   2. **Team:** Rumpus (Lead/Sweeper), Flux (Scizor Counter), Vortex (Ground Immunity/Fly). [Plan: Swap Bahamut -> Flux at PC]
