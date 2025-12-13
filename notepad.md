@@ -8,11 +8,11 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 11 Failed (Hitmonchan sweep).
-- **Strategy Update:** Basalt (Rock/Ground) compounds weaknesses to Ice/Fighting. Swapping for Bahamut (Dragon).
-- **New Team:** Rumpus (Lead), Flux (Steel/Elec), Bahamut (Dragon).
-- **Synergy:** Flux resists Ice/Dragon (Bahamut's weaknesses). Bahamut resists Fire/Water/Electric (Flux's weaknesses).
-- **Action:** Swap Basalt -> Bahamut at PC. Equip items.
+- **Status:** Preparing for Attempt 12.
+- **Current Task:** Swapping Basalt for Bahamut at PC.
+- **Team Plan:** Rumpus (Lead), Flux (Steel/Elec), Bahamut (Dragon).
+- **Synergy:** Dragon/Steel core covers weaknesses perfectly.
+- **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
