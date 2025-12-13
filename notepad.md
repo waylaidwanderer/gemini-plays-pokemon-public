@@ -27,6 +27,9 @@
 ### Current Logs
 - **Location:** Battle Tower Lobby.
 - **Status:** Attempt 10 - Round 1 vs Firebreather Hill (Pikachu).
+- **Battle Log:**
+  - Pikachu (Light Ball confirmed) outsped Rumpus turn 1. Flux OHKO'd through 4x resistance.
+  - Situation Critical: Rumpus (11HP), Vortex (Full), Flux (Faint).
 - **Last Loss:** Super Nerd (Exeggutor - Psychic/Toxic).
   - **Lesson:** Lapras (Ice/Water) is a major threat. Bahamut (Dragon) and Vortex (Flying) are weak to Ice. Swapping Bahamut for Flux (Electric/Steel).
 
