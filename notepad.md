@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Attempt 15 - Initiating Challenge.
+- **Status:** Attempt 15 - Challenge Accepted. Entering Battle Room.
 - **Last Loss:** Attempt 14 - Officer Turner (Nidoking). Flux walled by Ground/Poison typing.
 - **Location:** Battle Tower Lobby.
 
