@@ -372,3 +372,4 @@
 - Turn 1: Switched to Flux (Magnemite).
 ### Inventory Lessons
 - **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
+- **Rocker's Tauros:** Knows Earthquake. Faster than Rumpus.
