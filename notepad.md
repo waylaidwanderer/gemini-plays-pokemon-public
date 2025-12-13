@@ -2,8 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Attempt 27 (Round 1) vs Lass (Arcanine).
-- **Status:** Battle. Bahamut & Vortex Fainted. Rumpus (25 HP) vs Arcanine (Active). Strategy: Strength.
+- **Current Task:** Attempt 28 (Round 1).
+- **Status:** Lobby. Starting new challenge.
+- **Last Loss:** Attempt 27 - Lass (Arcanine).
+- **Loss Analysis:** Arcanine (Intimidate + Flamethrower) swept. Rumpus stayed in too long. Bahamut too frail.
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
 - **Loss Analysis:** Scizor (Steel/Bug) walled Rumpus/Flux. Vortex fainted to Sandstorm chip damage.
 - **Lesson:** Sandstorm kills low HP flyers. Need better coverage for Steel types.
