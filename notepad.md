@@ -8,7 +8,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 13 - Round 1 vs Skier Van Dyke. Rumpus Fainted. Rain Active. Sending Bahamut.
+- **Status:** Attempt 13 - Round 1 vs Skier Van Dyke. Rumpus & Bahamut Fainted. Flux (Last Stand).
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
