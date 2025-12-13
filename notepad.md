@@ -8,12 +8,13 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 7.
+- **Status:** Attempt 7. Party: Rumpus (FNT), Flux (FNT), Vortex (Active). CRITICAL 1v1.
 - **Strategy:**
   1. **Team:** Rumpus (Lead), Flux (Resist Ice/Psychic), Vortex (Ground Immunity).
   2. **Task:** Defeat 7 Trainers.
 
 ### Known Threats & Counter-Strategies
+- **Wigglytuff:** Swagger + Psych Up combo. Boosts Attack, Confuses, then Copies. Deadly. Counter: Switch or Haze.
 - **Blissey:** High HP, **Counter**. 
   - **RULE:** DO NOT use Physical/Normal moves (Sonicboom, Strength, Fly, Extremespeed) or you will die. 
   - **Strategy:** Use Special moves (Thundershock, Dragonbreath, Mud-Slap) or Toxic.
