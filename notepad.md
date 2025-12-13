@@ -374,3 +374,5 @@
 - **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
 - **Rocker's Tauros:** Knows Earthquake, Hyper Beam. Faster than Rumpus. Hyper Beam KOs require recharge.
 - **Battle Update:** Bahamut fainted to Hyper Beam. Opponent Tauros is Paralyzed and Recharging. Flux is the last hope. Plan: Thundershock/Sonicboom to finish low HP Tauros.
+- **Round 1:** Rocker (Tauros) Defeated. MVP: Bahamut (Paralysis) & Flux (Cleanup).
+- **Round 2:** Guitarist Adams (Heracross Lv20). Threat: Fighting moves (2x), Earthquake (4x), Counter.
