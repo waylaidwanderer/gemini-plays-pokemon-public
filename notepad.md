@@ -368,3 +368,4 @@
   - Vortex (Pidgeotto) died to surprise Blizzard coverage from Nidoking.
   - Rumpus (Tauros) lacked coverage to finish quickly.
 - **Adjustment:** Swap Flux -> Bahamut (Dratini). Bahamut brings Extremespeed (Priority) and better neutral bulk, though still weak to Ice. Flux's Ground weakness is too exploitable here.
+- Scizor paralyzed by Bahamut.
