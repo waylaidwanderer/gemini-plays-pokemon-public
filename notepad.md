@@ -362,15 +362,6 @@
 - **Strategy:** Use `hunt_routine` in tall grass. Heal at Olivine Center if HP < 30.
 - **Battle State Awareness:** Failed to notice battle text 'Rumpus used STRENGTH!' was still active before attempting `hunt_routine`. MUST verify Screen Text indicates 'FIGHT/PKMN/PACK/RUN' or 'Wild X appeared' before assuming control.
 
-### Battle Tower Attempt 1 Analysis
-- **Result:** Loss vs Picnicker Diaz (Round 1).
-- **Opponent Team:** Nidoking (Earthquake, Blizzard), Quagsire (Earthquake).
-- **Fatal Flaws:**
-  - Flux (Magnemite) is 4x weak to Ground (Earthquake). Died instantly.
-  - Vortex (Pidgeotto) died to surprise Blizzard coverage from Nidoking.
-  - Rumpus (Tauros) lacked coverage to finish quickly.
-- **Adjustment:** Swap Flux -> Bahamut (Dratini). Bahamut brings Extremespeed (Priority) and better neutral bulk, though still weak to Ice. Flux's Ground weakness is too exploitable here.
-- Scizor paralyzed by Bahamut.
 ### Battle Tower Attempt 2 Analysis
 - **Result:** Loss vs Lass (Pikachu, Scizor).
 - **Fatal Flaws:** Bahamut (Dragon) was completely walled and destroyed by Scizor (Steel).
