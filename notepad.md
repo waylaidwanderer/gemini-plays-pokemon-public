@@ -364,6 +364,3 @@
 
 - **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
 - Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
-
-- **Attempt 5:** Lost to Lapras (Blizzard/Psychic). Swapped Bahamut for Flux (Magnemite) to resist Ice.
-- **Attempt 7:** Lost to Swimmer Meyer.
