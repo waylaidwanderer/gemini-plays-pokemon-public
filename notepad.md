@@ -370,3 +370,5 @@
 - **Navigation:** Up increments (10->20), Down decrements/wraps (10->100).
 - Round 1: Skier Van Dyke (Azumarill). Text: 'OK, here goes! I have momentum!'.
 - Turn 1: Switched to Flux (Magnemite).
+### Inventory Lessons
+- **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
