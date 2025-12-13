@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Attempt 30 (Round 1).
-- **Status:** Elevator. Proceeding to Battle Room.
+- **Status:** Attempt 30 Round 1 vs Scientist Mori (Umbreon).
 - **Last Loss:** Attempt 29 - Youngster (Gyarados).
 - **Loss Analysis:** Gyarados (Hyper Beam) swept. Miracle Berry blocked TWave.
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
