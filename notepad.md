@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Attempt 14 - Round 1 vs Officer Turner (Scizor). Rumpus Critical (6/64, Poisoned). Flux Critical (6/45). Bahamut Fainted. Sandstorm Active.
-- **Last Loss:** Attempt 13 - Azumarill (Rain Dance + Surf) swept team.
+- **Status:** Attempt 15 - Initiating Challenge.
+- **Last Loss:** Attempt 14 - Officer Turner (Nidoking). Flux walled by Ground/Poison typing.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
