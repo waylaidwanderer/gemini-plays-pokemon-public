@@ -2,10 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Prepare Rumpus (Tauros) for Battle Tower.
-- **Status:** Training Rumpus (Tauros).
+- **Current Task:** Train Rumpus to Lv20.
+- **Status:** Rumpus Lv19. **WARNING:** STOP AT LV20. Exceeding Lv20 disqualifies him.
 - **Location:** Route 39.
-- **CRITICAL:** Do NOT level Rumpus past Lv20.
 - **Party:** Rumpus (Lead), Flux, Vortex, Bahamut.
 
 ## 🏆 Battle Tower Challenge (Level 20)
