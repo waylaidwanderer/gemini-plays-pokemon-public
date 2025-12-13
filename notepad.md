@@ -49,6 +49,8 @@
 - **Specific Tools:**
   - `hunt_routine`: Context-aware; avoids walls.
   - `find_path`: Outputs coordinates; do not use `autopress_buttons`.
+  - `select_move`: Automates move selection. Requires `autopress_buttons: true`.
+  - `select_battle_option`: Automates main menu selection (FIGHT/PKMN/PACK/RUN).
 
 ### Menu & UI Mechanics
 - **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
