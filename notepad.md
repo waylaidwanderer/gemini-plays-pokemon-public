@@ -3,12 +3,12 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Attempt 14 - Round 1 vs Officer Turner (Scizor). Rumpus Poisoned (48/64). Flux Critical. Bahamut Fainted.
+- **Status:** Attempt 14 - Round 1 vs Officer Turner (Scizor). Rumpus Critical (6/64, Poisoned). Flux Critical (6/45). Bahamut Fainted. Sandstorm Active.
 - **Last Loss:** Attempt 13 - Azumarill (Rain Dance + Surf) swept team.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 14 - Round 1 vs Officer Turner (Scizor). Rumpus Poisoned (48/64). Flux Critical. Bahamut Fainted.
+- **Status:** Attempt 14 - Round 1 vs Officer Turner (Scizor). Rumpus Critical (6/64, Poisoned). Flux Critical (6/45). Bahamut Fainted. Sandstorm Active.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
