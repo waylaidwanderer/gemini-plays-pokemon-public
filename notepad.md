@@ -42,15 +42,23 @@
 - **Warp Verification:** Game State 'Warps' list is the source of truth.
 - **Key Items:** Passive upgrades (e.g., Radio Card) may not list in inventory.
 
-### Pokegear & Radio Systems
-- **Menu Layout:** Horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps/clamps. 'B' exits to Overworld. 
-- **Navigation:** Blind inputs unreliable. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3). Use `press_sequence`.
-- **Radio Tuning:** 'A' toggles Manual/Preset. 'Up/Down' cycles presets. 'Right' moves needle manually. Tune to 20.0 for Poké Flute.
-- **Interruption Mechanics:** Receiving a phone call ABSOLUTELY resets the radio frequency to default. Must retune to 20.0 after every call before interacting with Snorlax.
-- **Start Menu:**
-  - **Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
-  - **Cursor Memory:** Remembers last selection. Fix: Force cursor to top (Up x5) before navigating.
+## System & Tool Documentation
+
+### Tool Usage
+- **Command vs Tool:** `find_path` generates coordinates for `path_plan`. The command `buttons_to_press: ["path"]` is a SYSTEM FEATURE that executes the plan.
+- **Auto-Press:** Custom tools returning buttons (e.g. `select_move`) need `autopress_buttons: true`. System tools (e.g. `select_battle_option`) ignore this.
+- **Blind Inputs:** Blind menu macros (`press_sequence`) are unreliable due to wrapping and cursor memory. Use `force_press_button` or manual verification.
+- **Specific Tools:**
+  - `hunt_routine`: Context-aware; avoids walls.
+  - `find_path`: Outputs coordinates; do not use `autopress_buttons`.
+
+### Menu & UI Mechanics
+- **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
+- **Wrapping:** Menus wrap around (Up at top -> Bottom).
+- **Cursor Memory:** The game remembers the last cursor position. Always reset (e.g., press Up x5) before navigating blind.
 - **UI Mixed State:** Pokegear menu header can persist over text boxes. Press 'B' aggressively to clear.
+- **Pokegear Navigation:** Horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps/clamps. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3).
+- **Radio Tuning:** 'A' toggles Manual/Preset. 'Up/Down' cycles presets. 'Right' moves needle manually. Tune to 20.0 for Poké Flute. Phone calls reset frequency.
 
 ### Tile Mechanics
 - **FLOOR:** Walkable.
