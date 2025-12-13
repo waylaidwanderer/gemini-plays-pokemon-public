@@ -11,10 +11,12 @@
 - **Status:** Attempt 9. Round 1.
 - **Party:**
   - **Rumpus (Tauros):** Fainted.
-  - **Vortex (Pidgeotto):** Critical (3 HP, Badly Poisoned). One turn left.
-  - **Flux (Magnemite):** Critical (12 HP). Anti-BoltBeam/Toxic.
+  - **Vortex (Pidgeotto):** Critical (3 HP, Badly Poisoned). Sacrificing.
+  - **Flux (Magnemite):** Critical (12 HP). Win Condition.
+- **Opponent:** Starmie.
 - **Strategy:**
-  1. **Pivot Strategy:** Vortex lures Ice/Electric -> Switch to Flux (Resist). Flux lures Ground -> Switch to Vortex (Immune). Stall low PP moves (Blizzard/Thunder).
+  1. **Sacrifice:** Vortex uses Quick Attack (Priority) to chip Starmie.
+  2. **Sweep:** Flux cleans up with Electric moves (Resists Starmie's Psychic/Ice/Electric).
   2. **Task:** Defeat 7 Trainers.
 
 ### Non-Combatant NPCs (Don't check again)
