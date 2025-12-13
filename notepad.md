@@ -395,4 +395,4 @@
 - **Menu Navigation:** Avoid blind macros. Use `select_move` or step-by-step manual inputs with verification.
 - **Agents:** Update `battle_advisor` immediately when party changes.
 - **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
-- Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake. Accuracy: -1. Rumpus sent out (Last Stand).
+- Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
