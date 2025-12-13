@@ -2,10 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Attempt 29 (Prep).
-- **Status:** Battle Tower Lobby. Attempt 28 Lost.
-- **Last Loss:** Attempt 27 - Lass (Arcanine).
-- **Loss Analysis:** Arcanine (Intimidate + Flamethrower) swept. Rumpus stayed in too long. Bahamut too frail.
+- **Current Task:** Attempt 29 (Level Selection).
+- **Status:** Battle Tower Lobby. Selecting Level 20.
+- **Last Loss:** Attempt 28 - Psychic Easton (Tauros).
+- **Loss Analysis:** Rumpus lost mirror match. Hyper Beam cleaned up team.
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
 - **Loss Analysis:** Scizor (Steel/Bug) walled Rumpus/Flux. Vortex fainted to Sandstorm chip damage.
 - **Lesson:** Sandstorm kills low HP flyers. Need better coverage for Steel types.
