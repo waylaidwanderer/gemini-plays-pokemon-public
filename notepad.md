@@ -364,3 +364,4 @@
 
 - **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
 - Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
+- **Mechanic Correction:** ICE BERRY cures BURN, not Freeze. It does NOT reduce Ice damage. Use BURNT BERRY for Freeze (not currently owned).
