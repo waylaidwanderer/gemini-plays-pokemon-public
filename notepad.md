@@ -11,7 +11,7 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparation Phase (Rumpus).
 - **Strategy:**
-  1. **Train Rumpus:** Get Tauros to Lv20. Teach Strength for high BP STAB.
+  1. **Train Rumpus:** Get Tauros to Lv20. (Strength Taught).
   2. **Team:** Rumpus (Lead/Sweeper), Flux (Steel Pivot), Vortex (Ground Immunity), Bahamut (Paralysis Support).
 
 ### Known Threats & Counter-Strategies
