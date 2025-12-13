@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Basalt Lv20 Ready. Returning to Battle Tower.
+- **Status:** Basalt Deposited. Withdrawing Bahamut.
 - **Last Loss:** Attempt 10 - Pikachu (Light Ball) swept team.
 - **Location:** Route 39.
 
