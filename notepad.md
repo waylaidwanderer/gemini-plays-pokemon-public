@@ -372,3 +372,4 @@
 - **Item Discovery:** Vortex was holding a **METAL COAT** (Boosts Steel moves). Swapped for BERRY for Battle Tower survival.
 ### Battle Tower Attempt 9
 - **Round 1:** vs Pokémaniac Sawyer (Umbreon Lv20).
+- **Reflection Turn 31386:** Attempted switch failed due to selecting active Pokemon. Corrected strategy: Select Bench Pokemon (Vortex, Slot 2) to Switch.
