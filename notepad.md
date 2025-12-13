@@ -3,14 +3,14 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Attempt 7. Party: Rumpus (45/64), Vortex (Full), Flux (FNT). vs Wigglytuff (+2 Atk, Full HP).
-- **Last Loss:** Super Nerd (Exeggutor - Psychic/Toxic).
+- **Status:** Battle Tower Level 20. Round 1. Attempt 8. Party: Rumpus, Vortex, Flux.
+- **Last Loss:** Nidoking (Blizzard/Earthquake).
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 7. Party: Rumpus (FNT), Flux (FNT), Vortex (Active). CRITICAL 1v1.
+- **Status:** Attempt 8. Party: Rumpus (Lead), Vortex, Flux.
 - **Strategy:**
-  1. **Team:** Rumpus (Lead), Flux (Resist Ice/Psychic), Vortex (Ground Immunity).
+  1. **Pivot Strategy:** Vortex lures Ice/Electric -> Switch to Flux (Resist). Flux lures Ground -> Switch to Vortex (Immune). Stall low PP moves (Blizzard/Thunder).
   2. **Task:** Defeat 7 Trainers.
 
 ### Known Threats & Counter-Strategies
