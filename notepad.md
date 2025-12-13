@@ -332,3 +332,8 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 # STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **Trapped State Pivot:** When physically trapped in an area with no navigable exit (confirmed by pathfinding tools), the problem is not one of navigation but of interaction. The solution will involve changing the state of the environment (e.g., a hidden switch, a triggered event) rather than finding a new path. Pivot from exploration to systematic interaction testing.
 - **One-Way Path Caution:** Be extremely cautious before committing to paths that could be one-way, especially water routes accessed via SURF. Verify a return path or exit exists before entering a confined area.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+- **'No Path Found' is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state. It should be trusted over my own visual perception and used to challenge and verify my root assumptions about map connectivity. This is the primary way to avoid getting stuck in logic loops based on a flawed understanding of the environment.
+- **Trapped State Pivot:** When physically trapped in an area with no navigable exit (confirmed by pathfinding tools), the problem is not one of navigation but of interaction. The solution will involve changing the state of the environment (e.g., a hidden switch, a triggered event) rather than finding a new path. Pivot from exploration to systematic interaction testing.
+- **One-Way Path Caution:** Be extremely cautious before committing to paths that could be one-way, especially water routes accessed via SURF. Verify a return path or exit exists before entering a confined area.
