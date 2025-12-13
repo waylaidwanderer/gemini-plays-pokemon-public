@@ -8,10 +8,14 @@
 - **Location:** Battle Tower Hallway.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 18 Round 1 - Officer Turner (Quagsire).
+- **Status:** Attempt 19 Round 1.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
-- **Strategy:** Bahamut (Dragon Fang) for Thunder Wave speed control and ExtremeSpeed priority. Vortex (Berry) for Ground immunity. Rumpus (PRZCureBerry) as physical sweeper.
-- **Key Threat:** Dragon Rage (Fixed 40 DMG). Must kill fast or paralyze.
+- **Strategy:** Lead Rumpus. Preserve Vortex for Ground immunity, but beware Water/Ice. Bahamut as Special pivot.
+
+### Last Loss (Attempt 18)
+- **Round 1:** Officer Turner (Quagsire).
+- **Killer:** Quagsire (Water/Ground).
+- **Lesson:** Quagsire is tanky and hits hard with Surf. Fly dodged one hit but wasn't enough. Need to chip down or use Rumpus's raw power.
 
 ### Last Loss (Attempt 14)
 - **Round 1:** Officer Turner (Nidoking).
