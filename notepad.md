@@ -2,8 +2,8 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Attempt 29 (Level Selection).
-- **Status:** Battle Tower Lobby. Selecting Level 20.
+- **Current Task:** Attempt 29 (Round 1).
+- **Status:** Entering Battle Room.
 - **Last Loss:** Attempt 28 - Psychic Easton (Tauros).
 - **Loss Analysis:** Rumpus lost mirror match. Hyper Beam cleaned up team.
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
