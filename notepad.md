@@ -2,9 +2,11 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Challenge Battle Tower (Attempt 21).
-- **Status:** Round 1 vs Pokémaniac Sawyer (Blissey).
-- **Last Loss:** Attempt 20 - Teacher Kawakami (Wigglytuff).
+- **Current Task:** Recover from Attempt 21 Loss.
+- **Status:** Defeated by Pokémaniac Sawyer (Pikachu).
+- **Last Loss:** Attempt 21 - Pokémaniac Sawyer (Pikachu).
+- **Loss Analysis:** Blissey used Submission (effective vs Flux). Pikachu used Thunderbolt (likely Light Ball) to KO Flux through 4x resist.
+- **Lesson:** Flux is unsafe vs Blissey (Submission). Vortex resists Fighting. Pikachu is lethal; prioritize killing it (Earthquake/Strength).
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
