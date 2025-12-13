@@ -8,14 +8,14 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Attempt 20.
+- **Status:** Attempt 20 Round 1 vs Teacher Kawakami (Umbreon).
 - **Last Result:** Attempt 19 Loss (Round 1 vs Lapras).
 - **Loss Analysis:** Lapras (Water/Ice) swept the team. Bahamut and Vortex are both weak to Ice.
-- **Adjustment:** Swapping Bahamut (Dratini) for Flux (Magnemite).
-- **New Team Strategy:**
-  - **Rumpus (Tauros):** Lead/Sweeper.
-  - **Vortex (Pidgeotto):** Pivot for Ground moves (Earthquake).
-  - **Flux (Magnemite):** Pivot for Ice/Psychic/Flying moves. Resists Lapras.
+- **Adjustment:** Swapped Bahamut for Flux (Magnemite).
+- **Current Battle:**
+  - **Opponent:** Umbreon (Lv20).
+  - **Threats:** High Defense, Toxic, Confuse Ray.
+  - **Strategy:** Brute force with Rumpus (Strength).
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
