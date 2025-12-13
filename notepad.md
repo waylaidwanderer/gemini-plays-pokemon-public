@@ -324,3 +324,7 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 # STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **"No Path Found" is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
 - **Indirect Triggers:** External events (like a new NPC appearing) can be indirect clues that a path has changed elsewhere, rather than being direct, interactable triggers themselves. I must test for changes in previously explored, related areas after such an event.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+- **Tool Input Verification:** A tool will produce incorrect results or fail if given incorrect inputs. Always verify critical inputs, such as the player's current state (e.g., `is_surfing`), against the Game State Information before calling a tool. Relying on memory for inputs is a common source of error.
+- **'No Path Found' is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle or a physical barrier, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
