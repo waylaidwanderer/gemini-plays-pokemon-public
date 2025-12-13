@@ -8,7 +8,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 8. Rumpus (18/64) vs Lapras (Damaged).
+- **Status:** Attempt 8. Vortex (Last) vs Lapras (Damaged).
 - **Strategy:**
   1. **Pivot Strategy:** Vortex lures Ice/Electric -> Switch to Flux (Resist). Flux lures Ground -> Switch to Vortex (Immune). Stall low PP moves (Blizzard/Thunder).
   2. **Task:** Defeat 7 Trainers.
