@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus (Last Stand), Vortex (FNT), Bahamut (FNT). Wigglytuff has +2 Atk.
+- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus (45/64 HP), Vortex (FNT), Bahamut (FNT). Opponent: Heracross (Lv20).
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
