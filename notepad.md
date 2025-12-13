@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Attempt 6. Party: Rumpus, Vortex, Flux (Planned).
+- **Status:** Battle Tower Level 20. Round 1. Attempt 6. Party: Rumpus, Vortex, Flux.
 - **Last Loss:** Cooltrainer Rajan (Lapras - Blizzard/Psychic).
 - **Location:** Battle Tower Lobby.
 
