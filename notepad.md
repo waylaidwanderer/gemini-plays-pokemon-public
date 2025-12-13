@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Attempt 10 IN PROGRESS.
-- **Last Loss:** Attempt 9 - Starmie (Surf) cleaned up Flux.
+- **Status:** Training Basalt (Lv19->20). Attempt 10 Failed.
+- **Last Loss:** Attempt 10 - Pikachu (Light Ball) swept team.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
