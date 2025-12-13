@@ -241,7 +241,6 @@
 - `stun_npc`
 - `define_tool`
 - `delete_tool`
-- `select_battle_option`
 
 ### Custom Tools
 - `select_item`
@@ -249,6 +248,7 @@
 - `switch_pokemon`
 - `find_path`
 - `explore_accessible_tiles`
+- `select_battle_option`
 
 ### Custom Agents
 - `python_code_debugger`
