@@ -2,10 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Challenge Battle Tower (Attempt 17).
+- **Current Task:** Challenge Battle Tower (Attempt 19).
 - **Status:** In Progress.
-- **Last Loss:** Attempt 16 - Skier Lancaster (Starmie).
-- **Location:** Battle Tower Hallway.
+- **Last Loss:** Attempt 18 - Officer Turner (Quagsire).
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 19 Round 1.
