@@ -10,8 +10,9 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 17 In Progress.
 - **Team:** Rumpus (Lead), Vortex, Flux.
-- **Prep:** Verify Held Items (Berry/Mint Berry).
-- **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
+- **Round 1:** Pokémaniac Bahn (Aerodactyl).
+  - Turn 1: Switched to Flux. Aero used Hyper Beam (Recharge).
+  - Plan: Thundershock (2x Eff).
 
 ### Last Loss (Attempt 14)
 - **Round 1:** Officer Turner (Nidoking).
