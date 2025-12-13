@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Preparing for Attempt 13. Team: Rumpus, Flux, Bahamut.
-- **Last Loss:** Attempt 12 - Lapras (Blizzard) swept team.
+- **Status:** Preparing for Attempt 14. Team: Rumpus, Flux, Bahamut.
+- **Last Loss:** Attempt 13 - Azumarill (Rain Dance + Surf) swept team.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
