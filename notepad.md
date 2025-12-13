@@ -2,18 +2,17 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Prepare for Attempt 23.
-- **Status:** Lobby. Checking items before re-entry.
-- **Last Loss:** Attempt 22 - Fisher Hughes (Heracross).
-- **Loss Analysis:** Heracross (Lv20) used EARTHQUAKE. OHKO'd Flux. Megahorn hurt Vortex bad.
-- **Lesson:** Heracross covers Fire/Rock with Ground. Flux is unsafe. Vortex needs full HP or speed advantage.
-- **Location:** Battle Tower Lobby.
+- **Current Task:** Attempt 26 (Round 1).
+- **Status:** Battle Room. Fighting Officer Turner.
+- **Last Loss:** Attempt 25 - Kimono Girl (Pikachu).
+- **Loss Analysis:** Rumpus fainted to priority Quick Attack after Strength failed to KO. Flux cleaned up by Sonicboom but couldn't finish Pikachu.
+- **Lesson:** Priority moves (Quick Attack) are dangerous at low HP. Sonicboom is reliable but fixed damage.
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Lobby. Checking items before Attempt 23.
-- **Last Result:** Attempt 22 Loss (Fisher Hughes).
-- **Loss Analysis:** Heracross (Lv20) used EARTHQUAKE. OHKO'd Flux. Megahorn hurt Vortex bad.
-- **Lesson:** Heracross covers Fire/Rock with Ground. Flux is unsafe. Vortex needs full HP or speed advantage.
+- **Status:** Round 1 vs Officer Turner.
+- **Last Result:** Attempt 25 Loss (Kimono Girl).
+- **Loss Analysis:** Pikachu outsped/priority KO'd Rumpus.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special).
 
 ### Threat Notes (Archive)
