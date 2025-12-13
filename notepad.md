@@ -8,14 +8,11 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 20 Round 1 vs Teacher Kawakami (Umbreon).
-- **Last Result:** Attempt 19 Loss (Round 1 vs Lapras).
-- **Loss Analysis:** Lapras (Water/Ice) swept the team. Bahamut and Vortex are both weak to Ice.
-- **Adjustment:** Swapped Bahamut for Flux (Magnemite).
-- **Current Battle:**
-  - **Opponent:** Wigglytuff (Lv20, Paralyzed, Atk +2 via Psych Up).
-  - **State:** Flux active (13/45 HP, Confused, Atk +2). Rumpus & Vortex Fainted. LAST STAND.
-  - **Strategy:** Flux hurt itself. Wigglytuff is boosted. Steel resists Normal, but HP is critical. Spam Thundershock.
+- **Status:** Preparing for Attempt 21.
+- **Last Result:** Attempt 20 Loss (Round 1 vs Wigglytuff).
+- **Loss Analysis:** Wigglytuff (Normal) boosted Attack (+2). Used Headbutt. Flux (Steel) resisted but took heavy damage due to boost. Rumpus/Vortex went down early.
+- **Lesson:** Physical Normal types with boosts are dangerous. Need to preserve Rumpus's HP or use status earlier.
+- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special). Checking held items before re-entry.
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
