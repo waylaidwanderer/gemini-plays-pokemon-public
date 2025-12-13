@@ -368,20 +368,10 @@
 - Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
 - **Mechanic Correction:** ICE BERRY cures BURN, not Freeze. It does NOT reduce Ice damage. Use BURNT BERRY for Freeze (not currently owned).
 - **Item Discovery:** Vortex was holding a **METAL COAT** (Boosts Steel moves). Swapped for BERRY for Battle Tower survival.
-### Battle Tower Attempt 9
-- **Round 1:** vs Pokémaniac Sawyer (Umbreon Lv20).
-- **Reflection Turn 31386:** Attempted switch failed due to selecting active Pokemon. Corrected strategy: Select Bench Pokemon (Vortex, Slot 2) to Switch.
-- **Round 1 vs Pikachu:** Pikachu outsped Rumpus (Quick Claw?). Rumpus took heavy damage (11/64 HP). Strategy: Sacrifice Rumpus to chip/kill, then clean up with Flux.
- Switching to Flux to wall Pikachu (Advisor Rec).
 ### Battle Tower Menu Mechanics
 - **L:20 Selection:** From default (L:10), press **Up** once to reach L:20.
 - **Navigation:** Up increments (10->20), Down decrements/wraps (10->100).
-- Round 1: Skier Van Dyke (Azumarill). Text: 'OK, here goes! I have momentum!'.
-- Turn 1: Switched to Flux (Magnemite).
+
 ### Inventory Lessons
 - **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
-- **Rocker's Tauros:** Knows Earthquake, Hyper Beam. Faster than Rumpus. Hyper Beam KOs require recharge.
-- **Battle Update:** Bahamut fainted to Hyper Beam. Opponent Tauros is Paralyzed and Recharging. Flux is the last hope. Plan: Thundershock/Sonicboom to finish low HP Tauros.
-- **Round 1:** Rocker (Tauros) Defeated. MVP: Bahamut (Paralysis) & Flux (Cleanup).
-- **Round 2:** Guitarist Adams (Heracross Lv20). Threat: Fighting moves (2x), Earthquake (4x), Counter.
 - **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
