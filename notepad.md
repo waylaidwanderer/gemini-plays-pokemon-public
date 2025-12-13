@@ -30,8 +30,8 @@
   - **Strategy:** Use Electric moves. Beware Blizzard on Dragons/Birds.
 - **Starmie:** Fast, Surf/Psychic.
   - **Strategy:** Thunder Wave is priority.
-- **Umbreon:** Toxic/Protect stall.
-  - **Strategy:** Toxic it back with Flux, or brute force.
+- **Umbreon:** Toxic/Protect/Substitute stall.
+  - **Strategy:** Toxic won't work if Sub is up. Use Rumpus (Strength) to break Sub first, then Toxic or brute force.
 - **Miltank:** Earthquake user.
   - **Strategy:** Vortex (Immune) or kill fast.
 
