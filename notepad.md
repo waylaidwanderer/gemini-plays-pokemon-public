@@ -362,11 +362,6 @@
 - **Strategy:** Use `hunt_routine` in tall grass. Heal at Olivine Center if HP < 30.
 - **Battle State Awareness:** Failed to notice battle text 'Rumpus used STRENGTH!' was still active before attempting `hunt_routine`. MUST verify Screen Text indicates 'FIGHT/PKMN/PACK/RUN' or 'Wild X appeared' before assuming control.
 
-### Battle Tower Attempt 2 Analysis
-- **Result:** Loss vs Lass (Pikachu, Scizor).
-- **Fatal Flaws:** Bahamut (Dragon) was completely walled and destroyed by Scizor (Steel).
-- **Adjustment:** Swap Bahamut -> Flux. Flux (Electric/Steel) double-resists Steel Wing and resists Bug. It is the perfect counter to Scizor. Vortex handles Ground types.
-
 - **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
 - Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
 ### Battle Tower Attempt 3
