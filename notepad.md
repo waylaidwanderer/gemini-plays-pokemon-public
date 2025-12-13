@@ -217,11 +217,6 @@
 
 # Battle Tower Intel
 - **General Strategy:** Lead Rumpus (Strength/Sweeper). Bahamut (Priority/TWave). Vortex (Ground Immunity/Fly).
-- **Known Threats:**
-  - **Aerodactyl:** Earthquake, Hyper Beam. (Switch to Vortex).
-  - **Starmie:** Surf, Psychic. Fast. (Paralyze with Bahamut).
-  - **Azumarill:** Blizzard, Surf. (Counters Dragons).
-  - **Alakazam:** Psychic, Elemental Punches. (Hit hard with Strength/Extremespeed).
 
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
