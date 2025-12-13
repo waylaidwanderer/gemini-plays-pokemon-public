@@ -384,3 +384,4 @@
 - **Battle Update:** Bahamut fainted to Hyper Beam. Opponent Tauros is Paralyzed and Recharging. Flux is the last hope. Plan: Thundershock/Sonicboom to finish low HP Tauros.
 - **Round 1:** Rocker (Tauros) Defeated. MVP: Bahamut (Paralysis) & Flux (Cleanup).
 - **Round 2:** Guitarist Adams (Heracross Lv20). Threat: Fighting moves (2x), Earthquake (4x), Counter.
+- **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
