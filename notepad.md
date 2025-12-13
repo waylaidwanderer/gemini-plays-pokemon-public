@@ -8,15 +8,15 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 13 Failed. Defeated by Skier Van Dyke (Azumarill). Rain Dance + Surf sweep.
+- **Status:** Preparing for Attempt 14. Team: Rumpus, Flux, Bahamut.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
-### Last Loss (Attempt 12)
-- **Round 1:** Youngster (Lapras).
-- **Killer:** Blizzard (OHKO Flux/Bahamut).
-- **Lesson:** Lapras is a major threat. Blizzard hits hard even resisted. Flux needs to survive to counter.
+### Last Loss (Attempt 13)
+- **Round 1:** Skier Van Dyke (Azumarill).
+- **Killer:** Rain Dance + Surf.
+- **Lesson:** Rain Dance makes Water moves lethal. Flux cannot switch in safely. Bahamut risks Ice coverage.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
