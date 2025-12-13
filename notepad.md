@@ -2,7 +2,7 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Equipping Held Items (PSNCUREBERRY/DRAGON FANG).
+- **Current Task:** Attempt 31 (Round 1).
 - **Status:** Starting Attempt 31.
 - **Last Loss:** Attempt 30 - Scientist Mori (Umbreon).
 - **Loss Analysis:** Umbreon (Toxic/Protect/Leftovers) stalled out the team. Rumpus poisoned early. Bahamut missed Dragonbreath at the end.
