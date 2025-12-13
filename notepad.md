@@ -26,8 +26,8 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Route 39.
-- **Status:** In Battle vs Wild Raticate (Lv16). Switch Training Basalt.
+- **Location:** Route 40.
+- **Status:** Returning to Battle Tower.
 - **Loss Analysis:**
   - **Pikachu:** Light Ball confirmed. Outsped Rumpus. Tanked Strength + Quick Attack. OHKO'd Vortex/Flux.
   - **Lesson:** NEED ELECTRIC IMMUNITY. Flux (Resist) is not enough. Vortex (Weak) is liability.
