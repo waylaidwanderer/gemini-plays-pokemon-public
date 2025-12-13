@@ -27,7 +27,7 @@
 
 ### Current Logs
 - **Location:** Route 39.
-- **Status:** Training Basalt (Lv19 -> 20) on Route 39.
+- **Status:** In Battle vs Wild Raticate (Lv16). Switch Training Basalt.
 - **Loss Analysis:**
   - **Pikachu:** Light Ball confirmed. Outsped Rumpus. Tanked Strength + Quick Attack. OHKO'd Vortex/Flux.
   - **Lesson:** NEED ELECTRIC IMMUNITY. Flux (Resist) is not enough. Vortex (Weak) is liability.
