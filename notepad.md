@@ -10,11 +10,11 @@
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Attempt 21.
-- **Last Result:** Attempt 20 Loss (Round 1 vs Wigglytuff).
-- **Loss Analysis:** Wigglytuff (Normal) boosted Attack (+2). Used Headbutt. Flux (Steel) resisted but took heavy damage due to boost. Rumpus/Vortex went down early.
-- **Lesson:** Physical Normal types with boosts are dangerous. Need to preserve Rumpus's HP or use status earlier.
-- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special). Checking held items before re-entry.
+- **Status:** Starting Attempt 22.
+- **Last Result:** Attempt 21 Loss (Pokémaniac Sawyer).
+- **Loss Analysis:** Blissey used Submission (effective vs Flux). Pikachu (Light Ball) KO'd Flux through resist.
+- **Lesson:** Flux unsafe vs Blissey (Submission). Vortex resists Fighting. Kill Pikachu immediately.
+- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special).
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
