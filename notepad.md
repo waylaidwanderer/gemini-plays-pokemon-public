@@ -109,7 +109,7 @@
 
 ## Strategy Notes
 - **Surfing:** Pathfinding must strictly separate Land/Water.
-- **Team:** Bahamut (Lead/Train), Vortex (Flying), Gauss (Electric/Steel), Lucre (Pickup/Train).
+- **Team:** Rumpus (Lead - Tauros), Vortex (Pivot - Pidgeotto), Flux (Special - Magnemite).
 
 ## Johto History
 - **Cleared:** National Park, Cianwood, Mahogany, Goldenrod, Rocket Base, Ice Path, Blackthorn.
