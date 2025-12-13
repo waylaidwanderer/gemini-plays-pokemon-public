@@ -8,7 +8,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 19 Round 1.
+- **Status:** Attempt 19 Round 1 vs Lapras.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
 - **Strategy:** Lead Rumpus. Preserve Vortex for Ground immunity, but beware Water/Ice. Bahamut as Special pivot.
 
