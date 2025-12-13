@@ -13,9 +13,9 @@
 - **Loss Analysis:** Lapras (Water/Ice) swept the team. Bahamut and Vortex are both weak to Ice.
 - **Adjustment:** Swapped Bahamut for Flux (Magnemite).
 - **Current Battle:**
-  - **Opponent:** Wigglytuff (Lv20, Paralyzed).
-  - **State:** Flux active (23/45 HP, Confused, Atk +2). Rumpus & Vortex Fainted. LAST STAND.
-  - **Strategy:** Pray Flux doesn't hit itself. Spam Thundershock.
+  - **Opponent:** Wigglytuff (Lv20, Paralyzed, Atk +2 via Psych Up).
+  - **State:** Flux active (13/45 HP, Confused, Atk +2). Rumpus & Vortex Fainted. LAST STAND.
+  - **Strategy:** Flux hurt itself. Wigglytuff is boosted. Steel resists Normal, but HP is critical. Spam Thundershock.
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
