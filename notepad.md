@@ -103,7 +103,7 @@
 - **Fly Strategy:** The Fly map cursor is unreliable (sticks/drops inputs). Always visually verify destination. **Rule:** If Fly fails twice, abandon and walk/ride if the destination is nearby.
 - **Fly Mechanics:** Fly destinations are only unlocked by entering the city's Pokémon Center. Visiting the city map is not enough (missed Pallet, Viridian, Pewter).
 - **Item Verification:** Passive upgrades (e.g., Radio Card) often don't appear in the inventory; trust NPC dialogue.
-- **Tool Usage:** `find_path` calculates a route for `path_plan`. To EXECUTE movement, use `buttons_to_press: ["path"]`. Do NOT use `autopress_buttons` with `find_path`.
+- **Tool Usage:** `find_path` generates coordinates for `path_plan`. The command `buttons_to_press: ["path"]` is a SYSTEM FEATURE (not a custom tool) that executes the plan. Custom tools returning buttons (e.g. `select_move`) need `autopress_buttons: true`.
 - **Menu Navigation:** Blind menu macros are unreliable due to wrapping and cursor memory. Use `force_press_button` with visual verification or manual inputs.
 
 ## Lavender Town
