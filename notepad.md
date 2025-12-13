@@ -8,15 +8,15 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 14 - Round 1 vs Officer Turner (Scizor). Rumpus Critical (6/64, Poisoned). Flux Critical (6/45). Bahamut Fainted. Sandstorm Active.
+- **Status:** Attempt 15 - Preparing.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
-- **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
+- **Prep:** Verify Held Items (Berry/Mint Berry).
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
-### Last Loss (Attempt 13)
-- **Round 1:** Skier Van Dyke (Azumarill).
-- **Killer:** Rain Dance + Surf.
-- **Lesson:** Rain Dance makes Water moves lethal. Flux cannot switch in safely. Bahamut risks Ice coverage.
+### Last Loss (Attempt 14)
+- **Round 1:** Officer Turner (Nidoking).
+- **Killer:** Nidoking (Ground/Poison).
+- **Lesson:** Nidoking walls Flux completely (Immune to Electric/Toxic). Must save Rumpus or Bahamut for it.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
