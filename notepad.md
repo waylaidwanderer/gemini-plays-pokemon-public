@@ -326,7 +326,7 @@
 - **Lucre (Meowth):** Lv16. Scratch, Growl, Bite.
 - **Event:** Dunsparce Swarm reported in Dark Cave (Violet Entrance) by Anthony.
 - **Tool Rule:** `autopress_buttons: true` is ONLY for Custom Tools (e.g., `select_move`). System tools (e.g., `select_battle_option`) fail/ignore if this is set.
-- Status: Healed. Returning to Route 39 to train Flux.
+- Status: Rumpus healed. Moving to Route 39 to grind XP.
 - **Note:** Umbreon holds Leftovers.
 - **Battle Update:** Vortex Badly Poisoned by Umbreon. Switching to Bahamut to reset Toxic counter and attempt Thunder Wave.
 - **Battle Update:** Umbreon used Attract (Failed). Bahamut paralyzed Umbreon with Thunder Wave. Umbreon moves known: Toxic, Protect, Attract.
