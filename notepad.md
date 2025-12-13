@@ -4,13 +4,13 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
 - **Status:** Battle Tower Level 20. Round 1. Party: Rumpus, Vortex, Flux.
-- **Location:** Battle Tower Battle Room.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Ready to Challenge.
+- **Status:** Preparing for Attempt 4.
 - **Strategy:**
-  1. **Train Rumpus:** Get Tauros to Lv20. (Strength Taught). **CRITICAL:** STOP EXACTLY AT LV20. Exceeding Lv20 (even by 1) DISQUALIFIES him.
-  2. **Team:** Rumpus (Lead/Sweeper), Flux (Scizor Counter), Vortex (Ground Immunity/Fly). [Plan: Swap Bahamut -> Flux at PC]
+  1. **Team:** Rumpus (Lead), Bahamut (Pivot), Vortex (Immunity).
+  2. **Task:** Swap Flux for Bahamut.
 
 ### Known Threats & Counter-Strategies
 - **Blissey:** High HP, **Counter**. 
