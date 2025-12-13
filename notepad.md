@@ -57,7 +57,7 @@
 ### Menu & UI Mechanics
 - **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
 - **Wrapping:** Menus wrap around (Up at top -> Bottom).
-- **Cursor Memory:** The game remembers the last cursor position. Always reset (e.g., press Up x5) before navigating blind.
+- **Cursor Memory:** The game remembers the last cursor position. **WARNING:** The Start Menu WRAPS. Do NOT blindly mash 'Up'. Visually confirm cursor position.
 - **UI Mixed State:** Pokegear menu header can persist over text boxes. Press 'B' aggressively to clear.
 - **Pokegear Navigation:** Horizontal ROW [BACK | MAP | PHONE | RADIO]. Navigation wraps/clamps. Reliable path to Radio: Reset to BACK (Left x3), then RADIO (Right x3).
 - **Radio Tuning:** 'A' toggles Manual/Preset. 'Up/Down' cycles presets. 'Right' moves needle manually. Tune to 20.0 for Poké Flute. Phone calls reset frequency.
