@@ -30,12 +30,11 @@
 
 ### Current Logs
 - **Location:** Battle Tower Lobby.
-- **Status:** Recovering from Attempt 12 loss.
+- **Status:** Recovering from Attempt 13 loss.
 - **Loss Analysis:**
-  - **Lapras:** Blizzard is devastating. 120 BP + STAB = 180. Even resisted, it does heavy damage to Flux (Low HP). Crit is OHKO.
-  - **Plan:** Stick with Rumpus/Flux/Bahamut. Pray for misses (70% acc) or no crits.
-- **Previous Loss:** Pikachu (Light Ball) swept team.
-  - **Lesson:** NEED ELECTRIC IMMUNITY. Flux (Resist) is not enough. Vortex (Weak) is liability.
+  - **Azumarill:** Rain Dance + Surf is a killer combo. Rain boosts Water by 50%.
+  - **Lesson:** Flux cannot tank Rain-boosted Water moves despite high SpDef. Bahamut resists but risks Ice coverage.
+  - **Plan:** Keep Rumpus lead. Consider aggressive switches or status (Thunder Wave) earlier.
 
 ## Global Game Mechanics
 ### General Mechanics
