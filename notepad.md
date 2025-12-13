@@ -342,3 +342,12 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 # STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 49431 Reflection)
 - **Tool Failure is a Bug, Not a Puzzle:** A pathfinding tool repeatedly failing on a simple, visually clear path is a strong indicator of a fundamental bug in its logic. Trust the tool's output as data; if the data contradicts observable reality, the tool is broken and must be fixed immediately.
 - **Challenge False Constraints:** When physically trapped or stuck on a puzzle, the solution might not be in the immediate, obvious space. Aggressively question the root assumption that the solution must be *on* the platform or *in* the room. Consider interactions with the broader environment (like using SURF on adjacent water) as a primary hypothesis.
+
+# Tile Mechanic Re-verification Experiment
+
+## Test: WATER to FLOOR_UP_WALL Traversal
+- **Hypothesis:** It is possible to move downwards from a WATER tile onto an adjacent FLOOR_UP_WALL tile. This contradicts a previous observation.
+- **Test Plan:**
+  1. Position player on the WATER tile at (10, 9). (Status: COMPLETE)
+  2. Attempt to move Down onto the FLOOR_UP_WALL tile at (10, 10). (Status: PENDING)
+- **Conclusion:** (Pending test result)
