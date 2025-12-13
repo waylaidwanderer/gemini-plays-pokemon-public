@@ -228,12 +228,12 @@
 - **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
 
 # Battle Tower Intel
-- **General Strategy:** Lead Bahamut (TWave). Flux resists Ice/Psychic/Normal. Vortex immune to Ground.
+- **General Strategy:** Lead Rumpus (Strength/Sweeper). Bahamut (Priority/TWave). Vortex (Ground Immunity/Fly).
 - **Known Threats:**
-  - **Aerodactyl:** Earthquake, Hyper Beam. (Counters Flux).
-  - **Starmie:** Surf, Psychic. Fast.
+  - **Aerodactyl:** Earthquake, Hyper Beam. (Switch to Vortex).
+  - **Starmie:** Surf, Psychic. Fast. (Paralyze with Bahamut).
   - **Azumarill:** Blizzard, Surf. (Counters Dragons).
-  - **Alakazam:** Psychic, Elemental Punches.
+  - **Alakazam:** Psychic, Elemental Punches. (Hit hard with Strength/Extremespeed).
 
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
