@@ -13,9 +13,9 @@
 - **Loss Analysis:** Lapras (Water/Ice) swept the team. Bahamut and Vortex are both weak to Ice.
 - **Adjustment:** Swapped Bahamut for Flux (Magnemite).
 - **Current Battle:**
-  - **Opponent:** Umbreon (Lv20, Leftovers). Moves: Toxic, Protect, Mud-Slap.
-  - **State:** Vortex active (13/61 HP, PSN). Umbreon used Protect. Rumpus (32/64, PSN). Flux (23/45).
-  - **Strategy:** Spam Steel Wing. Vortex is critical (Sacrifice).
+  - **Opponent:** Umbreon (Lv20, Leftovers). Moves: Toxic, Protect, Mud-Slap. HP: ~50%.
+  - **State:** Rumpus active (32/64 HP, PSN). Vortex Fainted. Flux (23/45).
+  - **Strategy:** Rumpus must brute force with Strength. Flux is backup.
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
