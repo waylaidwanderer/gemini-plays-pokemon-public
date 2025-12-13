@@ -8,10 +8,11 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 11 Failed (Round 1).
-- **Loss Analysis:** Hitmonchan (Lv20) swept. Moves: Mega Punch, Ice Punch, Fire Punch. Held Item: Gold Berry.
-- **Team Flaw:** Entire team (Normal, Steel/Electric, Rock/Ground) is weak to Fighting or Hitmonchan's coverage moves.
-- **Plan:** Need a Psychic or Flying type that isn't weak to Ice/Thunder/Fire punches. Or just a faster heavy hitter.
+- **Status:** Attempt 11 Failed (Hitmonchan sweep).
+- **Strategy Update:** Basalt (Rock/Ground) compounds weaknesses to Ice/Fighting. Swapping for Bahamut (Dragon).
+- **New Team:** Rumpus (Lead), Flux (Steel/Elec), Bahamut (Dragon).
+- **Synergy:** Flux resists Ice/Dragon (Bahamut's weaknesses). Bahamut resists Fire/Water/Electric (Flux's weaknesses).
+- **Action:** Swap Basalt -> Bahamut at PC. Equip items.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
