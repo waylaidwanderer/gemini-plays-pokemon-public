@@ -405,3 +405,16 @@
 - **Adjustment:** Swap Flux -> Bahamut.
 - **Battle Event:** Bahamut (Dratini) OHKO'd by Lapras (Blizzard). Lesson: Do not switch Dragons into Water/Ice types in Battle Tower.
 - Agent Fix: Update 'battle_advisor' to remove ITEM and RUN from valid actions, as they are banned in Battle Tower.
+### Battle Tower Attempt 5 Analysis
+- **Result:** Loss vs Cooltrainer Rajan (Lapras).
+- **Opponent Team:** Lapras (Blizzard, Psychic, Confuse Ray).
+- **Fatal Flaws:**
+  - Bahamut (Dragon) OHKO by Blizzard.
+  - Vortex (Flying) outsped and KO'd by Psychic (Lapras likely has Quick Claw or high stats).
+  - Rumpus (Tauros) confused and unable to finish the job.
+- **Lesson:** Lapras is a major threat. It has coverage for my entire team.
+  - Ice kills Dragon/Flying.
+  - Psychic hits Poison/Fighting.
+  - Confuse Ray shuts down slow setup.
+- **Action:** Need a dedicated counter to Water/Ice types. Gauss (Magnemite) resists Ice and Psychic.
+- **Plan:** Re-evaluate team composition. Bring Gauss back.
