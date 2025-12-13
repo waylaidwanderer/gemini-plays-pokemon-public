@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Attempt 8. Party: Rumpus, Vortex, Flux.
-- **Last Loss:** Nidoking (Blizzard/Earthquake).
+- **Status:** Battle Tower Level 20. Round 1. Attempt 9. Party: Rumpus, Vortex, Flux.
+- **Last Loss:** Lapras (Thunderbolt/Blizzard).
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
