@@ -396,7 +396,9 @@
 - **Agents:** Update `battle_advisor` immediately when party changes.
 - **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
 - Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
-### Battle Tower Attempt 3 (Current)
+### Battle Tower Attempt 3
 - **Opponent:** Pokémaniac Kahn.
-- **Team:** Miltank (Thunder, Earthquake, Attract), Arcanine.
-- **Status:** Miltank KO'd. Rumpus (2 HP, Paralyzed) vs Arcanine.
+- **Team:** Miltank (Thunder, Earthquake, Attract), Arcanine (Flamethrower).
+- **Result:** Loss.
+- **Lesson:** Flux is too vulnerable to Ground (Earthquake). Bahamut (Dragon) resists Electric/Fire/Water/Grass and is a better pivot.
+- **Adjustment:** Swap Flux -> Bahamut.
