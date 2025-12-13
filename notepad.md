@@ -2,8 +2,8 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Attempt 27 (Round 1).
-- **Status:** Lobby. Preparing Team (Bahamut In).
+- **Current Task:** Attempt 27 (Round 1) vs Lass (Arcanine).
+- **Status:** Battle. Bahamut Fainted. Vortex vs Arcanine (Recharging).
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
 - **Loss Analysis:** Scizor (Steel/Bug) walled Rumpus/Flux. Vortex fainted to Sandstorm chip damage.
 - **Lesson:** Sandstorm kills low HP flyers. Need better coverage for Steel types.
