@@ -8,7 +8,7 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 11 - Round 1 vs Beauty.
+- **Status:** Attempt 11 - Round 1 vs Beauty. Flux Fainted (Psychic). Rumpus Toxic'd. Sending Bahamut.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Synergy:** Dragon/Steel core covers weaknesses perfectly.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
