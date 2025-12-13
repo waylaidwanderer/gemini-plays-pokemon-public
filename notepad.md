@@ -2,14 +2,14 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Swap Flux for Vortex (Ground Immunity).
-- **Status:** Attempt 16 - Round 1: Starmie (Speed 115, Surf/Psychic). Bahamut Fainted. Vortex In.
-- **Last Loss:** Attempt 15 - Guitarist Adams (Heracross). Flux OHKO'd by Earthquake.
-- **Location:** Battle Tower Lobby.
+- **Current Task:** Swap Bahamut for Flux.
+- **Status:** Recovering from Attempt 16 Loss.
+- **Last Loss:** Attempt 16 - Skier Lancaster (Starmie). Starmie swept team.
+- **Location:** Battle Tower.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 16 - Round 1: Starmie (Speed 115, Surf/Psychic). Bahamut Fainted. Vortex In.
-- **Team:** Rumpus (Lead), Bahamut, Vortex.
+- **Status:** Attempt 16 Failed.
+- **Team:** Rumpus (Lead), Vortex, Flux (Planned).
 - **Prep:** Verify Held Items (Berry/Mint Berry).
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
