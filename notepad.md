@@ -372,3 +372,5 @@
 - Heracross (Lv20). Switching to Vortex.
 - Battle Intel: Heracross (L20) Megahorn did ~36 dmg to Vortex (Resisted). Extremely dangerous.
 - Battle Intel: Heracross (Lv20) outsped Vortex (Base Spd 71). KO'd with Megahorn.
+### Attempt 23
+- **Round 1:** Youngster (Start). Leading with Rumpus.
