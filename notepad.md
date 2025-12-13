@@ -399,3 +399,4 @@
 - **Action:** Need a dedicated counter to Water/Ice types. Gauss (Magnemite) resists Ice and Psychic.
 - **Plan:** Re-evaluate team composition. Bring Gauss back.
 - Team Change: Swapping Bahamut (Weak to Ice) for Flux (Resists Ice/Psychic) to counter Lapras.
+- **Battle Log:** Rumpus fainted to Exeggutor (Psychic, Crit). Sent out Flux (Last Mon, 18 HP).
