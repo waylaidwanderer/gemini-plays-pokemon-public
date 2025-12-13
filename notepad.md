@@ -43,7 +43,7 @@
 ### Current Logs
 - **Location:** Battle Tower Lobby.
 - **Status:** Ready to challenge Level 20.
-- **Last Loss:** Cooltrainer Rajan (Lapras).
+- **Last Loss:** Super Nerd (Exeggutor - Psychic/Toxic).
   - **Lesson:** Lapras (Ice/Water) is a major threat. Bahamut (Dragon) and Vortex (Flying) are weak to Ice. Swapping Bahamut for Flux (Electric/Steel).
 
 ## Global Game Mechanics
