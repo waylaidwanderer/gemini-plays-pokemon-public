@@ -14,7 +14,7 @@
 - **Adjustment:** Swapped Bahamut for Flux (Magnemite).
 - **Current Battle:**
   - **Opponent:** Umbreon (Lv20, Leftovers). Moves: Toxic, Protect, Mud-Slap.
-  - **State:** Vortex active (45/61 HP, PSN). Immune to Mud-Slap. Rumpus benched (32/64 HP, PSN). Flux benched (23/45 HP).
+  - **State:** Vortex active (38/61 HP, PSN). Umbreon used Protect. Rumpus (32/64, PSN, Acc-1). Flux (23/45).
   - **Strategy:** Use Fly (STAB) or Steel Wing. Watch out for Toxic.
 
 ### Last Loss (Attempt 18)
