@@ -373,3 +373,10 @@
 - **Result:** Loss vs Lass (Pikachu, Scizor).
 - **Fatal Flaws:** Bahamut (Dragon) was completely walled and destroyed by Scizor (Steel).
 - **Adjustment:** Swap Bahamut -> Flux. Flux (Electric/Steel) double-resists Steel Wing and resists Bug. It is the perfect counter to Scizor. Vortex handles Ground types.
+
+# Tool Manual & Automation Rules
+- **find_path:** Outputs coordinates. Use with `path_plan`. NEVER use `autopress_buttons: true`.
+- **press_sequence / select_move:** Output button arrays. MUST use `autopress_buttons: true`.
+- **System Tools (e.g., select_battle_option):** Do NOT use `autopress_buttons: true`.
+- **Menu Navigation:** Avoid blind macros. Use `select_move` or step-by-step manual inputs with verification.
+- **Agents:** Update `battle_advisor` immediately when party changes.
