@@ -370,3 +370,4 @@
 - **L:20 Selection:** From default (L:10), press **Up** once to reach L:20.
 - **Navigation:** Up increments (10->20), Down decrements/wraps (10->100).
 - Round 1: Skier Van Dyke (Azumarill). Text: 'OK, here goes! I have momentum!'.
+- Turn 1: Switched to Flux (Magnemite).
