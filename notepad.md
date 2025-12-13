@@ -3,20 +3,20 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Team Assembled (Rumpus, Flux, Bahamut). Ready for Attempt 11.
-- **Last Loss:** Attempt 10 - Pikachu (Light Ball) swept team.
-- **Location:** Route 39.
+- **Status:** Preparing for Attempt 13. Team: Rumpus, Flux, Bahamut.
+- **Last Loss:** Attempt 12 - Lapras (Blizzard) swept team.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 12 - Round 1 vs Youngster.
+- **Status:** Attempt 13 (Starting Soon).
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
-### Last Loss (Attempt 11)
-- **Round 1:** Beauty (Exeggutor).
-- **Killer:** Hyper Beam (OHKO Bahamut), Psychic (OHKO Flux), Poison (Finished Rumpus).
-- **Lesson:** Exeggutor is a major threat. Hyper Beam requires recharge. Poison is a win-condition for the AI.
+### Last Loss (Attempt 12)
+- **Round 1:** Youngster (Lapras).
+- **Killer:** Blizzard (OHKO Flux/Bahamut).
+- **Lesson:** Lapras is a major threat. Blizzard hits hard even resisted. Flux needs to survive to counter.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
@@ -29,14 +29,13 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Outside.
-- **Status:** Starting Attempt 11 (Level 20).
+- **Location:** Battle Tower Lobby.
+- **Status:** Recovering from Attempt 12 loss.
 - **Loss Analysis:**
-  - **Pikachu:** Light Ball confirmed. Outsped Rumpus. Tanked Strength + Quick Attack. OHKO'd Vortex/Flux.
+  - **Lapras:** Blizzard is devastating. 120 BP + STAB = 180. Even resisted, it does heavy damage to Flux (Low HP). Crit is OHKO.
+  - **Plan:** Stick with Rumpus/Flux/Bahamut. Pray for misses (70% acc) or no crits.
+- **Previous Loss:** Pikachu (Light Ball) swept team.
   - **Lesson:** NEED ELECTRIC IMMUNITY. Flux (Resist) is not enough. Vortex (Weak) is liability.
-  - **Plan:** Train Basalt (Geodude) to Lv20 to wall Electric types.
-- **Last Loss:** Super Nerd (Exeggutor - Psychic/Toxic).
-  - **Lesson:** Lapras (Ice/Water) is a major threat. Bahamut (Dragon) and Vortex (Flying) are weak to Ice. Swapping Bahamut for Flux (Electric/Steel).
 
 ## Global Game Mechanics
 ### General Mechanics
@@ -345,7 +344,6 @@
 - **Hitmonchan:** Elemental Punches. Counter: Vortex (Fly).
 - **Lapras:** Blizzard/Thunderbolt/Psychic. Counter: Flux (Resists) or Brute Force.
 - **Pikachu:** Likely holds Light Ball (Massive damage even when resisted). Danger!
-- **Pikachu:** Likely holds Light Ball (Massive damage even when resisted). Danger!
 - **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
 - Phone Call: Anthony (Route 33) mentions seeing many Geodude (Possible Swarm?).
@@ -371,5 +369,3 @@
 ### Battle Tower Menu Mechanics
 - **L:20 Selection:** From default (L:10), press **Up** once to reach L:20.
 - **Navigation:** Up increments (10->20), Down decrements/wraps (10->100).
-- Bahamut OHKO'd by Hyper Beam. Exeggutor recharging.
-- Round 1 vs Youngster (Lapras): Flux OHKO'd by Crit Blizzard (Resisted!). Lapras is dangerous. Sending Rumpus.
