@@ -2,12 +2,12 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Recover from Attempt 21 Loss.
-- **Status:** Defeated by Pokémaniac Sawyer (Pikachu).
-- **Last Loss:** Attempt 21 - Pokémaniac Sawyer (Pikachu).
-- **Loss Analysis:** Blissey used Submission (effective vs Flux). Pikachu used Thunderbolt (likely Light Ball) to KO Flux through 4x resist.
-- **Lesson:** Flux is unsafe vs Blissey (Submission). Vortex resists Fighting. Pikachu is lethal; prioritize killing it (Earthquake/Strength).
-- **Location:** Battle Tower Battle Room.
+- **Current Task:** Prepare for Attempt 23.
+- **Status:** Lobby. Checking items before re-entry.
+- **Last Loss:** Attempt 22 - Fisher Hughes (Heracross).
+- **Loss Analysis:** Heracross (Lv20) used EARTHQUAKE. OHKO'd Flux. Megahorn hurt Vortex bad.
+- **Lesson:** Heracross covers Fire/Rock with Ground. Flux is unsafe. Vortex needs full HP or speed advantage.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Starting Attempt 22.
