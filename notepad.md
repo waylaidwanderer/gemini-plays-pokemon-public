@@ -10,7 +10,7 @@
 - **Status:** Preparation Phase (Rumpus).
 - **Strategy:**
   1. **Train Rumpus:** Get Tauros to Lv20. (Strength Taught). **CRITICAL:** STOP EXACTLY AT LV20. Exceeding Lv20 (even by 1) DISQUALIFIES him.
-  2. **Team:** Rumpus (Lead/Sweeper), Bahamut (Priority/Paralysis), Vortex (Ground Immunity/Fly).
+  2. **Team:** Rumpus (Lead/Sweeper), Bahamut (Priority/Paralysis), Vortex (Ground Immunity/Fly). [Verified: Flux Deposited, Bahamut Withdrawn]
 
 ### Known Threats & Counter-Strategies
 - **Blissey:** High HP, **Counter**. 
