@@ -3,9 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Attempt 9 FAILED. Preparing for Attempt 10.
-- **Last Loss:** Starmie (Surf) - Outsped Flux.
-- **Location:** Battle Tower Battle Room (Exiting).
+- **Status:** Battle Tower Level 20. Attempt 10 IN PROGRESS.
+- **Last Loss:** Attempt 9 - Starmie (Surf) cleaned up Flux.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 9 Failed (Round 1).
