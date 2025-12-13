@@ -387,4 +387,9 @@
 - **Lesson:** Tauros has elemental coverage. Do not assume Physical set. Vortex is unsafe.
 
 ### Attempt 25
+- **Result:** Loss (Round 1 - Kimono Girl).
+- **Team:** Heracross, Hitmonchan, Pikachu.
+- **Analysis:** Heracross weak to Flying but fast/strong. Pikachu is a major threat (outsped Rumpus?). Flux fainted to Thunderbolt.
+
+### Attempt 26
 - **Status:** Starting.
