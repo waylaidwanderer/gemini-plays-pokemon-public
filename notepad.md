@@ -14,8 +14,8 @@
 - **Adjustment:** Swapped Bahamut for Flux (Magnemite).
 - **Current Battle:**
   - **Opponent:** Wigglytuff (Lv20).
-  - **State:** Rumpus active (6/64 HP, PSN). Vortex Fainted. Flux (23/45).
-  - **Strategy:** Rumpus final Strength. Flux to clean up (Resists Normal).
+  - **State:** Flux active (23/45 HP). Rumpus & Vortex Fainted. LAST STAND.
+  - **Strategy:** Flux resists Normal. Use Sonicboom/Thundershock.
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
