@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Swap Bahamut for Flux.
-- **Status:** Recovering from Attempt 16 Loss.
-- **Last Loss:** Attempt 16 - Skier Lancaster (Starmie). Starmie swept team.
+- **Current Task:** Challenge Battle Tower (Attempt 17).
+- **Status:** Ready.
+- **Last Loss:** Attempt 16 - Skier Lancaster (Starmie). Starmie swept team. Lesson: Need Electric coverage (Flux).
 - **Location:** Battle Tower.
 
 ## 🏆 Battle Tower Challenge (Level 20)
