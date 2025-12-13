@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Challenge Battle Tower Level 20.
-- **Status:** Entering Battle Tower Level 20. Party: Rumpus, Flux, Vortex.
+- **Status:** Battle Tower Level 20. Round 1 vs Lass. Party: Rumpus, Flux, Vortex.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
