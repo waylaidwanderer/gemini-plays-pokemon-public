@@ -365,3 +365,6 @@
 - **Reflection Turn 31386:** Attempted switch failed due to selecting active Pokemon. Corrected strategy: Select Bench Pokemon (Vortex, Slot 2) to Switch.
 - **Round 1 vs Pikachu:** Pikachu outsped Rumpus (Quick Claw?). Rumpus took heavy damage (11/64 HP). Strategy: Sacrifice Rumpus to chip/kill, then clean up with Flux.
  Switching to Flux to wall Pikachu (Advisor Rec).
+### Battle Tower Menu Mechanics
+- **L:20 Selection:** From default (L:10), press **Up** once to reach L:20.
+- **Navigation:** Up increments (10->20), Down decrements/wraps (10->100).
