@@ -2,14 +2,14 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Attempt 15 - Round 1 vs Rocker.
-- **Last Loss:** Attempt 14 - Officer Turner (Nidoking). Flux walled by Ground/Poison typing.
-- **Location:** Battle Tower Battle Room.
+- **Current Task:** Swap Flux for Vortex (Ground Immunity).
+- **Status:** Attempt 16 - Prep.
+- **Last Loss:** Attempt 15 - Guitarist Adams (Heracross). Flux OHKO'd by Earthquake.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 15 - In Progress.
-- **Team:** Rumpus (Lead), Flux, Bahamut.
+- **Status:** Attempt 16 - Prep.
+- **Team:** Rumpus (Lead), Bahamut, Vortex.
 - **Prep:** Verify Held Items (Berry/Mint Berry).
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
