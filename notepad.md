@@ -8,9 +8,9 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 4.
+- **Status:** Attempt 6.
 - **Strategy:**
-  1. **Team:** Rumpus (Lead), Bahamut (Pivot), Vortex (Immunity).
+  1. **Team:** Rumpus (Lead), Flux (Resist Ice/Psychic), Vortex (Ground Immunity).
   2. **Task:** Defeat 7 Trainers.
 
 ### Known Threats & Counter-Strategies
