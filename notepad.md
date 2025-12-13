@@ -27,7 +27,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Outside.
-- **Status:** Entering Battle Tower Lobby.
+- **Status:** Starting Attempt 11 (Level 20).
 - **Loss Analysis:**
   - **Pikachu:** Light Ball confirmed. Outsped Rumpus. Tanked Strength + Quick Attack. OHKO'd Vortex/Flux.
   - **Lesson:** NEED ELECTRIC IMMUNITY. Flux (Resist) is not enough. Vortex (Weak) is liability.
