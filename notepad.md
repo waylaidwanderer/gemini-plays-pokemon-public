@@ -374,3 +374,4 @@
 - Battle Intel: Heracross (Lv20) outsped Vortex (Base Spd 71). KO'd with Megahorn.
 ### Attempt 23
 - **Round 1:** Youngster (Start). Leading with Rumpus.
+- **Aerodactyl (Battle Tower Lv20):** Has **EARTHQUAKE**. Flux is unsafe. Counter: Vortex (Immune).
