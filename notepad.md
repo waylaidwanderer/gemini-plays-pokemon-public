@@ -16,15 +16,9 @@
 - **Lesson:** Heracross covers Fire/Rock with Ground. Flux is unsafe. Vortex needs full HP or speed advantage.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special).
 
-### Last Loss (Attempt 18)
-- **Round 1:** Officer Turner (Quagsire).
-- **Killer:** Quagsire (Water/Ground).
-- **Lesson:** Quagsire is tanky and hits hard with Surf. Fly dodged one hit but wasn't enough. Need to chip down or use Rumpus's raw power.
-
-### Last Loss (Attempt 14)
-- **Round 1:** Officer Turner (Nidoking).
-- **Killer:** Nidoking (Ground/Poison).
-- **Lesson:** Nidoking walls Flux completely (Immune to Electric/Toxic). Must save Rumpus or Bahamut for it.
+### Threat Notes (Archive)
+- **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
+- **Nidoking:** Ground/Poison. Walls Flux. Counter: Rumpus.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
