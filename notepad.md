@@ -36,13 +36,10 @@
 - **Kanto Campaign:** 8 Badges obtained. Red defeated.
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
-### Current Logs
-- **Location:** Battle Tower Lobby.
-- **Status:** Recovering from Attempt 13 loss.
-- **Loss Analysis:**
-  - **Azumarill:** Rain Dance + Surf is a killer combo. Rain boosts Water by 50%.
-  - **Lesson:** Flux cannot tank Rain-boosted Water moves despite high SpDef. Bahamut resists but risks Ice coverage.
-  - **Plan:** Keep Rumpus lead. Consider aggressive switches or status (Thunder Wave) earlier.
+### Historic Loss Log
+- **Attempt 13:** Azumarill (Rain Dance/Surf).
+- **Attempt 14:** Nidoking (Ground/Poison).
+- **Attempt 18:** Quagsire (Water/Ground).
 
 ## Global Game Mechanics
 ### General Mechanics
