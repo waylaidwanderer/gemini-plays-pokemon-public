@@ -14,7 +14,7 @@
   - Turn 1: Switched to Flux. Aero used Hyper Beam (Flux 24/45).
   - Turn 2: Aero Recharging. Flux used Thundershock.
   - Turn 3: Switched to Rumpus. Aero used Earthquake (Rumpus 39/64).
-  - Turn 4: Switching to Vortex (Immune to EQ, SE Steel Wing).
+  - Turn 4: Switched to Vortex. Aero used Dragon Rage (Vortex 21/61). Critical Danger: All party members in Dragon Rage KO range.
 
 ### Last Loss (Attempt 14)
 - **Round 1:** Officer Turner (Nidoking).
