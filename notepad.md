@@ -353,3 +353,11 @@
 - **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
 - Phone Call: Anthony (Route 33) mentions seeing many Geodude (Possible Swarm?).
+### Route 39 Grinding Plan
+- **Target:** Train Rumpus (Tauros) to Level 20 EXACTLY.
+- **XP Sources:**
+  - Tauros (~180-200 XP)
+  - Miltank (~200 XP)
+  - Pidgeotto (~100 XP)
+  - Magnemite (Avoid/Run - Sonicboom danger/Steel resist)
+- **Strategy:** Use `hunt_routine` in tall grass. Heal at Olivine Center if HP < 30.
