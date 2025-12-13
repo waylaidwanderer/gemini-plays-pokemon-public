@@ -373,5 +373,11 @@
 - Battle Intel: Heracross (L20) Megahorn did ~36 dmg to Vortex (Resisted). Extremely dangerous.
 - Battle Intel: Heracross (Lv20) outsped Vortex (Base Spd 71). KO'd with Megahorn.
 ### Attempt 23
-- **Round 1:** Youngster (Start). Leading with Rumpus.
-- **Aerodactyl (Battle Tower Lv20):** Has **EARTHQUAKE**. Flux is unsafe. Counter: Vortex (Immune).
+- **Result:** Loss (Round 1 - Youngster).
+- **Threat:** Aerodactyl (Lv20).
+- **Moves:** Earthquake, Dragon Rage, Hyper Beam.
+- **Analysis:** Switched Flux into Earthquake (OHKO). Vortex KO'd by Dragon Rage. Rumpus KO'd by Hyper Beam.
+- **Lesson:** NEVER switch Flux into Aerodactyl. Lead Rumpus. If Aerodactyl appears, switch VORTEX immediately (Immune to EQ).
+
+### Attempt 24
+- **Status:** Starting.
