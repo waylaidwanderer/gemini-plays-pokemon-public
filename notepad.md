@@ -13,9 +13,9 @@
 - **Loss Analysis:** Lapras (Water/Ice) swept the team. Bahamut and Vortex are both weak to Ice.
 - **Adjustment:** Swapped Bahamut for Flux (Magnemite).
 - **Current Battle:**
-  - **Opponent:** Umbreon (Lv20, Leftovers). Moves: Toxic, Protect, Mud-Slap. HP: ~50%.
-  - **State:** Rumpus active (6/64 HP, PSN, Acc -1). Vortex Fainted. Flux (23/45). DO OR DIE TURN.
-  - **Strategy:** Rumpus must brute force with Strength. Toxic counter is reset.
+  - **Opponent:** Wigglytuff (Lv20).
+  - **State:** Rumpus active (6/64 HP, PSN). Vortex Fainted. Flux (23/45).
+  - **Strategy:** Rumpus final Strength. Flux to clean up (Resists Normal).
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
