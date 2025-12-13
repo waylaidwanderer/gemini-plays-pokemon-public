@@ -376,3 +376,4 @@
 - **Round 1:** Fisher Hughes (Alakazam). Moves: Toxic.
 - Heracross (Lv20). Switching to Vortex.
 - Battle Intel: Heracross (L20) Megahorn did ~36 dmg to Vortex (Resisted). Extremely dangerous.
+- Battle Intel: Heracross (Lv20) outsped Vortex (Base Spd 71). KO'd with Megahorn.
