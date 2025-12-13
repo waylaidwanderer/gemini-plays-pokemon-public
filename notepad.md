@@ -8,11 +8,10 @@
 - **Location:** Battle Tower Hallway.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 17 FAILED.
-- **Killer:** Pokémaniac Bahn's Aerodactyl.
-- **Cause of Death:** Dragon Rage (Fixed 40 DMG).
-- **CRITICAL THREAT:** Dragon Rage deals fixed 40 damage. At Lv20, my team has ~45-65 HP, making this a guaranteed 2HKO (or OHKO if weakened). There are NO immunities to Dragon Rage in Gen 2.
-- **Strategy Adjustment:** Must prioritize Speed control (Thunder Wave) or raw offense to eliminate Dragon Rage users immediately. Swapping Flux for Bahamut (Thunder Wave/ExtremeSpeed).
+- **Status:** Attempt 18 PREPARING.
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
+- **Strategy:** Bahamut (Dragon Fang) for Thunder Wave speed control and ExtremeSpeed priority. Vortex (Berry) for Ground immunity. Rumpus (PRZCureBerry) as physical sweeper.
+- **Key Threat:** Dragon Rage (Fixed 40 DMG). Must kill fast or paralyze.
 
 ### Last Loss (Attempt 14)
 - **Round 1:** Officer Turner (Nidoking).
