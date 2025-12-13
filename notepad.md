@@ -8,10 +8,15 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 11 - Round 1 vs Beauty. Flux Fainted (Psychic). Rumpus Toxic'd. Sending Bahamut.
+- **Status:** Preparing Attempt 12.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
-- **Synergy:** Dragon/Steel core covers weaknesses perfectly.
+- **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
+
+### Last Loss (Attempt 11)
+- **Round 1:** Beauty (Exeggutor).
+- **Killer:** Hyper Beam (OHKO Bahamut), Psychic (OHKO Flux), Poison (Finished Rumpus).
+- **Lesson:** Exeggutor is a major threat. Hyper Beam requires recharge. Poison is a win-condition for the AI.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
