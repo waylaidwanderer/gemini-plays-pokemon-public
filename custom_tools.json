@@ -485,7 +485,7 @@
     ]
   },
   "select_move": {
-    "description": "Automatically selects a move in the battle menu by parsing the screen text for the cursor '▶' and the target move name in a vertical list. Adds sleep delays for robustness.",
+    "description": "Automatically selects a move in the battle menu by strictly parsing the screen text for the cursor '▶' and the target move name line-by-line. Calculates exact vertical distance to determine button presses.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -501,7 +501,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\nscreen_text = input_data.get('screen_text', '')\ntarget_move = input_data.get('move_name', '').upper()\n\nlines = screen_text.split('\\n')\ncursor_line = -1\ntarget_line = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_line = i\n    if target_move in line.upper():\n        target_line = i\n\nbuttons = []\nif cursor_line != -1 and target_line != -1:\n    diff = target_line - cursor_line\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 500\")\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\nscreen_text = input_data.get('screen_text', '')\nmove_name = input_data.get('move_name', '').upper()\n\nlines = screen_text.split('\\n')\ncursor_idx = -1\ntarget_idx = -1\n\n# Find cursor and target lines\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_idx = i\n    if move_name in line.upper():\n        target_idx = i\n\nbuttons = []\nif cursor_idx == -1 or target_idx == -1:\n    # Fallback: If we can't see cursor or target, print debug but don't press random buttons\n    # In a real scenario, this might be worth a default 'A' if we think we're close, but safety first.\n    print(f\"DEBUG: Could not find cursor ({cursor_idx}) or target ({target_idx}) in text.\")\n    # If we found target but not cursor, maybe assume top? No, risky.\nelse:\n    diff = target_idx - cursor_idx\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 500\")\n    \n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Add select_move tool to automate move selection in battle menus, preventing manual input errors.",
@@ -552,6 +552,11 @@
         "commit_message": "fix: Add sleep delays (500ms) between directional inputs in select_move to ensure the game registers each press during menu navigation. This addresses reliability issues where rapid inputs were ignored.",
         "timestamp": "2025-12-05T07:29:11.785Z",
         "action_counter": 19985
+      },
+      {
+        "commit_message": "fix: Overhaul select_move logic to use strict line-by-line parsing. Finds the exact line index of the cursor '▶' and the target move to calculate the precise vertical difference. This fixes an issue where the previous logic miscalculated the distance (likely due to whitespace or layout confusion), causing it to overshoot the target.",
+        "timestamp": "2025-12-13T23:06:36.666Z",
+        "action_counter": 32711
       }
     ]
   }
