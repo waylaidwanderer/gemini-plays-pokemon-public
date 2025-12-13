@@ -359,3 +359,4 @@
   - Pidgeotto (~100 XP)
   - Magnemite (Avoid/Run - Sonicboom danger/Steel resist)
 - **Strategy:** Use `hunt_routine` in tall grass. Heal at Olivine Center if HP < 30.
+- **Battle State Awareness:** Failed to notice battle text 'Rumpus used STRENGTH!' was still active before attempting `hunt_routine`. MUST verify Screen Text indicates 'FIGHT/PKMN/PACK/RUN' or 'Wild X appeared' before assuming control.
