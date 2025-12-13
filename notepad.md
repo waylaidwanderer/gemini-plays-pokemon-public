@@ -15,8 +15,6 @@
   - **Lesson:** Need a better answer to Umbreon (Brick Break? Fighting moves?) and Starmie (Flux needs full HP). Starmie outspeeds Flux.
 
 ### Non-Combatant NPCs (Don't check again)
-
-### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
 - **Route 40:** Lass (13, 4).
 
@@ -28,7 +26,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Lobby.
-- **Status:** Ready to challenge Level 20.
+- **Status:** Preparing team: Equipping Berries.
 - **Last Loss:** Super Nerd (Exeggutor - Psychic/Toxic).
   - **Lesson:** Lapras (Ice/Water) is a major threat. Bahamut (Dragon) and Vortex (Flying) are weak to Ice. Swapping Bahamut for Flux (Electric/Steel).
 
