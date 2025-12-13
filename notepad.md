@@ -12,10 +12,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Round 1 vs Officer Turner.
-- **Last Result:** Attempt 25 Loss (Kimono Girl).
-- **Loss Analysis:** Pikachu outsped/priority KO'd Rumpus.
-- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special).
+- **Status:** Attempt 29, Round 1 vs Heracross.
+- **Last Result:** Attempt 28 Loss (Psychic Easton).
+- **Loss Analysis:** Tauros (Hyper Beam) overpowered team.
+- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special/Status).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
