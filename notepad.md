@@ -369,3 +369,7 @@
   - Rumpus (Tauros) lacked coverage to finish quickly.
 - **Adjustment:** Swap Flux -> Bahamut (Dratini). Bahamut brings Extremespeed (Priority) and better neutral bulk, though still weak to Ice. Flux's Ground weakness is too exploitable here.
 - Scizor paralyzed by Bahamut.
+### Battle Tower Attempt 2 Analysis
+- **Result:** Loss vs Lass (Pikachu, Scizor).
+- **Fatal Flaws:** Bahamut (Dragon) was completely walled and destroyed by Scizor (Steel).
+- **Adjustment:** Swap Bahamut -> Flux. Flux (Electric/Steel) double-resists Steel Wing and resists Bug. It is the perfect counter to Scizor. Vortex handles Ground types.
