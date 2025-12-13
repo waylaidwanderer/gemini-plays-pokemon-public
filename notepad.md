@@ -11,7 +11,7 @@
 - **Status:** Attempt 9. Round 1.
 - **Party:**
   - **Rumpus (Tauros):** Fainted.
-  - **Vortex (Pidgeotto):** Critical (10 HP, Badly Poisoned). Pivot/Fly.
+  - **Vortex (Pidgeotto):** Critical (3 HP, Badly Poisoned). One turn left.
   - **Flux (Magnemite):** Critical (12 HP). Anti-BoltBeam/Toxic.
 - **Strategy:**
   1. **Pivot Strategy:** Vortex lures Ice/Electric -> Switch to Flux (Resist). Flux lures Ground -> Switch to Vortex (Immune). Stall low PP moves (Blizzard/Thunder).
