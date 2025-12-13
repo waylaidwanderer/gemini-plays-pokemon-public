@@ -374,3 +374,4 @@
 - **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
 ### Attempt 22
 - **Round 1:** Fisher Hughes (Alakazam). Moves: Toxic.
+- Heracross (Lv20). Switching to Vortex.
