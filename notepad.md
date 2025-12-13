@@ -402,3 +402,4 @@
 - Team Change: Swapping Bahamut (Weak to Ice) for Flux (Resists Ice/Psychic) to counter Lapras.
 - **Battle Log:** Rumpus fainted to Exeggutor (Psychic, Crit). Sent out Flux (Last Mon, 18 HP).
 - **Attempt 7 Opponent 1:** Swimmer Meyer (Wigglytuff - Swagger).
+- **Battle Log:** Rumpus fainted to Blizzard. Lapras damaged by Strength.
