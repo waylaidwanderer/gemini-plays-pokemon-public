@@ -10,10 +10,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Starting Attempt 22.
-- **Last Result:** Attempt 21 Loss (Pokémaniac Sawyer).
-- **Loss Analysis:** Blissey used Submission (effective vs Flux). Pikachu (Light Ball) KO'd Flux through resist.
-- **Lesson:** Flux unsafe vs Blissey (Submission). Vortex resists Fighting. Kill Pikachu immediately.
+- **Status:** Lobby. Checking items before Attempt 23.
+- **Last Result:** Attempt 22 Loss (Fisher Hughes).
+- **Loss Analysis:** Heracross (Lv20) used EARTHQUAKE. OHKO'd Flux. Megahorn hurt Vortex bad.
+- **Lesson:** Heracross covers Fire/Rock with Ground. Flux is unsafe. Vortex needs full HP or speed advantage.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Flux (Wall/Special).
 
 ### Last Loss (Attempt 18)
