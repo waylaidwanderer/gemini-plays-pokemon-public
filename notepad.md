@@ -26,7 +26,7 @@
 
 ### Current Logs
 - **Location:** Battle Tower Lobby.
-- **Status:** Withdrawing Basalt for training (Lv19 -> 20).
+- **Status:** Training Basalt (Lv19 -> 20) on Route 39.
 - **Loss Analysis:**
   - **Pikachu:** Light Ball confirmed. Outsped Rumpus. Tanked Strength + Quick Attack. OHKO'd Vortex/Flux.
   - **Lesson:** NEED ELECTRIC IMMUNITY. Flux (Resist) is not enough. Vortex (Weak) is liability.
