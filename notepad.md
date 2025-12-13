@@ -3,8 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus (45/64 HP, Badly PSN), Vortex (FNT), Bahamut (FNT). Opponent: Boarder Crawford (Umbreon, Leftovers).
-- **Location:** Battle Tower Battle Room.
+- **Status:** Battle Tower Level 20. Round 1. Attempt 5. Party: Rumpus, Vortex, Bahamut.
+- **Last Loss:** Boarder Crawford (Umbreon - Toxic/Protect/Leftovers).
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 4.
