@@ -394,3 +394,4 @@
 - **System Tools (e.g., select_battle_option):** Do NOT use `autopress_buttons: true`.
 - **Menu Navigation:** Avoid blind macros. Use `select_move` or step-by-step manual inputs with verification.
 - **Agents:** Update `battle_advisor` immediately when party changes.
+- **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
