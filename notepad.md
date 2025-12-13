@@ -3,14 +3,14 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus, Vortex, Flux.
+- **Status:** Battle Tower Level 20. Round 1. Party: Rumpus, Vortex, Bahamut.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Attempt 4.
+- **Status:** Attempt 4.
 - **Strategy:**
   1. **Team:** Rumpus (Lead), Bahamut (Pivot), Vortex (Immunity).
-  2. **Task:** Swap Flux for Bahamut.
+  2. **Task:** Defeat 7 Trainers.
 
 ### Known Threats & Counter-Strategies
 - **Blissey:** High HP, **Counter**. 
