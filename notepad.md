@@ -8,9 +8,8 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Attempt 12.
-- **Current Task:** Swapping Basalt for Bahamut at PC.
-- **Team Plan:** Rumpus (Lead), Flux (Steel/Elec), Bahamut (Dragon).
+- **Status:** Attempt 11 - Round 1 vs Beauty.
+- **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Synergy:** Dragon/Steel core covers weaknesses perfectly.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
