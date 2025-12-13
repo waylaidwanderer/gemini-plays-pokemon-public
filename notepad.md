@@ -351,3 +351,7 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
   1. Position player on the WATER tile at (10, 9). (Status: COMPLETE)
     2. Attempt to move Down onto the FLOOR_UP_WALL tile at (10, 10). (Status: COMPLETE)
 - **Conclusion:** Movement failed. The player remained at (10, 9). The hypothesis is falsified. The original observation that it is impossible to move from a WATER tile down onto a FLOOR_UP_WALL tile is confirmed to be correct.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 49587 Reflection)
+- **Tool Debugging Hierarchy:** When a custom tool fails, and an agent's first attempt to fix it also fails, do not repeatedly call the agent. The next step MUST be to add debug prints to the tool's code to manually trace its execution and identify the specific point of failure. Provide this detailed failure analysis to the agent on the next attempt.
+- **Trapped State Pivot:** When physically trapped in an area with no navigable exit (confirmed by pathfinding tools and direct experimentation), the problem is not one of navigation but of interaction. The solution will involve changing the state of the environment (e.g., a hidden switch, a triggered event, a special item use) rather than finding a new path. Pivot from exploration to systematic interaction testing.
