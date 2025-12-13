@@ -13,10 +13,9 @@
 - **Loss Analysis:** Lapras (Water/Ice) swept the team. Bahamut and Vortex are both weak to Ice.
 - **Adjustment:** Swapped Bahamut for Flux (Magnemite).
 - **Current Battle:**
-  - **Opponent:** Umbreon (Lv20).
-  - **Threats:** High Defense, Toxic, Confuse Ray.
-  - **Details:** Has Leftovers. Used Toxic. Rumpus is Badly Poisoned (No Berry/Failed).
-  - **Strategy:** Brute force with Rumpus (Strength).
+  - **Opponent:** Umbreon (Lv20, Leftovers). Moves: Toxic, Protect.
+  - **State:** Flux active (Immune to Toxic). Rumpus (PSN) benched.
+  - **Strategy:** Use Sonicboom (Fixed 20 Dmg) to overcome high defenses/Leftovers.
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
