@@ -15,7 +15,7 @@
 - **Current Battle:**
   - **Opponent:** Umbreon (Lv20).
   - **Threats:** High Defense, Toxic, Confuse Ray.
-  - **Details:** Has Leftovers. Used Toxic (Cured by Rumpus's Berry).
+  - **Details:** Has Leftovers. Used Toxic. Rumpus is Badly Poisoned (No Berry/Failed).
   - **Strategy:** Brute force with Rumpus (Strength).
 
 ### Last Loss (Attempt 18)
