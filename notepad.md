@@ -8,16 +8,11 @@
 - **Location:** Battle Tower Hallway.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 17 In Progress.
-- **Team:** Rumpus (Lead), Vortex, Flux.
-- **Round 1:** Pokémaniac Bahn (Aerodactyl).
-  - Turn 1: Switched to Flux. Aero used Hyper Beam (Flux 24/45).
-  - Turn 2: Aero Recharging. Flux used Thundershock.
-  - Turn 3: Switched to Rumpus. Aero used Earthquake (Rumpus 39/64).
-  - Turn 4: Switched to Vortex. Aero used Dragon Rage (Vortex 21/61). Critical Danger: All party members in Dragon Rage KO range.
-  - Turn 5: Aero used Hyper Beam. Vortex fainted. Aero Recharging.
-  - Turn 6: Flux in. Aero used Earthquake (Flux Fainted).
-  - Turn 7: Sending Rumpus (39/64). Win condition: Rumpus outspeeds or Aero doesn't use Dragon Rage.
+- **Status:** Attempt 17 FAILED.
+- **Killer:** Pokémaniac Bahn's Aerodactyl.
+- **Cause of Death:** Dragon Rage (Fixed 40 DMG).
+- **CRITICAL THREAT:** Dragon Rage deals fixed 40 damage. At Lv20, my team has ~45-65 HP, making this a guaranteed 2HKO (or OHKO if weakened). There are NO immunities to Dragon Rage in Gen 2.
+- **Strategy Adjustment:** Must prioritize Speed control (Thunder Wave) or raw offense to eliminate Dragon Rage users immediately. Swapping Flux for Bahamut (Thunder Wave/ExtremeSpeed).
 
 ### Last Loss (Attempt 14)
 - **Round 1:** Officer Turner (Nidoking).
