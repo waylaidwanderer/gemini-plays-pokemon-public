@@ -241,6 +241,7 @@
 - `stun_npc`
 - `define_tool`
 - `delete_tool`
+- `select_battle_option`
 
 ### Custom Tools
 - `select_item`
