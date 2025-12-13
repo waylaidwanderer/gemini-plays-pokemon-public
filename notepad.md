@@ -2,12 +2,12 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Attempt 26 (Round 1).
-- **Status:** Battle Room. Fighting Officer Turner.
-- **Last Loss:** Attempt 25 - Kimono Girl (Pikachu).
-- **Loss Analysis:** Rumpus fainted to priority Quick Attack after Strength failed to KO. Flux cleaned up by Sonicboom but couldn't finish Pikachu.
-- **Lesson:** Priority moves (Quick Attack) are dangerous at low HP. Sonicboom is reliable but fixed damage.
-- **Location:** Battle Tower Battle Room.
+- **Current Task:** Attempt 27 (Round 1).
+- **Status:** Lobby. Preparing Team (Bahamut In).
+- **Last Loss:** Attempt 26 - Officer Turner (Scizor).
+- **Loss Analysis:** Scizor (Steel/Bug) walled Rumpus/Flux. Vortex fainted to Sandstorm chip damage.
+- **Lesson:** Sandstorm kills low HP flyers. Need better coverage for Steel types.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Round 1 vs Officer Turner.
