@@ -2,10 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Challenge Battle Tower (Attempt 19).
-- **Status:** In Progress.
-- **Last Loss:** Attempt 18 - Officer Turner (Quagsire).
-- **Location:** Battle Tower Lobby.
+- **Current Task:** Challenge Battle Tower (Attempt 21).
+- **Status:** Round 1 vs Super Nerd.
+- **Last Loss:** Attempt 20 - Teacher Kawakami (Wigglytuff).
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparing for Attempt 21.
