@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Attempt 28 (Round 1).
-- **Status:** Lobby. Starting new challenge.
+- **Status:** Battle Room. Round 1 vs Youngster.
 - **Last Loss:** Attempt 27 - Lass (Arcanine).
 - **Loss Analysis:** Arcanine (Intimidate + Flamethrower) swept. Rumpus stayed in too long. Bahamut too frail.
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
