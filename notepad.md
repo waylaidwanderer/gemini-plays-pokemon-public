@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Attempt 30 (Round 1).
-- **Status:** Attempt 30 Round 1 vs Scientist Mori (Umbreon PAR). Rumpus Critical (8/64 HP, PSN). Vortex FNT.
+- **Status:** Attempt 30 Round 1 vs Scientist Mori (Umbreon PAR). Rumpus FNT. Vortex FNT. Bahamut Active (Last Stand).
 - **Last Loss:** Attempt 29 - Youngster (Gyarados).
 - **Loss Analysis:** Gyarados (Hyper Beam) swept. Miracle Berry blocked TWave.
 - **Location:** Battle Tower Battle Room.
