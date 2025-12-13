@@ -345,14 +345,17 @@
 - **Lesson:** Blind menu macros (press_sequence) are FAILING for Party Switching. I must use MANUAL, step-by-step button presses with visual verification for this task to avoid loops.
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
 ## 🛡️ Battle Tower Threat Analysis (Consolidated)
-- **Blissey:** High HP, **Counter**. NEVER use Physical/Normal moves (Sonicboom, Strength, Fly). Use Special (Thundershock, Dragonbreath).
-- **Alakazam:** Fast, Elemental Punches. Weak Def. Counter: Physical moves (Strength, Fly).
-- **Aerodactyl:** Fast, Earthquake. Counter: Vortex (Immune).
-- **Starmie:** Fast, Surf/Psychic. Counter: Bahamut (TWave).
-- **Umbreon:** Toxic/Protect Stall. Counter: Toxic back.
-- **Heracross:** Megahorn (Huge Dmg). Counter: Vortex (Fly).
+- **Wigglytuff:** Swagger + Psych Up. Counter: Switch/Haze.
+- **Blissey:** High HP, **Counter**. USE SPECIAL MOVES (Thundershock, Dragonbreath).
+- **Alakazam:** Fast, Elemental Punches. Counter: Physical (Strength, Fly).
+- **Aerodactyl:** Earthquake. Counter: Vortex (Immune).
+- **Azumarill:** Tanky, Blizzard/Surf. Counter: Electric.
+- **Starmie:** Fast, Surf/Psychic. Counter: Thunder Wave.
+- **Umbreon:** Toxic/Protect/Substitute/Mud-Slap. Counter: Toxic back or Brute Force.
+- **Miltank:** Earthquake. Counter: Vortex.
+- **Heracross:** Megahorn. Counter: Vortex (Fly).
 - **Hitmonchan:** Elemental Punches. Counter: Vortex (Fly).
-- **Lapras:** Blizzard, Quick Claw.
+- **Lapras:** Blizzard/Thunderbolt/Psychic. Counter: Flux (Resists) or Brute Force.
 - **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
 - Phone Call: Anthony (Route 33) mentions seeing many Geodude (Possible Swarm?).
