@@ -5,7 +5,7 @@
 - **Current Task:** Train Rumpus to Lv20.
 - **Status:** Rumpus Lv20 (MAX). **TRAINING COMPLETE.** Do not gain more EXP.
 - **Location:** Route 39.
-- **Party:** Rumpus (Lead), Flux, Vortex, Bahamut.
+- **Party:** Rumpus (Lead), Flux, Vortex. (Bahamut deposited for Tower limit).
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Preparation Phase (Rumpus).
