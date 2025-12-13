@@ -372,3 +372,5 @@
 ### Inventory Lessons
 - **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
 - **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
+### Attempt 22
+- **Round 1:** Fisher Hughes (Alakazam). Moves: Toxic.
