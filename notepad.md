@@ -380,4 +380,11 @@
 - **Lesson:** NEVER switch Flux into Aerodactyl. Lead Rumpus. If Aerodactyl appears, switch VORTEX immediately (Immune to EQ).
 
 ### Attempt 24
+- **Result:** Loss (Round 1 - Boarder Crawford).
+- **Threat:** Tauros (Lv20).
+- **Moves:** Blizzard.
+- **Analysis:** Tauros used Blizzard (Special Ice move) to OHKO Vortex.
+- **Lesson:** Tauros has elemental coverage. Do not assume Physical set. Vortex is unsafe.
+
+### Attempt 25
 - **Status:** Starting.
