@@ -328,3 +328,7 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 # STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **Tool Input Verification:** A tool will produce incorrect results or fail if given incorrect inputs. Always verify critical inputs, such as the player's current state (e.g., `is_surfing`), against the Game State Information before calling a tool. Relying on memory for inputs is a common source of error.
 - **'No Path Found' is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state, often indicating an unsolved puzzle or a physical barrier, not a faulty tool. The correct response is to pivot to puzzle-solving, not tool-debugging.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+- **Trapped State Pivot:** When physically trapped in an area with no navigable exit (confirmed by pathfinding tools), the problem is not one of navigation but of interaction. The solution will involve changing the state of the environment (e.g., a hidden switch, a triggered event) rather than finding a new path. Pivot from exploration to systematic interaction testing.
+- **One-Way Path Caution:** Be extremely cautious before committing to paths that could be one-way, especially water routes accessed via SURF. Verify a return path or exit exists before entering a confined area.
