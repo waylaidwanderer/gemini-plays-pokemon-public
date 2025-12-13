@@ -3,13 +3,13 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Challenge Battle Tower (Attempt 17).
-- **Status:** Ready.
-- **Last Loss:** Attempt 16 - Skier Lancaster (Starmie). Starmie swept team. Lesson: Need Electric coverage (Flux).
-- **Location:** Battle Tower.
+- **Status:** In Progress.
+- **Last Loss:** Attempt 16 - Skier Lancaster (Starmie).
+- **Location:** Battle Tower Hallway.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 16 Failed.
-- **Team:** Rumpus (Lead), Vortex, Flux (Planned).
+- **Status:** Attempt 17 In Progress.
+- **Team:** Rumpus (Lead), Vortex, Flux.
 - **Prep:** Verify Held Items (Berry/Mint Berry).
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
 
