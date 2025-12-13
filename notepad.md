@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Attempt 7. Party: Rumpus, Vortex, Flux.
+- **Status:** Battle Tower Level 20. Round 1. Attempt 7. Party: Rumpus (Clean), Vortex (Full), Flux (Critical). vs Wigglytuff (+2 Atk, Full HP).
 - **Last Loss:** Super Nerd (Exeggutor - Psychic/Toxic).
 - **Location:** Battle Tower Lobby.
 
