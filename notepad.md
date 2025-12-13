@@ -351,3 +351,4 @@
 - **Lapras:** Blizzard, Quick Claw.
 - **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
+- Phone Call: Anthony (Route 33) mentions seeing many Geodude (Possible Swarm?).
