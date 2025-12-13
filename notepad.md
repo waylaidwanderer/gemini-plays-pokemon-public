@@ -8,10 +8,10 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 11 (Round 1 vs Hitmonchan).
-- **Match State:** Basalt Fainted (Ice Punch). Rumpus Low. Flux In.
-- **Opponent Intel:** Hitmonchan (Lv20) knows **Mega Punch** (Normal) and **Ice Punch** (Ice).
-- **Strategy:** Flux resists Normal/Ice. Use Thundershock/Toxic.
+- **Status:** Attempt 11 Failed (Round 1).
+- **Loss Analysis:** Hitmonchan (Lv20) swept. Moves: Mega Punch, Ice Punch, Fire Punch. Held Item: Gold Berry.
+- **Team Flaw:** Entire team (Normal, Steel/Electric, Rock/Ground) is weak to Fighting or Hitmonchan's coverage moves.
+- **Plan:** Need a Psychic or Flying type that isn't weak to Ice/Thunder/Fire punches. Or just a faster heavy hitter.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
