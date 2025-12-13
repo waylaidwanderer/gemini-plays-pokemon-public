@@ -4,7 +4,7 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
 - **Status:** Battle Tower Level 20. Round 1. Party: Rumpus, Vortex, Bahamut.
-- **Location:** Battle Tower Lobby.
+- **Location:** Battle Tower Hallway.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 4.
