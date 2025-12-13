@@ -11,8 +11,9 @@
 - **Status:** Attempt 17 In Progress.
 - **Team:** Rumpus (Lead), Vortex, Flux.
 - **Round 1:** Pokémaniac Bahn (Aerodactyl).
-  - Turn 1: Switched to Flux. Aero used Hyper Beam (Recharge).
-  - Plan: Thundershock (2x Eff).
+  - Turn 1: Switched to Flux. Aero used Hyper Beam. (Flux 45/45)
+  - Turn 2: Aero Recharging. Flux used Thundershock. (Flux 24/45 - wait, did it take damage? No, previous turn noted 24/45. Wait, Hyper Beam hit Flux on switch-in? Yes.)
+  - Turn 3: Aero awake. Switching to Rumpus to sponge.
 
 ### Last Loss (Attempt 14)
 - **Round 1:** Officer Turner (Nidoking).
