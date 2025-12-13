@@ -3,12 +3,12 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Attempt 15 - Challenge Accepted. Entering Battle Room.
+- **Status:** Attempt 15 - Round 1 vs Rocker.
 - **Last Loss:** Attempt 14 - Officer Turner (Nidoking). Flux walled by Ground/Poison typing.
-- **Location:** Battle Tower Lobby.
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 15 - Preparing.
+- **Status:** Attempt 15 - In Progress.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Verify Held Items (Berry/Mint Berry).
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
