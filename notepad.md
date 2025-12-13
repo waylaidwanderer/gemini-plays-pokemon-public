@@ -17,24 +17,6 @@
   1. **Pivot Strategy:** Vortex lures Ice/Electric -> Switch to Flux (Resist). Flux lures Ground -> Switch to Vortex (Immune). Stall low PP moves (Blizzard/Thunder).
   2. **Task:** Defeat 7 Trainers.
 
-### Known Threats & Counter-Strategies
-- **Wigglytuff:** Swagger + Psych Up combo. Boosts Attack, Confuses, then Copies. Deadly. Counter: Switch or Haze.
-- **Blissey:** High HP, **Counter**. 
-  - **RULE:** DO NOT use Physical/Normal moves (Sonicboom, Strength, Fly, Extremespeed) or you will die. 
-  - **Strategy:** Use Special moves (Thundershock, Dragonbreath, Mud-Slap) or Toxic.
-- **Alakazam:** Fast, Elemental Punches. Low Def.
-  - **Strategy:** Survive a hit and OHKO with Physical moves (Strength, Fly).
-- **Aerodactyl:** Fast, Earthquake. 
-  - **Strategy:** Switch to Vortex immediately (Immune to Ground).
-- **Azumarill:** Tanky, Blizzard/Surf.
-  - **Strategy:** Use Electric moves. Beware Blizzard on Dragons/Birds.
-- **Starmie:** Fast, Surf/Psychic.
-  - **Strategy:** Thunder Wave is priority.
-- **Umbreon:** Toxic/Protect/Substitute stall.
-  - **Strategy:** Toxic won't work if Sub is up. Use Rumpus (Strength) to break Sub first, then Toxic or brute force.
-- **Miltank:** Earthquake user.
-  - **Strategy:** Vortex (Immune) or kill fast.
-
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
 - **Route 40:** Lass (13, 4).
