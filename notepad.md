@@ -2,10 +2,10 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Attempt 29 (Round 1).
-- **Status:** Attempt 29 Round 1. Bahamut vs Gyarados.
-- **Last Loss:** Attempt 28 - Psychic Easton (Tauros).
-- **Loss Analysis:** Rumpus lost mirror match. Hyper Beam cleaned up team.
+- **Current Task:** Attempt 30 (Round 1).
+- **Status:** Lobby. Starting Attempt 30.
+- **Last Loss:** Attempt 29 - Youngster (Gyarados).
+- **Loss Analysis:** Gyarados (Hyper Beam) swept. Miracle Berry blocked TWave.
 - **Last Loss:** Attempt 26 - Officer Turner (Scizor).
 - **Loss Analysis:** Scizor (Steel/Bug) walled Rumpus/Flux. Vortex fainted to Sandstorm chip damage.
 - **Lesson:** Sandstorm kills low HP flyers. Need better coverage for Steel types.
