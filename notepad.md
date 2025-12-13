@@ -5,7 +5,7 @@
 - **Current Task:** Defeat 7 Trainers (0/7).
 - **Status:** Training Basalt (Lv19->20). Attempt 10 Failed.
 - **Last Loss:** Attempt 10 - Pikachu (Light Ball) swept team.
-- **Location:** Battle Tower Lobby.
+- **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 10 Failed (Round 1).
@@ -26,7 +26,7 @@
 - **Copycat (Saffron):** Pass obtained. Magnet Train active.
 
 ### Current Logs
-- **Location:** Battle Tower Lobby.
+- **Location:** Route 39.
 - **Status:** Training Basalt (Lv19 -> 20) on Route 39.
 - **Loss Analysis:**
   - **Pikachu:** Light Ball confirmed. Outsped Rumpus. Tanked Strength + Quick Attack. OHKO'd Vortex/Flux.
