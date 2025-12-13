@@ -394,3 +394,4 @@
 
 ### Attempt 26
 - **Status:** Starting.
+- Vortex vs Tauros (Paralyzed). Plan: Mud-Slap during recharge.
