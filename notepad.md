@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Challenge Battle Tower (Attempt 21).
-- **Status:** Round 1 vs Super Nerd.
+- **Status:** Round 1 vs Pokémaniac Sawyer (Blissey).
 - **Last Loss:** Attempt 20 - Teacher Kawakami (Wigglytuff).
 - **Location:** Battle Tower Battle Room.
 
