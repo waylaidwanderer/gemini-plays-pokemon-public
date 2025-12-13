@@ -3,20 +3,18 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Battle Tower Level 20. Round 1. Attempt 9. Party: Rumpus, Vortex, Flux.
-- **Last Loss:** Lapras (Thunderbolt/Blizzard).
-- **Location:** Battle Tower Lobby.
+- **Status:** Battle Tower Level 20. Attempt 9 FAILED. Preparing for Attempt 10.
+- **Last Loss:** Starmie (Surf) - Outsped Flux.
+- **Location:** Battle Tower Battle Room (Exiting).
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 9. Round 1.
-- **Party:**
-  - **Rumpus (Tauros):** Fainted.
-  - **Vortex (Pidgeotto):** Fainted (Poison).
-  - **Flux (Magnemite):** Critical (12 HP). Last Stand.
-- **Opponent:** Starmie.
-- **Strategy:**
-  1. **Flux:** Thundershock (SE). Hope to outspeed or survive.
-  2. **Task:** Defeat 7 Trainers.
+- **Status:** Attempt 9 Failed (Round 1).
+- **Loss Analysis:**
+  - **Umbreon:** Stalled Vortex with Toxic/Protect. Vortex died to poison.
+  - **Starmie:** Cleaned up Flux (12 HP) with Surf.
+  - **Lesson:** Need a better answer to Umbreon (Brick Break? Fighting moves?) and Starmie (Flux needs full HP). Starmie outspeeds Flux.
+
+### Non-Combatant NPCs (Don't check again)
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
