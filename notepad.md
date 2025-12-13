@@ -10,9 +10,9 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 19 Round 1 vs Lapras.
 - **Opponent Info:** Lapras (Water/Ice). Moves: Blizzard, Confuse Ray. Item: Gold Berry.
-- **Current State:** Rumpus & Vortex Fainted. Lapras Critical HP (Red). Bahamut CONFUSED.
-- **Team:** Rumpus (FNT), Vortex (FNT), Bahamut (50/50 HP, Confused).
-- **Strategy:** 50/50 chance to hit through confusion. Extremespeed is the only win condition.
+- **Current State:** Rumpus & Vortex Fainted. Lapras Critical HP (Red). Bahamut CONFUSED & PARALYZED. Bahamut 36/50 HP.
+- **Team:** Rumpus (FNT), Vortex (FNT), Bahamut (36/50 HP, Confused, Paralyzed).
+- **Strategy:** Pray for RNG. Extremespeed (Priority) is the only way to move before Lapras. Odds: ~37% to move.
 
 ### Last Loss (Attempt 18)
 - **Round 1:** Officer Turner (Quagsire).
