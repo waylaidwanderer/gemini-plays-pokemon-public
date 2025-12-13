@@ -8,7 +8,7 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing Attempt 12.
+- **Status:** Attempt 12 - Round 1 vs Youngster.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
