@@ -404,3 +404,4 @@
 - **Lesson:** Flux is too vulnerable to Ground (Earthquake). Bahamut (Dragon) resists Electric/Fire/Water/Grass and is a better pivot.
 - **Adjustment:** Swap Flux -> Bahamut.
 - **Battle Event:** Bahamut (Dratini) OHKO'd by Lapras (Blizzard). Lesson: Do not switch Dragons into Water/Ice types in Battle Tower.
+- Agent Fix: Update 'battle_advisor' to remove ITEM and RUN from valid actions, as they are banned in Battle Tower.
