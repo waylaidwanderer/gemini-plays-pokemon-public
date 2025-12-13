@@ -3,12 +3,12 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Defeat 7 Trainers (0/7).
-- **Status:** Preparing for Attempt 14. Team: Rumpus, Flux, Bahamut.
+- **Status:** Entering Battle Tower (Attempt 14). Team: Rumpus, Flux, Bahamut.
 - **Last Loss:** Attempt 13 - Azumarill (Rain Dance + Surf) swept team.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Preparing for Attempt 14. Team: Rumpus, Flux, Bahamut.
+- **Status:** Entering Battle Tower (Attempt 14). Team: Rumpus, Flux, Bahamut.
 - **Team:** Rumpus (Lead), Flux, Bahamut.
 - **Prep:** Equip PSNCUREBERRY to Rumpus. Equip BERRY to Flux.
 - **Menu Note:** Level Selection wraps (Down: 10->100, Up: 10->20). Use UP to select L:20.
