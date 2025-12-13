@@ -3,13 +3,10 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Attempt 30 (Round 1).
-- **Status:** Attempt 30 Round 1 vs Scientist Mori (Umbreon PAR, Recov Leftovers). Rumpus Active (20/64 HP, PSN). Vortex FNT.
+- **Status:** Attempt 30 Round 1 vs Scientist Mori (Umbreon PAR). Rumpus Critical (8/64 HP, PSN). Vortex FNT.
 - **Last Loss:** Attempt 29 - Youngster (Gyarados).
 - **Loss Analysis:** Gyarados (Hyper Beam) swept. Miracle Berry blocked TWave.
-- **Last Loss:** Attempt 26 - Officer Turner (Scizor).
-- **Loss Analysis:** Scizor (Steel/Bug) walled Rumpus/Flux. Vortex fainted to Sandstorm chip damage.
-- **Lesson:** Sandstorm kills low HP flyers. Need better coverage for Steel types.
-- **Location:** Battle Tower Lobby.
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 29, Round 1 vs Heracross.
