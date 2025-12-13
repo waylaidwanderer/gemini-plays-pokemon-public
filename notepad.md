@@ -8,11 +8,12 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 9 Failed (Round 1).
+- **Status:** Attempt 10 Failed (Round 1).
 - **Loss Analysis:**
-  - **Umbreon:** Stalled Vortex with Toxic/Protect. Vortex died to poison.
-  - **Starmie:** Cleaned up Flux (12 HP) with Surf.
-  - **Lesson:** Need a better answer to Umbreon (Brick Break? Fighting moves?) and Starmie (Flux needs full HP). Starmie outspeeds Flux.
+  - **Pikachu:** Held Light Ball. Massive damage output.
+  - **Rumpus:** Outsped. Critical hit or speed tie lost.
+  - **Lesson:** Need Electric Immunity. Vortex is a liability.
+- **Plan:** Swapped Vortex for Basalt (Geodude). Training to Lv20 on Route 39.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
