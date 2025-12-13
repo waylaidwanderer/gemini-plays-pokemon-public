@@ -365,20 +365,5 @@
 - **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
 - Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
 
-### Battle Tower Attempt 5 Analysis
-- **Result:** Loss vs Cooltrainer Rajan (Lapras).
-- **Opponent Team:** Lapras (Blizzard, Psychic, Confuse Ray).
-- **Fatal Flaws:**
-  - Bahamut (Dragon) OHKO by Blizzard.
-  - Vortex (Flying) outsped and KO'd by Psychic (Lapras likely has Quick Claw or high stats).
-  - Rumpus (Tauros) confused and unable to finish the job.
-- **Lesson:** Lapras is a major threat. It has coverage for my entire team.
-  - Ice kills Dragon/Flying.
-  - Psychic hits Poison/Fighting.
-  - Confuse Ray shuts down slow setup.
-- **Action:** Need a dedicated counter to Water/Ice types. Gauss (Magnemite) resists Ice and Psychic.
-- **Plan:** Re-evaluate team composition. Bring Gauss back.
-- Team Change: Swapping Bahamut (Weak to Ice) for Flux (Resists Ice/Psychic) to counter Lapras.
-- **Battle Log:** Rumpus fainted to Exeggutor (Psychic, Crit). Sent out Flux (Last Mon, 18 HP).
-- **Attempt 7 Opponent 1:** Swimmer Meyer (Wigglytuff - Swagger).
-- **Battle Log:** Rumpus fainted to Blizzard. Lapras damaged by Strength.
+- **Attempt 5:** Lost to Lapras (Blizzard/Psychic). Swapped Bahamut for Flux (Magnemite) to resist Ice.
+- **Attempt 7:** Lost to Swimmer Meyer.
