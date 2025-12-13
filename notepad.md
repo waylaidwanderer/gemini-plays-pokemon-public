@@ -8,12 +8,10 @@
 - **Location:** Route 39.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 10 Failed (Round 1).
-- **Loss Analysis:**
-  - **Pikachu:** Held Light Ball. Massive damage output.
-  - **Rumpus:** Outsped. Critical hit or speed tie lost.
-  - **Lesson:** Need Electric Immunity. Vortex is a liability.
-- **Plan:** Swapped Vortex for Basalt (Geodude). Training to Lv20 on Route 39.
+- **Status:** Attempt 11 (Round 1 vs Hitmonchan).
+- **Match State:** Basalt Fainted (Ice Punch). Rumpus Low. Flux In.
+- **Opponent Intel:** Hitmonchan (Lv20) knows **Mega Punch** (Normal) and **Ice Punch** (Ice).
+- **Strategy:** Flux resists Normal/Ice. Use Thundershock/Toxic.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
