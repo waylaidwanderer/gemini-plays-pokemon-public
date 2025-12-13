@@ -351,3 +351,4 @@
 - **Round 1:** vs Pokémaniac Sawyer (Umbreon Lv20).
 - **Reflection Turn 31386:** Attempted switch failed due to selecting active Pokemon. Corrected strategy: Select Bench Pokemon (Vortex, Slot 2) to Switch.
 - **Round 1 vs Pikachu:** Pikachu outsped Rumpus (Quick Claw?). Rumpus took heavy damage (11/64 HP). Strategy: Sacrifice Rumpus to chip/kill, then clean up with Flux.
+ Switching to Flux to wall Pikachu (Advisor Rec).
