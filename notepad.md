@@ -9,8 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 53 - Round 1 (No Items).
-- **Last Result:** Attempt 52 Loss (Pokéfan Stock - Scizor).
+- **Status:** Attempt 54 - Round 1.
+- **Last Result:** Attempt 53 Loss (Beauty - Miltank).
+**CRITICAL LESSON - BATTLE TOWER SPEED:**
+- Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage. Speed ties are losses.
 - **Intel:**
   - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash, Steel Wing).
   - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
