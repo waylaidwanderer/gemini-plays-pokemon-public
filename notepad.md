@@ -9,7 +9,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 52 - Prep (Re-equipping items).
+- **Status:** Attempt 52 - Ready (All Items Equipped).
 - **Last Result:** Attempt 51 Loss (Scientist Collins - Nidoking).
 - **Intel:** Scientist Collins: Quagsire (Water/Ground), Nidoking (Ground/Poison - Earthquake, Blizzard).
 - **Threat Updates:**
