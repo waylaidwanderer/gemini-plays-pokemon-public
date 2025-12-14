@@ -32,7 +32,7 @@
 ## System & Tool Documentation
 
 ### Tool Usage
-- **Command vs Tool:** `find_path` generates coordinates for `path_plan`. The command `buttons_to_press: ["path"]` is a SYSTEM FEATURE that executes the plan.
+- **Movement:** Use `path_plan` with coordinates. Set `buttons_to_press: ["path"]` to execute. Do NOT call 'path' as a tool.
 - **Auto-Press:** Custom tools returning buttons (e.g. `select_move`) need `autopress_buttons: true`. System tools (e.g. `select_battle_option`) ignore this.
 - **Blind Inputs:** Blind menu macros (`press_sequence`) are unreliable due to wrapping and cursor memory. Use manual verification.
 - **Specific Tools:**
