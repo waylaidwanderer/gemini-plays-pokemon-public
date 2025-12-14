@@ -17,6 +17,7 @@
 
 ### ⚔️ Strategy & Mechanics
 - **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25. Speed ties are losses.
+- **Hyper Beam:** Requires recharge turn even on KO. Exploitable for free switch-in.
 - **Counter Mechanics:** Reflects Physical hits (Normal/Fighting). SONICBOOM triggers Counter. Use Special moves vs Counter users.
 - **Roles:** Rumpus (Phys Sweeper), Bahamut (Speed Control/Pivot), Flux (Wall/Toxic).
 
