@@ -9,10 +9,11 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 51 - Round 1 (Scientist Collins).
-- **Last Result:** Attempt 50 Loss (Teacher Kawakami - Heracross).
-- **Intel:** Scientist Collins: Quagsire (Water/Ground). Tanky. Immune to Electric.
-- **Battle Status:** Round 1 vs Quagsire. Bahamut Active. Using ExtremeSpeed to clean up.
+- **Status:** Attempt 52 - Prep (Re-equipping items).
+- **Last Result:** Attempt 51 Loss (Scientist Collins - Nidoking).
+- **Intel:** Scientist Collins: Quagsire (Water/Ground), Nidoking (Ground/Poison - Earthquake, Blizzard).
+- **Threat Updates:**
+  - **Nidoking:** Immune to Electric/Toxic. Has Earthquake (OHKO Flux) and Blizzard (OHKO Bahamut). Counter: Rumpus (Strength), Bahamut (Rain Boosted Surf if safe).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
