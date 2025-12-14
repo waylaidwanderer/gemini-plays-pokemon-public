@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 59 - Round 1 vs Youngster. Opponent: Heracross. Team: Rumpus (Crit HP), Vortex, Flux.
-- **Strategy:** Vortex vs Heracross. Heracross used Megahorn (Resisted, 38 dmg). Vortex at 23/61 HP. Heracross is faster. Win con: Fly (OHKO). Pray for Miss/EQ/Counter.
+- **Status:** Attempt 59 - Round 1 vs Youngster. Opponent: Heracross (Damaged). Team: Flux (Last Stand), Rumpus (FNT), Vortex (FNT).
+- **Strategy:** Flux vs Heracross. Sonicboom (Fixed 20 dmg) is the win condition. Heracross threatens with Fighting (2x) or Ground (4x).
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Location:** Battle Tower Lobby.
