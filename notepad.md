@@ -364,3 +364,4 @@
 - Round 1 (Sage): Wigglytuff recovered with Gold Berry. Rumpus (22/64 HP).
 - Round 1 (Sage): Flux switched in. Tanked Hyper Beam (21/45 HP). Wigglytuff Recharging.
  Flux consumed Berry (31/45 HP). Plan: Toxic.
+ Strategy: Sonicboom to chip/stall. Flux sacrifices if needed.
