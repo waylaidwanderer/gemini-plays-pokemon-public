@@ -10,11 +10,11 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 47 - Round 1 (Sage).
-- **Opponent:** Wigglytuff (Badly Poisoned, Recharging).
-- **Battle Log:** Flux & Bahamut fainted. Rumpus active (22 HP).
+- **Opponent:** Wigglytuff (Badly Poisoned, Low HP).
+- **Battle Log:** Flux & Bahamut fainted. Rumpus (22 HP) active.
 - **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
-- **Intel:** Wigglytuff recharging from Hyper Beam. Free hit.
-- **Next Steps:** Strength (Free turn) -> Strength (Outspeed).
+- **Intel:** Wigglytuff took Strength + Poison dmg. Rumpus outspeeds.
+- **Next Steps:** Finish with Strength.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
