@@ -7,8 +7,8 @@
 - **Loss Analysis:** Scizor (Bug/Steel) walled the team. Resists Normal/Dragon/Ice. Vortex (Fly) is neutral but frail. Need Fire coverage.
 - **Status:** Attempt 41 Loss (Lass - Exeggutor).
 - **Team:** Rumpus (Tauros) @ PRZCUREBERRY, Vortex (Pidgeotto) @ METAL COAT, Flux (Magnemite) @ MINT BERRY.
-- **Last Result:** Attempt 41 Loss (Lass - Exeggutor).
-- **Loss Analysis:** Exeggutor (Psychic) swept. Rumpus (Crit), Vortex, Flux all fell. High Special Attack is a problem.
+- **Last Result:** Attempt 42 Loss (Skier - Nidoking).
+- **Loss Analysis:** Skier had perfect coverage. Wigglytuff (Fire Blast) KO'd Flux. Nidoking (Blizzard) KO'd Vortex.
 - **Strategy:** Re-evaluating team. Need answers for bulky Special Attackers.
 - **Location:** Battle Tower Battle Room.
 
