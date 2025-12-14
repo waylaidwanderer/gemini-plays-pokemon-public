@@ -5,7 +5,8 @@
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 - **Loss Analysis:** Scizor (Bug/Steel) walled the team. Resists Normal/Dragon/Ice. Vortex (Fly) is neutral but frail. Need Fire coverage.
-- **Status:** Attempt 39 - Round 1 (Rumpus Last Stand vs Azumarill).
+- **Status:** Attempt 40 - Round 1.
+- **Last Result:** Attempt 39 Loss (Youngster - Azumarill).
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
