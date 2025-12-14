@@ -360,3 +360,4 @@
 - **Battle Note:** Flux's Toxic failed against Umbreon ('It didn't affect'). Potential causes: Substitute, Safeguard, or Accuracy drop causing a 'miss' (though usually says 'missed'). Investigate.
 - **Opponent Move:** Umbreon knows Mud-Slap.
 - **Battle Log:** Rumpus hit by Mud-Slap (-1 Acc). Umbreon recovering with Leftovers.
+- Round 1 (Sage): Wigglytuff used Hyper Beam. Rumpus (22/64 HP). Wigglytuff recharging.
