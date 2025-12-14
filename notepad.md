@@ -366,3 +366,4 @@
  Strategy: Sonicboom to chip/stall. Flux sacrifices if needed.
 - **Battle Log:** Opponent Azumarill used Rain Dance.
 - **Battle Log:** Azumarill used Blizzard (OHKO on Bahamut). Intel: Knows Rain Dance, Blizzard.
+- **Battle Log:** Bahamut fainted. Switched to Flux. Rain Dance active.
