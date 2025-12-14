@@ -382,3 +382,4 @@
 - Opponents likely have MAX DVs and Stat XP. Assume we are SLOWER than the opponent unless we have a massive base speed advantage. Speed ties are losses.
 - Miltank knows Earthquake/Thunder/Attract.
 - Blissey knows Psychic/Submission.
+- Lapras: Blizzard.
