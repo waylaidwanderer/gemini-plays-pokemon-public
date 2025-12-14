@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 35, Round 1 vs Lass Thornton (Starmie). Starmie -1 Accuracy. Vortex Critical (9 HP). Rumpus Critical. Strategy: Mud-Slap spam to enable Rumpus.
+- **Status:** Attempt 35, Round 1 vs Lass Thornton (Starmie). Starmie -1 Accuracy. Vortex Fainted. Rumpus (26 HP) is last hope. Win Condition: Starmie misses.
 - **Last Loss:** Attempt 34 - Nidoking (Blizzard).
 - **Loss Analysis:** Bahamut OHKO'd by Blizzard. Nidoking has special coverage.
 - **Location:** Battle Tower Lobby.
