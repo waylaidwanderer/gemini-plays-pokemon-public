@@ -5,7 +5,7 @@
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 - **Loss Analysis:** Scizor (Bug/Steel) walled the team. Resists Normal/Dragon/Ice. Vortex (Fly) is neutral but frail. Need Fire coverage.
-- **Status:** Equipping Team (Giving Metal Coat to Vortex).
+- **Status:** Attempt 41 - Round 1.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Last Result:** Attempt 40 Loss (Super Nerd - Gyarados).
 - **Loss Analysis:** Gyarados (Hyper Beam) swept. Bahamut too frail. Vortex KO'd. Need Electric coverage.
@@ -13,7 +13,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Equipping Team (Giving Metal Coat to Vortex).
+- **Status:** Attempt 41 - Round 1.
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 
 ### Threat Notes (Archive)
