@@ -3,10 +3,10 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 48 - Round 1 (Start).
-- **Last Result:** Attempt 47 Loss (Sage - Nidoking).
+- **Status:** Attempt 49 - Round 1.
+- **Last Result:** Attempt 48 Loss (Scientist Mori - Tauros).
 - **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
-- **Location:** Battle Tower Lobby.
+- **Location:** Battle Tower Hallway.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 49 - Round 1 (Prep).
