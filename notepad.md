@@ -32,7 +32,7 @@
 ## System & Tool Documentation
 
 ### Tool Usage
-- **Movement:** Use `path_plan` with coordinates. Set `buttons_to_press: ["path"]` to execute. Do NOT call 'path' as a tool.
+- **Movement:** Use `path_plan` with coordinates. Set `buttons_to_press` to `["path"]` to execute. NEVER mix with tool calls.
 - **Auto-Press:** Custom tools returning buttons (e.g. `select_move`) need `autopress_buttons: true`. System tools (e.g. `select_battle_option`) ignore this.
 - **Blind Inputs:** Blind menu macros (`press_sequence`) are unreliable due to wrapping and cursor memory. Use manual verification.
 - **Specific Tools:**
