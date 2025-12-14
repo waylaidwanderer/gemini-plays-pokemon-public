@@ -12,7 +12,7 @@
 - **Status:** Attempt 51 - Round 1 (Prep).
 - **Last Result:** Attempt 50 Loss (Teacher Kawakami - Heracross).
 - **Intel:** Teacher Kawakami's Heracross: Megahorn. (Physical Sweeper).
-- **Battle Status:** Re-equipping items (Bahamut: Mint Berry done. Flux: Berry done. Rumpus: Swap to Przcure).
+- **Battle Status:** Re-equipping items (Rumpus: Przcure done. Bahamut: Mint Berry done. Flux: Berry next).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
