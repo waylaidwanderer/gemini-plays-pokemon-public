@@ -11,10 +11,11 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Restarting (Attempt 37).
-- **Last Result:** Attempt 36 Loss (Gentleman OBrien).
-- **Loss Analysis:** Enemy Tauros (Lv20) had Thunderbolt/Blizzard/Hyper Beam. Rumpus/Bahamut/Vortex all KO'd.
-- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special).
+- **Status:** Attempt 37 - Round 1.
+- **Matchup:** Rumpus vs Heracross.
+- **Team Status:** Vortex (Fainted), Bahamut (Fainted), Rumpus (Full HP).
+- **Previous Opponent:** Aerodactyl (Defeated).
+- **Last Result:** Attempt 36 Loss (Gentleman OBrien - Tauros).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
