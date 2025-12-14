@@ -403,3 +403,4 @@
 - **Status Update:** Vortex landed Fly. Heracross critical. Vortex at risk. Plan: Quick Attack -> Sack -> Rumpus clean up.
 - **Correction:** Tool failure selected Fly instead of Quick Attack. Vortex fainted. Switching to Rumpus to outspeed and kill.
 - **Scizor:** Bug/Steel. Moves: Slash, Steel Wing. High Def. Counter: Vortex (Neutral Fly/Mud-Slap).
+- **Gyarados:** Hyper Beam (Physical, Recharge required). Plan: Rumpus.
