@@ -394,3 +394,4 @@
 Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 ### PC Management Lesson
 - **Lesson:** 'MOVE PKMN W/O MAIL' is unreliable for simple depositing via blind macros. Use 'DEPOSIT PKMN' instead.
+- **Battle Intel:** Level 20 Blissey outspeeds Level 20 Vortex (Pidgeotto). Vortex Speed is 36. Blissey likely max DVs/Stat Exp.
