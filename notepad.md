@@ -3,10 +3,10 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 46 - Round 1.
-- **Last Result:** Attempt 45 Loss (Kimono Girl - Lapras).
-- **Team:** Rumpus (Tauros), Flux (Magnemite) @ PSNCUREBERRY, Bahamut (Dratini) @ MINT BERRY.
-- **Location:** Battle Tower Battle Room.
+- **Status:** Attempt 47 - Round 1 (Prep).
+- **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
+- **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 47 - Round 1 (Prep).
