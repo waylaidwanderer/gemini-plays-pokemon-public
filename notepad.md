@@ -113,8 +113,9 @@
 - **Accuracy Debuffs:** Effective vs strong opponents (e.g. Smokescreen).
 - **Type Effectiveness:** Fire is 0.5x effective against Water/Ground (not 0.25x).
 - **Weather:** Rain Dance reduces Fire-type damage by 50%.
-- **Gen 2 Mechanics:** Dark is Special (e.g. Bite). Ghost is Physical.
-- **Counter Mechanics:** In Gen 2, Counter reflects Physical hits (Normal/Fighting/etc). SONICBOOM is Normal (Physical), so it TRIGGERS Counter. Use Special moves to avoid it.
+- **Gen 2 Physical Types:** Normal, Fighting, Flying, Ground, Rock, Bug, Ghost, Poison, Steel. (Triggers Counter).
+- **Gen 2 Special Types:** Water, Grass, Fire, Ice, Electric, Psychic, Dragon, Dark. (Triggers Mirror Coat).
+- **Counter Strategy:** Reflects Physical damage (2x). Use Low Power Physical moves or Special moves to minimize recoil.
 
 ## Strategy Notes
 - **Surfing:** Pathfinding must strictly separate Land/Water.
