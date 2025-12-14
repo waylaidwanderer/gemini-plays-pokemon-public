@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 46 - Round 1.
-- **Last Result:** Attempt 45 Loss (Kimono Girl - Lapras).
-- **Intel:** Lapras outsped Vortex (Base 71 vs 60). Anomaly.
-- **Next Steps:** Analyze Team Stats at PC.
+- **Status:** Attempt 47 - Round 1 (Prep).
+- **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
+- **Intel:** Arcanine (Flamethrower) defeated Flux. Check held items (Berries likely unequipped).
+- **Next Steps:** Re-equip items at PC. Optimize Flux's item (Steel is immune to Poison).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
