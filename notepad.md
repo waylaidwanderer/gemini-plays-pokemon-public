@@ -3,16 +3,16 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 49 - Round 1.
-- **Last Result:** Attempt 48 Loss (Scientist Mori - Tauros).
+- **Status:** Attempt 50 - Round 1.
+- **Last Result:** Attempt 49 Loss (Super Nerd Ogden - Azumarill).
 - **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
-- **Location:** Battle Tower Hallway.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 49 - Round 1 (Prep).
-- **Last Result:** Attempt 48 Loss (Scientist Mori - Tauros).
-- **Intel:** Scientist Mori's Tauros: Thunderbolt, Earthquake, Hyper Beam, Blizzard. (Mixed Set, dangerous coverage).
-- **Next Steps:** Challenge Battle Tower (Attempt 49). Team Ready.
+- **Status:** Attempt 50 - Round 1 (Prep).
+- **Last Result:** Attempt 49 Loss (Super Nerd Ogden - Azumarill).
+- **Intel:** Super Nerd Ogden's Azumarill: Rain Dance, Surf, Blizzard. (Rain Sweep).
+- **Next Steps:** Re-equip items. Challenge Battle Tower (Attempt 50).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
