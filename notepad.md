@@ -371,6 +371,8 @@
 - **Battle Log:** Azumarill used Blizzard (OHKO on Bahamut). Intel: Knows Rain Dance, Blizzard.
 - **Battle Log:** Bahamut fainted. Switched to Flux. Rain Dance active.
 - **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
-### Battle Tower Mechanics
-- **Item Stripping:** Items might only be stripped if USED. Always verify item held status manually before re-equipping.
-- **Equipment Check:** Rumpus has PRZCUREBERRY (Confirmed). Flux: Equipping BERRY. Bahamut: Has MINT BERRY (Confirmed). Ready for Attempt 52.
+### Battle Tower Mechanics (Consolidated)
+- **Item Stripping:** Items are returned to the bag ONLY if consumed. Unused items remain equipped.
+- **Rules:** No duplicate held items.
+- **Auto-Heal:** Party healed after every run.
+- **Level Select:** Scroll Up for L:20.
