@@ -9,12 +9,11 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 44 - Battle 1 vs Steelix.
-- **State:** Rumpus (11/64 HP, Confused, +2 Atk) vs Steelix. Vortex (FNT), Flux (FNT).
-- **Threats:** Steelix (Earthquake/Swagger).
-- **Strategy:** Spam Strength (Last Stand).
-- **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
-- **Analysis:** Mud-Slap/Toxic stall countered the team. Accuracy drops were fatal.
+- **Status:** Attempt 45 - Prep (Team Swap).
+- **Last Result:** Attempt 44 Loss (Hiker - Steelix).
+- **Analysis:** Steelix walled the team. Flux OHKO by Earthquake. Need Water coverage.
+- **Plan:** Swap Flux -> Bahamut. Teach Bahamut Surf.
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini) @ MINT BERRY.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
