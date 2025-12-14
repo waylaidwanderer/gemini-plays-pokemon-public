@@ -376,3 +376,7 @@
 - **Auto-Heal:** Party healed after every run.
 - **Level Select:** Scroll Up for L:20.
 - **Battle Log (Attempt 53):** Beauty's Blissey knows Psychic. Did not use Counter Turn 1.
+**CRITICAL LESSON - BATTLE TOWER SPEED:**
+- Opponents likely have MAX DVs and Stat XP. Assume we are SLOWER than the opponent unless we have a massive base speed advantage. Speed ties are losses.
+- Miltank knows Earthquake/Thunder/Attract.
+- Blissey knows Psychic/Submission.
