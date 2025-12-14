@@ -2,7 +2,7 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Deposit Bahamut. Optimize Items (No Dupes): Vortex->MetalCoat, Flux->Berry, Rumpus->PsnCureBerry.
+- **Current Task:** Defeat 7 Trainers in Battle Tower (Level 20).
 - **Rule Discovery:** No duplicate held items allowed in Battle Tower.
 - **Status:** Preparing for Attempt 32.
 - **Last Loss:** Attempt 31 - Kimono Girl Saito (Lapras).
