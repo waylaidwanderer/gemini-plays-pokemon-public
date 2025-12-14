@@ -9,12 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 47 - Round 1 (Sage).
-- **Opponent:** Nidoking (Full HP).
-- **Battle Log:** Flux & Bahamut fainted. Rumpus (22 HP) active.
-- **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
-- **Intel:** Wigglytuff Defeated. Nidoking is out. Rumpus outspeeds (110 vs 85).
-- **Next Steps:** Pray for OHKO with Strength.
+- **Status:** Attempt 48 - Round 1 (Prep).
+- **Last Result:** Attempt 47 Loss (Sage - Nidoking).
+- **Intel:** Sage Buckman's Wigglytuff has Fire Blast & Gold Berry. Nidoking has Earthquake.
+- **Next Steps:** Re-equip items at PC (Berries likely returned to bag).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
