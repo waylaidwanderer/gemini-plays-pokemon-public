@@ -16,17 +16,32 @@
 **CRITICAL LESSON - BATTLE TOWER SPEED:**
 - Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage (25+). Speed ties are losses.
 
-### Battle Tower Prep
-- **Team:** Rumpus, Flux, Bahamut. (Vortex deposited).
-- **Loadout Plan:**
-  - Bahamut: Dragon Fang (Boosts Dragonbreath).
-  - Rumpus: Przcureberry (Protect Speed).
-  - Flux: Mint Berry (Protect vs Sleep).
-  - Note: Metal Coat useless on Flux (No Steel moves).
+## 🏰 Battle Tower Master Guide (Level 20)
+### 📋 Preparation & Rules
+- **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
+- **Items:** Bahamut (Dragon Fang), Rumpus (Przcureberry), Flux (Mint Berry).
+- **Rules:** No duplicate items. Items stripped on loss. L:20 must be manually selected.
 
-### Battle Tower Intel (Consolidated)
-- **Threats:** Starmie (Fast/Psychic/Surf), Miltank (Earthquake/Milk Drink), Tauros (BoltBeam/EQ), Blissey (Counter/Psychic), Alakazam (Punches/Psychic), Lapras (Blizzard/Confuse Ray).
-- **Strategy:** Flux walls Normals/Psychics/Ices. Vortex/Bahamut pivot on Earthquakes.
+### ⚔️ Strategy & Mechanics
+- **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25.
+- **Roles:** Rumpus (Phys Sweeper), Bahamut (Speed Control/Pivot), Flux (Wall/Toxic).
+- **Counter:** Reflects Physical (Normal/Fighting). SONICBOOM TRIGGERS Counter.
+- **AI:** Will switch if walled.
+
+### ⚠️ Threat Analysis
+- **Miltank:** Earthquake (Flux Killer), Attract, Milk Drink.
+- **Starmie:** Fast, Surf/Psychic.
+- **Gyarados:** Hyper Beam, Miracleberry.
+- **Blissey:** Counter (Physical), Psychic, Submission.
+- **Nidoking:** Earthquake, Blizzard.
+- **Exeggutor:** Sleep Powder/Psychic. (Flux counters).
+- **Alakazam:** Elemental Punches.
+- **Lapras:** Blizzard, Confuse Ray.
+- **Wigglytuff:** Hyper Beam, Fire Blast.
+- **Quagsire:** Surf, Earthquake.
+- **Umbreon:** Toxic, Protect, Confuse Ray, Mud-Slap.
+- **Heracross:** Megahorn, Earthquake.
+- **Pikachu:** Light Ball (Danger!).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
