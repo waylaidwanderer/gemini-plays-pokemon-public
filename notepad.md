@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 50 - Round 1 vs Teacher Kawakami (Exeggutor).
-- **Last Result:** Attempt 49 Loss (Super Nerd Ogden - Azumarill).
-- **Intel:** Super Nerd Ogden's Azumarill: Rain Dance, Surf, Blizzard. (Rain Sweep).
-- **Battle Status:** Defeated by Teacher Kawakami (Heracross). Preparing for Attempt 51.
+- **Status:** Attempt 51 - Round 1 (Prep).
+- **Last Result:** Attempt 50 Loss (Teacher Kawakami - Heracross).
+- **Intel:** Teacher Kawakami's Heracross: Megahorn. (Physical Sweeper).
+- **Battle Status:** Re-equipping items.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
