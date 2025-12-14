@@ -357,3 +357,5 @@
 - **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
 ### Battle Lessons
 - **Vs Swagger:** If your Pokémon is Confused and Attack boosted (+2), SWITCH OUT to a safe pivot immediately. Do not risk the self-hit, especially against low HP opponents.
+- **Battle Note:** Flux's Toxic failed against Umbreon ('It didn't affect'). Potential causes: Substitute, Safeguard, or Accuracy drop causing a 'miss' (though usually says 'missed'). Investigate.
+- **Opponent Move:** Umbreon knows Mud-Slap.
