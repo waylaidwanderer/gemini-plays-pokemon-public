@@ -389,3 +389,4 @@
 - Flux landed Crit Thundershock (SE).
 - Lapras used Blizzard (Missed).
 - Flux hurt itself in confusion.
+- Round 1 (Super Nerd): Lapras missed Blizzard. Flux hurt itself (23/45 HP).
