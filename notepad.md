@@ -6,7 +6,7 @@
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 - **Loss Analysis:** Scizor (Bug/Steel) walled the team. Resists Normal/Dragon/Ice. Vortex (Fly) is neutral but frail. Need Fire coverage.
 - **Status:** Attempt 41 - Round 1.
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
+- **Team:** Rumpus (Tauros) @ PRZCUREBERRY, Vortex (Pidgeotto) @ METAL COAT, Flux (Magnemite) @ MINT BERRY.
 - **Last Result:** Attempt 40 Loss (Super Nerd - Gyarados).
 - **Loss Analysis:** Gyarados (Hyper Beam) swept. Bahamut too frail. Vortex KO'd. Need Electric coverage.
 - **Strategy Change:** Swapping Bahamut for Flux (Magnemite) to counter Water/Flying threats.
