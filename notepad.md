@@ -362,3 +362,4 @@
 - **Battle Log:** Rumpus hit by Mud-Slap (-1 Acc). Umbreon recovering with Leftovers.
 - Round 1 (Sage): Wigglytuff used Hyper Beam. Rumpus (22/64 HP). Wigglytuff recharging.
 - Round 1 (Sage): Wigglytuff recovered with Gold Berry. Rumpus (22/64 HP).
+- Round 1 (Sage): Flux switched in. Tanked Hyper Beam (21/45 HP). Wigglytuff Recharging.
