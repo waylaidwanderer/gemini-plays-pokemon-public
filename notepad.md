@@ -3,19 +3,14 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Last Result:** Attempt 35 Loss (Lass Thornton - Starmie).
-- **Loss Analysis:** Starmie (Base 115 Speed) outsped entire team. Surf KO'd Rumpus and Bahamut. Vortex Mud-Slap strategy failed.
-- **Status:** Restarting (Attempt 36).
-- **Last Loss:** Attempt 34 - Nidoking (Blizzard).
-- **Loss Analysis:** Bahamut OHKO'd by Blizzard. Nidoking has special coverage.
+- **Last Result:** Attempt 37 Loss (Lass - Heracross).
+- **Loss Analysis:** Heracross (Megahorn) clean sweep on remaining team. Aerodactyl weakened team significantly.
+- **Status:** Restarting (Attempt 38).
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 37 - Round 1.
-- **Matchup:** Rumpus vs Heracross.
-- **Team Status:** Vortex (Fainted), Bahamut (Fainted), Rumpus (Full HP).
-- **Previous Opponent:** Aerodactyl (Defeated).
-- **Last Result:** Attempt 36 Loss (Gentleman OBrien - Tauros).
+- **Status:** Attempt 38 - Round 1.
+- **Last Result:** Attempt 37 Loss (Lass - Heracross).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
