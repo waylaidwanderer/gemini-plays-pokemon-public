@@ -4,7 +4,7 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Status:** Attempt 57 - Round 1.
-- **Opponent:** Unknown.
+- **Opponent:** Teacher Kawakami (Steelix). Moves: Swagger.
 - **Last Result:** Attempt 56 Loss (Rocker - Tauros).
 - **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
 - **Location:** Battle Tower Hallway.
