@@ -4,7 +4,7 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Fix Duplicate Items (Vortex -> PRZCUREBERRY).
 - **Rule Discovery:** No duplicate held items allowed in Battle Tower.
-- **Status:** Starting Attempt 31.
+- **Status:** Attempt 31 Round 1 vs Kimono Girl Saito (Lapras). Rumpus FNT. Vortex Active.
 - **Last Loss:** Attempt 30 - Scientist Mori (Umbreon).
 - **Loss Analysis:** Umbreon (Toxic/Protect/Leftovers) stalled out the team. Rumpus poisoned early. Bahamut missed Dragonbreath at the end.
 - **Location:** Battle Tower Battle Room.
