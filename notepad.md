@@ -364,3 +364,4 @@
 - Round 1 (Sage): Flux switched in. Tanked Hyper Beam (21/45 HP). Wigglytuff Recharging.
  Flux consumed Berry (31/45 HP). Plan: Toxic.
  Strategy: Sonicboom to chip/stall. Flux sacrifices if needed.
+- **Battle Log:** Opponent Azumarill used Rain Dance.
