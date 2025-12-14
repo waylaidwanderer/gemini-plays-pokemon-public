@@ -11,10 +11,9 @@
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 43 - Battle 1 (Scientist).
-- **State:** Rumpus (1HP/Toxic/-4Acc), Vortex (FNT), Flux (FNT).
-- **Opponent:** Umbreon (Toxic/Protect/Leftovers/Mud-Slap).
-- **Last Result:** Attempt 42 Loss (Skier - Nidoking).
+- **Status:** Attempt 44 - Lobby.
+- **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
+- **Analysis:** Mud-Slap/Toxic stall countered the team. Accuracy drops were fatal.
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
