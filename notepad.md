@@ -346,6 +346,7 @@
 - **Hitmonchan:** Elemental Punches. Counter: Vortex (Fly).
 - **Lapras:** Blizzard/Thunderbolt/Psychic. Counter: Flux (Resists) or Brute Force.
 - **Scizor:** Bug/Steel. Moves: Slash, Steel Wing. High Def. Counter: Vortex (Neutral Fly/Mud-Slap).
+- **Scizor:** Bug/Steel. Moves: Slash, Steel Wing. High Def. Counter: Vortex (Neutral Fly/Mud-Slap).
 - **Pikachu:** Likely holds Light Ball (Massive damage even when resisted). Danger!
 - **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
