@@ -559,28 +559,5 @@
         "action_counter": 32711
       }
     ]
-  },
-  "give_held_item": {
-    "description": "Equips the currently highlighted item in the Pack to a specific party member. Handles the 'Give' menu selection, slot navigation, and swap confirmation. Assumes the cursor is already on the desired item in the Pack.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "slot": {
-          "type": "integer",
-          "description": "The party slot (1-6) to give the item to."
-        }
-      },
-      "required": [
-        "slot"
-      ]
-    },
-    "python_script": "import json\nslot = int(input_data['slot'])\n# Sequence: Open Item Menu (A) -> Select Give (Down, A) -> Navigate to Slot -> Select (A) -> Confirm/Advance (A) -> Clear/Back (B, B)\nseq = [\"A\", \"sleep 500\", \"Down\", \"sleep 300\", \"A\", \"sleep 1000\"]\nfor _ in range(slot - 1):\n    seq.extend([\"Down\", \"sleep 200\"])\nseq.extend([\"A\", \"sleep 1000\"])\nseq.extend([\"A\", \"sleep 1000\"])\nseq.extend([\"B\", \"sleep 500\", \"B\", \"sleep 500\"])\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "feat: Add give_held_item tool to automate equipping items from the bag.",
-        "timestamp": "2025-12-14T22:11:20.574Z",
-        "action_counter": 34722
-      }
-    ]
   }
 }

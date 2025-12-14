@@ -400,3 +400,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Battle Intel:** Level 20 Blissey outspeeds Level 20 Vortex (Pidgeotto). Vortex Speed is 36. Blissey likely max DVs/Stat Exp.
 - **Correction:** Vortex was holding a BERRY, not Metal Coat. Healed to 33/61 HP.
 - **Status Update (Attempt 60):** Vortex needs Berry. Rumpus has Przcureberry. Metal Coat lost.
+- **Tool Reliability:** Deleted `give_held_item` due to fragility with cursor memory. Future menu tools must aggressively reset cursor position (e.g. multiple 'Up' presses) before navigation.
