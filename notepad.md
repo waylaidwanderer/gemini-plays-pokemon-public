@@ -9,7 +9,8 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 47 - Round 1.
+- **Status:** Attempt 47 - Round 1 (Sage).
+- **Opponent:** Sage - Wigglytuff.
 - **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
 - **Intel:** Flux holding BERRY. Rumpus holding PRZCUREBERRY. Bahamut holding MINT BERRY.
 - **Next Steps:** Win Round 1.
