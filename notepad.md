@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 48 - Round 1 (Scientist Mori).
-- **Last Result:** Attempt 47 Loss (Sage - Nidoking).
-- **Intel:** Scientist Mori (Tauros). Moves: Thunderbolt, Earthquake, Hyper Beam. Currently Recharging.
-- **Next Steps:** Win Round 1.
+- **Status:** Attempt 49 - Round 1 (Prep).
+- **Last Result:** Attempt 48 Loss (Scientist Mori - Tauros).
+- **Intel:** Scientist Mori's Tauros: Thunderbolt, Earthquake, Hyper Beam, Blizzard. (Mixed Set, dangerous coverage).
+- **Next Steps:** Re-equip items.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
