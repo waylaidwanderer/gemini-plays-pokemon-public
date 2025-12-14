@@ -375,3 +375,4 @@
 - **Rules:** No duplicate held items.
 - **Auto-Heal:** Party healed after every run.
 - **Level Select:** Scroll Up for L:20.
+- **Battle Log (Attempt 53):** Beauty's Blissey knows Psychic. Did not use Counter Turn 1.
