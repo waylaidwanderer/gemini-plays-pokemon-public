@@ -368,3 +368,5 @@
 - **Battle Log:** Azumarill used Blizzard (OHKO on Bahamut). Intel: Knows Rain Dance, Blizzard.
 - **Battle Log:** Bahamut fainted. Switched to Flux. Rain Dance active.
 - **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
+### Battle Tower Mechanics
+- **Item Stripping:** Items might only be stripped if USED. Always verify item held status manually before re-equipping.
