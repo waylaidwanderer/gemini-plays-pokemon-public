@@ -6,7 +6,7 @@
 - **Status:** Attempt 58 - Prep.
 - **Opponent:** N/A.
 - **Last Result:** Attempt 57 Loss (Teacher Kawakami - Steelix w/ Earthquake).
-- **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini). Flux (Magnemite) was accidentally released.
 - **Location:** Battle Tower Hallway.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
