@@ -6,7 +6,8 @@
 - **Status:** Attempt 58 - Prep.
 - **Opponent:** N/A.
 - **Last Result:** Attempt 57 Loss (Teacher Kawakami - Steelix w/ Earthquake).
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini). Flux (Magnemite) is currently in party (Deposit pending).
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini). Flux (Magnemite) deposited.
+- **Issue:** Metal Coat and Dragon Fang missing from inventory. Checking if held.
 - **Location:** Battle Tower Hallway.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
