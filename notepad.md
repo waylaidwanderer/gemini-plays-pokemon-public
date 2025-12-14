@@ -21,15 +21,8 @@
 - **Route 40:** Lass (13, 4).
 
 ## 📝 Quest & Event Log
-
-- **Ruins of Alph:** Unown Mode unlocked. 9 Forms caught. "Strange presence" in Inner Chamber. Scientists researching.
-- **Kanto Campaign:** 8 Badges obtained. Red defeated.
-- **Copycat (Saffron):** Pass obtained. Magnet Train active.
-
-### Historic Loss Log
-- **Attempt 13:** Azumarill (Rain Dance/Surf).
-- **Attempt 14:** Nidoking (Ground/Poison).
-- **Attempt 18:** Quagsire (Water/Ground).
+- **Status:** Post-Game (Red Defeated).
+- **Ruins of Alph:** 9 Unown Forms. Inner Chamber Unlocked.
 
 ## Global Game Mechanics
 ### General Mechanics
