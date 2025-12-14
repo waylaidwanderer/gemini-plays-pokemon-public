@@ -314,6 +314,9 @@
 - **Lesson:** Blind menu macros (press_sequence) are FAILING for Party Switching. I must use MANUAL, step-by-step button presses with visual verification for this task to avoid loops.
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
 ## 🛡️ Battle Tower Threat Analysis (Consolidated)
+- **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
+- **Nidoking:** Ground/Poison. Walls Flux. Counter: Rumpus.
+- **Exeggutor:** Psychic/Giga Drain/Sleep Powder. Counter: Flux (Resists Grass/Psychic, Mint Berry cures Sleep).
 - **Wigglytuff:** Swagger + Psych Up. Counter: Switch/Haze.
 - **Blissey:** High HP, **Counter**. USE SPECIAL MOVES (Thundershock, Dragonbreath).
 - **Alakazam:** Fast, Elemental Punches. Counter: Physical (Strength, Fly).
