@@ -9,8 +9,8 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 54 - Round 1.
-- **Last Result:** Attempt 53 Loss (Beauty - Miltank).
+- **Status:** Attempt 54 Loss.
+- **Last Result:** Attempt 54 Loss (Super Nerd - Alakazam).
 **CRITICAL LESSON - BATTLE TOWER SPEED:**
 - Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage. Speed ties are losses.
 - **Intel:**
