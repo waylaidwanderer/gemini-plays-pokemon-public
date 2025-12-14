@@ -9,7 +9,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 50 - Round 1 (Prep).
+- **Status:** Attempt 50 - Round 1 vs Teacher Kawakami (Exeggutor).
 - **Last Result:** Attempt 49 Loss (Super Nerd Ogden - Azumarill).
 - **Intel:** Super Nerd Ogden's Azumarill: Rain Dance, Surf, Blizzard. (Rain Sweep).
 - **Next Steps:** Equip Flux (Berry). Challenge Battle Tower (Attempt 50).
