@@ -2,8 +2,8 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Restart Challenge.
-- **Status:** Lobby (Recovering from Attempt 33).
+- **Current Task:** Battle Tower Challenge (Level 20).
+- **Status:** Attempt 35, Round 1 vs Lass Thornton (Starmie).
 - **Last Loss:** Attempt 34 - Nidoking (Blizzard).
 - **Loss Analysis:** Bahamut OHKO'd by Blizzard. Nidoking has special coverage.
 - **Location:** Battle Tower Lobby.
