@@ -12,11 +12,12 @@
 - **Status:** Attempt 54 Loss.
 - **Last Result:** Attempt 54 Loss (Super Nerd - Alakazam).
 **CRITICAL LESSON - BATTLE TOWER SPEED:**
-- Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage. Speed ties are losses.
+- Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage (25+). Speed ties are losses.
 - **Intel:**
   - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash, Steel Wing).
   - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
-  - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
+  - **Scientist Mori:** Tauros (Thunderbolt, Earthquake, Hyper Beam, Blizzard).
+  - **Super Nerd:** Alakazam (Psychic), Lapras (Blizzard, Confuse Ray), Pikachu (Thunder Wave).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
