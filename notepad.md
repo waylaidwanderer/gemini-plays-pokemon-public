@@ -387,3 +387,5 @@
 - Lapras used Blizzard (Heavy damage to Flux).
 - Lapras used Confuse Ray. Flux Confused.
 - Flux landed Crit Thundershock (SE).
+- Lapras used Blizzard (Missed).
+- Flux hurt itself in confusion.
