@@ -5,12 +5,12 @@
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 - **Loss Analysis:** Scizor (Bug/Steel) walled the team. Resists Normal/Dragon/Ice. Vortex (Fly) is neutral but frail. Need Fire coverage.
-- **Status:** Attempt 41 - Round 1.
+- **Status:** Attempt 41 Loss (Lass - Exeggutor).
 - **Team:** Rumpus (Tauros) @ PRZCUREBERRY, Vortex (Pidgeotto) @ METAL COAT, Flux (Magnemite) @ MINT BERRY.
-- **Last Result:** Attempt 40 Loss (Super Nerd - Gyarados).
-- **Loss Analysis:** Gyarados (Hyper Beam) swept. Bahamut too frail. Vortex KO'd. Need Electric coverage.
-- **Strategy Change:** Swapping Bahamut for Flux (Magnemite) to counter Water/Flying threats.
-- **Location:** Battle Tower Lobby.
+- **Last Result:** Attempt 41 Loss (Lass - Exeggutor).
+- **Loss Analysis:** Exeggutor (Psychic) swept. Rumpus (Crit), Vortex, Flux all fell. High Special Attack is a problem.
+- **Strategy:** Re-evaluating team. Need answers for bulky Special Attackers.
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 41 - Round 1.
