@@ -350,6 +350,7 @@
 - **Pikachu:** Likely holds Light Ball (Massive damage even when resisted). Danger!
 - **Non-Combatants:** Youngster (6,12), Beauty (12,10), Sailor (12,18), Lass (13,4).
 - **Gyarados:** Hyper Beam (Physical, Recharge required). Plan: Rumpus.
+- **Tauros:** Earthquake. Counter: Vortex (Immune).
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
 - Phone Call: Anthony (Route 33) mentions seeing many Geodude (Possible Swarm?).
 ### Route 39 Grinding Plan
@@ -404,3 +405,4 @@
 - **Correction:** Tool failure selected Fly instead of Quick Attack. Vortex fainted. Switching to Rumpus to outspeed and kill.
 - **Scizor:** Bug/Steel. Moves: Slash, Steel Wing. High Def. Counter: Vortex (Neutral Fly/Mud-Slap).
 - **Gyarados:** Hyper Beam (Physical, Recharge required). Plan: Rumpus.
+- **Tauros:** Earthquake. Counter: Vortex (Immune).
