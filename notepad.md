@@ -405,3 +405,4 @@
 - **Scizor:** Bug/Steel. Moves: Slash, Steel Wing. High Def. Counter: Vortex (Neutral Fly/Mud-Slap).
 - **Gyarados:** Hyper Beam (Physical, Recharge required). Plan: Rumpus.
 - **Tauros:** Earthquake. Counter: Vortex (Immune).
+- **Battle Log (Attempt 34):** Rumpus consumed PSNCUREBERRY vs Exeggutor (Toxic). Item slot empty for remainder of battle.
