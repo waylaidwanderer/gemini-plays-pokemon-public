@@ -317,7 +317,7 @@
 - **Nidoking:** Ground/Poison. Moves: Earthquake, Blizzard. Walls Flux. Counter: Rumpus.
 - **Exeggutor:** Psychic/Giga Drain/Sleep Powder. Counter: Flux (Resists Grass/Psychic, Mint Berry cures Sleep).
 - **Wigglytuff:** Swagger + Psych Up. Counter: Switch/Haze.
-- **Blissey:** High HP, **Counter**. USE SPECIAL MOVES (Thundershock, Dragonbreath).
+- **Blissey:** High HP, Low Def. Risk of **Counter**. Testing Physical (Strength) per Advisor. If failed, switch to Special.
 - **Alakazam:** Fast, Elemental Punches. Counter: Physical (Strength, Fly).
 - **Aerodactyl:** Earthquake. Counter: Vortex (Immune).
 - **Azumarill:** Tanky, Blizzard/Surf. Counter: Electric.
