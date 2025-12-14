@@ -2,11 +2,11 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Battle Tower L20 (Attempt 32) - Round 1 vs Schoolboy Walker.
+- **Current Task:** Swap Flux -> Bahamut. Optimize Items.
 - **Rule Discovery:** No duplicate held items allowed in Battle Tower.
-- **Status:** In Progress (Round 1).
-- **Last Loss:** Attempt 31 - Kimono Girl Saito (Lapras).
-- **Loss Analysis:** Lapras (Blizzard/Psychic) swept. CRITICAL: Lapras OUTSPED Vortex (Base 71). This implies high DVs or Quick Claw.
+- **Status:** Preparing for Attempt 33.
+- **Last Loss:** Attempt 32 - Schoolboy Walker (Quagsire/Scizor/Starmie).
+- **Loss Analysis:** Rain Dance Quagsire weakened team. Scizor walled Flux. Starmie swept. Flux is too frail.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
