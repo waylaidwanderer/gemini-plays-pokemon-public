@@ -14,7 +14,7 @@
 ### 📋 Status & Rules
 - **Status:** Attempt 56 - Round 1 vs Rocker (Tauros).
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
-- **Team:** Rumpus (Tauros @ Psncureberry), Flux (Magnemite @ Mint Berry), Bahamut (Dratini @ Dragon Fang).
+- **Team:** Rumpus (Tauros @ Berry), Vortex (Pidgeotto @ Metal Coat), Bahamut (Dratini @ Dragon Fang).
 
 ### ⚔️ Strategy & Mechanics
 - **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25. Speed ties are losses.
