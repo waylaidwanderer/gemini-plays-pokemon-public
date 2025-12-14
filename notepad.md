@@ -236,9 +236,6 @@
   - **Resources:** Moomoo Milk (Farmer), Fruit Trees.
 - **Route 40:** Battle Tower Entrance at (9, 5).
 
-# Battle Tower Intel
-- **General Strategy:** Lead Rumpus (Strength/Sweeper). Bahamut (Priority/TWave). Vortex (Ground Immunity/Fly).
-
 ### Ruins of Alph
 - **Kabuto Puzzle:** Solved! Unlocked Inner Chamber (3_27).
 - **Kabuto Chamber Secret:** Solved! Escape Rope opened secret passage to Item Room. 
