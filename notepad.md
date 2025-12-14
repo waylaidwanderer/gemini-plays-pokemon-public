@@ -11,9 +11,11 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 56 - Round 1 vs Rocker (Tauros).
+- **Status:** Attempt 59 - Prep Phase.
+- **Last Result:** Attempt 58 Loss (Starmie/Blissey). Blissey's Counter is a hard check to Rumpus. Starmie outspeeds Rumpus.
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
-- **Team:** Rumpus (Tauros @ Berry), Vortex (Pidgeotto @ Metal Coat), Bahamut (Dratini @ Dragon Fang).
+- **Team Strategy Shift:** Dropping Bahamut for Flux (Toxic). Toxic is required to break Blissey/Walls.
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 
 ### ⚔️ Strategy & Mechanics
 - **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25. Speed ties are losses.
