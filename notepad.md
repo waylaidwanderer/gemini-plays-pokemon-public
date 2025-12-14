@@ -21,23 +21,24 @@
 - **Counter Mechanics:** Reflects Physical hits (Normal/Fighting). SONICBOOM triggers Counter. Use Special moves vs Counter users.
 - **Roles:** Rumpus (Phys Sweeper), Bahamut (Speed Control/Pivot), Flux (Wall/Toxic).
 
-### ⚠️ Threat Analysis (Consolidated)
-- **High Threat:**
-  - **Miltank:** Earthquake, Attract, Milk Drink.
-  - **Starmie:** Fast, Surf/Psychic.
-  - **Gyarados:** Hyper Beam, Miracleberry.
-  - **Blissey:** Counter (Physical), Psychic, Submission.
-  - **Nidoking:** Earthquake, Blizzard.
-  - **Pikachu:** Light Ball (Massive Damage).
-- **Moderate Threat:**
-  - **Exeggutor:** Sleep Powder/Psychic. (Flux counters).
-  - **Alakazam:** Elemental Punches.
-  - **Lapras:** Blizzard, Confuse Ray.
-  - **Wigglytuff:** Hyper Beam, Fire Blast.
-  - **Quagsire:** Surf, Earthquake.
-  - **Umbreon:** Toxic, Protect, Confuse Ray, Mud-Slap.
-  - **Heracross:** Megahorn, Earthquake.
-  - **Scizor:** Slash, Steel Wing.
+### ⚠️ Threat Analysis & Counters
+- **Miltank:** Earthquake, Attract, Milk Drink. **Counter:** Vortex (Immune to EQ), Bahamut (Resists Thunder).
+- **Starmie:** Fast, Surf/Psychic. **Counter:** Thunder Wave.
+- **Gyarados:** Hyper Beam (Phys), Miracleberry. **Counter:** Rumpus.
+- **Blissey:** Counter (Phys), Psychic, Submission. **Counter:** Flux (Toxic Stall, Resists Psychic).
+- **Nidoking:** Earthquake, Blizzard. **Counter:** Rumpus.
+- **Pikachu:** Light Ball (Massive Dmg). **Counter:** Priority/Ground.
+- **Exeggutor:** Sleep/Psychic/Giga Drain. **Counter:** Flux (Resists, Mint Berry).
+- **Alakazam:** Elemental Punches. **Counter:** Physical (Strength, Fly).
+- **Lapras:** Blizzard, Confuse Ray. **Counter:** Flux (Resists).
+- **Wigglytuff:** Hyper Beam, Fire Blast. **Counter:** Switch/Haze.
+- **Quagsire:** Surf, Earthquake. **Counter:** Brute Force.
+- **Umbreon:** Toxic, Protect, Mud-Slap. **Counter:** Toxic back or Brute Force.
+- **Heracross:** Megahorn, Earthquake. **Counter:** Vortex (Fly/Immunity).
+- **Scizor:** Slash, Steel Wing. **Counter:** Vortex (Neutral Fly/Mud-Slap).
+- **Aerodactyl:** Earthquake. **Counter:** Vortex.
+- **Azumarill:** Tanky, Blizzard/Surf. **Counter:** Electric.
+- **Tauros:** Earthquake, Hyper Beam. **Counter:** Bahamut (Thunder Wave), Rumpus.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
