@@ -10,7 +10,7 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 44 - Battle 1 vs Steelix.
-- **State:** Rumpus (Confused/+2 Atk) vs Steelix. Vortex (FNT), Flux (FNT).
+- **State:** Rumpus (11/64 HP, Confused, +2 Atk) vs Steelix. Vortex (FNT), Flux (FNT).
 - **Threats:** Steelix (Earthquake/Swagger).
 - **Strategy:** Spam Strength (Last Stand).
 - **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
