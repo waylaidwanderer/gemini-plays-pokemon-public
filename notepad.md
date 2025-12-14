@@ -385,3 +385,5 @@
 - Lapras: Blizzard.
 - Lapras: Confuse Ray, Gold Berry.
 - Lapras used Blizzard (Heavy damage to Flux).
+- Lapras used Confuse Ray. Flux Confused.
+- Flux landed Crit Thundershock (SE).
