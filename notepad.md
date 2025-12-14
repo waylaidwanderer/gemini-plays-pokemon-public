@@ -9,7 +9,9 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 44 - Battle 1.
+- **Status:** Attempt 44 - Battle 1 vs Steelix.
+- **Matchup:** Rumpus vs Steelix.
+- **Strategy:** Switching to Vortex (Ground Immunity).
 - **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
 - **Analysis:** Mud-Slap/Toxic stall countered the team. Accuracy drops were fatal.
 
