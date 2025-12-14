@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 51 - Round 1 (Prep).
+- **Status:** Attempt 51 - Round 1 (Scientist Collins).
 - **Last Result:** Attempt 50 Loss (Teacher Kawakami - Heracross).
-- **Intel:** Teacher Kawakami's Heracross: Megahorn. (Physical Sweeper).
-- **Battle Status:** Checking Flux (Bahamut was already holding item? Item stripping mechanic unclear).
+- **Intel:** Scientist Collins: Quagsire (Water/Ground). Tanky. Immune to Electric.
+- **Battle Status:** Round 1 vs Quagsire. Lead: Rumpus.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
