@@ -12,7 +12,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 60 - Prep Phase. Metal Coat LOST. Vortex needs Berry. Rumpus needs Bitter Berry.
+- **Status:** Attempt 60 - Prep Phase. Metal Coat LOST. Vortex has Berry. Checking bag for Bitter Berry (Inventory conflict). Fallback: Berry/Psncureberry.
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey). Blissey's Counter is a hard check to Rumpus. Starmie outspeeds Rumpus.
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
 - **Team Strategy Shift:** Dropping Bahamut for Flux (Toxic). Toxic is required to break Blissey/Walls.
