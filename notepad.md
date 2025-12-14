@@ -2,12 +2,12 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Fix Duplicate Items (Vortex -> PRZCUREBERRY).
+- **Current Task:** Swap Bahamut -> Flux (Magnemite) @ BERRY.
 - **Rule Discovery:** No duplicate held items allowed in Battle Tower.
-- **Status:** Attempt 31 Round 1 vs Kimono Girl Saito (Lapras). Rumpus FNT. Vortex Active.
-- **Last Loss:** Attempt 30 - Scientist Mori (Umbreon).
-- **Loss Analysis:** Umbreon (Toxic/Protect/Leftovers) stalled out the team. Rumpus poisoned early. Bahamut missed Dragonbreath at the end.
-- **Location:** Battle Tower Battle Room.
+- **Status:** Preparing for Attempt 32.
+- **Last Loss:** Attempt 31 - Kimono Girl Saito (Lapras).
+- **Loss Analysis:** Lapras (Blizzard/Psychic) swept. CRITICAL: Lapras OUTSPED Vortex (Base 71). This implies high DVs or Quick Claw.
+- **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 29, Round 1 vs Heracross.
