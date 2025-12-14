@@ -361,3 +361,4 @@
 - **Opponent Move:** Umbreon knows Mud-Slap.
 - **Battle Log:** Rumpus hit by Mud-Slap (-1 Acc). Umbreon recovering with Leftovers.
 - Round 1 (Sage): Wigglytuff used Hyper Beam. Rumpus (22/64 HP). Wigglytuff recharging.
+- Round 1 (Sage): Wigglytuff recovered with Gold Berry. Rumpus (22/64 HP).
