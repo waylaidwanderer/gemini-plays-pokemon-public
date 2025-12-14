@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 48 - Round 1 (Prep).
+- **Status:** Attempt 48 - Round 1 (Scientist Mori).
 - **Last Result:** Attempt 47 Loss (Sage - Nidoking).
-- **Intel:** Sage Buckman's Wigglytuff has Fire Blast & Gold Berry. Nidoking has Earthquake.
-- **Next Steps:** Re-equip items at PC (Berries likely returned to bag).
+- **Intel:** Scientist Mori (Tauros). Threat: Earthquake/Hyper Beam?
+- **Next Steps:** Win Round 1.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
