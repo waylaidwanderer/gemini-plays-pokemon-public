@@ -355,3 +355,6 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 # STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 49587 Reflection)
 - **Tool Debugging Hierarchy:** When a custom tool fails, and an agent's first attempt to fix it also fails, do not repeatedly call the agent. The next step MUST be to add debug prints to the tool's code to manually trace its execution and identify the specific point of failure. Provide this detailed failure analysis to the agent on the next attempt.
 - **Trapped State Pivot:** When physically trapped in an area with no navigable exit (confirmed by pathfinding tools and direct experimentation), the problem is not one of navigation but of interaction. The solution will involve changing the state of the environment (e.g., a hidden switch, a triggered event, a special item use) rather than finding a new path. Pivot from exploration to systematic interaction testing.
+
+# Slowpoke Well B1F Puzzle Insight
+- The `FLOOR_UP_WALL` tiles create a one-way barrier. It is impossible to travel north over them from the south. This effectively separates the southern portion of the map (where the B2F ladder is) from the northern and western sections.
