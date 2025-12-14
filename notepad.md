@@ -16,9 +16,9 @@
 **CRITICAL LESSON - BATTLE TOWER SPEED:**
 - Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage (25+). Speed ties are losses.
 
-### Current Investigation: The Missing Metal Coat
-- **Hypothesis:** Vortex (Pidgeotto) or a party member is holding it.
-- **Status:** Not in PC Item Storage. Not in Bag.
+### Battle Tower Prep
+- **Metal Coat:** Retrieved from Vortex. Needs to be equipped to Flux.
+- **Team:** Rumpus, Flux, Bahamut. (Vortex needs depositing).
 
 ### Battle Tower Intel (Consolidated)
 - **Threats:** Starmie (Fast/Psychic/Surf), Miltank (Earthquake/Milk Drink), Tauros (BoltBeam/EQ), Blissey (Counter/Psychic), Alakazam (Punches/Psychic), Lapras (Blizzard/Confuse Ray).
