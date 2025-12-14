@@ -12,7 +12,7 @@
 - **Status:** Attempt 49 - Round 1 (Prep).
 - **Last Result:** Attempt 48 Loss (Scientist Mori - Tauros).
 - **Intel:** Scientist Mori's Tauros: Thunderbolt, Earthquake, Hyper Beam, Blizzard. (Mixed Set, dangerous coverage).
-- **Next Steps:** Re-equip items (Rumpus: Przcureberry, Bahamut: Mint Berry equipped). Next: Flux (Berry).
+- **Next Steps:** Challenge Battle Tower (Attempt 49). Team Ready.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
