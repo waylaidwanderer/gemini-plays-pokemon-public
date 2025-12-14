@@ -12,7 +12,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 60 - Battle 1 vs Lass (Hitmonchan). Rumpus (64/64), Vortex (61/61), Flux (45/45).
+- **Status:** Attempt 60 - Battle 1 vs Lass (Hitmonchan). Rumpus (64/64), Vortex (29/61), Flux (FNT). Hitmonchan (Psn) knows Mega Punch, Ice Punch, Fire Punch.
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey). Blissey's Counter is a hard check to Rumpus. Starmie outspeeds Rumpus.
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
 - **Team Strategy Shift:** Dropping Bahamut for Flux (Toxic). Toxic is required to break Blissey/Walls.
