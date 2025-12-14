@@ -4,15 +4,15 @@
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Restart Challenge.
 - **Status:** Lobby (Recovering from Attempt 33).
-- **Last Loss:** Attempt 33 - Tauros (Hyper Beam).
-- **Loss Analysis:** Vortex OHKO'd by Hyper Beam. Enemy Tauros has Earthquake, Blizzard, and Hyper Beam. Major threat.
+- **Last Loss:** Attempt 34 - Nidoking (Blizzard).
+- **Loss Analysis:** Bahamut OHKO'd by Blizzard. Nidoking has special coverage.
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 34, Round 1 vs Exeggutor.
-- **Last Result:** Attempt 33 Loss (Tauros Hyper Beam).
-- **Loss Analysis:** Vortex OHKO'd. Enemy Tauros has Earthquake/Blizzard/Hyper Beam.
-- **Current Strategy:** Rumpus (Fainted), Vortex (Fainted), Bahamut (Active). Round 2 vs Nidoking. Plan: Icy Wind (2x eff).
+- **Status:** Restarting (Attempt 35).
+- **Last Result:** Attempt 34 Loss (Nidoking Blizzard).
+- **Loss Analysis:** Bahamut OHKO'd by Blizzard. Team wiped.
+- **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
