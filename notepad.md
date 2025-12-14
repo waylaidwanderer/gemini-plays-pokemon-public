@@ -12,7 +12,7 @@
 - **Status:** Attempt 51 - Round 1 (Scientist Collins).
 - **Last Result:** Attempt 50 Loss (Teacher Kawakami - Heracross).
 - **Intel:** Scientist Collins: Quagsire (Water/Ground). Tanky. Immune to Electric.
-- **Battle Status:** Round 1 vs Quagsire. Rumpus Fainted. Rain Dance Active. Sending Bahamut.
+- **Battle Status:** Round 1 vs Quagsire. Bahamut Active. Using ExtremeSpeed to clean up.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
