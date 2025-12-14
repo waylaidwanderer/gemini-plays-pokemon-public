@@ -9,7 +9,8 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 52 - Ready (All Items Equipped).
+- **Status:** Attempt 52 - Round 1 vs Pokéfan Stock.
+- **Current Match:** Rumpus vs Gyarados.
 - **Last Result:** Attempt 51 Loss (Scientist Collins - Nidoking).
 - **Intel:** Scientist Collins: Quagsire (Water/Ground), Nidoking (Ground/Poison - Earthquake, Blizzard).
 - **Threat Updates:**
