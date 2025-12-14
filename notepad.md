@@ -383,3 +383,4 @@
 - Miltank knows Earthquake/Thunder/Attract.
 - Blissey knows Psychic/Submission.
 - Lapras: Blizzard.
+- Lapras: Confuse Ray, Gold Berry.
