@@ -204,19 +204,11 @@
  Reward: TM13 (Snore). Farmer now sells Moomoo Milk.
 - **Fly Map:** Cursor behavior is quirky; verify location before flying.
 
-## Route 39 & 40 (Olivine Area)
+## Johto Atlas
+### Olivine Area (Routes 39 & 40)
 - **Route 39:** Psychic Norman (13, 7) Defeated. Moomoo Farm visited.
 - **Wild Intel:** Magnemites here can FLEE (approx 10% chance). Catch quickly. Moves: Supersonic, Sonicboom.
 - **Route 40:** Battle Tower Entrance at (9, 5).
-- **Battle Tower Menu:** The 'What level do you want to challenge?' text box is NOT blocking. Do NOT press 'A' to advance it, or you will accidentally select the first option (L:10). Wait for the menu to load, then scroll.
-- **Battle Tower Menu:** Navigating the level selection is tricky. It seems 'Down' from the start might select 'CANCEL'. Need to verify if L:20 is available or unlocked.
-- **Battle Tower Entry:** Select 'Challenge' -> Advance 'Before entering' -> Advance 'Already save file' -> Confirm 'Overwrite' -> Wait for Save (~6s) -> Level Selection Menu.
-- **Menu Issue:** Default is 'L:10'. My party (Lv15+) is rejected. 'Down' press might be selecting 'CANCEL' instead of 'L:20'. Investigating menu layout.
-- **Menu Verification:** Confirming save to observe the Level Selection menu. Suspect 'L:20' might be missing or in a different slot.
-- **Observation:** The Level Selection menu ('What level...') appears after saving, but is immediately canceled by an automated 'B' press. Must act quickly to interact with it.
-- **Hypothesis:** The harness is auto-pressing 'B' to clear the 'What level...' text box, inadvertently canceling the menu. 
-- **Strategy:** Using a rapid `press_sequence` (Down, A, sleep 200, Down, A) to select Level 20 before the harness can intervene.
-- **Investigation:** 'Down' from the level list seems to select 'CANCEL'. Performing a slow scroll observation to map the available level options.
 
 # Battle Tower Intel
 - **General Strategy:** Lead Rumpus (Strength/Sweeper). Bahamut (Priority/TWave). Vortex (Ground Immunity/Fly).
