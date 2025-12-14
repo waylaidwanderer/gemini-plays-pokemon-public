@@ -3,10 +3,10 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 58 - Ready.
+- **Status:** Attempt 59 - Prep Phase (Equipping Items).
 - **Opponent:** N/A.
-- **Last Result:** Attempt 57 Loss (Teacher Kawakami - Steelix w/ Earthquake).
-- **Team:** Rumpus (Tauros @ Berry), Vortex (Pidgeotto @ Metal Coat), Bahamut (Dratini @ Dragon Fang).
+- **Last Result:** Attempt 58 Loss (Starmie/Blissey).
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
