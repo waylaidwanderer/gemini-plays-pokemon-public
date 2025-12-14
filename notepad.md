@@ -12,7 +12,7 @@
 - **Status:** Attempt 34, Round 1 vs Exeggutor.
 - **Last Result:** Attempt 33 Loss (Tauros Hyper Beam).
 - **Loss Analysis:** Vortex OHKO'd. Enemy Tauros has Earthquake/Blizzard/Hyper Beam.
-- **Current Strategy:** Rumpus (Fainted), Vortex (Fainted), Bahamut (Active). Target: Exeggutor (Recharging).
+- **Current Strategy:** Rumpus (Fainted), Vortex (Fainted), Bahamut (Active). Round 2 vs Nidoking. Plan: Icy Wind (2x eff).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
