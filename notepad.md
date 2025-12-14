@@ -17,8 +17,12 @@
 - Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage (25+). Speed ties are losses.
 
 ### Battle Tower Prep
-- **Metal Coat:** Retrieved from Vortex. Needs to be equipped to Flux.
-- **Team:** Rumpus, Flux, Bahamut. (Vortex needs depositing).
+- **Team:** Rumpus, Flux, Bahamut. (Vortex deposited).
+- **Loadout Plan:**
+  - Bahamut: Dragon Fang (Boosts Dragonbreath).
+  - Rumpus: Przcureberry (Protect Speed).
+  - Flux: Mint Berry (Protect vs Sleep).
+  - Note: Metal Coat useless on Flux (No Steel moves).
 
 ### Battle Tower Intel (Consolidated)
 - **Threats:** Starmie (Fast/Psychic/Surf), Miltank (Earthquake/Milk Drink), Tauros (BoltBeam/EQ), Blissey (Counter/Psychic), Alakazam (Punches/Psychic), Lapras (Blizzard/Confuse Ray).
