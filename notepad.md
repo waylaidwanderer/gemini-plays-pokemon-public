@@ -13,8 +13,8 @@
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 42 - Level Selection.
-- **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
+- **Status:** Attempt 43 - Battle 1 (Scientist).
+- **Last Result:** Attempt 42 Loss (Skier - Nidoking).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
