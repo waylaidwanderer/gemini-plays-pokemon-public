@@ -10,12 +10,12 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 52 - Round 1 vs Pokéfan Stock.
-- **Current Match:** Rumpus Fainted (Hyper Beam). Gyarados Recharging.
-- **Strategy:** Switch to Flux (Safe entry). Use Thundershock.
+- **Current Match:** Flux vs Scizor.
+- **Strategy:** Flux walls Scizor (Resists Steel/Normal). Use Sonicboom.
 - **Last Result:** Attempt 51 Loss (Scientist Collins - Nidoking).
-- **Intel:** Scientist Collins: Quagsire (Water/Ground), Nidoking (Ground/Poison - Earthquake, Blizzard).
-- **Threat Updates:**
-  - **Nidoking:** Immune to Electric/Toxic. Has Earthquake (OHKO Flux) and Blizzard (OHKO Bahamut). Counter: Rumpus (Strength), Bahamut (Rain Boosted Surf if safe).
+- **Intel:**
+  - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash).
+  - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
