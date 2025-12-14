@@ -9,12 +9,11 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 52 - Round 1 vs Pokéfan Stock.
-- **Current Match:** Flux vs Scizor.
-- **Strategy:** Flux walls Scizor (Resists Steel/Normal). Use Sonicboom.
-- **Last Result:** Attempt 51 Loss (Scientist Collins - Nidoking).
+- **Status:** Attempt 53 - Round 1 (Prep).
+- **Last Result:** Attempt 52 Loss (Pokéfan Stock - Scizor).
 - **Intel:**
-  - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash).
+  - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash, Steel Wing).
+  - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
   - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
 
 ### Non-Combatant NPCs (Don't check again)
