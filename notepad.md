@@ -5,8 +5,8 @@
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Last Result:** Attempt 37 Loss (Lass - Heracross).
 - **Loss Analysis:** Heracross (Megahorn) clean sweep on remaining team. Aerodactyl weakened team significantly.
-- **Status:** Restarting (Attempt 38).
-- **Location:** Battle Tower Lobby.
+- **Status:** Attempt 38 - Round 1 vs Super Nerd.
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 38 - Round 1.
