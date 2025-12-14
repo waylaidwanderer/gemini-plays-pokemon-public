@@ -13,7 +13,7 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 43 - Battle 1 (Scientist).
 - **State:** Rumpus (Toxic), Vortex (Toxic), Flux (Low HP).
-- **Opponent:** Umbreon (Toxic/Protect/Leftovers).
+- **Opponent:** Umbreon (Toxic/Protect/Leftovers/Mud-Slap).
 - **Last Result:** Attempt 42 Loss (Skier - Nidoking).
 
 ### Threat Notes (Archive)
