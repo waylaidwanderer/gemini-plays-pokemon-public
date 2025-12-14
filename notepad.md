@@ -10,10 +10,11 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 47 - Round 1 (Sage).
-- **Opponent:** Sage - Wigglytuff.
+- **Opponent:** Wigglytuff (Badly Poisoned).
+- **Battle Log:** Flux fainted (Fire Blast). Bahamut switched in.
 - **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
 - **Intel:** Flux holding BERRY. Rumpus holding PRZCUREBERRY. Bahamut holding MINT BERRY.
-- **Next Steps:** Win Round 1.
+- **Next Steps:** Finish Wigglytuff with Bahamut.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
