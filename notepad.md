@@ -371,3 +371,4 @@
 - **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
 ### Battle Tower Mechanics
 - **Item Stripping:** Items might only be stripped if USED. Always verify item held status manually before re-equipping.
+- **Status:** Back in Battle Tower Lobby (7,7). Opening menu to re-equip items.
