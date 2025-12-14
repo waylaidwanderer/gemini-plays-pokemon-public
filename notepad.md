@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 45 - Prep (Team Swap).
+- **Status:** Attempt 45 - Prep.
 - **Last Result:** Attempt 44 Loss (Hiker - Steelix).
-- **Analysis:** Steelix walled the team. Flux OHKO by Earthquake. Need Water coverage.
-- **Plan:** Swap Flux -> Bahamut. Teach Bahamut Surf.
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
+- **Next Steps:** Teach Surf to Bahamut, Equip Mint Berry.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini) @ MINT BERRY.
 
 ### Non-Combatant NPCs (Don't check again)
