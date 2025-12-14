@@ -15,11 +15,14 @@
 - **Last Result:** Attempt 55 Loss (Juggler Fairfield - Starmie).
 **CRITICAL LESSON - BATTLE TOWER SPEED:**
 - Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage (25+). Speed ties are losses.
-- **Intel:**
-  - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash, Steel Wing).
-  - **Scientist Collins:** Quagsire, Nidoking (Earthquake, Blizzard).
-  - **Scientist Mori:** Tauros (Thunderbolt, Earthquake, Hyper Beam, Blizzard).
-  - **Super Nerd:** Alakazam (Psychic), Lapras (Blizzard, Confuse Ray), Pikachu (Thunder Wave).
+
+### Current Investigation: The Missing Metal Coat
+- **Hypothesis:** Vortex (Pidgeotto) or a party member is holding it.
+- **Status:** Not in PC Item Storage. Not in Bag.
+
+### Battle Tower Intel (Consolidated)
+- **Threats:** Starmie (Fast/Psychic/Surf), Miltank (Earthquake/Milk Drink), Tauros (BoltBeam/EQ), Blissey (Counter/Psychic), Alakazam (Punches/Psychic), Lapras (Blizzard/Confuse Ray).
+- **Strategy:** Flux walls Normals/Psychics/Ices. Vortex/Bahamut pivot on Earthquakes.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
