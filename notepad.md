@@ -287,15 +287,11 @@
   - Red Apricorn: (13, 5)
   - Black Apricorn: (15, 7)
   - Blue Apricorn: (16, 5)
-### Recent Lessons & Anomalies
-- **Anomaly:** Twins Ann & Anne on Route 37 are labeled as 'WEIRD_TREE' in the game state object list.
-- **Lesson:** Inventory limit is strict (20 slots). Stacks count as 1 slot. Always check space before foraging.
-- **Progress:** Deposited Nugget, Rare Candy, Protein (x2).
-- **PC/Party Management:** Always verify the 'Party' list in Game State Information before attempting to withdraw Pokémon. Misremembering party state leads to wasted turns.
-- **Item Discovery:** Bahamut (Dratini) came holding a **Dragon Fang**.
-- **Battle Tower Mechanics:** Auto-heals party after a challenge (win or loss).
-- **Encounter:** Wild Magnemite on Route 39! Switching to Bahamut to catch.
-- **Route 39:** Retreated to Olivine City to heal Gauss (7/38 HP).
+### Battle Tower Mechanics
+- **Auto-Heal:** Party is fully healed after every challenge (win or loss).
+- **held Items:** Duplicate held items are BANNED. 
+- **Level Selection:** Default is L:10. Must scroll Up to L:20.
+- **Saving:** Forced save before entry.
 ## New Discoveries
 - **Route 39:** Meowth (Wild), Raticate (Wild).
 - **Lucre (Meowth):** Lv16. Scratch, Growl, Bite.
