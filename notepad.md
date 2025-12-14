@@ -3,9 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 44 - Level Selection.
-- **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
-- **Team:** Rumpus (Tauros) @ PRZCUREBERRY, Vortex (Pidgeotto) @ METAL COAT, Flux (Magnemite) @ MINT BERRY.
+- **Status:** Attempt 45 - Prep (Team Swap).
+- **Last Result:** Attempt 44 Loss (Hiker - Steelix).
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
