@@ -3,9 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Lobby (Post-Attempt 59). Preparing for Attempt 60.
+- **Status:** Lobby (Post-Attempt 59). Preparing for Attempt 60. Equipping Flux.
 - **Intel:** Heracross (L20) has Earthquake/Megahorn. Outspeeds Pidgeotto.
-- **Needs:** Re-equip items. Check PC for better options.
+- **Needs:** Equip Mint Berry to Flux. Check PC Item Storage for Metal Coat.
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Location:** Battle Tower Lobby.
