@@ -7,7 +7,7 @@
 - **Status:** Attempt 43 - Battle 1 vs Scientist (Umbreon).
 - **Team:** Rumpus (Tauros) @ PRZCUREBERRY, Vortex (Pidgeotto) @ METAL COAT, Flux (Magnemite) @ MINT BERRY.
 - **Last Result:** Attempt 42 Loss (Skier - Nidoking).
-- **Strategy:** Rumpus leads. Use Strength on Umbreon.
+- **Strategy:** Switching Rumpus (Toxic) to Flux (Immune).
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
