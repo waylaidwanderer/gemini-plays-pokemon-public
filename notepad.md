@@ -9,10 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 47 - Round 1 (Prep).
+- **Status:** Attempt 47 - Round 1.
 - **Last Result:** Attempt 46 Loss (Youngster - Arcanine).
-- **Intel:** Arcanine (Flamethrower) defeated Flux. Check held items (Berries likely unequipped).
-- **Next Steps:** Re-equip items at PC. Optimize Flux's item (Steel is immune to Poison).
+- **Intel:** Flux holding BERRY. Rumpus holding PRZCUREBERRY. Bahamut holding MINT BERRY.
+- **Next Steps:** Win Round 1.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
