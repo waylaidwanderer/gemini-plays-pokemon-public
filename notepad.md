@@ -12,11 +12,14 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 61 - Battle 1 vs Quagsire. **CRITICAL:** Vortex/Flux FNT. Rumpus Active (Badly Poisoned).
-- **Intel:** Exeggutor outsped Vortex (Base 71)! Likely Quick Claw. Moves: Psychic, Shadow Ball (Ghost). Dmg: Psychic dealt 27 to Flux (Resist)! High SpA.
-- **Last Result:** Attempt 60 Loss (Arcanine). Hitmonchan (Fire/Ice Punch), Arcanine (Flamethrower, Iron Tail).
+- **Status:** Attempt 62 - Prep Phase. Re-equipping Items.
+- **Last Result:** Attempt 61 Loss (Quagsire). Rumpus fainted to Crit Surf.
+- **Recent Intel:**
+  - Quagsire: Surf, Tanky.
+  - Exeggutor: Quick Claw, Psychic, Shadow Ball.
+  - Hitmonchan: Fire/Ice Punch.
+  - Arcanine: Flamethrower, Iron Tail.
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
-- **Team Strategy Shift:** Dropping Bahamut for Flux (Toxic). Toxic is required to break Blissey/Walls.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 
 ### ⚔️ Strategy & Mechanics
