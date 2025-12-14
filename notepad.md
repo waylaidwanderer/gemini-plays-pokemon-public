@@ -11,9 +11,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Restarting (Attempt 35).
-- **Last Result:** Attempt 34 Loss (Nidoking Blizzard).
-- **Loss Analysis:** Bahamut OHKO'd by Blizzard. Team wiped.
+- **Status:** Attempt 36 (Round 1 vs Gentleman OBrien).
+- **Current Matchup:** Alakazam (Lv20).
+- **Last Result:** Attempt 35 Loss (Starmie).
+- **Loss Analysis:** Starmie (Base 115) outsped Rumpus (Base 110). Surf OHKO.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special).
 
 ### Threat Notes (Archive)
