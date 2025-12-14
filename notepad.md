@@ -2,9 +2,9 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Defeat 7 Trainers in Battle Tower (Level 20).
+- **Current Task:** Battle Tower L20 (Attempt 32) - Round 1 vs Schoolboy Walker.
 - **Rule Discovery:** No duplicate held items allowed in Battle Tower.
-- **Status:** Preparing for Attempt 32.
+- **Status:** In Progress (Round 1).
 - **Last Loss:** Attempt 31 - Kimono Girl Saito (Lapras).
 - **Loss Analysis:** Lapras (Blizzard/Psychic) swept. CRITICAL: Lapras OUTSPED Vortex (Base 71). This implies high DVs or Quick Claw.
 - **Location:** Battle Tower Lobby.
