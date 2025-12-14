@@ -3,16 +3,14 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 45 - Prep (Team Swap).
+- **Status:** Attempt 45 - Round 1.
 - **Last Result:** Attempt 44 Loss (Hiker - Steelix).
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
-- **Location:** Battle Tower Lobby.
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini) @ MINT BERRY.
+- **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 45 - Ready.
-- **Last Result:** Attempt 44 Loss (Hiker - Steelix).
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini) @ MINT BERRY (Surf Taught).
-- **Next Steps:** Challenge Receptionist.
+- **Status:** Attempt 45 - Round 1.
+- **Next Steps:** Defeat Opponent 1.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
