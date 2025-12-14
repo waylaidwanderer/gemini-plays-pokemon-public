@@ -359,4 +359,3 @@
 - **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
 ### Battle Lessons
 - **Vs Swagger:** If your Pokémon is Confused and Attack boosted (+2), SWITCH OUT to a safe pivot immediately. Do not risk the self-hit, especially against low HP opponents.
-- [Turn 33287] Correcting item assignment error (Taking Przcureberry from Vortex).
