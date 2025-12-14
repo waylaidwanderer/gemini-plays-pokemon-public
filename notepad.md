@@ -9,7 +9,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 53 - Round 1 (Prep).
+- **Status:** Attempt 53 - Round 1 (No Items).
 - **Last Result:** Attempt 52 Loss (Pokéfan Stock - Scizor).
 - **Intel:**
   - **Pokéfan Stock:** Gyarados (Hyper Beam, Fire Blast), Scizor (Slash, Steel Wing).
