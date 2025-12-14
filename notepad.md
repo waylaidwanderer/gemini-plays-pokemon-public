@@ -371,5 +371,4 @@
 - **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
 ### Battle Tower Mechanics
 - **Item Stripping:** Items might only be stripped if USED. Always verify item held status manually before re-equipping.
-- **Status:** Re-entering Battle Tower (Accidentally exited).
-- **Equipment Check:** Rumpus has PRZCUREBERRY. Bahamut has MINT BERRY. Flux status unknown (Need to check if BERRY consumed).
+- **Equipment Check:** Rumpus has PRZCUREBERRY (Confirmed). Flux: Equipping BERRY. Bahamut: Has MINT BERRY (Confirmed). Ready for Attempt 52.
