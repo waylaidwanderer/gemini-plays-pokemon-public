@@ -11,7 +11,7 @@
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 48 - Round 1 (Scientist Mori).
 - **Last Result:** Attempt 47 Loss (Sage - Nidoking).
-- **Intel:** Scientist Mori (Tauros). Threat: Earthquake/Hyper Beam?
+- **Intel:** Scientist Mori (Tauros). Moves: Thunderbolt. Threat: Earthquake/Hyper Beam?
 - **Next Steps:** Win Round 1.
 
 ### Non-Combatant NPCs (Don't check again)
