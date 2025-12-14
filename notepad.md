@@ -15,10 +15,6 @@
 - **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
 - **Analysis:** Mud-Slap/Toxic stall countered the team. Accuracy drops were fatal.
 
-### Threat Notes (Archive)
-- **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
-- **Nidoking:** Ground/Poison. Walls Flux. Counter: Rumpus.
-
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
 - **Route 40:** Lass (13, 4).
