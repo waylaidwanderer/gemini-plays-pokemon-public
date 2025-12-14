@@ -9,8 +9,8 @@
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 38 - Round 1.
-- **Last Result:** Attempt 37 Loss (Lass - Heracross).
+- **Status:** Attempt 39 - Round 1.
+- **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 
 ### Threat Notes (Archive)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
