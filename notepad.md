@@ -12,7 +12,7 @@
 - **Status:** Attempt 50 - Round 1 vs Teacher Kawakami (Exeggutor).
 - **Last Result:** Attempt 49 Loss (Super Nerd Ogden - Azumarill).
 - **Intel:** Super Nerd Ogden's Azumarill: Rain Dance, Surf, Blizzard. (Rain Sweep).
-- **Battle Status:** Round 1 vs Teacher Kawakami. Opponent 2: Heracross. Rumpus active (7/64, Psn) vs Heracross. Flux Fainted.
+- **Battle Status:** Round 1 vs Teacher Kawakami. Opponent 2: Heracross. Bahamut active (50/50) vs Heracross. Rumpus Fainted. Flux Fainted.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
