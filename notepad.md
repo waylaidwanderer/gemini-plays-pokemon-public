@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 59 - Prep Phase (Equipping Items).
+- **Status:** Attempt 59 - Prep Phase. Equipping Metal Coat to Vortex.
 - **Opponent:** N/A.
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
