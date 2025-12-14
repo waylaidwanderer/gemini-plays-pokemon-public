@@ -364,17 +364,6 @@
 ### Inventory Lessons
 - **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
 - **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
-### Attempt 22
-- **Round 1:** Fisher Hughes (Alakazam). Moves: Toxic.
-- Heracross (Lv20). Switching to Vortex.
-- Battle Intel: Heracross (L20) Megahorn did ~36 dmg to Vortex (Resisted). Extremely dangerous.
-- Battle Intel: Heracross (Lv20) outsped Vortex (Base Spd 71). KO'd with Megahorn.
-### Attempt 23
-- **Result:** Loss (Round 1 - Youngster).
-- **Threat:** Aerodactyl (Lv20).
-- **Moves:** Earthquake, Dragon Rage, Hyper Beam.
-- **Analysis:** Switched Flux into Earthquake (OHKO). Vortex KO'd by Dragon Rage. Rumpus KO'd by Hyper Beam.
-- **Lesson:** NEVER switch Flux into Aerodactyl. Lead Rumpus. If Aerodactyl appears, switch VORTEX immediately (Immune to EQ).
 
 ### Attempt 24
 - **Result:** Loss (Round 1 - Boarder Crawford).
