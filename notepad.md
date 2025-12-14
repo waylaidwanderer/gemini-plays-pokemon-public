@@ -38,7 +38,7 @@
 - **Scizor:** Slash, Steel Wing. **Counter:** Vortex (Neutral Fly/Mud-Slap).
 - **Aerodactyl:** Earthquake. **Counter:** Vortex.
 - **Azumarill:** Tanky, Blizzard/Surf. **Counter:** Electric.
-- **Tauros:** Earthquake, Hyper Beam. **Counter:** Bahamut (Thunder Wave), Rumpus.
+- **Tauros:** Earthquake, Hyper Beam, Blizzard. **Counter:** Bahamut (Thunder Wave), Rumpus.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
