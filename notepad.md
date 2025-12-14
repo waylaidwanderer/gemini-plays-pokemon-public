@@ -10,9 +10,9 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 44 - Battle 1 vs Steelix.
-- **State:** Vortex vs Steelix.
-- **Threats:** Steelix knows Earthquake. Flux Fainted.
-- **Strategy:** Vortex (Immune to EQ, SE Mud-Slap).
+- **State:** Rumpus vs Steelix. Vortex (FNT), Flux (FNT).
+- **Threats:** Steelix (Earthquake/Swagger).
+- **Strategy:** Spam Strength (Last Stand).
 - **Last Result:** Attempt 43 Loss (Scientist - Umbreon).
 - **Analysis:** Mud-Slap/Toxic stall countered the team. Accuracy drops were fatal.
 
