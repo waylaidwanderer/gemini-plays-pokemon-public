@@ -7,7 +7,7 @@
 - **Opponent:** N/A.
 - **Last Result:** Attempt 57 Loss (Teacher Kawakami - Steelix w/ Earthquake).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini). Flux (Magnemite) deposited.
-- **Issue:** Metal Coat found on Rumpus. Dragon Fang found on Bahamut. Checking Vortex.
+- **Equip Plan:** Take Metal Coat from Rumpus. Give Metal Coat to Vortex (Steel Wing). Give Berry to Rumpus.
 - **Location:** Battle Tower Hallway.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
