@@ -2,7 +2,7 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Swap Flux -> Bahamut. Optimize Items.
+- **Current Task:** Deposit Flux, Withdraw Bahamut.
 - **Rule Discovery:** No duplicate held items allowed in Battle Tower.
 - **Status:** Preparing for Attempt 33.
 - **Last Loss:** Attempt 32 - Schoolboy Walker (Quagsire/Scizor/Starmie).
