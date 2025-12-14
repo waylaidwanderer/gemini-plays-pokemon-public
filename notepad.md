@@ -31,7 +31,7 @@
 - **Blissey:** Counter (Phys), Psychic, Submission. **Counter:** Flux (Toxic Stall, Resists Psychic).
 - **Nidoking:** Earthquake, Blizzard. **Counter:** Rumpus.
 - **Pikachu:** Light Ball (Massive Dmg). **Counter:** Priority/Ground.
-- **Exeggutor:** Sleep/Psychic/Giga Drain. **Counter:** Flux (Resists, Mint Berry).
+- **Exeggutor:** Sleep/Psychic/Giga Drain. **WARNING:** Psychic deals ~60% to Flux (Resist). High Threat. **Counter:** Flux (Mint Berry), Vortex (Fly).
 - **Alakazam:** Elemental Punches. **Counter:** Physical (Strength, Fly).
 - **Lapras:** Blizzard, Confuse Ray. **Counter:** Flux (Resists).
 - **Wigglytuff:** Hyper Beam, Fire Blast. **Counter:** Switch/Haze.
