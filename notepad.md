@@ -410,3 +410,4 @@
 - **Tauros:** Earthquake. Counter: Vortex (Immune).
 - **Battle Log (Attempt 34):** Rumpus consumed PSNCUREBERRY vs Exeggutor (Toxic). Item slot empty for remainder of battle.
 - **Correction:** Rumpus was likely Poisoned Turn 1 and the PSNCUREBERRY was missing or failed. He remained Poisoned while benched.
+- **Battle Log:** Vortex sacrificed to Hyper Beam. Enemy Tauros recharging. Free switch to Bahamut.
