@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 59 - Prep Phase. Equipping: Rumpus (Needs PRZcureberry), Vortex (Needs Metal Coat).
+- **Status:** Attempt 59 - Prep Phase. Flux (Mint Berry), Vortex (Metal Coat). Verifying Rumpus (Przcureberry).
 - **Opponent:** N/A.
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
