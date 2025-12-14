@@ -12,7 +12,7 @@
 - **Status:** Attempt 50 - Round 1 vs Teacher Kawakami (Exeggutor).
 - **Last Result:** Attempt 49 Loss (Super Nerd Ogden - Azumarill).
 - **Intel:** Super Nerd Ogden's Azumarill: Rain Dance, Surf, Blizzard. (Rain Sweep).
-- **Next Steps:** Equip Flux (Berry). Challenge Battle Tower (Attempt 50).
+- **Battle Status:** Round 1 vs Teacher Kawakami (Exeggutor). Flux Fainted. Rumpus entering.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
