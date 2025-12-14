@@ -323,7 +323,7 @@
 - **Azumarill:** Tanky, Blizzard/Surf. Counter: Electric.
 - **Starmie:** Fast, Surf/Psychic. Counter: Thunder Wave.
 - **Umbreon:** Toxic/Protect/Substitute/Mud-Slap. Counter: Toxic back or Brute Force.
-- **Miltank:** Earthquake. Counter: Vortex.
+- **Miltank:** Earthquake, Thunder, Attract. Counter: Vortex (Immune to EQ), Bahamut (Resists Thunder).
 - **Heracross:** Megahorn, Earthquake, Endure (Reversal risk). Counter: Vortex (Fly/Immunity).
 - **Hitmonchan:** Elemental Punches. Counter: Vortex (Fly).
 - **Lapras:** Blizzard/Thunderbolt/Psychic. Counter: Flux (Resists) or Brute Force.
