@@ -11,10 +11,9 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 36 (Round 1 vs Gentleman OBrien).
-- **Current Matchup:** Tauros (Lv20). Paralyzed. Knows Earthquake, Thunderbolt, Hyper Beam.
-- **Last Result:** Attempt 35 Loss (Starmie).
-- **Loss Analysis:** Starmie (Base 115) outsped Rumpus (Base 110). Surf OHKO.
+- **Status:** Restarting (Attempt 37).
+- **Last Result:** Attempt 36 Loss (Gentleman OBrien).
+- **Loss Analysis:** Enemy Tauros (Lv20) had Thunderbolt/Blizzard/Hyper Beam. Rumpus/Bahamut/Vortex all KO'd.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special).
 
 ### Threat Notes (Archive)
