@@ -317,7 +317,7 @@
 - **Nidoking:** Ground/Poison. Moves: Earthquake, Blizzard. Walls Flux. Counter: Rumpus.
 - **Exeggutor:** Psychic/Giga Drain/Sleep Powder. Counter: Flux (Resists Grass/Psychic, Mint Berry cures Sleep).
 - **Wigglytuff:** Swagger + Psych Up. Counter: Switch/Haze.
-- **Blissey:** High HP, Low Def. Risk of **Counter**. Knows **Psychic**. Physical (Strength) works but risky due to coverage. Toxic stall is safer backup.
+- **Blissey:** High HP, Low Def. Risk of **Counter**. Knows **Psychic** and **Submission** (Fighting). Flux is 2x weak but Blissey has low Atk. Toxic stall active.
 - **Alakazam:** Fast, Elemental Punches. Counter: Physical (Strength, Fly).
 - **Aerodactyl:** Earthquake. Counter: Vortex (Immune).
 - **Azumarill:** Tanky, Blizzard/Surf. Counter: Electric.
