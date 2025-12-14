@@ -12,7 +12,7 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 36 (Round 1 vs Gentleman OBrien).
-- **Current Matchup:** Tauros (Lv20). Warning: Knows Earthquake.
+- **Current Matchup:** Tauros (Lv20). Warning: Knows Earthquake, Thunderbolt.
 - **Last Result:** Attempt 35 Loss (Starmie).
 - **Loss Analysis:** Starmie (Base 115) outsped Rumpus (Base 110). Surf OHKO.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special).
