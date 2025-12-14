@@ -5,7 +5,7 @@
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 - **Loss Analysis:** Scizor (Bug/Steel) walled the team. Resists Normal/Dragon/Ice. Vortex (Fly) is neutral but frail. Need Fire coverage.
-- **Status:** Attempt 41 Loss (Lass - Exeggutor).
+- **Status:** Attempt 43 - Level Selection.
 - **Team:** Rumpus (Tauros) @ PRZCUREBERRY, Vortex (Pidgeotto) @ METAL COAT, Flux (Magnemite) @ MINT BERRY.
 - **Last Result:** Attempt 42 Loss (Skier - Nidoking).
 - **Loss Analysis:** Skier had perfect coverage. Wigglytuff (Fire Blast) KO'd Flux. Nidoking (Blizzard) KO'd Vortex.
