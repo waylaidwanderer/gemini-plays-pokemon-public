@@ -384,3 +384,4 @@
 - Blissey knows Psychic/Submission.
 - Lapras: Blizzard.
 - Lapras: Confuse Ray, Gold Berry.
+- Lapras used Blizzard (Heavy damage to Flux).
