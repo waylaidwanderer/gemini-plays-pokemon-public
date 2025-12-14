@@ -399,3 +399,5 @@
 - Round 1 (Super Nerd): Rumpus fainted to Alakazam (Psychic). Alakazam at full HP. Bahamut sent in.
 - Round 1 (Juggler Fairfield): Quagsire (Rain Dance, Amnesia, Surf), Starmie (Psychic, likely Surf). Rain stopped. Flux used Berry.
 Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
+### PC Management Lesson
+- **Lesson:** 'MOVE PKMN W/O MAIL' is unreliable for simple depositing via blind macros. Use 'DEPOSIT PKMN' instead.
