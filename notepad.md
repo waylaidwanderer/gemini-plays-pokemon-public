@@ -13,7 +13,7 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 39 - Round 1.
+- **Status:** Preparing for Attempt 41.
 - **Last Result:** Attempt 38 Loss (Super Nerd - Scizor).
 
 ### Threat Notes (Archive)
