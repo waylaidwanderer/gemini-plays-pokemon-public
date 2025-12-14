@@ -9,9 +9,9 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 29, Round 1 vs Heracross.
-- **Last Result:** Attempt 28 Loss (Psychic Easton).
-- **Loss Analysis:** Tauros (Hyper Beam) overpowered team.
+- **Status:** Attempt 34, Round 1 vs Exeggutor.
+- **Last Result:** Attempt 33 Loss (Tauros Hyper Beam).
+- **Loss Analysis:** Vortex OHKO'd. Enemy Tauros has Earthquake/Blizzard/Hyper Beam.
 - **Current Strategy:** Rumpus (Lead), Vortex (Pivot), Bahamut (Special/Status).
 
 ### Threat Notes (Archive)
