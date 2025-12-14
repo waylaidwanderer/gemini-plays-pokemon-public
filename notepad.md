@@ -10,7 +10,8 @@
 
 ## 🏆 Battle Tower Challenge (Level 20)
 - **Status:** Attempt 52 - Round 1 vs Pokéfan Stock.
-- **Current Match:** Rumpus vs Gyarados.
+- **Current Match:** Rumpus (24/64) vs Gyarados.
+- **Strategy:** Sac Rumpus to chip, bring Flux in safely for Thundershock.
 - **Last Result:** Attempt 51 Loss (Scientist Collins - Nidoking).
 - **Intel:** Scientist Collins: Quagsire (Water/Ground), Nidoking (Ground/Poison - Earthquake, Blizzard).
 - **Threat Updates:**
