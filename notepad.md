@@ -312,7 +312,7 @@
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
 ## 🛡️ Battle Tower Threat Analysis (Consolidated)
 - **Quagsire:** Water/Ground. Tanky/Surf. Counter: Brute force.
-- **Nidoking:** Ground/Poison. Walls Flux. Counter: Rumpus.
+- **Nidoking:** Ground/Poison. Moves: Earthquake, Blizzard. Walls Flux. Counter: Rumpus.
 - **Exeggutor:** Psychic/Giga Drain/Sleep Powder. Counter: Flux (Resists Grass/Psychic, Mint Berry cures Sleep).
 - **Wigglytuff:** Swagger + Psych Up. Counter: Switch/Haze.
 - **Blissey:** High HP, **Counter**. USE SPECIAL MOVES (Thundershock, Dragonbreath).
