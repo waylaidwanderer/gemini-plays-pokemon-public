@@ -9,8 +9,8 @@
 - **Location:** Battle Tower Battle Room.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 45 - Failed.
-- **Last Result:** Loss vs Kimono Girl (Lapras).
+- **Status:** Attempt 46 - Round 1.
+- **Last Result:** Attempt 45 Loss (Kimono Girl - Lapras).
 - **Intel:** Lapras outsped Vortex (Base 71 vs 60). Anomaly.
 - **Next Steps:** Analyze Team Stats at PC.
 
