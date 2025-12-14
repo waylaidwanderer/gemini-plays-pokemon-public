@@ -361,3 +361,4 @@
 - **Vs Swagger:** If your Pokémon is Confused and Attack boosted (+2), SWITCH OUT to a safe pivot immediately. Do not risk the self-hit, especially against low HP opponents.
 - **Battle Note:** Flux's Toxic failed against Umbreon ('It didn't affect'). Potential causes: Substitute, Safeguard, or Accuracy drop causing a 'miss' (though usually says 'missed'). Investigate.
 - **Opponent Move:** Umbreon knows Mud-Slap.
+- **Battle Log:** Rumpus hit by Mud-Slap (-1 Acc). Umbreon recovering with Leftovers.
