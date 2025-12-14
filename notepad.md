@@ -9,39 +9,34 @@
 - **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
 - **Location:** Battle Tower Hallway.
 
-## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 56 - Round 1.
-- **Opponent:** Unknown.
-- **Last Result:** Attempt 55 Loss (Juggler Fairfield - Starmie).
-**CRITICAL LESSON - BATTLE TOWER SPEED:**
-- Opponents have MAX DVs and Stat XP. Assume we are SLOWER unless we have a massive base speed advantage (25+). Speed ties are losses.
-
 ## 🏰 Battle Tower Master Guide (Level 20)
-### 📋 Preparation & Rules
-- **Team:** Rumpus (Tauros), Flux (Magnemite), Bahamut (Dratini).
-- **Items:** Bahamut (Dragon Fang), Rumpus (Przcureberry), Flux (Mint Berry).
-- **Rules:** No duplicate items. Items stripped on loss. L:20 must be manually selected.
+### 📋 Status & Rules
+- **Status:** Attempt 56 - Round 1 vs Rocker (Tauros).
+- **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
+- **Team:** Rumpus (Tauros @ Przcureberry), Flux (Magnemite @ Mint Berry), Bahamut (Dratini @ Dragon Fang).
 
 ### ⚔️ Strategy & Mechanics
-- **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25.
+- **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25. Speed ties are losses.
+- **Counter Mechanics:** Reflects Physical hits (Normal/Fighting). SONICBOOM triggers Counter. Use Special moves vs Counter users.
 - **Roles:** Rumpus (Phys Sweeper), Bahamut (Speed Control/Pivot), Flux (Wall/Toxic).
-- **Counter:** Reflects Physical (Normal/Fighting). SONICBOOM TRIGGERS Counter.
-- **AI:** Will switch if walled.
 
-### ⚠️ Threat Analysis
-- **Miltank:** Earthquake (Flux Killer), Attract, Milk Drink.
-- **Starmie:** Fast, Surf/Psychic.
-- **Gyarados:** Hyper Beam, Miracleberry.
-- **Blissey:** Counter (Physical), Psychic, Submission.
-- **Nidoking:** Earthquake, Blizzard.
-- **Exeggutor:** Sleep Powder/Psychic. (Flux counters).
-- **Alakazam:** Elemental Punches.
-- **Lapras:** Blizzard, Confuse Ray.
-- **Wigglytuff:** Hyper Beam, Fire Blast.
-- **Quagsire:** Surf, Earthquake.
-- **Umbreon:** Toxic, Protect, Confuse Ray, Mud-Slap.
-- **Heracross:** Megahorn, Earthquake.
-- **Pikachu:** Light Ball (Danger!).
+### ⚠️ Threat Analysis (Consolidated)
+- **High Threat:**
+  - **Miltank:** Earthquake, Attract, Milk Drink.
+  - **Starmie:** Fast, Surf/Psychic.
+  - **Gyarados:** Hyper Beam, Miracleberry.
+  - **Blissey:** Counter (Physical), Psychic, Submission.
+  - **Nidoking:** Earthquake, Blizzard.
+  - **Pikachu:** Light Ball (Massive Damage).
+- **Moderate Threat:**
+  - **Exeggutor:** Sleep Powder/Psychic. (Flux counters).
+  - **Alakazam:** Elemental Punches.
+  - **Lapras:** Blizzard, Confuse Ray.
+  - **Wigglytuff:** Hyper Beam, Fire Blast.
+  - **Quagsire:** Surf, Earthquake.
+  - **Umbreon:** Toxic, Protect, Confuse Ray, Mud-Slap.
+  - **Heracross:** Megahorn, Earthquake.
+  - **Scizor:** Slash, Steel Wing.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
