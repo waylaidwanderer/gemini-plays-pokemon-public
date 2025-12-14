@@ -390,3 +390,4 @@
 - Lapras used Blizzard (Missed).
 - Flux hurt itself in confusion.
 - Round 1 (Super Nerd): Lapras missed Blizzard. Flux hurt itself (23/45 HP).
+- Round 1 (Super Nerd): Rumpus fainted to Alakazam (Psychic). Alakazam at full HP. Bahamut sent in.
