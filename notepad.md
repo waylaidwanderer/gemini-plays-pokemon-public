@@ -9,11 +9,10 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏆 Battle Tower Challenge (Level 20)
-- **Status:** Attempt 45 - Prep.
+- **Status:** Attempt 45 - Ready.
 - **Last Result:** Attempt 44 Loss (Hiker - Steelix).
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini).
-- **Next Steps:** Teach Surf to Bahamut, Equip Mint Berry.
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini) @ MINT BERRY.
+- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Bahamut (Dratini) @ MINT BERRY (Surf Taught).
+- **Next Steps:** Challenge Receptionist.
 
 ### Non-Combatant NPCs (Don't check again)
 - **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
