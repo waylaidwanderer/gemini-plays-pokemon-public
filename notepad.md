@@ -206,8 +206,11 @@
 
 ## Johto Atlas
 ### Olivine Area (Routes 39 & 40)
-- **Route 39:** Psychic Norman (13, 7) Defeated. Moomoo Farm visited.
-- **Wild Intel:** Magnemites here can FLEE (approx 10% chance). Catch quickly. Moves: Supersonic, Sonicboom.
+- **Route 39:** 
+  - **Geography:** Moomoo Farm located here.
+  - **Trainers:** Psychic Norman (13, 7) [Defeated], Pokefan F (4, 22) [Night-only].
+  - **Wild Pokemon:** Magnemite (Caution: Flee chance, Sonicboom), Meowth, Raticate, Miltank, Tauros.
+  - **Resources:** Moomoo Milk (Farmer), Fruit Trees.
 - **Route 40:** Battle Tower Entrance at (9, 5).
 
 # Battle Tower Intel
