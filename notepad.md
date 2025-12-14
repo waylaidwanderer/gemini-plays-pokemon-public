@@ -12,7 +12,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 60 - Battle 1 vs Lass (Arcanine). Rumpus (8/64), Vortex (29/61), Flux (FNT). Pikachu (FNT), Hitmonchan (FNT).
+- **Status:** Attempt 60 - Battle 1 vs Lass (Arcanine). Rumpus (FNT), Vortex (29/61), Flux (FNT). Pikachu (FNT), Hitmonchan (FNT). Arcanine Moves: Flamethrower.
 - **Last Result:** Attempt 58 Loss (Starmie/Blissey). Blissey's Counter is a hard check to Rumpus. Starmie outspeeds Rumpus.
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
 - **Team Strategy Shift:** Dropping Bahamut for Flux (Toxic). Toxic is required to break Blissey/Walls.
