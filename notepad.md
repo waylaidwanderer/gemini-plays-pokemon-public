@@ -3,8 +3,13 @@
 ## Game Mechanics
 - Menu Controls: 'Up' moves forward (Sat -> Sun -> Mon), 'Down' moves backward.
 
+## Tile Mechanics
+- FLOOR: Traversable. Standard walking tile.
+- WALL: Impassable.
+- STAIRCASE: Traversable. Warps to another floor.
+- WARP_CARPET_DOWN: Traversable. Warps to a different map.
+
 ## Current Plan
-- Finish talking to Mom.
 - Go to Elm's Lab.
 
 ## Journal
