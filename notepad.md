@@ -18,7 +18,7 @@
 - **Status:** Attempt 63 - Round 1 vs Wright. Rumpus FNT. Flux vs Lapras.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Rules:**
-  - **Item Persistence:** Items are ONLY stripped if consumed. Verify before entry.
+  - **Item Persistence:** Items are returned to the bag after every challenge (Win/Loss). MUST re-equip manually.
   - **Selection:** Manual L:20 (Up from L:10).
 - **Intel (Attempt 62):**
   - **Umbreon:** Toxic, Mud-Slap, Protect, Leftovers. Counter with Rumpus (Strength).
