@@ -45,3 +45,4 @@
 - Route 29: Northern path blocked at x=33 (y=3-5). Bypass via South at y=6.
 - Fisher at (25, 3) gives a tutorial tip about saving the game.
 - Route 29: Path West at y=4 blocked by tree at x=23. Path West at y=5 blocked by tree at x=20. Zig-zag: South to y=5, West to x=21, North to y=4, then West.
+- Route 29: Ledges at x=15 (y=2-4) block Westward movement. Must go South to y=6 to bypass.
