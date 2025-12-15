@@ -17,6 +17,7 @@
   - T1: Rumpus poisoned.
   - T2: Switch Vortex (Immune to Mud-Slap).
   - T3: Switch Flux (Immune to Toxic).
+  - T4: Flux hit by Mud-Slap (4x Eff, 22/45 HP). Toxic FAILED ("Didn't affect").
 - **Recent Intel:**
   - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
