@@ -58,3 +58,4 @@
 - Detoured East through Tall Grass (x=17-19) and found Mr. Pokemon's House at (17, 5).
 - Received urgent phone call from Professor Elm. Something terrible has happened at the lab. Returning immediately.
 - Route 30 Return Trip: Head South along x=12 to row 44 (Floor path), then West to x=6, then South over ledges to exit. Path avoids tall grass.
+- Encountered the red-haired boy (Rival) in Cherrygrove City while trying to leave. He seems hostile.
