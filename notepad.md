@@ -11,9 +11,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 73 - Loss vs Lass (Heracross).
+- **Status:** Attempt 74 - Prep.
 - **Last Result:** Loss vs Heracross (Attempt 73).
-- **Action:** Return to Lobby.
+- **Action:** Re-equip Flux (Psncureberry) and Challenge.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
