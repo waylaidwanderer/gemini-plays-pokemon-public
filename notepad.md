@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Ready.
-- **Action:** Challenge Battle Tower.
-- **Reason:** Team prepped. Rumpus (PsnCure), Flux (Mint), Bahamut (Berry).
+- **Status:** Attempt 69 - Prep (Equipping Bahamut).
+- **Action:** Equip Berry to Bahamut.
+- **Reason:** Bahamut needs recovery item.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
