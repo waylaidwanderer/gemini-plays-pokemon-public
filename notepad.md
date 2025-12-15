@@ -65,3 +65,5 @@
 - Found House at (7, 39) which might be Mr. Pokemon's.
 - Entered 'Route30BerryHouse'. Confirmed this is NOT Mr. Pokemon's house. The man inside teaches about Berries.
 - NPC located at (2, 3) gave me a BERRY and explained they drop from trees.
+- Path North at x=5 (Rows 23-26) is blocked by a Pokemon Battle (Youngsters + Monsters). Must find alternate route to the East.
+- Navigating to x=13 via Row 31 to check the path North.
