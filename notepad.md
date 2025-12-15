@@ -395,3 +395,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Events:** Flux FNT (EQ). Rumpus FNT (Heracross survived Strength). Heracross is tanky.
 - **State:** Bahamut (Full) vs Heracross (~50%).
 - **Plan:** Extremespeed (Priority) is mandatory.
+- **Battle Event:** Walker's Pikachu OHKO'd Flux (4x Resist) with Crit Thunderbolt. Likely holding Light Ball.
