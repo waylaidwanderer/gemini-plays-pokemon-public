@@ -59,3 +59,5 @@
 - Route 30: Ledges block x=6-11. Gap North exists at x=12-13 (Tall Grass).
 - Route 30 Sign at (9, 43): "ROUTE 30" / "VIOLET CITY - CHERRYGROVE CITY".
 - Found a house at (7, 39). Investigating.
+- Found Fruit Tree at (5, 39).
+- Found House at (7, 39) which might be Mr. Pokemon's.
