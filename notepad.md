@@ -232,6 +232,9 @@
 # TOOLS & AGENTS
 ## Available Tools & Agents
 
+### Built-in Tools
+- `select_battle_option`
+
 ### Custom Tools
 - `select_item`
 - `select_move`
