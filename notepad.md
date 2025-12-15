@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 68 - LOST (Steelix).
-- **Team:** Needs Re-equip.
+- **Status:** Attempt 69 - Prep (Swap Vortex -> Bahamut).
+- **Reason:** Need Surf for Steelix/Ground types.
 - **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
