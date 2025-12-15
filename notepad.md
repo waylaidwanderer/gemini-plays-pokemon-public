@@ -276,6 +276,9 @@
 ### Custom Agents
 - `python_code_debugger`
 
+### Custom Agents
+- `python_code_debugger`
+
 ## Tool Ideas
 
 - **Challenge Root Assumptions:** When stuck in a puzzle loop, the root assumption is likely flawed. I must aggressively re-verify the foundational belief that led to the current strategy, using external analysis if necessary.
