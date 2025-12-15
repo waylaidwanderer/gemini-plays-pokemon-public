@@ -257,13 +257,12 @@
 - `delete_tool`
 
 ### Custom Tools
+- `delete_tool`
+- `explore_accessible_tiles`
+- `select_battle_option`
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `explore_accessible_tiles`
-
-### Custom Agents
-- `python_code_debugger`
 
 ### Custom Agents
 - `python_code_debugger`
