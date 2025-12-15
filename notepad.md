@@ -11,9 +11,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 73 - Prep.
+- **Status:** Attempt 73 - Ready.
 - **Last Result:** Loss vs Azumarill (Attempt 72).
-- **Action:** Re-equip Flux (Berry) and Restart.
+- **Action:** Talk to Receptionist.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
