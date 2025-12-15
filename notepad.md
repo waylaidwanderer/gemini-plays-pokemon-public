@@ -10,7 +10,7 @@
 - WARP_CARPET_DOWN: Traversable. Warps to a different map.
 
 ## Current Plan
-- Confirm Cyndaquil and give it a nickname.
+- Confirm Cyndaquil and name him 'GARNET'.
 
 ## Journal
 - Player Name: GEM
