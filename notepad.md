@@ -9,10 +9,10 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Run:** Attempt 67 - Starting.
+- **Run:** Attempt 67 - Round 1 vs Officer.
 - **Last Loss:** Attempt 66 (Schoolboy Walker - Nidoking/Aerodactyl).
 - **Team:** Rumpus, Vortex, Flux.
-- **Action:** Re-equip Items (Psncureberry, Berry, Mint Berry).
+- **Action:** Fight!
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
