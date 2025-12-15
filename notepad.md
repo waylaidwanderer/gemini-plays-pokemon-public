@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 71 - Prep (Equip Items).
+- **Status:** Attempt 72 - Prep (Equip Items).
 - **Team:** Rumpus, Flux, Bahamut.
 - **Location:** Battle Tower Lobby.
 
