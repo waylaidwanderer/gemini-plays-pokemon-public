@@ -55,3 +55,4 @@
 - Healed at Pokemon Center. Now seeking exit to Route 30 (North).
 - Found exit to Route 30 at x=16 on North side of Cherrygrove.
 - Entered Route 30. Heading North to find Mr. Pokemon's house.
+- Route 30 Entrance: Path straight North is blocked by ledges. Exploring East through grass to find a way around.
