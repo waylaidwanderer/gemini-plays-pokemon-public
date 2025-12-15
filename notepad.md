@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Prep (Swapping Team).
-- **Action:** Swap Vortex -> Bahamut (Surf).
-- **Reason:** Need Surf for Steelix/Ground types.
+- **Status:** Attempt 69 - Prep (Equipping Items).
+- **Action:** Equip Berries via Pack.
+- **Reason:** Items returned to bag. Rumpus: PsnCure, Flux: Mint, Bahamut: Berry.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
