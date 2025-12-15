@@ -41,3 +41,4 @@
 ## NPCs
 - Youngster at (27, 16): Tips about grass.
 - Teacher at (16, 11): Unreachable from lower path.
+- Route 29: Investigating potential path North at x=40. Previous analysis of x=42 ledge suggests it loops back East. x=28 leads to a tree-blocked area.
