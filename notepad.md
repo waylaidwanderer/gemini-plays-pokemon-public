@@ -389,3 +389,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - Round 1 (Walker): Nidoking Blizzard hit Vortex through -1 Acc (OHKO). Vortex FNT.
 - **Swagger Trap:** If a physical attacker gets Swaggered (+2 Atk, Confused), SWITCH OUT immediately. Self-hit damage is often fatal.
 - **Lass (Battle 1):** Heracross (Megahorn! High Dmg). Likely no Fighting STAB.
+- CRITICAL UPDATE: Heracross has Earthquake (OHKO'd Flux).
