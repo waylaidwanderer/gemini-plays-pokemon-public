@@ -19,3 +19,4 @@
 - Decided NOT to use Daylight Saving Time (it's December).
 - Fridge contains Fresh Water and Lemonade (flavor text only).
 - DOOR: Traversable. Warps to indoor maps.
+- Chose Cyndaquil as starter.
