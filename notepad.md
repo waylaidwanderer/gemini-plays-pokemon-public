@@ -11,6 +11,7 @@
 - WARP_CARPET_DOWN: Traversable. Warps to a different map.
 - DOOR: Traversable. Warps to indoor maps.
 - LEDGE_HOP_DOWN/LEFT/RIGHT: One-way traversable (jump down). Impassable from other directions.
+- TALL_GRASS: Traversable. Contains wild Pokemon encounters.
 
 ## Current Plan
 - Find Mr. Pokemon's House on Route 30 (North of Cherrygrove).
