@@ -408,8 +408,3 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Correction:** Vortex was holding a BERRY, not Metal Coat. Healed to 33/61 HP.
 - **Status Update (Attempt 60):** Vortex needs Berry. Rumpus has Przcureberry. Metal Coat lost.
 - **Tool Reliability:** Deleted `give_held_item` due to fragility with cursor memory. Future menu tools must aggressively reset cursor position (e.g. multiple 'Up' presses) before navigation.
-- T5: Switch Vortex (Immune to Mud-Slap). Success.
-  - T12: Vortex (5 HP) used Quick Attack (Sacrifice).
-  - T12: Vortex fainted (Poison). Switch Rumpus (Revenge Kill).
-  - T13: Rumpus (4 HP) uses Strength. Last stand.
-- T17: Flux (2HP) vs Umbreon. Used Sonicboom.
