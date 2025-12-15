@@ -18,6 +18,8 @@
   - T2: Switch Flux (Immune to Toxic).
   - T3: Flux used Toxic (Failed). Umbreon Mud-Slap (4x Dmg).
   - T4: Switch Vortex (Immune to Mud-Slap).
+  - T5: Umbreon used Toxic. Vortex Poisoned.
+  - T6: Umbreon used Protect. Vortex Mud-Slap blocked.
 - **Recent Intel:**
   - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
