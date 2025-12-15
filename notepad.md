@@ -409,3 +409,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Status Update (Attempt 60):** Vortex needs Berry. Rumpus has Przcureberry. Metal Coat lost.
 - **Tool Reliability:** Deleted `give_held_item` due to fragility with cursor memory. Future menu tools must aggressively reset cursor position (e.g. multiple 'Up' presses) before navigation.
 - **Swimmer Dykstra:** Steelix (Earthquake/Swagger/Iron Tail).
+- Round 1 (Walker): Nidoking Blizzard hit Vortex through -1 Acc (OHKO). Vortex FNT.
