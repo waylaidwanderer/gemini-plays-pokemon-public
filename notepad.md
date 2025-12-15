@@ -3,10 +3,10 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 63 - Round 1 vs Wright. Rumpus FNT. Flux vs Lapras.
-- **Intel:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf), Hitmonchan, Arcanine.
+- **Status:** Attempt 64 - Prep Phase.
+- **Intel:** Youngster Wright (Nidoking: Earthquake/Blizzard, Lapras: Thunderbolt/Confuse Ray/Gold Berry), Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf).
 - **Needs:** Win 7 Battles.
-- **Last Result:** Attempt 62 Loss (Umbreon Stall).
+- **Last Result:** Attempt 63 Loss (Wright: Nidoking/Lapras).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Location:** Battle Tower Lobby.
 
