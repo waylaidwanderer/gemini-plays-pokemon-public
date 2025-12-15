@@ -12,8 +12,7 @@
 - DOOR: Traversable. Warps to indoor maps.
 
 ## Current Plan
-- Finish listening to Elm and leave the lab.
-- Leave Elm's Lab.
+- Go to Cherrygrove City.
 
 ## Journal
 - Player Name: GEM
