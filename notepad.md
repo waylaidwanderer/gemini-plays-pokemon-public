@@ -29,3 +29,4 @@
 - Route 29: Lower path dead-ends at x=14. Must backtrack to x=23 to go north through a gap in the ledge.
 - Route 29: Path at x=21 blocked by CUT_TREE. Must backtrack East to x=44 to find a path North around the ledge.
 - Route 29: Vertical Ledges at x=28 act as one-way gates allowing movement West but blocking movement East. Must go around them at y=14-16 to go East.
+- Route 29: Vertical Ledge bypass confirmed. Go South to y=16, East to x=43, then North through gap at x=44.
