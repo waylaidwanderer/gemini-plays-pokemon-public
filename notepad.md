@@ -26,3 +26,4 @@
 - Route 29 Navigation: Westbound path blocked by trees at x=37 (y=12-15). Must go south to y=16 to bypass.
 - Successfully bypassed tree blockade. Continuing west on the lower path.
 - Youngster at (27, 16) on Route 29 advises that weak Pokemon should stay out of grass.
+- Route 29: Lower path dead-ends at x=14. Must backtrack to x=23 to go north through a gap in the ledge.
