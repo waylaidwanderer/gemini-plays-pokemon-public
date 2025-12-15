@@ -390,3 +390,8 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Swagger Trap:** If a physical attacker gets Swaggered (+2 Atk, Confused), SWITCH OUT immediately. Self-hit damage is often fatal.
 - **Lass (Battle 1):** Heracross (Megahorn! High Dmg). Likely no Fighting STAB.
 - CRITICAL UPDATE: Heracross has Earthquake (OHKO'd Flux).
+### Attempt 73 - Battle 1 (Lass)
+- **Opponent:** Heracross (Earthquake, Megahorn).
+- **Events:** Flux FNT (EQ). Rumpus FNT (Heracross survived Strength). Heracross is tanky.
+- **State:** Bahamut (Full) vs Heracross (~50%).
+- **Plan:** Extremespeed (Priority) is mandatory.
