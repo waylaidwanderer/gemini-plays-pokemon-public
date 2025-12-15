@@ -270,7 +270,7 @@
 - `select_item`
 - `select_move`
 - `switch_pokemon`
-- `find_path`
+
 - `explore_accessible_tiles`
 
 ### Custom Agents
