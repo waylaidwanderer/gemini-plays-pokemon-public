@@ -15,8 +15,8 @@
 ### 📋 Status
 - **Status:** Attempt 78. Battle 1 vs Officer Turner.
 - **Opponent 1:** Pikachu (Defeated).
-- **Opponent 2:** Scizor (Sandstorm).
-- **Rumpus:** Badly Poisoned (Toxic).
+- **Opponent 2:** Scizor (Sandstorm, Slash).
+- **Rumpus:** Badly Poisoned (Toxic). Przcureberry Consumed.
 - **Current Task:** Defeat Scizor.
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
