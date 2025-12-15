@@ -354,3 +354,5 @@
   - Pikachu fainted.
 - Opponent sent out Alakazam (Lv20).
 - Rumpus (10/64 HP). Switching to Flux (Magnemite) to resist Psychic.
+- Flux switched in. Alakazam used Psychic (Resisted, 32 dmg, SpDef -1). Flux at 13/45 HP.
+- Plan: Switch to Bahamut to tank predicted Fire Punch.
