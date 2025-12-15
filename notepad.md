@@ -68,7 +68,7 @@
 ## System & Tool Documentation
 
 ### Tool Usage
-- **Movement:** Use the `find_path` tool to generate coordinates, then put them in the `path_plan` output field. Set `buttons_to_press` to `["path"]` to execute. NEVER mix with tool calls.
+- **Movement:** Use the `find_path` tool to calculate a path. Manually copy the returned coordinates into the `path_plan` output field. Set `buttons_to_press` to `["path"]` to execute. NEVER mix with tool calls.
 - **Auto-Press:** Custom tools returning buttons (e.g. `select_move`) need `autopress_buttons: true`. System tools (e.g. `select_battle_option`) ignore this.
 - **Blind Inputs:** Blind menu macros (`press_sequence`) are unreliable due to wrapping and cursor memory. Use manual verification.
 - **Specific Tools:**
