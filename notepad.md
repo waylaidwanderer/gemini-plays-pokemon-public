@@ -10,8 +10,8 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
 - **Status:** Attempt 69 - Battle 1 (Scientist Mori).
-- **Action:** Rumpus vs Nidoking.
-- **Reason:** Hitmonchan defeated. Rumpus (Low HP) vs Nidoking. Hitmonchan used Gold Berry.
+- **Action:** Bahamut vs Nidoking.
+- **Reason:** Rumpus Fainted. Bahamut (Last Stand) vs Nidoking. Hitmonchan used Gold Berry.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
