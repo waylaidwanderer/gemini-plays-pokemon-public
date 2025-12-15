@@ -18,7 +18,7 @@
 - **Status:** Attempt 65 - Starting.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Rules:**
-  - **Item Persistence:** Items are returned to the bag after every challenge (Win/Loss). MUST re-equip manually.
+  - **Item Persistence:** Items are ONLY stripped if consumed. Verify inventory.
   - **Selection:** Manual L:20 (Up from L:10).
 - **Intel (Attempt 62):**
   - **Umbreon:** Toxic, Mud-Slap, Protect, Leftovers. Counter with Rumpus (Strength).
