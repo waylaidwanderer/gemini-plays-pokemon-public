@@ -348,8 +348,8 @@
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Pikachu (Thunderbolt, Light Ball).
 - **Swimmer Dykstra:** Steelix (EQ/Swagger), Gyarados (Hyper Beam).
 
-# Attempt 80 Battle Log
-- Battle 1 vs Boarder Rockwell (Miltank).
-- Miltank Moves: Thunder, Earthquake, Attract.
-- Status: Rumpus (FNT). Bahamut sent in.
-- Plan: Bahamut to T-Wave then Surf/Dragonbreath.
+# Attempt 81 Battle Log
+- Battle 1 vs Youngster Leong (Pikachu).
+- Observation: Pikachu (Base 90) outsped Rumpus (Base 110). Confirms Max DV/Stat Exp advantage for AI.
+- Anomaly: Pikachu used Toxic but "It didn't affect Rumpus!". Rumpus is Normal type.
+- Plan: Strength.
