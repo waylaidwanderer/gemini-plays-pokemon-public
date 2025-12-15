@@ -43,3 +43,4 @@
 - Teacher at (16, 11): Unreachable from lower path.
 - Route 29: Investigating potential path North at x=40. Previous analysis of x=42 ledge suggests it loops back East. x=28 leads to a tree-blocked area.
 - Route 29: Northern path blocked at x=33 (y=3-5). Bypass via South at y=6.
+- Fisher at (25, 3) gives a tutorial tip about saving the game.
