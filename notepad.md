@@ -301,7 +301,7 @@
   - Blue Apricorn: (16, 5)
 ### Battle Tower Mechanics
 - **Auto-Heal:** Party is fully healed after every challenge (win or loss).
-- **Item Persistence:** Items are returned to bag after every run. MUST RE-EQUIP ALL.
+- **Item Persistence:** Items persist unless consumed. Only re-equip if used.
 - **Rules:** No duplicate held items. Level 20 must be selected manually (Up from L:10).
 - **Saving:** Forced save before entry.
 ## New Discoveries
