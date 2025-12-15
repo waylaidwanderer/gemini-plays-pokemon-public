@@ -13,17 +13,13 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
 - **Status:** Attempt 63 - Prep Phase.
-- **Battle Log:**
-  - [New Attempt]
-- **Recent Intel:**
-  - Boarder Crawford's Umbreon: Toxic, Mud-Slap, Protect, Leftovers. Hard counter.
-  - Quagsire: Surf, Tanky.
-- **Recent Intel:**
-  - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
-  - Quagsire: Surf, Tanky.
-  - Exeggutor: Quick Claw, Psychic, Shadow Ball.
-- **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
+- **Rules:**
+  - **Item Persistence:** Items are ONLY stripped if consumed. Verify before entry.
+  - **Selection:** Manual L:20 (Up from L:10).
+- **Intel (Attempt 62):**
+  - **Umbreon:** Toxic, Mud-Slap, Protect, Leftovers. Counter with Rumpus (Strength).
+  - **Quagsire:** Surf, Tanky.
 
 ### ⚔️ Strategy & Mechanics
 - **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25. Speed ties are losses.
