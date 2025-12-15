@@ -3,9 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 72 - Level Selection (Loop Observed).
+- **Status:** Attempt 72 - Battle 1 (vs Wigglytuff).
 - **Team:** Rumpus, Flux, Bahamut.
-- **Location:** Battle Tower Lobby.
+- **Location:** Battle Tower Battle Room.
 - **Note:** Observed game returning to Level Selection after Save. Must re-select L:20.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
