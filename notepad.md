@@ -12,9 +12,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 76 Failed. Lost to Alakazam. Back in Lobby. Re-equipping items.
-- **Last Match:** Attempt 75 Loss vs Beauty Frost (Arcanine).
-- **Notes:** Bahamut outsped by Arcanine. Items persist on loss. Retrieved items to bag.
+- **Status:** Attempt 77. Battle 1 vs Lass (Begging for win).
+- **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
+- **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
