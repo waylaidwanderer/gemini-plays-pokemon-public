@@ -26,25 +26,16 @@
 ## Pokemon Locations
 - Route 29: Hoppip (Splash), Sentret, Pidgey
 
-## Route 29 Navigation
-- **Westbound Blockade:** Trees at x=37 (y=12-15). Bypass: Go south to y=16.
-- **Ledge Blockade (West):** Path at x=21 blocked by CUT_TREE.
-- **Dead Ends:** Lower path ends at x=14. Corridor at x=49 (North) is a dead end.
-- **Ledge Puzzle Solution:**
-  1. From start (East), go South to y=16 to bypass trees.
-  2. Go West to x=31 Gap.
-  3. Go North through gap to y=11.
-  4. Go East behind ledges to x=42.
-  5. Go North to y=8, then West to Cherrygrove.
-- **One-Way Ledges:** Vertical Ledges at x=28 block Eastward movement.
-
-## NPCs
-- Youngster at (27, 16): Tips about grass.
-- Teacher at (16, 11): Unreachable from lower path.
-- Route 29: Investigating potential path North at x=40. Previous analysis of x=42 ledge suggests it loops back East. x=28 leads to a tree-blocked area.
-- Route 29: Northern path blocked at x=33 (y=3-5). Bypass via South at y=6.
-- Fisher at (25, 3) gives a tutorial tip about saving the game.
-- Route 29: Path West at y=4 blocked by tree at x=23. Path West at y=5 blocked by tree at x=20. Zig-zag: South to y=5, West to x=21, North to y=4, then West.
-- Route 29: Ledges at x=15 (y=2-4) block Westward movement. Must go South to y=6 to bypass.
-- Route 29: Plateau at (12-14, 2-4) contains Fruit Tree and Cooltrainer. Accessible only from North/West? Ledges at y=5 block access from South.
-- Route 29: Vertical Ledges at x=8 (y=6-8) allow Westward movement (Jump Left) but block Eastward movement.
+## Route 29 Navigation Log
+- **East Section:** Bypass trees at x=37 by going south to y=16.
+- **Middle Section (Ledge Puzzle):** Access North Path via gap at x=31. Loop East behind ledges to x=42, then North to y=8 to head West.
+- **North Path (Westbound):**
+  - Blockage at x=33 (y=3-5): Bypass via South at y=6.
+  - Tree Zig-Zag (x=20-23): Path blocked at y=4 (x=23) and y=5 (x=20). weave between them.
+  - Ledges at x=15: Block Westward movement. Bypass via South at y=6.
+  - One-Way Ledges at x=8 (y=6-8): Allow Westward movement (Jump Left).
+- **Dead Ends/Blockades:**
+  - Lower path (y=15) dead-ends at x=14.
+  - x=21 blocked by CUT_TREE.
+  - Corridor at x=49 (North) is a dead end.
+  - Plateau at (12-14, 2-4) accessible only from North/West (Fruit Tree/Cooltrainer).
