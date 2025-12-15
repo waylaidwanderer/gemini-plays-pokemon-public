@@ -350,6 +350,7 @@
 
 # Attempt 81 Battle Log
 - Battle 1 vs Youngster Leong (Pikachu).
-- Observation: Pikachu (Base 90) outsped Rumpus (Base 110). Confirms Max DV/Stat Exp advantage for AI.
-- Anomaly: Pikachu used Toxic but "It didn't affect Rumpus!". Rumpus is Normal type.
-- Plan: Strength.
+  - Pikachu used Toxic (Failed). Rumpus used Strength (OHKO).
+  - Pikachu fainted.
+- Opponent sent out Alakazam (Lv20).
+- Rumpus (10/64 HP). Switching to Flux (Magnemite) to resist Psychic.
