@@ -36,18 +36,13 @@
 - Route 29 Sign at (3, 5): CHERRYGROVE CITY - NEW BARK TOWN
 - Route 29: SW pocket at (4-7, 10-15) is a dead end with tall grass. No items found.
 ## Cherrygrove City
-- Arrived from Route 29 via East exit.
-- Need to find Mr. Pokemon's house (north of here?).
-- Need to find a Pokemon Center to heal.
-- Cherrygrove Locations Identified:
+- Locations Identified:
   - Pokemon Center: (29, 3)
   - Mart: (17, 7)
   - Guide Gent's House: (25, 9)
-  - Sea/Water: South side of city
-- Received MAP CARD from Guide Gent.
-- Guide Gent's tour finished. He went into his house at (25, 9).
-- Healed at Pokemon Center. Now seeking exit to Route 30 (North).
-- Found exit to Route 30 at x=16 on North side of Cherrygrove.
+  - Exit to Route 30: (16, 0)
+  - Exit to Route 29: (39, 7)
+- Current Action: Passing through Eastward to reach Route 29 and New Bark Town.
 - Entered Route 30. Heading North to find Mr. Pokemon's house.
 - Route 30 Entrance: Path straight North is blocked by ledges. Exploring East through grass to find a way around.
 - Route 30: Ledges block x=6-11. Gap North exists at x=12-13 (Tall Grass).
