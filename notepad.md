@@ -9,10 +9,10 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Run:** Attempt 68 - Elevator.
+- **Run:** Attempt 68 - Hallway.
 - **Last Loss:** Attempt 67 (Officer - Scizor/Quagsire).
 - **Team:** Rumpus, Vortex, Flux.
-- **Action:** Talk to Receptionist.
+- **Action:** Enter Battle Room.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
