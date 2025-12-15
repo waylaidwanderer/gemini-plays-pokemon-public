@@ -14,7 +14,7 @@
 - **Reason:** Items returned to bag. Rumpus: PsnCure, Flux: Mint, Bahamut: Berry.
 
 ### ⚔️ Consolidated Mechanics
-- **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
+- **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
 - **Healing:** Auto-heal after run.
 - **Level:** Manual Select L:20.
 - **Speed:** Opponents have Max DVs. Assume slower unless +25 Base Speed.
