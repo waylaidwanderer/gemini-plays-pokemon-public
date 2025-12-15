@@ -12,13 +12,12 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 62 - Prep Phase. Re-equipping Items.
-- **Last Result:** Attempt 61 Loss (Quagsire). Rumpus fainted to Crit Surf.
+- **Status:** Attempt 62 - Battle 1 vs Boarder Crawford.
+- **Last Result:** Attempt 61 Loss (Quagsire).
 - **Recent Intel:**
+  - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
   - Exeggutor: Quick Claw, Psychic, Shadow Ball.
-  - Hitmonchan: Fire/Ice Punch.
-  - Arcanine: Flamethrower, Iron Tail.
 - **Rules:** Items stripped on loss. No duplicates. L:20 manual selection.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 
