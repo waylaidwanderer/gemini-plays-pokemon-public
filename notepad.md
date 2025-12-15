@@ -55,7 +55,7 @@
   - `select_battle_option`: Automates main menu selection (FIGHT/PKMN/PACK/RUN).
   - `press_sequence`: Executes button macros. Requires `autopress_buttons: true`.
   - `select_item`: Scans screen for item and navigates to it. Requires `autopress_buttons: true`.
-  - `battle_advisor`: Agent for Battle Tower strategy (Team: Rumpus/Vortex/Flux).
+  - `battle_advisor`: Agent for Battle Tower strategy (Team: Rumpus/Bahamut/Flux).
 
 ### Menu & UI Mechanics
 - **Start Menu Order:** Pokedex, Pokemon, Pack, Pokegear (4th), Status, Save, Option, Exit.
