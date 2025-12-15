@@ -61,3 +61,4 @@
 - Checked path North. Sign at (13, 29) says 'MR.POKéMON'S HOUSE STRAIGHT AHEAD!'. Navigating North along x=14.
 - Path North at x=14 is blocked by a wall at y=19.
 - Detoured East through Tall Grass (x=17-19) and found Mr. Pokemon's House at (17, 5).
+- Received urgent phone call from Professor Elm. Something terrible has happened at the lab. Returning immediately.
