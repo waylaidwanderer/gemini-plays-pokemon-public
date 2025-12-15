@@ -12,8 +12,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 77 Failed. Lost to Heracross (Earthquake/Megahorn).
-- **Current Task:** Back to Lobby. Check Items.
+- **Status:** Attempt 78. Preparation.
+- **Current Task:** Re-equip Items.
+- **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
 
