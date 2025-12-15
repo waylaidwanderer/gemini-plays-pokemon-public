@@ -45,3 +45,8 @@
 - Arrived from Route 29 via East exit.
 - Need to find Mr. Pokemon's house (north of here?).
 - Need to find a Pokemon Center to heal.
+- Cherrygrove Locations Identified:
+  - Pokemon Center: (29, 3)
+  - Mart: (17, 7)
+  - Guide Gent's House: (25, 9)
+  - Sea/Water: South side of city
