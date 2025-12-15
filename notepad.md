@@ -13,8 +13,10 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 78. Battle 1 vs Officer.
-- **Current Task:** Win Battle 1.
+- **Status:** Attempt 78. Battle 1 vs Officer Turner.
+- **Opponent:** Pikachu (Outspeeds Rumpus! Used Thunder Wave).
+- **Rumpus:** Used Przcureberry (Consumed).
+- **Current Task:** Finish off Pikachu.
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
