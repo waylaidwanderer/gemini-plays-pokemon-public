@@ -20,3 +20,4 @@
 - Fridge contains Fresh Water and Lemonade (flavor text only).
 - DOOR: Traversable. Warps to indoor maps.
 - Chose Cyndaquil as starter.
+- Custom Tool Tip: Must set 'autopress_buttons: true' when calling a tool that returns a button sequence.
