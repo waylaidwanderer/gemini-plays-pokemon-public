@@ -7,3 +7,4 @@
 - Start the game.
 - Navigate the intro.
 - Player Name: GEM
+- PC in bedroom was empty.
