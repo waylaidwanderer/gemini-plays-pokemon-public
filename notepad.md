@@ -18,6 +18,7 @@
 - **Opponent 2:** Scizor (Sandstorm, Slash). Low HP (~25).
 - **Rumpus:** Badly Poisoned (Toxic). Przcureberry Consumed.
 - **Flux:** Fainted (Slash).
+- **Bahamut:** 44/50 HP (Sandstorm).
 - **Current Task:** Finish Scizor with Bahamut (Surf).
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
