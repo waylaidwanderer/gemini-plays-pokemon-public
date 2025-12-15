@@ -365,3 +365,6 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 
 # STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50107 Reflection)
 - **Escalate Debugging:** When a tool fails repeatedly and simple fixes are ineffective, do not get stuck in a loop. Escalate immediately to a more robust diagnostic method, such as using `run_code` with a diagnostic script to isolate the point of failure. This is more efficient than repeatedly calling a debugger agent with insufficient information.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50159 Reflection)
+- NPC Dialogue as a Primary Clue: When blocked by an NPC, their dialogue should be treated as the most likely source for the solution. Exhausting dialogue options and carefully analyzing the text for explicit conditions should be the first step before testing more complex environmental or item-based hypotheses.
