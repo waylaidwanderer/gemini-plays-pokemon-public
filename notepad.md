@@ -10,9 +10,9 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
 - **Run:** Attempt 68 - Round 1 vs Fisher.
-- **Last Loss:** Attempt 67 (Officer - Scizor/Quagsire).
+- **Opponent:** Steelix (Lv20).
+- **Strategy:** Switch to Vortex (Immune to EQ).
 - **Team:** Rumpus, Vortex, Flux.
-- **Action:** Fight!
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
