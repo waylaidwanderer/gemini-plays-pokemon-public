@@ -10,7 +10,7 @@
 - WARP_CARPET_DOWN: Traversable. Warps to a different map.
 
 ## Current Plan
-- Checking Left Poke Ball (Cyndaquil?).
+- Confirm Cyndaquil and give it a nickname.
 
 ## Journal
 - Player Name: GEM
