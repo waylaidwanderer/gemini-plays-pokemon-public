@@ -16,7 +16,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 65 - Starting.
+- **Status:** Attempt 66 - Starting.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Rules:**
   - **Item Persistence:** Items are returned to bag after every run. MUST RE-EQUIP ALL.
