@@ -406,3 +406,9 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Resolved:** Bahamut is holding Dragon Fang. Confirmed via 'Switch items?' prompt.
 - **Lass's Heracross:** Earthquake, Megahorn. High Def. Counters Flux.
 - Battle Log: Rumpus fainted (Poison). Bahamut sent in vs Umbreon (Weakened).
+
+# Attempt 80 Battle Log
+- Battle 1 vs Boarder Rockwell (Miltank).
+- Miltank moves: Thunder, Earthquake, Attract.
+- Rumpus used Przcureberry (Cured Paralysis from Thunder).
+- Rumpus is Infatuated.
