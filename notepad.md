@@ -3,10 +3,9 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 67 - LOST (Round 1 vs Officer).
-- **Cause:** Scizor walled team. Quagsire survived Strength.
-- **Next:** Return to Lobby, re-equip, and start Attempt 68.
-- **Location:** Battle Tower Battle Room.
+- **Status:** Attempt 68 - Level Selection.
+- **Team:** Rumpus (PsnCure), Vortex (Berry), Flux (Mint).
+- **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
