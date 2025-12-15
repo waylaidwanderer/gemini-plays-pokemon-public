@@ -21,3 +21,5 @@
 - Decided NOT to use Daylight Saving Time (it's December).
 - Chose Cyndaquil as starter.
 - Received Potion from Elm's Aide.
+## Pokemon Locations
+- Route 29: Hoppip
