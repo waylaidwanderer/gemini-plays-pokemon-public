@@ -12,10 +12,10 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 75 - Prep.
-- **Last Result:** Attempt 74 Loss vs Walker (Scizor - Steel Wing, Outsped Dratini).
-- **Threat Intel:** Walker's Scizor (Steel Wing, Fast), Pikachu (Light Ball, Fast).
-- **Action:** Check items, Re-challenge L:20.
+- **Status:** Attempt 75 - Battle 1 vs Beauty Frost.
+- **Opponent:** Lapras.
+- **Last Result:** Attempt 74 Loss vs Walker.
+- **Action:** Attack with Strength.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
