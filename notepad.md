@@ -12,9 +12,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 76 - Preparation.
+- **Status:** Attempt 76 - Preparation (Equipping).
 - **Last Match:** Attempt 75 Loss vs Beauty Frost (Arcanine).
-- **Notes:** Bahamut outsped by Arcanine. Items persist on loss.
+- **Notes:** Bahamut outsped by Arcanine. Items persist on loss. Retrieved items to bag.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
