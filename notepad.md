@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 63 - Round 1.
+- **Status:** Attempt 63 - Round 1 vs Youngster Wright (Lapras).
 - **Intel:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf), Hitmonchan, Arcanine.
 - **Needs:** Win 7 Battles.
 - **Last Result:** Attempt 62 Loss (Umbreon Stall).
@@ -12,7 +12,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 63 - Round 1.
+- **Status:** Attempt 63 - Round 1 vs Youngster Wright (Lapras).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Rules:**
   - **Item Persistence:** Items are ONLY stripped if consumed. Verify before entry.
