@@ -21,6 +21,3 @@
 - DOOR: Traversable. Warps to indoor maps.
 - Chose Cyndaquil as starter.
 - Custom Tool Tip: Must set 'autopress_buttons: true' when calling a tool that returns a button sequence.
-- Tool Usage: Must pass 'autopress_buttons: true' in the tool arguments to execute returned button sequences.
-- Issue: 'B' button did not backspace on first attempt. Retrying.
-- Successfully cleared incorrect input. Retrying 'GARNET' macro with autopress enabled.
