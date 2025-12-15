@@ -323,7 +323,7 @@
   - Blue Apricorn: (16, 5)
 ### Battle Tower Mechanics
 - **Auto-Heal:** Party is fully healed after every challenge (win or loss).
-- **Item Persistence:** Items are ONLY stripped if consumed during battle. Verify inventory before re-entering.
+- **Item Persistence:** Items are returned to bag after every run. MUST RE-EQUIP ALL.
 - **Rules:** No duplicate held items. Level 20 must be selected manually (Up from L:10).
 - **Saving:** Forced save before entry.
 ## New Discoveries
@@ -382,7 +382,7 @@
 - **Battle Log:** Bahamut fainted. Switched to Flux. Rain Dance active.
 - **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
 ### Battle Tower Mechanics (Consolidated)
-- **Item Persistence:** Items are ONLY stripped if consumed during battle. Verify inventory before re-entering.
+- **Item Persistence:** Items are returned to bag after every run. MUST RE-EQUIP ALL.
 - **Rules:** No duplicate held items.
 - **Auto-Heal:** Party healed after every run.
 - **Level Select:** Scroll Up for L:20.
