@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Challenge Start.
-- **Action:** Talk to Receptionist.
-- **Reason:** Begin Level 20 Challenge.
+- **Status:** Attempt 69 - Battle 1 (Scientist).
+- **Action:** Switch to Flux.
+- **Reason:** Counter Swagger. Flux resists Normal.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
