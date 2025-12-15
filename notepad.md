@@ -375,3 +375,8 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 
 # STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50238 Reflection)
 - **System Warnings Can Be Wrong:** A direct test (walking into a tile marked as a WALL) confirmed the map data was correct and I was physically trapped, proving that the system's repeated warnings about not being stuck were a hallucination. When a direct, in-game test contradicts a system warning or critique, trust the in-game evidence as the source of truth.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50266 Reflection)
+- **Puzzle Triggers Can Be Wild Encounters:** A wild Pokémon encounter can be the solution to a puzzle, not just a random event. When stuck, consider if a specific wild encounter is needed.
+- **Verify Capture Resources:** Before attempting to catch a critical Pokémon, I MUST verify I have the necessary items (e.g., Poké Balls). Failing to prepare can lead to missing a key opportunity.
+- **Re-evaluate Puzzle Conditions:** If a seemingly obvious solution (like catching a Pokémon) fails or is impossible, the core assumption about the win condition may be wrong. Consider alternative success states, such as simply defeating the Pokémon instead of capturing it.
