@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 62 - Prep Phase. Re-equipping Items.
+- **Status:** Attempt 62 - Battle 1 vs Boarder Crawford.
 - **Intel:** Quagsire (Surf, Tanky), Hitmonchan (Mega Punch, Fire/Ice Punch), Arcanine (Flamethrower, Iron Tail).
 - **Needs:** Win 7 Battles.
 - **Last Result:** Attempt 61 Loss (Quagsire).
