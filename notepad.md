@@ -3,7 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 72 - Battle 1 (vs Wigglytuff).
+- **Status:** Attempt 72 - Battle 1 (vs Azumarill).
+- **Battle Log:** Defeated Wigglytuff. Azumarill (Rain Dance, Surf, Blizzard) KO'd Rumpus & Bahamut. Flux active.
 - **Team:** Rumpus, Flux, Bahamut.
 - **Location:** Battle Tower Battle Room.
 - **Note:** Observed game returning to Level Selection after Save. Must re-select L:20.
