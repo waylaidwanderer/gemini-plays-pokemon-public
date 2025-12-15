@@ -335,3 +335,4 @@
   - 1. A non-hostile, stationary Slowpoke on the platform is an interactable object that will trigger a cutscene.** Status: UNTESTED. (Test: Visually scan platform for Slowpoke sprite and interact.)
   - **2. The act of successfully CATCHING a wild Slowpoke in front of the Gym Guide is the event trigger, not the evolution itself.** Status: UNTESTABLE (No Poké Balls). (Test: Encounter and catch a wild Slowpoke.)
   - **3. Interacting with a specific part of the well from the platform's edge will trigger the event.** Status: UNTESTED. (Test: Systematically press 'A' on all edge tiles.)
+  - **6. The Gym Guide can be moved with STRENGTH.** Status: UNTESTED. (Test: Teach STRENGTH to a conscious Pokémon and attempt to push the NPC.)
