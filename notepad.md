@@ -23,3 +23,4 @@
 - Received Potion from Elm's Aide.
 ## Pokemon Locations
 - Route 29: Hoppip (Splash)
+- Route 29 Navigation: Westbound path blocked by trees at x=37 (y=12-15). Must go south to y=16 to bypass.
