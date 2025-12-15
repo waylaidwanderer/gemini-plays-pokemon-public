@@ -559,5 +559,31 @@
         "action_counter": 32711
       }
     ]
+  },
+  "select_item": {
+    "description": "Scans the screen for the target item. If found, navigates the cursor to it. If not found, scrolls down (default 3 steps). Returns empty array if already on target. Requires 'screen_text' argument.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_name": {
+          "type": "string"
+        },
+        "screen_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\n\nitem_name = input_data['item_name'].strip().upper()\nscreen_text = input_data['screen_text']\n\nlines = screen_text.split('\\n')\ncursor_line = -1\nitem_line = -1\n\nfor i, line in enumerate(lines):\n    if '▶' in line:\n        cursor_line = i\n    if item_name in line.upper():\n        item_line = i\n\nbuttons = []\n\nif cursor_line != -1 and item_line != -1:\n    diff = item_line - cursor_line\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    else:\n        buttons = [] # On target\nelif cursor_line != -1 and item_line == -1:\n    # Cursor found, item not. Scroll down.\n    buttons = [\"Down\"] * 3\nelse:\n    # Cursor not found? Default to nothing.\n    buttons = []\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-15T06:24:28.511Z",
+        "action_counter": 35436
+      }
+    ]
   }
 }
