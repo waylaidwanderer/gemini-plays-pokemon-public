@@ -52,3 +52,4 @@
   - Sea/Water: South side of city
 - Received MAP CARD from Guide Gent.
 - Guide Gent's tour finished. He went into his house at (25, 9).
+- Healed at Pokemon Center. Now seeking exit to Route 30 (North).
