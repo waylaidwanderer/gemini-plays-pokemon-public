@@ -14,7 +14,7 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
 - **Status:** Attempt 78. Preparation.
-- **Current Task:** Re-equip Items.
+- **Current Task:** Fix Duplicate Items (Rumpus/Flux both have PSNCUREBERRY).
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
