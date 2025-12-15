@@ -411,3 +411,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
   - T12: Vortex (5 HP) used Quick Attack (Sacrifice).
   - T12: Vortex fainted (Poison). Switch Rumpus (Revenge Kill).
   - T13: Rumpus (4 HP) uses Strength. Last stand.
+- T17: Flux (2HP) vs Umbreon. Used Sonicboom.
