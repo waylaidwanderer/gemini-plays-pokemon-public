@@ -350,6 +350,6 @@
 
 # Attempt 80 Battle Log
 - Battle 1 vs Boarder Rockwell (Miltank).
-- Miltank moves: Thunder, Earthquake, Attract.
-- Rumpus used Przcureberry (Cured Paralysis from Thunder).
-- Rumpus is Infatuated.
+- Miltank Moves: Thunder, Earthquake, Attract.
+- Status: Rumpus (23/64 HP, Infatuated).
+- Notes: Staying in with Rumpus due to EQ threat on switch.
