@@ -330,82 +330,23 @@
 - **Lesson:** Menus often remember cursor position. Always use 'Up' multiple times to reset the cursor to the top before navigating lists.
 - **Tool Note:** `hunt_routine` is now context-aware and avoids walls automatically.
 - Phone Call: Anthony (Route 33) mentions seeing many Geodude (Possible Swarm?).
-### Route 39 Grinding Plan
-- **Target:** Train Rumpus (Tauros) to Level 20 EXACTLY.
-- **XP Sources:**
-  - Tauros (~180-200 XP)
-  - Miltank (~200 XP)
-  - Pidgeotto (~100 XP)
-  - Magnemite (Avoid/Run - Sonicboom danger/Steel resist)
-- **Strategy:** Use `hunt_routine` in tall grass. Heal at Olivine Center if HP < 30.
-- **Battle State Awareness:** Failed to notice battle text 'Rumpus used STRENGTH!' was still active before attempting `hunt_routine`. MUST verify Screen Text indicates 'FIGHT/PKMN/PACK/RUN' or 'Wild X appeared' before assuming control.
-
-- **CRITICAL:** Battle Tower Level 20 Miltank has **EARTHQUAKE**. Counters Flux/Magnemite perfectly.
-- Battle Update: Vortex fainted to Miltank (Thunder). Miltank moves: Thunder, Earthquake, Attract. Accuracy: -1. Rumpus (Paralyzed, Infatuated) vs Miltank (Critical HP).
-- **Mechanic Correction:** ICE BERRY cures BURN, not Freeze. It does NOT reduce Ice damage. Use BURNT BERRY for Freeze (not currently owned).
-- **Item Discovery:** Vortex was holding a **METAL COAT** (Boosts Steel moves). Swapped for BERRY for Battle Tower survival.
-### Battle Tower Menu Mechanics
+### Battle Tower Lessons & Mechanics
 - **L:20 Selection:** From default (L:10), press **Up** once to reach L:20.
-- **Navigation:** Up increments (10->20), Down decrements/wraps (10->100).
+- **Speed Rule:** Assume opponents have Max DVs/Stat XP. Speed ties are losses.
+- **Inventory:** Bag items are not strictly alphabetical. Field moves appear at the top of Pokemon menus.
+- **PC Management:** Use 'DEPOSIT PKMN' instead of 'MOVE PKMN W/O MAIL'.
+- **Swagger:** Switch out immediately if confused and +2 Attack.
+- **Debuff Spammers:** Do not switch slower Pokemon into Mud-Slap/Toxic.
+- **Held Items:** Metal Coat was lost (likely not saved or misidentified). Vortex holds Berry.
 
-### Inventory Lessons
-- **Bag Sorting:** Items in the Gen 2 bag are not always strictly alphabetical. New items are often added to the bottom. Always scroll through the ENTIRE list if an item is missing from the top.
-- **Pokemon Menu Priority:** Field moves (e.g., Strength, Fly) appear at the TOP of the individual Pokemon menu, pushing STATS, SWITCH, and ITEM down. Always check for field moves before navigating.
-### Battle Lessons
-- **Vs Swagger:** If your Pokémon is Confused and Attack boosted (+2), SWITCH OUT to a safe pivot immediately. Do not risk the self-hit, especially against low HP opponents.
-- **Vs Debuff Spammers:** Against slower tanks with Mud-Slap/Toxic (e.g., Umbreon), do NOT switch in a slower Pokémon. They will take a free debuff on entry. Sacrifice the active Pokémon to ensure a clean switch.
-- **Battle Note:** Flux's Toxic failed against Umbreon ('It didn't affect'). Potential causes: Substitute, Safeguard, or Accuracy drop causing a 'miss' (though usually says 'missed'). Investigate.
-- **Opponent Move:** Umbreon knows Mud-Slap.
-- **Battle Log:** Rumpus hit by Mud-Slap (-1 Acc). Umbreon recovering with Leftovers.
-- Round 1 (Sage): Wigglytuff used Hyper Beam. Rumpus (22/64 HP). Wigglytuff recharging.
-- Round 1 (Sage): Wigglytuff recovered with Gold Berry. Rumpus (22/64 HP).
-- Round 1 (Sage): Flux switched in. Tanked Hyper Beam (21/45 HP). Wigglytuff Recharging.
- Flux consumed Berry (31/45 HP). Plan: Toxic.
- Strategy: Sonicboom to chip/stall. Flux sacrifices if needed.
-- **Battle Log:** Opponent Azumarill used Rain Dance.
-- **Battle Log:** Azumarill used Blizzard (OHKO on Bahamut). Intel: Knows Rain Dance, Blizzard.
-- **Battle Log:** Bahamut fainted. Switched to Flux. Rain Dance active.
-- **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
-
-- **Level Select:** Scroll Up for L:20.
-- **Battle Log (Attempt 53):** Beauty's Blissey knows Psychic. Did not use Counter Turn 1.
-**CRITICAL LESSON - BATTLE TOWER SPEED:**
-- Opponents likely have MAX DVs and Stat XP. Assume we are SLOWER than the opponent unless we have a massive base speed advantage. Speed ties are losses.
-- Miltank knows Earthquake/Thunder/Attract.
-- Blissey knows Psychic/Submission.
-- Lapras: Blizzard.
-- Lapras: Confuse Ray, Gold Berry.
-- Lapras used Blizzard (Heavy damage to Flux).
-- Lapras used Confuse Ray. Flux Confused.
-- Flux landed Crit Thundershock (SE).
-- Lapras used Blizzard (Missed).
-- Flux hurt itself in confusion.
-- Round 1 (Super Nerd): Lapras missed Blizzard. Flux hurt itself (23/45 HP).
-- Round 1 (Super Nerd): Rumpus fainted to Alakazam (Psychic). Alakazam at full HP. Bahamut sent in.
-- Round 1 (Juggler Fairfield): Quagsire (Rain Dance, Amnesia, Surf), Starmie (Psychic, likely Surf). Rain stopped. Flux used Berry.
-Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
-### PC Management Lesson
-- **Lesson:** 'MOVE PKMN W/O MAIL' is unreliable for simple depositing via blind macros. Use 'DEPOSIT PKMN' instead.
-- **Battle Intel:** Level 20 Blissey outspeeds Level 20 Vortex (Pidgeotto). Vortex Speed is 36. Blissey likely max DVs/Stat Exp.
-- **Correction:** Vortex was holding a BERRY, not Metal Coat. Healed to 33/61 HP.
-- **Status Update (Attempt 60):** Vortex needs Berry. Rumpus has Przcureberry. Metal Coat lost.
-- **Tool Reliability:** Deleted `give_held_item` due to fragility with cursor memory. Future menu tools must aggressively reset cursor position (e.g. multiple 'Up' presses) before navigation.
-- **Swimmer Dykstra:** Steelix (Earthquake/Swagger/Iron Tail).
-- Round 1 (Walker): Nidoking Blizzard hit Vortex through -1 Acc (OHKO). Vortex FNT.
-- **Swagger Trap:** If a physical attacker gets Swaggered (+2 Atk, Confused), SWITCH OUT immediately. Self-hit damage is often fatal.
-- **Lass (Battle 1):** Heracross (Megahorn! High Dmg). Likely no Fighting STAB.
-- CRITICAL UPDATE: Heracross has Earthquake (OHKO'd Flux).
-### Attempt 73 - Battle 1 (Lass)
-- **Opponent:** Heracross (Earthquake, Megahorn).
-- **Events:** Flux FNT (EQ). Rumpus FNT (Heracross survived Strength). Heracross is tanky.
-- **State:** Bahamut (Full) vs Heracross (~50%).
-- **Plan:** Extremespeed (Priority) is mandatory.
-- **Battle Event:** Walker's Pikachu OHKO'd Flux (4x Resist) with Crit Thunderbolt. Likely holding Light Ball.
-- **Schoolboy Walker:** Nidoking (EQ/Blizzard, holds Berry, Outspeeds Dratini).
-- **Battle 1 (Beauty Frost):** Rumpus FNT (Blizzard). Lapras took Crit Strength. Bahamut vs Lapras (Weakened). Strategy: Extremespeed (Priority) or die.
-- **Resolved:** Bahamut is holding Dragon Fang. Confirmed via 'Switch items?' prompt.
-- **Lass's Heracross:** Earthquake, Megahorn. High Def. Counters Flux.
-- Battle Log: Rumpus fainted (Poison). Bahamut sent in vs Umbreon (Weakened).
+### New Threat Intel (To Merge)
+- **Sage:** Wigglytuff (Hyper Beam, Gold Berry).
+- **Juggler Fairfield:** Quagsire (Rain Dance, Amnesia, Surf), Starmie (Psychic).
+- **Lass:** Heracross (EQ, Megahorn).
+- **Boarder Rockwell:** Miltank (Thunder, Earthquake, Attract).
+- **Beauty Frost:** Lapras (Blizzard, Confuse Ray, Gold Berry), Arcanine (Flamethrower, Iron Tail).
+- **Schoolboy Walker:** Nidoking (EQ/Blizzard), Pikachu (Thunderbolt, Light Ball).
+- **Swimmer Dykstra:** Steelix (EQ/Swagger), Gyarados (Hyper Beam).
 
 # Attempt 80 Battle Log
 - Battle 1 vs Boarder Rockwell (Miltank).
