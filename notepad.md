@@ -50,3 +50,5 @@
   - Mart: (17, 7)
   - Guide Gent's House: (25, 9)
   - Sea/Water: South side of city
+- Received MAP CARD from Guide Gent.
+- Guide Gent's tour finished. He went into his house at (25, 9).
