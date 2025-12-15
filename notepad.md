@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 65 - Round 1 vs Youngster. Rumpus (20/64) vs Starmie.
+- **Status:** Attempt 65 - Round 1 vs Youngster. Rumpus FNT. Flux vs Starmie.
 - **Intel:**
   - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt/Toxic), Gyarados (Hyper Beam/Surf).
   - **Youngster Wright:** Nidoking (EQ/Blizzard), Lapras (T-Bolt/Confuse Ray).
