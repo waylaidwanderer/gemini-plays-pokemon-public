@@ -10,7 +10,7 @@
 - WARP_CARPET_DOWN: Traversable. Warps to a different map.
 
 ## Current Plan
-- Go to Elm's Lab.
+- Choose a Starter Pokemon.
 
 ## Journal
 - Player Name: GEM
