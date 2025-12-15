@@ -1,13 +1,18 @@
 {
   "nickname_garnet": {
-    "description": "Enters the nickname 'GARNET' for the Pokemon and confirms it. Assumes cursor starts at 'A'.",
+    "description": "Enters the nickname 'GARNET', first navigating to DEL to clear any accidental input. Assumes cursor starts at 'A'.",
     "input_schema": {},
-    "python_script": "import json\ncmds = []\n# G (0,6) from A(0,0)\ncmds.extend([\"Right\"]*6)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# A (0,0) from G(0,6)\ncmds.extend([\"Left\"]*6)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# R (1,8) from A(0,0)\ncmds.append(\"Down\")\ncmds.extend([\"Right\"]*8)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# N (1,4) from R(1,8)\ncmds.extend([\"Left\"]*4)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# E (0,4) from N(1,4)\ncmds.append(\"Up\")\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# T (2,1) from E(0,4)\ncmds.append(\"Down\")\ncmds.append(\"Down\")\ncmds.extend([\"Left\"]*3)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# END via Start\ncmds.append(\"Start\")\ncmds.append(\"sleep 200\")\ncmds.append(\"A\")\nprint(json.dumps(cmds))",
+    "python_script": "import json\ncmds = []\n\n# Navigate to DEL from A (assumed start) to clear any accidental input\n# Path: Down x4 -> lower. Right -> DEL.\ncmds.extend([\"Down\"]*4)\ncmds.append(\"Right\")\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n\n# Navigate back to A from DEL\n# Path: Left -> lower. Up x4 -> A.\ncmds.append(\"Left\")\ncmds.extend([\"Up\"]*4)\ncmds.append(\"sleep 200\")\n\n# Now enter GARNET\n# G (0,6) from A(0,0)\ncmds.extend([\"Right\"]*6)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# A (0,0) from G(0,6)\ncmds.extend([\"Left\"]*6)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# R (1,8) from A(0,0)\ncmds.append(\"Down\")\ncmds.extend([\"Right\"]*8)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# N (1,4) from R(1,8)\ncmds.extend([\"Left\"]*4)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# E (0,4) from N(1,4)\ncmds.append(\"Up\")\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# T (2,1) from E(0,4)\ncmds.append(\"Down\")\ncmds.append(\"Down\")\ncmds.extend([\"Left\"]*3)\ncmds.append(\"A\")\ncmds.append(\"sleep 200\")\n# END via Start\ncmds.append(\"Start\")\ncmds.append(\"sleep 200\")\ncmds.append(\"A\")\n\nprint(json.dumps(cmds))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-15T20:43:09.589Z",
         "action_counter": 80
+      },
+      {
+        "commit_message": "Adding cleanup step to remove accidental input before entering name.",
+        "timestamp": "2025-12-15T20:47:58.437Z",
+        "action_counter": 89
       }
     ]
   }
