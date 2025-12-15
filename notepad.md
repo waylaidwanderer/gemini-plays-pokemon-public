@@ -10,9 +10,9 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
 - **Run:** Attempt 68 - Round 1 vs Fisher.
-- **Opponent:** Steelix (Lv20).
-- **Strategy:** Switch to Vortex (Immune to EQ).
-- **Team:** Rumpus, Vortex, Flux.
+- **Opponent:** Steelix (-2 Acc).
+- **Status:** Rumpus (Confused, +2 Atk). Vortex FNT.
+- **Strategy:** Rumpus Strength spam (Flux 4x weak to EQ).
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
