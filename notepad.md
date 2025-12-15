@@ -275,7 +275,6 @@
 
 ### Custom Agents
 - `python_code_debugger`
-- `puzzle_solver`
 
 ## Tool Ideas
 - **`systematic_area_checker` tool:** A tool that, when in a confined area, generates a path to visit every single reachable tile and presses 'A' on each to search for hidden items or switches. This would automate tedious brute-force searches.
