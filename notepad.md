@@ -16,44 +16,29 @@
 - **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
-### 📋 Status & Rules
-- **Status:** Attempt 66 - Starting.
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
-- **Rules:**
-  - **Item Persistence:** Items are returned to bag after every run. MUST RE-EQUIP ALL.
-  - **Selection:** Manual L:20 (Up from L:10).
-- **Intel (Attempt 62):**
-  - **Umbreon:** Toxic, Mud-Slap, Protect, Leftovers. Counter with Rumpus (Strength).
-  - **Quagsire:** Surf, Tanky.
+### 📋 Status
+- **Run:** Attempt 67 - Starting.
+- **Last Loss:** Attempt 66 (Schoolboy Walker - Nidoking/Aerodactyl).
+- **Team:** Rumpus, Vortex, Flux.
+- **Action:** Re-equip Items (Psncureberry, Berry, Mint Berry).
 
-### ⚔️ Strategy & Mechanics
-- **Speed (CRITICAL):** Opponents have MAX DVs. Assume we are SLOWER unless Base Speed is +25. Speed ties are losses.
-- **Hyper Beam:** Requires recharge turn even on KO. Exploitable for free switch-in.
-- **Counter Mechanics:** Reflects Physical hits (Normal/Fighting). SONICBOOM triggers Counter. Use Special moves vs Counter users.
-- **Roles:** Rumpus (Phys Sweeper), Bahamut (Speed Control/Pivot), Flux (Wall/Toxic).
+### ⚔️ Consolidated Mechanics
+- **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
+- **Healing:** Auto-heal after run.
+- **Level:** Manual Select L:20.
+- **Speed:** Opponents have Max DVs. Assume slower unless +25 Base Speed.
+- **Counter:** Reflects Physical. Use Special vs Blissey/Wobbuffet.
 
-### ⚠️ Threat Analysis & Counters
-- **Miltank:** Earthquake, Attract, Milk Drink. **Counter:** Vortex (Immune to EQ), Bahamut (Resists Thunder).
-- **Starmie:** Fast, Surf/Psychic. **Counter:** Thunder Wave.
-- **Gyarados:** Hyper Beam (Phys), Miracleberry. **Counter:** Rumpus.
-- **Blissey:** Counter (Phys), Psychic, Submission. **Counter:** Flux (Toxic Stall, Resists Psychic).
-- **Nidoking:** Earthquake, Blizzard. **Counter:** Rumpus.
-- **Pikachu:** Light Ball (Massive Dmg). **Counter:** Priority/Ground.
-- **Exeggutor:** Sleep/Psychic/Giga Drain. **WARNING:** Psychic deals ~60% to Flux (Resist). High Threat. **Counter:** Flux (Mint Berry), Vortex (Fly).
-- **Alakazam:** Elemental Punches. **Counter:** Physical (Strength, Fly).
-- **Lapras:** Blizzard, Confuse Ray. **Counter:** Flux (Resists).
-- **Wigglytuff:** Hyper Beam, Fire Blast. **Counter:** Switch/Haze.
-- **Quagsire:** Surf, Earthquake. **Counter:** Brute Force.
-- **Umbreon:** Toxic, Protect, Mud-Slap. **Counter:** Toxic back or Brute Force.
-- **Heracross:** Megahorn, Earthquake. **Counter:** Vortex (Fly/Immunity).
-- **Scizor:** Slash, Steel Wing. **Counter:** Vortex (Neutral Fly/Mud-Slap).
-- **Aerodactyl:** Earthquake. **Counter:** Vortex.
-- **Azumarill:** Tanky, Blizzard/Surf. **Counter:** Electric.
-- **Tauros:** Earthquake, Hyper Beam, Blizzard. **Counter:** Bahamut (Thunder Wave), Rumpus.
-
-### Non-Combatant NPCs (Don't check again)
-- **Battle Tower Outside:** Youngster (6, 12), Beauty (12, 10), Sailor (12, 18).
-- **Route 40:** Lass (13, 4).
+### ⚠️ Threat Intel
+- **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?).
+- **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt), Gyarados (Hyper Beam).
+- **General Threats:**
+  - **Miltank:** EQ, Attract. Counter: Vortex.
+  - **Starmie:** Surf, Psychic. Counter: Flux.
+  - **Blissey:** Counter, Psychic. Counter: Flux (Toxic).
+  - **Nidoking:** EQ, Blizzard. Counter: Rumpus (Strength).
+  - **Gyarados:** Hyper Beam. Counter: Rumpus.
+  - **Lapras:** Blizzard. Counter: Flux.
 
 ## 📝 Quest & Event Log
 - **Status:** Post-Game (Red Defeated).
