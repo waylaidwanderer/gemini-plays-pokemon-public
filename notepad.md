@@ -12,7 +12,7 @@
 - DOOR: Traversable. Warps to indoor maps.
 
 ## Current Plan
-- Finish nicknaming Cyndaquil 'GARNET'.
+- Finish listening to Elm and leave the lab.
 - Leave Elm's Lab.
 
 ## Journal
