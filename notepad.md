@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Battle 1 (Scientist Mori).
-- **Action:** Bahamut vs Nidoking.
-- **Reason:** Rumpus Fainted. Bahamut (Last Stand) vs Nidoking. Hitmonchan used Gold Berry.
+- **Status:** Attempt 70 - Prep (Equipping Items).
+- **Action:** Equip: PrzCure(Rumpus), Mint(Flux), DragonFang(Bahamut).
+- **Reason:** Re-equipping for Battle Tower.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
