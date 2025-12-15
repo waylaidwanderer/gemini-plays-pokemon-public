@@ -369,3 +369,6 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 
 # STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50159 Reflection)
 - NPC Dialogue as a Primary Clue: When blocked by an NPC, their dialogue should be treated as the most likely source for the solution. Exhausting dialogue options and carefully analyzing the text for explicit conditions should be the first step before testing more complex environmental or item-based hypotheses.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50211 Reflection)
+- **Trust System Warnings Over Faulty Tools:** A pathfinding tool repeatedly reporting 'No path found' when a path is visually obvious and the system insists you are not stuck is a critical bug in the tool, not a complex puzzle. Trusting the tool's incorrect output led to a prolonged hallucination of being trapped, wasting dozens of turns on incorrect hypotheses. The tool must be abandoned or fixed, and manual verification must be prioritized.
