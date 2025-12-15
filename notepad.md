@@ -56,8 +56,10 @@
 - Checked path North. Sign at (13, 29) says 'MR.POKéMON'S HOUSE STRAIGHT AHEAD!'. Navigating North along x=14.
 - Path North at x=14 is blocked by a wall at y=19.
 - Detoured East through Tall Grass (x=17-19) and found Mr. Pokemon's House at (17, 5).
-- Received urgent phone call from Professor Elm. Returning immediately.
-- Arrived at Elm's Lab. Police Officer is investigating a stolen Pokemon.
+- Delivered Mystery Egg to Professor Elm. He identified it as a Pokemon Egg.
+- Elm suggested challenging the Violet City Gym.
+- Investigated the theft: Rival (Silver) stole a Pokemon.
+- Must talk to Mom before leaving New Bark Town.
 - Route 30 Return Trip: Head South along x=12 to row 44 (Floor path), then West to x=6, then South over ledges to exit. Path avoids tall grass.
 - Encountered the red-haired boy (Rival) in Cherrygrove City. Named him SILVER.
 - Rival claims he will be the world's greatest trainer.
