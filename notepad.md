@@ -323,7 +323,7 @@
   - Blue Apricorn: (16, 5)
 ### Battle Tower Mechanics
 - **Auto-Heal:** Party is fully healed after every challenge (win or loss).
-- **Item Persistence:** Items are NOT always stripped upon defeat. Rumpus retained PSNCUREBERRY. Always check if items are held before re-equipping. Consumed items are lost.
+- **Item Persistence:** ALL held items are stripped and returned to the bag upon defeat or exit. Must re-equip every time.
 - **Rules:** No duplicate held items. Level 20 must be selected manually (Up from L:10).
 - **Saving:** Forced save before entry.
 ## New Discoveries
