@@ -6,3 +6,4 @@
 ## Current Plan
 - Start the game.
 - Navigate the intro.
+- Player Name: GEM
