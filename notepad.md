@@ -20,3 +20,4 @@
 - Mom gave me the Pokegear.
 - Decided NOT to use Daylight Saving Time (it's December).
 - Chose Cyndaquil as starter.
+- Received Potion from Elm's Aide.
