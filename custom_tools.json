@@ -1,4 +1,64 @@
 {
+  "explore_accessible_tiles": {
+    "description": "Parses the map_xml_string to find all accessible tiles from a starting point, then generates and returns a sequence of button presses ('Up', 'Down', 'Left', 'Right', 'A') to walk to every single tile and interact with it. This automates the process of searching an area for hidden items or switches.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "string"
+        },
+        "start_y": {
+          "type": "string"
+        },
+        "is_surfing": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "is_surfing"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef find_path_tool(map_xml_string, start_x, start_y, is_surfing_str):\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        start_node = (start_x, start_y)\n        is_surfing = is_surfing_str.lower() == 'true'\n\n        impassable_walking = {'WALL', 'WATER', 'VOID', 'CUT_TREE', 'HEADBUTT_TREE', 'BOULDER', 'WHIRLPOOL', 'WATERFALL'}\n        impassable_surfing = {'WALL', 'FLOOR', 'GRASS', 'TALL_GRASS', 'VOID', 'CUT_TREE', 'HEADBUTT_TREE', 'BOULDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'WATERFALL'}\n        \n        grid = [['' for _ in range(width)] for _ in range(height)]\n        for row_elem in root.findall('Row'):\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                if tile_elem.find('Object') is not None:\n                    if (x, y) != start_node:\n                         grid[y][x] = 'WALL'\n                    else:\n                        grid[y][x] = tile_type\n                else:\n                    grid[y][x] = tile_type\n\n        def bfs_to_find_all_accessible(start_pos):\n            q = deque([start_pos])\n            visited = {start_pos}\n            impassable = impassable_surfing if is_surfing else impassable_walking\n            \n            while q:\n                x, y = q.popleft()\n                \n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nx, ny = x + dx, y + dy\n                    if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                        tile_type = grid[ny][nx]\n                        if tile_type not in impassable:\n                            visited.add((nx, ny))\n                            q.append((nx, ny))\n            return visited\n\n        accessible_tiles = bfs_to_find_all_accessible(start_node)\n        \n        path_buttons = []\n        current_pos = start_node\n        unvisited = set(accessible_tiles)\n        unvisited.remove(current_pos)\n        path_buttons.append('A')\n\n        while unvisited:\n            q = deque([(current_pos, [])])\n            visited_for_pathing = {current_pos}\n            target_path = None\n            \n            while q:\n                (x, y), path = q.popleft()\n\n                if (x, y) in unvisited:\n                    target_path = path\n                    break\n\n                for dx, dy, move in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n                    nx, ny = x + dx, y + dy\n                    if (nx, ny) in accessible_tiles and (nx, ny) not in visited_for_pathing:\n                         visited_for_pathing.add((nx, ny))\n                         q.append(((nx, ny), path + [move]))\n            \n            if target_path is not None:\n                path_buttons.extend(target_path)\n                end_x, end_y = current_pos\n                for move in target_path:\n                    if move == \"Up\": end_y -= 1\n                    elif move == \"Down\": end_y += 1\n                    elif move == \"Left\": end_x -= 1\n                    elif move == \"Right\": end_x += 1\n                current_pos = (end_x, end_y)\n                unvisited.remove(current_pos)\n                path_buttons.append('A')\n            else:\n                break\n        \n        print(json.dumps(path_buttons))\n\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}), file=sys.stderr)\n        print(json.dumps([]))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nis_surfing_str = input_data['is_surfing']\nfind_path_tool(map_xml_string, start_x, start_y, is_surfing_str)",
+    "history": [
+      {
+        "commit_message": "feat: Create explore_accessible_tiles tool. This tool automates the systematic exploration of a contained area by first identifying all reachable tiles via BFS, then generating a greedy path to visit every single one. This is designed to solve 'find the hidden item/switch' puzzles by automating the brute-force search process, which is tedious and error-prone to do manually. This directly addresses the final hypothesis from the puzzle_solver agent for the Slowpoke Well.",
+        "timestamp": "2025-12-12T18:56:00.411Z",
+        "action_counter": 49063
+      },
+      {
+        "commit_message": "feat: Add interaction to exploration path. This commit refactors the tool to output a list of button presses instead of coordinates. It now automatically inserts an 'A' press after each movement step, transforming the tool from a simple path generator into a fully automated area-searching script. This is critical for testing the 'hidden item' hypothesis in the Slowpoke Well.",
+        "timestamp": "2025-12-12T19:07:47.633Z",
+        "action_counter": 49065
+      },
+      {
+        "commit_message": "feat: Create explore_accessible_tiles tool. This tool automates the systematic exploration of a contained area by first identifying all reachable tiles via BFS, then generating a greedy path to visit every single one. This is designed to solve 'find the hidden item/switch' puzzles by automating the brute-force search process, which is tedious and error-prone to do manually. This directly addresses the final hypothesis from the puzzle_solver agent for the Slowpoke Well.",
+        "timestamp": "2025-12-14T04:24:33.272Z",
+        "action_counter": 49652
+      },
+      {
+        "commit_message": "refactor: Add extensive debug prints to stderr. The tool is catastrophically failing by being inconsistent; it triggered a key scripted encounter once and has failed to do so ever since. This commit adds logging to trace the set of tiles the BFS identifies as accessible and the final path generated. This will allow me to diagnose whether the inconsistency stems from a faulty map parse or a bug in the path generation logic.",
+        "timestamp": "2025-12-15T08:52:37.021Z",
+        "action_counter": 50342
+      },
+      {
+        "commit_message": "refactor: Add step-by-step path tracing to stderr. The tool's inconsistency in triggering a scripted encounter suggests the issue may be in the path it takes. This commit adds logging for every single tile the tool moves to, allowing for precise identification of the trigger tile if the event occurs again. This is a critical diagnostic step to isolate the point of failure or confirm the trigger's location.",
+        "timestamp": "2025-12-15T08:53:47.973Z",
+        "action_counter": 50344
+      },
+      {
+        "commit_message": "fix: Make path generation deterministic. The tool was catastrophically failing by using a non-deterministic greedy algorithm for path generation, causing inconsistent behavior that made debugging a puzzle impossible. This commit fixes the issue by sorting the list of accessible tiles before path generation, ensuring the tool produces the exact same path every time it is run from the same starting position. This is critical for reliable testing of environmental triggers.",
+        "timestamp": "2025-12-15T09:02:03.154Z",
+        "action_counter": 50366
+      },
+      {
+        "commit_message": "fix: Overhaul path generation with nested BFS. The previous version used a naive greedy algorithm to plan its path, which catastrophically failed by generating impossible movements (e.g., jumping over walls). This commit replaces that logic with a robust, nested BFS approach. The tool now calculates a valid path to the nearest unvisited tile at each step, ensuring the entire exploration route is traversable and resolving the critical tool failure.",
+        "timestamp": "2025-12-15T09:32:46.467Z",
+        "action_counter": 50431
+      }
+    ]
+  },
   "select_item": {
     "description": "Calculates the shortest path to a target item in the bag and outputs all necessary button presses to select it in a single turn. Replaces the previous, inefficient version that only moved one step at a time.",
     "input_schema": {
@@ -698,66 +758,6 @@
         "commit_message": "fix: Overhaul parser to use HP stats as a stable anchor. The previous agent-provided logic catastrophically failed by incorrectly using 'LV' as a filter, which did not appear on the same line as the Pokémon's name. This commit implements a robust new parser that correctly identifies selectable menu items by looking for the 'HP/HP' stat block, ensuring the tool builds an accurate list and resolves the critical failure.",
         "timestamp": "2025-12-08T05:05:49.619Z",
         "action_counter": 41334
-      }
-    ]
-  },
-  "explore_accessible_tiles": {
-    "description": "Parses the map_xml_string to find all accessible tiles from a starting point, then generates and returns a sequence of button presses ('Up', 'Down', 'Left', 'Right', 'A') to walk to every single tile and interact with it. This automates the process of searching an area for hidden items or switches.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "is_surfing": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "is_surfing"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef find_path_tool(map_xml_string, start_x, start_y, is_surfing_str):\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        start_node = (start_x, start_y)\n        is_surfing = is_surfing_str.lower() == 'true'\n\n        impassable_walking = {'WALL', 'WATER', 'VOID', 'CUT_TREE', 'HEADBUTT_TREE', 'BOULDER', 'WHIRLPOOL', 'WATERFALL'}\n        impassable_surfing = {'WALL', 'FLOOR', 'GRASS', 'TALL_GRASS', 'VOID', 'CUT_TREE', 'HEADBUTT_TREE', 'BOULDER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'WATERFALL'}\n        \n        grid = [['' for _ in range(width)] for _ in range(height)]\n        for row_elem in root.findall('Row'):\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                if tile_elem.find('Object') is not None:\n                    if (x, y) != start_node:\n                         grid[y][x] = 'WALL'\n                    else:\n                        grid[y][x] = tile_type\n                else:\n                    grid[y][x] = tile_type\n\n        def bfs_to_find_all_accessible(start_pos):\n            q = deque([start_pos])\n            visited = {start_pos}\n            impassable = impassable_surfing if is_surfing else impassable_walking\n            \n            while q:\n                x, y = q.popleft()\n                \n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nx, ny = x + dx, y + dy\n                    if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                        tile_type = grid[ny][nx]\n                        if tile_type not in impassable:\n                            visited.add((nx, ny))\n                            q.append((nx, ny))\n            return visited\n\n        accessible_tiles = bfs_to_find_all_accessible(start_node)\n        \n        path_buttons = []\n        current_pos = start_node\n        unvisited = set(accessible_tiles)\n        unvisited.remove(current_pos)\n        path_buttons.append('A')\n\n        while unvisited:\n            q = deque([(current_pos, [])])\n            visited_for_pathing = {current_pos}\n            target_path = None\n            \n            while q:\n                (x, y), path = q.popleft()\n\n                if (x, y) in unvisited:\n                    target_path = path\n                    break\n\n                for dx, dy, move in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n                    nx, ny = x + dx, y + dy\n                    if (nx, ny) in accessible_tiles and (nx, ny) not in visited_for_pathing:\n                         visited_for_pathing.add((nx, ny))\n                         q.append(((nx, ny), path + [move]))\n            \n            if target_path is not None:\n                path_buttons.extend(target_path)\n                end_x, end_y = current_pos\n                for move in target_path:\n                    if move == \"Up\": end_y -= 1\n                    elif move == \"Down\": end_y += 1\n                    elif move == \"Left\": end_x -= 1\n                    elif move == \"Right\": end_x += 1\n                current_pos = (end_x, end_y)\n                unvisited.remove(current_pos)\n                path_buttons.append('A')\n            else:\n                break\n        \n        print(json.dumps(path_buttons))\n\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}), file=sys.stderr)\n        print(json.dumps([]))\n\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nis_surfing_str = input_data['is_surfing']\nfind_path_tool(map_xml_string, start_x, start_y, is_surfing_str)",
-    "history": [
-      {
-        "commit_message": "feat: Create explore_accessible_tiles tool. This tool automates the systematic exploration of a contained area by first identifying all reachable tiles via BFS, then generating a greedy path to visit every single one. This is designed to solve 'find the hidden item/switch' puzzles by automating the brute-force search process, which is tedious and error-prone to do manually. This directly addresses the final hypothesis from the puzzle_solver agent for the Slowpoke Well.",
-        "timestamp": "2025-12-12T18:56:00.411Z",
-        "action_counter": 49063
-      },
-      {
-        "commit_message": "feat: Add interaction to exploration path. This commit refactors the tool to output a list of button presses instead of coordinates. It now automatically inserts an 'A' press after each movement step, transforming the tool from a simple path generator into a fully automated area-searching script. This is critical for testing the 'hidden item' hypothesis in the Slowpoke Well.",
-        "timestamp": "2025-12-12T19:07:47.633Z",
-        "action_counter": 49065
-      },
-      {
-        "commit_message": "feat: Create explore_accessible_tiles tool. This tool automates the systematic exploration of a contained area by first identifying all reachable tiles via BFS, then generating a greedy path to visit every single one. This is designed to solve 'find the hidden item/switch' puzzles by automating the brute-force search process, which is tedious and error-prone to do manually. This directly addresses the final hypothesis from the puzzle_solver agent for the Slowpoke Well.",
-        "timestamp": "2025-12-14T04:24:33.272Z",
-        "action_counter": 49652
-      },
-      {
-        "commit_message": "refactor: Add extensive debug prints to stderr. The tool is catastrophically failing by being inconsistent; it triggered a key scripted encounter once and has failed to do so ever since. This commit adds logging to trace the set of tiles the BFS identifies as accessible and the final path generated. This will allow me to diagnose whether the inconsistency stems from a faulty map parse or a bug in the path generation logic.",
-        "timestamp": "2025-12-15T08:52:37.021Z",
-        "action_counter": 50342
-      },
-      {
-        "commit_message": "refactor: Add step-by-step path tracing to stderr. The tool's inconsistency in triggering a scripted encounter suggests the issue may be in the path it takes. This commit adds logging for every single tile the tool moves to, allowing for precise identification of the trigger tile if the event occurs again. This is a critical diagnostic step to isolate the point of failure or confirm the trigger's location.",
-        "timestamp": "2025-12-15T08:53:47.973Z",
-        "action_counter": 50344
-      },
-      {
-        "commit_message": "fix: Make path generation deterministic. The tool was catastrophically failing by using a non-deterministic greedy algorithm for path generation, causing inconsistent behavior that made debugging a puzzle impossible. This commit fixes the issue by sorting the list of accessible tiles before path generation, ensuring the tool produces the exact same path every time it is run from the same starting position. This is critical for reliable testing of environmental triggers.",
-        "timestamp": "2025-12-15T09:02:03.154Z",
-        "action_counter": 50366
-      },
-      {
-        "commit_message": "fix: Overhaul path generation with nested BFS. The previous version used a naive greedy algorithm to plan its path, which catastrophically failed by generating impossible movements (e.g., jumping over walls). This commit replaces that logic with a robust, nested BFS approach. The tool now calculates a valid path to the nearest unvisited tile at each step, ensuring the entire exploration route is traversable and resolving the critical tool failure.",
-        "timestamp": "2025-12-15T09:32:46.467Z",
-        "action_counter": 50431
       }
     ]
   }
