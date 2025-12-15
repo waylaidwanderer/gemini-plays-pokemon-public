@@ -5,7 +5,7 @@
 - **Current Task:** Battle Tower Challenge (Level 20).
 - **Status:** Attempt 64 - Round 1 vs Swimmer Dykstra.
 - **Intel:**
-  - **Swimmer Dykstra:** Steelix (Ground/Steel/Swagger).
+  - **Swimmer Dykstra:** Steelix (Earthquake/Swagger), Pikachu (Thunderbolt/Toxic), Gyarados.
   - **Youngster Wright:** Nidoking (Earthquake/Blizzard), Lapras (Thunderbolt/Confuse Ray/Gold Berry).
   - **General:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf).
 - **Needs:** Win 7 Battles.
