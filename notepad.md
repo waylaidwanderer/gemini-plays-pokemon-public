@@ -15,7 +15,7 @@
 ### 📋 Status
 - **Status:** Attempt 79. Preparation.
 - **Last Result:** Attempt 78 Loss vs Scizor (Steel Wing).
-- **Current Task:** Re-gear Team. Flux -> Give Psncureberry to Rumpus. Flux gets Berry.
+- **Current Task:** Enter Battle Tower (Attempt 79). Team Ready (Rumpus Przcure, Flux Itemless, Bahamut Dragon Fang).
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
