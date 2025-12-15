@@ -351,5 +351,5 @@
 # Attempt 80 Battle Log
 - Battle 1 vs Boarder Rockwell (Miltank).
 - Miltank Moves: Thunder, Earthquake, Attract.
-- Status: Rumpus (3/64 HP, Infatuated). Miltank is faster.
-- Plan: Sacrifice Rumpus to bring Bahamut in safely (Clean Switch).
+- Status: Rumpus (FNT). Bahamut sent in.
+- Plan: Bahamut to T-Wave then Surf/Dragonbreath.
