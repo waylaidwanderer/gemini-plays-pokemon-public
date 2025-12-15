@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Prep (Equipping Bahamut).
-- **Action:** Equip Berry to Bahamut.
-- **Reason:** Bahamut needs recovery item.
+- **Status:** Attempt 69 - Challenge Start.
+- **Action:** Talk to Receptionist.
+- **Reason:** Begin Level 20 Challenge.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
