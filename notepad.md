@@ -401,3 +401,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Battle Event:** Walker's Pikachu OHKO'd Flux (4x Resist) with Crit Thunderbolt. Likely holding Light Ball.
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard, holds Berry, Outspeeds Dratini).
 - **Battle 1 (Beauty Frost):** Rumpus FNT (Blizzard). Lapras took Crit Strength. Bahamut vs Lapras (Weakened). Strategy: Extremespeed (Priority) or die.
+- **Critical Issue:** Dragon Fang is missing from inventory list. Need to verify if Bahamut is holding it or if it's lost.
