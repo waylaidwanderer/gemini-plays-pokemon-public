@@ -68,4 +68,4 @@
 - Path North at x=5 (Rows 23-26) is blocked by a Pokemon Battle (Youngsters + Monsters). Must find alternate route to the East.
 - Checked path North. Sign at (13, 29) says 'MR.POKéMON'S HOUSE STRAIGHT AHEAD!'. Navigating North along x=14.
 - Path North at x=14 is blocked by a wall at y=19.
-- Detouring East through Tall Grass (x=17-19) to bypass the wall.
+- Detoured East through Tall Grass (x=17-19) and found Mr. Pokemon's House at (17, 5).
