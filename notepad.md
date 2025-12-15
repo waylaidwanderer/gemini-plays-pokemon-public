@@ -25,3 +25,4 @@
 - Route 29: Hoppip (Splash)
 - Route 29 Navigation: Westbound path blocked by trees at x=37 (y=12-15). Must go south to y=16 to bypass.
 - Successfully bypassed tree blockade. Continuing west on the lower path.
+- Youngster at (27, 16) on Route 29 advises that weak Pokemon should stay out of grass.
