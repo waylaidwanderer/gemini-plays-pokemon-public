@@ -28,3 +28,4 @@
 - Youngster at (27, 16) on Route 29 advises that weak Pokemon should stay out of grass.
 - Route 29: Lower path dead-ends at x=14. Must backtrack to x=23 to go north through a gap in the ledge.
 - Route 29: Path at x=21 blocked by CUT_TREE. Must backtrack East to x=44 to find a path North around the ledge.
+- Route 29: Vertical Ledges at x=28 act as one-way gates allowing movement West but blocking movement East. Must go around them at y=14-16 to go East.
