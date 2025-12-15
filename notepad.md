@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 70 - Challenge Start.
-- **Action:** Enter Battle Room.
-- **Reason:** Items Equipped. Ready to fight.
+- **Status:** Attempt 70 - Battle 1 (Youngster Wright).
+- **Action:** Switch to Bahamut.
+- **Reason:** Rumpus Fainted (Crit Surf). Flux 4x weak to Ground. Bahamut Resists Water.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
