@@ -13,13 +13,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 78. Battle 1 vs Officer Turner.
-- **Opponent 1:** Pikachu (Defeated).
-- **Opponent 2:** Scizor (Sandstorm, Slash, Steel Wing). Low HP (~25).
-- **Rumpus:** Badly Poisoned (Toxic). Przcureberry Consumed.
-- **Flux:** Fainted (Slash).
-- **Bahamut:** Fainted (Steel Wing).
-- **Current Task:** Finish Scizor with Rumpus (Strength). Rumpus 24/64 (Toxic) vs Scizor ~20% HP. Rumpus is FASTER.
+- **Status:** Attempt 79. Lobby.
+- **Last Result:** Attempt 78 Loss vs Officer Rodriguez (Scizor). Scizor moves: Slash, Sandstorm, Steel Wing. Rumpus outsped but failed to KO.
+- **Current Task:** Start Attempt 79.
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
