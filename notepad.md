@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Battle 1 (Scientist).
-- **Action:** Toxic Stall Wigglytuff.
-- **Reason:** Flux resists Normal. Wigglytuff has high HP.
+- **Status:** Attempt 69 - Battle 1 (Scientist Mori).
+- **Action:** Rumpus vs Hitmonchan.
+- **Reason:** Rumpus uses Strength. Flux Fainted.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
