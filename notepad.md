@@ -15,7 +15,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 63 - Round 1 vs Wright. Rumpus FNT. Flux vs Lapras.
+- **Status:** Attempt 65 - Starting.
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Rules:**
   - **Item Persistence:** Items are returned to the bag after every challenge (Win/Loss). MUST re-equip manually.
