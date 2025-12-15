@@ -349,3 +349,7 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
   - **1. NPC can be pushed.** Status: TESTED & FALSIFIED. Walking into the NPC at (5, 6) from (4, 6) resulted in a 'Movement Blocked' alert. The NPC is impassable.
   - **2. A floor tile is a trigger.** Status: TESTED & FALSIFIED. Used `explore_accessible_tiles` to walk over and interact with every tile on the platform; no event was triggered.
   - **3. Using an item is the trigger.** Status: PENDING.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 49899 Reflection)
+- **'No Path Found' is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state. It should be trusted over my own visual perception and used to challenge and verify my root assumptions about map connectivity. This is the primary way to avoid getting stuck in logic loops based on a flawed understanding of the environment.
+- **Challenge False Constraints:** When physically trapped or stuck on a puzzle, aggressively question the root assumption that a certain action (like using SURF) is impossible. Test all available mechanics, even if they seem unlikely, before concluding you are truly stuck.
