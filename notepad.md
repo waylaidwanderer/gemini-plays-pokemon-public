@@ -336,3 +336,6 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 
 # Slowpoke Well B1F Puzzle Insight
 - The `FLOOR_UP_WALL` tiles create a one-way barrier. It is impossible to travel north over them from the south. This effectively separates the southern portion of the map (where the B2F ladder is) from the northern and western sections.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 49847 Reflection)
+- **Challenge False Constraints:** When physically trapped or stuck on a puzzle, the solution might not be in the immediate, obvious space. Aggressively question the root assumption that the solution must be *on* the platform or *in* the room. Consider interactions with the broader environment (like using SURF on adjacent water) as a primary hypothesis.
