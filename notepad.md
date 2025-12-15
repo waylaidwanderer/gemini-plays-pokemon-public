@@ -13,7 +13,7 @@
 - LEDGE_HOP_DOWN/LEFT/RIGHT: One-way traversable (jump down). Impassable from other directions.
 
 ## Current Plan
-- Head west through Route 29 to Cherrygrove City.
+- Find Mr. Pokemon's House on Route 30 (North of Cherrygrove).
 
 ## Journal
 - Player Name: GEM
