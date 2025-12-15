@@ -3,18 +3,17 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Register for Level 20 Challenge.
-- **Status:** Attempt 80. Battle 1.
-- **Last Result:** Attempt 79 Loss vs Camper McMahill (Azumarill).
+- **Status:** Attempt 81. Battle 1.
+- **Last Result:** Attempt 80 Loss vs Boarder Rockwell (Miltank).
 - **Team:** Rumpus, Flux, Bahamut.
 - **Location:** Battle Tower Lobby.
 - **Note:** Observed game returning to Level Selection after Save. Must re-select L:20.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 80. Battle 1.
-- **Last Result:** Attempt 79 Loss vs Camper McMahill (Azumarill).
+- **Status:** Attempt 81. Battle 1.
+- **Last Result:** Attempt 80 Loss vs Boarder Rockwell (Miltank).
 - **Current Task:** Register for Level 20 Challenge.
-- **Notes:** Azumarill (Blizzard/Rain Dance) and Umbreon (Toxic/Mud-Slap) are major threats.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
@@ -24,6 +23,7 @@
 - **Counter:** Reflects Physical. Use Special vs Blissey/Wobbuffet.
 
 ### ⚠️ Threat Intel
+- **Boarder Rockwell:** Miltank (Thunder, Earthquake, Attract).
 - **Camper McMahill:** Umbreon (Toxic/Mud-Slap/Attract), Azumarill (Blizzard/Rain Dance).
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?), Pikachu (Thunderbolt, Toxic, Light Ball?, Outspeeds Rumpus).
 - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt), Gyarados (Hyper Beam).
