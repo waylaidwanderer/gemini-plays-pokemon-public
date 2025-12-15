@@ -61,5 +61,5 @@
 - Found a house at (7, 39). Investigating.
 - Found Fruit Tree at (5, 39).
 - Found House at (7, 39) which might be Mr. Pokemon's.
-- Entered 'Route30BerryHouse'. This is likely not Mr. Pokemon's house, but I should check.
-- NPC located at (2, 3).
+- Entered 'Route30BerryHouse'. Confirmed this is NOT Mr. Pokemon's house. The man inside teaches about Berries.
+- NPC located at (2, 3) discusses Berries.
