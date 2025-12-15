@@ -421,3 +421,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - T5: Switch Vortex (Immune to Mud-Slap). Success.
   - T12: Vortex (5 HP) used Quick Attack (Sacrifice).
   - T12: Vortex fainted (Poison). Switch Rumpus (Revenge Kill).
+  - T13: Rumpus (4 HP) uses Strength. Last stand.
