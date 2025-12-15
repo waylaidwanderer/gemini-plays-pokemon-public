@@ -18,6 +18,11 @@
   - T2: Switch Flux (Immune to Toxic).
   - T3: Flux used Toxic (Failed). Umbreon Mud-Slap (4x Dmg).
   - T4: Switch Vortex (Immune to Mud-Slap).
+  - T5: Umbreon Toxic. Vortex Badly Poisoned.
+  - T6: Umbreon Protect. Vortex Mud-Slap blocked.
+  - T7: Vortex used Steel Wing. Umbreon Leftovers.
+  - T8: Vortex used Mud-Slap.
+  - T9: Switching to Rumpus.
   - T5: Umbreon used Toxic. Vortex Poisoned.
   - T6: Umbreon used Protect. Vortex Mud-Slap blocked.
 - **Recent Intel:**
