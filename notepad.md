@@ -12,10 +12,10 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 74 - Loss vs Walker (Scizor).
-- **Threat Intel Update:** Walker's Scizor knows Steel Wing.
-- **Last Result:** Loss vs Heracross (Attempt 73).
-- **Action:** Re-equip Flux (Psncureberry) and Challenge.
+- **Status:** Attempt 75 - Prep.
+- **Last Result:** Attempt 74 Loss vs Walker (Scizor - Steel Wing, Outsped Dratini).
+- **Threat Intel:** Walker's Scizor (Steel Wing, Fast), Pikachu (Light Ball, Fast).
+- **Action:** Check items, Re-challenge L:20.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
