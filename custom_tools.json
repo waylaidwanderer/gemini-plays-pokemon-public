@@ -44,12 +44,17 @@
         }
       }
     },
-    "python_script": "import json\ntry:\n    data = input_data\nexcept NameError:\n    data = {}\n\nslot = int(data.get('move_slot', 1))\n\ncmds = []\n# Select FIGHT (Assumes cursor is on FIGHT)\ncmds.append(\"A\")\ncmds.append(\"sleep 250\")\n\n# Navigate to move slot\n# Slot 1 is top, 2 is one down, etc.\n# Note: Cursor memory might affect this, but usually resets or stays on last used.\n# If we assume it stays on last used, we might need a \"reset\" or absolute knowledge.\n# For now, assuming top/reset for simplicity or relying on user to know.\n# Actually, in Gen 2, it often remembers. But if we only use Slot 1 (Tackle), it's fine.\nif slot == 2:\n    cmds.append(\"Down\")\nelif slot == 3:\n    cmds.extend([\"Down\", \"Down\"])\nelif slot == 4:\n    cmds.extend([\"Down\", \"Down\", \"Down\"])\n\ncmds.append(\"sleep 250\")\ncmds.append(\"A\") # Select Move\n\n# Advance Text\ncmds.append(\"sleep 500\")\ncmds.extend([\"B\"] * 5)\n\nprint(json.dumps(cmds))",
+    "python_script": "import json\n\n# Get input\nmove_slot = int(input_data.get('move_slot', 1))\n\n# Initialize button list\nbuttons = []\n\n# 1. Select FIGHT\n# We assume the cursor is already on FIGHT (top-left) in the main menu.\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# 2. Navigate to Move\n# Cursor in move menu starts at position 1.\n# We need to press Down (move_slot - 1) times.\nfor _ in range(move_slot - 1):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n\n# 3. Select the Move\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# 4. Mash B to advance text/animation\n# We'll add a sequence of B presses to clear text.\n# We use a loop to append single actions to avoid consecutive sleeps if we were adding them differently,\n# but here we alternate B and sleep, which is valid.\nfor _ in range(8):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 250\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-15T21:10:24.341Z",
         "action_counter": 121
+      },
+      {
+        "commit_message": "Fixed consecutive sleep error in battle move execution.",
+        "timestamp": "2025-12-15T23:28:58.756Z",
+        "action_counter": 323
       }
     ]
   },
