@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 71 - Prep (Equip Items).
-- **Last Result:** Loss vs Youngster Wright (Quagsire Rain+Surf).
-- **Action:** Finding Dragon Fang for Bahamut.
+- **Status:** Attempt 72 - Prep.
+- **Last Result:** Loss vs Youngster (Arcanine).
+- **Action:** Re-enter Battle Tower.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
