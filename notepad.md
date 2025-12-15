@@ -26,7 +26,7 @@
 
 ## Pokemon Locations
 - Route 29: Hoppip (Splash), Sentret, Pidgey
-- Route 30: Caterpie
+- Route 30: Caterpie, Pidgey
 
 ## Route 29 Navigation Log
 - **East Section:** Bypass trees at x=37 by going south to y=16.
