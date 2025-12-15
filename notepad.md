@@ -125,20 +125,24 @@
 ## Type Effectiveness Chart (Verified)
 | Attacking Type | Defending Type | Effectiveness |
 | :--- | :--- | :--- |
+| Bug | Psychic | Super Effective |
+| Fighting | Rock | Super Effective |
+| Fire | Rock | Not Very Effective |
+| Flying | Rock | Not Very Effective |
 | Grass | Fire | Not Very Effective |
+| Ground | Flying | No Effect |
 | Normal | Ghost | No Effect |
 | Normal | Rock | Not Very Effective |
-| Flying | Rock | Not Very Effective |
-| Fire | Rock | Not Very Effective |
-| Ground | Flying | No Effect |
 | Normal | Water/Rock | Not Very Effective |
-| Rock | Flying | Super Effective |
 | Rock | Bug | Super Effective |
+| Rock | Flying | Super Effective |
 | Water | Fire | Super Effective |
-| Water | Rock | Super Effective |
 | Water | Ground | Super Effective |
+| Water | Rock | Super Effective |
 | Water | Water | Not Very Effective |
-| Fighting | Rock | Super Effective |
+
+## Tool Maintenance Notes
+- The `path` tool is confirmed to be buggy and must be fixed at the next opportunity. It repeatedly fails to find valid paths around static NPCs.
 
 ## Menu Navigation
 - For complex menu inputs (like on-screen keyboards), perform all directional movements in one turn and the final confirmation ('A' button) in the next.
