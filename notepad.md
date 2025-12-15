@@ -15,7 +15,7 @@
 ### 📋 Status
 - **Status:** Attempt 78. Battle 1 vs Officer Turner.
 - **Opponent 1:** Pikachu (Defeated).
-- **Opponent 2:** Scizor.
+- **Opponent 2:** Scizor (Sandstorm).
 - **Rumpus:** Badly Poisoned (Toxic).
 - **Current Task:** Defeat Scizor.
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
