@@ -11,7 +11,7 @@
 ### 📋 Status
 - **Status:** Attempt 69 - Battle 1 (Scientist Mori).
 - **Action:** Rumpus vs Hitmonchan.
-- **Reason:** Rumpus uses Strength. Flux Fainted.
+- **Reason:** Rumpus uses Strength. Flux Fainted. Hitmonchan used Gold Berry.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
