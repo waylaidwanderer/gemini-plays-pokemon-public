@@ -28,6 +28,7 @@
 - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt), Gyarados (Hyper Beam).
 - **Beauty Frost:** Lapras (Blizzard, Confuse Ray, Holds Gold Berry).
 - **General Threats:**
+  - **Alakazam:** High Sp. Atk/Speed, Low Phys Def. Counter: Rumpus (Strength).
   - **Miltank:** EQ, Attract. Counter: Vortex.
   - **Starmie:** Surf, Psychic. Counter: Flux.
   - **Blissey:** Counter, Psychic. Counter: Flux (Toxic).
