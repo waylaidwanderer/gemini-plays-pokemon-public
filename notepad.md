@@ -3,7 +3,7 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 76 - Battle 1 (Vs Alakazam). Rumpus FNT. Flux Active.
+- **Status:** Attempt 76 - Battle 1 (Vs Alakazam). Rumpus FNT. Flux Active. Plan: Sacrifice Flux for Bahamut safe switch.
 - **Threat Intel Update:** Walker's Scizor knows Steel Wing.
 - **Last Result:** Attempt 72 Loss vs Azumarill (Rain Dance/Surf).
 - **Team:** Rumpus, Flux, Bahamut.
@@ -12,7 +12,7 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 76 - Battle 1 (Vs Alakazam). Rumpus FNT. Flux Active.
+- **Status:** Attempt 76 - Battle 1 (Vs Alakazam). Rumpus FNT. Flux Active. Plan: Sacrifice Flux for Bahamut safe switch.
 - **Last Match:** Attempt 75 Loss vs Beauty Frost (Arcanine).
 - **Notes:** Bahamut outsped by Arcanine. Items persist on loss. Retrieved items to bag.
 
