@@ -316,3 +316,5 @@
 
 # ONGOING INVESTIGATIONS
 - **A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool.** The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
+- **Paradoxical State Resolution:** When my tools (e.g., `find_path`) and direct observation repeatedly confirm a path is blocked, but the system issues strong, repeated warnings that I am not stuck, I must trust the system warnings. This indicates my understanding of the game's rules for that specific obstacle is flawed, and the obstacle is not what it appears to be.
+- **Verify Pathing with Tools:** Do not rely solely on visual perception to determine if a path is blocked, especially in 2D top-down games. Paths can be wider than they appear. Use pathfinding tools to confirm or deny the existence of a route before concluding an area is inaccessible.
