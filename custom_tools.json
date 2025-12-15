@@ -19,5 +19,38 @@
         "action_counter": 121
       }
     ]
+  },
+  "check_reachability": {
+    "description": "Analyzes the map to find all reachable tiles from a given starting coordinate (x, y) within a maximum depth. Uses BFS to explore the map XML. Useful for checking if a path exists or if an area is a dead end.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "integer",
+          "description": "Starting X coordinate"
+        },
+        "y": {
+          "type": "integer",
+          "description": "Starting Y coordinate"
+        },
+        "max_depth": {
+          "type": "integer",
+          "default": 20,
+          "description": "Maximum BFS depth"
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\ndef analyze_reachability(start_x, start_y, max_dist=20):\n    try:\n        # map_xml_string is automatically injected into the environment\n        root = ET.fromstring(map_xml_string)\n    except NameError:\n        print(\"Error: map_xml_string not found in environment.\")\n        return []\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return []\n\n    # Parse map into dict\n    grid = {}\n    for tile in root.findall(\".//Tile\"):\n        try:\n            x = int(tile.get(\"id\"))\n            # Parent is Row, find parent via findall in standard ET or just assume structure\n            # Since standard ET doesn't support '..', we iterate rows then tiles.\n            pass \n        except:\n            pass\n            \n    # Better parsing strategy for standard ElementTree\n    grid = {}\n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            grid[(x, y)] = t_type\n    \n    queue = collections.deque([(start_x, start_y, 0)])\n    visited = set([(start_x, start_y)])\n    reachable = []\n    \n    # Define impassable types\n    IMPASSABLE = [\"WALL\", \"HEADBUTT_TREE\", \"CUT_TREE\", \"WATER\", \"PC\", \"Sign\", \"Window\"] \n    # Add object handling if possible, but map_xml_string tiles might check 'has-object'\n    \n    while queue:\n        cx, cy, dist = queue.popleft()\n        if dist > max_dist: continue\n        \n        # Check current tile props\n        ctype = grid.get((cx, cy), \"UNKNOWN\")\n        reachable.append({\"x\": cx, \"y\": cy, \"type\": ctype, \"dist\": dist})\n        \n        for dx, dy in [(0,1), (0,-1), (1,0), (-1,0)]:\n            nx, ny = cx+dx, cy+dy\n            \n            if (nx, ny) in visited: continue\n            if (nx, ny) not in grid: continue\n            \n            ntype = grid[(nx, ny)]\n            \n            # Basic collision\n            if ntype in IMPASSABLE:\n                continue\n                \n            # One-way logic (Basic)\n            if ctype == \"LEDGE_HOP_DOWN\" and dy != 1: continue\n            if ctype == \"LEDGE_HOP_LEFT\" and dx != -1: continue\n            if ctype == \"LEDGE_HOP_RIGHT\" and dx != 1: continue\n            \n            # Entering ledge from wrong side (cannot go UP into HOP_DOWN)\n            if ntype == \"LEDGE_HOP_DOWN\" and dy == -1: continue\n            if ntype == \"LEDGE_HOP_LEFT\" and dx == 1: continue\n            if ntype == \"LEDGE_HOP_RIGHT\" and dx == -1: continue\n            \n            visited.add((nx, ny))\n            queue.append((nx, ny, dist+1))\n            \n    return reachable\n\n# Execute\nsx = input_data.get('x')\nsy = input_data.get('y')\nmd = input_data.get('max_depth', 20)\nresults = analyze_reachability(sx, sy, md)\nprint(f\"Found {len(results)} reachable tiles.\")\n# Print first 5 and last 5 to keep output clean\nif len(results) > 10:\n    print(results[:5])\n    print(\"...\")\n    print(results[-5:])\nelse:\n    print(results)",
+    "history": [
+      {
+        "commit_message": "Created a tool to check reachable tiles from a starting point, assisting with navigation and avoiding dead ends.",
+        "timestamp": "2025-12-15T21:42:03.449Z",
+        "action_counter": 156
+      }
+    ]
   }
 }

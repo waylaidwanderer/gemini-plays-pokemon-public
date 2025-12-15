@@ -10,6 +10,7 @@
 - STAIRCASE: Traversable. Warps to another floor.
 - WARP_CARPET_DOWN: Traversable. Warps to a different map.
 - DOOR: Traversable. Warps to indoor maps.
+- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way traversable (jump down). Impassable from other directions.
 
 ## Current Plan
 - Head west through Route 29 to Cherrygrove City.
@@ -21,14 +22,22 @@
 - Decided NOT to use Daylight Saving Time (it's December).
 - Chose Cyndaquil as starter.
 - Received Potion from Elm's Aide.
+
 ## Pokemon Locations
-- Route 29: Hoppip (Splash)
-- Route 29 Navigation: Westbound path blocked by trees at x=37 (y=12-15). Must go south to y=16 to bypass.
-- Successfully bypassed tree blockade. Continuing west on the lower path.
-- Youngster at (27, 16) on Route 29 advises that weak Pokemon should stay out of grass.
-- Route 29: Lower path dead-ends at x=14. Must backtrack to x=23 to go north through a gap in the ledge.
-- Route 29: Path at x=21 blocked by CUT_TREE. Must backtrack East to x=44 to find a path North around the ledge.
-- Route 29: Vertical Ledges at x=28 act as one-way gates allowing movement West but blocking movement East. Must go around them at y=14-16 to go East.
-- Route 29: Corridor at x=49 is a dead end blocked by trees and walls. Must backtrack to x=44/43 at y=14/15 to cross West.
-- Route 29: North Path access confirmed. Go South to y=16, West to x=31 Gap, North to y=11, East to x=42, North to y=8, then West.
-- Route 29: Ledge at x=43 blocks West movement from start. Must loop around it.
+- Route 29: Hoppip (Splash), Sentret, Pidgey
+
+## Route 29 Navigation
+- **Westbound Blockade:** Trees at x=37 (y=12-15). Bypass: Go south to y=16.
+- **Ledge Blockade (West):** Path at x=21 blocked by CUT_TREE.
+- **Dead Ends:** Lower path ends at x=14. Corridor at x=49 (North) is a dead end.
+- **Ledge Puzzle Solution:**
+  1. From start (East), go South to y=16 to bypass trees.
+  2. Go West to x=31 Gap.
+  3. Go North through gap to y=11.
+  4. Go East behind ledges to x=42.
+  5. Go North to y=8, then West to Cherrygrove.
+- **One-Way Ledges:** Vertical Ledges at x=28 block Eastward movement.
+
+## NPCs
+- Youngster at (27, 16): Tips about grass.
+- Teacher at (16, 11): Unreachable from lower path.
