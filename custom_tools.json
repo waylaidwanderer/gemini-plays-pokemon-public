@@ -334,7 +334,7 @@
         "current_screen_text"
       ]
     },
-    "python_script": "import json\nimport re\nimport sys\n\ndef select_item(target_item_name, current_screen_text):\n    lines = current_screen_text.strip().split('\\n')\n    \n    item_list = []\n    cursor_pos = -1\n    \n    try:\n        start_index = next(i for i, line in enumerate(lines) if 'POCKET' in line) + 2\n    except StopIteration:\n        # If the screen format is unexpected, output an empty list to stdout and exit.\n        print(json.dumps([]))\n        return\n\n    item_pattern = re.compile(r\"(\\s*>?\\s*)([A-Z0-9/\\\\ ']+?)(\\s*x\\d+)?$\")\n\n    for i, line in enumerate(lines[start_index:]):\n        match = item_pattern.match(line.strip())\n        if match:\n            cursor = match.group(1)\n            item_name = match.group(2).strip()\n            \n            item_list.append(item_name)\n            if '>' in cursor or '▶' in cursor:\n                cursor_pos = len(item_list) - 1\n    \n    if not item_list or cursor_pos == -1:\n        # If parsing failed to find items or a cursor, output empty list to stdout.\n        print(json.dumps([]))\n        return\n\n    try:\n        target_pos = item_list.index(target_item_name)\n    except ValueError:\n        # If the target item isn't on screen, output empty list to stdout.\n        print(json.dumps([]))\n        return\n\n    num_items = len(item_list)\n    dist_down = (target_pos - cursor_pos + num_items) % num_items\n    dist_up = (cursor_pos - target_pos + num_items) % num_items\n\n    buttons = []\n    if dist_down <= dist_up:\n        buttons = ['Down'] * dist_down\n    else:\n        buttons = ['Up'] * dist_up\n    \n    print(json.dumps(buttons))\n\n# Read JSON from standard input, process it, and print the result to standard output.\ninput_data = json.loads(sys.stdin.read())\nselect_item(input_data['target_item_name'], input_data['current_screen_text'])\n",
+    "python_script": "import json\nimport sys\n# Minimal script to test if the tool can output anything at all.\nprint(json.dumps([\"A\"]))",
     "history": [
       {
         "commit_message": "feat: Create select_item tool to automate bag navigation. This tool parses the item list from the screen text, calculates the shortest path to a target item, and outputs the necessary button presses. This addresses a critical overwatch suggestion to stop inefficient manual scrolling and improves battle efficiency.",
@@ -380,6 +380,11 @@
         "commit_message": "fix: Redirect all output to stdout. The agent identified that the tool was printing error states to stderr, causing the parent process listening on stdout to receive an empty string and fail with a JSONDecodeError. This commit applies the agent's robust fix, redirecting all outputs to stdout to ensure a valid JSON response is always provided, resolving the catastrophic tool failure.",
         "timestamp": "2025-12-15T06:46:37.520Z",
         "action_counter": 50087
+      },
+      {
+        "commit_message": "refactor: Isolate failure with minimal script. The tool is catastrophically failing with a JSONDecodeError, suggesting it's producing no output. This commit replaces the complex logic with a minimal 'hello world' script that only prints a hardcoded JSON array. This is a diagnostic step to determine if the fault lies in the script's logic or the tool execution environment itself.",
+        "timestamp": "2025-12-15T06:48:11.881Z",
+        "action_counter": 50090
       }
     ]
   },
