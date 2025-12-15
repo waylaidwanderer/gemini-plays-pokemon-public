@@ -12,10 +12,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 75 - Battle 1 vs Beauty Frost.
-- **Opponent:** Arcanine (Fresh).
-- **Team:** Rumpus (FNT), Flux (FNT), Bahamut (5 HP).
-- **Action:** Surf (Win Condition: Arcanine miss/status).
+- **Status:** Attempt 76 - Preparation.
+- **Last Match:** Attempt 75 Loss vs Beauty Frost (Arcanine).
+- **Notes:** Bahamut outsped by Arcanine. Items persist on loss.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
