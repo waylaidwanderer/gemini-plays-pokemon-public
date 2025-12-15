@@ -27,6 +27,7 @@
 ### ⚠️ Threat Intel
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?), Pikachu (Thunderbolt, Toxic, Light Ball?, Outspeeds Rumpus).
 - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt), Gyarados (Hyper Beam).
+- **Beauty Frost:** Lapras (Blizzard, Confuse Ray, Holds Gold Berry).
 - **General Threats:**
   - **Miltank:** EQ, Attract. Counter: Vortex.
   - **Starmie:** Surf, Psychic. Counter: Flux.
