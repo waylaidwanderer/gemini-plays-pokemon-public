@@ -23,7 +23,7 @@
 - **Counter:** Reflects Physical. Use Special vs Blissey/Wobbuffet.
 
 ### ⚠️ Threat Intel
-- **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?).
+- **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?), Pikachu.
 - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt), Gyarados (Hyper Beam).
 - **General Threats:**
   - **Miltank:** EQ, Attract. Counter: Vortex.
