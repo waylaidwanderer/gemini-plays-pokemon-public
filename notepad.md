@@ -3,20 +3,21 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 62 - Battle 1 vs Boarder Crawford.
-- **Intel:** Quagsire (Surf, Tanky), Hitmonchan (Mega Punch, Fire/Ice Punch), Arcanine (Flamethrower, Iron Tail).
+- **Status:** Attempt 63 - Prep Phase.
+- **Intel:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf), Hitmonchan, Arcanine.
 - **Needs:** Win 7 Battles.
-- **Last Result:** Attempt 61 Loss (Quagsire).
+- **Last Result:** Attempt 62 Loss (Umbreon Stall).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
-- **Status:** Attempt 62 - Battle 1 vs Boarder Crawford.
+- **Status:** Attempt 63 - Prep Phase.
 - **Battle Log:**
-  - T1-T19: Stall war with Umbreon. Rumpus/Vortex fainted.
-  - T20: Flux took Mud-Slap (Surived on 2HP), used Sonicboom.
-  - T21: Flux (2HP) vs Umbreon (~60%). Must Attack.
+  - [New Attempt]
+- **Recent Intel:**
+  - Boarder Crawford's Umbreon: Toxic, Mud-Slap, Protect, Leftovers. Hard counter.
+  - Quagsire: Surf, Tanky.
 - **Recent Intel:**
   - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
