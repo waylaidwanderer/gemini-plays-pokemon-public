@@ -46,3 +46,4 @@
 - Fisher at (25, 3) gives a tutorial tip about saving the game.
 - Route 29: Path West at y=4 blocked by tree at x=23. Path West at y=5 blocked by tree at x=20. Zig-zag: South to y=5, West to x=21, North to y=4, then West.
 - Route 29: Ledges at x=15 (y=2-4) block Westward movement. Must go South to y=6 to bypass.
+- Route 29: Plateau at (12-14, 2-4) contains Fruit Tree and Cooltrainer. Accessible only from North/West? Ledges at y=5 block access from South.
