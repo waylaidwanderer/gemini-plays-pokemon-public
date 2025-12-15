@@ -760,44 +760,5 @@
         "action_counter": 50431
       }
     ]
-  },
-  "find_path": {
-    "description": "Finds the shortest path between two points on the current map using a Breadth-First Search (BFS) algorithm. It accounts for impassable tiles like walls, water (unless surfing), and objects (NPCs, items). If the destination is impassable, it finds a path to an adjacent traversable tile.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "string"
-        },
-        "start_y": {
-          "type": "string"
-        },
-        "end_x": {
-          "type": "string"
-        },
-        "end_y": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef find_path(start_x_str, start_y_str, end_x_str, end_y_str, map_xml_string):\n    try:\n        start_x, start_y, end_x, end_y = map(int, [start_x_str, start_y_str, end_x_str, end_y_str])\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n\n        impassable_types = {'WALL', 'unseen', 'unknown', 'WATER', 'VOID'}\n        grid = {}\n        for row_elem in root.findall('Row'):\n            y = int(row_elem.get('id'))\n            for tile_elem in row_elem.findall('Tile'):\n                x = int(tile_elem.get('id'))\n                tile_type = tile_elem.get('type')\n                has_object = tile_elem.get('has-object') == 'true'\n                is_impassable = tile_type in impassable_types or has_object\n                grid[(x, y)] = {'impassable': is_impassable}\n\n        def get_neighbors(x, y):\n            neighbors = []\n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    neighbors.append(((nx, ny), move))\n            return neighbors\n\n        start_pos = (start_x, start_y)\n        end_pos = (end_x, end_y)\n\n        if grid.get(start_pos, {}).get('impassable', True):\n            return {'error': 'Start position is on an impassable tile.'}\n\n        target_nodes = set()\n        is_end_impassable = grid.get(end_pos, {}).get('impassable', True)\n\n        if not is_end_impassable:\n            target_nodes.add(end_pos)\n        else:\n            for (nx, ny), _ in get_neighbors(end_x, end_y):\n                if not grid.get((nx, ny), {}).get('impassable', True):\n                    target_nodes.add((nx, ny))\n        \n        if start_pos in target_nodes:\n            return {'path': []}\n\n        if not target_nodes:\n            return {'error': 'Destination and all adjacent tiles are impassable.'}\n\n        queue = deque([(start_pos, [])])\n        visited = {start_pos}\n\n        while queue:\n            (x, y), path = queue.popleft()\n            if (x, y) in target_nodes:\n                return {'path': path}\n            \n            for (nx, ny), move in get_neighbors(x, y):\n                if (nx, ny) not in visited and not grid.get((nx, ny), {}).get('impassable', True):\n                    visited.add((nx, ny))\n                    new_path = path + [move]\n                    queue.append(((nx, ny), new_path))\n\n        return {'error': 'No path found.'}\n    except Exception as e:\n        return {'error': f'Script failed with exception: {str(e)}'}\n\nresult = find_path(input_data['start_x'], input_data['start_y'], input_data['end_x'], input_data['end_y'], map_xml_string)\nprint(json.dumps(result))",
-    "history": [
-      {
-        "commit_message": "refactor: Remove faulty hardcoded logic for SlowpokeWellB2F. The special case was causing incorrect pathfinding results and preventing the tool from working as a general-purpose pathfinder on this map. Removing it restores the tool to a clean, predictable state.",
-        "timestamp": "2025-12-15T15:40:08.558Z",
-        "action_counter": 50898
-      },
-      {
-        "commit_message": "fix: Add start position validation via python_code_debugger. The agent identified a critical flaw where the tool would catastrophically fail with a 'No path found' error if the player's starting tile was impassable (e.g., occupied by an object). This commit implements the agent's fix, which adds a check to ensure the starting position is valid before beginning the search, resolving the tool's failure to find paths in valid scenarios.",
-        "timestamp": "2025-12-15T16:11:27.997Z",
-        "action_counter": 50942
-      }
-    ]
   }
 }
