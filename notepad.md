@@ -3,8 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 68 - Level Selection.
-- **Team:** Rumpus (PsnCure), Vortex (Berry), Flux (Mint).
+- **Status:** Attempt 68 - LOST (Steelix).
+- **Team:** Needs Re-equip.
 - **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
