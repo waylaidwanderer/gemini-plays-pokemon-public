@@ -326,3 +326,4 @@
   - **3. Fishing from a specific, single water-adjacent tile triggers an event.** Status: FAILED. (Test: Systematically use GOOD ROD on every valid tile.)
   - **4. A wild encounter is the trigger.** Status: FAILED (Defeated, no progress).
   - **5. A hidden switch is the trigger.** Status: FAILED (Checked all walls).
+- **Tool Inconsistency:** When a tool produces inconsistent results (sometimes working, sometimes not), the priority must shift from using the tool to debugging the tool. The inconsistency itself is a clue to the underlying problem, which is often a non-deterministic algorithm. The correct fix is to make the tool's logic deterministic.
