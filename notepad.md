@@ -11,9 +11,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 73 - Ready.
-- **Last Result:** Loss vs Azumarill (Attempt 72).
-- **Action:** Talk to Receptionist.
+- **Status:** Attempt 73 - Loss vs Lass (Heracross).
+- **Last Result:** Loss vs Heracross (Attempt 73).
+- **Action:** Return to Lobby.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
