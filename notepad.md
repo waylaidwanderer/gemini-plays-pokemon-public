@@ -10,8 +10,8 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
 - **Status:** Attempt 70 - Battle 1 (Youngster Wright).
-- **Action:** Switch to Bahamut.
-- **Reason:** Rumpus Fainted (Crit Surf). Flux 4x weak to Ground. Bahamut Resists Water.
+- **Action:** Flux vs Quagsire.
+- **Reason:** Bahamut KO'd. Flux Last Stand. Quagsire has Rain+Surf.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
