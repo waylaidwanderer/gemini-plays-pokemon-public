@@ -9,10 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Run:** Attempt 68 - Round 1 vs Fisher.
-- **Opponent:** Steelix (-2 Acc).
-- **Status:** Rumpus FNT. Vortex FNT. Flux Active.
-- **Strategy:** Sonicboom spam. Hope for misses.
+- **Status:** Attempt 68 - LOST (Round 1 vs Fisher).
+- **Cause:** Steelix (Earthquake) swept team.
+- **Next:** Return to Lobby, re-equip, and start Attempt 69.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
