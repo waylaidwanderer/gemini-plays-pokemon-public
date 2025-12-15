@@ -15,7 +15,7 @@
 ### 📋 Status
 - **Status:** Attempt 79. Battle 1 vs Camper McMahill.
 - **Last Result:** Attempt 78 Loss vs Scizor (Steel Wing).
-- **Current Task:** Battle 1 vs Umbreon (Mud-Slap). Flux critical. Strategy: Sacrifice Flux for clean switch to Rumpus.
+- **Current Task:** Battle 1 vs Umbreon (Toxic/Leftovers). Flux Fainted. Rumpus active (Badly Poisoned).
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
