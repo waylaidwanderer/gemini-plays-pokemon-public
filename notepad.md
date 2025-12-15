@@ -23,6 +23,7 @@
 - **Counter:** Reflects Physical. Use Special vs Blissey/Wobbuffet.
 
 ### ⚠️ Threat Intel
+- **Super Nerd Ogden:** Gyarados (Hyper Beam, Fire Blast).
 - **Boarder Rockwell:** Miltank (Thunder, Earthquake, Attract).
 - **Camper McMahill:** Umbreon (Toxic/Mud-Slap/Attract), Azumarill (Blizzard/Rain Dance).
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?), Pikachu (Thunderbolt, Toxic, Light Ball?, Outspeeds Rumpus).
