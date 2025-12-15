@@ -3,13 +3,13 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 64 - Round 1 vs Swimmer Dykstra.
+- **Status:** Attempt 65 - Prep (Lobby).
 - **Intel:**
-  - **Swimmer Dykstra:** Steelix (Earthquake/Swagger), Pikachu (Thunderbolt/Toxic), Gyarados.
-  - **Youngster Wright:** Nidoking (Earthquake/Blizzard), Lapras (Thunderbolt/Confuse Ray/Gold Berry).
-  - **General:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf).
+  - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt/Toxic), Gyarados (Hyper Beam/Surf).
+  - **Youngster Wright:** Nidoking (EQ/Blizzard), Lapras (T-Bolt/Confuse Ray).
+  - **General:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf/Rain Dance).
 - **Needs:** Win 7 Battles.
-- **Last Result:** Attempt 63 Loss (Wright: Nidoking/Lapras).
+- **Last Result:** Attempt 64 Loss (Dykstra).
 - **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
 - **Location:** Battle Tower Lobby.
 
