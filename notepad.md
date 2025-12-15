@@ -13,9 +13,9 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
 - **Status:** Attempt 75 - Battle 1 vs Beauty Frost.
-- **Opponent:** Lapras (Red HP).
+- **Opponent:** Arcanine.
 - **Team:** Rumpus (FNT), Flux (FNT), Bahamut (Active).
-- **Action:** Finish with Extremespeed.
+- **Action:** Surf (SE).
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
