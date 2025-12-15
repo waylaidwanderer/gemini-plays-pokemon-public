@@ -13,7 +13,10 @@
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status & Rules
 - **Status:** Attempt 62 - Battle 1 vs Boarder Crawford.
-- **Last Result:** Attempt 61 Loss (Quagsire).
+- **Battle Log:**
+  - T1: Rumpus poisoned.
+  - T2: Switch Vortex (Immune to Mud-Slap).
+  - T3: Switch Flux (Immune to Toxic).
 - **Recent Intel:**
   - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
