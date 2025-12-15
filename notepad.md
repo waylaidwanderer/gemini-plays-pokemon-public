@@ -3,7 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 74 - Prep.
+- **Status:** Attempt 74 - Loss vs Walker (Scizor).
+- **Threat Intel Update:** Walker's Scizor knows Steel Wing.
 - **Last Result:** Attempt 72 Loss vs Azumarill (Rain Dance/Surf).
 - **Team:** Rumpus, Flux, Bahamut.
 - **Location:** Battle Tower Lobby.
@@ -11,7 +12,8 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 74 - Prep.
+- **Status:** Attempt 74 - Loss vs Walker (Scizor).
+- **Threat Intel Update:** Walker's Scizor knows Steel Wing.
 - **Last Result:** Loss vs Heracross (Attempt 73).
 - **Action:** Re-equip Flux (Psncureberry) and Challenge.
 
