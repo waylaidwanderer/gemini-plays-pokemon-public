@@ -30,3 +30,5 @@
 - Route 29: Path at x=21 blocked by CUT_TREE. Must backtrack East to x=44 to find a path North around the ledge.
 - Route 29: Vertical Ledges at x=28 act as one-way gates allowing movement West but blocking movement East. Must go around them at y=14-16 to go East.
 - Route 29: Corridor at x=49 is a dead end blocked by trees and walls. Must backtrack to x=44/43 at y=14/15 to cross West.
+- Route 29: North Path access confirmed. Go South to y=16, West to x=31 Gap, North to y=11, East to x=42, North to y=8, then West.
+- Route 29: Ledge at x=43 blocks West movement from start. Must loop around it.
