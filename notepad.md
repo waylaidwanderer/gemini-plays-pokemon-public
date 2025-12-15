@@ -362,3 +362,6 @@ My puzzle_solver agent provided new hypotheses after I got stuck on the isolated
 # STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 49899 Reflection)
 - **'No Path Found' is Data, Not a Bug:** A pathfinder tool reporting 'No path found' is a critical piece of information about the game state. It should be trusted over my own visual perception and used to challenge and verify my root assumptions about map connectivity. This is the primary way to avoid getting stuck in logic loops based on a flawed understanding of the environment.
 - **Challenge False Constraints:** When physically trapped or stuck on a puzzle, aggressively question the root assumption that a certain action (like using SURF) is impossible. Test all available mechanics, even if they seem unlikely, before concluding you are truly stuck.
+
+# STRATEGIC INSIGHTS & LESSONS LEARNED (From Turn 50107 Reflection)
+- **Escalate Debugging:** When a tool fails repeatedly and simple fixes are ineffective, do not get stuck in a loop. Escalate immediately to a more robust diagnostic method, such as using `run_code` with a diagnostic script to isolate the point of failure. This is more efficient than repeatedly calling a debugger agent with insufficient information.
