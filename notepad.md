@@ -327,3 +327,8 @@
   - **4. A wild encounter is the trigger.** Status: FAILED (Defeated, no progress).
   - **5. A hidden switch is the trigger.** Status: FAILED (Checked all walls).
 - **Tool Inconsistency:** When a tool produces inconsistent results (sometimes working, sometimes not), the priority must shift from using the tool to debugging the tool. The inconsistency itself is a clue to the underlying problem, which is often a non-deterministic algorithm. The correct fix is to make the tool's logic deterministic.
+## TILE & OBJECT MECHANICS (CONSOLIDATED)
+- **FLOOR**: A standard, fully traversable tile.
+
+## STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
+- **Trust System Warnings:** Critical system warnings (e.g., about looping) are not suggestions; they are direct feedback that the current strategy is fundamentally flawed. Instead of trying to find workarounds, I must immediately abandon the failing hypothesis and pivot to a new one. Ignoring these warnings leads to wasted turns and hallucination loops.
