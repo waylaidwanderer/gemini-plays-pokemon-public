@@ -14,20 +14,9 @@
 ### 📋 Status & Rules
 - **Status:** Attempt 62 - Battle 1 vs Boarder Crawford.
 - **Battle Log:**
-  - T1: Rumpus poisoned.
-  - T2: Switch Flux (Immune to Toxic).
-  - T3: Flux used Toxic (Failed). Umbreon Mud-Slap (4x Dmg).
-  - T4: Switch Vortex (Immune).
-  - T5: Switch Rumpus (Reset Toxic).
-  - T6: Rumpus Strength.
-  - T7: Rumpus Strength. Hit by Mud-Slap (-1 Acc).
-  - T8: Switch Vortex (Immune). Vortex Badly Poisoned.
-  - T5: Umbreon Toxic. Vortex Badly Poisoned.
-  - T6: Umbreon Protect. Vortex Mud-Slap blocked.
-  - T7: Vortex used Steel Wing. Umbreon Leftovers.
-  - T8: Vortex used Mud-Slap.
-  - T9: Switching to Rumpus.
-  - T10: Rumpus In.
+  - T1-T19: Stall war with Umbreon. Rumpus/Vortex fainted.
+  - T20: Flux took Mud-Slap (Surived on 2HP), used Sonicboom.
+  - T21: Flux (2HP) vs Umbreon (~60%). Must Attack.
 - **Recent Intel:**
   - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
