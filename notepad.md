@@ -304,7 +304,6 @@
 - `select_move`
 - `switch_pokemon`
 - `explore_accessible_tiles`
-- `find_path`
 
 ### Custom Agents
 - `python_code_debugger`
