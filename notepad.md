@@ -8,6 +8,7 @@
 - **Intel:**
   - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt/Toxic), Gyarados (Hyper Beam/Surf).
   - **Youngster Wright:** Nidoking (EQ/Blizzard), Lapras (T-Bolt/Confuse Ray).
+  - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl.
   - **General:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf/Rain Dance).
 - **Needs:** Win 7 Battles.
 - **Last Result:** Attempt 64 Loss (Dykstra).
