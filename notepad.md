@@ -2,23 +2,19 @@
 
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
-- **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 79. Battle 1.
-- **Last Result:** Attempt 78 Loss vs Scizor (Steel Wing).
-- **Threat Intel Update:** Walker's Scizor knows Steel Wing.
-- **Last Result:** Attempt 72 Loss vs Azumarill (Rain Dance/Surf).
+- **Current Task:** Register for Level 20 Challenge.
+- **Status:** Attempt 80. Battle 1.
+- **Last Result:** Attempt 79 Loss vs Camper McMahill (Azumarill).
 - **Team:** Rumpus, Flux, Bahamut.
 - **Location:** Battle Tower Lobby.
 - **Note:** Observed game returning to Level Selection after Save. Must re-select L:20.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 79. Battle 1 vs Camper McMahill.
-- **Last Result:** Attempt 78 Loss vs Scizor (Steel Wing).
-- **Current Task:** Battle 1 vs Azumarill (Lv20). Rumpus/Flux Fainted. Bahamut (50/50 HP) vs Azumarill (Full). Threat: Blizzard/Rain Dance.
-- **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
-- **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
-- **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
+- **Status:** Attempt 80. Battle 1.
+- **Last Result:** Attempt 79 Loss vs Camper McMahill (Azumarill).
+- **Current Task:** Register for Level 20 Challenge.
+- **Notes:** Azumarill (Blizzard/Rain Dance) and Umbreon (Toxic/Mud-Slap) are major threats.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
@@ -28,6 +24,7 @@
 - **Counter:** Reflects Physical. Use Special vs Blissey/Wobbuffet.
 
 ### ⚠️ Threat Intel
+- **Camper McMahill:** Umbreon (Toxic/Mud-Slap/Attract), Azumarill (Blizzard/Rain Dance).
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl (EQ?), Pikachu (Thunderbolt, Toxic, Light Ball?, Outspeeds Rumpus).
 - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt), Gyarados (Hyper Beam).
 - **Beauty Frost:** Lapras (Blizzard, Confuse Ray, Holds Gold Berry).
