@@ -23,6 +23,7 @@
 - **Counter:** Reflects Physical. Use Special vs Blissey/Wobbuffet.
 
 ### ⚠️ Threat Intel
+- **Biker Eaton:** Lapras (Blizzard).
 - **Super Nerd Ogden:** Gyarados (Hyper Beam, Fire Blast).
 - **Boarder Rockwell:** Miltank (Thunder, Earthquake, Attract).
 - **Camper McMahill:** Umbreon (Toxic/Mud-Slap/Attract), Azumarill (Blizzard/Rain Dance).
