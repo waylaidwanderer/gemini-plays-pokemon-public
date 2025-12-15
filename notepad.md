@@ -57,3 +57,5 @@
 - Entered Route 30. Heading North to find Mr. Pokemon's house.
 - Route 30 Entrance: Path straight North is blocked by ledges. Exploring East through grass to find a way around.
 - Route 30: Ledges block x=6-11. Gap North exists at x=12-13 (Tall Grass).
+- Read Route 30 Sign at (9, 43): "ROUTE 30".
+- Found a house at (7, 39). Investigating.
