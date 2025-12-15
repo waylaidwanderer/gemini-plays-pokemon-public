@@ -2,22 +2,22 @@
 
 ## Game Mechanics
 - Menu Controls: 'Up' moves forward (Sat -> Sun -> Mon), 'Down' moves backward.
+- Tool Usage: Must pass 'autopress_buttons: true' to execute returned button sequences.
 
 ## Tile Mechanics
 - FLOOR: Traversable. Standard walking tile.
 - WALL: Impassable.
 - STAIRCASE: Traversable. Warps to another floor.
 - WARP_CARPET_DOWN: Traversable. Warps to a different map.
+- DOOR: Traversable. Warps to indoor maps.
 
 ## Current Plan
-- Confirm Cyndaquil and name him 'GARNET'.
+- Finish nicknaming Cyndaquil 'GARNET'.
+- Leave Elm's Lab.
 
 ## Journal
 - Player Name: GEM
 - PC in bedroom was empty.
 - Mom gave me the Pokegear.
 - Decided NOT to use Daylight Saving Time (it's December).
-- Fridge contains Fresh Water and Lemonade (flavor text only).
-- DOOR: Traversable. Warps to indoor maps.
 - Chose Cyndaquil as starter.
-- Custom Tool Tip: Must set 'autopress_buttons: true' when calling a tool that returns a button sequence.
