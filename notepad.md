@@ -16,17 +16,6 @@
 ## Current Plan
 - Return to Professor Elm in New Bark Town to deliver the Mystery Egg.
 
-## Journal
-- Player Name: GEM
-- PC in bedroom was empty.
-- Mom gave me the Pokegear.
-- Decided NOT to use Daylight Saving Time (it's December).
-- Chose Cyndaquil as starter.
-- Received Potion from Elm's Aide.
-- Met Mr. Pokemon at (17, 5) on Route 30. Received MYSTERY EGG.
-- Met Professor Oak. Received POKEDEX.
-- Fully healed at Mr. Pokemon's House.
-
 ## Pokemon Locations
 - Route 29: Hoppip (Splash), Sentret, Pidgey
 - Route 30: Caterpie, Pidgey
