@@ -243,7 +243,6 @@
 - `define_tool`
 - `select_battle_option`
 - `delete_tool`
-- `delete_tool`
 
 ### Custom Tools
 - `select_item`
