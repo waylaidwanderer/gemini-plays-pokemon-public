@@ -234,6 +234,7 @@
 
 ### Built-in Tools
 - `select_battle_option`
+- `delete_tool`
 
 ### Custom Tools
 - `select_item`
