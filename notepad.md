@@ -405,3 +405,4 @@ Flux fainted to Psychic (Outsped). Bahamut in vs Full HP Starmie.
 - **Schoolboy Walker:** Nidoking (EQ/Blizzard, holds Berry, Outspeeds Dratini).
 - **Battle 1 (Beauty Frost):** Rumpus FNT (Blizzard). Lapras took Crit Strength. Bahamut vs Lapras (Weakened). Strategy: Extremespeed (Priority) or die.
 - **Resolved:** Bahamut is holding Dragon Fang. Confirmed via 'Switch items?' prompt.
+- **Lass's Heracross:** Earthquake, Megahorn. High Def. Counters Flux.
