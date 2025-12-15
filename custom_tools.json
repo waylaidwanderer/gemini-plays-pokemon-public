@@ -334,7 +334,7 @@
         "current_screen_text"
       ]
     },
-    "python_script": "import json\nimport sys\n# Minimal script to test if the tool can output anything at all.\nprint(json.dumps([\"A\"]))",
+    "python_script": "import json\nimport re\nimport sys\n\ntarget_item_name = input_data['target_item_name']\ncurrent_screen_text = input_data['current_screen_text']\n\nlines = current_screen_text.strip().split('\\n')\nitem_list = []\ncursor_pos = -1\n\ntry:\n    start_index = next(i for i, line in enumerate(lines) if 'POCKET' in line) + 2\nexcept StopIteration:\n    print(json.dumps([]))\n    sys.exit()\n\nitem_pattern = re.compile(r\"(\\s*>?\\s*)([A-Z0-9/\\\\ ']+?)(\\s*x\\d+)?$\")\n\nfor i, line in enumerate(lines[start_index:]):\n    match = item_pattern.match(line.strip())\n    if match:\n        cursor = match.group(1)\n        item_name = match.group(2).strip()\n        item_list.append(item_name)\n        if '>' in cursor or '▶' in cursor:\n            cursor_pos = len(item_list) - 1\n\nif not item_list or cursor_pos == -1:\n    print(json.dumps([]))\n    sys.exit()\n\ntry:\n    target_pos = item_list.index(target_item_name)\nexcept ValueError:\n    print(json.dumps(['Down']))\n    sys.exit()\n\nnum_items = len(item_list)\ndist_down = (target_pos - cursor_pos + num_items) % num_items\ndist_up = (cursor_pos - target_pos + num_items) % num_items\n\nbuttons = []\nif dist_down <= dist_up:\n    buttons = ['Down'] * dist_down\nelse:\n    buttons = ['Up'] * dist_up\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "feat: Create select_item tool to automate bag navigation. This tool parses the item list from the screen text, calculates the shortest path to a target item, and outputs the necessary button presses. This addresses a critical overwatch suggestion to stop inefficient manual scrolling and improves battle efficiency.",
@@ -385,6 +385,11 @@
         "commit_message": "refactor: Isolate failure with minimal script. The tool is catastrophically failing with a JSONDecodeError, suggesting it's producing no output. This commit replaces the complex logic with a minimal 'hello world' script that only prints a hardcoded JSON array. This is a diagnostic step to determine if the fault lies in the script's logic or the tool execution environment itself.",
         "timestamp": "2025-12-15T06:48:11.881Z",
         "action_counter": 50090
+      },
+      {
+        "commit_message": "refactor: Restore full logic after diagnostic test. The minimal 'hello world' script successfully executed, confirming the tool's environment is functional. This commit restores the full, efficient item selection logic, incorporating the agent's previous fixes for the regex syntax and stdout redirection. This should resolve the catastrophic JSONDecodeError.",
+        "timestamp": "2025-12-15T06:49:18.137Z",
+        "action_counter": 50092
       }
     ]
   },
