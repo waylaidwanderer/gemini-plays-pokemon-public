@@ -233,6 +233,14 @@
 ## Available Tools & Agents
 
 ### Built-in Tools
+- `notepad_edit`
+- `run_code`
+- `define_agent`
+- `delete_agent`
+- `define_map_marker`
+- `delete_map_marker`
+- `stun_npc`
+- `define_tool`
 - `select_battle_option`
 - `delete_tool`
 
