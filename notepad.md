@@ -316,24 +316,3 @@
 
 # ONGOING INVESTIGATIONS
 - **A pathfinding tool failing in an enclosed space is a strong indicator of an unsolved puzzle, not a faulty tool.** The 'No path found' error is accurate information about the current map state and should prompt a shift in strategy from navigation to puzzle-solving.
-
-# Slowpoke Well B2F Platform Puzzle
-- **Description:** Trapped on an isolated platform. Path to the only exit ladder at (9, 11) is blocked by a Gym Guide NPC at (5, 6). Pathfinding tool has confirmed no navigable path exists.
-- **New Hypotheses (from external analysis):
-  - 1. The NPC will react if the lead Pokémon is a Slowpoke.** Status: UNTESTABLE (No Slowpoke).
-  - **2. There is a hidden item near the NPC.** Status: FAILED. (Test: Use Itemfinder at (5, 5).)
-  - **3. Fishing from a specific, single water-adjacent tile triggers an event.** Status: FAILED. (Test: Systematically use GOOD ROD on every valid tile.)
-  - **4. A wild encounter is the trigger.** Status: FAILED (Defeated, no progress).
-  - **5. A hidden switch is the trigger.** Status: FAILED (Checked all walls).
-- **Tool Inconsistency:** When a tool produces inconsistent results (sometimes working, sometimes not), the priority must shift from using the tool to debugging the tool. The inconsistency itself is a clue to the underlying problem, which is often a non-deterministic algorithm. The correct fix is to make the tool's logic deterministic.
-## TILE & OBJECT MECHANICS (CONSOLIDATED)
-- **FLOOR**: A standard, fully traversable tile.
-
-## STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
-- **Trust System Warnings:** Critical system warnings (e.g., about looping) are not suggestions; they are direct feedback that the current strategy is fundamentally flawed. Instead of trying to find workarounds, I must immediately abandon the failing hypothesis and pivot to a new one. Ignoring these warnings leads to wasted turns and hallucination loops.
-- **New Hypotheses (from external analysis - Turn 50508):
-  - 1. A non-hostile, stationary Slowpoke on the platform is an interactable object that will trigger a cutscene.** Status: UNTESTED. (Test: Visually scan platform for Slowpoke sprite and interact.)
-  - **2. The act of successfully CATCHING a wild Slowpoke in front of the Gym Guide is the event trigger, not the evolution itself.** Status: UNTESTABLE (No Poké Balls). (Test: Encounter and catch a wild Slowpoke.)
-  - **3. Interacting with a specific part of the well from the platform's edge will trigger the event.** Status: UNTESTED. (Test: Systematically press 'A' on all edge tiles.)
-  - **6. The Gym Guide can be moved with STRENGTH.** Status: FAILED. (Test: Teach STRENGTH to a conscious Pokémon and attempt to push the NPC.)
-- **Paradoxical State Lesson:** When the `find_path` tool confirms a path is physically blocked, but system warnings insist I am not stuck, it is a critical indicator that my root assumption about the nature of the obstacle is wrong. The obstacle is not an impassable barrier but a puzzle element with a non-obvious interaction method (e.g., an NPC that can be moved like a boulder). I must pivot from navigation-based solutions to testing unconventional interaction mechanics.
