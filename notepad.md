@@ -19,7 +19,7 @@
 - **Rumpus:** Badly Poisoned (Toxic). Przcureberry Consumed.
 - **Flux:** Fainted (Slash).
 - **Bahamut:** Fainted (Steel Wing).
-- **Current Task:** Finish Scizor with Rumpus (Strength).
+- **Current Task:** Finish Scizor with Rumpus (Strength). Rumpus vs Scizor (Final Stand). Scizor ~25 HP. Rumpus 64/64 (Toxic).
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
