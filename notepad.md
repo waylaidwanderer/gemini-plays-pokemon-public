@@ -12,7 +12,7 @@
 - DOOR: Traversable. Warps to indoor maps.
 
 ## Current Plan
-- Go to Cherrygrove City.
+- Head west through Route 29 to Cherrygrove City.
 
 ## Journal
 - Player Name: GEM
