@@ -332,3 +332,7 @@
 
 ## STRATEGIC INSIGHTS & LESSONS LEARNED (CONSOLIDATED)
 - **Trust System Warnings:** Critical system warnings (e.g., about looping) are not suggestions; they are direct feedback that the current strategy is fundamentally flawed. Instead of trying to find workarounds, I must immediately abandon the failing hypothesis and pivot to a new one. Ignoring these warnings leads to wasted turns and hallucination loops.
+- **New Hypotheses (from puzzle_solver - Turn 50508):
+  - 1. A non-hostile, stationary Slowpoke on the platform is an interactable object that will trigger a cutscene.** Status: UNTESTED. (Test: Visually scan platform for Slowpoke sprite and interact.)
+  - **2. The act of successfully CATCHING a wild Slowpoke in front of the Gym Guide is the event trigger, not the evolution itself.** Status: UNTESTABLE (No Poké Balls). (Test: Encounter and catch a wild Slowpoke.)
+  - **3. Interacting with a specific part of the well from the platform's edge will trigger the event.** Status: UNTESTED. (Test: Systematically press 'A' on all edge tiles.)
