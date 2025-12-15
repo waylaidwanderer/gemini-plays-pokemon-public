@@ -3,16 +3,8 @@
 ## 🌍 Global Status & Goals
 - **Primary Goal:** Win 7 battles in a row at the Battle Tower (Level 20).
 - **Current Task:** Battle Tower Challenge (Level 20).
-- **Status:** Attempt 67 - Preparation.
-- **Needs:** Re-equip Team.
-- **Intel:**
-  - **Swimmer Dykstra:** Steelix (EQ/Swagger), Pikachu (T-Bolt/Toxic), Gyarados (Hyper Beam/Surf).
-  - **Youngster Wright:** Nidoking (EQ/Blizzard), Lapras (T-Bolt/Confuse Ray).
-  - **Schoolboy Walker:** Nidoking (EQ/Blizzard), Aerodactyl.
-  - **General:** Umbreon (Toxic/Protect/Mud-Slap), Quagsire (Surf/Rain Dance).
-- **Needs:** Win 7 Battles.
-- **Last Result:** Attempt 64 Loss (Dykstra).
-- **Team:** Rumpus (Tauros), Vortex (Pidgeotto), Flux (Magnemite).
+- **Status:** Attempt 67 - Preparation (Re-equipping Team).
+- **Needs:** Re-equip Vortex (Berry) & Flux (Mint Berry).
 - **Location:** Battle Tower Lobby.
 
 ## 🏰 Battle Tower Master Guide (Level 20)
