@@ -381,7 +381,7 @@
 - **Battle Log:** Bahamut fainted. Switched to Flux. Rain Dance active.
 - **Battle Log:** Flux fainted to Rain-boosted Surf. Rumpus sent in as last resort.
 ### Battle Tower Mechanics (Consolidated)
-- **Item Stripping:** Items are returned to the bag ONLY if consumed. ALL held items are stripped and returned to the bag upon defeat or exit.
+- **Item Persistence:** Items are ONLY stripped if consumed during battle. Verify inventory before re-entering.
 - **Rules:** No duplicate held items.
 - **Auto-Heal:** Party healed after every run.
 - **Level Select:** Scroll Up for L:20.
