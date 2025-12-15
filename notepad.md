@@ -11,8 +11,8 @@
 ### 📋 Status
 - **Run:** Attempt 68 - Round 1 vs Fisher.
 - **Opponent:** Steelix (-2 Acc).
-- **Status:** Rumpus (Confused, +2 Atk). Vortex FNT.
-- **Strategy:** Rumpus Strength spam (Flux 4x weak to EQ).
+- **Status:** Rumpus FNT. Vortex FNT. Flux Active.
+- **Strategy:** Sonicboom spam. Hope for misses.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
