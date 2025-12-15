@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 70 - Battle 1 (Youngster Wright).
-- **Action:** Flux vs Quagsire.
-- **Reason:** Bahamut KO'd. Flux Last Stand. Quagsire has Rain+Surf.
+- **Status:** Attempt 71 - Prep (Equip Items).
+- **Last Result:** Loss vs Youngster Wright (Quagsire Rain+Surf).
+- **Action:** Finding Dragon Fang for Bahamut.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
