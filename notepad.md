@@ -62,4 +62,4 @@
 - Found Fruit Tree at (5, 39).
 - Found House at (7, 39) which might be Mr. Pokemon's.
 - Entered 'Route30BerryHouse'. Confirmed this is NOT Mr. Pokemon's house. The man inside teaches about Berries.
-- NPC located at (2, 3) discusses Berries.
+- NPC located at (2, 3) gave me a BERRY and explained they drop from trees.
