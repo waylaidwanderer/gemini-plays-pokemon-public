@@ -9,10 +9,10 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Run:** Attempt 67 - Round 1 vs Officer.
-- **Last Loss:** Attempt 66 (Schoolboy Walker - Nidoking/Aerodactyl).
+- **Run:** Attempt 68 - Elevator.
+- **Last Loss:** Attempt 67 (Officer - Scizor/Quagsire).
 - **Team:** Rumpus, Vortex, Flux.
-- **Action:** Fight!
+- **Action:** Talk to Receptionist.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
