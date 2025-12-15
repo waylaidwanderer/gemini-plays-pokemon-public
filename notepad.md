@@ -39,3 +39,4 @@
   - x=21 blocked by CUT_TREE.
   - Corridor at x=49 (North) is a dead end.
   - Plateau at (12-14, 2-4) accessible only from North/West (Fruit Tree/Cooltrainer).
+- Route 29 Sign at (3, 5): CHERRYGROVE CITY - NEW BARK TOWN
