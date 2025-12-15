@@ -23,8 +23,7 @@
   - T7: Vortex used Steel Wing. Umbreon Leftovers.
   - T8: Vortex used Mud-Slap.
   - T9: Switching to Rumpus.
-  - T5: Umbreon used Toxic. Vortex Poisoned.
-  - T6: Umbreon used Protect. Vortex Mud-Slap blocked.
+  - T10: Rumpus In.
 - **Recent Intel:**
   - Umbreon: Toxic, Mud-Slap (4x vs Flux), Protect. Leftovers.
   - Quagsire: Surf, Tanky.
