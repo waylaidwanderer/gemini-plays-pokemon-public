@@ -61,3 +61,4 @@
 - Encountered the red-haired boy (Rival, named ???) in Cherrygrove City. Defeated his Totodile.
 - Rival claims he will be the world's greatest trainer.
 - Route 29 Eastbound Path: (0,7) -> South to y=10 -> East to x=16 -> South to y=14 (Jump Ledge at 16,13) -> East to x=31 -> North to y=10 -> East to x=42 -> North to y=8 -> East (Jump Ledge at 43,8) -> New Bark Town.
+- Successfully traversed Route 29 Eastbound. Entering New Bark Town.
