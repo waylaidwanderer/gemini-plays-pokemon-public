@@ -54,3 +54,4 @@
 - Guide Gent's tour finished. He went into his house at (25, 9).
 - Healed at Pokemon Center. Now seeking exit to Route 30 (North).
 - Found exit to Route 30 at x=16 on North side of Cherrygrove.
+- Entered Route 30. Heading North to find Mr. Pokemon's house.
