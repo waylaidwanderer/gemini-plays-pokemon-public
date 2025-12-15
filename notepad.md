@@ -15,9 +15,10 @@
 ### 📋 Status
 - **Status:** Attempt 78. Battle 1 vs Officer Turner.
 - **Opponent 1:** Pikachu (Defeated).
-- **Opponent 2:** Scizor (Sandstorm, Slash).
+- **Opponent 2:** Scizor (Sandstorm, Slash). Low HP (~25).
 - **Rumpus:** Badly Poisoned (Toxic). Przcureberry Consumed.
-- **Current Task:** Defeat Scizor.
+- **Flux:** Critical HP (7/45).
+- **Current Task:** Defeat Scizor (Sonicboom). Backup: Bahamut.
 - **Last Match:** Attempt 77 Loss vs Swimmer Dykstra (Heracross).
 - **Last Match:** Attempt 76 Loss vs Bug Catcher Tajiri (Alakazam).
 - **Notes:** Alakazam is a glass cannon but fast/strong. Flux walling strategy failed due to crit/coverage. Rumpus Strength is best bet.
