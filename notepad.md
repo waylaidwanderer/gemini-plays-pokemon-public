@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 68 - LOST (Round 1 vs Fisher).
-- **Cause:** Steelix (Earthquake) swept team.
-- **Next:** Return to Lobby, re-equip, and start Attempt 69.
+- **Status:** Attempt 69 - Prep (Swapping Team).
+- **Action:** Swap Vortex -> Bahamut (Surf).
+- **Reason:** Need Surf for Steelix/Ground types.
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Returned to bag after every run. MUST RE-EQUIP MANUALLY.
