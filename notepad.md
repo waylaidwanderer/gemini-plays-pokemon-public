@@ -358,3 +358,4 @@
 - **Observation:** The path south is blocked by a Gym Guide at (5, 6). His dialogue states he is waiting to see a SLOWPOKE evolve.
 - **Invalidated Hypothesis (Navigational):** Previous attempts to find a hidden or wider path around the guide have all failed. The walls at (4, 7) and (6, 7) are confirmed to be solid. The solution is not navigational.
 - **Current Hypothesis (Event-Based):** The guide's dialogue is the primary clue. I must trigger a SLOWPOKE evolution to make him move. This likely requires me to catch a SLOWPOKE in this area and level it up.
+- **General Lesson:** When a notepad entry leads to a paradox where it contradicts both direct observation and system guarantees, the note is likely a hallucination from a past failure and must be deleted or corrected immediately. Trust direct observation and system guarantees over a faulty note.
