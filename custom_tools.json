@@ -52,5 +52,34 @@
         "action_counter": 156
       }
     ]
+  },
+  "interact_in_direction": {
+    "description": "Faces the player in a specific direction and immediately interacts (presses A). Useful for talking to NPCs, reading signs, or using objects without waiting an extra turn to change facing.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ],
+          "description": "The direction to face before interacting."
+        }
+      },
+      "required": [
+        "direction"
+      ]
+    },
+    "python_script": "print(json.dumps([input_data['direction'], \"A\"]))",
+    "history": [
+      {
+        "commit_message": "Defined a tool to face a direction and interact immediately, saving turns on NPC/Object interactions.",
+        "timestamp": "2025-12-15T22:43:53.060Z",
+        "action_counter": 258
+      }
+    ]
   }
 }
