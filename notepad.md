@@ -9,9 +9,9 @@
 
 ## 🏰 Battle Tower Master Guide (Level 20)
 ### 📋 Status
-- **Status:** Attempt 69 - Prep (Equipping Items).
-- **Action:** Equip Berries via Pack.
-- **Reason:** Items returned to bag. Rumpus: PsnCure, Flux: Mint, Bahamut: Berry.
+- **Status:** Attempt 69 - Ready.
+- **Action:** Challenge Battle Tower.
+- **Reason:** Team prepped. Rumpus (PsnCure), Flux (Mint), Bahamut (Berry).
 
 ### ⚔️ Consolidated Mechanics
 - **Items:** Items persist between runs unless consumed. ALWAYS CHECK.
