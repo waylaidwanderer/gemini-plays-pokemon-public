@@ -36,13 +36,13 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Meet Elm's Aide:** At Violet City Pokemon Center (received call).
-- **Heal Party:** At Pokemon Center.
-- **Head South:** Towards Union Cave/Azalea Town.
+- **Route 32:** Head south from Violet City.
+- **Union Cave:** Traverse to reach Azalea Town.
+- **Hatch Egg:** Walk to hatch the Mystery Egg.
 
 ## Recent Events
+- **Violet Pokemon Center:** Healed party. Received **Mystery Egg** from Elm's Aide.
 - **Violet Gym:** Defeated Falkner. Obtained **Zephyr Badge** and **TM31** (Mud-Slap).
-- **Phone Call:** Prof. Elm says his aide is at Violet City Pokemon Center with the Egg.
 - **Sprout Tower:** Cleared.
 - **Elder Li:** Defeated. Awarded HM05 (Flash).
 - **HM05 (Flash):** Needs Zephyr Badge.
