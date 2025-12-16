@@ -111,28 +111,5 @@
         "action_counter": 354
       }
     ]
-  },
-  "press_sequence": {
-    "description": "Presses a sequence of buttons provided as a JSON string. Input 'buttons_json' should be a stringified list of buttons (e.g. '[\"A\", \"B\"]'). Set autopress_buttons to true when calling.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons_json": {
-          "type": "string",
-          "description": "JSON string of button list"
-        }
-      },
-      "required": [
-        "buttons_json"
-      ]
-    },
-    "python_script": "import json\ntry:\n    btns = json.loads(buttons_json)\n    print(json.dumps(btns))\nexcept Exception as e:\n    print(f\"Error: {e}\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-16T01:47:12.034Z",
-        "action_counter": 517
-      }
-    ]
   }
 }
