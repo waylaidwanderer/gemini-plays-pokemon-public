@@ -4,16 +4,15 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Unakite (10/20 HP) vs Machop.
-- **Strategy:** Heal Rocky (Onix) to full HP using Energypowder or Berry.
-    - Unakite will likely faint this turn (Clean switch to Rocky).
-    - If Unakite lives, sacrifice her next turn to get the clean switch.
-    - Rocky (Full HP) needs to tank a hit and use Screech/Tackle.
+- **Strategy:** Heal Rocky (Onix) to full HP using Potion (selected).
+    - Step 1: Confirm "USE" (Current).
+    - Step 2: Select Rocky from Party (Next).
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
 - **Mechanics:**
-    - **Gen 2 Battle:** Potion heals 20HP. Berry heals 10HP. Energypowder heals 50HP.
+    - **Gen 2 Battle:** Potion heals 20HP.
     - **Low Kick:** 50 BP Fighting. 2x vs Onix. 0.5x vs Unown.
 
 ## Party
