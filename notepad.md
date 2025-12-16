@@ -25,7 +25,7 @@
 
 ## Location Notes: Slowpoke Well
 - **Kurt:** Injured at (16, 14).
-- **Rocket Grunt:** Fighting at (15, 9).
+- **Rocket Grunt:** Defeated at (15, 9).
 - **Surface:** Gramps at (22, 8).
 
 ## Tile Mechanics
