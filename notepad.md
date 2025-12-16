@@ -2,20 +2,24 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Defeat Hiker Anthony (Route 33).
-- **Battle Status:** Garnet (9/53 HP) vs Machop (Full HP).
-- **Strategy:** Garnet must outspeed and OHKO with Ember. No healing items left.
+## Strategy & Pathing
+- **Goal:** Reach Azalea Town (West of Route 33).
+- **Current Task:** Reach Azalea Town Pokemon Center.
+- **Battle Status:** Hiker Anthony Defeated.
+- **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
-    - **Route 32:** North.
-    - **Union Cave 1F:** Current.
-    - **Route 33:** South.
-    - **Fisher Trainer:** Located at (15, 27).
+    - **Route 33:** Current.
+    - **East:** Union Cave.
+    - **West:** Azalea Town.
+    - **Hiker Anthony:** Defeated at (6, 13).
+    - **NPCs:** Lass at (12, 15).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
+- **LEDGE_HOP_LEFT:** One-way jump to the left.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10 | **AMETHYST (Zubat)** Lv5 (Low HP)
+- **GARNET (Quilava)** Lv18 (9/53 HP) | **TOPAZ (Sentret)** Lv4 (Fainted) | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv11 (4/30 HP) | **AMETHYST (Zubat)** Lv5 (Fainted)
 - **PC:** **JASPER (Geodude)** Lv6 (New Catch)
 
 ## Quest Log
