@@ -59,3 +59,4 @@
 - **Pokefan M (Violet City House):** Traded Pokemon grow fast but need badges to obey.
 - **Trade (Violet City House):** Youngster wants a **Bellsprout** for his **Onix**. (Currently don't have Bellsprout).
 - **Wade (Phone):** Bug-Catching Contest is at National Park today.
+- **Sign at (24, 20):** "Violet City - The City of Nostalgic Scents"
