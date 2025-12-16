@@ -5,18 +5,18 @@
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Rocky (Onix) 16/28 HP.
-- **Opponent:** Machop Lv11 (100% HP). Moves: Low Kick, Leer, Focus Energy.
-- **Strategy:** BERRY STALL.
-    - Low Kick deals ~11 dmg. Rocky has 16.
-    - If I attack, I do ~15% dmg. I need 6+ hits.
-    - I can't survive 6 turns of trading hits.
-    - **Plan:** Use remaining BERRYs to keep HP > 11.
-    - **Win Condition:** Machop uses Focus Energy or Misses. This buys a free turn to Attack/Screech without losing HP.
-    - **Risk:** High Crit rate from Focus Energy later.
-- **Inventory:** BERRY x2 left.
+- **Strategy:** BERRY STALL (Turn 2/3).
+    - Use 2nd Berry. 16 -> 26 HP.
+    - Fishing for Machop to use Focus Energy/Leer.
+    - If he attacks, we are back to ~15 HP, but burned a turn.
+    - Only 1 Berry left after this.
+    - **Backup Plan if he Crits:** We lose.
+    - **Backup Plan if he Attacks:** We have 15 HP and 1 Berry. Repeat or Fight? Likely Fight next.
+- **Inventory:** BERRY x2 -> x1.
 - **Mechanics:**
-    - Speed: Onix (70) > Machop (35). I move first.
-    - Def: Onix (160). Low Kick (50BP) is the main threat.
+    - Speed: Onix (70) > Machop (35).
+    - Def: Onix (160).
+    - Menu: Cursor on PACK. Item Cursor on BERRY.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
