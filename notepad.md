@@ -3,9 +3,9 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat.
-- **Battle Status:** Switching Topaz (Lv4) -> Rocky (Lv10).
-- **Goal:** Switch to Rocky to tank Leech Life (Resists Bug/Poison). Then catch.
-- **Reasoning:** Topaz took a crit (8/16 HP). Rocky is safe.
+- **Battle Status:** Switching Topaz (Lv4) -> Rocky (Lv10) - Confirming Switch.
+- **Goal:** Rocky enters battle. Tank hits.
+- **Next Step:** Throw Poke Ball (x5 available).
 - **Navigation:** Backtracking to (5, 3) to access East side.
 - **Position:** (5, 5).
 - **Map Notes:**
@@ -14,9 +14,9 @@
     - **Route 33:** South.
 - **Battle Lesson:** Zubat is the answer to Low Kick.
 - **Mechanics:**
-    - **Zubat:** Poison/Flying. 4x Resist Fighting. 2x Weak to Rock/Electric/Ice/Psychic.
-    - **Machop:** Fighting. Low Kick (Fighting).
-    - **Result:** Zubat takes ~1/4 damage from Low Kick.
+    - **Zubat:** Poison/Flying. 4x Resist Fighting.
+    - **Onix:** Rock/Ground. Resists Bug (Leech Life) and Poison. High Def.
+    - **Capture:** Level 5 Zubat should be catchable at full HP, but weakening is better. Rocky might kill it with Tackle. Maybe just throw balls.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
