@@ -104,3 +104,4 @@
 - **Unown:** Caught 'UNAKITE'. High encounter rate in Inner Chamber.
 - **Navigation:** Row 5 in Inner Chamber is blocked by walls/statues. Must traverse to the far left (column 4) to proceed south.
 - **Shopping:** Out of Poké Balls. Need to buy more at next Mart.
+- **Navigation:** Confirmed West side (Row 10, x<15) is blocked by a wall. The only path south is through the gap at (15, 10).
