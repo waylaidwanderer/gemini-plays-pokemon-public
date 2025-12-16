@@ -55,8 +55,9 @@
 
 ## Route 31 Navigation
 - **East Side (Current):** Contains Dark Cave, Potion, Cooltrainer M.
-- **West Barrier:** Ledges at x=13 (Row 6-8) block Westward movement. Trees at Row 10 block Northward movement from entrance.
-- **Conclusion:** Cannot reach Violet City from this side. Must find West Route 31 entrance.
+- **West Barrier:** Ledges at x=13 (Row 6-8) block Westward movement (LEDGE_HOP_RIGHT). Cannot pass from East.
+- **North Barrier:** Trees at Row 10 block Northward movement from entrance (26, 17), but can be bypassed via East grass.
+- **Conclusion:** Cannot reach Violet City from this side due to x=13 Ledges. Must find West Route 31 entrance.
 
 ## Route 30 Navigation Plan
 - Go back to Route 30.
