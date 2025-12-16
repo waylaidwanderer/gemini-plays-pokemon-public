@@ -36,9 +36,13 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Challenge Violet City Gym:** To earn Zephyr Badge and use Flash.
+- **Heal at Center:** Garnet took some hits.
+- **Find Elm's Aide:** Check Pokemon Center or Mart.
+- **Head South:** Towards Union Cave/Azalea Town.
 
-## Recent Events (Sprout Tower Cleared)
+## Recent Events
+- **Violet Gym:** Defeated Falkner. Obtained **Zephyr Badge** and **TM31** (Mud-Slap).
+- **Sprout Tower:** Cleared.
 - **Elder Li:** Defeated. Awarded HM05 (Flash).
 - **HM05 (Flash):** Needs Zephyr Badge.
 - **Rival Silver:** Used Escape Rope to leave.
