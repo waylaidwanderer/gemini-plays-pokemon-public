@@ -46,6 +46,7 @@
     - Pokemon: Caterpie, Pidgey.
 
 ## Immediate Plan
-1. Exit New Bark Town West to Route 29.
+1. Navigate Route 29 West towards Cherrygrove City.
+    - Path Strategy: Go South to Row 14 to bypass ledges, then West.
 2. Travel through Cherrygrove City to Route 30.
 3. Reach Violet City.
