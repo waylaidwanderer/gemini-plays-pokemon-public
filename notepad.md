@@ -45,6 +45,6 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Switch Topaz to first slot in party.
-2. Navigate Route 29 West via gap at Row 14.
-3. Reach Cherrygrove City.
+1. Navigate Route 29 West to Cherrygrove City (stick to southern path).
+2. Heal at Pokemon Center if needed.
+3. Continue to Route 30.
