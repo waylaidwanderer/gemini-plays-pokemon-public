@@ -49,17 +49,15 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Backtrack to Route 30 (South) via (26, 17).
-2. Search for a path West of x=6 on Route 30 (around x=0-2) that leads to the true West side of Route 31.
-3. Reach Violet City.
+1. Re-enter Route 31 via (6, 0).
+2. Navigate East to the grass area (Row 14), then North.
+3. Navigate West past the Fisher (17, 7) to reach Violet City. (Previously turned back unnecessarily).
 
 ## Route 31 Navigation
-- **East Side (Current):** Contains Dark Cave, Potion, Cooltrainer M.
-- **West Barrier:** Ledges at x=13 (Row 6-8) block Westward movement (LEDGE_HOP_RIGHT). Cannot pass from East.
-- **North Barrier:** Trees at Row 10 block Northward movement from entrance (26, 17), but can be bypassed via East grass.
-- **Conclusion:** Cannot reach Violet City from this side due to x=13 Ledges. Must find West Route 31 entrance.
+- **Entrance:** (26, 17).
+- **Path:** Go East -> North -> West (Past Fisher) -> Violet City.
+- **Correction:** I previously reached (15, 6) which is past the barrier, but turned back. This path IS valid.
 
-## Route 30 Navigation Plan
-- Go back to Route 30.
-- Try navigating North along the far West edge (x=0, 1).
-- The "Ledge Maze" on Route 30 might have a specific path I missed that leads to the other side of the trees/ledges.
+## Route 30 Navigation
+- **Left Path:** Leads to (6, 0) which connects to Route 31.
+- **Right Path:** Leads to Mr. Pokemon.
