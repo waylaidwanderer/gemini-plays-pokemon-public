@@ -4,21 +4,21 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky Fainted. Sending out Topaz (Lv4).
-- **Situation:** Hopeless. Machop Lv11 vs Topaz Lv4.
-- **Action:** Send out Topaz. Attack until fainted.
-- **Outcome:** Whiteout inevitable.
-- **Post-Battle Plan:**
-    - Respawn at Center.
-    - Heal.
-    - **Strategy Adjustment:**
-        - **Option A:** Grind Unakite/Rocky on wild mons in Union Cave.
-        - **Option B:** Catch a Geodude/Sandshrew for better matchup? (Geodude resists Normal/Rock, but weak to Fighting. Sandshrew is Ground, neutral to Fighting).
-        - **Option C:** Just play the Anthony fight better. Heal aggressively. Use Flash/Mud-Slap if available? (Garnet has Mud-Slap!).
-        - **Mud-Slap:** Lowers accuracy. If Garnet can survive one hit, Mud-Slap could ruin Machop's day.
+- **Status:** Whited out. Respawned at Route 32 Center.
+- **Lesson:** Machop's Low Kick destroys Onix. Do not use Onix vs Fighting types.
+- **New Strategy:**
+    - **Lead:** GARNET (Lv18).
+    - **Tactics:** Use Ember (Target lower Sp.Def). Use Smokescreen if needed.
+    - **Backup:** Catch a Zubat in Union Cave? (4x Resist Fighting).
+- **Current Task:** Re-traverse Union Cave to reach Route 33.
 - **Map Notes:**
-    - **Route 33:** Defeated here.
-    - **Union Cave:** North.
+    - **Route 32:** Current location.
+    - **Union Cave:** South.
+    - **Route 33:** South of Cave.
+- **Money:** ¥509.
+
+## Party
+- **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
