@@ -2,17 +2,22 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Navigate Union Cave (Southbound).
-- **Position:** (11, 17).
-- **Plan:** Backtrack North to Row 6, cross East to Column 19, then head South.
-- **Path:** (11, 17) -> ... -> (19, 6) -> South.
-- **Lessons Learned:**
-    - **Battle:** Low Kick (Gen 2) is a fixed 50 BP move, not weight-based. It destroys Rock types. Do not use Onix vs Fighting.
-    - **Navigation:** `FLOOR_UP_WALL` ledges in Union Cave act as walls from the North. Do not attempt to jump them.
+- **Current Task:** Catch Wild Zubat.
+- **Goal:** Catch Zubat to counter Hiker Anthony's Machop (4x Fighting Resistance).
+- **Battle Strategy:**
+    1. Switch to Topaz (Lv4) to weaken (Tackle).
+    2. Throw Poke Ball.
+- **Navigation:** Backtracking to (5, 3) to access East side.
+- **Position:** (5, 5).
 - **Map Notes:**
     - **Route 32:** North.
-    - **Union Cave 1F:** Current. Exit at (17, 31).
+    - **Union Cave 1F:** Current.
     - **Route 33:** South.
+- **Battle Lesson:** Zubat is the answer to Low Kick.
+- **Mechanics:**
+    - **Zubat:** Poison/Flying. 4x Resist Fighting. 2x Weak to Rock/Electric/Ice/Psychic.
+    - **Machop:** Fighting. Low Kick (Fighting).
+    - **Result:** Zubat takes ~1/4 damage from Low Kick.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
