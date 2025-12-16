@@ -44,10 +44,5 @@
 - **Sage Edmond (Sprout Tower 2F):** Defeated.
 - **Ladder at (17, 3):** Investigating.
 - **South-East Area (Rows 4-8):** Explored. Dead end with walls at Row 8.
-1. Pick up Item at (16, 7).
-2. Climb Ladder at (17, 3).
-2. Explore Sprout Tower 3F.
-3. Look for a path down to the Left Side of 2F/1F.
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
-- **Sprout Tower 1F:** Entered. Investigating.
-- **Sprout Tower 3F:** Entered. Sages and item visible.
+- **Sprout Tower 3F:** Retrieved Potion at (6, 14). Preparing to battle Sage at (8, 13).
