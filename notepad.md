@@ -67,3 +67,4 @@
 - **Route 30 Correction:** Reviewed history. I previously visited the Berry House at (7, 39), which is on the Left Path. This confirms the split is accessible from the main Route 30 entrance.
 - **Plan:** Re-enter Route 30 and navigate West/North-West to finding the path to Violet City (past the Berry House).
 - **Berry House Info:** Man says "Check trees for BERRIES. They just drop right off." No item received directly.
+- **Fruit Tree (5, 39):** Checked on Turn 653. Result: Empty.
