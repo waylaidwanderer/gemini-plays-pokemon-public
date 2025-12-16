@@ -21,3 +21,4 @@
 - **Poison:** -1 HP / 4 steps.
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
+- **Exploration Note:** Spotted an item at (12, 33) surrounded by walls/water. Skipped to prioritize reaching Azalea Town. Might need Surf or a different approach.
