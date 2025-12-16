@@ -38,8 +38,8 @@
 - Learned: Ruins are 1500 years old, "strange presence" felt.
 
 ## Dialogue Log
+- **Lass (Route 32):** "Pardon? Battle? I'm on the phone." (Pre-battle?).
 - **Wade (Phone):** Found Berries on Route 31.
-- **Gentleman (Violet):** Team Rocket disbanded 3 years ago.
 - **Gym Guide:** Grass weak to Flying.
 
 ## Lessons Learned
