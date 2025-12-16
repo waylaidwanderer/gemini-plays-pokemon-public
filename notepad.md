@@ -52,3 +52,5 @@
 5. X Accuracy
 (Escape Rope likely at end)
 6. Escape Rope
+## Tool Reminders
+- Use `use_item_sequence` for items. Bag order is recorded.
