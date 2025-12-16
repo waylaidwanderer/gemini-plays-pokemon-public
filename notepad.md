@@ -37,6 +37,6 @@
 
 ## Immediate Plan
 - **Earl's Academy Sign:** Confirmed location at (27, 17).
-1. Talk to Super Nerd at (25, 14).
+1. Talk to Super Nerd.
 2. Locate Sprout Tower.
 3. Locate Gym.
