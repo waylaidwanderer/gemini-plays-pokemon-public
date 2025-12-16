@@ -2,19 +2,18 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Catch Wild Zubat (Union Cave 1F).
-- **Battle Status:** Zubat (Green HP). Rocky (21/28 HP).
-- **Action:** Throwing Poké Ball (Attempt 3).
+- **Current Task:** Navigate to South Exit (17, 31).
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
     - **Route 33:** South.
+    - **Fisher Trainer:** Located at (15, 27).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
 
 ## Party
-- **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
+- **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10 | **ZUBAT (Zubat)** Lv5
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
