@@ -26,11 +26,11 @@
 
 ## Trainer Card (Gem)
 - **ID:** 24_6
-- **Money:** ¥3300
+- **Money:** ¥848
 - **Badges:** 0
 - **Pokedex:** 2 (Cyndaquil, Sentret)
 - **Party:**
-    1. GARNET (Cyndaquil) Lv7 - Tackle, Leer, Smokescreen.
+    1. GARNET (Cyndaquil) Lv8 - Tackle, Leer, Smokescreen.
     2. TOPAZ (Sentret) Lv3 - Tackle.
 
 ## Key Items
@@ -51,11 +51,10 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Battle Youngster at (2, 28).
-2. Battle Youngster at (5, 26).
-3. Head North on the left side of Route 30 towards Violet City.
+1. Battle/Talk to Youngster at (6, 30).
+2. Head North on the left side of Route 30 towards Violet City.
+3. Battle Youngster at (5, 26).
 
-## Route 30 Navigation
-- **Crossover Point:** The path between Left and Right sides is OPEN at y=30 (Tiles 6-15 are FLOOR). No need to backtrack to Cherrygrove.
-- **South Blockage:** A wall at y=34-36 blocks the Left path from going South to the Berry House.
-- **North Path:** The path to Violet City is accessible from the y=30 crossover by heading North on the Left side.
+## Tool Dev Notes
+- **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
+- **Lesson:** Ensure input variables in `define_tool` are accessed via `input_data`.
