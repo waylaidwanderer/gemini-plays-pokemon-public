@@ -35,7 +35,8 @@
 - **Wade (Phone):** Found Berries. Waiting on Route 31.
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 - **Gameboy Kid (Violet Center):** Bill made the Pokemon PC storage system.
-- **Youngster (Violet Center):** Traded Pokemon need badges to obey.
+- **Youngster (Ruins Gate):** "There are drawings on stone panels. I tried moving them. I wonder what they are."
+- **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 
 ## Immediate Plan
 - **Resupply:** Return to Violet City Mart to buy **Escape Rope**.
