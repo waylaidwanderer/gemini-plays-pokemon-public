@@ -5,17 +5,16 @@
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Navigate Union Cave (Southbound).
-- **Position:** (12, 9).
-- **Obstacle:** Ledge at (12, 10) is blocked/not jumpable from here. NPC at (11, 8) blocks West.
-- **Correction:** Backtrack North to (12, 8), then head East to Column 19.
-- **Plan:** Go East to Col 19, then South.
+- **Position:** (15, 16).
+- **Plan:** Head West to Column 11, then South over ledge at (11, 18).
+- **Path:** (15, 16) -> (11, 16) -> South.
 - **Battle Lesson:** Don't use Onix vs Fighting types. Garnet (Quilava) is the lead.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
 - **Mechanics:**
-    - **Ledges:** `FLOOR_UP_WALL` usually allows jumping South, but this one failed. Taking alternate route.
+    - **Ledges:** `FLOOR_UP_WALL` usually allows jumping South.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
