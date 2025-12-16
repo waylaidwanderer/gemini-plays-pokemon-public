@@ -64,9 +64,9 @@
 4. Parlyz Heal
 5. X Accuracy
 ## Tool Reminders
-- Use `use_item_sequence` for items. Bag order is recorded.
-- **Interaction Tip:** Always use `stun_npc` before interacting with moving NPCs to ensure they don't walk away or turn while you try to talk to them.
-- **Lass (Violet City):** Normal moves don't hit Ghosts (Sprout Tower tip).
+- **Item Usage:** Use `use_item_sequence`.
+- **NPCs:** Use `stun_npc` for moving NPCs.
+- **Ghosts:** Normal moves fail (Lass tip).
 - **Pokefan M (Violet City House):** Traded Pokemon grow fast but need badges to obey.
 - **Trade (Violet City House):** Youngster wants a **Bellsprout** for his **Onix**. (Currently don't have Bellsprout).
 - **Wade (Phone):** Bug-Catching Contest is at National Park today.
