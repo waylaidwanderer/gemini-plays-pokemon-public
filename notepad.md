@@ -5,18 +5,17 @@
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Rocky (Onix) 16/28 HP.
-- **Strategy:** BERRY STALL (Turn 2/3).
-    - Use 2nd Berry. 16 -> 26 HP.
-    - Fishing for Machop to use Focus Energy/Leer.
-    - If he attacks, we are back to ~15 HP, but burned a turn.
-    - Only 1 Berry left after this.
-    - **Backup Plan if he Crits:** We lose.
-    - **Backup Plan if he Attacks:** We have 15 HP and 1 Berry. Repeat or Fight? Likely Fight next.
-- **Inventory:** BERRY x2 -> x1.
+- **Strategy:** BERRY STALL (Turn 3/3).
+    - **Move:** Use last BERRY on Rocky.
+    - **Logic:** 16 HP -> 26 HP.
+    - **Why:** Machop Crit deals ~22 dmg. 16 HP = Death. 26 HP = Survival (~4 HP left).
+    - **Safety:** Using the berry protects against a Crit this turn.
+    - **Next Turn:** Must Screech/Attack. No more healing.
+- **Inventory:** BERRY x1 (Using now).
 - **Mechanics:**
     - Speed: Onix (70) > Machop (35).
     - Def: Onix (160).
-    - Menu: Cursor on PACK. Item Cursor on BERRY.
+    - Menu: Cursor on BERRY. 'USE' is first option. Rocky is Slot 5.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
