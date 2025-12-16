@@ -3,10 +3,8 @@
 ## Immediate Plan & Strategy
 - **Goal:** Reach Azalea Town via Union Cave.
 - **Steps:**
-    1. Finish talking to Fishing Guru (Get Rod).
-    2. Exit Pokemon Center.
-    3. Continue South on Route 32.
-    4. Enter Union Cave.
+    1. Navigate South through Union Cave.
+    2. Reach Route 33 / Azalea Town.
 - **Rocky Training:** Switch train with Garnet.
 
 ## Trainer Card (Gem)
