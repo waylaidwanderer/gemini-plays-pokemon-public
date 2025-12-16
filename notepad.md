@@ -58,3 +58,4 @@
 - **Lass (Violet City):** Normal moves don't hit Ghosts (Sprout Tower tip).
 - **Pokefan M (Violet City House):** Traded Pokemon grow fast but need badges to obey.
 - **Trade (Violet City House):** Youngster wants a **Bellsprout** for his **Onix**. (Currently don't have Bellsprout).
+- **Wade (Phone):** Bug-Catching Contest is at National Park today.
