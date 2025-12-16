@@ -92,4 +92,5 @@
 - **Current Status:** Exited Ruins of Alph. Heading South to Route 32 -> Union Cave -> Azalea Town.
 - **Unown:** Caught 'UNAKITE'.
 - **Shopping:** Complete.
-- **Next:** Exit Violet City South to Route 32.
+- **Next:** Navigate South through Route 32 grass to Union Cave.
+- **Training:** Focus on leveling Rocky (Onix).
