@@ -36,10 +36,9 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Route 32:** Head south from Violet City.
+- **Route 32:** Head south towards Union Cave.
 - **Union Cave:** Traverse to reach Azalea Town.
 - **Hatch Egg:** Walk to hatch the Mystery Egg.
-- **Fruit Tree:** Check tree at (14, 29) on the way out.
 
 ## Recent Events
 - **Violet Pokemon Center:** Healed party. Received **Mystery Egg** from Elm's Aide.
