@@ -87,6 +87,44 @@
       }
     ]
   },
+  "smart_battle_move": {
+    "description": "Selects 'FIGHT' and then navigates to the target move slot, accounting for the cursor's current position. Use this instead of execute_battle_move when the cursor is not at the top.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_slot": {
+          "type": "integer",
+          "description": "The move slot to select (1-4).",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "current_slot": {
+          "type": "integer",
+          "description": "The current cursor position in the move menu (1-4). Defaults to 1.",
+          "default": 1,
+          "minimum": 1,
+          "maximum": 4
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true, automatically presses the calculated buttons.",
+          "default": true
+        }
+      },
+      "required": [
+        "target_slot",
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\n\ntarget_slot = input_data['target_slot']\ncurrent_slot = input_data.get('current_slot', 1)\n\nbuttons = []\n\n# Select FIGHT (Assumes cursor is on FIGHT at main menu)\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate to target slot\ndiff = target_slot - current_slot\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n\n# Select Move\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Mash B to advance text (standard battle progression)\nfor _ in range(10):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 250\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
+        "timestamp": "2025-12-16T07:33:25.485Z",
+        "action_counter": 993
+      }
+    ]
+  },
   "use_item_sequence": {
     "description": "Automates the sequence of navigating to the Pack, selecting an item by index, using it, and selecting a target Pokémon. Works from Overworld (Start menu) or Battle (Main menu).",
     "input_schema": {
@@ -126,44 +164,6 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-16T02:40:55.788Z",
         "action_counter": 602
-      }
-    ]
-  },
-  "smart_battle_move": {
-    "description": "Selects 'FIGHT' and then navigates to the target move slot, accounting for the cursor's current position. Use this instead of execute_battle_move when the cursor is not at the top.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_slot": {
-          "type": "integer",
-          "description": "The move slot to select (1-4).",
-          "minimum": 1,
-          "maximum": 4
-        },
-        "current_slot": {
-          "type": "integer",
-          "description": "The current cursor position in the move menu (1-4). Defaults to 1.",
-          "default": 1,
-          "minimum": 1,
-          "maximum": 4
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true, automatically presses the calculated buttons.",
-          "default": true
-        }
-      },
-      "required": [
-        "target_slot",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\n\ntarget_slot = input_data['target_slot']\ncurrent_slot = input_data.get('current_slot', 1)\n\nbuttons = []\n\n# Select FIGHT (Assumes cursor is on FIGHT at main menu)\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate to target slot\ndiff = target_slot - current_slot\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n\n# Select Move\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Mash B to advance text (standard battle progression)\nfor _ in range(10):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 250\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
-        "timestamp": "2025-12-16T07:33:25.485Z",
-        "action_counter": 993
       }
     ]
   }
