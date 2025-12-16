@@ -2,15 +2,16 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Exit Union Cave (South).
+- **Current Task:** Defeat Hiker Anthony.
+- **Battle Status:** Garnet Fainted! Switching to Rocky.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
-    - **Items:** Pokeball at (12, 33) likely requires Surf or access from B1F.
+    - **Mechanics:** `FLOOR_UP_WALL` ledges define the reachable zones. We are in the southern lower zone.
 
 ## Party
-- **GARNET (Quilava)** Lv18 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv9
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv9
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
