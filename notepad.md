@@ -49,15 +49,14 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Switch GARNET to lead to protect TOPAZ.
-2. Navigate North to Violet City (bypass Bug Catcher via x=2).
-3. Heal at Violet City Pokemon Center.
+1. Explore North on Route 31 to find the path to Violet City.
+2. Avoid wild battles if possible (Topaz HP critical).
+3. Switch Garnet to lead (Already done).
 
-## Route 30 Navigation
-- **Left Path:** Leads to Violet City. Contains grassy patches and ledges.
-    - **Ledge Bypass:** To pass the ledges at y=17 (Northbound), use the grassy path at x=2,3.
-- **Right Path:** Leads to Mr. Pokemon's House (Done).
-- **Divider:** Wall/Trees at x=8,9 separate the paths.
+## Route 31 Navigation
+- **Entrance:** Arrived at (26, 17) from Route 30.
+- **Current Path:** A vertical path heading North, bounded by walls on the West (x=22-23).
+- **Goal:** Find the Westward path to Violet City.
 
 ## Tool Dev Notes
 - **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
