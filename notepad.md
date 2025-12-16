@@ -36,6 +36,5 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-1. Exit Pokemon Center.
-2. Locate Sprout Tower.
-3. Locate Gym.
+1. Locate Sprout Tower.
+2. Locate Gym.
