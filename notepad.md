@@ -45,9 +45,10 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Navigate Route 29 West to Cherrygrove City (stick to southern path).
-2. Heal at Pokemon Center if needed.
-3. Continue to Route 30.
+1. Enter Cherrygrove City.
+2. Heal at Pokemon Center (29, 3).
+3. Buy Potions at Mart (17, 7).
+4. Proceed to Route 30.
 - **Route 29 Strategy:**
     - **Solution Found:** Navigate Northern Path (Row 3/4) to X=16, then dip South to Row 6 to bypass Ledges.
     - **Path:** (24,3) -> Down to (24,5) -> West to (21,5) -> Up to (21,4) -> West through gap at (20,4) -> West to (16,4) -> South to (16,6) -> West to Cherrygrove.
