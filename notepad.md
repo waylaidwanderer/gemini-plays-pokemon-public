@@ -25,7 +25,7 @@
 ## Trainer Card (Gem)
 - **ID:** 24_6
 - **Party:**
-    1. GARNET (Cyndaquil) Lv14 - Tackle, Leer, Smokescreen, Ember.
+    1. GARNET (Quilava) Lv14 - Tackle, Leer, Smokescreen, Ember.
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Dialogue Log
