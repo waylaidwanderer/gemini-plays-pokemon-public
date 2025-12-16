@@ -73,3 +73,4 @@
 - **System Restriction:** `press_buttons` blocks mixing directional and action buttons (e.g. `['Down', 'A']`). Use single inputs or define a tool with `autopress_buttons: true` for sequences.
 - **Battle Menu Mistake:** Accessed 'Start' menu during battle to switch Pokemon. This only reorders the party and does not switch the active battler. Must use 'PKMN' option in the Battle Menu to switch.
 - **Battle State Confusion:** Battle with Hoothoot ended abruptly without visible text log confirmation, directly transitioning to Start Menu upon input. Confirmed Overworld state via visual inspection of Start Menu.
+- **Menu Navigation Correction:** In Turn 593, I attempted to navigate the menu assuming it was open, but I had closed it in Turn 592. Always verify 'Current Screen Text' or visual overlays before assuming a menu is active. 'Down' input resulted in player movement, not cursor movement.
