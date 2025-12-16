@@ -3,9 +3,14 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (Onix) Active. 14/28 HP. Executing Heal.
-- **Immediate Action:** Healing Rocky with Energypowder.
-    - **Reasoning:** Rocky (14 HP) vs Low Kick (~16 Dmg). Essential survival move.
+- **Battle Status:** Rocky (Onix) Active. 14/28 HP. Item Menu.
+- **Immediate Action:** Re-attempting Heal on Rocky.
+    - **Correction:** Adding delays between menu inputs to prevent dropped 'Down' presses.
+    - **Goal:** Use Energypowder on Rocky (Slot 5).
+- **Map Notes:**
+    - **Route 32:** North.
+    - **Union Cave 1F:** Current. Exit at (17, 31).
+    - **Route 33:** South.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
