@@ -9,12 +9,12 @@
 - **FLOOR:** Standard traversable ground.
 - **WALL:** Impassable obstacle.
 - **FLOOR_UP_WALL:** Ledge (Likely one-way jump Down). *To be verified.*
-- **LEDGE_HOP_RIGHT:** One-way jump from Left to Right. Blocks movement from Right to Left.
-- **LEDGE_HOP_DOWN:** One-way jump from Up to Down. Blocks movement from Down to Up.
-- **HEADBUTT_TREE/CUT_TREE:** Impassable (unless interacting with specific move).
+- **LEDGE_HOP_RIGHT/DOWN:** One-way jumps.
+- **HEADBUTT_TREE/CUT_TREE:** Impassable (interactable).
 - **TALL_GRASS:** High encounter rate.
-- **WARP_CARPET:** Transports to new map.
-- **COUNTER:** Acts as a wall. Interact across it to talk to NPCs behind it.
+- **WARP_CARPET_LEFT/RIGHT:** Map transition.
+- **DOOR/CAVE:** Warp to interior.
+- **COUNTER:** Acts as wall, interactable.
 
 ## Navigation History & World Knowledge
 - **New Bark Town:** Elm's Lab (6,3), Player's House (13,5).
