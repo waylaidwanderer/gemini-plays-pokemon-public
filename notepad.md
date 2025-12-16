@@ -53,5 +53,5 @@
 - **Elder Li (Sprout Tower 3F):** Defeated at (10, 2). Awarded HM05 (Flash).
 - **HM05 (Flash):** Requires Zephyr Badge to use outside battle.
 - **Wade (Phone):** Called to chat about his bug catching.
-- **Item at (14, 1):** Picking up now.
+- **Item at (14, 1):** Escape Rope (Picked up).
 - **Battle Mechanic:** Cursor memory persists in Fight menu. Built-in `execute_battle_move` assumes reset. Will rely on manual input or define custom tool when out of battle.
