@@ -3,20 +3,20 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat.
-- **Battle Status:** Switching Topaz (Lv4) -> Rocky (Lv10) - Confirming Switch.
-- **Goal:** Rocky enters battle. Tank hits.
-- **Next Step:** Throw Poke Ball (x5 available).
-- **Navigation:** Backtracking to (5, 3) to access East side.
-- **Position:** (5, 5).
+- **Battle Status:** Rocky (Onix) vs Zubat (Lv5).
+- **Turn 1 (Rocky):** Rocky took 1 dmg from Leech Life. Zubat Full HP.
+- **Action:** Use TACKLE to weaken Zubat.
+    - **Calc:** Onix Tackle (~35 BP) vs Zubat (~18 HP). Expected dmg: ~40-50%. Safe.
+- **Next Turn:** Throw Poke Ball.
+- **Mechanics:**
+    - **Bind:** Weaker (15 BP) but annoying text.
+    - **Tackle:** Stronger (35 BP) but faster.
+    - **Inventory:** 5 Poke Balls, 1 Great Ball.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
     - **Route 33:** South.
-- **Battle Lesson:** Zubat is the answer to Low Kick.
-- **Mechanics:**
-    - **Zubat:** Poison/Flying. 4x Resist Fighting.
-    - **Onix:** Rock/Ground. Resists Bug (Leech Life) and Poison. High Def.
-    - **Capture:** Level 5 Zubat should be catchable at full HP, but weakening is better. Rocky might kill it with Tackle. Maybe just throw balls.
+- **Battle Lesson:** Zubat (4x Resist Fighting) is a great counter to Machop.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
