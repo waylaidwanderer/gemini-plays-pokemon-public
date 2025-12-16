@@ -50,5 +50,8 @@
 - **Sage Neal (Sprout Tower 3F):** Defeated at (10, 11). Mentioned the Elder's HM lights darkness.
 - **Sage Troy (Sprout Tower 3F):** Defeated.
 - **Silver (Rival):** Defeated the Elder and used an Escape Rope to leave.
-- **Elder Li (Sprout Tower 3F):** Battling at (10, 2). Defeated Hoothoot (Lv10). Fighting Bellsprout (Lv7). Garnet HP 17/38.
+- **Elder Li (Sprout Tower 3F):** Defeated at (10, 2). Awarded HM05 (Flash).
+- **HM05 (Flash):** Requires Zephyr Badge to use outside battle.
+- **Wade (Phone):** Called to chat about his bug catching.
+- **Item at (14, 1):** Picking up now.
 - **Battle Mechanic:** Cursor memory persists in Fight menu. Built-in `execute_battle_move` assumes reset. Will rely on manual input or define custom tool when out of battle.
