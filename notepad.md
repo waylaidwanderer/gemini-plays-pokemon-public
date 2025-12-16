@@ -26,12 +26,10 @@
 
 ## Trainer Card (Gem)
 - **ID:** 24_6
-- **Money:** ¥848
-- **Badges:** 0
-- **Pokedex:** 2 (Cyndaquil, Sentret)
+- **Status:** See Game State for Money, Badges, and Party HP.
 - **Party:**
-    1. GARNET (Cyndaquil) Lv8 - Tackle, Leer, Smokescreen.
-    2. TOPAZ (Sentret) Lv3 - Tackle.
+    1. GARNET (Cyndaquil) - Fire.
+    2. TOPAZ (Sentret) - Normal.
 
 ## Key Items
 - Pokegear (Phone, Map)
