@@ -50,4 +50,4 @@
 - **Sage Neal (Sprout Tower 3F):** Defeated at (10, 11). Mentioned the Elder's HM lights darkness.
 - **Sage Troy (Sprout Tower 3F):** Defeated.
 - **Silver (Rival):** Defeated the Elder and used an Escape Rope to leave.
-- **Elder Li (Sprout Tower 3F):** Currently speaking to him at (10, 2). He is giving the HM.
+- **Elder Li (Sprout Tower 3F):** Battling at (10, 2). Dialogue: "Allow me to check the ties between your POKéMON and you!"
