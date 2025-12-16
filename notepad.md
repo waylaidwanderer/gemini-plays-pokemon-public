@@ -48,9 +48,8 @@
 1. Navigate Route 29 West to Cherrygrove City (stick to southern path).
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
-- **Route 29 Maze Solution:**
-    1. Enter South Section: Go South to Row 16 (via Col 44), then West.
-    2. Enter Middle Section: Go North at Col 31 (Gap in ledges).
-    3. Navigate Middle: (31,10) -> East to 36 -> North to Row 6.
-    4. Traverse North: West along Row 6 -> North to Row 4 (at Col 21) -> West to Col 16 -> South to Row 6.
-    5. Exit: West to Col 8 -> Jump Ledge Left -> Cherrygrove.
+- **Route 29 Maze Strategy:**
+    - Westward movement is blocked by Trees (X=22) and Ledges (X=15).
+    - The Gatehouse at (27, 1) is the only reachable exit from the central area.
+    - Hypothesis: The Gatehouse leads to Route 46 or bypasses the obstacles.
+    - Plan: Navigate to (27, 1) via the eastern corridor at X=36.
