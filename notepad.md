@@ -4,16 +4,16 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Unakite (9/20 HP) vs Machop.
-- **Strategy:** **LAST RESORT:** Heal Rocky to Full (Energypowder).
-    - Unakite will faint (Sacrifice).
-    - Rocky enters at 28/28 HP.
-    - Rocky (High Def) vs Machop (Low Kick 50 BP).
-    - Dmg Est: ~13-15 per hit. Rocky survives 1 hit guaranteed, maybe 2 with high HP roll.
-    - **Plan:** Open Pack -> Use Energypowder on Rocky.
+- **Strategy:** Heal Rocky (Onix) to full HP using Energypowder.
+    - Current Step: Confirm "USE" on Energypowder.
+    - Next Step: Select Rocky (Slot 5) from party.
+- **Map Notes:**
+    - **Route 32:** North.
+    - **Union Cave 1F:** Current. Exit at (17, 31).
+    - **Route 33:** South.
 - **Mechanics:**
-    - **Gen 2 Low Kick:** Fixed 50 BP. (Not weight based).
-    - **Damage Calc:** Unown (Low Def) took 11. Onix (High Def) takes ~13-15.
-    - **Inventory:** Potion used up. Must use Energypowder (50HP) or Berry (10HP). Energypowder is safer.
+    - **Gen 2 Battle:** Energypowder heals 50HP (Bitter).
+    - **Low Kick:** 50 BP.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (9/20 HP) | **ROCKY (Onix)** Lv10 (14/28 HP)
