@@ -23,5 +23,5 @@
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
 - **Path Correction:** The ledge at (4,18) is blocked from the North.
-- **South Loop Strategy:** Found a potential path South! Plan: Loop South to (7,26), West to (4,26), then North up the West channel to reach the ladder at (5,19).
+- **West Channel Progress:** successfully looped South. Now moving North up the West channel (Column 3/4) to bypass the Super Nerd at (4,21) and reach the ladder at (5,19).
 - **Ledge Mechanics:** `FLOOR_UP_WALL` cannot be entered from the "Floor" side if it acts as a wall. It seems to block Southward movement here.
