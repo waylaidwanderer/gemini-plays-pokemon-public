@@ -3,7 +3,7 @@
 ## Current Objectives
 - **Primary:** Earn the Zephyr Badge in Violet City.
 - **Secondary:** Talk to Mom in New Bark Town (Current Task).
-- **Tertiary:** Catch a Pokemon for the team.
+- **Tertiary:** Train TOPAZ.
 
 ## Game Mechanics & Lessons
 - **Battle:** Watch "Text History" closely. If "Got away safely!" appears, the battle is over. Do not attempt to run again.
@@ -17,14 +17,15 @@
 - **ID:** 24_6
 - **Money:** ¥3300
 - **Badges:** 0
-- **Pokedex:** 1 (Cyndaquil)
+- **Pokedex:** 2 (Cyndaquil, Sentret)
 - **Party:**
     1. GARNET (Cyndaquil) Lv7 - Tackle, Leer, Smokescreen.
+    2. TOPAZ (Sentret) Lv2 - Tackle.
 
 ## Key Items
 - Pokegear (Phone, Map)
 - Pokedex
-- 5 Poke Balls
+- Poke Balls
 
 ## Navigation History & World Knowledge
 - **New Bark Town:**
