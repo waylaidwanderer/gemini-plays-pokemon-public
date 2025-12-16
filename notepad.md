@@ -3,7 +3,7 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat (Union Cave 1F).
-- **Battle Status:** Zubat broke free. Rocky (23/28 HP). Zubat (Low HP + Bind).
+- **Battle Status:** Zubat broke free. HP Green (~60%). Bind ended.
 - **Action:** Opening Pack to throw another Poké Ball.
 - **Map Notes:**
     - **Route 32:** North.
