@@ -99,5 +99,7 @@
 - **Scientist 2 (Research Center):** Patterns on walls are keys to the mystery.
 - **Warp Mechanics:** Gatehouse warp at (13, 20/21) confirmed as `WARP_CARPET_RIGHT` (enter from Left).
 - **Puzzle Wall (Kabuto Chamber):** Solved (Escape Rope). Looted Secret Room (4 items).
-- **Current Task:** Solve Kabuto Sliding Puzzle (Object at 3,2).
+- **Current Task:** Solving Kabuto Sliding Puzzle.
+- **Puzzle Strategy:** Move pieces 1-16 to center 4x4 grid (1,1 to 4,4).
+- **Progress:** Placing pieces 1, 2, 3.
 - **Hypothesis:** Warps at (3,3)/(4,3) are inactive until puzzle is solved. Must interact from bottom.
