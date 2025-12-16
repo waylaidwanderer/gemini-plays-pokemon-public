@@ -93,4 +93,5 @@
 - **Unown:** Caught 'UNAKITE'.
 - **Shopping:** Complete.
 - **Next:** Navigate South through Route 32 grass to Union Cave.
-- **Training:** Focus on leveling Rocky (Onix).
+- **Battle Strategy:** Rocky confused/hurt. Switching to Garnet to finish Zubat.
+- **Training:** Focus on leveling Rocky (Onix) - paused for current battle.
