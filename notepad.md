@@ -70,3 +70,4 @@
 - **Violet Gym Layout:** Center path seems to be the way forward (funnels through x=4,5 at y=11).
 - **Battle Mechanic:** Cursor resets to Slot 1 (top left) every turn.
 - **Falkner's Team:** Pidgey (Lv7), Pidgeotto (Lv9).
+- **Exploration Note:** The area south of the Academy (x=20-36, y=26-32) is a cul-de-sac. Access to the rest of the city is via the path at x=27 (Northbound). The ledge at x=26 blocks Northbound movement.
