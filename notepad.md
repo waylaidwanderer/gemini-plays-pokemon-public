@@ -39,9 +39,8 @@
 - **Earl's Academy Sign:** Confirmed location at (27, 17).
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
 - **Teacher (Sprout Tower 1F):** Pillar is shaking. People training upstairs.
-- **Sage (Sprout Tower 1F):** Sprout Tower built long ago for Pokemon training.
-1. Talk to Sage at (7, 4).
-2. Explore Ladder at (6, 4).
-3. Investigate path to Left Side (Sage at 3, 5). Wall at x=4 seems to block direct access.
+- **Sage (Sprout Tower 1F - Right):** Only if you reach the top will you obtain an HM.
+1. Climb Ladder at (6, 4).
+2. Explore Sprout Tower 2F.
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 1F:** Entered. Investigating.
