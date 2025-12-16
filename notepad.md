@@ -2,7 +2,9 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Exit Union Cave via (17, 31).
+- **Current Task:** Defeat Hiker Anthony (Route 33).
+- **Battle Status:** Amethyst (3/20 HP) vs Machop.
+- **Strategy:** Sacrifice Amethyst. Switch to Garnet to Ember.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
