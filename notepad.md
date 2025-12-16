@@ -5,19 +5,18 @@
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Unakite Fainted. Sending out Rocky (14/28 HP).
 - **Strategy:**
-    1. Send out Rocky.
-    2. **CRITICAL DECISION:**
-        - Option A: Attack immediately (Screech/Tackle). Risk: Faint if slower/one-shot.
-        - Option B: Heal with Energypowder (50HP). Risk: Take hit while healing.
-        - Analysis: Low Kick (50BP, 2x eff) vs Onix Defense. Likely 10-15 dmg. 14 HP is borderline.
-        - Plan: Heal immediately if he survives entry? No, clean switch means I get a turn.
-        - **Revised Plan:** Use Energypowder on Turn 1. Rocky goes to Full. Takes hit. Then fight.
+    1. Send out Rocky (Current Action).
+    2. **Turn 1 Action:** OPEN PACK -> Use Energypowder.
+       - **Reasoning:** Rocky (14 HP) vs Machop (Low Kick 150 Eff BP).
+       - **Calc:** Onix High Def reduces dmg to ~11-13.
+       - **Risk:** 14 HP is too close to death range. Crit = Over. High roll = Over.
+       - **Play:** Heal to Full (28/28). Survive hit. Then fight.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
 - **Mechanics:**
-    - **Gen 2 Battle:** **CONFIRMED:** Cannot use healing items on benched Pokémon.
+    - **Gen 2 Battle:** Items consume turn.
     - **Low Kick:** 50 BP.
 
 ## Party
