@@ -34,4 +34,5 @@
 ## Immediate Plan
 1. Defeat Bug Catcher Wade.
 2. Explore West from (18, 13) to find a path to Violet City.
-3. Check Rows 12-15 for a gap in the wall at x=15.
+3. Check for gaps in the wall at x=15 (Rows 12-15).
+4. If blocked, check the Northern edge (y=1) mentioned by the system.
