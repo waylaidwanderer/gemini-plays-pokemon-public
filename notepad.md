@@ -2,10 +2,11 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Battle Hiker Anthony (Dire Situation - Likely Blackout).
+- **Current Task:** Heal at Route 32 Center (Team is injured), then re-traverse Union Cave to reach Route 33.
 - **Map Notes:**
+    - **Route 32:** Currently here.
+    - **Union Cave:** Cleared previously.
     - **Route 33:** Rainy weather (Water+, Fire-).
-    - **Union Cave:** Cleared.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv9 (FNT)
