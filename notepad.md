@@ -36,25 +36,15 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Earl's Academy Sign:** Confirmed location at (27, 17).
-- **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
-- **Teacher (Sprout Tower 1F):** Pillar is shaking. People training upstairs.
-- **Sage Nico (Sprout Tower 2F):** Defeated.
-- **Statue at (12, 15):** "It looks very distinguished." (Flavor text).
-- **Sage Edmond (Sprout Tower 2F):** Defeated.
-- **Ladder at (17, 3):** Investigating.
-- **South-East Area (Rows 4-8):** Explored. Dead end with walls at Row 8.
-- **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
-- **Sprout Tower 3F:** Retrieved Potion at (6, 14).
-- **Sage Jin (Sprout Tower 3F):** Defeated at (8, 13).
-- **Sage Neal (Sprout Tower 3F):** Defeated at (10, 11). Mentioned the Elder's HM lights darkness.
-- **Sage Troy (Sprout Tower 3F):** Defeated.
-- **Silver (Rival):** Defeated the Elder and used an Escape Rope to leave.
-- **Elder Li (Sprout Tower 3F):** Defeated at (10, 2). Awarded HM05 (Flash).
-- **HM05 (Flash):** Requires Zephyr Badge to use outside battle.
-- **Wade (Phone):** Called to chat about his bug catching.
-- **Item at (14, 1):** Escape Rope (Used to exit).
-- **Battle Mechanic:** Cursor memory persists in Fight menu. Built-in `execute_battle_move` assumes reset. Will rely on manual input or define custom tool when out of battle.
+- **Heal at Pokemon Center:** Located at (31, 25).
+- **Challenge Violet City Gym:** To earn Zephyr Badge and use Flash.
+
+## Recent Events (Sprout Tower Cleared)
+- **Elder Li:** Defeated. Awarded HM05 (Flash).
+- **HM05 (Flash):** Needs Zephyr Badge.
+- **Rival Silver:** Used Escape Rope to leave.
+- **Wade:** Called about bug catching.
+- **Battle Mechanic:** Cursor memory persists in Fight menu.
 ## Bag Order (Items Pocket)
 1. Berry
 2. Antidote
