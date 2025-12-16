@@ -87,3 +87,4 @@
 - **Teacher:** Says the place feels "ethereal".
 - **Exploration:** Exploring West side of the chamber.
 - **Scientist (Research Center):** Ruins are 1500 years old, origin unknown.
+- **Computer:** Log entry "Exploration Year 10".
