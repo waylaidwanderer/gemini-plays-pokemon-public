@@ -3,9 +3,10 @@
 ## Immediate Plan & Strategy
 - **Goal:** Reach Azalea Town via Union Cave.
 - **Steps:**
-    1. Interact with Fisher at (14, 19).
-    2. Head South over ledges at y=22.
-    3. Find Union Cave exit.
+    1. Return to (16, 8) via (12, 8) to avoid Hiker Russell.
+    2. Navigate South to (15, 19).
+    3. Continue South past Firebreather Bill.
+    4. Locate Union Cave exit.
 - **Rocky Training:** Switch train with Garnet.
 
 ## Trainer Card (Gem)
