@@ -49,9 +49,8 @@
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
 - **Route 29 Strategy:**
-    - **Status:** South & Middle paths blocked. Route 46 is a dead end.
-    - **New Hypothesis:** The Northern Path (Rows 0-7) must connect to Cherrygrove.
-    - **Plan:** Travel West from Gatehouse (27, 2) along Row 2/3. Watch for gaps in trees.
+    - **Solution Found:** Navigate Northern Path (Row 3/4) to X=16, then dip South to Row 6 to bypass Ledges.
+    - **Path:** (24,3) -> Down to (24,5) -> West to (21,5) -> Up to (21,4) -> West through gap at (20,4) -> West to (16,4) -> South to (16,6) -> West to Cherrygrove.
 - **Route 46:**
     - Accessed via Gatehouse at (27, 1).
     - **DEAD END:** Blocked by ledges at Row 23. Do not return unless exploring Dark Cave later.
