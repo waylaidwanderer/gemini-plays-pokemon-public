@@ -8,7 +8,7 @@
 ## Tile Mechanics
 - **FLOOR:** Standard traversable ground.
 - **WALL:** Impassable obstacle.
-- **FLOOR_UP_WALL:** Ledge (Likely one-way jump Down). *To be verified.*
+- **FLOOR_UP_WALL:** Acts as a WALL from the North (cannot be entered/jumped). Verified at (11, 34).
 - **LEDGE_HOP_RIGHT/DOWN:** One-way jumps.
 - **HEADBUTT_TREE/CUT_TREE:** Impassable (interactable).
 - **TALL_GRASS:** High encounter rate.
