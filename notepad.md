@@ -57,3 +57,4 @@
 - **Interaction Tip:** Always use `stun_npc` before interacting with moving NPCs to ensure they don't walk away or turn while you try to talk to them.
 - **Lass (Violet City):** Normal moves don't hit Ghosts (Sprout Tower tip).
 - **Pokefan M (Violet City House):** Traded Pokemon grow fast but need badges to obey.
+- **Trade (Violet City House):** Youngster wants a **Bellsprout** for his **Onix**. (Currently don't have Bellsprout).
