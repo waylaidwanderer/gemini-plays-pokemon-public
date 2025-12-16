@@ -4,9 +4,10 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Rocky (Onix) Active. 14/28 HP. Item Menu.
-- **Immediate Action:** Re-attempting Heal on Rocky.
-    - **Correction:** Adding delays between menu inputs to prevent dropped 'Down' presses.
-    - **Goal:** Use Energypowder on Rocky (Slot 5).
+- **Immediate Action:** Open Party Menu to confirm target cursor position.
+    - **Step 1:** Select Energypowder (A) -> Select USE (A).
+    - **Step 2:** (Next Turn) Visual confirm of cursor. If on Rocky, press A. If on Egg, scroll to Rocky.
+    - **Reasoning:** Cursor memory might persist on 'Egg' from previous error. Safety first.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
