@@ -39,7 +39,6 @@
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 
 ## Immediate Plan
-- **Resupply:** Return to Violet City Mart to buy **Escape Rope**.
 - **Ruins of Alph:** Return to Inner Chamber and use Escape Rope at the strange wall.
 - **Route 32:** Continue South after solving puzzle.
 
