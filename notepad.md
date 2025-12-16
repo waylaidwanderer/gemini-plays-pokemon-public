@@ -3,13 +3,23 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (Onix) Active. 28/28 HP.
-- **Immediate Action:** Press B to clear "It looks bitter..." -> Machop Attacks -> Select SCREECH.
+- **Current Task:** Defeat Hiker Anthony.
+- **Battle Status:** Rocky (6/28 HP). Critical Danger.
+- **Strategy:** Berry Stall.
+    - Rocky dies to next hit (11 dmg vs 6 HP).
+    - Use BERRY x3 to stay out of KO range (Heal 10 -> 16 HP).
+    - Hope Machop uses Leer or Misses.
+    - If Machop attacks 3 times in a row, we lose.
 - **Map Notes:**
-    - **Route 33:** Currently here. Battling Hiker Anthony.
-    - **Union Cave:** North (Exited).
+    - **Route 33:** Currently here.
+    - **Union Cave:** North.
     - **Azalea Town:** West.
-- **Exploration:** Check unseen tiles at (9,5) etc. after battle.
+- **Mechanics:**
+    - **Gen 2 Battle:** Low Kick is 50 BP Fixed.
+    - **Correction:** Can heal benched mons (Failed earlier due to user error/Egg selection).
+
+## Party
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
