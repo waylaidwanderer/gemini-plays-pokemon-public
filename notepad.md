@@ -70,3 +70,4 @@
 - **Tool Dev Lesson:** When defining tools, ensure input variables are correctly accessed via `input_data` or the defined schema variable names. JSON parsing within tools requires `import json`.
 - **Mart Mechanics:** Use Up/Down to change quantity. Selection wraps around? (Need to verify).
 - **Tool Dev Note:** Variable injection in `define_tool` scripts failed for list inputs ('btn_seq'). Needs investigation. `bfs_path` variables were likely never tested. Future tools should assume variables might need different access or debugging.
+- **System Restriction:** `press_buttons` blocks mixing directional and action buttons (e.g. `['Down', 'A']`). Use single inputs or define a tool with `autopress_buttons: true` for sequences.
