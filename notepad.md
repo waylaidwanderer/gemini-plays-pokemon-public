@@ -96,3 +96,4 @@
 - **Computer:** Log entry "Exploration Year 10".
 - **Scientist 2 (Research Center):** Patterns on walls are keys to the mystery.
 - **Warp Mechanics:** Gatehouse warp at (13, 20/21) confirmed as `WARP_CARPET_RIGHT` (enter from Left).
+- **Puzzle Wall (Kabuto Chamber):** Text reads "Patterns appeared on the walls...". Hypothesis: This is the clue. Solution: Use Escape Rope.
