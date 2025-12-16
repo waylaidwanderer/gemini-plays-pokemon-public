@@ -23,10 +23,10 @@
 - **AMETHYST (Zubat)** Lv5 (20/20 HP)
 - **PC:** JASPER (Geodude)
 
-## Location Notes: Azalea Town
-- **Kurt:** Gone to Slowpoke Well.
-- **Slowpoke Well:** Blocked by Rocket Grunt at (31, 9).
-- **NPCs:** Gramps at (22, 8).
+## Location Notes: Slowpoke Well
+- **Kurt:** Injured at (16, 14).
+- **Rocket Grunt:** Fighting at (15, 9).
+- **Surface:** Gramps at (22, 8).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
