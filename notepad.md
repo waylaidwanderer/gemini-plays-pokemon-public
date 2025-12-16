@@ -49,15 +49,16 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Re-enter Route 31 via (6, 0).
-2. Navigate East to the grass area (Row 14), then North.
-3. Navigate West past the Fisher (17, 7) to reach Violet City. (Previously turned back unnecessarily).
+1. Return to Route 30 (South).
+2. Explore the path North-West on Route 30 (around x=0-3, y=0-5).
+3. Find the entrance to Route 31 that leads to Violet City (West of the ledge barrier).
 
 ## Route 31 Navigation
-- **Entrance:** (26, 17).
-- **Path:** Go East -> North -> West (Past Fisher) -> Violet City.
-- **Correction:** I previously reached (15, 6) which is past the barrier, but turned back. This path IS valid.
+- **Entrance Used:** (26, 17) from Route 30 (x=6).
+- **Status:** Leads to East Side (Dark Cave).
+- **Blocked:** Westward movement to Violet City is blocked by a Ledge at x=13 (Row 6).
+- **Correction:** Previous thought that "East path leads West" was wrong due to the one-way ledge.
 
-## Route 30 Navigation
-- **Left Path:** Leads to (6, 0) which connects to Route 31.
-- **Right Path:** Leads to Mr. Pokemon.
+## Route 30 Navigation Plan
+- Check rows 0-6 on Route 30 for a path West of x=6.
+- Previously diverted East at Row 6. Need to see if North is possible at x=2 or 3.
