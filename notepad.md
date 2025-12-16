@@ -55,9 +55,6 @@
     - Plan: Navigate to (27, 1) via the eastern corridor at X=36.
 - **Route 46:**
     - Accessed via Gatehouse at Route 29 (27, 1).
-    - Features "Route 46 Sign" at (9, 27).
-    - Terrain: Tall Grass on sides, central path clear.
-    - Exploration Goal: Determine if this connects to Cherrygrove.
-- **Route 46 Sign:** "MOUNTAIN RD. AHEAD".
-    - Hypothesis: "Mountain" implies ledges. If so, might be one-way Southbound (unclimbable from here).
-    - Plan: Attempt to travel North to verify traversability.
+    - **DEAD END:** The path North is blocked by a row of South-facing ledges at Row 23. It is impossible to climb up.
+    - Conclusion: Route 46 is a one-way exit from the mountains/Dark Cave, not an entrance.
+    - **Next Step:** Return to Route 29 and search for a missed path Westward (check X=22 trees again, or explore West from the middle section).
