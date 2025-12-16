@@ -32,4 +32,4 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-1. Navigate through the gap at (9, 9) to reach the Violet City Warp at (4, 7).
+1. Exit the Gatehouse West to Violet City.
