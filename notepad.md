@@ -16,12 +16,12 @@
 - **Pending:** Deliver Mystery Egg to Elm, Bug Contest.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (9/53 HP) - Critical
-- **ROCKY (Onix)** Lv11 (4/30 HP) - Critical
-- **UNAKITE (Unown)** Lv5
+- **GARNET (Quilava)** Lv18 (53/53 HP)
+- **ROCKY (Onix)** Lv11 (30/30 HP)
+- **UNAKITE (Unown)** Lv5 (20/20 HP)
 - **EGG**
-- **TOPAZ (Sentret)** Fainted
-- **AMETHYST (Zubat)** Fainted
+- **TOPAZ (Sentret)** Lv4 (16/16 HP)
+- **AMETHYST (Zubat)** Lv5 (20/20 HP)
 - **PC:** JASPER (Geodude)
 
 ## Location Notes: Azalea Town
