@@ -35,3 +35,4 @@
 ## Immediate Plan
 1. Talk to the Officer at (5, 2).
 2. Exit the Gatehouse West to Violet City.
+- **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location in Violet City.
