@@ -51,20 +51,11 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Harvest Berry from tree at (5, 39).
-2. Continue North on Route 30 to Violet City.
+1. Talk to Youngster at (8, 30) for directions.
+2. Head North on the left side of Route 30 towards Violet City.
+3. Battle Youngster at (5, 26).
 
-## Tool Dev Notes
-- **Lesson:** Ensure input variables in `define_tool` are accessed via `input_data`.
-- **Restriction:** `press_buttons` cannot mix directional and action buttons in one list. Use `autopress_buttons: true` tools or single commands.
-- **Battle Menu Mistake:** Accessed 'Start' menu during battle to switch Pokemon. This only reorders the party and does not switch the active battler. Must use 'PKMN' option in the Battle Menu to switch.
-- **Battle State Confusion:** Battle with Hoothoot ended abruptly without visible text log confirmation, directly transitioning to Start Menu upon input. Confirmed Overworld state via visual inspection of Start Menu.
-- **Menu Navigation Correction:** In Turn 593, I attempted to navigate the menu assuming it was open, but I had closed it in Turn 592. Always verify 'Current Screen Text' or visual overlays before assuming a menu is active. 'Down' input resulted in player movement, not cursor movement.
-- **Route 30 Layout:** Split into two parallel vertical paths.
-    - **Right Path:** Leads to Mr. Pokemon's House (Done).
-    - **Left Path:** Leads to Route 31/Violet City (Target).
-    - **Action:** Must return to Cherrygrove to access the Left Path.
-- **Route 30 Correction:** Reviewed history. I previously visited the Berry House at (7, 39), which is on the Left Path. This confirms the split is accessible from the main Route 30 entrance.
-- **Plan:** Re-enter Route 30 and navigate West/North-West to finding the path to Violet City (past the Berry House).
-- **Berry House Info:** Man says "Check trees for BERRIES. They just drop right off." No item received directly.
-- **Fruit Tree (5, 39):** Checked on Turn 653. Result: Empty.
+## Route 30 Navigation
+- **Crossover Point:** The path between Left and Right sides is OPEN at y=30 (Tiles 6-15 are FLOOR). No need to backtrack to Cherrygrove.
+- **South Blockage:** A wall at y=34-36 blocks the Left path from going South to the Berry House.
+- **North Path:** The path to Violet City is accessible from the y=30 crossover by heading North on the Left side.
