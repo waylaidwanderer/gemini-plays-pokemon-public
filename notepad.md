@@ -3,7 +3,7 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Navigate South through Union Cave 1F to reach Route 33.
-- **Path:** West side seems clearer. Avoid central ledges (blocked).
+- **Path:** East side is the clear path. West blocked by water.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
