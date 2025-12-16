@@ -51,7 +51,7 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Talk to Youngster at (8, 30) for directions.
+1. Talk to Youngster at (6, 30) for directions.
 2. Head North on the left side of Route 30 towards Violet City.
 3. Battle Youngster at (5, 26).
 
