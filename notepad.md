@@ -59,3 +59,5 @@
     - Protected by one-way ledges exiting to East and South.
     - Likely accessible only from Route 46 North (later game) or a hidden path I missed.
     - **Action:** Ignore for now, proceed to Cherrygrove.
+- **Emergency:** Party critical (Topaz 2HP, Garnet 8HP). Prioritizing healing at Cherrygrove.
+- **Route 29 Path:** Taking Row 6 West. Jumping ledge at (8,6) to bypass remaining grass.
