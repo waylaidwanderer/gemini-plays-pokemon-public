@@ -58,3 +58,6 @@
     - Features "Route 46 Sign" at (9, 27).
     - Terrain: Tall Grass on sides, central path clear.
     - Exploration Goal: Determine if this connects to Cherrygrove.
+- **Route 46 Sign:** "MOUNTAIN RD. AHEAD".
+    - Hypothesis: "Mountain" implies ledges. If so, might be one-way Southbound (unclimbable from here).
+    - Plan: Attempt to travel North to verify traversability.
