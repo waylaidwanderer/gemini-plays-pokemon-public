@@ -102,3 +102,4 @@
 - **Current Status:** Puzzle solved. Fell into Main Chamber. "Strange presence" (Unown) detected.
 - **Next:** Catch Unown, then Exit to Route 32 via ladder at (10,13).
 - **Unown:** Encountered Wild Unown (High catch rate, throw balls).
+- **Unown:** Attempt 1 failed (ball shook). Throwing again.
