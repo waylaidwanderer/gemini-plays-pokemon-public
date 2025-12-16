@@ -1,9 +1,9 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Earn the Zephyr Badge in Violet City.
-- **Secondary:** Explore Violet City.
-- **Tertiary:** Locate Sprout Tower.
+- **Primary:** Reach Azalea Town.
+- **Secondary:** Solve Ruins of Alph Puzzle.
+- **Tertiary:** Hatch Egg.
 
 ## Tile Mechanics
 - **FLOOR:** Standard traversable ground.
