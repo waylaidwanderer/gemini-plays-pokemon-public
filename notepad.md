@@ -31,7 +31,6 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-- **Trade:** Complete. Received Onix (ROCKY).
 - **Travel:** Head South to Route 32 -> Union Cave -> Azalea Town.
 
 ## Ruins of Alph (Completed)
