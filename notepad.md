@@ -4,13 +4,13 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Reach Azalea Town Pokemon Center.
+- **Current Task:** Reach Azalea Town Pokemon Center (Urgent).
 - **Battle Status:** Hiker Anthony Defeated.
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
     - **Route 33:** Current.
     - **East:** Union Cave.
-    - **West:** Azalea Town.
+    - **West:** Azalea Town (Path via Row 14/15).
     - **Hiker Anthony:** Defeated at (6, 13).
     - **NPCs:** Lass at (12, 15).
 
