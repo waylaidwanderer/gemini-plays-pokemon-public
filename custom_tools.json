@@ -32,32 +32,6 @@
       }
     ]
   },
-  "execute_battle_move": {
-    "description": "Selects 'FIGHT' from the main battle menu and then selects a move based on the provided slot index (1-4). Automatically mashes 'B' afterwards to advance battle text. Requires 'autopress_buttons: true'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_slot": {
-          "type": "integer",
-          "description": "The move slot to use (1-4). Defaults to 1.",
-          "default": 1
-        }
-      }
-    },
-    "python_script": "import json\n\n# Get input\nmove_slot = int(input_data.get('move_slot', 1))\n\n# Initialize button list\nbuttons = []\n\n# 1. Select FIGHT\n# We assume the cursor is already on FIGHT (top-left) in the main menu.\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# 2. Navigate to Move\n# Cursor in move menu starts at position 1.\n# We need to press Down (move_slot - 1) times.\nfor _ in range(move_slot - 1):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n\n# 3. Select the Move\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# 4. Mash B to advance text/animation\n# We'll add a sequence of B presses to clear text.\n# We use a loop to append single actions to avoid consecutive sleeps if we were adding them differently,\n# but here we alternate B and sleep, which is valid.\nfor _ in range(8):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 250\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-15T21:10:24.341Z",
-        "action_counter": 121
-      },
-      {
-        "commit_message": "Fixed consecutive sleep error in battle move execution.",
-        "timestamp": "2025-12-15T23:28:58.756Z",
-        "action_counter": 323
-      }
-    ]
-  },
   "interact_in_direction": {
     "description": "Faces the player in a specific direction and immediately interacts (presses A). Useful for talking to NPCs, reading signs, or using objects without waiting an extra turn to change facing.",
     "input_schema": {
