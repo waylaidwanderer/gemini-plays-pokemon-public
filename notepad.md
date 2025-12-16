@@ -5,17 +5,17 @@
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Navigate Union Cave (Southbound).
-- **Position:** (11, 7).
-- **Goal:** Reach Azalea Town.
-- **Immediate Obstacle:** NPC at (11, 8).
-- **Plan:** Go East to Col 12, then South over ledge at (12, 10).
+- **Position:** (12, 9).
+- **Obstacle:** Ledge at (12, 10) is blocked/not jumpable from here. NPC at (11, 8) blocks West.
+- **Correction:** Backtrack North to (12, 8), then head East to Column 19.
+- **Plan:** Go East to Col 19, then South.
 - **Battle Lesson:** Don't use Onix vs Fighting types. Garnet (Quilava) is the lead.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
 - **Mechanics:**
-    - **Ledges:** `FLOOR_UP_WALL` usually allows jumping South.
+    - **Ledges:** `FLOOR_UP_WALL` usually allows jumping South, but this one failed. Taking alternate route.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
