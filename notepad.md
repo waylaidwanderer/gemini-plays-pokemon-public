@@ -61,7 +61,6 @@
 - **Battle Menu Mistake:** Accessed 'Start' menu during battle to switch Pokemon. This only reorders the party and does not switch the active battler. Must use 'PKMN' option in the Battle Menu to switch.
 - **Battle State Confusion:** Battle with Hoothoot ended abruptly without visible text log confirmation, directly transitioning to Start Menu upon input. Confirmed Overworld state via visual inspection of Start Menu.
 - **Menu Navigation Correction:** In Turn 593, I attempted to navigate the menu assuming it was open, but I had closed it in Turn 592. Always verify 'Current Screen Text' or visual overlays before assuming a menu is active. 'Down' input resulted in player movement, not cursor movement.
-- **Tool Idea:** (Implemented) `use_item_sequence` defined in Turn 602.
 - **Route 30 Layout:** Split into two parallel vertical paths.
     - **Right Path:** Leads to Mr. Pokemon's House (Done).
     - **Left Path:** Leads to Route 31/Violet City (Target).
