@@ -33,9 +33,10 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-1. Talk to Gentleman and Gameboy Kid in Center.
+1. Talk to Gameboy Kid in Center.
 2. Exit Pokemon Center.
 3. Locate Sprout Tower.
+- **Gentleman (Violet Center):** Mentioned Team Rocket was broken up 3 years ago by a kid.
 3. Locate Gym.
 - **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location in Violet City.
 - **Wade (Phone):** Called. Found Berries. Waiting on Route 31.
