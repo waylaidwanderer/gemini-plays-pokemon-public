@@ -49,17 +49,21 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Execute complex navigation path North to Route 31 entrance at (6, 0).
-   - Path bypasses Youngster (5,23), Row 17 Ledge, Row 11 Ledge, and other trainers.
-2. Enter Violet City.
-3. Heal at Pokemon Center.
+1. Explore the grassy area to the East on Route 31 (Row 14/15).
+2. Look for a path North or West to bypass the blocked trees.
+3. Reach Violet City.
+4. Heal at Pokemon Center.
 
-## Route 30 Navigation Details
-- **Ledge Bypass (Row 25):** Use gap at x=5.
-- **Youngster Bypass:** Go around (5, 23) using x=4.
-- **Ledge Bypass (Row 17):** Use x=3.
-- **Ledge Bypass (Row 11):** Use x=0 or x=1 (requires moving Left at Row 12).
-- **Trainer Bypass:** Avoid (2, 13) and (1, 9) by adjusting X-coordinate.
+## Route 31 Navigation
+- **Entrance:** Arrived at (26, 17) from Route 30 West.
+- **Corridor:** Blocked North by Cut/Headbutt trees at Row 10.
+- **East Side:** Open grass area accessible from Row 14. May lead around the blockage.
+- **West Side:** Presumed location of Violet City entrance.
+
+## Current Location
+- **Map:** Route 31 (26_2).
+- **Position:** (26, 17).
+- **Status:** Exploring. Garnet (Lead), Topaz (Low HP).
 
 ## Tool Dev Notes
 - **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
