@@ -95,3 +95,4 @@
 - **Next:** Navigate South through Route 32 grass to Union Cave.
 - **Battle Strategy:** Rocky confused/hurt. Switching to Garnet to finish Zubat.
 - **Training:** Focus on leveling Rocky (Onix) - paused for current battle.
+- **Wade (Phone):** Offering Berries on Route 31. (Gift available).
