@@ -103,4 +103,4 @@
 - **Next:** Catch Unown, then Exit to Route 32 via ladder at (10,13).
 - **Unown:** Encountered Wild Unown (High catch rate, throw balls).
 - **Unown:** Attempt 3 failed. Throwing LAST ball.
-- **Unown:** CAUGHT! (Level 5). Nicknaming 'UNAKITE'.
+- **Unown:** CAUGHT! (Level 5). Nicknamed 'UNAKITE'. (Party 5/6, 0 Balls left - Need to buy more).
