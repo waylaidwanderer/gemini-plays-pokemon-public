@@ -39,8 +39,8 @@
 - **Earl's Academy Sign:** Confirmed location at (27, 17).
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
 - **Teacher (Sprout Tower 1F):** Pillar is shaking. People training upstairs.
-- **Sprout Tower 2F:** Entered via Right Ladder. Room appears split by a wall at x=4.
-1. Explore Right Side of Sprout Tower 2F.
-2. Find path to Left Side (likely via another floor).
+- **Sage Nico (Sprout Tower 2F):** Defeated.
+1. Explore the area to the East of Sage Nico.
+2. If dead end, return to 1F and investigate path to Left Side (Ladder at 2, 6).
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 1F:** Entered. Investigating.
