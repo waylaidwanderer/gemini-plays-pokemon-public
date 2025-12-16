@@ -4,18 +4,18 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Status:** Whited out. Respawned at Route 32 Center.
-- **Lesson:** Machop's Low Kick destroys Onix. Do not use Onix vs Fighting types.
-- **New Strategy:**
-    - **Lead:** GARNET (Lv18).
-    - **Tactics:** Use Ember (Target lower Sp.Def). Use Smokescreen if needed.
-    - **Backup:** Catch a Zubat in Union Cave? (4x Resist Fighting).
-- **Current Task:** Re-traverse Union Cave to reach Route 33.
+- **Current Task:** Navigate Union Cave (Southbound).
+- **Position:** (11, 7).
+- **Goal:** Reach Azalea Town.
+- **Immediate Obstacle:** NPC at (11, 8).
+- **Plan:** Go East to Col 12, then South over ledge at (12, 10).
+- **Battle Lesson:** Don't use Onix vs Fighting types. Garnet (Quilava) is the lead.
 - **Map Notes:**
-    - **Route 32:** Current location.
-    - **Union Cave:** South.
-    - **Route 33:** South of Cave.
-- **Money:** ¥509.
+    - **Route 32:** North.
+    - **Union Cave 1F:** Current. Exit at (17, 31).
+    - **Route 33:** South.
+- **Mechanics:**
+    - **Ledges:** `FLOOR_UP_WALL` usually allows jumping South.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
