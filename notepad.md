@@ -4,16 +4,25 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Reach Azalea Town Pokemon Center (Urgent).
-- **Pathing:** Move Down to Row 14, then West to bypass Hiker Anthony.
-- **Battle Status:** Hiker Anthony Defeated.
+## Strategy & Pathing
+- **Goal:** Reach Azalea Town (West of Route 33).
+- **Current Task:** Enter Azalea Town.
+- **Pathing:** Continue West along Row 14 to map edge.
+- **Battle Status:** Avoid wild battles. Party Critical.
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
-    - **Route 33:** Current. Rain active (weakens Ember).
+    - **Route 33:** Current. Rain active.
     - **East:** Union Cave.
-    - **West:** Azalea Town (Path via Row 14/15).
-    - **Hiker Anthony:** Defeated at (6, 13).
+    - **West:** Azalea Town (Exit at x=0).
     - **NPCs:** Lass at (12, 15).
+
+## Tile Mechanics
+- **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
+- **LEDGE_HOP_LEFT:** One-way jump to the left.
+
+## Party
+- **GARNET (Quilava)** Lv18 (9/53 HP) | **TOPAZ (Sentret)** Lv4 (Fainted) | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv11 (4/30 HP) | **AMETHYST (Zubat)** Lv5 (Fainted)
+- **PC:** **JASPER (Geodude)** Lv6 (New Catch)
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
