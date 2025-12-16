@@ -4,18 +4,19 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (Onix) Active. 6/28 -> 16/28 HP (After Berry).
-- **Immediate Action:** Confirming Berry use on Rocky.
-    - **Current:** Cursor on Rocky.
-    - **Input:** Press A.
-    - **Outcome:** Rocky recovers 10 HP. Turn ends. Machop attacks.
-- **Scenario Analysis:**
-    - If Machop hits (Non-Crit): Rocky survives (~5-6 HP left).
-    - If Machop Crits: Rocky faints. Wipe likely (Topaz Lv4 vs Machop Lv11 is bad).
-    - If Machop misses/Leers: Great!
+- **Battle Status:** Rocky (Onix) 16/28 HP.
+- **Opponent:** Machop Lv11 (100% HP). Moves: Low Kick, Leer, Focus Energy.
+- **Strategy:** BERRY STALL.
+    - Low Kick deals ~11 dmg. Rocky has 16.
+    - If I attack, I do ~15% dmg. I need 6+ hits.
+    - I can't survive 6 turns of trading hits.
+    - **Plan:** Use remaining BERRYs to keep HP > 11.
+    - **Win Condition:** Machop uses Focus Energy or Misses. This buys a free turn to Attack/Screech without losing HP.
+    - **Risk:** High Crit rate from Focus Energy later.
+- **Inventory:** BERRY x2 left.
 - **Mechanics:**
-    - **Gen 2 Battle:** Items consume turn.
-    - **Inventory:** No Potions left. Only Berries.
+    - Speed: Onix (70) > Machop (35). I move first.
+    - Def: Onix (160). Low Kick (50BP) is the main threat.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
