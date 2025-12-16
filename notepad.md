@@ -53,7 +53,7 @@
 ## Immediate Plan
 1. Battle/Talk to Youngster at (6, 30).
 2. Head North on the left side of Route 30 towards Violet City.
-3. Battle Youngster at (5, 26).
+3. Battle Youngster at (5, 23).
 
 ## Tool Dev Notes
 - **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
