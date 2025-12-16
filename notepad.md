@@ -61,3 +61,5 @@
     - **Action:** Ignore for now, proceed to Cherrygrove.
 - **Emergency:** Party critical (Topaz 2HP, Garnet 8HP). Prioritizing healing at Cherrygrove.
 - **Route 29 Path:** Taking Row 6 West. Jumping ledge at (8,6) to bypass remaining grass.
+- **Tool Dev Lesson:** When defining tools, ensure input variables are correctly accessed via `input_data` or the defined schema variable names. JSON parsing within tools requires `import json`.
+- **Mart Mechanics:** Use Up/Down to change quantity. Selection wraps around? (Need to verify).
