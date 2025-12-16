@@ -101,4 +101,4 @@
 - **Puzzle Wall (Kabuto Chamber):** Solved.
 - **Current Status:** Puzzle solved. Fell into Main Chamber. "Strange presence" (Unown) detected.
 - **Next:** Catch Unown, then Exit to Route 32 via ladder at (10,13).
-- **Unown:** "Strange presence" detected in Inner Chamber. Wild Unown likely available.
+- **Unown:** Encountered Wild Unown (High catch rate, throw balls).
