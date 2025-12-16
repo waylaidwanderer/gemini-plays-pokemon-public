@@ -39,6 +39,7 @@
 - **Route 32:** Head south from Violet City.
 - **Union Cave:** Traverse to reach Azalea Town.
 - **Hatch Egg:** Walk to hatch the Mystery Egg.
+- **Fruit Tree:** Check tree at (14, 29) on the way out.
 
 ## Recent Events
 - **Violet Pokemon Center:** Healed party. Received **Mystery Egg** from Elm's Aide.
