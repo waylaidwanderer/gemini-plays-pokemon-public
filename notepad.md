@@ -2,13 +2,13 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Navigate Route 33 Westward.
+- **Current Task:** Battle Hiker Anthony (Dire Situation - Likely Blackout).
 - **Map Notes:**
     - **Route 33:** Rainy weather (Water+, Fire-).
     - **Union Cave:** Cleared.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv9 (1/26 HP)
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv9 (FNT)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
