@@ -1,11 +1,11 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Strategy & Pathing
-- **Goal:** Reach Azalea Town.
-- **Current Task:** Explore South of Union Cave 1F (past Larry) to find the exit.
+- **Goal:** Reach Azalea Town (West of Route 33).
+- **Current Task:** Navigate Route 33 Westward.
 - **Map Notes:**
-    - **Union Cave B1F:** The ladder at (5,19) leads to a dead-end area with TM39 (Swift) and X Defend.
-    - `FLOOR_UP_WALL` tiles (e.g., at 16,22) block movement from the North (Ledge/Wall).
+    - **Route 33:** Rainy weather (Water+, Fire-).
+    - **Union Cave:** Cleared.
 
 ## Party
 - **GARNET (Quilava)** Lv18 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv7
