@@ -4,19 +4,16 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (6/28 HP). Critical Danger.
-- **Strategy:** Berry Stall.
-    - Rocky dies to next hit (11 dmg vs 6 HP).
-    - Use BERRY x3 to stay out of KO range (Heal 10 -> 16 HP).
-    - Hope Machop uses Leer or Misses.
-    - If Machop attacks 3 times in a row, we lose.
-- **Map Notes:**
-    - **Route 33:** Currently here.
-    - **Union Cave:** North.
-    - **Azalea Town:** West.
+- **Battle Status:** Rocky (6/28 HP). Critical.
+- **Immediate Action:** Scroll to Top of Bag to find BERRY.
+    - **Current Pos:** PSNCUREBERRY.
+    - **Target:** BERRY (Likely at top).
+    - **Plan:** Scroll Up x8 -> Verify -> Use Berry.
 - **Mechanics:**
-    - **Gen 2 Battle:** Low Kick is 50 BP Fixed.
-    - **Correction:** Can heal benched mons (Failed earlier due to user error/Egg selection).
+    - **Gen 2 Battle:** Items consume turn.
+    - **Low Kick:** 50 BP Fixed.
+    - **Speed:** Onix (Base 70) > Machop (Base 35). Rocky should move first if attacking.
+    - **Survival:** 6 HP < ~12 Dmg (Low Kick). Must Heal.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
