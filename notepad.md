@@ -100,8 +100,7 @@
 - **Warp Mechanics:** Gatehouse warp at (13, 20/21) confirmed as `WARP_CARPET_RIGHT` (enter from Left).
 - **Puzzle Wall (Kabuto Chamber):** Solved.
 - **Current Status:** Puzzle solved. Fell into Main Chamber. "Strange presence" (Unown) detected.
-- **Next:** Escape battle, explore West side, then Exit to Route 32 via ladder at (10,13).
+- **Next:** Escape battle, then Exit to Route 32 via ladder at (10,13).
 - **Unown:** Caught 'UNAKITE'. High encounter rate in Inner Chamber.
-- **Navigation:** Row 5 in Inner Chamber is blocked by walls/statues. Must traverse to the far left (column 4) to proceed south.
 - **Shopping:** Out of Poké Balls. Need to buy more at next Mart.
 - **Navigation:** Confirmed West side (Row 10, x<15) is blocked by a wall. The only path south is through the gap at (15, 10).
