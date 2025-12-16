@@ -101,6 +101,6 @@
 - **Puzzle Wall (Kabuto Chamber):** Solved (Escape Rope). Looted Secret Room (4 items).
 - **Current Task:** Solving Kabuto Sliding Puzzle.
 - **Puzzle Strategy:** Move pieces 1-16 to center 4x4 grid (1,1 to 4,4).
-- **Progress:** Placing pieces 7, 8.
-- **Next:** Pieces 9, 10, 11, 12.
+- **Progress:** Placing pieces 9, 10, 11, 12.
+- **Next:** Pieces 13, 14, 15, 16.
 - **Hypothesis:** Warps at (3,3)/(4,3) are inactive until puzzle is solved. Must interact from bottom.
