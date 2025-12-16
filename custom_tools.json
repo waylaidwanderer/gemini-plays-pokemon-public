@@ -87,31 +87,6 @@
       }
     ]
   },
-  "type_text": {
-    "description": "Types the specified text on the standard 9x5 naming screen. Assumes the cursor starts at 'A' (top-left). Supports A-Z, space, and some punctuation. Ends by pressing 'Start' then 'A' if submit is true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "text": {
-          "type": "string",
-          "description": "The text to type. Case-insensitive (will be converted to uppercase)."
-        },
-        "submit": {
-          "type": "boolean",
-          "description": "Whether to finish entry by pressing Start + A after typing.",
-          "default": false
-        }
-      }
-    },
-    "python_script": "import json\n\n# Keyboard Layout\n# 0: A B C D E F G H I\n# 1: J K L M N O P Q R\n# 2: S T U V W X Y Z _\n# 3: - ? ! / . ,\nlayout = [\n    \"ABCDEFGHI\",\n    \"JKLMNOPQR\",\n    \"STUVWXYZ \",\n    \"-?!/.,\"\n]\n\n# Map chars to (col, row)\nchar_map = {}\nfor r, row_str in enumerate(layout):\n    for c, char in enumerate(row_str):\n        char_map[char] = (c, r)\n\ninput_text = input_data.get('text', '').upper()\nshould_submit = input_data.get('submit', False)\n\nbuttons = []\ncurrent_x, current_y = 0, 0  # Start at 'A'\n\nfor char in input_text:\n    if char not in char_map:\n        print(f\"Error: Character '{char}' not supported.\")\n        continue\n    \n    target_x, target_y = char_map[char]\n    \n    # Calculate moves\n    dx = target_x - current_x\n    dy = target_y - current_y\n    \n    # Y Movement (Rows)\n    if dy > 0:\n        buttons.extend([\"Down\"] * dy)\n    elif dy < 0:\n        buttons.extend([\"Up\"] * abs(dy))\n        \n    # X Movement (Cols)\n    if dx > 0:\n        buttons.extend([\"Right\"] * dx)\n    elif dx < 0:\n        buttons.extend([\"Left\"] * abs(dx))\n        \n    buttons.append(\"A\")\n    \n    # Update position\n    current_x, current_y = target_x, target_y\n\nif should_submit:\n    buttons.append(\"Start\")\n    buttons.append(\"A\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Defined a new tool for typing text on the naming screen.",
-        "timestamp": "2025-12-15T23:52:29.234Z",
-        "action_counter": 354
-      }
-    ]
-  },
   "use_item_sequence": {
     "description": "Automates the sequence of navigating to the Pack, selecting an item by index, using it, and selecting a target Pokémon. Works from Overworld (Start menu) or Battle (Main menu).",
     "input_schema": {
