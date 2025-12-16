@@ -49,13 +49,13 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Pick up Item at (29, 5).
-2. Navigate West along Row 5-8 to reach Violet City.
-3. Heal at Pokemon Center.
+1. Navigate West along Row 8/9 to reach Violet City.
+2. Heal at Pokemon Center in Violet City.
+3. Switch Topaz to Lead for experience (after healing).
 
 ## Route 31 Navigation
 - **Entrance:** Arrived at (26, 17) from Route 30 West.
 - **Corridor:** Blocked North by Cut/Headbutt trees at Row 10.
 - **East Side:** Open grass area accessible from Row 14. Contains Cooltrainer M and Dark Cave.
-- **West Side:** Presumed location of Violet City entrance via the northern path (Rows 5-8).
+- **West Side:** Presumed location of Violet City entrance via the northern path (Rows 8-9).
 - **Wild Pokemon:** Zubat, Poliwag.
