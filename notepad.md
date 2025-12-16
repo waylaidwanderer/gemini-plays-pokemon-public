@@ -29,3 +29,6 @@
     - **Low Kick:** 50 BP Fixed.
     - **Items:** Using an item consumes the turn.
 - **Inventory:** Check before shops.
+- **Map Update:** Crossing to East side via Row 26/27. Column 10 leads to potential dead end/water.
+- **Fisher Trainer:** Located at (15, 27).
+- **Exit Strategy:** Navigate to (17, 31) via East side path (Column 16).
