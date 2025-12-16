@@ -54,3 +54,8 @@
 - **Route 46:**
     - Accessed via Gatehouse at (27, 1).
     - **DEAD END:** Blocked by ledges at Row 23. Do not return unless exploring Dark Cave later.
+- **Route 29 Middle Section:**
+    - Contains Fruit Tree and Cooltrainer.
+    - Protected by one-way ledges exiting to East and South.
+    - Likely accessible only from Route 46 North (later game) or a hidden path I missed.
+    - **Action:** Ignore for now, proceed to Cherrygrove.
