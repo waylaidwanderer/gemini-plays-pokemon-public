@@ -100,7 +100,5 @@
 - **Warp Mechanics:** Gatehouse warp at (13, 20/21) confirmed as `WARP_CARPET_RIGHT` (enter from Left).
 - **Puzzle Wall (Kabuto Chamber):** Solved.
 - **Current Status:** Puzzle solved. Fell into Main Chamber. "Strange presence" (Unown) detected.
-- **Next:** Catch Unown, then Exit to Route 32 via ladder at (10,13).
-- **Unown:** Encountered Wild Unown (High catch rate, throw balls).
-- **Unown:** Attempt 3 failed. Throwing LAST ball.
-- **Unown:** CAUGHT! (Level 5). Nicknamed 'UNAKITE'. (Party 5/6, 0 Balls left - Need to buy more).
+- **Next:** Escape battle, explore West side, then Exit to Route 32 via ladder at (10,13).
+- **Unown:** Caught 'UNAKITE'. High encounter rate in Inner Chamber.
