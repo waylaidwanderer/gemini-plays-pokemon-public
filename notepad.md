@@ -8,7 +8,7 @@
     - **Union Cave:** Cleared.
 
 ## Party
-- **GARNET (Quilava)** Lv18 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv7
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv9 (12/26 HP)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
