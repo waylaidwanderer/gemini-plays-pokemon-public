@@ -50,3 +50,4 @@
 3. Look for a path down to the Left Side of 2F/1F.
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 1F:** Entered. Investigating.
+- **Sprout Tower 3F:** Entered. Sages and item visible.
