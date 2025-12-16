@@ -1,14 +1,14 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Heal Party at Azalea Town Pokemon Center.
+- **Primary:** Find Kurt in Azalea Town.
 - **Secondary:** Explore Azalea Town.
 - **Tertiary:** Investigate Team Rocket Presence.
 
 ## Strategy
-1.  **Navigate West:** Move along the main street (Row 10) to find the PC.
-2.  **Heal:** Restore team to full strength.
-3.  **Explore:** Check houses, talk to NPCs, find Kurt.
+1.  **Find Kurt:** Locate Kurt's house (likely in the NW part of town).
+2.  **Explore:** Check other houses and talk to locals.
+3.  **Rocket Check:** Observe the Slowpoke Well situation.
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
