@@ -39,7 +39,8 @@
 - **Earl's Academy Sign:** Confirmed location at (27, 17).
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
 - **Teacher (Sprout Tower 1F):** Pillar is shaking. People training upstairs.
-1. Talk to Sage at (6, 6).
+- **Sage (Sprout Tower 1F):** Sprout Tower built long ago for Pokemon training.
+1. Finish interaction with Sage at (5, 7).
 2. Talk to Sage at (3, 5).
 3. Talk to Sage at (7, 4).
 4. Explore Ladders at (6, 4) and (2, 6).
