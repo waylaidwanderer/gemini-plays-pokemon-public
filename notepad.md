@@ -7,7 +7,7 @@
 
 ## Game Mechanics & Lessons
 - **Battle:** Watch "Text History" closely. If "Got away safely!" appears, the battle is over. Do not attempt to run again.
-- **Menus:** Wait for visual confirmation (text/cursor) before inputting subsequent menu commands.
+- **Menus:** Use `perform_menu_sequence` for known/safe sequences (e.g. backing out). Wait for visual confirmation for complex/risky selections.
 - **Running:** Success depends on Speed. If slower, multiple attempts may be needed.
 
 ## Tile Mechanics
