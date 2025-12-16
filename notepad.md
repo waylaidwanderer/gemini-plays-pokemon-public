@@ -46,7 +46,6 @@
     - Pokemon: Caterpie, Pidgey.
 
 ## Immediate Plan
-1. Talk to Mom at (7,4) in Player's House.
-2. Exit New Bark Town West to Route 29.
-3. Travel through Cherrygrove City to Route 30.
-4. Reach Violet City.
+1. Exit New Bark Town West to Route 29.
+2. Travel through Cherrygrove City to Route 30.
+3. Reach Violet City.
