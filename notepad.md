@@ -23,5 +23,5 @@
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
 - **Path Correction:** The ledge at (4,18) is blocked from the North.
-- **Ledge Mechanics:** `FLOOR_UP_WALL` tiles (e.g., at 7,24) are likely jumpable ledges. Previous conclusion was based on a failed move into a `WALL` tile at (4,18). Testing jump now.
-- **South Area:** Exploring the area south of the ladder (Row 24+).
+- **Ledge Mechanics:** `FLOOR_UP_WALL` tiles (e.g., at 7,24) block movement from the North. They act as walls, not jumpable ledges, from this direction.
+- **Exploration:** Path South is blocked. Heading East to (12,23) to check for a path around the barrier.
