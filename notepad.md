@@ -23,5 +23,5 @@
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
 - **Path Correction:** The ledge at (4,18) is blocked from the North.
-- **West Channel Progress:** successfully looped South. Now moving North up the West channel (Column 3/4) to bypass the Super Nerd at (4,21) and reach the ladder at (5,19).
-- **Ledge Mechanics:** `FLOOR_UP_WALL` cannot be entered from the "Floor" side if it acts as a wall. It seems to block Southward movement here.
+- **Ledge Mechanics:** `FLOOR_UP_WALL` tiles (e.g., at 7,24) are likely jumpable ledges. Previous conclusion was based on a failed move into a `WALL` tile at (4,18). Testing jump now.
+- **South Area:** Exploring the area south of the ladder (Row 24+).
