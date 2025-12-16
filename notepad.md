@@ -88,3 +88,4 @@
 - **Exploration:** Exploring West side of the chamber.
 - **Scientist (Research Center):** Ruins are 1500 years old, origin unknown.
 - **Computer:** Log entry "Exploration Year 10".
+- **Scientist 2 (Research Center):** Patterns on walls are keys to the mystery.
