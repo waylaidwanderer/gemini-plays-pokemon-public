@@ -38,9 +38,9 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Research Center:** Talk to Scientists to gather info.
-- **Resupply:** Go to Violet City Mart for **Escape Rope**.
+- **Resupply:** Return to Violet City Mart to buy **Escape Rope**.
 - **Ruins of Alph:** Return to Inner Chamber and use Escape Rope at the strange wall.
+- **Route 32:** Continue South after solving puzzle.
 
 ## Ruins of Alph Notes
 - **Outside:** East Entrance leads to Inner Chamber.
