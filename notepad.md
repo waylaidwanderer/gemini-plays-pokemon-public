@@ -7,12 +7,12 @@
 ## Strategy & Pathing
 - **Goal:** Heal Party at Azalea Town Pokemon Center.
 - **Current Task:** Reach Azalea Town Pokemon Center (Urgent).
-- **Pathing:** Move East to (31, 12), North through gap at (31, 11), then West along Row 10.
+- **Pathing:** Move Right to (31, 12), Up through gap at (31, 11), then West along Row 10.
 - **Battle Status:** Avoid battles. Party Critical.
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
     - **Azalea Town:** Current.
-    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well. Likely passive until spoken to.
+    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well. Likely passive/blocker.
     - **Ledge Gap:** Passage North at (31, 11).
     - **Main Street:** Row 10.
     - **East:** Route 33.
