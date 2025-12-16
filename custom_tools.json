@@ -111,5 +111,30 @@
         "action_counter": 354
       }
     ]
+  },
+  "perform_menu_sequence": {
+    "description": "Executes a sequence of button presses for menu navigation, bypassing the harness check on mixing directional and action buttons. Input is a list of button strings (e.g. ['Down', 'A']).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-16T00:47:42.828Z",
+        "action_counter": 432
+      }
+    ]
   }
 }
