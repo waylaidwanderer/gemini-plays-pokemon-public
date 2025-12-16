@@ -92,5 +92,4 @@
 - **Current Status:** Exited Ruins of Alph. Heading South to Route 32 -> Union Cave -> Azalea Town.
 - **Unown:** Caught 'UNAKITE'.
 - **Shopping:** Complete.
-- **Next:** Enter House at (21, 29), trade Bellsprout (Peridot) for Onix.
-- **Then:** Head South to Route 32.
+- **Next:** Exit Violet City South to Route 32.
