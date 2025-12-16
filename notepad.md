@@ -3,10 +3,8 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat (Union Cave 1F).
-- **Hunting Strategy:**
-    - Walk around Union Cave to find Zubat.
-    - **Battle:** Use **BIND** (15 BP) with Rocky (Lv10) to weaken. Tackle (35 BP) might kill (Lv 10 vs 5).
-    - **Catch:** Throw Poké Ball when HP is low.
+- **Battle Status:** Catching Zubat (Weakened + Bind active).
+- **Action:** Throwing Poké Ball.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
