@@ -49,7 +49,7 @@
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
 - **Route 29 Traversal:**
-    - The Southern path (Rows 13-16) is a dead end to the West at X=22.
-    - To traverse West to Cherrygrove, you must use the Northern path (Row 4-5).
-    - To reach the Northern path from the South, backtrack East via Row 16 to X=44, then go North.
-    - X=44 is a vertical corridor connecting the North and South sections.
+    - The Southern path (Rows 13-16) connects to a Middle Section (Rows 9-12) via a gap at (27, 13), but progression West is blocked by Ledges/Trees (Row 9, X=22).
+    - Access to the Northern path (Rows 0-7) from the South is blocked.
+    - Hypothesis: There is a Northern Exit from New Bark Town that leads directly to the Northern Path.
+    - Plan: Backtrack to New Bark Town and search for a Northern Exit (Y=4/5?).
