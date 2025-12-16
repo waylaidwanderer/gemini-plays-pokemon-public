@@ -3,10 +3,9 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat.
-- **Goal:** Catch Zubat to counter Hiker Anthony's Machop (4x Fighting Resistance).
-- **Battle Strategy:**
-    1. Switch to Topaz (Lv4) to weaken (Tackle).
-    2. Throw Poke Ball.
+- **Battle Status:** Switching Garnet -> Topaz (Lv4).
+- **Goal:** Weaken Zubat with Topaz's Tackle, then catch.
+- **Reasoning:** Garnet (Lv18) will OHKO. Topaz (Lv4) deals chip damage.
 - **Navigation:** Backtracking to (5, 3) to access East side.
 - **Position:** (5, 5).
 - **Map Notes:**
