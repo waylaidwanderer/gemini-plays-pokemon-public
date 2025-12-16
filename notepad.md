@@ -4,7 +4,7 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat (Union Cave 1F).
 - **Battle Status:** Catching Zubat (Weakened + Bind active).
-- **Action:** Opening Pack -> Ball Pocket.
+- **Action:** Ball thrown. Awaiting result.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
