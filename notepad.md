@@ -57,4 +57,4 @@
     - Accessed via Gatehouse at Route 29 (27, 1).
     - **DEAD END:** The path North is blocked by a row of South-facing ledges at Row 23. It is impossible to climb up.
     - Conclusion: Route 46 is a one-way exit from the mountains/Dark Cave, not an entrance.
-    - **Next Step:** Return to Route 29 and search for a missed path Westward (check X=22 trees again, or explore West from the middle section).
+    - **Next Step:** Return to Route 29 and explore West of the Gatehouse (Rows 0-7) for a path to Cherrygrove. Check the "Trees" at X=22 closely for a gap.
