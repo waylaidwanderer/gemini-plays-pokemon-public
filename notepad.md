@@ -38,7 +38,7 @@
 ## Immediate Plan
 - **Earl's Academy Sign:** Confirmed location at (27, 17).
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
-1. Talk to Granny at (11, 12).
-2. Talk to Teacher at (9, 9).
-3. Explore North towards Sage at (6, 7).
+1. Talk to Teacher at (9, 9).
+2. Explore North.
+- **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 1F:** Entered. Investigating.
