@@ -49,13 +49,15 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Navigate West along Row 6 to bypass Fisher at (17, 7).
-2. Explore Row 6 Westward to find Violet City entrance.
-3. Heal at Pokemon Center in Violet City.
+1. Backtrack to Route 30 (South).
+2. Search for a path West of x=6 on Route 30 (around x=2) that leads to the true West side of Route 31.
+3. Reach Violet City.
 
 ## Route 31 Navigation
-- **Entrance:** Arrived at (26, 17) from Route 30 West.
-- **Corridor:** Blocked North by Cut/Headbutt trees at Row 10.
-- **East Side:** Open grass area accessible from Row 14. Contains Cooltrainer M and Dark Cave.
-- **West Side:** Connected via northern path. Fisher guarding Row 7/8.
-- **Wild Pokemon:** Zubat, Poliwag.
+- **Entrance Used:** (26, 17) leads to an enclosed area blocked by Ledges (West) and Cut Trees (East).
+- **Ledge Barrier:** A ledge at x=13 prevents Westward movement to Violet City.
+- **Hypothesis:** Must enter Route 31 from a different location on Route 30 (likely further West).
+
+## Route 30 Navigation (Recalled)
+- **Left Path:** Navigated up to (6, 0).
+- **Potential Missed Path:** Maybe continue North at x=2 instead of diverting East to x=6?
