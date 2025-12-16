@@ -49,10 +49,9 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Battle Bug Catcher at (1, 9).
-2. Navigate North through the grass on the West side (x=0,1) to bypass ledges.
-3. Continue North on Route 30 towards Violet City.
-4. Switch Topaz to lead when safe.
+1. Switch GARNET to lead to protect TOPAZ.
+2. Navigate North to Violet City (bypass Bug Catcher via x=2).
+3. Heal at Violet City Pokemon Center.
 
 ## Route 30 Navigation
 - **Left Path:** Leads to Violet City. Contains grassy patches and ledges.
