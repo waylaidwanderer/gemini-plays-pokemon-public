@@ -55,3 +55,4 @@
 ## Tool Reminders
 - Use `use_item_sequence` for items. Bag order is recorded.
 - **Interaction Tip:** Always use `stun_npc` before interacting with moving NPCs to ensure they don't walk away or turn while you try to talk to them.
+- **Lass (Violet City):** Normal moves don't hit Ghosts (Sprout Tower tip).
