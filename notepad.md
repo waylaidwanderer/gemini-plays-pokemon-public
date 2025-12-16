@@ -51,9 +51,9 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Navigate North through the gap at (12, 47) on Route 30.
-2. Head West/North-West towards the Berry House (7, 39).
-3. Proceed North to Violet City.
+1. Talk to the man in the Berry House (get Berry?).
+2. Exit the house.
+3. Continue North on Route 30 to Violet City.
 
 ## Tool Dev Notes
 - **Lesson:** Ensure input variables in `define_tool` are accessed via `input_data`.
