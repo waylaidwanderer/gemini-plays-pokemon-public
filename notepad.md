@@ -4,11 +4,14 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat (Union Cave 1F).
 - **Battle Status:** Catching Zubat (Weakened + Bind active).
-- **Action:** Ball thrown. Awaiting result.
+- **Action:** Confirming Poké Ball use.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
     - **Route 33:** South.
+
+## Tile Mechanics
+- **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10
