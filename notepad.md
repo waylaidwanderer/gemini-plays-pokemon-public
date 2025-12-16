@@ -48,4 +48,8 @@
 1. Navigate Route 29 West to Cherrygrove City (stick to southern path).
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
-- **Route 29 Blockage:** A line of trees at X=22 blocks Rows 8-12. To pass West, navigate South to Row 13 or lower.
+- **Route 29 Traversal:**
+    - The Southern path (Rows 9-16) is a dead end at X=13/21.
+    - To traverse West, use the Northern path (Row 4-5).
+    - Access the Northern path by going North at X=41 (from Row 8).
+    - Backtrack East via Row 14 if stuck in the South.
