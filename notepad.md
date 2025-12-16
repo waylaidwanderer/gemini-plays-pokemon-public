@@ -99,8 +99,6 @@
 - **Scientist 2 (Research Center):** Patterns on walls are keys to the mystery.
 - **Warp Mechanics:** Gatehouse warp at (13, 20/21) confirmed as `WARP_CARPET_RIGHT` (enter from Left).
 - **Puzzle Wall (Kabuto Chamber):** Solved.
-- **Current Status:** Puzzle solved. Fell into Main Chamber. "Strange presence" (Unown) detected.
-- **Next:** Escape battle, then Exit to Route 32 via ladder at (10,13).
-- **Unown:** Caught 'UNAKITE'. High encounter rate in Inner Chamber.
-- **Shopping:** Out of Poké Balls. Need to buy more at next Mart.
-- **Navigation:** Confirmed West side (Row 10, x<15) is blocked by a wall. The only path south is through the gap at (15, 10).
+- **Current Status:** Exited Ruins of Alph. Heading South to Route 32 -> Union Cave -> Azalea Town.
+- **Unown:** Caught 'UNAKITE'.
+- **Shopping:** Out of Poké Balls. Will buy at next available Mart.
