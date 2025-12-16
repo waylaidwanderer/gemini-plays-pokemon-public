@@ -3,10 +3,9 @@
 ## Immediate Plan & Strategy
 - **Goal:** Reach Azalea Town via Union Cave.
 - **Steps:**
-    1. Return to (16, 8) via (12, 8) to avoid Hiker Russell.
-    2. Navigate South to (15, 19).
-    3. Continue South past Firebreather Bill.
-    4. Locate Union Cave exit.
+    1. Retrieve item at (4, 17).
+    2. Defeat Super Nerd at (4, 21).
+    3. Continue South to find Union Cave exit.
 - **Rocky Training:** Switch train with Garnet.
 
 ## Trainer Card (Gem)
