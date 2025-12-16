@@ -3,10 +3,9 @@
 ## Immediate Plan & Strategy
 - **Goal:** Reach Azalea Town via Union Cave.
 - **Steps:**
-    1. Backtrack North to (5, 3).
-    2. Traverse East to (16, 3).
-    3. Head South down the East corridor (x=16).
-    4. Explore area South of Firebreather Bill (y>21).
+    1. Navigate East from (4, 17) to rejoin the main corridor at (15, 19).
+    2. Head South from (15, 19) to explore the depths.
+    3. Loop back to reach the Super Nerd at (4, 21) if the path connects.
 - **Rocky Training:** Switch train with Garnet.
 
 ## Trainer Card (Gem)
