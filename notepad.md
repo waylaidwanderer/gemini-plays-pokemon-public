@@ -46,3 +46,4 @@
 - **South-East Area (Rows 4-8):** Explored. Dead end with walls at Row 8.
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 3F:** Retrieved Potion at (6, 14). Preparing to battle Sage at (8, 13).
+- **Sage Neal (Sprout Tower 3F):** Battling at (8, 13).
