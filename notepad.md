@@ -49,7 +49,7 @@
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
 - **Route 29 Traversal:**
-    - The Southern path (Rows 9-16) is a dead end at X=13/21.
-    - To traverse West, use the Northern path (Row 4-5).
-    - Access the Northern path by going North at X=41 (from Row 8).
-    - Backtrack East via Row 14 if stuck in the South.
+    - The Southern path (Rows 13-16) is a dead end to the West at X=22.
+    - To traverse West to Cherrygrove, you must use the Northern path (Row 4-5).
+    - To reach the Northern path from the South, backtrack East via Row 16 to X=44, then go North.
+    - X=44 is a vertical corridor connecting the North and South sections.
