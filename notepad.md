@@ -31,7 +31,7 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Dialogue Log
-- **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location.
+- **Officer (Route 32 Gate):** "RUINS OF ALPH / A Look-and-Touch Tourist Site / Try the sliding stone panels!"
 - **Wade (Phone):** Found Berries. Waiting on Route 31.
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 - **Gameboy Kid (Violet Center):** Bill made the Pokemon PC storage system.
