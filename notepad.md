@@ -51,26 +51,13 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Heal at Cherrygrove Pokemon Center.
-2. Head North-West to the left path of Route 30.
-3. Proceed to Violet City.
-- **Route 29 Strategy:**
-    - **Solution Found:** Navigate Northern Path (Row 3/4) to X=16, then dip South to Row 6 to bypass Ledges.
-    - **Path:** (24,3) -> Down to (24,5) -> West to (21,5) -> Up to (21,4) -> West through gap at (20,4) -> West to (16,4) -> South to (16,6) -> West to Cherrygrove.
-- **Route 46:**
-    - Accessed via Gatehouse at (27, 1).
-    - **DEAD END:** Blocked by ledges at Row 23. Do not return unless exploring Dark Cave later.
-- **Route 29 Middle Section:**
-    - Contains Fruit Tree and Cooltrainer.
-    - Protected by one-way ledges exiting to East and South.
-    - Likely accessible only from Route 46 North (later game) or a hidden path I missed.
-    - **Action:** Ignore for now, proceed to Cherrygrove.
+1. Navigate to North-West Cherrygrove (approx x=5, y=0).
+2. Enter Route 30 via the Left Path.
+3. Travel North to Violet City.
 
-- **Route 29 Path:** Taking Row 6 West. Jumping ledge at (8,6) to bypass remaining grass.
-- **Tool Dev Lesson:** When defining tools, ensure input variables are correctly accessed via `input_data` or the defined schema variable names. JSON parsing within tools requires `import json`.
-- **Mart Mechanics:** Use Up/Down to change quantity. Selection wraps around? (Need to verify).
-- **Tool Dev Note:** Variable injection in `define_tool` scripts failed for list inputs ('btn_seq'). Needs investigation. `bfs_path` variables were likely never tested. Future tools should assume variables might need different access or debugging.
-- **System Restriction:** `press_buttons` blocks mixing directional and action buttons (e.g. `['Down', 'A']`). Use single inputs or define a tool with `autopress_buttons: true` for sequences.
+## Tool Dev Notes
+- **Lesson:** Ensure input variables in `define_tool` are accessed via `input_data`.
+- **Restriction:** `press_buttons` cannot mix directional and action buttons in one list. Use `autopress_buttons: true` tools or single commands.
 - **Battle Menu Mistake:** Accessed 'Start' menu during battle to switch Pokemon. This only reorders the party and does not switch the active battler. Must use 'PKMN' option in the Battle Menu to switch.
 - **Battle State Confusion:** Battle with Hoothoot ended abruptly without visible text log confirmation, directly transitioning to Start Menu upon input. Confirmed Overworld state via visual inspection of Start Menu.
 - **Menu Navigation Correction:** In Turn 593, I attempted to navigate the menu assuming it was open, but I had closed it in Turn 592. Always verify 'Current Screen Text' or visual overlays before assuming a menu is active. 'Down' input resulted in player movement, not cursor movement.
