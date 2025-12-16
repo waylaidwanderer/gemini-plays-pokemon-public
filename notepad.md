@@ -49,14 +49,18 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Explore North on Route 31 to find the path to Violet City.
-2. Avoid wild battles if possible (Topaz HP critical).
-3. Switch Garnet to lead (Already done).
+1. Backtrack to Route 30 (South).
+2. Navigate to the far West side of Route 30 (x=0 or 1).
+3. Re-enter Route 31 from the West side to bypass the wall/trees.
 
 ## Route 31 Navigation
-- **Entrance:** Arrived at (26, 17) from Route 30.
-- **Current Path:** A vertical path heading North, bounded by walls on the West (x=22-23).
-- **Goal:** Find the Westward path to Violet City.
+- **East Side (Current):** Blocked North by Cut/Headbutt trees and Walls. Leads to Dark Cave (presumably).
+- **West Side (Target):** Should lead to Violet City. Accessed via West path of Route 30.
+- **Divider:** A wall/tree line at x=22-23 separates the two areas.
+
+## Map Markers
+- (25, 10) Cut Tree (Requires CUT).
+- (24, 10) Headbutt Tree.
 
 ## Tool Dev Notes
 - **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
