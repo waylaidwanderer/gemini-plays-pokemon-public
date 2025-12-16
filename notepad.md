@@ -12,7 +12,7 @@
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
     - **Azalea Town:** Current.
-    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well.
+    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well. Facing Down. Risk of sight battle if trainer.
     - **Ledge Gap:** Passage North at (31, 11).
     - **Main Street:** Row 10.
     - **East:** Route 33.
