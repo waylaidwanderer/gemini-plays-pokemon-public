@@ -51,4 +51,4 @@
 - **Sage Troy (Sprout Tower 3F):** Defeated.
 - **Silver (Rival):** Defeated the Elder and used an Escape Rope to leave.
 - **Elder Li (Sprout Tower 3F):** Battling at (10, 2). Dialogue: "Allow me to check the ties between your POKéMON and you!"
-- **Battle Mechanic:** Move selection cursor remembers the last used move. `execute_battle_move` tool fails for consecutive moves if it assumes the cursor resets to the top. Must use manual input or fix the tool.
+- **Battle Mechanic:** Cursor memory persists in Fight menu. Built-in `execute_battle_move` assumes reset. Will rely on manual input or define custom tool when out of battle.
