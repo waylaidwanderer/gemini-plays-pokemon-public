@@ -49,7 +49,7 @@
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
 - **Route 29 Traversal:**
-    - The Southern path (Rows 13-16) connects to a Middle Section (Rows 9-12) via a gap at (27, 13), but progression West is blocked by Ledges/Trees (Row 9, X=22).
-    - Access to the Northern path (Rows 0-7) from the South is blocked.
-    - Hypothesis: There is a Northern Exit from New Bark Town that leads directly to the Northern Path.
-    - Plan: Backtrack to New Bark Town and search for a Northern Exit (Y=4/5?).
+    - The Southern path (Rows 13-16) connects to the Northern path via a vertical corridor at X=44.
+    - Previous attempt to go North at (44, 11) was blocked by a WILD BATTLE, not a wall.
+    - Plan: Re-enter Route 29, go to (44, 14), then North to (44, 8) to access the Northern Path.
+    - New Bark Town has no Northern Exit (West wall is solid).
