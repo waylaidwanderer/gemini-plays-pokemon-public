@@ -33,7 +33,7 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-1. Find Pokemon Center to heal.
+1. Heal at Pokemon Center.
 2. Locate Sprout Tower.
 3. Locate Gym.
 - **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location in Violet City.
