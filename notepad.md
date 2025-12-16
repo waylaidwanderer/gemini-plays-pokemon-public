@@ -45,7 +45,7 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Heal at Pokemon Center (Current Action).
+1. Exit Pokemon Center.
 2. Buy Potions at Mart (17, 7).
 3. Proceed to Route 30.
 - **Route 29 Strategy:**
