@@ -7,7 +7,7 @@
 ## Strategy & Pathing
 - **Goal:** Heal Party at Azalea Town Pokemon Center.
 - **Current Task:** Reach Azalea Town Pokemon Center (Urgent).
-- **Pathing:** Move East to (31, 12), Up through gap at (31, 11), then West on Row 10.
+- **Pathing:** Move East to (31, 12), North through gap at (31, 11), then West along Row 10.
 - **Battle Status:** Avoid battles. Party Critical.
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
@@ -21,6 +21,7 @@
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
 - **LEDGE_HOP_LEFT:** One-way jump to the left.
+- **LEDGE_HOP_DOWN:** One-way jump down. Cannot move up through it.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (9/53 HP) | **TOPAZ (Sentret)** Lv4 (Fainted) | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv11 (4/30 HP) | **AMETHYST (Zubat)** Lv5 (Fainted)
