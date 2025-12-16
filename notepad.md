@@ -12,6 +12,7 @@
 - **HEADBUTT_TREE/CUT_TREE:** Impassable (unless interacting with specific move).
 - **TALL_GRASS:** High encounter rate.
 - **WARP_CARPET:** Transports to new map.
+- **COUNTER:** Acts as a wall. Interact across it to talk to NPCs behind it.
 
 ## Navigation History & World Knowledge
 - **New Bark Town:** Elm's Lab (6,3), Player's House (13,5).
