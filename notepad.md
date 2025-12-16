@@ -47,15 +47,20 @@
 - **Inner Chamber:** Warp at (10,13) exits to Outside. Must navigate around it to cross room.
 - **Puzzle:** Strange wall at back. Teacher says place feels "ethereal".
 
-## Recent Events
-- **Violet Pokemon Center:** Healed party. Received **Mystery Egg** from Elm's Aide.
-- **Violet Gym:** Defeated Falkner. Obtained **Zephyr Badge** and **TM31** (Mud-Slap).
-- **Sprout Tower:** Cleared.
-- **Elder Li:** Defeated. Awarded HM05 (Flash).
-- **HM05 (Flash):** Needs Zephyr Badge.
-- **Rival Silver:** Used Escape Rope to leave.
-- **Wade:** Called about bug catching.
-- **Battle Mechanic:** Cursor memory persists in Fight menu.
+## Lessons Learned
+- **Inventory Check:** Always verify current inventory in Game State before backtracking to buy items. (Mistake: Bought Escape Rope when I already had one).
+- **Navigation:** Warps often require walking *into* the edge, not just standing on it.
+
+## Ruins of Alph Strategy
+- **Target:** Inner Chamber strange wall.
+- **Hypothesis:** Use Escape Rope to open secret passage (Classic mechanic, need to verify clue "ESCAPE" or similar on wall).
+- **Current Status:** Have Escape Rope. entering Ruins now.
+
+## Recent Events (Condensed)
+- Defeated Falkner (Violet Gym), obtained Zephyr Badge & TM31.
+- Defeated Elder Li (Sprout Tower), obtained HM05 (Flash).
+- Rival Silver defeated in Cherrygrove.
+- Mystery Egg obtained from Aide.
 ## Bag Order (Items Pocket)
 1. Berry
 2. Antidote
