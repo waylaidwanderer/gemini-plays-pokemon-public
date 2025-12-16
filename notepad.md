@@ -62,3 +62,4 @@
 4. Parlyz Heal
 5. X Accuracy
 (Escape Rope likely at end)
+6. Escape Rope
