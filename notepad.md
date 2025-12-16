@@ -30,24 +30,18 @@
     1. GARNET (Quilava) Lv14 - Tackle, Leer, Smokescreen, Ember.
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
-## Dialogue Log
-- **Officer (Route 32 Gate):** "RUINS OF ALPH / A Look-and-Touch Tourist Site / Try the sliding stone panels!"
-- **Wade (Phone):** Found Berries. Waiting on Route 31.
-- **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
-- **Gameboy Kid (Violet Center):** Bill made the Pokemon PC storage system.
-- **Youngster (Ruins Gate):** "There are drawings on stone panels. I tried moving them. I wonder what they are."
-- **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
-
 ## Immediate Plan
-- **Loot:** All items collected. (Berry, Heal Powder, Energypowder, Psncureberry).
-- **Explore:** Check unseen corners (1,0) and (6,0).
-- **Exit:** Leave the Ruins and continue to Azalea Town.
-- **Exit:** Leave the Ruins and continue to Azalea Town.
+- **Trade:** Trade Bellsprout (Peridot) for Onix (ROCKY).
+- **Travel:** Head South to Route 32 -> Union Cave -> Azalea Town.
 
-## Ruins of Alph Notes
-- **Outside:** East Entrance leads to Inner Chamber.
-- **Inner Chamber:** Warp at (10,13) exits to Outside. Must navigate around it to cross room.
-- **Puzzle:** Strange wall at back. Teacher says place feels "ethereal".
+## Ruins of Alph (Completed)
+- Solved Kabuto Puzzle, caught Unown 'UNAKITE'.
+- Learned: Ruins are 1500 years old, "strange presence" felt.
+
+## Dialogue Log
+- **Wade (Phone):** Found Berries on Route 31.
+- **Gentleman (Violet):** Team Rocket disbanded 3 years ago.
+- **Gym Guide:** Grass weak to Flying.
 
 ## Lessons Learned
 - **Inventory Check:** Always verify current inventory in Game State before backtracking to buy items. (Mistake: Bought Escape Rope when I already had one).
