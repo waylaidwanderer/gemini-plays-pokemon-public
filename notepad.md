@@ -3,20 +3,20 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Unakite (10/20 HP) vs Machop.
-- **Strategy:** **PIVOT:** Heal Unakite!
-    - **CRITICAL:** Machop is using Low Kick.
-    - **Unown (5kg):** Low Kick = 20 BP * 0.5 (Resist) = 10 BP. Takes ~1 DMG. **TANK.**
-    - **Onix (210kg):** Low Kick = 120 BP * 2.0 (Weak) = 240 BP. **INSTANT DEATH.**
-    - **Plan:** Keep Unakite alive. She takes negligible damage. Whittle Machop down with Hidden Power.
+- **Battle Status:** Unakite (9/20 HP) vs Machop.
+- **Strategy:** **LAST RESORT:** Heal Rocky to Full (Energypowder).
+    - Unakite will faint (Sacrifice).
+    - Rocky enters at 28/28 HP.
+    - Rocky (High Def) vs Machop (Low Kick 50 BP).
+    - Dmg Est: ~13-15 per hit. Rocky survives 1 hit guaranteed, maybe 2 with high HP roll.
+    - **Plan:** Open Pack -> Use Energypowder on Rocky.
 - **Mechanics:**
-    - **Gen 2 Low Kick:** 
-        - <10kg: 20 BP
-        - >200kg: 120 BP
-- **Reflection:** Corrected fatal error in planning (switching to Onix). Addressed reflection prompt.
+    - **Gen 2 Low Kick:** Fixed 50 BP. (Not weight based).
+    - **Damage Calc:** Unown (Low Def) took 11. Onix (High Def) takes ~13-15.
+    - **Inventory:** Potion used up. Must use Energypowder (50HP) or Berry (10HP). Energypowder is safer.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (10/20 HP -> 20/20) | **ROCKY (Onix)** Lv10 (14/28 HP)
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (9/20 HP) | **ROCKY (Onix)** Lv10 (14/28 HP)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
