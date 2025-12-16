@@ -2,8 +2,8 @@
 
 ## Current Objectives
 - **Primary:** Earn the Zephyr Badge in Violet City.
-- **Secondary:** Reach Violet City (via Route 31 West).
-- **Tertiary:** Heal Pokemon.
+- **Secondary:** Explore Violet City.
+- **Tertiary:** Locate Sprout Tower.
 
 ## Tile Mechanics
 - **LEDGE_HOP_RIGHT:** One-way jump from Left to Right. Blocks movement from Right to Left.
@@ -18,13 +18,9 @@
 - **New Bark Town:** Elm's Lab (6,3), Player's House (13,5).
 - **Route 29:** Connects New Bark to Cherrygrove.
 - **Cherrygrove City:** Center (29,3), Mart (17,7).
-- **Route 30:**
-    - **Right Path (East):** Leads to Mr. Pokemon.
-    - **Left Path (West):** Leads to Route 31 Entrance (6, 0).
-- **Route 31:**
-    - **East Entrance:** (26, 17).
-    - **layout:** Divided by ledges/trees.
-    - **Current Path:** Navigated East to x=19, then South to Row 13. Currently exploring Westward from (18, 13).
+- **Route 30:** Right Path (East) -> Mr. Pokemon. Left Path (West) -> Route 31.
+- **Route 31:** East Entrance (26, 17) -> Violet City Gatehouse.
+- **Violet City:** Reached via Gatehouse.
 
 ## Trainer Card (Gem)
 - **ID:** 24_6
@@ -32,13 +28,14 @@
     1. GARNET (Cyndaquil) Lv9 - Tackle, Leer, Smokescreen.
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
-## Immediate Plan
+## Dialogue Log
+- **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location.
+- **Wade (Phone):** Found Berries. Waiting on Route 31.
+- **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
+- **Gameboy Kid (Violet Center):** Bill made the Pokemon PC storage system.
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
+
+## Immediate Plan
 1. Exit Pokemon Center.
 2. Locate Sprout Tower.
 3. Locate Gym.
-- **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
-- **Gameboy Kid:** Bill made the Pokemon PC storage system.
-3. Locate Gym.
-- **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location in Violet City.
-- **Wade (Phone):** Called. Found Berries. Waiting on Route 31.
