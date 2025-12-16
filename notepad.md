@@ -49,15 +49,14 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Explore the grassy area to the East on Route 31 (Row 14/15).
-2. Look for a path North or West to bypass the blocked trees.
-3. Reach Violet City.
-4. Heal at Pokemon Center.
+1. Talk to Cooltrainer M at (33, 9).
+2. Explore the area North of the Cooltrainer (Row 8 and above).
+3. Find the path to Dark Cave or Violet City.
 
 ## Route 31 Navigation
 - **Entrance:** Arrived at (26, 17) from Route 30 West.
 - **Corridor:** Blocked North by Cut/Headbutt trees at Row 10.
-- **East Side:** Open grass area accessible from Row 14. May lead around the blockage.
+- **East Side:** Open grass area accessible from Row 14. Contains Cooltrainer M at (33, 9).
 - **West Side:** Presumed location of Violet City entrance.
 
 ## Current Location
