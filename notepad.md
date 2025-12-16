@@ -12,7 +12,7 @@
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
     - **Azalea Town:** Current.
-    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well. Facing Down. Risk of sight battle if trainer.
+    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well. Facing Down.
     - **Ledge Gap:** Passage North at (31, 11).
     - **Main Street:** Row 10.
     - **East:** Route 33.
@@ -21,7 +21,7 @@
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
 - **LEDGE_HOP_LEFT:** One-way jump to the left.
-- **LEDGE_HOP_DOWN:** One-way jump down. Cannot move up through it.
+- **LEDGE_HOP_DOWN:** One-way jump down. Acts as a WALL when trying to move UP.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (9/53 HP) | **TOPAZ (Sentret)** Lv4 (Fainted) | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv11 (4/30 HP) | **AMETHYST (Zubat)** Lv5 (Fainted)
