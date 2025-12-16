@@ -38,10 +38,10 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Explore Side Path:** Check the tall grass at the south end of the current path (x=18-19).
-- **Backtrack:** Return north to (18, 5) to rejoin the main path.
-- **Fisher:** Head south on the main path to talk to the Fisher at (15, 13).
-- **Hatch Egg:** Continue walking south.
+- **Ruins of Alph:** Explore the East Entrance area.
+- **Route 32 Main Path:** Resume heading south.
+- **Fisher:** Talk to Fisher at (15, 13).
+- **Hatch Egg:** Walk.
 
 ## Route 32 Notes
 - **Layout:** Divided into West (Main) and East (Side Path) by a wall/ledge barrier (x=17).
