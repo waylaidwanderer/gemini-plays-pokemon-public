@@ -3,7 +3,7 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Garnet Fainted! Switching to Rocky.
+- **Battle Status:** Sending out Rocky (Onix) vs Geodude.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
