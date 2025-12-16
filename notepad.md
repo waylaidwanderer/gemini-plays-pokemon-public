@@ -98,4 +98,6 @@
 - **Computer:** Log entry "Exploration Year 10".
 - **Scientist 2 (Research Center):** Patterns on walls are keys to the mystery.
 - **Warp Mechanics:** Gatehouse warp at (13, 20/21) confirmed as `WARP_CARPET_RIGHT` (enter from Left).
-- **Puzzle Wall (Kabuto Chamber):** Solved! Used Escape Rope, wall opened. Entering secret room now.
+- **Puzzle Wall (Kabuto Chamber):** Solved (Escape Rope). Looted Secret Room (4 items).
+- **Current Task:** Solve Kabuto Sliding Puzzle (Object at 3,2).
+- **Hypothesis:** Warps at (3,3)/(4,3) are inactive until puzzle is solved. Must interact from bottom.
