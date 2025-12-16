@@ -3,8 +3,8 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony (Route 33).
-- **Battle Status:** Amethyst (3/20 HP) vs Machop.
-- **Strategy:** Sacrifice Amethyst. Switch to Garnet to Ember.
+- **Battle Status:** Amethyst Fainted. Switching to Garnet (16/53 HP).
+- **Strategy:** Garnet is faster. Spam EMBER to KO Machop before it attacks.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
