@@ -65,3 +65,5 @@
     - **Right Path:** Leads to Mr. Pokemon's House (Done).
     - **Left Path:** Leads to Route 31/Violet City (Target).
     - **Action:** Must return to Cherrygrove to access the Left Path.
+- **Gym Speech House:** Pokefan M only gives generic advice about Gyms. No directions.
+- **Hypothesis:** The path to the West side of Cherrygrove (and thus Route 30 West) is via the southern beach/shoreline, bypassing the water/trees blocking the middle of town.
