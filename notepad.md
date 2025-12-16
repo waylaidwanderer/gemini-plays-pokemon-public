@@ -5,7 +5,13 @@
 - **Secondary:** Reach Cherrygrove City.
 - **Tertiary:** Switch TOPAZ to Lead.
 
+## Quest Log (Completed)
+- Delivered Mystery Egg to Elm.
+- Received Pokedex from Oak.
+- Defeated Rival Silver.
+
 ## Game Mechanics & Lessons
+- **Lesson:** ALWAYS verify "Important Events" log before assuming quest state. I backtracked unnecessarily because I forgot I had already done the Mr. Pokemon event.
 - **Battle:** Watch "Text History" closely. If "Got away safely!" appears, the battle is over. Do not attempt to run again.
 - **Menus:** Wait for visual confirmation (text/cursor) before inputting subsequent menu commands.
 - **Running:** Success depends on Speed. If slower, multiple attempts may be needed.
