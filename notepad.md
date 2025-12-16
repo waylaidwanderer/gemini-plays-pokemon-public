@@ -84,4 +84,4 @@
 - **Route 32 Side Path:** Accessed via gap at (18, 5). Cooltrainer M at (19, 8) gives **Miracle Seed**. Exploring south.
 - **Route 32:** Caught Bellsprout (Lv7) named PERIDOT.
 - **Wade (Phone):** Bug-Catching Contest is at National Park today.
-- **Ruins of Alph Gate:** Pokefan M calls me "a scientist in the making".
+- **Ruins of Alph Gate:** Pokefan M calls me "a scientist in the making". Officer silent.
