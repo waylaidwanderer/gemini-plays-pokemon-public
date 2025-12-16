@@ -38,9 +38,15 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Route 32:** Head south towards Union Cave.
-- **Union Cave:** Traverse to reach Azalea Town.
-- **Hatch Egg:** Walk to hatch the Mystery Egg.
+- **Explore Side Path:** Check the tall grass at the south end of the current path (x=18-19).
+- **Backtrack:** Return north to (18, 5) to rejoin the main path.
+- **Fisher:** Head south on the main path to talk to the Fisher at (15, 13).
+- **Hatch Egg:** Continue walking south.
+
+## Route 32 Notes
+- **Layout:** Divided into West (Main) and East (Side Path) by a wall/ledge barrier (x=17).
+- **Ledges:** Tiles at x=17 appear to be `LEDGE_HOP_RIGHT` (West -> East).
+- **Side Path:** Accessed via top gap. Contains Cooltrainer M. Likely a dead end.
 
 ## Recent Events
 - **Violet Pokemon Center:** Healed party. Received **Mystery Egg** from Elm's Aide.
