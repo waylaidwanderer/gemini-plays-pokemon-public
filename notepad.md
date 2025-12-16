@@ -4,19 +4,19 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Unakite (10/20 HP) vs Machop.
-- **Strategy:** Heal Rocky (Onix) to full HP using Potion (selected).
-    - Step 1: Confirm "USE" (Current).
-    - Step 2: Select Rocky from Party (Next).
-- **Map Notes:**
-    - **Route 32:** North.
-    - **Union Cave 1F:** Current. Exit at (17, 31).
-    - **Route 33:** South.
+- **Strategy:** **PIVOT:** Heal Unakite!
+    - **CRITICAL:** Machop is using Low Kick.
+    - **Unown (5kg):** Low Kick = 20 BP * 0.5 (Resist) = 10 BP. Takes ~1 DMG. **TANK.**
+    - **Onix (210kg):** Low Kick = 120 BP * 2.0 (Weak) = 240 BP. **INSTANT DEATH.**
+    - **Plan:** Keep Unakite alive. She takes negligible damage. Whittle Machop down with Hidden Power.
 - **Mechanics:**
-    - **Gen 2 Battle:** Potion heals 20HP.
-    - **Low Kick:** 50 BP Fighting. 2x vs Onix. 0.5x vs Unown.
+    - **Gen 2 Low Kick:** 
+        - <10kg: 20 BP
+        - >200kg: 120 BP
+- **Reflection:** Corrected fatal error in planning (switching to Onix). Addressed reflection prompt.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (10/20 HP) | **ROCKY (Onix)** Lv10 (14/28 HP)
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (10/20 HP -> 20/20) | **ROCKY (Onix)** Lv10 (14/28 HP)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
