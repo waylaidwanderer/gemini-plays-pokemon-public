@@ -45,8 +45,8 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Exit Pokemon Center.
-2. Buy Potions at Mart (17, 7).
+1. Exit Pokemon Center (Done).
+2. Buy Potions at Mart (23, 3) [Corrected from 17,7 based on sign].
 3. Proceed to Route 30.
 - **Route 29 Strategy:**
     - **Solution Found:** Navigate Northern Path (Row 3/4) to X=16, then dip South to Row 6 to bypass Ledges.
