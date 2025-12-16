@@ -36,7 +36,6 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Heal at Pokemon Center:** Located at (31, 25).
 - **Challenge Violet City Gym:** To earn Zephyr Badge and use Flash.
 
 ## Recent Events (Sprout Tower Cleared)
