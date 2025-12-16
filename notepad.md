@@ -6,9 +6,11 @@
 - **Tertiary:** Locate Sprout Tower.
 
 ## Tile Mechanics
+- **FLOOR:** Standard traversable ground.
+- **WALL:** Impassable obstacle.
+- **FLOOR_UP_WALL:** Ledge (Likely one-way jump Down). *To be verified.*
 - **LEDGE_HOP_RIGHT:** One-way jump from Left to Right. Blocks movement from Right to Left.
 - **LEDGE_HOP_DOWN:** One-way jump from Up to Down. Blocks movement from Down to Up.
-- **WALL:** Impassable.
 - **HEADBUTT_TREE/CUT_TREE:** Impassable (unless interacting with specific move).
 - **TALL_GRASS:** High encounter rate.
 - **WARP_CARPET:** Transports to new map.
