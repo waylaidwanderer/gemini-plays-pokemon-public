@@ -3,20 +3,21 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Healing Unakite (Potion).
-- **Strategy:** Unakite must tank Low Kick (low weight = low dmg). Onix would be one-shot (heavy weight = high dmg + SE).
-- **Hope:** Machop uses a non-damaging move (Leer) or Hidden Power is strong.
+- **Battle Status:** Unakite (10/20 HP) vs Machop.
+- **Strategy:** Heal Rocky (Onix) to full HP using Energypowder or Berry.
+    - Unakite will likely faint this turn (Clean switch to Rocky).
+    - If Unakite lives, sacrifice her next turn to get the clean switch.
+    - Rocky (Full HP) needs to tank a hit and use Screech/Tackle.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
 - **Mechanics:**
-    - `FLOOR_UP_WALL` ledges define the reachable zones.
-    - **Gen 2 Battle:** Potion heals 20HP.
-    - **Low Kick:** Destroys heavy Pokémon (Onix). Unown takes less damage due to weight.
+    - **Gen 2 Battle:** Potion heals 20HP. Berry heals 10HP. Energypowder heals 50HP.
+    - **Low Kick:** 50 BP Fighting. 2x vs Onix. 0.5x vs Unown.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (9/20 HP -> Will be 20/20) | **ROCKY (Onix)** Lv10 (14/28 HP)
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (10/20 HP) | **ROCKY (Onix)** Lv10 (14/28 HP)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
