@@ -103,3 +103,4 @@
 - **Next:** Catch Unown, then Exit to Route 32 via ladder at (10,13).
 - **Unown:** Encountered Wild Unown (High catch rate, throw balls).
 - **Unown:** Attempt 3 failed. Throwing LAST ball.
+- **Battle Strategy:** Last Poké Ball. Catch rate ~30% at full HP. Weaken strategy deemed too risky (high chance of OHKOing Unown or Unown KOing weak party members). Throwing raw.
