@@ -45,9 +45,9 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Exit Mr. Pokemon's House.
-2. Backtrack South on Route 30.
-3. Take the Western path to Violet City (previously blocked, now open).
+1. Backtrack South from Mr. Pokemon's House to the Route 30 split (near Cherrygrove).
+2. Take the West/North-West path towards Violet City.
+3. Watch for trainers on the Violet City path.
 - **Route 29 Strategy:**
     - **Solution Found:** Navigate Northern Path (Row 3/4) to X=16, then dip South to Row 6 to bypass Ledges.
     - **Path:** (24,3) -> Down to (24,5) -> West to (21,5) -> Up to (21,4) -> West through gap at (20,4) -> West to (16,4) -> South to (16,6) -> West to Cherrygrove.
