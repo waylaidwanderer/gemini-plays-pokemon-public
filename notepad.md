@@ -61,3 +61,5 @@
 - **Wade (Phone):** Bug-Catching Contest is at National Park today.
 - **Sign at (24, 20):** "Violet City - The City of Nostalgic Scents"
 - **Super Nerd (Violet City):** Beating the Gym Leader prepares you for "prime time".
+- **Gym Guide (Violet Gym):** "Grass-type is weak against Flying-type."
+- **Violet Gym Layout:** Center path seems to be the way forward (funnels through x=4,5 at y=11).
