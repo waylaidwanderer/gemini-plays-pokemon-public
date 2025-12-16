@@ -40,6 +40,7 @@
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
 - **Teacher (Sprout Tower 1F):** Pillar is shaking. People training upstairs.
 - **Sage Nico (Sprout Tower 2F):** Defeated.
+- **Statue at (12, 15):** "It looks very distinguished." (Flavor text).
 - **Sage Edmond (Sprout Tower 2F):** Defeated.
 - **Ladder at (17, 3):** Investigating.
 - **South-East Area (Rows 4-8):** Explored. Dead end with walls at Row 8.
