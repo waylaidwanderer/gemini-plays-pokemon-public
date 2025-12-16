@@ -99,4 +99,4 @@
 - **Current Status:** Exited Ruins of Alph. Heading South to Route 32 -> Union Cave -> Azalea Town.
 - **Unown:** Caught 'UNAKITE'.
 - **Shopping:** Complete.
-- **Next:** Heal at Pokémon Center, then head South.
+- **Next:** Exit Pokémon Center, head South through Route 32 to Union Cave.
