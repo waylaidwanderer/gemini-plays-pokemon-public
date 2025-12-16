@@ -32,4 +32,5 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-1. Exit the Gatehouse West to Violet City.
+1. Talk to the Officer at (5, 2).
+2. Exit the Gatehouse West to Violet City.
