@@ -4,7 +4,7 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Exit Union Cave via (17, 31).
 - **Battle Status:** Wild Geodude (Switching to Rocky).
-- **Action:** Selecting Rocky to Switch.
+- **Action:** Confirming Switch to Rocky.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
