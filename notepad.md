@@ -3,9 +3,9 @@
 ## Immediate Plan & Strategy
 - **Goal:** Reach Azalea Town via Union Cave.
 - **Steps:**
-    1. Escape Wild Geodude.
-    2. Navigate East to x=16 to bypass blocked ledges.
-    3. Head South towards Union Cave exit.
+    1. Interact with Fisher at (14, 19).
+    2. Head South over ledges at y=22.
+    3. Find Union Cave exit.
 - **Rocky Training:** Switch train with Garnet.
 
 ## Trainer Card (Gem)
