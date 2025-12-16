@@ -27,7 +27,7 @@
 - **Kurt:** Injured at (16, 14).
 - **Rocket Grunt:** Defeated at (15, 9).
 - **Rocket Girl:** Defeated at (13, 4).
-- **Item:** Found at (10, 3).
+- **Item:** Super Potion found at (10, 3).
 - **Surface:** Gramps at (22, 8).
 
 ## Tile Mechanics
