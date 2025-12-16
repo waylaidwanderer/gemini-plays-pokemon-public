@@ -63,3 +63,4 @@
 - **Super Nerd (Violet City):** Beating the Gym Leader prepares you for "prime time".
 - **Gym Guide (Violet Gym):** "Grass-type is weak against Flying-type."
 - **Violet Gym Layout:** Center path seems to be the way forward (funnels through x=4,5 at y=11).
+- **Battle Info:** Cursor confirmed to reset to Slot 1 for new battles.
