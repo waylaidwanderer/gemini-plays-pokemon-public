@@ -2,7 +2,7 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Nickname Geodude "JASPER".
+- **Current Task:** Exit Union Cave via (17, 31).
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
