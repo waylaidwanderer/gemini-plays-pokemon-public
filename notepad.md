@@ -45,9 +45,9 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Explore Route 30.
-2. Find Mr. Pokemon's House (17, 5).
-3. Battle trainers carefully with Topaz (Lead) -> Switch to Garnet if needed.
+1. Get Mystery Egg from Mr. Pokemon.
+2. Get Pokedex from Oak.
+3. Return to Elm's Lab.
 - **Route 29 Strategy:**
     - **Solution Found:** Navigate Northern Path (Row 3/4) to X=16, then dip South to Row 6 to bypass Ledges.
     - **Path:** (24,3) -> Down to (24,5) -> West to (21,5) -> Up to (21,4) -> West through gap at (20,4) -> West to (16,4) -> South to (16,6) -> West to Cherrygrove.
