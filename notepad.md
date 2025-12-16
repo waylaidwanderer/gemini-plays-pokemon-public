@@ -75,3 +75,7 @@
 - **Battle State Confusion:** Battle with Hoothoot ended abruptly without visible text log confirmation, directly transitioning to Start Menu upon input. Confirmed Overworld state via visual inspection of Start Menu.
 - **Menu Navigation Correction:** In Turn 593, I attempted to navigate the menu assuming it was open, but I had closed it in Turn 592. Always verify 'Current Screen Text' or visual overlays before assuming a menu is active. 'Down' input resulted in player movement, not cursor movement.
 - **Tool Idea:** Create `use_item` tool (autopress_buttons: true) to automate the sequence: Start -> Pack -> Find Item -> Use -> Select Target. Use `type_text` or similar logic to find item index.
+- **Route 30 Layout:** Split into two parallel vertical paths.
+    - **Right Path:** Leads to Mr. Pokemon's House (Done).
+    - **Left Path:** Leads to Route 31/Violet City (Target).
+    - **Action:** Must return to Cherrygrove to access the Left Path.
