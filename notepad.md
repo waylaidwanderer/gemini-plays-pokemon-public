@@ -49,9 +49,9 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Navigate North through the grassy path at (3, 17) to bypass ledges.
+1. Battle Cooltrainer F at (2, 13).
 2. Continue North on the left side of Route 30 towards Violet City.
-3. Be ready for wild Pokemon or trainers.
+3. Be ready for wild Pokemon.
 
 ## Route 30 Navigation
 - **Left Path:** Leads to Violet City. Contains grassy patches and ledges.
