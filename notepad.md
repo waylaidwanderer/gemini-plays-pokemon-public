@@ -2,26 +2,22 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town.
-- **Current Task:** Backtrack North from dead end at (16,22), cross to West side, then South to ladder.
+- **Current Task:** Explore South of Union Cave 1F (past Larry) to find the exit.
 - **Map Notes:**
-    - `FLOOR_UP_WALL` at (16,22) blocks movement South (Ledge/Wall).
-    - `WALL` tiles at (14,13) blocked Westward path.
-    - **Lesson:** Use `smart_navigate` for long paths to avoid manual errors.
+    - **Union Cave B1F:** The ladder at (5,19) leads to a dead-end area with TM39 (Swift) and X Defend.
+    - `FLOOR_UP_WALL` tiles (e.g., at 16,22) block movement from the North (Ledge/Wall).
 
 ## Party
-- **GARNET (Quilava)** Lv17 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv7
+- **GARNET (Quilava)** Lv18 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv7
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
 - **Pending:**
-    - Deliver Mystery Egg to Elm (Done?) -> No, waiting for call? Or is it done? (Check later).
+    - Deliver Mystery Egg to Elm (Waiting for call/confirmation).
     - Bug Contest (Today).
-- **Key Items:** HM05 (Flash), TM31 (Mud-Slap).
+- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift).
 
 ## Mechanics
 - **Poison:** -1 HP / 4 steps.
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
-- **Path Correction:** The ledge at (4,18) is blocked from the North.
-- **Ledge Mechanics:** `FLOOR_UP_WALL` tiles (e.g., at 7,24) block movement from the North. They act as walls, not jumpable ledges, from this direction.
-- **Exploration:** Path South is blocked. Heading East to (12,23) to check for a path around the barrier.
