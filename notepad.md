@@ -4,18 +4,19 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (Onix) 16/28 HP.
-- **Strategy:** BERRY STALL (Turn 3/3).
-    - **Move:** Use last BERRY on Rocky.
-    - **Logic:** 16 HP -> 26 HP.
-    - **Why:** Machop Crit deals ~22 dmg. 16 HP = Death. 26 HP = Survival (~4 HP left).
-    - **Safety:** Using the berry protects against a Crit this turn.
-    - **Next Turn:** Must Screech/Attack. No more healing.
-- **Inventory:** BERRY x1 (Using now).
-- **Mechanics:**
-    - Speed: Onix (70) > Machop (35).
-    - Def: Onix (160).
-    - Menu: Cursor on BERRY. 'USE' is first option. Rocky is Slot 5.
+- **Battle Status:** Rocky Fainted. Wipeout Imminent.
+- **Remaining Party:** Topaz (Lv4 Sentret), Egg (Lv5 Togepi).
+- **Opponent:** Machop Lv11 (Fighting Type).
+- **Outcome:** Guaranteed loss. Topaz/Egg weak to Fighting and underleveled.
+- **Plan:** Send out Topaz -> Faint -> Send out Egg -> Faint -> Whiteout.
+- **Rematch Strategy:**
+    - Garnet MUST survive Geodude.
+    - Save Garnet's Ember for Machop (Low Sp.Def).
+    - Or: Grind Unakite to outspeed Machop.
+- **Map Notes:**
+    - **Route 33:** Defeated here.
+    - **Union Cave:** North.
+    - **Azalea Town:** West.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
