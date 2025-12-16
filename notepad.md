@@ -61,7 +61,7 @@
 - Investigated the theft: Rival (Silver) stole a Pokemon.
 - Received 5 Poke Balls from Elm's Aide. Now I can catch Pokemon!
 - Must talk to Mom before leaving New Bark Town.
-- Route 30 Return Trip: Head South along x=12 to row 44 (Floor path), then West to x=6, then South over ledges to exit. Path avoids tall grass.
+
 - Encountered the red-haired boy (Rival) in Cherrygrove City. Named him SILVER.
 - Rival claims he will be the world's greatest trainer.
 - Route 29 Eastbound Path: (0,7) -> South to y=10 -> East to x=16 -> South to y=14 (Jump Ledge at 16,13) -> East to x=31 -> North to y=10 -> East to x=42 -> North to y=8 -> East (Jump Ledge at 43,8) -> New Bark Town.
