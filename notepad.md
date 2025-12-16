@@ -2,9 +2,7 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Exit Union Cave via (17, 31).
-- **Battle Status:** Catching Geodude. Rocky (20/28 HP). Geodude (Green HP + Bind).
-- **Action:** Throwing Poké Ball.
+- **Current Task:** Nickname Geodude "JASPER".
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
@@ -16,6 +14,7 @@
 
 ## Party
 - **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10 | **AMETHYST (Zubat)** Lv5 (Low HP)
+- **PC:** **JASPER (Geodude)** Lv6 (New Catch)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
