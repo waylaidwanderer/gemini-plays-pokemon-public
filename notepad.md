@@ -53,3 +53,8 @@
     - The Gatehouse at (27, 1) is the only reachable exit from the central area.
     - Hypothesis: The Gatehouse leads to Route 46 or bypasses the obstacles.
     - Plan: Navigate to (27, 1) via the eastern corridor at X=36.
+- **Route 46:**
+    - Accessed via Gatehouse at Route 29 (27, 1).
+    - Features "Route 46 Sign" at (9, 27).
+    - Terrain: Tall Grass on sides, central path clear.
+    - Exploration Goal: Determine if this connects to Cherrygrove.
