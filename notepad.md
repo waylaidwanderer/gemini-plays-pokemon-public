@@ -51,9 +51,15 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Head North on the left side of Route 30 towards Violet City.
-2. Watch for more trainers or items.
-3. Reach Violet City.
+1. Navigate North through the grassy path at (3, 17) to bypass ledges.
+2. Continue North on the left side of Route 30 towards Violet City.
+3. Be ready for wild Pokemon or trainers.
+
+## Route 30 Navigation
+- **Left Path:** Leads to Violet City. Contains grassy patches and ledges.
+    - **Ledge Bypass:** To pass the ledges at y=17 (Northbound), use the grassy path at x=2,3.
+- **Right Path:** Leads to Mr. Pokemon's House (Done).
+- **Divider:** Wall/Trees at x=8,9 separate the paths.
 
 ## Tool Dev Notes
 - **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
