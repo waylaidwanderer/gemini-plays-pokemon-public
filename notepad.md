@@ -49,3 +49,4 @@
 2. Exit New Bark Town West to Route 29.
 3. Travel through Cherrygrove City to Route 30.
 4. Reach Violet City.
+- Encountered a wild Sentret (Level 2). Attempting to catch it. Used 1 Poke Ball, failed. Trying again.
