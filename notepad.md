@@ -4,16 +4,15 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (6/28 HP). Critical.
-- **Immediate Action:** Use BERRY on Rocky.
-    - **Current:** Cursor on BERRY.
-    - **Input:** Select BERRY (A) -> Select USE (A).
-    - **Next Turn:** Select Rocky (Slot 5) -> Confirm.
-- **Calculation:**
-    - Crit did 22 Dmg. Normal hit = ~11 Dmg.
-    - Berry heals 10. Rocky -> 16 HP.
-    - 16 HP > 11 Dmg. rocky *should* survive one non-crit hit.
-    - **Risk:** High roll or Crit = Death. No other options.
+- **Battle Status:** Rocky (Onix) Active. 6/28 -> 16/28 HP (After Berry).
+- **Immediate Action:** Confirming Berry use on Rocky.
+    - **Current:** Cursor on Rocky.
+    - **Input:** Press A.
+    - **Outcome:** Rocky recovers 10 HP. Turn ends. Machop attacks.
+- **Scenario Analysis:**
+    - If Machop hits (Non-Crit): Rocky survives (~5-6 HP left).
+    - If Machop Crits: Rocky faints. Wipe likely (Topaz Lv4 vs Machop Lv11 is bad).
+    - If Machop misses/Leers: Great!
 - **Mechanics:**
     - **Gen 2 Battle:** Items consume turn.
     - **Inventory:** No Potions left. Only Berries.
