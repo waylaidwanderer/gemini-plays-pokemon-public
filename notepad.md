@@ -47,4 +47,4 @@
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 3F:** Retrieved Potion at (6, 14). Preparing to battle Sage at (8, 13).
 - **Sage Jin (Sprout Tower 3F):** Currently battling. Found at (8, 13).
-- **Sage Neal (Sprout Tower 3F):** Battling. Encountered at (11, 11). Dialogue: "The ELDER's HM lights even pitch-".
+- **Sage Neal (Sprout Tower 3F):** Defeated at (10, 11). Mentioned the Elder's HM lights darkness.
