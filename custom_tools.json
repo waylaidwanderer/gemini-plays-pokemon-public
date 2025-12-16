@@ -117,7 +117,7 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "sequence": {
+        "btn_seq": {
           "type": "array",
           "items": {
             "type": "string"
@@ -125,15 +125,20 @@
         }
       },
       "required": [
-        "sequence"
+        "btn_seq"
       ]
     },
-    "python_script": "import json\nprint(json.dumps(sequence))",
+    "python_script": "import json\nprint(json.dumps(btn_seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-16T01:39:36.133Z",
         "action_counter": 502
+      },
+      {
+        "commit_message": "Fixed variable name in script to match schema.",
+        "timestamp": "2025-12-16T01:40:47.766Z",
+        "action_counter": 504
       }
     ]
   }
