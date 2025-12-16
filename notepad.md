@@ -4,7 +4,7 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Exit Union Cave via (17, 31).
 - **Battle Status:** Catching Geodude. Rocky (20/28 HP). Geodude (Green HP + Bind).
-- **Action:** Opening Pack to throw Poké Ball.
+- **Action:** Throwing Poké Ball.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
