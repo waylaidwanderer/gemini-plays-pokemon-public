@@ -49,7 +49,7 @@
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
 - **Route 29 Maze Solution:**
-    1. Enter South Section: Go South to Row 14 (via Col 44), then West.
+    1. Enter South Section: Go South to Row 16 (via Col 44), then West.
     2. Enter Middle Section: Go North at Col 31 (Gap in ledges).
     3. Navigate Middle: (31,10) -> East to 36 -> North to Row 6.
     4. Traverse North: West along Row 6 -> North to Row 4 (at Col 21) -> West to Col 16 -> South to Row 6.
