@@ -2,7 +2,7 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Navigate to South Exit (17, 31).
+- **Current Task:** Finish nicknaming Amethyst.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
@@ -13,7 +13,7 @@
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
 
 ## Party
-- **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10 | **ZUBAT (Zubat)** Lv5
+- **GARNET (Quilava)** Lv18 (Full HP) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10 | **AMETHYST (Zubat)** Lv5
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
