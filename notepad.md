@@ -6,7 +6,7 @@
 - **Tertiary:** Investigate Team Rocket Presence.
 
 ## Strategy
-1.  **Find Kurt:** Locate Kurt's house (likely in the NW part of town).
+1.  **Find Kurt:** Go North through the ledge gap at (9, 7) behind the sign at (10, 9).
 2.  **Explore:** Check other houses and talk to locals.
 3.  **Rocket Check:** Observe the Slowpoke Well situation.
 
