@@ -75,3 +75,4 @@
 - **Exploration Note:** The area south of the Academy (x=20-36, y=26-32) is a cul-de-sac. Access to the rest of the city is via the path at x=27 (Northbound). The ledge at x=26 blocks Northbound movement.
 - **Fruit Trees:** Must be interacted with from the tile directly below, facing UP.
 - **Found Item:** PRZCUREBERRY at (14, 29) in Violet City.
+- **Route 32 Side Path:** Accessed via gap at (18, 5). Contains Cooltrainer M at (19, 8). Appears to be a dead-end strip to the south.
