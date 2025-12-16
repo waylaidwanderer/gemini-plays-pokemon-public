@@ -32,7 +32,6 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-1. Pick up Item at (19, 15).
-2. Explore West from (18, 13) to find a path to Violet City.
+1. Explore West from (18, 15) to find a path to Violet City.
 3. Check for gaps in the wall at x=15 (Rows 12-15).
 4. If blocked, check the Northern edge (y=1) mentioned by the system.
