@@ -102,3 +102,5 @@
 - **Current Status:** Puzzle solved. Fell into Main Chamber. "Strange presence" (Unown) detected.
 - **Next:** Escape battle, explore West side, then Exit to Route 32 via ladder at (10,13).
 - **Unown:** Caught 'UNAKITE'. High encounter rate in Inner Chamber.
+- **Navigation:** Row 5 in Inner Chamber is blocked by walls/statues. Must traverse to the far left (column 4) to proceed south.
+- **Shopping:** Out of Poké Balls. Need to buy more at next Mart.
