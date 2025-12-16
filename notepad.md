@@ -5,15 +5,18 @@
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
 - **Battle Status:** Rocky (6/28 HP). Critical.
-- **Immediate Action:** Scroll to Top of Bag to find BERRY.
-    - **Current Pos:** PSNCUREBERRY.
-    - **Target:** BERRY (Likely at top).
-    - **Plan:** Scroll Up x8 -> Verify -> Use Berry.
+- **Immediate Action:** Use BERRY on Rocky.
+    - **Current:** Cursor on BERRY.
+    - **Input:** Select BERRY (A) -> Select USE (A).
+    - **Next Turn:** Select Rocky (Slot 5) -> Confirm.
+- **Calculation:**
+    - Crit did 22 Dmg. Normal hit = ~11 Dmg.
+    - Berry heals 10. Rocky -> 16 HP.
+    - 16 HP > 11 Dmg. rocky *should* survive one non-crit hit.
+    - **Risk:** High roll or Crit = Death. No other options.
 - **Mechanics:**
     - **Gen 2 Battle:** Items consume turn.
-    - **Low Kick:** 50 BP Fixed.
-    - **Speed:** Onix (Base 70) > Machop (Base 35). Rocky should move first if attacking.
-    - **Survival:** 6 HP < ~12 Dmg (Low Kick). Must Heal.
+    - **Inventory:** No Potions left. Only Berries.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
