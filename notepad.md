@@ -52,9 +52,10 @@
 - **Navigation:** Warps often require walking *into* the edge, not just standing on it.
 
 ## Ruins of Alph Strategy
-- **Target:** Inner Chamber strange wall.
-- **Hypothesis:** Use Escape Rope to open secret passage (Classic mechanic, need to verify clue "ESCAPE" or similar on wall).
-- **Current Status:** Have Escape Rope. entering Ruins now.
+- **Target:** Mystery Chamber (Kabuto Puzzle).
+- **Location:** North-East of the main grounds (near sign at 16,8).
+- **Hypothesis:** Use Escape Rope to open secret passage behind the puzzle.
+- **Current Status:** Have 2 Escape Ropes. Searching for entrance north of the sign.
 
 ## Recent Events (Condensed)
 - Defeated Falkner (Violet Gym), obtained Zephyr Badge & TM31.
