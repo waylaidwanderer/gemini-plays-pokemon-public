@@ -39,7 +39,7 @@
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 
 ## Immediate Plan
-- **Loot:** Collect Item Balls at (5, 6) and (5, 4). (Found: Berry at 2,6; Heal Powder at 2,4).
+- **Loot:** Collect Item Ball at (5, 6). (Found: Berry at 2,6; Heal Powder at 2,4; Energypowder at 5,4).
 - **Explore:** Check the back of the room and unseen corners (1,0) and (6,0).
 - **Exit:** Leave the Ruins and continue to Azalea Town.
 
