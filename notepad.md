@@ -2,16 +2,21 @@
 
 ## Current Objectives
 - **Primary:** Earn the Zephyr Badge in Violet City.
-- **Secondary:** Talk to Mom in New Bark Town (Current Task).
-- **Tertiary:** Train TOPAZ.
+- **Secondary:** Reach Cherrygrove City.
+- **Tertiary:** Switch TOPAZ to Lead.
 
 ## Game Mechanics & Lessons
 - **Battle:** Watch "Text History" closely. If "Got away safely!" appears, the battle is over. Do not attempt to run again.
-- **Tools:** `type_text` handles naming screens. `execute_battle_move` handles combat inputs.
-- **Tile Mechanics:**
-    - WARP_CARPET_DOWN/UP/LEFT/RIGHT: Warps to different maps.
-    - STAIRCASE: Warps floors.
-    - TV: Object interaction.
+- **Menus:** Wait for visual confirmation (text/cursor) before inputting subsequent menu commands.
+- **Running:** Success depends on Speed. If slower, multiple attempts may be needed.
+
+## Tile Mechanics
+- **LEDGE_HOP_RIGHT:** One-way jump from Left to Right. Blocks movement from Right to Left.
+- **LEDGE_HOP_DOWN:** One-way jump from Up to Down. Blocks movement from Down to Up.
+- **WALL:** Impassable.
+- **HEADBUTT_TREE/CUT_TREE:** Impassable (unless interacting with specific move).
+- **TALL_GRASS:** High encounter rate.
+- **WARP_CARPET:** Transports to new map.
 
 ## Trainer Card (Gem)
 - **ID:** 24_6
@@ -29,24 +34,17 @@
 
 ## Navigation History & World Knowledge
 - **New Bark Town:**
-    - Elm's Lab: (6,3)
-    - Player's House: (13,5)
-    - Rival (Silver) stole a Pokemon from here.
+    - Elm's Lab: (6,3). Player's House: (13,5).
+    - Rival (Silver) stole a Pokemon.
 - **Route 29:**
     - Connects New Bark Town (East) to Cherrygrove City (West).
-    - Ledges allow one-way travel West -> East easier than East -> West.
+    - **Ledge Maze:** Northern section (Rows 0-7) separate from Southern (Rows 8-18).
+    - **Gap:** Found at (43, 14) to bypass ledges heading West.
     - Pokemon: Pidgey, Sentret, Hoppip (Day).
-- **Cherrygrove City:**
-    - Has Pokemon Center (29,3) and Mart (17,7).
-    - Map Card received here.
-- **Route 30:**
-    - North of Cherrygrove.
-    - Mr. Pokemon's House is at (17,5).
-    - Mystery Egg delivered to Elm.
-    - Pokemon: Caterpie, Pidgey.
+- **Cherrygrove City:** Pokemon Center (29,3), Mart (17,7).
+- **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Navigate Route 29 West towards Cherrygrove City.
-    - Path Strategy: Go South to Row 14 to bypass ledges, then West.
-2. Travel through Cherrygrove City to Route 30.
-3. Reach Violet City.
+1. Switch Topaz to first slot in party.
+2. Navigate Route 29 West via gap at Row 14.
+3. Reach Cherrygrove City.
