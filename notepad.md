@@ -49,17 +49,13 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Talk to Cooltrainer M (Moved to 32, 9).
-2. Explore the area North of the Cooltrainer (Row 8 and above).
-3. Find the path to Dark Cave or Violet City.
+1. Pick up Item at (29, 5).
+2. Navigate West along Row 5-8 to reach Violet City.
+3. Heal at Pokemon Center.
 
 ## Route 31 Navigation
 - **Entrance:** Arrived at (26, 17) from Route 30 West.
 - **Corridor:** Blocked North by Cut/Headbutt trees at Row 10.
-- **East Side:** Open grass area accessible from Row 14. Contains Cooltrainer M at (33, 9).
-- **West Side:** Presumed location of Violet City entrance.
+- **East Side:** Open grass area accessible from Row 14. Contains Cooltrainer M and Dark Cave.
+- **West Side:** Presumed location of Violet City entrance via the northern path (Rows 5-8).
 - **Wild Pokemon:** Zubat, Poliwag.
-
-## Tool Dev Notes
-- **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
-- **Lesson:** Ensure input variables in `define_tool` are accessed via `input_data`.
