@@ -45,6 +45,6 @@
 - **Ladder at (17, 3):** Investigating.
 - **South-East Area (Rows 4-8):** Explored. Dead end with walls at Row 8.
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
-- **Sprout Tower 3F:** Retrieved Potion at (6, 14). Preparing to battle Sage at (8, 13).
-- **Sage Jin (Sprout Tower 3F):** Currently battling. Found at (8, 13).
+- **Sprout Tower 3F:** Retrieved Potion at (6, 14).
+- **Sage Jin (Sprout Tower 3F):** Defeated at (8, 13).
 - **Sage Neal (Sprout Tower 3F):** Defeated at (10, 11). Mentioned the Elder's HM lights darkness.
