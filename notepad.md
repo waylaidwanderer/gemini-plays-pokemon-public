@@ -49,9 +49,9 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Run from Wild Poliwag.
-2. Talk to Cooltrainer M at (33, 9).
-3. Explore the area North of the Cooltrainer (Row 8 and above).
+1. Talk to Cooltrainer M (Moved to 32, 9).
+2. Explore the area North of the Cooltrainer (Row 8 and above).
+3. Find the path to Dark Cave or Violet City.
 
 ## Route 31 Navigation
 - **Entrance:** Arrived at (26, 17) from Route 30 West.
