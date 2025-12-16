@@ -36,5 +36,7 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-1. Locate Sprout Tower.
-2. Locate Gym.
+- **Earl's Academy Sign:** Confirmed location at (27, 17).
+1. Talk to Super Nerd at (25, 14).
+2. Locate Sprout Tower.
+3. Locate Gym.
