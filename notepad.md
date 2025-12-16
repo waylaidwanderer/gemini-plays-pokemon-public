@@ -49,18 +49,19 @@
 - **Route 30:** North of Cherrygrove. Mr. Pokemon at (17,5).
 
 ## Immediate Plan
-1. Backtrack to Route 30 (South).
-2. Navigate to the far West side of Route 30 (x=0 or 1).
-3. Re-enter Route 31 from the West side to bypass the wall/trees.
+1. Navigate South to (5, 30) (near Youngster).
+2. Cross over to the West side of Route 30.
+3. Navigate North on the West side (x=0,1) to bypass ledges and reach Violet City.
+
+## Route 30 Navigation
+- **East Side:** Connects to Route 31 East (Blocked).
+- **West Side:** Connects to Route 31 West (Violet City).
+- **Crossover:** Accessible around y=30.
+- **Trainers:** Defeated Joey, Mikey, Don. Watch out for others.
 
 ## Route 31 Navigation
-- **East Side (Current):** Blocked North by Cut/Headbutt trees and Walls. Leads to Dark Cave (presumably).
-- **West Side (Target):** Should lead to Violet City. Accessed via West path of Route 30.
-- **Divider:** A wall/tree line at x=22-23 separates the two areas.
-
-## Map Markers
-- (25, 10) Cut Tree (Requires CUT).
-- (24, 10) Headbutt Tree.
+- **East Side:** Blocked by Cut/Headbutt trees.
+- **West Side:** Target destination.
 
 ## Tool Dev Notes
 - **Lesson:** Custom Tool Limit is 5. Must delete an existing tool (`delete_tool`) before defining a new one.
