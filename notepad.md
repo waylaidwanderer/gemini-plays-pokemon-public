@@ -48,13 +48,10 @@
 1. Navigate Route 29 West to Cherrygrove City (stick to southern path).
 2. Heal at Pokemon Center if needed.
 3. Continue to Route 30.
-- **Route 29 Maze Strategy:**
-    - Westward movement is blocked by Trees (X=22) and Ledges (X=15).
-    - The Gatehouse at (27, 1) is the only reachable exit from the central area.
-    - Hypothesis: The Gatehouse leads to Route 46 or bypasses the obstacles.
-    - Plan: Navigate to (27, 1) via the eastern corridor at X=36.
+- **Route 29 Strategy:**
+    - **Status:** South & Middle paths blocked. Route 46 is a dead end.
+    - **New Hypothesis:** The Northern Path (Rows 0-7) must connect to Cherrygrove.
+    - **Plan:** Travel West from Gatehouse (27, 2) along Row 2/3. Watch for gaps in trees.
 - **Route 46:**
-    - Accessed via Gatehouse at Route 29 (27, 1).
-    - **DEAD END:** The path North is blocked by a row of South-facing ledges at Row 23. It is impossible to climb up.
-    - Conclusion: Route 46 is a one-way exit from the mountains/Dark Cave, not an entrance.
-    - **Next Step:** Return to Route 29 and explore West of the Gatehouse (Rows 0-7) for a path to Cherrygrove. Check the "Trees" at X=22 closely for a gap.
+    - Accessed via Gatehouse at (27, 1).
+    - **DEAD END:** Blocked by ledges at Row 23. Do not return unless exploring Dark Cave later.
