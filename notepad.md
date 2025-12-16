@@ -25,7 +25,7 @@
 - **Pokedex:** 2 (Cyndaquil, Sentret)
 - **Party:**
     1. GARNET (Cyndaquil) Lv7 - Tackle, Leer, Smokescreen.
-    2. TOPAZ (Sentret) Lv2 - Tackle.
+    2. TOPAZ (Sentret) Lv3 - Tackle.
 
 ## Key Items
 - Pokegear (Phone, Map)
