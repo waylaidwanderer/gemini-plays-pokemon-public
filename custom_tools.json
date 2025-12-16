@@ -140,30 +140,5 @@
         "action_counter": 602
       }
     ]
-  },
-  "menu_macro": {
-    "description": "Executes a sequence of button presses for menu navigation, bypassing the mixing restriction.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-16T11:17:16.538Z",
-        "action_counter": 1171
-      }
-    ]
   }
 }
