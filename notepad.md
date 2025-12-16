@@ -3,14 +3,13 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky (Onix) Active. 28/28 HP (Full).
-- **Immediate Action:** Press B to close text -> Watch Machop Attack.
-    - **Expectation:** Machop uses Low Kick. Rocky tanks it.
-- **Next Turn Plan:** Use SCREECH to lower Def, then TACKLE.
+- **Battle Status:** Rocky (Onix) Active. 28/28 HP.
+- **Immediate Action:** Press B to clear "It looks bitter..." -> Machop Attacks -> Select SCREECH.
 - **Map Notes:**
-    - **Route 32:** North.
-    - **Union Cave 1F:** Current. Exit at (17, 31).
-    - **Route 33:** South.
+    - **Route 33:** Currently here. Battling Hiker Anthony.
+    - **Union Cave:** North (Exited).
+    - **Azalea Town:** West.
+- **Exploration:** Check unseen tiles at (9,5) etc. after battle.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
