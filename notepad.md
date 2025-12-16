@@ -98,4 +98,5 @@
 - **Puzzle Wall (Kabuto Chamber):** Solved.
 - **Current Status:** Exited Ruins of Alph. Heading South to Route 32 -> Union Cave -> Azalea Town.
 - **Unown:** Caught 'UNAKITE'.
-- **Shopping:** Bought 5 Poké Balls. Buying Antidotes now.
+- **Shopping:** Complete.
+- **Next:** Heal at Pokémon Center, then head South.
