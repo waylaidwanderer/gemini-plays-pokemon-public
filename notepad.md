@@ -40,3 +40,4 @@
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
 1. Explore Sprout Tower.
 2. Defeat Gym Leader Falkner.
+- **Sprout Tower 1F:** Entered. Investigating.
