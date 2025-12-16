@@ -38,15 +38,14 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Ruins of Alph:** Explore the East Entrance area.
-- **Route 32 Main Path:** Resume heading south.
-- **Fisher:** Talk to Fisher at (15, 13).
-- **Hatch Egg:** Walk.
+- **Resupply:** Return to Violet City Mart to buy **Escape Rope**.
+- **Ruins of Alph:** Solve the puzzle in the East Chamber (Try Escape Rope).
+- **Route 32:** Continue South after solving puzzle.
 
-## Route 32 Notes
-- **Layout:** Divided into West (Main) and East (Side Path) by a wall/ledge barrier (x=17).
-- **Ledges:** Tiles at x=17 appear to be `LEDGE_HOP_RIGHT` (West -> East).
-- **Side Path:** Accessed via top gap. Contains Cooltrainer M. Likely a dead end.
+## Ruins of Alph Notes
+- **Outside:** East Entrance leads to Inner Chamber.
+- **Inner Chamber:** Warp at (10,13) exits to Outside. Must navigate around it to cross room.
+- **Puzzle:** Strange wall at back. Teacher says place feels "ethereal".
 
 ## Recent Events
 - **Violet Pokemon Center:** Healed party. Received **Mystery Egg** from Elm's Aide.
