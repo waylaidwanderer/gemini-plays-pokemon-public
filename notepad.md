@@ -3,8 +3,8 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Exit Union Cave via (17, 31).
-- **Battle Status:** Wild Geodude (New Catch).
-- **Action:** Catching Geodude for Dex.
+- **Battle Status:** Wild Geodude (Switching to Rocky).
+- **Action:** Selecting Rocky to Switch.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current.
