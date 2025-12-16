@@ -2,13 +2,12 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Navigate South through Union Cave 1F to reach Route 33.
-- **Path:** Central corridor blocked at (8, 24). Detour West to Col 7, then South to Row 26, then East to Col 16, then South to Exit.
+- **Current Task:** Exit Union Cave (South).
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
-    - **Mechanics:** `FLOOR_UP_WALL` ledges define the reachable zones. We are in the southern lower zone.
+    - **Items:** Pokeball at (12, 33) likely requires Surf or access from B1F.
 
 ## Party
 - **GARNET (Quilava)** Lv18 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv9
