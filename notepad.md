@@ -36,12 +36,13 @@
 - **Youngster (Violet Center):** Traded Pokemon need badges to obey.
 
 ## Immediate Plan
-- **Heal at Center:** Garnet took some hits.
-- **Find Elm's Aide:** Check Pokemon Center or Mart.
+- **Meet Elm's Aide:** At Violet City Pokemon Center (received call).
+- **Heal Party:** At Pokemon Center.
 - **Head South:** Towards Union Cave/Azalea Town.
 
 ## Recent Events
 - **Violet Gym:** Defeated Falkner. Obtained **Zephyr Badge** and **TM31** (Mud-Slap).
+- **Phone Call:** Prof. Elm says his aide is at Violet City Pokemon Center with the Egg.
 - **Sprout Tower:** Cleared.
 - **Elder Li:** Defeated. Awarded HM05 (Flash).
 - **HM05 (Flash):** Needs Zephyr Badge.
