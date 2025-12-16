@@ -6,7 +6,7 @@
 - **Tertiary:** Investigate Team Rocket Presence.
 
 ## Strategy
-1.  **Talk to Twin:** Check if she has any info.
+1.  **Check House:** Inspect Celebi Statue and explore the east side of the room.
 2.  **Follow Kurt:** Head to Slowpoke Well (Entrance at 31, 9 in Azalea Town).
 3.  **Enter Well:** Assist Kurt in fighting Team Rocket.
 
