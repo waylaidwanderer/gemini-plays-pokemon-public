@@ -38,6 +38,7 @@
 ## Immediate Plan
 - **Earl's Academy Sign:** Confirmed location at (27, 17).
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
-1. Explore Sprout Tower.
-2. Defeat Gym Leader Falkner.
+1. Talk to Granny at (11, 12).
+2. Talk to Teacher at (9, 9).
+3. Explore North towards Sage at (6, 7).
 - **Sprout Tower 1F:** Entered. Investigating.
