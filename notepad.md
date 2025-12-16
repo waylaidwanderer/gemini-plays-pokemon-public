@@ -22,3 +22,5 @@
 - **Poison:** -1 HP / 4 steps.
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
+- **Path Verified:** The path to the ladder involves looping East to (14,16), then West across Row 16 to (4,17), then South over the ledge.
+- **Ledge Mechanics:** `FLOOR_UP_WALL` tiles like (4,18) are ledges that allow jumping South.
