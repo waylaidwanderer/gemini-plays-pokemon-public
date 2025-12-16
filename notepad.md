@@ -39,7 +39,7 @@
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 
 ## Immediate Plan
-- **Ruins of Alph:** Return to Inner Chamber and use Escape Rope at the strange wall.
+- **Ruins of Alph:** Find Mystery Chamber entrance (North-East) and solve Kabuto Puzzle with Escape Rope.
 - **Route 32:** Continue South after solving puzzle.
 
 ## Ruins of Alph Notes
