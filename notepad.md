@@ -1,54 +1,36 @@
 # Gem's Journey in Pokémon Crystal
 
-## Strategy & Pathing
-- **Goal:** Reach Azalea Town (West of Route 33).
-## Strategy & Pathing
-- **Goal:** Reach Azalea Town (West of Route 33).
-## Strategy & Pathing
-- **Goal:** Heal Party at Azalea Town Pokemon Center.
-- **Current Task:** Reach Azalea Town Pokemon Center (Urgent).
-- **Pathing:** Move East to (31, 12), North through gap at (31, 11) to (31, 10), then West along Row 10.
-- **Battle Status:** Avoid battles. Party Critical.
-- **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
-- **Map Notes:**
-    - **Azalea Town:** Current.
-    - **Rocket Grunt:** At (31, 9). Guarding Slowpoke Well. Hazard.
-    - **Ledge Gap:** Passage North at (31, 11).
-    - **Main Street:** Row 10.
-    - **East:** Route 33.
-    - **West:** Main Town Area.
+## Current Objectives
+- **Primary:** Heal Party at Azalea Town Pokemon Center.
+- **Secondary:** Explore Azalea Town.
+- **Tertiary:** Investigate Team Rocket Presence.
 
-## Tile Mechanics
-- **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
-- **LEDGE_HOP_LEFT:** One-way jump to the left.
-- **LEDGE_HOP_DOWN:** One-way jump down. Acts as a WALL when trying to move UP.
-
-## Party
-- **GARNET (Quilava)** Lv18 (9/53 HP) | **TOPAZ (Sentret)** Lv4 (Fainted) | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv11 (4/30 HP) | **AMETHYST (Zubat)** Lv5 (Fainted)
-- **PC:** **JASPER (Geodude)** Lv6 (New Catch)
-
-## Tile Mechanics
-- **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
-- **LEDGE_HOP_LEFT:** One-way jump to the left.
-
-## Party
-- **GARNET (Quilava)** Lv18 (9/53 HP) | **TOPAZ (Sentret)** Lv4 (Fainted) | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv11 (4/30 HP) | **AMETHYST (Zubat)** Lv5 (Fainted)
-- **PC:** **JASPER (Geodude)** Lv6 (New Catch)
+## Strategy
+1.  **Navigate West:** Move along the main street (Row 10) to find the PC.
+2.  **Heal:** Restore team to full strength.
+3.  **Explore:** Check houses, talk to NPCs, find Kurt.
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
-- **Pending:**
-    - Deliver Mystery Egg to Elm.
-    - Bug Contest (Today).
 - **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift).
+- **Pending:** Deliver Mystery Egg to Elm, Bug Contest.
 
-## Mechanics
-- **Poison:** -1 HP / 4 steps.
-- **Ghosts:** Immune to Normal/Fighting.
-- **Gen 2 Specifics:**
-    - **Low Kick:** 50 BP Fixed.
-    - **Items:** Using an item consumes the turn.
-- **Inventory:** Check before shops.
-- **Map Update:** Crossing to East side via Row 26/27. Column 10 leads to potential dead end/water.
-- **Fisher Trainer:** Located at (15, 27).
-- **Exit Strategy:** Navigate to (17, 31) via East side path (Column 16).
+## Party
+- **GARNET (Quilava)** Lv18 (9/53 HP) - Critical
+- **ROCKY (Onix)** Lv11 (4/30 HP) - Critical
+- **UNAKITE (Unown)** Lv5
+- **EGG**
+- **TOPAZ (Sentret)** Fainted
+- **AMETHYST (Zubat)** Fainted
+- **PC:** JASPER (Geodude)
+
+## Location Notes: Azalea Town
+- **East:** Route 33 entrance.
+- **Slowpoke Well:** Blocked by Rocket Grunt at (31, 9).
+- **Navigation:** Main street is around Row 10.
+- **NPCs:** Gramps at (22, 8).
+
+## Tile Mechanics
+- **FLOOR_UP_WALL:** Acts as wall from North.
+- **LEDGE_HOP_LEFT:** One-way Left.
+- **LEDGE_HOP_DOWN:** One-way Down.
