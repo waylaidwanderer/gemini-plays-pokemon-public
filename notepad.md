@@ -2,11 +2,13 @@
 
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
-- **Current Task:** Enter Union Cave via the gap in the southern ledge at (7, 81).
+- **Current Task:** Navigate South through Union Cave 1F to reach Route 33.
+- **Path:** West side seems clearer. Avoid central ledges (blocked).
 - **Map Notes:**
-    - **Route 32:** Northern approach to cave blocked by `FLOOR_UP_WALL`. Southern approach has a gap at (7, 81).
-    - **Union Cave:** Cleared previously.
-    - **Route 33:** Rainy weather (Water+, Fire-).
+    - **Route 32:** North.
+    - **Union Cave 1F:** Current. Exit at (17, 31).
+    - **Route 33:** South.
+    - **Mechanics:** `FLOOR_UP_WALL` blocks Southward movement.
 
 ## Party
 - **GARNET (Quilava)** Lv18 | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv9
