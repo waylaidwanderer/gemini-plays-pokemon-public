@@ -7,16 +7,15 @@
 ## Strategy & Pathing
 - **Goal:** Heal Party at Azalea Town Pokemon Center.
 - **Current Task:** Reach Azalea Town Pokemon Center (Urgent).
-- **Pathing:** Backtracking East to x=31 to cross ledge gap, then West on Row 10.
+- **Pathing:** Navigate through gap at (31, 11), avoid Rocket Grunt, head West.
 - **Battle Status:** Avoid battles. Party Critical.
 - **Party Status:** Critical. Topaz/Amethyst Fainted. Garnet/Rocky Low HP.
 - **Map Notes:**
     - **Azalea Town:** Current.
-    - **Dead End:** West path at (27, 14) is blocked by trees/wall.
+    - **Rocket Grunt:** At (31, 9). Likely blocking Slowpoke Well.
     - **Ledge Gap:** Passage North at (31, 11).
     - **East:** Route 33.
     - **West:** Main Town Area.
-    - **NPCs:** None visible yet.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** In Union Cave 1F, acts as a wall from the North (cannot be jumped).
