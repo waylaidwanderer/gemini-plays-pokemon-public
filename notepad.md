@@ -22,5 +22,5 @@
 - **Poison:** -1 HP / 4 steps.
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
-- **Path Verified:** To reach the ladder: South to (8,17), West to (4,17), Jump Ledge (4,18) to (4,19), then East to Ladder (5,19).
-- **Ledge Mechanics:** `FLOOR_UP_WALL` tiles like (4,18) are ledges that allow jumping South.
+- **Path Correction:** The ledge at (4,18) is blocked from the North. New Plan: Backtrack North to Row 6, West to Column 0, then South down the far left channel to bypass the central walls.
+- **Ledge Mechanics:** `FLOOR_UP_WALL` cannot be entered from the "Floor" side if it acts as a wall. It seems to block Southward movement here.
