@@ -39,8 +39,9 @@
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 
 ## Immediate Plan
-- **Ruins of Alph:** Find Mystery Chamber entrance (North-East) and solve Kabuto Puzzle with Escape Rope.
-- **Route 32:** Continue South after solving puzzle.
+- **Loot:** Collect Item Balls at (2, 6), (2, 4), (5, 6), and (5, 4).
+- **Explore:** Check the back of the room for any ancient text.
+- **Exit:** Leave the Ruins and continue to Azalea Town.
 
 ## Ruins of Alph Notes
 - **Outside:** East Entrance leads to Inner Chamber.
