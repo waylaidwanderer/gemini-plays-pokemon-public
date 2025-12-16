@@ -37,3 +37,4 @@
 2. Locate Sprout Tower.
 3. Locate Gym.
 - **Officer (Route 31 Gatehouse):** Asked if I visited **Sprout Tower**. Implies it's a key location in Violet City.
+- **Wade (Phone):** Called. Found Berries. Waiting on Route 31.
