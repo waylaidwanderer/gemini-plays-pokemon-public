@@ -4,19 +4,21 @@
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Rocky Fainted. Wipeout Imminent.
-- **Remaining Party:** Topaz (Lv4 Sentret), Egg (Lv5 Togepi).
-- **Opponent:** Machop Lv11 (Fighting Type).
-- **Outcome:** Guaranteed loss. Topaz/Egg weak to Fighting and underleveled.
-- **Plan:** Send out Topaz -> Faint -> Send out Egg -> Faint -> Whiteout.
-- **Rematch Strategy:**
-    - Garnet MUST survive Geodude.
-    - Save Garnet's Ember for Machop (Low Sp.Def).
-    - Or: Grind Unakite to outspeed Machop.
+- **Battle Status:** Rocky Fainted. Sending out Topaz (Lv4).
+- **Situation:** Hopeless. Machop Lv11 vs Topaz Lv4.
+- **Action:** Send out Topaz. Attack until fainted.
+- **Outcome:** Whiteout inevitable.
+- **Post-Battle Plan:**
+    - Respawn at Center.
+    - Heal.
+    - **Strategy Adjustment:**
+        - **Option A:** Grind Unakite/Rocky on wild mons in Union Cave.
+        - **Option B:** Catch a Geodude/Sandshrew for better matchup? (Geodude resists Normal/Rock, but weak to Fighting. Sandshrew is Ground, neutral to Fighting).
+        - **Option C:** Just play the Anthony fight better. Heal aggressively. Use Flash/Mud-Slap if available? (Garnet has Mud-Slap!).
+        - **Mud-Slap:** Lowers accuracy. If Garnet can survive one hit, Mud-Slap could ruin Machop's day.
 - **Map Notes:**
     - **Route 33:** Defeated here.
     - **Union Cave:** North.
-    - **Azalea Town:** West.
 
 ## Party
 - **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (FNT) | **ROCKY (Onix)** Lv10 (6/28 HP)
