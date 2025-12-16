@@ -45,3 +45,6 @@
 - **Ghosts:** Immune to Normal/Fighting.
 - **Inventory:** Verify before shops.
 - **Exploration Note:** Spotted an item at (12, 33) surrounded by walls/water. Skipped to prioritize reaching Azalea Town. Might need Surf or a different approach.
+- **Current Task:** Re-traversing Union Cave.
+- **Path Plan:** East side initially (Col 19), then cross West around Row 16.
+- **Observation:** `FLOOR_UP_WALL` tiles at Row 4 likely allow jumping south.
