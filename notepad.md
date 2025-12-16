@@ -72,3 +72,4 @@
 - **Tool Dev Note:** Variable injection in `define_tool` scripts failed for list inputs ('btn_seq'). Needs investigation. `bfs_path` variables were likely never tested. Future tools should assume variables might need different access or debugging.
 - **System Restriction:** `press_buttons` blocks mixing directional and action buttons (e.g. `['Down', 'A']`). Use single inputs or define a tool with `autopress_buttons: true` for sequences.
 - **Battle Menu Mistake:** Accessed 'Start' menu during battle to switch Pokemon. This only reorders the party and does not switch the active battler. Must use 'PKMN' option in the Battle Menu to switch.
+- **Battle State Confusion:** Battle with Hoothoot ended abruptly without visible text log confirmation, directly transitioning to Start Menu upon input. Confirmed Overworld state via visual inspection of Start Menu.
