@@ -82,3 +82,4 @@
 - **Fruit Trees:** Must be interacted with from the tile directly below, facing UP.
 - **Found Item:** PRZCUREBERRY at (14, 29) in Violet City.
 - **Route 32 Side Path:** Accessed via gap at (18, 5). Cooltrainer M at (19, 8) gives **Miracle Seed**. Exploring south.
+- **Route 32:** Caught Bellsprout (Lv7) and nicknaming it PERIDOT.
