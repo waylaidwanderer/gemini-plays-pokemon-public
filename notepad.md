@@ -55,3 +55,10 @@
 - **Wade (Phone):** Called to chat about his bug catching.
 - **Item at (14, 1):** Escape Rope (Picked up).
 - **Battle Mechanic:** Cursor memory persists in Fight menu. Built-in `execute_battle_move` assumes reset. Will rely on manual input or define custom tool when out of battle.
+## Bag Order (Items Pocket)
+1. Berry
+2. Antidote
+3. Potion
+4. Parlyz Heal
+5. X Accuracy
+(Escape Rope likely at end)
