@@ -3,15 +3,15 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Defeat Hiker Anthony.
-- **Battle Status:** Switching Rocky -> Unakite (Psychic resists Fighting).
+- **Battle Status:** Unakite (9/20) vs Machop. Unakite slower, will faint next turn.
+- **Strategy:** Sacrifice Unakite to use Potion on Rocky. Rocky (Full HP) can win with Screech + Tackle.
 - **Map Notes:**
     - **Route 32:** North.
     - **Union Cave 1F:** Current. Exit at (17, 31).
     - **Route 33:** South.
-    - **Mechanics:** `FLOOR_UP_WALL` ledges define the reachable zones. We are in the southern lower zone.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 | **ROCKY (Onix)** Lv10 (14/28 HP)
+- **GARNET (Quilava)** Lv18 (FNT) | **TOPAZ (Sentret)** Lv4 | **EGG** | **UNAKITE (Unown)** Lv5 (9/20 HP) | **ROCKY (Onix)** Lv10 (14/28 HP)
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
