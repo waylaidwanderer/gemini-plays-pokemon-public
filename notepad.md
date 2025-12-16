@@ -85,3 +85,4 @@
 - **Route 32:** Caught Bellsprout (Lv7) named PERIDOT.
 - **Wade (Phone):** Bug-Catching Contest is at National Park today.
 - **Ruins of Alph Gate:** Pokefan M calls me "a scientist in the making". Officer silent.
+- **Ruins of Alph:** Sign says "Visitors Welcome". Entering main cave.
