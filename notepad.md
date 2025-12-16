@@ -1,13 +1,13 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Assist Kurt at Slowpoke Well.
-- **Secondary:** Explore Azalea Town (East).
+- **Primary:** Clear Team Rocket from Slowpoke Well.
+- **Secondary:** Explore Slowpoke Well.
 - **Tertiary:** Investigate Team Rocket Presence.
 
 ## Strategy
-1.  **Follow Kurt:** Head to Slowpoke Well (Entrance at 31, 9 in Azalea Town).
-2.  **Enter Well:** Assist Kurt in fighting Team Rocket.
+1.  **Clear Well:** Explore Slowpoke Well and defeat all Team Rocket Grunts.
+2.  **Report to Kurt:** Return to Kurt at (16, 14) after clearing the well.
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
