@@ -3,9 +3,9 @@
 ## Strategy & Pathing
 - **Goal:** Reach Azalea Town (West of Route 33).
 - **Current Task:** Catch Wild Zubat.
-- **Battle Status:** Switching Garnet -> Topaz (Lv4).
-- **Goal:** Weaken Zubat with Topaz's Tackle, then catch.
-- **Reasoning:** Garnet (Lv18) will OHKO. Topaz (Lv4) deals chip damage.
+- **Battle Status:** Switching Topaz (Lv4) -> Rocky (Lv10).
+- **Goal:** Switch to Rocky to tank Leech Life (Resists Bug/Poison). Then catch.
+- **Reasoning:** Topaz took a crit (8/16 HP). Rocky is safe.
 - **Navigation:** Backtracking to (5, 3) to access East side.
 - **Position:** (5, 5).
 - **Map Notes:**
