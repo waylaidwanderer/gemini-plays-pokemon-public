@@ -40,9 +40,10 @@
 - **Super Nerd (Violet City):** Beat the Gym Leader to be ready for prime time.
 - **Teacher (Sprout Tower 1F):** Pillar is shaking. People training upstairs.
 - **Sage Nico (Sprout Tower 2F):** Defeated.
-- **Ladder found at (17, 3).**
-1. Explore South-East area (rows 4-8).
-2. Climb Ladder at (17, 3).
-3. If dead end, return to 1F and investigate path to Left Side (Ladder at 2, 6).
+- **Ladder at (17, 3):** Investigating.
+- **South-East Area (Rows 4-8):** Explored. Dead end with walls at Row 8.
+1. Climb Ladder at (17, 3).
+2. Explore Sprout Tower 3F.
+3. Look for a path down to the Left Side of 2F/1F.
 - **Granny (Sprout Tower 1F):** Legend says a 100ft Bellsprout became the center pillar.
 - **Sprout Tower 1F:** Entered. Investigating.
