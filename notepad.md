@@ -33,9 +33,10 @@
     2. TOPAZ (Sentret) Lv4 - Tackle.
 
 ## Immediate Plan
-1. Talk to Youngster at (8, 1).
-2. Exit Pokemon Center.
-3. Locate Sprout Tower.
+- **Youngster (Violet Center):** Traded Pokemon need badges to obey.
+1. Exit Pokemon Center.
+2. Locate Sprout Tower.
+3. Locate Gym.
 - **Gentleman (Violet Center):** Team Rocket broken up 3 years ago by a kid.
 - **Gameboy Kid:** Bill made the Pokemon PC storage system.
 3. Locate Gym.
