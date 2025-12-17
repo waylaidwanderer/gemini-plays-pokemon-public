@@ -11,13 +11,13 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34 (Day-Care Area).
-- **Action:** Reading the sign at (10, 13).
+- **Status:** On Route 34.
+- **Action:** Flanking Left (Column 8) to bypass Officer Jenny at (9, 11).
 - **Reasoning:** 
-    - The warp at (11, 14) didn't work.
-    - The path to the main door (13, 15) is blocked from the South.
-    - Reading the sign might clarify if this is the entrance or exit.
-- **Plan:** Read sign. Then head North via column 9 to bypass the trees and Officer, aiming for Goldenrod City.
+    - Officer is at (9, 11) facing DOWN.
+    - Walking up Column 9 triggers a battle.
+    - Column 8 should be safe if she doesn't turn.
+- **Plan:** Move to (8, 11) and continue North to Goldenrod.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
