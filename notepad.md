@@ -15,9 +15,13 @@
 - **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Get Charcoal from Charcoal Kiln (21, 13).
-2.  Return to Ilex Forest.
-3.  Cut tree and proceed North.
+1.  Exit Charcoal Kiln.
+2.  Equip Charcoal to Garnet (Quilava).
+3.  Return to Ilex Forest.
+4.  Cut tree and proceed North.
+
+## Inventory Notes
+- **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
