@@ -66,6 +66,8 @@
 - Status: Exploring.
 - Key Locations:
     - Route 29 Transition: (39, 6).
-- GRAMPS (ID 1): Offered a tour of Cherrygrove City at (32, 6). (Accepted tour)
+- GRAMPS (ID 1): Completed tour. Received MAP CARD at (20, 9).
+- MAP CARD: Added to POKéGEAR.
+- Route 30: North exit of Cherrygrove City.
 - Turn 171: Following Gramps on the city tour. He's showing me the sights!
 - Discovered Guide Gent's House at (17, 7).
