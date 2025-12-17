@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2742)
-- **Action:** Navigating to (26, 1) to pick up Item Ball at (27, 1).
-- **Recent:** Escaped Oddish at (23, 1).
-- **Plan:** Pick up item, then explore the North-West corner (Row 0-2, Cols 18-21).
+## Status (Turn 2743)
+- **Action:** Picking up Item Ball at (27, 1).
+- **Recent:** Arrived at item location.
+- **Plan:** After pickup, traverse West along Row 0 to explore the unseen area starting at (17, 0).
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
