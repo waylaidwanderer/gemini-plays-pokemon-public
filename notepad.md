@@ -23,7 +23,7 @@
 - WALL: Impassable.
 
 ### NPCs & Interactions
-- MOM (8, 4): Standing in the kitchen area.
+- MOM (7, 4): Sitting at the kitchen table.
 
 ## Strategy & Progress Update
 - Next: Exit the house and head to Professor Elm's Lab in New Bark Town.
