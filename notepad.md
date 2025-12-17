@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Positioning at (13, 34) to read the sign.
-- **Plan:** Read sign, avoid the Youngster's gaze (stay out of column 15), and head North.
+- **Action:** Reading Trainer Tips sign at (13, 33).
+- **Plan:** Read sign, then head North along the left side (cols 12-14) to avoid the Youngster at (15, 32).
 - **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
