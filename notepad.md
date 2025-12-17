@@ -12,11 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Browsing TM Corner inventory.
+- **Action:** Opening TM Shop menu.
 - **Plan:** 
-    1. Scroll through TM list (Punches, Headbutt?).
-    2. Record TMs and prices.
-    3. Exit shop (too poor).
+    1. Press A to talk (retry).
+    2. Check TM list (Punches, Headbutt?).
+    3. Record TMs and prices.
     4. Explore left side (find Elevator).
     5. Head to Roof.
 - **Learned:** 
