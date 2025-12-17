@@ -6,8 +6,8 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Route 34 (11_1).
-- **Current Action:** Battling Youngster Ian.
+- **Location:** Goldenrod Dept. Store 2F (11_12).
+- **Current Action:** Buying items from Clerk 2.
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
