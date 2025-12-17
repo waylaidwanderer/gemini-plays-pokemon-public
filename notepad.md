@@ -12,9 +12,9 @@
 
 ## Current Strategy
 - **Status:** Inside Route 34 Gatehouse.
-- **Action:** Navigating to (4, 4) to talk to the Lass.
-- **Plan:** Talk to Lass, then the Teacher and Butterfree. Then proceed to Route 34.
-- **Note:** The Lass is pacing. Standing at (4, 4) allows interaction when she is at (3, 4).
+- **Action:** Stunning Lass to talk to her at (3, 3).
+- **Plan:** Talk to Lass (stunning her to prevent movement). Then talk to Teacher/Butterfree. Then exit North to Route 34.
+- **Note:** Marked exits to Route 34.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
