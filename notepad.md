@@ -63,6 +63,7 @@
 - **Info:** Oddish caught (sent to PC). Nickname: BELLADONNA.
 - **Task:** Retrieve Oddish from PC after getting HM01.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Resuming pursuit West along Row 29 after battle.
-- **Note:** Verify if battle reset the bird's position.
-- **Goal:** Re-acquire visual on Bird (likely between x=15 and x=18 on Row 29).
+- **Current Status:** Nicknaming complete. Returning to Overworld.
+- **Immediate Task:** Clear "Sent to PC" text (if any) and locate Farfetch'd.
+- **Assumption:** Farfetch'd is likely still at (18, 29) or nearby.
+- **Goal:** Herd Farfetch'd West to (7, 28).
