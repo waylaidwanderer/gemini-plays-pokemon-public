@@ -1,9 +1,10 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Progress to Mr. Pokémon
-1. Receive the Pokédex and Poké Balls from Professor Elm and his Aide.
-2. Exit New Bark Town and head west to Route 29.
-3. Reach Mr. Pokémon's house to collect the Mystery Egg.
+1. Obtain the Potion from Professor Elm's Aide.
+2. Receive the Pokédex and Poké Balls from Professor Elm (after visiting Mr. Pokémon).
+3. Exit New Bark Town and head west to Route 29.
+4. Reach Mr. Pokémon's house to collect the Mystery Egg.
 
 ## Tile Mechanics
 ### Global
