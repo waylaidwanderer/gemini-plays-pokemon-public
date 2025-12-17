@@ -20,6 +20,9 @@
 (No battles yet)
 
 ## NPCs & Interactions
+### PlayersNeighborsHouse (24_8)
+- COOLTRAINER_F (ID 1): Standing in the house.
+
 ### New Bark Town (24_4)
 - FISHER (ID 2): Wandering the town.
 - TEACHER (ID 1): Standing near the town sign. (7, 8)
@@ -31,5 +34,5 @@
 ## New Bark Town (24_4) Points of Interest
 - Player's House: Door (13, 5), Sign (11, 5).
 - Elm's House (?): Door (11, 13), Sign (9, 13).
-- Unknown Building (Lab?): Door (3, 11).
+- Neighbor's House: Door (3, 11).
 - Town Sign: (8, 8).
