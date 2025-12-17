@@ -42,14 +42,14 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Puzzle Complete! Bird is at (6, 28).
-- **Action:** Talk to Apprentice at (7, 28).
+- **Current Status:** Puzzle Complete! Bird returned to Apprentice.
+- **Action:** Interacting with Apprentice to claim HM01.
 - **Next Steps:**
     1.  Get HM01 (Cut).
     2.  Return to Azalea Town Pokemon Center.
-    3.  Retrieve BELLADONNA (Oddish) from PC.
+    3.  Withdraw BELLADONNA (Oddish).
     4.  Teach Cut to BELLADONNA.
-    5.  Challenge Gym.
+    5.  Challenge Azalea Gym.
 
 ## Reflection Log (Turn 2549)
 - **Review:** Last 50 turns focused on herding. No major deferrals.
