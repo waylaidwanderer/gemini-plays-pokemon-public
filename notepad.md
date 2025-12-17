@@ -11,13 +11,15 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Exploring Goldenrod Dept. Store 2F.
-- **Action:** Reading the Directory at (14, 0).
+- **Status:** Inside Goldenrod Dept. Store 1F.
+- **Action:** Re-ascending to 2F.
+- **Reasoning:** Accidentally walked back down stairs due to movement error.
 - **Plan:** 
-    1. Check what is sold on this floor (Trainer's Market?).
-    2. Buy TMs if good ones are available (Ice/Thunder/Fire Punch?).
-    3. Ascend to 3F via stairs at (12, 0).
-    4. Continue to Rooftop.
+    1. Go up to 2F.
+    2. Move to (14, 1) carefully.
+    3. Read Directory at (14, 0).
+    4. Check TM selection.
+    5. Continue to upper floors.
 - **Notes:**
     - Game Corner identified at (14, 21).
     - Unexplored building at (11, 29).
