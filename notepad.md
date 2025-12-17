@@ -14,12 +14,9 @@
 - **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Deposit Topaz (Sentret) or Unakite (Unown) into PC.
-2.  Withdraw Belladonna (Oddish) from PC.
-3.  Teach Cut to Belladonna.
-4.  Get Charcoal from Charcoal Kiln (21, 13).
-5.  Return to Ilex Forest.
-6.  Cut tree and proceed North.
+1.  Get Charcoal from Charcoal Kiln (21, 13).
+2.  Return to Ilex Forest.
+3.  Cut tree and proceed North.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
