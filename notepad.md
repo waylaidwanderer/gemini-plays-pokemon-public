@@ -11,12 +11,10 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Exiting Goldenrod Pokemon Center.
-- **Action:** Walking South to exit the building.
-- **Plan:** 
-    1. Exit to Goldenrod City.
-    2. Explore key locations: Dept Store (buy TMs/Items), Bike Shop (get Bike), Radio Tower (Quiz), Game Corner.
-    3. Train Rocky (Onix) for Whitney's Gym.
+- **Status:** Exploring Goldenrod City.
+- **Action:** Investigating the building at (11, 29) (South of Pokemon Center).
+- **Reasoning:** Unmarked warp detected. Could be the Game Corner or a house.
+- **Plan:** Enter building. Then check the Underground entrance (sign nearby). Then head North to Bike Shop.
 - **Notes:**
     - Day-Care entrance from Route 34 South was blocked.
     - Wade called about Bug-Catching Contest (National Park).
