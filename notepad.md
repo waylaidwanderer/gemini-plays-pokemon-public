@@ -36,10 +36,10 @@
 - **AMETHYST (Zubat)** Lv5
 - **PC:** JASPER (Geodude), BELLADONNA (Oddish)
 
-## Location Notes: Ilex Forest
-- **Cut Tree:** Located at (8, 25).
-- **Charcoal Master:** Last seen at (5, 29).
-- **Warp:** Exit to Azalea Gatehouse at (3, 42)/(3, 43).
+## Location Notes: Azalea Gatehouse
+- **Warps:** West to Ilex Forest, East to Azalea Town.
+- **NPCs:** Granny (1, 3), Officer (5, 2).
+- **Task:** Talk to NPCs before exiting.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
