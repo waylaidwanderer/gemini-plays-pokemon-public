@@ -59,3 +59,6 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly to avoid KeyErrors.
 - Exploration: Check building corners and behind counters for unseen tiles.
 - Scripted Events: Some NPCs may move the player during dialogue. Treat the move as a completed interaction unless new dialogue is triggered.
+- LEDGE_HOP_RIGHT: One-way traversable. Can jump to the right from the left tile, but acts as a wall from the right.
+- TALL_GRASS: Standard traversable grass that triggers wild encounters.
+- Ledge Barrier: (43, 8)-(43, 12). Path west discovered at (43, 14)-(43, 15).
