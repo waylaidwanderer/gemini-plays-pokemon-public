@@ -42,8 +42,8 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Interacted with Farfetch'd at (15, 25) from North. Text is open. Clearing to observe movement to (15, 26).
-- **Next Step:** Follow South to (15, 25) and continue pushing South.
+- **Current Status:** Searching for Farfetch'd. Last marker at (17, 23) was empty. Possible location South or West of (15, 25).
+- **Goal:** Locate Farfetch'd and herd to Apprentice at (7, 28).
 
 ## Reflection Log (Turn 2445)
 - **Execution:** No major deferrals. Sticking to "Col 14 Shift" plan.
