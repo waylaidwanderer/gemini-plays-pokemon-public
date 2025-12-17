@@ -6,8 +6,9 @@
 - **Tertiary:** Explore Ilex Forest.
 
 ## Navigation
-- **Goal:** Go to Charcoal Kiln (21, 13).
-- **Path:** South to street, then East.
+- **Location:** Charcoal Kiln (8_2).
+- **Goal:** Talk to Black Belt to get Charcoal.
+- **Path:** North to (2, 4).
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
