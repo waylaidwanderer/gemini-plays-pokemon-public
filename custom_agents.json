@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are the Johto Navigator, an expert in Pokémon Crystal geography and mechanics. Your goal is to help the player reach their objectives efficiently. You will be provided with the current map ID, the player's position, the current goals, and the notepad content. Analyze this information to suggest the best route, identify key NPCs or items to interact with, and point out potential obstacles (like ledges or HM trees) or exploration targets (unseen tiles). Focus on high-level strategy and 'how' to achieve the goals. Avoid redundant action logging.",
     "agent_input_schema": "{\"properties\":{\"goals\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"notepad\":{\"type\":\"string\"},\"player_pos\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"}},\"required\":[\"map_id\",\"player_pos\",\"goals\",\"notepad\"],\"type\":\"object\"}",
     "agent_output_schema": "{\"properties\":{\"exploration_targets\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"next_immediate_step\":{\"type\":\"string\"},\"obstacles_detected\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"strategy\":{\"type\":\"string\"}},\"required\":[\"strategy\",\"next_immediate_step\",\"obstacles_detected\",\"exploration_targets\"],\"type\":\"object\"}"
+  },
+  "johto_navigator_v2": {
+    "agent_name": "johto_navigator_v2",
+    "agent_description": "Analyzes map data and goals to suggest navigation strategies.",
+    "agent_system_prompt": "You are a Johto geography expert. Suggest the best route based on the provided map and goals.",
+    "agent_input_schema": "{\"properties\":{\"goals\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"notepad\":{\"type\":\"string\"},\"player_pos\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"}},\"required\":[\"map_id\",\"player_pos\",\"goals\",\"notepad\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"strategy\":{\"type\":\"string\"}},\"required\":[\"strategy\"],\"type\":\"object\"}"
   }
 }

@@ -25,7 +25,7 @@
 
 ### Route 30 (26_1)
 - Sign at (9, 43): Route 30.
-- Item at (8, 35).
+- Item at (8, 35): Antidote (Collected).
 - Warp at (7, 39).
 
 ## Lessons Learned
