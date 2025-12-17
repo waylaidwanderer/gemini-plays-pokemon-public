@@ -53,7 +53,7 @@
     - Azalea (25, 11): Mountain Group (Confirmed: Spearow, Aipom).
     - Azalea (27, 11): Mountain Group (Confirmed: Aipom, Spearow, Ekans).
     - Azalea (26, 11): Dud.
-  - **Farming Strategy:** Rotate between Azalea trees (24, 25, 27) to avoid loops and "stuck" hallucinations. Monitor PP (Rocky: 15/15 Headbutt left).
+  - **Farming Strategy:** Rotate between Azalea trees (24, 25, 27) to avoid loops and "stuck" hallucinations. Confirmed: Field Headbutt does not consume PP (Rocky stuck at 15/15).
     1. Headbutt a tree 1-3 times.
     2. If "Nope" or non-Heracross encounter, rotate to next tree.
     3. Repeat until Heracross is found.
