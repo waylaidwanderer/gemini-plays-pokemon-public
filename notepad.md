@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2728)
-- **Action:** Retrieving known item at (9, 17).
-- **Recent:** Escaped wild battle.
-- **Plan:** Pick up item, then head North to explore the Shrine area and beyond.
+## Status (Turn 2730)
+- **Action:** Navigating winding path North/East towards (12, 11).
+- **Recent:** Picked up X Attack at (9, 17).
+- **Plan:** Explore the Northern/Eastern section of Ilex Forest.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
