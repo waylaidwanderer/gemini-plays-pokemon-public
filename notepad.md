@@ -7,18 +7,17 @@
 
 ## Navigation
 - **Goal:** Exit Ilex Forest to Azalea Town.
-- **Path:** (8, 34) -> North to (8, 29) -> West to (1, 33) -> South to Exit.
+- **Path:** South along Column 1 to Row 42, then East to Exit (3, 42).
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
 
 ## Next Steps
-1.  Navigate to (3, 42) via the Western path.
-2.  Exit to Route 34 / Azalea Gatehouse.
-3.  Heal at Azalea Pokemon Center.
-4.  Withdraw Belladonna.
-5.  Teach Cut to Belladonna.
-6.  Challenge Gym.
+1.  Navigate to (3, 42) to exit Ilex Forest.
+2.  Heal at Azalea Pokemon Center.
+3.  Withdraw Belladonna.
+4.  Teach Cut to Belladonna.
+5.  Challenge Gym.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
