@@ -6,19 +6,18 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Dept. Store 6F (11_16).
-- **Current Action:** Exploring Rooftop.
+- **Location:** Goldenrod Dept. Store Elevator (11_17).
+- **Current Action:** Going to 1F.
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 6F (Rooftop).
-- **Action:** taking Elevator to 1F.
+- **Status:** Inside Goldenrod Dept. Store Elevator.
+- **Action:** Operating elevator.
 - **Plan:** 
-    1. Enter Elevator at (2, 0).
-    2. Go to 1F.
-    3. Exit Dept. Store.
-    4. Heal at Center? (No, team is fine).
-    5. Head to Route 34 Day-Care.
+    1. Interact with controls at (3, 0).
+    2. Select "1F".
+    3. Exit at 1F and leave store.
+    4. Head to Route 34 Day-Care.
 - **Learned:** 
     - 6F: Vending Machine drinks heal Pokemon.
     - 5F has TMs (Punch series) and Vitamins.
