@@ -2,7 +2,7 @@
 
 ## Current Strategy
 - **Plan:** 
-    1. Spam Headbutt on the tree at (23, 11) in Azalea Town (Mountain Group).
+    1. Spam Headbutt on the trees at (24, 11), (25, 11), and (27, 11) in Azalea Town (Mountain Group).
     2. Run from non-Heracross encounters (Spearow/Aipom).
     3. Catch Heracross when it appears.
     4. Train Rocky and Heracross.
