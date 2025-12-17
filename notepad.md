@@ -21,11 +21,12 @@
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
 - TEACHER (ID 3): (28, 12).
 - YOUNGSTER (ID 4): (22, 7).
-- FISHER (ID 5): (25, 3) - Verify location when nearby.
+- FISHER (ID 5): (25, 3)? - Verify location when nearby.
 
 ### Route 30 (26_1)
 - Sign at (9, 43): Route 30.
 - Item at (8, 35).
+- Warp at (7, 39).
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
