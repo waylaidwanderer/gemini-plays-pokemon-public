@@ -34,4 +34,5 @@
 - **FLOOR_UP_WALL:** Acts as wall from North.
 - **LEDGE_HOP_LEFT:** One-way Left.
 - **LEDGE_HOP_DOWN:** One-way Down.
-- **Rocket Grunt:** Fighting at (5, 2).
+- **Rocket Grunt:** Defeated at (5, 2).
+- **Kurt:** Moved to (7, 5).
