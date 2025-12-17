@@ -15,10 +15,9 @@
 - **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Exit Charcoal Kiln.
-2.  Equip Charcoal to Garnet (Quilava).
-3.  Return to Ilex Forest.
-4.  Cut tree and proceed North.
+1.  Return to Ilex Forest.
+2.  Cut tree and proceed North.
+3.  Explore and train Belladonna.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
