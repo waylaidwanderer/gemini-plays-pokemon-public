@@ -21,9 +21,11 @@
 - WARP_CARPET_DOWN: Exit tile at the bottom of building interiors.
 - BOOKSHELF: Impassable background object.
 - WINDOW: Impassable background object.
-- HEALING_MACHINE: Potential restoration point.
-- TRASHCAN: Impassable background object.
-- PC: Impassable background object.
+- HEALING_MACHINE: Potential restoration point at (2, 1).
+- TRASHCAN: Impassable background object at (9, 3).
+- PC: Impassable background object at (3, 5).
+- BOOKSHELVES: Impassable at (6,1)-(9,1) and (6,7)-(9,7).
+- WINDOW: Impassable at (5,0).
 
 ## NPCs & Interactions
 ### New Bark Town (24_4)
@@ -38,6 +40,7 @@
 ### ElmsLab (24_5)
 - PROF_ELM (ID 1): Researcher at (5, 2).
 - POKE_BALLs (IDs 3, 4, 5): Contain starter Pokémon at (6, 3), (7, 3), (8, 3).
+- AIDE (ID 2): Stands in the lab. (Coordinate to be confirmed)
 
 ## Discovered Locations (New Bark Town 24_4)
 - Player's House: Door (13, 5), Sign (11, 5).
@@ -51,3 +54,4 @@
 - Buildings are often larger than they appear; check all sides for entrances.
 - Signs are the best way to identify buildings without entering.
 - Verify NPC coordinates from Game State; do not assume based on visual proximity alone.
+- Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil is the strongest choice for early game.
