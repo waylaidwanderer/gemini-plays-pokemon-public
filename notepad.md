@@ -12,13 +12,12 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F (Medicine Box).
-- **Action:** checking full inventory of Medicine Box.
+- **Action:** Exiting Medicine Box.
 - **Plan:** 
-    1. Scroll down to see remaining items (Zinc, HP Up).
-    2. Record full inventory.
-    3. Exit shop.
-    4. Explore left side of floor.
-- **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800)...
+    1. Check intermediate states for Zinc/HP Up prices.
+    2. Clear "Please come again" text.
+    3. Move to left side (Columns 0-8).
+- **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
