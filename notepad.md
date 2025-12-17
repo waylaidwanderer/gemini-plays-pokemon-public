@@ -59,6 +59,6 @@
   - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross, Ekans).
   - **Verified Trees:**
     - Ilex (12,12), (11,12): Forest Group.
-    - Azalea (24, 11), (25, 11): Mountain Group (Heracross Possible).
+    - Azalea (24, 11), (25, 11), (26, 11): Mountain Group (Heracross Possible).
   - **Duds:** Ilex (12,15), (12,14), (12,13).
   - **Farming Positions:** (23, 11) [Left] and (24, 10) [Top]. Rotate to avoid system warnings.
