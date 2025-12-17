@@ -40,3 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
+- **Battle:** Bug Catcher Benny (Weedle Lv7, Kakuna Lv9) - In Progress.
