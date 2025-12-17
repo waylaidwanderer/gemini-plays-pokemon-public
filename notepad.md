@@ -1,16 +1,16 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Obtain Starter Pokémon
-1. Explore New Bark Town to locate Professor Elm's Lab. (Done)
-2. Enter the Lab and speak with Professor Elm. (Done)
-3. Examine all three starter Pokémon. (Done)
-4. Choose a starter Pokémon and nickname it creatively. (In Progress: Cyndaquil received)
-5. Obtain the Pokédex and start the journey west to Route 29.
+1. Locate Professor Elm's Lab.
+2. Choose a starter Pokémon and nickname it.
+3. Obtain the Pokédex.
+4. Visit Mr. Pokémon as requested by Professor Elm.
+5. Begin the journey west to Route 29.
 
 ## Tile Mechanics
 ### Global
 - FLOOR: Standard traversable ground.
-- WALL: Impassable barrier (buildings, fences).
+- WALL: Impassable barrier.
 - DOOR: Warp tile leading inside/outside.
 - STAIRCASE: Warp tile between floors.
 - WATER: Impassable without Surf HM.
@@ -32,12 +32,12 @@
 - MOM (PlayersHouse1F): Provides Pokégear and sets the clock.
 
 ### PlayersNeighborsHouse (24_8)
-- COOLTRAINER_F (ID 1): Researcher enthusiast. Mentions Elm's research on evolution.
+- COOLTRAINER_F (ID 1): Researcher enthusiast at (2, 3). Mentions Elm's research on evolution.
 
 ### ElmsLab (24_5)
 - PROF_ELM (ID 1): Researcher at (5, 2).
-- POKE_BALLs (IDs 3, 4, 5): Contain starter Pokémon at (6, 3), (7, 3), (8, 3).
-- AIDE (ID 2): Stands in the lab. (Coordinate to be confirmed)
+- POKE_BALLs (IDs 3, 4, 5): Starter Pokémon at (6, 3), (7, 3), (8, 3).
+- AIDE (ID 2): Stands in the lab.
 
 ## Discovered Locations (New Bark Town 24_4)
 - Player's House: Door (13, 5), Sign (11, 5).
@@ -47,8 +47,8 @@
 - Town Sign: (8, 8).
 
 ## Lessons Learned
-- NPCs act as walls; always plan paths around them.
+- NPCs act as walls; plan paths around them.
 - Buildings are often larger than they appear; check all sides for entrances.
-- Signs are the best way to identify buildings without entering.
-- Verify NPC coordinates from Game State; do not assume based on visual proximity alone.
-- Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil is the strongest choice for early game.
+- Signs identify buildings without entering.
+- Verify NPC coordinates from Game State; do not assume based on visual proximity.
+- Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil chosen. Nickname: Calcifer.
