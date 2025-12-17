@@ -2,7 +2,7 @@
 
 ## Current Objectives
 - **Primary:** Defeat Whitney (Goldenrod Gym).
-- **Secondary:** Catch Heracross in Ilex Forest.
+- **Secondary:** Catch Heracross in Azalea Town.
 - **Tertiary:** Train Rocky/Heracross for Whitney.
 
 ## Navigation
