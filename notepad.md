@@ -16,7 +16,7 @@
 - **Pending:** Deliver Mystery Egg to Elm, Get HM01 Cut.
 
 ## Party
-- **GARNET (Quilava)** Lv21 (35/61 HP) | Quick Attack, Leer, Smokescreen, Ember
+- **GARNET (Quilava)** Lv22 (63/63 HP) | Quick Attack, Leer, Smokescreen, Ember
 - **ROCKY (Onix)** Lv11 (30/30 HP)
 - **UNAKITE (Unown)** Lv5 (20/20 HP)
 - **EGG**
@@ -40,4 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Rival Silver (Gastly Lv12 Active, Croconaw, Zubat) - Garnet Lv21 vs Gastly Lv12. Using Ember.
+- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet Lv22 vs Croconaw. Plan: Smokescreen.
