@@ -12,12 +12,14 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store (1F).
-- **Action:** Exploring the East wall for stairs/elevator.
+- **Action:** Navigating to the Top-Right corner (15, 1) to look for the elevator or stairs.
 - **Plan:** 
-    1. Find transport to upper floors.
+    1. Find transport to upper floors (Elevator usually in corners).
     2. Check TM selection (usually on 2F or 3F) and items (5F/Rooftop).
     3. Exit and go to Bike Shop.
 - **Notes:**
+    - Receptionist at (10, 1).
+    - Gentleman at (12, 4) is moving around.
     - Game Corner identified at (14, 21).
     - Unexplored building at (11, 29).
     - Team healed.
