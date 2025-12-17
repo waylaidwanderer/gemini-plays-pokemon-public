@@ -25,13 +25,12 @@
 - **PC:** JASPER (Geodude)
 
 ## Location Notes: Azalea Gym
-- **Type:** Bug
-- **Leader:** Bugsy
-- **Entrance:** (4, 15) / (5, 15)
-- **NPCs:** Guide (7, 13), Twins (4, 10), (5, 10), Bugsy (5, 7), Bug Catcher (8, 8), Defeated Bug Catcher Benny (5, 3), Defeated Bug Catcher Josh (0, 4).
+- **Status:** Cleared. Badge Obtained.
+- **Leader:** Bugsy (Defeated).
 
 ## Cleared Areas
 - **Slowpoke Well:** Cleared. Kurt rescued.
+- **Azalea Gym:** Cleared. Hive Badge earned.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
@@ -39,6 +38,5 @@
 - **LEDGE_HOP_DOWN:** One-way Down.
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
-- **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
 - **Battle:** Rival Silver (Gastly, Croconaw, Zubat) - Defeated.
 - **Info:** Wade called. Bug-Catching Contest is today at National Park.
