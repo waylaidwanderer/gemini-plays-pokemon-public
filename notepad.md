@@ -40,4 +40,5 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Rival Silver (Gastly Defeated, Croconaw Defeated, Zubat Active) - Garnet 7/63 HP. Zubat HP ~40%. Garnet outspeeds. Plan: Ember to finish.
+- **Battle:** Rival Silver (Gastly, Croconaw, Zubat) - Defeated.
+- **Info:** Wade called. Bug-Catching Contest is today at National Park.
