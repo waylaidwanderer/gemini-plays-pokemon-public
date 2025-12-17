@@ -43,13 +43,12 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Bird at (20, 24). Player at (15, 26).
-- **Plan (The Reverse Loop):**
-  1. Navigate to (21, 24) (East of Bird).
-  2. Interact West. Expect Bird to move North to (20, 23) (since West is blocked).
-  3. Push Bird West along Row 23 back to (15, 23).
-  4. At (15, 23), push Bird South to (15, 24).
-  5. Move to (15, 23) and push Bird South.
+- **Current Status:** Interacting with Farfetch'd at (20, 24) from East. Expecting it to move North to (20, 23) as West is blocked by Wall.
+- **Next Steps:**
+  1. Move North to (21, 23).
+  2. Push Bird West from (20, 23) to (19, 23).
+  3. Chase West to (15, 23).
+  4. Push South to (15, 24).
 - **Strategy:** Position North at (15, 24) to push Farfetch'd South to Row 28. Then flank East to push it West towards the Apprentice.
 - **Goal:** Herd to Apprentice at (7, 28).
 
