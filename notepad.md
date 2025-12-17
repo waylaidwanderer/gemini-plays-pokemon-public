@@ -1,83 +1,48 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Earn Hive Badge (Azalea Gym).
-- **Secondary:** Challenge Azalea Gym Leader Bugsy.
-- **Tertiary:** Get Belladonna (Oddish) from PC.
+- **Primary:** Traverse Ilex Forest to reach Goldenrod City.
+- **Secondary:** Teach Cut to Belladonna (Oddish).
+- **Tertiary:** Collect Charcoal from Charcoal Master.
 
 ## Navigation
-- **Goal:** Exit Ilex Forest to Azalea Town.
-- **Path:** South along Column 1 to Row 42, then East to Exit (3, 42).
+- **Goal:** Exit Ilex Forest to Azalea Town to visit PC.
+- **Path:** South to Exit (3, 42).
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
+- **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Navigate to (3, 42) to exit Ilex Forest.
-2.  Heal at Azalea Pokemon Center.
-3.  Withdraw Belladonna.
+1.  Exit Ilex Forest to Azalea Town.
+2.  Heal at Pokemon Center.
+3.  Withdraw Belladonna (Oddish) from PC.
 4.  Teach Cut to Belladonna.
-5.  Challenge Gym.
+5.  Return to Ilex Forest.
+6.  Get Charcoal from Master (if not obtained).
+7.  Cut tree and proceed North.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
-- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift), TM49 (Fury Cutter), Lure Ball.
-- **Pending:** Deliver Mystery Egg to Elm, Get HM01 Cut.
+- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift), TM49 (Fury Cutter), Lure Ball, HM01 (Cut).
+- **Pending:** Deliver Mystery Egg to Elm.
 
 ## Party
-- **GARNET (Quilava)** Lv22 (Fully Healed) | Quick Attack, Leer, Smokescreen, Ember
-- **ROCKY (Onix)** Lv11 (Fully Healed)
-- **UNAKITE (Unown)** Lv5 (Fully Healed)
+- **GARNET (Quilava)** Lv22
+- **ROCKY (Onix)** Lv11
+- **UNAKITE (Unown)** Lv5
 - **EGG**
-- **TOPAZ (Sentret)** Lv4 (Fully Healed)
-- **AMETHYST (Zubat)** Lv5 (Fully Healed)
-- **PC:** JASPER (Geodude)
+- **TOPAZ (Sentret)** Lv4
+- **AMETHYST (Zubat)** Lv5
+- **PC:** JASPER (Geodude), BELLADONNA (Oddish)
 
-## Location Notes: Azalea Gym
-- **Status:** Cleared. Badge Obtained.
-- **Leader:** Bugsy (Defeated).
-
-## Cleared Areas
-- **Slowpoke Well:** Cleared. Kurt rescued.
-- **Azalea Gym:** Cleared. Hive Badge earned.
+## Location Notes: Ilex Forest
+- **Cut Tree:** Located at (8, 25).
+- **Charcoal Master:** Last seen at (5, 29).
+- **Warp:** Exit to Azalea Gatehouse at (3, 42)/(3, 43).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
 - **LEDGE_HOP_LEFT:** One-way Left.
 - **LEDGE_HOP_DOWN:** One-way Down.
-- **Rocket Grunt:** Defeated at (5, 2).
-- **Kurt:** Moved to (7, 5).
-- **Battle:** Rival Silver (Gastly, Croconaw, Zubat) - Defeated.
-- **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
-- **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
-## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Bird returned. Apprentice dialogue exhausted.
-- **Position Correction:** System places player at (4, 29). Image conflicts (6, 29).
-- **Action:** Navigate to (5, 29) to talk to the Black Belt (potential Boss).
-- **Hypothesis:** Black Belt at (5, 28) may have the HM or be the Boss.
-- **Next Steps:**
-    1.  Talk to Black Belt.
-    2.  If successful, return to Azalea Town.
-    3.  If not, check Ilex Forest exit or return to town to find Charcoal Master.
-
-## Reflection Log (Turn 2549)
-- **Review:** Last 50 turns focused on herding. No major deferrals.
-- **Hygiene:** Notepad covers puzzle state well. Map markers used for tracking bird.
-- **Strategy:** Manual herding is effective. Bird flees large distances occasionally; need to be ready to chase.
-- **Lesson:** Farfetch'd behavior includes "fleeing" phases where it moves multiple tiles. Deflection logic (wall bounce) seems consistent.
-- **Action:** Proceeding with "Corner and Deflect North" strategy.
-
-## Farfetch'd Behavior Notes
-- Moves opposite to interaction.
-- Can "fly" over obstacles if cornered (e.g. corner loop).
-- Resets on map exit (and possibly battles).
-- **Info:** Oddish caught (sent to PC). Nickname: BELLADONNA.
-- **Task:** Retrieve Oddish from PC after getting HM01.
-## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Nicknaming complete. Returning to Overworld.
-- **Immediate Task:** Clear "Sent to PC" text (if any) and locate Farfetch'd.
-- **Assumption:** Farfetch'd is likely still at (18, 29) or nearby.
-- **Goal:** Herd Farfetch'd West to (7, 28).
-- **Info:** Wade called (Tuesday). Bug Catching Contest is active at National Park.
-- **Immediate Task:** Clear "Sent to PC" text and resume Farfetch'd pursuit.
-- **Bird Status:** Verify if battle reset the bird's position. Anticipate it near (18, 29).
+- **WARP_CARPET_RIGHT:** Warps when stepped on or walked right into.
