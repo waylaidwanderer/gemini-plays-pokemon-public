@@ -37,12 +37,12 @@
 - **Farfetch'd Quest:** Completed.
 
 ## Party
-- **GARNET (Quilava)** Lv23
-- **ROCKY (Onix)** Lv11
-- **UNAKITE (Unown)** Lv5
-- **TOGEPI** Lv5
-- **TOPAZ (Sentret)** Lv4
+- **GARNET (Quilava)** Lv24
+- **ROCKY (Onix)** Lv12
+- **TOGEPI** Lv6
 - **AMETHYST (Zubat)** Lv5
+- **BELLADONNA (Oddish)** Lv5
+- **EGG (Tyrogue)** Lv5
 ## Tile Mechanics
 - **Headbutt Trees:** Interactable tiles that can spawn Pokémon.
   - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
