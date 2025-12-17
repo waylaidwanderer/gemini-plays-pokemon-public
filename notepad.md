@@ -11,13 +11,14 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34.
-- **Action:** Moving North along Column 8 to (8, 7).
+- **Status:** On Route 34 (Approaching Goldenrod).
+- **Action:** Navigating North from (8, 10).
 - **Reasoning:** 
-    - Bypassing Officer at (9, 11) (Facing Down).
-    - Avoiding Youngster at (13, 7) (Facing Left, approx range 4).
-    - Staying in Column 8 keeps me out of range (Col 8 vs Col 13 is 5 tiles).
-- **Plan:** Continue North to Goldenrod City.
+    - Day-Care entrance appears inaccessible from the left side (blocked by wall at x=12).
+    - Warps at (11, 14/15) did not function.
+    - Continuing North to Goldenrod City to heal and potentially access Day-Care from the North side.
+    - Marked Youngster at (13, 7) to avoid.
+- **Plan:** Enter Goldenrod City.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
