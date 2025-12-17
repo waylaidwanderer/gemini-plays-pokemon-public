@@ -1,13 +1,10 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Obtain Starter Pokémon
-1. Explore New Bark Town to locate Professor Elm's Lab.
-2. Enter the Lab and speak with Professor Elm.
-3. Examine all three starter Pokémon:
-   - Ball 1 (6, 3): Cyndaquil (Picking)
-   - Ball 2 (7, 3): Totodile
-   - Ball 3 (8, 3): Chikorita
-4. Choose a starter Pokémon and nickname it creatively.
+1. Explore New Bark Town to locate Professor Elm's Lab. (Done)
+2. Enter the Lab and speak with Professor Elm. (Done)
+3. Examine all three starter Pokémon. (Done)
+4. Choose a starter Pokémon and nickname it creatively. (In Progress: Cyndaquil received)
 5. Obtain the Pokédex and start the journey west to Route 29.
 
 ## Tile Mechanics
