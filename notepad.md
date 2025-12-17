@@ -1,13 +1,13 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Traverse Route 34 to reach Goldenrod City.
+- **Primary:** Reach Ilex Forest (South).
 - **Secondary:** Check Day-Care on Route 34.
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Day-Care (11_24).
-- **Target:** Route 34 (South).
+- **Location:** Route 34 (11_1).
+- **Target:** Ilex Forest Gatehouse (South).
 
 ## Current Strategy
 - **Plan:** 
