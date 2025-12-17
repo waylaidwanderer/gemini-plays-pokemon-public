@@ -6,14 +6,16 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod City (11_2).
-- **Target:** Route 34 Day-Care.
+- **Location:** Route 34 (11_1).
+- **Target:** Day-Care (South).
 
 ## Current Strategy
 - **Plan:** 
-    1. Head south to Route 34 via the main road.
-    2. Visit Day-Care on Route 34.
-    3. Check for Headbutt Tutor in Ilex Forest/Goldenrod.
+    1. Defeat Officer Keith.
+    2. Continue south to Day-Care.
+    3. Get Odd Egg.
+- **Mechanics:** 
+    - Nighttime: Officers on patrol will battle you.
 - **Completed:** Obtained Bicycle.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
