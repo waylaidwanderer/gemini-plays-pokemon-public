@@ -13,11 +13,11 @@
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
 - **Observed Stock (Clerk 2):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
-- **Action:** Buying 2 Great Balls.
+- **Action:** Selecting quantity (2).
 - **Plan:** 
-    1. Select Great Ball.
-    2. Buy 2 (Total ¥1200).
-    3. Explore left side of room.
+    1. Increment quantity to 2.
+    2. Confirm purchase.
+    3. Close menu and explore left.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
