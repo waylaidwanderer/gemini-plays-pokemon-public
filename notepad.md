@@ -12,8 +12,10 @@
 - WALL: Impassable barrier (trees/ledges).
 - GRASS: Potential wild Pokemon encounters.
 
-## Tile Mechanics
-### Global
+### Discovered Locations
+- Route Sign: (51, 7).
+
+## Tile Mechanics (Global)
 - FLOOR: Standard traversable ground.
 - WALL: Impassable barrier.
 - DOOR: Warp tile leading inside/outside.
@@ -40,8 +42,8 @@
 - COOLTRAINER_F (ID 1): Researcher enthusiast at (2, 3).
 
 ### ElmsLab (24_5)
-- PROF_ELM (ID 1): Researcher at (5, 2). 
-- AIDE (ID 2): Gave a Potion for the journey.
+- PROF_ELM (ID 1): Researcher at (5, 2).
+- AIDE (ID 2): Located in the lab.
 
 ## Discovered Locations (New Bark Town 24_4)
 - Player's House: Door (13, 5), Sign (11, 5).
@@ -54,7 +56,6 @@
 - NPCs act as walls; plan paths around them.
 - Buildings are often larger than they appear; check all sides for entrances.
 - Signs identify buildings without entering.
-- Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil chosen. Nickname: Calcifer.
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly to avoid KeyErrors.
 - Exploration: Check building corners and behind counters for unseen tiles.
 - Scripted Events: Some NPCs may move the player during dialogue. Treat the move as a completed interaction unless new dialogue is triggered.
