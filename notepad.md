@@ -4,7 +4,7 @@
 1. Explore New Bark Town to locate Professor Elm's Lab.
 2. Enter the Lab and speak with Professor Elm.
 3. Examine all three starter Pokémon:
-   - Ball 1 (6, 3): Cyndaquil
+   - Ball 1 (6, 3): Cyndaquil (Picking)
    - Ball 2 (7, 3): Totodile
    - Ball 3 (8, 3): Chikorita
 4. Choose a starter Pokémon and nickname it creatively.
