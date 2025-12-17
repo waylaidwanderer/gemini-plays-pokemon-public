@@ -11,10 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** In Battle (Wild Psyduck).
-- **Reasoning:** Encountered while trying to move South to (14, 3).
-- **Hypothesis:** The "blockage" at (14, 3) earlier was likely just a wild encounter triggering.
-- **Plan:** Run from battle. Then attempt to move South to (14, 3) again. If successful, proceed West to explore.
+- **Status:** Exploring West Maze.
+- **Action:** Retrying movement South to (14, 3) after wild battle.
+- **Target:** (11, 4) to reveal unseen tiles.
+- **Hypothesis:** The previous movement failure was due to the wild encounter interrupt.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
