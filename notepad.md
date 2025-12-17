@@ -11,19 +11,16 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 1F.
-- **Action:** Re-ascending to 2F.
-- **Reasoning:** Accidentally walked back down stairs due to movement error.
+- **Status:** Inside Goldenrod Dept. Store 2F.
+- **Action:** Handling phone call from Wade.
 - **Plan:** 
-    1. Go up to 2F.
-    2. Move to (14, 1) carefully.
-    3. Read Directory at (14, 0).
-    4. Check TM selection.
-    5. Continue to upper floors.
+    1. Finish call.
+    2. Move to (14, 1) and read Directory at (14, 0).
+    3. Check TM selection.
+    4. Ascend to 3F.
 - **Notes:**
-    - Game Corner identified at (14, 21).
-    - Unexplored building at (11, 29).
-    - Team healed.
+    - Wade calling about Bug-Catching Contest (again?).
+    - Currently on 2F (Map 11_12).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
