@@ -16,12 +16,12 @@
 - **Pending:** Deliver Mystery Egg to Elm, Get HM01 Cut.
 
 ## Party
-- **GARNET (Quilava)** Lv22 (63/63 HP) | Quick Attack, Leer, Smokescreen, Ember
-- **ROCKY (Onix)** Lv11 (30/30 HP)
-- **UNAKITE (Unown)** Lv5 (20/20 HP)
+- **GARNET (Quilava)** Lv22 (Fully Healed) | Quick Attack, Leer, Smokescreen, Ember
+- **ROCKY (Onix)** Lv11 (Fully Healed)
+- **UNAKITE (Unown)** Lv5 (Fully Healed)
 - **EGG**
-- **TOPAZ (Sentret)** Lv4 (16/16 HP)
-- **AMETHYST (Zubat)** Lv5 (20/20 HP)
+- **TOPAZ (Sentret)** Lv4 (Fully Healed)
+- **AMETHYST (Zubat)** Lv5 (Fully Healed)
 - **PC:** JASPER (Geodude)
 
 ## Location Notes: Azalea Gym
