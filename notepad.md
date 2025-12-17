@@ -11,9 +11,9 @@
 
 ## Current Strategy
 - **Plan:** 
-    1. Exit the menu.
-    2. Hop the ledge to the left to reach the tree-dense area.
-    3. Use Headbutt on trees to find Heracross (Low encounter rate).
+    1. Spam Headbutt on the tree at (23, 11) in Azalea Town (Mountain Group).
+    2. Run from non-Heracross encounters (Spearow/Aipom).
+    3. Catch Heracross when it appears.
     4. Train Rocky and Heracross.
     5. Head North to Goldenrod City to challenge Whitney.
 - **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky.
