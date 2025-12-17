@@ -11,13 +11,13 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34 (Left Lane).
-- **Action:** Stepping Right into (11, 14).
+- **Status:** On Route 34 (Day-Care Area).
+- **Action:** Reading the sign at (10, 13).
 - **Reasoning:** 
-    - The Day-Care House (13, 15) appears walled off from the left (Col 12 wall) and south (Row 21 wall).
-    - The "Warp Carpets" at (11, 14) and (11, 15) are the only apparent access points from this side.
-    - Previous attempt at (11, 15) failed, trying (11, 14).
-- **Contingency:** If this fails, read the sign at (10, 13) and then continue North to Goldenrod.
+    - The warp at (11, 14) didn't work.
+    - The path to the main door (13, 15) is blocked from the South.
+    - Reading the sign might clarify if this is the entrance or exit.
+- **Plan:** Read sign. Then head North via column 9 to Goldenrod City (bypassing or fighting Officer).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
