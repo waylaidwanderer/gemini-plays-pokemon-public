@@ -12,13 +12,12 @@
 
 ## Current Strategy
 - **Status:** Exploring Goldenrod City.
-- **Action:** Investigating the building at (11, 29) (South of Pokemon Center).
-- **Reasoning:** Unmarked warp detected. Could be the Game Corner or a house.
-- **Plan:** Enter building. Then check the Underground entrance (sign nearby). Then head North to Bike Shop.
-- **Notes:**
-    - Day-Care entrance from Route 34 South was blocked.
-    - Wade called about Bug-Catching Contest (National Park).
-    - Team is fully healed.
+- **Action:** Heading North along the main street (Column 18).
+- **Reasoning:**
+    - The building at (11, 29) is inaccessible from the East (blocked by walls).
+    - Need to find a cross street to access the West side of the city.
+    - Heading North to look for Dept Store, Game Corner, and other landmarks.
+- **Plan:** Walk North. Check signs. Locate Bike Shop (likely East) and Gym.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
