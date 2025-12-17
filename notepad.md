@@ -17,6 +17,7 @@
 - **Notes:**
     - Day-Care entrance from Route 34 South was blocked. Checking for city access.
     - Wade called about Bug-Catching Contest (National Park).
+    - Markers defined for NPCs in PC.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
