@@ -13,10 +13,11 @@
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
 - **Observed Stock (Clerk 2):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
-- **Action:** Talking to Gentleman at (2, 6).
+- **Action:** Listening to Gentleman's dialogue.
 - **Plan:** 
-    1. Listen to dialogue.
+    1. Continue dialogue text.
     2. Go up to check Elevator at (2, 0).
+    3. Head to 3F.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
