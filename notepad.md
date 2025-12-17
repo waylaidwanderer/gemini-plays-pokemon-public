@@ -27,7 +27,7 @@
 - **Kurt:** Injured at (16, 14).
 - **Rocket Grunt:** Defeated at (15, 9).
 - **Rocket Girl:** Defeated at (13, 4).
-- **Rocket Grunt:** Fighting at (6, 6).
+- **Rocket Grunt:** Defeated at (6, 6).
 - **Surface:** Gramps at (22, 8).
 
 ## Tile Mechanics
