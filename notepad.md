@@ -12,11 +12,14 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Exploring left side of 5F.
+- **Action:** Going to Roof.
 - **Plan:** 
-    1. Navigate to (2, 2) to find Elevator.
-    2. Mark Elevator at (2, 0).
-    3. Head to Roof via stairs at (15, 0).
+    1. Navigate to stairs at (15, 0).
+    2. Take stairs to Roof.
+    3. Explore Roof (Vending Machines?).
+- **Learned:** 
+    - 5F has TMs (Punch series) and Vitamins.
+    - Elevator is at (2, 0) on all floors so far.
 - **Observed Stock (TM Corner):** TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch). All ¥3000.
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
