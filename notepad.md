@@ -6,21 +6,20 @@
 - **Tertiary:** Collect Charcoal from Charcoal Master.
 
 ## Navigation
-- **Goal:** Exit Ilex Forest to Azalea Town to visit PC.
-- **Path:** South to Exit (3, 42).
+- **Goal:** Heal at Azalea Pokemon Center (15, 9).
+- **Path:** East to PC.
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
 - **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Exit Ilex Forest to Azalea Town.
-2.  Heal at Pokemon Center.
-3.  Withdraw Belladonna (Oddish) from PC.
-4.  Teach Cut to Belladonna.
+1.  Heal at Pokemon Center.
+2.  Withdraw Belladonna (Oddish) from PC.
+3.  Teach Cut to Belladonna.
+4.  Get Charcoal from Charcoal Kiln (21, 13).
 5.  Return to Ilex Forest.
-6.  Get Charcoal from Master (if not obtained).
-7.  Cut tree and proceed North.
+6.  Cut tree and proceed North.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
