@@ -60,4 +60,4 @@
 - Moves opposite to interaction.
 - Can "fly" over obstacles if cornered (e.g. corner loop).
 - Resets on map exit (and possibly battles).
-- **Battle:** Wild Oddish. Plan: Catch it! It can learn Cut (HM01). Using Great Ball if necessary.
+- **Battle:** Wild Oddish. Plan: Switch to Amethyst (Zubat, 4x Res) to tank Absorb and weaken with Leech Life. Topaz is critical (3/16 HP).
