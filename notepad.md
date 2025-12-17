@@ -37,3 +37,13 @@
 - NPCs act as walls; always plan paths around them.
 - Buildings are often larger than they appear; check all sides for entrances.
 - Signs are the best way to identify buildings without entering.
+### ElmsLab (24_5)
+- PROF_ELM (ID 1): Researcher at (3, 4).
+- POKE_BALLs (IDs 3, 4, 5): Contain starter Pokémon at (6, 3), (7, 3), (8, 3).
+
+## Strategy: Choosing a Starter
+1. Agree to help Professor Elm (Select YES).
+2. Examine each of the three Poke Balls on the table.
+3. Choose the best partner (Cyndaquil, Totodile, or Chikorita).
+4. Give it a unique nickname.
+5. Receive the Potion from the aide before leaving.
