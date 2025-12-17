@@ -1,10 +1,16 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Visit Mr. Pokémon
-1. Exit New Bark Town and head west to Route 29.
+1. Exit New Bark Town and head west to Route 29. (Done)
 2. Pass through Cherrygrove City.
 3. Find Mr. Pokémon's house north of Cherrygrove City.
 4. Collect the Mystery Egg and return it to Professor Elm.
+
+## Route 29 (24_3)
+### Tile Mechanics
+- FLOOR: Standard traversable ground.
+- WALL: Impassable barrier (trees/ledges).
+- GRASS: Potential wild Pokemon encounters.
 
 ## Tile Mechanics
 ### Global
