@@ -6,17 +6,17 @@
 - **Tertiary:** Explore Azalea Town.
 
 ## Strategy
-1.  **Navigate to Gym:** Go to the SW corner (approx (7, 14)) to find the entrance.
-2.  **Rival Battle:** Defeat Silver (Totodile, Gastly, Zubat).
-3.  **Challenge Gym:** Defeat Bugsy.
+1.  **Heal:** Restore party health and PP at the Pokemon Center.
+2.  **Acquire HM01 (Cut):** Enter Ilex Forest and locate the charcoal maker's Farfetch'd to earn the HM.
+3.  **Teach Cut:** Teach HM01 to a party member (likely a slave or Oddish/Paras if found) to progress.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
-- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift), Lure Ball.
-- **Pending:** Deliver Mystery Egg to Elm, Bug Contest.
+- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift), TM49 (Fury Cutter), Lure Ball.
+- **Pending:** Deliver Mystery Egg to Elm, Get HM01 Cut.
 
 ## Party
-- **GARNET (Quilava)** Lv19 (55/55 HP) - Fully Healed
+- **GARNET (Quilava)** Lv21 (35/61 HP) | Quick Attack, Leer, Smokescreen, Ember
 - **ROCKY (Onix)** Lv11 (30/30 HP)
 - **UNAKITE (Unown)** Lv5 (20/20 HP)
 - **EGG**
