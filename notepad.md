@@ -6,9 +6,9 @@
 - **Tertiary:** Explore Ilex Forest.
 
 ## Navigation
-- **Location:** Charcoal Kiln (8_2).
-- **Goal:** Talk to Black Belt to get Charcoal.
-- **Path:** North to (2, 4).
+- **Location:** Azalea Town (8_7).
+- **Goal:** Equip Charcoal to Garnet.
+- **Path:** Open Menu -> Pack.
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
