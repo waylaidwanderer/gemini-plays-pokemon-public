@@ -26,8 +26,6 @@
 - MOM (8, 4): Standing in the kitchen area.
 
 ## Strategy & Progress Update
-- Arrived in PlayersHouse1F.
-- Talking to Mom to get the Pokégear.
 - Next: Exit the house and head to Professor Elm's Lab in New Bark Town.
 
 ## New Bark Town Plan
