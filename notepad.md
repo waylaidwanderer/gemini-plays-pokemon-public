@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2738)
-- **Action:** Navigating to (22, 4) to explore North.
-- **Recent:** Escaped Venonat at (22, 6).
-- **Plan:** Explore the loop North-East, then head South towards the Rocker.
+## Status (Turn 2739)
+- **Action:** Retrieving Item Ball at (27, 1).
+- **Recent:** Found gap in ledges at (23, 3).
+- **Plan:** Pick up item, then explore the North-West corner (Row 0-2, Cols 18-21).
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
