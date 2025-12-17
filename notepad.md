@@ -11,9 +11,9 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Entering Goldenrod Pokemon Center.
-- **Action:** Entering the PC at (15, 27).
-- **Plan:** Heal party. Then explore Goldenrod (Dept Store, Game Corner, Gym).
+- **Status:** Inside Goldenrod Pokemon Center.
+- **Action:** Healing Pokemon.
+- **Plan:** Talk to Nurse Joy. Then head out to explore Goldenrod.
 - **Notes:**
     - Day-Care entrance from Route 34 South was blocked. Checking for city access.
     - Wade called about Bug-Catching Contest (National Park).
