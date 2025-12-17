@@ -69,3 +69,4 @@
 - TEACHER (ID 3): Wandering near (15, 11).
 - HM Obstacle: Cut Tree at (21, 11).
 - HM Obstacle: Headbutt Trees at (18, 13)-(21, 13).
+- Barrier at x=13: Wall of trees from y=14 to y=17. Passable via Row 11.
