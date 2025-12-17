@@ -34,6 +34,12 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
-- YOUNGSTER (ID 5): (6, 30) on Route 30.
+- YOUNGSTER (ID 5): (7, 30) on Route 30. Confirmed Mr. Pokémon's house is "a bit farther ahead". (Talked to)
+- Sign at (13, 29): MrPokemonsHouseDirectionsSign.
+## Route 30 Exploration Plan
+1. Talk to Youngster (ID 5) at (7, 30). (Done)
+2. Read Directions Sign at (13, 29).
+3. Talk to Youngster (ID 1) at (5, 26).
+4. Continue north to locate Mr. Pokémon's house.
 - YOUNGSTER (ID 1): (5, 26) on Route 30.
 - YOUNGSTER (ID 5): (7, 30) on Route 30. (Talked to)
