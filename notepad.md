@@ -6,7 +6,7 @@
 - **Tertiary:** Collect Charcoal from Charcoal Master.
 
 ## Navigation
-- **Goal:** Heal at Azalea Pokemon Center (15, 9).
+- **Goal:** Access PC (9, 1) to withdraw Belladonna.
 - **Path:** East to PC.
 
 ## Key Items
@@ -14,12 +14,11 @@
 - **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Heal at Pokemon Center.
-2.  Withdraw Belladonna (Oddish) from PC.
-3.  Teach Cut to Belladonna.
-4.  Get Charcoal from Charcoal Kiln (21, 13).
-5.  Return to Ilex Forest.
-6.  Cut tree and proceed North.
+1.  Withdraw Belladonna (Oddish) from PC.
+2.  Teach Cut to Belladonna.
+3.  Get Charcoal from Charcoal Kiln (21, 13).
+4.  Return to Ilex Forest.
+5.  Cut tree and proceed North.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
@@ -34,11 +33,6 @@
 - **TOPAZ (Sentret)** Lv4
 - **AMETHYST (Zubat)** Lv5
 - **PC:** JASPER (Geodude), BELLADONNA (Oddish)
-
-## Location Notes: Azalea Gatehouse
-- **Warps:** West to Ilex Forest, East to Azalea Town.
-- **NPCs:** Granny (1, 3), Officer (5, 2).
-- **Status:** NPCs consulted. Exiting to Azalea.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
