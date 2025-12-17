@@ -20,9 +20,9 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2735)
-- **Action:** Navigating to (22, 4) to explore North-East.
-- **Recent:** Picked up Antidote at (17, 7).
+## Status (Turn 2738)
+- **Action:** Navigating to (22, 4) to explore North.
+- **Recent:** Escaped Venonat at (22, 6).
 - **Plan:** Explore the loop North-East, then head South towards the Rocker.
 
 ## Inventory Notes
