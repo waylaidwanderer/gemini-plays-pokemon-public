@@ -11,10 +11,9 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Exploring South-West "Dead End" path.
-- **Action:** Walking West from (6, 7) to (2, 7).
-- **Observation:** This appears to be a narrow strip of land between trees and water.
-- **Goal:** Check for hidden items at the end of the path.
+- **Status:** Exiting Ilex Forest.
+- **Action:** Entering the warp at (1, 5), which appears to be the Northern Gatehouse leading to Route 34/Goldenrod.
+- **Next:** Check for Headbutt Tutor in the forest (possibly the "Rocker" seen earlier) after securing the route to the city.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
