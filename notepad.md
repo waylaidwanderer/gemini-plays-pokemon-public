@@ -7,14 +7,15 @@
 
 ## Navigation
 - **Location:** Day-Care (11_24).
-- **Target:** Talk to Day-Care Man (Inside).
+- **Target:** Route 34 (South).
 
 ## Current Strategy
 - **Plan:** 
-    1. Walk to Day-Care Man at (2, 3).
-    2. Talk to him to receive the Odd Egg.
-    3. Exit Day-Care and continue exploring Route 34.
-- **Completed:** Obtained Bicycle, Defeated Officer Keith, Deposited Topaz.
+    1. Exit Day-Care House.
+    2. Explore remaining trainers/items on Route 34.
+    3. Enter Ilex Forest.
+- **Completed:** Obtained Bicycle, Defeated Officer Keith, Deposited Topaz, Received Odd Egg.
+- **Party:** Full (6/6) including Egg.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
