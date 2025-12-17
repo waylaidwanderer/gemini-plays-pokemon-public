@@ -40,4 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Leader Bugsy (Metapod Lv14) - In Progress.
+- **Battle:** Leader Bugsy (Metapod Lv14, Kakuna incoming) - Metapod down. Garnet learned Quick Attack.
