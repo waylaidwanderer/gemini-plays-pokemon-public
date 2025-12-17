@@ -7,8 +7,8 @@
 
 ## Navigation
 - **Location:** Azalea Town (8_7).
-- **Goal:** Equip Charcoal to Garnet.
-- **Path:** Open Menu -> Pack.
+- **Goal:** Return to Ilex Forest.
+- **Path:** West to Gatehouse (2, 10).
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
