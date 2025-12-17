@@ -25,16 +25,16 @@
 
 ## NPCs & Interactions
 ### New Bark Town (24_4)
-- TEACHER (ID 1): Standing near the town sign at (6, 8). Mentions Pokégear.
+- TEACHER (ID 1): Standing near the town sign at (6, 8).
 - FISHER (ID 2): Wandering the southern part of town.
 - RIVAL (ID 3): Peering into the Lab window at (3, 2).
-- MOM (PlayersHouse1F): Provides Pokégear and sets the clock.
+- MOM (PlayersHouse1F): Provides Pokégear.
 
 ### PlayersNeighborsHouse (24_8)
-- COOLTRAINER_F (ID 1): Researcher enthusiast at (2, 3). Mentions Elm's research on evolution.
+- COOLTRAINER_F (ID 1): Researcher enthusiast at (2, 3).
 
 ### ElmsLab (24_5)
-- PROF_ELM (ID 1): Researcher at (5, 2).
+- PROF_ELM (ID 1): Researcher at (5, 2). 
 - AIDE (ID 2): Gave a Potion for the journey.
 
 ## Discovered Locations (New Bark Town 24_4)
