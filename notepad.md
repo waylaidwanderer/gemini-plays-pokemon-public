@@ -21,14 +21,11 @@
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
 - TEACHER (ID 3): (28, 12).
 - YOUNGSTER (ID 4): (22, 7).
-- FISHER (ID 5): (25, 3)? - Verify location.
+- FISHER (ID 5): (25, 3) - Verify location when nearby.
 
 ### Route 30 (26_1)
-- Ledge Barrier: Row 47. Path north appears to be around the eastern end near x=12.
-
-## Obstacles to Verify
-- HM Obstacle: Cut Tree at (21, 11) [Route 29].
-- Tree at (30, 9) [Cherrygrove]: Verify if Cut Tree or decorative.
+- Sign at (9, 43): Route 30.
+- Item at (8, 35).
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
