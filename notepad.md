@@ -13,8 +13,8 @@
 ## Current Strategy
 - **Status:** On Route 34 (In Battle).
 - **Action:** Battling Camper Todd (Psyduck Lv14).
-- **Plan:** Use Quick Attack (Slot 1) because Water resists Fire (Ember).
-- **Reasoning:** Quick Attack (Power 40) > Ember (Power 40 * 1.5 STAB * 0.5 Resist = 30).
+- **Plan:** Use Quick Attack (Slot 1) to finish Psyduck.
+- **Reasoning:** Quick Attack did good damage. Sticking with it.
 - **After Battle:** Continue North to Goldenrod City.
 
 ## Key Items & Progress
