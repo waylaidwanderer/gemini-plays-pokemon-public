@@ -12,9 +12,10 @@
 
 ## Current Strategy
 - **Status:** Inside Route 34 Gatehouse.
-- **Action:** Navigating to (7, 3) to talk to Teacher.
-- **Plan:** Talk to Teacher, then Butterfree. Then exit North to Route 34.
-- **Lore Note:** Lass mentioned the Shrine protector is a Grass-type Pokémon that watches from across time.
+- **Action:** Interacting with Butterfree, then exiting North.
+- **Recent:** Received TM12 (Sweet Scent) from Teacher.
+- **Plan:** Exit to Route 34. Head straight for Goldenrod City to heal and checkpoint.
+- **Note:** TM12 Sweet Scent attracts wild Pokemon.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
