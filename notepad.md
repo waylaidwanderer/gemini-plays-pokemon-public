@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Reflection (Turn 2706)
-- **Status:** Tree cut. Text box needs clearing.
-- **Hygiene:** Notepad cleaned. Map markers managed.
-- **Plan:** Proceed North. Explore potential unseen tiles around (8, 22).
+## Status (Turn 2728)
+- **Action:** Retrieving known item at (9, 17).
+- **Recent:** Escaped wild battle.
+- **Plan:** Pick up item, then head North to explore the Shrine area and beyond.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
