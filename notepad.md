@@ -14,7 +14,7 @@
 - **Status:** Entering Day-Care Area.
 - **Action:** Entering the warp at (11, 14).
 - **Plan:** Explore the Day-Care area. Talk to the Day-Care Man (if present) and Lady.
-- **Notes:** The path to the house door (13, 15) was blocked by a wall, suggesting entrance via the garden.
+- **Notes:** Officer sighted at (9, 11) - likely battles at night.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
