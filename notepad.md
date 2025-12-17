@@ -1,11 +1,10 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Obtain Starter Pokémon
-1. Locate Professor Elm's Lab.
-2. Choose a starter Pokémon and nickname it.
-3. Obtain the Pokédex.
-4. Visit Mr. Pokémon as requested by Professor Elm.
-5. Begin the journey west to Route 29.
+1. Choose a starter Pokémon and nickname it. (In Progress: Cyndaquil received)
+2. Obtain the Pokédex.
+3. Visit Mr. Pokémon as requested by Professor Elm.
+4. Begin the journey west to Route 29.
 
 ## Tile Mechanics
 ### Global
@@ -50,6 +49,5 @@
 - NPCs act as walls; plan paths around them.
 - Buildings are often larger than they appear; check all sides for entrances.
 - Signs identify buildings without entering.
-- Verify NPC coordinates from Game State; do not assume based on visual proximity.
 - Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil chosen. Nickname: Calcifer.
 - Nicknaming: Case toggle at (0,4), DEL at (3,4), END at (6,4). Press Start to jump to END.
