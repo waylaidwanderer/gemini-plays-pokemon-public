@@ -11,10 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34.
-- **Action:** Navigating North from (10, 21).
-- **Plan:** Continue North past the Youngster. Look for the Day-Care or more trainers.
-- **Notes:** Need to heal at Goldenrod PC.
+- **Status:** Entering Day-Care Area.
+- **Action:** Entering the warp at (11, 14).
+- **Plan:** Explore the Day-Care area. Talk to the Day-Care Man (if present) and Lady.
+- **Notes:** The path to the house door (13, 15) was blocked by a wall, suggesting entrance via the garden.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
