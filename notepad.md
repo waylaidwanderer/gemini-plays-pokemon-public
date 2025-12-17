@@ -6,15 +6,14 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Bike Shop (11_4).
+- **Location:** Goldenrod City (11_2).
 - **Target:** Route 34 Day-Care.
 
 ## Current Strategy
 - **Plan:** 
-    1. Exit Bike Shop.
-    2. Head south to Route 34.
-    3. Visit Day-Care.
-    4. Check for Headbutt Tutor in Ilex Forest/Goldenrod.
+    1. Head south to Route 34 via the main road.
+    2. Visit Day-Care on Route 34.
+    3. Check for Headbutt Tutor in Ilex Forest/Goldenrod.
 - **Completed:** Obtained Bicycle.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
