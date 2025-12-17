@@ -12,11 +12,14 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Listening to Bug Catcher.
+- **Action:** Finishing Bug Catcher dialogue.
 - **Plan:** 
-    1. Advance dialogue.
-    2. Check Elevator at (2, 0).
-    3. Head to 5F via stairs at (12, 0).
+    1. Clear text.
+    2. Head to 5F via stairs at (12, 0).
+- **Learned:** 
+    - Rocker (3F): X Special boosts Sp. Atk.
+    - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
+    - Bug Catcher (4F): Iron boosts Defense.
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** 
