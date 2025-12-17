@@ -24,12 +24,14 @@
 - **AMETHYST (Zubat)** Lv5 (20/20 HP)
 - **PC:** JASPER (Geodude)
 
-## Location Notes: Slowpoke Well
-- **Kurt:** Injured at (16, 14).
-- **Rocket Grunt:** Defeated at (15, 9).
-- **Rocket Girl:** Defeated at (13, 4).
-- **Rocket Grunt:** Defeated at (6, 6).
-- **Surface:** Gramps at (22, 8).
+## Location Notes: Azalea Gym
+- **Type:** Bug
+- **Leader:** Bugsy
+- **Entrance:** (4, 15) / (5, 15)
+- **NPCs:** Guide (7, 13), Twins (4, 10), (5, 10).
+
+## Cleared Areas
+- **Slowpoke Well:** Cleared. Kurt rescued.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
