@@ -8,15 +8,18 @@
 
 ## Route 29 (24_3)
 - Started exploration at Turn 129.
-- Current Status: Heading west on Row 10 floor path.
+- Current Status: Heading west along Row 6 northern corridor.
 - Wild Encounters: Pidgey (Lv2).
 - Key Locations:
     - New Bark Town Entrance: (59, 9).
     - Route Sign: (51, 7).
     - Northern Path Gap: (36, 9) floor access.
+    - Northern Floor Path Start: (31, 6).
 - Obstacles:
     - HM Obstacle: Cut Tree at (21, 11) and (30, 9).
     - HM Obstacle: Headbutt Trees at (18, 13)-(21, 13).
+    - Ledge Barrier (Row 10): (28, 10) is LEDGE_HOP_LEFT.
+    - Ledge Barrier (Row 4): (15, 4) is LEDGE_HOP_RIGHT (East only).
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable ground.
@@ -41,8 +44,9 @@
 
 ### Route 29 (24_3)
 - YOUNGSTER (ID 2): (27, 15). Advised to stay out of grass if weak. (Talked to)
-- FISHER (ID 5): (25, 3).
 - TEACHER (ID 3): (15, 11).
+- FISHER (ID 5): (25, 3).
+- COOLTRAINER_M (ID 6): (13, 4).
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
@@ -50,8 +54,9 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
+
 ## Exploration Log
-- Turn 154: (36, 9). Attempting to follow northern path. Row 5 is blocked at x=33.
-- Turn 157: (21, 6). Row 6 blocked by trees at (20, 6).
-- Turn 158: Moving up to Row 4. Row 4 (20, 4) is FLOOR and appears to lead west.
-- Hypothesis: Row 4 provides a continuous path west through tall grass.
+- Turn 154: (36, 9). Attempted Row 5/4 path west.
+- Turn 158: Row 4 blocked by ledge at (15, 4).
+- Turn 159: Dropped to Row 6. Found clear floor path west of x=16.
+- Turn 161: (10, 6). Row 6 corridor confirmed as floor/grass path west. Jumped ledge at (8, 6).
