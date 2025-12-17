@@ -1,1 +1,28 @@
-{}
+{
+  "find_path": {
+    "description": "Finds a path from the player's current position to a target coordinate on the current map using BFS. Returns a list of coordinate dictionaries.",
+    "input_schema": {
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    # Use the global map_xml_string\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # Find player position\n    player_x, player_y = None, None\n    grid = {}\n    objects = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            grid[(x, y)] = tile_type\n            if tile.find('Player') is not None:\n                player_x, player_y = x, y\n            if tile.get('has-object') == 'true':\n                # Only treat objects as walls if they aren't the player\n                if tile.find('Player') is None:\n                    objects.add((x, y))\n\n    if player_x is None:\n        print(\"Error: Player position not found in map XML.\")\n        return\n\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    queue = deque([(player_x, player_y, [])])\n    visited = {(player_x, player_y)}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == target_x and y == target_y:\n            full_path = path + [{'x': x, 'y': y}]\n            print(json.dumps(full_path))\n            return\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                # Collision: WALL, unseen, and objects are impassable\n                if grid.get((nx, ny)) not in ['WALL', 'unseen'] and (nx, ny) not in objects:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [{'x': x, 'y': y}]))\n    \n    print(f\"Error: No path found to ({target_x}, {target_y})\")\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-17T22:12:33.740Z",
+        "action_counter": 34
+      }
+    ]
+  }
+}
