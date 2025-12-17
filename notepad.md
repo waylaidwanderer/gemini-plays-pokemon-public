@@ -61,3 +61,8 @@
 - Turn 159: Dropped to Row 6. Found clear floor path west of x=16.
 - Turn 161: (10, 6). Row 6 corridor confirmed as floor/grass path west. Jumped ledge at (8, 6).
 - Turn 164: (0, 6). Reached western edge of Route 29. Transitioning to Cherrygrove City.
+## Cherrygrove City (26_3)
+- Reached at Turn 164.
+- Status: Exploring.
+- Key Locations:
+    - Route 29 Transition: (39, 6).
