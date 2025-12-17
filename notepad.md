@@ -1,51 +1,38 @@
-# Strategy & Progress
-## Current Plan: Obtain Starter Pokémon
-1. Arrive in New Bark Town. (Done)
-2. Locate Professor Elm's Lab.
-3. Talk to Professor Elm to receive a starter Pokémon.
-4. Obtain the Pokédex.
-5. Head West towards Route 29.
+# Johto Journey: Gem's Log
+
+## Strategic Plan: Obtain Starter Pokémon
+1. Explore New Bark Town to locate Professor Elm's Lab.
+2. Enter the Lab and speak with Professor Elm.
+3. Choose a starter Pokémon and nickname it creatively.
+4. Obtain the Pokédex and start the journey west to Route 29.
 
 ## Tile Mechanics
 ### Global
-- FLOOR: Traversable.
-- WALL: Impassable.
-- DOOR: Warp tile.
-- STAIRCASE: Warp between floors.
-- WATER: Impassable without Surf.
-- HEADBUTT_TREE: Impassable.
-- WARP_CARPET_DOWN: Exit building to overworld.
-
-## Battle Information
-(No battles yet)
+- FLOOR: Standard traversable ground.
+- WALL: Impassable barrier (buildings, fences).
+- DOOR: Warp tile leading inside/outside.
+- STAIRCASE: Warp tile between floors.
+- WATER: Impassable without Surf HM.
+- HEADBUTT_TREE: Impassable small tree.
+- WARP_CARPET_DOWN: Exit tile at the bottom of building interiors.
 
 ## NPCs & Interactions
-### PlayersNeighborsHouse (24_8)
-- COOLTRAINER_F (ID 1): Standing in the house.
-
 ### New Bark Town (24_4)
-- FISHER (ID 2): Wandering the town.
-- TEACHER (ID 1): Standing near the town sign. (7, 8)
+- TEACHER (ID 1): Standing near the town sign at (6, 8). Mentions Pokégear.
+- FISHER (ID 2): Wandering the southern part of town.
+- MOM (PlayersHouse1F): Provides Pokégear and sets the clock.
 
-### PlayersHouse1F (24_6)
-- MOM (7, 4): Sitting at the table. Gave Pokégear.
-- POKEFAN_F (4, 4): Standing in the room.
+### PlayersNeighborsHouse (24_8)
+- COOLTRAINER_F (ID 1): Researcher enthusiast. Mentions Elm's research on evolution.
 
-## New Bark Town (24_4) Points of Interest
+## Discovered Locations (New Bark Town 24_4)
 - Player's House: Door (13, 5), Sign (11, 5).
-- Elm's House (?): Door (11, 13), Sign (9, 13).
+- Elm's House: Door (11, 13), Sign (9, 13).
 - Neighbor's House: Door (3, 11).
 - Town Sign: (8, 8).
-### PlayersNeighborsHouse (24_8)
-- COOLTRAINER_F (ID 1): Standing at (2, 3). Talked to on Turn 47.
-- TV (2, 1): Interactable.
-- TOWN_MAP (3, 0): Interactable.
-- RADIO (7, 1): Interactable.
-- BOOKSHELVES (0, 1), (1, 1): Interactable.
+- Large Building (NE): Walls seen from (7, 2) to (18, 2). Potential Lab location.
 
-## Strategy: Finding the Lab
-1. Talk to Cooltrainer F in neighbor's house.
-2. Exit neighbor's house via warp at (2, 7) or (3, 7).
-3. Search remaining buildings in New Bark Town.
-4. The large building in the northwest or center is the likely candidate.
-5. Enter the lab and speak with Professor Elm.
+## Lessons Learned
+- NPCs act as walls; always plan paths around them.
+- Buildings are often larger than they appear; check all sides for entrances.
+- Signs are the best way to identify buildings without entering.
