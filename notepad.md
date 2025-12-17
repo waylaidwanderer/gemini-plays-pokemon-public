@@ -40,8 +40,8 @@
 - PROF_ELM: ElmsLab (5, 2); gives starter and quest.
 
 ### Route 29 (24_3)
-- COOLTRAINER_M (ID 1): (50, 12). Mentions Pokemon in grass. (Talked to)
 - YOUNGSTER (ID 2): (27, 15). Advised to stay out of grass if weak. (Talked to)
+- FISHER (ID 5): (25, 3).
 - TEACHER (ID 3): (15, 11).
 
 ## Lessons Learned
