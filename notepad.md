@@ -12,12 +12,12 @@
 
 ## Current Strategy
 - **Status:** Exploring Goldenrod City.
-- **Action:** Heading North along the main street (Column 18).
+- **Action:** Backtracking South to Row 26, then heading East.
 - **Reasoning:**
-    - The building at (11, 29) is inaccessible from the East (blocked by walls).
-    - Need to find a cross street to access the West side of the city.
-    - Heading North to look for Dept Store, Game Corner, and other landmarks.
-- **Plan:** Walk North. Check signs. Locate Bike Shop (likely East) and Gym.
+    - Confirmed Game Corner at (14, 21) via map data.
+    - Access to the East side (where Bike Shop likely is) appears to be via the street at Row 26.
+    - Heading East to uncover more map and check for the Bike Shop.
+- **Plan:** Explore East side. Look for Bike Shop. If not found, head North towards Dept Store.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
