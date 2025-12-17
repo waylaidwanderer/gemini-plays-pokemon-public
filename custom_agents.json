@@ -19,5 +19,12 @@
     "agent_system_prompt": "You are a Johto geography expert. Suggest the best route based on the provided map and goals. Keep it concise.",
     "agent_input_schema": "{\"properties\":{\"goals\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"notepad\":{\"type\":\"string\"},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"}},\"required\":[\"map_id\",\"player_x\",\"player_y\",\"goals\",\"notepad\"],\"type\":\"object\"}",
     "agent_output_schema": "{\"properties\":{\"strategy\":{\"type\":\"string\"}},\"required\":[\"strategy\"],\"type\":\"object\"}"
+  },
+  "johto_navigator_v4": {
+    "agent_name": "johto_navigator_v4",
+    "agent_description": "Analyzes map data and goals to suggest navigation strategies.",
+    "agent_system_prompt": "You are a Johto geography expert. Suggest the best route based on the provided map and goals. Keep it concise.",
+    "agent_input_schema": "{\"properties\":{\"goals\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"notepad\":{\"type\":\"string\"},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"}},\"required\":[\"map_id\",\"player_x\",\"player_y\",\"goals\",\"notepad\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"strategy\":{\"type\":\"string\"}},\"required\":[\"strategy\"],\"type\":\"object\"}"
   }
 }
