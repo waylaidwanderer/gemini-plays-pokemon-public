@@ -11,15 +11,14 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store (1F).
-- **Action:** Navigating to the Top-Right corner (15, 1) to look for the elevator or stairs.
+- **Status:** Ascending to Goldenrod Dept. Store 2F.
+- **Action:** Taking the stairs at (15, 0).
 - **Plan:** 
-    1. Find transport to upper floors (Elevator usually in corners).
-    2. Check TM selection (usually on 2F or 3F) and items (5F/Rooftop).
-    3. Exit and go to Bike Shop.
+    1. Check 2F for TMs and items.
+    2. Continue ascending to check all floors (up to Rooftop).
+    3. Look for "Full Heal" or status cure items if available.
+    4. Exit and go to Bike Shop.
 - **Notes:**
-    - Receptionist at (10, 1).
-    - Gentleman at (12, 4) is moving around.
     - Game Corner identified at (14, 21).
     - Unexplored building at (11, 29).
     - Team healed.
