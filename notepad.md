@@ -11,11 +11,10 @@
 
 ## Current Strategy
 - **Plan:** 
-    1. Select "YES" to deposit a Pokemon.
-    2. Choose TOPAZ (Sentret) to leave with the Day-Care Lady.
-    3. Walk to Day-Care Man at (2, 3).
-    4. Talk to him to receive the Odd Egg.
-- **Completed:** Obtained Bicycle, Defeated Officer Keith.
+    1. Walk to Day-Care Man at (2, 3).
+    2. Talk to him to receive the Odd Egg.
+    3. Exit Day-Care and continue exploring Route 34.
+- **Completed:** Obtained Bicycle, Defeated Officer Keith, Deposited Topaz.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
