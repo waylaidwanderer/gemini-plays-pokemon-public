@@ -49,7 +49,8 @@
 ## Tile Mechanics
 - **Headbutt Trees:** Interactable tiles that can spawn Pokémon.
   - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
-  - **Forest Group (No Heracross):** (12,12) (Hoothoot, Pineco).
+  - **Forest Group (No Heracross):** (12,12) (Hoothoot, Pineco). Likely Ilex Forest is all Forest group.
   - **Duds:** (12,15), (12,14), (12,13).
+  - **Test:** Checking (11, 12). If Forest group (Hoothoot/Pineco), move to Azalea Town for Mountain group (Heracross).
 ## PC Storage
 - (Empty - System discrepancy, Pokedex confirms Hoothoot catch)
