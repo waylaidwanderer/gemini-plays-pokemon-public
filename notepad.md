@@ -43,12 +43,14 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Bird fled West to (17, 23) automatically. Player at (21, 24).
-- **Updated Plan:**
-  1. Navigate to (18, 23) (East of Bird).
-  2. Push West to (15, 23) (Corner).
-  3. Push South to (15, 24).
-  4. Herd South down Col 15 to Row 34.
+- **Current Status:** Bird RESET to (15, 25). Player at (18, 23).
+- **Analysis:** The loop maneuver at the top caused a reset or I misunderstood the movement. The bird is confirmed at the start.
+- **Plan (The Straight Push):**
+  1. Move to (15, 24) (Directly North of Bird).
+  2. Push Bird South down Col 15.
+  3. Continue pushing South until the tree at (15, 32).
+  4. At (15, 31), manipulate bird West to Col 14 to bypass the tree.
+  5. Continue South to Row 34.
 - **Next Steps:**
   1. Move North to (21, 23).
   2. Push Bird West from (20, 23) to (19, 23).
