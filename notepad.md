@@ -6,16 +6,15 @@
 - **Tertiary:** Hatch Odd Egg.
 
 ## Navigation
-- **Location:** Ilex Forest Gatehouse (11_23).
-- **Target:** Ilex Forest (Headbutt Tutor).
+- **Location:** Ilex Forest (3_52).
+- **Target:** Find Headbutt Tutor (North-East Area).
 
 ## Current Strategy
 - **Plan:** 
-    1. Enter Ilex Forest.
-    2. Find Headbutt Tutor.
-    3. Learn Headbutt.
-    4. Train Rocky/Team for Whitney.
-    5. Return to Goldenrod.
+    1. Explore the North-East path of Ilex Forest (East of the northern entrance).
+    2. Locate the Headbutt Tutor (NPC).
+    3. Learn Headbutt (TM02).
+    4. Head South towards Azalea Town if needed, or return to Goldenrod to challenge Whitney.
 - **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg.
 - **Party:** Full (6/6) including Egg.
 - **Learned:** 
