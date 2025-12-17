@@ -17,7 +17,13 @@
     4. Train Rocky and Heracross.
     5. Head North to Goldenrod City to challenge Whitney.
 - **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky.
-- **Party:** Full (6/6) including Egg.
+- **Party:**
+    - **ROCKY (Onix)** Lv12
+    - **GARNET (Quilava)** Lv24
+    - **TOGEPI** Lv6
+    - **AMETHYST (Zubat)** Lv5
+    - **BELLADONNA (Oddish)** Lv5
+    - **EGG (Tyrogue)** Lv5
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
