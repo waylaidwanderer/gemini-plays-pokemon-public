@@ -11,11 +11,14 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34 (In Battle).
-- **Action:** Battling Camper Todd (Psyduck Lv14).
-- **Plan:** Use Quick Attack (Slot 1) to finish Psyduck.
-- **Reasoning:** Psyduck is in red HP. One more hit should do it.
-- **After Battle:** Continue North to Goldenrod City.
+- **Status:** On Route 34 (Heading North).
+- **Action:** Navigating North to Goldenrod City.
+- **Recent:** Defeated Camper Todd (Psyduck Lv14).
+- **Plan:** Enter Goldenrod City. Heal at PC.
+- **Notes:** 
+    - Day-Care entrance from Route 34 (South) seems inaccessible or tricky. Warps failed.
+    - Will try to access Day-Care from the North or check if the main door is elsewhere.
+    - Wade called about Bug-Catching Contest.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
