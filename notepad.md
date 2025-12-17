@@ -61,4 +61,5 @@
     - Ilex (12,12), (11,12): Forest Group.
     - Azalea (24, 11), (25, 11), (26, 11): Mountain Group (Heracross Possible).
   - **Duds:** Ilex (12,15), (12,14), (12,13).
-  - **Farming Positions:** (23, 11) [Left] and (24, 10) [Top]. Rotate to avoid system warnings.
+  - **Farming Strategy:** Rotate between trees at (24,11), (25,11), and (26,11) to avoid anti-loop system warnings.
+  - **Farming Positions:** (23, 11) [Left], (24, 10) [Top], (25, 10) [Top], (26, 10) [Top].
