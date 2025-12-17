@@ -23,8 +23,10 @@
 ## Status (Turn 2752)
 - **Action:** Battling Youngster Wayne.
 - **Location:** (13, 1).
-- **Observation:** Youngster is at (12, 1), which appears to be a dead end surrounded by walls/trees. He is not blocking a path West.
-- **Plan:** Win battle. Then investigate the blockage South of (14, 2) again, as that is the likely path forward.
+- **Observation:** Youngster is at (12, 1).
+- **Plan:** Use Ember (Slot 4) to defeat Ledyba.
+- **Battle State:** Opponent: Ledyba Lv8. Me: Quilava Lv22.
+- **Note:** After battle, verify if path West is possible or if I need to go back South.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
