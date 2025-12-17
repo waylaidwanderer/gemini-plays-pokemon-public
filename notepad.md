@@ -17,11 +17,13 @@
     1. Scroll down to see if Great Balls or Revives are sold here.
     2. If not, check Clerk 2.
     3. Buy necessary items.
-- **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal...
+- **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening...
     4. Continue ascending.
 - **Notes:**
     - Directory confirmed: "2F TRAINER'S MARKET".
     - Two Clerks present. Clerk 1 at (13, 5), Clerk 2 at (13, 6).
+    - **Shop Inventory:**
+        - **Goldenrod 2F (Clerk 1):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250)...
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
