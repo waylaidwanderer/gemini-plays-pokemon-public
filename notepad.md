@@ -20,12 +20,15 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2753)
-- **Action:** Battling Youngster Wayne (Paras).
+## Status (Turn 2754)
+- **Action:** Battling Youngster Wayne (Paras #2).
 - **Location:** (13, 1).
-- **Plan:** Use Ember to defeat Paras.
-- **Pathing Issue:** Movement South at (14, 2) -> (14, 3) failed previously. After battle, inspect (14, 3) for invisible obstacles or interactables.
-- **Map Note:** (12, 1) appears to be a dead end. (10, 1) appears isolated? Possible map alignment error in mental model.
+- **Plan:** Use Ember to defeat the second Paras.
+- **Pathing Analysis:**
+    - I am at (13, 1). Youngster at (12, 1).
+    - Movement South from (14, 2) was blocked.
+    - (12, 0) appears to be a tree (blocked).
+    - Need to re-evaluate path West. It might require going back East and finding a different route South, or checking if (14, 3) is interactable (Cut tree?).
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
