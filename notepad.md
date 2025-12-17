@@ -40,4 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet Lv22 vs Croconaw. Plan: Smokescreen.
+- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet used Smokescreen (Acc -1). Croconaw missed. Plan: Smokescreen again.
