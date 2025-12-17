@@ -11,10 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Entering Day-Care.
-- **Action:** Stepping Left to (10, 15) then Right to (11, 15) to trigger the warp.
-- **Reasoning:** Warp didn't trigger on first entry. Re-entering from the Left might work.
-- **Plan:** If this fails, investigate the door at (13, 15) by going back to the main road.
+- **Status:** Backtracking on Route 34.
+- **Action:** Navigating South to (11, 22) to cross the median.
+- **Reasoning:** The warps at (11, 14/15) appear to be exits from the Garden. The main entrance is likely at (13, 15) in the right lane.
+- **Plan:** Cross to the right lane, then head North to the Day-Care House door.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
