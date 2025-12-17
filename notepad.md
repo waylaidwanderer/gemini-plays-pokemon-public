@@ -43,4 +43,4 @@
 - **WARP_CARPET_RIGHT:** Warps when stepped on or walked right into.
 - **Observation:** Farfetch'd is present in the Charcoal Kiln (returned successfully).
 - **Strategy Change:** Returning to Azalea Town to buy Poké Balls before entering Ilex Forest (Current stock: 0).
-- **Hypothesis:** Azalea Mart is located East of the Pokemon Center (unexplored area).
+- **Hypothesis:** Azalea Mart is located North of the Charcoal Kiln in the unseen area (around 21, 5).
