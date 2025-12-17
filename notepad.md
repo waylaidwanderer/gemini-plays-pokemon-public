@@ -66,3 +66,4 @@
 - Status: Exploring.
 - Key Locations:
     - Route 29 Transition: (39, 6).
+- GRAMPS (ID 1): Offered a tour of Cherrygrove City at (32, 6). (Accepted tour)
