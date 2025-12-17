@@ -164,7 +164,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\ndirection = input_data.get(\"direction\")\n# Sequence:\n# 1. Face direction and Interact (Open \"Want to Headbutt?\" prompt)\n# 2. Sleep to let window open\n# 3. 'A' to select YES\n# 4. Sleep to let \"Rocky used Headbutt\" animation play\n# 5. 'B' to advance text or close dialogue. 'B' is safer than 'A' as it won't select 'FIGHT' if a battle starts.\nbuttons = [direction, \"A\", \"sleep 500\", \"A\", \"sleep 2000\", \"B\", \"sleep 500\", \"B\"]\nprint(json.dumps(buttons))",
+    "python_script": "import json\ndirection = input_data.get(\"direction\")\n# Sequence:\n# 1. Face direction and Interact\n# 2. 'A' to fast forward text / ensure menu open\n# 3. 'A' to select YES\n# 4. Wait for animation\n# 5. 'B' to advance result text\nbuttons = [direction, \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 2500\", \"B\", \"sleep 500\", \"B\"]\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -175,6 +175,11 @@
         "commit_message": "Updated button sequence to use 'B' instead of 'A' for advancing text after headbutt animation. This prevents accidental selection of 'FIGHT' when a battle starts.",
         "timestamp": "2025-12-17T13:54:06.246Z",
         "action_counter": 3333
+      },
+      {
+        "commit_message": "Added an extra 'A' press to the sequence to ensure the 'Want to Headbutt' text is fast-forwarded and YES is selected reliably. Previous version was likely getting stuck on text scrolling and then cancelling with 'B'.",
+        "timestamp": "2025-12-17T14:00:40.365Z",
+        "action_counter": 3342
       }
     ]
   }
