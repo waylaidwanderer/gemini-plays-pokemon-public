@@ -29,6 +29,7 @@
 - YOUNGSTER (ID 5): (7, 30). Confirmed Mr. Pokémon's house is "a bit farther ahead".
 - Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!".
 - YOUNGSTER (ID 1): (5, 26).
+- YOUNGSTER (ID 5): (7, 30). (Talked to)
 
 ## Obstacles & Verification
 - HM Obstacle: Cut Tree at (21, 11) [Route 29].
@@ -41,3 +42,5 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
+- Ledges: Strictly one-way. Jumping simulates moving two tiles (onto the tile after the ledge).
+- Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.

@@ -26,5 +26,12 @@
     "agent_system_prompt": "You are a Johto geography expert. Suggest the best route based on the provided map and goals. Keep it concise.",
     "agent_input_schema": "{\"properties\":{\"goals\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"notepad\":{\"type\":\"string\"},\"player_x\":{\"type\":\"integer\"},\"player_y\":{\"type\":\"integer\"}},\"required\":[\"map_id\",\"player_x\",\"player_y\",\"goals\",\"notepad\"],\"type\":\"object\"}",
     "agent_output_schema": "{\"properties\":{\"strategy\":{\"type\":\"string\"}},\"required\":[\"strategy\"],\"type\":\"object\"}"
+  },
+  "simple_strategist": {
+    "agent_name": "simple_strategist",
+    "agent_description": "Provides high-level strategy and identifies the next major objective.",
+    "agent_system_prompt": "You are Gem's strategist. Based on the notepad and current goals, provide a concise strategy and the next major objective.",
+    "agent_input_schema": "{\"properties\":{\"goals\":{\"type\":\"string\"},\"notepad\":{\"type\":\"string\"}},\"required\":[\"goals\",\"notepad\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"next_objective\":{\"type\":\"string\"},\"strategy\":{\"type\":\"string\"}},\"required\":[\"strategy\",\"next_objective\"],\"type\":\"object\"}"
   }
 }
