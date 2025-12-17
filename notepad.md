@@ -31,10 +31,10 @@
 - YOUNGSTER (ID 1): (5, 26).
 - YOUNGSTER (ID 5): (7, 30). (Talked to)
 
-## Obstacles & Verification
-- HM Obstacle: Cut Tree at (21, 11) [Route 29].
-- Verification: Tree at (30, 9) [Cherrygrove] - Cut Tree or decorative?
-- Verification: Fisher location on Route 29 (Turn 156).
+## Verification List
+- Route 29 (24_3): Verify Fisher location near (25, 3).
+- Route 29 (24_3): Verify Cut Tree at (21, 11).
+- Cherrygrove (26_3): Verify tree at (30, 9) (Cut Tree vs decorative).
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
@@ -42,5 +42,7 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
+- Ledges: Strictly one-way. Jumping simulates moving two tiles (onto the tile after the ledge).
+- Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
 - Ledges: Strictly one-way. Jumping simulates moving two tiles (onto the tile after the ledge).
 - Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
