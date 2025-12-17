@@ -42,10 +42,9 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Positioned North of Bird at (15, 24). Bird at (15, 25).
-- **Action:** Push Bird South.
-- **Expectation:** Bird moves South down the corridor (Col 15).
-- **Next Step:** Follow Bird South to Row 34. Then herd West through the gap.
+- **Current Status:** Interacted from North at (15, 24). Text open.
+- **Expectation:** Bird moves South to (15, 26).
+- **Next Step:** Close text, follow South.
 
 ## Reflection Log (Turn 2445)
 - **Execution:** No major deferrals. Sticking to "Col 14 Shift" plan.
