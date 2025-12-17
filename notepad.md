@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2743)
-- **Action:** Picking up Item Ball at (27, 1).
-- **Recent:** Arrived at item location.
-- **Plan:** After pickup, traverse West along Row 0 to explore the unseen area starting at (17, 0).
+## Status (Turn 2744)
+- **Action:** Navigating West along Row 0 towards (17, 0).
+- **Recent:** Picked up Ether at (27, 1).
+- **Plan:** Continue West to reveal unseen tiles and look for a path South to the Rocker.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
