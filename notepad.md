@@ -12,12 +12,12 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F (Medicine Box).
-- **Action:** Talking to Clerk at (13, 5).
+- **Action:** Browsing Medicine Box inventory.
 - **Plan:** 
-    1. Interact with Clerk (Down).
-    2. Check inventory (Vitamins).
-    3. Explore left side of floor.
-    4. Head to 5F.
+    1. Scroll through list (Protein, Calcium, etc.).
+    2. Record prices.
+    3. Exit shop (likely too expensive).
+    4. Explore left side of floor (Columns 0-8).
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
