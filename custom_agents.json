@@ -1,9 +1,1 @@
-{
-  "strategy_advisor": {
-    "agent_name": "strategy_advisor",
-    "agent_description": "Analyzes game state, NPC dialogue, and goals to provide strategic recommendations.",
-    "agent_system_prompt": "You are Gem's strategy advisor. Your role is to analyze the current game state, including player info, party, inventory, map data, and NPC dialogue, and suggest the most efficient path forward. You should prioritize primary and secondary goals. Provide specific, actionable steps. Use your knowledge of Pokemon Crystal mechanics to assist Gem.",
-    "agent_input_schema": "{\"properties\":{\"current_goals\":{\"type\":\"string\"},\"game_state\":{\"type\":\"string\"},\"npc_dialogue\":{\"type\":\"string\"}},\"required\":[\"game_state\",\"npc_dialogue\",\"current_goals\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"recommendation\":{\"type\":\"string\"},\"steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"type\":\"object\"}"
-  }
-}
+{}
