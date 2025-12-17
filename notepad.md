@@ -5,8 +5,8 @@
 2. Enter the Lab and speak with Professor Elm. (Done)
 3. Examine all three starter Pokémon:
    - Ball 1 (6, 3): Cyndaquil (Seen)
-   - Ball 2 (7, 3): Totodile (Next)
-   - Ball 3 (8, 3): Chikorita
+   - Ball 2 (7, 3): Totodile (Seen)
+   - Ball 3 (8, 3): Chikorita (Next)
 4. Choose a starter Pokémon and nickname it creatively.
 5. Obtain the Pokédex and start the journey west to Route 29.
 
