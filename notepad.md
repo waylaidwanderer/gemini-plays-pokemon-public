@@ -43,7 +43,7 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Executing strategy. Interacting with Farfetch'd at (15, 25) from North to push it South towards Row 28.
+- **Current Status:** Interacted with Farfetch'd at (15, 25) from North. Text is open. Clearing to observe movement South.
 - **Strategy:** Position North at (15, 24) to push Farfetch'd South to Row 28. Then flank East to push it West towards the Apprentice.
 - **Goal:** Herd to Apprentice at (7, 28).
 
