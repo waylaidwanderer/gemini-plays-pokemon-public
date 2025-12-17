@@ -1,29 +1,25 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Traverse Ilex Forest to reach Goldenrod City.
-- **Secondary:** Find Headbutt Tutor.
-- **Tertiary:** Explore Ilex Forest for hidden items.
+- **Primary:** Traverse Route 34 to reach Goldenrod City.
+- **Secondary:** Check Day-Care on Route 34.
+- **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Ilex Forest (3_52), West side.
-- **Current Action:** Investigating blockage at (14, 3).
-- **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
+- **Location:** Route 34 (11_1).
+- **Current Action:** Battling Youngster Ian.
+- **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34 (In Battle).
-- **Action:** Battling Youngster Ian (Mankey Lv10).
-- **Plan:** Use Ember (Slot 4) to defeat Mankey.
-- **After Battle:**
-    - Try to find a way to the Day-Care front door (Right lane).
-    - Check columns 16-19 for a gap in the wall at Row 21.
-    - If blocked, try the Left lane warp (11, 15) again or head North to Goldenrod.
+- **Status:** In Battle (Youngster Ian).
+- **Opponent:** Defeated Mankey. Sending out Diglett.
+- **Action:** Reject switch. Defeat Diglett with Garnet.
+- **Plan:** After battle, cross to right lane at Row 22, go North to Day-Care.
 
-## Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as wall from North.
-- **LEDGE_HOP_LEFT:** One-way Left.
-- **LEDGE_HOP_DOWN:** One-way Down.
-- **WARP_CARPET_RIGHT:** Warps when stepped on or walked right into.
+## Battle Notes
+- **Snubbull:** Normal type in Gen 2 (Not Fairy).
+- **Diglett:** Ground type. Weak to Water, Grass, Ice. Neutral to Fire. Hts Fire for SE damage.
+- **Battle Loop:** Previous confusion about "looping" battles was likely due to phone calls interrupting the "Run" sequence.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
@@ -32,7 +28,7 @@
 - **Farfetch'd Quest:** Completed.
 
 ## Party
-- **GARNET (Quilava)** Lv22
+- **GARNET (Quilava)** Lv23
 - **ROCKY (Onix)** Lv11
 - **UNAKITE (Unown)** Lv5
 - **TOGEPI** Lv5
