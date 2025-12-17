@@ -48,8 +48,8 @@
 - **AMETHYST (Zubat)** Lv5
 ## Tile Mechanics
 - **Headbutt Trees:** Interactable tiles that can spawn Pokémon.
-  - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn). Valid trees don't guarantee an encounter every time (RNG).
-  - Duds: (12,15), (12,14), (12,13).
-  - Valid: (12,12) (Yielded Hoothoot).
+  - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
+  - **Forest Group (No Heracross):** (12,12) (Hoothoot, Pineco).
+  - **Duds:** (12,15), (12,14), (12,13).
 ## PC Storage
 - (Empty - System discrepancy, Pokedex confirms Hoothoot catch)
