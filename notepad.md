@@ -11,14 +11,11 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** In Battle (Youngster Ian).
-- **Opponent:** Diglett (Lv12).
-- **Action:** Using Ember (or Quick Attack) to defeat Diglett.
-- **Plan:** After battle, move Right from (11, 22) to cross the median, then head North to Day-Care House (13, 15).
-
-## Battle Notes
-- **Diglett:** Ground type. Ember should kill due to level difference (23 vs 12).
-- **Cursor Logic:** Assuming cursor remembered Ember position (Slot 4). If it reset to 1, Quick Attack will be used, which is also fine.
+- **Status:** On Route 34.
+- **Action:** Navigating to Day-Care House entrance (13, 15).
+- **Reasoning:** Defeated Youngster Ian. Path to Day-Care is now accessible by crossing the median at Row 22.
+- **Plan:** Enter Day-Care, talk to NPCs, then continue North to Goldenrod.
+- **Recent:** Defeated Youngster Ian (Mankey, Diglett). Garnet grew to Level 23.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
