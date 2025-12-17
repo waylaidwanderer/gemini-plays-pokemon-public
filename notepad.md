@@ -22,8 +22,14 @@
 ## NPCs & Interactions
 ### New Bark Town (24_4)
 - FISHER (ID 2): Wandering the town.
-- TEACHER (ID 1): Standing near the town sign.
+- TEACHER (ID 1): Standing near the town sign. (7, 8)
 
 ### PlayersHouse1F (24_6)
 - MOM (7, 4): Sitting at the table. Gave Pokégear.
 - POKEFAN_F (4, 4): Standing in the room.
+
+## New Bark Town (24_4) Points of Interest
+- Player's House: Door (13, 5), Sign (11, 5).
+- Elm's House (?): Door (11, 13), Sign (9, 13).
+- Unknown Building (Lab?): Door (3, 11).
+- Town Sign: (8, 8).
