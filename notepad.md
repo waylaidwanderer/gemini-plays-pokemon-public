@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Pokemon Center.
-- **Action:** Healing Pokemon.
-- **Plan:** Talk to Nurse Joy. Then head out to explore Goldenrod.
+- **Action:** Marking exits and approaching Nurse Joy.
+- **Plan:** Heal party. Then explore Goldenrod (Dept Store, Game Corner, Gym).
 - **Notes:**
     - Day-Care entrance from Route 34 South was blocked. Checking for city access.
     - Wade called about Bug-Catching Contest (National Park).
