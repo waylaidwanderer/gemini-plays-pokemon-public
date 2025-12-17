@@ -43,13 +43,13 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Bird RESET to (15, 25) (visible in Game State). Player at (18, 23).
-- **Correction:** The "Loop" strategy failed or caused a reset. Returning to "Push South" strategy.
-- **Plan:**
-  1. Clear Wade's call.
-  2. Move to (15, 24) (North of Bird).
-  3. Push South repeatedly to Row 34.
-  4. Navigate through the southern gap.
+- **Current Status:** Wade's call ended. Positioning at (15, 24) to restart "Push South" strategy.
+- **Refined Plan:**
+  1. Push Farfetch'd South from (15, 25) to (15, 29).
+  2. Flank East at Row 29 (move to 16, 29).
+  3. Push West to (14, 29).
+  4. Push South down Col 14 to Row 34 (Gap).
+  5. Push West through Gap to Apprentice.
 - **Strategy:** Position North at (15, 24) to push Farfetch'd South to Row 28. Then flank East to push it West towards the Apprentice.
 - **Goal:** Herd to Apprentice at (7, 28).
 
