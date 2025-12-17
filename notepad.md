@@ -18,23 +18,17 @@
     2. Take stairs to Roof.
     3. Explore Roof (Vending Machines?).
     4. Head back down to exit.
-- **Observed Stock (TM Corner):** TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch). All ¥3000.
-- **Learned:** 
-    - Rocker (3F): X Special boosts Sp. Atk.
-    - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
-    - Bug Catcher (4F): Iron boosts Defense.
-- **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
-- **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
-- **Learned:** 
-    - Rocker (3F): X Special boosts Sp. Atk.
-    - Gameboy Kid (4F): Machoke, Kadabra, Haunter, Graveler evolve by trade.
-- **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
-- **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
-- **Notes:**
-    - Directory confirmed: "2F TRAINER'S MARKET".
-    - Two Clerks present. Clerk 1 at (13, 5), Clerk 2 at (13, 6).
-    - **Shop Inventory:**
-        - **Goldenrod 2F (Clerk 1):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
+## Goldenrod Dept. Store Inventory
+- **2F (Clerk 1 - Medicine):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
+- **2F (Clerk 2 - Items):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
+- **3F (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500), Dire Hit (650), Guard Spec (700), X Accuracy (950).
+- **4F (Medicine Box):** Protein, Iron, Carbos, Calcium, HP Up (All 9800).
+- **5F (TM Corner):** TM33 (Ice Punch), TM41 (ThunderPunch), TM48 (FirePunch) (All 3000).
+
+## Learned Mechanics
+- **X Items:** X Special boosts Sp. Atk (Rocker, 3F). X Speed boosts Speed (Super Nerd, 3F).
+- **Vitamins:** Iron boosts Defense (Bug Catcher, 4F).
+- **Trade Evolutions:** Machoke, Kadabra, Haunter, Graveler (Gameboy Kid, 4F).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
