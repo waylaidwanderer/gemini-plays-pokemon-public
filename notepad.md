@@ -52,6 +52,6 @@
   - **Forest Group (No Heracross):** (12,12), (11,12) (Hoothoot, Pineco). Ilex Forest confirmed as Forest group.
   - **Duds:** (12,15), (12,14), (12,13).
   - **Azalea Town:** Mountain Group confirmed (Spearow found).
-  - **Target:** Tree at (23, 11). Valid for Heracross.
+  - **Target:** Tree at (24, 11) (Stand at 23, 11). Valid for Heracross.
 ## PC Storage
 - (Empty - System discrepancy, Pokedex confirms Hoothoot catch)
