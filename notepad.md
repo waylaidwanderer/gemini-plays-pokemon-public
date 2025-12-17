@@ -12,12 +12,15 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 6F (Rooftop).
-- **Action:** Talking to Super Nerd at (8, 2).
+- **Action:** Exploring left side of 6F.
 - **Plan:** 
-    1. Listen to dialogue.
-    2. Move to left side to find Elevator (2, 0).
-    3. Reveal unseen tiles at x=0,1.
-    4. Head back down to 5F via stairs at (13, 0) or Elevator.
+    1. Navigate to (2, 2) to check Elevator and reveal unseen tiles.
+    2. Head back down to 5F.
+    3. Leave Dept. Store.
+- **Learned:** 
+    - 6F: Vending Machine drinks heal Pokemon.
+    - 5F has TMs (Punch series) and Vitamins.
+    - Elevator is at (2, 0) on all floors so far.
 ## Goldenrod Dept. Store Inventory
 - **2F (Clerk 1 - Medicine):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
 - **2F (Clerk 2 - Items):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
