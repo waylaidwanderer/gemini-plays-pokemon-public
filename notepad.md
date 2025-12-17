@@ -12,9 +12,10 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Navigating North from (16, 28) after defeating Pokefan Brandon.
-- **Plan:** Continue North to Goldenrod City. Keep an eye out for the Day-Care.
-- **Recent:** Defeated Pokefan Brandon (Snubbull).
+- **Action:** Navigating West to (11, 24) to find a path North past the wall at Row 21.
+- **Observation:** Spotted a Youngster at (11, 20).
+- **Plan:** Find the gap in the wall (likely around col 10-11). Battle Youngster if necessary. Locate Day-Care.
+- **Recent:** Defeated Pokefan Brandon.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
