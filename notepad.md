@@ -12,7 +12,7 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store (1F).
-- **Action:** Locating Stairs/Elevator to check upper floors.
+- **Action:** Exploring the East wall for stairs/elevator.
 - **Plan:** 
     1. Find transport to upper floors.
     2. Check TM selection (usually on 2F or 3F) and items (5F/Rooftop).
