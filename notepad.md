@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2744)
-- **Action:** Navigating West along Row 0 towards (17, 0).
-- **Recent:** Picked up Ether at (27, 1).
-- **Plan:** Continue West to reveal unseen tiles and look for a path South to the Rocker.
+## Status (Turn 2745)
+- **Action:** Navigating to (13, 1) to explore the West maze.
+- **Recent:** Picked up Ether.
+- **Plan:** Zig-zag through the trees on the West side (cols 13-15) to uncover unseen tiles.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
