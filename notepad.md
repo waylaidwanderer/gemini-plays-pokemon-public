@@ -12,16 +12,15 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** Approaching the counter at (13, 3).
+- **Action:** Positioning at (13, 3) to talk to Clerk 1.
 - **Plan:** 
-    1. Talk to Clerk to see TM list.
-    2. Buy useful TMs if affordable (Current Money: ¥1587).
-    3. Ascend to 3F via stairs at (12, 0).
-    4. Continue to Rooftop.
+    1. Talk to Clerk to see stock (likely Potions/Balls).
+    2. If no TMs, head to 3F/4F/5F. TMs are likely on 5F.
+    3. Buy useful items if needed (e.g., Great Balls?).
+    4. Continue ascending.
 - **Notes:**
     - Directory confirmed: "2F TRAINER'S MARKET".
-    - Wade (Bug Catcher) wants a rematch on Route 31. (Ignoring for now).
-    - Currently on 2F (Map 11_12).
+    - Two Clerks present. Clerk 1 at (13, 5), Clerk 2 at (13, 6).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
