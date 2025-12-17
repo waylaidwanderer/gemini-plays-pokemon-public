@@ -42,10 +42,9 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Bird returned. Apprentice dialogue initiated.
-- **Observation:** Apprentice mentioned lacking a Badge to control the bird.
-- **Action:** Interact again to trigger HM01 reward dialogue.
-- **Contingency:** If Apprentice repeats dialogue without item, talk to Black Belt at (5, 28) (Possible Boss?).
+- **Current Status:** Bird returned. Apprentice dialogue exhausted (no item).
+- **Hypothesis:** The "Black Belt" at (5, 28) is the Boss (Charcoal Master).
+- **Action:** Talk to the Black Belt to receive HM01.
 - **Next Steps:**
     1.  Get HM01 (Cut).
     2.  Return to Azalea Town Pokemon Center.
