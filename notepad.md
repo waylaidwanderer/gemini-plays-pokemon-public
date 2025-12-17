@@ -70,3 +70,6 @@
 - HM Obstacle: Cut Tree at (21, 11).
 - HM Obstacle: Headbutt Trees at (18, 13)-(21, 13).
 - Barrier at x=13: Wall of trees from y=14 to y=17. Passable via Row 11.
+- Ledge Barrier: (14, 13)-(17, 13) are LEDGE_HOP_DOWN. Cannot move North from Row 14.
+- Route 29 North Path: Passable via x=23 (Row 13 -> Row 11).
+- Route 29 North Path: Passable via x=31 (Row 13 -> Row 11).
