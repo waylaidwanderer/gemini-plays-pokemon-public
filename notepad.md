@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Reading Trainer Tips sign at (13, 33).
-- **Plan:** Head North to Goldenrod City. Check Day-Care on the way.
+- **Action:** Positioning at (13, 34) to read the sign.
+- **Plan:** Read sign, avoid the Youngster's gaze (stay out of column 15), and head North.
 - **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
