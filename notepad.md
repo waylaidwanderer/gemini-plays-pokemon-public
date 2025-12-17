@@ -2,13 +2,23 @@
 
 ## Current Objectives
 - **Primary:** Earn Hive Badge (Azalea Gym).
-- **Secondary:** Collect Apricorns & Prepare for Gym.
-- **Tertiary:** Explore Azalea Town.
+- **Secondary:** Challenge Azalea Gym Leader Bugsy.
+- **Tertiary:** Get Belladonna (Oddish) from PC.
 
-## Strategy
-1.  **Heal:** Restore party health and PP at the Pokemon Center.
-2.  **Acquire HM01 (Cut):** Enter Ilex Forest and locate the charcoal maker's Farfetch'd to earn the HM.
-3.  **Teach Cut:** Teach HM01 to a party member (likely a slave or Oddish/Paras if found) to progress.
+## Navigation
+- **Goal:** Exit Ilex Forest to Azalea Town.
+- **Path:** (8, 34) -> North to (8, 29) -> West to (1, 33) -> South to Exit.
+
+## Key Items
+- **HM01 (Cut):** Obtained!
+
+## Next Steps
+1.  Navigate to (3, 42) via the Western path.
+2.  Exit to Route 34 / Azalea Gatehouse.
+3.  Heal at Azalea Pokemon Center.
+4.  Withdraw Belladonna.
+5.  Teach Cut to Belladonna.
+6.  Challenge Gym.
 
 ## Quest Log
 - **Badges:** Zephyr, Hive (2/8)
