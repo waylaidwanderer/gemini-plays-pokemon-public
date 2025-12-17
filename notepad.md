@@ -50,3 +50,7 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
+## Exploration Log
+- Turn 154: (36, 9). Attempting to follow northern floor path (Row 5/4) west to bypass central barriers.
+- Hypothesis: Row 5/4 provides a continuous path west that drops down to Row 10 near x=18.
+- Test: Use find_path to (0, 10) and follow it.
