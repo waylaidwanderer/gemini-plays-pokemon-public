@@ -39,4 +39,4 @@
 - **LEDGE_HOP_DOWN:** One-way Down.
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
-- **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10).
+- **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
