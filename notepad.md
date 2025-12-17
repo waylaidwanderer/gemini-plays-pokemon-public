@@ -19,11 +19,10 @@
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
 ## Goldenrod Dept. Store Inventory
-- **2F (Clerk 1 - Medicine):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
-- **2F (Clerk 2 - Items):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
-- **3F (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500), Dire Hit (650), Guard Spec (700), X Accuracy (950).
-- **4F (Medicine Box):** Protein, Iron, Carbos, Calcium, HP Up (All 9800).
-- **5F (TM Corner):** TM33 (Ice Punch), TM41 (ThunderPunch), TM48 (FirePunch) (All 3000).
+- **2F:** Medicine (Potion/Antidote/etc) & Items (Balls/Repel/Escape Rope).
+- **3F:** Battle Items (X Speed/Special/Defend/Attack/Accuracy, Dire Hit, Guard Spec).
+- **4F:** Vitamins (Protein, Iron, Carbos, Calcium, HP Up) - 9800 each.
+- **5F:** TMs (Ice/Thunder/Fire Punch) - 3000 each.
 
 ## Learned Mechanics
 - **X Items:** X Special boosts Sp. Atk (Rocker, 3F). X Speed boosts Speed (Super Nerd, 3F).
