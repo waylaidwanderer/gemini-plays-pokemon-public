@@ -12,13 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Opening TM Shop menu.
+- **Action:** Browsing TM list.
 - **Plan:** 
-    1. Press A to talk (retry).
-    2. Check TM list (Punches, Headbutt?).
-    3. Record TMs and prices.
-    4. Explore left side (find Elevator).
-    5. Head to Roof.
+    1. Select "BUY" (A).
+    2. Scroll through list (Headbutt, Punches?).
+    3. Record TMs/prices.
+    4. Exit shop.
+    5. Explore left side.
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
     - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
