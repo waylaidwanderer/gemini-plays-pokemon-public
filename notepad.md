@@ -52,4 +52,7 @@
     - Ilex (12,12), (11,12): Forest Group (Hoothoot/Pineco).
     - Azalea (24, 25, 27, 11): Mountain Group (Heracross/Aipom/Spearow/Ekans).
     - Azalea (26, 11): Dud.
-  - **Farming Strategy:** Rotate between Azalea trees (24-26, 11) to avoid loops.
+  - **Farming Strategy:** Rotate between Azalea trees (24, 25, 27) to avoid loops and "stuck" hallucinations.
+    1. Headbutt a tree 1-3 times.
+    2. If "Nope" or non-Heracross encounter, rotate to next tree.
+    3. Repeat until Heracross is found.
