@@ -2,20 +2,21 @@
 
 ## Current Objectives
 - **Primary:** Defeat Whitney (Goldenrod Gym).
-- **Secondary:** Teach Headbutt to Rocky (Onix).
-- **Tertiary:** Hunt for Heracross in Ilex Forest (Headbutt Trees).
+- **Secondary:** Catch Heracross in Ilex Forest.
+- **Tertiary:** Train Rocky/Heracross for Whitney.
 
 ## Navigation
 - **Location:** Ilex Forest (3_52).
-- **Target:** Goldenrod City (after training/catching).
+- **Target:** Headbutt Trees (Hunting Heracross).
 
 ## Current Strategy
 - **Plan:** 
-    1. Open Pack and teach TM02 (Headbutt) to Rocky.
-    2. Test Headbutt on nearby trees to look for Heracross (Fighting-type destroys Miltank).
-    3. Head North to Goldenrod City.
-    4. Challenge Whitney.
-- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor.
+    1. Exit the menu.
+    2. Hop the ledge to the left to reach the tree-dense area.
+    3. Use Headbutt on trees to find Heracross (Low encounter rate).
+    4. Train Rocky and Heracross.
+    5. Head North to Goldenrod City to challenge Whitney.
+- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky.
 - **Party:** Full (6/6) including Egg.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
