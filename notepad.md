@@ -11,16 +11,16 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Pokemon Center.
-- **Action:** Healing Pokemon (In progress).
+- **Status:** Exiting Goldenrod Pokemon Center.
+- **Action:** Walking South to exit the building.
 - **Plan:** 
-    1. Wait for healing to finish.
-    2. Exit Pokemon Center.
-    3. Explore Goldenrod City (Bike Shop, Dept Store, Radio Tower).
-    4. Train Rocky (Onix) for Whitney's Gym (Rock resists Normal).
+    1. Exit to Goldenrod City.
+    2. Explore key locations: Dept Store (buy TMs/Items), Bike Shop (get Bike), Radio Tower (Quiz), Game Corner.
+    3. Train Rocky (Onix) for Whitney's Gym.
 - **Notes:**
-    - Day-Care entrance from Route 34 South was blocked. Will check North access.
+    - Day-Care entrance from Route 34 South was blocked.
     - Wade called about Bug-Catching Contest (National Park).
+    - Team is fully healed.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
