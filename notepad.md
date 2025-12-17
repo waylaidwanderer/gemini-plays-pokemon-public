@@ -12,9 +12,12 @@
 
 ## Current Strategy
 - **Status:** Backtracking on Route 34.
-- **Action:** Navigating South to (11, 22) to cross the median.
-- **Reasoning:** The warps at (11, 14/15) appear to be exits from the Garden. The main entrance is likely at (13, 15) in the right lane.
-- **Plan:** Cross to the right lane, then head North to the Day-Care House door.
+- **Action:** Navigating South via Column 10 to (11, 22).
+- **Reasoning:**
+    - (11, 16) is a WALL, blocking direct South movement.
+    - Youngster blocks (11, 20).
+    - Median wall gap is at Row 22.
+- **Plan:** Go South to (11, 22), cross to right lane, then head North to Day-Care House door at (13, 15).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
