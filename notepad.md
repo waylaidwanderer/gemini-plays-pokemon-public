@@ -2,8 +2,8 @@
 
 ## Strategic Plan: Visit Mr. Pokémon
 1. Exit New Bark Town and head west to Route 29. (Done)
-2. Pass through Cherrygrove City. (In progress)
-3. Find Mr. Pokémon's house north of Cherrygrove City.
+2. Pass through Cherrygrove City. (Done)
+3. Find Mr. Pokémon's house north of Cherrygrove City on Route 30.
 4. Collect the Mystery Egg and return it to Professor Elm.
 
 ## Tile Mechanics (Verified)
@@ -21,12 +21,7 @@
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
 - TEACHER (ID 3): (28, 12).
 - YOUNGSTER (ID 4): (22, 7).
-- FISHER (ID 5): (25, 3) - Wait, let me re-check this position.
-
-## Exploration Log
-- Turn 164: Reached Cherrygrove City.
-- Turn 172: Received MAP CARD from Gramps.
-- Turn 178: (10, 6). Heading to northern exit at (16, 0) to find Route 30.
+- FISHER (ID 5): (25, 3) - Verify location.
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
