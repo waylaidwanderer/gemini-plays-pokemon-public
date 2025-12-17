@@ -13,8 +13,9 @@
 ## Current Strategy
 - **Status:** On Route 34 (In Battle).
 - **Action:** Battling Pokefan Brandon (Snubbull Lv13).
-- **Plan:** Use Ember (Slot 4) to defeat Snubbull.
-- **Notes:** Need to heal at Goldenrod PC. Snubbull is Normal type in Gen 2.
+- **Plan:** Use Ember (Slot 4) to finish Snubbull.
+- **Battle State:** Snubbull HP Yellow (~40%). Garnet Speed -2 (Scary Face).
+- **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
