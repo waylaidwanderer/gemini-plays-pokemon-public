@@ -12,11 +12,12 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 3F (Battle Collection).
-- **Action:** Talking to Rocker at (2, 6).
+- **Action:** Positioning to talk to Clerk at (6, 1).
 - **Plan:** 
-    1. Listen to Rocker's dialogue.
-    2. Check Clerk's inventory at (6, 1).
-    3. Explore unseen area on the right (Aisle 3 and beyond).
+    1. Move to (6, 3).
+    2. Talk to Clerk (likely sells Battle Items).
+    3. Explore right side.
+- **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
