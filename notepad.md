@@ -6,18 +6,18 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Dept. Store 5F (11_15).
-- **Current Action:** Talking to Twin at (9, 1).
+- **Location:** Goldenrod Dept. Store 6F (11_16).
+- **Current Action:** Exploring Rooftop.
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Going to Roof.
+- **Status:** Inside Goldenrod Dept. Store 6F (Rooftop).
+- **Action:** Talking to Super Nerd at (8, 2).
 - **Plan:** 
-    1. Navigate to stairs at (15, 0).
-    2. Take stairs to Roof.
-    3. Explore Roof (Vending Machines?).
-    4. Head back down to exit.
+    1. Talk to Super Nerd.
+    2. Explore left side (check Elevator at 2, 0).
+    3. Head back down to 5F.
+    4. Leave Dept. Store.
 ## Goldenrod Dept. Store Inventory
 - **2F (Clerk 1 - Medicine):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
 - **2F (Clerk 2 - Items):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
