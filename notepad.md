@@ -12,11 +12,12 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Closing shop dialogue.
+- **Action:** Exploring left side of 4F.
 - **Plan:** 
-    1. Clear "Please come again!" text.
-    2. Move to x=8 to reveal unseen tiles.
-    3. Head to 5F.
+    1. Navigate to (8, 3) to reveal unseen area.
+    2. Check for items or NPCs.
+    3. Talk to Cooltrainer M at (11, 7).
+    4. Head to 5F.
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
