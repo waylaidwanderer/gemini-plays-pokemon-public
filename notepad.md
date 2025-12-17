@@ -6,17 +6,18 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Dept. Store 2F (11_12).
-- **Current Action:** Buying items from Clerk 2.
+- **Location:** Goldenrod Dept. Store 4F (11_14).
+- **Current Action:** Checking Medicine Box inventory.
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 3F (Battle Collection).
-- **Action:** Exploring right side of 3F.
+- **Status:** Inside Goldenrod Dept. Store 4F (Medicine Box).
+- **Action:** Talking to Clerk at (13, 5).
 - **Plan:** 
-    1. Move to (12, 3) to reveal unseen area.
-    2. Check for TMs or other items.
-    3. Find stairs to 4F.
+    1. Interact with Clerk (Down).
+    2. Check inventory (Vitamins).
+    3. Explore left side of floor.
+    4. Head to 5F.
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
