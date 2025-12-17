@@ -52,7 +52,7 @@
     - Ilex (12,12), (11,12): Forest Group (Hoothoot/Pineco).
     - Azalea (24, 11): Mountain Group (Confirmed: Spearow, Aipom).
     - Azalea (25, 11): Mountain Group (Confirmed: Spearow).
-    - Azalea (27, 11): To be verified.
+    - Azalea (27, 11): Mountain Group (Confirmed: Aipom).
     - Azalea (26, 11): Dud.
   - **Farming Strategy:** Rotate between Azalea trees (24, 25, 27) to avoid loops and "stuck" hallucinations.
     1. Headbutt a tree 1-3 times.
