@@ -12,11 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 6F (Rooftop).
-- **Action:** Exploring left side of 6F.
+- **Action:** taking Elevator to 1F.
 - **Plan:** 
-    1. Navigate to (2, 2) to check Elevator and reveal unseen tiles.
-    2. Head back down to 5F.
-    3. Leave Dept. Store.
+    1. Enter Elevator at (2, 0).
+    2. Go to 1F.
+    3. Exit Dept. Store.
+    4. Heal at Center? (No, team is fine).
+    5. Head to Route 34 Day-Care.
 - **Learned:** 
     - 6F: Vending Machine drinks heal Pokemon.
     - 5F has TMs (Punch series) and Vitamins.
