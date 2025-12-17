@@ -60,9 +60,9 @@
 - Moves opposite to interaction.
 - Can "fly" over obstacles if cornered (e.g. corner loop).
 - Resets on map exit (and possibly battles).
-- **Battle:** Wild Oddish. Plan: Switch to Amethyst (Zubat, 4x Res) to tank Absorb and weaken with Leech Life. Topaz is critical (3/16 HP).
-## Reflection Log (Turn 2498)
-- **Execution:** Immediate response to battle.
-- **Hygiene:** Notepad is clean. Farfetch'd notes updated.
-- **Strategy:** Manual herding is best. Built-in pathfinding struggles with complex forest obstacles.
-- **Lesson:** Farfetch'd slides along walls; pushing into a wall forces it to seek the nearest open tile, often disrupting the plan. Flanking requires wide berths.
+- **Info:** Oddish caught (sent to PC). Nickname: BELLADONNA.
+- **Task:** Retrieve Oddish from PC after getting HM01.
+## Puzzle Status: Farfetch'd Herding
+- **Current Status:** Resuming pursuit West along Row 29 after battle.
+- **Note:** Verify if battle reset the bird's position.
+- **Goal:** Re-acquire visual on Bird (likely between x=15 and x=18 on Row 29).
