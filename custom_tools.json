@@ -1,49 +1,4 @@
 {
-  "attempt_headbutt": {
-    "description": "Interacts with a Headbutt tree in the specified direction and automatically selects 'YES' to trigger a potential encounter. Uses 'B' to advance text safely to avoid accidental 'FIGHT' selection.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "description": "The direction of the tree relative to the player."
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically."
-        }
-      },
-      "required": [
-        "direction",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\ndirection = input_data.get(\"direction\")\n# Sequence:\n# 1. Face direction and Interact\n# 2. 'A' to fast forward text / ensure menu open\n# 3. 'A' to select YES\n# 4. Wait for animation\n# 5. 'B' to advance result text\nbuttons = [direction, \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 2500\", \"B\", \"sleep 500\", \"B\"]\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-17T13:33:52.455Z",
-        "action_counter": 3301
-      },
-      {
-        "commit_message": "Updated button sequence to use 'B' instead of 'A' for advancing text after headbutt animation. This prevents accidental selection of 'FIGHT' when a battle starts.",
-        "timestamp": "2025-12-17T13:54:06.246Z",
-        "action_counter": 3333
-      },
-      {
-        "commit_message": "Added an extra 'A' press to the sequence to ensure the 'Want to Headbutt' text is fast-forwarded and YES is selected reliably. Previous version was likely getting stuck on text scrolling and then cancelling with 'B'.",
-        "timestamp": "2025-12-17T14:00:40.365Z",
-        "action_counter": 3342
-      }
-    ]
-  },
   "flee_battle": {
     "description": "Automates fleeing from a wild battle. Presses B repeatedly to advance entry text, then navigates to and selects the 'RUN' option. Assumes the cursor starts at 'FIGHT' (Top-Left).",
     "input_schema": {},
