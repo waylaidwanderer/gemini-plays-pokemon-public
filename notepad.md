@@ -45,7 +45,7 @@
 - **Current Status:** Bird at (22, 31). Wall at (21, 31).
 - **Hypothesis:** Pushing West from (23, 31) will force bird to fly over the wall at (21, 31).
 - **Plan:** Navigate to (23, 31) and interact Left.
-- **Backup:** If it refuses, try pushing South into the pocket to reposition.
+- **Backup:** If wall jump fails, push South to (22, 33), then West along Row 33/34 to bypass the central block.
 
 ## Reflection Log (Turn 2445)
 - **Execution:** No major deferrals. Sticking to "Col 14 Shift" plan.
