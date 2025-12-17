@@ -36,3 +36,16 @@
 - Elm's House (?): Door (11, 13), Sign (9, 13).
 - Neighbor's House: Door (3, 11).
 - Town Sign: (8, 8).
+### PlayersNeighborsHouse (24_8)
+- COOLTRAINER_F (ID 1): Standing at (2, 3). Talked to on Turn 47.
+- TV (2, 1): Interactable.
+- TOWN_MAP (3, 0): Interactable.
+- RADIO (7, 1): Interactable.
+- BOOKSHELVES (0, 1), (1, 1): Interactable.
+
+## Strategy: Finding the Lab
+1. Talk to Cooltrainer F in neighbor's house.
+2. Exit neighbor's house via warp at (2, 7) or (3, 7).
+3. Search remaining buildings in New Bark Town.
+4. The large building in the northwest or center is the likely candidate.
+5. Enter the lab and speak with Professor Elm.
