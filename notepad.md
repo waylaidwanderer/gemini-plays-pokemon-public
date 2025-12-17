@@ -11,10 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Entering Day-Care Area.
-- **Action:** Entering the warp at (11, 14).
-- **Plan:** Explore the Day-Care area. Talk to the Day-Care Man (if present) and Lady.
-- **Notes:** Officer sighted at (9, 11) - likely battles at night.
+- **Status:** Entering Day-Care.
+- **Action:** Moving to (11, 15) to attempt warp entry.
+- **Reasoning:** Warp at (11, 14) did not trigger upon landing. Trying the adjacent warp tile.
+- **Plan:** Enter Day-Care. Talk to NPCs. Then continue to Goldenrod.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
