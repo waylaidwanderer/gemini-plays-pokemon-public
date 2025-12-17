@@ -42,14 +42,14 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Interacted from North. Closing text. Expecting Bird -> (15, 30).
-- **Correction:** Cannot flank East at Row 30/31 (Walls).
-- **New Plan:**
-    1.  Push South to (15, 31).
-    2.  Push South again. Bird hits Tree at (15, 32).
-    3.  Bird should deflect West to (14, 31) (since East is Wall).
-    4.  Herd South down Col 14 to Row 34.
-    5.  Herd West through gap at (13, 34).
+- **Current Status:** Bird fled to (14, 32).
+- **Goal:** Herd Bird South to Wall at (14, 36) to deflect West.
+- **Detailed Plan:**
+    1.  Navigate to (14, 31) (North of Bird).
+    2.  Push Bird South to (14, 33), then (14, 34), then (14, 35).
+    3.  Push Bird South from (14, 35).
+    4.  **Expectation:** Bird hits Wall at (14, 36) and deflects West to (13, 35).
+    5.  Follow West through the gap.
 
 ## Reflection Log (Turn 2445)
 - **Execution:** No major deferrals. Sticking to "Col 14 Shift" plan.
