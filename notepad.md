@@ -21,7 +21,6 @@
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
 - TEACHER (ID 3): (28, 12).
 - YOUNGSTER (ID 4): (22, 7).
-- FISHER (ID 5): (25, 3)? - Verify location when nearby.
 
 ### Route 30 (26_1)
 - Sign at (9, 43): Route 30.
@@ -30,6 +29,11 @@
 - YOUNGSTER (ID 5): (7, 30). Confirmed Mr. Pokémon's house is "a bit farther ahead".
 - Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!".
 - YOUNGSTER (ID 1): (5, 26).
+
+## Obstacles & Verification
+- HM Obstacle: Cut Tree at (21, 11) [Route 29].
+- Verification: Tree at (30, 9) [Cherrygrove] - Cut Tree or decorative?
+- Verification: Fisher location on Route 29 (Turn 156).
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
