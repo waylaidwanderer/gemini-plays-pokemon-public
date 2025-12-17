@@ -13,11 +13,12 @@
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
 - **Observed Stock (Clerk 2):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
-- **Action:** Navigating to (8, 3) to explore left area.
+- **Action:** Detouring around Youngster to (8, 3).
 - **Plan:** 
-    1. Move to (8, 3).
-    2. Investigate unseen tiles at (6, 2) and (6, 3).
-    3. Head to 3F via elevator or stairs.
+    1. Stun Youngster at (9, 6) to keep path clear.
+    2. Move around him via (9, 5) to (8, 3).
+    3. Investigate unseen tiles at (6, 2) and (6, 3).
+    4. Head to 3F.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
