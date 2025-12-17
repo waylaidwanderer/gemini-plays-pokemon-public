@@ -11,9 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Exiting Ilex Forest.
-- **Action:** Entering the warp at (1, 5), which appears to be the Northern Gatehouse leading to Route 34/Goldenrod.
-- **Next:** Check for Headbutt Tutor in the forest (possibly the "Rocker" seen earlier) after securing the route to the city.
+- **Status:** Exploring Route 34 Gatehouse.
+- **Action:** Marking exits and preparing to talk to NPCs.
+- **Plan:** Talk to the Lass, Teacher, and check the Butterfree. Then exit North to Route 34.
+- **Note:** Potentially missed Headbutt Tutor (Rocker) in Ilex Forest. Will check if I can return easily or if I should push to Goldenrod first.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
