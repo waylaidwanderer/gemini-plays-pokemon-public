@@ -11,13 +11,12 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 2F.
-- **Observed Stock (Clerk 2):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
-- **Action:** Entering Elevator at (2, 0).
+- **Status:** Inside Goldenrod Dept. Store 3F (Battle Collection).
+- **Action:** Talking to Rocker at (2, 6).
 - **Plan:** 
-    1. Enter elevator.
-    2. Select "3F".
-    3. Explore 3F.
+    1. Listen to Rocker's dialogue.
+    2. Check Clerk's inventory at (6, 1).
+    3. Explore unseen area on the right (Aisle 3 and beyond).
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
