@@ -10,11 +10,10 @@
 - **Current Action:** Investigating blockage at (14, 3).
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
-## Status (Turn 2757)
-- **Recent:** Defeated Youngster Wayne at (12, 1).
-- **Reflection:** Updated goals and markers.
-- **Observation:** (14, 3) appears to be a FLOOR tile but blocked movement previously.
-- **Plan:** Move to (14, 2) and interact South to check for invisible obstacles/items.
+## Status (Turn 2759)
+- **Action:** Going back to talk to Youngster Wayne at (12, 1).
+- **Reasoning:** (14, 3) blocked movement but shows as FLOOR. Investigating if Youngster triggers a change or has a hint.
+- **Plan:** Talk to Youngster. Then retry South movement at (14, 3). If blocked, backtrack East to find another path.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
