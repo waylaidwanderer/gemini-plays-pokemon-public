@@ -1,10 +1,10 @@
 # Johto Journey: Gem's Log
 
-## Strategic Plan: Obtain Starter Pokémon
-1. Choose a starter Pokémon and nickname it. (In Progress: Cyndaquil received)
-2. Obtain the Pokédex.
-3. Visit Mr. Pokémon as requested by Professor Elm.
-4. Begin the journey west to Route 29.
+## Strategic Plan: Progress to Mr. Pokémon
+1. Finish nicknaming Cyndaquil "Calcifer".
+2. Receive the Pokédex and Poké Balls from Professor Elm and his Aide.
+3. Exit New Bark Town and head west to Route 29.
+4. Reach Mr. Pokémon's house to collect the Mystery Egg.
 
 ## Tile Mechanics
 ### Global
