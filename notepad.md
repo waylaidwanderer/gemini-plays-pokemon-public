@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Flanking right (Column 16) to bypass the Lass at (10, 26).
-- **Plan:** Navigate through the tall grass on the right to avoid the trainer's line of sight. Then continue North.
+- **Action:** Flanking right (Column 16) to bypass the Lass at (10, 26) and avoid Pokefan M at (18, 28).
+- **Plan:** Navigate through the tall grass on the right to reach (16, 25). Then continue North.
 - **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
