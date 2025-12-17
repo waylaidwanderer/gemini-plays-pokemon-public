@@ -40,4 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet 42/63 HP. Croconaw Acc Minimized. Quick Attack hit. Rage missed. Plan: Quick Attack again.
+- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet 11/63 HP. Croconaw Acc Minimized (Blind). Croconaw hit with Water Gun (Unlucky!). Plan: Quick Attack to finish him.
