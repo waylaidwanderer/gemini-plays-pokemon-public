@@ -10,10 +10,11 @@
 - **Current Action:** Investigating blockage at (14, 3).
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
-## Status (Turn 2761)
-- **Action:** Abandoning Youngster chat. Navigating South to (14, 4) then West.
-- **Reasoning:** Previous confusion about position (14, 2) vs (14, 3) suggests (14, 3) is traversable.
-- **Plan:** Navigate to (11, 4) to reveal unseen tiles in the West maze.
+## Current Strategy
+- **Status:** In Battle (Wild Psyduck).
+- **Reasoning:** Encountered while trying to move South to (14, 3).
+- **Hypothesis:** The "blockage" at (14, 3) earlier was likely just a wild encounter triggering.
+- **Plan:** Run from battle. Then attempt to move South to (14, 3) again. If successful, proceed West to explore.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
