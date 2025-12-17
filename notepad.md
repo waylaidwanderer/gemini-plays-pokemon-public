@@ -42,15 +42,13 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Bird at (15, 25). Player at (16, 29).
-- **Insight:** Pushing West at Row 29 caused a reset. Row 29 flank is likely invalid.
-- **New Strategy (The Loop & Swap):**
-  1. Push Bird North into the loop (Row 23).
-  2. Chase/Herd it back West to (15, 23).
-  3. At (15, 23), interact from (16, 23) to force it South to (15, 24).
-  4. Move to (15, 23) to get North of the bird.
-  5. Push South to (15, 28), then try Flanking at Row 28 (Col 14 Shift).
-- **Immediate Action:** Navigate to (15, 26) to push Bird North.
+- **Current Status:** Moving to (15, 26) to initiate "Loop & Swap".
+- **Logic:** I cannot get North of the bird at (15, 25) due to walls at (14, 25) and (16, 25).
+- **Plan:**
+  1. Push Bird North to (15, 23).
+  2. Force it East into the loop.
+  3. Chase it back West to (15, 23).
+  4. Flank at (16, 23) to push it South.
 
 ## Reflection Log (Turn 2445)
 - **Execution:** No major deferrals. Sticking to "Col 14 Shift" plan.
