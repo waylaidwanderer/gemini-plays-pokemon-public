@@ -40,6 +40,6 @@
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Rival Silver (Gastly, Croconaw, Zubat) - Defeated.
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
-- **Task:** Herd Farfetch'd to (15, 28) to maneuver it West towards the Youngster.
-- **Current Status:** Pushing Farfetch'd South from (15, 25).
+- **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
+- **Current Status:** Moving to (14, 28) to push Farfetch'd East. Path West is blocked by a wall.
 - **Tip:** Wade called (Turn 2304). He has berries and is waiting on Route 31.
