@@ -27,4 +27,12 @@
 
 ## Strategy & Progress Update
 - Arrived in PlayersHouse1F.
-- Next: Talk to Mom to get the Pokégear and start the journey.
+- Talking to Mom to get the Pokégear.
+- Next: Exit the house and head to Professor Elm's Lab in New Bark Town.
+
+## New Bark Town Plan
+1. Exit player's house.
+2. Locate Professor Elm's Lab (usually a large building).
+3. Talk to Professor Elm to receive a starter Pokémon.
+4. Obtain the Pokédex and other starting items.
+5. Head West towards Route 29.
