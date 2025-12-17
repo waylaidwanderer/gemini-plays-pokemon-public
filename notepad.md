@@ -52,3 +52,4 @@
 - Signs identify buildings without entering.
 - Verify NPC coordinates from Game State; do not assume based on visual proximity.
 - Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil chosen. Nickname: Calcifer.
+- Nicknaming: Case toggle at (0,4), DEL at (3,4), END at (6,4). Press Start to jump to END.
