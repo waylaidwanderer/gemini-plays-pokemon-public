@@ -57,7 +57,7 @@
   - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
   - **Forest Group (No Heracross):** (12,12), (11,12) (Hoothoot, Pineco). Ilex Forest confirmed as Forest group.
   - **Duds:** (12,15), (12,14), (12,13).
-  - **Azalea Town:** Mountain Group confirmed (Spearow found).
+  - **Azalea Town:** Mountain Group confirmed (Spearow, Aipom found).
   - **Target:** Tree at (24, 11).
   - **Farming Positions:** (23, 11) [Left] and (24, 10) [Top]. Rotate to avoid system warnings.
 ## PC Storage
