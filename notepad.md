@@ -11,11 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Inside Route 34 Gatehouse.
-- **Action:** Interacting with Butterfree, then exiting North.
-- **Recent:** Received TM12 (Sweet Scent) from Teacher.
-- **Plan:** Exit to Route 34. Head straight for Goldenrod City to heal and checkpoint.
-- **Note:** TM12 Sweet Scent attracts wild Pokemon.
+- **Status:** Entering Route 34.
+- **Action:** Exiting the Gatehouse to the North.
+- **Plan:** Head North on Route 34 to reach Goldenrod City.
+- **Notes:** Need to check Day-Care on Route 34.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
