@@ -7,14 +7,15 @@
 
 ## Navigation
 - **Location:** Goldenrod Bike Shop (11_4).
-- **Target:** Obtain Bicycle, then Route 34.
+- **Target:** Route 34 Day-Care.
 
 ## Current Strategy
 - **Plan:** 
-    1. Talk to Clerk to get Bicycle.
-    2. Exit Bike Shop.
-    3. Head south to Route 34.
-    4. Visit Day-Care.
+    1. Exit Bike Shop.
+    2. Head south to Route 34.
+    3. Visit Day-Care.
+    4. Check for Headbutt Tutor in Ilex Forest/Goldenrod.
+- **Completed:** Obtained Bicycle.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
