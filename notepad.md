@@ -12,14 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** checking full inventory of TM Corner.
+- **Action:** Exiting TM Corner.
 - **Plan:** 
-    1. Scroll down to verify TM48 and TM33 descriptions.
-    2. Check for other TMs (Headbutt?).
-    3. Record full inventory.
-    4. Exit shop.
-    5. Explore left side.
-- **Observed Stock (TM Corner):** TM41 (ThunderPunch) 3000...
+    1. Clear "Please come again!" text.
+    2. Navigate to (4, 3) to explore left side.
+    3. Locate Elevator at (2, 0).
+    4. Head to Roof via stairs at (15, 0).
+- **Observed Stock (TM Corner):** TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch). All ¥3000.
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
     - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
