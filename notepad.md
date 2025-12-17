@@ -12,12 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Talking to Bug Catcher at (8, 2).
+- **Action:** Listening to Bug Catcher.
 - **Plan:** 
-    1. Stun Bug Catcher.
-    2. Move to (7, 2).
-    3. Talk to Bug Catcher.
-    4. Head to 5F via stairs at (12, 0).
+    1. Advance dialogue.
+    2. Check Elevator at (2, 0).
+    3. Head to 5F via stairs at (12, 0).
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** 
