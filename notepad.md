@@ -46,8 +46,8 @@
 - **TOGEPI** Lv5
 - **TOPAZ (Sentret)** Lv4
 - **AMETHYST (Zubat)** Lv5
-- **Headbutt Mechanics:** Trees seem to be consistently "encounter" or "no encounter".
-  - Empty: (12,15), (12,14), (12,13).
-  - Encounter: (12,12) yielded Hoothoot.
+- **Headbutt Mechanics:** Trees are either "valid" (can spawn) or "duds" (never spawn). Valid trees don't guarantee an encounter every time (RNG).
+  - Duds: (12,15), (12,14), (12,13).
+  - Valid: (12,12) (Yielded Hoothoot).
 ## PC Storage
 - **PENDULUM (Hoothoot)** Lv10
