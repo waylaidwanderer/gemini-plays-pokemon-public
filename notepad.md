@@ -7,16 +7,16 @@
 
 ## Navigation
 - **Location:** Goldenrod Dept. Store Elevator (11_17).
-- **Current Action:** Going to 1F.
+- **Current Action:** Selecting 1F.
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store Elevator.
-- **Action:** Operating elevator.
+- **Action:** Selecting floor 1F.
 - **Plan:** 
-    1. Interact with controls at (3, 0).
-    2. Select "1F".
-    3. Exit at 1F and leave store.
+    1. Select "1F" from elevator menu.
+    2. Exit at 1F.
+    3. Leave Dept. Store.
     4. Head to Route 34 Day-Care.
 - **Learned:** 
     - 6F: Vending Machine drinks heal Pokemon.
