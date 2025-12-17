@@ -40,4 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet used Super Potion (Full HP). Waiting for Croconaw's move.
+- **Battle:** Rival Silver (Gastly Defeated, Croconaw Active) - Garnet 48/63 HP. Croconaw Acc -2. Plan: Smokescreen again.
