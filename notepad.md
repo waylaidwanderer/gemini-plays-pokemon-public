@@ -1,36 +1,28 @@
 # Strategy & Progress
-## Current Plan: Start the Game
-1. Select "NEW GAME" from the title screen. (Done)
-2. Complete the intro sequence:
-    - Set the time. (Done)
-    - Talk to Professor Oak. (Done)
-    - Choose gender (Girl). (Done)
-    - Name the player "GEM".
-3. Arrive in New Bark Town.
+## Current Plan: Obtain Starter Pokémon
+1. Arrive in New Bark Town. (Done)
+2. Locate Professor Elm's Lab.
+3. Talk to Professor Elm to receive a starter Pokémon.
+4. Obtain the Pokédex.
+5. Head West towards Route 29.
 
 ## Tile Mechanics
-(To be updated upon entering the overworld)
+### Global
+- FLOOR: Traversable.
+- WALL: Impassable.
+- DOOR: Warp tile.
+- STAIRCASE: Warp between floors.
+- WATER: Impassable without Surf.
+- HEADBUTT_TREE: Impassable.
+- WARP_CARPET_DOWN: Exit building to overworld.
 
 ## Battle Information
-(To be updated upon first battle)
+(No battles yet)
 
 ## NPCs & Interactions
-(To be updated upon first interaction)
-## PlayersHouse1F (24_6)
-### Tile Mechanics
-- FLOOR: Traversable.
-- STAIRCASE: Warp to PlayersHouse2F.
-- WALL: Impassable.
+### New Bark Town (24_4)
+- FISHER (ID 2): Wandering the town.
 
-### NPCs & Interactions
-- MOM (7, 4): Sitting at the kitchen table.
-
-## Strategy & Progress Update
-- Next: Exit the house and head to Professor Elm's Lab in New Bark Town.
-
-## New Bark Town Plan
-1. Exit player's house.
-2. Locate Professor Elm's Lab (usually a large building).
-3. Talk to Professor Elm to receive a starter Pokémon.
-4. Obtain the Pokédex and other starting items.
-5. Head West towards Route 29.
+### PlayersHouse1F (24_6)
+- MOM (7, 4): Sitting at the table. Gave Pokégear.
+- POKEFAN_F (4, 4): Standing in the room.
