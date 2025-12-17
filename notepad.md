@@ -12,12 +12,14 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** Reading Directory at (14, 0).
+- **Action:** Approaching the counter at (13, 3).
 - **Plan:** 
-    1. Check TMs at the counter (stand at 13, 3).
-    2. Ascend to 3F via stairs at (12, 0).
-    3. Continue to Rooftop.
+    1. Talk to Clerk to see TM list.
+    2. Buy useful TMs if affordable (Current Money: ¥1587).
+    3. Ascend to 3F via stairs at (12, 0).
+    4. Continue to Rooftop.
 - **Notes:**
+    - Directory confirmed: "2F TRAINER'S MARKET".
     - Wade (Bug Catcher) wants a rematch on Route 31. (Ignoring for now).
     - Currently on 2F (Map 11_12).
 
