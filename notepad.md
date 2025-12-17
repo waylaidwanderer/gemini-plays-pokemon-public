@@ -39,7 +39,7 @@
 ## Location Notes: Azalea Gatehouse
 - **Warps:** West to Ilex Forest, East to Azalea Town.
 - **NPCs:** Granny (1, 3), Officer (5, 2).
-- **Task:** Talk to NPCs before exiting.
+- **Status:** NPCs consulted. Exiting to Azalea.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
