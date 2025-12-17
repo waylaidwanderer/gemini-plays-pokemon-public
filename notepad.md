@@ -6,9 +6,9 @@
 - **Tertiary:** Explore Ilex Forest.
 
 ## Navigation
-- **Location:** Azalea Town (8_7).
-- **Goal:** Return to Ilex Forest.
-- **Path:** West to Gatehouse (2, 10).
+- **Location:** Ilex Forest (3_52).
+- **Goal:** Cut Tree at (8, 25).
+- **Path:** Navigate to (8, 26).
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
