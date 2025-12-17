@@ -67,3 +67,6 @@
 - **Immediate Task:** Clear "Sent to PC" text (if any) and locate Farfetch'd.
 - **Assumption:** Farfetch'd is likely still at (18, 29) or nearby.
 - **Goal:** Herd Farfetch'd West to (7, 28).
+- **Info:** Wade called (Tuesday). Bug Catching Contest is active at National Park.
+- **Immediate Task:** Clear "Sent to PC" text and resume Farfetch'd pursuit.
+- **Bird Status:** Verify if battle reset the bird's position. Anticipate it near (18, 29).
