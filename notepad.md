@@ -42,15 +42,14 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Bird returned. Apprentice dialogue loop confirmed (needs Badge, which I have).
-- **Hypothesis:** The "Black Belt" at (5, 28) is the Boss (Charcoal Master) or has the HM.
-- **Action:** Move to (5, 29) and talk to the Black Belt.
+- **Current Status:** Bird returned. Apprentice dialogue exhausted.
+- **Position Correction:** System places player at (4, 29). Image conflicts (6, 29).
+- **Action:** Navigate to (5, 29) to talk to the Black Belt (potential Boss).
+- **Hypothesis:** Black Belt at (5, 28) may have the HM or be the Boss.
 - **Next Steps:**
-    1.  Get HM01 (Cut).
-    2.  Return to Azalea Town Pokemon Center.
-    3.  Withdraw BELLADONNA (Oddish).
-    4.  Teach Cut to BELLADONNA.
-    5.  Challenge Azalea Gym.
+    1.  Talk to Black Belt.
+    2.  If successful, return to Azalea Town.
+    3.  If not, check Ilex Forest exit or return to town to find Charcoal Master.
 
 ## Reflection Log (Turn 2549)
 - **Review:** Last 50 turns focused on herding. No major deferrals.
