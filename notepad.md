@@ -6,18 +6,19 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Dept. Store Elevator (11_17).
-- **Current Action:** Selecting 1F.
-- **Target:** Day-Care House (13, 15).
+- **Location:** Goldenrod Dept. Store 1F (11_11).
+- **Current Action:** Exiting the store.
+- **Target:** Bike Shop (Goldenrod City).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store Elevator.
-- **Action:** Opening Elevator Menu (Retry).
+- **Status:** Inside Goldenrod Dept. Store 1F.
+- **Action:** Leaving building.
 - **Plan:** 
-    1. Press A to open menu.
-    2. Select "1F".
-    3. Exit at 1F and leave store.
-    4. Head to Route 34 Day-Care.
+    1. Navigate to exit warps at (7, 7) or (8, 7).
+    2. Exit to Goldenrod City.
+    3. Locate Bike Shop (likely East/South-East).
+    4. Obtain Bicycle.
+    5. Head south to Route 34 Day-Care.
 - **Learned:** 
     - 6F: Vending Machine drinks heal Pokemon.
     - 5F has TMs (Punch series) and Vitamins.
