@@ -12,9 +12,9 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Exploring left side of 4F.
+- **Action:** Closing shop dialogue.
 - **Plan:** 
-    1. Close shop menu.
+    1. Clear "Please come again!" text.
     2. Move to x=8 to reveal unseen tiles.
     3. Head to 5F.
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
