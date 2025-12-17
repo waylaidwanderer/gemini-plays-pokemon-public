@@ -73,3 +73,5 @@
 - Ledge Barrier: (14, 13)-(17, 13) are LEDGE_HOP_DOWN. Cannot move North from Row 14.
 - Route 29 North Path: Passable via x=23 (Row 13 -> Row 11).
 - Route 29 North Path: Passable via x=31 (Row 13 -> Row 11).
+- Northern Path: Gap in tree wall discovered at x=36 (Row 9 -> Row 7).
+- Route 29 North Path: Row 7 appears to be a clear path west from x=36.
