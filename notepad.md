@@ -14,10 +14,10 @@
 - **Status:** Inside Goldenrod Dept. Store 6F (Rooftop).
 - **Action:** Talking to Super Nerd at (8, 2).
 - **Plan:** 
-    1. Talk to Super Nerd.
-    2. Explore left side (check Elevator at 2, 0).
-    3. Head back down to 5F.
-    4. Leave Dept. Store.
+    1. Listen to dialogue.
+    2. Move to left side to find Elevator (2, 0).
+    3. Reveal unseen tiles at x=0,1.
+    4. Head back down to 5F via stairs at (13, 0) or Elevator.
 ## Goldenrod Dept. Store Inventory
 - **2F (Clerk 1 - Medicine):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
 - **2F (Clerk 2 - Items):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
