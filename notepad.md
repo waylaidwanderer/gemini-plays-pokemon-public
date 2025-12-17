@@ -12,8 +12,9 @@
 
 ## Current Strategy
 - **Status:** Inside Route 34 Gatehouse.
-- **Action:** Talking to Lass at (3, 5).
-- **Plan:** Finish dialogue with Lass. Then navigate to (8, 3) to talk to Teacher and Butterfree. Finally, exit North to Route 34.
+- **Action:** Navigating to (7, 3) to talk to Teacher.
+- **Plan:** Talk to Teacher, then Butterfree. Then exit North to Route 34.
+- **Lore Note:** Lass mentioned the Shrine protector is a Grass-type Pokémon that watches from across time.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
