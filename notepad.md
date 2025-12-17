@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2730)
-- **Action:** Navigating winding path North/East towards (12, 11).
-- **Recent:** Picked up X Attack at (9, 17).
-- **Plan:** Explore the Northern/Eastern section of Ilex Forest.
+## Status (Turn 2731)
+- **Action:** Navigating East from (10, 11).
+- **Recent:** Sighted a Rocker (Trainer?) at (15, 14).
+- **Plan:** Continue East/North to explore the forest and potentially loop around to the Rocker.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
