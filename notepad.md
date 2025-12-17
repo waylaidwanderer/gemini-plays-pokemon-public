@@ -56,7 +56,7 @@
 - **Headbutt Trees:** Interactable tiles that can spawn Pokémon.
   - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
   - **Forest Group (No Heracross):** Ilex Forest (Hoothoot, Pineco).
-  - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross).
+  - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross, Ekans).
   - **Verified Trees:**
     - Ilex (12,12), (11,12): Forest Group.
     - Azalea (24, 11): Mountain Group. TARGET.
