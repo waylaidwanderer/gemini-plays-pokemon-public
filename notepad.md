@@ -39,4 +39,5 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Rival Silver (Gastly, Croconaw, Zubat) - Defeated.
-- **Info:** Wade called. Bug-Catching Contest is today at National Park.
+- **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
+- **Task:** Find the Farfetch'd to progress past the Cut tree.
