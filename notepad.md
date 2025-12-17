@@ -12,9 +12,9 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Navigating North from (12, 31).
-- **Recent:** Wade called about Bug-Catching Contest (National Park). Confirmed not in battle.
-- **Plan:** Head North to Goldenrod City. Stay on the left to avoid the Youngster.
+- **Action:** Flanking right (Column 16) to bypass the Lass at (10, 26).
+- **Plan:** Navigate through the tall grass on the right to avoid the trainer's line of sight. Then continue North.
+- **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
