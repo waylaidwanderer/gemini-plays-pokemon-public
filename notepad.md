@@ -16,3 +16,15 @@
 
 ## NPCs & Interactions
 (To be updated upon first interaction)
+## PlayersHouse1F (24_6)
+### Tile Mechanics
+- FLOOR: Traversable.
+- STAIRCASE: Warp to PlayersHouse2F.
+- WALL: Impassable.
+
+### NPCs & Interactions
+- MOM (7, 4): Standing in the kitchen area.
+
+## Strategy & Progress Update
+- Arrived in PlayersHouse1F.
+- Next: Talk to Mom to get the Pokégear and start the journey.
