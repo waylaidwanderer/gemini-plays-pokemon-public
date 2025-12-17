@@ -1,22 +1,22 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Get Reward from Kurt.
-- **Secondary:** Challenge Azalea Gym (Bug Type).
+- **Primary:** Earn Hive Badge (Azalea Gym).
+- **Secondary:** Collect Apricorns & Prepare for Gym.
 - **Tertiary:** Explore Azalea Town.
 
 ## Strategy
-1.  **Talk to Kurt:** Receive reward for saving Slowpokes.
-2.  **Prepare:** Check party status (Healed by event).
-3.  **Gym:** Head to the Gym in the SW part of town.
+1.  **Exit House:** Leave Kurt's House.
+2.  **Apricorns:** Check the tree at (8, 2) in Azalea Town.
+3.  **Gym:** Head to the Gym in the SW part of town (check for Rival).
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
-- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift).
+- **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift), Lure Ball.
 - **Pending:** Deliver Mystery Egg to Elm, Bug Contest.
 
 ## Party
-- **GARNET (Quilava)** Lv18 (53/53 HP)
+- **GARNET (Quilava)** Lv19 (55/55 HP) - Fully Healed
 - **ROCKY (Onix)** Lv11 (30/30 HP)
 - **UNAKITE (Unown)** Lv5 (20/20 HP)
 - **EGG**
