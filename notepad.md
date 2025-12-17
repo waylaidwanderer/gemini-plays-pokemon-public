@@ -17,9 +17,7 @@
     1. Navigate to stairs at (15, 0).
     2. Take stairs to Roof.
     3. Explore Roof (Vending Machines?).
-- **Learned:** 
-    - 5F has TMs (Punch series) and Vitamins.
-    - Elevator is at (2, 0) on all floors so far.
+    4. Head back down to exit.
 - **Observed Stock (TM Corner):** TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch). All ¥3000.
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
