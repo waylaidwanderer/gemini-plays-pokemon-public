@@ -11,12 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34 (In Battle).
-- **Action:** Escaping from Wild Drowzee (Again?).
-- **Plan:** Run from battle. Head North through the tall grass to Goldenrod City.
-- **Notes:**
-    - Wade called: Bug-Catching Contest is at National Park today!
-    - Strange battle loop: Text said "Got away safely" then phone rang, now back in battle.
+- **Status:** On Route 34.
+- **Action:** Navigating North from (12, 31).
+- **Recent:** Wade called about Bug-Catching Contest (National Park). Confirmed not in battle.
+- **Plan:** Head North to Goldenrod City. Stay on the left to avoid the Youngster.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
