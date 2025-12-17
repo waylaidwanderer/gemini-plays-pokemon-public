@@ -12,14 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** Handling phone call from Wade.
+- **Action:** Closing phone call.
 - **Plan:** 
-    1. Finish call.
-    2. Move to (14, 1) and read Directory at (14, 0).
-    3. Check TM selection.
-    4. Ascend to 3F.
+    1. Read Directory at (14, 0).
+    2. Check TM selection.
+    3. Ascend to 3F.
 - **Notes:**
-    - Wade calling about Bug-Catching Contest (again?).
+    - Wade (Bug Catcher) wants a rematch on Route 31. (Ignoring for now).
     - Currently on 2F (Map 11_12).
 
 ## Key Items & Progress
