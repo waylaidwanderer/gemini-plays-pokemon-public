@@ -13,11 +13,11 @@
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
 - **Observed Stock (Clerk 2):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
-- **Action:** Investigating unseen area on left side of 2F.
+- **Action:** Investigating left aisle (Gentleman & Elevator).
 - **Plan:** 
-    1. Move to (4, 3) to reveal tiles at x=0 to x=3.
-    2. Check for any items or NPCs.
-    3. Head to stairs/elevator for 3F.
+    1. Move to (2, 3).
+    2. Go down to talk to Gentleman at (2, 6).
+    3. Go up to check Elevator at (2, 0).
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
