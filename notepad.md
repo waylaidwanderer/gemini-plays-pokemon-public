@@ -12,13 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Positioning to talk to Clerk at (8, 5).
+- **Action:** Talking to Clerk at (8, 5).
 - **Plan:** 
-    1. Move to (8, 3) (Counter is at 8, 4).
-    2. Talk to Clerk (Down).
-    3. Check TM prices.
-    4. Explore left side (Elevator/Wall).
-    5. Head to Roof via stairs at (15, 0).
+    1. Move to (8, 3).
+    2. Interact with Clerk (Down).
+    3. Check TM list (Punches?).
+    4. Explore left side (find Elevator).
+    5. Head to Roof.
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
     - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
