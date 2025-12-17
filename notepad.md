@@ -12,10 +12,9 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Navigating West to (11, 24) to find a path North past the wall at Row 21.
-- **Observation:** Spotted a Youngster at (11, 20).
-- **Plan:** Find the gap in the wall (likely around col 10-11). Battle Youngster if necessary. Locate Day-Care.
-- **Recent:** Defeated Pokefan Brandon.
+- **Action:** Flanking Left (Column 10) to bypass the Youngster at (11, 20).
+- **Plan:** Navigate up column 10. The Youngster is facing down, so column 11 is dangerous.
+- **Notes:** Day-Care should be nearby. Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
