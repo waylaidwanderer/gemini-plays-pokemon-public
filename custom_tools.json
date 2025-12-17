@@ -44,35 +44,6 @@
       }
     ]
   },
-  "interact_in_direction": {
-    "description": "Faces the player in a specific direction and immediately interacts (presses A). Useful for talking to NPCs, reading signs, or using objects without waiting an extra turn to change facing.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "description": "The direction to face before interacting."
-        }
-      },
-      "required": [
-        "direction"
-      ]
-    },
-    "python_script": "print(json.dumps([input_data['direction'], \"A\"]))",
-    "history": [
-      {
-        "commit_message": "Defined a tool to face a direction and interact immediately, saving turns on NPC/Object interactions.",
-        "timestamp": "2025-12-15T22:43:53.060Z",
-        "action_counter": 258
-      }
-    ]
-  },
   "menu_macro": {
     "description": "Executes a sequence of button presses for menu navigation, bypassing the mixing restriction. Input buttons are passed in the 'buttons' list.",
     "input_schema": {
@@ -180,6 +151,18 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-16T02:40:55.788Z",
         "action_counter": 602
+      }
+    ]
+  },
+  "flee_battle": {
+    "description": "Automates fleeing from a wild battle. Presses B repeatedly to advance entry text, then navigates to and selects the 'RUN' option. Assumes the cursor starts at 'FIGHT' (Top-Left).",
+    "input_schema": {},
+    "python_script": "cmds = []\n# Spam B to clear text (Wild X appeared, Go X!, etc)\nfor _ in range(8):\n    cmds.append(\"B\")\n    cmds.append(\"sleep 400\")\n\n# Navigation from FIGHT (Top-Left) to RUN (Bottom-Right)\n# Layout:\n# FIGHT  PKMN\n# PACK   RUN\ncmds.append(\"sleep 500\")\ncmds.append(\"Down\")\ncmds.append(\"sleep 200\")\ncmds.append(\"Right\")\ncmds.append(\"sleep 200\")\ncmds.append(\"A\")\n\nprint(f'{{\"buttons\": {cmds}}}')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-17T18:59:38.287Z",
+        "action_counter": 3662
       }
     ]
   }
