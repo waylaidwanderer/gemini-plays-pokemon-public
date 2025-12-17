@@ -43,4 +43,4 @@
 - **WARP_CARPET_RIGHT:** Warps when stepped on or walked right into.
 - **Observation:** Farfetch'd is present in the Charcoal Kiln (returned successfully).
 - **Strategy Change:** Returning to Azalea Town to buy Poké Balls before entering Ilex Forest (Current stock: 0).
-- **Status:** Shopping complete (10 Balls, 3 Super Potions). Returning to Forest.
+- **Status:** Entering Ilex Forest with supplies (10 Balls, 3 Super Potions).
