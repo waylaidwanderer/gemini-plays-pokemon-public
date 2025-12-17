@@ -42,13 +42,9 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Player at (9, 34). Bird at (8, 31).
-- **Correction:** Previous move blocked by tree at (9, 33).
-- **Goal:** Position South of Bird at (8, 32).
-- **Plan:**
-    1.  Move Left to (8, 34) to bypass tree.
-    2.  Move North to (8, 32).
-    3.  Push Bird North to (8, 30) or further.
+- **Current Status:** Bird is at (6, 28), right next to the Apprentice (7, 28).
+- **Conclusion:** The bird has been successfully herded back!
+- **Next Step:** Talk to the Apprentice to complete the quest and get HM01 (Cut).
 
 ## Reflection Log (Turn 2549)
 - **Review:** Last 50 turns focused on herding. No major deferrals.
