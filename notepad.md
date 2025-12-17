@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2734)
-- **Action:** Picking up item at (17, 7).
-- **Plan:** After pickup, navigate East to column 22, then North to explore the loop (path seems to go North-East).
-- **Target:** Unseen tiles around (22, 4).
+## Status (Turn 2735)
+- **Action:** Navigating to (22, 4) to explore North-East.
+- **Recent:** Picked up Antidote at (17, 7).
+- **Plan:** Explore the loop North-East, then head South towards the Rocker.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
