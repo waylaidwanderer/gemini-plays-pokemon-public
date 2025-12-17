@@ -43,7 +43,12 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Interacted with Farfetch'd at (20, 24) from East. Text is open. Clearing to observe movement to (20, 23).
+- **Current Status:** Text cleared. Waiting for Farfetch'd to move North to (20, 23).
+- **Next Steps:**
+  1. Move North to (21, 23).
+  2. Push Bird West from (20, 23) to (19, 23).
+  3. Chase West to (15, 23).
+  4. Push South to (15, 24).
 - **Next Steps:**
   1. Move North to (21, 23).
   2. Push Bird West from (20, 23) to (19, 23).
