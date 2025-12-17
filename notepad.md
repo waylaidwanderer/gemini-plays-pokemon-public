@@ -50,5 +50,5 @@
 - **Observation:** Farfetch'd is present in the Charcoal Kiln (returned successfully).
 - **Strategy Change:** Returning to Azalea Town to buy Poké Balls before entering Ilex Forest (Current stock: 0).
 - **Status:** Entering Ilex Forest with supplies (10 Balls, 3 Super Potions).
-- **Observation:** Ilex Forest Shrine text: "ILEX FOREST SHRINE...". No event triggered yet.
+- **Observation:** Ilex Forest Shrine text: "ILEX FOREST SHRINE... It's in honor of the forest's protector...". No event triggered yet.
 - **Hypothesis:** The shrine might be related to a later event or a specific item (GS Ball?).
