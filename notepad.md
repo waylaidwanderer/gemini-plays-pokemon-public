@@ -11,10 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Exploring Route 34 Gatehouse.
-- **Action:** Marking exits and preparing to talk to NPCs.
-- **Plan:** Talk to the Lass, Teacher, and check the Butterfree. Then exit North to Route 34.
-- **Note:** Potentially missed Headbutt Tutor (Rocker) in Ilex Forest. Will check if I can return easily or if I should push to Goldenrod first.
+- **Status:** Inside Route 34 Gatehouse.
+- **Action:** Navigating to (4, 4) to talk to the Lass.
+- **Plan:** Talk to Lass, then the Teacher and Butterfree. Then proceed to Route 34.
+- **Note:** The Lass is pacing. Standing at (4, 4) allows interaction when she is at (3, 4).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
