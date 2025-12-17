@@ -12,13 +12,14 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Browsing TM list.
+- **Action:** checking full inventory of TM Corner.
 - **Plan:** 
-    1. Select "BUY" (A).
-    2. Scroll through list (Headbutt, Punches?).
-    3. Record TMs/prices.
+    1. Scroll down to verify TM48 and TM33 descriptions.
+    2. Check for other TMs (Headbutt?).
+    3. Record full inventory.
     4. Exit shop.
     5. Explore left side.
+- **Observed Stock (TM Corner):** TM41 (ThunderPunch) 3000...
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
     - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
