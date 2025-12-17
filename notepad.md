@@ -11,14 +11,13 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34.
-- **Action:** Navigating to (10, 14).
-- **Reasoning:**
-    - The path North on the right side (cols 13+) is blocked by a fence at Row 21.
-    - I must use the left path (col 10) to bypass Youngster Ian and the fence.
-    - I will try the Warp at (11, 14) from (10, 14) to see if it enters the Day-Care.
-    - If the warp fails, I will continue North to Goldenrod via Column 9.
-- **Notes:** (11, 15) warp failed previously. (13, 21) confirmed as wall.
+- **Status:** On Route 34 (Left Lane).
+- **Action:** Stepping Right into (11, 14).
+- **Reasoning:** 
+    - The Day-Care House (13, 15) appears walled off from the left (Col 12 wall) and south (Row 21 wall).
+    - The "Warp Carpets" at (11, 14) and (11, 15) are the only apparent access points from this side.
+    - Previous attempt at (11, 15) failed, trying (11, 14).
+- **Contingency:** If this fails, read the sign at (10, 13) and then continue North to Goldenrod.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
