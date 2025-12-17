@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** On Route 34 (In Battle).
-- **Action:** Battling Youngster Ian at (11, 21).
-- **Plan:** Defeat Youngster Ian.
+- **Action:** Battling Youngster Ian (Mankey Lv10).
+- **Plan:** Use Ember (Slot 4) to defeat Mankey.
 - **After Battle:**
     - Try to find a way to the Day-Care front door (Right lane).
     - Check columns 16-19 for a gap in the wall at Row 21.
