@@ -12,7 +12,7 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** Talking to Clerk 1.
+- **Action:** Browsing Clerk 1's inventory.
 - **Plan:** 
     1. Talk to Clerk to see stock (likely Potions/Balls).
     2. If no TMs, head to 3F/4F/5F. TMs are likely on 5F.
