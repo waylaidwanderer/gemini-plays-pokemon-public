@@ -2,12 +2,12 @@
 
 ## Current Objectives
 - **Primary:** Traverse Ilex Forest to reach Goldenrod City.
-- **Secondary:** Teach Cut to Belladonna (Oddish).
-- **Tertiary:** Collect Charcoal from Charcoal Master.
+- **Secondary:** Collect Charcoal from Charcoal Master.
+- **Tertiary:** Explore Ilex Forest.
 
 ## Navigation
-- **Goal:** Access PC (9, 1) to withdraw Belladonna.
-- **Path:** East to PC.
+- **Goal:** Go to Charcoal Kiln (21, 13).
+- **Path:** South to street, then East.
 
 ## Key Items
 - **HM01 (Cut):** Obtained!
