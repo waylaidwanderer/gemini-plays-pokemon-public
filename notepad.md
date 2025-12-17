@@ -1,20 +1,22 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Objectives
-- **Primary:** Reach Ilex Forest (South).
-- **Secondary:** Check Day-Care on Route 34.
-- **Tertiary:** Find Headbutt Tutor (Deprioritized).
+- **Primary:** Defeat Whitney (Goldenrod Gym).
+- **Secondary:** Find Headbutt Tutor in Ilex Forest.
+- **Tertiary:** Hatch Odd Egg.
 
 ## Navigation
-- **Location:** Route 34 (11_1).
-- **Target:** Ilex Forest Gatehouse (South).
+- **Location:** Ilex Forest Gatehouse (11_23).
+- **Target:** Ilex Forest (Headbutt Tutor).
 
 ## Current Strategy
 - **Plan:** 
-    1. Exit Day-Care House.
-    2. Explore remaining trainers/items on Route 34.
-    3. Enter Ilex Forest.
-- **Completed:** Obtained Bicycle, Defeated Officer Keith, Deposited Topaz, Received Odd Egg.
+    1. Enter Ilex Forest.
+    2. Find Headbutt Tutor.
+    3. Learn Headbutt.
+    4. Train Rocky/Team for Whitney.
+    5. Return to Goldenrod.
+- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg.
 - **Party:** Full (6/6) including Egg.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
