@@ -6,18 +6,15 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Happiness Rater's House (11_5).
-- **Current Action:** Exiting house.
-- **Target:** Bike Shop (Goldenrod City).
+- **Location:** Goldenrod Bike Shop (11_4).
+- **Target:** Obtain Bicycle, then Route 34.
 
 ## Current Strategy
-- **Status:** Inside Happiness Rater's House.
-- **Action:** Exiting to Goldenrod City.
 - **Plan:** 
-    1. Exit house to Goldenrod City (31, 21).
-    2. Navigate to Bike Shop (approx 29, 29).
-    3. Obtain Bicycle.
-    4. Head south to Route 34 Day-Care.
+    1. Talk to Clerk to get Bicycle.
+    2. Exit Bike Shop.
+    3. Head south to Route 34.
+    4. Visit Day-Care.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
