@@ -2,20 +2,20 @@
 
 ## Current Objectives
 - **Primary:** Defeat Whitney (Goldenrod Gym).
-- **Secondary:** Find Headbutt Tutor in Ilex Forest.
-- **Tertiary:** Hatch Odd Egg.
+- **Secondary:** Teach Headbutt to Rocky (Onix).
+- **Tertiary:** Hunt for Heracross in Ilex Forest (Headbutt Trees).
 
 ## Navigation
 - **Location:** Ilex Forest (3_52).
-- **Target:** Find Headbutt Tutor (North-East Area).
+- **Target:** Goldenrod City (after training/catching).
 
 ## Current Strategy
 - **Plan:** 
-    1. Explore the North-East path of Ilex Forest (East of the northern entrance).
-    2. Locate the Headbutt Tutor (NPC).
-    3. Learn Headbutt (TM02).
-    4. Head South towards Azalea Town if needed, or return to Goldenrod to challenge Whitney.
-- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg.
+    1. Open Pack and teach TM02 (Headbutt) to Rocky.
+    2. Test Headbutt on nearby trees to look for Heracross (Fighting-type destroys Miltank).
+    3. Head North to Goldenrod City.
+    4. Challenge Whitney.
+- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor.
 - **Party:** Full (6/6) including Egg.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
