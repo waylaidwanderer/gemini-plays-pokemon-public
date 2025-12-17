@@ -14,6 +14,10 @@
 
 ### Discovered Locations
 - Route Sign: (51, 7).
+- New Bark Town Entrance: (59, 9).
+
+### Wild Encounters
+- Pidgey (Lv2)
 
 ## Tile Mechanics (Global)
 - FLOOR: Standard traversable ground.
@@ -45,12 +49,8 @@
 - PROF_ELM (ID 1): Researcher at (5, 2).
 - AIDE (ID 2): Located in the lab.
 
-## Discovered Locations (New Bark Town 24_4)
-- Player's House: Door (13, 5), Sign (11, 5).
-- Elm's House: Door (11, 13), Sign (9, 13).
-- Neighbor's House: Door (3, 11).
-- Professor Elm's Lab: Door (6, 3), Sign (3, 3).
-- Town Sign: (8, 8).
+### Route 29 (24_3)
+- COOLTRAINER_M (ID 1): Standing at (50, 12). Advised that Pokemon hide in grass. (Talked to)
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
@@ -59,4 +59,3 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly to avoid KeyErrors.
 - Exploration: Check building corners and behind counters for unseen tiles.
 - Scripted Events: Some NPCs may move the player during dialogue. Treat the move as a completed interaction unless new dialogue is triggered.
-- COOLTRAINER_M (ID 1): Standing at (50, 12). Advised that Pokemon hide in grass. (Talked to)
