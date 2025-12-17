@@ -11,10 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Entering Route 34.
-- **Action:** Exiting the Gatehouse to the North.
-- **Plan:** Head North on Route 34 to reach Goldenrod City.
-- **Notes:** Need to check Day-Care on Route 34.
+- **Status:** On Route 34.
+- **Action:** Reading Trainer Tips sign at (13, 33).
+- **Plan:** Head North to Goldenrod City. Check Day-Care on the way.
+- **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
