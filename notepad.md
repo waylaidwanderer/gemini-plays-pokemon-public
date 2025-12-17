@@ -12,14 +12,13 @@
 
 ## Current Strategy
 - **Status:** In Battle (Youngster Ian).
-- **Opponent:** Defeated Mankey. Sending out Diglett.
-- **Action:** Reject switch. Defeat Diglett with Garnet.
-- **Plan:** After battle, cross to right lane at Row 22, go North to Day-Care.
+- **Opponent:** Diglett (Lv12).
+- **Action:** Using Ember (or Quick Attack) to defeat Diglett.
+- **Plan:** After battle, move Right from (11, 22) to cross the median, then head North to Day-Care House (13, 15).
 
 ## Battle Notes
-- **Snubbull:** Normal type in Gen 2 (Not Fairy).
-- **Diglett:** Ground type. Weak to Water, Grass, Ice. Neutral to Fire. Hts Fire for SE damage.
-- **Battle Loop:** Previous confusion about "looping" battles was likely due to phone calls interrupting the "Run" sequence.
+- **Diglett:** Ground type. Ember should kill due to level difference (23 vs 12).
+- **Cursor Logic:** Assuming cursor remembered Ember position (Slot 4). If it reset to 1, Quick Attack will be used, which is also fine.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
