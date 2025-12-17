@@ -28,7 +28,7 @@
 - **Type:** Bug
 - **Leader:** Bugsy
 - **Entrance:** (4, 15) / (5, 15)
-- **NPCs:** Guide (7, 13), Twins (4, 10), (5, 10), Bugsy (5, 7), Bug Catcher (8, 8), Bug Catcher (5, 3), Bug Catcher (Left) (0, 4).
+- **NPCs:** Guide (7, 13), Twins (4, 10), (5, 10), Bugsy (5, 7), Bug Catcher (8, 8), Bug Catcher (5, 3), Defeated Bug Catcher Josh (0, 4).
 
 ## Cleared Areas
 - **Slowpoke Well:** Cleared. Kurt rescued.
