@@ -12,12 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 3F (Battle Collection).
-- **Action:** Browsing Battle Collection inventory.
+- **Action:** checking full inventory of Battle Collection.
 - **Plan:** 
-    1. Scroll through list to identify X Items.
-    2. Record prices and effects.
-    3. Buy if useful (and affordable), otherwise exit.
+    1. Scroll down to see remaining items (Dire Hit, Guard Spec, etc.).
+    2. Record full inventory.
+    3. Buy X Special if nothing else is urgent.
     4. Explore right side.
+- **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
