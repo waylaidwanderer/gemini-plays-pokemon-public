@@ -12,12 +12,14 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Pokemon Center.
-- **Action:** Walking to the counter (3, 3) to talk to Nurse Joy.
-- **Plan:** Heal party. Then explore Goldenrod (Dept Store, Game Corner, Gym).
+- **Action:** Talking to Nurse Joy to heal.
+- **Plan:** 
+    1. Heal party.
+    2. Explore Goldenrod City (Bike Shop, Dept Store, Radio Tower).
+    3. Train Rocky (Onix) for Whitney's Gym (Rock resists Normal).
 - **Notes:**
-    - Day-Care entrance from Route 34 South was blocked. Checking for city access.
+    - Day-Care entrance from Route 34 South was blocked. Will check North access.
     - Wade called about Bug-Catching Contest (National Park).
-    - Markers defined for NPCs in PC.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
