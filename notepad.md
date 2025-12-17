@@ -11,16 +11,15 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Exploring Goldenrod City.
-- **Action:** Navigating to the Department Store entrance (24, 27).
-- **Reasoning:**
-    - The large building to the East is the Dept Store.
-    - Need to go South to Row 28 to skirt around the building walls.
-- **Plan:** Mark Dept Store. Check for Bike Shop further East/South-East.
+- **Status:** Entering Goldenrod Dept. Store.
+- **Action:** Entering the building at (24, 27).
+- **Plan:** 
+    1. Check Dept Store floors (briefly). 
+    2. Exit and go to Bike Shop (marked at 29, 29).
+    3. Get Bicycle.
 - **Notes:**
-    - Game Corner identified at (14, 21).
-    - Unexplored building at (11, 29).
-    - Team healed.
+    - Marked Bike Shop based on sign location.
+    - Game Corner is at (14, 21).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
