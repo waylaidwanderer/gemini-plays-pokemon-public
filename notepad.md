@@ -58,3 +58,4 @@
     1. Headbutt a tree 1-3 times.
     2. If "Nope" or non-Heracross encounter, rotate to next tree.
     3. Repeat until Heracross is found.
+- **Anti-Hallucination Strategy:** When farming a single spot (like Headbutt trees), the system may flag "stuck" or "looping" if staying on one tile too long. **Solution:** Rotate between adjacent valid tiles (e.g., trees at 24, 25, 27) every few attempts to break the positional loop, even if it's less efficient.
