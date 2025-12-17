@@ -11,11 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34 (In Battle).
-- **Action:** Battling Pokefan Brandon (Snubbull Lv13).
-- **Plan:** Use Ember (Slot 4) to finish Snubbull.
-- **Battle State:** Snubbull HP Yellow (~40%). Garnet Speed -2 (Scary Face).
-- **Notes:** Need to heal at Goldenrod PC.
+- **Status:** On Route 34.
+- **Action:** Navigating North from (16, 28) after defeating Pokefan Brandon.
+- **Plan:** Continue North to Goldenrod City. Keep an eye out for the Day-Care.
+- **Recent:** Defeated Pokefan Brandon (Snubbull).
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
