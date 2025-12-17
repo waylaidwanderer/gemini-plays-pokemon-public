@@ -6,23 +6,21 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Dept. Store 1F (11_11).
-- **Current Action:** Exiting the store.
+- **Location:** Happiness Rater's House (11_5).
+- **Current Action:** Exiting house.
 - **Target:** Bike Shop (Goldenrod City).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 1F.
-- **Action:** Leaving building.
+- **Status:** Inside Happiness Rater's House.
+- **Action:** Exiting to Goldenrod City.
 - **Plan:** 
-    1. Navigate to exit warps at (7, 7) or (8, 7).
-    2. Exit to Goldenrod City.
-    3. Locate Bike Shop (likely East/South-East).
-    4. Obtain Bicycle.
-    5. Head south to Route 34 Day-Care.
+    1. Exit house to Goldenrod City (31, 21).
+    2. Navigate to Bike Shop (approx 29, 29).
+    3. Obtain Bicycle.
+    4. Head south to Route 34 Day-Care.
 - **Learned:** 
-    - 6F: Vending Machine drinks heal Pokemon.
-    - 5F has TMs (Punch series) and Vitamins.
-    - Elevator is at (2, 0) on all floors so far.
+    - Happiness Rater: Quilava is "quite cute".
+    - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
 ## Goldenrod Dept. Store Inventory
 - **2F (Clerk 1 - Medicine):** Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
 - **2F (Clerk 2 - Items):** Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500).
