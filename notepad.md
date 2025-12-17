@@ -11,12 +11,12 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Entering Goldenrod City.
-- **Action:** Walking North from Route 34.
-- **Plan:** Locate Pokemon Center and heal.
+- **Status:** In Goldenrod City.
+- **Action:** Exploring North to find the Pokemon Center.
+- **Plan:** Heal at PC. Then explore the city (Dept Store, Game Corner, Gym, etc.).
 - **Notes:**
-    - Day-Care entrance from Route 34 South was blocked/warps failed.
-    - Need to check if I can access it from the city side or if I missed a specific path.
+    - Day-Care entrance from Route 34 South was blocked. Checking for city access.
+    - Wade called about Bug-Catching Contest (National Park).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
