@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2746)
-- **Action:** Navigating to (11, 4) to explore the West maze.
-- **Recent:** Spotted Youngster at (12, 1).
-- **Plan:** Go South down col 14, then West to row 4 to uncover unseen tiles.
+## Status (Turn 2749)
+- **Action:** Navigating to (13, 1) to talk to Youngster.
+- **Recent:** Movement South to (14, 3) was blocked. Path West seems blocked by Youngster.
+- **Plan:** Talk to Youngster, then retry South path or investigate obstacles.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
