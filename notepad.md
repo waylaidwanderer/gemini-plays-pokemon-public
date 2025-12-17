@@ -11,12 +11,12 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 4F (Medicine Box).
-- **Action:** Exiting Medicine Box.
+- **Status:** Inside Goldenrod Dept. Store 4F.
+- **Action:** Exploring left side of 4F.
 - **Plan:** 
-    1. Check intermediate states for Zinc/HP Up prices.
-    2. Clear "Please come again" text.
-    3. Move to left side (Columns 0-8).
+    1. Close shop menu.
+    2. Move to x=8 to reveal unseen tiles.
+    3. Head to 5F.
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
