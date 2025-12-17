@@ -11,12 +11,10 @@
 
 ## Current Strategy
 - **Plan:** 
-    1. Defeat Officer Keith.
-    2. Continue south to Day-Care.
-    3. Get Odd Egg.
-- **Mechanics:** 
-    - Nighttime: Officers on patrol will battle you.
-- **Completed:** Obtained Bicycle.
+    1. Enter Day-Care Garden via warp at (11, 15).
+    2. Enter Day-Care House.
+    3. Get Odd Egg from Day-Care Man.
+- **Completed:** Obtained Bicycle, Defeated Officer Keith.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
