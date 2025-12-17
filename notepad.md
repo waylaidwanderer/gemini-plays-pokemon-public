@@ -11,9 +11,9 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34 (Entering Battle).
-- **Action:** Engaged by Pokefan M at (17, 28).
-- **Plan:** Defeat the trainer. He mentioned the Day-Care, so he might have strong/high-level Pokemon.
+- **Status:** On Route 34 (In Battle).
+- **Action:** Battling Pokefan Brandon at (17, 28).
+- **Plan:** Defeat Brandon.
 - **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
