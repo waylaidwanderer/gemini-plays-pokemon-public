@@ -11,15 +11,16 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Entering Goldenrod Dept. Store.
-- **Action:** Entering the building at (24, 27).
+- **Status:** Inside Goldenrod Dept. Store (1F).
+- **Action:** Locating Stairs/Elevator to check upper floors.
 - **Plan:** 
-    1. Check Dept Store floors (briefly). 
-    2. Exit and go to Bike Shop (marked at 29, 29).
-    3. Get Bicycle.
+    1. Find transport to upper floors.
+    2. Check TM selection (usually on 2F or 3F) and items (5F/Rooftop).
+    3. Exit and go to Bike Shop.
 - **Notes:**
-    - Marked Bike Shop based on sign location.
-    - Game Corner is at (14, 21).
+    - Game Corner identified at (14, 21).
+    - Unexplored building at (11, 29).
+    - Team healed.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
