@@ -15,9 +15,15 @@
 - **Hive Badge:** Obtained!
 
 ## Next Steps
-1.  Return to Ilex Forest.
-2.  Cut tree and proceed North.
-3.  Explore and train Belladonna.
+1.  Explore the area North of the cut tree (Shrine area).
+2.  Follow the path deeper into Ilex Forest.
+3.  Find the Headbutt tutor (if applicable) or other items.
+4.  Train Belladonna.
+
+## Reflection (Turn 2706)
+- **Status:** Tree cut. Text box needs clearing.
+- **Hygiene:** Notepad cleaned. Map markers managed.
+- **Plan:** Proceed North. Explore potential unseen tiles around (8, 22).
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
