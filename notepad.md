@@ -6,15 +6,15 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Route 34 (11_1).
-- **Target:** Day-Care House Interior.
+- **Location:** Day-Care (11_24).
+- **Target:** Talk to Day-Care Man (Inside).
 
 ## Current Strategy
 - **Plan:** 
-    1. Enter Day-Care House via warp at (11, 15).
-    2. Deposit TOPAZ (Sentret) with Day-Care Lady to free up a slot.
-    3. Enter Yard (if accessible from house) or exit and find Day-Care Man.
-    4. Talk to Day-Care Man to get Odd Egg.
+    1. Select "YES" to deposit a Pokemon.
+    2. Choose TOPAZ (Sentret) to leave with the Day-Care Lady.
+    3. Walk to Day-Care Man at (2, 3).
+    4. Talk to him to receive the Odd Egg.
 - **Completed:** Obtained Bicycle, Defeated Officer Keith.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
