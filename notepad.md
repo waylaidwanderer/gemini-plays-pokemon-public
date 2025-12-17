@@ -6,9 +6,9 @@
 - **Tertiary:** Explore Azalea Town.
 
 ## Strategy
-1.  **Exit House:** Leave Kurt's House.
-2.  **Apricorns:** Check the tree at (8, 2) in Azalea Town.
-3.  **Gym:** Head to the Gym in the SW part of town (check for Rival).
+1.  **Navigate to Gym:** Go to the SW corner (approx (7, 14)) to find the entrance.
+2.  **Rival Battle:** Defeat Silver (Totodile, Gastly, Zubat).
+3.  **Challenge Gym:** Defeat Bugsy.
 
 ## Quest Log
 - **Badges:** Zephyr (1/8)
