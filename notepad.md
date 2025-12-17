@@ -12,12 +12,13 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Exploring left side of 4F.
+- **Action:** Talking to Gameboy Kid at (5, 1).
 - **Plan:** 
-    1. Move to (4, 3).
-    2. Reveal unseen tiles.
-    3. Talk to Gameboy Kid (5, 1) and Bug Catcher (6, 2).
-    4. Head to 5F.
+    1. Move to (5, 2).
+    2. Talk to Gameboy Kid (faces Down).
+    3. Talk to Bug Catcher (6, 2).
+    4. Check Elevator (2, 0).
+    5. Head to 5F.
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
