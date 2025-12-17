@@ -65,3 +65,4 @@
 - Ledge Barrier: (43, 8)-(43, 12) (Right jump) and (39, 13)-(42, 13) (Down jump). Path west discovered at (43, 14)-(43, 15).
 - Barrier at x=37: Wall of trees from y=12 to y=15. Passable via Row 16.
 - YOUNGSTER (ID 2): Wandering near (27, 15). Advised to stay out of grass if Pokemon are weak. (Talked to)
+- Barrier at Row 16: Wall of trees from x=20 to x=23. Passable via Row 15.
