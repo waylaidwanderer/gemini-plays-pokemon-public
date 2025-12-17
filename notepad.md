@@ -40,4 +40,4 @@
 - **Rocket Grunt:** Defeated at (5, 2).
 - **Kurt:** Moved to (7, 5).
 - **Battle:** Twins Amy & May (Spinarak Lv10, Ledyba Lv10) - Defeated. Garnet Lv20.
-- **Battle:** Rival Silver (Gastly, Bayleef/Croconaw/Quilava, Zubat) - Starting.
+- **Battle:** Rival Silver (Gastly Lv12 Active, Croconaw, Zubat) - Garnet Lv21 vs Gastly Lv12. Using Ember.
