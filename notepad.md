@@ -34,3 +34,4 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
+- YOUNGSTER (ID 5): (6, 30) on Route 30.
