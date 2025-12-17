@@ -74,3 +74,7 @@
 - TEACHER (ID 3): (26, 12).
 - YOUNGSTER (ID 4): (22, 7).
 - Poke Mart: Need to locate entrance. Building near (24, 8).
+## Strategy for Cherrygrove City
+1. Locate Route 30 exit (northwest, near (10, 6)).
+2. Heal at Pokemon Center (29, 3) if needed.
+3. Explore Route 30 to find Mr. Pokémon's house.
