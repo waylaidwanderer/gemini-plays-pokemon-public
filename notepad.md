@@ -35,3 +35,5 @@
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
 - YOUNGSTER (ID 5): (6, 30) on Route 30.
+- YOUNGSTER (ID 1): (5, 26) on Route 30.
+- YOUNGSTER (ID 5): (7, 30) on Route 30. (Talked to)
