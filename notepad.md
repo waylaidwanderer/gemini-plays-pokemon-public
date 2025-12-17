@@ -12,10 +12,13 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Navigating to Day-Care House entrance (13, 15).
-- **Reasoning:** Defeated Youngster Ian. Path to Day-Care is now accessible by crossing the median at Row 22.
-- **Plan:** Enter Day-Care, talk to NPCs, then continue North to Goldenrod.
-- **Recent:** Defeated Youngster Ian (Mankey, Diglett). Garnet grew to Level 23.
+- **Action:** Navigating to (10, 14).
+- **Reasoning:**
+    - The path North on the right side (cols 13+) is blocked by a fence at Row 21.
+    - I must use the left path (col 10) to bypass Youngster Ian and the fence.
+    - I will try the Warp at (11, 14) from (10, 14) to see if it enters the Day-Care.
+    - If the warp fails, I will continue North to Goldenrod via Column 9.
+- **Notes:** (11, 15) warp failed previously. (13, 21) confirmed as wall.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
