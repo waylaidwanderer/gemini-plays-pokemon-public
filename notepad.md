@@ -11,7 +11,7 @@
 3.  **Challenge Gym:** Defeat Bugsy.
 
 ## Quest Log
-- **Badges:** Zephyr (1/8)
+- **Badges:** Zephyr, Hive (2/8)
 - **Key Items:** HM05 (Flash), TM31 (Mud-Slap), TM39 (Swift), Lure Ball.
 - **Pending:** Deliver Mystery Egg to Elm, Bug Contest.
 
