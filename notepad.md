@@ -12,10 +12,10 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 3F (Battle Collection).
-- **Action:** Navigating to Clerk at (6, 1).
+- **Action:** Checking Clerk's inventory (Battle Collection).
 - **Plan:** 
-    1. Move to (6, 3).
-    2. Talk to Clerk (Battle Items).
+    1. Check stock (likely X Items).
+    2. Note inventory in notepad.
     3. Explore right side (unseen area).
 - **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
