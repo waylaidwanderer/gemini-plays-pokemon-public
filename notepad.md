@@ -11,10 +11,13 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34 (Initiating Battle).
+- **Status:** On Route 34 (In Battle).
 - **Action:** Battling Youngster at (11, 21).
-- **Reasoning:** Accidentally walked into his line of sight at (11, 22).
-- **Plan:** Defeat Youngster. Then cross to the right lane at Row 22 and head North to the Day-Care.
+- **Plan:** Defeat Youngster.
+- **After Battle:**
+    - Try to find a way to the Day-Care front door (Right lane).
+    - Check columns 16-19 for a gap in the wall at Row 21.
+    - If blocked, try the Left lane warp (11, 15) again or head North to Goldenrod.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
