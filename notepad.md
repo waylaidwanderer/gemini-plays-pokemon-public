@@ -12,9 +12,9 @@
 
 ## Current Strategy
 - **Status:** Entering Day-Care.
-- **Action:** Retrying warp at (11, 15) by stepping off (Left) and back on (Right).
-- **Reasoning:** Warp didn't trigger. Trying to re-enter the tile to trigger the event.
-- **Plan:** If warp fails, assume inaccessible from this side and head North to Goldenrod.
+- **Action:** Stepping Left to (10, 15) then Right to (11, 15) to trigger the warp.
+- **Reasoning:** Warp didn't trigger on first entry. Re-entering from the Left might work.
+- **Plan:** If this fails, investigate the door at (13, 15) by going back to the main road.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
