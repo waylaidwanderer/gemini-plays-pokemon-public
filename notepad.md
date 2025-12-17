@@ -59,4 +59,4 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly to avoid KeyErrors.
 - Exploration: Check building corners and behind counters for unseen tiles.
 - Scripted Events: Some NPCs may move the player during dialogue. Treat the move as a completed interaction unless new dialogue is triggered.
-- COOLTRAINER_M (ID 1): Standing at (50, 12) in the tall grass.
+- COOLTRAINER_M (ID 1): Standing at (50, 12). Advised that Pokemon hide in grass. (Talked to)
