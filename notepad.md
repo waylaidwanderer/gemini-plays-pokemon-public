@@ -12,9 +12,9 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Flanking Left (Column 10) to bypass the Youngster at (11, 20).
-- **Plan:** Navigate up column 10. The Youngster is facing down, so column 11 is dangerous.
-- **Notes:** Day-Care should be nearby. Need to heal at Goldenrod PC.
+- **Action:** Navigating North from (10, 21).
+- **Plan:** Continue North past the Youngster. Look for the Day-Care or more trainers.
+- **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
