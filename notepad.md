@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2732)
-- **Action:** Navigating to (17, 10) to explore East.
-- **Recent:** Spotted an Item Ball at (17, 7) and a Rocker at (15, 14).
-- **Plan:** Loop around the East side to reach the item and the trainer. The West approach is blocked by trees and ledges.
+## Status (Turn 2733)
+- **Action:** Positioning at (17, 8) to pick up item.
+- **Recent:** Spotted Item Ball at (17, 7). Path North blocked by tree, looping via East side.
+- **Plan:** Pick up item, then explore East to find a path South to the Rocker.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
