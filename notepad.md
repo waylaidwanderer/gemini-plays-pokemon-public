@@ -71,3 +71,6 @@
 - Route 30: North exit of Cherrygrove City.
 - Turn 171: Following Gramps on the city tour. He's showing me the sights!
 - Discovered Guide Gent's House at (17, 7).
+- TEACHER (ID 3): (26, 12).
+- YOUNGSTER (ID 4): (22, 7).
+- Poke Mart: Need to locate entrance. Building near (24, 8).
