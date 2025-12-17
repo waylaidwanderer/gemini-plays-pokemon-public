@@ -11,10 +11,12 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34.
-- **Action:** Navigating North along the left side (Column 12) to pass the Youngster safely.
-- **Plan:** Head straight North through the tall grass. Run from any wild battles to save time/health.
-- **Notes:** Need to heal at Goldenrod PC.
+- **Status:** On Route 34 (In Battle).
+- **Action:** Escaping from Wild Drowzee (Again?).
+- **Plan:** Run from battle. Head North through the tall grass to Goldenrod City.
+- **Notes:**
+    - Wade called: Bug-Catching Contest is at National Park today!
+    - Strange battle loop: Text said "Got away safely" then phone rang, now back in battle.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
