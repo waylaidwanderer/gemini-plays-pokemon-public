@@ -11,14 +11,12 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34 (Heading North).
-- **Action:** Navigating North to Goldenrod City.
-- **Recent:** Defeated Camper Todd (Psyduck Lv14).
-- **Plan:** Enter Goldenrod City. Heal at PC.
-- **Notes:** 
-    - Day-Care entrance from Route 34 (South) seems inaccessible or tricky. Warps failed.
-    - Will try to access Day-Care from the North or check if the main door is elsewhere.
-    - Wade called about Bug-Catching Contest.
+- **Status:** Entering Goldenrod City.
+- **Action:** Walking North from Route 34.
+- **Plan:** Locate Pokemon Center and heal.
+- **Notes:**
+    - Day-Care entrance from Route 34 South was blocked/warps failed.
+    - Need to check if I can access it from the city side or if I missed a specific path.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
