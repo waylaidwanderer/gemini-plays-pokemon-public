@@ -12,12 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
-- **Action:** Exiting TM Corner.
+- **Action:** Exploring left side of 5F.
 - **Plan:** 
-    1. Clear "Please come again!" text.
-    2. Navigate to (4, 3) to explore left side.
-    3. Locate Elevator at (2, 0).
-    4. Head to Roof via stairs at (15, 0).
+    1. Navigate to (2, 2) to find Elevator.
+    2. Mark Elevator at (2, 0).
+    3. Head to Roof via stairs at (15, 0).
 - **Observed Stock (TM Corner):** TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch). All ¥3000.
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
