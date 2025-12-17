@@ -20,10 +20,10 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2745)
-- **Action:** Navigating to (13, 1) to explore the West maze.
-- **Recent:** Picked up Ether.
-- **Plan:** Zig-zag through the trees on the West side (cols 13-15) to uncover unseen tiles.
+## Status (Turn 2746)
+- **Action:** Navigating to (11, 4) to explore the West maze.
+- **Recent:** Spotted Youngster at (12, 1).
+- **Plan:** Go South down col 14, then West to row 4 to uncover unseen tiles.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
