@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Reading Trainer Tips sign at (13, 33).
-- **Plan:** Read sign, then head North along the left side (cols 12-14) to avoid the Youngster at (15, 32).
+- **Action:** Navigating North along the left side (Column 12) to pass the Youngster safely.
+- **Plan:** Head straight North through the tall grass. Run from any wild battles to save time/health.
 - **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
