@@ -12,12 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Listening to Gameboy Kid.
+- **Action:** Talking to Bug Catcher at (6, 2).
 - **Plan:** 
-    1. Advance dialogue.
-    2. Talk to Bug Catcher at (6, 2).
-    3. Mark Elevator at (2, 0).
-    4. Head to 5F.
+    1. Talk to Bug Catcher.
+    2. Check Elevator at (2, 0).
+    3. Head to 5F via stairs at (12, 0).
 - **Observed Stock (Medicine Box):** Protein (9800), Iron (9800), Carbos (9800), Calcium (9800), HP Up (9800)...
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
