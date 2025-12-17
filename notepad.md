@@ -12,8 +12,8 @@
 
 ## Current Strategy
 - **Status:** On Route 34 (In Battle).
-- **Action:** Battling Youngster at (11, 21).
-- **Plan:** Defeat Youngster.
+- **Action:** Battling Youngster Ian at (11, 21).
+- **Plan:** Defeat Youngster Ian.
 - **After Battle:**
     - Try to find a way to the Day-Care front door (Right lane).
     - Check columns 16-19 for a gap in the wall at Row 21.
