@@ -17,7 +17,7 @@
     - The warp at (11, 14) didn't work.
     - The path to the main door (13, 15) is blocked from the South.
     - Reading the sign might clarify if this is the entrance or exit.
-- **Plan:** Read sign. Then head North via column 9 to Goldenrod City (bypassing or fighting Officer).
+- **Plan:** Read sign. Then head North via column 9/10 to Goldenrod City.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
