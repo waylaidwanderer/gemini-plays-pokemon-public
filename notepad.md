@@ -56,5 +56,6 @@
 - **Action:** Heading West from (8, 24) to explore the forest.
 - **Action:** Reading sign at (3, 17) and continuing North towards unseen tiles.
 - **Observation:** Sign at (3, 17) warns to watch out for dropped items.
-- **Discovery:** Detected an item (Object 9) at (9, 17) based on game state update.
+- **Event:** Togepi hatched! (Nickname skipped by accident).
+- **Discovery:** Detected an item (Object 9) at (9, 17).
 - **Action:** Heading to retrieve the item at (9, 17).
