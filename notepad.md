@@ -1,10 +1,10 @@
 # Johto Journey: Gem's Log
 
-## Strategic Plan: Progress to Mr. Pokémon
-1. Obtain the Potion from Professor Elm's Aide.
-2. Receive the Pokédex and Poké Balls from Professor Elm (after visiting Mr. Pokémon).
-3. Exit New Bark Town and head west to Route 29.
-4. Reach Mr. Pokémon's house to collect the Mystery Egg.
+## Strategic Plan: Visit Mr. Pokémon
+1. Exit New Bark Town and head west to Route 29.
+2. Pass through Cherrygrove City.
+3. Find Mr. Pokémon's house north of Cherrygrove City.
+4. Collect the Mystery Egg and return it to Professor Elm.
 
 ## Tile Mechanics
 ### Global
@@ -35,8 +35,7 @@
 
 ### ElmsLab (24_5)
 - PROF_ELM (ID 1): Researcher at (5, 2).
-- POKE_BALLs (IDs 4, 5): Starter Pokémon at (7, 3), (8, 3).
-- AIDE (ID 2): Stands at (2, 9). Likely gives a starting item.
+- AIDE (ID 2): Gave a Potion for the journey.
 
 ## Discovered Locations (New Bark Town 24_4)
 - Player's House: Door (13, 5), Sign (11, 5).
@@ -50,4 +49,5 @@
 - Buildings are often larger than they appear; check all sides for entrances.
 - Signs identify buildings without entering.
 - Starter Pokémon: Cyndaquil (Fire), Totodile (Water), Chikorita (Grass). Cyndaquil chosen. Nickname: Calcifer.
-- Nicknaming: Case toggle at (0,4), DEL at (3,4), END at (6,4). Press Start to jump to END.
+- Tool Usage: Verify input schemas and handle input dictionaries explicitly to avoid KeyErrors.
+- Exploration: Check building corners and behind counters for unseen tiles.
