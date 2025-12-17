@@ -43,8 +43,8 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Returning to start position (15, 25) to verify if Farfetch'd has reset.
-- **Hypothesis:** Bird reset to (15, 25) after battle/off-screen movement.
+- **Current Status:** Puzzle reset confirmed. Bird is back at (15, 25).
+- **Strategy:** Position North at (15, 24) to push Farfetch'd South to Row 28. Then flank East to push it West towards the Apprentice.
 - **Goal:** Herd to Apprentice at (7, 28).
 
 ## Farfetch'd Behavior Notes
