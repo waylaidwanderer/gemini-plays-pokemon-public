@@ -11,13 +11,10 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** Backtracking on Route 34.
-- **Action:** Navigating South via Column 10 to (11, 22).
-- **Reasoning:**
-    - (11, 16) is a WALL, blocking direct South movement.
-    - Youngster blocks (11, 20).
-    - Median wall gap is at Row 22.
-- **Plan:** Go South to (11, 22), cross to right lane, then head North to Day-Care House door at (13, 15).
+- **Status:** On Route 34 (Initiating Battle).
+- **Action:** Battling Youngster at (11, 21).
+- **Reasoning:** Accidentally walked into his line of sight at (11, 22).
+- **Plan:** Defeat Youngster. Then cross to the right lane at Row 22 and head North to the Day-Care.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
