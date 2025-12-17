@@ -1,14 +1,5 @@
 # Gem's Journey in Pokémon Crystal
 
-## Current Objectives
-- **Primary:** Defeat Whitney (Goldenrod Gym).
-- **Secondary:** Catch Heracross in Azalea Town.
-- **Tertiary:** Train Rocky/Heracross for Whitney.
-
-## Navigation
-- **Location:** Ilex Forest (3_52).
-- **Target:** Headbutt Trees (Hunting Heracross).
-
 ## Current Strategy
 - **Plan:** 
     1. Spam Headbutt on the tree at (23, 11) in Azalea Town (Mountain Group).
