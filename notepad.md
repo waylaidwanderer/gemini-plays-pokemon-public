@@ -41,5 +41,5 @@
 - **Battle:** Rival Silver (Gastly, Croconaw, Zubat) - Defeated.
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Find the Farfetch'd to progress past the Cut tree.
-- **Current Status:** Farfetch'd returned to (15, 25). Interacting from North to herd South.
+- **Current Status:** Farfetch'd returned to (15, 25). Interacting from North to herd South. (Interrupted by Wild Venonat).
 - **Tip:** Wade called (Turn 2304). He has berries and is waiting on Route 31.
