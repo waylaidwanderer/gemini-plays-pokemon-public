@@ -11,10 +11,11 @@
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** On Route 34 (Initiating Battle).
-- **Action:** Battling Youngster (ID 1) who spotted me from (13, 7).
-- **Reasoning:** He walked over to (9, 7) to challenge me.
-- **Plan:** Defeat Youngster. Continue North to Goldenrod.
+- **Status:** On Route 34 (In Battle).
+- **Action:** Battling Camper Todd (Psyduck Lv14).
+- **Plan:** Use Quick Attack (Slot 1) because Water resists Fire (Ember).
+- **Reasoning:** Quick Attack (Power 40) > Ember (Power 40 * 1.5 STAB * 0.5 Resist = 30).
+- **After Battle:** Continue North to Goldenrod City.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
