@@ -23,7 +23,7 @@
 - WALL: Impassable.
 
 ### NPCs & Interactions
-- MOM (7, 4): Standing in the kitchen area.
+- MOM (8, 4): Standing in the kitchen area.
 
 ## Strategy & Progress Update
 - Arrived in PlayersHouse1F.
@@ -36,7 +36,3 @@
 3. Talk to Professor Elm to receive a starter Pokémon.
 4. Obtain the Pokédex and other starting items.
 5. Head West towards Route 29.
-## Progress Update
-- Received Pokégear from Mom.
-- Setting the day to Wednesday.
-- Next: Talk to Mom again to finish the intro, then head to Elm's Lab.
