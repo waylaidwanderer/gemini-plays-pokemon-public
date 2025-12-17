@@ -43,7 +43,12 @@
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
 - **Last Known:** (17, 23) (Before Battle).
-- **Current Status:** Interacted with Farfetch'd at (15, 25) from North. Text is open. Clearing to observe movement South.
+- **Current Status:** Bird moved to (15, 28). Approaching (15, 27) to execute "The U-Turn Maneuver".
+- **Plan:**
+  1. Push South to (15, 29).
+  2. Flank East (via 16, 28) and Push West to (14, 29).
+  3. Flank South (via 15, 30) and Push North to (14, 28).
+  4. Flank East and Push West to Apprentice.
 - **Strategy:** Position North at (15, 24) to push Farfetch'd South to Row 28. Then flank East to push it West towards the Apprentice.
 - **Goal:** Herd to Apprentice at (7, 28).
 
