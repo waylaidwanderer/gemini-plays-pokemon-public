@@ -11,9 +11,9 @@
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
 ## Current Strategy
-- **Status:** On Route 34.
-- **Action:** Flanking right (Column 16) to bypass the Lass at (10, 26) and avoid Pokefan M at (18, 28).
-- **Plan:** Navigate through the tall grass on the right to reach (16, 25). Then continue North.
+- **Status:** On Route 34 (Entering Battle).
+- **Action:** Engaged by Pokefan M at (17, 28).
+- **Plan:** Defeat the trainer. He mentioned the Day-Care, so he might have strong/high-level Pokemon.
 - **Notes:** Need to heal at Goldenrod PC.
 
 ## Tile Mechanics
