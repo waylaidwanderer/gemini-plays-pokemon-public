@@ -10,10 +10,10 @@
 - **Current Action:** Investigating blockage at (14, 3).
 - **Target:** If (14, 3) is impassable, look for alternate routes or hidden items.
 
-## Status (Turn 2759)
-- **Action:** Going back to talk to Youngster Wayne at (12, 1).
-- **Reasoning:** (14, 3) blocked movement but shows as FLOOR. Investigating if Youngster triggers a change or has a hint.
-- **Plan:** Talk to Youngster. Then retry South movement at (14, 3). If blocked, backtrack East to find another path.
+## Status (Turn 2761)
+- **Action:** Abandoning Youngster chat. Navigating South to (14, 4) then West.
+- **Reasoning:** Previous confusion about position (14, 2) vs (14, 3) suggests (14, 3) is traversable.
+- **Plan:** Navigate to (11, 4) to reveal unseen tiles in the West maze.
 
 ## Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as wall from North.
