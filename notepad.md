@@ -63,3 +63,4 @@
 - LEDGE_HOP_DOWN: One-way traversable. Can jump down (south) from the top tile, but acts as a wall from the bottom.
 - TALL_GRASS: Standard traversable grass that triggers wild encounters.
 - Ledge Barrier: (43, 8)-(43, 12) (Right jump) and (39, 13)-(42, 13) (Down jump). Path west discovered at (43, 14)-(43, 15).
+- Barrier at x=37: Wall of trees from y=12 to y=15. Passable via Row 16.
