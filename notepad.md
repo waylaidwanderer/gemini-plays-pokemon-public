@@ -1,7 +1,7 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Obtain Starter Pokémon
-1. Explore New Bark Town to locate Professor Elm's Lab.
+1. Explore New Bark Town to locate Professor Elm's Lab. (Done)
 2. Enter the Lab and speak with Professor Elm.
 3. Choose a starter Pokémon and nickname it creatively.
 4. Obtain the Pokédex and start the journey west to Route 29.
@@ -20,6 +20,7 @@
 ### New Bark Town (24_4)
 - TEACHER (ID 1): Standing near the town sign at (6, 8). Mentions Pokégear.
 - FISHER (ID 2): Wandering the southern part of town.
+- RIVAL (ID 3): Peering into the Lab window at (3, 2).
 - MOM (PlayersHouse1F): Provides Pokégear and sets the clock.
 
 ### PlayersNeighborsHouse (24_8)
@@ -29,8 +30,8 @@
 - Player's House: Door (13, 5), Sign (11, 5).
 - Elm's House: Door (11, 13), Sign (9, 13).
 - Neighbor's House: Door (3, 11).
+- Professor Elm's Lab: Door (6, 3), Sign (3, 3).
 - Town Sign: (8, 8).
-- Large Building (NE): Walls seen from (7, 2) to (18, 2). Potential Lab location.
 
 ## Lessons Learned
 - NPCs act as walls; always plan paths around them.
