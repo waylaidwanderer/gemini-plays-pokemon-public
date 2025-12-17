@@ -20,13 +20,12 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2752)
-- **Action:** Battling Youngster Wayne.
+## Status (Turn 2753)
+- **Action:** Battling Youngster Wayne (Paras).
 - **Location:** (13, 1).
-- **Observation:** Youngster is at (12, 1).
-- **Plan:** Use Ember (Slot 4) to defeat Ledyba.
-- **Battle State:** Opponent: Ledyba Lv8. Me: Quilava Lv22.
-- **Note:** After battle, verify if path West is possible or if I need to go back South.
+- **Plan:** Use Ember to defeat Paras.
+- **Pathing Issue:** Movement South at (14, 2) -> (14, 3) failed previously. After battle, inspect (14, 3) for invisible obstacles or interactables.
+- **Map Note:** (12, 1) appears to be a dead end. (10, 1) appears isolated? Possible map alignment error in mental model.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
