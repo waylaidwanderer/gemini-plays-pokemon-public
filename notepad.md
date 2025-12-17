@@ -12,11 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** checking full inventory of Clerk 1.
+- **Action:** Positioning to talk to Clerk 2.
 - **Plan:** 
-    1. Scroll down to see if Great Balls or Revives are sold here.
-    2. If not, check Clerk 2.
-    3. Buy necessary items.
+    1. Talk to Clerk 2 (Ball/TM Shop).
+    2. Buy Great Balls and Revives.
+    3. Explore left side of room.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
 - **Action:** Moving to Clerk 2 (11, 6) to check for Poke Balls and TMs.
 - **Notes:**
