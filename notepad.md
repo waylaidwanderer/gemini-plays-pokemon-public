@@ -1,10 +1,9 @@
 # Johto Journey: Gem's Log
 
 ## Strategic Plan: Progress to Mr. Pokémon
-1. Finish nicknaming Cyndaquil "Calcifer".
-2. Receive the Pokédex and Poké Balls from Professor Elm and his Aide.
-3. Exit New Bark Town and head west to Route 29.
-4. Reach Mr. Pokémon's house to collect the Mystery Egg.
+1. Receive the Pokédex and Poké Balls from Professor Elm and his Aide.
+2. Exit New Bark Town and head west to Route 29.
+3. Reach Mr. Pokémon's house to collect the Mystery Egg.
 
 ## Tile Mechanics
 ### Global
@@ -35,8 +34,8 @@
 
 ### ElmsLab (24_5)
 - PROF_ELM (ID 1): Researcher at (5, 2).
-- POKE_BALLs (IDs 3, 4, 5): Starter Pokémon at (6, 3), (7, 3), (8, 3).
-- AIDE (ID 2): Stands in the lab.
+- POKE_BALLs (IDs 4, 5): Starter Pokémon at (7, 3), (8, 3).
+- AIDE (ID 2): Stands at (2, 9). Likely gives a starting item.
 
 ## Discovered Locations (New Bark Town 24_4)
 - Player's House: Door (13, 5), Sign (11, 5).
