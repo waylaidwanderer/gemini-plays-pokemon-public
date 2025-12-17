@@ -20,11 +20,11 @@
 3.  Find the Headbutt tutor (if applicable) or other items.
 4.  Train Belladonna.
 
-## Status (Turn 2750)
-- **Action:** Talking to Youngster at (12, 1).
-- **Recent:** Moved to (13, 1).
-- **Plan:** Talk to the Youngster. If he battles, defeat him. Then retry the path South at (14, 3) or explore other options.
-- **Note:** Movement South from (14, 2) to (14, 3) failed previously. Need to investigate why.
+## Status (Turn 2752)
+- **Action:** Battling Youngster Wayne.
+- **Location:** (13, 1).
+- **Observation:** Youngster is at (12, 1), which appears to be a dead end surrounded by walls/trees. He is not blocking a path West.
+- **Plan:** Win battle. Then investigate the blockage South of (14, 2) again, as that is the likely path forward.
 
 ## Inventory Notes
 - **Charcoal:** Obtained. Boosts Fire-type moves. Give to Garnet.
