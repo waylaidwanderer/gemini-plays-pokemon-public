@@ -52,3 +52,5 @@
 - **Status:** Entering Ilex Forest with supplies (10 Balls, 3 Super Potions).
 - **Observation:** Ilex Forest Shrine text: "ILEX FOREST SHRINE... It's in honor of the forest's protector...". No event triggered yet.
 - **Hypothesis:** The shrine might be related to a later event or a specific item (GS Ball?).
+- **Navigation:** Path East of the cut tree is blocked. Path North is blocked by the Shrine. Found a path heading West at Row 24.
+- **Action:** Heading West from (8, 24) to explore the forest.
