@@ -7,13 +7,14 @@
 
 ## Navigation
 - **Location:** Route 34 (11_1).
-- **Target:** Day-Care (South).
+- **Target:** Day-Care House Interior.
 
 ## Current Strategy
 - **Plan:** 
-    1. Enter Day-Care Garden via warp at (11, 15).
-    2. Enter Day-Care House.
-    3. Get Odd Egg from Day-Care Man.
+    1. Enter Day-Care House via warp at (11, 15).
+    2. Deposit TOPAZ (Sentret) with Day-Care Lady to free up a slot.
+    3. Enter Yard (if accessible from house) or exit and find Day-Care Man.
+    4. Talk to Day-Care Man to get Odd Egg.
 - **Completed:** Obtained Bicycle, Defeated Officer Keith.
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
