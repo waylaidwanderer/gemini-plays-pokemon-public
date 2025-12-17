@@ -12,12 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 3F (Battle Collection).
-- **Action:** checking full inventory of Battle Collection.
+- **Action:** Exploring right side of 3F.
 - **Plan:** 
-    1. Scroll down to see remaining items (Dire Hit, Guard Spec, etc.).
-    2. Record full inventory.
-    3. Buy X Special if nothing else is urgent.
-    4. Explore right side.
+    1. Move to (12, 3) to reveal unseen area.
+    2. Check for TMs or other items.
+    3. Find stairs to 4F.
 - **Observed Stock (Battle Collection):** X Speed (350), X Special (350), X Defend (550), X Attack (500)...
 - **Learned:** Rocker says X Special boosts Sp. Atk.
 - **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal. (Medicines).
