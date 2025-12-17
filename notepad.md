@@ -60,3 +60,4 @@
 - Moves opposite to interaction.
 - Can "fly" over obstacles if cornered (e.g. corner loop).
 - Resets on map exit (and possibly battles).
+- **Battle:** Wild Oddish. Plan: Catch it! It can learn Cut (HM01). Using Great Ball if necessary.
