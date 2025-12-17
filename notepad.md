@@ -38,3 +38,4 @@
 - **LEDGE_HOP_LEFT:** One-way Left.
 - **LEDGE_HOP_DOWN:** One-way Down.
 - **WARP_CARPET_RIGHT:** Warps when stepped on or walked right into.
+- **Observation:** Farfetch'd is present in the Charcoal Kiln (returned successfully).
