@@ -12,11 +12,12 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** Browsing Clerk 1's inventory.
+- **Action:** checking full inventory of Clerk 1.
 - **Plan:** 
-    1. Talk to Clerk to see stock (likely Potions/Balls).
-    2. If no TMs, head to 3F/4F/5F. TMs are likely on 5F.
-    3. Buy useful items if needed (e.g., Great Balls?).
+    1. Scroll down to see if Great Balls or Revives are sold here.
+    2. If not, check Clerk 2.
+    3. Buy necessary items.
+- **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal...
     4. Continue ascending.
 - **Notes:**
     - Directory confirmed: "2F TRAINER'S MARKET".
