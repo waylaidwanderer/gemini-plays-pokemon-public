@@ -58,8 +58,6 @@
   - **Forest Group (No Heracross):** Ilex Forest (Hoothoot, Pineco).
   - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross, Ekans).
   - **Verified Trees:**
-    - Ilex (12,12), (11,12): Forest Group.
-    - Azalea (24-26, 11): Mountain Group (Heracross, Aipom, Spearow, Ekans).
-  - **Duds:** Ilex (12,15), (12,14), (12,13).
-  - **Farming Strategy:** Rotate between trees (24,11), (25,11), and (26,11). Move significantly between attempts to avoid loop detection.
-  - **Farming Positions:** (23, 11) [Left], (24, 10) [Top], (25, 10) [Top], (26, 10) [Top].
+    - Ilex (12,12), (11,12): Forest Group (Hoothoot/Pineco).
+    - Azalea (24-26, 11): Mountain Group (Heracross/Aipom/Spearow/Ekans).
+  - **Farming Strategy:** Rotate between Azalea trees (24-26, 11) to avoid loops.
