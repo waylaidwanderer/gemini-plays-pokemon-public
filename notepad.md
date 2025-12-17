@@ -17,7 +17,7 @@
     1. Scroll down to see if Great Balls or Revives are sold here.
     2. If not, check Clerk 2.
     3. Buy necessary items.
-- **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal...
+- **Observed Stock (Clerk 1):** Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal...
     4. Continue ascending.
 - **Notes:**
     - Directory confirmed: "2F TRAINER'S MARKET".
