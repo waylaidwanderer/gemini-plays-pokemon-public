@@ -12,11 +12,11 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Dept. Store 2F.
-- **Action:** Closing phone call.
+- **Action:** Reading Directory at (14, 0).
 - **Plan:** 
-    1. Read Directory at (14, 0).
-    2. Check TM selection.
-    3. Ascend to 3F.
+    1. Check TMs at the counter (stand at 13, 3).
+    2. Ascend to 3F via stairs at (12, 0).
+    3. Continue to Rooftop.
 - **Notes:**
     - Wade (Bug Catcher) wants a rematch on Route 31. (Ignoring for now).
     - Currently on 2F (Map 11_12).
