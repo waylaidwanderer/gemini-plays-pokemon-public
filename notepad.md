@@ -12,7 +12,7 @@
 
 ## Current Strategy
 - **Status:** Inside Goldenrod Pokemon Center.
-- **Action:** Marking exits and approaching Nurse Joy.
+- **Action:** Walking to the counter (3, 3) to talk to Nurse Joy.
 - **Plan:** Heal party. Then explore Goldenrod (Dept Store, Game Corner, Gym).
 - **Notes:**
     - Day-Care entrance from Route 34 South was blocked. Checking for city access.
