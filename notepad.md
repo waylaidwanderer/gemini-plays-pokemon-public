@@ -42,22 +42,21 @@
 - **Info:** Youngster at (7, 28) lost his boss's Farfetch'd (which knows Cut) in the forest.
 - **Task:** Herd Farfetch'd East from (15, 28) to navigate around the central wall.
 ## Puzzle Status: Farfetch'd Herding
-- **Current Status:** Bird found at (10, 35) (West of the gap).
+- **Current Status:** Player at (11, 35), Bird at (10, 35).
 - **Goal:** Herd Bird North along Column 8 to Apprentice at (7, 28).
-- **Detailed Plan:**
-    1.  Navigate to (11, 35) (East of Bird).
-    2.  Push West (Bird -> 9, 35).
-    3.  Follow to (10, 35) and Push West (Bird -> 8, 35).
-    4.  **Cornering Maneuver:** At (8, 35), West is blocked (Wall). South is blocked (Wall). Pushing West from (9, 35) should force Bird North to (8, 34).
-    5.  Get South of Bird at (8, 35) and push North to (7, 28).
+- **Action:** Interact Left (Push West).
+- **Plan:**
+    1.  Push West (Bird -> 9, 35).
+    2.  Follow and Push West (Bird -> 8, 35).
+    3.  Corner at (8, 35). Push West to force North deflection.
+    4.  Herd North.
 
-## Reflection Log (Turn 2445)
-- **Execution:** No major deferrals. Sticking to "Col 14 Shift" plan.
-- **Hygiene:** Consolidated puzzle plans. Removed obsolete "Loop" and "Reverse Loop" strategies.
-- **Map:** Markers are accurate.
-- **Goals:** Clear and focused on immediate puzzle steps.
-- **Strategy:** Position North at (15, 24) to push Farfetch'd South to Row 28. Then flank East to push it West towards the Apprentice.
-- **Goal:** Herd to Apprentice at (7, 28).
+## Reflection Log (Turn 2549)
+- **Review:** Last 50 turns focused on herding. No major deferrals.
+- **Hygiene:** Notepad covers puzzle state well. Map markers used for tracking bird.
+- **Strategy:** Manual herding is effective. Bird flees large distances occasionally; need to be ready to chase.
+- **Lesson:** Farfetch'd behavior includes "fleeing" phases where it moves multiple tiles. Deflection logic (wall bounce) seems consistent.
+- **Action:** Proceeding with "Corner and Deflect North" strategy.
 
 ## Farfetch'd Behavior Notes
 - Moves opposite to interaction.
