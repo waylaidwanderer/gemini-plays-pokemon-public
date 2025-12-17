@@ -6,16 +6,18 @@
 - **Tertiary:** Find Headbutt Tutor (Deprioritized).
 
 ## Navigation
-- **Location:** Goldenrod Dept. Store 4F (11_14).
-- **Current Action:** Checking Medicine Box inventory.
+- **Location:** Goldenrod Dept. Store 5F (11_15).
+- **Current Action:** Talking to Twin at (9, 1).
 - **Target:** Day-Care House (13, 15).
 
 ## Current Strategy
-- **Status:** Inside Goldenrod Dept. Store 4F.
-- **Action:** Finishing Bug Catcher dialogue.
+- **Status:** Inside Goldenrod Dept. Store 5F (TM Corner).
+- **Action:** Talking to Twin at (9, 1).
 - **Plan:** 
-    1. Clear text.
-    2. Head to 5F via stairs at (12, 0).
+    1. Talk to Twin (Up from 9, 2).
+    2. Move to (8, 3) to check Clerk's inventory.
+    3. Explore left side (Elevator).
+    4. Head to Roof via stairs at (15, 0).
 - **Learned:** 
     - Rocker (3F): X Special boosts Sp. Atk.
     - Gameboy Kid (4F): Trade evolutions (Machoke, etc.).
