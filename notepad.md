@@ -12,12 +12,12 @@
 
 ## Current Strategy
 - **Status:** On Route 34.
-- **Action:** Flanking Left (Column 8) to bypass Officer Jenny at (9, 11).
+- **Action:** Moving North along Column 8 to (8, 7).
 - **Reasoning:** 
-    - Officer is at (9, 11) facing DOWN.
-    - Walking up Column 9 triggers a battle.
-    - Column 8 should be safe if she doesn't turn.
-- **Plan:** Move to (8, 11) and continue North to Goldenrod.
+    - Bypassing Officer at (9, 11) (Facing Down).
+    - Avoiding Youngster at (13, 7) (Facing Left, approx range 4).
+    - Staying in Column 8 keeps me out of range (Col 8 vs Col 13 is 5 tiles).
+- **Plan:** Continue North to Goldenrod City.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8)
