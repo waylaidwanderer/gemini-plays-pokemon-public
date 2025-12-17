@@ -7,71 +7,46 @@
 4. Collect the Mystery Egg and return it to Professor Elm.
 
 ## Route 29 (24_3)
-### Tile Mechanics
-- FLOOR: Standard traversable ground.
-- WALL: Impassable barrier (trees/ledges).
-- GRASS: Potential wild Pokemon encounters.
+- Started exploration at Turn 129.
+- Current Status: Heading west on Row 10 floor path.
+- Wild Encounters: Pidgey (Lv2).
+- Key Locations:
+    - New Bark Town Entrance: (59, 9).
+    - Route Sign: (51, 7).
+    - Northern Path Gap: (36, 9) floor access.
+- Obstacles:
+    - HM Obstacle: Cut Tree at (21, 11) and (30, 9).
+    - HM Obstacle: Headbutt Trees at (18, 13)-(21, 13).
 
-### Discovered Locations
-- Route Sign: (51, 7).
-- New Bark Town Entrance: (59, 9).
-
-### Wild Encounters
-- Pidgey (Lv2)
-
-## Tile Mechanics (Global)
+## Tile Mechanics (Verified)
 - FLOOR: Standard traversable ground.
 - WALL: Impassable barrier.
-- DOOR: Warp tile leading inside/outside.
-- STAIRCASE: Warp tile between floors.
-- WATER: Impassable without Surf HM.
-- HEADBUTT_TREE: Impassable small tree.
-- WARP_CARPET_DOWN: Exit tile at the bottom of building interiors.
-- BOOKSHELF: Impassable background object.
-- WINDOW: Impassable background object.
-- HEALING_MACHINE: Potential restoration point at (2, 1).
-- TRASHCAN: Impassable background object at (9, 3).
-- PC: Impassable background object at (3, 5).
-- BOOKSHELVES: Impassable at (6,1)-(9,1) and (6,7)-(9,7).
-- WINDOW: Impassable at (5,0).
+- TALL_GRASS: Standard traversable grass; triggers wild encounters.
+- LEDGE_HOP_RIGHT: One-way (East only). Jump from left, wall from right.
+- LEDGE_HOP_DOWN: One-way (South only). Jump from top, wall from bottom.
+- LEDGE_HOP_LEFT: One-way (West only). Jump from right, wall from left.
+- DOOR / STAIRCASE / WARP_CARPET: Warp points between maps or floors.
+- HEADBUTT_TREE: Impassable; requires Headbutt move.
+- CUT_TREE: Impassable; requires Cut HM.
+- WATER: Impassable; requires Surf HM.
+- Interactive: PC (activates from below), Bookshelves, Windows, Trashcans (all impassable).
 
 ## NPCs & Interactions
 ### New Bark Town (24_4)
-- TEACHER (ID 1): Standing near the town sign at (6, 8).
-- FISHER (ID 2): Wandering the southern part of town.
-- RIVAL (ID 3): Peering into the Lab window at (3, 2).
-- MOM (PlayersHouse1F): Provides Pokégear.
-
-### PlayersNeighborsHouse (24_8)
-- COOLTRAINER_F (ID 1): Researcher enthusiast at (2, 3).
-
-### ElmsLab (24_5)
-- PROF_ELM (ID 1): Researcher at (5, 2).
-- AIDE (ID 2): Located in the lab.
+- TEACHER (ID 1): Near town sign (6, 8).
+- FISHER (ID 2): Southern town area.
+- RIVAL (ID 3): Lab window (3, 2).
+- MOM: PlayersHouse1F; gives Pokégear.
+- PROF_ELM: ElmsLab (5, 2); gives starter and quest.
 
 ### Route 29 (24_3)
-- COOLTRAINER_M (ID 1): Standing at (50, 12). Advised that Pokemon hide in grass. (Talked to)
+- COOLTRAINER_M (ID 1): (50, 12). Mentions Pokemon in grass. (Talked to)
+- YOUNGSTER (ID 2): (27, 15). Advised to stay out of grass if weak. (Talked to)
+- TEACHER (ID 3): (15, 11).
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
-- Buildings are often larger than they appear; check all sides for entrances.
-- Signs identify buildings without entering.
-- Tool Usage: Verify input schemas and handle input dictionaries explicitly to avoid KeyErrors.
-- Exploration: Check building corners and behind counters for unseen tiles.
-- Scripted Events: Some NPCs may move the player during dialogue. Treat the move as a completed interaction unless new dialogue is triggered.
-- LEDGE_HOP_RIGHT: One-way traversable. Can jump to the right (east) from the left tile, but acts as a wall from the right.
-- LEDGE_HOP_DOWN: One-way traversable. Can jump down (south) from the top tile, but acts as a wall from the bottom.
-- TALL_GRASS: Standard traversable grass that triggers wild encounters.
-- Ledge Barrier: (43, 8)-(43, 12) (Right jump) and (39, 13)-(42, 13) (Down jump). Path west discovered at (43, 14)-(43, 15).
-- Barrier at x=37: Wall of trees from y=12 to y=15. Passable via Row 16.
-- YOUNGSTER (ID 2): Wandering near (27, 15). Advised to stay out of grass if Pokemon are weak. (Talked to)
-- Barrier at Row 16: Wall of trees from x=20 to x=23. Passable via Row 15.
-- TEACHER (ID 3): Wandering near (15, 11).
-- HM Obstacle: Cut Tree at (21, 11).
-- HM Obstacle: Headbutt Trees at (18, 13)-(21, 13).
-- Barrier at x=13: Wall of trees from y=14 to y=17. Passable via Row 11.
-- Ledge Barrier: (14, 13)-(17, 13) are LEDGE_HOP_DOWN. Cannot move North from Row 14.
-- Route 29 North Path: Passable via x=23 (Row 13 -> Row 11).
-- Route 29 North Path: Passable via x=31 (Row 13 -> Row 11).
-- Northern Path: Gap in tree wall discovered at x=36 (Row 9 -> Row 7).
-- Route 29 North Path: Row 7 appears to be a clear path west from x=36.
+- Buildings are often larger than they appear; check all sides.
+- Tool Usage: Verify input schemas and handle input dictionaries explicitly.
+- Exploration: Check building corners and behind counters.
+- Scripted Events: Treat character movement during dialogue as completed interaction.
