@@ -14,7 +14,8 @@
 
 ## Union Cave 1F Progress
 - Firebreather Bill (14, 19) defeated.
-- Current: Battling Pokemaniac Larry at (4, 21) (Start: Turn 2387).
+- Pokemaniac Larry (4, 21) defeated.
+- Fisher (Moving) gives light advice.
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
@@ -27,3 +28,4 @@
 ## Trainer Rosters
 - Firebreather Bill (14, 19): Koffing (Lv6), Koffing (Lv6).
 - Pokemaniac Larry (4, 21): Slowpoke (Lv10).
+- Fisher (Moving): Non-battling NPC.
