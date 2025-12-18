@@ -23,4 +23,4 @@
 ## Trainer Rosters
 - Firebreather Bill (14, 19): Koffing x2 (Lv6).
 - Pokemaniac Larry (4, 21): Slowpoke (Lv10).
-- Firebreather Ray (11, 27): Vulpix (Lv9), ???
+- Firebreather Ray (11, 27): Vulpix (Lv9). (Defeated)
