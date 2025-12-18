@@ -8,6 +8,8 @@
 - LEDGE_HOP_DOWN: One-way (South only).
 - LEDGE_HOP_LEFT: One-way (West only).
 - DOOR / STAIRCASE / WARP_CARPET: Warp points.
+- BOOKSHELF: Impassable (acts as WALL).
+- WINDOW: Impassable (acts as WALL).
 - HEADBUTT_TREE / CUT_TREE / WATER: Impassable; require HM moves.
 - unseen (❓): Unknown traversability; requires exploration.
 
@@ -41,8 +43,4 @@
 - Waypoint: Face counter at (3, 3) or (4, 3) to heal.
 - GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
 - TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
-- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name is "MALICE". (Turn 305)
-## ElmsLab (24_5) Update
-- OFFICER (ID 6): (5, 3). Investigating a crime.
-- POKE_BALL (ID 5): (8, 3). On the table.
-- Event: Red-haired boy stole a Pokemon from the lab. (Turn 298)
+- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name is "MALICE". (Turn 308)
