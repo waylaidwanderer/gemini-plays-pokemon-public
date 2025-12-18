@@ -49,3 +49,4 @@
 - OFFICER (ID 6): (5, 3). Investigating a crime.
 - POKE_BALL (ID 5): (8, 3). On the table.
 - Event: Red-haired boy stole a Pokemon from the lab. (Turn 298)
+- Event: Named Rival "MALICE". Officer left the lab. (Turn 317)
