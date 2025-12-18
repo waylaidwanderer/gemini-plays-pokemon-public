@@ -55,7 +55,7 @@
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Fighting Wild Rattata (Lv 11).
-- **Strategy:** Rocky used Headbutt last turn. Cursor is on Slot 4. Finish it.
+- **Strategy:** Finish it with Headbutt.
 - **Goal:** Train Azurite (Switch Training).
 - **Status:** Rocky (Lv 13, 16/34 HP). Rattata (Red HP).
-- **Training Plan:** Defeat Rattata, then return to Goldenrod PC to heal.
+- **Training Plan:** After battle, go North to Goldenrod PC to heal. Rocky is below 50% HP.
