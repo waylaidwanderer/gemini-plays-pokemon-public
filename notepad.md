@@ -17,20 +17,20 @@
 ## Training Strategy: Route 31 & Dark Cave
 - **Location:** Route 31 grass and Dark Cave.
 - **Process:**
-  1. Lead with Gneiss (Lv4) or Rocky (Lv5).
+  1. Lead with Gneiss (Lv5) or Rocky (Lv5).
   2. Switch to Calcifer (Lv14) to finish the battle.
   3. Repeat until Gneiss hits Lv11 (Rock Throw).
   4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
-- **EXP Tracking (Estimated):**
-  - Gneiss (Lv4): Needs ~625 more EXP for Lv11 (742 total).
-  - Rocky (Lv5): Needs ~2619 more EXP for Lv14 (2744 total).
+- **EXP Tracking:**
+  - Gneiss (Lv5, 138 EXP): Needs to reach 742 EXP for Lv11 Rock Throw (604 more).
+  - Rocky (Lv5, 125 EXP): Needs to reach 1612 EXP for Lv14 Rock Throw (1487 more).
 - **Turn Start:** 1559.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
   - Calcifer (Quilava): Lv14. Primary powerhouse.
   - ROCKY (Onix): Lv5. Counter for Falkner. Traded Pokemon; obedience depends on Badges.
-  - GNEISS (Geodude): Lv4. Counter for Falkner.
+  - GNEISS (Geodude): Lv5. Counter for Falkner.
 - **Plan:**
   1. Complete Sprout Tower (Obtain HM05 Flash). ✅
   2. Heal at Pokemon Center. ✅
@@ -65,7 +65,6 @@
 ## Lore & Information
 - Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
 - Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
-- Incense Burner: Flavor text "Oh, it's an incense burner!"
 - Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
 
 ## Lessons Learned
