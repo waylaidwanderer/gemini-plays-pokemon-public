@@ -122,5 +122,21 @@
         "action_counter": 2433
       }
     ]
+  },
+  "find_nearest_unseen_v2": {
+    "description": "Finds the nearest 'unseen' tile that is reachable from the player's current position. Returns a (target_x, target_y) coordinate.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_nearest_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            has_object = tile.find('Object') is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'obj': has_object}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return None\n\n    queue = deque([player_pos])\n    visited = {player_pos}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            return (nx, ny)\n                        if tile['type'] == 'FLOOR' and not tile['obj']:\n                            queue.append((nx, ny))\n    return None\n\nresult = find_nearest_unseen()\nprint(json.dumps(result))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T21:44:54.232Z",
+        "action_counter": 2549
+      }
+    ]
   }
 }
