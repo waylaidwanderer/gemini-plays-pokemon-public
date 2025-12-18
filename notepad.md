@@ -25,6 +25,8 @@
 - Mr. Pokemon: (3, 5) on Route 30. Gave Mystery Egg.
 - Prof. Oak: (6, 5) on Route 30. Gave Pokedex.
 - Fisher: (13, 17) in Ruins of Alph. Mentioned "odd presence" and "huge secret".
+- Officer (Gatehouse): (0, 4) in Route36RuinsOfAlphGate.
+- Gramps (Gatehouse): (7, 6) in Route36RuinsOfAlphGate.
 
 ## Exploration Log
 - Ruins of Alph Detour:
@@ -33,6 +35,7 @@
   - Encountered wild UNOWN (Psychic, Hidden Power).
   - Found ladder at (10, 13) leading back to RuinsOfAlphOutside.
   - Discovered cave entrance at (6, 19).
+  - Entered Route36RuinsOfAlphGate.
 
 ## Strategy & Lessons
 - Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
@@ -41,6 +44,8 @@
 - Unown Battle: Catching is priority (out of Poké Balls currently).
 
 ## Current Plan
+- Interact with NPCs in Route36RuinsOfAlphGate.
+- Check Route 36 for the "wiggly tree" blockage.
 - Explore reachable unseen tiles in Ruins of Alph Outside.
 - Investigate cave entrance at (6, 19).
 - Return to Route 32 and head south to Azalea Town.
