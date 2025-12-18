@@ -122,33 +122,5 @@
         "action_counter": 2112
       }
     ]
-  },
-  "swap_party_members": {
-    "description": "Swaps two Pokemon in the party. Assumes the player is in the overworld.",
-    "input_schema": {
-      "properties": {
-        "slot_a": {
-          "description": "1-indexed slot of the first Pokemon",
-          "type": "integer"
-        },
-        "slot_b": {
-          "description": "1-indexed slot of the second Pokemon",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "slot_a",
-        "slot_b"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport sys\n\ndef generate_swap_buttons(slot_a, slot_b):\n    buttons = [\"Start\"]\n    for _ in range(8):\n        buttons.append(\"Up\")\n    buttons.extend([\"Down\", \"A\"])\n    for _ in range(slot_a - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.extend([\"Down\", \"A\"])\n    diff = slot_b - slot_a\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n    buttons.append(\"A\")\n    buttons.extend([\"B\", \"B\"])\n    return buttons\n\ninput_data = json.loads(sys.argv[1])\nprint(json.dumps(generate_swap_buttons(int(input_data['slot_a']), int(input_data['slot_b']))))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T19:22:15.986Z",
-        "action_counter": 2296
-      }
-    ]
   }
 }
