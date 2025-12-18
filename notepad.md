@@ -41,7 +41,11 @@
 ## Puzzle: Kabuto Chamber
 - Description: "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - Target: Numerical order 1-16 in center 4x4.
-- Center Slots: [7, 8, 9, 10, 13, 14, 15, 16, 19, 20, 21, 22, 25, 26, 27, 28]
-- Piece Locations (Turn 1938):
-  1:7, 2:8, 3:9, 4:10, 5:13, 6:14, 7:15, 8:16, 9:19, 10:20, 11:21, 12:22, 13:18, 14:30, 15:4, 16:29
-- Progress: Finalizing puzzle. Placing Pieces 13, 14, 15, and 16.
+- Progress (Turn 1939): Pieces 1-13 and 16 are in correct slots. Pieces 14 and 15 remain in border.
+- Strategy:
+  1. Move cursor from (4,4) to (5,0), pick up Piece 14.
+  2. Move Piece 14 to (2,4) and place it.
+  3. Move cursor to (4,0), pick up Piece 15.
+  4. Move Piece 15 to (3,4) and place it.
+- Observation: Pieces 14 at (5,0), 15 at (4,0). Target slots (2,4) and (3,4) are empty. Cursor is at (4,4).
+- Hypothesis: Placing 14 and 15 will solve the puzzle. Verified Turn 1939.
