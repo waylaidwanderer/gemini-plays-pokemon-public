@@ -35,4 +35,4 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Route 30: YOUNGSTER (7, 30), YOUNGSTER (5, 26).
+- Route 30: YOUNGSTER (7, 30), YOUNGSTER (5, 26), YOUNGSTER (5, 23).
