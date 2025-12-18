@@ -34,7 +34,6 @@
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
 - TEACHER (ID 3): Quote: "When you're with POKéMON, going anywhere is fun." (Wandering).
 - YOUNGSTER (ID 4): (22, 7).
-- UNEXPLORED HOUSE: (24, 15).
 
 ### Cherrygrove Mart (26_4)
 - CLERK (ID 1): (1, 3). Face COUNTER at (2, 3) to shop.
