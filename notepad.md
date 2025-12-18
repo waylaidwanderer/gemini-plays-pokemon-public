@@ -22,21 +22,14 @@
 ## Current Area: Route 31
 - **Status:** Seeking Dark Cave and Violet City.
 - **Strategy:** 
-  - A large vertical wall (x=22-23) blocks the west side.
-  - A horizontal line of trees (y=10) blocks the north.
-  - Path identified: Go East through grass at y=14-15 to reach x=32, then head North to Row 9.
-  - Potential gap at (32, 9) leading to the northern/western part of the route.
+  - Path identified: Go East through grass at y=14-15 to reach x=32, then head North.
+  - Potential gap at (32, 9) leads to the northern path.
 - **Objectives:**
   - Battle Bug Catcher at (21, 13) once the wall is bypassed.
   - Locate Dark Cave entrance.
 
 ## Completed Areas
-### Route 30
-- Youngster Joey (2, 28) - Defeated.
-- Youngster Mikey (5, 23) - Defeated.
-- Bug Catcher Don (1, 9) - Defeated.
-- Cooltrainer F (2, 13) - Talked (Non-trainer).
-- Navigation: North path through grass at x=0,1 is the primary route to Route 31.
+- **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
