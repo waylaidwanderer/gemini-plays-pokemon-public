@@ -28,9 +28,9 @@
 ## Training Strategy
 - Switch Training: Lead with a strong Pokémon (e.g., Gneiss or Calcifer) and immediately switch to a lower-level Pokémon (e.g., Rocky, Egg, Apophis) on Turn 1 of a battle. This splits EXP and ensures safety.
 
-## Strategy & Lessons
-- Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
-- Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
+## Route Documentation
+- Route 32: Traveled from Violet City south along the western path. The path is divided by water and walls from an eastern section.
+- Union Cave 1F: Entered from Route 32 (6, 79). Exploring the western tunnel system.
 - Old Rod: Obtained from Fishing Guru in Route 32 Pokémon Center.
 
 ## Union Cave 1F
