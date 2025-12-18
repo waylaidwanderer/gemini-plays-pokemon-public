@@ -39,5 +39,5 @@
 ## Union Cave 1F Progress
 - Hiker Daniel (3, 6) defeated.
 - Hiker Russell (11, 8) defeated.
-- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP. Attempting to swap Calcifer to Slot 1.
-- Observed menu cursor on GEM and party cursor on EGG (Slot 3) in Turn #2297.
+- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP. Swapped Calcifer to Slot 1.
+- Path South: Path seems to exist along the eastern wall through (16, 8) and (16, 11).
