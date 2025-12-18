@@ -46,3 +46,4 @@
 ## Status
 - **Party:** Fully Healed (Officer heals before entry).
 - **Active:** Lucid (Drowzee) Lv 13.
+- **Bug-Catching Contest Note:** The Pack is inaccessible during the contest. You cannot use items.
