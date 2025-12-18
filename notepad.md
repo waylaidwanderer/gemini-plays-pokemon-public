@@ -31,20 +31,25 @@
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 
 ## Slowpoke Well B1F Strategy
-- Status: All Grunts defeated. Team Rocket cleared.
+- Status: COMPLETED. Team Rocket cleared.
 - Item at (10, 3): Collected (Super Potion).
-- Calcifer (Quilava): Level 18. HP 53/53.
-- Kurt (16, 14): Injured; waiting for us to clear the well.
+- Calcifer (Quilava): Level 18. HP 53/53 (Poisoned).
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
 - Charcoal Kiln at (21, 13).
 - Poké Mart at (21, 5).
 - Pokémon Center at (15, 9).
-- Team Rocket Grunt at (31, 9).
+- Team Rocket Grunt at (31, 9): Should be gone now.
 - Teacher NPC at (15, 13): Mentions Kurt makes Balls.
 - Gramps NPC at (20, 9): Reports Slowpoke tails for sale.
 - Kurt's House at (9, 5). Inside: Kurt (3, 2), Granddaughter (5, 3).
+
+## Strategy: Post-Rocket Cleanup
+1. Talk to Kurt at (3, 2) to receive reward.
+2. Heal at Pokémon Center (15, 9) to cure Calcifer's poison.
+3. Challenge Azalea Gym (Bug-type).
+4. Check for any new NPCs or changes in Azalea Town.
 
 ## Lessons Learned
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
