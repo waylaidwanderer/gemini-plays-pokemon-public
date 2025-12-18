@@ -40,5 +40,5 @@
 ## Grinding Session Log
 - **Start Turn:** 4576
 - **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
-- **Status:** Azurite Lv 12, Rocky Lv 14. Switching to Rocky vs Hoothoot. Switching to Rocky vs Hoothoot.
+- **Status:** Azurite Lv 12, Rocky Lv 14. Battling Hoothoot with Rocky.
 - **Event:** Bug-Catching Contest today (Thursday).
