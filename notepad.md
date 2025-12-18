@@ -32,3 +32,4 @@
 ## Strategy & Lessons
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
+- Old Rod: Obtained from Fishing Guru in Route 32 Pokémon Center.
