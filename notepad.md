@@ -27,7 +27,7 @@
   - Use Rock Throw (Lv11+) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
   - If accuracy drops too low, switch to Calcifer or Icarus.
   - Calcifer (QUILAVA) Lv15 is the heavy hitter backup.
-- **Current Status:** Gneiss vs Pidgeotto. Pidgeotto HP ~70%. Gneiss HP 16/35, Accuracy -2.
+- **Current Status:** Defeated Falkner! Gneiss reached Lv13. Waiting for Zephyr Badge.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
