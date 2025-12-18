@@ -22,8 +22,8 @@
 ## Current Area: Route 31
 - **Status:** Seeking Dark Cave and Violet City.
 - **Strategy:** 
-  - Path identified: Go East through grass at y=14-15 to reach x=32, then head North.
-  - Potential gap at (32, 9) leads to the northern path.
+  - Path identified: Go East through grass to x=32, then head North to Row 9.
+  - Northern path (Rows 6-9) is clear of the vertical wall and leads west toward the Bug Catcher and Violet City.
 - **Objectives:**
   - Battle Bug Catcher at (21, 13) once the wall is bypassed.
   - Locate Dark Cave entrance.
