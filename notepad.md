@@ -19,14 +19,14 @@
 - **HOW:** 
   1. Catch Geodude in Dark Cave (Route 31). DONE.
   2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
-  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv9 (Gust).
+  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). DONE.
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Route 31
 - **Objectives:**
-  - Locate and catch Bellsprout in tall grass (Start Turn: 959). (Paused for healing)
   - Reach Violet City and heal. (Current Focus)
+  - Locate and catch Bellsprout in tall grass (Start Turn: 959). (Paused for healing)
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
@@ -35,7 +35,7 @@
 ## Battle and Pokemon Information
 ### Observed Movesets
 - Rattata: Tackle, Tail Whip
-- Pidgey: Tackle
+- Pidgey: Tackle, Sand-Attack, Gust
 - Cyndaquil: Tackle, Leer, Smokescreen
 - Caterpie: Tackle (Verified).
 - Geodude: Tackle (Verified).
