@@ -55,12 +55,11 @@
 - **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
-- **Navigation Strategy:** Explored West Side. Now exploring East Side.
-    - **Status:** Found Item at (35, 12) inside a fenced nook.
-    - **Pathfinding:** Access requires a long detour.
-        - **Route:** Backtrack to (27, 5), then navigate the "Snake Path" East/South through the northern rows to reach the item.
-    - **Plan:** Navigate to (27, 5) to start the approach.
-- **Current Action:** Backtracking to (27, 5).
+- **Navigation Strategy:** East Side Exploration.
+    - **Status:** Navigating "Snake Path" to Item at (35, 12).
+    - **Route:** (27, 5) -> (29, 5) -> (31, 6) -> (33, 8) -> (35, 10) -> (35, 12).
+    - **Plan:** Collect Item (35, 12), then exit Snake Path and continue mapping East perimeter.
+- **Current Action:** Executing Snake Path navigation.
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
