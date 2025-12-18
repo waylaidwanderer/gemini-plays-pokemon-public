@@ -79,5 +79,38 @@
         "action_counter": 2057
       }
     ]
+  },
+  "use_item_v1": {
+    "description": "Uses a specific item from the bag. Assumes the bag is not currently open. Defaults to the 'Items' pocket.",
+    "input_schema": {
+      "properties": {
+        "item_name": {
+          "description": "The name of the item to use (must match bag text).",
+          "type": "string"
+        },
+        "pocket": {
+          "default": "Items",
+          "enum": [
+            "Items",
+            "Balls",
+            "Key Items",
+            "TM/HM"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\n# This is a simplified version. A robust tool would need to scan the bag.\n# Since we don't have a 'read_bag' tool yet, this is a placeholder for future automation.\n# For now, it will just output the buttons to open the bag and provide a reminder.\nprint(json.dumps([\"Start\", \"Down\", \"Down\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T17:23:43.357Z",
+        "action_counter": 2104
+      }
+    ]
   }
 }
