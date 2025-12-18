@@ -31,3 +31,4 @@
 - **Game Corner Prizes (Left):** TM25 (Thunder), TM14 (Blizzard), TM38 (Fire Blast) @ 5500 Coins.
 - **Game Corner Prizes (Right):** Abra (100 Coins), Cubone (800 Coins), Wobbuffet (1500 Coins).
 - **Abra Strategy:** Buy 100 Coins for 2000 Yen. Buy Abra. Trade for Machop.
+- **Coins:** Bought 100 Coins (2x 50). Spent 2000 Yen. Total Money: 2054 Yen.
