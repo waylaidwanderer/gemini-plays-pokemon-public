@@ -55,15 +55,15 @@
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
 - Sprout Tower 3F (Turn 1347): Exploring to find Sage Li. Calcifer needs 82 EXP for Lv12.
-## Sprout Tower 3F (Turn 1358)
+## Sprout Tower 3F (Turn 1372)
 - Sage Jin (ID 1) defeated at (8, 13).
-- Sage (ID 4) at (11, 11).
-- Poke Ball (ID 5) at (6, 14).
+- Sage Neal (ID 4) defeated at (11, 11).
+- Sage (ID 2) at (8, 8).
+- Poke Ball (ID 5) at (6, 14) (Potion collected).
 - Shaking is more intense here.
 - Looking for Sage Li.
 - Calcifer is Lv12 and learned EMBER!
 ## Sprout Tower 3F Exploration Plan
-1. Collect item at (6, 14).
-2. Talk to Sage at (11, 11).
-3. Explore north for Sage Li.
-4. Defeat all trainers for EXP.
+1. Talk to Sage at (8, 8).
+2. Explore north for Sage Li.
+3. Defeat all trainers for EXP.
