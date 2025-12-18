@@ -32,6 +32,7 @@
 - Route 32: Traveled from Violet City south along the western path. The path is divided by water and walls from an eastern section.
 - Union Cave 1F: Entered from Route 32 (6, 79). Exploring the western tunnel system.
 - Old Rod: Obtained from Fishing Guru in Route 32 Pokémon Center.
+- Navigation Method: Following the western path of Route 32 south leads directly to the Union Cave entrance. Inside the cave, prioritizing the exploration of western tunnels before proceeding south.
 
 ## Union Cave 1F
 - X ATTACK: Found at (4, 2).
