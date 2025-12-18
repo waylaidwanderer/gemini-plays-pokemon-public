@@ -40,9 +40,9 @@
 - Pokefan M (11, 8): Facing down. Likely a trainer.
 - Switch-training vs Daniel's Onix: Skipped. 
   - Observation: Onix is Lv11 and uses Bind. 
-  - Hypothesis: Low-level trainees (Lv4-5) will faint from cumulative Bind damage or a single move before they can be switched out. 
-  - Test: Observed Gneiss taking damage from Bind (approx. 1-2 per turn). 
-  - Conclusion: The risk of losing a teammate is too high; Gneiss will finish the battle solo to ensure safety.
+  - Hypothesis: Low-level trainees (Lv4-5) will faint from cumulative Bind damage (1/16 max HP per turn) or a single move before they can be safely switched out. 
+  - Test: Observed Gneiss taking damage from Bind (1 HP per turn at Lv15). For a Lv4-5 Pokémon with ~16-19 HP, 2-3 turns of Bind plus one direct hit would be fatal.
+  - Conclusion: The risk of fainting is too high; Gneiss must finish the battle solo to ensure team safety.
 ## Lessons Learned
 - Ledge Mechanics: LEDGE_HOP_DOWN tiles can only be traversed from north to south. Attempting to move 'Up' onto one from the south will fail.
 - Marker Hygiene: Always verify and delete redundant or outdated markers (e.g., 'Trainer' vs 'Defeated') to maintain map clarity.
