@@ -56,10 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Resuming Southward trek.
-    - **Obstacle:** Movement South from (28, 22) blocked. Detouring East to Column 29.
-    - **Plan:** Navigate to (27, 32) to read the Battle Notice Sign.
-- **Current Action:** Detour via (29, 22) to (27, 32).
+    - **Status:** Exploring East perimeter.
+    - **Plan:** Read Battle Notice Sign at (27, 31). Then continue South to (27, 40) to check on the Teacher (Quick Claw).
+- **Current Action:** Navigate to (27, 32) to access the sign.
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
