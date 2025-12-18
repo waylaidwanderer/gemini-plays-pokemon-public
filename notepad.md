@@ -46,3 +46,6 @@
 - CRITICAL HITS: Heal early; don't risk fainting during training.
 - BATTLE MENUS: Separate directional and action inputs.
 - EXPLORATION: Use list_unseen_reachable_v2 to find new paths.
+- STRATEGY UPDATE: Pivoting to catch Geodude in Dark Cave (Route 31) for Falkner advantage.
+- TRAINING GOAL: Icarus Lv9, Calcifer Lv10+ (Ember).
+- EXPLORATION: Unseen tiles at (12, 3-15) and (1, 26-35) are reachable.
