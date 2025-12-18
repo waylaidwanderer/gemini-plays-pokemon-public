@@ -63,7 +63,7 @@
     - Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
     - Party fully healed at Cherrygrove PC. (Turn 674)
 - **Training Logs:**
-    - Turn 687: Icarus (Pidgey) reached Lv4 after defeating Wild Zubat Lv3. Icarus at 16/18 HP.
+    - Turn 689: Icarus (Pidgey) vs Wild Poliwag Lv4. Icarus at 16/18 HP.
 - **Exploration Targets:**
     - Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after training.
 
