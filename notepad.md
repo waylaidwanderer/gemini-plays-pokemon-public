@@ -21,17 +21,17 @@
 
 ## NPC Archive - Route 32
 - Camper Roland (3, 43): Defeated (Turn 2125).
-- Fisher (15, 13): Discovered. Standing at (16, 13) required to talk.
-- Fisher (19, 14): Discovered. Likely near water.
-- Fisher (6, 48): Discovered. Standing at (5, 48) required to talk.
-- Fisher (8, 49): Discovered. Standing at (8, 48) required to talk.
+- Fisher (15, 13): Discovered. Eastern path.
+- Fisher (19, 14): Discovered. Eastern path.
+- Fisher (6, 48): Discovered. Eastern path.
+- Fisher (8, 49): Discovered. Eastern path.
 
 ## Strategy & Lessons
-- Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town.
-- Training (How-To): Switch-train Rocky (Onix) or Egg (Togepi) by leading with a stronger Pokemon (Gneiss or Calcifer), then immediately switching to the trainee on Turn 1 of a battle. This splits EXP and ensures safety.
+- Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
+- Training: Switch-train trainees by leading with Gneiss/Calcifer and switching on Turn 1.
+- Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Explore south to find Union Cave entrance.
+- **Current Objective:** Explore south on Western path to find Union Cave entrance.
 - **Milestone:** Full party of 6 reached (Turn 2116).
-- Camper Roland (3, 43): Battling (Turn 2122).
