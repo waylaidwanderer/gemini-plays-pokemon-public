@@ -3,10 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Switch Training:** Train MUSCLE (Machop) to Lv 20 on Route 36.
+    1. **Heal & Train:** Use Super Potion on MUSCLE, then grind to Lv 20 in National Park (exploring left side).
        - *Status:* Lv 17 (Target: Lv 20).
        - *Session Start:* Turn 5358.
-       - *Method:* Switch Training.
+       - *Method:* Wild Encounters (Muscle as Lead).
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 - **Notes:**
     - MUSCLE (Machop) has Low Kick (Fighting, STAB, 50 BP fixed in Gen 2).
