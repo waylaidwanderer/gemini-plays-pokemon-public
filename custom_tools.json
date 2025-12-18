@@ -4,12 +4,6 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_exp": {
-          "type": "integer"
-        },
-        "current_level": {
-          "type": "integer"
-        },
         "growth_rate": {
           "type": "string",
           "enum": [
@@ -18,20 +12,31 @@
             "Medium Slow",
             "Slow"
           ]
+        },
+        "current_level": {
+          "type": "integer"
+        },
+        "current_exp": {
+          "type": "integer"
         }
       },
       "required": [
-        "current_exp",
+        "growth_rate",
         "current_level",
-        "growth_rate"
+        "current_exp"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef calculate_xp_needed(growth_rate, current_level, current_exp):\n    next_level = current_level + 1\n    if growth_rate == \"Fast\":\n        next_exp = int(0.8 * (next_level**3))\n    elif growth_rate == \"Medium Fast\":\n        next_exp = int(next_level**3)\n    elif growth_rate == \"Medium Slow\":\n        next_exp = int(1.2 * (next_level**3) - 15 * (next_level**2) + 100 * next_level - 140)\n    elif growth_rate == \"Slow\":\n        next_exp = int(1.25 * (next_level**3))\n    else:\n        return \"Unknown growth rate\"\n    \n    xp_needed = max(0, next_exp - current_exp)\n    return xp_needed\n\nif __name__ == \"__main__\":\n    # In a real environment, input_data would be passed in.\n    # For this example, we'll simulate the input parsing.\n    # Since this is a script to be defined, we use a placeholder for input_data.\n    try:\n        # The system will provide input_data as a global or via some mechanism.\n        # Here we expect it to be available.\n        # For the purpose of definition, we just write the logic.\n        res = calculate_xp_needed(input_data[\"growth_rate\"], int(input_data[\"current_level\"]), int(input_data[\"current_exp\"]))\n        print(json.dumps({\"xp_needed\": res}))\n    except NameError:\n        # Fallback for testing if input_data isn't defined\n        pass\n",
+    "python_script": "import json\n\ngrowth_rate = input_data[\"growth_rate\"]\ncurrent_level = int(input_data[\"current_level\"])\ncurrent_exp = int(input_data[\"current_exp\"])\n\ndef get_total_exp(n, rate):\n    if rate == \"Fast\":\n        return int(0.8 * (n ** 3))\n    elif rate == \"Medium Fast\":\n        return n ** 3\n    elif rate == \"Medium Slow\":\n        return int(1.2 * (n ** 3) - 15 * (n ** 2) + 100 * n - 140)\n    elif rate == \"Slow\":\n        return int(1.25 * (n ** 3))\n    return 0\n\nnext_level = current_level + 1\ntarget_exp = get_total_exp(next_level, growth_rate)\nremaining = max(0, target_exp - current_exp)\n\nresult = {\n    \"growth_rate\": growth_rate,\n    \"current_level\": current_level,\n    \"current_exp\": current_exp,\n    \"next_level\": next_level,\n    \"total_exp_next_level\": target_exp,\n    \"exp_remaining\": remaining\n}\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-18T04:58:09.193Z",
         "action_counter": 817
+      },
+      {
+        "commit_message": "Added calculate_xp_requirements tool to automate experience tracking.",
+        "timestamp": "2025-12-18T14:00:59.942Z",
+        "action_counter": 1772
       }
     ]
   },

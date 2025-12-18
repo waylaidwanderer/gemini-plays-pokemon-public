@@ -27,7 +27,7 @@
 - **Key Move:** Mud-Slap (Lowers Accuracy).
 - **Tactics:**
   - Lead with GNEISS (Geodude).
-  - Use Rock Throw (Lv11) - STAB, 2x Super Effective vs Flying.
+  - Use Rock Throw (Lv11) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
   - If accuracy drops too low, switch to Calcifer or Icarus.
   - Calcifer (Quilava) Lv15 is the heavy hitter backup.
 - **Current Status:** Training Gneiss to Lv11.
