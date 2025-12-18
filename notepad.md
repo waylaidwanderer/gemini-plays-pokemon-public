@@ -53,3 +53,5 @@
 - Event: Delivered Mystery Egg to Prof. Elm. Elm suggested Gym Challenge (Violet City first). (Turn 319)
 - Instruction: Talk to Mom before leaving.
 - Objective: Get Poké Balls from the Aide.
+- Event: Received POKé BALL x5 from the Aide. (Turn 324)
+- Current Task: Exit the lab and visit Mom in New Bark Town.
