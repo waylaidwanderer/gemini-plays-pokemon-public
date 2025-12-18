@@ -15,20 +15,14 @@
 ## Union Cave 1F Progress
 - Firebreather Bill (14, 19) defeated.
 - Found Great Ball (17, 21) and Potion (4, 17).
-- Used REPEL (Turn #2378).
 - Marked: Ladder (5, 19), Super Nerd (4, 21).
-- Verified: FLOOR_UP_WALL is impassable from the north (wall).
-
-## History
-- Swapped Calcifer to lead slot (Turn #2335).
-- Turn #2378: Used REPEL instead of Potion by mistake.
-- Turn #2381: Used POTION on Gneiss.
+- Verified: FLOOR_UP_WALL is a wall (tested at (5, 18)).
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
-- Current Path: Heading around the wall at Y=18 to reach Super Nerd.
+- Current Path: Heading around the wall at Y=18 via (8, 18) and Row 26 to reach Super Nerd at (4, 21).
 
 ## Battle Notes
-- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
+- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41. (Healing with Potion)
 - Calcifer (Quilava): Lv16. Primary attacker.
 - Rocky (Onix): Backup tank.
