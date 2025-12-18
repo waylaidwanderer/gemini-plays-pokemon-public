@@ -27,6 +27,7 @@
 ## Trainer Rosters (Johto)
 - Rocket Grunt (Well 1): Rattata x2 (Lv9).
 - Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
+- Rocket Grunt (Well 3): Rattata (Lv7) - Battling now.
 
 ## Slowpoke Well B1F Strategy
 - Current Goal: Defeat all Team Rocket Grunts and find their leader.
@@ -38,10 +39,18 @@
   - Item at (10, 3): Collected (Super Potion).
 - Kurt (16, 14): Injured; waiting for us to clear the well.
 
+## Azalea Town Summary
+- Slowpoke Well entrance at (31, 7).
+- Charcoal Kiln at (21, 13).
+- Poké Mart at (21, 5).
+- Pokémon Center at (15, 9).
+- Team Rocket Grunt at (31, 9).
+- Teacher NPC at (15, 13): Mentions Kurt makes Balls.
+- Gramps NPC at (20, 9): Reports Slowpoke tails for sale.
+- Kurt's House at (9, 5). Inside: Kurt (3, 2), Granddaughter (5, 3).
+
 ## Lessons Learned
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
-- Teacher at (15, 13): Mentioned Kurt makes Balls.
-- Gramps at (20, 9): Slowpoke tails are being sold; Slowpoke have vanished.
 - Slowpoke Well: Team Rocket presence confirmed.
