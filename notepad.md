@@ -90,3 +90,8 @@
 
 ## Sprout Tower Exploration
 - Sprout Tower 2F entered Turn 1240.
+## Sprout Tower 2F (Turn 1311)
+- Arrived via ladder at (2, 6) from 1F.
+- Goal: Find ladder to 3F.
+- Calcifer (Cyndaquil) needs ~244 more EXP for Lv12 (Ember).
+- Exploring reachable unseen tiles to map the floor.
