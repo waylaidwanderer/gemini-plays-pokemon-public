@@ -29,3 +29,5 @@
 - **Lesson - Party Management:** Always check for an empty party slot before attempting to acquire a new Pokémon.
 - **Coin Case:** Obtained in Underground.
 - **Game Corner Data:** 50 Coins = 1000 Yen. TMs are 5500. Abra=100, Cubone=800, Wobbuffet=1500.
+- **Exploration:** Accidentally entered Dept Store B1F. Exploring for items before leaving.
+- **B1F Layout:** Contains items and a Machop sprite. Seems like a warehouse.
