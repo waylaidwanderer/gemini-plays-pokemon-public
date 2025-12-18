@@ -40,7 +40,9 @@
 - Charcoal Kiln at (21, 13).
 - Poké Mart at (21, 5).
 - Pokémon Center at (15, 9).
-- Team Rocket Grunt at (31, 9): Should be gone now.
+- Team Rocket Grunt at (31, 9): Defeated/Gone.
+- Slowpoke at (18, 9): Marked.
+- Azalea Gym: Entrance should be open now. Sign at (14, 15).
 - Teacher NPC at (15, 13): Mentions Kurt makes Balls.
 - Gramps NPC at (20, 9): Reports Slowpoke tails for sale.
 - Kurt's House at (9, 5). Inside: Kurt (3, 2), Granddaughter (5, 3).
