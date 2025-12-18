@@ -66,3 +66,8 @@
   - Potion collected at (6, 14).
   - Escape Rope collected at (14, 1).
   - 3F fully explored.
+## Strategy: Exiting Sprout Tower
+- **Method:** Use Escape Rope for efficiency.
+- **Reasoning:** Instantly exits the dungeon, saving turns and avoiding potential wild encounters while backtracking.
+- **Next Steps:** Heal at Pokemon Center, then head to Violet Gym.
+- **Gym Strategy:** Lead with Gneiss (Geodude) or Rocky (Onix) to counter Flying types and gain EXP.
