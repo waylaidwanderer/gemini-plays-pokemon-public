@@ -62,3 +62,8 @@
 - Shaking is more intense here.
 - Looking for Sage Li.
 - Calcifer needs 82 EXP for Lv12.
+## Sprout Tower 3F Exploration Plan
+1. Talk to Sage at (8, 13).
+2. Collect item at (6, 14).
+3. Explore north for Sage Li.
+4. Defeat all trainers for EXP. Calcifer needs Ember.
