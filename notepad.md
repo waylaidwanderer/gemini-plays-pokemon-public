@@ -32,7 +32,7 @@
 - **Game Corner Prizes (Right):** Abra (100 Coins), Cubone (800 Coins), Wobbuffet (1500 Coins).
 - **Abra Strategy:** Buy 100 Coins for 2000 Yen. Buy Abra. Trade for Machop.
 - **Coins:** Bought 100 Coins (2x 50). Spent 2000 Yen. Total Money: 2054 Yen.
-- **Action Required:** Depositing Lucid (Drowzee) to make room for Abra.
+- **Action Required:** Return to Game Corner to buy Abra.
 - **Abra Price:** 100 Coins confirmed.
 - **Current Money:** 2054 Yen.
 - **Current Coins:** 100.
