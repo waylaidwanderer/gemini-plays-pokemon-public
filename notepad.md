@@ -42,3 +42,5 @@
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
+- Teacher at (15, 14): Mentioned Kurt makes Balls. People visit him for that.
+- Kurt's House: Still looking. Possibly in the West.
