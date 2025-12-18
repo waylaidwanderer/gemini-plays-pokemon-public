@@ -14,6 +14,7 @@
 ## Strategic Plan: Defeat Falkner (Violet City)
 1. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
    - *Strategy:* Weaken with Icarus (Tackle), then use Poké Ball.
+   - *Attempt 1:* Heading to Dark Cave now.
 2. **Recruit Bellsprout:** Catch on Route 31; trade in Violet City for ONIX.
    - *Strategy:* Use Calcifer to weaken, then Poké Ball.
 3. **Logistics:** Reach Violet City; visit PC and heal.
@@ -31,8 +32,8 @@
 - Pidgey: Tackle
 - Cyndaquil: Tackle, Leer, Smokescreen
 ### Team Progress
-- Icarus (Pidgey): Lv8, needs 330 XP for Lv9.
-- Calcifer (Cyndaquil): Lv8, needs 74 XP for Lv9.
+- Icarus (Pidgey): Lv8 (399 EXP), needs 330 XP for Lv9.
+- Calcifer (Cyndaquil): Lv8 (345 EXP), needs 74 XP for Lv9.
 ### Type Effectiveness (Verified)
 - Normal vs Normal: Neutral
 - Fire vs Normal: Neutral
@@ -43,6 +44,8 @@
 - West Grass: (1, 26-35)
 - Central Path: (9, 17-23)
 - North Area: (2-7, 25)
+- **Failed Hypotheses:**
+  - North path via x=5 is blocked by ledges at y=17/25. (Attempts: 1)
 
 ## Lessons Learned
 - CRITICAL HITS: Heal early to avoid faints.
@@ -55,4 +58,4 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Route 30: YOUNGSTER (8, 30) [Verified], YOUNGSTER (5, 26), YOUNGSTER (5, 23).
+- Route 30: YOUNGSTER (8, 30) [Talked], YOUNGSTER (5, 26), YOUNGSTER (5, 23) [Defeated].
