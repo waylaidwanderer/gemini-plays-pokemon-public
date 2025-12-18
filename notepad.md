@@ -56,3 +56,6 @@
 - **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
+- **Battle:** Defeated Wild Nidoran. MUSCLE +153 EXP.
+- **Pokegear:** Wade called (Turn 5606).
+- **Navigation Update:** Access to SW corner (2, 29) requires going South to Row 38, crossing the gap at (7, 38), then heading North.
