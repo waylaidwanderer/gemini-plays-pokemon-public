@@ -57,3 +57,8 @@
 3. **Union Cave:** Navigate south along Route 32 to the entrance of Union Cave.
 4. **Azalea Town:** Traverse Union Cave to exit on the southern side, leading directly to Azalea Town.
 5. **Training:** Use Geodude (Gneiss) for training against trainers on Route 32 to prepare for the next Gym.
+## Strategy for Restocking in Violet City
+- **Location:** Poké Mart at (9, 17).
+- **Target:** Purchase at least 10 Poké Balls.
+- **Budget:** ¥3731 available; 10 Poké Balls cost ¥2000.
+- **Next Step:** After restocking, head south to Route 32 and continue towards Union Cave.
