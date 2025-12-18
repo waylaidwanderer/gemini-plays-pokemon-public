@@ -71,5 +71,17 @@
         "action_counter": 425
       }
     ]
+  },
+  "list_unseen_reachable_v2": {
+    "description": "Identifies 'unseen' tiles that are adjacent to reachable, traversable tiles on the current map. This helps prioritize exploration targets.",
+    "input_schema": {},
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef main():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    start = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            seen = tile.attrib.get('seen') == 'true'\n            has_obj = tile.attrib.get('has-object') == 'true'\n            if tile.find('Player') is not None:\n                start = (x, y)\n            grid[(x, y)] = {'type': t_type, 'seen': seen, 'has_obj': has_obj}\n\n    if start is None:\n        print(json.dumps([]))\n        return\n\n    reachable_seen = set()\n    queue = deque([start])\n    visited = {start}\n    \n    traversable_types = ['FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP']\n    \n    while queue:\n        curr = queue.popleft()\n        reachable_seen.add(curr)\n        \n        x, y = curr\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                tile = grid[(nx, ny)]\n                if tile['seen']:\n                    if tile['type'] in traversable_types and not tile['has_obj']:\n                        if (nx, ny) not in visited:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n                # Note: We don't traverse into unseen tiles here, we only find seen reachable ones.\n\n    unseen_reachable_adj = []\n    for (x, y) in reachable_seen:\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                if not grid[(nx, ny)]['seen']:\n                    unseen_reachable_adj.append({\"x\": nx, \"y\": ny})\n    \n    unique_unseen = []\n    seen_coords = set()\n    for item in unseen_reachable_adj:\n        coord = (item['x'], item['y'])\n        if coord not in seen_coords:\n            unique_unseen.append(item)\n            seen_coords.add(coord)\n\n    print(json.dumps(unique_unseen))\n\nmain()\n",
+    "history": [
+      {
+        "commit_message": "Refining list_unseen_reachable to filter by actual reachability from player's current position and returning only those adjacent to traversable tiles.",
+        "timestamp": "2025-12-18T01:52:03.195Z",
+        "action_counter": 427
+      }
+    ]
   }
 }
