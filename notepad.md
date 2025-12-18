@@ -15,8 +15,7 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Lead Swapped: Calcifer (Quilava) is now leading. (Turn #2335)
-- Item at (17, 21): Picking up now.
+- Fisher (Trainer) at (14, 19).
 
 ## Strategic Discoveries
 - Menu Wrapping: Main menu wraps around (8 items).
