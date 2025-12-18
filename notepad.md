@@ -60,3 +60,4 @@
 - EVENT: Set up money saving with Mom. (Turn 334)
 - EVENT: Arrived on Route 29. Heading to tall grass to catch a new team member. (Turn 336)
 - WILD ENCOUNTER: Lv2 Pidgey on Route 29. Attempting to capture. (Turn 344)
+- WILD ENCOUNTER: Caught Lv2 Pidgey on Route 29. Nicknaming "ICARUS". (Turn 352)
