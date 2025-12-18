@@ -38,3 +38,6 @@
 ## Strategy: Return to New Bark Town
 - HOW: Route 30 path (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
 - Prep: Heal at Cherrygrove Pokemon Center (29, 3). Anticipate rival battle at eastern exit of Cherrygrove City.
+## Navigation: Path to Pokemon Center (26_3)
+- Path: (16, 0) -> (16, 4) -> (29, 4).
+- Target: Warp at (29, 3).
