@@ -35,14 +35,15 @@
 - Rattata: Tackle, Tail Whip
 - Pidgey: Tackle
 - Cyndaquil: Tackle, Leer, Smokescreen
-- Caterpie: String Shot (Hypothesis), Tackle (Hypothesis)
+- Caterpie: Tackle (Verified), String Shot (Hypothesis)
 ### Team Status
-- Icarus (Pidgey): Lv8 (399 EXP), needs 330 XP for Lv9.
+- Icarus (Pidgey): Lv9 (432 EXP), learned Gust!
 - Calcifer (Cyndaquil): Lv8 (345 EXP), needs 74 XP for Lv9.
 ### Type Effectiveness (Verified)
 - Normal vs Normal: Neutral
 - Fire vs Normal: Neutral
 - Normal vs Fire: Neutral
+- Flying (Gust) vs Bug (Caterpie): Super Effective (Hypothesis)
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
