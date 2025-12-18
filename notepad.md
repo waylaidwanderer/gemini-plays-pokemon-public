@@ -28,6 +28,8 @@
 - Officer (Gatehouse): (0, 4) in Route36RuinsOfAlphGate.
 - Gramps (Gatehouse): (7, 6) in Route36RuinsOfAlphGate. Mentioned "strange tree" on the road.
 - Lass: (51, 8) on Route 36. Mentioned "odd tree" blocking the way to Goldenrod City.
+- Arthur: (45, 5) on Route 36. Appears on Thursdays. Gave Hard Stone (boosts Rock moves).
+- Fisher: (44, 9) on Route 36. Mentioned failure to punch the tree.
 
 ## Exploration Log
 - Ruins of Alph Detour:
@@ -38,7 +40,7 @@
   - Discovered cave entrance at (6, 19).
   - Entered Route36RuinsOfAlphGate.
   - Gramps confirmed "strange tree" blocking Route 36.
-- Route 36: Investigating the "odd tree" reported by NPCs. Sign at (55, 7) confirms location. Lass confirms it blocks the way to Goldenrod City.
+- Route 36: Investigating the "odd tree" reported by NPCs. Sign at (55, 7) confirms location. Lass confirms it blocks the way to Goldenrod City. Arthur found at (45, 5).
 
 ## Strategy & Lessons
 - Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
