@@ -54,7 +54,7 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Fighting Wild Rattata (Level Unknown).
+- **Battle Note:** Fighting Wild Rattata (Lv 11).
 - **Strategy:** Switch to Rocky (Switch Training).
 - **Goal:** Train Azurite (Switch Training).
 - **Status:** Azurite (Lv 10), Rocky (Lv 12).
