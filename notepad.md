@@ -33,3 +33,5 @@
 - **Game Corner:** 50 Coins = 1000 Yen. TMs: 5500. Abra: 100.
 - **Dept Store B1F:** Solved puzzle by resetting floor (Elevator). Loot paused.
 - **Party Management:** MUSCLE is Lead for switch training.
+- **Radio Hint:** Fisher Ivan on Route 35 mentions 'The Pokémon March' on radio lures wild Pokémon.
+- **Fisher Ivan:** Did not battle (Turn 5318).
