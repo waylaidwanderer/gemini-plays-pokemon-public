@@ -32,5 +32,5 @@
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Catch wild Ekans and explore south.
-- Ekans (Apophis) caught at Lv4 (Turn 2113). Added to party.
+- **Current Objective:** Explore south to find Union Cave entrance.
+- **Milestone:** Full party of 6 reached (Turn 2116).
