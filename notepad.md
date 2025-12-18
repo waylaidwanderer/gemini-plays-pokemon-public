@@ -52,7 +52,6 @@
 - Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
 - Turn Tracking: Always use the turn number provided in the Game State.
 ## Immediate Strategy (Turn 527)
-1. Visit Cherrygrove Mart (23, 3) to buy 4 Potions (Total: 5). [DONE]
 2. Explore house at (31, 11).
 3. Transition to Route 30 via (16, 0).
 4. Training: Route 30/31 until Icarus Lv9 and Calcifer Lv12.
@@ -64,5 +63,5 @@
 ## NPCs & Interactions
 ### Cherrygrove Mart (26_4)
 - CLERK (ID 1): (1, 3). Face COUNTER at (2, 3) to shop.
-- COOLTRAINER_M (ID 2): (8, 6).
+- COOLTRAINER_M (ID 2): (7, 6).
 - YOUNGSTER (ID 3): (2, 5).
