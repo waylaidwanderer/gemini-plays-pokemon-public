@@ -18,7 +18,7 @@
 
 ## Strategy: Azalea Gym & Bugsy
 - Leader: Bugsy.
-- Team: Metapod (Lv14), Scyther (Lv16), Kakuna (Lv?).
+- Team: Metapod (Lv14), Scyther (Lv16), Kakuna (Lv14).
 - Tactics: Use Fire (Calcifer/Quilava) and Rock (Gneiss/Geodude). Scyther is 4x weak to Rock.
 
 ## Trainer Rosters (Johto)
