@@ -20,11 +20,11 @@
 - Hive Badge: Target Azalea Town.
 
 ## NPC Archive - Route 32
-- Fisher (15, 13): Standing at (16, 13) required to talk.
-- Cooltrainer M (19, 8): Blocking path (Badge Req).
+- Camper Roland (3, 43): Defeated (Turn 2125).
+- Fisher (15, 13): Discovered. Standing at (16, 13) required to talk.
 - Fisher (19, 14): Discovered. Likely near water.
-- Youngster Albert (14, 22): Defeated.
-- Picnicker Liz (10, 30): Defeated.
+- Fisher (6, 48): Discovered. Standing at (5, 48) required to talk.
+- Fisher (8, 49): Discovered. Standing at (8, 48) required to talk.
 
 ## Strategy & Lessons
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town.
