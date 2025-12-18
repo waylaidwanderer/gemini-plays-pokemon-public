@@ -47,17 +47,10 @@
   - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
   - **Forest Group (No Heracross):** Ilex Forest (Hoothoot, Pineco).
   - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross, Ekans).
+  - **Farming Note:** Rotation between trees helps avoid "stuck" detection.
   - **Verified Trees:**
     - Ilex (12,12), (11,12): Forest Group (Hoothoot/Pineco).
-    - Azalea (24, 11): Mountain Group (Confirmed: Spearow, Aipom, Ekans).
-    - Azalea (25, 11): Mountain Group (Confirmed: Spearow, Aipom).
-    - Azalea (27, 11): Mountain Group (Confirmed: Aipom, Spearow, Ekans).
-    - Azalea (26, 11): Dud.
-  - **Farming Strategy:** Rotate between Azalea trees (24, 25, 27). Confirmed Aipom encounters validate Mountain Group classification. Heracross is a rare spawn here, justifying the continued grind.
-    1. Headbutt a tree 1-3 times.
-    2. If "Nope" or non-Heracross encounter, rotate to next tree.
-    3. Repeat until Heracross is found.
-- **Anti-Hallucination Strategy:** When farming a single spot (like Headbutt trees), the system may flag "stuck" or "looping" if staying on one tile too long. **Solution:** Rotate between adjacent valid tiles (e.g., trees at 24, 25, 27) every few attempts to break the positional loop, even if it's less efficient.
-- **Anti-Hallucination Success:** The rotation strategy (moving between trees at 24, 25, 27) has successfully prevented the "looping/stuck" system warnings. Continue this pattern.
+    - Azalea (24, 11), (25, 11), (27, 11): Mountain Group (Spearow/Aipom/Ekans). Low Heracross yield observed here.
+    - Azalea (29, 4): Mountain Group (Heracross Confirmed).
 ## Important Locations
 - **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
