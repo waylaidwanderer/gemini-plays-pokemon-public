@@ -78,8 +78,9 @@
 - Ledges are one-way (South confirmed impassable from below).
 - Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
 - Turn Tracking: Always use the turn number provided in the Game State.
-- TRAINING LOG: Icarus (Pidgey) fainted to a critical hit from Wild Hoothoot Lv3. Calcifer (Cyndaquil) finished the battle and reached EXP 297. (Turn 668)
-- STRATEGY: Returning to Cherrygrove Pokémon Center (29, 3) immediately to heal.
-- EXPLORATION: Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35) deferred until party is healthy.
+- PROGRESS: Party fully healed at Cherrygrove PC (Turn 674).
+- STRATEGY: Heading back to Route 30 for training and exploration.
+- TRAINING TARGETS: Icarus Lv9, Calcifer Lv13.
+- EXPLORATION: Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after reaching training targets.
 - BUOY: Impassable (water barrier).
 - DOOR: Traversable (triggers warp).
