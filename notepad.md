@@ -12,7 +12,7 @@
 - WARP_CARPET: Map transition at edges.
 - LADDER / DOOR / CAVE: Instant warp upon entry.
 - PC / BOOKSHELF / RADIO: Interactable from below.
-- WATER / ROCK / INCENSE_BURNER: Impassable.
+- WATER / ROCK / INCENSE_BURNER / MART_SHELF: Impassable.
 
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner.
