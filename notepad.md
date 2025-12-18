@@ -83,4 +83,4 @@
 - **Tool Maintenance:** Always ensure pathfinding tools account for both tile collision types and map markers (for off-screen obstacles).
 
 ## Task Tracking
-- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. Current Status: Heading to Fisher (15, 13) after healing Gneiss.
+- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. Current Status: Healing Gneiss and navigating around the ledge to reach Fisher (15, 13). Standing at (16, 13) is required to talk to him.
