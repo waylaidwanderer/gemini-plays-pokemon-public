@@ -58,26 +58,26 @@
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
 - Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 4) in house at (21, 29) (Traded Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info).
-- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at the top; Sage (Trainer) intercepted at (3, 1); Sage at (7, 7) is a moving NPC.
+- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at top; Sage (Trainer) Chow at (3, 1); Sage at (3, 5) is a Trainer; Sage at (7, 7) is moving NPC.
 
 ## Lessons Learned
-- **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
-- **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
+- **Object Collision:** All sprites (NPCs, items) are walls. Interact from adjacent tile.
+- **Pathfinding:** Use latest version of custom tools (`find_path_v3`).
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles.
 - **Ledge Logic:** Ledges are one-way (South, East, West).
-- **Critical Hits:** Be extremely cautious when weakening Pokemon for capture; crits can ruin an encounter. Lead with a weaker Pokemon if possible.
-- **Capture Strategy:** Get HP to yellow/red. Use status moves (Sleep, Paralysis) if available. Use Smokescreen to stay safe while weakening.
-- **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
-- **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a mistake.
+- **Critical Hits:** Be extremely cautious when weakening Pokemon for capture.
+- **Capture Strategy:** Get HP to yellow/red. Use status moves. Use Smokescreen to stay safe.
+- **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous with 4x advantage.
+- **Capture Safety:** Use weakest moves or status moves to avoid accidental KO.
 - Wade (BUG CATCHER): Route 31 (17, 13). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv3).
-- **Level Requirements:** Cyndaquil learns Ember at level 12 in Pokémon Crystal, not level 10. Always verify level-up moves against the specific game version.
-- **Battle Menus:** When the game asks "Will [Player] change POKEMON?", selecting NO is faster and more efficient if the current Pokémon has a type advantage.
-- **Tool Hygiene:** Custom tools like `battle_strategist_v2` are essential for efficient play. Always provide full moveset data (even if just move names) to ensure accurate reasoning.
+- **Level Requirements:** Cyndaquil learns Ember at Lv12 in Pokémon Crystal.
+- **Battle Menus:** Selecting NO when asked to change Pokémon is faster if the current one is fine.
+- **Tool Hygiene:** Always provide full moveset data to `battle_strategist_v2`.
 
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
 - Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
-- Training: Sprout Tower is a good place to train Calcifer to Lv12 for Ember (Cyndaquil learns Ember at Lv12 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
+- Training: Target Lv12 for Calcifer (Ember).
 - Navigation: WARP_CARPET_DOWN at (9, 15) and (10, 15) leads to Violet City (23, 5).
 - Objects: STATUE and SPROUT_TOWER_STATUE are impassable.
 - The central pillar is a giant Bellsprout, causing the tower to shake.
