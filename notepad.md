@@ -56,9 +56,10 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Defeated Nidoran♂ (Muscle +153 EXP).
-    - **Plan:** Resume navigation North to (29, 6).
-- **Current Action:** Clear battle text.
+    - **Status:** Resuming navigation after Nidoran battle.
+    - **Plan:** Navigate North to (27, 5) to enter the "Snake Path".
+    - **Goal:** Reach the Far East Strip (Column 33) to explore the South-East corner.
+- **Current Action:** Navigate North to (27, 5).
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
