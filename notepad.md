@@ -24,7 +24,7 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Route 31
-- **Status:** Seeking Bellsprout for trade. Attempt 1 failed (Critical Hit KO).
+- **Status:** Switching lead to Calcifer to catch Bellsprout. Started Turn 944.
 - **Objectives:**
   - Locate and catch Bellsprout in tall grass.
   - Reach Violet City and heal.
@@ -42,9 +42,9 @@
 - Geodude: Tackle (Verified).
 - Bellsprout: Vine Whip (Verified).
 ### Team Status
-- ICARUS (PIDGEY): Lv9 (15/28 HP, 525 EXP). Needs 35 XP for Lv10.
-- Calcifer (CYNDAQUIL): Lv8 (16/25 HP, 345 EXP). Needs 74 XP for Lv9.
-- GNEISS (GEODUDE): Lv4 (12/18 HP, 96 EXP).
+- Calcifer (CYNDAQUIL): Lv8 (16/25 HP). Needs 74 XP for Lv9.
+- ICARUS (PIDGEY): Lv9 (15/28 HP). Needs 95 XP for Lv10.
+- GNEISS (GEODUDE): Lv4 (12/18 HP).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
@@ -67,3 +67,4 @@
 - Method: Walk around in grass until encounter.
 - Team: Lead with Calcifer (Cyndaquil) to avoid Icarus's high damage. Use Tackle (Normal) to weaken. Avoid Ember (Fire) to prevent KO.
 - Catching: Use Poké Ball.
+- Goal: Trade for ONIX in Violet City.
