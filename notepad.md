@@ -1,9 +1,9 @@
 # Johto Journey: Gem's Log
 
 ## Tile Mechanics
-- FLOOR: Traversable. Verified.
+- FLOOR: Traversable. Verified on Route 31.
 - WALL: Impassable. Verified.
-- TALL_GRASS: Traversable; triggers wild encounters. Verified.
+- TALL_GRASS: Traversable; triggers wild encounters. Verified on Route 31.
 - LEDGE_HOP_DOWN: One-way jump South. Impassable from the South. Verified on Route 29 (50, 10), Route 30 (7, 17), and Route 31 (6, 9).
 - LEDGE_HOP_RIGHT: One-way jump East. Impassable from the East. Verified on Route 31 (13, 6).
 - LEDGE_HOP_LEFT: One-way jump West. Impassable from the West.
@@ -20,14 +20,14 @@
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
-  1. Catch Bellsprout on Route 31 (Current Battle: (8, 11)); then trade with KYLE in Violet City for ONIX.
+  1. Caught Kudzu (Bellsprout) on Route 31 (8, 11). Ready to trade with KYLE in Violet City for ONIX.
   2. Train Calcifer to Lv10 (Ember).
   3. Use Ember to sweep Sprout Tower (Flash HM).
   4. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
-- **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade. Exploration in progress.
+- **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade. Bellsprout caught.
 - **Violet City:** Arrived and healed at Pokecenter. Located Kyle (Onix Trader).
 
 ## Battle and Pokemon Information
