@@ -39,8 +39,7 @@
 - Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
 - Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
-- Twins Amy & May: Ledyba (Lv10) - Defeated, Spinarak (Lv10) - Battling.
-- Twins Amy & May: Ledyba (Lv10) - Defeated, Spinarak (Lv10) - Battling.
+- Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
