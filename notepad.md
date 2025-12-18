@@ -32,7 +32,7 @@
 - Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
 - Bug Catcher Benny: Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
 - Bug Catcher Josh: Paras (Lv13) - Defeated.
-- Gym Leader Bugsy: Metapod (Lv14) - Defeated. Scyther (Lv?) - Battling.
+- Gym Leader Bugsy: Metapod (Lv14) - Defeated. Scyther (Lv16) - Battling.
 
 ## Azalea Town Summary
 - Slowpoke Well: (31, 7).
