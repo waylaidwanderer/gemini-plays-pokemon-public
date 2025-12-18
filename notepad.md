@@ -88,4 +88,4 @@
 - BOOKSHELF (1, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
-- RADIO (7, 1): (To be checked).
+- RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Growlithe on Route 36).
