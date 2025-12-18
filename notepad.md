@@ -59,11 +59,6 @@
     3. Repeat until Heracross is found.
 - **Anti-Hallucination Strategy:** When farming a single spot (like Headbutt trees), the system may flag "stuck" or "looping" if staying on one tile too long. **Solution:** Rotate between adjacent valid tiles (e.g., trees at 24, 25, 27) every few attempts to break the positional loop, even if it's less efficient.
 - **Anti-Hallucination Success:** The rotation strategy (moving between trees at 24, 25, 27) has successfully prevented the "looping/stuck" system warnings. Continue this pattern.
-- **Grind Log (Turn 4180):**
-  - Session Duration: ~380 turns.
-  - **SUCCESS!** Captured Female Heracross (Lv 10) in a Great Ball!
-  - **Nickname:** AZURITE.
-  - **Location:** Tree at (29, 4) in Azalea Town is CONFIRMED Normal/High Yield.
-  - **Next Steps:** Go to PC, swap Egg/Togepi for Azurite, then head to Goldenrod.
-  - **Note:** Heracross learnset in Gen 2 is rough (No Fighting moves yet), but high stats help. Need to check for TMs.
+## Important Locations
+- **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
 - **Theory Check:** If Heracross is missing after ~50 encounters, these might be "Low Yield" Mountain trees (if such a distinction exists where Aipom spawns but Heracross doesn't). However, usually Aipom and Heracross share the "Rare" tree pool. Continuing to grind to verify.
