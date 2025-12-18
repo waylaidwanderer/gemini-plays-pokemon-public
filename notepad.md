@@ -19,19 +19,13 @@
 - **Hive Badge:** Target. Azalea Town.
 
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphKabutoChamber.
-- **Officer Hint:** Ruins of Alph is a "Look-and-Touch Tourist Site". Mentions "sliding stone panels". Verified Turn 1896.
-- **Youngster Hint:** Confirms drawings on stone panels and that they can be moved. Verified Turn 1899.
-- **Mystery Chamber:** Identified as "Kabuto Chamber". Verified Turn 1916.
-- **Receptionist Hint:** Sliding panels depict a Pokémon. Scientists in the back are examining patterns. Verified Turn 1921.
-- **Description Sign:** "A POKéMON that hid on the sea floor. Eyes on its back scanned the area." (Kabuto). Verified Turn 1923.
+- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphInnerChamber.
+- **Kabuto Puzzle:** Solved Turn 1941. Warped to Inner Chamber via pit at (3,3)/(4,3).
+- **Inner Chamber:** "There is a strange presence here..." Verified Turn 1941.
 
 ## Strategy & Lessons
-- **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
-- **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Flying-types.
-- **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout - catch one on Route 32).
+- **Puzzle Solved:** Numerical order 1-16 is correct. Swapping identical pieces at the bottom (14/15) might be necessary if it doesn't trigger immediately. Verified Turn 1941.
 - **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`. Use `press_sequence` or separate calls. Mixed inputs are truncated by the system. Verified Turn 1922.
-- **Puzzle Strategy:** Form the picture of the Pokémon described by the sign (Kabuto).
 
 ## Reflection Turn 1935
 - **Immediate Execution:** Placing Piece 9.
