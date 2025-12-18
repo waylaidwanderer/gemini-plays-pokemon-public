@@ -23,15 +23,15 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: Violet City
+## Current Area: Violet Pokecenter 1F
 - **Objectives:**
-  - Heal party at Pokémon Center (Door at 31, 25). (Current Focus)
+  - Heal party at Nurse Joy. (Current Focus)
   - Locate and catch Bellsprout on Route 31 (Start Turn: 959). (Paused for healing)
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
 - **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
-- **Violet City Gatehouse:** Entered Violet City.
+- **Violet City:** Arrived. Entering Pokecenter.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
