@@ -66,3 +66,8 @@
 - Verify all foundational assumptions in-game.
 - Moving NPCs can block `navigate` and `find_path`. Stun them or wait.
 - In battle switch menus, "YES" is the default. Be careful when declining a switch.
+## Azalea Gym Puzzle Notes
+- Red Switch: Located at (2, 9) and (3, 9). Interact from (1, 9) or (4, 9).
+- Blue Switch: Located at (6, 9) and (7, 9). Interact from (5, 9) or (8, 9).
+- Hypothesis: Switches move the spider platforms to different paths.
+- Current Status: All trainers defeated. Preparing to solve the puzzle to reach Bugsy.
