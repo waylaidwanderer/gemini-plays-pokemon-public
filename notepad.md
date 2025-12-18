@@ -19,9 +19,10 @@
 - **Key Move:** Mud-Slap (Lowers Accuracy).
 - **Tactics:**
   - Lead with GNEISS (GEODUDE).
-  - Use Rock Throw (Lv11) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
+  - Use Rock Throw (Lv11+) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
   - If accuracy drops too low, switch to Calcifer or Icarus.
   - Calcifer (QUILAVA) Lv15 is the heavy hitter backup.
+- **Current Status:** Both gym trainers defeated. Gneiss is Lv12. Ready for Falkner.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
