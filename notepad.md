@@ -54,6 +54,6 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Strategy:** Caught Rattata! Nicknaming "QUARTZ" (Common mineral for common Pokémon).
+- **Strategy:** Nicknaming Rattata "QUARTZ". Step 1: "QUA".
 - **Goal:** Train Azurite and Rocky.
 - **Training Plan:** Train Azurite and Rocky to Lv 18-20 on Route 34.
