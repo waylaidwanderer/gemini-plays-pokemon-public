@@ -11,7 +11,6 @@
     - MUSCLE (Machop) has Low Kick (Fighting, STAB).
     - MUSCLE Item: **GOLD BERRY** (Needs Verification).
     - AZURITE (Heracross) lacks Fighting moves (Level 13).
-    - Found **TM04 (Rollout)** on Route 35.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
