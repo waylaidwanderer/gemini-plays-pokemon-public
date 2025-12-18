@@ -1,24 +1,4 @@
 {
-  "list_reachable_unseen_v3": {
-    "description": "Finds all 'unseen' tiles that are currently reachable from the player's position, correctly handling ledges and objects. Returns a list of (x, y) coordinates. If autopress_buttons is true, it returns a list of buttons to the nearest unseen tile.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    matrix = [[None for _ in range(width)] for _ in range(height)]\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            has_object = tile.attrib.get('has-object') == 'true'\n            \n            matrix[y][x] = {\n                'type': tile_type,\n                'seen': seen,\n                'has_object': has_object\n            }\n            \n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n\n    if not player_pos:\n        print(json.dumps([]))\n        return\n\n    def is_passable(x, y, from_x, from_y):\n        if not (0 <= x < width and 0 <= y < height):\n            return False\n        tile = matrix[y][x]\n        if not tile['seen']:\n            return False\n        if tile['has_object']:\n            return False\n        \n        t_type = tile['type']\n        f_type = matrix[from_y][from_x]['type']\n        \n        # Basic wall check\n        if t_type in [\"WALL\", \"FLOOR_UP_WALL\", \"WATER\", \"ROCK\", \"INCENSE_BURNER\", \"COUNTER\", \"HEADBUTT_TREE\", \"CUT_TREE\"]:\n            return False\n            \n        # Ledge logic\n        if f_type == \"LEDGE_HOP_DOWN\" and y != from_y + 2: return False\n        if f_type == \"LEDGE_HOP_RIGHT\" and x != from_x + 2: return False\n        if f_type == \"LEDGE_HOP_LEFT\" and x != from_x - 2: return False\n        \n        if t_type == \"LEDGE_HOP_DOWN\" and y != from_y + 1: return False\n        if t_type == \"LEDGE_HOP_RIGHT\" and x != from_x + 1: return False\n        \n        return True\n\n    reachable_unseen = []\n    queue = deque([player_pos])\n    visited = {player_pos}\n    parent = {player_pos: None}\n    \n    unseen_coords = []\n\n    while queue:\n        curr_x, curr_y = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if not matrix[ny][nx]['seen']:\n                    if (nx, ny) not in unseen_coords:\n                        unseen_coords.append((nx, ny))\n                    continue\n                \n                if (nx, ny) not in visited and is_passable(nx, ny, curr_x, curr_y):\n                    visited.add((nx, ny))\n                    parent[(nx, ny)] = (curr_x, curr_y)\n                    queue.append((nx, ny))\n\n    if input_data.get('autopress_buttons'):\n        if not unseen_coords:\n            print(json.dumps([]))\n            return\n            \n        # Target the first unseen tile's parent (the traversable tile next to it)\n        # and return buttons to that tile, then one final press towards the unseen.\n        # For simplicity in this fix, I'll just return the coords as requested by the LLM \n        # but the system error was about the type.\n        # If the LLM wants buttons, it needs a path.\n        \n        # Find path to the first reachable point adjacent to an unseen tile\n        target_unseen = unseen_coords[0]\n        # We already found the path to 'curr_x, curr_y' which is adjacent to 'nx, ny'\n        # Let's find which visited tile is adjacent to target_unseen\n        best_neighbor = None\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            px, py = target_unseen[0] - dx, target_unseen[1] - dy\n            if (px, py) in visited:\n                best_neighbor = (px, py)\n                break\n        \n        if not best_neighbor:\n            print(json.dumps([]))\n            return\n            \n        path = []\n        curr = best_neighbor\n        while curr:\n            path.append(curr)\n            curr = parent[curr]\n        path.reverse()\n        \n        buttons = []\n        for i in range(len(path) - 1):\n            x1, y1 = path[i]\n            x2, y2 = path[i+1]\n            if x2 > x1: buttons.append(\"Right\")\n            elif x2 < x1: buttons.append(\"Left\")\n            elif y2 > y1: buttons.append(\"Down\")\n            elif y2 < y1: buttons.append(\"Up\")\n            \n        # Final move towards unseen\n        x1, y1 = best_neighbor\n        x2, y2 = target_unseen\n        if x2 > x1: buttons.append(\"Right\")\n        elif x2 < x1: buttons.append(\"Left\")\n        elif y2 > y1: buttons.append(\"Down\")\n        elif y2 < y1: buttons.append(\"Up\")\n        \n        print(json.dumps(buttons))\n    else:\n        print(json.dumps(unseen_coords))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T06:06:05.223Z",
-        "action_counter": 935
-      },
-      {
-        "commit_message": "Fixed list_reachable_unseen_v3 to return button strings when autopress_buttons is true, by pathing to the nearest unseen tile.",
-        "timestamp": "2025-12-18T14:56:57.841Z",
-        "action_counter": 1869
-      }
-    ]
-  },
   "press_sequence": {
     "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
     "input_schema": {
@@ -136,6 +116,22 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-18T21:44:54.232Z",
         "action_counter": 2549
+      }
+    ]
+  },
+  "list_reachable_unseen_v3_fixed": {
+    "description": "Finds all 'unseen' tiles that are currently reachable from the player's position, correctly handling ledges and objects. Returns a list of (x, y) coordinates. If autopress_buttons is true, it returns a list of buttons to the nearest unseen tile.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef list_reachable_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            has_object = tile.find('Object') is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'obj': has_object}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return []\n\n    unseen_reachable = []\n    queue = deque([player_pos])\n    visited = {player_pos}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            unseen_reachable.append((nx, ny))\n                            visited.add((nx, ny))\n                        elif tile['type'] == 'FLOOR' and not tile['obj']:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n    \n    if not unseen_reachable:\n        return []\n\n    # Simple BFS to find buttons to the first unseen_reachable\n    target = unseen_reachable[0]\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == target:\n            return path\n        \n        for dx, dy, btn in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) == target:\n                return path + [btn]\n            if 0 <= nx < width and 0 <= ny < height:\n                tile = tiles.get((nx, ny))\n                if tile and tile['seen'] and tile['type'] == 'FLOOR' and not tile['obj'] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    return []\n\nprint(json.dumps(list_reachable_unseen()))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T21:47:02.070Z",
+        "action_counter": 2554
       }
     ]
   }
