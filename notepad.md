@@ -60,3 +60,8 @@
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
 ## Battle Logs
 - Turn 400: Icarus (Pidgey Lv2) fainted against wild Pidgey Lv3 on Route 29. Attempt to run failed. Switching to Calcifer.
+## Strategy: Recovery
+1. Navigate to Route 29 west exit (0, 6).
+2. Enter Cherrygrove City.
+3. Use Pokémon Center to heal Icarus and Calcifer.
+4. Resume training on Route 30.
