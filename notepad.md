@@ -11,7 +11,6 @@
 
 ## Union Cave 1F Progress
 - Task: Swap Calcifer to lead slot. (Started Turn #2291)
-- Fisher (Trainer) at (14, 19).
 
 ## Strategy: Reaching Azalea Town
 1. Swap Calcifer (Quilava) to lead slot to preserve Gneiss's HP.
