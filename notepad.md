@@ -19,7 +19,7 @@
 - **HOW:** 
   1. Catch Geodude in Dark Cave (Route 31). DONE.
   2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
-  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). DONE.
+  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). Icarus is DONE. Calcifer needs training.
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
@@ -70,7 +70,6 @@
 - Team: Lead with GNEISS (Geodude) or use Smokescreen/Leer to avoid accidental KO. Calcifer's Tackle is too strong (crits kill).
 - Catching: Use Poké Ball.
 - Goal: Trade for ONIX in Violet City.
-- **Note:** Accidentally fainted first Bellsprout with a crit Tackle on Turn 973. Need to find another.
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
 - **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a critical hit.
-- Wade (BUG CATCHER): Route 31 (16, 14). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv?). Stats (Icarus Lv10): Atk 17, Def 15, SpA 15, SpD 15, Spe 19.
+- Wade (BUG CATCHER): Route 31 (16, 14). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv3).
