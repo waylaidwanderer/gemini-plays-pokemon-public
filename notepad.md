@@ -56,14 +56,7 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** The SW corner (2, 29) is blocked.
-    - **Maze Solution:**
-        1. West along Top Edge (Row 2) to (10, 2). [COMPLETED]
-        2. South to (10, 4), then West to (6, 4). [COMPLETED]
-        3. South to (6, 6), then West to (4, 6). [COMPLETED]
-        4. South to (4, 8), then West to (2, 8). [COMPLETED]
-        5. South to (2, 10), then West to (0, 10). [COMPLETED]
-        6. South along West Edge (Column 0) to reach the SW area. [COMPLETED]
-- **Current Action:** Explore the South-West perimeter (Heading South from 0, 29).
+    - **Maze Solution:** Traversed Top-Left path (Row 2 -> Zigzag West) to reach West Edge.
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
