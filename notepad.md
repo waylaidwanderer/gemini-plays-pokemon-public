@@ -41,3 +41,11 @@
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
+- Teacher at (15, 13): Mentioned Kurt makes Balls.
+- Gramps at (20, 9): Slowpoke tails are being sold; Slowpoke have vanished.
+- Slowpoke Well: Team Rocket presence confirmed.
+- Kurt's House: Found at (9, 5).
+- Slowpoke Well: Entrance at (31, 7).
+- Charcoal Kiln: (21, 13).
+- Poké Mart: (21, 5).
+- Pokémon Center: (15, 9).
