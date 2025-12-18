@@ -55,7 +55,7 @@
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Fighting Wild Jigglypuff (Lv 12).
-- **Strategy:** Use Headbutt (Slot 4). Rocky is faster -> Flinch chance.
+- **Strategy:** Use Headbutt (Slot 4). Flinch-lock strategy.
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Rocky (Lv 13, 19/34 HP). Jigglypuff Def +1.
+- **Status:** Rocky (Lv 13, 19/34 HP). Jigglypuff Flinched.
 - **Training Plan:** Explore South Route 34, get Item Ball at (7, 30).
