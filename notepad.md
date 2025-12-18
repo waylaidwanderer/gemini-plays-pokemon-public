@@ -79,3 +79,6 @@
 - STATUE: Impassable background object. Verified in Sprout Tower 1F.
 - GRANNY: NPC found in Sprout Tower.
 - SPROUT_TOWER_STATUE: Impassable object. Verified.
+- Sage at (7, 4) confirmed HM is at the top of Sprout Tower.
+- Sage at (3, 5) is a Trainer (unreachable from current section of 1F).
+- Sage at (7, 7) is a moving NPC.
