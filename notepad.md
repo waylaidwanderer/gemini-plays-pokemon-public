@@ -54,6 +54,6 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Strategy:** Weaken Rattata with Rocky's Tackle, then Catch.
+- **Strategy:** Weaken Rattata with Rocky's Tackle (Hit 2), then Catch.
 - **Goal:** Catch Rattata.
 - **Training Plan:** Train Azurite and Rocky to Lv 18-20 on Route 34.
