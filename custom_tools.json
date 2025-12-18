@@ -115,5 +115,31 @@
         "action_counter": 602
       }
     ]
+  },
+  "wild_search": {
+    "description": "Moves the player back and forth 10 times (20 steps) to trigger wild encounters. Specify axis ('horizontal' or 'vertical').",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ]
+        }
+      },
+      "required": [
+        "axis"
+      ]
+    },
+    "python_script": "import json\nbuttons = []\nif axis == \"horizontal\":\n    seq = [\"Right\", \"Left\"]\nelse:\n    seq = [\"Down\", \"Up\"]\n\n# Repeat 10 times\nfor _ in range(10):\n    buttons.extend(seq)\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T17:14:20.206Z",
+        "action_counter": 5351
+      }
+    ]
   }
 }
