@@ -48,7 +48,7 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE at (2, 3) in house at (21, 29).
+- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE at (2, 3) in house at (21, 29) (Traded Pokemon info).
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
