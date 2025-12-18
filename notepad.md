@@ -23,11 +23,7 @@
   3. Use Rock-types to soak up Normal/Flying hits.
 
 ## Pokemon Growth Mechanics
-- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil) require more EXP as they reach higher levels, making early leveling feel slower but scaling better later.
-
-## Completed Areas
-- **Route 30/31:** Defeated trainers, caught Geodude and Bellsprout.
-- **Violet City:** Traded Bellsprout for Rocky (Onix).
+- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
 
 ## Defeated Trainers
 - Route 30: Bug Catcher Don.
@@ -36,9 +32,9 @@
   - Sage Chow (1F).
   - Sage Nico (2F).
   - Sage Edmond (2F).
-  - Sage Jin (3F).
-  - Sage Neal (3F).
-  - Sage Troy (3F).
+  - Sage Jin (ID 1) at (8, 13).
+  - Sage Neal (ID 4) at (11, 11).
+  - Sage Troy (ID 2) at (8, 9).
 
 ## NPC Archive (Active/Relevant)
 - New Bark: ELM, OFFICER, MOM.
@@ -61,8 +57,8 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1411):
+- Sprout Tower 3F (Turn 1414):
   - Battling Sage Li's Hoothoot (Lv 10) at (10, 2).
   - Potion collected at (6, 14).
   - Calcifer is Lv13.
-  - Calcifer needs 292 EXP for Lv14.
+  - Calcifer needs 166 EXP for Lv14. Verified with tool.
