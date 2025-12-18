@@ -43,7 +43,12 @@
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
-## Battle vs Juggler Irwin
-- **Opponent:** Voltorb #4 (Lv 14).
-- **Strategy:** Garnet (Quilava) Ember.
-- **Status:** Garnet (Active, 56/68 HP, Def -2). Voltorb (Low HP).
+## Contest Prep
+- **Start Turn:** 4732 (Thursday).
+- **Current Task:** Heading North to National Park.
+- **Goal:** Catch Scyther/Pinsir or win Sun Stone.
+- **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
+- **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
+## Status
+- **Party:** Lucid (16/41), Garnet (56/68), Rocky (13/36 Burned).
+- **Notes:** Need to heal if possible, but Contest might provide healing.
