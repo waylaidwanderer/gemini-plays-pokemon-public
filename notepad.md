@@ -63,7 +63,10 @@
 - Sprout Tower Complete (HM05 FLASH obtained) Turn 1434.
 - Calcifer evolved into QUILAVA Turn 1421.
 - Team Healed at Violet Pokecenter Turn 1442.
+- Pokecenter 2F explored Turn 1471.
 
-## Pokecenter 2F Exploration Plan
-1. Mark remaining warp segments at (6, 0) and (10, 0). ✅
-2. Exit to Violet City via ladder (0, 7). (In progress)
+## Gym Preparation: Training Plan
+- **Goal:** Level Rocky (Onix) and Gneiss (Geodude) to Lv11+.
+- **Priority:** Gneiss learns Rock Throw at Lv11, which is critical for Falkner.
+- **Location:** Route 32 (South of Violet City).
+- **Tactics:** Use "Switch Training" (lead with Rocky/Gneiss, then switch to Calcifer) if wild Pokemon are too strong.
