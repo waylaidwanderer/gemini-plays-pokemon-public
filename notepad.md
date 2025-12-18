@@ -54,5 +54,4 @@
 - Battle Strategy: Use Gneiss (Geodude) for Flying/Normal types. Use Calcifer (Quilava) for Grass types.
 
 ## Task Tracking
-- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Defeat Youngster Albert and explore south to reach Fisher (15, 13).
+- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave.
