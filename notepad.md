@@ -57,8 +57,8 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 4) in house at (21, 29) (Traded Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info).
-- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at top; Sage (Trainer) Chow at (3, 2); Sage at (6, 7); Teacher at (9, 9).
+- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 4) in house at (21, 29) (Traded Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info), EARL (Spinning Master) at (25, 14).
+- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at top; Sage (Trainer) Chow at (3, 1); Sage at (6, 7) (moving); Teacher at (9, 9).
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from adjacent tile.
@@ -85,11 +85,8 @@
 
 ## Timestamps
 - Started Academy visit Turn 1167.
-- Met Earl (Spinning Master) Turn 1210.
 - Entered Sprout Tower Turn 1213.
 
-## Sprout Tower Exploration
-- Sprout Tower 2F entered Turn 1240.
 ## Sprout Tower 2F (Turn 1311)
 - Arrived via ladder at (2, 6) from 1F.
 - Goal: Find ladder to 3F.
