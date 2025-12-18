@@ -14,9 +14,9 @@
 - Zephyr Badge: Obtained from Falkner (Violet City).
 
 ## Strategy: Azalea Town
-- Investigation: Team Rocket is at Slowpoke Well.
-- Next Step: Talk to Kurt (location unknown).
-- Gym Entry: Azalea Gym is currently blocked (need to investigate why).
+- Investigation: Team Rocket is at Slowpoke Well cutting off tails.
+- Next Step: Meet Kurt at the Slowpoke Well (31, 7). Kurt has already left his house to confront them.
+- Gym Entry: Azalea Gym is currently blocked (need to clear the Rocket situation at the well first).
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
