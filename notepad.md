@@ -44,6 +44,6 @@
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Battle vs Camper Ivan
-- **Opponent:** Zubat (Lv 10).
-- **Strategy:** Rocky (Onix) Rock Throw. Resist Flying/Poison.
-- **Status:** Rocky (Confused). Switch cures confusion if needed.
+- **Opponent:** Diglett (Incoming).
+- **Strategy:** Switch to Azurite (Resists Ground, needs XP).
+- **Status:** Rocky (18/36 HP), Azurite (39/43 HP).
