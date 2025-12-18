@@ -49,3 +49,6 @@
 - Battle Risk Assessment: High-defense opponents with multi-turn moves (like Bind) are poor targets for switch-training low-level Pokémon. Lead with a heavy hitter to minimize risk.
 - Mystery Egg: Occupies party slot 5. Verified that it cannot battle (Game message: "An EGG can't battle!").
 - Switch Training Analysis: High-defense opponents or those with multi-turn/passive damage moves (e.g., Onix with Bind) are unsuitable for switch-training low-level trainees (Lv4-5). The cumulative damage from moves like Bind (1/16 HP per turn) plus potential direct hits makes the risk of fainting too high before the switch-out can be completed.
+## Exploration Log
+- Route 32 exploration started Turn #2138.
+- Union Cave 1F entry Turn #2205.
