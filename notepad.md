@@ -9,6 +9,7 @@
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 - **Notes:**
     - MUSCLE (Machop) has Low Kick (Fighting, STAB).
+    - MUSCLE is holding a **GOLD BERRY**.
     - AZURITE (Heracross) lacks Fighting moves (Level 13).
 
 ## Key Items & Progress
