@@ -17,7 +17,7 @@
 ## Current Strategy & Goals
 ### Primary Goal: Defeat Gym Leader Falkner (Violet City)
 - **Strategy:**
-    1. **Training (Active):** Get Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv13. (Started Turn 679)
+    1. **Training (Active):** Get Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv13.
     2. **Recruitment:** Catch a Geodude in Dark Cave (Route 31).
     3. **Sprout Tower:** Use Ember (Lv12) to sweep; obtain HM05 (Flash).
     4. **Gym Prep:** Collect Bitter Berry (Route 31).
@@ -36,10 +36,10 @@
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
 
 ## Progress Summary
-- Rival MALICE defeated (Turn 315).
-- Mystery Egg delivered (Turn 324).
-- Caught Icarus (Lv2 Pidgey) (Turn 352).
-- Icarus reached Lv6 (Turn 727).
+- Rival MALICE defeated.
+- Mystery Egg delivered.
+- Caught Icarus (Lv2 Pidgey).
+- Icarus reached Lv6.
 
 ## Lessons Learned
 - CRITICAL HITS: Heal early; don't risk fainting during training.
