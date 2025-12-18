@@ -35,3 +35,4 @@
 - **Clue:** Black Belt at (4, 8) says "I lose my passion for work if someone's watching. Come on, kid, scoot!"
 - **Hypothesis:** Might need to leave the area or look away to make them work (move boxes).
 - **Action:** Using elevator to leave B1F and return, testing if this resets the room and moves the boxes.
+- **Reflection (Turn 5148):** Goals clear. Testing "Room Reset" hypothesis for B1F puzzle. No automation needed.
