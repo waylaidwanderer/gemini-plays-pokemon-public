@@ -17,7 +17,7 @@
 - **Method:** "Lead and Switch". Lead with trainee (Gneiss), switch to Calcifer (Quilava) on turn 1 to share EXP.
 - **Check-in Interval:** Every 50 turns (Next check: Turn 1750).
 - **EXP Tracking (Targeting Rock Throw):**
-  - Gneiss (Geodude, Medium Slow): Lv9 (528 EXP). Goal: Lv11 (742 EXP). Remaining: 214 EXP (32 to Lv10).
+  - Gneiss (Geodude, Medium Slow): Lv9 (558 EXP). Goal: Lv11 (742 EXP). Remaining: 184 EXP (2 to Lv10).
   - Rocky (Onix, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold for efficiency.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
