@@ -3,11 +3,20 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Return to Goldenrod City.
-    2. Trade Drowzee for Machop (Dept Store 5F).
-    3. Train Machop, Heracross, Onix, Pinsir.
-    4. Challenge Whitney.
+    1. Switch Lead: Swap Hematite (Low HP) with Garnet.
+    2. Exit Park: Find South Exit (likely West gap).
+    3. Trade: Drowzee for Machop (Goldenrod Dept Store 5F).
+    4. Train: Prepare team for Whitney (Machop, Heracross, Onix, Pinsir).
 - **Learned:** Happiness Rater (Quilava "quite cute"), Dept Store layout.
+
+## Tile Mechanics
+- **FLOOR:** Traversable. Verified.
+- **WALL:** Impassable. Verified.
+- **TALL_GRASS:** Traversable. Wild encounters. Verified.
+- **WARP_CARPET:** Traversable. Map transition. Verified.
+- **CUT_TREE:** Impassable. Remove with Cut. Verified.
+- **HEADBUTT_TREE:** Impassable. Encounter chance. Verified.
+- **WATER:** Impassable without Surf. Verified.
 
 ## Goldenrod Dept. Store Inventory
 - **2F:** Medicine & Balls/Repels.
