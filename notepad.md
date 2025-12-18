@@ -35,7 +35,7 @@
 - Status:
   - Grunt (15, 9): Defeated.
   - Grunt (13, 4): Defeated.
-  - Grunt (6, 6): Battling Rattata (Lv 7).
+  - Grunt (6, 6): Battling Zubat (Lv 9). (Rattata Lv 7 defeated).
   - Item at (10, 3): Collected (Super Potion).
 - Kurt (16, 14): Injured; waiting for us to clear the well.
 
