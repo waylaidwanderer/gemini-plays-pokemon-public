@@ -37,7 +37,7 @@
     ]
   },
   "smart_battle_move": {
-    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes cursor in Move Menu starts at `current_slot` (default 1).\nLayout:\n1\n2\n3\n4\nReturns the button sequence.",
+    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes the Move Menu is a vertical list.\nAuto-presses buttons.\nIncludes logic to calculate Up/Down presses based on `current_slot`.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -53,13 +53,19 @@
           "maximum": 4,
           "default": 1,
           "description": "The current slot the cursor is on (default 1)."
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, buttons are pressed automatically."
         }
       },
       "required": [
-        "target_slot"
+        "target_slot",
+        "autopress_buttons"
       ]
     },
-    "python_script": "# Smart Battle Move Tool (Clean Version)\nimport json\n\ntry:\n    # Argument Handling Logic\n    args = locals()\n    # Default values\n    t_slot = 1\n    c_slot = 1\n    \n    # Extract target_slot from locals or input_data\n    if 'target_slot' in args:\n        t_slot = int(args['target_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'target_slot' in args['input_data']:\n        t_slot = int(args['input_data']['target_slot'])\n\n    # Extract current_slot from locals or input_data\n    if 'current_slot' in args:\n        c_slot = int(args['current_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'current_slot' in args['input_data']:\n        c_slot = int(args['input_data']['current_slot'])\n    \n    buttons = [\"A\"] # Select FIGHT to enter menu\n    \n    if t_slot == c_slot:\n        pass # No movement needed\n    else:\n        # Calculate distances in a 4-item vertical list (0-3 relative)\n        # Down distance (forward)\n        down_steps = (t_slot - c_slot) % 4\n        # Up distance (backward)\n        up_steps = (c_slot - t_slot) % 4\n        \n        if down_steps <= up_steps:\n            for _ in range(down_steps):\n                buttons.append(\"Down\")\n        else:\n            for _ in range(up_steps):\n                buttons.append(\"Up\")\n        \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # Fallback to empty list to avoid crashing, handled by system\n    print(json.dumps([]))\n",
+    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\ntarget_slot = int(input_data.get('target_slot', 1))\ncurrent_slot = int(input_data.get('current_slot', 1))\n\nbuttons = []\n\n# Select FIGHT\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate Vertical List\ndiff = target_slot - current_slot\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n\n# Select Move\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
@@ -85,6 +91,11 @@
         "commit_message": "Refined tool to remove debug print statements as requested by critique. maintained robust argument handling and vertical list navigation logic.",
         "timestamp": "2025-12-18T18:45:14.460Z",
         "action_counter": 5461
+      },
+      {
+        "commit_message": "Fixing smart_battle_move to handle vertical list navigation correctly (Gen 2 Vertical Menu).",
+        "timestamp": "2025-12-18T21:28:02.037Z",
+        "action_counter": 5651
       }
     ]
   },
