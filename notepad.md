@@ -3,8 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Heal & Train:** Execute healing sequence (Start -> Pack -> Reset Cursor -> Use Super Potion), then grind to Lv 20 (National Park Left Side).
-       - *Note:* Wade called (Turn 5585), interrupting previous attempt.
+    1. **Heal & Train:** Resume healing. Open Menu -> Enter Pack (Assume Cursor at Pack) -> Reset Item Cursor -> Highlight Super Potion.
+       - *Note:* Wade called (Turn 5585). Retrying.
+       - *Status:* Lv 17 (Target: Lv 20).
        - *Status:* Lv 17 (Target: Lv 20).
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
