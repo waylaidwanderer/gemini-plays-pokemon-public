@@ -50,3 +50,6 @@
 - POKE_BALL (ID 5): (8, 3). On the table.
 - Event: Red-haired boy stole a Pokemon from the lab. (Turn 298)
 - Event: Named Rival "MALICE". Officer left the lab. (Turn 317)
+- Event: Delivered Mystery Egg to Prof. Elm. Elm suggested Gym Challenge (Violet City first). (Turn 319)
+- Instruction: Talk to Mom before leaving.
+- Objective: Get Poké Balls from the Aide.
