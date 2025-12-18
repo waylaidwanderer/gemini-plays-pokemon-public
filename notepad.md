@@ -36,3 +36,5 @@
 - **Hypothesis:** Might need to leave the area or look away to make them work (move boxes).
 - **Action:** Using elevator to leave B1F and return, testing if this resets the room and moves the boxes.
 - **Reflection (Turn 5148):** Goals clear. Testing "Room Reset" hypothesis for B1F puzzle. No automation needed.
+- **Success:** B1F Room Reset confirmed! Boxes moved, opening path to items.
+- **Looting:** Heading to Item Ball at (10, 15).
