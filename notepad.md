@@ -55,3 +55,4 @@
 - **Menu Correction:** 'use_item_sequence' failed due to cursor memory (Started at 'GEM' -> moved to 'OPTION').
 - **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
+- **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
