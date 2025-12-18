@@ -35,3 +35,4 @@
 - **Party Management:** MUSCLE is Lead for switch training.
 - **Radio Hint:** Fisher Ivan on Route 35 mentions 'The Pokémon March' on radio lures wild Pokémon.
 - **Fisher Ivan:** Did not battle (Turn 5318).
+- **Route 35 Encounters:** Growlithe (Morning).
