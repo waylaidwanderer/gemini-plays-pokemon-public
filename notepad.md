@@ -23,12 +23,15 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: Dark Cave
-- **Status:** Geodude caught! Nicknamed her "GNEISS". Preparing to exit.
+## Current Area: Route 31
+- **Status:** Seeking Bellsprout for trade. Talking to Cooltrainer M.
+- **Objectives:**
+  - Locate Bellsprout in tall grass.
+  - Reach Violet City and heal.
 
 ## Completed Areas
-- **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
-- **Route 31:** Found Dark Cave.
+- **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
+- **Route 31:** Caught GNEISS (Geodude) in Dark Cave.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
@@ -53,5 +56,5 @@
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
 - **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
-- **Battle Strategy:** Use `battle_strategist_v2` for trainer battles to ensure type advantages are utilized.
-- **Ledge Logic:** Ledges are one-way (South/Down) and cannot be bypassed from the bottom. Verified on Routes 29 and 30.
+- **Battle Strategy:** Use `battle_strategist_v2` for trainer battles.
+- **Ledge Logic:** Ledges are one-way (South/Down).
