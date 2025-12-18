@@ -54,8 +54,8 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Log:** Rattata defeated. Azurite +44 EXP (Grew to Lv 11), Rocky +66 EXP.
-- **Strategy:** Return to Goldenrod PC to heal.
-- **Goal:** Train Azurite and Rocky.
-- **Status:** Azurite (Lv 11). Rocky (Lv 13, 14/34 HP).
-- **Training Plan:** Heal, then resume grinding on Route 34.
+- **Battle Note:** Another Wild Rattata (Lv 11).
+- **Strategy:** Fight with Azurite (Horn Attack).
+- **Goal:** Train Azurite.
+- **Status:** Azurite (Lv 11, Full HP). Rocky (Lv 13, 14/34 HP).
+- **Training Plan:** Defeat Rattata, then continue to Goldenrod PC.
