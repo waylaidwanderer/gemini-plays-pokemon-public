@@ -2,11 +2,9 @@
 
 ## Current Strategy
 - **Plan:** 
-    1. Head North to Goldenrod City (Exit Forest).
-    2. Heal Party at Goldenrod PC.
-    3. Train AZURITE (Heracross) and ROCKY (Onix) to ~Lv 18-20 on Route 34.
-    4. Challenge Whitney (Goldenrod Gym).
-- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky, Caught Heracross (AZURITE).
+    1. Train AZURITE (Heracross) and ROCKY (Onix) to ~Lv 18-20 on Route 34.
+    2. Challenge Whitney (Goldenrod Gym).
+- **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky, Caught Heracross (AZURITE), Healed at Goldenrod PC.
 - **Party:**
     - **ROCKY (Onix)** Lv12
     - **GARNET (Quilava)** Lv24
