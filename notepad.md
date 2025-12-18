@@ -56,8 +56,10 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** The SW corner (2, 29) is blocked from the main area.
-- **Pathfinding:**
-    - Access to the leftmost columns (0-1) is blocked by a wall at x=1 from y=11 to y=25.
-    - Access to (2, 10) is blocked from below by a wall at (2, 11) and from the right by a wall at (3, 10).
-    - **Solution:** Must bypass the obstacle by going North to (4, 10), then entering the unseen area at Row 9 to loop around Top-Left to reach (2, 10) and the outer rim.
-- **Current Action:** Heading to (4, 10) to access Row 9.
+- **Pathfinding Correction:** Direct North path at x=4 and x=6 is blocked.
+    - x=4 blocked at y=9.
+    - x=6 blocked at y=7.
+    - x=7 blocked at y=7.
+    - x=8 path seems open North to y=6.
+    - **Plan:** Go East to x=8, Head North to y=6, Check for path West via Row 5 (Unseen).
+- **Current Action:** Navigate to (8, 6).
