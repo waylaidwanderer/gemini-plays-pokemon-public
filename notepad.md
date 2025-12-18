@@ -18,10 +18,10 @@
 - **Opponent Data:** Pidgey (Lv7), Pidgeotto (Lv9).
 - **Key Move:** Mud-Slap (Lowers Accuracy).
 - **Tactics:**
-  - Lead with GNEISS (Geodude).
+  - Lead with GNEISS (GEODUDE).
   - Use Rock Throw (Lv11) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
   - If accuracy drops too low, switch to Calcifer or Icarus.
-  - Calcifer (Quilava) Lv15 is the heavy hitter backup.
+  - Calcifer (QUILAVA) Lv15 is the heavy hitter backup.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
@@ -29,7 +29,7 @@
 
 ## NPC Archive
 - Violet City: 
-  - KYLE: (6, 4) in his house. Traded Bellsprout for Rocky (Onix).
+  - KYLE: (6, 4) in his house. Traded Bellsprout for Rocky (ONIX).
   - EARL: (25, 14) at the Academy. Learned about status and items.
   - Cooltrainer: (32, 8) Mentioned Flash hint.
 - Violet Pokecenter: 
