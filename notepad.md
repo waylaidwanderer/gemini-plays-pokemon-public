@@ -50,3 +50,5 @@
 - **Contest Catch:** Pinsir (Lv 14 Male). High Score candidate. Caught with Sleep + High HP.
 - **Contest Result:** 2nd Place (Score 352). Prize: Everstone.
 - **New Pokémon:** Pinsir (Lv 14 Male) sent to PC. Needs nickname: HEMATITE.
+- **Prize:** Everstone (Prevents evolution).
+- **Plan:** Head to Route 36, then return to Goldenrod to fight Whitney. Need Squirtbottle (after Whitney) to clear Sudowoodo.
