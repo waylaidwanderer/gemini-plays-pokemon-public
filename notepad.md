@@ -28,7 +28,7 @@
 ## Exploration Log
 - **Ruins of Alph Detour:** Currently in RuinsOfAlphInnerChamber.
 - **Kabuto Puzzle:** Solved. Warped to Inner Chamber via pit at (3,3)/(4,3).
-- **Inner Chamber:** Encountered wild UNOWN at (15, 8).
+- **Inner Chamber:** Encountered wild UNOWN.
 
 ## Strategy & Lessons
 - **Puzzle Solved:** Numerical order 1-16 is correct for Kabuto. Swapping identical pieces at the bottom (14/15) might be necessary.
@@ -37,6 +37,5 @@
 - **Unown Battle:** Unown are Psychic-type and only know Hidden Power. Catching is priority. Using a Poke Ball immediately at Lv 5 is safer than attacking.
 
 ## Current Plan
-- Defeat Unown (out of Poké Balls).
 - Continue exploring Inner Chamber to find the ladder at (10, 13).
 - Head back to Route 32 and continue south to Azalea Town.
