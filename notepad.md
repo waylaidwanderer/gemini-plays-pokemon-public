@@ -39,16 +39,6 @@
 - **HM01 (Cut):** Obtained & Taught to Belladonna.
 - **Charcoal:** Obtained.
 
-## Tile Mechanics
-- **FLOOR:** Standard traversable.
-- **WALL:** Impassable.
-- **WATER:** Requires Surf.
-- **CUT_TREE:** Removable with Cut. Respawns.
-- **HEADBUTT_TREE:** Encounters. Acts as wall.
-- **LEDGE_HOP_DOWN:** One-way jump.
-- **WARP_CARPET:** Map transition.
-- **COUNTER:** Interact over it.
-
 ## Important Locations
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
