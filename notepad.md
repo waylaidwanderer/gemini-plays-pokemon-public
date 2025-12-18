@@ -55,3 +55,10 @@
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
 - Sprout Tower 3F (Turn 1347): Exploring to find Sage Li. Calcifer needs 82 EXP for Lv12.
+## Sprout Tower 3F (Turn 1349)
+- Sage (ID 1) at (8, 13).
+- Sage (ID 4) at (11, 11).
+- Poke Ball (ID 5) at (6, 14).
+- Shaking is more intense here.
+- Looking for Sage Li.
+- Calcifer needs 82 EXP for Lv12.
