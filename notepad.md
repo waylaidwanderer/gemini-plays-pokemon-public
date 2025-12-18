@@ -40,4 +40,4 @@
 ## Grinding Session Log
 - **Start Turn:** 4576
 - **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
-- **Status:** Azurite Lv 12, Rocky Lv 13.
+- **Status:** Azurite Lv 12, Rocky Lv 14 (Learning Rock Throw).
