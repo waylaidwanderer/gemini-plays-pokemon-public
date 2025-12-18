@@ -32,7 +32,8 @@
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
 - Old Rod: Obtained from Fishing Guru in Route 32 Pokémon Center.
+
 ## Union Cave 1F
 - X ATTACK: Found at (4, 2).
-- Hiker Daniel (3, 6): Facing right. Defeated.
+- Hiker Daniel (3, 6): Facing right. Battling.
 - Pokefan M (11, 8): Facing down. Likely a trainer.
