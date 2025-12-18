@@ -62,6 +62,13 @@
 - TALL_GRASS: Traversable. Verified. Wild encounters possible.
 - LEDGE_HOP_RIGHT: One-way East. Verified at (17, 12), (17, 13), (17, 14).
 - WALL / FLOOR_UP_WALL: Impassable. Verified.
+- WATER: Impassable without Surf. Verified.
+
+## Strategy for Training
+- **Rocky (Onix):** Switch-train against trainers on Route 32 to catch up in levels.
+- **Egg (Togepi):** Switch-train to gain happiness and levels.
+- **Gneiss (Geodude):** Primary for bird trainers, but needs healing.
+- **Calcifer (Quilava):** Lead for safety and efficiency against grass types.
 
 ## Lessons Learned
 - **Tile Mechanics:** `FLOOR_UP_WALL` and `MART_SHELF` are impassable obstacles that must be accounted for in pathfinding.
