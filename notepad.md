@@ -49,3 +49,5 @@
 - **Caught:** Nidoran♂ (COBALT) Lv 12 in National Park.
 - **Pokefan Beverly:** Snubbull Lv 14.
 - **Item:** Quick Claw (Held item, chance to strike first) obtained from Teacher at (27, 40) National Park.
+- **Menu Navigation:** Start Menu cursor remembers the last position in Gen 2. `use_item_sequence` tool assumes it starts at the top (Pokedex). Must manually reset cursor to top or account for position.
+- **Current Cursor:** At 'GEM' (Index 5). Needs to go UP to 'PACK' (Index 3) or Top.
