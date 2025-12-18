@@ -27,16 +27,15 @@
 ## Trainer Rosters (Johto)
 - Rocket Grunt (Well 1): Rattata x2 (Lv9).
 - Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
-- Rocket Grunt (Well 3): Rattata (Lv7) - Battling now.
+- Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Battling now.
 
 ## Slowpoke Well B1F Strategy
-- Current Goal: Defeat all Team Rocket Grunts and find their leader.
-- Navigation: Follow the path west and north from the entrance.
 - Status:
   - Grunt (15, 9): Defeated.
   - Grunt (13, 4): Defeated.
   - Grunt (6, 6): Battling Zubat (Lv 9). (Rattata Lv 7 defeated).
   - Item at (10, 3): Collected (Super Potion).
+- Calcifer (Quilava): Level 18. HP 53/53.
 - Kurt (16, 14): Injured; waiting for us to clear the well.
 
 ## Azalea Town Summary
