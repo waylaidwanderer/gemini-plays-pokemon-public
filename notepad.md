@@ -36,3 +36,5 @@
 - UI Precision: Use select_battle_option for main menu; Up/Down only for moves.
 - Switch Training Risk: High-defense or trapping move users (Bind, Wrap) are bad for low-level trainees.
 - Battle Status: Verify status (Burn, Poison) carefully; don't assume from previous opponents.
+- Hiker Russell (11, 8) defeated.
+- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP. Need to switch lead or heal.
