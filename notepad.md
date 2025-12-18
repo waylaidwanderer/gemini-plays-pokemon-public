@@ -70,7 +70,7 @@
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
 - Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
-- Training: Sprout Tower is a good place to train Calcifer to Lv10 for Ember. Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
+- Training: Sprout Tower is a good place to train Calcifer to Lv10 for Ember (Cyndaquil learns Ember at Lv10 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
 ## Timestamps
 - Started Academy visit Turn 1167.
 - Met Earl (Spinning Master) Turn 1210.
