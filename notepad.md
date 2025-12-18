@@ -39,4 +39,4 @@
 ## Union Cave 1F Progress
 - Hiker Daniel (3, 6) defeated.
 - Hiker Russell (11, 8) defeated.
-- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP. Switching lead to Calcifer.
+- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP. Swapped Calcifer to Slot 1.
