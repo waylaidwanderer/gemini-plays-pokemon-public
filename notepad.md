@@ -37,12 +37,6 @@
 ## Important Locations
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
-## Contest Prep
-- **Start Turn:** 4732 (Thursday).
-- **Current Task:** Heading North to National Park.
-- **Goal:** Catch Scyther/Pinsir or win Sun Stone.
-- **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
-- **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Bug-Catching Contest
 - **Start Turn:** 4782
 - **Objective:** Catch Scyther or Pinsir (High Score).
