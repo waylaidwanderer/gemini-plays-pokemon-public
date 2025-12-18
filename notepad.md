@@ -49,10 +49,11 @@
 ## Training Tracker
 - Training Goal: Calcifer and Icarus to Lv10-12.
 - Started: Turn 421.
-- Current Status: Icarus Lv2, Calcifer Lv7.
+- Current Status: Icarus Lv2 (13/13 HP), Calcifer Lv7 (23/23 HP). [Fully Healed Turn 479]
 - Strategy:
-    - Catch Geodude in Dark Cave (Route 31) to counter Falkner.
-    - Scale Sprout Tower in Violet City for EXP and HM05 (Flash).
-    - Collect Bitter Berry on Route 31.
-    - Purchase 3-5 Potions for Gym battle.
+    - Route: North through Route 30/31 to Violet City.
     - Switch-train Icarus to Lv7 on Route 30.
+    - Catch Geodude in Dark Cave (Route 31) to counter Falkner.
+    - Scale Sprout Tower in Violet City for EXP (Bellsprouts) and HM05 (Flash).
+    - Collect Bitter Berry on Route 31.
+    - Purchase 3-5 Potions for Gym battle (Mud-Slap attrition).
