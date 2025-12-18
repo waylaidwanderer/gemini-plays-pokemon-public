@@ -10,6 +10,10 @@
 - WARP_CARPET_DOWN: Exit map South. Verified.
 - LADDER / DOOR: Triggers warp. Verified.
 - PC: Face to use. Verified.
+- LEDGE_HOP_LEFT: One-way jump West. Impassable from the West.
+- WATER: Impassable without HM. Verified in Dark Cave.
+- FLOOR_UP_WALL: Collision type for walls that look like they are "above" the floor. Impassable.
+- ROCK: Impassable object. Verified in Dark Cave.
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
@@ -19,16 +23,12 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: Route 31
-- **Status:** Seeking Dark Cave and Violet City.
-- **Strategy:** 
-  - Northern path (Rows 6-9) is clear of the vertical wall and leads west toward the Bug Catcher and Violet City.
-- **Objectives:**
-  - Battle Bug Catcher at (21, 13) once the wall is bypassed.
-  - Enter Dark Cave at (34, 5).
+## Current Area: Dark Cave
+- **Status:** Hunting Geodude. Started Turn 886 (9:49 PM PST).
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
+- **Route 31:** Navigated to Dark Cave.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
@@ -52,16 +52,10 @@
 - **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles to ensure type advantages are utilized.
 - **Ledge Logic:** Ledges are one-way (South/Down) and cannot be bypassed from the bottom. Verified on Routes 29 and 30.
-- LEDGE_HOP_LEFT: One-way jump West. Impassable from the West.
-- WATER: Impassable without HM. Verified in Dark Cave.
-- FLOOR_UP_WALL: Collision type for walls that look like they are "above" the floor. Impassable.
-- ROCK: Impassable object. Verified in Dark Cave.
 
 ## Strategy for Geodude
 - Location: Dark Cave.
 - Method: Walk around in dark areas until encounter.
 - Team: Use Icarus (Pidgey) for Tackle/Sand-Attack or Calcifer for Tackle/Leer. Avoid using Gust if it's not effective (Geodude is Rock/Ground).
 - Catching: Use Poké Ball when HP is low.
-- **CAUTION:** `autopress_buttons` from overworld navigation persists into battles. Buffered buttons can disrupt menu navigation. 
-- **Current Buffer:** Approximately 6 "Up" presses remaining from Turn 888. 
-- **Strategy:** Use `select_battle_option` for main menu reliability and `B` to reset menus if cursor moves unexpectedly.
+- **CAUTION:** `autopress_buttons` from overworld navigation persists into battles. Buffered buttons can disrupt menu navigation.
