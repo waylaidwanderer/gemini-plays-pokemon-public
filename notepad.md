@@ -4,9 +4,10 @@
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
     1. Obtain Abra (Trade Material) - **Done**.
-    2. Trade Abra for Machop (Dept Store 5F).
-    3. Train Machop and team for Whitney.
-- **Learned:** Crystal Trade: Abra <-> Machop (Dept Store 5F).
+    2. Trade Abra for Machop (Dept Store 5F) - **Done**.
+    3. Train Machop (MUSCLE) to Level 15-20.
+    4. Defeat Whitney.
+- **Learned:** MUSCLE (Machop) knows Low Kick (80 BP vs Miltank).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
