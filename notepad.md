@@ -13,24 +13,24 @@
 - WATER: Impassable without Surf.
 
 ## Progress
-- Badges: Zephyr (Violet City).
-- Current Goal: Defeat Bugsy for the Hive Badge.
+- Badges: Zephyr (Violet City), Hive (Azalea Town).
+- Current Goal: Reach Goldenrod City via Ilex Forest.
 
-## Strategy: Azalea Gym & Bugsy
-- Leader: Bugsy.
-- Team: Metapod (Lv14), Scyther (Lv16), Kakuna (Lv14).
-- Tactics: Use Fire (Calcifer/Quilava) and Rock (Gneiss/Geodude). Scyther is 4x weak to Rock.
+## Azalea Gym Summary
+- Leader: Bugsy Defeated.
+- Rewards: Hive Badge (Obey up to L30, use Cut outside), TM49 Fury Cutter.
 
 ## Trainer Rosters (Johto)
 - Rocket Grunts (Slowpoke Well): All defeated.
-- Azalea Gym Trainers: Amy & May, Al, Benny, Josh all defeated.
-- Gym Leader Bugsy: Metapod (Defeated), Scyther (Defeated), Kakuna (Lv14) - Battling.
+- Azalea Gym Trainers: All defeated.
+- Gym Leader Bugsy: Defeated (Metapod Lv14, Scyther Lv16, Kakuna Lv14).
 
 ## Azalea Town Summary
-- Locations: Well (31, 7), Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
-- Kurt: Makes custom Balls from Apricorns.
+- Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
+- Kurt (3, 2): Makes custom Balls from Apricorns.
 
 ## Key Discoveries
 - Type: Bug is weak to Fire, Flying, and Rock.
 - NPCs: Use `stun_npc` if they block paths.
 - Menus: Decline switches carefully (YES is default).
+- HM Use: Hive Badge allows use of Cut outside battle.
