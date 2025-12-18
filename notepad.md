@@ -56,9 +56,12 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Blocked by defeated Schoolboy Jack at (27, 23).
+    - **Status:** Exploring East perimeter.
     - **Plan:** Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
-- **Battle Strategy:** Wild Pidgey (Lv 13). New Capture!
-    - **Plan:** Weaken with Low Kick (Slot 1, Low BP due to weight) to avoid accidental OHKO. Then catch.
-    - **Current Cursor:** Slot 1 (Default start).
-    - **Action:** Select Low Kick (Slot 1).
+- **Battle Strategy:** Catching Wild Pidgey.
+    - **Status:** Low HP (Red).
+    - **Action:** Open Pack -> Use Poké Ball.
+- **Reflection (Turn 5668):**
+    - **Hygiene:** Condensed maze logs.
+    - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
+    - **Goals:** Clear. Catch Pidgey -> Explore SE Corner.
