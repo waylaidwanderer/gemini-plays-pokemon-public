@@ -57,8 +57,8 @@
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
     - **Status:** Reading Battle Notice Sign at (27, 31).
-    - **Plan:** Finish reading sign, then continue South to (27, 40) to explore.
-- **Current Action:** Advance text (A button).
+    - **Plan:** Read full text, then move South to explore the grass around (27, 40).
+- **Current Action:** Advance text (A button sequence).
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
