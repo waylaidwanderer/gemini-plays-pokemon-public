@@ -16,11 +16,12 @@
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
   - Calcifer (Quilava): Lv14. Primary powerhouse.
-  - ROCKY (Onix) & GNEISS (Geodude): Primary counters for Falkner's Flying-type Pokémon.
+  - ROCKY (Onix): Lv5. Counter for Falkner.
+  - GNEISS (Geodude): Lv4. Counter for Falkner.
 - **Plan:**
   1. Complete Sprout Tower (Obtain HM05 Flash). ✅
-  2. Collect remaining items in Tower. ✅
-  3. Explore remaining unseen tiles on 3F.
+  2. Heal at Pokemon Center. (In progress)
+  3. Train Rocky/Gneiss to Lv11+ (Gneiss learns Rock Throw).
   4. Defeat Gym Leader Falkner.
 
 ## Pokemon Growth Mechanics
@@ -41,7 +42,7 @@
 ## NPC Archive (Active/Relevant)
 - New Bark: ELM, OFFICER, MOM.
 - Route 30/31: MR. POKEMON, OAK.
-- Violet City: KYLE (Trade), Pokefan M, EARL (Spinning Master) at (25, 14).
+- Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14).
 - Sprout Tower: Sage at (7, 4) (HM info).
 
 ## Lessons Learned
@@ -52,25 +53,13 @@
 - **Scripted NPC Blockage:** During scripted events, NPCs can temporarily block paths. Wait for the event to conclude.
 
 ## Area Mechanics: Sprout Tower
-- Ghosts: Immune to Normal moves. Use Ember.
-- Central pillar: Giant Bellsprout.
-- HM Flash: At the top. Received from Sage Li. Requires Zephyr Badge to use.
+- HM Flash: Received from Sage Li. Requires Zephyr Badge to use.
 
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1429):
-  - Defeated all Sages (Jin, Neal, Troy, Elder Li).
-  - Calcifer evolved into QUILAVA at Lv14.
-  - Received HM05 FLASH from Sage Li.
-  - Potion collected at (6, 14).
-  - Escape Rope collected at (14, 1).
-  - 3F fully explored.
-- Violet City (Turn 1437):
-  - Entered Pokemon Center.
-  - Heading to Nurse Joy to heal.
-## Strategy: Exiting Sprout Tower
-- **Method:** Use Escape Rope for efficiency.
-- **Reasoning:** Instantly exits the dungeon, saving turns and avoiding potential wild encounters while backtracking.
-- **Next Steps:** Heal at Pokemon Center, then head to Violet Gym.
-- **Gym Strategy:** Lead with Gneiss (Geodude) or Rocky (Onix) to counter Flying types and gain EXP.
+- Sprout Tower Complete Turn 1434.
+- Calcifer evolved into QUILAVA Turn 1421.
+- Received HM05 FLASH Turn 1422.
+- Potion collected at (6, 14).
+- Escape Rope collected at (14, 1).
