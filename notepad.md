@@ -48,7 +48,7 @@
 ## Strategy: Johto Gym Challenge
 - Goal: Defeat Gym Leader Falkner in Violet City.
 - HOW: 
-  1. Exit New Bark Town West to Route 29.
+  1. Exit New Bark Town West to Route 29 (Target: (0, 9)).
   2. Capture first team members (Pidgey/Rattata/etc.) using POKé BALLS.
   3. Pass through Cherrygrove City to Route 30.
   4. Navigate North through Route 30 and Route 31 to Violet City.
@@ -57,4 +57,4 @@
 ## Progress Log
 - RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Rival's name confirmed as "MALICE". (Turn 315)
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5 from Aide. Elm suggested Gym Challenge. (Turn 324)
-- EVENT: Talking to Mom in New Bark Town to set up money saving and phone. (Turn 331)
+- EVENT: Set up money saving with Mom. (Turn 334)
