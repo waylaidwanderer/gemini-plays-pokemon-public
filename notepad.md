@@ -28,8 +28,9 @@
 - Officer (Gatehouse): (0, 4) in Route36RuinsOfAlphGate.
 - Gramps (Gatehouse): (7, 6) in Route36RuinsOfAlphGate. Mentioned "strange tree" on the road.
 - Lass: (51, 8) on Route 36. Mentioned "odd tree" blocking the way to Goldenrod City.
-- Arthur: (45, 5) on Route 36. Appears on Thursdays. Gave Hard Stone (boosts Rock moves).
+- Arthur: (45, 5) on Route 36. Appears on Thursdays. Gave Hard Stone.
 - Fisher: (44, 9) on Route 36. Mentioned failure to punch the tree.
+- Weird Tree: (35, 9) on Route 36. Blocks path to Goldenrod. Does not respond to A.
 
 ## Exploration Log
 - Ruins of Alph Detour:
@@ -51,7 +52,7 @@
 - Resource Management: Need to restock Poké Balls at the next Mart.
 
 ## Strategy for Reaching Azalea Town
-1. **Restock:** Visit a Poké Mart (Violet City or next available) to buy at least 10 Poké Balls.
+1. **Restock:** Visit a Poké Mart (Violet City) to buy at least 10 Poké Balls.
 2. **Route 32:** From Violet City, head south through the gatehouse to Route 32.
 3. **Union Cave:** Navigate south along Route 32 to the entrance of Union Cave.
 4. **Azalea Town:** Traverse Union Cave to exit on the southern side, leading directly to Azalea Town.
