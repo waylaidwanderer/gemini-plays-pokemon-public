@@ -15,12 +15,14 @@
 ## Union Cave 1F Progress
 - Firebreather Bill (14, 19) defeated.
 - Found Great Ball (17, 21) and Potion (4, 17).
+- Used REPEL (Turn #2378).
 - Marked: Ladder (5, 19), Super Nerd (4, 21).
 - Verified: FLOOR_UP_WALL is impassable from the north (wall).
 
 ## History
 - Swapped Calcifer to lead slot (Turn #2335).
-- Used REPEL (Turn #2378).
+- Turn #2378: Used REPEL instead of Potion by mistake.
+- Turn #2379: Healing Gneiss.
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
