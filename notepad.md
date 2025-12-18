@@ -43,5 +43,16 @@
 - Input Hygiene: Do not mix directional and action buttons in press_buttons. Use press_sequence for multi-step interactions.
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
 - Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority.
-- Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town. Need to restock Poké Balls at the next Mart.
-- Route 36: Strange tree reported blocking the path. Investigating.
+- Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town.
+- Resource Management: Need to restock Poké Balls at the next Mart (Violet City or future Marts).
+
+## Exploration Log
+- Ruins of Alph Detour:
+  - Solved Kabuto Puzzle.
+  - Explored Inner Chamber.
+  - Encountered wild UNOWN (Psychic, Hidden Power).
+  - Found ladder at (10, 13) leading back to RuinsOfAlphOutside.
+  - Discovered cave entrance at (6, 19).
+  - Entered Route36RuinsOfAlphGate.
+  - Gramps confirmed "strange tree" blocking Route 36.
+- Route 36: Investigating the "strange tree" reported by NPCs. Sign at (55, 7) confirms location. Verified Turn 1992.
