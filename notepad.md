@@ -10,7 +10,7 @@
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 - **Notes:**
     - MUSCLE (Machop) has Low Kick (Fighting, STAB, 50 BP fixed in Gen 2).
-    - MUSCLE Item: **GOLD BERRY** (Needs Verification).
+    - MUSCLE Item: **GOLD BERRY** (Consumed Turn 5464).
     - AZURITE (Heracross) lacks Fighting moves (Level 13).
 
 ## Key Items & Progress
