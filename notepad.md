@@ -14,14 +14,14 @@
 - WATER / ROCK / INCENSE_BURNER: Impassable. Verified.
 - NPCs / Objects: Act as walls. Navigate around or interact from adjacent tile. Verified.
 
-## Training Strategy: Route 32
-- **Route:** Exit Violet City south to Route 32.
+## Training Strategy: Route 31 & Dark Cave
+- **Location:** Route 31 grass and Dark Cave.
 - **Process:**
   1. Lead with Gneiss (Lv4) or Rocky (Lv5).
   2. Switch to Calcifer (Lv14) to finish the battle.
   3. Repeat until Gneiss hits Lv11 (Rock Throw).
   4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
-- **Turn Start:** 1502.
+- **Turn Start:** 1559.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
@@ -35,7 +35,7 @@
   4. Defeat Gym Leader Falkner.
 
 ## Pokemon Growth Mechanics
-- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil/Quilava) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
+- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil/Quilava) require more EXP as they reach higher levels. Verified.
 - **Obedience:** Traded Pokémon or high-level Pokémon may not obey without the appropriate Gym Badges. Verified (NPC info).
 
 ## PC Storage
@@ -57,6 +57,13 @@
 - Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14).
 - Sprout Tower: Sage at (7, 4) (HM info).
 - Violet Pokecenter: Nurse Joy (3, 1), Gentleman (1, 4), Gameboy Kid (7, 6), Youngster (8, 1) (Obedience info).
+- Route 32: Cooltrainer M at (19, 8) - Blockade; requires Badge.
+
+## Lore & Information
+- Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
+- Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
+- Incense Burner: Flavor text "Oh, it's an incense burner!"
+- Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
@@ -65,27 +72,4 @@
 - **Tool Hygiene:** Always provide full moveset and move data to `battle_strategist_v2`.
 - **Scripted NPC Blockage:** During scripted events, NPCs can temporarily block paths. Wait for the event to conclude.
 - **Menu Navigation:** Verify cursor position before pressing A for critical items or complex menu paths.
-
-## Area Mechanics: Sprout Tower
-- HM Flash: Received from Sage Li. Requires Zephyr Badge to use.
-
-## Major Milestones
-- Sprout Tower Complete (HM05 FLASH obtained) Turn 1434.
-- Calcifer evolved into QUILAVA Turn 1421.
-- Team Healed at Violet Pokecenter Turn 1442.
-- Pokecenter 2F explored Turn 1471.
-
-## Gym Preparation: Training Plan
-- **Goal:** Level Rocky (Onix) and Gneiss (Geodude) to Lv11+.
-- **Priority:** Gneiss learns Rock Throw at Lv11, which is critical for Falkner.
-- **Location:** Route 32 (South of Violet City).
-- **Tactics:** Use "Switch Training" (lead with Rocky/Gneiss, then switch to Calcifer) if wild Pokemon are too strong.
-## Move Info
-- Geodude: Rock Throw (Lv11). Critical for Falkner.
-- Onix: Rock Throw (Lv14).
-- Quilava: Ember (Lv12). Already learned.
-## Lore & Information
-- Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
-- Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
-- Incense Burner: Flavor text "Oh, it's an incense burner!"
-- Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
+- **Route 32 Blockage:** A Cooltrainer prevents access to Route 32 south until the Violet Gym is defeated.
