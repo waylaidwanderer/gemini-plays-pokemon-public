@@ -84,3 +84,5 @@
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. Current Status: Healing Gneiss and navigating around the ledge to reach Fisher (15, 13). Standing at (16, 13) is required to talk to him.
+- **Hypothesis 1:** Fisher (15, 13) is a trainer. Test: Stand at (16, 13) and talk to him.
+- **Hypothesis 2:** Fisher (19, 14) is a trainer. Test: Stand at (18, 14) and talk to him.
