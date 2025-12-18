@@ -13,18 +13,17 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Explored eastern passage. Found Great Ball at (17, 21).
-- Fisher (Trainer) at (14, 19).
+- Status: Heading south towards Route 33 exit.
 
 ## Lessons Learned
-- Menu Navigation: The main menu wraps around (8 items). Resetting with 8 presses is ineffective. Use 8 Downs to hit EXIT as a known anchor.
+- Menu Navigation: The main menu wraps around (8 items). Use 8 Downs to hit EXIT as a known anchor.
 - Battle Lead: Switching in battle updates overworld lead upon victory/escape.
 
 ## Strategy: Reaching Azalea Town
-1. Navigate south through Union Cave 1F to Azalea Town.
-2. Use Calcifer (Quilava) as lead to handle encounters.
+- Navigate south through Union Cave 1F to Azalea Town.
+- Use Calcifer (Quilava) as lead for cave encounters.
 
 ## Battle Notes
-- Gneiss is out of Rock Throw PP.
-- Calcifer is the primary attacker for cave encounters.
-- Rocky (Onix) is a backup tank.
+- Gneiss (Geodude): Out of Rock Throw PP.
+- Calcifer (Quilava): Primary attacker.
+- Rocky (Onix): Backup tank.
