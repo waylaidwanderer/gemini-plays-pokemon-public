@@ -8,7 +8,7 @@
        - *Method:* Switch Training.
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 - **Notes:**
-    - MUSCLE (Machop) has Low Kick (Fighting, STAB).
+    - MUSCLE (Machop) has Low Kick (Fighting, STAB, Weight-based: 20 BP vs Marill).
     - MUSCLE Item: **GOLD BERRY** (Needs Verification).
     - AZURITE (Heracross) lacks Fighting moves (Level 13).
 
