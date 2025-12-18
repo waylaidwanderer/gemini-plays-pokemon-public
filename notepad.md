@@ -72,3 +72,6 @@
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Pidgey on Route 37).
+### Guide Gent's House (26_7)
+- GRAMPS (ID 1): (2, 3).
+- WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (25, 9).
