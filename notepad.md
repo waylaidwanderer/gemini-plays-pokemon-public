@@ -35,7 +35,7 @@
 
 ## Union Cave 1F
 - X ATTACK: Found at (4, 2).
-- Hiker Daniel (3, 6): Facing right. Battling.
+- Hiker Daniel (3, 6): Facing right. Defeated. Gneiss reached Lv15.
 - Pokefan M (11, 8): Facing down. Likely a trainer.
 - Switch-training vs Daniel's Onix: Skipped. 
   - Observation: Onix is Lv11 and uses Bind. 
