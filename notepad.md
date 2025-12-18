@@ -23,9 +23,6 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: VioletKylesHouse
-- Status: Identifying NPCs for the Onix trade.
-
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
 - **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
@@ -51,7 +48,7 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Violet City: LASS at (27, 28). Mentioned Sprout Tower ghosts and Normal move immunity.
+- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE at (2, 3) in house at (21, 29).
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
@@ -65,7 +62,7 @@
 - Method: Walk around in grass until encounter.
 - Team: Lead with GNEISS (Geodude) or use Smokescreen/Leer to avoid accidental KO. Calcifer's Tackle is too strong (crits kill).
 - Catching: Use Poké Ball.
-- Goal: Trade for ONIX in Violet City.
+- Goal: Trade for ONIX with KYLE in Violet City.
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
 - **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a mistake.
 - Wade (BUG CATCHER): Route 31 (17, 13). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv3).
