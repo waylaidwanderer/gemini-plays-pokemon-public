@@ -13,7 +13,7 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Found Great Ball (17, 21), Potion (4, 17), Awakening (12, 33).
+- Found: Great Ball (17, 21), Potion (4, 17), Awakening (12, 33).
 - Defeated: Hiker Daniel (3, 6), Hiker Russell (11, 8), Firebreather Bill (14, 19), Pokemaniac Larry (4, 21), Firebreather Ray (11, 27).
 - Fisher at (12, 27) gives light advice.
 - Ladder at (5, 19) marked.
