@@ -3,11 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Go to Game Corner (check Abra price).
-    2. Obtain Abra (Buy or Catch).
-    3. Trade Abra for Machop (Dept Store 5F).
-    4. Train team for Whitney.
-- **Learned:** Trade on 5F is **Abra** for Machop (Crystal Version).
+    1. Obtain Abra (Trade Material).
+    2. Trade Abra for Machop (Dept Store 5F).
+    3. Train Machop and team for Whitney.
+- **Learned:** Crystal Trade: Abra <-> Machop (Dept Store 5F).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
@@ -15,25 +14,17 @@
 - **HM/TM:** Cut (Belladonna), Headbutt (Tutor).
 
 ## Tile Mechanics
-- **FLOOR:** Traversable. Verified.
-- **WALL:** Impassable. Verified.
-- **COUNTER:** Interact over it. Verified.
+- **FLOOR:** Traversable.
+- **WALL:** Impassable.
+- **COUNTER:** Interact from adjacent tile.
 
 ## Important Locations
-- **Underground Entrance:** (11, 29) Goldenrod.
 - **Game Corner:** (14, 21) Goldenrod.
 - **Dept Store:** (24, 27) Goldenrod.
+- **Pokemon Center:** (15, 27) Goldenrod.
 
-## Recent Events
+## Recent Events & Lessons
+- **Abra Acquired:** Bought for 100 Coins. Nickname: SATORI.
+- **Lesson - Party Management:** Always check for an empty party slot before attempting to acquire a new Pokémon.
 - **Coin Case:** Obtained in Underground.
-- **Strategy Correction:** Need Abra, not Drowzee for Machop trade.
-- **Game Corner:** Coin Vendor at (3, 2). 50 Coins = 1000 Yen.
-- **Game Corner Prizes (Left):** TM25 (Thunder), TM14 (Blizzard), TM38 (Fire Blast) @ 5500 Coins.
-- **Game Corner Prizes (Right):** Abra (100 Coins), Cubone (800 Coins), Wobbuffet (1500 Coins).
-- **Abra Strategy:** Buy 100 Coins for 2000 Yen. Buy Abra. Trade for Machop.
-- **Coins:** Bought 100 Coins (2x 50). Spent 2000 Yen. Total Money: 2054 Yen.
-- **Action Required:** Return to Game Corner to buy Abra.
-- **Abra Price:** 100 Coins confirmed.
-- **Current Money:** 2054 Yen.
-- **Current Coins:** 100.
-- **Action:** Buying Abra now. Nickname: SATORI.
+- **Game Corner Data:** 50 Coins = 1000 Yen. TMs are 5500. Abra=100, Cubone=800, Wobbuffet=1500.
