@@ -32,3 +32,5 @@
 - **B1F Puzzle Solved:** Leaving the floor via elevator and returning causes the workers to move the boxes.
 - **Current Action:** Looting B1F items.
 - **Looting:** Found Ultra Ball. Navigating to left side to reach Item Ball at (10, 15).
+- **Ladder Mystery:** Ladder at (17, 2) seems inaccessible from B1F due to walls. Might be an exit from a 1F drop?
+- **Looting:** Getting Item Ball at (10, 15) via left path (X=2).
