@@ -74,3 +74,4 @@
 ## Timestamps
 - Bellsprout Hunt: Turn 1089 to Turn 1111 (Route 31). Success: Kudzu caught. Trade for Rocky completed Turn 1139.
 - Earl's Pokemon Academy: Started Turn 1167 (Violet City). Good place for basic tips and training info.
+- GAMEBOY_KID: NPC type found in Earl's Academy. Usually non-battling.
