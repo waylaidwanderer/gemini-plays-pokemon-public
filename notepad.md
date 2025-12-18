@@ -38,3 +38,7 @@
 - Team Rocket Grunt at (31, 9).
 - Teacher NPC at (15, 13).
 - Gramps NPC at (20, 9).
+## Lessons Learned
+- Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
+- Link moving NPC markers to their object_id to ensure they track correctly.
+- Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
