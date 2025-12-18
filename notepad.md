@@ -3,8 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Train AZURITE (Heracross), ROCKY (Onix), and HEMATITE (Pinsir) on Route 36.
-    2. Challenge Whitney.
+    1. Return to Goldenrod City.
+    2. Trade Drowzee for Machop (Dept Store 5F).
+    3. Train Machop, Heracross, Onix, Pinsir.
+    4. Challenge Whitney.
 - **Learned:** Happiness Rater (Quilava "quite cute"), Dept Store layout.
 
 ## Goldenrod Dept. Store Inventory
