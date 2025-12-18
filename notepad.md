@@ -58,4 +58,4 @@
 - **Strategy:** Resume Switch Training on Route 34.
 - **Goal:** Train Azurite and Rocky.
 - **Status:** Rocky (Lv 13, 19/34 HP). Azurite (Lv 10).
-- **Training Plan:** Grind on Route 34 until Lv 18.
+- **Training Plan:** Grind on Route 34 until Lv 18. Target grass at (10, 35).
