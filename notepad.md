@@ -55,11 +55,12 @@
 - **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
-- **Navigation Strategy:** The SW corner was a dead end with loot.
-    - **Discovery:** Found TM28 (Dig) at (1, 43).
-    - **Correction:** The path (Column 0) does NOT connect to the South Gate. It is blocked by a wall at y=44.
-    - **Plan:** Backtrack North to (0, 10) to exit the perimeter, then navigate to South Gate via the main park area.
-- **Current Action:** Backtracking North to (0, 10).
+- **Navigation Strategy:** Exiting Western Strip.
+    - **Status:** Backtracked to (0, 10).
+    - **Correction:** The Western Strip is isolated. Must reverse the entry maze to escape.
+    - **Plan:** Reverse traversal: (0, 10) -> (2, 8) -> (4, 6) -> (6, 4) -> (10, 4) -> (10, 2).
+    - **Goal:** Reach Top Edge (Row 2) to access the rest of the park.
+- **Current Action:** Reverse Maze Step 1: Navigate to (2, 8).
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
