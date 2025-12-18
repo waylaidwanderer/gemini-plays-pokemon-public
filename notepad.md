@@ -50,6 +50,6 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Caught Wild Drowzee (Lv 12). Nicknaming "LUCID". Will be sent to PC (Party Full).
-- **Goal:** Resume Training.
-- **Current State:** In battle cleanup.
+- **Battle Note:** Encountered Wild Rattata (Lv 11).
+- **Goal:** Train Azurite (switch training).
+- **Current State:** Rocky (Asleep) is out. Switching to Azurite.
