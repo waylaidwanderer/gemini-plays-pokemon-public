@@ -58,8 +58,7 @@
 - **Navigation Strategy:** East Side Exploration.
     - **Status:** Blocked by defeated Schoolboy Jack at (27, 23).
     - **Plan:** Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
-- **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
-- **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
-- **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
-- **Current Cursor:** Slot 1 (Low Kick). Target: Slot 4 (Karate Chop).
-- **Action:** A (Fight) -> Down x3 -> A (Select).
+- **Battle Strategy:** Wild Pidgey (Lv 13). New Capture!
+    - **Plan:** Weaken with Low Kick (Slot 1, Low BP due to weight) to avoid accidental OHKO. Then catch.
+    - **Current Cursor:** Slot 1 (Default start).
+    - **Action:** Select Low Kick (Slot 1).
