@@ -37,11 +37,13 @@
 - **Farfetch'd Quest:** Completed.
 
 ## Tile Mechanics
-- **Headbutt Trees:** Interactable tiles that can spawn Pokémon.
-  - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
-  - **Forest Group (No Heracross):** Ilex Forest (Hoothoot, Pineco).
-  - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross, Ekans).
-  - **Farming Note:** Rotation between trees helps avoid "stuck" detection.
+- **FLOOR:** Standard traversable terrain.
+- **WALL:** Impassable terrain (trees, rocks, buildings).
+- **WATER:** Requires Surf to traverse.
+- **CUT_TREE:** Small tree that can be removed with Cut. Respawns upon map reload.
+- **HEADBUTT_TREE:** Tree that can be Headbutted for encounters. Acts as a wall.
+- **LEDGE_HOP_DOWN:** One-way traversal (jump down).
+- **WARP_CARPET_RIGHT:** Transition to next map.
 
 ## Important Locations
 - **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
