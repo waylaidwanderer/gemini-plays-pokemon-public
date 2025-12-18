@@ -11,6 +11,11 @@
 
 ## Union Cave 1F Progress
 - Task: Swap Calcifer to lead slot. (Started Turn #2291)
+- Attempted swap Turn #2317: Failed because cursor reset logic land on PACK instead of POKEMON.
+- Menu Order (Verified): POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT.
+- Strategy: Use direct Start -> A sequence assuming cursor starts on POKEMON.
+- Marked Item Ball at (17, 21) with object_id 6.
+- Fisher (Trainer) at (14, 19) spotted.
 
 ## Strategy: Reaching Azalea Town
 1. Swap Calcifer (Quilava) to lead slot to preserve Gneiss's HP.
