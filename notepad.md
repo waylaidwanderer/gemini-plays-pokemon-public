@@ -9,7 +9,7 @@
 - COUNTER: Impassable. Face to interact. Verified.
 - HEADBUTT_TREE / CUT_TREE: Impassable. Verified.
 - WARP_CARPET: Exit map. Verified.
-- LADDER / DOOR / CAVE: Warp. Verified.
+- LADDER / DOOR / CAVE: Warp. Triggered immediately upon entering the tile. Verified.
 - PC / BOOKSHELF / RADIO: Interactable objects. Verified.
 - WATER / ROCK / INCENSE_BURNER: Impassable. Verified.
 
@@ -54,16 +54,9 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1347): Exploring to find Sage Li. Calcifer needs 82 EXP for Lv12.
-## Sprout Tower 3F (Turn 1372)
-- Sage Jin (ID 1) defeated at (8, 13).
-- Sage Neal (ID 4) defeated at (11, 11).
-- Sage (ID 2) at (8, 8).
-- Poke Ball (ID 5) at (6, 14) (Potion collected).
-- Shaking is more intense here.
-- Looking for Sage Li.
-- Calcifer is Lv12 and learned EMBER!
-## Sprout Tower 3F Exploration Plan
-1. Talk to Sage at (8, 8).
-2. Explore north for Sage Li.
-3. Defeat all trainers for EXP.
+- Sprout Tower 3F (Turn 1372):
+  - Sage Jin (ID 1) defeated at (8, 13).
+  - Sage Neal (ID 4) defeated at (11, 11).
+  - Sage Troy (ID 2) at (8, 9) (In battle).
+  - Poke Ball (ID 5) at (6, 14) (Potion collected).
+  - Calcifer is Lv12 and learned EMBER!
