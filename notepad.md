@@ -42,3 +42,7 @@
   - Hypothesis: Low-level trainees (Lv4-5) will faint from cumulative Bind damage or a single move before they can be switched out. 
   - Test: Observed Gneiss taking damage from Bind (approx. 1-2 per turn). 
   - Conclusion: The risk of losing a teammate is too high; Gneiss will finish the battle solo to ensure safety.
+## Lessons Learned
+- Ledge Mechanics: LEDGE_HOP_DOWN tiles can only be traversed from north to south. Attempting to move 'Up' onto one from the south will fail.
+- Marker Hygiene: Always verify and delete redundant or outdated markers (e.g., 'Trainer' vs 'Defeated') to maintain map clarity.
+- Battle Risk Assessment: High-defense opponents with multi-turn moves (like Bind) are poor targets for switch-training low-level Pokémon. Lead with a heavy hitter to minimize risk.
