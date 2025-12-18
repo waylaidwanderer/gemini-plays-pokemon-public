@@ -14,15 +14,23 @@
 
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner (Violet City).
+- Hive Badge: Next target (Azalea City).
 
-## Strategy: Azalea Town
-- Gym Entry: Azalea Gym is currently blocked (verify after Well).
+## Strategy: Azalea Gym (Bug-type)
+- Target: Gym Leader Bugsy.
+- Team: Bug-type Pokemon (Scyther is the ace).
+- Counter: Calcifer (Quilava) with Ember. Gneiss (Geodude) with Rock Throw.
+- Plan:
+  1. Find the Gym entrance (sign at 14, 15).
+  2. Defeat trainers and Gym Leader.
+  3. Start Turn: 2596.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
 - TM31 MUD-SLAP: Obtained.
 - Mystery Egg: Received from Elm's Aide.
 - Super Potion x2: One from Mom, one from Well B1F (10, 3).
+- Lure Ball: From Kurt.
 
 ## Trainer Rosters (Johto)
 - Rocket Grunt (Well 1): Rattata x2 (Lv9).
@@ -30,34 +38,18 @@
 - Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 
-## Slowpoke Well B1F Strategy
-- Status: COMPLETED. Team Rocket cleared.
-- Item at (10, 3): Collected (Super Potion).
-- Calcifer (Quilava): Level 18. HP 53/53 (Poisoned).
-
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
 - Charcoal Kiln at (21, 13).
 - Poké Mart at (21, 5).
 - Pokémon Center at (15, 9).
-- Team Rocket Grunt at (31, 9): Defeated/Gone.
-- Slowpoke at (18, 9): Marked.
-- Azalea Gym: Entrance should be open now. Sign at (14, 15).
-- Teacher NPC at (15, 13): Mentions Kurt makes Balls.
-- Gramps NPC at (20, 9): Reports Slowpoke tails for sale.
+- Team Rocket Grunt at (31, 9): Verify if gone.
 - Kurt's House at (9, 5). Inside: Kurt (3, 2), Granddaughter (5, 3).
-
-## Strategy: Post-Rocket Cleanup
-1. Talk to Kurt at (3, 2) to receive reward.
-2. Heal at Pokémon Center (15, 9) to cure Calcifer's poison.
-3. Challenge Azalea Gym (Bug-type).
-4. Check for any new NPCs or changes in Azalea Town.
+- Apricorn Mechanic: Bring Apricorns to Kurt at (3, 2).
 
 ## Lessons Learned
-- Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
+- Always double-check map orientations and neighboring routes before making strategic claims.
 - Link moving NPC markers to their object_id to ensure they track correctly.
-- Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
-- Slowpoke Well: Team Rocket presence confirmed.
-## Items Collected
-- Lure Ball: Received from Kurt.
-- Apricorn Mechanic: Bring Apricorns to Kurt at (3, 2) to make special Balls.
+- Verify all foundational assumptions in-game.
+- Moving NPCs can block `navigate` and `find_path`. Stun them or wait.
+- `num_turns` in calls must match the Current Turn in the prompt.
