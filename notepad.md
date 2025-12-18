@@ -4,9 +4,9 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL_GRASS: Traversable; wild encounters.
-- LEDGE_HOP_DOWN: One-way jump South (2 tiles).
-- LEDGE_HOP_LEFT: One-way jump West (2 tiles).
-- LEDGE_HOP_RIGHT: One-way jump East (2 tiles).
+- LEDGE_HOP_DOWN: One-way jump South (1 tile).
+- LEDGE_HOP_LEFT: One-way jump West (1 tile).
+- LEDGE_HOP_RIGHT: One-way jump East (1 tile).
 - HEADBUTT_TREE: Impassable (requires Headbutt).
 - COUNTER: Interactable (face to talk to NPC behind).
 - WARP_CARPET_DOWN: Exit map South.
@@ -56,8 +56,6 @@
 ## Lessons Learned
 - NPCs act as walls.
 - Buildings are often larger than they appear.
-- Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
-- Turn Tracking: Always use the turn number provided in the Game State.
 
 ## NPCs & Interactions (Inside Buildings)
 ### Cherrygrove Mart (26_4)
@@ -74,8 +72,3 @@
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Pidgey on Route 37).
-## Immediate Strategy (Turn 569)
-1. Talk to Teacher (26, 12).
-2. Visit Guide Gent's House (25, 9).
-3. Buy 2 Poké Balls at Mart (23, 3) (Total: 6).
-4. Transition to Route 30 via (16, 0).
