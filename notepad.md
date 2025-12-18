@@ -50,6 +50,6 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Encountered Wild Drowzee (Lv 12).
-- **Goal:** Catch it.
-- **Current State:** Rocky (Lv 12, Asleep) is out. Drowzee is weak (~35%). Poke Ball failed. Trying again.
+- **Battle Note:** Caught Wild Drowzee (Lv 12). Nicknaming "LUCID". Will be sent to PC (Party Full).
+- **Goal:** Resume Training.
+- **Current State:** In battle cleanup.
