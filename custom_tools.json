@@ -37,27 +37,24 @@
     ]
   },
   "smart_battle_move": {
-    "description": "Selects 'FIGHT' and then navigates to the target move slot, accounting for the cursor's current position. Use this instead of execute_battle_move when the cursor is not at the top.",
+    "description": "Selects 'FIGHT' and then navigates to the target move slot using the shortest path (Up/Down wrapping). Accounts for cursor position.",
     "input_schema": {
       "type": "object",
       "properties": {
         "target_slot": {
           "type": "integer",
-          "description": "The move slot to select (1-4).",
           "minimum": 1,
           "maximum": 4
         },
         "current_slot": {
           "type": "integer",
-          "description": "The current cursor position in the move menu (1-4). Defaults to 1.",
-          "default": 1,
           "minimum": 1,
-          "maximum": 4
+          "maximum": 4,
+          "default": 1
         },
         "autopress_buttons": {
           "type": "boolean",
-          "description": "If true, automatically presses the calculated buttons.",
-          "default": true
+          "default": false
         }
       },
       "required": [
@@ -65,12 +62,17 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ntarget_slot = input_data['target_slot']\ncurrent_slot = input_data.get('current_slot', 1)\n\nbuttons = []\n\n# Select FIGHT (Assumes cursor is on FIGHT at main menu)\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate to target slot\ndiff = target_slot - current_slot\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n\n# Select Move\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Mash B to advance text (standard battle progression)\nfor _ in range(10):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 250\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\n# Calculate steps\n# 1 -> 2: Down (1)\n# 1 -> 3: Down (2) or Up (2)\n# 1 -> 4: Up (1)\n# General: (target - current) % 4\n# But we need buttons.\n\ndiff = (target_slot - current_slot) % 4\nbuttons = [\"A\", \"sleep 500\"] # Select FIGHT\n\nif diff == 1:\n    buttons.extend([\"Down\", \"sleep 200\"])\nelif diff == 2:\n    buttons.extend([\"Down\", \"sleep 200\", \"Down\", \"sleep 200\"])\nelif diff == 3:\n    buttons.extend([\"Up\", \"sleep 200\"]) # Wrap around\n\nbuttons.extend([\"A\"]) # Select Move\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
         "timestamp": "2025-12-16T07:33:25.485Z",
         "action_counter": 993
+      },
+      {
+        "commit_message": "Fixed cursor logic to use wrapping and minimize button presses. Added support for current_slot tracking.",
+        "timestamp": "2025-12-18T18:21:49.458Z",
+        "action_counter": 5432
       }
     ]
   },
