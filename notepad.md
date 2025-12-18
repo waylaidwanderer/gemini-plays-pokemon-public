@@ -20,14 +20,14 @@
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
-  1. Catch Bellsprout on Route 31; trade with KYLE in Violet City for ONIX. (Current Focus)
+  1. Catch Bellsprout on Route 31 (Current Battle: (8, 11)); then trade with KYLE in Violet City for ONIX.
   2. Train Calcifer to Lv10 (Ember).
   3. Use Ember to sweep Sprout Tower (Flash HM).
   4. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
-- **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
+- **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade. Exploration in progress.
 - **Violet City:** Arrived and healed at Pokecenter. Located Kyle (Onix Trader).
 
 ## Battle and Pokemon Information
@@ -38,13 +38,15 @@
 - Caterpie: Tackle (Verified).
 - Geodude: Tackle (Verified).
 - Bellsprout: Vine Whip (Verified).
-- Poliwag: Bubble (Verified).
+- Poliwag: Bubble (Verified on Route 31).
+- Hoothoot: Growl, Tackle? (Verified on Route 31).
 - Weedle: Poison Sting (Verified).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
 - Grass (Vine Whip) vs Flying: Not very effective. (Verified).
 - Water vs Rock/Ground: Super Effective (4x). (Verified with Poliwag vs Gneiss).
+- Fire (Ember) vs Grass: Super Effective (Predicted).
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
@@ -58,9 +60,10 @@
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles.
 - **Ledge Logic:** Ledges are one-way (South, East, West).
 - **Critical Hits:** Be extremely cautious when weakening Pokemon for capture; crits can ruin an encounter. Lead with a weaker Pokemon if possible.
+- **Capture Strategy:** Get HP to yellow/red. Use status moves (Sleep, Paralysis) if available. Use Smokescreen to stay safe while weakening.
 
 ## Strategy for Bellsprout
-- Location: Route 31 Tall Grass.
+- Location: Route 31 Tall Grass (8, 11).
 - Method: Walk around in grass until encounter.
 - Team: Lead with Calcifer (Cyndaquil). Use Smokescreen to reduce accuracy and Tackle to weaken. Avoid Ember and Gust (OHKO risk). Do NOT lead with Gneiss (4x weak to Vine Whip).
 - Catching: Use Poké Ball.
