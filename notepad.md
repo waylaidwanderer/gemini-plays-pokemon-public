@@ -34,3 +34,4 @@
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
 - **Current Objective:** Explore south to find Union Cave entrance.
 - **Milestone:** Full party of 6 reached (Turn 2116).
+- Camper Roland (3, 43): Battling (Turn 2122).
