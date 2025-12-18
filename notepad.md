@@ -56,9 +56,8 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Caught Pidgey (Female, Lv 13). Nicknaming 'MISTRAL'.
-    - **Action:** Typing 'MIST' (Part 1).
-    - **Plan:** Finish nickname, then Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
+    - **Status:** Nicknamed Pidgey 'MISTRAL'.
+    - **Plan:** Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
