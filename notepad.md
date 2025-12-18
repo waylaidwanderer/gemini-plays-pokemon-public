@@ -31,7 +31,7 @@
 ## Defeated Trainers
 - Route 30: Bug Catcher Don.
 - Route 31: Bug Catcher Wade.
-- Sprout Tower: Sage Chow (1F), Sage Nico (2F), Sage Edmond (2F), Sage Jin (3F), Sage Neal (3F), Sage Troy (3F), Sage Li (Elder) (3F).
+- Sprout Tower: Sage Chow, Sage Nico, Sage Edmond, Sage Jin, Sage Neal, Sage Troy, Sage Li (Elder).
 
 ## NPC Archive (Active/Relevant)
 - New Bark: ELM, OFFICER, MOM.
