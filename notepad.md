@@ -54,8 +54,8 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Fighting Wild Rattata (Turn 4437).
-- **Strategy:** Switch to Rocky -> Weaken -> Catch.
-- **Goal:** Catch Rattata (New Pokedex Entry).
+- **Battle Note:** Fighting Wild Rattata (Turn 4439).
+- **Action:** Switching to Rocky (Slot 6).
+- **Strategy:** Weaken with Tackle/Constrict, then Catch.
+- **Goal:** Catch Rattata.
 - **Status:** Azurite (Lv 10), Rocky (Lv 12, 25/32 HP).
-- **Plan:** Switch to Rocky, use Tackle to weaken, then throw Poké Ball.
