@@ -27,6 +27,7 @@
 - Fisher: (13, 17) in Ruins of Alph. Mentioned "odd presence" and "huge secret".
 - Officer (Gatehouse): (0, 4) in Route36RuinsOfAlphGate.
 - Gramps (Gatehouse): (7, 6) in Route36RuinsOfAlphGate. Mentioned "strange tree" on the road.
+- Lass: (51, 8) on Route 36. Mentioned "odd tree" blocking the way to Goldenrod City.
 
 ## Exploration Log
 - Ruins of Alph Detour:
@@ -37,6 +38,7 @@
   - Discovered cave entrance at (6, 19).
   - Entered Route36RuinsOfAlphGate.
   - Gramps confirmed "strange tree" blocking Route 36.
+- Route 36: Investigating the "odd tree" reported by NPCs. Sign at (55, 7) confirms location. Lass confirms it blocks the way to Goldenrod City.
 
 ## Strategy & Lessons
 - Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
@@ -44,15 +46,11 @@
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
 - Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority.
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town.
-- Resource Management: Need to restock Poké Balls at the next Mart (Violet City or future Marts).
+- Resource Management: Need to restock Poké Balls at the next Mart.
 
-## Exploration Log
-- Ruins of Alph Detour:
-  - Solved Kabuto Puzzle.
-  - Explored Inner Chamber.
-  - Encountered wild UNOWN (Psychic, Hidden Power).
-  - Found ladder at (10, 13) leading back to RuinsOfAlphOutside.
-  - Discovered cave entrance at (6, 19).
-  - Entered Route36RuinsOfAlphGate.
-  - Gramps confirmed "strange tree" blocking Route 36.
-- Route 36: Investigating the "strange tree" reported by NPCs. Sign at (55, 7) confirms location. Verified Turn 1992.
+## Strategy for Reaching Azalea Town
+1. **Restock:** Visit a Poké Mart (Violet City or next available) to buy at least 10 Poké Balls.
+2. **Route 32:** From Violet City, head south through the gatehouse to Route 32.
+3. **Union Cave:** Navigate south along Route 32 to the entrance of Union Cave.
+4. **Azalea Town:** Traverse Union Cave to exit on the southern side, leading directly to Azalea Town.
+5. **Training:** Use Geodude (Gneiss) for training against trainers on Route 32 to prepare for the next Gym.
