@@ -55,3 +55,4 @@
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave.
+- **Current Objective:** Defeat Youngster Albert and continue south.
