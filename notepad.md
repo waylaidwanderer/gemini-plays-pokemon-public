@@ -51,3 +51,6 @@
 - **Item:** Quick Claw (Held item, chance to strike first) obtained from Teacher at (27, 40) National Park.
 - **Menu Navigation:** Start Menu cursor remembers the last position in Gen 2. `use_item_sequence` tool assumes it starts at the top (Pokedex). Must manually reset cursor to top or account for position.
 - **Current Cursor:** At 'GEM' (Index 5). Needs to go UP to 'PACK' (Index 3) or Top.
+- **Menu Correction:** 'use_item_sequence' failed due to cursor memory (Started at 'GEM' -> moved to 'OPTION').
+- **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
+- **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
