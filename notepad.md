@@ -38,7 +38,7 @@
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
 ## Contest Prep
-- **Current Task:** Access PC. 1) Deposit Togepi. 2) Withdraw Lucid. 3) Move Lucid to Slot 1.
+- **Current Task:** Heading North to National Park.
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
-- **Strategy:** Lucid (Hypnosis) is key.
-- **Team:** Azurite (12), Rocky (14).
+- **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
+- **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
