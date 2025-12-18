@@ -44,6 +44,6 @@
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Battle vs Firebreather Walt
-- **Opponent:** Magmar (Lv 11).
-- **Strategy:** Switch to Garnet (Rocky burned/low HP).
-- **Status:** Lucid (Low HP), Rocky (Burned, Low HP).
+- **Opponent:** Magmar #2 (Lv 13).
+- **Strategy:** Garnet (Quilava) Quick Attack.
+- **Status:** Lucid (Low), Rocky (Burned), Garnet (Active, 58/68).
