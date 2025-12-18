@@ -13,9 +13,7 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Pokemaniac Larry (4, 21) defeated.
 - Fisher (Moving) gives light advice.
-- Firebreather Bill (14, 19) defeated.
 - Current: Battling Firebreather Ray at (11, 27).
 
 ## Strategy: Reaching Azalea Town
