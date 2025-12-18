@@ -43,3 +43,4 @@
 - **Route 36 Encounters:** Ledyba (Morning).
 - **Navigation:** Route 35 East path (Cut) leads to a dead end South. Must backtrack to Route 36 to reach Goldenrod.
 , Ditto (Morning).
+, Pidgey (Morning).
