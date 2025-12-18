@@ -52,4 +52,4 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Encountered Wild Drowzee (Lv 12).
 - **Goal:** Catch it.
-- **Current State:** Rocky (Lv 12, Asleep) is out. Drowzee is weak. Attempting to catch.
+- **Current State:** Rocky (Lv 12, Asleep) is out. Drowzee is weak (~35%). Poke Ball failed. Trying again.
