@@ -36,7 +36,7 @@
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 
 ## Strategy: Return to New Bark Town
-- HOW: Route 30 path (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
+- HOW: Route 30 path (15, 37) -> (14, 37) -> (13, 37) -> (13, 38) -> (13, 39) -> (13, 40) -> (13, 41) -> (13, 42) -> (13, 43) -> (12, 43) -> (11, 43) -> (11, 44) -> (11, 45) -> (11, 46) -> (11, 47) -> (11, 48) -> (11, 49) -> (10, 49) -> (9, 49) -> (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
 - Prep: Heal at Cherrygrove Pokemon Center (29, 3). Anticipate rival battle at eastern exit of Cherrygrove City.
 ## Navigation: Path to Pokemon Center (26_3)
 - Path: (16, 0) -> (16, 4) -> (29, 4).
