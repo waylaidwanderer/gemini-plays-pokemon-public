@@ -17,11 +17,10 @@
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
-  1. Catch Geodude in Dark Cave (Route 31). DONE.
-  2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
-  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). Icarus is DONE. Calcifer needs training.
-  4. Use Ember to sweep Sprout Tower (Flash HM).
-  5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
+  1. Catch Bellsprout on Route 31; trade with KYLE in Violet City for ONIX. (Current Focus)
+  2. Train Calcifer to Lv10 (Ember).
+  3. Use Ember to sweep Sprout Tower (Flash HM).
+  4. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
