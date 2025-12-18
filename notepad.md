@@ -12,6 +12,7 @@
 - WARP_CARPET_DOWN: Exit map South.
 - LADDER: Warp to different floor.
 - BOOKSHELF / WINDOW / TREE / HEDGE: Impassable (acts as WALL).
+- PC: Interactable (face to use).
 
 ## NPCs & Interactions
 ### Mr. Pokémon's House (26_10)
