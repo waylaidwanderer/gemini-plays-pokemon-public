@@ -4,8 +4,8 @@
 - Tile: FLOOR (Traversable), WALL/ROCK/WATER (Impassable).
 - Ledges: LEDGE_HOP_DOWN (One-way South), LEDGE_HOP_LEFT (One-way West, jumps 2 tiles).
 - Interaction: Stand in front of counters or below objects (PCs, Signs).
-- Menus: Main menu wraps around (8 items). 8 presses return to the same spot. Cursor position is persistent.
-- Battle: Switching in battle updates overworld lead upon victory/escape.
+- Menus: The main menu (Start) wraps around (8 items). Cursor position is persistent. 8 presses in one direction return to the same spot.
+- Battle Switches: Switching in battle updates the overworld lead upon victory/escape.
 
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner (Violet City).
@@ -16,7 +16,7 @@
 
 ## Strategy: Azalea Town
 - Navigate West through Route 33.
-- Use Calcifer (Quilava) as lead, switch to Icarus (Pidgey) for Machop.
+- Lead: Calcifer (Quilava).
 
 ## Battle Notes
 - Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
