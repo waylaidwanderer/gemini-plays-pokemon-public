@@ -53,4 +53,4 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Encountered Wild Jigglypuff (Lv 12).
 - **Goal:** Catch it.
-- **Current State:** Azurite (Lv 10) active. Jigglypuff used Defense Curl. Using Tackle to weaken.
+- **Current State:** Azurite (19/37 HP) active. Jigglypuff (~75% HP). Using Tackle.
