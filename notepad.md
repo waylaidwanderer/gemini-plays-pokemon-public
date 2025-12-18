@@ -56,9 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Found Paralyz Heal at (35, 12).
-    - **Plan:** Backtrack to (27, 5), then explore South along the East perimeter.
-- **Current Action:** Backtracking to (27, 5).
+    - **Status:** Found Paralyz Heal at (35, 12). Backtracked to Main Path.
+    - **Plan:** Explore South along the East perimeter.
+    - **Maze Solution:** Top-Left path (Row 2 -> Zigzag West) allows access to West Edge.
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
