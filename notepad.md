@@ -4,16 +4,16 @@
 - FLOOR: Standard traversable ground.
 - WALL: Impassable barrier.
 - TALL_GRASS: Standard traversable grass; triggers wild encounters.
-- LEDGE_HOP_RIGHT: One-way (East only). Jump from left, wall from right.
-- LEDGE_HOP_DOWN: One-way (South only). Jump from top, wall from bottom.
-- LEDGE_HOP_LEFT: One-way (West only). Jump from right, wall from left.
-- DOOR / STAIRCASE / WARP_CARPET: Warp points between maps or floors.
+- LEDGE_HOP_RIGHT: One-way (East only).
+- LEDGE_HOP_DOWN: One-way (South only).
+- LEDGE_HOP_LEFT: One-way (West only).
+- DOOR / STAIRCASE / WARP_CARPET: Warp points.
 - HEADBUTT_TREE / CUT_TREE / WATER: Impassable; require HM moves.
 
 ## NPCs & Interactions
 ### Mr. Pokémon's House (26_10)
 - MR. POKÉMON (ID 1): (3, 5). Gave MYSTERY EGG.
-- PROF. OAK (ID 2): (6, 5). Gave POKéDEX. (Left the building)
+- PROF. OAK (ID 2): (6, 5). Gave POKéDEX.
 
 ### Cherrygrove City (26_3)
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
@@ -28,20 +28,20 @@
 - Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!". (Read)
 - YOUNGSTER (ID 1): (5, 26).
 
-## Verification List
+## Verification & Correction
+- Route 29 (24_3): Fisher at (25, 3) was a misidentification of a tree tile. Verify correct NPC locations.
 - Route 29 (24_3): Verify Cut Tree at (21, 11).
+- Cherrygrove (26_3): Tree at (30, 9) confirmed as decorative wall.
 
 ## Lessons Learned
-- NPCs act as walls; plan paths around them.
-- Buildings are often larger than they appear; check all sides.
+- NPCs act as walls.
+- Buildings are often larger than they appear.
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
-- Exploration: Check building corners and behind counters.
-- Scripted Events: Treat character movement during dialogue as completed interaction.
-- Ledges: Strictly one-way. Jumping simulates moving two tiles.
-- Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
 - Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
+- Ledges: Strictly one-way. Jumping moves the player two tiles.
 
 ## Strategy for Return Trip
-- [Turn 245] Current Goal: Returning to New Bark Town via Cherrygrove City.
-- Note: Prepare for a potential rival encounter near the Cherrygrove exit.
+- Goal: Return to New Bark Town via Cherrygrove City.
+- Path to Cherrygrove (6, 53): (11, 48) -> (11, 49) -> (10, 49) -> (9, 49) -> (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
+- Note: Prepare for potential rival encounter near Cherrygrove exit.
 - Healing: Heal at Cherrygrove Pokemon Center (29, 3) before heading east.
