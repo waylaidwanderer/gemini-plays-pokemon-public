@@ -73,3 +73,4 @@
 - Turn 352: Started nicknaming Pidgey.
 - Turn 367: Nicknaming complete. ICARUS (Pidgey, Lv2) joined the party. Leading: Calcifer.
 - Turn 368: Switching ICARUS to lead for training. Heading west to Cherrygrove.
+- Turn 377: ICARUS moved to lead position. Exiting menus.
