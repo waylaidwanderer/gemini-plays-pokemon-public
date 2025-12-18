@@ -29,9 +29,9 @@
 - YOUNGSTER (ID 1): (5, 26).
 
 ## Verification & Correction
-- Route 29 (24_3): Fisher at (25, 3) was a misidentification of a tree tile. Verify correct NPC locations.
+- Route 29 (24_3): Fisher was misidentified; verify correct NPC location.
 - Route 29 (24_3): Verify Cut Tree at (21, 11).
-- Cherrygrove (26_3): Tree at (30, 9) confirmed as decorative wall.
+- Cherrygrove (26_3): Tree at (30, 9) is a decorative wall.
 
 ## Lessons Learned
 - NPCs act as walls.
@@ -41,6 +41,5 @@
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 
 ## Strategy: Return to New Bark Town
-- HOW: Follow path (11, 48) -> (11, 49) -> (10, 49) -> (9, 49) -> (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53) to Route 30 exit.
+- HOW: Route 30 path (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
 - Prep: Heal at Cherrygrove Pokemon Center (29, 3). Anticipate rival battle at eastern exit.
-- Goal: Deliver Mystery Egg and investigate Prof. Elm's call.
