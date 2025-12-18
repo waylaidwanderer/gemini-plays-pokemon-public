@@ -59,7 +59,7 @@
         "target_slot"
       ]
     },
-    "python_script": "# Smart Battle Move Tool (Vertical List Version)\n# Calculates button presses to navigate from current_slot to target_slot in a vertical list.\n# 1\n# 2\n# 3\n# 4\n# Wraps around (Up from 1 -> 4, Down from 4 -> 1)\n\nimport json\n\ntry:\n    # Ensure variables are integers\n    # target_slot and current_slot are injected by the harness\n    t_slot = int(target_slot)\n    c_slot = int(current_slot) if 'current_slot' in locals() else 1\n    \n    buttons = [\"A\"] # Select FIGHT to enter menu\n    \n    if t_slot == c_slot:\n        pass # No movement needed\n    else:\n        # Calculate distances\n        # Down distance (forward)\n        down_steps = (t_slot - c_slot) % 4\n        # Up distance (backward)\n        up_steps = (c_slot - t_slot) % 4\n        \n        if down_steps <= up_steps:\n            for _ in range(down_steps):\n                buttons.append(\"Down\")\n        else:\n            for _ in range(up_steps):\n                buttons.append(\"Up\")\n        \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # Fallback or error logging\n    print(json.dumps([]))\n",
+    "python_script": "# Smart Battle Move Tool (Debug Version)\nimport json\n\ntry:\n    # Argument Handling Logic\n    args = locals()\n    t_slot = 1\n    c_slot = 1\n    \n    # Try to find target_slot\n    if 'target_slot' in args:\n        t_slot = int(args['target_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'target_slot' in args['input_data']:\n        t_slot = int(args['input_data']['target_slot'])\n    else:\n        # If we can't find it, we can't proceed safely, but we'll default to 1 to avoid crashing\n        # and print a debug message\n        print(f\"DEBUG: Could not find target_slot in locals or input_data. Locals keys: {list(args.keys())}\")\n        t_slot = 1\n\n    # Try to find current_slot\n    if 'current_slot' in args:\n        c_slot = int(args['current_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'current_slot' in args['input_data']:\n        c_slot = int(args['input_data']['current_slot'])\n    \n    buttons = [\"A\"] # Select FIGHT to enter menu\n    \n    if t_slot == c_slot:\n        pass # No movement needed\n    else:\n        # Calculate distances\n        down_steps = (t_slot - c_slot) % 4\n        up_steps = (c_slot - t_slot) % 4\n        \n        if down_steps <= up_steps:\n            for _ in range(down_steps):\n                buttons.append(\"Down\")\n        else:\n            for _ in range(up_steps):\n                buttons.append(\"Up\")\n        \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(f\"DEBUG: Error in smart_battle_move: {str(e)}\")\n    print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
@@ -75,6 +75,11 @@
         "commit_message": "Changed navigation logic from 2x2 grid to 1x4 vertical list to match Pokemon Crystal's battle UI. Added shortest path wrapping logic.",
         "timestamp": "2025-12-18T18:35:45.413Z",
         "action_counter": 5451
+      },
+      {
+        "commit_message": "Added robust argument handling (checking locals and input_data) and error reporting to debug variable injection issues.",
+        "timestamp": "2025-12-18T18:36:42.120Z",
+        "action_counter": 5452
       }
     ]
   },
