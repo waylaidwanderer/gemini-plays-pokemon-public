@@ -37,4 +37,8 @@
 - X ATTACK: Found at (4, 2).
 - Hiker Daniel (3, 6): Facing right. Battling.
 - Pokefan M (11, 8): Facing down. Likely a trainer.
-- Switch-training vs Daniel's Onix: Skipped. Reasoning: Onix's Bind and high physical defense make it a slow, grinding fight. The risk of Bind damage and potential Screech/Rock Throw from the opponent makes it too dangerous to bring in low-level trainees like Rocky (Lv5) or Apophis (Lv4) without a safer opening. Gneiss will handle this solo.
+- Switch-training vs Daniel's Onix: Skipped. 
+  - Observation: Onix is Lv11 and uses Bind. 
+  - Hypothesis: Low-level trainees (Lv4-5) will faint from cumulative Bind damage or a single move before they can be switched out. 
+  - Test: Observed Gneiss taking damage from Bind (approx. 1-2 per turn). 
+  - Conclusion: The risk of losing a teammate is too high; Gneiss will finish the battle solo to ensure safety.
