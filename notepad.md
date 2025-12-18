@@ -46,4 +46,4 @@
 ## Battle vs Juggler Irwin
 - **Opponent:** Voltorb #4 (Lv 14).
 - **Strategy:** Garnet (Quilava) Ember.
-- **Status:** Garnet (Active, 56/68 HP). Voltorb accuracy lowered.
+- **Status:** Garnet (Active, 56/68 HP, Def -2). Voltorb (Low HP).
