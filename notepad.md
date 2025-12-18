@@ -16,7 +16,6 @@
 - Zephyr Badge: Obtained from Falkner (Violet City).
 
 ## Strategy: Azalea Town
-- Investigation: Team Rocket is at Slowpoke Well cutting off tails.
 - Gym Entry: Azalea Gym is currently blocked (verify after Well).
 
 ## TM/HM & Items
