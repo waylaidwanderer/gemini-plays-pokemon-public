@@ -45,5 +45,5 @@
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Battle vs Juggler Irwin
 - **Opponent:** Voltorb #3 (Lv 10).
-- **Strategy:** Switch to Garnet (Lucid low).
-- **Status:** Lucid (14/39 HP), Rocky (Burned), Garnet (Active soon).
+- **Strategy:** Garnet (Quilava) active.
+- **Status:** Lucid (Low, Sleeping Voltorb), Garnet (Active).
