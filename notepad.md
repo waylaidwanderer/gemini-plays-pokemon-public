@@ -24,7 +24,7 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Dark Cave
-- **Status:** Geodude caught! Nicknamed her "GNEISS".
+- **Status:** Geodude caught! Nicknamed her "GNEISS". Preparing to exit.
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
@@ -55,9 +55,3 @@
 - **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles to ensure type advantages are utilized.
 - **Ledge Logic:** Ledges are one-way (South/Down) and cannot be bypassed from the bottom. Verified on Routes 29 and 30.
-
-## Strategy for Geodude
-- Location: Dark Cave.
-- Method: Walk around in dark areas until encounter.
-- Team: Use Icarus (Pidgey) for Tackle/Sand-Attack or Calcifer for Tackle/Leer. Avoid using Gust if it's not effective (Geodude is Rock/Ground).
-- Catching: Use Poké Ball when HP is low.
