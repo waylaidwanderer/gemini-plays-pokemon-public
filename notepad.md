@@ -2,7 +2,7 @@
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable ground.
-- WALL / FLOOR_UP_WALL / WATER / ROCK: Impassable.
+- WALL / FLOOR_UP_WALL / WATER / ROCK: Impassable. (FLOOR_UP_WALL verified at (5, 18))
 - TALL_GRASS: Wild encounters.
 - LEDGE_HOP_DOWN: One-way South.
 - COUNTER: STAND in front to talk to NPCs.
@@ -16,14 +16,12 @@
 - Firebreather Bill (14, 19) defeated.
 - Found Great Ball (17, 21) and Potion (4, 17).
 - Marked: Ladder (5, 19), Super Nerd (4, 21).
-- Verified: FLOOR_UP_WALL is a wall (tested at (5, 18)).
-- Healing Gneiss with Potion. (Attempt 3)
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
-- Current Path: Heading around the wall at Y=18 via (8, 18) and Row 26 to reach Super Nerd at (4, 21).
+- Plan: Navigate around Row 18 wall via (8, 18) gap, then reach Super Nerd at (4, 21).
 
 ## Battle Notes
-- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41. (Healing with Potion)
+- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41. Needs healing.
 - Calcifer (Quilava): Lv16. Primary attacker.
 - Rocky (Onix): Backup tank.
