@@ -61,10 +61,7 @@
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
-- **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
-- **Level Requirements:** Cyndaquil learns Ember at Lv12 and evolves into Quilava at Lv14.
 - **Route 32 Blockage:** A Cooltrainer prevents access to Route 32 south until the Violet Gym is defeated.
 - **Flash Requirement:** Flash requires Zephyr Badge to use in overworld.
-- **Tool Hygiene:** Always provide full moveset and move data to `battle_strategist_v2`.
-- **Scripted NPC Blockage:** During scripted events, NPCs can temporarily block paths. Wait for the event to conclude.
-- **Menu Navigation:** Verify cursor position before pressing A for critical items or complex menu paths.
+- **Route 32 Blockage:** Access restricted until Zephyr Badge obtained.
+- **Flash Requirement:** Flash requires Zephyr Badge to use in overworld.
