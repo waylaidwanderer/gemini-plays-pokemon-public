@@ -65,7 +65,6 @@
 - **Training Logs:**
     - Session Start: Turn 679.
     - Milestone: Icarus (Pidgey) reached Lv5 and learned Sand-Attack (Turn 699).
-    - Current Progress: Icarus Lv5 (5/20 HP), Calcifer Lv7. Target: Lv9/Lv13.
 - **Exploration Targets:**
     - Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after training.
 
