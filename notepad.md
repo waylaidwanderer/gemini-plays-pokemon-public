@@ -64,3 +64,11 @@
 - Preparation: Train Calcifer and Icarus to Lv10.
 - Route: Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
 - Goal: Defeat Falkner. Use Smokescreen to lower accuracy if needed.
+## Lessons Learned (Updated)
+- Menu Navigation: Do NOT mix directional buttons and action buttons (A/B/Start/Select) in the same turn. The system truncates these inputs, leading to failed sequences.
+- Nicknaming: Track the exact screen text and cursor position. Current task: Nicknaming Pidgey "ICARUS" (Started Turn 352).
+- Battle Strategy: In wild battles, capture low-level Pokémon at full health to avoid accidental KOs.
+
+## Task Log
+- Turn 352: Started nicknaming Pidgey.
+- Turn 363: Screen shows "ICARU", cursor on "U". Moving to "S".
