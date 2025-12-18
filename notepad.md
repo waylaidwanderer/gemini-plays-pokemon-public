@@ -46,4 +46,4 @@
 - Waypoint: Face counter at (3, 3) or (4, 3) to heal.
 - GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
 - TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
-- RIVAL ENCOUNTER: Met Rival at eastern exit of Cherrygrove City (34, 6). Battle vs Totodile Lv5. (Turn 273)
+- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name is "???". (Turn 289)
