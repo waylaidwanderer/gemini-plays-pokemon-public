@@ -27,7 +27,7 @@
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
-- Kurt (3, 2): Makes custom Balls from Apricorns.
+- Kurt (3, 2): Makes custom Balls from Apricorns (takes 24 hours/1 day). Currently making a ball from WHT APRICORN.
 
 ## Key Discoveries
 - Type: Bug is weak to Fire, Flying, and Rock.
