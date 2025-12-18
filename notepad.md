@@ -5,7 +5,6 @@
 - WALL / TREE / HEDGE / MART_SHELF / BOOKSHELF / WINDOW / BUOY: Impassable.
 - TALL_GRASS: Traversable; wild encounters.
 - LEDGE_HOP_DOWN: One-way jump South (Verified).
-- LEDGE_HOP_LEFT / RIGHT: Unverified (Assume one-way).
 - COUNTER: Face to interact with NPC behind.
 - WARP_CARPET_DOWN: Exit map South.
 - LADDER / DOOR: Triggers warp.
