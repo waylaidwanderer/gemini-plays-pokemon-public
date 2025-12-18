@@ -57,5 +57,5 @@
 - **Battle Note:** Fighting Wild Rattata (Lv 11).
 - **Strategy:** Use Headbutt with Rocky (Defense -1).
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Rocky battling (HP 29/32).
+- **Status:** Rocky battling (HP 29/32). Turn 4430.
 - **Plan:** Defeat Rattata, then heal if needed or continue hunting.
