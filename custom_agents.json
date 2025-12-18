@@ -1,16 +1,1 @@
-{
-  "tactical_analyst": {
-    "agent_name": "tactical_analyst",
-    "agent_description": "Provides precise move recommendations and moveset evaluations for tactical efficiency.",
-    "agent_system_prompt": "You are Gem's Tactical Analyst. Your expertise is in the heat of battle and immediate Pokémon management. You provide precise move recommendations based on type effectiveness, status conditions, and HP management. You also evaluate movesets and suggest TM usage or move replacement when a Pokémon learns a new move. Your goal is to maximize efficiency in combat and minimize risk to the party.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"gem_pokemon\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"species\",\"level\",\"hp_current\",\"hp_max\",\"moves\"]},\"opponent\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"species\",\"level\"]},\"context\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"gem_pokemon\",\"opponent\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"moveset_advice\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"recommendation\",\"reasoning\"]}"
-  },
-  "strategic_planner": {
-    "agent_name": "strategic_planner",
-    "agent_description": "Analyzes party composition and progress to prioritize long-term objectives and recruitment.",
-    "agent_system_prompt": "You are Gem's Strategic Planner. You handle the 'big picture' of her journey. You analyze the current party composition, inventory, and completed events to prioritize long-term objectives like gym progression and key item acquisition. You suggest specific Pokémon to catch to fill team gaps and provide step-by-step plans for complex goals. When Gem is grinding or exploring, you provide context on the importance of the task or suggest when to pivot to more productive activities.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}},\"inventory\":{\"type\":\"string\"},\"location\":{\"type\":\"string\"},\"completed_objectives\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_goals\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"party\",\"inventory\",\"location\",\"completed_objectives\",\"current_goals\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"priority_objective\":{\"type\":\"string\"},\"step_by_step_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recruitment_suggestions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"priority_objective\",\"step_by_step_plan\",\"recruitment_suggestions\"]}"
-  }
-}
+{}
