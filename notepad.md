@@ -24,11 +24,11 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Dark Cave
-- **Status:** Geodude caught! Nicknaming her "Gneiss". Started Turn 886 (9:49 PM PST).
+- **Status:** Geodude caught! Nicknamed her "GNEISS".
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
-- **Route 31:** Navigated to Dark Cave.
+- **Route 31:** Found Dark Cave.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
@@ -38,16 +38,16 @@
 - Caterpie: Tackle (Verified).
 - Geodude: Tackle (Verified).
 ### Team Status
-- Icarus (Pidgey): Lv9 (465 EXP). Needs 95 XP for Lv10.
-- Calcifer (Cyndaquil): Lv8 (345 EXP). Needs 74 XP for Lv9.
-- Gneiss (Geodude): Lv4 (96 EXP).
+- ICARUS (PIDGEY): Lv9 (17/28 HP). Needs 95 XP for Lv10.
+- Calcifer (CYNDAQUIL): Lv8 (16/25 HP). Needs 74 XP for Lv9.
+- GNEISS (GEODUDE): Lv4 (12/18 HP).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
-- Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
+- MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
 
 ## Lessons Learned
