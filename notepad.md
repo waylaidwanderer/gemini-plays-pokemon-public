@@ -54,8 +54,8 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Log:** Rocky defeated Jigglypuff (Lv 12). Grew to Lv 13.
-- **Strategy:** Switch Training (Azurite -> Rocky).
+- **Observation:** Teacher in Ilex Forest Gatehouse discusses/gives TM12 Sweet Scent.
+- **Strategy:** Resume Switch Training on Route 34.
 - **Goal:** Train Azurite and Rocky.
-- **Status:** Rocky (Lv 13, 19/34 HP).
-- **Training Plan:** Read Trainer Tips, then head South to Ilex Forest Gatehouse (13, 37). Item Ball at (7, 30) requires Surf/Cut access from West side.
+- **Status:** Rocky (Lv 13, 19/34 HP). Azurite (Lv 10).
+- **Training Plan:** Grind on Route 34 until Lv 18.
