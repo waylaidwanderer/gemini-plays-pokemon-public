@@ -54,9 +54,9 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Fighting Wild Drowzee (Lv 12).
-- **Goal:** Defeat it for Azurite's XP.
-- **Current State:** Azurite used Tackle. Drowzee HP Critical (Red). Finishing with Tackle.
-- **Risk Assessment:** Minimal. One hit should KO.
+- **Battle Note:** Defeated Wild Drowzee. Azurite gained XP.
+- **Goal:** Train Azurite (Switch Training).
+- **Current State:** Hunting on Route 34. Rocky Lead.
+- **Next:** Switch Azurite in for next battle.
 - **Then:** Train Azurite (Switch Training).
 - **Then:** Challenge Whitney (Goldenrod Gym).
