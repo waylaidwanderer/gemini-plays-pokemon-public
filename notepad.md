@@ -34,5 +34,5 @@
 - Ledge Mechanics: LEDGE_HOP_DOWN is one-way (South).
 - Marker Hygiene: Use ☠️ for defeated trainers; delete 🚶/👤.
 - UI Precision: Use select_battle_option for main menu; Up/Down only for moves.
-- Switch Training Risk: High-defense or multi-hit/trapping move users (Bind, Wrap) are bad for low-level trainees.
+- Switch Training Risk: High-defense or trapping move users (Bind, Wrap) are bad for low-level trainees.
 - Battle Status: Verify status (Burn, Poison) carefully; don't assume from previous opponents.
