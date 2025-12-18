@@ -56,13 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Exploring East perimeter.
+    - **Status:** Caught Pidgey (Female, Lv 13). Nicknaming 'MISTRAL'.
     - **Plan:** Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
-- **Mechanics Correction:** Low Kick in Gen 2 is **50 BP Fixed** + 30% Flinch. It is **NOT** weight-dependent (that's Gen 3+).
-    - **Implication:** Low Kick is a viable alternative to Karate Chop, especially for the flinch chance.
-- **Battle Strategy:** Catching Wild Pidgey.
-    - **Status:** Throwing Poké Ball.
-    - **Action:** Down (Select Ball) -> A (Select) -> A (Use).
+- **Current Action:** Select 'YES' to nickname Pidgey.
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
