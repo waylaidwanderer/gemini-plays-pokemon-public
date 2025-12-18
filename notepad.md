@@ -54,7 +54,7 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1372):
+- Sprout Tower 3F (Turn 1389):
   - Sage Jin (ID 1) defeated at (8, 13).
   - Sage Neal (ID 4) defeated at (11, 11).
   - Sage Troy (ID 2) at (8, 9) (In battle).
