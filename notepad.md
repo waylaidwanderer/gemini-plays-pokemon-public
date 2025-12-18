@@ -59,9 +59,16 @@
     3. Repeat until Heracross is found.
 - **Anti-Hallucination Strategy:** When farming a single spot (like Headbutt trees), the system may flag "stuck" or "looping" if staying on one tile too long. **Solution:** Rotate between adjacent valid tiles (e.g., trees at 24, 25, 27) every few attempts to break the positional loop, even if it's less efficient.
 - **Anti-Hallucination Success:** The rotation strategy (moving between trees at 24, 25, 27) has successfully prevented the "looping/stuck" system warnings. Continue this pattern.
-- **Grind Log (Turn 4159):**
-  - Session Duration: ~355+ turns.
-  - Encounters: Spearow (Very Common), Aipom (Common), Ekans (Common).
-  - Target: Heracross (Not seen yet).
-  - Status: Taking long routes to avoid anti-stuck detection. Still hunting for Heracross on the Mountain Group trees. Spearow found at (25, 11).
+- **Grind Log (Turn 4160):**
+  - Session Duration: ~360 turns.
+  - Results: ~60 Encounters on trees at (24,11), (25,11), (27,11).
+  - Species: Spearow (~70%), Aipom (~20%), Ekans (~10%). NO Heracross.
+  - **CRITICAL HYPOTHESIS UPDATE:**
+    - Evidence: Aipom appears, but Heracross is absent after many attempts.
+    - Theory: Azalea trees likely have "Low" and "Normal" yield tables.
+      - "Low" Table: Spearow + Aipom. (Heracross 0%)
+      - "Normal" Table: Spearow + Aipom + Heracross (30%).
+    - Conclusion: The trees at (24-27, 11) are likely "Low Yield" trees. Staying here is futile.
+    - **Action Plan:** Pivot to a new cluster of trees (e.g., near Slowpoke Well or Gym) to find a "Normal Yield" tree.
+  - Status: Relocating to Slowpoke Well trees (Row 4).
 - **Theory Check:** If Heracross is missing after ~50 encounters, these might be "Low Yield" Mountain trees (if such a distinction exists where Aipom spawns but Heracross doesn't). However, usually Aipom and Heracross share the "Rare" tree pool. Continuing to grind to verify.
