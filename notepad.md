@@ -70,7 +70,8 @@
 - **HMs:** Use FLASH in Dark Cave if level grinding is needed or for shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
 
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Exploring via Route 32 gatehouse. Currently in Route32RuinsOfAlphGate. Last Update: Turn 1894.
+- **Ruins of Alph Detour:** Started Turn 1888. Exploring via Route 32 gatehouse. Currently in Route32RuinsOfAlphGate. Last Update: Turn 1896.
+- **Officer Hint:** Ruins of Alph is a "Look-and-Touch Tourist Site". Mentions "sliding stone panels". Verified Turn 1896.
 
 ## Reflection Turn 1869
 - **Immediate Execution:** No deferred tasks. Falkner defeated, badge obtained.
