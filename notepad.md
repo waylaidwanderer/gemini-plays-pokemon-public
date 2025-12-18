@@ -29,8 +29,8 @@
 ## Strategy & Lessons
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town.
 - Training (How-To): Switch-train Rocky (Onix) or Egg (Togepi) by leading with a stronger Pokemon (Gneiss or Calcifer), then immediately switching to the trainee on Turn 1 of a battle. This splits EXP and ensures safety.
-- Tile Verification Needed: Test collision for LEDGE_HOP_UP (expected impassable) and HEADBUTT_TREE.
+- Tile Verification: LEDGE_HOP_UP (impassable) confirmed at (12, 27). HEADBUTT_TREE (impassable) confirmed at (11, 19).
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Pick up item at (3, 30) and reach Fisher at (15, 13).
+- **Current Objective:** Reach Fisher at (15, 13).
