@@ -37,8 +37,7 @@
 ## Important Locations
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
-## Grinding Session Log
-- **Start Turn:** 4576
-- **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
-- **Status:** Azurite Lv 12 (31/43 HP), Rocky Lv 14. Battling Rattata.
-- **Event:** Bug-Catching Contest today (Thursday).
+## Contest Prep
+- **Current Task:** Heading to Goldenrod to heal, then North to National Park for the Bug-Catching Contest (Thursday).
+- **Goal:** Catch Scyther/Pinsir or win Sun Stone.
+- **Team:** Azurite (12), Rocky (14). Need to heal Azurite.
