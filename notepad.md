@@ -33,15 +33,15 @@
 - **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`. Use `press_sequence` or separate calls. Mixed inputs are truncated by the system. Verified Turn 1922.
 - **Puzzle Strategy:** Form the picture of the Pokémon described by the sign (Kabuto).
 
-## Reflection Turn 1922
-- **Immediate Execution:** Marked unactivated warps (3, 3), (4, 3), (4, 0).
-- **Notepad Hygiene:** Removed transient status info and redundant EXP tracking. Added input hygiene lesson.
-- **Goal Clarity:** Reading description sign to prepare for puzzle.
-- **Root Hypothesis:** Unmarked warps in Kabuto Chamber are likely puzzle rewards.
+## Reflection Turn 1935
+- **Immediate Execution:** Placing Piece 9.
+- **Notepad Hygiene:** Updated piece locations (8 is at 16) and progress.
+- **Goal Clarity:** Solving Kabuto puzzle.
+- **Root Hypothesis:** Numerical order 1-16 solves the puzzle.
 ## Puzzle: Kabuto Chamber
 - Description: "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - Target: Numerical order 1-16 in center 4x4.
 - Center Slots: [7, 8, 9, 10, 13, 14, 15, 16, 19, 20, 21, 22, 25, 26, 27, 28]
-- Piece Locations (Turn 1934):
-  1:7, 2:8, 3:9, 4:10, 5:13, 6:14, 7:15, 8:35, 9:23, 10:17, 11:1, 12:12, 13:18, 14:30, 15:4, 16:29
-- Progress: Placing Piece 8. Target slot (4,2) [Index 16]. Current Piece 8 at (5,5) [Index 35].
+- Piece Locations (Turn 1935):
+  1:7, 2:8, 3:9, 4:10, 5:13, 6:14, 7:15, 8:16, 9:23, 10:17, 11:1, 12:12, 13:18, 14:30, 15:4, 16:29
+- Progress: Placing Piece 9. Target slot (1,3) [Index 19]. Current Piece 9 at (5,3) [Index 23].
