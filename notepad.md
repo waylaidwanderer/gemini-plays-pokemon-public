@@ -74,3 +74,8 @@
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Pidgey on Route 37).
+## Immediate Strategy (Turn 569)
+1. Talk to Teacher (26, 12).
+2. Visit Guide Gent's House (25, 9).
+3. Buy 2 Poké Balls at Mart (23, 3) (Total: 6).
+4. Transition to Route 30 via (16, 0).
