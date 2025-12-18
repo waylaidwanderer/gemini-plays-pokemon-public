@@ -19,7 +19,7 @@
 - **HOW:** 
   1. Catch Geodude in Dark Cave (Route 31). DONE.
   2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
-  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). Icarus is DONE. Calcifer needs training (currently Lv8).
+  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). Icarus is DONE. Calcifer needs training.
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
