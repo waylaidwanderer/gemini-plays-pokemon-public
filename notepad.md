@@ -47,3 +47,5 @@
 - Scripted Events: Treat character movement during dialogue as completed interaction.
 - Ledges: Strictly one-way. Jumping simulates moving two tiles.
 - Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
+- Turn 224: Received urgent call from PROF. ELM. "It's a disaster!" and requested immediate return to New Bark Town.
+- Strategy: Retrace steps south to Cherrygrove City, then east through Route 29.
