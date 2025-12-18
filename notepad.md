@@ -22,25 +22,29 @@
   2. Ensure Rocky and Gneiss are healthy for the Gym battle.
   3. Use Rock-types to soak up Normal/Flying hits.
 
+## Pokemon Growth Mechanics
+- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil) require more EXP as they reach higher levels, making early leveling feel slower but scaling better later.
+
 ## Completed Areas
 - **Route 30/31:** Defeated trainers, caught Geodude and Bellsprout.
 - **Violet City:** Traded Bellsprout for Rocky (Onix).
 
-## NPC Archive
-- New Bark: ELM, OFFICER, MOM.
-- Route 30/31: MR. POKEMON, OAK, WADE.
-- Cherrygrove: GRAMPS, NURSE JOY, CLERK.
-- Violet City: LASS (Tower info), KYLE (Trade), Pokefan M, EARL (Spinning Master) at (25, 14).
+## Defeated Trainers
+- Route 30: Bug Catcher Don.
+- Route 31: Bug Catcher Wade.
 - Sprout Tower:
-  - GRANNY: Lore.
-  - Sage at (7, 4): Confirmed HM is at top.
-  - Sage Chow: Defeated at (3, 2) on 1F.
-  - Sage Nico: Defeated at (11, 3) on 2F.
-  - Sage Edmond: Defeated at (5, 14) on 2F.
-  - Sage Jin (ID 1): Defeated at (8, 13) on 3F.
-  - Sage Neal (ID 4): Defeated at (11, 11) on 3F.
-  - Sage Troy (ID 2): Defeated at (8, 9) on 3F.
-  - Sage Li (ID 3): At (10, 2) on 3F (In battle).
+  - Sage Chow (1F).
+  - Sage Nico (2F).
+  - Sage Edmond (2F).
+  - Sage Jin (3F).
+  - Sage Neal (3F).
+  - Sage Troy (3F).
+
+## NPC Archive (Active/Relevant)
+- New Bark: ELM, OFFICER, MOM.
+- Route 30/31: MR. POKEMON, OAK.
+- Violet City: KYLE (Trade), Pokefan M, EARL (Spinning Master) at (25, 14).
+- Sprout Tower: Sage at (7, 4) (HM info), Sage Li (ID 3) (At top).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
@@ -57,8 +61,7 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1410):
-  - Defeated Sages Jin, Neal, and Troy.
+- Sprout Tower 3F (Turn 1411):
   - Battling Sage Li's Hoothoot (Lv 10) at (10, 2).
   - Potion collected at (6, 14).
   - Calcifer is Lv13.
