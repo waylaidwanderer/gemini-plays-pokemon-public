@@ -1,34 +1,30 @@
 # Johto Journey: Gem's Log
 
-## Tile Mechanics (Verified)
-- FLOOR: Traversable ground.
-- WALL / FLOOR_UP_WALL / WATER / ROCK: Impassable.
-- TALL_GRASS: Wild encounters.
-- LEDGE_HOP_DOWN: One-way South.
-- LEDGE_HOP_LEFT: One-way West (jumps 2 tiles).
-- COUNTER: STAND in front to talk to NPCs.
-- WARP_CARPET / LADDER / DOOR / CAVE: Transitions.
-- PC / BOOKSHELF / RADIO / SIGN: Interactable.
+## Game Mechanics
+- Tile: FLOOR (Traversable), WALL/ROCK/WATER (Impassable).
+- Ledges: LEDGE_HOP_DOWN (One-way South), LEDGE_HOP_LEFT (One-way West, jumps 2 tiles).
+- Interaction: Stand in front of counters or below objects (PCs, Signs).
+- Menus: Main menu wraps around (8 items). 8 presses return to the same spot. Cursor position is persistent.
+- Battle: Switching in battle updates overworld lead upon victory/escape.
 
 ## Gym Progress
-- Zephyr Badge: Obtained from Falkner.
+- Zephyr Badge: Obtained from Falkner (Violet City).
 
 ## Route 33 Progress
-- Arrived from Union Cave 1F at (11, 10).
-- Exit to Union Cave 1F: (11, 9).
-- Hiker Anthony at (6, 13).
+- Goal: Reach Azalea Town. (Started Turn #2415)
+- Hiker Anthony at (6, 13): Battling now.
 
-## Strategy: Reaching Azalea Town
-- Navigate West through Route 33 to reach Azalea Town.
-- Use Calcifer (Quilava) as lead.
+## Strategy: Azalea Town
+- Navigate West through Route 33.
+- Use Calcifer (Quilava) as lead, switch to Icarus (Pidgey) for Machop.
 
 ## Battle Notes
 - Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
-- Calcifer (Quilava): Lv16. Primary attacker.
-- Rocky (Onix): Backup tank.
+- Calcifer (Quilava): Lv17. HP: 11/50.
+- Icarus (Pidgey): Lv10. HP: 30/30. Gust is super effective vs Machop.
 
 ## Trainer Rosters
-- Firebreather Bill (Union Cave): Koffing x2 (Lv6).
-- Pokemaniac Larry (Union Cave): Slowpoke (Lv10).
-- Firebreather Ray (Union Cave): Vulpix (Lv9).
-- Hiker Anthony (Route 33): Geodude (Lv11).
+- Firebreather Bill: Koffing x2 (Lv6).
+- Pokemaniac Larry: Slowpoke (Lv10).
+- Firebreather Ray: Vulpix (Lv9).
+- Hiker Anthony: Geodude (Lv11), Machop (Lv11?).
