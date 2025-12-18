@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Heal & Train:** Use Super Potion (Right/Left to reset cursor -> Use), then grind to Lv 20 while exploring the left side (x < 10) of National Park.
+    1. **Heal & Train:** Confirm Super Potion usage (Press A sequence from current menu), then grind to Lv 20 while exploring the left side (x < 10).
        - *Status:* Lv 17 (Target: Lv 20).
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
