@@ -4,8 +4,8 @@
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
     1. **Switch Training:** Train MUSCLE (Machop) to Lv 20 on Route 35.
-       - *Start:* Turn 5201.
-       - *Target:* Lv 20 (Seismic Toss @ 19, Low Kick).
+       - *Status:* Lv 10 (Target: Lv 20).
+       - *Method:* Switch Training.
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 - **Notes:**
     - MUSCLE (Machop) has Low Kick (Fighting, STAB).
