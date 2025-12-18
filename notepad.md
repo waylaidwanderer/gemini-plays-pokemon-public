@@ -4,9 +4,9 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL_GRASS: Traversable; wild encounters.
-- LEDGE_HOP_DOWN: One-way jump South (To be verified).
-- LEDGE_HOP_LEFT: One-way jump West (To be verified).
-- LEDGE_HOP_RIGHT: One-way jump East (To be verified).
+- LEDGE_HOP_DOWN: One-way jump South (Verified: Impassable from South).
+- LEDGE_HOP_LEFT: One-way jump West (Likely one-way).
+- LEDGE_HOP_RIGHT: One-way jump East (Likely one-way).
 - HEADBUTT_TREE: Impassable (requires Headbutt).
 - COUNTER: Interactable (face to talk to NPC behind).
 - WARP_CARPET_DOWN: Exit map South.
@@ -32,6 +32,7 @@
 - YOUNGSTER (ID 5): (7, 30). Confirmed Mr. Pokémon's house is "a bit farther ahead".
 - Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!".
 - YOUNGSTER (ID 1): (5, 26).
+- FRUIT TREE (5, 39): Obtained BERRY.
 
 ## Progression Plan
 - **Primary Goal:** Defeat Gym Leader Falkner in Violet City.
@@ -44,23 +45,19 @@
 - **Preparation:**
     - Collect Bitter Berry (Route 31) for Sprout Tower Gastly.
     - Obtain HM05 (Flash) from Sage Li in Sprout Tower.
-    - Inventory: 5 Potions (Current), 6 Poké Balls (Target: 6+).
+    - Inventory: 5 Potions, 6 Poké Balls.
 
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5. (Turn 324)
 - EVENT: Set up money saving with Mom. (Turn 334)
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
-
-## Next Steps (Turn 611)
-1. Exit Mart and head North to Route 30.
-2. Training: Lead with Icarus, switch to Calcifer to gain levels for both.
-3. Reach Route 31 and Dark Cave.
-4. Catch Geodude.
+- TRAINING LOG: Started training session on Route 30 (Turn 623).
 
 ## Lessons Learned
 - NPCs act as walls.
 - Buildings are often larger than they appear.
+- Ledges are one-way (South confirmed impassable from below).
 
 ## NPCs & Interactions (Inside Buildings)
 ### Cherrygrove Mart (26_4)
@@ -86,6 +83,7 @@
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Pidgey on Route 37 - "so mischievously frightening").
+
 ### Route 30 Berry House (26_9)
-- POKEFAN_M (ID 1): (2, 3).
+- POKEFAN_M (ID 1): (2, 3). Quote: "You know, POKéMON eat BERRIES."
 - WARPS: (2, 7) and (3, 7) exit to Route 30 (7, 39).
