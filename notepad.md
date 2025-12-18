@@ -53,9 +53,10 @@
 - Violet Pokecenter: Nurse Joy (3, 1), Youngster (8, 1) (Obedience info).
 - Route 32: Cooltrainer M at (19, 8) - Blockade; requires Zephyr Badge.
 
-## Lore & Information
-- Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
+## Flavor & Lore
+- Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Route 36 blockage).
 - Sage Li: Zephyr Badge required to use Flash outside battle.
+- Mary's Radio: Poliwhirl seen around Route 44 (Flavor text).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
