@@ -56,13 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Interrupted by Wild Nidoran♂ at (29, 23).
-    - **Plan:** Defeat Nidoran♂ for EXP, then resume navigation to (29, 6).
-- **Battle Strategy:** Defeating Wild Nidoran♂.
-    - **Status:** Turn 1.
-    - **Action:** Use Karate Chop (Slot 4).
-    - **Note:** Fighting is NVE vs Poison, but Karate Chop (Slot 4) is best option.
-- **Current Action:** Use Karate Chop.
+    - **Status:** Defeated Nidoran♂ (Muscle +153 EXP).
+    - **Plan:** Resume navigation North to (29, 6).
+- **Current Action:** Clear battle text.
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
