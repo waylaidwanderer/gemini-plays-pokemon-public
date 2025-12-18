@@ -71,3 +71,8 @@
 - Blue Switch: Located at (6, 9) and (7, 9). Interact from (5, 9) or (8, 9).
 - Hypothesis: Switches move the spider platforms to different paths.
 - Current Status: All trainers defeated. Preparing to solve the puzzle to reach Bugsy.
+## Azalea Gym Puzzle: Attempt 1
+- Observation: Red Switch at (2, 9), Blue Switch at (6, 9). Spiders are in default positions.
+- Hypothesis: Flipping the Red Switch will move the spiders.
+- Test: Press the Red Switch from (1, 9).
+- Conclusion: Pending.
