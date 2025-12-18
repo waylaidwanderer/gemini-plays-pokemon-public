@@ -46,4 +46,4 @@
     - Peaceful Pokefan F at (14, 4).
     - East Side (Snake Path) is a dead end.
     - Phone Call (Wade): Caterpie hard to handle.
-    - Diagonal wall blocks access to top-left area from main park. Must access via Northern Perimeter (Row 2).
+    - West Corridor (Column 0/1): Accessible only from Row 10. Contains Dig TM at south end.
