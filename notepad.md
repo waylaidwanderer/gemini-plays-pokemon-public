@@ -61,13 +61,15 @@
 - FLOOR: Traversable. Verified.
 - TALL_GRASS: Traversable. Verified. Wild encounters possible.
 - LEDGE_HOP_RIGHT: One-way East. Verified at (17, 12), (17, 13), (17, 14).
+- LEDGE_HOP_DOWN: One-way South. Verified at (16, 15).
 - WALL / FLOOR_UP_WALL: Impassable. Verified.
 - WATER: Impassable without Surf. Verified.
+- WARP_CARPET_LEFT: Map transition at (4, 2) and (4, 3). Verified.
 
 ## Strategy for Training
 - **Rocky (Onix):** Switch-train against trainers on Route 32 to catch up in levels.
 - **Egg (Togepi):** Switch-train to gain happiness and levels.
-- **Gneiss (Geodude):** Primary for bird trainers, but needs healing.
+- **Gneiss (Geodude):** Primary for bird trainers, but needs healing. Current priority: Heal with Potion.
 - **Calcifer (Quilava):** Lead for safety and efficiency against grass types.
 
 ## NPC Archive - Route 32
