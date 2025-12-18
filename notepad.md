@@ -13,11 +13,8 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Fisher (Trainer) at (14, 19).
-
-## Lessons Learned
-- Menu Navigation: The main menu wraps around (8 items). Resetting with 8 presses is ineffective. Use 8 Downs to hit EXIT as a known anchor.
-- Battle Lead: Switching in battle updates overworld lead upon victory/escape.
+- Explored eastern passage. Found Great Ball at (17, 21).
+- Heading south towards Route 33 exit.
 
 ## Strategy: Reaching Azalea Town
 1. Navigate south through Union Cave 1F to Azalea Town.
