@@ -38,3 +38,6 @@
 - LEDGE_HOP_LEFT: One-way jump West (jumps 2 tiles).
 - CAVE: Warp tile leading to an interior area.
 - FLOOR_UP_WALL: Impassable; functions as a wall above a floor.
+## Azalea Town Discoveries
+- Team Rocket Grunt spotted at (31, 9).
+- Need to find Pokemon Center and Gym.
