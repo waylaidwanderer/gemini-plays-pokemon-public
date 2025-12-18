@@ -53,5 +53,4 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Encountered Wild Jigglypuff (Lv 12).
 - **Goal:** Catch it.
-- **Current State:** Azurite (8/37 HP - Danger!). Jigglypuff (~35% HP). Switching to Rocky (Slot 1) to tank hits and catch.
-- **Mechanic Observation:** In battle, opening the PKMN menu places the cursor on the *currently active* Pokémon, not the top of the list.
+- **Current State:** Rocky (Slot 1, Asleep) active. Jigglypuff (~35% HP). Throwing Poké Ball.
