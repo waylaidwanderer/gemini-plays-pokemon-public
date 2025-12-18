@@ -1,7 +1,7 @@
 # Johto Journey: Gem's Log
 
 ## Tile Mechanics
-- FLOOR: Traversable. Verified on Route 31.
+- FLOOR: Traversable. Verified on Route 31 and Sprout Tower.
 - WALL: Impassable. Verified.
 - TALL_GRASS: Traversable; triggers wild encounters. Verified on Route 31.
 - LEDGE_HOP_DOWN: One-way jump South. Impassable from the South. Verified on Route 29 (50, 10), Route 30 (7, 17), and Route 31 (6, 9).
@@ -15,17 +15,20 @@
 - LADDER / DOOR / CAVE: Triggers warp. Verified.
 - PC: Face to use. Verified.
 - WATER: Impassable without HM. Verified in Dark Cave.
-- FLOOR_UP_WALL: Collision type for walls that look like they are "above" the floor. Impassable.
+- FLOOR_UP_WALL: Collision type for walls that look like they are "above" the floor. Impassable. Verified in Sprout Tower.
 - ROCK: Impassable object. Verified in Dark Cave.
 - INCENSE_BURNER: Impassable decorative object. Verified in VioletKylesHouse.
 - BOOKSHELF: Impassable object; can be interacted with to read titles. Verified in VioletKylesHouse.
 - RADIO: Impassable object; can be interacted with to listen to broadcasts. Verified in VioletKylesHouse.
 
-## Strategic Plan: Defeat Falkner (Violet City)
-- **HOW:** 
-  1. Train Calcifer to Lv10 (Ember) and Rocky/Gneiss in Sprout Tower.
-  2. Use Ember to sweep Sprout Tower (Flash HM).
-  3. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
+## Primary Goal Strategy: Defeat Falkner (Violet City)
+- **Team Composition:**
+  - Calcifer (Cyndaquil): Target Lv10 for Ember to handle Sprout Tower and potentially Falkner's Pidgey.
+  - ROCKY (Onix) & GNEISS (Geodude): Primary counters for Falkner's Flying-type Pokémon. Normal-type moves like Tackle are "Not very effective" against them.
+- **Plan:**
+  1. Complete Sprout Tower to obtain HM05 Flash and train the team.
+  2. Ensure Rocky and Gneiss are healthy for the Gym battle.
+  3. Use Rock-types to soak up Normal/Flying hits and chip away at Falkner's team.
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
@@ -85,9 +88,5 @@
 ## Sprout Tower Exploration
 - Exploration started Turn 1213.
 - Sprout Tower 2F entered Turn 1240.
-- Poke Ball at (3, 1) on 2F.
-- Sage (Trainer) at (12, 3) on 2F.
-- Ladder at (6, 4) leads down to 1F.
-- Ladder at (2, 6) leads up to 3F.
 - The central pillar is a giant Bellsprout, causing the tower to shake.
 - HM Flash is at the top of the tower.
