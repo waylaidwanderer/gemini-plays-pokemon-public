@@ -29,3 +29,12 @@
 - Pokemaniac Larry: Slowpoke (Lv10).
 - Firebreather Ray: Vulpix (Lv9).
 - Hiker Anthony: Geodude (Lv11), Machop (Lv11?).
+## Tile Mechanics
+- FLOOR: Standard traversable tile.
+- WALL: Impassable boundary.
+- HEADBUTT_TREE: Impassable tree; may react to Headbutt move.
+- TALL_GRASS: Traversable; triggers wild battles.
+- LEDGE_HOP_DOWN: One-way jump South.
+- LEDGE_HOP_LEFT: One-way jump West (jumps 2 tiles).
+- CAVE: Warp tile leading to an interior area.
+- FLOOR_UP_WALL: Impassable; functions as a wall above a floor.
