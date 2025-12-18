@@ -122,33 +122,5 @@
         "action_counter": 2112
       }
     ]
-  },
-  "party_swap_v3": {
-    "description": "Swaps two Pokemon in the party. Assumes the player is in the overworld. Uses input_data directly for parameter injection.",
-    "input_schema": {
-      "properties": {
-        "slot_a": {
-          "description": "1-indexed slot of the first Pokemon",
-          "type": "integer"
-        },
-        "slot_b": {
-          "description": "1-indexed slot of the second Pokemon",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "slot_a",
-        "slot_b"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\ndef party_swap(slot_a, slot_b):\n    buttons = [\"Start\", \"sleep 500\"]\n    for _ in range(8):\n        buttons.append(\"Up\")\n    buttons.extend([\"Down\", \"A\", \"sleep 500\"])\n    for _ in range(slot_a - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.extend([\"sleep 500\", \"Down\", \"A\", \"sleep 500\"])\n    diff = slot_b - slot_a\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n    buttons.append(\"A\")\n    buttons.extend([\"sleep 500\", \"B\", \"B\", \"B\"])\n    return buttons\n\na = int(input_data.get('slot_a', 1))\nb = int(input_data.get('slot_b', 1))\nprint(json.dumps(party_swap(a, b)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T19:37:53.653Z",
-        "action_counter": 2315
-      }
-    ]
   }
 }
