@@ -64,3 +64,4 @@
   - Encounters: Spearow (Very Common), Aipom (Common), Ekans (Common).
   - Target: Heracross (Not seen yet).
   - Status: Still grinding. Aipom confirms Mountain Group. RNG is testing patience. Will re-evaluate at Turn 4200.
+- **Theory Check:** If Heracross is missing after ~50 encounters, these might be "Low Yield" Mountain trees (if such a distinction exists where Aipom spawns but Heracross doesn't). However, usually Aipom and Heracross share the "Rare" tree pool. Continuing to grind to verify.
