@@ -65,3 +65,4 @@
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
     - **Goals:** Clear. Catch Pidgey -> Explore SE Corner.
 - Gameboy Kid: At (26, 6). Flavor text about printing Pokedex (Gameboy Printer reference).
+- Phone Call (Turn 5711): Wade (Bug Catcher). Flavor text about Caterpie being hard to handle and a Pidgey getting away.
