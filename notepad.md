@@ -55,3 +55,6 @@
 - Strategy: Defeat all Grunts and rescue Slowpoke.
 - Exploration: Path leads north and west from entrance.
 - Status: First Grunt at (15, 9) defeated.
+- Rocket Girl spotted at (10, 4).
+- Item Ball spotted at (10, 3).
+- Strategy: Defeat Rocket Girl, then collect item.
