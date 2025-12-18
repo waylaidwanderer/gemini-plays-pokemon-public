@@ -16,8 +16,7 @@
 ## Route 33 Progress
 - Arrived from Union Cave 1F at (11, 10).
 - Exit to Union Cave 1F: (11, 9).
-- Pokefan M spotted at (6, 13).
-- Heading west toward Azalea Town.
+- Pokefan M at (6, 13).
 
 ## Strategy: Reaching Azalea Town
 - Navigate West through Route 33 to reach Azalea Town.
@@ -32,3 +31,5 @@
 - Firebreather Bill (Union Cave): Koffing x2 (Lv6).
 - Pokemaniac Larry (Union Cave): Slowpoke (Lv10).
 - Firebreather Ray (Union Cave): Vulpix (Lv9).
+- Hiker Anthony (Route 33): [In Battle]
+- Pokefan M (Route 33): Spotted at (6, 13).
