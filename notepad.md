@@ -52,6 +52,12 @@
 - EVENT: Set up money saving with Mom. (Turn 334)
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
 
+## Next Steps (Turn 611)
+1. Exit Mart and head North to Route 30.
+2. Training: Lead with Icarus, switch to Calcifer to gain levels for both.
+3. Reach Route 31 and Dark Cave.
+4. Catch Geodude.
+
 ## Lessons Learned
 - NPCs act as walls.
 - Buildings are often larger than they appear.
