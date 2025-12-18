@@ -21,9 +21,9 @@
 - Team: Bug-type Pokemon (Scyther is the ace).
 - Counter: Calcifer (Quilava) with Ember. Gneiss (Geodude) with Rock Throw.
 - Plan:
-  1. Find the Gym entrance (sign at 14, 15).
-  2. Defeat trainers and Gym Leader.
-  3. Start Turn: 2596.
+  1. Talk to Gym Guide at (7, 13).
+  2. Defeat trainers (Twins at 4, 10 and 5, 10).
+  3. Defeat Gym Leader Bugsy.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
