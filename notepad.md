@@ -62,3 +62,10 @@
 - **Target:** Purchase at least 10 Poké Balls.
 - **Budget:** ¥3731 available; 10 Poké Balls cost ¥2000.
 - **Next Step:** After restocking, head south to Route 32 and continue towards Union Cave.
+## Lessons Learned
+- **Tile Mechanics:** `FLOOR_UP_WALL` and `MART_SHELF` are impassable obstacles that must be accounted for in pathfinding.
+- **Menu Navigation:** When purchasing items, "Up" increases quantity and "Down" decreases it. Rolling over from 1 using "Down" can reach the maximum affordable quantity.
+- **Tool Maintenance:** Always ensure pathfinding tools account for both tile collision types and map markers (for off-screen obstacles).
+
+## Task Tracking
+- **Restocking Poké Balls:** Started Turn 2020. Current Turn 2025. Goal: 10 Poké Balls.
