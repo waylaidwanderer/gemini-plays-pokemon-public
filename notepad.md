@@ -43,3 +43,7 @@
 - Scripted Events: Treat character movement during dialogue as completed interaction.
 - Ledges: Strictly one-way. Jumping simulates moving two tiles (onto the tile after the ledge).
 - Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
+## Route 30 Strategy (from Johto Strategist)
+- Continue heading North along the eastern path of Route 30.
+- Avoid the western path (leads back to Cherrygrove via ledges).
+- Goal: Enter Mr. Pokémon's house at the north end.
