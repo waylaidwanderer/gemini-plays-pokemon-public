@@ -74,3 +74,9 @@
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
 - **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a critical hit.
 - Wade (BUG CATCHER): Route 31 (17, 13). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv3).
+## Area Mechanics: Sprout Tower
+- Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
+- Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
+
+## NPC Archive Update
+- Violet City: LASS at (27, 28). Mentioned Sprout Tower ghosts and Normal move immunity.
