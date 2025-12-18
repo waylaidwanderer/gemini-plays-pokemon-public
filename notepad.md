@@ -56,9 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** At North-East Hub (27, 5).
-    - **Plan:** Navigate South along East perimeter (Column 27) to map the area and find trainers/items.
-- **Current Action:** Heading South to (27, 15).
+    - **Status:** Exploring East perimeter.
+    - **Plan:** Continue South to (27, 30) to map the SE corner and check the Battle Notice Sign.
+- **Current Action:** Heading South to (27, 25).
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
