@@ -56,11 +56,11 @@
 - **Navigation Safety:** Always verify "Current Screen Text" is empty before moving.
 - **Battle State:** Do not attempt overworld movement while in battle or during transitions.
 - **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Falkner's Flying-types.
-## Strategy: Mystery Egg & Azalea Town
-1. **Mystery Egg:** Head to Violet City Pokémon Center. Talk to Professor Elm's Aide (usually in the lobby).
+## Strategy: Azalea Town
+1. **Mystery Egg:** Received Togepi from Aide.
 2. **Route 32:** Exit Violet City to the south (14, 35).
 3. **Azalea Town:** Follow Route 32 south, pass through Union Cave to reach Azalea Town.
-4. **HMs:** Use FLASH in Dark Cave if level grinding is needed or for shortcuts.
+4. **HMs:** Use FLASH in Dark Cave if level grinding is needed or for shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
 
 ## Reflection Turn 1869
 - **Immediate Execution:** No deferred tasks. Falkner defeated, badge obtained.
