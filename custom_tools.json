@@ -1,47 +1,4 @@
 {
-  "approach_and_headbutt": {
-    "description": "Moves the player using a sequence of inputs and then performs the safe Headbutt interaction sequence (Face -> A -> Wait -> A...). Useful for farming trees.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "moves": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Up",
-              "Down",
-              "Left",
-              "Right"
-            ]
-          },
-          "description": "Sequence of directional moves to reach the tree."
-        },
-        "face": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "description": "Direction to face the tree before interacting."
-        }
-      },
-      "required": [
-        "moves",
-        "face"
-      ]
-    },
-    "python_script": "import json\nmoves = input_data['moves']\nface = input_data['face']\n\nsequence = []\n# Add movement steps with small delays to ensure registration\nfor m in moves:\n    sequence.append(m)\n    sequence.append(\"sleep 300\")\n\n# Face the target\nsequence.append(face)\nsequence.append(\"sleep 300\")\n\n# Headbutt interaction sequence (A to interact, waits for text, B to close/advance safely)\n# Standard sequence: A (interact), sleep, A (text), sleep, A (text), sleep long (animation), B (clear), B (clear)\nsequence.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 2500\", \"B\", \"sleep 500\", \"B\"])\n\nprint(json.dumps(sequence))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-17T20:27:08.657Z",
-        "action_counter": 3793
-      }
-    ]
-  },
   "flee_battle": {
     "description": "Automates fleeing from a wild battle. Presses B repeatedly to advance entry text, then navigates to and selects the 'RUN' option. Assumes the cursor starts at 'FIGHT' (Top-Left).",
     "input_schema": {},
