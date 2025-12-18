@@ -17,7 +17,7 @@
 ## Current Strategy & Goals
 ### Primary Goal: Defeat Gym Leader Falkner (Violet City)
 - **Strategy:**
-    1. **Training (Active):** Get Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv13. (Started Turn 679. Current Turn: 708)
+    1. **Training (Active):** Get Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv13. (Started Turn 679. Current Turn: 710)
     2. **Recruitment:** Catch a Geodude in Dark Cave (Route 31) for Rock-type advantage.
     3. **Sprout Tower:** Use Calcifer's Ember (Lv12) to sweep Bellsprouts; obtain HM05 (Flash).
     4. **Gym Prep:** Collect Bitter Berry (Route 31) for Gastly's Confuse Ray.
@@ -60,7 +60,7 @@
     - Icarus reached Lv4 (Turn 687).
     - Icarus reached Lv5 and learned Sand-Attack (Turn 699).
 - **Exploration Targets (Verified Reachable):**
-    - Route 30 at (12, 3-15) and (1, 26-35).
+    - Route 30 at (12, 3-15), (1, 26-35), (9, 17-23), and (2-7, 25).
 
 ## Lessons Learned
 - NPCs act as walls.
