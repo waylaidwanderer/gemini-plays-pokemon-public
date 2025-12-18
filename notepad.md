@@ -55,12 +55,10 @@
 - **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
-- **Navigation Strategy:** The SW corner (2, 29) is blocked from the main area.
-- **Pathfinding Correction:** Direct North path at x=4, 6, 7, 8 is blocked.
-    - x=8 blocked at y=5 (WALL).
-    - Gap located at x=12/13.
-    - **Plan:** Go East to x=13, Head North to y=2, then traverse West along top edge.
-- **Current Action:** Navigate East to (13, 6).
+- **Navigation Strategy:** The SW corner (2, 29) is blocked.
+    - **Obstacle Update:** North path at x=10, 11 blocked by WALL at y=5. x=12 blocked at y=4. x=13 blocked at y=3.
+    - **Plan:** Continue East past x=13 to find a gap in the Northern fence/wall (Row 3).
+- **Current Action:** Navigate East to (13, 6) and scan for openings.
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
