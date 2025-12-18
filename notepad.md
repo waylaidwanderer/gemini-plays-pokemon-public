@@ -40,11 +40,6 @@
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 - Menu Navigation: Do NOT mix directional buttons and action buttons (A/B/Start/Select) in the same turn.
 
-## Cherrygrove Pokecenter 1F (26_5)
-- NPCs: Nurse (Counter at Row 2), Teacher (1, 6), Fisher (2, 3), Gentleman (8, 6).
-- GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
-- TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
-
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5. (Turn 324)
@@ -54,4 +49,5 @@
 ## Training Tracker
 - Training Goal: Calcifer and Icarus to Lv10.
 - Started: Turn 421.
-- Current Status: Icarus Lv2 (5/13 HP), Calcifer Lv7 (12/23 HP).
+- Current Status: Icarus Lv2 (5/13 HP), Calcifer Lv7 (10/23 HP).
+- Strategy: Catch Geodude in Dark Cave (Route 31) to counter Falkner.
