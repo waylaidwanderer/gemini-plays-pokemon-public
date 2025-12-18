@@ -17,7 +17,7 @@
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
-  1. Catch Geodude in Dark Cave (Route 31) for Rock-type advantage.
+  1. Catch Geodude in Dark Cave (Route 31). DONE.
   2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
   3. Train Calcifer to Lv10 (Ember) and Icarus to Lv9 (Gust).
   4. Use Ember to sweep Sprout Tower (Flash HM).
