@@ -87,3 +87,4 @@
 ## Lore & Information
 - Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
 - Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
+- Incense Burner: Flavor text "Oh, it's an incense burner!"
