@@ -17,7 +17,6 @@
 
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner.
-- Hive Badge: Target Azalea Town.
 
 ## NPC Archive - Route 32
 - Fisher (15, 13): Eastern path.
@@ -33,7 +32,3 @@
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
 - Old Rod: Obtained from Fishing Guru in Route 32 Pokémon Center.
-## Route 32 Exploration
-- Started exploration: Turn #2138.
-- Goal: Reach Union Cave and Azalea Town.
-- Progress: Defeated Gordon, avoided Slowpoketail scam, obtained Old Rod, healed at Center. Currently battling Bird Keeper Peter.
