@@ -54,15 +54,13 @@
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
-- Teacher at (15, 14): Mentioned Kurt makes Balls. People visit him for that.
-- Kurt's House: Still looking. Possibly in the West.
-- Gramps at (20, 9): Reported Slowpoke tails are being sold and the Slowpoke have vanished.
-- Slowpoke Well: Team Rocket presence confirmed (selling tails).
-- Kurt's House: Likely in the northwest. Need to find and speak with him about the Slowpoke and the Gym blockage.
+- Teacher at (15, 14): Mentioned Kurt makes Balls.
+- Gramps at (20, 9): Slowpoke tails are being sold; Slowpoke have vanished.
+- Slowpoke Well: Team Rocket presence confirmed.
+- Kurt's House: Found at (9, 5).
 
 ## Slowpoke Well B1F
-- Kurt is at (16, 14). He looks like he might be hurt.
-- The well is infested with Team Rocket.
-- Kurt is injured at (16, 14) after falling down the well. He asked GEM to take his place and stop Team Rocket.
-- Strategy: Navigate through the well and defeat all Rocket Grunts.
-- Slowpoke Well Exploration: Starting from (16, 15). Path seems to lead west and then north.
+- Kurt (16, 14): Injured after falling; asked GEM to stop Team Rocket.
+- Rocket Grunt (15, 9): Battling Rattata (Lv9).
+- Strategy: Defeat all Grunts and rescue Slowpoke.
+- Exploration: Path leads west, then north from (16, 15).
