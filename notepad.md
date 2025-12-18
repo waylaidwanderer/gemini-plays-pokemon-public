@@ -61,4 +61,3 @@
 - **Anti-Hallucination Success:** The rotation strategy (moving between trees at 24, 25, 27) has successfully prevented the "looping/stuck" system warnings. Continue this pattern.
 ## Important Locations
 - **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
-- **Theory Check:** If Heracross is missing after ~50 encounters, these might be "Low Yield" Mountain trees (if such a distinction exists where Aipom spawns but Heracross doesn't). However, usually Aipom and Heracross share the "Rare" tree pool. Continuing to grind to verify.
