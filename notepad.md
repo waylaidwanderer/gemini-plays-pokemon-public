@@ -46,6 +46,11 @@
     - Peaceful Pokefan F at (14, 4).
     - East Side (Snake Path) is a dead end.
     - Phone Call (Wade): Caterpie hard to handle.
+    - Diagonal wall blocks access to top-left area from main park. Must access via Northern Perimeter (Row 2).
 
 ## Navigation Notes
-- **Southwest Corner Access:** To reach (6, 34), head South to Row 29, shift East to Column 8 to bypass Wall at (6, 30), then South to Row 33 and West.
+- **Southwest Corner Access:**
+    1. Go East to (25, 6).
+    2. Go North to (25, 4) -> (25, 2).
+    3. Traverse Row 2 West to (10, 2).
+    4. Zig-zag South/West through gaps to reach Column 0.
