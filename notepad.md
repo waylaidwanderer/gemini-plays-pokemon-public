@@ -19,12 +19,12 @@
 - **Start Turn:** 1559.
 - **Check-in Interval:** Every 50 turns (Next check: Turn 1750).
 - **EXP Tracking (Targeting Rock Throw):**
-  - Gneiss (Geodude, Medium Slow): Lv9 (419 EXP). Goal: Lv11 (742 EXP). Remaining: 323 EXP (141 to Lv10).
+  - Gneiss (Geodude, Medium Slow): Lv9 (449 EXP). Goal: Lv11 (742 EXP). Remaining: 293 EXP (111 to Lv10).
   - Rocky (Onix, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (2744 EXP). Remaining: 2619 EXP (91 to Lv6).
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
-  - Calcifer (Quilava): Lv14. Primary powerhouse.
+  - Calcifer (Quilava): Lv15. HP 45, Atk 29, Def 27, Sp.Atk 32, Sp.Def 27, Spd 33.
   - ROCKY (Onix): Lv5. Counter for Falkner. Traded Pokemon; obedience depends on Badges.
   - GNEISS (Geodude): Lv9. Counter for Falkner.
 - **Plan:**
