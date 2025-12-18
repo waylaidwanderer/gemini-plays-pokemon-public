@@ -58,3 +58,4 @@
 - RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Rival's name confirmed as "MALICE". (Turn 315)
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5 from Aide. Elm suggested Gym Challenge. (Turn 324)
 - EVENT: Set up money saving with Mom. (Turn 334)
+- EVENT: Arrived on Route 29. Heading to tall grass to catch a new team member. (Turn 336)
