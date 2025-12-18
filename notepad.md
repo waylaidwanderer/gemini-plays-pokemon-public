@@ -40,8 +40,7 @@
 - Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 
-## Strategy for Return Trip
-- Goal: Return to New Bark Town via Cherrygrove City.
-- Path to Cherrygrove (6, 53): (11, 48) -> (11, 49) -> (10, 49) -> (9, 49) -> (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
-- Note: Prepare for potential rival encounter near Cherrygrove exit.
-- Healing: Heal at Cherrygrove Pokemon Center (29, 3) before heading east.
+## Strategy: Return to New Bark Town
+- HOW: Follow path (11, 48) -> (11, 49) -> (10, 49) -> (9, 49) -> (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53) to Route 30 exit.
+- Prep: Heal at Cherrygrove Pokemon Center (29, 3). Anticipate rival battle at eastern exit.
+- Goal: Deliver Mystery Egg and investigate Prof. Elm's call.
