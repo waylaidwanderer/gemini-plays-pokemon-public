@@ -38,6 +38,7 @@
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
 ## Contest Prep
-- **Current Task:** Heading to Goldenrod to heal, then North to National Park for the Bug-Catching Contest (Thursday).
+- **Current Task:** Heal at Goldenrod PC, then withdraw Lucid (Drowzee).
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
-- **Team:** Azurite (12), Rocky (14). Healing at Goldenrod PC.
+- **Strategy:** Use Lucid (Hypnosis) to sleep bugs for easier catching.
+- **Team:** Azurite (12), Rocky (14). Healing...
