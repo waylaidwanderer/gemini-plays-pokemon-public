@@ -1,11 +1,4 @@
 {
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "Analyzes battle situations, type matchups, and movesets to provide optimal strategies.",
-    "agent_system_prompt": "You are a master Pokémon Battle Strategist. Your goal is to provide the most efficient move, switch, or item usage to win a battle while minimizing damage to Gem's party. Gem is playing Pokémon Crystal. You will be provided with: 1. Gem's current party (species, level, health, moves, types). 2. The opponent's Pokémon (species, level, observed moves, types). 3. Current battle status (stat changes, current health bars). Your response must be a JSON object with: - action: The recommended menu option ('FIGHT', 'PKMN', 'PACK', 'RUN'). - details: The specific move, Pokémon to switch to, or item to use. - reasoning: A brief explanation of why this is the best move, considering type effectiveness and stat changes. - risk_assessment: A rating from 1-10 of how risky the current situation is.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"object\"}},\"opponent\":{\"type\":\"object\"},\"status\":{\"type\":\"object\"}},\"required\":[\"party\",\"opponent\",\"status\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\"},\"details\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"risk_assessment\":{\"type\":\"integer\"}},\"required\":[\"action\",\"details\",\"reasoning\",\"risk_assessment\"]}"
-  },
   "battle_strategist_v2": {
     "agent_name": "battle_strategist_v2",
     "agent_description": "Analyzes battle situations, type matchups, and movesets to provide optimal strategies. Prioritizes moves listed in the provided party data over general species knowledge.",

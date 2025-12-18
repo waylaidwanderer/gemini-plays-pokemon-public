@@ -19,35 +19,38 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Progress Tracking
-- **Route 30:**
-  - Youngster Joey (2, 28) - Defeated.
-  - Youngster Mikey (5, 23) - Defeated.
-  - Cooltrainer F (2, 13) - Talked (Non-trainer).
-  - Bug Catcher Don (1, 9) - Defeated.
-- **Route 31:**
-  - Arrived via Route 30.
-- **Navigation:**
-  - Route 30 North path through grass at x=0,1 is the primary route to Route 31. COMPLETED.
-  - Currently on Route 31. Seeking Dark Cave.
+## Current Area: Route 31
+- **Status:** Seeking Dark Cave and Violet City.
+- **Strategy:** 
+  - A large vertical wall (x=22-23) blocks the west side.
+  - A horizontal line of trees (y=10) blocks the north.
+  - Path identified: Go East through grass at y=14-15 to reach x=32, then head North to Row 9.
+  - Potential gap at (32, 9) leading to the northern/western part of the route.
+- **Objectives:**
+  - Battle Bug Catcher at (21, 13) once the wall is bypassed.
+  - Locate Dark Cave entrance.
+
+## Completed Areas
+### Route 30
+- Youngster Joey (2, 28) - Defeated.
+- Youngster Mikey (5, 23) - Defeated.
+- Bug Catcher Don (1, 9) - Defeated.
+- Cooltrainer F (2, 13) - Talked (Non-trainer).
+- Navigation: North path through grass at x=0,1 is the primary route to Route 31.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
 - Rattata: Tackle, Tail Whip
 - Pidgey: Tackle
 - Cyndaquil: Tackle, Leer, Smokescreen
-- Caterpie: Tackle (Verified), String Shot (Hypothesis)
+- Caterpie: Tackle (Verified).
 ### Team Status
 - Icarus (Pidgey): Lv9. Moves: Tackle, Sand-Attack, Gust.
 - Calcifer (Cyndaquil): Lv8. Moves: Tackle, Leer, Smokescreen.
 ### Type Effectiveness (Verified)
-- Normal vs Normal: Neutral
-- Fire vs Normal: Neutral
-- Normal vs Fire: Neutral
-- Flying vs Bug: Super Effective. Verified with Icarus's Gust vs Don's Caterpie.
+- Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Route 30: YOUNGSTER (8, 30) [Talked], YOUNGSTER (5, 26), BUG CATCHER DON (1, 9) [Defeated].
