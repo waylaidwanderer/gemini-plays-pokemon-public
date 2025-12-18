@@ -26,7 +26,7 @@
   2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
   3. Defeat Bug Catcher Al at (8, 10) - DONE.
   4. Defeat Bug Catcher Benny at (5, 3) - DONE.
-  5. Defeat Bug Catcher Josh at (0, 2).
+  5. Defeat Bug Catcher Josh at (0, 2) - BATTLING.
   6. Defeat Gym Leader Bugsy.
 - Time Tracking: Exploration started at Turn 2596.
 
