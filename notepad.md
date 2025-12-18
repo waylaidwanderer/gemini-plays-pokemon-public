@@ -30,3 +30,15 @@
 - Training (How-To): Switch-train trainees (Rocky, Egg, Apophis) by leading with a stronger Pokémon (Gneiss or Calcifer), then immediately switching to the trainee on Turn 1 of a battle. This splits EXP and ensures safety.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
 - Fisher (7, 70): Likely a trainer. Facing down. approach from (7, 71).
+## Training Strategy
+- Switch Training: Lead with a strong Pokémon (e.g., Gneiss or Calcifer) and immediately switch to a lower-level Pokémon (e.g., Rocky, Egg, Apophis) on Turn 1. This splits the EXP and allows weaker Pokémon to level up safely without being exposed to danger.
+
+## Global Tile Mechanics (Verified)
+- FLOOR: Standard traversable tile.
+- WALL: Impassable collision.
+- COUNTER: Impassable. Used to interact with NPCs behind it (e.g., Nurses, Clerks).
+- WARP_CARPET_DOWN: Triggers a map transition when walking onto it from above.
+- LADDER: Triggers a map transition when stepping onto it.
+- TALL_GRASS: Traversable, triggers wild Pokémon encounters.
+- LEDGE: One-way traversal (down or right).
+- PC / SIGN: Interactable from an adjacent tile.
