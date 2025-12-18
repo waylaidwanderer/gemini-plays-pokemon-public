@@ -41,3 +41,8 @@
 ## Lessons Learned
 - Ledge Mechanics: LEDGE_HOP_DOWN is one-way (South).
 - Marker Hygiene: Use ☠️ for defeated trainers; delete redundant 🚶 or 👤 markers.
+## Battle Log: Hiker Russell
+- Start Turn: #2236.
+- Opponent: Geodude (Lv4).
+- Training: Apophis tagged (Turn #2246). Rocky tagged (Turn #2254).
+- Finisher Plan: Switch to Calcifer to end battle.
