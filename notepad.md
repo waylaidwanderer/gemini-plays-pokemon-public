@@ -18,47 +18,17 @@
 - **Zephyr Badge:** Obtained from Falkner (Turn 1864).
 - **Hive Badge:** Target. Azalea Town.
 
-## EXP Tracking
-- Gneiss (GEODUDE, Medium Slow): Lv13 (1329 EXP). Next: Lv14 (1596 EXP).
-- Rocky (ONIX, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold.
-
-## Key Items & TMs
-- TM31 (MUD-SLAP): Ground move.
-- HM05 (FLASH): Use with Zephyr Badge.
-
-## Pokemon Locations
-- Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
-- Dark Cave: Geodude, Zubat.
-
-## NPC Archive
-- Violet City: 
-  - KYLE: (6, 4) in his house. Traded Bellsprout for Rocky (ONIX).
-  - EARL: (25, 14) at the Academy. Learned about status and items.
-  - Cooltrainer: (32, 8) Mentioned Flash hint.
-- Violet Pokecenter: 
-  - Nurse Joy (3, 1): Heals Pokemon.
-  - Youngster (8, 1): Info on Badge obedience.
-- Route 30:
-  - Mr. Pokemon: (3, 5) Gave Mystery Egg.
-  - Prof. Oak: (6, 5) Gave Pokedex.
-- Route 31:
-  - Bug Catcher Wade: (17, 13) Defeated.
-  - Bug Catcher Don: (1, 9) Defeated.
-
-## Flavor & Lore
-- Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Route 36 blockage).
-- Sage Li: Zephyr Badge required to use Flash outside battle.
-
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphKabutoChamber. Last Update: Turn 1916.
+- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphKabutoChamber.
 - **Officer Hint:** Ruins of Alph is a "Look-and-Touch Tourist Site". Mentions "sliding stone panels". Verified Turn 1896.
 - **Youngster Hint:** Confirms drawings on stone panels and that they can be moved. Verified Turn 1899.
 - **Mystery Chamber:** Identified as "Kabuto Chamber". Verified Turn 1916.
+- **Receptionist Hint:** Sliding panels depict a Pokémon. Scientists in the back are examining patterns. Verified Turn 1921.
 
 ## Strategy & Lessons
 - **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
 - **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Flying-types.
-- **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
+- **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout - catch one on Route 32).
 
 ## Reflection Archive
 - **Turn 1869:** Falkner defeated, badge obtained. Added Azalea/Egg strategy. Fixed list_reachable_unseen_v3. Focus shifted to next badge and Egg.
