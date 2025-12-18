@@ -51,7 +51,6 @@
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5. (Turn 324)
 - EVENT: Set up money saving with Mom. (Turn 334)
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
-- STATUS (Turn 514): Icarus Lv3, Calcifer Lv7. Fully healed.
 
 ## Lessons Learned
 - NPCs act as walls.
