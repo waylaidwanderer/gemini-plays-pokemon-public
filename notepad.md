@@ -57,3 +57,12 @@
 3. Transition to Route 30 via (16, 0).
 4. Training: Route 30/31 until Icarus Lv9 and Calcifer Lv12.
 5. Catch Geodude in Dark Cave.
+## Tile Mechanics (Verified)
+- MART_SHELF: Impassable (acts as WALL).
+- COUNTER: Interactable (face to talk to Clerk).
+
+## NPCs & Interactions
+### Cherrygrove Mart (26_4)
+- CLERK (ID 1): (1, 3). Face COUNTER at (2, 3) to shop.
+- COOLTRAINER_M (ID 2): (8, 6).
+- YOUNGSTER (ID 3): (2, 5).
