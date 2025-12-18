@@ -90,3 +90,10 @@
 
 ## Sprout Tower Exploration
 - Sprout Tower 2F entered Turn 1240.
+- The central pillar is a giant Bellsprout, causing the tower to shake.
+- HM Flash is at the top of the tower.
+
+## General Lessons Learned
+- **Level Requirements:** Cyndaquil learns Ember at level 12 in Pokémon Crystal, not level 10. Always verify level-up moves against the specific game version.
+- **Battle Menus:** When the game asks "Will [Player] change POKEMON?", selecting NO is faster and more efficient if the current Pokémon has a type advantage.
+- **Tool Hygiene:** Custom tools like `battle_strategist_v2` are essential for efficient play. Always provide full moveset data (even if just move names) to ensure accurate reasoning.
