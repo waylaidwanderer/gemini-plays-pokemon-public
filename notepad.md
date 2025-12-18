@@ -57,7 +57,7 @@
 - Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14).
 - Sprout Tower: Sage at (7, 4) (HM info).
 - Violet Pokecenter: Nurse Joy (3, 1), Gentleman (1, 4), Gameboy Kid (7, 6), Youngster (8, 1) (Obedience info).
-- Route 32: Cooltrainer M at (19, 8) - Blockade; requires Badge.
+- Route 32: Cooltrainer M at (19, 8) - Blockade; requires Zephyr Badge.
 
 ## Lore & Information
 - Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
