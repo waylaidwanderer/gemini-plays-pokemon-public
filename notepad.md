@@ -29,7 +29,8 @@
 - Pokemaniac Larry: Slowpoke (Lv10).
 - Firebreather Ray: Vulpix (Lv9).
 - Hiker Anthony: Geodude (Lv11), Machop (Lv11).
-- Rocket Grunt (Well): Rattata x2 (Lv9).
+- Rocket Grunt (Well 1): Rattata x2 (Lv9).
+- Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
 
 ## Azalea Town Markers (Summary)
 - Slowpoke Well entrance at (31, 7).
@@ -51,10 +52,9 @@
 - Kurt's House: Found at (9, 5).
 
 ## Slowpoke Well B1F
-- Kurt (16, 14): Injured after falling; asked GEM to stop Team Rocket.
-- Strategy: Defeat all Grunts and rescue Slowpoke.
+- Kurt (16, 14): Injured (back slammed). Asked GEM to stop Team Rocket.
 - Exploration: Path leads north and west from entrance.
-- Status: First Grunt at (15, 9) defeated.
-- Rocket Girl (13, 4): Battling Ekans (Lv11). (Zubat Lv9 defeated).
-- Item Ball spotted at (10, 3).
-- Strategy: Defeat Rocket Girl, then collect item.
+- Status:
+  - Grunt (15, 9): Defeated.
+  - Grunt (13, 4): Defeated.
+- Strategy: Defeat remaining Grunts and rescue Slowpoke.
