@@ -64,3 +64,9 @@
 - Verify all foundational assumptions in-game.
 - Moving NPCs can block `navigate` and `find_path`. Stun them or wait.
 - In battle switch menus, "YES" is the default. Be careful when declining a switch.
+## Strategy: Bugsy Battle
+- Opponent: Bugsy.
+- Lead: Calcifer (Quilava) Lv20.
+- Backup: Gneiss (Geodude) Lv15 (Rock Throw is super effective).
+- Counter: Fire and Rock moves.
+- Note: Scyther is the main threat.
