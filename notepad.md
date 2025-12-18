@@ -12,15 +12,16 @@
 - PC: Face to use. Verified at Cherrygrove Pokecenter.
 
 ## Strategic Plan: Defeat Falkner (Violet City)
-1. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
+1. **Navigate to Route 31:** Go North through Route 30.
+   - *Status:* Youngsters defeated; path should be open. Investigating path at (6, 16).
+2. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
    - *Strategy:* Weaken with Icarus (Tackle), then use Poké Ball.
-   - *Attempt 1:* Heading to Dark Cave now.
-2. **Recruit Bellsprout:** Catch on Route 31; trade in Violet City for ONIX.
+3. **Recruit Bellsprout:** Catch on Route 31; trade in Violet City for ONIX.
    - *Strategy:* Use Calcifer to weaken, then Poké Ball.
-3. **Logistics:** Reach Violet City; visit PC and heal.
-4. **Training:** Calcifer to Lv10 (Ember), Icarus to Lv9 (Gust).
-5. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
-6. **Gym Challenge:** Use Rock-types (Geodude/Onix) to counter Flying moves.
+4. **Logistics:** Reach Violet City; visit PC and heal.
+5. **Training:** Calcifer to Lv10 (Ember), Icarus to Lv9 (Gust).
+6. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
+7. **Gym Challenge:** Use Rock-types (Geodude/Onix) to counter Flying moves.
 
 ## Battle and Pokemon Information
 ### Trainer Rosters
