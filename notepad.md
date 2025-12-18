@@ -10,6 +10,7 @@
 - DOOR / STAIRCASE / WARP_CARPET: Warp points.
 - BOOKSHELF: Impassable (acts as WALL).
 - WINDOW: Impassable (acts as WALL).
+- TREE / HEDGE: Impassable (acts as WALL).
 - HEADBUTT_TREE / CUT_TREE / WATER: Impassable; require HM moves.
 - unseen (❓): Unknown traversability; requires exploration.
 
