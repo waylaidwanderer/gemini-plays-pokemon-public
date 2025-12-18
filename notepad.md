@@ -26,7 +26,7 @@
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
 - **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
-- **Violet City:** Arrived and healed at Pokecenter. Entered a house at (21, 29).
+- **Violet City:** Arrived and healed at Pokecenter.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
@@ -48,7 +48,7 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE at (2, 3) in house at (21, 29) (Traded Pokemon info).
+- Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 6) in house at (21, 29) (Wants Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info).
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
@@ -60,7 +60,7 @@
 ## Strategy for Bellsprout
 - Location: Route 31 Tall Grass.
 - Method: Walk around in grass until encounter.
-- Team: Lead with GNEISS (Geodude) or use Smokescreen/Leer to avoid accidental KO. Calcifer's Tackle is too strong (crits kill).
+- Team: Lead with GNEISS (Geodude). Calcifer's Tackle is too strong (crits kill).
 - Catching: Use Poké Ball.
 - Goal: Trade for ONIX with KYLE in Violet City.
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
