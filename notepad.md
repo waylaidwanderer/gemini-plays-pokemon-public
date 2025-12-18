@@ -22,11 +22,10 @@
 ## Current Area: Route 31
 - **Status:** Seeking Dark Cave and Violet City.
 - **Strategy:** 
-  - Path identified: Go East through grass to x=32, then head North to Row 9.
   - Northern path (Rows 6-9) is clear of the vertical wall and leads west toward the Bug Catcher and Violet City.
 - **Objectives:**
   - Battle Bug Catcher at (21, 13) once the wall is bypassed.
-  - Locate Dark Cave entrance.
+  - Enter Dark Cave at (34, 5).
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
