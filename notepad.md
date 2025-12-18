@@ -53,6 +53,6 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Caught Wild Drowzee (Lv 12) "LUCID".
 - **Current Status:** Rocky (Lv 12) Lead. Azurite (Lv 10).
-- **Note:** Failed to reorder party in Goldenrod. Will retry on Route 34.
-- **Immediate Goal:** Return to Route 34 to train Azurite.
+- **Note:** Menu navigation is tricky. Switching to "Switch Training" strategy (Switch Azurite in during battle).
+- **Immediate Goal:** Hunt on Route 34.
 - **Then:** Challenge Whitney (Goldenrod Gym).
