@@ -10,25 +10,24 @@
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner (Violet City).
 
-## Route 33 Progress
-- Goal: Reach Azalea Town. (Started Turn #2415)
-- Hiker Anthony at (6, 13): Defeated.
-- Mom bought an item (check PC in Azalea).
-
 ## Strategy: Azalea Town
 - Navigate West through Route 33.
-- Lead: Calcifer (Quilava).
 
 ## Battle Notes
-- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
-- Calcifer (Quilava): Lv17. HP: 11/50.
-- Icarus (Pidgey): Lv11. HP: 18/32. Gust is super effective vs Machop.
+- Gneiss (Geodude): Out of Rock Throw PP.
+- Icarus (Pidgey): Gust is super effective vs Machop.
+
+## TM/HM & Items
+- HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
+- TM31 MUD-SLAP: Obtained.
+- Mystery Egg: Received from Elm's Aide.
 
 ## Trainer Rosters
 - Firebreather Bill: Koffing x2 (Lv6).
 - Pokemaniac Larry: Slowpoke (Lv10).
 - Firebreather Ray: Vulpix (Lv9).
-- Hiker Anthony: Geodude (Lv11), Machop (Lv11?).
+- Hiker Anthony: Geodude (Lv11), Machop (Lv11).
+
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
@@ -38,6 +37,12 @@
 - LEDGE_HOP_LEFT: One-way jump West (jumps 2 tiles).
 - CAVE: Warp tile leading to an interior area.
 - FLOOR_UP_WALL: Impassable; functions as a wall above a floor.
+
 ## Azalea Town Discoveries
 - Team Rocket Grunt spotted at (31, 9).
-- Need to find Pokemon Center and Gym.
+- Slowpoke Well entrance at (31, 7).
+- Charcoal Kiln at (21, 13).
+- Poké Mart at (21, 5).
+- Pokémon Center at (15, 9).
+- Kurt's House: Not yet found.
+- Azalea Gym: Not yet found.
