@@ -34,7 +34,7 @@
 
 ## Progression Plan
 - **Primary Goal:** Defeat Gym Leader Falkner in Violet City.
-- **Current Task:** Train Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv12.
+- **Current Task:** Train Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv13.
 - **Training Strategy:**
     - Use Sprout Tower (Violet City) to train Calcifer; Ember (Lv12) sweeps Bellsprouts.
     - Switch-train Icarus on Route 31.
@@ -43,7 +43,7 @@
 - **Preparation:**
     - Collect Bitter Berry (Route 31) for Sprout Tower Gastly.
     - Obtain HM05 (Flash) from Sage Li in Sprout Tower.
-    - Inventory: 5 Potions (Current), 5+ Poké Balls (Need 1 more).
+    - Inventory: 5 Potions (Current), 4 Poké Balls (Need 1+ more).
 
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
