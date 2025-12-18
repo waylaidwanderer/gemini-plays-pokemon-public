@@ -26,7 +26,7 @@
 - **Team Composition:**
   - Calcifer (Quilava): Lv14. Primary powerhouse.
   - ROCKY (Onix): Lv5. Counter for Falkner. Traded Pokemon; obedience depends on Badges.
-  - GNEISS (Geodude): Lv8. Counter for Falkner.
+  - GNEISS (Geodude): Lv9. Counter for Falkner.
 - **Plan:**
   1. Complete Sprout Tower (Obtain HM05 Flash). ✅
   2. Heal at Pokemon Center. ✅
