@@ -17,7 +17,7 @@
 ## Training Strategy: Route 31
 - **Method:** "Lead and Switch" or "Solo Trainee".
 - **Start Turn:** 1740 (Timestamp: 2025-12-18).
-- **Check-in Interval:** Every 50 turns (Next check: Turn 1800).
+- **Check-in Interval:** Every 50 turns (Next check: Turn 1850).
 - **EXP Tracking (Targeting Rock Throw):**
   - Gneiss (Geodude, Medium Slow): Lv11 (755 EXP). Goal: Lv11 (REACHED).
   - Rocky (Onix, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold.
@@ -30,7 +30,7 @@
   - Use Rock Throw (Lv11) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
   - If accuracy drops too low, switch to Calcifer or Icarus.
   - Calcifer (Quilava) Lv15 is the heavy hitter backup.
-- **Current Status:** Gneiss reached Lv11. Ready to challenge the Gym.
+- **Current Status:** Gneiss reached Lv11. Healing at Pokecenter before Gym.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
