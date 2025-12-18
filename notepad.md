@@ -38,3 +38,10 @@
 - **Notepad Hygiene:** Removed transient status info and redundant EXP tracking. Added input hygiene lesson.
 - **Goal Clarity:** Reading description sign to prepare for puzzle.
 - **Root Hypothesis:** Unmarked warps in Kabuto Chamber are likely puzzle rewards.
+## Puzzle: Kabuto Chamber
+- Description: "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
+- Target: Numerical order 1-16 in center 4x4.
+- Center Slots: [7, 8, 9, 10, 13, 14, 15, 16, 19, 20, 21, 22, 25, 26, 27, 28]
+- Piece Locations (Turn 1927):
+  1:2, 2:11, 3:24, 4:0, 5:3, 6:5, 7:6, 8:35, 9:23, 10:17, 11:1, 12:12, 13:18, 14:30, 15:4, 16:29
+- Progress: Placing Piece 1.
