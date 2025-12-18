@@ -35,7 +35,7 @@
 - **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`. Use `press_sequence` or separate calls. Verified Turn 1922.
 - **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout - catch one on Route 32).
 
-## Reflection Turn 1943
-- **Immediate Execution:** Continuing exploration of Inner Chamber.
-- **Goal Clarity:** Identify the 'strange presence' (likely Unown).
-- **Map Progress:** 32.1% explored. Focus on southern unseen tiles.
+## Reflection Turn 1947
+- **Immediate Execution:** Exploring eastern and southern tiles in Inner Chamber. Marked ladder at (10, 13).
+- **Goal Clarity:** Identify 'strange presence' (Unown).
+- **Map Progress:** 45.5% explored. Focus on southern unseen tiles.
