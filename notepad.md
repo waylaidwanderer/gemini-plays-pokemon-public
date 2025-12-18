@@ -15,8 +15,12 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Task: Swap Calcifer to lead slot. (Completed Turn #2335)
-- Item at (17, 21): Standing by.
+- Lead Swapped: Calcifer (Quilava) is now leading. (Turn #2335)
+- Item at (17, 21): Picking up now.
+
+## Strategic Discoveries
+- Menu Wrapping: Main menu wraps around (8 items).
+- Battle Lead: Switching in battle updates overworld lead upon victory/escape.
 
 ## Strategy: Reaching Azalea Town
 1. Navigate south through Union Cave 1F to Azalea Town.
