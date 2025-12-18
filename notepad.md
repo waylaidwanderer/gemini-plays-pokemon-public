@@ -86,3 +86,6 @@
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Pidgey on Route 37 - "so mischievously frightening").
+### Route 30 Berry House (26_9)
+- POKEFAN_M (ID 1): (2, 3).
+- WARPS: (2, 7) and (3, 7) exit to Route 30 (7, 39).
