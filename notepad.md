@@ -24,9 +24,8 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Route 31
-- **Status:** Searching for Bellsprout in tall grass. GNEISS is fainted.
 - **Objectives:**
-  - Locate and catch Bellsprout in tall grass.
+  - Locate and catch Bellsprout in tall grass (Start Turn: 959).
   - Reach Violet City and heal.
 
 ## Completed Areas
@@ -43,13 +42,14 @@
 - Bellsprout: Vine Whip (Verified).
 - Poliwag: Bubble (Verified).
 ### Team Status
-- Calcifer (CYNDAQUIL): Lv8 (13/25 HP).
-- ICARUS (PIDGEY): Lv9 (15/28 HP).
+- Calcifer (CYNDAQUIL): Lv8 (13/25 HP). Needs XP for Lv9 (Growth: Medium Slow).
+- ICARUS (PIDGEY): Lv9 (15/28 HP). Needs 95 XP for Lv10.
 - GNEISS (GEODUDE): Lv4 (0/18 HP, Fainted).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
 - Grass (Vine Whip) vs Flying: Not very effective. (Verified).
+- Water vs Rock/Ground: Super Effective (4x). (Verified with Poliwag vs Gneiss).
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
