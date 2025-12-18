@@ -43,7 +43,7 @@
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
-## Battle vs Camper Ivan
-- **Opponent:** Diglett (Incoming).
-- **Strategy:** Switch to Azurite (Resists Ground, needs XP).
-- **Status:** Rocky (18/36 HP), Azurite (39/43 HP).
+## Battle vs Firebreather Walt
+- **Opponent:** Magmar (Lv 11).
+- **Strategy:** Switch to Rocky (Resists Fire).
+- **Status:** Lucid (Low HP), Rocky (18/36 HP).
