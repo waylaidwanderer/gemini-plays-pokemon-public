@@ -47,3 +47,9 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
+
+## Lessons Learned
+- **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
+- **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
+- **Battle Strategy:** Use `battle_strategist_v2` for trainer battles to ensure type advantages are utilized.
+- **Ledge Logic:** Ledges are one-way (South/Down) and cannot be bypassed from the bottom. Verified on Routes 29 and 30.
