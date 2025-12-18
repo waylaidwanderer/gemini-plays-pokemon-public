@@ -63,7 +63,7 @@
     - Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
     - Party fully healed at Cherrygrove PC. (Turn 674)
 - **Training Logs:**
-    - Turn 668: Icarus fainted to crit vs Lv3 Hoothoot. Calcifer finished battle (EXP 297).
+    - Turn 683: Icarus (Pidgey) vs Wild Zubat Lv3. Icarus at 15/16 HP.
 - **Exploration Targets:**
     - Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after training.
 
