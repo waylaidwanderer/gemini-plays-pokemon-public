@@ -1,21 +1,21 @@
 # Johto Journey: Gem's Log
 
 ## Global Tile Mechanics
-- FLOOR: Traversable. Standard ground. Verified Turn 1891.
-- WALL / FLOOR_UP_WALL: Impassable. Verified Turn 1905.
+- FLOOR: Traversable.
+- WALL / FLOOR_UP_WALL: Impassable.
 - TALL_GRASS: Traversable. Wild encounters.
-- LEDGE_HOP_DOWN: One-way South. Verified Turn 1894.
-- LEDGE_HOP_RIGHT: One-way East. Verified Turn 1894.
-- COUNTER: Impassable. Stand in front to talk to NPCs behind. Verified Turn 1891.
+- LEDGE_HOP_DOWN: One-way South.
+- LEDGE_HOP_RIGHT: One-way East.
+- COUNTER: Impassable. Stand in front to talk to NPCs behind.
 - HEADBUTT_TREE: Impassable. Requires Headbutt.
 - CUT_TREE: Impassable. Requires Cut.
-- WARP_CARPET: Map transition at edges. Verified Turn 1891.
-- LADDER / DOOR / CAVE: Instant warp upon entry. Verified Turn 1907.
-- PC / BOOKSHELF / RADIO: Interactable from below (face Up + A).
-- WATER / ROCK / INCENSE_BURNER: Impassable. Verified Turn 1906.
+- WARP_CARPET: Map transition at edges.
+- LADDER / DOOR / CAVE: Instant warp upon entry.
+- PC / BOOKSHELF / RADIO: Interactable from below.
+- WATER / ROCK / INCENSE_BURNER: Impassable.
 
 ## Gym Progress
-- **Zephyr Badge:** Obtained from Falkner (Turn 1864).
+- **Zephyr Badge:** Obtained from Falkner.
 - **Hive Badge:** Target. Azalea Town.
 
 ## NPC Archive
@@ -26,19 +26,17 @@
 - Prof. Oak: (6, 5) on Route 30. Gave Pokedex.
 
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphInnerChamber.
-- **Kabuto Puzzle:** Solved Turn 1941. Warped to Inner Chamber via pit at (3,3)/(4,3).
-- **Inner Chamber:** "There is a strange presence here..." Triggered Turn 1941.
-- **Strange Presence Identified:** Encountered wild UNOWN at (15, 8). Verified Turn 1948.
+- **Ruins of Alph Detour:** Currently in RuinsOfAlphInnerChamber.
+- **Kabuto Puzzle:** Solved. Warped to Inner Chamber via pit at (3,3)/(4,3).
+- **Inner Chamber:** Encountered wild UNOWN at (15, 8).
 
 ## Strategy & Lessons
-- **Puzzle Solved:** Numerical order 1-16 is correct for Kabuto. Swapping identical pieces at the bottom (14/15) might be necessary if it doesn't trigger immediately. Verified Turn 1941.
-- **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`. Use `press_sequence` or separate calls. Verified Turn 1922.
+- **Puzzle Solved:** Numerical order 1-16 is correct for Kabuto. Swapping identical pieces at the bottom (14/15) might be necessary.
+- **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`.
 - **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout - catch one on Route 32).
-- **Unown Battle:** Unown are Psychic-type and only know Hidden Power. Catching one is a priority for the Pokedex. Verified Turn 1948.
+- **Unown Battle:** Unown are Psychic-type and only know Hidden Power. Catching is priority. Using a Poke Ball immediately at Lv 5 is safer than attacking.
 
-## Reflection Turn 1948
-- **Immediate Execution:** Battle with Unown started.
-- **Goal Clarity:** Identify 'strange presence' (Confirmed: Unown).
-- **Map Progress:** 49.1% explored.
-- **Action Plan:** Catch the Unown if possible, otherwise defeat it and continue exploration.
+## Current Plan
+- Catch Unown using Poké Balls.
+- Continue exploring Inner Chamber to find the ladder at (10, 13).
+- Head back to Route 32 and continue south to Azalea Town.
