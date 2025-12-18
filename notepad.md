@@ -15,10 +15,10 @@
 ## Union Cave 1F Progress
 - Explored eastern passage. Found Great Ball at (17, 21).
 - Encountered wild Geodude, Sandshrew, and Onix.
-- Firebreather Bill (Trainer) at (14, 19) challenged.
+- Firebreather Bill (Trainer) at (14, 19) defeated.
 
 ## Trainer Rosters
-- Firebreather Bill (14, 19): Koffing (Lv6).
+- Firebreather Bill (14, 19): Koffing (Lv6), Koffing (Lv6).
 
 ## Lessons Learned
 - Menu Navigation: The main menu wraps around (8 items). Resetting with 8 presses is ineffective. Use 8 Downs to hit EXIT as a known anchor.
