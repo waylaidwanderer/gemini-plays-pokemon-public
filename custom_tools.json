@@ -45,5 +45,31 @@
         "action_counter": 259
       }
     ]
+  },
+  "get_path_coords": {
+    "description": "Finds a path of coordinates from the player's current position to a target (x, y) on the current map using BFS. Returns a JSON array of coordinate objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef main():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    grid = {}\n    start = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            if tile.find('Player') is not None:\n                start = (x, y)\n            grid[(x, y)] = (t_type, has_obj)\n\n    if start is None:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(start, [start])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        \n        if (x, y) == (target_x, target_y):\n            formatted_path = [{\"x\": p[0], \"y\": p[1]} for p in path]\n            print(json.dumps(formatted_path))\n            return\n            \n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                t_type, has_obj = grid[(nx, ny)]\n                \n                # Traversal rules\n                if t_type in ['WALL', 'HEADBUTT_TREE', 'WATER', 'COUNTER', 'BOOKSHELF', 'WINDOW', 'TREE', 'HEDGE']:\n                    continue\n                if has_obj:\n                    continue\n                \n                # Ledge handling (Down)\n                if t_type == 'LEDGE_HOP_DOWN' and dy == 1:\n                    nnx, nny = nx, ny + 1\n                    if (nnx, nny) in grid:\n                        tt, ho = grid[(nnx, nny)]\n                        if tt in ['FLOOR', 'TALL_GRASS'] and not ho:\n                            if (nnx, nny) not in visited:\n                                visited.add((nnx, nny))\n                                queue.append(((nnx, nny), path + [(nx, ny), (nnx, nny)]))\n                    continue\n\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [(nx, ny)]))\n    print(json.dumps([]))\n\nmain()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T01:50:43.934Z",
+        "action_counter": 425
+      }
+    ]
   }
 }
