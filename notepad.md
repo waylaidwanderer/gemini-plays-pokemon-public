@@ -52,20 +52,21 @@
 - Resource Management: Need to restock Poké Balls at the next Mart.
 
 ## Strategy for Reaching Azalea Town
-1. **Restock:** Visit a Poké Mart (Violet City) to buy at least 10 Poké Balls.
-2. **Route 32:** From Violet City, head south through the gatehouse to Route 32.
-3. **Union Cave:** Navigate south along Route 32 to the entrance of Union Cave.
-4. **Azalea Town:** Traverse Union Cave to exit on the southern side, leading directly to Azalea Town.
-5. **Training:** Use Geodude (Gneiss) for training against trainers on Route 32 to prepare for the next Gym.
-## Strategy for Restocking in Violet City
-- **Location:** Poké Mart at (9, 17).
-- **Target:** Purchase at least 10 Poké Balls.
-- **Budget:** ¥3731 available; 10 Poké Balls cost ¥2000.
-- **Next Step:** After restocking, head south to Route 32 and continue towards Union Cave.
+1. **Route 32:** From Violet City, head south through the gatehouse to Route 32.
+2. **Union Cave:** Navigate south along Route 32 to the entrance of Union Cave.
+3. **Azalea Town:** Traverse Union Cave to exit on the southern side, leading directly to Azalea Town.
+4. **Training:** Use Geodude (Gneiss) for training against trainers on Route 32 to prepare for the next Gym.
+
+## Tile Mechanics - Route 32
+- FLOOR: Traversable. Verified.
+- TALL_GRASS: Traversable. Verified. Wild encounters possible.
+- LEDGE_HOP_RIGHT: One-way East. Verified at (17, 12), (17, 13), (17, 14).
+- WALL / FLOOR_UP_WALL: Impassable. Verified.
+
 ## Lessons Learned
 - **Tile Mechanics:** `FLOOR_UP_WALL` and `MART_SHELF` are impassable obstacles that must be accounted for in pathfinding.
 - **Menu Navigation:** When purchasing items, "Up" increases quantity and "Down" decreases it. Rolling over from 1 using "Down" can reach the maximum affordable quantity.
 - **Tool Maintenance:** Always ensure pathfinding tools account for both tile collision types and map markers (for off-screen obstacles).
 
 ## Task Tracking
-- **Restocking Poké Balls:** Completed Turn 2028. Obtained 10 Poké Balls. Remaining Money: ¥1731.
+- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave.
