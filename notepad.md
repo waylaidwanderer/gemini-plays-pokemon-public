@@ -60,3 +60,4 @@
   - Sage Troy (ID 2) at (8, 9) (In battle).
   - Poke Ball (ID 5) at (6, 14) (Potion collected).
   - Calcifer is Lv12 and learned EMBER!
+  - Calcifer needs 28 EXP for Lv13.
