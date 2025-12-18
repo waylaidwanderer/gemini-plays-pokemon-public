@@ -3,8 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Heal & Train:** Use Super Potion (Item Slot 1 - Screen verified), then grind to Lv 20.
-       - *Correction:* Super Potion appears at Top of list on screen, despite being index 11 in API list. Using manual sequence.
+    1. **Heal & Train:** Retry healing. Start Menu -> Pack -> Reset Cursor -> Use Super Potion -> Exit.
+       - *Correction:* Previous attempt failed, likely due to input timing or menu state. Retrying with explicit `A` to enter Pack.
+       - *Status:* Lv 17 (Target: Lv 20).
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
