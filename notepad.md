@@ -45,5 +45,5 @@
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Battle vs Firebreather Walt
 - **Opponent:** Magmar (Lv 11).
-- **Strategy:** Switch to Rocky (Resists Fire).
-- **Status:** Lucid (Low HP), Rocky (18/36 HP).
+- **Strategy:** Switch to Garnet (Rocky burned/low HP).
+- **Status:** Lucid (Low HP), Rocky (Burned, Low HP).
