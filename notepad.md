@@ -56,3 +56,6 @@
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
 - Slowpoke Well: Team Rocket presence confirmed.
+## Items Collected
+- Lure Ball: Received from Kurt.
+- Apricorn Mechanic: Bring Apricorns to Kurt at (3, 2) to make special Balls.
