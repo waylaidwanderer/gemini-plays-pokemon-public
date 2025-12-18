@@ -49,7 +49,10 @@
 ## Training Tracker
 - Training Goal: Calcifer and Icarus to Lv10-12.
 - Started: Turn 421.
-- Current Status: Icarus Lv2 (13/13 HP, 56 EXP), Calcifer Lv7 (18/23 HP, 252 EXP).
+- Current Status: Icarus Lv2 (13/13 HP, 56 EXP), Calcifer Lv7 (12/23 HP, 252 EXP).
+## Current Battle: Wild Poliwag (Lv4)
+- Goal: Defeat for EXP.
+- Plan: Use TACKLE until fainted.
 - Strategy:
     - Switch-train Icarus to Lv7 on Route 30/31 by leading with him and swapping.
     - Calcifer to Lv12 to learn Ember for Falkner.
