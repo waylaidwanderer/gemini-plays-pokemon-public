@@ -39,9 +39,9 @@
 
 ## Strategy & Lessons
 - Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
-- Input Hygiene: Do not mix directional and action buttons in press_buttons.
+- Input Hygiene: Do not mix directional and action buttons in press_buttons. Use press_sequence for multi-step interactions.
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
-- Unown Battle: Catching is priority (out of Poké Balls currently).
+- Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority (out of Poké Balls currently).
 
 ## Current Plan
 - Interact with NPCs in Route36RuinsOfAlphGate.
