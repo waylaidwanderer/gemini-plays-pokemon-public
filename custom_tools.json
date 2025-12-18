@@ -122,5 +122,33 @@
         "action_counter": 2112
       }
     ]
+  },
+  "use_item_v3": {
+    "description": "Uses an item from the PACK on a Pokémon in the party. Assumes the overworld and closed menu. Anchors on EXIT in the main menu for reliability.",
+    "input_schema": {
+      "properties": {
+        "item_index": {
+          "description": "0-indexed position of the item in the current pocket",
+          "type": "integer"
+        },
+        "pokemon_index": {
+          "description": "1-indexed position of the Pokémon in the party",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "item_index",
+        "pokemon_index"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\ndef get_btns(item_idx, pkmn_idx):\n    # Start in overworld\n    btns = [\"Start\", \"sleep 500\"]\n    # Anchor at EXIT (8 Downs)\n    for _ in range(8): btns.append(\"Down\")\n    # EXIT is Index 7. PACK is Index 2. Move Up 5.\n    for _ in range(5): btns.append(\"Up\")\n    btns.append(\"A\")\n    btns.append(\"sleep 500\")\n    # In Bag. Assumes Items pocket.\n    for _ in range(item_idx): btns.append(\"Down\")\n    btns.append(\"A\")\n    # Sub-menu: USE, GIVE, TOSS, QUIT. USE is Index 0.\n    btns.extend([\"sleep 300\", \"A\", \"sleep 500\"])\n    # In Party menu. Cursor on Slot 1.\n    for _ in range(pkmn_idx - 1): btns.append(\"Down\")\n    btns.append(\"A\")\n    # Success text and close\n    btns.extend([\"sleep 1000\", \"B\", \"B\", \"B\"])\n    return btns\n\nitem_idx = int(input_data['item_index'])\npkmn_idx = int(input_data['pokemon_index'])\nprint(json.dumps(get_btns(item_idx, pkmn_idx)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T20:23:40.829Z",
+        "action_counter": 2380
+      }
+    ]
   }
 }

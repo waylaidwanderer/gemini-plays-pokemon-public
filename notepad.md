@@ -22,7 +22,7 @@
 ## History
 - Swapped Calcifer to lead slot (Turn #2335).
 - Turn #2378: Used REPEL instead of Potion by mistake.
-- Turn #2379: Healing Gneiss.
+- Turn #2379: Healing Gneiss. (Attempting with use_item_v3).
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
