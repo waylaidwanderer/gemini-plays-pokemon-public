@@ -20,10 +20,10 @@
 - Strategy: Prioritize western Union Cave exploration.
 
 ## NPC Archive
-- Route 32: Fisher (7, 70) [Slowpoketail Scam], others on eastern path.
+- Route 32: Fisher (7, 70) [Slowpoketail Scam].
 - Union Cave 1F:
-  - Hiker Daniel (3, 6): Defeated.
-  - Hiker Russell (11, 8): Battling (Start Turn #2236).
+  - Hiker Daniel (3, 6): (☠️)
+  - Hiker Russell (11, 8): (🚶)
 
 ## Training Strategy
 - Switch Training: Lead with strong PKMN, switch to trainee on Turn 1, then to finisher.
@@ -33,9 +33,4 @@
 ## Lessons Learned
 - Ledge Mechanics: LEDGE_HOP_DOWN is one-way (South).
 - Marker Hygiene: Use ☠️ for defeated trainers; delete 🚶/👤.
-
-## Battle Log: Hiker Russell
-- Start Turn: #2236.
-- Opponents: Geodude (Lv4) [Defeated], Geodude (Lv6) [Defeated], Geodude (Lv8) [Current].
-- Training: Apophis tagged (Turn #2246). Rocky tagged (Turn #2254). Icarus tagged (Turn #2266). Gneiss tagged (Turn #2274 - switch error).
-- Finisher Plan: Gneiss to end battle.
+- UI Precision: Use select_battle_option for main menu; Up/Down only for moves.
