@@ -23,6 +23,9 @@
 - **COUNTER:** Interact from adjacent tile.
 - **TALL_GRASS:** Traversable, wild encounters.
 - **WATER:** Impassable without Surf.
+- **HEADBUTT_TREE:** Impassable. Can be Headbutted for encounters.
+- **CUT_TREE:** Impassable. Can be removed with Cut (respawns).
+- **WARP_CARPET_DOWN:** Traversable. Triggers warp when moving off-map.
 
 ## Important Locations
 - **Game Corner:** (14, 21) Goldenrod.
