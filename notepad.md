@@ -58,7 +58,7 @@
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
 - Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 4) in house at (21, 29) (Traded Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info), EARL (Spinning Master) at (25, 14).
-- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at top; Sage (Trainer) Chow at (3, 1); Sage at (6, 7) (moving); Teacher at (9, 9); Sage (Trainer) Edmond at (9, 14).
+- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at top; Sage (Trainer) Chow at (3, 2); Sage at (6, 7) (moving); Teacher at (9, 9); Sage (Trainer) Edmond at (9, 14).
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from adjacent tile.
@@ -90,6 +90,6 @@
 ## Sprout Tower 2F (Turn 1311)
 - Arrived via ladder at (2, 6) from 1F.
 - Goal: Find ladder to 3F.
-- Calcifer (Cyndaquil) needs ~244 more EXP for Lv12 (Ember).
+- Calcifer (Cyndaquil) needs ~190 more EXP for Lv12 (Ember).
 - Exploring reachable unseen tiles to map the floor.
-- Sage at (9, 14) on 2F.
+- Sage Edmond at (9, 14) on 2F.
