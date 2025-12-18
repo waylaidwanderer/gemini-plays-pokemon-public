@@ -38,7 +38,7 @@
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
 ## Contest Prep
-- **Current Task:** Heal at Goldenrod PC, then withdraw Lucid (Drowzee).
+- **Current Task:** Access PC. 1) Deposit Togepi. 2) Withdraw Lucid. 3) Move Lucid to Slot 1.
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
-- **Strategy:** Use Lucid (Hypnosis) to sleep bugs for easier catching.
-- **Team:** Azurite (12), Rocky (14). Healing...
+- **Strategy:** Lucid (Hypnosis) is key.
+- **Team:** Azurite (12), Rocky (14).
