@@ -24,9 +24,9 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Route 31
-- **Status:** Seeking Bellsprout for trade. Started Turn 935.
+- **Status:** Seeking Bellsprout for trade. Attempt 1 failed (Critical Hit KO).
 - **Objectives:**
-  - Locate Bellsprout in tall grass.
+  - Locate and catch Bellsprout in tall grass.
   - Reach Violet City and heal.
 
 ## Completed Areas
@@ -40,13 +40,15 @@
 - Cyndaquil: Tackle, Leer, Smokescreen
 - Caterpie: Tackle (Verified).
 - Geodude: Tackle (Verified).
+- Bellsprout: Vine Whip (Verified).
 ### Team Status
-- ICARUS (PIDGEY): Lv9 (17/28 HP). Needs 95 XP for Lv10.
-- Calcifer (CYNDAQUIL): Lv8 (16/25 HP). Needs 74 XP for Lv9.
-- GNEISS (GEODUDE): Lv4 (12/18 HP).
+- ICARUS (PIDGEY): Lv9 (15/28 HP, 525 EXP). Needs 35 XP for Lv10.
+- Calcifer (CYNDAQUIL): Lv8 (16/25 HP, 345 EXP). Needs 74 XP for Lv9.
+- GNEISS (GEODUDE): Lv4 (12/18 HP, 96 EXP).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
+- Grass (Vine Whip) vs Flying: Not very effective. (Verified).
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
@@ -58,10 +60,10 @@
 - **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles.
 - **Ledge Logic:** Ledges are one-way (South/Down).
+- **Critical Hits:** Be extremely cautious when weakening Pokemon for capture; crits can ruin an encounter. Lead with a weaker Pokemon if possible.
 
 ## Strategy for Bellsprout
 - Location: Route 31 Tall Grass.
-- Method: Encounter in grass.
-- Team: Use Calcifer (Cyndaquil) to weaken. Fire is strong against Grass, so be careful not to KO. Tackle is safer than Ember.
+- Method: Walk around in grass until encounter.
+- Team: Lead with Calcifer (Cyndaquil) to avoid Icarus's high damage. Use Tackle (Normal) to weaken. Avoid Ember (Fire) to prevent KO.
 - Catching: Use Poké Ball.
-- Goal: Trade for ONIX in Violet City.
