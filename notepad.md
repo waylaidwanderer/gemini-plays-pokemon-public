@@ -54,11 +54,11 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1397):
+- Sprout Tower 3F (Turn 1405):
   - Sage Jin (ID 1) defeated at (8, 13).
   - Sage Neal (ID 4) defeated at (11, 11).
   - Sage Troy (ID 2) defeated at (8, 9).
-  - Sage Li (ID 3) at (10, 2).
+  - Sage Li (ID 3) at (10, 2) (In battle).
   - Poke Ball (ID 5) at (6, 14) (Potion collected).
   - Item Ball (ID 6) at (14, 1).
   - Calcifer is Lv13.
