@@ -60,4 +60,4 @@
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Status:** Navigating around the wall at x=15 to reach Fisher (15, 13). Standing at (16, 13) is required to interact.
+- **Current Objective:** Defeat Youngster Albert and reach Fisher (15, 13).
