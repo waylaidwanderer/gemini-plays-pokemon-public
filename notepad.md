@@ -1,18 +1,17 @@
 # Johto Journey: Gem's Log
 
 ## Tile Mechanics (Verified)
-- FLOOR: Standard traversable ground.
-- WALL: Impassable barrier.
-- TALL_GRASS: Standard traversable grass; triggers wild encounters.
-- LEDGE_HOP_RIGHT: One-way (East only).
-- LEDGE_HOP_DOWN: One-way (South only).
-- LEDGE_HOP_LEFT: One-way (West only).
-- DOOR / STAIRCASE / WARP_CARPET: Warp points.
-- BOOKSHELF: Impassable (acts as WALL).
-- WINDOW: Impassable (acts as WALL).
-- TREE / HEDGE: Impassable (acts as WALL).
-- HEADBUTT_TREE / CUT_TREE / WATER: Impassable; require HM moves.
-- unseen (❓): Unknown traversability; requires exploration.
+- FLOOR: Traversable.
+- WALL: Impassable.
+- TALL_GRASS: Traversable; wild encounters.
+- LEDGE_HOP_DOWN: One-way jump South (2 tiles).
+- LEDGE_HOP_LEFT: One-way jump West (2 tiles).
+- LEDGE_HOP_RIGHT: One-way jump East (2 tiles).
+- HEADBUTT_TREE: Impassable (requires Headbutt).
+- COUNTER: Interactable (face to talk to NPC behind).
+- WARP_CARPET_DOWN: Exit map South.
+- LADDER: Warp to different floor.
+- BOOKSHELF / WINDOW / TREE / HEDGE: Impassable (acts as WALL).
 
 ## NPCs & Interactions
 ### Mr. Pokémon's House (26_10)
@@ -39,29 +38,18 @@
 - Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 - Menu Navigation: Do NOT mix directional buttons and action buttons (A/B/Start/Select) in the same turn.
-- Battle Strategy: In wild battles, capture low-level Pokémon at full health to avoid accidental KOs.
 
 ## Cherrygrove Pokecenter 1F (26_5)
 - NPCs: Nurse (Counter at Row 2), Teacher (1, 6), Fisher (2, 3), Gentleman (8, 6).
-- Waypoint: Face counter at (3, 3) or (4, 3) to heal.
 - GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
 - TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
-
-## Strategy: Violet City Gym
-- Goal: Defeat Gym Leader Falkner in Violet City.
-- Preparation: Train Calcifer and Icarus to Lv10.
-- Route: Route 29 -> Cherrygrove City -> Route 30 -> Route 31 -> Violet City.
-- Tactics: Use Smokescreen to lower accuracy if needed. Lead with Icarus to distribute EXP.
 
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5. (Turn 324)
 - EVENT: Set up money saving with Mom. (Turn 334)
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
-## Battle Logs
-- Turn 400: Icarus (Pidgey Lv2) fainted against wild Pidgey Lv3 on Route 29. Attempt to run failed. Switching to Calcifer.
-## Strategy: Recovery
-1. Navigate to Route 29 west exit (0, 6).
-2. Enter Cherrygrove City.
-3. Use Pokémon Center to heal Icarus and Calcifer.
-4. Resume training on Route 30.
+
+## Training Tracker
+- Training Goal: Calcifer and Icarus to Lv10.
+- Started: Turn 421.
