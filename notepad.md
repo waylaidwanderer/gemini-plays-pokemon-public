@@ -39,7 +39,7 @@
 - Rival MALICE defeated.
 - Mystery Egg delivered.
 - Caught Icarus (Lv2 Pidgey).
-- Icarus reached Lv6.
+- Icarus reached Lv7.
 
 ## Lessons Learned
 - CRITICAL HITS: Heal early; don't risk fainting during training.
