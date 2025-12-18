@@ -2,7 +2,7 @@
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable ground.
-- WALL / FLOOR_UP_WALL / WATER / ROCK: Impassable. (FLOOR_UP_WALL verified at (5, 18))
+- WALL / FLOOR_UP_WALL / WATER / ROCK: Impassable.
 - TALL_GRASS: Wild encounters.
 - LEDGE_HOP_DOWN: One-way South.
 - COUNTER: STAND in front to talk to NPCs.
@@ -14,16 +14,16 @@
 
 ## Union Cave 1F Progress
 - Firebreather Bill (14, 19) defeated.
-- Found Great Ball (17, 21) and Potion (4, 17).
-- Marked: Ladder (5, 19), Super Nerd (4, 21).
+- Current: Battling Pokemaniac Larry at (4, 21) (Start: Turn 2387).
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
-- Plan: Navigate around Row 18 wall via (8, 18) gap, then reach Super Nerd at (4, 21).
 
 ## Battle Notes
-- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41. Needs healing.
+- Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
 - Calcifer (Quilava): Lv16. Primary attacker.
 - Rocky (Onix): Backup tank.
+
 ## Trainer Rosters
-- Super Nerd Eric (4, 21): [In Battle]
+- Firebreather Bill (14, 19): Koffing (Lv6), Koffing (Lv6).
+- Pokemaniac Larry (4, 21): Slowpoke (Lv10).
