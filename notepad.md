@@ -53,4 +53,4 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Encountered Wild Jigglypuff (Lv 12).
 - **Goal:** Catch it.
-- **Current State:** Rocky (Lv 12, Asleep) is out. Switching to Azurite (Slot 6) to weaken.
+- **Current State:** Azurite (Lv 10) is out. Weakening Jigglypuff with Tackle.
