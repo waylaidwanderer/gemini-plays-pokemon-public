@@ -44,6 +44,6 @@
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Battle vs Juggler Irwin
-- **Opponent:** Voltorb (Lv 2).
+- **Opponent:** Voltorb #2 (Lv 6).
 - **Strategy:** Lucid (Drowzee) Pound.
 - **Status:** Lucid (17/39 HP), Rocky (Burned), Garnet (58/68 HP).
