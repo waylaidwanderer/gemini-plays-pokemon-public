@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Heal & Train:** Retry healing. Start Menu -> Pack -> Reset Cursor -> Use Super Potion -> Exit.
-       - *Correction:* Previous attempt failed, likely due to input timing or menu state. Retrying with explicit `A` to enter Pack.
+    1. **Heal & Train:** Execute Manual Heal Sequence (Enter Pack -> Pocket Switch -> Use Top Item -> Confirm).
+       - *Note:* Super Potion is at Top of Bag (Screen verified). API list is sorted differently.
        - *Status:* Lv 17 (Target: Lv 20).
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
