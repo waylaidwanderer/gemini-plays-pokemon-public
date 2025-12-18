@@ -88,3 +88,4 @@
 - Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
 - Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
 - Incense Burner: Flavor text "Oh, it's an incense burner!"
+- Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
