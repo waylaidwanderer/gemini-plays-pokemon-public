@@ -63,7 +63,8 @@
     - Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
     - Party fully healed at Cherrygrove PC. (Turn 674)
 - **Training Logs:**
-    - Turn 689: Icarus (Pidgey) vs Wild Poliwag Lv4. Icarus at 16/18 HP.
+    - Turn 687: Icarus (Pidgey) reached Lv4.
+    - Turn 691: Training grind started. Current Levels: Icarus Lv4, Calcifer Lv7.
 - **Exploration Targets:**
     - Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after training.
 
