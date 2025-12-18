@@ -54,8 +54,8 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Log:** Ran from Wild Drowzee (Accidental 'Run' selection).
+- **Observation:** Item Ball at (7, 30) is blocked by walls/water. Likely requires Surf.
 - **Strategy:** Switch Training (Azurite -> Rocky).
 - **Goal:** Train Azurite and Rocky.
 - **Status:** Azurite (Lv 10). Rocky (Lv 13, 18/34 HP).
-- **Training Plan:** Grind on Route 34 until Lv 18.
+- **Training Plan:** Grind on Route 34 until Lv 18. Return to Goldenrod PC when Rocky's HP is low.
