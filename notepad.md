@@ -47,6 +47,10 @@
 - North Area: (2-7, 25)
 - **Failed Hypotheses:**
   - North path via x=5 is blocked by ledges at y=17/25. (Attempts: 1)
+  - North path via x=2,3 is blocked by ledges at y=11. (Attempts: 1)
+
+## Timestamps
+- Turn 831: Started trek to Route 31/Violet City.
 
 ## Lessons Learned
 - CRITICAL HITS: Heal early to avoid faints.
