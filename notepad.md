@@ -22,7 +22,7 @@
 
 ### Cherrygrove City (26_3)
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
-- TEACHER (ID 3): (28, 12).
+- TEACHER (ID 3): Quote: "When you're with POKéMON, going anywhere is fun." (Wandering).
 - YOUNGSTER (ID 4): (22, 7).
 
 ### Route 30 (26_1)
@@ -72,6 +72,7 @@
 - TV (2, 1): "It's a TV."
 - TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): PROF. OAK'S POKéMON TALK! (Pidgey on Route 37).
+
 ### Guide Gent's House (26_7)
-- GRAMPS (ID 1): (2, 3).
+- GRAMPS (ID 1): (2, 3). Quote: "Catch lots of POKéMON! Treat them all with kindness!"
 - WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (25, 9).
