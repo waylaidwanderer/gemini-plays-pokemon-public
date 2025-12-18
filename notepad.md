@@ -39,3 +39,4 @@
 - **Radio Hint:** Fisher Ivan on Route 35 mentions 'The Pokémon March' on radio lures wild Pokémon.
 - **Fisher Ivan:** Did not battle (Turn 5318).
 - **Route 35 Encounters:** Growlithe (Morning).
+- **Route 36 Encounters:** Ledyba (Morning).
