@@ -56,7 +56,7 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Fighting Wild Drowzee (Lv 12).
 - **Goal:** Defeat it for Azurite's XP.
-- **Current State:** Horn Attack Disabled. Using Tackle.
-- **Risk Assessment:** Drowzee likely only has Pound/Hypnosis/Disable. Azurite safe from Psychic moves.
+- **Current State:** Azurite used Tackle. Drowzee HP Critical (Red). Finishing with Tackle.
+- **Risk Assessment:** Minimal. One hit should KO.
 - **Then:** Train Azurite (Switch Training).
 - **Then:** Challenge Whitney (Goldenrod Gym).
