@@ -63,3 +63,5 @@
   - Item Ball (ID 6) at (14, 1).
   - Calcifer is Lv13.
   - Calcifer needs 292 EXP for Lv14.
+- **Lesson: Scripted NPC Blockage.** During scripted events (like Malice's appearance), NPCs can temporarily block paths that appear clear on the map. Wait for the event to conclude before attempting to navigate through those tiles.
+- **Reflection (Turn 1401):** Verified all tasks. Notepad updated with scripted movement lesson. Map markers for Sages and items are current. Goals are concrete. Root hypothesis for Sprout Tower (HM Flash at top) is confirmed by NPC dialogue.
