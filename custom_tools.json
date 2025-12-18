@@ -126,7 +126,7 @@
         "target_y"
       ]
     },
-    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            is_wall = t_type in ['WALL', 'WATER', 'BLOCK', 'HEADBUTT_TREE', 'CUT_TREE'] or tile.find('Object') is not None\n            if tile.find('Player') is not None: player_pos = (x, y)\n            grid[(x, y)] = {'type': t_type, 'wall': is_wall}\n    if player_pos is None:\n        print(json.dumps([]))\n        return\n    queue = collections.deque([(player_pos, [])])\n    visited = {player_pos}\n    while queue:\n        (cx, cy), path = queue.popleft()\n        if cx == target_x and cy == target_y:\n            print(json.dumps(path))\n            return\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                curr = grid[(cx, cy)]\n                next_tile = grid[(nx, ny)]\n                if curr['type'] == 'LEDGE_HOP_DOWN' and btn != 'Down': continue\n                if next_tile['type'] == 'LEDGE_HOP_DOWN' and btn != 'Down': continue\n                if next_tile['wall'] and (nx != target_x or ny != target_y): continue\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    print(json.dumps([]))\nsolve()",
+    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            is_wall = t_type in ['WALL', 'WATER', 'BLOCK', 'HEADBUTT_TREE', 'CUT_TREE', 'VOID'] or tile.find('Object') is not None\n            if tile.find('Player') is not None: player_pos = (x, y)\n            grid[(x, y)] = {'type': t_type, 'wall': is_wall}\n    if player_pos is None:\n        print(json.dumps([]))\n        return\n    queue = collections.deque([(player_pos, [])])\n    visited = {player_pos}\n    while queue:\n        (cx, cy), path = queue.popleft()\n        if cx == target_x and cy == target_y:\n            print(json.dumps(path))\n            return\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                curr = grid[(cx, cy)]\n                next_tile = grid[(nx, ny)]\n                if curr['type'] == 'LEDGE_HOP_DOWN' and btn != 'Down': continue\n                if next_tile['type'] == 'LEDGE_HOP_DOWN' and btn != 'Down': continue\n                if next_tile['wall'] and (nx != target_x or ny != target_y): continue\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    print(json.dumps([]))\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -137,6 +137,11 @@
         "commit_message": "Fixing tool to use input_data instead of sys.stdin and improving ledge handling.",
         "timestamp": "2025-12-18T05:20:54.204Z",
         "action_counter": 852
+      },
+      {
+        "commit_message": "Added VOID to wall types in find_path_v2_fixed_refined.",
+        "timestamp": "2025-12-18T05:21:46.362Z",
+        "action_counter": 853
       }
     ]
   }

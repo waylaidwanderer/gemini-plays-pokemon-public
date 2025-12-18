@@ -43,7 +43,7 @@
 - Normal vs Normal: Neutral
 - Fire vs Normal: Neutral
 - Normal vs Fire: Neutral
-- Flying vs Bug: Super Effective (Hypothesis - to be tested with Gust)
+- Flying vs Bug: Super Effective. Verified with Icarus's Gust vs Don's Caterpie.
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
