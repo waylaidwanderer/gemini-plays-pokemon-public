@@ -23,15 +23,15 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: Violet City
+## Current Area: VioletKylesHouse
 - **Objectives:**
-  - Explore Violet City to find the Onix trade house and Sprout Tower. (Current Focus)
+  - Talk to Pokefan M and Youngster to identify the Onix trader. (Current Focus)
   - Locate and catch Bellsprout on Route 31 (Start Turn: 959).
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
 - **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
-- **Violet City:** Arrived and healed at Pokecenter.
+- **Violet City:** Arrived and healed at Pokecenter. Entered a house at (21, 29).
 
 ## Battle and Pokemon Information
 ### Observed Movesets
