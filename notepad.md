@@ -24,7 +24,7 @@
 ## Trainer Rosters (Johto)
 - Rocket Grunts (Slowpoke Well): All defeated.
 - Azalea Gym Trainers: Amy & May, Al, Benny, Josh all defeated.
-- Gym Leader Bugsy: Metapod (Defeated), Scyther (Defeated).
+- Gym Leader Bugsy: Metapod (Defeated), Scyther (Defeated), Kakuna (Lv?) - Battling.
 
 ## Azalea Town Summary
 - Locations: Well (31, 7), Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
