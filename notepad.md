@@ -42,6 +42,6 @@
 - Description: "A POKéMON that hid on the sea floor. Eyes on its back scanned the area."
 - Target: Numerical order 1-16 in center 4x4.
 - Center Slots: [7, 8, 9, 10, 13, 14, 15, 16, 19, 20, 21, 22, 25, 26, 27, 28]
-- Piece Locations (Turn 1931):
-  1:7, 2:8, 3:9, 4:10, 5:3, 6:5, 7:6, 8:35, 9:23, 10:17, 11:1, 12:12, 13:18, 14:30, 15:4, 16:29
-- Progress: Placing Piece 5. Target slot (1,2). Current Piece 5 at (3,0).
+- Piece Locations (Turn 1932):
+  1:7, 2:8, 3:9, 4:10, 5:13, 6:5, 7:6, 8:35, 9:23, 10:17, 11:1, 12:12, 13:18, 14:30, 15:4, 16:29
+- Progress: Placing Piece 6. Target slot (2,2). Current Piece 6 at (5,0).
