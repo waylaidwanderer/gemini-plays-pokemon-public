@@ -57,8 +57,9 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1416):
-  - Battling Sage Li's Hoothoot (Lv 10) at (10, 2).
+- Sprout Tower 3F (Turn 1418):
+  - Defeated Sages Jin, Neal, and Troy.
+  - Battling Sage Li's Bellsprout (Lv ?) at (10, 2).
   - Potion collected at (6, 14).
   - Calcifer is Lv13.
   - Calcifer needs 166 EXP for Lv14. Verified with tool.
