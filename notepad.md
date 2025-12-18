@@ -17,6 +17,12 @@
 4. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
 5. **Gym Prep:** Collect Bitter Berry (Route 31).
 
+## Exploration Queue (Route 30)
+- East Ledge: (12, 3-15)
+- West Grass: (1, 26-35)
+- Central Path: (9, 17-23)
+- North Area: (2-7, 25)
+
 ## Lessons Learned
 - CRITICAL HITS: Heal early to avoid faints.
 - BATTLE MENUS: Separate directional and action inputs.
