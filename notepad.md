@@ -56,10 +56,10 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Trying to access SE area (South of Row 34).
-    - **Obstacle:** Barrier at Row 34. Gap at (30, 34) requires East Side access.
-    - **Plan:** Go North to (31, 27) to find a crossing point into the East Strip.
-- **Current Action:** Navigate to (31, 27).
+    - **Status:** At (31, 27). Isolated in the SW pocket of the East Side.
+    - **Pathfinding:** Direct South access to SE corner is blocked. Must traverse via Far East Strip (Col 33).
+    - **Plan:** Backtrack North to (29, 6), cross to (33, 8), then head South down the Far East Strip.
+- **Current Action:** Navigate North to (29, 6).
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
