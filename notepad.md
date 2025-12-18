@@ -14,14 +14,15 @@
 
 ## Union Cave 1F Progress
 - Explored eastern passage. Found Great Ball at (17, 21).
-- Firebreather Bill (Trainer) at (14, 19) defeated.
+- Firebreather Bill (14, 19) defeated.
 - Found Potion at (4, 17).
-- Ladder spotted at (5, 19).
-- Super Nerd spotted at (4, 21).
+- Ladder at (5, 19) and Super Nerd at (4, 21) marked.
+- Hypothesis: FLOOR_UP_WALL tiles are ledges (One-way South).
 
 ## Lessons Learned
-- Menu Navigation: The main menu wraps around (8 items). Resetting with 8 presses is ineffective. Use 8 Downs to hit EXIT as a known anchor.
-- Battle Lead: Switching in battle updates overworld lead upon victory/escape. Verified in Turn #2337.
+- Menu Navigation: The main menu wraps around (8 items). Use 8 Downs to hit EXIT as a known anchor.
+- Battle Lead: Switching in battle updates overworld lead upon victory/escape.
+- Tile Mechanics: FLOOR_UP_WALL appears to be the collision type for ledges in this cave.
 
 ## Strategy: Reaching Azalea Town
 - Lead with Calcifer (Quilava) to handle cave encounters.
