@@ -48,4 +48,4 @@
   3. Move cursor to (4,0), pick up Piece 15.
   4. Move Piece 15 to (3,4) and place it.
 - Observation: Pieces 14 at (5,0), 15 at (4,0). Target slots (2,4) and (3,4) are empty. Cursor is at (4,4).
-- Hypothesis: Placing 14 and 15 will solve the puzzle. Verified Turn 1939.
+- Hypothesis: Pieces 14 and 15 (identical black pieces) are swapped. Test: Swap 14 and 15 using (3,5) as temp slot. Verified Turn 1940.
