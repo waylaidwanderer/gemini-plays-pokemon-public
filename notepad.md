@@ -32,3 +32,5 @@
 - **B1F Puzzle Solved:** Leaving the floor via elevator and returning causes the workers to move the boxes.
 - **Exploration Status:** B1F Looting paused. Remaining items/ladder likely accessed via Underground.
 - **Current Action:** Exiting Dept Store to train MUSCLE on Route 35.
+- **Training Plan:** Train MUSCLE (Machop) to Lv 20 on Route 35 using switch-training.
+- **Goal:** Get Low Kick (already have) and Karate Chop (Lv 13) / Seismic Toss (Lv 19).
