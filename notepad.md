@@ -3,12 +3,11 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Enter Dept Store.
-    2. Go to 5F.
-    3. Trade Lucid (Drowzee) for Machop (Muscle).
-    4. Consider buying TMs (if useful).
-    5. Train team for Whitney (Machop, Heracross, Onix, Pinsir).
-- **Learned:** Happiness Rater (Quilava "quite cute"), Dept Store layout.
+    1. Get Coin Case (Goldenrod Underground).
+    2. Obtain Abra (Buy at Game Corner or Catch on Route 34/35).
+    3. Trade Abra for Machop (Dept Store 5F).
+    4. Train team for Whitney (Machop, Heracross, Onix, Pinsir).
+- **Learned:** Trade on 5F is **Abra** for Machop (Crystal Version), not Drowzee.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Verified.
