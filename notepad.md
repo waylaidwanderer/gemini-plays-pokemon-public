@@ -58,6 +58,7 @@
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
 - Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 4) in house at (21, 29) (Traded Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info).
+- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at the top; Sage at (3, 5) is a Trainer; Sage at (7, 7) is a moving NPC.
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
@@ -74,19 +75,13 @@
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
 - Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
 - Training: Sprout Tower is a good place to train Calcifer to Lv12 for Ember (Cyndaquil learns Ember at Lv12 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
+- Navigation: WARP_CARPET_DOWN at (9, 15) and (10, 15) leads to Violet City (23, 5).
+- Objects: STATUE and SPROUT_TOWER_STATUE are impassable.
 ## Timestamps
 - Started Academy visit Turn 1167.
 - Met Earl (Spinning Master) Turn 1210.
 - Entered Sprout Tower Turn 1213.
-- SproutTower1F: WARP_CARPET_DOWN at (9, 15) and (10, 15) leads to Violet City (23, 5).
-- STATUE: Impassable background object. Verified in Sprout Tower 1F.
-- GRANNY: NPC found in Sprout Tower.
-- SPROUT_TOWER_STATUE: Impassable object. Verified.
-- Sage at (7, 4) confirmed HM is at the top of Sprout Tower.
-- Sage at (3, 5) is a Trainer (unreachable from current section of 1F).
-- Sage at (7, 7) is a moving NPC.
 ## Sprout Tower Exploration
-- Exploration started Turn 1213.
 - Sprout Tower 2F entered Turn 1240.
 - The central pillar is a giant Bellsprout, causing the tower to shake.
 - HM Flash is at the top of the tower.
