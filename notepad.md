@@ -7,6 +7,16 @@
 - LEDGE_HOP_DOWN: One-way jump South. Impassable from the South. Verified on Route 29 (50, 10), Route 30 (7, 17), and Route 31 (6, 9).
 - LEDGE_HOP_RIGHT: One-way jump East. Impassable from the East. Verified on Route 31 (13, 6).
 - LEDGE_HOP_LEFT: One-way jump West. Impassable from the West. Predicted; not yet verified.
+- COUNTER: Impassable. Face to interact with NPC behind. Verified.
+- HEADBUTT_TREE: Impassable. Verified on Route 31.
+- CUT_TREE: Impassable. Verified on Route 30.
+- WARP_CARPET_DOWN: Exit map South. Verified.
+- WARP_CARPET_LEFT: Exit map West. Verified on Route 31 (4, 6).
+- LADDER / DOOR / CAVE: Triggers warp. Verified.
+- PC: Face to use. Verified.
+- WATER: Impassable without HM. Verified in Dark Cave.
+- FLOOR_UP_WALL: Collision type for walls that look like they are "above" the floor. Impassable.
+- ROCK: Impassable object. Verified in Dark Cave.
 - INCENSE_BURNER: Impassable decorative object. Verified in VioletKylesHouse.
 - BOOKSHELF: Impassable object; can be interacted with to read titles. Verified in VioletKylesHouse.
 - RADIO: Impassable object; can be interacted with to listen to broadcasts. Verified in VioletKylesHouse.
