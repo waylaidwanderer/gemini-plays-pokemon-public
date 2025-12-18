@@ -2,11 +2,11 @@
 
 ## Current Strategy
 - **Plan:** 
-    1. Spam Headbutt on the trees at (24, 11), (25, 11), and (27, 11) in Azalea Town (Mountain Group).
-    2. Run from non-Heracross encounters (Spearow/Aipom).
-    3. Catch Heracross when it appears.
-    4. Train Rocky and Heracross.
-    5. Head North to Goldenrod City to challenge Whitney.
+    1. Withdraw AZURITE (Heracross) from PC (Deposit Tyrogue Egg).
+    2. Heal Party.
+    3. Head North to Goldenrod City.
+    4. Train AZURITE and ROCKY to ~Lv 18-20 on the way.
+    5. Challenge Whitney.
 - **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky.
 - **Party:**
     - **ROCKY (Onix)** Lv12
