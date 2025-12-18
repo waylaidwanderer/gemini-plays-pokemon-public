@@ -41,8 +41,3 @@
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
-- Kurt's House: (9, 5) in Azalea Town.
-- Slowpoke Well: Entrance at (31, 7) in Azalea Town.
-- Charcoal Kiln: (21, 13) in Azalea Town.
-- Poké Mart: (21, 5) in Azalea Town.
-- Pokémon Center: (15, 9) in Azalea Town.
