@@ -15,6 +15,7 @@
 
 ## Training Strategy: Route 31
 - **Method:** "Lead and Switch". Lead with trainee (Gneiss), switch to Calcifer (Quilava) on turn 1 to share EXP.
+- **Start Turn:** 1740 (Timestamp: 2025-12-18).
 - **Check-in Interval:** Every 50 turns (Next check: Turn 1800).
 - **EXP Tracking (Targeting Rock Throw):**
   - Gneiss (Geodude, Medium Slow): Lv10 (596 EXP). Goal: Lv11 (742 EXP). Remaining: 146 EXP.
