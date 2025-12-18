@@ -21,3 +21,6 @@
 - Gneiss is out of Rock Throw PP.
 - Calcifer is the primary attacker for cave encounters.
 - Rocky (Onix) is a backup tank.
+- Marked Item Ball at (17, 21) with object_id 6.
+- Attempting party swap (Slot 1 <-> Slot 5) to lead with Calcifer.
+- Pathing to (17, 21) next to pick up item.
