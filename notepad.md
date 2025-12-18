@@ -18,7 +18,7 @@
 - **Start Turn:** 1740 (Timestamp: 2025-12-18).
 - **Check-in Interval:** Every 50 turns (Next check: Turn 1800).
 - **EXP Tracking (Targeting Rock Throw):**
-  - Gneiss (Geodude, Medium Slow): Lv10 (596 EXP). Goal: Lv11 (742 EXP). Remaining: 146 EXP.
+  - Gneiss (Geodude, Medium Slow): Lv10 (626 EXP). Goal: Lv11 (742 EXP). Remaining: 116 EXP.
   - Rocky (Onix, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold for efficiency.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
