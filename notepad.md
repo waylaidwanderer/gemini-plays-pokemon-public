@@ -56,11 +56,18 @@
 - **Navigation Safety:** Always verify "Current Screen Text" is empty before moving.
 - **Battle State:** Do not attempt overworld movement while in battle or during transitions.
 - **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Falkner's Flying-types.
+## Tile Mechanics
+- FLOOR: Traversable. Standard ground. Verified Turn 1891.
+- WALL: Impassable. Verified Turn 1891.
+- COUNTER: Impassable. Stand in front to talk to NPCs behind. Verified Turn 1891.
+- WARP_CARPET: Map transition at edges. Verified Turn 1891.
+
 ## Strategy: Azalea Town
-1. **Mystery Egg:** Received Togepi from Aide.
-2. **Route 32:** Exit Violet City to the south (14, 35).
-3. **Azalea Town:** Follow Route 32 south, pass through Union Cave to reach Azalea Town.
-4. **HMs:** Use FLASH in Dark Cave if level grinding is needed or for shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
+- **Azalea Town:** Follow Route 32 south, pass through Union Cave to reach Azalea Town.
+- **HMs:** Use FLASH in Dark Cave if level grinding is needed or for shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
+
+## Exploration Log
+- **Ruins of Alph Detour:** Started Turn 1888. Exploring via Route 32 gatehouse. Currently in Route32RuinsOfAlphGate.
 
 ## Reflection Turn 1869
 - **Immediate Execution:** No deferred tasks. Falkner defeated, badge obtained.
