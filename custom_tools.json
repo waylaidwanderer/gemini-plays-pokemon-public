@@ -11,6 +11,31 @@
       }
     ]
   },
+  "press_sequence": {
+    "description": "Presses a defined sequence of buttons. Useful for text input and complex menu navigation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "history": [
+      {
+        "commit_message": "Add generic button sequence tool for text input and menus.",
+        "timestamp": "2025-12-18T01:57:06.714Z",
+        "action_counter": 4184
+      }
+    ]
+  },
   "smart_battle_move": {
     "description": "Selects 'FIGHT' and then navigates to the target move slot, accounting for the cursor's current position. Use this instead of execute_battle_move when the cursor is not at the top.",
     "input_schema": {
@@ -88,31 +113,6 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-16T02:40:55.788Z",
         "action_counter": 602
-      }
-    ]
-  },
-  "press_sequence": {
-    "description": "Presses a defined sequence of buttons. Useful for text input and complex menu navigation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
-    "history": [
-      {
-        "commit_message": "Add generic button sequence tool for text input and menus.",
-        "timestamp": "2025-12-18T01:57:06.714Z",
-        "action_counter": 4184
       }
     ]
   }

@@ -54,9 +54,9 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Last Battle:** Defeated Drowzee. Rocky (130 XP), Azurite (87 XP).
-- **Current State:** Hunting on Route 34. Rocky Lead. Azurite HP 29/37.
-- **Strategy:** Switch Training (Rocky -> Azurite).
-- **Target:** Lv 12-13 for Azurite.
+- **Battle Note:** Fighting Wild Rattata (Lv 11).
+- **Goal:** Train Azurite (Switch Training).
+- **Status:** Rocky (Awake), Azurite (29/37 HP).
+- **Action:** Switching Rocky -> Azurite.
 - **Then:** Train Azurite (Switch Training).
 - **Then:** Challenge Whitney (Goldenrod Gym).
