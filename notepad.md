@@ -54,8 +54,8 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Training Log:** Rattata defeated. Azurite +44 EXP, Rocky +66 EXP.
-- **Strategy:** Switch Training (Azurite Lead -> Switch to Rocky).
-- **Goal:** Train Azurite (Switch Training).
-- **Status:** Azurite (Lv 10, Full HP), Rocky (Lv 12, 25/32 HP).
-- **Plan:** Continue South to Item Ball, finding encounters along the way.
+- **Battle Note:** Fighting Wild Rattata (Turn 4437).
+- **Strategy:** Switch to Rocky -> Weaken -> Catch.
+- **Goal:** Catch Rattata (New Pokedex Entry).
+- **Status:** Azurite (Lv 10), Rocky (Lv 12, 25/32 HP).
+- **Plan:** Switch to Rocky, use Tackle to weaken, then throw Poké Ball.
