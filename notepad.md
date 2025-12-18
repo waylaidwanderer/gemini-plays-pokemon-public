@@ -40,5 +40,4 @@
 ## Grinding Session Log
 - **Start Turn:** 4576
 - **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
-- **Status:** Azurite Lv 12, Rocky Lv 13 (In Battle vs Hoothoot Lv 12).
-- **Battle Note:** Cursor likely on Slot 4 (Headbutt).
+- **Status:** Azurite Lv 12, Rocky Lv 13.
