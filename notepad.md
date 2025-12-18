@@ -44,3 +44,4 @@
 ## Cherrygrove Pokecenter 1F (26_5)
 - NPCs: Nurse (Counter at Row 2), Teacher (1, 6), Fisher (2, 3), Gentleman (8, 6).
 - Waypoint: Face counter at (3, 3) or (4, 3) to heal.
+- GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
