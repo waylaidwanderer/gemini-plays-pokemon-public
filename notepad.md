@@ -43,6 +43,7 @@
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
 - Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
+- Bug Catcher Benny: Weedle (Lv7) - Battling at (5, 3).
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
