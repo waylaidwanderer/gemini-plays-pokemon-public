@@ -47,3 +47,4 @@
     - East Side (Snake Path) is a dead end.
     - Phone Call (Wade): Caterpie hard to handle.
     - West Corridor (Column 0/1): Accessible only from Row 10. Contains Dig TM at south end.
+    - NW Pocket (Rows 4-10, Cols 2-5): Isolated. Must enter/exit via Northern Perimeter at (10, 2).
