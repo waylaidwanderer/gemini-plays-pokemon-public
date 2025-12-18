@@ -31,3 +31,9 @@
 - EXPLORATION: Use list_unseen_reachable_v2 for new paths.
 - STRATEGY: Rock-types are essential for early Flying gyms.
 - INTERACTION: Face NPCs behind counters/tables.
+
+## NPC Archive
+- New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
+- Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
+- Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
+- Route 30: YOUNGSTER (7, 30), YOUNGSTER (5, 26).
