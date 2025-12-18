@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Heal & Train:** Use Super Potion (Manually navigating: Up to Super Potion -> Use), then grind to Lv 20.
+    1. **Heal & Train:** Back out to Overworld, enter Pack (Start -> Down -> A), use Super Potion, then grind to Lv 20.
        - *Status:* Lv 17 (Target: Lv 20).
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
