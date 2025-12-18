@@ -51,3 +51,9 @@
 - Buildings are often larger than they appear.
 - Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
 - Turn Tracking: Always use the turn number provided in the Game State.
+## Immediate Strategy (Turn 527)
+1. Visit Cherrygrove Mart (23, 3) to buy 4 Potions (Total: 5).
+2. Explore house at (31, 11).
+3. Transition to Route 30 via (16, 0).
+4. Training: Route 30/31 until Icarus Lv9 and Calcifer Lv12.
+5. Catch Geodude in Dark Cave.
