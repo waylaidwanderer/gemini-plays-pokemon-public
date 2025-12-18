@@ -59,8 +59,8 @@
     3. Repeat until Heracross is found.
 - **Anti-Hallucination Strategy:** When farming a single spot (like Headbutt trees), the system may flag "stuck" or "looping" if staying on one tile too long. **Solution:** Rotate between adjacent valid tiles (e.g., trees at 24, 25, 27) every few attempts to break the positional loop, even if it's less efficient.
 - **Anti-Hallucination Success:** The rotation strategy (moving between trees at 24, 25, 27) has successfully prevented the "looping/stuck" system warnings. Continue this pattern.
-- **Grind Log (Turn 4057):**
-  - Session Duration: ~250 turns.
-  - Encounters: Spearow (Common), Aipom (Rare), Ekans (Common).
-  - Target: Heracross (Very Rare?).
-  - Status: Continuing rotation strategy to avoid loop detection. Hypothesis: Aipom presence confirms correct tree group.
+- **Grind Log (Turn 4108):**
+  - Session Duration: ~300+ turns.
+  - Encounters: Spearow (Very Common), Aipom (Common), Ekans (Common).
+  - Target: Heracross (Not seen yet).
+  - Status: Still grinding. Aipom confirms Mountain Group. RNG is testing patience. Will re-evaluate at Turn 4200.
