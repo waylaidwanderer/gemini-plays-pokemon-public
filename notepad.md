@@ -70,6 +70,11 @@
 - **Gneiss (Geodude):** Primary for bird trainers, but needs healing.
 - **Calcifer (Quilava):** Lead for safety and efficiency against grass types.
 
+## NPC Archive - Route 32
+- Fisher (15, 13): Discovered.
+- Cooltrainer M (19, 8): Blocking path (Badge Req).
+- Fisher (19, 14): Discovered.
+
 ## Lessons Learned
 - **Tile Mechanics:** `FLOOR_UP_WALL` and `MART_SHELF` are impassable obstacles that must be accounted for in pathfinding.
 - **Menu Navigation:** When purchasing items, "Up" increases quantity and "Down" decreases it. Rolling over from 1 using "Down" can reach the maximum affordable quantity.
