@@ -52,3 +52,4 @@
 - **New Pokémon:** Pinsir (Lv 14 Male) sent to PC. Needs nickname: HEMATITE.
 - **Prize:** Everstone (Prevents evolution).
 - **Plan:** Head to Route 36, then return to Goldenrod to fight Whitney. Need Squirtbottle (after Whitney) to clear Sudowoodo.
+- **Berry:** Ice Berry found at (21, 4) on Route 36.
