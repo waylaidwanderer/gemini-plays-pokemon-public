@@ -65,6 +65,7 @@
 - **Training Logs:**
     - Turn 687: Icarus (Pidgey) reached Lv4.
     - Turn 691: Training grind started. Current Levels: Icarus Lv4, Calcifer Lv7.
+    - Turn 692: Icarus vs Wild Poliwag Lv4. Icarus at 13/18 HP.
 - **Exploration Targets:**
     - Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after training.
 
