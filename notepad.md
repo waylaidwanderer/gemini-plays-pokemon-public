@@ -18,6 +18,8 @@
 - **FLOOR:** Traversable.
 - **WALL:** Impassable.
 - **COUNTER:** Interact from adjacent tile.
+- **TALL_GRASS:** Traversable, wild encounters.
+- **WATER:** Impassable without Surf.
 
 ## Important Locations
 - **Game Corner:** (14, 21) Goldenrod.
@@ -31,6 +33,6 @@
 - **Game Corner Data:** 50 Coins = 1000 Yen. TMs are 5500. Abra=100, Cubone=800, Wobbuffet=1500.
 - **B1F Puzzle Solved:** Leaving the floor via elevator and returning causes the workers to move the boxes.
 - **Exploration Status:** B1F Looting paused. Remaining items/ladder likely accessed via Underground.
-- **Current Action:** Exiting Dept Store to train MUSCLE on Route 35.
+- **Current Action:** Switch training MUSCLE on Route 35.
 - **Training Plan:** Train MUSCLE (Machop) to Lv 20 on Route 35 using switch-training.
 - **Goal:** Get Low Kick (already have) and Karate Chop (Lv 13) / Seismic Toss (Lv 19).
