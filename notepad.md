@@ -25,3 +25,5 @@
 - Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41. Needs healing.
 - Calcifer (Quilava): Lv16. Primary attacker.
 - Rocky (Onix): Backup tank.
+## Trainer Rosters
+- Super Nerd Eric (4, 21): [In Battle]
