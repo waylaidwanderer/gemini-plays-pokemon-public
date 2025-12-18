@@ -76,3 +76,4 @@
 - Turn 377: ICARUS moved to lead position. Exiting menus.
 - Turn 380: Wild encounter on Route 29. Lv2 Pidgey.
 - Turn 387: ICARUS (Lv2) at 7/13 HP. Fighting wild Pidgey.
+- Turn 388: ICARUS at 4/13 HP. Decided to switch to Calcifer to avoid fainting.
