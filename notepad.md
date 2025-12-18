@@ -16,7 +16,7 @@
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
   - Calcifer (Quilava): Lv14. Primary powerhouse.
-  - ROCKY (Onix): Lv5. Counter for Falkner.
+  - ROCKY (Onix): Lv5. Counter for Falkner. Traded Pokemon; obedience depends on Badges.
   - GNEISS (Geodude): Lv4. Counter for Falkner.
 - **Plan:**
   1. Complete Sprout Tower (Obtain HM05 Flash). ✅
@@ -26,25 +26,19 @@
 
 ## Pokemon Growth Mechanics
 - **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil/Quilava) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
+- **Obedience:** Traded Pokémon or high-level Pokémon may not obey without the appropriate Gym Badges. Verified (NPC info).
 
 ## Defeated Trainers
 - Route 30: Bug Catcher Don.
 - Route 31: Bug Catcher Wade.
-- Sprout Tower:
-  - Sage Chow (1F).
-  - Sage Nico (2F).
-  - Sage Edmond (2F).
-  - Sage Jin (3F).
-  - Sage Neal (3F).
-  - Sage Troy (3F).
-  - Sage Li (Elder) (3F).
+- Sprout Tower: Sage Chow (1F), Sage Nico (2F), Sage Edmond (2F), Sage Jin (3F), Sage Neal (3F), Sage Troy (3F), Sage Li (Elder) (3F).
 
 ## NPC Archive (Active/Relevant)
 - New Bark: ELM, OFFICER, MOM.
 - Route 30/31: MR. POKEMON, OAK.
 - Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14).
 - Sprout Tower: Sage at (7, 4) (HM info).
-- Violet Pokecenter: Nurse Joy (3, 1), Gentleman (1, 4), Gameboy Kid (7, 6), Youngster (8, 1).
+- Violet Pokecenter: Nurse Joy (3, 1), Gentleman (1, 4), Gameboy Kid (7, 6), Youngster (8, 1) (Obedience info).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
@@ -63,4 +57,3 @@
 - Received HM05 FLASH Turn 1422.
 - Sprout Tower Complete Turn 1434.
 - Team Healed at Violet Pokecenter Turn 1442.
-- Items Found: Potion (Tower 3F), Escape Rope (Tower 3F).
