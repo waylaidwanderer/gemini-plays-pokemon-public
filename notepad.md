@@ -18,6 +18,10 @@
 - Found Great Ball (17, 21) and Potion (4, 17).
 - Marked: Ladder (5, 19), Super Nerd (4, 21).
 
+## History
+- Swapped Calcifer to lead slot (Turn #2335).
+- Tested (5, 18): Confirmed as Wall, not Ledge.
+
 ## Lessons Learned
 - Menu Navigation: Main menu wraps (8 items). Use 8 Downs to hit EXIT as anchor.
 - Battle Lead: Switching in battle updates overworld lead.
