@@ -49,3 +49,9 @@
 - Goal: Enter Mr. Pokémon's house at the north end.
 - Mr. Pokémon's House: Entrance at (17, 5) on Route 30.
 - Sign at (15, 5): "Mr. Pokémon's House".
+## Mr. Pokémon's House (26_10)
+- Reached at Turn 217.
+- NPCs:
+    - MR. POKÉMON (ID 1): (3, 5).
+    - PROF. OAK (ID 2): (6, 5).
+- Status: Talking to Mr. Pokémon.
