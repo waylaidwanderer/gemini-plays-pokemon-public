@@ -122,33 +122,5 @@
         "action_counter": 2112
       }
     ]
-  },
-  "party_swap_v4": {
-    "description": "Swaps two Pokemon in the party. Assumes the overworld and closed menu. Parameters: slot_a (1-indexed), slot_b (1-indexed).",
-    "input_schema": {
-      "properties": {
-        "slot_a": {
-          "description": "1-indexed slot of the first Pokemon",
-          "type": "integer"
-        },
-        "slot_b": {
-          "description": "1-indexed slot of the second Pokemon",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "slot_a",
-        "slot_b"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\ndef get_swap_btns(a, b):\n    # Reset menu cursor to top (POKEDEX)\n    btns = [\"Start\", \"sleep 500\"]\n    for _ in range(8): btns.append(\"Up\")\n    # Select POKEMON (2nd)\n    btns.extend([\"Down\", \"A\", \"sleep 500\"])\n    # Cursor starts on 1. Move to slot_a.\n    for _ in range(a - 1): btns.append(\"Down\")\n    btns.append(\"A\")\n    # Submenu: STATS, SWITCH, MOVE, ITEM, CANCEL. SWITCH is 2nd.\n    btns.extend([\"sleep 300\", \"Down\", \"A\", \"sleep 300\"])\n    # Move to slot_b from slot_a\n    diff = b - a\n    if diff > 0:\n        for _ in range(diff): btns.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)): btns.append(\"Up\")\n    btns.append(\"A\")\n    # Close\n    btns.extend([\"sleep 500\", \"B\", \"B\", \"B\"])\n    return btns\n\n# input_data is a global dict\na = int(input_data.get('slot_a', 1))\nb = int(input_data.get('slot_b', 5))\nprint(json.dumps(get_swap_btns(a, b)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T19:42:25.151Z",
-        "action_counter": 2320
-      }
-    ]
   }
 }
