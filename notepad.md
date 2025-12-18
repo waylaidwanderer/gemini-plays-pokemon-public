@@ -46,4 +46,4 @@
 ## Battle vs Juggler Irwin
 - **Opponent:** Voltorb #2 (Lv 6).
 - **Strategy:** Lucid (Drowzee) Pound.
-- **Status:** Lucid (17/39 HP), Rocky (Burned), Garnet (58/68 HP).
+- **Status:** Lucid (14/39 HP), Rocky (Burned), Garnet (58/68 HP).
