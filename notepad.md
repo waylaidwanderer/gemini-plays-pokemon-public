@@ -37,3 +37,7 @@
 ## Important Locations
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
+## Grinding Session Log
+- **Start Turn:** 4576
+- **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
+- **Status:** Azurite Lv 11 (Sleep), Rocky Lv 13
