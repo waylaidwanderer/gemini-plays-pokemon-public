@@ -20,7 +20,7 @@
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
-  1. Caught Kudzu (Bellsprout) on Route 31 (8, 11). Ready to trade with KYLE in Violet City for ONIX.
+  1. Traded Kudzu (Bellsprout) for Rocky (Onix) with KYLE in Violet City. Ready to train for Gym.
   2. Train Calcifer to Lv10 (Ember).
   3. Use Ember to sweep Sprout Tower (Flash HM).
   4. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
