@@ -29,9 +29,7 @@
 - YOUNGSTER (ID 1): (5, 26).
 
 ## Verification List
-- Route 29 (24_3): Verify Fisher location (marked at (25, 3) which is a wall).
 - Route 29 (24_3): Verify Cut Tree at (21, 11).
-- Cherrygrove (26_3): Tree at (30, 9) confirmed as decorative wall.
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
@@ -42,3 +40,8 @@
 - Ledges: Strictly one-way. Jumping simulates moving two tiles.
 - Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
 - Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
+
+## Strategy for Return Trip
+- Waypoint: (13, 40) to bypass the small pond on Route 30.
+- Destination: New Bark Town via Cherrygrove City.
+- Note: Prepare for a potential rival encounter near Cherrygrove.
