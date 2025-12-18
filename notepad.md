@@ -50,10 +50,8 @@
 ## Area Mechanics: Sprout Tower
 - HM Flash: Received from Sage Li. Requires Zephyr Badge to use.
 
-## Timestamps & Major Milestones
+## Major Milestones
 - Started Academy Turn 1167.
-- Entered Sprout Tower Turn 1213.
+- Sprout Tower Complete (HM05 FLASH obtained) Turn 1434.
 - Calcifer evolved into QUILAVA Turn 1421.
-- Received HM05 FLASH Turn 1422.
-- Sprout Tower Complete Turn 1434.
 - Team Healed at Violet Pokecenter Turn 1442.
