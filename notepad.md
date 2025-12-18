@@ -24,7 +24,7 @@
   - Youngster Joey (2, 28) - Defeated.
   - Youngster Mikey (5, 23) - Defeated.
   - Cooltrainer F (2, 13) - Talked (Non-trainer).
-  - Bug Catcher Don (1, 9) - Battling (1/2 Caterpie defeated).
+  - Bug Catcher Don (1, 9) - Defeated.
 - **Navigation:**
   - North path via x=2,3 blocked by ledges at y=11.
   - North path via x=5 blocked by ledges at y=17/25.
