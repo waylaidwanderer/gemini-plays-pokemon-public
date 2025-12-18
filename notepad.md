@@ -44,14 +44,17 @@
 - Waypoint: Face counter at (3, 3) or (4, 3) to heal.
 - GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
 - TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
-- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name confirmed as "MALICE". (Turn 315)
-## ElmsLab (24_5) Update
-- OFFICER (ID 6): (5, 3). Investigating a crime.
-- POKE_BALL (ID 5): (8, 3). On the table.
-- Event: Red-haired boy stole a Pokemon from the lab. (Turn 298)
-- Event: Named Rival "MALICE". Officer left the lab. (Turn 317)
-- Event: Delivered Mystery Egg to Prof. Elm. Elm suggested Gym Challenge (Violet City first). (Turn 319)
-- Instruction: Talk to Mom before leaving.
-- Objective: Get Poké Balls from the Aide.
-- Event: Received POKé BALL x5 from the Aide. (Turn 324)
-- Current Task: Exit the lab and visit Mom in New Bark Town.
+
+## Strategy: Johto Gym Challenge
+- Goal: Defeat Gym Leader Falkner in Violet City.
+- HOW: 
+  1. Exit New Bark Town West to Route 29.
+  2. Capture first team members (Pidgey/Rattata/etc.) using POKé BALLS.
+  3. Pass through Cherrygrove City to Route 30.
+  4. Navigate North through Route 30 and Route 31 to Violet City.
+  5. Train Calcifer and new team members to ~Lv10 before the Gym.
+
+## Progress Log
+- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Rival's name confirmed as "MALICE". (Turn 315)
+- EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5 from Aide. Elm suggested Gym Challenge. (Turn 324)
+- EVENT: Talking to Mom in New Bark Town to set up money saving and phone. (Turn 331)
