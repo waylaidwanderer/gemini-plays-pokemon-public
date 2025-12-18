@@ -17,10 +17,11 @@
 ## Current Strategy & Goals
 ### Primary Goal: Defeat Gym Leader Falkner (Violet City)
 - **Strategy:**
-    1. **Training (Active):** Get Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv13.
-    2. **Recruitment:** Catch a Geodude in Dark Cave (Route 31).
-    3. **Sprout Tower:** Use Ember (Lv12) to sweep; obtain HM05 (Flash).
-    4. **Gym Prep:** Collect Bitter Berry (Route 31).
+    1. **Recruitment (Priority):** Catch a Geodude in Dark Cave (Route 31) for Rock-type advantage.
+    2. **Logistics:** Reach Violet City and utilize the Pokémon Center.
+    3. **Training:** Get Calcifer to Lv10 (for Ember) and Icarus to Lv9.
+    4. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
+    5. **Gym Prep:** Collect Bitter Berry (Route 31).
 
 ## Exploration Queue
 - Route 30 East Ledge: (12, 3-15)
