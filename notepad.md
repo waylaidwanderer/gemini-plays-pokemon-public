@@ -44,7 +44,7 @@
 - **Preparation:**
     - Collect Bitter Berry (Route 31) for Sprout Tower Gastly.
     - Obtain HM05 (Flash) from Sage Li in Sprout Tower.
-    - Inventory: 5 Potions (Current), 4 Poké Balls (Target: 6+).
+    - Inventory: 5 Potions (Current), 6 Poké Balls (Target: 6+).
 
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
