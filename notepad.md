@@ -15,15 +15,15 @@
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
-  - Calcifer (Cyndaquil): Target Lv12 for Ember to handle Sprout Tower and potentially Falkner's Pidgey.
+  - Calcifer (Quilava): Lv14. Primary powerhouse.
   - ROCKY (Onix) & GNEISS (Geodude): Primary counters for Falkner's Flying-type Pokémon.
 - **Plan:**
-  1. Complete Sprout Tower to obtain HM05 Flash and train the team.
-  2. Ensure Rocky and Gneiss are healthy for the Gym battle.
-  3. Use Rock-types to soak up Normal/Flying hits.
+  1. Complete Sprout Tower (Obtain HM05 Flash). ✅
+  2. Collect remaining items in Tower.
+  3. Defeat Gym Leader Falkner.
 
 ## Pokemon Growth Mechanics
-- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
+- **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil/Quilava) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
 
 ## Defeated Trainers
 - Route 30: Bug Catcher Don.
@@ -32,34 +32,35 @@
   - Sage Chow (1F).
   - Sage Nico (2F).
   - Sage Edmond (2F).
-  - Sage Jin (ID 1) at (8, 13).
-  - Sage Neal (ID 4) at (11, 11).
-  - Sage Troy (ID 2) at (8, 9).
+  - Sage Jin (3F) at (8, 13).
+  - Sage Neal (3F) at (11, 11).
+  - Sage Troy (3F) at (8, 9).
+  - Sage Li (Elder) (3F) at (10, 2).
 
 ## NPC Archive (Active/Relevant)
 - New Bark: ELM, OFFICER, MOM.
 - Route 30/31: MR. POKEMON, OAK.
 - Violet City: KYLE (Trade), Pokefan M, EARL (Spinning Master) at (25, 14).
-- Sprout Tower: Sage at (7, 4) (HM info), Sage Li (ID 3) (At top).
+- Sprout Tower: Sage at (7, 4) (HM info).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
 - **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
-- **Level Requirements:** Cyndaquil learns Ember at Lv12 in Crystal.
-- **Tool Hygiene:** Always provide full moveset data to `battle_strategist_v2`.
+- **Level Requirements:** Cyndaquil learns Ember at Lv12 and evolves into Quilava at Lv14 in Crystal.
+- **Tool Hygiene:** Always provide full moveset and move data to `battle_strategist_v2`.
 - **Scripted NPC Blockage:** During scripted events, NPCs can temporarily block paths. Wait for the event to conclude.
 
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal moves. Use Ember.
 - Central pillar: Giant Bellsprout.
-- HM Flash: At the top.
+- HM Flash: At the top. Received from Sage Li. Requires Zephyr Badge to use.
 
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1418):
-  - Defeated Sages Jin, Neal, and Troy.
-  - Battling Sage Li's Bellsprout (Lv ?) at (10, 2).
+- Sprout Tower 3F (Turn 1422):
+  - Defeated Elder Li.
+  - Calcifer evolved into QUILAVA at Lv14.
+  - Received HM05 FLASH.
   - Potion collected at (6, 14).
-  - Calcifer is Lv13.
-  - Calcifer needs 166 EXP for Lv14. Verified with tool.
+  - Item Ball (ID 6) at (14, 1) pending.
