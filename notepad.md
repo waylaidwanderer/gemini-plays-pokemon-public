@@ -51,6 +51,7 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Encountered Wild Jigglypuff (Lv 12).
-- **Goal:** Catch it.
-- **Current State:** Threw Poké Ball (Attempt 1). Waiting for result.
+- **Battle Note:** Caught Wild Jigglypuff (Lv 12). Nicknaming "DIVA". Sent to PC.
+- **Current Status:** Rocky (Asleep), Azurite (Low HP).
+- **Immediate Goal:** Return to Goldenrod Center to Heal & Reorder Party.
+- **Then:** Resume Training on Route 34.
