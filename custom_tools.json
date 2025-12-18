@@ -30,5 +30,20 @@
         "action_counter": 203
       }
     ]
+  },
+  "list_unseen_reachable": {
+    "description": "Identifies 'unseen' tiles that are adjacent to reachable, traversable tiles on the current map. This helps prioritize exploration targets.",
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef solve():\n    try:\n        if not map_xml_string:\n            print(\"[]\")\n            return\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    tiles = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tiles[(x, y)] = tile\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n    \n    if not player_pos:\n        print(\"[]\")\n        return\n\n    # BFS to find all reachable tiles\n    queue = collections.deque([player_pos])\n    visited = {player_pos}\n    reachable = set()\n    \n    impassable_types = [\"WALL\", \"HEADBUTT_TREE\", \"CUT_TREE\", \"WATER\", \"BOOKSHELF\", \"WINDOW\", \"TRASHCAN\", \"PC\", \"BOOKSHELVES\", \"VOID\"]\n    \n    while queue:\n        curr = queue.popleft()\n        reachable.add(curr)\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr[0] + dx, curr[1] + dy\n            if (nx, ny) in visited: continue\n            \n            tile = tiles.get((nx, ny))\n            if not tile or tile.attrib.get('seen') == 'false': continue\n            \n            tile_type = tile.attrib.get('type', '').strip().upper()\n            if tile_type in impassable_types or tile.attrib.get('has-object') == 'true':\n                continue\n            \n            visited.add((nx, ny))\n            queue.append((nx, ny))\n\n    # Find unseen tiles adjacent to reachable tiles\n    unseen_targets = set()\n    for rx, ry in reachable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = rx + dx, ry + dy\n            tile = tiles.get((nx, ny))\n            if tile and tile.attrib.get('seen') == 'false':\n                unseen_targets.add((nx, ny))\n                \n    print(json.dumps([{\"x\": x, \"y\": y} for x, y in sorted(list(unseen_targets))]))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version of list_unseen_reachable tool to identify potentially reachable unexplored areas.",
+        "timestamp": "2025-12-18T00:25:09.921Z",
+        "action_counter": 259
+      }
+    ]
   }
 }
