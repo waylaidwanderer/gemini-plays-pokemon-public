@@ -44,9 +44,9 @@
 - Poliwag: Bubble (Verified).
 - Weedle: Poison Sting (Verified).
 ### Team Status
-- Calcifer (CYNDAQUIL): Lv8 (13/25 HP).
-- ICARUS (PIDGEY): Lv10 (17/30 HP).
-- GNEISS (GEODUDE): Lv4 (0/18 HP, Fainted).
+- Calcifer (CYNDAQUIL): Lv8 (13/25 HP). Moves: Tackle (28/35), Leer (30/30), Smokescreen (20/20).
+- ICARUS (PIDGEY): Lv10 (17/30 HP). Moves: Tackle (1/35), Sand-Attack (15/15), Gust (30/30).
+- GNEISS (GEODUDE): Lv4 (0/18 HP, Fainted). Moves: Tackle (32/35).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
