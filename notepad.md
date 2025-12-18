@@ -12,7 +12,7 @@
 - CUT_TREE: Impassable. Requires CUT.
 - WARP_CARPET: Map transition at edges or building entrances.
 - LADDER / DOOR / CAVE: Instant warp upon entry.
-- PC / BOOKSHELF / RADIO / SIGN: Interactable from an adjacent tile (usually below for PC/Bookshelf).
+- PC / BOOKSHELF / RADIO / SIGN: Interactable from an adjacent tile.
 - WATER / ROCK / INCENSE_BURNER / MART_SHELF: Impassable.
 
 ## Gym Progress
@@ -41,6 +41,7 @@
 ## Lessons Learned
 - Ledge Mechanics: LEDGE_HOP_DOWN is one-way (South).
 - Marker Hygiene: Use ☠️ for defeated trainers; delete redundant 🚶 or 👤 markers.
+
 ## Battle Log: Hiker Russell
 - Start Turn: #2236.
 - Opponent: Geodude (Lv4).
