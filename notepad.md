@@ -70,6 +70,9 @@
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
 - **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a mistake.
 - Wade (BUG CATCHER): Route 31 (17, 13). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv3).
+- **Level Requirements:** Cyndaquil learns Ember at level 12 in Pokémon Crystal, not level 10. Always verify level-up moves against the specific game version.
+- **Battle Menus:** When the game asks "Will [Player] change POKEMON?", selecting NO is faster and more efficient if the current Pokémon has a type advantage.
+- **Tool Hygiene:** Custom tools like `battle_strategist_v2` are essential for efficient play. Always provide full moveset data (even if just move names) to ensure accurate reasoning.
 
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
@@ -77,6 +80,8 @@
 - Training: Sprout Tower is a good place to train Calcifer to Lv12 for Ember (Cyndaquil learns Ember at Lv12 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
 - Navigation: WARP_CARPET_DOWN at (9, 15) and (10, 15) leads to Violet City (23, 5).
 - Objects: STATUE and SPROUT_TOWER_STATUE are impassable.
+- The central pillar is a giant Bellsprout, causing the tower to shake.
+- HM Flash is at the top of the tower.
 
 ## Timestamps
 - Started Academy visit Turn 1167.
@@ -85,9 +90,3 @@
 
 ## Sprout Tower Exploration
 - Sprout Tower 2F entered Turn 1240.
-- The central pillar is a giant Bellsprout, causing the tower to shake.
-- HM Flash is at the top of the tower.
-## General Lessons Learned
-- **Level Requirements:** Cyndaquil learns Ember at level 12 in Pokémon Crystal, not level 10. Always verify level-up moves against the specific game version.
-- **Battle Menus:** When the game asks "Will [Player] change POKEMON?", selecting NO is faster and more efficient if the current Pokémon has a type advantage.
-- **Tool Hygiene:** Custom tools like `battle_strategist_v2` are essential for efficient play. Always provide full moveset data (even if just move names) to ensure accurate reasoning.
