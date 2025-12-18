@@ -12,27 +12,31 @@
 - PC: Face to use. Verified at Cherrygrove Pokecenter.
 
 ## Strategic Plan: Defeat Falkner (Violet City)
-1. **Navigate to Route 31:** Go North through Route 30.
-   - *Status:* Youngsters defeated. Path at x=2,3 seems to bypass ledges at y=17. Heading to (2, 14).
-2. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
-   - *Strategy:* Weaken with Icarus (Tackle), then use Poké Ball.
-3. **Recruit Bellsprout:** Catch on Route 31; trade in Violet City for ONIX.
-   - *Strategy:* Use Calcifer to weaken, then Poké Ball.
-4. **Logistics:** Reach Violet City; visit PC and heal.
-5. **Training:** Calcifer to Lv10 (Ember), Icarus to Lv9 (Gust).
-6. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
-7. **Gym Challenge:** Use Rock-types (Geodude/Onix) to counter Flying moves.
+- **HOW:** 
+  1. Catch Geodude in Dark Cave (Route 31) for Rock-type advantage.
+  2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
+  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv9 (Gust).
+  4. Use Ember to sweep Sprout Tower (Flash HM).
+  5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
+
+## Progress Tracking
+- **Route 30:**
+  - Youngster Joey (2, 28) - Defeated.
+  - Youngster Mikey (5, 23) - Defeated.
+  - Cooltrainer F (2, 13) - Non-trainer, talked.
+  - Bug Catcher Don (1, 9) - Battling.
+- **Navigation:**
+  - North path via x=2,3 blocked by ledges at y=11.
+  - North path via x=5 blocked by ledges at y=17/25.
+  - Currently testing path through grass at x=0,1 to bypass ledges.
 
 ## Battle and Pokemon Information
-### Trainer Rosters
-- Rival MALICE: Totodile Lv5 (Scratch, Leer)
-- Youngster Joey (Route 30, 2, 28): Rattata Lv4 (Tackle, Tail Whip)
-- Youngster Mikey (Route 30, 5, 23): Pidgey Lv2 (Tackle), Rattata Lv4 (Tackle, Tail Whip)
 ### Observed Movesets
 - Rattata: Tackle, Tail Whip
 - Pidgey: Tackle
 - Cyndaquil: Tackle, Leer, Smokescreen
-### Team Progress
+- Caterpie: String Shot (Hypothesis), Tackle (Hypothesis)
+### Team Status
 - Icarus (Pidgey): Lv8 (399 EXP), needs 330 XP for Lv9.
 - Calcifer (Cyndaquil): Lv8 (345 EXP), needs 74 XP for Lv9.
 ### Type Effectiveness (Verified)
@@ -40,27 +44,8 @@
 - Fire vs Normal: Neutral
 - Normal vs Fire: Neutral
 
-## Exploration Queue (Route 30)
-- East Ledge: (12, 3-15)
-- West Grass: (1, 26-35)
-- Central Path: (9, 17-23)
-- North Area: (2-7, 25)
-- **Failed Hypotheses:**
-  - North path via x=5 is blocked by ledges at y=17/25. (Attempts: 1)
-  - North path via x=2,3 is blocked by ledges at y=11. (Attempts: 1)
-
-## Timestamps
-- Turn 831: Started trek to Route 31/Violet City.
-
-## Lessons Learned
-- CRITICAL HITS: Heal early to avoid faints.
-- BATTLE MENUS: Separate directional and action inputs.
-- EXPLORATION: Use list_unseen_reachable_v2 for new paths.
-- STRATEGY: Rock-types are essential for early Flying gyms.
-- INTERACTION: Face NPCs behind counters/tables.
-
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - Mr. Pokémon: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-- Route 30: YOUNGSTER (8, 30) [Talked], YOUNGSTER (5, 26), YOUNGSTER (5, 23) [Defeated].
+- Route 30: YOUNGSTER (8, 30) [Talked], YOUNGSTER (5, 26).
