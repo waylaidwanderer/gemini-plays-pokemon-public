@@ -15,14 +15,9 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Task: Swap Calcifer to lead slot. (Started Turn #2291. Attempts: 11)
-- Discovery: Main menu wraps (8 presses return to same spot).
-- Reliable Menu Reset: 8 Downs (reaches EXIT), then move Up to target.
-- Target: POKEMON (Index 1) is 6 Ups from EXIT (Index 7).
-- Item at (17, 21): Standing by.
-
-## Lessons Learned
-- Menu Navigation: The main menu wraps around (POKEDEX <-> EXIT). Resetting with 8 Ups returns to the same position. Use 8 Downs to hit EXIT as a known anchor.
+- Task: Swap Calcifer to lead slot. (Started Turn #2291. Attempts: 12)
+- Discovery: Main menu wraps (8 items). Resetting with 8 presses is ineffective.
+- Current Cursor: PACK (Index 3). Move Up 1 for POKEMON.
 
 ## Strategy: Reaching Azalea Town
 1. Swap Calcifer (Quilava) to lead slot to preserve Gneiss's HP.
