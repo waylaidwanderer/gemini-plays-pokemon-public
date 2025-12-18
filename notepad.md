@@ -55,7 +55,7 @@
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Fighting Wild Hoothoot (Lv 12).
-- **Strategy:** Use Headbutt with Rocky (Attack -1 due to Growl).
+- **Strategy:** Use Headbutt with Rocky (Cursor on Slot 4).
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Rocky battling.
+- **Status:** Rocky battling (HP 29/32).
 - **Plan:** Defeat Hoothoot, then heal if needed or continue hunting.
