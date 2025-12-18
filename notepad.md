@@ -1,11 +1,5 @@
 # Johto Journey: Gem's Log
 
-## Strategic Plan: Return to Professor Elm
-1. Exit Mr. Pokémon's House.
-2. Travel south through Route 30 to Cherrygrove City.
-3. Travel east through Route 29 to New Bark Town.
-4. Deliver the Mystery Egg to Professor Elm.
-
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable ground.
 - WALL: Impassable barrier.
@@ -35,9 +29,9 @@
 - YOUNGSTER (ID 1): (5, 26).
 
 ## Verification List
-- Route 29 (24_3): Verify Fisher location near (25, 3).
+- Route 29 (24_3): Verify Fisher location (marked at (25, 3) which is a wall).
 - Route 29 (24_3): Verify Cut Tree at (21, 11).
-- Cherrygrove (26_3): Verify tree at (30, 9) (Cut Tree vs decorative).
+- Cherrygrove (26_3): Tree at (30, 9) confirmed as decorative wall.
 
 ## Lessons Learned
 - NPCs act as walls; plan paths around them.
@@ -47,5 +41,4 @@
 - Scripted Events: Treat character movement during dialogue as completed interaction.
 - Ledges: Strictly one-way. Jumping simulates moving two tiles.
 - Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
-- Turn 224: Received urgent call from PROF. ELM. "It's a disaster!" and requested immediate return to New Bark Town.
-- Strategy: Retrace steps south to Cherrygrove City, then east through Route 29.
+- Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
