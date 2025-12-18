@@ -48,3 +48,7 @@
 - Gramps at (20, 9): Reported Slowpoke tails are being sold and the Slowpoke have vanished.
 - Slowpoke Well: Team Rocket presence confirmed (selling tails).
 - Kurt's House: Likely in the northwest. Need to find and speak with him about the Slowpoke and the Gym blockage.
+## Slowpoke Well B1F
+- Kurt is at (16, 14). He looks like he might be hurt.
+- The well is infested with Team Rocket.
+- Tile: WATER (Impassable), LADDER (Warp).
