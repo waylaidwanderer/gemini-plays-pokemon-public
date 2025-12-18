@@ -54,10 +54,4 @@
 ## Training Tracker
 - Training Goal: Calcifer and Icarus to Lv10.
 - Started: Turn 421.
-## Training Plan
-1. Stand in tall grass (e.g., (8, 49)).
-2. Move back and forth (Left/Right) to trigger wild encounters.
-3. Lead with Icarus (Pidgey) to gain EXP.
-4. Switch to Calcifer if the opponent is too strong for Icarus.
-5. Train until both reach Lv10.
-6. Heal at Cherrygrove Pokémon Center as needed.
+- Current Status: Icarus Lv2 (5/13 HP), Calcifer Lv6 (12/21 HP).

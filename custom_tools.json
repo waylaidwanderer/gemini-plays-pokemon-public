@@ -31,47 +31,6 @@
       }
     ]
   },
-  "list_unseen_reachable": {
-    "description": "Identifies 'unseen' tiles that are adjacent to reachable, traversable tiles on the current map. This helps prioritize exploration targets.",
-    "input_schema": {
-      "properties": {},
-      "type": "object"
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef solve():\n    try:\n        if not map_xml_string:\n            print(\"[]\")\n            return\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    tiles = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tiles[(x, y)] = tile\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n    \n    if not player_pos:\n        print(\"[]\")\n        return\n\n    # BFS to find all reachable tiles\n    queue = collections.deque([player_pos])\n    visited = {player_pos}\n    reachable = set()\n    \n    impassable_types = [\"WALL\", \"HEADBUTT_TREE\", \"CUT_TREE\", \"WATER\", \"BOOKSHELF\", \"WINDOW\", \"TRASHCAN\", \"PC\", \"BOOKSHELVES\", \"VOID\"]\n    \n    while queue:\n        curr = queue.popleft()\n        reachable.add(curr)\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr[0] + dx, curr[1] + dy\n            if (nx, ny) in visited: continue\n            \n            tile = tiles.get((nx, ny))\n            if not tile or tile.attrib.get('seen') == 'false': continue\n            \n            tile_type = tile.attrib.get('type', '').strip().upper()\n            if tile_type in impassable_types or tile.attrib.get('has-object') == 'true':\n                continue\n            \n            visited.add((nx, ny))\n            queue.append((nx, ny))\n\n    # Find unseen tiles adjacent to reachable tiles\n    unseen_targets = set()\n    for rx, ry in reachable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = rx + dx, ry + dy\n            tile = tiles.get((nx, ny))\n            if tile and tile.attrib.get('seen') == 'false':\n                unseen_targets.add((nx, ny))\n                \n    print(json.dumps([{\"x\": x, \"y\": y} for x, y in sorted(list(unseen_targets))]))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version of list_unseen_reachable tool to identify potentially reachable unexplored areas.",
-        "timestamp": "2025-12-18T00:25:09.921Z",
-        "action_counter": 259
-      }
-    ]
-  },
-  "get_path_coords": {
-    "description": "Finds a path of coordinates from the player's current position to a target (x, y) on the current map using BFS. Returns a JSON array of coordinate objects.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef main():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    grid = {}\n    start = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            if tile.find('Player') is not None:\n                start = (x, y)\n            grid[(x, y)] = (t_type, has_obj)\n\n    if start is None:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(start, [start])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        \n        if (x, y) == (target_x, target_y):\n            formatted_path = [{\"x\": p[0], \"y\": p[1]} for p in path]\n            print(json.dumps(formatted_path))\n            return\n            \n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                t_type, has_obj = grid[(nx, ny)]\n                \n                # Traversal rules\n                if t_type in ['WALL', 'HEADBUTT_TREE', 'WATER', 'COUNTER', 'BOOKSHELF', 'WINDOW', 'TREE', 'HEDGE']:\n                    continue\n                if has_obj:\n                    continue\n                \n                # Ledge handling (Down)\n                if t_type == 'LEDGE_HOP_DOWN' and dy == 1:\n                    nnx, nny = nx, ny + 1\n                    if (nnx, nny) in grid:\n                        tt, ho = grid[(nnx, nny)]\n                        if tt in ['FLOOR', 'TALL_GRASS'] and not ho:\n                            if (nnx, nny) not in visited:\n                                visited.add((nnx, nny))\n                                queue.append(((nnx, nny), path + [(nx, ny), (nnx, nny)]))\n                    continue\n\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [(nx, ny)]))\n    print(json.dumps([]))\n\nmain()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T01:50:43.934Z",
-        "action_counter": 425
-      }
-    ]
-  },
   "list_unseen_reachable_v2": {
     "description": "Identifies 'unseen' tiles that are adjacent to reachable, traversable tiles on the current map. This helps prioritize exploration targets.",
     "input_schema": {},
