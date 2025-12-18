@@ -51,6 +51,7 @@
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
+- Violet City: LASS at (27, 28). Mentioned Sprout Tower ghosts and Normal move immunity.
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
@@ -66,11 +67,9 @@
 - Catching: Use Poké Ball.
 - Goal: Trade for ONIX in Violet City.
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
-- **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a critical hit.
+- **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a mistake.
 - Wade (BUG CATCHER): Route 31 (17, 13). Roster: Caterpie (Lv2), Caterpie (Lv2), Weedle (Lv3).
+
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
 - Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
-
-## NPC Archive Update
-- Violet City: LASS at (27, 28). Mentioned Sprout Tower ghosts and Normal move immunity.
