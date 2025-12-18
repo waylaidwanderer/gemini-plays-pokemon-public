@@ -58,9 +58,11 @@
 - **Navigation Strategy:** East Side Exploration.
     - **Status:** Exploring East perimeter.
     - **Plan:** Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
+- **Mechanics Correction:** Low Kick in Gen 2 is **50 BP Fixed** + 30% Flinch. It is **NOT** weight-dependent (that's Gen 3+).
+    - **Implication:** Low Kick is a viable alternative to Karate Chop, especially for the flinch chance.
 - **Battle Strategy:** Catching Wild Pidgey.
-    - **Status:** Low HP (Red).
-    - **Action:** Open Pack -> Use Poké Ball.
+    - **Status:** Low HP (Red) + Flinched (Free turn).
+    - **Action:** Switch to Ball Pocket -> Select Poké Ball.
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
