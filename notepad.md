@@ -24,9 +24,7 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: VioletKylesHouse
-- **Objectives:**
-  - Talk to Pokefan M and Youngster to identify the Onix trader. (Current Focus)
-  - Locate and catch Bellsprout on Route 31 (Start Turn: 959).
+- Status: Identifying NPCs for the Onix trade.
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
@@ -43,10 +41,6 @@
 - Bellsprout: Vine Whip (Verified).
 - Poliwag: Bubble (Verified).
 - Weedle: Poison Sting (Verified).
-### Team Status
-- GNEISS (GEODUDE): Lv4 (18/18 HP). Moves: Tackle (35/35).
-- ICARUS (PIDGEY): Lv10 (30/30 HP). Moves: Tackle (35/35), Sand-Attack (15/15), Gust (35/35).
-- Calcifer (CYNDAQUIL): Lv8 (25/25 HP). Moves: Tackle (35/35), Leer (30/30), Smokescreen (20/20).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
