@@ -45,3 +45,9 @@
 
 ## Important Locations
 - **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
+- **Ilex Forest Path:**
+  - Enter from South.
+  - Go North to Cut Tree at (8, 25).
+  - After Cut Tree, go North to (8, 24).
+  - Go West to the edge (Column 0-1).
+  - Go North along the West edge to the Exit Gate at (1, 5).
