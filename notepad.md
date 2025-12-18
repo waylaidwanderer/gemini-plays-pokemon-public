@@ -44,8 +44,8 @@
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Contest Prep
-- **Start Turn:** 4732 (Thursday).
-- **Current Task:** Heading North to National Park.
+- **Start Turn:** 4732 (Saturday).
+- **Current Task:** Join Bug-Catching Contest.
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
