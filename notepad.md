@@ -30,6 +30,5 @@
 - **Coin Case:** Obtained in Underground.
 - **Game Corner Data:** 50 Coins = 1000 Yen. TMs are 5500. Abra=100, Cubone=800, Wobbuffet=1500.
 - **B1F Puzzle Solved:** Leaving the floor via elevator and returning causes the workers to move the boxes.
-- **Current Action:** Looting B1F items.
-- **Looting:** Obtained Ultra Ball. Item Ball at (10, 15) and Ladder at (17, 2) are currently inaccessible (blocked by walls, likely accessed via Underground).
-- **Next:** Exit and Train.
+- **Exploration Status:** B1F Looting paused. Remaining items/ladder likely accessed via Underground.
+- **Current Action:** Exiting Dept Store to train MUSCLE on Route 35.
