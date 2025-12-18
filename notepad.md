@@ -47,7 +47,12 @@
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
 
 ## Training Tracker
-- Training Goal: Calcifer and Icarus to Lv10.
+- Training Goal: Calcifer and Icarus to Lv10-12.
 - Started: Turn 421.
-- Current Status: Icarus Lv2 (5/13 HP), Calcifer Lv7 (10/23 HP).
-- Strategy: Catch Geodude in Dark Cave (Route 31) to counter Falkner.
+- Current Status: Icarus Lv2, Calcifer Lv7.
+- Strategy:
+    - Catch Geodude in Dark Cave (Route 31) to counter Falkner.
+    - Scale Sprout Tower in Violet City for EXP and HM05 (Flash).
+    - Collect Bitter Berry on Route 31.
+    - Purchase 3-5 Potions for Gym battle.
+    - Switch-train Icarus to Lv7 on Route 30.
