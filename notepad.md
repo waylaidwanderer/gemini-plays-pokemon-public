@@ -19,8 +19,9 @@
   - ROCKY (Onix) & GNEISS (Geodude): Primary counters for Falkner's Flying-type Pokémon.
 - **Plan:**
   1. Complete Sprout Tower (Obtain HM05 Flash). ✅
-  2. Collect remaining items in Tower. (In progress)
-  3. Defeat Gym Leader Falkner.
+  2. Collect remaining items in Tower. ✅
+  3. Explore remaining unseen tiles on 3F.
+  4. Defeat Gym Leader Falkner.
 
 ## Pokemon Growth Mechanics
 - **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil/Quilava) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
@@ -58,9 +59,9 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1424):
-  - Defeated all Sages on 3F.
+- Sprout Tower 3F (Turn 1425):
+  - Defeated Elder Li.
   - Calcifer evolved into QUILAVA at Lv14.
   - Received HM05 FLASH from Sage Li.
   - Potion collected at (6, 14).
-  - Item at (14, 1) (Collecting now).
+  - Escape Rope collected at (14, 1).
