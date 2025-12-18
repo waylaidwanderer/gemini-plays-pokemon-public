@@ -41,7 +41,7 @@
 - Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
-- Bug Catcher Al: Battling at (8, 10).
+- Bug Catcher Al: Caterpie (Lv12) - Battling at (8, 10).
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
