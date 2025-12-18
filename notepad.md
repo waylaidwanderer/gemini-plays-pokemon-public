@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Heal & Train:** Confirm Use of Super Potion (A -> Use -> A -> Select Muscle -> A).
-       - *Context:* Super Potion selected.
-       - *Status:* Lv 17 (Target: Lv 20).
+    1. **Train to Lv 20:** Grind in National Park (Left Side).
+       - *Status:* Lv 17 (Target: Lv 20). HP: Full.
+       - *Method:* Wild Encounters (Muscle as Lead).
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
