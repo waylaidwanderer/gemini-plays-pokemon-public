@@ -54,4 +54,4 @@
 ## Training Tracker
 - Training Goal: Calcifer and Icarus to Lv10.
 - Started: Turn 421.
-- Current Status: Icarus Lv2 (5/13 HP), Calcifer Lv6 (12/21 HP).
+- Current Status: Icarus Lv2 (5/13 HP), Calcifer Lv7 (12/23 HP).
