@@ -50,9 +50,10 @@
 - Sage Li: Zephyr Badge required to use Flash outside battle.
 
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphOutside. Last Update: Turn 1907.
+- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphKabutoChamber. Last Update: Turn 1916.
 - **Officer Hint:** Ruins of Alph is a "Look-and-Touch Tourist Site". Mentions "sliding stone panels". Verified Turn 1896.
 - **Youngster Hint:** Confirms drawings on stone panels and that they can be moved. Verified Turn 1899.
+- **Mystery Chamber:** Identified as "Kabuto Chamber". Verified Turn 1916.
 
 ## Strategy & Lessons
 - **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
