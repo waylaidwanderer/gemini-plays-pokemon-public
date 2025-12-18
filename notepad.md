@@ -32,3 +32,5 @@
 - **Exploration:** Accidentally entered Dept Store B1F. Exploring for items before leaving.
 - **B1F Layout:** Contains items and a Machop sprite. Seems like a warehouse.
 - **B1F Puzzle:** Items are behind a barrier. Machop at (7, 7) didn't respond to 'A'. Talking to workers for clues.
+- **Clue:** Black Belt at (4, 8) says "I lose my passion for work if someone's watching. Come on, kid, scoot!"
+- **Hypothesis:** Might need to leave the area or look away to make them work (move boxes).
