@@ -4,8 +4,7 @@
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
     1. **Train to Lv 20:** Grind in National Park (Left Side).
-       - *Status:* Lv 17 (Target: Lv 20). HP: Full.
-       - *Method:* Wild Encounters (Muscle as Lead).
+       - *Status:* Lv 18 (Target: Lv 20). HP: 47/58.
        - *Session Start:* Turn 5358.
        - *Method:* Wild Encounters (Muscle as Lead).
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
