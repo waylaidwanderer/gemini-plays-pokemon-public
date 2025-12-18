@@ -19,19 +19,19 @@
 - **HOW:** 
   1. Catch Geodude in Dark Cave (Route 31). DONE.
   2. Catch Bellsprout on Route 31; trade in Violet City for ONIX.
-  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). Icarus is DONE. Calcifer needs training (Lv8).
+  3. Train Calcifer to Lv10 (Ember) and Icarus to Lv10 (Gust). Icarus is DONE. Calcifer needs training (currently Lv8).
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: Violet Pokecenter 1F
+## Current Area: Violet City
 - **Objectives:**
-  - Heal party at Nurse Joy. (Current Focus)
-  - Locate and catch Bellsprout on Route 31 (Start Turn: 959). (Paused for healing)
+  - Explore Violet City to find the Onix trade house and Sprout Tower. (Current Focus)
+  - Locate and catch Bellsprout on Route 31 (Start Turn: 959).
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
 - **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
-- **Violet City:** Arrived. Entering Pokecenter.
+- **Violet City:** Arrived and healed at Pokecenter.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
@@ -44,9 +44,9 @@
 - Poliwag: Bubble (Verified).
 - Weedle: Poison Sting (Verified).
 ### Team Status
-- Calcifer (CYNDAQUIL): Lv8 (13/25 HP). Moves: Tackle (28/35), Leer (30/30), Smokescreen (20/20).
-- ICARUS (PIDGEY): Lv10 (17/30 HP). Moves: Tackle (1/35), Sand-Attack (15/15), Gust (30/30).
-- GNEISS (GEODUDE): Lv4 (0/18 HP, Fainted). Moves: Tackle (32/35).
+- GNEISS (GEODUDE): Lv4 (18/18 HP). Moves: Tackle (35/35).
+- ICARUS (PIDGEY): Lv10 (30/30 HP). Moves: Tackle (35/35), Sand-Attack (15/15), Gust (35/35).
+- Calcifer (CYNDAQUIL): Lv8 (25/25 HP). Moves: Tackle (35/35), Leer (30/30), Smokescreen (20/20).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
 - Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
