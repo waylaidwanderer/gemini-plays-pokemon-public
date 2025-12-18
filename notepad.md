@@ -21,6 +21,9 @@
   2. Switch to Calcifer (Lv14) to finish the battle.
   3. Repeat until Gneiss hits Lv11 (Rock Throw).
   4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
+- **EXP Tracking (Estimated):**
+  - Gneiss (Lv4): Needs ~625 more EXP for Lv11 (742 total).
+  - Rocky (Lv5): Needs ~2619 more EXP for Lv14 (2744 total).
 - **Turn Start:** 1559.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
