@@ -42,6 +42,9 @@
 - **HEADBUTT_TREE:** Tree that can be Headbutted for encounters. Acts as a wall.
 - **LEDGE_HOP_DOWN:** One-way traversal (jump down).
 - **WARP_CARPET_RIGHT:** Transition to next map.
+- **WARP_CARPET_DOWN:** Transition to map below.
+- **COUNTER:** Impassable. Interact with NPC behind it.
+- **LADDER:** Vertical travel between floors.
 
 ## Important Locations
 - **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
