@@ -82,3 +82,12 @@
 - Sage at (7, 4) confirmed HM is at the top of Sprout Tower.
 - Sage at (3, 5) is a Trainer (unreachable from current section of 1F).
 - Sage at (7, 7) is a moving NPC.
+## Sprout Tower Exploration
+- Exploration started Turn 1213.
+- Sprout Tower 2F entered Turn 1240.
+- Poke Ball at (3, 1) on 2F.
+- Sage (Trainer) at (12, 3) on 2F.
+- Ladder at (6, 4) leads down to 1F.
+- Ladder at (2, 6) leads up to 3F.
+- The central pillar is a giant Bellsprout, causing the tower to shake.
+- HM Flash is at the top of the tower.
