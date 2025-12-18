@@ -84,3 +84,8 @@
 ### Route 30 Berry House (26_9)
 - POKEFAN_M (ID 1): (2, 3). Quote: "You know, POKéMON eat BERRIES."
 - WARPS: (2, 7) and (3, 7) exit to Route 30 (7, 39).
+- BOOKSHELF (0, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
+- BOOKSHELF (1, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
+- TV (2, 1): (To be checked).
+- TOWN_MAP (3, 0): (To be checked).
+- RADIO (7, 1): (To be checked).
