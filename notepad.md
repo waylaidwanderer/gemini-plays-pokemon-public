@@ -48,3 +48,5 @@
 - **Active:** Lucid (Drowzee) Lv 13.
 - **Bug-Catching Contest Note:** The Pack is inaccessible during the contest. You cannot use items.
 - **Contest Catch:** Pinsir (Lv 14 Male). High Score candidate. Caught with Sleep + High HP.
+- **Contest Result:** 2nd Place (Score 352). Prize: Everstone.
+- **New Pokémon:** Pinsir (Lv 14 Male) sent to PC. Needs nickname: HEMATITE.
