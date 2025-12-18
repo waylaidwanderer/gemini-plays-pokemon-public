@@ -50,3 +50,6 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
+- **Battle Note:** Encountered Wild Drowzee (Lv 12).
+- **Goal:** Catch it.
+- **Current State:** Garnet (Lv 24) is out. Too strong. Switching to Rocky (Lv 12) to weaken.
