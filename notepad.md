@@ -55,7 +55,6 @@
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Rocky (Awake), Azurite (19/37 HP).
-- **Action:** Heal at Goldenrod PC.
-- **Then:** Switch Party Order (Azurite Lead).
+- **Status:** All Pokémon Healed.
+- **Action:** Switch Party Order (Azurite Lead).
 - **Then:** Train Azurite on Route 34.
