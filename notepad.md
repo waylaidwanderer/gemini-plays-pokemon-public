@@ -54,6 +54,7 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Strategy:** Switch train Azurite (Lead) -> Rocky. Target Lv 18.
-- **Goal:** Train Azurite and Rocky.
+- **Battle Note:** Fighting Wild Hoothoot (Turn 4457).
+- **Strategy:** Switch to Rocky (Avoid 4x Weakness).
+- **Goal:** Train Azurite (Switch Training).
 - **Training Plan:** Explore South Route 34 while grinding.
