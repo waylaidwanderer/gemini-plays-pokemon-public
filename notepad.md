@@ -11,7 +11,7 @@
 - **Badges:** Zephyr, Hive (2/8).
 - **Key Items:** Coin Case, Bicycle, Old Rod.
 - **HM/TM:** Cut (Belladonna), Headbutt (Tutor).
-- **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE).
+- **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE), Sunkern (HELIODOR).
 
 ## Tile Mechanics
 - **FLOOR/TALL_GRASS:** Traversable.
