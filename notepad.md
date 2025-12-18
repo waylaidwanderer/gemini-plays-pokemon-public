@@ -12,7 +12,8 @@
 
 ## Route 33 Progress
 - Goal: Reach Azalea Town. (Started Turn #2415)
-- Hiker Anthony at (6, 13): Battling now.
+- Hiker Anthony at (6, 13): Defeated.
+- Mom bought an item (check PC in Azalea).
 
 ## Strategy: Azalea Town
 - Navigate West through Route 33.
@@ -21,7 +22,7 @@
 ## Battle Notes
 - Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
 - Calcifer (Quilava): Lv17. HP: 11/50.
-- Icarus (Pidgey): Lv10. HP: 30/30. Gust is super effective vs Machop.
+- Icarus (Pidgey): Lv11. HP: 18/32. Gust is super effective vs Machop.
 
 ## Trainer Rosters
 - Firebreather Bill: Koffing x2 (Lv6).
