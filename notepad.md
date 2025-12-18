@@ -55,8 +55,10 @@
 - **Fix:** Manually exiting Option menu, navigating to Pack, resetting pocket cursor (Right/Left), and selecting Super Potion.
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
-- **Navigation Strategy:** The SW corner (2, 29) is blocked.
-    - **Maze Solution:** Traversed Top-Left path (Row 2 -> Zigzag West) to reach West Edge.
+- **Navigation Strategy:** West perimeter explored.
+    - **Discovery:** Path connects North-West corner to South Gate.
+    - **Item:** Found at (1, 43).
+    - **Plan:** Collect item, then head to South Gate to regroup.
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
