@@ -70,3 +70,7 @@
 - **Priority:** Gneiss learns Rock Throw at Lv11, which is critical for Falkner.
 - **Location:** Route 32 (South of Violet City).
 - **Tactics:** Use "Switch Training" (lead with Rocky/Gneiss, then switch to Calcifer) if wild Pokemon are too strong.
+## Move Info
+- Geodude: Rock Throw (Lv11). Critical for Falkner.
+- Onix: Rock Throw (Lv14).
+- Quilava: Ember (Lv12). Already learned.
