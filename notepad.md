@@ -31,3 +31,4 @@
 - **Game Corner Data:** 50 Coins = 1000 Yen. TMs are 5500. Abra=100, Cubone=800, Wobbuffet=1500.
 - **Exploration:** Accidentally entered Dept Store B1F. Exploring for items before leaving.
 - **B1F Layout:** Contains items and a Machop sprite. Seems like a warehouse.
+- **B1F Puzzle:** Items are behind a barrier. A Machop is at (7, 7) next to boxes. Hypothesizing that interacting with the Machop moves the boxes.
