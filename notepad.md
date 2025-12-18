@@ -23,16 +23,14 @@
 - Counter: Calcifer (Quilava) with Ember. Icarus (Pidgey) with Gust. Gneiss (Geodude) with Rock Throw.
 - Plan:
   1. Talk to Gym Guide at (7, 13) - DONE.
-  2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
-  3. Defeat Bug Catcher Al at (8, 10) - DONE.
-  4. Defeat Bug Catcher Benny at (5, 3) - DONE.
-  5. Defeat Bug Catcher Josh at (0, 2) - DONE.
-  6. Defeat Gym Leader Bugsy.
+  2. Defeat trainers (Twins, Al, Benny, Josh) - DONE.
+  3. Navigate the maze to reach Bugsy.
+  4. Defeat Gym Leader Bugsy.
 - Time Tracking: Exploration started at Turn 2596.
 
-## Strategy: Azalea Gym Layout
-- The gym uses a "spider" transit system.
-- Need to map which spider leads where.
+## Gym Layout
+- It's a maze of trees (walls).
+- No spider platforms or switches detected (previous notes regarding 'spider transit' were incorrect).
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
@@ -66,13 +64,3 @@
 - Verify all foundational assumptions in-game.
 - Moving NPCs can block `navigate` and `find_path`. Stun them or wait.
 - In battle switch menus, "YES" is the default. Be careful when declining a switch.
-## Azalea Gym Puzzle Notes
-- Red Switch: Located at (2, 9) and (3, 9). Interact from (1, 9) or (4, 9).
-- Blue Switch: Located at (6, 9) and (7, 9). Interact from (5, 9) or (8, 9).
-- Hypothesis: Switches move the spider platforms to different paths.
-- Current Status: All trainers defeated. Preparing to solve the puzzle to reach Bugsy.
-## Azalea Gym Puzzle: Attempt 1
-- Observation: Red Switch at (2, 9), Blue Switch at (6, 9). Spiders are in default positions.
-- Hypothesis: Flipping the Red Switch will move the spiders.
-- Test: Press the Red Switch from (1, 9).
-- Conclusion: Pending.
