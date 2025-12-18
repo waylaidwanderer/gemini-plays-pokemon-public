@@ -78,3 +78,5 @@
 - Ledges are one-way (South confirmed impassable from below).
 - Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
 - Turn Tracking: Always use the turn number provided in the Game State.
+- TRAINING LOG: Icarus (Pidgey) vs Wild Hoothoot Lv3. Icarus at 11/16 HP. Hoothoot at ~40% HP. (Turn 659)
+- EXPLORATION: Unseen tiles detected on Route 30 at (12, 3-15) and (1, 26-35). Plan to investigate after current training session.
