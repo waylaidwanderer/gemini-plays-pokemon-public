@@ -54,7 +54,6 @@
 - Route 32: Cooltrainer M at (19, 8) - Blockade; requires Zephyr Badge.
 
 ## Lore & Information
-- Mary's Radio: Poliwhirl seen around Route 44 (late game area).
 - Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
 - Sage Li: Zephyr Badge required to use Flash outside battle.
 
