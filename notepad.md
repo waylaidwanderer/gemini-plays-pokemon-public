@@ -29,8 +29,6 @@
   5. Explore for remaining trainers.
   6. Defeat Gym Leader Bugsy.
 - Time Tracking: Exploration started at Turn 2596.
-- Gym Layout:
-  - Spiders (Spinners): Need to document destination of each spider.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
