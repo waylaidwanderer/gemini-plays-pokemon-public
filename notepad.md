@@ -71,3 +71,6 @@
 - WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (31, 11).
 - BOOKSHELF (0, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
 - BOOKSHELF (1, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
+- TV (2, 1): "It's a TV."
+- TOWN_MAP (3, 0): (To be checked).
+- RADIO (7, 1): (To be checked).
