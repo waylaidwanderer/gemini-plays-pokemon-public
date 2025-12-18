@@ -1,15 +1,15 @@
 # Johto Journey: Gem's Log
 
 ## Tile Mechanics
-- FLOOR: Traversable. Verified by walking on it.
-- WALL: Impassable. Verified by bumping into it.
+- FLOOR: Traversable. Verified.
+- WALL: Impassable. Verified.
 - TALL_GRASS: Traversable; triggers wild encounters. Verified.
-- LEDGE_HOP_DOWN: One-way jump South. Verified on Route 29 (50, 10) and Route 30 (7, 17). Cannot be jumped North. Verified.
-- COUNTER: Impassable. Face to interact with NPC behind (e.g., Nurse Joy). Verified.
+- LEDGE_HOP_DOWN: One-way jump South. Impassable from the South. Verified on Route 29 (50, 10) and Route 30 (7, 17).
+- COUNTER: Impassable. Face to interact with NPC behind. Verified.
 - TREE / HEDGE: Impassable. Verified on Route 30.
-- WARP_CARPET_DOWN: Exit map South. Verified at PlayersHouse1F.
-- LADDER / DOOR: Triggers warp. Verified at PlayersHouse2F.
-- PC: Face to use. Verified at Cherrygrove Pokecenter.
+- WARP_CARPET_DOWN: Exit map South. Verified.
+- LADDER / DOOR: Triggers warp. Verified.
+- PC: Face to use. Verified.
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 - **HOW:** 
@@ -23,12 +23,12 @@
 - **Route 30:**
   - Youngster Joey (2, 28) - Defeated.
   - Youngster Mikey (5, 23) - Defeated.
-  - Cooltrainer F (2, 13) - Non-trainer, talked.
-  - Bug Catcher Don (1, 9) - Battling.
+  - Cooltrainer F (2, 13) - Talked (Non-trainer).
+  - Bug Catcher Don (1, 9) - Battling (1/2 Caterpie defeated).
 - **Navigation:**
   - North path via x=2,3 blocked by ledges at y=11.
   - North path via x=5 blocked by ledges at y=17/25.
-  - Currently testing path through grass at x=0,1 to bypass ledges.
+  - Path through grass at x=0,1 confirmed to lead North.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
@@ -37,13 +37,13 @@
 - Cyndaquil: Tackle, Leer, Smokescreen
 - Caterpie: Tackle (Verified), String Shot (Hypothesis)
 ### Team Status
-- Icarus (Pidgey): Lv9 (432 EXP), learned Gust!
-- Calcifer (Cyndaquil): Lv8 (345 EXP), needs 74 XP for Lv9.
+- Icarus (Pidgey): Lv9. Moves: Tackle, Sand-Attack, Gust.
+- Calcifer (Cyndaquil): Lv8. Moves: Tackle, Leer, Smokescreen.
 ### Type Effectiveness (Verified)
 - Normal vs Normal: Neutral
 - Fire vs Normal: Neutral
 - Normal vs Fire: Neutral
-- Flying (Gust) vs Bug (Caterpie): Super Effective (Hypothesis)
+- Flying vs Bug: Super Effective (Hypothesis - to be tested with Gust)
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
