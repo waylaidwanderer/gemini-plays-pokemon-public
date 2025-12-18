@@ -28,3 +28,4 @@
 - BATTLE MENUS: Separate directional and action inputs.
 - EXPLORATION: Use list_unseen_reachable_v2 for new paths.
 - STRATEGY: Geodude is the most efficient counter for Falkner.
+- TASK: Verify directionality of East/West ledges when encountered.
