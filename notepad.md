@@ -53,4 +53,5 @@
     - **Navigation:** Repeatedly hit walls/fences (Turns 5710-5718). Action: Verify tiles in `map_xml_string` before moving near obstacles.
     - **Hygiene:** Restructured Notepad for clarity.
 - Mechanic: Low Kick is fixed 50 BP in Gen 2 (30% flinch), unlike later gens where it's weight-based.
-- Status: Muscle has 10 Low Kick PP and 1 Karate Chop PP left. Need ~600 EXP for Lv 20.
+- Status: Muscle has 8 Low Kick PP and 1 Karate Chop PP left. Need ~450 EXP for Lv 20.
+- Navigation Plan: To reach Southwest corner (6, 34), head South to Row 29, shift East to Column 8 to bypass Wall at (6, 30), then South to Row 33 and West.
