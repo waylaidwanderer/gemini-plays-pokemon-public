@@ -28,32 +28,26 @@
 - Sign at (9, 43): Route 30.
 - Item at (8, 35): Antidote (Collected).
 - Warp at (7, 39).
-- YOUNGSTER (ID 5): (7, 30). Confirmed Mr. Pokémon's house is "a bit farther ahead". (Talked to)
-- Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!". (Read)
+- YOUNGSTER (ID 5): (7, 30). Confirmed Mr. Pokémon's house is "a bit farther ahead".
+- Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!".
 - YOUNGSTER (ID 1): (5, 26).
 
-## Lessons Learned
-- NPCs act as walls.
-- Buildings are often larger than they appear.
-- Tool Usage: Verify input schemas and handle input dictionaries explicitly.
-- Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
-- Ledges: Strictly one-way. Jumping moves the player two tiles.
-- Menu Navigation: Do NOT mix directional buttons and action buttons (A/B/Start/Select) in the same turn.
+## Progression Plan
+- **Primary Goal:** Defeat Gym Leader Falkner in Violet City.
+- **Current Task:** Train Icarus (Pidgey) to Lv9 and Calcifer (Cyndaquil) to Lv12.
+- **Training Strategy:** Switch-train Icarus on Route 30/31 by leading with him and swapping to Calcifer.
+- **Team Optimization:** Catch Geodude in Dark Cave (Route 31) for Rock-type advantage against Falkner.
+- **Preparation:** Scale Sprout Tower (Violet City) for EXP and HM05 (Flash). Collect Bitter Berry (Route 31). Buy 3-5 Potions.
 
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
 - EVENT: Delivered Mystery Egg to Prof. Elm. Received POKé BALL x5. (Turn 324)
 - EVENT: Set up money saving with Mom. (Turn 334)
 - WILD ENCOUNTER: Caught Lv2 Pidgey (ICARUS) on Route 29. (Turn 352)
+- STATUS (Turn 514): Icarus Lv3, Calcifer Lv7. Fully healed.
 
-## Training Tracker
-- Training Goal: Calcifer Lv12 (Ember), Icarus Lv9.
-- Started: Turn 421.
-- Current Status: Icarus Lv3 (16/16 HP), Calcifer Lv7 (23/23 HP). [Fully Healed Turn 514]
-- Strategy:
-    - Route: North through Route 30/31 to Violet City.
-    - Switch-train Icarus on Route 30/31 by leading with him and swapping.
-    - Catch Geodude in Dark Cave (Route 31) to counter Falkner's Normal/Flying moves.
-    - Scale Sprout Tower in Violet City for EXP (Bellsprouts) and HM05 (Flash).
-    - Collect Bitter Berry on Route 31 for status healing.
-    - Purchase 3-5 Potions in Violet City to manage Mud-Slap attrition in Gym.
+## Lessons Learned
+- NPCs act as walls.
+- Buildings are often larger than they appear.
+- Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
+- Turn Tracking: Always use the turn number provided in the Game State.
