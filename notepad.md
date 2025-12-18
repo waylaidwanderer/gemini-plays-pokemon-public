@@ -1,51 +1,30 @@
 # Johto Journey: Gem's Log
 
-## Tile Mechanics (Verified)
+## Tile Mechanics
 - FLOOR: Traversable.
-- WALL: Impassable.
+- WALL / TREE / HEDGE / MART_SHELF / BOOKSHELF / WINDOW / BUOY: Impassable.
 - TALL_GRASS: Traversable; wild encounters.
-- LEDGE_HOP_DOWN: One-way jump South (Verified: Impassable from South).
-- HEADBUTT_TREE: Impassable.
-- COUNTER: Interactable (face to talk to NPC behind).
+- LEDGE_HOP_DOWN: One-way jump South. (Verified)
+- COUNTER: Face to interact with NPC behind.
 - WARP_CARPET_DOWN: Exit map South.
-- LADDER: Warp to different floor.
-- BOOKSHELF / WINDOW / TREE / HEDGE / MART_SHELF: Impassable.
-- PC: Interactable.
-- BUOY: Impassable.
-- DOOR: Traversable (triggers warp).
+- LADDER / DOOR: Triggers warp.
+- PC: Face to use.
 
-## Current Strategy & Goals
-### Primary Goal: Defeat Gym Leader Falkner (Violet City)
-- **Strategy:**
-    1. **Recruitment (Priority):** Catch a Geodude in Dark Cave (Route 31) for Rock-type advantage.
-    2. **Logistics:** Reach Violet City and utilize the Pokémon Center.
-    3. **Training:** Get Calcifer to Lv10 (for Ember) and Icarus to Lv9.
-    4. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
-    5. **Gym Prep:** Collect Bitter Berry (Route 31).
+## Strategic Plan: Defeat Falkner (Violet City)
+1. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
+2. **Violet City Logistics:** Visit PC and heal.
+3. **Training:** Calcifer to Lv10 (Ember), Icarus to Lv9.
+4. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
+5. **Gym Prep:** Collect Bitter Berry (Route 31).
 
-## Exploration Queue
-- Route 30 East Ledge: (12, 3-15)
-- Route 30 West Grass: (1, 26-35)
-- Route 30 Central Path: (9, 17-23)
-- Route 30 North Area: (2-7, 25)
-
-## NPCs & Interactions
-### Key Locations
-- New Bark: PROF. ELM (Starter), OFFICER (Rival Name), MOM (Saving).
-- Route 30: YOUNGSTER (7, 30), YOUNGSTER (5, 26), FRUIT TREE (5, 39).
-- Mr. Pokémon: MR. POKÉMON (3, 5), PROF. OAK (6, 5).
-- Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
-
-## Progress Summary
-- Rival MALICE defeated.
-- Mystery Egg delivered.
-- Caught Icarus (Lv2 Pidgey).
-- Icarus reached Lv7.
+## Exploration Queue (Route 30)
+- East Ledge: (12, 3-15)
+- West Grass: (1, 26-35)
+- Central Path: (9, 17-23)
+- North Area: (2-7, 25)
 
 ## Lessons Learned
-- CRITICAL HITS: Heal early; don't risk fainting during training.
+- CRITICAL HITS: Heal early to avoid faints.
 - BATTLE MENUS: Separate directional and action inputs.
-- EXPLORATION: Use list_unseen_reachable_v2 to find new paths.
-- STRATEGY UPDATE: Pivoting to catch Geodude in Dark Cave (Route 31) for Falkner advantage.
-- TRAINING GOAL: Icarus Lv9, Calcifer Lv10+ (Ember).
-- EXPLORATION: Unseen tiles at (12, 3-15) and (1, 26-35) are reachable.
+- EXPLORATION: Use list_unseen_reachable_v2 for new paths.
+- STRATEGY: Geodude is the most efficient counter for Falkner.
