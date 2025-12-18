@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Train AZURITE (Heracross) to Lv 19 (Learns Counter) and ROCKY (Onix) to Lv 15+ on Route 34.
+    1. Train AZURITE (Heracross), ROCKY (Onix), and HEMATITE (Pinsir) on Route 36.
     2. Challenge Whitney.
 - **Learned:** Happiness Rater (Quilava "quite cute"), Dept Store layout.
 
