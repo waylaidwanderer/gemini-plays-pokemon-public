@@ -43,4 +43,4 @@
 - Input Hygiene: Do not mix directional and action buttons in press_buttons. Use press_sequence for multi-step interactions.
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
 - Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority.
-- Path to Azalea: Head south from Violet City to Route 32, then through Union Cave. Need to purchase Poké Balls for catching.
+- Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town. Need to restock Poké Balls at the next Mart.
