@@ -37,6 +37,6 @@
 - **Unown Battle:** Unown are Psychic-type and only know Hidden Power. Catching is priority. Using a Poke Ball immediately at Lv 5 is safer than attacking.
 
 ## Current Plan
-- Catch Unown using Poké Balls.
+- Defeat Unown (out of Poké Balls).
 - Continue exploring Inner Chamber to find the ladder at (10, 13).
 - Head back to Route 32 and continue south to Azalea Town.
