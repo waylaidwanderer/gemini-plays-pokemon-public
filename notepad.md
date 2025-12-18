@@ -15,22 +15,28 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
+- Turn 2701: Battling Rival Malice at Azalea Town exit.
 
-## Azalea Gym Summary
-- Leader: Bugsy Defeated.
-- Rewards: Hive Badge (Obey up to L30, use Cut outside), TM49 Fury Cutter.
+## Party Status
+- Calcifer (QUILAVA) Lv21: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
+- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK THROW.
+- ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
+- ROCKY (ONIX) Lv6: TACKLE, SCREECH.
+- EGG (TOGEPI) Lv5: GROWL, CHARM.
+- APOPHIS (EKANS) Lv4: WRAP, LEER.
 
 ## Trainer Rosters (Johto)
 - Rocket Grunts (Slowpoke Well): All defeated.
 - Azalea Gym Trainers: All defeated.
 - Gym Leader Bugsy: Defeated (Metapod Lv14, Scyther Lv16, Kakuna Lv14).
+- Rival Malice (Azalea): Gastly (Lv?), Zubat (Lv?), Croconaw (Lv?) - Battling.
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
-- Kurt (3, 2): Makes custom Balls from Apricorns (takes 24 hours/1 day). Currently making a ball from WHT APRICORN.
+- Kurt (3, 2): Makes custom Balls from Apricorns (takes 1 day).
 
-## Key Discoveries
-- Type: Bug is weak to Fire, Flying, and Rock.
+## Learned Mechanics
+- Type Effectiveness: Bug is weak to Fire, Flying, and Rock.
 - NPCs: Use `stun_npc` if they block paths.
 - Menus: Decline switches carefully (YES is default).
 - HM Use: Hive Badge allows use of Cut outside battle.
