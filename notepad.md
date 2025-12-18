@@ -59,11 +59,13 @@
     3. Repeat until Heracross is found.
 - **Anti-Hallucination Strategy:** When farming a single spot (like Headbutt trees), the system may flag "stuck" or "looping" if staying on one tile too long. **Solution:** Rotate between adjacent valid tiles (e.g., trees at 24, 25, 27) every few attempts to break the positional loop, even if it's less efficient.
 - **Anti-Hallucination Success:** The rotation strategy (moving between trees at 24, 25, 27) has successfully prevented the "looping/stuck" system warnings. Continue this pattern.
-- **Grind Log (Turn 4163):**
-  - Session Duration: ~365 turns.
-  - Previous Cluster (Row 11): ~60 encounters, 0 Heracross. Likely Low Yield.
-  - Current Cluster (Row 4):
-    - Tree (28, 4): Aipom confirmed (Mountain Group).
-  - Target: Heracross.
-  - Status: Grinding Row 4 trees. Aipom presence is a good sign (valid tree). Will grind here for ~20 encounters to test for Heracross.
+- **Grind Log (Turn 4166):**
+  - Session Duration: ~366 turns.
+  - **SUCCESS!** Heracross found at (29, 4) near Slowpoke Well!
+  - Implications:
+    - Row 4 trees are "Normal Yield" (or at least valid).
+    - Row 11 trees were either "Low Yield" or incredibly unlucky.
+  - **Current Status:** In Battle with Heracross (Lv 10, Female, Asleep).
+  - **Strategy:** Weakening with Tackle, then throwing Great Balls. DO NOT FAINT IT.
+  - Party: Rocky (Lv 12) vs Heracross (Lv 10).
 - **Theory Check:** If Heracross is missing after ~50 encounters, these might be "Low Yield" Mountain trees (if such a distinction exists where Aipom spawns but Heracross doesn't). However, usually Aipom and Heracross share the "Rare" tree pool. Continuing to grind to verify.
