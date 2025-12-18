@@ -49,9 +49,6 @@
   - **Forest Group (No Heracross):** Ilex Forest (Hoothoot, Pineco).
   - **Mountain Group (Heracross Possible):** Azalea Town (Spearow, Aipom, Heracross, Ekans).
   - **Farming Note:** Rotation between trees helps avoid "stuck" detection.
-  - **Verified Trees:**
-    - Ilex (12,12), (11,12): Forest Group (Hoothoot/Pineco).
-    - Azalea (24, 11), (25, 11), (27, 11): Mountain Group (Spearow/Aipom/Ekans). Low Heracross yield observed here.
-    - Azalea (29, 4): Mountain Group (Heracross Confirmed).
+
 ## Important Locations
 - **Heracross Tree:** (29, 4) in Azalea Town (Row 4) is a confirmed spawn location (Normal/High Yield).
