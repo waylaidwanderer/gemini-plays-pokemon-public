@@ -53,3 +53,5 @@
 - **Prize:** Everstone (Prevents evolution).
 - **Plan:** Head to Route 36, then return to Goldenrod to fight Whitney. Need Squirtbottle (after Whitney) to clear Sudowoodo.
 - **Berry:** Ice Berry found at (21, 4) on Route 36.
+- **Correction:** Ice Berry heals Burn, not HP.
+- **Plan Update:** Use Super Potion on Rocky instead.
