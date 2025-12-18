@@ -23,3 +23,18 @@
 - EXPLORATION: Use list_unseen_reachable_v2 for new paths.
 - STRATEGY: Geodude is the most efficient counter for Falkner.
 - TASK: Verify directionality of East/West ledges when encountered.
+## Exploration Queue (Route 30)
+- East Ledge: (12, 3-15)
+- West Grass: (1, 26-35)
+- Central Path: (9, 17-23)
+- North Area: (2-7, 25)
+
+## Progress & Timestamps
+- Geodude Recruitment Mission Start: Turn 741.
+
+## Lessons Learned
+- CRITICAL HITS: Heal early to avoid faints.
+- BATTLE MENUS: Separate directional and action inputs.
+- EXPLORATION: Use list_unseen_reachable_v2 for new paths.
+- STRATEGY: Geodude is the most efficient counter for Falkner.
+- INTERACTION: Face NPCs behind counters/tables.
