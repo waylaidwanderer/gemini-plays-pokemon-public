@@ -43,12 +43,12 @@
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
-## Contest Prep
-- **Start Turn:** 4732 (Saturday).
-- **Current Task:** Join Bug-Catching Contest.
-- **Goal:** Catch Scyther/Pinsir or win Sun Stone.
-- **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
-- **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
+## Bug-Catching Contest
+- **Start Turn:** 4782
+- **Objective:** Catch Scyther or Pinsir (High Score).
+- **Strategy:** Use Lucid's Hypnosis. Whittle HP with Pound if necessary.
+- **Ball Count:** 20 Sport Balls.
+- **Time Limit:** 20 minutes (or until balls run out/retire).
 ## Status
-- **Party:** Lucid (16/41), Garnet (56/68), Rocky (13/36 Burned).
-- **Notes:** Need to heal if possible, but Contest might provide healing.
+- **Party:** Fully Healed (Officer heals before entry).
+- **Active:** Lucid (Drowzee) Lv 13.
