@@ -56,9 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Pidgey caught. Resuming exploration.
-    - **Plan:** Bypass Jack via East (Column 28), then continue South to Battle Notice Sign at (27, 31).
-- **Current Action:** Clear text and resume Southward trek.
+    - **Status:** Resuming Southward trek.
+    - **Plan:** Navigate to (27, 32) to read the Battle Notice Sign at (27, 31).
+- **Current Action:** Navigate to (27, 32).
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
