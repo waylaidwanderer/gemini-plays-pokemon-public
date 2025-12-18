@@ -27,5 +27,5 @@
 
 ## Strategy & Lessons
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
-- Training: Switch-train trainees (Rocky, Egg, Apophis) by leading with Gneiss/Calcifer and switching on Turn 1.
+- Training (How-To): Switch-train trainees (Rocky, Egg, Apophis) by leading with a stronger Pokémon (Gneiss or Calcifer), then immediately switching to the trainee on Turn 1 of a battle. This splits EXP and ensures safety.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
