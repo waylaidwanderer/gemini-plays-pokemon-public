@@ -36,13 +36,6 @@
 - **Charcoal:** Obtained (Boosts Fire).
 - **Farfetch'd Quest:** Completed.
 
-## Party
-- **GARNET (Quilava)** Lv24
-- **ROCKY (Onix)** Lv12
-- **TOGEPI** Lv6
-- **AMETHYST (Zubat)** Lv5
-- **BELLADONNA (Oddish)** Lv5
-- **EGG (Tyrogue)** Lv5
 ## Tile Mechanics
 - **Headbutt Trees:** Interactable tiles that can spawn Pokémon.
   - Mechanics: Trees are either "valid" (can spawn) or "duds" (never spawn).
