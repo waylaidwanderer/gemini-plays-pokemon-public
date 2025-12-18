@@ -24,7 +24,7 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Route 31
-- **Status:** Switching lead to Calcifer to catch Bellsprout. Started Turn 944.
+- **Status:** Searching for Bellsprout in tall grass. Leading with Calcifer.
 - **Objectives:**
   - Locate and catch Bellsprout in tall grass.
   - Reach Violet City and heal.
