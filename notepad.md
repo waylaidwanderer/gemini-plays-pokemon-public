@@ -23,7 +23,7 @@
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
-  - Calcifer (Cyndaquil): Target Lv10 for Ember to handle Sprout Tower and potentially Falkner's Pidgey.
+  - Calcifer (Cyndaquil): Target Lv12 for Ember to handle Sprout Tower and potentially Falkner's Pidgey.
   - ROCKY (Onix) & GNEISS (Geodude): Primary counters for Falkner's Flying-type Pokémon. Normal-type moves like Tackle are "Not very effective" against them.
 - **Plan:**
   1. Complete Sprout Tower to obtain HM05 Flash and train the team.
@@ -73,7 +73,7 @@
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
 - Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
-- Training: Sprout Tower is a good place to train Calcifer to Lv10 for Ember (Cyndaquil learns Ember at Lv10 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
+- Training: Sprout Tower is a good place to train Calcifer to Lv12 for Ember (Cyndaquil learns Ember at Lv12 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
 ## Timestamps
 - Started Academy visit Turn 1167.
 - Met Earl (Spinning Master) Turn 1210.
