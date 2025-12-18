@@ -54,8 +54,9 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Encountered Wild Drowzee (Lv 12).
-- **Goal:** Train Azurite (Switch Training).
-- **Current State:** Rocky (Lv 12) is out. Switching to Azurite (Slot 6).
+- **Battle Note:** Fighting Wild Drowzee (Lv 12).
+- **Goal:** Defeat it for Azurite's XP.
+- **Current State:** Azurite (Lv 10) is out. Using Horn Attack.
+- **Risk Assessment:** Drowzee likely only has Pound/Hypnosis/Disable (No Confusion until Lv 18). Azurite should be safe from Psychic attacks.
 - **Then:** Train Azurite (Switch Training).
 - **Then:** Challenge Whitney (Goldenrod Gym).
