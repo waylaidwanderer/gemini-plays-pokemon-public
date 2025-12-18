@@ -54,10 +54,10 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1389):
+- Sprout Tower 3F (Turn 1393):
   - Sage Jin (ID 1) defeated at (8, 13).
   - Sage Neal (ID 4) defeated at (11, 11).
-  - Sage Troy (ID 2) at (8, 9) (In battle).
+  - Sage Troy (ID 2) defeated at (8, 9).
   - Poke Ball (ID 5) at (6, 14) (Potion collected).
-  - Calcifer is Lv12 and learned EMBER!
-  - Calcifer needs 28 EXP for Lv13.
+  - Calcifer is Lv13.
+  - Calcifer needs 292 EXP for Lv14.
