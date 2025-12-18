@@ -23,14 +23,14 @@
   4. Use Ember to sweep Sprout Tower (Flash HM).
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
-## Current Area: Route 31
+## Current Area: Route31VioletGate
 - **Objectives:**
   - Reach Violet City and heal. (Current Focus)
-  - Locate and catch Bellsprout in tall grass (Start Turn: 959). (Paused for healing)
+  - Locate and catch Bellsprout on Route 31 (Start Turn: 959). (Paused for healing)
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
-- **Route 31:** Caught GNEISS (Geodude) in Dark Cave.
+- **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
