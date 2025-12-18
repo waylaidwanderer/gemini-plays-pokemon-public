@@ -58,7 +58,11 @@
 - **Navigation Strategy:** East Side Exploration.
     - **Status:** Interrupted by Wild Nidoran♂ at (29, 23).
     - **Plan:** Defeat Nidoran♂ for EXP, then resume navigation to (29, 6).
-- **Current Action:** Battling Wild Nidoran♂. Pressing B to reach Battle Menu.
+- **Battle Strategy:** Defeating Wild Nidoran♂.
+    - **Status:** Turn 1.
+    - **Action:** Use Karate Chop (Slot 4).
+    - **Note:** Fighting is NVE vs Poison, but Karate Chop (Slot 4) is best option.
+- **Current Action:** Use Karate Chop.
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
