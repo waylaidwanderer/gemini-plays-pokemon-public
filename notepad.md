@@ -89,3 +89,6 @@
 
 - **Hypothesis 1:** Fisher (15, 13) is a trainer. Test: Stand at (16, 13) and talk to him.
 - **Hypothesis 2:** Fisher (19, 14) is a trainer. Test: Stand at (18, 14) and talk to him.
+## Task Tracking Update
+- **Turn 2061:** Gneiss healed to 30/37 HP. Closing menu and heading south to explore Row 20+ to find a way west towards Fisher (15, 13).
+- **Cleanup:** Restocking task complete. Remaining money ¥1731.

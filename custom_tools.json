@@ -1,45 +1,4 @@
 {
-  "calculate_xp_requirements": {
-    "description": "Calculates the experience points required for the next level for a given Pokémon species and its current level and experience. Supports the four standard experience curves found in Pokémon Crystal (Fast, Medium Fast, Medium Slow, Slow).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "growth_rate": {
-          "type": "string",
-          "enum": [
-            "Fast",
-            "Medium Fast",
-            "Medium Slow",
-            "Slow"
-          ]
-        },
-        "current_level": {
-          "type": "integer"
-        },
-        "current_exp": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "growth_rate",
-        "current_level",
-        "current_exp"
-      ]
-    },
-    "python_script": "import json\n\ngrowth_rate = input_data[\"growth_rate\"]\ncurrent_level = int(input_data[\"current_level\"])\ncurrent_exp = int(input_data[\"current_exp\"])\n\ndef get_total_exp(n, rate):\n    if rate == \"Fast\":\n        return int(0.8 * (n ** 3))\n    elif rate == \"Medium Fast\":\n        return n ** 3\n    elif rate == \"Medium Slow\":\n        return int(1.2 * (n ** 3) - 15 * (n ** 2) + 100 * n - 140)\n    elif rate == \"Slow\":\n        return int(1.25 * (n ** 3))\n    return 0\n\nnext_level = current_level + 1\ntarget_exp = get_total_exp(next_level, growth_rate)\nremaining = max(0, target_exp - current_exp)\n\nresult = {\n    \"growth_rate\": growth_rate,\n    \"current_level\": current_level,\n    \"current_exp\": current_exp,\n    \"next_level\": next_level,\n    \"total_exp_next_level\": target_exp,\n    \"exp_remaining\": remaining\n}\nprint(json.dumps(result))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T04:58:09.193Z",
-        "action_counter": 817
-      },
-      {
-        "commit_message": "Added calculate_xp_requirements tool to automate experience tracking.",
-        "timestamp": "2025-12-18T14:00:59.942Z",
-        "action_counter": 1772
-      }
-    ]
-  },
   "list_reachable_unseen_v3": {
     "description": "Finds all 'unseen' tiles that are currently reachable from the player's position, correctly handling ledges and objects. Returns a list of (x, y) coordinates. If autopress_buttons is true, it returns a list of buttons to the nearest unseen tile.",
     "input_schema": {
