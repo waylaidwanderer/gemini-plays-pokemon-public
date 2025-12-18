@@ -13,14 +13,13 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Found: Great Ball (17, 21), Potion (4, 17), Awakening (12, 33).
-- Defeated: Hiker Daniel (3, 6), Hiker Russell (11, 8), Firebreather Bill (14, 19), Pokemaniac Larry (4, 21), Firebreather Ray (11, 27).
-- Fisher at (12, 27) gives light advice.
-- Ladder at (5, 19) marked.
+- Items Found: Great Ball (17, 21), Potion (4, 17), Awakening (12, 33).
+- Trainers Defeated: Daniel (3, 6), Russell (11, 8), Bill (14, 19), Larry (4, 21), Ray (11, 27).
+- Marked: Ladder (5, 19) to B1F.
 
 ## Strategy: Reaching Azalea Town
-- Navigate south through Union Cave 1F to find Route 33 exit.
-- Current: Exploring southeast unseen tiles.
+- Navigate south to Route 33 and Azalea Town.
+- Current: Exiting Union Cave 1F at (17, 31).
 
 ## Battle Notes
 - Gneiss (Geodude): Out of Rock Throw PP. HP: 15/41.
