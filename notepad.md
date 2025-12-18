@@ -84,3 +84,6 @@
 - Geodude: Rock Throw (Lv11). Critical for Falkner.
 - Onix: Rock Throw (Lv14).
 - Quilava: Ember (Lv12). Already learned.
+## Lore & Information
+- Radio (MARY): Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
+- Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
