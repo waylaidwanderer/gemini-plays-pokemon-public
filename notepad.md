@@ -57,5 +57,5 @@
 - **Battle Note:** Fighting Wild Rattata (Lv 11).
 - **Strategy:** Switch to Rocky (Switch Training).
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Azurite (Lv 10). Rocky (Lv 13, 18/34 HP).
+- **Status:** Switching Azurite -> Rocky (Lv 13, 18/34 HP).
 - **Training Plan:** Grind on Route 34 until Lv 18. Return to Goldenrod PC when Rocky's HP is low.
