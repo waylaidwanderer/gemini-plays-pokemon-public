@@ -22,8 +22,8 @@
 ## NPC Archive
 - Route 32: Fisher (7, 70) [Slowpoketail Scam].
 - Union Cave 1F:
-  - Hiker Daniel (3, 6): (☠️)
-  - Hiker Russell (11, 8): (🚶)
+  - Hiker Daniel (3, 6)
+  - Hiker Russell (11, 8)
 
 ## Training Strategy
 - Switch Training: Lead with strong PKMN, switch to trainee on Turn 1, then to finisher.
