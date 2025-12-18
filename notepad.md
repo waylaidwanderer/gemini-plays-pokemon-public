@@ -73,9 +73,5 @@
 
 ## Timestamps
 - Bellsprout Hunt: Turn 1089 to Turn 1111 (Route 31). Success: Kudzu caught. Trade for Rocky completed Turn 1139.
-- INCENSE_BURNER: Impassable decorative object. Verified in VioletKylesHouse.
-- BOOKSHELF: Impassable object; can be interacted with to read titles. Verified in VioletKylesHouse.
-- RADIO: Impassable object; can be interacted with to listen to broadcasts. Verified in VioletKylesHouse.
-- LEDGE_HOP_LEFT: One-way jump West. Impassable from the West. Predicted; not yet verified.
-- Earl's Pokemon Academy: Located in Violet City at (30, 17). Good place for basic tips and training info.
+- Earl's Pokemon Academy: Turn 1167 (Violet City). Good place for basic tips and training info.
 - GAMEBOY_KID: NPC type found in Earl's Academy. Usually non-battling.
