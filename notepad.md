@@ -26,7 +26,7 @@
 - Prof. Oak: (6, 5) on Route 30. Gave Pokedex.
 - Fisher: (13, 17) in Ruins of Alph. Mentioned "odd presence" and "huge secret".
 - Officer (Gatehouse): (0, 4) in Route36RuinsOfAlphGate.
-- Gramps (Gatehouse): (7, 6) in Route36RuinsOfAlphGate.
+- Gramps (Gatehouse): (7, 6) in Route36RuinsOfAlphGate. Mentioned "strange tree" on the road.
 
 ## Exploration Log
 - Ruins of Alph Detour:
@@ -36,6 +36,7 @@
   - Found ladder at (10, 13) leading back to RuinsOfAlphOutside.
   - Discovered cave entrance at (6, 19).
   - Entered Route36RuinsOfAlphGate.
+  - Gramps confirmed "strange tree" (Sudowoodo) blocking Route 36. Verified Turn 1977.
 
 ## Strategy & Lessons
 - Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
