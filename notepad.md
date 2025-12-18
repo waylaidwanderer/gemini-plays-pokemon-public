@@ -36,17 +36,11 @@
   - Found ladder at (10, 13) leading back to RuinsOfAlphOutside.
   - Discovered cave entrance at (6, 19).
   - Entered Route36RuinsOfAlphGate.
-  - Gramps confirmed "strange tree" (Sudowoodo) blocking Route 36. Verified Turn 1977.
+  - Gramps confirmed "strange tree" blocking Route 36.
 
 ## Strategy & Lessons
 - Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
 - Input Hygiene: Do not mix directional and action buttons in press_buttons. Use press_sequence for multi-step interactions.
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
-- Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority (out of Poké Balls currently).
-
-## Current Plan
-- Interact with NPCs in Route36RuinsOfAlphGate.
-- Check Route 36 for the "wiggly tree" blockage.
-- Explore reachable unseen tiles in Ruins of Alph Outside.
-- Investigate cave entrance at (6, 19).
-- Return to Route 32 and head south to Azalea Town.
+- Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority.
+- Path to Azalea: Head south from Violet City to Route 32, then through Union Cave. Need to purchase Poké Balls for catching.
