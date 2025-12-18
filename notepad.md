@@ -25,10 +25,14 @@
   1. Talk to Gym Guide at (7, 13) - DONE.
   2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
   3. Defeat Bug Catcher Al at (8, 10) - DONE.
-  4. Defeat Bug Catcher Benny at (5, 3).
-  5. Explore for remaining trainers.
+  4. Defeat Bug Catcher Benny at (5, 3) - DONE.
+  5. Defeat Bug Catcher Josh at (0, 2).
   6. Defeat Gym Leader Bugsy.
 - Time Tracking: Exploration started at Turn 2596.
+
+## Strategy: Azalea Gym Layout
+- The gym uses a "spider" transit system.
+- Need to map which spider leads where.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
@@ -44,7 +48,8 @@
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
 - Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
-- Bug Catcher Benny: Weedle (Lv7), Kakuna (Lv9) - Defeated. Beedrill (Lv12) - Battling.
+- Bug Catcher Benny: Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
+- Bug Catcher Josh: Next target at (0, 2).
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
@@ -60,3 +65,4 @@
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game.
 - Moving NPCs can block `navigate` and `find_path`. Stun them or wait.
+- In battle switch menus, "YES" is the default. Be careful when declining a switch.
