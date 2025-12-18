@@ -22,7 +22,7 @@
   3. Repeat until Gneiss hits Lv11 (Rock Throw).
   4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
 - **EXP Tracking:**
-  - Gneiss (Lv6, 182 EXP): Needs to reach 742 EXP for Lv11 Rock Throw (560 more). Learned Defense Curl.
+  - Gneiss (Lv6, 212 EXP): Needs to reach 742 EXP for Lv11 Rock Throw (530 more). Learned Defense Curl.
   - Rocky (Lv5, 125 EXP): Needs to reach 2744 EXP for Lv14 Rock Throw (2619 more).
 - **Turn Start:** 1559.
 
