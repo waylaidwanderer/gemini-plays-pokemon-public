@@ -65,3 +65,6 @@
 - **Current Action:** Navigate to (8, 6).
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
+- **Battle Correction:** Inputs `Down, Right` were ignored in Turn 5622, leading to accidental `Leer` (Slot 2). Likely timing issue. Increasing sleep after Menu Open.
+- **Move Grid:** Layout is 1(TL), 2(TR), 3(BL), 4(BR).
+- **Universal Slot 4 Seq:** `Left` -> `Down` -> `Right` (From Slot 1 or 2).
