@@ -16,9 +16,15 @@
 
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner.
-- Hive Badge: Target. Azalea Town.
+- Hive Badge: Target Azalea Town.
 
-## NPC Archive
+## NPC Archive - Route 32
+- Fisher (15, 13): Standing at (16, 13) required to talk.
+- Cooltrainer M (19, 8): Blocking path (Badge Req).
+- Fisher (19, 14): Discovered.
+- Youngster (12, 22): Trainer? Discovered at (12, 22).
+
+## NPC Archive - Previous Areas
 - KYLE: (6, 4) in Violet City. Traded Bellsprout for Rocky (ONIX).
 - EARL: (25, 14) at Violet Academy.
 - Nurse Joy: (3, 1) in Violet Pokecenter.
@@ -33,62 +39,25 @@
 - Weird Tree: (35, 9) on Route 36. Blocks path to Goldenrod. Does not respond to A.
 
 ## Exploration Log
-- Ruins of Alph Detour:
-  - Solved Kabuto Puzzle.
-  - Explored Inner Chamber.
-  - Encountered wild UNOWN (Psychic, Hidden Power).
-  - Found ladder at (10, 13) leading back to RuinsOfAlphOutside.
-  - Discovered cave entrance at (6, 19).
-  - Entered Route36RuinsOfAlphGate.
-  - Gramps confirmed "strange tree" blocking Route 36.
+- Ruins of Alph Detour: Solved Kabuto Puzzle. Explored Inner Chamber. Found ladder at (10, 13) leading back to RuinsOfAlphOutside. Discovered cave entrance at (6, 19).
 - Route 36: Investigating the "odd tree" reported by NPCs. Sign at (55, 7) confirms location. Lass confirms it blocks the way to Goldenrod City. Arthur found at (45, 5).
 
 ## Strategy & Lessons
-- Puzzle Solved: Numerical order 1-16 is correct for Kabuto.
 - Input Hygiene: Do not mix directional and action buttons in press_buttons. Use press_sequence for multi-step interactions.
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
-- Unown Battle: Psychic-type. Only know Hidden Power. Catching is priority.
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave. Pass through cave to reach Azalea Town.
-- Resource Management: Need to restock Poké Balls at the next Mart.
-
-## Strategy for Reaching Azalea Town
-1. **Route 32:** From Violet City, head south through the gatehouse to Route 32.
-2. **Union Cave:** Navigate south along Route 32 to the entrance of Union Cave.
-3. **Azalea Town:** Traverse Union Cave to exit on the southern side, leading directly to Azalea Town.
-4. **Training:** Use Geodude (Gneiss) for training against trainers on Route 32 to prepare for the next Gym.
-
-## Tile Mechanics - Route 32
-- FLOOR: Traversable. Verified.
-- TALL_GRASS: Traversable. Verified. Wild encounters possible.
-- LEDGE_HOP_RIGHT: One-way East. Verified at (17, 12), (17, 13), (17, 14).
-- LEDGE_HOP_DOWN: One-way South. Verified at (16, 15).
-- WALL / FLOOR_UP_WALL: Impassable. Verified.
-- WATER: Impassable without Surf. Verified.
-- WARP_CARPET_LEFT: Map transition at (4, 2) and (4, 3). Verified.
+- Tile Mechanics (Route 32): 
+  - LEDGE_HOP_RIGHT: One-way East at (17, 12-14).
+  - LEDGE_HOP_DOWN: One-way South at (16, 15).
+  - WATER: Impassable without Surf.
+  - WALL (x=15): Extends from y=14 to y=19.
 
 ## Strategy for Training
 - **Rocky (Onix):** Switch-train against trainers on Route 32 to catch up in levels.
 - **Egg (Togepi):** Switch-train to gain happiness and levels.
-- **Gneiss (Geodude):** Primary for bird trainers, but needs healing. Current priority: Heal with Potion.
+- **Gneiss (Geodude):** Primary for bird trainers. Healed to 30/37 HP (Turn 2061).
 - **Calcifer (Quilava):** Lead for safety and efficiency against grass types.
 
-## NPC Archive - Route 32
-- Fisher (15, 13): Discovered.
-- Cooltrainer M (19, 8): Blocking path (Badge Req).
-- Fisher (19, 14): Discovered.
-
-## Lessons Learned
-- **Tile Mechanics:** `FLOOR_UP_WALL` and `MART_SHELF` are impassable obstacles that must be accounted for in pathfinding.
-- **Menu Navigation:** When purchasing items, "Up" increases quantity and "Down" decreases it. Rolling over from 1 using "Down" can reach the maximum affordable quantity.
-- **Tool Maintenance:** Always ensure pathfinding tools account for both tile collision types and map markers (for off-screen obstacles).
-
 ## Task Tracking
-- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. Current Status: Healing Gneiss and navigating around the ledge to reach Fisher (15, 13). Standing at (16, 13) is required to talk to him.
-- **Hypothesis 1:** Fisher (15, 13) is a trainer. Test: Stand at (16, 13) and talk to him.
-- **Hypothesis 2:** Fisher (19, 14) is a trainer. Test: Stand at (18, 14) and talk to him.
-
-- **Hypothesis 1:** Fisher (15, 13) is a trainer. Test: Stand at (16, 13) and talk to him.
-- **Hypothesis 2:** Fisher (19, 14) is a trainer. Test: Stand at (18, 14) and talk to him.
-## Task Tracking Update
-- **Turn 2061:** Gneiss healed to 30/37 HP. Closing menu and heading south to explore Row 20+ to find a way west towards Fisher (15, 13).
-- **Cleanup:** Restocking task complete. Remaining money ¥1731.
+- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
+- **Current Status:** Navigating around the wall at x=15 to reach Fisher (15, 13). Standing at (16, 13) is required to interact.
