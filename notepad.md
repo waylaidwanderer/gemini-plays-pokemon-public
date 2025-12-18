@@ -6,12 +6,22 @@
 - TALL_GRASS: Traversable; wild encounters. Verified.
 - LEDGE_HOP_DOWN: One-way South. Verified.
 - LEDGE_HOP_RIGHT: One-way East. Verified.
-- COUNTER: Impassable. Face to interact. Verified.
+- COUNTER: Impassable. Interaction with NPCs behind counters must be done by facing the counter tile directly. Verified.
 - HEADBUTT_TREE / CUT_TREE: Impassable. Verified.
 - WARP_CARPET: Exit map. Verified.
 - LADDER / DOOR / CAVE: Warp. Triggered immediately upon entering the tile. Verified.
-- PC / BOOKSHELF / RADIO: Interactable objects. Verified.
+- PC / BOOKSHELF / RADIO: Interactable objects. Stand below, face up, and press A to activate. Verified.
 - WATER / ROCK / INCENSE_BURNER: Impassable. Verified.
+- NPCs / Objects: Act as walls. Navigate around or interact from adjacent tile. Verified.
+
+## Training Strategy: Route 32
+- **Route:** Exit Violet City south to Route 32.
+- **Process:**
+  1. Lead with Gneiss (Lv4) or Rocky (Lv5).
+  2. Switch to Calcifer (Lv14) to finish the battle.
+  3. Repeat until Gneiss hits Lv11 (Rock Throw).
+  4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
+- **Turn Start:** 1502.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
 - **Team Composition:**
