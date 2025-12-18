@@ -14,20 +14,19 @@
 - PC / BOOKSHELF / RADIO: Interactable from below (face Up + A).
 - WATER / ROCK / INCENSE_BURNER: Impassable.
 
+## Gym Progress
+- **Zephyr Badge:** Obtained from Falkner (Turn 1864).
+  - Effect: Increases Attack power.
+  - Ability: Can use FLASH outside battle.
+- **Hive Badge:** Target. Azalea Town.
+
 ## EXP Tracking
-- Gneiss (GEODUDE, Medium Slow): Lv12 (1112 EXP). Next: Lv13 (1261 EXP).
+- Gneiss (GEODUDE, Medium Slow): Lv13 (1329 EXP). Next: Lv14 (1596 EXP).
 - Rocky (ONIX, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold.
 
-## Primary Goal Strategy: Defeat Falkner (Violet City)
-- **Start Turn:** 1850 (Falkner battle).
-- **Opponent Data:** Pidgey (Lv7), Pidgeotto (Lv9).
-- **Key Move:** Mud-Slap (Lowers Accuracy).
-- **Tactics:**
-  - Lead with GNEISS (GEODUDE).
-  - Use Rock Throw (Lv11+) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
-  - If accuracy drops too low, switch to Calcifer or Icarus.
-  - Calcifer (QUILAVA) Lv15 is the heavy hitter backup.
-- **Current Status:** Defeated Falkner! Gneiss reached Lv13. Waiting for Zephyr Badge.
+## Key Items & TMs
+- TM31 (MUD-SLAP): Received from Falkner. Accuracy-lowering Ground move.
+- HM05 (FLASH): Received from Sage Li.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
@@ -56,3 +55,4 @@
 - **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
 - **Navigation Safety:** Always verify "Current Screen Text" is empty before moving.
 - **Battle State:** Do not attempt overworld movement while in battle or during transitions.
+- **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Falkner's Flying-types.
