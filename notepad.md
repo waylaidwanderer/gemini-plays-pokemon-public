@@ -20,18 +20,12 @@
 - Hive Badge: Target Azalea Town.
 
 ## NPC Archive - Route 32
-- Camper Roland (3, 43): Defeated (Turn 2125).
-- Fisher (15, 13): Discovered. Eastern path.
-- Fisher (19, 14): Discovered. Eastern path.
-- Fisher (6, 48): Discovered. Eastern path.
-- Fisher (8, 49): Discovered. Eastern path.
+- Fisher (15, 13): Eastern path.
+- Fisher (19, 14): Eastern path. Likely near water.
+- Fisher (6, 48): Eastern path docks.
+- Fisher (8, 49): Eastern path docks.
 
 ## Strategy & Lessons
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
-- Training: Switch-train trainees by leading with Gneiss/Calcifer and switching on Turn 1.
+- Training: Switch-train trainees (Rocky, Egg, Apophis) by leading with Gneiss/Calcifer and switching on Turn 1.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
-
-## Task Tracking
-- **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Explore south on Western path to find Union Cave entrance.
-- **Milestone:** Full party of 6 reached (Turn 2116).
