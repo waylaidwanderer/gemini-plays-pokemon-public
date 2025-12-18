@@ -19,11 +19,13 @@
 ## Strategy: Azalea Gym (Bug-type)
 - Target: Gym Leader Bugsy.
 - Team: Bug-type Pokemon (Scyther is the ace).
-- Counter: Calcifer (Quilava) with Ember. Gneiss (Geodude) with Rock Throw.
+- Advice: Bug Pokemon are weak to Fire and Flying moves.
+- Counter: Calcifer (Quilava) with Ember. Icarus (Pidgey) with Gust. Gneiss (Geodude) with Rock Throw.
 - Plan:
-  1. Talk to Gym Guide at (7, 13).
+  1. Talk to Gym Guide at (7, 13) - DONE.
   2. Defeat trainers (Twins at 4, 10 and 5, 10).
-  3. Defeat Gym Leader Bugsy.
+  3. Explore for other trainers.
+  4. Defeat Gym Leader Bugsy.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
