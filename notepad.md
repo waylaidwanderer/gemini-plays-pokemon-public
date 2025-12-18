@@ -56,9 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** The SW corner (2, 29) is blocked.
-    - **Obstacle Update:** North path blocked by fences at Rows 3 & 5 in the central columns.
-    - **Plan:** Move East along Row 5 (FLOOR) to finding an opening in the North fence (likely on the far East side), then loop back West along the top edge (Row 2).
-- **Current Action:** Navigate East to (28, 5) to explore the North-East boundary.
+    - **Obstacle Update:** Wall at (24, 5) blocks direct East path. Must navigate South around it.
+    - **Plan:** Navigate around the obstacle and the Gameboy Kid at (26, 6) to reach the East side (x=28), then check for North access.
+- **Current Action:** Navigate around Gameboy Kid to (27, 5).
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
