@@ -55,7 +55,7 @@
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Fighting Wild Rattata (Lv 11).
-- **Strategy:** Switch to Rocky (Switch Training).
+- **Strategy:** Use Headbutt with Rocky (Defense -1).
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Azurite (Lv 10), Rocky (Lv 12).
-- **Plan:** Grind on Route 34 until Lv 18.
+- **Status:** Rocky battling (HP 29/32).
+- **Plan:** Defeat Rattata, then heal if needed or continue hunting.
