@@ -1,18 +1,18 @@
 # Johto Journey: Gem's Log
 
-## Global Tile Mechanics
-- FLOOR: Traversable.
-- WALL / FLOOR_UP_WALL: Impassable.
-- TALL_GRASS: Traversable. Wild encounters.
-- LEDGE_HOP_DOWN: One-way South.
-- LEDGE_HOP_RIGHT: One-way East.
-- LEDGE_HOP_UP: Impassable (Verified).
-- COUNTER: Impassable. Stand in front to talk to NPCs behind.
-- HEADBUTT_TREE: Impassable (Verified).
-- CUT_TREE: Impassable.
-- WARP_CARPET: Map transition at edges.
+## Global Tile Mechanics (Verified)
+- FLOOR: Traversable. Standard ground.
+- WALL / FLOOR_UP_WALL: Impassable collision.
+- TALL_GRASS: Traversable. Triggers wild Pokémon encounters.
+- LEDGE_HOP_DOWN: One-way traversal (South).
+- LEDGE_HOP_RIGHT: One-way traversal (East).
+- LEDGE_HOP_UP: Impassable.
+- COUNTER: Impassable. Stand in front to interact with NPCs behind (Nurses, Clerks).
+- HEADBUTT_TREE: Impassable.
+- CUT_TREE: Impassable. Requires CUT.
+- WARP_CARPET: Map transition at edges or building entrances.
 - LADDER / DOOR / CAVE: Instant warp upon entry.
-- PC / BOOKSHELF / RADIO: Interactable from below.
+- PC / BOOKSHELF / RADIO / SIGN: Interactable from an adjacent tile (usually below for PC/Bookshelf).
 - WATER / ROCK / INCENSE_BURNER / MART_SHELF: Impassable.
 
 ## Gym Progress
@@ -24,21 +24,11 @@
 - Fisher (19, 14): Eastern path. Likely near water.
 - Fisher (6, 48): Eastern path docks.
 - Fisher (8, 49): Eastern path docks.
+- Fisher (7, 70): Slowpoketail Scam. Declined ¥1,000,000 offer.
+
+## Training Strategy
+- Switch Training: Lead with a strong Pokémon (e.g., Gneiss or Calcifer) and immediately switch to a lower-level Pokémon (e.g., Rocky, Egg, Apophis) on Turn 1 of a battle. This splits EXP and ensures safety.
 
 ## Strategy & Lessons
 - Path to Azalea: Exit Violet City south to Route 32. Follow road south to Union Cave.
-- Training (How-To): Switch-train trainees (Rocky, Egg, Apophis) by leading with a stronger Pokémon (Gneiss or Calcifer), then immediately switching to the trainee on Turn 1 of a battle. This splits EXP and ensures safety.
 - Navigation: Route 32 has a Western and Eastern path separated by water/walls. I am currently on the Western path.
-- Fisher (7, 70): Likely a trainer. Facing down. approach from (7, 71).
-## Training Strategy
-- Switch Training: Lead with a strong Pokémon (e.g., Gneiss or Calcifer) and immediately switch to a lower-level Pokémon (e.g., Rocky, Egg, Apophis) on Turn 1. This splits the EXP and allows weaker Pokémon to level up safely without being exposed to danger.
-
-## Global Tile Mechanics (Verified)
-- FLOOR: Standard traversable tile.
-- WALL: Impassable collision.
-- COUNTER: Impassable. Used to interact with NPCs behind it (e.g., Nurses, Clerks).
-- WARP_CARPET_DOWN: Triggers a map transition when walking onto it from above.
-- LADDER: Triggers a map transition when stepping onto it.
-- TALL_GRASS: Traversable, triggers wild Pokémon encounters.
-- LEDGE: One-way traversal (down or right).
-- PC / SIGN: Interactable from an adjacent tile.
