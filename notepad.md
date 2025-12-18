@@ -68,4 +68,4 @@
 - **Tool Maintenance:** Always ensure pathfinding tools account for both tile collision types and map markers (for off-screen obstacles).
 
 ## Task Tracking
-- **Restocking Poké Balls:** Started Turn 2020. Current Turn 2025. Goal: 10 Poké Balls.
+- **Restocking Poké Balls:** Completed Turn 2028. Obtained 10 Poké Balls. Remaining Money: ¥1731.
