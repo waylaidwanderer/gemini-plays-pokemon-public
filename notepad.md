@@ -23,9 +23,10 @@
 - Counter: Calcifer (Quilava) with Ember. Icarus (Pidgey) with Gust. Gneiss (Geodude) with Rock Throw.
 - Plan:
   1. Talk to Gym Guide at (7, 13) - DONE.
-  2. Defeat trainers (Twins at 4, 10 and 5, 10).
-  3. Explore for other trainers.
-  4. Defeat Gym Leader Bugsy.
+  2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
+  3. Defeat Bug Catcher Al at (8, 10).
+  4. Explore for remaining trainers.
+  5. Defeat Gym Leader Bugsy.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
@@ -40,13 +41,14 @@
 - Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
+- Bug Catcher Al: Caterpie (Lv?), Weedle (Lv?) - Battling at (8, 10).
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
 - Charcoal Kiln at (21, 13).
 - Poké Mart at (21, 5).
 - Pokémon Center at (15, 9).
-- Team Rocket Grunt at (31, 9): Verify if gone.
+- Team Rocket Grunt at (31, 9): Defeated/Gone.
 - Kurt's House at (9, 5). Inside: Kurt (3, 2), Granddaughter (5, 3).
 - Apricorn Mechanic: Bring Apricorns to Kurt at (3, 2).
 
