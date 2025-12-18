@@ -65,6 +65,7 @@
 ## Strategy for Bellsprout
 - Location: Route 31 Tall Grass.
 - Method: Walk around in grass until encounter.
-- Team: Lead with Calcifer (Cyndaquil) to avoid Icarus's high damage. Use Tackle (Normal) to weaken. Avoid Ember (Fire) to prevent KO.
+- Team: Lead with GNEISS (Geodude) or use Smokescreen/Leer to avoid accidental KO. Calcifer's Tackle is too strong (crits kill).
 - Catching: Use Poké Ball.
 - Goal: Trade for ONIX in Violet City.
+- **Note:** Accidentally fainted first Bellsprout with a crit Tackle on Turn 973. Need to find another.
