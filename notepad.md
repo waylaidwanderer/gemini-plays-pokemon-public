@@ -36,6 +36,6 @@
 
 ## Battle Log: Hiker Russell
 - Start Turn: #2236.
-- Opponents: Geodude (Lv4) [Defeated], Geodude (Lv4) [Current].
-- Training: Apophis tagged (Turn #2246). Rocky tagged (Turn #2254). Icarus tagging (Turn #2264).
+- Opponents: Geodude (Lv4) [Defeated], Geodude (Lv6) [Current].
+- Training: Apophis tagged (Turn #2246). Rocky tagged (Turn #2254). Icarus tagged (Turn #2266).
 - Finisher Plan: Switch to Calcifer to end battle.
