@@ -51,8 +51,6 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Caught Wild Drowzee (Lv 12) "LUCID".
-- **Current Status:** Rocky (Lv 12) Lead. Azurite (Lv 10).
-- **Note:** Menu navigation is tricky. Switching to "Switch Training" strategy (Switch Azurite in during battle).
-- **Immediate Goal:** Hunt on Route 34.
-- **Then:** Challenge Whitney (Goldenrod Gym).
+- **Battle Note:** Encountered Wild Jigglypuff (Lv 12).
+- **Goal:** Catch it.
+- **Current State:** Rocky (Lv 12, Asleep) is out. Switching to Azurite (Slot 6) to weaken.
