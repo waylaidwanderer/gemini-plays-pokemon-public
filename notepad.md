@@ -58,9 +58,9 @@
 - Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
 - Turn Tracking: Always use the turn number provided in the Game State.
 ## Immediate Strategy (Turn 527)
-2. Explore house at (31, 11).
+2. Explore house at (31, 11). [DONE]
 3. Transition to Route 30 via (16, 0).
-4. Training: Route 30/31 until Icarus Lv9 and Calcifer Lv12.
+4. Training: Route 31 (Icarus Lv9, Calcifer Lv13) and Sprout Tower (Calcifer Lv13).
 5. Catch Geodude in Dark Cave.
 ## Tile Mechanics (Verified)
 - MART_SHELF: Impassable (acts as WALL).
