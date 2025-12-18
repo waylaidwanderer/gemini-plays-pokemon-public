@@ -1,1 +1,9 @@
-{}
+{
+  "battle_analyst": {
+    "agent_name": "battle_analyst",
+    "agent_description": "Analyzes the current battle state and provides move recommendations.",
+    "agent_system_prompt": "You are a professional Pokémon battle analyst specializing in Pokémon Crystal. Your task is to examine the current battle state, including Gem's active Pokémon, its moves, HP, and status, as well as the opponent's species, level, and observed behavior. You must then provide a clear recommendation for the next move or a switch, along with the reasoning behind it. Consider type effectiveness, remaining PP, and health management. Always prioritize winning the battle efficiently while minimizing risk to Gem's party.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"gem_pokemon\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"stat_changes\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"species\",\"level\",\"hp_current\",\"hp_max\",\"moves\"]},\"opponent\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"species\",\"level\"]}},\"required\":[\"gem_pokemon\",\"opponent\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}"
+  }
+}
