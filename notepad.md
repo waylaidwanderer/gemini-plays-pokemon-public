@@ -3,53 +3,34 @@
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
-- HEADBUTT_TREE: Impassable; possible Headbutt interaction.
+- HEADBUTT_TREE: Hypothesis - May react to Headbutt move.
 - TALL_GRASS: Triggers wild battles.
-- LEDGE_HOP_DOWN: One-way jump South.
-- LEDGE_HOP_LEFT: One-way jump West (2 tiles).
+- LEDGE_HOP_DOWN: One-way South jump.
+- LEDGE_HOP_LEFT: One-way West jump (2 tiles).
 - CAVE: Warp leading to interior.
 - FLOOR_UP_WALL: Impassable wall above floor.
 - LADDER: Stairs warp.
 - WATER: Impassable without Surf.
 
 ## Progress
-- Zephyr Badge: Obtained (Violet City).
-- Hive Badge: Current objective (Azalea Town).
-- Exploration Start: Turn 2596 (Azalea Gym).
+- Badges: Zephyr (Violet City).
+- Current Goal: Defeat Bugsy for the Hive Badge.
 
-## Strategy: Azalea Gym (Bug-type)
+## Strategy: Azalea Gym & Bugsy
 - Leader: Bugsy.
-- Ace: Scyther.
-- Strategy: Use Fire (Calcifer/Quilava) and Rock (Gneiss/Geodude).
-- Layout: Maze of trees (walls).
+- Team: Metapod (Lv14), Scyther (Lv16), Kakuna (Lv?).
+- Tactics: Use Fire (Calcifer/Quilava) and Rock (Gneiss/Geodude). Scyther is 4x weak to Rock.
 
 ## Trainer Rosters (Johto)
-- Rocket Grunt 1: Rattata x2 (Lv9) - Defeated.
-- Rocket Grunt 2 (F): Zubat (Lv9), Ekans (Lv11) - Defeated.
-- Rocket Grunt 3: Rattata (Lv7), Zubat (Lv9) - Defeated.
-- Rocket Grunt 4: Koffing (Lv14) - Defeated.
-- Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
-- Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
-- Bug Catcher Benny: Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
-- Bug Catcher Josh: Paras (Lv13) - Defeated.
-- Gym Leader Bugsy: Metapod (Lv14) - Defeated. Scyther (Lv16) - Battling.
+- Rocket Grunts (Slowpoke Well): All defeated.
+- Azalea Gym Trainers: Amy & May, Al, Benny, Josh all defeated.
+- Gym Leader Bugsy: Metapod (Defeated), Scyther (Defeated).
 
 ## Azalea Town Summary
-- Slowpoke Well: (31, 7).
-- Charcoal Kiln: (21, 13).
-- Poké Mart: (21, 5).
-- Pokémon Center: (15, 9).
-- Kurt's House: (9, 5). Kurt (3, 2) makes Balls from Apricorns.
+- Locations: Well (31, 7), Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
+- Kurt: Makes custom Balls from Apricorns.
 
-## Lessons Learned
-- Always verify foundations in-game.
-- NPCs can block paths; use stun_npc.
-- "YES" is default in battle menus; be careful.
-- Type effectiveness is key (Bug weak to Fire/Flying/Rock).
-
-## Strategy: Bugsy Battle
-- Opponent: Bugsy.
-- Lead: Calcifer (Quilava) Lv20.
-- Backup: Gneiss (Geodude) Lv15 (Rock Throw is super effective).
-- Counter: Fire and Rock moves.
-- Note: Scyther is the main threat.
+## Key Discoveries
+- Type: Bug is weak to Fire, Flying, and Rock.
+- NPCs: Use `stun_npc` if they block paths.
+- Menus: Decline switches carefully (YES is default).
