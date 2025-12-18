@@ -9,6 +9,7 @@
 - LEDGE_HOP_LEFT: One-way (West only).
 - DOOR / STAIRCASE / WARP_CARPET: Warp points.
 - HEADBUTT_TREE / CUT_TREE / WATER: Impassable; require HM moves.
+- unseen (❓): Unknown traversability; requires exploration.
 
 ## NPCs & Interactions
 ### Mr. Pokémon's House (26_10)
