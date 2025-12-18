@@ -65,7 +65,6 @@
 - **Training Logs:**
     - Session Start: Turn 679.
     - Milestone: Icarus (Pidgey) reached Lv4 (Turn 687).
-    - Session Status: Ongoing. Party healthy.
 - **Exploration Targets:**
     - Unseen tiles on Route 30 at (12, 3-15) and (1, 26-35). Priority after training.
 
