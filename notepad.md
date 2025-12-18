@@ -51,7 +51,7 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** DIVA (Jigglypuff) caught and sent to PC.
-- **Current Status:** Rocky (Asleep), Azurite (Critical HP).
-- **Immediate Goal:** Return to Goldenrod Center to Heal & Reorder Party.
+- **Current Status:** In Goldenrod Center. Rocky (Asleep), Azurite (Critical HP).
+- **Immediate Goal:** Heal Party.
+- **Next:** Reorder Party (Azurite Lead).
 - **Then:** Resume Training on Route 34.
