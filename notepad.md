@@ -77,10 +77,12 @@
 - Training: Sprout Tower is a good place to train Calcifer to Lv12 for Ember (Cyndaquil learns Ember at Lv12 in Crystal). Onix (Rocky) and Geodude (Gneiss) will also gain EXP.
 - Navigation: WARP_CARPET_DOWN at (9, 15) and (10, 15) leads to Violet City (23, 5).
 - Objects: STATUE and SPROUT_TOWER_STATUE are impassable.
+
 ## Timestamps
 - Started Academy visit Turn 1167.
 - Met Earl (Spinning Master) Turn 1210.
 - Entered Sprout Tower Turn 1213.
+
 ## Sprout Tower Exploration
 - Sprout Tower 2F entered Turn 1240.
 - The central pillar is a giant Bellsprout, causing the tower to shake.
