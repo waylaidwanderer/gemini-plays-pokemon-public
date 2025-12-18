@@ -40,5 +40,5 @@
 ## Grinding Session Log
 - **Start Turn:** 4576
 - **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
-- **Status:** Azurite Lv 12, Rocky Lv 14. Grinding on Route 34.
+- **Status:** Azurite Lv 12 (31/43 HP), Rocky Lv 14. Battling Rattata.
 - **Event:** Bug-Catching Contest today (Thursday).
