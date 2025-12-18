@@ -123,8 +123,8 @@
       }
     ]
   },
-  "party_swap": {
-    "description": "Swaps two Pokemon in the party. Assumes the player is in the overworld.",
+  "party_swap_v2": {
+    "description": "Swaps two Pokemon in the party. Assumes the player is in the overworld. Incorporates menu stability and precise cursor management.",
     "input_schema": {
       "properties": {
         "slot_a": {
@@ -142,12 +142,12 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef party_swap(slot_a, slot_b):\n    # Assumes overworld, main menu closed.\n    # 1-indexed slots\n    buttons = [\"Start\", \"Down\", \"A\"]\n    # Now in party menu. Cursor starts on first slot.\n    for _ in range(slot_a - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    # Menu: STATS, SWITCH, CANCEL (SWITCH is 2nd)\n    buttons.extend([\"Down\", \"A\"])\n    # Now in switch mode, cursor on slot_a\n    diff = slot_b - slot_a\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n    buttons.append(\"A\")\n    buttons.extend([\"B\", \"B\", \"B\"])\n    return buttons\n\ninput_data = json.loads(sys.argv[1])\nprint(json.dumps(party_swap(int(input_data['slot_a']), int(input_data['slot_b']))))",
+    "python_script": "import json\nimport sys\n\ndef party_swap(slot_a, slot_b):\n    # Assumes overworld, main menu closed.\n    # 1-indexed slots\n    buttons = [\"Start\", \"sleep 500\"]\n    # Ensure cursor is at the top (Pokedex)\n    for _ in range(8):\n        buttons.append(\"Up\")\n    # Move to Pokemon and select\n    buttons.extend([\"Down\", \"A\", \"sleep 500\"])\n    # Now in party menu. Cursor starts on first slot.\n    for _ in range(slot_a - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    # Menu: STATS, SWITCH, CANCEL (SWITCH is 2nd)\n    buttons.extend([\"sleep 500\", \"Down\", \"A\", \"sleep 500\"])\n    # Now in switch mode, cursor on slot_a\n    diff = slot_b - slot_a\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n    buttons.append(\"A\")\n    buttons.extend([\"sleep 500\", \"B\", \"B\", \"B\"])\n    return buttons\n\ninput_data = json.loads(sys.argv[1])\nprint(json.dumps(party_swap(int(input_data['slot_a']), int(input_data['slot_b']))))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-18T19:33:46.725Z",
-        "action_counter": 2311
+        "timestamp": "2025-12-18T19:35:34.312Z",
+        "action_counter": 2313
       }
     ]
   }
