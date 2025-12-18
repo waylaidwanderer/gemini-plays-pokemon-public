@@ -41,4 +41,4 @@
 - **Start Turn:** 4576
 - **Objective:** Azurite Lv 19 (Counter), Rocky Lv 15+
 - **Status:** Azurite Lv 11 (Sleep), Rocky Lv 13 (Sleep, Headbutt Disabled)
-- **Battle Menu Cursor:** Remembers the last selected move slot. Must account for this when navigating menus to avoid selecting the wrong move.
+- **Battle Menu Cursor:** Cursor stuck on Slot 4 (Headbutt). Using manual reset (Up+Left) to target Slot 1 (Tackle).
