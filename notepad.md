@@ -49,7 +49,7 @@
 ## Training Tracker
 - Training Goal: Calcifer and Icarus to Lv10-12.
 - Started: Turn 421.
-- Current Status: Icarus Lv2 (13/13 HP, 56 EXP), Calcifer Lv7 (2/23 HP, 252 EXP). [DANGER: LOW HP]
+- Current Status: Icarus Lv2 (10/13 HP, 56 EXP), Calcifer Lv7 (2/23 HP, 252 EXP). [DANGER: LOW HP]
 ## Current Battle: Wild Poliwag (Lv4)
 - Goal: Defeat for EXP.
 - Plan: Use TACKLE until fainted.
