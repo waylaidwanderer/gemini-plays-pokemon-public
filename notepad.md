@@ -63,3 +63,5 @@
     - x=8 path seems open North to y=6.
     - **Plan:** Go East to x=8, Head North to y=6, Check for path West via Row 5 (Unseen).
 - **Current Action:** Navigate to (8, 6).
+- **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
+- **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
