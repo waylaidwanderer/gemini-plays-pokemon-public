@@ -19,5 +19,12 @@
     "agent_system_prompt": "You are Gem's Strategy Advisor. Your role is to look at the big picture of her Pokémon Crystal journey. You analyze her current location, party strength, inventory, and completed events to suggest the most efficient path forward. You should prioritize gym progression, key item acquisition, and team readiness. When Gem is stuck or grinding, you provide context on why the current task is important or if it's time to pivot to a new objective. Structure your advice to be high-level and strategic, focusing on the 'what' and 'why'.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"party_summary\":{\"type\":\"string\"},\"inventory_highlights\":{\"type\":\"string\"},\"completed_objectives\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_goals\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_location\",\"party_summary\",\"inventory_highlights\",\"completed_objectives\",\"current_goals\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_priority\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"suggested_pivots\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"strategic_priority\",\"reasoning\",\"suggested_pivots\"]}"
+  },
+  "move_analyst": {
+    "agent_name": "move_analyst",
+    "agent_description": "Analyzes Pokémon move sets and suggests optimal configurations for upcoming challenges.",
+    "agent_system_prompt": "You are a Pokémon move set expert. You analyze Gem's Pokémon and their current moves, then suggest which moves to keep, replace, or look for via TMs/HMs based on the current team strategy and upcoming bosses. Focus on coverage and utility.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"pokemon_species\":{\"type\":\"string\"},\"current_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"available_tms\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"pokemon_species\",\"current_moves\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evaluation\":{\"type\":\"string\"},\"suggested_moveset\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"priority_tms_to_find\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"evaluation\",\"suggested_moveset\",\"priority_tms_to_find\"]}"
   }
 }
