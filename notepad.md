@@ -24,7 +24,7 @@
 - Plan:
   1. Talk to Gym Guide at (7, 13) - DONE.
   2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
-  3. Defeat Bug Catcher Al at (8, 10).
+  3. Defeat Bug Catcher Al at (8, 10) - DONE.
   4. Explore for remaining trainers.
   5. Defeat Gym Leader Bugsy.
 
@@ -41,7 +41,7 @@
 - Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
 - Rocket Grunt (Well 4): Koffing (Lv14) - Defeated.
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
-- Bug Catcher Al: Caterpie (Lv12) - Defeated, Weedle (Lv12) - Battling.
+- Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
