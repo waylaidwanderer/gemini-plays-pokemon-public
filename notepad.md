@@ -48,6 +48,6 @@
 - **Ilex Forest Path:**
   - Enter from South.
   - Go North to Cut Tree at (8, 25).
-  - After Cut Tree, go North to (8, 24).
-  - Go West to the edge (Column 0-1).
-  - Go North along the West edge to the Exit Gate at (1, 5).
+  - Head East towards the center, then navigate to the East edge (Column 22).
+  - Go North along the East edge to bypass the trees.
+  - Loop West along the North edge to reach the Exit Gate at (1, 5).
