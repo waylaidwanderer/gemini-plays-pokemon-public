@@ -61,13 +61,16 @@
 - WALL: Impassable. Verified Turn 1891.
 - COUNTER: Impassable. Stand in front to talk to NPCs behind. Verified Turn 1891.
 - WARP_CARPET: Map transition at edges. Verified Turn 1891.
+- TALL_GRASS: Traversable. Wild encounters.
+- LEDGE_HOP_DOWN: One-way South.
+- LEDGE_HOP_RIGHT: One-way East.
 
 ## Strategy: Azalea Town
 - **Azalea Town:** Follow Route 32 south, pass through Union Cave to reach Azalea Town.
 - **HMs:** Use FLASH in Dark Cave if level grinding is needed or for shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
 
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Exploring via Route 32 gatehouse. Currently in Route32RuinsOfAlphGate.
+- **Ruins of Alph Detour:** Started Turn 1888. Exploring via Route 32 gatehouse. Currently in Route32RuinsOfAlphGate. Last Update: Turn 1894.
 
 ## Reflection Turn 1869
 - **Immediate Execution:** No deferred tasks. Falkner defeated, badge obtained.
