@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Obtain Abra (Trade Material).
+    1. Obtain Abra (Trade Material) - **Done**.
     2. Trade Abra for Machop (Dept Store 5F).
     3. Train Machop and team for Whitney.
 - **Learned:** Crystal Trade: Abra <-> Machop (Dept Store 5F).
