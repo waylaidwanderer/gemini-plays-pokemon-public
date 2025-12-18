@@ -44,3 +44,6 @@
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
 - Teacher at (15, 14): Mentioned Kurt makes Balls. People visit him for that.
 - Kurt's House: Still looking. Possibly in the West.
+- Gramps at (20, 9): Reported Slowpoke tails are being sold and the Slowpoke have vanished.
+- Slowpoke Well: Team Rocket presence confirmed (selling tails).
+- Kurt's House: Likely in the northwest. Need to find and speak with him about the Slowpoke and the Gym blockage.
