@@ -54,7 +54,7 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Observation:** Teacher in Ilex Forest Gatehouse discusses/gives TM12 Sweet Scent.
+- **Observation:** Teacher in Ilex Forest Gatehouse explains Sweet Scent.
 - **Strategy:** Resume Switch Training on Route 34.
 - **Goal:** Train Azurite and Rocky.
 - **Status:** Rocky (Lv 13, 19/34 HP). Azurite (Lv 10).
