@@ -75,3 +75,6 @@
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal-type moves. (Verified by Lass in Violet City).
 - Strategy: Use Calcifer's Ember (Fire) to defeat ghosts.
+- INCENSE_BURNER: Impassable decorative object.
+- BOOKSHELF: Impassable object; can be interacted with to read titles.
+- RADIO: Impassable object; can be interacted with to listen to broadcasts.
