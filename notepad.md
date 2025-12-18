@@ -14,7 +14,12 @@
 - PC / BOOKSHELF / RADIO: Interactable from below (face Up + A).
 - WATER / ROCK / INCENSE_BURNER: Impassable.
 
+## EXP Tracking
+- Gneiss (GEODUDE, Medium Slow): Lv12 (1112 EXP). Next: Lv13 (1261 EXP).
+- Rocky (ONIX, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold.
+
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
+- **Start Turn:** 1850 (Falkner battle).
 - **Opponent Data:** Pidgey (Lv7), Pidgeotto (Lv9).
 - **Key Move:** Mud-Slap (Lowers Accuracy).
 - **Tactics:**
@@ -22,7 +27,7 @@
   - Use Rock Throw (Lv11+) - STAB (1.5x), 2x Super Effective vs Flying. Total 3x damage multiplier.
   - If accuracy drops too low, switch to Calcifer or Icarus.
   - Calcifer (QUILAVA) Lv15 is the heavy hitter backup.
-- **Current Status:** Battling Falkner. Gneiss vs Pidgeotto. Pidgeotto HP ~75%. Gneiss HP 21/35, Accuracy -1.
+- **Current Status:** Gneiss vs Pidgeotto. Pidgeotto HP ~70%. Gneiss HP 16/35, Accuracy -2.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
