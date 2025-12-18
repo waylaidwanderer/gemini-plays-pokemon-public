@@ -52,3 +52,13 @@
 - **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles to ensure type advantages are utilized.
 - **Ledge Logic:** Ledges are one-way (South/Down) and cannot be bypassed from the bottom. Verified on Routes 29 and 30.
+- LEDGE_HOP_LEFT: One-way jump West. Impassable from the West.
+- WATER: Impassable without HM. Verified in Dark Cave.
+- FLOOR_UP_WALL: Collision type for walls that look like they are "above" the floor. Impassable.
+- ROCK: Impassable object. Verified in Dark Cave.
+
+## Strategy for Geodude
+- Location: Dark Cave.
+- Method: Walk around in dark areas until encounter.
+- Team: Use Icarus (Pidgey) for Tackle/Sand-Attack or Calcifer for Tackle/Leer. Avoid using Gust if it's not effective (Geodude is Rock/Ground).
+- Catching: Use Poké Ball when HP is low.
