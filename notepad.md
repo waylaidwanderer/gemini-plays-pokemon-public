@@ -62,3 +62,6 @@
 - Method: Walk around in dark areas until encounter.
 - Team: Use Icarus (Pidgey) for Tackle/Sand-Attack or Calcifer for Tackle/Leer. Avoid using Gust if it's not effective (Geodude is Rock/Ground).
 - Catching: Use Poké Ball when HP is low.
+- **CAUTION:** `autopress_buttons` from overworld navigation persists into battles. Buffered buttons can disrupt menu navigation. 
+- **Current Buffer:** Approximately 6 "Up" presses remaining from Turn 888. 
+- **Strategy:** Use `select_battle_option` for main menu reliability and `B` to reset menus if cursor moves unexpectedly.
