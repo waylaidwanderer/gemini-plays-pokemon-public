@@ -12,10 +12,6 @@
 ## Gym Progress
 - Zephyr Badge: Obtained from Falkner.
 
-## Union Cave 1F Progress
-- Fisher (Moving) gives light advice.
-- Current: Battling Firebreather Ray at (11, 27).
-
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
 
@@ -25,6 +21,6 @@
 - Rocky (Onix): Backup tank.
 
 ## Trainer Rosters
-- Firebreather Bill (14, 19): Koffing (Lv6), Koffing (Lv6).
+- Firebreather Bill (14, 19): Koffing x2 (Lv6).
 - Pokemaniac Larry (4, 21): Slowpoke (Lv10).
-- Firebreather Ray (11, 27): [In Battle]
+- Firebreather Ray (11, 27): Vulpix (Lv9), ???
