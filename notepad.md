@@ -29,3 +29,5 @@
 - **Strategy Correction:** Need Abra, not Drowzee for Machop trade.
 - **Game Corner:** Coin Vendor at (3, 2). 50 Coins = 1000 Yen.
 - **Game Corner Prizes (Left):** TM25 (Thunder), TM14 (Blizzard), TM38 (Fire Blast) @ 5500 Coins.
+- **Game Corner Prizes (Right):** Abra (100 Coins), Cubone (800 Coins), Wobbuffet (1500 Coins).
+- **Abra Strategy:** Buy 100 Coins for 2000 Yen. Buy Abra. Trade for Machop.
