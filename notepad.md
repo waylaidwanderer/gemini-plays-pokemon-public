@@ -16,7 +16,7 @@
 - Zephyr Badge: Obtained from Falkner (Violet City).
 
 ## Strategy: Azalea Town
-- Gym Entry: Azalea Gym is currently blocked (need to clear the Rocket situation at the well first).
+- Gym Entry: Azalea Gym is currently blocked (verify after Well).
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
@@ -29,6 +29,7 @@
 - Pokemaniac Larry: Slowpoke (Lv10).
 - Firebreather Ray: Vulpix (Lv9).
 - Hiker Anthony: Geodude (Lv11), Machop (Lv11).
+- Rocket Grunt (Well): Rattata x2 (Lv9).
 
 ## Azalea Town Markers (Summary)
 - Slowpoke Well entrance at (31, 7).
@@ -51,6 +52,6 @@
 
 ## Slowpoke Well B1F
 - Kurt (16, 14): Injured after falling; asked GEM to stop Team Rocket.
-- Rocket Grunt (15, 9): Battling Rattata (Lv9).
 - Strategy: Defeat all Grunts and rescue Slowpoke.
-- Exploration: Path leads west, then north from (16, 15).
+- Exploration: Path leads north and west from entrance.
+- Status: First Grunt at (15, 9) defeated.
