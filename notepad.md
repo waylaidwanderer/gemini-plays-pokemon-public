@@ -28,6 +28,14 @@
 - **Medium Slow Growth Rate:** Pokémon in this group (like Cyndaquil/Quilava) require more EXP as they reach higher levels. Level-ups feel slower but stats scale better later. Verified.
 - **Obedience:** Traded Pokémon or high-level Pokémon may not obey without the appropriate Gym Badges. Verified (NPC info).
 
+## PC Storage
+- Items: (Checking now)
+- Pokemon: (Empty)
+
+## Type Effectiveness Observations
+- FIRE vs GRASS: Super Effective (2x). Verified (Ember vs Bellsprout).
+- NORMAL vs GHOST: No Effect (0x). Verified (Tackle vs Gastly).
+
 ## Defeated Trainers
 - Route 30: Bug Catcher Don.
 - Route 31: Bug Catcher Wade.
@@ -46,12 +54,12 @@
 - **Level Requirements:** Cyndaquil learns Ember at Lv12 and evolves into Quilava at Lv14 in Crystal.
 - **Tool Hygiene:** Always provide full moveset and move data to `battle_strategist_v2`.
 - **Scripted NPC Blockage:** During scripted events, NPCs can temporarily block paths. Wait for the event to conclude.
+- **Menu Navigation:** Verify cursor position before pressing A for critical items or complex menu paths.
 
 ## Area Mechanics: Sprout Tower
 - HM Flash: Received from Sage Li. Requires Zephyr Badge to use.
 
 ## Major Milestones
-- Started Academy Turn 1167.
 - Sprout Tower Complete (HM05 FLASH obtained) Turn 1434.
 - Calcifer evolved into QUILAVA Turn 1421.
 - Team Healed at Violet Pokecenter Turn 1442.
