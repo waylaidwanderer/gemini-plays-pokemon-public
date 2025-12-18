@@ -17,6 +17,9 @@
 - **CUT_TREE:** Impassable. Remove with Cut. Verified.
 - **HEADBUTT_TREE:** Impassable. Encounter chance. Verified.
 - **WATER:** Impassable without Surf. Verified.
+- **DOOR:** Traversable. Warp point. Verified.
+- **COUNTER:** Impassable. Interactable. Verified.
+- **PC:** Impassable. Interactable. Verified.
 
 ## Goldenrod Dept. Store Inventory
 - **2F:** Medicine & Balls/Repels.
