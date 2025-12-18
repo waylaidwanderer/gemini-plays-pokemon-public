@@ -49,7 +49,7 @@
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
 - Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
 - Bug Catcher Benny: Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
-- Bug Catcher Josh: Next target at (0, 2).
+- Bug Catcher Josh: Paras (Lv13) - Battling at (0, 2).
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
