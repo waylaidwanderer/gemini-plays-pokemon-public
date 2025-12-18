@@ -40,18 +40,7 @@
 ## Important Locations
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
-## Bug-Catching Contest
-- **Start Turn:** 4782
-- **Objective:** Catch Scyther or Pinsir (High Score).
-- **Strategy:** Use Lucid's Hypnosis. Whittle HP with Pound if necessary.
-- **Ball Count:** 20 Sport Balls.
-- **Time Limit:** 20 minutes (or until balls run out/retire).
-## Status
-- **Party:** Fully Healed (Officer heals before entry).
-- **Active:** Lucid (Drowzee) Lv 13.
-- **Bug-Catching Contest Note:** The Pack is inaccessible during the contest. You cannot use items.
-- **Contest Catch:** Pinsir (Lv 14 Male). High Score candidate. Caught with Sleep + High HP.
-- **Contest Result:** 2nd Place (Score 352). Prize: Everstone.
-- **New Pokémon:** Pinsir (Lv 14 Male) sent to PC. Needs nickname: HEMATITE.
-- **Prize:** Everstone (Prevents evolution).
-- **Plan:** Head to Route 36, then return to Goldenrod to fight Whitney. Need Squirtbottle (after Whitney) to clear Sudowoodo.
+## Recent Events
+- **Bug-Catching Contest:** Won 2nd Place. Prize: Everstone.
+- **New Team Member:** Pinsir (HEMATITE), Lv 15.
+- **Plan:** Return to Goldenrod via Route 36/35 to fight Whitney.
