@@ -29,7 +29,7 @@
 - Rocket Grunts (Slowpoke Well): All defeated.
 - Azalea Gym Trainers: All defeated.
 - Gym Leader Bugsy: Defeated (Metapod Lv14, Scyther Lv16, Kakuna Lv14).
-- Rival Malice (Azalea): Gastly (Lv?), Zubat (Lv?), Croconaw (Lv?) - Battling.
+- Rival Malice (Azalea): Gastly (Lv12), Zubat (Lv?), Croconaw (Lv?) - Battling.
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
