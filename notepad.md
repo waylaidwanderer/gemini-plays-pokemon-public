@@ -33,4 +33,4 @@
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Reach Fisher at (15, 13).
+- **Current Objective:** Explore south to find Union Cave entrance.
