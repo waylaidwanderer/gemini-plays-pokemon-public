@@ -51,13 +51,8 @@
   - LEDGE_HOP_DOWN: One-way South at (16, 15).
   - WATER: Impassable without Surf.
   - WALL (x=15): Extends from y=14 to y=19.
-
-## Strategy for Training
-- **Rocky (Onix):** Switch-train against trainers on Route 32 to catch up in levels.
-- **Egg (Togepi):** Switch-train to gain happiness and levels.
-- **Gneiss (Geodude):** Primary for bird trainers. Healed to 30/37 HP (Turn 2061).
-- **Calcifer (Quilava):** Lead for safety and efficiency against grass types.
+- Battle Strategy: Use Gneiss (Geodude) for Flying/Normal types. Use Calcifer (Quilava) for Grass types.
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave. 
-- **Current Objective:** Defeat Youngster Albert and reach Fisher (15, 13).
+- **Current Objective:** Defeat Youngster Albert and explore south to reach Fisher (15, 13).
