@@ -71,4 +71,4 @@
 
 ## Task Log
 - Turn 352: Started nicknaming Pidgey.
-- Turn 363: Screen shows "ICARU", cursor on "U". Moving to "S".
+- Turn 367: Nicknaming complete. ICARUS (Pidgey, Lv2) joined the party. Training begins.
