@@ -51,7 +51,7 @@
 ## NPC Archive
 - New Bark Town: ELM, OFFICER, MOM.
 - Route 30/31: MR. POKEMON, OAK.
-- Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14).
+- Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14). Cooltrainer at (32, 8) (Flash hint).
 - Sprout Tower: Sage at (7, 4) (HM info).
 - Violet Pokecenter: Nurse Joy (3, 1), Gentleman (1, 4), Gameboy Kid (7, 6), Youngster (8, 1) (Obedience info).
 - Route 32: Cooltrainer M at (19, 8) - Blockade; requires Zephyr Badge.
