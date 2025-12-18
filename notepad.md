@@ -79,5 +79,5 @@
 - BOOKSHELF (0, 1): (To be checked).
 - BOOKSHELF (1, 1): (To be checked).
 - TV (2, 1): "It's a TV."
-- TOWN_MAP (3, 0): (To be checked).
+- TOWN_MAP (3, 0): "It's the TOWN MAP."
 - RADIO (7, 1): (To be checked).
