@@ -4,9 +4,9 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL_GRASS: Traversable; wild encounters.
-- LEDGE_HOP_DOWN: One-way jump South (1 tile).
-- LEDGE_HOP_LEFT: One-way jump West (1 tile).
-- LEDGE_HOP_RIGHT: One-way jump East (1 tile).
+- LEDGE_HOP_DOWN: One-way jump South (To be verified).
+- LEDGE_HOP_LEFT: One-way jump West (To be verified).
+- LEDGE_HOP_RIGHT: One-way jump East (To be verified).
 - HEADBUTT_TREE: Impassable (requires Headbutt).
 - COUNTER: Interactable (face to talk to NPC behind).
 - WARP_CARPET_DOWN: Exit map South.
@@ -76,3 +76,8 @@
 ### Guide Gent's House (26_7)
 - GRAMPS (ID 1): (2, 3). Quote: "Catch lots of POKéMON! Treat them all with kindness!"
 - WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (25, 9).
+- BOOKSHELF (0, 1): (To be checked).
+- BOOKSHELF (1, 1): (To be checked).
+- TV (2, 1): (To be checked).
+- TOWN_MAP (3, 0): (To be checked).
+- RADIO (7, 1): (To be checked).
