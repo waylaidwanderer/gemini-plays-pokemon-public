@@ -52,6 +52,6 @@
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Caught Wild Drowzee (Lv 12) "LUCID".
-- **Current Status:** Rocky (Asleep). Azurite (Lv 10).
-- **Immediate Goal:** Return to Goldenrod Center to heal Rocky and reorganize party (Azurite Lead).
-- **Then:** Return to Route 34 to train.
+- **Current Status:** Azurite (Lv 10) Lead. Rocky (Lv 12).
+- **Immediate Goal:** Return to Route 34 to train Azurite.
+- **Then:** Challenge Whitney (Goldenrod Gym).
