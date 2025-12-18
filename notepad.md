@@ -45,3 +45,4 @@
 - **Pokefan William:** Raichu Lv 14 (Quick Attack, Tail Whip). Holds Berry.
 , Ditto (Morning).
 , Pidgey (Morning).
+- **Mom's Savings:** Mom bought a "useful item" (Turn 5455). Check PC.
