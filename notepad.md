@@ -14,14 +14,16 @@
 
 ## Union Cave 1F Progress
 - Explored eastern passage. Found Great Ball at (17, 21).
-- Encountered wild Geodude, Sandshrew, and Onix.
 - Firebreather Bill (Trainer) at (14, 19) defeated.
+- Item spotted at (4, 17).
+- Ladder spotted at (5, 19).
+- Super Nerd spotted at (4, 21).
 
 ## Trainer Rosters
 - Firebreather Bill (14, 19): Koffing (Lv6), Koffing (Lv6).
 
 ## Lessons Learned
-- Menu Navigation: The main menu wraps around (8 items). Resetting with 8 presses is ineffective. Use 8 Downs to hit EXIT as a known anchor.
+- Menu Navigation: The main menu wraps around (8 items). Use 8 Downs to hit EXIT as a known anchor.
 - Battle Lead: Switching in battle updates overworld lead upon victory/escape. Verified in Turn #2337.
 
 ## Strategy: Reaching Azalea Town
