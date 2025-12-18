@@ -24,7 +24,7 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Route 31
-- **Status:** Seeking Bellsprout for trade. Talking to Cooltrainer M.
+- **Status:** Seeking Bellsprout for trade. Started Turn 935.
 - **Objectives:**
   - Locate Bellsprout in tall grass.
   - Reach Violet City and heal.
@@ -58,3 +58,10 @@
 - **Pathfinding:** Always use the latest version of custom tools (e.g., `find_path_v3`).
 - **Battle Strategy:** Use `battle_strategist_v2` for trainer battles.
 - **Ledge Logic:** Ledges are one-way (South/Down).
+
+## Strategy for Bellsprout
+- Location: Route 31 Tall Grass.
+- Method: Encounter in grass.
+- Team: Use Calcifer (Cyndaquil) to weaken. Fire is strong against Grass, so be careful not to KO. Tackle is safer than Ember.
+- Catching: Use Poké Ball.
+- Goal: Trade for ONIX in Violet City.
