@@ -43,7 +43,7 @@
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
-## Battle vs Firebreather Walt
-- **Opponent:** Magmar #2 (Lv 13).
-- **Strategy:** Garnet (Quilava) Quick Attack.
-- **Status:** Lucid (Low), Rocky (Burned), Garnet (Active, 58/68).
+## Battle vs Juggler Irwin
+- **Opponent:** Voltorb (Lv 2).
+- **Strategy:** Lucid (Drowzee) Pound.
+- **Status:** Lucid (17/39 HP), Rocky (Burned), Garnet (58/68 HP).
