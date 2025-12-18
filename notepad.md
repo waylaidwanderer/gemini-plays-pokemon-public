@@ -24,7 +24,7 @@
   5. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
 ## Current Area: Dark Cave
-- **Status:** Hunting Geodude. Started Turn 886 (9:49 PM PST).
+- **Status:** Geodude caught! Nicknaming her "Gneiss".
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, and Don. Talked to Cooltrainer F. Path to Route 31 is clear.
@@ -36,11 +36,14 @@
 - Pidgey: Tackle
 - Cyndaquil: Tackle, Leer, Smokescreen
 - Caterpie: Tackle (Verified).
+- Geodude: Tackle (Verified).
 ### Team Status
 - Icarus (Pidgey): Lv9. Moves: Tackle, Sand-Attack, Gust.
 - Calcifer (Cyndaquil): Lv8. Moves: Tackle, Leer, Smokescreen.
+- Gneiss (Geodude): Lv4. Moves: Tackle.
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
+- Normal vs Rock: Not very effective. (Verified with Tackle vs Geodude).
 
 ## NPC Archive
 - New Bark: ELM (Starter), OFFICER (Rival), MOM (Savings).
