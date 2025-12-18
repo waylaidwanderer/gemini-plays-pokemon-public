@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Get Coin Case (Goldenrod Underground).
+    1. Get Coin Case (Hypothesis: Goldenrod Underground).
     2. Obtain Abra (Buy at Game Corner or Catch on Route 34/35).
     3. Trade Abra for Machop (Dept Store 5F).
     4. Train team for Whitney (Machop, Heracross, Onix, Pinsir).
@@ -23,26 +23,16 @@
 
 ## Goldenrod Dept. Store Inventory
 - **2F:** Medicine & Balls/Repels.
-- **3F:** Battle Items (X Speed/Special/Defend/Attack/Accuracy, Dire Hit, Guard Spec).
-- **4F:** Vitamins (Protein, Iron, etc) - 9800 each.
-- **5F:** TMs (Ice/Thunder/Fire Punch) - 3000 each.
-- **6F:** Vending Machine (Fresh Water/Soda Pop/Lemonade).
-
-## Learned Mechanics
-- **X Items:** X Special boosts Sp. Atk. X Speed boosts Speed.
-- **Vitamins:** Iron boosts Defense.
-- **Trade Evolutions:** Machoke, Kadabra, Haunter, Graveler.
-- **Berry Mechanics:** Ice Berry heals Burn (held).
-
-## Key Items & Progress
-- **Badges:** Zephyr, Hive (2/8).
-- **HM01 (Cut):** Obtained & Taught to Belladonna.
-- **Charcoal:** Obtained.
+- **3F:** Battle Items.
+- **4F:** Vitamins.
+- **5F:** TMs (Ice/Thunder/Fire Punch).
+- **6F:** Vending Machine.
 
 ## Important Locations
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
+
 ## Recent Events
-- **Bug-Catching Contest:** Won 2nd Place. Prize: Everstone.
-- **New Team Member:** Pinsir (HEMATITE), Lv 15.
-- **Plan:** Return to Goldenrod via Route 36/35 to fight Whitney.
+- **Bug-Catching Contest:** Won 2nd Place (Pinsir).
+- **Trade Attempt:** Failed (Need Abra, not Drowzee).
+- **Next Step:** Find Coin Case to buy Abra.
