@@ -25,6 +25,9 @@
   3. Use Ember to sweep Sprout Tower (Flash HM).
   4. Use Rock-types (Geodude/Onix) to counter Falkner's Flying moves.
 
+## Current Area: Route 31
+- Status: Hunting Bellsprout in tall grass.
+
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
 - **Route 31:** Caught GNEISS (Geodude) in Dark Cave. Defeated Wade.
