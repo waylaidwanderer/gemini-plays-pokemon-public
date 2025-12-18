@@ -59,9 +59,10 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1425):
-  - Defeated Elder Li.
+- Sprout Tower 3F (Turn 1429):
+  - Defeated all Sages (Jin, Neal, Troy, Elder Li).
   - Calcifer evolved into QUILAVA at Lv14.
   - Received HM05 FLASH from Sage Li.
   - Potion collected at (6, 14).
   - Escape Rope collected at (14, 1).
+  - 3F fully explored.
