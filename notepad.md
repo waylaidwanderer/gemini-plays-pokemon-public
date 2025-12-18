@@ -39,8 +39,11 @@
 ## Union Cave 1F Progress
 - Hiker Daniel (3, 6) defeated.
 - Hiker Russell (11, 8) defeated.
-- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP. Swapped Calcifer to Slot 1.
-- Path South: Path seems to exist along the eastern wall through (16, 8) and (16, 11).
+- GNEISS (Geodude) is low on HP (15/41) and out of Rock Throw PP.
+- Calcifer (Quilava) is holding a POTION.
+- Current Party: 1. GNEISS, 2. ICARUS, 3. Calcifer, 4. ROCKY, 5. EGG, 6. APOPHIS.
+- Goal: Swap Calcifer (Slot 3) to Lead (Slot 1).
+- Path South: Path seems to exist along the eastern wall through (16, 8) and (16, 11). Headed to (16, 14).
 ## Strategy: Reaching Azalea Town
 1. Swap Calcifer (Quilava) to lead slot to preserve Gneiss's HP and use Ember.
 2. Navigate south through the eastern passage of Union Cave 1F.
