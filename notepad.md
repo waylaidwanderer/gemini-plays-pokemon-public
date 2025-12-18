@@ -31,5 +31,5 @@
 
 ## Battle Notes
 - Gneiss (Geodude): Out of Rock Throw PP. Currently low on HP (15/41).
-- Calcifer (Quilava): Primary attacker. Knows Ember and Smokescreen.
+- Calcifer (Quilava): Lv16. Primary attacker. Knows Ember and Smokescreen.
 - Rocky (Onix): Backup tank with high Defense.
