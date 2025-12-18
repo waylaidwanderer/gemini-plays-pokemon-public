@@ -40,4 +40,4 @@
 ## Contest Prep
 - **Current Task:** Heading to Goldenrod to heal, then North to National Park for the Bug-Catching Contest (Thursday).
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
-- **Team:** Azurite (12), Rocky (14). Need to heal Azurite.
+- **Team:** Azurite (12), Rocky (14). Healing at Goldenrod PC.
