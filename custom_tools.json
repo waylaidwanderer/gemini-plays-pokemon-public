@@ -90,39 +90,6 @@
       }
     ]
   },
-  "use_item_v2": {
-    "description": "Navigates to a specific pocket and uses an item. Assumes the main battle menu is visible. Returns buttons to use the item.",
-    "input_schema": {
-      "properties": {
-        "item_index": {
-          "description": "0-indexed position in the list",
-          "type": "integer"
-        },
-        "pocket": {
-          "enum": [
-            "Items",
-            "Balls",
-            "Key Items",
-            "TM/HM"
-          ],
-          "type": "string"
-        }
-      },
-      "required": [
-        "pocket",
-        "item_index"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\npocket = input_data['pocket']\nidx = int(input_data['item_index'])\n# From battle menu, select PACK\nbuttons = ['Down', 'A']\n# Navigate to pocket\nif pocket == 'Balls': buttons.append('Right')\nelif pocket == 'Key Items': buttons.extend(['Right', 'Right'])\nelif pocket == 'TM/HM': buttons.append('Left')\n# Navigate to item\nfor _ in range(idx): buttons.append('Down')\n# Use item\nbuttons.extend(['A', 'A'])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T17:30:17.775Z",
-        "action_counter": 2112
-      }
-    ]
-  },
   "use_item_v3": {
     "description": "Uses an item from the PACK on a Pokémon in the party. Assumes the overworld and closed menu. Anchors on EXIT in the main menu for reliability.",
     "input_schema": {

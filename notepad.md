@@ -13,9 +13,10 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Firebreather Bill (14, 19) defeated.
 - Pokemaniac Larry (4, 21) defeated.
 - Fisher (Moving) gives light advice.
+- Firebreather Bill (14, 19) defeated.
+- Current: Battling Firebreather Ray at (11, 27).
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
@@ -28,4 +29,4 @@
 ## Trainer Rosters
 - Firebreather Bill (14, 19): Koffing (Lv6), Koffing (Lv6).
 - Pokemaniac Larry (4, 21): Slowpoke (Lv10).
-- Fisher (Moving): Non-battling NPC.
+- Firebreather Ray (11, 27): [In Battle]
