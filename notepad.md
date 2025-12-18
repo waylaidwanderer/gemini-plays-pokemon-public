@@ -47,3 +47,5 @@
 - **Opponent:** Diglett (Incoming).
 - **Strategy:** Switch to Azurite (Resists Ground, needs XP).
 - **Status:** Rocky (18/36 HP), Azurite (39/43 HP).
+- **Battle Result:** Defeated Camper Ivan. Azurite grew to Lv 13.
+- **Next:** Navigating through gap at (13, 18) to get item and head North.
