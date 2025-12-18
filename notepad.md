@@ -52,3 +52,6 @@
 - Kurt is at (16, 14). He looks like he might be hurt.
 - The well is infested with Team Rocket.
 - Tile: WATER (Impassable), LADDER (Warp).
+- Kurt is injured at (16, 14) after falling down the well. He asked GEM to take his place and stop Team Rocket.
+- Strategy: Navigate through the well and defeat all Rocket Grunts.
+- Slowpoke Well Exploration: Starting from (16, 15). Path seems to lead west and then north.
