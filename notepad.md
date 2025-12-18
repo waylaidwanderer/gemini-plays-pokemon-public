@@ -26,7 +26,7 @@
   2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
   3. Defeat Bug Catcher Al at (8, 10) - DONE.
   4. Defeat Bug Catcher Benny at (5, 3) - DONE.
-  5. Defeat Bug Catcher Josh at (0, 2) - BATTLING.
+  5. Defeat Bug Catcher Josh at (0, 2) - DONE.
   6. Defeat Gym Leader Bugsy.
 - Time Tracking: Exploration started at Turn 2596.
 
@@ -49,7 +49,7 @@
 - Twins Amy & May: Ledyba (Lv10), Spinarak (Lv10) - Defeated.
 - Bug Catcher Al: Caterpie (Lv12), Weedle (Lv12) - Defeated.
 - Bug Catcher Benny: Weedle (Lv7), Kakuna (Lv9), Beedrill (Lv12) - Defeated.
-- Bug Catcher Josh: Paras (Lv13) - Battling at (0, 2).
+- Bug Catcher Josh: Paras (Lv13) - Defeated.
 
 ## Azalea Town Summary
 - Slowpoke Well entrance at (31, 7).
