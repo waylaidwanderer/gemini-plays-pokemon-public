@@ -5,7 +5,7 @@
 - WALL / FLOOR_UP_WALL / WATER / ROCK: Impassable.
 - TALL_GRASS: Wild encounters.
 - LEDGE_HOP_DOWN: One-way South.
-- LEDGE_HOP_LEFT: One-way West.
+- LEDGE_HOP_LEFT: One-way West (jumps 2 tiles).
 - COUNTER: STAND in front to talk to NPCs.
 - WARP_CARPET / LADDER / DOOR / CAVE: Transitions.
 - PC / BOOKSHELF / RADIO / SIGN: Interactable.
