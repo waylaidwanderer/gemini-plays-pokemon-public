@@ -57,5 +57,5 @@
 - **Battle Note:** Fighting Wild Drowzee.
 - **Strategy:** Switch to Rocky (Switch Training).
 - **Goal:** Train Azurite (Switch Training).
-- **Status:** Azurite (Lv 10). Rocky (Lv 13, 18/34 HP).
+- **Status:** Azurite (Lv 10). Rocky (Lv 13, 18/34 HP). Cursor on Rocky.
 - **Training Plan:** Grind on Route 34 until Lv 18.
