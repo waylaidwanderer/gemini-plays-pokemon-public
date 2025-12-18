@@ -22,7 +22,8 @@
 - Fisher (15, 13): Standing at (16, 13) required to talk.
 - Cooltrainer M (19, 8): Blocking path (Badge Req).
 - Fisher (19, 14): Discovered.
-- Youngster (12, 22): Trainer? Discovered at (12, 22).
+- Youngster Albert (14, 22): Defeated (Turn 2082).
+- Lass (10, 30): Discovered.
 
 ## NPC Archive - Previous Areas
 - KYLE: (6, 4) in Violet City. Traded Bellsprout for Rocky (ONIX).
@@ -38,10 +39,6 @@
 - Fisher: (44, 9) on Route 36. Mentioned failure to punch the tree.
 - Weird Tree: (35, 9) on Route 36. Blocks path to Goldenrod. Does not respond to A.
 
-## Exploration Log
-- Ruins of Alph Detour: Solved Kabuto Puzzle. Explored Inner Chamber. Found ladder at (10, 13) leading back to RuinsOfAlphOutside. Discovered cave entrance at (6, 19).
-- Route 36: Investigating the "odd tree" reported by NPCs. Sign at (55, 7) confirms location. Lass confirms it blocks the way to Goldenrod City. Arthur found at (45, 5).
-
 ## Strategy & Lessons
 - Input Hygiene: Do not mix directional and action buttons in press_buttons. Use press_sequence for multi-step interactions.
 - HMs: Use FLASH in Dark Cave (requires Bellsprout).
@@ -51,7 +48,12 @@
   - LEDGE_HOP_DOWN: One-way South at (16, 15).
   - WATER: Impassable without Surf.
   - WALL (x=15): Extends from y=14 to y=19.
-- Battle Strategy: Use Gneiss (Geodude) for Flying/Normal types. Use Calcifer (Quilava) for Grass types.
+
+## Strategy for Training
+- **Rocky (Onix):** Switch-train against trainers on Route 32 to catch up in levels.
+- **Egg (Togepi):** Switch-train to gain happiness and levels.
+- **Gneiss (Geodude):** Primary for bird trainers.
+- **Calcifer (Quilava):** Lead for safety and efficiency against grass types.
 
 ## Task Tracking
 - **Route 32 Exploration:** Started Turn 2038. Goal: Reach Union Cave.
