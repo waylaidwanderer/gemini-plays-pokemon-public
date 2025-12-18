@@ -45,3 +45,7 @@
 - GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
 - TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
 - RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name is "MALICE". (Turn 308)
+## ElmsLab (24_5) Update
+- OFFICER (ID 6): (5, 3). Investigating a crime.
+- POKE_BALL (ID 5): (8, 3). On the table.
+- Event: Red-haired boy stole a Pokemon from the lab. (Turn 298)
