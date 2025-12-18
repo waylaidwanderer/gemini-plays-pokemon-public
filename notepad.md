@@ -54,7 +54,7 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Current Status:** In Goldenrod Center. Rocky (Asleep), Azurite (Critical HP).
-- **Immediate Goal:** Heal Party.
-- **Next:** Reorder Party (Azurite Lead).
-- **Then:** Resume Training on Route 34.
+- **Current Status:** In Goldenrod Center. Party Healed.
+- **Immediate Goal:** Reorder Party (Azurite Lead).
+- **Next:** Resume Training on Route 34.
+- **Then:** Challenge Whitney (Goldenrod Gym).
