@@ -36,3 +36,4 @@
 - **Abra Price:** 100 Coins confirmed.
 - **Current Money:** 2054 Yen.
 - **Current Coins:** 100.
+- **Action:** Buying Abra now. Nickname: SATORI.
