@@ -38,11 +38,12 @@
 - **Heracross Tree:** (29, 4) Azalea Town.
 - **Ilex Forest:** Path established.
 ## Contest Prep
+- **Start Turn:** 4732 (Thursday).
 - **Current Task:** Heading North to National Park.
 - **Goal:** Catch Scyther/Pinsir or win Sun Stone.
 - **Strategy:** Lucid (Hypnosis) is in lead. Sleep = Catch.
 - **Team:** Lucid (12) leading. Azurite (12), Rocky (14).
 ## Battle vs Camper Ivan
 - **Opponent:** Zubat (Lv 10).
-- **Strategy:** Rocky (Onix) Rock Throw.
-- **Status:** Rocky (Confused), Lucid (Low HP).
+- **Strategy:** Rocky (Onix) Rock Throw. Resist Flying/Poison.
+- **Status:** Rocky (Confused). Switch cures confusion if needed.
