@@ -57,5 +57,5 @@
 - **Battle Log:** Rocky defeated Jigglypuff (Lv 12). Grew to Lv 13.
 - **Strategy:** Switch Training (Azurite -> Rocky).
 - **Goal:** Train Azurite and Rocky.
-- **Status:** Rocky (Lv 13, 18/34 HP).
-- **Training Plan:** Read Trainer Tips, Explore South Route 34, investigate path to Item Ball at (7, 30).
+- **Status:** Rocky (Lv 13, 19/34 HP).
+- **Training Plan:** Read Trainer Tips, then head South to Ilex Forest Gatehouse (13, 37). Item Ball at (7, 30) requires Surf/Cut access from West side.
