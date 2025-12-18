@@ -3,10 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Switch Lead: Swap Hematite (Low HP) with Garnet.
-    2. Exit Park: Find South Exit (likely West gap).
-    3. Trade: Drowzee for Machop (Goldenrod Dept Store 5F).
-    4. Train: Prepare team for Whitney (Machop, Heracross, Onix, Pinsir).
+    1. Go to Goldenrod City (South via Route 35).
+    2. Trade: Drowzee for Machop (Goldenrod Dept Store 5F).
+    3. Train: Prepare team for Whitney (Machop, Heracross, Onix, Pinsir).
+    4. Challenge Whitney.
 - **Learned:** Happiness Rater (Quilava "quite cute"), Dept Store layout.
 
 ## Tile Mechanics
