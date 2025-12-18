@@ -48,3 +48,4 @@
 - **Mom's Savings:** Mom bought a "useful item" (Turn 5455). Check PC.
 - **Caught:** Nidoran♂ (COBALT) Lv 12 in National Park.
 - **Pokefan Beverly:** Snubbull Lv 14.
+- **Item:** Quick Claw (Held item, chance to strike first) obtained from Teacher at (27, 40) National Park.
