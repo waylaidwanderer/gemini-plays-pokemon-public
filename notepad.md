@@ -37,14 +37,17 @@
   - Sage Chow: Defeated at (3, 2) on 1F.
   - Sage Nico: Defeated at (11, 3) on 2F.
   - Sage Edmond: Defeated at (5, 14) on 2F.
-  - Sage at (6, 7) on 1F: Moving NPC.
-  - Teacher at (9, 9) on 1F: Lore.
+  - Sage Jin (ID 1): Defeated at (8, 13) on 3F.
+  - Sage Neal (ID 4): Defeated at (11, 11) on 3F.
+  - Sage Troy (ID 2): Defeated at (8, 9) on 3F.
+  - Sage Li (ID 3): At (10, 2) on 3F (In battle).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
 - **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
 - **Level Requirements:** Cyndaquil learns Ember at Lv12 in Crystal.
 - **Tool Hygiene:** Always provide full moveset data to `battle_strategist_v2`.
+- **Scripted NPC Blockage:** During scripted events, NPCs can temporarily block paths. Wait for the event to conclude.
 
 ## Area Mechanics: Sprout Tower
 - Ghosts: Immune to Normal moves. Use Ember.
@@ -54,14 +57,9 @@
 ## Timestamps & Progress
 - Started Academy Turn 1167.
 - Entered Tower Turn 1213.
-- Sprout Tower 3F (Turn 1405):
-  - Sage Jin (ID 1) defeated at (8, 13).
-  - Sage Neal (ID 4) defeated at (11, 11).
-  - Sage Troy (ID 2) defeated at (8, 9).
-  - Sage Li (ID 3) at (10, 2) (In battle).
-  - Poke Ball (ID 5) at (6, 14) (Potion collected).
-  - Item Ball (ID 6) at (14, 1).
+- Sprout Tower 3F (Turn 1406):
+  - Defeated Sages Jin, Neal, and Troy.
+  - Battling Sage Li at (10, 2).
+  - Potion collected at (6, 14).
   - Calcifer is Lv13.
   - Calcifer needs 292 EXP for Lv14.
-- **Lesson: Scripted NPC Blockage.** During scripted events (like Malice's appearance), NPCs can temporarily block paths that appear clear on the map. Wait for the event to conclude before attempting to navigate through those tiles.
-- **Reflection (Turn 1401):** Verified all tasks. Notepad updated with scripted movement lesson. Map markers for Sages and items are current. Goals are concrete. Root hypothesis for Sprout Tower (HM Flash at top) is confirmed by NPC dialogue.
