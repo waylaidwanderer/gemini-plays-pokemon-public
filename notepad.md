@@ -2,12 +2,14 @@
 
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
-- **Plan:**
-    1. Obtain Abra (Trade Material) - **Done**.
-    2. Trade Abra for Machop (Dept Store 5F) - **Done**.
-    3. Train Machop (MUSCLE) to Level 15-20.
-    4. Defeat Whitney.
-- **Learned:** MUSCLE (Machop) knows Low Kick (80 BP vs Miltank).
+- **Strategy:**
+    1. **Switch Training:** Train MUSCLE (Machop) to Lv 20 on Route 35.
+       - *Start:* Turn 5201.
+       - *Target:* Lv 20 (Seismic Toss @ 19, Low Kick).
+    2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
+- **Notes:**
+    - MUSCLE (Machop) has Low Kick (Fighting, STAB).
+    - AZURITE (Heracross) lacks Fighting moves (Level 13).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
@@ -26,13 +28,7 @@
 - **Dept Store:** (24, 27) Goldenrod.
 - **Pokemon Center:** (15, 27) Goldenrod.
 
-## Recent Events & Lessons
-- **Abra Acquired:** Bought for 100 Coins. Nickname: SATORI.
-- **Lesson - Party Management:** Always check for an empty party slot before attempting to acquire a new Pokémon.
-- **Coin Case:** Obtained in Underground.
-- **Game Corner Data:** 50 Coins = 1000 Yen. TMs are 5500. Abra=100, Cubone=800, Wobbuffet=1500.
-- **B1F Puzzle Solved:** Leaving the floor via elevator and returning causes the workers to move the boxes.
-- **Exploration Status:** B1F Looting paused. Remaining items/ladder likely accessed via Underground.
-- **Current Action:** Switch training MUSCLE on Route 35.
-- **Training Plan:** Train MUSCLE (Machop) to Lv 20 on Route 35 using switch-training.
-- **Goal:** Get Low Kick (already have) and Karate Chop (Lv 13) / Seismic Toss (Lv 19).
+## Knowledge Base
+- **Game Corner:** 50 Coins = 1000 Yen. TMs: 5500. Abra: 100.
+- **Dept Store B1F:** Solved puzzle by resetting floor (Elevator). Loot paused.
+- **Party Management:** MUSCLE is Lead for switch training.
