@@ -103,35 +103,19 @@
       }
     ]
   },
-  "find_nearest_unseen_v2": {
-    "description": "Finds the nearest 'unseen' tile that is reachable from the player's current position. Returns a (target_x, target_y) coordinate.",
+  "explore_unseen_v1": {
+    "description": "Finds the nearest reachable 'unseen' tile and returns a list of button presses to reach it. Handles ledges and objects correctly.",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_nearest_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            has_object = tile.find('Object') is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'obj': has_object}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return None\n\n    queue = deque([player_pos])\n    visited = {player_pos}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            return (nx, ny)\n                        if tile['type'] == 'FLOOR' and not tile['obj']:\n                            queue.append((nx, ny))\n    return None\n\nresult = find_nearest_unseen()\nprint(json.dumps(result))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef navigate_to_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            \n            # Extract objects\n            obj = tile.find('Object')\n            is_wall = has_player is False and obj is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'is_wall': is_wall}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return []\n\n    # BFS to find nearest unseen reachable tile\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        # Check neighbors\n        for dx, dy, btn in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n            nx, ny = cx + dx, cy + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            return path + [btn]\n                        \n                        # Traversal rules\n                        can_pass = False\n                        if tile['type'] == 'FLOOR' and not tile['is_wall']:\n                            can_pass = True\n                        # Add more tile types if needed\n                        \n                        if can_pass:\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), path + [btn]))\n    return []\n\nprint(json.dumps(navigate_to_unseen()))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-18T21:44:54.232Z",
-        "action_counter": 2549
-      }
-    ]
-  },
-  "list_reachable_unseen_v3_fixed": {
-    "description": "Finds all 'unseen' tiles that are currently reachable from the player's position, correctly handling ledges and objects. Returns a list of (x, y) coordinates. If autopress_buttons is true, it returns a list of buttons to the nearest unseen tile.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef list_reachable_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            has_object = tile.find('Object') is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'obj': has_object}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return []\n\n    unseen_reachable = []\n    queue = deque([player_pos])\n    visited = {player_pos}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            unseen_reachable.append((nx, ny))\n                            visited.add((nx, ny))\n                        elif tile['type'] == 'FLOOR' and not tile['obj']:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n    \n    if not unseen_reachable:\n        return []\n\n    # Simple BFS to find buttons to the first unseen_reachable\n    target = unseen_reachable[0]\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == target:\n            return path\n        \n        for dx, dy, btn in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) == target:\n                return path + [btn]\n            if 0 <= nx < width and 0 <= ny < height:\n                tile = tiles.get((nx, ny))\n                if tile and tile['seen'] and tile['type'] == 'FLOOR' and not tile['obj'] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    return []\n\nprint(json.dumps(list_reachable_unseen()))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T21:47:02.070Z",
-        "action_counter": 2554
+        "timestamp": "2025-12-18T21:53:44.618Z",
+        "action_counter": 2565
       }
     ]
   }
