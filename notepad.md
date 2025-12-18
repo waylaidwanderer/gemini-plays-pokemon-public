@@ -1,10 +1,10 @@
 # Johto Journey: Gem's Log
 
-## Strategic Plan: Visit Mr. Pokémon
-1. Exit New Bark Town and head west to Route 29. (Done)
-2. Pass through Cherrygrove City. (Done)
-3. Find Mr. Pokémon's house north of Cherrygrove City on Route 30. (In progress)
-4. Collect the Mystery Egg and return it to Professor Elm.
+## Strategic Plan: Return to Professor Elm
+1. Exit Mr. Pokémon's House.
+2. Travel south through Route 30 to Cherrygrove City.
+3. Travel east through Route 29 to New Bark Town.
+4. Deliver the Mystery Egg to Professor Elm.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable ground.
@@ -17,6 +17,10 @@
 - HEADBUTT_TREE / CUT_TREE / WATER: Impassable; require HM moves.
 
 ## NPCs & Interactions
+### Mr. Pokémon's House (26_10)
+- MR. POKÉMON (ID 1): (3, 5). Gave MYSTERY EGG.
+- PROF. OAK (ID 2): (6, 5). Gave POKéDEX. (Left the building)
+
 ### Cherrygrove City (26_3)
 - GRAMPS (ID 1): Gave city tour and MAP CARD. House at (25, 9).
 - TEACHER (ID 3): (28, 12).
@@ -41,17 +45,5 @@
 - Tool Usage: Verify input schemas and handle input dictionaries explicitly.
 - Exploration: Check building corners and behind counters.
 - Scripted Events: Treat character movement during dialogue as completed interaction.
-- Ledges: Strictly one-way. Jumping simulates moving two tiles (onto the tile after the ledge).
+- Ledges: Strictly one-way. Jumping simulates moving two tiles.
 - Pathfinding: Treat 'unseen' tiles as potentially walkable but verify in-game.
-## Route 30 Strategy (from Johto Strategist)
-- Continue heading North along the eastern path of Route 30.
-- Avoid the western path (leads back to Cherrygrove via ledges).
-- Goal: Enter Mr. Pokémon's house at the north end.
-- Mr. Pokémon's House: Entrance at (17, 5) on Route 30.
-- Sign at (15, 5): "Mr. Pokémon's House".
-## Mr. Pokémon's House (26_10)
-- Reached at Turn 217.
-- NPCs:
-    - MR. POKÉMON (ID 1): (3, 5).
-    - PROF. OAK (ID 2): (6, 5).
-- Status: Talking to Mr. Pokémon.
