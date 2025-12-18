@@ -13,6 +13,7 @@
 - LADDER: Warp to different floor.
 - BOOKSHELF / WINDOW / TREE / HEDGE: Impassable (acts as WALL).
 - PC: Interactable (face to use).
+- MART_SHELF: Impassable (acts as WALL).
 
 ## NPCs & Interactions
 ### Mr. Pokémon's House (26_10)
@@ -43,7 +44,7 @@
 - **Preparation:**
     - Collect Bitter Berry (Route 31) for Sprout Tower Gastly.
     - Obtain HM05 (Flash) from Sage Li in Sprout Tower.
-    - Inventory: 5 Potions (Current), 4 Poké Balls (Need 1+ more).
+    - Inventory: 5 Potions (Current), 4 Poké Balls (Target: 6+).
 
 ## Progress Summary
 - RIVAL ENCOUNTER: Defeated MALICE at eastern exit of Cherrygrove City. (Turn 315)
@@ -57,22 +58,16 @@
 - Buildings are often larger than they appear.
 - Menu Navigation: Do NOT mix directional buttons and action buttons in the same turn.
 - Turn Tracking: Always use the turn number provided in the Game State.
-## Immediate Strategy (Turn 527)
-2. Explore house at (31, 11). [DONE]
-3. Transition to Route 30 via (16, 0).
-4. Training: Route 31 (Icarus Lv9, Calcifer Lv13) and Sprout Tower (Calcifer Lv13).
-5. Catch Geodude in Dark Cave.
-## Tile Mechanics (Verified)
-- MART_SHELF: Impassable (acts as WALL).
-- COUNTER: Interactable (face to talk to Clerk).
 
-## NPCs & Interactions
+## NPCs & Interactions (Inside Buildings)
 ### Cherrygrove Mart (26_4)
 - CLERK (ID 1): (1, 3). Face COUNTER at (2, 3) to shop.
 - COOLTRAINER_M (ID 2): (7, 6).
 - YOUNGSTER (ID 3): (2, 5).
+
 ### Cherrygrove Evolution Speech House (26_8)
 - LASS (ID 1): (3, 5).
 - YOUNGSTER (ID 2): (2, 5).
 - WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (31, 11).
 - BOOKSHELF (0, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
+- BOOKSHELF (1, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
