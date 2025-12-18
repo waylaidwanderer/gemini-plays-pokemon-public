@@ -23,7 +23,7 @@
 - Cooltrainer M (19, 8): Blocking path (Badge Req).
 - Fisher (19, 14): Discovered.
 - Youngster Albert (14, 22): Defeated (Turn 2082).
-- Lass (10, 30): Discovered.
+- Picnicker Liz (10, 30): Battling (Turn 2088).
 
 ## NPC Archive - Previous Areas
 - KYLE: (6, 4) in Violet City. Traded Bellsprout for Rocky (ONIX).
