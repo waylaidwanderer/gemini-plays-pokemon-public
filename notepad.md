@@ -17,6 +17,7 @@
 - Found Great Ball (17, 21) and Potion (4, 17).
 - Marked: Ladder (5, 19), Super Nerd (4, 21).
 - Verified: FLOOR_UP_WALL is a wall (tested at (5, 18)).
+- Healing Gneiss with Potion. (Attempt 3)
 
 ## Strategy: Reaching Azalea Town
 - Navigate south through Union Cave 1F to find Route 33 exit.
