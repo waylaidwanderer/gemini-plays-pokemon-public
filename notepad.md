@@ -4,7 +4,7 @@
 - FLOOR: Traversable. Verified by walking on it.
 - WALL: Impassable. Verified by bumping into it.
 - TALL_GRASS: Traversable; triggers wild encounters. Verified.
-- LEDGE_HOP_DOWN: One-way jump South. Verified on Route 29 (50, 10) and Route 30 (7, 17).
+- LEDGE_HOP_DOWN: One-way jump South. Verified on Route 29 (50, 10) and Route 30 (7, 17). Cannot be jumped North. Verified.
 - COUNTER: Impassable. Face to interact with NPC behind (e.g., Nurse Joy). Verified.
 - TREE / HEDGE: Impassable. Verified on Route 30.
 - WARP_CARPET_DOWN: Exit map South. Verified at PlayersHouse1F.
@@ -15,6 +15,7 @@
 1. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
    - *Strategy:* Weaken with Icarus (Tackle), then use Poké Ball.
 2. **Recruit Bellsprout:** Catch on Route 31; trade in Violet City for ONIX.
+   - *Strategy:* Use Calcifer to weaken, then Poké Ball.
 3. **Logistics:** Reach Violet City; visit PC and heal.
 4. **Training:** Calcifer to Lv10 (Ember), Icarus to Lv9 (Gust).
 5. **Sprout Tower:** Sweep with Ember; obtain HM05 (Flash).
@@ -35,6 +36,7 @@
 ### Type Effectiveness (Verified)
 - Normal vs Normal: Neutral
 - Fire vs Normal: Neutral
+- Normal vs Fire: Neutral
 
 ## Exploration Queue (Route 30)
 - East Ledge: (12, 3-15)
