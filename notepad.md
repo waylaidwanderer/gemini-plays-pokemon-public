@@ -29,6 +29,9 @@
 - Rattata: Tackle, Tail Whip
 - Pidgey: Tackle
 - Cyndaquil: Tackle, Leer, Smokescreen
+### Team Progress
+- Icarus (Pidgey): Lv8, needs 330 XP for Lv9.
+- Calcifer (Cyndaquil): Lv8, needs 74 XP for Lv9.
 ### Type Effectiveness (Verified)
 - Normal vs Normal: Neutral
 - Fire vs Normal: Neutral
