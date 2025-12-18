@@ -29,13 +29,16 @@
 - **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphInnerChamber.
 - **Kabuto Puzzle:** Solved Turn 1941. Warped to Inner Chamber via pit at (3,3)/(4,3).
 - **Inner Chamber:** "There is a strange presence here..." Triggered Turn 1941.
+- **Strange Presence Identified:** Encountered wild UNOWN at (15, 8). Verified Turn 1948.
 
 ## Strategy & Lessons
 - **Puzzle Solved:** Numerical order 1-16 is correct for Kabuto. Swapping identical pieces at the bottom (14/15) might be necessary if it doesn't trigger immediately. Verified Turn 1941.
 - **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`. Use `press_sequence` or separate calls. Verified Turn 1922.
 - **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout - catch one on Route 32).
+- **Unown Battle:** Unown are Psychic-type and only know Hidden Power. Catching one is a priority for the Pokedex. Verified Turn 1948.
 
-## Reflection Turn 1947
-- **Immediate Execution:** Exploring eastern and southern tiles in Inner Chamber. Marked ladder at (10, 13).
-- **Goal Clarity:** Identify 'strange presence' (Unown).
-- **Map Progress:** 45.5% explored. Focus on southern unseen tiles.
+## Reflection Turn 1948
+- **Immediate Execution:** Battle with Unown started.
+- **Goal Clarity:** Identify 'strange presence' (Confirmed: Unown).
+- **Map Progress:** 49.1% explored.
+- **Action Plan:** Catch the Unown if possible, otherwise defeat it and continue exploration.
