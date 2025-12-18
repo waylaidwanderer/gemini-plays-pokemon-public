@@ -75,3 +75,4 @@
 - LASS (ID 1): (3, 5).
 - YOUNGSTER (ID 2): (2, 5).
 - WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (31, 11).
+- BOOKSHELF (0, 1): POKéMON magazines (PAL, HANDBOOK, GRAPH).
