@@ -1,23 +1,21 @@
 # Johto Journey: Gem's Log
 
-## Tile Mechanics
-- FLOOR: Traversable. Standard ground.
-- WALL / FLOOR_UP_WALL: Impassable.
+## Global Tile Mechanics
+- FLOOR: Traversable. Standard ground. Verified Turn 1891.
+- WALL / FLOOR_UP_WALL: Impassable. Verified Turn 1905.
 - TALL_GRASS: Traversable. Wild encounters.
-- LEDGE_HOP_DOWN: One-way South.
-- LEDGE_HOP_RIGHT: One-way East.
-- COUNTER: Impassable. Stand in front to talk to NPCs behind.
+- LEDGE_HOP_DOWN: One-way South. Verified Turn 1894.
+- LEDGE_HOP_RIGHT: One-way East. Verified Turn 1894.
+- COUNTER: Impassable. Stand in front to talk to NPCs behind. Verified Turn 1891.
 - HEADBUTT_TREE: Impassable. Requires Headbutt.
 - CUT_TREE: Impassable. Requires Cut.
-- WARP_CARPET: Map transition at edges.
-- LADDER / DOOR / CAVE: Instant warp upon entry.
+- WARP_CARPET: Map transition at edges. Verified Turn 1891.
+- LADDER / DOOR / CAVE: Instant warp upon entry. Verified Turn 1907.
 - PC / BOOKSHELF / RADIO: Interactable from below (face Up + A).
-- WATER / ROCK / INCENSE_BURNER: Impassable.
+- WATER / ROCK / INCENSE_BURNER: Impassable. Verified Turn 1906.
 
 ## Gym Progress
 - **Zephyr Badge:** Obtained from Falkner (Turn 1864).
-  - Effect: Increases Attack power.
-  - Ability: Can use FLASH outside battle.
 - **Hive Badge:** Target. Azalea Town.
 
 ## EXP Tracking
@@ -25,8 +23,8 @@
 - Rocky (ONIX, Medium Fast): Lv5 (125 EXP). Goal: Lv14 (Rock Throw) - On hold.
 
 ## Key Items & TMs
-- TM31 (MUD-SLAP): Received from Falkner. Accuracy-lowering Ground move.
-- HM05 (FLASH): Received from Sage Li.
+- TM31 (MUD-SLAP): Ground move.
+- HM05 (FLASH): Use with Zephyr Badge.
 
 ## Pokemon Locations
 - Route 31: Bellsprout, Weedle, Caterpie, Ledyba, Hoppip, Pidgey.
@@ -51,34 +49,15 @@
 - Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Route 36 blockage).
 - Sage Li: Zephyr Badge required to use Flash outside battle.
 
-## Lessons Learned
-- **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
-- **Navigation Safety:** Always verify "Current Screen Text" is empty before moving.
-- **Battle State:** Do not attempt overworld movement while in battle or during transitions.
-- **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Falkner's Flying-types.
-## Tile Mechanics
-- FLOOR: Traversable. Standard ground. Verified Turn 1891.
-- WALL: Impassable. Verified Turn 1891.
-- COUNTER: Impassable. Stand in front to talk to NPCs behind. Verified Turn 1891.
-- WARP_CARPET: Map transition at edges. Verified Turn 1891.
-- TALL_GRASS: Traversable. Wild encounters.
-- LEDGE_HOP_DOWN: One-way South.
-- LEDGE_HOP_RIGHT: One-way East.
-- FLOOR_UP_WALL: Impassable. Verified Turn 1905.
-
-## Strategy: Azalea Town
-- Follow Route 32 south, pass through Union Cave.
-- Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
-
 ## Exploration Log
-- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphOutside. Last Update: Turn 1905.
+- **Ruins of Alph Detour:** Started Turn 1888. Currently in RuinsOfAlphOutside. Last Update: Turn 1907.
 - **Officer Hint:** Ruins of Alph is a "Look-and-Touch Tourist Site". Mentions "sliding stone panels". Verified Turn 1896.
 - **Youngster Hint:** Confirms drawings on stone panels and that they can be moved. Verified Turn 1899.
 
-## Reflection Turn 1869
-- **Immediate Execution:** No deferred tasks. Falkner defeated, badge obtained.
-- **Notepad Hygiene:** Added Azalea/Egg strategy.
-- **Map Hygiene:** Markers for gym clear. Need to mark Aide in Pokecenter.
-- **Automation:** Fixed list_reachable_unseen_v3.
-- **Goal Clarity:** Focus shifted to next badge and Egg.
-- **Error Analysis:** list_reachable_unseen_v3 failed due to return type; fixed now.
+## Strategy & Lessons
+- **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
+- **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Flying-types.
+- **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout).
+
+## Reflection Archive
+- **Turn 1869:** Falkner defeated, badge obtained. Added Azalea/Egg strategy. Fixed list_reachable_unseen_v3. Focus shifted to next badge and Egg.
