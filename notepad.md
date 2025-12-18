@@ -4,7 +4,7 @@
 - FLOOR: Traversable. Verified.
 - WALL: Impassable. Verified.
 - TALL_GRASS: Traversable; triggers wild encounters. Verified.
-- LEDGE_HOP_DOWN: One-way jump South. Impassable from the South. Verified on Route 29 (50, 10) and Route 30 (7, 17).
+- LEDGE_HOP_DOWN: One-way jump South. Impassable from the South. Verified on Route 29 (50, 10), Route 30 (7, 17), and Route 31 (6, 9).
 - LEDGE_HOP_RIGHT: One-way jump East. Impassable from the East. Verified on Route 31 (13, 6).
 - LEDGE_HOP_LEFT: One-way jump West. Impassable from the West.
 - COUNTER: Impassable. Face to interact with NPC behind. Verified.
