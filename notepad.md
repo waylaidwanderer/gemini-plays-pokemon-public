@@ -28,11 +28,6 @@
 - Sign at (13, 29): MrPokemonsHouseDirectionsSign. Says "STRAIGHT AHEAD!". (Read)
 - YOUNGSTER (ID 1): (5, 26).
 
-## Verification & Correction
-- Route 29 (24_3): Fisher was misidentified; verify correct NPC location.
-- Route 29 (24_3): Verify Cut Tree at (21, 11).
-- Cherrygrove (26_3): Tree at (30, 9) is a decorative wall.
-
 ## Lessons Learned
 - NPCs act as walls.
 - Buildings are often larger than they appear.
@@ -42,4 +37,4 @@
 
 ## Strategy: Return to New Bark Town
 - HOW: Route 30 path (8, 49) -> (7, 49) -> (7, 50) -> (7, 51) -> (7, 52) -> (7, 53) -> (6, 53).
-- Prep: Heal at Cherrygrove Pokemon Center (29, 3). Anticipate rival battle at eastern exit.
+- Prep: Heal at Cherrygrove Pokemon Center (29, 3). Anticipate rival battle at eastern exit of Cherrygrove City.
