@@ -34,5 +34,5 @@
 - Old Rod: Obtained from Fishing Guru in Route 32 Pokémon Center.
 ## Union Cave 1F
 - X ATTACK: Found at (4, 2).
-- Pokefan M (3, 6): Facing right. Likely a trainer.
+- Hiker Daniel (3, 6): Facing right. Defeated.
 - Pokefan M (11, 8): Facing down. Likely a trainer.
