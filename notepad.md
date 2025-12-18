@@ -22,7 +22,7 @@
   3. Repeat until Gneiss hits Lv11 (Rock Throw).
   4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
 - **EXP Tracking:**
-  - Gneiss (Lv5, 138 EXP): Needs to reach 742 EXP for Lv11 Rock Throw (604 more).
+  - Gneiss (Lv5, 168 EXP): Needs to reach 742 EXP for Lv11 Rock Throw (574 more).
   - Rocky (Lv5, 125 EXP): Needs to reach 2744 EXP for Lv14 Rock Throw (2619 more).
 - **Turn Start:** 1559.
 
