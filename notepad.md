@@ -95,3 +95,4 @@
 - Goal: Find ladder to 3F.
 - Calcifer (Cyndaquil) needs ~244 more EXP for Lv12 (Ember).
 - Exploring reachable unseen tiles to map the floor.
+- Sage at (9, 14) on 2F.
