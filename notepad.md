@@ -25,10 +25,11 @@
   - Youngster Mikey (5, 23) - Defeated.
   - Cooltrainer F (2, 13) - Talked (Non-trainer).
   - Bug Catcher Don (1, 9) - Defeated.
+- **Route 31:**
+  - Arrived via Route 30.
 - **Navigation:**
-  - North path via x=2,3 blocked by ledges at y=11.
-  - North path via x=5 blocked by ledges at y=17/25.
-  - Path through grass at x=0,1 confirmed to lead North.
+  - Route 30 North path through grass at x=0,1 is the primary route to Route 31. COMPLETED.
+  - Currently on Route 31. Seeking Dark Cave.
 
 ## Battle and Pokemon Information
 ### Observed Movesets
