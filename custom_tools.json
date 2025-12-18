@@ -37,32 +37,29 @@
     ]
   },
   "smart_battle_move": {
-    "description": "Selects 'FIGHT' and then navigates to the target move slot using the shortest path (Up/Down wrapping). Accounts for cursor position.",
+    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes cursor in Move Menu starts at `current_slot` (default 1).\nLayout:\n1\n2\n3\n4\nReturns the button sequence.",
     "input_schema": {
       "type": "object",
       "properties": {
         "target_slot": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 4
+          "maximum": 4,
+          "description": "The move slot to select (1-4)."
         },
         "current_slot": {
           "type": "integer",
           "minimum": 1,
           "maximum": 4,
-          "default": 1
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
+          "default": 1,
+          "description": "The current slot the cursor is on (default 1)."
         }
       },
       "required": [
-        "target_slot",
-        "autopress_buttons"
+        "target_slot"
       ]
     },
-    "python_script": "import json\n\n# Calculate steps\n# 1 -> 2: Down (1)\n# 1 -> 3: Down (2) or Up (2)\n# 1 -> 4: Up (1)\n# General: (target - current) % 4\n# But we need buttons.\n\ndiff = (target_slot - current_slot) % 4\nbuttons = [\"A\", \"sleep 500\"] # Select FIGHT\n\nif diff == 1:\n    buttons.extend([\"Down\", \"sleep 200\"])\nelif diff == 2:\n    buttons.extend([\"Down\", \"sleep 200\", \"Down\", \"sleep 200\"])\nelif diff == 3:\n    buttons.extend([\"Up\", \"sleep 200\"]) # Wrap around\n\nbuttons.extend([\"A\"]) # Select Move\n\nprint(json.dumps(buttons))",
+    "python_script": "# Smart Battle Move Tool (Vertical List Version)\n# Calculates button presses to navigate from current_slot to target_slot in a vertical list.\n# 1\n# 2\n# 3\n# 4\n# Wraps around (Up from 1 -> 4, Down from 4 -> 1)\n\nimport json\n\ntry:\n    # Ensure variables are integers\n    # target_slot and current_slot are injected by the harness\n    t_slot = int(target_slot)\n    c_slot = int(current_slot) if 'current_slot' in locals() else 1\n    \n    buttons = [\"A\"] # Select FIGHT to enter menu\n    \n    if t_slot == c_slot:\n        pass # No movement needed\n    else:\n        # Calculate distances\n        # Down distance (forward)\n        down_steps = (t_slot - c_slot) % 4\n        # Up distance (backward)\n        up_steps = (c_slot - t_slot) % 4\n        \n        if down_steps <= up_steps:\n            for _ in range(down_steps):\n                buttons.append(\"Down\")\n        else:\n            for _ in range(up_steps):\n                buttons.append(\"Up\")\n        \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # Fallback or error logging\n    print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
@@ -73,6 +70,11 @@
         "commit_message": "Fixed cursor logic to use wrapping and minimize button presses. Added support for current_slot tracking.",
         "timestamp": "2025-12-18T18:21:49.458Z",
         "action_counter": 5432
+      },
+      {
+        "commit_message": "Changed navigation logic from 2x2 grid to 1x4 vertical list to match Pokemon Crystal's battle UI. Added shortest path wrapping logic.",
+        "timestamp": "2025-12-18T18:35:45.413Z",
+        "action_counter": 5451
       }
     ]
   },
