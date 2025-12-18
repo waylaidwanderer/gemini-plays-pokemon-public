@@ -72,3 +72,4 @@
 - **Note:** Accidentally fainted first Bellsprout with a crit Tackle on Turn 973. Need to find another.
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
 - **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a critical hit.
+- Wade (BUG CATCHER): Route 31 (16, 14). Roster: Caterpie (Lv2), ???
