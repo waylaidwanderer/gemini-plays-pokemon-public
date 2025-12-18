@@ -25,8 +25,8 @@
 
 ## Current Area: Route 31
 - **Objectives:**
-  - Locate and catch Bellsprout in tall grass (Start Turn: 959).
-  - Reach Violet City and heal.
+  - Locate and catch Bellsprout in tall grass (Start Turn: 959). (Paused for healing)
+  - Reach Violet City and heal. (Current Focus)
 
 ## Completed Areas
 - **Route 30:** Defeated Joey, Mikey, Don. Path to Route 31 is clear.
@@ -42,7 +42,7 @@
 - Bellsprout: Vine Whip (Verified).
 - Poliwag: Bubble (Verified).
 ### Team Status
-- Calcifer (CYNDAQUIL): Lv8 (13/25 HP). Needs XP for Lv9 (Growth: Medium Slow).
+- Calcifer (CYNDAQUIL): Lv8 (13/25 HP). Needs 14 XP for Lv9 (Growth: Medium Slow).
 - ICARUS (PIDGEY): Lv9 (15/28 HP). Needs 95 XP for Lv10.
 - GNEISS (GEODUDE): Lv4 (0/18 HP, Fainted).
 ### Type Effectiveness (Verified)
