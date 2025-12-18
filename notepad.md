@@ -56,11 +56,10 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** Exiting Western Strip.
-    - **Status:** Backtracked to (0, 10).
-    - **Correction:** The Western Strip is isolated. Must reverse the entry maze to escape.
+    - **Status:** Reversing maze traversal.
     - **Plan:** Reverse traversal: (0, 10) -> (2, 8) -> (4, 6) -> (6, 4) -> (10, 4) -> (10, 2).
     - **Goal:** Reach Top Edge (Row 2) to access the rest of the park.
-- **Current Action:** Reverse Maze Step 1: Navigate to (2, 8).
+- **Current Action:** Reverse Maze Step 2: Navigate to (4, 6).
 - **Battle:** Low Kick is weight-dependent. Nidoran is light -> Low damage. Use Karate Chop (Fixed 50 BP) instead.
 - **Tool Issue:** `smart_battle_move` with `target_slot=4` selected Slot 1 (Low Kick) via `Up`. Likely due to Grid layout (1 2 / 3 4) vs List assumption. Manual navigation (Down, Right) recommended for Slot 4.
 - **Move Menu:** Vertical List (1-2-3-4). Down moves 1->2->3->4. Cursor remembers position within battle.
