@@ -16,6 +16,7 @@
 ## Union Cave 1F Progress
 - Firebreather Bill (14, 19) defeated.
 - Found Great Ball (17, 21) and Potion (4, 17).
+- Used Potion on Gneiss (Turn #2378).
 - Marked: Ladder (5, 19), Super Nerd (4, 21).
 
 ## History
