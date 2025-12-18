@@ -28,13 +28,14 @@
 - Rocket Grunt (Well 1): Rattata x2 (Lv9).
 - Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
 - Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
-- Rocket Grunt (Well 4): Next target at (5, 2).
+- Rocket Grunt (Well 4): Koffing (Lv14) - Battling at (5, 2).
 
 ## Slowpoke Well B1F Strategy
 - Status:
   - Grunt (15, 9): Defeated.
   - Grunt (13, 4): Defeated.
-  - Grunt (6, 6): Battling Zubat (Lv 9).
+  - Grunt (6, 6): Defeated.
+  - Grunt (5, 2): Battling.
   - Item at (10, 3): Collected (Super Potion).
 - Calcifer (Quilava): Level 18. HP 53/53.
 - Kurt (16, 14): Injured; waiting for us to clear the well.
