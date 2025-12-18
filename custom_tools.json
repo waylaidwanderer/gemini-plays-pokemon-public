@@ -122,5 +122,33 @@
         "action_counter": 2112
       }
     ]
+  },
+  "party_swap_v5": {
+    "description": "Swaps two Pokemon in the party. Assumes overworld and closed menu. Anchors on PACK (Index 3) in main menu. Parameters: slot_a (1-indexed), slot_b (1-indexed).",
+    "input_schema": {
+      "properties": {
+        "slot_a": {
+          "description": "1-indexed slot of the first Pokemon",
+          "type": "integer"
+        },
+        "slot_b": {
+          "description": "1-indexed slot of the second Pokemon",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "slot_a",
+        "slot_b"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\ndef get_btns(a, b):\n    # Assume cursor on PACK (Index 3)\n    btns = [\"Start\", \"sleep 500\", \"Up\", \"A\", \"sleep 500\"]\n    # Party menu starts on slot 1\n    for _ in range(a - 1): btns.append(\"Down\")\n    btns.append(\"A\")\n    # Sub-menu: SWITCH is 2nd\n    btns.extend([\"sleep 500\", \"Down\", \"A\", \"sleep 500\"])\n    # Switch mode. Cursor on slot a.\n    diff = b - a\n    if diff > 0:\n        for _ in range(diff): btns.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)): btns.append(\"Up\")\n    btns.append(\"A\")\n    btns.extend([\"sleep 500\", \"B\", \"B\", \"B\"])\n    return btns\na = int(input_data['slot_a'])\nb = int(input_data['slot_b'])\nprint(json.dumps(get_btns(a, b)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T19:52:02.521Z",
+        "action_counter": 2330
+      }
+    ]
   }
 }

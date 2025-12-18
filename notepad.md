@@ -15,8 +15,9 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Task: Swap Calcifer to lead slot. (Started Turn #2291. Attempts: 12)
-- Discovery: Main menu wraps (8 items). Resetting with 8 presses is ineffective.
+- Task: Swap Calcifer to lead slot. (Started Turn #2291. Attempts: 13)
+- Current Party: 1. GNEISS, 2. ROCKY, 3. Calcifer, 4. APOPHIS, 5. EGG, 6. ICARUS.
+- Plan: Swap Slot 3 (Calcifer) with Slot 1 (Gneiss).
 - Current Cursor: PACK (Index 3). Move Up 1 for POKEMON.
 
 ## Strategy: Reaching Azalea Town
