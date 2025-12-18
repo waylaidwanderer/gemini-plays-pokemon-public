@@ -13,7 +13,7 @@
 
 ## Strategic Plan: Defeat Falkner (Violet City)
 1. **Navigate to Route 31:** Go North through Route 30.
-   - *Status:* Youngsters defeated; path should be open. Investigating path at (6, 16).
+   - *Status:* Youngsters defeated. Path at x=2,3 seems to bypass ledges at y=17. Heading to (2, 14).
 2. **Recruit Geodude:** Catch in Dark Cave (Route 31) for Rock-type advantage.
    - *Strategy:* Weaken with Icarus (Tackle), then use Poké Ball.
 3. **Recruit Bellsprout:** Catch on Route 31; trade in Violet City for ONIX.
