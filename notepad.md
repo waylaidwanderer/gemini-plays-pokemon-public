@@ -27,3 +27,4 @@
 ## Recent Events
 - **Coin Case:** Obtained in Underground.
 - **Strategy Correction:** Need Abra, not Drowzee for Machop trade.
+- **Game Corner:** Coin Vendor at (3, 2). 50 Coins = 1000 Yen.
