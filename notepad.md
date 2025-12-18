@@ -34,3 +34,4 @@
 - **B1F Puzzle:** Items are behind a barrier. Machop at (7, 7) didn't respond to 'A'. Talking to workers for clues.
 - **Clue:** Black Belt at (4, 8) says "I lose my passion for work if someone's watching. Come on, kid, scoot!"
 - **Hypothesis:** Might need to leave the area or look away to make them work (move boxes).
+- **Action:** Using elevator to leave B1F and return, testing if this resets the room and moves the boxes.
