@@ -16,45 +16,34 @@
 - Zephyr Badge: Obtained from Falkner (Violet City).
 
 ## Strategy: Azalea Town
+- Investigation: Team Rocket is at Slowpoke Well cutting off tails.
 - Gym Entry: Azalea Gym is currently blocked (verify after Well).
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
 - TM31 MUD-SLAP: Obtained.
 - Mystery Egg: Received from Elm's Aide.
-- Super Potion: Withdrawn from PC (Turn #2485).
+- Super Potion x2: One from Mom, one from Well B1F (10, 3).
 
 ## Trainer Rosters (Johto)
-- Firebreather Bill: Koffing x2 (Lv6).
-- Pokemaniac Larry: Slowpoke (Lv10).
-- Firebreather Ray: Vulpix (Lv9).
-- Hiker Anthony: Geodude (Lv11), Machop (Lv11).
 - Rocket Grunt (Well 1): Rattata x2 (Lv9).
 - Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
 
-## Azalea Town Markers (Summary)
-- Slowpoke Well entrance at (31, 7).
-- Charcoal Kiln at (21, 13).
-- Poké Mart at (21, 5).
-- Pokémon Center at (15, 9).
-- Team Rocket Grunt at (31, 9).
-- Teacher NPC at (15, 13).
-- Gramps NPC at (20, 9).
-- Kurt's House at (9, 5). Inside: Kurt (3, 2), Granddaughter (5, 3).
+## Slowpoke Well B1F Strategy
+- Current Goal: Defeat all Team Rocket Grunts and find their leader.
+- Navigation: Follow the path west and north from the entrance.
+- Status:
+  - Grunt (15, 9): Defeated.
+  - Grunt (13, 4): Defeated.
+  - Item at (10, 3): Collected (Super Potion).
+- Kurt (16, 14): Injured; waiting for us to clear the well.
 
 ## Lessons Learned
 - Always double-check map orientations and neighboring routes before making strategic claims (e.g., Route 33 is East of Azalea).
 - Link moving NPC markers to their object_id to ensure they track correctly.
 - Verify all foundational assumptions in-game rather than relying on cross-game knowledge.
-- Teacher at (15, 13): Mentioned Kurt makes Balls.
-- Gramps at (20, 9): Slowpoke tails are being sold; Slowpoke have vanished.
-- Slowpoke Well: Team Rocket presence confirmed.
-- Kurt's House: Found at (9, 5).
-
-## Slowpoke Well B1F
-- Kurt (16, 14): Injured (back slammed). Asked GEM to stop Team Rocket.
-- Exploration: Path leads north and west from entrance.
-- Status:
-  - Grunt (15, 9): Defeated.
-  - Grunt (13, 4): Defeated.
-- Strategy: Defeat remaining Grunts and rescue Slowpoke.
+- Kurt's House: (9, 5) in Azalea Town.
+- Slowpoke Well: Entrance at (31, 7) in Azalea Town.
+- Charcoal Kiln: (21, 13) in Azalea Town.
+- Poké Mart: (21, 5) in Azalea Town.
+- Pokémon Center: (15, 9) in Azalea Town.
