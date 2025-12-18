@@ -6,7 +6,7 @@
     2. Challenge Whitney (Goldenrod Gym).
 - **Completed:** Obtained Bicycle, Defeated Officer Keith, Received Odd Egg, Found Headbutt Tutor, Taught Headbutt to Rocky, Caught Heracross (AZURITE), Healed at Goldenrod PC.
 - **Party:**
-    - **ROCKY (Onix)** Lv12 (Asleep)
+    - **ROCKY (Onix)** Lv12
     - **GARNET (Quilava)** Lv24
     - **AZURITE (Heracross)** Lv10
     - **TOGEPI** Lv6
