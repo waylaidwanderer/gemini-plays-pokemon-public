@@ -29,6 +29,10 @@
 - **Battle Menus:** Selecting NO for switching is faster if current Pokemon is fine.
 - **Gym Strategy:** Rock-types (Geodude) with Rock Throw are extremely effective against Flying-types.
 - **HMs:** Use FLASH in Dark Cave for level grinding/shortcuts. Requires a Pokemon that can learn it (e.g. Bellsprout - catch one on Route 32).
+- **Input Hygiene:** Do not mix directional and action buttons in `press_buttons`. Use `press_sequence` or separate calls. Mixed inputs are truncated by the system. Verified Turn 1922.
 
-## Reflection Archive
-- **Turn 1869:** Falkner defeated, badge obtained. Added Azalea/Egg strategy. Fixed list_reachable_unseen_v3. Focus shifted to next badge and Egg.
+## Reflection Turn 1922
+- **Immediate Execution:** Marked unactivated warps (3, 3), (4, 3), (4, 0).
+- **Notepad Hygiene:** Removed transient status info and redundant EXP tracking. Added input hygiene lesson.
+- **Goal Clarity:** Reading description sign to prepare for puzzle.
+- **Root Hypothesis:** Unmarked warps in Kabuto Chamber are likely puzzle rewards.
