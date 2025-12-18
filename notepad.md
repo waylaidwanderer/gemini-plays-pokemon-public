@@ -35,9 +35,6 @@
 - Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 
-## Navigation: Path to Pokemon Center (26_3)
-- Path: (16, 0) -> (16, 4) -> (29, 4).
-- Target: Warp at (29, 3).
 ## Cherrygrove Pokecenter 1F (26_5)
 - NPCs: Nurse (Counter at Row 2), Teacher (1, 6), Fisher (2, 3), Gentleman (8, 6).
 - Waypoint: Face counter at (3, 3) or (4, 3) to heal.
