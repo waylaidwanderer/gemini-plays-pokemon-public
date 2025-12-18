@@ -71,3 +71,7 @@
 - CLERK (ID 1): (1, 3). Face COUNTER at (2, 3) to shop.
 - COOLTRAINER_M (ID 2): (7, 6).
 - YOUNGSTER (ID 3): (2, 5).
+### Cherrygrove Evolution Speech House (26_8)
+- LASS (ID 1): (3, 5).
+- YOUNGSTER (ID 2): (2, 5).
+- WARPS: (2, 7) and (3, 7) exit to Cherrygrove City (31, 11).
