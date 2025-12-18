@@ -27,7 +27,8 @@
 ## Trainer Rosters (Johto)
 - Rocket Grunt (Well 1): Rattata x2 (Lv9).
 - Rocket Grunt (Well 2, F): Zubat (Lv9), Ekans (Lv11).
-- Rocket Grunt (Well 3): Rattata (Lv7) - Defeated. Zubat (Lv9) - Battling.
+- Rocket Grunt (Well 3): Rattata (Lv7), Zubat (Lv9) - Defeated.
+- Rocket Grunt (Well 4): Next target at (5, 2).
 
 ## Slowpoke Well B1F Strategy
 - Status:

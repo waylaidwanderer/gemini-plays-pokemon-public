@@ -1,26 +1,17 @@
 {
-  "press_sequence": {
-    "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
+  "explore_unseen_v1": {
+    "description": "Finds the nearest reachable 'unseen' tile and returns a list of button presses to reach it. Handles ledges and objects correctly.",
     "input_schema": {
       "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
+      "properties": {},
+      "required": []
     },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef navigate_to_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            \n            # Extract objects\n            obj = tile.find('Object')\n            is_wall = has_player is False and obj is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'is_wall': is_wall}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return []\n\n    # BFS to find nearest unseen reachable tile\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        # Check neighbors\n        for dx, dy, btn in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n            nx, ny = cx + dx, cy + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            return path + [btn]\n                        \n                        # Traversal rules\n                        can_pass = False\n                        if tile['type'] == 'FLOOR' and not tile['is_wall']:\n                            can_pass = True\n                        # Add more tile types if needed\n                        \n                        if can_pass:\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), path + [btn]))\n    return []\n\nprint(json.dumps(navigate_to_unseen()))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-18T06:11:16.135Z",
-        "action_counter": 948
+        "timestamp": "2025-12-18T21:53:44.618Z",
+        "action_counter": 2565
       }
     ]
   },
@@ -70,6 +61,31 @@
       }
     ]
   },
+  "press_sequence": {
+    "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T06:11:16.135Z",
+        "action_counter": 948
+      }
+    ]
+  },
   "use_item_v4": {
     "description": "Uses an item from the PACK on a Pokémon. Assumes overworld. Parameters: item_index (0-indexed), pokemon_index (1-indexed), current_menu_index (0-indexed, POKEDEX=0, EXIT=7).",
     "input_schema": {
@@ -100,22 +116,6 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-18T20:55:45.730Z",
         "action_counter": 2433
-      }
-    ]
-  },
-  "explore_unseen_v1": {
-    "description": "Finds the nearest reachable 'unseen' tile and returns a list of button presses to reach it. Handles ledges and objects correctly.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef navigate_to_unseen():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    player_pos = None\n    tiles = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            seen = tile.attrib['seen'] == 'true'\n            t_type = tile.attrib['type']\n            has_player = tile.find('Player') is not None\n            \n            # Extract objects\n            obj = tile.find('Object')\n            is_wall = has_player is False and obj is not None\n            \n            tiles[(x, y)] = {'seen': seen, 'type': t_type, 'is_wall': is_wall}\n            if has_player:\n                player_pos = (x, y)\n\n    if not player_pos:\n        return []\n\n    # BFS to find nearest unseen reachable tile\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        # Check neighbors\n        for dx, dy, btn in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n            nx, ny = cx + dx, cy + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = tiles.get((nx, ny))\n                    if tile:\n                        if not tile['seen']:\n                            return path + [btn]\n                        \n                        # Traversal rules\n                        can_pass = False\n                        if tile['type'] == 'FLOOR' and not tile['is_wall']:\n                            can_pass = True\n                        # Add more tile types if needed\n                        \n                        if can_pass:\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), path + [btn]))\n    return []\n\nprint(json.dumps(navigate_to_unseen()))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T21:53:44.618Z",
-        "action_counter": 2565
       }
     ]
   }
