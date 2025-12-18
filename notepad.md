@@ -20,7 +20,7 @@
   - GNEISS (Geodude): Lv4. Counter for Falkner.
 - **Plan:**
   1. Complete Sprout Tower (Obtain HM05 Flash). ✅
-  2. Heal at Pokemon Center. (In progress)
+  2. Heal at Pokemon Center. ✅
   3. Train Rocky/Gneiss to Lv11+ (Gneiss learns Rock Throw).
   4. Defeat Gym Leader Falkner.
 
@@ -34,16 +34,17 @@
   - Sage Chow (1F).
   - Sage Nico (2F).
   - Sage Edmond (2F).
-  - Sage Jin (3F) at (8, 13).
-  - Sage Neal (3F) at (11, 11).
-  - Sage Troy (3F) at (8, 9).
-  - Sage Li (Elder) (3F) at (10, 2).
+  - Sage Jin (3F).
+  - Sage Neal (3F).
+  - Sage Troy (3F).
+  - Sage Li (Elder) (3F).
 
 ## NPC Archive (Active/Relevant)
 - New Bark: ELM, OFFICER, MOM.
 - Route 30/31: MR. POKEMON, OAK.
 - Violet City: KYLE (Trade), EARL (Spinning Master) at (25, 14).
 - Sprout Tower: Sage at (7, 4) (HM info).
+- Violet Pokecenter: Nurse Joy (3, 1), Gentleman (1, 4), Gameboy Kid (7, 6), Youngster (8, 1).
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
@@ -55,11 +56,11 @@
 ## Area Mechanics: Sprout Tower
 - HM Flash: Received from Sage Li. Requires Zephyr Badge to use.
 
-## Timestamps & Progress
+## Timestamps & Major Milestones
 - Started Academy Turn 1167.
-- Entered Tower Turn 1213.
-- Sprout Tower Complete Turn 1434.
+- Entered Sprout Tower Turn 1213.
 - Calcifer evolved into QUILAVA Turn 1421.
 - Received HM05 FLASH Turn 1422.
-- Potion collected at (6, 14).
-- Escape Rope collected at (14, 1).
+- Sprout Tower Complete Turn 1434.
+- Team Healed at Violet Pokecenter Turn 1442.
+- Items Found: Potion (Tower 3F), Escape Rope (Tower 3F).
