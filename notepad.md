@@ -11,10 +11,11 @@
 - **Party:**
     - **ROCKY (Onix)** Lv12
     - **GARNET (Quilava)** Lv24
+    - **AZURITE (Heracross)** Lv10
     - **TOGEPI** Lv6
     - **AMETHYST (Zubat)** Lv5
     - **BELLADONNA (Oddish)** Lv5
-    - **EGG (Tyrogue)** Lv5
+    - **Deposited:** Tyrogue Egg
 - **Learned:** 
     - Happiness Rater: Quilava is "quite cute".
     - Dept Store: Vending Machine (6F), TMs/Vitamins (5F).
