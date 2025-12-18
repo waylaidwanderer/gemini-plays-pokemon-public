@@ -15,15 +15,12 @@
 - Zephyr Badge: Obtained from Falkner.
 
 ## Union Cave 1F Progress
-- Task: Swap Calcifer to lead slot. (Started Turn #2291. Attempts: 15)
-- Discovery: Menu wraps; 8 Downs from PACK lands on PACK. Currently on PACK.
-- Current Party: 1. GNEISS, 2. ROCKY, 3. Calcifer, 4. ICARUS, 5. EGG, 6. APOPHIS.
-- Plan: Up to POKEMON, then swap Slot 1 and Slot 3.
-- Next: Pick up item at (17, 21) from (16, 21) facing Right.
+- Task: Swap Calcifer to lead slot. (Completed Turn #2335)
+- Item at (17, 21): Standing by.
 
 ## Strategy: Reaching Azalea Town
-1. Swap Calcifer (Quilava) to lead slot to preserve Gneiss's HP.
-2. Navigate south through Union Cave 1F to Azalea Town.
+1. Navigate south through Union Cave 1F to Azalea Town.
+2. Use Calcifer (Quilava) as lead to handle encounters.
 
 ## Battle Notes
 - Gneiss is out of Rock Throw PP.
