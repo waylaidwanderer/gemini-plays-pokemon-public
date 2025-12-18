@@ -37,7 +37,7 @@
 ## Union Cave 1F
 - X ATTACK: Found at (4, 2).
 - Hiker Daniel (3, 6): Facing right. Defeated. Gneiss reached Lv15.
-- Pokefan M (11, 8): Facing down. Likely a trainer.
+- Hiker Russell (11, 8): Facing down. Battling.
 - Switch-training vs Daniel's Onix: Skipped. 
   - Observation: Onix is Lv11 and uses Bind. 
   - Hypothesis: Low-level trainees (Lv4-5) will faint from cumulative Bind damage (1/16 max HP per turn) or a single move before they can be safely switched out. 
