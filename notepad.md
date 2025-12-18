@@ -35,9 +35,6 @@
 - Navigation: Use 'navigate' tool with 'find_path' coordinates for efficiency.
 - Ledges: Strictly one-way. Jumping moves the player two tiles.
 
-## Strategy: Return to New Bark Town
-- HOW: Navigate east across Route 29 to the warp at (59, 9) leading to New Bark Town.
-- Status: Defeated Rival at Cherrygrove exit. Mystery Egg secured. Heading to Professor Elm.
 ## Navigation: Path to Pokemon Center (26_3)
 - Path: (16, 0) -> (16, 4) -> (29, 4).
 - Target: Warp at (29, 3).
@@ -46,7 +43,7 @@
 - Waypoint: Face counter at (3, 3) or (4, 3) to heal.
 - GENTLEMAN (ID 3): (8, 6). Confirmed PC is free to use. (Talked to)
 - TEACHER (ID 4): (1, 6). Mentioned Communication Center upstairs is still being finished. (Talked to)
-- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name is "???". (Turn 289)
+- RIVAL ENCOUNTER: Defeated Rival (Totodile Lv5) at eastern exit of Cherrygrove City (34, 6). Calcifer reached Lv6 and learned Smokescreen. Rival's name is "MALICE". (Turn 301)
 ## ElmsLab (24_5) Update
 - OFFICER (ID 6): (5, 3). Investigating a crime.
 - POKE_BALL (ID 5): (8, 3). On the table.
