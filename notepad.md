@@ -56,10 +56,9 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** At (31, 27). Isolated in the SW pocket of the East Side.
-    - **Pathfinding:** Direct South access to SE corner is blocked. Must traverse via Far East Strip (Col 33).
-    - **Plan:** Backtrack North to (29, 6), cross to (33, 8), then head South down the Far East Strip.
-- **Current Action:** Navigate North to (29, 6).
+    - **Status:** Interrupted by Wild Nidoran♂ at (29, 23).
+    - **Plan:** Defeat Nidoran♂ for EXP, then resume navigation to (29, 6).
+- **Current Action:** Battling Wild Nidoran♂. Pressing B to reach Battle Menu.
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
