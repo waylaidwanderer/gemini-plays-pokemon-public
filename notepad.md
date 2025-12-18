@@ -63,9 +63,11 @@
 - Sprout Tower Complete (HM05 FLASH obtained) Turn 1434.
 - Calcifer evolved into QUILAVA Turn 1421.
 - Team Healed at Violet Pokecenter Turn 1442.
+
 ## Pokecenter 2F Exploration Plan
 1. Mark Link Receptionist (ID 3) at (13, 3). ✅
-2. Talk to Link Receptionist (ID 2) at (9, 2). (In progress)
-3. Explore the right side of the floor (columns 14-15).
-4. Mark all warps: (5, 0), (6, 0), (9, 0), (10, 0), (13, 2).
-5. Exit to Violet City.
+2. Talk to Link Receptionist (ID 2) at (9, 2). ✅
+3. Mark unvisited warps. ✅
+4. Explore the right side of the floor (columns 14-15). (In progress)
+5. Explore the left side of the floor (columns 0-1).
+6. Exit to Violet City.
