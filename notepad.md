@@ -54,14 +54,11 @@
 - Route 32: Cooltrainer M at (19, 8) - Blockade; requires Zephyr Badge.
 
 ## Lore & Information
-- Mary's Radio: Poliwhirl seen around Route 44. Lovely. Arbok mentioned by Oak.
-- Bookshelf: POKéMON magazines... POKéMON PAL, POKéMON HANDBOOK, POKéMON GRAPH...
+- Mary's Radio: Poliwhirl seen around Route 44 (late game area).
 - Youngster at (5, 18): "I saw a wiggly tree up ahead!" (Likely Route 36 blockage).
 - Sage Li: Zephyr Badge required to use Flash outside battle.
 
 ## Lessons Learned
 - **Object Collision:** NPCs and items are walls. Navigate around them.
-- **Route 32 Blockage:** A Cooltrainer prevents access to Route 32 south until the Violet Gym is defeated.
-- **Flash Requirement:** Flash requires Zephyr Badge to use in overworld.
 - **Route 32 Blockage:** Access restricted until Zephyr Badge obtained.
 - **Flash Requirement:** Flash requires Zephyr Badge to use in overworld.
