@@ -56,9 +56,10 @@
 - **Learned:** Always account for Start Menu cursor memory or manually reset it before relying on blind sequences.
 - **Battle:** Fighting moves (Karate Chop) are Not Very Effective against Poison types (Nidoran).
 - **Navigation Strategy:** East Side Exploration.
-    - **Status:** Reading Battle Notice Sign at (27, 31).
-    - **Plan:** Read full text, then move South to explore the grass around (27, 40).
-- **Current Action:** Advance text (A button sequence).
+    - **Status:** Read Sign at (27, 31). Content: "NATIONAL PARK WARDEN'S OFFICE".
+    - **Observation:** Wall at x=30 blocks direct East access.
+    - **Plan:** Navigate South to gap at (30, 34) to access the far East strip (x>30).
+- **Current Action:** Close sign, then navigate to (30, 34).
 - **Reflection (Turn 5668):**
     - **Hygiene:** Condensed maze logs.
     - **Lesson:** Always verify coordinates. Hallucinated position (23,2) vs (27,5) due to mental shortcut.
