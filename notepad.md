@@ -3,10 +3,11 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Plan:**
-    1. Go to Goldenrod City (South via Route 35).
-    2. Trade: Drowzee for Machop (Goldenrod Dept Store 5F).
-    3. Train: Prepare team for Whitney (Machop, Heracross, Onix, Pinsir).
-    4. Challenge Whitney.
+    1. Enter Dept Store.
+    2. Go to 5F.
+    3. Trade Lucid (Drowzee) for Machop (Muscle).
+    4. Consider buying TMs (if useful).
+    5. Train team for Whitney (Machop, Heracross, Onix, Pinsir).
 - **Learned:** Happiness Rater (Quilava "quite cute"), Dept Store layout.
 
 ## Tile Mechanics
