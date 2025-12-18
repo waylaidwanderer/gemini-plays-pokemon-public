@@ -43,7 +43,7 @@
 - Poliwag: Bubble (Verified).
 ### Team Status
 - Calcifer (CYNDAQUIL): Lv8 (13/25 HP). Needs 14 XP for Lv9 (Growth: Medium Slow).
-- ICARUS (PIDGEY): Lv9 (15/28 HP). Needs 95 XP for Lv10.
+- ICARUS (PIDGEY): Lv9 (15/28 HP). Needs 35 XP for Lv10 (Growth: Medium Slow).
 - GNEISS (GEODUDE): Lv4 (0/18 HP, Fainted).
 ### Type Effectiveness (Verified)
 - Flying vs Bug: Super Effective. (Verified with Gust vs Caterpie).
@@ -72,4 +72,4 @@
 - **Note:** Accidentally fainted first Bellsprout with a crit Tackle on Turn 973. Need to find another.
 - **Type Weakness (Wild Battles):** Even low-level wild Pokémon can be dangerous if they have a 4x type advantage (e.g., Water vs Rock/Ground). Switch or run immediately.
 - **Capture Safety:** When weakening Pokémon for capture, use the weakest available moves or status moves. Avoid high-damage moves that could KO on a critical hit.
-- Wade (BUG CATCHER): Route 31 (16, 14). Roster: Caterpie (Lv2), ???
+- Wade (BUG CATCHER): Route 31 (16, 14). Roster: Caterpie (Lv2), Caterpie (Lv2).
