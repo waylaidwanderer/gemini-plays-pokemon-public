@@ -59,7 +59,7 @@
         "target_slot"
       ]
     },
-    "python_script": "# Smart Battle Move Tool (Debug Version)\nimport json\n\ntry:\n    # Argument Handling Logic\n    args = locals()\n    t_slot = 1\n    c_slot = 1\n    \n    # Try to find target_slot\n    if 'target_slot' in args:\n        t_slot = int(args['target_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'target_slot' in args['input_data']:\n        t_slot = int(args['input_data']['target_slot'])\n    else:\n        # If we can't find it, we can't proceed safely, but we'll default to 1 to avoid crashing\n        # and print a debug message\n        print(f\"DEBUG: Could not find target_slot in locals or input_data. Locals keys: {list(args.keys())}\")\n        t_slot = 1\n\n    # Try to find current_slot\n    if 'current_slot' in args:\n        c_slot = int(args['current_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'current_slot' in args['input_data']:\n        c_slot = int(args['input_data']['current_slot'])\n    \n    buttons = [\"A\"] # Select FIGHT to enter menu\n    \n    if t_slot == c_slot:\n        pass # No movement needed\n    else:\n        # Calculate distances\n        down_steps = (t_slot - c_slot) % 4\n        up_steps = (c_slot - t_slot) % 4\n        \n        if down_steps <= up_steps:\n            for _ in range(down_steps):\n                buttons.append(\"Down\")\n        else:\n            for _ in range(up_steps):\n                buttons.append(\"Up\")\n        \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(f\"DEBUG: Error in smart_battle_move: {str(e)}\")\n    print(json.dumps([]))\n",
+    "python_script": "# Smart Battle Move Tool (Clean Version)\nimport json\n\ntry:\n    # Argument Handling Logic\n    args = locals()\n    # Default values\n    t_slot = 1\n    c_slot = 1\n    \n    # Extract target_slot from locals or input_data\n    if 'target_slot' in args:\n        t_slot = int(args['target_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'target_slot' in args['input_data']:\n        t_slot = int(args['input_data']['target_slot'])\n\n    # Extract current_slot from locals or input_data\n    if 'current_slot' in args:\n        c_slot = int(args['current_slot'])\n    elif 'input_data' in args and isinstance(args['input_data'], dict) and 'current_slot' in args['input_data']:\n        c_slot = int(args['input_data']['current_slot'])\n    \n    buttons = [\"A\"] # Select FIGHT to enter menu\n    \n    if t_slot == c_slot:\n        pass # No movement needed\n    else:\n        # Calculate distances in a 4-item vertical list (0-3 relative)\n        # Down distance (forward)\n        down_steps = (t_slot - c_slot) % 4\n        # Up distance (backward)\n        up_steps = (c_slot - t_slot) % 4\n        \n        if down_steps <= up_steps:\n            for _ in range(down_steps):\n                buttons.append(\"Down\")\n        else:\n            for _ in range(up_steps):\n                buttons.append(\"Up\")\n        \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # Fallback to empty list to avoid crashing, handled by system\n    print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
@@ -80,6 +80,11 @@
         "commit_message": "Added robust argument handling (checking locals and input_data) and error reporting to debug variable injection issues.",
         "timestamp": "2025-12-18T18:36:42.120Z",
         "action_counter": 5452
+      },
+      {
+        "commit_message": "Refined tool to remove debug print statements as requested by critique. maintained robust argument handling and vertical list navigation logic.",
+        "timestamp": "2025-12-18T18:45:14.460Z",
+        "action_counter": 5461
       }
     ]
   },
