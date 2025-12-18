@@ -25,8 +25,9 @@
   1. Talk to Gym Guide at (7, 13) - DONE.
   2. Defeat trainers (Twins at 4, 10 and 5, 10) - DONE.
   3. Defeat Bug Catcher Al at (8, 10) - DONE.
-  4. Explore for remaining trainers.
-  5. Defeat Gym Leader Bugsy.
+  4. Defeat Bug Catcher at (5, 3).
+  5. Explore remaining unseen areas.
+  6. Defeat Gym Leader Bugsy.
 
 ## TM/HM & Items
 - HM05 FLASH: Obtained (Requires Zephyr Badge to use outside).
