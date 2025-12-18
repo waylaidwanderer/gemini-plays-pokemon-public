@@ -115,33 +115,5 @@
         "action_counter": 602
       }
     ]
-  },
-  "battle_menu_switch": {
-    "description": "Navigates the Pokémon party menu during battle to switch Pokémon. Assumes the 'PKMN' menu is ALREADY OPEN. Calculates necessary button presses to move from current_slot to target_slot and select 'SWITCH'.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_slot": {
-          "type": "integer",
-          "default": 1,
-          "description": "Current cursor position (1-6). Defaults to 1."
-        },
-        "target_slot": {
-          "type": "integer",
-          "description": "Target Pokemon slot (1-6). Start counting from 1."
-        }
-      },
-      "required": [
-        "target_slot"
-      ]
-    },
-    "python_script": "import json\n\ncurrent = int(input_data.get('current_slot', 1))\ntarget = int(input_data['target_slot'])\nbuttons = []\n\ndiff = target - current\nif diff > 0:\n    buttons.extend(['Down'] * diff)\nelif diff < 0:\n    buttons.extend(['Up'] * abs(diff))\n\nbuttons.append('A') # Select Pokemon\n# After selecting, the menu \"SWITCH / STATS / CANCEL\" appears. SWITCH is the first option.\nbuttons.append('A') # Select SWITCH\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T06:42:27.445Z",
-        "action_counter": 4515
-      }
-    ]
   }
 }
