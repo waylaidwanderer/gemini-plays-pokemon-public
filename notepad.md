@@ -54,8 +54,8 @@
   - Head East towards the center, then navigate to the East edge (Column 22).
   - Go North along the East edge to bypass the trees.
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
-- **Battle Note:** Fighting Wild Jigglypuff.
-- **Strategy:** Switch to Rocky (Switch Training).
+- **Battle Note:** Fighting Wild Jigglypuff (Lv 12).
+- **Strategy:** Switch to Rocky (Resists Normal, sponges Sing).
 - **Goal:** Train Azurite (Switch Training).
 - **Status:** Azurite (Lv 10), Rocky (Lv 13).
-- **Training Plan:** Explore South Route 34 while grinding.
+- **Training Plan:** Explore South Route 34, get Item Ball at (7, 30).
