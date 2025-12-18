@@ -66,9 +66,9 @@
   - Potion collected at (6, 14).
   - Escape Rope collected at (14, 1).
   - 3F fully explored.
-- Violet City (Turn 1436):
-  - Used Escape Rope to exit Sprout Tower.
-  - Arrived at Pokemon Center door.
+- Violet City (Turn 1437):
+  - Entered Pokemon Center.
+  - Heading to Nurse Joy to heal.
 ## Strategy: Exiting Sprout Tower
 - **Method:** Use Escape Rope for efficiency.
 - **Reasoning:** Instantly exits the dungeon, saving turns and avoiding potential wild encounters while backtracking.
