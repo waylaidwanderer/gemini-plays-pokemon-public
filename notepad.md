@@ -34,7 +34,7 @@
 - **Pokemon Center:** (15, 27) Goldenrod.
 
 ## Knowledge Base
-- **Move Menu:** Vertical list (1-4). Wraps. Cursor remembers last move.
+- **Move Menu:** Vertical list (1-4). Wraps. **Resets to Slot 1 at start of battle.** Remembers last move *within* battle.
 - **Game Corner:** 50 Coins = 1000 Yen. TMs: 5500. Abra: 100.
 - **Dept Store B1F:** Solved puzzle by resetting floor (Elevator). Loot paused.
 - **Party Management:** MUSCLE is Lead for switch training.
