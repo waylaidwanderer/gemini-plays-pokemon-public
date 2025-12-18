@@ -58,7 +58,7 @@
 - MR. POKEMON: MR. POKÉMON (Egg), OAK (Pokedex).
 - Cherrygrove: GRAMPS (Map Card), NURSE JOY (Heal), CLERK (Mart).
 - Violet City: LASS at (27, 28) (Sprout Tower info), KYLE (Youngster) at (6, 4) in house at (21, 29) (Traded Bellsprout for ONIX), Pokefan M at (2, 3) (Traded Pokemon info).
-- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at the top; Sage at (3, 5) is a Trainer; Sage at (7, 7) is a moving NPC.
+- Sprout Tower: GRANNY found in tower; Sage at (7, 4) confirmed HM is at the top; Sage (Trainer) intercepted at (3, 1); Sage at (7, 7) is a moving NPC.
 
 ## Lessons Learned
 - **Object Collision:** All sprites (NPCs, items) are walls. Interact from an adjacent tile.
@@ -90,10 +90,3 @@
 
 ## Sprout Tower Exploration
 - Sprout Tower 2F entered Turn 1240.
-- The central pillar is a giant Bellsprout, causing the tower to shake.
-- HM Flash is at the top of the tower.
-
-## General Lessons Learned
-- **Level Requirements:** Cyndaquil learns Ember at level 12 in Pokémon Crystal, not level 10. Always verify level-up moves against the specific game version.
-- **Battle Menus:** When the game asks "Will [Player] change POKEMON?", selecting NO is faster and more efficient if the current Pokémon has a type advantage.
-- **Tool Hygiene:** Custom tools like `battle_strategist_v2` are essential for efficient play. Always provide full moveset data (even if just move names) to ensure accurate reasoning.
