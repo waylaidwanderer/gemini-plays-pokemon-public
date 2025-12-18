@@ -53,4 +53,4 @@
   - Loop West along the North edge to reach the Exit Gate at (1, 5).
 - **Battle Note:** Encountered Wild Jigglypuff (Lv 12).
 - **Goal:** Catch it.
-- **Current State:** Azurite (14/37 HP). Jigglypuff (~55% HP). One more Tackle, then switching to Rocky to tank/catch.
+- **Current State:** Azurite (14/37 HP). Jigglypuff (~35% HP). Switching to Rocky to tank/catch.
