@@ -29,8 +29,8 @@
 - **Obedience:** Traded Pokémon or high-level Pokémon may not obey without the appropriate Gym Badges. Verified (NPC info).
 
 ## PC Storage
-- Items: (Checking now)
-- Pokemon: (Empty)
+- Items: Empty. Verified Turn 1454.
+- Pokemon: Empty.
 
 ## Type Effectiveness Observations
 - FIRE vs GRASS: Super Effective (2x). Verified (Ember vs Bellsprout).
