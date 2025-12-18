@@ -23,7 +23,7 @@
   4. Repeat until Rocky hits Lv14 (Rock Throw - long term).
 - **EXP Tracking:**
   - Gneiss (Lv5, 138 EXP): Needs to reach 742 EXP for Lv11 Rock Throw (604 more).
-  - Rocky (Lv5, 125 EXP): Needs to reach 1612 EXP for Lv14 Rock Throw (1487 more).
+  - Rocky (Lv5, 125 EXP): Needs to reach 2744 EXP for Lv14 Rock Throw (2619 more).
 - **Turn Start:** 1559.
 
 ## Primary Goal Strategy: Defeat Falkner (Violet City)
