@@ -47,3 +47,5 @@
 - Ledge Mechanics: LEDGE_HOP_DOWN tiles can only be traversed from north to south. Attempting to move 'Up' onto one from the south will fail.
 - Marker Hygiene: Always verify and delete redundant or outdated markers (e.g., 'Trainer' vs 'Defeated') to maintain map clarity.
 - Battle Risk Assessment: High-defense opponents with multi-turn moves (like Bind) are poor targets for switch-training low-level Pokémon. Lead with a heavy hitter to minimize risk.
+- Mystery Egg: Occupies party slot 5. Verified that it cannot battle (Game message: "An EGG can't battle!").
+- Switch Training Analysis: High-defense opponents or those with multi-turn/passive damage moves (e.g., Onix with Bind) are unsuitable for switch-training low-level trainees (Lv4-5). The cumulative damage from moves like Bind (1/16 HP per turn) plus potential direct hits makes the risk of fainting too high before the switch-out can be completed.
