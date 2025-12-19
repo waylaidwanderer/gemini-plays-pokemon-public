@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore 2F, starting from the Ladder at (3, 11). Find path to 3F.
-- **Notes:** Arrived on 2F via Ladder. Investigating immediate area.
+- **Navigation:** Investigate the stairs at (16, 11) to ascend to 3F.
+- **Notes:** (16, 13) is a Pit. (16, 11) appears to be the way up.
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Party Status
