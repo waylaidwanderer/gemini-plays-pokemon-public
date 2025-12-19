@@ -16,17 +16,14 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
 
 ## Current Status
-- Bird flew south. NPC movement path indicates it reached (15, 28).
-- Target: Locate bird and check facing.
-- Approach: Move south to (15, 27). Row 27 is clean. Row 26 is noisy.
-- Note: Avoid (14, 26) and (15, 26) while moving south. I'll go around if needed.
-- Wait, I'm at (15, 24). To get to (15, 27) without stepping on (15, 26), I must go: (15, 24) -> (14, 24) -> (14, 25) -> (13, 25) ... wait, (14, 25) is a tree.
-- Let's check the map: (15, 24) to (15, 27). (15, 26) is noisy.
-- I'll go (15, 24) -> (16, 24) ... wall. (14, 24) ... tree.
-- I have to step on (15, 26) or take a huge detour. If I step on (15, 26), the bird at (15, 28) will turn to face me (UP).
-- If it faces UP at (15, 28), I can catch it from (15, 29) (South).
-- To reach (15, 29) silently: Go (15, 24) -> (20, 24) -> Row 34 passage -> (15, 29).
-- This seems like the best plan. Make it face UP by stepping on (15, 26), then catch from the south.
+- Bird is at (15, 29). Facing: UP.
+- Target: (15, 30) (Behind).
+- Approach: Flank via the eastern corridor and Row 34 passage.
+  1. Move to (29, 26) (Clean).
+  2. Move to (29, 34) (Clean).
+  3. Move to (15, 34) (Clean).
+  4. Move to (15, 30) (Clean).
+- Reason: The bird is facing UP at (15, 29). Approaching from (15, 30) is the success condition. This route avoids all noisy tiles near the bird. Row 34 passage is the silent way in.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
