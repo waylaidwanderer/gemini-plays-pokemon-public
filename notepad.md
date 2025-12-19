@@ -38,6 +38,8 @@
 - Gym Guide (ID 6) at (5, 15) in Goldenrod Gym.
 - Beauty Victoria (ID 4) at (0, 4) in Goldenrod Gym: Sentret x2. Defeated.
 - Lass (ID 2) at (9, 13) in Goldenrod Gym.
+- Lass (ID 3) at (9, 6) in Goldenrod Gym.
+- Beauty (ID 5) at (19, 5) in Goldenrod Gym.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground (Turn 3971).
@@ -50,4 +52,4 @@
 
 # Gym Navigation (Started Turn 4141)
 - Goal: Find and defeat Whitney.
-- Current Status: Navigating the maze. Defeated Beauty Victoria. Whitney spotted at (8, 3). Trainer Lass at (9, 6) and (9, 13).
+- Current Status: Navigating the maze. Defeated Beauty Victoria. Whitney spotted at (8, 3). Trainer Lass at (9, 6) and (9, 13). Trainer Beauty at (19, 5).
