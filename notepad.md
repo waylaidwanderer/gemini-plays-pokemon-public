@@ -69,3 +69,4 @@
 - **Route 37 Structure:** Divided into West (main path) and East (Apricorns) by trees. East side likely accessible from Ecruteak.
 - **Ecruteak City:**
     - **Itemfinder Guy:** Says there are hidden items in the Burned Tower.
+- **Time Capsule:** Bill announced it opens 'tomorrow' at Pokemon Centers. Allows trading with Gen 1 (no new moves/mons).
