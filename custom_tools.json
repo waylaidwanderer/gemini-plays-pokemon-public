@@ -3,9 +3,18 @@
     "description": "Finds the nearest reachable 'unseen' tile and returns a list of button presses to reach it. Handles ledges, objects, and impassable tiles like WATER and HEADBUTT_TREE correctly. Treats 'unseen' tiles as impassable for traversal unless they are the target.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve(input_data):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    objects = set()\n    start_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Player') is not None:\n                start_pos = (x, y)\n            if tile.find('Object') is not None:\n                objects.add((x, y))\n\n    if not start_pos:\n        print(\"[]\")\n        return\n\n    queue = deque([(start_pos[0], start_pos[1], [])])\n    visited = {start_pos}\n    impassable = {'WALL', 'WATER', 'HEADBUTT_TREE', 'FLOOR_UP_WALL', 'CUT_TREE', 'unseen'}\n\n    while queue:\n        x, y, path = queue.popleft()\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in grid or grid[(nx, ny)] == 'unseen':\n                    print(json.dumps(path + [btn]))\n                    return\n\n                if (nx, ny) not in visited:\n                    tile_type = grid[(nx, ny)]\n                    if tile_type in impassable:\n                        continue\n                    if (nx, ny) in objects:\n                        continue\n                    \n                    current_type = grid[(x, y)]\n                    if current_type == 'LEDGE_HOP_DOWN' and btn != 'Down': continue\n                    if current_type == 'LEDGE_HOP_LEFT' and btn != 'Left': continue\n                    if current_type == 'LEDGE_HOP_RIGHT' and btn != 'Right': continue\n                    if current_type == 'LEDGE_HOP_UP' and btn != 'Up': continue\n                        \n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n    print(\"[]\")\n\nsolve(input_data)",
+    "python_script": "import json\nfrom collections import deque\nimport xml.etree.ElementTree as ET\n\ndef explore_unseen_tool(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            is_seen = tile.attrib['seen'] == 'true'\n            has_object = tile.find('Object') is not None\n            if has_object: tile_type = 'WALL'\n            grid[(x, y)] = {'type': tile_type, 'seen': is_seen}\n            if tile.find('Player') is not None: player_pos = (x, y)\n    if not player_pos: return []\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid:\n                target = grid[(nx, ny)]\n                if not target['seen']: return path + [move]\n                if (nx, ny) not in visited and target['type'] not in ['WALL', 'WATER']:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move]))\n    return []\n\nprint(json.dumps(explore_unseen_tool(map_xml_string)))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -31,6 +40,11 @@
         "commit_message": "Added map boundary check to prevent walking off-map. (Turn 3292)",
         "timestamp": "2025-12-19T05:01:44.664Z",
         "action_counter": 3292
+      },
+      {
+        "commit_message": "Fixed logic to properly identify reachable unseen tiles and return button presses.",
+        "timestamp": "2025-12-19T22:12:35.382Z",
+        "action_counter": 4509
       }
     ]
   },
