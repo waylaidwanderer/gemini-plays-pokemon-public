@@ -4,17 +4,15 @@
 - `WATER`: Impassable. Requires the HM for Surf to traverse.
 - `HEADBUTT_TREE`: Impassable. These trees block movement and can be interacted with if the player has Headbutt.
 - `LEDGE_HOP_LEFT/RIGHT/DOWN`: One-way traversal. The player can jump over these in the specified direction but cannot return.
-- `WARP_CARPET_RIGHT`: Triggers a map transition when walking off the edge of the current map.
-- `WARP_CARPET_LEFT`: Triggers a map transition when walking off the edge of the current map. (Inside Day-Care).
-- `WARP_CARPET_DOWN`: Triggers a map transition when walking off the edge of the current map. (Inside Day-Care).
+- `WARP_CARPET_RIGHT/LEFT/DOWN`: Triggers a map transition when walking off the edge of the current map.
 - `CUT_TREE`: Impassable until the move Cut is used on it. (Verified at (8, 25)).
 - `TALL_GRASS`: Traversable. Walking in this tile can trigger wild Pokémon encounters.
 - `LONG_GRASS`: Traversable. Functions like tall grass but with different encounter rates or species. (Observed on Route 34).
 - `DOOR`: Triggers a map transition when entered.
-- `BOOKSHELF`: Impassable. (Inside Day-Care).
-- `PC`: Impassable. (Inside Day-Care).
-- `TOWN_MAP`: Impassable. (Inside Day-Care).
-- `WINDOW`: Impassable. (Inside Day-Care).
+- `BOOKSHELF`: Impassable.
+- `PC`: Impassable.
+- `TOWN_MAP`: Impassable.
+- `WINDOW`: Impassable.
 
 # Area Knowledge
 ## Ilex Forest
@@ -29,7 +27,12 @@
 - Defeated Pokefan Brandon at (18, 28). Opponent: Snubbull (Lv 13).
 - Defeated Youngster Ian at (11, 21). Opponents: Mankey (Lv 10), Diglett (Lv 12).
 - Verified: The back door at (13, 15) on Route 34 connects to the Day-Care backyard (2, 7). (Turn 3427)
-- Strategy: Explore the fenced-off backyard area and then proceed north to Goldenrod City. (Turn 3428)
+- Apophis (Ekans, Lv 4) left with Day-Care Lady (Granny) at (5, 3). (Turn 3422)
+
+## Goldenrod City
+- Pokémon Center at (15, 27).
+- Underground South Entrance at (11, 29).
+- Goal: Locate the Gym, Radio Tower, and Department Store.
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
@@ -39,4 +42,4 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
 - **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
 - **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
-- Left APOPHIS (Ekans, Lv 4) with Day-Care Lady (Granny) at (5, 3). Party now has 5/6 Pokémon. (Turn 3422)
+- Received ODD EGG (Cleffa) from Day-Care Man (Turn 3425). Cleffa is currently named "EGG". status: "Needs more time".
