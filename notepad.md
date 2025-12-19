@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Locate the Pokemon Center in Olivine City.
-- **Immediate Goal:** Head South/West to find the city center.
-- **Current Location:** Olivine City (North Entrance).
+- **Navigation:** Head West along the buildings to find a path South.
+- **Immediate Goal:** Move to x=14 to check for a street.
+- **Current Location:** Olivine City (North of Mart).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
