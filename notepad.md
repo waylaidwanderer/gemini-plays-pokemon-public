@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Take the Ladder at (3, 11) to 2F.
-- **Notes:** Exploring the Ladder route first. Main stairs are at (16, 13).
-- **Current Location:** Olivine Lighthouse 1F (at Ladder).
+- **Navigation:** Explore 2F, starting from the Ladder at (3, 11). Find path to 3F.
+- **Notes:** Arrived on 2F via Ladder. Investigating immediate area.
+- **Current Location:** Olivine Lighthouse 2F.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
