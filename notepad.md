@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Finish dialogue with Guru, then head to Olivine Cafe (Next door).
-- **Notes:** Fisher said Sailor in Cafe teaches Strength. Guru seems to be checking friendship?
-- **Immediate Goal:** Advance text (Press A).
+- **Navigation:** Finish dialogue, then exit to Olivine City and find the Cafe (West of Center).
+- **Notes:** NPC at (8, 4) is a Friendship Rater, not the Good Rod Guru.
+- **Immediate Goal:** Advance text (Press B).
 - **Status:** Lapis healed.
 - **Current Location:** Olivine Pokemon Center.
 
