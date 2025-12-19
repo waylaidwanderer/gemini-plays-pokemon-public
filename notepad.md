@@ -22,6 +22,14 @@
 - **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
 - **LEDGE**: One-way traversal (down, left, or right).
 
+## Strategy: Current Bird at (20, 24) [Facing UP]
+- **Problem**: Back is at (20, 25) (Tree). Cannot catch.
+- **Plan**: Startle it from the front to move it to a better area.
+- **Steps**:
+  1. Face DOWN and interact (A).
+  2. Locate new position.
+- **Reason**: Moving it out of the corner is necessary to get behind it.
+
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
