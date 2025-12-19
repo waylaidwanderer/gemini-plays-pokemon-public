@@ -2,11 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Exit Pokemon Center, then find Olivine Cafe (West of Center).
-- **Notes:** NPC at (8, 4) is a Friendship Rater.
-- **Immediate Goal:** Walk out of the Pokemon Center.
+- **Navigation:** Exit Center -> Enter Olivine Cafe (West of Center) -> Talk to Sailor for Strength HM.
+- **Notes:** Fisher said Sailor in Cafe teaches Strength.
 - **Status:** Lapis healed.
-- **Current Location:** Olivine Pokemon Center.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
