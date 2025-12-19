@@ -2,26 +2,28 @@
 
 ## Goal: Catch the runaway Farfetch'd to obtain HM01 (Cut).
 
-## Farfetch'd Chase Mechanics
-- **Bird Movement**: Flies ~4-5 tiles in a straight line away from the player when startled.
-- **Startle Condition**: Interacting (A button) from any adjacent tile seems to cause flight.
-- **Success Condition (Hypothesis)**: Must drive the bird into a corner or specific location, or interact from a very specific orientation (e.g., facing the same direction?). 
-- **Apprentice Hint**: "You have to get behind it to catch it."
+## Farfetch'd Mechanics
+- **Success Condition**: "You have to get behind it to catch it." (Apprentice hint).
+- **Approach Mechanic**: 
+  - Interacting from the front/side causes flight.
+  - It flies in the direction it is facing, then turns 180 degrees.
+  - Flight distance appears to be ~6 tiles.
+- **Hypothesis**: Catching occurs when interacting from the tile directly behind the bird (opposite its facing) while the bird is trapped or in a specific area.
+- **Attempt History**:
+  - T2888: Bird at (28, 31) facing LEFT. Interacted from (29, 31) (Behind). Result: Bird flew to (22, 31), now faces RIGHT.
+  - T2890: Bird at (22, 31) facing RIGHT. Player at (27, 31).
 
 ## Tile Mechanics
-- **FLOOR**: Passable.
-- **WALL / DENSE_TREES**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
+- **FLOOR**: Passable. Standard movement.
+- **WALL**: Impassable.
+- **HEADBUTT_TREE**: Impassable (Verified at 28, 24).
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE_HOP**: One-way traversal (Down/Left/Right).
+- **LEDGE_HOP**: One-way traversal in the direction of the ledge.
 
 ## Plan
-1. Locate bird (last seen moving towards 24, 31).
-2. Experiment with approach:
-   - Approach from directly opposite facing (startle).
-   - Approach from side (startle).
-   - Look for "trapping" locations.
-3. Drive bird towards Apprentice at (7, 28).
+1. Startle bird from (23, 31) to move it east.
+2. Drive it to an area where I can reliably get behind it.
+3. Return to apprentice (7, 28) after catch.
 
 ## Key Locations
 - **Apprentice**: (7, 28).
