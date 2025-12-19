@@ -1,74 +1,37 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Defeat Whitney (Goldenrod Gym).
-- **Strategy:**
-    1. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
+- **Primary Goal:** Earn Fog Badge (Ecruteak Gym).
+- **Immediate Steps:**
+    1. Talk to locals (Lass, etc) for rumors.
+    2. Locate Gym and Burned Tower.
+    3. Determine Gym Type (Ghost likely).
+    4. Assess Team: MUSCLE (Dark/Ground moves?), GARNET (Fire vs Bug/Grass/Ice?), ROCKY (Ground vs Poison?).
 
 ## Key Items & Progress
-- **Badges:** Zephyr, Hive (2/8).
-- **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder.
-- **HM/TM:** Cut (Belladonna), Headbutt (Tutor).
-- **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE), Sunkern (HELIODOR), Spearow (KENYA - Gift).
+- **Badges:** Zephyr, Hive, Plain (3/8).
+- **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle.
+- **HM/TM:** Cut, Headbutt.
+- **Party:** Muscle (25), Garnet (25), Rocky (17), Hematite (15), Azurite (13), Belladonna (5).
 
 ## Quests & NPC Notes
-- **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
-- **Goldenrod Gym:** Clefairy shape.
-    - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** On Route 37.
-    - **Health:** Muscle Lv25 (79/79 HP).
-    - **Status:** Battle with Psychic Greg Won.
-    - **Move Learning:** Foresight declined.
-    - **Objectives:**
-        1. **Explore:** Pick Fruit from tree at (13, 5).
-        2. **Travel:** Head North to Ecruteak City.
-    - **Notes:**
-        - Route 37 connects Route 36 (South) to Ecruteak City (North).
-        - "Weird Trees" were trainers (Twins).
-        - **Historical:** Goldenrod Gym Defeated (Plain Badge).
-- **Gym Guide:** (5, 15). Advised Fighting-type.
-- **Whitney:** Located at (8, 3). Accessible via center path.
-- **Gameboy Kid:** National Park (26, 6).
-- **Peaceful Pokefan F:** National Park (14, 4).
-
-## Tile Mechanics
-- **FLOOR/TALL_GRASS:** Traversable.
-- **WALL/FENCE:** Impassable.
-- **COUNTER:** Impassable. Interact from adjacent tile.
-- **PC:** Impassable. Interact to access storage.
-- **LADDER:** Traversable. Warp to another floor.
-- **WARP_CARPET:** Traversable. Warp to another map.
-- **HEADBUTT_TREE:** Impassable. Headbutt for encounters.
-- **CUT_TREE:** Impassable. Remove with Cut.
+- **Webster (Guard):** Deliver KENYA's mail to Route 31 (Active).
+- **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
+- **Ecruteak City:**
+    - **Itemfinder Guy:** Hidden items in Burned Tower.
+    - **Gym Guide:** Conspiracy at Lake of Rage (Gyarados).
+    - **Pokefan:** Kimono Girls are tough.
 
 ## Important Locations
-- **Goldenrod:**
-    - Game Corner: (14, 21). 50 Coins = 1000 Yen.
-    - Dept Store: (24, 27). B1F puzzle solved.
-    - Pokemon Center: (15, 27).
+- **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27).
 
 ## Knowledge Base
-### Game Mechanics
-- **Move Menu:** Resets to Slot 1 at start of battle. Remembers last move *within* battle.
-- **Menu Navigation:** Start Menu cursor remembers last position.
-- **Radio:** 'The Pokémon March' lures wild Pokémon (Tip from Fisher Ivan).
-- **Move Mechanics:** Low Kick is fixed 50 BP in Gen 2 (30% flinch).
+### Mechanics
+- **Move Mechanics:** Low Kick (50BP).
+- **Tiles:**
+    - HEADBUTT_TREE: Impassable. Encounter chance.
+    - CUT_TREE: Impassable. Cut to remove.
 
-### Battle Insights
-- **Matchups:** Fighting (Karate Chop) < Poison (Nidoran).
-- **Movesets:**
-    - Pokefan William's Raichu: Quick Attack, Tail Whip. Holds Berry.
-    - Wild Pidgey: Sand-Attack.
-- **Items:** Quick Claw (National Park, (27, 40)). Gold Berry (Used by Muscle).
-
-### Area Notes
-- **National Park:**
-    - East Side (Snake Path) is a dead end.
-    - West Corridor (Column 0/1): Accessible only from Row 10. Contains Dig TM at south end.
-    - NW Pocket (Rows 4-10, Cols 2-5): Isolated. Must enter/exit via Northern Perimeter at (10, 2).
-- **Route 37 Structure:** Divided into West (main path) and East (Apricorns) by trees. East side likely accessible from Ecruteak.
-- **Ecruteak City:**
-    - **Itemfinder Guy:** Says there are hidden items in the Burned Tower.
-- **Time Capsule:** Bill announced it opens 'tomorrow' at Pokemon Centers. Allows trading with Gen 1 (no new moves/mons).
-- **Gym Guide (Ecruteak):** Mentions a conspiracy at the Lake of Rage involving a Gyarados swarm.
-- **Pokefan (Ecruteak PC):** Admires Kimono Girls' dancing and how they use Pokemon.
+### History
+- **Goldenrod:** Defeated Whitney (Miltank down!). Cleared Dept Store B1F.
+- **Route 35-37:** Cleared trainers. Defeated Sudowoodo. Arrived in Ecruteak.
