@@ -13,9 +13,13 @@ Interact from the tile directly behind the bird's facing direction.
   - Row 31: (23, 31)-(29, 31)
 - Clean (Silent): Row 22, 23, 25, 27, 30, 32, 33, 34 (parts), 35.
 
-## Current Status (Turn 3070)
+## Current Status (Turn 3071)
 - Bird Position: (22, 31)
 - Bird Facing: RIGHT
-- Player Position: (22, 35)
-- Plan: Move to (22, 32) via Column 20 to startle the bird.
-- Path: (22, 35) -> (20, 35) -> (20, 32) -> (22, 32).
+- Player Position: (21, 33)
+- Plan: Move to (22, 32) to interact with the bird's side.
+
+## Strategy: General
+- Avoid twigs when approaching from behind.
+- Use twigs strategically to change the bird's facing.
+- If stuck, move the bird to a new area by startling it.
