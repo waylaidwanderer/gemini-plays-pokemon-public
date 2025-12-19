@@ -7,6 +7,10 @@
 - **Battle Strategy:** Use Ember (Slot 4). Cursor is on Ember (Slot 4).
 - **Current Location:** Olivine Lighthouse 2F.
 
+## Lighthouse Progress
+- **1F:** Explored. Lore obtained from Pokefan. Staircase at (16, 13).
+- **2F:** Currently fighting Gentleman Alfred. Found pit at (16, 13) and stairs up at (16, 11).
+
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
