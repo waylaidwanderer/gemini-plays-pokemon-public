@@ -31,5 +31,6 @@
 
 ## Farfetch'd Chase Log
 - Attempt 6 (T2901): Player at (23, 31), Bird at (22, 31) faced Left. Result: Bird turned Right, then flew to (24, 35).
-- Attempt 7 (T2905): Player at (25, 35), Bird at (24, 35) facing UP. Result: Pending.
-- Hypothesis: Side interaction with an UP-facing bird at (24, 35) will drive it North to (24, 31).
+- Attempt 7 (T2905): Player at (25, 35), Bird at (24, 35) faced UP. Interaction from side (East). Result: Bird turned Right to face player. Pending flight.
+- Observation: Bird always turns to face the player before fleeing. "Getting behind it" likely refers to driving it in the desired direction.
+- Strategy: Drive the bird towards the north-west corner (Apprentice) by interacting from the opposite side. Currently at (24, 35). To move it West, interact from East. To move it North, interact from South.
