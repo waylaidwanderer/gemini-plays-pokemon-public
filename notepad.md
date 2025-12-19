@@ -3,7 +3,7 @@
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
-- HEADBUTT_TREE: Impassable wall. Reacts to Headbutt move. Verified Impassable (Turn 2798).
+- HEADBUTT_TREE: Impassable wall. Reacts to Headbutt move (verified Turn 2798).
 - TALL_GRASS: Triggers wild battles.
 - LEDGE_HOP_DOWN: One-way South jump.
 - LEDGE_HOP_LEFT: One-way West jump (2 tiles).
@@ -46,4 +46,4 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Ilex Forest: Searching for runaway Farfetch'd. Current bird position: (17, 23). Facing LEFT? Target catch tile: (18, 23).
+- Ilex Forest: Chasing Farfetch'd. Current bird position: (15, 25), facing LEFT. Player at (15, 24).
