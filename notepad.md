@@ -15,11 +15,10 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Obstacle:** Whitney (Gym Leader) - Defeated.
+    - **Current Obstacle:** Whitney (Gym Leader) - Defeated & Badge Obtained!
     - **Status:** Won! Muscle Lv23 (10/73 HP).
-    - **Current State:** Triggered Lass event at exit. Returning to talk to Whitney.
-    - **Action:** Talk to Whitney to receive Plain Badge.
-    - **Next Step:** Get Badge -> Heal -> Get Squirtbottle.
+    - **Reward:** Plain Badge acquired.
+    - **Next Step:** Finish dialogue (Get TM) -> Heal -> Get Squirtbottle (Flower Shop) -> Route 36 (Sudowoodo).
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
