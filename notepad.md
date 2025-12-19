@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Head South on Route 39 towards Olivine City.
-- **Immediate Goal:** Explore Route 39 and find the way to Olivine.
+- **Navigation:** Go West to x=15 to bypass the fence, then head South towards Olivine City.
+- **Immediate Goal:** Navigate around obstacles to continue South.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
