@@ -2,10 +2,6 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Immediate Steps:**
-    1. Travel West through Route 38 to Route 39.
-    2. Switch-train Lapis (Lapis is Lead, switch to Muscle/Garnet).
-    3. Reach Olivine City.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
