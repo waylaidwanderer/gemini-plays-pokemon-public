@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Move South to challenge Pokefan Trainer (11, 19).
-- **Battle Strategy:** Muscle in lead. Expect Normal/Fairy types (Snubbull, Pikachu).
+- **Navigation:** Defeat Pokefan (Trainer Battle), then continue South.
+- **Battle Strategy:** Muscle in lead. Use Karate Chop (STAB/SE vs Normal).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
