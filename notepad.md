@@ -24,7 +24,7 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** Battling Rival Silver.
+        - **Status:** Battling Rival Silver. Rocky (low HP, Confused) switching to Garnet.
         - **Layout:** Found overland route to Rival via column 9 -> row 5 -> column 12.
         - **Hazards:** Floor has holes (Warps) to B1F.
         - **Hypothesis:** This winding path avoids the holes and connects the isolated sections.
