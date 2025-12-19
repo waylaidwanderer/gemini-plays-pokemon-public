@@ -36,3 +36,6 @@
     2. Explore 4F Center for a ladder UP to 5F Center.
     3. Reach the top (6F) to find Jasmine.
 - **Current Location:** OlivineLighthouse3F (Center Room).
+- **Success:** Climbed ladder from 4F Center to 5F Center (9, 7).
+- **Observation:** I am now inside the Center Room of 5F, behind the wall that blocked me earlier.
+- **Plan:** Explore this room for a ladder to 6F. Avoid the pits at (8, 3)/(9, 3) unless necessary.
