@@ -46,4 +46,5 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
 - **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
 - **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
-- Received ODD EGG (Cleffa) from Day-Care Man (Turn 3425). Cleffa is currently named "EGG". status: "Needs more time".
+- Received ODD EGG from Day-Care Man (Turn 3425). Cleffa is currently named "EGG". status: "Needs more time". (Walking to hatch).
+- Strategy: Explore Goldenrod City. Priority: Gym, Radio Tower, Dept. Store. Check buildings near PC first.
