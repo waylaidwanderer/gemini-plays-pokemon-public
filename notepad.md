@@ -29,3 +29,4 @@
 - HARD STONE: Held by GNEISS.
 - SQUIRTBOTTLE: In Key Pocket.
 - TM28 (Dig): Found in National Park (1, 43).
+- Pokefan William (National Park): Raichu (Lv14). Gneiss is immune to its Electric moves.
