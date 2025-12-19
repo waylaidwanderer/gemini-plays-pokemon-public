@@ -80,3 +80,4 @@
 - Goal Clarity: Goals are concrete outcomes.
 - Error Analysis: Corrected building ID mistake (9, 5 is Underground, not Radio Tower).
 - Lass in Goldenrod Pokecenter: Advises that high levels aren't everything and type matchups are important. (Turn 3808)
+- Pokefan F in Goldenrod Pokecenter: Wants an EON MAIL for her daughter. (Turn 3810)
