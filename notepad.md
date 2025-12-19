@@ -40,3 +40,5 @@
     1. Explore Route 34 northwards.
     2. Battle trainers to level up the team, especially FRITTATA.
     3. Locate the Day-Care at (10, 14) and Goldenrod City at the north end.
+- Lass in gatehouse believes the forest protector is a Grass-type Pokémon.
+- Defeating Youngster Samuel at (15, 32) on Route 34.
