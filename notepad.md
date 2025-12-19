@@ -17,12 +17,12 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Obstacle:** Whitney (Gym Leader).
     - **Battle State:** Fighting Miltank (Lv20).
+    - **Enemy Status:** Locked into Rollout (Hit 1 used).
     - **Battle Plan:**
-        1. **Miltank:** Muscle (44/70 HP) uses Low Kick.
-        2. **Backup:** Rocky (Onix) is the anchor. Resists Normal/Rock.
-    - **Correction:** Validated Gen 2 Mechanics: Low Kick is FIXED 50 BP. (Weight mechanics are Gen 3+).
-        - Calculation: 50 BP * 1.5 (STAB) * 2 (SE) = 150 Effective Power. Still very strong.
-    - **Status:** Muscle Lv22. Female Machop is immune to Attract.
+        1. **Race:** Miltank's Rollout doubles power each turn. Muscle must kill before Hit 4 (Lethal).
+        2. **Math:** Hit 1 (3 dmg). Hit 2 (~6). Hit 3 (~12). Hit 4 (~24). Muscle (41 HP) survives until Hit 3.
+        3. **Action:** Spam Low Kick. Need 2 more hits to KO.
+    - **Status:** Muscle Lv22 (41/70 HP). Female Machop.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
