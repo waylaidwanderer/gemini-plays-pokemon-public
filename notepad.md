@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Fall through the pit at (16, 7) to reach the center of 4F.
-- **Battle Strategy:** Muscle leads.
-- **Current Location:** Olivine Lighthouse 5F.
+- **Navigation:** Navigate to the ladder at (3, 5) on 4F to return to 5F.
+- **Hypothesis:** The "Drop" at (16, 7) on 5F leads to the perimeter of 4F, not the center. Need to find a way to the center of 5F (likely from the South) to fall into the center of 4F.
+- **Plan:** Backtrack to 5F and explore the South-Central area.
 
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
