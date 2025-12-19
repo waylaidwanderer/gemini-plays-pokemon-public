@@ -5,26 +5,20 @@
 - **Observed Behavior**:
   - Startle: Interacting from front/side makes it fly ~6 tiles.
   - Turning: Bird turns to face the player if they step on noisy tiles (twigs).
-  - Noisy Tiles: (23,31) to (28,31) confirmed. alert the bird when stepped on.
-- **Current Status**:
-  - Bird Position: (22, 31)
-  - Bird Facing: RIGHT
-  - Target Tile: (21, 31) (Behind - Blocked by Wall)
+  - Noisy Tiles: (23,31) to (28,31) confirmed. Alert the bird when stepped on.
+
+## Strategy: Driving to (28, 31) and Catching
+1. Startle bird at (22, 31) from (22, 30) -> Bird flies to (28, 31).
+2. Path around the south to (29, 31): (22,30)->(23,30)->(23,31)->(23,32)->(23,33)->(23,34)->(23,35)->(28,35)->(28,34)->(28,33)->(28,32)->(29,32)->(29,31).
+3. Interact from (29, 31) to catch it from behind.
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
-- **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd.
+- **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd. Verified at (23, 31).
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
 - **LEDGE_HOP**: One-way traversal.
-
-## Strategy: Driving the Bird North
-1. Drive bird to (24, 35) by interacting from North or East.
-2. Position yourself at (22, 32) (South of bird's landing spot) via the clean floor route around the east (X=29).
-3. Drive bird back to (22, 31) from (25, 35) (East).
-4. Since you are already at (22, 32), interact from the South to drive it North to (22, 28).
-5. From (22, 28), drive it West towards the apprentice.
 
 ## Important Locations
 - **Azalea Town**:
