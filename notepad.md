@@ -45,3 +45,9 @@
 - Route 31: POKé BALL at (19, 15). (Turn #4648)
 - Interaction Rule: You must be directly facing an NPC or object to interact. Stand adjacent and face the target tile. For counters, face the counter tile. (Lesson from Turn #4634)
 - Pathfinding Rule: Paths in 2D top-down games are often wider than a single tile. Analyze adjacent tiles (up, down, left, right) to find ways around obstacles. (Lesson from Turn #4603)
+
+# Strategy for Ecruteak City
+- Head West through Route 36.
+- Head North through Route 37 to reach Ecruteak City.
+- Train low-level party members (FRITTATA, KIMCHI, EGG) during wild encounters if safe.
+- Monitor phone calls for rare sightings (Yanma, Ditto).
