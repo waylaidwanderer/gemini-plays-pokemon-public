@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Face Right and interact with Fishing Guru (7, 3) across the counter.
-- **Notes:** Previous attempt failed due to facing Up. Guru is stunned.
+- **Navigation:** Press A to talk to Fishing Guru (7, 3).
+- **Notes:** Previous attempt might have failed due to input timing or 'press_sequence' issue.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
