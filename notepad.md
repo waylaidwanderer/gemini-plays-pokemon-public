@@ -46,6 +46,7 @@
 - Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Neutral.
 - Fire moves (Ember) vs Slowpoke (Water/Psychic): Resisted (Water resists Fire).
 - Fire moves (Ember) vs Magnemite (Electric/Steel): Super effective (Steel is weak to Fire).
+- Fire moves (Ember) vs Voltorb (Electric): Neutral.
 - Electric moves: Anticipated super effective against Water/Flying types.
 
 # Strategy: Goldenrod City
