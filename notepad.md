@@ -30,7 +30,8 @@
 
 ## Route 35
 - Gatehouse at (19, 1) in Goldenrod connects to Route 35.
-- Quest: Officer at (0, 4) in Goldenrod Gatehouse wants a Pokémon with Mail delivered to a friend on Route 31. Needs empty party slot. (Turn 3488)
+- Quest: Officer at (0, 4) in Goldenrod Gatehouse (Route 35) wants a Pokémon with Mail delivered to a friend on Route 31. Received KENYA (Spearow, Lv 10) with Mail. (Turn 3513)
+- Hint: Officer mentioned a "weird tree" blocking the road near Goldenrod. (Turn 3513)
 
 # Trainer Roster
 - Pokefan Brandon (Route 34): Snubbull (Lv 13)
