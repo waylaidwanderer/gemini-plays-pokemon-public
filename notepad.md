@@ -51,3 +51,6 @@
 - **Navigation Note:** Always verify current coordinates before pathing.
 - **Observation:** The "Youngster" at (5, 3) is Bird Keeper Denis (already defeated).
 - **Plan:** Navigate around Denis to the West corridor (column 2) and explore South.
+- **Item:** Picked up TM34 (Swagger) at (2, 13).
+- **Hypothesis:** The Center Area (with Item at 6,15 and Ladder) is inaccessible from the perimeter.
+- **Strategy:** Backtrack to the East side of 5F and fall through a hole to reach the center of 4F, which should lead to the center of 5F.
