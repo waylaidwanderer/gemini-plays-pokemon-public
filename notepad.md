@@ -1,24 +1,25 @@
 # Tile Mechanics
-- `FLOOR`: Traversable. Standard ground. Verified at (5, 4) in Bill's House.
-- `WALL`: Impassable. Buildings, trees, boundaries. Verified at (4, 4) in Bill's House.
+- `FLOOR`: Traversable. Standard ground. Verified at (5, 4) in Bill's House and (12, 4) in RadioTower1F.
+- `WALL`: Impassable. Buildings, trees, boundaries. Verified at (4, 4) in Bill's House and (17, 1) in RadioTower1F.
 - `WATER`: Impassable. Requires Surf HM.
 - `HEADBUTT_TREE`: Impassable. Use Headbutt.
 - `CUT_TREE`: Impassable. Use Cut.
 - `TALL_GRASS`: Traversable. Wild encounters.
 - `LONG_GRASS`: Traversable. Wild encounters.
 - `DOOR`: Traversable. Map transition.
-- `WARP_CARPET_DOWN`: Traversable. Map transition. Verified at (2, 7) in Bill's House.
+- `WARP_CARPET_DOWN`: Traversable. Map transition. Verified at (2, 7) in Bill's House and (2, 7) in RadioTower1F.
 - `FENCE`: Impassable (WALL).
 - `LEDGE_HOP_DOWN`: One-way down.
 - `LEDGE_HOP_LEFT`: One-way left.
 - `LEDGE_HOP_RIGHT`: One-way right.
 - `BOOKSHELF`: Impassable object. Verified at (1, 1) in Bill's House.
 - `RADIO`: Impassable object. Verified at (7, 1) in Bill's House.
-- `TV`: Impassable. Verified at (2, 1) in Bill's House. (Turn 3844)
-- `TOWN_MAP`: Impassable (WALL). Verified at (3, 0) in Bill's House. (Turn 3844)
-- `WINDOW`: Impassable (WALL). Verified at (5, 0) in Bill's House. (Turn 3844)
-- `COUNTER`: Impassable. Verified in Goldenrod Pokecenter. (Turn 3844)
-- `PC`: Impassable. Verified in Goldenrod Pokecenter. (Turn 3844)
+- `TV`: Impassable. Verified at (2, 1) in Bill's House.
+- `TOWN_MAP`: Impassable (WALL). Verified at (3, 0) in Bill's House.
+- `WINDOW`: Impassable (WALL). Verified at (5, 0) in Bill's House.
+- `COUNTER`: Impassable. Verified in Goldenrod Pokecenter and at (12, 5) in RadioTower1F.
+- `PC`: Impassable. Verified in Goldenrod Pokecenter and at (0, 1) in RadioTower1F.
+- `STAIRCASE`: Traversable. Map transition. Verified at (15, 0) in RadioTower1F.
 
 # Area Knowledge
 ## Route 35
@@ -66,42 +67,56 @@
 - Fire moves (Ember) vs Voltorb (Electric): Neutral.
 - Electric moves: Anticipated super effective against Water/Flying types.
 
+# Item Effects
+- ANTIDOTE: Cures poison.
+- AWAKENING: Wakes up sleeping Pokemon.
+- BERRY: Restores 10 HP.
+- ETHER: Restores 10 PP to one move.
+- HARD STONE: Boosts Rock-type moves.
+- PARLYZ HEAL: Cures paralysis.
+- POTION: Restores 20 HP.
+- PRZCUREBERRY: Cures paralysis.
+- PSNCUREBERRY: Cures poison.
+- REVIVE: Revives a fainted Pokemon with half HP.
+- SUPER POTION: Restores 50 HP.
+- X ACCURACY: Raises accuracy in battle.
+- X ATTACK: Raises attack in battle.
+
 # Strategy: Goldenrod City
 - **Objective**: Obtain Radio Card from Radio Tower.
-- **Method**: Explore western Goldenrod City.
+- **Method**: Talk to Cooltrainer F at (12, 6) in RadioTower1F to take the quiz.
 - **Whitney Gym Strategy**: Use GNEISS (Geodude) to resist Normal moves and deal Rock damage.
 - **Spearow Delivery**: Deliver KENYA to Route 31.
 
 ## Goldenrod City Strategy Plan
-- Status: In progress (Turn 3841).
+- Status: In progress.
 - Step 1: Talk to NPCs in Pokemon Center for local info. (Completed)
-- Step 2: Head west/northwest to locate the Radio Tower. (Currently at Bill's House at 5, 25)
-- Step 3: Answer the quiz at the Radio Tower to obtain the Radio Card.
+- Step 2: Head west/northwest to locate the Radio Tower. (Completed)
+- Step 3: Answer the quiz at the Radio Tower to obtain the Radio Card. (In progress)
 - Step 4: Challenge Whitney at the Goldenrod Gym using GNEISS.
 - Step 5: Explore remaining city buildings (Dept Store, Bike Shop, etc.).
 
-## Reflection (Turn 3792)
-- Immediate Execution: No lapses. Tasks performed immediately.
-- Notepad Hygiene: Restructured Turn 3841.
-- Map Hygiene: Significant discoveries marked. Corrected Bill's House vs Radio Tower.
-- Automation: standard tools effective.
-- Goal Clarity: Goals are concrete outcomes.
-- Error Analysis: Corrected building ID mistake (9, 5 is Underground, not Radio Tower). Corrected Bill's House location (5, 25).
 ## NPCs
-- Cooltrainer F at (12, 16). (Turn 3851)
-- Youngster at (18, 17). (Turn 3851)
-- Pokefan M at (7, 18). (Turn 3852)
-- Team Rocket Grunt at (4, 16). (Turn 3854)
-- Radio Tower Entrance at (5, 15). (Turn 3854)
-- Goldenrod City Station Entrance at (9, 13). (Turn 3854)
-## Map Transitions
-- RadioTower1F (2, 7) <-> Goldenrod City (5, 15). (Turn 3856)
-- RadioTower1F (3, 7) <-> Goldenrod City (5, 15). (Turn 3856)
+- Cooltrainer F at (12, 16).
+- Youngster at (18, 17).
+- Pokefan M at (7, 18).
+- Team Rocket Grunt at (4, 16).
+- Radio Tower Entrance at (5, 15).
+- Goldenrod City Station Entrance at (9, 13).
 
-## NPCs
-- Receptionist at (5, 6) in RadioTower1F. (Turn 3856)
-- Gentleman at (8, 6) in RadioTower1F. (Turn 3856)
-- PC at (0, 1) in RadioTower1F. (Turn 3857)
+## Map Transitions
+- RadioTower1F (2, 7) <-> Goldenrod City (5, 15).
+- RadioTower1F (3, 7) <-> Goldenrod City (5, 15).
+
+## Radio Tower NPCs
+- Receptionist at (5, 6): Just says "Welcome!".
+- Gentleman at (8, 6).
+- PC at (0, 1).
+- Cooltrainer F at (12, 6): Initiates the Radio Tower Quiz.
+- Stairs to 2F at (15, 0).
+- Youngster at (15, 4).
+- Lass at (16, 4).
+
 ## Radio Tower Quiz
 - Question 1: 
 - Answer 1: 
@@ -113,7 +128,3 @@
 - Answer 4: 
 - Question 5: 
 - Answer 5:
-- Receptionist at (5, 6) in RadioTower1F just says "Welcome!". (Turn 3865)
-- Stairs to 2F at (15, 0) in RadioTower1F. (Turn 3868)
-- Youngster at (15, 4) in RadioTower1F. (Turn 3868)
-- Lass at (16, 4) in RadioTower1F. (Turn 3868)
