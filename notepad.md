@@ -17,17 +17,17 @@
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Next Steps:
-  1. Talk to the Charcoal Master in the Charcoal Kiln (8_2).
-  2. Help the apprentice catch the runaway Farfetch'd in Ilex Forest.
-  3. Obtain HM01 (Cut).
-  4. Check Kurt (8_4) for the Fast Ball (Gave White Apricorn on Turn 2720).
+  1. Help the apprentice catch the runaway Farfetch'd in Ilex Forest.
+  2. Obtain HM01 (Cut) from the Charcoal Master.
+  3. Check Kurt (8_4) for the Fast Ball (Gave White Apricorn on Turn 2720).
 
 ## Strategy for Ilex Forest
 1. Enter Ilex Forest from the western gate of Azalea Town (8_7 at 2, 10 or 2, 11).
 2. Find the apprentice and the Farfetch'd.
 3. Catch the Farfetch'd by approaching it from behind.
-4. Obtain HM01 (Cut) as a reward.
-5. Teach Cut to a compatible Pokémon (check PC for Bellsprout).
+4. Return to the apprentice to trigger the reward.
+5. Obtain HM01 (Cut) from the Charcoal Master.
+6. Teach Cut to a compatible Pokémon (check PC for Bellsprout).
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
