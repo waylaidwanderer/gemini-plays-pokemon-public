@@ -11,6 +11,7 @@
 - LEDGE_HOP_LEFT: One-way left.
 - LEDGE_HOP_RIGHT: One-way right.
 - NPCs/Objects: Impassable.
+- VOID: Impassable. Map boundary.
 
 # Battle Strategy & Type Effectiveness
 - Super Effective (x2 or x4):
@@ -51,4 +52,4 @@
 - Goldenrod Gym: Maze layout. Whitney (8, 3) uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
 
 # Gym Navigation
-- Started Turn 4141. Exploring maze.
+- Started Turn 4141. Exploring maze. Target: Lass at (9, 13).
