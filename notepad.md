@@ -1,8 +1,5 @@
 # Ilex Forest Quest: Runaway Farfetch'd
-*Started Turn 2803*
-*Status: Turn 3103 (300 turns elapsed)*
-
-## Goal: Catch the bird to obtain HM01 (Cut).
+*Started Turn 2803. Current: 3109.*
 
 ## Success Condition
 Interact from the tile directly behind the bird's facing direction.
@@ -15,25 +12,17 @@ Interact from the tile directly behind the bird's facing direction.
 - Zone E: Row 31 (23-28)
 - Note: (15, 27), (15, 30), (15, 31) are CLEAN. (15, 28) is NOISY.
 
-## Current Status (Turn 3108)
-- Bird Position: (15, 29). Facing: UP.
-- Player Position: (8, 34) [In Battle].
-- Plan: Reach (15, 30) (Behind) via the silent western corridor.
-- Steps:
-  1. Finish battle.
-  2. Move to (14, 34) [Clean].
-  3. Move to (15, 34) [Clean].
-  4. Move to (15, 31) [Clean] -> (15, 30) [Clean].
-  5. Interact from (15, 30) facing UP.
-
-## Tile Mechanics (Global)
-- FLOOR: Passable. Clean ground.
-- TWIGS (Specs): Passable. Noisy; bird turns to face the player.
-- WALL / DENSE_TREES: Impassable.
-- HEADBUTT_TREE: Impassable.
-- CUT_TREE: Impassable. Requires Cut.
-- LEDGE: Passable (One-way).
+## Silent Paths
+- Row 27 is a silent horizontal corridor.
+- Row 34 is a silent horizontal corridor.
+- Column 29 (Rows 22-25) is silent.
+- Column 14 (Rows 31-34) is silent.
 
 ## Strategy: General
-- Use 'battle_strategist_v3' for all wild encounters.
-- Avoid noisy zones when approaching from behind.
+- Step on twigs to make the bird face you.
+- Use silent paths to reach its back.
+- If it's in a corner, move it by startling it from the front/side.
+
+## Party Status
+- Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3'.
+- Team: ROCKY (ONIX), GNEISS (GEODUDE), ICARUS (PIDGEY), EGG (TOGEPI), APOPHIS (EKANS).
