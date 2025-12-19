@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Move to (6, 7) and talk to Sailor at (6, 6).
-- **Notes:** Checking if this Sailor has the Good Rod.
+- **Navigation:** Talk to Sailor at (6, 6). If no Good Rod, exit Cafe and check House at (13, 15).
+- **Notes:** Received HM04 Strength. Cafe Owner talks about menu.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
