@@ -1,6 +1,6 @@
 ## Strategy: HM Cut
 - **Goal**: Reach Goldenrod City.
-- **How**: Use KIMCHI's CUT to clear the tree at (8, 25) in Ilex Forest.
+- **How**: Use KIMCHI's CUT to clear the tree at (8, 25) in Ilex Forest. (Tree cleared Turn 3246).
 - **Recruitment**: KIMCHI caught in Ilex Forest, now in party slot 6. Learned CUT (Turn 3233).
 
 ## Lessons Learned
