@@ -20,8 +20,8 @@
 - Whitney Defeated. Plain Badge and TM45 obtained.
 - Squirtbottle Quest:
   1. Talked to Floria on Route 36 (Turn 4347).
-  2. Return to Goldenrod Flower Shop (Map 11_2 at 29, 6) for SQUIRTBOTTLE. (In Progress)
-  3. Use SQUIRTBOTTLE on Sudowoodo.
+  2. Return to Goldenrod Flower Shop (Map 11_2 at 29, 6) for SQUIRTBOTTLE. (COMPLETED Turn 4449)
+  3. Use SQUIRTBOTTLE on Sudowoodo at Route 36 (35, 9). (Next)
 - Deliver KENYA (Spearow) to Route 31.
 
 # Inventory & Key Items
