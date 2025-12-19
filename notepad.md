@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Press A to talk to Fishing Guru (7, 3).
-- **Notes:** Previous attempt might have failed due to input timing or 'press_sequence' issue.
+- **Navigation:** Talk to Sailor at (6, 6), then find the House at (13, 15).
+- **Notes:** Cafe "Guru" only talks about the menu. Received Strength from other Sailor.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
