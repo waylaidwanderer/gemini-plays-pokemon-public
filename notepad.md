@@ -24,3 +24,5 @@
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability from wild battles.
 - **Tool Hygiene**: Ensure navigation tools account for all impassable tile types, including HEADBUTT_TREE.
 - Navigation to Northern Exit started at Turn 3266.
+- Encountered and defeated a wild Psyduck at (29, 5) (Turn 3288). gained 80 EXP.
+- Resuming path to Rocker NPC at (15, 14). Target interaction tile: (15, 15).
