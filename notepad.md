@@ -56,3 +56,4 @@
 - **Navigation Note:** The path north via (4, 11) appears blocked (invisible obstacle?).
     - **Hypothesis:** We might need to fall through a hole to reach the B1F, then find a ladder up to the North side of 1F.
     - **Plan:** Retry (4, 11) once. If blocked, jump into the hole at (4, 14).
+    - LEDGE_HOP_DOWN: One-way movement South.
