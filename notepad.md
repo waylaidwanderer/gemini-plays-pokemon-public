@@ -53,3 +53,4 @@
     - **Cause:** Assumed `navigate` success without verifying `current_position` in Game State.
     - **Action:** Forced strict verification of coordinates.
     - **Insight:** The central area (Cols 14-21) is blocked by the Fountain. Must navigate around it (East or West). Currently boxed in West, so must go East.
+- Officer at Goldenrod Gate (0, 4): Likely Webster (Kenya Quest). Requires empty party slot.
