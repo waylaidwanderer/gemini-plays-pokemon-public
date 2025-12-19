@@ -102,3 +102,8 @@
 ## Radio Tower 2F Map Transitions
 - RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
 - Stairs to 3F at (0, 0) in RadioTower2F (Blocked by guard).
+## GNEISS Training Strategy (Whitney Prep)
+- **Moveset**: Teach TM04 (Rollout). It's a powerful STAB move that can sweep.
+- **Held Item**: Equip HARD STONE to boost Rock-type move power.
+- **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
+- **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
