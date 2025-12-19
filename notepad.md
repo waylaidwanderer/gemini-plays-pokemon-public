@@ -24,12 +24,12 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** In B1F (10, 5). Facing Suicune (10, 4).
-        - **Layout:** B1F is the Legendary Beasts' lair.
+        - **Status:** In B1F. Legendary Beasts fled.
+        - **Layout:** B1F explored partially.
         - **Hazards:** Wild Pokemon likely.
-        - **Next:** Interact with Suicune to trigger event. Then Heal.
-        - **Party Status:** Muscle (Critical), Rocky (Critical), Garnet (OK).
-        - **Note:** Ladder at (10, 8) didn't work. Must likely clear event first.
+        - **Next:** Talk to Eusine. Exit and Heal.
+        - **Party Status:** Critical (Need Center).
+        - **Note:** Ladder at (10, 8) unresponsive. Checking Eusine or other exits.
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
