@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Talk to Fishing Guru (8, 4), then go to Olivine Cafe for Strength HM.
-- **Notes:** Fisher said Sailor in Cafe (next door) teaches Strength.
-- **Immediate Goal:** Talk to Fishing Guru.
+- **Navigation:** Finish dialogue with Guru, then head to Olivine Cafe (Next door).
+- **Notes:** Fisher said Sailor in Cafe teaches Strength. Guru seems to be checking friendship?
+- **Immediate Goal:** Advance text (Press A).
 - **Status:** Lapis healed.
 - **Current Location:** Olivine Pokemon Center.
 
