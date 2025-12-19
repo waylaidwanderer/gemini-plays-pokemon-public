@@ -38,5 +38,6 @@
 - **Lass:** Practices at the Dance Theater.
 - **Gramps:** Mentions an 'odd old man' in the Dance Theater who gives you something nice.
 - **Quest:** Defeat all Kimono Girls in the Dance Theater to receive a gift from the Gentleman.
-    - Defeated: Miki (Jolteon), Kuni (Vaporeon), Zuki (Umbreon), Sayo (Espeon).
+    - Defeated: Miki (Jolteon), Kuni (Vaporeon), Zuki (Umbreon), Sayo (Espeon), Naoko (Flareon).
+    - Status: All defeated. Talk to Gentleman for gift.
 - **Mom:** Bought an item with my money (Check PC).
