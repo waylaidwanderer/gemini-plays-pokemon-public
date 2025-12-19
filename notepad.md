@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Continue West to Route 39 / Olivine City.
-- **Battle Strategy:** Muscle in lead. Watch for Trainers on the road.
+- **Navigation:** Exit Route 38 West to Route 39.
+- **Immediate Goal:** Walk off the map edge to the West.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
