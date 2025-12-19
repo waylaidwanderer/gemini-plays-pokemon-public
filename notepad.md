@@ -26,10 +26,10 @@
 
 ## Current Status
 - Bird Position: (24, 35).
-- Bird Facing: DOWN (Verified T2903).
-- Target Position: (25, 35) (to drive West).
+- Bird Facing: UP (Verified T2904).
+- Target Position: (25, 35) (Side interaction).
 
 ## Farfetch'd Chase Log
 - Attempt 6 (T2901): Player at (23, 31), Bird at (22, 31) faced Left. Result: Bird turned Right, then flew to (24, 35).
-- Observation: Bird turns to face player before fleeing if approached from behind? Or maybe I was in its line of sight during the approach?
-- Strategy: Drive bird toward north-west area by interacting from the east/south.
+- Attempt 7 (T2905): Player at (25, 35), Bird at (24, 35) facing UP. Result: Pending.
+- Hypothesis: Side interaction with an UP-facing bird at (24, 35) will drive it North to (24, 31).
