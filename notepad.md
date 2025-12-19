@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Enter Olivine Cafe (7, 21) -> Talk to Sailor for Strength HM.
-- **Notes:** Fisher said Sailor in Cafe (next to PC) teaches Strength.
-- **Current Location:** Olivine City (Outside Cafe).
+- **Navigation:** Talk to Sailor at (4, 3) for Strength, then talk to Fishing Guru.
+- **Notes:** Cafe has two Sailors and a Fishing Guru.
+- **Current Location:** Olivine Cafe.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
