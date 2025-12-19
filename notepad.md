@@ -37,10 +37,9 @@
 - Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
 
 # Strategy: Goldenrod Exploration
-1. Return to Pokémon Center to deposit a Pokémon (ICARUS) and free a slot for the Officer's quest. (Completed Turn 3504)
-2. Return to Gatehouse, accept the Spearow, and proceed to Route 35.
-3. Systematically explore Goldenrod quadrants: Gym, Radio Tower, Dept. Store.
-4. Speak to all NPCs for city lore and items (Bike, Coin Case).
+1. Return to Gatehouse, accept the Spearow, and proceed to Route 35.
+2. Systematically explore Goldenrod quadrants: Gym, Radio Tower, Dept. Store.
+3. Speak to all NPCs for city lore and items (Bike, Coin Case).
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
