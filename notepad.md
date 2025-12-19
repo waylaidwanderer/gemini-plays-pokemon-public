@@ -42,3 +42,4 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
 - **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
 - **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
+- Left APOPHIS (Ekans, Lv 4) with Day-Care Lady (Granny) at (5, 3). Party now has 5/6 Pokémon. (Turn 3422)
