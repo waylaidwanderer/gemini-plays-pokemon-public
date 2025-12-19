@@ -19,7 +19,7 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Engaging Morty.
+        - **Status:** Battling Morty (Gym Leader).
         - **Strategy:** Muscle (Machoke) with Dig.
         - **Key Threats:** Hypnosis, Dream Eater, Curse, Shadow Ball.
         - **Backup:** Garnet, Rocky.
