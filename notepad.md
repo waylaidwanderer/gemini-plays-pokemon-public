@@ -5,19 +5,17 @@
 - **Observed Behavior**:
   - Startle: Interacting from front/side makes it fly ~6 tiles.
   - Turning: Bird turns to face the player if they step on noisy tiles (twigs).
-  - Noisy Tiles: Row 31 (x=23 to 29) verified. Alert the bird when stepped on.
+  - Twig Mechanic: Row 31 (x=23 to 29) are noisy tiles (twigs). Stepping on them makes the bird face the player.
 - **Current Status**:
   - Bird Position: (28, 31)
   - Bird Facing: RIGHT
-  - Strategy: Drive bird to a clean row (28, 29, 30, 32, 33, 35) to avoid twig-turning.
-
-## Strategy: Driving North to Row 28
-1. Reach (28, 32) (South of bird) without stepping on Row 31.
-2. Interact from (28, 32) -> Bird flies North to (28, 28).
-3. Since Row 28 is clean (no twigs), sneak behind it at (27, 28) or (29, 28) and catch!
+- **Strategy: Driving North to Row 28**
+  1. Reach (28, 32) (South of bird) without stepping on Row 31.
+  2. Interact from (28, 32) -> Bird flies North to (28, 28).
+  3. Row 28 is clean (no twigs), so sneak behind it at (29, 28) and catch!
 
 ## Tile Mechanics
-- **FLOOR**: Passable.
+- **FLOOR**: Passable. Standard terrain.
 - **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd. Row 31.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
