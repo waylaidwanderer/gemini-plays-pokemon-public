@@ -112,11 +112,13 @@
 # Menu Mechanics
 - **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT. This means `Up*8` does not reset the cursor to a fixed position; it returns it to the starting point.
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
-- **Current Start Menu Cursor**: Last seen on PACK (index 2) at Turn 3970.
-- **Current Pack Pocket**: TM/HM.
-- **Current Pack Cursor (TM/HM)**: Last seen on 12 SWEET SCENT at Turn 3970.
-- **Current Pack Cursor (Items)**: Last seen on HARD STONE (index 4) at Turn 3970.
-- **Current Party Menu Cursor**: Last seen on KIMCHI (index 3) at Turn 3970.
+- GNEISS (Geodude) moved to lead position (Turn 3985).
+- Calcifer (Quilava) moved to 2nd position (Turn 3985).
+- Current Start Menu Cursor: POKEMON (index 1) (Turn 3986).
+- Current Party Menu Cursor: GNEISS (index 0) (Turn 3986).
+- Current Pack Pocket: TM/HM (Turn 3970).
+- Current Pack Cursor (TM/HM): 12 SWEET SCENT (Turn 3970).
+- Current Pack Cursor (Items): HARD STONE (index 4) (Turn 3970).
 
 ## GNEISS (Geodude) Info
 - **Held Item**: BERRY (Needs to be swapped for HARD STONE).
@@ -124,10 +126,10 @@
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
-- Python sandbox is currently unavailable (Turns 3971-3975). Advanced tools like `press_sequence` and `run_code` are non-functional.
+- Python sandbox is currently unavailable (Turns 3971-3986). Advanced tools like `press_sequence` and `run_code` are non-functional.
 - Switching to manual `press_buttons` for party management and training.
 
 # Training Plan (Manual)
-1. Move GNEISS to the lead position in the party menu.
-2. Grind in Route 35 tall grass.
-3. Manually teach TM04 (Rollout) and give HARD STONE if menu navigation becomes reliable.
+1. Move GNEISS to the lead position in the party menu (Completed Turn 3985).
+2. Manually teach TM04 (Rollout) and give HARD STONE (In Progress).
+3. Grind in Route 35 tall grass.
