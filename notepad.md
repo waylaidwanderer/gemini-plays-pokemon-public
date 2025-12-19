@@ -41,7 +41,7 @@
 - Bug Catcher Arnie: Venonat (Lv 15)
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
-- Pokemaniac Issac: Battling (Turn 3768)
+- Pokemaniac Issac: Lickitung (Lv 12)
 - Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv 11), Magnemite (Lv 9), Magnemite (Lv 7)
 
 # Battle Notes
