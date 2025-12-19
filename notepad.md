@@ -2,8 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Defeat Pokefan Jaime (Trainer Battle), then explore Moomoo Farm.
-- **Battle Strategy:** Muscle in lead. Expect Pikachu/Snubbull. Use Dig/Karate Chop.
+- **Navigation:** Head South to find the exit of this enclosure.
+- **Notes:** Pokefan Jaime (4, 22) appears to be a Night-only trainer ("I hope it gets dark soon").
+- **Immediate Goal:** Close text and move South.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
