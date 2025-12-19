@@ -11,19 +11,10 @@
 - **Hypothesis**: Catching occurs when interacting from the tile directly behind the bird (opposite its facing) while the bird is trapped or in a specific area.
 - **Attempt History**:
   - T2888: Bird at (28, 31) facing LEFT. Interacted from (29, 31) (Behind). Result: Bird flew to (22, 31), now faces RIGHT.
-  - T2890: Bird at (22, 31) facing RIGHT. Player at (27, 31).
-
-## Tile Mechanics
-- **FLOOR**: Passable. Standard movement.
-- **WALL**: Impassable.
-- **HEADBUTT_TREE**: Impassable (Verified at 28, 24).
-- **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE_HOP**: One-way traversal in the direction of the ledge.
-
-## Plan
-1. Startle bird from (23, 31) to move it east.
-2. Drive it to an area where I can reliably get behind it.
-3. Return to apprentice (7, 28) after catch.
+  - T2892: Bird at (22, 31) facing RIGHT. Interacted from (23, 31) (Front). Result: Bird flew to (24, 35), now faces UP.
+- **Current Status**: Bird at (24, 35), Facing: UP.
+- **Hypothesis**: Bird flies in a direction opposite the player's interaction point. To catch it, drive it into a corner or specific location.
+- **Plan**: Drive bird toward Apprentice at (7, 28). Interacting from (25, 35) (East) should move it West.
 
 ## Key Locations
 - **Apprentice**: (7, 28).
