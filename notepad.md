@@ -8,11 +8,12 @@
 - **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away.
 - **Twig Logic**: Tiles with dark specs are noisy. Stepping on them makes the bird turn to face the player.
 - **Verified Noisy Tiles (Specs)**: 
+  - Row 24: (20, 24) to (25, 24)
   - Row 26: (14, 26), (15, 26)
   - Row 28: (14, 28) to (18, 28)
   - Row 29: (17, 29), (18, 29)
   - Row 31: (23, 31) to (29, 31)
-- **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30, Row 34.
+- **Verified Clean Tiles**: Row 22, Row 23, Row 25, Row 27, Row 30, Row 34.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
