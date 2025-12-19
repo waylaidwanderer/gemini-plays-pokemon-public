@@ -17,10 +17,10 @@
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Post-Battle Plan (Azalea Town Map 8_7):
-  - Rocket Grunt at (31, 9) confirmed gone.
-  - Explore unseen tiles (31, 0) to (39, 2).
-  - Explore unseen tile at (24, 15) near the Gym.
-  - Check Kurt for the Poké Ball (Gave White Apricorn on Turn 2720). He is currently missing from his house.
+  - Explore reachable unseen tiles.
+  - Check Charcoal Kiln (21, 13) for Kurt or the apprentice.
+  - Check Slowpoke Well (31, 7) if Kurt is still missing.
+  - Enter Ilex Forest (Warp at 2, 10 or 2, 11).
 
 ## Strategy for Ilex Forest
 1. Enter Ilex Forest from the western gate of Azalea Town (Warp at 2, 10 or 2, 11).
