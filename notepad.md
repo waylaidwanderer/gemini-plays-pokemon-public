@@ -29,7 +29,7 @@
         - **Hazards:** Wild Pokemon (Repelled).
         - **Next:** Exit via Ladder (7, 15) -> Heal.
         - **Party Status:** Critical.
-        - **Note:** Ladder at (10, 8) unresponsive/fake. Heading to (7, 15).
+        - **Note:** Ladder at (10, 8) appears unusable (likely one-way drop). Heading to (7, 15).
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
