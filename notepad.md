@@ -53,3 +53,6 @@
     - Divided into East/West by a wall at x=13 (North side).
     - **Path to Rival:** Rival is at (8, 9) (North-West section). Access seems to be via a gap on the far West side (x < 5).
     - **Hazards:** Holes at (5, 14), (7, 15), (15, 14). Watch your step!
+- **Navigation Note:** The path north via (4, 11) appears blocked (invisible obstacle?).
+    - **Hypothesis:** We might need to fall through a hole to reach the B1F, then find a ladder up to the North side of 1F.
+    - **Plan:** Retry (4, 11) once. If blocked, jump into the hole at (4, 14).
