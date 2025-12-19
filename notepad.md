@@ -33,14 +33,11 @@
     - HEADBUTT_TREE: Impassable. Encounter chance.
     - CUT_TREE: Impassable. Cut to remove.
 
-### History
-- **Goldenrod:** Defeated Whitney (Miltank down!). Cleared Dept Store B1F.
-- **Route 35-37:** Cleared trainers. Defeated Sudowoodo. Arrived in Ecruteak.
-- **Lass:** Practices at the Dance Theater.
-- **Gramps:** Mentions an 'odd old man' in the Dance Theater who gives you something nice.
-- **Quest:** Defeat all Kimono Girls in the Dance Theater to receive a gift from the Gentleman.
-    - Defeated: Miki (Jolteon), Kuni (Vaporeon), Zuki (Umbreon), Sayo (Espeon), Naoko (Flareon).
-    - Status: Completed. Received HM03 (Surf) from Gentleman.
-- **Needs:** Pokemon that can learn Surf. (Sentret is caught but not in Box 1. Check other boxes or catch a Poliwag).
-- **Mom:** Bought Super Potions (Withdrawing now).
-- **Needs:** Pokemon that can learn Surf. (Sentret is caught but not in Box 1. Check other boxes).
+### History & Completed Quests
+- **Goldenrod:** Defeated Whitney (Plain Badge). Cleared Dept Store B1F.
+- **Route 35-37:** Cleared trainers. Defeated Sudowoodo.
+- **Ecruteak:**
+    - **Dance Theater:** Defeated all 5 Kimono Girls. Received HM03 (Surf) from Gentleman.
+- **Pending Needs:**
+    - Pokemon to learn Surf (Sentret in PC?).
+    - Withdraw Mom's Super Potions.
