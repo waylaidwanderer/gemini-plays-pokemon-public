@@ -20,7 +20,7 @@
 - **Ecruteak City:**
     - **Gym:**
         - **Status:** Battling Morty (Gym Leader).
-        - **Strategy:** Muscle's Dig is out of PP (0/10). Switching to Garnet (Quilava).
+        - **Strategy:** Muscle's Dig is out of PP. Switching to Garnet (Slot 5).
         - **Plan:** Use Ember with Garnet. Backup: Rocky.
         - **Puzzle:** Solved.
         - **Current Position:** (5, 2).
