@@ -34,7 +34,7 @@
         - **Note:** Ladder at (10, 8) was likely a one-way drop. Exit used: (7, 15).
 
 ## Important Locations
-- **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
+- **Ecruteak Locations:** Poke Mart (29, 21), Center (23, 27), Gym (6, 27), Burned Tower (5, 5), Dance Theater (23, 21).
 
 ## Knowledge Base
 ### Mechanics
