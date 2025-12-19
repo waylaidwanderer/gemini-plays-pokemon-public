@@ -20,9 +20,9 @@
 - **Ecruteak City:**
     - **Gym:**
         - **Status:** Battling Morty (Rematch).
-        - **Opponent:** Haunter Lv 21 (Ghost/Poison).
-        - **Current Pokemon:** Muscle (Machoke Lv 30, 99/99 HP).
-        - **Matchup:** Muscle is +9 Levels. Dig is Super Effective.
+        - **Opponent:** Gengar Lv 25 (Ghost/Poison).
+        - **Current Pokemon:** Muscle (Machoke Lv 31, 78/102 HP).
+        - **Matchup:** Muscle is +6 Levels. Dig is Super Effective.
         - **Strategy:** Use Dig. Heal if Hypnosis hits (Awakening).
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
