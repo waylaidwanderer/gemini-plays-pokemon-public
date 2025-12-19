@@ -4,11 +4,11 @@
 ## Success Condition
 Interact from the tile directly behind the bird's facing direction.
 
-## Current Status (Turn 3087)
+## Current Status (Turn 3088)
 - **Bird Position**: (15, 29).
 - **Bird Facing**: UP.
 - **Player Position**: (15, 28).
-- **Plan**: Interact (A) from (15, 28) facing DOWN to move the bird. It is in a corner, so moving it is necessary to get behind it.
+- **Action**: Interact (A) to move the bird south.
 
 ## Verified Tile Data
 - Noisy (Bird faces player):
