@@ -2,34 +2,22 @@
 
 ## Goal: Catch the runaway Farfetch'd to obtain HM01 (Cut).
 
-## Farfetch'd Flight Logic (Hypothesis)
-- **Mechanic**: The bird flies away if approached from the front or side. To catch it, interact from directly behind its facing direction.
-- **Flight Behavior**: It flies ~4-5 tiles in the direction it is facing when startled.
-- **Catch Condition**: Interacting from the tile directly behind it (opposite its facing direction).
-- **Testing Log**:
-  - Attempt 1 (T2867): Interacted from North (28, 30) while bird at (28, 31) faced South. Result: Flew South. (Hypothesis: Maybe "behind" means something else, or I misidentified facing).
-  - Attempt 2 (T2878): Interacted from West (23, 35) while bird at (24, 35) faced Right. Result: Flew East. (Confirmed: Side interaction causes flight).
-
-## Current Status
-- Bird at (28, 31), Facing: LEFT.
-- Target Position: (29, 31) (Behind).
+## Farfetch'd Catch Mechanic (Hypothesis)
+- **Catch Condition**: Interact with the bird from the tile directly behind it (opposite its facing direction).
+- **Startle Condition**: Interacting from the front or side causes it to fly away.
+- **Flight Path**: Flies ~4-5 tiles in the direction it is facing when startled.
 
 ## Tile Mechanics
-- FLOOR: Passable.
-- WALL: Impassable.
-- HEADBUTT_TREE: Impassable (Verified at 28, 24).
-- CUT_TREE: Impassable. Requires HM01 Cut.
-- LEDGE_HOP: One-way traversal (Down/Left/Right).
-
-## Post-Catch Plan
-1. Return to the apprentice (7, 28).
-2. Go to Charcoal Kiln in Azalea Town (21, 13) to get HM01 Cut.
-3. Teach Cut and clear the tree to Route 34.
+- **FLOOR**: Traversable.
+- **WALL / DENSE_TREES**: Impassable.
+- **HEADBUTT_TREE**: Impassable (Verified at 28, 24).
+- **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
+- **LEDGE_HOP**: One-way traversal in the direction of the arrow.
 
 ## Key Locations
-- Kurt's House: Azalea (9, 5). Kurt (3, 2) makes balls.
-- Charcoal Kiln: Azalea (21, 13). Boss gives Cut.
+- **Apprentice**: (7, 28). Return here after catching bird.
+- **Charcoal Kiln**: Azalea Town (21, 13). Boss gives Cut after quest.
 
 ## Party Status
-- Calcifer (QUILAVA) Lv22: Lead.
+- **Calcifer (QUILAVA) Lv22**: Lead.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
