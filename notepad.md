@@ -11,8 +11,9 @@
   - Row 26: (14, 26), (15, 26)
   - Row 28: (14, 28) to (18, 28)
   - Row 29: (17, 29), (18, 29)
-  - Row 31: (23, 31) to (29, 31)
-- **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30.
+- Row 30: (14, 30) is noisy. (15, 30) is clean.
+- Row 31: (23, 31) to (29, 31) are noisy. (14, 31) and (15, 31) are clean.
+- **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
 
 ## Current Status
 - Bird is at (15, 29). Facing: DOWN.
