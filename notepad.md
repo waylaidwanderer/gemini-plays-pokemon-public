@@ -2,9 +2,12 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Head West past the Gym to find the path South.
-- **Immediate Goal:** Explore the area West of x=10.
-- **Current Location:** Olivine City (Near Gym).
+- **Navigation:** Defeat Rival Silver, then find Pokemon Center.
+- **Battle Strategy:**
+    - **Magnemite/Sneasel:** Muscle (Karate Chop/Dig).
+    - **Haunter:** Muscle (Dig).
+    - **Zubat/Golbat:** Switch to Garnet (Ember).
+    - **Croconaw:** Muscle (Dig/Karate Chop) or Garnet (Neutral).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
