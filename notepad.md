@@ -24,12 +24,8 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** Exploring Ground Floor.
-        - **Layout:**
-            - **South:** Entry, Eusine, Morty.
-            - **West:** Narrow corridor (x=4) blocked or tricky.
-            - **North (Row 1):** Connected to central area via column 9?
-            - **New Route Idea:** From (10, 3), go Left -> Down Column 9 -> Right Row 5 -> Down Column 12 -> Left Row 9 -> Rival.
+        - **Status:** Battling Rival Silver.
+        - **Layout:** Found overland route to Rival via column 9 -> row 5 -> column 12.
         - **Hazards:** Floor has holes (Warps) to B1F.
         - **Hypothesis:** This winding path avoids the holes and connects the isolated sections.
 
