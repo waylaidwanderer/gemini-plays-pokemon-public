@@ -28,11 +28,8 @@
 - Day-Care at (10, 14).
 - Defeated Pokefan Brandon at (18, 28). Opponent: Snubbull (Lv 13).
 - Defeated Youngster Ian at (11, 21). Opponents: Mankey (Lv 10), Diglett (Lv 12).
-- Hypothesis: The back door at (13, 15) on Route 34 likely connects to the Day-Care backyard accessible via the warps at (2, 7) and (3, 7) inside.
-
-## Day-Care (Azalea/Goldenrod Area)
-- Received ODD EGG (Cleffa) from Day-Care Man (Gramps) at (2, 3). (Turn 3425)
-- Strategy: Exit via the south door (2, 7) to verify the backyard connection to Route 34 (13, 15). (Turn 3426)
+- Verified: The back door at (13, 15) on Route 34 connects to the Day-Care backyard (2, 7). (Turn 3427)
+- Strategy: Explore the fenced-off backyard area and then proceed north to Goldenrod City. (Turn 3428)
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
