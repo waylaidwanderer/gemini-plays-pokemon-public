@@ -113,14 +113,14 @@
 - Current Start Menu Cursor: PACK (index 2) (Turn 3987).
 - Current Party Menu Cursor: GNEISS (index 0) (Turn 3985).
 - Current Pack Pocket: Items (Turn 3996).
-- Current Pack Cursor (Items): HARD STONE (Turn 3996).
+- Current Pack Cursor (Items): X ATTACK (Turn 4001).
 
 ## GNEISS (Geodude) Info
-- **Held Item**: BERRY (Needs to be swapped for HARD STONE).
+- **Held Item**: HARD STONE (Turn 4001).
 - Taught TM04 (Rollout) (Turn 3994).
 - Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
-- Python sandbox is currently unavailable (Turns 3971-4000). Advanced tools like `press_sequence` and `run_code` are non-functional.
+- Python sandbox is currently unavailable (Turns 3971-4001). Advanced tools like `press_sequence` and `run_code` are non-functional.
 - Switching to manual `press_buttons` for party management and training.
