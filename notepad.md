@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Interact with Fishing Guru (7, 3) to get Good Rod.
-- **Notes:** Stunned Guru to ensure successful interaction.
+- **Navigation:** Finish Wade's phone call, then talk to Fishing Guru (7, 3).
+- **Notes:** Interrupted by Wade's phone call while trying to talk to Guru.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
