@@ -5,7 +5,6 @@
 - **Secondary Goal:** Investigate Lighthouse.
 - **Navigation:** Explore West past the Sailor (x < 7).
 - **Battle Strategy:** Muscle leads.
-- **Current Location:** Olivine Lighthouse 4F.
 
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
