@@ -1,6 +1,6 @@
 # Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable. Includes FENCE and Gym Planters.
+- FLOOR: Traversable. Individual Behavior: Can be traversed. Relational Behavior: No special interactions noted. Mechanics: Standard ground.
+- WALL: Impassable. Individual Behavior: Blocks movement. Relational Behavior: Cannot be entered from any direction. Includes FENCE and Gym Planters.
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable. Requires Cut.
@@ -10,7 +10,6 @@
 - LEDGE_HOP_DOWN: One-way down.
 - LEDGE_HOP_LEFT: One-way left.
 - LEDGE_HOP_RIGHT: One-way right.
-- NPCs/Objects: Impassable.
 - VOID: Impassable. Map boundary.
 
 # Battle Strategy & Type Effectiveness
@@ -27,8 +26,17 @@
     - Ghost moves -> Normal.
     - Normal/Fighting moves -> Ghost.
 
-# Whitney Strategy
-- GNEISS (Geodude) Lv 21. Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
+# Gym Leader Whitney (Goldenrod City)
+- **Roster:**
+  - Clefairy (Lv 18): Metronome, DoubleSlap, Encore.
+  - Miltank (Lv 20): Stomp, Rollout, Milk Drink, Attract.
+- **Strategy:**
+  - Lead with GNEISS (Geodude) Lv 21+. Rock/Ground resists Normal and Rock moves.
+  - Miltank's Rollout doubles in power each turn.
+  - **Counter-Strategy:** If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI, etc.) to tank the hit and force a reset.
+  - GNEISS (Female) is immune to Miltank's Attract.
+  - Use Super Potions to maintain HP above 30.
+- **Battle Start:** Turn 4207.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
@@ -49,20 +57,4 @@
 
 # Area Knowledge
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
-- Goldenrod Gym: Maze layout. Whitney (8, 3) uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
-
-# Gym Navigation
-- Started Turn 4141. Exploring maze.
-
-# Whitney Battle Log (Turn 4207+)
-- Whitney's Lead: Clefairy (Lv 18).
-- My Lead: GNEISS (Geodude) Lv 22.
-- Turn 1: GNEISS used Magnitude 6. Clefairy used Metronome (Milk Drink), HP full.
-- Turn 2: GNEISS used Magnitude 8. Clefairy used DoubleSlap (not effective). Clefairy fainted.
-- Turn 3 (Turn 4215): Whitney sent out Miltank (Lv 20). Miltank used Rollout (Turn 1). GNEISS used Defense Curl.
-- Turn 4 (Turn 4219): Miltank used Rollout (Turn 2, Critical). GNEISS missed.
-- Turn 5 (Turn 4221): Miltank used Rollout (Turn 3). GNEISS missed. HP: 15/57.
-- Turn 6 (Turn 4223): Switched GNEISS for FRITTATA. Miltank used Rollout (Turn 4). FRITTATA fainted.
-- Turn 8 (Turn 4225): Sent KIMCHI. Miltank used STOMP. KIMCHI fainted. Rollout chain ended.
-- Turn 9 (Turn 4229): GNEISS is back in. Stats reset (Defense Curl boost is GONE). HP: 15/57.
-- Strategy: Use SUPER POTION on GNEISS. Then use MAGNITUDE. GNEISS resists Stomp and Rollout. GNEISS is female (immune to Attract). HP: 15/57. Preserve Calcifer as backup.
+- Goldenrod Gym: Maze layout. Whitney (8, 3) uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rollout. Carry HARD STONE.
