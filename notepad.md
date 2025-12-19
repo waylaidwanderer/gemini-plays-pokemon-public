@@ -4,7 +4,7 @@
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable. Requires Cut.
-- TALL_GRASS: Traversable. Wild encounters.
+- TALL_GRASS: Traversable. Wild encounters. Observed on Route 35.
 - DOOR: Traversable. Map transition.
 - WARP_CARPET_DOWN: Traversable. Map transition.
 - LEDGE_HOP_DOWN: One-way down.
