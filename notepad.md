@@ -28,7 +28,10 @@
 ## Tile Mechanics
 - **FLOOR/TALL_GRASS:** Traversable.
 - **WALL/FENCE:** Impassable.
-- **COUNTER:** Interact from adjacent tile.
+- **COUNTER:** Impassable. Interact from adjacent tile.
+- **PC:** Impassable. Interact to access storage.
+- **LADDER:** Traversable. Warp to another floor.
+- **WARP_CARPET:** Traversable. Warp to another map.
 - **HEADBUTT_TREE:** Impassable. Headbutt for encounters.
 - **CUT_TREE:** Impassable. Remove with Cut.
 
