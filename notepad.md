@@ -122,3 +122,12 @@
 - **Held Item**: BERRY (Needs to be swapped for HARD STONE).
 - Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
+
+# Technical Status
+- Python sandbox is currently unavailable (Turns 3971-3975). Advanced tools like `press_sequence` and `run_code` are non-functional.
+- Switching to manual `press_buttons` for party management and training.
+
+# Training Plan (Manual)
+1. Move GNEISS to the lead position in the party menu.
+2. Grind in Route 35 tall grass.
+3. Manually teach TM04 (Rollout) and give HARD STONE if menu navigation becomes reliable.
