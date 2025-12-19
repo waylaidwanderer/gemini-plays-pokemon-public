@@ -19,7 +19,7 @@
 
 ## Navigation Log
 - **Olivine Lighthouse:** Cleared 1F-5F. Reached 6F via Center Column.
-- **Route 40:** Defeated Swimmer Simon. Heading South to Route 41.
+- **Route 40:** Defeated Swimmer Simon. Heading South to Route 41. Note: Swimmers here may use the Rival's sprite.
 - **Next:** Surf Route 40/41 to Cianwood.
 
 ## Tile Mechanics
