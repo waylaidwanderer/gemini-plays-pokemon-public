@@ -21,12 +21,11 @@
     - **Gym:**
         - **Status:** Battling Morty (Rematch).
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
-        - **Current Pokemon:** Muscle (Machoke Lv 31, 77/102 HP).
-        - **Condition:** Cursed, Trapped, Awake.
-        - **Action:** Used Awakening. Turn ending.
-        - **Expectation:** Gengar attacks -> Curse damage -> Next turn.
-        - **Strategy:** Survive -> Use Dig. Hope for obedience.
-        - **Backup:** None (Trapped).
+        - **Current Pokemon:** Garnet (Quilava Lv 27, 41/76 HP).
+        - **Condition:** Awake.
+        - **Action:** Select FIGHT.
+        - **Strategy:** Use Ember (Slot 4).
+        - **Reasoning:** Garnet is awake. Gengar's accuracy is low (-2). Need to do damage.
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
