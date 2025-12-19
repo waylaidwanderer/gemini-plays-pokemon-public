@@ -48,3 +48,5 @@
 - Bird at (29, 22), Facing: DOWN.
 - Strategy: Approach from West (28, 22). Trap against East VOID edge.
 - Input: [Left, Up, Up, Right, A]
+- Turn 2876: Found REVIVE at (20, 32). Pack is getting full of good stuff!
+- Bird spotted at (24, 35), facing RIGHT. Strategy: Approach from behind at (23, 35).
