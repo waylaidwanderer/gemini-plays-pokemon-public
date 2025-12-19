@@ -19,7 +19,7 @@
 
 # Progress & Objectives
 - Whitney Defeated. Plain Badge and TM45 obtained.
-- Exploration: Started National Park exploration at Turn #4476.
+- Exploration: Started National Park exploration at Turn #4476. (Current Task)
 - Squirtbottle Quest:
   1. Talked to Floria on Route 36 (Turn 4347).
   2. Obtained SQUIRTBOTTLE from Flower Shop (Turn 4449).
