@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore 1F and find the stairs to 2F.
-- **Notes:** Entered Lighthouse. Exit is South.
+- **Navigation:** Explore 1F North (Pokefan), then take stairs to 2F.
+- **Notes:** Stairs located at (16, 13). Pokefan at (16, 9).
 - **Current Location:** Olivine Lighthouse 1F.
 
 ## Party Status
