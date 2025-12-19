@@ -4,8 +4,8 @@
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable. Can be shaken with Headbutt.
 - CUT_TREE: Impassable. Requires Cut.
-- TALL_GRASS: Traversable. Wild encounters.
-- LONG_GRASS: Traversable. Wild encounters.
+- grass: Traversable. Wild encounters.
+- long grass: Traversable. Wild encounters.
 - DOOR: Traversable. Map transition.
 - WARP_CARPET_UP/DOWN/LEFT/RIGHT: Traversable. Map transition.
 - LEDGE_HOP_DOWN/LEFT/RIGHT: One-way traversal.
@@ -17,7 +17,7 @@
     - Ground moves -> Electric (Voltorb), Fire (Magmar).
     - Rock moves -> Fire (Magmar).
     - Flying moves -> Grass/Poison (Bellsprout).
-    - Fire moves -> Bug/Poison (Venonat, Tangela).
+    - Fire moves -> Bug/Poison (Venonat, Tangela, Oddish).
 - Not Very Effective (x0.5 or x0.25):
     - Normal moves -> Rock/Ground (Geodude).
     - Rock moves -> Rock/Ground (Geodude).
@@ -42,9 +42,14 @@
 - National Park Layout: The park is a large rectangle with a perimeter path behind the fence.
 - Current Goal: Exit National Park south to Route 35.
 - Exit: The southern gatehouse (Map 10_16) is the exit to Route 35.
-- Battle Policy: Use the battle_strategist agent for all trainer and significant wild encounters to optimize move choice and party management.
+- Battle Policy: Use the battle_strategist agent for all trainer and significant wild encounters.
 - Note: Item ball at (35, 12) collected (Parlyz Heal).
+
+# Schoolboy Jack Battle Log (Turn 4384+)
+- Opponent 1: Oddish (Lv 12).
+- Turn 1: Switching GNEISS for Calcifer.
 
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (Floria) has been spoken to.
+- Tile Types: Use exact strings from XML (e.g., 'grass' instead of 'TALL_GRASS').
