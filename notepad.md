@@ -15,17 +15,11 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** In Flower Shop.
-    - **Health:** Muscle (10/73 HP).
-    - **Interaction:**
-        - Talked to Teacher (2, 4) first: She sang "Lalala".
-        - Talked to Lass (5, 5): She mentioned her "sis" has a water bottle and might lend it if Whitney is beaten.
-    - **Hypothesis:** The Teacher is the "sis" and talking to the Lass unlocked the correct dialogue.
-    - **Action:** Talk to Teacher again to get Squirtbottle.
+    - **Current Status:** Squirtbottle Obtained!
+    - **Health:** Muscle (10/73 HP). Critical need for healing.
     - **Next Steps:**
-        1. **Get Key Item:** Squirtbottle.
-        2. **Heal:** Goldenrod Pokémon Center.
-        3. **Clear Sudowoodo:** Route 36.
+        1. **Heal:** Goldenrod Pokémon Center.
+        2. **Objective:** Head North to Route 36 and clear Sudowoodo.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
