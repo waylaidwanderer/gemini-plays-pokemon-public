@@ -26,6 +26,7 @@
         2. **Travel:** Head North to Ecruteak City.
     - **Notes:**
         - Fighting (Low Kick) is SE vs Normal (Clefairy).
+        - **Desync Note:** Screen shows battle menu, history shows battle won. Assuming battle is still active or needs text clearing.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
