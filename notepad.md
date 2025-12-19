@@ -5,17 +5,20 @@
 - **Observed Behavior**:
   - Startle: Interacting from front/side makes it fly ~6 tiles.
   - Turning: Bird turns to face the player if they step on noisy tiles (twigs).
-  - Noisy Tiles: Verified Row 31 (specs on ground). Alert the bird when stepped on.
+  - Noisy Tiles: Row 31 (x=23 to 29) verified. Alert the bird when stepped on.
+- **Current Status**:
+  - Bird Position: (28, 31)
+  - Bird Facing: RIGHT
+  - Strategy: Drive bird to a clean row (28, 29, 30, 32, 33, 35) to avoid twig-turning.
 
-## Strategy: Catching at (28, 31)
-1. Bird is at (28, 31). Assuming it faces LEFT.
-2. Target: (29, 31) (Behind).
-3. Path: Avoid Row 31 near the bird. Go around via Row 35 or Row 30.
-4. Catch: Interact from (29, 31).
+## Strategy: Driving North to Row 28
+1. Reach (28, 32) (South of bird) without stepping on Row 31.
+2. Interact from (28, 32) -> Bird flies North to (28, 28).
+3. Since Row 28 is clean (no twigs), sneak behind it at (27, 28) or (29, 28) and catch!
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
-- **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd. Verified Row 31.
+- **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd. Row 31.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
@@ -23,8 +26,8 @@
 
 ## Important Locations
 - **Azalea Town**:
-  - Kurt's House (9, 5): Kurt (3, 2) makes special balls.
-  - Charcoal Kiln (21, 13): Apprentice's boss. Reward for Farfetch'd is HM01 Cut.
+  - Kurt's House (9, 5): Special balls.
+  - Charcoal Kiln (21, 13): HM01 Cut reward.
 
 ## Party Status
 - **Calcifer (QUILAVA)** Lv22: Lead.
