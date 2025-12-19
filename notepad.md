@@ -19,11 +19,10 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Inside. Spoke to Guide.
+        - **Status:** Battling Sage Ping (1/4 Trainers?).
+        - **Strategy:** Muscle (Machop) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
-        - **Plan:** Navigate safe FLOOR tiles to reach trainers.
-        - **Target:** Sage Ping (first trainer) at (3, 13).
-        - **Path:** Approach via column 5 to avoid potential warp at (4, 14).
+        - **Path:** Navigate safe FLOOR tiles. Next target: Granny?
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
