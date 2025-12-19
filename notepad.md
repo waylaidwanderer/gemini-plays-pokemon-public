@@ -42,10 +42,11 @@
 - Youngster Samuel (Route 34): Rattata (Lv 10), Spearow (Lv 12)
 
 # Strategy: Route 35 & Goldenrod
-1. Clear all trainers on Route 35 for EXP and money.
-2. Find a path around the fence to reach the north side and the items.
-3. Head to Goldenrod Gym to challenge Whitney once prepared.
-4. Rename EGG at the Name Rater in Goldenrod.
+- **Bypass Route 35 Fence**: Navigate to (4, 18) or (5, 18) to move north of the fence line.
+- **Access East Side of Route 35**: Traverse through gaps in the column 12 wall at (12, 16) or (12, 17).
+- **Retrieve Poke Ball (13, 16)**: Use the gap at (12, 16) to enter the enclosed area.
+- **Gym Challenge**: Prepare for Whitney's Normal-type Gym in Goldenrod.
+- **Rename Cleffa**: Visit the Name Rater in Goldenrod to change the name "EGG".
 
 # Lessons Learned
 - **Type Matchups**: Fire is neutral to Ground (Sandshrew, Diglett). Special moves like Ember are effective against Sandshrew due to its low Special Defense, even if neutral.
