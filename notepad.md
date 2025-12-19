@@ -22,10 +22,10 @@
         - **Status:** Battling Morty (Rematch).
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **Current Pokemon:** Muscle (Machoke Lv 31, 53/102 HP).
-        - **Condition:** Cursed, Trapped (Mean Look).
-        - **CRITICAL ISSUE:** Muscle is Level 31. Hive Badge limit is 30. **Muscle is disobeying!**
-        - **Strategy:** Heal Muscle with Super Potion to survive Curse/Attacks. Hope for an obedient Dig.
-        - **Backup:** Garnet (Lv 27).
+        - **Condition:** Cursed, Trapped (Mean Look), Disobeying (Lv > 30).
+        - **Action:** Selecting Super Potion to heal Muscle.
+        - **Strategy:** Heal -> Hope for obedience on Dig.
+        - **Backup:** Garnet (Lv 27) (but can't switch).
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
