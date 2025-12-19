@@ -24,11 +24,11 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - Met Eusine & Morty. They are investigating the Legendary Beasts (Suicune, Entei, Raikou).
-        - Morty is busy.
-        - **Hazards:** Floor has holes (Warps) that likely drop to B1F.
-        - **Objective:** Find the Rival? Explore without falling yet.
-    - **Objective:** Defeat Rival (if he appears). Then explore B1F.
+        - **Eusine (Super Nerd):** Looking for Suicune.
+        - **Morty:** Investigating Legendary Beasts.
+        - **Hazards:** Floor has holes (Warps) to B1F.
+        - **Objective:** Find Rival (likely North).
+    - **Objective:** Explore North part of Ground Floor.
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
