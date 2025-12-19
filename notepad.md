@@ -13,10 +13,9 @@
   - Row 31: (23, 31) to (29, 31)
 - **Verified Clean Tiles**: Row 23, Row 24.
 
-## Strategy: Current Capture
-- **Status**: Bird at (20, 24). Sprite faces LEFT. Game State says UP.
-- **Position**: Player at (21, 24) on clean ground, facing LEFT (behind the sprite).
-- **Action**: Interact from (21, 24) to catch.
+## Current Status
+- Bird last seen flying towards (17, 23).
+- Strategy: Approach from behind on clean ground (Row 23).
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
