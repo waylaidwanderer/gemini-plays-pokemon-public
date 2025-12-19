@@ -80,7 +80,7 @@
     - Use GNEISS (Geodude) to resist Normal/Rock moves.
     - Level GNEISS to Lv 18-20 before the battle.
     - Teach TM31 (Mud-Slap) to reduce Miltank's accuracy.
-- **Spearow Delivery**: Deliver KENYA to the guard's friend on Route 31. Combine with GNEISS training.
+- **Spearow Delivery**: Deliver KENYA to the guard's friend (a man with a Sleepy Pokémon) on Route 31. Combine with GNEISS training.
 
 ## Goldenrod City Strategy Plan
 - Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress, Turn 3901)
