@@ -20,14 +20,14 @@
   1. Talk to the boss in the Charcoal Kiln (8_2).
   2. Enter Ilex Forest (West Azalea, Warp at 2, 10 or 2, 11).
   3. Assist the apprentice with the runaway Farfetch'd.
-  4. Obtain HM01 (Cut).
+  4. Obtain HM01 (Cut) from the apprentice's boss.
   5. Retrieve Bellsprout from PC to teach Cut.
   6. Check Kurt (8_4) for the Fast Ball (Gave White Apricorn on Turn 2720).
 
 ## Strategy for Ilex Forest
 1. Enter Ilex Forest from the western gate of Azalea Town.
 2. Help the apprentice catch the Farfetch'd.
-3. Obtain HM01 (Cut) from the apprentice's boss.
+3. Obtain HM01 (Cut).
 4. Teach Cut to Bellsprout (currently in PC).
 5. Clear the tree blocking Route 34.
 
