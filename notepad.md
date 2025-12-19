@@ -13,26 +13,17 @@
 - Rocker NPC at (15, 14).
 - Item: X Attack at (9, 17) (Picked up Turn 3262).
 
-# Strategy: HM Cut
-- **Goal**: Reach Goldenrod City.
-- **How**: Use KIMCHI's CUT to clear the tree at (8, 25) in Ilex Forest. (Tree cleared Turn 3246).
-- **Recruitment**: KIMCHI (Oddish) caught in Ilex Forest, now in party slot 6. Learned CUT (Turn 3233).
+# Strategy: Ilex Forest Exploration
+- **Goal**: Reach Goldenrod City via the northern exit of Ilex Forest.
+- **Progress**: TM02 Headbutt obtained from the Rocker at (15, 14) (Turn 3298).
+- **Plan**: Teach TM02 Headbutt to Calcifer to enable tree-shaking interactions. Note that HEADBUTT_TREE tiles remain impassable.
+- Navigation to Northern Exit started at Turn 3266. Resuming from (22, 8).
 
 ## Lessons Learned
 - **Menu Loops**: Turn 3169-3217. Always verify screen text before executing button sequences.
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability from wild battles.
-- **Tool Hygiene**: Ensure navigation tools account for all impassable tile types, including HEADBUTT_TREE.
-- Navigation to Northern Exit started at Turn 3266.
+- **Tool Hygiene**: Refined find_path_v4 and explore_unseen_v1 to treat 'unseen' tiles as impassable. Added HEADBUTT_TREE and WATER to collision checks.
 - Encountered and defeated a wild Psyduck at (29, 5) (Turn 3288). gained 80 EXP.
-- Resuming path to Rocker NPC at (15, 14). Target interaction tile: (15, 15).
 - Item: Antidote at (17, 7) (Picked up Turn 3280).
 - Item: Ether at (27, 1) (Picked up Turn 3284).
-
-# Strategy: Reach Rocker NPC
-- **Objective**: Talk to the Rocker at (15, 14) to potentially learn Headbutt.
-- **Path**: Navigate to (23, 14) and move South into the central unseen area (Rows 15-16).
-- **Progress**: Currently at (29, 11). Exploring the unseen path at (23, 15).
-- Talked to Rocker at (15, 14). Received TM02 Headbutt. (Turn 3298).
-- Headbutt can be used on `HEADBUTT_TREE` tiles to encounter sleeping Pokémon.
-- Navigation to Northern Exit (Route 34) resuming. Target: North-west corner of forest.
