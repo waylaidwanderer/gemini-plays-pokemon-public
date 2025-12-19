@@ -13,9 +13,11 @@
 # Area Knowledge
 ## Route 35
 - Goldenrod Gate at (9, 33) and (10, 33).
-- Mystery Warp at (3, 5).
+- Mystery Warp at (3, 5) leads to National Park.
 - Wall at Column 12: Gaps are at (12, 8), (12, 9), (12, 16), and (12, 17).
 - Fence at Row 18: Blocks central path. Bypass via Column 4 or 5 (West side).
+- Item Corridor (Column 13): Reachable via gap at (12, 16) or from Row 26.
+- Collected: TM04 (Rollout) at (13, 16).
 
 # Trainer Roster
 - Picnicker Kim: Vulpix (Lv 15)
@@ -25,20 +27,15 @@
 - Juggler Irwin: Voltorb (Lv 2, 6, 10, 14)
 - Firebreather Walt: Magmar (Lv 11, 13)
 - Bug Catcher Arnie: Venonat (Lv 15)
+- Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv ?)
 
-# Strategy: Route 35 & Goldenrod
-- **Bypass Route 35 Fence**: Navigate west to column 4 or 5 and move north to Row 18.
-- **Access Item Corridor (Column 13)**:
-    1. From the East Side (Column 16), move south to Row 26.
-    2. Move west from (16, 26) through (15, 26) and (14, 26) to (13, 26).
-    3. Move north from (13, 26) to (13, 16) to reach the Poke Ball.
-- **Goldenrod City Objectives**:
-    1. Locate the Name Rater to rename EGG.
-    2. Challenge Whitney (Normal Gym). Level 20+ recommended.
-- **Trainer Cleanup**: Defeat Youngster at (14, 28).
+# Strategy: Goldenrod City
+- **Rename Cleffa**: Visit the Name Rater in Goldenrod to change the name "EGG".
+- **Gym Challenge**: Prepare for Whitney's Normal-type Gym (Level 20+).
+- **Radio Tower**: Obtain the Radio Card promotion.
+- **Spearow Delivery**: Deliver KENYA to Route 31 friend.
 
 # History
 - Odd Egg hatched into Cleffa (EGG) Lv 5 (Turn 3527).
 - Obtained Zephyr and Hive Badges.
 - Received HM01 Cut.
-- Bird Keeper Bryan (Route 35): Pidgey (Lv 12) (Note: Sprite is YOUNGSTER, ID 5)
