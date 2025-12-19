@@ -1,10 +1,10 @@
 # Ilex Forest & Azalea Town
 ## HM User Recruitment
 - Ekans cannot learn CUT.
-- Plan: Catch a Paras or Oddish (Kimchi caught, in PC).
+- Plan: Catch a Paras or Oddish (Kimchi caught, in party).
 - Catch Strategy: Weaken with lower-level PKMN.
-- Status: Rocky fainted to Absorb (4x weak). Kimchi is in PC Box 1.
-- Immediate Plan: Heal at Center, deposit Rocky, withdraw Kimchi, teach HM01 CUT.
+- Status: Rocky fainted to Absorb (4x weak). Kimchi is in the party, slot 6.
+- Immediate Plan: Teach KIMCHI HM01 CUT, then clear the forest path at (8, 25).
 
 ## Type Effectiveness Chart
 - **Grass**:
@@ -31,4 +31,4 @@
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead.
-- Team: ROCKY (ONIX) [FNT], GNEISS (GEODUDE), ICARUS (PIDGEY), EGG (TOGEPI), APOPHIS (EKANS).
+- Team: GNEISS (GEODUDE), ICARUS (PIDGEY), EGG (TOGEPI), APOPHIS (EKANS), KIMCHI (ODDISH).
