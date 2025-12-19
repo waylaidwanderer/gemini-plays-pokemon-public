@@ -15,10 +15,10 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Turn 2719: Battling Rival Malice. Calcifer at 40/60 HP. Croconaw accuracy lowered twice. Using Smokescreen again to maximize survival.
+- Turn 2721: Battling Rival Malice at Azalea Town exit.
 
 ## Party Status
-- Calcifer (QUILAVA) Lv21: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
+- Calcifer (QUILAVA) Lv21 (23/60 HP): QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
 - GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK THROW.
 - ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
 - ROCKY (ONIX) Lv6: TACKLE, SCREECH.
@@ -28,15 +28,13 @@
 ## Trainer Rosters (Johto)
 - Rocket Grunts (Slowpoke Well): All defeated.
 - Azalea Gym Trainers: All defeated.
-- Gym Leader Bugsy: Defeated (Metapod Lv14, Scyther Lv16, Kakuna Lv14).
-- Rival Malice (Azalea): Gastly (Lv12) - Defeated, Zubat (Lv?), Croconaw (Lv16) - Battling.
+- Gym Leader Bugsy: Defeated.
+- Rival Malice (Azalea): Gastly (Lv12) - Defeated, Croconaw (Lv16) - Battling.
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
 - Kurt (3, 2): Makes custom Balls from Apricorns (takes 1 day).
 
 ## Learned Mechanics
-- Type Effectiveness: Bug is weak to Fire, Flying, and Rock.
-- NPCs: Use `stun_npc` if they block paths.
 - Menus: Decline switches carefully (YES is default).
 - HM Use: Hive Badge allows use of Cut outside battle.
