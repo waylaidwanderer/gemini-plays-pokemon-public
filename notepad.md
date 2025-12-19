@@ -17,10 +17,10 @@
 ## Current Status
 - Bird is at (15, 29). Facing: RIGHT.
 - Target: (14, 29) (Behind).
-- Approach: Long-range flank to avoid noisy tiles.
-  1. Move to (3, 42) (Entrance) via Row 24 (Clean).
-  2. Explore western path (Column 1) to find a way to (14, 29).
-- Reason: The bird is facing RIGHT, so its back is at (14, 29). Approaching from the North or East is too noisy. I need to find a way into the western pocket.
+- Approach: Walk straight up Column 14. 
+- Path: (14, 35) -> (14, 29).
+- Note: (14, 28) is noisy, so do NOT overshoot. (14, 29) is safe.
+- Reason: Avoids all noisy tiles. Direct path to its back.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
