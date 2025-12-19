@@ -11,9 +11,8 @@
   - Row 26: (14, 26), (15, 26)
   - Row 28: (14, 28) to (18, 28)
   - Row 29: (17, 29), (18, 29)
-- Row 30: (14, 30) is noisy. (15, 30) is clean.
-- Row 31: (23, 31) to (29, 31) are noisy. (14, 31) and (15, 31) are clean.
-- **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
+  - Row 31: (23, 31) to (29, 31)
+- **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30, Row 34.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
@@ -23,17 +22,16 @@
 - **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
 - **LEDGE**: One-way traversal (down, left, or right).
 
-## Locations & Progress
-- **Charcoal Kiln**: Azalea (21, 13). Reward: Cut.
-- **Badges**: Zephyr, Hive.
+## Strategy: Catching Bird at (15, 25) [Facing RIGHT]
+- **Current Facing**: RIGHT. Back is at (14, 25) (Tree).
+- **Goal**: Make it face SOUTH, then catch from (15, 24).
+- **Steps**:
+  1. Move to (15, 28) [Noisy]. Bird turns to face DOWN.
+  2. Retreat silently via Row 34 passage.
+  3. Loop around to (22, 22) ledge.
+  4. Reach (15, 24) and interact facing DOWN.
+- **Reason**: (15, 24) is the only accessible success tile if the bird faces SOUTH.
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
-## Strategy: Catching Bird at (15, 25) [Facing DOWN]
-- **Problem**: (15, 24) is a pocket blocked by walls and the bird itself.
-- **Plan**: Startle it from the front (15, 26) to make it fly to a better location.
-- **Steps**:
-  1. RUN from battle.
-  2. Walk to (15, 26).
-  3. Interact (A) to startle.
