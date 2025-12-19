@@ -3,11 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
 - **Immediate Steps:**
-    1. Heal at Ecruteak Center (Done).
-    2. Access PC (Sentret Missing).
-    3. Buy Pokeballs at Mart (Done).
-    4. Catch Poliwag (Lapis) in Ecruteak City ponds (Done).
-    5. Head West to Route 38.
+    1. Travel West through Route 38 to Route 39.
+    2. Switch-train Lapis (Lead with Lapis, switch to Muscle/Garnet).
+    3. Reach Olivine City.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
