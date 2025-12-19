@@ -30,9 +30,6 @@
 ## Goldenrod City
 - **Scripted Event**: Cleffa (EGG) hatched from the Odd Egg cannot be renamed by the Name Rater.
 - Bill's House: Located at (5, 25). Bill's mom says Bill is at the Ecruteak Pokemon Center. Her husband (Bill's father) is at the Game Corner.
-
-# Radio Tower 1F Map Transitions
-- RadioTower1F (2, 7) <-> GoldenrodCity (5, 15).
 - Pokemon Center: 
     - Lass: Advises that high levels aren't everything; type matchups are key.
     - Pokefan F: Wants an EON MAIL for her daughter.
@@ -102,8 +99,10 @@
 ## Radio Tower 2F Map Transitions
 - RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
 - Stairs to 3F at (0, 0) in RadioTower2F (Blocked by guard).
+
 ## GNEISS Training Strategy (Whitney Prep)
 - **Moveset**: Teach TM04 (Rollout). It's a powerful STAB move that can sweep.
 - **Held Item**: Equip HARD STONE to boost Rock-type move power.
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
+- **Time Tracking**: Started training at Turn 3932.
