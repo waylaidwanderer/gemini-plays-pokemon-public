@@ -106,4 +106,15 @@
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
 - **Time Tracking**: Started training at Turn 3932.
-- Attempted to teach TM04 (Rollout) to GNEISS, but tool failed and used Sweet Scent instead (Turn 3937). Rollout NOT yet taught.
+- Taught TM04 (Rollout) to GNEISS (Turn 3948). Rollout is in the 4th move slot.
+- **Hypothesis Testing (Navigation)**:
+    - *Hypothesis*: The tile (11, 18) is a WALL/FENCE and cannot be passed North. (Confirmed at Turn 3941)
+    - *Hypothesis*: The Super Nerd at (5, 10) is a static obstacle. (Confirmed at Turn 3944)
+- **General Lesson**: When navigation fails, analyze surrounding tiles for a detour. Paths are often wider than one tile. (Recorded Turn 3948)
+- **Reflection (Turn 3948)**:
+    - Immediate Execution: Checked for deferred tasks. None found.
+    - Notepad Hygiene: Added lessons and Rollout confirmation.
+    - Map Hygiene: Markers are up-to-date.
+    - Automation: `use_tm_v2_refined` underperformed due to menu state; will use `press_sequence` for precision if needed, but the tool is generally sound.
+    - Goal Clarity: Goals are outcome-focused.
+    - Error Analysis: The failed tool use was due to a menu cursor mismatch. Resetting to POKEDEX is a critical step for menu tools.
