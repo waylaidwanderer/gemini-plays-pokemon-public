@@ -35,7 +35,7 @@
 - Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
 - Camper Elliot (Route 35): Sandshrew (Lv 13), Marill (Lv 15)
 - Camper Ivan (Route 35): Diglett (Lv 10), Diglett (Lv 14), Zubat (Lv 10)
-- Juggler Irwin (Route 35): Voltorb (Lv 2)
+- Juggler Irwin (Route 35): Voltorb (Lv 2), Voltorb (Lv 6), Voltorb (Lv ?), Voltorb (Lv ?)
 - Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Picnicker Brooke (Route 35): Pikachu (Lv 16)
 - Youngster Samuel (Route 34): Rattata (Lv 10), Spearow (Lv 12)
