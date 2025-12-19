@@ -3,10 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Party Management:** Swap Kenya (Spearow) for Belladonna (Oddish) at Goldenrod PC.
-    2. **Train to Lv 20:** Grind on Route 35.
+    1. **Train to Lv 20:** Grind on Route 35.
        - *Method:* Wild Encounters (Muscle as Lead).
-    3. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
+    2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
