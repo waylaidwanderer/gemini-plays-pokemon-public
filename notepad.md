@@ -43,3 +43,8 @@
 # Area Knowledge
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
 - Flower Shop: Located north of the Gym in Goldenrod City. Teacher NPC at (2, 4).
+
+# Psychic Mark Battle Log (Turn 4308)
+- Opponent Lead: Abra (Lv 13).
+- My Lead: GNEISS (Geodude) Lv 22.
+- Plan: Use MAGNITUDE. Abra likely only knows Teleport.
