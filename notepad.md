@@ -48,3 +48,6 @@
 - **NPC Collision**: Defeated trainers (and others) are solid objects.
 - Odd Egg status: Cleffa named "EGG". (Checking if hatched - Turn 3474).
 - Turn Mismatch: Turn 3463 and 3474 reported mismatches. Verification required.
+- Lesson: Always verify the current turn number from Game State before reporting it in `press_buttons` to avoid mismatches. (Turns 3463, 3474).
+- Lesson: Close all dialogue/menus before attempting directional movement. (Turn 3456).
+- Goldenrod: Door at (14, 21) is near the Game Corner sign. Likely the entrance.
