@@ -38,3 +38,5 @@
 - **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
 - Defeated Pokefan Brandon at (18, 28) on Route 34. Opponent: Snubbull (Lv 13). (Turn 3393)
 - Defeated Youngster Ian at (11, 21) on Route 34. Opponents: Mankey (Lv 10), Diglett (Lv 12). (Turn 3409)
+- Day-Care Man (Gramps) at (2, 3) offered an EGG, but party was full (6/6). (Turn 3415)
+- Strategy: Leave a Pokémon with Day-Care Lady (Granny) at (5, 3) to free up a slot, then collect the Egg. (Turn 3416)
