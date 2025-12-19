@@ -108,3 +108,12 @@
 - **Time Tracking**: Started training at Turn 3932.
 - **Stagnation recognized**: Menu navigation for TM04/Hard Stone has failed repeatedly due to persistent cursor positions.
 - **Strategy Shift**: All menu navigation now includes a robust reset sequence (multiple 'Up' presses to guarantee starting at POKEDEX). This ensures reliable access to the PACK and other menus regardless of previous state.
+
+# Menu Mechanics
+- **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT. This means `Up*8` does not reset the cursor to a fixed position; it returns it to the starting point.
+- **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
+- **Current Start Menu Cursor**: Last seen on SAVE (index 5) at Turn 3964.
+- **Current Pack Cursor**: Last seen on CUT (HM01) in the TM pocket at Turn 3964.
+
+## GNEISS (Geodude) Info
+- **Held Item**: BERRY (Needs to be swapped for HARD STONE).
