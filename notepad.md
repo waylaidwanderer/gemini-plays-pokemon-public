@@ -24,15 +24,14 @@
 - **Wild Battles**: Run from low-level encounters (Metapod, Weedle) to conserve HP/PP.
 - **Trainer Battles**: Lead with Calcifer (Quilava). Switch to Gneiss (Geodude) for Rock-type coverage if needed.
 
-## Plan
-1. Approach Farfetch'd at (22, 31) from South at (22, 32) (Behind).
-2. Observe if it turns or if it can be caught.
-3. If it flies, track next position.
+## Current Status
+- Bird Position: (22, 31).
+- Bird Facing: LEFT (Verified T2900).
+- Target Position: (23, 31) (Behind).
 
-## Key Locations
-- **Apprentice**: (7, 28).
-- **Charcoal Kiln**: Azalea Town (21, 13).
-
-## Party Status
-- **Calcifer (QUILAVA) Lv22**: Lead.
-- **Team**: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
+## Tile Mechanics
+- FLOOR: Passable. Standard terrain.
+- WALL / DENSE_TREES: Impassable.
+- HEADBUTT_TREE: Impassable (Verified at 28, 24 and 22, 34).
+- CUT_TREE: Impassable. Requires HM01 Cut.
+- LEDGE_HOP: One-way traversal in the direction of the ledge.
