@@ -24,9 +24,11 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** Battling Rival Silver. Muscle vs Croconaw (Def lowered).
-        - **Layout:** Found overland route to Rival via column 9 -> row 5 -> column 12.
+        - **Status:** Defeated Rival Silver. Falling to B1F.
+        - **Layout:** Overland route confirmed.
         - **Hazards:** Floor has holes (Warps) to B1F.
+        - **Next:** Explore B1F. Locate Legendary Beasts.
+        - **Party Status:** Muscle & Rocky Critical. **HEAL ASAP.**
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
