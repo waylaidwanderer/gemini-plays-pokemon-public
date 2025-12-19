@@ -1,23 +1,30 @@
 # Ilex Forest Quest: Runaway Farfetch'd
 *Started Turn 2803*
 
-## Goal: Catch the bird to obtain HM01 (Cut).
-
 ## Success Condition
 Interact from the tile directly behind the bird's facing direction.
 
-## Current Status (Turn 3083)
+## Current Status (Turn 3086)
 - **Bird Position**: (15, 29).
-- **Bird Facing**: UP.
-- **Player Position**: (9, 34) [In Battle].
-- **Plan**: Reach (15, 30) (Behind) silently.
-- **Silent Path**: Approach from the south via Row 34/35. (15, 31) and (14, 31) are clean.
-- **Noisy Barriers**: Avoid Row 28 (14-18), Row 29 (17-18), Row 30 (14), Row 31 (23-29).
+- **Bird Facing**: LEFT.
+- **Player Position**: (14, 33).
+- **Plan**: Make bird face UP, then catch from (15, 30).
+- **Steps**:
+  1. Step on (15, 28) [Noisy] to make it face UP.
+  2. Retreat to (14, 34) via Row 27 and western corridor.
+  3. Reach (15, 30) via (14, 31) -> (15, 31).
+  4. Interact from (15, 30) facing UP.
+- **Reason**: (15, 31) and (15, 30) are clean. Approach from (14, 30) is noisy.
 
-## Puzzle Mechanics
-- **Success Condition**: Interact from the tile directly behind the bird's facing direction.
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away.
-- **Twig Logic**: Tiles with dark specs are noisy. Stepping on them makes the bird turn to face the player.
+## Verified Tile Data
+- Noisy (Bird faces player):
+  - Row 24: (20, 24)-(25, 24)
+  - Row 26: (14, 26), (15, 26)
+  - Row 28: (14, 28)-(18, 28)
+  - Row 29: (17, 29), (18, 29)
+  - Row 30: (14, 30)
+  - Row 31: (23, 31)-(29, 31)
+- Clean (Silent): Row 22, 23, 25, 27, 29 (except 17, 18), 30 (except 14), 31 (except 23-29), 34, 35.
 
 ## Tile Mechanics (Global)
 - **FLOOR**: Passable. Clean ground.
@@ -26,8 +33,3 @@ Interact from the tile directly behind the bird's facing direction.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
 - **LEDGE**: Passable (One-way: Down, Left, or Right).
-
-## Strategy: General
-- Avoid twigs when approaching from behind.
-- Use twigs strategically to change the bird's facing.
-- If stuck, move the bird to a new area by startling it.
