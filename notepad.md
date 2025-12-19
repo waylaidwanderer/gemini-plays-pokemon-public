@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Finish dialogue. If battle, win. If not, head South to Stairs at (16, 11).
-- **Notes:** Gentleman says "This is no place for playing."
+- **Navigation:** Switch to Garnet to defeat Gentleman Alfred's Noctowl.
+- **Battle Strategy:** Muscle -> Garnet (Fire vs Flying/Normal).
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Party Status
