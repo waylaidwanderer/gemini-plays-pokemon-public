@@ -6,7 +6,7 @@
   - Startle: Interacting (A button) makes it fly ~6 tiles away from the player along the forest path.
   - Noisy Tiles (Twigs): Stepping on these makes the bird turn to face the player.
   - Twig Locations: Row 31 (X=23 to 29) verified. Row 23 (X=15 to 21) likely clean.
-- **Current Search**: Bird last seen at (29, 22). 
+- **Current Status**: Bird at (29, 22), Facing: RIGHT. Player at (28, 22). Interaction from behind (Attempt 8). ground is clean.
 
 ## Strategy: Catching the Bird
 - **Problem**: Twig tiles prevent "behind" approach.
