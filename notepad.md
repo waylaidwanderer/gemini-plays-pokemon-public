@@ -26,12 +26,12 @@
     - **Burned Tower:**
         - **Status:** Exploring Ground Floor.
         - **Layout:**
-            - **South:** Entry, Eusine, Morty (blocking way?).
-            - **West:** Narrow corridor (x=4) connects South to North (Row 1).
-            - **North (Row 1):** Currently exploring. Checks if it connects down to Rival (8,9).
-            - **East:** Blocked by Rock (Smash).
+            - **South:** Entry, Eusine, Morty.
+            - **West:** Narrow corridor (x=4) blocked or tricky.
+            - **North (Row 1):** Connected to central area via column 9?
+            - **New Route Idea:** From (10, 3), go Left -> Down Column 9 -> Right Row 5 -> Down Column 12 -> Left Row 9 -> Rival.
         - **Hazards:** Floor has holes (Warps) to B1F.
-        - **Hypothesis:** If Row 1 doesn't connect to Rival, must fall through a specific hole to reach B1F, then ladder up to Rival's area.
+        - **Hypothesis:** This winding path avoids the holes and connects the isolated sections.
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
