@@ -43,3 +43,5 @@
 - Route 36: TM08 (Rock Smash) from Fisher at (44, 9). (Turn #4607)
 - Route 31: TM50 (Nightmare) from Fisher at (17, 7). (Turn #4645)
 - Route 31: POKé BALL at (19, 15). (Turn #4648)
+- Interaction Rule: You must be directly facing an NPC or object to interact. Stand adjacent and face the target tile. For counters, face the counter tile. (Lesson from Turn #4634)
+- Pathfinding Rule: Paths in 2D top-down games are often wider than a single tile. Analyze adjacent tiles (up, down, left, right) to find ways around obstacles. (Lesson from Turn #4603)
