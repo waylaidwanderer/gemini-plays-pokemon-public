@@ -3,13 +3,13 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Finish Gentleman Alfred's Noctowl with Garnet (Ember).
-- **Battle Strategy:** Use Ember (Slot 4). Cursor is on Ember (Slot 4).
+- **Navigation:** Ascend the stairs at (16, 11)/(17, 11) to reaching 3F.
+- **Battle Strategy:** Standard. Muscle/Garnet.
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Lighthouse Progress
 - **1F:** Explored. Lore obtained from Pokefan. Staircase at (16, 13).
-- **2F:** Currently fighting Gentleman Alfred. Found pit at (16, 13) and stairs up at (16, 11).
+- **2F:** Defeated Gentleman Alfred. Found pits at (16, 13)/(17, 13) and stairs up at (16, 11)/(17, 11).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
