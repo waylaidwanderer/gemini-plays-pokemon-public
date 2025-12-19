@@ -5,7 +5,7 @@
 
 ## Puzzle Mechanics
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction.
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away.
+- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles along the forest path away from the player.
 - **Twig Logic**: Tiles with dark specs are noisy. Stepping on them makes the bird turn to face the player.
 - **Noisy Tiles (Specs)**: 
   - Row 26: (14, 26), (15, 26)
@@ -14,13 +14,13 @@
 - **Verified Clean Tiles**: Row 23, Row 24.
 
 ## Strategy: Current Capture
-- **Status**: Bird at (20, 24) facing LEFT. Player at (21, 24) on clean ground.
-- **Plan**: Turn LEFT to face bird, then interact from behind to catch.
-- **Verification**: Row 24 is clean (no twigs). This prevents the bird from turning to face the player.
+- **Status**: Bird at (20, 24). Sprite faces LEFT. Game State says UP.
+- **Position**: Player at (21, 24) on clean ground, facing LEFT (behind the sprite).
+- **Action**: Interact from (21, 24) to catch.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
-- **TWIGS**: Noisy ground (specs). Alerts bird.
+- **TWIGS**: Noisy floor (specs). Alerts bird.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
