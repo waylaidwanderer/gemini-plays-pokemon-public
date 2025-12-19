@@ -51,3 +51,4 @@
 - Head North through Route 37 to reach Ecruteak City.
 - Train low-level party members (FRITTATA, KIMCHI, EGG) during wild encounters if safe.
 - Monitor phone calls for rare sightings (Yanma, Ditto).
+- Violet City Navigation: To reach the north/west exit from the south, move to (27, 23) to bypass the ledges at y=23. Note: The pathfinding tool might attempt to walk up ledges, which is impossible.
