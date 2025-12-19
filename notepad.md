@@ -26,8 +26,9 @@
     - **Burned Tower:**
         - **Eusine (Super Nerd):** Looking for Suicune.
         - **Morty:** Investigating Legendary Beasts.
-        - **Hazards:** Floor has holes (Warps) to B1F.
-        - **Plan:** Route via East corridor to check for North wrap-around.
+        - **Hazards:** Floor has holes (Warps) to B1F. (15, 15) seems safe to walk on for now?
+        - **East Side:** Dead end with Rock (needs Smash) and Item Ball.
+        - **Plan:** Return to West Side and navigate the narrow path (4, 12 -> 4, 11 -> 3, 11 -> North) to find Rival.
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
