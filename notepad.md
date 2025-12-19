@@ -1,11 +1,22 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Earn Fog Badge (Ecruteak Gym).
+- **Primary Goal:** Reach Olivine City (West via Route 38).
 - **Immediate Steps:**
-    1. Find Ecruteak Mart.
-    2. Buy Super Potions and Awakenings.
-    3. Rematch Morty (Lead: Muscle).
+    1. Heal at Ecruteak Center (In Progress).
+    2. Access PC:
+       - Find Sentret (Box 2+?) for Surf.
+       - Withdraw stored items.
+    3. Buy Pokeballs at Mart.
+    4. Head West to Route 38.
+
+## Party Status
+- **Muscle (Machoke):** Lv 31. Needs healing.
+- **Garnet (Quilava):** Lv 28. Needs healing.
+- **Others:** Low levels/Utility.
+
+## Completed:** 
+- **Ecruteak Gym:** Defeated Morty. Fog Badge + TM30 obtained.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive, Plain (3/8).
