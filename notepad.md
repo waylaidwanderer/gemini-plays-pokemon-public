@@ -82,3 +82,4 @@
 - Lass in Goldenrod Pokecenter: Advises that high levels aren't everything and type matchups are important. (Turn 3808)
 - Pokefan F in Goldenrod Pokecenter: Wants an EON MAIL for her daughter. (Turn 3810)
 - Gameboy Kid in Goldenrod Pokecenter: Mentions the Colosseum upstairs is for link battles. (Turn 3814)
+- Time Capsule in Goldenrod Pokecenter: Currently "being adjusted" and unavailable. (Turn 3825)
