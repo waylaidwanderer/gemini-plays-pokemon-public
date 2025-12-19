@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore the southern corridor to the East (towards x=10+) on 3F.
+- **Navigation:** Explore the area North of (15, 11) on the East side of 3F.
 - **Battle Strategy:** Rocky leads. Good against Normal/Flying.
 - **Current Location:** Olivine Lighthouse 3F.
 
