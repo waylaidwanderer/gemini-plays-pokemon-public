@@ -15,9 +15,13 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Turn 2756: Defeated Rival Malice. Calcifer reached Level 22.
+- Turn 2757: Defeated Rival Malice. Calcifer reached Level 22.
 - Current Task: Heal at Pokemon Center, then finish exploring Azalea Town.
-- Post-Battle: Explore unseen tiles (31, 0) to (39, 2) and verify Rocket Grunt at (31, 9) is gone. Also explore (24, 15) near the Gym. Use explore_unseen_v1.
+- Post-Battle Plan: 
+  - Explore unseen tiles (31, 0) to (39, 2).
+  - Verify Rocket Grunt at (31, 9) is gone.
+  - Explore (24, 15) near the Gym.
+  - Check Kurt (3, 2) for the ball.
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22 (43/63 HP): QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
@@ -40,6 +44,7 @@
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
 - HM Use: Hive Badge allows use of Cut outside battle.
+
 ## Inventory Order (Items Pocket)
 1. BERRY
 2. PSNCUREBERRY
