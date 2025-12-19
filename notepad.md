@@ -39,10 +39,6 @@
   - Use Magnitude to burst through Milk Drink.
 - **Battle Status:** Whitney Defeated.
 
-# Flower Shop
-- Location: Goldenrod City, north of the Gym.
-- Objective: Obtain the SQUIRTBOTTLE to clear the weird tree on Route 36.
-
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
 - Bug Catcher Arnie at (16, 8) on Route 35: Venonat. Defeated.
