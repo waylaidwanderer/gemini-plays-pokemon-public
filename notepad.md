@@ -33,6 +33,7 @@
 # Trainer Roster
 - Pokefan Brandon (Route 34): Snubbull (Lv 13)
 - Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
+- Camper Elliot (Route 35): Sandshrew (Lv 13), Marill (Lv 15)
 - Camper Ivan (Route 35): Diglett (Lv 10), Diglett (Lv 14), Zubat (Lv 10)
 - Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Picnicker Brooke (Route 35): Pikachu (Lv 16)
