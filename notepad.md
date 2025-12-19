@@ -8,7 +8,8 @@
 - **Muscle (Machoke):** Lv 31. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
 - **Beauty Valerie:** Defeated.
-- **Lapis (Poliwag):** Lv 10. Low HP (11/28). Leading party.
+- **Lapis (Poliwag):** Lv 10. Low HP (11/28).
+- **Leading:** Muscle (Machoke).
 - **Others:** Low levels/Utility.
 
 ## Completed:** 
