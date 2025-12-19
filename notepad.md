@@ -23,9 +23,9 @@
         - **Strategy:** Muscle (Machoke) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
         - **Path:**
-            - **Current:** At (6, 9).
+            - **Current:** At (5, 9).
             - **Next Target:** Sage at (2, 7).
-            - **Route:** (6, 9) -> (3, 9) -> (3, 8) -> (3, 7).
+            - **Route:** (5, 9) -> (3, 9) -> (3, 8) -> (3, 7).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
