@@ -2,12 +2,13 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
+- **Navigation:** Detour East around the wall at (15, 11) to reach the Fruit Tree at (12, 10).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
 - **Beauty Valerie:** Defeated.
-- **Lapis (Poliwag):** Lv 10. Low HP (11/28). Needs healing or switch out.
+- **Lapis (Poliwag):** Lv 10. Low HP (11/28). Leading party.
 - **Others:** Low levels/Utility.
 
 ## Completed:** 
