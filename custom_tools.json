@@ -59,72 +59,6 @@
       }
     ]
   },
-  "use_item_v4": {
-    "description": "Uses an item from the PACK on a Pokémon. Assumes overworld. Parameters: item_index (0-indexed), pokemon_index (1-indexed), current_menu_index (0-indexed, POKEDEX=0, EXIT=7).",
-    "input_schema": {
-      "properties": {
-        "current_menu_index": {
-          "description": "0-indexed position of the current menu cursor",
-          "type": "integer"
-        },
-        "item_index": {
-          "description": "0-indexed position of the item in the current pocket",
-          "type": "integer"
-        },
-        "pokemon_index": {
-          "description": "1-indexed position of the Pokémon in the party",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "item_index",
-        "pokemon_index",
-        "current_menu_index"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\ndef get_btns(item_idx, pkmn_idx, cur_idx):\n    btns = [\"Start\", \"sleep 500\"]\n    # Target PACK is Index 2\n    diff = 2 - cur_idx\n    if diff > 0:\n        for _ in range(diff): btns.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)): btns.append(\"Up\")\n    btns.append(\"A\")\n    btns.append(\"sleep 500\")\n    # In Bag. Assumes Items pocket.\n    for _ in range(item_idx): btns.append(\"Down\")\n    btns.append(\"A\")\n    btns.extend([\"sleep 300\", \"A\", \"sleep 500\"])\n    # In Party menu. Cursor on Slot 1.\n    for _ in range(pkmn_idx - 1): btns.append(\"Down\")\n    btns.append(\"A\")\n    # Success text and close\n    btns.extend([\"sleep 1000\", \"B\", \"B\", \"B\"])\n    return btns\nprint(json.dumps(get_btns(int(input_data['item_index']), int(input_data['pokemon_index']), int(input_data['current_menu_index']))))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T20:55:45.730Z",
-        "action_counter": 2433
-      }
-    ]
-  },
-  "use_tm_v1": {
-    "description": "Uses a TM or HM from the PACK on a Pokémon. Assumes overworld. Parameters: tm_index (0-indexed position in the TM/HM pocket), pokemon_index (1-indexed position in the party), current_menu_index (0-indexed position of the menu cursor, POKEDEX=0, EXIT=7).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_menu_index": {
-          "description": "0-indexed position of the current menu cursor",
-          "type": "integer"
-        },
-        "pokemon_index": {
-          "description": "1-indexed position of the Pokémon in the party",
-          "type": "integer"
-        },
-        "tm_index": {
-          "description": "0-indexed position of the TM/HM in the pocket",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "tm_index",
-        "pokemon_index",
-        "current_menu_index"
-      ]
-    },
-    "python_script": "import json\n\ndef solve(input_data):\n    tm_index = int(input_data['tm_index'])\n    pokemon_index = int(input_data['pokemon_index'])\n    current_menu_index = int(input_data['current_menu_index'])\n\n    pack_offset = (2 - current_menu_index) % 8\n    pack_moves = [\"Down\"] * pack_offset\n    \n    buttons = [\"Start\", \"sleep 500\"] + pack_moves + [\"A\", \"sleep 500\", \"Right\", \"Right\", \"Right\", \"sleep 500\"]\n    buttons += [\"Down\"] * tm_index + [\"A\", \"sleep 300\", \"A\", \"sleep 500\"]\n    buttons += [\"Down\"] * (pokemon_index - 1) + [\"A\", \"sleep 1000\"]\n    \n    print(json.dumps(buttons))\n\nsolve(input_data)\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-19T05:36:03.583Z",
-        "action_counter": 3356
-      }
-    ]
-  },
   "find_path_v5_unseen_traversable": {
     "description": "Finds the shortest path to a target coordinate, correctly handling all collision types and treating 'unseen' tiles as traversable. Returns a list of button strings.",
     "input_schema": {
@@ -160,6 +94,72 @@
         "commit_message": "Fix player position detection by avoiding parent navigation in XML.",
         "timestamp": "2025-12-19T06:28:11.213Z",
         "action_counter": 3484
+      }
+    ]
+  },
+  "use_tm_v2_refined": {
+    "description": "Uses a TM or HM from the PACK on a Pokémon. Assumes overworld and that the Pokémon has fewer than 4 moves. Parameters: tm_index (0-indexed position in the TM/HM pocket), pokemon_index (1-indexed position in the party), current_menu_index (0-indexed position of the menu cursor, POKEDEX=0, EXIT=7).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "tm_index": {
+          "type": "integer",
+          "description": "0-indexed position of the TM/HM in the pocket"
+        },
+        "pokemon_index": {
+          "type": "integer",
+          "description": "1-indexed position of the Pokémon in the party"
+        },
+        "current_menu_index": {
+          "type": "integer",
+          "description": "0-indexed position of the current menu cursor (POKEDEX=0, EXIT=7)"
+        }
+      },
+      "required": [
+        "tm_index",
+        "pokemon_index",
+        "current_menu_index"
+      ]
+    },
+    "python_script": "\nimport json\n\ndef main():\n    tm_index = int(input_data['tm_index'])\n    pokemon_index = int(input_data['pokemon_index'])\n    current_menu_index = int(input_data['current_menu_index'])\n    \n    buttons = [\"Start\", \"sleep 500\"]\n    \n    # Navigate to Pack (index 2)\n    # Menu: 0:Pokedex, 1:Pokemon, 2:Pack, 3:Pokegear, 4:Player, 5:Save, 6:Option, 7:Exit\n    diff = 2 - current_menu_index\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Change pocket to TM/HM (Left from Items).\n    buttons.append(\"Left\")\n    buttons.append(\"sleep 500\")\n    \n    # Navigate to TM\n    for _ in range(tm_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select USE (top option)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select Pokemon\n    for _ in range(pokemon_index - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Clear dialogue (assuming <4 moves)\n    for _ in range(5):\n        buttons.append(\"A\")\n        buttons.append(\"sleep 500\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-19T10:55:52.584Z",
+        "action_counter": 3933
+      }
+    ]
+  },
+  "give_item_v1_refined": {
+    "description": "Gives an item from the PACK to a Pokémon. Assumes overworld. Parameters: item_index (0-indexed position in the current pocket), pokemon_index (1-indexed position in the party), current_menu_index (0-indexed position of the menu cursor, POKEDEX=0, EXIT=7).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_index": {
+          "type": "integer",
+          "description": "0-indexed position of the item in the current pocket"
+        },
+        "pokemon_index": {
+          "type": "integer",
+          "description": "1-indexed position of the Pokémon in the party"
+        },
+        "current_menu_index": {
+          "type": "integer",
+          "description": "0-indexed position of the current menu cursor (POKEDEX=0, EXIT=7)"
+        }
+      },
+      "required": [
+        "item_index",
+        "pokemon_index",
+        "current_menu_index"
+      ]
+    },
+    "python_script": "\nimport json\n\ndef main():\n    item_index = int(input_data['item_index'])\n    pokemon_index = int(input_data['pokemon_index'])\n    current_menu_index = int(input_data['current_menu_index'])\n    \n    buttons = [\"Start\", \"sleep 500\"]\n    \n    # Navigate to Pack (index 2)\n    diff = 2 - current_menu_index\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Navigate to Item\n    for _ in range(item_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select GIVE (2nd option)\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select Pokemon\n    for _ in range(pokemon_index - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Clear text\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-19T10:55:52.584Z",
+        "action_counter": 3933
       }
     ]
   }
