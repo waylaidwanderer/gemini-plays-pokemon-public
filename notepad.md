@@ -15,9 +15,9 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30.
 
 ## Current Status
-- Bird is at (20, 24). Facing: UP.
+- Bird is at (20, 24). Facing: RIGHT.
 - Target: Move it to a spot where I can get behind it.
-- Approach: Approach from (21, 24) to startle it. (21, 24) is clean.
+- Approach: Interact from (21, 24) to startle it. (21, 24) is clean.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
