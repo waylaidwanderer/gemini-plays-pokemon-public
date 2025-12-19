@@ -40,9 +40,10 @@
 
 # Strategy: National Park & Goldenrod Return
 - National Park Layout: The park is a large rectangle with a perimeter path behind the fence.
-- Current Goal: Retrieve item at (35, 12), then exit south to Route 35.
+- Current Goal: Exit National Park south to Route 35.
 - Exit: The southern gatehouse (Map 10_16) is the exit to Route 35.
 - Battle Policy: Use the battle_strategist agent for all trainer and significant wild encounters to optimize move choice and party management.
+- Note: Item ball at (35, 12) collected (Parlyz Heal).
 
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block.
