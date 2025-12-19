@@ -16,12 +16,13 @@
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Obstacle:** Whitney (Gym Leader).
-    - **Battle State:** Clefairy defeated. Miltank incoming.
+    - **Battle State:** Fighting Miltank (Lv20).
     - **Battle Plan:**
-        1. **Miltank:** Muscle (44/70 HP) stays in. Low Kick (80 BP due to weight + STAB + SE = Massive Damage).
-        2. **Backup:** If Muscle falls, Rocky (Onix) resists Normal/Rock.
-    - **Correction:** Low Kick is WEIGHT-BASED in Gen 2, not fixed 50 BP. Miltank is heavy -> 80 BP.
-    - **Status:** Muscle Lv22 (44/70 HP). Female Machop counters Attract.
+        1. **Miltank:** Muscle (44/70 HP) uses Low Kick.
+        2. **Backup:** Rocky (Onix) is the anchor. Resists Normal/Rock.
+    - **Correction:** Validated Gen 2 Mechanics: Low Kick is FIXED 50 BP. (Weight mechanics are Gen 3+).
+        - Calculation: 50 BP * 1.5 (STAB) * 2 (SE) = 150 Effective Power. Still very strong.
+    - **Status:** Muscle Lv22. Female Machop is immune to Attract.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
