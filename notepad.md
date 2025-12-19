@@ -12,7 +12,8 @@
 - **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE), Sunkern (HELIODOR), Spearow (KENYA - Gift).
 
 ## Quests & NPC Notes
-- **Webster (Guard):** At Route 35 Gate (0, 4). Gave KENYA (Spearow) with Mail to deliver to Route 31 (Dark Cave area).
+- **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
+- **Goldenrod Gym:** Layout is a Clefairy shape. Right side (East) seemed dead-ended. Exploring Left side (West/Column 0) to find path to center.
 - **Gameboy Kid:** National Park (26, 6).
 - **Peaceful Pokefan F:** National Park (14, 4).
 
