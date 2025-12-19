@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Explore the West side of Route 39 (Moomoo Farm?), then continue South.
-- **Immediate Goal:** Go West around Ruth to uncover unseen tiles.
+- **Navigation:** Challenge Pokefan (10, 22), then explore West.
+- **Battle Strategy:** Muscle in lead. Expect Normal/Electric/Fairy types.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
