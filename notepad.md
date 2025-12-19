@@ -23,3 +23,4 @@
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability from wild battles.
 - **Tool Hygiene**: Ensure navigation tools account for all impassable tile types, including HEADBUTT_TREE.
+- Navigation to Northern Exit started at Turn 3266.
