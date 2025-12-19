@@ -90,3 +90,4 @@
 ## NPCs
 - Cooltrainer F at (12, 16). (Turn 3851)
 - Youngster at (18, 17). (Turn 3851)
+- Pokefan M at (7, 18). (Turn 3852)
