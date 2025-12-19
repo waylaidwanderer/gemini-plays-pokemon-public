@@ -1,19 +1,15 @@
 # Gem's Johto Adventure
 
 ## Quest: Ilex Forest Farfetch'd
-- **Objective**: Catch the bird to get HM01 Cut.
 - **Apprentice Hint**: "Get behind it."
 - **Observed Behavior**:
-  - Startle: Interacting from any side makes it fly ~6 tiles.
-  - Turning: Bird turns to face the player if they approach from behind (Attempt 5 & 6).
-  - Twig Mechanic: Some tiles might be noisy (unverified).
-- **Interaction History**:
-  - T2867: North (28, 30) -> Bird (28, 31) South. Startled.
-  - T2878: West (23, 35) -> Bird (24, 35) Right. Startled.
-  - T2888: East (29, 31) -> Bird (28, 31) Left. Startled.
-  - T2892: East (23, 31) -> Bird (22, 31) Right. Startled.
-  - T2901: East (23, 31) -> Bird (22, 31) Left. Startled.
-  - T2905: East (25, 35) -> Bird (24, 35) UP. Startled.
+  - Startle: Interacting from front/side makes it fly ~6 tiles.
+  - Turning: Bird turns to face the player if they step on noisy tiles (twigs).
+  - Noisy Tiles: Verified to exist. Need to identify and avoid.
+- **Current Status**:
+  - Bird Position: (22, 31)
+  - Bird Facing: LEFT
+  - Target Tile: (23, 31) (Behind)
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
@@ -24,7 +20,7 @@
 
 ## Strategy & Lessons
 - Driving: Interact from the side opposite where you want it to go.
-- Catching: May require trapping it or a non-noisy approach.
+- Catching: Approach from behind while avoiding noisy tiles.
 - Battle: Run from low-level wild Pokemon.
 
 ## Important Locations
