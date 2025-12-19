@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Finish Sailor's dialogue. If no battle, move West to explore.
-- **Notes:** Sailor warns "It's not easy to climb".
-- **Current Location:** Olivine Lighthouse 1F (North Center).
+- **Navigation:** Explore West (x=4) to reveal unseen tiles, then head to Stairs (16, 13).
+- **Notes:** Sailor (8, 2) gives advice, no battle.
+- **Current Location:** Olivine Lighthouse 1F (North).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
