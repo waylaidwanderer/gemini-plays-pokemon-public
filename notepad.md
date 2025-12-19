@@ -39,16 +39,15 @@
 - HARD STONE: Held by GNEISS.
 
 # Strategy: National Park & Goldenrod Return
-- National Park Layout: The park is a large rectangle with a perimeter path behind the fence.
-- Current Goal: Exit National Park south to Route 35.
-- Exit: The southern gatehouse (Map 10_16) is the exit to Route 35.
+1. Exit National Park via southern gatehouse (Map 10_16) to Route 35.
+2. Travel south on Route 35 to Goldenrod City.
+3. Enter the Flower Shop (Map 11_2) and speak to the Teacher to receive the SQUIRTBOTTLE.
+4. Return to Route 36 and use the SQUIRTBOTTLE on the Sudowoodo.
 - Battle Policy: Use the battle_strategist agent for all trainer and significant wild encounters.
 - Note: Item ball at (35, 12) collected (Parlyz Heal).
 
 # Schoolboy Jack Battle Log (Turn 4384+)
-- Opponent 1: Oddish (Lv 12).
-- Turn 1: Switched GNEISS for Calcifer. Oddish used Absorb (not very effective).
-- Turn 2: Using EMBER. Oddish fainted. Calcifer grew to Lv 27.
+- Opponent 1: Oddish (Lv 12). Defeated by Calcifer.
 - Opponent 2: Voltorb.
 - Turn 3: Switching to GNEISS.
 
