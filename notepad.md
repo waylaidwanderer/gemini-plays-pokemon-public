@@ -2,12 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Defeat Rival Silver, then find Pokemon Center.
-- **Battle Strategy:**
-    - **Magnemite/Sneasel:** Muscle (Karate Chop/Dig).
-    - **Haunter:** Muscle (Dig).
-    - **Zubat/Golbat:** Switch to Garnet (Ember).
-    - **Croconaw:** Muscle (Dig/Karate Chop) or Garnet (Neutral).
+- **Navigation:** Find Pokemon Center (South/East), then investigate Lighthouse.
+- **Notes:** Rival Silver (Non-combat) says Jasmine is at Lighthouse with sick Pokemon.
+- **Immediate Goal:** Navigate around the ledge/building to the South.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
