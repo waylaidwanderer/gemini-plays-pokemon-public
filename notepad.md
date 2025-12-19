@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Defeat Gentleman Alfred with Garnet (Ember).
-- **Battle Strategy:** Use Ember (Slot 4). Cursor is currently on Leer (Slot 2).
+- **Navigation:** Finish Gentleman Alfred's Noctowl with Garnet (Ember).
+- **Battle Strategy:** Use Ember (Slot 4). Cursor is on Ember (Slot 4).
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Party Status
