@@ -4,19 +4,19 @@
 
 ## Farfetch'd Flight Logic (Hypothesis)
 - **Mechanic**: The bird flies away if approached from the front or side. To catch it, interact from directly behind its facing direction.
-- **Flight Behavior**: It appears to fly ~4-5 tiles in the direction it is facing when startled.
+- **Flight Behavior**: It flies ~4-5 tiles in the direction it is facing when startled.
 - **Catch Condition**: Interacting from the tile directly behind it (opposite its facing direction).
-- **Failure Log**: 
-  - Turn 2867: Interacted from North (28, 30) while bird at (28, 31) faced South. Bird flew South. (Contradicts "behind" logic? Or maybe I was too close?)
-  - Turn 2878: Interacted from West (23, 35) while bird at (24, 35) faced Right. Bird flew East.
+- **Testing Log**:
+  - Attempt 1 (T2867): Interacted from North (28, 30) while bird at (28, 31) faced South. Result: Flew South. (Hypothesis: Maybe "behind" means something else, or I misidentified facing).
+  - Attempt 2 (T2878): Interacted from West (23, 35) while bird at (24, 35) faced Right. Result: Flew East. (Confirmed: Side interaction causes flight).
 
 ## Current Status
-- Bird at (28, 31), Facing: LEFT.
-- Target Position: (29, 31) (Behind).
+- Bird at (28, 31), Facing: DOWN.
+- Target Position: (28, 30) (Behind).
 
 ## Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
+- FLOOR: Traversable. Standard movement.
+- WALL: Impassable. Boundaries or dense trees.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable. Requires HM01 Cut.
 - LEDGE_HOP: One-way traversal (Down/Left/Right).
