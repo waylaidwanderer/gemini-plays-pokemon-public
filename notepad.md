@@ -49,4 +49,4 @@
 # Gym Navigation (Started Turn 4141)
 - Goal: Find and defeat Whitney.
 - GNEISS is Lv 20 and healthy.
-- Current Status: Navigating the maze. Trainer Lass at (9, 13).
+- Current Status: Battling Beauty Victoria at (0, 5). Trainer Lass at (9, 13).
