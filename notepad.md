@@ -39,10 +39,12 @@
 - Bug Catcher Arnie: Venonat (Lv 15)
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
+- Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv ?)
 
 # Battle Notes
 - Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Verified neutral damage.
 - Fire moves (Ember) vs Slowpoke (Water/Psychic): Resisted (Water resists Fire).
+- Fire moves (Ember) vs Magnemite (Electric/Steel): Super effective (Steel is weak to Fire).
 
 # Strategy: Goldenrod City
 - **Objective**: Find the Radio Tower and obtain the Radio Card.
