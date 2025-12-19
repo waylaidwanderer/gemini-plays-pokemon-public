@@ -27,10 +27,7 @@
     - Normal/Fighting moves -> Ghost.
 
 # Whitney Prep (Lv 20 Goal)
-- GNEISS (Geodude) Lv 19 (Turn 4081). Current EXP: 5454/5460. Need 6 more. Training session started Turn 4066.
-- Strategy: Lead with GNEISS to resist Normal moves (Miltank's Rollout/Stomp).
-- Moveset: Magnitude, Defense Curl, Rock Throw, Rollout.
-- Training: Pacing at (9,9) on Route 35.
+- GNEISS (Geodude) Lv 20 reached (Turn 4106). Training session completed. Strategy: Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10): Voltorb x4. Defeated.
