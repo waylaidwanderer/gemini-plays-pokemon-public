@@ -4,7 +4,7 @@
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
 - **Navigation:** Explore West past the Sailor (x < 7).
-- **Battle Strategy:** Muscle leads.
+- **Battle Strategy:** Muscle vs Sailor Kent (Krabby). Use Karate Chop (Slot 4).
 
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
