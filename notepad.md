@@ -41,9 +41,4 @@
 # Strategy: Reach Route 36
 - Route 35 is divided by a fence. To cross from the west side to the east side, use the gap in the fence at (12, 17).
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
-
-# Strategy: Route 35 Corridors
-- West Corridor (X=0-5): Contains National Park entrance (3, 5).
-- Middle Corridor (X=7-11): Accessible via National Park southern gatehouse or gap at (6, 19).
-- East Corridor (X=13-17): Accessible via gap at (12, 17) or shortcut at (17, 6).
-- Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
+- National Park Path: Use southern gatehouse (10, 47) and eastern exit (33, 19) to reach Route 36 Gatehouse.
