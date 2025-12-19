@@ -44,3 +44,7 @@
 - Movement: NPCs move automatically; track them via Game State 'NPC Movement Paths'.
 - Reflection: Perform self-assessments every 50 turns to fix tools and update markers.
 - Time Blindness: Chasing Farfetch'd started Turn 2803. Current Turn 2856.
+## Catch Attempt #1 (Turn 2861)
+- Bird at (29, 22), Facing: DOWN.
+- Strategy: Approach from West (28, 22). Trap against East VOID edge.
+- Input: [Left, Up, Up, Right, A]
