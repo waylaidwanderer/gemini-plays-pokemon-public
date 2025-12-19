@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Exit house -> Find Lighthouse (Southeast).
-- **Notes:** Obtained Good Rod.
-- **Current Location:** Olivine City.
+- **Navigation:** Exit house -> Head Southeast to the Lighthouse.
+- **Notes:** Good Rod obtained.
+- **Current Location:** Olivine City (Exiting Good Rod House).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
