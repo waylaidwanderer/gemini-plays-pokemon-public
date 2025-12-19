@@ -21,7 +21,7 @@
 
 ## Quests
 - **Webster:** Deliver mail to Route 31.
-- Observation: Denis at (8,3) is solid and won't move even after dialogue.
-- Plan: Perform a "Deep Refresh" by going to 4F, moving around, and returning.
-- Hypothesis: (8,3) is the only possible entrance to the Center Room. He MUST leave.
+- Observation: Performed "Deep Refresh" (5F -> 4F -> 5F).
+- Plan: Navigate to (9, 3) and talk to Denis from the East. If he doesn't move, investigate (8, 3) as a potential hole.
+- Hypothesis: (8, 3) is the entrance to the Center Room.
 - Current Location: OlivineLighthouse5F.
