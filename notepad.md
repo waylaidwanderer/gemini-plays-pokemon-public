@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Interact with Fishing Guru (7, 3) to get Good Rod.
-- **Notes:** Received HM04 (Strength). Wade called (finished).
+- **Navigation:** Face Right and interact with Fishing Guru (7, 3) across the counter.
+- **Notes:** Previous attempt failed due to facing Up. Guru is stunned.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
