@@ -14,10 +14,10 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 29, Row 30.
 
 ## Current Status
-- **Bird**: (15, 25), Facing: UP.
-- **Player**: (15, 24), Facing: DOWN.
-- **Action**: Clearing text. Bird likely to fly South.
-- **Observation**: Bird turned to face the player even though Row 24 is clean. This implies the bird can "see" the player if they approach from the front/side within a certain distance, or certain tiles are noisier than they look.
+- **Bird**: (15, 28), likely facing DOWN.
+- **Player**: (15, 24), facing DOWN.
+- **Plan**: Press A to clear text. Move to (15, 27) to catch from behind.
+- **Verification**: Row 27 is clean ground. Row 28 is noisy. Approaching from (15, 27) avoids Row 28 twigs.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
