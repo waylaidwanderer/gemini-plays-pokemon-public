@@ -47,8 +47,8 @@
 # Psychic Mark Battle Log (Turn 4308+)
 - Opponent 1: Abra (Lv 13). Defeated by GNEISS (Magnitude 5 Crit).
 - Opponent 2: Abra (Lv 13). Defeated by GNEISS (Magnitude 8).
+- Opponent 3: Kadabra (Lv 15).
 - My Lead: GNEISS (Geodude) Lv 23. (Accuracy -1 from Flash).
-- Next Opponent: Kadabra.
 - Plan: Stay in with GNEISS, use MAGNITUDE.
 
 # Lessons Learned
