@@ -29,6 +29,8 @@
 - Gatehouse at (19, 1) in Goldenrod connects to Route 35.
 - Quest: Officer at (0, 4) in Goldenrod Gatehouse wants a Pokémon with Mail delivered to a friend on Route 31. Received KENYA (Spearow, Lv 10) with Mail. (Turn 3513)
 - Hint: Officer mentioned a "weird tree" blocking the road near Goldenrod. (Turn 3513)
+- Route 35 Fence: Ends at (6, 18). Column 4/5 are clear.
+- Route 35 East Side: Reachable via gaps in column 12 wall at (12, 16) and (12, 17).
 
 # Trainer Roster
 - Pokefan Brandon (Route 34): Snubbull (Lv 13)
@@ -43,15 +45,15 @@
 - Bug Catcher Arnie (Route 35): Venonat (Lv 15)
 
 # Strategy: Route 35 & Goldenrod
-- **Bypass Route 35 Fence**: Navigate to column 4 or 5 and move north to Row 18.
-- **Access East Side of Route 35**: Traverse through gaps in the column 12 wall at (12, 16) or (12, 17).
+- **Bypass Route 35 Fence**: Navigate west to column 4 or 5 and move north to Row 18.
+- **Access East Side of Route 35**: Use the gaps in the column 12 wall at (12, 16) or (12, 17).
 - **Retrieve Poke Ball (13, 16)**: Use the gap at (12, 16) to enter the enclosed area.
-- **Gym Challenge**: Train the team to level 20+ to prepare for Whitney's Normal-type Gym.
-- **Rename Cleffa**: Visit the Name Rater in Goldenrod to change the name "EGG".
+- **Gym Challenge**: Train team to level 20+ for Whitney's Gym.
+- **Rename Cleffa**: Visit Name Rater in Goldenrod to rename "EGG".
 
 # History & Milestones
 - **Odd Egg**: Hatched into Cleffa (EGG) at Lv 5 (Observed Turn 3527).
-- **Ilex Forest Farfetch'd**: Caught and returned to apprentice (Turn 3250).
-- **HM01 Cut**: Received from Charcoal Master's boss (Turn 3250).
+- **Ilex Forest Farfetch'd**: Caught and returned (Turn 3250).
+- **HM01 Cut**: Received (Turn 3250).
 - **Hive Badge**: Defeated Bugsy (Turn 2728).
 - **Zephyr Badge**: Defeated Falkner (Turn 1500).
