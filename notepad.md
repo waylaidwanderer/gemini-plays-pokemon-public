@@ -15,16 +15,13 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** In Battle with Sudowoodo (35, 9).
-    - **Health:** Full.
-    - **Inventory:** 0 Poké Balls (verified).
-    - **Battle Strategy:**
-        - **Opponent:** Wild Sudowoodo (Lv 20 Rock).
-        - **Action:** Defeat it. Catching is impossible.
-        - **Tactic:** Muscle (Machop) uses Low Kick. It is Super Effective (Fighting > Rock).
+    - **Current Status:** On Route 36.
+    - **Health:** Muscle Lv24 (76/76 HP).
+    - **Inventory:** Squirtbottle (Used).
+    - **Status:** Sudowoodo defeated. Path Cleared.
     - **Next Steps:**
-        1. **Battle:** KO Sudowoodo with Low Kick.
-        2. **Travel:** Continue North/West to Violet/Ecruteak.
+        1. **Explore:** Check for Rock Smash guy (usually nearby).
+        2. **Travel:** Head North/West towards Ecruteak City.
         3. **Objective:** Reach Ecruteak City.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
