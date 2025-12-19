@@ -22,8 +22,12 @@
         - **Status:** Defeated by Morty. Whited out.
         - **Lesson:** Gengar is faster and hits hard. Garnet couldn't tank it.
         - **New Strategy:** Muscle (Machoke) with Dig. Dig is Super Effective vs Poison and dodges attacks.
-        - **Preparation:** Must buy Super Potions and Awakenings (Hypnosis counter).
-        - **Next Step:** Find Mart in Ecruteak, buy supplies, then Rematch.
+        - **Preparation:** Buying supplies at Mart.
+        - **Shopping List:**
+            - Super Potion x7 (Cost: 4900).
+            - Awakening x5 (Cost: 1250).
+            - Total Est: 6150. Money: 8756.
+        - **Next Step:** Purchase items, then Rematch Morty.
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
