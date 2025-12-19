@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore 3F South to find a path to the eastern side/ladder.
-- **Battle Strategy:** Rocky: Rock Throw (Slot 1).
+- **Navigation:** Navigate around defeated Theo (go West to x=2) and explore the southern area of 3F.
+- **Battle Strategy:** Rocky leads. Good against Normal/Flying.
 - **Current Location:** Olivine Lighthouse 3F.
 
 ## Lighthouse Progress
