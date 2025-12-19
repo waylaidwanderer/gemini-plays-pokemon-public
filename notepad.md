@@ -39,3 +39,14 @@
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
 - HM Use: Hive Badge allows use of Cut outside battle.
+## Inventory Order (Items Pocket)
+1. BERRY
+2. PSNCUREBERRY
+3. PARLYZ HEAL
+4. X ACCURACY
+5. PRZCUREBERRY
+6. HARD STONE
+7. X ATTACK
+8. POTION
+9. AWAKENING
+10. SUPER POTION
