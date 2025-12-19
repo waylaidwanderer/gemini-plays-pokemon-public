@@ -27,7 +27,7 @@
 ## Strategy for Ilex Forest
 1. Enter Ilex Forest from the western gate of Azalea Town.
 2. Help the apprentice catch the Farfetch'd.
-3. Obtain HM01 (Cut).
+3. Obtain HM01 (Cut) from the apprentice's boss.
 4. Teach Cut to Bellsprout (currently in PC).
 5. Clear the tree blocking Route 34.
 
