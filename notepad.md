@@ -15,14 +15,13 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** On Route 36.
+    - **Current Status:** On Route 36 (East Side).
     - **Health:** Muscle Lv24 (76/76 HP).
-    - **Inventory:** Squirtbottle (Used).
-    - **Status:** Sudowoodo defeated. Path Cleared.
-    - **Next Steps:**
-        1. **Explore:** Check for Rock Smash guy (usually nearby).
-        2. **Travel:** Head North/West towards Ecruteak City.
-        3. **Objective:** Reach Ecruteak City.
+    - **Inventory:** TM08 (Rock Smash) obtained from Fisher.
+    - **Objectives:**
+        1. **Travel:** Backtrack West to the Sudowoodo intersection (35, 9).
+        2. **Travel:** Head North towards Ecruteak City.
+    - **Notes:** Rock Smash (TM08) allows breaking rocks. Can be learned by Rock/Fighting types.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
