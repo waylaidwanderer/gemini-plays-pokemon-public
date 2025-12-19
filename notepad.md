@@ -14,10 +14,10 @@
 - **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
 ## Strategy: Current Plan
-1. **Status**: Bird at (15, 25) facing LEFT.
-2. **Step 1**: Move to (15, 28) (Noisy) to make bird face DOWN.
-3. **Step 2**: Circle around to (15, 24) (Behind) via Row 29 -> Row 22 -> Row 23.
-4. **Step 3**: Interact from (15, 24) to catch.
+1. **Status**: Bird at (15, 25) facing LEFT. Player at (15, 28).
+2. **Action**: Step onto (15, 28) (Noisy Twigs) to make bird face DOWN.
+3. **Verify**: Check if bird turned.
+4. **Next**: If turned, circle around via Row 29 to reach (15, 24) (Behind).
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
