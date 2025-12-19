@@ -25,14 +25,11 @@
 - **Trainer Battles**: Lead with Calcifer (Quilava). Switch to Gneiss (Geodude) for Rock-type coverage if needed.
 
 ## Current Status
-- Bird Position: (22, 31).
-- Bird Facing: LEFT (Verified T2900).
-- Target Position: (23, 31) (Behind).
+- Bird Position: (24, 35).
+- Bird Facing: DOWN (Verified T2903).
+- Target Position: (25, 35) (to drive West).
 
-## Tile Mechanics
-- FLOOR: Passable. Standard terrain.
-- WALL / DENSE_TREES: Impassable.
-- HEADBUTT_TREE: Impassable (Verified at 28, 24 and 22, 34).
-- CUT_TREE: Impassable. Requires HM01 Cut.
-- LEDGE_HOP: One-way traversal in the direction of the ledge.
-- Attempt 6 (T2901): Player at (23, 31), Bird at (22, 31) facing Left. Interaction from behind.
+## Farfetch'd Chase Log
+- Attempt 6 (T2901): Player at (23, 31), Bird at (22, 31) faced Left. Result: Bird turned Right, then flew to (24, 35).
+- Observation: Bird turns to face player before fleeing if approached from behind? Or maybe I was in its line of sight during the approach?
+- Strategy: Drive bird toward north-west area by interacting from the east/south.
