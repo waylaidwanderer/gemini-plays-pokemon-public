@@ -30,10 +30,10 @@
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv ?)
 
 # Strategy: Goldenrod City
-- **Rename Cleffa**: Visit the Name Rater in Goldenrod to change the name "EGG".
-- **Gym Challenge**: Prepare for Whitney's Normal-type Gym (Level 20+).
-- **Radio Tower**: Obtain the Radio Card promotion.
-- **Spearow Delivery**: Deliver KENYA to Route 31 friend.
+- **Rename Cleffa**: Locate and visit the Name Rater to change the name "EGG".
+- **Whitney Gym Strategy**: Use GNEISS (Geodude) as the primary attacker to resist Whitney's Normal-type moves and deal super-effective Rock damage.
+- **Radio Tower**: Visit the Radio Tower in west Goldenrod to obtain the Radio Card by answering the quiz.
+- **Spearow Delivery**: Deliver KENYA to the recipient on Route 31 (long-term goal).
 
 # History
 - Odd Egg hatched into Cleffa (EGG) Lv 5 (Turn 3527).
