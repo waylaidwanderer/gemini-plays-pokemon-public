@@ -59,6 +59,6 @@
 - My Lead: GNEISS (Geodude) Lv 22.
 - Turn 1: GNEISS used Magnitude 6. Clefairy used Metronome (Milk Drink), HP full.
 - Turn 2: GNEISS used Magnitude 8. Clefairy used DoubleSlap (not effective). Clefairy fainted.
-- Whitney sending out Miltank (Lv 20).
-- Turn 3: Plan to use DEFENSE CURL to set up ROLLOUT. GNEISS is female, immune to Attract.
-- Strategy: Defense Curl (Turn 3) -> Rollout (Turn 4+). Gneiss resists Stomp and Rollout. Power of Rollout doubles after Defense Curl.
+- Turn 3 (Turn 4215): Whitney sent out Miltank (Lv 20). Miltank used Rollout (not effective, 2 damage). GNEISS used Defense Curl.
+- Turn 4: Plan to use ROLLOUT. GNEISS is female, immune to Attract.
+- Strategy: Defense Curl (Turn 3) -> Rollout (Turn 4+). Gneiss resists Stomp and Rollout. Power of Rollout doubles after Defense Curl. Rollout buildup should bypass Milk Drink.
