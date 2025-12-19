@@ -45,4 +45,4 @@
 # Active Task: KENYA Delivery
 - Started: Turn #4603
 - Recipient Location: Near the gate to Route 30 on Route 31.
-- Status: On Route 31, heading east.
+- Status: At Fisher (17, 7), selecting KENYA for delivery.
