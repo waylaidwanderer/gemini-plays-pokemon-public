@@ -92,6 +92,8 @@
 - **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT.
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
 
-# Technical Status
-- Python sandbox is restored (Turn 4011). Advanced tools are functional.
-- Resuming use of `press_sequence` and other advanced tools.
+## GNEISS (Geodude) Info
+- **Held Item**: HARD STONE (Turn 4001).
+- Taught TM04 (Rollout) (Turn 3994).
+- Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
+- Made KIMCHI hold PRZCUREBERRY (Turn 3967).
