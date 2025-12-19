@@ -39,7 +39,7 @@
 - Bug Catcher Arnie: Venonat (Lv 15)
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
-- Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv 11)
+- Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv 11), Magnemite (Lv ?)
 
 # Battle Notes
 - Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Verified neutral damage.
