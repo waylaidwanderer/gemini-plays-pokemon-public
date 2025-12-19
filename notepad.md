@@ -23,13 +23,11 @@
 - **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
 - **LEDGE**: One-way traversal (down, left, or right).
 
-## Strategy: Current Bird at (20, 24) [Facing RIGHT]
-- **Problem**: Back is at (19, 24) (Wall). Cannot catch.
-- **Plan**: Startle it from the side (20, 23) to move it to a better area.
-- **Steps**:
-  1. Interact (A).
-  2. Locate new position.
-- **Reason**: Moving it out of the corner is necessary to get behind it.
+## Strategy: Catching Bird at (29, 22)
+- **Bird Position**: (29, 22).
+- **Goal**: Find its facing and get behind it.
+- **Approach**: Move to (28, 22) to observe.
+- **Note**: Row 22 has a ledge at (22, 22) and (27, 22).
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
