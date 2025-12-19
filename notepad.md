@@ -4,22 +4,30 @@
 
 ## Farfetch'd Mechanics
 - **Success Condition**: "You have to get behind it to catch it." (Apprentice hint).
-- **Approach Mechanic**: 
-  - Interacting from the front/side causes flight.
-  - It flies in the direction it is facing, then turns 180 degrees.
-  - Flight distance appears to be ~6 tiles.
-- **Hypothesis**: Catching occurs when interacting from the tile directly behind the bird (opposite its facing) while the bird is trapped or in a specific area.
+- **Hypothesis**: Interacting from the tile directly opposite the bird's facing direction (behind it) is the key.
+- **Flight Logic**: Interacting from the front or side causes the bird to fly ~6 tiles in the direction it is facing.
 - **Attempt History**:
-  - T2888: Bird at (28, 31) facing LEFT. Interacted from (29, 31) (Behind). Result: Bird flew to (22, 31), now faces RIGHT.
-  - T2892: Bird at (22, 31) facing RIGHT. Interacted from (23, 31) (Front). Result: Bird flew to (24, 35), now faces UP.
-- **Current Status**: Bird at (24, 35), Facing: UP.
-- **Hypothesis**: Bird flies in a direction opposite the player's interaction point. To catch it, drive it into a corner or specific location.
-- **Plan**: Drive bird toward Apprentice at (7, 28). Interacting from (25, 35) (East) should move it West.
+  - Attempt 1 (T2867): North (28, 30) -> Bird (28, 31) faced South. (Startled).
+  - Attempt 2 (T2878): West (23, 35) -> Bird (24, 35) faced Right. (Startled).
+  - Attempt 3 (T2888): East (29, 31) -> Bird (28, 31) faced Left. (Startled).
+  - Attempt 4 (T2892): East (23, 31) -> Bird (22, 31) faced Right. (Startled).
+
+## Tile Mechanics
+- **FLOOR**: Passable. Standard movement.
+- **WALL**: Impassable. Dense trees or map boundaries.
+- **HEADBUTT_TREE**: Impassable (Verified at 28, 24).
+- **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
+- **LEDGE_HOP**: One-way traversal in the direction of the ledge.
+
+## Current Status
+- **Bird Position**: (24, 35).
+- **Bird Facing**: LEFT (Verified T2896).
+- **Target Position**: (25, 35) (Behind).
 
 ## Key Locations
-- **Apprentice**: (7, 28).
-- **Charcoal Kiln**: Azalea Town (21, 13).
+- **Apprentice**: (7, 28). Return here after catch.
+- **Charcoal Kiln**: Azalea Town (21, 13). Boss gives Cut.
 
 ## Party Status
 - **Calcifer (QUILAVA) Lv22**: Lead.
-- Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
+- **Team**: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
