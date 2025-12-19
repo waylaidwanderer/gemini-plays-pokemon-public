@@ -31,8 +31,8 @@
 - Hypothesis: The back door at (13, 15) on Route 34 likely connects to the Day-Care backyard accessible via the warps at (2, 7) and (3, 7) inside.
 
 ## Day-Care (Azalea/Goldenrod Area)
-- Day-Care Man (Gramps) at (2, 3) offered an EGG. Party was full (6/6) on Turn 3415.
-- Plan: Leave a Pokémon with Day-Care Lady (Granny) at (5, 3) to free up a slot, then collect the Egg.
+- Received ODD EGG (Cleffa) from Day-Care Man (Gramps) at (2, 3). (Turn 3425)
+- Strategy: Exit via the south door (2, 7) to verify the backyard connection to Route 34 (13, 15). (Turn 3426)
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
