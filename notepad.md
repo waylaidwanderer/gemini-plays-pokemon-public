@@ -3,8 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Train to Lv 20:** Grind on Route 35.
-       - *Method:* Wild Encounters (Muscle as Lead).
+    1. **Preparation:** Heal at Goldenrod Pokémon Center.
     2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 
 ## Key Items & Progress
