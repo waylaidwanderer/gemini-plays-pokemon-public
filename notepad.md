@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Finish healing, then find the Lighthouse.
-- **Immediate Goal:** Complete healing dialogue and exit.
+- **Navigation:** Talk to the Fishing Guru and Fisher in the Center, then find the Lighthouse.
+- **Immediate Goal:** Finish dialogue and move to Fishing Guru (8, 4).
 - **Current Location:** Olivine Pokemon Center.
 
 ## Party Status
