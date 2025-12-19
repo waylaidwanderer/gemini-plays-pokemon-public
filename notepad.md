@@ -10,10 +10,15 @@
 ## Strategy: Driving to Clean Ground
 - **Problem**: Cannot "get behind" the bird on Row 31 because it turns when I approach.
 - **Solution**: Drive the bird to a row without twigs (Row 28 or 35).
-- **Current Plan (Bird at 28, 31)**:
-  1. Reach (28, 32) (South) without stepping on Row 31.
-  2. Interact from (28, 32) -> Bird flies North to (28, 28) (Hypothesis).
-  3. Row 28 is clean ground. Catch it there.
+- **Current Status**:
+  - Bird Position: (29, 28)
+  - Bird Facing: Unknown (likely LEFT or DOWN)
+  - Environment: Row 28 is clean ground. Row 31 has twigs.
+
+## Strategy: Catching on Row 28
+1. Reach (28, 28) or (29, 27) without stepping on Row 31 twigs.
+2. Determine bird's facing.
+3. Interact from behind to catch.
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
