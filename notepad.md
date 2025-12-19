@@ -34,11 +34,12 @@
 - Menu Navigation: Do not mix directional and action buttons in a standard `press_buttons` call unless using `press_sequence`. Standard sequences will be truncated.
 - Narrative Rule: In `thoughts`, state only the next single action and its purpose. Do not narrate future outcomes.
 
-# Exploration Progress: Route 36
-- Sudowoodo cleared at (35, 9).
-- Path to the north (Ecruteak) and east (Violet City) is now open.
+# Exploration Progress: Route 31
+- Delivered KENYA to Fisher at (17, 7). (Turn #4645)
+- Collected POKé BALL at (19, 15). (Turn #4648)
+- Collected BITTER BERRY from tree at (16, 7). (Turn #4661)
 
 # Item/TM Locations
 - Route 36: TM08 (Rock Smash) from Fisher at (44, 9). (Turn #4607)
-- Route 31: TM50 (Nightmare) from Fisher at (17, 7) for KENYA delivery. (Turn #4645)
+- Route 31: TM50 (Nightmare) from Fisher at (17, 7). (Turn #4645)
 - Route 31: POKé BALL at (19, 15). (Turn #4648)
