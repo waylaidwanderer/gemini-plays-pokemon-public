@@ -15,9 +15,11 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30. (14-16, 29) are clean.
 
 ## Current Status
-- Bird at (15, 29). Facing: RIGHT.
-- Player at (16, 29). Facing: LEFT.
-- Action: Clearing text "Kwaa!". Bird will fly.
+- Bird at (15, 25). Facing: RIGHT.
+- Strategy: 
+  1. Move to (15, 26) (Noisy) to make bird face DOWN.
+  2. Circle around via Row 30 and Row 23 (Clean) to reach (15, 24).
+  3. Interact from behind (South) while bird faces North? No, catch from (15, 24) while bird faces DOWN.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
@@ -33,9 +35,3 @@
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
-
----
-## Lessons Learned
-- Approaching a bird on clean ground from a noisy tile alerts it even if the final tile is clean.
-- Bird turns to face the source of the noise.
-- Driving the bird to an open area with clean ground is essential.
