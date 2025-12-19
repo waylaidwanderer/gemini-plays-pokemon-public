@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore the South-East area of 4F.
+- **Navigation:** Explore the South-West corridor of 4F (towards x=10).
 - **Battle Strategy:** Muscle leads.
 - **Current Location:** Olivine Lighthouse 4F.
 
