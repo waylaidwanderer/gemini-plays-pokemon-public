@@ -2,7 +2,7 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Head North to y=5, then West to x=5 to bypass the ledge and continue towards Olivine City. (Fruit Tree at 12,10 skipped to save time).
+- **Navigation:** Challenge Youngster at (4, 1), then head South past Beauty to continue West.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
