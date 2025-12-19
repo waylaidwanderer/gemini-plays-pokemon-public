@@ -24,3 +24,4 @@
 
 ## Tile Mechanics
 - **Lighthouse Pits:** Gaps on 4F/5F drop to the floor below. Jumping into the pit on 4F North (Cols 8-9) is the solution to reach the central column.
+- **WATER:** Traversable with SURF. Encounters wild Pokémon.
