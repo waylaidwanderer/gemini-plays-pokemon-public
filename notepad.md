@@ -50,5 +50,5 @@
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
 - Goldenrod Gym: Maze layout. Whitney (8, 3) uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
 
-# Gym Navigation (Started Turn 4141)
-- Navigation: Exploring maze to find Whitney.
+# Gym Navigation
+- Started Turn 4141. Exploring maze.
