@@ -19,12 +19,13 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Morty (Gym Leader).
-        - **Opponent:** Haunter Lv 23 (Ghost/Poison).
-        - **My Pokemon:** Garnet (Quilava Lv 27, 20/76 HP). Everyone else fainted.
-        - **Turn Order:** Garnet is FASTER than Haunter.
-        - **Strategy:** Last turn Quick Attack failed (Cursor memory issue). Using Ember.
-        - **Hazards:** Night Shade (23 dmg) kills Garnet (20 HP). Must KO this turn.
+        - **Status:** Battling Morty (Leader).
+        - **Opponent:** Gengar Lv 25 (Ghost/Poison).
+        - **My Pokemon:** Garnet (Quilava Lv 27, 20/76 HP).
+        - **State:** Everyone else fainted. No healing items.
+        - **Strategy:** Must use Ember. Quick Attack (Normal) is immune.
+        - **Risk:** Gengar is likely faster (Base 110 vs 80). Night Shade (25 dmg) = Instant KO.
+        - **Next Step:** Open Fight menu manually to verify cursor position (likely on Ember) before attacking.
         - **Puzzle:** Solved.
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
