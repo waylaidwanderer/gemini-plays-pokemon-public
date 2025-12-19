@@ -4,7 +4,7 @@
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
 - **Navigation:** Explore 5F. Battle Youngster at (8, 3).
-- **Battle Strategy:** Muscle leads.
+- **Battle Strategy:** Switch to Rocky (Slot 3) if opponent uses Flying types.
 - **Current Location:** Olivine Lighthouse 5F.
 
 ## Lighthouse Progress
