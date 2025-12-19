@@ -28,7 +28,8 @@
 
 ## Goldenrod Underground
 - Entrance at Goldenrod City (9, 5) and (10, 5).
-- Super Nerd at (19, 27) in entrance room warns of "rough" battles downstairs.
+- Pokemaniac Donald at (19, 27) in entrance room warns of "rough" battles downstairs.
+- Teacher at (3, 27) in entrance room expresses fear of the Underground.
 - Haircut Brother: Younger brother appears on Fridays in Goldenrod Underground. Cost: ¥300. Increases Pokémon happiness. (Confirmed Turn 3752).
 
 # Trainer Roster
