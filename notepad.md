@@ -114,3 +114,6 @@
 - Question 5: 
 - Answer 5:
 - Receptionist at (5, 6) in RadioTower1F just says "Welcome!". (Turn 3865)
+- Stairs to 2F at (15, 0) in RadioTower1F. (Turn 3868)
+- Youngster at (15, 4) in RadioTower1F. (Turn 3868)
+- Lass at (16, 4) in RadioTower1F. (Turn 3868)
