@@ -15,14 +15,17 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** On Route 36.
+    - **Current Status:** Facing Sudowoodo (35, 9).
     - **Health:** Full.
-    - **Objective:** Clear Sudowoodo (35, 9).
-    - **Action:** Navigate to Sudowoodo via southern path (Row 15) to avoid trainers.
+    - **Action:** Interacting with Sudowoodo using Squirtbottle.
+    - **Battle Strategy:**
+        - **Wild Sudowoodo (Lv 20 Rock):**
+        - **Option A (Catch):** If I have balls (Inventory unclear), weaken and catch.
+        - **Option B (Defeat):** Muscle uses Low Kick (Super Effective).
     - **Next Steps:**
-        1. **Interact:** Use Squirtbottle on Sudowoodo.
-        2. **Battle:** Defeat/Catch Sudowoodo (Level 20 Rock Type).
-        3. **Travel:** Continue North/West to Violet/Ecruteak.
+        1. **Clear Path:** Defeat/Catch Sudowoodo.
+        2. **Travel:** Path splits. North to Ecruteak, East to Violet.
+        3. **Objective:** Reach Ecruteak City.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
