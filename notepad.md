@@ -39,3 +39,4 @@
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Entering Ilex Forest: Turn 2803.
 - Met Apprentice: Turn 2808 at (7, 28). Task: Find runaway Farfetch'd.
+- Found runaway Farfetch'd at (14, 31) on Turn 2813.
