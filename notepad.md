@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Talk to Sailor at (6, 6), then find the House at (13, 15).
-- **Notes:** Cafe "Guru" only talks about the menu. Received Strength from other Sailor.
+- **Navigation:** Talk to Sailor at (6, 6), then check House at (13, 15) for Good Rod.
+- **Notes:** Cafe Owner (7, 3) talks about menu. Sailor (4, 3) gave Strength.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
