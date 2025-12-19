@@ -117,3 +117,5 @@
 
 ## GNEISS (Geodude) Info
 - **Held Item**: BERRY (Needs to be swapped for HARD STONE).
+- Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
+- Made KIMCHI hold PRZCUREBERRY (Turn 3967).
