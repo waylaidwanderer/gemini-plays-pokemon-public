@@ -97,5 +97,5 @@
 - Current Pack Cursor (Items): X ATTACK (Turn 4001).
 
 # Technical Status
-- Python sandbox is currently unavailable (Turns 3971-4001). Advanced tools like `press_sequence` and `run_code` are non-functional.
-- Switching to manual `press_buttons` for training.
+- Python sandbox is restored (Turn 4011). Advanced tools are functional.
+- Resuming use of `press_sequence` and other advanced tools.
