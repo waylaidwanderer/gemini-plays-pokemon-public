@@ -51,3 +51,4 @@
 - **NPC Collision**: Defeated trainers and other NPCs are solid objects.
 - **Collision Error**: Fences are WALLS. Check map data if a path looks clear but might be blocked.
 - Odd Egg status: Hatched into Cleffa (EGG) at Lv 5. (Observed Turn 3527)
+- Picnicker Kim (Route 35): Vulpix (Lv 15)
