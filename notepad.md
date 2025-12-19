@@ -17,11 +17,10 @@ Interact from the tile directly behind the bird's facing direction.
 - **Verified Noisy**: (15, 27), Column 14 (Rows 28-30), Row 24 (20-25), Row 26 (14-15), Row 31 (23-29).
 - **Unverified but Likely Clean**: Column 14 (Rows 31-34).
 
-## Current Status (Turn 3146)
-- Bird Position: (10, 35). Facing: LEFT.
-- Behind Tile: (11, 35).
-- Player Position: (14, 31).
-- Plan: Move to (11, 35) via Row 35 (Silent Path). Interact from behind to catch it. Avoid Zone C/E.
+## Current Status (Turn 3149)
+- Bird Position: Moved back towards the apprentice (last seen moving towards 8, 31).
+- Player Position: (11, 35).
+- Plan: Return to (7, 28) to speak with the apprentice and complete the quest. Use Row 35/23 for silent travel if needed, though the bird is caught.
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3'.
