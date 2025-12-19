@@ -22,15 +22,6 @@
 - **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
 - **LEDGE**: One-way traversal (down, left, or right).
 
-## Strategy: Catching Bird at (15, 25) [Currently UP]
-- **Goal**: Make it face DOWN, then catch from (15, 24).
-- **Steps**:
-  1. Move to (15, 26) [Noisy]. Bird turns to face DOWN.
-  2. Retreat silently via Row 34 passage.
-  3. Loop around to (22, 22) ledge.
-  4. Reach (15, 24) and interact facing DOWN.
-- **Reason**: (15, 24) is clean and directly behind a DOWN-facing bird.
-
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
