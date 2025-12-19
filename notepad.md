@@ -25,7 +25,7 @@
 ## Party Status
 - Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
 - ROCKY (ONIX) Lv6: TACKLE, SCREECH.
-- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK_THROW.
+- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK THROW.
 - ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
 - EGG (TOGEPI) Lv5: GROWL, CHARM.
 - APOPHIS (EKANS) Lv4: WRAP, LEER.
@@ -46,4 +46,4 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Ilex Forest: Chasing Farfetch'd. Current position: (15, 29), facing LEFT. Player at (16, 29).
+- Ilex Forest: Chasing Farfetch'd. Current position: (15, 29), facing UP. Target catch tile: (15, 30) facing up.

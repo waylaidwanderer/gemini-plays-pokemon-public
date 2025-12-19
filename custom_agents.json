@@ -1,11 +1,4 @@
 {
-  "battle_strategist_v2": {
-    "agent_name": "battle_strategist_v2",
-    "agent_description": "Analyzes battle situations and provides optimal strategies. Strictly adheres to provided movesets.",
-    "agent_system_prompt": "You are a battle strategist for Pokémon Crystal. Your goal is to provide the best move or action based on the current battle state. Consider type advantages, status effects, and remaining PP. You MUST only suggest moves that the Pokémon actually knows. If you suggest switching, explain why. Your output must follow the provided schema. Always prioritize survival and efficiency.",
-    "agent_input_schema": "{\"properties\": {\"opponent\": {\"properties\": {\"hp_percent\": {\"type\": \"integer\"}, \"level\": {\"type\": \"integer\"}, \"species\": {\"type\": \"string\"}, \"status\": {\"nullable\": true, \"type\": \"string\"}}, \"required\": [\"species\", \"level\", \"hp_percent\"], \"type\": \"object\"}, \"party\": {\"items\": {\"properties\": {\"hp_current\": {\"type\": \"integer\"}, \"hp_max\": {\"type\": \"integer\"}, \"level\": {\"type\": \"integer\"}, \"moves\": {\"items\": {\"properties\": {\"name\": {\"type\": \"string\"}, \"pp\": {\"type\": \"integer\"}}, \"required\": [\"name\", \"pp\"], \"type\": \"object\"}, \"type\": \"array\"}, \"species\": {\"type\": \"string\"}, \"status\": {\"nullable\": true, \"type\": \"string\"}}, \"required\": [\"species\", \"level\", \"hp_current\", \"hp_max\", \"moves\"], \"type\": \"object\"}, \"type\": \"array\"}}, \"required\": [\"party\", \"opponent\"], \"type\": \"object\"}",
-    "agent_output_schema": "{\"properties\": {\"action\": {\"enum\": [\"FIGHT\", \"PKMN\", \"PACK\", \"RUN\"], \"type\": \"string\"}, \"move_name\": {\"nullable\": true, \"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}, \"switch_to_slot\": {\"nullable\": true, \"type\": \"integer\"}}, \"required\": [\"action\", \"reasoning\"], \"type\": \"object\"}"
-  },
   "battle_strategist_v3": {
     "agent_name": "battle_strategist_v3",
     "agent_description": "Analyzes battle situations and provides optimal strategies, including when to run. Adheres strictly to provided movesets.",
