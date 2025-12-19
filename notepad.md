@@ -41,3 +41,8 @@
 
 # Item/TM Locations: Route 36
 - TM08 (Rock Smash): Received from Fisher at (44, 9) after clearing Sudowoodo. (Turn #4607)
+
+# Active Task: KENYA Delivery
+- Started: Turn #4603
+- Recipient Location: Near the gate to Route 30 on Route 31.
+- Status: On Route 31, heading east.
