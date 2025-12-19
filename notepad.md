@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Battle Pokefan Trainer (16, 11), then take stairs to 2F.
-- **Battle Strategy:** Muscle in lead. Watch out for Fairy types (Snubbull).
+- **Navigation:** Advance dialogue with Pokefan (16, 11) to start battle.
+- **Notes:** Pokefan talking about Pokemon lighting the sea.
 - **Current Location:** Olivine Lighthouse 1F.
 
 ## Party Status
