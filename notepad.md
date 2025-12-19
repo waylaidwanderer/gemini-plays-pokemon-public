@@ -46,3 +46,4 @@
 - Obtained Zephyr and Hive Badges.
 - Received HM01 Cut.
 - Goldenrod Underground: Entrance at (9, 5). Super Nerd at (19, 27) warns of "rough" battles downstairs.
+- Pokemaniac Donald: Slowpoke (Lv 10)
