@@ -113,3 +113,4 @@
 - Answer 4: 
 - Question 5: 
 - Answer 5:
+- Receptionist at (5, 6) in RadioTower1F just says "Welcome!". (Turn 3865)
