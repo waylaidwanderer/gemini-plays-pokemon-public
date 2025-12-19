@@ -3,7 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
 - **Navigation:** Talk to Fisher (2, 3), then Fishing Guru (8, 4), then find the Lighthouse.
-- **Immediate Goal:** Close text and talk to Fisher (Left).
+- **Immediate Goal:** Interact with Fisher.
+- **Status:** Lapis healed.
 - **Current Location:** Olivine Pokemon Center.
 
 ## Party Status
