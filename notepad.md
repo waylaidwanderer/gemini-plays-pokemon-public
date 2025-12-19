@@ -15,7 +15,7 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Turn 2737: Battling Rival Malice. Calcifer at 60/60 HP. Croconaw (Lv16) accuracy lowered significantly. Starting to attack with Quick Attack.
+- Turn 2740: Battling Rival Malice. Calcifer at 60/60 HP. Croconaw (Lv16) accuracy lowered significantly (-3 stages). Using Quick Attack to deal damage.
 - Post-Battle: Explore unseen tiles (31, 0) to (39, 2) and verify Rocket Grunt at (31, 9) is gone. Also explore (24, 15) near the Gym.
 
 ## Party Status
