@@ -11,14 +11,14 @@
 - FLOOR_UP_WALL: Impassable wall above floor.
 - LADDER: Stairs warp.
 - WATER: Hypothesis - Impassable without Surf. Need to verify.
-- WARP_CARPET_LEFT: Warp leading to adjacent map.
+- WARP_CARPET_DOWN: Warp leading to adjacent map.
 
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Post-Battle Plan (Azalea Town Map 8_7):
   - Rocket Grunt at (31, 9) confirmed gone.
-  - Check Kurt at (3, 2) in Kurt's House (Map 8_4) for the ball. Gave White Apricorn on Turn 2720.
+  - Check Kurt at (5, 2) in Kurt's House (Map 8_4) for the ball. Gave White Apricorn on Turn 2720. (Hypothesis: Kurt moved from 3, 2).
   - Explore potentially reachable unseen tiles in the NE (31, 0) to (39, 2). Hypothesis: Reachable via unseen path or hidden gap.
   - Explore unseen tile at (24, 15) near the Gym.
 
@@ -45,7 +45,8 @@
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
-- Kurt (3, 2): Makes custom Balls from Apricorns (takes 1 day).
+- Kurt: Traditionally at (3, 2), but currently seen at (5, 2) in Map 8_4.
+- Kurt's Granddaughter: Seen at (2, 3) in Map 8_4.
 
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
