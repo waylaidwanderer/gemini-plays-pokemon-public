@@ -3,56 +3,21 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Observation:** Falling from the pit at (16, 7) on 5F drops you to the perimeter of 3F at (16, 9), skipping 4F entirely. This is a trap/shortcut down.
-- **Plan:** Climb back up to 5F via 4F. Search 5F more thoroughly for a way to the center.
-- **Observation:** Accidentally took ladder at (3, 5) down to 4F while trying to go West.
-- **Plan:** Take ladder at (3, 5) on 4F back up to 5F. Then navigate around the ladder (likely via (3, 6)) to reach the West corridor and the item at (6, 15).
-- **Current Location:** Olivine Lighthouse 4F.
+- **Critical Observation:** On 5F, Bird Keeper Denis is at (8,3). The tile behind him (8,4) is a WALL. Therefore, walking past him is impossible unless the wall is fake.
+- **Current Hypothesis:**
+    1. Denis's tile (8,3) is a hidden hole/warp. He must move.
+    2. OR The entrance to the Center Room is on 4F North (Cols 8-9, Row 2), accessible from the main 4F area.
+- **Immediate Plan:** Try talking to Denis from (9,3). If he doesn't move, go to 4F and check the North side (Cols 8-9) for an opening.
 
-## Lighthouse Progress
-- **1F:** Explored. Staircase at (16, 13).
-- **2F:** Defeated Gentleman Alfred, Sailor Huey.
-- **3F:** Defeated Bird Keeper Theo, Gentleman Preston.
-- **4F:** Defeated Lass Connie. Defeated Sailor Kent. Ladder to 5F at (3, 5).
-- **5F:** Arrived. Youngster nearby.
+## Lighthouse Navigation Log
+- **1F-3F:** Cleared.
+- **4F:** West Ladder (3,5) leads to 5F. East side is a drop zone from 5F (dead end). Center (Cols 8-9) is walled at South (Row 9).
+- **5F:** West Ladder (3,5) leads to 4F. Center Room (Cols 8-9) blocked by Denis at North, Walled at South.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 33. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
-- **Leading:** Muscle (Machoke).
-- **Others:** Low levels/Utility.
+- **Leading:** Muscle.
 
-## Completed Locations
-- **Ecruteak Gym:** Defeated Morty. Fog Badge + TM30 obtained.
-- **Burned Tower:** Rival defeated. B1F partially explored.
-
-## Key Items & Progress
-- **Badges:** Zephyr, Hive, Plain (3/8).
-- **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle, HM03 Surf.
-- **HM/TM:** Cut, Headbutt, Surf, Dig (TM28).
-- **Party:** Muscle (33), Garnet (28), Rocky (19), Hematite (15), Azurite (13), Lapis (10).
-
-## Quests & NPC Notes
-- **Webster (Guard):** Deliver KENYA's mail to Route 31 (Active).
-- **Time Capsule:** Opens 'tomorrow' (in-game).
-- **Ecruteak City:** Itemfinder Guy (Hidden items in Burned Tower). Gentleman (Dance Theater) gave Surf.
-- **Lighthouse:** 3F Gentleman Preston (Battle).
-
-## Important Locations
-- **Ecruteak:** Poke Mart (29, 21), Center (23, 27), Gym (6, 27), Burned Tower (5, 5), Dance Theater (23, 21).
-
-## Knowledge Base
-### Mechanics
-- **Move Mechanics:** Low Kick (50BP).
-- **Tiles:** HEADBUTT_TREE (Encounter), CUT_TREE (Cut).
-
-### History & Completed Quests
-- **Goldenrod:** Defeated Whitney (Plain Badge). Cleared Dept Store B1F.
-- **Route 35-37:** Cleared trainers. Defeated Sudowoodo.
-- **Burned Tower Notes:** Divided into North/South by wall. Holes drop to B1F.
-- **Navigation Note:** Always verify current coordinates before pathing.
-- **Observation:** The "Youngster" at (5, 3) is Bird Keeper Denis (already defeated).
-- **Plan:** Navigate around Denis to the West corridor (column 2) and explore South.
-- **Item:** Picked up TM34 (Swagger) at (2, 13).
-- **Hypothesis:** The Center Area (with Item at 6,15 and Ladder) is inaccessible from the perimeter.
-- **Strategy:** Backtrack to the East side of 5F and fall through a hole to reach the center of 4F, which should lead to the center of 5F.
+## Quests
+- **Webster:** Deliver mail to Route 31.
