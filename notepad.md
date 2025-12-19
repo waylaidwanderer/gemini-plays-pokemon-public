@@ -14,10 +14,10 @@
 - **Verified Clean Tiles**: Rows 22, 23, 24, 25, 27, 29, 30.
 
 ## Strategy: Current Plan
-1. **Status**: Bird is at (15, 28). Likely facing DOWN.
-2. **Step 1**: Move to (15, 26) (Noisy) to make bird face UP.
-3. **Step 2**: Circle around to (15, 29) via the Southern loop (X=29 -> Row 35 -> X=22).
-4. **Step 3**: Interact from (15, 29) (Behind) on clean ground to catch.
+1. **Status**: Bird is at (15, 29). Facing: LEFT.
+2. **Target**: (16, 29) (Behind).
+3. **Approach**: Path via Row 23 (Clean) -> X=22 (Clean) -> Row 29 (Clean) to reach (16, 29).
+4. **Action**: Interact LEFT from (16, 29) to catch.
 
 ## Tile Mechanics
 - **FLOOR**: Clean ground. Passable.
