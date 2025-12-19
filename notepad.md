@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Advance Sailor's text (Press B). If no battle, move West to explore.
-- **Notes:** Sailor said "People train at this LIGHTHOUSE."
+- **Navigation:** Finish Sailor's dialogue. If no battle, move West to explore.
+- **Notes:** Sailor warns "It's not easy to climb".
 - **Current Location:** Olivine Lighthouse 1F (North Center).
 
 ## Party Status
