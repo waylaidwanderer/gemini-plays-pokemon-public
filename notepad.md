@@ -6,8 +6,8 @@
 - **Bird at (14, 31)**: Approached from South (14, 32) -> Flew North to (14, 28).
 - **Bird at (15, 25)**: Approached from South (15, 26) -> Flew North to (15, 23) -> then (20, 24).
 - **Bird at (20, 24)**: Approached from North (20, 23) -> Flew East to (28, 31).
-- **Bird at (28, 31)**: Approached from North (28, 30) -> Flew South to (28, 34).
-- **Current Position**: (28, 34), Facing: Unknown (likely UP).
+- **Bird at (28, 31)**: Approached from North (28, 30) -> Flew South to (28, 34) -> then West to (24, 35).
+- **Current Position**: (24, 35), Facing: RIGHT.
 
 ## Strategy
 - The bird flies in the opposite direction of the player's approach.
