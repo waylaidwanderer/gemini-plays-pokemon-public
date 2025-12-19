@@ -17,10 +17,10 @@ Interact from the tile directly behind the bird's facing direction.
 - **Verified Noisy**: (15, 27), Column 14 (Rows 28-30), Row 24 (20-25), Row 26 (14-15), Row 31 (23-29).
 - **Unverified but Likely Clean**: Column 14 (Rows 31-34).
 
-## Current Status (Turn 3120)
-- Bird Position: Unknown (likely flew after interaction at 15, 29).
-- Player Position: (15, 28).
-- Plan: Explore east to locate the bird. Check (22, 31) and (29, 22).
+## Current Status (Turn 3130)
+- Bird Position: Unknown (likely at 29, 22 or 22, 31).
+- Player Position: (28, 30).
+- Plan: Scout (29, 22) via Column 29 (Silent Path). Then check (22, 31).
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3'.
