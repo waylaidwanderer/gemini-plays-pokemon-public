@@ -35,6 +35,7 @@
 - Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
 - Camper Elliot (Route 35): Sandshrew (Lv 13), Marill (Lv 15)
 - Camper Ivan (Route 35): Diglett (Lv 10), Diglett (Lv 14), Zubat (Lv 10)
+- Juggler Irwin (Route 35): Voltorb (Lv 2)
 - Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Picnicker Brooke (Route 35): Pikachu (Lv 16)
 - Youngster Samuel (Route 34): Rattata (Lv 10), Spearow (Lv 12)
@@ -51,6 +52,5 @@
 - **NPC Collision**: Defeated trainers and other NPCs are solid objects.
 - **Collision Error**: Fences are WALLS. Check map data if a path looks clear but might be blocked.
 - Odd Egg status: Hatched into Cleffa (EGG) at Lv 5. (Observed Turn 3527)
-- Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Route 35 Fence: Fence ends at (6, 18). Column 4 and 5 are clear to bypass the fence.
 - Route 35 East Side: Reachable via gaps in the column 12 wall at (12, 16) and (12, 17).
