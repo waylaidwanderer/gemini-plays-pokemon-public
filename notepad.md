@@ -15,15 +15,15 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** Exiting Route 36 North to Route 37.
-    - **Location:** (28, 0).
+    - **Current Status:** Entered Route 37.
+    - **Location:** (8, 17).
     - **Health:** Muscle Lv24 (76/76 HP).
     - **Objectives:**
-        1. **Travel:** Enter Route 37.
-        2. **Travel:** Reach Ecruteak City.
+        1. **Travel:** Head North to Ecruteak City.
+        2. **Explore:** Check the "Weird Trees" at (6, 12) and (7, 12) (Likely Apricorns).
     - **Notes:**
-        - Rock Smash (TM08) obtained.
-        - East of Route 36 leads to Violet City.
+        - Route 37 connects Route 36 (South) to Ecruteak City (North).
+        - Contains Apricorn trees.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
