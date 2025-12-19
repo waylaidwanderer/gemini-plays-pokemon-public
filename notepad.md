@@ -1,17 +1,19 @@
 # Tile Mechanics
-- `FLOOR`: Traversable. Standard ground.
-- `WALL`: Impassable. Buildings, trees, boundaries.
+- `FLOOR`: Traversable. Standard ground. Verified at (5, 4) in Bill's House.
+- `WALL`: Impassable. Buildings, trees, boundaries. Verified at (4, 4) in Bill's House.
 - `WATER`: Impassable. Requires Surf HM.
 - `HEADBUTT_TREE`: Impassable. Use Headbutt.
 - `CUT_TREE`: Impassable. Use Cut.
 - `TALL_GRASS`: Traversable. Wild encounters.
 - `LONG_GRASS`: Traversable. Wild encounters.
 - `DOOR`: Traversable. Map transition.
-- `WARP_CARPET_DOWN`: Traversable. Map transition.
+- `WARP_CARPET_DOWN`: Traversable. Map transition. Verified at (2, 7) in Bill's House.
 - `FENCE`: Impassable (WALL).
 - `LEDGE_HOP_DOWN`: One-way down.
 - `LEDGE_HOP_LEFT`: One-way left.
 - `LEDGE_HOP_RIGHT`: One-way right.
+- `BOOKSHELF`: Impassable object. Verified at (1, 1) in Bill's House.
+- `RADIO`: Impassable object. Verified at (7, 1) in Bill's House.
 
 # Area Knowledge
 ## Route 35
@@ -25,6 +27,12 @@
 
 ## Goldenrod City
 - **Scripted Event**: Cleffa (EGG) hatched from the Odd Egg cannot be renamed by the Name Rater.
+- Bill's House: Located at (5, 25). Bill's mom says Bill is at the Ecruteak Pokemon Center. His husband is at the Game Corner.
+- Pokemon Center: 
+    - Lass: Advises that high levels aren't everything; type matchups are key.
+    - Pokefan F: Wants an EON MAIL for her daughter.
+    - Gameboy Kid: Colosseum upstairs is for link battles.
+    - Time Capsule: Currently "being adjusted".
 
 ## Goldenrod Underground
 - Entrance at Goldenrod City (9, 5) and (10, 5).
@@ -39,7 +47,7 @@
 - Camper Elliot: Sandshrew (Lv 13), Marill (Lv 15)
 - Juggler Irwin: Voltorb (Lv 2, 6, 10, 14)
 - Firebreather Walt: Magmar (Lv 11, 13)
-- Bug Catcher Arnie: Venonat (Lv 15)
+- Bug Catcher Arnie: Venonat (Lv 15). Arnie's phone contact: Asked about Hoothoot's weakness (Normal/Flying).
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
 - Pokemaniac Issac: Lickitung (Lv 12) (Defeated Turn 3774)
@@ -58,30 +66,19 @@
 - **Method**: Explore western Goldenrod City.
 - **Whitney Gym Strategy**: Use GNEISS (Geodude) to resist Normal moves and deal Rock damage.
 - **Spearow Delivery**: Deliver KENYA to Route 31.
-## Goldenrod Underground Plan
-- Status: Completed (Turn 3799).
-- Step 1: Get haircut for FRITTATA from younger brother (Friday). (Completed Turn 3757)
-- Step 2: Explore southern unseen tiles (Rows 20+). (Completed Turn 3785 - Found Coin Case)
-- Step 3: Exit and locate Radio Tower in Goldenrod City.
 
 ## Goldenrod City Strategy Plan
-- Status: In progress (Turn 3799).
-- Step 1: Heal at Pokemon Center. (In progress)
-- Step 2: Talk to NPCs in Pokemon Center for local info.
-- Step 3: Head west/northwest to locate the Radio Tower.
-- Step 4: Answer the quiz at the Radio Tower to obtain the Radio Card.
-- Step 5: Challenge Whitney at the Goldenrod Gym using GNEISS.
-- Step 6: Explore remaining city buildings (Dept Store, Bike Shop, etc.).
+- Status: In progress (Turn 3841).
+- Step 1: Talk to NPCs in Pokemon Center for local info. (Completed)
+- Step 2: Head west/northwest to locate the Radio Tower. (Currently at Bill's House at 5, 25)
+- Step 3: Answer the quiz at the Radio Tower to obtain the Radio Card.
+- Step 4: Challenge Whitney at the Goldenrod Gym using GNEISS.
+- Step 5: Explore remaining city buildings (Dept Store, Bike Shop, etc.).
+
 ## Reflection (Turn 3792)
 - Immediate Execution: No lapses. Tasks performed immediately.
-- Notepad Hygiene: Organized with sub-sections. Tile mechanics documented.
-- Map Hygiene: Significant discoveries marked. Redundant markers deleted (3782).
+- Notepad Hygiene: Restructured Turn 3841.
+- Map Hygiene: Significant discoveries marked. Corrected Bill's House vs Radio Tower.
 - Automation: standard tools effective.
 - Goal Clarity: Goals are concrete outcomes.
-- Error Analysis: Corrected building ID mistake (9, 5 is Underground, not Radio Tower).
-- Lass in Goldenrod Pokecenter: Advises that high levels aren't everything and type matchups are important. (Turn 3808)
-- Pokefan F in Goldenrod Pokecenter: Wants an EON MAIL for her daughter. (Turn 3810)
-- Gameboy Kid in Goldenrod Pokecenter: Mentions the Colosseum upstairs is for link battles. (Turn 3814)
-- Time Capsule in Goldenrod Pokecenter: Currently "being adjusted" and unavailable. (Turn 3825)
-- Bill's House in Goldenrod: Bill's mom (Pokefan F) says Bill is at the Ecruteak Pokemon Center. Her husband is at the Game Corner. (Turn 3837)
-- Arnie (Bug Catcher) call: Asked about Hoothoot's weakness. (Hoothoot is Normal/Flying, weak to Electric, Ice, Rock). (Turn 3839)
+- Error Analysis: Corrected building ID mistake (9, 5 is Underground, not Radio Tower). Corrected Bill's House location (5, 25).
