@@ -67,3 +67,5 @@
     - West Corridor (Column 0/1): Accessible only from Row 10. Contains Dig TM at south end.
     - NW Pocket (Rows 4-10, Cols 2-5): Isolated. Must enter/exit via Northern Perimeter at (10, 2).
 - **Route 37 Structure:** Divided into West (main path) and East (Apricorns) by trees. East side likely accessible from Ecruteak.
+- **Ecruteak City:**
+    - **Itemfinder Guy:** Says there are hidden items in the Burned Tower.
