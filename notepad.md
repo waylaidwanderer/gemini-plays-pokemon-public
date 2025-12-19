@@ -22,18 +22,12 @@
 5. Retrieve Bellsprout from the PC to teach it Cut.
 6. Use Cut to clear the path to Goldenrod City.
 
-## Party Status
-- Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
-- ROCKY (ONIX) Lv6: TACKLE, SCREECH.
-- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK THROW.
-- ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
-- EGG (TOGEPI) Lv5: GROWL, CHARM.
-- APOPHIS (EKANS) Lv4: WRAP, LEER.
+### Observed Farfetch'd Flight Logic
+- Test 1: Approached from North at (22, 30) -> Bird at (22, 31) flew East to (27, 31).
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Pokemon Center (15, 9), Kurt's House (9, 5).
 - Kurt: Usually at (3, 2) in Map 8_4.
-- Kurt's Granddaughter: Usually at (5, 3) in Map 8_4.
 
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
@@ -44,6 +38,4 @@
 - Ilex Forest: Dark area, HM05 Flash may be useful but not required.
 
 ## Progress
-- Badges: Zephyr (Violet City), Hive (Azalea Town).
-- Current Goal: Reach Goldenrod City via Ilex Forest.
-- Ilex Forest: Chasing runaway Farfetch'd. Current position: (22, 31), facing UP. Player at (22, 30). Bird just said "Kwaa!". Waiting to see flight path.
+- Ilex Forest: Chasing runaway Farfetch'd. Bird currently at (27, 31).
