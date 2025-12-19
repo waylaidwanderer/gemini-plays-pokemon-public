@@ -18,18 +18,17 @@
 - Policy: Use battle_strategist for trainer fights.
 
 # Strategy & Notes
-- Sudowoodo: Located at Route 36 (35, 9). Reacts to water (Use SQUIRTBOTTLE). (Verified: Turn #4460). Caught on Turn #4593.
+- Sudowoodo: Caught (Turn #4593).
 - Zephyr Badge: Obtained from Falkner (Turn #1636).
 - Hive Badge: Obtained from Bugsy (Turn #3354).
 - Plain Badge: Obtained from Whitney (Turn #4330).
 - TM28 (Dig): Found in National Park (1, 43) (Turn #4545).
 - TM04 (Rollout): Found on Route 35 (Turn #3895).
 - Coin Case: Found in Goldenrod Underground (Turn #4010).
-- KENYA Delivery: Recipient is near the Route 30 gate on Route 31.
+- Strategy: KENYA Delivery: Recipient is a man near the Route 30 exit of Route 31. Talk to him with KENYA in party.
 - Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 - Pokefan William (National Park): Raichu (Lv14). Gneiss is immune to its Electric moves.
-- Sudowoodo Capture Strategy: Use Rock Throw (resisted) to safely lower HP to red zone. Avoid Magnitude (super effective). Use Great Ball or Poke Balls once HP is low.
 - Arnie (Bug Catcher): Swarm notification for Yanma (verified Turn #4592) on Route 35; wants a Snubbull (Turn #4540).
 
 # General Lessons
@@ -39,8 +38,6 @@
 # Exploration Progress: Route 36
 - Sudowoodo cleared at (35, 9).
 - Path to the north (Ecruteak) and east (Violet City) is now open.
-- Current Plan: Head east through Route 36 to reach Route 31 and deliver KENYA. Then heal in Violet City.
-- Unseen tiles noted on Route 36: (28, 5-7), (30, 6-7), (53, 16-17). Will explore if they are on the way.
 
 # Item/TM Locations: Route 36
 - TM08 (Rock Smash): Received from Fisher at (44, 9) after clearing Sudowoodo. (Turn #4607)
