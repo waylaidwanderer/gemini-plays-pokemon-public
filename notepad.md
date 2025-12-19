@@ -24,12 +24,12 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** In B1F. Legendary Beasts fled.
+        - **Status:** In B1F. Legendary Beasts fled. Eusine dialogue complete.
         - **Layout:** B1F explored partially.
         - **Hazards:** Wild Pokemon likely.
-        - **Next:** Talk to Eusine. Exit and Heal.
+        - **Next:** Exit and Heal.
         - **Party Status:** Critical (Need Center).
-        - **Note:** Ladder at (10, 8) unresponsive. Checking Eusine or other exits.
+        - **Note:** Retrying ladder at (10, 8) now that event is clear. If fails, try (7, 15).
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
