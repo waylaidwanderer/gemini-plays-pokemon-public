@@ -1,4 +1,3 @@
-# Ilex Forest & Azalea Town
 ## Strategy: HM Cut
 - **Goal**: Reach Goldenrod City.
 - **How**: Use KIMCHI's CUT to clear the tree at (8, 25) in Ilex Forest.
