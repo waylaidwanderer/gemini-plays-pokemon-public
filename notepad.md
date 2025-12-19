@@ -16,9 +16,9 @@
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Status:** On Route 37.
-    - **Health:** Muscle Lv25 (76/76 HP).
+    - **Health:** Muscle Lv25 (79/79 HP).
     - **Status:** Battle with Psychic Greg Won.
-    - **Move Learning:** Declined Foresight (Relying on Dig/Psychic for Ghosts).
+    - **Move Learning:** Foresight declined.
     - **Objectives:**
         1. **Explore:** Pick Fruit from tree at (13, 5).
         2. **Travel:** Head North to Ecruteak City.
