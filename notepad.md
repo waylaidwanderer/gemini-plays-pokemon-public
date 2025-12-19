@@ -28,21 +28,12 @@
 - Note: Other matchups are based on general knowledge and require in-game verification.
 
 # Progress & Objectives
-- **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained.
+- **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained. Psychic Mark defeated.
 - **Squirtbottle Quest:** Started Turn 4268. (Ongoing)
   - 1. Talk to the Lass next to the "wiggly tree" (Sudowoodo) on Route 36.
   - 2. Return to the Flower Shop Teacher in Goldenrod (11_8) for the SQUIRTBOTTLE.
   - 3. Use SQUIRTBOTTLE on the tree on Route 36.
 - **Delivery:** Deliver KENYA (Spearow) to Route 31.
-
-# Psychic Mark Battle Log (Turn 4308+)
-- Opponent 1: Abra (Lv 13). Defeated by GNEISS.
-- Opponent 2: Abra (Lv 13). Defeated by GNEISS.
-- Opponent 3: Kadabra (Lv 15).
-- Turn 3: GNEISS missed Magnitude.
-- Turn 4: Calcifer switched in. Accuracy lowered by Kinesis.
-- Turn 5: Calcifer missed Headbutt. Kadabra's Kinesis failed.
-- Turn 6: Using HEADBUTT.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground.
@@ -52,4 +43,6 @@
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
-- GNEISS (Geodude) grew to Lv 23 during this battle.
+- GNEISS (Geodude) grew to Lv 23 during the battle with Psychic Mark.
+- Psychic Mark defeated on Turn 4331. Gains: ¥480.
+- Arnie (Bug Catcher) called about rare Ditto on Route 35.
