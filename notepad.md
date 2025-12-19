@@ -26,3 +26,17 @@
 - **Tool Hygiene**: Refined find_path_v4 and explore_unseen_v1 to treat 'unseen' tiles as impassable. Added HEADBUTT_TREE and WATER to collision checks.
 - **Item Usage**: `use_item_v4` is for the Items pocket only. TMs require manual navigation or a specialized tool.
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
+- `TALL_GRASS`: Traversable. Walking in this tile can trigger wild Pokémon encounters.
+- `LONG_GRASS`: Traversable. Functions like tall grass but with different encounter rates or species. (Observed on Route 34).
+- `DOOR`: Triggers a map transition when entered.
+
+# Area Knowledge: Route 34
+- Gatehouse to Ilex Forest at (13, 37) and (14, 37).
+- Trainer Tips sign at (13, 33).
+
+# Strategy: Reach Goldenrod City
+- **Goal**: Reach Goldenrod City via Route 34.
+- **Plan**: 
+    1. Explore Route 34 northwards.
+    2. Battle trainers to level up the team, especially FRITTATA.
+    3. Locate the Day-Care at (10, 14) and Goldenrod City at the north end.
