@@ -3,14 +3,16 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore the North-West corner of 4F, then take the ladder at (3, 5).
+- **Navigation:** Explore 5F. Battle Youngster at (8, 3).
 - **Battle Strategy:** Muscle leads.
+- **Current Location:** Olivine Lighthouse 5F.
 
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
 - **2F:** Defeated Gentleman Alfred, Sailor Huey.
 - **3F:** Defeated Bird Keeper Theo, Gentleman Preston.
-- **4F:** Defeated Lass Connie. Exploring South-East.
+- **4F:** Defeated Lass Connie. Defeated Sailor Kent. Ladder to 5F at (3, 5).
+- **5F:** Arrived. Youngster nearby.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 33. Healthy.
