@@ -36,17 +36,19 @@
 - Camper Elliot (Route 35): Sandshrew (Lv 13), Marill (Lv 15)
 - Camper Ivan (Route 35): Diglett (Lv 10), Diglett (Lv 14), Zubat (Lv 10)
 - Juggler Irwin (Route 35): Voltorb (Lv 2), Voltorb (Lv 6), Voltorb (Lv 10), Voltorb (Lv ?)
-- Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Picnicker Brooke (Route 35): Pikachu (Lv 16)
+- Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Youngster Samuel (Route 34): Rattata (Lv 10), Spearow (Lv 12)
 
 # Strategy: Route 35 & Goldenrod
 1. Clear all trainers on Route 35 for EXP and money.
 2. Find a path around the fence to reach the north side and the items.
 3. Head to Goldenrod Gym to challenge Whitney once prepared.
-4. Hatch the Odd Egg (Pip-Pip) by continuing to walk.
+4. Hatch the Odd Egg (Pip-Pip) by continuing to walk. (COMPLETED: Hatched into Cleffa/EGG Turn 3527)
+5. Rename EGG at the Name Rater in Goldenrod.
 
 # Lessons Learned
+- **Type Matchups**: Fire is neutral to Ground (Sandshrew, Diglett). Special moves like Ember are effective against Sandshrew due to its low Special Defense, even if neutral.
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability.
 - **NPC Collision**: Defeated trainers and other NPCs are solid objects.
