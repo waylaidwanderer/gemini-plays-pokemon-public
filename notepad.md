@@ -127,3 +127,10 @@
 - Question 4: Is FALKNER the VIOLET GYM LEADER who uses bird POKéMON? -> YES
 - Question 5: Do GOLDENROD GAME CORNER's slots have CHARMANDER on their reels? -> NO
 - Result: Obtained RADIO CARD.
+## Radio Tower 2F NPCs
+- Teacher at (17, 2).
+- Jigglypuff at (12, 1).
+- Beauty at (14, 5).
+
+## Radio Tower 2F Map Transitions
+- RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
