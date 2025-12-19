@@ -23,9 +23,10 @@
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **Current Pokemon:** Garnet (Quilava Lv 27, 41/76 HP).
         - **Condition:** Awake.
-        - **Gengar Status:** Accuracy -2. Missed Hypnosis again.
-        - **Action:** Select Ember (Slot 4).
-        - **Strategy:** Burn Gengar down. Smokescreen is doing its job.
+        - **Gengar Status:** Accuracy -2 (Smokescreen x2).
+        - **Action:** Use Ember (Slot 4).
+        - **Cursor:** On Smokescreen (Slot 3).
+        - **Strategy:** Burn Gengar down.
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
