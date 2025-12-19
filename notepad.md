@@ -27,7 +27,7 @@
     - Normal/Fighting moves -> Ghost.
 
 # Whitney Prep (Lv 20 Goal)
-- GNEISS (Geodude) Lv 20 reached. Training session completed. Strategy: Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
+- GNEISS (Geodude) Lv 20 reached. Strategy: Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10): Voltorb x4. Defeated.
