@@ -94,3 +94,10 @@
 - Team Rocket Grunt at (4, 16). (Turn 3854)
 - Radio Tower Entrance at (5, 15). (Turn 3854)
 - Goldenrod City Station Entrance at (9, 13). (Turn 3854)
+## Map Transitions
+- RadioTower1F (2, 7) <-> Goldenrod City (5, 15). (Turn 3856)
+- RadioTower1F (3, 7) <-> Goldenrod City (5, 15). (Turn 3856)
+
+## NPCs
+- Receptionist at (5, 6) in RadioTower1F. (Turn 3856)
+- Gentleman at (8, 6) in RadioTower1F. (Turn 3856)
