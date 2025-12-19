@@ -3,15 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Earn Fog Badge (Ecruteak Gym).
 - **Immediate Steps:**
-    1. Heal at Pokemon Center (Done).
-    2. Challenge Gym (Ghost Type - Morty).
-    3. Explore Burned Tower (Revisit?).
+    1. Find Ecruteak Mart.
+    2. Buy Super Potions and Awakenings.
+    3. Rematch Morty (Lead: Muscle).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive, Plain (3/8).
 - **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle, HM03 Surf.
 - **HM/TM:** Cut, Headbutt, Surf, Dig (TM28).
-- **Party:** Muscle (26), Garnet (26), Rocky (18), Hematite (15), Azurite (13), Belladonna (5).
+- **Party:** Muscle (30), Garnet (27), Rocky (18), Hematite (15), Azurite (13), Belladonna (5).
   - Muscle Moves: Dig, Leer, Focus Energy, Karate Chop.
 
 ## Quests & NPC Notes
@@ -19,15 +19,11 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Morty (Leader).
-        - **Opponent:** Gengar Lv 25 (Ghost/Poison).
-        - **My Pokemon:** Garnet (Quilava Lv 27, 20/76 HP).
-        - **State:** Everyone else fainted.
-        - **Strategy:** Opening Move Menu. Must use Ember (Slot 4).
-        - **Risk:** Gengar (Speed 110) vs Garnet (Speed 80). High chance of outspeed -> KO.
-        - **Win Condition:** Gengar uses non-damaging move or misses.
-        - **Puzzle:** Solved.
-        - **Current Position:** (5, 2).
+        - **Status:** Defeated by Morty. Whited out.
+        - **Lesson:** Gengar is faster and hits hard. Garnet couldn't tank it.
+        - **New Strategy:** Muscle (Machoke) with Dig. Dig is Super Effective vs Poison and dodges attacks.
+        - **Preparation:** Must buy Super Potions and Awakenings (Hypnosis counter).
+        - **Next Step:** Find Mart in Ecruteak, buy supplies, then Rematch.
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
