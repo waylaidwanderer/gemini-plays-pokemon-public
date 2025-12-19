@@ -15,16 +15,15 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** On Route 37.
-    - **Location:** (7, 13).
-    - **Health:** Full.
-    - **Encounters:** Twins Ann & Anne at (6, 12) and (7, 12). They are trainers, not fruit trees.
+    - **Current Status:** Battling Twins Ann & Anne on Route 37.
+    - **Health:** Muscle Lv24 (76/76 HP).
+    - **Opponent:** Jigglypuff Lv16.
     - **Objectives:**
-        1. **Battle:** Defeat Twins Ann & Anne.
+        1. **Battle:** Defeat Twins Ann & Anne (Likely 2 Jigglypuffs or similar).
         2. **Travel:** Head North to Ecruteak City.
     - **Notes:**
         - Route 37 connects Route 36 (South) to Ecruteak City (North).
-        - Corrected "Weird Trees" hypothesis; they are NPCs.
+        - "Weird Trees" were trainers.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
