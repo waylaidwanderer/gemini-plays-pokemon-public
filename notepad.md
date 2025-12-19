@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Exit the enclosure by heading East to x=8, then go South to Olivine City.
-- **Immediate Goal:** Move East to rejoin the main road.
+- **Navigation:** Enter Olivine City (South) and heal Lapis.
+- **Immediate Goal:** Head South to transition map.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
