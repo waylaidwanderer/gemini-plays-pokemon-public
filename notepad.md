@@ -2,8 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Talk to Fisher (2, 3), then Fishing Guru (8, 4), then find the Lighthouse.
-- **Immediate Goal:** Interact with Fisher.
+- **Navigation:** Talk to Fishing Guru (8, 4), then go to Olivine Cafe for Strength HM.
+- **Notes:** Fisher said Sailor in Cafe (next door) teaches Strength.
+- **Immediate Goal:** Talk to Fishing Guru.
 - **Status:** Lapis healed.
 - **Current Location:** Olivine Pokemon Center.
 
