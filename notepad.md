@@ -30,11 +30,14 @@
 - HARD STONE: Held by GNEISS.
 - SQUIRTBOTTLE: In Key Pocket.
 
-# Strategy: Reach Route 36
-- Path: Route 35 -> Cut Tree at (17, 6) -> Route 36.
-- Alternative Path: Route 35 -> National Park -> Route 36.
-
 # Strategy: KENYA Delivery
 - Goal: Deliver Spearow (KENYA) to the guy on Route 31.
-- Route: Goldenrod -> Route 35 -> Route 36 -> Violet City -> Route 31.
-- Status: KENYA in party.
+- Steps:
+  1. Travel to Route 31 via Route 35, Route 36, and Violet City.
+  2. Locate the recipient NPC (near the gate to Route 30).
+  3. Speak to him to hand over KENYA and receive a reward.
+- Status: KENYA (Spearow) is in the party.
+
+# Strategy: Reach Route 36
+- Route 35 is divided by a fence. To cross from the west side to the east side, use the gap in the fence at (12, 17).
+- Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
