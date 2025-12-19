@@ -16,9 +16,12 @@
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Status:** Battling Psychic Greg on Route 37.
-    - **Status:** Engaged in battle.
+    - **Opponent:** Drowzee (Lv17).
+    - **Health:** Muscle Lv24 (76/76 HP).
+    - **Matchup:** Bad. Fighting moves are NVE. Psychic moves are SE against Machop.
+    - **Strategy:** Muscle stays in for one turn to test damage. Expecting Hypnosis.
     - **Objectives:**
-        1. **Battle:** Defeat Psychic Greg (formerly identified as Youngster).
+        1. **Battle:** Defeat Psychic Greg.
         2. **Explore:** Pick Fruit from tree at (13, 5).
         3. **Travel:** Head North to Ecruteak City.
     - **Notes:**
