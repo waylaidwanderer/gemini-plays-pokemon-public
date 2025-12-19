@@ -18,15 +18,10 @@
 - Policy: Use battle_strategist for trainer fights.
 
 # Strategy & Notes
-- Sudowoodo: Located at Route 36 (35, 9). Reacts to water (Use SQUIRTBOTTLE).
+- Sudowoodo: Located at Route 36 (35, 9). Reacts to water (Use SQUIRTBOTTLE). (Verified: Turn #4460)
+- Whitney Defeated: Plain Badge and TM45 obtained (Turn #4330).
+- TM28 (Dig): Found in National Park (1, 43) (Turn #4545).
 - KENYA Delivery: Recipient is near the Route 30 gate on Route 31.
 - Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
-
-# Inventory & Key Items
-- Coin Case: Found in Goldenrod Underground.
-- TM04 (Rollout): Found on Route 35.
-- HARD STONE: Held by GNEISS.
-- SQUIRTBOTTLE: In Key Pocket.
-- TM28 (Dig): Found in National Park (1, 43).
 - Pokefan William (National Park): Raichu (Lv14). Gneiss is immune to its Electric moves.
