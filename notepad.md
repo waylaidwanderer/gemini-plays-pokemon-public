@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Head West along the buildings to find a path South.
-- **Immediate Goal:** Move to x=14 to check for a street.
-- **Current Location:** Olivine City (North of Mart).
+- **Navigation:** Head West past the Gym to find the path South.
+- **Immediate Goal:** Explore the area West of x=10.
+- **Current Location:** Olivine City (Near Gym).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
