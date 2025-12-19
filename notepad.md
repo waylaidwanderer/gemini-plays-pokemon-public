@@ -10,13 +10,13 @@
 - **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
 ## Strategy: Current Plan
-1. **Status**: Bird is at (22, 31) facing RIGHT.
-2. **Action**: Drive bird North by interacting from the South (22, 32).
-3. **Pathing**: Approach (22, 32) via clean ground to avoid alerting it.
+1. **Status**: Bird is at (22, 31) facing UP.
+2. **Action**: Catch bird by interacting from the South (22, 32).
+3. **Approach**: Already at (22, 32) behind it.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
-- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd. (Verified Row 31, X=23-29).
+- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd. (Verified Row 31, X=23-29). (22, 31) is clean.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
