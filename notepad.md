@@ -19,14 +19,13 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Granny (Medium Grace). Defeated Haunter #1. Facing Haunter #2.
+        - **Status:** Defeated Granny (Medium Grace).
         - **Strategy:** Muscle (Machoke) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
-        - **Path:** Zig-Zag confirmed by XML.
+        - **Path:**
             - **Current:** At (6, 9).
-            - **Obstacle:** (6, 8) is a PIT.
-            - **Plan:** After defeating Granny, go LEFT to column 3.
-            - **Route:** (6, 9) -> (3, 9) -> (3, 8) -> (3, 7) [Sage].
+            - **Next Target:** Sage at (2, 7).
+            - **Route:** (6, 9) -> (3, 9) -> (3, 8) -> (3, 7).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
