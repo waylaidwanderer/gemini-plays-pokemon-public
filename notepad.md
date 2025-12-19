@@ -16,12 +16,13 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
 
 ## Current Status
-- Bird is at (15, 25). Facing: LEFT.
+- Bird is at (15, 25). Facing: DOWN.
 - Target: (15, 24) (Behind).
 - Approach: 
-  1. Step on (15, 26) to make it face DOWN.
-  2. Retreat and take the long way around: (15, 27) -> Row 30/31 -> Col 29 -> Row 22 -> (22, 22) ledge -> (15, 24).
-- Reason: Avoids all noisy tiles near the bird while it's facing DOWN. (15, 24) is the only silent success tile.
+  1. Retreat to (15, 27) then move to (29, 25) via Row 34 (Silent).
+  2. Move to (22, 22) and hop the ledge.
+  3. Reach (15, 24) from the north.
+- Reason: Avoids all noisy tiles near the bird while it's facing DOWN. (15, 24) is the only success tile. Row 34 passage is clean.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
