@@ -42,7 +42,7 @@
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
 - Pokemaniac Issac: Lickitung (Lv 12) (Defeated Turn 3774)
-- Super Nerd Eric: Grimer (Lv 11) (Battling Turn 3777)
+- Super Nerd Eric: Grimer (Lv 11), Grimer (Lv 11) (Defeated Turn 3785)
 - Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv 11), Magnemite (Lv 9), Magnemite (Lv 7)
 
 # Battle Notes
