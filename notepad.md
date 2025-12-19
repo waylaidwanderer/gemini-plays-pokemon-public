@@ -41,3 +41,6 @@
 - Path to the north (Ecruteak) and east (Violet City) is now open.
 - Current Plan: Head east through Route 36 to reach Route 31 and deliver KENYA. Then heal in Violet City.
 - Unseen tiles noted on Route 36: (28, 5-7), (30, 6-7), (53, 16-17). Will explore if they are on the way.
+
+# Item/TM Locations: Route 36
+- TM08 (Rock Smash): Received from Fisher at (44, 9) after clearing Sudowoodo. (Turn #4607)
