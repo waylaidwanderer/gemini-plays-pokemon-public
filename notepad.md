@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Head South past Beauty Valerie (5, 8), then check West.
-- **Battle Strategy:** Muscle in lead. Watch for Beauty's Pokemon.
+- **Navigation:** Defeat Beauty Valerie (Trainer Battle).
+- **Battle Strategy:** Muscle in lead. Expect Normal/Grass types.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
