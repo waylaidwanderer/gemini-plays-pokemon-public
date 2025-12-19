@@ -121,8 +121,8 @@
 - Answer 1: YES (Correct)
 - Question 2: You can't buy a BERRY at a MART.
 - Answer 2: YES
-- Question 3: 
-- Answer 3: 
+- Question 3: Does HM01 contain the move FLASH?
+- Answer 3: NO
 - Question 4: 
 - Answer 4: 
 - Question 5: 
