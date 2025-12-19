@@ -41,4 +41,5 @@
     - Defeated: Miki (Jolteon), Kuni (Vaporeon), Zuki (Umbreon), Sayo (Espeon), Naoko (Flareon).
     - Status: Completed. Received HM03 (Surf) from Gentleman.
 - **Needs:** Pokemon that can learn Surf. (Sentret is caught but not in Box 1. Check other boxes or catch a Poliwag).
-- **Mom:** Bought an item with my money (Check GEM's PC).
+- **Mom:** Bought Super Potions (Withdrawing now).
+- **Needs:** Pokemon that can learn Surf. (Sentret is caught but not in Box 1. Check other boxes).
