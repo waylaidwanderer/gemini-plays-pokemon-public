@@ -21,7 +21,7 @@
 
 ## Quests
 - **Webster:** Deliver mail to Route 31.
-- Observation: Performed "Deep Refresh" (5F -> 4F -> 5F).
-- Plan: Navigate to (9, 3) and talk to Denis from the East. If he doesn't move, investigate (8, 3) as a potential hole.
-- Hypothesis: (8, 3) is the entrance to the Center Room.
+- Observation: Currently attempting to reach Denis at (8, 3) from the East side (9, 3).
+- Plan A: Talk to Denis. If he leaves, investigate (8, 3).
+- Plan B: If Denis stays, explore Column 9 from the South (via West side Row 14) to see if I can bypass the Sailor.
 - Current Location: OlivineLighthouse5F.
