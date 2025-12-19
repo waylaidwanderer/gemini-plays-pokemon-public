@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Battle Schoolboy Chad (Mr. Mime), then head South.
-- **Battle Strategy:** Muscle uses Dig vs Mr. Mime (Psychic). Watch HP (Weakness).
+- **Navigation:** Head South past Beauty Valerie (5, 8), then check West.
+- **Battle Strategy:** Muscle in lead. Watch for Beauty's Pokemon.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
