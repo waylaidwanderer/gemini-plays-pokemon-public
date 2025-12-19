@@ -3,7 +3,8 @@
 - Ekans cannot learn CUT.
 - Plan: Catch a Paras or Oddish.
 - Catch Strategy: Weaken with lower-level PKMN (Rocky/Icarus). Use Poké Balls.
-- Status: Rocky fainted to Absorb (4x weak). Icarus is currently weakening Oddish (Turn 3181).
+- Status: Caught Oddish (Kimchi). Rocky fainted. Kimchi is in the PC.
+- Plan: Nickname Kimchi, go to Pokemon Center, swap Rocky for Kimchi, teach CUT, and clear the tree.
 
 ## Global Tile Mechanics
 - FLOOR: Standard ground.
