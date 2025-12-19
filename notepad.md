@@ -19,8 +19,8 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Granny #2 (Medium Martha?).
-        - **Strategy:** Muscle (Machoke) with Dig.
+        - **Status:** Battling Granny #2 (Medium Martha). Defeated Gastly (Lv 18). Facing Haunter.
+        - **Strategy:** Cancel accidental switch (keep Muscle). Use Dig vs Haunter.
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
