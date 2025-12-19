@@ -37,7 +37,7 @@
   - Lead with GNEISS (Geodude). Rock/Ground resists Normal and Rock moves.
   - If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI) to tank the hit and force a reset.
   - Use Magnitude to burst through Milk Drink.
-- **Battle Status:** Started Turn 4207. Clefairy defeated. Miltank active (~70% HP). GNEISS at 55/57 HP.
+- **Battle Status:** Whitney defeated (Turn 4244). Waiting for Plain Badge. GNEISS at 53/57 HP.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
