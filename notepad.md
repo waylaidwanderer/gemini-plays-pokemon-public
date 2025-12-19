@@ -53,3 +53,6 @@
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
+- Turn 1 (Turn 4309): GNEISS used Magnitude 5 (Critical). Abra used Flash (Accuracy -1). Abra fainted. GNEISS grew to Lv 23.
+- Turn 2 (Turn 4314): Psychic Mark sent out Abra.
+- Plan: Use MAGNITUDE.
