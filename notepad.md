@@ -26,6 +26,7 @@
 - Underground South Entrance at (11, 29).
 - Radio Tower: Promotional campaign for Pokégear radio card. (Turn 3466)
 - Target: Goldenrod Gym (Whitney), Radio Tower, Department Store.
+- Hypothesis: Door at (14, 21) is likely the Game Corner entrance.
 
 ## Route 35
 - Gatehouse at (19, 1) in Goldenrod connects to Route 35.
@@ -36,7 +37,7 @@
 - Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
 
 # Strategy: Goldenrod Exploration
-1. Return to Pokémon Center to deposit a Pokémon (ICARUS) and free a slot for the Officer's quest.
+1. Return to Pokémon Center to deposit a Pokémon (ICARUS) and free a slot for the Officer's quest. (Completed Turn 3504)
 2. Return to Gatehouse, accept the Spearow, and proceed to Route 35.
 3. Systematically explore Goldenrod quadrants: Gym, Radio Tower, Dept. Store.
 4. Speak to all NPCs for city lore and items (Bike, Coin Case).
@@ -48,4 +49,3 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched Turn 3330.
 - **NPC Collision**: Defeated trainers (and others) are solid objects.
 - Odd Egg status: "Needs more time". (Turn 3477 summary check).
-- Goldenrod: Door at (14, 21) is likely the Game Corner entrance.
