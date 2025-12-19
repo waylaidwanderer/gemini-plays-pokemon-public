@@ -19,8 +19,9 @@
     - **Health:** Muscle Lv24 (76/76 HP).
     - **Status:** Defeated Twins Ann & Anne.
     - **Objectives:**
-        1. **Travel:** Head North to Ecruteak City.
-        2. **Explore:** Pick Apricorns from trees at (4, 5), (5, 5), (6, 5) if they exist.
+        1. **Battle:** Defeat Youngster at (6, 6).
+        2. **Explore:** Pick Fruit from tree at (13, 5).
+        3. **Travel:** Head North to Ecruteak City.
     - **Notes:**
         - Route 37 connects Route 36 (South) to Ecruteak City (North).
         - "Weird Trees" were trainers (Twins).
