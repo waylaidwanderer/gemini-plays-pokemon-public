@@ -44,7 +44,7 @@
 - Entrance at Goldenrod City (9, 5) and (10, 5).
 - Pokemaniac Donald at (19, 27) in entrance room warns of "rough" battles downstairs.
 - Teacher at (3, 27) in entrance room expresses fear of the Underground.
-- Haircut Brother: Younger brother appears on Fridays in Goldenrod Underground. Cost: ¥300. Increases Pokémon happiness. (Confirmed Turn 3752).
+- Haircut Brother: Younger brother appears on Fridays in Goldenrod Underground. Cost: ¥300. Increases Pokémon happiness.
 
 # Trainer Roster
 - Picnicker Kim: Vulpix (Lv 15)
@@ -56,8 +56,8 @@
 - Bug Catcher Arnie: Venonat (Lv 15). Arnie's phone contact: Asked about Hoothoot's weakness (Normal/Flying).
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
-- Pokemaniac Issac: Lickitung (Lv 12) (Defeated Turn 3774)
-- Super Nerd Eric: Grimer (Lv 11), Grimer (Lv 11) (Defeated Turn 3785)
+- Pokemaniac Issac: Lickitung (Lv 12)
+- Super Nerd Eric: Grimer (Lv 11), Grimer (Lv 11)
 - Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv 11), Magnemite (Lv 9), Magnemite (Lv 7)
 
 # Battle Notes
@@ -109,7 +109,6 @@
 - RadioTower1F (3, 7) <-> Goldenrod City (5, 15).
 
 ## Radio Tower NPCs
-- Receptionist at (5, 6): Just says "Welcome!".
 - Gentleman at (8, 6).
 - PC at (0, 1).
 - Cooltrainer F at (12, 6): Initiates the Radio Tower Quiz.
@@ -118,10 +117,10 @@
 - Lass at (16, 4).
 
 ## Radio Tower Quiz
-- Question 1: 
-- Answer 1: 
-- Question 2: 
-- Answer 2: 
+- Question 1: Is there a POKéMON that appears only in the morning?
+- Answer 1: YES (Correct)
+- Question 2: You can't buy a BERRY at a MART.
+- Answer 2: YES
 - Question 3: 
 - Answer 3: 
 - Question 4: 
