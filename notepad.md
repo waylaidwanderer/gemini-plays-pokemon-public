@@ -23,9 +23,10 @@
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **Current Pokemon:** Muscle (Machoke Lv 31, 53/102 HP).
         - **Condition:** Cursed, Trapped (Mean Look), Disobeying (Lv > 30).
-        - **Action:** Selecting Super Potion to heal Muscle.
-        - **Strategy:** Heal -> Hope for obedience on Dig.
-        - **Backup:** Garnet (Lv 27) (but can't switch).
+        - **Critical Info:** Hive Badge only ensures obedience up to Lv 30. Muscle is Lv 31.
+        - **Turn Calculation:** Item (+50) -> 102 HP. Gengar Atk (~25) -> 77 HP. Curse (-25) -> 52 HP. Safe.
+        - **Strategy:** Survive with Potions until Muscle obeys and uses Dig.
+        - **Backup:** None (Trapped).
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
