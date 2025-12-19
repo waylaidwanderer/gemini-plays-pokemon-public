@@ -30,3 +30,10 @@
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
+## Strategy: Catching Bird at (15, 25) [Facing DOWN]
+- **Problem**: (15, 24) is a pocket blocked by walls and the bird itself.
+- **Plan**: Startle it from the front (15, 26) to make it fly to a better location.
+- **Steps**:
+  1. RUN from battle.
+  2. Walk to (15, 26).
+  3. Interact (A) to startle.
