@@ -15,10 +15,10 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30.
 
 ## Current Status
-- Bird is at (15, 29). Facing: LEFT.
-- Position: I am at (15, 30) (Side).
-- Action: Interact (A) to startle it.
-- Reason: I can't get behind it without making it turn again. Startling it is the best way to reset the situation.
+- Bird is at (15, 29). Facing: DOWN.
+- Position: I am at (15, 30) (Front).
+- Action: Clear text (A), then observe.
+- Reason: I'm in front of it. It might fly away once the text is cleared.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
