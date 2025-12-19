@@ -22,7 +22,8 @@
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Gym Guide:** Conspiracy at Lake of Rage (Gyarados).
     - **Pokefan:** Kimono Girls are tough.
-    - **Gym:** Morty is currently absent. Must find him (Burned Tower?).
+    - **Gym:** Morty is absent. An old man kicked me out ("Hohohoho").
+    - **Objective:** Find Morty at Burned Tower (North-West).
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
