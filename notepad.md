@@ -64,4 +64,5 @@
 - Turn 5 (Turn 4221): Miltank used Rollout (Turn 3). GNEISS missed. HP: 15/57.
 - Turn 6 (Turn 4223): Switched GNEISS for FRITTATA. Miltank used Rollout (Turn 4). FRITTATA fainted.
 - Turn 8 (Turn 4225): Sent KIMCHI. Miltank used STOMP. KIMCHI fainted. Rollout chain ended.
-- Strategy: Send GNEISS back in. Use Super Potion to heal up, then Magnitude to finish. GNEISS resists Stomp and Rollout. GNEISS is female (immune to Attract). HP: 15/57.
+- Turn 9 (Turn 4229): GNEISS is back in. Stats reset (Defense Curl boost is GONE). HP: 15/57.
+- Strategy: Use SUPER POTION on GNEISS. Then use MAGNITUDE. GNEISS resists Stomp and Rollout. GNEISS is female (immune to Attract). HP: 15/57. Preserve Calcifer as backup.
