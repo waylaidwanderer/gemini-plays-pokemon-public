@@ -15,18 +15,16 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** Battling Twins Ann & Anne on Route 37.
+    - **Current Status:** On Route 37.
     - **Health:** Muscle Lv24 (76/76 HP).
-    - **Opponent:** Clefairy (Lv16) is active.
-    - **Battle Log:**
-        - Jigglypuff (Lv16): OHKO by Low Kick.
-        - Clefairy (Lv16): Targeted by Low Kick.
+    - **Status:** Defeated Twins Ann & Anne.
     - **Objectives:**
-        1. **Battle:** OHKO Clefairy with Low Kick.
-        2. **Travel:** Head North to Ecruteak City.
+        1. **Travel:** Head North to Ecruteak City.
+        2. **Explore:** Pick Apricorns from trees at (4, 5), (5, 5), (6, 5) if they exist.
     - **Notes:**
-        - Fighting (Low Kick) is SE vs Normal (Clefairy).
-        - **Desync Note:** Screen shows battle menu, history shows battle won. Assuming battle is still active or needs text clearing.
+        - Route 37 connects Route 36 (South) to Ecruteak City (North).
+        - "Weird Trees" were trainers (Twins).
+        - **Historical:** Goldenrod Gym Defeated (Plain Badge). Whitney cried. Got Squirtbottle. Cleared Sudowoodo.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
