@@ -52,4 +52,4 @@
 
 # Gym Navigation (Started Turn 4141)
 - Goal: Find and defeat Whitney.
-- Current Status: Navigating the maze. Defeated Beauty Victoria. Whitney spotted at (8, 3). Trainer Lass at (9, 6) and (9, 13). Trainer Beauty at (19, 5).
+- Current Status: Navigating the maze. Defeated Beauty Victoria. Whitney spotted at (8, 3). Battling Beauty Samantha at (19, 7). Trainer Lass at (9, 6) and (9, 13).
