@@ -22,11 +22,11 @@
         - **Status:** Battling Granny (2/4 Trainers).
         - **Strategy:** Muscle (Machoke) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
-        - **Path:** Zig-Zag pattern?
-            - **Current:** At (6, 9). Granny is at (7, 9).
-            - **Next Steps:** Defeat Granny. Move Left to (3, 9). Move Up to (3, 8). Move Right to (6, 7)?
-            - **Concern:** (6, 7) is marked as FLOOR but is-warp="true". Might be a trap, or the only path.
-            - **Hypothesis:** Zigzag: Col 6 -> Col 3 -> Col 6?
+        - **Path:** Zig-Zag confirmed by XML.
+            - **Current:** At (6, 9).
+            - **Obstacle:** (6, 8) is a PIT.
+            - **Plan:** After defeating Granny, go LEFT to column 3.
+            - **Route:** (6, 9) -> (3, 9) -> (3, 8) -> (3, 7) [Sage].
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
