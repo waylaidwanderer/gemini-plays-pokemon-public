@@ -20,7 +20,10 @@
     - **Health:** Muscle Lv24 (76/76 HP).
     - **Status:** Low Kick DISABLED.
     - **Matchup:** Bad (Fighting is NVE).
-    - **Strategy:** Use Karate Chop (Slot 4). Even though NVE, it has STAB and High Crit.
+    - **Strategy:** Karate Chop (Slot 4).
+    - **Battle Log:**
+        - Turn 1: Low Kick (Disabled). Drowzee used Hypnosis (Failed).
+        - Turn 2: Karate Chop. Drowzee used Disable on Low Kick.
     - **Objectives:**
         1. **Battle:** Defeat Psychic Greg.
         2. **Explore:** Pick Fruit from tree at (13, 5).
