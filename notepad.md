@@ -38,7 +38,7 @@
 - Firebreather Walt: Magmar (Lv 11, 13)
 - Bug Catcher Arnie: Venonat (Lv 15)
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
-- Pokemaniac Donald: Slowpoke (Lv 10)
+- Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
 
 # Battle Notes
 - Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Verified neutral damage.
