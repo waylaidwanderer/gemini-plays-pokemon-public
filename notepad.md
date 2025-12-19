@@ -15,15 +15,16 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30.
 
 ## Current Status
-- Bird is at (15, 29). Facing: UP.
-- Target: (15, 30) (Behind).
-- Approach: Sneak around via the far left. 
-  1. Move to (15, 25) to leave.
-  2. Go to Entrance (3, 42) via the corridor at col 29.
-  3. Go up far left (col 1) to Row 29.
-  4. Go right to col 8, then down to Row 34.
-  5. Go right to (14, 34), then up to (15, 30).
-- Reason: Avoids all noisy tiles near the bird while it's facing UP. Row 34 passage at (14, 34) is the key.
+- Bird is at (15, 29). Facing: RIGHT.
+- Target: (14, 29) (Behind).
+- Approach: Long-range flank to avoid noisy tiles.
+  1. Move to (29, 25) (Clean corridor).
+  2. Go South to Row 42/43 (Entrance area).
+  3. Go West to col 1.
+  4. Go North to Row 35/34.
+  5. Go East to col 14 (Passage at col 8-14).
+  6. Go North to (14, 29).
+- Reason: The bird is facing RIGHT, so its back is at (14, 29). Approaching from the North or East is too noisy. This route is silent.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
