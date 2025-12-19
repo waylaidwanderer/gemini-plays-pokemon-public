@@ -16,13 +16,10 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
 
 ## Current Status
-- Bird is at (15, 25). Facing: DOWN.
-- Target: (15, 24) (Behind).
-- Approach: 
-  1. Retreat to (15, 27) then move to (29, 25) via Row 34 (Silent).
-  2. Move to (22, 22) and hop the ledge.
-  3. Reach (15, 24) from the north.
-- Reason: Avoids all noisy tiles near the bird while it's facing DOWN. (15, 24) is the only success tile. Row 34 passage is clean.
+- Bird is at (15, 25). Facing: LEFT.
+- Position: I am at (15, 24) (Side).
+- Action: Interact (A).
+- Reason: The bird is facing left, so I'm at its side. I'll see if this advances the quest or makes it fly. (16, 25) is a wall, so I can't get behind it while it faces left.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
