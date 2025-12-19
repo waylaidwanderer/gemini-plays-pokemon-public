@@ -42,3 +42,5 @@
 - **Correction:** Previous map data showing a ladder at (9, 5) was incorrect; it is a wall.
 - **Encounter:** Met Sailor in 5F Center Room at (8, 10).
 - **Plan:** Defeat Sailor, then continue South to uncover tiles (9, 14)/(9, 15) and find the ladder to 6F.
+- **Battle:** Immediately challenged by Sailor Ernest after defeating Terrell.
+- **Plan:** Defeat Sailor Ernest. Continue South to tiles (9, 14)/(9, 15).
