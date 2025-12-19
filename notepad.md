@@ -5,7 +5,7 @@
 - **Immediate Steps:**
     1. Heal at Ecruteak Center (Done).
     2. Access PC (Sentret Missing).
-    3. Buy Pokeballs at Mart (10 Poke Balls).
+    3. Buy Pokeballs at Mart (Done).
     4. Catch Poliwag (Old Rod) in Ecruteak City ponds for Surf.
     5. Head West to Route 38.
 
