@@ -29,31 +29,25 @@
 
 # Progress & Objectives
 - **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained.
-- **Squirtbottle Quest:** Started Turn 4268.
-- **Squirtbottle Quest:**
+- **Squirtbottle Quest:** Started Turn 4268. (Ongoing for ~56 turns)
   - Talk to the Lass next to the "wiggly tree" (Sudowoodo) on Route 36 first.
   - Path: Goldenrod -> Route 35 (via Cut tree at 17, 6) -> Route 36.
   - After talking to the Lass, return to the Teacher in the Flower Shop (Goldenrod) to get the SQUIRTBOTTLE.
 - **Delivery:** Deliver KENYA (Spearow) to Route 31.
+
+# Psychic Mark Battle Log (Turn 4308+)
+- Opponent 1: Abra (Lv 13). Defeated by GNEISS (Magnitude 5 Crit).
+- Opponent 2: Abra (Lv 13). Defeated by GNEISS (Magnitude 8).
+- Opponent 3: Kadabra (Lv 15).
+- Turn 3 (Turn 4318): Psychic Mark sent out Kadabra. GNEISS accuracy lowered by Flash and Kinesis. Magnitude missed.
+- Turn 4 (Turn 4323): Switched to Calcifer (Lv 26). Kadabra used Kinesis (Calcifer Accuracy -1).
+- Plan: Use HEADBUTT.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground.
 - TM04 (Rollout): Found on Route 35.
 - HARD STONE: Held by GNEISS.
 
-# Area Knowledge
-- Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
-- Flower Shop: Located north of the Gym in Goldenrod City. Teacher NPC at (2, 4).
-
-# Psychic Mark Battle Log (Turn 4308+)
-- Opponent 1: Abra (Lv 13). Defeated by GNEISS (Magnitude 5 Crit).
-- Opponent 2: Abra (Lv 13). Defeated by GNEISS (Magnitude 8).
-- Opponent 3: Kadabra (Lv 15).
-- My Lead: GNEISS (Geodude) Lv 23. (Accuracy -1 from Flash).
-- Plan: Stay in with GNEISS, use MAGNITUDE.
-
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
-- GNEISS (Geodude) grew to Lv 23 during this battle.
-- Turn 3 (Turn 4318): Psychic Mark is about to use Kadabra. GEM chose not to switch.
