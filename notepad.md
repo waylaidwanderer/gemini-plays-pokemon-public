@@ -6,17 +6,17 @@
 ## Puzzle Mechanics
 - **Apprentice Hint**: "You have to get behind it to catch it."
 - **Startle Logic**: Interacting from any side makes the bird fly ~6 tiles along the forest path away from the player.
-- **Twig Logic**: Tiles with dark specs are noisy (Row 31 verified). Stepping on them near the bird makes it turn to face the player.
+- **Twig Logic**: Tiles with dark specs are noisy. Stepping on them near the bird makes it turn to face the player.
 - **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
 ## Strategy: Current Plan
-1. **Status**: Bird is at (22, 31) facing DOWN.
-2. **Action**: Clear text. Observe flight North to Row 28 (Clean ground).
-3. **Catch**: Get behind it on clean floor.
+1. **Status**: Bird flew to (18, 29).
+2. **Action**: Approach from behind (likely East at 19, 29) on clean ground.
+3. **Catch**: Interact from behind to finally end the chase.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
-- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd. (Verified Row 31, X=23-29). (22, 31) is clean.
+- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd. (Verified Row 31 X=23-29).
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
