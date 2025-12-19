@@ -22,10 +22,10 @@
         - **Status:** Battling Morty (Leader).
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **My Pokemon:** Garnet (Quilava Lv 27, 20/76 HP).
-        - **State:** Everyone else fainted. No healing items.
-        - **Strategy:** Must use Ember. Quick Attack (Normal) is immune.
-        - **Risk:** Gengar is likely faster (Base 110 vs 80). Night Shade (25 dmg) = Instant KO.
-        - **Next Step:** Open Fight menu manually to verify cursor position (likely on Ember) before attacking.
+        - **State:** Everyone else fainted.
+        - **Strategy:** Selecting FIGHT. Next turn: Verify cursor, use Ember.
+        - **Risk:** Gengar (Speed 110) vs Garnet (Speed 80). High chance of outspeed -> KO.
+        - **Win Condition:** Gengar uses non-damaging move (Hypnosis/Mean Look/Spite) OR misses.
         - **Puzzle:** Solved.
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
