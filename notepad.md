@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Defeat Beauty Olivia (Trainer Battle).
-- **Battle Strategy:** Muscle in lead. Expect Normal/Grass types.
+- **Navigation:** Continue West to Route 39 / Olivine City.
+- **Battle Strategy:** Muscle in lead. Watch for Trainers on the road.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
