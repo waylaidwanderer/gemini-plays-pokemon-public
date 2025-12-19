@@ -17,15 +17,15 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Status:** Battling Twins Ann & Anne on Route 37.
     - **Health:** Muscle Lv24 (76/76 HP).
-    - **Opponent:** Clefairy (Incoming).
+    - **Opponent:** Clefairy (Lv16) is active.
     - **Battle Log:**
-        - Jigglypuff (Lv16): OHKO by Muscle (Low Kick).
+        - Jigglypuff (Lv16): OHKO by Low Kick.
+        - Clefairy (Lv16): Targeted by Low Kick.
     - **Objectives:**
-        1. **Battle:** Defeat Clefairy with Muscle (Low Kick).
+        1. **Battle:** OHKO Clefairy with Low Kick.
         2. **Travel:** Head North to Ecruteak City.
     - **Notes:**
-        - Route 37 connects Route 36 (South) to Ecruteak City (North).
-        - "Weird Trees" were trainers.
+        - Fighting (Low Kick) is SE vs Normal (Clefairy).
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
