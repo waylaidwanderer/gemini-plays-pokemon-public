@@ -134,3 +134,5 @@
 
 ## Radio Tower 2F Map Transitions
 - RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
+- Black Belt at (0, 1) in RadioTower2F.
+- Stairs to 3F at (0, 0) in RadioTower2F.
