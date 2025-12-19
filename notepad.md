@@ -11,7 +11,7 @@
 - `LEDGE_HOP_LEFT/RIGHT/DOWN`: One-way traversal.
 
 # Area Knowledge
-## Route 35
+## Route 35 (Exploration started Turn 3513)
 - Goldenrod Gate at (9, 33) and (10, 33).
 - Mystery Warp at (3, 5) leads to National Park.
 - Wall at Column 12: Gaps are at (12, 8), (12, 9), (12, 16), and (12, 17).
