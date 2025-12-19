@@ -40,3 +40,6 @@
 - Coin Case: Found in Goldenrod Underground (Turn 3971).
 - TM04 (Rollout): Found on Route 35 (Turn 3994).
 - HARD STONE: Held by GNEISS.
+
+# Area Knowledge
+- Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
