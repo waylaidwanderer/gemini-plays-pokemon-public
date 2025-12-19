@@ -60,5 +60,6 @@
 - Turn 1: GNEISS used Magnitude 6. Clefairy used Metronome (Milk Drink), HP full.
 - Turn 2: GNEISS used Magnitude 8. Clefairy used DoubleSlap (not effective). Clefairy fainted.
 - Turn 3 (Turn 4215): Whitney sent out Miltank (Lv 20). Miltank used Rollout (not effective, 2 damage). GNEISS used Defense Curl.
-- Turn 4 (Turn 4219): Selecting ROLLOUT. GNEISS is female, immune to Attract.
-- Strategy: Defense Curl (Turn 3) -> Rollout (Turn 4+). Gneiss resists Stomp and Rollout. Power of Rollout doubles after Defense Curl. Rollout buildup should bypass Milk Drink.
+- Turn 4 (Turn 4219): Miltank used Rollout (Critical, 8 damage total). GNEISS used Rollout, but missed.
+- Turn 5: Plan to use ROLLOUT again. GNEISS is female, immune to Attract.
+- Strategy: Defense Curl (Turn 3) -> Rollout (Turn 4+). Gneiss resists Stomp and Rollout. Power of Rollout doubles after Defense Curl. Rollout buildup should bypass Milk Drink. HP is 35/57.
