@@ -19,9 +19,8 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Medium Martha. Defeated Gastly (18), Haunter (20). Facing Gastly (Next).
-        - **Strategy:** Muscle was CURSED. Switching to Garnet (Quilava) to clear status and finish the battle.
-        - **Plan:** Use Ember with Garnet.
+        - **Status:** Battling Medium Martha. Muscle switched to Garnet. Facing Gastly (Lv 20).
+        - **Strategy:** Garnet is in. Use Ember (Slot 4) since Normal moves (Quick Attack) won't work on Ghosts.
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
