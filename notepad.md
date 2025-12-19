@@ -87,3 +87,6 @@
 - Automation: standard tools effective.
 - Goal Clarity: Goals are concrete outcomes.
 - Error Analysis: Corrected building ID mistake (9, 5 is Underground, not Radio Tower). Corrected Bill's House location (5, 25).
+## NPCs
+- Cooltrainer F at (12, 16). (Turn 3851)
+- Youngster at (18, 17). (Turn 3851)
