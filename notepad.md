@@ -84,7 +84,7 @@
 
 ## Goldenrod City Strategy Plan
 - Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress, Turn 3901)
-- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (To start after Radio Tower, Turn 3902)
+- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (Started Turn 3908)
 - Step 6: Challenge Whitney at the Goldenrod Gym.
 
 ## Radio Tower Quiz
