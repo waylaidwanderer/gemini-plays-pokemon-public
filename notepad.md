@@ -15,11 +15,9 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30.
 
 ## Current Status
-- Bird is at (15, 29). Facing: RIGHT.
-- Target: (14, 29) (Behind).
-- Approach: Walk straight up Column 14. 
-- Path: (14, 35) -> (14, 29).
-- Note: (14, 28) is noisy, so do NOT overshoot. (14, 29) is safe.
+- Bird is at (15, 29). Facing: UP.
+- Target: (15, 30) (Behind).
+- Approach: Move to (14, 30) then (15, 30). Row 30 is clean.
 - Reason: Avoids all noisy tiles. Direct path to its back.
 
 ## Tile Mechanics
