@@ -13,7 +13,9 @@
 
 ## Quests & NPC Notes
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
-- **Goldenrod Gym:** Layout is a Clefairy shape. Inner area accessible via path starting at (0, 7) -> (3, 5) -> Row 9.
+- **Goldenrod Gym:** Layout is a Clefairy shape.
+    - **Left Side (West):** Explored up to (3, 5). Appears to be a dead end or requires crossing over.
+    - **Right Side (East):** Previously hit a dead end at (15, 15). Need to re-explore Column 19 and Row 11 to find inward path.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
