@@ -11,13 +11,13 @@
   - Attempt 2 (T2878): Interacted from West (23, 35) while bird at (24, 35) faced Right. Result: Flew East. (Confirmed: Side interaction causes flight).
 
 ## Current Status
-- Bird at (28, 31), Facing: DOWN.
-- Target Position: (28, 30) (Behind).
+- Bird at (28, 31), Facing: LEFT.
+- Target Position: (29, 31) (Behind).
 
 ## Tile Mechanics
-- FLOOR: Traversable. Standard movement.
-- WALL: Impassable. Boundaries or dense trees.
-- HEADBUTT_TREE: Impassable.
+- FLOOR: Passable.
+- WALL: Impassable.
+- HEADBUTT_TREE: Impassable (Verified at 28, 24).
 - CUT_TREE: Impassable. Requires HM01 Cut.
 - LEDGE_HOP: One-way traversal (Down/Left/Right).
 
