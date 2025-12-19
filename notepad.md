@@ -35,3 +35,4 @@
 ### History
 - **Goldenrod:** Defeated Whitney (Miltank down!). Cleared Dept Store B1F.
 - **Route 35-37:** Cleared trainers. Defeated Sudowoodo. Arrived in Ecruteak.
+- **Lass:** Practices at the Dance Theater.
