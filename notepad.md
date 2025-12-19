@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Talk to Nurse Joy to heal Lapis.
-- **Immediate Goal:** Walk to the counter.
+- **Navigation:** Talk to Nurse Joy, then explore the rest of Olivine City.
+- **Immediate Goal:** Interact with Nurse Joy.
 - **Current Location:** Olivine Pokemon Center.
 
 ## Party Status
