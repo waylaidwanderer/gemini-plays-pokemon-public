@@ -2,7 +2,7 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Defeat Beauty Valerie (Trainer Battle).
+- **Navigation:** Defeat Beauty Olivia (Trainer Battle).
 - **Battle Strategy:** Muscle in lead. Expect Normal/Grass types.
 
 ## Party Status
