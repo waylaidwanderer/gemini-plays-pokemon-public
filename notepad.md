@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Take the ladder at (5, 3) to 3F.
+- **Navigation:** Explore 3F South to find a path to the eastern side/ladder.
 - **Battle Strategy:** Standard. Muscle/Garnet.
-- **Current Location:** Olivine Lighthouse 2F.
+- **Current Location:** Olivine Lighthouse 3F.
 
 ## Lighthouse Progress
 - **1F:** Explored. Lore obtained from Pokefan. Staircase at (16, 13).
