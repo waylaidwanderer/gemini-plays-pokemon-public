@@ -23,9 +23,9 @@
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **My Pokemon:** Garnet (Quilava Lv 27, 20/76 HP).
         - **State:** Everyone else fainted.
-        - **Strategy:** Selecting FIGHT. Next turn: Verify cursor, use Ember.
+        - **Strategy:** Opening Move Menu. Must use Ember (Slot 4).
         - **Risk:** Gengar (Speed 110) vs Garnet (Speed 80). High chance of outspeed -> KO.
-        - **Win Condition:** Gengar uses non-damaging move (Hypnosis/Mean Look/Spite) OR misses.
+        - **Win Condition:** Gengar uses non-damaging move or misses.
         - **Puzzle:** Solved.
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
