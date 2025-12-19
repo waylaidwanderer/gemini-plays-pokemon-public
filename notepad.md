@@ -46,3 +46,8 @@
 - GNEISS (Geodude) grew to Lv 23 during the battle with Psychic Mark.
 - Psychic Mark defeated on Turn 4331. Gains: ¥480.
 - Arnie (Bug Catcher) called about rare Ditto on Route 35.
+
+# Schoolboy Alan Battle Log (Turn 4338+)
+- Opponent 1: Tangela (Lv 16).
+- Turn 1: Switched GNEISS for Calcifer. Tangela used Absorb (not very effective).
+- Turn 2: Using EMBER.
