@@ -59,10 +59,19 @@
 - **Whitney Gym Strategy**: Use GNEISS (Geodude) to resist Normal moves and deal Rock damage.
 - **Spearow Delivery**: Deliver KENYA to Route 31.
 ## Goldenrod Underground Plan
-- Status: In progress (Turn 3757).
+- Status: Completed (Turn 3799).
 - Step 1: Get haircut for FRITTATA from younger brother (Friday). (Completed Turn 3757)
-- Step 2: Explore southern unseen tiles (Rows 20+).
+- Step 2: Explore southern unseen tiles (Rows 20+). (Completed Turn 3785 - Found Coin Case)
 - Step 3: Exit and locate Radio Tower in Goldenrod City.
+
+## Goldenrod City Strategy Plan
+- Status: In progress (Turn 3799).
+- Step 1: Heal at Pokemon Center. (In progress)
+- Step 2: Talk to NPCs in Pokemon Center for local info.
+- Step 3: Head west/northwest to locate the Radio Tower.
+- Step 4: Answer the quiz at the Radio Tower to obtain the Radio Card.
+- Step 5: Challenge Whitney at the Goldenrod Gym using GNEISS.
+- Step 6: Explore remaining city buildings (Dept Store, Bike Shop, etc.).
 ## Reflection (Turn 3792)
 - Immediate Execution: No lapses. Tasks performed immediately.
 - Notepad Hygiene: Organized with sub-sections. Tile mechanics documented.
