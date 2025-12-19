@@ -82,30 +82,11 @@
     - Teach TM31 (Mud-Slap) to reduce Miltank's accuracy.
 - **Spearow Delivery**: Deliver KENYA to the guard's friend (a man with a Sleepy Pokémon) on Route 31. Combine with GNEISS training.
 
-## Goldenrod City Strategy Plan
-- Step 4: Explore Radio Tower 2F and beyond for items/training.
-- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (Started Turn 3908)
-- Step 6: Challenge Whitney at the Goldenrod Gym.
-
-## Radio Tower Quiz
-- Result: Obtained RADIO CARD.
-
-## Radio Tower 2F NPCs
-- Teacher at (17, 2): "Lullabies on the radio may make POKéMON sleep."
-- Jigglypuff at (12, 1).
-- Beauty at (14, 5) (Buena): Gave BLUE CARD for Password show.
-- Black Belt at (0, 1): "Sorry. Authorized personnel only beyond this point. It wasn't that way before. There's something wrong with the DIRECTOR…"
-
-## Radio Tower 2F Map Transitions
-- RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
-- Stairs to 3F at (0, 0) in RadioTower2F (Blocked by guard).
-
 ## GNEISS Training Strategy (Whitney Prep)
-- **Moveset**: Teach TM04 (Rollout). It's a powerful STAB move that can sweep.
-- **Held Item**: Equip HARD STONE to boost Rock-type move power.
+- **Moveset**: Magnitude, Defense Curl, Rock Throw, Rollout (TM04).
+- **Held Item**: HARD STONE.
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
-- **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
-- **Time Tracking**: Started training at Turn 3932.
+- **Goal**: Reach Lv 18-20 for Whitney. Magnitude learned Lv 16.
 
 # Menu Mechanics
 - **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT.
@@ -114,12 +95,6 @@
 - Current Party Menu Cursor: GNEISS (index 0) (Turn 3985).
 - Current Pack Pocket: Items (Turn 4001).
 - Current Pack Cursor (Items): X ATTACK (Turn 4001).
-
-## GNEISS (Geodude) Info
-- **Held Item**: HARD STONE (Turn 4001).
-- **Moveset**: Tackle, Defense Curl, Rock Throw, Rollout (TM04 taught Turn 3994).
-- Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
-- Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
 - Python sandbox is currently unavailable (Turns 3971-4001). Advanced tools like `press_sequence` and `run_code` are non-functional.
