@@ -19,11 +19,12 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Challenging Morty (Rematch).
-        - **Strategy:** Lead with Muscle (Machoke). Use Dig (SE vs Poison, dodges attacks).
-        - **Items:** 7 Super Potions, 5 Awakenings.
-        - **Backup:** Garnet (Ember/Smokescreen).
-        - **Puzzle:** Solved.
+        - **Status:** Battling Morty (Rematch).
+        - **Opponent:** Haunter Lv 21 (Ghost/Poison).
+        - **Current Pokemon:** Muscle (Machoke Lv 30, 99/99 HP).
+        - **Matchup:** Muscle is +9 Levels. Dig is Super Effective.
+        - **Strategy:** Use Dig. Heal if Hypnosis hits (Awakening).
+        - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
