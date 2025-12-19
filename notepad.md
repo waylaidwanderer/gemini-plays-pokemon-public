@@ -3,11 +3,12 @@
 
 ## Goal: Catch the bird to obtain HM01 (Cut).
 
-## Current Status (Turn 3062)
+## Current Status (Turn 3063)
 - **Bird Position**: (28, 31).
-- **Bird Facing**: RIGHT.
+- **Bird Facing**: LEFT.
 - **Player Position**: (29, 31).
-- **Plan**: Face LEFT and interact (A) to move the bird. Row 31 is noisy, so I'll startle it from here to reset its position.
+- **Plan**: Interact (A) from behind to catch the bird.
+- **Hypothesis**: Interacting from (29, 31) while the bird faces LEFT satisfies the success condition.
 
 ## Puzzle Mechanics
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction.
