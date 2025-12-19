@@ -58,4 +58,5 @@
 - Whitney's Lead: Clefairy (Lv 18).
 - My Lead: GNEISS (Geodude) Lv 22.
 - Turn 1: GNEISS used Magnitude 6. Clefairy used Metronome (Milk Drink), HP full.
-- Turn 2: Plan to use MAGNITUDE.
+- Turn 2: GNEISS used Magnitude. (Waiting for result)
+- Plan: Continue using MAGNITUDE until Clefairy is defeated. Preserve GNEISS for Miltank.
