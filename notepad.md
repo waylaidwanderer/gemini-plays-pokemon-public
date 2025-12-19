@@ -27,13 +27,15 @@
 - Bug Catcher Arnie: Venonat (Lv 15)
 
 # Strategy: Route 35 & Goldenrod
-- **Bypass Route 35 Fence**: The fence at Row 18 blocks the center. To pass, move to column 4 or 5 (West side) and walk north past the fence line.
-- **Access Item Corridor (Column 13)**: The area containing the Poke Ball at (13, 16) is enclosed. 
-    - Entrance 1: Gap at (12, 16) or (12, 17). Reachable from the west side (column 11).
-    - Entrance 2: Corridor opens at Row 26. Reachable from the east side (column 16) by moving west to (13, 26).
+- **Bypass Route 35 Fence**: Navigate west to column 4 or 5 and move north to Row 18.
+- **Access Item Corridor (Column 13)**:
+    1. From the East Side (Column 16), move south to Row 26.
+    2. Move west from (16, 26) through (15, 26) and (14, 26) to (13, 26).
+    3. Move north from (13, 26) to (13, 16) to reach the Poke Ball.
 - **Goldenrod City Objectives**:
     1. Locate the Name Rater to rename EGG.
     2. Challenge Whitney (Normal Gym). Level 20+ recommended.
+- **Trainer Cleanup**: Defeat Youngster at (14, 28).
 
 # History
 - Odd Egg hatched into Cleffa (EGG) Lv 5 (Turn 3527).
