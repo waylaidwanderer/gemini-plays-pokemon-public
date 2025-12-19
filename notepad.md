@@ -80,27 +80,14 @@
     - Use GNEISS (Geodude) to resist Normal/Rock moves.
     - Level GNEISS to Lv 18-20 before the battle.
     - Teach TM31 (Mud-Slap) to reduce Miltank's accuracy.
-- **Spearow Delivery**: Deliver KENYA to Route 31. Combine with GNEISS training.
+- **Spearow Delivery**: Deliver KENYA to the guard's friend on Route 31. Combine with GNEISS training.
 
 ## Goldenrod City Strategy Plan
 - Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress, Turn 3901)
-- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (To start after Radio Tower)
+- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (To start after Radio Tower, Turn 3902)
 - Step 6: Challenge Whitney at the Goldenrod Gym.
 
-## Radio Tower NPCs
-- Gentleman at (8, 6).
-- PC at (0, 1).
-- Cooltrainer F at (12, 6): Gave RADIO CARD after quiz.
-- Stairs to 2F at (15, 0).
-- Youngster at (15, 4).
-- Lass at (16, 4).
-
 ## Radio Tower Quiz
-- Question 1: Is there a POKéMON that appears only in the morning? -> YES
-- Question 2: You can't buy a BERRY at a MART. -> YES
-- Question 3: Does HM01 contain the move FLASH? -> NO
-- Question 4: Is FALKNER the VIOLET GYM LEADER who uses bird POKéMON? -> YES
-- Question 5: Do GOLDENROD GAME CORNER's slots have CHARMANDER on their reels? -> NO
 - Result: Obtained RADIO CARD.
 
 ## Radio Tower 2F NPCs
