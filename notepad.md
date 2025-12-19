@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Defeat Bird Keeper Denis.
-- **Battle Strategy:** Keep Rocky in vs Fearow.
+- **Navigation:** Explore the East side of 5F.
+- **Battle Strategy:** Muscle leads.
 - **Current Location:** Olivine Lighthouse 5F.
 
 ## Lighthouse Progress
