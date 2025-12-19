@@ -83,18 +83,22 @@
 - X ATTACK: Raises attack in battle.
 
 # Strategy: Goldenrod City
-- **Objective**: Obtain Radio Card from Radio Tower.
-- **Method**: Talk to Cooltrainer F at (12, 6) in RadioTower1F to take the quiz.
-- **Whitney Gym Strategy**: Use GNEISS (Geodude) to resist Normal moves and deal Rock damage.
-- **Spearow Delivery**: Deliver KENYA to Route 31.
+- **Objective**: Collect Johto Badges.
+- **Method**: Challenge Whitney at the Goldenrod Gym.
+- **Whitney Gym Strategy**: 
+    - Use GNEISS (Geodude) to resist Normal/Rock moves.
+    - Level GNEISS to Lv 18-20 before the battle.
+    - Teach TM31 (Mud-Slap) to reduce Miltank's accuracy.
+- **Spearow Delivery**: Deliver KENYA to Route 31. Combine with GNEISS training.
 
 ## Goldenrod City Strategy Plan
 - Status: In progress.
 - Step 1: Talk to NPCs in Pokemon Center for local info. (Completed)
 - Step 2: Head west/northwest to locate the Radio Tower. (Completed)
-- Step 3: Answer the quiz at the Radio Tower to obtain the Radio Card. (In progress)
-- Step 4: Challenge Whitney at the Goldenrod Gym using GNEISS.
-- Step 5: Explore remaining city buildings (Dept Store, Bike Shop, etc.).
+- Step 3: Answer the quiz at the Radio Tower to obtain the Radio Card. (Completed)
+- Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress)
+- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA.
+- Step 6: Challenge Whitney at the Goldenrod Gym.
 
 ## NPCs
 - Cooltrainer F at (12, 16).
@@ -111,19 +115,15 @@
 ## Radio Tower NPCs
 - Gentleman at (8, 6).
 - PC at (0, 1).
-- Cooltrainer F at (12, 6): Initiates the Radio Tower Quiz.
+- Cooltrainer F at (12, 6): Gave RADIO CARD after quiz.
 - Stairs to 2F at (15, 0).
 - Youngster at (15, 4).
 - Lass at (16, 4).
 
 ## Radio Tower Quiz
-- Question 1: Is there a POKéMON that appears only in the morning?
-- Answer 1: YES (Correct)
-- Question 2: You can't buy a BERRY at a MART.
-- Answer 2: YES
-- Question 3: Does HM01 contain the move FLASH?
-- Answer 3: NO
-- Question 4: 
-- Answer 4: 
-- Question 5: 
-- Answer 5:
+- Question 1: Is there a POKéMON that appears only in the morning? -> YES
+- Question 2: You can't buy a BERRY at a MART. -> YES
+- Question 3: Does HM01 contain the move FLASH? -> NO
+- Question 4: Is FALKNER the VIOLET GYM LEADER who uses bird POKéMON? -> YES
+- Question 5: Do GOLDENROD GAME CORNER's slots have CHARMANDER on their reels? -> NO
+- Result: Obtained RADIO CARD.
