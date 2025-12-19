@@ -35,3 +35,4 @@
 - HEADBUTT_TREE: Impassable (Verified at 28, 24 and 22, 34).
 - CUT_TREE: Impassable. Requires HM01 Cut.
 - LEDGE_HOP: One-way traversal in the direction of the ledge.
+- Attempt 6 (T2901): Player at (23, 31), Bird at (22, 31) facing Left. Interaction from behind.
