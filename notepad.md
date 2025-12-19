@@ -1,25 +1,22 @@
 # Ilex Forest & Azalea Town
-## HM User Recruitment
-- Ekans cannot learn CUT.
-- Plan: Catch a Paras or Oddish (Kimchi caught, in party).
-- Catch Strategy: Weaken with lower-level PKMN.
-- Immediate Plan: Teach KIMCHI HM01 CUT, then clear the forest path at (8, 25).
+## Strategy: HM Cut
+- **Goal**: Reach Goldenrod City.
+- **How**: Teach HM01 CUT to KIMCHI (Oddish) and clear tree at (8, 25).
+- **Recruitment**: KIMCHI caught in Ilex Forest, now in party slot 6.
 
-## Type Effectiveness Chart
-- **Grass**:
-  - Super Effective (x2/x4) vs: Rock (Absorb vs Onix).
-  - Not Very Effective (x0.5) vs: Flying (Absorb vs Pidgey).
-- **Fire**:
-  - Super Effective (x2) vs: Grass (Ember vs Oddish).
+## Lessons Learned
+- **Menu Loops**: Turn 3169-3217. Caused by inaccurate `press_sequence` calls and hallucinating menu state.
+- **Fix**: Always verify "Current Screen Text" before multi-button sequences. Use dedicated tools for item/HM usage.
+- **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Switch to Flying/Fire for Grass types.
+- **Notepad Hygiene**: Avoid redundant logs. Keep "HOW" plans detailed.
 
-## Global Tile Mechanics
-- HEADBUTT_TREE: Round trees.
-- CUT_TREE: Small trees, requires HM01 Cut.
-- LEDGE_HOP: One-way jumps.
+## Area Knowledge: Ilex Forest
+- **Pokemon**: Caterpie, Metapod, Weedle, Kakuna, Pidgey, Venonat, Oddish, Paras, Psyduck.
+- **Mechanics**: LEDGE_HOP (one-way), CUT_TREE (requires Cut), HEADBUTT_TREE.
 
-## Pokemon Locations
-- Ilex Forest: Caterpie, Metapod, Weedle, Kakuna, Pidgey, Venonat, Oddish, Paras, Psyduck.
+## Area Knowledge: Azalea Town
+- **Pokemon Center**: PC at (9, 1).
 
 ## Battle Lessons
-- Ekans (Apophis) cannot learn CUT.
+- Ekans cannot learn CUT.
 - Running is efficient with fast leads (Calcifer).
