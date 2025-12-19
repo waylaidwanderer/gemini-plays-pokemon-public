@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Interact with Pokefan (16, 11). If just lore, explore North (row 5).
-- **Notes:** Pokefan gave Lighthouse lore. Wade's call finished.
+- **Navigation:** Explore North area (Row 5) for items, then take stairs to 2F.
+- **Notes:** Pokefan provided lore about the Lighthouse. No battle?
 - **Current Location:** Olivine Lighthouse 1F.
 
 ## Party Status
