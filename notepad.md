@@ -30,3 +30,5 @@
     4. **JUMP** into the pits there. Expect to land in 3F Center.
     5. Climb up from 3F Center -> 4F Center -> 5F Center.
 - Current Location: OlivineLighthouse5F.
+- **Battle:** Encountered Sailor in 3F Center Room.
+- **Plan:** Defeat Sailor, then take ladder at (9, 5) UP.
