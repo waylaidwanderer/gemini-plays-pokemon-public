@@ -28,3 +28,8 @@
 - Resuming path to Rocker NPC at (15, 14). Target interaction tile: (15, 15).
 - Item: Antidote at (17, 7) (Picked up Turn 3280).
 - Item: Ether at (27, 1) (Picked up Turn 3284).
+
+# Strategy: Reach Rocker NPC
+- **Objective**: Talk to the Rocker at (15, 14) to potentially learn Headbutt.
+- **Path**: Navigate to (23, 14) and move South into the central unseen area (Rows 15-16).
+- **Progress**: Currently at (29, 11). Exploring the unseen path at (23, 15).
