@@ -1,8 +1,8 @@
 # Ilex Forest & Azalea Town
 ## Strategy: HM Cut
 - **Goal**: Reach Goldenrod City.
-- **How**: Teach HM01 CUT to KIMCHI (Oddish) and clear tree at (8, 25).
-- **Recruitment**: KIMCHI caught in Ilex Forest, now in party slot 6.
+- **How**: Use KIMCHI's CUT to clear the tree at (8, 25) in Ilex Forest.
+- **Recruitment**: KIMCHI caught in Ilex Forest, now in party slot 6. Learned CUT (Turn 3233).
 
 ## Lessons Learned
 - **Menu Loops**: Turn 3169-3217. Verify screen text before sequences.
