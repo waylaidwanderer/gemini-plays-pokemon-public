@@ -48,3 +48,8 @@
 - **Pending Needs:**
     - Pokemon to learn Surf (Sentret in PC?).
     - Withdraw Mom's Super Potions.
+- **Burned Tower Layout:**
+    - Divided into North/South by a wall at y=11 (West side) and y=11 (East side?).
+    - Divided into East/West by a wall at x=13 (North side).
+    - **Path to Rival:** Rival is at (8, 9) (North-West section). Access seems to be via a gap on the far West side (x < 5).
+    - **Hazards:** Holes at (5, 14), (7, 15), (15, 14). Watch your step!
