@@ -18,9 +18,9 @@
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Post-Battle Plan (Azalea Town Map 8_7):
   - Rocket Grunt at (31, 9) confirmed gone.
-  - Check Kurt at (5, 2) in Kurt's House (Map 8_4) for the ball. Gave White Apricorn on Turn 2720. (Hypothesis: Kurt moved from 3, 2).
-  - Explore potentially reachable unseen tiles in the NE (31, 0) to (39, 2). Hypothesis: Reachable via unseen path or hidden gap.
+  - Explore unseen tiles (31, 0) to (39, 2).
   - Explore unseen tile at (24, 15) near the Gym.
+  - Check Kurt for the Poké Ball (Gave White Apricorn on Turn 2720). He is currently missing from his house.
 
 ## Strategy for Ilex Forest
 1. Enter Ilex Forest from the western gate of Azalea Town (Warp at 2, 10 or 2, 11).
@@ -45,8 +45,8 @@
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Center (15, 9), Kurt's House (9, 5).
-- Kurt: Traditionally at (3, 2), but currently seen at (5, 2) in Map 8_4.
-- Kurt's Granddaughter: Seen at (2, 3) in Map 8_4.
+- Kurt: Usually at (3, 2) in Map 8_4. Currently missing.
+- Kurt's Granddaughter: Usually at (5, 3) in Map 8_4. Currently seen at (2, 3).
 
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
