@@ -16,9 +16,9 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Post-Battle Plan (Azalea Town Map 8_0):
+- Post-Battle Plan (Azalea Town Map 8_7):
   - Rocket Grunt at (31, 9) confirmed gone.
-  - Check Kurt at (3, 2) in Kurt's House (Map 8_3) for the ball. Gave White Apricorn on Turn 2720.
+  - Check Kurt at (3, 2) in Kurt's House (Map 8_4) for the ball. Gave White Apricorn on Turn 2720.
   - Explore potentially reachable unseen tiles in the NE (31, 0) to (39, 2). Hypothesis: Reachable via unseen path or hidden gap.
   - Explore unseen tile at (24, 15) near the Gym.
 
