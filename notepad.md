@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Advance dialogue with Pokefan (16, 11) to start battle.
-- **Notes:** Pokefan talking about Pokemon lighting the sea.
+- **Navigation:** Interact with Pokefan (16, 11). If just lore, explore North (row 5).
+- **Notes:** Pokefan gave Lighthouse lore. Wade's call finished.
 - **Current Location:** Olivine Lighthouse 1F.
 
 ## Party Status
