@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Finish dialogue, then exit to Olivine City and find the Cafe (West of Center).
-- **Notes:** NPC at (8, 4) is a Friendship Rater, not the Good Rod Guru.
-- **Immediate Goal:** Advance text (Press B).
+- **Navigation:** Exit Pokemon Center, then find Olivine Cafe (West of Center).
+- **Notes:** NPC at (8, 4) is a Friendship Rater.
+- **Immediate Goal:** Walk out of the Pokemon Center.
 - **Status:** Lapis healed.
 - **Current Location:** Olivine Pokemon Center.
 
