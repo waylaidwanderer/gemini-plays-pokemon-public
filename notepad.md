@@ -28,3 +28,4 @@
 - TM04 (Rollout): Found on Route 35.
 - HARD STONE: Held by GNEISS.
 - SQUIRTBOTTLE: In Key Pocket.
+- TM28 (Dig): Found in National Park (1, 43).
