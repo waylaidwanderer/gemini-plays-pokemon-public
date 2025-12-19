@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Earn Fog Badge (Ecruteak Gym).
 - **Immediate Steps:**
-    1. Heal at Pokemon Center (Current).
+    1. Heal at Pokemon Center (Done).
     2. Challenge Gym (Ghost Type - Morty).
     3. Explore Burned Tower (Revisit?).
 
