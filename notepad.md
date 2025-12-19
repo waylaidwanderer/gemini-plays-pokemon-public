@@ -3,26 +3,18 @@
 ## Quest: Ilex Forest Farfetch'd
 - **Apprentice Hint**: "Get behind it."
 - **Observed Behavior**:
-  - Startle: Interacting (A button) makes it fly ~6 tiles away from the player.
+  - Startle: Interacting (A button) makes it fly ~6 tiles away from the player along the forest path.
   - Noisy Tiles (Twigs): Stepping on these (specs on ground) makes the bird turn to face the player.
   - Twig Locations: Row 31 (X=23 to 29) verified.
 
-## Strategy: Driving to Clean Ground
-- **Problem**: Cannot "get behind" the bird on Row 31 because it turns when I approach.
-- **Solution**: Drive the bird to a row without twigs (Row 28 or 35).
-- **Current Status**:
-  - Bird Position: (29, 28)
-  - Bird Facing: Unknown (likely LEFT or DOWN)
-  - Environment: Row 28 is clean ground. Row 31 has twigs.
-
-## Strategy: Drive to Clean North Ground
-1. Move to (29, 31) (Twigs) to startle bird at (29, 28).
-2. Bird should fly North to Row 22-24 (Clean Ground).
-3. Follow via Northern Loop (X=14 -> Row 24 -> Row 22) and catch from behind.
+## Strategy: Catching the Bird
+- **Problem**: Approaching from twigs causes the bird to turn, preventing a "behind" interaction.
+- **Solution**: Drive the bird to clean floor (Rows 22-30, 32-35) or approach from behind on clean floor.
+- **Driving Direction**: Bird flies away from the player's interaction point (e.g., interact from South -> flies North).
 
 ## Tile Mechanics
-- **FLOOR**: Passable.
-- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd when stepped on. Verified Row 31 (X=23-29).
+- **FLOOR**: Passable. Clean ground.
+- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd when stepped on. Verified Row 31.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
@@ -30,8 +22,8 @@
 
 ## Important Locations
 - **Azalea Town**:
-  - Kurt's House (9, 5): Special balls.
-  - Charcoal Kiln (21, 13): HM01 Cut reward.
+  - Kurt's House (9, 5): special balls from Apricorns.
+  - Charcoal Kiln (21, 13): Reward for quest is HM01 Cut.
 
 ## Party Status
 - **Calcifer (QUILAVA)** Lv22: Lead.
