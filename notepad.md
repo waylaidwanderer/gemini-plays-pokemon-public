@@ -13,6 +13,7 @@
 - **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle, HM03 Surf.
 - **HM/TM:** Cut, Headbutt, Surf, Dig (TM28).
 - **Party:** Muscle (26), Garnet (26), Rocky (18), Hematite (15), Azurite (13), Belladonna (5).
+  - Muscle Moves: Dig, Leer, Focus Energy, Karate Chop.
 
 ## Quests & NPC Notes
 - **Webster (Guard):** Deliver KENYA's mail to Route 31 (Active).
