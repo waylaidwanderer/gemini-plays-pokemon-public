@@ -70,3 +70,4 @@
 - **Ecruteak City:**
     - **Itemfinder Guy:** Says there are hidden items in the Burned Tower.
 - **Time Capsule:** Bill announced it opens 'tomorrow' at Pokemon Centers. Allows trading with Gen 1 (no new moves/mons).
+- **Gym Guide (Ecruteak):** Mentions a conspiracy at the Lake of Rage involving a Gyarados swarm.
