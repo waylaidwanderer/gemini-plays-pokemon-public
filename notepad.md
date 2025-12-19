@@ -18,10 +18,13 @@
 - **Webster (Guard):** Deliver KENYA's mail to Route 31 (Active).
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
+    - **Gym:**
+        - **Status:** Inside. Spoke to Guide.
+        - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
+        - **Plan:** Navigate safe FLOOR tiles to reach trainers.
+        - **Target:** Sage Ping (first trainer) at (3, 13).
+        - **Path:** Approach via column 5 to avoid potential warp at (4, 14).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
-    - **Gym Guide:** Conspiracy at Lake of Rage (Gyarados).
-    - **Pokefan:** Kimono Girls are tough.
-    - **Gym:** Morty is absent.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
         - **Layout:** B1F partially explored.
