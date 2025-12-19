@@ -41,3 +41,4 @@
 - Odd Egg hatched into Cleffa (EGG) Lv 5 (Turn 3527).
 - Obtained Zephyr and Hive Badges.
 - Received HM01 Cut.
+- Bird Keeper Bryan (Route 35): Pidgey (Lv 12) (Note: Sprite is YOUNGSTER, ID 5)
