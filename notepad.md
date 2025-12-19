@@ -42,7 +42,7 @@
 - Turn 3: GNEISS missed Magnitude.
 - Turn 4: Calcifer switched in. Accuracy lowered by Kinesis.
 - Turn 5: Calcifer missed Headbutt. Kadabra's Kinesis failed.
-- Plan: Use HEADBUTT.
+- Turn 6: Using HEADBUTT.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground.
