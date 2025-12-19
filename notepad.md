@@ -11,9 +11,11 @@ Interact from the tile directly behind the bird's facing direction.
   - Row 28: (14, 28)-(18, 28)
   - Row 29: (17, 29), (18, 29)
   - Row 31: (23, 31)-(29, 31)
-- Clean (Silent): Row 22, 23, 25, 27, 30, 34.
+- Clean (Silent): Row 22, 23, 25, 27, 30, 32, 33, 34 (parts), 35.
 
-## Current Status (Turn 3065)
-- Bird Position: (24, 31)
-- Player Position: (29, 31)
-- Action: Move to (25, 30) to observe bird facing.
+## Current Status (Turn 3070)
+- Bird Position: (22, 31)
+- Bird Facing: RIGHT
+- Player Position: (22, 35)
+- Plan: Move to (22, 32) via Column 20 to startle the bird.
+- Path: (22, 35) -> (20, 35) -> (20, 32) -> (22, 32).
