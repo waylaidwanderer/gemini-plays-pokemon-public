@@ -19,8 +19,7 @@
     - **Health:** All Pokemon restored.
     - **Next Steps:**
         1. **Exit:** Leave Pokémon Center.
-        2. **Route:** Head North to Route 36.
-        3. **Objective:** Use Squirtbottle on Sudowoodo.
+        2. **Action:** Use Squirtbottle on Sudowoodo.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
