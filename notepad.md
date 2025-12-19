@@ -53,3 +53,8 @@
 
 # Gym Navigation
 - Started Turn 4141. Exploring maze.
+
+# Whitney Battle Log (Turn 4207)
+- Whitney's Lead: Clefairy (Lv 18).
+- My Lead: GNEISS (Geodude) Lv 22.
+- Turn 1: Plan to use MAGNITUDE.
