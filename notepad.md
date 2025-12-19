@@ -107,4 +107,4 @@
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
 - **Time Tracking**: Started training at Turn 3932.
 - **Stagnation recognized**: Menu navigation for TM04/Hard Stone has failed repeatedly due to persistent cursor positions.
-- **Strategy Shift**: Prioritize manual training if next menu attempt fails. Use robust reset (multiple 'Up' presses) for all menu sequences.
+- **Strategy Shift**: All menu navigation now includes a robust reset sequence (multiple 'Up' presses to guarantee starting at POKEDEX). This ensures reliable access to the PACK and other menus regardless of previous state.
