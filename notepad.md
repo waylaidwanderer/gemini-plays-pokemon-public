@@ -14,7 +14,7 @@
 - `LEDGE_HOP_RIGHT`: One-way traversal. Can jump right, but not left.
 
 # Area Knowledge
-## Route 35 (Exploration started Turn 3513)
+## Route 35
 - Goldenrod Gate at (9, 33) and (10, 33).
 - Mystery Warp at (3, 5) leads to National Park.
 - Wall at Column 12: Gaps are at (12, 8), (12, 9), (12, 16), and (12, 17).
@@ -23,7 +23,7 @@
 - Collected: TM04 (Rollout) at (13, 16).
 
 ## Goldenrod City
-- **Scripted Event**: The Cleffa hatched from the Odd Egg (nicknamed EGG) cannot be renamed by the Name Rater; he claims it's "just an EGG."
+- **Scripted Event**: The Cleffa hatched from the Odd Egg (nicknamed EGG) cannot be renamed by the Name Rater.
 
 ## Goldenrod Underground
 - Entrance at Goldenrod City (9, 5).
@@ -39,7 +39,7 @@
 - Bug Catcher Arnie: Venonat (Lv 15)
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 - Pokemaniac Donald: Slowpoke (Lv 10), Slowpoke (Lv 10)
-- Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv ?)
+- Super Nerd Teru: Magnemite (Lv 7), Voltorb (Lv 11)
 
 # Battle Notes
 - Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Verified neutral damage.
