@@ -15,9 +15,9 @@
 
 ## Strategy: Current Plan
 1. **Status**: Bird at (15, 25) facing LEFT. Player at (15, 28).
-2. **Action**: Step onto (15, 28) (Noisy Twigs) to make bird face DOWN.
-3. **Verify**: Check if bird turned.
-4. **Next**: If turned, circle around via Row 29 to reach (15, 24) (Behind).
+2. **Action**: Move to (15, 26) and interact from South to drive bird North.
+3. **Reasoning**: Row 28 is noisy (bird didn't turn at dist 3), but Row 26 is clean. Pushing North leads to clean Rows 23/24.
+4. **Goal**: Catch bird on clean ground by getting behind it.
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
