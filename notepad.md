@@ -5,7 +5,8 @@
 - **Secondary Goal:** Investigate Lighthouse.
 - **Observation:** Falling from the pit at (16, 7) on 5F drops you to the perimeter of 3F at (16, 9), skipping 4F entirely. This is a trap/shortcut down.
 - **Plan:** Climb back up to 5F via 4F. Search 5F more thoroughly for a way to the center.
-- **Current Location:** Olivine Lighthouse 3F.
+- **Hypothesis:** The pits at (16, 5) on 5F might be the correct way to the center of 4F, despite "not falling" earlier (needs re-verification). Or there are other pits.
+- **Current Location:** Olivine Lighthouse 4F.
 
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
