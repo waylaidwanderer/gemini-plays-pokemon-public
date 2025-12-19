@@ -25,3 +25,4 @@
 - Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 - Pokefan William (National Park): Raichu (Lv14). Gneiss is immune to its Electric moves.
+- Sudowoodo Capture Strategy: Use Rock Throw (resisted) to safely lower HP to red zone. Avoid Magnitude (super effective). Use Great Ball or Poke Balls once HP is low.
