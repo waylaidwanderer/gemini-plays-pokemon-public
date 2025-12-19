@@ -15,17 +15,16 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** On Route 37.
-    - **Health:** Muscle Lv24 (76/76 HP).
-    - **Status:** Defeated Twins Ann & Anne.
+    - **Current Status:** Battling Psychic Greg on Route 37.
+    - **Status:** Engaged in battle.
     - **Objectives:**
-        1. **Battle:** Defeat Youngster at (6, 6).
+        1. **Battle:** Defeat Psychic Greg (formerly identified as Youngster).
         2. **Explore:** Pick Fruit from tree at (13, 5).
         3. **Travel:** Head North to Ecruteak City.
     - **Notes:**
         - Route 37 connects Route 36 (South) to Ecruteak City (North).
         - "Weird Trees" were trainers (Twins).
-        - **Historical:** Goldenrod Gym Defeated (Plain Badge). Whitney cried. Got Squirtbottle. Cleared Sudowoodo.
+        - **Historical:** Goldenrod Gym Defeated (Plain Badge).
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
