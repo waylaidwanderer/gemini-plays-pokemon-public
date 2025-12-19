@@ -25,7 +25,6 @@
 - TM28 (Dig): Found in National Park (1, 43) (Turn #4545).
 - TM04 (Rollout): Found on Route 35 (Turn #3895).
 - Coin Case: Found in Goldenrod Underground (Turn #4010).
-- Strategy: KENYA Delivery: Recipient is a man near the Route 30 exit of Route 31. Talk to him with KENYA in party.
 - Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 - Pokefan William (National Park): Raichu (Lv14). Gneiss is immune to its Electric moves.
@@ -39,10 +38,7 @@
 - Sudowoodo cleared at (35, 9).
 - Path to the north (Ecruteak) and east (Violet City) is now open.
 
-# Item/TM Locations: Route 36
-- TM08 (Rock Smash): Received from Fisher at (44, 9) after clearing Sudowoodo. (Turn #4607)
-
-# Active Task: KENYA Delivery
-- Started: Turn #4603
-- Recipient Location: Near the gate to Route 30 on Route 31.
-- Status: Completed. Delivered KENYA to Fisher at (17, 7) on Route 31. Received TM50 (Nightmare). (Turn #4645)
+# Item/TM Locations
+- Route 36: TM08 (Rock Smash) from Fisher at (44, 9). (Turn #4607)
+- Route 31: TM50 (Nightmare) from Fisher at (17, 7) for KENYA delivery. (Turn #4645)
+- Route 31: POKé BALL at (19, 15). (Turn #4648)
