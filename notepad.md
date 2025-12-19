@@ -15,14 +15,10 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** In National Park (South Entrance).
+    - **Current Status:** In Route 36 Gatehouse.
     - **Health:** Full.
-    - **Objective:** Cross National Park to East Gate (Route 36).
-    - **Obstacles:** Two Youngsters blocking the direct north path at (10, 41) and (11, 41).
-    - **Next Steps:**
-        1. **Travel:** Navigate around the central fountain/benches.
-        2. **Exit:** East Gate to Route 36.
-        3. **Action:** Use Squirtbottle on Sudowoodo.
+    - **Objective:** Exit East to Route 36.
+    - **Action:** Use Squirtbottle on Sudowoodo.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
