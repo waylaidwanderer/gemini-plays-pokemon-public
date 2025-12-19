@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Heal Lapis, then find the Lighthouse.
-- **Immediate Goal:** Advance healing dialogue.
+- **Navigation:** Finish healing, then find the Lighthouse.
+- **Immediate Goal:** Complete healing dialogue and exit.
 - **Current Location:** Olivine Pokemon Center.
 
 ## Party Status
