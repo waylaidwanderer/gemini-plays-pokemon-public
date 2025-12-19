@@ -15,9 +15,8 @@
 
 ## Current Status
 - Bird is at (15, 29). Facing: LEFT.
-- Target: (16, 29) (Behind).
-- Approach: Path via Row 23 -> Row 24 -> X=29 -> Row 30 -> X=22 -> Row 29.
-- Note: Row 35 is clean, but Row 32-34 are noisy.
+- Player is at (16, 29). Facing: LEFT.
+- Action: Interact from behind to catch.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
