@@ -5,17 +5,18 @@
 
 ## Puzzle Mechanics
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction.
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles along the forest path away from the player.
+- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away.
 - **Twig Logic**: Tiles with dark specs are noisy. Stepping on them makes the bird turn to face the player.
 - **Noisy Tiles (Specs)**: 
   - Row 26: (14, 26), (15, 26)
   - Row 28: (14, 28) to (18, 28)
   - Row 31: (23, 31) to (29, 31)
-- **Verified Clean Tiles**: Row 23, Row 24.
+- **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 29, Row 30.
 
 ## Current Status
-- **Bird**: (15, 25), Facing: LEFT.
-- **Plan**: Drive West by interacting from (15, 24) (Side). Or find a way to make it face UP/DOWN to catch on clean floor.
+- **Bird**: (15, 25), Facing: DOWN.
+- **Player**: (15, 23), Facing: DOWN.
+- **Plan**: Move to (15, 24) (Behind) on clean ground and catch.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
