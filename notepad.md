@@ -15,15 +15,16 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** Entered Route 37.
-    - **Location:** (8, 17).
-    - **Health:** Muscle Lv24 (76/76 HP).
+    - **Current Status:** On Route 37.
+    - **Location:** (7, 13).
+    - **Health:** Full.
+    - **Encounters:** Twins Ann & Anne at (6, 12) and (7, 12). They are trainers, not fruit trees.
     - **Objectives:**
-        1. **Travel:** Head North to Ecruteak City.
-        2. **Explore:** Check the "Weird Trees" at (6, 12) and (7, 12) (Likely Apricorns).
+        1. **Battle:** Defeat Twins Ann & Anne.
+        2. **Travel:** Head North to Ecruteak City.
     - **Notes:**
         - Route 37 connects Route 36 (South) to Ecruteak City (North).
-        - Contains Apricorn trees.
+        - Corrected "Weird Trees" hypothesis; they are NPCs.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
