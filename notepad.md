@@ -5,22 +5,28 @@
 
 ## Puzzle Mechanics
 - **Apprentice Hint**: "You have to get behind it to catch it."
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles along the forest path.
-- **Twig Logic**: Tiles with dark specs (Verified Row 31, X=23-29) are noisy. Stepping on them makes the bird turn to face the player.
-- **Success Condition**: Interact from the tile directly behind the bird's facing direction WITHOUT alerting it (avoid twigs or drive it to clean ground).
+- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles along the forest path away from the player.
+- **Twig Logic**: Tiles with dark specs (Verified Row 31, X=23-29) are noisy. Stepping on them while near the bird makes it turn to face the player, preventing a 'behind' interaction.
+- **Success Condition**: Interact with the bird from the tile directly behind its current facing direction WITHOUT stepping on noisy twigs during the approach.
+
+## Strategy: Driving & Catching
+- **Problem**: Noisy twigs on Row 31 prevent sneaking behind the bird when it hides in that row.
+- **Solution**: Drive the bird to a location on clean ground (Rows 22-30, 32-35) where a stealthy approach is possible.
+- **Current Status**: Bird is at (24, 35) facing DOWN. Row 35 is clean ground.
+- **Plan**: Interact from (25, 35) (East) to drive it West towards the apprentice's area.
 
 ## Tile Mechanics
-- **FLOOR**: Clean ground. Passable.
-- **TWIGS**: Noisy ground (specs). Alerts bird. (Verified Row 31).
+- **FLOOR**: Passable. Clean ground.
+- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd. (Verified Row 31, X=23-29).
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE_HOP**: One-way traversal.
+- **LEDGE_HOP**: One-way traversal in the direction of the ledge.
 
 ## Locations & Progress
-- **Charcoal Kiln**: Azalea (21, 13). Reward for this quest is Cut.
+- **Charcoal Kiln**: Azalea (21, 13). Reward for this quest is HM01 Cut.
 - **Badges**: Zephyr, Hive.
 
-## Party
-- Calcifer (QUILAVA) Lv22, ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
-- Note: Use 'battle_strategist_v3' for wild encounters.
+## Party Status
+- Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for battle reasoning.
+- Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
