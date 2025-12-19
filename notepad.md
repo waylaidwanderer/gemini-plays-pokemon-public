@@ -15,16 +15,15 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** On Route 36 (East Side).
+    - **Current Status:** At Route 36 Intersection (35, 9).
     - **Health:** Muscle Lv24 (76/76 HP).
-    - **Inventory:** TM08 (Rock Smash) obtained.
     - **Objectives:**
-        1. **Travel:** Go West to the intersection at (35, 9).
-        2. **Travel:** Head North towards Ecruteak City.
+        1. **Travel:** Head North-West to find the path to Route 37.
+        2. **Travel:** Reach Ecruteak City.
     - **Notes:**
-        - Rock Smash (TM08) allows breaking rocks.
-        - SE Warps (47, 13) likely lead to Ruins of Alph.
-        - East leads to Violet City.
+        - Rock Smash (TM08) obtained.
+        - East leads to Violet City (Optional: Deliver Mail).
+        - North leads to Ecruteak.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
