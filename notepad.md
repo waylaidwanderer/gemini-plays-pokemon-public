@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Challenge Gentleman at (17, 8), then explore North before taking stairs.
-- **Battle Strategy:** Muscle in lead. Watch for Flying/Fire types (Noctowl, Growlithe).
+- **Navigation:** Finish dialogue. If battle, win. If not, head South to Stairs at (16, 11).
+- **Notes:** Gentleman says "This is no place for playing."
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Party Status
