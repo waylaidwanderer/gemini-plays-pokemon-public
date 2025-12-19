@@ -24,8 +24,8 @@
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
         - **Path:**
             - **Current:** At (5, 9).
-            - **Next Target:** Sage at (2, 7).
-            - **Route:** (5, 9) -> (3, 9) -> (3, 8) -> (3, 7).
+            - **Next Target:** Sage at (2, 7). Then Granny at (7, 5).
+            - **Route:** (5, 9) -> (3, 9) -> (3, 8) -> (3, 7) [Battle Sage].
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
