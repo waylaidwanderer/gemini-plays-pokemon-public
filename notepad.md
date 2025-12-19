@@ -36,7 +36,7 @@
   - **Counter-Strategy:** If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI, etc.) to tank the hit and force a reset.
   - GNEISS (Female) is immune to Miltank's Attract.
   - Use Super Potions to maintain HP above 30.
-- **Battle Start:** Turn 4207.
+- **Battle Status:** Started Turn 4207. Clefairy defeated. Miltank active. GNEISS at full HP. Rollout chain reset.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
