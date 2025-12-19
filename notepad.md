@@ -37,7 +37,9 @@
   - Lead with GNEISS (Geodude). Rock/Ground resists Normal and Rock moves.
   - If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI) to tank the hit and force a reset.
   - Use Magnitude to burst through Milk Drink.
-- **Battle Status:** Whitney defeated (Turn 4244). Waiting for Plain Badge. GNEISS at 53/57 HP.
+- **Battle Status:** Whitney defeated (Turn 4244). Whitney is crying and won't give the badge.
+- **Hypothesis:** Talking to Lass Bridget at (9, 6) will trigger Whitney to stop crying.
+- **Plan:** Move to (8, 6) and interact with Lass Bridget.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
