@@ -10,14 +10,14 @@
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction WITHOUT alerting it (avoid twigs or drive it to clean ground).
 
 ## Strategy: Current Capture Plan
-1. **Locate**: Bird is at (28, 31) facing UP.
+1. **Locate**: Bird is at (28, 31) facing DOWN.
 2. **Identify Noisy Path**: Row 31 contains twigs.
-3. **Approach**: Circle around to (28, 32) via clean ground (Northern loop through X=14 -> Row 35).
-4. **Interact**: Press UP while at (28, 32) to catch it from behind.
+3. **Approach**: Path to (28, 30) via Row 30 (clean floor).
+4. **Interact**: Press DOWN while at (28, 30) to catch it from behind.
 
 ## Tile Mechanics
 - **FLOOR**: Clean ground. Passable.
-- **TWIGS**: Noisy ground. Alerts bird. (Row 31).
+- **TWIGS**: Noisy ground (Row 31, X=23-29). Alerts bird.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
