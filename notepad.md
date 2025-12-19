@@ -3,19 +3,19 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore the area North of (15, 11) on the East side of 3F.
-- **Battle Strategy:** Muscle vs Growlithe. Use Dig (Slot 1).
-- **Current Location:** Olivine Lighthouse 3F.
+- **Navigation:** Explore the South-East area of 4F.
+- **Battle Strategy:** Muscle leads.
+- **Current Location:** Olivine Lighthouse 4F.
 
 ## Lighthouse Progress
-- **1F:** Explored. Lore obtained from Pokefan. Staircase at (16, 13).
-- **2F:** Defeated Gentleman Alfred. Found pits at (16, 13)/(17, 13). Warps at (16, 11)/(17, 11) seem to be arrival points from 1F (inactive). Exploring North.
+- **1F:** Explored. Staircase at (16, 13).
+- **2F:** Defeated Gentleman Alfred, Sailor Huey.
+- **3F:** Defeated Bird Keeper Theo, Gentleman Preston.
+- **4F:** Defeated Lass Connie. Exploring South-East.
 
 ## Party Status
-- **Muscle (Machoke):** Lv 31. Healthy.
+- **Muscle (Machoke):** Lv 33. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
-- **Beauty Valerie:** Defeated.
-- **Lapis (Poliwag):** Lv 10. Low HP (11/28).
 - **Leading:** Muscle (Machoke).
 - **Others:** Low levels/Utility.
 
@@ -27,7 +27,7 @@
 - **Badges:** Zephyr, Hive, Plain (3/8).
 - **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle, HM03 Surf.
 - **HM/TM:** Cut, Headbutt, Surf, Dig (TM28).
-- **Party:** Muscle (32), Garnet (28), Rocky (19), Hematite (15), Azurite (13), Lapis (10).
+- **Party:** Muscle (33), Garnet (28), Rocky (19), Hematite (15), Azurite (13), Lapis (10).
 
 ## Quests & NPC Notes
 - **Webster (Guard):** Deliver KENYA's mail to Route 31 (Active).
@@ -48,9 +48,3 @@
 - **Route 35-37:** Cleared trainers. Defeated Sudowoodo.
 - **Burned Tower Notes:** Divided into North/South by wall. Holes drop to B1F.
 - **Navigation Note:** Always verify current coordinates before pathing.
-
-## Lighthouse Progress
-- **1F:** Explored. Staircase at (16, 13).
-- **2F:** Defeated Gentleman Alfred, Sailor Huey.
-- **3F:** Defeated Bird Keeper Theo, Gentleman Preston.
-- **Goal:** Take ladder at (13, 3) to 4F.
