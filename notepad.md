@@ -29,18 +29,18 @@
 
 # Progress & Objectives
 - **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained.
-- **Squirtbottle Quest:** Started Turn 4268. (Ongoing for ~56 turns)
-  - Talk to the Lass next to the "wiggly tree" (Sudowoodo) on Route 36 first.
-  - Path: Goldenrod -> Route 35 (via Cut tree at 17, 6) -> Route 36.
-  - After talking to the Lass, return to the Teacher in the Flower Shop (Goldenrod) to get the SQUIRTBOTTLE.
+- **Squirtbottle Quest:** Started Turn 4268. (Ongoing)
+  - 1. Talk to the Lass next to the "wiggly tree" (Sudowoodo) on Route 36.
+  - 2. Return to the Flower Shop Teacher in Goldenrod (11_8) for the SQUIRTBOTTLE.
+  - 3. Use SQUIRTBOTTLE on the tree on Route 36.
 - **Delivery:** Deliver KENYA (Spearow) to Route 31.
 
 # Psychic Mark Battle Log (Turn 4308+)
 - Opponent 1: Abra (Lv 13). Defeated by GNEISS (Magnitude 5 Crit).
 - Opponent 2: Abra (Lv 13). Defeated by GNEISS (Magnitude 8).
 - Opponent 3: Kadabra (Lv 15).
-- Turn 3 (Turn 4318): Psychic Mark sent out Kadabra. GNEISS accuracy lowered by Flash and Kinesis. Magnitude missed.
-- Turn 4 (Turn 4323): Switched to Calcifer (Lv 26). Kadabra used Kinesis (Calcifer Accuracy -1).
+- Turn 3: GNEISS used Magnitude 6, missed due to Kinesis.
+- Turn 4: Switched to Calcifer (Lv 26). Kadabra used Kinesis (Calcifer Accuracy -1).
 - Plan: Use HEADBUTT.
 
 # Inventory & Key Items
@@ -51,3 +51,4 @@
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
+- GNEISS (Geodude) grew to Lv 23 during this battle.
