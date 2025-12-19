@@ -25,6 +25,7 @@
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Pokemon Center (15, 9), Kurt's House (9, 5).
 - Kurt: Usually at (3, 2) in Map 8_4.
+- Kurt's Granddaughter: Usually at (5, 3) in Map 8_4.
 
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
@@ -40,3 +41,4 @@
 - Entering Ilex Forest: Turn 2803.
 - Met Apprentice: Turn 2808 at (7, 28). Task: Find runaway Farfetch'd.
 - Found runaway Farfetch'd at (14, 31) on Turn 2813.
+- Chased Farfetch'd to (15, 25) on Turn 2816. Currently at (15, 26).
