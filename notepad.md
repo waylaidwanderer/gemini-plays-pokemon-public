@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Investigate the stairs at (16, 11) to ascend to 3F.
-- **Notes:** (16, 13) is a Pit. (16, 11) appears to be the way up.
+- **Navigation:** Challenge Gentleman at (17, 8), then explore North before taking stairs.
+- **Battle Strategy:** Muscle in lead. Watch for Flying/Fire types (Noctowl, Growlithe).
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Party Status
