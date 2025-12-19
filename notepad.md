@@ -3,7 +3,7 @@
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
-- HEADBUTT_TREE: Impassable wall, reacts to Headbutt move. Verified Impassable.
+- HEADBUTT_TREE: Impassable wall. Reacts to Headbutt move. Verified Impassable (Turn 2798).
 - TALL_GRASS: Triggers wild battles.
 - LEDGE_HOP_DOWN: One-way South jump.
 - LEDGE_HOP_LEFT: One-way West jump (2 tiles).
@@ -46,5 +46,4 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Entering Ilex Forest: Turn 2803.
-- Met Apprentice: Turn 2808 at (7, 28).
+- Ilex Forest: Searching for runaway Farfetch'd. Current position: (20, 24), facing LEFT.
