@@ -61,6 +61,6 @@
 - Turn 2: GNEISS used Magnitude 8. Clefairy used DoubleSlap (not effective). Clefairy fainted.
 - Turn 3 (Turn 4215): Whitney sent out Miltank (Lv 20). Miltank used Rollout (not effective, 2 damage). GNEISS used Defense Curl.
 - Turn 4 (Turn 4219): Miltank used Rollout (Critical, 8 damage total). GNEISS used Rollout, but missed.
-- Turn 5 (Turn 4221): Miltank used Rollout (13 damage). GNEISS used Rollout, but missed. HP: 15/57.
-- Turn 6: Miltank's Rollout is at Turn 4 (Dangerous). GNEISS is low HP.
-- Strategy: Switch to fodder (FRITTATA, KIMCHI, etc.) to tank the rest of the Rollout chain and force a reset. Then bring GNEISS back in.
+- Turn 5 (Turn 4221): Miltank used Rollout (20 damage). GNEISS used Rollout, but missed. HP: 15/57.
+- Turn 6: Miltank's Rollout is at Turn 4 (BP 240). GNEISS is low HP.
+- Strategy: Switch to fodder (FRITTATA, KIMCHI, etc.) to tank the rest of the Rollout chain and force a reset. Then bring GNEISS back in once the chain is over or misses. Priority is keeping GNEISS alive to use Magnitude/Rollout after the reset.
