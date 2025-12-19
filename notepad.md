@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore SW corner (x=2), then head East to Stairs (16, 13).
-- **Notes:** Sailor (8, 2) warned about trainers. Lapis is fully healed.
+- **Navigation:** Explore SW corner (x=2), check Ladder at (3, 11), then head East to Stairs (16, 13).
+- **Notes:** Found a Ladder at (3, 11). Sailor warned about trainers.
 - **Current Location:** Olivine Lighthouse 1F (West).
 
 ## Party Status
