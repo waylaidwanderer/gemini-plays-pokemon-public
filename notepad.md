@@ -52,5 +52,5 @@
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
 - **2F:** Defeated Gentleman Alfred, Sailor Huey.
-- **3F:** Defeated Bird Keeper Theo. Battling Gentleman Preston.
-- **Goal:** Reach ladder at (13, 3).
+- **3F:** Defeated Bird Keeper Theo, Gentleman Preston.
+- **Goal:** Take ladder at (13, 3) to 4F.
