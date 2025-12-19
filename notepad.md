@@ -122,5 +122,5 @@
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
-- Python sandbox is currently unavailable (Turns 3971-3998). Advanced tools like `press_sequence` and `run_code` are non-functional.
+- Python sandbox is currently unavailable (Turns 3971-4000). Advanced tools like `press_sequence` and `run_code` are non-functional.
 - Switching to manual `press_buttons` for party management and training.
