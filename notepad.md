@@ -7,7 +7,7 @@
 - HEADBUTT_TREE: Impassable. Shaken with Headbutt.
 - CUT_TREE: Impassable. Cleared with Cut.
 - DOOR/WARP_CARPET: Traversable. Map transition.
-- LEDGE_HOP: One-way traversal.
+- LEDGE_HOP: One-way traversal. Ledges at (26, 23), (28, 23), (29, 23) in Violet City jump DOWN (y=22 to y=24) and block UP movement.
 - COUNTER: Impassable. Interaction point for NPCs behind it.
 - PC: Impassable. Interacted from below.
 
