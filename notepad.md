@@ -30,7 +30,7 @@
 # Progress & Objectives
 - **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained. Psychic Mark defeated. Schoolboy Alan defeated.
 - **Squirtbottle Quest:** Started Turn 4268. (Ongoing)
-  - 1. Talk to the Lass next to the "wiggly tree" (Sudowoodo) on Route 36.
+  - 1. Talk to the Lass (Floria) next to the "wiggly tree" (Sudowoodo) on Route 36. (COMPLETED Turn 4347)
   - 2. Return to the Flower Shop Teacher in Goldenrod (11_8) for the SQUIRTBOTTLE.
   - 3. Use SQUIRTBOTTLE on the tree on Route 36.
 - **Delivery:** Deliver KENYA (Spearow) to Route 31.
@@ -47,3 +47,4 @@
 - Psychic Mark defeated on Turn 4331. Gains: ¥480.
 - Arnie (Bug Catcher) called about rare Ditto on Route 35.
 - Schoolboy Alan defeated on Turn 4343. Gains: ¥512. Calcifer used Ember to KO Tangela.
+- Floria at (33, 12) on Route 36 confirms the wiggly tree is a Pokemon and says she'll borrow her sister's water bottle. (Turn 4347)
