@@ -3,7 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Exit house -> Head Southeast to the Lighthouse.
+- **Navigation:** Head East along the path (y=23) to find the Lighthouse.
+- **Notes:** Marked Port entrance (South). Lighthouse should be East.
 - **Notes:** Good Rod obtained.
 - **Current Location:** Olivine City (Exiting Good Rod House).
 
