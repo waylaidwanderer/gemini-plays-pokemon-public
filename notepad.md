@@ -15,9 +15,9 @@
 
 # Strategy: Ilex Forest Exploration
 - **Goal**: Reach Goldenrod City via the northern exit of Ilex Forest.
-- **Progress**: TM02 Headbutt obtained from the Rocker at (15, 14) (Turn 3298).
-- **Plan**: Teach TM02 Headbutt to Calcifer to enable tree-shaking interactions. Forget LEER. Note that HEADBUTT_TREE tiles remain impassable even after interaction.
-- Navigation to Northern Exit started at Turn 3266. Resuming from (22, 8).
+- **Progress**: TM02 Headbutt obtained (Turn 3298). Calcifer learned HEADBUTT, replacing LEER (Turn 3311).
+- **Plan**: Navigate to the northern exit. Note that HEADBUTT_TREE tiles remain impassable even after interaction.
+- Navigation to Northern Exit started at Turn 3266. Resuming from (13, 1).
 
 ## Lessons Learned
 - **Menu Loops**: Turn 3169-3217. Always verify screen text before executing button sequences.
