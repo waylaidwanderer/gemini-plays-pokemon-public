@@ -16,10 +16,12 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
 
 ## Current Status
-- Bird is at (15, 29). Facing: DOWN.
-- Position: I am at (15, 30) (Front).
-- Action: Clear text (A), then observe.
-- Reason: I'm in front of it. It might fly away once the text is cleared.
+- Bird is at (15, 25). Facing: LEFT.
+- Target: (15, 24) (Behind).
+- Approach: 
+  1. Step on (15, 26) to make it face DOWN.
+  2. Retreat and take the long way around: (15, 27) -> Row 30/31 -> Col 29 -> Row 22 -> (22, 22) ledge -> (15, 24).
+- Reason: Avoids all noisy tiles near the bird while it's facing DOWN. (15, 24) is the only silent success tile.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
