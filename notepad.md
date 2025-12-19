@@ -43,18 +43,15 @@
 - Bug Catcher Arnie (Route 35): Venonat (Lv 15)
 
 # Strategy: Route 35 & Goldenrod
-- **Bypass Route 35 Fence**: To get past the fence, navigate west to column 4 or 5 and move north to Row 18.
-- **Access East Side of Route 35**: To reach the eastern area, use the gaps in the column 12 wall located at (12, 16) or (12, 17).
-- **Retrieve Poke Ball (13, 16)**: Navigate to (12, 16) and move right to enter the enclosed section containing the item.
+- **Bypass Route 35 Fence**: Navigate to column 4 or 5 and move north to Row 18.
+- **Access East Side of Route 35**: Traverse through gaps in the column 12 wall at (12, 16) or (12, 17).
+- **Retrieve Poke Ball (13, 16)**: Use the gap at (12, 16) to enter the enclosed area.
 - **Gym Challenge**: Train the team to level 20+ to prepare for Whitney's Normal-type Gym.
-- **Rename Cleffa**: Head to the Name Rater in Goldenrod to change Cleffa's name from "EGG".
+- **Rename Cleffa**: Visit the Name Rater in Goldenrod to change the name "EGG".
 
-# Lessons Learned
-- **Type Matchups**: Fire is neutral to Ground (Sandshrew, Diglett). Special moves like Ember are effective against Sandshrew due to its low Special Defense, even if neutral.
-- **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
-- **Running**: Use Calcifer (Quilava) as lead for high escape probability.
-- **NPC Collision**: All NPCs (even defeated ones) are solid objects. Interact from adjacent tiles.
-- **Collision Error**: Fences are WALLS. Check map data if a path looks clear but might be blocked.
-- Odd Egg status: Hatched into Cleffa (EGG) at Lv 5. (Observed Turn 3527)
-- Route 35 Fence: Fence ends at (6, 18). Column 4 and 5 are clear to bypass the fence.
-- Route 35 East Side: Reachable via gaps in the column 12 wall at (12, 16) and (12, 17).
+# History & Milestones
+- **Odd Egg**: Hatched into Cleffa (EGG) at Lv 5 (Observed Turn 3527).
+- **Ilex Forest Farfetch'd**: Caught and returned to apprentice (Turn 3250).
+- **HM01 Cut**: Received from Charcoal Master's boss (Turn 3250).
+- **Hive Badge**: Defeated Bugsy (Turn 2728).
+- **Zephyr Badge**: Defeated Falkner (Turn 1500).
