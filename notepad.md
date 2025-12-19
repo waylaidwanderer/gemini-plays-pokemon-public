@@ -17,7 +17,7 @@
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Post-Battle Plan (Azalea Town Map 8_0):
   - Explore unseen tiles (31, 0) to (39, 2).
-  - Verify Rocket Grunt at (31, 9) is gone.
+  - Rocket Grunt at (31, 9) confirmed gone.
   - Explore (24, 15) near the Gym.
   - Check Kurt at (3, 2) in Kurt's House (Map 8_3) for the ball.
 
