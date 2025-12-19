@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Find Pokemon Center (South/East), then investigate Lighthouse.
-- **Notes:** Rival Silver (Non-combat) says Jasmine is at Lighthouse with sick Pokemon.
-- **Immediate Goal:** Navigate around the ledge/building to the South.
+- **Navigation:** Head towards the Poke Mart (19, 17), then search South for the Pokemon Center.
+- **Immediate Goal:** Move East to x=17, then South.
+- **Current Location:** Olivine City (Central).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
