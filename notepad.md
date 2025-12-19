@@ -12,7 +12,7 @@
 - LEDGE_HOP_RIGHT: One-way right.
 - VOID: Impassable. Map boundary.
 
-# Battle Strategy & Type Effectiveness
+# Battle Strategy & Type Effectiveness (Unverified/General Knowledge)
 - Super Effective (x2 or x4):
     - Rock moves -> Bug, Flying, Fire, Ice.
     - Ground moves -> Poison, Fire, Electric, Rock, Steel.
@@ -25,6 +25,7 @@
     - Ground moves -> Flying.
     - Ghost moves -> Normal.
     - Normal/Fighting moves -> Ghost.
+- Note: Steel type matchups (weak to Fighting, Ground, Fire) are based on general knowledge and need in-game verification.
 
 # Gym Leader Whitney (Goldenrod City)
 - **Roster:**
