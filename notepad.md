@@ -17,13 +17,12 @@
 ## Strategy for Ilex Forest
 1. Find the runaway Farfetch'd.
 2. Catch the Farfetch'd by chasing it into a position where it can be approached from behind.
+   - Flight Logic:
+     - Approached from North at (22, 30) -> Bird at (22, 31) flew East to (27, 31).
 3. Return to the apprentice (7, 28) to trigger the reward.
 4. Obtain HM01 (Cut) from the Charcoal Master in Azalea Town (21, 13).
 5. Retrieve Bellsprout from the PC to teach it Cut.
 6. Use Cut to clear the path to Goldenrod City.
-
-### Observed Farfetch'd Flight Logic
-- Test 1: Approached from North at (22, 30) -> Bird at (22, 31) flew East to (27, 31).
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Pokemon Center (15, 9), Kurt's House (9, 5).
@@ -38,4 +37,4 @@
 - Ilex Forest: Dark area, HM05 Flash may be useful but not required.
 
 ## Progress
-- Ilex Forest: Chasing runaway Farfetch'd. Bird currently at (27, 31).
+- Ilex Forest: Chasing runaway Farfetch'd. Bird currently at (28, 31). Facing LEFT. Player at (26, 31).
