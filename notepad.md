@@ -23,11 +23,11 @@
 - **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
 - **LEDGE**: One-way traversal (down, left, or right).
 
-## Strategy: Catching Bird at (29, 22) [Facing LEFT]
-- **Current Position**: (28, 22) (Front).
-- **Action**: Interact (A) to startle.
-- **Goal**: Move it to an area where (X+1, Y) or (X-1, Y) etc. is accessible.
-- **Note**: It's currently in a corner (30, 22 is VOID).
+## Strategy: Catching Bird at (29, 26) [Facing DOWN]
+- **Current Position**: (29, 26). Facing: DOWN (Assumed).
+- **Goal**: Reach (29, 25) (Behind) and interact.
+- **Path**: (28, 22) -> (29, 22) -> (29, 25).
+- **Reason**: Column 29 (Rows 22-25) is silent. (29, 25) is directly behind a DOWN-facing bird.
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
