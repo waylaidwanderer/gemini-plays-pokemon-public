@@ -22,7 +22,7 @@
         - **Status:** Reached Morty.
         - **Objective:** Heal Muscle (53/99 HP) before battle.
         - **Strategy:** Dig with Muscle. Backup: Garnet.
-        - **Action:** Scrolling Item Pocket to find Super Potion.
+        - **Action:** Still scrolling Item Pocket for Super Potion. Current cursor on REVIVE.
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
