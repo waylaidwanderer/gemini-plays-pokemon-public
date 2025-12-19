@@ -23,11 +23,7 @@
 
 # Area Knowledge
 ## Route 35
-- Goldenrod Gate at (9, 33) and (10, 33).
 - Mystery Warp at (3, 5) leads to National Park.
-- Wall at Column 12: Gaps at (12, 8), (12, 9), (12, 16), (12, 17).
-- Fence at Row 18: Bypass via Column 4 or 5.
-- Item Corridor (Column 13): Reachable via gap at (12, 16) or from Row 26.
 - Collected: TM04 (Rollout) at (13, 16).
 - Collected: Coin Case at (7, 25).
 
@@ -37,13 +33,8 @@
 - Pokemon Center: 
     - Lass: Advises that high levels aren't everything; type matchups are key.
     - Pokefan F: Wants an EON MAIL for her daughter.
-    - Gameboy Kid: Colosseum upstairs is for link battles.
-    - Time Capsule: Currently "being adjusted".
 
 ## Goldenrod Underground
-- Entrance at Goldenrod City (9, 5) and (10, 5).
-- Pokemaniac Donald at (19, 27) in entrance room warns of "rough" battles downstairs.
-- Teacher at (3, 27) in entrance room expresses fear of the Underground.
 - Haircut Brother: Younger brother appears on Fridays in Goldenrod Underground. Cost: ¥300. Increases Pokémon happiness.
 
 # Trainer Roster
@@ -92,25 +83,9 @@
 - **Spearow Delivery**: Deliver KENYA to Route 31. Combine with GNEISS training.
 
 ## Goldenrod City Strategy Plan
-- Status: In progress.
-- Step 1: Talk to NPCs in Pokemon Center for local info. (Completed)
-- Step 2: Head west/northwest to locate the Radio Tower. (Completed)
-- Step 3: Answer the quiz at the Radio Tower to obtain the Radio Card. (Completed)
-- Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress)
-- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA.
+- Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress, Turn 3901)
+- Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (To start after Radio Tower)
 - Step 6: Challenge Whitney at the Goldenrod Gym.
-
-## NPCs
-- Cooltrainer F at (12, 16).
-- Youngster at (18, 17).
-- Pokefan M at (7, 18).
-- Team Rocket Grunt at (4, 16).
-- Radio Tower Entrance at (5, 15).
-- Goldenrod City Station Entrance at (9, 13).
-
-## Map Transitions
-- RadioTower1F (2, 7) <-> Goldenrod City (5, 15).
-- RadioTower1F (3, 7) <-> Goldenrod City (5, 15).
 
 ## Radio Tower NPCs
 - Gentleman at (8, 6).
@@ -127,14 +102,13 @@
 - Question 4: Is FALKNER the VIOLET GYM LEADER who uses bird POKéMON? -> YES
 - Question 5: Do GOLDENROD GAME CORNER's slots have CHARMANDER on their reels? -> NO
 - Result: Obtained RADIO CARD.
+
 ## Radio Tower 2F NPCs
-- Teacher at (17, 2).
+- Teacher at (17, 2): "Lullabies on the radio may make POKéMON sleep."
 - Jigglypuff at (12, 1).
-- Beauty at (14, 5).
+- Beauty at (14, 5) (Buena): Gave BLUE CARD for Password show.
+- Black Belt at (0, 1): "Sorry. Authorized personnel only beyond this point. It wasn't that way before. There's something wrong with the DIRECTOR…"
 
 ## Radio Tower 2F Map Transitions
 - RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
-- Black Belt at (0, 1) in RadioTower2F.
-- Stairs to 3F at (0, 0) in RadioTower2F.
-- Black Belt at (0, 1) in RadioTower2F: "Sorry. Authorized personnel only beyond this point. It wasn't that way before. There's something wrong with the DIRECTOR…"
-- Teacher at (17, 2) in RadioTower2F: "Lullabies on the radio may make POKéMON sleep."
+- Stairs to 3F at (0, 0) in RadioTower2F (Blocked by guard).
