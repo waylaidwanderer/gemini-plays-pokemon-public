@@ -19,14 +19,15 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Defeated Medium Martha.
+        - **Status:** Reach Morty.
         - **Strategy:** Muscle (Machoke) & Garnet (Quilava).
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
-            - **Current Position:** (6, 5).
+            - Tile (6, 4): PIT but Walkable (Fake Pit?).
+            - **Current Position:** (6, 4).
         - **Path Ahead:**
-            - Move Left to (5, 5).
+            - Move Left to (5, 4).
             - Move North up Column 5 to (5, 2).
             - Challenge Morty at (5, 1).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
