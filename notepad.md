@@ -5,23 +5,26 @@
 - **Observed Behavior**:
   - Startle: Interacting from front/side makes it fly ~6 tiles.
   - Turning: Bird turns to face the player if they step on noisy tiles (twigs).
-  - Noisy Tiles: Verified to exist. Need to identify and avoid.
+  - Noisy Tiles: (23,31) to (28,31) confirmed. alert the bird when stepped on.
 - **Current Status**:
   - Bird Position: (22, 31)
-  - Bird Facing: LEFT
-  - Target Tile: (23, 31) (Behind)
+  - Bird Facing: RIGHT
+  - Target Tile: (21, 31) (Behind - Blocked by Wall)
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
+- **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd.
 - **WALL / DENSE_TREES**: Impassable.
-- **HEADBUTT_TREE**: Impassable (Verified at 28, 24 and 22, 34).
+- **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
 - **LEDGE_HOP**: One-way traversal.
 
-## Strategy & Lessons
-- Driving: Interact from the side opposite where you want it to go.
-- Catching: Approach from behind while avoiding noisy tiles.
-- Battle: Run from low-level wild Pokemon.
+## Strategy: Driving the Bird North
+1. Drive bird to (24, 35) by interacting from North or East.
+2. Position yourself at (22, 32) (South of bird's landing spot) via the clean floor route around the east (X=29).
+3. Drive bird back to (22, 31) from (25, 35) (East).
+4. Since you are already at (22, 32), interact from the South to drive it North to (22, 28).
+5. From (22, 28), drive it West towards the apprentice.
 
 ## Important Locations
 - **Azalea Town**:
