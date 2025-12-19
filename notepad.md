@@ -2,51 +2,34 @@
 
 ## Goal: Catch the runaway Farfetch'd to obtain HM01 (Cut).
 
-## Farfetch'd Chase Log (Flight Logic)
-- **Bird at (14, 31)**: Approached from South (14, 32) -> Flew North to (14, 28).
-- **Bird at (15, 25)**: Approached from South (15, 26) -> Flew North to (15, 23) -> then (20, 24).
-- **Bird at (20, 24)**: Approached from North (20, 23) -> Flew East to (28, 31).
-- **Bird at (28, 31)**: Approached from North (28, 30) -> Flew South to (28, 34) -> then West to (24, 35).
-- **Current Position**: (24, 35), Facing: RIGHT.
+## Farfetch'd Flight Logic (Hypothesis)
+- **Mechanic**: The bird flies away if approached from the front or side. To catch it, interact from directly behind its facing direction.
+- **Flight Behavior**: It appears to fly ~4-5 tiles in the direction it is facing when startled.
+- **Catch Condition**: Interacting from the tile directly behind it (opposite its facing direction).
+- **Failure Log**: 
+  - Turn 2867: Interacted from North (28, 30) while bird at (28, 31) faced South. Bird flew South. (Contradicts "behind" logic? Or maybe I was too close?)
+  - Turn 2878: Interacted from West (23, 35) while bird at (24, 35) faced Right. Bird flew East.
 
-## Strategy
-- The bird flies in the opposite direction of the player's approach.
-- To catch it, I must interact with it while standing on the tile directly behind it (the direction it is NOT facing).
-- If it cannot fly away (dead end), it may be caught.
-
-## Post-Catch Plan
-1. Return to the apprentice (7, 28).
-2. Go to Charcoal Kiln in Azalea Town (21, 13) to get HM01 Cut.
-3. Teach Cut to a compatible Pokemon (check PC/Party).
-4. Clear the tree blocking the way to Route 34.
+## Current Status
+- Bird at (28, 31), Facing: LEFT.
+- Target Position: (29, 31) (Behind).
 
 ## Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- HEADBUTT_TREE: Impassable. Triggers encounters with Headbutt.
-- TALL_GRASS: Wild battles.
-- LEDGE: One-way jump.
+- HEADBUTT_TREE: Impassable.
+- CUT_TREE: Impassable. Requires HM01 Cut.
+- LEDGE_HOP: One-way traversal (Down/Left/Right).
 
-## Azalea Town References
-- Kurt's House (9, 5): Kurt (3, 2) makes balls.
-- Charcoal Kiln (21, 13): Boss gives Cut.
+## Post-Catch Plan
+1. Return to the apprentice (7, 28).
+2. Go to Charcoal Kiln in Azalea Town (21, 13) to get HM01 Cut.
+3. Teach Cut and clear the tree to Route 34.
+
+## Key Locations
+- Kurt's House: Azalea (9, 5). Kurt (3, 2) makes balls.
+- Charcoal Kiln: Azalea (21, 13). Boss gives Cut.
 
 ## Party Status
-- Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
-- ROCKY (ONIX) Lv6: TACKLE, SCREECH.
-- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK THROW.
-- ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
-- EGG (TOGEPI) Lv5: GROWL, CHARM.
-- APOPHIS (EKANS) Lv4: WRAP, LEER.
-
-## Lessons Learned
-- Bird Chase: Don't interact from the front if you want to catch it; get behind it.
-- Movement: NPCs move automatically; track them via Game State 'NPC Movement Paths'.
-- Reflection: Perform self-assessments every 50 turns to fix tools and update markers.
-- Time Blindness: Chasing Farfetch'd started Turn 2803. Current Turn 2856.
-## Catch Attempt #1 (Turn 2861)
-- Bird at (29, 22), Facing: DOWN.
-- Strategy: Approach from West (28, 22). Trap against East VOID edge.
-- Input: [Left, Up, Up, Right, A]
-- Turn 2876: Found REVIVE at (20, 32). Pack is getting full of good stuff!
-- Bird spotted at (24, 35), facing RIGHT. Strategy: Approach from behind at (23, 35).
+- Calcifer (QUILAVA) Lv22: Lead.
+- Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
