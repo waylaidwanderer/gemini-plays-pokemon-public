@@ -17,8 +17,11 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Status:** In Flower Shop.
     - **Health:** Muscle (10/73 HP).
-    - **Interaction:** Talked to Teacher (2, 4). She is distracted ("Lalala..."). Did NOT give Squirtbottle.
-    - **Objective:** Talk to Lass (4, 5) to see if she helps.
+    - **Interaction:**
+        - Talked to Teacher (2, 4) first: She sang "Lalala".
+        - Talked to Lass (5, 5): She mentioned her "sis" has a water bottle and might lend it if Whitney is beaten.
+    - **Hypothesis:** The Teacher is the "sis" and talking to the Lass unlocked the correct dialogue.
+    - **Action:** Talk to Teacher again to get Squirtbottle.
     - **Next Steps:**
         1. **Get Key Item:** Squirtbottle.
         2. **Heal:** Goldenrod Pokémon Center.
