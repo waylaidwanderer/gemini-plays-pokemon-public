@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore the western corridor on 2F (past Sailor Huey).
+- **Navigation:** Take the ladder at (5, 3) to 3F.
 - **Battle Strategy:** Standard. Muscle/Garnet.
 - **Current Location:** Olivine Lighthouse 2F.
 
