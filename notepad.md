@@ -15,10 +15,12 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Obstacle:** None. Standing before Whitney.
-    - **Target:** Whitney (Gym Leader).
-    - **Strategy:** Muscle (Low Kick). Being female prevents Attract.
-    - **Status:** Muscle Lv22 (48/70 HP). Risking it without healing.
+    - **Current Obstacle:** Whitney (Gym Leader).
+    - **Battle Plan:**
+        1. **Clefairy:** Muscle uses Low Kick. Should OHKO or 2HKO.
+        2. **Miltank:** Muscle uses Low Kick. If Muscle falls, send Rocky (Onix).
+        3. **Backup:** Rocky resists Normal/Rock. Use Screech + Rock Throw.
+    - **Status:** Muscle Lv22 (48/70 HP). Female Machop counters Attract strategy.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
