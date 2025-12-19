@@ -10,8 +10,8 @@
     5. Head West to Route 38.
 
 ## Party Status
-- **Muscle (Machoke):** Lv 31. Needs healing.
-- **Garnet (Quilava):** Lv 28. Needs healing.
+- **Muscle (Machoke):** Lv 31. Healthy.
+- **Garnet (Quilava):** Lv 28. Healthy.
 - **Others:** Low levels/Utility.
 
 ## Completed:** 
