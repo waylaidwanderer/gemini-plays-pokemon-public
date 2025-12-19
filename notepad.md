@@ -21,12 +21,15 @@
     - **Gym:**
         - **Status:** Defeated Sage Jeffrey (Sage #2).
         - **Strategy:** Muscle (Machoke) with Dig.
-        - **Puzzle:** Successfully crossed bridge at Row 11.
-        - **Current Position:** (3, 7).
+        - **Puzzle:**
+            - Row 11 Bridge: Safe.
+            - Tile (6, 7): Safe (despite is-warp="true").
+        - **Current Position:** (6, 6).
         - **Next Step:** Battle Granny at (7, 5).
-        - **Path Hypothesis:** Cross back to Column 6 via (6, 7).
-            - **Risk:** (6, 7) is marked is-warp="true". Testing if it's a trap or the path.
-            - **Route:** (3, 7) -> (6, 7) -> (6, 6) -> (6, 5) [Battle Granny].
+        - **Path Ahead:**
+            - Move to (6, 5) [Battle Granny].
+            - Then likely Left to (5, 5) -> Up to (5, 4).
+            - Target: Morty (likely at North end).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
