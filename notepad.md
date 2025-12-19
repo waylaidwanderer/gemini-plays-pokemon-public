@@ -29,7 +29,7 @@
 - Verified: The back door at (13, 15) on Route 34 connects to the Day-Care backyard (2, 7). (Turn 3427)
 - Apophis (Ekans, Lv 4) left with Day-Care Lady (Granny) at (5, 3). (Turn 3422)
 
-## Goldenrod City
+# Goldenrod City
 - Pokémon Center at (15, 27).
 - Underground South Entrance at (11, 29).
 - **Strategy**: Systematically explore the city by quadrants.
@@ -46,6 +46,6 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
 - **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
 - **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
-- Received ODD EGG from Day-Care Man (Turn 3425). Cleffa is currently named "EGG". status: "Needs more time". (Walking to hatch).
+- Odd Egg status: Cleffa named "EGG". (Checking if hatched).
 - Strategy: Explore Goldenrod City. Priority: Gym, Radio Tower (Pokegear radio card), Dept. Store. Check buildings near PC first.
 - Note: Radio Tower is running a promotional campaign to modify Pokegear with a radio card. (Turn 3466)
