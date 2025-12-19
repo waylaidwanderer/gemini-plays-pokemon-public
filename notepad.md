@@ -91,3 +91,6 @@
 - Cooltrainer F at (12, 16). (Turn 3851)
 - Youngster at (18, 17). (Turn 3851)
 - Pokefan M at (7, 18). (Turn 3852)
+- Team Rocket Grunt at (4, 16). (Turn 3854)
+- Radio Tower Entrance at (5, 15). (Turn 3854)
+- Goldenrod City Station Entrance at (9, 13). (Turn 3854)
