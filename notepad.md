@@ -59,9 +59,10 @@
 - My Lead: GNEISS (Geodude) Lv 22.
 - Turn 1: GNEISS used Magnitude 6. Clefairy used Metronome (Milk Drink), HP full.
 - Turn 2: GNEISS used Magnitude 8. Clefairy used DoubleSlap (not effective). Clefairy fainted.
-- Turn 3 (Turn 4215): Whitney sent out Miltank (Lv 20). Miltank used Rollout (not effective, 2 damage). GNEISS used Defense Curl.
-- Turn 4 (Turn 4219): Miltank used Rollout (Critical, 8 damage total). GNEISS used Rollout, but missed.
-- Turn 5 (Turn 4221): Miltank used Rollout (20 damage). GNEISS used Rollout, but missed. HP: 15/57.
-- Turn 6 (Turn 4223): Switched GNEISS for FRITTATA. Miltank used Rollout (Turn 4 of chain). FRITTATA fainted.
-- Turn 7 (Turn 4224): Sending out EGG to tank the final hit of the Rollout chain (Turn 5).
-- Strategy: Reset Miltank's momentum by sacrificing fodder. Then bring GNEISS back to finish with Magnitude/Rollout. GNEISS is female (immune to Attract). HP: 15/57.
+- Turn 3 (Turn 4215): Whitney sent out Miltank (Lv 20). Miltank used Rollout (Turn 1, 2 damage). GNEISS used Defense Curl.
+- Turn 4 (Turn 4219): Miltank used Rollout (Turn 2, Critical, 8 damage). GNEISS missed.
+- Turn 5 (Turn 4221): Miltank used Rollout (Turn 3, 20 damage). GNEISS missed. HP: 15/57.
+- Turn 6 (Turn 4223): Switched GNEISS for FRITTATA. Miltank used Rollout (Turn 4). FRITTATA fainted.
+- Turn 7 (Turn 4224): Attempted to send EGG, but EGGs can't battle.
+- Turn 8 (Turn 4225): Sending out KIMCHI (Lv 7) to tank the final hit of the Rollout chain (Turn 5).
+- Strategy: Sacrificing KIMCHI to reset Miltank's Rollout momentum. Then bring GNEISS back to finish. GNEISS is female (immune to Attract). HP: 15/57. Preserve Calcifer as backup.
