@@ -36,3 +36,10 @@
 - NPC Presence: Rely ONLY on 'Map Objects On Screen' list.
 - Catching Farfetch'd: Must approach from behind.
 - Ilex Forest: Dark area, HM05 Flash may be useful but not required.
+## Party Status
+- Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
+- ROCKY (ONIX) Lv6: TACKLE, SCREECH.
+- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK THROW.
+- ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
+- EGG (TOGEPI) Lv5: GROWL, CHARM.
+- APOPHIS (EKANS) Lv4: WRAP, LEER.
