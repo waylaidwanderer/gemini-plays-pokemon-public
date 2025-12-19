@@ -16,11 +16,11 @@ Interact from the tile directly behind the bird's facing direction.
 - Note: (15, 27), (15, 30), (15, 31) are CLEAN. (15, 28) is NOISY.
 
 ## Success Strategy: 'Face UP' Maneuver
-1. Step on (15, 28) [Noisy] -> Bird at (15, 29) faces UP.
-2. Retreat silently: (15, 28) -> (15, 27) -> (15, 23) -> (20, 23).
-3. Flank via Row 22, Column 29, and Row 35 (Silent Path).
-4. Path: (29, 22) -> (29, 34) -> (14, 34) -> (14, 31) -> (15, 31) -> (15, 30).
-5. Interact from (15, 30) facing UP.
+1. Step on (16, 28) [Noisy] -> Bird at (15, 29) faces UP.
+2. Retreat silently: (16, 28) -> Row 23 -> Column 29.
+3. Flank via Row 35: (29, 35) -> (14, 35) -> (14, 31) -> (15, 31) -> (15, 30).
+4. Interact from (15, 30) facing UP.
+- Note: (15, 30) is clean and behind an UP-facing bird.
 
 ## Tile Mechanics (Global)
 - FLOOR: Passable. Clean ground.
