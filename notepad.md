@@ -20,8 +20,8 @@
 - **Ecruteak City:**
     - **Gym:**
         - **Status:** Battling Medium Martha. Defeated Gastly (18), Haunter (20). Facing Gastly (Next).
-        - **Strategy:** Muscle is CURSED (taking 1/4 HP dmg/turn). Must SWITCH to remove Curse.
-        - **Plan:** Switch to Garnet (Quilava). Clean up with Ember.
+        - **Strategy:** Muscle was CURSED. Switching to Garnet (Quilava) to clear status and finish the battle.
+        - **Plan:** Use Ember with Garnet.
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
