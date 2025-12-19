@@ -1,14 +1,16 @@
 # Ilex Forest Quest: Runaway Farfetch'd
 *Started Turn 2803. Chase began Turn 3100. Completed Turn 3151.*
 
-## Success Condition
-Interact from behind. Quest complete.
+## Quest Status
+- Farfetch'd returned to apprentice.
+- Received HM01 CUT from the boss.
+- Goal: Teach CUT to a Pokémon and clear the tree at (8, 25).
 
 ## Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
 - HEADBUTT_TREE: Impassable.
-- CUT_TREE: Impassable (requires Cut to clear).
+- CUT_TREE: Impassable (requires HM01 Cut to clear).
 - LEDGE_HOP_DOWN/LEFT/RIGHT: One-way traversable in the direction indicated.
 - WARP_CARPET: Triggers map transition.
 
