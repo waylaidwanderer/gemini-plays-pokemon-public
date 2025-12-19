@@ -30,6 +30,7 @@
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 - Pokefan William (National Park): Raichu (Lv14). Gneiss is immune to its Electric moves.
 - Sudowoodo Capture Strategy: Use Rock Throw (resisted) to safely lower HP to red zone. Avoid Magnitude (super effective). Use Great Ball or Poke Balls once HP is low.
+- Arnie (Bug Catcher): Mentioned rare Ditto on Route 35 (Turn #4330) and wants a Snubbull (Turn #4540).
 
 # General Lessons
 - Menu Navigation: Do not mix directional and action buttons in a standard `press_buttons` call unless using `press_sequence`. Standard sequences will be truncated.
