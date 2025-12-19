@@ -1,9 +1,10 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Talk to Sailor at (6, 6). If no Good Rod, exit Cafe and check House at (13, 15).
-- **Notes:** Received HM04 Strength. Cafe Owner talks about menu.
+- **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
+- **Secondary Goal:** Obtain Good Rod.
+- **Navigation:** Talk to Sailor at (6, 6), then exit Cafe to search houses for Good Rod.
+- **Notes:** Fisher in Center mentioned Cafe for STRENGTH (Found). Good Rod likely elsewhere.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
