@@ -3,16 +3,16 @@
 ## Current Strategy
 - **Primary Goal:** Earn Fog Badge (Ecruteak Gym).
 - **Immediate Steps:**
-    1. Talk to locals (Lass, etc) for rumors.
-    2. Locate Gym and Burned Tower.
-    3. Determine Gym Type (Ghost likely).
-    4. Assess Team: MUSCLE (Dark/Ground moves?), GARNET (Fire vs Bug/Grass/Ice?), ROCKY (Ground vs Poison?).
+    1. Teach TM28 (Dig) to MUSCLE (Key for Ghost Gym).
+    2. Locate Gym (Ghost Type - Morty).
+    3. Defeat Gym Trainers and Leader.
+    4. Explore Burned Tower.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive, Plain (3/8).
-- **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle.
-- **HM/TM:** Cut, Headbutt.
-- **Party:** Muscle (25), Garnet (25), Rocky (17), Hematite (15), Azurite (13), Belladonna (5).
+- **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder, Squirtbottle, HM03 Surf.
+- **HM/TM:** Cut, Headbutt, Surf, Dig (TM28).
+- **Party:** Muscle (26), Garnet (26), Rocky (18), Hematite (15), Azurite (13), Belladonna (5).
 
 ## Quests & NPC Notes
 - **Webster (Guard):** Deliver KENYA's mail to Route 31 (Active).
@@ -23,7 +23,7 @@
     - **Pokefan:** Kimono Girls are tough.
 
 ## Important Locations
-- **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27).
+- **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
 
 ## Knowledge Base
 ### Mechanics
