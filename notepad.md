@@ -20,9 +20,8 @@
 - **Ecruteak City:**
     - **Gym:**
         - **Status:** Battling Morty (Gym Leader).
-        - **Strategy:** Muscle (Machoke) with Dig.
-        - **Key Threats:** Hypnosis, Dream Eater, Curse, Shadow Ball.
-        - **Backup:** Garnet, Rocky.
+        - **Strategy:** Muscle's Dig is out of PP (0/10). Switching to Garnet (Quilava).
+        - **Plan:** Use Ember with Garnet. Backup: Rocky.
         - **Puzzle:** Solved.
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
