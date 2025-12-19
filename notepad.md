@@ -1,6 +1,6 @@
 # Ilex Forest Quest: Runaway Farfetch'd
 *Started Turn 2803*
-*Status: Turn 3094 (300+ turns elapsed)*
+*Status: Turn 3097*
 
 ## Goal: Catch the bird to obtain HM01 (Cut).
 
@@ -13,13 +13,11 @@ Interact from the tile directly behind the bird's facing direction.
 - Zone C: Rows 28-30 (14)
 - Zone D: Rows 28-29 (16-18)
 - Zone E: Row 31 (23-28)
-- Note: (15, 27), (15, 28), (15, 30), (15, 31) are CLEAN.
 
-## Success Strategy: 'Face UP' Maneuver
-1. Step on (15, 26) [Noisy] -> Bird at (15, 29) faces UP.
-2. Retreat to (15, 27) [Clean].
-3. Reach (15, 30) [Clean] via Row 22, Column 29, and Row 35 (Silent Path).
-4. Interact from (15, 30) facing UP.
+## Silent Path to (15, 30) [Bird faces UP]
+1. Step on (15, 26) [Noisy] -> Bird faces UP. (Done)
+2. Path: (15, 26) -> (15, 23) -> (20, 23) -> (20, 24) -> (29, 24) -> (29, 33) -> (28, 33) -> (28, 35) -> (14, 35) -> (14, 30) -> (15, 30).
+3. Interact from (15, 30) facing UP.
 
 ## Tile Mechanics (Global)
 - FLOOR: Passable. Clean ground.
@@ -28,3 +26,7 @@ Interact from the tile directly behind the bird's facing direction.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable. Requires Cut.
 - LEDGE: Passable (One-way).
+
+## Strategy: General
+- Use 'battle_strategist_v3' for all wild encounters.
+- Avoid noisy zones when approaching from behind.
