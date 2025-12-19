@@ -106,23 +106,21 @@
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
 - **Time Tracking**: Started training at Turn 3932.
-- **Stagnation recognized**: Menu navigation for TM04/Hard Stone has failed repeatedly due to persistent cursor positions.
-- **Strategy Shift**: All menu navigation now includes a robust reset sequence (multiple 'Up' presses to guarantee starting at POKEDEX). This ensures reliable access to the PACK and other menus regardless of previous state.
 
 # Menu Mechanics
-- **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT. This means `Up*8` does not reset the cursor to a fixed position; it returns it to the starting point.
+- **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT.
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
 - Current Start Menu Cursor: PACK (index 2) (Turn 3987).
 - Current Party Menu Cursor: GNEISS (index 0) (Turn 3985).
-- Current Pack Pocket: TM/HM (Turn 3993).
-- Current Pack Cursor (TM/HM): 04 ROLLOUT (Turn 3993).
-- Current Pack Cursor (Items): HARD STONE (index 4) (Turn 3970).
+- Current Pack Pocket: TM/HM (Turn 3995).
+- Current Pack Cursor (TM/HM): 12 SWEET SCENT (Turn 3995).
 
 ## GNEISS (Geodude) Info
 - **Held Item**: BERRY (Needs to be swapped for HARD STONE).
+- Taught TM04 (Rollout) (Turn 3994).
 - Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
-- Python sandbox is currently unavailable (Turns 3971-3993). Advanced tools like `press_sequence` and `run_code` are non-functional.
+- Python sandbox is currently unavailable (Turns 3971-3995). Advanced tools like `press_sequence` and `run_code` are non-functional.
 - Switching to manual `press_buttons` for party management and training.
