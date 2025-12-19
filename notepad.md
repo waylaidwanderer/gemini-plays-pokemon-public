@@ -15,31 +15,31 @@
 - `WINDOW`: Impassable.
 
 # Area Knowledge
-## Ilex Forest
-- Signpost at (3, 17).
-- Shrine at (8, 22): Honors the forest's protector.
-- Rocker NPC at (15, 14): Headbutt Tutor.
-
 ## Route 34
 - Gatehouse to Ilex Forest at (13, 37) and (14, 37).
-- Trainer Tips sign at (13, 33).
 - Day-Care at (10, 14).
 - Verified: The back door at (13, 15) on Route 34 connects to the Day-Care backyard (2, 7). (Turn 3427)
 - Apophis (Ekans, Lv 4) left with Day-Care Lady (Granny) at (5, 3). (Turn 3422)
 
-# Goldenrod City
+## Goldenrod City
 - Pokémon Center at (15, 27).
 - Underground South Entrance at (11, 29).
-- **Strategy**: Systematically explore the city by quadrants.
-    1. Check all buildings in the immediate vicinity of the Pokémon Center.
-    2. Head north to find the Radio Tower and Gym.
-    3. Locate the Department Store for supplies.
-    4. Speak to all NPCs for city lore and potential items (e.g., Bike, Coin Case).
 - Radio Tower: Promotional campaign for Pokégear radio card. (Turn 3466)
+- Target: Goldenrod Gym (Whitney), Radio Tower, Department Store.
+
+## Route 35
+- Gatehouse at (19, 1) in Goldenrod connects to Route 35.
+- Quest: Officer at (0, 4) in Goldenrod Gatehouse wants a Pokémon with Mail delivered to a friend on Route 31. Needs empty party slot. (Turn 3488)
 
 # Trainer Roster
 - Pokefan Brandon (Route 34): Snubbull (Lv 13)
 - Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
+
+# Strategy: Goldenrod Exploration
+1. Return to Pokémon Center to deposit a Pokémon and free a slot for the Officer's quest.
+2. Return to Gatehouse, accept the Spearow, and proceed to Route 35.
+3. Systematically explore Goldenrod quadrants: Gym, Radio Tower, Dept. Store.
+4. Speak to all NPCs for city lore and items (Bike, Coin Case).
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
@@ -48,7 +48,3 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched Turn 3330.
 - **NPC Collision**: Defeated trainers (and others) are solid objects.
 - Odd Egg status: "Needs more time". (Turn 3477 summary check).
-- Lesson: Always verify turn number from Game State.
-- Lesson: Close dialogue/menus before moving.
-- Goldenrod: Door at (14, 21) is likely the Game Corner entrance.
-- Quest: Officer at (0, 4) in Goldenrod Gatehouse (Route 35) wants a Pokémon with Mail delivered to a friend on Route 31. (Turn 3488)
