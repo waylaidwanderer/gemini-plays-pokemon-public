@@ -37,15 +37,14 @@
     2. Head north to find the Radio Tower and Gym.
     3. Locate the Department Store for supplies.
     4. Speak to all NPCs for city lore and potential items (e.g., Bike, Coin Case).
+- Radio Tower: Promotional campaign for Pokégear radio card. (Turn 3466)
+- Target: Gramps at (11, 27) for city info.
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
-- **Running**: Use Calcifer (Quilava) as lead for high escape probability from wild battles.
-- **Tool Hygiene**: Refined find_path_v4 and explore_unseen_v1 to treat 'unseen' tiles as impassable. Added HEADBUTT_TREE and WATER to collision checks.
-- **Item Usage**: `use_item_v4` is for the Items pocket only. TMs require manual navigation or a specialized tool (`use_tm_v1`).
-- **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
-- **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
-- **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
-- Odd Egg status: Cleffa named "EGG". (Checking if hatched).
-- Strategy: Explore Goldenrod City. Priority: Gym, Radio Tower (Pokegear radio card), Dept. Store. Check buildings near PC first.
-- Note: Radio Tower is running a promotional campaign to modify Pokegear with a radio card. (Turn 3466)
+- **Running**: Use Calcifer (Quilava) as lead for high escape probability.
+- **Tool Hygiene**: find_path_v4 and explore_unseen_v1 treat 'unseen' as impassable.
+- **Nicknaming**: FRITTATA (Togepi) hatched Turn 3330.
+- **NPC Collision**: Defeated trainers (and others) are solid objects.
+- Odd Egg status: Cleffa named "EGG". (Checking if hatched - Turn 3474).
+- Turn Mismatch: Turn 3463 and 3474 reported mismatches. Verification required.
