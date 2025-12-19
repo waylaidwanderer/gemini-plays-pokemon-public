@@ -67,3 +67,7 @@
 - PC: Impassable. Individual Behavior: Blocks movement. Relational Behavior: Interacted with by standing below and facing up.
 - Steel type weaknesses (Fighting, Ground, Fire) - Need to verify in-game.
 - Flower Shop is located north of the Gym in Goldenrod City.
+
+# Goldenrod Flower Shop (11_8)
+- Teacher NPC at (2, 4).
+- Objective: Talk to her to get the Squirtbottle.
