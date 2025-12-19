@@ -24,11 +24,14 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Eusine (Super Nerd):** Looking for Suicune.
-        - **Morty:** Investigating Legendary Beasts.
-        - **Hazards:** Floor has holes (Warps) to B1F. (15, 15) seems safe to walk on for now.
-        - **East Side:** Dead end. Rock at (15, 4) requires Rock Smash.
-        - **Plan:** Re-attempting West Side path (4, 12 -> 4, 11 -> 3, 11) carefully. If blocked, fallback to falling down hole at (4, 14).
+        - **Status:** Exploring Ground Floor.
+        - **Layout:**
+            - **South:** Entry, Eusine, Morty (blocking way?).
+            - **West:** Narrow corridor (x=4) connects South to North (Row 1).
+            - **North (Row 1):** Currently exploring. Checks if it connects down to Rival (8,9).
+            - **East:** Blocked by Rock (Smash).
+        - **Hazards:** Floor has holes (Warps) to B1F.
+        - **Hypothesis:** If Row 1 doesn't connect to Rival, must fall through a specific hole to reach B1F, then ladder up to Rival's area.
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
