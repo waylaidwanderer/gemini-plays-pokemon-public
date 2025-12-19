@@ -20,6 +20,7 @@
   - Rocket Grunt at (31, 9) confirmed gone.
   - Check Kurt at (3, 2) in Kurt's House (Map 8_3) for the ball. Gave White Apricorn on Turn 2720.
   - Explore potentially reachable unseen tiles in the NE (31, 0) to (39, 2). Hypothesis: Reachable via unseen path or hidden gap.
+  - Explore unseen tile at (24, 15) near the Gym.
 
 ## Strategy for Ilex Forest
 1. Enter Ilex Forest from the western gate of Azalea Town (Warp at 2, 10 or 2, 11).
