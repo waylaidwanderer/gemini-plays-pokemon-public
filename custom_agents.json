@@ -1,1 +1,9 @@
-{}
+{
+  "battle_strategist": {
+    "agent_name": "battle_strategist",
+    "agent_description": "Analyzes Pokemon battles and recommends moves based on type effectiveness and strategy.",
+    "agent_system_prompt": "You are a Pokemon battle expert. Your goal is to help Gem win battles efficiently. You will be provided with information about Gem's lead Pokemon, its moves, the opponent Pokemon, and the current battle text. Analyze type matchups, move power, and potential status effects. Recommend the best move to use and explain why. Consider the current goal (e.g., training, catching, or winning a gym). Gem is playing Pokemon Crystal.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon\":{\"type\":\"string\"},\"player_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"opponent_pokemon\":{\"type\":\"string\"},\"current_goal\":{\"type\":\"string\"}},\"required\":[\"player_pokemon\",\"player_moves\",\"opponent_pokemon\",\"current_goal\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"strategy_tip\":{\"type\":\"string\"}},\"required\":[\"recommended_move\",\"reasoning\",\"strategy_tip\"]}"
+  }
+}
