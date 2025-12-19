@@ -40,19 +40,20 @@
 - Picnicker Brooke (Route 35): Pikachu (Lv 16)
 - Picnicker Kim (Route 35): Vulpix (Lv 15)
 - Youngster Samuel (Route 34): Rattata (Lv 10), Spearow (Lv 12)
+- Bug Catcher Arnie (Route 35): Venonat (Lv 15)
 
 # Strategy: Route 35 & Goldenrod
-- **Bypass Route 35 Fence**: Navigate to (4, 18) or (5, 18) to move north of the fence line.
-- **Access East Side of Route 35**: Traverse through gaps in the column 12 wall at (12, 16) or (12, 17).
-- **Retrieve Poke Ball (13, 16)**: Use the gap at (12, 16) to enter the enclosed area.
-- **Gym Challenge**: Prepare for Whitney's Normal-type Gym in Goldenrod.
-- **Rename Cleffa**: Visit the Name Rater in Goldenrod to change the name "EGG".
+- **Bypass Route 35 Fence**: To get past the fence, navigate west to column 4 or 5 and move north to Row 18.
+- **Access East Side of Route 35**: To reach the eastern area, use the gaps in the column 12 wall located at (12, 16) or (12, 17).
+- **Retrieve Poke Ball (13, 16)**: Navigate to (12, 16) and move right to enter the enclosed section containing the item.
+- **Gym Challenge**: Train the team to level 20+ to prepare for Whitney's Normal-type Gym.
+- **Rename Cleffa**: Head to the Name Rater in Goldenrod to change Cleffa's name from "EGG".
 
 # Lessons Learned
 - **Type Matchups**: Fire is neutral to Ground (Sandshrew, Diglett). Special moves like Ember are effective against Sandshrew due to its low Special Defense, even if neutral.
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability.
-- **NPC Collision**: Defeated trainers and other NPCs are solid objects.
+- **NPC Collision**: All NPCs (even defeated ones) are solid objects. Interact from adjacent tiles.
 - **Collision Error**: Fences are WALLS. Check map data if a path looks clear but might be blocked.
 - Odd Egg status: Hatched into Cleffa (EGG) at Lv 5. (Observed Turn 3527)
 - Route 35 Fence: Fence ends at (6, 18). Column 4 and 5 are clear to bypass the fence.
