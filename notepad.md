@@ -26,3 +26,5 @@
 - Navigation to Northern Exit started at Turn 3266.
 - Encountered and defeated a wild Psyduck at (29, 5) (Turn 3288). gained 80 EXP.
 - Resuming path to Rocker NPC at (15, 14). Target interaction tile: (15, 15).
+- Item: Antidote at (17, 7) (Picked up Turn 3280).
+- Item: Ether at (27, 1) (Picked up Turn 3284).
