@@ -42,6 +42,7 @@
 
 # Battle Notes
 - Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Verified neutral damage.
+- Fire moves (Ember) vs Slowpoke (Water/Psychic): Resisted (Water resists Fire).
 
 # Strategy: Goldenrod City
 - **Objective**: Find the Radio Tower and obtain the Radio Card.
