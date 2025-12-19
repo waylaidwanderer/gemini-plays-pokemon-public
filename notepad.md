@@ -5,9 +5,8 @@
 - **Recruitment**: KIMCHI caught in Ilex Forest, now in party slot 6.
 
 ## Lessons Learned
-- **Menu Loops**: Turn 3169-3217. Caused by inaccurate `press_sequence` calls and hallucinating menu state.
-- **Fix**: Always verify "Current Screen Text" before multi-button sequences. Use dedicated tools for item/HM usage.
-- **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Switch to Flying/Fire for Grass types.
+- **Menu Loops**: Turn 3169-3217. Verify screen text before sequences.
+- **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb).
 - **Notepad Hygiene**: Avoid redundant logs. Keep "HOW" plans detailed.
 
 ## Area Knowledge: Ilex Forest
