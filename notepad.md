@@ -7,11 +7,6 @@
 - **Battle Strategy:** Muscle leads.
 - **Current Location:** Olivine Lighthouse 5F.
 
-## Reflection (Turn 7019)
-- **Hygiene:** Marked new warps immediately. Notepad organized.
-- **Goal:** Exploring East side to find path to 6F.
-- **Observation:** This floor has an outer walkway and an inner area. Need to find access to inner area or next floor.
-
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
 - **2F:** Defeated Gentleman Alfred, Sailor Huey.
