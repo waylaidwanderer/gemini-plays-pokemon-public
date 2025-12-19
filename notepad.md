@@ -27,8 +27,7 @@
         - **Eusine (Super Nerd):** Looking for Suicune.
         - **Morty:** Investigating Legendary Beasts.
         - **Hazards:** Floor has holes (Warps) to B1F.
-        - **Objective:** Find Rival (likely North).
-    - **Objective:** Explore North part of Ground Floor.
+        - **Plan:** Route via East corridor to check for North wrap-around.
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
