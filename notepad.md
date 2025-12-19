@@ -17,7 +17,7 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Obstacle:** Lass Bridget at (9, 6).
     - **Opponent:** Lass Bridget.
-    - **Team:** Jigglypuff (Lv15), Jigglypuff (Lv??).
+    - **Team:** Jigglypuff (Lv15), Jigglypuff (Lv15).
     - **Strategy:** Muscle (Low Kick) sweeping.
     - **Status:** Muscle Lv22 (48/70 HP). Facing 2nd Jigglypuff.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
