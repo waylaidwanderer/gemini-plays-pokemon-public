@@ -17,8 +17,8 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Obstacle:** Whitney (Gym Leader) - Defeated.
     - **Status:** Won! Muscle Lv23 (10/73 HP).
-    - **Current State:** Whitney is crying. Badge not yet received.
-    - **Action:** Attempting to leave the gym to trigger the "Lass stops you" event, or will talk to the Lass at (9, 6).
+    - **Current State:** Whitney is crying. Lass stopped me at exit.
+    - **Action:** Clear Lass's text, then return to talk to Whitney.
     - **Next Step:** Get Badge -> Heal -> Get Squirtbottle.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
