@@ -37,13 +37,3 @@
 3. Enter Flower Shop, get SQUIRTBOTTLE.
 4. Back to Route 36.
 - Item at (35, 12): collected (Parlyz Heal).
-
-# Pokefan Beverly Battle Log (Turn 4402+)
-- Opponent 1: Snubbull (Lv 14).
-- Turn 1: GNEISS vs Snubbull. Using Magnitude.
-
-# Lessons Learned
-- Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block.
-- Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (Floria) has been spoken to.
-- Tile Types: Use exact strings from XML (e.g., 'grass' instead of 'TALL_GRASS').
-- Battle Strategy: Ground vs Normal is neutral, but GNEISS resists Normal. Magnitude is high damage.
