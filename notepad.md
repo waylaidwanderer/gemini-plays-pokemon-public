@@ -7,7 +7,7 @@
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
-- **Key Items:** Coin Case, Bicycle, Old Rod.
+- **Key Items:** Coin Case, Bicycle, Old Rod, Itemfinder.
 - **HM/TM:** Cut (Belladonna), Headbutt (Tutor).
 - **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE), Sunkern (HELIODOR), Spearow (KENYA - Gift).
 
