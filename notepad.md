@@ -15,11 +15,17 @@ Interact from the tile directly behind the bird's facing direction.
 - Zone E: Row 31 (23-28)
 - Note: (15, 27), (15, 30), (15, 31) are CLEAN. (15, 28) is NOISY.
 
-## Current Status (Turn 3101)
-- Bird Position: (15, 29). Facing: RIGHT.
-- Player Position: (16, 29).
-- Plan: Move to (15, 28) [Noisy] to make bird face UP.
-- Next Steps: Retreat silently via western corridor and flank to (15, 30).
+## Current Status (Turn 3102)
+- Bird Position: (15, 29). Facing: UP.
+- Player Position: (15, 28).
+- Plan: Reach (15, 30) (Behind) via the silent western corridor.
+- Steps:
+  1. Move to (15, 27) [Clean].
+  2. Move to (8, 27) [Clean].
+  3. Move to (8, 34) [Clean].
+  4. Move to (14, 34) [Clean].
+  5. Move to (14, 31) [Clean] -> (15, 31) [Clean] -> (15, 30) [Clean].
+  6. Interact from (15, 30) facing UP.
 
 ## Tile Mechanics (Global)
 - FLOOR: Passable. Clean ground.
