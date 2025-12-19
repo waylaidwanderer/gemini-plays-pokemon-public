@@ -52,4 +52,4 @@
 - Goldenrod Gym: Maze layout. Whitney (8, 3) uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
 
 # Gym Navigation
-- Started Turn 4141. Exploring maze. Target: Lass at (9, 13).
+- Started Turn 4141. Exploring maze. Target: Lass at (9, 6).
