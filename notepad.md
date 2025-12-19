@@ -45,3 +45,4 @@
 - Odd Egg hatched into Cleffa (EGG) Lv 5 (Turn 3527).
 - Obtained Zephyr and Hive Badges.
 - Received HM01 Cut.
+- Goldenrod Underground: Entrance at (9, 5). Super Nerd at (19, 27) warns of "rough" battles downstairs.
