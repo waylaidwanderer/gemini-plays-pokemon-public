@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore West (x=4) to reveal unseen tiles, then head to Stairs (16, 13).
-- **Notes:** Sailor (8, 2) gives advice, no battle.
-- **Current Location:** Olivine Lighthouse 1F (North).
+- **Navigation:** Explore West side (x=4), then proceed to Stairs at (16, 13).
+- **Notes:** Sailor (8, 2) warns about difficulty, no battle. Pokefan (16, 11) shares lore.
+- **Current Location:** Olivine Lighthouse 1F (North Center).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
