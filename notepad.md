@@ -51,6 +51,3 @@
     - East Side (Snake Path) is a dead end.
     - West Corridor (Column 0/1): Accessible only from Row 10. Contains Dig TM at south end.
     - NW Pocket (Rows 4-10, Cols 2-5): Isolated. Must enter/exit via Northern Perimeter at (10, 2).
-- **Swap Plan:**
-    1. Deposit Kenya (Party Slot 6).
-    2. Withdraw Belladonna (Box 1, Slot 13 - Wrap around with UP).
