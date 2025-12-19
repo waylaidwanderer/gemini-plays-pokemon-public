@@ -27,7 +27,7 @@
 - Juggler Irwin: Voltorb (Lv 2, 6, 10, 14)
 - Firebreather Walt: Magmar (Lv 11, 13)
 - Bug Catcher Arnie: Venonat (Lv 15)
-- Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv ?)
+- Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
 
 # Strategy: Goldenrod City
 - **Rename Cleffa**: Locate and visit the Name Rater to change the name "EGG".
