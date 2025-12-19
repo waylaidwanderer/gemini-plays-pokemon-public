@@ -37,4 +37,4 @@
 - **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
 - **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
 - Defeated Pokefan Brandon at (18, 28) on Route 34. Opponent: Snubbull (Lv 13). (Turn 3393)
-- Battling Youngster Ian at (11, 21) on Route 34. (Challenged Turn 3399, Battle Start Turn 3401)
+- Battling Youngster Ian at (11, 21) on Route 34. Mankey defeated. Facing Diglett. (Turn 3404)
