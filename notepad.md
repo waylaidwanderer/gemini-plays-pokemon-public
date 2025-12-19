@@ -22,9 +22,10 @@
         - **Status:** Battling Morty (Rematch).
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **Current Pokemon:** Muscle (Machoke Lv 31, 77/102 HP).
-        - **Condition:** Cursed, Trapped, Awake (After Item).
-        - **Action:** Used Awakening.
-        - **Strategy:** Muscle is awake. Next turn: Dig.
+        - **Condition:** Cursed, Trapped, Awake.
+        - **Action:** Used Awakening. Turn ending.
+        - **Expectation:** Gengar attacks -> Curse damage -> Next turn.
+        - **Strategy:** Survive -> Use Dig. Hope for obedience.
         - **Backup:** None (Trapped).
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
