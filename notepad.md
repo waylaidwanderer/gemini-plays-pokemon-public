@@ -28,7 +28,7 @@
         - **Morty:** Investigating Legendary Beasts.
         - **Hazards:** Floor has holes (Warps) to B1F. (15, 15) seems safe to walk on for now.
         - **East Side:** Dead end. Rock at (15, 4) requires Rock Smash.
-        - **Plan:** Return to West Side and navigate the narrow path (4, 12 -> 4, 11 -> 3, 11 -> North) to find Rival.
+        - **Plan:** Re-attempting West Side path (4, 12 -> 4, 11 -> 3, 11) carefully. If blocked, fallback to falling down hole at (4, 14).
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
