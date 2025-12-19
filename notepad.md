@@ -19,15 +19,16 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Medium Martha. Muscle switched to Garnet. Facing Gastly (Lv 20).
-        - **Strategy:** Garnet is in. Use Ember (Slot 4) since Normal moves (Quick Attack) won't work on Ghosts.
+        - **Status:** Defeated Medium Martha.
+        - **Strategy:** Muscle (Machoke) & Garnet (Quilava).
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
             - **Current Position:** (6, 5).
         - **Path Ahead:**
-            - Finish battle.
-            - Move to (5, 5), then Up Column 5 to Morty (5, 1).
+            - Move Left to (5, 5).
+            - Move North up Column 5 to (5, 2).
+            - Challenge Morty at (5, 1).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
