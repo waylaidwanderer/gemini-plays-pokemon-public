@@ -48,10 +48,11 @@
 
 # Schoolboy Jack Battle Log (Turn 4384+)
 - Opponent 1: Oddish (Lv 12). Defeated by Calcifer.
-- Opponent 2: Voltorb.
-- Turn 3: Switching to GNEISS.
+- Opponent 2: Voltorb (Lv 15). Defeated by GNEISS (Magnitude 9).
+- Gains: ¥480.
 
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (Floria) has been spoken to.
 - Tile Types: Use exact strings from XML (e.g., 'grass' instead of 'TALL_GRASS').
+- Battle Strategy: Magnitude is highly effective against Electric types. Immunties (Ground vs Electric) should be prioritized.
