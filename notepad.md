@@ -110,17 +110,17 @@
 # Menu Mechanics
 - **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT.
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
-- Current Start Menu Cursor: PACK (index 2) (Turn 3987).
+- Current Start Menu Cursor: PACK (index 2) (Turn 4001).
 - Current Party Menu Cursor: GNEISS (index 0) (Turn 3985).
-- Current Pack Pocket: Items (Turn 3996).
+- Current Pack Pocket: Items (Turn 4001).
 - Current Pack Cursor (Items): X ATTACK (Turn 4001).
 
 ## GNEISS (Geodude) Info
 - **Held Item**: HARD STONE (Turn 4001).
-- Taught TM04 (Rollout) (Turn 3994).
+- **Moveset**: Tackle, Defense Curl, Rock Throw, Rollout (TM04 taught Turn 3994).
 - Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
 - Python sandbox is currently unavailable (Turns 3971-4001). Advanced tools like `press_sequence` and `run_code` are non-functional.
-- Switching to manual `press_buttons` for party management and training.
+- Switching to manual `press_buttons` for training.
