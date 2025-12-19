@@ -1,6 +1,6 @@
 # Tile Mechanics
 - FLOOR: Traversable.
-- WALL: Impassable. Includes FENCE.
+- WALL: Impassable. Includes FENCE and Gym Planters.
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable. Requires Cut.
@@ -30,12 +30,14 @@
 - GNEISS (Geodude) Lv 20. Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
 
 # NPCs & Trainers
-- Juggler Irwin (Super Nerd sprite) at (5, 10): Voltorb x4. Defeated.
-- Bug Catcher Arnie at (16, 8): Venonat. Defeated.
-- Bird Keeper Bryan at (14, 28): Pidgey, Pidgeotto. Defeated.
-- Firebreather Walt at (3, 10): Magmar x2. Defeated.
-- Officer at (5, 6): Requests delivery to Route 31.
+- Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
+- Bug Catcher Arnie at (16, 8) on Route 35: Venonat. Defeated.
+- Bird Keeper Bryan at (14, 28) on Route 35: Pidgey, Pidgeotto. Defeated.
+- Firebreather Walt at (3, 10) on Route 35: Magmar x2. Defeated.
+- Officer at (5, 6) in Goldenrod City: Requests delivery to Route 31.
 - Gym Guide (ID 6) at (5, 15) in Goldenrod Gym.
+- Beauty Victoria (ID 4) at (0, 4) in Goldenrod Gym: Sentret x2. Defeated.
+- Lass (ID 2) at (9, 13) in Goldenrod Gym.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground (Turn 3971).
@@ -48,5 +50,4 @@
 
 # Gym Navigation (Started Turn 4141)
 - Goal: Find and defeat Whitney.
-- GNEISS is Lv 20 and healthy.
-- Current Status: Battling Beauty Victoria at (0, 5). Trainer Lass at (9, 13).
+- Current Status: Navigating the maze. Defeated Beauty Victoria. Whitney spotted at (8, 3). Trainer Lass at (9, 13).
