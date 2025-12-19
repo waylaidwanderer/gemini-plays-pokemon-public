@@ -25,6 +25,10 @@
 ## Goldenrod City
 - **Scripted Event**: The Cleffa hatched from the Odd Egg (nicknamed EGG) cannot be renamed by the Name Rater; he claims it's "just an EGG."
 
+## Goldenrod Underground
+- Entrance at Goldenrod City (9, 5).
+- Super Nerd at (19, 27) warns of "rough" battles downstairs.
+
 # Trainer Roster
 - Picnicker Kim: Vulpix (Lv 15)
 - Camper Ivan: Diglett (Lv 10, 14), Zubat (Lv 10)
@@ -34,16 +38,13 @@
 - Firebreather Walt: Magmar (Lv 11, 13)
 - Bug Catcher Arnie: Venonat (Lv 15)
 - Bird Keeper Bryan: Pidgey (Lv 12), Pidgeotto (Lv 14)
+- Pokemaniac Donald: Slowpoke (Lv 10)
+
+# Battle Notes
+- Normal moves (Headbutt) vs Slowpoke (Water/Psychic): Verified neutral damage.
 
 # Strategy: Goldenrod City
 - **Objective**: Find the Radio Tower and obtain the Radio Card.
 - **Method**: Explore the western side of Goldenrod City (started Turn #3690).
 - **Whitney Gym Strategy**: Use GNEISS (Geodude) as the primary attacker to resist Whitney's Normal-type moves and deal super-effective Rock damage.
 - **Spearow Delivery**: Deliver KENYA to the recipient on Route 31 (long-term goal).
-
-# History
-- Odd Egg hatched into Cleffa (EGG) Lv 5 (Turn 3527).
-- Obtained Zephyr and Hive Badges.
-- Received HM01 Cut.
-- Goldenrod Underground: Entrance at (9, 5). Super Nerd at (19, 27) warns of "rough" battles downstairs.
-- Pokemaniac Donald: Slowpoke (Lv 10)
