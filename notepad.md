@@ -10,9 +10,9 @@
 - **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
 ## Strategy: Current Plan
-1. **Status**: Bird is at (22, 31) facing UP.
-2. **Action**: Catch bird by interacting from the South (22, 32).
-3. **Approach**: Already at (22, 32) behind it.
+1. **Status**: Bird is at (22, 31) facing DOWN.
+2. **Action**: Clear text. Observe flight North to Row 28 (Clean ground).
+3. **Catch**: Get behind it on clean floor.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
