@@ -21,5 +21,6 @@
 
 ## Quests
 - **Webster:** Deliver mail to Route 31.
-- Observation: Phone call from Wade interrupted interaction.
-- Immediate Plan: Retrying interaction with Denis at (8, 3) from (9, 3).
+- Observation: Previous attempt to talk to Denis failed due to pathing/execution error. I have NOT yet verified the interaction from the East side after the map refresh.
+- Plan: 1. Navigate to (9, 3). 2. Talk to Denis. 3. If he stays, investigate (8, 3) as a potential hole.
+- Current Location: OlivineLighthouse5F.
