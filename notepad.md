@@ -18,12 +18,11 @@
 ## Current Status
 - Bird is at (15, 29). Facing: UP.
 - Target: (15, 30) (Behind).
-- Approach: Flank via the eastern corridor and Row 34 passage.
-  1. Move to (29, 26) (Clean).
-  2. Move to (29, 34) (Clean).
-  3. Move to (15, 34) (Clean).
-  4. Move to (15, 30) (Clean).
-- Reason: The bird is facing UP at (15, 29). Approaching from (15, 30) is the success condition. This route avoids all noisy tiles near the bird. Row 34 passage is the silent way in.
+- Approach: Silent flank via Row 35.
+  1. Move to (14, 35) via (28, 33) -> (28, 34) -> (28, 35).
+  2. Move to (14, 31) (Clean).
+  3. Move to (15, 31) (Clean) then (15, 30) (Clean).
+- Reason: Avoids all noisy tiles. (14, 30) is noisy, so I must enter (15, 30) from the south (15, 31). Row 35 is clean.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
