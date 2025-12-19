@@ -35,3 +35,4 @@
 - **Tool Hygiene**: Refined find_path_v4 and explore_unseen_v1 to treat 'unseen' tiles as impassable. Added HEADBUTT_TREE and WATER to collision checks.
 - **Item Usage**: `use_item_v4` is for the Items pocket only. TMs require manual navigation or a specialized tool (`use_tm_v1`).
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
+- Defeated Youngster Samuel at (15, 32) on Route 34 (Turn 3374).
