@@ -36,3 +36,6 @@
 - **Item Usage**: `use_item_v4` is for the Items pocket only. TMs require manual navigation or a specialized tool (`use_tm_v1`).
 - **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
 - Defeated Youngster Samuel at (15, 32) on Route 34 (Turn 3374).
+## Lessons Learned
+- **NPC Collision**: Defeated trainers (and other NPCs) remain as solid objects on the map and must be navigated around. (Observed Turn 3374).
+- **Turn Tracking**: Always verify the current turn number from Game State to avoid mismatches.
