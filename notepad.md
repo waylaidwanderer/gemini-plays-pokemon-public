@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Advance dialogue with Sailor (4, 3) to get Strength HM.
-- **Notes:** Currently speaking to Sailor.
+- **Navigation:** Talk to the Fishing Guru (7, 3) to get the Good Rod.
+- **Notes:** Received HM04 (Strength) from Sailor.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
