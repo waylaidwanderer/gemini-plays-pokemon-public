@@ -13,9 +13,10 @@
 
 ## Quests & NPC Notes
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
-- **Goldenrod Gym:** Layout is a Clefairy shape.
-    - **Right Side Maze Solution:** From top-right (19, 6), go Left to (15, 6) -> Down to (15, 8) -> Right to (16, 8) -> Down to (16, 9) -> Right to (17, 9) -> Down to (17, 12) -> Left to (15, 12) -> Down to (15, 13) -> Left to Center.
-    - **Plan:** Execute the winding path through the Right Side to reach the central area (Rows 9-13).
+- **Goldenrod Gym:** Clefairy shape.
+    - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
+    - **Current Obstacle:** Lass at (12, 13). Battle initiated.
+    - **Next Steps:** Defeat Lass, then navigate around her (via Row 12) to access the central area (Rows 9-13).
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
