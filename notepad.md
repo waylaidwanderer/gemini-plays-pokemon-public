@@ -4,17 +4,19 @@
 - **Apprentice Hint**: "Get behind it."
 - **Observed Behavior**:
   - Startle: Interacting (A button) makes it fly ~6 tiles away from the player along the forest path.
-  - Noisy Tiles (Twigs): Stepping on these (specs on ground) makes the bird turn to face the player.
-  - Twig Locations: Row 31 (X=23 to 29) verified.
+  - Noisy Tiles (Twigs): Stepping on these makes the bird turn to face the player.
+  - Twig Locations: Row 31 (X=23 to 29) verified. Row 23 (X=15 to 21) likely clean.
+- **Current Search**: Bird last seen at (29, 22). 
 
 ## Strategy: Catching the Bird
-- **Problem**: Approaching from twigs causes the bird to turn, preventing a "behind" interaction.
-- **Solution**: Drive the bird to clean floor (Rows 22-30, 32-35) or approach from behind on clean floor.
-- **Driving Direction**: Bird flies away from the player's interaction point (e.g., interact from South -> flies North).
+- **Problem**: Twig tiles prevent "behind" approach.
+- **Solution**: Drive the bird to clean floor (Rows 22-30, 32-35).
+- **Clean Floor Locations**: Row 22, Row 24 (mostly), Row 28 (mostly).
+- **Procedure**: Approach from behind on clean floor.
 
 ## Tile Mechanics
-- **FLOOR**: Passable. Clean ground.
-- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd when stepped on. Verified Row 31.
+- **FLOOR**: Clean ground. Passable.
+- **TWIGS**: Noisy ground (specs). Alerts bird. Verified Row 31.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
