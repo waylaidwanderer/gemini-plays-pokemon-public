@@ -5,8 +5,6 @@
 - HEADBUTT_TREE: Impassable. Can be shaken with Headbutt.
 - CUT_TREE: Impassable. Requires Cut.
 - TALL_GRASS: Traversable. Wild encounters.
-- grass: Traversable. Wild encounters.
-- long grass: Traversable. Wild encounters.
 - DOOR: Traversable. Map transition.
 - WARP_CARPET_UP/DOWN/LEFT/RIGHT: Traversable. Map transition.
 - LEDGE_HOP_DOWN/LEFT/RIGHT: One-way traversal.
@@ -32,9 +30,13 @@
 - TM04 (Rollout): Found on Route 35.
 - HARD STONE: Held by GNEISS.
 
-# Strategy: Goldenrod Return (Started Turn 4415)
+# Strategy: Goldenrod Return
 1. Exit National Park southern gatehouse (Map 10_15) to Route 35.
 2. Travel south on Route 35 to Goldenrod City.
 3. Enter Flower Shop, get SQUIRTBOTTLE.
 4. Back to Route 36.
-- Note: Collected Parlyz Heal at National Park (35, 12).
+
+# Strategy: KENYA Delivery
+- Goal: Deliver Spearow (KENYA) to the guy on Route 31.
+- Route: Goldenrod -> Route 35 -> National Park -> Route 36 -> Violet City -> Route 31.
+- Status: KENYA in party.
