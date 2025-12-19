@@ -17,28 +17,14 @@
 - Immune: Ground -> Flying.
 - Policy: Use battle_strategist for trainer fights.
 
-# Progress & Objectives
-- Whitney Defeated. Plain Badge and TM45 obtained.
-- Exploration: Started National Park exploration at Turn #4476. (Current Task)
-- Squirtbottle Quest:
-  1. Talked to Floria on Route 36 (Turn 4347).
-  2. Obtained SQUIRTBOTTLE from Flower Shop (Turn 4449).
-  3. Learned from Floria (Turn 4347) that the "wiggly tree" is a Pokémon that reacts to water.
-  4. Use SQUIRTBOTTLE on Sudowoodo at Route 36 (35, 9). (Next)
-- Deliver KENYA (Spearow) to Route 31.
+# Strategy & Notes
+- Sudowoodo: Located at Route 36 (35, 9). Reacts to water (Use SQUIRTBOTTLE).
+- KENYA Delivery: Recipient is near the Route 30 gate on Route 31.
+- Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
+- Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground.
 - TM04 (Rollout): Found on Route 35.
 - HARD STONE: Held by GNEISS.
 - SQUIRTBOTTLE: In Key Pocket.
-
-# Strategy: Reach Route 36
-- Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
-- Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
-- National Park Path: Use southern gatehouse (10, 47) and eastern exit (33, 19) to reach Route 36 Gatehouse.
-
-# Strategy: KENYA Delivery
-- Goal: Deliver Spearow (KENYA) to the recipient near the Route 30 gate on Route 31.
-- Route: Goldenrod -> Route 35 -> Route 36 -> Violet City -> Route 31.
-- Status: KENYA (Spearow) is in the party.
