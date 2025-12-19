@@ -48,7 +48,9 @@
 # Schoolboy Jack Battle Log (Turn 4384+)
 - Opponent 1: Oddish (Lv 12).
 - Turn 1: Switched GNEISS for Calcifer. Oddish used Absorb (not very effective).
-- Turn 2: Using EMBER.
+- Turn 2: Using EMBER. Oddish fainted. Calcifer grew to Lv 27.
+- Opponent 2: Voltorb.
+- Turn 3: Switching to GNEISS.
 
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block.
