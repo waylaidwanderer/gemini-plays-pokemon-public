@@ -2,10 +2,10 @@
 
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
-- **Secondary Goal:** Obtain Good Rod.
-- **Navigation:** Confirm "YES" to Fishing Guru (Press A).
-- **Notes:** Answering "YES" to "face the sea and fish?".
-- **Current Location:** Olivine Good Rod House.
+- **Secondary Goal:** Investigate Lighthouse.
+- **Navigation:** Exit house -> Find Lighthouse (Southeast).
+- **Notes:** Obtained Good Rod.
+- **Current Location:** Olivine City.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
