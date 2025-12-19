@@ -56,3 +56,4 @@
 - Odd Egg status: Hatched into Cleffa (EGG) at Lv 5. (Observed Turn 3527)
 - Route 35 Fence: Fence ends at (6, 18). Column 4 and 5 are clear to bypass the fence.
 - Route 35 East Side: Reachable via gaps in the column 12 wall at (12, 16) and (12, 17).
+- Firebreather Walt (Route 35): Magmar (Lv 11)
