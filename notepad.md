@@ -40,3 +40,5 @@
 - **Observation:** I am in the Center Room of 5F. North (Row 5) is blocked by walls.
 - **Plan:** Explore South (Cols 8-9) to find the ladder to 6F. Expecting a Sailor at (8, 11).
 - **Correction:** Previous map data showing a ladder at (9, 5) was incorrect; it is a wall.
+- **Encounter:** Met Sailor in 5F Center Room at (8, 10).
+- **Plan:** Defeat Sailor, then continue South to uncover tiles (9, 14)/(9, 15) and find the ladder to 6F.
