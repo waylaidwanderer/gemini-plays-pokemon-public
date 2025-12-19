@@ -15,10 +15,10 @@
   - Bird Facing: Unknown (likely LEFT or DOWN)
   - Environment: Row 28 is clean ground. Row 31 has twigs.
 
-## Strategy: Catching on Row 28
-1. Reach (28, 28) or (29, 27) without stepping on Row 31 twigs.
-2. Determine bird's facing.
-3. Interact from behind to catch.
+## Strategy: Drive to Clean North Ground
+1. Move to (29, 31) (Twigs) to startle bird at (29, 28).
+2. Bird should fly North to Row 22-24 (Clean Ground).
+3. Follow via Northern Loop (X=14 -> Row 24 -> Row 22) and catch from behind.
 
 ## Tile Mechanics
 - **FLOOR**: Passable.
