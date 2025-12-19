@@ -45,4 +45,4 @@
 # Active Task: KENYA Delivery
 - Started: Turn #4603
 - Recipient Location: Near the gate to Route 30 on Route 31.
-- Status: At Fisher (17, 7), selecting KENYA for delivery.
+- Status: Completed. Delivered KENYA to Fisher at (17, 7) on Route 31. Received TM50 (Nightmare). (Turn #4645)
