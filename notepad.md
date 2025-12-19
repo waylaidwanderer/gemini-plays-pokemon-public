@@ -15,13 +15,13 @@
 
 # Strategy: Ilex Forest Exploration
 - **Goal**: Reach Goldenrod City via the northern exit of Ilex Forest.
-- **Progress**: TM02 Headbutt obtained (Turn 3298). Calcifer learned HEADBUTT, replacing LEER (Turn 3311).
-- **Plan**: Navigate to the northern exit. Note that HEADBUTT_TREE tiles remain impassable even after interaction.
-- Navigation to Northern Exit started at Turn 3266. Resuming from (13, 1).
+- **Progress**: TM02 Headbutt obtained (Turn 3298). Calcifer learned HEADBUTT (Turn 3311). Defeating Bug Catcher Wayne at (13, 1).
+- **Plan**: Use Calcifer's Ember to defeat Wayne's Paras. Then navigate to the northern exit at (1, 1).
+- Navigation to Northern Exit started at Turn 3266.
 
 ## Lessons Learned
 - **Menu Loops**: Turn 3169-3217. Always verify screen text before executing button sequences.
-- **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb).
+- **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability from wild battles.
 - **Tool Hygiene**: Refined find_path_v4 and explore_unseen_v1 to treat 'unseen' tiles as impassable. Added HEADBUTT_TREE and WATER to collision checks.
 - Encountered and defeated a wild Psyduck at (29, 5) (Turn 3288). gained 80 EXP.
