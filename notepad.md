@@ -21,11 +21,10 @@
     - **Gym:**
         - **Status:** Battling Morty (Rematch).
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
-        - **Current Pokemon:** Muscle (Machoke Lv 31, 53/102 HP).
+        - **Current Pokemon:** Muscle (Machoke Lv 31, 102/102 HP).
         - **Condition:** Cursed, Trapped (Mean Look), Disobeying (Lv > 30).
-        - **Critical Info:** Hive Badge only ensures obedience up to Lv 30. Muscle is Lv 31.
-        - **Turn Calculation:** Item (+50) -> 102 HP. Gengar Atk (~25) -> 77 HP. Curse (-25) -> 52 HP. Safe.
-        - **Strategy:** Survive with Potions until Muscle obeys and uses Dig.
+        - **Turn Update:** Muscle healed to full. Turn ending (Gengar will attack).
+        - **Next Turn:** Select Fight -> Dig. Pray for obedience.
         - **Backup:** None (Trapped).
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
