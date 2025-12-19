@@ -91,10 +91,6 @@
 # Menu Mechanics
 - **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT.
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
-- Current Start Menu Cursor: PACK (index 2) (Turn 4001).
-- Current Party Menu Cursor: GNEISS (index 0) (Turn 3985).
-- Current Pack Pocket: Items (Turn 4001).
-- Current Pack Cursor (Items): X ATTACK (Turn 4001).
 
 # Technical Status
 - Python sandbox is restored (Turn 4011). Advanced tools are functional.
