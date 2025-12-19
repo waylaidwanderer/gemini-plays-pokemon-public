@@ -88,12 +88,8 @@
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude learned Lv 16.
 
-# Menu Mechanics
-- **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT.
-- **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
-
 ## GNEISS (Geodude) Info
 - **Held Item**: HARD STONE (Turn 4001).
-- Taught TM04 (Rollout) (Turn 3994).
+- **Moveset**: Magnitude, Defense Curl, Rock Throw, Rollout (TM04 taught Turn 3994).
 - Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).

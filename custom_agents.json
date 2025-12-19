@@ -1,9 +1,1 @@
-{
-  "strategy_advisor": {
-    "agent_name": "strategy_advisor",
-    "agent_description": "Provides high-level strategic advice on party composition, goal prioritization, and upcoming challenges based on current game state.",
-    "agent_system_prompt": "You are a Pokemon Strategy Advisor. You analyze the player's party, current objectives, and known game world information to provide optimized strategies. You focus on type matchups, level management, and efficient goal sequencing. You do not have knowledge of the game beyond what is provided in the input.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"string\"},\"inventory\":{\"type\":\"string\"},\"current_objectives\":{\"type\":\"string\"},\"known_locations\":{\"type\":\"string\"}},\"required\":[\"party\",\"inventory\",\"current_objectives\",\"known_locations\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"analysis\",\"recommendations\"]}"
-  }
-}
+{}
