@@ -17,7 +17,7 @@
 - `TV`: Impassable. Verified at (2, 1) in Bill's House.
 - `TOWN_MAP`: Impassable (WALL). Verified at (3, 0) in Bill's House.
 - `WINDOW`: Impassable (WALL). Verified at (5, 0) in Bill's House.
-- `COUNTER`: Impassable. Verified in Goldenrod Pokecenter and at (12, 5) in RadioTower1F.
+- `COUNTER`: Impassable. Verified in Goldenrod Pokecenter and at (12, 5) in RadioTower1F. Must interact from an adjacent tile.
 - `PC`: Impassable. Verified in Goldenrod Pokecenter and at (0, 1) in RadioTower1F.
 - `STAIRCASE`: Traversable. Map transition. Verified at (15, 0) in RadioTower1F.
 
