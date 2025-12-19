@@ -48,4 +48,4 @@
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability.
 - **NPC Collision**: Defeated trainers and other NPCs are solid objects.
 - **Collision Error**: Fences are WALLS. Check map data if a path looks clear but might be blocked.
-- Odd Egg status: "Needs more time". (Turn 3477 summary check). Nicknamed Pip-Pip.
+- Odd Egg status: Hatched into Cleffa (EGG) at Lv 5. (Turn 3548)
