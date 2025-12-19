@@ -15,11 +15,12 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** In Goldenrod Pokémon Center.
-    - **Health:** Muscle (10/73 HP). Healing now.
+    - **Current Status:** Healing Complete.
+    - **Health:** All Pokemon restored.
     - **Next Steps:**
-        1. **Heal:** Talk to Nurse Joy.
-        2. **Objective:** Head North to Route 36 and clear Sudowoodo.
+        1. **Exit:** Leave Pokémon Center.
+        2. **Route:** Head North to Route 36.
+        3. **Objective:** Use Squirtbottle on Sudowoodo.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
