@@ -55,3 +55,4 @@
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
 - GNEISS (Geodude) grew to Lv 23 during this battle.
+- Turn 3 (Turn 4318): Psychic Mark is about to use Kadabra. GEM chose not to switch.
