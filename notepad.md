@@ -45,3 +45,8 @@
 # Area Knowledge
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
 - Goldenrod Gym: Maze layout. Whitney uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
+
+# Gym Navigation (Started Turn 4141)
+- Goal: Find and defeat Whitney.
+- GNEISS is Lv 20 and healthy.
+- Current Status: Navigating the maze. Trainer Lass at (9, 13).
