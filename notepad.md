@@ -1,6 +1,6 @@
 # Tile Mechanics
 - FLOOR: Traversable.
-- WALL: Impassable. Includes FENCE and Gym Planters.
+- WALL: Impassable. Includes FENCE, benches, and flower beds.
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable. Shaken with Headbutt.
 - CUT_TREE: Impassable. Cleared with Cut.
@@ -31,7 +31,7 @@
 - SQUIRTBOTTLE: In Key Pocket.
 
 # Strategy: Reach Route 36
-- Route 35 is divided by a fence. Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
+- Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 - National Park Path: Use southern gatehouse (10, 47) and eastern exit (33, 19) to reach Route 36 Gatehouse.
 
