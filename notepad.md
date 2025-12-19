@@ -7,6 +7,7 @@
 - `TALL_GRASS`: Traversable. May trigger wild Pokémon encounters.
 - `LONG_GRASS`: Traversable. May trigger wild Pokémon encounters.
 - `DOOR`: Traversable. Triggers a map transition to an indoor area or another map.
+- `WARP_CARPET_DOWN`: Traversable. Triggers a map transition when moving Down.
 - `FENCE`: Impassable (functions as a WALL).
 - `LEDGE_HOP_DOWN`: One-way traversal. Can jump down, but not up.
 - `LEDGE_HOP_LEFT`: One-way traversal. Can jump left, but not right.
@@ -22,7 +23,6 @@
 - Collected: TM04 (Rollout) at (13, 16).
 
 ## Goldenrod City
-- Name Rater's House: (15, 7).
 - **Scripted Event**: The Cleffa hatched from the Odd Egg (nicknamed EGG) cannot be renamed by the Name Rater; he claims it's "just an EGG."
 
 # Trainer Roster
