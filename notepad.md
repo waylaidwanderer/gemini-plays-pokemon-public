@@ -15,21 +15,13 @@
 - Row 31: (23, 31) to (29, 31) are noisy. (14, 31) and (15, 31) are clean.
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30 (except 14,30).
 
-## Current Status
-- Bird is at (15, 28). Facing: UP.
-- Target: (15, 29) (Behind).
-- Approach: Silent flank via Row 35.
-  1. Move to (14, 35) via Row 33/34.
-  2. Move to (14, 31) (Clean).
-  3. Move to (15, 31) (Clean), then (15, 30), then (15, 29).
-- Reason: Avoids all noisy tiles. Approach from the south is the only silent way to (15, 29).
-
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
-- **TWIGS**: Noisy floor (specs). Alerts bird.
+- **TWIGS (FLOOR with specs)**: Noisy. Alerts bird to player's presence, causing it to face them.
 - **WALL / DENSE_TREES**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-- **CUT_TREE**: Impassable. Requires HM01 Cut.
+- **HEADBUTT_TREE**: Impassable. Can be headbutted later.
+- **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
+- **LEDGE**: One-way traversal (down, left, or right).
 
 ## Locations & Progress
 - **Charcoal Kiln**: Azalea (21, 13). Reward: Cut.
