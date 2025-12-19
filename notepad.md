@@ -9,7 +9,7 @@
 
 ## Lighthouse Progress
 - **1F:** Explored. Lore obtained from Pokefan. Staircase at (16, 13).
-- **2F:** Defeated Gentleman Alfred. Found pits at (16, 13)/(17, 13) and stairs up at (16, 11)/(17, 11).
+- **2F:** Defeated Gentleman Alfred. Found pits at (16, 13)/(17, 13). Warps at (16, 11)/(17, 11) seem to be arrival points from 1F (inactive). Exploring North.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
