@@ -30,13 +30,14 @@
 - **Roster:**
   - Clefairy (Lv 18): Metronome, DoubleSlap, Encore.
   - Miltank (Lv 20): Stomp, Rollout, Milk Drink, Attract.
-- **Strategy:**
-  - Lead with GNEISS (Geodude) Lv 21+. Rock/Ground resists Normal and Rock moves.
+- **Observations:**
   - Miltank's Rollout doubles in power each turn.
-  - **Counter-Strategy:** If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI, etc.) to tank the hit and force a reset.
-  - GNEISS (Female) is immune to Miltank's Attract.
-  - Use Super Potions to maintain HP above 30.
-- **Battle Status:** Started Turn 4207. Clefairy defeated. Miltank active (approx 65% HP). GNEISS at 55/57 HP. Miltank's Rollout chain reset. Magnitude 7 used.
+  - Attract fails against female Pokémon (GNEISS is female).
+- **Strategy:**
+  - Lead with GNEISS (Geodude). Rock/Ground resists Normal and Rock moves.
+  - If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI) to tank the hit and force a reset.
+  - Use Magnitude to burst through Milk Drink.
+- **Battle Status:** Started Turn 4207. Clefairy defeated. Miltank active (~70% HP). GNEISS at 55/57 HP.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
