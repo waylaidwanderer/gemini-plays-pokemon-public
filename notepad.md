@@ -19,17 +19,12 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Reached Morty.
-        - **Objective:** Heal Muscle (53/99 HP) before battle.
-        - **Strategy:** Dig with Muscle. Backup: Garnet.
-        - **Action:** Using Super Potion on Muscle.
-        - **Puzzle:**
-            - Row 11 Bridge: Safe.
-            - Tile (6, 7): Safe.
-            - Tile (6, 4): PIT but Walkable (Fake Pit?).
-            - **Current Position:** (5, 2).
-        - **Path Ahead:**
-            - Challenge Morty at (5, 1).
+        - **Status:** Engaging Morty.
+        - **Strategy:** Muscle (Machoke) with Dig.
+        - **Key Threats:** Hypnosis, Dream Eater, Curse, Shadow Ball.
+        - **Backup:** Garnet, Rocky.
+        - **Puzzle:** Solved.
+        - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
