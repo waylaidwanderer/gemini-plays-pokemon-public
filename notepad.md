@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Challenge Pokefan (Female) at (4, 22).
-- **Immediate Goal:** Hop ledge West and battle.
+- **Navigation:** Defeat Pokefan Jaime (Trainer Battle), then explore Moomoo Farm.
+- **Battle Strategy:** Muscle in lead. Expect Pikachu/Snubbull. Use Dig/Karate Chop.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
