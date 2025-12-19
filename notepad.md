@@ -49,6 +49,5 @@
 - **Route 35-37:** Cleared trainers. Defeated Sudowoodo.
 - **Burned Tower Notes:** Divided into North/South by wall. Holes drop to B1F.
 - **Navigation Note:** Always verify current coordinates before pathing.
-- **Item:** Found Rare Candy at (15, 12) on 5F.
-- **Hypothesis:** The West corridor (column 2) leads to the unexplored center area and the next ladder.
-- **Plan:** Backtrack to (3, 5), then explore South along the West wall.
+- **Observation:** The "Youngster" at (5, 3) is Bird Keeper Denis (already defeated).
+- **Plan:** Navigate around Denis to the West corridor (column 2) and explore South.
