@@ -19,16 +19,15 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Granny #2 (Medium Martha). Defeated Gastly (Lv 18). Facing Haunter.
-        - **Strategy:** Cancel accidental switch (keep Muscle). Use Dig vs Haunter.
+        - **Status:** Battling Medium Martha. Defeated Gastly. Facing Haunter.
+        - **Strategy:** Muscle (Machoke) used Dig.
         - **Puzzle:**
             - Row 11 Bridge: Safe.
             - Tile (6, 7): Safe.
             - **Current Position:** (6, 5).
         - **Path Ahead:**
-            - Defeat Granny at (7, 5).
-            - **Hypothesis:** Move Left to (5, 5), then Straight Up Column 5 to Morty at (5, 1).
-            - (5, 4), (5, 3), (5, 2) all look like safe FLOOR tiles in XML.
+            - Finish battle.
+            - Move to (5, 5), then Up Column 5 to Morty (5, 1).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
