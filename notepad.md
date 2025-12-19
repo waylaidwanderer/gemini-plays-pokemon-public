@@ -15,8 +15,21 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Turn 2753: Battling Rival Malice's Zubat (Lv14). Zubat is burned. Calcifer at 40/60 HP. Using Ember to finish the fight.
+- Turn 2754: Battling Rival Malice's Zubat (Lv14). Zubat is burned. Calcifer at 40/60 HP. Using Ember to finish the fight.
 - Post-Battle: Explore unseen tiles (31, 0) to (39, 2) and verify Rocket Grunt at (31, 9) is gone. Also explore (24, 15) near the Gym. Use explore_unseen_v1.
+
+## Party Status
+- Calcifer (QUILAVA) Lv21 (40/60 HP): QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
+- ROCKY (ONIX) Lv6 (21/21 HP): TACKLE, SCREECH.
+- GNEISS (GEODUDE) Lv15 (41/41 HP): TACKLE, DEFENSE CURL, ROCK THROW.
+- ICARUS (PIDGEY) Lv11 (32/32 HP): TACKLE, SAND-ATTACK, GUST.
+- EGG (TOGEPI) Lv5 (18/18 HP): GROWL, CHARM.
+- APOPHIS (EKANS) Lv4 (16/16 HP): WRAP, LEER.
+
+## Trainer Rosters (Johto)
+- Rocket Grunts (Slowpoke Well): All defeated.
+- Azalea Gym Trainers: All defeated.
+- Gym Leader Bugsy: Defeated.
 - Rival Malice (Azalea): Gastly (Lv12) - Defeated, Croconaw (Lv16) - Defeated, Zubat (Lv14) - Battling.
 
 ## Azalea Town Summary
