@@ -15,7 +15,7 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Obstacle:** Lass at (12, 13). Battle initiated.
+    - **Current Obstacle:** Lass Carrie at (12, 13). Battling Snubbull (Lv18).
     - **Next Steps:** Defeat Lass, then navigate around her (via Row 12) to access the central area (Rows 9-13).
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
