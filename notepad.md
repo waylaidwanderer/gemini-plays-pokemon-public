@@ -44,7 +44,12 @@
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
 - Flower Shop: Located north of the Gym in Goldenrod City. Teacher NPC at (2, 4).
 
-# Psychic Mark Battle Log (Turn 4308)
-- Opponent Lead: Abra (Lv 13).
-- My Lead: GNEISS (Geodude) Lv 22.
-- Plan: Use MAGNITUDE. Abra likely only knows Teleport.
+# Psychic Mark Battle Log (Turn 4308+)
+- Opponent Lead: Abra (Lv 13). Defeated.
+- My Lead: GNEISS (Geodude) Lv 23. (Accuracy -1 from Flash).
+- Next Opponent: Abra (Lv 13).
+- Plan: Stay in with GNEISS, use MAGNITUDE.
+
+# Lessons Learned
+- Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
+- Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
