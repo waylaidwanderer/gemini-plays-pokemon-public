@@ -44,6 +44,7 @@
 - **Plan:** Defeat Sailor, then continue South to uncover tiles (9, 14)/(9, 15) and find the ladder to 6F.
 - **Battle:** Immediately challenged by Sailor Ernest after defeating Terrell.
 - **Plan:** Defeat Sailor Ernest. Continue South to tiles (9, 14)/(9, 15).
-- **Success:** Defeated Sailor Ernest (Machop).
+- **Success:** Defeated Sailor Ernest's Poliwhirl.
 - **Action:** Rejected learning Vital Throw.
-- **Plan:** Continue South to find the ladder to 6F.
+- **Current Battle:** Fighting Sailor Ernest's Machop.
+- **Plan:** Defeat Machop, then continue South to find the ladder to 6F.
