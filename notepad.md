@@ -1,29 +1,25 @@
 # Ilex Forest Quest: Runaway Farfetch'd
 *Started Turn 2803*
 
-## Goal: Catch the bird to obtain HM01 (Cut).
+## Success Condition
+Interact from the tile directly behind the bird's facing direction.
 
-## Puzzle Mechanics
-- **Success Condition**: Interact from the tile directly behind the bird's facing direction.
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away.
-- **Twig Logic**: Tiles with dark specs are noisy. Stepping on them makes the bird turn to face the player.
+## Verified Tile Data
+- Noisy (Bird faces player):
+  - Row 24: (20, 24)-(25, 24)
+  - Row 26: (14, 26), (15, 26)
+  - Row 28: (14, 28)-(18, 28)
+  - Row 29: (17, 29), (18, 29)
+  - Row 30: (14, 30)
+  - Row 31: (23, 31)-(29, 31)
+- Clean (Silent): Row 22, 23, 25, 27, 29 (except 17, 18), 30 (except 14), 31 (except 23-29), 34, 35.
 
-## Tile Mechanics (Verified)
-- **FLOOR**: Passable. Clean ground.
-- **TWIGS (FLOOR with specs)**: Passable. Noisy floor; alerts bird.
-- **WALL / DENSE_TREES**: Impassable.
-- **HEADBUTT_TREE**: Impassable.
-- **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE**: Passable (One-way: Down, Left, or Right).
-
-## Verified Noisy Tiles (Specs)
-- Row 24: (20, 24) to (25, 24)
-- Row 26: (14, 26), (15, 26)
-- Row 28: (14, 28) to (18, 28)
-- Row 29: (17, 29), (18, 29)
-- Row 31: (23, 31) to (29, 31)
-
-## Quest Log
-- **Turn 3063**: Interacted from (29, 31) [Behind]. Bird turned to face player (RIGHT). Catch failed.
-- **Turn 3076**: Bird is at (22, 31), Facing DOWN. Player at (22, 32).
-- **Plan**: Startle from front to move it.
+## Current Status (Turn 3079)
+- Bird Position: (15, 29). Facing: LEFT.
+- Player Position: (19, 29).
+- Plan: Make bird face UP, then catch from (15, 30) silently.
+- Steps:
+  1. Move to Row 22 via Column 29.
+  2. Reach (15, 28) [Noisy] to make bird face UP.
+  3. Retreat and go to (15, 31) -> (15, 30) silently via Row 35.
+  4. Interact facing UP.
