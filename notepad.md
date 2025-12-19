@@ -51,3 +51,4 @@
 - Lesson: Always verify turn number from Game State.
 - Lesson: Close dialogue/menus before moving.
 - Goldenrod: Door at (14, 21) is likely the Game Corner entrance.
+- Quest: Officer at (0, 4) in Goldenrod Gatehouse (Route 35) wants a Pokémon with Mail delivered to a friend on Route 31. (Turn 3488)
