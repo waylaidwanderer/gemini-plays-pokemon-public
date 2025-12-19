@@ -114,8 +114,8 @@
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
 - Current Start Menu Cursor: PACK (index 2) (Turn 3987).
 - Current Party Menu Cursor: GNEISS (index 0) (Turn 3985).
-- Current Pack Pocket: TM/HM (Turn 3989).
-- Current Pack Cursor (TM/HM): 04 ROLLOUT (Turn 3991).
+- Current Pack Pocket: TM/HM (Turn 3993).
+- Current Pack Cursor (TM/HM): 04 ROLLOUT (Turn 3993).
 - Current Pack Cursor (Items): HARD STONE (index 4) (Turn 3970).
 - Current Sub-menu: USE (Turn 3992).
 
@@ -125,5 +125,5 @@
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
 
 # Technical Status
-- Python sandbox is currently unavailable (Turns 3971-3992). Advanced tools like `press_sequence` and `run_code` are non-functional.
+- Python sandbox is currently unavailable (Turns 3971-3993). Advanced tools like `press_sequence` and `run_code` are non-functional.
 - Switching to manual `press_buttons` for party management and training.
