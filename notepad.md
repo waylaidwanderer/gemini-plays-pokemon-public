@@ -23,7 +23,7 @@
         - **Opponent:** Haunter Lv 23 (Ghost/Poison).
         - **My Pokemon:** Garnet (Quilava Lv 27, 20/76 HP). Everyone else fainted.
         - **Turn Order:** Garnet is FASTER than Haunter.
-        - **Strategy:** Quick Attack fails (Normal vs Ghost). Must use Ember.
+        - **Strategy:** Last turn Quick Attack failed (Cursor memory issue). Using Ember.
         - **Hazards:** Night Shade (23 dmg) kills Garnet (20 HP). Must KO this turn.
         - **Puzzle:** Solved.
         - **Current Position:** (5, 2).
