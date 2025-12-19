@@ -9,17 +9,15 @@
 - **Twig Logic**: Tiles with dark specs are noisy. Stepping on them near the bird makes it turn to face the player.
 - **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
-## Strategy: Current Plan
-1. **Status**: Bird position unknown (last seen at 22, 31 flying North).
-2. **Action**: Search western path (Row 28/29) to locate bird.
-3. **Catch**: Approach from behind on clean floor.
-
-## Hypotheses
-- Row 23 (X=15 to 21) is clean (Untested).
+## Strategy: Current Status
+- **Bird**: (15, 29), Facing: UP.
+- **Player**: (16, 29), Facing: LEFT. (Side interaction).
+- **Environment**: Row 28 and Row 31 are noisy (twigs). Rows 29 and 30 are clean.
+- **Plan**: Interact from (16, 29) to drive bird West. Track landing spot.
 
 ## Tile Mechanics
-- **FLOOR**: Passable. Clean ground.
-- **TWIGS**: Noisy floor (specs on ground). Alert Farfetch'd. (Verified Row 31 X=23-29).
+- **FLOOR**: Passable. Clean ground (Rows 29, 30).
+- **TWIGS**: Noisy ground (specs). Alert Farfetch'd. (Rows 28, 31).
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
