@@ -29,6 +29,7 @@
 
 # Progress & Objectives
 - **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained.
+- **Squirtbottle Quest:** Started Turn 4268.
 - **Squirtbottle Quest:**
   - Talk to the Lass next to the "wiggly tree" (Sudowoodo) on Route 36 first.
   - Path: Goldenrod -> Route 35 (via Cut tree at 17, 6) -> Route 36.
