@@ -14,10 +14,10 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 29, Row 30.
 
 ## Current Status
-- **Bird**: (15, 25), Facing: LEFT (Turned when player moved to 15, 24).
+- **Bird**: (15, 25), Facing: UP.
 - **Player**: (15, 24), Facing: DOWN.
-- **Observation**: Bird turned LEFT even though Row 24 appears clean.
-- **Plan**: Interact from (15, 24) to drive bird SOUTH to Row 29/30.
+- **Action**: Clearing text. Bird likely to fly South.
+- **Observation**: Bird turned to face the player even though Row 24 is clean. This implies the bird can "see" the player if they approach from the front/side within a certain distance, or certain tiles are noisier than they look.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
