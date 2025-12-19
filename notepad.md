@@ -10,23 +10,28 @@
 - CAVE: Warp leading to interior.
 - FLOOR_UP_WALL: Impassable wall above floor.
 - LADDER: Stairs warp.
-- WATER: Impassable without Surf.
+- WATER: Hypothesis - Impassable without Surf. Need to verify.
 
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Turn 2757: Defeated Rival Malice. Calcifer reached Level 22.
-- Current Task: Heal at Pokemon Center, then finish exploring Azalea Town.
-- Post-Battle Plan: 
+- Post-Battle Plan (Azalea Town Map 8_0):
   - Explore unseen tiles (31, 0) to (39, 2).
   - Verify Rocket Grunt at (31, 9) is gone.
   - Explore (24, 15) near the Gym.
-  - Check Kurt (3, 2) for the ball.
+  - Check Kurt at (3, 2) in Kurt's House (Map 8_3) for the ball.
+
+## Strategy for Ilex Forest
+1. Enter Ilex Forest from the western gate of Azalea Town.
+2. Help the Charcoal Kiln's apprentice catch the runaway Farfetch'd.
+3. Obtain HM01 (Cut).
+4. Teach Cut to a compatible Pokémon.
+5. Clear the small tree blocking the path to Goldenrod City.
 
 ## Party Status
-- Calcifer (QUILAVA) Lv22 (43/63 HP): QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
+- Calcifer (QUILAVA) Lv22 (63/63 HP): QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
 - ROCKY (ONIX) Lv6 (21/21 HP): TACKLE, SCREECH.
-- GNEISS (GEODUDE) Lv15 (41/41 HP): TACKLE, DEFENSE CURL, ROCK THROW.
+- GNEISS (GEODUDE) Lv15 (41/41 HP): TACKLE, DEFENSE CURL, ROCK_THROW.
 - ICARUS (PIDGEY) Lv11 (32/32 HP): TACKLE, SAND-ATTACK, GUST.
 - EGG (TOGEPI) Lv5 (18/18 HP): GROWL, CHARM.
 - APOPHIS (EKANS) Lv4 (16/16 HP): WRAP, LEER.
