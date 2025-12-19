@@ -16,9 +16,9 @@
 
 ## Current Status
 - Bird is at (15, 29). Facing: UP.
-- Target: (15, 30) (Behind).
-- Approach: Move to (14, 30) then (15, 30). Row 30 is clean.
-- Reason: Avoids all noisy tiles. Direct path to its back.
+- Position: I am at (15, 30) (Behind).
+- Action: Face UP and interact (A).
+- Reason: Success condition met. Final catch attempt.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
