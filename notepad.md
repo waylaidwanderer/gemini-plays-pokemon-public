@@ -13,13 +13,14 @@ Interact from the tile directly behind the bird's facing direction.
 - Zone C: Rows 28-30, Column 14 (14, 28) to (14, 30)
 - Zone D: Rows 28-29, Columns 16-18 (16, 28) to (18, 29)
 - Zone E: Row 31 (23, 31) to (29, 31)
-- **Verified Clean**: (15, 27), (15, 30), (15, 31), Row 34, Row 35.
+- **Verified Clean**: (15, 28), (15, 29), (15, 30), (15, 31), Row 34, Row 35.
+- **Verified Noisy**: (15, 27), Column 14 (Rows 28-30), Row 24 (20-25), Row 26 (14-15), Row 31 (23-29).
 - **Unverified but Likely Clean**: Column 14 (Rows 31-34).
 
-## Current Status (Turn 3116)
-- Bird Position: (15, 29). Facing: RIGHT.
-- Player Position: (15, 26).
-- Plan: Move to (15, 28) [Noisy] to make bird face UP. Then flank silently to (15, 30).
+## Current Status (Turn 3120)
+- Bird Position: Unknown (likely flew after interaction at 15, 29).
+- Player Position: (15, 28).
+- Plan: Explore east to locate the bird. Check (22, 31) and (29, 22).
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3'.
