@@ -4,6 +4,7 @@
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable. Can be shaken with Headbutt.
 - CUT_TREE: Impassable. Requires Cut.
+- TALL_GRASS: Traversable. Wild encounters.
 - grass: Traversable. Wild encounters.
 - long grass: Traversable. Wild encounters.
 - DOOR: Traversable. Map transition.
