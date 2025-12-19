@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Explore the North-West area of 4F (reach x=3, y=11).
+- **Navigation:** Explore the North-West corner of 4F, then take the ladder at (3, 5).
 - **Battle Strategy:** Muscle leads.
 
 ## Lighthouse Progress
