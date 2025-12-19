@@ -3,6 +3,12 @@
 
 ## Goal: Catch the bird to obtain HM01 (Cut).
 
+## Current Status (Turn 3061)
+- **Bird Position**: (28, 31).
+- **Bird Facing**: RIGHT.
+- **Player Position**: (29, 30).
+- **Plan**: Startle the bird from (29, 31) to move it to a better area. Row 31 is too noisy to sneak up on.
+
 ## Puzzle Mechanics
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction.
 - **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away.
@@ -16,19 +22,14 @@
 - **Verified Clean Tiles**: Row 22, Row 23, Row 25, Row 27, Row 30, Row 34.
 
 ## Tile Mechanics
-- **FLOOR**: Passable. Clean ground.
-- **TWIGS (FLOOR with specs)**: Noisy. Alerts bird to player's presence, causing it to face them.
+- **FLOOR**: Passable. Standard movement.
+- **TWIGS (FLOOR with specs)**: Passable. Noisy; bird turns to face the player.
 - **WALL / DENSE_TREES**: Impassable.
-- **HEADBUTT_TREE**: Impassable. Can be headbutted later.
-- **CUT_TREE**: Impassable. Requires HM01 Cut to clear.
-- **LEDGE**: One-way traversal (down, left, or right).
+- **HEADBUTT_TREE**: Impassable.
+- **CUT_TREE**: Impassable. Requires HM01 Cut.
+- **LEDGE**: Passable (One-way).
 
-## Strategy: Catching Bird at (29, 26) [Facing DOWN]
-- **Current Position**: (29, 26). Facing: DOWN (Assumed).
-- **Goal**: Reach (29, 25) (Behind) and interact.
-- **Path**: (28, 22) -> (29, 22) -> (29, 25).
-- **Reason**: Column 29 (Rows 22-25) is silent. (29, 25) is directly behind a DOWN-facing bird.
-
-## Party Status
-- Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
-- Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
+## Strategy: General
+- Avoid twigs when approaching from behind.
+- Use twigs strategically to change the bird's facing.
+- If stuck, move the bird to a new area by startling it.
