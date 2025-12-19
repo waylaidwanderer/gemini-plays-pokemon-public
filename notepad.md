@@ -78,20 +78,14 @@
 - **Method**: Challenge Whitney at the Goldenrod Gym.
 - **Whitney Gym Strategy**: 
     - Use GNEISS (Geodude) to resist Normal/Rock moves.
-    - Level GNEISS to Lv 18-20 before the battle.
+    - Level GNEISS to Lv 18-20 before the battle (Current: Lv 17).
     - Teach TM31 (Mud-Slap) to reduce Miltank's accuracy.
 - **Spearow Delivery**: Deliver KENYA to the guard's friend (a man with a Sleepy Pokémon) on Route 31.
     - **Route**: Route 35 -> Route 36 -> Violet City -> Route 31.
     - **Target**: Man standing near the grass/water on Route 31.
 
-## GNEISS Training Strategy (Whitney Prep)
-- **Moveset**: Magnitude, Defense Curl, Rock Throw, Rollout (TM04).
-- **Held Item**: HARD STONE.
-- **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
-- **Goal**: Reach Lv 18-20 for Whitney. Magnitude learned Lv 16.
-
 ## GNEISS (Geodude) Info
 - **Held Item**: HARD STONE (Turn 4001).
-- **Moveset**: Magnitude, Defense Curl, Rock Throw, Rollout (TM04 taught Turn 3994).
+- **Moveset**: Magnitude (learned Lv 16), Defense Curl, Rock Throw, Rollout (TM04 taught Turn 3994).
 - Taught TM31 (Mud-Slap) to FRITTATA (Turn 3967).
 - Made KIMCHI hold PRZCUREBERRY (Turn 3967).
