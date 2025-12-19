@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Finish battle with Sailor Huey, then explore West/North of 2F.
-- **Battle Strategy:** Muscle: Karate Chop (Slot 4).
+- **Navigation:** Explore the western corridor on 2F (past Sailor Huey).
+- **Battle Strategy:** Standard. Muscle/Garnet.
 - **Current Location:** Olivine Lighthouse 2F.
 
 ## Lighthouse Progress
