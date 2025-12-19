@@ -14,9 +14,10 @@
 ## Quests & NPC Notes
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Layout is a Clefairy shape.
-    - **Outer Left Path (Col 0):** Blocked at (0, 13) by Wall. Must go UP.
-    - **Top Corridor (Row 1):** Appears to be the main connector. Accessible via (0, 7) -> (2, 7) -> (2, 4) -> (1, 2) -> Top.
-    - **Plan:** Go North from (0, 12) to (0, 7), navigate through the maze to Row 1, then cross to the right or center.
+    - **Outer Left Path (Col 0):** Blocked at (0, 13).
+    - **Top Corridor (Row 1):** Connects Left and Right sides.
+    - **Right Side (East):** Top Right entrance (via Row 1/2) seems to connect to the center via Row 6.
+    - **Plan:** Take Top Corridor East to Col 17/18, go Down to Row 6, then cut Left to Center.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
