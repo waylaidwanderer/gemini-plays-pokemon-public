@@ -1,6 +1,6 @@
 # Tile Mechanics
 - `FLOOR`: Traversable. Standard ground. Verified at (5, 4) in Bill's House and (12, 4) in RadioTower1F.
-- `WALL`: Impassable. Buildings, trees, boundaries. Verified at (4, 4) in Bill's House and (17, 1) in RadioTower1F.
+- `WALL`: Impassable. Buildings, trees, boundaries. Includes `FENCE`. Verified at (4, 4) in Bill's House and (17, 1) in RadioTower1F.
 - `WATER`: Impassable. Requires Surf HM.
 - `HEADBUTT_TREE`: Impassable. Use Headbutt.
 - `CUT_TREE`: Impassable. Use Cut.
@@ -8,7 +8,6 @@
 - `LONG_GRASS`: Traversable. Wild encounters.
 - `DOOR`: Traversable. Map transition.
 - `WARP_CARPET_DOWN`: Traversable. Map transition. Verified at (2, 7) in Bill's House and (2, 7) in RadioTower1F.
-- `FENCE`: Impassable (WALL).
 - `LEDGE_HOP_DOWN`: One-way down.
 - `LEDGE_HOP_LEFT`: One-way left.
 - `LEDGE_HOP_RIGHT`: One-way right.
@@ -20,6 +19,7 @@
 - `COUNTER`: Impassable. Verified in Goldenrod Pokecenter and at (12, 5) in RadioTower1F. Must interact from an adjacent tile.
 - `PC`: Impassable. Verified in Goldenrod Pokecenter and at (0, 1) in RadioTower1F.
 - `STAIRCASE`: Traversable. Map transition. Verified at (15, 0) in RadioTower1F.
+- `NPCs/Objects`: Impassable. Navigable by detouring.
 
 # Area Knowledge
 ## Route 35
@@ -83,7 +83,7 @@
 - **Spearow Delivery**: Deliver KENYA to the guard's friend (a man with a Sleepy Pokémon) on Route 31. Combine with GNEISS training.
 
 ## Goldenrod City Strategy Plan
-- Step 4: Explore Radio Tower 2F and beyond for items/training. (In progress, Turn 3901)
+- Step 4: Explore Radio Tower 2F and beyond for items/training.
 - Step 5: Train GNEISS on Route 35/36 or while delivering KENYA. (Started Turn 3908)
 - Step 6: Challenge Whitney at the Goldenrod Gym.
 
@@ -106,15 +106,5 @@
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
 - **Time Tracking**: Started training at Turn 3932.
-- Attempted to teach TM04 (Rollout) and give HARD STONE to GNEISS, but menu navigation failed (Turn 3948). GNEISS does NOT have Rollout or Hard Stone yet.
-- **Hypothesis Testing (Navigation)**:
-    - *Hypothesis*: The tile (11, 18) is a WALL/FENCE and cannot be passed North. (Confirmed at Turn 3941)
-    - *Hypothesis*: The Super Nerd at (5, 10) is a static obstacle. (Confirmed at Turn 3944)
-- **General Lesson**: When navigation fails, analyze surrounding tiles for a detour. Paths are often wider than one tile. (Recorded Turn 3948)
-- **Reflection (Turn 3948)**:
-    - Immediate Execution: Checked for deferred tasks. None found.
-    - Notepad Hygiene: Added lessons and Rollout confirmation.
-    - Map Hygiene: Markers are up-to-date.
-    - Automation: `use_tm_v2_refined` underperformed due to menu state; will use `press_sequence` for precision if needed, but the tool is generally sound.
-    - Goal Clarity: Goals are outcome-focused.
-    - Error Analysis: The failed tool use was due to a menu cursor mismatch. Resetting to POKEDEX is a critical step for menu tools.
+- **Stagnation recognized**: Menu navigation for TM04/Hard Stone has failed repeatedly due to persistent cursor positions.
+- **Strategy Shift**: Prioritize manual training if next menu attempt fails. Use robust reset (multiple 'Up' presses) for all menu sequences.
