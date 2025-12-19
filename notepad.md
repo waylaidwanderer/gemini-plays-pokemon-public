@@ -39,7 +39,7 @@
 - Beauty Victoria (ID 4) at (0, 4) in Goldenrod Gym: Sentret x2. Defeated.
 - Lass (ID 2) at (9, 13) in Goldenrod Gym.
 - Lass (ID 3) at (9, 6) in Goldenrod Gym.
-- Beauty Samantha (ID 5) at (19, 5) in Goldenrod Gym: Meowth x2.
+- Beauty Samantha (ID 5) at (19, 5) in Goldenrod Gym: Meowth x2. Defeated.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground.
