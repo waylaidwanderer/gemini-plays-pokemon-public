@@ -27,8 +27,8 @@
 - **Scripted Event**: Cleffa (EGG) hatched from the Odd Egg cannot be renamed by the Name Rater.
 
 ## Goldenrod Underground
-- Entrance at Goldenrod City (9, 5).
-- Super Nerd at (19, 27) warns of "rough" battles downstairs.
+- Entrance at Goldenrod City (9, 5) and (10, 5).
+- Super Nerd at (19, 27) in entrance room warns of "rough" battles downstairs.
 - Haircut Brother: Younger brother appears on Fridays in Goldenrod Underground. Cost: ¥300. Increases Pokémon happiness. (Confirmed Turn 3752).
 
 # Trainer Roster
