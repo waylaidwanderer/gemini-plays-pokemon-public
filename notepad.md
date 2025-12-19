@@ -3,12 +3,11 @@
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
 - **Immediate Steps:**
-    1. Heal at Ecruteak Center (In Progress).
-    2. Access PC:
-       - Find Sentret (Box 2+?) for Surf.
-       - Withdraw stored items.
+    1. Heal at Ecruteak Center (Done).
+    2. Access PC (Sentret Missing).
     3. Buy Pokeballs at Mart.
-    4. Head West to Route 38.
+    4. Catch Poliwag (Old Rod) for Surf.
+    5. Head West to Route 38.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Needs healing.
