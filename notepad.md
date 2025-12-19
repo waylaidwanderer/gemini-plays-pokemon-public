@@ -21,3 +21,5 @@
 
 ## Quests
 - **Webster:** Deliver mail to Route 31.
+- Observation: Phone call from Wade interrupted interaction.
+- Immediate Plan: Retrying interaction with Denis at (8, 3) from (9, 3).
