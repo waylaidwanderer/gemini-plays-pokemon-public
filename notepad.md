@@ -21,7 +21,12 @@
 
 ## Quests
 - **Webster:** Deliver mail to Route 31.
-- Observation: Currently attempting to reach Denis at (8, 3) from the East side (9, 3).
-- Plan A: Talk to Denis. If he leaves, investigate (8, 3).
-- Plan B: If Denis stays, explore Column 9 from the South (via West side Row 14) to see if I can bypass the Sailor.
+- **Strategy Shift:** Abandoning "Denis must move" hypothesis.
+- **New Hypothesis:** Access to Center Column starts from 4F North.
+- **Plan:**
+    1. Check Window at 5F(12,1) (Just in case).
+    2. Take ladder at 5F(3,5) to 4F.
+    3. Navigate to 4F North Center (Cols 8-9).
+    4. **JUMP** into the pits there. Expect to land in 3F Center.
+    5. Climb up from 3F Center -> 4F Center -> 5F Center.
 - Current Location: OlivineLighthouse5F.
