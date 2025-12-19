@@ -29,7 +29,10 @@
 
 ## Goldenrod City
 - **Scripted Event**: Cleffa (EGG) hatched from the Odd Egg cannot be renamed by the Name Rater.
-- Bill's House: Located at (5, 25). Bill's mom says Bill is at the Ecruteak Pokemon Center. His husband is at the Game Corner.
+- Bill's House: Located at (5, 25). Bill's mom says Bill is at the Ecruteak Pokemon Center. Her husband (Bill's father) is at the Game Corner.
+
+# Radio Tower 1F Map Transitions
+- RadioTower1F (2, 7) <-> GoldenrodCity (5, 15).
 - Pokemon Center: 
     - Lass: Advises that high levels aren't everything; type matchups are key.
     - Pokefan F: Wants an EON MAIL for her daughter.
