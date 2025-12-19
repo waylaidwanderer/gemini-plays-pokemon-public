@@ -3,24 +3,24 @@
 ## Quest: Ilex Forest Farfetch'd
 - **Apprentice Hint**: "Get behind it."
 - **Observed Behavior**:
-  - Startle: Interacting from front/side makes it fly ~6 tiles.
-  - Turning: Bird turns to face the player if they step on noisy tiles (twigs).
-  - Twig Mechanic: Row 31 (x=23 to 29) are noisy tiles (twigs). Stepping on them makes the bird face the player.
-- **Current Status**:
-  - Bird Position: (28, 31)
-  - Bird Facing: RIGHT
-- **Strategy: Driving North to Row 28**
-  1. Reach (28, 32) (South of bird) without stepping on Row 31.
+  - Startle: Interacting (A button) makes it fly ~6 tiles away from the player.
+  - Noisy Tiles (Twigs): Stepping on these (specs on ground) makes the bird face the player.
+  - Twig Locations: Verified Row 31 (x=23 to 29).
+
+## Strategy: Driving to Clean Ground
+- **Problem**: Cannot "get behind" the bird on twig tiles because it turns to face the player upon approach.
+- **Solution**: Drive the bird to a row without twigs (Row 28 or 35).
+- **Plan for Bird at (28, 31)**:
+  1. Reach (28, 32) (South) without stepping on Row 31.
   2. Interact from (28, 32) -> Bird flies North to (28, 28).
-  3. Row 28 is clean (no twigs), so sneak behind it at (29, 28) and catch!
+  3. Row 28 is clean. Sneak to (29, 28) (East) and interact with bird at (28, 28) from behind.
 
 ## Tile Mechanics
-- **FLOOR**: Passable. Standard terrain.
-- **TWIGS**: Noisy floor tiles (specs on ground). Alert Farfetch'd. Row 31.
+- **FLOOR**: Passable.
+- **TWIGS**: Noisy floor (specs). Alert Farfetch'd. Row 31.
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE_HOP**: One-way traversal.
 
 ## Important Locations
 - **Azalea Town**:
