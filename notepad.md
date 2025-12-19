@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Obtain Good Rod.
-- **Navigation:** Exit Cafe, then search the House at (13, 15) for the Good Rod.
-- **Notes:** Good Rod was NOT in the Cafe. Cafe Owner and Sailor just talk about food.
-- **Current Location:** Olivine Cafe (Exiting).
+- **Navigation:** Enter House at (13, 15) (North of PC) to find Good Rod.
+- **Notes:** Cafe verified (Strength obtained, no Rod).
+- **Current Location:** Olivine City.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
