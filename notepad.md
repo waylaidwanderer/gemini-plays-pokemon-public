@@ -18,38 +18,41 @@
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 
 ## Strategy for Ilex Forest
-1. Help the apprentice catch the runaway Farfetch'd (approach from behind).
-2. Obtain HM01 (Cut) from the Charcoal Master (Kiln at 21, 13).
-3. Retrieve Bellsprout from PC to teach Cut.
-4. Clear the tree blocking the path to Goldenrod City.
+1. Find the apprentice and his runaway Farfetch'd.
+2. Help catch the Farfetch'd by chasing it into a position where it can be caught from behind.
+3. Return to the apprentice to trigger the reward sequence.
+4. Obtain HM01 (Cut) from the Charcoal Master back in Azalea Town.
+5. Retrieve Bellsprout from the PC to teach it Cut.
+6. Use Cut to clear the path to Goldenrod City.
 
-## Party Status
-- Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
-- ROCKY (ONIX) Lv6: TACKLE, SCREECH.
-- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK_THROW.
-- ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
-- EGG (TOGEPI) Lv5: GROWL, CHARM.
-- APOPHIS (EKANS) Lv4: WRAP, LEER.
+## Tile Mechanics
+- FLOOR: Standard traversable tile.
+- WALL: Impassable boundary.
+- HEADBUTT_TREE: Impassable wall, may react to Headbutt move.
+- TALL_GRASS: Triggers wild battles.
+- LEDGE_HOP_DOWN: One-way South jump.
+- LEDGE_HOP_LEFT: One-way West jump (2 tiles).
+- CAVE: Warp leading to interior.
+- FLOOR_UP_WALL: Impassable wall above floor.
+- LADDER: Stairs warp.
+- WATER: Hypothesis - Impassable without Surf. Need to verify.
+- WARP_CARPET_DOWN: Warp leading to adjacent map.
+- WARP_CARPET_RIGHT: Warp tile leading to adjacent map.
 
-## Trainer Rosters (Johto)
-- Rival Malice (Azalea): Gastly (Lv12), Croconaw (Lv16), Zubat (Lv14) - All defeated.
-
-## Azalea Town Summary (Map 8_7)
+## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Pokemon Center (15, 9), Kurt's House (9, 5).
+- Kurt: Usually at (3, 2) in Map 8_4.
+- Kurt's Granddaughter: Usually at (5, 3) in Map 8_4.
 
 ## Learned Mechanics
 - Menus: Decline switches carefully (YES is default).
 - HM Use: Hive Badge allows use of Cut outside battle.
 - Kurt's Balls: Take 1 day (resets at midnight).
+- NPC Presence: Rely ONLY on 'Map Objects On Screen' list.
+- Catching Farfetch'd: Must approach from behind.
+- Ilex Forest: Dark area, HM05 Flash may be useful but not required.
 
-## Inventory Order (Items Pocket)
-1. BERRY
-2. PSNCUREBERRY
-3. PARLYZ HEAL
-4. X ACCURACY
-5. PRZCUREBERRY
-6. HARD STONE
-7. X ATTACK
-8. POTION
-9. AWAKENING
-10. SUPER POTION
+## Progress
+- Badges: Zephyr (Violet City), Hive (Azalea Town).
+- Current Goal: Reach Goldenrod City via Ilex Forest.
+- Start Turn: 2803 (Entering Ilex Forest).
