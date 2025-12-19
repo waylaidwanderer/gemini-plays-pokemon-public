@@ -15,11 +15,10 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Obstacle:** Lass Bridget at (9, 6).
-    - **Opponent:** Lass Bridget.
-    - **Team:** Jigglypuff (Lv15), Jigglypuff (Lv15).
-    - **Strategy:** Muscle (Low Kick) sweeping.
-    - **Status:** Muscle Lv22 (48/70 HP). Facing 2nd Jigglypuff.
+    - **Current Obstacle:** None. Standing before Whitney.
+    - **Target:** Whitney (Gym Leader).
+    - **Strategy:** Muscle (Low Kick). Being female prevents Attract.
+    - **Status:** Muscle Lv22 (48/70 HP). Risking it without healing.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
