@@ -14,8 +14,8 @@
 - **Verified Clean Tiles**: Row 23, Row 24.
 
 ## Current Status
-- Bird last seen flying towards (17, 23).
-- Strategy: Approach from behind on clean ground (Row 23).
+- **Bird**: (15, 25), Facing: LEFT.
+- **Plan**: Drive West by interacting from (15, 24) (Side). Or find a way to make it face UP/DOWN to catch on clean floor.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
