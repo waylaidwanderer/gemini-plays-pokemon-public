@@ -26,3 +26,9 @@
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead.
 - Team: ROCKY (ONIX), GNEISS (GEODUDE), ICARUS (PIDGEY), EGG (TOGEPI), APOPHIS (EKANS).
+## HM User Recruitment
+- Ekans cannot learn CUT.
+- Plan: Catch a Paras or Oddish in Ilex Forest.
+- Target Locations: Grassy areas (e.g., Row 30-31).
+- Catch Strategy: Use a lower-level Pokémon (ROCKY or ICARUS) to weaken the target without fainting it. Use Poké Balls.
+- Once caught: Teach HM01 CUT and clear the tree at (8, 25).
