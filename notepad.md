@@ -1,11 +1,11 @@
 # Tile Mechanics
-- FLOOR: Traversable. No effects.
-- LONG_GRASS: Traversable. Wild Pokémon encounters. Used for park exploration.
-- WALL: Impassable. Includes fences, benches, and trees.
+- FLOOR: Traversable. No effects. (Verified: Turn #4526)
+- LONG_GRASS: Traversable. Wild Pokémon encounters. (Verified: Turn #4526)
+- TALL_GRASS: Traversable. Wild Pokémon encounters. (Verified: Turn #4526)
+- WALL: Impassable. Includes fences, benches, trees, signs, and NPCs. (Verified: Turn #4526)
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable. Shaken with Headbutt.
 - CUT_TREE: Impassable. Cleared with Cut.
-- TALL_GRASS: Traversable. Wild encounters.
 - DOOR/WARP_CARPET: Traversable. Map transition.
 - LEDGE_HOP: One-way traversal.
 - COUNTER: Impassable. Interaction point for NPCs behind it.
