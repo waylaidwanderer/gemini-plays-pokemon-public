@@ -55,3 +55,6 @@
     - **Error:** Hallucinated position (27, 10) in Turn 5772. Actual position was (20, 14).
     - **Cause:** Assumed `navigate` success without verifying `current_position` in Game State.
     - **Action:** Forced strict verification of coordinates.
+- **Swap Plan:**
+    1. Deposit Kenya (Party Slot 6).
+    2. Withdraw Belladonna (Box 1, Slot 13 - Wrap around with UP).
