@@ -45,15 +45,13 @@
 - Flower Shop: Located north of the Gym in Goldenrod City. Teacher NPC at (2, 4).
 
 # Psychic Mark Battle Log (Turn 4308+)
-- Opponent Lead: Abra (Lv 13). Defeated.
+- Opponent 1: Abra (Lv 13). Defeated by GNEISS (Magnitude 5 Crit).
+- Opponent 2: Abra (Lv 13). Defeated by GNEISS (Magnitude 8).
 - My Lead: GNEISS (Geodude) Lv 23. (Accuracy -1 from Flash).
-- Opponent 2nd: Abra (Lv 13).
-- Turn 2 (Turn 4314): GNEISS used MAGNITUDE 7, but missed. Abra used Flash (failed).
+- Next Opponent: Kadabra.
 - Plan: Stay in with GNEISS, use MAGNITUDE.
 
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block before making assertions or reports.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (the Lass on Route 36) has been spoken to, even after defeating Whitney.
-- Turn 1 (Turn 4309): GNEISS used Magnitude 5 (Critical). Abra used Flash (Accuracy -1). Abra fainted. GNEISS grew to Lv 23.
-- Turn 2 (Turn 4314): Psychic Mark sent out Abra.
-- Plan: Use MAGNITUDE.
+- GNEISS (Geodude) grew to Lv 23 during this battle.
