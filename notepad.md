@@ -23,7 +23,7 @@
         - **Action:** Defeat it. Catching is impossible.
         - **Tactic:** Muscle (Machop) uses Low Kick. It is Super Effective (Fighting > Rock).
     - **Next Steps:**
-        1. **Battle:** KO Sudowoodo.
+        1. **Battle:** KO Sudowoodo with Low Kick.
         2. **Travel:** Continue North/West to Violet/Ecruteak.
         3. **Objective:** Reach Ecruteak City.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
