@@ -24,8 +24,6 @@
 - Gatehouse to Ilex Forest at (13, 37) and (14, 37).
 - Trainer Tips sign at (13, 33).
 - Day-Care at (10, 14).
-- Defeated Pokefan Brandon at (18, 28). Opponent: Snubbull (Lv 13).
-- Defeated Youngster Ian at (11, 21). Opponents: Mankey (Lv 10), Diglett (Lv 12).
 - Verified: The back door at (13, 15) on Route 34 connects to the Day-Care backyard (2, 7). (Turn 3427)
 - Apophis (Ekans, Lv 4) left with Day-Care Lady (Granny) at (5, 3). (Turn 3422)
 
@@ -38,16 +36,18 @@
     3. Locate the Department Store for supplies.
     4. Speak to all NPCs for city lore and potential items (e.g., Bike, Coin Case).
 - Radio Tower: Promotional campaign for Pokégear radio card. (Turn 3466)
-- Target: Gramps at (11, 27) for city info.
+
+# Trainer Roster
+- Pokefan Brandon (Route 34): Snubbull (Lv 13)
+- Youngster Ian (Route 34): Mankey (Lv 10), Diglett (Lv 12)
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability.
-- **Tool Hygiene**: find_path_v4 and explore_unseen_v1 treat 'unseen' as impassable.
+- **Tool Hygiene**: find_path_v5_unseen_traversable treats 'unseen' as passable for exploration.
 - **Nicknaming**: FRITTATA (Togepi) hatched Turn 3330.
 - **NPC Collision**: Defeated trainers (and others) are solid objects.
-- Odd Egg status: Cleffa named "EGG". (Checking if hatched - Turn 3474).
-- Turn Mismatch: Turn 3463 and 3474 reported mismatches. Verification required.
-- Lesson: Always verify the current turn number from Game State before reporting it in `press_buttons` to avoid mismatches. (Turns 3463, 3474).
-- Lesson: Close all dialogue/menus before attempting directional movement. (Turn 3456).
-- Goldenrod: Door at (14, 21) is near the Game Corner sign. Likely the entrance.
+- Odd Egg status: "Needs more time". (Turn 3477 summary check).
+- Lesson: Always verify turn number from Game State.
+- Lesson: Close dialogue/menus before moving.
+- Goldenrod: Door at (14, 21) is likely the Game Corner entrance.
