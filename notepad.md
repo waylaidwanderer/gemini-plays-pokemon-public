@@ -1,10 +1,17 @@
-# Ilex Forest
+# Ilex Forest & Azalea Town
 ## HM User Recruitment
 - Ekans cannot learn CUT.
-- Plan: Catch a Paras or Oddish.
-- Catch Strategy: Weaken with lower-level PKMN (Rocky/Icarus). Use Poké Balls.
-- Status: Caught Oddish (Kimchi). Rocky fainted. Kimchi is in the PC.
-- Plan: Nickname Kimchi, go to Pokemon Center, swap Rocky for Kimchi, teach CUT, and clear the tree.
+- Plan: Catch a Paras or Oddish (Kimchi caught, in PC).
+- Catch Strategy: Weaken with lower-level PKMN.
+- Status: Rocky fainted to Absorb (4x weak). Kimchi is in PC Box 1.
+- Immediate Plan: Heal at Center, deposit Rocky, withdraw Kimchi, teach HM01 CUT.
+
+## Type Effectiveness Chart
+- **Grass**:
+  - Super Effective (x2/x4) vs: Rock (Absorb vs Onix).
+  - Not Very Effective (x0.5) vs: Flying (Absorb vs Pidgey).
+- **Fire**:
+  - Super Effective (x2) vs: Grass (Ember vs Oddish).
 
 ## Global Tile Mechanics
 - FLOOR: Standard ground.
@@ -18,17 +25,9 @@
 ## Pokemon Locations
 - Ilex Forest: Caterpie, Metapod, Weedle, Kakuna, Pidgey, Venonat, Oddish, Paras, Psyduck.
 
-## Type Effectiveness Chart
-- **Grass**:
-  - Super Effective (x2/x4) vs: Rock (Absorb vs Onix).
-  - Not Very Effective (x0.5) vs: Flying (Absorb vs Pidgey).
-- **Fire**:
-  - Super Effective (x2) vs: Grass (Ember vs Oddish).
-
 ## Battle Lessons
 - Ekans (Apophis) cannot learn CUT.
 - Running is efficient with fast leads (Calcifer).
-- Agent 'battle_strategist_v3' suggested Ember vs Oddish, which would have fainted the target. I ignored it to prioritize catching.
 
 ## Party Status
 - Calcifer (QUILAVA) Lv22: Lead.
