@@ -55,7 +55,7 @@
 - **Whitney Gym Strategy**: Use GNEISS (Geodude) to resist Normal moves and deal Rock damage.
 - **Spearow Delivery**: Deliver KENYA to Route 31.
 ## Goldenrod Underground Plan
-- Status: In progress (Turn 3753).
-- Step 1: Get haircut for FRITTATA from younger brother (Friday).
+- Status: In progress (Turn 3757).
+- Step 1: Get haircut for FRITTATA from younger brother (Friday). (Completed Turn 3757)
 - Step 2: Explore southern unseen tiles (Rows 20+).
 - Step 3: Exit and locate Radio Tower in Goldenrod City.
