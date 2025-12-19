@@ -23,10 +23,10 @@
         - **Opponent:** Gengar Lv 25 (Ghost/Poison).
         - **Current Pokemon:** Garnet (Quilava Lv 27, 41/76 HP).
         - **Condition:** Awake.
-        - **Gengar Status:** Accuracy -2. HP Yellow (~45%).
+        - **Gengar Status:** Accuracy -3 (Smokescreen x3). HP Yellow (~45%).
         - **Action:** Use Ember (Slot 4).
-        - **Cursor:** On Ember (Slot 4).
-        - **Strategy:** Burn Gengar down.
+        - **Cursor:** On Smokescreen (Slot 3).
+        - **Strategy:** Burn Gengar down. He is very blind.
         - **Puzzle:** Solved. Unmarked pits/warps to be mapped after battle (Reflection Task).
         - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
