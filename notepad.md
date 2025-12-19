@@ -19,7 +19,7 @@
     - **Opponent:** Lass Bridget.
     - **Team:** Jigglypuff (Lv15), Jigglypuff (Lv??).
     - **Strategy:** Muscle (Low Kick) sweeping.
-    - **Status:** Muscle Lv22 (48/70 HP).
+    - **Status:** Muscle Lv22 (48/70 HP). Facing 2nd Jigglypuff.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
