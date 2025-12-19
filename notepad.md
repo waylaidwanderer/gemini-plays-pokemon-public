@@ -40,5 +40,5 @@
 - **Quest:** Defeat all Kimono Girls in the Dance Theater to receive a gift from the Gentleman.
     - Defeated: Miki (Jolteon), Kuni (Vaporeon), Zuki (Umbreon), Sayo (Espeon), Naoko (Flareon).
     - Status: Completed. Received HM03 (Surf) from Gentleman.
-- **Needs:** Pokemon that can learn Surf.
+- **Needs:** Pokemon that can learn Surf. (Current party/box has none. Sentret missing?).
 - **Mom:** Bought an item with my money (Check PC).
