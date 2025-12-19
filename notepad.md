@@ -14,9 +14,9 @@
 - **Verified Clean Tiles**: Row 23, Row 24.
 
 ## Strategy: Current Capture
-- **Status**: Bird at (20, 24) facing LEFT.
-- **Target**: (21, 24) (Behind).
-- **Plan**: Path to (21, 24) via Row 23 (Clean).
+- **Status**: Bird at (20, 24) facing LEFT. Player at (21, 24) on clean ground.
+- **Plan**: Turn LEFT to face bird, then interact from behind to catch.
+- **Verification**: Row 24 is clean (no twigs). This prevents the bird from turning to face the player.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
