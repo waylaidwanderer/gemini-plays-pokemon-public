@@ -19,7 +19,7 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Granny (2/4 Trainers).
+        - **Status:** Battling Granny (Medium Grace). Defeated Haunter #1. Facing Haunter #2.
         - **Strategy:** Muscle (Machoke) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
         - **Path:** Zig-Zag confirmed by XML.
