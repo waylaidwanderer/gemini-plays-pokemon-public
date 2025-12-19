@@ -38,7 +38,9 @@
   - Lead with GNEISS (Geodude). Rock/Ground resists Normal and Rock moves.
   - If Rollout chain reaches Turn 4 or 5, switch to fodder Pokémon (FRITTATA, KIMCHI) to tank the hit and force a reset.
   - Use Magnitude to burst through Milk Drink.
-- **Battle Status:** Whitney Defeated.
+- **Battle Status:** Whitney Defeated. Plain Badge and TM45 obtained.
+- **Squirtbottle Plan:** The Teacher's dialogue is looping, which means I haven't met the requirements. I need to talk to her sister (Lass) next to the "wiggly tree" (Sudowoodo) on Route 36 first.
+- **Path to Route 36:** Goldenrod -> Route 35 -> Route 36.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
