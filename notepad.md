@@ -17,7 +17,8 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Status:** In Flower Shop.
     - **Health:** Muscle (10/73 HP).
-    - **Objective:** Talk to Teacher to get Squirtbottle.
+    - **Interaction:** Talked to Teacher (2, 4). She is distracted ("Lalala..."). Did NOT give Squirtbottle.
+    - **Objective:** Talk to Lass (4, 5) to see if she helps.
     - **Next Steps:**
         1. **Get Key Item:** Squirtbottle.
         2. **Heal:** Goldenrod Pokémon Center.
