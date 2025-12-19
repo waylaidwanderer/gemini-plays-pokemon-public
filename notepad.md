@@ -19,11 +19,12 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Defeated by Morty. Whited out.
-        - **Lesson:** Gengar is faster and hits hard. Garnet couldn't tank it.
-        - **New Strategy:** Muscle (Machoke) with Dig. Dig is Super Effective vs Poison and dodges attacks.
-        - **Preparation:** Complete. Purchased Super Potions (7) and Awakenings (5).
-        - **Next Step:** Exit Mart, then Rematch Morty.
+        - **Status:** Challenging Morty (Rematch).
+        - **Strategy:** Lead with Muscle (Machoke). Use Dig (SE vs Poison, dodges attacks).
+        - **Items:** 7 Super Potions, 5 Awakenings.
+        - **Backup:** Garnet (Ember/Smokescreen).
+        - **Puzzle:** Solved.
+        - **Current Position:** (5, 2).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
