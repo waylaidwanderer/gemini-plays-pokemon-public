@@ -15,10 +15,10 @@
 - **Verified Clean Tiles**: Row 23, Row 24, Row 25, Row 27, Row 30.
 
 ## Current Status
-- Bird is at (15, 29). Facing: UP.
-- Position: I am at (15, 30) (Behind).
-- Action: Face UP and interact (A).
-- Reason: Success condition met. Final catch attempt.
+- Bird is at (15, 29). Facing: LEFT.
+- Position: I am at (15, 30) (Side).
+- Action: Interact (A) to startle it.
+- Reason: I can't get behind it without making it turn again. Startling it is the best way to reset the situation.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
