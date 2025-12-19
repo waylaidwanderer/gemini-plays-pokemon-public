@@ -21,10 +21,12 @@
     - **Gym:**
         - **Status:** Defeated Granny (Medium Grace).
         - **Strategy:** Muscle (Machoke) with Dig.
-        - **Puzzle Hypothesis:** Bridge at Row 11?
-            - **Observation:** Col 6 is safe. Col 3 is safe in XML. Row 9 (Col 4) is a PIT.
-            - **New Path:** Cross from Col 6 to Col 3 via **Row 11**.
-            - **Route:** (6, 13) -> (6, 11) -> (3, 11) -> (3, 7) [Battle Sage].
+        - **Puzzle Hypothesis:** Bridge at Row 11 confirmed by XML (FLOOR tiles at 3,11 to 6,11).
+        - **Plan:**
+            1. Go Up to (6, 11).
+            2. Cross Left to (3, 11).
+            3. Go Up Column 3 to Sage at (2, 7).
+            4. **Note:** (3, 8) is FLOOR/No-Warp in XML, so previous "Suspected Pit" might have been user error.
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
