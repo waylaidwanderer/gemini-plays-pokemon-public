@@ -18,8 +18,9 @@
     - **Current Status:** Battling Psychic Greg on Route 37.
     - **Opponent:** Drowzee (Lv17).
     - **Health:** Muscle Lv24 (76/76 HP).
-    - **Matchup:** Bad. Fighting moves are NVE. Psychic moves are SE against Machop.
-    - **Strategy:** Muscle stays in for one turn to test damage. Expecting Hypnosis.
+    - **Status:** Low Kick DISABLED.
+    - **Matchup:** Bad (Fighting is NVE).
+    - **Strategy:** Use Karate Chop (Slot 4). Even though NVE, it has STAB and High Crit.
     - **Objectives:**
         1. **Battle:** Defeat Psychic Greg.
         2. **Explore:** Pick Fruit from tree at (13, 5).
