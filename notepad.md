@@ -15,7 +15,7 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Turn 2716: Battling Rival Malice. Calcifer at 40/60 HP. Confirming Smokescreen usage.
+- Turn 2718: Battling Rival Malice. Calcifer at 40/60 HP. Croconaw accuracy lowered twice. Switching to offense with Quick Attack.
 
 ## Party Status
 - Calcifer (QUILAVA) Lv21: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
