@@ -46,4 +46,4 @@
 ## Progress
 - Badges: Zephyr (Violet City), Hive (Azalea Town).
 - Current Goal: Reach Goldenrod City via Ilex Forest.
-- Ilex Forest: Chasing Farfetch'd. Current position: (22, 31), facing DOWN. Target catch tile: (22, 30) facing DOWN.
+- Ilex Forest: Chasing runaway Farfetch'd. Current position: (22, 31), facing UP. Player at (22, 30). Bird just said "Kwaa!". Waiting to see flight path.
