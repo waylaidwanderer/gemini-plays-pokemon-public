@@ -2,7 +2,7 @@
 - `FLOOR`: Traversable. Standard ground. Verified at (5, 4) in Bill's House and (12, 4) in RadioTower1F.
 - `WALL`: Impassable. Buildings, trees, boundaries. Includes `FENCE`. Verified at (4, 4) in Bill's House and (17, 1) in RadioTower1F.
 - `WATER`: Impassable. Requires Surf HM.
-- `HEADBUTT_TREE`: Impassable. Use Headbutt.
+- `HEADBUTT_TREE`: Impassable. Use Headbutt. 
 - `CUT_TREE`: Impassable. Use Cut.
 - `TALL_GRASS`: Traversable. Wild encounters.
 - `LONG_GRASS`: Traversable. Wild encounters.
@@ -117,7 +117,6 @@
 - Current Pack Pocket: TM/HM (Turn 3993).
 - Current Pack Cursor (TM/HM): 04 ROLLOUT (Turn 3993).
 - Current Pack Cursor (Items): HARD STONE (index 4) (Turn 3970).
-- Current Sub-menu: USE (Turn 3992).
 
 ## GNEISS (Geodude) Info
 - **Held Item**: BERRY (Needs to be swapped for HARD STONE).
