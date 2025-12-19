@@ -32,14 +32,8 @@
 - HARD STONE: Held by GNEISS.
 
 # Strategy: Goldenrod Return (Started Turn 4415)
-
-# Lessons Learned
-- Turn Tracking: Be extremely careful with turn count to avoid hallucinations.
-- NPC Interaction: Always check NPC orientation and position before attempting to talk.
-- Notepad Cleanup: Ensure redundant action logs are removed promptly.
-
-1. Exit National Park via southern gatehouse (Map 10_16) at (15, 51).
+1. Exit National Park southern gatehouse (Map 10_15) to Route 35.
 2. Travel south on Route 35 to Goldenrod City.
 3. Enter Flower Shop, get SQUIRTBOTTLE.
 4. Back to Route 36.
-- Item at (35, 12): collected (Parlyz Heal).
+- Note: Collected Parlyz Heal at National Park (35, 12).
