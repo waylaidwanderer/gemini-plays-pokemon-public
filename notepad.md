@@ -3,8 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Preparation:** Heal at Goldenrod Pokémon Center.
-    2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
+    1. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
