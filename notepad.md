@@ -47,4 +47,5 @@
 - **Success:** Defeated Sailor Ernest's Poliwhirl.
 - **Action:** Rejected learning Vital Throw.
 - **Success:** Defeated Sailor Ernest.
-- **Plan:** Navigate South to tiles (9, 14)/(9, 15) to find the ladder to 6F.
+- **Success:** Found ladder to 6F at (9, 15) and an Item at (6, 15).
+- **Plan:** Pick up item, then climb ladder to 6F.
