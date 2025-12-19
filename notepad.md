@@ -3,10 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Earn Fog Badge (Ecruteak Gym).
 - **Immediate Steps:**
-    1. Teach TM28 (Dig) to MUSCLE (Key for Ghost Gym).
-    2. Locate Gym (Ghost Type - Morty).
-    3. Defeat Gym Trainers and Leader.
-    4. Explore Burned Tower.
+    1. Heal at Pokemon Center.
+    2. Challenge Gym (Ghost Type - Morty).
+    3. Explore Burned Tower (Revisit?).
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive, Plain (3/8).
