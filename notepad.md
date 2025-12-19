@@ -3,11 +3,11 @@
 
 ## Goal: Catch the bird to obtain HM01 (Cut).
 
-## Current Status (Turn 3061)
+## Current Status (Turn 3062)
 - **Bird Position**: (28, 31).
 - **Bird Facing**: RIGHT.
-- **Player Position**: (29, 30).
-- **Plan**: Startle the bird from (29, 31) to move it to a better area. Row 31 is too noisy to sneak up on.
+- **Player Position**: (29, 31).
+- **Plan**: Face LEFT and interact (A) to move the bird. Row 31 is noisy, so I'll startle it from here to reset its position.
 
 ## Puzzle Mechanics
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction.
