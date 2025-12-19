@@ -24,7 +24,7 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** Battling Rival Silver. Switching Garnet -> Muscle (Slot 1) vs Croconaw.
+        - **Status:** Battling Rival Silver. Muscle vs Croconaw.
         - **Layout:** Found overland route to Rival via column 9 -> row 5 -> column 12.
         - **Hazards:** Floor has holes (Warps) to B1F.
 
