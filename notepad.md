@@ -137,3 +137,4 @@
 - Black Belt at (0, 1) in RadioTower2F.
 - Stairs to 3F at (0, 0) in RadioTower2F.
 - Black Belt at (0, 1) in RadioTower2F: "Sorry. Authorized personnel only beyond this point. It wasn't that way before. There's something wrong with the DIRECTOR…"
+- Teacher at (17, 2) in RadioTower2F: "Lullabies on the radio may make POKéMON sleep."
