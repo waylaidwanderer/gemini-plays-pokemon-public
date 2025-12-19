@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Defeat Pokefan (Male) (Trainer Battle), then explore West.
-- **Battle Strategy:** Muscle in lead. Watch for Pikachu (Static).
+- **Navigation:** Hop the ledge to the West (Moomoo Farm?), then continue South.
+- **Immediate Goal:** Explore the farm area.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
