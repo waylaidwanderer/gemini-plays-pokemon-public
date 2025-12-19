@@ -15,8 +15,9 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Obstacle:** Lass Carrie at (12, 13). Battling Snubbull (Lv18).
-    - **Next Steps:** Defeat Lass, then navigate around her (via Row 12) to access the central area (Rows 9-13).
+    - **Current Obstacle:** None. Path to Whitney is clear.
+    - **Path:** (13, 13) -> (13, 12) -> (7, 12) -> (7, 9) -> (8, 9) -> (8, 4).
+    - **Status:** Muscle 45/67 HP. No Potions. Relying on Low Kick and Rocky's Defense.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
