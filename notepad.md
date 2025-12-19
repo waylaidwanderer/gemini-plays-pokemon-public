@@ -36,11 +36,12 @@
 - **Delivery:** Deliver KENYA (Spearow) to Route 31.
 
 # Psychic Mark Battle Log (Turn 4308+)
-- Opponent 1: Abra (Lv 13). Defeated by GNEISS (Magnitude 5 Crit).
-- Opponent 2: Abra (Lv 13). Defeated by GNEISS (Magnitude 8).
+- Opponent 1: Abra (Lv 13). Defeated by GNEISS.
+- Opponent 2: Abra (Lv 13). Defeated by GNEISS.
 - Opponent 3: Kadabra (Lv 15).
-- Turn 3: GNEISS used Magnitude 6, missed due to Kinesis.
-- Turn 4: Switched to Calcifer (Lv 26). Kadabra used Kinesis (Calcifer Accuracy -1).
+- Turn 3: GNEISS missed Magnitude.
+- Turn 4: Calcifer switched in. Accuracy lowered by Kinesis.
+- Turn 5: Calcifer missed Headbutt. Kadabra's Kinesis failed.
 - Plan: Use HEADBUTT.
 
 # Inventory & Key Items
