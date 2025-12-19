@@ -3,7 +3,7 @@
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
-- HEADBUTT_TREE: Impassable wall, may react to Headbutt move.
+- HEADBUTT_TREE: Hypothesis - Impassable wall, may react to Headbutt move.
 - TALL_GRASS: Triggers wild battles.
 - LEDGE_HOP_DOWN: One-way South jump.
 - LEDGE_HOP_LEFT: One-way West jump (2 tiles).
@@ -21,6 +21,14 @@
 4. Obtain HM01 (Cut) from the Charcoal Master in Azalea Town (21, 13).
 5. Retrieve Bellsprout from the PC to teach it Cut.
 6. Use Cut to clear the path to Goldenrod City.
+
+## Party Status
+- Calcifer (QUILAVA) Lv22: QUICK ATTACK, LEER, SMOKESCREEN, EMBER.
+- ROCKY (ONIX) Lv6: TACKLE, SCREECH.
+- GNEISS (GEODUDE) Lv15: TACKLE, DEFENSE CURL, ROCK_THROW.
+- ICARUS (PIDGEY) Lv11: TACKLE, SAND-ATTACK, GUST.
+- EGG (TOGEPI) Lv5: GROWL, CHARM.
+- APOPHIS (EKANS) Lv4: WRAP, LEER.
 
 ## Azalea Town Summary
 - Key Locations: Slowpoke Well (31, 7), Charcoal Kiln (21, 13), Mart (21, 5), Pokemon Center (15, 9), Kurt's House (9, 5).
@@ -40,5 +48,4 @@
 - Current Goal: Reach Goldenrod City via Ilex Forest.
 - Entering Ilex Forest: Turn 2803.
 - Met Apprentice: Turn 2808 at (7, 28). Task: Find runaway Farfetch'd.
-- Found runaway Farfetch'd at (14, 31) on Turn 2813.
-- Chased Farfetch'd to (15, 25) on Turn 2816. Currently at (15, 26).
+- Farfetch'd moved to (20, 24) on Turn 2821.
