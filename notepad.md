@@ -19,10 +19,11 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Battling Sage Ping. Defeated Gastly #1, #2, #3. Facing Gastly #4.
-        - **Strategy:** Muscle (Machop) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
+        - **Status:** Sage Ping defeated. Muscle evolved into Machoke!
+        - **Strategy:** Muscle (Machoke) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
         - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
-        - **Path:** Navigate safe FLOOR tiles. Next target: Granny?
+        - **Path:** Navigate safe FLOOR tiles. Next target: Granny at (7, 9).
+            - Safe Path: Column 6 (up to Y=9).
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
