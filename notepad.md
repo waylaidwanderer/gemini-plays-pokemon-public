@@ -49,3 +49,4 @@
 - **Nicknaming**: FRITTATA (Togepi) hatched Turn 3330.
 - **NPC Collision**: Defeated trainers (and others) are solid objects.
 - Odd Egg status: "Needs more time". (Turn 3477 summary check).
+- Picnicker Kim (Route 35): Vulpix (Lv 15)
