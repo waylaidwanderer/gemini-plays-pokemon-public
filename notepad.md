@@ -15,14 +15,15 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Status:** At Route 36 Intersection (35, 9).
+    - **Current Status:** Traversing Route 36 (North Side).
+    - **Location:** (32, 7).
     - **Health:** Muscle Lv24 (76/76 HP).
     - **Objectives:**
-        1. **Travel:** Head North-West to find the path to Route 37.
+        1. **Travel:** Navigate North-West through the trees to find Route 37.
         2. **Travel:** Reach Ecruteak City.
     - **Notes:**
-        - Rock Smash (TM08) obtained.
-        - East leads to Violet City (Optional: Deliver Mail).
+        - Rock Smash (TM08) obtained but not learned.
+        - East leads to Violet City.
         - North leads to Ecruteak.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
