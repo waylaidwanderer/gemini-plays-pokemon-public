@@ -47,7 +47,8 @@
 # Psychic Mark Battle Log (Turn 4308+)
 - Opponent Lead: Abra (Lv 13). Defeated.
 - My Lead: GNEISS (Geodude) Lv 23. (Accuracy -1 from Flash).
-- Next Opponent: Abra (Lv 13).
+- Opponent 2nd: Abra (Lv 13).
+- Turn 2 (Turn 4314): GNEISS used MAGNITUDE 7, but missed. Abra used Flash (failed).
 - Plan: Stay in with GNEISS, use MAGNITUDE.
 
 # Lessons Learned
