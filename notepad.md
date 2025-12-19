@@ -11,15 +11,18 @@
 - Signpost at (3, 17).
 - Shrine at (8, 22): Honors the forest's protector.
 - Rocker NPC at (15, 14).
-- Item: X Attack at (9, 17) (Picked up Turn 3262).
 
-# Strategy: Ilex Forest Exploration
-- **Goal**: Reach Goldenrod City via the northern exit of Ilex Forest.
-- **Progress**: TM02 Headbutt obtained (Turn 3298). Calcifer learned HEADBUTT (Turn 3311). Defeated Bug Catcher Wayne at (12, 1).
-- **Plan**: Explore the northern unseen areas to find the exit warp to Route 34.
+# Strategy: Reach Goldenrod City
+- **Goal**: Reach Goldenrod City via Route 34.
+- **Plan**: 
+    1. Talk to Lass (ID 3) and Teacher (ID 1) in the gatehouse.
+    2. Exit north to Route 34.
+    3. Explore Route 34 to Goldenrod City.
 
 ## Lessons Learned
 - **Menu Loops**: Turn 3169-3217. Always verify screen text before executing button sequences.
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
 - **Running**: Use Calcifer (Quilava) as lead for high escape probability from wild battles.
 - **Tool Hygiene**: Refined find_path_v4 and explore_unseen_v1 to treat 'unseen' tiles as impassable. Added HEADBUTT_TREE and WATER to collision checks.
+- **Item Usage**: `use_item_v4` is for the Items pocket only. TMs require manual navigation or a specialized tool.
+- **Nicknaming**: FRITTATA (Togepi) hatched on Turn 3330.
