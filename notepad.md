@@ -28,7 +28,7 @@
 ## Goldenrod Underground
 - Entrance at Goldenrod City (9, 5).
 - Super Nerd at (19, 27) warns of "rough" battles downstairs.
-- Haircut Brother: Reported to appear on Fridays (Needs verification).
+- Haircut Brother: Younger brother appears on Fridays in Goldenrod Underground. Cost: ¥300. Increases Pokémon happiness. (Confirmed Turn 3752).
 
 # Trainer Roster
 - Picnicker Kim: Vulpix (Lv 15)
