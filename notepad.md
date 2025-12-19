@@ -21,6 +21,7 @@
 - Fence at Row 18: Bypass via Column 4 or 5.
 - Item Corridor (Column 13): Reachable via gap at (12, 16) or from Row 26.
 - Collected: TM04 (Rollout) at (13, 16).
+- Collected: Coin Case at (7, 25).
 
 ## Goldenrod City
 - **Scripted Event**: Cleffa (EGG) hatched from the Odd Egg cannot be renamed by the Name Rater.
