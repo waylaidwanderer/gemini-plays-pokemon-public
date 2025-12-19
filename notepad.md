@@ -25,7 +25,7 @@
 # Strategy: Reach Goldenrod City
 - **Goal**: Reach Goldenrod City via Route 34.
 - **Plan**: 
-    1. Explore Route 34 northwards.
+    1. Explore Route 34 northwards. (Started Turn 3347)
     2. Battle trainers to level up the team, especially FRITTATA.
     3. Locate Goldenrod City at the north end.
 
