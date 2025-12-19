@@ -1,31 +1,24 @@
 # Ilex Forest Quest: Runaway Farfetch'd
-*Started Turn 2803. Reflection Turn 2960.*
+*Started Turn 2803*
 
 ## Goal: Catch the bird to obtain HM01 (Cut).
 
 ## Puzzle Mechanics
 - **Apprentice Hint**: "You have to get behind it to catch it."
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles along the forest path away from the player.
-- **Twig Logic**: Tiles with dark specs are noisy. Stepping on them near the bird makes it turn to face the player.
-- **Verified Noisy Tiles (Specs)**: 
-  - (14,28), (15,28), (17,28), (18,28)
-  - (23,31), (24,31), (25,31), (26,31), (27,31), (28,31), (29,31)
-- **Verified Clean Tiles**: Row 23, Row 24, Row 29, Row 30.
-- **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
+- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles away from the player.
+- **Twig Logic**: Tiles with dark specs are noisy. Stepping on them near the bird makes it turn to face the sound.
+- **Success Condition**: Interact from the tile directly behind the bird's facing direction.
 
-## Strategy: Current Plan
-1. **Status**: Bird at (15, 25) facing LEFT. Player at (15, 28).
-2. **Action**: Move to (15, 26) and interact from South to drive bird North.
-3. **Reasoning**: Row 28 is noisy (bird didn't turn at dist 3), but Row 26 is clean. Pushing North leads to clean Rows 23/24.
-4. **Goal**: Catch bird on clean ground by getting behind it.
+## Strategy: Current Capture
+- **Status**: Bird at (15, 25) facing UP. Player at (15, 26) facing UP.
+- **Action**: Interacting from behind (South) while bird faces North.
 
 ## Tile Mechanics
-- **FLOOR**: Passable.
-- **TWIGS**: Noisy floor (specs). Alerts bird.
+- **FLOOR**: Clean ground. Passable.
+- **TWIGS**: Noisy ground (specs). Alerts bird. (Row 28, Row 31).
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE_HOP**: One-way traversal.
 
 ## Locations & Progress
 - **Charcoal Kiln**: Azalea (21, 13). Reward: Cut.
