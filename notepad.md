@@ -27,7 +27,7 @@
     - Normal/Fighting moves -> Ghost.
 
 # Whitney Strategy
-- GNEISS (Geodude) Lv 20. Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
+- GNEISS (Geodude) Lv 21. Lead with GNEISS against Whitney's Normal types. Magnitude and Rock Throw are main tools. Carry HARD STONE.
 
 # NPCs & Trainers
 - Juggler Irwin (Super Nerd sprite) at (5, 10) on Route 35: Voltorb x4. Defeated.
@@ -39,7 +39,7 @@
 - Beauty Victoria (ID 4) at (0, 4) in Goldenrod Gym: Sentret x2. Defeated.
 - Lass (ID 2) at (9, 13) in Goldenrod Gym.
 - Lass (ID 3) at (9, 6) in Goldenrod Gym.
-- Beauty Samantha (ID 5) at (19, 5) in Goldenrod Gym.
+- Beauty Samantha (ID 5) at (19, 5) in Goldenrod Gym: Meowth x2.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground.
@@ -48,8 +48,7 @@
 
 # Area Knowledge
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
-- Goldenrod Gym: Maze layout. Whitney uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
+- Goldenrod Gym: Maze layout. Whitney (8, 3) uses Normal types. Gym Guide recommends Fighting-types. GNEISS (Rock/Ground) resists Normal. Strategy: Lead with GNEISS, use Magnitude/Rock Throw. Carry HARD STONE.
 
 # Gym Navigation (Started Turn 4141)
-- Goal: Find and defeat Whitney.
-- Current Status: Navigating the maze. Defeated Beauty Victoria. Whitney spotted at (8, 3). Battling Beauty Samantha at (19, 7). Trainer Lass at (9, 6) and (9, 13).
+- Navigation: Exploring maze to find Whitney.
