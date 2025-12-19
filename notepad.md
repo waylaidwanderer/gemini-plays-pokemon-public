@@ -2,9 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Head South to find the exit of this enclosure.
-- **Notes:** Pokefan Jaime (4, 22) appears to be a Night-only trainer ("I hope it gets dark soon").
-- **Immediate Goal:** Close text and move South.
+- **Navigation:** Exit the enclosure by heading East to x=8, then go South to Olivine City.
+- **Immediate Goal:** Move East to rejoin the main road.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
