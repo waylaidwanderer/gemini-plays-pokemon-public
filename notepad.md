@@ -24,12 +24,12 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** In B1F. Repel Active.
-        - **Layout:** B1F explored partially.
-        - **Hazards:** Wild Pokemon (Repelled).
-        - **Next:** Exit via Ladder (7, 15) -> Heal.
+        - **Status:** Exited to Ecruteak City.
+        - **Layout:** B1F partially explored.
+        - **Hazards:** Wild Pokemon (Repel active).
+        - **Next:** Heal at Pokemon Center (23, 27).
         - **Party Status:** Critical.
-        - **Note:** Ladder at (10, 8) appears unusable (likely one-way drop). Heading to (7, 15).
+        - **Note:** Ladder at (10, 8) was likely a one-way drop. Exit used: (7, 15).
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
