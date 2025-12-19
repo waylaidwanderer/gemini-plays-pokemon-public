@@ -35,6 +35,7 @@
 - Bird Keeper Bryan at (14, 28): Pidgey, Pidgeotto. Defeated.
 - Firebreather Walt at (3, 10): Magmar x2. Defeated.
 - Officer at (5, 6): Requests delivery to Route 31.
+- Gym Guide (ID 6) at (5, 15) in Goldenrod Gym.
 
 # Inventory & Key Items
 - Coin Case: Found in Goldenrod Underground (Turn 3971).
@@ -43,3 +44,4 @@
 
 # Area Knowledge
 - Goldenrod City: NPC ID 4 (Cooltrainer F) patrols (19, 26) to (21, 28). Can block vertical movement on X=19.
+- Goldenrod Gym: Maze layout. Whitney uses Normal types. Resistance to Normal is key.
