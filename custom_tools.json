@@ -34,31 +34,6 @@
       }
     ]
   },
-  "press_sequence": {
-    "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T06:11:16.135Z",
-        "action_counter": 948
-      }
-    ]
-  },
   "find_path_v5_unseen_traversable": {
     "description": "Finds the shortest path to a target coordinate, correctly handling all collision types and treating 'unseen' tiles as traversable. Returns a list of button strings.",
     "input_schema": {
@@ -127,6 +102,31 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-19T10:55:52.584Z",
         "action_counter": 3933
+      }
+    ]
+  },
+  "press_sequence": {
+    "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-18T06:11:16.135Z",
+        "action_counter": 948
       }
     ]
   }

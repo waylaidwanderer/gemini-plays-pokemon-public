@@ -112,8 +112,11 @@
 # Menu Mechanics
 - **Start Menu Wraps**: Pressing `Down` on EXIT (index 7) moves the cursor to POKEDEX (index 0). Pressing `Up` on POKEDEX moves it to EXIT. This means `Up*8` does not reset the cursor to a fixed position; it returns it to the starting point.
 - **Persistent Cursor**: The Start menu and Pack pockets remember the last cursor position.
-- **Current Start Menu Cursor**: Last seen on SAVE (index 5) at Turn 3964.
-- **Current Pack Cursor**: Last seen on CUT (HM01) in the TM pocket at Turn 3964.
+- **Current Start Menu Cursor**: Last seen on PACK (index 2) at Turn 3970.
+- **Current Pack Pocket**: TM/HM.
+- **Current Pack Cursor (TM/HM)**: Last seen on 12 SWEET SCENT at Turn 3970.
+- **Current Pack Cursor (Items)**: Last seen on HARD STONE (index 4) at Turn 3970.
+- **Current Party Menu Cursor**: Last seen on KIMCHI (index 3) at Turn 3970.
 
 ## GNEISS (Geodude) Info
 - **Held Item**: BERRY (Needs to be swapped for HARD STONE).
