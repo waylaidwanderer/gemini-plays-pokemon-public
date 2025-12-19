@@ -38,7 +38,7 @@
 - Officer at (5, 6) in Goldenrod City: Requests delivery to Route 31.
 - Gym Guide (ID 6) at (5, 15) in Goldenrod Gym.
 - Beauty Victoria (ID 4) at (0, 4) in Goldenrod Gym: Sentret x2. Defeated.
-- Lass Carrie (ID 2) at (12, 13) in Goldenrod Gym. Battling.
+- Lass Carrie (ID 2) at (12, 13) in Goldenrod Gym. Defeated.
 - Lass (ID 3) at (9, 6) in Goldenrod Gym.
 - Beauty Samantha (ID 5) at (19, 6) in Goldenrod Gym: Meowth x2. Defeated.
 
