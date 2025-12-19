@@ -106,4 +106,4 @@
 - **Training**: Grind on Route 35 tall grass. Avoid Grass-types (Oddish) due to 4x weakness.
 - **Goal**: Reach Lv 18-20 for Whitney. Magnitude is learned at Lv 16.
 - **Time Tracking**: Started training at Turn 3932.
-- Taught TM04 (Rollout) to GNEISS (Turn 3937). Rollout is in the 4th move slot.
+- Attempted to teach TM04 (Rollout) to GNEISS, but tool failed and used Sweet Scent instead (Turn 3937). Rollout NOT yet taught.
