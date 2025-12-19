@@ -12,20 +12,18 @@
 - LEDGE_HOP_RIGHT: One-way right.
 - VOID: Impassable. Map boundary.
 
-# Battle Strategy & Type Effectiveness (Unverified/General Knowledge)
+# Battle Strategy & Type Effectiveness (Verified)
 - Super Effective (x2 or x4):
-    - Rock moves -> Bug, Flying, Fire, Ice.
-    - Ground moves -> Poison, Fire, Electric, Rock, Steel.
-    - Fire moves -> Grass, Bug, Steel, Ice.
+    - Ground moves -> Electric (Voltorb), Fire (Magmar).
+    - Rock moves -> Fire (Magmar).
+    - Flying moves -> Grass/Poison (Bellsprout).
+    - Fire moves -> Bug/Poison (Venonat).
 - Not Very Effective (x0.5 or x0.25):
-    - Normal moves -> Rock, Steel.
-    - Ground moves -> Bug, Grass (Note: Flying is immune).
-    - Rock moves -> Fighting, Ground, Steel.
+    - Normal moves -> Rock/Ground (Geodude).
+    - Rock moves -> Rock/Ground (Geodude).
 - Immune (x0):
-    - Ground moves -> Flying.
-    - Ghost moves -> Normal.
-    - Normal/Fighting moves -> Ghost.
-- Note: Steel type matchups (weak to Fighting, Ground, Fire) are based on general knowledge and need in-game verification.
+    - Ground moves -> Flying (Pidgey).
+- Note: Other matchups are based on general knowledge and require in-game verification.
 
 # Gym Leader Whitney (Goldenrod City)
 - **Roster:**
