@@ -6,12 +6,13 @@
     1. Heal at Ecruteak Center (Done).
     2. Access PC (Sentret Missing).
     3. Buy Pokeballs at Mart (Done).
-    4. Catch Poliwag (Old Rod) in Ecruteak City ponds for Surf.
+    4. Catch Poliwag (Lapis) in Ecruteak City ponds (Done).
     5. Head West to Route 38.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
+- **Lapis (Poliwag):** Lv 10. Needs leveling/Surf.
 - **Others:** Low levels/Utility.
 
 ## Completed:** 
