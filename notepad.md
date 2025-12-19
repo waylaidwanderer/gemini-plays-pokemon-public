@@ -5,9 +5,9 @@
 - **Secondary Goal:** Investigate Lighthouse.
 - **Observation:** Falling from the pit at (16, 7) on 5F drops you to the perimeter of 3F at (16, 9), skipping 4F entirely. This is a trap/shortcut down.
 - **Plan:** Climb back up to 5F via 4F. Search 5F more thoroughly for a way to the center.
-- **Observation:** The Center Area (x=8,9) is unseen. It might be accessible from the South (Row 15).
-- **Plan:** Navigate to the South-West, pick up item at (6, 15), and check for an entrance to the center at (8, 15).
-- **Current Location:** Olivine Lighthouse 5F.
+- **Observation:** Accidentally took ladder at (3, 5) down to 4F while trying to go West.
+- **Plan:** Take ladder at (3, 5) on 4F back up to 5F. Then navigate around the ladder (likely via (3, 6)) to reach the West corridor and the item at (6, 15).
+- **Current Location:** Olivine Lighthouse 4F.
 
 ## Lighthouse Progress
 - **1F:** Explored. Staircase at (16, 13).
