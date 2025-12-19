@@ -37,3 +37,4 @@
 - **Route 35-37:** Cleared trainers. Defeated Sudowoodo. Arrived in Ecruteak.
 - **Lass:** Practices at the Dance Theater.
 - **Gramps:** Mentions an 'odd old man' in the Dance Theater who gives you something nice.
+- **Quest:** Defeat all Kimono Girls in the Dance Theater to receive a gift from the Gentleman.
