@@ -15,7 +15,6 @@
 - Signpost at (3, 17).
 - Shrine at (8, 22): Honors the forest's protector.
 - Rocker NPC at (15, 14): Headbutt Tutor.
-- Hint: Lass in gatehouse believes the forest protector is a Grass-type Pokémon.
 
 ## Route 34
 - Gatehouse to Ilex Forest at (13, 37) and (14, 37).
