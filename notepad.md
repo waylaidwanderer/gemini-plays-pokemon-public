@@ -19,3 +19,4 @@
 ## Battle Lessons
 - Ekans cannot learn CUT.
 - Running is efficient with fast leads (Calcifer).
+- Always verify move teaching success in party menu.
