@@ -28,8 +28,9 @@
 
 # Strategy: Route 35 & Goldenrod
 - **Bypass Route 35 Fence**: The fence at Row 18 blocks the center. To pass, move to column 4 or 5 (West side) and walk north past the fence line.
-- **Access East Side of Route 35**: The route is split by a wall at Column 12. Use gaps at (12, 8), (12, 9), (12, 16), or (12, 17) to cross.
-- **Retrieve Poke Ball (13, 16)**: This item is inside a small enclosure. Enter via the gap at (12, 16) by moving right from column 11.
+- **Access Item Corridor (Column 13)**: The area containing the Poke Ball at (13, 16) is enclosed. 
+    - Entrance 1: Gap at (12, 16) or (12, 17). Reachable from the west side (column 11).
+    - Entrance 2: Corridor opens at Row 26. Reachable from the east side (column 16) by moving west to (13, 26).
 - **Goldenrod City Objectives**:
     1. Locate the Name Rater to rename EGG.
     2. Challenge Whitney (Normal Gym). Level 20+ recommended.
