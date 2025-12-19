@@ -17,8 +17,9 @@
 ## Strategy for Ilex Forest
 1. Find the runaway Farfetch'd.
 2. Catch the Farfetch'd by chasing it into a position where it can be approached from behind.
-   - Flight Logic:
+   - Observed Flight Logic:
      - Approached from North at (22, 30) -> Bird at (22, 31) flew East to (27, 31).
+     - Approached from West at (27, 31) -> Bird at (28, 31) facing Right. Catching now.
 3. Return to the apprentice (7, 28) to trigger the reward.
 4. Obtain HM01 (Cut) from the Charcoal Master in Azalea Town (21, 13).
 5. Retrieve Bellsprout from the PC to teach it Cut.
@@ -35,6 +36,3 @@
 - NPC Presence: Rely ONLY on 'Map Objects On Screen' list.
 - Catching Farfetch'd: Must approach from behind.
 - Ilex Forest: Dark area, HM05 Flash may be useful but not required.
-
-## Progress
-- Ilex Forest: Chasing runaway Farfetch'd. Bird currently at (28, 31). Facing LEFT. Player at (26, 31).
