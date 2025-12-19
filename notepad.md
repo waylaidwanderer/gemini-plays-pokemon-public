@@ -84,3 +84,4 @@
 - Gameboy Kid in Goldenrod Pokecenter: Mentions the Colosseum upstairs is for link battles. (Turn 3814)
 - Time Capsule in Goldenrod Pokecenter: Currently "being adjusted" and unavailable. (Turn 3825)
 - Bill's House in Goldenrod: Bill's mom (Pokefan F) says Bill is at the Ecruteak Pokemon Center. Her husband is at the Game Corner. (Turn 3837)
+- Arnie (Bug Catcher) call: Asked about Hoothoot's weakness. (Hoothoot is Normal/Flying, weak to Electric, Ice, Rock). (Turn 3839)
