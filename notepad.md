@@ -15,15 +15,11 @@
 - **Webster (Guard):** Quest active. KENYA's mail stored in PC. KENYA swapped out. Need to deliver mail to Route 31 eventually.
 - **Goldenrod Gym:** Clefairy shape.
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
-    - **Current Obstacle:** Whitney (Gym Leader).
-    - **Battle State:** Fighting Miltank (Lv20).
-    - **Enemy Status:** Locked into Rollout (Hit 3 just hit Critical). Miltank HP is RED.
-    - **Battle Plan:**
-        1. **Crisis:** Muscle survived Rollout Hit 3 with 7 HP (Crit).
-        2. **Action:** Miltank already moved this turn. Muscle is queued to attack (Low Kick).
-        3. **Result:** Low Kick should KO Miltank.
-    - **Status:** Muscle Lv22 (7/70 HP).
-    - **Notes:** Unexpected double-turn execution occurred. Miltank is faster, so Muscle attacks AFTER the text clears.
+    - **Current Obstacle:** Whitney (Gym Leader) - Defeated!
+    - **Status:** Won! Muscle survived on 7 HP (Crit Rollout). Leveled to 23.
+    - **Current State:** Whitney is crying. Badge not yet received.
+    - **Next Step:** Talk to Whitney or Lass to get the Badge.
+    - **Health:** Muscle Lv23 (10/73 HP). Needs Center.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
