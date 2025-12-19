@@ -18,7 +18,7 @@
 - Policy: Use battle_strategist for trainer fights.
 
 # Strategy & Notes
-- Sudowoodo: Located at Route 36 (35, 9). Reacts to water (Use SQUIRTBOTTLE). (Verified: Turn #4460). Battle started Turn #4567.
+- Sudowoodo: Located at Route 36 (35, 9). Reacts to water (Use SQUIRTBOTTLE). (Verified: Turn #4460). Caught on Turn #4593.
 - Zephyr Badge: Obtained from Falkner (Turn #1636).
 - Hive Badge: Obtained from Bugsy (Turn #3354).
 - Plain Badge: Obtained from Whitney (Turn #4330).
