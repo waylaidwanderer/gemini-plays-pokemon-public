@@ -17,12 +17,13 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Obstacle:** Whitney (Gym Leader).
     - **Battle State:** Fighting Miltank (Lv20).
-    - **Enemy Status:** Locked into Rollout (Hit 2 incoming).
+    - **Enemy Status:** Locked into Rollout (Hit 3 just hit Critical). Miltank HP is RED.
     - **Battle Plan:**
-        1. **Race:** Miltank is faster. Muscle (34 HP) can survive Hit 2 (~6 dmg) and Hit 3 (~12 dmg). Hit 4 is lethal.
-        2. **Action:** Muscle uses Low Kick (Turn 2/3 needed).
-        3. **Backup:** If Muscle faints, Onix (Rocky) takes 0.25x dmg from Rollout and 0.5x from Stomp.
-    - **Status:** Muscle Lv22 (34/70 HP). Female Machop.
+        1. **Crisis:** Muscle survived Rollout Hit 3 with 7 HP (Crit).
+        2. **Action:** Miltank already moved this turn. Muscle is queued to attack (Low Kick).
+        3. **Result:** Low Kick should KO Miltank.
+    - **Status:** Muscle Lv22 (7/70 HP).
+    - **Notes:** Unexpected double-turn execution occurred. Miltank is faster, so Muscle attacks AFTER the text clears.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
