@@ -10,9 +10,12 @@
 - **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
 ## Strategy: Current Plan
-1. **Status**: Bird flew to (18, 29).
-2. **Action**: Approach from behind (likely East at 19, 29) on clean ground.
-3. **Catch**: Interact from behind to finally end the chase.
+1. **Status**: Bird position unknown (last seen at 22, 31 flying North).
+2. **Action**: Search western path (Row 28/29) to locate bird.
+3. **Catch**: Approach from behind on clean floor.
+
+## Hypotheses
+- Row 23 (X=15 to 21) is clean (Untested).
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
