@@ -136,3 +136,4 @@
 - RadioTower2F (15, 0) <-> RadioTower1F (15, 0).
 - Black Belt at (0, 1) in RadioTower2F.
 - Stairs to 3F at (0, 0) in RadioTower2F.
+- Black Belt at (0, 1) in RadioTower2F: "Sorry. Authorized personnel only beyond this point. It wasn't that way before. There's something wrong with the DIRECTOR…"
