@@ -45,4 +45,7 @@
 # Lessons Learned
 - Hallucination Prevention: Always explicitly verify Map ID and object coordinates from the Game State Information block.
 - Quest Logic: The Flower Shop Teacher in Goldenrod won't provide the Squirtbottle until her sister (Floria) has been spoken to.
-- Floria at (33, 12) on Route 36 confirms the wiggly tree is a Pokemon. (Turn 4347)
+- Floria at (33, 12) on Route 36 confirms the wiggly tree is a Pokemon.
+- WARP_CARPET_UP/DOWN/LEFT/RIGHT: Traversable. Map transition.
+- LONG_GRASS: Traversable. Wild encounters.
+- TALL_GRASS: Traversable. Wild encounters. (Observed in National Park)
