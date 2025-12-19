@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Talk to Sailor at (4, 3) for Strength, then talk to Fishing Guru.
-- **Notes:** Cafe has two Sailors and a Fishing Guru.
+- **Navigation:** Advance dialogue with Sailor (4, 3) to get Strength HM.
+- **Notes:** Currently speaking to Sailor.
 - **Current Location:** Olivine Cafe.
 
 ## Party Status
