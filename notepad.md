@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
-- **Navigation:** Battle Sailor at (8, 2), then explore West side of 1F.
-- **Battle Strategy:** Muscle (Machoke) in lead. Watch for Water/Fighting.
+- **Navigation:** Advance Sailor's text (Press B). If no battle, move West to explore.
+- **Notes:** Sailor said "People train at this LIGHTHOUSE."
 - **Current Location:** Olivine Lighthouse 1F (North Center).
 
 ## Party Status
