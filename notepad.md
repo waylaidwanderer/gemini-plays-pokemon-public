@@ -17,11 +17,14 @@
     - **Path Taken:** Right side maze (Rows 6-13) successfully navigated.
     - **Current Status:** On Route 36 (East Side).
     - **Health:** Muscle Lv24 (76/76 HP).
-    - **Inventory:** TM08 (Rock Smash) obtained from Fisher.
+    - **Inventory:** TM08 (Rock Smash) obtained.
     - **Objectives:**
-        1. **Travel:** Backtrack West to the Sudowoodo intersection (35, 9).
+        1. **Travel:** Go West to the intersection at (35, 9).
         2. **Travel:** Head North towards Ecruteak City.
-    - **Notes:** Rock Smash (TM08) allows breaking rocks. Can be learned by Rock/Fighting types.
+    - **Notes:**
+        - Rock Smash (TM08) allows breaking rocks.
+        - SE Warps (47, 13) likely lead to Ruins of Alph.
+        - East leads to Violet City.
 - **Gym Guide:** (5, 15). Advised Fighting-type.
 - **Whitney:** Located at (8, 3). Accessible via center path.
 - **Gameboy Kid:** National Park (26, 6).
