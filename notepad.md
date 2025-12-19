@@ -5,15 +5,14 @@
 
 ## Puzzle Mechanics
 - **Apprentice Hint**: "You have to get behind it to catch it."
-- **Startle Logic**: Interacting from the front or side makes the bird fly ~6 tiles along the forest path away from the player.
-- **Twig Logic**: Tiles with dark specs (Verified Row 31, X=23-29) are noisy. Stepping on them while near the bird makes it turn to face the player, preventing a 'behind' interaction.
-- **Success Condition**: Interact with the bird from the tile directly behind its current facing direction WITHOUT stepping on noisy twigs during the approach.
+- **Startle Logic**: Interacting from any side makes the bird fly ~6 tiles along the forest path away from the player.
+- **Twig Logic**: Tiles with dark specs are noisy (Row 31 verified). Stepping on them near the bird makes it turn to face the player.
+- **Success Condition**: Interact with the bird from the tile directly behind its facing direction without stepping on twigs during the approach.
 
-## Strategy: Driving & Catching
-- **Problem**: Noisy twigs on Row 31 prevent sneaking behind the bird when it hides in that row.
-- **Solution**: Drive the bird to a location on clean ground (Rows 22-30, 32-35) where a stealthy approach is possible.
-- **Current Status**: Bird is at (24, 35) facing DOWN. Row 35 is clean ground.
-- **Plan**: Interact from (25, 35) (East) to drive it West towards the apprentice's area.
+## Strategy: Current Plan
+1. **Status**: Bird is at (22, 31) facing RIGHT.
+2. **Action**: Drive bird North by interacting from the South (22, 32).
+3. **Pathing**: Approach (22, 32) via clean ground to avoid alerting it.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
@@ -21,12 +20,12 @@
 - **WALL / DENSE_TREES**: Impassable.
 - **HEADBUTT_TREE**: Impassable.
 - **CUT_TREE**: Impassable. Requires HM01 Cut.
-- **LEDGE_HOP**: One-way traversal in the direction of the ledge.
+- **LEDGE_HOP**: One-way traversal.
 
 ## Locations & Progress
-- **Charcoal Kiln**: Azalea (21, 13). Reward for this quest is HM01 Cut.
+- **Charcoal Kiln**: Azalea (21, 13). Reward: Cut.
 - **Badges**: Zephyr, Hive.
 
 ## Party Status
-- Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for battle reasoning.
+- Calcifer (QUILAVA) Lv22: Lead. Use 'battle_strategist_v3' for wild encounters.
 - Team: ONIX, GEODUDE, PIDGEY, TOGEPI, EKANS.
