@@ -6,7 +6,8 @@
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
 - **Garnet (Quilava):** Lv 28. Healthy.
-- **Lapis (Poliwag):** Lv 10. Learned Surf. Needs leveling.
+- **Beauty Valerie:** Defeated.
+- **Lapis (Poliwag):** Lv 10. Low HP (11/28). Needs healing or switch out.
 - **Others:** Low levels/Utility.
 
 ## Completed:** 
