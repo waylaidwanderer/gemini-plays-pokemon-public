@@ -1,6 +1,7 @@
 # Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable. Includes FENCE, benches, and flower beds.
+- FLOOR: Traversable. No effects.
+- LONG_GRASS: Traversable. Wild Pokémon encounters. Used for park exploration.
+- WALL: Impassable. Includes fences, benches, and trees.
 - WATER: Impassable. Requires Surf.
 - HEADBUTT_TREE: Impassable. Shaken with Headbutt.
 - CUT_TREE: Impassable. Cleared with Cut.
@@ -18,6 +19,7 @@
 
 # Progress & Objectives
 - Whitney Defeated. Plain Badge and TM45 obtained.
+- Exploration: Started National Park exploration at Turn #4476.
 - Squirtbottle Quest:
   1. Talked to Floria on Route 36 (Turn 4347).
   2. Obtained SQUIRTBOTTLE from Flower Shop (Turn 4449).
