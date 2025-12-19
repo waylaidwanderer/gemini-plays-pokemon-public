@@ -19,8 +19,8 @@
 
 ## Navigation Log
 - **Olivine Lighthouse:** Cleared 1F-5F. Reached 6F via Center Column.
-- **Route 40:** Defeated Swimmer Simon and Swimmer Randall (Rival Sprite confirmed). Heading South/West.
-- **Next:** Surf Route 40/41 to Cianwood.
+- **Route 40:** Reached western edge (Buoys). Heading South to enter Route 41.
+- **Next:** Traverse Route 41 to Cianwood.
 
 ## Tile Mechanics
 - **Lighthouse Pits:** Gaps on 4F/5F drop to the floor below. Jumping into the pit on 4F North (Cols 8-9) is the solution to reach the central column.
