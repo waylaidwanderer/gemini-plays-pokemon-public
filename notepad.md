@@ -4,7 +4,7 @@
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Investigate Lighthouse.
 - **Navigation:** Explore 3F South to find a path to the eastern side/ladder.
-- **Battle Strategy:** Standard. Muscle/Garnet.
+- **Battle Strategy:** Switch to Rocky (Slot 3) vs Bird Keeper Theo's Pidgey. Use Rock Throw.
 - **Current Location:** Olivine Lighthouse 3F.
 
 ## Lighthouse Progress
