@@ -3,15 +3,21 @@
 ## Current Strategy
 - **Primary Goal:** Defeat Whitney (Goldenrod Gym).
 - **Strategy:**
-    1. **Train to Lv 20:** Grind in National Park (Left Side).
+    1. **Party Management:** Swap Kenya (Spearow) for Belladonna (Oddish) at Goldenrod PC.
+    2. **Train to Lv 20:** Grind on Route 35.
        - *Method:* Wild Encounters (Muscle as Lead).
-    2. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
+    3. **Gym Battle:** Use MUSCLE (Low Kick) and ROCKY (High Defense) vs Miltank.
 
 ## Key Items & Progress
 - **Badges:** Zephyr, Hive (2/8).
 - **Key Items:** Coin Case, Bicycle, Old Rod.
 - **HM/TM:** Cut (Belladonna), Headbutt (Tutor).
-- **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE), Sunkern (HELIODOR).
+- **Caught:** Nidoran♂ (COBALT), Heracross (AZURITE), Sunkern (HELIODOR), Spearow (KENYA - Gift).
+
+## Quests & NPC Notes
+- **Webster (Guard):** At Route 35 Gate (0, 4). Gave KENYA (Spearow) with Mail to deliver to Route 31 (Dark Cave area).
+- **Gameboy Kid:** National Park (26, 6).
+- **Peaceful Pokefan F:** National Park (14, 4).
 
 ## Tile Mechanics
 - **FLOOR/TALL_GRASS:** Traversable.
@@ -42,15 +48,10 @@
 
 ### Area Notes
 - **National Park:**
-    - Gameboy Kid at (26, 6).
-    - Peaceful Pokefan F at (14, 4).
     - East Side (Snake Path) is a dead end.
-    - Phone Call (Wade): Caterpie hard to handle.
     - West Corridor (Column 0/1): Accessible only from Row 10. Contains Dig TM at south end.
     - NW Pocket (Rows 4-10, Cols 2-5): Isolated. Must enter/exit via Northern Perimeter at (10, 2).
 - **Turn 5773 (Self-Correction):**
     - **Error:** Hallucinated position (27, 10) in Turn 5772. Actual position was (20, 14).
     - **Cause:** Assumed `navigate` success without verifying `current_position` in Game State.
     - **Action:** Forced strict verification of coordinates.
-    - **Insight:** The central area (Cols 14-21) is blocked by the Fountain. Must navigate around it (East or West). Currently boxed in West, so must go East.
-- Officer at Goldenrod Gate (0, 4): Likely Webster (Kenya Quest). Requires empty party slot.
