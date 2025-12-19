@@ -2,8 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Reach Olivine City (West via Route 38).
-- **Navigation:** Enter Olivine City (South) and heal Lapis.
-- **Immediate Goal:** Head South to transition map.
+- **Navigation:** Locate the Pokemon Center in Olivine City.
+- **Immediate Goal:** Head South/West to find the city center.
+- **Current Location:** Olivine City (North Entrance).
 
 ## Party Status
 - **Muscle (Machoke):** Lv 31. Healthy.
