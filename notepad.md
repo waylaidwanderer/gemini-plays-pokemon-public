@@ -3,12 +3,11 @@
 
 ## Goal: Catch the bird to obtain HM01 (Cut).
 
-## Current Status (Turn 3073)
-- **Bird Position**: (28, 31).
-- **Bird Facing**: UP (Overwatch 3060).
+## Current Status (Turn 3075)
+- **Bird Position**: (22, 31).
+- **Bird Facing**: RIGHT.
 - **Player Position**: (21, 33).
-- **Plan**: Use EMBER to end battle. Then move to (28, 32) via Row 35 (Silent).
-- **Silent Path**: (21, 33) -> (21, 35) -> (28, 35) -> (28, 32).
+- **Plan**: Interact from (22, 32) to startle the bird and move it to a better area.
 
 ## Puzzle Mechanics
 - **Success Condition**: Interact from the tile directly behind the bird's facing direction.
