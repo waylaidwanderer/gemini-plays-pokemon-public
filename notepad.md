@@ -32,7 +32,11 @@
 ## Goldenrod City
 - Pokémon Center at (15, 27).
 - Underground South Entrance at (11, 29).
-- Goal: Locate the Gym, Radio Tower, and Department Store.
+- **Strategy**: Systematically explore the city by quadrants.
+    1. Check all buildings in the immediate vicinity of the Pokémon Center.
+    2. Head north to find the Radio Tower and Gym.
+    3. Locate the Department Store for supplies.
+    4. Speak to all NPCs for city lore and potential items (e.g., Bike, Coin Case).
 
 # Lessons Learned
 - **Type Matchups**: Onix (Rocky) is 4x weak to Grass (Absorb). Paras is 4x weak to Fire (Ember).
