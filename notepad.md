@@ -30,5 +30,9 @@
     4. **JUMP** into the pits there. Expect to land in 3F Center.
     5. Climb up from 3F Center -> 4F Center -> 5F Center.
 - Current Location: OlivineLighthouse5F.
-- **Battle:** Encountered Sailor in 3F Center Room.
-- **Plan:** Defeat Sailor, then take ladder at (9, 5) UP.
+- **Success:** Defeated Sailor Terrell in 3F Center Room.
+- **Plan:**
+    1. Take ladder at 3F(9,5) UP to 4F Center.
+    2. Explore 4F Center for a ladder UP to 5F Center.
+    3. Reach the top (6F) to find Jasmine.
+- **Current Location:** OlivineLighthouse3F (Center Room).
