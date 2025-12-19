@@ -20,12 +20,11 @@
 - **Ecruteak City:**
     - **Gym:**
         - **Status:** Defeated Granny (Medium Grace).
-        - **Strategy:** Muscle (Machoke) with Dig. Verified: Ghosts in Gen 2 DO NOT have Levitate. Dig is Super Effective.
-        - **Puzzle:** Invisible floor. XML reveals PIT vs FLOOR tiles.
-        - **Path:**
-            - **Current:** At (5, 9).
-            - **Next Target:** Sage at (2, 7). Then Granny at (7, 5).
-            - **Route:** (5, 9) -> (3, 9) -> (3, 8) -> (3, 7) [Battle Sage].
+        - **Strategy:** Muscle (Machoke) with Dig.
+        - **Puzzle Hypothesis:** Bridge at Row 11?
+            - **Observation:** Col 6 is safe. Col 3 is safe in XML. Row 9 (Col 4) is a PIT.
+            - **New Path:** Cross from Col 6 to Col 3 via **Row 11**.
+            - **Route:** (6, 13) -> (6, 11) -> (3, 11) -> (3, 7) [Battle Sage].
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
