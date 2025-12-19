@@ -1,5 +1,5 @@
 # Ilex Forest Quest: Runaway Farfetch'd
-*Started Turn 2803. Current: 3109.*
+*Started Turn 2803. Current: Turn 3112 (309 turns elapsed)*
 
 ## Success Condition
 Interact from the tile directly behind the bird's facing direction.
@@ -7,9 +7,10 @@ Interact from the tile directly behind the bird's facing direction.
 ## Verified Noisy Zones (Specs)
 - Zone A: Row 24 (20-25)
 - Zone B: Row 26 (14-15)
-- Zone C: Rows 28-30 (14)
-- Zone D: Rows 28-29 (16-18)
-- Zone E: Row 31 (23-28)
+- Zone C: Row 28 (14-18)
+- Zone D: Row 29 (17-18)
+- Zone E: Row 30 (14)
+- Zone F: Row 31 (23-29)
 - Note: (15, 27), (15, 30), (15, 31) are CLEAN. (15, 28) is NOISY.
 
 ## Silent Paths
