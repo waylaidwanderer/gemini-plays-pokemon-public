@@ -33,3 +33,6 @@
 - **Objective**: Talk to the Rocker at (15, 14) to potentially learn Headbutt.
 - **Path**: Navigate to (23, 14) and move South into the central unseen area (Rows 15-16).
 - **Progress**: Currently at (29, 11). Exploring the unseen path at (23, 15).
+- Talked to Rocker at (15, 14). Received TM02 Headbutt. (Turn 3298).
+- Headbutt can be used on `HEADBUTT_TREE` tiles to encounter sleeping Pokémon.
+- Navigation to Northern Exit (Route 34) resuming. Target: North-west corner of forest.
