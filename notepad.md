@@ -24,11 +24,11 @@
     - **Pokefan:** Kimono Girls are tough.
     - **Gym:** Morty is absent.
     - **Burned Tower:**
-        - **Status:** Defeated Rival Silver. Falling to B1F.
-        - **Layout:** Overland route confirmed.
-        - **Hazards:** Floor has holes (Warps) to B1F.
-        - **Next:** Explore B1F. Locate Legendary Beasts.
-        - **Party Status:** Muscle & Rocky Critical. **HEAL ASAP.**
+        - **Status:** In B1F. Landed at (10, 9).
+        - **Layout:** B1F is the Legendary Beasts' lair.
+        - **Hazards:** Wild Pokemon likely.
+        - **Next:** Heal party, then approach the Beasts.
+        - **Party Status:** Muscle (Critical), Rocky (Critical), Garnet (OK).
 
 ## Important Locations
 - **Ecruteak:** Pokemon Center (23, 27). Itemfinder House (13, 27). Gym (Locate). Burned Tower (Locate).
