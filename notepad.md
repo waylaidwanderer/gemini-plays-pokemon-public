@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Obtain Good Rod.
-- **Navigation:** Talk to Fishing Guru (2, 3) to obtain Good Rod.
-- **Notes:** Found the correct house! Map name confirms it.
+- **Navigation:** Confirm "YES" to Fishing Guru (Press A).
+- **Notes:** Answering "YES" to "face the sea and fish?".
 - **Current Location:** Olivine Good Rod House.
 
 ## Party Status
