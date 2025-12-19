@@ -14,6 +14,11 @@
 - `LEDGE_HOP_RIGHT`: One-way right.
 - `BOOKSHELF`: Impassable object. Verified at (1, 1) in Bill's House.
 - `RADIO`: Impassable object. Verified at (7, 1) in Bill's House.
+- `TV`: Impassable. Verified at (2, 1) in Bill's House. (Turn 3844)
+- `TOWN_MAP`: Impassable (WALL). Verified at (3, 0) in Bill's House. (Turn 3844)
+- `WINDOW`: Impassable (WALL). Verified at (5, 0) in Bill's House. (Turn 3844)
+- `COUNTER`: Impassable. Verified in Goldenrod Pokecenter. (Turn 3844)
+- `PC`: Impassable. Verified in Goldenrod Pokecenter. (Turn 3844)
 
 # Area Knowledge
 ## Route 35
