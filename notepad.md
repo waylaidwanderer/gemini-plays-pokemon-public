@@ -18,13 +18,9 @@
 - Bird is at (15, 29). Facing: RIGHT.
 - Target: (14, 29) (Behind).
 - Approach: Long-range flank to avoid noisy tiles.
-  1. Move to (29, 25) (Clean corridor).
-  2. Go South to Row 42/43 (Entrance area).
-  3. Go West to col 1.
-  4. Go North to Row 35/34.
-  5. Go East to col 14 (Passage at col 8-14).
-  6. Go North to (14, 29).
-- Reason: The bird is facing RIGHT, so its back is at (14, 29). Approaching from the North or East is too noisy. This route is silent.
+  1. Move to (3, 42) (Entrance) via Row 24 (Clean).
+  2. Explore western path (Column 1) to find a way to (14, 29).
+- Reason: The bird is facing RIGHT, so its back is at (14, 29). Approaching from the North or East is too noisy. I need to find a way into the western pocket.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
