@@ -16,8 +16,8 @@
 
 ## Current Status
 - Bird is at (15, 29). Facing: UP.
-- Target: Make it face RIGHT by stepping on (17, 28), then catch from (14, 29).
-- Approach: Go around the wall via Row 23 to reach (17, 28). Row 23 is clean.
+- Target: (15, 30) (Behind).
+- Approach: Flank via Row 25 (Clean) and Row 30 (Clean) to reach (15, 30) from the right. Avoid all noisy tiles.
 
 ## Tile Mechanics
 - **FLOOR**: Passable. Clean ground.
