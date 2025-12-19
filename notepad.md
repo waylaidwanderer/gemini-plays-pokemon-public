@@ -19,14 +19,14 @@
 - **Time Capsule:** Opens 'tomorrow' (in-game). Gen 1 trading.
 - **Ecruteak City:**
     - **Gym:**
-        - **Status:** Defeated Granny (Medium Grace).
+        - **Status:** Defeated Sage Jeffrey (Sage #2).
         - **Strategy:** Muscle (Machoke) with Dig.
         - **Puzzle:** Successfully crossed bridge at Row 11.
-        - **Current Position:** (3, 11).
-        - **Plan:**
-            1. Go North up Column 3 to (3, 7).
-            2. Battle Sage at (2, 7).
-            3. **Note:** (3, 8) is likely safe (FLOOR in XML).
+        - **Current Position:** (3, 7).
+        - **Next Step:** Battle Granny at (7, 5).
+        - **Path Hypothesis:** Cross back to Column 6 via (6, 7).
+            - **Risk:** (6, 7) is marked is-warp="true". Testing if it's a trap or the path.
+            - **Route:** (3, 7) -> (6, 7) -> (6, 6) -> (6, 5) [Battle Granny].
     - **Itemfinder Guy:** Hidden items in Burned Tower.
     - **Burned Tower:**
         - **Status:** Exited to Ecruteak City.
