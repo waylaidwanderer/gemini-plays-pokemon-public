@@ -21,7 +21,8 @@
 - Squirtbottle Quest:
   1. Talked to Floria on Route 36 (Turn 4347).
   2. Obtained SQUIRTBOTTLE from Flower Shop (Turn 4449).
-  3. Use SQUIRTBOTTLE on Sudowoodo at Route 36 (35, 9). (Next)
+  3. Learned from Floria (Turn 4347) that the "wiggly tree" is a Pokémon that reacts to water.
+  4. Use SQUIRTBOTTLE on Sudowoodo at Route 36 (35, 9). (Next)
 - Deliver KENYA (Spearow) to Route 31.
 
 # Inventory & Key Items
