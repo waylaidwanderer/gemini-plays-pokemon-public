@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Navigate Route 40/41 to reach Cianwood City.
+- **Immediate Plan:** Get SecretPotion from Pharmacy, then return to Olivine.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 36.
