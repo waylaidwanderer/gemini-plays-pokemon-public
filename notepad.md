@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Deposit Rocky (Onix) at PC to make room for Shuckie, then challenge Gym Leader Chuck.
+- **Immediate Plan:** Deposit Rocky, heal at Nurse Joy (Muscle is hurt), get Shuckie, then challenge Gym.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 36.
