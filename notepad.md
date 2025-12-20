@@ -4,12 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Exit Menus and Deliver Mail.
-  1. **Current State:** Item Menu (Mail count reduced to 2, confirmed equipped).
-  2. **Action:** Press `B` repeatedly to return to Overworld.
-  3. **Route:** East through Gatehouse to Route 31.
-  4. **Target:** Sleeping Fisher at (17, 7) on Route 31.
-  5. **Note:** Kenya is holding Flower Mail with message "HI".
+- **Current Action:** Travel to Route 31.
+  1. **Location:** Violet City (9, 18).
+  2. **Route:** East -> Gatehouse (39, 24) -> Route 31.
+  3. **Target:** Sleeping Fisher at (17, 7).
+  4. **Status:** Kenya equipped with Mail.
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
