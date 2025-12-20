@@ -1,7 +1,9 @@
-# Strategy for Primary Goal (Defeat Gym Leader Chuck)
-- Status: COMPLETED (Turn 7212).
-- Battle started at Turn 7161.
-- Outcome: Calcifer (Lv36) evolved into Typhlosion after defeating Poliwrath. KIMCHI reached Lv18. Obtained Storm Badge and TM01 (DynamicPunch).
+# Strategy for Primary Goal (Travel to Mahogany Town)
+- Step 1: Go to Cianwood PC (23, 43).
+- Step 2: Swap a party member (e.g., Ravioli or SHUCKIE) for ICARUS (PIDGEY).
+- Step 3: Teach FLY to ICARUS.
+- Step 4: Fly to Ecruteak City.
+- Step 5: Head east through Route 42 to Mahogany Town.
 
 # Strategy for KIMCHI Training
 - Route: Route 40/41 (Surf).
@@ -42,8 +44,5 @@
 - Observation: Boulders at (3, 7), (4, 7), (5, 7) block path.
 - Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side. Final positions: Obj 7 (3,6), Obj 8 (3,7), Obj 9 (5,6).
 
-# Strategy for Obtaining HM02 Fly
-- Target NPC: Pokefan F outside Cianwood Gym.
-- Coordinates: (11, 46).
-- Action: Talk to her after defeating Chuck to receive HM02 Fly.
-- Status: In progress (Turn 7221).
+# HM02 Fly Acquisition
+- Status: COMPLETED (Turn 7225). Received HM02 FLY from Pokefan F.
