@@ -4,10 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Kenya (Head to Route 31).
-  1. **Status:** Arrived in Violet City. Heading East.
-  2. **Step 1:** Navigate to Route 31 Gatehouse (39, 25).
-  3. **Step 2:** Exit Gatehouse to Route 31.
+- **Current Action:** Deliver Kenya (Enter Gatehouse).
+  1. **Status:** Standing on Warp to Gatehouse (39, 25).
+  2. **Step 1:** Enter Route 31 Gatehouse (Press Right).
+  3. **Step 2:** Walk through Gatehouse to Route 31.
   4. **Step 3:** Find Fisher at (17, 7) on Route 31.
   5. **Step 4:** Deliver Mail.
 
