@@ -43,3 +43,5 @@
 - **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
+- **Emergency:** No HP healing items left. Muscle is at 4 HP. Lapis (Lv 10) is active.
+- **Plan:** Lapis uses Hypnosis. If successful, switch to Muscle to sweep. If Lapis dies, Muscle must pray for a miss.
