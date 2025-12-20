@@ -19,12 +19,7 @@
 
 # Trainer Teams & Progress (Route 38)
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. Defeated.
-- Beauty Olivia (5, 8): Corsola Lv19. Defeated.
-- Beauty Valerie (19, 9): Hoppip, Skiploom. Defeated.
-- Bird Keeper Toby (12, 15): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
-- Sailor Harry (24, 5): Wooper Lv19. Defeated.
-- Lass Dana (15, 3): Flaaffy Lv18, Psyduck Lv18. Defeated.
-- Youngster Chad (4, 1): Mr. Mime Lv19. Defeated.
+- Beauty Olivia (5, 8), Beauty Valerie (19, 9), Bird Keeper Toby (12, 15), Sailor Harry (24, 5), Lass Dana (15, 3), Youngster Chad (4, 1): Defeated.
 
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
@@ -32,13 +27,21 @@
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
 - Ecruteak Gym: Invisible floor path documented (Turn 5290).
-- Moomoo Farm: The sick Miltank specifically requires the item "BERRY" (not Mint Berry, etc.). 7 BERRIES are needed for a full recovery.
+- Moomoo Farm: The sick Miltank specifically requires 7 standard "BERRY" items for a full recovery. Other berries (Mint, Bitter, etc.) do not count.
+
+# Berry Locations (Crystal)
+- Route 30: Likely standard BERRY.
+- Route 31: Likely Bitter Berry.
+- Route 35: Likely Mystery Berry.
+- Route 36: Likely Ice Berry.
+- Route 38: To be investigated.
+- Route 39 (9, 3): Mint Berry.
 
 # Strategy & Exploration
 - Goal: Reach Olivine City (West) via Route 38/39.
 - Catch Checklist: Magnemite, Miltank, Tauros.
-- Quest: Collect 7 standard "BERRY" items to heal the Miltank.
-- Berry Search: Check fruit trees on Route 38, 37, 36, and previous routes.
+- Quest: Collect 7 standard "BERRY" items.
+- Plan: Explore south on Route 39, then backtrack to check earlier routes for standard Berries.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective.
