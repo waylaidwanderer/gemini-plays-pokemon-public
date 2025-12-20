@@ -3,6 +3,7 @@
 - Weaknesses: Fire, Fighting, Ground.
 - Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
 - Plan: Lead with Calcifer (Flame Wheel) or GNEISS (Magnitude). Use Blarney's Low Kick as backup.
+- Current Status: Swapping Calcifer to lead position.
 
 # Strategy for KIMCHI Training
 - Training Route: Surf Route 40/41.
@@ -76,6 +77,6 @@
 - Start Turn: 6994
 - Current Position: Olivine Gym (5, 5)
 - Plan:
-    1. Swap Calcifer (QUILAVA) to the lead position. (In progress: swapping Calcifer and KIMCHI)
+    1. Swap Calcifer (QUILAVA) to the lead position.
     2. Move to (5, 4) and face UP to talk to Jasmine at (5, 3).
     3. Defeat Jasmine using Calcifer's FLAME WHEEL.
