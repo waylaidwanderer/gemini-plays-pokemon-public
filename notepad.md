@@ -70,3 +70,5 @@
 - **Plan:** Checking if Cherrygrove Mart sells Flower Mail. If not, will Fly to Violet City.
 - **Fly Map Navigation:** Cursor starts at New Bark Town.
 - **Action:** Pressing LEFT to select Cherrygrove. Will press UP next turn to reach Violet City (avoiding input skipping).
+- **Tool Definition:** Defined `slow_press` to handle sticky menus/maps by adding delays between inputs.
+- **Immediate Action:** Attempting manual `Left` press. If it fails, will use `slow_press` next turn with the full sequence.

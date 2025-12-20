@@ -113,5 +113,35 @@
         "action_counter": 8054
       }
     ]
+  },
+  "slow_press": {
+    "description": "Presses a sequence of buttons with a configurable delay between each press to ensure inputs are registered by the game.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "delay": {
+          "type": "integer",
+          "default": 500,
+          "description": "Delay in milliseconds between presses."
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nbuttons = input_data['buttons']\ndelay = input_data.get('delay', 500)\noutput = []\nfor b in buttons:\n    output.append(b)\n    output.append(f\"sleep {delay}\")\nprint(json.dumps(output))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-20T10:42:11.488Z",
+        "action_counter": 8108
+      }
+    ]
   }
 }
