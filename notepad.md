@@ -70,8 +70,7 @@
 
 ## Current Task: Exit Lighthouse
 - Start Turn: 6954
-- Current Position: 5F Outer Ring (16, 5)
+- Current Position: 4F Outer Ring (16, 7)
 - Plan:
-    1. Drop through pit at (16, 7) or (17, 7) on 5F to reach 4F outer ring.
-    2. From 4F's outer ring, use pits (16, 9) or (17, 9) to drop to 3F's outer ring.
-    3. On 3F, find the ladder at (5, 3) to go down to 2F and eventually exit.
+    1. Drop through pit at (16, 9) or (17, 9) on 4F to reach 3F outer ring.
+    2. On 3F, find the ladder at (5, 3) to go down to 2F and eventually exit.
