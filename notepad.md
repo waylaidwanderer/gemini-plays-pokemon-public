@@ -50,3 +50,5 @@
 - **Quest Status:** Kenya is in party. Just need the mail.
 - **Purchase Error Analysis:** Reviewed previous turn history. After selecting "1" Flower Mail, I likely pressed 'B' during the confirmation prompt ("That will be ¥50. OK?"), cancelling the transaction.
 - **Correction Plan:** This time, I must press 'A' *twice* after selecting the item: once to confirm quantity (1), and once to confirm the purchase.
+- **Buy Strategy:** Using `Up` wrapping (A -> Up -> Up -> A) to quickly select Flower Mail from the bottom of the list.
+- **Verification:** Will check the "How many?" screen to ensure "FLOWER MAIL" is the selected item before confirming purchase.
