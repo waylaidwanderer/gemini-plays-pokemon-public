@@ -1,16 +1,16 @@
-# Tile Mechanics
-- FLOOR: Traversable.
-- TALL_GRASS: Traversable. Wild Pokémon encounters.
-- WALL: Impassable. Includes trees, signs, NPCs.
-- HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN: One-way traversal (jump down). Blocks movement from below.
-- WARP_CARPET: Traversable. Map transition.
+# Strategy for Ecruteak City
+1. Defeat the 5 Kimono Girls in the Dance Theater to get HM03 Surf.
+2. Defeat Gym Leader Morty (Ghost/Poison).
+3. Explore Burned Tower.
 
-# Battle Strategy & Type Effectiveness (Verified)
-- Super Effective: Ground -> Electric, Fire, Poison, Rock, Steel; Rock -> Bug, Fire, Flying, Ice; Flying -> Bug, Fighting, Grass; Fire -> Bug, Grass, Ice, Steel.
-- Not Very Effective: Normal -> Rock, Steel; Rock -> Rock, Ground; Grass -> Fire.
-- Immune: Ground -> Flying.
-- Strategy: Use battle_strategist for trainer fights.
+# Gym Prep: Morty (Ghost)
+- Team: Gastly, Haunter, Gengar (Ghost/Poison).
+- Weaknesses: Ground, Psychic, Ghost, Dark.
+- Strategy: Use GNEISS (Graveler) with Magnitude. (Note: Ground hits Ghost/Poison in Gen 2).
+
+# Ecruteak City Lore
+- Motto: "A Historical City Where the Past Meets the Present".
+- History: Used to have two towers, one in the east and one in the west.
 
 # PC Storage
 ## Box 1 (Current)
@@ -19,18 +19,18 @@
 - ICARUS (PIDGEY) Lv11
 
 ## Party
-- GNEISS (GRAVELER) Lv25: Evolved from Geodude at Lv25 (Turn #4752).
+- GNEISS (GRAVELER) Lv25: STAB Magnitude.
+- Calcifer (QUILAVA) Lv27
+- FRITTATA (TOGEPI) Lv5
+- KIMCHI (ODDISH) Lv7
+- EGG (CLEFFA) Lv5
 
-# Strategy & Notes
-- Sudowoodo: Caught (Turn #4593).
-- Badges: Zephyr (Violet), Hive (Azalea), Plain (Goldenrod).
-- Key Items: Squirtbottle (used on Sudowoodo), Coin Case (Goldenrod Underground), Old Rod.
-- HMs: HM01 Cut (learned by KIMCHI), HM05 Flash.
-- TMs: TM28 Dig (National Park), TM08 Rock Smash (Route 36), TM12 Sweet Scent, TM45 Attract, TM49 Fury Cutter, TM50 Nightmare.
-- Route 35 Crossing: (West) <-> (6, 19) <-> (Middle) <-> (12, 17) <-> (East).
-- Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
-- Arnie (Bug Catcher): Swarm notification for Yanma on Route 35.
-- Violet City Navigation: To reach the north/west exit from the south, move to (27, 23) to bypass the ledges at y=23. Note: The pathfinding tool might attempt to walk up ledges, which is impossible.
+# Tile Mechanics
+- FLOOR: Traversable.
+- TALL_GRASS: Traversable. Wild encounters.
+- WALL: Impassable.
+- LEDGE_HOP_DOWN: One-way jump down.
+- WARP_CARPET: Map transition.
 
 # Pokemon Locations
 - Route 29: Pidgey, Rattata, Sentret.
@@ -46,24 +46,3 @@
 - Route 35: Pidgey, Nidoran M/F, Jigpuff, Abra, Yanma (Swarm), Ditto.
 - National Park: Pidgey, Caterpie, Metapod, Weedle, Kakuna, Sunkern.
 - Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
-
-# Ecruteak City Lore
-- Motto: "A Historical City Where the Past Meets the Present". (Turn #4787)
-- History: Used to have two towers, one in the east and one in the west. (Turn #4764)
-
-# Ecruteak City Events
-- Bill met in PC: Time Capsules will be available at all PCs tomorrow. Bill is heading back to Goldenrod. (Turn #4773)
-
-# Lessons Learned
-- Ecruteak City Navigation: Do not assume building locations based on floor tile patterns. Verify with warps in Map Events or the Mental Map. (Turn #4769)
-
-# Strategy for Ecruteak City
-1. Exit the Pokemon Center.
-2. Read signs at (15, 21) and (21, 21) for guidance.
-3. Locate the Ecruteak Gym (primary objective).
-4. Locate the Burned Tower (tertiary objective).
-5. Visit the Ecruteak Dance Theater.
-6. Check the Kimono Girls' house (often contains a key item or event).
-
-# Gym Information
-- Ecruteak Gym: Leader Morty. Specialty: Ghost-types.
