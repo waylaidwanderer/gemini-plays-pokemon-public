@@ -44,3 +44,7 @@
     - **Magnemite (Lv 30):** Defeated by Muscle's Karate Chop (OHKO).
     - **Steelix (Lv 35):** Resists Normal (Strength). Weak to Fighting/Ground/Fire/Water. High Defense. Muscle's Defense lowered by Iron Tail.
 - **Strategy Update:** Switching to Mistral (Lv 13) to reset Muscle's Defense drop. Mistral will likely faint (Sacrifice). Then send Muscle back out, heal, and use Karate Chop.
+- **Battle vs Jasmine Update:**
+    - Mistral fainted after using Sand-Attack (Steelix Accuracy -1).
+    - Muscle's stats are reset (Defense normal).
+    - **Next Step:** Switch Muscle in (Slot 1). **CRITICAL:** Use Hyper Potion immediately as Muscle has 23/130 HP and Steelix deals ~40 damage with Iron Tail.
