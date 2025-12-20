@@ -5,7 +5,7 @@
 - FLOOR: Standard traversable ground.
 - WALL / WINDOW / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
 - COUNTER: Impassable; interact with NPC behind it from adjacent tile.
-- BOULDER: Impassable; requires HM04 Strength to move (verified Turn 6387).
+- BOULDER: Impassable; requires HM04 Strength to move.
 - ROCK: Impassable; can be crushed with Rock Smash.
 - PC: Interactable object for Pokémon/Item storage.
 - WARP: Leads to a different map or area.
@@ -31,15 +31,12 @@
 - Fire: Resisted by Water.
 - Normal: Neutral against Water.
 - Poison: Resists Fighting (Oddish).
-- Ground: Super effective against Poison.
+- Grass: Super Effective against Water.
 
 # Strategy for Primary Goal (Defeat Chuck)
-- Team Analysis:
-  - Calcifer (QUILAVA) Lv34: Fainted (Turn 6679).
-  - GNEISS (GRAVELER) Lv35: Weak to Fighting and Water.
-  - KIMCHI (ODDISH) Lv10: Poison resists Water/Fighting.
-  - SHUCKIE (SHUCKLE) Lv15: Fainted (Turn 6675).
-- Strategy: Send GNEISS. Hope for Accuracy -2 miss. Use Magnitude/Strength.
+- Current Plan: Use KIMCHI (Lv10 ODDISH) to exploit type advantages.
+- Typing: Grass/Poison resists Water and Fighting. Absorb deals Super Effective Special damage.
+- Status: Poliwrath (~50% HP) has -2 Accuracy. Rely on misses to bridge the level gap.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
@@ -50,8 +47,6 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) at ~50% HP. Calcifer fainted twice (Turn 6679). SHUCKIE fainted (Turn 6675). GNEISS fainted (Turn 6687). Poliwrath Accuracy: -2. Out of Revives/Hyper Potions.
-- Strategy: Send KIMCHI (Lv10). Resists Water/Fighting. Use Absorb to chip and heal. Rely on Smokescreen misses.
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
