@@ -51,4 +51,4 @@
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Status: Battling Swimmer Paula's Shellder at (12, 25) on Route 40. Calcifer is confused. (Turn 5961)
+- Status: Surfing south on Route 40 towards Route 41. (Turn 5962)
