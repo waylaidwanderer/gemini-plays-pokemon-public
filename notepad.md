@@ -79,3 +79,6 @@
 - **Lesson:** Use longer delays or verifying steps for Fly map navigation.
 - **Map Hygiene:** Marked Fisher on Route 31 as the Mail Target.
 - **Plan:** Exit Pack -> Party -> Mistral -> Fly -> Violet City.
+- **Status Update:** Accidentally flew to New Bark Town instead of Violet City.
+- **Correction:** Must Fly again to Violet City.
+- **Action:** Opening Party Menu to select Mistral.
