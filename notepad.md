@@ -44,6 +44,13 @@
 - Goal: Reach Olivine City (West) via Route 38/39.
 - Catch Checklist: Magnemite, Miltank, Tauros.
 
+# Type Effectiveness (Verified)
+- Rock vs Flying: Super Effective (Gneiss's Rock Throw vs Doduo).
+- Normal vs Rock: Not Very Effective (Doduo's Scratch vs Gneiss).
+- Electric vs Ground: Immune (Flaaffy's Electric moves vs Gneiss).
+- Water vs Fire: Super Effective (Predicted).
+- Normal vs Water: Neutral (Predicted).
+
 # Tool Management
 - find_path_v2: Reliable for navigation. Use (6,7) override for Ecruteak Gym.
 - battle_strategist_v2: Use for tactical advice in major battles.
