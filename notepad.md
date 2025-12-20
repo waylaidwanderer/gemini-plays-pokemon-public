@@ -18,6 +18,7 @@
 - Visuals vs. Collision: Visual appearance of tiles (e.g., ground vs wall) can be misleading. Always verify collision types in the Mental Map before planning paths.
 - Olivine Harbor: Enclosed by buoys at Y=32. This is a dead end for reaching Route 40.
 - Battle Tools: Map-based tools fail during battle due to missing map data.
+- Item Usage: Double-check the bag during battles to avoid using the wrong potion (e.g., Super vs. Hyper).
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -25,8 +26,7 @@
 
 # Trainer Progress
 - Olivine Lighthouse Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
-- Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28).
-- Current Battle: Swimmer Kirk (32, 30). GNEISS (Lv 34) vs second Gyarados (Lv 20). GNEISS switched in on turn 6065. First Gyarados defeated.
+- Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28), Swimmer Kirk (32, 30).
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO): Lv20
@@ -40,3 +40,6 @@
 - Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
 - Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
+
+# Reflection Log
+- Turn 6076: Reflection 50. Last 50 turns reviewed. Tasks (Kirk update) performed. Notepad and Map markers up to date. Automation tools are performing well. Goal remains clear: get SecretPotion. Recent mistakes (Potion mix-up) distilled into lessons. No false constraints identified.
