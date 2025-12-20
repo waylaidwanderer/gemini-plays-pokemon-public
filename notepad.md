@@ -23,7 +23,7 @@
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
 
-# General Knowledge
-- Abra: Bug, Ghost, Dark.
-- Growlithe: Water, Ground, Rock.
-- Snubbull: Fighting.
+# Weakness Reference
+- Abra (Psychic): Bug, Ghost, Dark.
+- Growlithe (Fire): Water, Ground, Rock.
+- Snubbull (Normal): Fighting.
