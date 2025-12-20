@@ -4,19 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Test Map Navigation (Step 5 - Scroll from Azalea).
-  1. **Observation:** `Up` from Cherrygrove went to **Azalea Town**, NOT Violet City.
-     - Sequence so far: New Bark -> (Up) -> Cherrygrove -> (Up) -> Azalea.
-     - Violet City was skipped.
-  2. **Hypothesis:** The list order is likely strictly geographical following the "U" shape of Johto (East -> South -> West -> North).
-     - New Bark -> Cherrygrove -> Azalea -> Goldenrod?
-     - Violet might be on a separate branch or accessed via `Right` from Azalea/Goldenrod?
-  3. **Action:** Press `Up` ONCE.
-  4. **Next Turn:**
-     - If "Goldenrod City": Continue scrolling or try `Right`.
-     - If "Violet City": CONFIRM.
-     - If "Cianwood": The list is weird.
-  5. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
+- **Immediate Action:** Correct Navigation Error (Scroll Back to Violet).
+  1. **Error Analysis:** In Turn 8676, the screen text WAS "Violet City", but I pressed `Up` and scrolled past it to Azalea -> Goldenrod.
+  2. **Current State:** Fly Map Open. Cursor on "Goldenrod City".
+  3. **Correction:** Violet City is 2 steps back (`Down` x2).
+  4. **Sequence:** `Down` -> `Down`.
+  5. **Next Turn:** Verify "Violet City", then Confirm (`A` -> `A`).
+  6. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
