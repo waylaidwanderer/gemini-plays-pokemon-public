@@ -7,7 +7,7 @@
     - **Badge:** Mineral Badge (Raises Defense).
     - **TM:** TM23 Iron Tail.
     - **Battle:** Muscle (Machoke) swept with Karate Chop. Mistral was sacrificed to reset stats.
-- **Immediate Plan:** Exit Gym, heal up, then Fly to Violet City to deliver Kenya (Spearow) to Route 31. Then head East from Ecruteak to Mahogany Town.
+- **Immediate Plan:** Navigate to Pokémon Center (13, 21). Heal party. Deposit a Pokémon (likely Azurite or Hematite) to make room for Kenya (Spearow). Withdraw Kenya. Fly to Violet City.
 
 - **Quest Update:** Successfully escaped the Lighthouse using Dig. Amphy is cured.
 - **Party Status:**
