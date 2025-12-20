@@ -75,3 +75,7 @@
 - Teacher at (7, 1).
 - Fisher at (2, 3).
 - Fishing Guru at (8, 4).
+
+# Olivine Lighthouse Strategy
+- 1F: Entered from Olivine City (29, 27). Exploring to find stairs to 2F.
+- Goal: Reach the top to find Gym Leader Jasmine.
