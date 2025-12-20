@@ -43,3 +43,9 @@
 - Switching in Battle: In Gen 2, the 'Will you switch?' prompt after an opponent's Pokémon faints is a YES/NO choice. Selecting 'YES' leads to the party menu. If you change your mind, press 'B' to return to the battle menu. (Turn #5140)
 - Trust the XML: The Mental Map's structural data (`is-warp`, `type`) is the primary source of truth for navigation, even if it contradicts the discovered warps list. (Turn #5144)
 - Party Menu Persistence: The cursor in the party menu when using items often stays on the last selected Pokémon or moves to the next one. Use multiple 'Up' presses to reset to the top for reliable selection. (Turn #5172)
+
+# Strategy
+- Use `find_path_v2` for overworld navigation.
+- Use battle_strategist_v2 for Morty.
+- Current Goal: Defeat Leader Morty (Gengar active). (Turn #5174)
+- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST).
