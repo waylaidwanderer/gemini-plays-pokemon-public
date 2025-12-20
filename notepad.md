@@ -36,3 +36,11 @@
 # Discovery Log
 - Turn 5791: Encountered wild Krabby at (6, 25).
 - Turn 5860: Caught Krabby (Ravioli) at (6, 25). Mission complete! Switching to teaching Surf.
+
+# Goal: Get SecretPotion from Cianwood
+- Current Location: Olivine City.
+- Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
+- Preparation: Teach Surf to Ravioli (Krabby). Heal at Pokémon Center.
+- Route: Route 40 is south of Olivine. Route 41 follows. Cianwood is the destination.
+- Objective in Cianwood: Find the Pharmacy and get the medicine.
+- Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
