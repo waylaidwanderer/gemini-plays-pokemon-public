@@ -55,3 +55,12 @@
 - 3F Middle Section: Contains Sailor (9, 2), Item (8, 2), and Ladder to 4F (9, 5). Reachable by falling through pit (8, 3) or (9, 3) on 4F.
 - 3F Warps: (13, 3) Ladder, (5, 3) Ladder, (9, 5) Ladder, (16, 11) PIT, (17, 11) PIT.
 - 4F Warps: (13, 3) Ladder, (3, 5) Ladder, (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT.
+
+# Trainer Progress (Olivine Lighthouse 5F)
+- Youngster Ronald at (8, 3). Unchallenged.
+- Sailor Ernest at (8, 11). Unchallenged.
+
+# Map Notes (Olivine Lighthouse 5F)
+- Ladder at (9, 7) leads back to 4F.
+- Unseen tiles to explore: North (8, 2), South (8, 12).
+- Sections appear separated by walls.
