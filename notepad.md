@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Open Pack).
-  1. **Status:** Recovering from menu navigation error (Lapis Move List).
-  2. **Step 1:** Reset to Overworld (B x4).
+- **Current Action:** Fix Kenya's Mail (Recover & Open Pack).
+  1. **Status:** Recovering from Pokegear (Accidental Open).
+  2. **Step 1:** Exit Pokegear & Reset to Overworld (B x2).
   3. **Step 2:** Open Menu (Start).
-  4. **Step 3:** Enter Pack (Down x2 -> A).
-  5. **Step 4:** Select Flower Mail -> Give to Kenya.
-  6. **Step 5:** Write "Dark Cave leads to another road." (Title Case).
+  4. **Step 3:** Navigate to PACK (Verify cursor first).
+  5. **Step 4:** Equip Flower Mail -> Write "Dark Cave leads to another road."
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
