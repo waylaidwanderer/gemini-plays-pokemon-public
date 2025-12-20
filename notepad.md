@@ -4,11 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Fly to Violet City & Deliver Mail.
-  1. Select FLY -> Violet City (Avoids tall grass/encounters).
-  2. Head East to Route 31.
-  3. Fisher is at (17, 7).
-  4. Deliver Mail: "DARK CAVE LEADS TO ANOTHER ROAD".
+- **Immediate Action:** Fly to Violet City (Retry).
+  1. I am currently in Cherrygrove City (Fly Error).
+  2. Open Party Menu -> Select Mistral (Slot 5).
+  3. Select FLY.
+  4. On Map: Press UP (Target Violet City).
+  5. Confirm Landing.
+  6. Walk East to Route 31 -> Fisher (17, 7).
+  7. Deliver Mail.
 - **Hypothesis:** The game expects ALL CAPS for the password phrase.
 - **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
 - **Hypothesis:** The game expects ALL CAPS for the password phrase, despite Webster's dialogue using mixed case.
