@@ -46,5 +46,5 @@
 
 # Discovery Log
 - Turn 5791: Encountered wild Krabby at (6, 25).
-- Catch Tracking (Krabby Lv10): 7 failed Great Ball attempts, 1 failed Lure Ball attempt. Attempt 9 (Great Ball) next.
+- Catch Tracking (Krabby Lv10): 8 failed Great Ball attempts, 1 failed Lure Ball attempt. Attempt 10 (Great Ball) next.
 - Nickname Plan: Ravioli.
