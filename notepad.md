@@ -65,3 +65,4 @@
 - **Battle Critical:** Muscle HP 24/121 (Sleep). Must wake up or risk fainting. Next in line: Garnet.
 - **Battle Update:** Muscle defeated Drowzee but is at critical HP (24/121). Eusine sending out Haunter (Ghost/Poison).
 - **Strategy:** Switching to Garnet (Quilava) to handle Haunter with Fire moves (Ember). Muscle's Normal/Fighting moves are useless, and Dig is risky at low HP.
+- **Battle Update:** Switched to Garnet (Lv 28) vs Haunter (Lv 23). Using Ember (Slot 4) to deal neutral special damage.
