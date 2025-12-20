@@ -27,6 +27,7 @@
 # Trainer Progress
 - Olivine Lighthouse Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
 - Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28), Swimmer Kirk (32, 30).
+- Current Battle: Swimmer Denise (27, 34). Calcifer (Lv 30) vs Seel (Lv 22).
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO): Lv20
@@ -43,4 +44,3 @@
 
 # Reflection Log
 - Turn 6076: Reflection 50. Last 50 turns reviewed. Tasks (Kirk update) performed. Notepad and Map markers up to date. Automation tools are performing well. Goal remains clear: get SecretPotion. Recent mistakes (Potion mix-up) distilled into lessons. No false constraints identified.
-- NPC: Swimmer Girl (R41, 27, 34)
