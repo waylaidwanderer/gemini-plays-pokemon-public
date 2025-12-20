@@ -4,13 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Navigate Fly Map to Violet City.
-  1. **Current State:** Fly Map Open (Cursor on Cherrygrove).
-  2. **Sequence (Slow Press):**
-     - `Up`: Move cursor to Violet City.
-     - `A`: Select Violet City.
-     - `A`: Confirm Fly.
-  3. **Next Turn:** Arrive in Violet City -> Walk East to Route 31.
+- **Immediate Action:** Open Party, Check Mail, Fly to Violet City.
+  1. **Current State:** In Pack (Item Pocket).
+  2. **Plan:** B (Exit) -> Up (Pokemon) -> A (Select) -> Check Kenya -> Fly.
+  3. **Target:** Sleeping Man on Route 31.
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Previous Attempt:** Delivered to Fisher (Rejected: "This MAIL isn't for me").
