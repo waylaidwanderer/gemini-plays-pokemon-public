@@ -62,3 +62,5 @@
 - **Mail Typing:** Typed "DARK CAVE l".
 - **Next Chunk:** "eads to ".
 - **Remaining:** "another road".
+- **Mail Typing:** Typing "another road".
+- **Verification:** Will verify text on screen before confirming with END.
