@@ -92,10 +92,6 @@
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. (Turn #4982)
 
-# Exploration Targets
-- Reachable unseen tiles on B1F: (To be refreshed by tool).
-- Unseen tiles adjacent to walkable (1F): (15, 0), (16, 0), (18, 3-8).
-
 # Strategy
 - Avoid all tiles with `is-warp='true'` or Pit markers.
 - Use `find_path` to navigate between safe tiles.
