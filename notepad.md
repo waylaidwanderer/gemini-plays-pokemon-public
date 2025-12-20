@@ -38,4 +38,8 @@
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Noctowl Lv20. Defeated.
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
-- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15. Defeated.
+- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
+
+# Party Stats
+- GNEISS (GRAVELER): Lv33 (42/92 HP) | MAGNITUDE: 28, DEFENSE CURL: 40, ROCK THROW: 9, ROLLOUT: 20.
+- Calcifer (QUILAVA): Lv28 (78/78 HP).
