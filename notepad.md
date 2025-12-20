@@ -4,13 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Fly to Violet City (Attempt #5 - Direction: Left -> Up).
-  1. **Current State:** Party Menu, Cursor on Hematite (Slot 2).
-  2. **Hypothesis:** `Left` x2 failed, so Violet might be North-West of New Bark.
-  3. **Sequence:**
-     - Navigate to Mistral (Slot 5).
-     - Select Fly.
-     - Map: `Left` (Cherrygrove?) -> `Up` (Violet?) -> Confirm.
+- **Immediate Action:** Open Party Menu (Safe Reset).
+  1. **Status:** Failed Fly Attempt #5 (Landed in New Bark Town).
+  2. **Plan:** Open Party Menu carefully to reset cursor logic and verify state.
+  3. **Next Turn:**
+     - Verify Party Menu is open.
+     - Select Mistral (Slot 5).
+     - Fly Strategy: Try `Left` -> `Left` -> `A` (Hypothesis: Violet is 2 hops Left).
   4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
