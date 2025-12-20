@@ -43,3 +43,4 @@
 
 # Reflection Log
 - Turn 6076: Reflection 50. Last 50 turns reviewed. Tasks (Kirk update) performed. Notepad and Map markers up to date. Automation tools are performing well. Goal remains clear: get SecretPotion. Recent mistakes (Potion mix-up) distilled into lessons. No false constraints identified.
+- NPC: Swimmer Girl (R41, 27, 34)
