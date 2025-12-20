@@ -59,4 +59,4 @@
 - battle_strategist_v2: Available for major battles.
 
 # Trainer Teams & Progress (Route 39)
-- Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Currently battling.
+- Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
