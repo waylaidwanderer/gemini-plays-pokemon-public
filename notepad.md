@@ -4,16 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Select Mistral -> Fly.
-  1. **Current State:** Party Menu. Cursor on **Hematite** (Slot 2).
-  2. **Action:**
-     - `Down` x3: Navigate to Mistral (Slot 5).
-     - `A`: Open Submenu.
-     - `A`: Select Fly.
-  3. **Next Turn:** Verify Fly Map -> Navigate to Violet City.
-  4. **Goal:** Resupply Flower Mail.
-- **Route Info:** Route 31 (Trapped).
-- **Mail Status:** Need to buy mail.
+- **Immediate Action:** Select Violet City (Up x2).
+  1. **Current State:** Fly Map Open (New Bark Town).
+  2. **Logic:** Previous tests confirmed `Up` moves New Bark -> Cherrygrove -> Violet.
+  3. **Action:** Press `Up` twice.
+  4. **Next Turn:** Verify "Violet City" on screen, then Confirm (`A` -> `A`).
+  5. **Goal:** Resupply Flower Mail at Violet Mart.
+- **Route Info:** Route 31 -> Violet City (Fly).
+- **Mail Status:** Resupplying.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
