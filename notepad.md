@@ -43,8 +43,8 @@
 - **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
-- **Emergency:** No HP healing items left. Muscle is at 4 HP. Lapis (Lv 10) is active.
-- **Plan:** Lapis uses Hypnosis (Slot 2).
-  - If Lapis survives and hits Hypnosis: Switch to Muscle.
-  - If Lapis dies: Send Muscle. Pray for a miss or crit.
-  - If Lapis misses and survives: Try Hypnosis again.
+- **Emergency:** No HP healing items left. Muscle is at 4 HP. Poliwrath is ASLEEP.
+- **Plan:** Switch to Muscle immediately.
+  - If Poliwrath stays asleep: Muscle uses Strength.
+  - If Poliwrath wakes up and attacks: Muscle faints. Backup plan: Garnet/Azurite?
+  - Goal: Deal as much damage as possible with Muscle while Poliwrath is sleeping.
