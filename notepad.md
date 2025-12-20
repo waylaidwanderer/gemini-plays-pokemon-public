@@ -9,9 +9,9 @@
 - GNEISS (GRAVELER) Lv30: STAB Magnitude.
 - Calcifer (QUILAVA) Lv28: QUICK ATTACK, HEADBUTT, SMOKESCREEN, EMBER.
 - FRITTATA (TOGEPI) Lv5
-- KIMCHI (ODDISH) Lv10
+- KIMCHI (ODDISH) Lv10: ABSORB, SWEET SCENT, CUT.
 - EGG (CLEFFA) Lv5
-- XFDW (MEOWTH) Lv16: SCRATCH, GROWL, BITE. Caught on Route 38.
+- XFDW (MEOWTH) Lv16: SCRATCH, GROWL, BITE.
 
 # Tile Mechanics
 - PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` or `type='PIT'`. These tiles are impassable.
@@ -32,23 +32,24 @@
 - Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
 - Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
 - Sailor Harry (Route 38): Wooper Lv19. Defeated.
-- Lass Dana (Route 38): Flaaffy Lv18 (Active).
+- Lass Dana (Route 38): Flaaffy Lv18 (D), Psyduck (Active).
 
 # Lessons Learned
-- Keyboard Layout (Naming Screen): 9 Columns wide. Row 0: A-I, Row 1: J-R, Row 2: S-Z, Row 3: symbols, Row 4: [lower], [DEL], [END]. Wide buttons on Row 4.
-- Nicknaming Error: Failed 'Ducat' naming resulted in 'XFDW' due to keyboard layout hallucination.
+- Keyboard Layout (Naming Screen): Hypothetical 9-column layout based on failed 'XFDW' entry. Needs verification.
+- Nicknaming Error: Failed 'Ducat' naming resulted in 'XFDW'.
 - Ecruteak Gym Path: Safe path follows trainer sightlines; (6, 7) is a verified safe connection.
 - Route 38 Navigation: Map divided by wall at row 8. Westward path to Olivine is north of the wall. Access via column 30.
 
 # Strategy & Exploration
 - Goal: Reach Olivine City (West) via Route 38/39.
-- Current Task: Exploration of Route 38. Started Turn #5240 (Friday, Dec 19, 9:00 PM).
 - Catch Checklist: Magnemite, Miltank, Tauros.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective (Gneiss's Rock Throw vs Doduo).
 - Normal vs Rock: Not Very Effective (Doduo's Scratch vs Gneiss).
+- Electric vs Ground: Immune (Flaaffy's Electric moves vs Gneiss).
 
 # Tool Management
 - find_path_v2: Reliable for navigation. Use (6,7) override for Ecruteak Gym.
 - battle_strategist_v2: Use for tactical advice in major battles.
+- get_reachable_unseen_tiles_v1: Use to verify exploration progress.
