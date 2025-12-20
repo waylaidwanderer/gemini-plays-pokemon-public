@@ -50,11 +50,17 @@
 ## Burned Tower
 - Malice: Haunter (Lv 20), Croconaw (Lv 22), Zubat (Lv 20), Magnemite (upcoming)
 
+# Burned Tower 1F (3_13)
+- Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
+- Eusine (ID 2) at (9, 14): Searching for Suicune.
+- Morty (ID 4) at (14, 15): Ecruteak Gym Leader.
+- Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5), (5, 5), (5, 6), (4, 6).
+
 # Burned Tower B1F (3_14)
 - Ladder to 1F: (10, 8) and (7, 15).
 - Entry point from 1F hole: (10, 9).
 - Legendary Beasts: Awakened and released from B1F (Turn #4995). Raikou, Entei, and Suicune fled the tower.
-- Goal: Explore B1F for items, then return to Ecruteak Gym.
+- Goal: Talk to Eusine and Morty on 1F, then head to Ecruteak Gym.
 
 # Exploration Targets
 - Reachable unseen tiles on B1F: (To be refreshed by tool).
