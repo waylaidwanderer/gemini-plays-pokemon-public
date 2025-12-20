@@ -68,3 +68,6 @@
   - Croconaw (Lv 22): GNEISS switched out to clear Curse. Calcifer (Lv 27) active (66/76 HP).
   - Turn #4963: Calcifer used Headbutt. Croconaw used Leer. Calcifer Defense fell.
   - Turn #4964: Calcifer using Headbutt again. Strategy: Finish Croconaw.
+
+# Exploration Targets
+- Unseen tiles adjacent to walkable: (15, 0), (16, 0), (18, 3-8).
