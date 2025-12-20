@@ -53,3 +53,6 @@
 - Turn 5634: Arnie's call finished. Retrying lead swap to Calcifer.
 - 4F Exploration: Investigating (16, 7) hole next. Path is clear.
 - Turn 5635-5636: Exiting Pokedex and successful lead swap to Calcifer. Proceeding to (16, 7).
+- Turn 5637: Investigated (16, 7). It is a normal FLOOR tile, not a hole. Pits are confirmed at (16, 9) and (17, 9).
+- Lighthouse Progression Theory: 4F East -> Pit (16, 9) -> 3F Middle -> Ladder up -> 4F Middle -> Ladder (9, 5) to 5F.
+- Goal: Fall through pit at (16, 9).
