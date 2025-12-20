@@ -98,11 +98,17 @@
 - FLOOR: Generally safe, but in this Gym, some FLOOR tiles might be adjacent to invisible PITS.
 - STATUE: Impassable background object.
 
-# Safe Path Progress
-- (4, 17) -> (4, 16) -> (2, 16) -> (2, 13): Verified Safe.
-- (2, 13) -> (6, 13): Testing...
+# Safe Path Findings (is-warp='false')
+- Row 16: (0-9, 16)
+- Row 15: (0-2, 15), (4-5, 15), (7-9, 15)
+- Row 14: (0-2, 14), (5, 14), (7-9, 14)
+- Row 13: (2, 13), (3, 13), (4, 13), (5, 13), (6, 13)
+- Row 12: (0, 12), (6, 12), (9, 12)
+- Row 11: (0, 11), (3, 11), (4, 11), (5, 11), (6, 11)
+- Row 10: (0, 10), (3, 10), (6, 10)
+- Row 9: (0, 9), (3, 9), (4, 9), (5, 9), (6, 9), (7, 9)
 
-# Pit Warps Discovered
+# Pit Warps Discovered (is-warp='true')
 - Row 14: (4, 14)
 - Row 13: (7, 13)
 - Row 12: (2, 12), (3, 12), (4, 12), (5, 12), (7, 12)
@@ -111,5 +117,5 @@
 - Row 9: (2, 9)
 
 # Strategy
-- Safe tiles have `is-warp='false'` in Mental Map.
-- Use `find_path` to navigate, as it avoids warps (pits).
+- Avoid all tiles with `is-warp='true'` or Pit markers.
+- Use `find_path` to navigate between safe tiles.
