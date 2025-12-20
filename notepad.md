@@ -5,9 +5,9 @@
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
 - **Immediate Action:** Scroll DOWN to find Flower Mail.
-  1. I suspect I am at the top of the list (PARLYZ HEAL).
-  2. FLOWER MAIL was seen previously with FULL HEAL/BERRY, likely further down.
-  3. Scrolling DOWN x 10 to search.
+  1. Currently at ICE BERRY/EVERSTONE.
+  2. FLOWER MAIL was purchased recently, so it should be at the VERY BOTTOM of the list.
+  3. Scrolling DOWN x 10 to reach the end.
   4. If found, Give to Kenya -> Type "DARK CAVE LEADS TO ANOTHER ROAD" -> Deliver.
 - **Hypothesis:** The game expects ALL CAPS for the password phrase, despite Webster's dialogue using mixed case.
 - **Previous Attempt:** "DARK CAVE leads to another road" (Rejected: "This MAIL isn't for me").
