@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Correcting "...leads").
-  1. **Status:** Text is "DARK CAVE ...leads". Cursor on 's'.
-  2. **Step 1:** Backspace 6 times (remove "leads" and "...").
-  3. **Step 2:** Type "leads" (l, e, a, d, s).
-  4. **Next:** " to another road." (Period is crucial).
+- **Current Action:** Fix Kenya's Mail (Completion).
+  1. **Status:** Typed "DARK CAVE leads\nto another". Cursor on 'r'.
+  2. **Step 1:** Type " road." (Space, r, o, a, d, period).
+  3. **Step 2:** Select `END` (Start -> A).
+  4. **Step 3:** Confirm mail is attached.
+  5. **Step 4:** Deliver to Fisher.
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
