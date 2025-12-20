@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Seeking True Recipient.
-  1. **Discovery:** Fisher at (17, 7) rejected the mail ("This MAIL isn't for me").
-  2. **Hypothesis:** Recipient is likely the man "Guarding Dark Cave" at (32, 7).
-  3. **Plan:** Close text, Navigate East to Dark Cave entrance area.
-  4. **Status:** Kenya equipped with Mail ("HI").
+- **Current Action:** Talk to Cooltrainer near Dark Cave.
+  1. **Situation:** Fisher rejected mail. Cooltrainer at (33, 7) is the next candidate.
+  2. **Move:** Navigate to (32, 7) (adjacent to Cooltrainer).
+  3. **Action:** Talk to Cooltrainer.
+  4. **Contingency:** If he rejects it, verify if "Original Mail" is required or if another NPC exists.
+  5. **Status:** Kenya equipped with Flower Mail ("HI").
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
