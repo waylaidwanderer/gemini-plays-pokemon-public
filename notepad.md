@@ -73,3 +73,6 @@
 - **Strategy:** Mash Fight/Ember. If HP gets critical, will use Item or Switch.
 - **Battle Strategy:** Switching to Shuckie (Shuckle) to tank hits. Normal moves (Pinsir/Heracross) are useless against Ghost. Shuckle has high Sp. Def.
 - **Next Steps:** Use Shuckle to stall while healing Muscle with Super Potion. Then sweep with Muscle's Dig.
+- **Battle Strategy:** Haunter is Ghost, so Shuckie's Normal moves do 0 damage. Haunter is likely low HP (Ember + Curse cost).
+- **Plan:** Use Shuckie as a wall to safely use a Super Potion on Muscle from the bag. Then switch Muscle back in to finish Haunter with Dig.
+- **Note:** Bag order is unknown, need to visually locate Super Potion.
