@@ -6,7 +6,7 @@
 - Items: TM30 Shadow Ball.
 
 # Party
-- GNEISS (GRAVELER) Lv30: MAGNITUDE, DEFENSE CURL, ROCK THROW, ROLLOUT.
+- GNEISS (GRAVELER) Lv31: MAGNITUDE, DEFENSE CURL, ROCK THROW, ROLLOUT.
 - Calcifer (QUILAVA) Lv28: QUICK ATTACK, HEADBUTT, SMOKESCREEN, EMBER.
 - FRITTATA (TOGEPI) Lv5: GROWL, CHARM, MUD-SLAP.
 - KIMCHI (ODDISH) Lv10: ABSORB, SWEET SCENT, CUT.
@@ -14,51 +14,46 @@
 - XFDW (MEOWTH) Lv16: SCRATCH, GROWL, BITE.
 
 # Tile Mechanics
-- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` or `type='PIT'`. These tiles are impassable.
+- PIT: Warp tile, impassable.
 - STATUE: Impassable background object.
 - COUNTER: Impassable, interact over it.
-- LEDGE_HOP: One-way traversable.
-- FLOOR: Traversable (unless `is-warp='true'`). 
+- LEDGE_HOP_DOWN: One-way jump down. Traversable from above. (e.g. Row 13 to 14)
+- LEDGE_HOP_LEFT: One-way jump left. Traversable from right. (e.g. Col 10 to 9)
+- LEDGE_HOP_RIGHT: One-way jump right. Traversable from left. (e.g. Col 7 to 8)
+- FLOOR: Traversable.
 - WALL: Impassable.
-- GRASS: Standard wild encounter tile. Traversable.
-- LEDGE_HOP_DOWN: One-way jump down. Traversable from above.
-- LEDGE_HOP_LEFT: One-way jump left. Traversable from right.
-- LEDGE_HOP_RIGHT: Jump from left to right (West to East). Impassable from the right.
-- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
+- GRASS / TALL_GRASS: Standard wild encounter tile. Traversable.
+- HEADBUTT_TREE: Impassable. Interact with Headbutt.
 
-# Trainer Teams & Progress
-- Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
-- Beauty Olivia (Route 38): Corsola Lv19. Defeated.
-- Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha, Leader Morty: Defeated. (Ecruteak Gym)
-- Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
-- Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
-- Sailor Harry (Route 38): Wooper Lv19. Defeated.
+# Trainer Teams & Progress (Route 38)
+- Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. Defeated.
+- Beauty Olivia (5, 8): Corsola Lv19. Defeated.
+- Beauty Valerie (19, 9): Hoppip, Skiploom. Defeated.
+- Bird Keeper Toby (12, 15): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
+- Sailor Harry (24, 5): Wooper Lv19. Defeated.
+- Lass Dana (15, 3): Flaaffy Lv18, Psyduck Lv18. Defeated.
+- Youngster Chad (4, 1): Currently battling.
 
 # Lessons Learned
-- Keyboard Layout (Naming Screen): Hypothetical 9-column layout based on failed 'XFDW' entry. Needs verification.
-- Nicknaming Error: Failed 'Ducat' naming resulted in 'XFDW'.
-- Ecruteak Gym Path: Safe path follows trainer sightlines; (6, 7) is a verified safe connection.
-- Route 38 Navigation: Map divided by wall at row 8. Westward path to Olivine is north of the wall. Access via column 30.
+- Nicknaming: Resulted in 'XFDW' for Meowth due to keyboard layout misunderstanding.
+- Ecruteak Gym: Invisible floor path documented (Turn 5290).
+- Route 38: Divided by a wall at row 8. Western path is north of the wall.
 
 # Strategy & Exploration
 - Goal: Reach Olivine City (West) via Route 38/39.
 - Catch Checklist: Magnemite, Miltank, Tauros.
+- Exploration: Check western edge (x=0) for Route 39 transition.
 
 # Type Effectiveness (Verified)
-- Rock vs Flying: Super Effective (Gneiss's Rock Throw vs Doduo).
-- Normal vs Rock: Not Very Effective (Doduo's Scratch vs Gneiss).
-- Electric vs Ground: Immune (Flaaffy's Electric moves vs Gneiss).
-- Normal vs Water: Neutral (Verified: Calcifer's Headbutt vs Psyduck).
-- Water vs Fire: Super Effective (Predicted).
-- Grass vs Water: Super Effective (Predicted).
+- Rock vs Flying: Super Effective.
+- Normal vs Rock: Not Very Effective.
+- Electric vs Ground: Immune.
+- Normal vs Water: Neutral.
+
+# Day/Night Cycle
+- Current: Friday Night.
 
 # Tool Management
-- find_path_v2: Reliable for navigation. Use (6,7) override for Ecruteak Gym.
-- battle_strategist_v2: Use for tactical advice in major battles.
-- get_reachable_unseen_tiles_v1: Use to verify exploration progress.
-
-# Observations & Hypotheses
-- Hypothesis: Magnemite, Miltank, and Tauros are available on Route 38 (needs verification).
-- Ledge (10, 8): LEDGE_HOP_LEFT. Verified traversable from East to West.
-- Ledge (11, 13): LEDGE_HOP_DOWN. Verified traversable from North to South.
-- Route 38/39 Transition: Likely at the western edge (x=0).
+- find_path_v2: Reliable for navigation.
+- get_reachable_unseen_tiles_v2_refined: Fixed attribute parsing bug (Turn 5342).
+- battle_strategist_v2: Available for major battles.
