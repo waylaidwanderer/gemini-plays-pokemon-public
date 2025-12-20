@@ -47,7 +47,7 @@
 - Gentleman Preston (3F): Defeated.
 - Sailor Kent (4F): Defeated.
 - Lass Connie (4F): Defeated.
-- Sailor Terrell (3F Middle): In progress.
+- Sailor Terrell (3F Middle): Poliwhirl Lv20. In progress (Turn 5653). Used Bubble. Calcifer at 67/78 HP. Strategy: Headbutt.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Sections: West (x=0-6), Middle (x=8-10), East (x=12-19). Separated by walls at x=7 and x=11.
