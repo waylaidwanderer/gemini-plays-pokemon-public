@@ -55,6 +55,7 @@
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark.
 - Growlithe Weakness: Water, Ground, Rock.
+- Snubbull Weakness: Fighting (Arnie asked Turn 6949).
 
 # Area Notes
 ## Olivine City
