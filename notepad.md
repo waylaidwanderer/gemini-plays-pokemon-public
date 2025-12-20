@@ -4,15 +4,17 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Navigate Fly Map (Probe with UP).
-  1. **Current State:** Fly Map Open (Presumed). Screen text empty (loading).
-  2. **Action:** Press `Up`.
-  3. **Reason:** To force a cursor move and verify current location via text update.
-     - If "Azalea": I started at Violet. Correct with `Down`.
-     - If "Cherrygrove": I started at New Bark. Correct with `Up`.
-     - If "Violet": I started at Cherrygrove. Confirm!
+- **Immediate Action:** Exit Stats -> Select Mistral -> Open Fly Map.
+  1. **Current State:** Garnet's Stats Screen (Accidental selection).
+  2. **Action:**
+     - `B`: Close Stats.
+     - `B`: Close Submenu (Back to Party List, Cursor on Garnet).
+     - `Down` x2: Select Mistral (Slot 5).
+     - `A`: Open Submenu.
+     - `A`: Select Fly.
+  3. **Next Turn:** Verify Fly Map Label -> Navigate to Violet City.
   4. **Target:** Violet City Mart.
-- **Route Info:** Route 31 -> Violet City (Fly).
+- **Route Info:** Route 31.
 - **Mail Status:** Resupplying.
 
 ## Party Status
