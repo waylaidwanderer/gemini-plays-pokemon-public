@@ -4,15 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Verify Fly Map Start Position.
-  1. **Observation:** Party Menu Cursor is **ON MISTRAL** (Slot 5). It remembered position.
-  2. **Correction:** Reject "Cursor Reset" hypothesis. My previous failures were likely map navigation errors, not menu errors.
-  3. **Plan:**
-     - Press `A` (Open Mistral's Menu).
-     - Press `A` (Select Fly).
-     - **STOP.** Do not move.
-     - **Next Turn:** Read Screen Text to confirm which town is highlighted (likely New Bark).
-     - **Then:** Execute precise navigation based on verified start point.
+- **Immediate Action:** Fly to Violet City (Left -> Left).
+  1. **Diagnosis:** Previous Fly attempts failed because I was **navigating the Party Menu incorrectly** (Cursor Memory issue), causing me to walk in the Overworld instead of opening the Fly Map.
+  2. **Current State:** I am confirmed to be in the **Fly Map** now. Cursor is on New Bark Town.
+  3. **Plan:** Execute the standard navigation sequence.
+     - `Left` (Target: Cherrygrove).
+     - `Left` (Target: Violet).
+     - `A` (Confirm).
   4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
