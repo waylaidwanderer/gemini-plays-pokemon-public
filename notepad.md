@@ -19,7 +19,7 @@
 - GNEISS (GRAVELER) Lv27: STAB Magnitude.
 - Calcifer (QUILAVA) Lv27
 - FRITTATA (TOGEPI) Lv5
-- KIMCHI (ODDISH) Lv7
+- KIMCHI (ODDISH) Lv10
 - EGG (CLEFFA) Lv5
 
 # Tile Mechanics
@@ -47,7 +47,7 @@
 - Sayo: Espeon
 - Naoko: Flareon
 ## Burned Tower
-- Malice: Haunter (Lv 20), Croconaw (Lv 22)
+- Malice: Haunter (Lv 20), Croconaw (Lv 22), Zubat (Lv ?)
 
 # Burned Tower 1F (3_13)
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
@@ -63,12 +63,6 @@
 - Use `find_path` tool to avoid manual coordinate errors.
 - Mark all holes/warps immediately to assist pathfinding logic.
 - GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
-- Battle with Malice (Turn #4945):
-  - Haunter (Lv 20): Defeated with Magnitude.
-  - Croconaw (Lv 22): Defeated with Headbutt. (GNEISS switched to KIMCHI then Calcifer).
-  - Zubat (Lv ?): Incoming.
-  - Strategy: Switch to GNEISS (Lv 27) for Rock-type advantage.
-- KIMCHI (Oddish) grew to Lv 10.
 
 # Exploration Targets
 - Unseen tiles adjacent to walkable: (15, 0), (16, 0), (18, 3-8).
