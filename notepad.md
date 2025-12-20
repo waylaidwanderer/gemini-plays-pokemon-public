@@ -25,6 +25,7 @@
 
 # Trainer Rosters
 - Sage Ping: Gastly Lv16 x3.
+- Medium Grace: Haunter Lv20, Haunter (upcoming).
 
 # Locations
 - Ecruteak Gym (4_7): Entrance/Exit (4, 17), (5, 17). Morty is the Leader.
