@@ -68,3 +68,5 @@
 - **Immediate Plan:** Back out (B). Scroll down to Mistral (Slot 5). Select Fly. Go to Violet City.
 - **Location Correction:** Currently in Cherrygrove Mart.
 - **Plan:** Checking if Cherrygrove Mart sells Flower Mail. If not, will Fly to Violet City.
+- **Fly Map Navigation:** Cursor starts at New Bark Town.
+- **Action:** Pressing LEFT to select Cherrygrove. Will press UP next turn to reach Violet City (avoiding input skipping).
