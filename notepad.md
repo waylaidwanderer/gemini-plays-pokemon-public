@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Go to Pokémon Center (23, 43). Withdraw Kenya (Spearow) or Mistral (Pidgey). Teach HM02 Fly. Fly to Olivine City (deliver SecretPotion).
+- **Immediate Plan:** Access PC. Deposit Shuckie (Shuckle). Withdraw Mistral (Pidgey). Teach HM02 Fly to Mistral. Fly to Olivine City.
 - **Quest Update:** Obtained HM02 (Fly). SecretPotion in bag. Chuck Defeated (Storm Badge).
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
@@ -11,7 +11,7 @@
   - **Hematite (Pinsir):** Lv 15.
   - **Azurite (Heracross):** Lv 13.
   - **Lapis (Poliwag):** Lv 12. (Surf)
-  - **Shuckie (Shuckle):** Lv 15.
+  - **Shuckie (Shuckle):** Lv 15. (To be deposited)
 - **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
