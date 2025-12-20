@@ -79,3 +79,6 @@
 - **Turn Flow:** Item used. Muscle healed to 74/121.
 - **Next Turn:** Expecting Haunter to attack Shuckie. Then I will Switch to Muscle.
 - **Risk:** Hypnosis from Haunter on switch-in. Have Awakenings if needed.
+- **Battle Strategy:** Shuckie successfully tanked Lick. Muscle healed.
+- **Action:** Switching Muscle back in (Slot 1) to replace Shuckie.
+- **Goal:** Defeat Haunter with Dig.
