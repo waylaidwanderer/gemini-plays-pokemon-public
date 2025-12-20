@@ -54,3 +54,4 @@
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
 - Recovery: Use Potions or return to a Pokémon Center if the team's health drops too low during the long surf.
 - Defeated: Swimmer George (R41, 46, 8)
+- NPC: Swimmer Girl (R41, 44, 28)
