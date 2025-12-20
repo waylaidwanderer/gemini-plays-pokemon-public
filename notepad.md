@@ -9,6 +9,7 @@
 - Pivot: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
 - Training Route: Surf Route 41 -> Route 40. Focus on training KIMCHI.
 - Goal: Reach Lv21+ with KIMCHI. (Current: Lv13)
+- Note: GNEISS is currently poisoned at 44/98 HP. Use Calcifer for switch-training for now.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
