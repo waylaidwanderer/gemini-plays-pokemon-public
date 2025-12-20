@@ -4,10 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Party, Check Mail, Fly to Violet City.
-  1. **Current State:** In Pack (Item Pocket).
-  2. **Plan:** B (Exit) -> Up (Pokemon) -> A (Select) -> Check Kenya -> Fly.
-  3. **Target:** Sleeping Man on Route 31.
+- **Immediate Action:** Reading Kenya's Mail to verify message.
+  1. **Current State:** In Party -> Kenya -> Mail Menu.
+  2. **Action:** Press `A` to Read.
+  3. **Conditional Next Step:**
+     - If "DARK CAVE leads to another road": Mail is GOOD. Back out, Fly to Violet.
+     - If anything else: Mail is BAD. Take Mail, Give New Mail, Rewrite.
+  4. **Target Recipient:** Sleeping Man (Cooltrainer M) on Route 31 (near Dark Cave).
+- **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Previous Attempt:** Delivered to Fisher (Rejected: "This MAIL isn't for me").
