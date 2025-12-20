@@ -59,4 +59,5 @@
 - Turn #4833: Selected FIGHT.
 - Turn #4834: Calcifer used Headbutt (Missed). Umbreon used Pursuit. Calcifer at 70/76 HP.
 - Turn #4835: Selected FIGHT. Calcifer used Headbutt (Missed). Umbreon used Pursuit. Calcifer at 70/76 HP.
-- Turn #4836: Selecting FIGHT. Using Headbutt. Accuracy is lowered.
+- Turn #4836: Attempted to select FIGHT (failed, already in move menu).
+- Turn #4837: Using Headbutt. Accuracy is lowered.
