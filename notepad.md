@@ -42,4 +42,4 @@
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
 - Obstacle: Buoy line at Y=32 in Olivine harbor prevents southern exit.
-- Status: Using Super Repel to avoid Tentacool while exiting the harbor.
+- Status: Using Super Repel to avoid Tentacool while exiting the harbor. (Turn 5913)
