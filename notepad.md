@@ -5,8 +5,8 @@
 
 # Strategy: KIMCHI Training
 - Target: Lv21 (Evolution to Gloom).
-- Current Level: 18.
-- Method: Lead in battles, then switch to stronger Pokemon (GNEISS/Calcifer) if necessary.
+- Current Level: 19.
+- Method: Lead in battles, then switch to stronger Pokemon (GNEISS/Calcifer) if necessary. Use Status moves (Sleep Powder) to safe-switch or chip away with Cut.
 
 # Tile Mechanics
 - Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water).
