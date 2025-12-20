@@ -4,15 +4,16 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Enter Party Menu and Verify Cursor.
-  1. **Current State:** Start Menu Open (Cursor on POKEMON).
-  2. **Action:** Press `A` to enter Party.
-  3. **Reason:** Party menu cursor remembers previous position (likely Mistral/Slot 5). Must verify before sending blind inputs to avoid selecting wrong Pokemon.
-  4. **Next Turn:**
-     - If cursor on Mistral: Select -> Fly.
-     - If cursor on Muscle: Scroll Down to Mistral -> Select -> Fly.
-     - **Fly Execution:** Use `slow_press` with 1.5s delay to ensure Map loads before pressing `Up`.
-  5. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
+- **Immediate Action:** Execute Fly Sequence (Attempt #3).
+  1. **Current State:** Party Menu (Mistral Selected).
+  2. **Sequence (Slow Press 2000ms):**
+     - `A`: Open Mistral's Sub-menu.
+     - `A`: Select "FLY" (Top option).
+     - *Map Opens* (Wait 2000ms to guarantee load).
+     - `Up`: Move Map Cursor to Violet City.
+     - `A`: Confirm Destination.
+  3. **Rationale:** Previous attempts likely failed due to input timing (inputs occurring during fade-in). A 2 second delay is conservative but safe.
+  4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
