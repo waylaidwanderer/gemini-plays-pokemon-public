@@ -49,10 +49,11 @@
 - **MART_SHELF:** Impassable.
 - **COUNTER:** Impassable. Interactable across it.
 - **WARP_CARPET_DOWN:** Exit warp.
-- **Mail Correction Step 2:** Failed typing "DARK CAVE leads..." (Result was "DARK CAV!O...").
-- **Current Status:** Checking Kenya's mail in Party Menu to confirm garbage text.
-- **Next Steps:**
-  1. If text is garbage: TAKE MAIL (sends to PC).
-  2. Buy new FLOWER MAIL from Mart (currently in Violet Mart).
-  3. GIVE new mail to Kenya.
-  4. Write "DARK CAVE leads to another road" carefully.
+- **Mail Correction Step 3:** Typing failed or uncertain. Assuming bad/lost mail.
+- **Current Plan:**
+  1. Enter Violet City Mart.
+  2. Buy 3x FLOWER MAIL (ensure supply).
+  3. Open Party -> Kenya.
+  4. If Kenya holding mail: TAKE MAIL.
+  5. GIVE fresh FLOWER MAIL.
+  6. Write "DARK CAVE leads to another road".
