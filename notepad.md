@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Exit Stats Screen.
-  1. **Current State:** Viewing Muscle's Stats (Mistakenly entered due to cursor memory).
-  2. **Insight:** **Party Menu Cursor REMEMBERS its position.** Previous turn started on Mistral (Slot 5), not Muscle (Slot 1), causing the macro to select Hematite -> Stats -> Muscle.
-  3. **Plan:** Press `B` to return to Party List.
-  4. **Next Turn:** Verify cursor position, THEN navigate to Mistral and Fly.
+- **Immediate Action:** Navigate to Mistral and Open Menu.
+  1. **Current State:** Party Menu (Cursor on Muscle).
+  2. **Action:** Navigate down to Mistral (Slot 5) and press A.
+  3. **Goal:** Open Mistral's interaction menu to see "FLY".
+  4. **Next Turn:** Select FLY -> Violet City.
   5. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
