@@ -32,7 +32,6 @@
 - Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
 - Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
 - Sailor Harry (Route 38): Wooper Lv19. Defeated.
-- Lass Dana (Route 38): Defeated.
 
 # Lessons Learned
 - Keyboard Layout (Naming Screen): Hypothetical 9-column layout based on failed 'XFDW' entry. Needs verification.
