@@ -3,15 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Open Pack. Navigate to TM/HM Pocket. Teach **HM02 Fly** to **Mistral (Pidgey)**. Fly to Olivine City.
-- **Quest Update:** Shuckie deposited. Mistral withdrawn. Obtained HM02 (Fly). SecretPotion in bag. Chuck Defeated.
+- **Immediate Plan:** Open Start Menu -> Pokémon -> Select Mistral -> Use Fly -> Select Olivine City. Deliver SecretPotion to Jasmine at the Lighthouse.
+- **Quest Update:** Mistral learned Fly. Ready to return to Olivine.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
   - **Hematite (Pinsir):** Lv 15.
   - **Azurite (Heracross):** Lv 13.
   - **Lapis (Poliwag):** Lv 12. (Surf)
-  - **Mistral (Pidgey):** Lv 13. (To learn Fly)
+  - **Mistral (Pidgey):** Lv 13. (Fly)
 - **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
