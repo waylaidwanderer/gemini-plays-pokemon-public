@@ -57,3 +57,6 @@
 - find_path_v2: Reliable for navigation.
 - get_reachable_unseen_tiles_v2_refined: Fixed attribute parsing bug (Turn 5342).
 - battle_strategist_v2: Available for major battles.
+
+# Trainer Teams & Progress (Route 39)
+- Psychic Norman (13, 7): Slowpoke Lv17. Currently battling.
