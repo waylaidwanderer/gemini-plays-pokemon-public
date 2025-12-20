@@ -28,7 +28,6 @@
     - **Exploration:** Smashed rocks at (4,25), (4,19), (8,16), (10,27). Surfing North to find Gym.
 
 ## Battle Log
-## Battle Log
 - **Blackbelt Yoshi (Hitmonlee):** Defeated.
 - **Blackbelt Lao (Hitmonchan):** Defeated.
 - **Blackbelt Nob:** Defeated.
