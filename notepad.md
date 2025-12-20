@@ -12,7 +12,7 @@
      - **Decision:**
        - If YES: Do NOT rewrite. Problem is delivery target. Move Kenya to Slot 1 and retry delivery.
        - If NO: Take mail, give fresh mail, write correct message.
-  3. **Immediate Step:** Open Menu (`A`), navigate to MAIL (`Down` x3).
+  3. **Immediate Step:** Press `A` to `READ` and inspect the message text.
 
 ## Strategy & Lessons
 - **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
