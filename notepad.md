@@ -94,5 +94,5 @@
 - **Cursor End Position:** 'd' (Row 2, Col 3).
 - **Next Step:** Verify text "DARK CAVE leads to another road", then Select END.
 - **Observation:** Fisher at (17, 7) rejected the mail ("This MAIL isn't for me").
-- **Hypothesis:** Either the mail text is slightly wrong (case sensitivity?), or this is the wrong NPC.
-- **Plan:** Verify mail text exactly. Then explore Route 31 to check the Cooltrainer M at (33, 9) who might be the real "sleeping friend".
+- **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) near Dark Cave.
+- **Plan:** Close menu, travel East to (33, 9), and deliver mail to the Cooltrainer.
