@@ -42,12 +42,12 @@
 - Kimono Girl Kuni: Vaporeon (Water)
 - Kimono Girl Zuki: Umbreon (Dark)
 - Kimono Girl Sayo: Espeon (Psychic)
-- Kimono Girl 1 (Target): Flareon (Fire)
+- Kimono Girl Naoko: Flareon (Fire)
 
 # Time Tracking
 - Task: Defeat all 5 Kimono Girls.
 - Started: Turn #4800 (Approx).
-- Current Progress: 4/5 defeated.
+- Current Progress: COMPLETED (Turn #4884).
 
 # Kimono Girls Progress
 - Miki (Jolteon): Defeated (Turn #4809).
@@ -55,10 +55,10 @@
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Defeated (Turn #4858).
 - Naoko (Flareon): Defeated (Turn #4884).
-- All 5 Kimono Girls defeated!
 - HM03 Surf obtained from Gentleman (Turn #4888).
 
 # Next Steps
 - Teach Surf to a Pokemon (Need to catch a Water-type).
 - Investigate Burned Tower at (4, 4).
 - Challenge Gym Leader Morty at (10, 27).
+- Arnie (Bug Catcher) called about Venonat and Pidgey (Turn #4890).
