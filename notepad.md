@@ -4,14 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Rewrite Strategy).
-  1. **Observation:** Selecting `READ` on Kenya's mail caused the menu to close immediately without displaying text. This suggests the mail might be blank or bugged.
-  2. **Plan:**
-     - Open Start Menu -> Pokémon -> Kenya -> `TAKE` Mail.
-     - Open Pack -> Items -> `FLOWER MAIL` -> `GIVE` to Kenya.
-     - **CRITICAL:** Type the exact message: "DARK CAVE leads to another road".
-     - Return to Route 31 Fisher.
-  3. **Immediate Step:** Press `Start` to open the menu.
+- **Current Action:** Fix Kenya's Mail (Recover from Printer Error).
+  1. **Situation:** Pressing `Start` in the Mail menu triggered a "Printer Error 2".
+  2. **Immediate Step:** Press `B` to cancel the error and return to the menu.
+  3. **Next Steps:**
+     - Select `TAKE` to remove the current mail.
+     - Give fresh Flower Mail and write "DARK CAVE leads to another road".
 
 ## Strategy & Lessons
 - **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
