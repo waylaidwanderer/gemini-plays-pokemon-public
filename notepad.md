@@ -70,11 +70,8 @@
 
 ## Current Task: Exit Lighthouse
 - Start Turn: 6954
-- Current Position: 5F Central Pillar (9, 7)
-- Observation: The lighthouse structure requires alternating between floors to reach different sections (inner vs outer). To reach the outer ring and descend, I must go to 6F and find a pit leading to the outer section of 5F.
+- Current Position: 5F Outer Ring (16, 5)
 - Plan:
-    1. Take the ladder at (9, 15) on 5F to reach 6F.
-    2. On 6F, find the pit that leads to the outer ring of 5F.
-    3. From the outer ring of 5F, use the pits (16, 7) or (17, 7) to drop to 4F's outer ring.
-    4. From 4F's outer ring, use pits (16, 9) or (17, 9) to drop to 3F's outer ring.
-    5. On 3F, find the ladder at (5, 3) to go down to 2F and eventually exit.
+    1. Drop through pit at (16, 7) or (17, 7) on 5F to reach 4F outer ring.
+    2. From 4F's outer ring, use pits (16, 9) or (17, 9) to drop to 3F's outer ring.
+    3. On 3F, find the ladder at (5, 3) to go down to 2F and eventually exit.
