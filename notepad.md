@@ -69,7 +69,7 @@
 ## Current Task: Return to Cianwood
 - Start Turn: 7025
 - Plan:
-    1. Exit Olivine Gym.
-    2. Heal at Olivine Pokemon Center (13, 21).
-    3. Surf from Route 40 to Cianwood City.
+    1. Exit Olivine Gym. (Completed)
+    2. Heal at Olivine Pokemon Center (13, 21). (Completed)
+    3. Surf from Route 40 to Cianwood City. (In Progress)
     4. Defeat Gym Leader Chuck.
