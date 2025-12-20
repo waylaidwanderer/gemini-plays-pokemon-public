@@ -26,5 +26,5 @@
 - **Lighthouse Pits:** Gaps on 4F/5F drop to the floor below. Jumping into the pit on 4F North (Cols 8-9) is the solution to reach the central column.
 - **WATER:** Traversable with SURF. Encounters wild Pokémon.
 - **Route 41:** Found gap in buoys at Column 24. Navigating South. Whirlpool spotted at (22, 12).
-- **Battle:** Fighting Swimmer Susie (Psyduck). Saving Dig PP, using Karate Chop.
+- **Battle:** Fighting Swimmer Susie (Goldeen). Saving Dig PP, using Karate Chop.
 - **Reminder:** Teach Strength to Muscle (replace Leer/Focus Energy) to have a reliable Normal move.
