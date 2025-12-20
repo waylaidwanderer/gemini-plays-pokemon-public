@@ -44,3 +44,4 @@
 
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
+- Fruit Tree (9, 3): Discovered.
