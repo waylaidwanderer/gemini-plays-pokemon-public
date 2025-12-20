@@ -35,11 +35,9 @@
 - EGG (CLEFFA): Lv5
 
 # Primary Goal Strategy: Deliver SecretPotion to Jasmine
-- Current Objective: Surf south/west across Route 41 to reach Cianwood City.
-- Next Step: Locate the Pharmacy in Cianwood and obtain the SecretPotion from the shopkeeper.
-- Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
-- Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
-- Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
-- Calcifer Moveset: Flame Wheel, Headbutt (0 PP), Smokescreen, Ember. (Turn 6098: Forgot Quick Attack for Flame Wheel).
-- Note: NPC at (20, 28) (ID 3) identified in map data as OLIVINE_RIVAL but was Swimmer Berke.
-- Status: Need to use Ether on Calcifer's Headbutt.
+- Current Objective: Surf west across Route 41 to reach Cianwood City.
+- Next Step: Locate the Pharmacy in Cianwood and obtain the SecretPotion.
+- Return Strategy: Use Surf or Fly (if Storm Badge obtained) to return to Olivine City.
+- Final Step: Deliver medicine to Jasmine at Olivine Lighthouse 6F.
+- Recovery: Use Potions/Ethers or visit Pokémon Centers as needed.
+- Calcifer Moveset: Flame Wheel, Headbutt, Smokescreen, Ember. (Turn 6098: Forgot Quick Attack for Flame Wheel).
