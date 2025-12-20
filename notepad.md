@@ -41,3 +41,5 @@
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
 - Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
 - Calcifer Moveset: Flame Wheel, Headbutt, Smokescreen, Ember.
+- NPC Sighting: Eusine (OLIVINE_RIVAL) at (20, 28) on Route 41. (Turn 6112)
+- Dialogue: "See those islands that are blocked..." (referring to Whirl Islands).
