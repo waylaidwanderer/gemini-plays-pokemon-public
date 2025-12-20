@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to (9, 3) to check if the trainer has moved.
-- **Hypothesis:** The trainer at (8, 3) blocks the correct path/hole. He might have moved after his dialogue about "Flying away".
-- **Quest Update:** Validated that (16, 5) and (17, 5) are NOT pits. The only remaining lead is the trainer.
+- **Immediate Plan:** Navigate to the Ladder at (3, 5), go down to 4F, and immediately return to 5F.
+- **Reasoning:** The trainer at (8, 3) said he would "Fly away" but hasn't moved. Leaving the map and returning should trigger his departure/despawn.
+- **Quest Update:** Attempting to clear the path by refreshing the map.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
