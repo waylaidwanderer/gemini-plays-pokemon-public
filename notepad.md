@@ -32,14 +32,10 @@
 
 # Strategy
 - Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 3F.
-- 3F Plan: Explore the southern part of the floor to find a way to the eastern section (where the item and upward ladder are).
+- 3F Plan: Defeat Bird Keeper Theo, then find a path to the eastern section (item at (8, 2) and ladder to 4F at (9, 5)).
 - Backtrack for 7 standard Berries after finding Jasmine.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Noctowl Lv20. Defeated.
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
-- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
-
-# Party Stats
-- GNEISS (GRAVELER): Lv33 (42/92 HP) | MAGNITUDE: 28, DEFENSE CURL: 40, ROCK THROW: 9, ROLLOUT: 20.
-- Calcifer (QUILAVA): Lv28 (78/78 HP).
+- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. In Battle.
