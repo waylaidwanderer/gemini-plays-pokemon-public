@@ -4,14 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Select Mistral and Fly.
-  1. **Current State:** Muscle's Sub-menu (cursor on DIG).
-  2. **Sequence:**
-     - `B`: Close Muscle's menu (Return to Party List).
-     - `Down` x4: Move cursor to Mistral (Slot 5).
-     - `A`: Open Mistral's menu.
-     - `A`: Select FLY.
-  3. **Next Turn:** Verify Fly Map is open and select Violet City.
+- **Immediate Action:** Navigate Fly Map to Violet City.
+  1. **Current State:** Fly Map Open, Cursor on New Bark Town.
+  2. **Sequence (Slow Press):**
+     - `Left`: Move to Cherrygrove.
+     - `Up`: Move to Violet City.
+     - `A`: Select.
+     - `A`: Confirm.
+  3. **Next Turn:** Arrival in Violet City -> Walk East to Route 31.
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
