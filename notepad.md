@@ -41,3 +41,6 @@
 
 # Tool Management
 - find_path_v2: Set autopress_buttons=false for overworld. Includes overrides for safe warps. (Turn #5240 fix)
+- Tool Usage: Always include a `commit_message` when updating tools with `define_tool`. (Turn #5241)
+- Spatial Awareness: Always verify current coordinates before making navigation claims to avoid confusion. (Turn #5242)
+- Battle Strategy: When facing Grass types with GNEISS, switch to Calcifer immediately to avoid 4x super-effective hits. (Turn #5243)
