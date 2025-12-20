@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Flee from Wild Magnemite. Continue West through Route 38 and Route 39 to reach Olivine City. Deliver SecretPotion to Jasmine at the Lighthouse.
-- **Quest Update:** Exited Ecruteak Gate. Entering Route 38.
+- **Immediate Plan:** Travel South through Route 39 to reach Olivine City. Deliver SecretPotion to Jasmine at the Lighthouse.
+- **Quest Update:** Arrived on Route 39. Heading South to Olivine.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
