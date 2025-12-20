@@ -54,10 +54,6 @@
 - Zuki (Umbreon): Battling (Turn #4823).
 - Turn #4827: GNEISS used Magnitude 5. Umbreon used Pursuit.
 - Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
-- Turn #4830: Calcifer switched in. Umbreon used Sand-Attack (failed).
 - Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack.
-- Turn #4834: Calcifer used Headbutt (Missed). Umbreon used Pursuit.
-- Turn #4835: Calcifer used Headbutt (Missed). Umbreon used Pursuit.
-- Turn #4838: Calcifer used Headbutt (Missed). Umbreon used Sand-Attack.
-- Turn #4839: Calcifer used Headbutt (Missed). Umbreon used Sand-Attack. Accuracy at -3.
-- Turn #4840: Using Headbutt again. Accuracy is very low.
+- Turn #4834-4839: Calcifer missed Headbutt multiple times. Umbreon used Sand-Attack and Pursuit.
+- Turn #4841: Backing out of move menu to use X Accuracy.
