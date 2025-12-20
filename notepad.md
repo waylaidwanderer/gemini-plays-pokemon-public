@@ -55,3 +55,14 @@
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 - Swimmer Susie (Route 41, 23, 19): Psyduck (Lv20) uses Disable, Goldeen (Lv22). Defeated Turn 6569.
+
+# Tile Mechanics
+- WATER: Traversable while surfing (requires HM03 and Fog Badge).
+- BUOY: Impassable wall-like barrier in water.
+- WHIRLPOOL: Impassable water hazard. Requires specific HM (Whirlpool) to cross.
+- FLOOR: Standard traversable ground.
+- WALL: Impassable solid barrier.
+- COUNTER: Impassable; interact with NPC behind it from the adjacent tile.
+- BOULDER: Impassable; requires HM04 Strength to move.
+- ROCK: Impassable; can be crushed with Rock Smash.
+- WARP: Leads to a different map or area.
