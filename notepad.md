@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Return to 5F via the ladder at (3, 5). Check if the trainer at (8, 3) has moved.
-- **Hypothesis:** The trainer blocks the path. If he is still there, the next best option is to explore where the ladder at (13, 3) on 4F leads (Down to 3F).
-- **Quest Update:** Attempting to refresh the map to clear the trainer. Added markers for safe floors on 5F.
+- **Immediate Plan:** Navigate to (7, 3) and talk to Bird Keeper Denis again.
+- **Hypothesis:** The pit is located at (8, 3), currently occupied by the trainer. He must move for me to progress.
+- **Quest Update:** Map refresh failed to move the trainer. (9, 3) is confirmed safe.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
