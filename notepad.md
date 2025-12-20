@@ -24,5 +24,6 @@
 - Snubbull: Fighting.
 
 ## Current Task: Return to Cianwood
-- Turn: 7061
+- Turn: 7064
 - Plan: Surf south through Route 40 and Route 41 to Cianwood City. Train KIMCHI along the way.
+- Progress: Mineral Badge obtained. Heading south from Olivine. Currently handling a phone call from Arnie.
