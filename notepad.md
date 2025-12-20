@@ -54,3 +54,7 @@
     - **Poke Seer's House:** Located at (5, 17).
     - **Suicune Event:** Encountered Suicune at (10, 14). It ran away. Eusine appeared and challenged me to a battle to earn Suicune's respect.
     - **Gym:** Leader Chuck is here. Location still unconfirmed, likely North.
+- **Eusine Battle:**
+    - Drowzee (Lv 23). Used Hypnosis.
+    - Haunter (Lv 23).
+    - Electrode (Lv 25).
