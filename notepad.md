@@ -43,3 +43,8 @@
 - ROCKY (ONIX): Lv6
 - ICARUS (PIDGEY): Lv11
 - EGG (CLEFFA): Lv5
+
+# Discovery Log
+- Turn 5764: Nurse Joy healed the party.
+- Turn 5791: Encountered wild Krabby at (6, 25).
+- Catch Tracking (Krabby Lv10): 3 failed Great Ball attempts. Attempt 4 next.
