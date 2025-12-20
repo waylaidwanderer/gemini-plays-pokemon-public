@@ -53,7 +53,7 @@
 # Burned Tower B1F (3_14)
 - Ladder to 1F: (10, 8) and (7, 15).
 - Entry point from 1F hole: (10, 9).
-- Legendary Beasts: Raikou (9, 14), Suicune (10, 14), Entei (11, 14).
+- Legendary Beasts: Not found at (9-11, 14). Searching basement.
 - Goal: Find and release legendary beasts.
 
 # Exploration Targets
