@@ -64,8 +64,7 @@
 - **Remaining:** "another road".
 - **Mail Typing:** Typing "another road".
 - **Verification:** Will verify text on screen before confirming with END.
-- **Action:** Mail Removed. Returning to Pack.
-- **Next Steps:**
-  1. Open Pack.
-  2. Give Flower Mail to Kenya.
-  3. Write "DARK CAVE leads to another road".
+- **Action:** Giving Mail to Kenya.
+- **Current Step:** Entering Pack -> Items Pocket.
+- **Next:** Select Flower Mail -> Give -> Kenya.
+- **Message:** "DARK CAVE leads to another road".
