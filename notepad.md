@@ -85,3 +85,9 @@
 - **Current State:** In Pack -> TM/HM Pocket -> Teach Fly?
 - **Action:** Cancel "Teach Fly", navigate back to Items Pocket.
 - **Next:** Find Flower Mail -> Give -> Kenya.
+- **Status Update:** Kenya has a Mail (likely blank/cancelled). Lapis has a Mail. Inventory: 1 Flower Mail left.
+- **Confirmed Plan:**
+  1. Exit to Overworld.
+  2. Party -> Kenya -> TAKE MAIL (Send to PC).
+  3. Pack -> Flower Mail -> GIVE -> Kenya.
+  4. Write "DARK CAVE leads to another road".
