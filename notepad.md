@@ -7,6 +7,8 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - DOOR / LADDER / PIT: Warp tiles.
+- LADDER: Two-way warp between floors.
+- PIT: One-way warp to the floor below.
 - WATER: Requires Surf.
 - TALL_GRASS: Wild encounters.
 - LEDGE_HOP: One-way traversal.
@@ -29,10 +31,11 @@
 - Standard BERRY: 0/7.
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
+- Berry Collection Plan: Check berry trees on Routes 39, 38, 37, 36, 35 daily. Standard berries are common in early routes.
 
 # Strategy
 - Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 4F.
-- 4F Plan: Defeat Lass Connie, then explore the western section (ladder to 5F at (9, 5)).
+- 4F Strategy: Move west past the pits to reach the ladder to 5F at (9, 5). Ensure all tiles are revealed to check for items.
 - Backtrack for 7 standard Berries after finding Jasmine.
 
 # Trainer Progress (Olivine Lighthouse)
@@ -40,7 +43,6 @@
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
 - Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
 - Gentleman Preston (13, 5, 3F): Growlithe Lv18, Growlithe Lv18. Defeated Turn 5602.
-- Lass Connie (11, 2, 4F): Marill Lv21. Defeated Turn 5609.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
