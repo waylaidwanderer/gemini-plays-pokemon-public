@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Recover from Surf Prompt).
-  1. **Status:** Accidentally interacted with water (Surf prompt).
-  2. **Step 1:** Cancel Surf (A).
+- **Current Action:** Fix Kenya's Mail (Open Party Menu).
+  1. **Status:** Repositioning to avoid Surf loop.
+  2. **Step 1:** Move Right (Safety).
   3. **Step 2:** Open Start Menu (Start).
-  4. **Step 3:** Navigate to POKEMON (Verify cursor first).
+  4. **Step 3:** Navigate to POKEMON.
   5. **Step 4:** Select Kenya -> TAKE MAIL.
 
 ## Reflection (Turn 9097)
