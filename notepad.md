@@ -69,6 +69,6 @@
 - Use `find_path` tool to avoid manual coordinate errors.
 - Mark all holes/warps immediately to assist pathfinding logic.
 - Rival Malice Battle (Turn #4945):
-  - Malice sent out Haunter (Lv 20).
-  - GNEISS (Lv 26) is leading. Strategy: Magnitude.
-  - Turn #4947: GNEISS using Magnitude.
+  - Malice sent out Haunter (Lv 20). Defeated.
+  - GNEISS grew to Lv 27. Decided not to learn Harden (redundant with Defense Curl).
+  - Turn #4948: Choosing NO for Harden.
