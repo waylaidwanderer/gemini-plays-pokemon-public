@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Select "FLY" (Single Step).
-  1. **Current State:** Mistral's Sub-menu Open, Cursor on "FLY".
-  2. **Action:** Press `A` *once*.
-  3. **Goal:** Verify Fly Map opens in the next turn.
-- **Troubleshooting:** Previous attempts to chain commands failed due to input timing (menu animations eating inputs). Switching to atomic actions.
+- **Immediate Action:** Open Start Menu.
+  1. **Current State:** New Bark Town (Overworld).
+  2. **Action:** Press `Start`.
+  3. **Next Turn:** Verify Menu Open -> Select Pokemon -> Fly to Violet City.
+- **Situation Update:** Accidentally flew to New Bark Town (selected current location on map).
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
