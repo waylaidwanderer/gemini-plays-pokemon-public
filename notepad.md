@@ -1,9 +1,11 @@
 # Tile Mechanics
 - FLOOR: Traversable standard ground.
-- WALL / WINDOW / BUOY / ROCK: Impassable barriers.
+- WALL / WINDOW / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP: Impassable barriers.
 - COUNTER: Impassable; interact with NPC behind it from adjacent tile.
 - WATER: Traversable only while surfing. Requires Surf and Fog Badge.
 - WHIRLPOOL: Impassable water hazard. Requires HM06 (Whirlpool).
+- WARP_CARPET_DOWN / WARP: Leads to a different map.
+- BOULDER: Impassable, can be crushed with Rock Smash.
 
 # Lessons Learned
 - Menu Precision: Slow down during move learning and item usage to avoid accidental deletions (e.g., Quick Attack on Turn 6098) or wrong item selection. Double-check before confirming.
@@ -16,7 +18,7 @@
 
 # Primary Goal: Deliver SecretPotion to Jasmine
 - Mission Started: Turn 5863.
-- Arrived Cianwood: Turn 6127.
+- Arrived Cianwood: Turn 6127 (Turn #6150 exploration log).
 - Strategy:
   1. Explore Cianwood City (west of Route 41) to find land.
   2. Locate the Pharmacy and obtain SecretPotion.
@@ -38,9 +40,3 @@
 - TM08 Rock Smash is already in inventory.
 - Pokefan M at (16, 33) mentioned breaking rocks north of town.
 - Lugia Speech House Info: Mythical sea creature in the four islands; whirlpools are caused by it; special move needed to pass them (likely HM06 Whirlpool).
-
-# Strategy for SecretPotion
-1. Talk to Lass in Lugia Speech House (22_9) for final info.
-2. Exit and find the actual Pharmacy.
-3. If found, obtain SecretPotion.
-4. Locate Cianwood Gym (Leader Chuck).
