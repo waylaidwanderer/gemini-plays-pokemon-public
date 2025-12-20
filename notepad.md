@@ -55,7 +55,8 @@
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
-# Progress & Logs
-- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6862). XP: 1947. HP: 18/37.
+- Progress & Logs
+- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6865). XP: 1947. HP: 18/37.
 - Lass at (11, 13) on Route 40: Non-battling NPC. Provides flavor text about Cianwood.
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
+- Note: Rival (Malice) does not appear on Route 40. Previous sightings were hallucinations. Cleanup complete.
