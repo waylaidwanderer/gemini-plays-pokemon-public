@@ -63,3 +63,8 @@
 - Challenge Gym Leader Morty at (10, 27).
 - Youngster at (11, 13) mentioned rampaging Pokémon at Lake of Rage (Turn #4900).
 - Rival Malice (ID 3) at (8, 9) in Burned Tower 1F.
+
+# Lessons Learned
+- Always check for `is-warp="true"` in map XML before planning paths in dangerous areas like Burned Tower.
+- Use `find_path` tool to avoid manual coordinate errors.
+- Mark all holes/warps immediately to assist pathfinding logic.
