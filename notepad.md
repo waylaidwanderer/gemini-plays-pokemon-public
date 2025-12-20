@@ -62,3 +62,9 @@
 - House (25, 11): Leads to 2_5 (1, 1).
 - NPC Youngster (20, 13): Mentions Pokegear.
 - Building (13, 15): Blue building with yellow sign.
+
+# Olivine City Strategy
+- Rival Malice encounter at (13, 13).
+- Gym Leader Jasmine is at the LIGHTHOUSE tending to a sick Pokemon.
+- The Gym is currently empty.
+- Priority: Find the Lighthouse to progress.
