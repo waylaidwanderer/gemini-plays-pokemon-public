@@ -43,3 +43,6 @@
 - Calcifer Moveset: Flame Wheel, Headbutt, Smokescreen, Ember.
 - NPC Sighting: Eusine (OLIVINE_RIVAL) at (20, 28) on Route 41. (Turn 6112)
 - Dialogue: "See those islands that are blocked..." (referring to Whirl Islands).
+- Trainer: Swimmer Berke (R41, 20, 28). Calcifer (Lv 31) vs Qwilfish (Lv 23).
+- Note: NPC at (20, 28) initially identified as OLIVINE_RIVAL (Eusine) but is Swimmer Berke.
+- Status: Headbutt has 1 PP. Ether attempt failed due to battle start.
