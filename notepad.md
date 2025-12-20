@@ -19,6 +19,7 @@
 - Olivine Harbor: Enclosed by buoys at Y=32. This is a dead end for reaching Route 40.
 - Battle Tools: Map-based tools fail during battle due to missing map data.
 - Item Usage: Double-check the bag during battles to avoid using the wrong potion (e.g., Super vs. Hyper).
+- Move Learning: Calcifer learned Flame Wheel but forgot Quick Attack (accidental selection) on Turn 6098.
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
