@@ -26,8 +26,8 @@
 - NPC Verification: Do not assume an NPC is static or present based on a single turn's observation; use stun_npc or re-verify if they seem to disappear.
 - Lighthouse Layout: The lighthouse has many split levels and floor warps; exploration is key to finding the correct path up.
 - Battle Strategy: Use battle_strategist_v2 for all trainer battles to ensure consistent performance.
-- Warp Verification: (16, 7) and (17, 7) on 4F are marked as warps in the game state but do not trigger upon stepping. They may be exits to a balcony (try walking off the map).
-- Section Connectivity: 4F sections (East, Middle, West) are connected by a gap in the walls at y=14.
+- Warp Verification: (16, 7) and (17, 7) on 4F are confirmed FLOOR tiles (not pits). They are labeled as warps in the game data and may be exits to a balcony.
+- Section Connectivity: 4F East and Middle sections are connected by a gap at (10, 2) and (10, 3).
 
 # Berry Knowledge
 - Standard BERRY: 0/7.
@@ -36,9 +36,9 @@
 - Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32, R35, R36, R37, R38, R39.
 
 # Strategy
-- Olivine Lighthouse: Currently on 3F (landed from 4F pit).
+- Olivine Lighthouse: Currently on 4F East.
 - Goal: Reach Jasmine.
-- Path: return to 4F -> Walk to Middle section via (11, 14) -> Drop through pit (8, 3) to 3F Middle -> Explore 3F Middle -> Ladder (9, 5) back to 4F Middle -> Ladder (9, 5) to 5F.
+- Path: Walk to (9, 2) via gap at (10, 2) -> Drop through pit (9, 3) to 3F Middle -> Grab item (8, 2) and defeat Sailor (9, 2) on 3F -> Take ladder (9, 5) on 3F to 4F (9, 5) -> Take ladder (9, 5) on 4F to 5F.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (2F): Defeated.
