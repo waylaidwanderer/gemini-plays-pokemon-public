@@ -40,5 +40,5 @@
 - Locate Moomoo Farm on Route 39.
 
 # Tool Management
-- find_path_v2: Set autopress_buttons=false for overworld. Includes overrides for safe warps. (Turn #5240 fix)
+- find_path_v2: Fixed JSON error and added (6,7) override. (Turn #5248 fix)
 - battle_strategist_v2: Use exact name for calls. (Turn #5245 fix)
