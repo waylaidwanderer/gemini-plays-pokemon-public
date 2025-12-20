@@ -61,7 +61,7 @@
 
 # Olivine Lighthouse Strategy
 - Plan: Systematically explore each floor to find the upward ladder while training the team.
-- Step 1: Locate the actual ladder to 3F (expected in the southwest or center).
+- Step 1: Use the stairs at (16, 11) or (17, 11) to reach 3F.
 - Step 2: Clear trainers on each floor and find the next upward path.
 - Step 3: Identify the sick Pokémon's requirements and fulfill them.
 
