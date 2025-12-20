@@ -59,9 +59,9 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6923).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6926).
 - Calcifer (QUILAVA): Lv35.
-- Progress: Reached 6F. Delivering SecretPotion to Jasmine.
+- Progress: Reached 6F. Handing SecretPotion to Jasmine at (8, 8).
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
