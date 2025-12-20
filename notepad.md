@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Exit Mania's House and locate the Gym in Northern Cianwood. Challenge Chuck.
+- **Immediate Plan:** Exit Poke Seer's House, continue North to find the Gym, then challenge Chuck.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 37.
