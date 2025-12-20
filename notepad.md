@@ -4,11 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Find Fisher on Route 31.
-  1. Pass through Gatehouse.
-  2. Locate Fisher at (17, 7).
-  3. Talk to Fisher.
-  4. Deliver Kenya.
+- **Immediate Action:** Talk to Sleeping Man (Cooltrainer).
+  1. Interact with Cooltrainer M at (33, 9).
+  2. Deliver Kenya.
+  3. If rejected, check mail message again.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
