@@ -22,6 +22,8 @@
 - Nicknamed Meowth 'XFDW'.
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items. (Started Turn 5458)
+- NPC Verification: Do not assume an NPC is static or present based on a single turn's observation; use stun_npc or re-verify if they seem to disappear.
+- Lighthouse Layout: The lighthouse has many split levels and floor warps; exploration is key to finding the correct path up.
 
 # Berry Knowledge
 - Standard BERRY: 0/7.
@@ -29,10 +31,10 @@
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
 
 # Strategy
-- Olivine Lighthouse: Systematically explore each floor for upward ladders.
-- Backtrack for 7 standard Berries after reaching Olivine City or finding Jasmine.
-- Plan: Explore the northwest corner of 2F to find the ladder to 3F.
+- Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 3F.
+- 3F Plan: Explore the southern part of the floor to find a way to the eastern section (where the item and upward ladder are).
+- Backtrack for 7 standard Berries after finding Jasmine.
 
 # Trainer Progress (Olivine Lighthouse)
-- Gentleman Alfred (16, 8): Noctowl Lv20. Defeated.
-- Sailor Huey (11, 3): Poliwag Lv18, Poliwhirl Lv18. Defeated.
+- Gentleman Alfred (16, 8, 2F): Noctowl Lv20. Defeated.
+- Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
