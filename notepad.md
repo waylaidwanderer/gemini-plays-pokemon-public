@@ -62,3 +62,11 @@
 - Investigate Burned Tower at (4, 4).
 - Challenge Gym Leader Morty at (10, 27).
 - Youngster at (11, 13) mentioned rampaging Pokémon at Lake of Rage (Turn #4900).
+
+# Burned Tower 1F (3_13)
+- Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
+- Eusine (ID 2) at (9, 14): Searching for Suicune.
+- Morty (ID 4) at (14, 15): Ecruteak Gym Leader.
+- New Tiles:
+  - WARP_CARPET_DOWN: Map transition (Exit to city).
+  - FLOOR (Warp): Potential hole or ladder (unverified).
