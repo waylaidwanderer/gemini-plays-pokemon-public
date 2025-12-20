@@ -58,3 +58,7 @@
 - **Interaction:** Talking to Cooltrainer M at (34, 8).
 - **Hypothesis:** He might be the mail recipient since the Fisher rejected it.
 - **Context:** The Fisher was sleeping, which matches Webster's description, but he rejected the mail. Checking other NPCs to be sure.
+- **Analysis:** Fisher asked "You have MAIL for me?" but then said "This MAIL isn't for me."
+- **Deduction:** Fisher IS the recipient. The rejection is due to the mail itself.
+- **Hypothesis:** The quest requires the specific message "DARK CAVE leads to another road" (original mail content).
+- **Plan:** Checking Youngster now to be 100% sure. Then will try rewriting the mail on Kenya to match the original message.
