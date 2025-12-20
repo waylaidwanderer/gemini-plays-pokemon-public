@@ -28,10 +28,8 @@
     - **Exploration:** Smashed rocks at (4,25), (4,19), (8,16), (10,27). Surfing North to find Gym.
 
 ## Battle Log
-- **Blackbelt Yoshi (Hitmonlee):** Defeated.
-- **Blackbelt Lao (Hitmonchan):** Defeated.
-- **Blackbelt Nob:** Defeated.
-- **Blackbelt Lung (Mankey, Primeape):** Defeated.
+- **Gym Trainers:** Defeated Yoshi, Lao, Nob, Lung.
+- **Leader Chuck:** Primeape (Defeated), Poliwrath (Incoming).
 - **Gym Layout:** Left side has Blackbelts. Right side has boulders (3,7), (4,7), (5,7).
 - **Boulder Puzzle Strategy (Corrected):**
   1. Push Left Boulder (3,7) UP. [x]
