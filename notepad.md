@@ -62,3 +62,9 @@
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
+
+# Area Notes
+## Olivine City
+- Olivine Port (19, 27) and (20, 27): Leads to map 1_15. Contains the S.S. Aqua (Fast Ship).
+- Olivine Lighthouse (29, 27): Entry to Lighthouse. SecretPotion must be delivered here.
+- Sailor at (26, 27): Paces between (26, 26) and (26, 28). Can block path to Lighthouse.
