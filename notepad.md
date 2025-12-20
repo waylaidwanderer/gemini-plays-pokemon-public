@@ -4,14 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Debug Fly Map Connection.
-  1. **Issue:** Multiple failed blind Fly attempts.
-  2. **Hypothesis:** Input timing or Map Layout confusion.
-  3. **Plan:**
-     - Open Fly Map and **STOP**.
-     - Verify Map Text next turn to confirm starting cursor position (Town Name).
-  4. **Sequence:** `A` (Open Menu) -> `A` (Select Fly).
-  5. **Next Turn:** Read Screen Text to orient map cursor.
+- **Immediate Action:** Open Start Menu to Reset Fly Attempt.
+  1. **Status:** Failed multiple blind Fly attempts. Currently in New Bark Town (Overworld).
+  2. **Plan:**
+     - Open Start Menu (Current Turn).
+     - Enter Party -> Select Mistral -> Fly.
+     - **CRITICAL:** Do not move cursor blindly. Read screen to confirm "NEW BARK TOWN".
+     - Then press `Left`, wait, read screen.
+     - Then press next direction.
+  3. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
