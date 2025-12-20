@@ -57,4 +57,5 @@
 - Turn #4830: Calcifer switched in. Umbreon used Sand-Attack (failed).
 - Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack (Calcifer's accuracy fell).
 - Turn #4833: Selected FIGHT.
-- Turn #4834: Calcifer at 76/76 HP. Using Headbutt. Accuracy is lowered.
+- Turn #4834: Calcifer used Headbutt (Missed). Umbreon used Pursuit. Calcifer at 70/76 HP.
+- Turn #4835: Selecting FIGHT. Using Headbutt. Accuracy is lowered.
