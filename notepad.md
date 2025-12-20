@@ -25,7 +25,7 @@
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
 - Swimmer Susie (Route 41, 23, 19): Psyduck (Lv20) uses Disable, Goldeen (Lv22).
 - Blackbelt Lung (Cianwood Gym): Mankey (Lv23) x2, Primeape (Lv25).
-- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop. Poliwrath (Lv30).
+- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop. Poliwrath (Lv30) uses Surf.
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
@@ -36,11 +36,11 @@
 # Strategy for Primary Goal (Defeat Chuck)
 - Method: Teach HM04 Strength to GNEISS. Surf back to Cianwood City. Enter the Gym. Boulder Puzzle Solution: Push the boulder at (3, 7) UP once, push the boulder at (5, 7) UP once, then push the middle boulder at (4, 7) LEFT or RIGHT to clear the path.
 - Team Analysis:
-  - Calcifer (QUILAVA) Lv34: Flame Wheel/Headbutt. Neutral typing.
+  - Calcifer (QUILAVA) Lv34: 22/94 HP. Hyper Potion consumed.
   - GNEISS (GRAVELER) Lv35: Weak to Fighting and Water.
   - KIMCHI (ODDISH) Lv10: Poison resists Fighting. Needs training.
   - SHUCKIE (SHUCKLE) Lv15: High defense, but weak to Water.
-- Strategy: Use Hyper Potion on Calcifer. Use Smokescreen to lower Poliwrath's accuracy. Use Flame Wheel/Headbutt to chip away health.
+- Strategy: Use Smokescreen to lower Poliwrath's accuracy. Use Flame Wheel/Headbutt to chip away health.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
