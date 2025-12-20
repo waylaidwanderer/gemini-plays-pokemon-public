@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Navigate Fly Map from Cherrygrove: Up (to Violet), Up (to Ecruteak?), Left (to Olivine?). Verify destination is Olivine City. Confirm Fly. Deliver SecretPotion to Jasmine.
+- **Immediate Plan:** Navigate Fly Map (Up -> Up -> Left) from Azalea to select Olivine City. Confirm Fly. Deliver SecretPotion to Jasmine.
 - **Quest Update:** Mistral learned Fly. Flying to Olivine.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
