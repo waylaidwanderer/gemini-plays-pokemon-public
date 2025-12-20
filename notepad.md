@@ -69,3 +69,6 @@
 - **Plan:** Fly to Violet City, buy new Flower Mail, write "DARK CAVE leads to another road", and return.
 - **Reason:** Need to rewrite mail message, which requires a fresh mail item (current one is attached and can't be edited easily without swapping).
 - **Navigation:** Using Fly to bypass obstacles (Ledge/Cut Tree) blocking the path back to Violet City.
+- **Observation:** Screen says "Currently selected destination: New Bark Town".
+- **Action:** Using `slow_press` [Left, Up, A] to Fly to Violet City.
+- **Goal:** Return to Violet City to modify the Flower Mail message to "DARK CAVE leads to another road".
