@@ -19,8 +19,9 @@
 
 # Primary Goal: Deliver SecretPotion to Jasmine
 - Strategy:
-  1. Challenge Chuck for the Storm Badge (enables Fly).
-  2. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
+  1. Defeat Eusine in Cianwood City.
+  2. Locate and challenge Chuck for the Storm Badge (enables Fly).
+  3. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
 
 # Cianwood Gym Strategy (Leader Chuck)
 - Type: Fighting.
