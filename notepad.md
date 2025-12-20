@@ -9,6 +9,7 @@
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
 - Section Connectivity: 4F sections connected by gaps at y=2/3 (East-Middle) and y=14 (Middle-West).
+- Warp Verification: (16, 7) and (17, 7) on 4F are map transitions (walk RIGHT to trigger).
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -19,13 +20,13 @@
 - To Battle: Ronald (5F North).
 
 # Map Notes
+- 3F Middle: Reachable via 4F pits (8,3)/(9,3).
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
-- 4F Warps: (16, 7)/(17, 7) may be balcony exits. (13, 3) leads to 3F East.
+- 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North. (16, 7)/(17, 7) may be balcony exits. (13, 3) leads to 3F East.
 
 # Swarm Events
 - Yanma: Route 35 (Turn 5683).
 
 # Strategy: Olivine Lighthouse 6F
-- Found Jasmine at (8, 8) and Amphy at (9, 8).
-- Talk to Jasmine to learn about Amphy's condition.
-- Target: Reach (8, 9) to interact with Jasmine.
+- Systematic Exploration: Check northern alcove (7, 4), then eastern alcove (12, 3)-(15, 2), then western alcove (3, 8), and finally southwest alcove (4, 14).
+- Target: Reach (7, 4) to reveal northern tiles.
