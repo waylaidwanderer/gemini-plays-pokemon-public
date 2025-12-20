@@ -13,7 +13,7 @@
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
-- **Inventory:** Contains FLOWER MAIL (1 in Bag, 1 on Kenya).
+- **Inventory:** Contains FLOWER MAIL (3 in Bag).
 
 ## Quests
 - **Webster's Mail:** Delivering Kenya (Spearow) to Route 31. Recipient is the Fisher at (13, 16).
