@@ -4,13 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Enter Party Menu (Prepare to Fly).
-  1. **Situation:** Trapped on Route 31 (Ledges block West, Cut tree blocks path, no Cut in party). **Must Fly.**
-  2. **Current State:** Start Menu (Cursor on GEAR).
-  3. **Action:** `Up` x2 (Select POKEMON) -> `A`.
-  4. **Next Turn:** Verify cursor position (likely Kenya/Slot 6 or Muscle/Slot 1), select Mistral (Slot 5), and FLY to Violet City.
-  5. **Goal:** Resupply Flower Mail.
-- **Route Info:** Route 31 (Trapped area).
+- **Immediate Action:** Select Mistral -> Fly.
+  1. **Current State:** Party Menu. Cursor on **Hematite** (Slot 2).
+  2. **Action:**
+     - `Down` x3: Navigate to Mistral (Slot 5).
+     - `A`: Open Submenu.
+     - `A`: Select Fly.
+  3. **Next Turn:** Verify Fly Map -> Navigate to Violet City.
+  4. **Goal:** Resupply Flower Mail.
+- **Route Info:** Route 31 (Trapped).
 - **Mail Status:** Need to buy mail.
 
 ## Party Status
