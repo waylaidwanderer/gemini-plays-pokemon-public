@@ -65,5 +65,5 @@
 - GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
 - Battle with Malice (Turn #4945):
   - Haunter (Lv 20): Defeated with Magnitude. Used Curse.
-  - Croconaw (Lv 22): GNEISS switched out to clear Curse. KIMCHI (Lv 7) is currently active.
-  - Strategy: Switch to Calcifer (Lv 27) to handle Croconaw.
+  - Croconaw (Lv 22): GNEISS switched out to clear Curse. Calcifer (Lv 27) is now active (66/76 HP).
+  - Strategy: Use physical moves (Headbutt) to overcome type disadvantage.
