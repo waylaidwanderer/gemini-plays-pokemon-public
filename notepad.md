@@ -62,6 +62,7 @@
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
+- Growlithe Weakness: Water, Ground, Rock (Arnie asked Turn 6894).
 
 # Area Notes
 ## Olivine City
