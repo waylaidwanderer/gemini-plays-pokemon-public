@@ -20,7 +20,7 @@
 - WALL: Impassable.
 
 # Trainer Rosters
-- Leader Morty: Gastly Lv21 (D), Gengar Lv25 (D), Haunter Lv21 (D), Haunter (Active).
+- Leader Morty: Gastly Lv21 (D), Gengar Lv25 (D), Haunter Lv21 (D), Haunter Lv23 (Active). (Turn #5194)
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
@@ -40,3 +40,4 @@
 # Strategy
 - Use `find_path_v2` for overworld navigation.
 - Use battle_strategist_v2 for Morty.
+- Defeat Leader Morty (Haunter Lv23 active). (Turn #5194)
