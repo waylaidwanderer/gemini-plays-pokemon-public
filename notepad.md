@@ -40,10 +40,7 @@
 - **Input Note:** Used `press_sequence` to send 5 B inputs to ensure full menu exit.
 - **Fly Map Navigation:** Confirmed cursor memory works (Start->Up->A->A->A got us back to Fly map with Mistral selected).
 - **Action:** Attempting `Left` (Cherrygrove) -> `Up` (Violet) -> `A` (Confirm) to Fly.
-- **Fly Navigation Plan:** Opening Fly map and navigating `Left` -> `Up`.
-- **Validation:** Will NOT press `A` to confirm yet. Checking screen text next turn to ensure "Violet City" is selected.
-- **Fly Map Status:** Screen text confirms "Cherrygrove City" is selected.
-- **Correction:** The previous `Up` input must have been dropped or timed out.
-- **Action:** Pressing `Up` to select Violet City. Will verify text before confirming.
+- **Location:** Violet City Mart.
+- **Action:** Buying Flower Mail from Clerk.
 - **Events:** Received a phone call from Wade (Bug Catcher). He talked about his Pokemon growing fast and a wild Poliwag escaping.
 - **Plan:** Buying Flower Mail first, then will visit PC to swap party and get Kenya.
