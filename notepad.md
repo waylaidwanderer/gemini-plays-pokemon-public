@@ -18,14 +18,9 @@
 - George (46, 8), Kara (44, 28), Kirk (32, 30), Denise (27, 34), Berke (20, 28).
 
 # Primary Goal: Deliver SecretPotion to Jasmine
-- Mission Started: Turn 5863.
-- SecretPotion Obtained: Turn 6179.
 - Strategy:
-  1. Explore Cianwood City to find land. (Done)
-  2. Obtain SecretPotion from Pharmacy. (Done)
-  3. Locate Cianwood Gym (Leader Chuck).
-  4. Challenge Chuck for the Storm Badge (enables Fly).
-  5. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
+  1. Challenge Chuck for the Storm Badge (enables Fly).
+  2. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
 
 # Cianwood Gym Strategy (Leader Chuck)
 - Type: Fighting.
@@ -37,7 +32,6 @@
 - Plan: Train Calcifer. Consider catching a Flying type (e.g., Pidgeotto) if available.
 
 # Cianwood City Exploration
-- Arrived in Cianwood City: Turn 6127.
 - Building (9, 31): Cianwood Photo Studio (Confirmed).
 - Building (15, 37): Lugia Speech House. Info: Whirlpools (HM06), Silver Wing needed for Lugia.
 - Building (17, 41): Mania's House. Info: Malice stole a Pokemon. Mania wants me to guard his Shuckle (need space in party).
@@ -45,8 +39,11 @@
 - Sign (20, 34): Cianwood City Sign.
 - Sign (19, 47): Cianwood Pharmacy Sign.
 - Sign (8, 32): Cianwood Photo Studio Sign.
+- Sign (8, 24): Poke Seer Sign.
+- Building (5, 17): Likely Poke Seer's House.
 - Pokefan M (16, 33): Mentioned breaking rocks north of town.
 - Rock (5, 29): Breakable rock.
+- Rock (10, 27): Breakable rock.
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
