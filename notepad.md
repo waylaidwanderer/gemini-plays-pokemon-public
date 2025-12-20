@@ -7,13 +7,18 @@
 # Strategy for KIMCHI Training
 - Route: Route 40/41 (Surf).
 - Method: Lead with KIMCHI, switch to Calcifer/GNEISS for shared XP.
+- Training Goal Started: Turn 7110.
 
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE / COUNTER: Impassable.
 - WATER: Traversable via Surf (HM03 + Fog Badge).
+- WHIRLPOOL: Impassable (likely requires HM).
 - LADDER / DOOR / PIT / WARP_CARPET: Map transition.
 - Relational: Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
+
+# Type Effectiveness Chart
+- Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
@@ -22,9 +27,3 @@
 - Abra: Bug, Ghost, Dark.
 - Growlithe: Water, Ground, Rock.
 - Snubbull: Fighting.
-
-## Current Task: Return to Cianwood
-- Plan:
-    1. Surf south through Route 40 and Route 41 to Cianwood City.
-    2. Train KIMCHI along the way by leading with her and switching to GNEISS/Calcifer for shared XP.
-    3. Defeat Gym Leader Chuck.
