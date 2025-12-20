@@ -46,5 +46,5 @@
 
 # Discovery Log
 - Turn 5791: Encountered wild Krabby at (6, 25).
-- Catch Tracking (Krabby Lv10): 9 failed attempts at full health. Switched to FRITTATA (Lv5). Mud-Slap hit 6 times, accuracy lowered 6 times. Plan: Use Mud-Slap until HP is yellow/red, then throw Great Ball.
+- Catch Tracking (Krabby Lv10): 9 failed attempts at full health. Switched to FRITTATA (Lv5). Mud-Slap hit 7 times, accuracy lowered 7 times. Plan: Use Mud-Slap until HP is yellow/red, then throw Great Ball.
 - Nickname Plan: Ravioli.
