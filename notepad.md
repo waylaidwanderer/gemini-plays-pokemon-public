@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Kenya to Route 31.
-  1. **Status:** Inside Route 31 Gatehouse.
-  2. **Step 1:** Cross Gatehouse to Route 31 (Exit East).
-  3. **Step 2:** Locate Sleeping Fisher on Route 31.
-  4. **Step 3:** Deliver Kenya (holding mail).
-  5. **Contingency:** If delivery fails again, double-check mail content (unlikely, verified 3 times).
+- **Current Action:** Complete Kenya Delivery.
+  1. **Status:** Dialogue "What's that? You have MAIL for me?" active.
+  2. **Step 1:** Advance dialogue (`A`).
+  3. **Step 2:** Accept reward.
+  4. **Step 3:** Fly to Ecruteak City.
+  5. **Step 4:** Head East to Route 42 (Mahogany Town).
 
 ## Strategy & Lessons
 - **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
