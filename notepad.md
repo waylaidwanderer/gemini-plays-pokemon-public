@@ -44,3 +44,7 @@
 - **Action:** Buying Flower Mail from Clerk.
 - **Events:** Received a phone call from Wade (Bug Catcher). He talked about his Pokemon growing fast and a wild Poliwag escaping.
 - **Plan:** Buying Flower Mail first, then will visit PC to swap party and get Kenya.
+- **Issue:** Flower Mail is missing from inventory list despite attempted purchase.
+- **Hypothesis:** Purchase was cancelled or failed.
+- **Action:** Returning to Violet City Mart to buy it again.
+- **Quest Status:** Kenya is in party. Just need the mail.
