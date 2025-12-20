@@ -73,8 +73,6 @@
 - **Strategy:** Mash Fight/Ember. If HP gets critical, will use Item or Switch.
 - **Battle Strategy:** Switching to Shuckie (Shuckle) to tank hits. Normal moves (Pinsir/Heracross) are useless against Ghost. Shuckle has high Sp. Def.
 - **Next Steps:** Use Shuckle to stall while healing Muscle with Super Potion. Then sweep with Muscle's Dig.
-- **Battle Strategy:** Haunter is Ghost (Weak to Ground/Psychic/Ghost/Dark). Shuckie's Normal moves do 0 damage. Haunter is likely low HP (Ember + Curse cost).
-- **Plan:** Using Super Potion on Muscle (Slot 1). Then switching Muscle in to Dig.
-- **Inventory:** Found Super Potion. Using it now.
-- **Action:** Executing heal on Muscle (Slot 1).
-- **Matchup Note:** Haunter's Ghost moves (Lick) are Physical in Gen 2. Shuckle has massive Defense. Shuckie is safe.
+- **Battle Log:** Used Super Potion on Muscle (Slot 1). Healed +50 HP.
+- **Current State:** Shuckie is active. Haunter (Low HP) vs Shuckie.
+- **Next Plan:** Switch Muscle in to finish Haunter with Dig.
