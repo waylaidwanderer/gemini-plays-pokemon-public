@@ -95,3 +95,6 @@
 - **Action:** Staying in with Muscle (Select NO to switch). Muscle is Lv 37 vs Lv 25. Dig should OHKO.
 - **Battle Strategy:** Keeping Muscle in. Electrode is fast, but Muscle can tank a hit and OHKO with Dig.
 - **Action:** Confirming 'NO' to switch.
+- **Battle Log:** Electrode (Lv 25) vs Muscle (Lv 37, 74/121 HP).
+- **Strategy:** Using Dig (Slot 1). Ground is 2x Super Effective vs Electric.
+- **Risk Assessment:** Electrode is faster. Muscle will take one hit. Selfdestruct (if present) does ~50 dmg, Muscle survives.
