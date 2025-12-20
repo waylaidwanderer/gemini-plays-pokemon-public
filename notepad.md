@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Fall down the pit at (17, 13) on 2F to reach 1F. Then, exit the Lighthouse and re-enter to fully reset the map.
-- **Hypothesis:** The trainer (Denis) requires a full map reset (leaving the building) to move.
-- **Quest Update:** The "Right Wing Pit Chain" (5F->4F->3F->2F) led to the bottom. Using this to exit and reset.
+- **Immediate Plan:** Exit the Lighthouse via the main door at (11, 17) to reset the map. Then re-enter and climb to 5F.
+- **Hypothesis:** Exiting the building triggers the "Fly away" event for Bird Keeper Denis.
+- **Quest Update:** Fell from 2F to 1F. Exiting now.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
