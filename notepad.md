@@ -29,8 +29,8 @@
 
 # Strategy: Get Amphy's Medicine
 - Quest started Turn 5707.
-- 1. Pick up item at (3, 4) on 6F.
-- 2. Explore reachable unseen tiles at (3, 8), (3, 9), (4, 14), (4, 15).
+- 1. Picked up Super Potion at (3, 4) on 6F.
+- 2. Explore reachable unseen tiles (southwest corner).
 - 3. Leave Lighthouse (use 6F Pits at (16, 5) or (17, 5)).
 - 4. Surf to Cianwood City (southwest of Olivine).
 - 5. Get medicine from Pharmacy and return.
