@@ -42,3 +42,6 @@
 - **Action:** Attempting `Left` (Cherrygrove) -> `Up` (Violet) -> `A` (Confirm) to Fly.
 - **Fly Navigation Plan:** Opening Fly map and navigating `Left` -> `Up`.
 - **Validation:** Will NOT press `A` to confirm yet. Checking screen text next turn to ensure "Violet City" is selected.
+- **Fly Map Status:** Screen text confirms "Cherrygrove City" is selected.
+- **Correction:** The previous `Up` input must have been dropped or timed out.
+- **Action:** Pressing `Up` to select Violet City. Will verify text before confirming.
