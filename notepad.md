@@ -26,7 +26,7 @@
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items. (Started Turn 5458)
 - NPC Verification: Do not assume an NPC is static or present based on a single turn's observation; use stun_npc or re-verify if they seem to disappear.
 - Lighthouse Layout: The lighthouse has many split levels and floor warps; exploration is key to finding the correct path up.
-- Battle Strategy: Use battle_strategist_v2 for all trainer battles.
+- Battle Strategy: Use battle_strategist_v2 for all trainer battles to ensure consistent performance.
 
 # Berry Knowledge
 - Standard BERRY: 0/7.
@@ -35,14 +35,15 @@
 - Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32.
 
 # Strategy
-- Olivine Lighthouse: Currently on 4F. Plan: Defeat the Sailor at (7, 14), then explore the southern/western section for a ladder to 5F. If blocked, use pits at (16, 9) or (17, 9).
+- Olivine Lighthouse: Currently on 4F.
+- How: Defeat Sailor Kent at (7, 14), then explore the southern/western section for a ladder to 5F. If no ladder is found, use the floor pits at (16, 9) or (17, 9) to reach the 3F middle section.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Defeated.
 - Sailor Huey (11, 3, 2F): Defeated.
 - Bird Keeper Theo (3, 9, 3F): Defeated.
 - Gentleman Preston (13, 5, 3F): Defeated Turn 5602.
-- Sailor Kent (?) (7, 14, 4F): Challenged Turn 5616.
+- Sailor Kent (7, 14, 4F): Challenged Turn 5616.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
