@@ -4,17 +4,16 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Advance Dialogue with Cooltrainer M.
-  1. **Current State:** In dialogue with Cooltrainer M at (32, 7). Text: "DARK CAVE...".
-  2. **Action:** Press `A` to advance text.
-  3. **Expectation:** He will continue speaking.
-  4. **Goal:** Determine if he is the mail recipient and complete the delivery.
-  5. **Contingency:**
-     - If he accepts: Celebrate!
-     - If he wakes up/battles: Fight.
-     - If he says "This MAIL isn't for me": Re-verify mail.
-- **Route Info:** Staying on the upper path (Row 8/9) to reach Dark Cave area.
-- **Mail Status:** Kenya holding mail with message "DARK CAVE leads to another road".
+- **Immediate Action:** Return to Fisher at (17, 7).
+  1. **Observation:** Cooltrainer M gave generic text ("Dark Cave... Light it up..."). He did NOT acknowledge the mail.
+  2. **Recall:** Notepad claims Fisher at (17, 7) said "This MAIL isn't for me".
+  3. **Hypothesis:** The Fisher IS the recipient (or at least checks mail), but the mail content/format is wrong. The Cooltrainer is irrelevant to the quest.
+  4. **Plan:**
+     - Walk West to Fisher.
+     - Talk to him to CONFIRM he checks the mail.
+     - If he rejects it, I must fix the mail text (Case sensitivity? Line breaks?).
+- **Route Info:** Head West along the path.
+- **Mail Status:** Kenya holding mail with message "DARK CAVE leads to another road" (ALL CAPS?). Need to verify text.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
