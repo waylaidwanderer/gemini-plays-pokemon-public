@@ -24,6 +24,7 @@
 - Swimmer Randall (Route 40, 18, 30): Shellder (Lv18), Wartortle (Lv20), Shellder (Lv18).
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
 - Swimmer Susie (Route 41, 23, 19): Psyduck (Lv20) uses Disable, Goldeen (Lv22).
+- Blackbelt Lung (Cianwood Gym): Mankey (Lv23).
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
