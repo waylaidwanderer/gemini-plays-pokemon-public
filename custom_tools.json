@@ -53,7 +53,7 @@
     ]
   },
   "smart_battle_move": {
-    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes the Move Menu is a vertical list.\nAuto-presses buttons.\nIncludes logic to calculate Up/Down presses based on `current_slot`.",
+    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes the Move Menu is a vertical list. Auto-presses buttons. Includes wrapping logic (e.g. Up from 1 to 4).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -69,19 +69,13 @@
           "maximum": 4,
           "default": 1,
           "description": "The current slot the cursor is on (default 1)."
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true, buttons are pressed automatically."
         }
       },
       "required": [
-        "target_slot",
-        "autopress_buttons"
+        "target_slot"
       ]
     },
-    "python_script": "import json\n\ninput_data = locals().get('input_data', {})\ntarget_slot = int(input_data.get('target_slot', 1))\ncurrent_slot = int(input_data.get('current_slot', 1))\n\nbuttons = []\n\n# Select FIGHT\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Navigate Vertical List\ndiff = target_slot - current_slot\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n\n# Select Move\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef run(input_data):\n    target_slot = int(input_data['target_slot'])\n    current_slot = int(input_data.get('current_slot', 1))\n    \n    # 0-indexed calculations\n    c = current_slot - 1\n    t = target_slot - 1\n    \n    down_steps = (t - c) % 4\n    up_steps = (c - t) % 4\n    \n    buttons = [\"A\", \"sleep 500\"] # Enter FIGHT menu\n    \n    if down_steps <= up_steps:\n        buttons.extend([\"Down\", \"sleep 200\"] * down_steps)\n    else:\n        buttons.extend([\"Up\", \"sleep 200\"] * up_steps)\n        \n    buttons.append(\"A\") # Select Move\n    \n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
@@ -112,6 +106,11 @@
         "commit_message": "Fixing smart_battle_move to handle vertical list navigation correctly (Gen 2 Vertical Menu).",
         "timestamp": "2025-12-18T21:28:02.037Z",
         "action_counter": 5651
+      },
+      {
+        "commit_message": "Updated to handle menu wrapping for optimal navigation.",
+        "timestamp": "2025-12-20T10:06:21.005Z",
+        "action_counter": 8054
       }
     ]
   }
