@@ -61,4 +61,3 @@
 - Teach Surf to a Pokemon (Need to catch a Water-type).
 - Investigate Burned Tower at (4, 4).
 - Challenge Gym Leader Morty at (10, 27).
-- Arnie (Bug Catcher) called about Venonat and Pidgey (Turn #4890).
