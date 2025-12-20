@@ -1,1 +1,9 @@
-{}
+{
+  "team_architect": {
+    "agent_name": "team_architect",
+    "agent_description": "Analyzes the player's current party and box storage to recommend the optimal team composition for upcoming challenges.",
+    "agent_system_prompt": "You are an expert Pokémon strategist. Your goal is to analyze the player's current party and box storage to recommend the optimal team composition for upcoming challenges. You consider type matchups, level balance, move coverage, and HM requirements. When asked to deposit or withdraw Pokémon, provide a clear recommendation on which specific Pokémon to move and why. Consider the Gen 2 Crystal mechanics.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_party\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"box_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"upcoming_challenge\":{\"type\":\"string\"},\"goal\":{\"type\":\"string\"},\"restrictions\":{\"type\":\"string\"}},\"required\":[\"current_party\",\"upcoming_challenge\",\"goal\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"deposit_pokemon\":{\"type\":\"string\",\"nullable\":true},\"withdraw_pokemon\":{\"type\":\"string\",\"nullable\":true}}}"
+  }
+}
