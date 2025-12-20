@@ -2,9 +2,9 @@
 
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
-- **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Navigate through Olivine City to the Lighthouse (29, 27). Climb to the top and deliver the SecretPotion to Jasmine.
-- **Quest Update:** Arrived in Olivine City. Wade called (ignored). SecretPotion in hand.
+- **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
+- **Immediate Plan:** Enter the Lighthouse (29, 27). Climb to the top and deliver the SecretPotion to Jasmine.
+- **Quest Update:** Arrived in Olivine City. Approaching Lighthouse.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
@@ -18,9 +18,18 @@
 - **Webster:** Deliver mail to Route 31 (KENYA is in Box 1).
 - **Jasmine:** Needs medicine for Ampharos (Amphy).
 
+## Tile Mechanics
+- **FLOOR:** Traversable.
+- **WALL:** Impassable.
+- **WATER:** Traversable with SURF.
+- **DOOR:** Traversable. Warps to another map.
+- **WARP_CARPET:** Traversable. Transitions map.
+- **TALL_GRASS:** Traversable. Wild encounters.
+- **LEDGE:** One-way traversable (usually Down).
+
 ## Navigation Log
 - **Olivine & Route 40:** Cleared Lighthouse. Surfed West to Route 41.
-- **Route 41 (Whirl Islands):** Navigated maze-like buoys. Found passage West to Cianwood at Row 45.
+- **Route 41 (Whirl Islands):** Navigated maze-like buoys. Found passage West to Cianwood.
 - **Cianwood City:**
     - **Key Locations:** Pokemon Center (23, 43), Pharmacy (15, 47), Lugia House (15, 37), Mania's House (17, 41), Poke Seer (5, 17), Gym (8, 43).
     - **Events:** Defeated Eusine. Obtained SecretPotion. Defeated Chuck.
@@ -29,4 +38,4 @@
 - **Cianwood Gym:** Defeated Leader Chuck.
     - **Badge:** Storm Badge (Allows Fly).
     - **TM:** TM01 DynamicPunch.
-    - **Puzzle:** Strength boulders (Left UP, Right UP, Middle RIGHT).
+    - **Puzzle:** Strength boulders.
