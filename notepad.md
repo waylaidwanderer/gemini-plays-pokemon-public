@@ -39,3 +39,7 @@
 - Abra (Psychic): Bug, Ghost, Dark.
 - Growlithe (Fire): Water, Ground, Rock.
 - Snubbull (Normal): Fighting.
+
+# General Lessons
+- Fly Mechanics: HM02 Fly can only be used from the overworld (outdoors). Attempting to use it inside buildings or caves results in "Can't use that here."
+- Menu Navigation: When using HMs like Fly, ensure you are in the overworld before opening the menu to avoid redundant navigation.
