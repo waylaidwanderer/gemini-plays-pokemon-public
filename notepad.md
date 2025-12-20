@@ -2,12 +2,12 @@
 - Observation: Chuck uses Fighting-type Pokémon (Primeape Lv27, Poliwrath Lv30).
 - Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
 - Note: Poliwrath is Water/Fighting. GNEISS and Calcifer are weak to Water.
-- Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Grass moves against Poliwrath.
+- Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath.
 
 # Strategy for KIMCHI Training
 - Route: Route 40/41 (Surf).
 - Method: Lead with KIMCHI, switch to Calcifer/GNEISS for shared XP.
-- Training Goal Started: Turn 7110.
+- Training Goal Started: Turn 7110. KIMCHI reached Lv18 at Turn 7171.
 
 # Tile Mechanics
 - FLOOR: Traversable.
