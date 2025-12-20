@@ -90,3 +90,6 @@
 - **Sequence:** B (Cancel Shuckie menu) -> Up x5 (Select Muscle) -> A (Select) -> A (Switch).
 - **Correction:** Previous switch attempt failed or didn't register. Cursor is confirmed on Muscle (Slot 1).
 - **Action:** Retrying Switch to Muscle. Pressing A (Open Menu) -> A (Switch).
+- **Battle Decision:** Eusine sending out Electrode (Electric).
+- **Matchup:** Muscle (Fighting/Ground move) vs Electrode (Electric). Dig is 2x Super Effective.
+- **Action:** Staying in with Muscle (Select NO to switch). Muscle is Lv 37 vs Lv 25. Dig should OHKO.
