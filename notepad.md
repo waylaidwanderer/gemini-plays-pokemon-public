@@ -25,7 +25,7 @@
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
 - Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
 - Pokefan Derek (10, 22): Pikachu Lv17. Defeated.
-- Sailor Eugene (13, 29): Poliwhirl Lv17, Krabby Lv19, Raticate. Currently battling.
+- Sailor Eugene (13, 29): Poliwhirl Lv17, Krabby Lv19, Raticate Lv17. Currently battling.
 
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
