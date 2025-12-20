@@ -70,5 +70,10 @@
 
 ## Current Task: Exit Lighthouse
 - Start Turn: 6954
-- Current Position: 4F Central Room (9, 5)
-- Plan: Go down to 3F via ladder at (9, 5). From 3F, find a way to the outer ring.
+- Current Position: 3F Central Room (9, 3)
+- Failed Attempt 1: Tried to navigate to 4F outer ring but accidentally walked into pit at (9, 3) on 4F.
+- Plan: 
+    1. Go back up to 4F via ladder at (9, 5) on 3F.
+    2. On 4F, navigate to the outer ring via (10, 2) or (10, 3), carefully avoiding the pit at (9, 3).
+    3. Drop through pit at (16, 9) or (17, 9) on 4F to reach 3F outer ring.
+    4. Use ladder at (5, 3) on 3F to go down to 2F.
