@@ -70,3 +70,6 @@
   1. "DARK CAVE" (Caps)
   2. " leads to" (Lower)
   3. " another road" (Lower)
+- **Mail Progress:** Typing "DARK CAVE ".
+- **Cursor End Position:** Space (Row 2, Col 6).
+- **Next Step:** Switch to lower case, type "leads to another road".
