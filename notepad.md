@@ -37,3 +37,10 @@
 - Abra (Psychic): Bug, Ghost, Dark.
 - Growlithe (Fire): Water, Ground, Rock.
 - Snubbull (Normal): Fighting.
+
+# Active Task Tracking
+- Mahogany Town Trip Started: Turn 7281 (2025-12-20). Goal: Reach Mahogany Town and defeat the Gym Leader.
+- KIMCHI Training Started: Turn 7110. Goal: Lv21 for evolution.
+
+# Battle Strategies
+- Fisher Tully (Route 42): Lead with KIMCHI for XP, switch to GNEISS (Magnitude) or Calcifer if needed. Qwilfish is Water/Poison.
