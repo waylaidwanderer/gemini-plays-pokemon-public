@@ -53,3 +53,4 @@
     - Mistral fainted after using Sand-Attack (Steelix Accuracy -1).
     - Muscle's stats are reset (Defense normal).
     - **Next Step:** Switch Muscle in (Slot 1). **CRITICAL:** Use Hyper Potion immediately as Muscle has 23/130 HP and Steelix deals ~40 damage with Iron Tail.
+- **Tool Maintenance:** Need to review `smart_battle_move` usage/logic to correctly handle Gen 2 cursor memory (cursor stays on last used move) before next battle.
