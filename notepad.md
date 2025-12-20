@@ -16,7 +16,7 @@
 
 ## Quests
 - **Webster:** Deliver mail to Route 31 (KENYA is in Box 1).
-- **Jasmine:** Needs medicine for Ampharos (Amphy).
+- **Jasmine:** SecretPotion delivered. Awaiting results.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable.
