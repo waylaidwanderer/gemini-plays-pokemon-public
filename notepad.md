@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Exit Gym (Press Down), talk to woman outside for HM02 (Fly), visit PC to get a Flyer (Kenya or Mistral), get SecretPotion.
-- **Gym Status:** Chuck Defeated (Storm Badge + TM01 obtained).
+- **Immediate Plan:** Talk to the woman at (11, 46) for HM02 (Fly), then go to PC (23, 43) to retrieve Kenya/Mistral. Teach Fly. Fly to Olivine.
+- **Quest Update:** SecretPotion obtained. Chuck Defeated. Storm Badge obtained.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40. (Moves: Dig, Rock Smash, Focus Energy, Karate Chop)
   - **Garnet (Quilava):** Lv 28.
