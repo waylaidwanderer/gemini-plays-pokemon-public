@@ -49,7 +49,7 @@
 
 # Gym Progress
 - Gym Challenge Started: Turn 6328
-- Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9).
+- Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
