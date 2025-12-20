@@ -40,3 +40,6 @@
     - **TM:** TM01 DynamicPunch.
     - **Puzzle:** Strength boulders.
 - **Gym Guide Advice:** Jasmine uses the newly discovered Steel-type Pokémon. They have high defense and many resistances. Fire and Fighting moves are recommended.
+- **Battle vs Jasmine:**
+    - **Magnemite (Lv 30):** Defeated by Muscle's Karate Chop (OHKO).
+    - **Steelix (Lv 35):** Resists Normal (Strength). Weak to Fighting/Ground/Fire/Water. High Defense. Muscle's Defense lowered by Iron Tail.
