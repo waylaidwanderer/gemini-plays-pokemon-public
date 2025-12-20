@@ -51,6 +51,6 @@
     - **Pharmacy:** Located at (15, 47).
     - **Lugia Speech House:** Located at (15, 37).
     - **Mania's House:** Located at (17, 41). Mania gave Shuckie (Lv 15).
-    - **Poke Seer's House:** Located at (5, 17). (Mistaken for Gym initially).
-    - **Gym:** Leader Chuck is here. Must be further North or West.
-    - **Suicune:** Might be here (saw it flee to the west earlier).
+    - **Poke Seer's House:** Located at (5, 17).
+    - **Suicune Event:** Encountered Suicune at (10, 14). It ran away. Eusine appeared and challenged me to a battle to earn Suicune's respect.
+    - **Gym:** Leader Chuck is here. Location still unconfirmed, likely North.
