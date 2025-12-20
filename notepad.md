@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Talk to Jasmine and administer the SecretPotion to Amphy.
-- **Quest Update:** Reached 6F Center. Delivering the medicine.
+- **Immediate Plan:** Exit the Lighthouse and challenge the Olivine Gym.
+- **Quest Update:** Amphy is cured! Jasmine has returned to the Gym.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
