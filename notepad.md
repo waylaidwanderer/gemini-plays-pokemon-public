@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Walk around the trainer at (8, 3) to check tiles (7, 3) and (8, 2).
-- **Quest Update:** Spoke to the trainer at (8, 3). He mentioned flying away. Checking if he moves or if the pit is behind him.
+- **Immediate Plan:** Clear Wade's phone call. Then, check if the trainer at (8, 3) has moved or walk around him to (7, 3).
+- **Quest Update:** Wade interrupted. Trainer at (8,3) previously said he would Fly away. Expecting him to clear the path.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
