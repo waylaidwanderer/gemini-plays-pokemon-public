@@ -4,16 +4,17 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Go to Violet City Mart (Buy Mail).
-  1. **Status:** Out of Flower Mail (Sent last one to PC).
-  2. **Navigation:**
-     - Path blocked by Ledges at X=13.
-     - Must go SOUTH to Row 10 (Grass) to bypass ledges.
-     - Then West to Violet City.
-  3. **Goal:** Buy 3x Flower Mail at Mart.
-  4. **Then:** Write "DARK CAVE leads to another road" and return to Fisher.
-- **Route Info:** Route 31 -> Violet City.
-- **Mail Status:** Stock depleted. Resupplying.
+- **Immediate Action:** Fly to Violet City (Step 1: Open Menu).
+  1. **Current State:** Overworld (Route 31).
+  2. **Method:** Fly is faster than walking/cutting.
+  3. **Action:**
+     - `Start` -> `Down` (Pokemon) -> `A`.
+     - `Down` x4 (Select Mistral).
+     - `A` (Open Submenu).
+  4. **Next Turn:** Select FLY -> Navigate Map -> Confirm.
+  5. **Target:** Violet City Mart.
+- **Route Info:** Route 31 -> Violet City (Fly).
+- **Mail Status:** Stock depleted. Resupplying via Fly.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
