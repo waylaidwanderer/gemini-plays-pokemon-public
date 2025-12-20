@@ -48,3 +48,5 @@
 - 3F Eastern Section: Ladder to next floor at (13, 3).
 - 3F Middle Section (Sailor, Item, Ladder): Seems inaccessible from 3F East/West.
 - 4F Warps: (13, 3) Ladder, (3, 5) Ladder, (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT, (16, 7) Potential Hole, (17, 7) Potential Hole.
+- Turn 5631-5632: Interrupted by Arnie's call. Lead swap to Calcifer failed due to menu error.
+- Turn 5633: Retrying lead swap to Calcifer, then proceeding to (16, 7).
