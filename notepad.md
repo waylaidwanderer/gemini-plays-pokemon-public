@@ -55,4 +55,4 @@
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Defeated (Turn #4858).
 - Next target: Kimono Girl 1 at (0, 2).
-- Strategy: Heal at Pokemon Center before the final battle.
+- Strategy: Fully healed. Ready for the final battle.
