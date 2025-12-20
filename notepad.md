@@ -29,6 +29,7 @@
 ## Battle Log
 - **Blackbelt Yoshi (Hitmonlee):** Defeated.
 - **Blackbelt Lao (Hitmonchan):** Defeated.
+- **Next Opponent:** Blackbelt Nob (Machop) at (3, 9).
 - **Blocked Paths:** (4, 19) South is blocked by wall/ledge. (4, 29) South is blocked by wall/ledge (4, 30).
 - **Plan:** Western area access seems to be from the North (North of Suicune spot). Heading back to (10, 27) and then North to (10, 14).
 - **Exploration Update:** Surfing East/North from the beach at (13, 16) is blocked by rocks and buoys. The "channel" at Col 18 is a dead end.
