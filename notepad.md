@@ -20,7 +20,7 @@
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
 
 # Observed Movesets
-- Swimmer Charlie (Route 41, 32, 9): Shellder (Lv21).
+- Swimmer Charlie (Route 41, 32, 9): Shellder (Lv21), Tentacool (Lv19).
 - Swimmer Kaylee (Route 41, 17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
 - Swimmer Randall (Route 40, 18, 30): Shellder (Lv18), Wartortle (Lv20), Shellder (Lv18).
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
