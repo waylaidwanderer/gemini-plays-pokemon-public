@@ -64,7 +64,9 @@
 - **Remaining:** "another road".
 - **Mail Typing:** Typing "another road".
 - **Verification:** Will verify text on screen before confirming with END.
-- **Action:** Giving Mail to Kenya.
-- **Current Step:** Entering Pack -> Items Pocket.
-- **Next:** Select Flower Mail -> Give -> Kenya.
+- **Action:** Writing Mail on Kenya.
 - **Message:** "DARK CAVE leads to another road".
+- **Typing Plan:**
+  1. "DARK CAVE" (Caps)
+  2. " leads to" (Lower)
+  3. " another road" (Lower)
