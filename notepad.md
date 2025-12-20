@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Walk West from Ecruteak City to Route 38. Continue West through Route 39 to Olivine City. Deliver SecretPotion to Jasmine at the Lighthouse.
-- **Quest Update:** Arrived in Ecruteak via Fly.
+- **Immediate Plan:** Continue West from Ecruteak City to Route 38. Travel West through Route 38 and Route 39 to reach Olivine City. Deliver SecretPotion to Jasmine.
+- **Quest Update:** Exiting Ecruteak City West.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
