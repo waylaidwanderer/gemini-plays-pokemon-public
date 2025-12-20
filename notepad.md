@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fly to Violet City (Select Mistral).
-  1. **Status:** In Party Menu. Cursor on Garnet (Slot 3).
-  2. **Step 1:** Navigate to Mistral (Slot 5) -> Down x2.
-  3. **Step 2:** Select Mistral -> A.
-  4. **Step 3:** Select FLY (Expect it at top of menu).
+- **Current Action:** Fly to Violet City (Select Mistral & Fly).
+  1. **Status:** In Garnet's Move List (Nav Error).
+  2. **Step 1:** Exit Move List & Garnet's Menu (B x2).
+  3. **Step 2:** Navigate to Mistral (Down x2 -> A).
+  4. **Step 3:** Select FLY (Top option).
   5. **Step 4:** Select Violet City on Map.
 
 ## Reflection (Turn 9097)
