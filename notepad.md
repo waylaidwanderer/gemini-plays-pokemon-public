@@ -24,6 +24,6 @@
 - Snubbull: Fighting.
 
 ## Current Task: Return to Cianwood
-- Turn: 7066
+- Turn: 7068
 - Plan: Surf south through Route 40 and Route 41 to Cianwood City. Train KIMCHI along the way.
-- Progress: Mineral Badge obtained. KIMCHI leading. Moving south toward Route 41.
+- Progress: Mineral Badge obtained. KIMCHI leading. Surfing south on Route 40.
