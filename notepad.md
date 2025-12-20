@@ -52,8 +52,6 @@
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Next target: Kimono Girl 3 at (6, 2).
 - Zuki (Umbreon): Defeated (Turn #4845).
-- Sayo (Espeon): Battling (Turn #4849).
-- Turn #4851: Calcifer switched in. Espeon used Sand-Attack.
-- Turn #4853: Calcifer used Headbutt (Hit). Espeon used Confusion. Calcifer at 50/76 HP.
-- Turn #4855: Calcifer used Headbutt (Missed). Espeon used Sand-Attack (Failed).
-- Turn #4856: Using Headbutt again. Espeon HP is low.
+- Sayo (Espeon): Defeated (Turn #4858).
+- Next target: Kimono Girl 1 at (0, 2).
+- Strategy: Heal at Pokemon Center before the final battle.
