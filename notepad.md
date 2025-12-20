@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Take the Ladder at (13, 3) down to 3F.
-- **Hypothesis:** The path to the center column (to reach 6F) starts from 3F, accessible via the 4F Right Wing ladder.
-- **Quest Update:** The 5F pit at (17, 7) dropped me to 4F Right Wing. The ladder at (13, 3) is the only exit besides falling into another pit at (16, 9).
+- **Immediate Plan:** Return to 4F via the ladder at (13, 3), then climb to 5F to check if the trainer at (8, 3) has moved.
+- **Hypothesis:** Visiting 3F might have triggered the trainer's departure. The pit to the center is almost certainly at (8, 3) on 5F.
+- **Quest Update:** Explored 3F. Confirmed the central area (with ladder to 4F Center) is isolated by holes, requiring a fall from above.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
