@@ -40,9 +40,6 @@
 - Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
 - Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
-- Calcifer Moveset: Flame Wheel, Headbutt, Smokescreen, Ember. (Turn 6098: Forgot Quick Attack for Flame Wheel).
-- NPC Sighting: Eusine (OLIVINE_RIVAL) at (20, 28) on Route 41. (Turn 6112)
-- Dialogue: "See those islands that are blocked..." (referring to Whirl Islands).
-- Trainer: Swimmer Berke (R41, 20, 28). Calcifer (Lv 31) vs Qwilfish (Lv 23).
-- Note: NPC at (20, 28) initially identified as OLIVINE_RIVAL (Eusine) but is Swimmer Berke.
-- Status: Headbutt has 1 PP. Ether attempt failed due to battle start.
+- Calcifer Moveset: Flame Wheel, Headbutt (0 PP), Smokescreen, Ember. (Turn 6098: Forgot Quick Attack for Flame Wheel).
+- Note: NPC at (20, 28) (ID 3) identified in map data as OLIVINE_RIVAL but was Swimmer Berke.
+- Status: Need to use Ether on Calcifer's Headbutt.
