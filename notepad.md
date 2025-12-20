@@ -43,10 +43,9 @@
 - **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
-- **Battle Result:** Lost to Chuck. Wiped out by Poliwrath.
-- **Current Status:** Respawned at Cianwood Center. Team fully healed. Money: 523.
-- **Inventory Update:** Bought 5 Hyper Potions, 4 Full Heals.
-- **Immediate Goal:** Return to Gym and defeat Chuck.
+- **Current Status:** Back in Cianwood Gym. Rematch ready.
+- **Inventory:** 5 Hyper Potions, 4 Full Heals.
+- **Immediate Goal:** Activate Strength, Solve Boulder Puzzle, Defeat Chuck.
 - **Rematch Strategy:**
   - Muscle (Lv 39) must be full HP for Poliwrath.
   - Use Full Heals to cure Confusion immediately.
