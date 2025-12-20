@@ -6,7 +6,7 @@
 - **Immediate Plan:** Exit Poke Seer's House, continue North to find the Gym, then challenge Chuck.
 
 ## Party Status
-- **Muscle (Machoke):** Lv 37.
+- **Muscle (Machoke):** Lv 37. (Moves: Dig, Rock Smash, Focus Energy, Karate Chop)
 - **Garnet (Quilava):** Lv 28.
 - **Hematite (Pinsir):** Lv 15.
 - **Azurite (Heracross):** Lv 13.
