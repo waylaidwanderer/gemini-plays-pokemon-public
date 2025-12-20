@@ -33,7 +33,7 @@
 - **Blackbelt Nob:** Defeated.
 - **Gym Layout:** Left side has Blackbelts. Right side has boulders (3,7), (4,7), (5,7).
 - **Boulder Puzzle Strategy (Corrected):**
-  1. Push Left Boulder (3,7) UP.
+  1. Push Left Boulder (3,7) UP. [x]
   2. Push Right Boulder (5,7) UP.
   3. Push Middle Boulder (4,7) RIGHT (to 5,7).
   4. Walk North through (4,7) -> (4,6).
