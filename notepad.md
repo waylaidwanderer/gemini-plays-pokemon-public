@@ -34,12 +34,12 @@
 - 3. Buy Poke Balls at Olivine Mart (Complete).
 - 4. Catch a Water-type Pokemon for Surf.
     - Method: Use Old Rod on Route 40 or Olivine shore at (6, 26).
-    - Team Management: Deposit Cleffa in PC to make room. (Started Turn 5761).
+    - Team Management: Deposit Cleffa in PC to make room (Complete Turn 5775).
 - 5. Surf to Cianwood City (southwest of Olivine).
 - 6. Get medicine from Pharmacy and return.
 
 # PC Storage
-- Box 1: Sudowoodo (Lv20), Onix (Lv6), Pidgey (Lv11).
+- Box 1: Sudowoodo (Lv20), Onix (Lv6), Pidgey (Lv11), Cleffa (Lv5).
 
 # Discovery Log
 - Turn 5764: Nurse Joy healed the party. Heading to find the PC to deposit Cleffa.
