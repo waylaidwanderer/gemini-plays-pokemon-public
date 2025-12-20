@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to the Ladder at (3, 11) by looping around the top of the room (Row 3). Ascend to 2F.
-- **Quest Update:** Re-entered Olivine Lighthouse. Heading to Jasmine.
+- **Immediate Plan:** Navigate to the Ladder at (5, 3) to reach 3F. Path: Right to Col 14, Up to Row 3, Left to (5, 3).
+- **Quest Update:** Ascending Lighthouse to deliver SecretPotion.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
