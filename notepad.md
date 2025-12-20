@@ -1,7 +1,7 @@
 # Strategy for Primary Goal (Travel to Mahogany Town)
-- Step 1: Go to Cianwood PC (23, 43).
-- Step 2: Swap a party member (e.g., Ravioli or SHUCKIE) for ICARUS (PIDGEY).
-- Step 3: Teach FLY to ICARUS.
+- Step 1: Go to Cianwood PC (23, 43). [DONE]
+- Step 2: Swap a party member for ICARUS (PIDGEY). [DONE - Deposited SHUCKIE]
+- Step 3: Teach FLY to ICARUS. [IN PROGRESS]
 - Step 4: Fly to Ecruteak City.
 - Step 5: Head east through Route 42 to Mahogany Town.
 
@@ -33,13 +33,9 @@
 - Grass vs Water/Fighting (Poliwrath): Super effective.
 
 # PC Storage (Box 1)
-- ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
+- ROCKY (ONIX) Lv6, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5, SHUCKIE (SHUCKLE) Lv15.
 
 # Weakness Reference
 - Abra (Psychic): Bug, Ghost, Dark.
 - Growlithe (Fire): Water, Ground, Rock.
 - Snubbull (Normal): Fighting.
-
-# Cianwood Gym Boulder Puzzle (Solved)
-- Observation: Boulders at (3, 7), (4, 7), (5, 7) block path.
-- Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side. Final positions: Obj 7 (3,6), Obj 8 (3,7), Obj 9 (5,6).
