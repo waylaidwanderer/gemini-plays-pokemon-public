@@ -30,9 +30,11 @@
 - Trust the XML: Structural data is the primary truth for navigation.
 - Party Menu: Use 'Up' to reset cursor for reliability when using items.
 - Ecruteak Gym Path: Safe path follows trainer sightlines; (6, 7) is a verified safe connection.
+- Western Ecruteak: The exit to Route 38 is via Warp Carpets at (0, 18) and (0, 19). Navigate around trees and walls at x=1.
 
 # Strategy
-- Navigate to Route 38 via (0, 19) in Ecruteak City.
+- Navigate Route 38 via the Ecruteak Gatehouse.
+- Talk to the Officer in the gatehouse for potential items or info.
 - Explore Route 38 for trainers and items on the way to Olivine City.
 - Maintain party health and monitor PP during route progression.
-- Use battle_strategist_v2 for Gym leaders and significant trainer encounters.
+- Use battle_strategist_v2 for significant trainer encounters.
