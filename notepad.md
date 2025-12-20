@@ -38,3 +38,12 @@
 
 # Route 42 Discoveries
 - Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
+
+# Tile Mechanics (Route 42)
+- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
+- Impassable: WALL, HEADBUTT_TREE, CUT_TREE, CAVE (Warp).
+
+# Strategy: KIMCHI Training (Updated Turn #7411)
+- Target: Lv21 (Evolution to Gloom).
+- Current Level: 19.
+- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut.
