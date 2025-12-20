@@ -20,3 +20,4 @@
 # Map Notes (Olivine Lighthouse)
 - 3F Middle Section: Reachable by falling through pit (8, 3) or (9, 3) on 4F.
 - 5F Warps: (9, 7) Ladder to 4F, (9, 15) Ladder (destination unknown).
+- Sailor Ernest (5F, 8, 11): Poliwhirl Lv18 (Active). Calcifer at 56/78 HP.
