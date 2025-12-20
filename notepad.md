@@ -4,11 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Verify Kenya's Mail.
-  1. **Step 1:** Select `READ` to view the mail message.
-  2. **Step 2:** Verify message is "DARK CAVE leads to another road".
-  3. **Step 3:** If correct, exit menus and return to Route 31.
-  4. **Step 4:** Retry delivery, ensuring to read dialogue carefully.
+- **Current Action:** Verify Kenya's Mail (Retry).
+  1. **Situation:** Previous attempt to read mail resulted in menu closure. Retrying.
+  2. **Step 1:** Open Kenya's menu (Current).
+  3. **Step 2:** Navigate to `MAIL`.
+  4. **Step 3:** Select `READ` and confirm message "DARK CAVE leads to another road".
+  5. **Step 4:** If message confirms, return to Route 31.
+  6. **Inventory Note:** I have 2 extra Flower Mails in the bag, but Kenya is holding one (icon visible).
 
 ## Strategy & Lessons
 - **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
