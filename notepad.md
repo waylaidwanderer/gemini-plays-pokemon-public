@@ -39,14 +39,6 @@
 # Strategy
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Gym trainers and Morty.
-- Healing GNEISS with 2 Berries (Turn #5108). Target HP: ~54/82.
-
-# Gym Puzzle Notes
-- Sightline Theory: The invisible path follows the trainers' sightlines.
-- Ping (3, 13) -> (6, 13).
-- (6, 13) to (6, 9) is safe.
-- Grace (7, 9) -> (3, 9).
-- (3, 9) to (3, 7) is safe.
-- Jeffrey (2, 7) -> (5, 7).
-- Connection from Jeffrey to Martha: (5, 7) -> (6, 7) -> (6, 6) -> (6, 5).
-- Verified: (6, 7) is NOT a warp (not in Map Events list). It is a safe tile for crossing from Jeffrey's sightline to x=6 corridor. (Turn #5107)
+- Healed GNEISS with 2 Berries (Turn #5110). HP restored by ~20.
+- Verified: (6, 7) is NOT in the Map Events warp list, so it is safe to traverse despite XML/ASCII metadata.
+- Path to Martha: (3, 9) -> (3, 8) -> (3, 7) -> (4, 7) -> (5, 7) -> (6, 7) -> (6, 6) -> (6, 5) -> (7, 5). (Turn #5110)
