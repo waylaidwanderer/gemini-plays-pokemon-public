@@ -35,14 +35,10 @@
 - Catch Checklist: Magnemite, Miltank, Tauros.
 - Exploration: Check western edge (x=0) for Route 39 transition.
 - Turn 5370: Started Route 39 exploration.
-- Moomoo Farm: The farm's Miltank is sick and won't give milk. Need to investigate.
-
-# Type Effectiveness (Verified)
-- Rock vs Flying: Super Effective.
-- Normal vs Rock: Not Very Effective.
-- Electric vs Ground: Immune.
-- Normal vs Water: Neutral.
+- Moomoo Farm: The farm's Miltank is sick. Need to find and feed it berries.
+- Progress: Talked to Pokefans in farmhouse. They need berries for the Miltank.
 
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
 - Fruit Tree (9, 3): Discovered.
+- Moomoo Farmhouse (5, 3): Visited. Pokefans confirmed Miltank is sick.
