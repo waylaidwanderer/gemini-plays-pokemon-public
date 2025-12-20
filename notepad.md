@@ -4,17 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Inspect Kenya's Mail.
-  1. **Contradiction:** Fisher said "No Mail", but Game says "Has Mail".
-  2. **Plan:**
-     - Exit Pack (`B`).
-     - Enter Party (`Start` -> `Pokemon`).
-     - Select Kenya -> `MAIL` -> `READ`.
-     - **Goal:** See what is actually attached.
-     - **Then:** `TAKE` mail (to clear slot), then `GIVE` fresh Flower Mail.
-  3. **Target:** Fisher at (17, 7).
+- **Immediate Action:** Open Kenya's Sub-menu.
+  1. **Current State:** Party Menu (Kenya selected).
+  2. **Action:** Press `A`.
+  3. **Goal:** Reveal options (STATS, SWITCH, MOVE, MAIL).
+  4. **Next Turn:** Select MAIL -> READ.
+  5. **Hypothesis:** Kenya HAS mail (preventing new mail from being given), but Fisher says "No Mail", implying it might be blank or incorrect.
 - **Route Info:** Route 31.
-- **Mail Status:** Investigating contradiction.
+- **Mail Status:** Verifying content.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
