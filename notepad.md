@@ -48,6 +48,7 @@
 - Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
 
 # Ecruteak City Lore
+- Motto: "A Historical City Where the Past Meets the Present". (Turn #4787)
 - History: Used to have two towers, one in the east and one in the west. (Turn #4764)
 
 # Ecruteak City Events
