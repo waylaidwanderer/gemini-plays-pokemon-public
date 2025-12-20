@@ -55,3 +55,6 @@
 - Recovery: Use Potions or return to a Pokémon Center if the team's health drops too low during the long surf.
 - Defeated: Swimmer George (R41, 46, 8)
 - Trainer: Swimmer Kara (R41, 44, 28)
+- Battle Tools: find_path_v2 and other map-based tools fail during battle due to missing map data.
+- Reflection (Turn 6024): Checked last 50 turns. No tasks deferred. Notepad is being cleaned up. Markers are up to date. Goals are clear. No false constraints identified.
+- Swimmer Kara (R41, 44, 28): In Progress.
