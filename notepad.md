@@ -19,6 +19,7 @@
 
 # Type Effectiveness Chart
 - Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
+- Rollout (Rock) vs Mantine (Water/Flying): Super effective.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
