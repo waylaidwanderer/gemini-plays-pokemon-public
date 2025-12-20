@@ -35,7 +35,10 @@
 
 # Strategy
 - Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 4F.
-- 4F Strategy: Explore the eastern section. If no ladder to 5F is found, fall through a pit to land in the unreachable 3F Middle section.
+- 4F Strategy:
+  1. Defeat the Sailor at (7, 14).
+  2. Explore the southern/western section past him.
+  3. If no ladder to 5F is found here, use the floor pits at (16, 9) or (17, 9) to reach the 3F middle section.
 - Backtrack for 7 standard Berries after finding Jasmine.
 
 # Trainer Progress (Olivine Lighthouse)
@@ -43,6 +46,7 @@
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
 - Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
 - Gentleman Preston (13, 5, 3F): Growlithe Lv18, Growlithe Lv18. Defeated Turn 5602.
+- Sailor at (7, 14, 4F). Unchallenged.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
