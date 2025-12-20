@@ -19,3 +19,8 @@
 
 # Swarm Events
 - Yanma: Route 35 (Turn 5683).
+
+# Map Notes (6F)
+- Arrived on 6F via ladder at (9, 15).
+- 6F layout exploration in progress.
+- Goal: Find Jasmine.
