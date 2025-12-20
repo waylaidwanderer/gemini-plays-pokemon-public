@@ -12,7 +12,7 @@
 - EGG (CLEFFA) Lv5
 
 # Tile Mechanics
-- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` in map data.
+- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'`.
 - STATUE: Impassable background object.
 - COUNTER: Impassable, interact over it.
 - LEDGE_HOP: One-way traversable.
@@ -22,6 +22,7 @@
 # Trainer Rosters
 - Sage Ping: Gastly Lv16 x3.
 - Medium Grace: Haunter Lv20 x2.
+- Sage (ID 2): Upcoming.
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
