@@ -99,9 +99,16 @@
 - STATUE: Impassable background object.
 
 # Safe Path Progress
-- (4, 17)-(4, 16): Safe
-- (4, 16)-(2, 16): Safe
-- (2, 16)-(2, 13): Testing...
+- (4, 17) -> (4, 16) -> (2, 16) -> (2, 13): Verified Safe.
+- (2, 13) -> (6, 13): Testing...
+
+# Pit Warps Discovered
+- Row 14: (4, 14)
+- Row 13: (7, 13)
+- Row 12: (2, 12), (3, 12), (4, 12), (5, 12), (7, 12)
+- Row 11: (2, 11), (7, 11)
+- Row 10: (2, 10), (4, 10), (5, 10), (7, 10)
+- Row 9: (2, 9)
 
 # Strategy
 - Safe tiles have `is-warp='false'` in Mental Map.
