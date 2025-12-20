@@ -54,7 +54,7 @@
     - **Poke Seer's House:** Located at (5, 17).
     - **Suicune Event:** Encountered Suicune at (10, 14). It ran away. Defeated Eusine.
     - **Gym:** Leader Chuck is here. Location unconfirmed, likely in the unexplored middle section (around y=25-30).
-    - **Rocks:** Smashed rock at (4, 25). Found a wild Shuckle inside! Heading to smash rock at (4, 19).
+    - **Rocks:** Smashed rock at (4, 25) (Shuckle) and (4, 19) (Empty). Heading to smash rocks at (9, 17) and (8, 16).
 - **Eusine Battle:**
     - Drowzee (Lv 23). Used Hypnosis.
     - Haunter (Lv 23).
