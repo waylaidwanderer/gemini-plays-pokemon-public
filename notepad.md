@@ -9,7 +9,7 @@
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
 - Section Connectivity: 4F sections connected by gaps at y=2/3 (East-Middle) and y=14 (Middle-West).
 - Warp Verification: (16, 7) and (17, 7) on 4F are map transitions (walk RIGHT to trigger).
-- Descent Strategy: Use pits to quickly reach lower floors.
+- Descent Strategy: Use pits to quickly reach lower floors. 5F (16, 7) is a PIT to 4F.
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -27,7 +27,7 @@
 # Strategy: Get Amphy's Medicine
 - Quest started Turn 5707.
 - 1. Explore 6F (Complete).
-- 2. Leave Lighthouse via 6F Pits (16, 5) or (17, 5).
+- 2. Leave Lighthouse via 4F balcony or pits.
 - 3. Surf to Cianwood City (southwest of Olivine).
 - 4. Get medicine from Pharmacy and return.
-- 5. (Optional) Check 4F balcony theory on the way out.
+- 5. (Optional) Check 4F balcony theory now at (16, 7).
