@@ -63,3 +63,12 @@
 - Olivine Lighthouse (29, 27): Entry.
 - Sailor at (26, 27): Paces between (26, 26) and (26, 28).
 - Lass at (13, 4) in 4F: Non-battling NPC. Mentions JASMINE and the GYM.
+## Navigation Lessons
+- Ladders and Pits: These are triggered by walking onto the tile. Pressing A is unnecessary and often does nothing.
+- Lighthouse Descent: If stuck in the central pillar/room, look for ladders or pits that lead to the outer ring. The lighthouse has a ring-based structure.
+- Connectivity: Always verify if a target coordinate is reachable from the current position using a pathfinding script or by checking the Mental Map for walls.
+
+## Current Task: Exit Lighthouse
+- Start Turn: 6954
+- Current Position: 4F Central Room (9, 5)
+- Plan: Go down to 3F via ladder at (9, 5). From 3F, find a way to the outer ring.
