@@ -13,24 +13,43 @@
 
 # Game Mechanics & Systems
 ## Tile Mechanics
-- WATER: Traversable while surfing (requires HM03 and Fog Badge). Individual behavior: Allows movement across water. Relational behavior: Can be entered from land or water. Mechanics: Verified traversability in all directions.
-- FLOOR: Standard traversable ground. Individual behavior: Allows standard movement. Relational behavior: Can be entered from any adjacent traversable tile. Mechanics: Verified traversability in all directions.
-- WALL: Impassable barrier. Individual behavior: Cannot be walked on.
-- BUOY: Impassable wall-like barrier in water. Individual behavior: Cannot be walked on.
-- WHIRLPOOL: Impassable water hazard. Individual behavior: Cannot be walked on. Mechanics: Requires specific HM (Whirlpool) to cross.
-- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers. Individual behavior: Cannot be walked on.
-- COUNTER: Impassable. Individual behavior: Cannot be walked on. Relational behavior: Interact with NPC behind it from adjacent tile.
-- BOULDER: Impassable. Individual behavior: Cannot be walked on. Mechanics: Requires HM04 Strength to move.
-- PC: Interactable object for Pokémon/Item storage.
-- WARP: Leads to a different map or area.
+- WATER:
+    - Individual Behavior: Allows movement across water tiles.
+    - Relational Behavior: Can be entered from land or other water tiles.
+    - Mechanics: Requires HM03 SURF and the Fog Badge to traverse. Verified: Can move in all directions.
+- FLOOR:
+    - Individual Behavior: Standard traversable ground.
+    - Relational Behavior: Can be entered from any adjacent traversable tile.
+    - Mechanics: Verified: Can move in all directions.
+- WALL:
+    - Individual Behavior: Impassable barrier. Cannot be walked on or through.
+- BUOY:
+    - Individual Behavior: Impassable barrier in water. Functions like a wall.
+- WHIRLPOOL:
+    - Individual Behavior: Impassable water hazard.
+    - Mechanics: Requires a specific HM (Whirlpool) to cross.
+- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE:
+    - Individual Behavior: Impassable barriers.
+- COUNTER:
+    - Individual Behavior: Impassable barrier.
+    - Relational Behavior: To interact with an NPC behind a counter, face the counter tile directly and press A.
+- BOULDER:
+    - Individual Behavior: Impassable barrier.
+    - Mechanics: Can be moved using HM04 STRENGTH.
+- PC:
+    - Individual Behavior: Interactable object for Pokémon and Item storage.
+- WARP:
+    - Individual Behavior: Triggers a map transition to a new location.
 
 ## Lessons Learned
-- Strength (HM04): Obtained from the Sailor in Olivine Cafe (1_7).
-- Boulder Dialogue: "A POKéMON may be able to move this" = Strength (HM04). "A POKéMON may be able to smash this" = Rock Smash.
+- Rival sighting on Route 40: Hallucination. Rival does not appear on this route.
+- Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
+- Boulder Dialogue: "A POKéMON may be able to move this" indicates Strength is needed.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
-- Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move that can cause flinching.
-- Surfing: Allows traversal of WATER tiles (requires HM03 and Fog Badge).
-- NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
+- Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move.
+- NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
+- Confusion: Clears upon switching out or ending the battle.
+- XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
 
 # Battle and Pokemon Information
 ## Observed Movesets
