@@ -56,4 +56,5 @@
 - Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
 - Turn #4830: Calcifer switched in. Umbreon used Sand-Attack (failed).
 - Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack (Calcifer's accuracy fell).
-- Turn #4833: Calcifer at 76/76 HP. Using Headbutt again.
+- Turn #4833: Selected FIGHT.
+- Turn #4834: Calcifer at 76/76 HP. Using Headbutt. Accuracy is lowered.
