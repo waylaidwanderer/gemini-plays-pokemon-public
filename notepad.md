@@ -54,5 +54,6 @@
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Defeated (Turn #4858).
-- Naoko (Flareon): Battling (Turn #4881).
-- Turn #4882: GNEISS at 74/74 HP. Using Magnitude. Strategy: STAB Super Effective damage.
+- Naoko (Flareon): Defeated (Turn #4884).
+- All 5 Kimono Girls defeated!
+- Next step: Talk to the Gentleman in the theater to get HM03 Surf.
