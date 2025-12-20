@@ -6,12 +6,12 @@
 - **Immediate Plan:** Deposit Rocky, heal at Nurse Joy (Muscle is hurt), get Shuckie, then challenge Gym.
 
 ## Party Status
-- **Muscle (Machoke):** Lv 36.
+- **Muscle (Machoke):** Lv 37.
 - **Garnet (Quilava):** Lv 28.
 - **Hematite (Pinsir):** Lv 15.
-- **Rocky (Onix):** Lv 21.
 - **Azurite (Heracross):** Lv 13.
 - **Lapis (Poliwag):** Lv 10. (Surf carrier)
+- **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
 - **Webster:** Deliver mail to Route 31 (KENYA is in Box 1).
