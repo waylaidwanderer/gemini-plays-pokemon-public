@@ -55,3 +55,6 @@
 - **Observation:** Fisher rejected mail.
 - **Hypothesis:** Trying Cooltrainer M at (32, 9).
 - **Action:** Talking to him to see if he is the recipient.
+- **Interaction:** Talking to Cooltrainer M at (34, 8).
+- **Hypothesis:** He might be the mail recipient since the Fisher rejected it.
+- **Context:** The Fisher was sleeping, which matches Webster's description, but he rejected the mail. Checking other NPCs to be sure.
