@@ -26,4 +26,4 @@
 
 # Strategy: Olivine Lighthouse 6F
 - Systematic Exploration: Walk the perimeter clockwise starting from (10, 15) to uncover Jasmine's location.
-- Target: Reach (14, 15) to check the southeastern area.
+- Target: Reach (17, 11) to explore the eastern perimeter.
