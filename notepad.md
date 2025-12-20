@@ -47,4 +47,4 @@
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
 - 3F Middle Section (Sailor, Item, Ladder): Seems inaccessible from 3F East/West.
-- 4F Warps: (13, 3) Ladder to 3F, (9, 7) Ladder to 3F, (9, 5) Ladder to 5F, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT.
+- 4F Warps: (13, 3) Ladder to 3F, (3, 5) Ladder to 3F, (9, 7) Ladder to 3F, (9, 5) Ladder to 5F, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT.
