@@ -4,13 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Select Violet City (Up x2).
-  1. **Current State:** Fly Map Open (New Bark Town).
-  2. **Logic:** Previous tests confirmed `Up` moves New Bark -> Cherrygrove -> Violet.
-  3. **Action:** Press `Up` twice.
-  4. **Next Turn:** Verify "Violet City" on screen, then Confirm (`A` -> `A`).
-  5. **Goal:** Resupply Flower Mail at Violet Mart.
-- **Route Info:** Route 31 -> Violet City (Fly).
+- **Immediate Action:** Go to Violet City Mart.
+  1. **Current State:** Just landed in Violet City (Outside Pokemon Center).
+  2. **Plan:** Walk North/West to the Mart.
+  3. **Goal:** Buy 3x Flower Mail.
+  4. **Then:** Write "DARK CAVE leads to another road" on a mail attached to Kenya.
+  5. **Target:** Fisher at (17, 7) on Route 31.
+- **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Resupplying.
 
 ## Party Status
