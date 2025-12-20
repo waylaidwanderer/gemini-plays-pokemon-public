@@ -40,3 +40,5 @@
 - **Input Note:** Used `press_sequence` to send 5 B inputs to ensure full menu exit.
 - **Fly Map Navigation:** Confirmed cursor memory works (Start->Up->A->A->A got us back to Fly map with Mistral selected).
 - **Action:** Attempting `Left` (Cherrygrove) -> `Up` (Violet) -> `A` (Confirm) to Fly.
+- **Fly Navigation Plan:** Opening Fly map and navigating `Left` -> `Up`.
+- **Validation:** Will NOT press `A` to confirm yet. Checking screen text next turn to ensure "Violet City" is selected.
