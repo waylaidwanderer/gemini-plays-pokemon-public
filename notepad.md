@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Step 11: Enter Pack to Equip New Mail).
-  1. **Status:** Returned to Party menu after PC Mailbox full message. Moving to Pack.
-  2. **Step 1:** Exit Party Menu (B).
-  3. **Step 2:** Select PACK (Down -> A).
-  4. **Step 3:** Find FLOWER MAIL in Items pocket.
-  5. **Step 4:** Give to Kenya.
-  6. **Step 5:** Write "DARK CAVE leads to another road."
+- **Current Action:** Fix Kenya's Mail (Step 12: Select Give & Choose Kenya).
+  1. **Status:** Selected Flower Mail in Pack. Now giving it to Kenya.
+  2. **Step 1:** Open Item Menu (A).
+  3. **Step 2:** Select GIVE (Assume 1st option, press A).
+  4. **Step 3:** Select Kenya (Down x5 -> A).
+  5. **Step 4:** Write "DARK CAVE leads to another road."
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
