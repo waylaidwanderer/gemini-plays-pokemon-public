@@ -4,10 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Locate FLOWER MAIL in Pack.
-  1. Currently viewing [PARLYZ HEAL, PRZCUREBERRY, MIRACLE SEED, PSNCUREBERRY, ANTIDOTE, REPEL].
-  2. Scrolling UP to search for FLOWER MAIL (seen near BERRY/ETHER previously).
-  3. If found, Give to Kenya -> Type "DARK CAVE LEADS TO ANOTHER ROAD" -> Deliver.
+- **Immediate Action:** Scroll DOWN to find Flower Mail.
+  1. I suspect I am at the top of the list (PARLYZ HEAL).
+  2. FLOWER MAIL was seen previously with FULL HEAL/BERRY, likely further down.
+  3. Scrolling DOWN x 10 to search.
+  4. If found, Give to Kenya -> Type "DARK CAVE LEADS TO ANOTHER ROAD" -> Deliver.
 - **Hypothesis:** The game expects ALL CAPS for the password phrase, despite Webster's dialogue using mixed case.
 - **Previous Attempt:** "DARK CAVE leads to another road" (Rejected: "This MAIL isn't for me").
 
