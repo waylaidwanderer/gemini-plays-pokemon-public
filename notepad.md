@@ -34,8 +34,10 @@
 - Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32, R35, R36, R37, R38, R39.
 
 # Strategy
-- Olivine Lighthouse: Currently on 4F.
-- How: Investigate the potential hole at (16, 7). This likely leads to the inaccessible middle section of 3F.
+- Olivine Lighthouse: Currently on 3F (landed from 4F pit).
+- 3F Sections: West (x=0-6), Middle (x=8-10), East (x=12-19). Separated by walls at x=7 and x=11.
+- Middle Section 3F: Contains Sailor (9, 2), Item (8, 2), and Ladder to 4F (9, 5). Reachable via Ladder (9, 7) on 4F.
+- Plan: Go back to 4F via Ladder (13, 3), then use Ladder (9, 7) to explore 3F Middle.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Defeated.
@@ -45,14 +47,5 @@
 - Sailor Kent (7, 14, 4F): Defeated Turn 5626.
 
 # Map Notes (Olivine Lighthouse)
-- 3F Eastern Section: Ladder to next floor at (13, 3).
-- 3F Middle Section (Sailor, Item, Ladder): Seems inaccessible from 3F East/West.
-- 4F Warps: (13, 3) Ladder, (3, 5) Ladder, (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT, (16, 7) Potential Hole, (17, 7) Potential Hole.
-- Turn 5631-5632: Interrupted by Arnie's call. Lead swap to Calcifer failed due to menu error.
-- Turn 5633: Retrying lead swap to Calcifer, then proceeding to (16, 7).
-- Turn 5634: Arnie's call finished. Retrying lead swap to Calcifer.
-- 4F Exploration: Investigating (16, 7) hole next. Path is clear.
-- Turn 5635-5636: Exiting Pokedex and successful lead swap to Calcifer. Proceeding to (16, 7).
-- Turn 5637: Investigated (16, 7). It is a normal FLOOR tile, not a hole. Pits are confirmed at (16, 9) and (17, 9).
-- Lighthouse Progression Theory: 4F East -> Pit (16, 9) -> 3F Middle -> Ladder up -> 4F Middle -> Ladder (9, 5) to 5F.
-- Goal: Fall through pit at (16, 9).
+- 3F Warps: (13, 3) Ladder, (5, 3) Ladder, (9, 5) Ladder, (16, 11) PIT, (17, 11) PIT.
+- 4F Warps: (13, 3) Ladder, (3, 5) Ladder, (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT.
