@@ -16,6 +16,7 @@
 - Warp Verification: (16, 7) and (17, 7) on 4F are NOT map transitions; (18, 7) is a WALL.
 - Descent Strategy: Use pits to quickly reach lower floors. 4F (16, 9)/(17, 9) are PITs to 3F.
 - Visuals vs. Collision: Visual appearance of tiles (e.g., ground vs wall) can be misleading. Always verify collision types in the Mental Map (e.g., WALL type) before planning paths. (Turn 5863)
+- Olivine Harbor: Enclosed by buoys at Y=32. This is a dead end for reaching Route 40. (Turn 5911)
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -30,21 +31,15 @@
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
 - 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North.
 
-# PC Storage (Box 1)
-- Blarney (SUDOWOODO): Lv20
-- ROCKY (ONIX): Lv6
-- ICARUS (PIDGEY): Lv11
-- EGG (CLEFFA): Lv5
-
 # Milestones
 - Turn 5860: Caught Krabby (Ravioli) at (6, 25) in Olivine City.
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
 
 # Strategy: Get SecretPotion from Cianwood
-- Current Location: Olivine City harbor.
-- Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
-- Preparation: Teach Surf to Ravioli (Krabby). Heal at Pokémon Center.
-- Route: Route 40 is south of Olivine. Route 41 follows. Cianwood is the destination.
+- Current Location: Olivine City harbor (Dead end).
+- Task: Return to land and find the beach on the west side of Olivine City to access Route 40.
+- Route: Route 40 beach is west of the main city area. Surf south from there to Cianwood.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Obstacle: Buoy line at Y=32 in Olivine harbor. Need to find the exit to open water.
+- Obstacle: Buoy line at Y=32 in Olivine harbor prevents southern exit.
+- Status: Using Super Repel to avoid Tentacool while exiting the harbor.
