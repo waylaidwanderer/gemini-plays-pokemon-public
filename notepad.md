@@ -46,3 +46,5 @@
 - Turn 5605: Arrived on 4F. Ladder at (13, 3) leads back to 3F.
 - Lass at (11, 2, 4F). Unchallenged.
 - Warps detected on 4F: (9, 7), (9, 5), (9, 3) [PIT], (16, 7), (17, 7).
+- Lass Connie (11, 2, 4F). Facing Down. Battle started Turn 5606.
+- 4F Warps: (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 7) PIT, (17, 7) PIT.
