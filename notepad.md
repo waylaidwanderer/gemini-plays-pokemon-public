@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Fall down the pit at (8, 3) to reach 2F. Then exit the Lighthouse to challenge the Gym.
-- **Hypothesis:** This sequence (3F Center -> 2F Center -> 1F) is the correct exit path.
-- **Quest Update:** Amphy cured. Item at 3F(8,2) collected. Exiting now.
+- **Immediate Plan:** Climb the ladder at (9, 5) to return to 4F Center. Then find and fall into the pit at 4F(8, 3).
+- **Hypothesis:** Walking on 3F(8,3) didn't trigger a fall. I likely need to fall from 4F(8,3) to bypass the 3F floor entirely (double drop) or land on a specific trigger.
+- **Quest Update:** 3F Center seems to be a landing zone. The exit path requires a different drop from 4F.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
