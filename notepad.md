@@ -49,7 +49,7 @@
 - Meowth (Lv16). Caught. Nickname: XFDW (intended Ducat, input error).
 
 # Trainer Teams
-- Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo (Active). 3 Total.
+- Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective (Gneiss's Rock Throw vs Doduo).
