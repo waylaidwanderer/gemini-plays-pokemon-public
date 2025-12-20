@@ -4,14 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Navigate Pack to Flower Mail.
-  1. **Current State:** Inside Pack (Items Pocket).
-  2. **Goal:** Find FLOWER MAIL (7th item in list).
-  3. **Plan:**
-     - Scroll Down until `FLOWER MAIL` is selected.
-     - Press `A` -> `GIVE` -> `KENYA`.
-     - Write Message.
-  4. **Target:** Fisher at (17, 7).
+- **Immediate Action:** Select Flower Mail (Scroll Up).
+  1. **Current State:** In Pack. Cursor is on **CANCEL** (Bottom).
+  2. **Action:** Press `Up` to highlight `FLOWER MAIL`.
+  3. **Action:** Press `A` to open Item Menu.
+  4. **Next Turn:** Select `GIVE` -> `KENYA` -> Write Mail.
+  5. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
 - **Mail Status:** Equipping now.
 
