@@ -1,46 +1,33 @@
-# Strategy for Primary Goal (Travel to Mahogany Town)
-- Navigate Route 42 by Surfing east and battling trainers to reach Mahogany Town.
+# Strategy: Travel to Mahogany Town
+- Direction: East from Ecruteak City via Route 42.
+- Method: Use Surf to cross water segments.
+- Progression: Defeat trainers along the way (Fisher Tully currently).
 
-# Strategy for KIMCHI Training
-- Route: Route 42.
-- Method: Lead with KIMCHI, switch to Calcifer/GNEISS for shared XP.
-- Training Goal Started: Turn 7110. Goal: Lv21 for evolution into Gloom.
+# Strategy: KIMCHI Training
+- Target: Lv21 (Evolution to Gloom).
+- Current Level: 18.
+- Method: Lead in battles, then switch to stronger Pokemon (GNEISS/Calcifer) if necessary.
 
 # Tile Mechanics
-- FLOOR: Traversable.
-- WALL / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE / COUNTER: Impassable.
-- WATER: Traversable via Surf (HM03 + Fog Badge).
-- WHIRLPOOL: Impassable (likely requires HM).
-- LADDER / DOOR / PIT / WARP_CARPET: Map transition.
-- Relational: Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
+- Walkable: FLOOR, WATER (via Surf).
+- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, WHIRLPOOL.
+- Transitions: LADDER, DOOR, PIT, WARP_CARPET.
+- Special: Counter NPCs (interact with counter), PCs/Switches (face UP from BELOW).
 
 # Lessons Learned
-- Tool Maintenance: find_path_v2 logic for water-to-land transitions must allow movement onto land tiles even when the player is on a water tile (Surfing).
-- Map Markers: Always verify the map_id when placing markers, especially when near map boundaries.
-- Battle Mechanics: Karate Chop is a Fighting-type move in Crystal (verified turn 7167).
-- Fly Mechanics: HM02 Fly can only be used from the overworld (outdoors). Attempting to use it inside buildings or caves results in "Can't use that here."
-- Menu Navigation: When using HMs like Fly, ensure you are in the overworld before opening the menu to avoid redundant navigation.
-
-# Type Effectiveness Chart
-- Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
-- Rollout (Rock) vs Mantine (Water/Flying): Super effective.
-- Fighting (Karate Chop) vs Poison (Oddish): Not very effective.
-- Fighting (Karate Chop) vs Rock/Ground (Graveler): Super effective.
-- Water vs Fire (Quilava/Typhlosion): Super effective.
-- Water vs Rock/Ground (Graveler): 4x Super effective.
-- Grass vs Water/Fighting (Poliwrath): Super effective.
+- Tool Maintenance: find_path_v2 updated (Turn 7323) to handle trees and water-to-land transitions better.
+- Fly Mechanics: Only usable outdoors.
+- Type Matchups:
+  - MAGNITUDE (Ground) vs Water/Poison (Tentacruel/Qwilfish): Super Effective.
+  - ROLLOUT (Rock) vs Water/Flying (Mantine): Super Effective.
+  - Fighting (Karate Chop) vs Poison (Oddish): NVE.
+  - Fighting vs Rock/Ground: Super Effective.
+  - Water vs Fire: Super Effective.
+  - Water vs Rock/Ground: 4x Super Effective.
+  - Grass vs Water/Fighting: Super Effective.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5, SHUCKIE (SHUCKLE) Lv15.
 
-# Weakness Reference
-- Abra (Psychic): Bug, Ghost, Dark.
-- Growlithe (Fire): Water, Ground, Rock.
-- Snubbull (Normal): Fighting.
-
-# Active Task Tracking
-- Mahogany Town Trip Started: Turn 7281 (2025-12-20). Goal: Reach Mahogany Town and defeat the Gym Leader.
-- KIMCHI Training Started: Turn 7110. Goal: Lv21 for evolution.
-
 # Battle Strategies
-- Fisher Tully (Route 42): Lead with KIMCHI for XP, switch to GNEISS (Magnitude) or Calcifer if needed. Qwilfish is Water/Poison.
+- Fisher Tully (Route 42): Qwilfish (Water/Poison). Use SLEEP POWDER then switch or chip with CUT/ABSORB.
