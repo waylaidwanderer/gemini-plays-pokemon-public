@@ -38,6 +38,7 @@
 - Ground vs Ghost/Poison (Haunter): Super Effective.
 - Fire vs Dark (Umbreon): Neutral damage.
 - Fire vs Psychic (Espeon): Neutral damage.
+- Rock vs Flying/Poison (Zubat): Super Effective (4x).
 
 # Trainer Rosters
 ## Dance Theater
@@ -53,7 +54,7 @@
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
 - Eusine (ID 2) at (9, 14): Searching for Suicune.
 - Morty (ID 4) at (14, 15): Ecruteak Gym Leader.
-- Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5).
+- Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5), (5, 5), (5, 6), (4, 6).
 
 # Next Steps
 - Youngster at (11, 13) mentioned rampaging Pokémon at Lake of Rage (Turn #4900).
