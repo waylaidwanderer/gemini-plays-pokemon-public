@@ -55,9 +55,8 @@
 - Turn #4827: GNEISS used Magnitude 5. Umbreon used Pursuit.
 - Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
 - Turn #4830: Calcifer switched in. Umbreon used Sand-Attack (failed).
-- Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack (Calcifer's accuracy fell).
-- Turn #4833: Selected FIGHT.
-- Turn #4834: Calcifer used Headbutt (Missed). Umbreon used Pursuit. Calcifer at 70/76 HP.
-- Turn #4835: Selected FIGHT. Calcifer used Headbutt (Missed). Umbreon used Pursuit. Calcifer at 70/76 HP.
-- Turn #4836: Attempted to select FIGHT (failed, already in move menu).
-- Turn #4837: Using Headbutt. Accuracy is lowered.
+- Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack.
+- Turn #4834: Calcifer used Headbutt (Missed). Umbreon used Pursuit.
+- Turn #4835: Calcifer used Headbutt (Missed). Umbreon used Pursuit.
+- Turn #4838: Calcifer used Headbutt (Missed). Umbreon used Sand-Attack. Accuracy is very low.
+- Turn #4839: Selecting FIGHT. Using Headbutt.
