@@ -29,7 +29,7 @@
 
 # Strategy for Primary Goal
 - Current Goal: Defeat Gym Leader Chuck.
-- Method: Teach HM04 Strength to a Pokémon (GNEISS or Ravioli). Surf back to Cianwood City. Enter the Gym and use Strength to move the boulders at (3, 7), (4, 7), and (5, 7).
+- Method: Teach HM04 Strength to GNEISS. Surf back to Cianwood City. Enter the Gym. Boulder Puzzle Solution: Push the boulder at (3, 7) UP once, push the boulder at (5, 7) UP once, then push the middle boulder at (4, 7) LEFT or RIGHT to clear the path.
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
