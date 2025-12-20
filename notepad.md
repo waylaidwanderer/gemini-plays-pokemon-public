@@ -3,7 +3,12 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Challenge the Olivine Gym (10, 11). Jasmine uses Steel-types, so Muscle (Fighting) and Garnet (Fire) will be key.
+- **Olivine Gym:** Defeated Leader Jasmine.
+    - **Badge:** Mineral Badge (Raises Defense).
+    - **TM:** TM23 Iron Tail.
+    - **Battle:** Muscle (Machoke) swept with Karate Chop. Mistral was sacrificed to reset stats.
+- **Immediate Plan:** Exit Gym, heal up, then Fly to Violet City to deliver Kenya (Spearow) to Route 31. Then head East from Ecruteak to Mahogany Town.
+
 - **Quest Update:** Successfully escaped the Lighthouse using Dig. Amphy is cured.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
