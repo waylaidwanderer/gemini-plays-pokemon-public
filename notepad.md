@@ -13,6 +13,7 @@
 - Section Connectivity: 4F sections connected by gaps at y=2/3 (East-Middle) and y=14 (Middle-West).
 - Warp Verification: (16, 7) and (17, 7) on 4F are NOT map transitions; (18, 7) is a WALL.
 - Descent Strategy: Use pits to quickly reach lower floors. 4F (16, 9)/(17, 9) are PITs to 3F.
+- Visuals vs. Collision: Visual appearance of tiles (e.g., ground vs wall) can be misleading. Always verify collision types in the Mental Map (e.g., WALL type) before planning paths. (Turn 5863)
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -33,9 +34,13 @@
 - ICARUS (PIDGEY): Lv11
 - EGG (CLEFFA): Lv5
 
-# Discovery Log
-- Turn 5791: Encountered wild Krabby at (6, 25).
-- Turn 5860: Caught Krabby (Ravioli) at (6, 25). Mission complete! Switching to teaching Surf.
+# Active Tasks
+- Task: Get SecretPotion from Cianwood. (Started Turn 5863)
+- Task: Teach Surf to Ravioli. (Started Turn 5860)
+
+# Milestones
+- Turn 5860: Caught Krabby (Ravioli) at (6, 25) in Olivine City.
+- Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
 
 # Goal: Get SecretPotion from Cianwood
 - Current Location: Olivine City.
