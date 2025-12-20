@@ -3,10 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to (3, 5) on 4F. Climb to 5F.
-- **Route:** 4F(13,3) -> South to (14,14) -> West to (8,14) -> Bypass Sailor via Row 15 -> West to (3,14) -> North to (3,5).
-- **Hypothesis:** Re-entering the building resets Bird Keeper Denis's position/state on 5F.
-- **Quest Update:** Returned to 4F. Climbing to 5F to check Denis.
+- **Immediate Plan:** Navigate to (9, 3) on 4F and fall into the pit.
+- **Hypothesis:** The pits at 4F(8,3) and 4F(9,3) lead to the central area of 3F, allowing access to the central ladder column.
+- **Quest Update:** 5F trainer blocked the top pit. 4F Right Wing pits led to exit. Testing 4F Left Wing pits.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
