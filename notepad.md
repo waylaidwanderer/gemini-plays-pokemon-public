@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fly to Violet City.
-  1. **Status:** Exiting Pack to use Fly.
-  2. **Step 1:** Exit Pack & Menu (B x3).
-  3. **Step 2:** Open Menu (Start).
-  4. **Step 3:** Select POKEMON (Expect cursor on PACK -> Up -> A).
-  5. **Step 4:** Select Mistral (Slot 5) -> FLY.
-  6. **Step 5:** Select Violet City on Map.
+- **Current Action:** Fly to Violet City (Select Mistral).
+  1. **Status:** In Party Menu. Cursor on Garnet (Slot 3).
+  2. **Step 1:** Navigate to Mistral (Slot 5) -> Down x2.
+  3. **Step 2:** Select Mistral -> A.
+  4. **Step 3:** Select FLY (Expect it at top of menu).
+  5. **Step 4:** Select Violet City on Map.
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
