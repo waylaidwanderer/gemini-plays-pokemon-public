@@ -41,3 +41,4 @@
 # Strategy
 - Use `find_path_v2` for overworld navigation.
 - Use battle_strategist_v2 for Gym leaders. (Turn #5199)
+- Verified: (6, 7) is SAFE to walk on despite XML is-warp='true'. It is the only connection between the north and south paths. (Turn #5200)
