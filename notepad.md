@@ -58,6 +58,7 @@
 # Progress & Logs
 - KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6876).
 - Calcifer (QUILAVA): Lv35.
+- Rival Malice: Confirmed at (14, 15) on water (Turn 6868).
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
