@@ -51,7 +51,9 @@
 - Pokemon Center: (23, 27).
 - Dance Theater: (23, 21).
 - Tin Tower Entrance: (18, 11).
+- Ecruteak Gym Entrance: (6, 27).
 - Building at (5, 21).
+- Building at (13, 27).
 - Strategy: Heal at PC, then challenge Morty.
 - City Navigation Start: Turn #5019.
 
