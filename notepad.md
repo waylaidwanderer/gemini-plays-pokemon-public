@@ -4,10 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fly to Violet City (Select & Confirm).
-  1. **Status:** Cursor on New Bark Town.
-  2. **Step 1:** Navigate to Violet City (Left -> Up).
-  3. **Step 2:** Verify "Violet City" in text.
+- **Current Action:** Fly to Violet City (Confirm Destination).
+  1. **Status:** Cursor on Cherrygrove City. Previous 'Up' input failed to register during scroll.
+  2. **Step 1:** Press Up to select Violet City.
+  3. **Step 2:** Verify "Violet City" text.
   4. **Step 3:** Press A to Fly.
 
 ## Reflection (Turn 9097)
