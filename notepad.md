@@ -7,7 +7,7 @@
 - PIT: One-way warp to floor below.
 - WARP_CARPET_DOWN: Exit warp.
 - WATER: Traversable only while using Surf. Requires a Pokémon with the move Surf and the Fog Badge (obtained from Morty).
-- BUOY: Impassable water barrier. Verified at (13, 32) in Olivine City.
+- BUOY: Impassable water barrier. Verified at (13, 32) in Olivine City and (19, 14-17) on Route 40.
 
 # Lessons Learned
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
@@ -34,6 +34,7 @@
 # Milestones
 - Turn 5860: Caught Krabby (Ravioli) at (6, 25) in Olivine City.
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
+- Turn 5922: Reached Route 40.
 
 # Strategy: Get SecretPotion from Cianwood
 - Task Started: Turn 5863.
@@ -43,4 +44,4 @@
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Status: Surfing south on Route 40 towards Route 41. (Turn 5934)
+- Status: Resuming Surf south from (12, 14) on Route 40. (Turn 5941)
