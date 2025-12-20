@@ -61,3 +61,4 @@
 - **Inventory Note:** The Game State inventory list is sorted alphabetically and does NOT reflect in-game bag order. Must inspect bag visually to find item indices.
 - **Battle Log:** Drowzee's Dream Eater deals ~14 damage to Muscle (Lv 37 vs Lv 23). Very manageable.
 - **Mechanics:** In Gen 2, Pokemon wake up at the start of the turn and can attack immediately. Mash Fight/Dig.
+- **Battle Update:** Muscle still asleep. Drowzee spamming Dream Eater. Muscle HP: 59/121. Continuing to select DIG to wake up and attack.
