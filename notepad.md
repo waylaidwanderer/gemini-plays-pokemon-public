@@ -46,3 +46,6 @@
 - Route 35: Pidgey, Nidoran M/F, Jigpuff, Abra, Yanma (Swarm), Ditto.
 - National Park: Pidgey, Caterpie, Metapod, Weedle, Kakuna, Sunkern.
 - Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
+
+# Ecruteak City Lore
+- History: Used to have two towers, one in the east and one in the west. (Turn #4764)
