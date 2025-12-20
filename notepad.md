@@ -75,6 +75,6 @@
 - Start Turn: 6994
 - Current Position: Olivine Gym (5, 5)
 - Plan:
-    1. Swap Calcifer (QUILAVA) to the lead position and GNEISS (GRAVELER) to the second position.
+    1. Swap Calcifer (QUILAVA) to the lead position.
     2. Move to (5, 4) and face UP to talk to Jasmine at (5, 3).
-    3. Defeat Jasmine using Calcifer's FLAME WHEEL and GNEISS's MAGNITUDE.
+    3. Defeat Jasmine using Calcifer's FLAME WHEEL.
