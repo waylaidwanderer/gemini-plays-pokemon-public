@@ -8,8 +8,8 @@
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
 - Section Connectivity: 4F sections connected by gaps at y=2/3 (East-Middle) and y=14 (Middle-West).
-- Warp Verification: (16, 7) and (17, 7) on 4F are map transitions (walk RIGHT to trigger).
-- Descent Strategy: Use pits to quickly reach lower floors. 5F (16, 7) is a PIT to 4F.
+- Warp Verification: (16, 7) and (17, 7) on 4F are NOT map transitions; (18, 7) is a WALL.
+- Descent Strategy: Use pits to quickly reach lower floors. 4F (16, 9)/(17, 9) are PITs to 3F.
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
