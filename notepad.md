@@ -1,8 +1,9 @@
-# Strategy for Primary Goal (Defeat Gym Leader Jasmine)
-- Observation: Jasmine uses Steel-type Pokémon (2x Magnemite Lv30, Steelix Lv35).
-- Weaknesses: Fire, Fighting, Ground.
-- Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
-- Plan: Use Calcifer's FLAME WHEEL as the primary weapon. Special Fire moves bypass Steel-type physical bulk.
+# Strategy for Primary Goal (Defeat Gym Leader Chuck)
+- Observation: Chuck uses Fighting-type Pokémon (Primeape Lv27, Poliwrath Lv30).
+- Weaknesses: Flying, Psychic.
+- Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
+- Note: Poliwrath is Water/Fighting. GNEISS is 4x weak to Water. Calcifer is weak to Water.
+- Plan: Train KIMCHI to a higher level. Use KIMCHI's Grass moves against Poliwrath.
 
 # Strategy for KIMCHI Training
 - Training Route: Surf Route 40/41.
@@ -25,7 +26,7 @@
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
 - Boulder Dialogue: "A POKéMON may be able to move this" indicates Strength is needed.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
-- Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move. Steelix has high Physical Defense but lower Special Defense; use Special attacks (Fire).
+- Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move. Steelix has high Physical Defense but lower Special Defense.
 - NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
 - Rival (Malice) Anomaly: Sprite confirmed standing on water at (14, 15) on Route 40 (Turn 6868). Currently absent.
@@ -50,7 +51,7 @@
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
 
 # Progress & Logs
-- Gym Progress: 4/8 Badges.
+- Badges: 5/16 (Zephyr, Hive, Plain, Fog, Mineral).
 - KIMCHI Training: Lv15. Target: Lv21+ for evolution.
 
 # General Knowledge
@@ -65,7 +66,10 @@
 - Sailor at (26, 27): Paces between (26, 26) and (26, 28).
 - Lass at (13, 4) in 4F: Non-battling NPC. Mentions JASMINE and the GYM.
 
-## Current Task: Defeat Jasmine
-- Start Turn: 7021
-- Plan: Defeat Jasmine's team using Calcifer's FLAME WHEEL.
-- Progress: Magnemite #1 and Steelix defeated. Magnemite #2 is on the field.
+## Current Task: Return to Cianwood
+- Start Turn: 7025
+- Plan:
+    1. Exit Olivine Gym.
+    2. Heal at Olivine Pokemon Center (13, 21).
+    3. Surf from Route 40 to Cianwood City.
+    4. Defeat Gym Leader Chuck.
