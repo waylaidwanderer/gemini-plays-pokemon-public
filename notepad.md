@@ -4,12 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Correct Menu Selection.
-  1. **Current State:** "Throw away how many?" dialog (Mistake: Selected Toss).
-  2. **Action:** Press `B` to cancel, `Up` to select `GIVE`, `A` to confirm.
-  3. **Next:** Select Kenya from Party list.
-  4. **Next:** Compose Message ("Dark Cave..." or simple "Hi").
-  5. **Target:** Fisher at (17, 7) on Route 31.
+- **Immediate Action:** Correct Menu Selection (Mail has no USE option).
+  1. **Current State:** "Throw away how many?" (Mistake: Selected TOSS).
+  2. **Action:** Press `B` to cancel toss, `Up` to select `GIVE`, `A` to confirm.
+  3. **Note:** Mail menu is [GIVE, TOSS, QUIT]. Default is GIVE. Do NOT press Down.
+  4. **Next:** Select Kenya (Slot 6) from Party list.
+  5. **Next:** Compose Message.
+  6. **Target:** Fisher at (17, 7) on Route 31.
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
