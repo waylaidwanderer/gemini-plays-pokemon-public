@@ -52,3 +52,4 @@
 - Turn 5633: Retrying lead swap to Calcifer, then proceeding to (16, 7).
 - Turn 5634: Arnie's call finished. Retrying lead swap to Calcifer.
 - 4F Exploration: Investigating (16, 7) hole next. Path is clear.
+- Turn 5635: Exiting Pokedex and retrying lead swap. Menu was accidentally opened to Pokedex. Correcting party order now.
