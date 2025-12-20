@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Retry with Title Case).
-  1. **Status:** Fisher rejected "DARK CAVE". Hypothesizing "Dark Cave" (Title Case) is required.
-  2. **Step 1:** Return to Overworld (B x3).
-  3. **Step 2:** Open Menu -> Party.
-  4. **Step 3:** Take Mail (Lose Message).
-  5. **Step 4:** Equip Flower Mail -> Write: "Dark Cave leads to another road."
-  6. **Step 5:** Deliver to Fisher.
+- **Current Action:** Fix Kenya's Mail (Open Party).
+  1. **Status:** Opened Start Menu.
+  2. **Step 1:** Select POKEMON.
+  3. **Step 2:** Select Kenya -> MAIL -> TAKE.
+  4. **Step 3:** Equip Flower Mail -> Write "Dark Cave leads to another road."
+  5. **Step 4:** Deliver to Fisher.
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
