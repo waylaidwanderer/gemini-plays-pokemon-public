@@ -25,18 +25,19 @@
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
 - Swimmer Susie (Route 41, 23, 19): Psyduck (Lv20) uses Disable, Goldeen (Lv22).
 - Blackbelt Lung (Cianwood Gym): Mankey (Lv23) x2, Primeape (Lv25).
-- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop. Poliwrath (Lv30) uses Surf.
+- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop. Poliwrath (Lv30) uses Surf, DynamicPunch.
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
 - Normal: Neutral against Water.
 - Poison: Resists Fighting (Oddish).
 - Grass: Super Effective against Water.
+- Fighting: Super Effective against Rock/Steel (assumed), resisted by Poison/Flying/Psychic/Bug/Fairy (wait, Fairy doesn't exist in Gen 2). Resisted by Poison.
 
 # Strategy for Primary Goal (Defeat Chuck)
 - Current Plan: Last stand with Ravioli (Lv10) and Frittata (Lv5).
-- Status: Poliwrath (~50% HP) has -2 Accuracy. KIMCHI fainted Turn 6693.
-- Note: If we blackout, we need to restock and train before retrying.
+- Status: Poliwrath (~50% HP) has -2 Accuracy. KIMCHI fainted Turn 6695.
+- Note: If we blackout, we need to restock and train before retrying. 1 failed attempt at Chuck.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
