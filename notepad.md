@@ -48,12 +48,12 @@
 - **Route 41:** Defeated Swimmer Wendy at (9, 50). Continuing West towards Cianwood.
 - **Cianwood City:** Arrived.
     - **Pokemon Center:** Located at (23, 43).
-    - **Pharmacy:** Located at (15, 47).
+    - **Pharmacy:** Located at (15, 47). Obtained SECRETPOTION.
     - **Lugia Speech House:** Located at (15, 37).
     - **Mania's House:** Located at (17, 41). Mania gave Shuckie (Lv 15).
     - **Poke Seer's House:** Located at (5, 17).
-    - **Suicune Event:** Encountered Suicune at (10, 14). It ran away. Eusine appeared and challenged me to a battle to earn Suicune's respect.
-    - **Gym:** Leader Chuck is here. Location still unconfirmed, likely North.
+    - **Suicune Event:** Encountered Suicune at (10, 14). It ran away. Defeated Eusine.
+    - **Gym:** Leader Chuck is here. Location likely (5, 17).
 - **Eusine Battle:**
     - Drowzee (Lv 23). Used Hypnosis.
     - Haunter (Lv 23).
