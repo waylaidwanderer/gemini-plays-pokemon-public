@@ -3,7 +3,7 @@
 - Weaknesses: Fire, Fighting, Ground.
 - Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
 - Plan: Lead with Calcifer (Flame Wheel). Use GNEISS (Magnitude) as backup.
-- Current Status: Battle in progress. Magnemite #1 defeated. Steelix is next.
+- Current Status: Battle in progress. Magnemite #1 and Steelix defeated. Magnemite #2 is next.
 
 # Strategy for KIMCHI Training
 - Training Route: Surf Route 40/41.
