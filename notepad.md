@@ -4,14 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail.
-  1. **Situation:** Mail content was unverified or blank. Fisher rejected it.
+- **Current Action:** Verify Kenya's Mail Content (Crucial Step).
+  1. **Situation:** Need to confirm EXACT text before deciding to rewrite.
   2. **Plan:**
-     - Take current mail from Kenya (to reset).
-     - Give fresh Flower Mail to Kenya from Bag.
-     - Write exact message: "DARK CAVE leads to another road".
-     - Return to Route 31 Fisher.
-  3. **Immediate Step:** Press `B` to return to menu, then `TAKE` mail.
+     - Open Kenya's Menu -> MAIL -> READ.
+     - **Observe Screen Text:** Confirm if it says "DARK CAVE leads to another road".
+     - **Decision:**
+       - If YES: Do NOT rewrite. Problem is delivery target. Move Kenya to Slot 1 and retry delivery.
+       - If NO: Take mail, give fresh mail, write correct message.
+  3. **Immediate Step:** Open Menu (`A`), navigate to MAIL (`Down` x3).
 
 ## Strategy & Lessons
 - **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
