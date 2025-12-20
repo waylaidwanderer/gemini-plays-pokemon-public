@@ -39,3 +39,4 @@
     - **Badge:** Storm Badge (Allows Fly).
     - **TM:** TM01 DynamicPunch.
     - **Puzzle:** Strength boulders.
+- **Gym Guide Advice:** Jasmine uses the newly discovered Steel-type Pokémon. They have high defense and many resistances. Fire and Fighting moves are recommended.
