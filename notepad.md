@@ -65,3 +65,7 @@
 - **Action:** Talking to Youngster at (9, 5) to verify if he is the recipient.
 - **Contingency:** If Youngster is not the recipient, I will assume the Fisher is the correct target but requires the specific mail message ("DARK CAVE leads to another road").
 - **Plan:** If Youngster fails, I will rewrite the mail on Kenya to match the original message.
+- **Status:** Fisher rejected blank Flower Mail. Confirmed he is the recipient.
+- **Plan:** Fly to Violet City, buy new Flower Mail, write "DARK CAVE leads to another road", and return.
+- **Reason:** Need to rewrite mail message, which requires a fresh mail item (current one is attached and can't be edited easily without swapping).
+- **Navigation:** Using Fly to bypass obstacles (Ledge/Cut Tree) blocking the path back to Violet City.
