@@ -61,3 +61,4 @@
 - Mart (19, 17): Olivine City Mart.
 - House (25, 11): Leads to 2_5 (1, 1).
 - NPC Youngster (20, 13): Mentions Pokegear.
+- Building (13, 15): Blue building with yellow sign.
