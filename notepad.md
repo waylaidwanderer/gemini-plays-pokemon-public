@@ -64,12 +64,14 @@
 - **Remaining:** "another road".
 - **Mail Typing:** Typing "another road".
 - **Verification:** Will verify text on screen before confirming with END.
-- **Action:** Writing Mail on Kenya.
-- **Message:** "DARK CAVE leads to another road".
-- **Typing Plan:**
-  1. "DARK CAVE" (Caps)
-  2. " leads to" (Lower)
-  3. " another road" (Lower)
+- **Action:** Fix Kenya's Mail (Kenya already holding mail).
+- **Plan:**
+  1. Back out to Overworld.
+  2. Open Party Menu.
+  3. Select Kenya -> MAIL -> TAKE (Save to PC).
+  4. Open Pack -> Flower Mail -> GIVE -> Kenya.
+  5. Write "DARK CAVE leads to another road".
+- **Note:** Lapis also holding mail (mistake), fix later.
 - **Mail Progress:** Typing "DARK CAVE ".
 - **Cursor End Position:** Space (Row 2, Col 6).
 - **Next Step:** Switch to lower case, type "leads to another road".
