@@ -26,8 +26,7 @@
 
 # Trainer Progress
 - Olivine Lighthouse Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
-- Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28), Swimmer Kirk (32, 30).
-- Current Battle: Swimmer Denise (27, 34). Calcifer (Lv 30) vs Seel (Lv 22).
+- Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28), Swimmer Kirk (32, 30), Swimmer Denise (27, 34).
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO): Lv20
