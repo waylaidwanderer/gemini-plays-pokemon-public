@@ -87,3 +87,5 @@
 - **Threats:** Hypnosis. Have 2 Awakenings.
 - **Action:** Navigating party menu to Switch Muscle (Slot 1) in.
 - **Sequence:** B (Cancel Shuckie menu) -> Up x5 (Select Muscle) -> A (Select) -> A (Switch).
+- **Correction:** Previous switch attempt failed or didn't register. Cursor is confirmed on Muscle (Slot 1).
+- **Action:** Retrying Switch to Muscle. Pressing A (Open Menu) -> A (Switch).
