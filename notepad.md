@@ -5,7 +5,7 @@
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
 - **Immediate Plan:** Navigate to the Ladder at (3, 5), go down to 4F, and immediately return to 5F.
 - **Reasoning:** The trainer at (8, 3) said he would "Fly away" but hasn't moved. Leaving the map and returning should trigger his departure/despawn.
-- **Quest Update:** Attempting to clear the path by refreshing the map.
+- **Quest Update:** Attempting to refresh the map to clear the path.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
