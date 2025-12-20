@@ -13,4 +13,4 @@
 # Map Notes
 - 3F Middle: Reachable via 4F pits (8,3)/(9,3).
 - 5F Warps: (9,7) Ladder to 4F, (9,15) Ladder (destination unknown).
-- Ernest (5F): Machop Lv18, Poliwhirl Lv18, Machop (Lv18, Active). Battle Turn 5681.
+- Ernest (5F): Defeated.
