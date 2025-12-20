@@ -30,7 +30,6 @@
 ## Battle Log
 - **Blackbelt Yoshi (Hitmonlee):** Defeated.
 - **Blackbelt Lao (Hitmonchan):** Defeated.
-- **Current Battle:** Defeated Blackbelt Nob.
 - **Gym Layout:** Left side has Blackbelts. Right side has boulders (3,7), (4,7), (5,7).
 - **Boulder Puzzle Strategy:**
   1. Teach Strength to Muscle (HM04).
@@ -38,6 +37,7 @@
   3. Push Boulder (3,7) UP.
   4. Stand at (3,7). Push Boulder (4,7) RIGHT.
   5. Go North through (4,7) -> (4,6).
+- **Blocked Paths:** (4, 19) South is blocked by wall/ledge. (4, 29) South is blocked by wall/ledge (4, 30).
 - **Blocked Paths:** (4, 19) South is blocked by wall/ledge. (4, 29) South is blocked by wall/ledge (4, 30).
 - **Plan:** Western area access seems to be from the North (North of Suicune spot). Heading back to (10, 27) and then North to (10, 14).
 - **Exploration Update:** Surfing East/North from the beach at (13, 16) is blocked by rocks and buoys. The "channel" at Col 18 is a dead end.
