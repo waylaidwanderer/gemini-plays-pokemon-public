@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Equip Flower Mail to Kenya.
-  1. **Current State:** Outside Mart.
-  2. **Action:** Open Menu (`Start`) -> Pack -> Items -> Flower Mail -> Give -> Kenya.
-  3. **Note:** Will need to compose a short message (e.g., "HI").
-  4. **Next:** Navigate East to Route 31.
+- **Immediate Action:** Correct Menu Selection.
+  1. **Current State:** "Throw away how many?" dialog (Mistake: Selected Toss).
+  2. **Action:** Press `B` to cancel, `Up` to select `GIVE`, `A` to confirm.
+  3. **Next:** Select Kenya from Party list.
+  4. **Next:** Compose Message ("Dark Cave..." or simple "Hi").
+  5. **Target:** Fisher at (17, 7) on Route 31.
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
