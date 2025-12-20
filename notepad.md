@@ -79,7 +79,7 @@
 - **Mail Typing:** Typed "DARK CAVE leads".
 - **Next Chunk:** " to an".
 - **Plan:** Space -> t -> o -> Space -> a -> n.
-- **Action:** Cleared "y", toggled UPPER, typed "DARK".
-- **Current State:** "DARK" on screen.
-- **Cursor:** At 'K' (Row 1, Col 0).
-- **Next:** Space -> CAVE.
+- **Correction:** Failed to type mail (exited to Pack by mistake).
+- **Current State:** In Pack -> TM/HM Pocket -> Teach Fly?
+- **Action:** Cancel "Teach Fly", navigate back to Items Pocket.
+- **Next:** Find Flower Mail -> Give -> Kenya.
