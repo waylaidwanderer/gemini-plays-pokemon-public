@@ -4,12 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Start Menu.
-  1. Press START.
-  2. Verify cursor position (Pack? Pokedex? Exit?).
-  3. Navigate to POKEMON (Slot 2).
-  4. Select Mistral -> FLY.
-  5. Target Violet City.
+- **Immediate Action:** Select Mistral & Fly.
+  1. Navigate to POKEMON (Down x2 -> A).
+  2. Select Mistral (Slot 5).
+  3. Select FLY.
+  4. Target Violet City.
 - **Hypothesis:** The game expects ALL CAPS for the password phrase.
 - **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
 - **Hypothesis:** The game expects ALL CAPS for the password phrase.
