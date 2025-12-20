@@ -59,3 +59,6 @@
 - **Mail Typing:** Typed "DARK CAVE".
 - **Next:** Space -> lower case switch -> "leads".
 - **Target String:** "DARK CAVE leads to another road".
+- **Mail Typing:** Typed "DARK CAVE l".
+- **Next Chunk:** "eads to ".
+- **Remaining:** "another road".
