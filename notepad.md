@@ -39,4 +39,4 @@
 - Sign at (20, 34): Cianwood City Sign.
 - TM08 Rock Smash is already in inventory.
 - Pokefan M at (16, 33) mentioned breaking rocks north of town.
-- Lugia Speech House Info: Mythical sea creature in the four islands; whirlpools are caused by it; special move needed to pass them (likely HM06 Whirlpool).
+- Lugia Speech House Info: Mythical sea creature in the four islands; whirlpools are caused by it; special move needed to pass them (likely HM06 Whirlpool); need SILVER WING to see the creature.
