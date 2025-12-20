@@ -76,3 +76,6 @@
 - **Battle Log:** Used Super Potion on Muscle (Slot 1). Healed +50 HP.
 - **Current State:** Shuckie is active. Haunter (Low HP) vs Shuckie.
 - **Next Plan:** Switch Muscle in to finish Haunter with Dig.
+- **Turn Flow:** Item used. Muscle healed to 74/121.
+- **Next Turn:** Expecting Haunter to attack Shuckie. Then I will Switch to Muscle.
+- **Risk:** Hypnosis from Haunter on switch-in. Have Awakenings if needed.
