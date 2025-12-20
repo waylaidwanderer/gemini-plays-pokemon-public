@@ -29,19 +29,6 @@
 - NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
 
-# Battle and Pokemon Information
-## Observed Movesets
-- Swimmer Susie: Psyduck (Lv20) uses Disable, Goldeen (Lv22).
-- Blackbelt Lung (Cianwood Gym): Mankny (Lv23) x2, Primeape (Lv25).
-- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop. Poliwrath (Lv30) uses Surf, DynamicPunch.
-
-## Type Effectiveness (Gen 2 Observed)
-- Fire: Super Effective against Steel. Resisted by Water.
-- Ground: Super Effective against Steel, Electric.
-- Water: Resists Fire.
-- Grass: Super Effective against Water.
-- Fighting: Resisted by Poison.
-
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
 
@@ -50,7 +37,10 @@
 - Growlithe Weakness: Water, Ground, Rock.
 - Snubbull Weakness: Fighting.
 
-## Current Task: Lead with KIMCHI
+## Current Task: Return to Cianwood
 - Start Turn: 7055
 - Current Position: Route 40 (18, 8)
-- Plan: Swap KIMCHI to the front of the party in the menu.
+- Plan:
+    1. Lead with KIMCHI (In Progress: Swapping in menu).
+    2. Surf south through Route 40 and Route 41 to Cianwood City.
+    3. Defeat Gym Leader Chuck.
