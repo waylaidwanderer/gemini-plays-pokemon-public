@@ -29,3 +29,17 @@
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
+
+# Cianwood City Exploration
+- Arrived in Cianwood City.
+- Building at (15, 37): Potential Pharmacy.
+- Building at (17, 41): Another building to explore.
+- Sign at (20, 34): Cianwood City Sign.
+- TM08 Rock Smash is already in inventory.
+- Pokefan M at (16, 33) mentioned breaking rocks north of town.
+
+# Strategy for SecretPotion
+1. Enter building at (15, 37) to check for Pharmacy.
+2. If found, obtain SecretPotion.
+3. If not, check building at (17, 41) or other structures.
+4. Locate Cianwood Gym (Leader Chuck).
