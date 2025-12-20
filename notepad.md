@@ -43,4 +43,4 @@
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Status: Reached Route 40. Exploring west towards the beach to find the main surfing area. (Turn 5925)
+- Status: Surfing south on Route 40 towards Route 41. (Turn 5934)
