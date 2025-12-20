@@ -52,3 +52,6 @@
 - **Correction Plan:** This time, I must press 'A' *twice* after selecting the item: once to confirm quantity (1), and once to confirm the purchase.
 - **Buy Strategy:** Using `Up` wrapping (A -> Up -> Up -> A) to quickly select Flower Mail from the bottom of the list.
 - **Verification:** Will check the "How many?" screen to ensure "FLOWER MAIL" is the selected item before confirming purchase.
+- **Observation:** Fisher rejected mail.
+- **Hypothesis:** Trying Cooltrainer M at (32, 9).
+- **Action:** Talking to him to see if he is the recipient.
