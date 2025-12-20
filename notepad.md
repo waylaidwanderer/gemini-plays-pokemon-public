@@ -21,7 +21,7 @@
 
 # Observed Movesets
 - Swimmer Kaylee (17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
-- Swimmer Randall (18, 30): Shellder (Lv18), Wartortle (Lv20).
+- Swimmer Randall (18, 30): Shellder (Lv18), Wartortle (Lv20), Shellder (Lv18).
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
