@@ -69,9 +69,10 @@
 - **Plan:** Fly to Violet City, buy new Flower Mail, write "DARK CAVE leads to another road", and return.
 - **Reason:** Need to rewrite mail message, which requires a fresh mail item (current one is attached and can't be edited easily without swapping).
 - **Navigation:** Using Fly to bypass obstacles (Ledge/Cut Tree) blocking the path back to Violet City.
-- **Observation:** Screen says "Currently selected destination: New Bark Town".
-- **Action:** Using `slow_press` [Left, Up, A] to Fly to Violet City.
-- **Goal:** Return to Violet City to modify the Flower Mail message to "DARK CAVE leads to another road".
+- **Observation:** `Left` input in Turn 8224 failed to move cursor from New Bark Town.
+- **Hypothesis:** Input was dropped or too fast.
+- **Action:** Using `slow_press` with `Left`, `Up` to ensure navigation to Violet City.
+- **Next:** Confirm "Violet City" is selected, then press `A`.
 ### Reflection (Turn 8214)
 - **Status:** Accidentally landed in Cherrygrove City (Fly input error).
 - **Immediate Task:** Fly to Violet City to fix the mail.
