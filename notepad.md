@@ -41,3 +41,5 @@
 - Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
 - Turn 5589: Exploring eastern section of 3F. Target: (17, 10) to reveal unseen tiles (14, 9)-(17, 9) and (18, 10)-(18, 13). PITs at (16, 11), (17, 11) marked.
 - Gentleman Preston (13, 5, 3F). Facing Right. Defeated Turn 5602.
+- 3F Eastern Section explored. Ladder to next floor at (13, 3).
+- 3F Middle Section (Sailor, Item, Ladder) seems inaccessible from 3F East/West.
