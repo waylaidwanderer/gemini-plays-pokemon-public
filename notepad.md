@@ -49,6 +49,8 @@
 - Normal vs Rock: Not Very Effective (Doduo's Scratch vs Gneiss).
 - Electric vs Ground: Immune (Flaaffy's Electric moves vs Gneiss).
 - Normal vs Water: Neutral (Verified: Calcifer's Headbutt vs Psyduck).
+- Water vs Fire: Super Effective (Predicted).
+- Grass vs Water: Super Effective (Predicted).
 
 # Tool Management
 - find_path_v2: Reliable for navigation. Use (6,7) override for Ecruteak Gym.
