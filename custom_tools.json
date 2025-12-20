@@ -2,25 +2,27 @@
   "find_path_v2": {
     "description": "Finds the shortest path to a target coordinate, correctly handling all collision types and treating 'PIT' tiles, warps, and water as impassable unless they are the target (or water is the target). Returns a list of coordinate objects for the navigate tool. If the destination is impassable, it finds a path to an adjacent traversable tile. If autopress_buttons is true, it returns a JSON array of button strings for automatic execution.",
     "input_schema": {
-      "type": "object",
       "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
+          "type": "boolean"
+        },
         "target_x": {
           "type": "integer"
         },
         "target_y": {
           "type": "integer"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "target_x",
-        "target_y"
-      ]
+        "target_y",
+        "autopress_buttons"
+      ],
+      "type": "object"
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\n# find_path_v2: A robust pathfinding tool for land and water navigation.\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        start_x, start_y = None, None\n        for row in root.findall(\"Row\"):\n            y = int(row.attrib['id'])\n            for tile in row.findall(\"Tile\"):\n                if tile.find(\"Player\") is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    break\n            if start_x is not None: break\n        if start_x is None:\n            print(json.dumps({\"error\": \"Player not found\"}))\n            return\n\n        tx, ty = int(input_data['target_x']), int(input_data['target_y'])\n        autopress = input_data.get('autopress_buttons', False)\n        \n        def get_grid(target_x, target_y):\n            target_node = root.find(f\".//Row[@id='{target_y}']/Tile[@id='{target_x}']\")\n            target_type = target_node.attrib['type'] if target_node is not None else \"unseen\"\n            \n            g = [[0 for _ in range(width)] for _ in range(height)]\n            impassable = [\"WALL\", \"BUOY\", \"WHIRLPOOL\", \"ROCK\", \"BOOKSHELF\", \"TV\", \"RADIO\", \"TOWN_MAP\", \"STATUE\", \"PIT\", \"COUNTER\"]\n            for row in root.findall(\"Row\"):\n                y = int(row.attrib['id'])\n                for tile in row.findall(\"Tile\"):\n                    x = int(tile.attrib['id'])\n                    if x == start_x and y == start_y: continue\n                    if x == target_x and y == target_y: continue\n                    \n                    t_type = tile.attrib['type']\n                    is_warp = tile.attrib.get('is-warp') == 'true'\n                    has_obj = tile.find(\"Object\") is not None or any(m.attrib.get('object_id') for m in tile.findall(\"Marker\"))\n                    \n                    if t_type in impassable or has_obj or is_warp: g[y][x] = 1\n                    if t_type == \"WATER\" and target_type != \"WATER\": g[y][x] = 1\n            return g\n\n        def bfs(gx, gy):\n            if gx < 0 or gx >= width or gy < 0 or gy >= height: return None\n            grid = get_grid(gx, gy)\n            queue = [(start_x, start_y, [])]\n            visited = {(start_x, start_y)}\n            while queue:\n                cx, cy, path = queue.pop(0)\n                if cx == gx and cy == gy: return path\n                for dx, dy, btn in [(0,1,\"Down\"),(0,-1,\"Up\"),(1,0,\"Right\"),(-1,0,\"Left\")]:\n                    nx, ny = cx+dx, cy+dy\n                    if 0<=nx<width and 0<=ny<height and not grid[ny][nx] and (nx,ny) not in visited:\n                        visited.add((nx,ny))\n                        queue.append((nx,ny, path + [(nx, ny, btn)]))\n            return None\n\n        res_path = bfs(tx, ty)\n        if res_path is None:\n            for dx, dy in [(0,1),(0,-1),(1,0),(-1,0)]:\n                res_path = bfs(tx+dx, ty+dy)\n                if res_path: break\n        \n        if res_path:\n            if autopress:\n                print(json.dumps([step[2] for step in res_path]))\n            else:\n                print(json.dumps([{\"x\": start_x, \"y\": start_y}] + [{\"x\": step[0], \"y\": step[1]} for step in res_path]))\n            return\n        \n        print(json.dumps({\"error\": \"No path found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\n# find_path_v2: A robust pathfinding tool for land and water navigation.\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        start_x, start_y = None, None\n        for row in root.findall(\"Row\"):\n            y = int(row.attrib['id'])\n            for tile in row.findall(\"Tile\"):\n                if tile.find(\"Player\") is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    break\n            if start_x is not None: break\n        if start_x is None:\n            print(json.dumps({\"error\": \"Player not found\"}))\n            return\n\n        tx, ty = int(input_data['target_x']), int(input_data['target_y'])\n        autopress = input_data.get('autopress_buttons', False)\n        \n        def get_grid(target_x, target_y):\n            target_node = root.find(f\".//Row[@id='{target_y}']/Tile[@id='{target_x}']\")\n            target_type = target_node.attrib['type'] if target_node is not None else \"unseen\"\n            \n            g = [[0 for _ in range(width)] for _ in range(height)]\n            impassable = [\"WALL\", \"BUOY\", \"WHIRLPOOL\", \"ROCK\", \"BOOKSHELF\", \"TV\", \"RADIO\", \"TOWN_MAP\", \"STATUE\", \"PIT\", \"COUNTER\"]\n            for row in root.findall(\"Row\"):\n                y = int(row.attrib['id'])\n                for tile in row.findall(\"Tile\"):\n                    x = int(tile.attrib['id'])\n                    if x == start_x and y == start_y: continue\n                    if x == target_x and y == target_y: continue\n                    \n                    t_type = tile.attrib['type']\n                    is_warp = tile.attrib.get('is-warp') == 'true'\n                    has_obj = tile.find(\"Object\") is not None or any(m.attrib.get('object_id') for m in tile.findall(\"Marker\"))\n                    \n                    if t_type in impassable or has_obj or is_warp: g[y][x] = 1\n            return g\n\n        def bfs(gx, gy):\n            if gx < 0 or gx >= width or gy < 0 or gy >= height: return None\n            grid = get_grid(gx, gy)\n            queue = [(start_x, start_y, [])]\n            visited = {(start_x, start_y)}\n            while queue:\n                cx, cy, path = queue.pop(0)\n                if cx == gx and cy == gy: return path\n                for dx, dy, btn in [(0,1,\"Down\"),(0,-1,\"Up\"),(1,0,\"Right\"),(-1,0,\"Left\")]:\n                    nx, ny = cx+dx, cy+dy\n                    if 0<=nx<width and 0<=ny<height and not grid[ny][nx] and (nx,ny) not in visited:\n                        visited.add((nx,ny))\n                        queue.append((nx,ny, path + [(nx, ny, btn)]))\n            return None\n\n        res_path = bfs(tx, ty)\n        if res_path is None:\n            for dx, dy in [(0,1),(0,-1),(1,0),(-1,0)]:\n                res_path = bfs(tx+dx, ty+dy)\n                if res_path: break\n        \n        if res_path:\n            if autopress:\n                print(json.dumps([step[2] for step in res_path]))\n            else:\n                print(json.dumps([{\"x\": start_x, \"y\": start_y}] + [{\"x\": step[0], \"y\": step[1]} for step in res_path]))\n            return\n        \n        print(json.dumps({\"error\": \"No path found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -121,6 +123,11 @@
         "commit_message": "Update description to clarify button array output for autopress_buttons.",
         "timestamp": "2025-12-20T20:39:58.450Z",
         "action_counter": 6994
+      },
+      {
+        "commit_message": "Fix: Removed restrictive water-to-land blocking logic as the player can Surf.",
+        "timestamp": "2025-12-20T21:42:54.616Z",
+        "action_counter": 7142
       }
     ]
   }
