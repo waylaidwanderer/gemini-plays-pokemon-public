@@ -27,17 +27,6 @@
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
 - 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North.
 
-## Cianwood Medicine Quest Steps
-- Turn 5707: Quest started.
-- 1. Explore 6F (Complete).
-- 2. Leave Lighthouse (Complete).
-- 3. Buy Poke Balls at Olivine Mart (Complete).
-- 4. Catch a Water-type Pokemon for Surf.
-    - Method: Use Old Rod on Route 40 or Olivine shore at (6, 26).
-    - Team Management: Deposit Cleffa in PC to make room (Complete Turn 5775).
-- 5. Surf to Cianwood City (southwest of Olivine).
-- 6. Get medicine from Pharmacy and return.
-
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO): Lv20
 - ROCKY (ONIX): Lv6
@@ -45,6 +34,4 @@
 - EGG (CLEFFA): Lv5
 
 # Discovery Log
-- Turn 5791: Encountered wild Krabby at (6, 25).
-- Catch Tracking (Krabby Lv10): 9 failed attempts at full health. Switched to FRITTATA (Lv5). Mud-Slap hit 8 times, accuracy max lowered. HP green. Frittata at 3 HP.
-- Nickname Plan: Ravioli.
+- Turn 5791: Encountered wild Krabby at (6, 25). Catching for Surf. Plan: Ravioli. 9 failed balls at full health. Frittata (Lv5) Mud-Slap ineffective and out of PP. Switching to KIMCHI (Lv10) to weaken.
