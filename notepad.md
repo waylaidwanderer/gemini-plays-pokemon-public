@@ -82,3 +82,5 @@
 - **Status Update:** Accidentally flew to New Bark Town instead of Violet City.
 - **Correction:** Must Fly again to Violet City.
 - **Action:** Opening Party Menu to select Mistral.
+- **Correction:** Currently in Pack menu. Need to exit and open Party menu to Fly.
+- **Action:** Backing out of Pack (`B`), selecting Pokémon (`Up`), and opening Party (`A`).
