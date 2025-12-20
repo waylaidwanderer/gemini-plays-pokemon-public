@@ -56,3 +56,6 @@
   6. Write "DARK CAVE leads to another road".
 - **Mail Typing:** Starting input of "DARK CAVE".
 - **Sequence:** D -> A -> R -> K -> Space -> C -> A -> V -> E.
+- **Mail Typing:** Typed "DARK CAVE".
+- **Next:** Space -> lower case switch -> "leads".
+- **Target String:** "DARK CAVE leads to another road".
