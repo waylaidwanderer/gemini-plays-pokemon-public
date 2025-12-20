@@ -46,3 +46,4 @@
 - Route: Route 40 is south of Olivine. Route 41 follows. Cianwood is the destination.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
+- BUOY: Impassable water barrier. Verified at (13, 32) on Olivine City map.
