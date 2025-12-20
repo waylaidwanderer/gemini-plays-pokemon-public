@@ -22,15 +22,12 @@
 # Map Notes
 - 3F Middle: Reachable via 4F pits (8,3)/(9,3).
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
-- 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North. (16, 7)/(17, 7) may be balcony exits. (13, 3) leads to 3F East.
-
-# Swarm Events
-- Yanma: Route 35 (Turn 5683).
+- 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North. (16, 7)/(17, 7) are likely balcony exits.
 
 # Strategy: Get Amphy's Medicine
 - Quest started Turn 5707.
-- 1. Picked up Super Potion at (3, 4) on 6F.
-- 2. Explore reachable unseen tiles (southwest corner).
-- 3. Leave Lighthouse (use 6F Pits at (16, 5) or (17, 5)).
-- 4. Surf to Cianwood City (southwest of Olivine).
-- 5. Get medicine from Pharmacy and return.
+- 1. Explore 6F (Complete).
+- 2. Leave Lighthouse via 6F Pits (16, 5) or (17, 5).
+- 3. Surf to Cianwood City (southwest of Olivine).
+- 4. Get medicine from Pharmacy and return.
+- 5. (Optional) Check 4F balcony theory on the way out.
