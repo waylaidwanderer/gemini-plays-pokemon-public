@@ -4,15 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Fly Map.
-  1. **Current State:** Start Menu (Cursor on GEAR).
-  2. **Action:**
-     - `Up` x2 (Select Pokemon).
-     - `A` (Enter Party).
-     - `Down` x4 (Select Mistral).
-     - `A` (Submenu).
-     - `A` (Select Fly).
-  3. **Next Turn:** Verify Map Location and Fly to Violet.
+- **Immediate Action:** Navigate Fly Map (Probe with UP).
+  1. **Current State:** Fly Map Open (Presumed). Screen text empty (loading).
+  2. **Action:** Press `Up`.
+  3. **Reason:** To force a cursor move and verify current location via text update.
+     - If "Azalea": I started at Violet. Correct with `Down`.
+     - If "Cherrygrove": I started at New Bark. Correct with `Up`.
+     - If "Violet": I started at Cherrygrove. Confirm!
   4. **Target:** Violet City Mart.
 - **Route Info:** Route 31 -> Violet City (Fly).
 - **Mail Status:** Resupplying.
