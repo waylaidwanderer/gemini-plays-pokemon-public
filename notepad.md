@@ -9,11 +9,11 @@
   2. **Action:** Press `A` to advance text/select Yes.
   3. **Expectation:** Hand over Kenya (with Mail).
   4. **Outcome Verification:**
-     - **Success:** He accepts it, gives reward (TM50 Nightmare?). Quest Complete.
-     - **Failure:** He rejects content again (unlikely if he asked for it, but possible).
-  5. **Next Step:** Once delivered, Head West -> Violet City -> Fly Ecruteak -> Route 42.
+     - **Success:** He accepts it, gives reward. Quest Complete.
+  5. **Next Step:** Receive Reward -> Fly Ecruteak -> Route 42.
 - **Route Info:** Route 31.
-- **Mail Status:** Kenya holding "DARK CAVE leads to another road". Fisher IS the recipient.
+- **Mail Status:** Kenya delivered (or about to be).
+- **Recipient Confirmed:** Fisher at (17, 7). The Sleeping Man (Cooltrainer) was a red herring.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
