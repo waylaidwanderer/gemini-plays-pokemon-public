@@ -26,8 +26,7 @@
 - **Lighthouse Pits:** Gaps on 4F/5F drop to the floor below. Jumping into the pit on 4F North (Cols 8-9) is the solution to reach the central column.
 - **WATER:** Traversable with SURF. Encounters wild Pokémon.
 - **Route 41:** Found gap in buoys at Column 24. Navigating South. Whirlpool spotted at (22, 12).
-- **Route 41:** Defeated Swimmer Susie. Now fighting Swimmer Denise (Seel).
-- **Strategy:** Use Karate Chop (Slot 4). Dig is out of PP.
+- **Route 41:** Defeated Swimmer Denise. Continuing South towards Cianwood.
 - **Reminder:** Teach Strength to Muscle (replace Leer/Focus Energy) to have a reliable Normal move.
 - **Hint:** Swimmer Berke mentions islands blocked by whirlpools must have a secret (likely Lugia/Whirl Islands).
 - **Route 41:** Defeated Swimmer Berke. Continuing South.
