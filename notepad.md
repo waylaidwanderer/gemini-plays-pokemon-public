@@ -46,6 +46,13 @@
 ## Burned Tower
 - Malice defeated (Turn #4982): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 
+# Ecruteak City (4_9)
+- Burned Tower Entrance: (5, 5).
+- Pokemon Center: (23, 27).
+- Dance Theater: (23, 21).
+- Tin Tower Entrance: (18, 11).
+- Strategy: Heal at PC, then challenge Morty.
+
 # Burned Tower 1F (3_13)
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
 - Morty and Eusine have left the tower (Turn #5015). Morty likely returned to the Gym.
