@@ -32,7 +32,7 @@
 - Bird Keeper Toby (12, 15): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
 - Sailor Harry (24, 5): Wooper Lv19. Defeated.
 - Lass Dana (15, 3): Flaaffy Lv18, Psyduck Lv18. Defeated.
-- Youngster Chad (4, 1): Mr. Mime Lv19. Currently battling.
+- Youngster Chad (4, 1): Mr. Mime Lv19. Defeated.
 
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth due to keyboard layout misunderstanding.
