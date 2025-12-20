@@ -3,14 +3,19 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Talk to the woman at (11, 46) for HM02 (Fly), then go to PC (23, 43) to retrieve Kenya/Mistral. Teach Fly. Fly to Olivine.
-- **Quest Update:** SecretPotion obtained. Chuck Defeated. Storm Badge obtained.
+- **Immediate Plan:** Talk to the woman (Chuck's Wife) at (11, 46) to receive HM02 (Fly).
+- **Next Steps:**
+  1. Go to Pokémon Center (23, 43).
+  2. Withdraw Kenya (Spearow) or Mistral (Pidgey).
+  3. Teach Fly to the bird.
+  4. Fly to Olivine City.
+- **Quest Update:** SecretPotion obtained. Chuck Defeated (Storm Badge + TM01).
 - **Party Status:**
-  - **Muscle (Machoke):** Lv 40. (Moves: Dig, Rock Smash, Focus Energy, Karate Chop)
+  - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
   - **Hematite (Pinsir):** Lv 15.
   - **Azurite (Heracross):** Lv 13.
-  - **Lapis (Poliwag):** Lv 12. (Surf carrier)
+  - **Lapis (Poliwag):** Lv 12. (Surf)
   - **Shuckie (Shuckle):** Lv 15.
 - **Rocky (Onix):** Deposited in Box 3.
 
