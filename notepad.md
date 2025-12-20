@@ -48,4 +48,4 @@
 - Start Turn: 6328 (Entering Gym)
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
-- Target: Get HM04 Strength from the house next to the Pokémon Center in Olivine City.
+- Status: Obtained HM04 Strength from Sailor in Olivine Cafe. Need to teach it and return to Cianwood.
