@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Travel to Route 31.
-  1. **Location:** Violet City (9, 18).
-  2. **Route:** East -> Gatehouse (39, 24) -> Route 31.
-  3. **Target:** Sleeping Fisher at (17, 7).
-  4. **Status:** Kenya equipped with Mail.
+- **Current Action:** Entering Route 31 Gatehouse.
+  1. **Location:** Violet City (34, 26).
+  2. **Movement:** Up -> Right x5 -> Gatehouse (39, 25).
+  3. **Goal:** Reach Route 31.
+  4. **Critique Note:** Define `navigate_to(x,y)` tool next turn to automate pathfinding.
+  5. **Status:** Kenya equipped with Mail.
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
