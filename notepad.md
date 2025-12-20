@@ -6,11 +6,7 @@
 # Gym Prep: Morty (Ghost)
 - Team: Gastly, Haunter, Gengar (Ghost/Poison).
 - Weaknesses: Ground, Psychic, Ghost, Dark.
-- Strategy: Use GNEISS (Graveler) with Magnitude. (Note: Ground hits Ghost/Poison in Gen 2).
-
-# Ecruteak City Lore
-- Motto: "A Historical City Where the Past Meets the Present".
-- History: Used to have two towers, one in the east and one in the west.
+- Strategy: Use GNEISS (Graveler) with Magnitude.
 
 # PC Storage
 ## Box 1 (Current)
@@ -27,30 +23,35 @@
 
 # Tile Mechanics
 - FLOOR: Traversable.
-- TALL_GRASS: Traversable. Wild encounters.
 - WALL: Impassable.
-- LEDGE_HOP_DOWN: One-way jump down.
-- WARP_CARPET: Map transition.
+- TALL_GRASS: Traversable. Chance of wild encounters.
+- LEDGE_HOP_DOWN: One-way traversable (down only).
+- WARP_CARPET: Map transition point.
+- Objects (NPCs, Signs): Impassable. Interaction from adjacent tile.
 
-# Pokemon Locations
-- Route 29: Pidgey, Rattata, Sentret.
-- Route 30: Pidgey, Rattata, Caterpie, Metapod, Hoothoot (Night).
-- Route 31: Pidgey, Rattata, Caterpie, Metapod, Bellsprout, Hoothoot (Night).
-- Sprout Tower: Rattata, Gastly (Night).
-- Route 32: Rattata, Ekans, Zubat, Bellsprout, Mareep, Wooper.
-- Union Cave: Rattata, Sandshrew, Zubat, Geodude, Onix.
-- Route 33: Rattata, Spearow, Ekans, Hopip.
-- Slowpoke Well: Zubat, Slowpoke.
-- Ilex Forest: Caterpie, Metapod, Weedle, Kakuna, Paras, Oddish, Venonat, Psyduck.
-- Route 34: Rattata, Spearow, Jigpuff, Abra, Ditto.
-- Route 35: Pidgey, Nidoran M/F, Jigpuff, Abra, Yanma (Swarm), Ditto.
-- National Park: Pidgey, Caterpie, Metapod, Weedle, Kakuna, Sunkern.
-- Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
+# Type Effectiveness (Verified)
+- Normal vs Dark (Umbreon): Neutral damage.
+- Normal vs Psychic (Espeon): Neutral damage.
+- Ground vs Dark (Umbreon): Neutral damage.
+- Ground vs Ghost/Poison (Gastly): Super Effective.
+- Fire vs Dark (Umbreon): Neutral damage.
+- Fire vs Psychic (Espeon): Neutral damage.
+
+# Trainer Rosters
+- Kimono Girl Miki: Jolteon (Electric)
+- Kimono Girl Kuni: Vaporeon (Water)
+- Kimono Girl Zuki: Umbreon (Dark)
+- Kimono Girl Sayo: Espeon (Psychic)
+- Kimono Girl 1 (Target): Flareon (Fire)
+
+# Time Tracking
+- Task: Defeat all 5 Kimono Girls.
+- Started: Turn #4800 (Approx).
+- Current Progress: 4/5 defeated.
 
 # Kimono Girls Progress
 - Miki (Jolteon): Defeated (Turn #4809).
 - Kuni (Vaporeon): Defeated (Turn #4821).
-- Next target: Kimono Girl 3 at (6, 2).
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Defeated (Turn #4858).
 - Next target: Kimono Girl 1 at (0, 2).
