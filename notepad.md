@@ -35,3 +35,6 @@
 
 # Defeated Trainers
 - Fisher Tully (Route 42) at (40, 10).
+
+# Route 42 Discoveries
+- Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
