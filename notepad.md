@@ -50,3 +50,4 @@
 # Kimono Girls Progress
 - Miki (Jolteon): Defeated (Turn #4809).
 - Kuni (Vaporeon): Battling (Turn #4814).
+- Turn #4819: GNEISS at 16/71 HP. Vaporeon is faster. Attempting Magnitude.
