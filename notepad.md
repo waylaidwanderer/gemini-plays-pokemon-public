@@ -73,3 +73,6 @@
 - **Mail Progress:** Typing "DARK CAVE ".
 - **Cursor End Position:** Space (Row 2, Col 6).
 - **Next Step:** Switch to lower case, type "leads to another road".
+- **Mail Typing:** Toggled lower case.
+- **Typed:** "leads ".
+- **Next Chunk:** "to another".
