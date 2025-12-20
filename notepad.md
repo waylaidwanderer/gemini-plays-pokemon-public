@@ -4,12 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Access PC to Clear Mail.
-  1. **Location:** Violet Pokemon Center (3, 7).
-  2. **Action:** Navigate to PC at (9, 1).
-  3. **Goal:** Delete/Withdraw Mail to free up space.
+- **Current Action:** Manage Mailbox.
+  1. **Location:** Violet PC (Logged In).
+  2. **Action:** Select "GEM's PC" -> "MAIL BOX".
+  3. **Goal:** Delete/Withdraw Mail to resolve "PC MAILBOX is full".
   4. **Next:** Fix Kenya's Mail.
-  5. **Status:** Inside Pokemon Center.
 
 ## Strategy & Lessons
 - **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
