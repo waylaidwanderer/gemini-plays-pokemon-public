@@ -63,3 +63,5 @@
 - **Mechanics:** In Gen 2, Pokemon wake up at the start of the turn and can attack immediately. Mash Fight/Dig.
 - **Battle Update:** Muscle still asleep. Drowzee spamming Dream Eater. Muscle HP: 59/121. Continuing to select DIG to wake up and attack.
 - **Battle Critical:** Muscle HP 24/121 (Sleep). Must wake up or risk fainting. Next in line: Garnet.
+- **Battle Update:** Muscle defeated Drowzee but is at critical HP (24/121). Eusine sending out Haunter (Ghost/Poison).
+- **Strategy:** Switching to Garnet (Quilava) to handle Haunter with Fire moves (Ember). Muscle's Normal/Fighting moves are useless, and Dig is risky at low HP.
