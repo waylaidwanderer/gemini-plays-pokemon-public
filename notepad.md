@@ -43,6 +43,3 @@
 # Cianwood Gym Boulder Puzzle (Solved)
 - Observation: Boulders at (3, 7), (4, 7), (5, 7) block path.
 - Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side. Final positions: Obj 7 (3,6), Obj 8 (3,7), Obj 9 (5,6).
-
-# HM02 Fly Acquisition
-- Status: COMPLETED (Turn 7225). Received HM02 FLY from Pokefan F.
