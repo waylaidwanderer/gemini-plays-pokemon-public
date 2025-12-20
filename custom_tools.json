@@ -79,46 +79,5 @@
         "action_counter": 6216
       }
     ]
-  },
-  "press_sequence": {
-    "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-18T06:11:16.135Z",
-        "action_counter": 948
-      }
-    ]
-  },
-  "get_reachable_unseen_tiles_v3": {
-    "description": "Finds all reachable unseen tiles on the current map and either returns their coordinates or button presses to reach the nearest one.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            has_player = tile.find('Player') is not None\n            has_obj = tile.attrib.get('has-object') == 'true'\n            \n            grid[(x, y)] = {\n                'type': t_type,\n                'seen': seen,\n                'has_object': has_obj\n            }\n            if has_player:\n                player_pos = (x, y)\n                \n    if not player_pos:\n        print(json.dumps([]))\n        return\n\n    queue = collections.deque([player_pos])\n    visited = {player_pos}\n    parent = {player_pos: None}\n    reachable_unseen = []\n    \n    while queue:\n        curr = queue.popleft()\n        cx, cy = curr\n        \n        for dx, dy in [(0,1), (0,-1), (1,0), (-1,0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                neighbor = (nx, ny)\n                if neighbor not in visited:\n                    tile = grid.get(neighbor)\n                    if not tile: continue\n                    \n                    if not tile['seen']:\n                        reachable_unseen.append(neighbor)\n                        visited.add(neighbor)\n                        parent[neighbor] = curr\n                    elif tile['type'] in ['FLOOR', 'LADDER', 'TALL_GRASS'] and not tile['has_object']:\n                        visited.add(neighbor)\n                        parent[neighbor] = curr\n                        queue.append(neighbor)\n    \n    if not input_data.get('autopress_buttons', False):\n        print(json.dumps([f\"({x}, {y})\" for x, y in sorted(reachable_unseen)]))\n        return\n\n    if not reachable_unseen:\n        print(json.dumps([]))\n        return\n        \n    target = reachable_unseen[0]\n    path = []\n    curr = target\n    while curr != player_pos:\n        prev = parent[curr]\n        px, py = prev\n        cx, cy = curr\n        if cx > px: path.append(\"Right\")\n        elif cx < px: path.append(\"Left\")\n        elif cy > py: path.append(\"Down\")\n        elif cy < py: path.append(\"Up\")\n        curr = prev\n    \n    print(json.dumps(path[::-1]))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-20T09:57:22.075Z",
-        "action_counter": 5711
-      }
-    ]
   }
 }

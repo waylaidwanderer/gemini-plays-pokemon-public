@@ -11,6 +11,7 @@
 - PC: Interactable object for Pokémon/Item storage.
 
 # Lessons Learned
+- Strength (HM04): Obtained from the Sailor in Olivine Cafe (1_7).
 - Boulder Dialogue: "A POKéMON may be able to move this" = Strength (HM04). "A POKéMON may be able to smash this" = Rock Smash.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
 - Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move that can cause flinching.
@@ -27,8 +28,8 @@
 - Poison: Resists Fighting (Oddish).
 
 # Strategy for Primary Goal
-- Current Goal: Obtain HM04 Strength.
-- Method: Return to Olivine City. Enter the house located next to the Pokémon Center. Talk to the NPC inside to receive the HM.
+- Current Goal: Defeat Gym Leader Chuck.
+- Method: Teach HM04 Strength to a Pokémon (GNEISS or Ravioli). Surf back to Cianwood City. Enter the Gym and use Strength to move the boulders at (3, 7), (4, 7), and (5, 7).
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
