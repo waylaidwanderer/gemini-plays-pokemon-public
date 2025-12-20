@@ -3,6 +3,7 @@
 - WALL / WINDOW / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
 - COUNTER: Impassable; interact with NPC behind it from adjacent tile.
 - WATER: Traversable only while surfing. Requires Surf and Fog Badge.
+- BUOY: Impassable barrier in water.
 - WHIRLPOOL: Impassable water hazard. Requires HM06 (Whirlpool).
 - WARP_CARPET_DOWN / WARP: Leads to a different map.
 - BOULDER: Impassable; requires HM04 Strength to move (verified Turn 6387).
@@ -12,9 +13,10 @@
 # Lessons Learned
 - Boulder Dialogue: "A POKéMON may be able to move this" = Strength (HM04). "A POKéMON may be able to smash this" = Rock Smash.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
-- Battle Mechanics: FIRE moves are Special in Gen 2.
+- Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move that can cause flinching.
 - NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
+- Swimmer Kaylee (17, 2): Uses Goldeen (Lv18).
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
