@@ -4,8 +4,8 @@
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
 - **Immediate Plan:** Climb the ladder at (9, 5) to return to 4F Center. Then find and fall into the pit at 4F(8, 3).
-- **Hypothesis:** Walking on 3F(8,3) didn't trigger a fall. I likely need to fall from 4F(8,3) to bypass the 3F floor entirely (double drop) or land on a specific trigger.
-- **Quest Update:** 3F Center seems to be a landing zone. The exit path requires a different drop from 4F.
+- **Hypothesis:** Falling from 4F(9,3) landed on 3F(9,3) which is safe. I need to fall from 4F(8,3) to potentially crash through 3F(8,3) to 2F.
+- **Quest Update:** 3F Center is a landing zone. The exit path requires a different drop from 4F.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
