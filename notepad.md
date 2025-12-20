@@ -50,3 +50,6 @@
 - Start Turn: 6328 (Entering Gym)
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
+
+# NPC Locations
+- Rival (OLIVINE_RIVAL): Reported at (20, 26) on Route 41.
