@@ -38,3 +38,11 @@
 - Explore Route 38 for trainers and items on the way to Olivine City.
 - Maintain party health and monitor PP during route progression.
 - Use battle_strategist_v2 for significant trainer encounters.
+
+# Route 38 Plan
+- Head west from the Ecruteak gatehouse.
+- Explore tall grass for encounters and items.
+- Battle all trainers to maintain team levels (Target: Lv30+).
+
+# Tool Management
+- find_path_v2: Uses coordinate list output. Set autopress_buttons=false for overworld navigation. (Turn #5223 fix)
