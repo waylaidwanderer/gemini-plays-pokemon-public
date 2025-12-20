@@ -60,4 +60,4 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
-- Rival: Sighted at (32, 30) on Route 41 (Turn 6760). Previously at (20, 26).
+- Rival: Sighted at (46, 8) on Route 41 (Turn 6792). Previously at (32, 30).
