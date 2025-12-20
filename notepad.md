@@ -58,3 +58,4 @@
 - **Tool Note:** `smart_battle_move` logic verified as correct for wrapping. Must ensure `current_slot` argument is passed correctly in future battles to handle cursor memory.
 - **Battle State:** Muscle's last used move was Slot 4 (Karate Chop). Battle cursor is likely at Slot 4.
 - **Route 31:** Picked a Bitter Berry from the tree at (16, 7).
+- **Route 31:** Found the recipient for Kenya's mail (Fisher at 17, 7). Handing over Kenya now.
