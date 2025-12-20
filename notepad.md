@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Navigate Fly Map.
-  1. Press A to open Map.
-  2. Verify cursor position (likely Cherrygrove or New Bark).
-  3. Move Cursor to Violet City (requires delays).
-  4. Confirm Destination.
-  5. Deliver Mail to Fisher (17, 7).
+- **Immediate Action:** Land in Violet City & Deliver Mail.
+  1. Cursor moved from New Bark -> Cherrygrove -> Violet City.
+  2. Confirmed Fly (A).
+  3. Upon landing: Head East to Route 31.
+  4. Find Fisher at (17, 7).
+  5. Deliver Mail.
 - **Hypothesis:** The game expects ALL CAPS for the password phrase.
 - **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
 - **Hypothesis:** The game expects ALL CAPS for the password phrase.
