@@ -56,6 +56,6 @@
 - Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
 - Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack.
 - Turn #4834-4839: Calcifer missed Headbutt multiple times. Umbreon used Sand-Attack and Pursuit.
-- Turn #4841: Main battle menu reached. Selected PACK.
-- Turn #4842: In PACK. Navigating to X Accuracy.
-- Strategy: Use X Accuracy to ignore accuracy drops, then finish with Headbutt.
+- Turn #4842: Used X Accuracy on Calcifer.
+- Turn #4843: Umbreon used Pursuit. Calcifer at 64/76 HP. Selecting FIGHT.
+- Strategy: Finish Umbreon with Headbutt (guaranteed hit).
