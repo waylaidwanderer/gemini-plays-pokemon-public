@@ -47,4 +47,4 @@
 # Discovery Log
 - Turn 5764: Nurse Joy healed the party.
 - Turn 5791: Encountered wild Krabby at (6, 25).
-- Catch Tracking (Krabby Lv10): 4 failed Great Ball attempts. Attempt 5 (Lure Ball) next.
+- Catch Tracking (Krabby Lv10): 4 failed Great Ball attempts, 1 failed Lure Ball attempt. Attempt 6 (Great Ball) next.
