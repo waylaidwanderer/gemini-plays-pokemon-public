@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Continue South to Olivine City. Deliver SecretPotion to Jasmine at the Lighthouse.
-- **Quest Update:** Sailor Eugene defeated. Path clear to Olivine.
+- **Immediate Plan:** Navigate through Olivine City to the Lighthouse (29, 27). Climb to the top and deliver the SecretPotion to Jasmine.
+- **Quest Update:** Arrived in Olivine City. Wade called (ignored). SecretPotion in hand.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
