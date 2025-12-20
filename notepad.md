@@ -24,5 +24,5 @@
 - Snubbull: Fighting.
 
 ## Current Task: Return to Cianwood
-- Turn: 7059
-- Plan: Swap KIMCHI to lead (In Progress), then surf south to Cianwood.
+- Turn: 7061
+- Plan: Surf south through Route 40 and Route 41 to Cianwood City. Train KIMCHI along the way.
