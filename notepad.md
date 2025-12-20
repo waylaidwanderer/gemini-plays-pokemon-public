@@ -52,4 +52,5 @@
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Next target: Kimono Girl 3 at (6, 2).
 - Zuki (Umbreon): Battling (Turn #4823).
-- Turn #4827: GNEISS at 16/71 HP. Using Magnitude.
+- Turn #4827: GNEISS used Magnitude 5. Umbreon used Pursuit.
+- Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
