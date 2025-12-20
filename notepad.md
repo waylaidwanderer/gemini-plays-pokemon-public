@@ -43,3 +43,9 @@
 - **Goals:** Clear path: Enter Mart -> Buy Mail -> Write "DARK CAVE leads to another road" -> Deliver.
 - **Error Analysis:** Previous `Up` input only turned the character. Now facing Up at (9, 18). Must press `Up` again to enter Mart at (9, 17).
 - **Hypothesis:** Fisher rejected mail because the message "DARK CAVE leads" was incomplete. Original message was "DARK CAVE leads to another road". Restoring the full message should fix this.
+## Tile Mechanics
+- **FLOOR:** Traversable.
+- **WALL:** Impassable.
+- **MART_SHELF:** Impassable.
+- **COUNTER:** Impassable. Interactable across it.
+- **WARP_CARPET_DOWN:** Exit warp.
