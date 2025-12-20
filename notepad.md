@@ -9,9 +9,9 @@
 - PIT: Warp tile, impassable.
 - STATUE: Impassable background object.
 - COUNTER: Impassable, interact over it.
-- LEDGE_HOP_DOWN: One-way jump down. Traversable from above. (e.g. Row 13 to 14)
-- LEDGE_HOP_LEFT: One-way jump left. Traversable from right. (e.g. Col 10 to 9)
-- LEDGE_HOP_RIGHT: One-way jump right. Traversable from left. (e.g. Col 7 to 8)
+- LEDGE_HOP_DOWN: One-way jump down. Traversable from above.
+- LEDGE_HOP_LEFT: One-way jump left. Traversable from right.
+- LEDGE_HOP_RIGHT: One-way jump right. Traversable from left.
 - FLOOR: Traversable.
 - WALL: Impassable.
 - GRASS / TALL_GRASS: Standard wild encounter tile. Traversable.
@@ -26,20 +26,22 @@
 - Lass Dana (15, 3): Flaaffy Lv18, Psyduck Lv18. Defeated.
 - Youngster Chad (4, 1): Mr. Mime Lv19. Defeated.
 
-# Lessons Learned
-- Nicknaming: Resulted in 'XFDW' for Meowth due to keyboard layout misunderstanding.
-- Ecruteak Gym: Invisible floor path documented (Turn 5290).
-- Route 38: Divided by a wall at row 8. Western path is north of the wall.
-
-# Strategy & Exploration
-- Catch Checklist: Magnemite, Miltank, Tauros.
-- Exploration: Check western edge (x=0) for Route 39 transition.
-- Turn 5370: Started Route 39 exploration.
-- Moomoo Farm: The farm's Miltank is sick. Need to find and feed it berries.
-- Progress: Talked to Pokefans in farmhouse. They need berries for the Miltank.
-
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
-- Fruit Tree (9, 3): Obtained MINT BERRY.
-- Moomoo Farmhouse (5, 3): Visited. Pokefans confirmed Miltank is sick and needs berries. I have MINT BERRY and BITTER BERRY.
-- Route 39 Barn (1, 3): Found sick Miltank (Tauros sprite) and two Twins. Miltank needs berries.
+
+# Lessons Learned
+- Nicknaming: Resulted in 'XFDW' for Meowth.
+- Ecruteak Gym: Invisible floor path documented (Turn 5290).
+- Moomoo Farm: The sick Miltank specifically requires the item "BERRY" (not Mint Berry, etc.). 7 BERRIES are needed for a full recovery.
+
+# Strategy & Exploration
+- Goal: Reach Olivine City (West) via Route 38/39.
+- Catch Checklist: Magnemite, Miltank, Tauros.
+- Quest: Collect 7 standard "BERRY" items to heal the Miltank.
+- Berry Search: Check fruit trees on Route 38, 37, 36, and previous routes.
+
+# Type Effectiveness (Verified)
+- Rock vs Flying: Super Effective.
+- Normal vs Rock: Not Very Effective.
+- Electric vs Ground: Immune.
+- Normal vs Water: Neutral.
