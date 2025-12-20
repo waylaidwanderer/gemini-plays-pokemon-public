@@ -62,3 +62,6 @@
 - **Deduction:** Fisher IS the recipient. The rejection is due to the mail itself.
 - **Hypothesis:** The quest requires the specific message "DARK CAVE leads to another road" (original mail content).
 - **Plan:** Checking Youngster now to be 100% sure. Then will try rewriting the mail on Kenya to match the original message.
+- **Action:** Talking to Youngster at (9, 5) to verify if he is the recipient.
+- **Contingency:** If Youngster is not the recipient, I will assume the Fisher is the correct target but requires the specific mail message ("DARK CAVE leads to another road").
+- **Plan:** If Youngster fails, I will rewrite the mail on Kenya to match the original message.
