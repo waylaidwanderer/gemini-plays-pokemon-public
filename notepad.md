@@ -67,3 +67,6 @@
 
 # Exploration Targets
 - Unseen tiles adjacent to walkable: (15, 0), (16, 0), (18, 3-8).
+- Defeated Malice in Burned Tower (Turn #4982).
+- Fell through hole at (10, 9) on 1F to B1F (10, 9).
+- Legendary beasts mentioned by Malice. Release them to progress.
