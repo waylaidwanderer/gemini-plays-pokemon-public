@@ -54,3 +54,4 @@
 - Start Turn: 6328 (Entering Gym)
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
+- Swimmer Susie (Route 41): Psyduck (Lv20) uses Disable, Goldeen (Lv22).
