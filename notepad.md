@@ -39,6 +39,5 @@
 - Party Menu Persistence: The cursor in the party menu when using items often stays on the last selected Pokémon or moves to the next one. Use multiple 'Up' presses to reset to the top for reliable selection. (Turn #5172)
 
 # Strategy
-- Use `find_path_v2` for overworld navigation (verify against Map Events).
-- Use battle_strategist_v2 for Gym leaders.
-- Explore (1, 1) and (1, 2) to reveal (0, 1) and (0, 2) before exiting. (Turn #5198)
+- Use `find_path_v2` for overworld navigation.
+- Use battle_strategist_v2 for Gym leaders. (Turn #5199)
