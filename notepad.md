@@ -56,8 +56,9 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 - Progress & Logs
-- KIMCHI Training started Turn 6708. Current Level: 15 (Turn 6868). XP: 2103. HP: 20/39.
+- KIMCHI Training started Turn 6708. Current Level: 15 (Turn 6869). XP: 2103. HP: 20/39.
 - Calcifer Level: 35. XP: 36584. HP: 91/96.
 - Lass at (11, 13) on Route 40: Non-battling NPC. Provides flavor text about Cianwood.
-- Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
-- Note: Rival (Malice?) is explicitly listed at (14, 15) in Game State Map Objects despite overwatch skepticism. Standing on water. Verified Turn 6868.
+- Youngster at (16, 9) on Route 40: Potential trainer.
+- Strategy: Lead with KIMCHI for XP share, switch to Calcifer.
+- Note: Cleaned up map markers for consistency. Verified Turn 6869.
