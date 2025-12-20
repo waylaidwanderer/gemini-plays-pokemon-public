@@ -4,15 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Deliver Mail to Sleeping Man.
-  1. **Current State:** Standing at (31, 9). Cooltrainer M is at (32, 8).
-  2. **Action:** Step `Up` to (31, 8), Face `Right`, Interact `A`.
-  3. **Goal:** Initiate dialogue. He should ask for the mail.
-  4. **Contingency:**
-     - If he accepts: Quest Complete!
-     - If he rejects: "This MAIL isn't for me" -> Check Mail Content again.
-     - If he says something generic: Verify he is the right NPC.
-  5. **Next Step:** Get TM50 (Nightmare) or reward.
+- **Immediate Action:** Stun and Deliver Mail.
+  1. **Correction:** Previous turn failed due to wrong coordinates (I was at 32, 8, not 31, 9).
+  2. **Action:**
+     - Stun NPC 4 (Cooltrainer M) to prevent movement.
+     - Move `Right` (to 33, 8) -> `Down` (to 33, 9).
+     - Face `Right` (towards NPC at 34, 9).
+     - Press `A` to interact.
+  3. **Goal:** Deliver Kenya.
+  4. **Contingency:** If battle starts, fight. If text appears, read it.
 - **Route Info:** Staying on the upper path (Row 8/9) to reach Dark Cave area.
 - **Mail Status:** Kenya holding mail with message "DARK CAVE leads to another road".
 
