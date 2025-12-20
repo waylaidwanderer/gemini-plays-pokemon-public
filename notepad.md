@@ -50,6 +50,7 @@
 # Progress & Logs
 - SecretPotion delivered. Jasmine returning to Olivine Gym.
 - Gym Progress: Defeated Yoshi, Lao, Nob, Lung in Cianwood Gym.
+- KIMCHI Training: Lv15. Target: Lv21+.
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark.
