@@ -79,3 +79,7 @@
 - **Mail Typing:** Typed "DARK CAVE leads".
 - **Next Chunk:** " to an".
 - **Plan:** Space -> t -> o -> Space -> a -> n.
+- **Mail Typing Correction:** Backspaced 8 times to clear garbage.
+- **Typed:** " to an".
+- **Remaining:** "other road".
+- **Anchor Strategy:** Used UPPER button as anchor to ensure alignment.
