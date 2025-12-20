@@ -56,4 +56,9 @@
 - Sayo (Espeon): Defeated (Turn #4858).
 - Naoko (Flareon): Defeated (Turn #4884).
 - All 5 Kimono Girls defeated!
-- Next step: Talk to the Gentleman in the theater to get HM03 Surf.
+- HM03 Surf obtained from Gentleman (Turn #4888).
+
+# Next Steps
+- Teach Surf to a Pokemon (Need to catch a Water-type).
+- Investigate Burned Tower at (4, 4).
+- Challenge Gym Leader Morty at (10, 27).
