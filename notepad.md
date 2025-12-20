@@ -7,7 +7,7 @@
 # Strategy for Training & Medicine Delivery
 - Training Route: Surf Route 40/41.
 - Training Method: Train KIMCHI to Lv21 using Calcifer's Headbutt to weaken or KO high-level Tentacools for shared XP.
-- Status: SecretPotion delivered to Jasmine. Amphy is cured. Jasmine is at Olivine Gym.
+- Status: SecretPotion delivered. Jasmine at Olivine Gym. Heading there now.
 
 # Game Mechanics & Systems
 ## Tile Mechanics
