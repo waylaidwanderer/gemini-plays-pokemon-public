@@ -4,10 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Start Menu to Fly.
-  1. Press `Start` to open the menu.
-  2. Verify cursor position (likely on POKEMON or POKEDEX).
-  3. Next Turn: Select Mistral -> Fly -> Violet City (Up from Cherrygrove).
+- **Immediate Action:** Flying to Violet City.
+  1. Executed sequence: Open Party -> Select Mistral -> Fly -> Violet City.
+  2. Next Turn: Arrival in Violet City.
+  3. Walk East to Route 31.
+  4. Deliver mail to Fisher at (17, 7).
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
