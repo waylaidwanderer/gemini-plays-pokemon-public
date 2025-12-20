@@ -114,47 +114,5 @@
         "action_counter": 5651
       }
     ]
-  },
-  "use_item_sequence": {
-    "description": "Automates the sequence of navigating to the Pack, selecting an item by index, using it, and selecting a target Pokémon. Works from Overworld (Start menu) or Battle (Main menu).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_index": {
-          "type": "integer",
-          "description": "Index of the item in the list (0-based, e.g. 2 for 3rd item)"
-        },
-        "target_slot": {
-          "type": "integer",
-          "description": "Party slot of the Pokémon to use the item on (1-6)"
-        },
-        "pocket_index": {
-          "type": "integer",
-          "description": "Index of the pocket (0: Items, 1: Balls, 2: Key Items, 3: TM/HM)",
-          "default": 0
-        },
-        "context": {
-          "type": "string",
-          "enum": [
-            "overworld",
-            "battle"
-          ],
-          "description": "Current game context"
-        }
-      },
-      "required": [
-        "item_index",
-        "target_slot",
-        "context"
-      ]
-    },
-    "python_script": "import json\n\n# Extract inputs\nitem_index = input_data.get('item_index', 0)\ntarget_slot = input_data.get('target_slot', 1)\npocket_index = input_data.get('pocket_index', 0)\ncontext = input_data.get('context', 'overworld')\n\nbuttons = []\n\nif context == 'overworld':\n    # Open Start Menu\n    buttons.append('Start')\n    buttons.append('sleep 500')\n    # Navigate to Pack (3rd option: Pokedex, Pokemon, Pack)\n    # Cursor starts at Pokedex (0)\n    buttons.extend(['Down', 'Down', 'A'])\n    buttons.append('sleep 1000') # Wait for pack to open\nelif context == 'battle':\n    # Open Pack from Battle Menu\n    # Layout: FIGHT (TL), PKMN (TR), PACK (BL), RUN (BR)\n    # Cursor usually starts on FIGHT. Down -> PACK.\n    buttons.extend(['Down', 'A'])\n    buttons.append('sleep 1000')\n\n# Switch Pocket (Default is Items/0)\n# This loop handles moving right to Balls, Key Items, etc.\n# Note: This implies we start at the leftmost pocket (Items).\nif pocket_index > 0:\n    for _ in range(pocket_index):\n        buttons.append('Right')\n        buttons.append('sleep 250')\n\n# Navigate to Item\nfor _ in range(item_index):\n    buttons.append('Down')\n    buttons.append('sleep 100')\n\n# Select Item\nbuttons.append('A')\nbuttons.append('sleep 500')\n\n# Select USE (Assumes 'USE' is the first option in the item menu)\nbuttons.append('A')\nbuttons.append('sleep 500')\n\n# Select Target Pokemon\n# target_slot is 1-based (1 = Lead).\nif target_slot > 1:\n    for _ in range(target_slot - 1):\n        buttons.append('Down')\n        buttons.append('sleep 100')\n\n# Confirm Use\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-16T02:40:55.788Z",
-        "action_counter": 602
-      }
-    ]
   }
 }
