@@ -20,8 +20,9 @@
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
 
 # Observed Movesets
-- Swimmer Kaylee (17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
-- Swimmer Randall (18, 30): Shellder (Lv18), Wartortle (Lv20), Shellder (Lv18).
+- Swimmer Kaylee (Route 41, 17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
+- Swimmer Randall (Route 40, 18, 30): Shellder (Lv18), Wartortle (Lv20), Shellder (Lv18).
+- Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
@@ -38,7 +39,7 @@
 - Type: Fighting. Weaknesses: Flying, Psychic.
 - Chuck's Team (Crystal): Primeape (27), Poliwrath (30).
 - My Team Analysis:
-  - Calcifer (QUILAVA) Lv32: Flame Wheel/Headbutt. Neutral typing.
+  - Calcifer (QUILAVA) Lv33: Flame Wheel/Headbutt. Neutral typing.
   - GNEISS (GRAVELER) Lv34: Weak to Fighting (and Water). Backup only.
   - KIMCHI (ODDISH) Lv10: Poison resists Fighting. Needs training.
   - SHUCKIE (SHUCKLE) Lv15: High defense, but weak to Water.
@@ -51,4 +52,3 @@
 - Start Turn: 6328 (Entering Gym)
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
-- Status: Strength taught to GNEISS. Returning to Cianwood.
