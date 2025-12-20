@@ -3,9 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to (9, 2) on 5F, avoiding the ladder at (9, 5). Then descend via the Left Wing to exit.
-- **Route:** 5F(9,7) -> (9,6) -> (8,6) -> (8,5) -> (8,4) -> (9,4) -> (9,3) -> (9,2).
-- **Quest Update:** Reached 5F Center. Escaping via top corridor to reach the exit.
+- **Immediate Plan:** Descend to 3F Center via 4F.
+- **Route:** 5F(9,7)[Ladder] -> 4F(9,7)[Center] -> 4F(9,5)[Ladder] -> 3F(9,5)[Center].
+- **Hypothesis:** 5F Center is a dead end (Corridor). The exit must be accessible from 3F Center. I need to re-examine 3F Center for a way out (maybe a ledge to drop to 1F/2F?).
+- **Quest Update:** Delivered Potion. Now finding the exit.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
