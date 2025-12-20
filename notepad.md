@@ -31,6 +31,8 @@
 - **Blackbelt Lao (Hitmonchan):** Defeated.
 - **Next Opponent:** Blackbelt Nob (Machop) at (3, 9).
 - **Blocked Paths:** (4, 19) South is blocked by wall/ledge. (4, 29) South is blocked by wall/ledge (4, 30).
+- **Gym Layout:** Left side has Blackbelts. Right side has boulders? Need to check.
+- **Strategy:** Heal Muscle, then fight Nob.
 - **Plan:** Western area access seems to be from the North (North of Suicune spot). Heading back to (10, 27) and then North to (10, 14).
 - **Exploration Update:** Surfing East/North from the beach at (13, 16) is blocked by rocks and buoys. The "channel" at Col 18 is a dead end.
 - **New Hypothesis:** The Gym is accessible by going North from the smashed rock location at (4, 19), passing to the left of the Poke Seer's house. I previously jumped South from there, but North seems unexplored.
