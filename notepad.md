@@ -1,22 +1,16 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Deliver Kenya to Fisher on Route 31.
+- **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Exit Pack -> Open Party -> Fly.
-  1. Press B (Back to Main Menu).
-  2. Press Up (Select POKEMON).
-  3. Press A (Open Party).
-  4. Scroll to Mistral (Slot 5).
-  5. Select Fly.
-  6. Next Turn: Navigate Map to Violet City.
-- **Hypothesis:** The game expects ALL CAPS for the password phrase.
-- **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
-- **Hypothesis:** The game expects ALL CAPS for the password phrase.
-- **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
-- **Hypothesis:** The game expects ALL CAPS for the password phrase, despite Webster's dialogue using mixed case.
-- **Previous Attempt:** "DARK CAVE leads to another road" (Rejected: "This MAIL isn't for me").
+- **Immediate Action:** Travel East to Route 31 Gatehouse.
+  1. Walk to (39, 25) to exit Violet City.
+  2. Continue East to Route 31.
+  3. Locate "Sleeping Man" (Cooltrainer M) at (33, 9).
+- **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
+- **Backup:** If this fails, investigate Route 31 thoroughly.
+- **Previous Attempt:** Delivered to Fisher (Rejected: "This MAIL isn't for me").
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
