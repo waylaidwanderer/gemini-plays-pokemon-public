@@ -19,7 +19,7 @@
 - ICARUS (PIDGEY) Lv11
 
 ## Party
-- GNEISS (GRAVELER) Lv25: STAB Magnitude.
+- GNEISS (GRAVELER) Lv26: STAB Magnitude.
 - Calcifer (QUILAVA) Lv27
 - FRITTATA (TOGEPI) Lv5
 - KIMCHI (ODDISH) Lv7
