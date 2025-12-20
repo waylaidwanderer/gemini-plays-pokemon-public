@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate North to Jasmine (8, 8) and Amphy (9, 8) on 6F.
-- **Quest Update:** Reached the summit! The "Chain of Pits" strategy worked perfectly. Time to deliver the SecretPotion.
+- **Immediate Plan:** Talk to Jasmine and administer the SecretPotion to Amphy.
+- **Quest Update:** Reached 6F Center. Delivering the medicine.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
