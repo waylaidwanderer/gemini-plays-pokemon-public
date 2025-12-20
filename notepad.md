@@ -44,6 +44,9 @@
 - Turn 5965: Reached Route 41.
 
 # Strategy: Get SecretPotion from Cianwood
+- Task Started: Turn 5863.
+- Route 40 Exploration Started: Turn 5922.
+- Route 41 Exploration Started: Turn 5965.
 - Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
 - Route: Route 40 beach is west of the main city area. Surf south through Route 41 to Cianwood. Note: Route 41 contains the Whirl Islands; stay alert for whirlpools and strong currents.
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
