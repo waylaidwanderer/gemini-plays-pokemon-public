@@ -32,3 +32,6 @@
 
 # Battle Strategies
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
+
+# Defeated Trainers
+- Fisher Tully (Route 42) at (40, 10).
