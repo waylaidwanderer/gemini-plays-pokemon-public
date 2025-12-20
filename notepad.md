@@ -13,36 +13,18 @@
 
 # Game Mechanics & Systems
 ## Tile Mechanics
-- WATER:
-    - Individual Behavior: Allows movement across water tiles.
-    - Relational Behavior: Can be entered from land or other water tiles.
-    - Mechanics: Requires HM03 SURF and the Fog Badge to traverse. Verified: Can move in all directions.
-- FLOOR:
-    - Individual Behavior: Standard traversable ground.
-    - Relational Behavior: Can be entered from any adjacent traversable tile.
-    - Mechanics: Verified: Can move in all directions.
-- WALL:
-    - Individual Behavior: Impassable barrier. Cannot be walked on or through.
-- BUOY:
-    - Individual Behavior: Impassable barrier in water. Functions like a wall.
-- WHIRLPOOL:
-    - Individual Behavior: Impassable water hazard.
-    - Mechanics: Requires a specific HM (Whirlpool) to cross.
-- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE:
-    - Individual Behavior: Impassable barriers.
-- COUNTER:
-    - Individual Behavior: Impassable barrier.
-    - Relational Behavior: To interact with an NPC behind a counter, face the counter tile directly and press A.
-- BOULDER:
-    - Individual Behavior: Impassable barrier.
-    - Mechanics: Can be moved using HM04 STRENGTH.
-- PC:
-    - Individual Behavior: Interactable object for Pokémon and Item storage.
-- WARP:
-    - Individual Behavior: Triggers a map transition to a new location.
+- WATER (Traversable while surfing): Verified traversability in all directions.
+- FLOOR (Standard ground): Verified traversability in all directions.
+- WALL (Impassable barrier): Cannot be walked on.
+- BUOY (Impassable barrier in water): Cannot be walked on.
+- WHIRLPOOL (Impassable hazard): Requires specific HM to cross.
+- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
+- COUNTER: Impassable; interact with NPC behind it from adjacent tile.
+- BOULDER: Impassable; requires HM04 Strength to move.
+- PC: Interactable object for Pokémon/Item storage.
+- WARP: Leads to a different map or area.
 
 ## Lessons Learned
-- Rival (Malice): Appears on Route 40 at (14, 15). He is standing on the water.
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
 - Boulder Dialogue: "A POKéMON may be able to move this" indicates Strength is needed.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
@@ -77,7 +59,6 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Training Logs
-- Rival (Malice): Standing on the water at (14, 15) on Route 40. Verified in-game turn 6855.
 - KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6853). EXP: 1947. HP: 18/37.
 - Calcifer Level: 34. EXP: 36428. HP: 89/94.
 - Lass at (11, 13) on Route 40: Non-battling NPC. Provides flavor text about Cianwood.
