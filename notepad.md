@@ -4,14 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Interact with Clerk.
-  1. **Current State:** At (3, 3) in Violet Mart.
-  2. **Action:** Turn `Left` -> Press `A`.
-  3. **Expectation:** "Welcome! How may I help you?" -> Buy Menu.
-  4. **Next Turn:** Select BUY -> Find FLOWER MAIL -> Buy 3.
-  5. **Then:** Equip Mail to Kenya -> Write Message.
+- **Immediate Action:** Buy Flower Mail (x3).
+  1. **Current State:** Buy Menu Open.
+  2. **Action:** Scroll down to Flower Mail (usually near bottom).
+  3. **Buy:** Purchase 3 units.
+  4. **Next:** Equip to Kenya.
+  5. **Typing Strategy:** **ALL CAPS**. Previous observation in Turn 8640 noted "DARK CAVE LEADS TO ANOTHER ROAD". My recent lowercase attempts likely caused the rejection.
 - **Route Info:** Violet Mart.
-- **Mail Status:** Buying stock.
+- **Mail Status:** Stocking up.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
