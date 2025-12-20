@@ -33,10 +33,10 @@
 - Western Ecruteak: The exit to Route 38 is via Warp Carpets at (0, 18) and (0, 19) in Ecruteak City, leading to (9, 4) and (9, 5) in the gatehouse.
 
 # Strategy
-- Traverse Route 38 and 39 to reach Olivine City.
-- Catch new Pokemon on Route 38 (e.g., Magnemite, Miltank, Tauros, Meowth).
-- Defeat all trainers on the way to maintain level parity (Target: Lv30+).
-- Locate and visit Moomoo Farm on Route 39.
+- Traverse Route 38 and 39 west towards Olivine City.
+- Catch new species for Pokedex (Magnemite, Miltank, Tauros).
+- Battle all trainers to maintain level parity (Target: Lv30+).
+- Locate Moomoo Farm on Route 39.
 
 # Tool Management
 - find_path_v2: Uses coordinate list output. Set autopress_buttons=false for overworld navigation. Includes safe_overrides for incorrectly labeled warps.
