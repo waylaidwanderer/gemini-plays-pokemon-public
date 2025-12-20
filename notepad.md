@@ -31,20 +31,18 @@
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
 
 # Strategy
-- Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 3F.
-- 3F Plan: Defeat Bird Keeper Theo, then find a path to the eastern section (item at (8, 2) and ladder to 4F at (9, 5)).
+- Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 4F.
+- 4F Plan: Defeat Lass Connie, then explore the western section (ladder to 5F at (9, 5)).
 - Backtrack for 7 standard Berries after finding Jasmine.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Noctowl Lv20. Defeated.
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
 - Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
-- Turn 5589: Exploring eastern section of 3F. Target: (17, 10) to reveal unseen tiles (14, 9)-(17, 9) and (18, 10)-(18, 13). PITs at (16, 11), (17, 11) marked.
-- Gentleman Preston (13, 5, 3F). Facing Right. Defeated Turn 5602.
-- 3F Eastern Section explored. Ladder to next floor at (13, 3).
-- 3F Middle Section (Sailor, Item, Ladder) seems inaccessible from 3F East/West.
-- Turn 5605: Arrived on 4F. Ladder at (13, 3) leads back to 3F.
-- Lass at (11, 2, 4F). Unchallenged.
-- Warps detected on 4F: (9, 7), (9, 5), (9, 3) [PIT], (16, 7), (17, 7).
-- Lass Connie (11, 2, 4F). Facing Down. Battle started Turn 5606.
-- 4F Warps: (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 7) PIT, (17, 7) PIT.
+- Gentleman Preston (13, 5, 3F): Growlithe Lv18, Growlithe Lv18. Defeated Turn 5602.
+- Lass Connie (11, 2, 4F): Marill Lv21. In progress Turn 5606.
+
+# Map Notes (Olivine Lighthouse)
+- 3F Eastern Section: Ladder to next floor at (13, 3).
+- 3F Middle Section (Sailor, Item, Ladder): Seems inaccessible from 3F East/West.
+- 4F Warps: (13, 3) Ladder to 3F, (9, 7) Ladder to 3F, (9, 5) Ladder to 5F, (8, 3) PIT, (9, 3) PIT, (16, 7) PIT, (17, 7) PIT.
