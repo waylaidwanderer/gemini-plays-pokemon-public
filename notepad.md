@@ -5,11 +5,12 @@
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
 - **Current Action:** Fix Kenya's Mail (Open Pack).
-  1. **Status:** Mail detached. Opening Pack to find Flower Mail.
-  2. **Step 1:** Clear text & Return to Start Menu (A -> B -> B).
-  3. **Step 2:** Select PACK (Down -> A).
-  4. **Step 3:** Select Flower Mail -> Equip to Kenya.
-  5. **Step 4:** Write "DARK CAVE leads to another road" (Verify casing).
+  1. **Status:** Text "MAIL detached" visible. Clearing text and opening Pack.
+  2. **Step 1:** Clear text (A).
+  3. **Step 2:** Exit Party Menu (B -> B).
+  4. **Step 3:** Enter Pack (Down -> A if in Start Menu).
+  5. **Step 4:** Select Flower Mail -> Equip to Kenya.
+  6. **Step 5:** Write "DARK CAVE leads to another road" (Verify casing).
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
