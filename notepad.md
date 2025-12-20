@@ -38,10 +38,9 @@
 - Route 39 (9, 3): Mint Berry.
 
 # Strategy & Exploration
-- Goal: Reach Olivine City (West) via Route 38/39.
-- Catch Checklist: Magnemite, Miltank, Tauros.
-- Quest: Collect 7 standard "BERRY" items.
-- Plan: Explore south on Route 39, then backtrack to check earlier routes for standard Berries.
+- Quest: Heal Miltank. Need 7 standard "BERRY" items.
+- Berry Search Method: Backtrack through previous routes and interact with all fruit trees. Record which trees provide the standard 'BERRY' item.
+- Exploration Plan: Complete Route 39 exploration to Olivine City first, then begin backtracking for Berries.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective.
