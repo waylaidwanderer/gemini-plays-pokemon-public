@@ -16,7 +16,7 @@
 - Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move that can cause flinching.
 - NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
-- Swimmer Kaylee (17, 2): Uses Goldeen (Lv18), Goldeen (Lv20).
+- Swimmer Kaylee (17, 2): Uses Goldeen (Lv18), Goldeen (Lv20), Seaking (Lv20).
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
