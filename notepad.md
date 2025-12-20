@@ -41,6 +41,3 @@
 - Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
 - Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
-
-# Reflection Log
-- Turn 6076: Reflection 50. Last 50 turns reviewed. Tasks (Kirk update) performed. Notepad and Map markers up to date. Automation tools are performing well. Goal remains clear: get SecretPotion. Recent mistakes (Potion mix-up) distilled into lessons. No false constraints identified.
