@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Flying to Violet City.
-  1. **Current State:** Fly Map Open (Executing Sequence).
-  2. **Sequence Executed:** `A` (Select Fly) -> `Up` (Target Violet) -> `A` (Select) -> `A` (Confirm).
-  3. **Next Turn:** Arrive in Violet City.
-  4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
+- **Immediate Action:** Re-open Party Menu (Fly Failed).
+  1. **Issue:** Previous Fly command landed in Cherrygrove (Input 'Up' likely eaten by map transition).
+  2. **Correction:** Open Party Menu carefully.
+  3. **Sequence:** `Start` -> `A` (Enter Party).
+  4. **Next Turn:** Select Mistral -> Fly -> *Wait for Map* -> Violet City.
+  5. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
