@@ -49,10 +49,10 @@
 - **MART_SHELF:** Impassable.
 - **COUNTER:** Impassable. Interactable across it.
 - **WARP_CARPET_DOWN:** Exit warp.
-- **Mail Correction Step 1:** Removed incomplete mail from Kenya.
-- **Current Step:** Giving fresh FLOWER MAIL to Kenya.
-- **Next Step:** Write: "DARK CAVE leads to another road".
-- **Typing Plan:**
-  1. Caps: "DARK CAVE"
-  2. Lower: " leads to another road"
-  3. Ensure line breaks handled automatically or manually if needed.
+- **Mail Correction Step 2:** Failed typing "DARK CAVE leads..." (Result was "DARK CAV!O...").
+- **Current Status:** Checking Kenya's mail in Party Menu to confirm garbage text.
+- **Next Steps:**
+  1. If text is garbage: TAKE MAIL (sends to PC).
+  2. Buy new FLOWER MAIL from Mart (currently in Violet Mart).
+  3. GIVE new mail to Kenya.
+  4. Write "DARK CAVE leads to another road" carefully.
