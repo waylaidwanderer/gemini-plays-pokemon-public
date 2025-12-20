@@ -54,4 +54,5 @@
 - Zuki (Umbreon): Battling (Turn #4823).
 - Turn #4827: GNEISS used Magnitude 5. Umbreon used Pursuit.
 - Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
-- Turn #4830: Selecting Calcifer in PKMN menu.
+- Turn #4830: Calcifer switched in. Umbreon used Sand-Attack (failed).
+- Turn #4831: Calcifer at 76/76 HP. Using Headbutt.
