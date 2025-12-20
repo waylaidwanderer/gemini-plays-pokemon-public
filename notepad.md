@@ -4,15 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Debug Fly Map Navigation (Retry Down).
-  1. **Issue:** `Down` inputs in Turn 8679 failed to move cursor from Goldenrod.
-  2. **Hypothesis:** 500ms delay was too short, inputs were dropped.
-  3. **Fact:** `Up` successfully moved New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod. This confirms a list-based or specific path traversal. `Down` *should* reverse this.
-  4. **Plan:** Press `Down` ONCE with 2000ms delay.
-  5. **Next Turn:**
-     - If "Azalea Town": Press `Down` again to reach Violet.
-     - If "Goldenrod City": `Down` is broken. Try `Left`/`Right`.
-  6. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
+- **Immediate Action:** Scroll to Violet City (Final Step).
+  1. **Current State:** Fly Map Open. Cursor on "Cherrygrove City".
+  2. **Knowledge:** The list order via `Up` is New Bark -> Cherrygrove -> **Violet** -> Azalea.
+  3. **Plan:** Press `Up` ONCE.
+  4. **Next Turn:** Verify "Violet City", then Confirm.
+  5. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
