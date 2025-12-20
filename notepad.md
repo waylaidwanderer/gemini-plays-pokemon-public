@@ -60,4 +60,5 @@
 - Calcifer Level: 35. XP: 36584. HP: 91/96.
 - Lass at (11, 13) on Route 40: Non-battling NPC. Provides flavor text about Cianwood.
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
-- Youngster at (16, 9) on Route 40: Potential trainer. Strategy: Lead with KIMCHI for XP share, switch to Calcifer. Verified Turn 6873.
+- Youngster at (16, 9) on Route 40: Non-battling NPC. Mentions Battle Tower.
+- Rival (Malice): Confirmed at (14, 15) on Route 40 (standing on water). Verified Turn 6868.
