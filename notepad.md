@@ -26,6 +26,7 @@
 - NPC Verification: Do not assume an NPC is static or present based on a single turn's observation; use stun_npc or re-verify if they seem to disappear.
 - Lighthouse Layout: The lighthouse has many split levels and floor warps; exploration is key to finding the correct path up.
 - Battle Strategy: Use battle_strategist_v2 for all trainer battles to ensure consistent performance.
+- Warp Verification: (16, 7) and (17, 7) on 4F are marked as warps in the game state but do not trigger upon stepping. They are likely not the intended path up.
 
 # Berry Knowledge
 - Standard BERRY: 0/7.
@@ -34,18 +35,20 @@
 - Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32, R35, R36, R37, R38, R39.
 
 # Strategy
-- Olivine Lighthouse: Currently on 3F (landed from 4F pit).
-- 3F Sections: West (x=0-6), Middle (x=8-10), East (x=12-19). Separated by walls at x=7 and x=11.
-- Middle Section 3F: Contains Sailor (9, 2), Item (8, 2), and Ladder to 4F (9, 5). Reachable via Ladder (9, 7) on 4F.
-- Plan: Go back to 4F via Ladder (13, 3), then use Ladder (9, 7) to explore 3F Middle.
+- Olivine Lighthouse: Currently on 4F.
+- Goal: Reach Jasmine.
+- Path: Fall through pit at (16, 9) -> 3F Middle -> Ladder up -> 4F Middle -> Ladder (9, 5) to 5F.
 
 # Trainer Progress (Olivine Lighthouse)
-- Gentleman Alfred (16, 8, 2F): Defeated.
-- Sailor Huey (11, 3, 2F): Defeated.
-- Bird Keeper Theo (3, 9, 3F): Defeated.
-- Gentleman Preston (13, 5, 3F): Defeated Turn 5602.
-- Sailor Kent (7, 14, 4F): Defeated Turn 5626.
+- Gentleman Alfred (2F): Defeated.
+- Sailor Huey (2F): Defeated.
+- Bird Keeper Theo (3F): Defeated.
+- Gentleman Preston (3F): Defeated.
+- Sailor Kent (4F): Defeated.
+- Lass Connie (4F): Defeated.
 
 # Map Notes (Olivine Lighthouse)
+- 3F Sections: West (x=0-6), Middle (x=8-10), East (x=12-19). Separated by walls at x=7 and x=11.
+- 3F Middle Section: Contains Sailor (9, 2), Item (8, 2), and Ladder to 4F (9, 5).
 - 3F Warps: (13, 3) Ladder, (5, 3) Ladder, (9, 5) Ladder, (16, 11) PIT, (17, 11) PIT.
 - 4F Warps: (13, 3) Ladder, (3, 5) Ladder, (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT.
