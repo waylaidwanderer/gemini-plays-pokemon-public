@@ -49,39 +49,6 @@
       }
     ]
   },
-  "give_item_v1_refined": {
-    "description": "Gives an item from the PACK to a Pokémon. Assumes overworld. Parameters: item_index (0-indexed position in the current pocket), pokemon_index (1-indexed position in the party), current_menu_index (0-indexed position of the menu cursor, POKEDEX=0, EXIT=7).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_index": {
-          "type": "integer",
-          "description": "0-indexed position of the item in the current pocket"
-        },
-        "pokemon_index": {
-          "type": "integer",
-          "description": "1-indexed position of the Pokémon in the party"
-        },
-        "current_menu_index": {
-          "type": "integer",
-          "description": "0-indexed position of the current menu cursor (POKEDEX=0, EXIT=7)"
-        }
-      },
-      "required": [
-        "item_index",
-        "pokemon_index",
-        "current_menu_index"
-      ]
-    },
-    "python_script": "\nimport json\n\ndef main():\n    item_index = int(input_data['item_index'])\n    pokemon_index = int(input_data['pokemon_index'])\n    current_menu_index = int(input_data['current_menu_index'])\n    \n    buttons = [\"Start\", \"sleep 500\"]\n    \n    # Navigate to Pack (index 2)\n    diff = 2 - current_menu_index\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Navigate to Item\n    for _ in range(item_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select GIVE (2nd option)\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select Pokemon\n    for _ in range(pokemon_index - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Clear text\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-19T10:55:52.584Z",
-        "action_counter": 3933
-      }
-    ]
-  },
   "press_sequence": {
     "description": "Executes a specific sequence of button presses, allowing for mixed directional and action inputs. Useful for complex menu navigation.",
     "input_schema": {
