@@ -4,18 +4,18 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Select FLOWER MAIL).
-  1. **Status:** Pack opened.
-  2. **Step 1:** Navigate to FLOWER MAIL (Down x6 -> A).
-  3. **Step 2:** Compose Message: "DARK CAVE leads to another road."
-  4. **Step 3:** Confirm and Exit.
-  5. **Step 4:** Interact with Fisher.
+- **Current Action:** Fix Kenya's Mail (Compose Message).
+  1. **Status:** Selecting FLOWER MAIL to Attach.
+  2. **Step 1:** Press A to Select.
+  3. **Step 2:** Enter Message Composition.
+  4. **Step 3:** Write: "DARK CAVE leads to another road" (Check for period/exclamation).
 
-## Reflection (Turn 9097)
-- **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
-- **Hygiene:** Notepad cleaned. Map markers active.
-- **Goal:** Clear.
-- **Lesson:** Precision in text quests is non-negotiable. "Close enough" fails.
+## Reflection (Turn 9148)
+- **Execution:** Focused on mail quest. No deferred tasks.
+- **Hygiene:** Notepad organized. Map markers up to date.
+- **Goal:** Clear. Deliver Kenya.
+- **Lesson:** Punctuation in text quests is critical. Failed previous attempt without period.
+- **Strategy:** Retrying with forged mail message.
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
