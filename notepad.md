@@ -29,7 +29,7 @@
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
 - Strategy: Use GNEISS with Magnitude. Morty's Gengar is fast and uses status moves; GNEISS's Rock typing provides solid defense against Shadow Ball (Physical in Gen 2).
-- Invisible Path: Avoid all tiles with `is-warp='true'` or `type='PIT'`. Use find_path tool.
+- Invisible Path: Avoid all tiles with `is-warp='true'` or `type='PIT'`. Use find_path_v2 tool.
 
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
@@ -38,12 +38,8 @@
 - Sage Jeffrey (Ecruteak Gym): Haunter Lv22. (Turn #5095)
 - Medium Martha (Ecruteak Gym): Gastly Lv18, Haunter Lv20, Gastly Lv20. (Turn #5143)
 
-# Strategy
-- Use `find_path_v2` to navigate between safe tiles.
-- Use battle_strategist_v2 for Morty.
-- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5172.
-
 # Lessons Learned
 - Pit Warps: Tiles with `is-warp='true'` or `type='PIT'` in the Ecruteak Gym are pits that return you to the start. They are NOT safe to walk on. (Turn #5131)
 - Switching in Battle: In Gen 2, the 'Will you switch?' prompt after an opponent's Pokémon faints is a YES/NO choice. Selecting 'YES' leads to the party menu. If you change your mind, press 'B' to return to the battle menu. (Turn #5140)
 - Trust the XML: The Mental Map's structural data (`is-warp`, `type`) is the primary source of truth for navigation, even if it contradicts the discovered warps list. (Turn #5144)
+- Party Menu Persistence: The cursor in the party menu when using items often stays on the last selected Pokémon or moves to the next one. Use multiple 'Up' presses to reset to the top for reliable selection. (Turn #5172)
