@@ -58,3 +58,4 @@
     - Drowzee (Lv 23). Used Hypnosis.
     - Haunter (Lv 23).
     - Electrode (Lv 25).
+- **Inventory Note:** The Game State inventory list is sorted alphabetically and does NOT reflect in-game bag order. Must inspect bag visually to find item indices.
