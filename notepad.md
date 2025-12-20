@@ -100,3 +100,6 @@
     3. Go back to Pack.
     4. GIVE Flower Mail to Kenya.
     5. Write the correct message: "DARK CAVE leads to another road".
+- **Status:** Cannot Give new mail because Kenya is holding old mail.
+- **Action:** Backing out of Pack/Give menu to enter Party menu.
+- **Goal:** TAKE the old mail from Kenya so I can GIVE the new one with the correct message.
