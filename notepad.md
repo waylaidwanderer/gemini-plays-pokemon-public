@@ -9,7 +9,6 @@
 
 # Trainer Progress (Olivine Lighthouse)
 - Defeated: Alfred, Huey, Theo, Preston, Kent, Connie, Terrell.
-- Ernest (5F): Machop Lv18, Poliwhirl Lv18, Machop (Active).
 
 # Map Notes
 - 3F Middle: Reachable via 4F pits (8,3)/(9,3).
