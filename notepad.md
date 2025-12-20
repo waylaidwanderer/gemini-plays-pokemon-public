@@ -82,3 +82,5 @@
 - **Battle Strategy:** Shuckie successfully tanked Lick. Muscle healed.
 - **Action:** Switching Muscle back in (Slot 1) to replace Shuckie.
 - **Goal:** Defeat Haunter with Dig.
+- **Battle Logic:** Haunter is Ghost/Poison. Ground (Dig) is 2x Super Effective. Ghost does NOT levitate in Gen 2.
+- **Action:** Opening Party menu to switch Muscle in.
