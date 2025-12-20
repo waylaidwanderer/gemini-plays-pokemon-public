@@ -5,14 +5,6 @@
 - Badges: Zephyr, Hive, Plain, Fog.
 - Items: TM30 Shadow Ball.
 
-# Party
-- GNEISS (GRAVELER) Lv31: MAGNITUDE, DEFENSE CURL, ROCK THROW, ROLLOUT.
-- Calcifer (QUILAVA) Lv28: QUICK ATTACK, HEADBUTT, SMOKESCREEN, EMBER.
-- FRITTATA (TOGEPI) Lv5: GROWL, CHARM, MUD-SLAP.
-- KIMCHI (ODDISH) Lv10: ABSORB, SWEET SCENT, CUT.
-- EGG (CLEFFA) Lv5: POUND, CHARM, DIZZY PUNCH.
-- XFDW (MEOWTH) Lv16: SCRATCH, GROWL, BITE.
-
 # Tile Mechanics
 - PIT: Warp tile, impassable.
 - STATUE: Impassable background object.
@@ -40,23 +32,15 @@
 - Route 38: Divided by a wall at row 8. Western path is north of the wall.
 
 # Strategy & Exploration
-- Goal: Reach Olivine City (West) via Route 38/39.
 - Catch Checklist: Magnemite, Miltank, Tauros.
 - Exploration: Check western edge (x=0) for Route 39 transition.
+- Turn 5370: Started Route 39 exploration.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective.
 - Normal vs Rock: Not Very Effective.
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
-
-# Day/Night Cycle
-- Current: Friday Night.
-
-# Tool Management
-- find_path_v2: Reliable for navigation.
-- get_reachable_unseen_tiles_v2_refined: Fixed attribute parsing bug (Turn 5342).
-- battle_strategist_v2: Available for major battles.
 
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
