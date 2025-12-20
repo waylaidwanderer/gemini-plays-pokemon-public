@@ -3,9 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Use Dig (Muscle) to escape the Lighthouse.
-- **Reasoning:** The Central Column (3F-6F) appears to be isolated with no walk-out exit. Dig is the standard escape method from dead-end puzzle rooms.
-- **Quest Update:** Amphy cured. Escaping to challenge Gym.
+- **Immediate Plan:** Verify location after Dig. Heal at Pokémon Center, then challenge Olivine Gym.
+- **Quest Update:** Escaped Lighthouse. Amphy is cured.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
