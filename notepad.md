@@ -44,14 +44,12 @@
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
 - **Battle Result:** Lost to Chuck. Wiped out by Poliwrath.
-- **Current Status:** Respawned at Cianwood Center. Team fully healed. Money: 8923.
-- **Immediate Goal:** Buy supplies at Pharmacy.
-- **Shopping List:**
-  - **Hyper Potions:** Better value/slot efficiency for Muscle (127 HP). Aim for 4-5.
-  - **Full Heals:** Essential for DynamicPunch Confusion. Aim for 4-5.
+- **Current Status:** Respawned at Cianwood Center. Team fully healed. Money: 523.
+- **Inventory Update:** Bought 5 Hyper Potions, 4 Full Heals.
+- **Immediate Goal:** Return to Gym and defeat Chuck.
 - **Rematch Strategy:**
   - Muscle (Lv 39) must be full HP for Poliwrath.
-  - Use Full Heals to cure Confusion immediately. Do not rely on switching (free hits for Poliwrath).
+  - Use Full Heals to cure Confusion immediately.
   - Use Hyper Potions to stay out of crit range.
   - Muscle's Strength is the main damage source.
 - **Gym Trainers:** Defeated Yoshi, Lao, Nob, Lung.
