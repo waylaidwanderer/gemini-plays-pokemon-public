@@ -25,7 +25,7 @@
 - Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move.
 - NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
-- Rival (Malice) Anomaly: Sprite confirmed standing on water at (14, 15) on Route 40 (Turn 6868).
+- Rival (Malice) Anomaly: Sprite confirmed standing on water at (14, 15) on Route 40 (Turn 6868). Currently absent.
 
 # Battle and Pokemon Information
 ## Observed Movesets
