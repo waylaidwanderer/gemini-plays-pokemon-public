@@ -39,3 +39,4 @@
 # Strategy
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Gym trainers and Morty.
+- Healing GNEISS with Berries (Turn #5105).
