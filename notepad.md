@@ -56,7 +56,7 @@
 - Goal: Find and release legendary beasts.
 
 # Exploration Targets
-- Reachable unseen tiles on B1F: (To be determined by tool).
+- Reachable unseen tiles on B1F: (5, 8), (5, 13), (6, 14), (7, 4), (7, 14), (8, 4), (8, 14), (9, 4), (9, 14), (10, 4), (10, 14), (11, 4), (11, 14), (12, 4), (12, 14), (13, 14), (14, 4), (14, 14), (15, 14), (16, 12), (16, 13)
 - Unseen tiles adjacent to walkable (1F): (15, 0), (16, 0), (18, 3-8).
 
 # Defeated Trainers
