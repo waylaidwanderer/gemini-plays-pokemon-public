@@ -4,15 +4,15 @@
     "input_schema": {
       "type": "object",
       "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
         "target_x": {
           "type": "integer"
         },
         "target_y": {
           "type": "integer"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
@@ -21,7 +21,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solution(input_data, map_xml_string):\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    \n    # Check for Surf capability (hardcoded based on current status)\n    has_surf = True\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            has_obj = tile.attrib.get('has-object') == 'true'\n            if tile.attrib.get('has-player') == 'true':\n                player_pos = (x, y)\n            \n            walkable = True\n            if t_type in [\"WALL\", \"WINDOW\", \"BUOY\", \"ROCK\", \"BOOKSHELF\", \"TV\", \"RADIO\", \"TOWN_MAP\", \"COUNTER\", \"WHIRLPOOL\"]:\n                walkable = False\n            elif t_type == \"WATER\" and not has_surf:\n                walkable = False\n            elif has_obj:\n                walkable = False\n            \n            if (is_warp or t_type == \"PIT\") and (x, y) != (target_x, target_y):\n                walkable = False\n                \n            grid[(x, y)] = {'walkable': walkable, 'type': t_type}\n\n    if not player_pos or (target_x, target_y) not in grid:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                t_type = grid[(cx, cy)]['type']\n                # Ledge logic based on XML tile types\n                if t_type == \"LEDGE_HOP_DOWN\" and (dx, dy) != (0, 1): continue\n                if t_type == \"LEDGE_HOP_LEFT\" and (dx, dy) != (-1, 0): continue\n                if t_type == \"LEDGE_HOP_RIGHT\" and (dx, dy) != (1, 0): continue\n                if t_type == \"LEDGE_HOP_UP\" and (dx, dy) != (0, -1): continue\n                \n                if (nx, ny) == (target_x, target_y) or grid[(nx, ny)]['walkable']:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n                    \n    print(json.dumps([]))\n\nsolution(input_data, map_xml_string)",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solution(input_data, map_xml_string):\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    \n    # Check for Surf capability (hardcoded based on current status)\n    has_surf = True\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            has_obj = tile.attrib.get('has-object') == 'true'\n            if tile.attrib.get('has-player') == 'true':\n                player_pos = (x, y)\n            \n            walkable = True\n            if t_type in [\"WALL\", \"WINDOW\", \"BUOY\", \"ROCK\", \"BOOKSHELF\", \"TV\", \"RADIO\", \"TOWN_MAP\", \"COUNTER\", \"WHIRLPOOL\"]:\n                walkable = False\n            elif t_type == \"WATER\" and not has_surf:\n                walkable = False\n            elif has_obj:\n                walkable = False\n            \n            if (is_warp or t_type == \"PIT\") and (x, y) != (target_x, target_y):\n                walkable = False\n                \n            grid[(x, y)] = {'walkable': walkable, 'type': t_type}\n\n    if not player_pos or (target_x, target_y) not in grid:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                t_type = grid[(cx, cy)]['type']\n                # Ledge logic based on XML tile types\n                if t_type == \"LEDGE_HOP_DOWN\" and (dx, dy) != (0, 1): continue\n                if t_type == \"LEDGE_HOP_LEFT\" and (dx, dy) != (-1, 0): continue\n                if t_type == \"LEDGE_HOP_RIGHT\" and (dx, dy) != (1, 0): continue\n                if t_type == \"LEDGE_HOP_UP\" and (dx, dy) != (0, -1): continue\n                \n                target_t_type = grid[(nx, ny)]['type']\n                if target_t_type == \"LEDGE_HOP_DOWN\" and (dx, dy) != (0, 1): continue\n                if target_t_type == \"LEDGE_HOP_LEFT\" and (dx, dy) != (-1, 0): continue\n                if target_t_type == \"LEDGE_HOP_RIGHT\" and (dx, dy) != (1, 0): continue\n                if target_t_type == \"LEDGE_HOP_UP\" and (dx, dy) != (0, -1): continue\n                \n                if (nx, ny) == (target_x, target_y) or grid[(nx, ny)]['walkable']:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n                    \n    print(json.dumps([]))\n\nsolution(input_data, map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -72,6 +72,11 @@
         "commit_message": "Updated ledge collision logic to match XML tile types (LEDGE_HOP_DOWN, etc.).",
         "timestamp": "2025-12-20T14:06:09.137Z",
         "action_counter": 6215
+      },
+      {
+        "commit_message": "Fixed ledge collision logic to check both current and target tiles for hop direction.",
+        "timestamp": "2025-12-20T14:06:49.828Z",
+        "action_counter": 6216
       }
     ]
   },
