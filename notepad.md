@@ -21,14 +21,9 @@
 - STATUE / BOOKSHELF / PC / WINDOW: Impassable background objects.
 - WARP_CARPET_DOWN: Warp tile. Leads to an exit.
 
-# Trainer Teams & Progress (Route 38)
+# Trainer Teams & Progress (Route 38/39)
 - Beauty Olivia (5, 8), Beauty Valerie (19, 9), Bird Keeper Toby (12, 15), Sailor Harry (24, 5), Lass Dana (15, 3), Youngster Chad (4, 1): Defeated.
-
-# Trainer Teams & Progress (Route 39)
-- Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
-- Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
-- Pokefan Derek (10, 22): Pikachu Lv17. Defeated.
-- Sailor Eugene (13, 29): Poliwhirl Lv17, Krabby Lv19, Raticate Lv17. Defeated.
+- Psychic Norman (13, 7), Pokefan Ruth (11, 19), Pokefan Derek (10, 22), Sailor Eugene (13, 29): Defeated.
 
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
@@ -62,17 +57,10 @@
 - House (25, 11): Leads to 2_5 (1, 1).
 - NPC Youngster (20, 13): Mentions Pokegear.
 - Building (13, 15): Blue building with yellow sign.
-
-# Olivine City Strategy
-- Gym Leader Jasmine is at the LIGHTHOUSE tending to a sick Pokemon.
-- The Gym is currently empty.
-
-# Olivine Pokecenter Discoveries
-- Nurse Joy at (3, 1).
-- Teacher at (7, 1).
-- Fisher at (2, 3).
-- Fishing Guru at (8, 4).
+- Pokecenter: Nurse Joy (3, 1), Teacher (7, 1), Fisher (2, 3), Fishing Guru (8, 4).
 
 # Olivine Lighthouse Strategy
-- 1F: Entered from Olivine City (29, 27). Exploring to find stairs to 2F.
-- Goal: Reach the top to find Gym Leader Jasmine.
+- Plan: Explore floors systematically, defeating trainers to reach the top.
+- Step 1: Use the ladder at (3, 11) to reach 2F.
+- Step 2: Clear trainers on each floor and find the next upward path.
+- Step 3: Locate Gym Leader Jasmine and determine the needs of the sick Pokémon.
