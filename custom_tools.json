@@ -49,7 +49,7 @@
       }
     ]
   },
-  "get_reachable_unseen_tiles_v2_refined}": {
+  "get_reachable_unseen_tiles_v2_refined": {
     "description": "Finds all reachable unseen tiles on the current map using the Mental Map XML. Returns a list of coordinates. Correctly handles traversable tiles like FLOOR and TALL_GRASS.",
     "input_schema": {
       "properties": {
