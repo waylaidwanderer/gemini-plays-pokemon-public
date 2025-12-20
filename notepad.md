@@ -27,12 +27,18 @@
     - **Exploration:** Smashed rocks at (4,25), (4,19), (8,16), (10,27). Surfing North to find Gym.
 
 ## Battle Log
+## Battle Log
 - **Blackbelt Yoshi (Hitmonlee):** Defeated.
 - **Blackbelt Lao (Hitmonchan):** Defeated.
-- **Next Opponent:** Blackbelt Nob (Machop) at (3, 9).
+- **Current Battle:** Blackbelt Nob (Machoke).
+- **Gym Layout:** Left side has Blackbelts. Right side has boulders (3,7), (4,7), (5,7).
+- **Boulder Puzzle Strategy:**
+  1. Teach Strength to Muscle (replace Focus Energy).
+  2. Push Boulder at (4,7) UP.
+  3. Step to (4,7).
+  4. Push Boulder at (5,7) RIGHT (or (3,7) LEFT).
+  5. Proceed North.
 - **Blocked Paths:** (4, 19) South is blocked by wall/ledge. (4, 29) South is blocked by wall/ledge (4, 30).
-- **Gym Layout:** Left side has Blackbelts. Right side has boulders? Need to check.
-- **Strategy:** Heal Muscle, then fight Nob.
 - **Plan:** Western area access seems to be from the North (North of Suicune spot). Heading back to (10, 27) and then North to (10, 14).
 - **Exploration Update:** Surfing East/North from the beach at (13, 16) is blocked by rocks and buoys. The "channel" at Col 18 is a dead end.
 - **New Hypothesis:** The Gym is accessible by going North from the smashed rock location at (4, 19), passing to the left of the Poke Seer's house. I previously jumped South from there, but North seems unexplored.
