@@ -45,10 +45,11 @@
 # Strategy: Get SecretPotion from Cianwood
 - Task Started: Turn 5863.
 - Route 40 Exploration Started: Turn 5922.
-- Current Location: Route 40 (In battle with Swimmer Paula).
+- Route 41 Exploration Started: Turn 5965.
+- Current Location: Route 41.
 - Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
-- Route: Route 40 beach is west of the main city area. Surf south from there to Cianwood.
+- Route: Route 40 beach is west of the main city area. Surf south through Route 41 to Cianwood.
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Status: Surfing south on Route 40 towards Route 41. (Turn 5962)
+- Status: Surfing south on Route 41. (Turn 5965)
