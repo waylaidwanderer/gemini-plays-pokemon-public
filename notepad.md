@@ -34,5 +34,6 @@
 - Start Turn: 6328 (Entering Gym)
 
 # Gym Strategy: Boulders
-- Boulders at (3,7), (4,7), (5,7) require Rock Smash to break (per Pokefan M).
-- Plan: Teach Rock Smash to GNEISS after healing Calcifer.
+- Hypothesis: Boulders at (3,7), (4,7), (5,7) require Strength to push. Pokefan M's Rock Smash hint likely applies to cracked rocks outside.
+- Test: Interact with a gym boulder to see the message. If it requires Strength, I must return to Goldenrod City to obtain HM04.
+- Plan: Challenge the remaining trainers first, then test the boulders.
