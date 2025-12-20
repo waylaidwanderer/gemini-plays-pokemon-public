@@ -54,3 +54,5 @@
     - Muscle's stats are reset (Defense normal).
     - **Next Step:** Switch Muscle in (Slot 1). **CRITICAL:** Use Hyper Potion immediately as Muscle has 23/130 HP and Steelix deals ~40 damage with Iron Tail.
 - **Tool Maintenance:** Need to review `smart_battle_move` usage/logic to correctly handle Gen 2 cursor memory (cursor stays on last used move) before next battle.
+- **Events:** Received phone call from Wade (Bug Catcher). He talked about his Pokemon growing fast and a wild Bellsprout escaping.
+- **Tool Note:** `smart_battle_move` logic verified as correct for wrapping. Must ensure `current_slot` argument is passed correctly in future battles to handle cursor memory.
