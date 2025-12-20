@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Give Flower Mail to Kenya (Correcting Berry Mistake).
-  1. **Current State:** Item Pocket, Cursor on `FLOWER MAIL`.
-  2. **Context:** Accidentally gave Kenya a `BITTER BERRY` previously. Giving Mail will swap it.
-  3. **Action:** Press `A` (Open Menu), `A` (Select GIVE - it is the 1st option).
-  4. **Next:** Select Kenya (Slot 6) from Party list.
-  5. **Next:** Compose Message.
+- **Immediate Action:** Confirm Item Switch.
+  1. **Current State:** "Switch items?" dialog. Cursor on `YES`.
+  2. **Action:** Press `A` to confirm.
+  3. **Next:** Compose Message for Mail (likely next screen).
+  4. **Message:** Simple greeting or select random words.
+  5. **After:** Exit menus and travel East to Route 31.
   6. **Target:** Fisher at (17, 7) on Route 31.
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
