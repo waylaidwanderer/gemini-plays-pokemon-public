@@ -52,4 +52,5 @@
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Next target: Kimono Girl 3 at (6, 2).
 - Zuki (Umbreon): Defeated (Turn #4845).
-- Next target: Kimono Girl 2 at (2, 1).
+- Sayo (Espeon): Battling (Turn #4849).
+- Turn #4849: GNEISS at 11/74 HP. Switching to Calcifer.
