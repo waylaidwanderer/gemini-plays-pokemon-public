@@ -5,7 +5,8 @@
 - WATER: Traversable only while surfing. Requires Surf and Fog Badge.
 - WHIRLPOOL: Impassable water hazard. Requires HM06 (Whirlpool).
 - WARP_CARPET_DOWN / WARP: Leads to a different map.
-- BOULDER: Impassable, can be crushed with Rock Smash.
+- BOULDER: Impassable; requires HM04 Strength to move (verified Turn 6387).
+- ROCK: Impassable; can be crushed with Rock Smash.
 - PC: Interactable object for Pokémon/Item storage.
 
 # Lessons Learned
