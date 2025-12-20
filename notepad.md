@@ -40,3 +40,7 @@
 - TM08 Rock Smash is already in inventory.
 - Pokefan M at (16, 33) mentioned breaking rocks north of town.
 - Lugia Speech House Info: Mythical sea creature in the four islands; whirlpools are caused by it; special move needed to pass them (likely HM06 Whirlpool); need SILVER WING to see the creature.
+ Need SILVER WING to see creature.
+
+# Exploration Log
+- Turn #6156: Exploring Cianwood City. Visited Lugia Speech House. Information gathered about Silver Wing and Whirlpool move.
