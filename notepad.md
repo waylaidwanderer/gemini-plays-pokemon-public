@@ -4,10 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Delivering Mail to Fisher.
-  1. **Location:** Route 31 Entrance.
-  2. **Action:** Navigate to Fisher at (17, 7).
-  3. **Tool:** Will use `navigate_to(17, 7)` next turn.
+- **Current Action:** Fix Nav Tool & Approach Fisher.
+  1. **Update:** `navigate_to` failed (ledges blocked). Updated with jump logic.
+  2. **Move:** Right x4 to approach ledges manually while tool updates.
+  3. **Target:** Fisher at (17, 7).
   4. **Status:** Kenya equipped with Mail ("HI").
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
