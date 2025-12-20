@@ -5,11 +5,11 @@
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
 - **Current Action:** Entering Route 31 Gatehouse.
-  1. **Location:** Violet City (34, 26).
-  2. **Movement:** Up -> Right x5 -> Gatehouse (39, 25).
+  1. **Location:** Violet City (39, 25).
+  2. **Movement:** Right (Trigger Warp).
   3. **Goal:** Reach Route 31.
-  4. **Critique Note:** Define `navigate_to(x,y)` tool next turn to automate pathfinding.
-  5. **Status:** Kenya equipped with Mail.
+  4. **Status:** Tool `navigate_to` defined for future use.
+  5. **Kenya:** Holding Flower Mail ("HI").
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
