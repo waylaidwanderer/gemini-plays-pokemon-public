@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Scroll DOWN to find Flower Mail.
-  1. Currently at ICE BERRY/EVERSTONE.
-  2. FLOWER MAIL was purchased recently, so it should be at the VERY BOTTOM of the list.
-  3. Scrolling DOWN x 10 to reach the end.
-  4. If found, Give to Kenya -> Type "DARK CAVE LEADS TO ANOTHER ROAD" -> Deliver.
+- **Immediate Action:** Write Mail in ALL CAPS.
+  1. Found FLOWER MAIL at bottom of pack.
+  2. Selecting GIVE -> Kenya.
+  3. Next Turn: Type "DARK CAVE LEADS TO ANOTHER ROAD".
+  4. Deliver to Fisher at (17, 7).
 - **Hypothesis:** The game expects ALL CAPS for the password phrase, despite Webster's dialogue using mixed case.
 - **Previous Attempt:** "DARK CAVE leads to another road" (Rejected: "This MAIL isn't for me").
 
