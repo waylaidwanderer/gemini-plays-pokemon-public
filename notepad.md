@@ -98,6 +98,11 @@
 - FLOOR: Generally safe, but in this Gym, some FLOOR tiles might be adjacent to invisible PITS.
 - STATUE: Impassable background object.
 
-# Planned Tests (Hypothesis: Path starts near Sage Ping)
-- Move to (3, 16) -> (3, 15) -> (3, 14) -> (2, 14) -> (1, 14) etc.
-- Document every step and its result.
+# Safe Path Progress
+- (4, 17)-(4, 16): Safe
+- (4, 16)-(2, 16): Safe
+- (2, 16)-(2, 13): Testing...
+
+# Strategy
+- Safe tiles have `is-warp='false'` in Mental Map.
+- Use `find_path` to navigate, as it avoids warps (pits).
