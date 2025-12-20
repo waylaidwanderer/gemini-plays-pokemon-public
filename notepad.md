@@ -65,10 +65,10 @@
 - GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
 - Battle with Malice (Turn #4945):
   - Haunter (Lv 20): Defeated with Magnitude.
-  - Croconaw (Lv 22): GNEISS switched out to clear Curse. Calcifer (Lv 27) active (44/76 HP).
-  - Turn #4963: Calcifer used Headbutt. Croconaw used Leer.
-  - Turn #4964: Calcifer used Headbutt. Croconaw used Water Gun.
-  - Turn #4965: Calcifer using Headbutt again. Strategy: Finish Croconaw.
+  - Croconaw (Lv 22): Defeated with Headbutt. (GNEISS switched to KIMCHI then Calcifer).
+  - Zubat (Lv ?): Incoming.
+  - Strategy: Switch to GNEISS (Lv 27) for Rock-type advantage.
+- KIMCHI (Oddish) grew to Lv 10.
 
 # Exploration Targets
 - Unseen tiles adjacent to walkable: (15, 0), (16, 0), (18, 3-8).
