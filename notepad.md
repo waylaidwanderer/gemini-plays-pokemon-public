@@ -31,6 +31,7 @@
 - **Blackbelt Yoshi (Hitmonlee):** Defeated.
 - **Blackbelt Lao (Hitmonchan):** Defeated.
 - **Blackbelt Nob:** Defeated.
+- **Blackbelt Lung (Mankey, Primeape):** Defeated.
 - **Gym Layout:** Left side has Blackbelts. Right side has boulders (3,7), (4,7), (5,7).
 - **Boulder Puzzle Strategy (Corrected):**
   1. Push Left Boulder (3,7) UP. [x]
