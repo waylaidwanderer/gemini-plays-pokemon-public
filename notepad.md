@@ -41,3 +41,9 @@
 # Cianwood Gym Boulder Puzzle (Solved)
 - Observation: Boulders at (3, 7), (4, 7), (5, 7) block path.
 - Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side. Final positions: Obj 7 (3,6), Obj 8 (3,7), Obj 9 (5,6).
+
+# Strategy for Obtaining HM02 Fly
+- Target NPC: Pokefan F outside Cianwood Gym.
+- Coordinates: (11, 46).
+- Action: Talk to her after defeating Chuck to receive HM02 Fly.
+- Status: In progress (Turn 7221).
