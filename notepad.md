@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fly to Violet City (Confirm Destination).
-  1. **Status:** Cursor on Cherrygrove City. Previous 'Up' input failed to register during scroll.
-  2. **Step 1:** Press Up to select Violet City.
-  3. **Step 2:** Verify "Violet City" text.
-  4. **Step 3:** Press A to Fly.
+- **Current Action:** Fly to Violet City (Arrival).
+  1. **Status:** Flying to Violet City.
+  2. **Step 1:** Confirm Fly (A).
+  3. **Step 2:** Arrive in Violet City.
+  4. **Step 3:** Head East to Route 31 Gatehouse.
+  5. **Step 4:** Find Fisher at (17, 7) on Route 31.
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
