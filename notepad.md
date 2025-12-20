@@ -47,7 +47,7 @@
 - Sayo: Espeon
 - Naoko: Flareon
 ## Burned Tower
-- Malice: Haunter (Lv 20)
+- Malice: Haunter (Lv 20), Croconaw (Lv 22)
 
 # Burned Tower 1F (3_13)
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
@@ -65,5 +65,5 @@
 - GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
 - Battle with Malice (Turn #4945):
   - Haunter (Lv 20): Defeated with Magnitude. Used Curse.
-  - Croconaw (Lv ?): Incoming. GNEISS is cursed and weak to Water.
-  - Strategy: Switch to clear Curse and find a better matchup.
+  - Croconaw (Lv 22): GNEISS switched out to clear Curse. KIMCHI (Lv 7) is currently active.
+  - Strategy: Switch to Calcifer (Lv 27) to handle Croconaw.
