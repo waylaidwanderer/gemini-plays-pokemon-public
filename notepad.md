@@ -7,6 +7,8 @@
 - Training Route: Surf Route 41 -> Route 40.
 - KIMCHI (ODDISH) Level: 14
 - Task: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
+- Target: Lass at (11, 13) on Route 40.
+- Progress: Navigating to (12, 13) to battle.
 
 # Strategy for Secondary Goal (Deliver SecretPotion)
 - Method: Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
