@@ -58,9 +58,9 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6919).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6921).
 - Calcifer (QUILAVA): Lv35.
-- Progress: Successfully reached the middle section of 4F. Navigating to ladder at (9, 7) to reach 5F.
+- Progress: Reached 5F. Navigating to ladder at (9, 15) to reach 6F.
 
 # Hole Puzzle (Olivine Lighthouse)
 - Observation: 4F has multiple pits.
