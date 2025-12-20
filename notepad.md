@@ -34,15 +34,11 @@
 - ICARUS (PIDGEY): Lv11
 - EGG (CLEFFA): Lv5
 
-# Active Tasks
-- Task: Get SecretPotion from Cianwood. (Started Turn 5863)
-- Task: Teach Surf to Ravioli. (Started Turn 5860)
-
 # Milestones
 - Turn 5860: Caught Krabby (Ravioli) at (6, 25) in Olivine City.
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
 
-# Goal: Get SecretPotion from Cianwood
+# Strategy: Get SecretPotion from Cianwood
 - Current Location: Olivine City.
 - Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
 - Preparation: Teach Surf to Ravioli (Krabby). Heal at Pokémon Center.
