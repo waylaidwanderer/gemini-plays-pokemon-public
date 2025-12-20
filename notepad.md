@@ -27,20 +27,19 @@
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
 - Ecruteak Gym: Invisible floor path documented (Turn 5290).
-- Moomoo Farm: The sick Miltank specifically requires 7 standard "BERRY" items for a full recovery. Other berries (Mint, Bitter, etc.) do not count.
+- Moomoo Farm: The sick Miltank requires 7 standard "BERRY" items for recovery.
 
-# Berry Locations (Crystal)
-- Route 30: Likely standard BERRY.
-- Route 31: Likely Bitter Berry.
-- Route 35: Likely Mystery Berry.
-- Route 36: Likely Ice Berry.
-- Route 38: To be investigated.
+# Berry Locations Knowledge Base
+- Route 30: Potential BERRY.
+- Route 31: Bitter Berry.
+- Route 35: Mystery Berry.
+- Route 36: Ice Berry.
 - Route 39 (9, 3): Mint Berry.
 
 # Strategy & Exploration
 - Quest: Heal Miltank. Need 7 standard "BERRY" items.
-- Berry Search Method: Backtrack through previous routes and interact with all fruit trees. Record which trees provide the standard 'BERRY' item.
-- Exploration Plan: Complete Route 39 exploration to Olivine City first, then begin backtracking for Berries.
+- Berry Search Method: Systematically check fruit trees on all previous routes.
+- Exploration Plan: Reach Olivine City first to unlock the Pokemon Center, then backtrack for Berries.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective.
