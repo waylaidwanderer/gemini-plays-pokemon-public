@@ -26,7 +26,7 @@
 # Trainer Progress
 - Olivine Lighthouse Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
 - Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28).
-- Current Battle: Swimmer Kirk (32, 30). GNEISS (Lv 34) vs Gyarados (Lv 20). Note: NPC initially identified as OLIVINE_RIVAL in map data. GNEISS switched in on turn 6065.
+- Current Battle: Swimmer Kirk (32, 30). GNEISS (Lv 34) vs second Gyarados (Lv 20). GNEISS switched in on turn 6065. First Gyarados defeated.
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO): Lv20
