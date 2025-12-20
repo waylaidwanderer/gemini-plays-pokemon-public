@@ -79,7 +79,7 @@
 - **Mail Typing:** Typed "DARK CAVE leads".
 - **Next Chunk:** " to an".
 - **Plan:** Space -> t -> o -> Space -> a -> n.
-- **Mail Reset:** Clearing text and resetting keyboard state.
-- **Action:** Backspacing 22 times (leaving 1 char to avoid exit).
-- **Reset:** Navigating to UPPER button and toggling to Upper Case.
-- **Next Turn:** Clear last char, then type "DARK CAVE".
+- **Action:** Cleared "y", toggled UPPER, typed "DARK".
+- **Current State:** "DARK" on screen.
+- **Cursor:** At 'K' (Row 1, Col 0).
+- **Next:** Space -> CAVE.
