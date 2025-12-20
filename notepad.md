@@ -39,9 +39,9 @@
 - Medium Martha (Ecruteak Gym): Gastly Lv18, Haunter Lv20, Gastly Lv20. (Turn #5143)
 
 # Strategy
-- Use `find_path` to navigate between safe tiles.
+- Use `find_path_v2` to navigate between safe tiles.
 - Use battle_strategist_v2 for Morty.
-- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5161.
+- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5164.
 
 # Lessons Learned
 - Pit Warps: Tiles with `is-warp='true'` or `type='PIT'` in the Ecruteak Gym are pits that return you to the start. They are NOT safe to walk on. (Turn #5131)
