@@ -76,3 +76,6 @@
 - **Mail Typing:** Toggled lower case.
 - **Typed:** "leads ".
 - **Next Chunk:** "to another".
+- **Mail Typing:** Typed "DARK CAVE leads".
+- **Next Chunk:** " to an".
+- **Plan:** Space -> t -> o -> Space -> a -> n.
