@@ -1,9 +1,10 @@
 # Strategy for Primary Goal (Defeat Gym Leader Chuck)
+- Battle started at Turn 7161.
 - Observation: Chuck uses Fighting-type Pokémon (Primeape Lv27, Poliwrath Lv30).
 - Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
 - Note: Poliwrath is Water/Fighting. GNEISS and Calcifer are weak to Water.
 - Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath. KIMCHI reached Lv18 at Turn 7171 and learned Sleep Powder.
-- Battle Status (Turn #7199): Primeape defeated. Poliwrath is awake and used Surf. KIMCHI (Lv18) is at 12/45 HP. Strategy: Use SLEEP POWDER to neutralize Poliwrath, then switch to a stronger attacker. If KIMCHI faints, send in GNEISS or Calcifer.
+- Battle Status (Turn #7201): Primeape defeated. Poliwrath is awake and used Surf. KIMCHI (Lv18) is at 12/45 HP. Strategy: Use SLEEP POWDER to neutralize Poliwrath, then switch to a stronger attacker. If KIMCHI faints, send in GNEISS or Calcifer.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -17,7 +18,6 @@
 - Tool Maintenance: find_path_v2 logic for water-to-land transitions must allow movement onto land tiles even when the player is on a water tile (Surfing).
 - Map Markers: Always verify the map_id when placing markers, especially when near map boundaries.
 - Battle Mechanics: Karate Chop is a Fighting-type move in Crystal (verified turn 7167).
-- Battle Status (Turn #7195): Poliwrath's Surf is Special and hits hard. KIMCHI is our best pivot.
 
 # Type Effectiveness Chart
 - Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
