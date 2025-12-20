@@ -28,3 +28,18 @@
 - Shortcut: Use Cut on the tree at (17, 6) to reach Route 36 directly.
 - Arnie (Bug Catcher): Swarm notification for Yanma on Route 35.
 - Violet City Navigation: To reach the north/west exit from the south, move to (27, 23) to bypass the ledges at y=23. Note: The pathfinding tool might attempt to walk up ledges, which is impossible.
+
+# Pokemon Locations
+- Route 29: Pidgey, Rattata, Sentret.
+- Route 30: Pidgey, Rattata, Caterpie, Metapod, Hoothoot (Night).
+- Route 31: Pidgey, Rattata, Caterpie, Metapod, Bellsprout, Hoothoot (Night).
+- Sprout Tower: Rattata, Gastly (Night).
+- Route 32: Rattata, Ekans, Zubat, Bellsprout, Mareep, Wooper.
+- Union Cave: Rattata, Sandshrew, Zubat, Geodude, Onix.
+- Route 33: Rattata, Spearow, Ekans, Hopip.
+- Slowpoke Well: Zubat, Slowpoke.
+- Ilex Forest: Caterpie, Metapod, Weedle, Kakuna, Paras, Oddish, Venonat, Psyduck.
+- Route 34: Rattata, Spearow, Jigpuff, Abra, Ditto.
+- Route 35: Pidgey, Nidoran M/F, Jigpuff, Abra, Yanma (Swarm), Ditto.
+- National Park: Pidgey, Caterpie, Metapod, Weedle, Kakuna, Sunkern.
+- Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
