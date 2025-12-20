@@ -44,3 +44,11 @@
 # Discovery Log
 - Turn 5764: Nurse Joy healed the party. Heading to find the PC to deposit Cleffa.
 - Turn 5764: Reflection performed. Found that PC location in Olivine Center 1F is currently unknown/unseen.
+
+# PC Navigation Plan (Turn 5765)
+- 1. Face Right to address PC at (9, 1).
+- 2. Press A to turn on PC.
+- 3. Select 'BILL'S PC'.
+- 4. Select 'DEPOSIT PKMN'.
+- 5. Select 'EGG' (CLEFFA) and confirm.
+- 6. Exit PC menus.
