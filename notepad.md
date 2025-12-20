@@ -40,6 +40,8 @@
 # Strategy
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Morty.
+- Morty (Gym Leader): Gastly Lv21 (Defeated), Gengar (Upcoming).
+- GNEISS is Cursed (Turn #5155). Switch out to clear. (Turn #5155)
 - Path to Morty: (6, 5) -> (5, 5) -> (5, 4) -> (5, 3) -> (5, 2) -> (5, 1). (Turn #5147)
 - Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5147.
 
