@@ -32,14 +32,14 @@
 
 # Cianwood City Exploration
 - Arrived in Cianwood City.
-- Building at (15, 37): Potential Pharmacy.
+- Building at (15, 37): Lugia Speech House (Confirmed).
 - Building at (17, 41): Another building to explore.
 - Sign at (20, 34): Cianwood City Sign.
 - TM08 Rock Smash is already in inventory.
 - Pokefan M at (16, 33) mentioned breaking rocks north of town.
 
 # Strategy for SecretPotion
-1. Enter building at (15, 37) to check for Pharmacy.
-2. If found, obtain SecretPotion.
-3. If not, check building at (17, 41) or other structures.
+1. Talk to NPCs in Lugia Speech House (22_9) for info.
+2. Exit and find the actual Pharmacy.
+3. If found, obtain SecretPotion.
 4. Locate Cianwood Gym (Leader Chuck).
