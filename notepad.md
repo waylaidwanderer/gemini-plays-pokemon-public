@@ -64,3 +64,12 @@
 - Step 1: Locate the actual ladder to 3F (expected in the southwest or center).
 - Step 2: Clear trainers on each floor and find the next upward path.
 - Step 3: Identify the sick Pokémon's requirements and fulfill them.
+
+# Trainer Teams & Progress (Olivine Lighthouse)
+- Gentleman Alfred (16, 8): Noctowl Lv20. Defeated.
+
+# Olivine Lighthouse Strategy
+- Plan: Explore 2F for the upward ladder.
+- Step 1: Check the southern unseen tiles (4, 16) to (9, 15).
+- Step 2: Clear any remaining trainers on 2F.
+- Step 3: Find the ladder to 3F and continue the climb.
