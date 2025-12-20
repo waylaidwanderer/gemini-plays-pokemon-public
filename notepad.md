@@ -17,7 +17,8 @@
 
 ## Quests
 - **Webster's Mail:** Delivering Kenya (Spearow) to Route 31. Recipient is the Fisher at (13, 16).
-  - Status: Fisher rejected previous mail. Need to fix message.
+  - Status: Mail message likely incomplete ("DARK CAVE leads"). Verifying now.
+  - Plan: If incorrect, buy new Flower Mail at Violet Mart and rewrite.
 - **Jasmine:** Completed.
 
 ## Navigation Log
