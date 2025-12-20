@@ -88,15 +88,16 @@
 - Entrance/Exit: (4, 17) and (5, 17).
 - Sage Ping: (3, 13).
 - Gym Guide: (7, 15).
-- Pit Warp: (7, 13) leads to entry (entry_point 3).
+- Pit Warps (Reset to start): (4, 14), (3, 12), (4, 12), (5, 12), (7, 12), (7, 13).
 - Invisible Path Puzzle: The floor appears to have pits that warp the player back to the start.
-- Hypothesis: There is a specific invisible path through the pits to reach Morty.
-- Strategy: Test the path tile-by-tile, documenting safe coordinates.
-- Test 1: Move to (4, 16) - Safe.
-- Test 2: Move to (4, 15) - Safe.
-- Test 3: Move to (4, 14) - Safe.
-- Test 4: Move to (4, 13) - Safe.
-- Test 5: Move to (5, 13) - Safe.
-- Test 6: Move to (6, 13) - Safe.
-- Test 7: Move to (7, 13) - Pit warp (verified).
-- Conclusion: (7, 13) is a pit. Path must go elsewhere.
+- Strategy: Identify the safe path by testing adjacent tiles.
+- Start Turn: #5034.
+
+# Tile Mechanics Update
+- PIT: Warp tile that resets position to the Gym entrance.
+- FLOOR: Generally safe, but in this Gym, some FLOOR tiles might be adjacent to invisible PITS.
+- STATUE: Impassable background object.
+
+# Planned Tests (Hypothesis: Path starts near Sage Ping)
+- Move to (3, 16) -> (3, 15) -> (3, 14) -> (2, 14) -> (1, 14) etc.
+- Document every step and its result.
