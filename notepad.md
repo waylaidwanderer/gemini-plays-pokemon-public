@@ -72,3 +72,4 @@
 - **Action:** Pressing LEFT to select Cherrygrove. Will press UP next turn to reach Violet City (avoiding input skipping).
 - **Tool Definition:** Defined `slow_press` to handle sticky menus/maps by adding delays between inputs.
 - **Immediate Action:** Attempting manual `Left` press. If it fails, will use `slow_press` next turn with the full sequence.
+- **Task:** Buy Flower Mail at Violet City Mart to replace the missing mail for Kenya.
