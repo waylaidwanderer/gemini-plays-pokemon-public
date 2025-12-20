@@ -22,7 +22,7 @@
 # Trainer Rosters
 - Sage Ping: Gastly Lv16 x3.
 - Medium Grace: Haunter Lv20 x2.
-- Sage (ID 2): Upcoming.
+- Sage Jeffrey: Haunter Lv22.
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
@@ -33,6 +33,7 @@
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 - Sage Ping (Ecruteak Gym): Gastly Lv16 x3.
 - Medium Grace (Ecruteak Gym): Haunter Lv20 x2.
+- Sage Jeffrey (Ecruteak Gym): Haunter Lv22. (Turn #5095)
 
 # Strategy
 - Use `find_path` to navigate between safe tiles.
