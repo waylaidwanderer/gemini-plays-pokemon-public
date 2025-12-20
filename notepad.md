@@ -4,7 +4,7 @@
 - TM30 Shadow Ball.
 
 # Tile Mechanics
-- FLOOR: Traversable.
+- FLOOR: Traversable. Some (like balcony exits) may require walking "off" the map or in a specific direction to trigger.
 - WALL: Impassable.
 - DOOR / LADDER / PIT: Warp tiles.
 - LADDER: Two-way warp between floors.
@@ -23,7 +23,6 @@
 - NPC Verification: Do not assume an NPC is static or present based on a single turn's observation.
 - Lighthouse Layout: Split levels and floor warps; exploration is key.
 - Battle Strategy: Use battle_strategist_v2 for all trainer battles.
-- Warp Verification: (16, 7) and (17, 7) on 4F are marked as warps in game data but appear as FLOOR. They may be exits to a balcony (try walking "off" the map).
 - Section Connectivity: 4F East and Middle sections are connected by a gap at (10, 2) and (10, 3).
 - 4F Middle and West sections are connected by a gap at (8, 14) and (7, 14).
 
@@ -46,7 +45,7 @@
 - Sailor Kent (4F): Defeated.
 - Lass Connie (4F): Defeated.
 - Sailor Terrell (3F Middle): Defeated.
-- Sailor Ernest (5F, 8, 11): Battle started Turn 5659.
+- Sailor Ernest (5F, 8, 11): In progress.
 - Youngster Ronald (5F, 8, 3): Unchallenged.
 
 # Map Notes (Olivine Lighthouse)
