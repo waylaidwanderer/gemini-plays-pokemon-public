@@ -1,18 +1,15 @@
-# Strategy for Primary Goal (Defeat Chuck)
-- History: 1 failed attempt (Blackout Turn 6708).
+# Strategy for Primary Goal (Defeat Gym Leader Chuck)
 - Observation: Poliwrath (Lv30) is very strong. Its DynamicPunch is devastating. -2 Accuracy (from Smokescreen) helped but wasn't enough for a Lv10/Lv34 team.
 - Plan: Train KIMCHI (Oddish) to Lv21+ to evolve into Gloom. Deliver SecretPotion to Jasmine first to gain levels/money along the way.
 - Rematch Criteria: KIMCHI at Lv25+, Calcifer at Lv36+.
 
-# Blackout Recovery & Training Plan (Started Turn 6708)
-- Status: Blacked out. Party fully healed.
-- Pivot: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
-- Training Route: Surf Route 41 -> Route 40. Focus on training KIMCHI.
-- Goal: Reach Lv21+ with KIMCHI. (Current: Lv14)
-- Note: GNEISS is currently poisoned at 43/98 HP. Use Calcifer for switch-training for now.
+# KIMCHI Training & Medicine Delivery (Started Turn 6708)
+- Training Route: Surf Route 41 -> Route 40.
+- KIMCHI (ODDISH) Level: 14
+- Task: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
 
-# Strategy for Secondary Goal
-- Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
+# Strategy for Secondary Goal (Deliver SecretPotion)
+- Method: Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
 
 # Game Mechanics & Systems
 ## Tile Mechanics
@@ -23,7 +20,6 @@
 - WALL / WINDOW / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
 - COUNTER: Impassable; interact with NPC behind it from adjacent tile.
 - BOULDER: Impassable; requires HM04 Strength to move.
-- ROCK: Impassable; can be crushed with Rock Smash.
 - PC: Interactable object for Pokémon/Item storage.
 - WARP: Leads to a different map or area.
 
@@ -59,6 +55,3 @@
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
-
-# NPC Locations
-- Rival: Sighted at (46, 8) on Route 41 (Turn 6792). Previously at (32, 30).
