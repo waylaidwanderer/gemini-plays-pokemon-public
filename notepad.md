@@ -43,3 +43,6 @@
 - Gentleman Preston (13, 5, 3F). Facing Right. Defeated Turn 5602.
 - 3F Eastern Section explored. Ladder to next floor at (13, 3).
 - 3F Middle Section (Sailor, Item, Ladder) seems inaccessible from 3F East/West.
+- Turn 5605: Arrived on 4F. Ladder at (13, 3) leads back to 3F.
+- Lass at (11, 2, 4F). Unchallenged.
+- Warps detected on 4F: (9, 7), (9, 5), (9, 3) [PIT], (16, 7), (17, 7).
