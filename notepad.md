@@ -41,15 +41,14 @@
 - Turn 5860: Caught Krabby (Ravioli) at (6, 25) in Olivine City.
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
 - Turn 5922: Reached Route 40.
+- Turn 5965: Reached Route 41.
 
 # Strategy: Get SecretPotion from Cianwood
 - Task Started: Turn 5863.
 - Route 40 Exploration Started: Turn 5922.
 - Route 41 Exploration Started: Turn 5965.
-- Current Location: Route 41.
 - Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
 - Route: Route 40 beach is west of the main city area. Surf south through Route 41 to Cianwood.
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Status: Battling Swimmer George on Route 41. (Turn 5969)
