@@ -11,12 +11,15 @@
 
 # Game Mechanics & Systems
 ## Tile Mechanics
-- WATER (Traversable while surfing): Requires HM03 SURF and Fog Badge. Verified traversability in all directions.
-- FLOOR: Standard ground. Verified traversability in all directions.
-- WALL / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE / COUNTER: Impassable barriers.
-- WHIRLPOOL: Impassable hazard; requires specific HM.
-- BOULDER: Impassable; requires HM04 STRENGTH to move.
-- WARP / LADDER / DOOR / PIT: Triggers map transition.
+- Verified Traversal:
+  - FLOOR: Traversable in all directions.
+  - WALL / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE / COUNTER: Impassable barriers.
+  - WATER: Traversable while surfing (HM03 Surf + Fog Badge). Verified.
+  - LADDER / DOOR / PIT / WARP_CARPET: Triggers map transition upon entry.
+  - PIT: Drops player to the floor below (usually landing on a specific tile).
+- Verified RELATIONAL Behavior:
+  - Counter NPCs: Must interact with the COUNTER tile in front of them.
+  - PCs/Switches: Must face UP from directly BELOW the tile.
 
 ## Lessons Learned
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
