@@ -6,6 +6,8 @@
 - LADDER: Two-way warp.
 - PIT: One-way warp to floor below.
 - WARP_CARPET_DOWN: Exit warp.
+- WATER: Traversable only while using Surf. Requires a Pokémon with the move Surf and the Fog Badge (obtained from Morty).
+- BUOY: Impassable water barrier. Verified at (13, 32) in Olivine City.
 
 # Lessons Learned
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
@@ -14,7 +16,6 @@
 - Warp Verification: (16, 7) and (17, 7) on 4F are NOT map transitions; (18, 7) is a WALL.
 - Descent Strategy: Use pits to quickly reach lower floors. 4F (16, 9)/(17, 9) are PITs to 3F.
 - Visuals vs. Collision: Visual appearance of tiles (e.g., ground vs wall) can be misleading. Always verify collision types in the Mental Map (e.g., WALL type) before planning paths. (Turn 5863)
-- WATER: Traversable only while using Surf. Requires a Pokémon with the move Surf and the Fog Badge (obtained from Morty).
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -40,10 +41,10 @@
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
 
 # Strategy: Get SecretPotion from Cianwood
-- Current Location: Olivine City.
+- Current Location: Olivine City harbor.
 - Task: Surf south across Route 40 and Route 41 to reach Cianwood City.
 - Preparation: Teach Surf to Ravioli (Krabby). Heal at Pokémon Center.
 - Route: Route 40 is south of Olivine. Route 41 follows. Cianwood is the destination.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- BUOY: Impassable water barrier. Verified at (13, 32) on Olivine City map.
+- Obstacle: Buoy line at Y=32 in Olivine harbor. Need to find the exit to open water.
