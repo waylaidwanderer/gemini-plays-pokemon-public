@@ -43,8 +43,6 @@
 # Trainer Rosters
 ## Dance Theater
 - Miki: Jolteon, Kuni: Vaporeon, Zuki: Umbreon, Sayo: Espeon, Naoko: Flareon.
-## Burned Tower
-- Malice defeated (Turn #4982): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 
 # Ecruteak City (4_9)
 - Burned Tower Entrance: (5, 5).
