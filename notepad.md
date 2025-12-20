@@ -21,7 +21,7 @@
 
 # Observed Movesets
 - Swimmer Kaylee (17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
-- Swimmer Simon (18, 15): Tentacool (Lv20) uses Peck (predicted).
+- Swimmer Simon (18, 15): Tentacool (Lv20) x2.
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
