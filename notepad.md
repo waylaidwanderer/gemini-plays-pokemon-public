@@ -82,4 +82,4 @@
 - Gym Guide: (7, 1) area.
 - Strategy: Talk to Nurse from (3, 2) to heal.
 - Tile Mechanics Update: COUNTER (Impassable, interact over it).
-- Heal Attempt Start: Turn #5023.
+- Heal Attempt Complete: Turn #5027. Party at 100%.
