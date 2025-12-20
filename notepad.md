@@ -13,14 +13,14 @@
 
 # Game Mechanics & Systems
 ## Tile Mechanics
-- WATER: Traversable while surfing (requires HM03 and Fog Badge). Verified: Can move in all directions.
-- FLOOR: Standard traversable ground. Verified: Can move in all directions.
-- WALL: Impassable barrier.
-- BUOY: Impassable wall-like barrier in water.
-- WHIRLPOOL: Impassable water hazard. Requires specific HM (Whirlpool) to cross.
-- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
-- COUNTER: Impassable; interact with NPC behind it from adjacent tile.
-- BOULDER: Impassable; requires HM04 Strength to move.
+- WATER: Traversable while surfing (requires HM03 and Fog Badge). Individual behavior: Allows movement across water. Relational behavior: Can be entered from land or water. Mechanics: Verified traversability in all directions.
+- FLOOR: Standard traversable ground. Individual behavior: Allows standard movement. Relational behavior: Can be entered from any adjacent traversable tile. Mechanics: Verified traversability in all directions.
+- WALL: Impassable barrier. Individual behavior: Cannot be walked on.
+- BUOY: Impassable wall-like barrier in water. Individual behavior: Cannot be walked on.
+- WHIRLPOOL: Impassable water hazard. Individual behavior: Cannot be walked on. Mechanics: Requires specific HM (Whirlpool) to cross.
+- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers. Individual behavior: Cannot be walked on.
+- COUNTER: Impassable. Individual behavior: Cannot be walked on. Relational behavior: Interact with NPC behind it from adjacent tile.
+- BOULDER: Impassable. Individual behavior: Cannot be walked on. Mechanics: Requires HM04 Strength to move.
 - PC: Interactable object for Pokémon/Item storage.
 - WARP: Leads to a different map or area.
 
