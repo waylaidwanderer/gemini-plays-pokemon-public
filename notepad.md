@@ -1,11 +1,13 @@
-# Strategy for Primary Goal (Defeat Gym Leader Chuck)
-- Observation: Poliwrath (Lv30) is very strong. Its DynamicPunch is devastating. -2 Accuracy (from Smokescreen) helped but wasn't enough for a Lv10/Lv34 team.
-- Plan: Train KIMCHI (Oddish) to Lv21+ to evolve into Gloom. Deliver SecretPotion to Jasmine first to gain levels/money along the way.
-- Rematch Criteria: KIMCHI at Lv25+, Calcifer at Lv36+.
+# Strategy for Primary Goal (Defeat Gym Leader Jasmine)
+- Observation: Jasmine uses Steel-type Pokémon.
+- Weaknesses: Fire, Fighting, Ground.
+- Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
+- Plan: Lead with Calcifer (Flame Wheel) or GNEISS (Magnitude). Use Blarney's Low Kick as backup.
 
 # Strategy for Training & Medicine Delivery
-- Training Route: Surf Route 41 -> Route 40.
-- Strategy: Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
+- Training Route: Surf Route 40/41.
+- Training Method: Train KIMCHI to Lv21 using Calcifer's Headbutt to weaken or KO high-level Tentacools for shared XP.
+- Status: SecretPotion delivered to Jasmine. Amphy is cured. Jasmine is at Olivine Gym.
 
 # Game Mechanics & Systems
 ## Tile Mechanics
@@ -20,7 +22,6 @@
 - PC: Interactable object for Pokémon/Item storage.
 - WARP / LADDER / DOOR: Leads to a different map or area.
 - PIT: Individual behavior: Impassable hazard. Mechanics: A warp tile that causes the player to fall to a specific coordinate on the floor below. Verified: Acts as a warp.
-- VOID: Individual behavior: Impassable barrier. Represents empty space outside the structure. Cannot be walked on.
 
 ## Lessons Learned
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
@@ -30,7 +31,7 @@
 - NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
 - Confusion: Clears upon switching out or ending the battle.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
-- Hallucination Note: Rival (Malice) confirmed at (14, 15) on Route 40 (standing on water). Verified Turn 6868.
+- Rival (Malice) Anomaly: Sprite confirmed standing on water at (14, 15) on Route 40 (Turn 6868).
 - Lighthouse Puzzle: Pit at (9, 3) on 4F leads to the middle section of 3F, enabling access to the central ladder chain.
 
 # Battle and Pokemon Information
@@ -57,17 +58,6 @@
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
-
-# Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6929).
-- Calcifer (QUILAVA): Lv35.
-- Progress: SecretPotion delivered to Jasmine. Amphy is cured. Jasmine is returning to the Gym. Navigating to Olivine Gym.
-
-# Strategy for Primary Goal (Defeat Gym Leader Jasmine)
-- Observation: Jasmine uses Steel-type Pokémon.
-- Weaknesses: Fire, Fighting, Ground.
-- Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
-- Plan: Use Calcifer's Flame Wheel and GNEISS's Magnitude.
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
