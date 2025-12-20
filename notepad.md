@@ -35,3 +35,6 @@
 - **Navigation Update:** Fly attempt to Violet City failed (landed in Cherrygrove).
 - **Hypothesis:** Input timing issue.
 - **Plan:** Retrying Fly with a segmented approach. Step 1: Open Fly Map. Step 2: Navigate.
+- **Menu Correction:** Accidentally entered Item Use menu instead of Fly.
+- **Action:** Backing out to Overworld to retry Fly sequence from scratch.
+- **Input Note:** Used `press_sequence` to send 5 B inputs to ensure full menu exit.
