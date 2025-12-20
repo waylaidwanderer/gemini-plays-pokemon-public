@@ -25,6 +25,7 @@
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
 - Swimmer Susie (Route 41, 23, 19): Psyduck (Lv20) uses Disable, Goldeen (Lv22).
 - Blackbelt Lung (Cianwood Gym): Mankey (Lv23) x2, Primeape (Lv25).
+- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop.
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
@@ -50,7 +51,7 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) out.
+- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) in red HP.
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
