@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Return to 4F by stepping off/on the ladder. Then navigate South to (3,14), East to (14,14), and North to (13,3) to reach the 5F Right Side.
-- **Quest Update:** Accidentally took the ladder at (3,5) up to 5F Left. Going back down to correct.
+- **Immediate Plan:** Navigate to Ladder (13, 3) on 4F via the southern connector. Path: South to Row 13, East along bottom (avoiding Sailor at 7,14), North up Right Wing to Ladder.
+- **Quest Update:** The top path between 4F Left and Right is blocked. The bottom path (Row 14/15) connects them.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
