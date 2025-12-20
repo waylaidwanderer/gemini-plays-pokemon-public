@@ -11,6 +11,7 @@
 - **Hematite (Pinsir):** Lv 15.
 - **Azurite (Heracross):** Lv 13.
 - **Lapis (Poliwag):** Lv 10. (Surf carrier)
+- **Shuckie (Shuckle):** Lv 15. (Moves: Constrict, Withdraw, Wrap, Encore)
 - **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
