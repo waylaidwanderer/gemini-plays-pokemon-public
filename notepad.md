@@ -45,3 +45,5 @@
 - **Fly Map Status:** Screen text confirms "Cherrygrove City" is selected.
 - **Correction:** The previous `Up` input must have been dropped or timed out.
 - **Action:** Pressing `Up` to select Violet City. Will verify text before confirming.
+- **Events:** Received a phone call from Wade (Bug Catcher). He talked about his Pokemon growing fast and a wild Poliwag escaping.
+- **Plan:** Buying Flower Mail first, then will visit PC to swap party and get Kenya.
