@@ -44,3 +44,19 @@
 - find_path_v2: Fixed JSON error and added (6,7) override. (Turn #5248 fix)
 - battle_strategist_v2: Use exact name for calls. (Turn #5245 fix)
 - Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
+
+# Wild Pokemon (Route 38)
+- Meowth (Lv16). Caught. Nickname: XFDW (intended Ducat, input error).
+
+# Trainer Teams
+- Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16.
+
+# Type Effectiveness (Verified)
+- Rock vs Flying: Super Effective (Gneiss's Rock Throw vs Doduo).
+- Normal vs Rock: Not Very Effective (Doduo's Scratch/Normal moves vs Gneiss).
+
+# Tile Mechanics
+- GRASS: Standard wild encounter tile. Traversable.
+- LEDGE_HOP_DOWN: One-way jump down. Traversable from above.
+- LEDGE_HOP_LEFT: One-way jump left. Traversable from right.
+- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
