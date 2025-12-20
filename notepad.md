@@ -5,10 +5,11 @@
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
 - **Current Action:** Fix Kenya's Mail (Typing Message).
-  1. **Cursor:** On 'D'.
-  2. **Step 1:** Use `slow_press` to type "DARK".
-  3. **Step 2:** Continue typing " CAVE leads to another road".
-  4. **Step 3:** Confirm with "END".
+  1. **Current Text:** "DARK CAVE"
+  2. **Cursor:** On 'E'.
+  3. **Step 1:** Use `slow_press` to type " leads".
+  4. **Step 2:** Continue typing " to another road".
+  5. **Step 3:** Confirm with "END".
 
 ## Strategy & Lessons
 - **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
