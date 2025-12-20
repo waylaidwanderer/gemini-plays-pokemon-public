@@ -48,3 +48,9 @@
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
+
+# Progress Update (Turn 6298)
+- Healed at Cianwood Pokémon Center.
+- Current Party: Calcifer (31), GNEISS (34), FRITTATA (5), KIMCHI (10), XFDW (16), Ravioli (10).
+- Plan: Deposit XFDW (Meowth) to make room for Mania's Shuckle.
+- Next: Visit Mania's House at (17, 41) to get Shuckle.
