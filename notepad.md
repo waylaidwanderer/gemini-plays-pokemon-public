@@ -10,19 +10,17 @@
 - PC: Interactable object for Pokémon/Item storage.
 
 # Lessons Learned
-- Menu Precision: Slow down during move learning and item usage. Double-check before confirming.
-- Route 41 Navigation: Row 29 is a reliable corridor west.
-- Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
-- Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
-- Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
-- NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
+- Boulder Dialogue: "A POKéMON may be able to move this" = Strength (HM04). "A POKéMON may be able to smash this" = Rock Smash.
+- Gym Access: Cianwood Gym requires Strength to reach the Leader.
 - Battle Mechanics: FIRE moves are Special in Gen 2.
+- NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
+- Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
 - Chuck's Team (Crystal): Primeape (27), Poliwrath (30).
 - My Team Analysis:
-  - Calcifer (QUILAVA) Lv31: Flame Wheel/Headbutt. Neutral typing.
+  - Calcifer (QUILAVA) Lv32: Flame Wheel/Headbutt. Neutral typing.
   - GNEISS (GRAVELER) Lv34: Weak to Fighting (and Water). Backup only.
   - KIMCHI (ODDISH) Lv10: Poison resists Fighting. Needs training.
   - SHUCKIE (SHUCKLE) Lv15: High defense, but weak to Water.
@@ -33,8 +31,6 @@
 
 # Gym Progress
 - Start Turn: 6328 (Entering Gym)
-
-# Gym Strategy: Boulders
-- Hypothesis: Boulders at (3,7), (4,7), (5,7) require Strength to push. Pokefan M's Rock Smash hint likely applies to cracked rocks outside.
-- Test: Interact with a gym boulder to see the message. If it requires Strength, I must return to Goldenrod City to obtain HM04.
-- Plan: Challenge the remaining trainers first, then test the boulders.
+- Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
+- Blocked: Boulders at (3, 7), (4, 7), (5, 7).
+- Target: Get HM04 Strength from the house next to the Pokémon Center in Olivine City.
