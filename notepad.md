@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Open Party Menu).
-  1. **Status:** Repositioning to avoid Surf loop.
-  2. **Step 1:** Move Right (Safety).
-  3. **Step 2:** Open Start Menu (Start).
-  4. **Step 3:** Navigate to POKEMON.
-  5. **Step 4:** Select Kenya -> TAKE MAIL.
+- **Current Action:** Fix Kenya's Mail (Select Kenya).
+  1. **Status:** In Start Menu.
+  2. **Step 1:** Enter Party Menu (Up -> A).
+  3. **Step 2:** Select Kenya (Down x5 -> A).
+  4. **Step 3:** Select TAKE MAIL.
+  5. **Step 4:** Give FLOWER MAIL to Kenya and write: "DARK CAVE leads to another road."
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
