@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fly to Violet City (Select Fly).
-  1. **Status:** Selected Mistral. Menu should open.
-  2. **Step 1:** Select FLY (Expect 1st or 2nd option).
-  3. **Step 2:** Map opens. Select Violet City.
-  4. **Step 3:** Confirm arrival in Violet City.
+- **Current Action:** Fly to Violet City (Map Navigation).
+  1. **Status:** FLY selected. Opening Pokegear Map.
+  2. **Step 1:** Identify cursor location (Likely Route 31).
+  3. **Step 2:** Navigate to Violet City (Left).
+  4. **Step 3:** Press A to Fly.
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
