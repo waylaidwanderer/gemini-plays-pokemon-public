@@ -35,7 +35,7 @@
 - EGG (CLEFFA): Lv5
 
 # Primary Goal Strategy: Deliver SecretPotion to Jasmine
-- Current Objective: Surf south across Route 40 and Route 41 to reach Cianwood City. (Started Turn 5863)
+- Current Objective: Surf south/west across Route 41 to reach Cianwood City.
 - Next Step: Locate the Pharmacy in Cianwood and obtain the SecretPotion from the shopkeeper.
 - Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
