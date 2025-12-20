@@ -49,3 +49,4 @@
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
+- Battle with Eusine: Started Turn 6223. Lead Calcifer fell asleep to Drowzee's Hypnosis. Switching to GNEISS.
