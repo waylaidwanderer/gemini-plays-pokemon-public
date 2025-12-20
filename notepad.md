@@ -48,7 +48,7 @@
 - Sayo: Espeon
 - Naoko: Flareon
 ## Burned Tower
-- Malice: Haunter (Lv 20), Croconaw (Lv 22), Zubat (Lv 20), Magnemite (upcoming)
+- Malice defeated (Turn #4982): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 
 # Burned Tower 1F (3_13)
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
@@ -57,10 +57,11 @@
 - Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5), (5, 5), (5, 6), (4, 6).
 
 # Burned Tower B1F (3_14)
-- Ladder to 1F: (10, 8) and (7, 15).
-- Entry point from 1F hole: (10, 9).
-- Legendary Beasts: Awakened and released from B1F (Turn #4995). Raikou, Entei, and Suicune fled the tower.
-- Goal: Talk to Eusine and Morty on 1F, then head to Ecruteak Gym.
+- Exit Ladder: (7, 15).
+- Arrival from 1F hole: (10, 9).
+- Legendary Beasts: Released (Turn #4995). Raikou, Entei, and Suicune fled.
+- Strategy: Exit via (7, 15), check 1F, then proceed to Ecruteak Gym.
+- Exit Attempt Start: Turn #5009.
 
 # Exploration Targets
 - Reachable unseen tiles on B1F: (To be refreshed by tool).
