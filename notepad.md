@@ -2,7 +2,7 @@
 
 ## Current Strategy
 - **Primary Goal:** Buy Flower Mail for Kenya.
-  - **Status:** Currently checking Cherrygrove Mart inventory.
+  - **Status:** Cherrygrove Mart does not sell it. Going to Violet City.
 - **Secondary Goal:** Deliver Kenya to Route 31.
 - **Tertiary Goal:** Travel to Mahogany Town (Route 42).
 - **Party:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13).
