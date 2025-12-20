@@ -68,4 +68,6 @@
 - **Battle Update:** Switched to Garnet (Lv 28) vs Haunter (Lv 23). Using Ember (Slot 4) to deal neutral special damage.
 - **Battle Update:** Garnet hit Haunter with Ember. Haunter used Curse, cutting its HP in half and Cursing Garnet. Garnet will take residual damage.
 - **Strategy:** Haunter is low HP (Ember + Curse cost). Finishing it with another Ember.
-- **Battle Update:** Garnet is Cursed (losing 1/4 HP per turn) and accuracy lowered. Haunter is at half HP. Attempting to finish it with Ember.
+- **Battle Update:** Garnet is Cursed and Asleep (40/78 HP). Haunter is low HP. Trying to wake up and use Ember.
+- **Inventory:** Have 2 Awakenings if needed.
+- **Strategy:** Mash Fight/Ember. If HP gets critical, will use Item or Switch.
