@@ -62,3 +62,5 @@
 - **Critical Issue:** Kenya is NOT holding the mail, and I don't have it in my bag.
 - **Hypothesis:** I lost/stored the original mail.
 - **Solution:** Go to Violet City Poké Mart, buy Flower Mail (if available), give it to Kenya, and retry delivery.
+- **Navigation:** Walking West to Violet City is blocked by ledges at (13, 6-8).
+- **Plan:** Use Fly (Mistral) to reach Violet City to buy Flower Mail.
