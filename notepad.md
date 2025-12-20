@@ -19,9 +19,9 @@
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
 - CUT_TREE: Impassable. Can be removed using Cut.
 - STATUE / BOOKSHELF / PC / WINDOW: Impassable background objects.
+- WARP_CARPET_DOWN: Warp tile. Leads to an exit.
 
 # Trainer Teams & Progress (Route 38)
-- Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. Defeated.
 - Beauty Olivia (5, 8), Beauty Valerie (19, 9), Bird Keeper Toby (12, 15), Sailor Harry (24, 5), Lass Dana (15, 3), Youngster Chad (4, 1): Defeated.
 
 # Trainer Teams & Progress (Route 39)
@@ -44,10 +44,7 @@
 
 # Berry Inventory
 - Standard BERRY: 0/7.
-- Mint Berry: 1
-- Bitter Berry: 1
-- Ice Berry: 1
-- PsnCureBerry: 1
+- Mint Berry: 1, Bitter Berry: 1, Ice Berry: 1, PsnCureBerry: 1.
 
 # Strategy & Exploration
 - Berry Search Method: Systematically check fruit trees on all previous routes.
