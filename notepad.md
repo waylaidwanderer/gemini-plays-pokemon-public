@@ -59,9 +59,15 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6927).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6929).
 - Calcifer (QUILAVA): Lv35.
-- Progress: Reached 6F. Handing SecretPotion to Jasmine at (8, 8). Dialogue in progress.
+- Progress: SecretPotion delivered to Jasmine. Amphy is cured. Jasmine is returning to the Gym. Navigating to Olivine Gym.
+
+# Strategy for Primary Goal (Defeat Gym Leader Jasmine)
+- Observation: Jasmine uses Steel-type Pokémon.
+- Weaknesses: Fire, Fighting, Ground.
+- Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
+- Plan: Use Calcifer's Flame Wheel and GNEISS's Magnitude.
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
