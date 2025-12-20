@@ -26,4 +26,4 @@
 ## Current Task: Return to Cianwood
 - Turn: 7075
 - Plan: Surf south through Route 40 and Route 41 to Cianwood City. Train KIMCHI along the way.
-- Progress: Mineral Badge obtained. KIMCHI leading. Currently in battle with Tentacool (Lv22). Switching to GNEISS.
+- Progress: Mineral Badge obtained. KIMCHI leading. Currently in battle with Tentacool (Lv22). GNEISS is out and about to use MAGNITUDE.
