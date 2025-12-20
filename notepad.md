@@ -43,7 +43,3 @@
 - Route 35: Pidgey, Nidoran M/F, Jigpuff, Abra, Yanma (Swarm), Ditto.
 - National Park: Pidgey, Caterpie, Metapod, Weedle, Kakuna, Sunkern.
 - Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
-
-# Battle Log
-- Turn #4735: Battling Twins Ann & Anne on Route 37. Clefairy defeated. GNEISS (Lv24) vs Jigglypuff. Used Magnitude.
-- Turn #4739: Twins Ann & Anne defeated. GNEISS gained EXP. Received ¥320.
