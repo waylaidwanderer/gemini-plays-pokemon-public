@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Decline PC Storage).
-  1. **Status:** "Send to PC?" prompt visible. Selecting NO to return item to Pack.
-  2. **Step 1:** Select NO (Down -> A).
-  3. **Step 2:** Clear "Returned to Pack" message (A/B).
-  4. **Step 3:** Exit Party Menu (B until Overworld).
-  5. **Step 4:** Open Pack -> Select Flower Mail -> Equip to Kenya.
-  6. **Step 5:** Write "DARK CAVE leads to another road" (Verify casing).
+- **Current Action:** Fix Kenya's Mail (Open Pack).
+  1. **Status:** Mail detached. Opening Pack to find Flower Mail.
+  2. **Step 1:** Clear text & Return to Start Menu (A -> B -> B).
+  3. **Step 2:** Select PACK (Down -> A).
+  4. **Step 3:** Select Flower Mail -> Equip to Kenya.
+  5. **Step 4:** Write "DARK CAVE leads to another road" (Verify casing).
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
