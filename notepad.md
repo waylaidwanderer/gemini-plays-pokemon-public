@@ -52,3 +52,5 @@
   - Use Hyper Potions to stay out of crit range.
   - Muscle's Strength is the main damage source.
 - **Gym Trainers:** Defeated Yoshi, Lao, Nob, Lung.
+- **Battle Observation:** Poliwrath used Mind Reader. Next attack (likely DynamicPunch) will hit 100%.
+- **Tactical Decision:** Muscle has 76/127 HP. A crit DynamicPunch deals ~100 dmg. Healing to full to prevent KO from critical hit.
