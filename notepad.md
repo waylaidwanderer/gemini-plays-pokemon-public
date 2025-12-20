@@ -55,3 +55,9 @@
 - Normal vs Rock: Not Very Effective.
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
+
+# Olivine City Discoveries
+- Sign (17, 11): Olivine City Sign.
+- Mart (19, 17): Olivine City Mart.
+- House (25, 11): Leads to 2_5 (1, 1).
+- NPC Youngster (20, 13): Mentions Pokegear.
