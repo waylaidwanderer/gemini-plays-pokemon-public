@@ -1,5 +1,5 @@
 # Strategy for Primary Goal (Travel to Mahogany Town)
-- Step 5: Head east through Route 42 to Mahogany Town. [IN PROGRESS]
+- Navigate Route 42 by Surfing east and battling trainers to reach Mahogany Town.
 
 # Strategy for KIMCHI Training
 - Route: Route 42.
