@@ -40,4 +40,4 @@
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Gym trainers and Morty.
 - PIT tiles (is-warp="true") act as warps that return the player to the start of the gym. (Turn #5131)
-- Primary Goal: Defeat Gym Leader Morty (Active since Turn #5080, ~7:15 PM PST). Current Turn: #5134.
+- Primary Goal: Defeat Gym Leader Morty (Active since Turn #5080, ~7:15 PM PST). Current Turn: #5139.
