@@ -5,7 +5,7 @@
 - Badges: Zephyr, Hive, Plain.
 
 # Party
-- GNEISS (GRAVELER) Lv28: STAB Magnitude.
+- GNEISS (GRAVELER) Lv29: STAB Magnitude.
 - Calcifer (QUILAVA) Lv27
 - FRITTATA (TOGEPI) Lv5
 - KIMCHI (ODDISH) Lv10
@@ -23,6 +23,7 @@
 - Sage Ping: Gastly Lv16 x3.
 - Medium Grace: Haunter Lv20 x2.
 - Sage Jeffrey: Haunter Lv22.
+- Medium Martha (ID 4): Upcoming.
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
