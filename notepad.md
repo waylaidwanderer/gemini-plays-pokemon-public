@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Kenya (Deliver Mail).
-  1. **Status:** Exiting Gatehouse to Route 31.
-  2. **Step 1:** Walk to Fisher at (17, 7).
-  3. **Step 2:** Talk to Fisher.
-  4. **Step 3:** Receive reward (TM50).
-  5. **Step 4:** Return Kenya to the guard (optional/later) or just keep going.
+- **Current Action:** Deliver Kenya (Walk to Fisher).
+  1. **Status:** Walking East on Route 31.
+  2. **Step 1:** Navigate to (15, 7) (Avoiding potential Fruit Tree at 16, 7).
+  3. **Step 2:** Locate Fisher at (17, 7).
+  4. **Step 3:** Talk to Fisher to deliver mail.
+  5. **Step 4:** Receive TM50.
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
