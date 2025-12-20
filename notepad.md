@@ -18,8 +18,9 @@
 - COUNTER: Impassable. Individual behavior: Cannot be walked on. Relational behavior: Interact with NPC behind it from adjacent tile.
 - BOULDER: Impassable. Individual behavior: Cannot be walked on. Mechanics: Requires HM04 Strength to move.
 - PC: Interactable object for Pokémon/Item storage.
-- WARP: Leads to a different map or area.
+- WARP / LADDER / DOOR: Leads to a different map or area.
 - PIT: Individual behavior: Impassable hazard. Mechanics: A warp tile that causes the player to fall to a specific coordinate on the floor below. Verified: Acts as a warp.
+- VOID: Individual behavior: Impassable barrier. Represents empty space outside the structure. Cannot be walked on.
 
 ## Lessons Learned
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
@@ -57,7 +58,7 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6903).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6906).
 - Calcifer (QUILAVA): Lv35.
 - Rival Malice: Confirmed at (14, 15) on water (Turn 6868).
 
