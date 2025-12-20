@@ -60,3 +60,11 @@
 - LEDGE_HOP_DOWN: One-way jump down. Traversable from above.
 - LEDGE_HOP_LEFT: One-way jump left. Traversable from right.
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
+
+# Route 38 Navigation Notes
+- The map is divided by a long wall at row 8 (columns 14-29).
+- A north-south fence of LEDGE_HOP_RIGHT tiles at column 7 (rows 10-14) blocks westward movement in the middle of the map.
+- The path to Olivine City (west) is located north of the row 8 wall.
+- To reach the Fruit Tree at (12, 10) and the western exit, I must travel east to column 30, then north to row 5, then west.
+- LEDGE_HOP_RIGHT: Jump from left to right (West to East). Impassable from the right.
+- LEDGE_HOP_LEFT: Jump from right to left (East to West). Impassable from the left.
