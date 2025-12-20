@@ -87,10 +87,10 @@
 # Ecruteak Gym (4_7)
 - Entrance/Exit: (4, 17) and (5, 17).
 - Sage Ping: (3, 13).
-- Gym Guide: (7, 15).
+- Gym Guide Advice: Trainers have secret motives; winning reveals secrets about Ecruteak.
 - Pit Warps (Reset to start): (4, 14), (3, 12), (4, 12), (5, 12), (7, 12), (7, 13).
 - Invisible Path Puzzle: The floor appears to have pits that warp the player back to the start.
-- Strategy: Identify the safe path by testing adjacent tiles.
+- Strategy: Identify the safe path by testing adjacent tiles. Document safe coordinates.
 - Start Turn: #5034.
 
 # Tile Mechanics Update
