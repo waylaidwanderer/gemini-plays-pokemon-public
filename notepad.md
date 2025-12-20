@@ -61,6 +61,6 @@
 
 # Olivine Lighthouse Strategy
 - Plan: Systematically explore each floor to find the upward ladder while training the team.
-- Step 2: Clear trainers on 2F and find the ladder at (15, 11) to 3F.
-- Step 3: Repeat exploration on each floor until Jasmine is located at the top.
-- Step 4: Identify the sick Pokémon's requirements and fulfill them.
+- Step 1: Locate the actual ladder to 3F (expected in the southwest or center).
+- Step 2: Clear trainers on each floor and find the next upward path.
+- Step 3: Identify the sick Pokémon's requirements and fulfill them.
