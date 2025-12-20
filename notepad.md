@@ -53,5 +53,4 @@
 - Next target: Kimono Girl 3 at (6, 2).
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Battling (Turn #4849).
-- Turn #4849: Selected PKMN.
-- Turn #4850: Switching GNEISS for Calcifer.
+- Turn #4851: Calcifer switched in. Espeon used Sand-Attack. Calcifer's accuracy fell. Using Headbutt.
