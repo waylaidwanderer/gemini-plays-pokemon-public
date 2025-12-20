@@ -1,15 +1,15 @@
 # Tile Mechanics
 - FLOOR: Traversable.
-- WALL: Impassable.
+- WALL / WINDOW: Impassable.
 - LADDER: Two-way warp.
 - PIT: One-way warp to floor below.
-- WINDOW: Impassable background object.
 
 # Lessons Learned
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
 - Section Connectivity: 4F sections connected by gaps at y=2/3 (East-Middle) and y=14 (Middle-West).
 - Warp Verification: (16, 7) and (17, 7) on 4F are map transitions (walk RIGHT to trigger).
+- Descent Strategy: Use pits to quickly reach lower floors.
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -28,8 +28,9 @@
 - Yanma: Route 35 (Turn 5683).
 
 # Strategy: Get Amphy's Medicine
-- 1. Explore western alcoves of 6F (3, 8) and (4, 14).
-- 2. Leave Lighthouse (use 6F Pits at (16, 5) or (17, 5) to skip floors?).
-- 3. Surf to Cianwood City (southwest of Olivine).
-- 4. Get medicine from Pharmacy.
-- 5. Return to Jasmine.
+- Quest started Turn 5707.
+- 1. Pick up item at (3, 4) on 6F.
+- 2. Explore reachable unseen tiles at (3, 8), (3, 9), (4, 14), (4, 15).
+- 3. Leave Lighthouse (use 6F Pits at (16, 5) or (17, 5)).
+- 4. Surf to Cianwood City (southwest of Olivine).
+- 5. Get medicine from Pharmacy and return.
