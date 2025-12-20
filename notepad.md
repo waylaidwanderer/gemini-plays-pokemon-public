@@ -8,7 +8,7 @@
 - Status: Blacked out. Party fully healed.
 - Pivot: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
 - Training Route: Surf Route 41 -> Route 40. Focus on training KIMCHI.
-- Goal: Reach Lv21+ with KIMCHI. (Current: Lv13)
+- Goal: Reach Lv21+ with KIMCHI. (Current: Lv14)
 - Note: GNEISS is currently poisoned at 44/98 HP. Use Calcifer for switch-training for now.
 
 # Strategy for Secondary Goal
