@@ -78,4 +78,4 @@
 
 # Training Logs
 - KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6837).
-- Rival: Does not appear on Route 40. Previous sightings were hallucinations.
+- Rival: Does not appear on Route 40. Previous sightings were hallucinations. Marker cleanup in progress.
