@@ -64,12 +64,8 @@
 - **Remaining:** "another road".
 - **Mail Typing:** Typing "another road".
 - **Verification:** Will verify text on screen before confirming with END.
-- **Correction:** Accidentally gave mail to Lapis (Turn 8325/8326).
-- **Current Action:** Finishing mail on Lapis (navigating to END).
-- **Next Steps:**
-  1. Clear "Made LAPIS hold..." text.
-  2. Enter Party Menu.
-  3. Select Lapis -> MAIL -> TAKE (Send to PC).
-  4. Exit to Pack.
-  5. Select Flower Mail -> GIVE -> Kenya.
-  6. Type "DARK CAVE leads to another road".
+- **Correction:** Gave mail to Lapis by mistake. She is holding one.
+- **Current Action:** Using spare Flower Mail (2 left) for Kenya.
+- **Sequence:** Main Menu -> Pack -> Flower Mail -> Give -> Kenya (Slot 6).
+- **Next:** Write "DARK CAVE leads to another road".
+- **Future:** Retrieve mail from Lapis later.
