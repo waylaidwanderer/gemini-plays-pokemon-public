@@ -92,3 +92,11 @@
 - **Issue:** Previous `Up` input did not move cursor to Violet City.
 - **Action:** Retrying `Up` with a longer delay (`slow_press` 1000ms).
 - **Hypothesis:** Previous input was timed out or eaten by the map transition animation.
+- **Observation:** Tried to Give Flower Mail to Kenya, but game said "Please remove the MAIL first."
+- **Status:** Kenya is already holding Mail (likely the blank one I gave earlier).
+- **Plan Update:** 
+    1. Go to Party Menu.
+    2. TAKE the current Mail from Kenya (this puts it in the bag).
+    3. Go back to Pack.
+    4. GIVE Flower Mail to Kenya.
+    5. Write the correct message: "DARK CAVE leads to another road".
