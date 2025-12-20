@@ -25,7 +25,6 @@
 
 ## Current Task: Return to Cianwood
 - Plan:
-    1. Talk to Rival Malice at (14, 15) from (15, 15).
-    2. Surf south through Route 40 and Route 41 to Cianwood City.
-    3. Train KIMCHI along the way by leading with her and switching to GNEISS/Calcifer for shared XP.
-    4. Defeat Gym Leader Chuck.
+    1. Surf south through Route 40 and Route 41 to Cianwood City.
+    2. Train KIMCHI along the way by leading with her and switching to GNEISS/Calcifer for shared XP.
+    3. Defeat Gym Leader Chuck.
