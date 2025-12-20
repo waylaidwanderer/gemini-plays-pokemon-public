@@ -37,9 +37,10 @@
 - Sign at (20, 34): Cianwood City Sign.
 - TM08 Rock Smash is already in inventory.
 - Pokefan M at (16, 33) mentioned breaking rocks north of town.
+- Lugia Speech House Info: Mythical sea creature in the four islands; whirlpools are caused by it; special move needed to pass them (likely HM06 Whirlpool).
 
 # Strategy for SecretPotion
-1. Talk to NPCs in Lugia Speech House (22_9) for info.
+1. Talk to Lass in Lugia Speech House (22_9) for final info.
 2. Exit and find the actual Pharmacy.
 3. If found, obtain SecretPotion.
 4. Locate Cianwood Gym (Leader Chuck).
