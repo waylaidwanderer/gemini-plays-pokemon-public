@@ -35,7 +35,7 @@
 
 # Strategy
 - Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 4F.
-- 4F Strategy: Move west past the pits to reach the ladder to 5F at (9, 5). Ensure all tiles are revealed to check for items.
+- 4F Strategy: Explore the eastern section. If no ladder to 5F is found, fall through a pit to land in the unreachable 3F Middle section.
 - Backtrack for 7 standard Berries after finding Jasmine.
 
 # Trainer Progress (Olivine Lighthouse)
