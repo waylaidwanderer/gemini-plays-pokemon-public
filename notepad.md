@@ -27,6 +27,9 @@
 # Swarm Events
 - Yanma: Route 35 (Turn 5683).
 
-# Strategy: Olivine Lighthouse 6F
-- Systematic Exploration: Check northern alcove (7, 4), then eastern alcove (12, 3)-(15, 2), then western alcove (3, 8), and finally southwest alcove (4, 14).
-- Target: Reach (7, 4) to reveal northern tiles.
+# Strategy: Get Amphy's Medicine
+- 1. Explore western alcoves of 6F (3, 8) and (4, 14).
+- 2. Leave Lighthouse (use 6F Pits at (16, 5) or (17, 5) to skip floors?).
+- 3. Surf to Cianwood City (southwest of Olivine).
+- 4. Get medicine from Pharmacy.
+- 5. Return to Jasmine.
