@@ -7,7 +7,7 @@
     - **Badge:** Mineral Badge (Raises Defense).
     - **TM:** TM23 Iron Tail.
     - **Battle:** Muscle (Machoke) swept with Karate Chop. Mistral was sacrificed to reset stats.
-- **Immediate Plan:** Open Start Menu. Select Mistral. Fly to Violet City. Deliver Kenya to the guard on Route 31.
+- **Immediate Plan:** Fly to Violet City (Confirmed). Head East to Route 31. Find the recipient for Kenya's mail.
 
 - **Quest Update:** Successfully escaped the Lighthouse using Dig. Amphy is cured.
 - **Party Status:**
