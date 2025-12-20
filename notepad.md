@@ -31,4 +31,4 @@
 - ROCKY (ONIX) Lv6, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5, SHUCKIE (SHUCKLE) Lv15.
 
 # Battle Strategies
-- Fisher Tully (Route 42): Qwilfish (Water/Poison). Use SLEEP POWDER and SWEET SCENT to manage evasion, then chip with ABSORB.
+- Fisher Tully (Route 42): Qwilfish (Water/Poison).
