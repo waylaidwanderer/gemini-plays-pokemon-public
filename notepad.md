@@ -32,6 +32,7 @@
 - Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
 - Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
 - Sailor Harry (Route 38): Wooper Lv19. Defeated.
+- Lass Dana (Route 38): Flaaffy Lv18 (Active).
 
 # Lessons Learned
 - Keyboard Layout (Naming Screen): 9 Columns wide. Row 0: A-I, Row 1: J-R, Row 2: S-Z, Row 3: symbols, Row 4: [lower], [DEL], [END]. Wide buttons on Row 4.
