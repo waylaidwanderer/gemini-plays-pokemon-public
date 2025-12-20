@@ -23,3 +23,16 @@
 - **Route 31 Fisher:** Wants mail. Exact phrase: "DARK CAVE leads to another road."
 - **Wade:** Bug Catcher on Route 31. Calls about berries/swarms.
 - **Dark Cave:** Leads to Route 45/46 (Blackthorn side) or Route 31 (Violet side). needs Flash/Rock Smash/Surf.
+## Tile Mechanics
+- **FLOOR:** Standard traversable tile.
+- **WALL:** Impassable.
+- **TALL_GRASS / LONG_GRASS:** Traversable, potential wild encounters.
+- **WATER:** Traversable with SURF.
+- **CUT_TREE:** Impassable until removed with CUT.
+- **HEADBUTT_TREE:** Impassable, interactable with HEADBUTT.
+- **LEDGE_HOP_DOWN/RIGHT/LEFT:** One-way movement (jump over).
+- **WARP_CARPET_LEFT/RIGHT/UP/DOWN:** Map transition.
+- **CAVE:** Traversable, wild encounters.
+- **ICE:** Sliding movement (continue until obstacle).
+- **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
+- **WATERFALL:** Impassable until climbed with WATERFALL.
