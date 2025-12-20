@@ -6,13 +6,13 @@
 
 # Party
 - GNEISS (GRAVELER) Lv29: STAB Magnitude.
-- Calcifer (QUILAVA) Lv27
+- Calcifer (QUILAVA) Lv28: QUICK ATTACK, HEADBUTT, SMOKESCREEN, EMBER. (Turn #5187)
 - FRITTATA (TOGEPI) Lv5
 - KIMCHI (ODDISH) Lv10
 - EGG (CLEFFA) Lv5
 
 # Tile Mechanics
-- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` or `type='PIT'`. These tiles are impassable and return the player to the start of the gym. (Turn #5131)
+- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` or `type='PIT'`. These tiles are impassable. (Turn #5131)
 - STATUE: Impassable background object.
 - COUNTER: Impassable, interact over it.
 - LEDGE_HOP: One-way traversable.
@@ -20,15 +20,11 @@
 - WALL: Impassable.
 
 # Trainer Rosters
-- Sage Ping: Gastly Lv16 x3.
-- Medium Grace: Haunter Lv20 x2.
-- Sage Jeffrey: Haunter Lv22.
-- Medium Martha (ID 4): Gastly Lv18, Haunter Lv20, Gastly Lv20. (Turn #5128)
-- Leader Morty: Gastly Lv21 (Defeated), Gengar Lv25 (Active).
+- Leader Morty: Gastly Lv21 (D), Gengar Lv25 (D), Haunter Lv21 (Active). (Turn #5187)
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
-- Strategy: Use GNEISS with Magnitude. Morty's Gengar is fast and uses status moves; GNEISS's Rock typing provides solid defense against Shadow Ball (Physical in Gen 2).
+- Strategy: Use GNEISS with Magnitude. Rock typing resists Shadow Ball (Physical in Gen 2).
 - Invisible Path: Avoid all tiles with `is-warp='true'` or `type='PIT'`. Use find_path_v2 tool.
 
 # Defeated Trainers
@@ -47,5 +43,5 @@
 # Strategy
 - Use `find_path_v2` for overworld navigation.
 - Use battle_strategist_v2 for Morty.
-- Current Goal: Defeat Leader Morty (Gengar active). (Turn #5183)
-- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5183.
+- Current Goal: Defeat Leader Morty (Haunter active). (Turn #5187)
+- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5187.
