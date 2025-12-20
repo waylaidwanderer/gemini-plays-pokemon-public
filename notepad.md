@@ -5,9 +5,9 @@
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
 - **Current Action:** Talk to Cooltrainer (Dark Cave Guard).
-  1. **Situation:** Player at (30, 8). Cooltrainer at (32, 9).
-  2. **Move:** Navigate to (31, 9) (Adjacent).
-  3. **Action:** Next turn: Face Right and Talk.
+  1. **Situation:** Player at (30, 8). Cooltrainer at (32, 7).
+  2. **Move:** Manual Right, Up to (31, 7).
+  3. **Action:** Face Right, Press A.
   4. **Status:** Kenya equipped with Flower Mail ("HI").
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
