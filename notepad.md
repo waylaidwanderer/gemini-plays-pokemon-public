@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to the Ladder at (5, 3) to reach 3F. Path: Right to Col 14, Up to Row 3, Left to (5, 3).
-- **Quest Update:** Ascending Lighthouse to deliver SecretPotion.
+- **Immediate Plan:** Return to 2F (Ladder at 5,3 is a dead end/wrong path). Search 2F for another ladder to ascend to the correct part of 3F.
+- **Quest Update:** Explored 3F Left Wing (Dead End). Backtracking.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
