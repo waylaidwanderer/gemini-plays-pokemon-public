@@ -38,12 +38,15 @@
 
 # Cianwood City Exploration
 - Arrived in Cianwood City: Turn 6127.
+- Building (9, 31): Cianwood Photo Studio (Confirmed).
 - Building (15, 37): Lugia Speech House. Info: Whirlpools (HM06), Silver Wing needed for Lugia.
 - Building (17, 41): Mania's House. Info: Malice stole a Pokemon. Mania wants me to guard his Shuckle (need space in party).
 - Building (15, 47): Cianwood Pharmacy (Confirmed). Obtained SECRETPOTION.
 - Sign (20, 34): Cianwood City Sign.
 - Sign (19, 47): Cianwood Pharmacy Sign.
+- Sign (8, 32): Cianwood Photo Studio Sign.
 - Pokefan M (16, 33): Mentioned breaking rocks north of town.
+- Rock (5, 29): Breakable rock.
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
