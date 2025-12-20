@@ -42,7 +42,7 @@
 - Sailor Huey (11, 3, 2F): Defeated.
 - Bird Keeper Theo (3, 9, 3F): Defeated.
 - Gentleman Preston (13, 5, 3F): Defeated Turn 5602.
-- Sailor Kent (7, 14, 4F): Krabby Lv18, Krabby Lv20. In progress Turn 5624.
+- Sailor Kent (7, 14, 4F): Krabby Lv18, Krabby Lv20. Defeated Turn 5626.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
