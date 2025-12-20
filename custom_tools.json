@@ -11,31 +11,6 @@
       }
     ]
   },
-  "press_sequence": {
-    "description": "Presses a defined sequence of buttons. Useful for text input and complex menu navigation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
-    "history": [
-      {
-        "commit_message": "Add generic button sequence tool for text input and menus.",
-        "timestamp": "2025-12-18T01:57:06.714Z",
-        "action_counter": 4184
-      }
-    ]
-  },
   "smart_battle_move": {
     "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes the Move Menu is a vertical list. Auto-presses buttons. Includes wrapping logic (e.g. Up from 1 to 4).",
     "input_schema": {
