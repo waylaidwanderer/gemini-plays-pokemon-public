@@ -4,13 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Type "leads to another road".
-  1. **Current State:** Mail Keyboard (Cursor on Space ' '). Case is UPPER.
-  2. **Sequence:** Toggle `lower`, then type "leads to another road".
-  3. **Next Turn:** Verify text, then select END.
-  4. **Target:** Fisher at (17, 7).
+- **Immediate Action:** Finish Mail & Deliver.
+  1. **Current State:** Mail text "DARK CAVE leads to another road" typed.
+  2. **Action:** Press `Start` (Shortcut to END) -> `A` (Confirm).
+  3. **Next Step:** Talk to Fisher at (17, 7) immediately.
+  4. **Expectation:** He accepts the mail.
+  5. **Contingency:** If he rejects it AGAIN, the text might be case-sensitive (try Title Case?) or he is the wrong NPC (Check Gatehouse).
 - **Route Info:** Route 31.
-- **Mail Status:** Writing new mail (Step 2).
+- **Mail Status:** Message "DARK CAVE leads to another road" ready.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
