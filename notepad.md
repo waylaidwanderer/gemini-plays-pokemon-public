@@ -23,6 +23,8 @@
 
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
+- Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
+- Pokefan Derek (10, 22): Pikachu Lv17. Defeated.
 
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
@@ -36,8 +38,10 @@
 - Route 36: Ice Berry.
 - Route 39 (9, 3): Mint Berry.
 
+# Berry Inventory
+- Standard BERRY: 0/7.
+
 # Strategy & Exploration
-- Quest: Heal Miltank. Need 7 standard "BERRY" items.
 - Berry Search Method: Systematically check fruit trees on all previous routes.
 - Exploration Plan: Reach Olivine City first to unlock the Pokemon Center, then backtrack for Berries.
 
@@ -46,5 +50,3 @@
 - Normal vs Rock: Not Very Effective.
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
-- Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
-- Pokefan Derek (10, 22): Pikachu Lv17. Defeated.
