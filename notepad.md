@@ -54,3 +54,7 @@
 - **Gym Trainers:** Defeated Yoshi, Lao, Nob, Lung.
 - **Battle Observation:** Poliwrath used Mind Reader. Next attack (likely DynamicPunch) will hit 100%.
 - **Tactical Decision:** Muscle has 76/127 HP. A crit DynamicPunch deals ~100 dmg. Healing to full to prevent KO from critical hit.
+- **Battle Update:** Lapis put Poliwrath to SLEEP!
+- **Plan:** Switch Muscle back in immediately.
+- **Reasoning:** Switching clears Muscle's Confusion and Defense drops. Poliwrath is asleep, giving a safe switch-in.
+- **Next Turn:** Heal Muscle to full with Hyper Potion to safeguard against wake-up crits.
