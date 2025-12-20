@@ -82,9 +82,10 @@
 - **Battle Strategy:** Shuckie successfully tanked Lick. Muscle healed.
 - **Action:** Switching Muscle back in (Slot 1) to replace Shuckie.
 - **Goal:** Defeat Haunter with Dig.
-- **Battle Log:** Switching Muscle in. Haunter is low HP (Curse + Ember).
-- **Matchup:** Muscle (Dig) vs Haunter (Poison/Ghost). Ground is 2x effective.
-- **Threats:** Hypnosis. Have 2 Awakenings.
+- **Battle Log:** Muscle switched in safely. Haunter's attack missed. Muscle is Awake and ready.
+- **Action:** Using Dig (Slot 1).
+- **Matchup:** Dig (Ground) vs Haunter (Ghost/Poison). 2x Effective.
+- **Note:** Dig provides a semi-invulnerable turn, avoiding Haunter's next attack.
 - **Action:** Navigating party menu to Switch Muscle (Slot 1) in.
 - **Sequence:** B (Cancel Shuckie menu) -> Up x5 (Select Muscle) -> A (Select) -> A (Switch).
 - **Correction:** Previous switch attempt failed or didn't register. Cursor is confirmed on Muscle (Slot 1).
