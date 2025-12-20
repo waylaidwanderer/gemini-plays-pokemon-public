@@ -40,4 +40,4 @@
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
 - Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
 - Turn 5589: Exploring eastern section of 3F. Target: (17, 10) to reveal unseen tiles (14, 9)-(17, 9) and (18, 10)-(18, 13). PITs at (16, 11), (17, 11) marked.
-- Gentleman at (13, 5, 3F). Facing Right. Unchallenged.
+- Gentleman Preston (13, 5, 3F). Facing Right. Battle started Turn 5594.
