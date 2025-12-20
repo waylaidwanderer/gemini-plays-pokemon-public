@@ -58,10 +58,15 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6912).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6913).
 - Calcifer (QUILAVA): Lv35.
-- Rival Malice: Confirmed at (14, 15) on water (Turn 6868).
-- Progress: Landed on 3F (16, 9) from 4F Pit. Navigating to ladder at (9, 5) to reach 4F Middle section.
+- Progress: Landed on 3F (16, 9) from 4F Pit. (16, 9) is a dead end. Navigating to ladder at (13, 3) to return to 4F and try the pit at (9, 3).
+
+# Hole Puzzle (Olivine Lighthouse)
+- Observation: 4F has multiple pits.
+- Test 1: Fell through pit at (16, 9) on 4F. Landed in walled-off eastern section of 3F. Status: Dead end.
+- Hypothesis: Pit at (9, 3) on 4F leads to the central section of 3F containing the ladder to 4F Middle.
+- Test 2: Pending. Return to 4F and use pit at (9, 3).
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
