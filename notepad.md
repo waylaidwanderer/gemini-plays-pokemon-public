@@ -3,9 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Walk to (8, 2) and check the Window at (8, 1). Then, travel East to the Right Wing and test the pit at (17, 5).
-- **Hypothesis:** The window might be an exit, or the pit at (17, 5) is the correct drop.
-- **Quest Update:** Trainer at (8, 3) is a dead end. (16, 7) and (17, 7) were wrong. Testing (17, 5) next.
+- **Immediate Plan:** Navigate to the Right Wing and test the pits at (16, 5) and (17, 5).
+- **Hypothesis:** The pits at (16, 7) and (17, 7) led to the 4F Right Wing (dead end). The pits at (16, 5) and (17, 5) likely lead to the 4F Center.
+- **Quest Update:** Checking the northern pair of pits on 5F Right.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
