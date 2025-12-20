@@ -17,7 +17,7 @@
 - **Inventory:** Contains FLOWER MAIL (3 in Bag).
 
 ## Quests
-- **Webster's Mail:** Delivering Kenya (Spearow) to Route 31. Recipient is the Fisher at (13, 16).
+- **Webster's Mail:** Delivering Kenya (Spearow) to Route 31. Recipient is the Fisher at (17, 7).
   - Status: Mail message likely incomplete ("DARK CAVE leads"). Verifying now.
   - Plan: If incorrect, buy new Flower Mail at Violet Mart and rewrite.
 - **Jasmine:** Completed.
