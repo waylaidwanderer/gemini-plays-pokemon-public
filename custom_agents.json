@@ -1,11 +1,4 @@
 {
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "Analyzes Pokemon battles and recommends moves based on type effectiveness and strategy.",
-    "agent_system_prompt": "You are a Pokemon battle expert. Analyze the situation and recommend the best move. Consider type effectiveness, status effects, and the player's goal. Provide clear reasoning.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon\":{\"type\":\"string\"},\"player_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"opponent_pokemon\":{\"type\":\"string\"},\"current_goal\":{\"type\":\"string\"}},\"required\":[\"player_pokemon\",\"player_moves\",\"opponent_pokemon\",\"current_goal\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_move\",\"reasoning\"]}"
-  },
   "battle_strategist_v2": {
     "agent_name": "battle_strategist_v2",
     "agent_description": "Analyzes Pokemon battles and recommends actions (move, switch, item) based on type effectiveness, party status, and inventory.",
