@@ -15,6 +15,7 @@
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
 - NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
+- Battle Mechanics: FIRE moves are Special in Gen 2.
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
