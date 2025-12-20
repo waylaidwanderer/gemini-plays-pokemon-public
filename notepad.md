@@ -49,8 +49,9 @@
 - **MART_SHELF:** Impassable.
 - **COUNTER:** Impassable. Interactable across it.
 - **WARP_CARPET_DOWN:** Exit warp.
-- **Mail Correction Step 1:** Attempting to remove incomplete mail ("DARK CAVE leads") from Kenya. (Previous attempt cancelled).
-- **Next Step:** Select Kenya -> MAIL -> TAKE. Then GIVE fresh FLOWER MAIL and write: "DARK CAVE leads to another road".
+- **Mail Correction Step 1:** Removed incomplete mail from Kenya.
+- **Current Step:** Giving fresh FLOWER MAIL to Kenya.
+- **Next Step:** Write: "DARK CAVE leads to another road".
 - **Typing Plan:**
   1. Caps: "DARK CAVE"
   2. Lower: " leads to another road"
