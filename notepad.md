@@ -65,13 +65,12 @@
 - Lass at (13, 4) in 4F: Non-battling NPC. Mentions JASMINE and the GYM.
 ## Navigation Lessons
 - Ladders and Pits: These are triggered by walking onto the tile. Pressing A is unnecessary and often does nothing.
-- Lighthouse Descent: If stuck in the central pillar/room, look for ladders or pits that lead to the outer ring. The lighthouse has a ring-based structure.
+- Lighthouse Descent: Successfully navigated by alternating floors to reach the outer ring. The path from 6F to 1F requires dropping through specific pits: 6F (16, 5) -> 5F (16, 7) -> 4F (16, 9) -> 3F outer ring -> 2F ladder at (5, 3) -> 1F ladder at (3, 11).
 - Connectivity: Always verify if a target coordinate is reachable from the current position using a pathfinding script or by checking the Mental Map for walls.
 
-## Current Task: Exit Lighthouse
-- Start Turn: 6954
-- Current Position: 3F Outer Ring (16, 9)
+## Current Task: Defeat Jasmine
+- Start Turn: 6979
+- Current Position: Olivine City
 - Plan:
-    1. Navigate the outer ring of 3F to reach the ladder at (5, 3).
-    2. Take the ladder at (5, 3) down to 2F.
-    3. Find the exit on the lower floors.
+    1. Enter Olivine Gym at (10, 11).
+    2. Challenge and defeat Gym Leader Jasmine using Calcifer or GNEISS.
