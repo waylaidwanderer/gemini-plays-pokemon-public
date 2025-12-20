@@ -4,13 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Select Kenya to Deliver.
-  1. **Current State:** Fisher Dialogue -> Party Menu (Cursor on Kenya).
-  2. **Action:** Press `A` to select Kenya.
-  3. **Expectation:** Fisher takes Kenya and reads mail.
-  4. **Next:** Reward (TM50).
+- **Immediate Action:** Retrying Mail (Correction).
+  1. **Error:** Previous attempt duplicated text ("leads to") and messed up case toggling.
+  2. **Plan:**
+     - Take bad mail from Kenya.
+     - Give fresh Flower Mail.
+     - Type: "DARK CAVE " -> [lower] -> "leads to another road".
+  3. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
-- **Mail Status:** Mail Equipped & Written. Delivering now.
+- **Mail Status:** Fixing typo.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
