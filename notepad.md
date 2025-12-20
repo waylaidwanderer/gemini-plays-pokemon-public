@@ -50,7 +50,7 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) fainted (Turn 6665). Poliwrath Accuracy: -2. Used Hyper Potion (Turn 6657).
+- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. SHUCKIE fainted (Turn 6675). Calcifer (Lv34) back in at 47/94 HP. Poliwrath Accuracy: -2. Used Hyper Potion (Turn 6657) and Revive (Turn 6673).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
