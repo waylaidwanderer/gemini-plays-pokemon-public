@@ -4,16 +4,16 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Fly to Violet City.
-  1. **Current State:** Reading Mail (Verified Correct: "DARK CAVE LEADS TO ANOTHER ROAD").
+- **Immediate Action:** Select Mistral and Fly.
+  1. **Current State:** Start Menu (Cursor on POKéMON).
   2. **Sequence:**
-     - `B`: Close Message.
-     - `B`: Exit Mail Menu (Back to Party).
-     - `Up`: Select Mistral.
+     - `A`: Enter Party Menu.
+     - `Down` x4: Select Mistral (Slot 5).
      - `A`: Open Menu.
-     - `Fly`: Select Fly (Scroll down if needed).
-     - `Violet City`: Select Destination.
-  3. **Target:** Sleeping Man (Cooltrainer M) on Route 31 (near Dark Cave).
+     - `Fly`: Select Fly (Likely top option).
+     - `Up`: Move to Violet City.
+     - `A`: Confirm.
+  3. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
