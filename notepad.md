@@ -6,16 +6,19 @@
 - Items: TM30 Shadow Ball.
 
 # Tile Mechanics
-- PIT: Warp tile, impassable.
-- STATUE: Impassable background object.
-- COUNTER: Impassable, interact over it.
-- LEDGE_HOP_DOWN: One-way jump down. Traversable from above.
-- LEDGE_HOP_LEFT: One-way jump left. Traversable from right.
-- LEDGE_HOP_RIGHT: One-way jump right. Traversable from left.
-- FLOOR: Traversable.
-- WALL: Impassable.
-- GRASS / TALL_GRASS: Standard wild encounter tile. Traversable.
-- HEADBUTT_TREE: Impassable. Interact with Headbutt.
+- FLOOR: Traversable. Standard movement tile.
+- WALL: Impassable. Collision tile.
+- DOOR: Warp tile. Leads to another map.
+- WATER: Impassable. Requires Surf to traverse.
+- TALL_GRASS / GRASS: Traversable. May trigger wild encounters.
+- LEDGE_HOP_DOWN: One-way ledge. Traversable only from above.
+- LEDGE_HOP_LEFT: One-way ledge. Traversable only from the right.
+- LEDGE_HOP_RIGHT: One-way ledge. Traversable only from the left.
+- COUNTER: Impassable. Interaction occurs across the tile.
+- PIT: Warp tile. Leads to the map below. Impassable unless falling.
+- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
+- CUT_TREE: Impassable. Can be removed using Cut.
+- STATUE / BOOKSHELF / PC / WINDOW: Impassable background objects.
 
 # Trainer Teams & Progress (Route 38)
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. Defeated.
@@ -30,7 +33,7 @@
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
 - Ecruteak Gym: Invisible floor path documented (Turn 5290).
-- Moomoo Farm: The sick Miltank requires 7 standard "BERRY" items for recovery.
+- Moomoo Farm: The sick Miltank requires 7 standard "BERRY" items for recovery. (Quest started Turn 5458)
 
 # Berry Locations Knowledge Base
 - Route 30: Potential BERRY.
@@ -64,10 +67,8 @@
 - Building (13, 15): Blue building with yellow sign.
 
 # Olivine City Strategy
-- Rival Malice encounter at (13, 13).
 - Gym Leader Jasmine is at the LIGHTHOUSE tending to a sick Pokemon.
 - The Gym is currently empty.
-- Priority: Find the Lighthouse to progress.
 
 # Olivine Pokecenter Discoveries
 - Nurse Joy at (3, 1).
