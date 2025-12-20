@@ -41,6 +41,7 @@
 - **Navigation:** Taking the Western channel (Cols 22-23) to bypass the buoy blockage and continue South/West towards Cianwood.
 - **Route 41:** Defeated Swimmer Wendy at (9, 50). Continuing West towards Cianwood.
 - **Cianwood City:** Arrived.
-    - Need to locate the Pharmacy for the SecretPotion.
-    - Gym Leader Chuck is here.
-    - Suicune might be here (saw it flee to the west earlier).
+    - **Pokemon Center:** Located at (23, 43).
+    - **Objective:** Investigating building at (15, 37) (Likely Pharmacy).
+    - **Gym:** Leader Chuck is here.
+    - **Suicune:** Might be here (saw it flee to the west earlier).
