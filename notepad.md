@@ -27,7 +27,8 @@
 # Strategy: Get Amphy's Medicine
 - Quest started Turn 5707.
 - 1. Explore 6F (Complete).
-- 2. Leave Lighthouse via 4F balcony or pits.
-- 3. Surf to Cianwood City (southwest of Olivine).
-- 4. Get medicine from Pharmacy and return.
-- 5. (Optional) Check 4F balcony theory now at (16, 7).
+- 2. Leave Lighthouse (Complete).
+- 3. Buy Poke Balls at Olivine Mart.
+- 4. Catch a Water-type Pokemon for Surf.
+- 5. Surf to Cianwood City (southwest of Olivine).
+- 6. Get medicine from Pharmacy and return.
