@@ -4,14 +4,17 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Complete Delivery Dialogue.
-  1. **Status:** Fisher is talking about Kenya ("Why is this POKéMON so special?").
-  2. **Action:** Press `A` to advance text.
-  3. **Expectation:** He will take Kenya and give the reward.
-  4. **Next Step:** Check Inventory for reward (likely TM50 or similar).
-  5. **Future:** Fly Ecruteak -> Route 42 -> Mahogany Town.
+- **Immediate Action:** Fix Kenya's Mail (Missing!).
+  1. **Issue:** Fisher said "It doesn't have any MAIL."
+  2. **Diagnosis:** Kenya is NOT holding mail. I must have taken it by mistake or it was lost.
+  3. **Plan:**
+     - Finish dialogue (Press `A`).
+     - Open Pack -> Items -> Flower Mail -> Give -> Kenya.
+     - Write Message: "DARK CAVE leads to another road".
+     - Talk to Fisher again.
+  4. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
-- **Mail Status:** Delivery in progress. Fisher Confirmed.
+- **Mail Status:** Kenya has NO mail. Fixing now.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
