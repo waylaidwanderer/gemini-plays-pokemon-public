@@ -44,4 +44,7 @@
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
 - **Emergency:** No HP healing items left. Muscle is at 4 HP. Lapis (Lv 10) is active.
-- **Plan:** Lapis uses Hypnosis. If successful, switch to Muscle to sweep. If Lapis dies, Muscle must pray for a miss.
+- **Plan:** Lapis uses Hypnosis (Slot 2).
+  - If Lapis survives and hits Hypnosis: Switch to Muscle.
+  - If Lapis dies: Send Muscle. Pray for a miss or crit.
+  - If Lapis misses and survives: Try Hypnosis again.
