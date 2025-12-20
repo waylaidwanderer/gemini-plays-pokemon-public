@@ -58,7 +58,7 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6906).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6909).
 - Calcifer (QUILAVA): Lv35.
 - Rival Malice: Confirmed at (14, 15) on water (Turn 6868).
 
