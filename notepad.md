@@ -63,4 +63,7 @@
 - Use `find_path` tool to avoid manual coordinate errors.
 - Mark all holes/warps immediately to assist pathfinding logic.
 - GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
-- Battle with Malice (Turn #4945): Haunter defeated with Magnitude. GNEISS is cursed.
+- Battle with Malice (Turn #4945):
+  - Haunter (Lv 20): Defeated with Magnitude. Used Curse.
+  - Croconaw (Lv ?): Incoming. GNEISS is cursed and weak to Water.
+  - Strategy: Switch to clear Curse and find a better matchup.
