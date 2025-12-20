@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Kenya (Position & Talk).
-  1. **Status:** At (15, 7). Tree blocking direct path.
-  2. **Step 1:** Navigate around tree to (17, 6) (Above Fisher).
-  3. **Step 2:** Face Down & Talk to Fisher.
-  4. **Step 3:** Deliver Mail & Receive TM50.
+- **Current Action:** Deliver Kenya (Interact).
+  1. **Status:** At (17, 6), above Fisher.
+  2. **Step 1:** Face Down (Turn to Fisher).
+  3. **Step 2:** Press A to Talk.
+  4. **Step 3:** Handle "Oh, you have mail for me!" dialogue.
+  5. **Step 4:** Receive reward (TM50).
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
