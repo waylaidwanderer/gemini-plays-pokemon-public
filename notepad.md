@@ -47,5 +47,5 @@
 # Strategy
 - Use `find_path_v2` for overworld navigation.
 - Use battle_strategist_v2 for Morty.
-- Current Goal: Defeat Leader Morty (Gengar active). (Turn #5178)
-- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST).
+- Current Goal: Defeat Leader Morty (Gengar active). (Turn #5180)
+- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5180.
