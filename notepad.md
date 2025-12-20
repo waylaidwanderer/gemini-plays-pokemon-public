@@ -1,7 +1,8 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Buy Flower Mail for Kenya (Check Cherrygrove Mart, then Violet City).
+- **Primary Goal:** Buy Flower Mail for Kenya.
+  - **Status:** Currently checking Cherrygrove Mart inventory.
 - **Secondary Goal:** Deliver Kenya to Route 31.
 - **Tertiary Goal:** Travel to Mahogany Town (Route 42).
 - **Party:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13).
