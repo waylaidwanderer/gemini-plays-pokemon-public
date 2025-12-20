@@ -28,3 +28,5 @@
 - **Route 41:** Found gap in buoys at Column 24. Navigating South. Whirlpool spotted at (22, 12).
 - **Route 41:** Defeated Swimmer Susie. Continuing South through the islands.
 - **Reminder:** Teach Strength to Muscle (replace Leer/Focus Energy) to have a reliable Normal move.
+- **Hint:** Swimmer Berke mentions islands blocked by whirlpools must have a secret (likely Lugia/Whirl Islands).
+- **Battle:** Fighting Swimmer Berke (Qwilfish). Using last Dig PP (Super Effective).
