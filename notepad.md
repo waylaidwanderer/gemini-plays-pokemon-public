@@ -54,5 +54,5 @@
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Defeated (Turn #4858).
-- Next target: Kimono Girl 1 at (0, 2).
-- Strategy: Fully healed. Ready for the final battle.
+- Naoko (Flareon): Battling (Turn #4881).
+- Turn #4882: GNEISS at 74/74 HP. Using Magnitude. Strategy: STAB Super Effective damage.
