@@ -4,16 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Exit Menu & Deliver Mail.
-  1. **Current State:** Inside Pack (Item Pocket). Mail attached successfully.
-  2. **Action:**
-     - `B` x3: Exit to Overworld.
-     - `Left`: Face Fisher at (17, 7).
-     - `A`: Talk.
-  3. **Expectation:** Fisher accepts Kenya.
-  4. **Next:** Receive Reward -> Fly Ecruteak -> Route 42.
+- **Immediate Action:** Select Flower Mail -> Give -> Kenya.
+  1. **Current State:** Pack (Cursor on Berry).
+  2. **Action:** `Down` (Select Flower Mail) -> `A` (Open Menu).
+  3. **Next Turn:** Select GIVE -> KENYA -> Write Message.
+  4. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
-- **Mail Status:** **READY**. "DARK CAVE leads to another road".
+- **Mail Status:** Equipping New Mail.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
