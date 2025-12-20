@@ -4,16 +4,16 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Enter Party Menu & Navigate to Mistral.
-  1. **Insight:** Recent failures (Attempts 4-6) were likely due to **Cursor Reset**.
-     - When re-opening the Party Menu, the cursor resets to Slot 1 (Muscle).
-     - My scripts assumed it stayed on Slot 5 (Mistral).
-     - Result: I opened Muscle's Stats instead of Flying.
-  2. **Plan:**
-     - Current Turn: Press `A` to Enter Party.
-     - Next Turn: Press `Down` x4 to select Mistral, THEN `A` -> Fly.
-     - **Fly Navigation:** Verify "New Bark" -> `Left` -> `Left` (Hypothesis: Violet).
-  3. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
+- **Immediate Action:** Verify Fly Map Start Position.
+  1. **Observation:** Party Menu Cursor is **ON MISTRAL** (Slot 5). It remembered position.
+  2. **Correction:** Reject "Cursor Reset" hypothesis. My previous failures were likely map navigation errors, not menu errors.
+  3. **Plan:**
+     - Press `A` (Open Mistral's Menu).
+     - Press `A` (Select Fly).
+     - **STOP.** Do not move.
+     - **Next Turn:** Read Screen Text to confirm which town is highlighted (likely New Bark).
+     - **Then:** Execute precise navigation based on verified start point.
+  4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
