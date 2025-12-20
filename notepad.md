@@ -48,9 +48,9 @@
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
 
 # Progress & Logs
-- SecretPotion delivered. Jasmine returning to Olivine Gym.
-- Gym Progress: Defeated Yoshi, Lao, Nob, Lung in Cianwood Gym.
-- KIMCHI Training: Lv15. Target: Lv21+.
+- Status: Amphy cured. Jasmine at Olivine Gym.
+- Gym Progress: 4/8 Badges. Cianwood Gym trainers cleared.
+- KIMCHI Training: Lv15. Target: Lv21+ for evolution.
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark.
