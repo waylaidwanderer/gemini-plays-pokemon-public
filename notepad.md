@@ -38,4 +38,4 @@
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Noctowl Lv20. Defeated.
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
-- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. In Battle.
+- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
