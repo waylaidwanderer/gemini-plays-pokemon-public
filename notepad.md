@@ -55,4 +55,5 @@
 - Sayo (Espeon): Battling (Turn #4849).
 - Turn #4851: Calcifer switched in. Espeon used Sand-Attack.
 - Turn #4853: Calcifer used Headbutt (Hit). Espeon used Confusion. Calcifer at 50/76 HP.
-- Turn #4854: Using Headbutt again. Espeon HP is low.
+- Turn #4855: Calcifer used Headbutt (Missed). Espeon used Sand-Attack (Failed).
+- Turn #4856: Using Headbutt again. Espeon HP is low.
