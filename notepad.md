@@ -4,9 +4,8 @@
 - Plan: Train KIMCHI (Oddish) to Lv21+ to evolve into Gloom. Deliver SecretPotion to Jasmine first to gain levels/money along the way.
 - Rematch Criteria: KIMCHI at Lv25+, Calcifer at Lv36+.
 
-# Blackout Recovery & Training Plan (Turn 6708)
+# Blackout Recovery & Training Plan (Started Turn 6708)
 - Status: Blacked out. Party fully healed.
-- Immediate Task: Use PC in Cianwood Center to swap FRITTATA (Lv5) for Blarney (SUDOWOODO Lv20).
 - Pivot: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
 - Training Route: Surf Route 41 -> Route 40. Focus on training KIMCHI.
 - Goal: Reach Lv21+ with KIMCHI.
