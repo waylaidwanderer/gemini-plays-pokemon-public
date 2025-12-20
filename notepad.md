@@ -4,15 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Test Map Navigation (Step 3 - Try UP from Cherrygrove).
-  1. **Observation:** `Up` moved cursor from "New Bark Town" to "Cherrygrove City".
-  2. **Discovery:** The Fly Map navigation seems to use `Up` to traverse the town list (1. New Bark -> 2. Cherrygrove -> ?).
-  3. **Hypothesis:** `Up` again will move to **Violet City**.
-  4. **Action:** Press `Up` ONCE.
-  5. **Next Turn:** Check Screen Text.
-     - If "Violet City": CONFIRM FLY.
-     - If "Cherrygrove City" (no move) or other: Re-evaluate (try `Left`).
-  6. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
+- **Immediate Action:** Test Map Navigation (Step 4 - Verify Violet City).
+  1. **Previous Action:** Pressed `Up` from Cherrygrove City.
+  2. **Hypothesis:** Cursor should now be on **Violet City**.
+  3. **Current Plan:**
+     - **Check Screen Text:**
+       - **IF "Violet City":** Press `A` -> `A` to Confirm Fly.
+       - **IF "Cherrygrove City":** `Up` failed to move. Try `Left`.
+       - **IF Other:** Adjust strategy based on location.
+  4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Mail Status:** Verified Correct (Original Message). Fisher rejected it, so he is WRONG recipient.
