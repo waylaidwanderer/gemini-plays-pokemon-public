@@ -4,16 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Pack to Give Mail.
-  1. **Current State:** Overworld.
-  2. **Action:**
-     - `Start`: Open Menu.
-     - `Down`: Select Pack.
-     - `A`: Enter Pack.
-  3. **Next Turn:** Find FLOWER MAIL -> GIVE -> KENYA.
-  4. **Target:** Fisher at (17, 7).
-- **Route Info:** Route 31.
-- **Mail Status:** Re-equipping correct mail.
+- **Immediate Action:** Exit Menus & Walk to Violet City.
+  1. **Current State:** Stuck in Pack Menu.
+  2. **Action:** Press `B` repeatedly to close all menus.
+  3. **Next Turn:** Walk West to Violet City -> Gatehouse -> Mart.
+  4. **Goal:** Buy Flower Mail.
+- **Route Info:** Route 31 -> Route 31 Gatehouse -> Violet City.
+- **Mail Status:** Out of stock. Must resupply.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
