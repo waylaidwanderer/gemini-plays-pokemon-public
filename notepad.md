@@ -75,3 +75,11 @@
 
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. (Turn #4982)
+
+# Ecruteak Pokecenter 1F (4_3)
+- Nurse: (3, 1) area (behind counter).
+- PC: (9, 1) area.
+- Gym Guide: (7, 1) area.
+- Strategy: Talk to Nurse from (3, 2) to heal.
+- Tile Mechanics Update: COUNTER (Impassable, interact over it).
+- Heal Attempt Start: Turn #5023.
