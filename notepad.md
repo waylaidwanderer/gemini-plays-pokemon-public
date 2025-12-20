@@ -71,3 +71,4 @@
 - Rival Malice Battle (Turn #4945):
   - Malice sent out Haunter (Lv 20).
   - GNEISS (Lv 26) is leading. Strategy: Magnitude.
+  - Turn #4947: GNEISS using Magnitude.
