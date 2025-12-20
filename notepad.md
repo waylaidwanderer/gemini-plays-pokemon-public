@@ -19,7 +19,6 @@
 - Olivine Harbor: Enclosed by buoys at Y=32. This is a dead end for reaching Route 40.
 - Battle Tools: Map-based tools fail during battle due to missing map data.
 - Item Usage: Double-check the bag during battles to avoid using the wrong potion (e.g., Super vs. Hyper).
-- Move Learning: Calcifer learned Flame Wheel but forgot Quick Attack (accidental selection) on Turn 6098.
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
@@ -41,3 +40,4 @@
 - Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
 - Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
+- Calcifer Moveset: Flame Wheel, Headbutt, Smokescreen, Ember. (Turn 6098: Forgot Quick Attack for Flame Wheel).
