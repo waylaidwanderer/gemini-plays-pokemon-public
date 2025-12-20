@@ -47,7 +47,7 @@
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16.
 
 # Gym Progress
-- Start Turn: 6328 (Entering Gym)
+- Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
