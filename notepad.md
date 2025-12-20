@@ -51,7 +51,7 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) is at 26/94 HP.
+- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) is at 94/94 HP.
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
