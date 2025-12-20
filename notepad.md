@@ -20,25 +20,22 @@
 - FLOOR: Traversable (unless `is-warp='true'`). 
 - WALL: Impassable.
 
-# Trainer Rosters
-- Leader Morty: Gastly Lv21 (D), Gengar Lv25 (D), Haunter Lv21 (D), Haunter Lv23 (D). (Turn #5196)
-
-# Gym Strategy: Morty (Ghost/Poison)
-- Weaknesses: Ground, Psychic, Ghost, Dark.
-- Strategy: Use GNEISS with Magnitude. Rock typing resists Shadow Ball (Physical in Gen 2).
-- Invisible Path: Avoid all tiles with `is-warp='true'` or `type='PIT'`. Use find_path_v2 tool.
-
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
-- Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha, Leader Morty: Defeated. (Ecruteak Gym)
+- Sage Ping: Gastly Lv16 x3.
+- Medium Grace: Haunter Lv20 x2.
+- Sage Jeffrey: Haunter Lv22.
+- Medium Martha: Gastly Lv18, Haunter Lv20, Gastly Lv20.
+- Leader Morty: Gastly Lv21, Gengar Lv25, Haunter Lv21, Haunter Lv23. (Turn #5196)
 
 # Lessons Learned
-- Pit Warps: Tiles with `is-warp='true'` or `type='PIT'` in the Ecruteak Gym are pits that return you to the start. They are NOT safe to walk on. (Turn #5131)
-- Switching in Battle: In Gen 2, the 'Will you switch?' prompt after an opponent's Pokémon faints is a YES/NO choice. Selecting 'YES' leads to the party menu. If you change your mind, press 'B' to return to the battle menu. (Turn #5140)
-- Trust the XML: The Mental Map's structural data (`is-warp`, `type`) is the primary source of truth for navigation. (Turn #5144)
-- Party Menu Persistence: The cursor in the party menu when using items often stays on the last selected Pokémon or moves to the next one. Use multiple 'Up' presses to reset to the top for reliable selection. (Turn #5172)
+- Pit Warps: XML `is-warp='true'` or `type='PIT'` are hazards. (Turn #5131)
+- Switching: 'Will you switch?' prompt is YES/NO. (Turn #5140)
+- Trust the XML: Structural data is the primary truth. (Turn #5144)
+- Party Menu: Use 'Up' to reset cursor for reliability. (Turn #5172)
+- Ecruteak Gym Path: Safe path follows trainer sightlines. (Turn #5110)
 
 # Strategy
-- Use `find_path_v2` for overworld navigation.
+- Use `find_path_v2` for navigation.
 - Use battle_strategist_v2 for Gym leaders. (Turn #5199)
-- Verified: (6, 7) is SAFE to walk on despite XML is-warp='true'. It is the only connection between the north and south paths. (Turn #5200)
+- Verified: (6, 7) is SAFE in Ecruteak Gym. (Turn #5200)
