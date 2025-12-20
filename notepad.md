@@ -25,7 +25,7 @@
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
 - Swimmer Susie (Route 41, 23, 19): Psyduck (Lv20) uses Disable, Goldeen (Lv22).
 - Blackbelt Lung (Cianwood Gym): Mankey (Lv23) x2, Primeape (Lv25).
-- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop.
+- Leader Chuck (Cianwood Gym): Primeape (Lv27) uses Leer, Karate Chop. Poliwrath (Lv30).
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
@@ -40,7 +40,7 @@
   - GNEISS (GRAVELER) Lv35: Weak to Fighting and Water.
   - KIMCHI (ODDISH) Lv10: Poison resists Fighting. Needs training.
   - SHUCKIE (SHUCKLE) Lv15: High defense, but weak to Water.
-- Strategy: Train KIMCHI (ODDISH) to Gloom/Vileplume for resistance. Use Calcifer as primary attacker.
+- Strategy: Use Hyper Potion on Calcifer. Use Smokescreen to lower Poliwrath's accuracy. Use Flame Wheel/Headbutt to chip away health.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
@@ -51,7 +51,7 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) coming out. Calcifer (Lv34) at 26/94 HP.
+- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) is at 26/94 HP.
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
