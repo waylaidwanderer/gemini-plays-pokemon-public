@@ -3,15 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Back out of Box menu. Select "WITHDRAW PKMN". Withdraw **Mistral (Pidgey)**. Teach HM02 Fly. Fly to Olivine City.
-- **Quest Update:** Shuckie deposited. Obtained HM02 (Fly). SecretPotion in bag. Chuck Defeated (Storm Badge).
+- **Immediate Plan:** Open Pack. Navigate to TM/HM Pocket. Teach **HM02 Fly** to **Mistral (Pidgey)**. Fly to Olivine City.
+- **Quest Update:** Shuckie deposited. Mistral withdrawn. Obtained HM02 (Fly). SecretPotion in bag. Chuck Defeated.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
   - **Hematite (Pinsir):** Lv 15.
   - **Azurite (Heracross):** Lv 13.
   - **Lapis (Poliwag):** Lv 12. (Surf)
-  - *(Empty Slot - Reserved for Mistral)*
+  - **Mistral (Pidgey):** Lv 13. (To learn Fly)
 - **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
