@@ -4,14 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Recovering from Lapis Error).
-  1. **Error:** Accidentally gave mail to LAPIS (Slot 4) and typed incomplete message "DARK CAVE ".
-  2. **Recovery:**
-     - Exit all menus to Overworld.
-     - Open Pack -> Items.
-     - Give fresh Flower Mail to KENYA (Slot 6).
-     - **CAREFULLY** type message.
-  3. **Lapis Status:** Holding bad mail. Will remove later.
+- **Current Action:** Fix Kenya's Mail (Restarting).
+  1. **Status:** Recovering from menu error.
+  2. **Lapis Status:** Holding junk mail "DARK CAVE ". (Clean up later).
+  3. **Plan:**
+     - Exit to Overworld.
+     - Open Pack -> Items -> Flower Mail.
+     - Select `GIVE` -> KENYA.
+     - Type: "DARK CAVE leads to another road." (With Period).
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
