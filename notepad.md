@@ -19,7 +19,7 @@
 
 # Primary Goal: Deliver SecretPotion to Jasmine
 - Strategy:
-  1. Defeat Eusine in Cianwood City.
+  1. Defeat Eusine in Cianwood City. (Done)
   2. Locate and challenge Chuck for the Storm Badge (enables Fly).
   3. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
 
@@ -42,11 +42,9 @@
 - Sign (8, 32): Cianwood Photo Studio Sign.
 - Sign (8, 24): Poke Seer Sign.
 - Building (5, 17): Likely Poke Seer's House.
+- Building (8, 43): Cianwood Gym.
 - Pokefan M (16, 33): Mentioned breaking rocks north of town.
-- Rock (5, 29): Breakable rock.
-- Rock (10, 27): Breakable rock.
+- Rocks found at: (5, 29), (10, 27), (9, 17), (8, 16), (4, 19).
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
-- Defeated Mysticalman Eusine at (11, 17). He was chasing Suicune.
-- Suicune fled across the waves.
