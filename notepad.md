@@ -28,7 +28,7 @@
 
 # Trainer Teams & Progress
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
-- Beauty Olivia (Route 38): Corsola Lv19.
+- Beauty Olivia (Route 38): Corsola Lv19. Defeated.
 - Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha, Leader Morty: Defeated. (Ecruteak Gym)
 - Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
 - Bird Keeper Toby (Route 38): Doduo Lv15, Doduo Lv16, Doduo Lv17. Defeated.
