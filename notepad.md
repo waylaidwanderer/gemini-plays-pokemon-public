@@ -4,10 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Talk to Fisher.
-  1. **Move:** Right, Down, Right, Right, Up (Face Fisher).
-  2. **Action:** Press A to Deliver Mail.
-  3. **Note:** Fisher is at (17, 7). Standing at (17, 8).
+- **Current Action:** Seeking True Recipient.
+  1. **Discovery:** Fisher at (17, 7) rejected the mail ("This MAIL isn't for me").
+  2. **Hypothesis:** Recipient is likely the man "Guarding Dark Cave" at (32, 7).
+  3. **Plan:** Close text, Navigate East to Dark Cave entrance area.
   4. **Status:** Kenya equipped with Mail ("HI").
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
