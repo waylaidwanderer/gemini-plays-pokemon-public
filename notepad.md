@@ -9,15 +9,15 @@
 - Method: Lead in battles, then switch to stronger Pokemon (GNEISS/Calcifer) if necessary.
 
 # Tile Mechanics
-- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge).
+- Walkable: FLOOR, WATER (Requires Surf HM03 + Fog Badge).
 - Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, WHIRLPOOL.
 - Transitions: LADDER, DOOR, PIT, WARP_CARPET.
-- Special: Counter NPCs (interact with counter), PCs/Switches (face UP from BELOW).
+- Movement: HM02 Fly is strictly for outdoor use.
+- Interaction: Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
-# Lessons Learned & Verified Mechanics
-- Tool Maintenance: find_path_v2 updated (Turn 7323) for improved tree and water-to-land navigation.
-- Fly Mechanics: HM02 Fly is strictly for outdoor use.
-- Battle Analysis: Karate Chop is Fighting-type (verified Turn 7167). Sweet Scent counters evasion boosts like Minimize.
+# Lessons Learned
+- Tool Maintenance: find_path_v2 (v7323) handles trees and water-to-land navigation.
+- Battle Analysis: Karate Chop is Fighting-type. Sweet Scent counters evasion boosts.
 
 # Type Matchups (Observed)
 - Ground vs Water/Poison: Super Effective.
