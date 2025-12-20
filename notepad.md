@@ -29,8 +29,9 @@
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
 
 # Strategy
-- Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently searching 2F north unseen area for the ladder to 3F.
+- Olivine Lighthouse: Systematically explore each floor for upward ladders.
 - Backtrack for 7 standard Berries after reaching Olivine City or finding Jasmine.
+- Plan: Explore the northwest corner of 2F to find the ladder to 3F.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8): Noctowl Lv20. Defeated.
