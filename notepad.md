@@ -64,3 +64,5 @@
 - Menu Navigation: Do not mix directional and action buttons in a standard `press_buttons` call unless using `press_sequence`. Standard sequences will be truncated.
 - Interaction Rule: You must be directly facing an NPC or object to interact. Stand adjacent and face the target tile. For counters, face the counter tile. (Lesson from Turn #4634)
 - Pathfinding Rule: Paths in 2D top-down games are often wider than a single tile. Analyze adjacent tiles (up, down, left, right) to find ways around obstacles. (Lesson from Turn #4603)
+- Route 36: ICE BERRY from tree at (21, 4). (Turn #4713)
+- Arthur of Thursday: Found at (45, 5) on Route 36. Gives Hard Stone? (Need to verify)
