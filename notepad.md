@@ -26,26 +26,23 @@
 - Moomoo Farm: Sick Miltank needs 7 standard BERRY items. (Started Turn 5458)
 - NPC Verification: Do not assume an NPC is static or present based on a single turn's observation; use stun_npc or re-verify if they seem to disappear.
 - Lighthouse Layout: The lighthouse has many split levels and floor warps; exploration is key to finding the correct path up.
+- Battle Strategy: Use battle_strategist_v2 for all trainer battles.
 
 # Berry Knowledge
 - Standard BERRY: 0/7.
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
-- Berry Collection Strategy: Standard berries are found on early routes (R29-R32). I will fly back to Cherrygrove/Violet to check trees once Jasmine is found.
+- Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32.
 
 # Strategy
-- Olivine Lighthouse: Systematically explore each floor for upward ladders. Currently on 4F.
-- 4F Strategy:
-  1. Defeat the Sailor at (7, 14).
-  2. Explore the southern/western section past him to look for a ladder to 5F.
-  3. If no ladder is found, use the floor pits at (16, 9) or (17, 9) to reach the 3F middle section.
+- Olivine Lighthouse: Currently on 4F. Plan: Defeat the Sailor at (7, 14), then explore the southern/western section for a ladder to 5F. If blocked, use pits at (16, 9) or (17, 9).
 
 # Trainer Progress (Olivine Lighthouse)
-- Gentleman Alfred (16, 8, 2F): Noctowl Lv20. Defeated.
-- Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
-- Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
-- Gentleman Preston (13, 5, 3F): Growlithe Lv18, Growlithe Lv18. Defeated Turn 5602.
-- Sailor Kent (?) (7, 14, 4F). Unchallenged.
+- Gentleman Alfred (16, 8, 2F): Defeated.
+- Sailor Huey (11, 3, 2F): Defeated.
+- Bird Keeper Theo (3, 9, 3F): Defeated.
+- Gentleman Preston (13, 5, 3F): Defeated Turn 5602.
+- Sailor Kent (?) (7, 14, 4F): Challenged Turn 5616.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
