@@ -2,10 +2,11 @@
 - HM01 Cut (Hive Badge)
 - HM03 Surf (Dance Theater)
 - HM05 Flash (Zephyr Badge)
-- Badges: Zephyr, Hive, Plain.
+- Badges: Zephyr, Hive, Plain, Fog.
+- Items: TM30 Shadow Ball.
 
 # Party
-- GNEISS (GRAVELER) Lv29: STAB Magnitude.
+- GNEISS (GRAVELER) Lv30: STAB Magnitude.
 - Calcifer (QUILAVA) Lv28: QUICK ATTACK, HEADBUTT, SMOKESCREEN, EMBER.
 - FRITTATA (TOGEPI) Lv5
 - KIMCHI (ODDISH) Lv10
@@ -20,7 +21,7 @@
 - WALL: Impassable.
 
 # Trainer Rosters
-- Leader Morty: Gastly Lv21 (D), Gengar Lv25 (D), Haunter Lv21 (D), Haunter Lv23 (Active). (Turn #5194)
+- Leader Morty: Gastly Lv21 (D), Gengar Lv25 (D), Haunter Lv21 (D), Haunter Lv23 (D). (Turn #5196)
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
@@ -29,7 +30,7 @@
 
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
-- Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha: Defeated. (Ecruteak Gym)
+- Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha, Leader Morty: Defeated. (Ecruteak Gym)
 
 # Lessons Learned
 - Pit Warps: Tiles with `is-warp='true'` or `type='PIT'` in the Ecruteak Gym are pits that return you to the start. They are NOT safe to walk on. (Turn #5131)
