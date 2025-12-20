@@ -1,8 +1,11 @@
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL / WINDOW: Impassable.
+- COUNTER: Impassable; interact with NPC behind it from adjacent tile.
+- MART_SHELF: Impassable.
 - LADDER: Two-way warp.
 - PIT: One-way warp to floor below.
+- WARP_CARPET_DOWN: Exit warp.
 
 # Lessons Learned
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
@@ -22,7 +25,7 @@
 # Map Notes
 - 3F Middle: Reachable via 4F pits (8,3)/(9,3).
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
-- 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North. (16, 7)/(17, 7) are likely balcony exits.
+- 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North.
 
 # Strategy: Get Amphy's Medicine
 - Quest started Turn 5707.
@@ -30,5 +33,7 @@
 - 2. Leave Lighthouse (Complete).
 - 3. Buy Poke Balls at Olivine Mart.
 - 4. Catch a Water-type Pokemon for Surf.
+    - Method: Use Old Rod on Route 40 or Olivine shore.
+    - Team Management: Deposit Cleffa in PC to make room.
 - 5. Surf to Cianwood City (southwest of Olivine).
 - 6. Get medicine from Pharmacy and return.
