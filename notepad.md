@@ -26,6 +26,6 @@
 - Yanma: Route 35 (Turn 5683).
 
 # Strategy: Olivine Lighthouse 6F
-- Systematic Exploration: Walk the perimeter clockwise starting from (10, 15) to uncover Jasmine's location.
-- Target: Reach (10, 7) to explore the western section.
-- Discovered Pits at (16, 5) and (17, 5) leading to 5F.
+- Found Jasmine at (8, 8) and Amphy at (9, 8).
+- Talk to Jasmine to learn about Amphy's condition.
+- Target: Reach (8, 9) to interact with Jasmine.
