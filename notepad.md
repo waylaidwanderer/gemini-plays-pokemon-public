@@ -3,7 +3,7 @@
 - Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
 - Note: Poliwrath is Water/Fighting. GNEISS and Calcifer are weak to Water.
 - Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath. KIMCHI reached Lv18 at Turn 7171 and learned Sleep Powder.
-- Battle Status (Turn 7190): Primeape defeated. Poliwrath is awake (Chuck used Full Heal). Calcifer (Lv35) is in. Strategy: Use Headbutt for neutral damage and flinch chance. Calcifer is holding a Bitter Berry for Dynamic Punch insurance.
+- Battle Status (Turn #7195): Primeape defeated. Poliwrath is awake and used Surf. Calcifer (Lv35) is at 36/96 HP. Strategy: Switching to KIMCHI (Lv18) to resist Water/Fighting and land Sleep Powder.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -16,7 +16,8 @@
 # Lessons Learned
 - Tool Maintenance: find_path_v2 logic for water-to-land transitions must allow movement onto land tiles even when the player is on a water tile (Surfing).
 - Map Markers: Always verify the map_id when placing markers, especially when near map boundaries.
-- Battle Mechanics: Karate Chop is a Fighting-type move in Gen 2 (different from Gen 1).
+- Battle Mechanics: Karate Chop is a Fighting-type move in Crystal (verified turn 7167).
+- Battle Status (Turn #7195): Poliwrath's Surf is Special and hits hard. KIMCHI is our best pivot.
 
 # Type Effectiveness Chart
 - Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
