@@ -42,7 +42,7 @@
     - Individual Behavior: Triggers a map transition to a new location.
 
 ## Lessons Learned
-- Rival sighting on Route 40: Hallucination. Rival does not appear on this route.
+- Rival (Malice): Appears on Route 40 at (14, 15). He is standing on the water.
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
 - Boulder Dialogue: "A POKéMON may be able to move this" indicates Strength is needed.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
@@ -77,6 +77,6 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Training Logs
-- Rival: Confirmed standing on the water at (14, 15) on Route 40. Verified in-game turn 6852.
+- Rival (Malice): Standing on the water at (14, 15) on Route 40. Verified in-game turn 6855.
 - KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6853). EXP: 1947. HP: 18/37.
 - Calcifer Level: 34. EXP: 36428. HP: 89/94.
