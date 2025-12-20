@@ -34,9 +34,9 @@
 - Grass: Super Effective against Water.
 
 # Strategy for Primary Goal (Defeat Chuck)
-- Current Plan: Use KIMCHI (Lv10 ODDISH) to exploit type advantages.
-- Typing: Grass/Poison resists Water and Fighting. Absorb deals Super Effective Special damage.
-- Status: Poliwrath (~50% HP) has -2 Accuracy. Rely on misses to bridge the level gap.
+- Current Plan: Last stand with Ravioli (Lv10) and Frittata (Lv5).
+- Status: Poliwrath (~50% HP) has -2 Accuracy. KIMCHI fainted Turn 6693.
+- Note: If we blackout, we need to restock and train before retrying.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
