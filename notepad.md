@@ -35,6 +35,7 @@
 - Catch Checklist: Magnemite, Miltank, Tauros.
 - Exploration: Check western edge (x=0) for Route 39 transition.
 - Turn 5370: Started Route 39 exploration.
+- Moomoo Farm: The farm's Miltank is sick and won't give milk. Need to investigate.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective.
