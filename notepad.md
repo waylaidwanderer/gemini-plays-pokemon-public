@@ -44,5 +44,10 @@
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
 - **Battle Status:** Muscle, Hematite, Azurite fainted. Garnet (Sleep/Low HP), Lapis (Lv 10), Shuckie (Lv 15). Wipe imminent.
-- **Plan:** Send Shuckie.
-- **Next Steps:** Heal, restock (Super Potions), retry.
+- **Plan:** Send Shuckie. Attack until defeat.
+- **Post-Wipe Plan:**
+  1. Respawn at Cianwood Center.
+  2. Check Pharmacy for Potions.
+  3. If no shop, check town for Mart.
+  4. If no Mart, grind XP/money on wild Pokemon to Surf back? Or just grind XP for rematch.
+  5. **Goal:** Rematch Chuck with full Potion stock.
