@@ -15,9 +15,10 @@
 - Restrictions: HM02 Fly is strictly for outdoor use.
 - Interaction: Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
-# Lessons Learned
-- Tool Maintenance: find_path_v2 (v7323) handles trees and water-to-land navigation.
-- Battle Analysis: Karate Chop is Fighting-type. Sweet Scent counters evasion boosts like Minimize.
+# General Mechanics
+- Battle: Sweet Scent lowers opponent's evasion (counters Minimize).
+- Battle: Karate Chop is a Fighting-type move.
+- Tool: find_path_v2 (v7323) handles trees and water-to-land navigation.
 
 # Type Matchups (Observed)
 - Ground vs Water/Poison: Super Effective.
