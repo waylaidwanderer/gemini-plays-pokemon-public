@@ -31,20 +31,20 @@
 - Standard BERRY: 0/7.
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
-- Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32.
+- Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32, R35, R36, R37, R38, R39. Standard berries are common.
 
 # Strategy
 - Olivine Lighthouse: Currently on 4F.
-- How: Defeat Sailor Kent at (7, 14), then explore the southern/western section for a ladder to 5F. If no ladder is found, use the floor pits to reach the 3F middle section.
+- How: Investigate the potential hole at (16, 7). This likely leads to the inaccessible middle section of 3F.
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8, 2F): Defeated.
 - Sailor Huey (11, 3, 2F): Defeated.
 - Bird Keeper Theo (3, 9, 3F): Defeated.
 - Gentleman Preston (13, 5, 3F): Defeated Turn 5602.
-- Sailor Kent (7, 14, 4F): Krabby Lv18, Krabby Lv20. Defeated Turn 5626.
+- Sailor Kent (7, 14, 4F): Defeated Turn 5626.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
 - 3F Middle Section (Sailor, Item, Ladder): Seems inaccessible from 3F East/West.
-- 4F Warps: (13, 3) Ladder to 3F, (3, 5) Ladder to 3F, (9, 7) Ladder to 3F, (9, 5) Ladder to 5F, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT.
+- 4F Warps: (13, 3) Ladder, (3, 5) Ladder, (9, 7) Ladder, (9, 5) Ladder, (8, 3) PIT, (9, 3) PIT, (16, 9) PIT, (17, 9) PIT, (16, 7) Potential Hole, (17, 7) Potential Hole.
