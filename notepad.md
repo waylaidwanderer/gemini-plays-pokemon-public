@@ -25,7 +25,7 @@
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
 - Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
 - Pokefan Derek (10, 22): Pikachu Lv17. Defeated.
-- Sailor Eugene (13, 29): Poliwhirl Lv17. Currently battling.
+- Sailor Eugene (13, 29): Poliwhirl Lv17, Krabby Lv19. Currently battling.
 
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
@@ -48,11 +48,10 @@
 
 # Strategy & Exploration
 - Berry Search Method: Systematically check fruit trees on all previous routes.
-- Exploration Plan: Reach Olivine City first to unlock the Pokemon Center, then backtrack for Berries.
+- Exploration Plan: Reach Olivine City first, then backtrack for Berries.
 
 # Type Effectiveness (Verified)
 - Rock vs Flying: Super Effective.
 - Normal vs Rock: Not Very Effective.
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
-- Sailor Eugene (13, 29): Currently battling.
