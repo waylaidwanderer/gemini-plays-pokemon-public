@@ -4,16 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Compose Mail Message.
-  1. **Current State:** Entering Mail Composition (Keyboard).
-  2. **Message:** "DARK CAVE leads to another road".
-  3. **Plan:** Type carefuly.
-     - "DARK CAVE" (Caps)
-     - " leads to " (Lowercase)
-     - "another road" (Lowercase)
+- **Immediate Action:** Typing "DARK CAVE ".
+  1. **Current State:** Mail Keyboard (Cursor on 'A').
+  2. **Sequence:** Type "DARK CAVE " (Caps).
+  3. **Next Turn:** Switch to lower case, type "leads to another road".
   4. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
-- **Mail Status:** Writing new mail.
+- **Mail Status:** Writing new mail (Step 1).
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
