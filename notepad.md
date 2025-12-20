@@ -1,5 +1,5 @@
 # Strategy for Primary Goal (Defeat Gym Leader Jasmine)
-- Observation: Jasmine uses Steel-type Pokémon.
+- Observation: Jasmine uses Steel-type Pokémon (2x Magnemite Lv30, Steelix Lv35).
 - Weaknesses: Fire, Fighting, Ground.
 - Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
 - Plan: Lead with Calcifer (Flame Wheel) or GNEISS (Magnitude). Use Blarney's Low Kick as backup.
@@ -72,8 +72,9 @@
 - Connectivity: Always verify if a target coordinate is reachable from the current position using a pathfinding script or by checking the Mental Map for walls.
 
 ## Current Task: Defeat Jasmine
-- Start Turn: 6979
-- Current Position: Olivine City
+- Start Turn: 6994
+- Current Position: Olivine Gym (5, 5)
 - Plan:
-    1. Enter Olivine Gym at (10, 11).
-    2. Challenge and defeat Gym Leader Jasmine using Calcifer or GNEISS.
+    1. Swap Calcifer (QUILAVA) to the lead position and GNEISS (GRAVELER) to the second position.
+    2. Move to (5, 4) and face UP to talk to Jasmine at (5, 3).
+    3. Defeat Jasmine using Calcifer's FLAME WHEEL and GNEISS's MAGNITUDE.
