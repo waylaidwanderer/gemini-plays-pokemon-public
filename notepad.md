@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Open Start Menu -> Pokémon -> Select Mistral -> Use Fly -> Select Olivine City. Deliver SecretPotion to Jasmine at the Lighthouse.
-- **Quest Update:** Mistral learned Fly. Ready to return to Olivine.
+- **Immediate Plan:** Navigate Fly Map (Left -> Up -> Left -> Left) to select Olivine City. Confirm Fly. Deliver SecretPotion to Jasmine at the Lighthouse.
+- **Quest Update:** Mistral learned Fly. Flying to Olivine.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
