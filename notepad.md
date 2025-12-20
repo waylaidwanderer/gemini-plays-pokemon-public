@@ -24,6 +24,7 @@
 - Medium Grace: Haunter Lv20 x2.
 - Sage Jeffrey: Haunter Lv22.
 - Medium Martha (ID 4): Gastly Lv18, Haunter Lv20, Gastly Lv20. (Turn #5128)
+- Leader Morty: Gastly Lv21 (Defeated), Gengar Lv25 (Active). (Turn #5161)
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
@@ -40,10 +41,7 @@
 # Strategy
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Morty.
-- Morty (Gym Leader): Gastly Lv21 (Defeated), Gengar (Upcoming).
-- GNEISS is Cursed (Turn #5155). Switch out to clear. (Turn #5157)
-- Path to Morty: (6, 5) -> (5, 5) -> (5, 4) -> (5, 3) -> (5, 2) -> (5, 1). (Turn #5147)
-- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5159.
+- Primary Goal: Defeat Gym Leader Morty. Active since Turn #5080 (approx. 7:15 PM PST). Current Turn: #5161.
 
 # Lessons Learned
 - Pit Warps: Tiles with `is-warp='true'` or `type='PIT'` in the Ecruteak Gym are pits that return you to the start. They are NOT safe to walk on. (Turn #5131)
