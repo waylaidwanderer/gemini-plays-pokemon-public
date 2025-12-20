@@ -16,7 +16,7 @@
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
-- Strategy: Fly to New Bark Town after finding Jasmine. Check trees R29-R32.
+- Strategy: Check trees R29-R32 for Berries. Note: Fly requires the Storm Badge from Cianwood Gym.
 
 # Trainer Progress (Olivine Lighthouse)
 - Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
@@ -31,9 +31,9 @@
 - Quest started Turn 5707.
 - 1. Explore 6F (Complete).
 - 2. Leave Lighthouse (Complete).
-- 3. Buy Poke Balls at Olivine Mart.
+- 3. Buy Poke Balls at Olivine Mart (Complete).
 - 4. Catch a Water-type Pokemon for Surf.
-    - Method: Use Old Rod on Route 40 or Olivine shore.
-    - Team Management: Deposit Cleffa in PC to make room.
+    - Method: Use Old Rod on Route 40 or Olivine shore at (6, 26).
+    - Team Management: Deposit Cleffa in PC to make room. (Started Turn 5761).
 - 5. Surf to Cianwood City (southwest of Olivine).
 - 6. Get medicine from Pharmacy and return.
