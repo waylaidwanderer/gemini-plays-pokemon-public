@@ -11,6 +11,7 @@
 - FRITTATA (TOGEPI) Lv5
 - KIMCHI (ODDISH) Lv10
 - EGG (CLEFFA) Lv5
+- XFDW (MEOWTH) Lv16: SCRATCH, GROWL, BITE. Caught on Route 38.
 
 # Tile Mechanics
 - PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` or `type='PIT'`. These tiles are impassable.
