@@ -4,13 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Step 4: Rewrite Mail).
-  1. **Status:** Mail taken from Kenya. Need to rewrite and re-attach.
-  2. **Step 1:** Enter PACK (from Main Menu).
-  3. **Step 2:** Find the detached Mail (FLOWER MAIL).
-  4. **Step 3:** Select USE -> Kenya.
-  5. **Step 4:** Write "Dark Cave leads to another road." (Exact).
-  6. **Step 5:** Confirm attachment.
+- **Current Action:** Fix Kenya's Mail (Step 5: Open Pack).
+  1. **Status:** On Overworld. Mail is in Pack (Item Pocket).
+  2. **Step 1:** Open Start Menu (Start).
+  3. **Step 2:** Navigate to PACK (Down -> Down -> A).
+  4. **Step 3:** Find FLOWER MAIL (or similar).
+  5. **Step 4:** Select USE -> Kenya.
+  6. **Step 5:** Write "Dark Cave leads to another road." (Exact).
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
