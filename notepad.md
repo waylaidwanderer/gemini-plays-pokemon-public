@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Access PC. Deposit Shuckie (Shuckle). Withdraw Mistral (Pidgey). Teach HM02 Fly to Mistral. Fly to Olivine City.
+- **Immediate Plan:** Deposit Shuckie (Shuckle) into current Box 3. **Switch to Box 1.** Withdraw Mistral (Pidgey). Teach HM02 Fly to Mistral. Fly to Olivine City.
 - **Quest Update:** Obtained HM02 (Fly). SecretPotion in bag. Chuck Defeated (Storm Badge).
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
