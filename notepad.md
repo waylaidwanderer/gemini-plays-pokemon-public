@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Mail Message & Retest.
-  1. **Hypothesis:** Quest NPC checks Mail content. "HI" caused failure.
-  2. **Plan:** Restore original message ("DARK CAVE leads...").
-  3. **Step 1:** Take Mail from Kenya.
-  4. **Step 2:** Give Mail back -> Write Message.
-  5. **Step 3:** Talk to Cooltrainer (Guard) again.
-  6. **Contingency:** If Cooltrainer fails again, check Gatehouse or Cave Interior.
+- **Current Action:** Take Mail from Kenya.
+  1. **State:** Hematite's menu open.
+  2. **Action:** Close menu (B), Scroll to Kenya (Down x4), Open Menu (A).
+  3. **Next:** Select MAIL -> TAKE.
+  4. **Then:** Go to Pack -> Items -> Flower Mail -> Give -> Kenya -> Write "DARK CAVE leads to another road".
+  5. **Status:** Kenya equipped with Flower Mail ("HI"). Needs correction.
 
 ## Reflection (Turn 8837)
 - **Immediate:** Addressing Mail Message fix.
