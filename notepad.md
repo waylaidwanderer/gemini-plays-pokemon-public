@@ -7,7 +7,7 @@
     - **Badge:** Mineral Badge (Raises Defense).
     - **TM:** TM23 Iron Tail.
     - **Battle:** Muscle (Machoke) swept with Karate Chop. Mistral was sacrificed to reset stats.
-- **Immediate Plan:** Depositing Azurite (Heracross). Then withdraw Kenya (Spearow). Finally, Fly to Violet City.
+- **Immediate Plan:** Azurite deposited. Now withdrawing Kenya (Spearow). Then Fly to Violet City.
 
 - **Quest Update:** Successfully escaped the Lighthouse using Dig. Amphy is cured.
 - **Party Status:**
