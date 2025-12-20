@@ -34,7 +34,7 @@
 
 # Strategy
 - Traverse Route 38 and 39 west towards Olivine City.
-- Catch new species for Pokedex (Magnemite, Miltank, Tauros).
+- Catch new species for Pokedex (Magnemite, Miltank, Tauros, Meowth).
 - Battle all trainers to maintain level parity (Target: Lv30+).
 - Locate Moomoo Farm on Route 39.
 
