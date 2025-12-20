@@ -59,3 +59,5 @@
     - Haunter (Lv 23).
     - Electrode (Lv 25).
 - **Inventory Note:** The Game State inventory list is sorted alphabetically and does NOT reflect in-game bag order. Must inspect bag visually to find item indices.
+- **Battle Log:** Drowzee's Dream Eater deals ~14 damage to Muscle (Lv 37 vs Lv 23). Very manageable.
+- **Mechanics:** In Gen 2, Pokemon wake up at the start of the turn and can attack immediately. Mash Fight/Dig.
