@@ -64,3 +64,6 @@
 4. Locate the Burned Tower (tertiary objective).
 5. Visit the Ecruteak Dance Theater.
 6. Check the Kimono Girls' house (often contains a key item or event).
+
+# Gym Information
+- Ecruteak Gym: Leader Morty. Specialty: Ghost-types.
