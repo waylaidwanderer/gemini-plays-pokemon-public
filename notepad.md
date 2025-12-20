@@ -2,8 +2,8 @@
 - Step 1: Go to Cianwood PC (23, 43). [DONE]
 - Step 2: Swap a party member for ICARUS (PIDGEY). [DONE - Deposited SHUCKIE]
 - Step 3: Teach FLY to ICARUS. [DONE]
-- Step 4: Fly to Ecruteak City. [IN PROGRESS]
-- Step 5: Head east through Route 42 to Mahogany Town.
+- Step 4: Fly to Ecruteak City. [DONE]
+- Step 5: Head east through Route 42 to Mahogany Town. [IN PROGRESS]
 
 # Strategy for KIMCHI Training
 - Route: Route 40/41 (Surf).
