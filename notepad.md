@@ -88,3 +88,7 @@
 - **Correction:** Was stuck in Party Submenu (cursor on CANCEL), not on Map.
 - **Action:** Pressing `B` to reset submenu, then `A` `A` to select Fly.
 - **Next:** Navigate Fly Map to Violet City.
+- **Fly Map Status:** Cursor is on Cherrygrove City.
+- **Issue:** Previous `Up` input did not move cursor to Violet City.
+- **Action:** Retrying `Up` with a longer delay (`slow_press` 1000ms).
+- **Hypothesis:** Previous input was timed out or eaten by the map transition animation.
