@@ -119,3 +119,4 @@
 # Strategy
 - Avoid all tiles with `is-warp='true'` or Pit markers.
 - Use `find_path` to navigate between safe tiles.
+- Use battle_strategist_v2 for Gym trainers and Morty.
