@@ -18,6 +18,9 @@
 - ROCKY (ONIX) Lv6
 - ICARUS (PIDGEY) Lv11
 
+## Party
+- GNEISS (GRAVELER) Lv25: Evolved from Geodude at Lv25 (Turn #4752).
+
 # Strategy & Notes
 - Sudowoodo: Caught (Turn #4593).
 - Badges: Zephyr (Violet), Hive (Azalea), Plain (Goldenrod).
