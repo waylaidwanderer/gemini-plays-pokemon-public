@@ -27,8 +27,7 @@
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
 - 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North.
 
-# Strategy: Get Amphy's Medicine
-- Quest started Turn 5707.
+## Cianwood Medicine Quest Steps
 - 1. Explore 6F (Complete).
 - 2. Leave Lighthouse (Complete).
 - 3. Buy Poke Balls at Olivine Mart (Complete).
@@ -46,5 +45,5 @@
 
 # Discovery Log
 - Turn 5791: Encountered wild Krabby at (6, 25).
-- Catch Tracking (Krabby Lv10): 8 failed Great Ball attempts, 1 failed Lure Ball attempt. Attempt 10 (Great Ball) next.
+- Catch Tracking (Krabby Lv10): 8 failed Great Ball attempts, 1 failed Lure Ball attempt. Switching to weakening strategy with FRITTATA (Lv5).
 - Nickname Plan: Ravioli.
