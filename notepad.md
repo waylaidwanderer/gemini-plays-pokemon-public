@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Back out of Deposit menu. Select "CHANGE BOX". Switch to **Box 1**. Withdraw Mistral (Pidgey). Teach HM02 Fly to Mistral. Fly to Olivine City.
+- **Immediate Plan:** Confirm Box Switch to Box 1. Withdraw **Mistral (Pidgey)** (Slot 2 in Box 1). Close PC. Teach HM02 Fly to Mistral. Fly to Olivine City.
 - **Quest Update:** Shuckie deposited. Obtained HM02 (Fly). SecretPotion in bag. Chuck Defeated.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
@@ -11,7 +11,7 @@
   - **Hematite (Pinsir):** Lv 15.
   - **Azurite (Heracross):** Lv 13.
   - **Lapis (Poliwag):** Lv 12. (Surf)
-  - *(Empty Slot)*
+  - *(Empty Slot - Reserved for Mistral)*
 - **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
