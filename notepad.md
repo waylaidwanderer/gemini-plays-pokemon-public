@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Switch to Party Menu).
-  1. **Status:** Error "Please remove MAIL first" visible.
-  2. **Step 1:** Exit Pack context (B x4).
-  3. **Step 2:** Enter Party Menu (Up -> A).
-  4. **Step 3:** Select Kenya (Down x5 -> A).
-  5. **Step 4:** Select TAKE MAIL.
+- **Current Action:** Fix Kenya's Mail (Recover from Surf Prompt).
+  1. **Status:** Accidentally interacted with water (Surf prompt).
+  2. **Step 1:** Cancel Surf (A).
+  3. **Step 2:** Open Start Menu (Start).
+  4. **Step 3:** Navigate to POKEMON (Verify cursor first).
+  5. **Step 4:** Select Kenya -> TAKE MAIL.
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
