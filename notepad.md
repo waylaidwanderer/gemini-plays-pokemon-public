@@ -48,3 +48,5 @@
 - **Hypothesis:** Purchase was cancelled or failed.
 - **Action:** Returning to Violet City Mart to buy it again.
 - **Quest Status:** Kenya is in party. Just need the mail.
+- **Purchase Error Analysis:** Reviewed previous turn history. After selecting "1" Flower Mail, I likely pressed 'B' during the confirmation prompt ("That will be ¥50. OK?"), cancelling the transaction.
+- **Correction Plan:** This time, I must press 'A' *twice* after selecting the item: once to confirm quantity (1), and once to confirm the purchase.
