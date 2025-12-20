@@ -50,23 +50,14 @@
 ## Burned Tower
 - Malice: Haunter (Lv 20), Croconaw (Lv 22), Zubat (Lv 20), Magnemite (upcoming)
 
-# Burned Tower 1F (3_13)
-- Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
-- Eusine (ID 2) at (9, 14): Searching for Suicune.
-- Morty (ID 4) at (14, 15): Ecruteak Gym Leader.
-- Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5), (5, 5), (5, 6), (4, 6).
-
-# Next Steps
-- Youngster at (11, 13) mentioned rampaging Pokémon at Lake of Rage (Turn #4900).
-
-# Lessons Learned
-- Always check for `is-warp="true"` in map XML before planning paths in dangerous areas like Burned Tower.
-- Use `find_path` tool to avoid manual coordinate errors.
-- Mark all holes/warps immediately to assist pathfinding logic.
-- GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
+# Burned Tower B1F (3_14)
+- Ladder to 1F: (10, 8).
+- Entry point from 1F hole: (10, 9).
+- Goal: Find and release legendary beasts.
 
 # Exploration Targets
-- Unseen tiles adjacent to walkable: (15, 0), (16, 0), (18, 3-8).
-- Defeated Malice in Burned Tower (Turn #4982).
-- Fell through hole at (10, 9) on 1F to B1F (10, 9).
-- Legendary beasts mentioned by Malice. Release them to progress.
+- Reachable unseen tiles on B1F: (To be determined by tool).
+- Unseen tiles adjacent to walkable (1F): (15, 0), (16, 0), (18, 3-8).
+
+# Defeated Trainers
+- Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18. (Turn #4982)
