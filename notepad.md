@@ -4,12 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Fly to Violet City from New Bark Town.
-  1. Current Map Cursor: New Bark Town.
-  2. Input: `Left` (to Cherrygrove) -> `Up` (to Violet City).
-  3. Select: `A`.
-  4. Confirm: `A`.
-  5. On Arrival: Walk East to Route 31.
+- **Immediate Action:** Open Start Menu to Fly.
+  1. Press `Start` to open the menu.
+  2. Verify cursor position (likely on POKEMON or POKEDEX).
+  3. Next Turn: Select Mistral -> Fly -> Violet City (Up from Cherrygrove).
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
