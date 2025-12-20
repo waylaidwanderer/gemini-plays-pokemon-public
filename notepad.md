@@ -3,6 +3,7 @@
 - WALL: Impassable.
 - LADDER: Two-way warp.
 - PIT: One-way warp to floor below.
+- WINDOW: Impassable background object.
 
 # Lessons Learned
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
@@ -26,4 +27,4 @@
 
 # Strategy: Olivine Lighthouse 6F
 - Systematic Exploration: Walk the perimeter clockwise starting from (10, 15) to uncover Jasmine's location.
-- Target: Reach (17, 11) to explore the eastern perimeter.
+- Target: Reach (17, 7) to explore the northeastern corner.
