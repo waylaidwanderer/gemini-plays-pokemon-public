@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to the Pokémon Center (13, 21) to heal. Then challenge the Olivine Gym (10, 11).
+- **Immediate Plan:** Challenge the Olivine Gym (10, 11). Jasmine uses Steel-types, so Muscle (Fighting) and Garnet (Fire) will be key.
 - **Quest Update:** Successfully escaped the Lighthouse using Dig. Amphy is cured.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
