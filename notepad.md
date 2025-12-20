@@ -49,3 +49,6 @@
 
 # Ecruteak City Lore
 - History: Used to have two towers, one in the east and one in the west. (Turn #4764)
+
+# Ecruteak City Events
+- Bill met in PC: Time Capsules will be available at all PCs tomorrow. Bill is heading back to Goldenrod. (Turn #4773)
