@@ -41,8 +41,8 @@
 - Sign (19, 47): Cianwood Pharmacy Sign.
 - Sign (8, 32): Cianwood Photo Studio Sign.
 - Sign (8, 24): Poke Seer Sign.
-- Building (5, 17): Likely Poke Seer's House.
-- Building (8, 43): Cianwood Gym.
+- Building (5, 17): Poke Seer's House. Confirmed Calcifer met in New Bark Town, Day, Lv5.
+- Building (8, 43): Cianwood Gym (Confirmed).
 - Pokefan M (16, 33): Mentioned breaking rocks north of town.
 - Rocks found at: (5, 29), (10, 27), (9, 17), (8, 16), (4, 19).
 
