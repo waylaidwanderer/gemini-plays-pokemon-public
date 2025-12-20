@@ -8,7 +8,7 @@
 - Status: Blacked out. Party fully healed.
 - Pivot: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
 - Training Route: Surf Route 41 -> Route 40. Focus on training KIMCHI.
-- Goal: Reach Lv21+ with KIMCHI.
+- Goal: Reach Lv21+ with KIMCHI. (Current: Lv11)
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
@@ -60,4 +60,4 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
-- Rival (OLIVINE_RIVAL): Reported at (20, 26) on Route 41.
+- Rival (OLIVINE_RIVAL): Sighted at (32, 30) on Route 41 (Turn 6760). Previously at (20, 26).
