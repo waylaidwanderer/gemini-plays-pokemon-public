@@ -7,19 +7,18 @@
 - Training Route: Surf Route 41 -> Route 40.
 - KIMCHI (ODDISH) Level: 14
 - Task: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
-- Target: Lass at (11, 13) on Route 40.
-- Progress: Navigating to (12, 13) to battle. Interrupted by wild Tentacool at (12, 17).
 
 # Strategy for Secondary Goal (Deliver SecretPotion)
 - Method: Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
 
 # Game Mechanics & Systems
 ## Tile Mechanics
-- WATER: Traversable while surfing (requires HM03 and Fog Badge).
+- WATER: Traversable while surfing (requires HM03 and Fog Badge). Verified: Can move in all directions.
+- FLOOR: Standard traversable ground. Verified: Can move in all directions.
+- WALL: Impassable barrier.
 - BUOY: Impassable wall-like barrier in water.
 - WHIRLPOOL: Impassable water hazard. Requires specific HM (Whirlpool) to cross.
-- FLOOR: Standard traversable ground.
-- WALL / WINDOW / BUOY / ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
+- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
 - COUNTER: Impassable; interact with NPC behind it from adjacent tile.
 - BOULDER: Impassable; requires HM04 Strength to move.
 - PC: Interactable object for Pokémon/Item storage.
