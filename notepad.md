@@ -19,6 +19,7 @@
 - BOULDER: Impassable. Individual behavior: Cannot be walked on. Mechanics: Requires HM04 Strength to move.
 - PC: Interactable object for Pokémon/Item storage.
 - WARP: Leads to a different map or area.
+- PIT: Individual behavior: Impassable hazard. Mechanics: A warp tile that causes the player to fall to a specific coordinate on the floor below. Verified: Acts as a warp.
 
 ## Lessons Learned
 - Strength (HM04): Obtained from the Sailor in Olivine Cafe (1, 7).
