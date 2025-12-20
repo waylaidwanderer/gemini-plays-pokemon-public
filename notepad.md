@@ -68,3 +68,9 @@
 - Gym Leader Jasmine is at the LIGHTHOUSE tending to a sick Pokemon.
 - The Gym is currently empty.
 - Priority: Find the Lighthouse to progress.
+
+# Olivine Pokecenter Discoveries
+- Nurse Joy at (3, 1).
+- Teacher at (7, 1).
+- Fisher at (2, 3).
+- Fishing Guru at (8, 4).
