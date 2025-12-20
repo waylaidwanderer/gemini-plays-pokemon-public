@@ -4,12 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Step 9: Reset & Retry Take Mail).
-  1. **Status:** Screen text was empty, implying menu state uncertainty. Resetting to Overworld.
-  2. **Step 1:** Return to Overworld (B x5).
-  3. **Step 2:** Open Start Menu (Start).
-  4. **Step 3:** Go to Party -> Kenya -> Mail -> Take.
-  5. **Step 4:** Confirm removal.
+- **Current Action:** Fix Kenya's Mail (Step 9: Execute Take Mail).
+  1. **Status:** Navigating menus to take mail off Kenya.
+  2. **Step 1:** Select POKEMON (Up -> A).
+  3. **Step 2:** Select Kenya (Down x5 -> A).
+  4. **Step 3:** Select MAIL (Down x3 -> A).
+  5. **Step 4:** Select TAKE (Down -> A).
+  6. **Step 5:** Handle "Send to PC?" prompt in next turn.
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
