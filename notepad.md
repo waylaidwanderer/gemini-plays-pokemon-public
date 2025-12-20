@@ -1,43 +1,31 @@
 # Tile Mechanics
-- FLOOR: Traversable. Standard ground for walking.
-- WALL / WINDOW: Impassable. Structural barriers.
-- COUNTER: Impassable; interact with NPC behind it from adjacent tile (e.g., Nurse Joy, Mart Clerk).
-- MART_SHELF: Impassable. Contains items for sale.
-- LADDER: Two-way warp between floors.
-- PIT: One-way warp to the floor below.
-- WARP_CARPET_DOWN: Exit warp typically leading outside or to a different map section.
-- WATER: Traversable only while using Surf. Requires a Pokémon with the move Surf and the Fog Badge (obtained from Morty).
-- BUOY: Impassable water barrier. Verified at (13, 32) in Olivine City and (19, 14-17) on Route 40.
-- WHIRLPOOL: Impassable water hazard. Requires HM06 (Whirlpool) to cross. Observed on Route 41.
+- FLOOR: Traversable standard ground.
+- WALL / WINDOW / BUOY / ROCK: Impassable barriers.
+- COUNTER: Impassable; interact with NPC behind it from adjacent tile.
+- WATER: Traversable only while surfing. Requires Surf and Fog Badge.
+- WHIRLPOOL: Impassable water hazard. Requires HM06 (Whirlpool).
 
 # Lessons Learned
+- Menu Precision: Slow down during move learning and item usage to avoid accidental deletions (e.g., Quick Attack on Turn 6098) or wrong item selection. Double-check before confirming.
+- Route 41 Navigation: Buoy lines and islands create a maze; Row 29 is a reliable corridor west.
 - Ecruteak Gym Path: (3,9)->(3,7)->(6,7)->(6,5)->(7,5)->Martha; (6,5)->(5,5)->(5,1)->Morty.
-- Moomoo Farm: Sick Miltank needs 7 standard BERRY items to recover and produce milk.
-- Section Connectivity: 4F sections connected by gaps at y=2/3 (East-Middle) and y=14 (Middle-West).
-- Descent Strategy: Use pits to quickly reach lower floors. 4F (16, 9)/(17, 9) are PITs to 3F.
-- Visuals vs. Collision: Visual appearance of tiles (e.g., ground vs wall) can be misleading. Always verify collision types in the Mental Map before planning paths.
-- Olivine Harbor: Enclosed by buoys at Y=32. This is a dead end for reaching Route 40.
-- Battle Tools: Map-based tools fail during battle due to missing map data.
-- Item Usage: Double-check the bag during battles to avoid using the wrong potion (e.g., Super vs. Hyper).
+- Moomoo Farm: Sick Miltank needs 7 standard BERRY items.
 
-# Berry Knowledge
-- Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
-- Strategy: Check trees R29-R32 for Berries. Note: Fly requires the Storm Badge from Cianwood Gym.
+# Trainer Progress (Route 41 Defeated)
+- George (46, 8), Kara (44, 28), Kirk (32, 30), Denise (27, 34), Berke (20, 28).
 
-# Trainer Progress
-- Olivine Lighthouse Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
-- Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28), Swimmer Kirk (32, 30), Swimmer Denise (27, 34), Swimmer Berke (20, 28).
+# Primary Goal: Deliver SecretPotion to Jasmine
+- Mission Started: Turn 5863.
+- Arrived Cianwood: Turn 6127.
+- Strategy:
+  1. Explore Cianwood City (west of Route 41) to find land.
+  2. Locate the Pharmacy and obtain SecretPotion.
+  3. Challenge Cianwood Gym (Leader Chuck) for the Storm Badge (enables Fly).
+  4. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
+
+# Party Status
+- Calcifer (QUILAVA) Lv31: Flame Wheel, Headbutt, Smokescreen, Ember.
+- GNEISS (GRAVELER) Lv34: Magnitude, Defense Curl, Rock Throw, Rollout.
 
 # PC Storage (Box 1)
-- Blarney (SUDOWOODO): Lv20
-- ROCKY (ONIX): Lv6
-- ICARUS (PIDGEY): Lv11
-- EGG (CLEFFA): Lv5
-
-# Primary Goal Strategy: Deliver SecretPotion to Jasmine
-- Current Objective: Surf west across Route 41 to reach Cianwood City.
-- Next Step: Locate the Pharmacy in Cianwood and obtain the SecretPotion.
-- Return Strategy: Use Surf or Fly (if Storm Badge obtained) to return to Olivine City.
-- Final Step: Deliver medicine to Jasmine at Olivine Lighthouse 6F.
-- Recovery: Use Potions/Ethers or visit Pokémon Centers as needed.
-- Calcifer Moveset: Flame Wheel, Headbutt, Smokescreen, Ember. (Turn 6098: Forgot Quick Attack for Flame Wheel).
+- Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
