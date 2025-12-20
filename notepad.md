@@ -4,14 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Start Menu to Reset Fly Attempt.
-  1. **Status:** Failed multiple blind Fly attempts. Currently in New Bark Town (Overworld).
+- **Immediate Action:** Enter Party Menu & Navigate to Mistral.
+  1. **Insight:** Recent failures (Attempts 4-6) were likely due to **Cursor Reset**.
+     - When re-opening the Party Menu, the cursor resets to Slot 1 (Muscle).
+     - My scripts assumed it stayed on Slot 5 (Mistral).
+     - Result: I opened Muscle's Stats instead of Flying.
   2. **Plan:**
-     - Open Start Menu (Current Turn).
-     - Enter Party -> Select Mistral -> Fly.
-     - **CRITICAL:** Do not move cursor blindly. Read screen to confirm "NEW BARK TOWN".
-     - Then press `Left`, wait, read screen.
-     - Then press next direction.
+     - Current Turn: Press `A` to Enter Party.
+     - Next Turn: Press `Down` x4 to select Mistral, THEN `A` -> Fly.
+     - **Fly Navigation:** Verify "New Bark" -> `Left` -> `Left` (Hypothesis: Violet).
   3. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
