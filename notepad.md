@@ -45,6 +45,7 @@
 - **Route 41:** Defeated Swimmer Wendy at (9, 50). Continuing West towards Cianwood.
 - **Cianwood City:** Arrived.
     - **Pokemon Center:** Located at (23, 43).
+    - **Pharmacy:** Located at (15, 47).
     - **Lugia Speech House:** Located at (15, 37).
     - **Mania's House:** Located at (17, 41). Mania offered a Pokémon (Shuckie) but party is full. Need to return with space.
     - **Gym:** Leader Chuck is here.
