@@ -52,3 +52,10 @@
 
 # NPC Locations
 - Rival (OLIVINE_RIVAL): Reported at (20, 26) on Route 41.
+
+# Blackout Recovery & Training Plan (Turn 6700)
+- Status: Blacked out against Gym Leader Chuck.
+- Immediate Task: Heal party at Cianwood Pokémon Center.
+- Pivot: Training is mandatory. KIMCHI (Oddish) needs to reach at least Lv21 (Gloom) for better stats and moves against Chuck's Poliwrath.
+- Route: Surf back to Olivine City to deliver SecretPotion to Jasmine. Use the sea routes (40, 41) to train KIMCHI against wild Water Pokémon.
+- Goal: Reach Lv25+ with KIMCHI before re-challenging Chuck.
