@@ -2,12 +2,7 @@
 - Observation: Chuck uses Fighting-type Pokémon (Primeape Lv27, Poliwrath Lv30).
 - Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
 - Note: Poliwrath is Water/Fighting. GNEISS and Calcifer are weak to Water.
-- Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath.
-
-# Strategy for KIMCHI Training
-- Route: Route 40/41 (Surf).
-- Method: Lead with KIMCHI, switch to Calcifer/GNEISS for shared XP.
-- Training Goal Started: Turn 7110. KIMCHI reached Lv18 at Turn 7171.
+- Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath. KIMCHI reached Lv18 at Turn 7171 and learned Sleep Powder.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -20,12 +15,16 @@
 # Lessons Learned
 - Tool Maintenance: find_path_v2 logic for water-to-land transitions must allow movement onto land tiles even when the player is on a water tile (Surfing).
 - Map Markers: Always verify the map_id when placing markers, especially when near map boundaries.
-- Battle Mechanics: Karate Chop is a Fighting-type move in Gen 2 (verified via Primeape vs Oddish).
+- Battle Mechanics: Karate Chop is a Fighting-type move in Crystal (different from GS).
 
 # Type Effectiveness Chart
 - Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
 - Rollout (Rock) vs Mantine (Water/Flying): Super effective.
-- Fighting (Primeape's Karate Chop) vs Poison (Oddish): Not very effective.
+- Fighting (Karate Chop) vs Poison (Oddish): Not very effective.
+- Fighting (Karate Chop) vs Rock/Ground (Graveler): Super effective.
+- Water vs Fire (Quilava): Super effective.
+- Water vs Rock/Ground (Graveler): 4x Super effective.
+- Grass vs Water/Fighting (Poliwrath): Super effective.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
