@@ -4,14 +4,16 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Start Menu -> Pack.
-  1. **Current State:** Overworld, Menu Closed.
-  2. **Action:** Press `Start` to open menu.
-  3. **Next Turn:** Navigate to PACK -> ITEMS -> FLOWER MAIL -> GIVE -> KENYA.
-  4. **Text to Write:** "DARK CAVE leads to another road".
-  5. **Target:** Fisher at (17, 7).
+- **Immediate Action:** Navigate Pack to Flower Mail.
+  1. **Current State:** Inside Pack (Items Pocket).
+  2. **Goal:** Find FLOWER MAIL (7th item in list).
+  3. **Plan:**
+     - Scroll Down until `FLOWER MAIL` is selected.
+     - Press `A` -> `GIVE` -> `KENYA`.
+     - Write Message.
+  4. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
-- **Mail Status:** Kenya has NO mail. Must equip from Pack.
+- **Mail Status:** Equipping now.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
