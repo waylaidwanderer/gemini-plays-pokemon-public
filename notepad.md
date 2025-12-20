@@ -35,3 +35,4 @@
 
 # Trainer Progress (Olivine Lighthouse)
 - Gentleman Alfred (16, 8): Noctowl Lv20. Defeated.
+- Sailor Huey (11, 3): Poliwag Lv18, Poliwhirl Lv18. Defeated.
