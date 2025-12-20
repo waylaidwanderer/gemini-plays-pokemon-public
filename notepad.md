@@ -53,8 +53,8 @@
 # Burned Tower B1F (3_14)
 - Ladder to 1F: (10, 8) and (7, 15).
 - Entry point from 1F hole: (10, 9).
-- Legendary Beasts: Found at Raikou (7,3), Entei (12,3), Suicune (10,4). Release them to progress.
-- Goal: Find and release legendary beasts.
+- Legendary Beasts: Awakened and released from B1F (Turn #4995). Raikou, Entei, and Suicune fled the tower.
+- Goal: Explore B1F for items, then return to Ecruteak Gym.
 
 # Exploration Targets
 - Reachable unseen tiles on B1F: (To be refreshed by tool).
