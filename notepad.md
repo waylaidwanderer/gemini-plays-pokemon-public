@@ -32,7 +32,7 @@
 - Ecruteak Gym Path: Safe path follows trainer sightlines; (6, 7) is a verified safe connection.
 
 # Strategy
-- Navigate to Route 38 via the western exit of Ecruteak City.
-- Prepare for Route 38 by exploring for trainers and items.
-- Monitor Pokémon health and PP during route traversal.
-- Use battle_strategist_v2 for significant trainer battles.
+- Navigate to Route 38 via (0, 19) in Ecruteak City.
+- Explore Route 38 for trainers and items on the way to Olivine City.
+- Maintain party health and monitor PP during route progression.
+- Use battle_strategist_v2 for Gym leaders and significant trainer encounters.
