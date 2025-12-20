@@ -4,11 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Fly Map (Step-by-Step).
-  1. **Current State:** Party Menu, Cursor Verified on Mistral (Slot 5).
-  2. **Action:** Press `A` (Open Submenu) -> `A` (Select Fly).
-  3. **Goal:** Confirm Fly Map opens in the next turn.
-- **Reasoning:** Previous full sequences failed (likely timing/input drops). Switching to verified single steps.
+- **Immediate Action:** Navigate Fly Map to Violet City.
+  1. **Current State:** Fly Map Open (Cursor on Cherrygrove).
+  2. **Sequence (Slow Press):**
+     - `Up`: Move cursor to Violet City.
+     - `A`: Select Violet City.
+     - `A`: Confirm Fly.
+  3. **Next Turn:** Arrive in Violet City -> Walk East to Route 31.
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Previous Attempt:** Delivered to Fisher (Rejected: "This MAIL isn't for me").
