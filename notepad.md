@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Re-ascend the Ladder at (5, 3) to 3F. (Realized I missed exploring the path past the Sailor on 3F, which likely leads to the next ladder at 9,5).
+- **Immediate Plan:** Ascend the Ladder at (5, 3) to 3F. Explore 3F to find the path upward (likely needing to fight trainers I skipped or find a window/drop).
 - **Quest Update:** Backtracking to 3F.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
