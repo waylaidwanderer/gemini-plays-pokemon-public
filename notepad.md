@@ -28,3 +28,11 @@
 - Abra (Psychic): Bug, Ghost, Dark.
 - Growlithe (Fire): Water, Ground, Rock.
 - Snubbull (Normal): Fighting.
+
+# Cianwood Gym Boulder Puzzle (Hypothesis)
+1. Observation: Boulders at (3, 7), (4, 7), (5, 7) block the central path.
+2. Hypothesis: Pushing the side boulders (3, 7 and 5, 7) up one tile, then pushing the middle boulder (4, 7) to the side (left or right) will open a gap to reach the Gym Leader.
+3. Plan:
+   - Move to (3, 8), face UP, press A to push boulder at (3, 7) to (3, 6).
+   - Move to (5, 8), face UP, press A to push boulder at (5, 7) to (5, 6).
+   - Move to (4, 8), face UP, press A to push boulder at (4, 7) to (3, 7) or (5, 7).
