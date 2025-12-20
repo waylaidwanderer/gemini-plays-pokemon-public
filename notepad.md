@@ -1,10 +1,12 @@
 # Strategy for Primary Goal (Defeat Gym Leader Chuck)
+- Status: COMPLETED (Turn 7212).
 - Battle started at Turn 7161.
-- Observation: Chuck uses Fighting-type Pokémon (Primeape Lv27, Poliwrath Lv30).
-- Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
-- Note: Poliwrath is Water/Fighting. GNEISS and Calcifer are weak to Water.
-- Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath. KIMCHI reached Lv18 at Turn 7171 and learned Sleep Powder.
-- Battle Status (Turn #7211): Primeape defeated. Poliwrath is asleep. Calcifer (Lv35, 36/96 HP) is in. Strategy: Using Headbutt while Poliwrath is asleep to deal physical damage. Calcifer landed a critical hit in turn 7210.
+- Outcome: Calcifer (Lv36) evolved into Typhlosion after defeating Poliwrath. KIMCHI reached Lv18. Obtained Storm Badge and TM01 (DynamicPunch).
+
+# Strategy for KIMCHI Training
+- Route: Route 40/41 (Surf).
+- Method: Lead with KIMCHI, switch to Calcifer/GNEISS for shared XP.
+- Training Goal Started: Turn 7110. Goal: Lv21 for evolution into Gloom.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -24,7 +26,7 @@
 - Rollout (Rock) vs Mantine (Water/Flying): Super effective.
 - Fighting (Karate Chop) vs Poison (Oddish): Not very effective.
 - Fighting (Karate Chop) vs Rock/Ground (Graveler): Super effective.
-- Water vs Fire (Quilava): Super effective.
+- Water vs Fire (Quilava/Typhlosion): Super effective.
 - Water vs Rock/Ground (Graveler): 4x Super effective.
 - Grass vs Water/Fighting (Poliwrath): Super effective.
 
@@ -38,4 +40,4 @@
 
 # Cianwood Gym Boulder Puzzle (Solved)
 - Observation: Boulders at (3, 7), (4, 7), (5, 7) block path.
-- Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side.
+- Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side. Final positions: Obj 7 (3,6), Obj 8 (3,7), Obj 9 (5,6).
