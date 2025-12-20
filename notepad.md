@@ -37,3 +37,10 @@
     - Team Management: Deposit Cleffa in PC to make room. (Started Turn 5761).
 - 5. Surf to Cianwood City (southwest of Olivine).
 - 6. Get medicine from Pharmacy and return.
+
+# PC Storage
+- Box 1: Sudowoodo (Lv20), Onix (Lv6), Pidgey (Lv11).
+
+# Discovery Log
+- Turn 5764: Nurse Joy healed the party. Heading to find the PC to deposit Cleffa.
+- Turn 5764: Reflection performed. Found that PC location in Olivine Center 1F is currently unknown/unseen.
