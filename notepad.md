@@ -23,7 +23,7 @@
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 - Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha, Leader Morty: Defeated. (Ecruteak Gym)
-- Beauty Valerie: Hoppip (D), Skiploom (Upcoming). (Turn #5241)
+- Beauty Valerie: Hoppip (D), Skiploom (Active).
 
 # Lessons Learned
 - Pit Warps: XML `is-warp='true'` or `type='PIT'` are hazards in Ecruteak Gym.
@@ -36,11 +36,9 @@
 # Strategy
 - Traverse Route 38 and 39 west towards Olivine City.
 - Catch new species (Magnemite, Miltank, Tauros, Meowth).
-- Battle all trainers for levels (Target: Lv30+).
-- Visit Moomoo Farm on Route 39.
+- Battle all trainers to maintain level parity (Target: Lv30+).
+- Locate Moomoo Farm on Route 39.
 
 # Tool Management
 - find_path_v2: Set autopress_buttons=false for overworld. Includes overrides for safe warps. (Turn #5240 fix)
-- Tool Usage: Always include a `commit_message` when updating tools with `define_tool`. (Turn #5241)
-- Spatial Awareness: Always verify current coordinates before making navigation claims to avoid confusion. (Turn #5242)
-- Battle Strategy: When facing Grass types with GNEISS, switch to Calcifer immediately to avoid 4x super-effective hits. (Turn #5243)
+- battle_strategist_v2: Use exact name for calls. (Turn #5245 fix)
