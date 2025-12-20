@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Explore 5F Left Section for pits/paths. If none, return to 5F Right Section via 4F and try the other pit (17, 7).
-- **Quest Update:** The Left Section of 5F appears to be a dead end so far. Need to verify.
+- **Immediate Plan:** Return to 4F via ladder at (3, 5). Then navigate to the center ladder at (9, 7) on 4F to reach the 5F Center.
+- **Quest Update:** 5F Left Section is a dead end (Item Cache). Heading back to 4F to find the route to the center.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
