@@ -53,7 +53,7 @@
     - **Mania's House:** Located at (17, 41). Mania gave Shuckie (Lv 15).
     - **Poke Seer's House:** Located at (5, 17).
     - **Suicune Event:** Encountered Suicune at (10, 14). It ran away. Defeated Eusine.
-    - **Gym:** Leader Chuck is here. Location likely (5, 17).
+    - **Gym:** Leader Chuck is here. Location unconfirmed, likely in the unexplored middle section (around y=25-30).
 - **Eusine Battle:**
     - Drowzee (Lv 23). Used Hypnosis.
     - Haunter (Lv 23).
