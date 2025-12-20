@@ -14,3 +14,5 @@
 - 3F Middle: Reachable via 4F pits (8,3)/(9,3).
 - 5F Warps: (9,7) Ladder to 4F, (9,15) Ladder (destination unknown).
 - Ernest (5F): Defeated.
+- Turn 5683: Defeated Sailor Ernest. Heading to (6, 15) for item.
+- Yanma swarm on Route 35 (Arnie's call).
