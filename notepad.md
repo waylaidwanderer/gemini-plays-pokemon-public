@@ -12,7 +12,7 @@
 - EGG (CLEFFA) Lv5
 
 # Tile Mechanics
-- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'`.
+- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'`. Impassable for navigation planning. (Turn #5131)
 - STATUE: Impassable background object.
 - COUNTER: Impassable, interact over it.
 - LEDGE_HOP: One-way traversable.
@@ -39,14 +39,5 @@
 # Strategy
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Gym trainers and Morty.
-- Path to Martha: (3, 9) -> (3, 8) -> (3, 7) -> (4, 7) -> (5, 7) -> (6, 7) -> (6, 6) -> (6, 5) -> (7, 5). (Turn #5110)
 - PIT tiles (is-warp="true") act as warps that return the player to the start of the gym. (Turn #5131)
-- Primary Goal: Defeat Gym Leader Morty (Active since Turn #5080 approx).
-
-# Tile Mechanics
-- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'`. Impassable for navigation planning.
-- STATUE: Impassable background object.
-- COUNTER: Impassable, interact over it.
-- LEDGE_HOP: One-way traversable.
-- FLOOR: Traversable (unless `is-warp='true'`). 
-- WALL: Impassable.
+- Primary Goal: Defeat Gym Leader Morty (Active since Turn #5080, ~7:15 PM PST). Current Turn: #5134.
