@@ -85,3 +85,5 @@
 - **Battle Log:** Switching Muscle in. Haunter is low HP (Curse + Ember).
 - **Matchup:** Muscle (Dig) vs Haunter (Poison/Ghost). Ground is 2x effective.
 - **Threats:** Hypnosis. Have 2 Awakenings.
+- **Action:** Navigating party menu to Switch Muscle (Slot 1) in.
+- **Sequence:** B (Cancel Shuckie menu) -> Up x5 (Select Muscle) -> A (Select) -> A (Switch).
