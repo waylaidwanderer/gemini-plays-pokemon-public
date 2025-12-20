@@ -26,6 +26,7 @@
 # Trainer Progress
 - Olivine Lighthouse Defeated: Alfred (2F), Huey (2F), Theo (3F), Preston (3F), Kent (4F), Connie (4F), Terrell (3F Middle), Ernest (5F).
 - Route 41 Defeated: Swimmer George (46, 8), Swimmer Kara (44, 28).
+- Current Battle: Swimmer Kirk (32, 30). Calcifer (Lv 30) vs Gyarados (Lv 20). Note: NPC initially identified as OLIVINE_RIVAL in map data.
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO): Lv20
@@ -34,9 +35,8 @@
 - EGG (CLEFFA): Lv5
 
 # Primary Goal Strategy: Deliver SecretPotion to Jasmine
-- Current Objective: Surf south across Route 40 and Route 41 to reach Cianwood City.
+- Current Objective: Surf south across Route 40 and Route 41 to reach Cianwood City. (Started Turn 5863)
 - Next Step: Locate the Pharmacy in Cianwood and obtain the SecretPotion from the shopkeeper.
 - Return Strategy: Use Surf to navigate back through Route 41 and 40. If the Storm Badge is obtained, Fly can be used to return to Olivine City instantly.
 - Final Step: Climb the Olivine Lighthouse to the 6th floor and interact with Jasmine to deliver the medicine to the sick Pokémon Amphy.
 - Recovery Plan: Monitor party HP and PP. Use Potions/Berries from the inventory or return to a Pokémon Center (Olivine or Cianwood) if resources are low.
-- NPC Sighting: OLIVINE_RIVAL (Eusine?) at (32, 30) on Route 41. (Turn 6053)
