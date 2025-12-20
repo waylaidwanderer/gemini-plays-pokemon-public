@@ -28,6 +28,7 @@
 - 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North.
 
 ## Cianwood Medicine Quest Steps
+- Turn 5707: Quest started.
 - 1. Explore 6F (Complete).
 - 2. Leave Lighthouse (Complete).
 - 3. Buy Poke Balls at Olivine Mart (Complete).
