@@ -52,3 +52,6 @@
 
 # Ecruteak City Events
 - Bill met in PC: Time Capsules will be available at all PCs tomorrow. Bill is heading back to Goldenrod. (Turn #4773)
+
+# Lessons Learned
+- Ecruteak City Navigation: Do not assume building locations based on floor tile patterns. Verify with warps in Map Events or the Mental Map. (Turn #4769)
