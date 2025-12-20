@@ -31,6 +31,12 @@
 - 5F Warps: (9,7) Ladder to 4F Middle, (9,15) Ladder to 6F.
 - 4F Warps: (9,7) Ladder to 5F South, (9,5) Ladder to 5F North.
 
+# PC Storage (Box 1)
+- Blarney (SUDOWOODO): Lv20
+- ROCKY (ONIX): Lv6
+- ICARUS (PIDGEY): Lv11
+- EGG (CLEFFA): Lv5
+
 # Milestones
 - Turn 5860: Caught Krabby (Ravioli) at (6, 25) in Olivine City.
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
