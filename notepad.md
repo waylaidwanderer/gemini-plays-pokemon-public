@@ -35,8 +35,8 @@
   3. Return to Olivine Lighthouse 6F and give medicine to Jasmine.
 
 # Shuckle Quest (Started Turn 6263)
-- Mania (17, 41) in Cianwood City wants me to look after his Shuckle.
-- Requires 1 open slot in party.
+- Received SHUCKIE (SHUCKLE) Lv15 from Mania (17, 41) in Cianwood City. (Done)
+- He wants me to look after it for a while. I should keep it in my party or PC and check back later.
 
 # Cianwood City Exploration (Map 22_3)
 - Building (9, 31): Cianwood Photo Studio.
