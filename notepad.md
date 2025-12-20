@@ -43,3 +43,5 @@
 - **New Hypothesis:** The Gym is accessible by going North from the smashed rock location at (4, 19), passing to the left of the Poke Seer's house. I previously jumped South from there, but North seems unexplored.
 - **Investigation:** (10, 14) (Suicune spot) appears to be a dead end.
 - **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
+- **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
+- **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
