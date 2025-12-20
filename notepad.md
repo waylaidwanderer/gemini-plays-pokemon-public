@@ -3,10 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Climb the Lighthouse from 1F to 5F.
-- **Route:** 1F Ladder (3,11) -> 2F -> 3F -> 4F -> 5F.
+- **Immediate Plan:** Climb to 5F. Route: 2F Ladder (5,3) -> 3F -> 4F -> 5F.
 - **Hypothesis:** Re-entering the building resets Bird Keeper Denis's position/state.
-- **Quest Update:** Re-entered Lighthouse. Climbing up to check on the trainer.
+- **Quest Update:** Currently on 2F. Navigating to the ladder to 3F at (5,3).
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
