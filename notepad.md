@@ -4,17 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Deliver Mail to Cooltrainer M (Attempt 2).
-  1. **Current State:** Player at (34, 9). NPC at (32, 7) [Stunned].
-  2. **Plan:** Move to (33, 7) (East of NPC).
-     - Sequence: `Left` -> `Up` -> `Up`.
-     - Face NPC: `Left`.
-     - Interact: `A`.
-  3. **Goal:** Deliver Kenya.
-  4. **Contingency:**
-     - If accepted: Done.
-     - If rejected: "This MAIL isn't for me".
-     - If he just talks about pokemon: He might not be the guy, or I need to do something else first.
+- **Immediate Action:** Advance Dialogue with Cooltrainer M.
+  1. **Current State:** In dialogue with Cooltrainer M at (32, 7). Text: "DARK CAVE...".
+  2. **Action:** Press `A` to advance text.
+  3. **Expectation:** He will continue speaking.
+  4. **Goal:** Determine if he is the mail recipient and complete the delivery.
+  5. **Contingency:**
+     - If he accepts: Celebrate!
+     - If he wakes up/battles: Fight.
+     - If he says "This MAIL isn't for me": Re-verify mail.
 - **Route Info:** Staying on the upper path (Row 8/9) to reach Dark Cave area.
 - **Mail Status:** Kenya holding mail with message "DARK CAVE leads to another road".
 
