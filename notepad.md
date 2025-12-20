@@ -42,11 +42,7 @@
 
 # Trainer Rosters
 ## Dance Theater
-- Miki: Jolteon
-- Kuni: Vaporeon
-- Zuki: Umbreon
-- Sayo: Espeon
-- Naoko: Flareon
+- Miki: Jolteon, Kuni: Vaporeon, Zuki: Umbreon, Sayo: Espeon, Naoko: Flareon.
 ## Burned Tower
 - Malice defeated (Turn #4982): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 
