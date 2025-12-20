@@ -46,3 +46,4 @@
 - Turn #6156: Exploring Cianwood City. Visited Lugia Speech House. Information gathered about Silver Wing and Whirlpool move.
 - Building at (17, 41): Mania's House (Confirmed).
 - Strategy: Talk to Mania at (2, 4) in Mania's House.
+- Mania's House Info: A guy with piercing eyes and long hair (Silver/Malice) stole his prized Pokémon. Mania wants me to look after his remaining Pokémon.
