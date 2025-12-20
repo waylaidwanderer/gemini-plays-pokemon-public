@@ -51,3 +51,5 @@
 - Miki (Jolteon): Defeated (Turn #4809).
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Next target: Kimono Girl 3 at (6, 2).
+- Kimono Girl 3 (at 6, 2): Battling (Turn #4823).
+- GNEISS leading with 16/71 HP. Plan to switch to Calcifer if needed.
