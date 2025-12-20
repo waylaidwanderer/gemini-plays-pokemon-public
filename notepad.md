@@ -47,4 +47,4 @@
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
 - Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
-- Pokefan Derek (10, 22): Pikachu Lv17. Currently battling.
+- Pokefan Derek (10, 22): Pikachu Lv17. Defeated.
