@@ -29,6 +29,7 @@
 - NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
 - Rival (Malice) Anomaly: Sprite confirmed standing on water at (14, 15) on Route 40 (Turn 6868). Currently absent.
+- Lead Selection: Quilava (Calcifer) is the optimal lead for Jasmine due to Special Fire STAB.
 
 # Battle and Pokemon Information
 ## Observed Movesets
@@ -75,6 +76,6 @@
 - Start Turn: 6994
 - Current Position: Olivine Gym (5, 5)
 - Plan:
-    1. Swap Calcifer (QUILAVA) to the lead position.
+    1. Swap Calcifer (QUILAVA) to the lead position. (In progress: swapping KIMCHI and Calcifer)
     2. Move to (5, 4) and face UP to talk to Jasmine at (5, 3).
     3. Defeat Jasmine using Calcifer's FLAME WHEEL.
