@@ -31,7 +31,7 @@
 - Standard BERRY: 0/7.
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
 - Inventory: Mint x1, Bitter x1, Ice x1, PsnCure x1.
-- Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32, R35, R36, R37, R38, R39. Standard berries are common.
+- Berry Collection Strategy: Fly to New Bark Town after finding Jasmine. Check trees on R29, R30, R31, R32, R35, R36, R37, R38, R39.
 
 # Strategy
 - Olivine Lighthouse: Currently on 4F.
