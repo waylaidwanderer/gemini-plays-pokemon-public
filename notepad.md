@@ -20,7 +20,7 @@
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
 
 # Observed Movesets
-- Swimmer Charlie (Route 41, 32, 9): Shellder (Lv21), Tentacool (Lv19).
+- Swimmer Charlie (Route 41, 32, 9): Shellder (Lv21), Tentacool (Lv19), Tentacruel (Lv19).
 - Swimmer Kaylee (Route 41, 17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
 - Swimmer Randall (Route 40, 18, 30): Shellder (Lv18), Wartortle (Lv20), Shellder (Lv18).
 - Swimmer Simon (Route 40, 18, 15): Tentacool (Lv20) x2.
@@ -29,6 +29,7 @@
 - Fire: Resisted by Water.
 - Normal: Neutral against Water.
 - Poison: Resists Fighting (Oddish).
+- Ground: Super effective against Poison.
 
 # Strategy for Primary Goal
 - Method: Teach HM04 Strength to GNEISS. Surf back to Cianwood City. Enter the Gym. Boulder Puzzle Solution: Push the boulder at (3, 7) UP once, push the boulder at (5, 7) UP once, then push the middle boulder at (4, 7) LEFT or RIGHT to clear the path.
