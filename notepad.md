@@ -48,8 +48,7 @@
 
 # Burned Tower 1F (3_13)
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
-- Eusine (ID 2) at (9, 14): Searching for Suicune.
-- Morty (ID 4) at (14, 15): Ecruteak Gym Leader.
+- Morty and Eusine have left the tower (Turn #5015). Morty likely returned to the Gym.
 - Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5), (5, 5), (5, 6), (4, 6).
 
 # Burned Tower B1F (3_14)
