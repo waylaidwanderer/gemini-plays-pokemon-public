@@ -27,7 +27,9 @@
     - Defeated Swimmer Mathew. South blocked by buoys at Row 53. Found passage West to Cianwood at Row 45.
 
 ## Hints & Lore
-- **Whirl Islands:** Swimmer Berke mentioned a secret about the islands blocked by whirlpools. (Likely Lugia).
+- **Whirl Islands:**
+    - Swimmer Berke mentioned a secret about the islands blocked by whirlpools.
+    - Teacher in Cianwood house mentioned a "mythical sea creature" hiding in the four islands (Lugia).
 
 ## Tile Mechanics
 - **Lighthouse Pits:** Gaps on 4F/5F drop to the floor below. Jumping into the pit on 4F North (Cols 8-9) is the solution to reach the central column.
