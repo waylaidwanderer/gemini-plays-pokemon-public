@@ -54,3 +54,5 @@
   4. If Kenya holding mail: TAKE MAIL.
   5. GIVE fresh FLOWER MAIL.
   6. Write "DARK CAVE leads to another road".
+- **Mail Typing:** Starting input of "DARK CAVE".
+- **Sequence:** D -> A -> R -> K -> Space -> C -> A -> V -> E.
