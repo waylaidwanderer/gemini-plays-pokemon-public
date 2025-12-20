@@ -55,3 +55,11 @@
 
 # Lessons Learned
 - Ecruteak City Navigation: Do not assume building locations based on floor tile patterns. Verify with warps in Map Events or the Mental Map. (Turn #4769)
+
+# Strategy for Ecruteak City
+1. Exit the Pokemon Center.
+2. Read signs at (15, 21) and (21, 21) for guidance.
+3. Locate the Ecruteak Gym (primary objective).
+4. Locate the Burned Tower (tertiary objective).
+5. Visit the Ecruteak Dance Theater.
+6. Check the Kimono Girls' house (often contains a key item or event).
