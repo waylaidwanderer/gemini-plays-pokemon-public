@@ -64,9 +64,12 @@
 - **Remaining:** "another road".
 - **Mail Typing:** Typing "another road".
 - **Verification:** Will verify text on screen before confirming with END.
-- **Action:** Giving Mail to Kenya (Slot 6).
-- **Typing Plan:**
-  1. "DARK CAVE" (Caps)
-  2. " leads to" (Lower)
-  3. " another road" (Lower)
-- **Status:** Lapis mistakenly holds a mail. Will ignore for now and use spare mail on Kenya.
+- **Action:** Fix Kenya's Mail Status.
+- **Current Issue:** Kenya is already holding mail (likely from a previous failed attempt or I forgot to remove it).
+- **Plan:**
+  1. Go to Party Menu (B -> Up -> A).
+  2. Select Kenya (Slot 6).
+  3. Select TAKE MAIL (Send to PC/Bag).
+  4. Return to Pack.
+  5. Give Flower Mail to Kenya.
+  6. Write "DARK CAVE leads to another road".
