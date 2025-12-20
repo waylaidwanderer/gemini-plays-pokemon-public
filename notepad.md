@@ -24,7 +24,7 @@
 - **Cianwood City:** Arrived.
     - **Key Locations:** Pokemon Center (23, 43), Pharmacy (15, 47), Lugia House (15, 37), Mania's House (17, 41), Poke Seer (5, 17).
     - **Events:** Defeated Eusine (Suicune fled). Obtained SecretPotion.
-    - **Exploration:** Smashing rocks to find Gym.
+    - **Exploration:** Smashed rocks at (4,25), (4,19), (8,16), (10,27). Surfing North to find Gym.
 
 ## Battle Log
 - **Eusine (Cianwood):** Defeated. Team: Drowzee (Hypnosis), Haunter (Curse), Electrode (Fast). Muscle's Dig was MVP.
