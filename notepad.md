@@ -47,6 +47,7 @@
 - Gentleman Preston (3F): Defeated.
 - Sailor Kent (4F): Defeated.
 - Lass Connie (4F): Defeated.
+- Item at (8, 2, 3F Middle): ETHER. Picked up.
 - Sailor Terrell (3F Middle): Defeated.
 
 # Map Notes (Olivine Lighthouse)
