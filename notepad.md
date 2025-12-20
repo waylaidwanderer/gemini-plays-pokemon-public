@@ -6,7 +6,7 @@
 - **Immediate Plan:** Navigate Route 40/41 to reach Cianwood City.
 
 ## Party Status
-- **Muscle (Machoke):** Lv 34.
+- **Muscle (Machoke):** Lv 36.
 - **Garnet (Quilava):** Lv 28.
 - **Hematite (Pinsir):** Lv 15.
 - **Rocky (Onix):** Lv 21.
@@ -20,13 +20,18 @@
 ## Navigation Log
 - **Olivine Lighthouse:** Cleared 1F-5F. Reached 6F via Center Column.
 - **Route 40:** Reached western edge (Buoys). Heading South to enter Route 41.
-- **Next:** Traverse Route 41 to Cianwood.
+- **Route 41:** Navigating the Whirl Islands maze.
+    - Found gap in buoys at Column 24.
+    - Defeated Swimmers Charlie, Susie, Berke, and Denise.
+    - Moving South towards Cianwood.
+
+## Hints & Lore
+- **Whirl Islands:** Swimmer Berke mentioned a secret about the islands blocked by whirlpools. (Likely Lugia).
 
 ## Tile Mechanics
 - **Lighthouse Pits:** Gaps on 4F/5F drop to the floor below. Jumping into the pit on 4F North (Cols 8-9) is the solution to reach the central column.
 - **WATER:** Traversable with SURF. Encounters wild Pokémon.
-- **Route 41:** Found gap in buoys at Column 24. Navigating South. Whirlpool spotted at (22, 12).
-- **Route 41:** Defeated Swimmer Denise. Continuing South towards Cianwood.
-- **Reminder:** Teach Strength to Muscle (replace Leer/Focus Energy) to have a reliable Normal move.
-- **Hint:** Swimmer Berke mentions islands blocked by whirlpools must have a secret (likely Lugia/Whirl Islands).
-- **Route 41:** Defeated Swimmer Berke. Continuing South.
+- **BUOY:** Impassable wall.
+
+## Reminders
+- **Move Tutor:** Teach Strength to Muscle (replace Leer/Focus Energy) when possible.
