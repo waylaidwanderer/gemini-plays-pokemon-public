@@ -14,6 +14,7 @@
 - Warp Verification: (16, 7) and (17, 7) on 4F are NOT map transitions; (18, 7) is a WALL.
 - Descent Strategy: Use pits to quickly reach lower floors. 4F (16, 9)/(17, 9) are PITs to 3F.
 - Visuals vs. Collision: Visual appearance of tiles (e.g., ground vs wall) can be misleading. Always verify collision types in the Mental Map (e.g., WALL type) before planning paths. (Turn 5863)
+- WATER: Traversable only while using Surf. Requires a Pokémon with the move Surf and the Fog Badge (obtained from Morty).
 
 # Berry Knowledge
 - Mint (R39), Bitter (R31), Mystery (R35), Ice (R36).
