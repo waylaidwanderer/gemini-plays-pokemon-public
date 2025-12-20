@@ -40,7 +40,7 @@
   - GNEISS (GRAVELER) Lv35: Weak to Fighting and Water.
   - KIMCHI (ODDISH) Lv10: Poison resists Fighting. Needs training.
   - SHUCKIE (SHUCKLE) Lv15: High defense, but weak to Water.
-- Strategy: Use Smokescreen to lower Poliwrath's accuracy. Use Flame Wheel/Headbutt to chip away health.
+- Strategy: Use Smokescreen to lower Poliwrath's accuracy. Use Headbutt to chip away health (better damage than resisted Fire moves).
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
@@ -51,7 +51,7 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) is at 22/94 HP. Used Hyper Potion (Turn 6657).
+- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) is at 22/94 HP. Used Hyper Potion (Turn 6657). Poliwrath Accuracy: -1.
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
