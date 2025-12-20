@@ -59,3 +59,6 @@
 - **Battle State:** Muscle's last used move was Slot 4 (Karate Chop). Battle cursor is likely at Slot 4.
 - **Route 31:** Picked a Bitter Berry from the tree at (16, 7).
 - **Route 31:** Found the recipient for Kenya's mail (Fisher at 17, 7). Handing over Kenya now.
+- **Critical Issue:** Kenya is NOT holding the mail, and I don't have it in my bag.
+- **Hypothesis:** I lost/stored the original mail.
+- **Solution:** Go to Violet City Poké Mart, buy Flower Mail (if available), give it to Kenya, and retry delivery.
