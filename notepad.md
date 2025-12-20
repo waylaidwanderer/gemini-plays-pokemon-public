@@ -4,13 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Buy Flower Mail.
-  1. **Current State:** Inside Violet Mart.
-  2. **Plan:** Walk to Clerk (3, 3), Buy 3x Flower Mail.
-  3. **Then:** Equip Mail to Kenya, Write Message, Return to Route 31.
-  4. **Target:** Fisher at (17, 7).
-- **Route Info:** Violet Mart -> Route 31.
-- **Mail Status:** Buying new stock.
+- **Immediate Action:** Interact with Clerk.
+  1. **Current State:** At (3, 3) in Violet Mart.
+  2. **Action:** Turn `Left` -> Press `A`.
+  3. **Expectation:** "Welcome! How may I help you?" -> Buy Menu.
+  4. **Next Turn:** Select BUY -> Find FLOWER MAIL -> Buy 3.
+  5. **Then:** Equip Mail to Kenya -> Write Message.
+- **Route Info:** Violet Mart.
+- **Mail Status:** Buying stock.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
