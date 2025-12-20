@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Verify Kenya's Mail (Final Check).
-  1. **Status:** Mail written. Inventory shows count decreased.
-  2. **Step 1:** Exit Pack (`B`).
-  3. **Step 2:** Enter Party Menu (`Up`, `A`).
-  4. **Step 3:** Select Kenya -> `MAIL` -> `READ`.
-  5. **Step 4:** Confirm message: "DARK CAVE leads to another road".
-  6. **Step 5:** Deliver to Route 31 Fisher.
+- **Current Action:** Deliver Kenya to Route 31.
+  1. **Status:** Mail verified ("DARK CAVE leads to another road"). Verification Successful.
+  2. **Step 1:** Exit menus to Overworld.
+  3. **Step 2:** Exit Pokémon Center.
+  4. **Step 3:** Travel East to Route 31.
+  5. **Step 4:** Deliver Kenya (with mail) to the sleeping Fisher.
 
 ## Strategy & Lessons
 - **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
