@@ -33,7 +33,7 @@
 # Lessons Learned
 - Nicknaming: Resulted in 'XFDW' for Meowth.
 - Ecruteak Gym: Invisible floor path documented (Turn 5290).
-- Moomoo Farm: The sick Miltank requires 7 standard "BERRY" items for recovery. (Quest started Turn 5458)
+- Moomoo Farm: The sick Miltank requires 7 standard "BERRY" items for recovery. (Quest started Turn 5458, Friday, Dec 19, 2025, 11:34 PM PST)
 
 # Berry Locations Knowledge Base
 - Route 30: Potential BERRY.
