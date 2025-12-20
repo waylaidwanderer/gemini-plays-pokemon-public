@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Completion).
-  1. **Status:** Typed "DARK CAVE leads\nto another". Cursor on 'r'.
-  2. **Step 1:** Type " road." (Space, r, o, a, d, period).
-  3. **Step 2:** Select `END` (Start -> A).
-  4. **Step 3:** Confirm mail is attached.
-  5. **Step 4:** Deliver to Fisher.
+- **Current Action:** Fix Kenya's Mail (Step 1: Open Menu).
+  1. **Status:** Menu closed. Need to check/take mail from Kenya.
+  2. **Step 1:** Open Start Menu.
+  3. **Step 2:** Navigate to POKEMON.
+  4. **Step 3:** Select Kenya -> MAIL -> TAKE (if needed) or CHECK.
+  5. **Step 4:** Rewrite mail correctly ("Dark Cave leads to another road.") if needed.
 
 ## Strategy & Lessons
 - **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
