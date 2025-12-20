@@ -41,3 +41,7 @@
 - Use battle_strategist_v2 for Gym trainers and Morty.
 - PIT tiles (is-warp="true") act as warps that return the player to the start of the gym. (Turn #5131)
 - Primary Goal: Defeat Gym Leader Morty (Active since Turn #5080, ~7:15 PM PST). Current Turn: #5139.
+
+# Lessons Learned
+- Pit Warps: Tiles with `is-warp='true'` in the Ecruteak Gym are pits that return you to the start. They are NOT safe to walk on, even if not listed in the discovered 'Map Events' warp list. (Turn #5131)
+- Switching in Battle: In Gen 2, the 'Will you switch?' prompt after an opponent's Pokémon faints is a YES/NO choice. Selecting 'YES' leads to the party menu. If you change your mind, press 'B' to return to the battle menu. (Turn #5140)
