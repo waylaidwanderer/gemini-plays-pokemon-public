@@ -53,4 +53,6 @@
 - Next target: Kimono Girl 3 at (6, 2).
 - Zuki (Umbreon): Defeated (Turn #4845).
 - Sayo (Espeon): Battling (Turn #4849).
-- Turn #4851: Calcifer switched in. Espeon used Sand-Attack. Calcifer's accuracy fell. Using Headbutt.
+- Turn #4851: Calcifer switched in. Espeon used Sand-Attack.
+- Turn #4853: Calcifer used Headbutt (Hit). Espeon used Confusion. Calcifer at 50/76 HP.
+- Turn #4854: Using Headbutt again. Espeon HP is low.
