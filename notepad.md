@@ -3,8 +3,9 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Descend the Lighthouse. Route: 5F(9,7) -> 4F -> 3F -> Exit.
-- **Quest Update:** Amphy is cured. Exiting to challenge the Gym.
+- **Immediate Plan:** Move to (8, 3). Check if it's a pit or if I can pick up the item at (8, 2).
+- **Hypothesis:** 3F Center might be an isolated room. I need to find a way down (Pit at 8,3?) or use Dig.
+- **Quest Update:** Amphy cured. Trying to exit Lighthouse.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
