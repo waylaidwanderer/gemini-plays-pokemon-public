@@ -28,10 +28,14 @@
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
 - Strategy: Use GNEISS with Magnitude.
-- Invisible Path: Avoid all tiles with `is-warp='true'` or Pit markers. Use find_path tool.
+- Invisible Path: Avoid all tiles with `is-warp='true'`. Use find_path tool.
 
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 - Sage Ping (Ecruteak Gym): Gastly Lv16 x3.
 - Medium Grace (Ecruteak Gym): Haunter Lv20 x2.
 - Sage Jeffrey (Ecruteak Gym): Haunter Lv22. (Turn #5095)
+
+# Strategy
+- Use `find_path` to navigate between safe tiles.
+- Use battle_strategist_v2 for Gym trainers and Morty.
