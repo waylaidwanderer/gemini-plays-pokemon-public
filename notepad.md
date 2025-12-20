@@ -62,3 +62,4 @@
 - Investigate Burned Tower at (4, 4).
 - Challenge Gym Leader Morty at (10, 27).
 - Youngster at (11, 13) mentioned rampaging Pokémon at Lake of Rage (Turn #4900).
+- Rival Malice (ID 3) at (8, 9) in Burned Tower 1F.
