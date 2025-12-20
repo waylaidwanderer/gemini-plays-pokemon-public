@@ -80,3 +80,4 @@
 - Rival (Malice): Standing on the water at (14, 15) on Route 40. Verified in-game turn 6855.
 - KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6853). EXP: 1947. HP: 18/37.
 - Calcifer Level: 34. EXP: 36428. HP: 89/94.
+- Lass at (11, 13) on Route 40: Non-battling NPC. Provides flavor text about Cianwood.
