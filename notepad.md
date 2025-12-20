@@ -58,14 +58,14 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6917).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6918).
 - Calcifer (QUILAVA): Lv35.
-- Progress: Test 2 Successful. Landed on 3F (9, 3) from 4F Pit. Navigating to ladder at (9, 5) to reach 4F Middle section.
+- Progress: Successfully reached the middle section of 4F. Navigating to ladder at (9, 7) to reach 5F.
 
 # Hole Puzzle (Olivine Lighthouse)
 - Observation: 4F has multiple pits.
 - Test 1: Fell through pit at (16, 9) on 4F. Landed in walled-off eastern section of 3F. Status: Dead end.
-- Test 2: Fell through pit at (9, 3) on 4F. Landed in the central section of 3F. Status: Successful. Ladder to 4F Middle at (9, 5) is reachable.
+- Test 2: Fell through pit at (9, 3) on 4F. Landed in the central section of 3F. Status: Successful. Ladder to 4F Middle at (9, 5) used to progress.
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
@@ -76,3 +76,4 @@
 - Olivine Port (19, 27) and (20, 27): Leads to map 1_15. Contains the S.S. Aqua (Fast Ship).
 - Olivine Lighthouse (29, 27): Entry to Lighthouse. SecretPotion must be delivered here.
 - Sailor at (26, 27): Paces between (26, 26) and (26, 28). Can block path to Lighthouse.
+- Lass at (13, 4) in 4F: Non-battling NPC. Mentions JASMINE and the GYM.
