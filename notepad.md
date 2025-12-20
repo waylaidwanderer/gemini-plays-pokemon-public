@@ -4,10 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Talk to Sleeping Man (Cooltrainer).
-  1. Interact with Cooltrainer M at (33, 9).
-  2. Deliver Kenya.
-  3. If rejected, check mail message again.
+- **Immediate Action:** Verify Kenya's Mail Content Again.
+  1. Open Party Menu.
+  2. Select Kenya -> MAIL -> READ.
+  3. READ CAREFULLY. Is it "DARK CAVE leads to another road"?
+  4. If correct, explore map for other sleeping NPCs.
+  5. If incorrect, rewrite.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
