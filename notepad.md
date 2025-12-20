@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Take Mail).
-  1. **Status:** In Party Menu. Selecting Kenya to remove invalid mail.
-  2. **Step 1:** Select Kenya (A).
-  3. **Step 2:** Select MAIL -> TAKE MAIL.
-  4. **Step 3:** Close Party Menu.
-  5. **Step 4:** Open Pack -> Give Flower Mail to Kenya -> Write "Dark Cave leads to another road."
+- **Current Action:** Fix Kenya's Mail (Confirm Take).
+  1. **Status:** Removed mail from Kenya. Now exiting menu to Equip and Rewrite.
+  2. **Step 1:** Clear "Mail Taken" message (A/B).
+  3. **Step 2:** Exit Party Menu (B until Overworld).
+  4. **Step 3:** Open Pack -> Select Flower Mail.
+  5. **Step 4:** Equip to Kenya -> Write "DARK CAVE leads to another road" (Verify casing).
 
 ## Reflection (Turn 9097)
 - **Execution:** Deferred exploration of Route 31 water to finish Mail quest first. Correct prioritization.
