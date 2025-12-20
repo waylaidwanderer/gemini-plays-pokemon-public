@@ -56,3 +56,4 @@
 - **Tool Maintenance:** Need to review `smart_battle_move` usage/logic to correctly handle Gen 2 cursor memory (cursor stays on last used move) before next battle.
 - **Events:** Received phone call from Wade (Bug Catcher). He talked about his Pokemon growing fast and a wild Bellsprout escaping.
 - **Tool Note:** `smart_battle_move` logic verified as correct for wrapping. Must ensure `current_slot` argument is passed correctly in future battles to handle cursor memory.
+- **Battle State:** Muscle's last used move was Slot 4 (Karate Chop). Battle cursor is likely at Slot 4.
