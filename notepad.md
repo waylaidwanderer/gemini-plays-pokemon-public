@@ -58,7 +58,7 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6918).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6919).
 - Calcifer (QUILAVA): Lv35.
 - Progress: Successfully reached the middle section of 4F. Navigating to ladder at (9, 7) to reach 5F.
 
