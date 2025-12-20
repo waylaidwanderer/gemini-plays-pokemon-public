@@ -70,11 +70,11 @@
 
 ## Current Task: Exit Lighthouse
 - Start Turn: 6954
-- Current Position: 4F Inner Room (9, 4)
-- Failed Attempt 1: Tried to navigate to 4F outer ring but accidentally walked into pit at (9, 3) on 4F.
-- Failed Attempt 2: Confirmed that (10, 2) and (10, 3) are not reachable from the inner room due to walls and pits.
-- Observation: The lighthouse has an inner central pillar and an outer ring. Movement between them requires specific pits or ladders, often involving going up a floor to drop down.
-- Plan: 
-    1. Go up to 5F via ladder at (9, 7) on 4F.
-    2. On 5F, look for a pit or ladder that leads to the outer ring of 4F or 3F.
-    3. Once in the outer ring of 3F, find the ladder at (5, 3) to go down to 2F.
+- Current Position: 5F Central Pillar (9, 7)
+- Observation: The lighthouse structure requires alternating between floors to reach different sections (inner vs outer). To reach the outer ring and descend, I must go to 6F and find a pit leading to the outer section of 5F.
+- Plan:
+    1. Take the ladder at (9, 15) on 5F to reach 6F.
+    2. On 6F, find the pit that leads to the outer ring of 5F.
+    3. From the outer ring of 5F, use the pits (16, 7) or (17, 7) to drop to 4F's outer ring.
+    4. From 4F's outer ring, use pits (16, 9) or (17, 9) to drop to 3F's outer ring.
+    5. On 3F, find the ladder at (5, 3) to go down to 2F and eventually exit.
