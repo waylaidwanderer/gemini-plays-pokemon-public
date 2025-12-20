@@ -4,13 +4,16 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Start Menu to Fly.
-  1. **Current State:** Cherrygrove City (Fly Landing Spot).
-  2. **Action:** Press `Start`.
-  3. **Next Turn:**
-     - Verify Cursor Position (Pokedex vs Pokemon).
-     - Select Pokemon -> Mistral -> Fly -> Violet City.
-     - **Note:** Ensure cursor moves to Violet City before confirming.
+- **Immediate Action:** Execute Fly Sequence with Safe Delays.
+  1. **Current State:** Start Menu (Cursor on POKEMON).
+  2. **Sequence (Slow Press 800ms):**
+     - `A`: Enter Party.
+     - `Down` x4: Navigate to Mistral (Slot 5).
+     - `A`: Open Menu.
+     - `A`: Select "FLY".
+     - `Up`: Move Map Cursor to Violet City.
+     - `A`: Confirm Destination.
+  3. **Rationale:** 800ms delay ensures the Map has time to load before the `Up` input is registered, preventing another accidental Fly to Cherrygrove.
   4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
 - **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
