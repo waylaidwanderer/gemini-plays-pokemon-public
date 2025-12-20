@@ -91,3 +91,6 @@
   2. Party -> Kenya -> TAKE MAIL (Send to PC).
   3. Pack -> Flower Mail -> GIVE -> Kenya.
   4. Write "DARK CAVE leads to another road".
+- **Mail Typing:** Typing "DARK CAVE ".
+- **Cursor End Position:** Space (Row 2, Col 6).
+- **Next Step:** Switch to lower case, type "leads to another road".
