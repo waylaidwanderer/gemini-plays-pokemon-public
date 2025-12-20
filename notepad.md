@@ -3,16 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Activate Strength, push boulders (Left UP, Right UP, Middle RIGHT), then challenge Chuck.
-- **Mechanic Note:** Strength wears off when re-entering a map. Must reactivate.
-
-## Party Status
-- **Muscle (Machoke):** Lv 37. (Moves: Dig, Rock Smash, Focus Energy, Karate Chop)
-- **Garnet (Quilava):** Lv 28.
-- **Hematite (Pinsir):** Lv 15.
-- **Azurite (Heracross):** Lv 13.
-- **Lapis (Poliwag):** Lv 10. (Surf carrier)
-- **Shuckie (Shuckle):** Lv 15. (Moves: Constrict, Withdraw, Wrap, Encore)
+- **Immediate Plan:** Exit Gym, get Fly HM (woman outside?), get SecretPotion, Teach Fly, Return to Olivine.
+- **Gym Status:** Chuck Defeated (Storm Badge + TM01 obtained).
+- **Party Status:**
+  - **Muscle (Machoke):** Lv 40. (Moves: Dig, Rock Smash, Focus Energy, Karate Chop)
+  - **Garnet (Quilava):** Lv 28.
+  - **Hematite (Pinsir):** Lv 15.
+  - **Azurite (Heracross):** Lv 13.
+  - **Lapis (Poliwag):** Lv 12. (Surf carrier)
+  - **Shuckie (Shuckle):** Lv 15.
 - **Rocky (Onix):** Deposited in Box 3.
 
 ## Quests
