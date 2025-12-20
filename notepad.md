@@ -43,8 +43,8 @@
 - **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
-- **Battle Status:** Muscle, Hematite, Azurite fainted. Garnet (Sleep/Low HP), Lapis (Lv 10), Shuckie (Lv 15). Wipe imminent.
-- **Plan:** Send Shuckie. Attack until defeat.
+- **Battle Status:** Muscle, Hematite, Azurite, Shuckie fainted. Garnet (Sleep/Low HP), Lapis (Lv 10) active. Wipe imminent.
+- **Plan:** Lapis uses Hypnosis. Then Garnet dies.
 - **Post-Wipe Plan:**
   1. Respawn at Cianwood Center.
   2. Check Pharmacy for Potions.
