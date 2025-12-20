@@ -39,5 +39,4 @@
 
 # Strategy
 - Use `find_path_v2` for overworld navigation.
-- Use battle_strategist_v2 for Morty.
-- Defeat Leader Morty (Haunter Lv23 active). (Turn #5194)
+- Use battle_strategist_v2 for Morty. (Turn #5195)
