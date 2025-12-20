@@ -51,11 +51,5 @@
 - Miki (Jolteon): Defeated (Turn #4809).
 - Kuni (Vaporeon): Defeated (Turn #4821).
 - Next target: Kimono Girl 3 at (6, 2).
-- Zuki (Umbreon): Battling (Turn #4823).
-- Turn #4827: GNEISS used Magnitude 5. Umbreon used Pursuit.
-- Turn #4829: GNEISS at 8/71 HP. Switching to Calcifer.
-- Turn #4831: Calcifer used Headbutt (Hit). Umbreon used Sand-Attack.
-- Turn #4834-4839: Calcifer missed Headbutt multiple times. Umbreon used Sand-Attack and Pursuit.
-- Turn #4842: Used X Accuracy on Calcifer.
-- Turn #4843: Umbreon used Pursuit. Calcifer at 64/76 HP. Selecting FIGHT.
-- Strategy: Finish Umbreon with Headbutt (guaranteed hit).
+- Zuki (Umbreon): Defeated (Turn #4845).
+- Next target: Kimono Girl 2 at (2, 1).
