@@ -4,10 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Travel East to Route 31 Gatehouse.
-  1. Walk to (39, 25) to exit Violet City.
-  2. Continue East to Route 31.
-  3. Locate "Sleeping Man" (Cooltrainer M) at (33, 9).
+- **Immediate Action:** Fly to Violet City.
+  1. Cancel Save Menu (Down, A).
+  2. Navigate Start Menu to POKEMON (Up x4, A).
+  3. Select Mistral (Down x4, A).
+  4. Select FLY (A).
+  5. Navigate Map to Violet City.
 - **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
 - **Backup:** If this fails, investigate Route 31 thoroughly.
 - **Previous Attempt:** Delivered to Fisher (Rejected: "This MAIL isn't for me").
