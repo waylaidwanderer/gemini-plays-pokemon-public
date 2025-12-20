@@ -17,9 +17,15 @@
 - LADDER / DOOR / PIT / WARP_CARPET: Map transition.
 - Relational: Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
+# Lessons Learned
+- Tool Maintenance: find_path_v2 logic for water-to-land transitions must allow movement onto land tiles even when the player is on a water tile (Surfing).
+- Map Markers: Always verify the map_id when placing markers, especially when near map boundaries.
+- Battle Mechanics: Karate Chop is a Fighting-type move in Gen 2 (verified via Primeape vs Oddish).
+
 # Type Effectiveness Chart
 - Magnitude (Ground) vs Tentacruel (Water/Poison): Super effective.
 - Rollout (Rock) vs Mantine (Water/Flying): Super effective.
+- Fighting (Primeape's Karate Chop) vs Poison (Oddish): Not very effective.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
@@ -29,10 +35,6 @@
 - Growlithe (Fire): Water, Ground, Rock.
 - Snubbull (Normal): Fighting.
 
-# Cianwood Gym Boulder Puzzle (Hypothesis)
-1. Observation: Boulders at (3, 7), (4, 7), (5, 7) block the central path.
-2. Hypothesis: Pushing the side boulders (3, 7 and 5, 7) up one tile, then pushing the middle boulder (4, 7) to the side (left or right) will open a gap to reach the Gym Leader.
-3. Plan:
-   - Move to (3, 8), face UP, press A to push boulder at (3, 7) to (3, 6).
-   - Move to (5, 8), face UP, press A to push boulder at (5, 7) to (5, 6).
-   - Move to (4, 8), face UP, press A to push boulder at (4, 7) to (3, 7) or (5, 7).
+# Cianwood Gym Boulder Puzzle (Solved)
+- Observation: Boulders at (3, 7), (4, 7), (5, 7) block path.
+- Solution: Push (3, 7) up to (3, 6), (5, 7) up to (5, 6), and (4, 7) to either side.
