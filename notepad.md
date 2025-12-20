@@ -31,6 +31,7 @@
 - Confusion: Clears upon switching out or ending the battle.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
 - Hallucination Note: Rival (Malice) confirmed at (14, 15) on Route 40 (standing on water). Verified Turn 6868.
+- Lighthouse Puzzle: Pit at (9, 3) on 4F leads to the middle section of 3F, enabling access to the central ladder chain.
 
 # Battle and Pokemon Information
 ## Observed Movesets
@@ -58,14 +59,9 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Progress & Logs
-- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6921).
+- KIMCHI (ODDISH) Training (Started Turn 6708): Lv15 (Turn 6923).
 - Calcifer (QUILAVA): Lv35.
-- Progress: Reached 5F. Navigating to ladder at (9, 15) to reach 6F.
-
-# Hole Puzzle (Olivine Lighthouse)
-- Observation: 4F has multiple pits.
-- Test 1: Fell through pit at (16, 9) on 4F. Landed in walled-off eastern section of 3F. Status: Dead end.
-- Test 2: Fell through pit at (9, 3) on 4F. Landed in the central section of 3F. Status: Successful. Ladder to 4F Middle at (9, 5) used to progress.
+- Progress: Reached 6F. Delivering SecretPotion to Jasmine.
 
 # General Knowledge
 - Abra Weakness: Bug, Ghost, Dark (Arnie asked Turn 6851).
