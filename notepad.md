@@ -4,11 +4,17 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Select Recipient).
-  1. **Step 1:** Select `GIVE` (Executing).
-  2. **Step 2:** Choose `KENYA` from the party list.
-  3. **Step 3:** Write Message: "DARK CAVE leads to another road".
-  4. **Step 4:** Deliver to Route 31 Fisher.
+- **Current Action:** Fix Kenya's Mail (Typing Message).
+  1. **Cursor:** On 'D'.
+  2. **Step 1:** Use `slow_press` to type "DARK".
+  3. **Step 2:** Continue typing " CAVE leads to another road".
+  4. **Step 3:** Confirm with "END".
+
+## Strategy & Lessons
+- **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
+- **Input Strategy:** Use `slow_press` with `autopress_buttons=True` to mix directional and action inputs for efficient typing.
+- **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
+- **Fly Map:** List-based `Up`/`Down`. Order: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod.
 
 ## Strategy & Lessons
 - **Quest Item Logic:** Do not alter quest items (e.g., mail messages) unless necessary. Original attributes often matter.
