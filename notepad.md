@@ -34,5 +34,5 @@
 - EGG (CLEFFA): Lv5
 
 # Discovery Log
-- Turn 5791: Encountered wild Krabby at (6, 25). Catching for Surf. Plan: Ravioli. 9 failed balls at full health. Frittata (Lv5) Mud-Slap ineffective and out of PP. Switching to KIMCHI (Lv10) to weaken.
-- Turn 5857: KIMCHI used Absorb. Krabby HP is now Red. Accuracy max lowered. Starting capture attempt.
+- Turn 5791: Encountered wild Krabby at (6, 25).
+- Turn 5860: Caught Krabby (Ravioli) at (6, 25). Mission complete! Switching to teaching Surf.
