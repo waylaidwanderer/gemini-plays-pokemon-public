@@ -56,3 +56,9 @@
 - find_path_v2: Reliable for navigation. Use (6,7) override for Ecruteak Gym.
 - battle_strategist_v2: Use for tactical advice in major battles.
 - get_reachable_unseen_tiles_v1: Use to verify exploration progress.
+
+# Observations & Hypotheses
+- Hypothesis: Magnemite, Miltank, and Tauros are available on Route 38 (needs verification).
+- Ledge (10, 8): LEDGE_HOP_LEFT. Verified traversable from East to West.
+- Ledge (11, 13): LEDGE_HOP_DOWN. Verified traversable from North to South.
+- Route 38/39 Transition: Likely at the western edge (x=0).
