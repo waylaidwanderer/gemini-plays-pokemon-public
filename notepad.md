@@ -57,4 +57,4 @@
 - Trainer: Swimmer Kara (R41, 44, 28)
 - Battle Tools: find_path_v2 and other map-based tools fail during battle due to missing map data.
 - Reflection (Turn 6024): Checked last 50 turns. No tasks deferred. Notepad is being cleaned up. Markers are up to date. Goals are clear. No false constraints identified.
-- Swimmer Kara (R41, 44, 28): In Progress.
+- Swimmer Kara (R41, 44, 28): Staryu defeated. Calcifer (Lv 30) vs Starmie (Lv 20).
