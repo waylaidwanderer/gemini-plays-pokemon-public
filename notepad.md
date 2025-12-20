@@ -46,3 +46,7 @@
 - Route 35: Pidgey, Nidoran M/F, Jigpuff, Abra, Yanma (Swarm), Ditto.
 - National Park: Pidgey, Caterpie, Metapod, Weedle, Kakuna, Sunkern.
 - Route 36: Pidgey, Growlithe, Hoothoot, Ledyba, Spinarak.
+
+# Kimono Girls Progress
+- Miki (Jolteon): Defeated (Turn #4809).
+- Kimono Girl at (9, 1): Challenging.
