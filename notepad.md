@@ -39,4 +39,4 @@
 - **Route 41:** Blockage at (24, 39). Detouring West to Column 23 to continue South.
 - **Observation:** Potential land (FLOOR tiles) spotted at (28, 42). Possibly one of the Whirl Islands.
 - **Navigation:** Taking the Western channel (Cols 22-23) to bypass the buoy blockage and continue South/West towards Cianwood.
-- **Battle:** Fighting Swimmer Wendy (2nd Horsea). Muscle HP 65/121. Using Karate Chop.
+- **Battle:** Fighting Swimmer Wendy (2nd Horsea). Muscle HP 65/121. Using Karate Chop (Cursor on Slot 4).
