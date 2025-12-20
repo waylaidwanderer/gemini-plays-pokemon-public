@@ -3,6 +3,7 @@
 - Team Assets: KIMCHI (Poison resists Fighting), Blarney (Sudowoodo). 
 - Note: Poliwrath is Water/Fighting. GNEISS and Calcifer are weak to Water.
 - Plan: Train KIMCHI to Lv21+ for evolution into Gloom. Use Sleep Powder and Grass moves against Poliwrath. KIMCHI reached Lv18 at Turn 7171 and learned Sleep Powder.
+- Battle Status (Turn 7177): Primeape defeated. Chuck is sending out Poliwrath. Switching to KIMCHI for free switch-in to secure shared XP and set up Sleep Powder.
 
 # Tile Mechanics
 - FLOOR: Traversable.
