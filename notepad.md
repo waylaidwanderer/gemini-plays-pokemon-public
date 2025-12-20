@@ -1,8 +1,8 @@
 # Strategy for Primary Goal (Travel to Mahogany Town)
 - Step 1: Go to Cianwood PC (23, 43). [DONE]
 - Step 2: Swap a party member for ICARUS (PIDGEY). [DONE - Deposited SHUCKIE]
-- Step 3: Teach FLY to ICARUS. [IN PROGRESS]
-- Step 4: Fly to Ecruteak City.
+- Step 3: Teach FLY to ICARUS. [DONE]
+- Step 4: Fly to Ecruteak City. [IN PROGRESS]
 - Step 5: Head east through Route 42 to Mahogany Town.
 
 # Strategy for KIMCHI Training
