@@ -32,3 +32,7 @@
 
 # Gym Progress
 - Start Turn: 6328 (Entering Gym)
+
+# Gym Strategy: Boulders
+- Boulders at (3,7), (4,7), (5,7) require Rock Smash to break (per Pokefan M).
+- Plan: Teach Rock Smash to GNEISS after healing Calcifer.
