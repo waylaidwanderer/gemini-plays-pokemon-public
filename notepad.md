@@ -23,7 +23,7 @@
 - Sage Ping: Gastly Lv16 x3.
 - Medium Grace: Haunter Lv20 x2.
 - Sage Jeffrey: Haunter Lv22.
-- Medium Martha (ID 4): Gastly Lv18, Haunter Lv20. (Turn #5120)
+- Medium Martha (ID 4): Gastly Lv18, Haunter Lv20, Gastly Lv20. (Turn #5128)
 
 # Gym Strategy: Morty (Ghost/Poison)
 - Weaknesses: Ground, Psychic, Ghost, Dark.
