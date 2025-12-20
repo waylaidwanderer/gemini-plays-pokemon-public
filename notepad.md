@@ -43,8 +43,6 @@
 - **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
 - **Strategy vs Chuck:** Muscle (Lv 39) is the lead. Saving the Super Potion for in-battle emergency since Muscle has 66/127 HP and a level advantage.
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
-- **Emergency:** No HP healing items left. Muscle is at 4 HP. Poliwrath is ASLEEP.
-- **Plan:** Switch to Muscle immediately.
-  - If Poliwrath stays asleep: Muscle uses Strength.
-  - If Poliwrath wakes up and attacks: Muscle faints. Backup plan: Garnet/Azurite?
-  - Goal: Deal as much damage as possible with Muscle while Poliwrath is sleeping.
+- **Battle Status:** Muscle, Hematite, Azurite fainted. Garnet (Sleep/Low HP), Lapis (Lv 10), Shuckie (Lv 15). Wipe imminent.
+- **Plan:** Send Shuckie.
+- **Next Steps:** Heal, restock (Super Potions), retry.
