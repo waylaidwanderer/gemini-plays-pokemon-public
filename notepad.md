@@ -77,5 +77,6 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Training Logs
-- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6837).
-- Rival: Does not appear on Route 40. Previous sightings were hallucinations. Marker cleanup in progress.
+- Rival: Confirmed at (14, 15) on Route 40. He's standing in the water!
+- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6851). EXP: 1947. HP: 18/37.
+- Calcifer Level: 34. EXP: 36428. HP: 89/94.
