@@ -9,15 +9,13 @@
 - Method: Lead in battles, then switch to stronger Pokemon (GNEISS/Calcifer) if necessary.
 
 # Tile Mechanics
-- Walkable: FLOOR, WATER (Traversable ONLY by using SURF (HM03) from an adjacent land tile while having the Fog Badge).
+- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water).
 - Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, WHIRLPOOL.
 - Transitions: LADDER, DOOR, PIT, WARP_CARPET.
-- Restrictions: HM02 Fly is strictly for outdoor use.
-- Interaction: Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
+- General: HM02 Fly is strictly for outdoor use. Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
-# General Mechanics
-- Battle: Sweet Scent lowers opponent's evasion (counters Minimize).
-- Battle: Karate Chop is a Fighting-type move.
+# General Mechanics & Tools
+- Battle: Sweet Scent lowers opponent's evasion (counters Minimize). Karate Chop is Fighting-type.
 - Tool: find_path_v2 (v7323) handles trees and water-to-land navigation.
 
 # Type Matchups (Observed)
@@ -33,4 +31,4 @@
 - ROCKY (ONIX) Lv6, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5, SHUCKIE (SHUCKLE) Lv15.
 
 # Battle Strategies
-- Fisher Tully (Route 42): Qwilfish (Water/Poison).
+- Fisher Tully (Route 42): Qwilfish (Water/Poison). Use SLEEP POWDER and SWEET SCENT to manage evasion, then chip with ABSORB.
