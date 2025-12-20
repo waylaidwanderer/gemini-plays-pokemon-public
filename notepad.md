@@ -4,13 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Confirm Item Switch.
-  1. **Current State:** "Switch items?" dialog. Cursor on `YES`.
-  2. **Action:** Press `A` to confirm.
-  3. **Next:** Compose Message for Mail (likely next screen).
-  4. **Message:** Simple greeting or select random words.
-  5. **After:** Exit menus and travel East to Route 31.
-  6. **Target:** Fisher at (17, 7) on Route 31.
+- **Immediate Action:** Compose Mail & Deliver.
+  1. **Current State:** Mail Composition Screen.
+  2. **Action:** Type "HI" (Right x7 -> A -> Right -> A -> Start -> A).
+  3. **Next:** Exit Party/Menu (B until closed).
+  4. **Route:** East to Route 31.
+  5. **Target:** Sleeping Fisher at (17, 7).
 - **Route Info:** Violet City -> Route 31.
 - **Mail Status:** Stock acquired. Ready to equip.
 
