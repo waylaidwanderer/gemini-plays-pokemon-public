@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Open Start Menu.
-  1. **Current State:** New Bark Town (Overworld).
-  2. **Action:** Press `Start`.
-  3. **Next Turn:** Verify Menu Open -> Select Pokemon -> Fly to Violet City.
-- **Situation Update:** Accidentally flew to New Bark Town (selected current location on map).
+- **Immediate Action:** Enter Party Menu.
+  1. **Current State:** Start Menu Open, Cursor Verified on `POKéMON`.
+  2. **Action:** Press `A`.
+  3. **Next Turn:** Verify Party Menu cursor position (Slot 1 vs Slot 5).
+  4. **Goal:** Select Mistral -> Fly -> Violet City.
 - **Route Info:** Must approach Fisher from the West (Violet City side).
 - **Mail Status:** Fixed. Kenya holding correct mail.
 - **Hypothesis:** The intended recipient is the "Sleeping Man" (Cooltrainer M) at (33, 9) on Route 31.
