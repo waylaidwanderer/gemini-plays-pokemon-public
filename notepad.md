@@ -35,9 +35,17 @@
 - Fighting: Super Effective against Rock/Steel (assumed), resisted by Poison/Flying/Psychic/Bug/Fairy (wait, Fairy doesn't exist in Gen 2). Resisted by Poison.
 
 # Strategy for Primary Goal (Defeat Chuck)
-- Current Plan: Last stand with Ravioli (Lv10) and Frittata (Lv5).
-- Status: Poliwrath (~50% HP) has -2 Accuracy. KIMCHI fainted Turn 6695.
-- Note: If we blackout, we need to restock and train before retrying. 1 failed attempt at Chuck.
+- History: 1 failed attempt (Blackout Turn 6708).
+- Observation: Poliwrath (Lv30) is very strong. Its DynamicPunch is devastating. -2 Accuracy (from Smokescreen) helped but wasn't enough for a Lv10/Lv34 team.
+- Plan: Train KIMCHI (Oddish) to Lv21+ to evolve into Gloom. Deliver SecretPotion to Jasmine first to gain levels/money along the way.
+- Rematch Criteria: KIMCHI at Lv25+, Calcifer at Lv36+.
+
+# Blackout Recovery & Training Plan (Turn 6708)
+- Status: Blacked out. Party fully healed.
+- Immediate Task: Use PC in Cianwood Center to swap FRITTATA (Lv5) for Blarney (SUDOWOODO Lv20).
+- Pivot: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
+- Training Route: Surf Route 41 -> Route 40. Focus on training KIMCHI.
+- Goal: Reach Lv21+ with KIMCHI.
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
