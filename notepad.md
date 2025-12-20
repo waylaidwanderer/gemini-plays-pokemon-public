@@ -64,10 +64,11 @@
 - Mark all holes/warps immediately to assist pathfinding logic.
 - GNEISS (Graveler) Level 27: Decided not to learn Harden (redundant with Defense Curl).
 - Battle with Malice (Turn #4945):
-  - Haunter (Lv 20): Defeated with Magnitude. Used Curse.
-  - Croconaw (Lv 22): GNEISS switched out to clear Curse. Calcifer (Lv 27) active (66/76 HP).
-  - Turn #4963: Calcifer used Headbutt. Croconaw used Leer. Calcifer Defense fell.
-  - Turn #4964: Calcifer using Headbutt again. Strategy: Finish Croconaw.
+  - Haunter (Lv 20): Defeated with Magnitude.
+  - Croconaw (Lv 22): GNEISS switched out to clear Curse. Calcifer (Lv 27) active (44/76 HP).
+  - Turn #4963: Calcifer used Headbutt. Croconaw used Leer.
+  - Turn #4964: Calcifer used Headbutt. Croconaw used Water Gun.
+  - Turn #4965: Calcifer using Headbutt again. Strategy: Finish Croconaw.
 
 # Exploration Targets
 - Unseen tiles adjacent to walkable: (15, 0), (16, 0), (18, 3-8).
