@@ -4,12 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Fisher on Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Select Kenya and Type Mail.
-  1. Selected FLOWER MAIL -> GIVE.
-  2. Navigate to Kenya (Slot 6).
-  3. Type "DARK CAVE LEADS TO ANOTHER ROAD".
-  4. Fly to Violet City.
-  5. Deliver to Fisher at (17, 7).
+- **Immediate Action:** Delivering Mail.
+  1. Finished typing "DARK CAVE LEADS TO ANOTHER ROAD".
+  2. Confirming with END.
+  3. Finding Fisher at (17, 7).
+  4. Delivering Kenya.
+- **Hypothesis:** The game expects ALL CAPS for the password phrase.
+- **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
 - **Hypothesis:** The game expects ALL CAPS for the password phrase.
 - **Backup:** If this fails, I will search for the "Sleeping Man" Cooltrainer M at (33, 9) again, but logic points to the Fisher (who asked for mail and was sleeping).
 - **Hypothesis:** The game expects ALL CAPS for the password phrase, despite Webster's dialogue using mixed case.
