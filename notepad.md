@@ -35,3 +35,11 @@
 ## Mechanics Notes
 - **Menu Cursor:** May remember position. Always verify.
 - **Mail:** "Take Mail" puts it in bag. "Give Mail" allows writing message.
+### Reflection (Turn 8266)
+- **Execution:** No lapsed tasks.
+- **Notepad:** Organized and up to date.
+- **Map:** Markers are accurate.
+- **Automation:** Tools are sufficient.
+- **Goals:** Clear path: Enter Mart -> Buy Mail -> Write "DARK CAVE leads to another road" -> Deliver.
+- **Error Analysis:** Previous `Up` input only turned the character. Now facing Up at (9, 18). Must press `Up` again to enter Mart at (9, 17).
+- **Hypothesis:** Fisher rejected mail because the message "DARK CAVE leads" was incomplete. Original message was "DARK CAVE leads to another road". Restoring the full message should fix this.
