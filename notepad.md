@@ -48,3 +48,5 @@
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
+- Defeated Mysticalman Eusine at (11, 17). He was chasing Suicune.
+- Suicune fled across the waves.
