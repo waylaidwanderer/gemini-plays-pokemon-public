@@ -4,15 +4,17 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Write Mail Message.
-  1. **Current State:** Party Menu (Selecting Kenya).
-  2. **Action:** Press `Down` -> `A` to give mail to Kenya.
-  3. **Next State:** Mail Composition Screen (Keyboard).
-  4. **Text to Write:** "DARK CAVE leads to another road".
-  5. **Plan:** Type carefully using the keyboard grid.
-  6. **Target:** Fisher at (17, 7).
+- **Immediate Action:** Inspect Kenya's Mail.
+  1. **Contradiction:** Fisher said "No Mail", but Game says "Has Mail".
+  2. **Plan:**
+     - Exit Pack (`B`).
+     - Enter Party (`Start` -> `Pokemon`).
+     - Select Kenya -> `MAIL` -> `READ`.
+     - **Goal:** See what is actually attached.
+     - **Then:** `TAKE` mail (to clear slot), then `GIVE` fresh Flower Mail.
+  3. **Target:** Fisher at (17, 7).
 - **Route Info:** Route 31.
-- **Mail Status:** Giving Mail to Kenya.
+- **Mail Status:** Investigating contradiction.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
