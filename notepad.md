@@ -83,3 +83,20 @@
 - Strategy: Talk to Nurse from (3, 2) to heal.
 - Tile Mechanics Update: COUNTER (Impassable, interact over it).
 - Heal Attempt Complete: Turn #5027. Party at 100%.
+
+# Ecruteak Gym (4_7)
+- Entrance/Exit: (4, 17) and (5, 17).
+- Sage Ping: (3, 13).
+- Gym Guide: (7, 15).
+- Pit Warp: (7, 13) leads to entry (entry_point 3).
+- Invisible Path Puzzle: The floor appears to have pits that warp the player back to the start.
+- Hypothesis: There is a specific invisible path through the pits to reach Morty.
+- Strategy: Test the path tile-by-tile, documenting safe coordinates.
+- Test 1: Move to (4, 16) - Safe.
+- Test 2: Move to (4, 15) - Safe.
+- Test 3: Move to (4, 14) - Safe.
+- Test 4: Move to (4, 13) - Safe.
+- Test 5: Move to (5, 13) - Safe.
+- Test 6: Move to (6, 13) - Safe.
+- Test 7: Move to (7, 13) - Pit warp (verified).
+- Conclusion: (7, 13) is a pit. Path must go elsewhere.
