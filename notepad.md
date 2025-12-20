@@ -32,7 +32,7 @@
 - **Blackbelt Lao (Hitmonchan):** Defeated.
 - **Gym Layout:** Left side has Blackbelts. Right side has boulders (3,7), (4,7), (5,7).
 - **Boulder Puzzle Strategy:**
-  1. Activate Strength (HM04) on Boulder (5,7).
+  1. Strength Active.
   2. Push Boulder (5,7) UP to (5,6).
   3. Push Boulder (3,7) UP to (3,6).
   4. Stand at (3,7). Push Boulder (4,7) RIGHT to (5,7).
