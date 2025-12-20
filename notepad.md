@@ -2,9 +2,7 @@
 - HM01 Cut (Hive Badge)
 - HM03 Surf (Gentleman in Dance Theater)
 - HM05 Flash (Zephyr Badge)
-- Plain Badge (Whitney): Used Strength outside battle, increases Speed.
-- Hive Badge (Bugsy): Used Cut outside battle.
-- Zephyr Badge (Falkner): Used Flash outside battle.
+- Badges: Zephyr, Hive, Plain.
 
 # Gym Prep: Morty (Ghost)
 - Team: Gastly, Haunter, Gengar (Ghost/Poison).
@@ -25,25 +23,15 @@
 - EGG (CLEFFA) Lv5
 
 # Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- TALL_GRASS: Traversable. Chance of wild encounters.
-- LEDGE_HOP_DOWN: One-way traversable (down only).
-- WARP_CARPET: Map transition point.
-- Objects (NPCs, Signs): Impassable. Interaction from adjacent tile.
-- WARP (Hole/Ladder): Triggers map transition.
-- COUNTER: Impassable, interact over it.
 - PIT: Warp tile that resets position to the Gym entrance.
 - STATUE: Impassable background object.
+- COUNTER: Impassable, interact over it.
+- LEDGE_HOP: One-way traversable.
+- FLOOR: Traversable. WALL: Impassable.
 
 # Type Effectiveness (Verified)
-- Normal vs Dark (Umbreon): Neutral damage.
-- Normal vs Psychic (Espeon): Neutral damage.
-- Ground vs Dark (Umbreon): Neutral damage.
-- Ground vs Ghost/Poison (Haunter): Super Effective.
-- Fire vs Dark (Umbreon): Neutral damage.
-- Fire vs Psychic (Espeon): Neutral damage.
-- Rock vs Flying/Poison (Zubat): Super Effective (4x).
+- Ground vs Ghost/Poison: Super Effective.
+- Rock vs Flying/Poison: Super Effective (4x).
 
 # Trainer Rosters
 ## Dance Theater
@@ -51,22 +39,13 @@
 
 # Locations
 ## Ecruteak City (4_9)
-- Burned Tower Entrance: (5, 5).
-- Pokemon Center: (23, 27).
-- Dance Theater: (23, 21).
-- Tin Tower Entrance: (18, 11).
-- Ecruteak Gym Entrance: (6, 27).
-- Building at (5, 21).
-- Building at (13, 27).
+- Pokemon Center: (23, 27), Gym: (6, 27), Dance Theater: (23, 21).
 
 ## Burned Tower 1F (3_13)
-- Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
-- Holes to B1F: (5, 14), (14, 14), (15, 14), (7, 15), (10, 9), (4, 14), (15, 4), (15, 5), (5, 5), (5, 6), (4, 6).
+- Entrance: (9, 15), Holes to B1F: (5, 14), (14, 14), (10, 9), etc.
 
 ## Burned Tower B1F (3_14)
-- Exit Ladder: (7, 15).
-- Arrival from 1F hole: (10, 9).
-- Legendary Beasts: Released (Turn #4995). Raikou, Entei, and Suicune fled.
+- Exit Ladder: (7, 15). Legendary Beasts released (Turn #4995).
 
 ## Ecruteak Pokecenter 1F (4_3)
 - Nurse: (3, 1) area (behind counter).
