@@ -93,3 +93,5 @@
 - **Battle Decision:** Eusine sending out Electrode (Electric).
 - **Matchup:** Muscle (Fighting/Ground move) vs Electrode (Electric). Dig is 2x Super Effective.
 - **Action:** Staying in with Muscle (Select NO to switch). Muscle is Lv 37 vs Lv 25. Dig should OHKO.
+- **Battle Strategy:** Keeping Muscle in. Electrode is fast, but Muscle can tank a hit and OHKO with Dig.
+- **Action:** Confirming 'NO' to switch.
