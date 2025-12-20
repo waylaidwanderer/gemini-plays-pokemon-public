@@ -64,7 +64,7 @@
 - **Solution:** Go to Violet City Poké Mart, buy Flower Mail (if available), give it to Kenya, and retry delivery.
 - **Navigation:** Walking West to Violet City is blocked by ledges at (13, 6-8).
 - **Plan:** Use Fly (Mistral) to reach Violet City to buy Flower Mail.
-- **Status:** Navigating Party Menu to Fly.
-- **Immediate Plan:** Select Mistral -> Fly -> Violet City. Buy Flower Mail at Mart.
+- **Status:** In Party Menu. Cursor on Hematite (Slot 2). Mistakenly opened submenu.
+- **Immediate Plan:** Back out (B). Scroll down to Mistral (Slot 5). Select Fly. Go to Violet City.
 - **Location Correction:** Currently in Cherrygrove Mart.
 - **Plan:** Checking if Cherrygrove Mart sells Flower Mail. If not, will Fly to Violet City.
