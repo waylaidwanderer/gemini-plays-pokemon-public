@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion.
-- **Immediate Plan:** Get SecretPotion from Pharmacy, then return to Olivine.
+- **Immediate Plan:** Go to PC to make room, get Shuckie, then challenge Gym Leader Chuck for the Badge and Fly.
 
 ## Party Status
 - **Muscle (Machoke):** Lv 36.
