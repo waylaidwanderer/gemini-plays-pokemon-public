@@ -45,9 +45,13 @@
 - **Matchup:** Muscle vs Primeape/Poliwrath. Beware DynamicPunch confusion.
 - **Battle Result:** Lost to Chuck. Wiped out by Poliwrath.
 - **Current Status:** Respawned at Cianwood Center. Team fully healed. Money: 8923.
-- **Immediate Goal:** Check Cianwood Pharmacy for Super Potions.
-- **Contingency:** If Pharmacy doesn't sell potions, check for Mart or grind.
+- **Immediate Goal:** Buy supplies at Pharmacy.
+- **Shopping List:**
+  - **Hyper Potions:** Better value/slot efficiency for Muscle (127 HP). Aim for 4-5.
+  - **Full Heals:** Essential for DynamicPunch Confusion. Aim for 4-5.
 - **Rematch Strategy:**
   - Muscle (Lv 39) must be full HP for Poliwrath.
-  - Use Garnet or others to weaken Primeape if possible, or just Muscle if she can one-shot.
-  - Poliwrath Strategy: Status (Sleep/Paralyze) is key.
+  - Use Full Heals to cure Confusion immediately. Do not rely on switching (free hits for Poliwrath).
+  - Use Hyper Potions to stay out of crit range.
+  - Muscle's Strength is the main damage source.
+- **Gym Trainers:** Defeated Yoshi, Lao, Nob, Lung.
