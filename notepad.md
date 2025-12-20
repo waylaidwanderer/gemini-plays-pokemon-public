@@ -23,10 +23,7 @@
 
 ## Navigation Log
 - **Recent:** Obtained Storm Badge (Cianwood), Mineral Badge (Olivine). Fly to Violet City successful.
-- **Next:** Route 31 -> Route 44? No, Route 31 -> Route 32 -> Union Cave? No, Mahogany is East of Ecruteak (Route 42) or East of Violet (Route 31 -> 30 -> 29 -> ?).
-  - Actually, Mahogany Town is East of Ecruteak (Surf across Route 42).
-  - Wait, why am I delivering mail *now*? Because I am here.
-  - After delivering mail, I should Fly to Ecruteak and go East to Route 42.
+- **Next:** Route 31 (Deliver Mail) -> Fly Ecruteak -> Route 42 -> Mahogany Town.
 
 ## Gyms & Badges
 - **Obtained:** Zephyr, Hive, Plain, Fog, Storm, Mineral.
