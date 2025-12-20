@@ -76,3 +76,5 @@
 - **Battle Strategy:** Haunter is Ghost (Weak to Ground/Psychic/Ghost/Dark). Shuckie's Normal moves do 0 damage. Haunter is likely low HP (Ember + Curse cost).
 - **Plan:** Using Super Potion on Muscle (Slot 1). Then switching Muscle in to Dig.
 - **Inventory:** Found Super Potion. Using it now.
+- **Action:** Executing heal on Muscle (Slot 1).
+- **Matchup Note:** Haunter's Ghost moves (Lick) are Physical in Gen 2. Shuckle has massive Defense. Shuckie is safe.
