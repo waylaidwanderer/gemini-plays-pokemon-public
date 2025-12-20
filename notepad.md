@@ -84,3 +84,6 @@
 - **Action:** Opening Party Menu to select Mistral.
 - **Correction:** Currently in Pack menu. Need to exit and open Party menu to Fly.
 - **Action:** Backing out of Pack (`B`), selecting Pokémon (`Up`), and opening Party (`A`).
+- **Correction:** Was stuck in Party Submenu (cursor on CANCEL), not on Map.
+- **Action:** Pressing `B` to reset submenu, then `A` `A` to select Fly.
+- **Next:** Navigate Fly Map to Violet City.
