@@ -21,6 +21,7 @@
 
 # Observed Movesets
 - Swimmer Kaylee (17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
+- Swimmer Simon (18, 15): Tentacool (Lv20) uses Peck (predicted).
 
 # Type Effectiveness (Gen 2 Observed)
 - Fire: Resisted by Water.
@@ -28,8 +29,10 @@
 - Poison: Resists Fighting (Oddish).
 
 # Strategy for Primary Goal
-- Current Goal: Defeat Gym Leader Chuck.
 - Method: Teach HM04 Strength to GNEISS. Surf back to Cianwood City. Enter the Gym. Boulder Puzzle Solution: Push the boulder at (3, 7) UP once, push the boulder at (5, 7) UP once, then push the middle boulder at (4, 7) LEFT or RIGHT to clear the path.
+
+# Strategy for Secondary Goal
+- Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
@@ -48,4 +51,4 @@
 - Start Turn: 6328 (Entering Gym)
 - Defeated: Yoshi (3, 12), Lao (5, 12), Nob (3, 9).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
-- Status: Obtained HM04 Strength from Sailor in Olivine Cafe. Need to teach it and return to Cianwood.
+- Status: Strength taught to GNEISS. Returning to Cianwood.
