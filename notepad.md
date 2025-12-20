@@ -39,7 +39,7 @@
 # Strategy
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Gym trainers and Morty.
-- Healed GNEISS with 2 Berries (Turn #5107). HP: ~54/82.
+- Healing GNEISS with 2 Berries (Turn #5108). Target HP: ~54/82.
 
 # Gym Puzzle Notes
 - Sightline Theory: The invisible path follows the trainers' sightlines.
