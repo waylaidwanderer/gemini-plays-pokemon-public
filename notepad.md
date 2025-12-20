@@ -36,6 +36,7 @@
 - Turn 5718: Reached Jasmine at top of Olivine Lighthouse.
 
 # Strategy: Get SecretPotion from Cianwood
+- Task Started: Turn 5863.
 - Current Location: Olivine City harbor (Dead end).
 - Task: Return to land and find the beach on the west side of Olivine City to access Route 40.
 - Route: Route 40 beach is west of the main city area. Surf south from there to Cianwood.
