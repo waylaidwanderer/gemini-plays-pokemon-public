@@ -40,7 +40,7 @@
 - Sailor Huey (11, 3, 2F): Poliwag Lv18, Poliwhirl Lv18. Defeated.
 - Bird Keeper Theo (3, 9, 3F): Pidgey Lv17, Pidgey Lv15, Pidgey Lv15, Pidgey Lv15. Defeated.
 - Gentleman Preston (13, 5, 3F): Growlithe Lv18, Growlithe Lv18. Defeated Turn 5602.
-- Lass Connie (11, 2, 4F): Marill Lv21. In progress Turn 5606.
+- Lass Connie (11, 2, 4F): Marill Lv21. Defeated Turn 5609.
 
 # Map Notes (Olivine Lighthouse)
 - 3F Eastern Section: Ladder to next floor at (13, 3).
