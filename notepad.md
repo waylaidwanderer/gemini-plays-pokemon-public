@@ -57,4 +57,4 @@
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # Training Logs
-- KIMCHI Training started Turn 6708. Current Level: 14.
+- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6823).
