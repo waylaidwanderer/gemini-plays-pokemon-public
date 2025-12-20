@@ -49,4 +49,4 @@
 
 # Kimono Girls Progress
 - Miki (Jolteon): Defeated (Turn #4809).
-- Kimono Girl at (9, 1): Challenging.
+- Kuni (Vaporeon): Battling (Turn #4814).
