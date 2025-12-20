@@ -34,13 +34,12 @@
 - Ground: Super effective against Poison.
 
 # Strategy for Primary Goal (Defeat Chuck)
-- Method: Teach HM04 Strength to GNEISS. Surf back to Cianwood City. Enter the Gym. Boulder Puzzle Solution: Push the boulder at (3, 7) UP once, push the boulder at (5, 7) UP once, then push the middle boulder at (4, 7) LEFT or RIGHT to clear the path.
 - Team Analysis:
-  - Calcifer (QUILAVA) Lv34: 22/94 HP. Hyper Potion consumed.
+  - Calcifer (QUILAVA) Lv34: Fainted (Turn 6665).
   - GNEISS (GRAVELER) Lv35: Weak to Fighting and Water.
   - KIMCHI (ODDISH) Lv10: Poison resists Fighting. Needs training.
-  - SHUCKIE (SHUCKLE) Lv15: High defense, but weak to Water.
-- Strategy: Use Smokescreen to lower Poliwrath's accuracy. Use Headbutt to chip away health (better damage than resisted Fire moves).
+  - SHUCKIE (SHUCKLE) Lv15: High defense.
+- Strategy: Send SHUCKIE to tank hits. Use REVIVE on Calcifer. Bring Calcifer back to finish Poliwrath (Accuracy -2).
 
 # Strategy for Secondary Goal
 - Method: Deliver SecretPotion to Jasmine. Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
@@ -51,7 +50,7 @@
 # Gym Progress
 - Gym Challenge Started: Turn 6328
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
-- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) is at 22/94 HP. Used Hyper Potion (Turn 6657). Poliwrath Accuracy: -1. Chuck's Surf missed Turn 6663.
+- Currently Battling: Leader Chuck (4, 1). Primeape (Lv27) defeated. Poliwrath (Lv30) is out. Calcifer (Lv34) fainted (Turn 6665). Poliwrath Accuracy: -2. Used Hyper Potion (Turn 6657).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
 # NPC Locations
