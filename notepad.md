@@ -14,9 +14,21 @@
 - Boulder Dialogue: "A POKéMON may be able to move this" = Strength (HM04). "A POKéMON may be able to smash this" = Rock Smash.
 - Gym Access: Cianwood Gym requires Strength to reach the Leader.
 - Battle Mechanics: FIRE moves are Special in Gen 2. HEADBUTT is a Physical Normal-type move that can cause flinching.
+- Surfing: Allows traversal of WATER tiles (requires HM03 and Fog Badge).
 - NPC Interaction: Face the counter, not the NPC, to interact with Nurses/Clerks.
 - Input Handling: Do not mix directional and action buttons in the same `press_buttons` call.
-- Swimmer Kaylee (17, 2): Uses Goldeen (Lv18), Goldeen (Lv20), Seaking (Lv20).
+
+# Observed Movesets
+- Swimmer Kaylee (17, 2): Goldeen (Lv18/20) and Seaking (Lv20) use Peck.
+
+# Type Effectiveness (Gen 2 Observed)
+- Fire: Resisted by Water.
+- Normal: Neutral against Water.
+- Poison: Resists Fighting (Oddish).
+
+# Strategy for Primary Goal
+- Current Goal: Obtain HM04 Strength.
+- Method: Return to Olivine City. Enter the house located next to the Pokémon Center. Talk to the NPC inside to receive the HM.
 
 # Battle Strategy: Cianwood Gym (Chuck)
 - Type: Fighting. Weaknesses: Flying, Psychic.
