@@ -5,11 +5,11 @@
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
 - **Current Action:** Deliver Kenya to Route 31.
-  1. **Status:** Mail verified. Exiting Pokemon Center.
-  2. **Step 1:** Exit to Violet City (Press Down).
-  3. **Step 2:** Travel East to Route 31 Gate.
-  4. **Step 3:** Locate Sleeping Fisher.
-  5. **Step 4:** Deliver Kenya.
+  1. **Status:** Inside Route 31 Gatehouse.
+  2. **Step 1:** Cross Gatehouse to Route 31 (Exit East).
+  3. **Step 2:** Locate Sleeping Fisher on Route 31.
+  4. **Step 3:** Deliver Kenya (holding mail).
+  5. **Contingency:** If delivery fails again, double-check mail content (unlikely, verified 3 times).
 
 ## Strategy & Lessons
 - **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
