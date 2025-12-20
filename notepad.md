@@ -71,3 +71,5 @@
 - **Battle Update:** Garnet is Cursed and Asleep (40/78 HP). Haunter is low HP. Trying to wake up and use Ember.
 - **Inventory:** Have 2 Awakenings if needed.
 - **Strategy:** Mash Fight/Ember. If HP gets critical, will use Item or Switch.
+- **Battle Strategy:** Switching to Shuckie (Shuckle) to tank hits. Normal moves (Pinsir/Heracross) are useless against Ghost. Shuckle has high Sp. Def.
+- **Next Steps:** Use Shuckle to stall while healing Muscle with Super Potion. Then sweep with Muscle's Dig.
