@@ -20,4 +20,6 @@
 # Swarm Events
 - Yanma: Route 35 (Turn 5683).
 - Turn 5688: Picked up SUPER REPEL at (6, 15).
-- Youngster Ronald at (8, 3) is next. Path: 3F Middle (9, 5) -> 4F Middle (9, 5) -> 4F Middle (9, 7) -> 5F South (9, 7) -> 5F South (9, 15) -> 6F -> Drop to 5F North.
+- Youngster Ronald at (8, 3) is next. Path: 4F East (16, 7) -> Balcony -> 5F/6F -> Drop to 5F North. (Testing theory)
+- Warp Verification: (16, 7) and (17, 7) on 4F are map transitions (walk RIGHT to trigger).
+- 5F (9, 15) ladder leads down to 4F (13, 3). Avoid for now.
