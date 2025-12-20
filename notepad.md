@@ -4,14 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Adding Period).
-  1. **Hypothesis:** The message rejected because it lacked a period.
-  2. **Plan:**
-     - Open Party -> Kenya -> Take Mail (Keep in Bag).
-     - Give fresh Flower Mail.
-     - Type: "DARK CAVE leads to another road." (Note the period).
-     - Deliver to Fisher.
-  3. **Step 1:** Open Start Menu.
+- **Current Action:** Fix Kenya's Mail (Taking Mail).
+  1. **Step 1:** Navigate to `MAIL` option (Current).
+  2. **Step 2:** Select `TAKE`.
+  3. **Step 3:** Confirm keeping mail in Bag (PC is full).
+  4. **Step 4:** Give fresh Flower Mail.
+  5. **Step 5:** Type: "DARK CAVE leads to another road." (With Period).
 
 ## Strategy & Lessons
 - **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
