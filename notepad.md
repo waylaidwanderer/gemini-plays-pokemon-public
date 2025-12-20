@@ -50,3 +50,4 @@
 - Normal vs Rock: Not Very Effective.
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
+- Sailor Eugene (13, 29): Currently battling.
