@@ -35,3 +35,4 @@
 
 ## Reminders
 - **Move Tutor:** Teach Strength to Muscle (replace Leer/Focus Energy) when possible.
+- **Route 41:** Blockage at (24, 39). Detouring West to Column 23 to continue South.
