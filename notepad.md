@@ -41,6 +41,10 @@
 
 # Berry Inventory
 - Standard BERRY: 0/7.
+- Mint Berry: 1
+- Bitter Berry: 1
+- Ice Berry: 1
+- PsnCureBerry: 1
 
 # Strategy & Exploration
 - Berry Search Method: Systematically check fruit trees on all previous routes.
