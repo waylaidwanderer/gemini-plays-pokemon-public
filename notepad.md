@@ -38,9 +38,8 @@
 - 5. Surf to Cianwood City (southwest of Olivine).
 - 6. Get medicine from Pharmacy and return.
 
-# PC Storage
-- Box 1: Sudowoodo (Lv20), Onix (Lv6), Pidgey (Lv11), Cleffa (Lv5).
-
-# Discovery Log
-- Turn 5764: Nurse Joy healed the party.
-- Turn 5791: Encountered wild Krabby at (6, 25). Catching to use as a Surfer.
+# PC Storage (Box 1)
+- Blarney (SUDOWOODO): Lv20
+- ROCKY (ONIX): Lv6
+- ICARUS (PIDGEY): Lv11
+- EGG (CLEFFA): Lv5
