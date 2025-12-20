@@ -45,4 +45,4 @@
 - Landmark: Battle Tower sign at (3, 23) in Olivine is near the Route 40 exit.
 - Objective in Cianwood: Find the Pharmacy and get the medicine.
 - Return: Bring medicine back to Jasmine at the top of Olivine Lighthouse.
-- Status: Battling Swimmer Paula at (12, 25) on Route 40. (Turn 5950)
+- Status: Battling Swimmer Paula at (12, 25) on Route 40. (Turn 5952)
