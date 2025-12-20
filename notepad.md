@@ -68,3 +68,6 @@
 - Always check for `is-warp="true"` in map XML before planning paths in dangerous areas like Burned Tower.
 - Use `find_path` tool to avoid manual coordinate errors.
 - Mark all holes/warps immediately to assist pathfinding logic.
+- Rival Malice Battle (Turn #4945):
+  - Malice sent out Haunter (Lv 20).
+  - GNEISS (Lv 26) is leading. Strategy: Magnitude.
