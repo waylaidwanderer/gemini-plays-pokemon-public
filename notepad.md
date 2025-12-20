@@ -45,8 +45,6 @@
 - Pokefan M (16, 33): Mentioned breaking rocks north of town.
 - Rock (5, 29): Breakable rock.
 - Rock (10, 27): Breakable rock.
-- Suicune sighting at (10, 14).
 
 # PC Storage (Box 1)
 - Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5.
-- Battle with Eusine: Started Turn 6223. Lead Calcifer fell asleep to Drowzee's Hypnosis. Switching to GNEISS.
