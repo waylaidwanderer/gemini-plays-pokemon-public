@@ -24,7 +24,7 @@
     - Found gap in buoys at Column 24.
     - Defeated Swimmers Charlie, Susie, Berke, and Denise.
     - Moving South towards Cianwood.
-    - Defeated Swimmer Mathew. South blocked by buoys at Row 53. Detouring West.
+    - Defeated Swimmer Mathew. South blocked by buoys at Row 53. Found passage West to Cianwood at Row 45.
 
 ## Hints & Lore
 - **Whirl Islands:** Swimmer Berke mentioned a secret about the islands blocked by whirlpools. (Likely Lugia).
