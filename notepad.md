@@ -4,13 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Navigate to Mart (Corrected Path).
-  1. **Current State:** At (28, 24).
-  2. **Plan:** Go Left to (27, 24), Up through gap at (27, 23), then West to Mart at (9, 17).
-  3. **Goal:** Buy Flower Mail.
-  4. **Then:** Write "DARK CAVE leads to another road" and return to Fisher.
-- **Route Info:** Violet City -> Mart -> Route 31.
-- **Mail Status:** Resupplying.
+- **Immediate Action:** Buy Flower Mail.
+  1. **Current State:** Inside Violet Mart.
+  2. **Plan:** Walk to Clerk (3, 3), Buy 3x Flower Mail.
+  3. **Then:** Equip Mail to Kenya, Write Message, Return to Route 31.
+  4. **Target:** Fisher at (17, 7).
+- **Route Info:** Violet Mart -> Route 31.
+- **Mail Status:** Buying new stock.
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
