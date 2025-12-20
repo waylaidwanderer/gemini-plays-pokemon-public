@@ -24,7 +24,7 @@
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 - Sage Ping, Medium Grace, Sage Jeffrey, Medium Martha, Leader Morty: Defeated. (Ecruteak Gym)
-- Beauty Valerie: Hoppip (D), Skiploom (Active).
+- Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
 
 # Lessons Learned
 - Pit Warps: XML `is-warp='true'` or `type='PIT'` are hazards in Ecruteak Gym.
