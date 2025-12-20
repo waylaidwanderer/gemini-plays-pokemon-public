@@ -34,7 +34,7 @@
 - **Boulder Puzzle Strategy (Corrected):**
   1. Push Left Boulder (3,7) UP. [x]
   2. Push Right Boulder (5,7) UP. [x]
-  3. Push Middle Boulder (4,7) RIGHT (to 5,7). [x]
+  3. Push Middle Boulder (4,7) RIGHT (to 5,7).
   4. Walk North through (4,7) -> (4,6).
 - **Plan:** Defeat trainers and Chuck.
 - **Exploration Update:** Surfing East/North from the beach at (13, 16) is blocked by rocks and buoys. The "channel" at Col 18 is a dead end.
