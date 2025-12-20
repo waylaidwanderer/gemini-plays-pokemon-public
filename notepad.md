@@ -4,13 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Immediate Action:** Confirm Fly to Violet City.
-  1. **Current State:** Fly Map Open. Screen text confirms "Violet City".
-  2. **Action:** Press `A` -> `A` to fly.
-  3. **Next Turn:** Arrive in Violet City -> Walk East to Route 31.
-  4. **Target:** Sleeping Man (Cooltrainer M) on Route 31.
-- **Route Info:** Must approach Fisher/Sleeping Man from the West (Violet City side).
-- **Mail Status:** Kenya holding mail with message "DARK CAVE leads to another road" (verified in mind, need to re-verify if delivery fails).
+- **Immediate Action:** Navigate to Sleeping Man (Cooltrainer M) at (33, 9).
+  1. **Current State:** On Route 31, moving East.
+  2. **Plan:** Walk to (32, 9) to interact with the man at (33, 9).
+  3. **Interaction:** Talk to the man.
+  4. **Contingency:** If he accepts, great. If not, check mail content again.
+  5. **Next:** Go to Mahogany Town.
+- **Route Info:** Staying on the upper path (Row 8/9) to reach Dark Cave area.
+- **Mail Status:** Kenya holding mail with message "DARK CAVE leads to another road".
 
 ## Party Status
 - **Team:** Muscle (41), Garnet (28), Hematite (15), Azurite (13), Lapis (12), Mistral (13), Kenya (10).
