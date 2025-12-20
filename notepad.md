@@ -50,10 +50,10 @@
 - Normal: Neutral against Water.
 - Poison: Resists Fighting (Oddish).
 - Grass: Super Effective against Water.
-- Fighting: Super Effective against Rock/Steel (assumed), resisted by Poison/Flying/Psychic/Bug/Fairy (wait, Fairy doesn't exist in Gen 2). Resisted by Poison.
+- Fighting: Resisted by Poison.
 
 # PC Storage (Box 1)
-- Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16.
+- Blarney (SUDOWOODO) Lv20, ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
 
 # Gym Progress
 - Gym Challenge Started: Turn 6328
