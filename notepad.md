@@ -46,3 +46,4 @@
 - Normal vs Rock: Not Very Effective.
 - Electric vs Ground: Immune.
 - Normal vs Water: Neutral.
+- Pokefan Ruth (11, 19): Pikachu Lv17. Defeated.
