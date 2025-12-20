@@ -2,8 +2,7 @@
 - Observation: Jasmine uses Steel-type Pokémon (2x Magnemite Lv30, Steelix Lv35).
 - Weaknesses: Fire, Fighting, Ground.
 - Team Assets: Calcifer (Fire), GNEISS (Ground), Blarney (Fighting move: Low Kick).
-- Plan: Lead with Calcifer (Flame Wheel). Use GNEISS (Magnitude) as backup.
-- Current Status: Battle in progress. Magnemite #1 and Steelix defeated. Magnemite #2 is next.
+- Plan: Use Calcifer's FLAME WHEEL as the primary weapon. Special Fire moves bypass Steel-type physical bulk.
 
 # Strategy for KIMCHI Training
 - Training Route: Surf Route 40/41.
@@ -51,7 +50,6 @@
 - ROCKY (ONIX) Lv6, ICARUS (PIDGEY) Lv11, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5.
 
 # Progress & Logs
-- Status: Amphy cured. Battle with Jasmine in progress.
 - Gym Progress: 4/8 Badges.
 - KIMCHI Training: Lv15. Target: Lv21+ for evolution.
 
@@ -68,9 +66,5 @@
 - Lass at (13, 4) in 4F: Non-battling NPC. Mentions JASMINE and the GYM.
 
 ## Current Task: Defeat Jasmine
-- Start Turn: 7011
-- Current Position: Olivine Gym (Battle)
-- Plan:
-    1. Stay with Calcifer (Select NO when asked to switch).
-    2. Use FLAME WHEEL on Steelix.
-    3. Defeat second Magnemite with FLAME WHEEL.
+- Start Turn: 7021
+- Plan: Defeat Jasmine's team using Calcifer's FLAME WHEEL.
