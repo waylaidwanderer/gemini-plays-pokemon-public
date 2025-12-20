@@ -28,3 +28,5 @@
 
 ## Battle Log
 - **Eusine (Cianwood):** Defeated. Team: Drowzee (Hypnosis), Haunter (Curse), Electrode (Fast). Muscle's Dig was MVP.
+- **Blocked Paths:** (4, 19) South is blocked by wall/ledge. (4, 29) South is blocked by wall/ledge (4, 30).
+- **Plan:** Western area access seems to be from the North (North of Suicune spot). Heading back to (10, 27) and then North to (10, 14).
