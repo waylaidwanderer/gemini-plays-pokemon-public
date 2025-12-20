@@ -32,5 +32,5 @@
 - **Plan:** Western area access seems to be from the North (North of Suicune spot). Heading back to (10, 27) and then North to (10, 14).
 - **Exploration Update:** Surfing East/North from the beach at (13, 16) is blocked by rocks and buoys. The "channel" at Col 18 is a dead end.
 - **New Hypothesis:** The Gym is accessible by going North from the smashed rock location at (4, 19), passing to the left of the Poke Seer's house. I previously jumped South from there, but North seems unexplored.
-- **Investigation:** (10, 14) (Suicune spot) appears to be a dead end. No hidden items or entrances found.
-- **New Plan:** The western strip (Cols 0-2) seems to be the key. Access might be from the far South-West corner of the map (near the Pharmacy). Heading there to investigate.
+- **Investigation:** (10, 14) (Suicune spot) appears to be a dead end.
+- **New Plan:** Heading to the far South-West corner (Row 50+) to check for a path up the western coast. Access via column 11.
