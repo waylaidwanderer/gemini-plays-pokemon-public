@@ -3,24 +3,20 @@
 - Plan: Train KIMCHI (Oddish) to Lv21+ to evolve into Gloom. Deliver SecretPotion to Jasmine first to gain levels/money along the way.
 - Rematch Criteria: KIMCHI at Lv25+, Calcifer at Lv36+.
 
-# KIMCHI Training & Medicine Delivery (Started Turn 6708)
+# Strategy for Training & Medicine Delivery
 - Training Route: Surf Route 41 -> Route 40.
-- KIMCHI (ODDISH) Level: 14
-- Task: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
-
-# Strategy for Secondary Goal (Deliver SecretPotion)
-- Method: Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
+- Strategy: Return to Olivine City. Enter the Lighthouse. Take the stairs/elevator to 6F. Talk to Jasmine at (8, 8) to deliver the medicine to Amphy.
 
 # Game Mechanics & Systems
 ## Tile Mechanics
-- WATER (Traversable while surfing): Verified traversability in all directions.
-- FLOOR (Standard ground): Verified traversability in all directions.
-- WALL (Impassable barrier): Cannot be walked on.
-- BUOY (Impassable barrier in water): Cannot be walked on.
-- WHIRLPOOL (Impassable hazard): Requires specific HM to cross.
-- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers.
-- COUNTER: Impassable; interact with NPC behind it from adjacent tile.
-- BOULDER: Impassable; requires HM04 Strength to move.
+- WATER (Traversable while surfing): Individual behavior: Allows movement across water. Relational behavior: Can be entered from land or water. Mechanics: Requires HM03 SURF and Fog Badge. Verified traversability in all directions.
+- FLOOR (Standard ground): Individual behavior: Allows standard movement. Relational behavior: Can be entered from any adjacent traversable tile. Mechanics: Verified traversability in all directions.
+- WALL (Impassable barrier): Individual behavior: Cannot be walked on.
+- BUOY (Impassable barrier in water): Individual behavior: Cannot be walked on.
+- WHIRLPOOL (Impassable hazard): Individual behavior: Cannot be walked on. Mechanics: Requires specific HM (Whirlpool) to cross.
+- ROCK / BOOKSHELF / TV / RADIO / TOWN_MAP / STATUE: Impassable barriers. Individual behavior: Cannot be walked on.
+- COUNTER: Impassable. Individual behavior: Cannot be walked on. Relational behavior: Interact with NPC behind it from adjacent tile.
+- BOULDER: Impassable. Individual behavior: Cannot be walked on. Mechanics: Requires HM04 Strength to move.
 - PC: Interactable object for Pokémon/Item storage.
 - WARP: Leads to a different map or area.
 
@@ -32,6 +28,7 @@
 - NPC Interaction: Always face the counter tile, not the NPC sprite, when talking to Clerks or Nurses.
 - Confusion: Clears upon switching out or ending the battle.
 - XP Sharing: Switching a Pokémon out allows it to gain 50% of the battle experience.
+- Hallucination Note: Rival (Malice) does not appear on Route 40.
 
 # Battle and Pokemon Information
 ## Observed Movesets
@@ -58,7 +55,6 @@
 - Defeated: Yoshi (2, 12), Lao (7, 12), Nob (3, 9), Lung (5, 5).
 - Blocked: Boulders at (3, 7), (4, 7), (5, 7).
 
-# Training Logs
-- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6853). EXP: 1947. HP: 18/37.
-- Calcifer Level: 34. EXP: 36428. HP: 89/94.
+# Progress & Logs
+- KIMCHI Training started Turn 6708. Current Level: 14 (Turn 6861).
 - Lass at (11, 13) on Route 40: Non-battling NPC. Provides flavor text about Cianwood.
