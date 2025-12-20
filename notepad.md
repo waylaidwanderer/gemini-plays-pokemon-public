@@ -42,3 +42,4 @@
 # Tool Management
 - find_path_v2: Fixed JSON error and added (6,7) override. (Turn #5248 fix)
 - battle_strategist_v2: Use exact name for calls. (Turn #5245 fix)
+- Beauty Valerie (Route 38): Hoppip, Skiploom. Defeated.
