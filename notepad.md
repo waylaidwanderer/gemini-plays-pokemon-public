@@ -40,3 +40,7 @@
 - **Observation:** Potential land (FLOOR tiles) spotted at (28, 42). Possibly one of the Whirl Islands.
 - **Navigation:** Taking the Western channel (Cols 22-23) to bypass the buoy blockage and continue South/West towards Cianwood.
 - **Route 41:** Defeated Swimmer Wendy at (9, 50). Continuing West towards Cianwood.
+- **Cianwood City:** Arrived.
+    - Need to locate the Pharmacy for the SecretPotion.
+    - Gym Leader Chuck is here.
+    - Suicune might be here (saw it flee to the west earlier).
