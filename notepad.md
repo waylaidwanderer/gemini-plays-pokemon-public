@@ -60,7 +60,7 @@
 - Pokecenter: Nurse Joy (3, 1), Teacher (7, 1), Fisher (2, 3), Fishing Guru (8, 4).
 
 # Olivine Lighthouse Strategy
-- Plan: Explore floors systematically, defeating trainers to reach the top.
-- Step 1: Use the ladder at (3, 11) to reach 2F.
-- Step 2: Clear trainers on each floor and find the next upward path.
-- Step 3: Locate Gym Leader Jasmine and determine the needs of the sick Pokémon.
+- Plan: Systematically explore each floor to find the upward ladder while training the team.
+- Step 2: Clear trainers on 2F and find the ladder at (15, 11) to 3F.
+- Step 3: Repeat exploration on each floor until Jasmine is located at the top.
+- Step 4: Identify the sick Pokémon's requirements and fulfill them.
