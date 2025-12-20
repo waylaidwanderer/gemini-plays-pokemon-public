@@ -47,7 +47,7 @@
 - Sayo: Espeon
 - Naoko: Flareon
 ## Burned Tower
-- Malice: Haunter (Lv 20), Croconaw (Lv 22), Zubat (Lv ?)
+- Malice: Haunter (Lv 20), Croconaw (Lv 22), Zubat (Lv 20)
 
 # Burned Tower 1F (3_13)
 - Entrance: (9, 15) and (10, 15) from Ecruteak City (4, 4).
