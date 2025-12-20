@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Cure Jasmine's Ampharos (Lighthouse).
 - **Secondary Goal:** Travel to Cianwood City to get the SecretPotion (Completed).
-- **Immediate Plan:** Navigate to the Ladder at (3, 5) on the Left Side of 4F. Path: Move Left to Column 3 (Column 4 ends at Row 11), then proceed North to (3, 5).
-- **Quest Update:** The ladder at (13, 3) leads to 3F. The only way UP to 5F is the ladder at (3, 5). Confirmed Wall at (4, 11).
+- **Immediate Plan:** Navigate to the Right Side of 5F via the Row 2 corridor. Then, fall into the pit at (17, 7).
+- **Quest Update:** The Left Side of 5F connects to the Right Side via the top corridor (Row 2). The pit at (16, 7) led to a dead end on 4F. Testing (17, 7) next.
 - **Party Status:**
   - **Muscle (Machoke):** Lv 40.
   - **Garnet (Quilava):** Lv 28.
