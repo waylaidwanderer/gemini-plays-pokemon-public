@@ -4,11 +4,6 @@
 - HM05 Flash (Zephyr Badge)
 - Badges: Zephyr, Hive, Plain.
 
-# Gym Prep: Morty (Ghost)
-- Team: Gastly, Haunter, Gengar (Ghost/Poison).
-- Weaknesses: Ground, Psychic, Ghost, Dark.
-- Strategy: Use GNEISS (Graveler) with Magnitude.
-
 # Party
 - GNEISS (GRAVELER) Lv28: STAB Magnitude.
 - Calcifer (QUILAVA) Lv27
@@ -17,25 +12,27 @@
 - EGG (CLEFFA) Lv5
 
 # Tile Mechanics
-- PIT: Warp tile that resets position to the Gym entrance.
+- PIT: Warp tile that resets position to the Gym entrance. Identified by `is-warp='true'` in map data.
 - STATUE: Impassable background object.
 - COUNTER: Impassable, interact over it.
 - LEDGE_HOP: One-way traversable.
-- FLOOR: Traversable. WALL: Impassable.
+- FLOOR: Traversable (unless `is-warp='true'`). 
+- WALL: Impassable.
 
 # Trainer Rosters
 - Sage Ping: Gastly Lv16 x3.
-- Medium Grace: Haunter Lv20, Haunter (upcoming).
+- Medium Grace: Haunter Lv20 x2.
 
-# Locations
-- Ecruteak Gym (4_7): Entrance/Exit (4, 17), (5, 17). Morty is the Leader.
-- Invisible Path Strategy: Avoid tiles with `is-warp='true'` in Mental Map. Use find_path.
+# Gym Strategy: Morty (Ghost/Poison)
+- Weaknesses: Ground, Psychic, Ghost, Dark.
+- Strategy: Use GNEISS with Magnitude.
+- Invisible Path: Avoid all tiles with `is-warp='true'` or Pit markers. Use find_path tool.
 
 # Defeated Trainers
 - Malice (Burned Tower 1F): Haunter Lv20, Croconaw Lv22, Zubat Lv20, Magnemite Lv18.
 - Sage Ping (Ecruteak Gym): Gastly Lv16 x3.
+- Medium Grace (Ecruteak Gym): Haunter Lv20 x2.
 
 # Strategy
-- Avoid all tiles with `is-warp='true'` or Pit markers.
 - Use `find_path` to navigate between safe tiles.
 - Use battle_strategist_v2 for Gym trainers and Morty.
