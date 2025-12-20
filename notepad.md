@@ -72,3 +72,10 @@
 - **Observation:** Screen says "Currently selected destination: New Bark Town".
 - **Action:** Using `slow_press` [Left, Up, A] to Fly to Violet City.
 - **Goal:** Return to Violet City to modify the Flower Mail message to "DARK CAVE leads to another road".
+### Reflection (Turn 8214)
+- **Status:** Accidentally landed in Cherrygrove City (Fly input error).
+- **Immediate Task:** Fly to Violet City to fix the mail.
+- **Error Analysis:** The `slow_press` sequence for Fly `[Left, Up, A]` likely missed the `Up` input or confirmed `Cherrygrove` too early.
+- **Lesson:** Use longer delays or verifying steps for Fly map navigation.
+- **Map Hygiene:** Marked Fisher on Route 31 as the Mail Target.
+- **Plan:** Exit Pack -> Party -> Mistral -> Fly -> Violet City.
