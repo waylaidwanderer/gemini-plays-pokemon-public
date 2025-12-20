@@ -65,3 +65,5 @@
 - **Navigation:** Walking West to Violet City is blocked by ledges at (13, 6-8).
 - **Plan:** Use Fly (Mistral) to reach Violet City to buy Flower Mail.
 - **Menu Navigation Correction:** I was on CANCEL, moved up to Kenya. Now moving up to Mistral to Fly.
+- **Location Correction:** Currently in Cherrygrove Mart.
+- **Plan:** Checking if Cherrygrove Mart sells Flower Mail. If not, will Fly to Violet City.
