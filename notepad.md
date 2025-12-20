@@ -40,5 +40,5 @@
 
 # Trainer Teams & Progress (Route 39)
 - Psychic Norman (13, 7): Slowpoke Lv17, Slowpoke Lv20. Defeated.
-- Fruit Tree (9, 3): Discovered.
-- Moomoo Farmhouse (5, 3): Visited. Pokefans confirmed Miltank is sick.
+- Fruit Tree (9, 3): Obtained MINT BERRY.
+- Moomoo Farmhouse (5, 3): Visited. Pokefans confirmed Miltank is sick and needs berries. I have MINT BERRY and BITTER BERRY.
