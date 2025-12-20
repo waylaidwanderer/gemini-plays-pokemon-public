@@ -35,7 +35,3 @@
 - Sage Ping (Ecruteak Gym): Gastly Lv16 x3.
 - Medium Grace (Ecruteak Gym): Haunter Lv20 x2.
 - Sage Jeffrey (Ecruteak Gym): Haunter Lv22. (Turn #5095)
-
-# Strategy
-- Use `find_path` to navigate between safe tiles.
-- Use battle_strategist_v2 for Gym trainers and Morty.
