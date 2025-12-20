@@ -31,3 +31,4 @@
 ## Notes
 - **Tool Note:** `slow_press` defined for sticky menus.
 - **Battle Note:** Muscle's last move was Slot 4.
+- **Menu Mechanics:** Observed cursor memory in the Party Menu. It remembered the last position (Mistral, Slot 5) instead of resetting to Slot 1.
