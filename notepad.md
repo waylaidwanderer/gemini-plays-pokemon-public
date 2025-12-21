@@ -21,10 +21,11 @@
     - **CRITICAL DISCOVERY:** Map Data lists 'TeamRocketBaseB1FSecretSwitch' at **(19, 11)**.
     - This is the objective. No need to check random statues.
 - **Navigation Plan:**
-    - Confirmed Switch at (19, 11) is blocked from North by (19, 10) Wall.
-    - East path at (23, 9) is blocked by Wall.
-    - **Strategy:** Go South to (19, 9), then West to (7, 9), then South through gap at (7, 10) to loop around to the South side of the switch.
-    - **Caution:** Watch for cameras in the new area.
+    - Confirmed Switch at (19, 11).
+    - Scientist at (18, 12) blocks direct East access on Row 12.
+    - **Strategy:** Go East on Row 11 to (15, 11), then South to Row 13, then East to (19, 13), then North to (19, 12).
+    - **Expectation:** Crossing Row 12 at (15, 12) or (16, 12) may trigger Scientist battle.
+    - After switch, check Item Ball at (21, 12).
 
 ## Lessons Learned
 - **Check Map Data:** Always review 'Map Events -> Background Objects' for named objectives (like Switches) before searching blindly.
