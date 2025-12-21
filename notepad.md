@@ -20,7 +20,7 @@
 - Radio Tower 3F:
     - Rocket Grunt (6, 4): Weezing Lv26 - Defeated.
     - Rocket Grunt (5, 1): Koffing Lv23, Grimer Lv23, Zubat Lv23, Rattata Lv23 - Defeated.
-    - Scientist (9, 3): Magnemite Lv27 defeated. Second Magnemite next.
+    - Scientist (9, 3): Magnemite Lv27 defeated. Calcifer grew to Lv41. Second Magnemite next.
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
