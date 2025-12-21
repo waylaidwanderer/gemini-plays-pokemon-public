@@ -9,10 +9,10 @@
 - Logic: Order of switches matters. 3-2-1 is the standard solution from all-OFF state.
 - Start Turn: 9640
 
-## Switch Status (Turn 9764)
+## Switch Status (Turn 9766)
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🔴 OFF
+- Switch 1 (16, 1): 🔴 OFF (Moving to turn ON)
 
 ## Shutter States (Current: [ON, ON, OFF])
 - (2, 6): FLOOR (OPEN)
@@ -20,11 +20,11 @@
 - (12, 8): FLOOR (OPEN)
 - (16, 6): WALL (CLOSED)
 
-## Lessons Learned
-- Verify shutter states in XML after every switch interaction.
-- Order of operations is critical; resetting to a known state (all OFF) is the safest way to start a sequence.
-- Map markers must reflect the current state, not the intended state.
-- Paths are often wider than a single tile; check adjacent tiles for bypasses.
+## Switch-Shutter Observations (Current Hypothesis)
+- Switch 3 (Turn 9731): Turning ON made (2, 6) and (12, 8) FLOOR.
+- Switch 2 (Turn 9761): Turning ON (Waiting to see effect).
+- Switch 1 (Turn 9710): Turning ON made (12, 8) WALL.
+- The goal is to have (10, 6), (12, 8), and (16, 6) all as FLOOR to reach the exit.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
