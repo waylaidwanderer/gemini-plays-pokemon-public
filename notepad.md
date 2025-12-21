@@ -27,15 +27,13 @@
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping of switch-shutter relationships.
 - Experiment Log (Attempt 3):
-    1. Baseline (All OFF): All shutters in Row 6 are WALL (CLOSED). Verified.
+    1. Baseline (All OFF): All Row 6, 8, 9 shutters are WALL (CLOSED). Verified.
     2. Test 3.1: Switch 1 (16, 1) ON. 
-       - Status: 1:ON, 2:OFF, 3:OFF.
-       - Result: (16, 6) & (17, 6) OPEN. (10, 6) remains CLOSED.
-       - Conclusion: Switch 1 toggles the right-side shutters {16, 6; 17, 6}.
+       - Result: (16, 6), (17, 6), (12, 8), (12, 9) OPEN. (10, 6), (6, 8), (6, 9) CLOSED.
+       - Conclusion: Switch 1 toggles Right-side shutters.
     3. Test 3.2: Switch 2 (10, 1) ON.
-       - Status: 1:OFF, 2:ON, 3:OFF.
-       - Result: (10, 6), (16, 6), (17, 6) all remain CLOSED.
-       - Conclusion: Switch 2 does not affect the first row of shutters in isolation.
+       - Result: (10, 6), (6, 8), (6, 9) OPEN. (16, 6), (17, 6), (12, 8), (12, 9) CLOSED.
+       - Conclusion: Switch 2 toggles Left and Middle shutters.
     4. Test 3.3: Switch 3 (2, 1) ON.
        - Status: 1:OFF, 2:OFF, 3:ON.
        - Goal: Identify which shutters Switch 3 toggles.
