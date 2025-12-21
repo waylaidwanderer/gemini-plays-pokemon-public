@@ -25,8 +25,11 @@
 ### Final Sequence: 3-2-1
 - Step 1: Switch 3 ON (Turn 9993).
 - Step 2: Switch 2 ON (Turn 10002).
-- Step 3: Switch 1 ON (Done Turn 10010). Sequence 3-2-1 complete.
-- Goal: Reach Warehouse Entrance (likely south-east corridor).
+- Step 3: Switch 1 ON (Turn 10010). 
+- Result: (1, 1, 1) BLOCKED. (10,6) CLOSED, (16,6) CLOSED.
+
+### Interaction Testing
+- Turn 10012: Turning Switch 1 OFF to test (0, 1, 1) again.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
