@@ -133,22 +133,5 @@
         "action_counter": 8796
       }
     ]
-  },
-  "write_mail_dark_cave": {
-    "description": "Types 'DARK CAVE leads to another road.' on the mail screen. Handles case switching.",
-    "input_schema": {},
-    "python_script": "def main(input_data):\n    import json\n    buttons = []\n    \n    # Helper for navigation\n    # Grid is 10 cols x 6 rows\n    # 0,0 is Top-Left 'A'\n    curr_x, curr_y = 0, 0\n    \n    def move_to(target_x, target_y):\n        nonlocal curr_x, curr_y\n        seq = []\n        # Move Y\n        diff_y = target_y - curr_y\n        if diff_y > 0: seq.extend([\"Down\"] * diff_y)\n        elif diff_y < 0: seq.extend([\"Up\"] * (-diff_y))\n        \n        # Move X\n        diff_x = target_x - curr_x\n        if diff_x > 0: seq.extend([\"Right\"] * diff_x)\n        elif diff_x < 0: seq.extend([\"Left\"] * (-diff_x))\n        \n        seq.append(\"A\")\n        curr_x, curr_y = target_x, target_y\n        return seq\n\n    # 1. Reset cursor to top-left\n    buttons.extend([\"Up\"]*6 + [\"Left\"]*10)\n    curr_x, curr_y = 0, 0\n\n    # 2. Type \"DARK CAVE \" (Upper)\n    coords_upper = [\n        (3,0), (0,0), (7,1), (0,1), (6,2), # DARK_\n        (2,0), (0,0), (1,2), (4,0), (6,2)  # CAVE_\n    ]\n    for x, y in coords_upper:\n        buttons.extend(move_to(x, y))\n\n    # 3. Switch to Lowercase ('lower' at 0,5)\n    buttons.extend(move_to(0, 5))\n    \n    # 4. Type \"leads to another road.\" (Lower)\n    # Cursor stays at (0,5) after switch\n    coords_lower = [\n        (1,1), (4,0), (0,0), (3,0), (8,1), (6,2), # leads_\n        (9,1), (4,1), (6,2),                      # to_\n        (0,0), (3,1), (4,1), (9,1), (7,0), (4,0), (7,1), (6,2), # another_\n        (7,1), (4,1), (0,0), (3,0), (7,2)         # road.\n    ]\n    \n    for x, y in coords_lower:\n        buttons.extend(move_to(x, y))\n        \n    print(json.dumps(buttons))\n\nmain({})",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T02:16:45.584Z",
-        "action_counter": 9295
-      },
-      {
-        "commit_message": "Fix JSON output format to use double quotes and return a raw array.",
-        "timestamp": "2025-12-21T02:46:39.079Z",
-        "action_counter": 9334
-      }
-    ]
   }
 }
