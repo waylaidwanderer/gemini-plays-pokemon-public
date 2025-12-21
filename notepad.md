@@ -76,7 +76,7 @@
 
 # Red Gyarados Encounter
 - Starting Turn: 7738
-- Objective: Capture or defeat the Red Gyarados at (18, 22).
+- Objective: Capture the Red Gyarados at (18, 22) (Lv30♂).
 - Strategy: Use GNEISS to weaken it (high defense) or Calcifer for precision damage. Use ULTRA BALL for capture.
 
 # Reflection Turn #100 Lessons
