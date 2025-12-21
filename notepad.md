@@ -22,6 +22,7 @@
 - CUT_TREE: Verified impassable. Can be removed using Cut (HM01) and Hive Badge.
 - PC: Verified impassable. Interacting from below (facing UP) allows access.
 - LEDGE_HOP_DOWN: Verified one-way passage (Down only).
+- FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
 - ICARUS (PIDGEY): Lv15. Moves: Quick Attack, Sand-Attack, Gust, Fly. Current Lead.
@@ -53,7 +54,7 @@
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
 - Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
 - Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
-- Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7).
+- Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7). Mentions "MALICE" (rival) made fun of his Pokémon.
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
 - Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
 
@@ -69,6 +70,4 @@
 # Discovered Locations
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
-- NPC at (14, 7): Mentions "MALICE" (rival) made fun of his Pokémon.
 - Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
-- FLOOR_UP_WALL: Verified traversable.
