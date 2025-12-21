@@ -38,3 +38,4 @@
 - **Mahogany Mart:** Entered. Met Lance (6, 3). He confirmed the radio signal source is here.
     - Suspicious hidden stairs likely at (7, 3).
     - Plan: Talk to Lance to proceed.
+- **Security:** Triggered 'Intruder Alert' at (24, 3). Likely caused by the Persian Statues acting as sensors. Encountered Rocket Grunt.
