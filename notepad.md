@@ -34,3 +34,6 @@
 - Voltorb sprites on B2F are traps.
 - Boss door requires two passwords from grunts on B3F.
 - **Path to Boss:** B2F East -> B3F East -> B2F North -> B3F West.
+- **Navigation Log:**
+  - Turn 8362-8364: Attempted `find_path_v4` to (3, 6) but remained at (7, 3). Tool failing to execute movement.
+  - Turn 8371: Switching to manual `navigate` to reach (3, 6).
