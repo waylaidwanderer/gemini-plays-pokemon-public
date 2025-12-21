@@ -58,3 +58,5 @@
 - Observation: 'Up' input from Violet moved cursor to Azalea.
 - Hypothesis: 'Up' navigates the list forward (Violet -> Azalea -> Goldenrod?).
 - Action: Pressing 'Up' to target Goldenrod City.
+- Turn 9870: Selected Goldenrod City on Fly map. Executing Fly.
+- Next Step: Go to North Gate (Route 35 entrance) and talk to Webster to reset/fix the mail.
