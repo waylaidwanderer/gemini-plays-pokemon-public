@@ -29,6 +29,8 @@
 - Switch 3 OFF -> Opened shutters at (10, 6), (10, 7).
 - Switch 2 ON -> ???
 - Switch 1 ??? -> ???
+- Note: Order of flipping switches matters.
+- Gneiss is healed (112/112). Calcifer is low (36/135). Check for more healing items.
 
 # Switch Room Puzzle Observations (Map 3_54)
 - Switch 3 (2, 1) turned OFF: Opened shutters at (10, 6), (10, 7).
