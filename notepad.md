@@ -31,4 +31,4 @@
 - B1F: Checking for items or Ultra Balls.
 - B1F Layout: Left Corridor (Col 2) connects Row 10 to Row 1. Central Room (Col 4-7). Right Section (Col 8+).
 - Access Top Half: Go down to Row 10, enter Left Corridor, go Up.
-- Items: (14, 2). Found Ether at (10, 15). Attempted Burn Heal at (6, 3) (Bag Full).
+- Items: (14, 2). Found Ether at (10, 15), Burn Heal at (6, 3).
