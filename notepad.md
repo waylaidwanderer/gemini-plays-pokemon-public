@@ -7,7 +7,9 @@
 - Strategy: Systematic testing of switches to determine shutter logic.
 
 ## Systematic Testing
-- Baseline (0, 0, 0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN, (6,9) OPEN.
+- Baseline (0, 0, 0): (16,6) CLOSED, (12,8) CLOSED. Checking others.
+- Observed Shutter (16, 6): CLOSED (WALL at Turn 9954).
+- Observed Shutter (12, 8): CLOSED (WALL at Turn 9953).
 
 ### Test 1: Switch 1 (16, 1) -> ON
 - Status: Complete.
