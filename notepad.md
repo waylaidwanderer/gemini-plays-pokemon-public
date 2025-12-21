@@ -1,6 +1,6 @@
 # Radio Tower Crisis (Started Turn 8588)
 - **Primary Objective**: Clear Team Rocket from the tower and restore normal broadcasts.
-- **Progress**: 1F cleared of immediate threats. Currently clearing 2F.
+- **Progress**: 1F and 2F cleared of immediate threats. Currently sweep-clearing 3F.
 - **Strategy (HOW)**:
     1. Floor-by-floor sweep (1F -> 5F).
     2. Defeat all Rocket Grunts and Executives.
@@ -16,6 +16,7 @@
     - Rocket Grunt (8, 4): 4 Rattatas (Lv21-23) - Defeated.
     - Rocket Grunt (4, 1): 2 Zubats (Lv26) - Defeated.
     - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated (Turn 8709).
+- Radio Tower 3F: Sweep in progress.
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
@@ -27,16 +28,9 @@
 - **NPC/Item Sprites**: Walls; stop sliding.
 
 # Completed Badges
-- Zephyr Badge (Violet City)
-- Hive Badge (Azalea Town)
-- Plain Badge (Goldenrod City)
-- Fog Badge (Ecruteak City)
-- Storm Badge (Cianwood City)
-- Mineral Badge (Olivine City)
-- Glacier Badge (Mahogany Town)
+- Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
 
 # Navigation Notes
 - **Counter Interaction**: Face the counter, not the NPC.
-- **Whirlpool**: Requires Glacier Badge.
-- **Fly Map (Goldenrod)**: From New Bark Town, the sequence is 3 Ups, 6 Lefts, then 1 Up to land on Goldenrod City. The menu is "sticky", so use discrete presses or the `fly_to_v1` tool.
+- **Fly Map (Goldenrod)**: From New Bark Town, 4 Ups and 6 Lefts. Menu is "sticky"; use discrete presses or `fly_to_v1`.
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
