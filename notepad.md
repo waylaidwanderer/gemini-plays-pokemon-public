@@ -21,12 +21,12 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- ICARUS (PIDGEY): Lv16. Moves: Quick Attack, Sand-Attack, Gust, Fly.
-- KIMCHI (GLOOM): Lv21. Evolved from Oddish.
-- GNEISS (GRAVELER): Lv36.
-- Calcifer (TYPHLOSION): Lv36.
-- Ravioli (KRABBY): Lv10.
-- Blarney (SUDOWOODO): Lv20.
+- GNEISS (GRAVELER): Lv36 (98/101 HP). Leading.
+- ICARUS (PIDGEY): Lv16 (13/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
+- Calcifer (TYPHLOSION): Lv36 (112/114 HP).
+- KIMCHI (GLOOM): Lv21 (57/57 HP). Evolved from Oddish.
+- Ravioli (KRABBY): Lv10 (27/27 HP).
+- Blarney (SUDOWOODO): Lv20 (60/60 HP).
 
 # General Mechanics & Tools
 - Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
