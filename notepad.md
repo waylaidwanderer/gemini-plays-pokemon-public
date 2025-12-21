@@ -47,19 +47,18 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Fix Kenya's Mail.
-  1. **Status:** Mail reads "DARK CAVE" (Incomplete).
-  2. **Action:** TAKE mail to reset it.
-  3. **Plan:**
-     - Select TAKE (Down, A).
-     - Exit Party Menu (B).
-     - Open Pack.
-     - Give Flower Mail to Kenya.
-     - Type: "DARK CAVE leads to another road." (Carefully).
+  1. **Status:** Mail icon visible on Kenya. "TAKE" action likely failed or wasn't confirmed.
+  2. **Plan:**
+     - Open Kenya's menu (A).
+     - Select MAIL -> TAKE.
+     - Ensure mail is removed (Icon disappears).
+     - Open Pack -> Give Flower Mail.
+     - Type: "DARK CAVE leads to another road." (Avoid START button).
 
 ## Maintenance
 - **Tool Fix:** Manual typing requires extreme caution.
 
-## Reflection (Turn 9293)
-- **Observation:** Mail text verified as "DARK CAVE". Incorrect/Incomplete.
-- **Cause:** Likely hit "END" prematurely during previous typing.
-- **Next:** Take mail, retry composition.
+## Reflection (Turn 9294)
+- **Observation:** Mail icon still present.
+- **Hypothesis:** Did not confirm "TAKE" or input sequence was interrupted.
+- **Action:** Retrying removal process carefully.
