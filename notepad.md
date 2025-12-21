@@ -42,4 +42,4 @@
 # Switch Testing Log
 - State at Turn 9909: 1:ON, 2:ON, 3:ON. Shutters (10,6), (16,6), (6,8) CLOSED. (2,6), (12,8) OPEN.
 - Goal: Reset to all OFF and test individual switches.
-- Turn 9910: Moving to turn Switch 2 OFF.
+- Turn 9911: Turned Switch 2 OFF. Moving to Switch 3.
