@@ -44,4 +44,4 @@
 - 2F: Cleared.
 - 3F: Cleared (accessible areas).
 - 4F: Scientist Rich and one Rocket Grunt defeated on left side.
-- 5F: Reached. Target: Director's Office.
+- 5F: Found fake Director. Interacting at (0, 4).
