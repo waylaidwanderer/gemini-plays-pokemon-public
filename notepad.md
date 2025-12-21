@@ -51,3 +51,7 @@
 - Fly Map Logic Confirmed: 'Up' cycles through the town list in standard Johto order (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod).
 - Prediction: Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage.
 - Action: Pressing 'Up' x5 to reach Lake of Rage from Goldenrod.
+- Arrived at Lake of Rage.
+- Phone Call (Wade): Bug-Catching Contest is at National Park today.
+- Plan: Talk to Gramps at (20, 26), then Surf to find Red Gyarados.
+- Battle Strat: Use Muscle's Rock Smash (Not Very Effective) to weaken Gyarados safely.
