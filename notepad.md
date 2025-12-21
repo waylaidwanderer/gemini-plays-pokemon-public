@@ -24,3 +24,6 @@
 
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
+
+# Current Battle
+- Grunt #3 (3, 2): Koffing (Lv24). Strategy: Flame Wheel.
