@@ -1,8 +1,7 @@
 # Goldenrod Radio Tower Takeover (Started Turn 8588)
 ## Strategy
-- Use Basement Key at (18, 6) in Goldenrod Underground to access the Warehouse.
-- Rescue the real Director and obtain the Card Key.
-- Use Card Key on 3F Shutter in the Radio Tower.
+- Solve the Switch Room puzzle in Map 3_54 to reach the Underground Warehouse.
+- Obtain the Card Key from the real Director.
 
 ## Tower Intel
 - **Card Key Slot**: 3F (14, 2).
@@ -29,14 +28,13 @@
 
 ## Battle Mechanics
 - **Menu Transitions**: Use 1000ms sleep for sub-menus.
-- **Move Menu**: The menu WRAPS (Up at 0 -> 3). It REMEMBERS its position within the same battle for the active Pokemon. Switching in a new Pokemon resets the cursor to 0.
+- **Move Menu**: The menu WRAPS (Up at 0 -> 3). It REMEMBERS its position for the active Pokemon. Switching in a new Pokemon resets its cursor to 0.
 - **Curse Status**: Deals 1/4 max HP damage every turn. Switching out CLEARS the Curse.
 
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Strategy for Magnemite: Calcifer (Lv43) uses Flame Wheel.
+- Strategy for Magnemite: Calcifer (Lv43) uses Flame Wheel (Index 0).
 
 ## Hypotheses
-- **Basement Key**: The fake Director likely had the key to the Underground Warehouse. (Confirmed)
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
