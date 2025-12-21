@@ -45,3 +45,6 @@
 - **Observation:** Menu option is "ITEM", not "MAIL".
 - **Hypothesis:** Kenya is holding a regular item (e.g. Berry) preventing Mail attachment.
 - **Action:** Select ITEM -> TAKE to clear the slot.
+- **Confusion:** Menu said "ITEM" but previous error said "MAIL".
+- **Action:** Selecting TAKE to remove whatever is held.
+- **Expected:** Either an item is removed, or the "Send to PC?" prompt for mail appears.
