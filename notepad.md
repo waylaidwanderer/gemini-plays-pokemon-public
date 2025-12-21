@@ -9,38 +9,35 @@
 - **NPC/Item Sprites**: All sprites have collision and act as walls.
 
 # Team Rocket Base Investigation (Mahogany Town)
-- **Start Turn:** 7917 (Mahogany Mart), 8051 (B2F), 8256 (B2F Exploration)
 - **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained. Alarms disabled on B1F.
-
-## Map: Team Rocket Base B2F (3_50)
-- **Navigation:** The central column (Col 23) is a wall. The only passage is at (23, 16).
-- **Security:** Voltorb sprites (e.g., (7, 9), (22, 7-15)) are hidden traps. Approaching them triggers a Voltorb battle.
-- **Objects:**
+- **B1F (3_49):**
+  - (27, 2): Entrance Ladder (from Mart).
+  - (3, 14): Ladder to B2F West (South section).
+  - (5, 15): Warp panel (shortcut) to (25, 2).
+  - (16, 12): Scientist Jed (Defeated).
+  - (19, 11): Secret Switch (Disables Statues). Interact from (19, 12).
+- **B2F (3_50):**
+  - (3, 14): Ladder to B1F West (South section).
+  - (27, 14): Ladder to B3F East.
   - (14, 12), (15, 12): Locked Doors to Transmitter Room.
-  - (3, 10): Item Ball.
-  - (5, 13): Lance (Heals party).
-  - (21, 14), (25, 13): Rocket Grunts.
-- **Warps:**
-  - (3, 14): Ladder to B1F West.
-  - (27, 14): Ladder to B3F East (Entry Point 4).
+  - (14, 9): Radio Transmitter.
+  - (23, 16): Passage between East and West sections.
+  - (7-22, 7-15): Voltorb traps.
+- **B3F (3_51):**
+  - (27, 14): Ladder to B2F East.
+  - (24, 14): Rocket Grunt (Talked to).
+  - (23, 11): Scientist Ross (Defeated).
+  - (10, 9): Boss Room Door (Locked). Requires 2 passwords.
 
 # Strategy (HOW)
-1. **Loot B2F West:** Pick up item at (3, 10).
-2. **Heal:** Talk to Lance at (5, 13) if needed.
-3. **Traverse Voltorb Traps:** Move east through the corridor (Rows 7-11) toward the barrier at Col 23.
-4. **Bypass Barrier:** Navigate south to (23, 16) to enter the eastern section.
-5. **Clear B2F East:** Defeat Grunts and reach the ladder at (27, 14).
-6. **Infiltrate B3F:** Use passwords to unlock the Boss door at (10, 9) on B3F.
-7. **Final Objective:** Shut down the transmitter on B2F.
+1. **Find B2F North:** Search B1F for a ladder leading to the isolated northern section of B2F.
+2. **Loot B2F North:** Reach the item at (3, 10) on B2F.
+3. **Find B3F West:** Locate the ladder in B2F North that leads to the western section of B3F.
+4. **Confront Boss:** Use passwords to unlock the door at (10, 9) on B3F and defeat the Executive.
+5. **Shut Down Transmitter:** Use the final password to enter the transmitter room on B2F and disable the signal.
 
 # Lessons Learned
-- Item sprites and COUNTER tiles have collision; interact from adjacent FLOOR.
-- Map sections can be completely isolated; look for alternative floor transitions.
-- Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
+- Map sections (like B2F and B3F) can be completely isolated; look for alternative floor transitions.
 - Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
-- **B3F Navigation:** 'check_reachable_unseen' confirms no path to the western section (Boss door) from the eastern section/corridor on this floor. Entrance must be from B2F or another floor.
-- **B3F Objects:**
-  - (23, 11): Scientist Ross.
-  - (27, 2): Ladder to B2F East (Entry Point 3).
-  - (12, 1), (13, 1): Oath Scripts.
-  - (4, 13)-(7, 13): Oath Scripts.
+- Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
+- Always check if an NPC or Item sprite is at the target coordinate before pathing.
