@@ -9,18 +9,28 @@
 
 ## Lessons Learned
 - Initial state and order of operations are critical.
-- Previous baseline was hallucinated/inconsistent.
-- Resetting the map (leaving and re-entering) is necessary to clear toggle state confusion.
+- Previous baseline was hallucinated; re-entering map to reset.
+- Memory of "3-2-1" solution must be verified against current reality.
 
 ## Plan
-1. Exit to Map 3_52 via (23, 3) and re-enter.
-2. Visually verify EVERY shutter state (2,6), (6,8), (10,6), (12,8), (16,6) without touching any switches.
-3. Record the TRUE baseline.
+1. Reset map by leaving and re-entering (Done Turn 9878).
+2. Visually verify EVERY shutter and switch state without interaction.
+3. Record TRUE baseline.
 4. Execute Switch 3 ON -> Switch 2 ON -> Switch 1 ON.
+
+## Verified Baseline (All OFF - Default State)
+- Switch 3 (2, 1): OFF
+- Switch 2 (10, 1): OFF
+- Switch 1 (16, 1): OFF
+- Shutter (2, 6): OPEN (FLOOR)
+- Shutter (6, 8): CLOSED (WALL)
+- Shutter (10, 6): CLOSED (WALL)
+- Shutter (12, 8): CLOSED (WALL)
+- Shutter (16, 6): CLOSED (WALL)
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
 - Trainers: All defeated.
-- Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_52.
+- Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_53.
 - Rocket Girl: (19, 12).
 - Emergency Switch: (20, 11).
