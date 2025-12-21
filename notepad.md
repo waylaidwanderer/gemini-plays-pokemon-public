@@ -24,8 +24,10 @@
 - **Mail:** Prevents deposit. PC Full -> Mail goes to Bag. Must hold nothing to attach.
 - **Inputs:** Pressing Start in Mail menu triggers Printer Error. Use B.
 - **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
-- **Correction:** Turn 9724 - Accidental menu navigation occurred in Turn 9723 due to premature closure of Mail interface. Message is likely "DARK CAV".
-- **Action:** Taking Mail from Kenya to fix the typo.
-- **Correction:** Turn 9726 - 'MAIL detached' text persisted despite B inputs. Pressing A to clear. State ambiguity (Map vs Menu) requires cautious re-verification.
-- **Correction:** Turn 9734 - Selected Garnet by mistake (Input timing issue?). Dismissing error text and manually navigating to Kenya to verify selection before confirming.
-- **Correction:** Turn 9736 - Accidentally opened Save menu. Cancelling and returning to Pack.
+- **Recent Corrections:** Fixed typo "DARK CAV" by restarting. Resolved menu navigation errors (Accidental Save/Garnet selection).
+- **Current State:** In Pack -> Items. Selecting Flower Mail.
+- **Next Steps:**
+    1. Select Flower Mail -> GIVE.
+    2. Select Kenya.
+    3. Type "DARK CAVE" (Verified).
+    4. Confirm and Deliver.
