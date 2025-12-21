@@ -1,6 +1,8 @@
 # Tile Mechanics
-- **FLOOR**: Standard traversable. Stops sliding movement.
-- **WALL**: Impassable. Stops sliding movement.
+- **FLOOR**: Standard traversable.
+- **WALL**: Impassable.
+- **COUNTER**: Impassable. Interaction must be done from an adjacent tile facing the counter.
+- **WARP_CARPET_DOWN**: Triggers map transition when walked onto from above.
 - **ICE**: Sliding movement. Entering an ICE tile causes sliding in that direction until hitting a WALL, Object, or FLOOR tile.
 - **LADDER**: Warp point.
 - **NPC/Item Sprites**: Act as walls and stop sliding movement.
@@ -11,8 +13,8 @@
 - **Trainer Data:** All trainers defeated.
 
 # Strategy (HOW)
-1. Exit Mahogany Gym.
-2. Check for plot updates (Radio Tower/Professor Elm).
+1. Exit Mahogany Gym. (Done)
+2. Check for plot updates (Radio Tower/Professor Elm). (Done)
 3. Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
 
 # Lessons Learned
@@ -23,7 +25,6 @@
 - Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
 - Stat drops (like Growl) reset upon switching or end of battle.
 
-# Goldenrod Radio Tower Crisis
-- Team Rocket has taken over the Radio Tower.
-- Goal: Clear the tower and defeat the Rocket Executives.
-- Strategy: Fly to Goldenrod, heal, and enter the tower.
+# Goldenrod Radio Tower Crisis (Started Turn 8588)
+- Radio Tower Location Hypothesis: Likely the large building in the west or north of Goldenrod City.
+- Strategy: Systematic floor-by-floor sweep. Focus on finding the Director to resolve the broadcast issue. Prepare for multiple consecutive trainer battles. Use 'battle_strategist_v2' for executive fights.
