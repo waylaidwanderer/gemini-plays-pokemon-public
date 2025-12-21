@@ -7,17 +7,16 @@
 
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Retrying with Period.
-- **Hypothesis:** Rejection was due to missing period or sender check. Trying exact text with period.
-- **Previous Attempt:** "Dark Cave leads to another road" (Mixed, No Period) -> Rejected.
-- **New Plan:**
-    1. Take Mail off Kenya.
-    2. Rewrite: "Dark Cave leads to another road." (Mixed, WITH Period).
-    3. Deliver.
-- **Contingency:** If this fails, the sender (WEBSTER vs GEM) might be the key, or I need to talk to the Guard.
+- **Hypothesis:** Rejection was due to missing period. Original text: "Dark Cave leads to another road."
+- **Plan:**
+    1. Cancel Surf Prompt.
+    2. Remove Old Mail from Kenya (Party Menu).
+    3. Write New Mail: "Dark Cave leads to another road." (Mixed Case + Period).
+    4. Deliver.
 
 ## Knowledge Base
-- **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps) and "DARK CAVE".
-- **Wade (Route 31):** Called (Turn 9576). Waiting on Route 31. He might have the answer!
+- **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps), "DARK CAVE", and "Dark Cave leads to another road" (No Period).
+- **Wade (Route 31):** Called (Turn 9576). Waiting on Route 31.
 - **Dark Cave:** Connects Route 31, 45, 46. Needs Flash.
 
 ## Mechanics Log
