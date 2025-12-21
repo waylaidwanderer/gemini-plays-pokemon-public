@@ -5,8 +5,7 @@
 3. Find the Director (5F/Basement).
 4. Pass the quiz on 1F for the Radio Card.
 5. POST-SWEEP: Re-verify 1F for any missed trainers.
-6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP, as Typhlosion's Special Attack is superior.
-7. TILE VERIFICATION: Test if Poké Ball tiles (5,4; 7,6; 1,6) are traversable or interactable (likely decorations).
+6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP, as Typhlosion's Special Attack is superior. Use Headbutt against Normal/Psychic types.
 
 ## Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
@@ -14,11 +13,8 @@
 - **Current Goal**: Reach 5F and rescue the Director.
 
 ## Battle Progress
-- **Cleared Floors**: 1F, 2F, 3F.
-- **4F Progress**:
-    - Scientist Rich (4, 2): Defeated.
-    - Rocket Grunt (5, 5): Zubat defeated. Golbat in progress. Calcifer is confused.
-- **Significant Wins**: Red Gyarados (Lake of Rage).
+- **Status**: 1F-3F cleared. 4F sweep in progress.
+- **Current Engagement**: Rocket Grunt (5, 5). Zubat/Golbat defeated. Grimer next. Calcifer is confused.
 
 # Global Knowledge
 ## Tile Mechanics
@@ -28,7 +24,7 @@
 - **WARP_CARPET_DOWN**: Map transition.
 - **ICE**: Sliding movement until hitting an obstacle.
 - **LADDER/STAIRS**: Warp points.
-- **POKEBALL TILE**: Verify if traversable or decoration (seen at 5,4; 7,6; 1,6).
+- **POKEBALL TILE**: Decoration (seen at 5,4; 7,6; 1,6). Traversable?
 
 ## Completed Badges
 - Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
