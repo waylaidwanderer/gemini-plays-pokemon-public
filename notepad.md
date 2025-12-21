@@ -52,13 +52,13 @@
 - Gramps at (5, 9).
 
 # Mahogany Town Strategy
-- Current Status: Inside Mahogany Mart (11, 7). Standing at (3, 7).
-- Objective 1: Explore Mart and talk to NPCs.
-- Objective 2: Locate PC and Gym in town.
+- Current Status: Inside Mahogany Mart (11, 7).
+- Objective 1: Find Pokemon Center and Gym in town.
+- Objective 2: If Gym is blocked, investigate Route 43 (North).
 - Plan:
-  1. Mark exit warps at (3, 7) and (4, 7).
-  2. Talk to Pharmacist at (4, 3).
-  3. Talk to Black Belt at (1, 6).
-  4. Check warp at (7, 3).
-  5. Exit and continue exploring the town.
-  6. Train KIMCHI (ODDISH) to Lv21 by leading in wild battles or trainer battles if appropriate.
+  1. Exit Mart via (3, 7) or (4, 7).
+  2. Explore West and South of the Mart.
+  3. Locate PC (usually has a red roof).
+  4. Locate Gym (usually has a sign).
+  5. Train KIMCHI (ODDISH) to Lv21.
+- Note: Suspicious tile at (7, 3) in Mart is not currently a warp. Likely triggers after Lake of Rage events.
