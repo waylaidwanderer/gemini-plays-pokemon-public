@@ -25,3 +25,4 @@
 - Mahogany Mart has locked stairs.
 - Bug Catching Contest active.
 - Fishing Guru (Lake of Rage) wants Magikarp.
+- 5F (TM Corner): Sells TMs (ThunderPunch, Fire Punch, Ice Punch, Headbutt). No Ultra Balls. Checking Roof next.
