@@ -24,9 +24,6 @@
 
 ## Quest Log
 - **Turn 9940:** Arrived in Ecruteak City.
-- **Turn 9946:** Entered Route 42.
-- **Turn 9968:** Surfed across first water section of Route 42.
-- **Turn 9974:** Picked up Super Potion at (33, 8). Resuming travel East.
 
 ## Past Quests (Failed/Completed)
 - **Deliver Kenya:** Abandoned. Fisher rejected forged mail.
