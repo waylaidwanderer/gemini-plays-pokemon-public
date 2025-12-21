@@ -13,7 +13,7 @@
 ## Research: Isolation Testing Matrix (S3, S2, S1)
 | State | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| (0,0,0) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
+| (0,0,0) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
 
 ## Strategy: Shutter Sequence Testing
 - Goal: Open path to the southeast (cols 14+). Requires (16,6) or (17,6) to be OPEN.
