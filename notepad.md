@@ -68,3 +68,25 @@
   - FLOOR at (3, 4), (5, 4).
 - Hypothesis 2: To reach Pryce, I need to slide into the FLOOR tile at (5, 4).
 - Test 2: From (4, 7), slide Right to (5, 7), then Up to (5, 4).
+
+# Mahogany Gym Navigation Plan (Updated Turn 8509)
+- Current Position: (9, 2).
+- Goal 1: Defeat Rocker at (0, 17).
+  1. (9, 2) -> Down -> (9, 7) [FLOOR].
+  2. (9, 7) -> Down -> (9, 10) [FLOOR].
+  3. (9, 10) -> Down -> (9, 16) [FLOOR].
+  4. (9, 16) -> Left -> (2, 16) [FLOOR].
+  5. (2, 16) -> Down -> (2, 17) [FLOOR].
+  6. (2, 17) -> Left -> Talk to Rocker at (0, 17).
+- Goal 2: Defeat Rocker at (2, 4).
+  1. (2, 17) -> Up -> (2, 16) [FLOOR].
+  2. (2, 16) -> Up -> (2, 14) [FLOOR].
+  3. (2, 14) -> Up -> (2, 5) [ICE, stops at Rocker].
+  4. Talk to Rocker at (2, 4).
+- Goal 3: Defeat Gym Leader Pryce at (5, 3).
+  1. (2, 5) -> Right -> (6, 5) [FLOOR].
+  2. (6, 5) -> Down -> (6, 13) [FLOOR].
+  3. (6, 13) -> Left -> (3, 13) [FLOOR].
+  4. (3, 13) -> Up -> (3, 4) [FLOOR].
+  5. (3, 4) -> Right -> (5, 4) [FLOOR].
+  6. Talk to Pryce at (5, 3).
