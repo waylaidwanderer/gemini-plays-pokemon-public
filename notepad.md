@@ -34,3 +34,14 @@
 - Map sections are isolated; use specific ladders to cross.
 - Whirlpool requires Glacier Badge to use out of battle.
 - B3F West and East sections are connected via a gap in the central wall at (18, 16).
+
+# Mahogany Gym (2_2) - Glacier Badge
+- **Leader:** Pryce (Ice-type).
+- **Strategy:** Lead with Calcifer (Typhlosion) for Flame Wheel/Ember. GNEISS (Graveler) has Rock Throw/Rollout but is weak to Water (if any) and potentially Ice (though Ground/Rock is weak to Ice).
+- **Puzzle Mechanics:**
+  - ICE tiles: Sliding movement. You slide until you hit a wall or obstacle.
+  - FLOOR tiles: Normal movement.
+- **Gym Guide Advice:** Talk to Guide at (7, 15) for hints.
+
+# Progress Log
+- Turn 8460: Entered Gym. Position (4, 17). Heading to Gym Guide.
