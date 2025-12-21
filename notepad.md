@@ -3,7 +3,7 @@
 - Objective: Locate and shut down the radio transmitter in Team Rocket Base.
 - HOW:
     1. Obtain passwords from Grunt (7, 14) and Rocket Girl (21, 7). [DONE]
-    2. Unlock the boss's room at (10, 9) using the passwords.
+    2. Unlock the boss's room at (10, 9) using the passwords. [CURRENT]
     3. Defeat the boss to get the transmitter room password.
     4. Shut down the transmitter on B2F.
 
@@ -35,3 +35,8 @@
 - Rocket Grunt (7,14): Raticate (Lv19). Defeated. Password 1.
 - Scientist Ross (23,11): Koffing (Lv22), Koffing (Lv22). Defeated.
 - Rocket Girl (21,7): Ekans (Lv18), Gloom (Lv18). Defeated. Password 2.
+
+# Lessons Learned
+- Item sprites (POKE_BALL) and COUNTER tiles are impassable. Path to adjacent FLOOR tile to interact.
+- Markers are metadata and do NOT have collision.
+- Always verify foundation assumptions before pursuing complex strategies.
