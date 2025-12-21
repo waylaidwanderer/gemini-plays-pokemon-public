@@ -45,3 +45,5 @@
   - Violet -> Left -> Ecruteak (Hypothesis).
 - Goldenrod Dept Store 2F (Bottom Clerk): Sells Poke/Great Balls, but NO Ultra Balls.
 - Hypothesis: Ultra Balls might be on a different floor or unlocked later? Or maybe the top clerk has them?
+- Goldenrod Dept Store 2F (Top Clerk): Potions, Heals, Super Repel. No Ultra Balls.
+- Plan: Check directory to see if there's another relevant floor, or move to 3F/4F/5F.
