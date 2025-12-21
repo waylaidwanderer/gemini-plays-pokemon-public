@@ -90,3 +90,4 @@
   4. (3, 13) -> Up -> (3, 4) [FLOOR].
   5. (3, 4) -> Right -> (5, 4) [FLOOR].
   6. Talk to Pryce at (5, 3).
+- Boarder Ronald (2_2, 0, 17): Seel Lv24.
