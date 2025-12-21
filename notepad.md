@@ -22,7 +22,7 @@
   - (21, 14), (25, 13): Rocket Grunts.
 - **Warps:**
   - (3, 14): Ladder to B1F West.
-  - (27, 14): Ladder to B3F East.
+  - (27, 14): Ladder to B3F East (Entry Point 4).
 
 # Strategy (HOW)
 1. **Loot B2F West:** Pick up item at (3, 10).
