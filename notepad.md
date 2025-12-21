@@ -25,3 +25,4 @@
 - **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
 - **Correction:** Turn 9724 - Accidental menu navigation occurred in Turn 9723 due to premature closure of Mail interface. Message is likely "DARK CAV".
 - **Action:** Taking Mail from Kenya to fix the typo.
+- **Correction:** Turn 9726 - 'MAIL detached' text persisted despite B inputs. Pressing A to clear. State ambiguity (Map vs Menu) requires cautious re-verification.
