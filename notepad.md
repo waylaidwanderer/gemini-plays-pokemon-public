@@ -22,8 +22,12 @@
 - Goal: Open path to the southeast Warehouse Entrance.
 - Start Turn: 10284
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Current Progress: S2 toggled ON. Interacting with Switch 1 at (16, 1). Sequence complete.
-- Verified Shutter States (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN, (17,6) CLOSED. (Verified turn 10287)
+- Current Progress: Switches 1, 2, and 3 are all ON. Shutters (10,6), (16,6), (6,8) are CLOSED.
+- Refined Logic Hypothesis:
+  - S3 (2,1): Toggles (3,6), (12,8)
+  - S2 (10,1): Toggles (2,6), (10,6), (16,6)?
+  - S1 (16,1): Toggles (10,6), (16,6), (6,8)?
+- Observation: (1,1,1) state blocks the southeast. Recalibrating sequence.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
