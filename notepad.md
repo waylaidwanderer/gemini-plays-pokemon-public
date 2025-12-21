@@ -39,3 +39,4 @@
     - Suspicious hidden stairs likely at (7, 3).
     - Plan: Talk to Lance to proceed.
 - **Security:** Triggered 'Intruder Alert' at (24, 3). Likely caused by the Persian Statues acting as sensors. Encountered Rocket Grunt.
+- Muscle grew to Lv 43. Replacing Karate Chop with Cross Chop (Power upgrade).
