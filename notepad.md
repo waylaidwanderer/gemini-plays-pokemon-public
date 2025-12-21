@@ -12,7 +12,7 @@
   - (14, 9): Radio Transmitter.
   - (21, 14): Rocket Grunt (Defeated).
   - (25, 13): Rocket Grunt (Defeated).
-  - (22, 7), (22, 9), (7, 9): Voltorbs (Statues/Traps).
+  - (22, 7), (22, 9), (22, 11), (22, 13), (22, 15): Voltorbs (Statues/Traps).
 - **Strategy (How):**
   1. Move West along Row 16 to reach the western half of B2F.
   2. Locate the ladder to B3F West (likely near (3, 14)).
