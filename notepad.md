@@ -63,3 +63,6 @@
   3. Whittle HP to Red.
   4. Throw Great Balls (have 10).
   5. Backup: Lapis/Lucid for Hypnosis if desperate (risk of OHKO).
+- Battle Started against Red Gyarados!
+- Turn 1: Advancing intro text.
+- Strategy reminder: Weaken with Rock Smash (Muscle), then throw Great Balls.
