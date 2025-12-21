@@ -11,19 +11,19 @@
      - **DO NOT PRESS START** (Triggers Printer Error).
   4. **Step 4:** If correct, talk to Fisher (Down). If not, rewrite.
 
-## Reflection (Turn 9148)
-- **Execution:** Focused on mail quest. No deferred tasks.
-- **Hygiene:** Notepad organized. Map markers up to date.
-- **Goal:** Clear. Deliver Kenya.
-- **Lesson:** Punctuation in text quests is critical. Failed previous attempt without period.
-- **Strategy:** Retrying with forged mail message.
+## Reflection (Turn 9200)
+- **Execution:** Recovered from "Printer Error" loop (caused by pressing Start in Mail menu). Prioritized mail verification.
+- **Hygiene:** Notepad is clean. Map markers are consistent.
+- **Automation:** Using `slow_press` for menus. `type_text` available if rewrite needed.
+- **Goal:** Verify Kenya's mail has the correct period (".").
+- **Lesson:**
+  1. **Bug:** Pressing `Start` in the Mail menu triggers a "Printer Error 2" crash loop. Use `B` to cancel.
+  2. **Quest:** The Fisher likely requires exact punctuation ("DARK CAVE leads to another road.").
+  3. **Tooling:** OCR can fail on menus; trust the visual state (screenshots) over empty text logs.
 
 ## Strategy & Lessons
-- **Quest Precision:** Exact grammar and punctuation are critical for text-based quests. Missing a period can fail the quest.
-- **Critical Bug:** Do NOT press `Start` in the Mail menu. It triggers a "Printer Error 2" crash loop.
-- **Input Strategy:** Use `slow_press` with `autopress_buttons=True` for efficient, mixed-input typing.
-- **Typing Recovery:** Use `B` button to backspace quickly.
-- **Menu Navigation:** Always verify cursor position before pressing A.
+- **Quest Precision:** Exact grammar and punctuation are critical.
+- **Input Strategy:** Use `slow_press` for reliable menu navigation.
 - **Fly Map Order:** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod.
 
 ## Key Locations & mechanics
