@@ -16,7 +16,7 @@
   - Boarder Ronald (2_2, 0, 17): Seel Lv24, Dewgong Lv25. [DEFEATED]
   - Boarder Douglas (2_2, 2, 4): Shellder Lv24, Cloyster Lv25. [DEFEATED]
 
-# Mahogany Gym Navigation Plan (Updated Turn 8553)
+# Mahogany Gym Navigation Plan (Updated Turn 8563)
 - Current Position: (5, 4).
 - Goal: Defeat Gym Leader Pryce.
   1. Face Up and talk to Pryce at (5, 3).
