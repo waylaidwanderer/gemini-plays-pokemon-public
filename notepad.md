@@ -1,4 +1,4 @@
-# Goldenrod Radio Tower Takeover (Started Turn 8588)
+# Goldenrod Radio Tower Takeover
 ## Strategy (HOW)
 - Use switches 1, 2, and 3 in Map 3_54 to reach the Warehouse.
 - Obtain Card Key from real Director.
@@ -27,7 +27,8 @@
 # Switch Room Puzzle (Map 3_54)
 - Entry: 3_53 (18, 6) Basement Door -> (22, 27) Ladder.
 - Layout: Switches 1 (16, 1) and 2 (10, 1) discovered.
-- Current Battle: Battling Grunt #2 (11, 3). Strategy: Flame Wheel Rattata.
+- Observation: Flipping switches changes the state of the shutters.
+- Hypothesis: There is a specific combination of Switch 1, 2, and 3 to reach the exit.
 
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
