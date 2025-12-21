@@ -39,3 +39,6 @@
 - Fly Map Logic: 'Up' from Olivine wraps to New Bark Town. 'Left' from Ecruteak goes to Olivine. 
 - Path Plan: From New Bark, 'Left' -> Cherrygrove -> 'Left' -> Violet -> 'Up' -> Ecruteak -> 'Right' -> Mahogany -> 'Up' -> Lake of Rage.
 - Current Action: Pressing Left x2 to reach Violet City.
+- Fly Map Logic Refined: 'Left' moves West (Goldenrod -> Ecruteak -> Left = Olivine). 'Up' from Olivine wraps to New Bark.
+- Hypothesis: Movement is point-to-point including Routes. Ecruteak -> Right -> Route 42 -> Right -> Mahogany.
+- Plan: Reset to Goldenrod. Up (Ecruteak), Right (Route 42?), Right (Mahogany?). Verifying destination.
