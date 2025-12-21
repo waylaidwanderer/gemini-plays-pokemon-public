@@ -4,12 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Correct Mail & Exit.
-  1. **Status:** Garbage text "r)z-[" detected.
-  2. **Step 1:** Delete garbage (B x5).
-  3. **Step 2:** Retype "road." (Navigate carefully).
-  4. **Step 3:** Select END and Exit (A -> B x4).
-  5. **Step 4:** Interact with Fisher.
+- **Current Action:** Type "road.", Save, and Deliver.
+  1. **Status:** Correcting mail text.
+  2. **Step 1:** Delete `[` (B).
+  3. **Step 2:** Reset Cursor to Bottom-Left.
+  4. **Step 3:** Type `r`, `o`, `a`, `d`, `.`.
+  5. **Step 4:** Select END (Down to bottom, Right to corner).
+  6. **Step 5:** Exit and Talk to Fisher.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
