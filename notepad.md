@@ -74,10 +74,13 @@
 - Mahogany Town: Welcome to the Home of the Ninja.
 - Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
 
-# Red Gyarados Encounter
+# Red Gyarados Investigation
 - Starting Turn: 7738
-- Objective: Capture the Red Gyarados at (18, 22) (Lv30♂).
-- Strategy: Use GNEISS to weaken it (high defense) or Calcifer for precision damage (Ember). Gyarados is now BURNED (Turn 7760), which increases catch rate but adds a tick-timer. Sleep is no longer an option. Use ULTRA BALL for capture once HP is Red.
+- Status: Red Gyarados fainted (Turn 7769). Obtained RED SCALE.
+- Strategy: Locate Lance on the shore to coordinate the investigation into the "rampage" source.
+
+# Pokémon Swarms
+- Route 35: Ditto (Arnie's call, Turn 7769).
 
 # Reflection Turn #100 Lessons
 - Coordination: Always verify NPC coordinates in Game State before marking or pathing.
