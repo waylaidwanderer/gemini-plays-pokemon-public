@@ -43,3 +43,5 @@
   - Cherrygrove -> Up -> Violet.
   - Azalea -> Up -> Goldenrod.
   - Violet -> Left -> Ecruteak (Hypothesis).
+- Goldenrod Dept Store 2F (Bottom Clerk): Sells Poke/Great Balls, but NO Ultra Balls.
+- Hypothesis: Ultra Balls might be on a different floor or unlocked later? Or maybe the top clerk has them?
