@@ -31,7 +31,10 @@
        - Current Status: Switch 1 ON, 2 OFF, 3 OFF.
        - Observation: (16, 6) is FLOOR, (17, 6) is FLOOR, (10, 6) is WALL.
        - Observation: (12, 8) is FLOOR, (12, 9) is FLOOR.
-       - Conclusion: Switch 1 toggles group {16, 6; 17, 6} to OPEN. Need to verify if it also opened (12, 8/9).
+       - Conclusion: Switch 1 toggles group {16, 6; 17, 6} to OPEN.
+    3. Baseline Reset: Turning Switch 1 OFF.
+       - Current Status: All switches OFF.
+       - Next: Verify (12, 8/9) are WALL at baseline.
 - Historical Data (Attempt 2 - 3-2-1 Sequence):
     - 3 ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
     - 3 & 2 ON: (12, 8) OPEN, (12, 9) OPEN.
