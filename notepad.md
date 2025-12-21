@@ -1,87 +1,31 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Investigate Mahogany Town (Radio Signal).
-- **Secondary Goal:** Find Lance in Mahogany Town.
-- **Navigation:** Team Rocket Hideout B1F - Disable Security System.
+- **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
+- **Secondary Goal:** Find 2 Passwords to reach the Boss.
+- **Navigation:** Talk to Scientist at (23, 11) on B3F.
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
-- **Mahogany Town:** In Rocket Hideout.
+- **Rocket Hideout B1F:** Disabled Security System (Switch at 19, 11).
+- **Rocket Hideout B2F:** Met Lance. Learned password is with the Boss.
+- **Rocket Hideout B3F:** Lance says 2 passwords needed from specific Rockets.
+
+## Team Rocket Hideout B3F Status
+- **Location:** B3F.
+- **Objectives:**
+    1. Find Password 1.
+    2. Find Password 2.
+    3. Unlock Boss's Room.
+- **NPCs:**
+    - Scientist at (23, 11) (Target).
+    - Rocket Grunt at (24, 14) (Defeated, no password).
 
 ## Team Management
-- **Party:** Muscle (43), Garnet (28), Lapis (12), Mistral (13), Kenya (11), Belladonna (5).
+- **Party:** Muscle (44), Garnet (28), Lapis (12), Mistral (13), Kenya (11), Belladonna (5).
 
-## Team Rocket Hideout B1F Mechanics
-- **Security:** Persian Statues are cameras.
-    - Camera at (6, 1) watches Row 2.
-    - Camera at (24, 5) likely watches Row 5.
-    - Alarm triggers infinite battles.
-- **Secret Switch:**
-    - **CRITICAL DISCOVERY:** Map Data lists 'TeamRocketBaseB1FSecretSwitch' at **(19, 11)**.
-    - This is the objective. No need to check random statues.
-- **Navigation Plan:**
-    - Confirmed Switch at (19, 11).
-    - Scientist at (18, 12) blocks direct East access on Row 12.
-    - **Strategy:** Go East on Row 11 to (15, 11), then South to Row 13, then East to (19, 13), then North to (19, 12).
-    - **Expectation:** Crossing Row 12 at (15, 12) or (16, 12) may trigger Scientist battle.
-    - After switch, check Item Ball at (21, 12).
-
-## Lessons Learned
-- **Check Map Data:** Always review 'Map Events -> Background Objects' for named objectives (like Switches) before searching blindly.
-- **Persian Statues:** They are cameras, not necessarily switches. The switch is a separate object.
-- Route Update: Moving West to (7, 9), then South through gap at (7, 10) to reach the lower section (Row 12).
-- Anticipating battle with Scientist at (18, 12) when returning East.
 ## Global Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WARP_CARPET: Map transition.
 - STAIRS: Change floor.
-- Defeated Scientist Jed.
-- Plan: Navigate to (19, 12), face Up, and activate the Secret Switch at (19, 11).
-- Then collect items and explore remaining warps.
-- Switch activated! Security system should be disabled.
-- Next: Collect Item Ball at (21, 12), then backtrack to West Side to investigate Warp at (5, 15).
-- Collected Guard Spec at (21, 12).
-- Plan: Backtrack to West Side via Row 11 to investigate Warp at (5, 15).
-- Navigation Correction: Path blocked by Scientist at (16, 12).
-- Plan: Go around via Row 11.
-- Route: (17, 12) -> (17, 11) -> West to (7, 11) -> North to (7, 9) -> East to (19, 9) -> North to (19, 7) -> West to (9, 7) -> North to (9, 4) -> West to (5, 3) -> South to (5, 15).
-- Goal: Reach Warp at (5, 15).
-- Moving to West side.
-- Note: Rocket Grunt at (4, 4) (previously thought (2, 4)). He taunted about traps.
-- Plan: Interact/Battle Grunt at (4, 4), then move South to Warp at (5, 15).
-- Target: Warp at (5, 15).
-- Battle with Trap Geodude ended.
-- Plan: Check Ladder at (3, 14) first (less likely to be a reset trap than the Warp Panel).
-- Then check Warp Panel at (5, 15).
-- Muscle HP: 106/144. OK.
-- Observation: Trap tiles found at (5, 8), (5, 10), (5, 12).
-- Hypothesis: Traps are placed every 2 tiles along Column 5. Expect another trap at (5, 14).
-- Plan: Push through potential trap at (5, 14) to reach Ladder at (3, 14).
-- Encountered Trap Voltorb at (5, 13).
-- Traps are not just every 2 tiles anymore. Be careful.
-- Destination: Ladder at (3, 14).
-- Trap Battle at (5, 13) confirmed inescapable. Must fight.
-- Warning: Voltorb may use Selfdestruct. Muscle has 106 HP, should survive.
-- Muscle is out of Strength PP.
-- Using Dig (Super Effective) to secure the KO on Voltorb.
-- Trap pattern intensified: Traps at (5, 12) AND (5, 13). Expecting (5, 14) to be a trap too.
-- Continuing to Ladder at (3, 14).
-- Arrived at Team Rocket Hideout B2F.
-- Found Lance. He healed the party!
-- Lance moved East. Following him.
-- Item Ball at (3, 10) appears blocked by a wall at Row 12. Will look for a path around.
-- Objective: Find the Generator Room password.
-- Defeated Grunt at (21, 14). He revealed that "only the Boss knows the password."
-- Objective: Find the Boss (Giovanni? Executive?) to get the password.
-- Path to East side found via gap at (23, 16).
-- Plan: Navigate through gap at (23, 16) to confront Rocket Grunt at (25, 13).
-- Defeated Grunt at (25, 15). Confirmed: Password required for door, held by "The Boss".
-- Objective: Locate Team Rocket Boss on this floor or others.
-- Arrived at Team Rocket Hideout B3F.
-- Lance says two passwords are needed to reach the Boss.
-- Specific Rockets know the passwords.
-- Plan: Find the password-holding Rockets on B3F.
-- Picked up Full Heal at (28, 9).
-- Objective: Confront Rocket Grunt at (24, 14) for password information.
