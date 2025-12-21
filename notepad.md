@@ -44,3 +44,4 @@
 - **Lake of Rage:** Caught Red Gyarados.
 - **Current Location:** Route 43 (North End).
 - **Menu Navigation Note:** The cursor in the Start Menu and sub-menus remembers its last position. When reopening menus, verify the cursor position before pressing 'A' to avoid selecting the wrong option or canceling inadvertently.
+- Tool Note: smart_battle_move requires accurate `current_slot` input because the game remembers the last used move cursor position. Defaulting to 1 when the cursor is elsewhere causes incorrect move selection.
