@@ -1,7 +1,7 @@
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- SHUTTER: Impassable when CLOSED (WALL), traversable when OPEN (FLOOR). Verified at (2, 6), (10, 6), (12, 8), (16, 6).
+- SHUTTER: Impassable when CLOSED (WALL), traversable when OPEN (FLOOR). Verified at (2, 6), (2, 7), (10, 6), (12, 8), (16, 6).
 - LADDER: Traversable (Warp).
 - WARP_CARPET_DOWN: Traversable (Warp).
 
@@ -9,21 +9,24 @@
 - Started: Turn 9640
 - Goal: Open shutters (10, 6), (12, 8), and (16, 6) to reach the warehouse.
 - Current Switch Status: 3: ON, 2: ON, 1: ON.
-- Verified Shutter States (Turn 9838):
+- Verified Shutter States (Turn 9841):
   - (2, 6): OPEN (FLOOR)
-  - (6, 8): OPEN (FLOOR)
+  - (2, 7): OPEN (FLOOR)
   - (10, 6): CLOSED (WALL)
   - (12, 8): CLOSED (WALL)
   - (16, 6): CLOSED (WALL)
 
-# Switch Logic Observations (Incomplete)
-- Switch 1 ON (Turn 9834) -> (12, 8) changed to WALL.
-- Switch 1 OFF (Turn 9811) -> (12, 8) changed to FLOOR.
+# Switch Logic Observations
+- 3-2-1 from all-OFF (Turn 9834): Results in all shutters CLOSED except (2, 6/7).
+- Resetting switches to OFF to perform systematic one-by-one tests.
 
 # Strategy
-1. Move to (10, 5) to verify (10, 6) state.
-2. Move to (2, 5) to verify (2, 6) state.
-3. Consult strategist with verified states.
+1. Turn Switch 3 OFF (Current task).
+2. Turn Switch 2 OFF.
+3. Turn Switch 1 OFF.
+4. Test 1: Turn Switch 1 ON only. Record effects.
+5. Test 2: Turn Switch 2 ON only. Record effects.
+6. Test 3: Turn Switch 3 ON only. Record effects.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
