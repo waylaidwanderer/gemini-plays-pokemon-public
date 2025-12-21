@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** At B3F (5, 9).
-- **Plan:** Navigate via Row 10 to the Boss Room Door at (10, 9).
-- **Hypothesis:** The Boss Room contains the Executive (and Murkrow) who has the password for the B2F Transmitter Room.
+- **Status:** Encountered Rival Silver at B3F (7, 10). He left without battling.
+- **Plan:** Unlock the Boss Room Door at (10, 9) using the passwords "SLOWPOKETAIL" and "RATICATE TAIL".
+- **Hypothesis:** The Executive inside has the password for the Transmitter Room.
