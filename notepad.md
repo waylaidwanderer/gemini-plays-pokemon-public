@@ -80,3 +80,9 @@
 - Tool Usage: `stun_npc` is essential for interacting with pacing NPCs like Cooltrainer F.
 - Training: Switch-training ICARUS is highly effective; he reached Lv15 and learned Quick Attack.
 - Navigation: Surfing requires updated exploration tools to handle water tiles.
+
+# Reflection Turn #150 Lessons
+- Capturing: Burn status is efficient but risky for low-HP targets like Red Gyarados. Sleep is safer.
+- Fly Map: Navigation requires precise cursor movement; check intermediate states to verify cursor position.
+- False Constraints: If a goal seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
+- Efficiency: Use Fly to bypass long routes when the party is weak.
