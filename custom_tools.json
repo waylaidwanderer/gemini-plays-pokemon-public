@@ -130,5 +130,28 @@
         "action_counter": 9529
       }
     ]
+  },
+  "write_mail_safe": {
+    "description": "Robustly types text in the mail interface, handling upper/lower case layouts explicitly to avoid bugs. Assumes cursor starts at (0,0) UPPER.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Text to type"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "python_script": "import json\n\ndef main(text):\n    buttons = []\n    cx, cy = 0, 0\n    mode = 'upper' # Starts in UPPER\n    \n    # Grids\n    # Toggle: (0, 5)\n    # Space: (6, 2) in both layouts\n    \n    # Upper Map\n    upper_map = {}\n    layout_upper = [\n        \"ABCDEFGHIJ\",\n        \"KLMNOPQRST\",\n        \"UVWXYZ    \", \n        \"1234567890\"\n    ]\n    \n    for y, row in enumerate(layout_upper):\n        for x, char in enumerate(row):\n            if char != ' ':\n                upper_map[char] = (x, y)\n    upper_map[' '] = (6, 2)\n    upper_map[','] = (7, 2)\n    upper_map['?'] = (8, 2)\n    upper_map['!'] = (9, 2)\n    \n    # Lower Map\n    lower_map = {}\n    layout_lower = [\n        \"abcdefghij\",\n        \"klmnopqrst\",\n        \"uvwxyz    \", \n    ]\n    \n    for y, row in enumerate(layout_lower):\n        for x, char in enumerate(row):\n            if char != ' ':\n                lower_map[char] = (x, y)\n    lower_map[' '] = (6, 2)\n    lower_map['.'] = (7, 2)\n    lower_map['-'] = (8, 2)\n    lower_map['/'] = (9, 2)\n    \n    for char in text:\n        target = None\n        target_mode = mode\n        \n        # Identify target coordinates and mode\n        if char == ' ':\n            target = (6, 2)\n        elif char.isalpha():\n            if char.isupper():\n                target_mode = 'upper'\n                target = upper_map.get(char)\n            else:\n                target_mode = 'lower'\n                target = lower_map.get(char)\n        elif char.isdigit():\n            target_mode = 'upper'\n            target = upper_map.get(char)\n        elif char in upper_map and mode == 'upper':\n             target = upper_map.get(char)\n        elif char in lower_map and mode == 'lower':\n             target = lower_map.get(char)\n             \n        if not target:\n            # Fallback for punctuation not in current map\n            if char in upper_map:\n                target_mode = 'upper'\n                target = upper_map.get(char)\n            elif char in lower_map:\n                target_mode = 'lower'\n                target = lower_map.get(char)\n            else:\n                continue # Skip unknown\n\n        tx, ty = target\n        \n        # Switch Mode\n        if mode != target_mode:\n            # Go to toggle (0, 5)\n            if cx > 0: buttons.extend([\"Left\"] * cx)\n            cx = 0\n            \n            if cy < 5: buttons.extend([\"Down\"] * (5 - cy))\n            elif cy > 5: buttons.extend([\"Up\"] * (cy - 5))\n            cy = 5\n            \n            buttons.append(\"A\")\n            mode = target_mode\n            \n        # Move to Target\n        if ty > cy: buttons.extend([\"Down\"] * (ty - cy))\n        elif ty < cy: buttons.extend([\"Up\"] * (cy - ty))\n        cy = ty\n        \n        if tx > cx: buttons.extend([\"Right\"] * (tx - cx))\n        elif tx < cx: buttons.extend([\"Left\"] * (cx - tx))\n        cx = tx\n        \n        buttons.append(\"A\")\n        \n    return buttons\n\ntry:\n    print(json.dumps(main(input_data[\"text\"])))\nexcept:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T05:50:13.531Z",
+        "action_counter": 9544
+      }
+    ]
   }
 }
