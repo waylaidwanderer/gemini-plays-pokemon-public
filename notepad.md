@@ -34,8 +34,12 @@
 - **Next Step:** Deliver to Fisher on Route 31.
 - **Route:** Violet City -> Route 31 Gate -> Route 31.
 - **Note:** Fisher is at (17, 7) on Route 31.
-- **Log:** Fisher rejected "DARK CAVE leads to another road." (Caps + period). The error "This MAIL isn't for me" strongly implies he IS the recipient but the content is wrong.
-- **Hypothesis:** Text might need to be "Dark Cave" (Title Case) or have different punctuation.
-- **Action:** Checking Cooltrainer first to verify recipient absolutely, then will retry mail text with variations.
+- **Log:** Fisher rejected original mail AND modified mail. "This MAIL isn't for me."
+- **Insight:** This rejection phrasing usually means "I am not the recipient."
+- **Plan:**
+    1. Check Youngster at (10, 5).
+    2. Check Bug Catcher at (21, 13).
+    3. If neither, assume Fisher IS the guy and I need to fix the mail content (Password: "Dark Cave leads to another road").
+- **Navigation:** Must loop south through grass to bypass ledges and return to West side.
 - **Correction:** Fisher rejected "DARK CAVE leads to another road." (All Caps). This suggests case sensitivity matters.
 - **Plan:** After checking Cooltrainer, try "Dark Cave leads to another road." (Title Case).
