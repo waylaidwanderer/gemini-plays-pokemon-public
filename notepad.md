@@ -1,9 +1,9 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Catch Red Gyarados.
+- **Primary Goal:** Talk to Lance.
 - **Secondary Goal:** Explore Lake of Rage.
-- **Navigation:** Exit Goldenrod Dept Store -> Fly to Lake of Rage.
+- **Navigation:** Surf to shore -> Find Lance (near sign/Gramps).
 
 ## Goldenrod Dept Store Notes
 - **Directory:**
@@ -17,7 +17,9 @@
     - **6F:** Vending Machines, Roof.
 
 ## World Knowledge & Discoveries
-- **Lake of Rage:** Gyarados rampage. Fishing Guru wants Magikarp.
+- **Lake of Rage:** 
+    - **Events:** Caught Red Gyarados (QAAGMAQNJW). Obtained Red Scale.
+    - **NPCs:** Gramps (20, 26), Fishing Guru (27, 31).
 - **Mahogany Town:** Mart has locked stairs.
 - **Quest Log:**
     - Bug Catching Contest active.
