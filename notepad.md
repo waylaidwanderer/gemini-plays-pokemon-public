@@ -1,6 +1,6 @@
 # Radio Tower Crisis (Started Turn 8588)
 - **Primary Objective**: Clear Team Rocket from the tower and restore normal broadcasts.
-- **Progress**: 1F and 2F cleared. 3F sweep in progress.
+- **Progress**: 1F, 2F, and 3F cleared. 4F sweep in progress.
 - **Strategy (HOW)**:
     1. Floor-by-floor sweep (1F -> 5F).
     2. Defeat all Rocket Grunts and Executives.
@@ -20,7 +20,9 @@
 - Radio Tower 3F:
     - Rocket Grunt (6, 4): Weezing Lv26 - Defeated.
     - Rocket Grunt (5, 1): Koffing, Grimer, Zubat, Rattata (Lv23) - Defeated.
-    - Scientist Marc (9, 3): Magnemite Lv27 x2 - Defeated (Turn 8761). Calcifer grew to Lv41.
+    - Scientist Marc (9, 3): Magnemite Lv27 x2 - Defeated.
+- Radio Tower 4F:
+    - Scientist Rich (4, 2): Porygon Lv30 (In progress).
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
@@ -40,18 +42,6 @@
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
 
 # Reflection & Lessons Learned
-- **Turn 8762**: Fixed `battle_move_selector` for Gen 2 vertical menus. Pruned redundant turn logs from notepad. 3F sweep is nearly complete. Goal is to reach 5F. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
+- **Turn 8772**: Fixed `battle_move_selector` for Gen 2 vertical menus. Pruned redundant turn logs from notepad. 4F sweep in progress. Defeating Scientist Rich. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
 - **Director Info**: The Director is being held on the 5th floor. He has the ability to open the locked boss's door.
 - **Card Key Slot**: Located at (14, 2) on 3F. Likely requires the Card Key.
-
-# Radio Tower 4F Progress
-- **Current Floor**: 4F.
-- **Trainers Spotted**:
-    - Rocket Grunt at (14, 1).
-    - Rocket Girl at (12, 4).
-- **Warps**:
-    - (9, 0): Back to 3F.
-    - (12, 0): Up to 5F.
-- Scientist at (4, 2): Next target on 4F.
-- Rocket at (5, 6): Spotted in movement paths.
-- Teacher at (14, 6): Spotted in movement paths.
