@@ -82,54 +82,6 @@
       }
     ]
   },
-  "switch_pokemon_v1": {
-    "description": "Switches the active Pokémon to the one at the specified party index (0-5). Assumes the PKMN menu is open.",
-    "input_schema": {
-      "properties": {
-        "current_index": {
-          "description": "The 0-indexed position of the current cursor.",
-          "type": "integer"
-        },
-        "target_index": {
-          "description": "The 0-indexed position of the Pokémon to switch to (0-5).",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_index",
-        "current_index"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_raw = sys.stdin.read()\n        if not input_raw:\n            print(json.dumps([]))\n            return\n            \n        input_data = json.loads(input_raw)\n        target = int(input_data.get(\"target_index\", 0))\n        current = int(input_data.get(\"current_index\", 0))\n        \n        buttons = []\n        diff = target - current\n        if diff > 0:\n            buttons.extend([\"Down\"] * diff)\n        elif diff < 0:\n            buttons.extend([\"Up\"] * abs(diff))\n            \n        buttons.append(\"A\") # Select Pokemon\n        buttons.append(\"sleep 500\")\n        buttons.append(\"A\") # Select 'SWITCH' (usually first option in battle)\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T05:20:50.975Z",
-        "action_counter": 8084
-      },
-      {
-        "commit_message": "Refined switch_pokemon_v1 to ensure correct menu navigation by pressing directional buttons before selecting.",
-        "timestamp": "2025-12-21T05:32:39.555Z",
-        "action_counter": 8101
-      },
-      {
-        "commit_message": "Refined switch_pokemon_v1 to take current_index as an argument to handle menu navigation from any starting position.",
-        "timestamp": "2025-12-21T05:33:14.453Z",
-        "action_counter": 8102
-      },
-      {
-        "commit_message": "Fixed switch_pokemon_v1 to use input_data dictionary instead of json.loads(sys.argv[1]).",
-        "timestamp": "2025-12-21T05:35:00.083Z",
-        "action_counter": 8104
-      },
-      {
-        "commit_message": "Initial definition with index-based navigation logic.",
-        "timestamp": "2025-12-21T11:12:26.461Z",
-        "action_counter": 8702
-      }
-    ]
-  },
   "battle_move_selector_v2": {
     "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0). Optimized for Gen 2 vertical move lists.",
     "input_schema": {
