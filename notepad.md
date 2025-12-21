@@ -7,11 +7,11 @@
 - Strategy: Use isolation data to identify the sequence that clears row 6 and row 8.
 
 ## Shutter Toggle Data (Isolation)
-| Switch | State | (2,6) | (10,6) | (16,6) | (6,8) | (12,8) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| S1 (16,1) | (1,0,0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN |
-| S2 (10,1) | (0,1,0) | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
-| S3 (2,1) | (0,0,1) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
+| Switch | State | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| S1 (16,1) | (1,0,0) | CLOSED | ? | CLOSED | OPEN | CLOSED | OPEN |
+| S2 (10,1) | (0,1,0) | CLOSED | ? | OPEN | CLOSED | OPEN | CLOSED |
+| S3 (2,1) | (0,0,1) | OPEN | CLOSED | CLOSED | CLOSED | OPEN | CLOSED |
 
 ## Sequence Results
 - (0,1,1) [3->2]: (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN.
