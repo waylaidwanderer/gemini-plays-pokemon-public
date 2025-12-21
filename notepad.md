@@ -45,6 +45,6 @@
 - Turn 9858: Previous input failed to navigate to Mistral (inputs likely eaten during menu transition). Currently on Muscle's menu. Correcting: B (Back), Down x3 (Mistral), A (Select).
 - Turn 9859: Selected FLY. Next step: Navigate map to Goldenrod City.
 - Hypothesis: Re-visiting Webster might reset the mail or let me copy the exact text again.
-- Turn 9864: Fly map cursor still at Cherrygrove City (Left input failed). Moving UP to target Violet City.
-- Hypothesis: Goldenrod is not directly Left of Cherrygrove on the Fly grid. Path: Cherrygrove -> Violet (Up) -> Goldenrod (Left/Down).
+- Turn 9865: Fly map cursor at Violet City. Moving Left to find Goldenrod (or Ecruteak).
+- Hypothesis: Fly map layout connects Violet -> Left -> Ecruteak/Goldenrod.
 - Quest Note: Fisher rejected "Dark Cave leads to another road." (Mixed case, period). Webster is the reliable fix.
