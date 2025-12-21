@@ -20,9 +20,9 @@
 - **4F Defeated**: Scientist Rich (4, 2), Rocket Grunt (5, 5).
 - **Remaining 4F**: Rocket Girl (12, 4), Rocket Grunt (14, 1) [Behind Shutter/Partition].
 - **Turn 8881**: Sweep complete. Heading to Underground for Card Key.
-- **Turn #8907**: Current turn. Team fully healed. Exiting Pokecenter to head to the Underground.
-- **Underground Plan**: Head to the Goldenrod Underground North Entrance at (9, 5). Goal: Find the real Director and the Card Key.
-- **Tower Intel**: Card Key Slot is at (14, 2) on 3F. Shutters block upper floors.
+- **Turn #8908**: Current turn. Exiting Pokecenter. Heading to the Underground.
+- **Underground Plan**: Navigate to the North Entrance at (9, 5) in Goldenrod City. Explore the basement to find the real Director and the Card Key.
+- **Tower Intel**: Card Key Slot is at (14, 2) on 3F. Shutters block upper floors. 4F is split.
 
 # Global Knowledge
 ## Tile Mechanics
