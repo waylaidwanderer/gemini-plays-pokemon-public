@@ -25,8 +25,8 @@
 - Goal: Open path to the Warehouse Entrance in the southeast.
 - Attempt 2 Progress:
   - 1. S3 ON: Done (Turn 10313).
-  - 2. S2 ON: In progress (Turn 10324).
-  - 3. S1 ON: Next.
+  - 2. S2 ON: Done (Turn 10324).
+  - 3. S1 ON: In progress (Turn 10325).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
