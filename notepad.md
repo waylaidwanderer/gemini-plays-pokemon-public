@@ -25,11 +25,14 @@
 - Method: Testing sequences from clean state (all OFF).
 - Experiment Log (Attempt 2):
     1. Baseline (All OFF): All shutters CLOSED.
-    2. Switch 3 (2, 1) ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
-    3. Switch 2 (10, 1) ON: (12, 9) OPEN.
-    4. Switch 1 (16, 1) ON: Sequence 3-2-1 complete. Verifying shutters.
-- Current Status: All switches ON. Checking (16, 6) and (17, 6).
-- Sequence Attempts: 2 (3-2-1 complete).
+    2. Switch 3 (2, 1) ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED, (16, 6) CLOSED.
+    3. Switch 2 (10, 1) ON (3 & 2 ON): (12, 8) OPEN, (12, 9) OPEN, (16, 6) CLOSED.
+    4. Switch 1 (16, 1) ON (All ON): All shutters CLOSED.
+- Conclusion: 3-2-1 sequence (All ON) results in all shutters closed.
+- Hypothesis: Each switch toggles a pair of shutter groups (S1:{A,B}, S2:{B,C}, S3:{A,C}).
+- Next Test: Turn all switches OFF to reset, then test Switch 1 alone.
+- Current Status: All switches ON. Turning Switch 1 OFF.
+- Sequence Attempts: 2 (3-2-1 failed). Resetting for Attempt 3.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
