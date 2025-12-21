@@ -79,7 +79,7 @@
 # Lessons: Turns 7650-7800
 - Capturing: Burn status is efficient but risky for low-HP targets like Red Gyarados. Sleep is safer.
 - Fly Map: Navigation requires precise cursor movement; check intermediate states to verify cursor position.
-- False Constraints: If a goal seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
+- False Constraints: If a goal strategy seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
 - Efficiency: Use Fly to bypass long routes when the party is weak.
 
 # Lessons: Turns 7800-7850
@@ -89,4 +89,4 @@
 
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
-- Hypothesis: Surveillance cams are in the POKéMON statues. Rocket Grunts will keep appearing until a secret switch is tripped (based on NPC dialogue).
+- Hypothesis: NPC mentioned surveillance cams are in the POKéMON statues and Rocket Grunts will keep appearing until a secret switch is tripped.
