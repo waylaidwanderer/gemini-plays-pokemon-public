@@ -58,3 +58,5 @@
 - Conclusion: The quest likely checks the Sender Name ("WEBSTER") or hidden metadata which cannot be forged.
 - Strategy: Abandoning Mail Quest. Proceeding to Mahogany Town via Ecruteak.
 - Next Action: Fly to Ecruteak City.
+- Turn 9935: Opening Party Menu to Fly to Ecruteak.
+- Note: Cursor likely remembers last position (Kenya). Will verify before selecting Mistral.
