@@ -30,7 +30,8 @@
 
 ### Interaction Testing
 - Turn 10012: Turning Switch 1 OFF to test (0, 1, 1) again.
-- Turn 10014: Switch 1 is OFF. Moving to observe shutters.
+- Turn 10014: Switch 1 is OFF. (0, 1, 1) verified: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN.
+- Turn 10019: Moving to turn Switch 1 ON to complete 3-2-1 sequence (1, 1, 1).
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
