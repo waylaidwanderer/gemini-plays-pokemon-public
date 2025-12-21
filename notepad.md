@@ -9,32 +9,28 @@
 - **NPC/Item Sprites**: All sprites have collision and act as walls.
 
 # Team Rocket Base Investigation (Mahogany Town)
-- **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained. Alarms disabled on B1F.
+- **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' used. Executive defeated.
 - **B1F (3_49):**
-  - (27, 2): Entrance Ladder.
-  - (3, 14): Ladder to B2F West (South section).
-  - (5, 15): Warp panel shortcut to (25, 2).
-  - (19, 11): Secret Switch (Disables Statues). Interact from (19, 12).
+  - (19, 11): Secret Switch (Disables Statues).
 - **B2F (3_50):**
-  - **Structure:** Divided into isolated sections.
-  - **North-West Corridor:** Ladder (3, 2) to B1F North-West.
-  - **Central Section:** Gaps in Row 4 at (10, 4), (18, 4), (19, 4). Contains Voltorb traps.
-  - **South-West Room:** Ladder (3, 6) and item (3, 10). Reachable via B3F West.
-  - **Southern Corridor:** Gap at (23, 16) connects East and West.
+  - **Structure:** Isolated sections.
+  - **Central Section:** Contains Electrode transmitter powering the radio signal.
+  - **South-West Room:** Ladder (3, 6) and item (3, 10).
 - **B3F (3_51):**
-  - (27, 14): Ladder to B2F East.
-  - (10, 9): Boss Room Door. **HOW:** Face (10, 9) or (11, 9) and press A to use passwords.
-  - (3, 2): Ladder to B2F North-West.
-  - (3, 6): Ladder to B2F South-West (Isolated Room).
+  - (10, 9): Boss Room Door (Opened).
+  - (8, 3): Boss Office. Executive defeated at Turn 8361.
+  - (9, 3): Murkrow location (likely gives final password).
 - **Key Encounters:**
-  - **Malice:** Met on B3F West (7, 10). He complained about losing to a "cape guy with dragon Pokemon" (Lance) and mentioned Lance's lecture on loving Pokemon. He left to find stronger Pokemon.
+  - **Malice:** Met on B3F West (7, 10). Mentioned Lance's lecture on love/trust.
+  - **Rocket Executive:** Defeated on B3F West. He ran off after the battle.
 
 # Strategy (HOW)
-1. **Confront Boss:** Open the door at (10, 9) on B3F and defeat the Executive.
-2. **Shut Down Transmitter:** Use the final password (obtained from the boss) to disable the signal on B2F.
+1. **Get Final Password:** Talk to the Murkrow in the Executive's office to get the password for the transmitter room.
+2. **Shut Down Transmitter:** Return to B2F, open the locked doors at (14, 12) or (15, 12), and neutralize the three Electrode.
+3. **Reward:** Speak with Lance to receive HM06 (Whirlpool).
 
 # Lessons Learned
-- Map sections can be completely isolated; look for alternative floor transitions.
-- Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
-- Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
+- Map sections can be isolated; use floor transitions to navigate.
+- Voltorb sprites on B2F are traps.
+- Boss door requires two passwords from grunts on B3F.
 - **Path to Boss:** B2F East -> B3F East -> B2F North -> B3F West.
