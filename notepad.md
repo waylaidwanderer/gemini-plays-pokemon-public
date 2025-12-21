@@ -44,3 +44,7 @@
 - Next: Collect Item Ball at (21, 12), then backtrack to West Side to investigate Warp at (5, 15).
 - Collected Guard Spec at (21, 12).
 - Plan: Backtrack to West Side via Row 11 to investigate Warp at (5, 15).
+- Navigation Correction: Path blocked by Scientist at (16, 12).
+- Plan: Go around via Row 11.
+- Route: (17, 12) -> (17, 11) -> West to (7, 11) -> North to (7, 9) -> East to (19, 9) -> North to (19, 7) -> West to (9, 7) -> North to (9, 4) -> West to (5, 3) -> South to (5, 15).
+- Goal: Reach Warp at (5, 15).
