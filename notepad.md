@@ -1,6 +1,6 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
-- Objective: Locate and shut down the radio transmitter in Team Rocket Base.
+- Status: Currently on B1F. Dealing with security cameras and grunts. GNEISS leading.
 
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
@@ -17,6 +17,7 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
+- GNEISS (GRAVELER): Lv37 (99/103 HP). Moves: Magnitude, Defense Curl, Strength, Rollout.
 - ICARUS (PIDGEY): Lv16 (13/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
 - Calcifer (TYPHLOSION): Lv36 (112/114 HP).
 - KIMCHI (GLOOM): Lv21 (57/57 HP).
@@ -68,19 +69,3 @@
 - Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
 - Reflection #150: Ground reasoning in observable state; scientific mindset for puzzles; maintain organized notepad and markers; refine/create tools proactively.
-
-# Trap Testing Logs
-- Attempt 1 (Turn 7965): Stepped on tile (3, 4).
-- Result: No wild encounter or effect triggered.
-- Conclusion: Tile (3, 4) is a safe FLOOR tile.
-- Attempt 2 (Turn 7966): Stepped on tile (2, 4).
-- Result: No wild encounter or effect triggered.
-- Conclusion: Tile (2, 4) is a safe FLOOR tile.
-- Attempt 3 (Turn 7967): Stepped on tile (3, 7). Result: Wild VOLTORB Lv23 encounter. Conclusion: Tile (3, 7) is a trap tile.
-- Attempt 4 (Turn 7970): Stepped on tile (3, 8). Result: Wild GEODUDE Lv21 encounter. Conclusion: Tile (3, 8) is a trap tile.
-- Attempt 5 (Turn 7974): Stepped on tile (3, 9).
-- Result: Wild VOLTORB Lv23 encounter triggered.
-- Conclusion: Tile (3, 9) is a trap tile.
-- Attempt 6 (Turn 7978): Stepped on tile (3, 10).
-- Result: Wild GEODUDE Lv21 encounter triggered.
-- Conclusion: Tile (3, 10) is a trap tile.
