@@ -107,3 +107,6 @@
 - Plan: Exit Gatehouse (South), then Fly to Violet City.
 - Turn 9906: Exiting Gatehouse (Right to warp).
 - Next Action: Fly to Violet City from Goldenrod.
+- Turn 9909: Exited Gatehouse. Now in Goldenrod City.
+- Action: Using slow_press to Fly to Violet City (Start -> Pokemon -> Mistral -> Fly).
+- Goal: Deliver forged mail to Fisher.
