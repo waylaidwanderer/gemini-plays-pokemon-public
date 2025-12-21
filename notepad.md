@@ -32,10 +32,4 @@
 - Observation: Strength (Normal) appeared to be Super Effective against Koffing (Poison). Need to verify if type matchups or move types are altered.
 - Current Battle: Scientist Ross sent out a second Koffing.
 - Action: Decline switch, then attack.
-- Defeated Scientist Ross.
-- Talking to him now to get the password.
-- Anomaly: Strength (Normal) was Super Effective against Koffing/Venonat. Keeping an eye on this.
-- Moving to (22, 11) to talk to Scientist Ross from the side (he is facing Up).
-- Hypothesis: Interacting from behind didn't work.
-- Located Rocket Girl at (21, 7). She likely holds the second password.
-- Plan: Get password from Scientist Ross, then navigate to Rocket Girl via West gap at (19, 10).
+- Scientist Ross (Defeated). Dialogue: "Experiment success... loss means nothing." No password yet.
