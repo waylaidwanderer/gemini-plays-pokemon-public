@@ -3,11 +3,11 @@
 - Primary Goal: Locate the source of the "rampage" (Red Gyarados).
 - HOW:
     1. Travel North on Route 43 through the tall grass or via the water (Surf).
-    2. Defeat any trainers blocking the path (e.g. Pokemaniac Brent).
+    2. Defeat any trainers blocking the path.
     3. Enter the Lake of Rage and search for the Red Gyarados.
     4. Speak to Lance (if present) to coordinate the investigation.
 - Status: Gatehouse passage unlocked (paid ¥1000 toll). ICARUS moved to lead.
-- Method: Lead with ICARUS (Lv12 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
+- Method: Lead with ICARUS (Lv14 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
 - Contingencies: If blocked, search for Lance or explore water with Surf.
 
 # Tile Mechanics
@@ -24,6 +24,7 @@
 - LEDGE_HOP_DOWN: Verified one-way passage (Down only).
 
 # Party Training Status
+- ICARUS (PIDGEY): Lv14. Current Lead for EXP sharing.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
@@ -54,6 +55,9 @@
 - Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
 - Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7).
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
+
+# Money & Economy
+- ¥1000: Toll paid at Route 43 Gatehouse.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
