@@ -1,7 +1,8 @@
 # Goldenrod Radio Tower Takeover (Started Turn 8588)
 ## Strategy
-- Solve the Switch Room puzzle in Map 3_54 to reach the Underground Warehouse.
-- Obtain the Card Key from the real Director.
+- Use Basement Key at (18, 6) in Goldenrod Underground to access the Warehouse.
+- Rescue the real Director and obtain the Card Key.
+- Use Card Key on 3F Shutter in the Radio Tower.
 
 ## Tower Intel
 - **Card Key Slot**: 3F (14, 2).
@@ -35,7 +36,7 @@
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Strategy: Calcifer (Lv43) uses Flame Wheel (Index 0) to OHKO Sneasel.
+- Strategy for Magnemite/Sneasel: Calcifer (Lv43) uses Flame Wheel (Index 0).
 
 ## Hypotheses
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
