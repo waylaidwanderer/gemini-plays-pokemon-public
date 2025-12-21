@@ -55,6 +55,7 @@
 - Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
 - Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7).
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
+- Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
