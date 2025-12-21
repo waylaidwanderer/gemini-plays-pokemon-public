@@ -47,18 +47,18 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Fix Kenya's Mail.
-  1. **Status:** Mail icon visible on Kenya. "TAKE" action likely failed or wasn't confirmed.
-  2. **Plan:**
-     - Open Kenya's menu (A).
-     - Select MAIL -> TAKE.
-     - Ensure mail is removed (Icon disappears).
+  1. **Status:** "Send to PC?" prompt. Cursor on YES.
+  2. **Action:** Select NO (Down, A) to put in Pack.
+  3. **Plan:**
+     - Confirm removal (A/B).
+     - Exit Party Menu (B).
      - Open Pack -> Give Flower Mail.
-     - Type: "DARK CAVE leads to another road." (Avoid START button).
+     - Use `write_mail_dark_cave` tool.
 
 ## Maintenance
-- **Tool Fix:** Manual typing requires extreme caution.
+- **Tool Fix:** `write_mail_dark_cave` defined and ready.
 
-## Reflection (Turn 9294)
-- **Observation:** Mail icon still present.
-- **Hypothesis:** Did not confirm "TAKE" or input sequence was interrupted.
-- **Action:** Retrying removal process carefully.
+## Reflection (Turn 9296)
+- **Observation:** Game asked to send mail to PC.
+- **Decision:** Selected NO to keep it for rewriting.
+- **Next:** Equip Flower Mail and write correct message.
