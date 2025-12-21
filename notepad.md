@@ -9,16 +9,17 @@
 - Started: Turn 9640
 - Current Goal: Reset all switches to OFF to perform 3-2-1 sequence.
 
-# Switch Status (Turn 9832)
+# Switch Status (Turn 9833)
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🟢 ON (Just turned ON)
+- Switch 1 (16, 1): 🟢 ON (Confirming ON)
 
 # Shutter States (Verified)
 - (2, 6): OPEN (FLOOR)
 - (10, 6): CLOSED (WALL)
 - (12, 8): OPEN (FLOOR)
 - (16, 6): CLOSED (WALL)
+- Note: Sequence 3-2-1 in progress.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
