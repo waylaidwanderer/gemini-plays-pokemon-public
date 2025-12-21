@@ -19,6 +19,7 @@
 1. Reset to (0,0,0) (All switches OFF).
 2. Execute 3-2-1 sequence: S3 ON -> S2 ON -> S1 ON.
 3. Explore southeast quadrant for Warehouse warp.
+4. If 3-2-1 fails, test (1,0,0) as isolation data suggests it opens (16,6) and (12,8).
 
 # Area Notes
 - Warehouse Entrance: Likely southeast warp.
