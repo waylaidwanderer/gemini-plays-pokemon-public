@@ -18,20 +18,19 @@
 | (1,1,1) | ? | ? | CLOSED | CLOSED | CLOSED |
 | (1,1,0) | ? | ? | ? | OPEN (prev) | ? |
 
-## Strategy: Systematic Testing
-- Goal: Find a path to the southeast.
+## Strategy: 3-2-1 Sequence Execution
+- Goal: Open path to the southeast Warehouse Entrance.
 - Plan:
-  1. Toggle Switch 1 OFF (Current state 1,1,1 -> 1,1,0).
-  2. Move to (12, 5) to verify (12, 8) and (16, 6).
-  3. If (12, 8) is OPEN, explore as far east as possible.
-  4. If blocked, try state (0, 1, 1).
-- Current Step: Toggling Switch 1 OFF.
+  1. Reset all switches to OFF (0,0,0).
+  2. Activate in order: S3 (ON), S2 (ON), S1 (ON).
+  3. Verify path at (6,8) and (10,6).
+- Current Progress: Resetting switches. S1 toggling to OFF.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11).
 - Return Ladders: (23,3), (21,25), (5,25).
-- Obstacle: Rocket Grunt at (11, 2) blocks the row 2 corridor.
+- Obstacle: Rocket Grunt at (17, 2) is facing down. Row 2 corridor at X=11-12 may be blocked by another NPC.
 
 # Lessons Learned
 - **Sprite Verification:** Always verify the "Map Objects" list and the current screen before assuming an NPC is blocking a path. Visual hallucinations of obstructions can lead to inefficient routing.
