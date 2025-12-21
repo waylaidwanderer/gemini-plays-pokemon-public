@@ -33,5 +33,10 @@
 - **Mail Removal:** "Send to PC?" -> NO to keep for rewrite, YES to discard.
 - **Tool Safety:** OCR verification is critical before assuming tool success.
 - **Tool Debug:** `write_mail_dark_cave` caused Printer Error. Likely selected a hidden "PRINT" option or navigated out of bounds. Must fix before reuse.
-- **Mail Check:** Current mail only says "DARK CAVE". Tool failed to write full message.
-- **Action:** Replacing with fresh mail and writing manually to ensure accuracy.
+- **Mail Check:** Failed to GIVE mail because Kenya is already holding one.
+- **Action:** Must TAKE old mail first.
+  1. Exit Pack (B).
+  2. Enter Party Menu.
+  3. Kenya -> Take Mail -> Send to PC.
+  4. Give fresh Flower Mail.
+  5. Write Message.
