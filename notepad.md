@@ -22,8 +22,8 @@
 
 ## Action Log & Reflection
 - **Status:** Battling Rocket Executive (Female) at B2F Transmitter Room entrance (14, 14).
-- **Situation:** Opponent sent out Murkrow (Lv ~24). Muscle (Lv 46) is staying in.
-- **Action:** Defeat Murkrow with Strength or Cross Chop (Neutral effectiveness).
+- **Situation:** Opponent sent out Murkrow (Lv 25). Muscle (Lv 46) is using Strength (Neutral damage, best option).
+- **Action:** Defeat Murkrow.
 - **Objective:** Disable the radio signal by defeating all Electrodes/Voltorbs inside.
 
 ## Mapping & Connections (Restored)
