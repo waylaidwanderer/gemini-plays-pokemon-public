@@ -94,3 +94,4 @@
 - Hypothesis: NPC mentioned surveillance cams are in the POKéMON statues and Rocket Grunts will keep appearing until a secret switch is tripped.
 - Defeated Rocket Grunt at (23, 6). Dialogue: "Surveillance cams are in the POKéMON statues. We'll keep appearing until you trip a secret switch."
 - Goal: Find the secret switch to disable cameras.
+- Encountered second Rocket Grunt battle immediately after the first one on B1F near (6, 3). This confirms multiple grunts appear from the security statues.
