@@ -73,6 +73,7 @@
 - Lance moved East. Following him.
 - Item Ball at (3, 10) appears blocked by a wall at Row 12. Will look for a path around.
 - Objective: Find the Generator Room password.
-- Found Rocket Grunt at (21, 14) and another Voltorb at (22, 9).
-- Counters located at (20, 10) and (21, 10).
-- Plan: Defeat the Grunt, then explore the area.
+- Defeated Grunt at (21, 14). He revealed that "only the Boss knows the password."
+- Objective: Find the Boss (Giovanni? Executive?) to get the password.
+- Path to East side found via gap at (23, 16).
+- Plan: Navigate through gap at (23, 16) to confront Rocket Grunt at (25, 13).
