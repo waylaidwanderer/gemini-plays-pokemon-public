@@ -7,9 +7,9 @@
 
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
-- Current Goal: Determine the correct sequence to open all shutters.
+- Current Goal: Reset all switches to OFF to perform 3-2-1 sequence.
 
-# Switch Status (Turn 9813)
+# Switch Status (Turn 9815)
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🔴 OFF (Just turned OFF)
 - Switch 1 (16, 1): 🔴 OFF
