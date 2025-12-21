@@ -13,12 +13,12 @@
 | State (S1,S2,S3) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) [T10102] | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1, 0, 0) | ? | ? | ? | ? | ? | ? |
+| (1, 0, 0) [T10106] | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
 | (0, 1, 0) | ? | ? | ? | ? | ? | ? |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
 
 ## Observations
-- (0, 0, 0): All shutters CLOSED. (Verified Turn 10102).
+- (1, 0, 0): Switch 1 toggles (16,6) in isolation.
 - (1, 1, 1): (2,6)=OPEN, (3,6)=OPEN, (6,8)=OPEN, (10,6)=CLOSED, (16,6)=CLOSED, (12,8)=CLOSED. (Observed Turn 10081)
 - (0, 1, 1): (12,8) shifted from CLOSED to OPEN (Observed Turn 10087).
 - (0, 0, 1): (2,6)=OPEN, (3,6)=OPEN, (10,6)=CLOSED, (16,6)=CLOSED, (6,8)=CLOSED, (12,8)=OPEN. (Observed Turn 10094)
