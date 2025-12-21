@@ -52,8 +52,7 @@
 - Note: Rocket Grunt at (4, 4) (previously thought (2, 4)). He taunted about traps.
 - Plan: Interact/Battle Grunt at (4, 4), then move South to Warp at (5, 15).
 - Target: Warp at (5, 15).
-- Rocket Grunt at (4, 4) defeated. Muscle grew to Lv 44.
-- Proceeding South to investigate Warps at (5, 15) and (3, 14).
-- Note: Grunt mentioned "traps in the floor". Could be wild encounters or teleporters.
-- Encountered trap battle (Koffing) at (5, 8). Running failed.
-- Muscle is low on PP (Strength: 1, Dig: 2). Need to monitor this.
+- Battle with Trap Geodude ended.
+- Plan: Check Ladder at (3, 14) first (less likely to be a reset trap than the Warp Panel).
+- Then check Warp Panel at (5, 15).
+- Muscle HP: 106/144. OK.
