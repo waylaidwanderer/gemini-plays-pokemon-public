@@ -27,10 +27,10 @@
 - Action: Sw1 -> OFF (Turn 9155).
   - Result: Closed (16, 6), (17, 6).
 
-## Current State (Turn 9163)
-- Switch States: Sw1 OFF, Sw2 OFF, Sw3 OFF.
-- Shutter Status: All observed shutters are WALL (Closed).
-- Note: The order of switching is critical. Toggling a switch may have different effects depending on the current state of other switches.
+## Current State (Turn 9174)
+- Switch States: Sw1 OFF, Sw2 OFF, Sw3 ON.
+- Shutter Status: Need to observe Row 6/7/8.
+- Note: Toggling Sw3 to ON from the all-OFF state.
 
 ## Hypothesized Shutter Tiles
 - Sw1: (16, 6), (17, 6)
