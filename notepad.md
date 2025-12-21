@@ -22,8 +22,8 @@
 
 ## Action Log & Reflection
 - **Status:** Battling Rocket Executive (Female) at B2F Transmitter Room entrance (14, 14).
-- **Situation:** Opponent sending out Gloom (Lv 23). Muscle (Lv 46) is active.
-- **Correction:** Strength has 0 PP.
+- **Situation:** Opponent's Gloom (Lv 23) is active. Muscle (Lv 46) used Rock Smash (Not Very Effective) by mistake.
+- **Correction:** Cursor memory caused Rock Smash selection. Correcting to Dig.
 - **Action:** Use Dig (Neutral damage, 60 Power).
 - **Objective:** Disable the radio signal by defeating all Electrodes/Voltorbs inside.
 
