@@ -46,11 +46,10 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Fly to Violet City (Retry).
-  1. **Correction:** Landed in Cherrygrove instead of Violet. Trust the "Selected Destination" text, not the visual cursor lag.
-  2. **Plan:**
-     - Open Party Menu (Mistral).
-     - Fly to Violet City.
-     - Buy Flower Mail.
-     - Deliver to Fisher.
+- **Current Action:** Fly to Violet City.
+  1. **Step 1:** Navigate from Hematite (Slot 2) to Mistral (Slot 5).
+     - Action: Down x3 -> A.
+  2. **Step 2:** Select FLY.
+  3. **Step 3:** Select Violet City on Map.
+  4. **Step 4:** Buy Flower Mail -> Write Message -> Deliver.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
