@@ -39,3 +39,6 @@
   - Golbat (Lv30): Defeated by Calcifer.
   - Feraligatr (Lv32): Defeated by Calcifer (Headbutt).
   - Haunter (Lv30): Current. Strategy: Gneiss (Lv40) Magnitude.
+## Battle Observations
+- **Gen 2 Move Menu**: The menu WRAPS (pressing Up at index 0 goes to index 3). It also remembers its position from the last turn.
+- **Switching Strategy**: Switching a Pokémon out clears the Curse status effect.

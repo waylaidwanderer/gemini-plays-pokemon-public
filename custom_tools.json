@@ -31,7 +31,7 @@
     ]
   },
   "battle_move_selector_v2": {
-    "description": "Selects a move from the move selection menu in battle. Assumes the move selection menu is open. Resets the cursor to the first move (index 0) and then moves to the specified move_index (0-3). Includes an initial 1000ms safety delay for menu transitions.",
+    "description": "Selects a move from the move selection menu in battle. Assumes the move selection menu is open AND the cursor is at the first move (index 0). Moves the cursor down to the specified move_index (0-3) and presses A. Includes an initial 1000ms safety delay for menu transitions and 300ms between presses.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -44,7 +44,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    try:\n        move_index = int(input_data.get('move_index', 0))\n    except (ValueError, TypeError):\n        move_index = 0\n        \n    # Start with a long sleep to let the menu open\n    buttons = [\"sleep 1000\"]\n    \n    # Reset cursor to move 0 (safe because move menu doesn't wrap in Gen 2)\n    for _ in range(3):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 300\")\n        \n    # Move to the target index\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n        \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nrun(input_data)\n",
+    "python_script": "import json\n\ndef run(input_data):\n    try:\n        move_index = int(input_data.get('move_index', 0))\n    except (ValueError, TypeError):\n        move_index = 0\n        \n    buttons = [\"sleep 1000\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nrun(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -80,6 +80,11 @@
         "commit_message": "Re-added cursor reset (Up, Up, Up) with safety delays. In Gen 2, the move selection menu does NOT wrap, making this a reliable way to ensure the tool starts from move 0 even if the menu was already open.",
         "timestamp": "2025-12-21T14:31:21.406Z",
         "action_counter": 9048
+      },
+      {
+        "commit_message": "Removed the faulty 'Up' reset logic and added a clear explanation in the description that the tool assumes the cursor starts at move index 0. This is necessary because the Gen 2 move menu wraps, making 'Up' resets unreliable.",
+        "timestamp": "2025-12-21T14:32:49.857Z",
+        "action_counter": 9049
       }
     ]
   },
