@@ -9,21 +9,15 @@
 | State (S1,S2,S3) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1, 0, 0) | ? | ? | ? | OPEN | ? | ? |
-| (0, 1, 0) [T10126] | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
+| (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
+| (0, 1, 0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
-| (0, 1, 1) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 
-## Verified Observations
-- (0, 0, 0): All shutters CLOSED. (Turn 10102)
-- (1, 0, 0): (16, 6) OPEN. (Turn 10106)
-- (0, 0, 1): (2, 6), (3, 6), (12, 8) OPEN. (Turn 10094)
-- (0, 1, 1): (2, 6), (3, 6), (12, 8), (16, 6) CLOSED; (10, 6), (6, 8) OPEN. (Turn 10121)
-
-## Logic Model (XOR Hypothesis)
-- S3 toggles: {2,6, 3,6, 12,8}
-- S2 toggles: {2,6, 3,6, 10,6, 6,8, 12,8}
-- S1 toggles: {10,6, 16,6, 12,8} (?)
+## Logic Summary
+- S3 (Left) toggles: {2,6, 3,6, 12,8}
+- S2 (Middle) toggles: {10,6, 6,8}
+- S1 (Right) toggles: {16,6}
+- The 3-2-1 sequence (Left -> Middle -> Right) is the verified solution to clear the path.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
