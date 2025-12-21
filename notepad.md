@@ -25,7 +25,7 @@
 
 # Party Training Status
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
-- GNEISS (GRAVELER): Lv35.
+- GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
 - Ravioli (KRABBY): Lv10.
 - Blarney (SUDOWOODO): Lv20.
