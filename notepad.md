@@ -24,7 +24,8 @@
   - (12, 8), (10, 6), (6, 8): No change.
 
 ### Test 2: Switch 2 (10, 1) -> ON
-- Status: PENDING.
+- Status: Started Turn 9958.
+- Observations: PENDING.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
