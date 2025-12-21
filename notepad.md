@@ -21,7 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Picked up Ultra Ball at B3F (14, 10).
-- **Plan:** Backtrack to B2F Locked Door (14, 12).
-- **Route:** B3F West (3, 2) Ladder -> B2F North -> B3F NE Ladder (27, 2) -> B3F East -> B3F SE Ladder (27, 14) -> B2F South.
-- **Reasoning:** Direct access to B2F South is blocked from the North side, requiring a loop through B3F East.
+- **Status:** Returned to B2F North (3, 2) via West Ladder.
+- **Plan:** Traverse North Corridor East to (27, 2). Then B3F NE -> B3F East -> B3F SE -> B2F South.
+- **Objective:** Reach the Locked Door at B2F (14, 12) to use the password.
