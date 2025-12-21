@@ -21,10 +21,10 @@
 - Water -> Fire: Super Effective (vs Growlithe)
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
-# Resource Management Strategy
+# Resource Management Strategy (COMPLETED)
 - Task: Restock healing items (Lemonades, Super Potions).
-- Start Turn: 9247.
-- Note: Lemonade is for HP; Revives are still needed (source unknown).
+- Status: 10 Lemonades and 10 Super Potions purchased.
+- Note: Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Shop Inventories
