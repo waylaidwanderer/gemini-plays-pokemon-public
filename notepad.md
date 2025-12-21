@@ -46,7 +46,7 @@
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
 - Scientist Ross: Defeated at (23, 11). Former Silph employee. Mentioned a signal that drives Pokemon mad.
 - Scientist (ID 7): Found at (11, 15).
-- Rocket Grunt (ID 5): Found at (5, 14).
+- Rocket Grunt (ID 5): Found at (7, 14). Claims to have a password.
 - Rocket Girl (ID 4): Found at (21, 7).
 
 # Battle & NPC Knowledge
