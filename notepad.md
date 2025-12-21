@@ -31,8 +31,9 @@
   - (11, 7): OPEN (Was CLOSED).
   - (6, 9): OPEN (Was CLOSED).
   - (16, 6): CLOSED (Confirmed by collision Turn 9966).
-  - (12, 8): Moving to verify.
-  - (2, 6), (6, 8): PENDING.
+  - (12, 8): CLOSED (Confirmed by collision Turn 9970).
+  - (6, 8): Moving to verify.
+  - (2, 6): PENDING.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
