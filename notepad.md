@@ -37,5 +37,5 @@
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Rival Battle Progress: Golbat and Feraligatr defeated. Currently facing Haunter (Lv30).
-- Strategy for Haunter: Calcifer (Lv43) is active. Use Flame Wheel to KO Haunter.
+- Rival Battle Progress: Golbat, Feraligatr, and Haunter defeated. Facing Magnemite (Lv ~30).
+- Strategy for Magnemite: Calcifer (Lv43) uses Flame Wheel.
