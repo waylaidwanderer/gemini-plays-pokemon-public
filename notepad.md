@@ -1,6 +1,6 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
-- Status: Currently on B1F. Dealing with security cameras and grunts. GNEISS leading.
+- Status: Exploring Team Rocket Base B2F. Met Lance at (5, 13). GNEISS leading.
 
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
