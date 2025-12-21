@@ -85,3 +85,6 @@
 
 # Progress Log
 - Turn 8483: Moving to (5, 10) to challenge the Rocker at (5, 9).
+
+# Trainer Data
+- Boarder Brad (2_2, 5, 9): Swinub Lv26.
