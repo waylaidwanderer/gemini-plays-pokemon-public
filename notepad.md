@@ -1,30 +1,24 @@
 # Tile Mechanics
-- FLOOR: Walkable surface.
-- WALL: Impassable barrier.
-- SHUTTER: Toggled by switches. Acts as WALL when closed, FLOOR when open. Verified at (2, 6), (10, 6), (12, 8), (16, 6).
+- FLOOR: Traversable.
+- WALL: Impassable.
+- SHUTTER: Impassable when CLOSED (WALL), traversable when OPEN (FLOOR). Verified at (2, 6), (10, 6), (12, 8), (16, 6).
+- LADDER: Traversable (Warp).
+- WARP_CARPET_DOWN: Traversable (Warp).
 
-# Strategy: Switch Room Puzzle (Map 3_54)
-- Goal: Reach the Underground Warehouse (Map 3_55).
-- Method: Execute the 3-2-1 sequence (Turn ON Switch 3, then 2, then 1).
-- Logic: Order of switches matters. 3-2-1 is the standard solution from all-OFF state.
-- Start Turn: 9640
+# Puzzle: Goldenrod Underground Switch Puzzle
+- Started: Turn 9640
+- Current Goal: Reset all switches to OFF before executing 3-2-1 sequence.
 
-## Switch Status (Turn 9779)
+# Switch Status (Turn 9781)
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🔴 OFF (Just turned OFF)
+- Switch 1 (16, 1): 🔴 OFF
 
-## Shutter States (Current: [ON, ON, OFF])
-- (2, 6): FLOOR (OPEN)
-- (10, 6): WALL (CLOSED)
-- (12, 8): FLOOR (OPEN)
-- (16, 6): WALL (CLOSED)
-
-## Switch-Shutter Observations (Current Hypothesis)
-- Switch 3 (Turn 9731): Turning ON made (2, 6) and (12, 8) FLOOR.
-- Switch 2 (Turn 9761): Turning ON (Waiting to see effect).
-- Switch 1 (Turn 9710): Turning ON made (12, 8) WALL.
-- The goal is to have (10, 6), (12, 8), and (16, 6) all as FLOOR to reach the exit.
+# Shutter States (Estimated)
+- (2, 6): OPEN
+- (10, 6): CLOSED
+- (12, 8): OPEN
+- (16, 6): CLOSED
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
