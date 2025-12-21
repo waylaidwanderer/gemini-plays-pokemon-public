@@ -63,3 +63,7 @@
 - Youngster at (1, 3) stops evolution to learn moves faster.
 - Cooltrainer F at (2, 3) mentions evolved Pokemon learn moves more slowly.
 - Camper Spencer (Route 43): Sandshrew (Ground), Zubat (Poison/Flying), Sandslash (Ground).
+
+# Progression Update (Turn #7591)
+- KIMCHI (Oddish) evolved into GLOOM at Lv21 after defeating Camper Spencer.
+- Camper Spencer (Route 43) Roster: Sandshrew (Lv17), Zubat (Lv19), Sandslash (Lv17).
