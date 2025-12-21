@@ -98,3 +98,8 @@
 - Gramps at (5, 9).
 - Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
 - Gym (6, 13): Blocked by Fisher at (6, 14).
+
+# Mahogany Pokemon Center Dialogue
+- Pokefan M at (8, 1) saw "men in black" at Lake of Rage. Confirms Team Rocket involvement.
+- Youngster at (1, 3) stops evolution to learn moves faster.
+- Cooltrainer F at (2, 3) mentions evolved Pokemon learn moves more slowly.
