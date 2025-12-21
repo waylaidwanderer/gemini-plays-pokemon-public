@@ -45,3 +45,5 @@
 - Observation: Warp at (25, 2) did not trigger when stepped on. Likely an arrival point or inactive.
 - Observation: Tile (24, 2) appears safe from sensors (no encounter triggered while standing there).
 - Plan: Traverse West through (24, 2) to bypass security and explore the rest of the floor.
+- Observation: Room layout spans y=1 to y=5, divided by a wall at y=4 with a potential gap at (9, 4).
+- Plan: Investigate the gap at (9, 4) to access the southern section.
