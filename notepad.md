@@ -25,13 +25,11 @@
 ### Final Sequence: 3-2-1
 - Step 1: Switch 3 ON (Turn 9993).
 - Step 2: Switch 2 ON (Turn 10002).
-- Step 3: Switch 1 ON (Turn 10010). 
-- Result: (1, 1, 1) BLOCKED. (10,6) CLOSED, (16,6) CLOSED.
+- Step 3: Switch 1 ON (Started Turn 10019).
+- Result (1, 1, 1): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
 
-### Interaction Testing
-- Turn 10012: Turning Switch 1 OFF to test (0, 1, 1) again.
-- Turn 10014: Switch 1 is OFF. (0, 1, 1) verified: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN.
-- Turn 10019: Moving to turn Switch 1 ON to complete 3-2-1 sequence (1, 1, 1).
+### Order Testing
+- Goal: Find order that opens (10,6) or (16,6).
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
