@@ -42,3 +42,9 @@
 - Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
 - Always check if an NPC or Item sprite is at the target coordinate before pathing.
 - **Path to Boss:** The western section of B3F (Boss Room) is reached by taking the ladder at (27, 14) on B2F to B3F East, then the ladder at (27, 2) on B3F to reach B2F North, which leads to B3F West.
+- **B2F Exploration:**
+  - (3, 6): Ladder (Unmarked). Hypothesis: Leads to B3F West (Boss Room).
+  - (3, 10): Item Ball.
+  - (1, 8) to (19, 8): Unseen tiles.
+  - (10, 4), (18, 4), (19, 4): Gaps in the central wall allowing North/South movement.
+  - (19, 10): Gap between East and West sections.
