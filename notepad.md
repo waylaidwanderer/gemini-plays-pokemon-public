@@ -8,15 +8,22 @@
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Method: Execute the 3-2-1 sequence (Turn ON Switch 3, then 2, then 1).
 - Start Turn: 9640
-- Logic: Order of switches matters. 3-2-1 is the standard solution to open the southern path.
+- Failed Attempts: 1 (Turn 9710 - likely due to incorrect order).
+- Logic: Order of switches matters (Rocket Grunt dialogue). Standard solution is 3-2-1.
+
+## Switch Combination Log
+- [3 ON, 2 ON, 1 ON]: Attempting (Started Turn 9731).
 
 ## Verified Switch States
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🟢 ON (Just turned ON)
+- Switch 1 (16, 1): 🔴 OFF (Turning ON now)
 
-## Shutter Status (Hypothesis)
-- 3-2-1 sequence should open (10, 6), (12, 8), and (16, 6).
+## Shutter States (Observed)
+- (2, 6): FLOOR (Turn 9731)
+- (10, 6): WALL (Turn 9731)
+- (12, 8): FLOOR (Turn 9731)
+- (16, 6): WALL (Turn 9731)
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
