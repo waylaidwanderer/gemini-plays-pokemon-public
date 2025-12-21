@@ -10,10 +10,10 @@
 - Start Turn: 9640
 - Logic: Order of switches matters. 3-2-1 is the standard solution to open the southern path.
 
-## Switch States
+## Verified Switch States
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🔴 OFF
+- Switch 1 (16, 1): 🔴 OFF (Turning ON now)
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
