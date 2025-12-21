@@ -23,7 +23,7 @@
     - Scientist Marc (9, 3): Magnemite Lv27 x2 - Defeated.
 - Radio Tower 4F:
     - Scientist Rich (4, 2): Porygon Lv30 - Defeated. Calcifer is Lv41.
-    - Rocket Grunt (5, 5): In progress.
+    - Rocket Grunt (5, 5): Zubat Lv22 (In progress). Calcifer out of Flame Wheel PP; using Ember/Headbutt.
 
 # Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
