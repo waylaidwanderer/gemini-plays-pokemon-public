@@ -6,12 +6,12 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Restarting Mail Process.
+- **Status:** Correcting Mail Text.
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Selected Kenya. Entering Mail Composition.
+- **Current State:** Text is "DARK ECXG". Cursor at 'G'.
 - **Next Steps:**
-    1. Press 'A' to enter Mail screen.
-    2. Type "DARK CAVE" (in chunks).
+    1. Press 'B' x4 to delete "ECXG".
+    2. Type "CAVE" (Manual navigation from 'G').
     3. Select 'END' to finish.
     4. Deliver to Fisher.
 
