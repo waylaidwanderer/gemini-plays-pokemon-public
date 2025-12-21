@@ -70,3 +70,5 @@
   - Turn 2: Muscle used Dig (Immune). Gyarados used Dragon Rage (40 dmg). Muscle HP: 57/137.
   - Turn 3 Plan: Use Strength (Neutral damage). Rock Smash was too weak. Dig is useless.
   - Risk: Dragon Rage leaves Muscle at 17 HP next turn. Must Heal or Switch soon.
+  - Turn 3: Muscle used Strength (Neutral). Gyarados used Leer (Def fell). Muscle HP: 57/137. Gyarados HP: ~40% (Yellow).
+  - Turn 4 Plan: Throw Great Ball. Muscle can survive one more Dragon Rage (40 dmg), but risky. Catching now is priority.
