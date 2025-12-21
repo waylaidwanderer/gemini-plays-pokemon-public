@@ -35,4 +35,5 @@
 - Attempt 2 (Current): Writing mixed case message.
 - Mechanism: Mail must be written before giving? Or can be edited? If 'GIVE' creates blank mail, must 'TAKE' -> 'WRITE' -> 'GIVE' or 'USE' -> 'WRITE' -> 'GIVE'.
 - Mail Menu: Start button causes Printer Error. Use B to cancel.
-- Status: Mail Written ("Dark Cave leads to another road."). Attempting Delivery.
+- Status: Approaching Fisher to deliver Kenya with mail "Dark Cave leads to another road."
+- Strategy: Move Down, Right, Right to (17, 8), Face Up, Talk.
