@@ -47,7 +47,7 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Equip Kenya and Deliver.
-  1. **Status:** In Pack (Items Pocket).
+  1. **Status:** Re-opening Start Menu -> Pack.
   2. **Step 1:** Find Flower Mail in Item List.
   3. **Step 2:** Select GIVE -> Kenya.
   4. **Step 3:** Compose Message: "DARK CAVE leads to another road." (Exact punctuation).
@@ -56,8 +56,9 @@
 ## Maintenance
 - **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
 
-## Reflection (Turn 9270)
-- **Progress:** Identified status screen. Backing out to Pack.
-- **Inventory:** Have Flower Mail x2. No need to buy.
-- **Hypothesis:** Quest failed due to missing period in mail message.
+## Reflection (Turn 9271)
+- **Error:** Accidentally closed menu with too many 'B' presses.
+- **Correction:** Opening Start Menu, navigating to Pack.
+- **Inventory:** Have Flower Mail x2.
+- **Quest:** Fisher needs mail with "DARK CAVE leads to another road."
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
