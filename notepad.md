@@ -57,5 +57,6 @@
 
 # Area Notes: Goldenrod Dept. Store 3F
 - NPCs: Super Nerd (ID 2).
+- Shop: Battle Collection (X Items, etc. - to be verified).
 - Staircases: (12, 0) to 2F, (15, 0) to 4F.
-- Directory: (14, 0).
+- Directory: (14, 0) - "3F BATTLE COLLECTION - For Victory Seekers".
