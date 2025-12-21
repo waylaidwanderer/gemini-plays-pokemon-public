@@ -10,9 +10,9 @@
 - Current Goal: Execute 3-2-1 sequence (Switch 3 -> 2 -> 1) from all-OFF state.
 - Hypothesis: Turning switches ON in order 3, 2, 1 will open the path to the warehouse.
 
-# Switch Status (Turn 9792)
-- Switch 3 (2, 1): 🟢 ON (Just turned ON)
-- Switch 2 (10, 1): 🔴 OFF
+# Switch Status (Turn 9797)
+- Switch 3 (2, 1): 🟢 ON
+- Switch 2 (10, 1): 🟢 ON (Just turned ON)
 - Switch 1 (16, 1): 🔴 OFF
 
 # Shutter States (Estimated)
