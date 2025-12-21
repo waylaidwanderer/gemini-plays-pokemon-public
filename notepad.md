@@ -1,26 +1,19 @@
 # Gem's Journey in Pokémon Crystal
 
-## Tile Mechanics
-- COUNTER: Impassable. Treated as WALL for movement.
-
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
-- **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Navigate to Locked Doors at (15, 12) on B2F and interact.
-- **Status:** Back on B2F. Passwords re-verified. Attempting to open doors again.
-- **Inventory:** Bag is full.
+- **Secondary Goal:** Open Locked Doors on B2F.
+- **Immediate Task:** Trigger the event to open the doors (likely Rival encounter).
+- **Status:** Have passwords ("SLOWPOKETAIL", "RATICATE TAIL"). Door says "Needs password".
 
-## Quest Log
-- **Lake of Rage:** Caught Red Gyarados. Met Lance.
-- **Rocket Hideout B1F:** Disabled Security System (Switch at 19, 11).
-- **Rocket Hideout B2F:** Met Lance. Learned password is with the Boss.
-- **Rocket Hideout B3F:** Found both passwords ("SLOWPOKETAIL", "RATICATE TAIL").
-
-## Team Rocket Hideout B3F Status
-- **Location:** B3F.
+## Team Rocket Hideout Status
+- **B1F:** Security disabled.
+- **B2F:** Lance met. Locked doors at (14,12) & (15,12).
+- **B3F:** Passwords obtained. Boss room locked.
 - **Objectives:**
-    1. Unlock Boss's Room at (10, 9).
-    2. Loot Item at (14, 10).
+    1. Open B2F Locked Doors.
+    2. Defeat Executive.
     3. Defeat Boss.
 
-## Team Management
+## Tile Mechanics
+- COUNTER: Impassable.
