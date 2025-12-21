@@ -36,7 +36,9 @@
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Strategy for Magnemite/Sneasel: Calcifer (Lv43) uses Flame Wheel (Index 0).
+- Rival Battle: Defeated Malice (Turn 9070). Calcifer reached Lv43.
+- Goal: Solve Switch Room puzzle (Map 3_54) to reach the Warehouse.
+- Current Status: Starting puzzle. Rocket Grunt at (17, 2) needs clearing.
 
 ## Hypotheses
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
