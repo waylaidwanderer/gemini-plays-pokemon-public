@@ -35,3 +35,5 @@
     - Mahogany Mart suspicious (Stairs locked).
     - Bug Catching Contest today.
 - Fishing Guru (Lake of Rage House): Explains lake lore. Worried about Magikarp. Might need to clear Lake of Rage event first.
+- Flight Miscalculation: Aimed for Goldenrod, landed in Olivine. Need to be more careful with Fly menu selection.
+- Checking Olivine Mart for Ultra Balls.
