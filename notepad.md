@@ -31,14 +31,11 @@
 
 ## Battle Mechanics
 - **Menu Transitions**: Use 1000ms sleep for sub-menus.
+- **Gen 2 Move Menu**: The menu WRAPS (Up at index 0 goes to index 3). It REMEMBERS its position from the last time it was opened in the same battle.
+- **Curse Status**: Deals 1/4 max HP damage every turn. Switching out CLEARS the Curse.
 
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Rival Battle Progress:
-  - Golbat (Lv30): Defeated by Calcifer.
-  - Feraligatr (Lv32): Defeated by Calcifer (Headbutt).
-  - Haunter (Lv30): Current. Strategy: Gneiss (Lv40) Magnitude.
-## Battle Observations
-- **Gen 2 Move Menu**: The menu WRAPS. However, it RESETS to index 0 every time the FIGHT menu is opened. My previous "reset" logic was actually causing misclicks by moving the cursor away from 0.
-- **Switching Strategy**: Switching a Pokémon out clears the Curse status effect.
+- Rival Battle Progress: Golbat and Feraligatr defeated. Currently facing Haunter (Lv30).
+- Strategy for Haunter: Gneiss is cursed and low on HP. Switch to Calcifer to clear Curse and KO Haunter with Flame Wheel.
