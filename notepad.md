@@ -14,6 +14,7 @@
 - **Shopping:** Check all clerks at a counter; they often have different inventories.
 - **Input Hygiene:** NEVER mix directional buttons with A/B/Start/Select in a single turn when precision is required (e.g., interacting with objects).
 - **Vending Machines:** Lemonade (350) is the best value for HP restoration (80 HP).
+- **Tool Scope:** `select_battle_option` is for battles only; use `press_buttons` for shop menus.
 
 ## Pokemon Type Effectiveness
 - Rock/Ground -> Poison: Super Effective (GNEISS vs Koffing)
@@ -24,7 +25,6 @@
 # Resource Management Strategy (COMPLETED)
 - Task: Restock healing items (Lemonades, Super Potions).
 - Status: 10 Lemonades and 10 Super Potions purchased.
-- Note: Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Shop Inventories
@@ -40,14 +40,11 @@
 ## Goldenrod Dept. Store 6F
 - Vending Machines (8, 1 to 11, 1): Fresh Water (200), Soda Pop (300), Lemonade (350).
 
-# Switch Room Puzzle (Map 3_54)
-- Task started: Turn 9122.
-- Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
-- Logic:
-  - Switch 1: Toggles (16, 6) and (17, 6).
-  - Switch 3 ON: Opens (12, 8), (12, 9). Closes (6, 9).
-  - Switch 3 OFF: Opens (10, 6), (10, 7).
-  - Switch 2 ON -> OFF: Closes (10, 6), (10, 7).
+# Switch Room Strategy (Verified by Agent)
+- Map: 3_54.
+- Standard Solution: 3-2-1 sequence.
+- Current Progress: Switch 3 ON, Switch 2 ON.
+- Next Step: Activate Switch 1 (16, 1) to clear the path to the stairs.
 
 # Area Notes
 ## Goldenrod Dept. Store 4F
@@ -70,8 +67,3 @@
 - Elevator Button: (3, 0).
 - Vending Machines: (8, 1), (9, 1), (10, 1), (11, 1).
 - Staircase: (13, 0).
-
-# Switch Room Strategy (Verified by Agent)
-- Standard Solution: 3-2-1 sequence.
-- Current Progress: Switch 3 ON, Switch 2 ON.
-- Next Step: Activate Switch 1 (16, 1) to clear the path to the stairs.
