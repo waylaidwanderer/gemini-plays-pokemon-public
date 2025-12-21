@@ -8,7 +8,7 @@
 ## Tower Intel
 - **Card Key Slot**: 3F (14, 2).
 - **Shutters**: 3F (14, 2), 4F (11, 4), 5F (14, 3).
-- **Partition**: 4F is split; upper floors require Card Key. But verify if 5F is reachable via left side of 4F (0, 0).
+- **Partition**: 4F is split; upper floors require Card Key. But 5F is reachable via left side of 4F (0, 0).
 - **Directory**: 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director's Office.
 
 ## Underground Progress (Map 3_53)
@@ -44,4 +44,4 @@
 - 2F: Cleared.
 - 3F: Cleared (accessible areas).
 - 4F: Scientist Rich and one Rocket Grunt defeated on left side.
-- 5F: Unreached. Target: Director's Office.
+- 5F: Reached. Target: Director's Office.
