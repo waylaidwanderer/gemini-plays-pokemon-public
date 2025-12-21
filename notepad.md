@@ -2,29 +2,24 @@
 ## Strategy (HOW)
 - Map 3_54 Switch Puzzle: Switches 1, 2, and 3 control shutters.
 - Solution Goal: Reach the warehouse entrance (likely far south/west).
-- Resource Management: Visit Goldenrod Dept. Store to buy Hyper Potions and Revives.
+- Resource Management: Visit Goldenrod Dept. Store 4F (Medicine Box) to buy Hyper Potions and Revives.
 
 # Global Knowledge
 ## Tile Mechanics
 - FLOOR:
-  - Individual Behavior: Standard walkable surface. No special effects.
+  - Individual Behavior: Standard walkable surface.
   - Relational Behavior: Can be entered from any adjacent traversable tile.
-  - Mechanics: Allows normal player movement and wild encounters (in specific maps).
-- WALL:
-  - Individual Behavior: Impassable barrier. Blocks player movement.
+  - Mechanics: Allows normal player movement.
+- WALL / MART_SHELF:
+  - Individual Behavior: Impassable barrier.
   - Relational Behavior: Cannot be entered from any direction.
-  - Mechanics: In Map 3_54, specific WALL tiles function as dynamic shutters toggled by switches.
+  - Mechanics: Blocks movement. In Map 3_54, specific WALL tiles are dynamic shutters.
 - COUNTER:
-  - Individual Behavior: Impassable barrier. Blocks player movement.
+  - Individual Behavior: Impassable barrier.
   - Relational Behavior: Interactable from the front tile (usually a FLOOR tile).
   - Mechanics: Prevents walking but allows talking to NPCs behind them.
-- WARP_CARPET_DOWN / WARP_CARPET_UP:
-  - Individual Behavior: Triggers a map transition (warp) when entered.
-  - Relational Behavior: Entered by walking onto the tile.
-  - Mechanics: Automatically moves the player to a different map or coordinate.
-- LADDER / STAIRCASE:
-  - Individual Behavior: Interactive warp point.
-  - Relational Behavior: Triggers warp when the player steps onto it.
+- WARP_CARPET / LADDER / STAIRCASE:
+  - Individual Behavior: Triggers a map transition (warp).
   - Mechanics: Connects different floors or maps.
 
 ## Pokemon Type Effectiveness
@@ -34,15 +29,8 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Exit via warp carpet at (21, 29) on Map 3_54 -> Goldenrod City (9, 5).
-- Navigate to the Goldenrod Dept. Store (Map 3_6).
-- Take the elevator to 4F (Medicine Box).
-  1. Navigate to (3, 1) on 1F.
-  2. Call elevator at (3, 0).
-  3. Enter door at (2, 0).
-  4. Select 4F and walk out.
-- Purchase 10 Hyper Potions and 5 Revives.
-- Return to the Underground via the same path to resume the puzzle.
+- Goal: Purchase 10 Hyper Potions and 5 Revives at the 4F Medicine Box.
+- Return Path: Elevator/Stairs -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Switch Room Puzzle (Map 3_54)
 - Task started: Turn 9122.
