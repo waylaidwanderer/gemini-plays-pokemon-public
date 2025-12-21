@@ -49,5 +49,6 @@
 - Route: (17, 12) -> (17, 11) -> West to (7, 11) -> North to (7, 9) -> East to (19, 9) -> North to (19, 7) -> West to (9, 7) -> North to (9, 4) -> West to (5, 3) -> South to (5, 15).
 - Goal: Reach Warp at (5, 15).
 - Moving to West side.
-- Note: Rocket Grunt at (2, 4) might trigger battle when crossing (5, 4).
+- Note: Rocket Grunt at (4, 4) (previously thought (2, 4)). He taunted about traps.
+- Plan: Interact/Battle Grunt at (4, 4), then move South to Warp at (5, 15).
 - Target: Warp at (5, 15).
