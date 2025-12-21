@@ -48,3 +48,10 @@
   - (1, 8) to (19, 8): Unseen tiles.
   - (10, 4), (18, 4), (19, 4): Gaps in the central wall allowing North/South movement.
   - (19, 10): Gap between East and West sections.
+- **B2F Map Structure:**
+  - The floor is divided into isolated sections.
+  - **North-West Corridor (x=1-5, y=1-3):** Contains ladder (3, 2) to B1F North-West.
+  - **Central Section (x=7-22, y=4-11):** Accessible via gaps in Row 4 at (10, 4), (11, 4), (18, 4), (19, 4).
+  - **South-West Room (x=1-5, y=5-11):** Contains ladder (3, 6) and item (3, 10). Enclosed by walls at x=0, x=6, Row 4, and Row 12. Hypothesis: Enter via B1F or B3F.
+  - **Passage (x=24, y=1-16):** Connects North-East and South-East sections.
+  - **Southern Corridor (y=13-16):** Split into West (x=1-22) and East (x=24-28). Connected by a gap at (23, 16).
