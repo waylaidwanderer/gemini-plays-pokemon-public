@@ -85,4 +85,4 @@
 
 # Password Log
 - Password 1: RATICATE TAIL (from Grunt at 7, 14)
-- Password 2: [Pending] (Check Rocket Girl at 21, 7 or Grunt at 24, 14)
+- Password 2: SLOWPOKETAIL (from Rocket Girl at 21, 7)
