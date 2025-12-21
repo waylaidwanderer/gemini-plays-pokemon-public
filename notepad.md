@@ -10,7 +10,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
 | (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
-| (0, 1, 0) | ? | ? | ? | ? | ? | ? |
+| (0, 1, 0) | ? | ? | OPEN | CLOSED | ? | ? |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
 
 ## Verified Observations
