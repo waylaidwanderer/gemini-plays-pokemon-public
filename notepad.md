@@ -47,8 +47,7 @@
 - Plan: Traverse West through (24, 2) to bypass security and explore the rest of the floor.
 - Observation: Room layout spans y=1 to y=5, divided by a wall at y=4 with a potential gap at (9, 4).
 - Plan: Investigate the gap at (9, 4) to access the southern section.
-- Observation: Security Camera at (6, 1) triggered 'Intruder Alert' when traversing Row 2 at x=6.
-- Conclusion: Row 2 is NOT a blind spot for cameras at y=1. Direct line of sight triggers the alarm.
-- Plan: Defeat the Grunt, then explore the Gap at (9, 4) to bypass this trapped corridor.
+Mechanic: Persian Statues (e.g., at 6,1) are security cameras. Walking in their line of sight triggers an alarm and infinite Rocket Grunt battles. Must find a **SECRET SWITCH** to disable them.
+- Plan: Go South through gap at (9,4) to search for the switch in the unexplored area.
 - Potentially Reachable Unseen Tiles (Turn 10466): (1, 1), (1, 2), (1, 3), (1, 4), (1, 6), (16, 7), (17, 7), (18, 7), (19, 7), (2, 8), (1, 7), (3, 8), (4, 8), (5, 8), (7, 8), (14, 8), (15, 8), (20, 8), (21, 8), (22, 8), (23, 8), (24, 8), (25, 8), (26, 8), (27, 8), (28, 8).
 - Plan: Investigate reachable tiles after battle.
