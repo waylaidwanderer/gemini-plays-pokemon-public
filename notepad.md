@@ -19,6 +19,13 @@
 - Rock/Ground -> Poison: Super Effective (observed Gneiss vs Ekans)
 - Flying -> Bug: Super Effective (observed Icarus vs Spinarak)
 
+# Resource Management Strategy
+- Exit Goldenrod Underground via the ladder at (21, 25).
+- Navigate to the Goldenrod Dept. Store (Map 3_6).
+- Take the elevator to 5F (Pharmacy).
+- Purchase 10 Hyper Potions and 5 Revives with ¥88139.
+- Return to the Underground via the same ladder to resume the puzzle.
+
 ## Progress Tracking
 - Badges: 7/16.
 - PC: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
