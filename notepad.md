@@ -9,26 +9,25 @@
 # Puzzle: Goldenrod Underground Switch Room
 - Puzzle Start Turn: ~10125
 ## Isolation Testing Matrix (0 = OFF, 1 = ON)
-| State (S1,S2,S3) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
+| State (S3,S2,S1) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
-| (0, 1, 0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
+| (0, 1, 0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
+| (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
+(Note: Switch 3 at 2,1; Switch 2 at 10,1; Switch 1 at 16,1)
 
 ## Strategy: Shutter Sequence Testing
 - Goal: Open path to the southeast (cols 14+). Requires (12,8) or (16,6) to be OPEN.
 - Current Switch States:
-  - Switch 3: OFF (0)
-  - Switch 2: ON (1)
-  - Switch 1: ON (1)
-- Observed Shutters (Current): (2,6) CLOSED, (6,8) OPEN, (10,6) OPEN, (16,6) CLOSED, (12,8) CLOSED.
-- Hypothesis: The grunt's hint (3-2-1) refers to a sequence that depends on the *starting state* or is a specific permutation.
-- Plan: 
+  - Switch 3 (2,1): OFF (0)
+  - Switch 2 (10,1): OFF (0)
+  - Switch 1 (16,1): ON (1)
+- Observed Shutters (Current): (2,6) OPEN, (3,6) OPEN, (12,8) OPEN. Others CLOSED.
+- Plan:
   1. Reset all switches to OFF (0, 0, 0).
-  2. Test sequence 1-2-3 (Right, Middle, Left).
-  3. Test sequence 3-2-1 (Left, Middle, Right) again from (0,0,0) if 1-2-3 fails.
-- Current Step: Resetting Switch 2 (Middle) to OFF.
+  2. Test sequence 3-2-1 (Left, Middle, Right) from (0,0,0).
+- Current Step: Moving to Switch 1 to reset to OFF.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
