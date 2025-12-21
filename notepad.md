@@ -40,7 +40,9 @@
        - Observation: (10, 6) is FLOOR, (12, 8) is WALL, (12, 9) is WALL.
        - Observation: (16, 6) is WALL, (17, 6) is WALL.
        - Conclusion: Switch 2 toggles {12, 9} and {16, 6; 17, 6} to CLOSED.
-       - Next: Testing Switch 3 (2, 1) alone.
+    4. Test 3.3: Switch 3 (2, 1) ON.
+       - Status: 1:OFF, 2:OFF, 3:ON.
+       - Goal: Identify which shutters Switch 3 toggles.
 - Historical Data (Attempt 2 - 3-2-1 Sequence):
     - 3 ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
     - 3 & 2 ON: (12, 8) OPEN, (12, 9) OPEN.
