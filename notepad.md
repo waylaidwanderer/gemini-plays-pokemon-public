@@ -6,12 +6,12 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-1.  **Status:** Opening Pack to Equip Mail.
-2.  **Next Step:** Equip Flower Mail & Write.
+1.  **Status:** Recovering from Tool Failure (Printer Error).
+2.  **Issue:** `write_mail_dark_cave` caused unexpected menu navigation and Printer Error.
 3.  **Action Plan:**
-    - **Step 1:** Exit Party Menu (B).
-    - **Step 2:** Open Pack (Down, A).
-    - **Step 3:** Select Flower Mail -> Give -> Kenya.
+    - **Step 1:** Clear Error & Exit Menus (Executing B x4).
+    - **Step 2:** Check Kenya's held item/mail status.
+    - **Step 3:** If mail is incomplete/wrong, remove and retry MANUALLY.
     - **Step 4:** Write "DARK CAVE leads to another road." (With period).
     - **Step 5:** Return to Fisher.
 
