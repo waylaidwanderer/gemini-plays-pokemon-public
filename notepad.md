@@ -2,14 +2,16 @@
 - Goal: Clear path to ladder at (23, 3).
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping and following Strategist advice.
-- Current Status (Turn 9625):
-    - Switch 3 (2, 1): ON
-    - Switch 2 (10, 1): ON
-    - Switch 1 (16, 1): ON
-- Observations: 3-2-1 sequence complete. Testing path to (21, 25).
-- Plan:
-    1. Close switch menu.
-    2. Navigate to ladder at (21, 25).
+- Current Status (Turn 9627):
+    - Switch 1: OFF (Just flipped)
+    - Switch 2: ON
+    - Switch 3: ON
+- Strategy: Resetting all to OFF to begin Systematic Permutation Testing.
+- Mapping Plan:
+    1. Reset all switches to OFF.
+    2. Sequence A: 3 -> 2 -> 1. Check path after each flip.
+    3. Sequence B: 1 -> 2 -> 3. Check path after each flip.
+    4. Goal: Find opening to unseen center area (y=10-21).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
