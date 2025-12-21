@@ -9,40 +9,32 @@
 - **NPC/Item Sprites**: All sprites have collision and act as walls.
 
 # Team Rocket Base Investigation (Mahogany Town)
-- **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained.
-
-## Map: Team Rocket Base B1F (3_49)
-- **Security:** Persian statues act as security cameras. Proximity triggers intruder alerts.
-- **Warps:**
-  - (27, 2): Ladder to B2F East.
-  - (3, 14): Ladder to B2F West.
-  - (5, 15): Warp panel (shortcut) to (25, 2).
-- **Objects:**
-  - (18, 12): Scientist Jed (Defeated).
-  - (19, 11): Secret Switch (Disables Statues). Interact from (19, 12).
-  - (14, 15): Item Ball.
+- **Start Turn:** 7917 (Mahogany Mart), 8051 (B2F), 8256 (B2F Exploration)
+- **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained. Alarms disabled on B1F.
 
 ## Map: Team Rocket Base B2F (3_50)
-- **Path to West:** Column 23 is a barrier. Bypass via Row 16 (FLOOR) at (23, 16).
+- **Navigation:** The central column (Col 23) is a wall. The only passage is at (23, 16).
+- **Security:** Voltorb sprites (e.g., (7, 9), (22, 7-15)) are hidden traps. Approaching them triggers a Voltorb battle.
 - **Objects:**
   - (14, 12), (15, 12): Locked Doors to Transmitter Room.
-  - (21, 14), (25, 13): Rocket Grunts (Defeated).
-  - (22, 7-15): Voltorb traps.
-
-## Map: Team Rocket Base B3F (3_51)
-- **Observations:** Boss Room (10, 9) is isolated by a wall at Row 11. Eastern ladder (27, 14) is a dead end for the Boss.
-- **Trainer Roster:**
-  - Scientist Mitch (11, 15): Ditto (Lv24). Reward: ¥2400.
-  - Rocket Grunt (7, 14): Raticate (Lv19). Reward: ¥760. Password 1: RATICATE TAIL.
-  - Rocket Girl (21, 7): Ekans (Lv18), Gloom (Lv18). Reward: ¥720. Password 2: SLOWPOKETAIL.
+  - (3, 10): Item Ball.
+  - (5, 13): Lance (Heals party).
+  - (21, 14), (25, 13): Rocket Grunts.
+- **Warps:**
+  - (3, 14): Ladder to B1F West.
+  - (27, 14): Ladder to B3F East.
 
 # Strategy (HOW)
-1. **Advance to B2F:** Use the western ladder at (3, 14).
-2. **Navigate B2F:** Move through the Voltorb traps to reach the western section.
-3. **Infiltrate B3F:** Use passwords to unlock the Boss door at (10, 9) on B3F.
-4. **Final Objective:** Shut down the transmitter on B2F.
+1. **Loot B2F West:** Pick up item at (3, 10).
+2. **Heal:** Talk to Lance at (5, 13) if needed.
+3. **Traverse Voltorb Traps:** Move east through the corridor (Rows 7-11) toward the barrier at Col 23.
+4. **Bypass Barrier:** Navigate south to (23, 16) to enter the eastern section.
+5. **Clear B2F East:** Defeat Grunts and reach the ladder at (27, 14).
+6. **Infiltrate B3F:** Use passwords to unlock the Boss door at (10, 9) on B3F.
+7. **Final Objective:** Shut down the transmitter on B2F.
 
 # Lessons Learned
 - Item sprites and COUNTER tiles have collision; interact from adjacent FLOOR.
 - Map sections can be completely isolated; look for alternative floor transitions.
 - Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
+- Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
