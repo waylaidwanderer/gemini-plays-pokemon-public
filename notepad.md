@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Returned to B2F South (27, 14) from B3F.
-- **Plan:** Navigate West (via Row 16 to avoid counters) to the Locked Door at (14, 12). Unlock it with "HAIL GIOVANNI".
-- **Objective:** Enter the Transmitter Room and disable the radio signal (likely by defeating Electrod/Voltorb).
+- **Status:** At B2F South (14, 16). Blocked by wall at (14, 15).
+- **Plan:** Detour East to (17, 16), go North to (17, 14), then West to the Locked Door at (14, 12).
+- **Objective:** Unlock the Transmitter Room with "HAIL GIOVANNI" and disable the radio signal.
