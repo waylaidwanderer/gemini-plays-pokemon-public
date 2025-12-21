@@ -41,3 +41,5 @@
 - Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
 - Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
 - Always check if an NPC or Item sprite is at the target coordinate before pathing.
+- **Path to Boss (Hypothesis):** The western section of B3F (Boss Room) is likely reached by taking the ladder at (27, 14) on B2F to B3F East, then navigating to the ladder at (27, 2) on B3F to reach B2F North, which should contain a ladder down to B3F West.
+- **B2F Navigation:** To reach the eastern section (x > 23), use the passage at (23, 16). Access via Row 16 (FLOOR) from the central area (e.g., (17, 16)).
