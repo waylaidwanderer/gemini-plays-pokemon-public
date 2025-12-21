@@ -19,8 +19,8 @@
     - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated.
 - Radio Tower 3F:
     - Rocket Grunt (6, 4): Weezing Lv26 - Defeated.
-    - Rocket Grunt (5, 1): Koffing Lv23, Grimer Lv23, Zubat Lv23, Rattata Lv23 - Defeated (Turn 8744).
-    - Scientist (9, 6): Next target.
+    - Rocket Grunt (5, 1): Koffing Lv23, Grimer Lv23, Zubat Lv23, Rattata Lv23 - Defeated.
+    - Scientist (9, 3): Current target.
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
