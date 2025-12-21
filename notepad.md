@@ -15,16 +15,15 @@
 | State | (2,6) | (10,6) | (16,6) | (12,8) | (17,6) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
+| (1,0,0) | OPEN | CLOSED | CLOSED | OPEN | CLOSED |
 | (1,1,1) | ? | ? | CLOSED | CLOSED | CLOSED |
-| (1,1,0) | ? | ? | ? | OPEN (prev) | ? |
 
 ## Strategy: 3-2-1 Sequence Execution
 - Goal: Open path to the southeast Warehouse Entrance.
 - Start Turn: 10284
-- Reset Plan: Turn all switches OFF. (Verified (0,0,0) at turn 10281)
-- Sequence Plan: Toggle S3 (Left), then S2 (Middle), then S1 (Right).
+- Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
 - Current Progress: S3 toggled ON. Moving to S2.
-- Verified Shutter States (S3=ON): (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN. (Mental map needs visual verification)
+- Verified Shutter States (1,0,0): (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN. (Verified turn 10285)
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
