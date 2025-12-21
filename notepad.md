@@ -7,7 +7,7 @@
 # Global Knowledge
 ## Tile Mechanics
 - FLOOR: Standard.
-- WALL/SHUTTER: Impassable. Shutters toggle via switches.
+- WALL/SHUTTER: Impassable. Toggled by switches.
 - COUNTER: Interact from front.
 - WARP_CARPET: Transition.
 - STAIRCASE/LADDER: Warp.
@@ -18,12 +18,9 @@
 - Battle: Menu transitions need 1000ms delay. Move menu wraps and remembers position.
 
 # Switch Room Puzzle (Map 3_54)
+- Entry: 3_53 (18, 6) Basement Door -> (22, 27) Ladder.
 - Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
-- Switch 2 is currently ON.
-- Switch 1 and 3 status: Unknown.
+- Switch 2 status: ON.
 
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
-
-# Current Battle
-- Grunt #3 (3, 2): Koffing fainted. Muk upcoming. Strategy: Stay with Calcifer, Flame Wheel.
