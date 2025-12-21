@@ -23,7 +23,7 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- ICARUS (PIDGEY): Lv15. Moves: Quick Attack, Sand-Attack, Gust, Fly. Current Lead.
+- ICARUS (PIDGEY): Lv16. Moves: Quick Attack, Sand-Attack, Gust, Fly. Current Lead.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
