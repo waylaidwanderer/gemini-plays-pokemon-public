@@ -16,6 +16,8 @@
   - (12, 8): CLOSED (WALL)
   - (16, 6): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
   - (16, 7): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
+  - (17, 6): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
+  - (17, 7): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
 
 # Switch Logic Observations
 - 3-2-1 from all-OFF (Turn 9834): Results in all shutters CLOSED except (2, 6/7).
