@@ -6,15 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Delivery Phase.
-- **Mail Content:** "DARK CAVE" (Confirmed).
-- **Current State:** Mail Saved. Exiting Menus.
-- **Next Steps:**
-    1. Exit Menus (Press B repeatedly).
-    2. Face Fisher (Left).
-    3. Talk to Fisher (A).
-    4. Select 'GIVE' if prompted, or just listen to dialogue.
-    5. Receive Reward (TM50).
+- **Status:** Retry with Mixed Case.
+- **Hypothesis:** Mail content is case-sensitive. Original text was "Dark Cave leads to another road".
+- **Plan:**
+    1. Clear "This MAIL isn't for me." text.
+    2. Take Mail from Kenya.
+    3. Give new Flower Mail.
+    4. Type: "Dark Cave leads to another road" (Mixed Case).
+    5. Deliver to Fisher.
+- **Current State:** Clearing dialogue.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps).
