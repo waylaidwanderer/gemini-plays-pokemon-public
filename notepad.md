@@ -21,7 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Back on B2F (South Side). The trap corridor led here.
-- **Problem:** The B2F NW area (with Item Ball) is walled off from here. The B1F trap path only leads to the South side.
-- **Plan:** Head to B3F East Ladder (27,14) -> B3F. Open the Boss Room with the two passwords.
-- **Hypothesis:** The Boss Room contains the Executive/Murkrow needed for the Transmitter Room passwords.
+- **Status:** On B3F East (15,12). Accessing northern corridor via (16,11).
+- **Observation:** Tile (15,11) is a COUNTER, but (16,11) appears to be FLOOR.
+- **Plan:** Explore B3F East Corridor (North of Row 12) to find a staircase leading to B2F NW.
+- **Hypothesis:** The path to the Boss Room involves going B3F East -> B2F NW -> Boss Room (via internal stairs).
