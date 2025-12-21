@@ -40,3 +40,5 @@
   3. Kenya -> Take Mail -> Send to PC.
   4. Give fresh Flower Mail.
   5. Write Message.
+- **Manual Mail Attempt:** Started Turn 9405.
+- **Hypothesis:** Manual mail removal and writing is safer than tool use.
