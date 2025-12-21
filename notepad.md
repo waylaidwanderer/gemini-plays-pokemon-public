@@ -7,20 +7,18 @@
 
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
-- Current Goal: Systematic testing of switches to determine individual effects.
-- Attempt 1 (3-2-1 from all-OFF): Failed. Results in all shutters CLOSED.
-- Planned Test 1: Reset all to OFF. Turn ON Switch 1 only.
+- Current Goal: Determine the correct sequence to open all shutters.
 
-# Switch Status (Turn 9808)
-- Switch 3 (2, 1): 🟢 ON (Resetting...)
-- Switch 2 (10, 1): 🟢 ON (Resetting...)
-- Switch 1 (16, 1): 🔴 OFF (Just turned OFF)
+# Switch Status (Turn 9811)
+- Switch 3 (2, 1): 🟢 ON
+- Switch 2 (10, 1): 🟢 ON
+- Switch 1 (16, 1): 🔴 OFF
 
-# Shutter States (Verified)
-- (2, 6): OPEN
-- (10, 6): CLOSED
-- (12, 8): CLOSED
-- (16, 6): CLOSED
+# Shutter States (Visual Verification Needed)
+- (2, 6): OPEN (FLOOR)
+- (10, 6): CLOSED (WALL)
+- (12, 8): CLOSED (WALL) - Contradiction in markers found, needs verification.
+- (16, 6): CLOSED (WALL)
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
