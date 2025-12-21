@@ -24,7 +24,7 @@
 # Resource Management Strategy
 - Task started: Turn 9247.
 - Current Status: Buying Lemonades from 6F Vending Machines (7/10 purchased).
-- How: Stand at (9, 2) facing the machine at (9, 1). Clear text boxes before moving cursor.
+- How: Stand below a vending machine (e.g., (9, 2) for (9, 1)) and face UP. Clear text boxes before moving cursor.
 - Note: Lemonade is for HP; Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
@@ -66,7 +66,7 @@
 - Staircase: (13, 0).
 - Directory: (14, 0) - "3F BATTLE COLLECTION".
 ## Goldenrod Dept. Store 6F
-- NPCs: Super Nerd (ID 2) at (8, 2), Lass (ID 1) at (10, 2).
+- NPCs: Super Nerd (ID 2) at (8, 2), Lass (ID 1) at (9, 2).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Elevator Button: (3, 0).
 - Vending Machines: (8, 1), (9, 1), (10, 1), (11, 1).
