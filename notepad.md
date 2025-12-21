@@ -8,33 +8,31 @@
 
 ## Systematic Testing
 - Baseline (0, 0, 0): ALL SHUTTERS CLOSED.
-  - (2, 6): CLOSED (Visual confirmed Turn 9957)
-  - (10, 6): CLOSED (Collision confirmed Turn 9956)
-  - (16, 6): CLOSED (Confirmed Turn 9954)
-  - (6, 8): CLOSED (Visual confirmed Turn 9957)
-  - (12, 8): CLOSED (Confirmed Turn 9953)
-  - (6, 9): CLOSED (Visual confirmed Turn 9957)
+  - (2, 6): CLOSED
+  - (10, 6): CLOSED
+  - (16, 6): CLOSED
+  - (6, 8): CLOSED
+  - (12, 8): CLOSED
+  - (6, 9): CLOSED
 
 ### Test 1: Switch 1 (16, 1) -> ON
 - Status: Complete.
-- Observations (compared to baseline 0,0,0):
+- Observations (compared to baseline):
   - (16, 6): OPEN (Was CLOSED).
-  - (2, 6): CLOSED (No change).
-  - (6, 9): CLOSED (No change).
-  - (12, 8), (10, 6), (6, 8): No change.
-  - NOTE: Need to re-verify Switch 1 effects if I was wrong about (2, 6) and (6, 9) baseline.
+  - (12, 8): OPEN (Was CLOSED).
+  - (2, 6), (10, 6), (6, 8), (6, 9): CLOSED (No change).
 
 ### Test 2: Switch 2 (10, 1) -> ON
 - Status: Observation phase.
-- Observations (compared to baseline 0,0,0):
-  - (10, 6): OPEN (Confirmed by standing on it Turn 9964).
-  - (10, 7): OPEN (Visual confirmed Turn 9964).
-  - (11, 6): OPEN (Visual confirmed Turn 9964).
-  - (11, 7): OPEN (Visual confirmed Turn 9964).
-  - (6, 9): OPEN (System detected FLOOR at Turn 9964).
-  - (2, 6): ?
+- Observations (compared to baseline):
+  - (10, 6): OPEN (Was CLOSED).
+  - (10, 7): OPEN (Was CLOSED).
+  - (11, 6): OPEN (Was CLOSED).
+  - (11, 7): OPEN (Was CLOSED).
+  - (6, 9): OPEN (Was CLOSED).
   - (16, 6): CLOSED (Confirmed by collision Turn 9966).
   - (12, 8): Moving to verify.
+  - (2, 6), (6, 8): PENDING.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
