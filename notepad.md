@@ -33,3 +33,5 @@
 - Access Top Half: Go down to Row 10, enter Left Corridor, go Up.
 - Items: (14, 2). Found Ether at (10, 15), Burn Heal at (6, 3).
 - B1F Analysis: The room is divided by a wall of boxes. Left side (Elevator) is isolated from Right side (Ladder). Must access Right side from 1F.
+- Elevator connects to Left Side of B1F. Right Side (Ladder) is blocked by boxes.
+- Plan: Return to 1F via Elevator, then find stairs/ladder to B1F Right Side to get Item (14, 2).
