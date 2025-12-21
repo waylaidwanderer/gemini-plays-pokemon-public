@@ -6,15 +6,14 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Removing Old Mail.
-- **Current State:** Party Menu, Kenya Selected.
-- **Action:** Opening interaction menu for Kenya.
+- **Status:** Mail Detached.
+- **Action:** Cleared old mail. Now opening Pack.
 - **Next Steps:**
-    1. Select MAIL (Down x3 -> A).
-    2. Select TAKE (Down -> A).
-    3. Select NO to "Send to PC?".
-    4. Select YES to "Lose message?".
-    5. Return to Pack and write new mail.
+    1. Exit Party Menu (B).
+    2. Select Pack (Down -> A).
+    3. Select Flower Mail -> GIVE -> Kenya.
+    4. Type: "Dark Cave leads to another road." (Mixed Case + Period).
+    5. Deliver to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps), "DARK CAVE", and "Dark Cave leads to another road" (No Period).
