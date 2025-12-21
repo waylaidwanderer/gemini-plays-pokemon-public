@@ -11,10 +11,10 @@
 - Attempt 1 (3-2-1 from all-OFF): Failed. Results in all shutters CLOSED.
 - Planned Test 1: Reset all to OFF. Turn ON Switch 1 only.
 
-# Switch Status (Turn 9806)
+# Switch Status (Turn 9808)
 - Switch 3 (2, 1): 🟢 ON (Resetting...)
 - Switch 2 (10, 1): 🟢 ON (Resetting...)
-- Switch 1 (16, 1): 🟢 ON (Resetting...)
+- Switch 1 (16, 1): 🔴 OFF (Just turned OFF)
 
 # Shutter States (Verified)
 - (2, 6): OPEN
