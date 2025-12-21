@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Encountered Executive at B3F Boss Room.
-- **Plan:** Defeat the Executive.
-- **Hypothesis:** The Executive has the password for the B2F Transmitter Room.
+- **Status:** Defeated Executive. He fled. Murkrow remains at (7, 2).
+- **Plan:** Interact with the Murkrow to get the password for the Transmitter Room.
+- **Hypothesis:** The Murkrow mimics the voice of the Executive/Giovani or simply knows the password.
