@@ -34,3 +34,5 @@
 - Note: Map indicates WALL to the right, but this is typical for gatehouse entrances.
 - Turn 9943: Entered Route 42 Gatehouse.
 - Action: Crossing gatehouse East to reach Route 42.
+- Turn 9946: Exiting Route 42 Gatehouse (East) to Route 42.
+- Objective: Reach Mahogany Town.
