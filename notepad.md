@@ -12,7 +12,7 @@
 ## Switch Reset (Current Status)
 - Switch 1 (16, 1): 🔴 OFF
 - Switch 2 (10, 1): 🔴 OFF
-- Switch 3 (2, 1): 🟢 ON (Moving to turn OFF)
+- Switch 3 (2, 1): 🔴 OFF (Turn 9756)
 
 ## Shutter Truth Table
 | Configuration [3, 2, 1] | (2, 6) | (10, 6) | (12, 8) | (16, 6) |
