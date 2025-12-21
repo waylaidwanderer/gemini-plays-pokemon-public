@@ -32,8 +32,8 @@
     - Switch 3: Toggles Middle shutters {12, 8; 12, 9}.
 - Experiment Log (Attempt 3): 3-2-1 sequence (All ON) failed. Path blocked.
 - Strategy: Following Strategist's 3-2-1 sequence (Started Turn 9605).
-    - Step 1: Switch 3 ON (In progress).
-    - Step 2: Switch 2 ON.
+    - Step 1: Switch 3 ON (Completed).
+    - Step 2: Switch 2 ON (Target).
     - Step 3: Switch 1 ON.
 
 # Area Notes
