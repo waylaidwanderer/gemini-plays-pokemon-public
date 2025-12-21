@@ -8,6 +8,15 @@
     4. Pass the quiz on 1F for the Radio Card.
 - **Executive Battles**: Use `battle_strategist_v2`.
 
+# Battle Logs
+- Red Gyarados (Lake of Rage): Defeated.
+- Radio Tower 1F: Rocket Grunt (Raticate Lv24) - Defeated.
+- Radio Tower 2F:
+    - Rocket Girl (10, 3): Arbok Lv26 - Defeated.
+    - Rocket Grunt (8, 4): 4 Rattatas (Lv21-23) - Defeated.
+    - Rocket Grunt (4, 1): 2 Zubats (Lv26) - Defeated.
+    - Rocket Grunt (1, 4): Grimer Lv23 x2 - In Progress (Turn 8692+).
+
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
 - **WALL**: Impassable.
@@ -17,18 +26,18 @@
 - **LADDER/STAIRS**: Warp points.
 - **NPC/Item Sprites**: Walls; stop sliding.
 
-# Lessons Learned
+# Completed Badges
+- Zephyr Badge (Violet City)
+- Hive Badge (Azalea Town)
+- Plain Badge (Goldenrod City)
+- Fog Badge (Ecruteak City)
+- Storm Badge (Cianwood City)
+- Mineral Badge (Olivine City)
+- Glacier Badge (Mahogany Town)
+
+# Navigation Notes
 - **Counter Interaction**: Face the counter, not the NPC.
 - **Whirlpool**: Requires Glacier Badge.
-- **Battle Menus**: `switch_pokemon_v1` and `battle_move_selector` are ONLY for battle sub-menus.
 - **Fly Map (Goldenrod)**: From New Bark Town, move Left to reach the western side, then Up to Goldenrod. Menu is "sticky"; use discrete presses or `fly_to_v1`.
 - **Notepad Edits**: `replace` requires exact character matching. Use `overwrite` for major reorganization.
-
-# Completed Badges
-- Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
-
-# Future Strategy
-- Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
-- Prepare for the 8th Gym Badge.
-- Battle: Rocket Grunt (2F, 1,4). (Turn 8692+)
-- Note: Goldenrod is NOT Cerulean. (Hallucination correction)
+- **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
