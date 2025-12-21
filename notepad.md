@@ -22,9 +22,10 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Goal: Purchase 10 Lemonades (replaces Potions/Revives as priority due to cost-effectiveness).
+- Goal: Purchase 10 Lemonades (replaces Potions as priority due to cost-effectiveness).
 - Task started: Turn 9247.
-- Current Status: Buying from 6F Vending Machines.
+- Current Status: Buying from 6F Vending Machines (7/10 purchased).
+- Note: Need to find a source for Revives.
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Shop Inventories
@@ -53,18 +54,20 @@
 ## Goldenrod Dept. Store 4F
 - NPCs: Bug Catcher (ID 3), Gameboy Kid (ID 4).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
-- Staircases: (12, 0), (15, 0).
+- Staircase: (13, 0).
 ## Goldenrod Dept. Store 2F
 - NPCs: Cooltrainer F (ID 4), Gentleman (ID 5), Youngster (ID 3) at (9, 7).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
+- Staircase: (13, 0).
 - Directory: (14, 0).
 ## Goldenrod Dept. Store 3F
 - NPCs: Super Nerd (ID 2), Rocker (ID 3).
 - Shop: Battle Collection (X Items).
-- Staircases: (12, 0) to 2F, (15, 0) to 4F.
+- Staircase: (13, 0).
 - Directory: (14, 0) - "3F BATTLE COLLECTION".
 ## Goldenrod Dept. Store 6F
 - NPCs: Super Nerd (ID 2) at (8, 2), Lass (ID 1) at (10, 2).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Elevator Button: (3, 0).
 - Vending Machines: (8, 1), (9, 1), (10, 1), (11, 1).
+- Staircase: (13, 0).
