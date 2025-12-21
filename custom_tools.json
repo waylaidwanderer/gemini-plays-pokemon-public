@@ -195,5 +195,28 @@
         "action_counter": 7736
       }
     ]
+  },
+  "battle_move_selector": {
+    "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer",
+          "description": "The 0-indexed position of the move to select (0-3)."
+        }
+      },
+      "required": [
+        "move_index"
+      ]
+    },
+    "python_script": "import json\nmove_index = int(input_data['move_index'])\nbuttons = (['Down'] * move_index) + ['A']\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T03:35:53.973Z",
+        "action_counter": 7878
+      }
+    ]
   }
 }
