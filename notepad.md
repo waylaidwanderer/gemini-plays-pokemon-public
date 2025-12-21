@@ -4,11 +4,10 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Redefine type_text & Type Message.
-  1. **Status:** Fixing tool definition.
-  2. **Step 1:** Define `type_text` tool (with JSON print).
-  3. **Step 2:** Execute `type_text` with: "Dark Cave leads to another road."
-  4. **Step 3:** Confirm delivery.
+- **Current Action:** Type Message (Mixed Case).
+  1. **Status:** Tool defined. Executing next.
+  2. **Step 1:** Execute `type_text` with: "Dark Cave leads to another road."
+  3. **Step 2:** Confirm delivery.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
