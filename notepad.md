@@ -47,16 +47,17 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Equip Kenya and Deliver.
-  1. **Status:** Confirmed removal of old mail.
-  2. **Step 1:** Verify Kenya is holding nothing (or generic mail item returned to bag).
-  3. **Step 2:** Give Flower Mail from Bag (Start -> Pack -> Items -> Flower Mail -> Give -> Kenya).
-  4. **Step 3:** Compose Message: "DARK CAVE leads to another road." (Exact punctuation).
-  5. **Step 4:** Return to Route 31 and deliver.
+  1. **Status:** Old mail detached.
+  2. **Step 1:** Exit Party Menu (B x2).
+  3. **Step 2:** Open Pack -> Items -> Flower Mail.
+  4. **Step 3:** Select GIVE -> Kenya.
+  5. **Step 4:** Compose Message: "DARK CAVE leads to another road." (Exact punctuation).
+  6. **Step 5:** Return to Route 31 and deliver.
 
 ## Maintenance
 - **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
 
-## Reflection (Turn 9265)
-- **Success:** Bypassed "PC Mailbox Full" by selecting "NO" to PC send, then "YES" to delete message.
-- **Next:** Equip fresh Flower Mail and write the correct text.
+## Reflection (Turn 9268)
+- **Progress:** Mail detached successfully.
+- **Next:** Switch to Pack menu to initiate Flower Mail writing process.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
