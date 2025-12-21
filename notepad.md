@@ -1,10 +1,9 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
-- Status: Exploring Team Rocket Base B2F. Lance healed the party. GNEISS leading.
 
 # Global Tile Mechanics
-- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
-- WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F)
+- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F)
+- WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F, B2F)
 - WATER: Verified traversable only with Surf (HM03) and Fog Badge.
 - TALL_GRASS / LONG_GRASS: Verified traversable. Triggers wild encounters.
 - MART_SHELF: Verified impassable.
@@ -33,6 +32,8 @@
 - Locked Doors: Located at (14, 12) and (15, 12).
 - Radio Transmitter: Located at row 9.
 - Lance: Healed the party at (5, 13) and moved right.
+
+# Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
 - Mahogany Gym (6, 13): Blocked by Fisher at (6, 14) until Lake of Rage investigation.
 - Pokefan M at (8, 1) in PC: Saw "men in black" (Team Rocket) at Lake of Rage.
@@ -67,4 +68,3 @@
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 - Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
-- Reflection #150: Ground reasoning in observable state; scientific mindset for puzzles; maintain organized notepad and markers; refine/create tools proactively.
