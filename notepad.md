@@ -24,3 +24,5 @@
 
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
+- Switch Room Hint: "Change the order of switching. That'll change the ways the shutters open and close."
+- Puzzle State: Switch 2 ON, Switch 3 ON. Switch 1 Unknown.
