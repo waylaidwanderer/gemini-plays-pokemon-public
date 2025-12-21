@@ -13,33 +13,32 @@
 - **B1F (3_49):**
   - (19, 11): Secret Switch (Disables Statues).
 - **B2F (3_50):**
-  - **Structure:** Isolated sections.
+  - **Structure:** Isolated sections. Row 1 is the only path between NW and East.
   - **Central Section:** Contains Electrode transmitter powering the radio signal.
-  - **South-West Room:** Ladder (3, 6) and item (3, 10).
+  - **South-West Room:** Ladder (3, 6) and item (3, 10). Reachable via B3F West.
 - **B3F (3_51):**
   - (10, 9): Boss Room Door (Opened).
-  - (8, 3): Boss Office. Executive defeated at Turn 8361.
-  - (7, 2): Murkrow location (likely gives final password).
+  - (8, 3): Boss Office. Executive defeated.
+  - (7, 2): Murkrow location (gives final password).
 - **Key Encounters:**
-  - **Malice:** Met on B3F West (7, 10). Mentioned Lance's lecture on love/trust.
-  - **Rocket Executive:** Defeated on B3F West. He ran off after the battle.
+  - **Malice:** Met on B3F West (7, 10). Left to find stronger Pokemon.
+  - **Rocket Executive:** Defeated on B3F West.
 
 # Strategy (HOW)
 - **Verify Current Map ID and Coordinates via Game State before executing any multi-turn navigation plan.**
-1. Get Final Password: Talk to the Murkrow in the Executive's office to get the password for the transmitter room.
-2. Shut Down Transmitter: Return to B2F, open the locked doors at (14, 12) or (15, 12), and neutralize the three Electrode.
-3. Reward: Speak with Lance to receive HM06 (Whirlpool).
+1. Shut Down Transmitter: Return to B2F South, open the locked doors at (14, 12) or (15, 12) using 'HAIL GIOVANNI', and neutralize the three Electrode.
+2. Reward: Speak with Lance to receive HM06 (Whirlpool).
 
 # Floor Connectivity (Mahogany Base)
-- B1F (3, 14) <-> B2F (3, 14) [Main Path]
-- B2F (27, 14) <-> B3F (27, 14) [East-South]
-- B3F (27, 2) <-> B2F (27, 2) [East-North]
-- B2F (3, 2) <-> B3F (3, 2) [Isolated NW <-> B3F West North]
-- B3F (3, 6) <-> B2F (3, 6) [B3F West South <-> Isolated SW Room (TM46)]
+- B1F (3, 14) < Indoors > B2F (3, 14) [Main Path]
+- B2F (27, 14) < Indoors > B3F (27, 14) [East-South]
+- B3F (27, 2) < Indoors > B2F (27, 2) [East-North]
+- B2F (3, 2) < Indoors > B3F (3, 2) [NW <-> B3F West North]
+- B3F (3, 6) < Indoors > B2F (3, 6) [B3F West South <-> Isolated SW Room (TM46)]
 
 # Lessons Learned
-- Map sections can be isolated; use floor transitions to navigate.
+- Map sections are isolated; use specific ladders to cross.
 - Voltorb sprites on B2F are traps.
 - Boss door requires two passwords from grunts on B3F.
-- **Path to Boss:** B2F East -> B3F East -> B2F North -> B3F West.
+- **Path to Transmitter Room:** B2F NW (3, 2) -> (27, 2) via Row 1 -> B3F East -> (27, 14) -> B2F South -> (14, 12).
 - B3F West and East sections are connected via gaps in the central walls at (15, 12), (15, 13) and (18, 14), (18, 15).
