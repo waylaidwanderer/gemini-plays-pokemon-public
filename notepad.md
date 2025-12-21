@@ -20,12 +20,11 @@
 
 ## Strategy: 3-2-1 Sequence Execution
 - Goal: Open path to the southeast Warehouse Entrance.
-- Reset Plan: Turn all switches OFF.
-  - Switch 1 (16, 1): OFF (Turn 10271)
-  - Switch 2 (10, 1): OFF (Turn 10277)
-  - Switch 3 (2, 1): OFF (Turn 10281)
+- Start Turn: 10284
+- Reset Plan: Turn all switches OFF. (Verified (0,0,0) at turn 10281)
 - Sequence Plan: Toggle S3 (Left), then S2 (Middle), then S1 (Right).
-- Current Progress: All switches OFF. Starting 3-2-1 sequence. Toggling Switch 3 ON.
+- Current Progress: S3 toggled ON. Moving to S2.
+- Verified Shutter States (S3=ON): (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN. (Mental map needs visual verification)
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
