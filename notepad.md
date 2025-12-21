@@ -20,7 +20,7 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Exit Goldenrod Underground via the warp carpet at (4, 29).
+- Exit via ladder at (23, 3) -> Map 3_51 -> Map 3_52 -> Goldenrod City.
 - Navigate to the Goldenrod Dept. Store (Map 3_6).
 - Take the elevator to 5F (Pharmacy).
 - Purchase 10 Hyper Potions and 5 Revives with ¥90251.
