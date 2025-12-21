@@ -78,3 +78,10 @@
 - Observation: The ice floor starts at Y=13 and continues north.
 - Hypothesis 1: To reach the back of the gym, I need to navigate the ice sliding puzzle by using walls and NPCs as stopping points.
 - Test 1: Move West from (9, 16) onto the ice at (8, 16) to see where I stop.
+
+# Trainer Data
+- Rocker (2_2, 5, 9): Unseen.
+- Rocker (2_2, 0, 17): Unseen.
+
+# Progress Log
+- Turn 8483: Moving to (5, 10) to challenge the Rocker at (5, 9).
