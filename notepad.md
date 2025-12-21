@@ -20,11 +20,12 @@
 
 ## Strategy: 3-2-1 Sequence Execution
 - Goal: Open path to the southeast Warehouse Entrance.
-- Plan:
-  1. Reset all switches to OFF (0,0,0).
-  2. Activate in order: S3 (ON), S2 (ON), S1 (ON).
-  3. Verify path at (6,8) and (10,6).
-- Current Progress: Resetting switches. S1 toggled to OFF. Next: Move to Switch 2.
+- Reset Plan: Turn all switches OFF.
+  - Switch 1 (16, 1): OFF (Turn 10271)
+  - Switch 2 (10, 1): ON (Next: Reset to OFF)
+  - Switch 3 (2, 1): ON (Next: Reset to OFF)
+- Sequence Plan: Toggle S3 (Left), then S2 (Middle), then S1 (Right).
+- Current Progress: S1 turned OFF. Moving to S2.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
