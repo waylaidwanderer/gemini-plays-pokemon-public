@@ -18,13 +18,14 @@
 - Status: Complete.
 - Observations: (10, 6), (10, 7), (11, 6), (11, 7) OPEN. (6, 8), (6, 9) OPEN. Others CLOSED.
 
-### Test 3: Switch 3 (2, 1) -> ON (0, 0, 1)
-- Status: Complete (Turn 9985).
-- Observations: (2, 6), (3, 6) OPEN. Others CLOSED.
-
 ### Test 4: Switch 3 ON, Switch 2 ON (0, 1, 1)
-- Status: Observation phase (Started Turn 10003).
-- Strategy: Combining S3 (far left) and S2 (middle/left) to clear both shutter rows.
+- Status: Complete. 
+- Observations: Path to Warehouse Entrance (18, 6) remains blocked by CLOSED shutters at (16, 6) and (12, 8).
+
+### Final Sequence: 3-2-1
+- Step 1: Switch 3 ON (Turn 9993).
+- Step 2: Switch 2 ON (Turn 10002).
+- Step 3: Switch 1 ON (Started Turn 10009).
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
