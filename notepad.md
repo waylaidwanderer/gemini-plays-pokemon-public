@@ -21,6 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** At B3F NE (27, 2). Realized I missed the path South of B3F (3, 6).
-- **Plan:** Return to B2F -> West Ladder (3, 2) -> B3F West. Go South past (3, 6) to Row 10, then East to finding the Boss Room entrance at (10, 10).
-- **Hypothesis:** The B3F West Corridor connects to the Boss Room area via Row 10.
+- **Status:** In B3F West (3,2). Confirmed this area is an isolated corridor (x=3) separate from the main room.
+- **Observation:** Ladder (3,6) leads to B2F Item Room (Dead End). Ladder (3,2) connects to B2F North.
+- **Plan:** Return to B2F. Carefully scan the North Corridor (Row 1-2) for a path South into the central "Transmitter Room" (Voltorb area).
+- **Hypothesis:** The entrance to the Transmitter Room is a hidden/overlooked gap in the wall along B2F Row 2. The Executive is inside.
