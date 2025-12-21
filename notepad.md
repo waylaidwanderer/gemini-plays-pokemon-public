@@ -26,5 +26,6 @@
 - **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
 - **Blocker:** B2F Door likely requires a different password.
 - **Findings:** Bookshelves at (4,13), (6,13), (7,13) contain "Rocket Oath".
-- **Immediate Plan:** Retrieve item at (1,12). Then interact with Grunt at (5,14) to check if he moves. If not, return to B1F to check Warp Panel at (5,15).
+- **Immediate Plan:** Retrieve item at (1,12). Then navigate to Locked Doors at (10,9) via the corridor at Row 15 and gap at (16,11).
+- **Navigation:** The path to the boss room requires looping South to Row 15 to bypass walls, then North via x=16.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
