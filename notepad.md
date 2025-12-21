@@ -29,3 +29,5 @@
 - 5F (TM Corner): Sells TMs (ThunderPunch, Fire Punch, Ice Punch, Headbutt). No Ultra Balls. Checking Roof next.
 - 6F (Rooftop Square): Vending Machines. No Clerk. Checking Elevator for Basement.
 - B1F: Checking for items or Ultra Balls.
+- Access Top Half: Go down to Row 10/15, enter Left Corridor (Col 1-3), go Up to Row 4.
+- Items: (10, 15), (14, 2), (6, 3).
