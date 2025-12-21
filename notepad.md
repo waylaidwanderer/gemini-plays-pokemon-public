@@ -16,11 +16,11 @@
 | (1, 0, 0) | ? | ? | ? | ? | ? | ? | ? |
 | (0, 1, 0) | ? | ? | ? | ? | ? | ? | ? |
 | (0, 0, 1) | ? | ? | ? | ? | ? | ? | ? |
-| (0, 1, 1) [Turn 10087] | OPEN | OPEN | CLOSED | CLOSED | OPEN | OPEN | NO |
-| (1, 1, 1) [Turn 10081] | OPEN | OPEN | CLOSED | CLOSED | OPEN | CLOSED | NO |
+| (0, 1, 1) [T10087] | OPEN | OPEN | CLOSED | CLOSED | OPEN | OPEN | NO |
+| (1, 1, 1) [T10081] | OPEN | OPEN | CLOSED | CLOSED | OPEN | CLOSED | NO |
 
-## Sequence Log
-- 3-2-1 Sequence (Turns 10031-10081): Resulted in state (1,1,1) with blocked paths at (10,6), (16,6), and (12,8).
+## Shutter/Switch Mapping (Hypothesis)
+- S1: Toggles (12,8). (Observed transition 1,1,1 -> 0,1,1).
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
