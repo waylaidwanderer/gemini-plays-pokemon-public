@@ -1,4 +1,4 @@
-# Radio Tower Crisis (Started Turn 8588)
+# Goldenrod Radio Tower Takeover (Started Turn 8588)
 ## Strategy (HOW)
 1. Floor-by-floor sweep (1F -> 4F accessible areas cleared).
 2. Find the Director and Card Key in Goldenrod Underground.
@@ -8,7 +8,6 @@
 ## Tower Intel
 - **Card Key Slot**: 3F (14, 2).
 - **Shutters**: 3F (14, 2), 4F (11, 4), 5F (14, 3).
-- **Partition**: 4F is split; upper floors require Card Key. But 5F is reachable via left side of 4F (0, 0).
 - **Directory**: 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director's Office.
 
 ## Underground Progress (Map 3_53)
@@ -40,13 +39,9 @@
 - **Object Identity**: During events (like takeovers), NPCs may be replaced by different sprites (e.g., Receptionist replaced by Rocket Grunt). Always interact to verify.
 - **Counter Interactions**: To talk to someone behind a counter, stand on the tile directly in front of the counter and face it.
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
+- **Battle Menu Transitions**: Menu animations in Gen 2 take time. Custom tools that change menus must include at least 1000ms of sleep to ensure the sub-menu is active.
 
 # Switch Room Puzzle (Map 3_54)
 - Path to Switch Room: 3_53 (18, 6) Basement Door -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path to the Warehouse.
-- Hypotheses:
-  1. The switches are in the large central area of 3_54.
-  2. The Director is in the Underground Warehouse (likely a separate map reachable from the Switch Room).
-- Attempts:
-  - Turn 9012: Starting exploration from (23, 3).
 - Rival Battle Strategy: Use Calcifer's level advantage. Use Headbutt (Neutral Physical) against Feraligatr to bypass its Fire resistance.
