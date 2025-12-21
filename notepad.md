@@ -7,14 +7,14 @@
 
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
-- Current Goal: Execute 3-2-1 sequence (Switch 3 -> 2 -> 1) from all-OFF state.
-- Attempt 1 (3-2-1): Failed. (Turn 9804: All ON, but shutters (10, 6), (12, 8), (16, 6) are CLOSED).
-- Hypothesis: The order and toggle state matter. Maybe the reset to all-OFF wasn't the correct starting point.
+- Current Goal: Systematic testing of switches to determine individual effects.
+- Attempt 1 (3-2-1 from all-OFF): Failed. Results in all shutters CLOSED.
+- Planned Test 1: Reset all to OFF. Turn ON Switch 1 only.
 
-# Switch Status (Turn 9805)
-- Switch 3 (2, 1): 🟢 ON
-- Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🟢 ON
+# Switch Status (Turn 9806)
+- Switch 3 (2, 1): 🟢 ON (Resetting...)
+- Switch 2 (10, 1): 🟢 ON (Resetting...)
+- Switch 1 (16, 1): 🟢 ON (Resetting...)
 
 # Shutter States (Verified)
 - (2, 6): OPEN
