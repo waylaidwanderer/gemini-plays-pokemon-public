@@ -6,8 +6,8 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Return to B3F via ladder at (27, 14). Re-talk to Rocket Girl (21, 7) and Grunt (5, 14) to verify passwords. Then find Lance.
-- **Status:** Lance was NOT at B2F (5, 13). Door still locked. Suspect incomplete flag trigger.
+- **Navigation:** Navigate to Rocket Girl at (21, 7) to re-verify password. Then to Rocket Grunt at (5, 14).
+- **Status:** Re-checking flags.
 - **Inventory:** Bag is full.
 
 ## Quest Log
