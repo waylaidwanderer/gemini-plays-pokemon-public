@@ -21,8 +21,20 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Locked Door at B2F (14, 12) is OPEN.
-- **Discovery:** The opened door allows access to the central corridor (Row 10-11).
-- **Observation:** This corridor connects West to the Voltorbs at x=7 and East to the Voltorbs at x=22.
-- **Plan:** Enter the room. Go West to defeat the Voltorbs at (7, 7) and (7, 9). Then go East to defeat the others.
-- **Objective:** Disable the radio signal by defeating all Electrodes/Voltorbs.
+- **Status:** Ambushed by Rocket Grunts (Girl & Guy) at B2F (14, 14).
+- **Situation:** ROCKET_GIRL is at (14, 13) blocking the Transmitter Room door.
+- **Action:** Defeat the Grunts to clear the path to the Transmitter Room.
+- **Objective:** Disable the radio signal by defeating all Electrodes/Voltorbs inside.
+
+## Mapping & Connections (Restored)
+- **B1F:** Trap Warp at (5, 15).
+- **B2F:** 
+    - West Ladder (3, 14) -> B1F.
+    - North Ladder (3, 2) -> B3F West (Corridor).
+    - South Ladder (27, 14) -> B3F SE.
+- **B3F:** 
+    - Boss Room Door at (10, 9).
+    - NE Ladder (27, 2) -> B2F North (Isolated).
+    - SE Ladder (27, 14) -> B2F South.
+    - West Ladder (3, 6) -> B2F Item Room (Dead End).
+    - West Ladder (3, 2) -> B2F North.
