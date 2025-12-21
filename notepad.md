@@ -25,5 +25,5 @@
 - **Observation:** B1F is fully connected (East/West joined by gap at 9,4).
 - **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
 - **Blocker:** B2F Door likely requires a different password.
-- **Immediate Plan:** Go to B3F and try to open the Boss Room with current passwords.
+- **Immediate Plan:** Search bookshelves at (7, 13)-(4, 13) for a switch. Access to (5,13) is blocked by grunt.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
