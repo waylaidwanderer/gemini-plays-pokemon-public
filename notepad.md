@@ -24,3 +24,4 @@
 - Mahogany Mart has locked stairs.
 - Bug Catching Contest active.
 - Fishing Guru (Lake of Rage) wants Magikarp.
+- 4F (Medicine Box): Sells Vitamins (Protein, Iron, Carbos, Calcium). No Ultra Balls. Checking 5F next.
