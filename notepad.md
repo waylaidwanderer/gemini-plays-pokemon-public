@@ -16,7 +16,7 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- GNEISS (GRAVELER): Lv37 (103/103 HP). Moves: Magnitude, Defense Curl, Strength, Rollout.
+- GNEISS (GRAVELER): Lv38 (106/106 HP). Moves: Magnitude, Defense Curl, Strength, Rollout.
 - ICARUS (PIDGEY): Lv16 (43/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
 - Calcifer (TYPHLOSION): Lv36 (114/114 HP).
 - KIMCHI (GLOOM): Lv21 (57/57 HP).
