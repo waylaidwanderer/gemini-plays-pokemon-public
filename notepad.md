@@ -57,3 +57,9 @@
 - Battle Strat: Use Muscle's Rock Smash (Not Very Effective) to weaken Gyarados safely.
 - Gramps Dialogue: "The GYARADOS are angry! It's a bad omen!"
 - Next Step: Surf onto the lake and locate the Red Gyarados.
+- Gyarados Battle Plan:
+  1. Lead with Muscle (Machoke, Lvl 42).
+  2. Use Rock Smash (Fighting vs Water/Flying = Not Very Effective).
+  3. Whittle HP to Red.
+  4. Throw Great Balls (have 10).
+  5. Backup: Lapis/Lucid for Hypnosis if desperate (risk of OHKO).
