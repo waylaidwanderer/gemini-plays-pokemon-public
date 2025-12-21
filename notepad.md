@@ -26,8 +26,8 @@
 - **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
 - **Blocker:** B2F Door likely requires a different password.
 - **Findings:** Bookshelves at (4,13), (6,13), (7,13) contain "Rocket Oath".
-- **Achievement:** Found PROTEIN at (1, 12).
-- **Immediate Plan:** Talk to Grunt at (5,14). If he doesn't move, go to B1F Warp Panel at (5,15).
-- **Hypothesis:** The B1F Warp Panel might teleport me inside the walled room on B3F.
-- **Navigation:** Must use Row 16 to cross between West (x=1) and Mid-West (x=3).
+- **Achievement:** Obtained 2nd password "RATICATE TAIL" from Grunt at (5, 14).
+- **Status:** Have both passwords ("SLOWPOKETAIL", "RATICATE TAIL").
+- **New Hypothesis:** These passwords open the Locked Doors on B2F at (14, 12), which likely conceal a ladder to the walled-off Boss Room on B3F.
+- **Immediate Plan:** Return to B2F via ladder at (27, 14) and open the doors.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
