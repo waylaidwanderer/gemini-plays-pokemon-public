@@ -10,7 +10,7 @@
 
 ## Switch Status
 - Switch 3 (2, 1): 🟢 ON
-- Switch 2 (10, 1): 🔴 OFF (Turning ON now)
+- Switch 2 (10, 1): 🟢 ON (Turn 9763)
 - Switch 1 (16, 1): 🔴 OFF
 
 ## Shutter Truth Table
