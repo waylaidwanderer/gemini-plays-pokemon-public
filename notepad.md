@@ -18,13 +18,9 @@
 
 # Leader Pryce Battle (Turn 8557)
 - Pryce's Roster:
-  1. Seel Lv27 (Defeated, Turn 8565)
-  2. Dewgong Lv29 (Defeated, Turn 8577)
-  3. Piloswine (In Battle, Turn 8577)
-
-# Mahogany Gym Navigation Status
-- Current Position: (5, 4) [In Battle].
-- Path to Pryce: Completed.
+  1. Seel Lv27 (Defeated, Turn 8565). Moves: Icy Wind, Growl.
+  2. Dewgong Lv29 (Defeated, Turn 8577). Moves: Headbutt, Growl.
+  3. Piloswine Lv31 (In Battle, Turn 8581). Moves: (Unknown).
 
 # Lessons Learned
 - Whirlpool requires Glacier Badge to use out of battle.
@@ -33,9 +29,3 @@
 - Markers for trainers should only be set to 'defeated' after the battle concludes.
 - Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
 - Stat drops (like Growl) reset upon switching or end of battle.
-
-# Reflection (Turn 8568)
-- Immediate Execution: Handled "Will GEM change POKEMON?" prompt.
-- Notepad Hygiene: Removed obsolete Rocket Base notes. Restructured battle data.
-- Goal Clarity: Objectives are clear: defeat Pryce for the badge.
-- Error Analysis: Corrected turn reporting issues from earlier turns. Calcifer sweep is proving the lead choice correct.
