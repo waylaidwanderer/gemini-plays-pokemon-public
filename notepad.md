@@ -66,3 +66,15 @@
 
 # Trainer Data
 - Skier Clarissa (2_2, 9, 17): Dewgong Lv28.
+
+# Progress Log
+- Turn 8480: Defeated Skier Clarissa. Calcifer grew to level 37.
+
+# Mahogany Gym Navigation Analysis
+- Current Position: (9, 16)
+- Obstacles:
+  - BEAUTY (Clarissa) at (9, 17) - defeated.
+  - WALLS at (8, 12-15), (6, 12-15), (3, 14-15), (1, 12-15).
+- Observation: The ice floor starts at Y=13 and continues north.
+- Hypothesis 1: To reach the back of the gym, I need to navigate the ice sliding puzzle by using walls and NPCs as stopping points.
+- Test 1: Move West from (9, 16) onto the ice at (8, 16) to see where I stop.
