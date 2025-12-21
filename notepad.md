@@ -4,24 +4,25 @@
 
 # Puzzle: Goldenrod Underground Switch Room
 - Goal: Reach the Underground Warehouse (Map 3_55).
-- Strategy: Identify the sequence that clears row 6 and row 8.
+- Strategy: Use isolation data to identify the sequence that clears row 6 and row 8.
 
-## Switch Logic (Isolation)
-- S1 (1,0,0): (16,6) OPEN, (12,8) OPEN.
-- S2 (0,1,0): (10,6) OPEN, (6,8) OPEN, (6,9) OPEN.
-- S3 (0,0,1): (2,6) OPEN.
+## Shutter Toggle Data (Isolation)
+| Switch | State | (2,6) | (10,6) | (16,6) | (6,8) | (12,8) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| S1 (16,1) | (1,0,0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN |
+| S2 (10,1) | (0,1,0) | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
+| S3 (2,1) | (0,0,1) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
 
 ## Sequence Results
-- 3 -> 2 (0,1,1): (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN.
-- 3 -> 2 -> 1 (1,1,1): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
+- (0,1,1) [3->2]: (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN.
+- (1,1,1) [3->2->1]: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
 
 ## Plan
-1. Reset to (0,0,0) (All switches OFF).
-2. Execute 3-2-1 sequence: S3 ON -> S2 ON -> S1 ON.
-3. Explore southeast quadrant for Warehouse warp.
-4. If 3-2-1 fails, test (1,0,0) as isolation data suggests it opens (16,6) and (12,8).
+1. Reset all switches to OFF (0,0,0).
+2. Execute sequence 3-2-1 and re-verify EVERY shutter collision.
+3. If 3-2-1 fails, explore southeast quadrant using state (1,0,0) since isolation shows (16,6) and (12,8) are both OPEN.
 
 # Area Notes
-- Warehouse Entrance: Likely southeast warp.
+- Warehouse Entrance: Unseen warp in southeast quadrant.
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11), Burglar Eddie (9,12).
 - Return Ladders: (23,3), (21,25), (5,25).
