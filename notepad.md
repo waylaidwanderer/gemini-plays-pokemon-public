@@ -77,7 +77,8 @@
 # Red Gyarados Investigation
 - Starting Turn: 7738
 - Status: Red Gyarados fainted (Turn 7769). Obtained RED SCALE.
-- Strategy: Locate Lance on the shore to coordinate the investigation into the "rampage" source.
+- Discovery: Lance identified a "mysterious radio broadcast" from Mahogany Town as the cause of the Magikarp evolution (Turn 7780).
+- Strategy: Meet Lance in Mahogany Town to investigate the source of the broadcast.
 
 # Pokémon Swarms
 - Route 35: Ditto (Arnie's call, Turn 7769).
