@@ -107,6 +107,7 @@
 - Plan: Exit Gatehouse (South), then Fly to Violet City.
 - Turn 9906: Exiting Gatehouse (Right to warp).
 - Next Action: Fly to Violet City from Goldenrod.
-- Turn 9911: In Party Menu, cursor on Mistral.
-- Action: slow_press ['A', 'A'] to open menu and select Fly.
-- Goal: Fly map should open. Destination: Violet City.
+- Turn 9912: Fly Map Open at New Bark Town.
+- Action: Navigating to Violet City. Path: Up, Left (to Cherrygrove), Up (to Violet).
+- Sequence: slow_press ['Up', 'Left', 'Up'].
+- Goal: Verify cursor is on Violet City, then Fly.
