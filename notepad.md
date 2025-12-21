@@ -7,16 +7,13 @@
 
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Writing Mail (Final Attempt).
-- **Current State:** Entering Mail Screen.
-- **Action:** Select Kenya -> Type Message.
-- **Message Plan:** "Dark Cave leads to another road." (Mixed Case + Period).
+- **Current State:** In Mail Interface.
+- **Action:** Typing "Dark Cave leads to another road."
 - **Next Steps:**
-    1. Type "Dark " (Chunk 1).
-    2. Type "Cave " (Chunk 2).
-    3. Type "leads " (Chunk 3).
-    4. Type "to another " (Chunk 4).
-    5. Type "road." (Chunk 5).
-    6. Deliver.
+    1. Confirm Mail (END).
+    2. Exit Menus.
+    3. Move to Fisher (17, 7).
+    4. Deliver Mail.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps), "DARK CAVE", and "Dark Cave leads to another road" (No Period).
