@@ -21,7 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** At B2F North (3,2).
-- **Correction:** The "Scan B2F" plan is low probability as I previously traversed this corridor. The most likely path forward is continuing South on B3F West (past the Item Room ladder).
-- **Plan:** Return to B3F via Ladder (3,2). Walk South past (3,6) to investigate if the corridor connects to the Boss Room area.
-- **Hypothesis:** B3F West Corridor wraps around to the South/East, leading to the Boss Room door at (10,9).
+- **Status:** At B3F West (3,2).
+- **Discovery:** The West Corridor (Col 1-5) connects to the Central Area via Row 10.
+- **Plan:** Navigate South to Row 10, then East to the Boss Room Door at (10,9). Open it with the two passwords.
+- **Hypothesis:** The Boss Room contains the Executive (and Murkrow) who has the password for the B2F Transmitter Room.
