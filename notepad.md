@@ -31,7 +31,11 @@
 # Area Mechanics: Team Rocket Base B2F
 - Locked Doors: Located at (14, 12) and (15, 12).
 - Radio Transmitter: Located at row 9.
-- Lance: Healed the party at (5, 13) and moved right.
+- Lance: Healed the party at (5, 13) and moved to B3F.
+
+# Area Mechanics: Team Rocket Base B3F
+- Lance: Found at (26, 14). Dialogue: "It takes two passwords to [clear the locked doors on B2F]."
+- Hypothesis: Two Rocket Grunts on B3F hold the passwords.
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
