@@ -36,5 +36,6 @@
 - **Analysis:** The Boss Room entrance (10,9) on B3F is in a completely isolated area (NW quadrant). No access from B3F floor.
 - **Conclusion:** Access MUST be via a ladder/stairs from B2F (or B1F). The B2F Locked Doors (14,12 & 15,12) are the only remaining path.
 - **Hypothesis:** I interacted with the wrong door tile or need to try again.
-- **Immediate Plan:** Return to B2F. Try interacting with BOTH doors at (14,12) and (15,12). If that fails, search B2F for the Executive.
+- **Immediate Plan:** Interact with Locked Door at (14, 12) AND (15, 12) on B2F.
+- **Hypothesis:** One of these doors must accept the passwords. If not, I need to find the Executive.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
