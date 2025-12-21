@@ -14,15 +14,11 @@
   - Boarder Brad (2_2, 5, 9): Swinub Lv26. [DEFEATED]
   - Skier Roxanne (2_2, 4, 6): Jynx Lv28. [DEFEATED]
   - Boarder Ronald (2_2, 0, 17): Seel Lv24, Dewgong Lv25. [DEFEATED]
-  - Rocker (2_2, 2, 4): Unseen.
+  - Boarder Douglas (2_2, 2, 4): Shellder Lv24, Cloyster Lv25. [IN BATTLE]
 
 # Navigation Plan
 - **Phase 1: Clear the South-West Corner**
-  1. From current position (2, 17), move Up to (2, 16) [FLOOR].
-  2. Move Up to (2, 14) [FLOOR].
-  3. Move Up to (2, 10) [FLOOR].
-  4. Move Up to (2, 5) [ICE, stops at Rocker at (2, 4)].
-  5. Interact with Rocker at (2, 4) and defeat him.
+  1. Defeat Boarder Douglas at (2, 4).
 - **Phase 2: Reach Gym Leader Pryce**
   1. From (2, 5), move Right to (6, 5) [FLOOR].
   2. Move Down to (6, 13) [FLOOR].
