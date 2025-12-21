@@ -16,12 +16,10 @@
   - Boarder Ronald (2_2, 0, 17): Seel Lv24, Dewgong Lv25. [DEFEATED]
   - Boarder Douglas (2_2, 2, 4): Shellder Lv24, Cloyster Lv25. [DEFEATED]
 
-# Mahogany Gym Navigation Plan (Updated Turn 8551)
-- Current Position: (3, 13).
-- Goal: Reach Gym Leader Pryce.
-  1. Move Up -> Slide to (3, 4) [FLOOR].
-  2. Move Right -> Slide to (5, 4) [FLOOR].
-  3. Face Up and talk to Pryce at (5, 3).
+# Mahogany Gym Navigation Plan (Updated Turn 8553)
+- Current Position: (5, 4).
+- Goal: Defeat Gym Leader Pryce.
+  1. Face Up and talk to Pryce at (5, 3).
 
 # Lessons Learned
 - Whirlpool requires Glacier Badge to use out of battle.
