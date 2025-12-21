@@ -40,6 +40,6 @@
 - Emergency Switch: (20, 11).
 
 # Switch Testing Log
-- Turn 9911: Turned Switch 2 OFF.
-- Next: Turn Switch 3 (2, 1) OFF.
+- Turn 9917: Turned Switch 3 OFF.
+- Next: Turn Switch 1 (16, 1) OFF.
 - Goal: Reset all switches to OFF to verify baseline state.
