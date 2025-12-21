@@ -114,3 +114,6 @@
 - Turn 9913: Fly Map cursor confirmed on Violet City.
 - Action: Pressing 'A' to Fly.
 - Next: Arrival in Violet City -> Route 31 -> Fisher.
+- Turn 9914: Arrived in Violet City via Fly.
+- Next Step: Navigate to Route 31 Gatehouse (East) -> Route 31 -> Fisher (17, 7).
+- Goal: Deliver forged mail ("Dark Cave leads to another road", no period).
