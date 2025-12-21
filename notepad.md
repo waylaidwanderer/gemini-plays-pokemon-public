@@ -1,7 +1,7 @@
 # Goldenrod Radio Tower Takeover (Started Turn 8588)
 ## Strategy (HOW)
 - Map 3_54 Switch Puzzle: Use switches 1, 2, and 3 to clear paths.
-- Rescue real Director in Warehouse; obtain Card Key.
+- Obtain Card Key from real Director in Underground Warehouse.
 - Use Card Key on 3F Shutter in Radio Tower.
 
 ## Tower Intel
@@ -29,14 +29,13 @@
 
 ## Battle Mechanics
 - **Menu Transitions**: Use 1000ms sleep for sub-menus.
-- **Move Menu**: The menu WRAPS (Up at 0 -> 3). It REMEMBERS its position for the active Pokemon. Switching in a new Pokemon resets its cursor to 0.
+- **Move Menu**: The menu WRAPS (Up at 0 -> 3). It REMEMBERS its position within the same battle for the active Pokemon. Switching in a new Pokemon resets the cursor to 0.
 - **Curse Status**: Deals 1/4 max HP damage every turn. Switching out CLEARS the Curse.
-- **Tool Conflict**: Avoid calling `select_battle_option` and a custom tool with `autopress_buttons=True` in the same turn.
 
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
+- Strategy for Muk: Calcifer (Lv43) uses Flame Wheel (Index 0).
 
 ## Hypotheses
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
-- Strategy for Muk: Calcifer (Lv43) uses Flame Wheel (Index 0).
