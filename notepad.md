@@ -1,13 +1,13 @@
-# Goldenrod Radio Tower Takeover
+# Tile Mechanics
+- FLOOR: Walkable surface. Verified.
+- WALL: Impassable barrier. Verified.
+- MART_SHELF: Impassable barrier. Verified.
+- COUNTER: Impassable barrier. Interactable from the front tile. Verified.
+- STAIRCASE: Triggers map transition. Verified.
+- WARP_CARPET: Triggers map transition. Verified.
+- ELEVATOR_DOOR: Warp to Elevator Interior (11_17). Verified.
 
 # Global Knowledge
-## Tile Mechanics
-- FLOOR: Standard walkable surface.
-- WALL / MART_SHELF: Impassable barrier.
-- COUNTER: Impassable barrier. Interactable from the front tile.
-- WARP_CARPET / LADDER / STAIRCASE: Triggers a map transition.
-- ELEVATOR_DOOR: Warp tile leading to elevator interior (Map 11_17).
-
 ## Lessons Learned
 - **Elevators:** Elevator doors are warps. If a button doesn't work, try walking into the door.
 - **Counters:** To talk to someone behind a counter, stand in front of the counter tile and face it.
@@ -22,9 +22,9 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Task started: Turn 9247.
-- Current Status: 10 Lemonades purchased. Proceeding to buy Super Potions on 2F.
-- How: Stand below a vending machine (e.g., (9, 2) for (9, 1)) and face UP. Clear text boxes before moving cursor.
+- Task: Restock healing items (Lemonades, Super Potions).
+- Start Turn: 9247.
+- Current Status: Buying 10 Super Potions from Clerk 1 on 2F.
 - Note: Lemonade is for HP; Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
@@ -58,7 +58,7 @@
 ## Goldenrod Dept. Store 2F
 - NPCs: Cooltrainer F (ID 4), Gentleman (ID 5), Youngster (ID 3) at (9, 7).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
-- Staircase: (13, 0).
+- Staircase: (12, 0).
 - Directory: (14, 0).
 ## Goldenrod Dept. Store 3F
 - NPCs: Super Nerd (ID 2), Rocker (ID 3).
