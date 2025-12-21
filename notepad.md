@@ -23,17 +23,19 @@
   - Switch 3 (2,1): OFF (0)
   - Switch 2 (10,1): ON (1)
   - Switch 1 (16,1): ON (1)
-- Shutter State (0,1,1) Verification:
-  - (2,6): ?
-  - (10,6): ?
-  - (16,6): ?
-  - (6,8): ?
-  - (12,8): ?
+- Shutter State (1,1,1) Verification:
+  - (2,6): OPEN
+  - (10,6): CLOSED
+  - (16,6): CLOSED
+  - (6,8): OPEN
+  - (12,8): CLOSED
+- Result: State (1,1,1) blocks the southeast path.
+- Hypothesis: State (1,0,1) will open (10,6).
 - Plan:
-  1. Test combination (0,1,1).
-  2. Navigate south to verify all shutter states.
-  3. Locate the Warehouse Entrance.
-- Current Step: Verifying shutter states for (0,1,1).
+  1. Update markers.
+  2. Toggle Switch 2 (10,1) to OFF. (Current state will become 1,0,1)
+  3. Verify shutter at (10,6).
+- Current Step: Moving to Switch 2 to toggle to OFF.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
