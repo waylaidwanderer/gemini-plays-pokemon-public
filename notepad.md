@@ -72,3 +72,4 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
+- Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it. Story from his grandpa's great-great-grandpa. Used to catch Magikarp there, but something is wrong now.
