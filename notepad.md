@@ -1,30 +1,28 @@
 # Goldenrod Radio Tower Takeover
 ## Strategy (HOW)
-- Use switches 1, 2, and 3 in Map 3_54 to reach the Warehouse.
-- Obtain Card Key from real Director.
-
-## Tower Intel
-- Card Key Slot: 3F (14, 2).
-- Shutters: 3F (14, 2), 4F (11, 4), 5F (14, 3).
-- Directory: 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director's Office.
+- Solve Switch Puzzle in Map 3_54 to reach the Warehouse.
+- Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
+- Goal: Reach the Underground Warehouse (likely south/west exit).
 
 # Global Knowledge
 ## Tile Mechanics
 - FLOOR: Standard.
-- WALL/SHUTTER: Impassable. Toggled by switches.
+- WALL/SHUTTER: Impassable. Shutters change state via switches.
 - COUNTER: Interact from front.
 - WARP_CARPET: Transition.
 - STAIRCASE/LADDER: Warp.
 
 ## Progress Tracking
-- Badges: 7/16 (Johto: 7/8).
+- Badges: 7/16.
 - PC: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
-- Battle: Menu transitions need 1000ms delay. Move menu wraps and remembers position.
+- Battle: Menu transitions need 1000ms delay.
 
 # Switch Room Puzzle (Map 3_54)
-- Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
-- Status: Switch 2 is ON.
-- Current Battle: Grunt #3 at (3, 2). Strategy: Flame Wheel Muk.
+- Switch 1 (16, 1): Status Unknown.
+- Switch 2 (10, 1): Status ON.
+- Switch 3 (2, 1): Status ON (Turn 9112).
+- Observation: Shutters are in rows Y=2, 3 and Y=8, 9.
+- Hypothesis: Need specific switch sequence to clear path to the Warehouse.
 
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
