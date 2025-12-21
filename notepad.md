@@ -46,7 +46,5 @@
 - **B2F Navigation:** To reach the eastern section (x > 23), use the passage at (23, 16). Access via Row 16 (FLOOR) from the central area (e.g., (17, 16)).
 
 # Reflection #8308
-- **Mistake:** Initially assumed B3F East connected directly to B3F West.
-- **Current Hypothesis:** The ladder at (27, 2) on B3F leads to an isolated northern corridor on B2F that wraps around to the western side, providing access to the Boss room on B3F West.
-- **Test (Turn 8294+):** Navigating the northern corridor on B2F (3_50). Currently at (10, 1) heading west.
+- **Hypothesis:** The western section of B3F (Boss Room) is likely reached by taking the ladder at (27, 2) on B3F to reach B2F North, which should contain a ladder down to B3F West.
 - **Lessons:** Do not assume map connectivity based on visual proximity; verify all ladders and paths. Alarms disabled on B1F (Turn 8228). Gneiss powered up with Protein (Turn 8237).
