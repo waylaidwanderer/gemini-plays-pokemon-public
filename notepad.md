@@ -32,3 +32,6 @@
 - Observation: Strength (Normal) appeared to be Super Effective against Koffing (Poison). Need to verify if type matchups or move types are altered.
 - Current Battle: Scientist Ross sent out a second Koffing.
 - Action: Decline switch, then attack.
+- Defeated Scientist Ross.
+- Talking to him now to get the password.
+- Anomaly: Strength (Normal) was Super Effective against Koffing/Venonat. Keeping an eye on this.
