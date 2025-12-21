@@ -38,4 +38,4 @@
 # Lessons Learned
 - Item sprites and COUNTER tiles have collision; interact from adjacent FLOOR.
 - Map sections can be completely isolated; look for alternative floor transitions.
-- Alarms trigger battles at specific columns/tiles on B1F.
+- Alarms are triggered by proximity to Persian statues on B1F.
