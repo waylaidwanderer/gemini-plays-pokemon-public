@@ -25,12 +25,12 @@
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
 - Switch Room Hint: "Change the order of switching. That'll change the ways the shutters open and close."
-- Puzzle State: Switch 1 Unknown, Switch 2 ON, Switch 3 OFF.
+- Puzzle State: Switch 1 Unknown, Switch 2 OFF, Switch 3 OFF.
 - Switch 3 OFF -> Opened shutters at (10, 6), (10, 7).
-- Switch 2 ON -> ???
-- Switch 1 ??? -> ???
+- Switch 2 OFF -> Closed shutter at (10, 6).
+- Current Shutter Status: (10, 6) CLOSED, (10, 7) OPEN.
 - Note: Order of flipping switches matters.
-- Gneiss is healed (112/112). Calcifer is low (36/135). Check for more healing items.
+- Gneiss is healed (112/112). Calcifer is low (36/135). Out of Hyper Potions.
 
 # Switch Room Puzzle Observations (Map 3_54)
 - Switch 3 (2, 1) turned OFF: Opened shutters at (10, 6), (10, 7).
