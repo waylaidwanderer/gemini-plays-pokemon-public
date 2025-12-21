@@ -44,4 +44,4 @@
 - 2F: Cleared.
 - 3F: Cleared (accessible areas).
 - 4F: Scientist Rich and one Rocket Grunt defeated on left side.
-- 5F: Battling fake Director (Rocket Executive) at (0, 4). Goal: Basement Key.
+- 5F: Battling fake Director (Rocket Executive). Defeated Koffing #1. Currently facing Koffing #2 (Lv30). Goal: Basement Key.
