@@ -1,5 +1,12 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
+- Objective: Locate and shut down the radio transmitter in Team Rocket Base.
+- HOW:
+    1. Explore B3F to find two passwords from Rocket Grunts.
+    2. Return to B2F to unlock the boss's room.
+    3. Shut down the transmitter.
+
+# Status: Exploring Team Rocket Base B3F. GNEISS leading.
 
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F, B3F)
@@ -26,7 +33,7 @@
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1), (24, 5), and (6, 1). Walking past column 24 or column 6 triggers a Rocket Grunt battle. Statues contain cameras.
 - Secret Switch: Hypothesis: A secret switch trips the camera alarms.
-- Floor Traps: Column 3 has traps at (3, 7), (3, 8), (3, 9), and (3, 10). Tiles (3, 11-13) are safe.
+- Floor Traps: Column 3 has traps at (3, 7), (3, 8), (3, 9), and (3, 10), (3, 13), and (3, 14). Tiles (3, 11-12) are safe.
 
 # Area Mechanics: Team Rocket Base B2F
 - Locked Doors: Located at (14, 12) and (15, 12).
@@ -37,6 +44,7 @@
 # Area Mechanics: Team Rocket Base B3F
 - Lance: Found at (26, 14). Dialogue: "It takes two passwords to [get into the boss's quarters]. Those passwords are known only to a few ROCKETS."
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
+- Scientist Ross: Defeated at (23, 11). Former Silph employee. Mentioned a signal that drives Pokemon mad.
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
@@ -49,7 +57,6 @@
 - Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
 - Cooltrainer F (Lake of Rage): Saw a red Gyarados in the lake. Found at (24, 29).
 - Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it.
-- Scientist Ross (B3F): Defeated at (23, 11). Former Silph employee.
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
