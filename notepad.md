@@ -45,3 +45,6 @@
 - **Plan:** After checking Cooltrainer, try "Dark Cave leads to another road." (Title Case).
 - **Youngster (10, 6):** Generic dialogue (Dark Cave/Falkner). Not recipient.
 - **Next:** Checking Bug Catcher at (21, 13).
+- **Bug Catcher (21, 13):** Gave Bitter Berry. Not recipient.
+- **Conclusion:** Fisher IS the recipient. The rejection "This MAIL isn't for me" is due to incorrect content (Case Sensitivity).
+- **Next Action:** Rewrite mail: "Dark Cave leads to another road." (Title Case).
