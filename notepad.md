@@ -30,7 +30,7 @@
   - (16, 6), (12, 8), (2, 6): CLOSED (No change).
 
 ### Test 3: Switch 3 (2, 1) -> ON
-- Status: Moving to turn Switch 2 OFF first.
+- Status: Moving to turn Switch 3 ON.
 - Observations: PENDING.
 
 # Area Notes
