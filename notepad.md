@@ -27,7 +27,10 @@
 ### Test 2: Switch 2 (10, 1) -> ON
 - Status: Observation phase.
 - Observations (compared to baseline 0,0,0):
-  - (10, 6): OPEN (Visual confirmed Turn 9963).
+  - (10, 6): OPEN (Confirmed by standing on it Turn 9964).
+  - (10, 7): OPEN (Visual confirmed Turn 9964).
+  - (11, 6): OPEN (Visual confirmed Turn 9964).
+  - (11, 7): OPEN (Visual confirmed Turn 9964).
   - (2, 6): ?
   - (16, 6): ?
   - (6, 8): ?
