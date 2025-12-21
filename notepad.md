@@ -31,3 +31,4 @@
 # Leader Pryce Battle (Turn 8557)
 - Pryce's Roster:
   1. Seel Lv27.
+  2. Dewgong Lv29 (upcoming).
