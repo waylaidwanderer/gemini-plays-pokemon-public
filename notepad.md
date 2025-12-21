@@ -58,6 +58,7 @@
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
 - Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
 - Cooltrainer F (Lake of Rage): Saw a red Gyarados in the lake. Found at (24, 29).
+- Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it. Story from his grandpa's great-great-grandpa. Used to catch Magikarp there, but something is wrong now.
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
@@ -72,4 +73,3 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
-- Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it. Story from his grandpa's great-great-grandpa. Used to catch Magikarp there, but something is wrong now.
