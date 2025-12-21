@@ -68,3 +68,5 @@
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 - Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
+- Met Rocket Grunt at (25, 13). Dialogue: "Well, duh. It has to have a password that only TEAM ROCKET knows."
+- Hypothesis: The locked doors at (14, 12) and (15, 12) require a password known by Team Rocket members.
