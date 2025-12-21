@@ -6,14 +6,14 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Confirming Mail "DARK CAVE".
+- **Status:** Finalizing Mail "DARK CAVE".
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Mail text typed. Cursor needs to hit 'END'.
+- **Current State:** Text is "DARK CAVED". Cursor at 'H'.
 - **Next Steps:**
-    1. Navigate to 'END' (Bottom-Right) and Press A.
-    2. Exit Menus (B, B, B).
-    3. Talk to Fisher at (17, 7).
-    4. Deliver Mail.
+    1. Press 'B' to delete 'D'.
+    2. Navigate to 'END' (Bottom-Right).
+    3. Press 'A' to Confirm.
+    4. Deliver Mail to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps). Said "This MAIL isn't for me."
