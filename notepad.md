@@ -21,5 +21,5 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Error:** Hallucinated position on B1F, leading to failed navigation. Corrected now.
 - **Pivot:** Abandoned B2F door strategy. Focusing on finding the "missing link" to B2F NW.
+- **Exploration:** Currently checking B1F NW room and Grunt at (2,4).
