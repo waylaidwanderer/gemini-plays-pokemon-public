@@ -60,3 +60,4 @@
 - Action: Pressing 'Up' to target Goldenrod City.
 - Turn 9870: Selected Goldenrod City on Fly map. Executing Fly.
 - Next Step: Go to North Gate (Route 35 entrance) and talk to Webster to reset/fix the mail.
+- Turn 9873: Arrived in Goldenrod Center via Fly. Party healthy. Exiting to find Webster at North Gate.
