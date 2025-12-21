@@ -38,3 +38,9 @@
 - Map sections can be completely isolated; look for alternative floor transitions.
 - Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
 - Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
+- **B3F Navigation:** 'check_reachable_unseen' confirms no path to the western section (Boss door) from the eastern section/corridor on this floor. Entrance must be from B2F or another floor.
+- **B3F Objects:**
+  - (23, 11): Scientist Ross.
+  - (27, 2): Ladder to B2F East (Entry Point 3).
+  - (12, 1), (13, 1): Oath Scripts.
+  - (4, 13)-(7, 13): Oath Scripts.
