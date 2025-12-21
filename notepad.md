@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Recover and Verify Mail.
-  1. **Step 1:** Clear Printer Error (Press B).
-  2. **Step 2:** Open Start Menu -> Party -> Kenya -> CHECK MAIL.
+- **Current Action:** Verify Kenya's Mail.
+  1. **Step 1:** Navigate from Lapis to Kenya (Down x2 -> A).
+  2. **Step 2:** Select CHECK MAIL (or ITEM -> CHECK MAIL).
   3. **Step 3:** Verify message is EXACTLY: "DARK CAVE leads to another road."
-  4. **Step 4:** If correct, talk to Fisher. If not, rewrite.
+     - **DO NOT PRESS START** (Triggers Printer Error).
+  4. **Step 4:** If correct, talk to Fisher (Down). If not, rewrite.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
