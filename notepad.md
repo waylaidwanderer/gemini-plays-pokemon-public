@@ -40,3 +40,6 @@
 - **Navigation Log:**
   - Turn 8371: Attempted `navigate` through (7, 9), which is a WALL. Failed.
   - Turn 8372: Re-routing through the boss door at (10, 9) to reach the western corridor.
+- **B3F Map Connections:**
+  - West and East sections are connected via gaps in the central walls at (15, 12), (15, 13) and (18, 16), (18, 1).
+  - Path from Boss Office to B3F East: (14, 10) -> (14, 12) -> (17, 12) -> (17, 16) -> (27, 16) -> (27, 14).
