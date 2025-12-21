@@ -30,3 +30,6 @@
 - **WARP CARPET:** Transitions.
 - Turn 9916: Inside Route 31 Gatehouse. Mail forged and ready. Exiting east to Route 31.
 - Turn 9918: Exiting Gatehouse to Route 31. Next target: Fisher at (17, 7).
+- Turn 9919: Moving East on Route 31. Target: Ledge at (13, 7).
+- Plan: Hop ledge, navigate to (17, 8), deliver mail to Fisher.
+- Note: Avoiding row 6 (Youngster) and row 8 (safe but 7 is direct). Assumed Youngster is non-hostile.
