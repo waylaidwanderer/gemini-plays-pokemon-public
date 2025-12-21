@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Mahogany Town (Radio Signal).
 - **Secondary Goal:** Find Lance in Mahogany Town.
-- **Navigation:** Route 43 -> Mahogany Town (South).
+- **Navigation:** Team Rocket Hideout B1F - Bypass Security.
 
 ## Quest Log
 - **Lake of Rage:**
