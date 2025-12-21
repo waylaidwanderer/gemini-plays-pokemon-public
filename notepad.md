@@ -1,10 +1,10 @@
 # Tile Mechanics
-- **FLOOR**: Standard traversable.
-- **WALL**: Impassable.
+- **FLOOR**: Standard traversable. Stops sliding movement.
+- **WALL**: Impassable. Stops sliding movement.
+- **ICE**: Sliding movement. Entering an ICE tile causes the player to slide in that direction until they hit a WALL, an Object, or a non-ICE tile.
 - **LADDER**: Warp point.
 - **SECURITY_CAMERA / Persian Statue**: Triggers alarms until switch at (19, 11) is flipped.
-- **NPC/Item Sprites**: All sprites act as walls.
-- **ICE**: Sliding movement. Entering an ICE tile from any direction causes the player to slide in that direction until they hit a WALL or an Object (NPC, item, etc.).
+- **NPC/Item Sprites**: All sprites act as walls and stop sliding movement.
 
 # Movesets
 - **Dewgong**: Growl.
@@ -27,12 +27,12 @@
   2. Navigate the ice puzzle by using walls and trainers as anchors.
 
 # Floor Connectivity
-- B1F (27, 2) <-> Mahogany Mart (7, 3) [Entrance/Exit]
-- B1F (3, 14) <-> B2F (3, 14)
-- B2F (27, 14) <-> B3F (27, 14)
-- B3F (27, 2) <-> B2F (27, 2)
-- B2F (3, 2) <-> B3F (3, 2)
-- B3F (3, 6) <-> B2F (3, 6) [Access to TM46]
+- B1F (27, 2) <&lt;-> Mahogany Mart (7, 3) [Entrance/Exit]
+- B1F (3, 14) <&lt;-> B2F (3, 14)
+- B2F (27, 14) <&lt;-> B3F (27, 14)
+- B3F (27, 2) <&lt;-> B2F (27, 2)
+- B2F (3, 2) <&lt;-> B3F (3, 2)
+- B3F (3, 6) <&lt;-> B2F (3, 6) [Access to TM46]
 
 # Lessons Learned
 - Map sections are isolated; use specific ladders to cross.
@@ -43,20 +43,12 @@
 # Mahogany Gym (2_2) - Glacier Badge
 - **Leader:** Pryce (Ice-type).
 - **Strategy:** Lead with Calcifer (Typhlosion) for Flame Wheel/Ember.
-- **Puzzle Mechanics:**
-  - ICE tiles: Sliding movement.
-  - FLOOR tiles: Normal movement.
-- **Gym Guide Advice:** Talk to Guide at (7, 15) for hints.
-
-# Trainer Data
-- Skier Clarissa (2_2, 9, 17): Dewgong Lv28.
-- Boarder Brad (2_2, 5, 9): Swinub Lv26.
+- **Trainer Data:**
+  - Skier Clarissa (2_2, 9, 17): Dewgong Lv28.
+  - Boarder Brad (2_2, 5, 9): Swinub Lv26.
 
 # Mahogany Gym Navigation Analysis
-- Current Position: (5, 10).
-- Obstacles:
-  - BEAUTY (Clarissa) at (9, 17) - defeated.
-  - BOARDER (Brad) at (5, 9) - in battle.
-  - WALLS at (8, 12-15), (6, 12-15), (3, 14-15), (1, 12-15).
-- Observation: The ice floor starts at Y=13 and continues north.
-- Hypothesis 1: To reach the back of the gym, I need to navigate the ice sliding puzzle by using walls and NPCs as stopping points.
+- Current Position: (2, 10).
+- Goal: Reach Beauty at (4, 6).
+- Path: (2, 10) -> Right -> (5, 10) -> Right -> (9, 10) -> Up -> (9, 7) -> Left -> (4, 7).
+- Hypothesis: Sliding into FLOOR tiles is the key to course-correcting in this gym.
