@@ -2,10 +2,11 @@
 - Goal: Clear path to ladder at (23, 3).
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping and following Strategist advice.
-- Current Status (Turn 9623):
+- Current Status (Turn 9624):
     - Switch 3 (2, 1): ON
     - Switch 2 (10, 1): ON
     - Switch 1 (16, 1): ON
+- Reset Phase: Turning Switch 1 OFF now.
 - Observations:
     - All switches ON -> All shutters in Row 6, 8, 9 appear CLOSED (WALL).
     - This suggests the final state for the 3-2-1 sequence is NOT "all switches ON".
