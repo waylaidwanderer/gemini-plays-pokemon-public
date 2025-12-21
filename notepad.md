@@ -40,3 +40,4 @@
 
 # Route 42 Discoveries
 - Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
+- Pokemaniac Shane (Route 42) at (47, 8).
