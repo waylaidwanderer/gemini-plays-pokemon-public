@@ -10,15 +10,20 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
 | (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
-| (0, 1, 0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
+| (0, 1, 0) | ? | ? | OPEN | CLOSED | OPEN | ? |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
+| (0, 1, 1) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 
 ## Verified Observations
 - (0, 0, 0): All shutters CLOSED. (Turn 10102)
 - (1, 0, 0): (16, 6) OPEN. (Turn 10106)
-- (0, 1, 0): (10, 6), (6, 8) OPEN. (Turn 10117)
 - (0, 0, 1): (2, 6), (3, 6), (12, 8) OPEN. (Turn 10094)
-- (1, 1, 1): (2, 6), (3, 6) OPEN; (10, 6), (16, 6), (12, 8) CLOSED. (Turn 10081)
+- (0, 1, 1): (2, 6), (3, 6), (12, 8), (16, 6) CLOSED; (10, 6), (6, 8) OPEN. (Turn 10121)
+
+## Logic Model (XOR Hypothesis)
+- S3 toggles: {2,6, 3,6, 12,8}
+- S2 toggles: {2,6, 3,6, 10,6, 6,8, 12,8} (?)
+- S1 toggles: {16, 6}
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
