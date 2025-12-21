@@ -4,12 +4,13 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Reset Mail (Remove Period).
+- **Current Action:** Reset Mail (Caps, No Period).
   1. **Status:** Failed ("This MAIL isn't for me.").
-  2. **Step 1:** Close Text & Open Party (B -> Start -> A).
-  3. **Step 2:** Take Mail from Kenya.
-  4. **Step 3:** Give Mail & Type: "DARK CAVE leads to another road" (Caps, No Period).
-  5. **Step 4:** Deliver. If fails, abandon quest.
+  2. **Step 1:** Close Text (B).
+  3. **Step 2:** Open Party (Start -> Pokemon).
+  4. **Step 3:** Take Mail from Kenya.
+  5. **Step 4:** Give Flower Mail.
+  6. **Step 5:** Type: "DARK CAVE leads to another road" (Caps, No Period).
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
