@@ -46,22 +46,18 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Buy Flower Mail.
-  1. **Status:** Purchasing Flower Mail (x1).
-  2. **Step 1:** Confirm Quantity (A).
-  3. **Step 2:** Confirm Purchase (A).
-  4. **Step 3:** Exit Mart.
-  5. **Step 4:** Equip Kenya with Flower Mail.
-  6. **Step 5:** Write: "DARK CAVE leads to another road."
-  7. **Step 6:** Deliver to Fisher on Route 31.
+- **Current Action:** Equip Kenya and Deliver.
+  1. **Status:** Flower Mail acquired. Exiting Mart.
+  2. **Step 1:** Open Pack -> Items -> Flower Mail -> GIVE -> Kenya.
+  3. **Step 2:** Compose Message: "DARK CAVE leads to another road." (Exact punctuation).
+  4. **Step 3:** Return to Route 31 (Fly/Walk).
+  5. **Step 4:** Deliver to Fisher.
 
 ## Maintenance
-- **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic or pathfinding constraints.
+- **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
 
-## Reflection (Turn 9252)
-- **Status:** Recovered from Fly error. Buying correct mail.
-- **Hygiene:** Notepad updated. Markers good.
-- **Goals:** Clear.
-- **Lesson:** Always verify specific item requirements for quests (e.g. Flower Mail vs generic Mail).
-- **Bug:** "Printer Error" in Mail menu if Start is pressed. Avoid Start.
+## Reflection (Turn 9254)
+- **Progress:** Bought Flower Mail.
+- **Next:** Critical text entry step. Must use `type_text` tool carefully.
+- **Note:** Ensure message is "DARK CAVE leads to another road."
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
