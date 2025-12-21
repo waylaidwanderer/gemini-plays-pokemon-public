@@ -37,11 +37,10 @@
   - Rocket Girl (21, 7): Ekans (Lv18), Gloom (Lv18). Reward: ¥720. Password 2: SLOWPOKETAIL.
 
 # Strategy (HOW)
-1. **Loot B1F:** Collect item at (14, 15).
-3. **Advance to B2F:** Use the western ladder at (3, 14).
-4. **Navigate B2F:** Move through the Voltorb traps to reach the western section.
-5. **Infiltrate B3F:** Use passwords to unlock the Boss door at (10, 9) on B3F.
-6. **Final Objective:** Shut down the transmitter on B2F.
+1. **Advance to B2F:** Use the western ladder at (3, 14).
+2. **Navigate B2F:** Move through the Voltorb traps to reach the western section.
+3. **Infiltrate B3F:** Use passwords to unlock the Boss door at (10, 9) on B3F.
+4. **Final Objective:** Shut down the transmitter on B2F.
 
 # Lessons Learned
 - Item sprites and COUNTER tiles have collision; interact from adjacent FLOOR.
