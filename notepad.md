@@ -50,3 +50,13 @@
 - Arrived at (0, 7) from Route 42.
 - Sign at (1, 5): Welcome to the Home of the Ninja (Mahogany Town).
 - Gramps at (5, 9).
+
+# Mahogany Town Strategy
+- Current Status: Arrived from Route 42. Standing at (2, 5).
+- Objective 1: Locate Pokemon Center and Gym.
+- Objective 2: Explore all unseen tiles to map the town.
+- Plan:
+  1. Move East to (7, 5) and beyond to reveal the center of town.
+  2. Locate the PC and heal if necessary.
+  3. Locate the Gym.
+  4. Train KIMCHI (ODDISH) to Lv21 by leading in wild battles or trainer battles if appropriate.
