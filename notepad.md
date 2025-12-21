@@ -36,11 +36,11 @@
 # Resource Management Strategy
 - Exit via warp carpet at (21, 29) on Map 3_54 -> Goldenrod City (9, 5).
 - Navigate to the Goldenrod Dept. Store (Map 3_6).
-- Take the elevator to 5F (Pharmacy).
-  1. Navigate to (3, 1) on 1F.
+- Take the elevator to 2F (Trainer's Market).
+  1. Navigate to (3, 1) on 5F.
   2. Call elevator at (3, 0).
-  3. Enter and select 5F.
-  4. Walk out of elevator.
+  3. Enter and select 2F.
+- Observed on 5F: Clerk at (8, 5) sells TM41, TM48, TM33, TM02, TM08.
 - Purchase 10 Hyper Potions and 5 Revives.
 - Return to the Underground via the same path to resume the puzzle.
 
