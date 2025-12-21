@@ -18,15 +18,11 @@
 3. Record TRUE baseline.
 4. Execute Switch 3 ON -> Switch 2 ON -> Switch 1 ON.
 
-## Verified Baseline (All OFF - Default State)
-- Switch 3 (2, 1): OFF
-- Switch 2 (10, 1): OFF
-- Switch 1 (16, 1): OFF
-- Shutter (2, 6): OPEN (FLOOR)
-- Shutter (6, 8): CLOSED (WALL)
-- Shutter (10, 6): CLOSED (WALL)
-- Shutter (12, 8): CLOSED (WALL)
-- Shutter (16, 6): CLOSED (WALL)
+## Verified Baseline (Default after reset)
+- All switches OFF.
+- Observation: Shutters at (2,6), (10,6), (16,6) were OPEN immediately after reset, but CLOSED automatically when moving to (6,4).
+- Current State (Turn 9888): All shutters (2,6), (6,8), (10,6), (12,8), (16,6) are CLOSED.
+- Goal: Execute 3-2-1 sequence from this state.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
