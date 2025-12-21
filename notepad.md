@@ -83,3 +83,5 @@
 - Lance says two passwords are needed to reach the Boss.
 - Specific Rockets know the passwords.
 - Plan: Find the password-holding Rockets on B3F.
+- Picked up Full Heal at (28, 9).
+- Objective: Confront Rocket Grunt at (24, 14) for password information.
