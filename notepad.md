@@ -6,15 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Locate Fisher & Re-attempt Mail.
-- **Mail Content Plan:** "DARK CAVE leads to another road."
-- **Current Location:** Route 31 South (near Wade).
-- **Escape Route:** Gap in ledge at (19, 11).
+- **Status:** Adjusting Mail Content.
+- **Mail Content Plan:** "DARK CAVE" (Trying exact sign text).
+- **Previous Attempts:**
+  - "DARK CAVE leads to another road." -> Rejected.
 - **Next Steps:**
-    1. Talk to Wade (he called).
-    2. Go North through gap at (19, 11).
-    3. Return to Fisher at (17, 7).
-    4. Equip Mail properly (Menu -> PKMN -> Kenya -> Mail).
+    1. Remove current mail from Kenya.
+    2. Attach new Flower Mail.
+    3. Write "DARK CAVE".
+    4. Deliver to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps). Said "This MAIL isn't for me."
