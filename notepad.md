@@ -47,18 +47,19 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Text is "lead t". Cursor at 'o' (1,4).
+  1. **Status:** Recovering from "u(v " error.
   2. **Method:** Manual typing via `slow_press`.
   3. **Plan:**
-     - B x2 (Delete 't', ' '). Result: "lead".
-     - Type "leads to " (s, Space, t, o, Space).
-     - Type "another road." (Next).
-  4. **Note:** Cursor ends at 'Space' (2,6).
+     - Delete 11 chars (removes "u(v " and "lead t").
+     - Reset cursor to Top-Left ('a').
+     - Verify text is "DARK CAVE".
+     - Next turn: Type " leads to ".
+  4. **Note:** Safe deletion strategy to ensure clean state.
 
 ## Maintenance
 - **Tool Fix:** Manual typing continues.
 
-## Reflection (Turn 9286)
-- **Correction:** Previous turn resulted in "lead t" instead of "leads to". Missing 's' and typo 't'.
-- **Action:** Fix "lead t" -> "leads to ".
-- **Next:** Type "another road."
+## Reflection (Turn 9287)
+- **Error:** Previous input typed garbage "u(v " and typo "lead t".
+- **Fix:** Aggressive deletion (11 chars) to strip back to "DARK CAVE".
+- **Next:** Reset cursor, then type remainder.
