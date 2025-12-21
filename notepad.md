@@ -77,3 +77,4 @@
 - Milestone: Caught Red Gyarados! (Nickname: "QAAGMAQNJW" - attempted "Ragnarok", typos happened).
 - Obtained Red Scale.
 - Plan: Find Lance at the lake shore (likely near the sign at 21, 27) to proceed.
+- Interaction: Speaking to Lance (21, 28). Text "This lake is full of GYARADOS but..." appeared.
