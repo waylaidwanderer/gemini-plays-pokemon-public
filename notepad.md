@@ -4,12 +4,15 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Verify Kenya's Mail.
-  1. **Step 1:** Exit Lapis Menu (B).
-  2. **Step 2:** Navigate to Kenya (Down x2 -> A).
-  3. **Step 3:** Select MAIL option.
-  4. **Step 4:** Select READ.
-  5. **Step 5:** Verify message: "DARK CAVE leads to another road." (Period is key).
+- **Current Action:** Buy Flower Mail.
+  1. **Observation:** Fisher rejected current mail ("This MAIL isn't for me.").
+  2. **Hypothesis:** Quest requires specific "Flower Mail" (original item held by Kenya).
+  3. **Plan:**
+     - Fly to Violet City (Mistral).
+     - Buy Flower Mail at Mart.
+     - Attach to Kenya.
+     - Write: "DARK CAVE leads to another road."
+     - Return to Fisher.
 
 ## Reflection (Turn 9200)
 - **Execution:** Recovered from "Printer Error" loop (caused by pressing Start in Mail menu). Prioritized mail verification.
