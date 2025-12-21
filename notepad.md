@@ -29,7 +29,10 @@
 - Secret Switch: Hypothesis: A secret switch trips the camera alarms.
 - Floor Traps: Column 3 has traps at (3, 7), (3, 8), (3, 9), and (3, 10). Tiles (3, 11-13) are safe.
 
-# Battle & NPC Knowledge
+# Area Mechanics: Team Rocket Base B2F
+- Locked Doors: Located at (14, 12) and (15, 12).
+- Radio Transmitter: Located at row 9.
+- Lance: Healed the party at (5, 13) and moved right.
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
 - Mahogany Gym (6, 13): Blocked by Fisher at (6, 14) until Lake of Rage investigation.
 - Pokefan M at (8, 1) in PC: Saw "men in black" (Team Rocket) at Lake of Rage.
