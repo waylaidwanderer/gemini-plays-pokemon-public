@@ -52,3 +52,6 @@
 - Note: Rocket Grunt at (4, 4) (previously thought (2, 4)). He taunted about traps.
 - Plan: Interact/Battle Grunt at (4, 4), then move South to Warp at (5, 15).
 - Target: Warp at (5, 15).
+- Rocket Grunt at (4, 4) defeated. Muscle grew to Lv 44.
+- Proceeding South to investigate Warps at (5, 15) and (3, 14).
+- Note: Grunt mentioned "traps in the floor". Could be wild encounters or teleporters.
