@@ -32,3 +32,4 @@
 - Turn 10018: Gramps in Mahogany Town mentioned a Gyarados rampage at the Lake of Rage.
 - Turn 10024: Entered Mahogany Mart (Souvenir Shop). Suspicious layout.
 - Turn 10032: Mahogany Mart inventory check: sells Slowpoketails (¥9800), TinyMushroom, Poke Ball, Potion. No Rage Candy Bar.
+- Turn 10036: Standing on stairs at (7, 3) and pressing A did nothing. Attempting to re-enter the tile to trigger the warp.
