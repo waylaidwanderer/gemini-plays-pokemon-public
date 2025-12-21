@@ -1,7 +1,7 @@
 # Party Training Status
 - KIMCHI (GLOOM): Lv21. Evolved!
-- Next Target: Train Ravioli (Krabby) or ICARUS (Pidgey) when safe.
-- Strategy: Use GNEISS/Calcifer for tough battles, lead with weaker members for EXP sharing.
+- Next Target: Train ICARUS (Pidgey) to catch up in levels.
+- Strategy: ICARUS is being moved to lead for EXP sharing. Use GNEISS/Calcifer for tough battles.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard movement.
