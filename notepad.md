@@ -20,8 +20,8 @@
 - **4F Defeated**: Scientist Rich (4, 2), Rocket Grunt (5, 5).
 - **Remaining 4F**: Rocket Girl (12, 4), Rocket Grunt (14, 1) [Behind Shutter/Partition].
 - **Turn 8881**: Sweep complete. Heading to Underground for Card Key.
-- **Turn #8899**: Current turn. In 1F side room. Testing gap at (11, 2) to reach the main lobby. If passable, exiting to Goldenrod City.
-- **Underground Plan**: Once outside, head to the Goldenrod Underground (north entrance or south house). Goal: Find the real Director and the Card Key.
+- **Turn #8900**: Current turn. Row 2 on 1F is a traversable corridor connecting the sides. Navigating to (2, 7) to exit.
+- **Underground Plan**: Once outside, head to the Goldenrod Underground (north entrance at (10, 5) or south house at (10, 15) in Goldenrod City). Goal: Find the real Director and the Card Key.
 
 # Global Knowledge
 ## Tile Mechanics
