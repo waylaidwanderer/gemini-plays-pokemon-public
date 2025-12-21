@@ -52,3 +52,12 @@
 ## Tower Progress
 - Floors 1F-4F: Accessible areas cleared.
 - 5F: Defeated Fake Director. Basement Key unlocks (18, 6) in the Underground.
+
+# Switch Room Puzzle (Map 3_54)
+- Path to Switch Room: 3_53 (18, 6) Basement Door -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
+- Goal: Find switches 1, 2, and 3 to clear the path to the Warehouse.
+- Hypotheses:
+  1. The switches are in the large central area of 3_54.
+  2. The Director is in the Underground Warehouse (likely a separate map reachable from the Switch Room).
+- Attempts:
+  - Turn 9012: Starting exploration from (23, 3).
