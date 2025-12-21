@@ -8,17 +8,18 @@
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
 - Current Goal: Execute 3-2-1 sequence (Switch 3 -> 2 -> 1) from all-OFF state.
-- Hypothesis: Turning switches ON in order 3, 2, 1 will open the path to the warehouse.
+- Attempt 1 (3-2-1): Failed. (Turn 9804: All ON, but shutters (10, 6), (12, 8), (16, 6) are CLOSED).
+- Hypothesis: The order and toggle state matter. Maybe the reset to all-OFF wasn't the correct starting point.
 
-# Switch Status (Turn 9804)
+# Switch Status (Turn 9805)
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🟢 ON (Just turned ON)
+- Switch 1 (16, 1): 🟢 ON
 
-# Shutter States (Estimated)
+# Shutter States (Verified)
 - (2, 6): OPEN
 - (10, 6): CLOSED
-- (12, 8): OPEN
+- (12, 8): CLOSED
 - (16, 6): CLOSED
 
 # Area Notes
