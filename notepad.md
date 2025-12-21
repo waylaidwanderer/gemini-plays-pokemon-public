@@ -46,11 +46,11 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Fly to Violet City.
-  1. Open Party Menu (Mistral is Slot 5).
-  2. Select Mistral -> FLY.
-  3. Arrive Violet City.
-  4. Buy Flower Mail at Mart.
-  5. Write "DARK CAVE leads to another road."
-  6. Deliver to Fisher (Route 31).
+- **Current Action:** Fly to Violet City (Retry).
+  1. **Correction:** Landed in Cherrygrove instead of Violet. Trust the "Selected Destination" text, not the visual cursor lag.
+  2. **Plan:**
+     - Open Party Menu (Mistral).
+     - Fly to Violet City.
+     - Buy Flower Mail.
+     - Deliver to Fisher.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
