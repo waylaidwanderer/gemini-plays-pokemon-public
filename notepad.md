@@ -54,6 +54,9 @@
 - Gym (6, 13): Blocked by Fisher at (6, 14).
 
 # Strategy: Lake of Rage Investigation
-- Objective: Investigate the "rampage" north of town.
-- Path: Route 43 (North) -> Lake of Rage.
-- Contingency: Look for Lance/Dragonite if present.
+- Objective: Investigate the "rampage" north of town and train KIMCHI.
+- Step 1: Heal at PC (15, 13).
+- Step 2: Exit Mahogany Town via the North gatehouse.
+- Step 3: Traverse Route 43. Lead with KIMCHI (Lv20) to gain EXP. Use Sleep Powder to mitigate damage.
+- Step 4: Reach Lake of Rage and locate the source of the "rampage".
+- Contingency: If blocked by NPCs or events, look for Lance. Use Itemfinder (if I had it, but I don't see it in inventory) or explore water with Surf.
