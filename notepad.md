@@ -26,5 +26,7 @@
 - Stat drops (like Growl) reset upon switching or end of battle.
 
 # Goldenrod Radio Tower Crisis (Started Turn 8588)
-- Radio Tower Location Hypothesis: Likely the large building in the west or north of Goldenrod City.
-- Strategy: Systematic floor-by-floor sweep. Focus on finding the Director to resolve the broadcast issue. Prepare for multiple consecutive trainer battles. Use 'battle_strategist_v2' for executive fights.
+- Team Rocket has taken over the Radio Tower. Focus on finding the Director to resolve the broadcast issue.
+- Strategy: Systematic floor-by-floor sweep. Prepare for multiple consecutive trainer battles. Use 'battle_strategist_v2' for executive fights.
+- Radio Tower Location: (5, 15) in Goldenrod City.
+- Status: Entering the tower now. (Turn 8613)
