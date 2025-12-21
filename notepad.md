@@ -18,7 +18,7 @@
 - Switch 3: Toggles Middle shutters.
 
 # Area Notes
-- Exit: The entrance to the Warehouse (3_55) is likely in the southern unseen area.
-- Ladders: (23, 3), (21, 25), and (5, 25) all lead back to the main Underground (3_52).
+- Warehouse Entrance: Likely a door in the southern unseen area (Map 3_55).
+- Return Ladders: (23, 3), (21, 25), and (5, 25) all lead back to the main Underground (3_52).
 - Trainers: Rocket Grunt (17, 2), Burglar Eddie (4, 8), Rocket Grunt (Puzzle) 2 (11, 3), Rocket Grunt (Puzzle) 3 (3, 2). All defeated.
 - Rival: Rival Malice defeated at (20, 4).
