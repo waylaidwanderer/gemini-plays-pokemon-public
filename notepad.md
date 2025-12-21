@@ -38,6 +38,7 @@
 # Area Mechanics: Team Rocket Base B3F
 - Lance: Found at (26, 14). Dialogue: "It takes two passwords to [get into the boss's quarters]. Those passwords are known only to a few ROCKETS."
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
+- Scientist Ross: Found at (23, 11). Former Silph employee.
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
