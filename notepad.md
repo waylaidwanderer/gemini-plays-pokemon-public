@@ -29,3 +29,6 @@
 
 ## Quest Log
 - **Turn 9940:** Arrived in Ecruteak City. Heading East to Route 42.
+- Turn 9942: Standing on Warp Carpet at (35, 27). Warp didn't trigger instantly.
+- Action: Pressing Right to walk into the Gatehouse.
+- Note: Map indicates WALL to the right, but this is typical for gatehouse entrances.
