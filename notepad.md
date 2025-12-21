@@ -66,3 +66,5 @@
 - Warning: Voltorb may use Selfdestruct. Muscle has 106 HP, should survive.
 - Muscle is out of Strength PP.
 - Using Dig (Super Effective) to secure the KO on Voltorb.
+- Trap pattern intensified: Traps at (5, 12) AND (5, 13). Expecting (5, 14) to be a trap too.
+- Continuing to Ladder at (3, 14).
