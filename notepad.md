@@ -7,8 +7,8 @@
 - Status: Currently on B1F. Dealing with security cameras and grunts. GNEISS leading.
 
 # Tile Mechanics
-- FLOOR: Verified traversable. Standard indoor/outdoor ground.
-- WALL: Verified impassable. Includes trees, fences, and building walls.
+- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
+- WALL: Verified impassable. Includes trees, fences, building walls, and statues. (Verified on B1F)
 - WATER: Verified traversable only with Surf (HM03) and Fog Badge.
 - TALL_GRASS / LONG_GRASS: Verified traversable. Triggers wild encounters.
 - MART_SHELF: Verified impassable.
@@ -21,7 +21,6 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- GNEISS (GRAVELER): Lv37 (100/103 HP). Leading.
 - ICARUS (PIDGEY): Lv16 (13/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
 - Calcifer (TYPHLOSION): Lv36 (112/114 HP).
 - KIMCHI (GLOOM): Lv21 (57/57 HP). Evolved from Oddish.
@@ -93,7 +92,10 @@
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
 - Hypothesis: NPC mentioned surveillance cams are in the POKéMON statues and Rocket Grunts will keep appearing until a secret switch is tripped.
 - Defeated Rocket Grunt at (23, 6). Dialogue: "Surveillance cams are in the POKéMON statues. We'll keep appearing until you trip a secret switch."
-- Goal: Find the secret switch to disable cameras.
 - Encountered second Rocket Grunt battle immediately after the first one on B1F near (6, 3). This confirms multiple grunts appear from the security statues.
 - Met Rocket Grunt at (4, 4). Dialogue: "Heheh. Feeling lucky, punk? Go ahead, take another step. We've got traps set in the floor!"
-- Hypothesis: Certain floor tiles on B1F trigger wild encounters (Koffing, Voltorb, Geodude) or traps.
+- Trap Hypothesis: Certain floor tiles on B1F trigger wild encounters (Koffing, Voltorb, Geodude) or traps.
+- Trap Testing Plan:
+    1. Step on tile (3, 4) to check for encounter or effect.
+    2. Step on tile (2, 4) to check for encounter or effect.
+    3. Document results for each step.
