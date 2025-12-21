@@ -51,3 +51,8 @@
 - Elevator Button: (3, 0) - Non-functional.
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Staircases: (12, 0), (15, 0).
+
+# Area Notes: Goldenrod Dept. Store 2F
+- NPCs: Cooltrainer F (ID 4), Gentleman (ID 5).
+- Elevator Entrance: (2, 0) - Leads to 11_17.
+- Directory: (3, 0).
