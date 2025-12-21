@@ -30,8 +30,11 @@
   - (16, 6), (12, 8), (2, 6): CLOSED (No change).
 
 ### Test 3: Switch 3 (2, 1) -> ON
-- Status: Testing isolation. Started Turn 9985.
-- Turn 9992: Moving to (2, 2) to flip Switch 3.
+- Status: Observation phase. Started Turn 9985.
+- Observations (compared to baseline 0,0,0):
+  - (2, 6): OPEN (Visual confirmed Turn 9995).
+  - (3, 6): OPEN (Visual confirmed Turn 9995).
+  - (6, 8), (10, 6), (12, 8), (16, 6): PENDING verification.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
