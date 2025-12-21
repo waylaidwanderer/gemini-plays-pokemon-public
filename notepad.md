@@ -61,3 +61,4 @@
   2. The Director is in the Underground Warehouse (likely a separate map reachable from the Switch Room).
 - Attempts:
   - Turn 9012: Starting exploration from (23, 3).
+- Rival Malice intercepted at (20, 4). Preparing for battle.
