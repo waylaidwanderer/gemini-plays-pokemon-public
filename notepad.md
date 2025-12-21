@@ -36,3 +36,6 @@
 - Fly Map Confusion: Solved (Navigation: Goldenrod -> Up -> Ecruteak -> Right -> Mahogany -> Up -> Lake of Rage).
 - Fly Map Confusion: 'Right' from Olivine did not change destination (Stayed on Olivine). Trying 'Left'. Note: Ecruteak -> Right -> Olivine in previous turn suggests inverted controls or wrapping.
 - Fly Map Navigation Hypothesis: Controls might be inverted (Right moved West to Olivine from Ecruteak). Plan: Reset to Goldenrod, go Up to Ecruteak, then try Left to go East.
+- Fly Map Logic: 'Up' from Olivine wraps to New Bark Town. 'Left' from Ecruteak goes to Olivine. 
+- Path Plan: From New Bark, 'Left' -> Cherrygrove -> 'Left' -> Violet -> 'Up' -> Ecruteak -> 'Right' -> Mahogany -> 'Up' -> Lake of Rage.
+- Current Action: Pressing Left x2 to reach Violet City.
