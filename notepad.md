@@ -7,14 +7,16 @@
 
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Removing Old Mail.
-- **Action:** taking "DARK CAVE" mail off Kenya.
+- **Action:** Rejecting "Send to PC" to keep the Mail item.
+- **Current Prompt:** "Send the removed MAIL to your PC?" (YES/NO).
 - **Next Steps:**
-    1. Confirm 'TAKE' (Down -> A).
-    2. Clear "Mail detached" message.
-    3. Exit Party Menu.
-    4. Open Pack -> Items -> Flower Mail.
-    5. Give to Kenya.
-    6. Type: "Dark Cave leads to another road".
+    1. Select NO (Down -> A).
+    2. Confirm "Mail will lose message" (YES -> A).
+    3. Clear "Mail detached" message.
+    4. Exit Party Menu.
+    5. Open Pack -> Items -> Flower Mail.
+    6. Give to Kenya.
+    7. Type: "Dark Cave leads to another road".
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps) and "DARK CAVE".
