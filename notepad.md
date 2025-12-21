@@ -36,3 +36,4 @@
 - Turn 10038: Stairs at (7, 3) in Mahogany Mart are inactive/locked. Likely requires an event trigger (Gyarados?).
 - Turn 10046: Entered Route 43. Wade called (Bug Catching Contest today).
 - Turn 10057: Defeated Picnicker Tiffany (Clefairy).
+- Turn 10075: Defeated Pokemaniac Ron (Nidoking). Muscle grew to Lv 42.
