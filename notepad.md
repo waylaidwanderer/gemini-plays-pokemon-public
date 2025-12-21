@@ -30,3 +30,4 @@
 # Future Strategy
 - After resolving the Radio Tower crisis, travel to Blackthorn City via Route 44 (East of Mahogany) and the Ice Path.
 - Prepare for the 8th Gym Badge.
+- Battle: Rocket Grunt (1F). Opponent: Raticate Lv24. (Turn 8634)
