@@ -24,6 +24,11 @@
 - Radio Tower 4F:
     - Scientist Rich (4, 2): Porygon Lv30 (In progress).
 
+# Tower Intel
+- **Director Info**: The Director is held on 5F. He can open the locked boss's door.
+- **Card Key Slot**: Located at (14, 2) on 3F. Requires Card Key.
+- **Goal**: Reach 5F and rescue the Director.
+
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
 - **WALL**: Impassable.
@@ -31,17 +36,11 @@
 - **WARP_CARPET_DOWN**: Map transition.
 - **ICE**: Sliding movement until hitting an obstacle.
 - **LADDER/STAIRS**: Warp points.
-- **NPC/Item Sprites**: Walls; stop sliding.
 
 # Completed Badges
 - Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
 
 # Navigation Notes
 - **Counter Interaction**: Face the counter, not the NPC.
-- **Fly Map (Goldenrod)**: From New Bark Town, 4 Ups and 6 Lefts. Menu is "sticky"; use discrete presses or `fly_to_v1`.
+- **Fly Map (Goldenrod)**: From New Bark Town, 4 Ups and 6 Lefts.
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
-
-# Strategic Insights
-- **Turn 8775**: Fixed `battle_move_selector_v2` logic. Pruned transient turn logs. 4F sweep in progress. Defeating Scientist Rich. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
-- **Director Info**: The Director is being held on the 5th floor. He has the ability to open the locked boss's door.
-- **Card Key Slot**: Located at (14, 2) on 3F. Likely requires the Card Key.
