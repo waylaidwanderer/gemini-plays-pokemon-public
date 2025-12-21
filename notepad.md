@@ -77,3 +77,6 @@
 - Objective: Find the Boss (Giovanni? Executive?) to get the password.
 - Path to East side found via gap at (23, 16).
 - Plan: Navigate through gap at (23, 16) to confront Rocket Grunt at (25, 13).
+- Defeated Grunt at (25, 15). Confirmed: Password required for door, held by "The Boss".
+- Objective: Locate Team Rocket Boss on this floor or others.
+- Investigating Warp (Ladder) at (27, 14).
