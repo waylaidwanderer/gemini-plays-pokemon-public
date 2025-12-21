@@ -22,7 +22,8 @@
     - Rocket Grunt (5, 1): Koffing, Grimer, Zubat, Rattata (Lv23) - Defeated.
     - Scientist Marc (9, 3): Magnemite Lv27 x2 - Defeated.
 - Radio Tower 4F:
-    - Scientist Rich (4, 2): Porygon Lv30 (In progress).
+    - Scientist Rich (4, 2): Porygon Lv30 - Defeated (Turn 8778). Calcifer is Lv41.
+    - Rocket Grunt (5, 6): Next target.
 
 # Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
