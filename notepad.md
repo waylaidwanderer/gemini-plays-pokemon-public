@@ -25,21 +25,21 @@
   - **Rocket Executive:** Defeated on B3F West. He ran off after the battle.
 
 # Strategy (HOW)
-1. **Get Final Password:** Talk to the Murkrow in the Executive's office to get the password for the transmitter room.
-2. **Shut Down Transmitter:** Return to B2F, open the locked doors at (14, 12) or (15, 12), and neutralize the three Electrode.
-3. **Reward:** Speak with Lance to receive HM06 (Whirlpool).
+- **Verify Current Map ID and Coordinates via Game State before executing any multi-turn navigation plan.**
+1. Get Final Password: Talk to the Murkrow in the Executive's office to get the password for the transmitter room.
+2. Shut Down Transmitter: Return to B2F, open the locked doors at (14, 12) or (15, 12), and neutralize the three Electrode.
+3. Reward: Speak with Lance to receive HM06 (Whirlpool).
+
+# Floor Connectivity (Mahogany Base)
+- B1F (3, 14) <-> B2F (3, 14) [Main Path]
+- B2F (27, 14) <-> B3F (27, 14) [East-South]
+- B3F (27, 2) <-> B2F (27, 2) [East-North]
+- B2F (3, 2) <-> B3F (3, 2) [Isolated NW <-> B3F West North]
+- B3F (3, 6) <-> B2F (3, 6) [B3F West South <-> Isolated SW Room (TM46)]
 
 # Lessons Learned
 - Map sections can be isolated; use floor transitions to navigate.
 - Voltorb sprites on B2F are traps.
 - Boss door requires two passwords from grunts on B3F.
 - **Path to Boss:** B2F East -> B3F East -> B2F North -> B3F West.
-- **Navigation Log:**
-  - Turn 8362-8364: Attempted `find_path_v4` to (3, 6) but remained at (7, 3). Tool failing to execute movement.
-  - Turn 8371: Switching to manual `navigate` to reach (3, 6).
-- **Navigation Log:**
-  - Turn 8371: Attempted `navigate` through (7, 9), which is a WALL. Failed.
-  - Turn 8372: Re-routing through the boss door at (10, 9) to reach the western corridor.
-- **B3F Map Connections:**
-  - West and East sections are connected via gaps in the central walls at (15, 12), (15, 13) and (18, 16), (18, 1).
-  - Path from Boss Office to B3F East: (14, 10) -> (14, 12) -> (17, 12) -> (17, 16) -> (27, 16) -> (27, 14).
+- B3F West and East sections are connected via gaps in the central walls at (15, 12), (15, 13) and (18, 14), (18, 15).
