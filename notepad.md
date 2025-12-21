@@ -6,16 +6,16 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Damage Control / Verification.
-- **Current State:** Checking Kenya in Party Menu.
-- **Action:** Inspecting Mail status.
-- **Next Steps:**
-    1. If Mail exists: Read it. Verify "Dark Cave leads to another road."
-    2. If Mail is wrong/missing: Remove/Add and Type MANUALLY.
-    3. Deliver to Fisher.
+- **Status:** Recovery & Manual Entry.
+- **Context:** Automated tool failed and saved game. Checking Kenya's mail status.
+- **Objective:** Ensure mail reads exactly: "Dark Cave leads to another road." (Mixed case, period at end).
+- **Action Plan:**
+    1. Inspect current mail on Kenya.
+    2. If incorrect/garbage: Remove mail -> Pack -> Give Flower Mail -> Type MANUALLY.
+    3. If correct (unlikely): Deliver.
 
 ## Knowledge Base
-- **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps), "DARK CAVE", and "Dark Cave leads to another road" (No Period).
+- **Fisher (Route 31):** Rejected all previous attempts. Requires exact text matching.
 - **Wade (Route 31):** Called (Turn 9576). Waiting on Route 31.
 - **Dark Cave:** Connects Route 31, 45, 46. Needs Flash.
 
@@ -24,9 +24,8 @@
 - **Inputs:** Pressing Start in Mail menu triggers Printer Error. Use B.
 - **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
 - **Menu Nav:** Cursor positions are remembered. Always verify position before confirming.
-- **CRITICAL FAILURE (Turn 9804):** `write_mail_safe` tool desynchronized, exited mail menu, navigated to SAVE, and overwrote the save file.
-- **Recovery:** Checking Kenya's status. Will revert to manual `slow_press` for all future typing.
-- **Current Location:** (15, 7) Route 31.
-- **Recovery Action:** Closing Start Menu (B) to reset state.
-- **Next Step:** Open Party Menu manually to check Kenya's mail status.
-- **Rule Update:** ALL future mail typing will be done via manual `slow_press` commands. No automation.
+- **Automation Lesson:** Do not use "fire and forget" tools for complex, state-sensitive menus like Mail without extreme error checking.
+
+## Critical Recovery Note
+- **Turn 9804:** Save file overwritten during tool failure.
+- **Current Task:** Manual verification of Kenya's held item.
