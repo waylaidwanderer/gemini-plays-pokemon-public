@@ -23,9 +23,9 @@
 - Reset Plan: Turn all switches OFF.
   - Switch 1 (16, 1): OFF (Turn 10271)
   - Switch 2 (10, 1): OFF (Turn 10277)
-  - Switch 3 (2, 1): ON (Next: Reset to OFF)
+  - Switch 3 (2, 1): OFF (Turn 10281)
 - Sequence Plan: Toggle S3 (Left), then S2 (Middle), then S1 (Right).
-- Current Progress: S2 turned OFF. Moving to S3.
+- Current Progress: All switches OFF. Starting 3-2-1 sequence. Toggling Switch 3 ON.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
