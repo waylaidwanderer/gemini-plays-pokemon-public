@@ -36,9 +36,8 @@
 - **Analysis:** The Boss Room entrance (10,9) on B3F is in a completely isolated area (NW quadrant). No access from B3F floor.
 - **Conclusion:** Access MUST be via a ladder/stairs from B2F (or B1F). The B2F Locked Doors (14,12 & 15,12) are the only remaining path.
 - **Hypothesis:** I interacted with the wrong door tile or need to try again.
-- **Correction:** The B2F Locked Doors (14,12 & 15,12) are likely for the Transmitter Room, which requires the Murkrow/Executive Voice (after the Boss Room).
+- **Correction:** The B2F Locked Doors (14,12 & 15,12) are for the Transmitter Room (requires Executive Voice/Murkrow).
 - **Game Logic:** Passwords -> Open Boss Room (B3F) -> Defeat Executive -> Murkrow opens B2F Doors.
-- **Problem:** I previously thought the Boss Room (B3F NW) was unreachable. I must have missed a path or need to check the layout again.
-- **Immediate Plan:** Proceed to B3F via NE Ladder (27,14). Navigate West to find the Boss Room doors at (10,9) and (11,9).
-- **Hypothesis:** A path exists on B3F North or Middle that I missed.
+- **Path Found:** To reach the Boss Room doors at (10,9) on B3F, I must bypass the central wall by looping South to Row 16, going West to x=1, then North to Row 10, and East to x=10.
+- **Immediate Plan:** Go to B3F via NE Ladder (27,14). Follow the path (South -> West -> North -> East) to reach the Boss Room doors. Use passwords.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
