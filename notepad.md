@@ -4,6 +4,11 @@
 - **LADDER**: Warp point.
 - **SECURITY_CAMERA / Persian Statue**: Triggers alarms until switch at (19, 11) is flipped.
 - **NPC/Item Sprites**: All sprites act as walls.
+- **ICE**: Sliding movement. Entering an ICE tile from any direction causes the player to slide in that direction until they hit a WALL or an Object (NPC, item, etc.).
+
+# Movesets
+- **Dewgong**: Growl.
+- **Swinub**: Endure.
 
 # Team Rocket Base Investigation (Mahogany Town) - COMPLETED
 - **Status:** Transmitter shut down. HM06 Whirlpool obtained from Lance.
@@ -18,11 +23,10 @@
 
 # Strategy (HOW)
 - **Earn Glacier Badge:**
-  1. Exit base via B1F (27, 2).
-  2. Heal at Pokemon Center.
-  3. Challenge Gym Leader Pryce. Calcifer (Typhlosion) is lead for Ice-type advantage.
+  1. Challenge Gym Leader Pryce. Calcifer (Typhlosion) is lead for Ice-type advantage.
+  2. Navigate the ice puzzle by using walls and trainers as anchors.
 
-# Floor Connectivity (Mahogany Base)
+# Floor Connectivity
 - B1F (27, 2) <-> Mahogany Mart (7, 3) [Entrance/Exit]
 - B1F (3, 14) <-> B2F (3, 14)
 - B2F (27, 14) <-> B3F (27, 14)
@@ -34,60 +38,25 @@
 - Map sections are isolated; use specific ladders to cross.
 - Whirlpool requires Glacier Badge to use out of battle.
 - B3F West and East sections are connected via a gap in the central wall at (18, 16).
+- `switch_pokemon_v1` and `battle_move_selector` are designed for specific menu states (PKMN menu and Move menu respectively). Do not use in overworld menus.
 
 # Mahogany Gym (2_2) - Glacier Badge
 - **Leader:** Pryce (Ice-type).
-- **Strategy:** Lead with Calcifer (Typhlosion) for Flame Wheel/Ember. GNEISS (Graveler) has Rock Throw/Rollout but is weak to Water (if any) and potentially Ice (though Ground/Rock is weak to Ice).
+- **Strategy:** Lead with Calcifer (Typhlosion) for Flame Wheel/Ember.
 - **Puzzle Mechanics:**
-  - ICE tiles: Sliding movement. You slide until you hit a wall or obstacle.
+  - ICE tiles: Sliding movement.
   - FLOOR tiles: Normal movement.
 - **Gym Guide Advice:** Talk to Guide at (7, 15) for hints.
 
-# Progress Log
-- Turn 8460: Entered Gym. Position (4, 17). Heading to Gym Guide.
-
-# Reflection (Turn 8465)
-- Immediate Execution: Completing the Pokémon switch started on turn 8464.
-- Notepad Hygiene: Added Gym strategy and progress log. Cleaned up base connectivity notes.
-- Map Hygiene: Marked Gym Guide and trainers. Will mark more as discovered.
-- Automation: Using manual buttons for the overworld party menu as custom tools are battle-focused.
-- Goal Clarity: Goals are focused on the Glacier Badge.
-- Error Analysis: Corrected turn number mismatch. Being cautious with menu navigation to avoid mixing button types.
-- Root Hypothesis: The ice puzzle requires finding a path to Pryce. Simple hypothesis: sliding to walls will eventually lead there.
-
-# Mahogany Gym Navigation
-- Starting from (7, 16).
-- Unseen tiles at Y=11 suggest a large area North.
-- Ice tiles (🧊) at (1, 12), (0, 12), etc.
-- Goal: Reach Pryce at the back of the gym.
-
-# Progress Log
-- Turn 8466: Switching Calcifer to lead position in party menu.
-
 # Trainer Data
 - Skier Clarissa (2_2, 9, 17): Dewgong Lv28.
-
-# Progress Log
-- Turn 8480: Defeated Skier Clarissa. Calcifer grew to level 37.
+- Boarder Brad (2_2, 5, 9): Swinub Lv26.
 
 # Mahogany Gym Navigation Analysis
-- Current Position: (9, 16)
+- Current Position: (5, 10).
 - Obstacles:
   - BEAUTY (Clarissa) at (9, 17) - defeated.
+  - BOARDER (Brad) at (5, 9) - in battle.
   - WALLS at (8, 12-15), (6, 12-15), (3, 14-15), (1, 12-15).
 - Observation: The ice floor starts at Y=13 and continues north.
 - Hypothesis 1: To reach the back of the gym, I need to navigate the ice sliding puzzle by using walls and NPCs as stopping points.
-- Test 1: Move West from (9, 16) onto the ice at (8, 16) to see where I stop.
-
-# Trainer Data
-- Rocker (2_2, 5, 9): Unseen.
-- Rocker (2_2, 0, 17): Unseen.
-
-# Progress Log
-- Turn 8483: Moving to (5, 10) to challenge the Rocker at (5, 9).
-
-# Trainer Data
-- Boarder Brad (2_2, 5, 9): Swinub Lv26.
-
-# Trainer Data
-- Boarder Brad (2_2, 5, 9): Swinub Lv26 (Knows Endure).
