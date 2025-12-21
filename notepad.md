@@ -10,14 +10,14 @@
 
 ## Switch Status
 - Switch 3 (2, 1): 🟢 ON (Turn 9757)
-- Switch 2 (10, 1): 🔴 OFF
+- Switch 2 (10, 1): 🔴 OFF (About to turn ON)
 - Switch 1 (16, 1): 🔴 OFF
 
-## Shutter States (Current: [ON, OFF, OFF])
-- (2, 6): FLOOR
-- (10, 6): WALL
-- (12, 8): FLOOR
-- (16, 6): WALL
+## Shutter Truth Table (Current: [ON, OFF, OFF])
+- (2, 6): FLOOR (Open)
+- (10, 6): WALL (Closed)
+- (12, 8): FLOOR (Open)
+- (16, 6): WALL (Closed)
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
