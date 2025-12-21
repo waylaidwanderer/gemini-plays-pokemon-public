@@ -6,9 +6,14 @@
     2. Find the secret switch to disable security cameras.
 - Status: Currently on B1F. Dealing with security cameras and grunts. GNEISS leading.
 
-# Tile Mechanics
-- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
-- WALL: Verified impassable. Includes trees, fences, building walls, and statues. (Verified on B1F)
+# Tile Mechanics (Verified on Map 3_49)
+- FLOOR: Traversable. Standard indoor ground.
+- WALL: Impassable. Includes statues and room dividers.
+- LADDER: Map transition.
+
+# Global Tile Mechanics
+- FLOOR: Verified traversable. Standard indoor/outdoor ground.
+- WALL: Verified impassable. Includes trees, fences, and building walls.
 - WATER: Verified traversable only with Surf (HM03) and Fog Badge.
 - TALL_GRASS / LONG_GRASS: Verified traversable. Triggers wild encounters.
 - MART_SHELF: Verified impassable.
@@ -31,6 +36,7 @@
 - Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
+- Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 
 # Type Matchups (Observed)
 - Ground vs Water/Poison: Super Effective.
