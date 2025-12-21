@@ -40,6 +40,7 @@
   1. Navigate to (3, 1) on 1F.
   2. Call elevator at (3, 0).
   3. Enter and select 5F.
+  4. Walk out of elevator.
 - Purchase 10 Hyper Potions and 5 Revives with ¥90251.
 - Return to the Underground via the same path to resume the puzzle.
 
