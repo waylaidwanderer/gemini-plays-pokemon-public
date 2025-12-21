@@ -33,9 +33,8 @@
   - (11, 7): OPEN (Visual confirmed Turn 9964).
   - (6, 9): OPEN (System detected FLOOR at Turn 9964).
   - (2, 6): ?
-  - (16, 6): ?
-  - (6, 8): ?
-  - (12, 8): ?
+  - (16, 6): CLOSED (Confirmed by collision Turn 9966).
+  - (12, 8): Moving to verify.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
