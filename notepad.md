@@ -47,3 +47,5 @@
 - Hypothesis: Ultra Balls might be on a different floor or unlocked later? Or maybe the top clerk has them?
 - Goldenrod Dept Store 2F (Top Clerk): Potions, Heals, Super Repel. No Ultra Balls.
 - Plan: Check directory to see if there's another relevant floor, or move to 3F/4F/5F.
+- Directory: 2F is 'Trainer's Market'.
+- Plan: Checking 3F next for Ultra Balls.
