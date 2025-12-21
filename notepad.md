@@ -17,11 +17,13 @@
     - Super Nerd Donald (2, 6) - Defeated.
     - Super Nerd Teru (6, 9) - Defeated.
     - Super Nerd Eric (5, 31) - Defeated.
-    - Younger Haircut Brother (7, 15) - Present.
+    - Younger Haircut Brother (7, 15) - Shopkeeper.
+    - Granny (7, 21) - Shopkeeper.
 - **Warps**:
     - Ladder at (3, 2) -> Underground Entrance (3_54) at (21, 25).
     - Ladder at (3, 34) -> Underground Entrance (3_54) at (5, 25).
     - Door at (??, ??) -> Switch Room/Basement? (Search in progress).
+- **Passage**: Narrow path to the right at (11, 7).
 
 # Global Knowledge
 ## Tile Mechanics
