@@ -86,3 +86,21 @@
 # Password Log
 - Password 1: RATICATE TAIL (from Grunt at 7, 14)
 - Password 2: [Pending] (Talk to Rocket Girl at 21, 7)
+
+# Tile Mechanics
+- FLOOR: Traversable. Standard indoor/outdoor ground.
+- WALL: Impassable. Includes trees, fences, statues, and dividers.
+- COUNTER: Impassable. Interact from adjacent tile.
+- BOOKSHELF: Impassable.
+- LADDER: Map transition.
+- TABLE: Impassable. (Inferred from layout)
+
+# Trainer Roster
+- Scientist Mitch (B3F 11,15): Ditto (Lv24). Reward: ¥2400.
+- Rocket Grunt (B3F 7,14): Raticate (Lv19). Reward: ¥760. Password: RATICATE TAIL.
+- Scientist Ross (B3F 23,11): Koffing (Lv22), Koffing (Lv22). Reward: ¥2200.
+
+# Strategy: B3F Exploration
+1. Talk to Rocket Girl at (21, 7) for second password.
+2. If she doesn't have it, check Grunt at (24, 14).
+3. Use both passwords at (10, 9) or (11, 9) to enter boss quarters.
