@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Battling Rocket Grunt at B2F (5,1). Opponent sent out Rattata.
-- **Plan:** Finish battle, then investigate Ladder at (3,2).
-- **Hypothesis:** Ladder (3,2) connects to the isolated B1F NW area. The Executive might be there.
+- **Status:** Defeated Grunt at B2F (5,1). Investigating Ladder at (3,2).
+- **Plan:** Take Ladder (3,2) to B1F NW. Expecting to find Executive or path to B2F NW (Item Ball area).
+- **Hypothesis:** Ladder (3,2) -> B1F NW -> Trap/Hole -> B2F NW (Transmitter Room).
