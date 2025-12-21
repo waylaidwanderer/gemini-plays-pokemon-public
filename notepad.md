@@ -1,9 +1,9 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Explore Mahogany Town.
-- **Secondary Goal:** Train Party to Level 30+.
-- **Navigation:** Explore town, talk to locals, locate Gym.
+- **Primary Goal:** Catch Red Gyarados.
+- **Secondary Goal:** Buy Ultra Balls (Goldenrod Dept Store).
+- **Navigation:** Fly to Goldenrod -> Shopping -> Fly to Lake of Rage.
 
 ## Knowledge Base
 - **Wade (Route 31):** Waiting for battle/gift.
