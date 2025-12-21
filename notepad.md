@@ -37,7 +37,7 @@
 - Exit via warp carpet at (21, 29) on Map 3_54 -> Goldenrod City (9, 5).
 - Navigate to the Goldenrod Dept. Store (Map 3_6).
 - Take the elevator to 4F (Medicine Box).
-  1. Navigate to (3, 1) on 5F.
+  1. Navigate to (3, 1) on 1F.
   2. Call elevator at (3, 0).
   3. Enter door at (2, 0).
   4. Select 4F and walk out.
