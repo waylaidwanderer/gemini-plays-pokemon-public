@@ -24,7 +24,6 @@
 # Resource Management Strategy
 - Task: Restock healing items (Lemonades, Super Potions).
 - Start Turn: 9247.
-- Current Status: Buying 10 Super Potions from Clerk 1 on 2F.
 - Note: Lemonade is for HP; Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
