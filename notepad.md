@@ -21,10 +21,10 @@
     - **CRITICAL DISCOVERY:** Map Data lists 'TeamRocketBaseB1FSecretSwitch' at **(19, 11)**.
     - This is the objective. No need to check random statues.
 - **Navigation Plan:**
-    - Currently at (14, 7).
-    - Map observation: Row 8 is a wall (Tiles 6-18) with a **gap at (19, 8)**.
-    - Route: Go East along Row 7 to (19, 7), then South through the gap to the switch at (19, 11).
-    - Stay on Row 7 to avoid Camera at (24, 5).
+    - Confirmed Switch at (19, 11) is blocked from North by (19, 10) Wall.
+    - East path at (23, 9) is blocked by Wall.
+    - **Strategy:** Go South to (19, 9), then West to (7, 9), then South through gap at (7, 10) to loop around to the South side of the switch.
+    - **Caution:** Watch for cameras in the new area.
 
 ## Lessons Learned
 - **Check Map Data:** Always review 'Map Events -> Background Objects' for named objectives (like Switches) before searching blindly.
