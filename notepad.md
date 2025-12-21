@@ -22,3 +22,8 @@
 - Markers for trainers should only be set to 'defeated' after the battle concludes.
 - Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
 - Stat drops (like Growl) reset upon switching or end of battle.
+
+# Goldenrod Radio Tower Crisis
+- Team Rocket has taken over the Radio Tower.
+- Goal: Clear the tower and defeat the Rocket Executives.
+- Strategy: Fly to Goldenrod, heal, and enter the tower.
