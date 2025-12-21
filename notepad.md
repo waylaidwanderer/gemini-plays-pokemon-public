@@ -5,18 +5,17 @@
 3. Find the Director (5F/Basement).
 4. Pass the quiz on 1F for the Radio Card.
 5. POST-SWEEP: Re-verify all floors for missed paths or NPCs.
-6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP. Use Headbutt against Normal/Psychic types.
-7. TILE VERIFICATION: Poké Ball tiles (6,6; 8,6; 10,6; 12,6 on 1F) are confirmed decorations (not in object list).
-8. EXPLORATION: 4F is partitioned. Access to the Director (5F) likely requires finding an alternate path through 2F or 3F.
+6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat). Use Headbutt against Normal/Psychic types.
+7. TILE VERIFICATION: Poké Ball tiles (1F) are decorations.
 
 ## Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
 - **Card Key Slot**: Located at (14, 2) on 3F. Requires Card Key.
-- **Partition Mystery**: 4F is split; current stairs don't reach the Director. Need alternate route.
+- **Partition Mystery**: 4F is split; current stairs don't reach the Director. Look for alternate route on 2F/3F.
 
 ## Battle Progress
 - **Cleared Floors**: 1F, 2F, 3F.
-- **4F Progress**: Scientist Rich (4, 2) and Rocket Grunt (5, 5) defeated.
+- **4F Defeated**: Scientist Rich (4, 2), Rocket Grunt (5, 5).
 - **Remaining 4F**: Rocket Girl (12, 4), Rocket Grunt (14, 1).
 
 # Global Knowledge
@@ -27,18 +26,12 @@
 - **WARP_CARPET_DOWN**: Map transition.
 - **ICE**: Sliding movement until hitting an obstacle.
 - **LADDER/STAIRS**: Warp points.
-- **POKEBALL TILE**: Decoration. Not in object list.
+- **POKEBALL TILE**: Decoration.
 
 ## Completed Badges
 - Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
 
 ## Navigation & PC
 - **Counter Interaction**: Face the counter, not the NPC.
-- **Fly Map (Goldenrod)**: From New Bark Town, 4 Ups and 6 Lefts (Verify coordinates).
+- **Fly Map (Goldenrod)**: Discrete presses: 4 Ups, 6 Lefts from New Bark Town. (Verify coordinates).
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
-
-# Reflection & Lessons Learned
-- **Turn 8829 (50-turn Reflection)**: 1F-3F cleared. 4F sweep in progress. Tools (battle_move_selector_v2) refined. 
-- **Lesson (Input)**: Do NOT mix directional and action buttons in the same sequence.
-- **Lesson (Sync)**: Always double-check turn numbers to avoid hallucination alerts.
-- **Lesson (Strategy)**: If a floor is partitioned, look for an alternate staircase or warp on the floor below.
