@@ -25,9 +25,9 @@
 - Experiment Log:
     1. Baseline (All OFF): All shutters CLOSED.
     2. Switch 3 (2, 1) ON: Opens (12, 8). (12, 9) is currently CLOSED (WALL).
-    3. Switch 2 (10, 1) ON: [Pending]
-    4. Switch 1 (16, 1) ON: [Pending]
-- Current Status: Switch 3 is ON. Facing Switch 2 at (10, 1).
+    3. Switch 2 (10, 1) ON: Activated.
+    4. Switch 1 (16, 1) ON: [Pending]. Note: Previous attempt showed Sw1 toggles (12, 9).
+- Current Status: Switch 3 is ON, Switch 2 is ON. Moving to Switch 1 at (16, 1).
 - Sequence Attempts: 1 (3-2-1 failed previously).
 
 # Area Notes
