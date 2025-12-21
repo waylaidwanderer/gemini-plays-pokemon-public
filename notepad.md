@@ -29,8 +29,8 @@
 - **Achievement:** Obtained 2nd password "RATICATE TAIL" from Grunt at (5, 14).
 - **Status:** Have both passwords ("SLOWPOKETAIL", "RATICATE TAIL").
 - **New Hypothesis:** These passwords open the Locked Doors on B2F at (14, 12), which likely conceal a ladder to the walled-off Boss Room on B3F.
-- **Observation:** B2F Locked Door at (14, 12) failed to open ("Needs password") despite having "SLOWPOKETAIL" and "RATICATE TAIL".
-- **Conclusion:** These passwords are NOT for the B2F doors (which likely require the Executive's Voice). They must be for the Boss Room on B3F.
-- **Immediate Plan:** Return to B3F. Check if Grunt at (5,14) has moved to reveal the bookshelf switch at (5,13).
-- **Navigation:** Loop East then South to bypass B2F counters to reach the Ladder at (27, 14).
+- **Observation:** B2F Locked Door at (14, 12) failed to open ("Needs password").
+- **Conclusion:** These passwords are for the Boss Room on B3F.
+- **Hypothesis:** The Warp Panel at (5, 15) on B1F leads into the Boss Room on B3F.
+- **Immediate Plan:** Go to B2F (Ladder at 27,14), cross to B2F West (Ladder at 3,14), then check Warp Panel at (5,15) on B1F.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
