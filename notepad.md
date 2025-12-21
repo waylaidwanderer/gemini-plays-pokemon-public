@@ -38,9 +38,10 @@
 - **Hypothesis:** I interacted with the wrong door tile or need to try again.
 - **Correction:** The B2F Locked Doors (14,12 & 15,12) are for the Transmitter Room (requires Executive Voice/Murkrow).
 - **Game Logic:** Passwords -> Open Boss Room (B3F) -> Defeat Executive -> Murkrow opens B2F Doors.
-- **Observation:** B2F West is divided by a wall at Row 12. I am on the South side.
-- **Observation:** I can see an Item Ball at (3, 10) in the North side, but cannot reach it from here.
-- **Conclusion:** I must access B2F North-West from B1F.
-- **Immediate Plan:** Go back UP to B1F (Ladder at 3,14). Explore the North-West area of B1F to find a staircase leading to B2F North-West.
-- **Goal:** Reach B3F Boss Room via B2F NW -> B3F NW.
+- **Observation:** B2F West is definitively split by a wall at Row 12.
+- **Observation:** B2F North-West contains an Item Ball at (3, 10).
+- **Conclusion:** There MUST be an access point from B1F North-West (stairs or hole) to reach B2F North-West.
+- **Immediate Plan:** Go UP to B1F. Explore B1F North-West corner (specifically x=1-5, y=1-5).
+- **Hypothesis:** A staircase is hidden in the corner or behind the Grunt at (2,4).
+- **Status:** Passwords obtained. Boss Room on B3F still inaccessible from East.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
