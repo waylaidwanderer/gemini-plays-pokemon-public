@@ -28,23 +28,8 @@
 - **Puzzle:** ICE (Slide until hit).
 
 ## Log & Lessons
-- **Mail Management:** Mass delete mail at PC is more efficient than "one-in-one-out".
-- **Menu Navigation:** Pressing Start in Mail menu causes "Printer Error". Use B to cancel.
-- **Mail Removal:** "Send to PC?" -> NO to keep for rewrite, YES to discard.
-- **Tool Safety:** OCR verification is critical before assuming tool success.
-- **Tool Debug:** `write_mail_dark_cave` caused Printer Error. Likely selected a hidden "PRINT" option or navigated out of bounds. Must fix before reuse.
-- **Mail Check:** Failed to GIVE mail because Kenya is already holding one.
-- **Action:** Must TAKE old mail first.
-  1. Exit Pack (B).
-  2. Enter Party Menu.
-  3. Kenya -> Take Mail -> Send to PC.
-  4. Give fresh Flower Mail.
-  5. Write Message.
-- **Manual Mail Attempt:** Started Turn 9405.
-- **Hypothesis:** Manual mail removal and writing is safer than tool use.
-- **Observation:** Menu option is "ITEM", not "MAIL".
-- **Hypothesis:** Kenya is holding a regular item (e.g. Berry) preventing Mail attachment.
-- **Action:** Select ITEM -> TAKE to clear the slot.
-- **Confusion:** Menu said "ITEM" but previous error said "MAIL".
-- **Action:** Selecting TAKE to remove whatever is held.
-- **Expected:** Either an item is removed, or the "Send to PC?" prompt for mail appears.
+- **Mail Management:** Mass delete mail at PC is efficient. "Send to PC?" -> YES to discard.
+- **Menu Navigation:** Pressing Start in Mail menu triggers Printer Error. Use B.
+- **Tool Safety:** OCR verification is critical. `write_mail_dark_cave` failed.
+- **Mail Mechanics:** Kenya must hold nothing to receive mail. "ITEM" menu option appears if holding non-mail item OR nothing.
+- **Status:** Kenya confirmed empty. Ready for fresh mail.
