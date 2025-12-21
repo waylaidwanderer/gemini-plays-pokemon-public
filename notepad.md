@@ -28,6 +28,8 @@
 - **Puzzle:** ICE (Slide until hit).
 
 ## Log & Lessons
-- **Turn 9354:** Restarting mail fix. Lesson: "One in, one out" mail management is inefficient. Doing mass purge.
-- **Turn 9200:** "Printer Error" loop caused by pressing Start in Mail menu. Use B to cancel.
-- **Turn 9296:** Game asks to send mail to PC when removing. Must say NO if rewriting, or YES if discarding to PC.
+- **Mail Management:** Mass delete mail at PC is more efficient than "one-in-one-out".
+- **Menu Navigation:** Pressing Start in Mail menu causes "Printer Error". Use B to cancel.
+- **Mail Removal:** "Send to PC?" -> NO to keep for rewrite, YES to discard.
+- **Tool Safety:** OCR verification is critical before assuming tool success.
+- **Tool Debug:** `write_mail_dark_cave` caused Printer Error. Likely selected a hidden "PRINT" option or navigated out of bounds. Must fix before reuse.
