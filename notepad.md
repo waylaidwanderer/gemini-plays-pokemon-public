@@ -32,5 +32,5 @@
 - Map sections are isolated; use specific ladders to cross.
 - Voltorb sprites on B2F are traps.
 - Boss door requires two passwords from grunts on B3F.
-- B3F West and East sections are connected via gaps in the central walls at (15, 12), (15, 13) and (18, 16).
+- B3F West and East sections are connected via a gap in the central wall at (18, 16).
 - Ladders trigger warps automatically; do not press A.
