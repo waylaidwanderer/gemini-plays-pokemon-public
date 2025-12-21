@@ -41,5 +41,5 @@
 - Fly Map Logic:
   - Violet -> Down -> Cherrygrove.
   - Cherrygrove -> Up -> Violet.
-  - Violet -> Left + Down -> Azalea.
-  - Hypothesis: Azalea -> Up -> Goldenrod.
+  - Azalea -> Up -> Goldenrod.
+  - Violet -> Left -> Ecruteak (Hypothesis).
