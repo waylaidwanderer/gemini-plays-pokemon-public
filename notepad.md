@@ -26,11 +26,11 @@
 - Action: Sw1 -> ON (Turn 9152).
   - Result: Opened (16, 6), (17, 6).
 
-## Current State (Turn 9153)
-- Switch States: Sw1 ON, Sw2 OFF, Sw3 OFF.
-- Shutter Status:
+## Current State (Turn 9154)
+- Switch States: Sw1 OFF, Sw2 OFF, Sw3 OFF.
+- Shutter Status (Predicted):
   - (10, 6), (10, 7): WALL (Closed)
-  - (16, 6), (17, 6): FLOOR (Open)
+  - (16, 6), (17, 6): WALL (Closed)
   - (6, 8), (12, 8), (18, 8): WALL (Closed)
 
 ## Hypothesized Shutter Tiles
