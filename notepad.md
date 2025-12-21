@@ -6,6 +6,7 @@
 4. Pass the quiz on 1F for the Radio Card.
 5. POST-SWEEP: Re-verify 1F for any missed trainers.
 6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP, as Typhlosion's Special Attack is superior.
+7. TILE VERIFICATION: Test if Poké Ball tiles (5,4; 7,6; 1,6) are traversable or items.
 
 ## Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
@@ -16,7 +17,7 @@
 - **Cleared Floors**: 1F, 2F, 3F.
 - **4F Progress**:
     - Scientist Rich (4, 2): Defeated.
-    - Rocket Grunt (5, 5): Zubat defeated. Golbat in progress (Turn 8791).
+    - Rocket Grunt (5, 5): Zubat defeated. Golbat in progress (Turn 8792). Calcifer is confused.
 - **Significant Wins**: Red Gyarados (Lake of Rage).
 
 # Global Knowledge
