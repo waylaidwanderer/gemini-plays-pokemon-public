@@ -41,3 +41,4 @@
 - Turn 9923: Interacting with Fisher.
 - Quest Status: Testing Forgery #3 ("Dark Cave leads to another road" - No Period).
 - Previous Turn Logs: Consolidated.
+- Turn 9924: Party menu opened automatically. Selecting Kenya to test "Dark Cave leads to another road" (No Period).
