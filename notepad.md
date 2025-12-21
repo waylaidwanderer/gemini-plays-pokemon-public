@@ -1,14 +1,12 @@
-# Strategy: Lake of Rage Investigation
-- Starting Turn: 7622
-- Primary Goal: Locate the source of the "rampage" (Red Gyarados).
+# Strategy: Investigate Mahogany Radio Broadcast
+- Starting Turn: 7780
+- Objective: Locate and shut down the source of the "mysterious radio broadcast" in Mahogany Town.
 - HOW:
-    1. Travel North on Route 43 through the tall grass or via the water (Surf).
-    2. Defeat any trainers blocking the path.
-    3. Enter the Lake of Rage and search for the Red Gyarados.
-    4. Speak to Lance (if present) to coordinate the investigation.
-- Status: Gatehouse passage unlocked (paid ¥1000 toll). ICARUS moved to lead.
-- Method: Lead with ICARUS (Lv15 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
-- Contingencies: If blocked, search for Lance or explore water with Surf.
+    1. Fly to Mahogany Town.
+    2. Heal party at the Pokémon Center (Gneiss and Calcifer are low).
+    3. Meet Lance at the Mahogany Mart (suspicious location noted at 11, 7).
+    4. Explore the Mart for a secret entrance or clues.
+- Status: Red Gyarados defeated, Red Scale obtained. Lance is waiting in Mahogany.
 
 # Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground.
@@ -73,12 +71,6 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
-
-# Red Gyarados Investigation
-- Starting Turn: 7738
-- Status: Red Gyarados fainted (Turn 7769). Obtained RED SCALE.
-- Discovery: Lance identified a "mysterious radio broadcast" from Mahogany Town as the cause of the Magikarp evolution (Turn 7780).
-- Strategy: Meet Lance in Mahogany Town to investigate the source of the broadcast.
 
 # Pokémon Swarms
 - Route 35: Ditto (Arnie's call, Turn 7769).
