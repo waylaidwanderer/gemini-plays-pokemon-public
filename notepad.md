@@ -40,8 +40,5 @@
 - **Counter Interactions**: To talk to someone behind a counter, stand on the tile directly in front of the counter and face it.
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
 ## Tower Progress
-- 1F: Cleared.
-- 2F: Cleared.
-- 3F: Cleared (accessible areas).
-- 4F: Scientist Rich and one Rocket Grunt defeated on left side.
-- 5F: Battling fake Director (Rocket Executive). Facing Weezing (Lv30+). Goal: Basement Key.
+- Floors 1F-4F: Accessible areas cleared.
+- 5F: Reached. Battling fake Director for Basement Key. Facing Weezing (Lv32).
