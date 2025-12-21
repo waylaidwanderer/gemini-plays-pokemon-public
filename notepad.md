@@ -42,3 +42,4 @@
 - Fly Map Logic Refined: 'Left' moves West (Goldenrod -> Ecruteak -> Left = Olivine). 'Up' from Olivine wraps to New Bark.
 - Hypothesis: Movement is point-to-point including Routes. Ecruteak -> Right -> Route 42 -> Right -> Mahogany.
 - Plan: Reset to Goldenrod. Up (Ecruteak), Right (Route 42?), Right (Mahogany?). Verifying destination.
+- Fly Map Navigation Retry: Map was closed. Re-opening ('A'). From Goldenrod (assumed start): Up -> Ecruteak. Right -> ? (Checking if East).
