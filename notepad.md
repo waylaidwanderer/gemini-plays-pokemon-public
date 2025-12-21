@@ -10,7 +10,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
 | (1, 0, 0) | ? | ? | ? | OPEN | ? | ? |
-| (0, 1, 0) | ? | ? | OPEN | ? | OPEN | ? |
+| (0, 1, 0) [T10126] | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
 | (0, 1, 1) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 
