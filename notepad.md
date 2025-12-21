@@ -23,8 +23,6 @@
 - **Exploration:** Returned to B1F via West Ladder (3, 14).
 - **Hypothesis:** A Warp Panel on B1F might lead to a restricted area or trigger the next event. Checking Warp Panel at (5, 15).
 - **Observation:** B1F is fully connected (East/West joined by gap at 9,4).
-- **Action:** Return to B2F via ladder at (3, 14).
-- **Plan:** Approach the locked doors on B2F from the West side to trigger the Rival event.
-- **Status:** Grunt at (2, 4) was non-hostile. Passwords confirmed.
-- **Hypothesis:** Rival trigger might be location-sensitive (West approach).
-- **Hypothesis:** Might need to clear all grunts or find Lance (possibly moved) to trigger the door event.
+- **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
+- **Blocker:** Unknown trigger for B2F locked doors.
+- **Immediate Plan:** Finish battle, then consult Game Mechanics Expert.
