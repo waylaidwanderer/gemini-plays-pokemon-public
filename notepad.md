@@ -26,11 +26,15 @@
 - Goal: Clear path to ladder at (21, 25).
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping of switch-shutter relationships.
+- Switch Logic Table:
+    - Switch 1: Toggles Right-side shutters {16, 6; 17, 6; 12, 8; 12, 9}.
+    - Switch 2: Toggles Left and Middle shutters {10, 6; 6, 8; 6, 9}.
+    - Switch 3: Toggles Middle shutters {12, 8; 12, 9}.
 - Experiment Log (Attempt 3): 3-2-1 sequence (All ON) failed. Path blocked.
-- Strategy: Reset all switches to OFF, then perform a final systematic mapping.
-    - Step 1: Turn Switch 1 OFF (Completed).
-    - Step 2: Turn Switch 2 OFF.
-    - Step 3: Turn Switch 3 OFF.
+- Current Status: Resetting all switches to OFF (Started Turn 9588).
+    - Switch 1: OFF.
+    - Switch 2: OFF.
+    - Switch 3: Resetting to OFF.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
