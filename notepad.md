@@ -9,8 +9,8 @@
 - Solution: Execute the 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
 - Current Progress: Resetting all switches to OFF to ensure a clean start.
 - Switch 1 (16, 1): ON.
-- Switch 2 (10, 1): ON (Turning OFF now).
-- Switch 3 (2, 1): ON (Need to verify).
+- Switch 2 (10, 1): OFF.
+- Switch 3 (2, 1): ON (Moving to turn OFF).
 
 ## Shutter Locations
 - Right: (12, 8), (12, 9)
