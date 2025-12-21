@@ -44,4 +44,4 @@
 - 2F: Cleared.
 - 3F: Cleared (accessible areas).
 - 4F: Scientist Rich and one Rocket Grunt defeated on left side.
-- 5F: Fake Director identified. Battle imminent. Goal: Basement Key.
+- 5F: Battling fake Director (Rocket Executive) at (0, 4). Goal: Basement Key.
