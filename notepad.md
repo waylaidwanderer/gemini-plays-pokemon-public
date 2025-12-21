@@ -42,4 +42,6 @@
 - **Hypothesis:** The switch might be on one of the statues or a computer terminal. Testing statue at (24, 1).
 - Muscle grew to Lv 43. Replacing Karate Chop with Cross Chop (Power upgrade).
 - Observation: Row 4 appears to be a solid wall of blocks (Tiles 20-29).
-- Hypothesis: The Warp at (25, 2) is the only way to proceed past the security wall.
+- Observation: Warp at (25, 2) did not trigger when stepped on. Likely an arrival point or inactive.
+- Observation: Tile (24, 2) appears safe from sensors (no encounter triggered while standing there).
+- Plan: Traverse West through (24, 2) to bypass security and explore the rest of the floor.
