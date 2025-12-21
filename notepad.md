@@ -23,5 +23,5 @@
 - **Exploration:** Returned to B1F via West Ladder (3, 14).
 - **Hypothesis:** A Warp Panel on B1F might lead to a restricted area or trigger the next event. Checking Warp Panel at (5, 15).
 - **Observation:** B1F is fully connected (East/West joined by gap at 9,4).
-- **Plan:** Get item at (27, 6). Then check Rocket Grunt at (2, 4) on B1F. Then return to B2F via (3, 14).
+- **Plan:** Pick up Item Ball at (27, 6) (Space made). Then check Rocket Grunt at (2, 4). Then return to B2F via (3, 14).
 - **Hypothesis:** Might need to clear all grunts or find Lance (possibly moved) to trigger the door event.
