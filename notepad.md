@@ -26,13 +26,14 @@
 - Water vs Fire: Super Effective.
 - Water vs Rock/Ground: 4x Super Effective.
 - Grass vs Water/Fighting: Super Effective.
+- Fighting vs Grass/Poison: Not Very Effective (e.g., Double Kick vs Oddish).
 
 # PC Storage (Box 1)
 - ROCKY (ONIX) Lv6, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5, SHUCKIE (SHUCKLE) Lv15.
 
 # Battle Strategies
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
-- Pokemaniac Shane (Route 42): Nidorina (Poison).
+- Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
 
 # Defeated Trainers
 - Fisher Tully (Route 42) at (40, 10).
@@ -44,7 +45,7 @@
 - Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
 - Impassable: WALL, HEADBUTT_TREE, CUT_TREE, CAVE (Warp).
 
-# Strategy: KIMCHI Training (Updated Turn #7416)
+# Strategy: KIMCHI Training (Updated Turn #7428)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 19.
-- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut.
+- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 20 HP.
