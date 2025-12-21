@@ -18,12 +18,14 @@
   - (17, 6/7): OPEN (FLOOR)
 
 # Switch Logic Observations
-- Test 1 (1:ON only): No visible changes from baseline. (12,8) and (16,6) remain OPEN.
-- Reset complete (Turn 9864). Baseline confirmed.
+- Switch 1 ON: Opens (12, 9), (16, 7), (17, 7).
+- Switch 1 OFF: Closes (16, 7), (17, 7). (16, 6) and (17, 6) remain OPEN.
+- Baseline (All OFF): (2, 6/7) OPEN, (6, 8/9) CLOSED, (10, 6/7) CLOSED, (12, 8) OPEN, (12, 9) CLOSED?, (16, 6) OPEN, (17, 6) OPEN.
+- Reset complete (Turn 9864).
 
 # Strategy
 1. Reset complete. All switches OFF.
-2. Test 2: Turn Switch 2 ON only. Record effects.
+2. Test 2: Turn Switch 2 ON only. Observe effects.
 3. Test 3: Reset Switch 2 to OFF. Turn Switch 3 ON only. Record effects.
 4. Use results to determine the combination for (10,6), (12,8), (16,6) = OPEN.
 
