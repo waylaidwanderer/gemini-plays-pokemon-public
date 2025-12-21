@@ -35,14 +35,8 @@
     - Mahogany Mart suspicious (Stairs locked).
     - Bug Catching Contest today.
 - Fishing Guru (Lake of Rage House): Explains lake lore. Worried about Magikarp. Might need to clear Lake of Rage event first.
-- Flight Miscalculation: Aimed for Goldenrod, landed in Olivine. Need to be more careful with Fly menu selection.
-- Checking Olivine Mart for Ultra Balls.
-- Olivine Mart: Does NOT sell Ultra Balls. Only sells Standard/Great Balls, Potions, Heals, and Mail.
-- Fly Map Logic:
-  - Violet -> Down -> Cherrygrove.
-  - Cherrygrove -> Up -> Violet.
-  - Azalea -> Up -> Goldenrod.
-  - Violet -> Left -> Ecruteak (Hypothesis).
+- Olivine Mart: No Ultra Balls.
+- Fly Map Logic: Verified Azalea -> Up -> Goldenrod. Navigation is tricky.
 - Goldenrod Dept Store 2F (Bottom Clerk): Sells Poke/Great Balls, but NO Ultra Balls.
 - Hypothesis: Ultra Balls might be on a different floor or unlocked later? Or maybe the top clerk has them?
 - Goldenrod Dept Store 2F (Top Clerk): Potions, Heals, Super Repel. No Ultra Balls.
