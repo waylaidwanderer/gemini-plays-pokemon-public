@@ -62,3 +62,4 @@
 - Pokefan M at (8, 1) saw "men in black" at Lake of Rage. Confirms Team Rocket involvement.
 - Youngster at (1, 3) stops evolution to learn moves faster.
 - Cooltrainer F at (2, 3) mentions evolved Pokemon learn moves more slowly.
+- Camper Spencer (Route 43): Sandshrew (Ground), Zubat (Poison/Flying).
