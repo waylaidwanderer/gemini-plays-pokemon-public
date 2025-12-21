@@ -31,7 +31,7 @@
     ]
   },
   "battle_move_selector_v2": {
-    "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0). Optimized for Gen 2 vertical move lists. Includes a safety delay to ensure the menu is ready.",
+    "description": "Selects a move from the move selection menu in battle. Assumes the move selection menu is open. Resets the cursor to the first move (index 0) and then moves to the specified move_index (0-3). Includes a safety delay.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -44,7 +44,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    try:\n        move_index = int(input_data.get('move_index', 0))\n    except (ValueError, TypeError):\n        move_index = 0\n        \n    buttons = [\"sleep 500\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef run(input_data):\n    try:\n        move_index = int(input_data.get('move_index', 0))\n    except (ValueError, TypeError):\n        move_index = 0\n        \n    # Reset cursor to move 0 (assuming no wrap-around in move menu)\n    buttons = [\"Up\", \"Up\", \"Up\", \"sleep 500\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nrun(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -60,6 +60,11 @@
         "commit_message": "Added a safety delay (sleep 500) to ensure the move selection menu is fully active before button presses.",
         "timestamp": "2025-12-21T14:19:46.168Z",
         "action_counter": 9031
+      },
+      {
+        "commit_message": "Fixed the tool by adding the necessary 'run(input_data)' call at the end of the script and added a cursor reset (3 Ups) to ensure it starts from move 0.",
+        "timestamp": "2025-12-21T14:21:30.713Z",
+        "action_counter": 9035
       }
     ]
   },
