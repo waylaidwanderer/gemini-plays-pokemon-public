@@ -16,9 +16,9 @@
 - 3 -> 2 -> 1 (1,1,1): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
 
 ## Plan
-1. Reset to (1,0,0) (Just Switch 1 ON).
-2. Explore southeast quadrant for Warehouse warp.
-3. If blocked, test 2-1-3 or 1-3-2.
+1. Reset to (0,0,0) (All switches OFF).
+2. Execute 3-2-1 sequence: S3 ON -> S2 ON -> S1 ON.
+3. Explore southeast quadrant for Warehouse warp.
 
 # Area Notes
 - Warehouse Entrance: Likely southeast warp.
