@@ -26,7 +26,7 @@
   - Switch 2 ON: Opens second set of shutters.
   - Switch 1 ON: Opens final set of shutters to the stairs.
 - Status: Switch 3 ON, Switch 2 ON, Switch 1 ON (3-2-1 sequence complete).
-- Next Step: Proceed to the ladder at (23, 3) to rescue the Director.
+- Next Step: Verify shutters at (16, 6) are open and find stairs to Warehouse.
 - Note: Verify switch/shutter states visually upon re-entry as they may reset.
 
 # Area Notes
