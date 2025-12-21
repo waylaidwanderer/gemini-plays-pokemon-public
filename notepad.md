@@ -1,33 +1,32 @@
-# Goldenrod Radio Tower Crisis (Started Turn 8588)
+# Radio Tower Crisis (Started Turn 8588)
+- **Primary Objective**: Clear Team Rocket from the tower and restore normal broadcasts.
+- **Progress**: 1F cleared of immediate threats. Currently clearing 2F.
 - **Strategy (HOW)**:
-    1. Perform a floor-by-floor sweep (1F to 5F).
-    2. Identify and defeat all Rocket Grunts and Executives.
-    3. Locate the Director (rumored to be on 5F or in the basement).
-    4. Obtain the Radio Card by passing the quiz on 1F.
-    5. Use `battle_strategist_v2` for high-stakes Executive battles.
+    1. Floor-by-floor sweep (1F -> 5F).
+    2. Defeat all Rocket Grunts and Executives.
+    3. Find the Director (5F/Basement).
+    4. Pass the quiz on 1F for the Radio Card.
+- **Executive Battles**: Use `battle_strategist_v2`.
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
 - **WALL**: Impassable.
-- **COUNTER**: Impassable. Interaction must be done from an adjacent tile facing the counter.
-- **WARP_CARPET_DOWN**: Triggers map transition when walked onto from above.
-- **ICE**: Sliding movement. Entering an ICE tile causes sliding in that direction until hitting a WALL, Object, or FLOOR tile.
-- **LADDER**: Warp point.
-- **NPC/Item Sprites**: Act as walls and stop sliding movement.
+- **COUNTER**: Impassable. Interact from adjacent tile facing the counter.
+- **WARP_CARPET_DOWN**: Map transition.
+- **ICE**: Sliding movement until hitting an obstacle.
+- **LADDER/STAIRS**: Warp points.
+- **NPC/Item Sprites**: Walls; stop sliding.
 
 # Lessons Learned
-- **Counter Interaction**: You cannot walk through counters. You must face them from an adjacent tile to interact with NPCs behind them.
-- **Whirlpool**: Requires Glacier Badge to use out of battle.
-- **Battle Menus**: `switch_pokemon_v1` and `battle_move_selector` are ONLY for specific battle menu states.
-- **Ice Trajectory**: Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
-- **Fly Map (Goldenrod)**: From New Bark Town, sequence is: Left (to Cherrygrove), Left (to Violet), Up (to Route 31), Left (to Goldenrod). Note: Menu may be sticky; use discrete presses. (Turn 8596-8604 failure analysis)
+- **Counter Interaction**: Face the counter, not the NPC.
+- **Whirlpool**: Requires Glacier Badge.
+- **Battle Menus**: `switch_pokemon_v1` and `battle_move_selector` are ONLY for battle sub-menus.
+- **Fly Map (Goldenrod)**: From New Bark Town, move Left to reach the western side, then Up to Goldenrod. Menu is "sticky"; use discrete presses or `fly_to_v1`.
+- **Notepad Edits**: `replace` requires exact character matching. Use `overwrite` for major reorganization.
 
-- Fly Map (Goldenrod): From New Bark Town, sequence is typically Lefts to reach the western side, then Up to Goldenrod (which is North of Azalea). Note: Menu may be sticky; use discrete presses. (Turn 8596-8604 failure analysis)
-
-# Mahogany Gym (2_2) - COMPLETED
-- **Leader:** Pryce defeated (Turn 8583).
-- **Reward:** Glacier Badge, TM16 (Icy Wind).
+# Completed Badges
+- Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
 
 # Future Strategy
-- After resolving the Radio Tower crisis, travel to Blackthorn City via Route 44 (East of Mahogany) and the Ice Path.
+- Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
 - Prepare for the 8th Gym Badge.
