@@ -43,3 +43,4 @@
 - Plan: Check directory to see if there's another relevant floor, or move to 3F/4F/5F.
 - Directory: 2F is 'Trainer's Market'.
 - Plan: Checking 3F next for Ultra Balls.
+- 3F (Battle Collection): Only sells X Items (Battle Stats). No Ultra Balls. Checking 4F next.
