@@ -103,3 +103,5 @@
 - Turn 9900: Selecting Mistral to Fly to Violet City.
 - Current Cursor: Kenya (Slot 5). Target: Mistral (Slot 4).
 - Action: Up -> A. Then will select Fly.
+- Turn 9903: Attempted to Fly inside Gatehouse -> Failed ("Can't use that here").
+- Plan: Exit Gatehouse (South), then Fly to Violet City.
