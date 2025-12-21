@@ -20,14 +20,10 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Strategy: Switch Room Puzzle (Map 3_54)
-- Standard Solution: 3-2-1 sequence (Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1)).
-- Logic (Verified):
-  - Switch 3 ON: Opens middle shutters.
-  - Switch 2 ON: Opens second set of shutters.
-  - Switch 1 ON: Opens final set of shutters to the stairs.
-- Status: Switch 3 ON, Switch 2 ON, Switch 1 ON (3-2-1 sequence complete).
-- Next Step: Verify shutters at (16, 6) are open and find stairs to Warehouse.
-- Note: Verify switch/shutter states visually upon re-entry as they may reset.
+- Observation: Sequence 3-2-1 failed to open final shutters and closed others. Hypothesis: The puzzle requires a specific starting state or a different logic.
+- Plan: Reset all switches to OFF. Then test each switch individually to document shutter effects.
+- Status: Switch 1 turned OFF. Currently at Switch 2.
+- Sequence Attempts: 1 (3-2-1 failed).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
