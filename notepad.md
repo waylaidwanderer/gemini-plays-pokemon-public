@@ -10,7 +10,7 @@
 # Global Tile Mechanics
 - FLOOR: Verified traversable.
 - WALL: Verified impassable.
-- WATER: Verified traversable (Surf + Fog Badge).
+- WATER: Verified traversable (Surf + HM Badge).
 - TALL_GRASS: Verified traversable.
 - MART_SHELF: Impassable.
 - COUNTER: Impassable (interact from adjacent).
@@ -40,3 +40,5 @@
 - Item sprites (POKE_BALL) and COUNTER tiles are impassable. Path to adjacent FLOOR tile to interact.
 - Markers are metadata and do NOT have collision.
 - Always verify foundation assumptions before pursuing complex strategies.
+- The map is divided by a wall at column 15; cross at Row 12 or 13.
+- To reach the boss door, go around the Row 11-13 barrier via column 3.
