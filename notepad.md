@@ -86,3 +86,5 @@
 - Expectation: Prompt "Send removed MAIL to your PC?"
 - Turn 9889: Selected 'NO' to "Send to PC?". Next prompt should be "Message will be lost. OK?".
 - Plan: Confirm message loss, ensure Kenya holds nothing, then talk to Webster.
+- Turn 9890: Confirmed "YES" to remove mail message. Kenya is now holding nothing (Mail moved to Bag).
+- Next Step: Exit menu and talk to Webster to trigger lost mail dialogue.
