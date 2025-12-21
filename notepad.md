@@ -22,7 +22,7 @@
 - Goal: Open path to the southeast Warehouse Entrance.
 - Start Turn: 10284
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Current Progress: Executing 3-2-1 sequence. Toggling Switch 3 (2,1) ON.
+- Current Progress: S3 (Left) is ON. Moving to Switch 2 (10,1). Sequence attempt 2.
 - Number of failed attempts: 1 (Turn 10300) - 3-2-1 from mixed state failed.
 - Observed Shutter Toggles:
   - S1 (16,1) toggles (16,6), (10,6), (6,8)
