@@ -17,7 +17,8 @@
     - Rocket Grunt (4, 1): 2 Zubats (Lv26) - Defeated.
     - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated.
 - Radio Tower 3F:
-    - Rocket Grunt (6, 4): Weezing Lv26 - Defeated (Turn 8721).
+    - Rocket Grunt (6, 4): Weezing Lv26 - Defeated.
+    - Rocket Grunt (5, 1): Koffing Lv23, Grimer Lv23, Zubat (In progress).
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
@@ -38,3 +39,4 @@
 
 # Reflection & Lessons Learned
 - **Turn 8725**: 50-turn reflection. Sweep of 1F and 2F complete. 3F has multiple trainers. Goal is to reach 5F. No deferred tasks identified. Map and tools are up to date. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
+- **Turn 8737**: Corrected turn number tracking error. Verified battle progress against Grunt at (5, 1). Calcifer (Lv40 Typhlosion) remains the primary attacker due to significant level advantage.
