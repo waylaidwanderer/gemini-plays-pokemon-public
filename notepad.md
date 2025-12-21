@@ -29,9 +29,10 @@
 - Experiment Log (Attempt 2):
     1. Baseline (All OFF): All shutters CLOSED.
     2. Switch 3 (2, 1) ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
-    3. Switch 2 (10, 1) ON: [Verifying states]
-- Current Status: Switch 3 ON, Switch 2 ON. Moving to Switch 1.
-- Sequence Attempts: 1 (3-2-1 failed previously).
+    3. Switch 2 (10, 1) ON: Verified.
+    4. Switch 1 (16, 1) ON: Confirmed ON (Turn 9499).
+- Current Status: 3-2-1 sequence complete. Moving to verify shutters.
+- Sequence Attempts: 1 (Attempt 2: 3-2-1 complete).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
