@@ -29,7 +29,9 @@
 ## Critical Recovery Note
 - **Turn 9804:** Save file overwritten during tool failure.
 - **Current Task:** Manual verification of Kenya's held item.
-- Turn 9829: Attempting to TAKE Kenya's mail using slow_press to bypass potential Read loop and verify text in Bag. Sequence: A (Open), Downx3 (Mail), A (Select), Down (Take), A (Confirm).
-- Turn 9830: Selected 'NO' to "Send to PC?" prompt to keep mail in Bag for inspection. Used slow_press ["Down", "A"].
-- Turn 9833: Entering Pack to find Flower Mail. Plan: Write "Dark Cave leads to another road." (Mixed Case) to see if that works. Previous ALL CAPS attempt failed.
-- Turn 9836: Scrolling down in Items pocket to find Flower Mail. Current visible items: Hyper Potion, Full Heal, Ether, Bitter Berry, Berry. None are Flower Mail.
+## Mail Strategy
+- Hypothesis: The Fisher requires the exact phrase "Dark Cave leads to another road." (Mixed Case, with period).
+- Attempt 1 (All Caps): Failed.
+- Attempt 2 (Current): Writing mixed case message.
+- Mechanism: Mail must be written before giving? Or can be edited? If 'GIVE' creates blank mail, must 'TAKE' -> 'WRITE' -> 'GIVE' or 'USE' -> 'WRITE' -> 'GIVE'.
+- Mail Menu: Start button causes Printer Error. Use B to cancel.
