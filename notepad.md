@@ -19,9 +19,10 @@
 - Status: Complete.
 - Observations (compared to baseline 0,0,0):
   - (16, 6): OPEN (Was CLOSED).
-  - (2, 6): CLOSED (Was ?).
-  - (6, 9): CLOSED (Was ?).
+  - (2, 6): CLOSED (No change).
+  - (6, 9): CLOSED (No change).
   - (12, 8), (10, 6), (6, 8): No change.
+  - NOTE: Need to re-verify Switch 1 effects if I was wrong about (2, 6) and (6, 9) baseline.
 
 ### Test 2: Switch 2 (10, 1) -> ON
 - Status: Started Turn 9958.
