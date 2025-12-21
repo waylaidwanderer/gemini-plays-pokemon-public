@@ -47,19 +47,18 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Text is "leads:('r". Cursor at 'r' (3,3).
+  1. **Status:** Text is "lead t". Cursor at 'o' (1,4).
   2. **Method:** Manual typing via `slow_press`.
   3. **Plan:**
-     - B x4 (Delete 'r', ''', '(', ':'). Result: "leads".
-     - Type " to " (Space, t, o, Space).
+     - B x2 (Delete 't', ' '). Result: "lead".
+     - Type "leads to " (s, Space, t, o, Space).
      - Type "another road." (Next).
   4. **Note:** Cursor ends at 'Space' (2,6).
 
 ## Maintenance
 - **Tool Fix:** Manual typing continues.
 
-## Reflection (Turn 9285)
-- **Correction:** Previous turn typed garbage `('r`.
-- **Analysis:** `'r` takes 2 chars. `(` and `:` take 1. Need 4 deletions.
-- **Action:** Delete 4 chars, type " to ".
+## Reflection (Turn 9286)
+- **Correction:** Previous turn resulted in "lead t" instead of "leads to". Missing 's' and typo 't'.
+- **Action:** Fix "lead t" -> "leads to ".
 - **Next:** Type "another road."
