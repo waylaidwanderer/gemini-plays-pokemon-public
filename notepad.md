@@ -40,3 +40,4 @@
 - Solution: Fly to Goldenrod City, talk to Webster (North Gate Guard), and get the mail rewritten. Then return to deliver.
 - Turn 9854: Approaching Wade at (21, 13) for a battle. Moving Right to engage.
 - Turn 9855: Initiating interaction with Wade at (21, 13). Expecting a battle or gift since he called.
+- Turn 9856: Wade interaction finished. No battle initiated. Likely just a chat call. Proceeding to Goldenrod to fix mail via Webster.
