@@ -73,3 +73,14 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
+
+# Red Gyarados Encounter
+- Starting Turn: 7738
+- Objective: Capture or defeat the Red Gyarados at (18, 22).
+- Strategy: Use GNEISS to weaken it (high defense) or Calcifer for precision damage. Use ULTRA BALL for capture.
+
+# Reflection Turn #100 Lessons
+- Coordination: Always verify NPC coordinates in Game State before marking or pathing.
+- Tool Usage: `stun_npc` is essential for interacting with pacing NPCs like Cooltrainer F.
+- Training: Switch-training ICARUS is highly effective; he reached Lv15 and learned Quick Attack.
+- Navigation: Surfing requires updated exploration tools to handle water tiles.
