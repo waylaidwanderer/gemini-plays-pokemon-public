@@ -34,20 +34,17 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Exit via warp carpet at (21, 29) on Map 3_54 -> Goldenrod City (9, 5). [DONE]
-- Navigate to the Goldenrod Dept. Store (Map 3_6). [DONE]
-- Take the elevator to 5F (Pharmacy). [IN PROGRESS]
+- Exit via warp carpet at (21, 29) on Map 3_54 -> Goldenrod City (9, 5).
+- Navigate to the Goldenrod Dept. Store (Map 3_6).
+- Take the elevator to 5F (Pharmacy).
   1. Navigate to (3, 1) on 1F.
   2. Call elevator at (3, 0).
   3. Enter and select 5F.
 - Purchase 10 Hyper Potions and 5 Revives with ¥90251.
 - Return to the Underground via the same path to resume the puzzle.
 
-## Progress Tracking
-- Badges: 7/16.
-- PC: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
-
 # Switch Room Puzzle (Map 3_54)
+- Task started: Turn 9122.
 - Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
 - Grunt Hint: "Change the order of switching. That'll change the ways the shutters open and close."
 
@@ -56,11 +53,3 @@
 - Switch 3 ON: Opens (12, 8), (12, 9). Closes (6, 9).
 - Switch 3 OFF: Opens (10, 6), (10, 7).
 - Switch 2 ON -> OFF: Closes (10, 6), (10, 7).
-
-## Current State
-- Switch States: Sw1 OFF, Sw2 OFF, Sw3 ON.
-- Shutter Status:
-  - (10, 6), (10, 7): WALL (Closed)
-  - (16, 6), (17, 6): WALL (Closed)
-  - (12, 8), (12, 9): FLOOR (Open)
-  - (6, 9): WALL (Closed)
