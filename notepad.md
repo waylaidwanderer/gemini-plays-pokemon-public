@@ -6,7 +6,9 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Explore the East corridor (X=23) on B3F to see if it wraps around to the Boss Area. If not, return to B2F to find another ladder.
+- **Navigation:** Navigate to (13, 10) to pick up the Item Ball, then to (11, 10) to open the Boss Room.
+- **Note:** East corridor leads to the entrance ladder (B2F). Already explored.
+- **Inventory:** Bag is full. Need to use/toss items (e.g., Repel, Wht Apricorn) to make space.
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
