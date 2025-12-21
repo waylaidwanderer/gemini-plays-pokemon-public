@@ -52,3 +52,4 @@
 - Goal: Reach Beauty at (4, 6).
 - Path: (2, 10) -> Right -> (5, 10) -> Right -> (9, 10) -> Up -> (9, 7) -> Left -> (4, 7).
 - Hypothesis: Sliding into FLOOR tiles is the key to course-correcting in this gym.
+- Skier Roxanne (2_2, 4, 6): Jynx Lv28.
