@@ -34,3 +34,4 @@
 - WARP_CARPET_DOWN/UP: Traversable. Triggers warp to adjacent map.
 - STAIRS: Traversable. Warps to another floor.
 - Fly Map Confusion: Solved (Navigation: Goldenrod -> Up -> Ecruteak -> Right -> Mahogany -> Up -> Lake of Rage).
+- Fly Map Confusion: 'Right' from Olivine did not change destination (Stayed on Olivine). Trying 'Left'. Note: Ecruteak -> Right -> Olivine in previous turn suggests inverted controls or wrapping.
