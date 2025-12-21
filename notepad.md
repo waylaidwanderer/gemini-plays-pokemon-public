@@ -39,3 +39,6 @@
 - Warehouse Entrance: South-east unseen area.
 - Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_53.
 - Key NPCs: Rocket Girl (19, 12), Emergency Switch (20, 11).
+### Test 4: Switch 3 ON, Switch 2 ON (0, 1, 1)
+- Status: Moving to turn Switch 2 ON (Turn 9998).
+- Strategy: Combining S3 (far left) and S2 (middle/left) to clear both shutter rows.
