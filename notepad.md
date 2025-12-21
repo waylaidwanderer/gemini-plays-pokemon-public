@@ -26,3 +26,8 @@
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
 - Switch Room Hint: "Change the order of switching. That'll change the ways the shutters open and close."
 - Puzzle State: Switch 2 ON, Switch 3 ON. Switch 1 Unknown.
+
+# Switch Room Puzzle Observations (Map 3_54)
+- Switch 3 (2, 1) turned OFF: Opened shutters at (10, 6), (10, 7).
+- Current Switch States: Switch 3 OFF, Switch 2 ON, Switch 1 Unknown.
+- Goal: Reach the Warehouse entrance (likely bottom-left).
