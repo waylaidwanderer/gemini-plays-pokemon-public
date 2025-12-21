@@ -37,3 +37,6 @@
 - WALL: Impassable.
 - WARP_CARPET: Map transition.
 - STAIRS: Change floor.
+- Defeated Scientist Jed.
+- Plan: Navigate to (19, 12), face Up, and activate the Secret Switch at (19, 11).
+- Then collect items and explore remaining warps.
