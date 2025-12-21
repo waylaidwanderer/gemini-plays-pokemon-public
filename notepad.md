@@ -19,7 +19,7 @@
 - **PC:** Cannot deposit mail-holding Pokemon.
 
 ## Quest Log
-- **Turn 10195:** Checking 5F Clerk for Ultra Balls.
+- **Turn 10202:** 5F Clerk sells TMs only. No Ultra Balls. Moving to Roof.
 
 ## Past Discoveries
 - Gyarados rampage at Lake of Rage.
