@@ -21,6 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Obtained password "HAIL GIOVANNI". Exiting Boss Room.
-- **Plan:** Pickup item at B3F (14, 10). Then take East Ladder (27, 14) to B2F South.
-- **Reasoning:** The Locked Door is at B2F South (14, 12). The North side is cut off, so I must use the South ladder.
+- **Status:** Picked up Ultra Ball at B3F (14, 10).
+- **Plan:** Backtrack to B2F Locked Door (14, 12).
+- **Route:** B3F West (3, 2) Ladder -> B2F North -> B3F NE Ladder (27, 2) -> B3F East -> B3F SE Ladder (27, 14) -> B2F South.
+- **Reasoning:** Direct access to B2F South is blocked from the North side, requiring a loop through B3F East.
