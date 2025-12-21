@@ -100,3 +100,6 @@
 - Turn 9899: Mail forged ("Dark Cave leads to another road", no period).
 - Current State: Inside Pack (Key Items). Exiting to Start Menu -> Party to Fly.
 - Goal: Fly to Violet City -> Route 31 -> Deliver to Fisher.
+- Turn 9900: Selecting Mistral to Fly to Violet City.
+- Current Cursor: Kenya (Slot 5). Target: Mistral (Slot 4).
+- Action: Up -> A. Then will select Fly.
