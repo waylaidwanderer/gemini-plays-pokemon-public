@@ -31,7 +31,7 @@
 - Conclusion: 3-2-1 sequence (All ON) results in all shutters closed.
 - Hypothesis: Each switch toggles a pair of shutter groups (S1:{A,B}, S2:{B,C}, S3:{A,C}).
 - Next Test: Turn all switches OFF to reset, then test Switch 1 alone.
-- Current Status: All switches ON. Turning Switch 1 OFF.
+- Current Status: Switch 1 OFF, Switch 2 ON, Switch 3 ON. Moving to Switch 2.
 - Sequence Attempts: 2 (3-2-1 failed). Resetting for Attempt 3.
 
 # Area Notes
