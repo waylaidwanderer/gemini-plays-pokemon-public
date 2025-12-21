@@ -40,8 +40,9 @@
     2. "Dark Cave leads to another road." (Title Case) -> REJECTED ("This MAIL isn't for me").
     3. "Dark Cave leads to another road" (No period) -> REJECTED.
   - **Other NPCs Checked:**
-    - Cooltrainer M: Generic text.
+    - Cooltrainer M: Checking now...
     - Bug Catcher: Gave Bitter Berry.
     - Youngster: Generic text (Falkner).
-- **Current Hypothesis:** Fisher IS the recipient (prompted to hand over mail), but content is wrong. Rejection "This MAIL isn't for me" likely means "Wrong Content".
-- **Next Test:** Check sign for exact "Dark Cave" formatting. Then try "DARK CAVE leads to another road" (No period).
+    - Sign: Confirmed "DARK CAVE" (All Caps).
+- **Current Hypothesis:** Fisher IS the recipient. Content must match "DARK CAVE" + "leads to another road" (exact phrasing/punctuation).
+- **Next Test:** Talk to Cooltrainer for exact phrase. Then try "DARK CAVE leads to another road" (No period).
