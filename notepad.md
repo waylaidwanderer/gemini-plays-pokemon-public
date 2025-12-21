@@ -88,3 +88,6 @@
 
 # Trainer Data
 - Boarder Brad (2_2, 5, 9): Swinub Lv26.
+
+# Trainer Data
+- Boarder Brad (2_2, 5, 9): Swinub Lv26 (Knows Endure).
