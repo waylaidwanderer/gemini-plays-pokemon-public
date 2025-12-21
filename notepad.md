@@ -14,6 +14,7 @@
 - **Counters:** To talk to someone behind a counter, stand in front of the counter tile and face it.
 - **Input Hygiene:** NEVER mix directional buttons with A/B/Start/Select in a single turn when precision is required (e.g., interacting with objects).
 - **Vending Machines:** Lemonade (350) is the best value for HP restoration (80 HP).
+- **Shutter Baseline:** Always re-verify shutter states visually after every switch flip, even if you think you know the baseline. Earlier assumption about (10, 6) being WALL at baseline was incorrect.
 
 ## Pokemon Type Effectiveness
 - Rock/Ground -> Poison: Super Effective (GNEISS vs Koffing)
@@ -26,12 +27,14 @@
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping of switch-shutter relationships.
 - Experiment Log (Attempt 3):
-    1. Baseline (All OFF): (10, 6) WALL, (16, 6) WALL, (17, 6) WALL. Verified.
-       - Note: Southern area (Y>6) is unreachable at baseline.
+    1. Baseline (All OFF):
+       - (10, 6) OPEN (FLOOR). Verified.
+       - (16, 6) CLOSED (WALL). Verified.
+       - (17, 6) CLOSED (WALL). Verified.
     2. Test 3.1: Switch 1 (16, 1) ON. 
        - Status: 1:ON, 2:OFF, 3:OFF.
        - Result: (16, 6) & (17, 6) OPEN. (10, 6) CLOSED.
-       - Observation: (12, 8) & (12, 9) were FLOOR.
+       - Conclusion: Switch 1 toggles {10, 6} and {16, 6; 17, 6} in opposite directions.
     3. Test 3.2: Switch 2 (10, 1) ON.
        - Status: 1:OFF, 2:ON, 3:OFF.
        - Goal: Identify which shutters Switch 2 toggles.
