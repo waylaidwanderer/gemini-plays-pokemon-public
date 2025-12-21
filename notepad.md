@@ -9,6 +9,8 @@
 # Movesets
 - **Dewgong**: Growl.
 - **Swinub**: Endure.
+- **Jynx**: Doubleslap.
+- **Seel**: (In battle).
 
 # Team Rocket Base Investigation (Mahogany Town) - COMPLETED
 - **Status:** Transmitter shut down. HM06 Whirlpool obtained from Lance.
@@ -27,12 +29,12 @@
   2. Navigate the ice puzzle by using walls and trainers as anchors.
 
 # Floor Connectivity
-- B1F (27, 2) <&lt;-> Mahogany Mart (7, 3) [Entrance/Exit]
-- B1F (3, 14) <&lt;-> B2F (3, 14)
-- B2F (27, 14) <&lt;-> B3F (27, 14)
-- B3F (27, 2) <&lt;-> B2F (27, 2)
-- B2F (3, 2) <&lt;-> B3F (3, 2)
-- B3F (3, 6) <&lt;-> B2F (3, 6) [Access to TM46]
+- B1F (27, 2) <-> Mahogany Mart (7, 3) [Entrance/Exit]
+- B1F (3, 14) <-> B2F (3, 14)
+- B2F (27, 14) <-> B3F (27, 14)
+- B3F (27, 2) <-> B2F (27, 2)
+- B2F (3, 2) <-> B3F (3, 2)
+- B3F (3, 6) <-> B2F (3, 6) [Access to TM46]
 
 # Lessons Learned
 - Map sections are isolated; use specific ladders to cross.
@@ -46,48 +48,20 @@
 - **Trainer Data:**
   - Skier Clarissa (2_2, 9, 17): Dewgong Lv28.
   - Boarder Brad (2_2, 5, 9): Swinub Lv26.
+  - Skier Roxanne (2_2, 4, 6): Jynx Lv28.
+  - Boarder Ronald (2_2, 2, 17): Seel Lv24.
+  - Rocker (2_2, 2, 4): Unseen.
 
-# Mahogany Gym Navigation Analysis
-- Current Position: (2, 10).
-- Goal: Reach Beauty at (4, 6).
-- Path: (2, 10) -> Right -> (5, 10) -> Right -> (9, 10) -> Up -> (9, 7) -> Left -> (4, 7).
-- Hypothesis: Sliding into FLOOR tiles is the key to course-correcting in this gym.
-- Skier Roxanne (2_2, 4, 6): Jynx Lv28.
-
-# Progress Log
-- Turn 8508: Defeated Skier Roxanne.
-
-# Mahogany Gym Navigation Analysis
-- Current Position: (4, 7).
-- Goal: Reach Pryce at (5, 3).
-- Observed Obstacles:
-  - BEAUTY (Roxanne) at (4, 6) - defeated.
-  - ROCKER at (2, 4) - undefeated.
-  - PRYCE at (5, 3).
-  - WALL at (1, 4-7).
-  - FLOOR at (3, 4), (5, 4).
-- Hypothesis 2: To reach Pryce, I need to slide into the FLOOR tile at (5, 4).
-- Test 2: From (4, 7), slide Right to (5, 7), then Up to (5, 4).
-
-# Mahogany Gym Navigation Plan (Updated Turn 8509)
-- Current Position: (9, 2).
-- Goal 1: Defeat Rocker at (0, 17).
-  1. (9, 2) -> Down -> (9, 7) [FLOOR].
-  2. (9, 7) -> Down -> (9, 10) [FLOOR].
-  3. (9, 10) -> Down -> (9, 16) [FLOOR].
-  4. (9, 16) -> Left -> (2, 16) [FLOOR].
-  5. (2, 16) -> Down -> (2, 17) [FLOOR].
-  6. (2, 17) -> Left -> Talk to Rocker at (0, 17).
+# Mahogany Gym Navigation Plan (Updated Turn 8516)
+- Current Position: (1, 17) [In battle with Ronald at (2, 17)].
+- Goal 1: Defeat Boarder Ronald.
 - Goal 2: Defeat Rocker at (2, 4).
-  1. (2, 17) -> Up -> (2, 16) [FLOOR].
-  2. (2, 16) -> Up -> (2, 14) [FLOOR].
-  3. (2, 14) -> Up -> (2, 5) [ICE, stops at Rocker].
+  1. From (2, 17), move Up to (2, 16) [FLOOR].
+  2. Move Up to (2, 14) [FLOOR].
+  3. Move Up to (2, 5) [ICE, stops at Rocker].
   4. Talk to Rocker at (2, 4).
 - Goal 3: Defeat Gym Leader Pryce at (5, 3).
-  1. (2, 5) -> Right -> (6, 5) [FLOOR].
-  2. (6, 5) -> Down -> (6, 13) [FLOOR].
-  3. (6, 13) -> Left -> (3, 13) [FLOOR].
-  4. (3, 13) -> Up -> (3, 4) [FLOOR].
-  5. (3, 4) -> Right -> (5, 4) [FLOOR].
-  6. Talk to Pryce at (5, 3).
-- Boarder Ronald (2_2, 0, 17): Seel Lv24.
+  1. From (2, 5), move Right to (6, 5) [FLOOR].
+  2. Move Up to (6, 2) [FLOOR].
+  3. Move Left to (5, 2) [ICE, stops at Pryce or WALL at (4, 2)].
+  4. Move Down to talk to Pryce at (5, 3).
