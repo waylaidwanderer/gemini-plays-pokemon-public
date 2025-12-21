@@ -22,9 +22,17 @@
 - Water -> Fire: Super Effective (vs Growlithe)
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
-# Resource Management Strategy
-- Status: Restock complete (10 Lemonades, 10 Super Potions).
+# Strategy: Resource Management
 - Return Path: (3, 2) -> (22, 27) Ladder -> Switch Room.
+
+# Strategy: Switch Room Puzzle (Map 3_54)
+- Standard Solution: 3-2-1 sequence (Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1)).
+- Logic (Hypothesis):
+  - Switch 1: Toggles (16, 6) and (17, 6).
+  - Switch 3 ON: Opens (12, 8), (12, 9). Closes (6, 9).
+  - Switch 3 OFF: Opens (10, 6), (10, 7).
+  - Switch 2 ON -> OFF: Closes (10, 6), (10, 7).
+- Note: Verify switch/shutter states visually upon re-entry as they may reset.
 
 # Shop Inventories
 ## Goldenrod Dept. Store 2F
@@ -38,12 +46,6 @@
 - Clerk (8, 5): TMs.
 ## Goldenrod Dept. Store 6F
 - Vending Machines (8, 1 to 11, 1): Fresh Water (200), Soda Pop (300), Lemonade (350).
-
-# Switch Room Strategy (Verified by Agent)
-- Map: 3_54.
-- Standard Solution: 3-2-1 sequence.
-- Current Progress: Switch 3 ON, Switch 2 ON.
-- Next Step: Activate Switch 1 (16, 1) to clear the path to the stairs.
 
 # Area Notes
 ## Goldenrod Dept. Store 4F
