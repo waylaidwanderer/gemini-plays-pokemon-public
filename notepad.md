@@ -67,3 +67,9 @@
 # Progression Update (Turn #7591)
 - KIMCHI (Oddish) evolved into GLOOM at Lv21 after defeating Camper Spencer.
 - Camper Spencer (Route 43) Roster: Sandshrew (Lv17), Zubat (Lv19), Sandslash (Lv17).
+
+# Team Rocket Encounter (Turn #7598)
+- Location: Route 43 Gatehouse (9_4).
+- NPCs: Two Rocket Grunts at (4, 6) and (5, 6) blocking the path.
+- Dialogue: "Hold it there, kiddo!"
+- Note: This gatehouse likely requires a toll or a specific event to pass.
