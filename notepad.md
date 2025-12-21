@@ -71,3 +71,6 @@
 - Action: Navigating to Ecruteak City using list order (Violet -> Azalea -> Goldenrod -> Ecruteak).
 - Sequence: slow_press ['Up', 'Up', 'Up'].
 - Goal: Select Ecruteak City.
+- Turn 9939: Fly Map cursor confirmed on Ecruteak City.
+- Action: Pressing 'A' to Fly.
+- Next: Arrival in Ecruteak City -> Head East to Route 42 -> Mahogany Town.
