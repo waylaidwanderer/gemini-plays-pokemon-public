@@ -10,6 +10,7 @@
 - **2F (Top):** Potion, Super Potion, Antidote, Parlyz Heal, Burn Heal, Ice Heal, Awakening.
 - **3F:** X Speed, X Special, X Defend, X Attack, Dire Hit, Guard Spec, X Accuracy.
 - **4F:** Protein, Iron, Carbos, Calcium (Vitamins).
+- **5F:** TMs (ThunderPunch, Fire Punch, Ice Punch, Headbutt).
 - **Olivine Mart:** Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel, Surf Mail.
 
 ## Mechanics Log
