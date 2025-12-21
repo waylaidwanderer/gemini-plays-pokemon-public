@@ -31,20 +31,25 @@
     ]
   },
   "battle_move_selector_v2": {
-    "description": "Selects a move from the move selection menu in battle. Assumes the move selection menu is open AND the cursor is at the first move (index 0). Moves the cursor down to the specified move_index (0-3) and presses A. Includes an initial 1000ms safety delay for menu transitions and 300ms between presses.",
+    "description": "Selects a move from the move selection menu in battle. Assumes the move selection menu is open. Calculates the shortest path between current_index and target_index in a wrapping menu of 4 moves. Includes an initial 1000ms safety delay.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "move_index": {
-          "type": "integer",
-          "description": "The 0-indexed position of the move to select (0-3)."
+        "current_index": {
+          "description": "The current 0-indexed position of the cursor in the move menu.",
+          "type": "integer"
+        },
+        "target_index": {
+          "description": "The 0-indexed position of the move to select (0-3).",
+          "type": "integer"
         }
       },
       "required": [
-        "move_index"
+        "current_index",
+        "target_index"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    try:\n        move_index = int(input_data.get('move_index', 0))\n    except (ValueError, TypeError):\n        move_index = 0\n        \n    buttons = [\"sleep 1000\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nrun(input_data)\n",
+    "python_script": "import json\n\ndef run(input_data):\n    try:\n        current_index = int(input_data.get('current_index', 0))\n        target_index = int(input_data.get('target_index', 0))\n    except (ValueError, TypeError):\n        current_index = 0\n        target_index = 0\n        \n    buttons = [\"sleep 1000\"]\n    \n    # Calculate movement in a wrapping menu of size 4\n    # diff is how many 'Down' presses to get from current to target\n    diff = (target_index - current_index) % 4\n    \n    if diff == 0:\n        pass\n    elif diff <= 2:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 300\")\n    else:\n        # 3 Downs is the same as 1 Up\n        for _ in range(4 - diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 300\")\n            \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nrun(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -85,6 +90,11 @@
         "commit_message": "Removed the faulty 'Up' reset logic and added a clear explanation in the description that the tool assumes the cursor starts at move index 0. This is necessary because the Gen 2 move menu wraps, making 'Up' resets unreliable.",
         "timestamp": "2025-12-21T14:32:49.857Z",
         "action_counter": 9049
+      },
+      {
+        "commit_message": "Refined battle_move_selector_v2 to handle Gen 2's menu wrapping and memory. It now takes both current_index and target_index to calculate the most efficient path (Up or Down). Added safety delays.",
+        "timestamp": "2025-12-21T14:44:07.047Z",
+        "action_counter": 9061
       }
     ]
   },
