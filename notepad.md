@@ -30,4 +30,4 @@
 # Future Strategy
 - Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
 - Prepare for the 8th Gym Badge.
-- Battle: Rocket Grunt (2F, 8,4). Opponent: 4 Rattatas (Lv21-23). Currently on 4th. (Turn 8660+)
+- Battle: Rocket Grunt (2F, 4,1). (Turn 8683+)
