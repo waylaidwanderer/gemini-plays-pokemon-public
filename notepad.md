@@ -12,10 +12,10 @@
 | State (S3,S2,S1) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
-| (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
+| (0, 0, 1) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
 | (0, 1, 0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
-| (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
-(Note: Switch 3 at 2,1; Switch 2 at 10,1; Switch 1 at 16,1)
+| (1, 0, 0) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
+(Note: S3=Left, S2=Middle, S1=Right)
 
 ## Strategy: Shutter Sequence Testing
 - Goal: Open path to the southeast (cols 14+). Requires (12,8) or (16,6) to be OPEN.
@@ -23,7 +23,7 @@
   - Switch 3 (2,1): ON (1)
   - Switch 2 (10,1): OFF (0)
   - Switch 1 (16,1): OFF (0)
-- Observed Shutters (Current): (16,6) OPEN. Others CLOSED.
+- Observed Shutters (Current): (2,6), (3,6), (12,8) OPEN. Others CLOSED.
 - Plan:
   1. Execute sequence 3-2-1:
      - Toggle Switch 3 (2,1) -> ON (Done).
