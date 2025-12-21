@@ -50,5 +50,6 @@
 
 # Area Notes: Goldenrod Dept. Store 4F
 - NPCs: Bug Catcher (ID 3), Gameboy Kid (ID 4).
+- Shop: Clerk at (13, 5) sells Vitamins (Protein, Iron, etc.).
 - Elevator Button: (3, 0).
-- Staircase: (2, 0).
+- Staircase: (2, 0), (12, 0), (15, 0).
