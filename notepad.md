@@ -3,7 +3,7 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7450)
+# Strategy: KIMCHI Training (Updated Turn #7451)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 19.
 - Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
@@ -29,7 +29,7 @@
 - Fighting vs Grass/Poison: Not Very Effective (e.g., Double Kick vs Oddish).
 
 # PC Storage (Box 1)
-- ROCKY (ONIX) Lv6, EGG (CLEFFA) Lv5, XFDW (MEOWTH) Lv16, FRITTATA (TOGEPI) Lv5, SHUCKIE (SHUCKLE) Lv15.
+- ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
 
 # Battle Strategies
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
