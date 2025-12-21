@@ -7,12 +7,13 @@
 - Strategy: Systematic testing of switches to determine shutter logic.
 
 ## Systematic Testing
-- Baseline (0, 0, 0):
-  - (2, 6): ?
-  - (10, 6): ?
+- Baseline (0, 0, 0): ALL SHUTTERS CLOSED.
+  - (2, 6): CLOSED (Visual confirmed Turn 9957)
+  - (10, 6): CLOSED (Collision confirmed Turn 9956)
   - (16, 6): CLOSED (Confirmed Turn 9954)
-  - (6, 8): ?
+  - (6, 8): CLOSED (Visual confirmed Turn 9957)
   - (12, 8): CLOSED (Confirmed Turn 9953)
+  - (6, 9): CLOSED (Visual confirmed Turn 9957)
 
 ### Test 1: Switch 1 (16, 1) -> ON
 - Status: Complete.
