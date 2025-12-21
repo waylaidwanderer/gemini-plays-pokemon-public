@@ -32,3 +32,8 @@
 - **Persian Statues:** They are cameras, not necessarily switches. The switch is a separate object.
 - Route Update: Moving West to (7, 9), then South through gap at (7, 10) to reach the lower section (Row 12).
 - Anticipating battle with Scientist at (18, 12) when returning East.
+## Global Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WARP_CARPET: Map transition.
+- STAIRS: Change floor.
