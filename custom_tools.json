@@ -1,160 +1,4 @@
 {
-  "find_path_v2": {
-    "description": "Finds the shortest path to a target coordinate. Handles all collision types correctly. 'PIT' tiles and warps are impassable unless they are the target. Water is traversable via Surf (HM03). Ledges are traversable in the correct direction.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import json\nfrom xml.etree import ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    grid = [[{'passable': True, 'type': 'UNKNOWN'} for _ in range(width)] for _ in range(height)]\n    player_pos = None\n    \n    impassable_types = {'WALL', 'BUOY', 'ROCK', 'BOOKSHELF', 'TV', 'RADIO', 'TOWN_MAP', 'STATUE', 'COUNTER', 'HEADBUTT_TREE', 'CUT_TREE', 'MART_SHELF', 'VOID'}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            has_player = tile.attrib.get('has-player') == 'true'\n            has_object = tile.attrib.get('has-object') == 'true'\n            \n            grid[y][x]['type'] = t_type\n            \n            if has_player:\n                player_pos = (x, y)\n            \n            if t_type in impassable_types or has_object:\n                grid[y][x]['passable'] = False\n            \n            if (is_warp or t_type == 'PIT') and (x != target_x or y != target_y):\n                grid[y][x]['passable'] = False\n            \n            if 'LEDGE_HOP' in t_type:\n                grid[y][x]['passable'] = False\n\n    if not player_pos:\n        print(\"[]\")\n        return\n        \n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        if curr_x == target_x and curr_y == target_y:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                target_tile = grid[ny][nx]\n                \n                is_move_valid = False\n                if target_tile['passable'] or (nx == target_x and ny == target_y):\n                    is_move_valid = True\n                \n                if target_tile['type'] == 'LEDGE_HOP_DOWN' and btn == 'Down':\n                    is_move_valid = True\n                elif target_tile['type'] == 'LEDGE_HOP_LEFT' and btn == 'Left':\n                    is_move_valid = True\n                elif target_tile['type'] == 'LEDGE_HOP_RIGHT' and btn == 'Right':\n                    is_move_valid = True\n                \n                if is_move_valid and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    print(\"[]\")\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-20T04:07:19.465Z",
-        "action_counter": 5144
-      },
-      {
-        "commit_message": "Enhanced ledge hop collision logic and added safe_overrides for Ecruteak Gym (6,7).",
-        "timestamp": "2025-12-20T04:59:36.981Z",
-        "action_counter": 5223
-      },
-      {
-        "commit_message": "Refined ledge logic and added safe_overrides for Ecruteak Gym. Added empty list fallback to prevent JSON errors.",
-        "timestamp": "2025-12-20T05:05:07.338Z",
-        "action_counter": 5237
-      },
-      {
-        "commit_message": "Refined ledge logic and added safe_overrides for Ecruteak Gym. Added empty list fallback to prevent JSON errors.",
-        "timestamp": "2025-12-20T05:07:22.098Z",
-        "action_counter": 5240
-      },
-      {
-        "commit_message": "Fixed JSON error by returning empty list on failure and added Ecruteak Gym override.",
-        "timestamp": "2025-12-20T05:10:35.758Z",
-        "action_counter": 5248
-      },
-      {
-        "commit_message": "Updated collision logic for Route 41 (WATER, BUOY, WHIRLPOOL) and treated 'unseen' as traversable for exploration. Changed return type to a list of button strings for autopress support.",
-        "timestamp": "2025-12-20T13:17:49.813Z",
-        "action_counter": 6109
-      },
-      {
-        "commit_message": "Fixing player tile detection and adding more traversable types. Returning button list for autopress support.",
-        "timestamp": "2025-12-20T13:19:01.069Z",
-        "action_counter": 6110
-      },
-      {
-        "commit_message": "Added handling for warps and pits as valid targets and included a commit message.",
-        "timestamp": "2025-12-20T13:36:54.139Z",
-        "action_counter": 6152
-      },
-      {
-        "commit_message": "Fixed the script to actually call the solution function.",
-        "timestamp": "2025-12-20T13:38:49.597Z",
-        "action_counter": 6156
-      },
-      {
-        "commit_message": "Updated ledge collision logic to match XML tile types (LEDGE_HOP_DOWN, etc.).",
-        "timestamp": "2025-12-20T14:06:09.137Z",
-        "action_counter": 6215
-      },
-      {
-        "commit_message": "Fixed ledge collision logic to check both current and target tiles for hop direction.",
-        "timestamp": "2025-12-20T14:06:49.828Z",
-        "action_counter": 6216
-      },
-      {
-        "commit_message": "Initial definition of find_path_v2 for robust water navigation.",
-        "timestamp": "2025-12-20T18:25:07.965Z",
-        "action_counter": 6765
-      },
-      {
-        "commit_message": "Refined for overworld navigation: returns coordinate objects and handles WHIRLPOOLs.",
-        "timestamp": "2025-12-20T18:39:31.705Z",
-        "action_counter": 6781
-      },
-      {
-        "commit_message": "Refined for overworld navigation: returns coordinate objects and handles WHIRLPOOLs.",
-        "timestamp": "2025-12-20T19:01:28.653Z",
-        "action_counter": 6823
-      },
-      {
-        "commit_message": "Simplified find_path_v2 to remove autopress_buttons logic as per overworld navigation restrictions and fixed return format.",
-        "timestamp": "2025-12-20T19:04:20.224Z",
-        "action_counter": 6827
-      },
-      {
-        "commit_message": "Fixed player detection and tile iteration to avoid using unsupported parent navigation in ElementTree.",
-        "timestamp": "2025-12-20T19:18:08.665Z",
-        "action_counter": 6852
-      },
-      {
-        "commit_message": "Refined find_path_v2 to handle water navigation correctly (treating it as impassable for land targets) and added an adjacent-tile fallback for impassable destinations.",
-        "timestamp": "2025-12-20T19:34:35.619Z",
-        "action_counter": 6889
-      },
-      {
-        "commit_message": "Fixed find_path_v2 to ensure the player's starting tile is never marked as impassable, preventing pathfinding failures when starting on warps or objects.",
-        "timestamp": "2025-12-20T19:38:26.504Z",
-        "action_counter": 6896
-      },
-      {
-        "commit_message": "Fix find_path_v2 to return button strings when autopress_buttons is true.",
-        "timestamp": "2025-12-20T20:30:31.812Z",
-        "action_counter": 6983
-      },
-      {
-        "commit_message": "Update description to clarify button array output for autopress_buttons.",
-        "timestamp": "2025-12-20T20:39:58.450Z",
-        "action_counter": 6994
-      },
-      {
-        "commit_message": "Fix: Removed restrictive water-to-land blocking logic as the player can Surf.",
-        "timestamp": "2025-12-20T21:42:54.616Z",
-        "action_counter": 7142
-      },
-      {
-        "commit_message": "Refined description and added a version comment to the script to ensure the update is accepted.",
-        "timestamp": "2025-12-20T21:59:58.773Z",
-        "action_counter": 7175
-      },
-      {
-        "commit_message": "Refined description and added a version comment to the script (v1.2) to ensure the update is accepted and clearly reflects water traversal capabilities.",
-        "timestamp": "2025-12-20T22:01:23.405Z",
-        "action_counter": 7177
-      },
-      {
-        "commit_message": "Updated description to accurately reflect that water is traversable via Surf and updated script version to 1.3.",
-        "timestamp": "2025-12-20T22:21:04.316Z",
-        "action_counter": 7196
-      },
-      {
-        "commit_message": "Fix find_path_v2 to include HEADBUTT_TREE and CUT_TREE in impassable tiles, and ensure WALL tiles are correctly handled. Added logic for land-to-water transitions requiring Surf.",
-        "timestamp": "2025-12-20T23:21:10.690Z",
-        "action_counter": 7323
-      },
-      {
-        "commit_message": "Refined tool to handle warp tiles correctly by allowing them as targets but treating them as impassable otherwise.",
-        "timestamp": "2025-12-21T01:27:02.512Z",
-        "action_counter": 7613
-      },
-      {
-        "commit_message": "Refined ledge traversal logic to allow movement in the correct direction.",
-        "timestamp": "2025-12-21T01:30:04.251Z",
-        "action_counter": 7621
-      }
-    ]
-  },
   "check_reachable_unseen": {
     "description": "Finds all unseen tiles adjacent to reachable walkable tiles. Relies on verified traversable tile types from the notepad. Useful for clearing the exploration alert. Returns a list of coordinate dictionaries, or buttons if autopress_buttons is true.",
     "input_schema": {
@@ -240,55 +84,6 @@
       }
     ]
   },
-  "find_path_v3": {
-    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items. Returns an empty list if no path is found.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y",
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                obj = tile.find('Object')\n                if obj is not None:\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T05:16:03.605Z",
-        "action_counter": 8076
-      },
-      {
-        "commit_message": "Refined find_path_v3 to ignore markers and handle collisions more accurately. Added MART_SHELF to impassable types.",
-        "timestamp": "2025-12-21T05:32:39.553Z",
-        "action_counter": 8101
-      },
-      {
-        "commit_message": "Refined find_path_v3: fixed collision logic (markers are not walls), improved error handling to prevent harness from trying to press error messages as buttons, and added more robust tile type checking.",
-        "timestamp": "2025-12-21T05:33:14.453Z",
-        "action_counter": 8102
-      },
-      {
-        "commit_message": "Fixed find_path_v3 and switch_pokemon_v1 to use input_data dictionary instead of json.loads(sys.argv[1]).",
-        "timestamp": "2025-12-21T05:35:00.082Z",
-        "action_counter": 8104
-      }
-    ]
-  },
   "switch_pokemon_v1": {
     "description": "Switches the active Pokémon to the one at the specified party index (0-5). Assumes the PKMN menu is open.",
     "input_schema": {
@@ -329,6 +124,32 @@
         "commit_message": "Fixed switch_pokemon_v1 to use input_data dictionary instead of json.loads(sys.argv[1]).",
         "timestamp": "2025-12-21T05:35:00.083Z",
         "action_counter": 8104
+      }
+    ]
+  },
+  "find_path_v4": {
+    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items. Returns an empty list if no path is found.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        # Find player position\n        player_tile = root.find(\".//Tile[Player]\")\n        if player_tile is None:\n            return []\n        start_x = int(player_tile.attrib['id'])\n        start_y = int(player_tile.getparent().attrib['id']) # getparent() is not standard in ET, but we can iterate\n        \n        # Manual find start_x, start_y since standard ET is limited\n        for row in root.findall('Row'):\n            curr_y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = curr_y\n                    break\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                obj = tile.find('Object')\n                if obj is not None:\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T06:11:17.104Z",
+        "action_counter": 8161
       }
     ]
   }
