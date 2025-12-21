@@ -32,3 +32,4 @@
 - Turn 9829: Attempting to TAKE Kenya's mail using slow_press to bypass potential Read loop and verify text in Bag. Sequence: A (Open), Downx3 (Mail), A (Select), Down (Take), A (Confirm).
 - Turn 9830: Selected 'NO' to "Send to PC?" prompt to keep mail in Bag for inspection. Used slow_press ["Down", "A"].
 - Turn 9833: Entering Pack to find Flower Mail. Plan: Write "Dark Cave leads to another road." (Mixed Case) to see if that works. Previous ALL CAPS attempt failed.
+- Turn 9836: Scrolling down in Items pocket to find Flower Mail. Current visible items: Hyper Potion, Full Heal, Ether, Bitter Berry, Berry. None are Flower Mail.
