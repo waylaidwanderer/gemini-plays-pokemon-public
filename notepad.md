@@ -30,6 +30,8 @@
 ## Goldenrod Dept. Store 2F
 - Clerk 1 (13, 5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
 - Clerk 2 (13, 6): Poke Ball, Great Ball, Escape Rope, Repel.
+## Goldenrod Dept. Store 3F
+- Clerk (6, 1): X Speed, X Special, X Defend, X Attack.
 ## Goldenrod Dept. Store 4F
 - Clerk (13, 5): Protein, Iron, Carbos, Calcium.
 ## Goldenrod Dept. Store 5F
