@@ -4,42 +4,28 @@
 - SHUTTER: Impassable when CLOSED (WALL), traversable when OPEN (FLOOR).
 
 # Puzzle: Goldenrod Underground Switch Puzzle
-- Started: Turn 9640
 - Goal: Reach the Underground Warehouse (Map 3_55).
+- Strategy: Systematic testing of switches to determine shutter logic.
 
-## Lessons Learned
-- Initial state and order of operations are critical.
-- Previous baseline was hallucinated; re-entering map to reset.
-- Memory of "3-2-1" solution must be verified against current reality.
+## Failed Attempts
+1. Attempt 1 (Turn 9901): Sequence 3-ON -> 2-ON -> 1-ON.
+   - Result: Shutters (10, 6), (16, 6), (6, 8) CLOSED. Path BLOCKED.
 
-## Plan
-1. Reset map by leaving and re-entering (Done Turn 9878).
-2. Visually verify EVERY shutter and switch state without interaction.
-3. Record TRUE baseline.
-4. Execute Switch 3 ON -> Switch 2 ON -> Switch 1 ON.
+## Switch Testing Log
+- Phase: Reset to Baseline (All OFF)
+- Turn 9911: Switch 2 -> OFF.
+- Turn 9917: Switch 3 -> OFF.
+- Turn 9920: Moving to Switch 1 (16, 1) to turn it OFF.
 
-## Verified Baseline (Default after fresh map entry)
-- All switches OFF.
-- Shutter (2, 6): OPEN
-- Shutter (10, 6): CLOSED
-- Shutter (16, 6): CLOSED
-- Shutter (12, 8): OPEN
-- Shutter (6, 8): CLOSED
-
-## Sequence Progress: 3-2-1
-- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890).
-- Step 2: Switch 2 (10, 1) -> ON (Done Turn 9898).
-- Step 3: Switch 1 (16, 1) -> ON (Done Turn 9901).
-- Sequence Complete: 3-2-1 executed. Proceeding to Warehouse entrance.
+## Verified Baseline (All Switches OFF) - PENDING VERIFICATION
+- Expected Shutter States (to be verified after Switch 1 is OFF):
+  - (2, 6): ?
+  - (10, 6): ?
+  - (16, 6): ?
+  - (12, 8): ?
+  - (6, 8): ?
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
-- Trainers: All defeated.
 - Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_53.
-- Rocket Girl: (19, 12).
-- Emergency Switch: (20, 11).
-
-# Switch Testing Log
-- Turn 9917: Turned Switch 3 OFF.
-- Next: Turn Switch 1 (16, 1) OFF.
-- Goal: Reset all switches to OFF to verify baseline state.
+- Key NPCs: Rocket Girl (19, 12), Emergency Switch (20, 11).
