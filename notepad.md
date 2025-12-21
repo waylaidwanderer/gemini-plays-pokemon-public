@@ -81,11 +81,12 @@
 - Training: Switch-training ICARUS is highly effective; he reached Lv15 and learned Quick Attack.
 - Navigation: Surfing requires updated exploration tools to handle water tiles.
 
-# Lessons: Turns 7650-7800
+# Lessons: Turns 7650-7830
 - Capturing: Burn status is efficient but risky for low-HP targets like Red Gyarados. Sleep is safer.
 - Fly Map: Navigation requires precise cursor movement; check intermediate states to verify cursor position.
 - False Constraints: If a goal seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
 - Efficiency: Use Fly to bypass long routes when the party is weak.
+- Security Mechanics: Column 24 in the Rocket Base B1F triggers intruder alerts via cameras at (24, 1) and (24, 5).
 
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
