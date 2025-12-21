@@ -40,5 +40,5 @@
   - Feraligatr (Lv32): Defeated by Calcifer (Headbutt).
   - Haunter (Lv30): Current. Strategy: Gneiss (Lv40) Magnitude.
 ## Battle Observations
-- **Gen 2 Move Menu**: The menu WRAPS (pressing Up at index 0 goes to index 3). It also remembers its position from the last turn.
+- **Gen 2 Move Menu**: The menu WRAPS. However, it RESETS to index 0 every time the FIGHT menu is opened. My previous "reset" logic was actually causing misclicks by moving the cursor away from 0.
 - **Switching Strategy**: Switching a Pokémon out clears the Curse status effect.
