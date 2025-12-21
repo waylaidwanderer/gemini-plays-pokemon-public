@@ -23,3 +23,5 @@
 - **Mail:** Prevents deposit. PC Full -> Mail goes to Bag. Must hold nothing to attach.
 - **Inputs:** Pressing Start in Mail menu triggers Printer Error. Use B.
 - **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
+- **Correction:** Turn 9724 - Accidental menu navigation occurred in Turn 9723 due to premature closure of Mail interface. Message is likely "DARK CAV".
+- **Action:** Taking Mail from Kenya to fix the typo.
