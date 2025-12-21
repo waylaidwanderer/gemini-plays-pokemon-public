@@ -45,3 +45,18 @@
 
 # Progress Log
 - Turn 8460: Entered Gym. Position (4, 17). Heading to Gym Guide.
+
+# Reflection (Turn 8465)
+- Immediate Execution: Completing the Pokémon switch started on turn 8464.
+- Notepad Hygiene: Added Gym strategy and progress log. Cleaned up base connectivity notes.
+- Map Hygiene: Marked Gym Guide and trainers. Will mark more as discovered.
+- Automation: Using manual buttons for the overworld party menu as custom tools are battle-focused.
+- Goal Clarity: Goals are focused on the Glacier Badge.
+- Error Analysis: Corrected turn number mismatch. Being cautious with menu navigation to avoid mixing button types.
+- Root Hypothesis: The ice puzzle requires finding a path to Pryce. Simple hypothesis: sliding to walls will eventually lead there.
+
+# Mahogany Gym Navigation
+- Starting from (7, 16).
+- Unseen tiles at Y=11 suggest a large area North.
+- Ice tiles (🧊) at (1, 12), (0, 12), etc.
+- Goal: Reach Pryce at the back of the gym.
