@@ -39,3 +39,4 @@
   - Golbat (Lv30): Defeated by Calcifer.
   - Feraligatr (Lv32): Defeated by Calcifer (Headbutt).
   - Haunter (Lv30): Current. Strategy: Gneiss (Lv40) uses Magnitude.
+- Rival Malice Battle (Turn 9045): Gneiss (Lv40) vs Haunter (Lv30). Haunter used Curse. Gneiss is cursed. Strategy: Magnitude to KO Haunter quickly.
