@@ -273,5 +273,28 @@
         "action_counter": 8076
       }
     ]
+  },
+  "switch_pokemon_v1": {
+    "description": "Switches the active Pokémon to the one at the specified party index (0-5). Assumes the PKMN menu is open and the cursor is at the first Pokémon (index 0).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_index": {
+          "type": "integer",
+          "description": "The 0-indexed position of the Pokémon to switch to (0-5)."
+        }
+      },
+      "required": [
+        "target_index"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        target_index = int(data['target_index'])\n        \n        buttons = []\n        for _ in range(target_index):\n            buttons.append(\"Down\")\n        \n        # Press A to select the Pokemon\n        buttons.append(\"A\")\n        # Press A again to select \"SHIFT\" (or \"SWITCH\")\n        buttons.append(\"A\")\n        \n        return buttons\n    except Exception as e:\n        return [str(e)]\n\nprint(json.dumps(solve()))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T05:20:50.975Z",
+        "action_counter": 8084
+      }
+    ]
   }
 }
