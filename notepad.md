@@ -27,10 +27,11 @@
 - Switch Room Hint: "Change the order of switching. That'll change the ways the shutters open and close."
 - Puzzle State: Switch 1 Unknown, Switch 2 OFF, Switch 3 OFF.
 - Switch 3 OFF -> Opened shutters at (10, 6), (10, 7).
-- Switch 2 OFF -> Closed shutter at (10, 6).
-- Current Shutter Status: (10, 6) CLOSED, (10, 7) OPEN.
+- Switch 2 OFF -> Closed shutters at (10, 6) and (6, 8). (10, 7) also appears CLOSED.
+- Current Shutter Status: (6, 8) CLOSED, (10, 6) CLOSED, (10, 7) CLOSED, (12, 8) CLOSED.
 - Note: Order of flipping switches matters.
-- Gneiss is healed (112/112). Calcifer is low (36/135). Out of Hyper Potions.
+- Gneiss is healthy (112/112). Calcifer is low (36/135). Out of Hyper Potions.
+- Strategy: Identify the function of all 3 switches, then find the sequence to open the path to the southern warehouse entrance.
 
 # Switch Room Puzzle Observations (Map 3_54)
 - Switch 3 (2, 1) turned OFF: Opened shutters at (10, 6), (10, 7).
