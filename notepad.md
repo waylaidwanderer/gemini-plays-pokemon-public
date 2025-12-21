@@ -37,9 +37,10 @@
 
 # Password Log
 - Password 1: RATICATE TAIL (from Grunt at 7, 14)
-- Password 2: [Pending] (Talk to Rocket Girl at 21, 7)
+- Rocket Girl (21,7): Ekans (Lv18), Gloom (Lv??). Password 2.
 
 # Trainer Roster (B3F)
 - Scientist Mitch (11,15): Ditto (Lv24).
 - Rocket Grunt (7,14): Raticate (Lv19). Password 1.
 - Scientist Ross (23,11): Koffing (Lv22), Koffing (Lv22).
+- Rocket Girl (21,7): Ekans (Lv18), Gloom (Lv??). Password 2.
