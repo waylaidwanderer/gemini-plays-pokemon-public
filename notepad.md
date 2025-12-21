@@ -4,11 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Select Kenya for Delivery.
-  1. **Status:** In Party Menu, cursor on Kenya.
-  2. **Step 1:** Press A to select Kenya.
-  3. **Step 2:** Handle subsequent prompts (Yes/No or Menu).
-  4. **Step 3:** Receive Reward.
+- **Current Action:** Reset Mail (Remove Period).
+  1. **Status:** Failed ("This MAIL isn't for me.").
+  2. **Step 1:** Close Text & Open Party (B -> Start -> A).
+  3. **Step 2:** Take Mail from Kenya.
+  4. **Step 3:** Give Mail & Type: "DARK CAVE leads to another road" (Caps, No Period).
+  5. **Step 4:** Deliver. If fails, abandon quest.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
