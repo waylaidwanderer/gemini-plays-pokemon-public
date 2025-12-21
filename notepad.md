@@ -1,30 +1,34 @@
 # Strategy: Lake of Rage Investigation
-- Goal: Locate the source of the "rampage" (Red Gyarados).
-- Path: Follow Route 43 North to Lake of Rage.
+- Starting Turn: 7622
+- Primary Goal: Locate the source of the "rampage" (Red Gyarados).
+- HOW:
+    1. Travel North on Route 43 through the tall grass or via the water (Surf).
+    2. Defeat any trainers blocking the path (e.g. Pokemaniac Brent).
+    3. Enter the Lake of Rage and search for the Red Gyarados.
+    4. Speak to Lance (if present) to coordinate the investigation.
 - Status: Gatehouse passage unlocked (paid ¥1000 toll). ICARUS moved to lead.
-- Method: Lead with ICARUS (Lv11 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
+- Method: Lead with ICARUS (Lv12 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
 - Contingencies: If blocked, search for Lance or explore water with Surf.
 
+# Tile Mechanics
+- FLOOR: Verified traversable. Standard indoor/outdoor ground.
+- WALL: Verified impassable. Includes trees, fences, and building walls.
+- WATER: Verified traversable only with Surf (HM03) and Fog Badge.
+- TALL_GRASS / LONG_GRASS: Verified traversable. Triggers wild encounters.
+- MART_SHELF: Verified impassable.
+- COUNTER: Verified impassable. Interacting from an adjacent tile allows talking to NPCs behind it.
+- WARP_CARPET_DOWN / WARP_CARPET / LADDER / STAIRS / DOOR: Verified map transition.
+- HEADBUTT_TREE: Verified impassable. Can be interacted with using Headbutt.
+- CUT_TREE: Verified impassable. Can be removed using Cut (HM01) and Hive Badge.
+- PC: Verified impassable. Interacting from below (facing UP) allows access.
+- LEDGE_HOP_DOWN: Verified one-way passage (Down only).
+
 # Party Training Status
-- ICARUS (PIDGEY): Lv12. Current Lead for EXP sharing.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv35.
 - Calcifer (TYPHLOSION): Lv36.
 - Ravioli (KRABBY): Lv10.
 - Blarney (SUDOWOODO): Lv20.
-
-# Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Traversable only with Surf (HM03) and Fog Badge.
-- TALL_GRASS: Traversable. Triggers wild encounters.
-- MART_SHELF: Impassable.
-- COUNTER: Impassable. Interacting from an adjacent tile allows talking to NPCs behind it.
-- WARP_CARPET_DOWN / WARP_CARPET / LADDER / STAIRS / DOOR: Map transition.
-- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
-- CUT_TREE: Impassable. Can be removed using Cut (HM01) and Hive Badge.
-- PC: Impassable. Interacting from below (facing UP) allows access.
-- LEDGE_HOP_DOWN: One-way passage (Down only).
 
 # General Mechanics & Tools
 - Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
@@ -48,6 +52,7 @@
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
 - Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
 - Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
+- Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
 
 # PC Storage (Box 1)
 - ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
@@ -55,11 +60,3 @@
 # Discovered Locations
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
-
-# Reflection Turn #50 Lessons
-- Methodical progression: Always clear the exploration alert by verifying reachable unseen tiles.
-- Tool hygiene: Defined `check_reachable_unseen` to automate exploration checks.
-- Battle efficiency: ICARUS training is the priority for wild encounters.
-- Goal status: Primary goal (Lake of Rage) is active. Path is clear.
-- Verification: Root hypotheses for recent puzzles were correct. No major errors to report.
-- Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
