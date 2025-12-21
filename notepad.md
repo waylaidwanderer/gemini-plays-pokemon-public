@@ -35,3 +35,4 @@
 - Turn 10036: Standing on stairs at (7, 3) and pressing A did nothing. Attempting to re-enter the tile to trigger the warp.
 - Turn 10038: Stairs at (7, 3) in Mahogany Mart are inactive/locked. Likely requires an event trigger (Gyarados?).
 - Turn 10046: Entered Route 43. Wade called (Bug Catching Contest today).
+- Turn 10057: Defeated Picnicker Tiffany (Clefairy).
