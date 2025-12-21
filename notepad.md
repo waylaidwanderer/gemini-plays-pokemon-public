@@ -42,3 +42,6 @@
   5. Write Message.
 - **Manual Mail Attempt:** Started Turn 9405.
 - **Hypothesis:** Manual mail removal and writing is safer than tool use.
+- **Observation:** Menu option is "ITEM", not "MAIL".
+- **Hypothesis:** Kenya is holding a regular item (e.g. Berry) preventing Mail attachment.
+- **Action:** Select ITEM -> TAKE to clear the slot.
