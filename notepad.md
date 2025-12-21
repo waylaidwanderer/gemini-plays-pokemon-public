@@ -9,13 +9,14 @@
 - **Status:** Preparing New Mail (Attempt #3).
 - **Hypothesis:** Mail content is case-sensitive. Original text: "Dark Cave leads to another road".
 - **Plan:**
-    1. Give Flower Mail to Kenya (Current Step).
+    1. Select Kenya (Current Step).
     2. Type: "Dark Cave leads to another road" (Mixed Case).
     3. Deliver to Fisher.
+    4. **Fallback:** If rejected, talk to Wade (Route 31) for clues.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps) and "DARK CAVE".
-- **Wade (Route 31):** Called (Turn 9576). Waiting on Route 31.
+- **Wade (Route 31):** Called (Turn 9576). Waiting on Route 31. He might have the answer!
 - **Dark Cave:** Connects Route 31, 45, 46. Needs Flash.
 
 ## Mechanics Log
