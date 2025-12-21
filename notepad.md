@@ -5,16 +5,17 @@
 3. Find the Director (5F/Basement).
 4. Pass the quiz on 1F for the Radio Card.
 5. POST-SWEEP: Re-verify 1F for any missed trainers.
-6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP, as Typhlosion's Special Attack is superior. Use Headbutt against Normal/Psychic types.
+6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP. Use Headbutt against Normal/Psychic types.
 
 ## Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
 - **Card Key Slot**: Located at (14, 2) on 3F. Requires Card Key.
-- **Current Goal**: Reach 5F and rescue the Director.
+- **Current Goal**: Find a way to the right side of the tower to reach the Director on 5F.
 
 ## Battle Progress
-- **Status**: 1F-3F cleared. 4F sweep in progress.
-- **Current Engagement**: Rocket Grunt (5, 5). Zubat/Golbat defeated. Grimer next. Calcifer is confused.
+- **Status**: 1F-3F partially cleared. 4F sweep in progress (left side).
+- **4F Defeated**: Scientist Rich (4, 2), Rocket Grunt (5, 5).
+- **Remaining 4F**: Rocket Girl (12, 4), Rocket Grunt (14, 1).
 
 # Global Knowledge
 ## Tile Mechanics
