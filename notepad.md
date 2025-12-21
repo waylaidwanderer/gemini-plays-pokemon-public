@@ -12,6 +12,7 @@
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
 - **Card Key Slot**: Located at (14, 2) on 3F. Requires Card Key.
 - **Partition Mystery**: 4F is split; current stairs don't reach the Director. 3F Shutter blocks the way.
+- **Shutter Locations**: 3F (14, 2), 4F (11, 4), 5F (14, 3) - All blocked by Card Key requirement.
 - **Card Key Search**: Not found in Tower. Heading to Goldenrod Underground.
 
 ## Battle Progress
@@ -19,7 +20,7 @@
 - **4F Defeated**: Scientist Rich (4, 2), Rocket Grunt (5, 5).
 - **Remaining 4F**: Rocket Girl (12, 4), Rocket Grunt (14, 1) [Behind Shutter/Partition].
 - **Turn 8881**: Sweep complete. Heading to Underground for Card Key.
-- **Turn 8884**: Current turn. Navigating to 1F Lobby.
+- **Turn 8885**: Current turn. Navigating to 1F Lobby to exit tower.
 
 # Global Knowledge
 ## Tile Mechanics

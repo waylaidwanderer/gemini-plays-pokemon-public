@@ -132,12 +132,17 @@
         "map_ids"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef run(input_data):\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return\n\n    results = {}\n    for mid in input_data.get('map_ids', []):\n        map_node = root.find(f\".//Map[@id='{mid}']\")\n        if map_node is not None:\n            name = map_node.get('name')\n            warps = []\n            for row in map_node.findall('Row'):\n                y = row.get('id')\n                for tile in row.findall('Tile'):\n                    x = tile.get('id')\n                    warp = tile.find('Warp')\n                    if warp is not None:\n                        warps.append({\n                            'x': int(x),\n                            'y': int(y),\n                            'entry': int(warp.get('entry_point'))\n                        })\n            results[mid] = {'name': name, 'warps': warps}\n    print(json.dumps(results, indent=2))\n\nrun(input_data)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef run(input_data):\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return\n\n    results = {}\n    map_ids = input_data.get('map_ids', [])\n    \n    # Check all maps in the XML (root and children)\n    for map_node in root.iter('Map'):\n        mid = map_node.get('id')\n        if mid in map_ids:\n            name = map_node.get('name')\n            warps = []\n            for row in map_node.findall('Row'):\n                y = row.get('id')\n                for tile in row.findall('Tile'):\n                    x = tile.get('id')\n                    warp = tile.find('Warp')\n                    if warp is not None:\n                        warps.append({\n                            'x': int(x),\n                            'y': int(y),\n                            'entry': int(warp.get('entry_point'))\n                        })\n            results[mid] = {'name': name, 'warps': warps}\n    print(json.dumps(results, indent=2))\n\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-21T12:56:21.285Z",
         "action_counter": 8882
+      },
+      {
+        "commit_message": "Refined to handle root <Map> element correctly by using root.iter('Map').",
+        "timestamp": "2025-12-21T12:58:59.126Z",
+        "action_counter": 8885
       }
     ]
   }
