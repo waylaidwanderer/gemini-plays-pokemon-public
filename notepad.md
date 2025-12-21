@@ -36,4 +36,4 @@
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
 
 # Reflection & Insights
-- **Turn 8785 (50-turn Reflection)**: 1F-3F cleared. 4F sweep in progress. Tools (battle_move_selector_v2) refined. Notepad reorganized and pruned. Strategy remains: rescue Director on 5F.
+- **Current Status**: Radio Tower sweep (4F). Goal: Rescue Director on 5F. Strategy: Floor-by-floor clearing.
