@@ -24,6 +24,6 @@
 - **Hypothesis:** A Warp Panel on B1F might lead to a restricted area or trigger the next event. Checking Warp Panel at (5, 15).
 - **Observation:** B1F is fully connected (East/West joined by gap at 9,4).
 - **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
-- **Blocker:** Unknown trigger for B2F locked doors.
-- **Immediate Plan:** Finish battle, then consult Game Mechanics Expert.
+- **Blocker:** B2F Door likely requires a different password.
+- **Immediate Plan:** Go to B3F and try to open the Boss Room with current passwords.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
