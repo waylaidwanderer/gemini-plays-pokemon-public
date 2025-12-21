@@ -4,12 +4,14 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Find Flower Mail in Pack.
-  1. **Status:** In Pack. Flower Mail missing from bottom.
-  2. **Step 1:** Scroll to Top of List (Up x15).
-  3. **Step 2:** Locate Flower Mail.
-  4. **Step 3:** Select -> Give -> Kenya.
-  5. **Step 4:** Type: "DARK CAVE leads to another road" (Caps, No Period).
+- **Current Action:** Check Kenya for Mail.
+  1. **Status:** Flower Mail missing from Bag.
+  2. **Step 1:** Exit Pack (A on Cancel -> B to exit menu if needed).
+  3. **Step 2:** Enter Party Menu (From Start Menu: Up -> A).
+  4. **Step 3:** Select Kenya (Down x5 -> A).
+  5. **Step 4:** Check Item Status.
+     - If Holding Mail: Select ITEM -> TAKE.
+     - If Empty: Go to Violet City to buy Mail.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
