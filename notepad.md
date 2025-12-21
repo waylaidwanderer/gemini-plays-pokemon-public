@@ -66,3 +66,5 @@
 - Resuming navigation to North Gatehouse to find Webster. Pathing via column 18 to avoid Cooltrainer.
 - Turn 9878: Path blocked by Youngster at (19, 18). Shifting to column 18 to bypass him.
 - Destination: North Gatehouse (19, 1).
+- Turn 9879: Shifting back to column 19 (Right) to avoid Lass at (17, 10) who oscillates between 17 and 18.
+- Path: Right to (19, 11), then Up to North Gate (19, 1).
