@@ -21,11 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Battling Rocket Executive (Female) at B2F Transmitter Room entrance (14, 14).
-- **Situation:** Opponent's Gloom (Lv 23) is active. Muscle (Lv 46) used Rock Smash (Not Very Effective) by mistake.
-- **Correction:** Cursor memory caused Rock Smash selection. Correcting to Dig.
-- **Action:** Use Dig (Neutral damage, 60 Power).
-- **Objective:** Disable the radio signal by defeating all Electrodes/Voltorbs inside.
+- **Status:** Defeated Rocket Executive. Lance confirms the hideout is cleared.
+- **Location:** Inside B2F Transmitter Room (14, 11).
+- **Objective:** Disable the radio signal by defeating the Electrodes/Voltorbs.
+- **Targets:**
+    - West Side: Voltorbs at (7, 5), (7, 7), (7, 9).
+    - East Side: Voltorbs at (22, 5), (22, 9).
+- **Plan:** Clear West side first, then East side. The split starts around (14, 10).
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
