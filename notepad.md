@@ -33,6 +33,6 @@
 - Current Battle: Scientist Ross sent out a second Koffing.
 - Action: Decline switch, then attack.
 - Scientist Ross (Defeated). Dialogue: "Experiment success... loss means nothing." No password yet.
-- Scientist Mitch at (13, 15) (Defeated). Dialogue: "Thinking is my strong suit...". Getting password.
+- Scientist Mitch at (13, 15) (Defeated). Dialogue: "Thinking is my strong suit...". NO PASSWORD.
 - Rocket Girl at (21, 7). Password 1: "SLOWPOKETAIL". Need Password 2.
-- Plan: Get password from Mitch, then open Boss room.
+- Plan: Explore West B3F via Y=12 corridor to find the 2nd password.
