@@ -46,7 +46,12 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Anomaly:** 'FLY' option missing from Mistral's menu on Route 31.
-  - Possible Causes: Glitch, Tile restriction, or Menu refresh needed.
-  - Plan: Close menus, move player, retry. If fails, check Dark Cave route.
+- **Anomaly Resolved:** 'FLY' was missing because I accidentally selected Garnet (Slot 3) instead of Mistral (Slot 5).
+- **Plan:**
+  1. Open Party Menu.
+  2. Select Mistral (Slot 5).
+  3. Select FLY.
+  4. Fly to Violet City.
+  5. Buy Flower Mail.
+  6. Deliver to Fisher.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
