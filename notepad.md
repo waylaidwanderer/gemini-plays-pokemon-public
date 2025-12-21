@@ -6,13 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Finalizing Mail "DARK CAVE".
+- **Status:** Restarting Mail Process.
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Cursor on 'D'. Text is "DARK CAV".
+- **Current State:** In Party Menu (Kenya selected).
 - **Next Steps:**
-    1. Move Right to 'E' and Select.
-    2. Move Down/Right to 'END' and Confirm.
-    3. Exit Menu and Deliver.
+    1. Open Pack (Main Menu -> Pack).
+    2. Select Flower Mail.
+    3. Give to Kenya.
+    4. Type "DARK CAVE" (Carefully!).
+    5. Deliver to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps).
