@@ -70,3 +70,8 @@
 - Elevator Button: (3, 0).
 - Vending Machines: (8, 1), (9, 1), (10, 1), (11, 1).
 - Staircase: (13, 0).
+
+# Switch Room Strategy (Verified by Agent)
+- Standard Solution: 3-2-1 sequence.
+- Current Progress: Switch 3 ON, Switch 2 ON.
+- Next Step: Activate Switch 1 (16, 1) to clear the path to the stairs.
