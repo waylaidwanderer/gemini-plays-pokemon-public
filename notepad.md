@@ -53,6 +53,7 @@
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
 - Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
 - Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
+- Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7).
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
 
 # PC Storage (Box 1)
