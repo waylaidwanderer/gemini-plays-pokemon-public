@@ -15,7 +15,7 @@
     - Rocket Girl (10, 3): Arbok Lv26 - Defeated.
     - Rocket Grunt (8, 4): 4 Rattatas (Lv21-23) - Defeated.
     - Rocket Grunt (4, 1): 2 Zubats (Lv26) - Defeated.
-    - Rocket Grunt (1, 4): Grimer Lv23 x2 - In Progress (Turn 8692+).
+    - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - In Progress (Turn 8692+).
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
