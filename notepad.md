@@ -10,8 +10,13 @@
 - Baseline (0, 0, 0): (2,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN.
 
 ### Test 1: Switch 1 (16, 1) -> ON
-- Status: Started Turn 9931.
-- Observations: PENDING.
+- Status: Observation phase.
+- Observations:
+  - (16, 6): OPEN (Confirmed standing on it Turn 9937).
+  - (12, 8): Moving to verify.
+  - (10, 6): ?
+  - (2, 6): ?
+  - (6, 8): ?
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
