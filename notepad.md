@@ -20,17 +20,17 @@
 ## Strategy: Shutter Sequence Testing
 - Goal: Open path to the southeast (cols 14+). Requires (12,8) or (16,6) to be OPEN.
 - Current Switch States:
-  - Switch 3 (2,1): OFF (0)
+  - Switch 3 (2,1): ON (1)
   - Switch 2 (10,1): OFF (0)
   - Switch 1 (16,1): OFF (0)
-- Observed Shutters (Current): (2,6) CLOSED, (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) CLOSED. (State 0,0,0 verified)
+- Observed Shutters (Current): (16,6) OPEN. Others CLOSED.
 - Plan:
   1. Execute sequence 3-2-1:
-     - Toggle Switch 3 (2,1) -> ON.
+     - Toggle Switch 3 (2,1) -> ON (Done).
      - Toggle Switch 2 (10,1) -> ON.
      - Toggle Switch 1 (16,1) -> ON.
   2. Navigate to southeast warehouse entrance.
-- Current Step: Sequence Step 1 - Toggling Switch 3 to ON.
+- Current Step: Sequence Step 2 - Moving to Switch 2 to toggle to ON.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
