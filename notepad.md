@@ -30,8 +30,7 @@
   - (16, 6), (12, 8), (2, 6): CLOSED (No change).
 
 ### Test 3: Switch 3 (2, 1) -> ON
-- Status: Moving to turn Switch 3 ON.
-- Observations: PENDING.
+- Status: Testing isolation. Started Turn 9985.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
