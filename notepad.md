@@ -46,17 +46,20 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Verify Kenya's Mail.
-  1. **Status:** In Party Menu -> Kenya -> Options.
-  2. **Action:** Navigating to MAIL option (Down x3).
-  3. **Next:** Select READ to verify text.
-  4. **Contingency:**
-     - If text is "DARK CAVE leads to another road.", deliver it.
-     - If text is garbage/incomplete, TAKE mail and restart composition.
+- **Current Action:** Fix Kenya's Mail.
+  1. **Status:** Mail reads "DARK CAVE" (Incomplete).
+  2. **Action:** TAKE mail to reset it.
+  3. **Plan:**
+     - Select TAKE (Down, A).
+     - Exit Party Menu (B).
+     - Open Pack.
+     - Give Flower Mail to Kenya.
+     - Type: "DARK CAVE leads to another road." (Carefully).
 
 ## Maintenance
 - **Tool Fix:** Manual typing requires extreme caution.
 
-## Reflection (Turn 9292)
-- **State:** Selecting MAIL from Kenya's menu.
-- **Next:** Verify message content.
+## Reflection (Turn 9293)
+- **Observation:** Mail text verified as "DARK CAVE". Incorrect/Incomplete.
+- **Cause:** Likely hit "END" prematurely during previous typing.
+- **Next:** Take mail, retry composition.
