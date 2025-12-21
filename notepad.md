@@ -6,8 +6,6 @@
     2. Return to B2F to unlock the boss's room.
     3. Shut down the transmitter.
 
-# Status: Exploring Team Rocket Base B3F. GNEISS leading.
-
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F, B3F)
 - WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F, B2F, B3F)
