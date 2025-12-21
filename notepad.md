@@ -44,3 +44,4 @@
 - **Current Plan:** Give fresh Flower Mail to Kenya.
 - **Password:** "DARK CAVE leads to another road" (Exact).
 - **Next Step:** Write mail using `write_mail_safe` tool.
+- **Hematite (Pinsir):** Apparently holding Mail (prevented normal deposit). using "MOVE PKMN W/O MAIL" to bypass.
