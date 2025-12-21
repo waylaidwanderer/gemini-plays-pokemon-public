@@ -5,22 +5,15 @@
 - **LADDER**: Warp point.
 - **NPC/Item Sprites**: Act as walls and stop sliding movement.
 
-# Mahogany Gym (2_2) - Glacier Badge
-- **Leader:** Pryce (Ice-type) at (5, 3).
-- **Started:** Turn 8460.
-- **Strategy:** Lead with Calcifer (Typhlosion) for Fire-type advantage.
-- **Trainer Data:**
-  - Skier Clarissa (2_2, 9, 17): Dewgong Lv28. [DEFEATED]
-  - Boarder Brad (2_2, 5, 9): Swinub Lv26. [DEFEATED]
-  - Skier Roxanne (2_2, 4, 6): Jynx Lv28. [DEFEATED]
-  - Boarder Ronald (2_2, 2, 17): Seel Lv24, Dewgong Lv25. [DEFEATED]
-  - Boarder Douglas (2_2, 2, 4): Shellder Lv24, Cloyster Lv25. [DEFEATED]
+# Mahogany Gym (2_2) - COMPLETED
+- **Leader:** Pryce defeated (Turn 8583).
+- **Reward:** Glacier Badge, TM16 (Icy Wind).
+- **Trainer Data:** All trainers defeated.
 
-# Leader Pryce Battle (Turn 8557)
-- Pryce's Roster:
-  1. Seel Lv27 (Defeated, Turn 8565). Moves: Icy Wind, Growl.
-  2. Dewgong Lv29 (Defeated, Turn 8577). Moves: Headbutt, Growl.
-  3. Piloswine Lv31 (In Battle, Turn 8581). Moves: (Unknown).
+# Strategy (HOW)
+1. Exit Mahogany Gym.
+2. Check for plot updates (Radio Tower/Professor Elm).
+3. Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
 
 # Lessons Learned
 - Whirlpool requires Glacier Badge to use out of battle.
