@@ -24,16 +24,13 @@
 
 ## Quest Log
 - **Turn 9940:** Arrived in Ecruteak City.
+- **Turn 10046:** Entered Route 43.
+- **Turn 10077:** Exploring Route 43. Investigating Lake of Rage.
 
 ## Past Quests (Failed/Completed)
 - **Deliver Kenya:** Abandoned. Fisher rejected forged mail.
-- Turn 9994: Defeated Pokemaniac Shane at (47, 8).
-- Turn 10006: Defeated Hiker Benjamin.
-- Turn 10018: Gramps in Mahogany Town mentioned a Gyarados rampage at the Lake of Rage.
-- Turn 10024: Entered Mahogany Mart (Souvenir Shop). Suspicious layout.
-- Turn 10032: Mahogany Mart inventory check: sells Slowpoketails (¥9800), TinyMushroom, Poke Ball, Potion. No Rage Candy Bar.
-- Turn 10036: Standing on stairs at (7, 3) and pressing A did nothing. Attempting to re-enter the tile to trigger the warp.
-- Turn 10038: Stairs at (7, 3) in Mahogany Mart are inactive/locked. Likely requires an event trigger (Gyarados?).
-- Turn 10046: Entered Route 43. Wade called (Bug Catching Contest today).
-- Turn 10057: Defeated Picnicker Tiffany (Clefairy).
-- Turn 10075: Defeated Pokemaniac Ron (Nidoking). Muscle grew to Lv 42.
+- **Trainers Defeated:** Shane (Rt 42), Benjamin (Rt 42), Tiffany (Rt 43), Ron (Rt 43).
+- **Discoveries:**
+    - Gyarados rampage at Lake of Rage (Gramps).
+    - Mahogany Mart suspicious (Stairs locked).
+    - Bug Catching Contest today.
