@@ -79,3 +79,5 @@
 - Turn 9886: Correcting menu navigation. Currently in Muscle's menu.
 - Action: B (Exit), Down x4 (Select Kenya), A (Open Menu).
 - Goal: Reach Kenya's menu to remove the mail.
+- Turn 9887: In Kenya's menu. Selecting 'MAIL' option to remove the letter.
+- Sequence: Down x3 -> A.
