@@ -22,8 +22,8 @@
 - Goal: Open path to the southeast Warehouse Entrance.
 - Start Turn: 10284
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Current Progress: S3 toggled ON. Moving to S2.
-- Verified Shutter States (1,0,0): (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN. (Verified turn 10285)
+- Current Progress: S3 toggled ON. Next: Move to Switch 2.
+- Verified Shutter States (1,0,0): Pending report.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
