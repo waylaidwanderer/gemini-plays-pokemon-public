@@ -60,3 +60,9 @@
 - Shop: Battle Collection (X Items, etc. - to be verified).
 - Staircases: (12, 0) to 2F, (15, 0) to 4F.
 - Directory: (14, 0) - "3F BATTLE COLLECTION - For Victory Seekers".
+
+# Area Notes: Goldenrod Dept. Store 6F
+- NPCs: Super Nerd (ID 2).
+- Elevator Entrance: (2, 0) - Leads to 11_17.
+- Elevator Button: (3, 0).
+- Vending Machines: [To be discovered]
