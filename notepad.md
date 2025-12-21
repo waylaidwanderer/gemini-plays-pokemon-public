@@ -9,10 +9,10 @@
 - Logic: Order of switches matters. 3-2-1 is the standard solution from all-OFF state.
 - Start Turn: 9640
 
-## Switch Status (Turn 9766)
+## Switch Status (Turn 9772)
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🔴 OFF (Moving to turn ON)
+- Switch 1 (16, 1): 🟢 ON (Just turned ON)
 
 ## Shutter States (Current: [ON, ON, OFF])
 - (2, 6): FLOOR (OPEN)
