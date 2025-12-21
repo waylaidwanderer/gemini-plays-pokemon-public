@@ -6,15 +6,12 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-1.  **Status:** At Violet City PC (Need to clear mailbox).
-2.  **Issue:** Fisher rejected mail. Possible reasons:
-    - Text content (Missing period?).
-    - Wrong Mail type (Need Flower Mail?).
-    - PC Mailbox Full (Prevents holding mail to swap).
+1.  **Status:** PC Purge Complete.
+2.  **Next Step:** Rewrite Mail.
 3.  **Action Plan:**
-    - **Step 1:** Mass delete mail in PC to create buffer.
-    - **Step 2:** Move Kenya's current mail to PC.
-    - **Step 3:** Equip fresh Flower Mail (Buy if needed).
+    - **Step 1:** Exit PC.
+    - **Step 2:** Remove old mail from Kenya (Send to PC).
+    - **Step 3:** Equip fresh Flower Mail.
     - **Step 4:** Write "DARK CAVE leads to another road." (With period).
     - **Step 5:** Return to Fisher.
 
