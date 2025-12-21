@@ -48,3 +48,6 @@
 - Fly Map Experiment: 'Left' from Cherrygrove did nothing. 'Up' from New Bark went to Cherrygrove.
 - Hypothesis: 'Up' cycles forward through the town list (New Bark -> Cherrygrove -> Violet -> ...).
 - Action: Pressing 'Up' x3 to verify sequence (Expected: Violet -> Azalea -> Goldenrod).
+- Fly Map Logic Confirmed: 'Up' cycles through the town list in standard Johto order (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod).
+- Prediction: Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage.
+- Action: Pressing 'Up' x5 to reach Lake of Rage from Goldenrod.
