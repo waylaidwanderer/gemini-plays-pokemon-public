@@ -46,10 +46,11 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Fly to Violet City.
-  1. **Step 1:** Navigate from Hematite (Slot 2) to Mistral (Slot 5).
-     - Action: Down x3 -> A.
-  2. **Step 2:** Select FLY.
-  3. **Step 3:** Select Violet City on Map.
-  4. **Step 4:** Buy Flower Mail -> Write Message -> Deliver.
+- **Current Action:** Buy Flower Mail.
+  1. **Status:** Arrived in Violet City via Fly.
+  2. **Step 1:** Navigate to Poke Mart (9, 17).
+  3. **Step 2:** Buy Flower Mail.
+  4. **Step 3:** Attach to Kenya.
+  5. **Step 4:** Write "DARK CAVE leads to another road."
+  6. **Step 5:** Return to Route 31 and deliver.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
