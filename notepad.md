@@ -47,18 +47,17 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Typing "leads ".
+  1. **Status:** Typing " to an".
   2. **Method:** Manual typing via `slow_press`.
   3. **Plan:**
-     - Switch to lowercase (Done this turn).
-     - Type "leads " (Done this turn).
-     - Type "to another road." (Next).
-  4. **Note:** Cursor ends at 'Space' (6,2).
+     - Type " to an" (Done this turn).
+     - Type "other road." (Next).
+  4. **Note:** Cursor ends at 'n' (3,1).
 
 ## Maintenance
-- **Tool Fix:** Manual typing is working well.
+- **Tool Fix:** Manual typing continues.
 
-## Reflection (Turn 9280)
-- **Action:** Switched to lowercase, typed "leads ".
-- **Text:** "DARK CAVE leads ".
-- **Next:** Type "to another road."
+## Reflection (Turn 9281)
+- **Action:** Typed " to an".
+- **Text:** "DARK CAVE leads to an".
+- **Next:** Type "other road."
