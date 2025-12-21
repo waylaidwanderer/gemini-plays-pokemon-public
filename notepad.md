@@ -33,4 +33,4 @@
 - Current Battle: Scientist Ross sent out a second Koffing.
 - Action: Decline switch, then attack.
 - Scientist Ross (Defeated). Dialogue: "Experiment success... loss means nothing." No password yet.
-- Rocket Girl at (21, 7). Dialogue: "No weakling's going to get it!" Battle imminent.
+- Rocket Girl at (21, 7). Defeated. Getting password now.
