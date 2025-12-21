@@ -9,8 +9,8 @@
 | State (S1,S2,S3) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
-| (0, 1, 0) | ? | ? | OPEN | CLOSED | OPEN | ? |
+| (1, 0, 0) | ? | ? | ? | OPEN | ? | ? |
+| (0, 1, 0) | ? | ? | OPEN | ? | OPEN | ? |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
 | (0, 1, 1) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
 
@@ -22,8 +22,8 @@
 
 ## Logic Model (XOR Hypothesis)
 - S3 toggles: {2,6, 3,6, 12,8}
-- S2 toggles: {2,6, 3,6, 10,6, 6,8, 12,8} (?)
-- S1 toggles: {16, 6}
+- S2 toggles: {2,6, 3,6, 10,6, 6,8, 12,8}
+- S1 toggles: {10,6, 16,6, 12,8} (?)
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
