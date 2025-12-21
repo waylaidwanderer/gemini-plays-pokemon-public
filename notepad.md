@@ -11,9 +11,9 @@
 - Step 1: Turn ON Switch 3 (2, 1).
 - Step 2: Turn ON Switch 2 (10, 1).
 - Step 3: Turn ON Switch 1 (16, 1).
+- Switch 3 (2, 1): ON.
+- Switch 2 (10, 1): OFF (Moving to turn ON).
 - Switch 1 (16, 1): OFF.
-- Switch 2 (10, 1): OFF.
-- Switch 3 (2, 1): OFF.
 
 ## Shutter Locations
 - Right: (12, 8), (12, 9)
