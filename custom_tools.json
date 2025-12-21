@@ -161,35 +161,6 @@
       }
     ]
   },
-  "get_item_quantity_v1": {
-    "description": "Checks if a specific item exists in the provided inventory list and returns its quantity if found. Returns 0 if not found.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "inventory_list": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        },
-        "target_item": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "inventory_list",
-        "target_item"
-      ]
-    },
-    "python_script": "import json\n\ndef main(input_data):\n    inventory = input_data['inventory_list']\n    target = input_data['target_item'].upper()\n    \n    quantity = 0\n    for item in inventory:\n        if ' x' in item:\n            name, qty = item.split(' x')\n            if name.upper() == target:\n                quantity = int(qty)\n                break\n        elif item.upper() == target:\n            quantity = 1\n            break\n            \n    print(json.dumps({\"quantity\": quantity}))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
-    "history": [
-      {
-        "commit_message": "Defining inventory tracking tool.",
-        "timestamp": "2025-12-21T16:46:34.894Z",
-        "action_counter": 9334
-      }
-    ]
-  },
   "find_object_by_name_v1": {
     "description": "Finds the coordinates of map objects or background objects that match a given name. Returns a list of matches with their x, y, and type.",
     "input_schema": {
@@ -210,6 +181,22 @@
         "commit_message": "Defining tool to find object coordinates by name.",
         "timestamp": "2025-12-21T16:55:46.570Z",
         "action_counter": 9353
+      }
+    ]
+  },
+  "shutter_status_report_v1": {
+    "description": "Reports the current state (OPEN/CLOSED) of all known shutters in the Goldenrod Underground Switch Room based on the mental map. Considers a tile to be a shutter if it is at a known shutter coordinate. Returns a report string.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef main():\n    try:\n        root = ET.fromstring(map_xml_string)\n        # Known shutter coordinates\n        shutter_coords = [\n            (2, 6), (3, 6), (10, 6), (16, 6), (6, 8), (12, 8), (17, 6), (17, 7)\n        ]\n        \n        report = []\n        for x, y in shutter_coords:\n            tile = root.find(f\"./Row[@id='{y}']/Tile[@id='{x}']\")\n            if tile is not None:\n                tile_type = tile.get('type')\n                seen = tile.get('seen')\n                status = \"OPEN\" if tile_type == \"FLOOR\" else \"CLOSED\"\n                if seen == \"false\":\n                    status = \"UNSEEN\"\n                report.append(f\"Shutter at ({x}, {y}): {status}\")\n            else:\n                report.append(f\"Shutter at ({x}, {y}): NOT IN MAP DATA\")\n        \n        print(\"\\n\".join(report))\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T23:22:15.345Z",
+        "action_counter": 10234
       }
     ]
   }
