@@ -47,17 +47,18 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Typing " to an".
+  1. **Status:** Fixing typo "-lq-cp".
   2. **Method:** Manual typing via `slow_press`.
   3. **Plan:**
-     - Type " to an" (Done this turn).
-     - Type "other road." (Next).
-  4. **Note:** Cursor ends at 'n' (3,1).
+     - Delete 7 chars (Space + "-lq-cp").
+     - Type " " (Space).
+     - Type "to another road." (Next turns).
+  4. **Note:** Cursor reset to 'Space' (6,2) after this turn.
 
 ## Maintenance
 - **Tool Fix:** Manual typing continues.
 
-## Reflection (Turn 9281)
-- **Action:** Typed " to an".
-- **Text:** "DARK CAVE leads to an".
-- **Next:** Type "other road."
+## Reflection (Turn 9282)
+- **Error:** Garbage text entered ("-lq-cp"). Likely sync issue.
+- **Fix:** Backspace 7 times to reach "leads". Re-type space.
+- **Next:** Type "to another road." safely.
