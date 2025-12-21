@@ -51,3 +51,6 @@
 - Plan: Initiate talk, then carefully select Kenya (Slot 5) in the next turn.
 - Turn 9928: At (17, 8), facing Fisher. Pressing A to initiate dialogue.
 - Note: Previous 'Up, A' likely moved me but didn't trigger talk. Retrying interaction.
+- Turn 9929: In Party Menu. Cursor on Mistral (Slot 4).
+- Action: Moving Down to Kenya (Slot 5) and selecting with A.
+- Goal: Deliver forged mail "Dark Cave leads to another road" (no period).
