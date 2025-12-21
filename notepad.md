@@ -37,5 +37,5 @@
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
 ## Radio Tower 2F Observations
 - Super Nerd (6, 6), Receptionist (12, 7), and Black Belt (0, 1) are missing during the Rocket takeover.
-- Only Rockets and specific Pokémon (Jigglypuff) seem to remain.
-- Need to verify if Beauty (14, 5) is also gone.
+- Buena (14, 5), Teacher (17, 2), and Jigglypuff (12, 1) remain at their posts.
+- All Rockets on 2F have been defeated.
