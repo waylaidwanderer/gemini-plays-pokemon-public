@@ -1,18 +1,64 @@
-# Strategy: Travel to Mahogany Town
-- Direction: East from Ecruteak City via Route 42.
-- Method: Use Surf to cross water segments.
-- Progression: Defeat trainers along the way.
+# Tile Mechanics
+- FLOOR:
+    - Individual: Traversable. Standard movement.
+    - Relational: Connects to other walkable tiles and warps.
+    - Mechanics: None.
+- WALL:
+    - Individual: Impassable.
+    - Relational: Blocks movement.
+    - Mechanics: None.
+- WATER:
+    - Individual: Traversable only with Surf (HM03) and Fog Badge.
+    - Relational: Must be entered from an adjacent land tile while facing the water.
+    - Mechanics: Triggers wild water encounters.
+- TALL_GRASS:
+    - Individual: Traversable. Standard movement.
+    - Relational: Connects to other walkable tiles.
+    - Mechanics: Triggers wild land encounters.
+- MART_SHELF:
+    - Individual: Impassable.
+    - Relational: Blocks movement.
+    - Mechanics: None.
+- COUNTER:
+    - Individual: Impassable.
+    - Relational: Interacting from an adjacent tile allows talking to NPCs behind it (e.g., Nurse Joy, Mart Clerks).
+    - Mechanics: Blocks movement but allows interaction.
+- WARP_CARPET_DOWN / WARP_CARPET:
+    - Individual: Traversable.
+    - Relational: Moving onto this tile triggers a map transition (Warp).
+    - Mechanics: Entry point determines arrival location on destination map.
+- LADDER / STAIRS / DOOR:
+    - Individual: Traversable.
+    - Relational: Moving onto the tile triggers a map transition.
+    - Mechanics: Map transition.
+- HEADBUTT_TREE:
+    - Individual: Impassable.
+    - Relational: Blocks movement.
+    - Mechanics: Can be interacted with using Headbutt to trigger encounters.
+- CUT_TREE:
+    - Individual: Impassable.
+    - Relational: Blocks movement.
+    - Mechanics: Can be removed using Cut (HM01) and Hive Badge.
+- PC:
+    - Individual: Impassable.
+    - Relational: Interacting from the tile below (facing UP) allows access to the Pokemon Storage System.
+    - Mechanics: Accesses PC.
 
 # KIMCHI Training (Turn #7531)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
 - Strategy: Lead with KIMCHI on Route 43/Lake of Rage. Use Sleep Powder and Cut/Absorb.
 
-# Tile Mechanics
-- Walkable: FLOOR, WATER (Surf HM03 + Fog Badge), TALL_GRASS.
-- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, CAVE (Warp), MART_SHELF.
-- Transitions: LADDER, DOOR, PIT, WARP_CARPET, WARP_CARPET_DOWN.
-- General: HM02 Fly is outdoor only. Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
+# Strategy: Lake of Rage Investigation
+- Path:
+    1. Exit Mahogany Town via North Gatehouse (Route 43 entrance).
+    2. Follow Route 43 North.
+    3. Lead with KIMCHI (Lv20 Oddish). Use Sleep Powder to stall and Absorb/Cut to deal damage and gain EXP.
+    4. If wild encounters are too frequent or high-level, switch to Typhlosion (Calcifer) or Graveler (GNEISS) to clear them.
+    5. Upon reaching Lake of Rage, explore the shoreline and use Surf to find the "Red Gyarados".
+- Contingencies:
+    - If Route 43 is blocked by Team Rocket, look for a side path or a specific NPC (like Lance) to clear the way.
+    - If the "rampage" involves a battle, prepare GNEISS for Rock-type advantages against Flying/Water.
 
 # General Mechanics & Tools
 - Battle: Sweet Scent lowers opponent's evasion (counters Minimize). Karate Chop is Fighting-type.
@@ -52,9 +98,3 @@
 - Gramps at (5, 9).
 - Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
 - Gym (6, 13): Blocked by Fisher at (6, 14).
-
-# Strategy: Lake of Rage Investigation
-- Path: Exit Mahogany Town via the North gatehouse -> Route 43 -> Lake of Rage.
-- Method: Lead with KIMCHI (Lv20) to gain EXP. Use Sleep Powder to mitigate damage.
-- Goal: Locate the source of the "rampage" (Red Gyarados).
-- Contingency: If blocked, search for Lance or explore water with Surf.
