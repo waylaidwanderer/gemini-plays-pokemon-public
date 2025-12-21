@@ -41,8 +41,9 @@
     2. Check Bug Catcher at (21, 13).
     3. If neither, assume Fisher IS the guy and I need to fix the mail content (Password: "Dark Cave leads to another road").
 - **Navigation:** Must loop south through grass to bypass ledges and return to West side.
-- **Correction:** Fisher rejected "DARK CAVE leads to another road." (All Caps). This suggests case sensitivity matters.
-- **Plan:** After checking Cooltrainer, try "Dark Cave leads to another road." (Title Case).
+- **Correction:** Found typo "leadt" in "Dark Cave leadt".
+- **Action:** Deleting "to another" and "t" (12 backspaces), then typing "ds to another road."
+- **Goal:** Submit "Dark Cave leads to another road." (Title Case).
 - **Youngster (10, 6):** Generic dialogue (Dark Cave/Falkner). Not recipient.
 - **Next:** Checking Bug Catcher at (21, 13).
 - **Bug Catcher (21, 13):** Gave Bitter Berry. Not recipient.
