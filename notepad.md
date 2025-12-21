@@ -33,8 +33,8 @@
 - **Status:** Have passwords "SLOWPOKETAIL" and "RATICATE TAIL".
 - **Current Barrier:** Boss Room at (10,9)/(11,9) is in a walled-off area (NW quadrant). Access from South/East blocked by walls/counters.
 - **Hypothesis:** The Grunt at (5, 14) moves after giving the password, revealing a switch in the bookshelf at (5, 13).
-- **Findings:** Bookshelves at (4,13), (6,13), (7,13) contain "Rocket Oath". Switch NOT found there.
-- **Hypothesis:** Switch is behind Grunt at (5, 13). Reloading map might move him.
-- **Immediate Plan:** Navigate to B2F (Ladder at 27, 14) to reload map. Re-check B2F doors just in case. Return to B3F to check Grunt.
-- **Status:** Have passwords "SLOWPOKETAIL" and "RATICATE TAIL".
+- **Analysis:** The Boss Room entrance (10,9) on B3F is in a completely isolated area (NW quadrant). No access from B3F floor.
+- **Conclusion:** Access MUST be via a ladder/stairs from B2F (or B1F). The B2F Locked Doors (14,12 & 15,12) are the only remaining path.
+- **Hypothesis:** I interacted with the wrong door tile or need to try again.
+- **Immediate Plan:** Return to B2F. Try interacting with BOTH doors at (14,12) and (15,12). If that fails, search B2F for the Executive.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
