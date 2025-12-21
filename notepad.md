@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Boss Room Door at B3F (10, 9) unlocked with passwords.
-- **Plan:** Enter the Boss Room. Find and defeat the Executive.
+- **Status:** Encountered Executive at B3F Boss Room.
+- **Plan:** Defeat the Executive.
 - **Hypothesis:** The Executive has the password for the B2F Transmitter Room.
