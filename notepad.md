@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Defeated Executive. He fled. Murkrow remains at (7, 2).
-- **Plan:** Interact with the Murkrow to get the password for the Transmitter Room.
-- **Hypothesis:** The Murkrow mimics the voice of the Executive/Giovani or simply knows the password.
+- **Status:** Obtained password "HAIL GIOVANNI" from Murkrow at B3F (7, 2).
+- **Plan:** Backtrack to B2F via West Ladder (3, 2). Unlock the Transmitter Room door at B2F (14, 12).
+- **Hypothesis:** This password disables the lock on the Transmitter Room.
