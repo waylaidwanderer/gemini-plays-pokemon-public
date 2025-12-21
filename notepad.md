@@ -14,7 +14,7 @@
   - (27, 2): Entrance Ladder (from Mart).
   - (3, 14): Ladder to B2F West (South section).
   - (5, 15): Warp panel (shortcut) to (25, 2).
-  - (16, 12): Scientist Jed (Defeated).
+  - (18, 12): Scientist Jed (Defeated).
   - (19, 11): Secret Switch (Disables Statues). Interact from (19, 12).
 - **B2F (3_50):**
   - (3, 14): Ladder to B1F West (South section).
