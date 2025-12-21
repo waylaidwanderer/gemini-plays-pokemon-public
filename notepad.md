@@ -23,12 +23,12 @@
 - Goal: Clear path to ladder at (23, 3).
 - Method: Testing 3-2-1 sequence (Left to Right) from clean state.
 - Experiment Log:
-    1. Baseline (All OFF): Shutters (10, 6), (12, 8), (16, 6), etc. are CLOSED.
-    2. Switch 3 (2, 1) ON: Opens (12, 8) and (12, 9).
-    3. Switch 2 (10, 1) ON: TBD.
-    4. Switch 1 (16, 1) ON: TBD.
-- Current Status: Switch 3 is ON. Moving to Switch 2.
-- Sequence Attempts: 1 (3-2-1 failed previously, possibly due to incorrect starting state).
+    1. Baseline (All OFF): All shutters CLOSED.
+    2. Switch 3 (2, 1) ON: Opens (12, 8). (12, 9) is currently CLOSED (WALL).
+    3. Switch 2 (10, 1) ON: [Pending]
+    4. Switch 1 (16, 1) ON: [Pending]
+- Current Status: Switch 3 is ON. Facing Switch 2 at (10, 1).
+- Sequence Attempts: 1 (3-2-1 failed previously).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
