@@ -7,21 +7,16 @@
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Method: Execute the 3-2-1 sequence (Turn ON Switch 3, then 2, then 1).
-- Start Turn: ~9640
-- Logic: Order of switches matters (Rocket Grunt at 3,2). Switch 3 affects sets 1&2, Switch 2 affects 1&3, Switch 1 affects 2&3.
-
-## Switch Combination Log
-- [3 ON, 2 ON, 1 ON]: Attempting sequence from all-OFF state.
-- Step 1: Switch 3 turned ON (Turn 9731).
-- Step 2: Switch 2 (Moving to turn ON).
+- Start Turn: 9640
+- Logic: Order of switches matters. 3-2-1 is the standard solution to open the southern path.
 
 ## Switch States
 - Switch 3 (2, 1): ON
-- Switch 2 (10, 1): OFF
+- Switch 2 (10, 1): OFF (Currently interacting)
 - Switch 1 (16, 1): OFF
 
 # Area Notes
-- Warehouse Entrance: Likely a door in the southern unseen area (Map 3_55).
-- Return Ladders: (23, 3), (21, 25), and (5, 25) all lead back to the main Underground (3_52).
+- Warehouse Entrance: Southern unseen area (Map 3_55).
+- Return Ladders: (23, 3), (21, 25), and (5, 25) lead back to the main Underground (3_52).
 - Trainers: All defeated.
 - Rival: Defeated at (20, 4).
