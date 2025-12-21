@@ -8,10 +8,12 @@
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Method: Execute the 3-2-1 sequence (Turn ON Switch 3, then 2, then 1).
 - Start Turn: ~9640
-- Logic: Switch 3 (Left) toggles sets 1&2, Switch 2 (Middle) toggles 1&3, Switch 1 (Right) toggles 2&3.
+- Logic: Order of switches matters (Rocket Grunt at 3,2). Switch 3 affects sets 1&2, Switch 2 affects 1&3, Switch 1 affects 2&3.
 
 ## Switch Combination Log
-- [3 ON, 2 ON, 1 ON]: Attempting now.
+- [3 ON, 2 ON, 1 ON]: Attempting sequence from all-OFF state.
+- Step 1: Switch 3 turned ON (Turn 9731).
+- Step 2: Switch 2 (Moving to turn ON).
 
 ## Switch States
 - Switch 3 (2, 1): ON
