@@ -3,7 +3,6 @@
 - **WALL**: Impassable. Stops sliding movement.
 - **ICE**: Sliding movement. Entering an ICE tile causes the player to slide in that direction until they hit a WALL, an Object, or a non-ICE tile.
 - **LADDER**: Warp point.
-- **SECURITY_CAMERA / Persian Statue**: Triggers alarms.
 - **NPC/Item Sprites**: All sprites act as walls and stop sliding movement.
 
 # Movesets
@@ -35,3 +34,8 @@
   4. Move Up to (3, 4) [ICE, stops at FLOOR at (3, 4)].
   5. Move Right to (5, 4) [ICE, stops at FLOOR at (5, 4)].
   6. Face Up and talk to Pryce at (5, 3).
+
+# Lessons Learned
+- Whirlpool requires Glacier Badge to use out of battle.
+- `switch_pokemon_v1` and `battle_move_selector` are designed for specific battle menu states. Do not use in overworld menus.
+- Sliding on ice: Objects only block sliding if the player's trajectory physically enters the object's tile. Row 2 sliding is NOT blocked by Row 3 objects.
