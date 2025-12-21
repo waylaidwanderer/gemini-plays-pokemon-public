@@ -9,7 +9,7 @@
 - **NPC/Item Sprites**: All sprites have collision and act as walls.
 
 # Team Rocket Base Investigation (Mahogany Town)
-- **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' used. Executive defeated.
+- **Status:** Passwords 'RATICATE TAIL', 'SLOWPOKETAIL', and 'HAIL GIOVANNI' obtained. Executive defeated.
 - **B1F (3_49):**
   - (19, 11): Secret Switch (Disables Statues).
 - **B2F (3_50):**
