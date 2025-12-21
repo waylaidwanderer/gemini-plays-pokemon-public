@@ -47,19 +47,21 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Typing message.
-  2. **Target Text:** "DARK CAVE leads to another road." (32 chars).
+  1. **Status:** Typing "DARK".
+  2. **Method:** Manual typing via `slow_press` (Tool `type_text` deleted due to errors).
   3. **Plan:**
-     - Type "DARK CAVE " (UPPER).
+     - Type "DARK" (Done this turn).
+     - Type " CAVE " (Next).
      - Switch to lowercase.
-     - Type "leads to another road." (lower).
-  4. **Note:** Exact fit for 32-char limit.
+     - Type remainder.
+  4. **Note:** Cursor ends at 'K' (0,1).
 
 ## Maintenance
-- **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
+- **Tool Fix:** Deleted `type_text` to free slot. Plan to define robust `type_mail` tool if manual is too slow.
 
-## Reflection (Turn 9276)
-- **Status:** In Mail Composition Screen.
-- **Keyboard:** Standard Grid. Period `.` likely in lowercase menu.
-- **Length Check:** Message is exactly 32 chars, filling the mail completely.
-- **Next:** Execute typing in chunks to manage case switching.
+## Reflection (Turn 9278)
+- **Action:** Typing "DARK" manually.
+- **Cursor Tracker:**
+  - Start: A (0,0)
+  - End: K (0,1)
+- **Next:** Type " CAVE " (Space, C, A, V, E, Space).

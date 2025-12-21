@@ -133,33 +133,5 @@
         "action_counter": 8796
       }
     ]
-  },
-  "type_text": {
-    "description": "Generates a sequence of button presses to type the given text using the in-game keyboard. Assumes cursor starts at (0,0) 'A' in Upper case.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "text": {
-          "type": "string",
-          "description": "The text to type."
-        }
-      },
-      "required": [
-        "text"
-      ]
-    },
-    "python_script": "import json\n\ndef type_text(text):\n    # Keyboard Layouts (x, y)\n    # 0-9 columns, 0-5 rows\n    \n    # Upper Case Layout\n    upper_layout = {\n        'A': (0, 0), 'B': (1, 0), 'C': (2, 0), 'D': (3, 0), 'E': (4, 0), 'F': (5, 0), 'G': (6, 0), 'H': (7, 0), 'I': (8, 0), 'J': (9, 0),\n        'K': (0, 1), 'L': (1, 1), 'M': (2, 1), 'N': (3, 1), 'O': (4, 1), 'P': (5, 1), 'Q': (6, 1), 'R': (7, 1), 'S': (8, 1), 'T': (9, 1),\n        'U': (0, 2), 'V': (1, 2), 'W': (2, 2), 'X': (3, 2), 'Y': (4, 2), 'Z': (5, 2), ' ': (6, 2), ',': (7, 2), '?': (8, 2), '!': (9, 2),\n        '1': (0, 3), '2': (1, 3), '3': (2, 3), '4': (3, 3), '5': (4, 3), '6': (5, 3), '7': (6, 3), '8': (7, 3), '9': (8, 3), '0': (9, 3),\n        'lower': (0, 5), 'DEL': (4, 5), 'END': (9, 5) \n    }\n    \n    # Lower Case Layout\n    lower_layout = {\n        'a': (0, 0), 'b': (1, 0), 'c': (2, 0), 'd': (3, 0), 'e': (4, 0), 'f': (5, 0), 'g': (6, 0), 'h': (7, 0), 'i': (8, 0), 'j': (9, 0),\n        'k': (0, 1), 'l': (1, 1), 'm': (2, 1), 'n': (3, 1), 'o': (4, 1), 'p': (5, 1), 'q': (6, 1), 'r': (7, 1), 's': (8, 1), 't': (9, 1),\n        'u': (0, 2), 'v': (1, 2), 'w': (2, 2), 'x': (3, 2), 'y': (4, 2), 'z': (5, 2), ' ': (6, 2), '.': (7, 2), '-': (8, 2), '/': (9, 2),\n        'UPPER': (0, 5), 'DEL': (4, 5), 'END': (9, 5)\n    }\n    \n    # Numbers in Lower Case Layout (Row 3, same as Upper)\n    for i in range(10):\n        lower_layout[str(i)] = (i, 3)\n\n    buttons = []\n    curr_x, curr_y = 0, 0 # Start at A (0,0)\n    current_case = \"upper\" \n    \n    # END coordinates\n    end_pos = (9, 5)\n    \n    for char in text:\n        target_pos = None\n        target_case = current_case\n        \n        # Identify target case and position\n        if char == ' ':\n            target_pos = (6, 2) # Same in both\n            target_case = current_case # Don't switch\n        elif char in upper_layout and char not in lower_layout:\n             target_case = \"upper\"\n             target_pos = upper_layout[char]\n        elif char in lower_layout and char not in upper_layout:\n             target_case = \"lower\"\n             target_pos = lower_layout[char]\n        elif char in upper_layout and char in lower_layout:\n             # E.g. numbers\n             target_pos = upper_layout[char]\n             target_case = current_case # Stay in current if possible\n             \n        # Switch case if needed\n        if target_case != current_case:\n            # Navigate to case switch button at (0, 5)\n            dx = 0 - curr_x\n            dy = 5 - curr_y\n            \n            if dy > 0: buttons.extend([\"Down\"] * dy)\n            elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n            if dx > 0: buttons.extend([\"Right\"] * dx)\n            elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n            \n            buttons.append(\"A\")\n            curr_x, curr_y = 0, 5\n            current_case = target_case\n            \n        # Navigate to target char\n        if current_case == \"upper\":\n            target_pos = upper_layout.get(char)\n        else:\n            target_pos = lower_layout.get(char)\n            \n        if target_pos is None:\n             continue\n\n        dx = target_pos[0] - curr_x\n        dy = target_pos[1] - curr_y\n        \n        if dy > 0: buttons.extend([\"Down\"] * dy)\n        elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n        if dx > 0: buttons.extend([\"Right\"] * dx)\n        elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n        \n        buttons.append(\"A\")\n        curr_x, curr_y = target_pos\n        \n    # Navigate to END and press A\n    dx = end_pos[0] - curr_x\n    dy = end_pos[1] - curr_y\n    \n    if dy > 0: buttons.extend([\"Down\"] * dy)\n    elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n    if dx > 0: buttons.extend([\"Right\"] * dx)\n    elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n    \n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T00:24:09.439Z",
-        "action_counter": 9165
-      },
-      {
-        "commit_message": "Fixed Python script to correctly import json and print the output as a JSON string, ensuring valid return format for the system.",
-        "timestamp": "2025-12-21T00:27:01.738Z",
-        "action_counter": 9168
-      }
-    ]
   }
 }
