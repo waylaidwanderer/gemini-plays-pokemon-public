@@ -31,8 +31,9 @@
 - Conclusion: 3-2-1 sequence (All ON) results in all shutters closed.
 - Hypothesis: Each switch toggles a pair of shutter groups (S1:{A,B}, S2:{B,C}, S3:{A,C}).
 - Next Test: Turn all switches OFF to reset, then test Switch 1 alone.
-- Current Status: Switch 1 OFF, Switch 2 OFF, Switch 3 ON. Moving to Switch 3.
-- Sequence Attempts: 2 (3-2-1 failed). Resetting for Attempt 3.
+- Current Status: All switches OFF. Baseline reset complete.
+- Sequence Attempts: 2 (3-2-1 failed). Starting Attempt 3: Systematic Mapping.
+- Test 3.1: Switch 1 (16, 1) ON. Observe all shutters.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
