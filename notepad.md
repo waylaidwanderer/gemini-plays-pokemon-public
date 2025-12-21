@@ -62,3 +62,6 @@
 - Attempts:
   - Turn 9012: Starting exploration from (23, 3).
 - Rival Malice intercepted at (20, 4). Preparing for battle.
+- Rival Malice Battle Progress:
+  - Golbat (Lv30) - Defeated by Calcifer (Flame Wheel x2).
+  - Next: Feraligatr. Strategy: Neutral damage with Headbutt due to level advantage.
