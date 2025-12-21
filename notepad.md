@@ -47,19 +47,19 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Text is "DARK CAVE leads.". Cursor at 'z'.
+  1. **Status:** Text is "leads:('r". Cursor at 'r' (3,3).
   2. **Method:** Manual typing via `slow_press`.
   3. **Plan:**
-     - Backspace '.' (Done this turn).
-     - Type " to " (Done this turn).
+     - B x4 (Delete 'r', ''', '(', ':'). Result: "leads".
+     - Type " to " (Space, t, o, Space).
      - Type "another road." (Next).
   4. **Note:** Cursor ends at 'Space' (2,6).
 
 ## Maintenance
 - **Tool Fix:** Manual typing continues.
 
-## Reflection (Turn 9283)
-- **Status:** Recovered from garbage text.
-- **Current Text:** "DARK CAVE leads."
-- **Action:** Delete period, type " to ".
+## Reflection (Turn 9285)
+- **Correction:** Previous turn typed garbage `('r`.
+- **Analysis:** `'r` takes 2 chars. `(` and `:` take 1. Need 4 deletions.
+- **Action:** Delete 4 chars, type " to ".
 - **Next:** Type "another road."
