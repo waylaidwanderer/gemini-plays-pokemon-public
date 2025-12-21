@@ -32,6 +32,7 @@
 
 # Battle Strategies
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
+- Pokemaniac Shane (Route 42): Nidorina (Poison).
 
 # Defeated Trainers
 - Fisher Tully (Route 42) at (40, 10).
