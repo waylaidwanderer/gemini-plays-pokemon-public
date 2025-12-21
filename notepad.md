@@ -1,7 +1,7 @@
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- SHUTTER: WALL when CLOSED, FLOOR when OPEN. (Represented as WALL in XML when closed).
+- SHUTTER: WALL type in XML when CLOSED, FLOOR type in XML when OPEN.
 - SwitchScript (2,1), (10,1), (16,1): Interactable from row 2 (facing UP). Toggles specific shutters.
 
 # Puzzle: Goldenrod Underground Switch Room
