@@ -9,19 +9,19 @@
 # Puzzle: Goldenrod Underground Switch Room
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Hint: Rocket Grunt mentioned "3-2-1".
-- Current State: (0, 0, 1) [Switch 1: OFF, Switch 2: OFF, Switch 3: ON].
-- Sequence Progress: 3 (ON) -> 2 (Pending) -> 1 (Pending).
+- Strategy: Execute sequence 3-2-1 from a clean (0,0,0) state.
+- Start Turn: 10031
+- Current State: (0, 1, 1) [S1: OFF, S2: ON, S3: ON].
 
 ## Sequential Switch Logic (3-2-1)
 - State (0, 0, 0): All shutters CLOSED? (Need to verify).
 - State (0, 0, 1) [S3 ON]: (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN.
-- State (0, 1, 1) [3->2]: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) OPEN.
-- State (1, 1, 1) [3->2->1]: Target state to open the final path.
+- State (0, 1, 1) [3->2]: (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN. (Verified Turn 10076).
+- State (1, 1, 1) [3->2->1]: Target state. Expecting (10,6), (16,6), and (6,8) to shift.
 
-## Shutter Toggle Data (Isolation - FLAWED, Sequential Logic applies)
-- S1 (16,1): (1,0,0) -> (16,6) OPEN, (12,8) OPEN.
-- S2 (10,1): (0,1,0) -> (10,6) OPEN, (6,8) OPEN.
-- S3 (2,1): (0,0,1) -> (2,6) OPEN, (3,6) CLOSED (?), (6,8) OPEN.
+## Lessons Learned
+- Turn 10050: Switches are sequential, not independent. Isolation data is misleading.
+- Turn 10075: Always verify shutter states after each switch toggle to build an accurate sequential model.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
