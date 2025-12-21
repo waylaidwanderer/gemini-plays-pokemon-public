@@ -41,3 +41,5 @@
 - **Security:** Triggered 'Intruder Alert' at (24, 3). Persian Statues at (24, 1) and (24, 5) are sensors. Infinite Rocket Grunt battles will occur until a secret switch is tripped.
 - **Hypothesis:** The switch might be on one of the statues or a computer terminal. Testing statue at (24, 1).
 - Muscle grew to Lv 43. Replacing Karate Chop with Cross Chop (Power upgrade).
+- Observation: Row 4 appears to be a solid wall of blocks (Tiles 20-29).
+- Hypothesis: The Warp at (25, 2) is the only way to proceed past the security wall.
