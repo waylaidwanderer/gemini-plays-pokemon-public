@@ -39,3 +39,4 @@
 
 ## Hypotheses
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
+- Strategy for Muk: Calcifer (Lv43) uses Flame Wheel (Index 0).
