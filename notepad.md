@@ -11,9 +11,9 @@
 - **Hypothesis:** A hidden path (stairs/hole/trap) exists in the B1F North-West corner (x=1-5, y=1-5) leading to B2F North-West.
 
 ## Team Rocket Hideout Status
+- **B3F:** Boss Room unlocked. Executive defeated. Murkrow has the password.
+- **B2F:** Lance met. West Ladder (3,14) connects to B1F. Locked doors need password.
 - **B1F:** Security disabled. Trap Warp at (5,15).
-- **B2F:** Lance met. West Ladder (3,14) connects to B1F.
-- **B3F:** Boss Room locked. Grunt at (5,14) blocks bookshelf (likely Oath).
 
 ## Tile Mechanics
 - **Trap Tiles:** B1F corridors (Geodude/Voltorb/Koffing).
