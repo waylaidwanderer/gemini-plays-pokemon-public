@@ -30,3 +30,4 @@
 - **Turn 9804:** Save file overwritten during tool failure.
 - **Current Task:** Manual verification of Kenya's held item.
 - Turn 9829: Attempting to TAKE Kenya's mail using slow_press to bypass potential Read loop and verify text in Bag. Sequence: A (Open), Downx3 (Mail), A (Select), Down (Take), A (Confirm).
+- Turn 9830: Selected 'NO' to "Send to PC?" prompt to keep mail in Bag for inspection. Used slow_press ["Down", "A"].
