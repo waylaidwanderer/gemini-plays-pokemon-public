@@ -40,8 +40,8 @@
        - Note: Need to verify (2, 6) at baseline (All OFF) later.
 - Strategy: Following Strategist's 3-2-1 sequence.
     - Step 1: Switch 3 ON (Completed).
-    - Step 2: Switch 2 ON (Target).
-    - Step 3: Switch 1 ON.
+    - Step 2: Switch 2 ON (Completed).
+    - Step 3: Switch 1 ON (Target).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
