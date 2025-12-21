@@ -41,11 +41,11 @@
 - **Recipient:** Fisher at (17, 7), Route 31.
 - **Password:** "DARK CAVE leads to another road" (Verified "DARK CAVE" caps).
 - **Plan:**
-  1. Get Belladonna (Cut).
-  2. Cut tree at (25,10).
-  3. Read sign at (31,5) for EXACT punctuation.
+  1. Get Belladonna (Cut). (Done)
+  2. Cut tree at (13, 5).
+  3. Read sign at (31, 5) for EXACT punctuation.
   4. Write Mail.
-  5. Deliver.
+  5. Deliver to Fisher at (17, 7).
 
 ## Current Quest: PC Swap
 1.  **Deposit:** Hematite (Pinsir). (Mail removed).
