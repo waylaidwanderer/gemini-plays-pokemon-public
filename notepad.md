@@ -21,5 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Hypothesis:** The "Two Passwords" open the **B3F Boss Room** (not the B2F Transmitter Room). The B2F door likely requires a password found *inside* the Boss Room (from Executive/Murkrow).
-- **Plan:** Navigate to B3F, locate the Boss Room door, and unlock it.
+- **Status:** Back on B2F (South Side). The trap corridor led here.
+- **Problem:** The B2F NW area (with Item Ball) is walled off from here. The B1F trap path only leads to the South side.
+- **Plan:** Head to B3F East Ladder (27,14) -> B3F. Open the Boss Room with the two passwords.
+- **Hypothesis:** The Boss Room contains the Executive/Murkrow needed for the Transmitter Room passwords.
