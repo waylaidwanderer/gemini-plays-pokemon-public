@@ -70,3 +70,5 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - NPC at (14, 7): Mentions "MALICE" (rival) made fun of his Pokémon.
+- Route 43 Sign (13, 3): LAKE OF RAGE - MAHOGANY TOWN.
+- FLOOR_UP_WALL: Verified traversable.
