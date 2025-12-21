@@ -21,7 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** At B2F NW Isolated Room (3,9). Item Ball at (3,10).
-- **Observation:** This room (x=1-5) is separated from the "Voltorb/Transmitter Room" (x=7+) by a wall.
-- **Plan:** Pick up Item. Backtrack to B2F North Corridor via B3F West.
-- **Hypothesis:** The B2F Transmitter Room (Voltorbs) is accessed via a hole/trap in B1F NW or stairs from B3F Boss Room.
+- **Status:** Picked up TM46 (Thief) at B2F NW (3, 10). Area is a dead end.
+- **Plan:** Backtrack to B3F Main Area (via B3F West -> B2F North -> B3F NE). Search for Boss Room Door near (10, 9) or (5, 14).
+- **Hypothesis:** The "Two Passwords" open a door on B3F (likely leading to the Boss).
