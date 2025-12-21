@@ -9,8 +9,8 @@
 - **Status:** Retrying with Period.
 - **Hypothesis:** Rejection was due to missing period. Original text: "Dark Cave leads to another road."
 - **Plan:**
-    1. Cancel Surf Prompt.
-    2. Remove Old Mail from Kenya (Party Menu).
+    1. Enter Party Menu.
+    2. Remove Old Mail from Kenya.
     3. Write New Mail: "Dark Cave leads to another road." (Mixed Case + Period).
     4. Deliver.
 
