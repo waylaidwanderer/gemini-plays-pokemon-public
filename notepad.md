@@ -25,8 +25,8 @@
 ### Final Sequence: 3-2-1
 - Step 1: Switch 3 ON (Turn 9993).
 - Step 2: Switch 2 ON (Turn 10002).
-- Step 3: Switch 1 ON (Done Turn 10009). Sequence 3-2-1 complete.
-- Goal: Reach Warehouse Entrance at (18, 6).
+- Step 3: Switch 1 ON (Done Turn 10010). Sequence 3-2-1 complete.
+- Goal: Reach Warehouse Entrance (likely south-east corridor).
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
