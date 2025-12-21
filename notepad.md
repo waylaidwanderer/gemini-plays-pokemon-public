@@ -32,4 +32,8 @@
 - **Menu Navigation:** Pressing Start in Mail menu triggers Printer Error. Use B.
 - **Tool Safety:** OCR verification is critical. `write_mail_dark_cave` failed.
 - **Mail Mechanics:** Kenya must hold nothing to receive mail. "ITEM" menu option appears if holding non-mail item OR nothing.
-- **Status:** Kenya confirmed empty. Ready for fresh mail.
+- **Status:** Mail successfully attached to Kenya.
+- **Next Step:** Deliver to Fisher on Route 31.
+- **Route:** Violet City -> Route 31 Gate -> Route 31.
+- **Note:** Fisher is at (17, 7) on Route 31.
+- **Log:** Manual mail writing worked. "DARK CAVE leads to another road." confirmed.
