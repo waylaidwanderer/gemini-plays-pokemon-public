@@ -27,3 +27,7 @@
 - Sliding on ice: Row 2 sliding is NOT blocked by Row 3 objects. (Pryce at (5, 3) does not block sliding on Row 2).
 - Markers for trainers should only be set to 'defeated' after the battle concludes.
 - Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
+
+# Leader Pryce Battle (Turn 8557)
+- Pryce's Roster:
+  1. Seel Lv27.
