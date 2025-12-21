@@ -6,13 +6,14 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Preparing New Mail (Attempt #3).
-- **Hypothesis:** Mail content is case-sensitive. Original text: "Dark Cave leads to another road".
-- **Plan:**
-    1. Select Kenya (Current Step).
-    2. Type: "Dark Cave leads to another road" (Mixed Case).
-    3. Deliver to Fisher.
-    4. **Fallback:** If rejected, talk to Wade (Route 31) for clues.
+- **Status:** Delivery Phase (Final).
+- **Mail Content:** "Dark Cave leads to another road" (Mixed Case).
+- **Current State:** Text entered. Confirming and Delivering.
+- **Next Steps:**
+    1. Select 'END' to save mail.
+    2. Exit Menus (B, B, B).
+    3. Talk to Fisher (Left -> A).
+    4. Receive Reward (TM50).
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps) and "DARK CAVE".
