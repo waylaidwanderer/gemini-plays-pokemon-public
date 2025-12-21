@@ -54,3 +54,5 @@ Mechanic: Persian Statues (e.g., at 6,1) are security cameras. Walking in their 
 - Checked (9, 6): No reaction. All statues in Row 6 (8-13) are cleared.
 - Plan: Head East via Row 7 to avoid the camera at (24, 5) on Row 5.
 - Goal: Reach the Item Ball at (27, 6) and explore the East side for the switch.
+- Correction: Row 7 blocked from West by walls/statues. Must traverse Row 5 past statues (cols 8-13) then head South.
+- Plan: Move to (14, 5) via Row 5, then South to (14, 7) to explore East while avoiding Row 5 camera.
