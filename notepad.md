@@ -77,7 +77,7 @@
 # Red Gyarados Encounter
 - Starting Turn: 7738
 - Objective: Capture the Red Gyarados at (18, 22) (Lv30♂).
-- Strategy: Use GNEISS to weaken it (high defense) or Calcifer for precision damage. Use ULTRA BALL for capture.
+- Strategy: Use GNEISS to weaken it (high defense) or Calcifer for precision damage (Ember). Gyarados is now BURNED (Turn 7760), which increases catch rate but adds a tick-timer. Sleep is no longer an option. Use ULTRA BALL for capture once HP is Red.
 
 # Reflection Turn #100 Lessons
 - Coordination: Always verify NPC coordinates in Game State before marking or pathing.
