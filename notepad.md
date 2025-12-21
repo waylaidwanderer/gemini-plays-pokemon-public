@@ -3,10 +3,10 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7479)
+# Strategy: KIMCHI Training (Updated Turn #7489)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
-- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP. Note: ABSORB is at 0 PP; using ETHER now to restore STAB capability.
+- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
 
 # Tile Mechanics
 - Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
