@@ -31,7 +31,7 @@
 # General Mechanics & Tools
 - Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
-- Tool: battle_move_selector refined with 'sleep 100' to handle menu transitions.
+- Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
 
 # Type Matchups (Observed)
 - Ground vs Water/Poison: Super Effective.
