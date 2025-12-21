@@ -18,14 +18,17 @@
 3. Record TRUE baseline.
 4. Execute Switch 3 ON -> Switch 2 ON -> Switch 1 ON.
 
-## Verified Baseline (Default after reset)
+## Verified Baseline (Default after fresh map entry)
 - All switches OFF.
-- Observation: Shutters at (2,6), (10,6), (16,6) were OPEN immediately after reset, but CLOSED automatically when moving to (6,4).
-- Current State (Turn 9888): All shutters (2,6), (6,8), (10,6), (12,8), (16,6) are CLOSED.
+- Shutter (2, 6): OPEN
+- Shutter (10, 6): CLOSED
+- Shutter (16, 6): CLOSED
+- Shutter (12, 8): OPEN
+- Shutter (6, 8): CLOSED
 
 ## Sequence Progress: 3-2-1
-- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890). Result: Shutter (12, 8) is OPEN. (Note: (2, 6) was already open at baseline).
-- Step 2: Switch 2 (10, 1) -> Moving to turn ON.
+- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890). Result: No obvious change to (10,6), (16,6). (12,8) remains OPEN.
+- Step 2: Switch 2 (10, 1) -> Interacting to turn ON.
 - Step 3: Switch 1 (16, 1) -> Pending
 
 # Area Notes
