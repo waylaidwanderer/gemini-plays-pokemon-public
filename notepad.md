@@ -6,8 +6,11 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Move around the area in front of the Locked Doors (14,13)-(15,15) to trigger the Rival event or find the correct interaction spot.
-- **Troubleshooting:** Door says "It needs a password" despite having them. Suspect a missing event trigger (Rival encounter).
+- **Navigation:** Go to (5, 13) on B2F to check if Lance is still there. If so, speak to him to see if it triggers the next step.
+- **Troubleshooting:** Door won't open despite having passwords. verifying flags:
+    1. Talk to Lance (B2F).
+    2. If that fails, return to B3F and re-talk to Rocket Girl and Grunt to ensure passwords were "received".
+- **Inventory:** Bag is full.
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
