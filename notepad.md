@@ -34,15 +34,9 @@
 - **Next Step:** Deliver to Fisher on Route 31.
 - **Route:** Violet City -> Route 31 Gate -> Route 31.
 - **Note:** Fisher is at (17, 7) on Route 31.
-- **Mail Delivery Log:**
-  - **Attempts on Fisher:**
-    1. "DARK CAVE leads to another road." (All Caps) -> REJECTED ("This MAIL isn't for me").
-    2. "Dark Cave leads to another road." (Title Case) -> REJECTED ("This MAIL isn't for me").
-    3. "Dark Cave leads to another road" (No period) -> REJECTED.
-  - **Other NPCs Checked:**
-    - Cooltrainer M: Generic text.
-    - Bug Catcher: Gave Bitter Berry.
-    - Youngster: Generic text (Falkner).
-    - Sign: Confirmed "DARK CAVE" (All Caps).
-- **Current Hypothesis:** Fisher IS the recipient. Password is "DARK CAVE leads to another road".
-- **Next Test:** Rewrite mail to "DARK CAVE leads to another road" (Caps name, no period) and deliver.
+- **Mail Delivery Status:**
+  - Verified "DARK CAVE" spelling on sign (All Caps).
+  - Fisher rejected previous attempts likely due to typo/case.
+- **Current Plan:** Give fresh Flower Mail to Kenya.
+- **Password:** "DARK CAVE leads to another road" (Exact).
+- **Next Step:** Write mail using `write_mail_safe` tool.
