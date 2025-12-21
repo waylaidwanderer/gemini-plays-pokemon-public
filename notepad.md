@@ -29,7 +29,8 @@
 ## Sequence Progress: 3-2-1
 - Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890).
 - Step 2: Switch 2 (10, 1) -> ON (Done Turn 9898).
-- Step 3: Switch 1 (16, 1) -> Moving to turn ON.
+- Step 3: Switch 1 (16, 1) -> ON (Done Turn 9901).
+- Sequence Complete: 3-2-1 executed. Proceeding to Warehouse entrance.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
