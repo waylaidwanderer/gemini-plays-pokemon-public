@@ -81,3 +81,6 @@
 - Goal: Reach Kenya's menu to remove the mail.
 - Turn 9887: In Kenya's menu. Selecting 'MAIL' option to remove the letter.
 - Sequence: Down x3 -> A.
+- Turn 9888: In Kenya's Mail Menu. Cursor on READ.
+- Action: Selecting TAKE (Down, A) to remove the mail.
+- Expectation: Prompt "Send removed MAIL to your PC?"
