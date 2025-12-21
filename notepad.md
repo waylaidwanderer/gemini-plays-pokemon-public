@@ -71,3 +71,6 @@
 - Turn 9880: Reached North Gate entrance at (19, 1). Entering to find Webster.
 - Turn 9881: Moving Right -> Up to enter the Gatehouse at (19, 1). Previous attempt failed due to trying to move Up into a wall.
 - Turn 9882: Inside Route 35 Gatehouse. Moving to (2, 4) to talk to Webster at the counter.
+- Turn 9884: Webster didn't fix the mail (only generic dialogue).
+- Hypothesis: Webster might restore the mail if Kenya is holding NOTHING.
+- Plan: Take Mail from Kenya -> Talk to Webster. If that fails, the quest might be broken due to lost Sender data.
