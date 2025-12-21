@@ -1,4 +1,37 @@
 {
+  "battle_move_selector": {
+    "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer",
+          "description": "The 0-indexed position of the move to select (0-3)."
+        }
+      },
+      "required": [
+        "move_index"
+      ]
+    },
+    "python_script": "import json\nmove_index = int(input_data['move_index'])\n# Add a longer sleep to ensure the move menu is fully open before directional inputs\nbuttons = [\"sleep 500\"] + (['Down'] * move_index) + ['A']\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T03:35:53.973Z",
+        "action_counter": 7878
+      },
+      {
+        "commit_message": "Added a sleep command to the start of the button sequence to ensure the move menu is fully open before directional inputs are applied. This prevents mis-navigation into the PACK menu.",
+        "timestamp": "2025-12-21T03:42:45.741Z",
+        "action_counter": 7891
+      },
+      {
+        "commit_message": "Increased sleep time to 500ms to provide more buffer for the menu transition animation, preventing mis-navigation into the main menu options.",
+        "timestamp": "2025-12-21T03:45:45.715Z",
+        "action_counter": 7897
+      }
+    ]
+  },
   "check_reachable_unseen": {
     "description": "Finds all unseen tiles adjacent to reachable walkable tiles. Relies on verified traversable tile types from the notepad. Useful for clearing the exploration alert. Returns a list of coordinate dictionaries, or buttons if autopress_buttons is true.",
     "input_schema": {
@@ -51,36 +84,34 @@
       }
     ]
   },
-  "battle_move_selector": {
-    "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0).",
+  "find_path_v4": {
+    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items. Returns an empty list if no path is found.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "move_index": {
-          "type": "integer",
-          "description": "The 0-indexed position of the move to select (0-3)."
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
         }
       },
       "required": [
-        "move_index"
+        "target_x",
+        "target_y"
       ]
     },
-    "python_script": "import json\nmove_index = int(input_data['move_index'])\n# Add a longer sleep to ensure the move menu is fully open before directional inputs\nbuttons = [\"sleep 500\"] + (['Down'] * move_index) + ['A']\nprint(json.dumps(buttons))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        \n        start_x, start_y = -1, -1\n        for row in root.findall('Row'):\n            curr_y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = curr_y\n                    break\n            if start_x != -1: break\n            \n        if start_x == -1: return []\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                obj = tile.find('Object')\n                if obj is not None:\n                    # NPCs and items are walls unless they are the target (for interaction)\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-21T03:35:53.973Z",
-        "action_counter": 7878
+        "timestamp": "2025-12-21T06:11:17.104Z",
+        "action_counter": 8161
       },
       {
-        "commit_message": "Added a sleep command to the start of the button sequence to ensure the move menu is fully open before directional inputs are applied. This prevents mis-navigation into the PACK menu.",
-        "timestamp": "2025-12-21T03:42:45.741Z",
-        "action_counter": 7891
-      },
-      {
-        "commit_message": "Increased sleep time to 500ms to provide more buffer for the menu transition animation, preventing mis-navigation into the main menu options.",
-        "timestamp": "2025-12-21T03:45:45.715Z",
-        "action_counter": 7897
+        "commit_message": "Fixed find_path_v4: removed non-standard getparent() call and improved player position detection. Consolidated grid construction and BFS.",
+        "timestamp": "2025-12-21T06:23:10.110Z",
+        "action_counter": 8180
       }
     ]
   },
@@ -124,37 +155,6 @@
         "commit_message": "Fixed switch_pokemon_v1 to use input_data dictionary instead of json.loads(sys.argv[1]).",
         "timestamp": "2025-12-21T05:35:00.083Z",
         "action_counter": 8104
-      }
-    ]
-  },
-  "find_path_v4": {
-    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items. Returns an empty list if no path is found.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        \n        start_x, start_y = -1, -1\n        for row in root.findall('Row'):\n            curr_y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = curr_y\n                    break\n            if start_x != -1: break\n            \n        if start_x == -1: return []\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                obj = tile.find('Object')\n                if obj is not None:\n                    # NPCs and items are walls unless they are the target (for interaction)\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T06:11:17.104Z",
-        "action_counter": 8161
-      },
-      {
-        "commit_message": "Fixed find_path_v4: removed non-standard getparent() call and improved player position detection. Consolidated grid construction and BFS.",
-        "timestamp": "2025-12-21T06:23:10.110Z",
-        "action_counter": 8180
       }
     ]
   }
