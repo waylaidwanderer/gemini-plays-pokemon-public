@@ -54,3 +54,8 @@
 - NPCs: Cooltrainer F (ID 4), Gentleman (ID 5), Youngster (ID 3) at (9, 7).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Directory: (14, 0).
+
+# Area Notes: Goldenrod Dept. Store 3F
+- NPCs: Super Nerd (ID 2).
+- Staircases: (12, 0) to 2F, (15, 0) to 4F.
+- Directory: (14, 0).
