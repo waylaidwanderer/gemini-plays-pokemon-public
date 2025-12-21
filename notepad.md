@@ -9,12 +9,12 @@
 # Puzzle: Goldenrod Underground Switch Room
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Hint: Rocket Grunt mentioned "3-2-1".
-- Current State: (0, 1, 1) [Switch 1: OFF, Switch 2: ON, Switch 3: ON].
-- Sequence Progress: 3 (ON) -> 2 (ON) -> 1 (Pending).
+- Current State: (0, 0, 1) [Switch 1: OFF, Switch 2: OFF, Switch 3: ON].
+- Sequence Progress: 3 (Resetting) -> 2 (OFF) -> 1 (OFF).
 
 ## Sequential Switch Logic (3-2-1)
 - State (0, 0, 0): All shutters CLOSED? (Need to verify).
-- State (0, 0, 1) [S3 ON]: (2,6) OPEN, (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) CLOSED.
+- State (0, 0, 1) [S3 ON]: (2,6) CLOSED (Verified Turn 10060), (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN (?), (12,8) CLOSED.
 - State (0, 1, 1) [3->2]: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) OPEN.
 - State (1, 1, 1) [3->2->1]: Target state to open the final path.
 
