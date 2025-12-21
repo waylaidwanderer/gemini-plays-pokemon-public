@@ -76,10 +76,5 @@
 - Attempt 2 (Turn 7966): Stepped on tile (2, 4).
 - Result: No wild encounter or effect triggered.
 - Conclusion: Tile (2, 4) is a safe FLOOR tile.
-- Attempt 3 (Turn 7967): Stepped on tile (3, 7).
-- Result: Wild VOLTORB Lv23 encounter triggered.
-- Conclusion: Tile (3, 7) is a trap tile.
 - Attempt 3 (Turn 7967): Stepped on tile (3, 7). Result: Wild VOLTORB Lv23 encounter. Conclusion: Tile (3, 7) is a trap tile.
-- Attempt 4 (Turn 7970): Stepped on tile (3, 8).
-- Result: Wild GEODUDE encounter triggered.
-- Conclusion: Tile (3, 8) is a trap tile.
+- Attempt 4 (Turn 7970): Stepped on tile (3, 8). Result: Wild GEODUDE Lv21 encounter. Conclusion: Tile (3, 8) is a trap tile.
