@@ -66,3 +66,7 @@
 - Battle Started against Red Gyarados!
 - Turn 1: Advancing intro text.
 - Strategy reminder: Weaken with Rock Smash (Muscle), then throw Great Balls.
+- Battle Log:
+  - Turn 2: Muscle used Dig (Immune). Gyarados used Dragon Rage (40 dmg). Muscle HP: 57/137.
+  - Turn 3 Plan: Use Strength (Neutral damage). Rock Smash was too weak. Dig is useless.
+  - Risk: Dragon Rage leaves Muscle at 17 HP next turn. Must Heal or Switch soon.
