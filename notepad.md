@@ -3,14 +3,14 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7467)
+# Strategy: KIMCHI Training (Updated Turn #7471)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
 - Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
 
 # Tile Mechanics
 - Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
-- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, WHIRLPOOL, CAVE (Warp).
+- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, CAVE (Warp).
 - Transitions: LADDER, DOOR, PIT, WARP_CARPET.
 - General: HM02 Fly is strictly for outdoor use. Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
