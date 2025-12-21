@@ -29,19 +29,24 @@
 - **Interactables:** HEADBUTT_TREE, CAVE, WARP_CARPET, LADDER.
 - **Puzzle:** ICE (Slide until hit).
 
-## Log & Lessons
-- **Mail Management:** Mass delete mail at PC is efficient. "Send to PC?" -> YES to discard.
-- **Menu Navigation:** Pressing Start in Mail menu triggers Printer Error. Use B.
-- **Tool Safety:** OCR verification is critical. `write_mail_dark_cave` failed.
-- **Mail Mechanics:** Kenya must hold nothing to receive mail. "ITEM" menu option appears if holding non-mail item OR nothing.
-- **Status:** Mail successfully attached to Kenya.
-- **Next Step:** Deliver to Fisher on Route 31.
-- **Route:** Violet City -> Route 31 Gate -> Route 31.
-- **Note:** Fisher is at (17, 7) on Route 31.
-- **Mail Delivery Status:**
-  - Verified "DARK CAVE" spelling on sign (All Caps).
-  - Fisher rejected previous attempts likely due to typo/case.
-- **Current Plan:** Give fresh Flower Mail to Kenya.
-- **Password:** "DARK CAVE leads to another road" (Exact).
-- **Next Step:** Write mail using `write_mail_safe` tool.
-- **Hematite (Pinsir):** Apparently holding Mail (prevented normal deposit). using "MOVE PKMN W/O MAIL" to bypass.
+## Mail Mechanics
+- **Holding Mail:** Prevents depositing Pokémon. Must be removed first.
+- **Removal:** "Move PKMN w/o Mail" in PC strips mail *if* PC Mailbox has space.
+- **PC Mailbox Full:** "Send to PC" fails. Mail goes to Bag.
+- **Writing:** Pressing Start in Mail menu triggers Printer Error. Use B.
+- **Attachment:** Pokémon must hold nothing to receive mail.
+
+## Quest Logic: Kenya Delivery
+- **Goal:** Deliver Kenya (Spearow) with specific mail to Fisher (Route 31).
+- **Recipient:** Fisher at (17, 7), Route 31.
+- **Password:** "DARK CAVE leads to another road" (Verified "DARK CAVE" caps).
+- **Plan:**
+  1. Get Belladonna (Cut).
+  2. Cut tree at (25,10).
+  3. Read sign at (31,5) for EXACT punctuation.
+  4. Write Mail.
+  5. Deliver.
+
+## Current Quest: PC Swap
+1.  **Deposit:** Hematite (Pinsir). (Mail removed).
+2.  **Withdraw:** Belladonna (Oddish).
