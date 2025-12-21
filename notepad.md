@@ -1,3 +1,13 @@
+# Goldenrod Radio Tower Crisis (Started Turn 8588)
+- **Status**: Investigating 1F. (Turn 8622)
+- **Objective**: Clear Team Rocket from the tower and restore normal broadcasts.
+- **Strategy (HOW)**:
+    1. Perform a floor-by-floor sweep (1F to 5F).
+    2. Identify and defeat all Rocket Grunts and Executives.
+    3. Locate the Director (rumored to be on 5F or in the basement).
+    4. Obtain the Radio Card by passing the quiz on 1F.
+    5. Use `battle_strategist_v2` for high-stakes Executive battles.
+
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
 - **WALL**: Impassable.
@@ -7,26 +17,16 @@
 - **LADDER**: Warp point.
 - **NPC/Item Sprites**: Act as walls and stop sliding movement.
 
+# Lessons Learned
+- **Counter Interaction**: You cannot walk through counters. You must face them from an adjacent tile to interact with NPCs behind them.
+- **Whirlpool**: Requires Glacier Badge to use out of battle.
+- **Battle Menus**: `switch_pokemon_v1` and `battle_move_selector` are ONLY for specific battle menu states.
+- **Ice Trajectory**: Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
+
 # Mahogany Gym (2_2) - COMPLETED
 - **Leader:** Pryce defeated (Turn 8583).
 - **Reward:** Glacier Badge, TM16 (Icy Wind).
-- **Trainer Data:** All trainers defeated.
 
-# Strategy (HOW)
-1. Exit Mahogany Gym. (Done)
-2. Check for plot updates (Radio Tower/Professor Elm). (Done)
-3. Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
-
-# Lessons Learned
-- Whirlpool requires Glacier Badge to use out of battle.
-- `switch_pokemon_v1` and `battle_move_selector` are designed for specific battle menu states. Do not use in overworld menus.
-- Sliding on ice: Row 2 sliding is NOT blocked by Row 3 objects. (Pryce at (5, 3) does not block sliding on Row 2).
-- Markers for trainers should only be set to 'defeated' after the battle concludes.
-- Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
-- Stat drops (like Growl) reset upon switching or end of battle.
-
-# Goldenrod Radio Tower Crisis (Started Turn 8588)
-- Team Rocket has taken over the Radio Tower. Focus on finding the Director to resolve the broadcast issue.
-- Strategy: Systematic floor-by-floor sweep. Prepare for multiple consecutive trainer battles. Use 'battle_strategist_v2' for executive fights.
-- Radio Tower Location: (5, 15) in Goldenrod City.
-- Status: Entering the tower now. (Turn 8613)
+# Future Strategy
+- After resolving the Radio Tower crisis, travel to Blackthorn City via Route 44 (East of Mahogany) and the Ice Path.
+- Prepare for the 8th Gym Badge.
