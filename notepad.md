@@ -36,4 +36,6 @@
 - **Next Step:** Deliver to Fisher on Route 31.
 - **Route:** Violet City -> Route 31 Gate -> Route 31.
 - **Note:** Fisher is at (17, 7) on Route 31.
-- **Log:** Manual mail writing worked. "DARK CAVE leads to another road." confirmed.
+- **Log:** Fisher rejected "DARK CAVE leads to another road." (Caps + period). The error "This MAIL isn't for me" strongly implies he IS the recipient but the content is wrong.
+- **Hypothesis:** Text might need to be "Dark Cave" (Title Case) or have different punctuation.
+- **Action:** Checking Cooltrainer first to verify recipient absolutely, then will retry mail text with variations.
