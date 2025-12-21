@@ -11,7 +11,7 @@
 - **Partition**: 4F is split; upper floors require Card Key.
 
 ## Underground Progress (Map 3_53)
-- **Status**: Exploring main corridor to find Basement/Warehouse entrance.
+- **Status**: Found the Basement Door at (18, 6).
 - **Hypothesis**: The Underground leads to the Radio Tower's restricted area (Warehouse), where the real Director and Card Key are located.
 - **NPCs**:
     - Super Nerd Donald (2, 6) - Defeated.
@@ -22,8 +22,9 @@
 - **Warps**:
     - Ladder at (3, 2) -> Underground Entrance (3_54) at (21, 25).
     - Ladder at (3, 34) -> Underground Entrance (3_54) at (5, 25).
-    - Door at (??, ??) -> Switch Room/Basement? (Search in progress).
-- **Passage**: Narrow path to the right at (11, 7).
+    - Door at (18, 6) -> Basement/Switch Room.
+- **Passage**: Narrow path at (11, 7) leads to the Basement Door.
+- **Sign**: (19, 6) - No Entry sign.
 
 # Global Knowledge
 ## Tile Mechanics
