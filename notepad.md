@@ -4,12 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Fix Kenya's Mail (Exit Dex & Open Party).
-  1. **Status:** In Pokedex (Mistake). Exiting to Party.
-  2. **Step 1:** Exit Pokedex (B).
-  3. **Step 2:** Enter Party Menu (Down -> A).
-  4. **Step 3:** Check Cursor Position (Expect Kenya).
-  5. **Step 4:** Take Mail & Rewrite: "Dark Cave leads to another road" (Mixed Case).
+- **Current Action:** Fix Kenya's Mail (Take Mail).
+  1. **Status:** In Party Menu.
+  2. **Step 1:** Select Kenya -> ITEM -> TAKE.
+  3. **Step 2:** Clear text (B).
+  4. **Step 3:** Give Mail -> Write: "Dark Cave leads to another road" (Mixed Case).
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
