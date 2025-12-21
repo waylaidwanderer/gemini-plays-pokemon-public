@@ -1,6 +1,4 @@
 # Goldenrod Radio Tower Crisis (Started Turn 8588)
-- **Status**: Investigating 1F. (Turn 8622)
-- **Objective**: Clear Team Rocket from the tower and restore normal broadcasts.
 - **Strategy (HOW)**:
     1. Perform a floor-by-floor sweep (1F to 5F).
     2. Identify and defeat all Rocket Grunts and Executives.
@@ -22,6 +20,7 @@
 - **Whirlpool**: Requires Glacier Badge to use out of battle.
 - **Battle Menus**: `switch_pokemon_v1` and `battle_move_selector` are ONLY for specific battle menu states.
 - **Ice Trajectory**: Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
+- **Fly Map (Goldenrod)**: From New Bark Town, sequence is: Left (to Cherrygrove), Left (to Violet), Up (to Route 31), Left (to Goldenrod). Note: Menu may be sticky; use discrete presses. (Turn 8596-8604 failure analysis)
 
 # Mahogany Gym (2_2) - COMPLETED
 - **Leader:** Pryce defeated (Turn 8583).
@@ -30,4 +29,3 @@
 # Future Strategy
 - After resolving the Radio Tower crisis, travel to Blackthorn City via Route 44 (East of Mahogany) and the Ice Path.
 - Prepare for the 8th Gym Badge.
-- Battle: Rocket Grunt (1F). Opponent: Raticate Lv24. (Turn 8634)
