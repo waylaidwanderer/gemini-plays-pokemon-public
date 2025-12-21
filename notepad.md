@@ -39,3 +39,5 @@
 - **Log:** Fisher rejected "DARK CAVE leads to another road." (Caps + period). The error "This MAIL isn't for me" strongly implies he IS the recipient but the content is wrong.
 - **Hypothesis:** Text might need to be "Dark Cave" (Title Case) or have different punctuation.
 - **Action:** Checking Cooltrainer first to verify recipient absolutely, then will retry mail text with variations.
+- **Correction:** Fisher rejected "DARK CAVE leads to another road." (All Caps). This suggests case sensitivity matters.
+- **Plan:** After checking Cooltrainer, try "Dark Cave leads to another road." (Title Case).
