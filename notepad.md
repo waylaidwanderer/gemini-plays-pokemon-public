@@ -36,7 +36,7 @@
        - Conclusion: Switch 2 toggles Left and Middle shutters.
     4. Test 3.3: Switch 3 (2, 1) ON.
        - Status: 1:OFF, 2:OFF, 3:ON.
-       - Goal: Identify which shutters Switch 3 toggles.
+       - Observation: Inspecting shutters now.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
