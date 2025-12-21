@@ -1,21 +1,21 @@
 # Tile Mechanics
 - FLOOR: Walkable surface. Verified.
 - WALL: Impassable barrier. Verified.
-- SHUTTER: Toggled by switches. Acts as WALL when closed, FLOOR when open.
+- SHUTTER: Toggled by switches. Acts as WALL when closed, FLOOR when open. Verified at (12, 8).
 - LADDER: Triggers map transition. Verified.
 
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Goal: Reach the Underground Warehouse (Map 3_55).
-- Method: Execute the 3-2-1 sequence and physically verify the path.
-- Current Plan:
-    1. Verify Switch 3 (2, 1) and Switch 2 (10, 1) are ON.
-    2. Turn Switch 1 (16, 1) ON.
-    3. Walk south to Row 6 and Row 10 to identify the open path.
+- Solution: Execute the 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
+- Current Progress: Resetting all switches to OFF to ensure a clean start.
+- Switch 1 (16, 1): ON.
+- Switch 2 (10, 1): ON (Turning OFF now).
+- Switch 3 (2, 1): ON (Need to verify).
 
-## Switch Logic (Hypothesis)
-- Switch 1: Toggles Right-side shutters.
-- Switch 2: Toggles Left/Middle shutters.
-- Switch 3: Toggles Middle shutters.
+## Shutter Locations
+- Right: (12, 8), (12, 9)
+- Center: (10, 6), (10, 7)
+- Left: (16, 6), (17, 6)
 
 # Area Notes
 - Warehouse Entrance: Likely a door in the southern unseen area (Map 3_55).
