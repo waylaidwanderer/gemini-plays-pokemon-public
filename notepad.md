@@ -26,10 +26,10 @@
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping of switch-shutter relationships.
 - Experiment Log (Attempt 3):
-    1. Baseline (All OFF): All shutters CLOSED. Verified at (10, 6), (16, 6), (17, 6).
+    1. Baseline (All OFF): (10, 6) WALL, (16, 6) FLOOR, (17, 6) FLOOR.
     2. Test 3.1: Switch 1 (16, 1) ON. 
        - Current Status: Switch 1 ON, 2 OFF, 3 OFF.
-       - Observation: Inspecting shutters now.
+       - Observation: (16, 6) is FLOOR, (17, 6) is FLOOR.
 - Historical Data (Attempt 2 - 3-2-1 Sequence):
     - 3 ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
     - 3 & 2 ON: (12, 8) OPEN, (12, 9) OPEN.
