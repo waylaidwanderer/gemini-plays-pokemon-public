@@ -2,11 +2,11 @@
 - Starting Turn: 7780
 - Objective: Locate and shut down the source of the "mysterious radio broadcast" in Mahogany Town.
 - HOW:
-    1. Fly to Mahogany Town.
-    2. Heal party at the Pokémon Center (Gneiss and Calcifer are low).
-    3. Meet Lance at the Mahogany Mart (suspicious location noted at 11, 7).
-    4. Explore the Mart for a secret entrance or clues.
-- Status: Red Gyarados defeated, Red Scale obtained. Lance is waiting in Mahogany.
+    1. Fly to Mahogany Town (Done).
+    2. Heal party at the Pokémon Center (Done).
+    3. Meet Lance at the Mahogany Mart (Done).
+    4. Enter the secret hideout via the stairs revealed at (7, 3).
+- Status: Lance used his Dragonite to reveal a secret staircase behind a cabinet at (7, 3) in the Mahogany Mart.
 
 # Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground.
