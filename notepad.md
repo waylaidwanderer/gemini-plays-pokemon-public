@@ -14,7 +14,7 @@
   - Boarder Brad (2_2, 5, 9): Swinub Lv26. [DEFEATED]
   - Skier Roxanne (2_2, 4, 6): Jynx Lv28. [DEFEATED]
   - Boarder Ronald (2_2, 0, 17): Seel Lv24, Dewgong Lv25. [DEFEATED]
-  - Boarder Douglas (2_2, 2, 4): Shellder Lv24, Cloyster Lv25. [IN BATTLE]
+  - Boarder Douglas (2_2, 2, 4): Shellder Lv24, Cloyster Lv25. [DEFEATED]
 
 # Navigation Plan
 - **Phase 1: Clear the South-West Corner**
