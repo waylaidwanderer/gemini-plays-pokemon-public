@@ -24,8 +24,7 @@
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
 - Current Progress: Executing 3-2-1 sequence. S3 is ON, S2 is ON. Moving to Switch 1 (16,1).
 - Sequence Step: 3 of 3.
-- Observed Shutter States (1,1,0): To be verified after S1 toggle.
-- Number of failed attempts: 1 (Turn 10300) - 3-2-1 from mixed state failed.
+- Observed Shutter States (1,1,0): To be verified after S1 toggle. (Previous state (1,0,0) had (12,8) OPEN).
 - Observed Shutter Toggles:
   - S1 (16,1) toggles (16,6), (10,6), (6,8)
   - S2 (10,1) toggles (10,6), (12,8), (6,8)
