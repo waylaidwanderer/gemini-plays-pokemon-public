@@ -265,7 +265,7 @@
         "start_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef solve():\n    try:\n        if len(sys.argv) < 2:\n            return []\n        data = json.loads(sys.argv[1])\n        start_x = int(data['start_x'])\n        start_y = int(data['start_y'])\n        target_x = int(data['target_x'])\n        target_y = int(data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                # COLLISION: WALL, COUNTER, BOOKSHELF, TABLE, MART_SHELF\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                \n                # Objects (NPCs, Items) are walls\n                # Markers are NOT walls.\n                obj = tile.find('Object')\n                if obj is not None:\n                    # Exception: if it's the target tile, we might be interacting with it\n                    if not (x == target_x and y == target_y):\n                        is_wall = True\n                \n                grid[(x, y)] = not is_wall\n\n        # BFS\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return [] # Return empty list on error to avoid harness issues\n\nprint(json.dumps(solve()))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                obj = tile.find('Object')\n                if obj is not None:\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -281,6 +281,11 @@
         "commit_message": "Refined find_path_v3: fixed collision logic (markers are not walls), improved error handling to prevent harness from trying to press error messages as buttons, and added more robust tile type checking.",
         "timestamp": "2025-12-21T05:33:14.453Z",
         "action_counter": 8102
+      },
+      {
+        "commit_message": "Fixed find_path_v3 and switch_pokemon_v1 to use input_data dictionary instead of json.loads(sys.argv[1]).",
+        "timestamp": "2025-12-21T05:35:00.082Z",
+        "action_counter": 8104
       }
     ]
   },
@@ -303,7 +308,7 @@
         "current_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        target_index = int(data['target_index'])\n        current_index = int(data['current_index'])\n        \n        buttons = []\n        diff = target_index - current_index\n        if diff > 0:\n            for _ in range(diff):\n                buttons.append(\"Down\")\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\") # Select Pokemon\n        buttons.append(\"A\") # Choose 'SHIFT' / 'SWITCH'\n        return buttons\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
+    "python_script": "import json\n\ndef solve():\n    try:\n        target_index = int(input_data['target_index'])\n        current_index = int(input_data['current_index'])\n        \n        buttons = []\n        diff = target_index - current_index\n        if diff > 0:\n            for _ in range(diff):\n                buttons.append(\"Down\")\n        elif diff < 0:\n            for _ in range(abs(diff)):\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\") # Select Pokemon\n        buttons.append(\"A\") # Choose 'SHIFT' / 'SWITCH'\n        return buttons\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -319,6 +324,11 @@
         "commit_message": "Refined switch_pokemon_v1 to take current_index as an argument to handle menu navigation from any starting position.",
         "timestamp": "2025-12-21T05:33:14.453Z",
         "action_counter": 8102
+      },
+      {
+        "commit_message": "Fixed switch_pokemon_v1 to use input_data dictionary instead of json.loads(sys.argv[1]).",
+        "timestamp": "2025-12-21T05:35:00.083Z",
+        "action_counter": 8104
       }
     ]
   }
