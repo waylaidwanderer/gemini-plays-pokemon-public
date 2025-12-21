@@ -3,7 +3,7 @@
 - Objective: Locate and shut down the radio transmitter in Team Rocket Base.
 - HOW:
     1. Obtain passwords from Grunt (7, 14) and Rocket Girl (21, 7). [DONE]
-    2. Unlock the boss's room at (10, 9) using the passwords. [CURRENT]
+    2. Unlock the boss's room at (10, 9) using the passwords 'RATICATE TAIL' and 'SLOWPOKETAIL'. [CURRENT]
     3. Defeat the boss to get the transmitter room password.
     4. Shut down the transmitter on B2F.
 
@@ -42,9 +42,4 @@
 - Always verify foundation assumptions before pursuing complex strategies.
 - The map is divided by a wall at column 15; cross at Row 12 or 13.
 - To reach the boss door, go around the Row 11-13 barrier via column 3.
-
-# Western Passage Observations
-- Row 11: WALL from (1, 11) to (13, 11).
-- Column 0: Unseen tiles from (0, 11) to (0, 16). Hypothesis: Column 0 provides a path around the Row 11 wall.
-- Items: POKE_BALL at (3, 12) and (1, 12).
-- Row 16: FLOOR from (1, 16) to (5, 16). Safe passage to the west.
+- Failed pathfinding for item at (14, 10) was due to trying to path onto the item tile.
