@@ -23,8 +23,8 @@
 - **Exploration:** Returned to B1F via West Ladder (3, 14).
 - **Hypothesis:** A Warp Panel on B1F might lead to a restricted area or trigger the next event. Checking Warp Panel at (5, 15).
 - **Observation:** B1F is fully connected (East/West joined by gap at 9,4).
-- **Action:** Engaging Rocket Grunt at (2, 4) on B1F.
-- **Plan:** After interaction, return to B2F via ladder at (3, 14).
-- **Hypothesis:** Clearing this grunt might trigger the door unlock or Lance's appearance.
-- **Inventory:** Space available (Tossed Wht Apricorn). Looted Hyper Potion.
+- **Action:** Return to B2F via ladder at (3, 14).
+- **Plan:** Approach the locked doors on B2F from the West side to trigger the Rival event.
+- **Status:** Grunt at (2, 4) was non-hostile. Passwords confirmed.
+- **Hypothesis:** Rival trigger might be location-sensitive (West approach).
 - **Hypothesis:** Might need to clear all grunts or find Lance (possibly moved) to trigger the door event.
