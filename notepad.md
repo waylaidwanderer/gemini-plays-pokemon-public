@@ -6,17 +6,18 @@
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Method: Execute the 3-2-1 sequence (Turn ON Switch 3, then 2, then 1).
-- Logic: Order of switches matters. 3-2-1 is the standard solution.
+- Logic: Order of switches matters. 3-2-1 is the standard solution from all-OFF state.
 
 ## Switch Status
-- Switch 3 (2, 1): 🔴 OFF
+- Switch 3 (2, 1): 🟢 ON (Turn 9757)
 - Switch 2 (10, 1): 🔴 OFF
 - Switch 1 (16, 1): 🔴 OFF
 
-## Shutter Truth Table
-| Configuration [3, 2, 1] | (2, 6) | (10, 6) | (12, 8) | (16, 6) |
-|-------------------------|--------|---------|---------|---------|
-| [OFF, OFF, OFF]         | ?      | ?       | ?       | ?       |
+## Shutter States (Current: [ON, OFF, OFF])
+- (2, 6): FLOOR
+- (10, 6): WALL
+- (12, 8): FLOOR
+- (16, 6): WALL
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
