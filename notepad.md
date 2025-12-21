@@ -9,10 +9,15 @@
 - Start Turn: ~9640
 - Logic: Order of switches matters. 3-2-1 is the solution.
 
-## Switch States
+## Switch Reset (Current Status)
 - Switch 1 (16, 1): 🔴 OFF
-- Switch 2 (10, 1): 🟢 ON (Turning OFF now)
-- Switch 3 (2, 1): 🟢 ON
+- Switch 2 (10, 1): 🔴 OFF
+- Switch 3 (2, 1): 🟢 ON (Moving to turn OFF)
+
+## Shutter Truth Table
+| Configuration [3, 2, 1] | (2, 6) | (10, 6) | (12, 8) | (16, 6) |
+|-------------------------|--------|---------|---------|---------|
+| [ON, OFF, OFF] (9752)   | FLOOR  | WALL    | FLOOR   | WALL    |
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
