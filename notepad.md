@@ -26,7 +26,7 @@
 - Attempt 2 Progress:
   - 1. S3 ON: Done (Turn 10313).
   - 2. S2 ON: Done (Turn 10324).
-  - 3. S1 ON: In progress (Turn 10325).
+  - 3. S1 ON: Done (Turn 10326). Sequence Complete.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
