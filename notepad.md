@@ -11,7 +11,7 @@
 # Team Rocket Base Investigation (Mahogany Town)
 - **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained. Alarms disabled on B1F.
 - **B1F (3_49):**
-  - (27, 2): Entrance Ladder (from Mart).
+  - (27, 2): Entrance Ladder.
   - (3, 14): Ladder to B2F West (South section).
   - (5, 15): Warp panel (shortcut) to (25, 2).
   - (18, 12): Scientist Jed (Defeated).
@@ -30,14 +30,14 @@
   - (10, 9): Boss Room Door (Locked). Requires 2 passwords.
 
 # Strategy (HOW)
-1. **Find B2F North:** Search B1F for a ladder leading to the isolated northern section of B2F.
-2. **Loot B2F North:** Reach the item at (3, 10) on B2F.
-3. **Find B3F West:** Locate the ladder in B2F North that leads to the western section of B3F.
-4. **Confront Boss:** Use passwords to unlock the door at (10, 9) on B3F and defeat the Executive.
-5. **Shut Down Transmitter:** Use the final password to enter the transmitter room on B2F and disable the signal.
+1. **Navigate B2F East:** Go to (23, 16) to cross the central barrier.
+2. **Access B2F North:** Go to Row 11 and clear the Voltorb at (22, 11).
+3. **Explore B2F North:** Enter via the gap at (19, 10), loot (3, 10), and find the ladder to B3F West.
+4. **Confront Boss:** Unlock the door at (10, 9) on B3F and defeat the Executive.
+5. **Shut Down Transmitter:** Use the final password to disable the signal on B2F.
 
 # Lessons Learned
-- Map sections (like B2F and B3F) can be completely isolated; look for alternative floor transitions.
+- Map sections can be completely isolated; look for alternative floor transitions.
 - Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
 - Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
 - Always check if an NPC or Item sprite is at the target coordinate before pathing.
