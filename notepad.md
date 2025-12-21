@@ -22,12 +22,15 @@
 - Current Switch States:
   - Switch 3 (2,1): OFF (0)
   - Switch 2 (10,1): OFF (0)
-  - Switch 1 (16,1): ON (1)
-- Observed Shutters (Current): (2,6) OPEN, (3,6) OPEN, (12,8) OPEN. Others CLOSED.
+  - Switch 1 (16,1): OFF (0)
+- Observed Shutters (Current): (2,6) CLOSED, (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) CLOSED. (State 0,0,0 verified)
 - Plan:
-  1. Reset all switches to OFF (0, 0, 0).
-  2. Test sequence 3-2-1 (Left, Middle, Right) from (0,0,0).
-- Current Step: Moving to Switch 1 to reset to OFF.
+  1. Execute sequence 3-2-1:
+     - Toggle Switch 3 (2,1) -> ON.
+     - Toggle Switch 2 (10,1) -> ON.
+     - Toggle Switch 1 (16,1) -> ON.
+  2. Navigate to southeast warehouse entrance.
+- Current Step: Sequence Step 1 - Toggling Switch 3 to ON.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
