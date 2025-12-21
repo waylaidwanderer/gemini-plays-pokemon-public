@@ -88,3 +88,5 @@
 - Plan: Confirm message loss, ensure Kenya holds nothing, then talk to Webster.
 - Turn 9890: Confirmed "YES" to remove mail message. Kenya is now holding nothing (Mail moved to Bag).
 - Next Step: Exit menu and talk to Webster to trigger lost mail dialogue.
+- Turn 9891: Exiting menus (B, B) and interacting with Webster (Left, A).
+- Context: Kenya is now empty-handed. Expecting Webster to notice the missing mail and offer a replacement.
