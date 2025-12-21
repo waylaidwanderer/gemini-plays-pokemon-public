@@ -53,3 +53,18 @@
 - Path: (2, 10) -> Right -> (5, 10) -> Right -> (9, 10) -> Up -> (9, 7) -> Left -> (4, 7).
 - Hypothesis: Sliding into FLOOR tiles is the key to course-correcting in this gym.
 - Skier Roxanne (2_2, 4, 6): Jynx Lv28.
+
+# Progress Log
+- Turn 8508: Defeated Skier Roxanne.
+
+# Mahogany Gym Navigation Analysis
+- Current Position: (4, 7).
+- Goal: Reach Pryce at (5, 3).
+- Observed Obstacles:
+  - BEAUTY (Roxanne) at (4, 6) - defeated.
+  - ROCKER at (2, 4) - undefeated.
+  - PRYCE at (5, 3).
+  - WALL at (1, 4-7).
+  - FLOOR at (3, 4), (5, 4).
+- Hypothesis 2: To reach Pryce, I need to slide into the FLOOR tile at (5, 4).
+- Test 2: From (4, 7), slide Right to (5, 7), then Up to (5, 4).
