@@ -68,3 +68,4 @@
 - Destination: North Gatehouse (19, 1).
 - Turn 9879: Shifting back to column 19 (Right) to avoid Lass at (17, 10) who oscillates between 17 and 18.
 - Path: Right to (19, 11), then Up to North Gate (19, 1).
+- Turn 9880: Reached North Gate entrance at (19, 1). Entering to find Webster.
