@@ -25,3 +25,6 @@
 - **Inputs:** Pressing Start in Mail menu triggers Printer Error. Use B.
 - **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
 - **Menu Nav:** Cursor positions are remembered. Always verify position before confirming.
+- **CRITICAL FAILURE (Turn 9804):** `write_mail_safe` tool desynchronized, exited mail menu, navigated to SAVE, and overwrote the save file.
+- **Recovery:** Checking Kenya's status. Will revert to manual `slow_press` for all future typing.
+- **Current Location:** (15, 7) Route 31.
