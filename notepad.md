@@ -4,10 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Type Message (Mixed Case).
-  1. **Status:** Tool defined. Executing next.
-  2. **Step 1:** Execute `type_text` with: "Dark Cave leads to another road."
-  3. **Step 2:** Confirm delivery.
+- **Current Action:** Deliver Mixed Case Mail.
+  1. **Status:** Mail attached (presumably). In Move/Stats menu.
+  2. **Step 1:** Exit Menus (B x4).
+  3. **Step 2:** Interact with Fisher (Down -> A).
+  4. **Step 3:** Receive Reward (TM50?).
+  5. **Step 4:** Fly to Ecruteak City.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
