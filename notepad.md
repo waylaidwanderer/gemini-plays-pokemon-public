@@ -22,7 +22,7 @@
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Observation: Sequence 3-2-1 failed to open final shutters and closed others. Hypothesis: The puzzle requires a specific starting state or a different logic.
 - Plan: Reset all switches to OFF. Then test each switch individually to document shutter effects.
-- Status: Switch 1 turned OFF. Currently at Switch 2.
+- Status: Switch 1 and Switch 2 turned OFF. Heading to Switch 3.
 - Sequence Attempts: 1 (3-2-1 failed).
 
 # Area Notes
