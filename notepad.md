@@ -9,13 +9,13 @@
 - Started: Turn 9640
 - Current Goal: Reset all switches to OFF to perform 3-2-1 sequence.
 
-# Switch Status (Turn 9821)
-- Switch 3 (2, 1): 🔴 OFF (Just turned OFF)
+# Switch Status (Turn 9823)
+- Switch 3 (2, 1): 🟢 ON (Just turned ON)
 - Switch 2 (10, 1): 🔴 OFF
 - Switch 1 (16, 1): 🔴 OFF
 
 # Shutter States (Verified)
-- (2, 6): OPEN (FLOOR)
+- (2, 6): CLOSED (WALL)
 - (10, 6): CLOSED (WALL)
 - (12, 8): OPEN (FLOOR)
 - (16, 6): CLOSED (WALL)
