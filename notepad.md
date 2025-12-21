@@ -21,7 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exploring B2F NW Room (x=1-5).
-- **Observation:** Isolated room with Item Ball at (3,10). Counters at (2,8)/(3,8) can be bypassed via (1,8).
-- **Plan:** Pick up Item at (3,10). Confirm dead end. Backtrack to B3F to find the Boss Room door (likely accessible from B3F South or East).
-- **Refinement:** The Grunt at B3F (5,14) gave a password. I should check if I can reach the Boss Room doors (10,9) from that area.
+- **Status:** At B2F NW Isolated Room (3,9). Item Ball at (3,10).
+- **Observation:** This room (x=1-5) is separated from the "Voltorb/Transmitter Room" (x=7+) by a wall.
+- **Plan:** Pick up Item. Backtrack to B2F North Corridor via B3F West.
+- **Hypothesis:** The B2F Transmitter Room (Voltorbs) is accessed via a hole/trap in B1F NW or stairs from B3F Boss Room.
