@@ -41,7 +41,8 @@
 - Strategy: Following Strategist's 3-2-1 sequence.
     - Step 1: Switch 3 ON (Completed).
     - Step 2: Switch 2 ON (Completed).
-    - Step 3: Switch 1 ON (Target).
+    - Step 3: Switch 1 ON (Completed).
+- Goal: Verify path to ladder at (23, 3).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
