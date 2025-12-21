@@ -25,8 +25,14 @@
   - NOTE: Need to re-verify Switch 1 effects if I was wrong about (2, 6) and (6, 9) baseline.
 
 ### Test 2: Switch 2 (10, 1) -> ON
-- Status: Started Turn 9958.
-- Observations: PENDING.
+- Status: Observation phase.
+- Observations (compared to baseline 0,0,0):
+  - (10, 6): OPEN (Visual confirmed Turn 9963).
+  - (2, 6): ?
+  - (16, 6): ?
+  - (6, 8): ?
+  - (12, 8): ?
+  - (6, 9): ?
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
