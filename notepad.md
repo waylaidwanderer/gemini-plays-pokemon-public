@@ -38,6 +38,6 @@
 - Turn 9921: Moving to (17, 8) to interact with Fisher.
 - Path: Down to (15, 8) -> Right to (17, 8) to bypass Fruit Tree at (16, 7).
 - Action: Talk to Fisher to attempt delivery.
-- Turn 9922: Positioned at (17, 8). Fisher is North at (17, 7).
-- Action: Facing Up and talking to Fisher.
-- Mail Content: "Dark Cave leads to another road" (No period).
+- Turn 9923: Interacting with Fisher.
+- Quest Status: Testing Forgery #3 ("Dark Cave leads to another road" - No Period).
+- Previous Turn Logs: Consolidated.
