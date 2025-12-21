@@ -19,7 +19,7 @@
 - **B3F (3_51):**
   - (10, 9): Boss Room Door (Opened).
   - (8, 3): Boss Office. Executive defeated at Turn 8361.
-  - (9, 3): Murkrow location (likely gives final password).
+  - (7, 2): Murkrow location (likely gives final password).
 - **Key Encounters:**
   - **Malice:** Met on B3F West (7, 10). Mentioned Lance's lecture on love/trust.
   - **Rocket Executive:** Defeated on B3F West. He ran off after the battle.
