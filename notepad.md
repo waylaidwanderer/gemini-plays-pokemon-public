@@ -64,3 +64,5 @@
 - Destination: Ladder at (3, 14).
 - Trap Battle at (5, 13) confirmed inescapable. Must fight.
 - Warning: Voltorb may use Selfdestruct. Muscle has 106 HP, should survive.
+- Muscle is out of Strength PP.
+- Using Dig (Super Effective) to secure the KO on Voltorb.
