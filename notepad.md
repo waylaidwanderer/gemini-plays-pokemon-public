@@ -52,3 +52,6 @@
 - **Warps**:
     - (9, 0): Back to 3F.
     - (12, 0): Up to 5F.
+- Scientist at (4, 2): Next target on 4F.
+- Rocket at (5, 6): Spotted in movement paths.
+- Teacher at (14, 6): Spotted in movement paths.
