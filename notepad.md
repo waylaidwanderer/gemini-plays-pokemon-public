@@ -42,3 +42,13 @@
 - Switch 3 ON: Opens (12, 8), (12, 9). Closes (6, 9).
 - Switch 3 OFF: Opens (10, 6), (10, 7).
 - Switch 2 ON -> OFF: Closes (10, 6), (10, 7).
+
+# Active Task Tracking
+- Shopping Trip (Restock): Started Turn 9181.
+- Current Location: Goldenrod Dept. Store 4F.
+- Goal: Find clerk selling Hyper Potions/Revives.
+
+# Area Notes: Goldenrod Dept. Store 4F
+- NPCs: Bug Catcher (ID 3), Gameboy Kid (ID 4).
+- Elevator Button: (3, 0).
+- Staircase: (2, 0).
