@@ -21,18 +21,16 @@
 
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Goal: Clear path to ladder at (23, 3).
-- Method: Testing 3-2-1 sequence (Left to Right) from clean state.
-- Shutter Logic (Hypothesis):
-    - Switch 3: Toggles (12, 8), (12, 9), (6, 9).
-    - Switch 2: Toggles (10, 6), (10, 7), (12, 8), (12, 9).
-    - Switch 1: Toggles (16, 6), (17, 6), (12, 9).
+- Puzzle Start (Reset): Turn 9462.
+- Method: Testing sequences from clean state (all OFF).
 - Experiment Log (Attempt 2):
     1. Baseline (All OFF): All shutters CLOSED.
     2. Switch 3 (2, 1) ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
-    3. Switch 2 (10, 1) ON: Verified.
-    4. Switch 1 (16, 1) ON: Confirmed ON (Turn 9499).
-- Current Status: 3-2-1 sequence complete. Moving to verify shutters.
-- Sequence Attempts: 1 (Attempt 2: 3-2-1 complete).
+    3. Switch 2 (10, 1) ON: Verified ON.
+    4. Switch 1 (16, 1) ON: Verified ON.
+- Current Observation (Turn 9504): Shutters (16, 6) and (17, 6) are CLOSED despite 3-2-1 sequence.
+- Current Status: All switches ON. Moving to verify other shutters.
+- Sequence Attempts: 2 (3-2-1 failed twice).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
