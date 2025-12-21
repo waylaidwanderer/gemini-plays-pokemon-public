@@ -47,21 +47,18 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Compose Mail.
-  1. **Status:** Typing "DARK".
-  2. **Method:** Manual typing via `slow_press` (Tool `type_text` deleted due to errors).
+  1. **Status:** Typing " CAVE ".
+  2. **Method:** Manual typing via `slow_press`.
   3. **Plan:**
-     - Type "DARK" (Done this turn).
-     - Type " CAVE " (Next).
-     - Switch to lowercase.
-     - Type remainder.
-  4. **Note:** Cursor ends at 'K' (0,1).
+     - Type " CAVE " (Done this turn).
+     - Switch to lowercase (Next).
+     - Type "leads to another road."
+  4. **Note:** Cursor ends at 'Space' (6,2).
 
 ## Maintenance
-- **Tool Fix:** Deleted `type_text` to free slot. Plan to define robust `type_mail` tool if manual is too slow.
+- **Tool Fix:** Deleted `type_text`. Using manual.
 
-## Reflection (Turn 9278)
-- **Action:** Typing "DARK" manually.
-- **Cursor Tracker:**
-  - Start: A (0,0)
-  - End: K (0,1)
-- **Next:** Type " CAVE " (Space, C, A, V, E, Space).
+## Reflection (Turn 9279)
+- **Action:** Typed " CAVE ".
+- **Text:** "DARK CAVE ".
+- **Next:** Switch to lower case, then type "leads".
