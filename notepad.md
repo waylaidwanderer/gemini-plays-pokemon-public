@@ -2,8 +2,8 @@
 
 ## Current Strategy
 - **Primary Goal:** Investigate Mahogany Town (Radio Signal).
-- **Secondary Goal:** Find Lance in Mahogany Town (likely near Mart).
-- **Navigation:** Fly to Mahogany Town.
+- **Secondary Goal:** Find Lance in Mahogany Town.
+- **Navigation:** Route 43 -> Mahogany Town (South).
 
 ## Quest Log
 - **Lake of Rage:**
@@ -19,29 +19,19 @@
 - **Party:** Muscle (42), Garnet (28), Lapis (12), Mistral (13), Kenya (11), Belladonna (5).
 - **Box 1:** Red Gyarados (30).
 - **Idea:** Swap a weak member (Belladonna/Kenya) for Red Gyarados (Water/Flying) for better power?
-    - Note: Gyarados overlaps type with Lapis (Water) and Mistral/Kenya (Flying).
-    - But it's Level 30. Huge immediate boost.
 
 ## World Knowledge
 - **Mahogany Town:** Suspicious Mart with locked stairs. Lance's destination.
-- **Lake of Rage:** Red Scale obtained (Trade to Mr. Pokemon?).
+- **Lake of Rage:** Red Scale obtained.
+- **Route 43:** Connects Lake of Rage (North) to Mahogany Town (South). Gatehouse avoids toll.
 
 ## Mechanics
-- **Fly:** Cycles towns.
+- **Fly:** Cycles towns (Up/Down).
 - **Hidden Items:** Check suspicious tiles.
+- **Menu Navigation:** Cursor remembers position. Verify before pressing A.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WARP_CARPET: Map transition.
 - STAIRS: Change floor.
-- **Route 43:** Navigating south from Lake of Rage to Mahogany Town.
-    - Walking because Fly menu was troublesome.
-    - Checkpoint: Gatehouse at south end.
-- **Quest Log:**
-    - Investigating Radio Signal in Mahogany Town.
-    - Meeting Lance there.
-- **Lake of Rage:** Caught Red Gyarados.
-- **Current Location:** Route 43 (North End).
-- **Menu Navigation Note:** The cursor in the Start Menu and sub-menus remembers its last position. When reopening menus, verify the cursor position before pressing 'A' to avoid selecting the wrong option or canceling inadvertently.
-- Tool Note: smart_battle_move requires accurate `current_slot` input because the game remembers the last used move cursor position. Defaulting to 1 when the cursor is elsewhere causes incorrect move selection.
