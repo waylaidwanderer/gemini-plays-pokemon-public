@@ -62,3 +62,5 @@
 - Encountered Trap Voltorb at (5, 13).
 - Traps are not just every 2 tiles anymore. Be careful.
 - Destination: Ladder at (3, 14).
+- Trap Battle at (5, 13) confirmed inescapable. Must fight.
+- Warning: Voltorb may use Selfdestruct. Muscle has 106 HP, should survive.
