@@ -15,7 +15,7 @@
     - Rocket Girl (10, 3): Arbok Lv26 - Defeated.
     - Rocket Grunt (8, 4): 4 Rattatas (Lv21-23) - Defeated.
     - Rocket Grunt (4, 1): 2 Zubats (Lv26) - Defeated.
-    - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - In Progress (Turn 8692+).
+    - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated (Turn 8709).
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
@@ -38,6 +38,5 @@
 # Navigation Notes
 - **Counter Interaction**: Face the counter, not the NPC.
 - **Whirlpool**: Requires Glacier Badge.
-- **Fly Map (Goldenrod)**: From New Bark Town, move Left to reach the western side, then Up to Goldenrod. Menu is "sticky"; use discrete presses or `fly_to_v1`.
-- **Notepad Edits**: `replace` requires exact character matching. Use `overwrite` for major reorganization.
+- **Fly Map (Goldenrod)**: From New Bark Town, the sequence is 3 Ups, 6 Lefts, then 1 Up to land on Goldenrod City. The menu is "sticky", so use discrete presses or the `fly_to_v1` tool.
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
