@@ -1,37 +1,26 @@
 # Tile Mechanics
 - FLOOR: Traversable.
-- WALL/SHUTTER: Impassable when CLOSED (WALL collision), traversable when OPEN (FLOOR collision).
+- SHUTTER: WALL when CLOSED, FLOOR when OPEN.
 
-# Puzzle: Goldenrod Underground Switch Puzzle
+# Puzzle: Goldenrod Underground Switch Room
 - Goal: Reach the Underground Warehouse (Map 3_55).
-- Strategy: Systematic testing of switches to determine shutter logic.
+- Strategy: Identify the sequence that clears row 6 and row 8.
 
-## Systematic Testing
-- Baseline (0, 0, 0): ALL SHUTTERS CLOSED.
-  - (2, 6), (10, 6), (16, 6), (6, 8), (12, 8), (6, 9): CLOSED.
+## Switch Logic (Isolation)
+- S1 (1,0,0): (16,6) OPEN, (12,8) OPEN.
+- S2 (0,1,0): (10,6) OPEN, (6,8) OPEN, (6,9) OPEN.
+- S3 (0,0,1): (2,6) OPEN.
 
-### Test 1: Switch 1 (16, 1) -> ON (1, 0, 0)
-- Status: Complete.
-- Observations: (16, 6) OPEN, (12, 8) OPEN. Others CLOSED.
+## Sequence Results
+- 3 -> 2 (0,1,1): (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN.
+- 3 -> 2 -> 1 (1,1,1): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
 
-### Test 2: Switch 2 (10, 1) -> ON (0, 1, 0)
-- Status: Complete.
-- Observations: (10, 6), (10, 7), (11, 6), (11, 7) OPEN. (6, 8), (6, 9) OPEN. Others CLOSED.
-
-### Test 4: Switch 3 ON, Switch 2 ON (0, 1, 1)
-- Status: Complete. 
-- Observations: Path to Warehouse Entrance (18, 6) remains blocked by CLOSED shutters at (16, 6) and (12, 8).
-
-### Final Sequence: 3-2-1
-- Step 1: Switch 3 ON (Turn 9993).
-- Step 2: Switch 2 ON (Turn 10002).
-- Step 3: Switch 1 ON (Started Turn 10019).
-- Result (1, 1, 1): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
-
-### Order Testing
-- Goal: Find order that opens (10,6) or (16,6).
+## Plan
+1. Reset to (1,0,0) (Just Switch 1 ON).
+2. Explore southeast quadrant for Warehouse warp.
+3. If blocked, test 2-1-3 or 1-3-2.
 
 # Area Notes
-- Warehouse Entrance: South-east unseen area.
-- Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_53.
-- Key NPCs: Rocket Girl (19, 12), Emergency Switch (20, 11).
+- Warehouse Entrance: Likely southeast warp.
+- Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11), Burglar Eddie (9,12).
+- Return Ladders: (23,3), (21,25), (5,25).
