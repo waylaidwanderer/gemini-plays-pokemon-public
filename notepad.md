@@ -97,3 +97,6 @@
 - Turn 9897: Navigating to 'END' on keyboard.
 - Path: Right x6 (to 'j' column), Down x5 (to bottom row), A.
 - Objective: Confirm mail text "Dark Cave leads to another road" (No period).
+- Turn 9898: Confirmed mail text "Dark Cave leads to another road" (No period).
+- Next Step: Fly to Violet City and deliver to Fisher.
+- Note: If this fails, the text might be different (e.g. "Dark Cave connects..." or something else). But "leads to another road" is the most cited version.
