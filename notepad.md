@@ -111,3 +111,6 @@
 - Action: Navigating to Violet City. Path: Up, Left (to Cherrygrove), Up (to Violet).
 - Sequence: slow_press ['Up', 'Left', 'Up'].
 - Goal: Verify cursor is on Violet City, then Fly.
+- Turn 9913: Fly Map cursor confirmed on Violet City.
+- Action: Pressing 'A' to Fly.
+- Next: Arrival in Violet City -> Route 31 -> Fisher.
