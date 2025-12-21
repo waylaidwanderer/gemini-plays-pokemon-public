@@ -25,5 +25,6 @@
 - **Observation:** B1F is fully connected (East/West joined by gap at 9,4).
 - **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
 - **Blocker:** B2F Door likely requires a different password.
-- **Immediate Plan:** Search bookshelves at (7, 13)-(4, 13) for a switch. Access to (5,13) is blocked by grunt.
+- **Findings:** Bookshelves at (4,13), (6,13), (7,13) contain "Rocket Oath".
+- **Immediate Plan:** Retrieve item at (1,12). Then interact with Grunt at (5,14) to check if he moves. If not, return to B1F to check Warp Panel at (5,15).
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
