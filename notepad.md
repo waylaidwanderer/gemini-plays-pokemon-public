@@ -84,3 +84,5 @@
 - Turn 9888: In Kenya's Mail Menu. Cursor on READ.
 - Action: Selecting TAKE (Down, A) to remove the mail.
 - Expectation: Prompt "Send removed MAIL to your PC?"
+- Turn 9889: Selected 'NO' to "Send to PC?". Next prompt should be "Message will be lost. OK?".
+- Plan: Confirm message loss, ensure Kenya holds nothing, then talk to Webster.
