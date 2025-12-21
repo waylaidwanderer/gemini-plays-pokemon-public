@@ -9,9 +9,9 @@
 - Started: Turn 9640
 - Current Goal: Determine the correct sequence to open all shutters.
 
-# Switch Status (Turn 9811)
+# Switch Status (Turn 9813)
 - Switch 3 (2, 1): 🟢 ON
-- Switch 2 (10, 1): 🟢 ON
+- Switch 2 (10, 1): 🔴 OFF (Just turned OFF)
 - Switch 1 (16, 1): 🔴 OFF
 
 # Shutter States (Verified)
