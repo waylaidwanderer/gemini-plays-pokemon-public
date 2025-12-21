@@ -41,4 +41,4 @@
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
 ## Tower Progress
 - Floors 1F-4F: Accessible areas cleared.
-- 5F: Reached. Battling fake Director for Basement Key. Facing Weezing (Lv32).
+- 5F: Battling fake Director (Rocket Executive). Facing Koffing #3 (Lv30). Goal: Basement Key.
