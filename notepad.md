@@ -8,12 +8,13 @@
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Restarting Mail Process.
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Entering Pack.
+- **Current State:** Giving Mail to Kenya.
 - **Next Steps:**
-    1. Locate Flower Mail (Items Pocket).
-    2. Select 'GIVE' -> Kenya.
-    3. Type "DARK CAVE" (Verified text).
-    4. Deliver to Fisher.
+    1. Select 'GIVE' (A -> A).
+    2. Select Kenya (Down x4 -> A).
+    3. Verify Mail Screen.
+    4. Type "DARK CAVE".
+    5. Deliver to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps).
