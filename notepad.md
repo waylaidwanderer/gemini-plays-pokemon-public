@@ -93,3 +93,4 @@
 
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
+- Surveillance cams are in the POKéMON statues. Rocket Grunts will keep appearing until a secret switch is tripped.
