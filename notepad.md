@@ -21,7 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Taken Ladder B2F (3,2) -> Arrived B3F West (3,2). In an isolated corridor.
-- **Observation:** Unreachable Rival/Object (Moltres Sprite) and Grunt visible to the East.
-- **Plan:** Take Ladder at (3,6) to continue the path.
-- **Hypothesis:** B3F (3,6) Ladder -> B2F NW (Transmitter Room) or Executive location.
+- **Status:** Exploring B2F NW Room (x=1-5).
+- **Observation:** Isolated room with Item Ball at (3,10). Counters at (2,8)/(3,8) can be bypassed via (1,8).
+- **Plan:** Pick up Item at (3,10). Confirm dead end. Backtrack to B3F to find the Boss Room door (likely accessible from B3F South or East).
+- **Refinement:** The Grunt at B3F (5,14) gave a password. I should check if I can reach the Boss Room doors (10,9) from that area.
