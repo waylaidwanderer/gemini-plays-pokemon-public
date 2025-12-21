@@ -60,3 +60,6 @@
 - Next Action: Fly to Ecruteak City.
 - Turn 9935: Opening Party Menu to Fly to Ecruteak.
 - Note: Cursor likely remembers last position (Kenya). Will verify before selecting Mistral.
+- Turn 9936: Cursor on Muscle. Navigating to Mistral (Slot 4) to Fly.
+- Sequence: Down x3 -> A -> A.
+- Destination: Ecruteak City. From there, West to Route 42 -> Mahogany.
