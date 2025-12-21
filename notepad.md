@@ -6,20 +6,20 @@
 
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Goal: Reach the Underground Warehouse (Map 3_55).
-- Method: Map the exact effect of each switch by toggling from all-OFF state.
+- Method: Execute the 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
+- Start Turn: ~9640
 
 ## Switch-Shutter Mappings (Observed)
-- Switch 1 (16, 1): Toggles (12, 8). [ON -> WALL] (Turn 9710)
-- Switch 2 (10, 1): Toggles (2, 6). [OFF -> WALL] (Turn 9666)
-- Switch 3 (2, 1): Toggles (16, 6). [OFF -> FLOOR] (Turn 9675)
-- Unknown: Which switch toggles (10, 6)?
+- Switch 1 (16, 1): Toggles (12, 8). [ON -> WALL]
+- Switch 2 (10, 1): Toggles (2, 6). [OFF -> WALL]
+- Switch 3 (2, 1): Toggles (16, 6). [OFF -> FLOOR]
 
 ## Current Switch States
 - Switch 1: OFF
-- Switch 2: ON (Moving to turn OFF)
+- Switch 2: ON
 - Switch 3: ON
 
-## Shutter States (Turn 9718)
+## Shutter States (Turn 9721)
 - (2, 6): FLOOR (Open)
 - (10, 6): WALL (Closed)
 - (12, 8): FLOOR (Open)
