@@ -13,7 +13,10 @@
 ## Verified Switch States
 - Switch 3 (2, 1): 🟢 ON
 - Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🔴 OFF (Turning ON now)
+- Switch 1 (16, 1): 🟢 ON (Just turned ON)
+
+## Shutter Status (Hypothesis)
+- 3-2-1 sequence should open (10, 6), (12, 8), and (16, 6).
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
