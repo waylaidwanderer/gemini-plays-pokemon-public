@@ -24,7 +24,7 @@
   1. Reset all switches to OFF (0,0,0).
   2. Activate in order: S3 (ON), S2 (ON), S1 (ON).
   3. Verify path at (6,8) and (10,6).
-- Current Progress: Resetting switches. S1 toggling to OFF.
+- Current Progress: Resetting switches. S1 toggled to OFF. Next: Move to Switch 2.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
