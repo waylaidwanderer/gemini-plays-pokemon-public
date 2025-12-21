@@ -29,3 +29,4 @@
 - **DOOR:** Warps.
 - **WARP CARPET:** Transitions.
 - Turn 9916: Inside Route 31 Gatehouse. Mail forged and ready. Exiting east to Route 31.
+- Turn 9918: Exiting Gatehouse to Route 31. Next target: Fisher at (17, 7).
