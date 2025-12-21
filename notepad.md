@@ -38,7 +38,7 @@
 - Fly Map Mechanics:
     - 'Up'/'Down' cycles through the town list in Johto order: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage.
     - 'Left'/'Right' is inconsistent.
-- Phone Call (Wade): Bug-Catching Contest is at National Park today.
+- Phone Call (Wade): "The Bug-Catching Contest is at the NATIONAL PARK today." (Note: Current day is Sunday, but contest is usually Tue/Thu/Sat. Verify if possible.)
 - Plan: Talk to Gramps at (20, 26), then Surf to find Red Gyarados.
 - Battle Strat: Use Muscle's Rock Smash (Not Very Effective) to weaken Gyarados safely.
 - Gramps Dialogue: "The GYARADOS are angry! It's a bad omen!"
