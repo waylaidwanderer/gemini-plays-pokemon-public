@@ -8,27 +8,26 @@
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
 - Goal: Open shutters (10, 6), (12, 8), and (16, 6) to reach the warehouse.
-- Current Switch Status (Turn 9855): 3: OFF, 2: OFF, 1: OFF (Just turned OFF).
-- Verified Shutter States (Turn 9852):
-  - (2, 6): OPEN (FLOOR)
-  - (2, 7): OPEN (FLOOR)
+- Current Switch Status (Turn 9856): 3: OFF, 2: OFF, 1: OFF.
+- Verified Baseline Shutter States (All OFF):
+  - (2, 6/7): OPEN (FLOOR)
+  - (6, 8): CLOSED (WALL) - Triggered by Switch 3 OFF.
   - (10, 6): CLOSED (WALL)
-  - (12, 8): CLOSED (WALL)
-  - (16, 6): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
-  - (16, 7): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
-  - (17, 6): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
-  - (17, 7): OPEN (FLOOR) - Opened after Switch 2 turned OFF.
+  - (12, 8): OPEN (FLOOR) - Triggered by Switch 1 OFF.
+  - (16, 6/7): OPEN (FLOOR) - Triggered by Switch 2 OFF.
+  - (17, 6/7): OPEN (FLOOR) - Triggered by Switch 2 OFF.
 
 # Switch Logic Observations
-- 3-2-1 from all-OFF (Turn 9834): Results in all shutters CLOSED except (2, 6/7).
-- Reset complete (Turn 9855). Systematic one-by-one tests beginning.
+- Switch 3 OFF -> (6, 8) closed.
+- Switch 2 OFF -> (16, 6/7) and (17, 6/7) opened.
+- Switch 1 OFF -> (12, 8) opened.
+- 3-2-1 from all-OFF (Turn 9834): Failed (All shutters CLOSED).
 
 # Strategy
-1. Reset complete. All switches OFF.
-2. Observe shutter states at (16, 6), (12, 8), (10, 6), and (2, 6) with all OFF.
-3. Test 1: Turn Switch 1 ON only. Record effects.
-4. Test 2: Reset Switch 1 to OFF. Turn Switch 2 ON only. Record effects.
-5. Test 3: Reset Switch 2 to OFF. Turn Switch 3 ON only. Record effects.
+1. Baseline established. All switches OFF.
+2. Test 1: Turn Switch 1 ON only. Record effects.
+3. Test 2: Reset Switch 1 to OFF. Turn Switch 2 ON only. Record effects.
+4. Test 3: Reset Switch 2 to OFF. Turn Switch 3 ON only. Record effects.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
