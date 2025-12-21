@@ -12,7 +12,7 @@
 - **Elevators:** Elevator doors are warps. If a button doesn't work, try walking into the door.
 - **Counters:** To talk to someone behind a counter, stand in front of the counter tile and face it.
 - **Shopping:** Check all clerks at a counter; they often have different inventories.
-- **Input Hygiene:** NEVER mix directional buttons with A/B/Start/Select in a single turn when precision is required (e.g., interacting with objects). The harness may modify the sequence, leading to unintended movement.
+- **Input Hygiene:** NEVER mix directional buttons with A/B/Start/Select in a single turn when precision is required (e.g., interacting with objects).
 - **Vending Machines:** Lemonade (350) is the best value for HP restoration (80 HP).
 
 ## Pokemon Type Effectiveness
@@ -22,10 +22,10 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Goal: Purchase 10 Lemonades (replaces Potions as priority due to cost-effectiveness).
 - Task started: Turn 9247.
-- Current Status: Buying from 6F Vending Machines (7/10 purchased).
-- Note: Need to find a source for Revives.
+- Current Status: Buying Lemonades from 6F Vending Machines (7/10 purchased).
+- How: Stand at (9, 2) facing the machine at (9, 1). Clear text boxes before moving cursor.
+- Note: Lemonade is for HP; Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Shop Inventories
