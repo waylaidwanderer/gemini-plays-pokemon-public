@@ -22,6 +22,8 @@
 - **Ice Trajectory**: Always verify the trajectory of a slide. It must physically enter the tile of an object to be stopped by it.
 - **Fly Map (Goldenrod)**: From New Bark Town, sequence is: Left (to Cherrygrove), Left (to Violet), Up (to Route 31), Left (to Goldenrod). Note: Menu may be sticky; use discrete presses. (Turn 8596-8604 failure analysis)
 
+- Fly Map (Goldenrod): From New Bark Town, sequence is typically Lefts to reach the western side, then Up to Goldenrod (which is North of Azalea). Note: Menu may be sticky; use discrete presses. (Turn 8596-8604 failure analysis)
+
 # Mahogany Gym (2_2) - COMPLETED
 - **Leader:** Pryce defeated (Turn 8583).
 - **Reward:** Glacier Badge, TM16 (Icy Wind).
