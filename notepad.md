@@ -57,6 +57,7 @@
 - Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7). Mentions "MALICE" (rival) made fun of his Pokémon.
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
 - Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
+- Cooltrainer F (Lake of Rage): Saw a red Gyarados in the lake. Found at (24, 29).
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
