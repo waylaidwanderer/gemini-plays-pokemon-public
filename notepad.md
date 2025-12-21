@@ -9,9 +9,9 @@
 - Started: Turn 9640
 - Current Goal: Reset all switches to OFF before executing 3-2-1 sequence.
 
-# Switch Status (Turn 9785)
-- Switch 3 (2, 1): 🟢 ON
-- Switch 2 (10, 1): 🔴 OFF (Just turned OFF)
+# Switch Status (Turn 9789)
+- Switch 3 (2, 1): 🔴 OFF (Just turned OFF)
+- Switch 2 (10, 1): 🔴 OFF
 - Switch 1 (16, 1): 🔴 OFF
 
 # Shutter States (Estimated)
