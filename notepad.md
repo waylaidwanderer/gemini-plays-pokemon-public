@@ -43,3 +43,12 @@
 - **Turn 8762**: Fixed `battle_move_selector` for Gen 2 vertical menus. Pruned redundant turn logs from notepad. 3F sweep is nearly complete. Goal is to reach 5F. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
 - **Director Info**: The Director is being held on the 5th floor. He has the ability to open the locked boss's door.
 - **Card Key Slot**: Located at (14, 2) on 3F. Likely requires the Card Key.
+
+# Radio Tower 4F Progress
+- **Current Floor**: 4F.
+- **Trainers Spotted**:
+    - Rocket Grunt at (14, 1).
+    - Rocket Girl at (12, 4).
+- **Warps**:
+    - (9, 0): Back to 3F.
+    - (12, 0): Up to 5F.
