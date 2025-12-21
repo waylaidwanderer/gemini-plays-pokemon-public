@@ -33,6 +33,6 @@
 - **Status:** Have passwords "SLOWPOKETAIL" and "RATICATE TAIL".
 - **Current Barrier:** Boss Room at (10,9)/(11,9) is in a walled-off area (NW quadrant). Access from South/East blocked by walls/counters.
 - **Hypothesis:** The Grunt at (5, 14) moves after giving the password, revealing a switch in the bookshelf at (5, 13).
-- **Immediate Plan:** Talk to Grunt at (5, 14). Then check bookshelf at (7, 13). If no switch found, return to B2F to try Locked Door at (15, 12).
-- **Hypothesis:** Grunt might move after talking, or switch is in (7, 13). Or the B2F door requires interacting with the *right* tile (15, 12 vs 14, 12).
+- **Immediate Plan:** Check bookshelf at (7, 13). Then check Grunt at (5, 14). If blocking, cycle to B2F to reload map and check Locked Door at (15, 12).
+- **Hypothesis:** Switch is at (5, 13) or requires map reload. B2F Door might respond to (15, 12).
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
