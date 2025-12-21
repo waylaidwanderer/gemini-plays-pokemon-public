@@ -1,8 +1,8 @@
 # Goldenrod Radio Tower Takeover
 ## Strategy (HOW)
-- Map 3_54 Switch Puzzle: Switches 1, 2, and 3 control shutters.
-- Solution Goal: reach the far west/south exit to the Warehouse.
-- Obtain Card Key from real Director in Warehouse.
+- Use switches 1, 2, and 3 in Map 3_54 to reach the Warehouse.
+- Obtain Card Key from real Director.
+- Clear Radio Tower 3F Shutter.
 
 # Global Knowledge
 ## Tile Mechanics
@@ -21,7 +21,6 @@
 - Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
 - Switch 2 is currently ON.
 - Switch 1 and 3 status: Unknown.
-- Current Battle: Grunt #3 at (3, 2). Strategy: Flame Wheel Rattata.
 
 ## Hypotheses
 - Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
