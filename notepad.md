@@ -3,7 +3,7 @@
 - Status: Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained. Eastern B3F explored; Boss area is isolated.
 
 ## Map: Team Rocket Base B2F (3_50)
-- **Path to West:** Column 23 is blocked by walls/counters at Rows 7-15. Row 16 is FLOOR at (23, 16), allowing passage to the western section.
+- **Path to West:** Column 23 wall is bypassed via Row 16 (FLOOR).
 - **Warps:**
   - (3, 14): Ladder to B1F.
   - (27, 14): Ladder to B3F (Eastern section).
@@ -14,9 +14,9 @@
   - (25, 13): Rocket Grunt (Defeated).
   - (22, 7), (22, 9), (7, 9): Voltorbs (Statues/Traps).
 - **Strategy (How):**
-  1. Navigate to Row 16 to bypass the Column 23 barrier.
-  2. Explore the western section of B2F for a second ladder to B3F.
-  3. If found, use it to reach the Boss Room on B3F.
+  1. Move West along Row 16 to reach the western half of B2F.
+  2. Locate the ladder to B3F West (likely near (3, 14)).
+  3. Enter B3F West to confront the Boss.
 
 ## Map: Team Rocket Base B3F (3_51)
 - **Observations:**
