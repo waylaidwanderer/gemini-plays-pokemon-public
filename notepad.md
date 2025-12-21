@@ -47,3 +47,6 @@
 - Plan: Traverse West through (24, 2) to bypass security and explore the rest of the floor.
 - Observation: Room layout spans y=1 to y=5, divided by a wall at y=4 with a potential gap at (9, 4).
 - Plan: Investigate the gap at (9, 4) to access the southern section.
+- Observation: Security Camera located at (6, 1).
+- Hypothesis: Row 2 is a blind spot for cameras located at y=1.
+- Plan: Traverse West along Row 2 to bypass Camera at (6, 1).
