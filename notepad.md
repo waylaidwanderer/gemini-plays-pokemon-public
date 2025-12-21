@@ -30,3 +30,4 @@
 
 ## Past Quests (Failed/Completed)
 - **Deliver Kenya:** Abandoned. Fisher rejected forged mail.
+- Turn 9994: Defeated Pokemaniac Shane at (47, 8).
