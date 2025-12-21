@@ -1,68 +1,30 @@
-# Tile Mechanics
-- FLOOR:
-    - Individual: Traversable. Standard movement.
-    - Relational: Connects to other walkable tiles and warps.
-    - Mechanics: None.
-- WALL:
-    - Individual: Impassable.
-    - Relational: Blocks movement.
-    - Mechanics: None.
-- WATER:
-    - Individual: Traversable only with Surf (HM03) and Fog Badge.
-    - Relational: Must be entered from an adjacent land tile while facing the water.
-    - Mechanics: Triggers wild water encounters.
-- TALL_GRASS:
-    - Individual: Traversable. Standard movement.
-    - Relational: Connects to other walkable tiles.
-    - Mechanics: Triggers wild land encounters.
-- MART_SHELF:
-    - Individual: Impassable.
-    - Relational: Blocks movement.
-    - Mechanics: None.
-- COUNTER:
-    - Individual: Impassable.
-    - Relational: Interacting from an adjacent tile allows talking to NPCs behind it (e.g., Nurse Joy, Mart Clerks).
-    - Mechanics: Blocks movement but allows interaction.
-- WARP_CARPET_DOWN / WARP_CARPET:
-    - Individual: Traversable.
-    - Relational: Moving onto this tile triggers a map transition (Warp).
-    - Mechanics: Entry point determines arrival location on destination map.
-- LADDER / STAIRS / DOOR:
-    - Individual: Traversable.
-    - Relational: Moving onto the tile triggers a map transition.
-    - Mechanics: Map transition.
-- HEADBUTT_TREE:
-    - Individual: Impassable.
-    - Relational: Blocks movement.
-    - Mechanics: Can be interacted with using Headbutt to trigger encounters.
-- CUT_TREE:
-    - Individual: Impassable.
-    - Relational: Blocks movement.
-    - Mechanics: Can be removed using Cut (HM01) and Hive Badge.
-- PC:
-    - Individual: Impassable.
-    - Relational: Interacting from the tile below (facing UP) allows access to the Pokemon Storage System.
-    - Mechanics: Accesses PC.
-
 # KIMCHI Training (Turn #7531)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
 - Strategy: Lead with KIMCHI on Route 43/Lake of Rage. Use Sleep Powder and Cut/Absorb.
 
+# Tile Mechanics
+- FLOOR: Traversable. Standard movement.
+- WALL: Impassable.
+- WATER: Traversable only with Surf (HM03) and Fog Badge. Must be entered from an adjacent land tile while facing the water.
+- TALL_GRASS: Traversable. Standard movement. Triggers wild encounters.
+- MART_SHELF: Impassable.
+- COUNTER: Impassable. Interacting from an adjacent tile allows talking to NPCs behind it.
+- WARP_CARPET_DOWN / WARP_CARPET: Traversable. Triggers map transition.
+- LADDER / STAIRS / DOOR: Traversable. Triggers map transition.
+- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
+- CUT_TREE: Impassable. Can be removed using Cut (HM01) and Hive Badge.
+- PC: Impassable. Interacting from below (facing UP) allows access.
+
 # Strategy: Lake of Rage Investigation
-- Path:
-    1. Exit Mahogany Town via North Gatehouse (Route 43 entrance).
-    2. Follow Route 43 North.
-    3. Lead with KIMCHI (Lv20 Oddish). Use Sleep Powder to stall and Absorb/Cut to deal damage and gain EXP.
-    4. If wild encounters are too frequent or high-level, switch to Typhlosion (Calcifer) or Graveler (GNEISS) to clear them.
-    5. Upon reaching Lake of Rage, explore the shoreline and use Surf to find the "Red Gyarados".
-- Contingencies:
-    - If Route 43 is blocked by Team Rocket, look for a side path or a specific NPC (like Lance) to clear the way.
-    - If the "rampage" involves a battle, prepare GNEISS for Rock-type advantages against Flying/Water.
+- Path: Follow Route 43 North.
+- Method: Lead with KIMCHI (Lv20 Oddish). Use Sleep Powder to stall and Absorb/Cut to deal damage.
+- Goal: Locate the source of the "rampage" (Red Gyarados).
+- Contingencies: If blocked, search for Lance or explore water with Surf.
 
 # General Mechanics & Tools
-- Battle: Sweet Scent lowers opponent's evasion (counters Minimize). Karate Chop is Fighting-type.
-- Tool: find_path_v2 (v7323) handles trees and water-to-land navigation. Note: May have issues targeting warp tiles directly.
+- Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
+- Tool: find_path_v2 (v7323) handles trees and water-to-land navigation. Note: This tool may fail when targeting Warp tiles directly; target an adjacent tile instead.
 
 # Type Matchups (Observed)
 - Ground vs Water/Poison: Super Effective.
@@ -72,7 +34,7 @@
 - Water vs Fire: Super Effective.
 - Water vs Rock/Ground: 4x Super Effective.
 - Grass vs Water/Fighting: Super Effective.
-- Fighting vs Grass/Poison: Not Very Effective (e.g., Double Kick vs Oddish).
+- Fighting vs Grass/Poison: Not Very Effective.
 
 # PC Storage (Box 1)
 - ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
@@ -90,12 +52,9 @@
 # Route 42 Discoveries
 - Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
 - Sign at (54, 8): ROUTE 42 ECRUTEAK CITY - MAHOGANY TOWN.
-- Arnie (Bug Catcher) mentioned rare Ditto on Route 35.
 
 # Mahogany Town Discoveries
-- Arrived at (0, 7) from Route 42.
-- Sign at (1, 5): Welcome to the Home of the Ninja (Mahogany Town).
-- Gramps at (5, 9).
+- Welcome to the Home of the Ninja.
 - Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
 - Gym (6, 13): Blocked by Fisher at (6, 14).
 
