@@ -95,3 +95,5 @@
 - Defeated Rocket Grunt at (23, 6). Dialogue: "Surveillance cams are in the POKéMON statues. We'll keep appearing until you trip a secret switch."
 - Goal: Find the secret switch to disable cameras.
 - Encountered second Rocket Grunt battle immediately after the first one on B1F near (6, 3). This confirms multiple grunts appear from the security statues.
+- Met Rocket Grunt at (4, 4). Dialogue: "Heheh. Feeling lucky, punk? Go ahead, take another step. We've got traps set in the floor!"
+- Hypothesis: Certain floor tiles on B1F trigger wild encounters (Koffing, Voltorb, Geodude) or traps.
