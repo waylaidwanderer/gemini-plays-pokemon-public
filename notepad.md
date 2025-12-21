@@ -1,8 +1,8 @@
 # Goldenrod Radio Tower Takeover (Started Turn 8588)
-## Strategy
-- Use Basement Key at (18, 6) in Goldenrod Underground to access the Warehouse.
-- Rescue the real Director and obtain the Card Key.
-- Use Card Key on 3F Shutter in the Radio Tower.
+## Strategy (HOW)
+- Map 3_54 Switch Puzzle: Use switches 1, 2, and 3 to clear paths.
+- Rescue real Director in Warehouse; obtain Card Key.
+- Use Card Key on 3F Shutter in Radio Tower.
 
 ## Tower Intel
 - **Card Key Slot**: 3F (14, 2).
@@ -36,9 +36,6 @@
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Rival Battle: Defeated Malice (Turn 9070). Calcifer reached Lv43.
-- Goal: Solve Switch Room puzzle (Map 3_54) to reach the Warehouse.
-- Current Status: Starting puzzle. Rocket Grunt at (17, 2) needs clearing.
 
 ## Hypotheses
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
