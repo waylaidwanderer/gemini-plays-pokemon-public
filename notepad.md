@@ -8,12 +8,11 @@
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Finalizing Mail "DARK CAVE".
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Correcting typo "DARK CAVNF".
+- **Current State:** Cursor on 'D'. Text is "DARK CAV".
 - **Next Steps:**
-    1. Press B x2 to fix text.
-    2. Type 'E'.
-    3. Select 'END' to confirm.
-    4. Deliver Mail to Fisher.
+    1. Move Right to 'E' and Select.
+    2. Move Down/Right to 'END' and Confirm.
+    3. Exit Menu and Deliver.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps).
