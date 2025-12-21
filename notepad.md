@@ -21,16 +21,16 @@
 - Goal: Open path to the southeast (cols 14+). Requires (12,8) or (16,6) to be OPEN.
 - Current Switch States:
   - Switch 3 (2,1): ON (1)
-  - Switch 2 (10,1): OFF (0)
+  - Switch 2 (10,1): ON (1)
   - Switch 1 (16,1): OFF (0)
-- Observed Shutters (Current): (2,6), (3,6), (12,8) OPEN. Others CLOSED.
+- Observed Shutters (Current): (2,6), (3,6), (12,8) OPEN. (10,6), (6,8) toggled.
 - Plan:
   1. Execute sequence 3-2-1:
      - Toggle Switch 3 (2,1) -> ON (Done).
-     - Toggle Switch 2 (10,1) -> ON.
+     - Toggle Switch 2 (10,1) -> ON (Done).
      - Toggle Switch 1 (16,1) -> ON.
   2. Navigate to southeast warehouse entrance.
-- Current Step: Sequence Step 2 - Moving to Switch 2 to toggle to ON.
+- Current Step: Sequence Step 3 - Moving to Switch 1 to toggle to ON.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
