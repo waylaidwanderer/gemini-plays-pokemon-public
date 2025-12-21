@@ -43,3 +43,4 @@
     - Meeting Lance there.
 - **Lake of Rage:** Caught Red Gyarados.
 - **Current Location:** Route 43 (North End).
+- **Menu Navigation Note:** The cursor in the Start Menu and sub-menus remembers its last position. When reopening menus, verify the cursor position before pressing 'A' to avoid selecting the wrong option or canceling inadvertently.
