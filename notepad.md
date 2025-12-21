@@ -6,12 +6,12 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-1.  **Status:** In Party Menu (Removing old mail).
-2.  **Next Step:** Rewrite Mail.
+1.  **Status:** Opening Pack to Equip Mail.
+2.  **Next Step:** Equip Flower Mail & Write.
 3.  **Action Plan:**
-    - **Step 1:** Exit PC (Done).
-    - **Step 2:** Remove old mail from Kenya (Send to PC).
-    - **Step 3:** Equip fresh Flower Mail (Have 5).
+    - **Step 1:** Exit Party Menu (B).
+    - **Step 2:** Open Pack (Down, A).
+    - **Step 3:** Select Flower Mail -> Give -> Kenya.
     - **Step 4:** Write "DARK CAVE leads to another road." (With period).
     - **Step 5:** Return to Fisher.
 
