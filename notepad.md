@@ -30,7 +30,6 @@
      - Toggle Switch 2 (10,1) -> ON (Done).
      - Toggle Switch 1 (16,1) -> ON.
   2. Navigate to southeast warehouse entrance.
-- Current Step: Sequence Step 3 - Moving to Switch 1 to toggle to ON.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
