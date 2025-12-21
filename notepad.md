@@ -3,7 +3,7 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7471)
+# Strategy: KIMCHI Training (Updated Turn #7476)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
 - Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
@@ -34,7 +34,7 @@
 # Battle Strategies
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
 - Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
-- Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground).
+- Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
 
 # Defeated Trainers
 - Fisher Tully (Route 42) at (40, 10).
