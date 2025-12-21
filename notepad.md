@@ -24,16 +24,18 @@
 - Puzzle Start (Reset): Turn 9462.
 - Method: Testing sequences from clean state (all OFF).
 - Experiment Log (Attempt 2):
-    1. Baseline (All OFF): All shutters CLOSED.
+    1. Baseline (All OFF): All shutters CLOSED. Verified at (10, 6), (16, 6), (17, 6).
     2. Switch 3 (2, 1) ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED, (16, 6) CLOSED.
     3. Switch 2 (10, 1) ON (3 & 2 ON): (12, 8) OPEN, (12, 9) OPEN, (16, 6) CLOSED.
     4. Switch 1 (16, 1) ON (All ON): All shutters CLOSED.
 - Conclusion: 3-2-1 sequence (All ON) results in all shutters closed.
 - Hypothesis: Each switch toggles a pair of shutter groups (S1:{A,B}, S2:{B,C}, S3:{A,C}).
 - Next Test: Turn all switches OFF to reset, then test Switch 1 alone.
-- Current Status: All switches OFF. Baseline reset complete.
+- Current Status: All switches OFF. Baseline verified.
 - Sequence Attempts: 2 (3-2-1 failed). Starting Attempt 3: Systematic Mapping.
 - Test 3.1: Switch 1 (16, 1) ON. Observe all shutters.
+- Current Observation: Baseline verified. Shutters (10, 6), (16, 6), (17, 6) are CLOSED.
+- Navigation: Moving to Switch 1 at (16, 1).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
