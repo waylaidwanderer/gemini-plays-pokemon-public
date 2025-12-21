@@ -63,3 +63,6 @@
 
 # Progress Log
 - Turn 8466: Switching Calcifer to lead position in party menu.
+
+# Trainer Data
+- Skier Clarissa (2_2, 9, 17): Dewgong Lv28.
