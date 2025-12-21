@@ -31,6 +31,7 @@
 
 ### Test 3: Switch 3 (2, 1) -> ON
 - Status: Testing isolation. Started Turn 9985.
+- Turn 9992: Moving to (2, 2) to flip Switch 3.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
