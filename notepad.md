@@ -22,9 +22,9 @@
 - **FLOOR**: Standard traversable. Verified.
 - **WALL**: Impassable. Verified.
 - **COUNTER**: Impassable. Interact from front tile facing the counter. Verified.
-- **WARP_CARPET_DOWN**: Map transition. Verified.
+- **WARP_CARPET_DOWN/UP/LEFT/RIGHT**: Map transition. Verified.
 - **STAIRCASE/LADDER**: Warp points. Verified.
-- **POKEBALL TILE**: Decoration. Verified.
+- **POKEBALL TILE**: Decoration (Radio Tower). Verified.
 - **BOOKSHELF**: Impassable. Verified.
 
 ## Completed Badges
@@ -34,24 +34,12 @@
 - **Counter Interaction**: Face the counter, not the NPC.
 - **Fly Map (Goldenrod)**: Discrete presses: 4 Ups, 6 Lefts from New Bark Town.
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
+
 ## General Lessons Learned
 - **Partitioned Layouts**: When a map is split (like Radio Tower 4F), look for alternate stairs on lower floors or Key Items (like Card Key) to open shutters.
 - **Object Identity**: During events (like takeovers), NPCs may be replaced by different sprites (e.g., Receptionist replaced by Rocket Grunt). Always interact to verify.
 - **Counter Interactions**: To talk to someone behind a counter, stand on the tile directly in front of the counter and face it.
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
-
-# Tile Mechanics (Global)
-- FLOOR: Standard traversable. Verified.
-- WALL: Impassable. Verified.
-- COUNTER: Impassable. Interact from front tile facing the counter. Verified.
-- WARP_CARPET_DOWN/UP/LEFT/RIGHT: Map transition. Verified.
-- STAIRCASE/LADDER: Warp points. Verified.
-- POKEBALL TILE: Decoration (Radio Tower). Verified.
-- BOOKSHELF: Impassable. Verified.
-
-## Tower Progress
-- Floors 1F-4F: Accessible areas cleared.
-- 5F: Defeated Fake Director. Basement Key unlocks (18, 6) in the Underground.
 
 # Switch Room Puzzle (Map 3_54)
 - Path to Switch Room: 3_53 (18, 6) Basement Door -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
@@ -61,7 +49,4 @@
   2. The Director is in the Underground Warehouse (likely a separate map reachable from the Switch Room).
 - Attempts:
   - Turn 9012: Starting exploration from (23, 3).
-- Rival Malice intercepted at (20, 4). Preparing for battle.
-- Rival Malice Battle Progress:
-  - Golbat (Lv30) - Defeated by Calcifer (Flame Wheel x2).
-  - Next: Feraligatr. Strategy: Neutral damage with Headbutt due to level advantage.
+- Rival Battle Strategy: Use Calcifer's level advantage. Use Headbutt (Neutral Physical) against Feraligatr to bypass its Fire resistance.

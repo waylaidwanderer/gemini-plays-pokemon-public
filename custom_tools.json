@@ -31,26 +31,20 @@
     ]
   },
   "battle_move_selector_v2": {
-    "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0). Optimized for Gen 2 vertical move lists.",
+    "description": "Selects a move from the move selection menu in battle. Assumes the menu is open and the cursor is at the first move (index 0). Optimized for Gen 2 vertical move lists. Includes a safety delay to ensure the menu is ready.",
     "input_schema": {
       "type": "object",
       "properties": {
         "move_index": {
           "type": "integer",
           "description": "The 0-indexed position of the move to select (0-3)."
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically."
         }
       },
       "required": [
-        "move_index",
-        "autopress_buttons"
+        "move_index"
       ]
     },
-    "python_script": "import json\n# The harness provides input arguments in the 'input_data' dictionary.\nmove_index = int(input_data.get('move_index', 0))\nbuttons = []\nfor _ in range(move_index):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef run(input_data):\n    try:\n        move_index = int(input_data.get('move_index', 0))\n    except (ValueError, TypeError):\n        move_index = 0\n        \n    buttons = [\"sleep 500\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -61,6 +55,11 @@
         "commit_message": "Corrected tool to use the 'input_data' variable for arguments instead of reading from stdin.",
         "timestamp": "2025-12-21T11:46:11.447Z",
         "action_counter": 8774
+      },
+      {
+        "commit_message": "Added a safety delay (sleep 500) to ensure the move selection menu is fully active before button presses.",
+        "timestamp": "2025-12-21T14:19:46.168Z",
+        "action_counter": 9031
       }
     ]
   },
