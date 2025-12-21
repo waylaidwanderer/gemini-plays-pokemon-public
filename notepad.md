@@ -2,26 +2,14 @@
 - Goal: Clear path to ladder at (23, 3).
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping and following Strategist advice.
-- Current Status (Turn 9624):
+- Current Status (Turn 9625):
     - Switch 3 (2, 1): ON
     - Switch 2 (10, 1): ON
     - Switch 1 (16, 1): ON
-- Reset Phase: Turning Switch 1 OFF now.
-- Observations:
-    - All switches ON -> All shutters in Row 6, 8, 9 appear CLOSED (WALL).
-    - This suggests the final state for the 3-2-1 sequence is NOT "all switches ON".
-- Switch Logic Table (Hypothesis):
-    - Switch 1: Toggles {16, 6; 17, 6; 12, 8; 12, 9}.
-    - Switch 2: Toggles {10, 6; 6, 8; 6, 9}.
-    - Switch 3: Toggles {12, 8; 12, 9}.
-- Historical Data:
-    - Test 3.1: Switch 1 ON alone -> (16, 6) & (17, 6) OPEN.
-    - Test 3.2: Switch 2 ON alone -> (10, 6), (6, 8), (6, 9) OPEN.
-    - Test 3.3: Switch 3 ON alone -> (2, 6), (3, 6) were already floor. (12, 8) stayed WALL.
+- Observations: 3-2-1 sequence complete. Testing path to (21, 25).
 - Plan:
-    1. Confirm shutter states at (16, 5).
-    2. Consult Strategist with verified All-ON state.
-    3. Adjust switches to reach the goal.
+    1. Close switch menu.
+    2. Navigate to ladder at (21, 25).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
