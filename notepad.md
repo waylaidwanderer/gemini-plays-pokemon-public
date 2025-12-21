@@ -51,8 +51,8 @@ Mechanic: Persian Statues (e.g., at 6,1) are security cameras. Walking in their 
 - Plan: Go South through gap at (9,4) to search for the switch in the unexplored area.
 - Potentially Reachable Unseen Tiles (Turn 10466): (1, 1), (1, 2), (1, 3), (1, 4), (1, 6), (16, 7), (17, 7), (18, 7), (19, 7), (2, 8), (1, 7), (3, 8), (4, 8), (5, 8), (7, 8), (14, 8), (15, 8), (20, 8), (21, 8), (22, 8), (23, 8), (24, 8), (25, 8), (26, 8), (27, 8), (28, 8).
 - Plan: Investigate reachable tiles after battle.
-- Tested statue at (8, 6): No reaction.
-- Missed checking (9, 6) due to movement error. Must re-check.
-- Currently checking (10, 6).
-- Plan: Check (10, 6), then (11-13, 6), then double back to (9, 6).
+- Tested statues at (8, 6), (10, 6): No reaction.
+- Missed checking (9, 6). Must re-check.
+- Currently checking (11, 6).
+- Plan: Check (11-13, 6), then double back to (9, 6).
 - Hypothesis: One of these statues contains the secret switch to disable the cameras.
