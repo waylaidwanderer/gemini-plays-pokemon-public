@@ -76,3 +76,6 @@
 - Plan: Take Mail from Kenya -> Talk to Webster. If that fails, the quest might be broken due to lost Sender data.
 - Turn 9885: Opening Party Menu to remove Mail from Kenya.
 - Reasoning: Webster only gave generic dialogue while Kenya was holding the mail. I need to make Kenya hold NOTHING to potentially trigger a "lost mail" recovery script.
+- Turn 9886: Correcting menu navigation. Currently in Muscle's menu.
+- Action: B (Exit), Down x4 (Select Kenya), A (Open Menu).
+- Goal: Reach Kenya's menu to remove the mail.
