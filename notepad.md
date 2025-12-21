@@ -27,9 +27,9 @@
     1. Baseline (All OFF): All shutters CLOSED.
     2. Switch 3 (2, 1) ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
     3. Switch 2 (10, 1) ON: (12, 9) OPEN.
-    4. Switch 1 (16, 1): Target sequence 3-2-1. Flipping now.
-- Current Status: Switch 3 ON, Switch 2 ON, Switch 1 OFF.
-- Sequence Attempts: 2 (3-2-1 in progress). Investigating sequence logic.
+    4. Switch 1 (16, 1) ON: Sequence 3-2-1 complete. Verifying shutters.
+- Current Status: All switches ON. Checking (16, 6) and (17, 6).
+- Sequence Attempts: 2 (3-2-1 complete).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
