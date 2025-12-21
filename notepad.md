@@ -31,3 +31,4 @@
 - Turn 10006: Defeated Hiker Benjamin.
 - Turn 10018: Gramps in Mahogany Town mentioned a Gyarados rampage at the Lake of Rage.
 - Turn 10024: Entered Mahogany Mart (Souvenir Shop). Suspicious layout.
+- Turn 10032: Mahogany Mart inventory check: sells Slowpoketails (¥9800), TinyMushroom, Poke Ball, Potion. No Rage Candy Bar.
