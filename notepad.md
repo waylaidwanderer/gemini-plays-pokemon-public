@@ -35,7 +35,7 @@
 # Switch Room Puzzle (Map 3_54)
 - Path: 3_53 (18, 6) -> 3_53 (21, 31) -> 3_53 (22, 27) -> 3_54 (23, 3).
 - Goal: Find switches 1, 2, and 3 to clear the path.
-- Strategy for Koffing: Calcifer (Lv43) uses Flame Wheel (Index 0).
+- Strategy for Rattata: Calcifer (Lv43) uses Flame Wheel (Index 0).
 
 ## Hypotheses
 - **Card Key**: The real Director likely has the Card Key needed for the Radio Tower shutters.
