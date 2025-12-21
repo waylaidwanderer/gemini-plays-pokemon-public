@@ -6,12 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-1.  **Status:** Verifying Recipient.
+1.  **Status:** Verifying Sign Text for Password.
 2.  **Current Plan:**
-    - **Step 1:** Check Youngster at (10, 5). (Skipped him earlier).
-    - **Step 2:** If Youngster is not him, return to Fisher.
-    - **Step 3:** Rewrite mail: "Dark Cave leads to another road" (Title Case).
-    - **Step 4:** Retry delivery to Fisher.
+    - **Step 1:** Read Dark Cave Sign at (31, 5) to confirm EXACT text (case, punctuation).
+    - **Step 2:** Rewrite mail on Kenya using `write_mail_safe` with verified text.
+    - **Step 3:** Deliver to Fisher at (17, 7).
+
+## Failed Mail Attempts
+- "DARK CAVE leads to another road" (Rejected)
+- Hypothesis: Text must match sign exactly (Case Sensitive, Punctuation).
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps). Said "This MAIL isn't for me."
