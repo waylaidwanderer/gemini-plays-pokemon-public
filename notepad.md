@@ -13,9 +13,9 @@
 ## Switch States
 - Switch 1 (16, 1): OFF
 - Switch 2 (10, 1): OFF
-- Switch 3 (2, 1): ON
+- Switch 3 (2, 1): OFF
 
-## Shutter States (Turn 9726)
+## Shutter States (Turn 9730)
 - (2, 6): FLOOR (Open)
 - (10, 6): WALL (Closed)
 - (12, 8): FLOOR (Open)
