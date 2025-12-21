@@ -4,11 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Finalize Mail Forgery (Navigate to END).
-  1. **Status:** Text entered. Navigation to END required.
-  2. **Step 1:** Reset Cursor (Left x10, Down x4).
-  3. **Step 2:** Select END (Right x2 -> A).
-  4. **Step 3:** Interact with Fisher.
+- **Current Action:** Save Mail & Exit.
+  1. **Status:** Cursor at 'd' (Reset needed).
+  2. **Step 1:** Select END (Down x2 -> Right x2 -> A).
+  3. **Step 2:** Exit Menus (B x4).
+  4. **Step 3:** Interact with Fisher (Right -> Down -> A).
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
