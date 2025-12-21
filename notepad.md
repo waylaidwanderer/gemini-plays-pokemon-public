@@ -51,3 +51,4 @@
 - **Bug Catcher (21, 13):** Gave Bitter Berry. Not recipient.
 - **Conclusion:** Fisher IS the recipient. The rejection "This MAIL isn't for me" is due to incorrect content (Case Sensitivity).
 - **Next Action:** Rewrite mail: "Dark Cave leads to another road." (Title Case).
+- **Progress:** Fisher accepted the dialogue 'You have MAIL for me?'. Selecting Kenya now to hand over the mail.
