@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Returned to B2F North (3, 2) via West Ladder.
-- **Plan:** Traverse North Corridor East to (27, 2). Then B3F NE -> B3F East -> B3F SE -> B2F South.
-- **Objective:** Reach the Locked Door at B2F (14, 12) to use the password.
+- **Status:** Arrived at B3F NE (27, 2).
+- **Plan:** Head South via East Corridor to SE Ladder (27, 14). Then take ladder to B2F South and unlock the door at (14, 12).
+- **Objective:** Access the Transmitter Room to disable the radio signal.
