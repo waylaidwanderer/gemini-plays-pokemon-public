@@ -6,8 +6,9 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Return to B2F using the ladder at (27, 14), then find the specific ladder that leads to the enclosed Boss Area on B3F (likely in the North-West of B2F).
-- **Note:** The Boss Room on B3F is isolated by walls/counters. Must be accessed from above.
+- **Navigation:** Navigate to the Locked Doors at (15, 12) on B2F and open them using the passwords ("SLOWPOKETAIL", "RATICATE TAIL").
+- **Note:** The Boss Room ladder is likely behind these doors.
+- **Inventory:** Bag is full. Consolidate or toss items when convenient.
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
