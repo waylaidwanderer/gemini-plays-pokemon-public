@@ -31,10 +31,9 @@
 
 ### Test 3: Switch 3 (2, 1) -> ON
 - Status: Observation phase. Started Turn 9985.
-- Observations (compared to baseline 0,0,0):
-  - (2, 6): OPEN (Visual confirmed Turn 9995).
-  - (3, 6): OPEN (Visual confirmed Turn 9995).
-  - (6, 8), (10, 6), (12, 8), (16, 6): PENDING verification.
+- Observations (compared to baseline):
+  - (2, 6), (3, 6): OPEN (Was CLOSED).
+  - (6, 8), (10, 6), (12, 8), (16, 6): CLOSED (No change).
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
