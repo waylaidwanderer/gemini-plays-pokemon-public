@@ -31,11 +31,11 @@
   - (10, 7): OPEN (Visual confirmed Turn 9964).
   - (11, 6): OPEN (Visual confirmed Turn 9964).
   - (11, 7): OPEN (Visual confirmed Turn 9964).
+  - (6, 9): OPEN (System detected FLOOR at Turn 9964).
   - (2, 6): ?
   - (16, 6): ?
   - (6, 8): ?
   - (12, 8): ?
-  - (6, 9): ?
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
