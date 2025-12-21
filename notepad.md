@@ -46,3 +46,4 @@
 - Stairs at (15, 0) likely lead to 2F, but need to verify if they also access B1F.
 - Observation: Stairs at 1F (15,0) lead Up to 2F. They do not lead to B1F.
 - Plan: Check 2F Clerk for Ultra Balls (since I have 6 badges now). Then return to B1F via Elevator and talk to Machop to find a way to the Right Side.
+- Observation: 1F Right Side (Cols 12-15, Rows 4-7) appears to be blocked by Counters/Shelves in the visual feed, despite Mental Map showing Floor. Navigating around via Row 3.
