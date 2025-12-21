@@ -28,23 +28,17 @@
   - (27, 14): Ladder to B2F East.
   - (24, 14): Rocket Grunt (Talked to).
   - (23, 11): Scientist Ross (Defeated).
-  - (10, 9): Boss Room Door (Locked). Requires 2 passwords. Hypothesis: Western section is isolated from the east.
+  - (10, 9): Boss Room Door (Locked). Requires 2 passwords. Hypothesis: Western section is isolated from the east; reach via B2F North.
 
 # Strategy (HOW)
-1. **Navigate B2F East:** Go to (23, 16) to cross the central barrier.
-2. **Access B2F North:** Go to Row 11 and clear the Voltorb at (22, 11).
-3. **Explore B2F North:** Enter via the gap at (19, 10), loot (3, 10), and find the ladder to B3F West.
-4. **Confront Boss:** Unlock the door at (10, 9) on B3F and defeat the Executive.
-5. **Shut Down Transmitter:** Use the final password to disable the signal on B2F.
+1. **Access B2F North:** Use the ladder at (27, 2) on B3F to reach the isolated northern corridor on B2F.
+2. **Explore B2F North:** Follow the corridor west to find the ladder to B3F West.
+3. **Confront Boss:** Unlock the door at (10, 9) on B3F and defeat the Executive.
+4. **Shut Down Transmitter:** Use the final password to disable the signal on B2F.
 
 # Lessons Learned
 - Map sections can be completely isolated; look for alternative floor transitions.
 - Voltorb sprites on B2F are stationary traps; expect battles when adjacent.
 - Persian statues on B1F trigger alarms until switch at (19, 11) is flipped.
 - Always check if an NPC or Item sprite is at the target coordinate before pathing.
-- **Path to Boss (Hypothesis):** The western section of B3F (Boss Room) is likely reached by taking the ladder at (27, 14) on B2F to B3F East, then navigating to the ladder at (27, 2) on B3F to reach B2F North, which should contain a ladder down to B3F West.
-- **B2F Navigation:** To reach the eastern section (x > 23), use the passage at (23, 16). Access via Row 16 (FLOOR) from the central area (e.g., (17, 16)).
-
-# Reflection #8308
-- **Hypothesis:** The western section of B3F (Boss Room) is likely reached by taking the ladder at (27, 2) on B3F to reach B2F North, which should contain a ladder down to B3F West.
-- **Lessons:** Do not assume map connectivity based on visual proximity; verify all ladders and paths. Alarms disabled on B1F (Turn 8228). Gneiss powered up with Protein (Turn 8237).
+- **Path to Boss:** The western section of B3F (Boss Room) is reached by taking the ladder at (27, 14) on B2F to B3F East, then the ladder at (27, 2) on B3F to reach B2F North, which leads to B3F West.
