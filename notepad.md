@@ -8,18 +8,14 @@
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Method: Execute the 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
 - Start Turn: ~9640
+- Failed Attempts: 1 (Turn 9710)
 
-## Switch-Shutter Mappings (Observed)
-- Switch 1 (16, 1): Toggles (12, 8). [ON -> WALL]
-- Switch 2 (10, 1): Toggles (2, 6). [OFF -> WALL]
-- Switch 3 (2, 1): Toggles (16, 6). [OFF -> FLOOR]
+## Switch States
+- Switch 1 (16, 1): OFF
+- Switch 2 (10, 1): OFF
+- Switch 3 (2, 1): ON
 
-## Current Switch States
-- Switch 1: OFF
-- Switch 2: ON
-- Switch 3: ON
-
-## Shutter States (Turn 9721)
+## Shutter States (Turn 9722)
 - (2, 6): FLOOR (Open)
 - (10, 6): WALL (Closed)
 - (12, 8): FLOOR (Open)
