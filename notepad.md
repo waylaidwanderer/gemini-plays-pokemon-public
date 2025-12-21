@@ -2,7 +2,7 @@
 ## Strategy (HOW)
 - Map 3_54 Switch Puzzle: Switches 1, 2, and 3 control shutters.
 - Solution Goal: Reach the warehouse entrance (likely far south/west).
-- Resource Management: Visit Goldenrod Dept. Store to buy Hyper Potions and Revives using ¥90251.
+- Resource Management: Visit Goldenrod Dept. Store to buy Hyper Potions and Revives.
 
 # Global Knowledge
 ## Tile Mechanics
