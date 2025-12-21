@@ -210,7 +210,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nmove_index = int(input_data['move_index'])\n# Add a sleep to ensure the move menu is fully open before directional inputs\nbuttons = [\"sleep 100\"] + (['Down'] * move_index) + ['A']\nprint(json.dumps(buttons))",
+    "python_script": "import json\nmove_index = int(input_data['move_index'])\n# Add a longer sleep to ensure the move menu is fully open before directional inputs\nbuttons = [\"sleep 500\"] + (['Down'] * move_index) + ['A']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -221,6 +221,11 @@
         "commit_message": "Added a sleep command to the start of the button sequence to ensure the move menu is fully open before directional inputs are applied. This prevents mis-navigation into the PACK menu.",
         "timestamp": "2025-12-21T03:42:45.741Z",
         "action_counter": 7891
+      },
+      {
+        "commit_message": "Increased sleep time to 500ms to provide more buffer for the menu transition animation, preventing mis-navigation into the main menu options.",
+        "timestamp": "2025-12-21T03:45:45.715Z",
+        "action_counter": 7897
       }
     ]
   }
