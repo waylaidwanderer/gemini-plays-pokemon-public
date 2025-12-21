@@ -43,3 +43,5 @@
 - STAIRS: Traversable. Warps to another floor.
 - Correction: I failed to talk to the Machop on B1F due to a button mix-up. If the stairs at (15, 0) don't help, I must return to B1F and talk to Machop.
 - Stairs at (15, 0) likely lead to 2F, but need to verify if they also access B1F.
+- Observation: Stairs at 1F (15,0) lead Up to 2F. They do not lead to B1F.
+- Plan: Check 2F Clerk for Ultra Balls (since I have 6 badges now). Then return to B1F via Elevator and talk to Machop to find a way to the Right Side.
