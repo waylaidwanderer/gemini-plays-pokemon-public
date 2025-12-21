@@ -47,18 +47,17 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Equip Kenya and Deliver.
-  1. **Status:** Re-opening Start Menu -> Pack.
-  2. **Step 1:** Find Flower Mail in Item List.
+  1. **Status:** Selected Flower Mail in Pack.
+  2. **Step 1:** Press A to open Item Menu.
   3. **Step 2:** Select GIVE -> Kenya.
-  4. **Step 3:** Compose Message: "DARK CAVE leads to another road." (Exact punctuation).
+  4. **Step 3:** Compose Message: "DARK CAVE leads to another road." (With Period).
   5. **Step 4:** Return to Route 31 and deliver.
 
 ## Maintenance
 - **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
 
-## Reflection (Turn 9271)
-- **Error:** Accidentally closed menu with too many 'B' presses.
-- **Correction:** Opening Start Menu, navigating to Pack.
-- **Inventory:** Have Flower Mail x2.
-- **Quest:** Fisher needs mail with "DARK CAVE leads to another road."
-- **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
+## Reflection (Turn 9272)
+- **Status:** In Pack, cursor on Flower Mail.
+- **Hypothesis:** The Fisher rejected the mail because it lacked a period or had incorrect punctuation.
+- **Plan:** Re-write mail exactly as: "DARK CAVE leads to another road."
+- **Backup:** If this fails, check "Dark Cave" capitalization or other variations.
