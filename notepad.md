@@ -14,12 +14,12 @@
 - Switch 2 (10, 1): 🟢 ON
 - Switch 1 (16, 1): 🟢 ON (Just turned ON)
 
-# Shutter States (Pending Verification)
-- (2, 6): OPEN (FLOOR)
-- (10, 6): CLOSED (WALL) - Needs verification after 3-2-1 sequence.
-- (12, 8): OPEN (FLOOR)
-- (16, 6): CLOSED (WALL) - Needs verification after 3-2-1 sequence.
-- Note: Sequence 3-2-1 completed at Turn 9834. Moving to verify shutters.
+# Shutter States (Verified Turn 9837)
+- (2, 6): OPEN (FLOOR) - Marker states OPEN, need to confirm visually.
+- (10, 6): CLOSED (WALL) - Marker states CLOSED, need to confirm visually.
+- (12, 8): CLOSED (WALL) - Verified visually at Turn 9837.
+- (16, 6): CLOSED (WALL) - Verified visually at Turn 9837.
+- Note: 3-2-1 sequence from all-OFF resulted in this state. Sequence failed.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
