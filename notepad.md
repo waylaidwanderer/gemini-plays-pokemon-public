@@ -5,8 +5,9 @@
     1. Fly to Mahogany Town (Done).
     2. Heal party at the Pokémon Center (Done).
     3. Meet Lance at the Mahogany Mart (Done).
-    4. Enter the secret hideout via the stairs revealed at (7, 3).
-- Status: Lance used his Dragonite to reveal a secret staircase behind a cabinet at (7, 3) in the Mahogany Mart.
+    4. Enter the secret hideout via the stairs revealed at (7, 3) (Done).
+    5. Explore Team Rocket Base B1F to find the transmitter.
+- Status: Currently on B1F. Dealing with security cameras and grunts.
 
 # Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground.
@@ -45,18 +46,16 @@
 - Fighting vs Grass/Poison: Not Very Effective.
 
 # Battle & NPC Knowledge
-- Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
+- Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
 - Mahogany Gym (6, 13): Blocked by Fisher at (6, 14) until Lake of Rage investigation.
 - Pokefan M at (8, 1) in PC: Saw "men in black" (Team Rocket) at Lake of Rage.
 - Camper Spencer (Route 43): Sandshrew (Lv17), Zubat (Lv19), Sandslash (Lv17).
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
-- Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
-- Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
 - Pokemaniac Ron (Route 43): Nidoking (Lv19♂). Found at (14, 7). Mentions "MALICE" (rival) made fun of his Pokémon.
 - Pokemaniac Brent (Route 43): Lickitung (Lv19♂). Found at (13, 20).
 - Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
 - Cooltrainer F (Lake of Rage): Saw a red Gyarados in the lake. Found at (24, 29).
-- Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it. Story from his grandpa's great-great-grandpa. Used to catch Magikarp there, but something is wrong now.
+- Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it.
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
@@ -81,12 +80,16 @@
 - Training: Switch-training ICARUS is highly effective; he reached Lv15 and learned Quick Attack.
 - Navigation: Surfing requires updated exploration tools to handle water tiles.
 
-# Lessons: Turns 7650-7830
+# Lessons: Turns 7650-7800
 - Capturing: Burn status is efficient but risky for low-HP targets like Red Gyarados. Sleep is safer.
 - Fly Map: Navigation requires precise cursor movement; check intermediate states to verify cursor position.
 - False Constraints: If a goal seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
 - Efficiency: Use Fly to bypass long routes when the party is weak.
+
+# Lessons: Turns 7800-7850
 - Security Mechanics: Column 24 in the Rocket Base B1F triggers intruder alerts via cameras at (24, 1) and (24, 5).
+- Agent Hygiene: Always verify current screen state before calling battle agents to avoid stale data (Turn 7828 mistake).
+- Immediate Action: If a marker is missed or a lesson learned, record it immediately to avoid context loss.
 
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
