@@ -38,5 +38,6 @@
 - **Mahogany Mart:** Entered. Met Lance (6, 3). He confirmed the radio signal source is here.
     - Suspicious hidden stairs likely at (7, 3).
     - Plan: Talk to Lance to proceed.
-- **Security:** Triggered 'Intruder Alert' at (24, 3). Likely caused by the Persian Statues acting as sensors. Encountered Rocket Grunt.
+- **Security:** Triggered 'Intruder Alert' at (24, 3). Persian Statues at (24, 1) and (24, 5) are sensors. Infinite Rocket Grunt battles will occur until a secret switch is tripped.
+- **Hypothesis:** The switch might be on one of the statues or a computer terminal. Testing statue at (24, 1).
 - Muscle grew to Lv 43. Replacing Karate Chop with Cross Chop (Power upgrade).
