@@ -8,12 +8,13 @@
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Restarting Mail Process.
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Navigating to Kenya (Slot 5).
+- **Current State:** Cursor on Garnet (Slot 2). Moving to Kenya (Slot 5).
 - **Next Steps:**
-    1. Confirm Selection of Kenya (A).
-    2. Verify Mail Screen.
-    3. Type "DARK CAVE".
-    4. Deliver to Fisher.
+    1. Move Down x3 to Kenya.
+    2. Verify Cursor on Kenya.
+    3. Press 'A' to Select.
+    4. Type "DARK CAVE".
+    5. Deliver to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps).
