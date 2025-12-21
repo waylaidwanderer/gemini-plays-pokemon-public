@@ -1,3 +1,13 @@
+# Tile Mechanics
+- **FLOOR**: Standard traversable tile.
+- **WALL**: Impassable barrier.
+- **LADDER**: Warp point between floors.
+- **WARP_PANEL**: Transport tile (often one-way).
+- **BOOKSHELF**: Impassable background object.
+- **COUNTER**: Impassable. Interact with NPCs/Items from an adjacent tile.
+- **SECURITY_CAMERA / Persian Statue**: Triggers alarms and battles until disabled.
+- **NPC/Item Sprites**: All sprites have collision and act as walls.
+
 # Team Rocket Base Investigation (Mahogany Town)
 - **Start Turn:** 7917 (Mahogany Mart), 8051 (B2F), 8222 (Switch Phase)
 - **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained.
@@ -27,15 +37,6 @@
   - Scientist Mitch (11, 15): Ditto (Lv24). Reward: ¥2400.
   - Rocket Grunt (7, 14): Raticate (Lv19). Reward: ¥760. Password 1: RATICATE TAIL.
   - Rocket Girl (21, 7): Ekans (Lv18), Gloom (Lv18). Reward: ¥720. Password 2: SLOWPOKETAIL.
-
-# Tile Mechanics
-- **FLOOR**: Standard traversable tile.
-- **WALL**: Impassable barrier.
-- **LADDER**: Warp point between floors.
-- **WARP_PANEL**: Transport tile (often one-way).
-- **BOOKSHELF**: Impassable background object.
-- **COUNTER**: Impassable. Interact with NPCs behind them from adjacent floor.
-- **NPC/Item Sprites**: All sprites have collision and act as walls.
 
 # Strategy (HOW)
 1. **Disable Alarms:** Interact with the Secret Switch at (19, 11) from (19, 12).
