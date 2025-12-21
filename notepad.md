@@ -7,19 +7,23 @@
 
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
-- Current Goal: Reset all switches to OFF to perform 3-2-1 sequence.
+- Goal: Open shutters (10, 6), (12, 8), and (16, 6) to reach the warehouse.
+- Current Switch Status: 3: ON, 2: ON, 1: ON.
+- Verified Shutter States (Turn 9838):
+  - (2, 6): OPEN (FLOOR)
+  - (6, 8): OPEN (FLOOR)
+  - (10, 6): CLOSED (WALL)
+  - (12, 8): CLOSED (WALL)
+  - (16, 6): CLOSED (WALL)
 
-# Switch Status (Turn 9834)
-- Switch 3 (2, 1): 🟢 ON
-- Switch 2 (10, 1): 🟢 ON
-- Switch 1 (16, 1): 🟢 ON (Just turned ON)
+# Switch Logic Observations (Incomplete)
+- Switch 1 ON (Turn 9834) -> (12, 8) changed to WALL.
+- Switch 1 OFF (Turn 9811) -> (12, 8) changed to FLOOR.
 
-# Shutter States (Verified Turn 9837)
-- (2, 6): OPEN (FLOOR) - Marker states OPEN, need to confirm visually.
-- (10, 6): CLOSED (WALL) - Marker states CLOSED, need to confirm visually.
-- (12, 8): CLOSED (WALL) - Verified visually at Turn 9837.
-- (16, 6): CLOSED (WALL) - Verified visually at Turn 9837.
-- Note: 3-2-1 sequence from all-OFF resulted in this state. Sequence failed.
+# Strategy
+1. Move to (10, 5) to verify (10, 6) state.
+2. Move to (2, 5) to verify (2, 6) state.
+3. Consult strategist with verified states.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
