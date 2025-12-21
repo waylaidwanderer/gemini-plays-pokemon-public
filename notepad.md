@@ -3,14 +3,14 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training
+# Strategy: KIMCHI Training (Updated Turn #7429)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 19.
-- Method: Lead in battles, then switch to stronger Pokemon (GNEISS/Calcifer) if necessary. Use Status moves (Sleep Powder) to safe-switch or chip away with Cut.
+- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 20 HP.
 
 # Tile Mechanics
-- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water).
-- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, WHIRLPOOL.
+- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
+- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, WHIRLPOOL, CAVE (Warp).
 - Transitions: LADDER, DOOR, PIT, WARP_CARPET.
 - General: HM02 Fly is strictly for outdoor use. Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
@@ -40,12 +40,3 @@
 
 # Route 42 Discoveries
 - Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
-
-# Tile Mechanics (Route 42)
-- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
-- Impassable: WALL, HEADBUTT_TREE, CUT_TREE, CAVE (Warp).
-
-# Strategy: KIMCHI Training (Updated Turn #7428)
-- Target: Lv21 (Evolution to Gloom).
-- Current Level: 19.
-- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 20 HP.
