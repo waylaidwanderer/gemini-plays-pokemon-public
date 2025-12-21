@@ -1,6 +1,6 @@
 # Radio Tower Crisis (Started Turn 8588)
 - **Primary Objective**: Clear Team Rocket from the tower and restore normal broadcasts.
-- **Progress**: 1F and 2F cleared of immediate threats. Currently sweep-clearing 3F.
+- **Progress**: 1F and 2F cleared. 3F sweep in progress.
 - **Strategy (HOW)**:
     1. Floor-by-floor sweep (1F -> 5F).
     2. Defeat all Rocket Grunts and Executives.
@@ -15,8 +15,9 @@
     - Rocket Girl (10, 3): Arbok Lv26 - Defeated.
     - Rocket Grunt (8, 4): 4 Rattatas (Lv21-23) - Defeated.
     - Rocket Grunt (4, 1): 2 Zubats (Lv26) - Defeated.
-    - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated (Turn 8709).
-- Radio Tower 3F: Sweep in progress.
+    - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated.
+- Radio Tower 3F:
+    - Rocket Grunt (6, 4): Weezing Lv26 - Defeated (Turn 8721).
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
@@ -34,3 +35,6 @@
 - **Counter Interaction**: Face the counter, not the NPC.
 - **Fly Map (Goldenrod)**: From New Bark Town, 4 Ups and 6 Lefts. Menu is "sticky"; use discrete presses or `fly_to_v1`.
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
+
+# Reflection & Lessons Learned
+- **Turn 8725**: 50-turn reflection. Sweep of 1F and 2F complete. 3F has multiple trainers. Goal is to reach 5F. No deferred tasks identified. Map and tools are up to date. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
