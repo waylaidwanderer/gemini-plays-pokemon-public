@@ -19,6 +19,7 @@
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps). Said "This MAIL isn't for me."
 - **Cooltrainer M (Route 31):** Generic dialogue about Dark Cave. Not the recipient.
+- **Wade (Route 31):** Called (Turn 9576). Waiting on Route 31 to share something (Berry/Item).
 - **PC Mechanics:** "Move Mail" requires open slot in PC Box.
 - **Dark Cave:** Connects Route 31, 45, 46. Needs Flash.
 
