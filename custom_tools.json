@@ -133,5 +133,17 @@
         "action_counter": 8796
       }
     ]
+  },
+  "write_mail_dark_cave": {
+    "description": "Types 'DARK CAVE leads to another road.' on the mail screen. Handles case switching.",
+    "input_schema": {},
+    "python_script": "def main(input_data):\n    buttons = []\n    \n    # Helper for navigation\n    # We track current (x, y) relative to the grid\n    # Grid is 10 cols x 6 rows (approx)\n    curr_x, curr_y = 0, 0 # Assumption: Starts at 'A' (0,0) after reset\n    \n    def move_to(target_x, target_y):\n        nonlocal curr_x, curr_y\n        seq = []\n        # Move Y\n        diff_y = target_y - curr_y\n        if diff_y > 0: seq.extend([\"Down\"] * diff_y)\n        elif diff_y < 0: seq.extend([\"Up\"] * (-diff_y))\n        \n        # Move X\n        diff_x = target_x - curr_x\n        if diff_x > 0: seq.extend([\"Right\"] * diff_x)\n        elif diff_x < 0: seq.extend([\"Left\"] * (-diff_x))\n        \n        seq.append(\"A\")\n        curr_x, curr_y = target_x, target_y\n        return seq\n\n    # 1. Reset cursor to top-left to be safe\n    # Max dimensions 10x6\n    # Up 6, Left 10 guarantees (0,0)\n    buttons.extend([\"Up\"]*6 + [\"Left\"]*10)\n    curr_x, curr_y = 0, 0\n\n    # 2. Type \"DARK CAVE \" (Upper)\n    # D(3,0), A(0,0), R(7,1), K(0,1), Space(6,2), C(2,0), A(0,0), V(1,2), E(4,0), Space(6,2)\n    coords_upper = [\n        (3,0), (0,0), (7,1), (0,1), (6,2), # DARK_\n        (2,0), (0,0), (1,2), (4,0), (6,2)  # CAVE_\n    ]\n    for x, y in coords_upper:\n        buttons.extend(move_to(x, y))\n\n    # 3. Switch to Lowercase\n    # 'lower' is at (0,5)\n    buttons.extend(move_to(0, 5))\n    # After pressing 'lower', layout changes but cursor stays at (0,5) (which becomes UPPER)\n    \n    # 4. Type \"leads to another road.\" (Lower)\n    # l(1,1), e(4,0), a(0,0), d(3,0), s(8,1), Space(6,2)\n    # t(9,1), o(4,1), Space(6,2)\n    # a(0,0), n(3,1), o(4,1), t(9,1), h(7,0), e(4,0), r(7,1), Space(6,2)\n    # r(7,1), o(4,1), a(0,0), d(3,0), .(7,2)\n    \n    coords_lower = [\n        (1,1), (4,0), (0,0), (3,0), (8,1), (6,2), # leads_\n        (9,1), (4,1), (6,2),                      # to_\n        (0,0), (3,1), (4,1), (9,1), (7,0), (4,0), (7,1), (6,2), # another_\n        (7,1), (4,1), (0,0), (3,0), (7,2)         # road.\n    ]\n    \n    for x, y in coords_lower:\n        buttons.extend(move_to(x, y))\n        \n    print(f'{{\"buttons\": {buttons}}}')\n\nmain({})",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T02:16:45.584Z",
+        "action_counter": 9295
+      }
+    ]
   }
 }
