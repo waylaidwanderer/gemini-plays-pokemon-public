@@ -22,10 +22,7 @@
 - Water -> Fire: Super Effective (vs Growlithe)
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
-# Strategy: Resource Management
-- Return Path: (3, 2) -> (22, 27) Ladder -> Switch Room.
-
-# Strategy: Switch Room Puzzle
+# Strategy: Switch Room Puzzle (Map 3_54)
 - Standard Solution: 3-2-1 sequence (Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1)).
 - Logic (Hypothesis):
   - Switch 1: Toggles (16, 6) and (17, 6).
