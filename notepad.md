@@ -6,18 +6,16 @@
 
 # Global Knowledge
 ## Tile Mechanics
-- FLOOR: Standard traversable tile. Verified.
-- WALL: Impassable collision. Verified.
-- SHUTTER: WALL tiles in Map 3_54 that toggle to FLOOR via switches. Verified.
-- COUNTER: Impassable. Interact from adjacent tile. Verified.
-- WARP_CARPET: Walking onto/off map triggers transition. Verified.
-- LADDER/STAIRS: Interactive warp point. Verified.
+- FLOOR: Standard traversable tile.
+- WALL: Impassable collision. In Map 3_54, certain WALL tiles are dynamic shutters.
+- COUNTER: Impassable. Interact from adjacent tile.
+- LADDER/STAIRS: Interactive warp point.
 
 ## Pokemon Type Effectiveness
-- Fire -> Grass: Super Effective (observed Calcifer vs Gloom)
-- Water -> Fire: Super Effective (observed vs Growlithe)
-- Rock/Ground -> Poison: Super Effective (observed Gneiss vs Ekans)
-- Flying -> Bug: Super Effective (observed Icarus vs Spinarak)
+- Fire -> Grass: Super Effective
+- Water -> Fire: Super Effective
+- Rock/Ground -> Poison: Super Effective
+- Flying -> Bug: Super Effective
 
 # Resource Management Strategy
 - Exit Goldenrod Underground via the ladder at (21, 25).
@@ -34,15 +32,16 @@
 - Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
 - Grunt Hint: "Change the order of switching. That'll change the ways the shutters open and close."
 
-## Shutter Logic (Verified)
+## Verified Shutter Logic
 - Switch 1: Toggles (16, 6) and (17, 6).
-- Switch 3 (ON -> OFF): Opens (10, 6) and (10, 7).
-- Switch 3 (OFF -> ON): Opens (12, 8) and (12, 9).
-- Switch 2 (ON -> OFF): Closes (10, 6) and (10, 7).
+- Switch 3 ON: Opens (12, 8), (12, 9). Closes (6, 9).
+- Switch 3 OFF: Opens (10, 6), (10, 7).
+- Switch 2 ON -> OFF: Closes (10, 6), (10, 7).
 
-## Current State (Turn 9181)
+## Current State (Turn 9190)
 - Switch States: Sw1 OFF, Sw2 OFF, Sw3 ON.
 - Shutter Status:
   - (10, 6), (10, 7): WALL (Closed)
   - (16, 6), (17, 6): WALL (Closed)
   - (12, 8), (12, 9): FLOOR (Open)
+  - (6, 9): WALL (Closed)
