@@ -21,6 +21,5 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Pivot:** Abandoned B2F door strategy. Focusing on finding the "missing link" to B2F NW.
-- **Exploration:** Currently checking B1F NW room and Grunt at (2,4).
-- **Grunt Hint (2,4):** "Traps are planted... collect courage and walk." Confirms we must walk through the trap tiles to reach the ladder at (3,14).
+- **Hypothesis:** The "Two Passwords" open the **B3F Boss Room** (not the B2F Transmitter Room). The B2F door likely requires a password found *inside* the Boss Room (from Executive/Murkrow).
+- **Plan:** Navigate to B3F, locate the Boss Room door, and unlock it.
