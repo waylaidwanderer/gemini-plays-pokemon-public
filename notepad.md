@@ -63,3 +63,7 @@
 - Turn 9936: Cursor on Muscle. Navigating to Mistral (Slot 4) to Fly.
 - Sequence: Down x3 -> A -> A.
 - Destination: Ecruteak City. From there, West to Route 42 -> Mahogany.
+- Turn 9937: Fly Map Open (New Bark Town).
+- Action: Navigating to Ecruteak City.
+- Path Strategy: Up, Left, Up (to Violet) -> Left (to Ecruteak).
+- Reasoning: Based on Turn 9912 success reaching Violet.
