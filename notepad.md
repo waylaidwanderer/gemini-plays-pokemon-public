@@ -6,7 +6,7 @@
 - Contingencies: If blocked, search for Lance or explore water with Surf.
 
 # Party Training Status
-- ICARUS (PIDGEY): Lv11. Current Lead for EXP sharing.
+- ICARUS (PIDGEY): Lv12. Current Lead for EXP sharing.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv35.
 - Calcifer (TYPHLOSION): Lv36.
