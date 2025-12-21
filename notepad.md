@@ -19,7 +19,6 @@
   2. Toggle Switch 2 ON.
   3. Toggle Switch 1 ON.
   4. Verify path to southeast.
-- Current Step: Moving to S1 to reset.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
