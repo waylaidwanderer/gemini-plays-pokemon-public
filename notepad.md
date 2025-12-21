@@ -59,3 +59,6 @@
 - Observation: Trap tiles found at (5, 8), (5, 10), (5, 12).
 - Hypothesis: Traps are placed every 2 tiles along Column 5. Expect another trap at (5, 14).
 - Plan: Push through potential trap at (5, 14) to reach Ladder at (3, 14).
+- Encountered Trap Voltorb at (5, 13).
+- Traps are not just every 2 tiles anymore. Be careful.
+- Destination: Ladder at (3, 14).
