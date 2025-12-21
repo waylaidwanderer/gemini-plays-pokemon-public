@@ -37,4 +37,4 @@
 - Rocket Girl (Defeated). Password 1: "SLOWPOKETAIL".
 - Rocket Grunt at (5, 14) (Defeated). Password 2: "RATICATE TAIL".
 - Have both passwords: "SLOWPOKETAIL" and "RATICATE TAIL".
-- Plan: Loot Item at (3, 12), then open Boss Room at (10, 9).
+- Plan: Loot Item at (3, 12), then Loot Item at (1, 12), then open Boss Room at (10, 9).
