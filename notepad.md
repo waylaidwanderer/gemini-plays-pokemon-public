@@ -6,12 +6,26 @@
 
 # Global Knowledge
 ## Tile Mechanics
-- FLOOR: Standard traversable tile. Verified.
-- WALL: Impassable collision. Verified.
-- SHUTTER: WALL tiles in Map 3_54 that toggle to FLOOR via switches. Verified.
-- COUNTER: Impassable. Interact from adjacent tile. Verified.
-- WARP_CARPET: Walking onto/off map triggers transition. Verified.
-- LADDER/STAIRS: Interactive warp point. Verified.
+- FLOOR:
+  - Individual Behavior: Standard walkable surface. No special effects.
+  - Relational Behavior: Can be entered from any adjacent traversable tile.
+  - Mechanics: Allows normal player movement and wild encounters (in specific maps).
+- WALL:
+  - Individual Behavior: Impassable barrier. Blocks player movement.
+  - Relational Behavior: Cannot be entered from any direction.
+  - Mechanics: In Map 3_54, specific WALL tiles function as dynamic shutters toggled by switches.
+- COUNTER:
+  - Individual Behavior: Impassable barrier. Blocks player movement.
+  - Relational Behavior: Interactable from the front tile (usually a FLOOR tile).
+  - Mechanics: Prevents walking but allows talking to NPCs behind them.
+- WARP_CARPET_DOWN / WARP_CARPET_UP:
+  - Individual Behavior: Triggers a map transition (warp) when entered.
+  - Relational Behavior: Entered by walking onto the tile.
+  - Mechanics: Automatically moves the player to a different map or coordinate.
+- LADDER / STAIRCASE:
+  - Individual Behavior: Interactive warp point.
+  - Relational Behavior: Triggers warp when the player steps onto it.
+  - Mechanics: Connects different floors or maps.
 
 ## Pokemon Type Effectiveness
 - Rock/Ground -> Poison: Super Effective (GNEISS vs Koffing)
@@ -20,11 +34,11 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Exit via ladder at (23, 3) -> Map 3_51 -> Map 3_52 -> Goldenrod City.
+- Exit via warp carpet at (22, 31) -> Map 3_51 -> Goldenrod City.
 - Navigate to the Goldenrod Dept. Store (Map 3_6).
 - Take the elevator to 5F (Pharmacy).
 - Purchase 10 Hyper Potions and 5 Revives with ¥90251.
-- Return to the Underground via the same warp to resume the puzzle.
+- Return to the Underground via the same path to resume the puzzle.
 
 ## Progress Tracking
 - Badges: 7/16.
