@@ -15,7 +15,7 @@
 - **Cleared Floors**: 1F, 2F, 3F.
 - **4F Progress**:
     - Scientist Rich (4, 2): Defeated.
-    - Rocket Grunt (5, 5): Zubat defeated. Golbat next.
+    - Rocket Grunt (5, 5): Zubat defeated. Golbat next (Turn 8787). Calcifer out of Flame Wheel PP.
 - **Significant Wins**: Red Gyarados (Lake of Rage).
 
 # Global Knowledge
