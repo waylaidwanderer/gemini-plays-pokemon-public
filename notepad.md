@@ -1,6 +1,6 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
-- Status: Exploring Team Rocket Base B2F. Met Lance at (5, 13). GNEISS leading.
+- Status: Exploring Team Rocket Base B2F. Lance healed the party. GNEISS leading.
 
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
@@ -17,9 +17,9 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- GNEISS (GRAVELER): Lv37 (91/103 HP). Moves: Magnitude, Defense Curl, Strength, Rollout.
-- ICARUS (PIDGEY): Lv16 (13/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
-- Calcifer (TYPHLOSION): Lv36 (112/114 HP).
+- GNEISS (GRAVELER): Lv37 (103/103 HP). Moves: Magnitude, Defense Curl, Strength, Rollout.
+- ICARUS (PIDGEY): Lv16 (43/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
+- Calcifer (TYPHLOSION): Lv36 (114/114 HP).
 - KIMCHI (GLOOM): Lv21 (57/57 HP).
 - Ravioli (KRABBY): Lv10 (27/27 HP).
 - Blarney (SUDOWOODO): Lv20 (60/60 HP).
@@ -27,11 +27,7 @@
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1), (24, 5), and (6, 1). Walking past column 24 or column 6 triggers a Rocket Grunt battle. Statues contain cameras.
 - Secret Switch: Hypothesis: A secret switch trips the camera alarms.
-- Floor Traps: Hypothesis: Certain tiles trigger wild encounters or effects.
-- Trap Testing Plan:
-    1. Step on tile (3, 4) to check for encounter or effect.
-    2. Step on tile (2, 4) to check for encounter or effect.
-    3. Document results for each step.
+- Floor Traps: Column 3 has traps at (3, 7), (3, 8), (3, 9), and (3, 10). Tiles (3, 11-13) are safe.
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
