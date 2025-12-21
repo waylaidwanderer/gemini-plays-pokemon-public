@@ -82,10 +82,11 @@
 - False Constraints: If a goal strategy seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
 - Efficiency: Use Fly to bypass long routes when the party is weak.
 
-# Lessons: Turns 7800-7850
+# Lessons: Turns 7850-7900
 - Security Mechanics: Column 24 in the Rocket Base B1F triggers intruder alerts via cameras at (24, 1) and (24, 5).
-- Agent Hygiene: Always verify current screen state before calling battle agents to avoid stale data (Turn 7828 mistake).
+- Agent Hygiene: Always verify current screen state before calling battle agents to avoid stale data. Use current Game State values only.
 - Immediate Action: If a marker is missed or a lesson learned, record it immediately to avoid context loss.
+- Tool Timing: Menu transitions require a brief pause (e.g., 'sleep 100') to ensure inputs are applied to the correct menu.
 
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
