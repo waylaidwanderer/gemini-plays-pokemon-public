@@ -53,6 +53,6 @@ Mechanic: Persian Statues (e.g., at 6,1) are security cameras. Walking in their 
 - Plan: Investigate reachable tiles after battle.
 - Tested statues at (8, 6), (10, 6): No reaction.
 - Missed checking (9, 6). Must re-check.
-- Currently checking (11, 6).
-- Plan: Check (11-13, 6), then double back to (9, 6).
+- Currently checking (11, 6), (12, 6), (13, 6) in batch.
+- Plan: If no switch found, double back to (9, 6).
 - Hypothesis: One of these statues contains the secret switch to disable the cameras.
