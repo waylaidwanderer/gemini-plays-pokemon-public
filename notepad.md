@@ -70,6 +70,5 @@
 
 # Team Rocket Encounter (Turn #7598)
 - Location: Route 43 Gatehouse (9_4).
-- NPCs: Two Rocket Grunts at (4, 6) and (5, 6) blocking the path.
-- Dialogue: "Hold it there, kiddo!"
-- Note: This gatehouse likely requires a toll or a specific event to pass.
+- Event: Paid ¥1000 toll. Rocket Grunts moved aside.
+- Note: Path north to Route 43 is now clear.
