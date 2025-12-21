@@ -23,26 +23,14 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Strategy: Switch Room Puzzle (Map 3_54)
-- Goal: Clear path to ladder at (23, 3).
+- Goal: Clear path to ladder at (21, 25).
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping of switch-shutter relationships.
-- Experiment Log (Attempt 3):
-    1. Baseline (All OFF): (2, 6), (3, 6) OPEN. All other shutters at Row 6, 8, 9 are WALL (CLOSED). Verified.
-    2. Test 3.1: Switch 1 (16, 1) ON. 
-       - Result: (16, 6), (17, 6), (12, 8), (12, 9) OPEN. (10, 6), (6, 8), (6, 9) CLOSED.
-       - Conclusion: Switch 1 toggles Right-side shutters.
-    3. Test 3.2: Switch 2 (10, 1) ON.
-       - Result: (10, 6), (6, 8), (6, 9) OPEN. (16, 6), (17, 6), (12, 8), (12, 9) CLOSED.
-       - Conclusion: Switch 2 toggles Left and Middle shutters.
-    4. Test 3.3: Switch 3 (2, 1) ON.
-       - Status: 1:OFF, 2:OFF, 3:ON.
-       - Result: (2, 6), (3, 6) are FLOOR.
-       - Note: Need to verify (2, 6) at baseline (All OFF) later.
-- Strategy: Following Strategist's 3-2-1 sequence.
-    - Step 1: Switch 3 ON (Completed).
-    - Step 2: Switch 2 ON (Completed).
-    - Step 3: Switch 1 ON (Completed).
-- Goal: Verify path to ladder at (23, 3).
+- Experiment Log (Attempt 3): 3-2-1 sequence (All ON) failed. Path blocked.
+- Strategy: Reset all switches to OFF, then perform a final systematic mapping.
+    - Step 1: Turn Switch 1 OFF (In progress).
+    - Step 2: Turn Switch 2 OFF.
+    - Step 3: Turn Switch 3 OFF.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
