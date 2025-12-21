@@ -68,3 +68,4 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - NPC at (14, 7): Mentions "MALICE" (rival) made fun of his Pokémon.
+- Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
