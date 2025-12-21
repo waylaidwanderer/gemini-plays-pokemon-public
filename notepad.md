@@ -35,3 +35,6 @@
 - Note: Avoiding row 6 (Youngster) and row 8 (safe but 7 is direct). Assumed Youngster is non-hostile.
 - Turn 9920: Moving Right x6 to reach (15, 7).
 - Note: Ledge at (13, 7) will be hopped. Fruit Tree expected at (16, 7), so stopping at (15, 7) to reassess approach to Fisher (17, 7).
+- Turn 9921: Moving to (17, 8) to interact with Fisher.
+- Path: Down to (15, 8) -> Right to (17, 8) to bypass Fruit Tree at (16, 7).
+- Action: Talk to Fisher to attempt delivery.
