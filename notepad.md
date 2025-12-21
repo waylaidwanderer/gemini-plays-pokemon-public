@@ -8,9 +8,9 @@
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Finalizing Mail "DARK CAVE".
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Text is "DARK CAVED". Cursor at 'H'.
+- **Current State:** Text is "DARK CAV". Cursor at 'é'.
 - **Next Steps:**
-    1. Press 'B' to delete 'D'.
+    1. Navigate Up to 'E' and Type it.
     2. Navigate to 'END' (Bottom-Right).
     3. Press 'A' to Confirm.
     4. Deliver Mail to Fisher.
