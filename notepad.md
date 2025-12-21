@@ -37,3 +37,5 @@
 - Anomaly: Strength (Normal) was Super Effective against Koffing/Venonat. Keeping an eye on this.
 - Moving to (22, 11) to talk to Scientist Ross from the side (he is facing Up).
 - Hypothesis: Interacting from behind didn't work.
+- Located Rocket Girl at (21, 7). She likely holds the second password.
+- Plan: Get password from Scientist Ross, then navigate to Rocket Girl via West gap at (19, 10).
