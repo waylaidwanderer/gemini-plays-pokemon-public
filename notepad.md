@@ -105,3 +105,5 @@
 - Action: Up -> A. Then will select Fly.
 - Turn 9903: Attempted to Fly inside Gatehouse -> Failed ("Can't use that here").
 - Plan: Exit Gatehouse (South), then Fly to Violet City.
+- Turn 9906: Exiting Gatehouse (Right to warp).
+- Next Action: Fly to Violet City from Goldenrod.
