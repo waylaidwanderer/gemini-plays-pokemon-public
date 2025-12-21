@@ -29,3 +29,5 @@
 ## Lessons Learned
 - **Check Map Data:** Always review 'Map Events -> Background Objects' for named objectives (like Switches) before searching blindly.
 - **Persian Statues:** They are cameras, not necessarily switches. The switch is a separate object.
+- Route Update: Moving West to (7, 9), then South through gap at (7, 10) to reach the lower section (Row 12).
+- Anticipating battle with Scientist at (18, 12) when returning East.
