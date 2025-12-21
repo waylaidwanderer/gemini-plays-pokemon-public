@@ -7,7 +7,6 @@
 
 # Team Rocket Base Investigation (Mahogany Town)
 - **Status:** All passwords obtained. Executive defeated. Currently in B2F Transmitter Room with Lance.
-- **Mission Start:** Turn #7917.
 - **B1F (3_49):**
   - (19, 11): Secret Switch (Disables Statues).
 - **B2F (3_50):**
@@ -20,7 +19,7 @@
 
 # Strategy (HOW)
 - **Verify Current Map ID and Coordinates via Game State before executing navigation.**
-1. **Defeat Grunts:** Win the battle against the grunts in the transmitter room (Turn #8413).
+1. **Defeat Grunts:** Win the battle against the grunts in the transmitter room.
 2. **Shut Down Transmitter:** Neutralize the three Electrode (Lv30) powering the signal.
 3. **Reward:** Speak with Lance to receive HM06 (Whirlpool).
 
