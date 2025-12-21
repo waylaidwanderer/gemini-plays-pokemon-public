@@ -38,3 +38,8 @@
 - Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_53.
 - Rocket Girl: (19, 12).
 - Emergency Switch: (20, 11).
+
+# Switch Testing Log
+- State at Turn 9909: 1:ON, 2:ON, 3:ON. Shutters (10,6), (16,6), (6,8) CLOSED. (2,6), (12,8) OPEN.
+- Goal: Reset to all OFF and test individual switches.
+- Turn 9910: Moving to turn Switch 2 OFF.
