@@ -21,9 +21,9 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Ambushed by Rocket Grunts (Girl & Guy) at B2F (14, 14).
-- **Situation:** ROCKET_GIRL is at (14, 13) blocking the Transmitter Room door.
-- **Action:** Defeat the Grunts to clear the path to the Transmitter Room.
+- **Status:** Battling Rocket Executive (Female) at B2F Transmitter Room entrance (14, 14).
+- **Situation:** She blocked the path. Fighting her Arbok (Defeated) and Murkrow.
+- **Action:** Defeat the Executive to proceed.
 - **Objective:** Disable the radio signal by defeating all Electrodes/Voltorbs inside.
 
 ## Mapping & Connections (Restored)
