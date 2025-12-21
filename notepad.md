@@ -21,6 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Picked up TM46 (Thief) at B2F NW (3, 10). Area is a dead end.
-- **Plan:** Backtrack to B3F Main Area (via B3F West -> B2F North -> B3F NE). Search for Boss Room Door near (10, 9) or (5, 14).
-- **Hypothesis:** The "Two Passwords" open a door on B3F (likely leading to the Boss).
+- **Status:** In B3F West Corridor (3,6). Just looted TM46 from B2F NW.
+- **Fact:** B2F NW (Item Room) is a dead end accessed via B3F West.
+- **Plan:** Backtrack: Ladder (3,2) -> B2F North -> B3F NE -> B3F Main.
+- **Objective:** Locate and open the Boss Room Door at B3F (10,9) using the two passwords.
