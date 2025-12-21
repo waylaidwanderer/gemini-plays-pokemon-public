@@ -10,12 +10,13 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
 | (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
-| (0, 1, 0) | ? | ? | OPEN | CLOSED | ? | ? |
+| (0, 1, 0) [T10116] | CLOSED | CLOSED | OPEN | CLOSED | OPEN | ? |
 | (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
 
 ## Verified Observations
 - (0, 0, 0): All shutters CLOSED. (Turn 10102)
 - (1, 0, 0): (16, 6) OPEN. (Turn 10106)
+- (0, 1, 0): (10, 6) OPEN, (6, 8) OPEN, (16, 6) CLOSED, (2, 6) CLOSED, (3, 6) CLOSED. (Turn 10116)
 - (0, 0, 1): (2, 6), (3, 6), (12, 8) OPEN. (Turn 10094)
 - (1, 1, 1): (2, 6), (3, 6) OPEN; (10, 6), (16, 6) CLOSED. (Turn 10081)
 
