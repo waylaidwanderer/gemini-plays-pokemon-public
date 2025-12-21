@@ -25,3 +25,10 @@
 - Trainers: All defeated.
 - Rival: Defeated at (20, 4).
 - Return Ladders: (23, 3), (21, 25), and (5, 25) lead back to the main Underground (3_52).
+
+# Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- SHUTTER: Impassable when CLOSED (WALL), traversable when OPEN (FLOOR). Verified at (2, 6), (10, 6), (12, 8), (16, 6).
+- LADDER: Traversable (Warp).
+- WARP_CARPET_DOWN: Traversable (Warp).
