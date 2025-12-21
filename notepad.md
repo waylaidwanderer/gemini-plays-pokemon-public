@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Mixed Case Mail.
-  1. **Status:** Mail attached (presumably). In Move/Stats menu.
+- **Current Action:** Deliver Forged Mail.
+  1. **Status:** Mail forged ("Dark Cave leads to another road."). In Party Menu.
   2. **Step 1:** Exit Menus (B x4).
   3. **Step 2:** Interact with Fisher (Down -> A).
-  4. **Step 3:** Receive Reward (TM50?).
-  5. **Step 4:** Fly to Ecruteak City.
+  4. **Step 3:** Select Kenya (A).
+  5. **Step 4:** Observe result. If rejected, investigate original mail content or recipient.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
