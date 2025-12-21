@@ -6,9 +6,8 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Navigate to the Locked Doors at (15, 12) on B2F and open them using the passwords ("SLOWPOKETAIL", "RATICATE TAIL").
-- **Note:** The Boss Room ladder is likely behind these doors.
-- **Inventory:** Bag is full. Consolidate or toss items when convenient.
+- **Navigation:** Move around the area in front of the Locked Doors (14,13)-(15,15) to trigger the Rival event or find the correct interaction spot.
+- **Troubleshooting:** Door says "It needs a password" despite having them. Suspect a missing event trigger (Rival encounter).
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
