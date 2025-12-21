@@ -55,3 +55,10 @@
 # Discovered Locations
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
+
+# Reflection Turn #50 Lessons
+- Methodical progression: Always clear the exploration alert by verifying reachable unseen tiles.
+- Tool hygiene: Defined `check_reachable_unseen` to automate exploration checks.
+- Battle efficiency: ICARUS training is the priority for wild encounters.
+- Goal status: Primary goal (Lake of Rage) is active. Path is clear.
+- Verification: Root hypotheses for recent puzzles were correct. No major errors to report.
