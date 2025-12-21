@@ -27,9 +27,9 @@
 - Shutter (6, 8): CLOSED
 
 ## Sequence Progress: 3-2-1
-- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890). Result: No obvious change to (10,6), (16,6). (12,8) remains OPEN.
-- Step 2: Switch 2 (10, 1) -> Interacting to turn ON.
-- Step 3: Switch 1 (16, 1) -> Pending
+- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890).
+- Step 2: Switch 2 (10, 1) -> ON (Done Turn 9896).
+- Step 3: Switch 1 (16, 1) -> Moving to turn ON.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
