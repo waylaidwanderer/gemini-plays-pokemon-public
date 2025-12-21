@@ -21,7 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** At B3F West (3,2).
-- **Discovery:** The West Corridor (Col 1-5) connects to the Central Area via Row 10.
-- **Plan:** Navigate South to Row 10, then East to the Boss Room Door at (10,9). Open it with the two passwords.
+- **Status:** At B3F (5, 9).
+- **Plan:** Navigate via Row 10 to the Boss Room Door at (10, 9).
 - **Hypothesis:** The Boss Room contains the Executive (and Murkrow) who has the password for the B2F Transmitter Room.
