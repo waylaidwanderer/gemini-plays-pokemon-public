@@ -39,6 +39,16 @@
 - **Object Identity**: During events (like takeovers), NPCs may be replaced by different sprites (e.g., Receptionist replaced by Rocket Grunt). Always interact to verify.
 - **Counter Interactions**: To talk to someone behind a counter, stand on the tile directly in front of the counter and face it.
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
+
+# Tile Mechanics (Global)
+- FLOOR: Standard traversable. Verified.
+- WALL: Impassable. Verified.
+- COUNTER: Impassable. Interact from front tile facing the counter. Verified.
+- WARP_CARPET_DOWN/UP/LEFT/RIGHT: Map transition. Verified.
+- STAIRCASE/LADDER: Warp points. Verified.
+- POKEBALL TILE: Decoration (Radio Tower). Verified.
+- BOOKSHELF: Impassable. Verified.
+
 ## Tower Progress
 - Floors 1F-4F: Accessible areas cleared.
-- 5F: Defeated Fake Director (Rocket Executive). Obtained BASEMENT KEY. Real Director is in the Underground Warehouse (far end of the Underground). Goal: Use Basement Key at (18, 6) in Goldenrod Underground.
+- 5F: Defeated Fake Director. Basement Key unlocks (18, 6) in the Underground.
