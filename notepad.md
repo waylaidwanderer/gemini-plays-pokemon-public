@@ -13,7 +13,8 @@
 - Status: Observation phase.
 - Observations:
   - (16, 6): OPEN (Confirmed standing on it Turn 9937).
-  - (12, 8): Moving to verify.
+  - (12, 8): OPEN (Confirmed standing on it Turn 9938).
+  - (6, 8): Moving to verify.
   - (10, 6): ?
   - (2, 6): ?
   - (6, 8): ?
