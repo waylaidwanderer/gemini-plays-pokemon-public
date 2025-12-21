@@ -21,7 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** On B3F East (15,12). Accessing northern corridor via (16,11).
-- **Observation:** Tile (15,11) is a COUNTER, but (16,11) appears to be FLOOR.
-- **Plan:** Explore B3F East Corridor (North of Row 12) to find a staircase leading to B2F NW.
-- **Hypothesis:** The path to the Boss Room involves going B3F East -> B2F NW -> Boss Room (via internal stairs).
+- **Status:** Battling Rocket Grunt at B2F (5,1). Opponent sent out Rattata.
+- **Plan:** Finish battle, then investigate Ladder at (3,2).
+- **Hypothesis:** Ladder (3,2) connects to the isolated B1F NW area. The Executive might be there.
