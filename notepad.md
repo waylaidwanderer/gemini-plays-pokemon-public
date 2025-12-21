@@ -23,3 +23,4 @@
 ## Action Log & Reflection
 - **Pivot:** Abandoned B2F door strategy. Focusing on finding the "missing link" to B2F NW.
 - **Exploration:** Currently checking B1F NW room and Grunt at (2,4).
+- **Grunt Hint (2,4):** "Traps are planted... collect courage and walk." Confirms we must walk through the trap tiles to reach the ladder at (3,14).
