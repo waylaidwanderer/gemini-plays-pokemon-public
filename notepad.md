@@ -24,7 +24,7 @@
 - LEDGE_HOP_DOWN: Verified one-way passage (Down only).
 
 # Party Training Status
-- ICARUS (PIDGEY): Lv15. Current Lead for EXP sharing.
+- ICARUS (PIDGEY): Lv15. Moves: Quick Attack, Sand-Attack, Gust, Fly. Current Lead.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
@@ -61,7 +61,7 @@
 - ¥1000: Toll paid at Route 43 Gatehouse.
 - Pokemaniac Ron: ¥1140 (Turn 7679).
 - Pokemaniac Brent: ¥1140 (Turn 7654).
-- Pokemaniac Ben: ¥1140 (Turn 7695).
+- Pokemaniac Ben: ¥1140 (Turn 7699).
 
 # PC Storage (Box 1)
 - ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
@@ -70,4 +70,3 @@
 - Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
 - Mahogany Town: Welcome to the Home of the Ninja.
 - NPC at (14, 7): Mentions "MALICE" (rival) made fun of his Pokémon.
-- Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
