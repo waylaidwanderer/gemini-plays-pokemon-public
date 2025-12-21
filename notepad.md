@@ -35,7 +35,7 @@
 - B1F Analysis: The room is divided by a wall of boxes. Left side (Elevator) is isolated from Right side (Ladder). Must access Right side from 1F.
 - Elevator connects to Left Side of B1F. Right Side (Ladder) is blocked by boxes.
 - B1F Item Hypothesis: The unreachable item at (14, 2) and the right side of B1F might be accessed via the Goldenrod Underground, not the Dept Store directly.
-- Plan: Buy Great Balls (Ultra Balls not sold here). Fly to Lake of Rage.
+- Plan: Fly to Lake of Rage. (Bought 10 Great Balls).
 ## Global Tile Mechanics
 - FLOOR: Traversable. Standard movement.
 - WALL: Impassable.
