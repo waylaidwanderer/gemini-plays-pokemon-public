@@ -6,6 +6,8 @@
     2. Return to B2F to unlock the boss's room.
     3. Shut down the transmitter.
 
+# Status: Exploring Team Rocket Base B3F. GNEISS leading.
+
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F, B3F)
 - WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F, B2F, B3F)
@@ -44,6 +46,8 @@
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
 - Scientist Ross: Defeated at (23, 11). Former Silph employee. Mentioned a signal that drives Pokemon mad.
 - Scientist (ID 7): Found at (11, 15).
+- Rocket Grunt (ID 5): Found at (5, 14).
+- Rocket Girl (ID 4): Found at (21, 7).
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
