@@ -6,8 +6,8 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Navigate to Rocket Girl at (21, 7) to re-verify password. Then to Rocket Grunt at (5, 14).
-- **Status:** Re-checking flags.
+- **Navigation:** Navigate to Rocket Grunt at (5, 14) to re-verify "RATICATE TAIL".
+- **Status:** "SLOWPOKETAIL" verified from Rocket Girl.
 - **Inventory:** Bag is full.
 
 ## Quest Log
