@@ -68,3 +68,7 @@
 - Using Dig (Super Effective) to secure the KO on Voltorb.
 - Trap pattern intensified: Traps at (5, 12) AND (5, 13). Expecting (5, 14) to be a trap too.
 - Continuing to Ladder at (3, 14).
+- Arrived at Team Rocket Hideout B2F.
+- Found Lance at (5, 13).
+- Found Item Ball at (3, 10).
+- Plan: Talk to Lance to see what he's found. Then grab the item.
