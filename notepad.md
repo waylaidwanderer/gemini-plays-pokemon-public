@@ -44,7 +44,7 @@
 - Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
 - Impassable: WALL, HEADBUTT_TREE, CUT_TREE, CAVE (Warp).
 
-# Strategy: KIMCHI Training (Updated Turn #7411)
+# Strategy: KIMCHI Training (Updated Turn #7416)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 19.
 - Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut.
