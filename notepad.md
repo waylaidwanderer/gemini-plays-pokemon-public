@@ -52,3 +52,7 @@
 - **Conclusion:** Fisher IS the recipient. The rejection "This MAIL isn't for me" is due to incorrect content (Case Sensitivity).
 - **Next Action:** Rewrite mail: "Dark Cave leads to another road." (Title Case).
 - **Progress:** Fisher accepted the dialogue 'You have MAIL for me?'. Selecting Kenya now to hand over the mail.
+- **Log:** "Dark Cave leads to another road." (Title Case) REJECTED.
+- **Analysis:** NPCs write "DARK CAVE". Attempt #1 ("DARK CAVE... road.") failed.
+- **Hypothesis:** The period was the error.
+- **Next Try:** "DARK CAVE leads to another road" (Caps Name, No Period).
