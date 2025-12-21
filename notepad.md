@@ -19,8 +19,8 @@
 # Leader Pryce Battle (Turn 8557)
 - Pryce's Roster:
   1. Seel Lv27 (Defeated, Turn 8565)
-  2. Dewgong Lv29 (In Battle, Turn 8574)
-  3. Piloswine (Predicted)
+  2. Dewgong Lv29 (Defeated, Turn 8577)
+  3. Piloswine (In Battle, Turn 8577)
 
 # Mahogany Gym Navigation Status
 - Current Position: (5, 4) [In Battle].
