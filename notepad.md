@@ -42,3 +42,5 @@
 - Quest Status: Testing Forgery #3 ("Dark Cave leads to another road" - No Period).
 - Previous Turn Logs: Consolidated.
 - Turn 9924: Party menu opened automatically. Selecting Kenya to test "Dark Cave leads to another road" (No Period).
+- Turn 9925: Selecting Kenya (Down -> A) to attempt delivery of "Dark Cave leads to another road" (no period).
+- Note: Previous turn likely selected Mistral by mistake, causing "It doesn't have any MAIL" dialogue. Retrying.
