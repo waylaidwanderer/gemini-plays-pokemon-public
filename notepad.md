@@ -6,10 +6,18 @@
 
 # Global Knowledge
 ## Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable. In Map 3_54, certain WALL tiles are dynamic shutters controlled by switches.
-- COUNTER: Interact from the front.
-- LADDER/STAIRS: Warps.
+- FLOOR: Standard traversable tile. Verified.
+- WALL: Impassable collision. Verified.
+- SHUTTER: WALL tiles in Map 3_54 that toggle to FLOOR via switches. Verified.
+- COUNTER: Impassable. Interact from adjacent tile. Verified.
+- WARP_CARPET: Walking onto/off map triggers transition. Verified.
+- LADDER/STAIRS: Interactive warp point. Verified.
+
+## Pokemon Type Effectiveness
+- Fire -> Grass: Super Effective (observed Calcifer vs Gloom)
+- Water -> Fire: Super Effective (observed vs Growlithe)
+- Rock/Ground -> Poison: Super Effective (observed Gneiss vs Ekans)
+- Flying -> Bug: Super Effective (observed Icarus vs Spinarak)
 
 ## Progress Tracking
 - Badges: 7/16.
