@@ -27,10 +27,10 @@
 
 # Password Log
 - Password 1: RATICATE TAIL (from Grunt at 7, 14)
-- Password 2: [In Battle] (Rocket Girl at 21, 7)
+- Password 2: SLOWPOKETAIL (from Rocket Girl at 21, 7)
 
 # Trainer Roster (B3F)
 - Scientist Mitch (11,15): Ditto (Lv24). Defeated.
 - Rocket Grunt (7,14): Raticate (Lv19). Defeated. Password 1.
 - Scientist Ross (23,11): Koffing (Lv22), Koffing (Lv22). Defeated.
-- Rocket Girl (21,7): Ekans (Lv18), Gloom (Lv??). In Battle. Password 2.
+- Rocket Girl (21,7): Ekans (Lv18), Gloom (Lv18). Defeated. Password 2.
