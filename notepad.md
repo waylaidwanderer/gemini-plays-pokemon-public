@@ -41,3 +41,5 @@
 - WARP_CARPET_DOWN: Traversable. Triggers warp to adjacent map when stepped on.
 - WARP_CARPET_UP: Traversable. Triggers warp to adjacent map when stepped on.
 - STAIRS: Traversable. Warps to another floor.
+- Correction: I failed to talk to the Machop on B1F due to a button mix-up. If the stairs at (15, 0) don't help, I must return to B1F and talk to Machop.
+- Stairs at (15, 0) likely lead to 2F, but need to verify if they also access B1F.
