@@ -1,30 +1,34 @@
+# Strategy: Lake of Rage Investigation
+- Goal: Locate the source of the "rampage" (Red Gyarados).
+- Path: Follow Route 43 North to Lake of Rage.
+- Status: Gatehouse passage unlocked (paid ¥1000 toll). ICARUS moved to lead.
+- Method: Lead with ICARUS (Lv11 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
+- Contingencies: If blocked, search for Lance or explore water with Surf.
+
 # Party Training Status
-- KIMCHI (GLOOM): Lv21. Evolved!
-- Next Target: Train ICARUS (Pidgey) to catch up in levels.
-- Strategy: ICARUS is being moved to lead for EXP sharing. Use GNEISS/Calcifer for tough battles.
+- ICARUS (PIDGEY): Lv11. Current Lead for EXP sharing.
+- KIMCHI (GLOOM): Lv21. Evolved from Oddish.
+- GNEISS (GRAVELER): Lv35.
+- Calcifer (TYPHLOSION): Lv36.
+- Ravioli (KRABBY): Lv10.
+- Blarney (SUDOWOODO): Lv20.
 
 # Tile Mechanics
-- FLOOR: Traversable. Standard movement.
+- FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Traversable only with Surf (HM03) and Fog Badge. Must be entered from an adjacent land tile while facing the water.
-- TALL_GRASS: Traversable. Standard movement. Triggers wild encounters.
+- WATER: Traversable only with Surf (HM03) and Fog Badge.
+- TALL_GRASS: Traversable. Triggers wild encounters.
 - MART_SHELF: Impassable.
 - COUNTER: Impassable. Interacting from an adjacent tile allows talking to NPCs behind it.
-- WARP_CARPET_DOWN / WARP_CARPET: Traversable. Triggers map transition.
-- LADDER / STAIRS / DOOR: Traversable. Triggers map transition.
+- WARP_CARPET_DOWN / WARP_CARPET / LADDER / STAIRS / DOOR: Map transition.
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
 - CUT_TREE: Impassable. Can be removed using Cut (HM01) and Hive Badge.
 - PC: Impassable. Interacting from below (facing UP) allows access.
-
-# Strategy: Lake of Rage Investigation
-- Path: Follow Route 43 North.
-- Method: Lead with KIMCHI (Lv20 Oddish). Use Sleep Powder to stall and Absorb/Cut to deal damage.
-- Goal: Locate the source of the "rampage" (Red Gyarados).
-- Contingencies: If blocked, search for Lance or explore water with Surf.
+- LEDGE_HOP_DOWN: One-way passage (Down only).
 
 # General Mechanics & Tools
 - Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
-- Tool: find_path_v2 (v7323) handles trees and water-to-land navigation. Note: This tool may fail when targeting Warp tiles directly; target an adjacent tile instead.
+- Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 
 # Type Matchups (Observed)
 - Ground vs Water/Poison: Super Effective.
@@ -36,44 +40,18 @@
 - Grass vs Water/Fighting: Super Effective.
 - Fighting vs Grass/Poison: Not Very Effective.
 
-# PC Storage (Box 1)
-- ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
-
-# Battle Strategies
+# Battle & NPC Knowledge
+- Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
+- Mahogany Gym (6, 13): Blocked by Fisher at (6, 14) until Lake of Rage investigation.
+- Pokefan M at (8, 1) in PC: Saw "men in black" (Team Rocket) at Lake of Rage.
+- Camper Spencer (Route 43): Sandshrew (Lv17), Zubat (Lv19), Sandslash (Lv17).
 - Fisher Tully (Route 42): Qwilfish (Water/Poison).
 - Pokemaniac Shane (Route 42): Nidorina (Poison), Nidorino (Poison).
 - Hiker Benjamin (Route 42): Diglett (Ground), Dugtrio (Ground), Geodude (Rock/Ground).
 
-# Defeated Trainers
-- Fisher Tully (Route 42) at (40, 10).
-- Pokemaniac Shane (Route 42) at (47, 8).
-- Hiker Benjamin (Route 42) at (49, 9).
+# PC Storage (Box 1)
+- ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
 
-# Route 42 Discoveries
-- Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
-- Sign at (54, 8): ROUTE 42 ECRUTEAK CITY - MAHOGANY TOWN.
-
-# Mahogany Town Discoveries
-- Welcome to the Home of the Ninja.
-- Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
-- Gym (6, 13): Blocked by Fisher at (6, 14).
-
-# Mahogany Pokemon Center Dialogue
-- Pokefan M at (8, 1) saw "men in black" at Lake of Rage. Confirms Team Rocket involvement.
-- Youngster at (1, 3) stops evolution to learn moves faster.
-- Cooltrainer F at (2, 3) mentions evolved Pokemon learn moves more slowly.
-- Camper Spencer (Route 43): Sandshrew (Ground), Zubat (Poison/Flying), Sandslash (Ground).
-
-# Progression Update (Turn #7591)
-- KIMCHI (Oddish) evolved into GLOOM at Lv21 after defeating Camper Spencer.
-- Camper Spencer (Route 43) Roster: Sandshrew (Lv17), Zubat (Lv19), Sandslash (Lv17).
-
-# Team Rocket Encounter (Turn #7598)
-- Location: Route 43 Gatehouse (9_4).
-- Event: Paid ¥1000 toll. Rocket Grunts moved aside.
-- Note: Path north to Route 43 is now clear.
-
-# Exploration Log (Turn #7602)
-- Paid ¥1000 toll to Team Rocket in gatehouse (9_4) to access northern Route 43.
-- Current Path: Heading south to grab item at (12, 32), then north toward Lake of Rage.
-- Tool Maintenance: refined find_path_v2 (Turn #7612) to handle warp tiles correctly.
+# Discovered Locations
+- Route 42: MT.MORTAR WATERFALL CAVE INSIDE. Sign at (54, 8): ECRUTEAK CITY - MAHOGANY TOWN.
+- Mahogany Town: Welcome to the Home of the Ninja.
