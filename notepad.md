@@ -62,3 +62,5 @@
 - Next Step: Go to North Gate (Route 35 entrance) and talk to Webster to reset/fix the mail.
 - Turn 9873: Arrived in Goldenrod Center via Fly. Party healthy. Exiting to find Webster at North Gate.
 - Turn 9875: Path blocked by Cooltrainer F at (19, 27). Adjusting route to use column 18 (left side of road) to bypass. Destination: North Gatehouse (19, 1).
+- Turn 9876: Received phone call from Wade (Bug Catcher). He is on Route 31 and wants a rematch. Ignoring for now to prioritize Mail fix.
+- Resuming navigation to North Gatehouse to find Webster. Pathing via column 18 to avoid Cooltrainer.
