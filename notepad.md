@@ -6,15 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Recovery from Menu Error.
-- **Hypothesis:** Mail content is case-sensitive. Original text was "Dark Cave leads to another road".
+- **Status:** Correction - Removing Old Mail.
+- **Reason:** Kenya is still holding the "DARK CAVE" mail (failed delivery). Must remove it before writing new mail.
 - **Plan:**
-    1. Exit Pokegear.
-    2. Open Pack.
-    3. Give Flower Mail to Kenya.
-    4. Type: "Dark Cave leads to another road" (Mixed Case).
-    5. Deliver to Fisher.
-- **Current State:** Exiting Pokegear (accidental entry).
+    1. Exit Pack (B, B).
+    2. Enter Party Menu (Up, A).
+    3. Select Kenya -> MAIL -> TAKE.
+    4. Return to Pack -> Give Flower Mail.
+    5. Type: "Dark Cave leads to another road" (Mixed Case).
+    6. Deliver.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps) and "DARK CAVE".
