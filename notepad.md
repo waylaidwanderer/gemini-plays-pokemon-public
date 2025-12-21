@@ -80,3 +80,6 @@
 - Result: Wild VOLTORB Lv23 encounter triggered.
 - Conclusion: Tile (3, 7) is a trap tile.
 - Attempt 3 (Turn 7967): Stepped on tile (3, 7). Result: Wild VOLTORB Lv23 encounter. Conclusion: Tile (3, 7) is a trap tile.
+- Attempt 4 (Turn 7970): Stepped on tile (3, 8).
+- Result: Wild GEODUDE encounter triggered.
+- Conclusion: Tile (3, 8) is a trap tile.
