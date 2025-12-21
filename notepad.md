@@ -9,18 +9,17 @@
 - Mission: Identify shutter/switch mapping via isolation testing.
 - Start Turn: 10079
 
-## Shutter Verification Matrix
-| State (S1,S2,S3) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) | Path Clear? |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| (0, 0, 0) | ? | ? | ? | ? | ? | ? | ? |
-| (1, 0, 0) | ? | ? | ? | ? | ? | ? | ? |
-| (0, 1, 0) | ? | ? | ? | ? | ? | ? | ? |
-| (0, 0, 1) | ? | ? | ? | ? | ? | ? | ? |
-| (0, 1, 1) [T10087] | OPEN | OPEN | CLOSED | CLOSED | OPEN | OPEN | NO |
-| (1, 1, 1) [T10081] | OPEN | OPEN | CLOSED | CLOSED | OPEN | CLOSED | NO |
+## Isolation Testing Matrix (0 = OFF, 1 = ON)
+| State (S1,S2,S3) | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| (0, 0, 0) | ? | ? | ? | ? | ? | ? |
+| (1, 0, 0) | ? | ? | ? | ? | ? | ? |
+| (0, 1, 0) | ? | ? | ? | ? | ? | ? |
+| (0, 0, 1) | ? | ? | ? | ? | ? | ? |
 
-## Shutter/Switch Mapping (Hypothesis)
-- S1: Toggles (12,8). (Observed transition 1,1,1 -> 0,1,1).
+## Observations
+- (1, 1, 1): (2,6)=OPEN, (3,6)=OPEN, (6,8)=OPEN, (10,6)=CLOSED, (16,6)=CLOSED, (12,8)=CLOSED. (Observed Turn 10081)
+- (0, 1, 1): (12,8) shifted from CLOSED to OPEN (Observed Turn 10087).
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
