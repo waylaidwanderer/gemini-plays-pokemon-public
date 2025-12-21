@@ -23,7 +23,7 @@
 
 # Resource Management Strategy
 - Task started: Turn 9247.
-- Current Status: Buying Lemonades from 6F Vending Machines (8/10 purchased).
+- Current Status: Buying Lemonades from 6F Vending Machines (9/10 purchased).
 - How: Stand below a vending machine (e.g., (9, 2) for (9, 1)) and face UP. Clear text boxes before moving cursor.
 - Note: Lemonade is for HP; Revives are still needed (source unknown).
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
