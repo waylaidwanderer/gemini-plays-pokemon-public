@@ -39,3 +39,9 @@
 - **Object Identity**: During events (like takeovers), NPCs may be replaced by different sprites (e.g., Receptionist replaced by Rocket Grunt). Always interact to verify.
 - **Counter Interactions**: To talk to someone behind a counter, stand on the tile directly in front of the counter and face it.
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
+## Tower Progress
+- 1F: Cleared.
+- 2F: Cleared.
+- 3F: Cleared (accessible areas).
+- 4F: Scientist Rich and one Rocket Grunt defeated on left side.
+- 5F: Unreached. Target: Director's Office.
