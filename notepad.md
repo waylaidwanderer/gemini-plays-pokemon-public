@@ -45,3 +45,4 @@
 - Turn 9858: Previous input failed to navigate to Mistral (inputs likely eaten during menu transition). Currently on Muscle's menu. Correcting: B (Back), Down x3 (Mistral), A (Select).
 - Turn 9859: Selected FLY. Next step: Navigate map to Goldenrod City.
 - Hypothesis: Re-visiting Webster might reset the mail or let me copy the exact text again.
+- Turn 9861: Fly map open. Cursor stuck on "New Bark Town" despite Left x3. Attempting Up/Left to break stickiness. Target: Goldenrod City.
