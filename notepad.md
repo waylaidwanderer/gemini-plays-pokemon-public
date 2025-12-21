@@ -3,16 +3,16 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7489)
+# KIMCHI Training (Turn #7531)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
-- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
+- Strategy: Lead with KIMCHI on Route 43/Lake of Rage. Use Sleep Powder and Cut/Absorb.
 
 # Tile Mechanics
-- Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
-- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, CAVE (Warp).
-- Transitions: LADDER, DOOR, PIT, WARP_CARPET.
-- General: HM02 Fly is strictly for outdoor use. Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
+- Walkable: FLOOR, WATER (Surf HM03 + Fog Badge), TALL_GRASS.
+- Impassable: WALL, BUOY, ROCK, BOOKSHELF, TV, RADIO, TOWN_MAP, STATUE, COUNTER, HEADBUTT_TREE, CUT_TREE, CAVE (Warp), MART_SHELF.
+- Transitions: LADDER, DOOR, PIT, WARP_CARPET, WARP_CARPET_DOWN.
+- General: HM02 Fly is outdoor only. Counter NPCs (face counter), PCs/Switches (face UP from BELOW).
 
 # General Mechanics & Tools
 - Battle: Sweet Scent lowers opponent's evasion (counters Minimize). Karate Chop is Fighting-type.
@@ -50,15 +50,10 @@
 - Arrived at (0, 7) from Route 42.
 - Sign at (1, 5): Welcome to the Home of the Ninja (Mahogany Town).
 - Gramps at (5, 9).
+- Mahogany Mart (11, 7): NPCs mention Gyarados experiments. Suspicious tile at (7, 3) currently inactive.
+- Gym (6, 13): Blocked by Fisher at (6, 14).
 
-# Mahogany Town Strategy
-- Current Status: Inside Mahogany Mart (11, 7).
-- Objective 1: Find Pokemon Center and Gym in town.
-- Objective 2: If Gym is blocked, investigate Route 43 (North).
-- Plan:
-  1. Exit Mart via (3, 7) or (4, 7).
-  2. Explore West and South of the Mart.
-  3. Locate PC (usually has a red roof).
-  4. Locate Gym (usually has a sign).
-  5. Train KIMCHI (ODDISH) to Lv21.
-- Note: Suspicious tile at (7, 3) in Mart is not currently a warp. Likely triggers after Lake of Rage events.
+# Strategy: Lake of Rage Investigation
+- Objective: Investigate the "rampage" north of town.
+- Path: Route 43 (North) -> Lake of Rage.
+- Contingency: Look for Lance/Dragonite if present.
