@@ -28,7 +28,7 @@
   - (27, 14): Ladder to B2F East.
   - (24, 14): Rocket Grunt (Talked to).
   - (23, 11): Scientist Ross (Defeated).
-  - (10, 9): Boss Room Door (Locked). Requires 2 passwords.
+  - (10, 9): Boss Room Door (Locked). Requires 2 passwords. Hypothesis: Western section is isolated from the east.
 
 # Strategy (HOW)
 1. **Navigate B2F East:** Go to (23, 16) to cross the central barrier.
