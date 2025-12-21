@@ -8,37 +8,25 @@
 
 ## Systematic Testing
 - Baseline (0, 0, 0): ALL SHUTTERS CLOSED.
-  - (2, 6): CLOSED
-  - (10, 6): CLOSED
-  - (16, 6): CLOSED
-  - (6, 8): CLOSED
-  - (12, 8): CLOSED
-  - (6, 9): CLOSED
+  - (2, 6), (10, 6), (16, 6), (6, 8), (12, 8), (6, 9): CLOSED.
 
-### Test 1: Switch 1 (16, 1) -> ON
+### Test 1: Switch 1 (16, 1) -> ON (1, 0, 0)
 - Status: Complete.
-- Observations (compared to baseline):
-  - (16, 6): OPEN (Was CLOSED).
-  - (12, 8): OPEN (Was CLOSED).
-  - (2, 6), (10, 6), (6, 8), (6, 9): CLOSED (No change).
+- Observations: (16, 6) OPEN, (12, 8) OPEN. Others CLOSED.
 
-### Test 2: Switch 2 (10, 1) -> ON
+### Test 2: Switch 2 (10, 1) -> ON (0, 1, 0)
 - Status: Complete.
-- Observations (compared to baseline):
-  - (10, 6), (10, 7), (11, 6), (11, 7): OPEN (Was CLOSED).
-  - (6, 8), (6, 9): OPEN (Was CLOSED).
-  - (16, 6), (12, 8), (2, 6): CLOSED (No change).
+- Observations: (10, 6), (10, 7), (11, 6), (11, 7) OPEN. (6, 8), (6, 9) OPEN. Others CLOSED.
 
-### Test 3: Switch 3 (2, 1) -> ON
-- Status: Observation phase. Started Turn 9985.
-- Observations (compared to baseline):
-  - (2, 6), (3, 6): OPEN (Confirmed by standing on it Turn 9997).
-  - (6, 8), (10, 6), (12, 8), (16, 6): CLOSED (Confirmed by collision/visual Turn 9997).
+### Test 3: Switch 3 (2, 1) -> ON (0, 0, 1)
+- Status: Complete (Turn 9985).
+- Observations: (2, 6), (3, 6) OPEN. Others CLOSED.
+
+### Test 4: Switch 3 ON, Switch 2 ON (0, 1, 1)
+- Status: Observation phase (Started Turn 10003).
+- Strategy: Combining S3 (far left) and S2 (middle/left) to clear both shutter rows.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
 - Return Ladders: (23, 3), (21, 25), and (5, 25) lead to 3_53.
 - Key NPCs: Rocket Girl (19, 12), Emergency Switch (20, 11).
-### Test 4: Switch 3 ON, Switch 2 ON (0, 1, 1)
-- Status: Moving to turn Switch 2 ON (Turn 9998).
-- Strategy: Combining S3 (far left) and S2 (middle/left) to clear both shutter rows.
