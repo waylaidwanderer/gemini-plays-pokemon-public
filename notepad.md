@@ -35,4 +35,4 @@
 - Attempt 2 (Current): Writing mixed case message.
 - Mechanism: Mail must be written before giving? Or can be edited? If 'GIVE' creates blank mail, must 'TAKE' -> 'WRITE' -> 'GIVE' or 'USE' -> 'WRITE' -> 'GIVE'.
 - Mail Menu: Start button causes Printer Error. Use B to cancel.
-- Turn 9845: Cursor at 'v'. Plan: Right x6 to '.', A (type '.'), Down x3 to END, A (finish). This completes "Dark Cave leads to another road."
+- Status: Mail Written ("Dark Cave leads to another road."). Attempting Delivery.
