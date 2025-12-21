@@ -31,7 +31,10 @@
     - Switch 2: Toggles Left/Middle shutters.
     - Switch 3: Toggles Middle shutters.
 - Puzzle Result: 3-2-1 sequence (all switches ON) failed previously. Testing 3-2-1 from baseline.
-- Current Plan: Execute 3-2-1 sequence (Started Turn 9605).
+- Current Plan: Execute 3-2-1 sequence.
+    - Step 1: Switch 3 ON (Completed).
+    - Step 2: Switch 2 ON (Completed).
+    - Step 3: Switch 1 ON (Target).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
