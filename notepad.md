@@ -33,4 +33,5 @@
 - Current Battle: Scientist Ross sent out a second Koffing.
 - Action: Decline switch, then attack.
 - Scientist Ross (Defeated). Dialogue: "Experiment success... loss means nothing." No password yet.
-- Rocket Girl at (21, 7). Defeated. Getting password now.
+- Rocket Girl at (21, 7). Password 1: "SLOWPOKETAIL". Need Password 2.
+- Plan: Check Scientist Ross again, then explore West B3F.
