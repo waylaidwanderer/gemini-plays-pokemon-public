@@ -35,3 +35,9 @@
 - B1F Analysis: The room is divided by a wall of boxes. Left side (Elevator) is isolated from Right side (Ladder). Must access Right side from 1F.
 - Elevator connects to Left Side of B1F. Right Side (Ladder) is blocked by boxes.
 - Plan: Return to 1F via Elevator, then find stairs/ladder to B1F Right Side to get Item (14, 2).
+## Global Tile Mechanics
+- FLOOR: Traversable. Standard movement.
+- WALL: Impassable.
+- WARP_CARPET_DOWN: Traversable. Triggers warp to adjacent map when stepped on.
+- WARP_CARPET_UP: Traversable. Triggers warp to adjacent map when stepped on.
+- STAIRS: Traversable. Warps to another floor.
