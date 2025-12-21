@@ -38,3 +38,8 @@
 - Flight Miscalculation: Aimed for Goldenrod, landed in Olivine. Need to be more careful with Fly menu selection.
 - Checking Olivine Mart for Ultra Balls.
 - Olivine Mart: Does NOT sell Ultra Balls. Only sells Standard/Great Balls, Potions, Heals, and Mail.
+- Fly Map Logic:
+  - Violet -> Down -> Cherrygrove.
+  - Cherrygrove -> Up -> Violet.
+  - Violet -> Left + Down -> Azalea.
+  - Hypothesis: Azalea -> Up -> Goldenrod.
