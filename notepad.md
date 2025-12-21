@@ -7,17 +7,19 @@
 - Strategy: Systematic testing of switches to determine shutter logic.
 
 ## Systematic Testing
-- Baseline (0, 0, 0): (2,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN.
+- Baseline (0, 0, 0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN, (6,9) OPEN.
 
 ### Test 1: Switch 1 (16, 1) -> ON
-- Status: Observation phase.
-- Observations:
-  - (16, 6): OPEN (Confirmed standing on it Turn 9937).
-  - (12, 8): OPEN (Confirmed standing on it Turn 9938).
-  - (6, 8): CLOSED (Confirmed by collision Turn 9941).
-  - (10, 6): CLOSED (Confirmed by collision Turn 9944).
-  - (2, 6): Moving to verify.
-  - (6, 9): ? (System detected WALL at 9939).
+- Status: Complete.
+- Observations (compared to baseline 0,0,0):
+  - (16, 6): OPEN (Was CLOSED).
+  - (2, 6): CLOSED (Was OPEN).
+  - (6, 9): CLOSED (Was OPEN).
+  - (12, 8), (10, 6), (6, 8): No change.
+
+### Test 2: Switch 2 (10, 1) -> ON
+- Status: Moving to turn Switch 1 OFF first.
+- Observations: PENDING.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
