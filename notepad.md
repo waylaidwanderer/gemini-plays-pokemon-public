@@ -42,3 +42,9 @@
 - Always verify foundation assumptions before pursuing complex strategies.
 - The map is divided by a wall at column 15; cross at Row 12 or 13.
 - To reach the boss door, go around the Row 11-13 barrier via column 3.
+
+# Western Passage Observations
+- Row 11: WALL from (1, 11) to (13, 11).
+- Column 0: Unseen tiles from (0, 11) to (0, 16). Hypothesis: Column 0 provides a path around the Row 11 wall.
+- Items: POKE_BALL at (3, 12) and (1, 12).
+- Row 16: FLOOR from (1, 16) to (5, 16). Safe passage to the west.
