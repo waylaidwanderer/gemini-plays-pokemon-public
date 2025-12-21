@@ -8,13 +8,12 @@
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Restarting Mail Process.
 - **Mail Content Plan:** "DARK CAVE" (Exact sign text).
-- **Current State:** Exiting Pokegear to access Pack.
+- **Current State:** Entering Pack.
 - **Next Steps:**
-    1. Exit Pokegear (B).
-    2. Open Menu (Start).
-    3. Select Pack (Likely Up from Gear).
-    4. Select Flower Mail.
-    5. Give to Kenya & Type "DARK CAVE".
+    1. Locate Flower Mail (Items Pocket).
+    2. Select 'GIVE' -> Kenya.
+    3. Type "DARK CAVE" (Verified text).
+    4. Deliver to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps).
