@@ -11,20 +11,21 @@
 - Hint: "3-2-1" sequence (Left to Right).
 
 ## Research: Shutter States (S3, S2, S1)
-| State | (2,6) | (10,6) | (16,6) | (6,8) | (12,8) | (17,6) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1,1,1) | OPEN | CLOSED | CLOSED | CLOSED | OPEN | CLOSED |
+- Note: Tiles must be SEEN after a toggle to verify state. Mental Map may be stale.
+| State | (2,6) | (10,6) | (16,6) | (12,8) | (17,6) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
+| (1,1,1) | ? | ? | CLOSED | CLOSED | CLOSED |
+| (1,1,0) | ? | ? | ? | OPEN (prev) | ? |
 
-## Strategy: 3-2-1 Sequence
-- Goal: Open path to the southeast (cols 14+).
-- Current Switch States: S3=ON, S2=ON, S1=ON.
-- Hypothesis: The path at X=11 (which changed to FLOOR) and (12,8) being OPEN allows access to the east.
+## Strategy: Systematic Testing
+- Goal: Find a path to the southeast.
 - Plan:
-  1. Move to (11, 6) and (11, 7) to verify they are FLOOR.
-  2. Pass through (12, 8) and explore east.
-  3. If blocked, re-evaluate switch combinations.
-- Current Step: Moving to (11, 5) to inspect (11, 6).
+  1. Toggle Switch 1 OFF (Current state 1,1,1 -> 1,1,0).
+  2. Move to (12, 5) to verify (12, 8) and (16, 6).
+  3. If (12, 8) is OPEN, explore as far east as possible.
+  4. If blocked, try state (0, 1, 1).
+- Current Step: Toggling Switch 1 OFF.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
