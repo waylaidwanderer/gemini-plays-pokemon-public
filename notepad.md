@@ -18,18 +18,17 @@
 
 # Navigation Plan
 - **Phase 1: Clear the South-West Corner**
-  1. From current position (1, 17), move Right to (2, 17) [FLOOR].
-  2. Move Up to (2, 16) [FLOOR].
-  3. Move Up to (2, 14) [FLOOR].
-  4. Move Up to (2, 10) [FLOOR].
-  5. Move Up to (2, 5) [ICE, stops at Rocker at (2, 4)].
-  6. Interact with Rocker at (2, 4) and defeat him.
+  1. From current position (2, 17), move Up to (2, 16) [FLOOR].
+  2. Move Up to (2, 14) [FLOOR].
+  3. Move Up to (2, 10) [FLOOR].
+  4. Move Up to (2, 5) [ICE, stops at Rocker at (2, 4)].
+  5. Interact with Rocker at (2, 4) and defeat him.
 - **Phase 2: Reach Gym Leader Pryce**
   1. From (2, 5), move Right to (6, 5) [FLOOR].
-  2. Move Down to (6, 11) [ICE, stops at WALL at (6, 12)].
-  3. Move Left to (3, 11) [ICE, stops at WALL at (2, 11)].
-  4. Move Up to (3, 4) [ICE, stops at FLOOR at (3, 4)].
-  5. Move Right to (5, 4) [ICE, stops at FLOOR at (5, 4)].
+  2. Move Down to (6, 13) [FLOOR].
+  3. Move Left to (3, 13) [FLOOR].
+  4. Move Up to (3, 4) [FLOOR].
+  5. Move Right to (5, 4) [FLOOR].
   6. Face Up and talk to Pryce at (5, 3).
 
 # Lessons Learned
