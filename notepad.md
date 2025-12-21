@@ -7,7 +7,7 @@
     3. Enter the Lake of Rage and search for the Red Gyarados.
     4. Speak to Lance (if present) to coordinate the investigation.
 - Status: Gatehouse passage unlocked (paid ¥1000 toll). ICARUS moved to lead.
-- Method: Lead with ICARUS (Lv14 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
+- Method: Lead with ICARUS (Lv15 Pidgey) for EXP sharing. Switch to GNEISS or Calcifer for tough battles.
 - Contingencies: If blocked, search for Lance or explore water with Surf.
 
 # Tile Mechanics
@@ -24,7 +24,7 @@
 - LEDGE_HOP_DOWN: Verified one-way passage (Down only).
 
 # Party Training Status
-- ICARUS (PIDGEY): Lv14. Current Lead for EXP sharing.
+- ICARUS (PIDGEY): Lv15. Current Lead for EXP sharing.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
@@ -61,6 +61,7 @@
 - ¥1000: Toll paid at Route 43 Gatehouse.
 - Pokemaniac Ron: ¥1140 (Turn 7679).
 - Pokemaniac Brent: ¥1140 (Turn 7654).
+- Pokemaniac Ben: ¥1140 (Turn 7695).
 
 # PC Storage (Box 1)
 - ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
