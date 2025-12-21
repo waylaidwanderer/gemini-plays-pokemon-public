@@ -1,46 +1,39 @@
 # Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- SHUTTER: WALL type in XML when CLOSED, FLOOR type in XML when OPEN.
-- SwitchScript (2,1), (10,1), (16,1): Interactable from row 2 (facing UP). Toggles specific shutters.
+- FLOOR: Traversable. Always verify.
+- WALL: Impassable. Always verify.
+- SHUTTER: WALL type in XML when CLOSED, FLOOR type in XML when OPEN. Toggled by switches.
+- SwitchScript (2,1), (10,1), (16,1): Interactable from row 2 (facing UP).
 - LADDER: Warp point to another map.
 - WARP_CARPET_DOWN: Warp point to another map.
 
 # Puzzle: Goldenrod Underground Switch Room
-- Puzzle Start Turn: ~10125
-- Hint: "3-2-1" sequence (Left to Right).
+- Puzzle Start Turn: 10284 (Current Attempt)
+- Sequence: 3-2-1 (Left to Right).
+
+## Shutter Toggle Logic (Verified Relationships)
+- S3 (2,1): Toggles (2,6), (3,6), (12,8).
+- S2 (10,1): Toggles (10,6), (12,8), (6,8).
+- S1 (16,1): Toggles (16,6), (10,6), (6,8).
+- Note: (17,6) is a shutter tile, not a permanent wall.
 
 ## Research: Shutter States (S3, S2, S1)
-- Note: Tiles must be SEEN after a toggle to verify state. Mental Map may be stale.
-| State | (2,6) | (10,6) | (16,6) | (12,8) | (17,6) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1,0,0) | OPEN | CLOSED | CLOSED | OPEN | CLOSED |
-| (1,1,1) | ? | ? | CLOSED | CLOSED | CLOSED |
+- State (0,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) OPEN? (Verify 6,8)
+- State (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED.
+- State (1,1,0): To be verified.
 
 ## Strategy: 3-2-1 Sequence Execution
-- Goal: Open path to the southeast Warehouse Entrance.
-- Start Turn: 10284
+- Goal: Open path to the Warehouse Entrance in the southeast.
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Current Progress: Executing 3-2-1 sequence. S3 is ON, S2 is ON. Moving to Switch 1 (16,1).
-- Sequence Step: 3 of 3.
-- Observed Shutter States (1,1,0): To be verified after S1 toggle. (Previous state (1,0,0) had (12,8) OPEN).
-- Observed Shutter Toggles:
-  - S1 (16,1) toggles (16,6), (10,6), (6,8)
-  - S2 (10,1) toggles (10,6), (12,8), (6,8)
-  - S3 (2,1) toggles (2,6), (3,6), (12,8)
-- Refined Logic Hypothesis (3-2-1 Sequence):
-  1. Toggle S3 (Left) -> CURRENT
-  2. Toggle S2 (Middle)
-  3. Toggle S1 (Right)
-- Observation: Starting from (0,0,0) state. Sequence attempt 2.
+- Attempt 2 (Started from 0,0,0):
+  - 1. S3 ON (Turn 10313): Done.
+  - 2. S2 ON (Turn 10321): Keeping ON.
+  - 3. S1 ON: Next.
 
 # Area Notes
-- Warehouse Entrance: Unseen warp in southeast quadrant.
+- Warehouse Entrance: Southeast quadrant (Map 3_55).
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11).
 - Return Ladders: (23,3), (21,25), (5,25).
-- Obstacle: Rocket Grunt at (17, 2) is facing down. Row 2 corridor at X=11-12 may be blocked by another NPC.
 
 # Lessons Learned
-- **Sprite Verification:** Always verify the "Map Objects" list and the current screen before assuming an NPC is blocking a path. Visual hallucinations of obstructions can lead to inefficient routing.
-- **Switch Logic:** In Crystal, sequence puzzles often depend on the order of activation from a neutral (all OFF) state. Use a systematic reset to ensure the sequence is applied correctly.
+- **Sprite Verification:** Check "Map Objects" for actual obstructions.
+- **Sequence Reset:** For order-based puzzles, reset all switches to a known state (OFF) before starting the sequence.
