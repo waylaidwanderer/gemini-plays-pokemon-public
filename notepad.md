@@ -94,3 +94,6 @@
 - Expectation: "Made KENYA hold FLOWER MAIL" -> Keyboard.
 - Next: Type "Dark Cave leads to another road" (No period).
 - Hypothesis: Fisher rejected the previous mail because of the period.
+- Turn 9897: Navigating to 'END' on keyboard.
+- Path: Right x6 (to 'j' column), Down x5 (to bottom row), A.
+- Objective: Confirm mail text "Dark Cave leads to another road" (No period).
