@@ -90,3 +90,6 @@
 - Next Step: Exit menu and talk to Webster to trigger lost mail dialogue.
 - Turn 9891: Exiting menus (B, B) and interacting with Webster (Left, A).
 - Context: Kenya is now empty-handed. Expecting Webster to notice the missing mail and offer a replacement.
+- Turn 9892: Webster failed to reset mail. Switching back to Forgery Strategy.
+- Hypothesis 3: The text requires NO period. "Dark Cave leads to another road"
+- Plan: Open Pack, Give Flower Mail to Kenya, write text without period, Fly to Route 31.
