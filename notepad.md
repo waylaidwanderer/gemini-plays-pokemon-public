@@ -30,4 +30,5 @@
 # Future Strategy
 - Travel to Blackthorn City via Route 44 (East of Mahogany) and Ice Path.
 - Prepare for the 8th Gym Badge.
-- Battle: Rocket Grunt (2F, 4,1). (Turn 8683+)
+- Battle: Rocket Grunt (2F, 1,4). (Turn 8692+)
+- Note: Goldenrod is NOT Cerulean. (Hallucination correction)
