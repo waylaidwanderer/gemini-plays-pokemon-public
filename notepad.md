@@ -1,7 +1,7 @@
-# KIMCHI Training (Turn #7531)
-- Target: Lv21 (Evolution to Gloom).
-- Current Level: 20.
-- Strategy: Lead with KIMCHI on Route 43/Lake of Rage. Use Sleep Powder and Cut/Absorb.
+# Party Training Status
+- KIMCHI (GLOOM): Lv21. Evolved!
+- Next Target: Train Ravioli (Krabby) or ICARUS (Pidgey) when safe.
+- Strategy: Use GNEISS/Calcifer for tough battles, lead with weaker members for EXP sharing.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard movement.
