@@ -15,7 +15,7 @@
 - Switch 1 (16, 1): 🔴 OFF
 
 # Shutter States (Verified)
-- (2, 6): CLOSED (WALL)
+- (2, 6): OPEN (FLOOR)
 - (10, 6): CLOSED (WALL)
 - (12, 8): OPEN (FLOOR)
 - (16, 6): CLOSED (WALL)
