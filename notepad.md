@@ -38,3 +38,4 @@
 - Status: Delivery Failed. Fisher rejected the forged mail.
 - Diagnosis: I likely deleted the original mail message when depositing Kenya in the PC. The current mail is generic/wrong.
 - Solution: Fly to Goldenrod City, talk to Webster (North Gate Guard), and get the mail rewritten. Then return to deliver.
+- Turn 9854: Approaching Wade at (21, 13) for a battle. Moving Right to engage.
