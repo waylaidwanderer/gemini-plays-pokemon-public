@@ -11,13 +11,14 @@
 - Hint: Rocket Grunt mentioned "3-2-1".
 - Strategy: Execute sequence 3-2-1 from a clean (0,0,0) state.
 - Start Turn: 10031
-- Current State: (0, 1, 1) [S1: OFF, S2: ON, S3: ON].
+- Current State: (1, 1, 1) [S1: ON, S2: ON, S3: ON].
+- Sequence Progress: 3 (ON) -> 2 (ON) -> 1 (ON). 3-2-1 Sequence Complete.
 
 ## Sequential Switch Logic (3-2-1)
 - State (0, 0, 0): All shutters CLOSED? (Need to verify).
 - State (0, 0, 1) [S3 ON]: (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN.
-- State (0, 1, 1) [3->2]: (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN. (Verified Turn 10076).
-- State (1, 1, 1) [3->2->1]: Target state. Expecting (10,6), (16,6), and (6,8) to shift.
+- State (0, 1, 1) [3->2]: (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN.
+- State (1, 1, 1) [3->2->1]: Verifying... Expecting path to southeast warp to be open.
 
 ## Lessons Learned
 - Turn 10050: Switches are sequential, not independent. Isolation data is misleading.
