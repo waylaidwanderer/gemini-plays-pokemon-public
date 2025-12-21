@@ -54,3 +54,7 @@
 - Turn 9867: Fly Map. Cursor behavior inconsistent (Header: Violet, Body: Cherrygrove). Assuming Cherrygrove or Violet.
 - Strategy: Moving UP x2 to reach northern cities (Ecruteak/Mahogany). From there, navigate to Goldenrod.
 - Previous failures: Violet -> Left (Blocked). Cherrygrove -> Left (Blocked).
+- Turn 9869: Fly Map currently at Azalea Town.
+- Observation: 'Up' input from Violet moved cursor to Azalea.
+- Hypothesis: 'Up' navigates the list forward (Violet -> Azalea -> Goldenrod?).
+- Action: Pressing 'Up' to target Goldenrod City.
