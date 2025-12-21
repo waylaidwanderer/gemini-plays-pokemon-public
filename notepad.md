@@ -11,20 +11,20 @@
 - Hint: "3-2-1" sequence (Left to Right).
 
 ## Research: Shutter States (S3, S2, S1)
-| State | (2,6) | (10,6) | (16,6) | (6,8) | (12,8) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
-| (1,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
+| State | (2,6) | (10,6) | (16,6) | (6,8) | (12,8) | (17,6) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
+| (1,1,1) | OPEN | CLOSED | CLOSED | CLOSED | OPEN | CLOSED |
 
 ## Strategy: 3-2-1 Sequence
 - Goal: Open path to the southeast (cols 14+).
 - Current Switch States: S3=ON, S2=ON, S1=ON.
-- Execution Plan:
-  1. Toggle Switch 3 ON (Done).
-  2. Toggle Switch 2 ON (Done).
-  3. Toggle Switch 1 ON (Done).
-  4. Verify path to southeast.
-- Current Step: Sequence complete. Verifying shutter states.
+- Hypothesis: The path at X=11 (which changed to FLOOR) and (12,8) being OPEN allows access to the east.
+- Plan:
+  1. Move to (11, 6) and (11, 7) to verify they are FLOOR.
+  2. Pass through (12, 8) and explore east.
+  3. If blocked, re-evaluate switch combinations.
+- Current Step: Moving to (11, 5) to inspect (11, 6).
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
