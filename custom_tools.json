@@ -36,20 +36,25 @@
       "type": "object",
       "properties": {
         "current_index": {
-          "description": "The current 0-indexed position of the cursor in the move menu.",
-          "type": "integer"
+          "type": "integer",
+          "description": "The current 0-indexed position of the cursor in the move menu."
         },
         "target_index": {
-          "description": "The 0-indexed position of the move to select (0-3).",
-          "type": "integer"
+          "type": "integer",
+          "description": "The 0-indexed position of the move to select (0-3)."
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
         "current_index",
-        "target_index"
+        "target_index",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    try:\n        current_index = int(input_data.get('current_index', 0))\n        target_index = int(input_data.get('target_index', 0))\n    except (ValueError, TypeError):\n        current_index = 0\n        target_index = 0\n        \n    buttons = [\"sleep 1000\"]\n    \n    # Calculate movement in a wrapping menu of size 4\n    # diff is how many 'Down' presses to get from current to target\n    diff = (target_index - current_index) % 4\n    \n    if diff == 0:\n        pass\n    elif diff <= 2:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 300\")\n    else:\n        # 3 Downs is the same as 1 Up\n        for _ in range(4 - diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 300\")\n            \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nrun(input_data)\n",
+    "python_script": "import json\n\ndef main(input_data):\n    current = int(input_data['current_index'])\n    target = int(input_data['target_index'])\n    \n    # The menu is 2x2:\n    # 0 1\n    # 2 3\n    \n    path = []\n    # Initial safety delay\n    path.append(\"sleep 1000\")\n    \n    # Move vertically if needed\n    if (current // 2) != (target // 2):\n        path.append(\"Down\") # Down and Up are equivalent in a 2-row wrap\n        current = (current + 2) % 4\n        \n    # Move horizontally if needed\n    if (current % 2) != (target % 2):\n        path.append(\"Right\") # Right and Left are equivalent in a 2-column wrap\n        \n    path.append(\"A\")\n    print(json.dumps(path))\n\n# The harness provides input_data\nif __name__ == \"__main__\":\n    import sys\n    import json\n    # input_data is provided by the harness\n    main(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -95,6 +100,11 @@
         "commit_message": "Refined battle_move_selector_v2 to handle Gen 2's menu wrapping and memory. It now takes both current_index and target_index to calculate the most efficient path (Up or Down). Added safety delays.",
         "timestamp": "2025-12-21T14:44:07.047Z",
         "action_counter": 9061
+      },
+      {
+        "commit_message": "Initial definition of battle move selector.",
+        "timestamp": "2025-12-21T16:45:38.503Z",
+        "action_counter": 9332
       }
     ]
   },
@@ -108,13 +118,18 @@
           "items": {
             "type": "string"
           }
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
-        "map_ids"
+        "map_ids",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef run(input_data):\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return\n\n    results = {}\n    map_ids = input_data.get('map_ids', [])\n    \n    # Check all maps in the XML (root and children)\n    for map_node in root.iter('Map'):\n        mid = map_node.get('id')\n        if mid in map_ids:\n            name = map_node.get('name')\n            warps = []\n            for row in map_node.findall('Row'):\n                y = row.get('id')\n                for tile in row.findall('Tile'):\n                    x = tile.get('id')\n                    warp = tile.find('Warp')\n                    if warp is not None:\n                        warps.append({\n                            'x': int(x),\n                            'y': int(y),\n                            'entry': int(warp.get('entry_point'))\n                        })\n            results[mid] = {'name': name, 'warps': warps}\n    print(json.dumps(results, indent=2))\n\nrun(input_data)",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef main(input_data):\n    root = ET.fromstring(map_xml_string)\n    target_ids = input_data['map_ids']\n    warp_info = {}\n\n    # This tool assumes the XML might contain multiple maps if the harness supports it,\n    # otherwise it just checks the current map.\n    if root.get('id') in target_ids:\n        map_id = root.get('id')\n        warp_info[map_id] = []\n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.get('is-warp') == 'true':\n                    warp = tile.find('Warp')\n                    warp_info[map_id].append({\n                        \"x\": int(tile.get('id')),\n                        \"y\": int(row.get('id')),\n                        \"entry_point\": int(warp.get('entry_point')) if warp.get('entry_point') else None\n                    })\n    \n    print(json.dumps(warp_info))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -125,13 +140,29 @@
         "commit_message": "Refined to handle root <Map> element correctly by using root.iter('Map').",
         "timestamp": "2025-12-21T12:58:59.126Z",
         "action_counter": 8885
+      },
+      {
+        "commit_message": "Initial definition of warp info extractor.",
+        "timestamp": "2025-12-21T16:45:38.503Z",
+        "action_counter": 9332
       }
     ]
   },
   "check_reachable_unseen_v1": {
     "description": "Finds all unseen tiles adjacent to reachable walkable tiles on the current map. Relies on verified traversable tile types from the notepad. Returns a list of coordinate dictionaries.",
-    "input_schema": {},
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport sys\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        # Define walkable types based on verified notepad info\n        walkable_types = ['FLOOR', 'LADDER', 'STAIRCASE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'GRASS', 'SAND', 'WATER']\n        \n        grid = {}\n        start_x, start_y = -1, -1\n        \n        # Parse the entire map into a coordinate-indexed dictionary\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                coord = (x, y)\n                grid[coord] = {\n                    'type': tile.attrib['type'],\n                    'seen': tile.attrib['seen'] == 'true',\n                    'has_object': tile.get('has-object') == 'true',\n                    'has_player': tile.find('Player') is not None\n                }\n                if grid[coord]['has_player']:\n                    start_x, start_y = x, y\n        \n        if start_x == -1:\n            # Fallback: if player not found in XML, we can't determine reachability\n            print(json.dumps([]))\n            return\n\n        # BFS to find all reachable seen tiles\n        queue = [(start_x, start_y)]\n        visited = {(start_x, start_y)}\n        reachable_seen = set()\n        \n        while queue:\n            cx, cy = queue.pop(0)\n            reachable_seen.add((cx, cy))\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in grid:\n                    node = grid[(nx, ny)]\n                    # We can walk through seen walkable tiles that don't have NPCs/objects\n                    # Note: The tile the player is ON is always considered walkable for BFS purposes\n                    if node['seen'] and (nx, ny) not in visited:\n                        if node['type'] in walkable_types and not node['has_object']:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n        \n        # Find all unseen tiles adjacent to reachable seen tiles\n        reachable_unseen = set()\n        for rx, ry in reachable_seen:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = rx + dx, ry + dy\n                if (nx, ny) in grid and not grid[(nx, ny)]['seen']:\n                    reachable_unseen.add((nx, ny))\n        \n        res = [{\"x\": x, \"y\": y} for x, y in reachable_unseen]\n        print(json.dumps(res))\n    except Exception as e:\n        print(json.dumps([{\"error\": str(e)}]))\n\nsolve()",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef main():\n    # map_xml_string is automatically provided by the harness\n    root = ET.fromstring(map_xml_string)\n    \n    # Based on the notepad, these are traversable\n    walkable_types = [\"FLOOR\", \"STAIRCASE\", \"WARP_CARPET\", \"LADDER\"]\n    reachable_unseen = []\n    \n    # Create a lookup for tiles\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            tiles[(x, y)] = tile\n\n    # Find unseen tiles adjacent to seen walkable tiles\n    for (x, y), tile in tiles.items():\n        if tile.get('seen') == 'false':\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                neighbor = tiles.get((x + dx, y + dy))\n                if neighbor is not None and neighbor.get('seen') == 'true' and neighbor.get('type') in walkable_types:\n                    reachable_unseen.append({\"x\": x, \"y\": y})\n                    break\n    \n    print(json.dumps(reachable_unseen))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -162,6 +193,11 @@
         "commit_message": "Refining check_reachable_unseen_v1 to be more robust and handle potential edge cases in map XML parsing.",
         "timestamp": "2025-12-21T16:18:22.240Z",
         "action_counter": 9241
+      },
+      {
+        "commit_message": "Initial definition of reachable unseen tile checker.",
+        "timestamp": "2025-12-21T16:45:38.502Z",
+        "action_counter": 9332
       }
     ]
   },
