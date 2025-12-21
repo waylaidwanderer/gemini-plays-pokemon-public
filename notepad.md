@@ -22,8 +22,12 @@
 - Goal: Open path to the southeast Warehouse Entrance.
 - Start Turn: 10284
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Current Progress: Resetting switches. Moving to Switch 1 (16,1) to turn OFF.
+- Current Progress: Resetting switches. Turning Switch 2 (10,1) OFF.
 - Number of failed attempts: 1 (Turn 10300) - 3-2-1 from mixed state failed.
+- Observed Shutter Toggles:
+  - S1 (16,1) toggled (12,8) from OPEN to CLOSED.
+  - S2 (10,1) ???
+  - S3 (2,1) ???
 - Refined Logic Hypothesis:
   - S3 (2,1): Toggles (3,6), (12,8)
   - S2 (10,1): Toggles (2,6), (10,6), (16,6)?
