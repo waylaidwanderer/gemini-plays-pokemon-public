@@ -1,26 +1,27 @@
 # Tile Mechanics
-- FLOOR: Traversable.
-- SHUTTER: WALL when CLOSED, FLOOR when OPEN.
+- FLOOR: Traversable. Collision type: FLOOR.
+- WALL: Impassable. Collision type: WALL.
+- LADDER: Warp point. Interaction triggers map transition.
+- WARP_CARPET_DOWN: Warp point. Walking onto it triggers map transition.
+- SHUTTER: Dynamic collision. WALL when CLOSED, FLOOR when OPEN.
+- SwitchScript (2,1), (10,1), (16,1): Interactable from adjacent tile (e.g., from row 2 facing UP). Toggles specific shutters.
 
 # Puzzle: Goldenrod Underground Switch Room
 - Goal: Reach the Underground Warehouse (Map 3_55).
-- Strategy: Use isolation data to identify the sequence that clears row 6 and row 8.
+- Hint: Rocket Grunt mentioned "3-2-1".
+- Current State: (0, 1, 1) [Switch 1: OFF, Switch 2: ON, Switch 3: ON].
+- Sequence Progress: 3 (ON) -> 2 (ON) -> 1 (Pending).
 
-## Shutter Toggle Data (Isolation)
-| Switch | State | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| S1 (16,1) | (1,0,0) | CLOSED | ? | CLOSED | OPEN | CLOSED | OPEN |
-| S2 (10,1) | (0,1,0) | CLOSED | ? | OPEN | CLOSED | OPEN | CLOSED |
-| S3 (2,1) | (0,0,1) | OPEN | CLOSED | CLOSED | CLOSED | OPEN | CLOSED |
+## Sequential Switch Logic (3-2-1)
+- State (0, 0, 0): All shutters CLOSED? (Need to verify).
+- State (0, 0, 1) [S3 ON]: (2,6) OPEN, (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) CLOSED.
+- State (0, 1, 1) [3->2]: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) OPEN.
+- State (1, 1, 1) [3->2->1]: Target state to open the final path.
 
-## Sequence Results
-- (0,1,1) [3->2]: (2,6) OPEN, (10,6) CLOSED, (12,8) OPEN.
-- (1,1,1) [3->2->1]: (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED. BLOCKED.
-
-## Plan
-1. Reset all switches to OFF (0,0,0).
-2. Execute sequence 3-2-1 and re-verify EVERY shutter collision.
-3. If 3-2-1 fails, explore southeast quadrant using state (1,0,0) since isolation shows (16,6) and (12,8) are both OPEN.
+## Shutter Toggle Data (Isolation - FLAWED, Sequential Logic applies)
+- S1 (16,1): (1,0,0) -> (16,6) OPEN, (12,8) OPEN.
+- S2 (10,1): (0,1,0) -> (10,6) OPEN, (6,8) OPEN.
+- S3 (2,1): (0,0,1) -> (2,6) OPEN, (3,6) CLOSED (?), (6,8) OPEN.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
