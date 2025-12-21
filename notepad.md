@@ -31,10 +31,7 @@
     - Switch 2: Toggles Left and Middle shutters {10, 6; 6, 8; 6, 9}.
     - Switch 3: Toggles Middle shutters {12, 8; 12, 9}.
 - Experiment Log (Attempt 3): 3-2-1 sequence (All ON) failed. Path blocked.
-- Current Status: Resetting all switches to OFF (Started Turn 9588).
-    - Switch 1: OFF.
-    - Switch 2: OFF.
-    - Switch 3: Resetting to OFF.
+- Current Status: All switches OFF. Baseline reset confirmed (Turn 9604).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
