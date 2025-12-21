@@ -108,46 +108,6 @@
       }
     ]
   },
-  "get_map_warps_v1": {
-    "description": "Extracts warp information (coordinates and entry points) for a list of map IDs from the mental map XML.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "map_ids": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "map_ids",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef main(input_data):\n    root = ET.fromstring(map_xml_string)\n    target_ids = input_data['map_ids']\n    warp_info = {}\n\n    # This tool assumes the XML might contain multiple maps if the harness supports it,\n    # otherwise it just checks the current map.\n    if root.get('id') in target_ids:\n        map_id = root.get('id')\n        warp_info[map_id] = []\n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.get('is-warp') == 'true':\n                    warp = tile.find('Warp')\n                    warp_info[map_id].append({\n                        \"x\": int(tile.get('id')),\n                        \"y\": int(row.get('id')),\n                        \"entry_point\": int(warp.get('entry_point')) if warp.get('entry_point') else None\n                    })\n    \n    print(json.dumps(warp_info))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T12:56:21.285Z",
-        "action_counter": 8882
-      },
-      {
-        "commit_message": "Refined to handle root <Map> element correctly by using root.iter('Map').",
-        "timestamp": "2025-12-21T12:58:59.126Z",
-        "action_counter": 8885
-      },
-      {
-        "commit_message": "Initial definition of warp info extractor.",
-        "timestamp": "2025-12-21T16:45:38.503Z",
-        "action_counter": 9332
-      }
-    ]
-  },
   "check_reachable_unseen_v1": {
     "description": "Finds all unseen tiles adjacent to reachable walkable tiles on the current map. Relies on verified traversable tile types from the notepad. Returns a list of coordinate dictionaries.",
     "input_schema": {
@@ -227,6 +187,29 @@
         "commit_message": "Defining inventory tracking tool.",
         "timestamp": "2025-12-21T16:46:34.894Z",
         "action_counter": 9334
+      }
+    ]
+  },
+  "find_object_by_name_v1": {
+    "description": "Finds the coordinates of map objects or background objects that match a given name. Returns a list of matches with their x, y, and type.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "object_name": {
+          "type": "string",
+          "description": "The name (or part of the name) of the object to find."
+        }
+      },
+      "required": [
+        "object_name"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef main(input_data):\n    # map_xml_string is automatically provided by the harness\n    root = ET.fromstring(map_xml_string)\n    target_name = input_data['object_name'].upper()\n    results = []\n    \n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            \n            # Check Map Objects (NPCs, items)\n            for obj in tile.findall('Object'):\n                obj_name = obj.get('id-name', '').upper()\n                if target_name in obj_name:\n                    results.append({\"name\": obj.get('id-name'), \"x\": x, \"y\": y, \"type\": \"MapObject\"})\n                    \n            # Check Background Objects (Signs, PCs, Vending Machines)\n            bg_obj_name = tile.get('name', '').upper()\n            if target_name in bg_obj_name:\n                results.append({\"name\": tile.get('name'), \"x\": x, \"y\": y, \"type\": \"BackgroundObject\"})\n                \n    print(json.dumps(results))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
+    "history": [
+      {
+        "commit_message": "Defining tool to find object coordinates by name.",
+        "timestamp": "2025-12-21T16:55:46.570Z",
+        "action_counter": 9353
       }
     ]
   }
