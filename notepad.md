@@ -8,7 +8,7 @@
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
 - Goal: Open shutters (10, 6), (12, 8), and (16, 6) to reach the warehouse.
-- Current Switch Status (Turn 9844): 3: OFF (Just turned OFF), 2: ON, 1: ON.
+- Current Switch Status (Turn 9849): 3: OFF, 2: OFF (Just turned OFF), 1: ON.
 - Verified Shutter States (Turn 9841):
   - (2, 6): OPEN (FLOOR)
   - (2, 7): OPEN (FLOOR)
