@@ -34,25 +34,14 @@
 - **Next Step:** Deliver to Fisher on Route 31.
 - **Route:** Violet City -> Route 31 Gate -> Route 31.
 - **Note:** Fisher is at (17, 7) on Route 31.
-- **Log:** Fisher rejected original mail AND modified mail. "This MAIL isn't for me."
-- **Insight:** This rejection phrasing usually means "I am not the recipient."
-- **Plan:**
-    1. Check Youngster at (10, 5).
-    2. Check Bug Catcher at (21, 13).
-    3. If neither, assume Fisher IS the guy and I need to fix the mail content (Password: "Dark Cave leads to another road").
-- **Navigation:** Must loop south through grass to bypass ledges and return to West side.
-- **Correction:** Fixed typo "leadds" -> "leads".
-- **Action:** Submitted "Dark Cave leads to another road."
-- **Next:** Confirm delivery with Fisher.
-- **Note:** Fisher is at (17, 7) on Route 31.
-- **Log:** Previous attempts failed due to case sensitivity and typos. This attempt uses Title Case and exact punctuation.
-- **Youngster (10, 6):** Generic dialogue (Dark Cave/Falkner). Not recipient.
-- **Next:** Checking Bug Catcher at (21, 13).
-- **Bug Catcher (21, 13):** Gave Bitter Berry. Not recipient.
-- **Conclusion:** Fisher IS the recipient. The rejection "This MAIL isn't for me" is due to incorrect content (Case Sensitivity).
-- **Next Action:** Rewrite mail: "Dark Cave leads to another road." (Title Case).
-- **Progress:** Fisher accepted the dialogue 'You have MAIL for me?'. Selecting Kenya now to hand over the mail.
-- **Log:** "Dark Cave leads to another road." (Title Case) REJECTED.
-- **Analysis:** NPCs write "DARK CAVE". Attempt #1 ("DARK CAVE... road.") failed.
-- **Hypothesis:** The period was the error.
-- **Next Try:** "DARK CAVE leads to another road" (Caps Name, No Period).
+- **Mail Delivery Log:**
+  - **Attempts on Fisher:**
+    1. "DARK CAVE leads to another road." (All Caps) -> REJECTED ("This MAIL isn't for me").
+    2. "Dark Cave leads to another road." (Title Case) -> REJECTED ("This MAIL isn't for me").
+    3. "Dark Cave leads to another road" (No period) -> REJECTED.
+  - **Other NPCs Checked:**
+    - Cooltrainer M: Generic text.
+    - Bug Catcher: Gave Bitter Berry.
+    - Youngster: Generic text (Falkner).
+- **Current Hypothesis:** Fisher IS the recipient (prompted to hand over mail), but content is wrong. Rejection "This MAIL isn't for me" likely means "Wrong Content".
+- **Next Test:** Check sign for exact "Dark Cave" formatting. Then try "DARK CAVE leads to another road" (No period).
