@@ -42,5 +42,5 @@
 - Then collect items and explore remaining warps.
 - Switch activated! Security system should be disabled.
 - Next: Collect Item Ball at (21, 12), then backtrack to West Side to investigate Warp at (5, 15).
-- Failed to pick up Guard Spec at (21, 12) due to full inventory.
-- Action: Open Pack and toss FLOWER MAIL to make space.
+- Collected Guard Spec at (21, 12).
+- Plan: Backtrack to West Side via Row 11 to investigate Warp at (5, 15).
