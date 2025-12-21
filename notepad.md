@@ -33,3 +33,5 @@
 - **Mail Removal:** "Send to PC?" -> NO to keep for rewrite, YES to discard.
 - **Tool Safety:** OCR verification is critical before assuming tool success.
 - **Tool Debug:** `write_mail_dark_cave` caused Printer Error. Likely selected a hidden "PRINT" option or navigated out of bounds. Must fix before reuse.
+- **Mail Check:** Current mail only says "DARK CAVE". Tool failed to write full message.
+- **Action:** Replacing with fresh mail and writing manually to ensure accuracy.
