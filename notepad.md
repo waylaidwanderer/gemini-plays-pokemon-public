@@ -55,3 +55,7 @@
   - **South-West Room (x=1-5, y=5-11):** Contains ladder (3, 6) and item (3, 10). Enclosed by walls at x=0, x=6, Row 4, and Row 12. Hypothesis: Enter via B1F or B3F.
   - **Passage (x=24, y=1-16):** Connects North-East and South-East sections.
   - **Southern Corridor (y=13-16):** Split into West (x=1-22) and East (x=24-28). Connected by a gap at (23, 16).
+- **B3F Map Structure (Isolated West Section):**
+  - Reachable only via B2F North-West (ladder at 3, 2).
+  - Contains ladder (3, 6) which likely leads to the isolated South-West room on B2F (with the item ball).
+  - Contains Rocket Executive (likely) and the boss door (10, 9) / (11, 9).
