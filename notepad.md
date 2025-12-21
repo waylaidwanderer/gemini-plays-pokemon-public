@@ -26,3 +26,4 @@
 - **Status:** Passwords obtained ("SLOWPOKETAIL", "RATICATE TAIL"). B2F Door locked ("Needs password").
 - **Blocker:** Unknown trigger for B2F locked doors.
 - **Immediate Plan:** Finish battle, then consult Game Mechanics Expert.
+- TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
