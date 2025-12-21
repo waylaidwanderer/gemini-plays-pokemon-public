@@ -9,7 +9,6 @@
 - **NPC/Item Sprites**: All sprites have collision and act as walls.
 
 # Team Rocket Base Investigation (Mahogany Town)
-- **Start Turn:** 7917 (Mahogany Mart), 8051 (B2F), 8222 (Switch Phase)
 - **Status:** Passwords 'RATICATE TAIL' and 'SLOWPOKETAIL' obtained.
 
 ## Map: Team Rocket Base B1F (3_49)
@@ -21,7 +20,6 @@
 - **Objects:**
   - (18, 12): Scientist Jed (Defeated).
   - (19, 11): Secret Switch (Disables Statues). Interact from (19, 12).
-  - (21, 12): Item Ball.
   - (14, 15): Item Ball.
 
 ## Map: Team Rocket Base B2F (3_50)
@@ -39,8 +37,7 @@
   - Rocket Girl (21, 7): Ekans (Lv18), Gloom (Lv18). Reward: ¥720. Password 2: SLOWPOKETAIL.
 
 # Strategy (HOW)
-1. **Disable Alarms:** Interact with the Secret Switch at (19, 11) from (19, 12).
-2. **Loot B1F:** Collect items at (21, 12) and (14, 15).
+1. **Loot B1F:** Collect item at (14, 15).
 3. **Advance to B2F:** Use the western ladder at (3, 14).
 4. **Navigate B2F:** Move through the Voltorb traps to reach the western section.
 5. **Infiltrate B3F:** Use passwords to unlock the Boss door at (10, 9) on B3F.
