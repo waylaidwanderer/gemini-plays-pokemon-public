@@ -47,19 +47,16 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Equip Kenya and Deliver.
-  1. **Status:** Party Menu Open. PC Mailbox Full.
-  2. **Step 1:** Try to TAKE mail without sending to PC (Select NO).
-  3. **Step 2:** If successful, Give Flower Mail from Bag.
-  4. **Step 3:** If "NO" fails (cancels take), try swapping from Bag (Pack -> Flower Mail -> Give).
-  5. **Step 4:** If all else fails, go to Pokemon Center (31, 25) to clear Mailbox.
-  6. **Step 5:** Compose Message: "DARK CAVE leads to another road."
-  7. **Step 6:** Deliver to Fisher.
+  1. **Status:** Confirmed removal of old mail.
+  2. **Step 1:** Verify Kenya is holding nothing (or generic mail item returned to bag).
+  3. **Step 2:** Give Flower Mail from Bag (Start -> Pack -> Items -> Flower Mail -> Give -> Kenya).
+  4. **Step 3:** Compose Message: "DARK CAVE leads to another road." (Exact punctuation).
+  5. **Step 4:** Return to Route 31 and deliver.
 
 ## Maintenance
 - **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
 
-## Reflection (Turn 9264)
-- **Blocker:** PC Mailbox is full, preventing "TAKE -> Send to PC".
-- **Hypothesis:** Selecting "NO" to "Send to PC?" might allow taking mail to Bag (deleting message).
-- **Alternate Plan:** Swap directly from bag or clear PC.
+## Reflection (Turn 9265)
+- **Success:** Bypassed "PC Mailbox Full" by selecting "NO" to PC send, then "YES" to delete message.
+- **Next:** Equip fresh Flower Mail and write the correct text.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
