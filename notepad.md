@@ -12,6 +12,8 @@
 - **Elevators:** Elevator doors are warps. If a button doesn't work, try walking into the door.
 - **Counters:** To talk to someone behind a counter, stand in front of the counter tile and face it.
 - **Shopping:** Check all clerks at a counter; they often have different inventories.
+- **Input Hygiene:** NEVER mix directional buttons with A/B/Start/Select in a single turn when precision is required (e.g., interacting with objects). The harness may modify the sequence, leading to unintended movement.
+- **Vending Machines:** Lemonade (350) is the best value for HP restoration (80 HP).
 
 ## Pokemon Type Effectiveness
 - Rock/Ground -> Poison: Super Effective (GNEISS vs Koffing)
@@ -20,10 +22,9 @@
 - Flying -> Bug: Super Effective (Icarus vs Spinarak)
 
 # Resource Management Strategy
-- Goal: Purchase 10 Hyper Potions and 5 Revives.
+- Goal: Purchase 10 Lemonades (replaces Potions/Revives as priority due to cost-effectiveness).
 - Task started: Turn 9247.
-- Current Status: Checking Goldenrod Dept. Store floors. 4F: Vitamins. 2F: Basic Potions/Balls.
-- Hypothesis: 3F or 1F is the target for Hyper Potions/Revives.
+- Current Status: Buying from 6F Vending Machines.
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Shop Inventories
@@ -36,6 +37,8 @@
 - Clerk (13, 5): Protein, Iron, Carbos, Calcium.
 ## Goldenrod Dept. Store 5F
 - Clerk (8, 5): TMs.
+## Goldenrod Dept. Store 6F
+- Vending Machines (8, 1 to 11, 1): Fresh Water (200), Soda Pop (300), Lemonade (350).
 
 # Switch Room Puzzle (Map 3_54)
 - Task started: Turn 9122.
@@ -57,12 +60,11 @@
 - Directory: (14, 0).
 ## Goldenrod Dept. Store 3F
 - NPCs: Super Nerd (ID 2), Rocker (ID 3).
-- Shop: Battle Collection (X Items, etc. - to be verified).
+- Shop: Battle Collection (X Items).
 - Staircases: (12, 0) to 2F, (15, 0) to 4F.
-- Directory: (14, 0) - "3F BATTLE COLLECTION - For Victory Seekers".
-
-# Area Notes: Goldenrod Dept. Store 6F
-- NPCs: Super Nerd (ID 2) at (8, 2), Lass (ID 1) at (11, 2).
+- Directory: (14, 0) - "3F BATTLE COLLECTION".
+## Goldenrod Dept. Store 6F
+- NPCs: Super Nerd (ID 2) at (8, 2), Lass (ID 1) at (10, 2).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Elevator Button: (3, 0).
-- Vending Machines: (8, 1), (9, 1), (10, 1), (11, 1). Sells Lemonade, Soda Pop, Fresh Water.
+- Vending Machines: (8, 1), (9, 1), (10, 1), (11, 1).
