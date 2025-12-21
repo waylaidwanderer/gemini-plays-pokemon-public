@@ -97,7 +97,7 @@
 
 # Trainer Roster
 - Scientist Mitch (B3F 11,15): Ditto (Lv24). Reward: ¥2400.
-- Rocket Grunt (B3F 7,14): Raticate (Lv19). Reward: ¥760. Password: RATICATE TAIL.
+- Rocket Grunt (B3F 5,14): Raticate (Lv19). Reward: ¥760. Password: RATICATE TAIL.
 - Scientist Ross (B3F 23,11): Koffing (Lv22), Koffing (Lv22). Reward: ¥2200.
 
 # Strategy: B3F Exploration
