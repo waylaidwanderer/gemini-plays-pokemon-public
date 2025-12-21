@@ -21,6 +21,7 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Approaching Ladder (3,2) on B2F (North Side). Defeated Grunt at (4,1).
-- **Plan:** Take Ladder (3,2) to B1F NW. Investigate the isolated area.
-- **Hypothesis:** Ladder (3,2) -> B1F NW -> Trap/Hole -> B2F NW (Transmitter Room).
+- **Status:** Taken Ladder B2F (3,2) -> Arrived B3F West (3,2). In an isolated corridor.
+- **Observation:** Unreachable Rival/Object (Moltres Sprite) and Grunt visible to the East.
+- **Plan:** Take Ladder at (3,6) to continue the path.
+- **Hypothesis:** B3F (3,6) Ladder -> B2F NW (Transmitter Room) or Executive location.
