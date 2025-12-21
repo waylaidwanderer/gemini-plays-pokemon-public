@@ -36,8 +36,12 @@
        - Conclusion: Switch 2 toggles Left and Middle shutters.
     4. Test 3.3: Switch 3 (2, 1) ON.
        - Status: 1:OFF, 2:OFF, 3:ON.
-       - Result: (2, 6), (3, 6) remain OPEN. No visible changes in left lane.
-       - Hypothesis: Switch 3 toggles shutters in middle/right lanes (e.g., 12, 8).
+       - Result: (2, 6), (3, 6) are FLOOR.
+       - Note: Need to verify (2, 6) at baseline (All OFF) later.
+- Strategy: Following Strategist's 3-2-1 sequence.
+    - Step 1: Switch 3 ON (Completed).
+    - Step 2: Switch 2 ON (Target).
+    - Step 3: Switch 1 ON.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
