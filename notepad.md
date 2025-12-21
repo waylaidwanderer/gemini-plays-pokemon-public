@@ -55,3 +55,5 @@
 - Rocket Grunt at (4, 4) defeated. Muscle grew to Lv 44.
 - Proceeding South to investigate Warps at (5, 15) and (3, 14).
 - Note: Grunt mentioned "traps in the floor". Could be wild encounters or teleporters.
+- Encountered trap battle (Koffing) at (5, 8). Running failed.
+- Muscle is low on PP (Strength: 1, Dig: 2). Need to monitor this.
