@@ -60,3 +60,6 @@
 - Unseen tiles at Y=11 suggest a large area North.
 - Ice tiles (🧊) at (1, 12), (0, 12), etc.
 - Goal: Reach Pryce at the back of the gym.
+
+# Progress Log
+- Turn 8466: Switching Calcifer to lead position in party menu.
