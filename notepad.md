@@ -6,20 +6,18 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-1.  **Status:** Recovering from Tool Failure (Printer Error).
-2.  **Issue:** `write_mail_dark_cave` caused unexpected menu navigation and Printer Error.
-3.  **Action Plan:**
-    - **Step 1:** Clear Error & Exit Menus (Executing B x4).
-    - **Step 2:** Check Kenya's held item/mail status.
-    - **Step 3:** If mail is incomplete/wrong, remove and retry MANUALLY.
-    - **Step 4:** Write "DARK CAVE leads to another road." (With period).
-    - **Step 5:** Return to Fisher.
+1.  **Status:** Verifying Recipient.
+2.  **Current Plan:**
+    - **Step 1:** Check Youngster at (10, 5). (Skipped him earlier).
+    - **Step 2:** If Youngster is not him, return to Fisher.
+    - **Step 3:** Rewrite mail: "Dark Cave leads to another road" (Title Case).
+    - **Step 4:** Retry delivery to Fisher.
 
 ## Knowledge Base
-- **Fisher (Route 31):** Wants mail. Rejects if text/item incorrect.
-- **PC Mechanics:** "Move Mail" requires open slot in PC Box. Tossing mail frees space.
-- **Dark Cave:** Connects Route 31, 45, 46. Requires Flash/Rock Smash/Surf.
-- **Bug Catcher Wade:** Route 31. Calls for swarms.
+- **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps). Said "This MAIL isn't for me."
+- **Cooltrainer M (Route 31):** Generic dialogue about Dark Cave. Not the recipient.
+- **PC Mechanics:** "Move Mail" requires open slot in PC Box.
+- **Dark Cave:** Connects Route 31, 45, 46. Needs Flash.
 
 ## Tile Mechanics
 - **Standard:** FLOOR, GRASS, DIRT.
