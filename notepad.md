@@ -24,3 +24,5 @@
 - **Mail:** Prevents deposit. PC Full -> Mail goes to Bag. Must hold nothing to attach.
 - **Tiles:** WALL, TREES (Cut), WATER (Surf), WHIRLPOOL, WATERFALL.
 - **Inputs:** Pressing Start in Mail menu triggers Printer Error. Use B.
+- **Timestamp:** Turn 9714. Attempting "DARK CAVE" delivery.
+- **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
