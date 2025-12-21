@@ -24,6 +24,7 @@
 - LEDGE_HOP_DOWN: Verified one-way passage (Down only).
 
 # Party Training Status
+- ICARUS (PIDGEY): Lv12. Current Lead for EXP sharing.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
