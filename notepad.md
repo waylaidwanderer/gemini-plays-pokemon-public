@@ -1,8 +1,4 @@
 # Goldenrod Radio Tower Takeover
-## Strategy (HOW)
-- Map 3_54 Switch Puzzle: Use Switch 1, 2, and 3 to manipulate shutters.
-- Radio Tower: Defeat Fake Director on 5F, get Basement Key, rescue real Director in Underground Warehouse.
-- Resource Management: Restock healing items at Goldenrod Dept. Store.
 
 # Global Knowledge
 ## Tile Mechanics
@@ -25,13 +21,15 @@
 
 # Resource Management Strategy
 - Goal: Purchase 10 Hyper Potions and 5 Revives.
-- Current Status: Checking Goldenrod Dept. Store floors. 4F: Vitamins. 2F Clerk 1: Basic Potions/Status.
+- Task started: Turn 9247.
+- Current Status: Checking Goldenrod Dept. Store floors. 4F: Vitamins. 2F: Basic Potions/Balls.
+- Hypothesis: 3F is the target for Hyper Potions/Revives based on elimination.
 - Return Path: Elevator -> 1F -> Exit -> Goldenrod City (9, 5) -> Underground North Entrance -> Warp at (21, 25) -> Map 3_54.
 
 # Shop Inventories
 ## Goldenrod Dept. Store 2F
 - Clerk 1 (13, 5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
-- Clerk 2 (13, 6): [To be discovered]
+- Clerk 2 (13, 6): Poke Ball, Great Ball, Escape Rope, Repel.
 ## Goldenrod Dept. Store 4F
 - Clerk (13, 5): Protein, Iron, Carbos, Calcium.
 ## Goldenrod Dept. Store 5F
@@ -53,6 +51,6 @@
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Staircases: (12, 0), (15, 0).
 ## Goldenrod Dept. Store 2F
-- NPCs: Cooltrainer F (ID 4), Gentleman (ID 5).
+- NPCs: Cooltrainer F (ID 4), Gentleman (ID 5), Youngster (ID 3) at (9, 7).
 - Elevator Entrance: (2, 0) - Leads to 11_17.
 - Directory: (14, 0).
