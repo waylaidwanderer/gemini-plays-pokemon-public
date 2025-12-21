@@ -17,8 +17,8 @@
 - Goal: Open path to the southeast warp (Underground Warehouse).
 - Sequence: 
   1. Switch 3 (2, 1) -> ON (Current: ON)
-  2. Switch 2 (10, 1) -> ON (Next Step)
-  3. Switch 1 (16, 1) -> ON
+  2. Switch 2 (10, 1) -> ON (Current: ON)
+  3. Switch 1 (16, 1) -> ON (Next Step)
 - Expected Path: (10,2) -> (10,7) -> (12,8) -> Southeast Warp.
 
 # Area Notes
