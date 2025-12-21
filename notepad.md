@@ -6,13 +6,16 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Goal:** Deliver Kenya (Spearow) to Fisher at (17, 7).
-- **Status:** Verifying Sign Text for Password.
-- **Password Logic:** "DARK CAVE leads to another road" (Verified "DARK CAVE" caps). Fisher rejected typos. Need exact punctuation.
-- **Plan:**
-    1. Read Dark Cave Sign at (31, 5) to confirm EXACT text.
-    2. Rewrite mail on Kenya using `write_mail_safe` with verified text.
-    3. Deliver to Fisher at (17, 7).
+- **Sign Text:** "DARK CAVE" (All Caps, No punctuation on sign).
+- **Hypothesis:** The mail text requires "DARK CAVE" in caps, but the rest might be standard sentence case. The failure might have been missing punctuation (period) or wrong casing on "leads to another road".
+- **Next Attempt:** "DARK CAVE leads to another road." (With Period).
+- **Backup Attempt:** "Dark Cave leads to another road" (Title Case).
+
+## Quest: Deliver Kenya
+1. Close Sign.
+2. Give Flower Mail to Kenya.
+3. Write: "DARK CAVE leads to another road."
+4. Deliver to Fisher (17, 7).
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps). Said "This MAIL isn't for me."
