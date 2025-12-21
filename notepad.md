@@ -22,7 +22,10 @@
   1. Reset all switches to OFF (0, 0, 0).
   2. Test sequence 1-2-3 (Right, Middle, Left).
   3. Test sequence 3-2-1 (Left, Middle, Right) again from (0,0,0) if 1-2-3 fails.
-- Current Step: Resetting Switch 3 (Left) to OFF.
+- Current Step: Resetting Switch 2 (Middle) to OFF.
+- Switch 3: OFF (0).
+- Switch 2: ON (1).
+- Switch 1: ON (1).
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
