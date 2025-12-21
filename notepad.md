@@ -22,14 +22,17 @@
 - Current Switch States:
   - Switch 3 (2,1): ON (1)
   - Switch 2 (10,1): ON (1)
-  - Switch 1 (16,1): OFF (0)
-- Observed Shutters (Current): (2,6), (3,6), (12,8) OPEN. (10,6), (6,8) toggled.
+  - Switch 1 (16,1): ON (1)
+- Shutter State (1,1,1) Verification:
+  - (2,6): ?
+  - (10,6): ?
+  - (16,6): ?
+  - (6,8): ?
+  - (12,8): ?
 - Plan:
-  1. Execute sequence 3-2-1:
-     - Toggle Switch 3 (2,1) -> ON (Done).
-     - Toggle Switch 2 (10,1) -> ON (Done).
-     - Toggle Switch 1 (16,1) -> ON.
-  2. Navigate to southeast warehouse entrance.
+  1. Complete 3-2-1 sequence (Done).
+  2. Navigate south to verify all shutter states.
+  3. Locate the Warehouse Entrance.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
