@@ -19,6 +19,7 @@
 - **4F Defeated**: Scientist Rich (4, 2), Rocket Grunt (5, 5).
 - **Remaining 4F**: Rocket Girl (12, 4), Rocket Grunt (14, 1) [Behind Shutter/Partition].
 - **Turn 8881**: Sweep complete. Heading to Underground for Card Key.
+- **Turn 8884**: Current turn. Navigating to 1F Lobby.
 
 # Global Knowledge
 ## Tile Mechanics
@@ -29,6 +30,7 @@
 - **ICE**: Sliding movement until hitting an obstacle. Verified.
 - **STAIRCASE/LADDER**: Warp points. Verified.
 - **POKEBALL TILE**: Decoration. Verified.
+- **BOOKSHELF**: Impassable. Verified.
 
 ## Completed Badges
 - Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier.
