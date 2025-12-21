@@ -67,3 +67,7 @@
 - Action: Navigating to Ecruteak City.
 - Path Strategy: Up, Left, Up (to Violet) -> Left (to Ecruteak).
 - Reasoning: Based on Turn 9912 success reaching Violet.
+- Turn 9938: Fly Map Cursor at Violet City.
+- Action: Navigating to Ecruteak City using list order (Violet -> Azalea -> Goldenrod -> Ecruteak).
+- Sequence: slow_press ['Up', 'Up', 'Up'].
+- Goal: Select Ecruteak City.
