@@ -18,20 +18,19 @@
 
 ## Sequence Log & Observations
 - State A (Initial): Sw1 ?, Sw2 ON, Sw3 ON.
-- Action: Sw3 -> OFF.
+- Action: Sw3 -> OFF (Turn 9122).
   - Result: Opened (10, 6), (10, 7).
-- Action: Sw2 -> OFF.
-  - Result: Closed (10, 6), (10, 7). Opened (6, 8), (7, 8)? No, wait.
-  - Correction: Turn 9140 (Sw2 OFF) closed (10, 6) and (10, 7).
+- Action: Sw2 -> OFF (Turn 9140).
+  - Result: Closed (10, 6), (10, 7). Opened (6, 8)?
 - Action: Sw1 -> ON (Turn 9152).
   - Result: Opened (16, 6), (17, 6).
+- Action: Sw1 -> OFF (Turn 9155).
+  - Result: Closed (16, 6), (17, 6).
 
-## Current State (Turn 9154)
+## Current State (Turn 9163)
 - Switch States: Sw1 OFF, Sw2 OFF, Sw3 OFF.
-- Shutter Status (Predicted):
-  - (10, 6), (10, 7): WALL (Closed)
-  - (16, 6), (17, 6): WALL (Closed)
-  - (6, 8), (12, 8), (18, 8): WALL (Closed)
+- Shutter Status: All observed shutters are WALL (Closed).
+- Note: The order of switching is critical. Toggling a switch may have different effects depending on the current state of other switches.
 
 ## Hypothesized Shutter Tiles
 - Sw1: (16, 6), (17, 6)
