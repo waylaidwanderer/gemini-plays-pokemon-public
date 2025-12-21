@@ -35,3 +35,5 @@
 - Defeated Scientist Ross.
 - Talking to him now to get the password.
 - Anomaly: Strength (Normal) was Super Effective against Koffing/Venonat. Keeping an eye on this.
+- Moving to (22, 11) to talk to Scientist Ross from the side (he is facing Up).
+- Hypothesis: Interacting from behind didn't work.
