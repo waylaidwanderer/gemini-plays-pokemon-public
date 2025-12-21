@@ -47,11 +47,10 @@
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
 - **Current Action:** Buy Flower Mail.
-  1. **Status:** Navigating to Poke Mart (9, 17).
-  2. **Step 1:** Enter Mart.
-  3. **Step 2:** Buy Flower Mail (Check price, usually cheap).
+  1. **Status:** Inside Violet Mart.
+  2. **Step 1:** Talk to Clerk (Left at 3,3).
+  3. **Step 2:** Buy Flower Mail (Price: ~50g).
   4. **Step 3:** Attach to Kenya.
   5. **Step 4:** Write "DARK CAVE leads to another road."
   6. **Step 5:** Return to Route 31 and deliver.
-  - **Note:** `navigate_to` tool failed to generate path. Using manual movement West along Row 18.
 - **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
