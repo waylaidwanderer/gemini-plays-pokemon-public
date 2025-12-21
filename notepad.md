@@ -18,13 +18,13 @@
 
 ## Strategy: 3-2-1 Sequence
 - Goal: Open path to the southeast (cols 14+).
-- Current Switch States: S3=ON, S2=ON, S1=OFF.
+- Current Switch States: S3=ON, S2=ON, S1=ON.
 - Execution Plan:
   1. Toggle Switch 3 ON (Done).
   2. Toggle Switch 2 ON (Done).
-  3. Toggle Switch 1 ON (Next).
+  3. Toggle Switch 1 ON (Done).
   4. Verify path to southeast.
-- Current Step: Moving to Switch 1 at (16, 1).
+- Current Step: Sequence complete. Verifying shutter states.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
