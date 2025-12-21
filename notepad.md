@@ -1,30 +1,17 @@
 # Tile Mechanics
 - FLOOR: Traversable.
-- WALL: Impassable.
-- SHUTTER: Impassable when CLOSED (WALL), traversable when OPEN (FLOOR).
+- WALL/SHUTTER: Impassable when CLOSED (WALL collision), traversable when OPEN (FLOOR collision).
 
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Strategy: Systematic testing of switches to determine shutter logic.
 
-## Failed Attempts
-1. Attempt 1 (Turn 9901): Sequence 3-ON -> 2-ON -> 1-ON.
-   - Result: Shutters (10, 6), (16, 6), (6, 8) CLOSED. Path BLOCKED.
+## Systematic Testing
+- Baseline (0, 0, 0): (2,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN.
 
-## Switch Testing Log
-- Phase: Reset to Baseline (All OFF)
-- Turn 9911: Switch 2 -> OFF.
-- Turn 9917: Switch 3 -> OFF.
-- Turn 9926: Turned Switch 1 OFF. Reset to Baseline (0, 0, 0) complete.
-- Next: Verify all shutter states to confirm baseline.
-
-## Verified Baseline (All Switches OFF) - PENDING VERIFICATION
-- Expected Shutter States (to be verified after Switch 1 is OFF):
-  - (2, 6): ?
-  - (10, 6): ?
-  - (16, 6): ?
-  - (12, 8): ?
-  - (6, 8): ?
+### Test 1: Switch 1 (16, 1) -> ON
+- Status: Started Turn 9931.
+- Observations: PENDING.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
