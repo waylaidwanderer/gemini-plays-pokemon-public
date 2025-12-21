@@ -18,6 +18,7 @@
   - (19, 11): Secret Switch (Disables Statues). Interact from (19, 12).
 - **B2F (3_50):**
   - (3, 14): Ladder to B1F West (South section).
+  - (3, 2): Ladder to B1F North-West (Entry Point 1).
   - (27, 14): Ladder to B3F East.
   - (14, 12), (15, 12): Locked Doors to Transmitter Room.
   - (14, 9): Radio Transmitter.
