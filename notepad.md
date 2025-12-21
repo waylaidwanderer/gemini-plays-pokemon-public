@@ -1,9 +1,6 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
 - Objective: Locate and shut down the source of the "mysterious radio broadcast" in Mahogany Town.
-- HOW:
-    1. Explore Team Rocket Base B1F to find the transmitter.
-    2. Find the secret switch to disable security cameras.
 - Status: Currently on B1F. Dealing with security cameras and grunts. GNEISS leading.
 
 # Tile Mechanics (Verified on Map 3_49)
