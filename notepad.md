@@ -6,7 +6,7 @@
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Pick up Item Ball at (17, 2).
+- **Navigation:** Navigate to counters at (15, 11) and try to pass through to reach the Boss Room.
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
