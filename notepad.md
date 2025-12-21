@@ -1,16 +1,10 @@
 # Strategy: Investigate Mahogany Radio Broadcast
 - Starting Turn: 7780
-- Objective: Locate and shut down the source of the "mysterious radio broadcast" in Mahogany Town.
-- Status: Currently on B1F. Dealing with security cameras and grunts. GNEISS leading.
-
-# Tile Mechanics (Verified on Map 3_49)
-- FLOOR: Traversable. Standard indoor ground.
-- WALL: Impassable. Includes statues and room dividers.
-- LADDER: Map transition.
+- Objective: Locate and shut down the radio transmitter in Team Rocket Base.
 
 # Global Tile Mechanics
-- FLOOR: Verified traversable. Standard indoor/outdoor ground.
-- WALL: Verified impassable. Includes trees, fences, and building walls.
+- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F)
+- WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F)
 - WATER: Verified traversable only with Surf (HM03) and Fog Badge.
 - TALL_GRASS / LONG_GRASS: Verified traversable. Triggers wild encounters.
 - MART_SHELF: Verified impassable.
@@ -25,25 +19,18 @@
 # Party Training Status
 - ICARUS (PIDGEY): Lv16 (13/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
 - Calcifer (TYPHLOSION): Lv36 (112/114 HP).
-- KIMCHI (GLOOM): Lv21 (57/57 HP). Evolved from Oddish.
+- KIMCHI (GLOOM): Lv21 (57/57 HP).
 - Ravioli (KRABBY): Lv10 (27/27 HP).
 - Blarney (SUDOWOODO): Lv20 (60/60 HP).
 
-# General Mechanics & Tools
-- Battle: Sweet Scent lowers opponent's evasion. Karate Chop is Fighting-type.
-- Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
-- Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
-- Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
-
-# Type Matchups (Observed)
-- Ground vs Water/Poison: Super Effective.
-- Rock vs Water/Flying: Super Effective.
-- Fighting vs Poison: Not Very Effective.
-- Fighting vs Rock/Ground: Super Effective.
-- Water vs Fire: Super Effective.
-- Water vs Rock/Ground: 4x Super Effective.
-- Grass vs Water/Fighting: Super Effective.
-- Fighting vs Grass/Poison: Not Very Effective.
+# Area Mechanics: Team Rocket Base B1F
+- Security Cameras: Located at (24, 1), (24, 5), and (6, 1). Walking past column 24 or column 6 triggers a Rocket Grunt battle. Statues contain cameras.
+- Secret Switch: Hypothesis: A secret switch trips the camera alarms.
+- Floor Traps: Hypothesis: Certain tiles trigger wild encounters or effects.
+- Trap Testing Plan:
+    1. Step on tile (3, 4) to check for encounter or effect.
+    2. Step on tile (2, 4) to check for encounter or effect.
+    3. Document results for each step.
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
@@ -74,31 +61,10 @@
 # Pokémon Swarms
 - Route 35: Ditto (Arnie's call, Turn 7769).
 
-# Lessons: Turns 7500-7800
-- Coordination: Always verify NPC coordinates in Game State before marking or pathing.
-- Tool Usage: `stun_npc` is essential for interacting with pacing NPCs like Cooltrainer F.
-- Training: Switch-training ICARUS is highly effective; he reached Lv15 and learned Quick Attack.
-- Navigation: Surfing requires updated exploration tools to handle water tiles.
-- Capturing: Burn status is efficient but risky for low-HP targets like Red Gyarados. Sleep is safer.
-- Fly Map: Navigation requires precise cursor movement; check intermediate states to verify cursor position.
-- False Constraints: If a goal strategy seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
-- Efficiency: Use Fly to bypass long routes when the party is weak.
-
-# Lessons: Turns 7800-7900
-- Security Mechanics: Column 24 in the Rocket Base B1F triggers intruder alerts via cameras at (24, 1) and (24, 5).
-- Agent Hygiene: Always verify current screen state before calling battle agents to avoid stale data. Use current Game State values only.
-- Immediate Action: If a marker is missed or a lesson learned, record it immediately to avoid context loss.
-- Tool Timing: Menu transitions require a brief pause (e.g., 'sleep 100') to ensure inputs are applied to the correct menu.
+# General Knowledge & Lessons
+- Battle: Sweet Scent lowers evasion. Karate Chop is Fighting-type.
+- Navigation: Columns/Rows can trigger events (e.g., column 24 and 6 for cameras).
+- Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
+- Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
+- Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
 - Reflection #150: Ground reasoning in observable state; scientific mindset for puzzles; maintain organized notepad and markers; refine/create tools proactively.
-
-# Area Mechanics: Team Rocket Base B1F
-- Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
-- Hypothesis: NPC mentioned surveillance cams are in the POKéMON statues and Rocket Grunts will keep appearing until a secret switch is tripped.
-- Defeated Rocket Grunt at (23, 6). Dialogue: "Surveillance cams are in the POKéMON statues. We'll keep appearing until you trip a secret switch."
-- Encountered second Rocket Grunt battle immediately after the first one on B1F near (6, 3). This confirms multiple grunts appear from the security statues.
-- Met Rocket Grunt at (4, 4). Dialogue: "Heheh. Feeling lucky, punk? Go ahead, take another step. We've got traps set in the floor!"
-- Trap Hypothesis: Certain floor tiles on B1F trigger wild encounters (Koffing, Voltorb, Geodude) or traps.
-- Trap Testing Plan:
-    1. Step on tile (3, 4) to check for encounter or effect.
-    2. Step on tile (2, 4) to check for encounter or effect.
-    3. Document results for each step.
