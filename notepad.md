@@ -24,8 +24,8 @@
 - Current State (Turn 9888): All shutters (2,6), (6,8), (10,6), (12,8), (16,6) are CLOSED.
 
 ## Sequence Progress: 3-2-1
-- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890)
-- Step 2: Switch 2 (10, 1) -> Pending
+- Step 1: Switch 3 (2, 1) -> ON (Done Turn 9890). Result: Shutter (2, 6) is OPEN.
+- Step 2: Switch 2 (10, 1) -> Moving to turn ON.
 - Step 3: Switch 1 (16, 1) -> Pending
 
 # Area Notes
