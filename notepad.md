@@ -45,6 +45,6 @@
 - Turn 9858: Previous input failed to navigate to Mistral (inputs likely eaten during menu transition). Currently on Muscle's menu. Correcting: B (Back), Down x3 (Mistral), A (Select).
 - Turn 9859: Selected FLY. Next step: Navigate map to Goldenrod City.
 - Hypothesis: Re-visiting Webster might reset the mail or let me copy the exact text again.
-- Turn 9862: Fly map cursor at Cherrygrove City. Moving Left to target Violet City, then Goldenrod.
+- Turn 9863: Fly map cursor at Violet City (Expected). Moving Left/Down to target Goldenrod.
 - Current Status: Traveling to Goldenrod to ask Webster to rewrite Kenya's mail.
-- Quest Note: Fisher rejected "Dark Cave leads to another road." (Mixed case, period). Likely requires original flag or specific hidden byte, OR I messed up the text slightly. Webster is the reliable fix.
+- Quest Note: Fisher rejected "Dark Cave leads to another road." (Mixed case, period). Webster is the reliable fix.
