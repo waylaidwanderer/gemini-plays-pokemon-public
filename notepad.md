@@ -21,7 +21,7 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- GNEISS (GRAVELER): Lv36 (98/101 HP). Leading.
+- GNEISS (GRAVELER): Lv37 (100/103 HP). Leading.
 - ICARUS (PIDGEY): Lv16 (13/43 HP). Moves: Quick Attack, Sand-Attack, Gust, Fly.
 - Calcifer (TYPHLOSION): Lv36 (112/114 HP).
 - KIMCHI (GLOOM): Lv21 (57/57 HP). Evolved from Oddish.
