@@ -11,7 +11,7 @@
 | (0, 0, 0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
 | (1, 0, 0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED |
 | (0, 1, 0) | CLOSED | CLOSED | OPEN | CLOSED | OPEN | CLOSED |
-| (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN (?) |
+| (0, 0, 1) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | OPEN |
 
 ## Strategy: 3-2-1 Sequence
 - Goal: Open path to the southeast warp (Underground Warehouse).
@@ -19,7 +19,7 @@
   1. Switch 3 (2, 1) -> ON (Current: ON)
   2. Switch 2 (10, 1) -> ON (Next Step)
   3. Switch 1 (16, 1) -> ON
-- Path after sequence: (10,2) -> (10,7) -> (12,8) -> Southeast Warp.
+- Expected Path: (10,2) -> (10,7) -> (12,8) -> Southeast Warp.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
