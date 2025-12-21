@@ -28,3 +28,4 @@
 - **Action:** Taking Mail from Kenya to fix the typo.
 - **Correction:** Turn 9726 - 'MAIL detached' text persisted despite B inputs. Pressing A to clear. State ambiguity (Map vs Menu) requires cautious re-verification.
 - **Correction:** Turn 9734 - Selected Garnet by mistake (Input timing issue?). Dismissing error text and manually navigating to Kenya to verify selection before confirming.
+- **Correction:** Turn 9736 - Accidentally opened Save menu. Cancelling and returning to Pack.
