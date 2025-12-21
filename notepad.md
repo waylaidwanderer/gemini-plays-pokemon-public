@@ -17,3 +17,6 @@
 
 ## Tile Mechanics
 - COUNTER: Impassable.
+- **Observation:** Locked doors on B2F at (14, 12) and (15, 12) say "Closed" and "Needs password" respectively. Interaction failed despite having passwords.
+- **Hypothesis:** Missing a trigger. Maybe exploration of West B2F or B1F is required. Or Lance is elsewhere.
+- **Action:** Moving to West B2F Ladder (3, 14).
