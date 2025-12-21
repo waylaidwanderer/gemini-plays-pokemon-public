@@ -46,3 +46,7 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
+- **Anomaly:** 'FLY' option missing from Mistral's menu on Route 31.
+  - Possible Causes: Glitch, Tile restriction, or Menu refresh needed.
+  - Plan: Close menus, move player, retry. If fails, check Dark Cave route.
+- **Route 31 Obstacle:** One-way ledge at (13,6) blocks return to Violet City. Cut tree at (13,5) blocks alternate path (No Cut user in party).
