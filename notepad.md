@@ -13,7 +13,7 @@
 ## Verified Switch States
 - Switch 1 (16, 1): OFF
 - Switch 2 (10, 1): OFF
-- Switch 3 (2, 1): ON (Moving to turn OFF)
+- Switch 3 (2, 1): OFF (Testing if (2, 6) closes)
 
 ## Shutter States (Turn 9726)
 - (2, 6): FLOOR (Open)
