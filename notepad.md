@@ -40,3 +40,4 @@
 - Item sprites and COUNTER tiles have collision; interact from adjacent FLOOR.
 - Map sections can be completely isolated; look for alternative floor transitions.
 - Persian statues on B1F trigger alarms.
+- **Secret Switch:** Located at (19, 11) on B1F. Interact from (19, 12) to disable security cameras.
