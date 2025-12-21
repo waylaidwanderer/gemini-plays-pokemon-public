@@ -43,3 +43,5 @@
 - **Navigation:** Must loop south through grass to bypass ledges and return to West side.
 - **Correction:** Fisher rejected "DARK CAVE leads to another road." (All Caps). This suggests case sensitivity matters.
 - **Plan:** After checking Cooltrainer, try "Dark Cave leads to another road." (Title Case).
+- **Youngster (10, 6):** Generic dialogue (Dark Cave/Falkner). Not recipient.
+- **Next:** Checking Bug Catcher at (21, 13).
