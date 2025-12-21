@@ -3,10 +3,10 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7476)
+# Strategy: KIMCHI Training (Updated Turn #7477)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 20.
-- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
+- Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP. Note: ABSORB is at 0 PP; visit Center or use ETHER if STAB is needed.
 
 # Tile Mechanics
 - Walkable: FLOOR, WATER (Traversable ONLY via Surf HM03 + Fog Badge. Must be used from land tile adjacent to water), TALL_GRASS.
@@ -39,6 +39,7 @@
 # Defeated Trainers
 - Fisher Tully (Route 42) at (40, 10).
 - Pokemaniac Shane (Route 42) at (47, 8).
+- Hiker Benjamin (Route 42) at (49, 9).
 
 # Route 42 Discoveries
 - Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
