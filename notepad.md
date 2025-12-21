@@ -10,10 +10,11 @@
 - Puzzle Start Turn: ~10125
 - Hint: "3-2-1" sequence (Left to Right).
 
-## Research: Isolation Testing Matrix (S3, S2, S1)
-| State | (2,6) | (3,6) | (10,6) | (16,6) | (6,8) | (12,8) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| (0,0,0) | OPEN | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
+## Research: Shutter States (S3, S2, S1)
+| State | (2,6) | (10,6) | (16,6) | (6,8) | (12,8) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
+| (1,0,0) | OPEN | OPEN | CLOSED | CLOSED | CLOSED |
 
 ## Strategy: Shutter Sequence Testing
 - Goal: Open path to the southeast (cols 14+). Requires (16,6) or (17,6) to be OPEN.
@@ -23,7 +24,7 @@
   2. Toggle Switch 2 (10,1) ON.
   3. Toggle Switch 1 (16,1) ON.
   4. Verify path to southeast.
-- Current Step: Moving to Switch 2.
+- Current Step: Moving to Switch 2 at (10,1).
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
