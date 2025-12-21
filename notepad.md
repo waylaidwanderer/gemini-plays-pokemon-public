@@ -51,6 +51,6 @@ Mechanic: Persian Statues (e.g., at 6,1) are security cameras. Walking in their 
 - Plan: Go South through gap at (9,4) to search for the switch in the unexplored area.
 - Potentially Reachable Unseen Tiles (Turn 10466): (1, 1), (1, 2), (1, 3), (1, 4), (1, 6), (16, 7), (17, 7), (18, 7), (19, 7), (2, 8), (1, 7), (3, 8), (4, 8), (5, 8), (7, 8), (14, 8), (15, 8), (20, 8), (21, 8), (22, 8), (23, 8), (24, 8), (25, 8), (26, 8), (27, 8), (28, 8).
 - Plan: Investigate reachable tiles after battle.
-- Checking (9, 6) to verify it is not the switch (previously missed).
-- Plan: After checking (9, 6), head East to explore the unknown area and the Item Ball at (27, 6).
-- Hypothesis: Switch must be deeper in the base or I missed a different statue type.
+- Checked (9, 6): No reaction. All statues in Row 6 (8-13) are cleared.
+- Plan: Head East via Row 7 to avoid the camera at (24, 5) on Row 5.
+- Goal: Reach the Item Ball at (27, 6) and explore the East side for the switch.
