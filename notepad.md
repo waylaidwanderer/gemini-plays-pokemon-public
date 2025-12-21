@@ -86,3 +86,6 @@
 - Fly Map: Navigation requires precise cursor movement; check intermediate states to verify cursor position.
 - False Constraints: If a goal seems too complex, re-evaluate the root assumption (e.g., don't assume an NPC must move if there's a path around).
 - Efficiency: Use Fly to bypass long routes when the party is weak.
+
+# Area Mechanics: Team Rocket Base B1F
+- Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
