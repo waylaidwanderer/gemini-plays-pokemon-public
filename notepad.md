@@ -22,17 +22,17 @@
 - Goal: Open path to the southeast Warehouse Entrance.
 - Start Turn: 10284
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Current Progress: All switches (S1, S2, S3) are OFF. Ready to start 3-2-1 sequence.
+- Current Progress: Executing 3-2-1 sequence. Toggling Switch 3 (2,1) ON.
 - Number of failed attempts: 1 (Turn 10300) - 3-2-1 from mixed state failed.
 - Observed Shutter Toggles:
   - S1 (16,1) toggles (16,6), (10,6), (6,8)
   - S2 (10,1) toggles (10,6), (12,8), (6,8)
   - S3 (2,1) toggles (2,6), (3,6), (12,8)
 - Refined Logic Hypothesis (3-2-1 Sequence):
-  1. Toggle S3 (Left)
+  1. Toggle S3 (Left) -> CURRENT
   2. Toggle S2 (Middle)
   3. Toggle S1 (Right)
-- Observation: Starting from (0,0,0) state now.
+- Observation: Starting from (0,0,0) state. Sequence attempt 2.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
