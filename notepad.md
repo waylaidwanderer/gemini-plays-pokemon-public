@@ -48,5 +48,5 @@
 
 # Mahogany Town Discoveries
 - Arrived at (0, 7) from Route 42.
-- Sign at (1, 5): [Unread]
+- Sign at (1, 5): Welcome to the Home of the Ninja (Mahogany Town).
 - Gramps at (5, 9).
