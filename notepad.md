@@ -36,7 +36,8 @@
 - **Analysis:** The Boss Room entrance (10,9) on B3F is in a completely isolated area (NW quadrant). No access from B3F floor.
 - **Conclusion:** Access MUST be via a ladder/stairs from B2F (or B1F). The B2F Locked Doors (14,12 & 15,12) are the only remaining path.
 - **Hypothesis:** I interacted with the wrong door tile or need to try again.
-- **Immediate Plan:** Interact with Locked Door at (15, 12) then (14, 12) on B2F.
-- **Hypothesis:** One of these doors must accept the passwords "SLOWPOKETAIL" and "RATICATE TAIL".
-- **Contingency:** If both fail, search B2F for the Executive to get the "Executive's Voice" (likely required for these doors). The passwords might be for the B3F Boss Room *after* finding the ladder here.
+- **Correction:** The B2F Locked Doors (14,12 & 15,12) are likely for the Transmitter Room, which requires the Murkrow/Executive Voice (after the Boss Room).
+- **Game Logic:** Passwords -> Open Boss Room (B3F) -> Defeat Executive -> Murkrow opens B2F Doors.
+- **Problem:** I previously thought the Boss Room (B3F NW) was unreachable. I must have missed a path.
+- **Immediate Plan:** Interact with door at (14,12) to confirm failure. Then proceed to B3F via NE Ladder (27,14) and attempt to navigate West to the Boss Room doors.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
