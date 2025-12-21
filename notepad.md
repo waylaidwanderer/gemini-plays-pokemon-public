@@ -6,13 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Retrying with Period.
-- **Hypothesis:** Rejection was due to missing period. Original text: "Dark Cave leads to another road."
-- **Plan:**
-    1. Enter Party Menu.
-    2. Remove Old Mail from Kenya.
-    3. Write New Mail: "Dark Cave leads to another road." (Mixed Case + Period).
-    4. Deliver.
+- **Status:** Removing Old Mail.
+- **Current State:** Party Menu, Kenya Selected.
+- **Action:** Opening interaction menu for Kenya.
+- **Next Steps:**
+    1. Select MAIL (Down x3 -> A).
+    2. Select TAKE (Down -> A).
+    3. Select NO to "Send to PC?".
+    4. Select YES to "Lose message?".
+    5. Return to Pack and write new mail.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps), "DARK CAVE", and "Dark Cave leads to another road" (No Period).
