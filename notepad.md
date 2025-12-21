@@ -8,26 +8,29 @@
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
 - Goal: Open shutters (10, 6), (12, 8), and (16, 6) to reach the warehouse.
-- Current Switch Status (Turn 9864): 3: OFF, 2: OFF, 1: OFF (Just turned OFF).
-- Verified Baseline Shutter States (All OFF):
-  - (2, 6/7): OPEN (FLOOR)
-  - (6, 8/9): CLOSED (WALL)
-  - (10, 6/7): CLOSED (WALL)
-  - (12, 8/9): OPEN (FLOOR)
-  - (16, 6/7): OPEN (FLOOR)
-  - (17, 6/7): OPEN (FLOOR)
+- Current Switch Status (Turn 9868): 3: OFF, 2: OFF, 1: OFF.
 
-# Switch Logic Observations
-- Switch 1 ON: Opens (12, 9), (16, 7), (17, 7).
-- Switch 1 OFF: Closes (16, 7), (17, 7). (16, 6) and (17, 6) remain OPEN.
-- Baseline (All OFF): (2, 6/7) OPEN, (6, 8/9) CLOSED, (10, 6/7) CLOSED, (12, 8) OPEN, (12, 9) CLOSED?, (16, 6) OPEN, (17, 6) OPEN.
-- Reset complete (Turn 9864).
+## Verified Baseline Shutter States (All OFF)
+- (2, 6/7): OPEN (FLOOR)
+- (6, 8/9): CLOSED (WALL)
+- (10, 6/7): CLOSED (WALL)
+- (12, 8/9): CLOSED (WALL)
+- (16, 6/7): CLOSED (WALL)
 
-# Strategy
-1. Reset complete. All switches OFF.
-2. Test 2: Turn Switch 2 ON only. Observe effects.
-3. Test 3: Reset Switch 2 to OFF. Turn Switch 3 ON only. Record effects.
-4. Use results to determine the combination for (10,6), (12,8), (16,6) = OPEN.
+## Lessons Learned
+- Memory of "3-2-1" solution is unreliable; must rely on observation.
+- Initial state matters significantly for toggle logic.
+- Systematic isolation tests (one switch at a time) are necessary.
+
+## Switch Logic Observations (Isolated)
+- Switch 1 ON (Hypothesis): Opens (12, 8) and (16, 7).
+- Switch 2 ON (Hypothesis): Closes (16, 6) and (17, 6). (Based on it being OPEN when 2 was OFF).
+- Switch 3 ON (Hypothesis): Opens (6, 8) and Closes (12, 8).
+
+## Strategy
+1. Test 2: Turn Switch 2 ON only. Observe and document shutter effects (Current task).
+2. Test 3: Reset Switch 2 to OFF. Turn Switch 3 ON only. Observe and document.
+3. Combine results to find the state where (10,6), (12,8), (16,6) = OPEN.
 
 # Area Notes
 - Warehouse Entrance: Southern unseen area (Map 3_55).
