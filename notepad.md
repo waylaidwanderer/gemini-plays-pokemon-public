@@ -2,9 +2,10 @@
 - Starting Turn: 7780
 - Objective: Locate and shut down the radio transmitter in Team Rocket Base.
 - HOW:
-    1. Explore B3F to find two passwords from Rocket Grunts.
-    2. Return to B2F to unlock the boss's room.
-    3. Shut down the transmitter.
+    1. Obtain passwords from Grunt (7, 14) and Rocket Girl (21, 7). [DONE]
+    2. Unlock the boss's room at (10, 9) using the passwords.
+    3. Defeat the boss to get the transmitter room password.
+    4. Shut down the transmitter on B2F.
 
 # Global Tile Mechanics
 - FLOOR: Verified traversable.
@@ -20,7 +21,7 @@
 # Party Training Status
 - GNEISS (GRAVELER): Lv38 (106/106 HP).
 - ICARUS (PIDGEY): Lv16 (43/43 HP).
-- Calcifer (TYPHLOSION): Lv36 (114/114 HP).
+- Calcifer (TYPHLOSION): Lv36 (113/114 HP).
 - KIMCHI (GLOOM): Lv21 (57/57 HP).
 - Ravioli (KRABBY): Lv10 (27/27 HP).
 - Blarney (SUDOWOODO): Lv20 (60/60 HP).

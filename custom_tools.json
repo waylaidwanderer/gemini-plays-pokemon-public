@@ -265,12 +265,17 @@
         "start_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        start_x = int(data['start_x'])\n        start_y = int(data['start_y'])\n        target_x = int(data['target_x'])\n        target_y = int(data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE']\n                if tile.find('Object') is not None:\n                    if not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception as e:\n        return [str(e)]\n\nprint(json.dumps(solve()))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        start_x = int(data['start_x'])\n        start_y = int(data['start_y'])\n        target_x = int(data['target_x'])\n        target_y = int(data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                # COLLISION: WALL, COUNTER, BOOKSHELF, TABLE, MART_SHELF\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                \n                # Objects (NPCs, Items) are walls\n                obj = tile.find('Object')\n                if obj is not None:\n                    # Exception: if it's the player's current tile or the target tile (for warps/events)\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                \n                grid[(x, y)] = not is_wall\n\n        # BFS\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception as e:\n        return [str(e)]\n\nprint(json.dumps(solve()))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-21T05:16:03.605Z",
         "action_counter": 8076
+      },
+      {
+        "commit_message": "Refined find_path_v3 to ignore markers and handle collisions more accurately. Added MART_SHELF to impassable types.",
+        "timestamp": "2025-12-21T05:32:39.553Z",
+        "action_counter": 8101
       }
     ]
   },
@@ -288,12 +293,17 @@
         "target_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        target_index = int(data['target_index'])\n        \n        buttons = []\n        for _ in range(target_index):\n            buttons.append(\"Down\")\n        \n        # Press A to select the Pokemon\n        buttons.append(\"A\")\n        # Press A again to select \"SHIFT\" (or \"SWITCH\")\n        buttons.append(\"A\")\n        \n        return buttons\n    except Exception as e:\n        return [str(e)]\n\nprint(json.dumps(solve()))",
+    "python_script": "import json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        target_index = int(data['target_index'])\n        # Assumes cursor is at index 0 in the party list\n        buttons = []\n        for _ in range(target_index):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select Pokemon\n        buttons.append(\"A\") # Choose 'SHIFT'\n        return buttons\n    except Exception as e:\n        return [str(e)]\n\nprint(json.dumps(solve()))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-21T05:20:50.975Z",
         "action_counter": 8084
+      },
+      {
+        "commit_message": "Refined switch_pokemon_v1 to ensure correct menu navigation by pressing directional buttons before selecting.",
+        "timestamp": "2025-12-21T05:32:39.555Z",
+        "action_counter": 8101
       }
     ]
   }
