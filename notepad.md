@@ -46,19 +46,20 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Compose Mail.
-  1. **Status:** Text is "DARK CAVE". Cursor at 'UPPER'.
-  2. **Method:** Manual typing via `slow_press`.
+- **Current Action:** Verify/Fix Mail.
+  1. **Status:** Typing disrupted (Sequence ended in Start Menu).
+  2. **Hypothesis:** Hit "END" early or game context switched.
   3. **Plan:**
-     - Reset cursor to 'a' (0,0).
-     - Type " leads " (Space, l, e, a, d, s, Space).
-     - Next turn: Type "to another road.".
-  4. **Note:** Safe reset ensures alignment.
+     - Go to Party Menu (Up, A).
+     - Check Kenya's Held Item.
+     - If "Flower Mail": Check text.
+       - If text != "DARK CAVE leads to another road.", TAKE mail and retry.
+     - If no item: Go to Pack -> Give -> Flower Mail.
 
 ## Maintenance
-- **Tool Fix:** Manual typing continues.
+- **Tool Fix:** Manual typing requires extreme caution with "END" button proximity.
 
-## Reflection (Turn 9288)
-- **Status:** Cleared garbage text. Ready to type body.
-- **Action:** Reset cursor -> Type " leads ".
-- **Next:** Type "to another road."
+## Reflection (Turn 9289)
+- **Error:** Manual typing sequence triggered menu exit (Pack -> Start).
+- **Cause:** Likely miscalculated cursor position and hit "END" or "CANCEL".
+- **Action:** Verify current state of mail before attempting rewrite.
