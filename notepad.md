@@ -11,7 +11,7 @@
 - **Partition**: 4F is split; upper floors require Card Key.
 
 ## Underground Progress (Map 3_53)
-- **Status**: Found the Basement Door at (18, 6).
+- **Status**: Found the Basement Door at (18, 6). It is LOCKED (requires Basement Key).
 - **Hypothesis**: The Underground leads to the Radio Tower's restricted area (Warehouse), where the real Director and Card Key are located.
 - **NPCs**:
     - Super Nerd Donald (2, 6) - Defeated.
