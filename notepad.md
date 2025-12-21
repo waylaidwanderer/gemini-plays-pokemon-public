@@ -27,14 +27,11 @@
 - Puzzle Start (Reset): Turn 9462.
 - Method: Systematic mapping of switch-shutter relationships.
 - Switch Logic Table:
-    - Switch 1: Toggles Right-side shutters {16, 6; 17, 6; 12, 8; 12, 9}.
-    - Switch 2: Toggles Left and Middle shutters {10, 6; 6, 8; 6, 9}.
-    - Switch 3: Toggles Middle shutters {12, 8; 12, 9}.
-- Experiment Log (Attempt 3): 3-2-1 sequence (All ON) failed. Path blocked.
-- Strategy: Following Strategist's 3-2-1 sequence (Started Turn 9605).
-    - Step 1: Switch 3 ON (Completed).
-    - Step 2: Switch 2 ON (Target).
-    - Step 3: Switch 1 ON.
+    - Switch 1: Toggles Right-side shutters.
+    - Switch 2: Toggles Left/Middle shutters.
+    - Switch 3: Toggles Middle shutters.
+- Puzzle Result: 3-2-1 sequence (all switches ON) failed previously. Testing 3-2-1 from baseline.
+- Current Plan: Execute 3-2-1 sequence (Started Turn 9605).
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
