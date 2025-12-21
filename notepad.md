@@ -16,20 +16,21 @@
 | (0,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
 | (1,0,0) | OPEN | CLOSED | CLOSED | CLOSED | CLOSED |
 
-## Strategy: Shutter Sequence Testing
-- Goal: Open path to the southeast (cols 14+). Requires (16,6) or (17,6) to be OPEN.
-- Current Switch States: S3=ON, S2=Toggling to ON, S1=OFF.
-- Execution Plan (3-2-1 sequence):
-  1. Toggle Switch 3 (2,1) ON (Done).
-  2. Toggle Switch 2 (10,1) ON (In Progress).
-  3. Toggle Switch 1 (16,1) ON.
+## Strategy: 3-2-1 Sequence
+- Goal: Open path to the southeast (cols 14+).
+- Current Switch States: S3=ON, S2=ON, S1=OFF.
+- Execution Plan:
+  1. Toggle Switch 3 ON (Done).
+  2. Toggle Switch 2 ON (Done).
+  3. Toggle Switch 1 ON (Next).
   4. Verify path to southeast.
-- Current Step: Toggling Switch 2 ON.
+- Current Step: Moving to Switch 1 at (16, 1).
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11).
 - Return Ladders: (23,3), (21,25), (5,25).
+- Obstacle: Rocket Grunt at (11, 2) blocks the row 2 corridor.
 
 # Lessons Learned
 - **Sprite Verification:** Always verify the "Map Objects" list and the current screen before assuming an NPC is blocking a path. Visual hallucinations of obstructions can lead to inefficient routing.
