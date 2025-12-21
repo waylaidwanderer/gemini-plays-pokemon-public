@@ -4,12 +4,11 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Forged Mail.
-  1. **Status:** Mail forged ("Dark Cave leads to another road."). In Party Menu.
-  2. **Step 1:** Exit Menus (B x4).
-  3. **Step 2:** Interact with Fisher (Down -> A).
-  4. **Step 3:** Select Kenya (A).
-  5. **Step 4:** Observe result. If rejected, investigate original mail content or recipient.
+- **Current Action:** Select Kenya for Delivery.
+  1. **Status:** In Party Menu, cursor on Kenya.
+  2. **Step 1:** Press A to select Kenya.
+  3. **Step 2:** Handle subsequent prompts (Yes/No or Menu).
+  4. **Step 3:** Receive Reward.
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
