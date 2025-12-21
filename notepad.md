@@ -34,7 +34,8 @@
 - Items: (14, 2). Found Ether at (10, 15), Burn Heal at (6, 3).
 - B1F Analysis: The room is divided by a wall of boxes. Left side (Elevator) is isolated from Right side (Ladder). Must access Right side from 1F.
 - Elevator connects to Left Side of B1F. Right Side (Ladder) is blocked by boxes.
-- Plan: Return to 1F via Elevator, then find stairs/ladder to B1F Right Side to get Item (14, 2).
+- B1F Item Hypothesis: The unreachable item at (14, 2) and the right side of B1F might be accessed via the Goldenrod Underground, not the Dept Store directly.
+- Plan: Buy Great Balls (Ultra Balls not sold here). Fly to Lake of Rage.
 ## Global Tile Mechanics
 - FLOOR: Traversable. Standard movement.
 - WALL: Impassable.
