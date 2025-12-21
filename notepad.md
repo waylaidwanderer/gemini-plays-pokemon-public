@@ -45,3 +45,8 @@
 - Sign at (45, 9): MT.MORTAR WATERFALL CAVE INSIDE.
 - Sign at (54, 8): ROUTE 42 ECRUTEAK CITY - MAHOGANY TOWN.
 - Arnie (Bug Catcher) mentioned rare Ditto on Route 35.
+
+# Mahogany Town Discoveries
+- Arrived at (0, 7) from Route 42.
+- Sign at (1, 5): [Unread]
+- Gramps at (5, 9).
