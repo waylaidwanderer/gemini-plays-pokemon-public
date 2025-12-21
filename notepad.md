@@ -56,3 +56,6 @@
 - Plan: Check Ladder at (3, 14) first (less likely to be a reset trap than the Warp Panel).
 - Then check Warp Panel at (5, 15).
 - Muscle HP: 106/144. OK.
+- Observation: Trap tiles found at (5, 8), (5, 10), (5, 12).
+- Hypothesis: Traps are placed every 2 tiles along Column 5. Expect another trap at (5, 14).
+- Plan: Push through potential trap at (5, 14) to reach Ladder at (3, 14).
