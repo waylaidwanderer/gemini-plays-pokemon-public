@@ -58,6 +58,8 @@
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
+- Pokemaniac Ron: ¥1140 (Turn 7679).
+- Pokemaniac Brent: ¥1140 (Turn 7654).
 
 # PC Storage (Box 1)
 - ROCKY (ONIX): Lv6, EGG (CLEFFA): Lv5, XFDW (MEOWTH): Lv16, FRITTATA (TOGEPI): Lv5, SHUCKIE (SHUCKLE): Lv15.
