@@ -41,4 +41,4 @@
 - **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
 ## Tower Progress
 - Floors 1F-4F: Accessible areas cleared.
-- 5F: Battling fake Director (Rocket Executive). Defeated 4/5 Pokemon (Koffing x3, Weezing). Facing last Pokemon: Koffing #4 (Lv30). Goal: Basement Key.
+- 5F: Defeated Fake Director (Rocket Executive). Obtained BASEMENT KEY. Real Director is in the Underground Warehouse (far end of the Underground). Goal: Use Basement Key at (18, 6) in Goldenrod Underground.
