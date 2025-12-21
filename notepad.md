@@ -46,18 +46,20 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Equip Kenya and Deliver.
-  1. **Status:** Selected Flower Mail in Pack.
-  2. **Step 1:** Press A to open Item Menu.
-  3. **Step 2:** Select GIVE -> Kenya.
-  4. **Step 3:** Compose Message: "DARK CAVE leads to another road." (With Period).
-  5. **Step 4:** Return to Route 31 and deliver.
+- **Current Action:** Compose Mail.
+  1. **Status:** Typing message.
+  2. **Target Text:** "DARK CAVE leads to another road." (32 chars).
+  3. **Plan:**
+     - Type "DARK CAVE " (UPPER).
+     - Switch to lowercase.
+     - Type "leads to another road." (lower).
+  4. **Note:** Exact fit for 32-char limit.
 
 ## Maintenance
 - **Tool Fix:** `navigate_to` failed on straight line (Row 18). Investigate door tile logic.
 
-## Reflection (Turn 9272)
-- **Status:** In Pack, cursor on Flower Mail.
-- **Hypothesis:** The Fisher rejected the mail because it lacked a period or had incorrect punctuation.
-- **Plan:** Re-write mail exactly as: "DARK CAVE leads to another road."
-- **Backup:** If this fails, check "Dark Cave" capitalization or other variations.
+## Reflection (Turn 9276)
+- **Status:** In Mail Composition Screen.
+- **Keyboard:** Standard Grid. Period `.` likely in lowercase menu.
+- **Length Check:** Message is exactly 32 chars, filling the mail completely.
+- **Next:** Execute typing in chunks to manage case switching.
