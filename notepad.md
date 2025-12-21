@@ -47,3 +47,5 @@
 - Turn 9926: Delivery failed ("It doesn't have any MAIL"). Likely selected Mistral (Slot 4) instead of Kenya (Slot 5).
 - Action: Clearing text (B), re-initiating conversation (A).
 - Next Step: Carefully select Kenya in the party menu.
+- Turn 9927: Correcting position. Moved to (17, 9) by accident. Moving Up to (17, 8) to talk to Fisher again.
+- Plan: Initiate talk, then carefully select Kenya (Slot 5) in the next turn.
