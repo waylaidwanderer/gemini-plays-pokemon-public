@@ -32,3 +32,5 @@
 - Turn 9942: Standing on Warp Carpet at (35, 27). Warp didn't trigger instantly.
 - Action: Pressing Right to walk into the Gatehouse.
 - Note: Map indicates WALL to the right, but this is typical for gatehouse entrances.
+- Turn 9943: Entered Route 42 Gatehouse.
+- Action: Crossing gatehouse East to reach Route 42.
