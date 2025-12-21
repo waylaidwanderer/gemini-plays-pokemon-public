@@ -38,3 +38,4 @@
 - Status: Approaching Fisher to deliver Kenya with mail "Dark Cave leads to another road."
 - Strategy: Move Down, Right, Right to (17, 8), Face Up, Talk.
 - Turn 9848: Interacting with Fisher at (17, 7) with Kenya holding "Dark Cave leads to another road." mail.
+- Turn 9851: Fisher recognized the mail! Party menu opened automatically. Selecting Kenya to complete delivery. It seems "Dark Cave leads to another road." was the correct solution.
