@@ -1,41 +1,24 @@
 # Gem's Journey in Pokémon Crystal
 
+## Tile Mechanics
+- COUNTER: Impassable. Treated as WALL for movement.
+
 ## Current Strategy
 - **Primary Goal:** Investigate Team Rocket Hideout (Mahogany Town).
 - **Secondary Goal:** Find 2 Passwords to reach the Boss.
-- **Navigation:** Talk to Scientist at (23, 11) on B3F.
+- **Navigation:** Pick up Item Ball at (17, 2).
 
 ## Quest Log
 - **Lake of Rage:** Caught Red Gyarados. Met Lance.
 - **Rocket Hideout B1F:** Disabled Security System (Switch at 19, 11).
 - **Rocket Hideout B2F:** Met Lance. Learned password is with the Boss.
-- **Rocket Hideout B3F:** Lance says 2 passwords needed from specific Rockets.
+- **Rocket Hideout B3F:** Found both passwords ("SLOWPOKETAIL", "RATICATE TAIL").
 
 ## Team Rocket Hideout B3F Status
 - **Location:** B3F.
 - **Objectives:**
-    1. Find Password 1.
-    2. Find Password 2.
-    3. Unlock Boss's Room.
-- **NPCs:**
-    - Scientist at (23, 11) (Target).
-    - Rocket Grunt at (24, 14) (Defeated, no password).
+    1. Unlock Boss's Room at (10, 9).
+    2. Loot Item at (14, 10).
+    3. Defeat Boss.
 
 ## Team Management
-- **Party:** Muscle (44), Garnet (28), Lapis (12), Mistral (13), Kenya (11), Belladonna (5).
-
-## Global Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WARP_CARPET: Map transition.
-- STAIRS: Change floor.
-- Observation: Strength (Normal) appeared to be Super Effective against Koffing (Poison). Need to verify if type matchups or move types are altered.
-- Current Battle: Scientist Ross sent out a second Koffing.
-- Action: Decline switch, then attack.
-- Scientist Ross (Defeated). Dialogue: "Experiment success... loss means nothing." No password yet.
-- Scientist Mitch (Defeated, No Password).
-- Rocket Girl (Defeated). Password 1: "SLOWPOKETAIL".
-- Rocket Grunt at (5, 14) (Defeated). Password 2: "RATICATE TAIL".
-- Have both passwords: "SLOWPOKETAIL" and "RATICATE TAIL".
-- Looted X Special at (1, 12).
-- Plan: Loot Item at (14, 10), then open Boss Room at (10, 9).
