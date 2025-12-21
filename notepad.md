@@ -1,40 +1,40 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Talk to Lance.
-- **Secondary Goal:** Explore Lake of Rage.
-- **Navigation:** Surf to shore -> Find Lance (near sign/Gramps).
+- **Primary Goal:** Investigate Mahogany Town (Radio Signal).
+- **Secondary Goal:** Find Lance in Mahogany Town (likely near Mart).
+- **Navigation:** Fly to Mahogany Town.
 
-## Goldenrod Dept Store Notes
-- **Directory:**
-    - **B1F:** Item (Ether), Unreachable Item (14, 2), Burn Heal (6, 3).
-        - Layout: Left side (Elevator) isolated from Right side.
-        - Hypothesis: Right side accessible via Goldenrod Underground.
-    - **1F:** Receptionist, Exit. Stairs (15,0) lead to 2F (not B1F).
-    - **2F:** Items (Balls, Potions, Mail). Bought 10 Great Balls.
-    - **3F-4F:** Stat boosters, Vitamins.
-    - **5F:** TMs (Punches, Headbutt).
-    - **6F:** Vending Machines, Roof.
+## Quest Log
+- **Lake of Rage:**
+    - Caught Red Gyarados (QAAGMAQNJW).
+    - Met Lance. He revealed a radio broadcast from Mahogany Town is forcing Magikarp to evolve.
+    - Lance is heading to Mahogany to investigate.
+- **Goldenrod:**
+    - Basement of Dept Store is accessible? Need to check Underground.
+- **Deliveries:**
+    - Kenya (Spearow) with Mail -> Route 31 Fisher (Failed).
 
-## World Knowledge & Discoveries
-- **Lake of Rage:** 
-    - **Events:** Caught Red Gyarados (QAAGMAQNJW). Obtained Red Scale.
-    - **NPCs:** Gramps (20, 26), Fishing Guru (27, 31).
-- **Mahogany Town:** Mart has locked stairs.
-- **Quest Log:**
-    - Bug Catching Contest active.
-    - Failed to deliver mail to Fisher (Route 31).
+## Team Management
+- **Party:** Muscle (42), Garnet (28), Lapis (12), Mistral (13), Kenya (11), Belladonna (5).
+- **Box 1:** Red Gyarados (30).
+- **Idea:** Swap a weak member (Belladonna/Kenya) for Red Gyarados (Water/Flying) for better power?
+    - Note: Gyarados overlaps type with Lapis (Water) and Mistral/Kenya (Flying).
+    - But it's Level 30. Huge immediate boost.
 
-## Mechanics Log
-- **Fly Map:** Cursor wraps. Navigation is non-linear.
-- **Mail:** Forgery requires original data.
-- **PC:** Cannot deposit mail-holding Pokemon.
+## World Knowledge
+- **Mahogany Town:** Suspicious Mart with locked stairs. Lance's destination.
+- **Lake of Rage:** Red Scale obtained (Trade to Mr. Pokemon?).
+
+## Mechanics
+- **Fly:** Cycles towns.
+- **Hidden Items:** Check suspicious tiles.
 
 ## Global Tile Mechanics
-- FLOOR: Traversable. Standard movement.
+- FLOOR: Traversable.
 - WALL: Impassable.
-- WARP_CARPET_DOWN/UP: Traversable. Triggers warp to adjacent map.
-- STAIRS: Traversable. Warps to another floor.
+- WARP_CARPET: Map transition.
+- STAIRS: Change floor.
 - Fly Map Confusion: Solved (Navigation: Goldenrod -> Up -> Ecruteak -> Right -> Mahogany -> Up -> Lake of Rage).
 - Fly Map Confusion: 'Right' from Olivine did not change destination (Stayed on Olivine). Trying 'Left'. Note: Ecruteak -> Right -> Olivine in previous turn suggests inverted controls or wrapping.
 - Fly Map Navigation Hypothesis: Controls might be inverted (Right moved West to Olivine from Ecruteak). Plan: Reset to Goldenrod, go Up to Ecruteak, then try Left to go East.
