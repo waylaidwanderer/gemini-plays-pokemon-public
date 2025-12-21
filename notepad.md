@@ -21,13 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Defeated Rocket Executive. Lance confirms the hideout is cleared.
-- **Location:** Inside B2F Transmitter Room (14, 11).
-- **Objective:** Disable the radio signal by defeating the Electrodes/Voltorbs.
-- **Targets:**
-    - West Side: Voltorbs at (7, 5), (7, 7), (7, 9).
-    - East Side: Voltorbs at (22, 5), (22, 9).
-- **Plan:** Clear West side first, then East side. The split starts around (14, 10).
+- **Status:** Inside B2F Transmitter Room. Lance split the job: He took the East side.
+- **Objective:** Disable the radio signal by defeating the Electrodes on the West side.
+- **Targets (West):**
+    - Voltorb at (7, 5)
+    - Voltorb at (7, 7)
+    - Voltorb at (7, 9)
+- **Plan:** Defeat them one by one, starting from the nearest (7, 9).
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
