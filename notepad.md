@@ -2,8 +2,8 @@
 - Starting Turn: 7780
 
 # Global Tile Mechanics
-- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F)
-- WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F, B2F)
+- FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F, B3F)
+- WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F, B2F, B3F)
 - WATER: Verified traversable only with Surf (HM03) and Fog Badge.
 - TALL_GRASS / LONG_GRASS: Verified traversable. Triggers wild encounters.
 - MART_SHELF: Verified impassable.
@@ -31,14 +31,12 @@
 # Area Mechanics: Team Rocket Base B2F
 - Locked Doors: Located at (14, 12) and (15, 12).
 - Radio Transmitter: Located at row 9.
-- Lance: Healed the party at (5, 13) and moved to B3F.
-- Password Clue: Met Rocket Grunt at (25, 13). Dialogue: "Well, duh. It has to have a password that only TEAM ROCKET knows."
-- Hypothesis: The locked doors at (14, 12) and (15, 12) require a password known by Team Rocket members.
+- Lance: Healed the party at (5, 13).
+- Password Clue: Met Rocket Grunt at (25, 13). Dialogue: "It has to have a password that only TEAM ROCKET knows."
 
 # Area Mechanics: Team Rocket Base B3F
 - Lance: Found at (26, 14). Dialogue: "It takes two passwords to [get into the boss's quarters]. Those passwords are known only to a few ROCKETS."
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
-- Scientist Ross: Found at (23, 11). Former Silph employee.
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
@@ -51,6 +49,7 @@
 - Pokemaniac Ben (Route 43): Slowbro (Lv19♂). Found at (13, 5).
 - Cooltrainer F (Lake of Rage): Saw a red Gyarados in the lake. Found at (24, 29).
 - Fishing Guru (Lake of Rage, Magikarp House): Mentions the lake is a crater made by rampaging Gyarados. Rainwater filled it.
+- Scientist Ross (B3F): Defeated at (23, 11). Former Silph employee.
 
 # Money & Economy
 - ¥1000: Toll paid at Route 43 Gatehouse.
@@ -75,4 +74,3 @@
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 - Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
-- Defeated Scientist Ross at (23, 11).
