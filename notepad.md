@@ -28,7 +28,7 @@
 - Method: Systematic mapping of switch-shutter relationships.
 - Experiment Log (Attempt 3): 3-2-1 sequence (All ON) failed. Path blocked.
 - Strategy: Reset all switches to OFF, then perform a final systematic mapping.
-    - Step 1: Turn Switch 1 OFF (In progress).
+    - Step 1: Turn Switch 1 OFF (Completed).
     - Step 2: Turn Switch 2 OFF.
     - Step 3: Turn Switch 3 OFF.
 
