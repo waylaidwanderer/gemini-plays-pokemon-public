@@ -28,3 +28,4 @@
 - Fishing Guru (Lake of Rage) wants Magikarp.
 - 5F (TM Corner): Sells TMs (ThunderPunch, Fire Punch, Ice Punch, Headbutt). No Ultra Balls. Checking Roof next.
 - 6F (Rooftop Square): Vending Machines. No Clerk. Checking Elevator for Basement.
+- B1F: Checking for items or Ultra Balls.
