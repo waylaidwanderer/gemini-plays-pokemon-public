@@ -37,3 +37,6 @@
 - **Navigation Log:**
   - Turn 8362-8364: Attempted `find_path_v4` to (3, 6) but remained at (7, 3). Tool failing to execute movement.
   - Turn 8371: Switching to manual `navigate` to reach (3, 6).
+- **Navigation Log:**
+  - Turn 8371: Attempted `navigate` through (7, 9), which is a WALL. Failed.
+  - Turn 8372: Re-routing through the boss door at (10, 9) to reach the western corridor.
