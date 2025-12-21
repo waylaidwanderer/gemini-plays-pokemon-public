@@ -46,20 +46,20 @@
 - **ICE:** Sliding movement (continue until obstacle).
 - **WHIRLPOOL:** Impassable until removed with WHIRLPOOL.
 - **WATERFALL:** Impassable until climbed with WATERFALL.
-- **Current Action:** Verify/Fix Mail.
-  1. **Status:** Typing disrupted (Sequence ended in Start Menu).
-  2. **Hypothesis:** Hit "END" early or game context switched.
-  3. **Plan:**
-     - Go to Party Menu (Up, A).
-     - Check Kenya's Held Item.
-     - If "Flower Mail": Check text.
-       - If text != "DARK CAVE leads to another road.", TAKE mail and retry.
-     - If no item: Go to Pack -> Give -> Flower Mail.
+- **Current Action:** Verify Kenya's Mail.
+  1. **Status:** In Party Menu, Kenya selected.
+  2. **Observation:** Kenya has Mail icon.
+  3. **Hypothesis:** Mail text might be incomplete due to previous typing error.
+  4. **Plan:**
+     - Open Kenya's menu (A).
+     - Select ITEM -> READ.
+     - If text is correct ("DARK CAVE leads to another road."), deliver it.
+     - If incorrect, TAKE mail (resets text) and retry composing.
 
 ## Maintenance
-- **Tool Fix:** Manual typing requires extreme caution with "END" button proximity.
+- **Tool Fix:** Manual typing requires extreme caution.
 
-## Reflection (Turn 9289)
-- **Error:** Manual typing sequence triggered menu exit (Pack -> Start).
-- **Cause:** Likely miscalculated cursor position and hit "END" or "CANCEL".
-- **Action:** Verify current state of mail before attempting rewrite.
+## Reflection (Turn 9291)
+- **State:** Party Menu.
+- **Action:** Opening sub-menu to access Mail options.
+- **Next:** Read mail.
