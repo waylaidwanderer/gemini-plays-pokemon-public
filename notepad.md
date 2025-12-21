@@ -75,3 +75,4 @@
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 - Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
+- Defeated Scientist Ross at (23, 11).
