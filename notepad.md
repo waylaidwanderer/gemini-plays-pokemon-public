@@ -7,26 +7,25 @@
 - WARP_CARPET_DOWN: Warp point to another map.
 
 # Puzzle: Goldenrod Underground Switch Room
-- Puzzle Start Turn: 10284 (Current Attempt)
-- Sequence: 3-2-1 (Left to Right).
+- Puzzle Start Turn: 10284 (Attempt 2)
+- Solution Sequence: 3-2-1 (Left, Middle, Right).
 
-## Shutter Toggle Logic (Verified Relationships)
+## Shutter Toggle Logic (Hypothesis)
 - S3 (2,1): Toggles (2,6), (3,6), (12,8).
 - S2 (10,1): Toggles (10,6), (12,8), (6,8).
-- S1 (16,1): Toggles (16,6), (10,6), (6,8).
-- Note: (17,6) is a shutter tile, not a permanent wall.
+- S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
 
-## Research: Shutter States (S3, S2, S1)
-- State (0,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) OPEN? (Verify 6,8)
-- State (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED.
-- State (1,1,0): To be verified.
+## Verified Shutter States
+- (0,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) OPEN, (17,6) CLOSED.
+- (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED.
+- (1,1,0): To be verified.
+- (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED, (17,6) CLOSED. (Turn 10297)
 
-## Strategy: 3-2-1 Sequence Execution
+# Strategy: 3-2-1 Sequence Execution
 - Goal: Open path to the Warehouse Entrance in the southeast.
-- Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Attempt 2 (Started from 0,0,0):
-  - 1. S3 ON (Turn 10313): Done.
-  - 2. S2 ON (Turn 10321): Keeping ON.
+- Attempt 2 Progress:
+  - 1. S3 ON: Done (Turn 10313).
+  - 2. S2 ON: In progress (Turn 10324).
   - 3. S1 ON: Next.
 
 # Area Notes
@@ -35,5 +34,5 @@
 - Return Ladders: (23,3), (21,25), (5,25).
 
 # Lessons Learned
-- **Sprite Verification:** Check "Map Objects" for actual obstructions.
 - **Sequence Reset:** For order-based puzzles, reset all switches to a known state (OFF) before starting the sequence.
+- **Verification:** Always check shutter states after each toggle to confirm logic.
