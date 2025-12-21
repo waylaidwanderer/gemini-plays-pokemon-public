@@ -35,5 +35,6 @@
 - Scientist Ross (Defeated). Dialogue: "Experiment success... loss means nothing." No password yet.
 - Scientist Mitch (Defeated, No Password).
 - Rocket Girl (Defeated). Password 1: "SLOWPOKETAIL".
-- Rocket Grunt at (5, 14) (Defeated). Getting Password 2.
-- Plan: Get password, loot Item at (3, 12), then go to Locked Door at (10, 9).
+- Rocket Grunt at (5, 14) (Defeated). Password 2: "RATICATE TAIL".
+- Have both passwords: "SLOWPOKETAIL" and "RATICATE TAIL".
+- Plan: Loot Item at (3, 12), then open Boss Room at (10, 9).
