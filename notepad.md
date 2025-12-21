@@ -1,9 +1,9 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Travel to Mahogany Town (Route 42).
+- **Primary Goal:** Explore Mahogany Town.
 - **Secondary Goal:** Train Party to Level 30+.
-- **Navigation:** Surf East from (33, 9) to continue along Route 42.
+- **Navigation:** Explore town, talk to locals, locate Gym.
 
 ## Knowledge Base
 - **Wade (Route 31):** Waiting for battle/gift.
