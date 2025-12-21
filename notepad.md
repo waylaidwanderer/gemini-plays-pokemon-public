@@ -4,12 +4,12 @@
 - **Primary Goal:** Deliver Kenya to Route 31.
 - **Secondary Goal:** Travel to Mahogany Town (Route 42).
 - **Tertiary Goal:** Train Party to Level 30+.
-- **Current Action:** Deliver Kenya (Select in Party).
-  1. **Status:** Fisher asked for mail. Party menu open.
-  2. **Step 1:** Select Kenya (A).
-  3. **Step 2:** Confirm delivery (Follow prompts).
-  4. **Step 3:** Receive Reward (TM50?).
-  5. **Step 4:** Fly to Ecruteak City.
+- **Current Action:** Retry Mail with Mixed Case.
+  1. **Status:** "This MAIL isn't for me." visible.
+  2. **Step 1:** Close Text (B).
+  3. **Step 2:** Open Party (Start -> Pokemon).
+  4. **Step 3:** Take Mail from Kenya.
+  5. **Step 4:** Give Mail & Type: "Dark Cave leads to another road".
 
 ## Reflection (Turn 9148)
 - **Execution:** Focused on mail quest. No deferred tasks.
