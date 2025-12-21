@@ -21,7 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** In B3F West Corridor (3,6). Just looted TM46 from B2F NW.
-- **Fact:** B2F NW (Item Room) is a dead end accessed via B3F West.
-- **Plan:** Backtrack: Ladder (3,2) -> B2F North -> B3F NE -> B3F Main.
-- **Objective:** Locate and open the Boss Room Door at B3F (10,9) using the two passwords.
+- **Status:** At B3F NE (27, 2). Realized I missed the path South of B3F (3, 6).
+- **Plan:** Return to B2F -> West Ladder (3, 2) -> B3F West. Go South past (3, 6) to Row 10, then East to finding the Boss Room entrance at (10, 10).
+- **Hypothesis:** The B3F West Corridor connects to the Boss Room area via Row 10.
