@@ -6,6 +6,7 @@
     2. Defeat all Rocket Grunts and Executives.
     3. Find the Director (5F/Basement).
     4. Pass the quiz on 1F for the Radio Card.
+    5. POST-SWEEP: Re-verify 1F for any missed trainers (suggested by overwatch).
 - **Executive Battles**: Use `battle_strategist_v2`.
 
 # Battle Logs
@@ -18,7 +19,7 @@
     - Rocket Grunt (1, 4): Grimer Lv23 x2, Muk Lv25 - Defeated.
 - Radio Tower 3F:
     - Rocket Grunt (6, 4): Weezing Lv26 - Defeated.
-    - Rocket Grunt (5, 1): Koffing Lv23, Grimer Lv23, Zubat (In progress).
+    - Rocket Grunt (5, 1): Koffing Lv23, Grimer Lv23, Zubat Lv23 - Defeated. Rattata next.
 
 # Tile Mechanics
 - **FLOOR**: Standard traversable.
@@ -40,3 +41,4 @@
 # Reflection & Lessons Learned
 - **Turn 8725**: 50-turn reflection. Sweep of 1F and 2F complete. 3F has multiple trainers. Goal is to reach 5F. No deferred tasks identified. Map and tools are up to date. Foundational assumption: Progress is achieved by defeating Rockets floor-by-floor to reach the Director.
 - **Turn 8737**: Corrected turn number tracking error. Verified battle progress against Grunt at (5, 1). Calcifer (Lv40 Typhlosion) remains the primary attacker due to significant level advantage.
+- **Turn 8740**: Responding to switch prompt. Calcifer is dominant; no switch needed.
