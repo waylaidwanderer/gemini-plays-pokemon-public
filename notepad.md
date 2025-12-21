@@ -37,10 +37,6 @@
     4. Test 3.3: Switch 3 (2, 1) ON.
        - Status: 1:OFF, 2:OFF, 3:ON.
        - Goal: Identify which shutters Switch 3 toggles.
-- Historical Data (Attempt 2 - 3-2-1 Sequence):
-    - 3 ON: (12, 8) OPEN, (12, 9) CLOSED, (6, 9) CLOSED.
-    - 3 & 2 ON: (12, 8) OPEN, (12, 9) OPEN.
-    - All ON: All shutters CLOSED. Conclusion: 3-2-1 sequence fails if all are left ON.
 
 # Area Notes
 ## Underground Warehouse Switch Room (3_54)
