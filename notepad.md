@@ -43,3 +43,5 @@
 - Hypothesis: Movement is point-to-point including Routes. Ecruteak -> Right -> Route 42 -> Right -> Mahogany.
 - Plan: Reset to Goldenrod. Up (Ecruteak), Right (Route 42?), Right (Mahogany?). Verifying destination.
 - Fly Map Navigation Retry: Map was closed. Re-opening ('A'). From Goldenrod (assumed start): Up -> Ecruteak. Right -> ? (Checking if East).
+- Fly Map Navigation: At Cherrygrove. 'Up' moved New Bark -> Cherrygrove. Testing 'Left' to reach Violet City (West).
+- Goal: Reach Ecruteak -> Mahogany -> Lake of Rage.
