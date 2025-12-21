@@ -2,12 +2,8 @@
 - Starting Turn: 7780
 - Objective: Locate and shut down the source of the "mysterious radio broadcast" in Mahogany Town.
 - HOW:
-    1. Fly to Mahogany Town (Done).
-    2. Heal party at the Pokémon Center (Done).
-    3. Meet Lance at the Mahogany Mart (Done).
-    4. Enter the secret hideout via the stairs revealed at (7, 3) (Done).
-    5. Explore Team Rocket Base B1F to find the transmitter.
-- Status: Currently on B1F. Dealing with security cameras and grunts.
+    1. Explore Team Rocket Base B1F to find the transmitter.
+    2. Find the secret switch to disable security cameras.
 
 # Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground.
@@ -24,7 +20,7 @@
 - FLOOR_UP_WALL: Verified traversable.
 
 # Party Training Status
-- ICARUS (PIDGEY): Lv16. Moves: Quick Attack, Sand-Attack, Gust, Fly. Current Lead.
+- ICARUS (PIDGEY): Lv16. Moves: Quick Attack, Sand-Attack, Gust, Fly.
 - KIMCHI (GLOOM): Lv21. Evolved from Oddish.
 - GNEISS (GRAVELER): Lv36.
 - Calcifer (TYPHLOSION): Lv36.
@@ -93,4 +89,4 @@
 
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1) and (24, 5). Walking past them (e.g., column 24) triggers an "Intruder alert!" and a Rocket Grunt battle.
-- Surveillance cams are in the POKéMON statues. Rocket Grunts will keep appearing until a secret switch is tripped.
+- Hypothesis: Surveillance cams are in the POKéMON statues. Rocket Grunts will keep appearing until a secret switch is tripped (based on NPC dialogue).
