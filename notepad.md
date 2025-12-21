@@ -28,3 +28,6 @@
 - **CRITICAL FAILURE (Turn 9804):** `write_mail_safe` tool desynchronized, exited mail menu, navigated to SAVE, and overwrote the save file.
 - **Recovery:** Checking Kenya's status. Will revert to manual `slow_press` for all future typing.
 - **Current Location:** (15, 7) Route 31.
+- **Recovery Action:** Closing Start Menu (B) to reset state.
+- **Next Step:** Open Party Menu manually to check Kenya's mail status.
+- **Rule Update:** ALL future mail typing will be done via manual `slow_press` commands. No automation.
