@@ -6,8 +6,6 @@
     2. Return to B2F to unlock the boss's room.
     3. Shut down the transmitter.
 
-# Status: Exploring Team Rocket Base B3F. GNEISS leading.
-
 # Global Tile Mechanics
 - FLOOR: Verified traversable. Standard indoor/outdoor ground. (Verified on B1F, B2F, B3F)
 - WALL: Verified impassable. Includes trees, fences, statues, and dividers. (Verified on B1F, B2F, B3F)
@@ -33,7 +31,7 @@
 # Area Mechanics: Team Rocket Base B1F
 - Security Cameras: Located at (24, 1), (24, 5), and (6, 1). Walking past column 24 or column 6 triggers a Rocket Grunt battle. Statues contain cameras.
 - Secret Switch: Hypothesis: A secret switch trips the camera alarms.
-- Floor Traps: Column 3 has traps at (3, 7), (3, 8), (3, 9), and (3, 10), (3, 13), and (3, 14). Tiles (3, 11-12) are safe.
+- Floor Traps: Column 3 has traps at (3, 7), (3, 8), (3, 9), (3, 10), (3, 13), and (3, 14). Tiles (3, 11-12) are safe.
 
 # Area Mechanics: Team Rocket Base B2F
 - Locked Doors: Located at (14, 12) and (15, 12).
@@ -45,6 +43,7 @@
 - Lance: Found at (26, 14). Dialogue: "It takes two passwords to [get into the boss's quarters]. Those passwords are known only to a few ROCKETS."
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
 - Scientist Ross: Defeated at (23, 11). Former Silph employee. Mentioned a signal that drives Pokemon mad.
+- Scientist (ID 7): Found at (11, 15).
 
 # Battle & NPC Knowledge
 - Mahogany Mart (11, 7): Secret stairs revealed at (7, 3).
