@@ -55,3 +55,5 @@
 - Phone Call (Wade): Bug-Catching Contest is at National Park today.
 - Plan: Talk to Gramps at (20, 26), then Surf to find Red Gyarados.
 - Battle Strat: Use Muscle's Rock Smash (Not Very Effective) to weaken Gyarados safely.
+- Gramps Dialogue: "The GYARADOS are angry! It's a bad omen!"
+- Next Step: Surf onto the lake and locate the Red Gyarados.
