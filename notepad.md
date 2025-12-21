@@ -70,3 +70,4 @@
 - Path: Right to (19, 11), then Up to North Gate (19, 1).
 - Turn 9880: Reached North Gate entrance at (19, 1). Entering to find Webster.
 - Turn 9881: Moving Right -> Up to enter the Gatehouse at (19, 1). Previous attempt failed due to trying to move Up into a wall.
+- Turn 9882: Inside Route 35 Gatehouse. Moving to (2, 4) to talk to Webster at the counter.
