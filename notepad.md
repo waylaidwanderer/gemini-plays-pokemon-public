@@ -23,7 +23,7 @@
   2. Toggle Switch 2 (10,1) ON.
   3. Toggle Switch 1 (16,1) ON.
   4. Verify path to southeast.
-- Current Step: Moving to Switch 3.
+- Current Step: Toggling Switch 3 ON. (Step 1 of 3-2-1)
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
