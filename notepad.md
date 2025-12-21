@@ -43,3 +43,8 @@
 - **Counter Interaction**: Face the counter, not the NPC.
 - **Fly Map (Goldenrod)**: Discrete presses: 4 Ups, 6 Lefts from New Bark Town.
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
+## General Lessons Learned
+- **Partitioned Layouts**: When a map is split (like Radio Tower 4F), look for alternate stairs on lower floors or Key Items (like Card Key) to open shutters.
+- **Object Identity**: During events (like takeovers), NPCs may be replaced by different sprites (e.g., Receptionist replaced by Rocket Grunt). Always interact to verify.
+- **Counter Interactions**: To talk to someone behind a counter, stand on the tile directly in front of the counter and face it.
+- **Root Hypotheses**: If stuck, re-evaluate the base assumption. The fake Director likely has the Basement Key needed for the Underground.
