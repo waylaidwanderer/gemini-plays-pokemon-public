@@ -27,3 +27,4 @@
 - **Timestamp:** Turn 9714. Attempting "DARK CAVE" delivery.
 - **Lesson:** Pressing 'Start' in the Mail menu causes a "Printer Error" loop or crash behavior. Use 'B' to exit or 'END' to finish.
 - **Correction:** Turn 9715 - Cursor appeared to reset to 'é' or wasn't on 'END'. Re-navigating to 'END' (Bottom-Right) to confirm.
+- **Correction:** Turn 9716 - Accidentally typed 'D' due to cursor misalignment. Pressing 'B' to delete, then manually navigating to 'END' (Bottom-Right).
