@@ -6,14 +6,15 @@
 - **Tertiary Goal:** Train Party to Level 30+.
 
 ## Quest: Deliver Kenya (Route 31)
-- **Status:** Correction - Removing Old Mail.
-- **Reason:** Kenya is still holding the "DARK CAVE" mail (failed delivery). Must remove it before writing new mail.
+- **Status:** Recovery from Input Error.
+- **Correction:** Accidentally moved on map (Turn 9756) and triggered Surf prompt.
+- **Immediate Goal:** Cancel Surf -> Open Menu -> Remove Old Mail.
 - **Plan:**
-    1. Exit Pack (B, B).
-    2. Enter Party Menu (Up, A).
-    3. Select Kenya -> MAIL -> TAKE.
-    4. Return to Pack -> Give Flower Mail.
-    5. Type: "Dark Cave leads to another road" (Mixed Case).
+    1. Cancel Surf prompt (B).
+    2. Open Start Menu (Start).
+    3. Enter Party Menu (Verify cursor position first).
+    4. Take Mail from Kenya.
+    5. Give Flower Mail & Write "Dark Cave leads to another road".
     6. Deliver.
 
 ## Knowledge Base
