@@ -41,3 +41,4 @@
 - Turn 9854: Approaching Wade at (21, 13) for a battle. Moving Right to engage.
 - Turn 9855: Initiating interaction with Wade at (21, 13). Expecting a battle or gift since he called.
 - Turn 9856: Wade interaction finished. No battle initiated. Likely just a chat call. Proceeding to Goldenrod to fix mail via Webster.
+- Turn 9857: System blocked mixed input (Up, A). Only Up executed. Using slow_press to enter menu and select Mistral (Slot 4).
