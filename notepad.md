@@ -32,9 +32,11 @@
 - Locked Doors: Located at (14, 12) and (15, 12).
 - Radio Transmitter: Located at row 9.
 - Lance: Healed the party at (5, 13) and moved to B3F.
+- Password Clue: Met Rocket Grunt at (25, 13). Dialogue: "Well, duh. It has to have a password that only TEAM ROCKET knows."
+- Hypothesis: The locked doors at (14, 12) and (15, 12) require a password known by Team Rocket members.
 
 # Area Mechanics: Team Rocket Base B3F
-- Lance: Found at (26, 14). Dialogue: "It takes two passwords to [clear the locked doors on B2F]."
+- Lance: Found at (26, 14). Dialogue: "It takes two passwords to [get into the boss's quarters]. Those passwords are known only to a few ROCKETS."
 - Hypothesis: Two Rocket Grunts on B3F hold the passwords.
 
 # Battle & NPC Knowledge
@@ -72,5 +74,3 @@
 - Tool: find_path_v2 handles trees, water-to-land, ledges, and warps.
 - Tool: check_reachable_unseen fixed to return buttons when autopress_buttons is True.
 - Tool: battle_move_selector refined with 'sleep 500' to handle menu transitions.
-- Met Rocket Grunt at (25, 13). Dialogue: "Well, duh. It has to have a password that only TEAM ROCKET knows."
-- Hypothesis: The locked doors at (14, 12) and (15, 12) require a password known by Team Rocket members.
