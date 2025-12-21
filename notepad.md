@@ -74,3 +74,5 @@
 - Turn 9884: Webster didn't fix the mail (only generic dialogue).
 - Hypothesis: Webster might restore the mail if Kenya is holding NOTHING.
 - Plan: Take Mail from Kenya -> Talk to Webster. If that fails, the quest might be broken due to lost Sender data.
+- Turn 9885: Opening Party Menu to remove Mail from Kenya.
+- Reasoning: Webster only gave generic dialogue while Kenya was holding the mail. I need to make Kenya hold NOTHING to potentially trigger a "lost mail" recovery script.
