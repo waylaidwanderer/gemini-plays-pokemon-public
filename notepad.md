@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Defeated Grunt at B2F (5,1). Investigating Ladder at (3,2).
-- **Plan:** Take Ladder (3,2) to B1F NW. Expecting to find Executive or path to B2F NW (Item Ball area).
+- **Status:** Approaching Ladder (3,2) on B2F (North Side). Defeated Grunt at (4,1).
+- **Plan:** Take Ladder (3,2) to B1F NW. Investigate the isolated area.
 - **Hypothesis:** Ladder (3,2) -> B1F NW -> Trap/Hole -> B2F NW (Transmitter Room).
