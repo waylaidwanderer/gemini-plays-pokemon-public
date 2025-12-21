@@ -23,17 +23,17 @@
 
 # Navigation Plan
 - **Path to Rocker (2, 4):**
-  1. From (2, 17), move Up to (2, 16) [FLOOR].
-  2. Move Up to (2, 14) [FLOOR].
-  3. Move Up to (2, 5) [ICE, stops at Rocker at (2, 4)].
-  4. Interact with Rocker.
+  1. Reach (6, 16) [FLOOR].
+  2. Move Up -> Slide to (6, 13) [FLOOR].
+  3. Move Left -> Slide to (3, 13) [FLOOR].
+  4. Move Up -> Slide to (3, 4) [FLOOR].
+  5. Move Left to Rocker at (2, 4).
 - **Path to Pryce (5, 3):**
-  1. From (2, 5), move Right to (6, 5) [FLOOR].
-  2. Move Down to (6, 11) [ICE, stops at WALL at (6, 12)].
-  3. Move Left to (3, 11) [ICE, stops at WALL at (2, 11)].
-  4. Move Up to (3, 4) [ICE, stops at FLOOR at (3, 4)].
-  5. Move Right to (5, 4) [ICE, stops at FLOOR at (5, 4)].
-  6. Face Up and talk to Pryce at (5, 3).
+  1. Reach (9, 16) [FLOOR].
+  2. Move Up -> Slide to (9, 10) [FLOOR].
+  3. Move Left -> Slide to (5, 10) [FLOOR].
+  4. Move Up -> Slide to (5, 4) [FLOOR].
+  5. Face Up and talk to Pryce at (5, 3).
 
 # Lessons Learned
 - Whirlpool requires Glacier Badge to use out of battle.
