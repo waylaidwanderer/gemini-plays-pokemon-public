@@ -8,7 +8,7 @@
 # Puzzle: Goldenrod Underground Switch Puzzle
 - Started: Turn 9640
 - Goal: Open shutters (10, 6), (12, 8), and (16, 6) to reach the warehouse.
-- Current Switch Status (Turn 9856): 3: OFF, 2: OFF, 1: OFF.
+- Current Switch Status (Turn 9857): 3: OFF, 2: OFF, 1: ON (Just turned ON).
 - Verified Baseline Shutter States (All OFF):
   - (2, 6/7): OPEN (FLOOR)
   - (6, 8): CLOSED (WALL) - Triggered by Switch 3 OFF.
@@ -22,10 +22,11 @@
 - Switch 2 OFF -> (16, 6/7) and (17, 6/7) opened.
 - Switch 1 OFF -> (12, 8) opened.
 - 3-2-1 from all-OFF (Turn 9834): Failed (All shutters CLOSED).
+- Switch 1 ON (Turn 9857): Testing effects.
 
 # Strategy
 1. Baseline established. All switches OFF.
-2. Test 1: Turn Switch 1 ON only. Record effects.
+2. Test 1: Turn Switch 1 ON only. Observe effects (Current task).
 3. Test 2: Reset Switch 1 to OFF. Turn Switch 2 ON only. Record effects.
 4. Test 3: Reset Switch 2 to OFF. Turn Switch 3 ON only. Record effects.
 
