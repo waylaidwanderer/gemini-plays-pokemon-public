@@ -35,3 +35,7 @@
 - **Counter Interaction**: Face the counter, not the NPC.
 - **Fly Map (Goldenrod)**: Discrete presses: 4 Ups, 6 Lefts from New Bark Town. (Verify coordinates).
 - **PC Storage**: SHUCKIE (Lv15), ROCKY (Lv6), EGG (Lv5), XFDW (Lv16), FRITTATA (Lv5).
+## Radio Tower 2F Observations
+- Super Nerd (6, 6) and Receptionist (12, 7) are missing during the Rocket takeover.
+- Only Rockets and specific Pokémon (Jigglypuff) seem to remain.
+- Need to verify if other NPCs (Black Belt, Beauty) are also gone.
