@@ -21,6 +21,6 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Obtained password "HAIL GIOVANNI" from Murkrow at B3F (7, 2).
-- **Plan:** Backtrack to B2F via West Ladder (3, 2). Unlock the Transmitter Room door at B2F (14, 12).
-- **Hypothesis:** This password disables the lock on the Transmitter Room.
+- **Status:** Obtained password "HAIL GIOVANNI". Exiting Boss Room.
+- **Plan:** Pickup item at B3F (14, 10). Then take East Ladder (27, 14) to B2F South.
+- **Reasoning:** The Locked Door is at B2F South (14, 12). The North side is cut off, so I must use the South ladder.
