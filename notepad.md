@@ -7,13 +7,13 @@
 
 ## Quest: Deliver Kenya (Route 31)
 - **Status:** Delivery Phase (Final).
-- **Mail Content:** "Dark Cave leads to another road" (Mixed Case).
-- **Current State:** Text entered. Confirming and Delivering.
+- **Mail Content:** "Dark Cave leads to another road" (Verified).
+- **Current State:** Mail attached. Exiting Menus.
 - **Next Steps:**
-    1. Select 'END' to save mail.
-    2. Exit Menus (B, B, B).
-    3. Talk to Fisher (Left -> A).
-    4. Receive Reward (TM50).
+    1. Exit Menus (B, B, B, B).
+    2. Check Position (likely 18, 6 or 18, 7).
+    3. Move to adjacent tile (if needed).
+    4. Talk to Fisher.
 
 ## Knowledge Base
 - **Fisher (Route 31):** Rejected "DARK CAVE leads to another road." (All Caps) and "DARK CAVE".
