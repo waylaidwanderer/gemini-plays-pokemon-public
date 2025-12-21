@@ -14,8 +14,8 @@
 - Observations:
   - (16, 6): OPEN (Confirmed standing on it Turn 9937).
   - (12, 8): OPEN (Confirmed standing on it Turn 9938).
-  - (6, 8): Moving to verify.
-  - (10, 6): ?
+  - (6, 8): CLOSED (Confirmed by collision Turn 9941).
+  - (10, 6): Moving to verify.
   - (2, 6): ?
   - (6, 8): ?
 
