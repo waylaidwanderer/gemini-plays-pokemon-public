@@ -6,7 +6,7 @@
 - **Warps:**
   - (27, 2): Ladder to B2F East.
   - (3, 14): Ladder to B2F West.
-  - (5, 15): Warp panel to [Unknown].
+  - (5, 15): Warp panel (shortcut) to (25, 2) near entrance.
 
 ## Map: Team Rocket Base B2F (3_50)
 - **Path to West:** Column 23 is a barrier. Bypass via Row 16 (FLOOR) at (23, 16).
