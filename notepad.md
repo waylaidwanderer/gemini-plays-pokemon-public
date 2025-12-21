@@ -6,7 +6,8 @@
 4. Pass the quiz on 1F for the Radio Card.
 5. POST-SWEEP: Re-verify all floors for missed paths or NPCs.
 6. BATTLE TIP: Use Ember against Poison/Flying types (like Zubat/Golbat) to conserve Headbutt PP. Use Headbutt against Normal/Psychic types.
-7. TILE VERIFICATION: Poké Ball tiles (6,6; 8,6; 10,6; 12,6 on 1F) are decorations. (Verification in progress).
+7. TILE VERIFICATION: Poké Ball tiles (6,6; 8,6; 10,6; 12,6 on 1F) are confirmed decorations (not in object list).
+8. EXPLORATION: 4F is partitioned. Access to the Director (5F) likely requires finding an alternate path through 2F or 3F.
 
 ## Tower Intel
 - **Director Info**: The Director is held on 5F. He can open the locked boss's door.
