@@ -3,7 +3,7 @@
 - Method: Use Surf to cross water segments.
 - Progression: Defeat trainers along the way.
 
-# Strategy: KIMCHI Training (Updated Turn #7454)
+# Strategy: KIMCHI Training (Updated Turn #7455)
 - Target: Lv21 (Evolution to Gloom).
 - Current Level: 19.
 - Method: Lead in battles. Use Sleep Powder to disable, then neutral moves like Cut. Keep health above 15 HP. Use Super Potion if health falls below 15 HP.
