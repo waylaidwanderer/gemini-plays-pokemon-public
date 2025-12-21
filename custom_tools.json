@@ -239,5 +239,39 @@
         "action_counter": 7897
       }
     ]
+  },
+  "find_path_v3": {
+    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y",
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef solve():\n    try:\n        data = json.loads(sys.argv[1])\n        start_x = int(data['start_x'])\n        start_y = int(data['start_y'])\n        target_x = int(data['target_x'])\n        target_y = int(data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE']\n                if tile.find('Object') is not None:\n                    if not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception as e:\n        return [str(e)]\n\nprint(json.dumps(solve()))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-21T05:16:03.605Z",
+        "action_counter": 8076
+      }
+    ]
   }
 }
