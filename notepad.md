@@ -29,5 +29,6 @@
 - **Achievement:** Obtained 2nd password "RATICATE TAIL" from Grunt at (5, 14).
 - **Status:** Have both passwords ("SLOWPOKETAIL", "RATICATE TAIL").
 - **New Hypothesis:** These passwords open the Locked Doors on B2F at (14, 12), which likely conceal a ladder to the walled-off Boss Room on B3F.
-- **Immediate Plan:** Return to B2F via ladder at (27, 14) and open the doors.
+- **Immediate Plan:** Navigate to (14, 13) on B2F and use passwords to open the locked doors at (14, 12) and (15, 12).
+- **Hypothesis:** These doors hide the ladder to the Boss Room.
 - TRAP TILES: The floor tiles in the corridors of B1F trigger inescapable battles (Koffing, Geodude, Voltorb). Must fight.
