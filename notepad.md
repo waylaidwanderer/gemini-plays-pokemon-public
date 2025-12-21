@@ -1,16 +1,11 @@
 # Goldenrod Radio Tower Takeover
 ## Strategy (HOW)
 - Map 3_54 Switch Puzzle: Switches 1, 2, and 3 control shutters.
-- Solution Goal: Reach the far west/south exit to the Warehouse.
 - Obtain Card Key from real Director in Warehouse.
 
 # Global Knowledge
 ## Tile Mechanics
-- FLOOR: Standard.
-- WALL/SHUTTER: Impassable. Shutters toggle via switches.
-- COUNTER: Interact from front.
-- WARP_CARPET: Transition.
-- STAIRCASE/LADDER: Warp.
+- WALL/SHUTTER: Impassable. Shutters (WALL) in Map 3_54 can be toggled to FLOOR via switches.
 
 ## Progress Tracking
 - Badges: 7/16.
@@ -19,21 +14,21 @@
 
 # Switch Room Puzzle (Map 3_54)
 - Switches: 1 (16, 1), 2 (10, 1), 3 (2, 1).
-- Current Status: Switch 2 is ON, Switch 3 is ON. Switch 1 is Unknown.
-- Secret: Grunt at (3, 2) promised a secret after defeat.
+- Grunt Hint: "Change the order of switching. That'll change the ways the shutters open and close."
 
-## Hypotheses
-- Card Key: The real Director likely has the Card Key needed for the Radio Tower shutters.
-- Switch Room Hint: "Change the order of switching. That'll change the ways the shutters open and close."
-- Puzzle State: Switch 1 Unknown, Switch 2 OFF, Switch 3 OFF.
-- Switch 3 OFF -> Opened shutters at (10, 6), (10, 7).
-- Switch 2 OFF -> Closed shutters at (10, 6) and (6, 8). (10, 7) also appears CLOSED.
-- Current Shutter Status: (6, 8) CLOSED, (10, 6) CLOSED, (10, 7) CLOSED, (12, 8) CLOSED.
-- Note: Order of flipping switches matters.
-- Gneiss is healthy (112/112). Calcifer is low (36/135). Out of Hyper Potions.
-- Strategy: Identify the function of all 3 switches, then find the sequence to open the path to the southern warehouse entrance.
+## Puzzle State Log
+- Initial: Sw1 ?, Sw2 ON, Sw3 ON.
+- Turn 9122: Sw3 toggled to OFF.
+  - Observation: Opened shutters at (10, 6), (10, 7).
+- Turn 9140: Sw2 toggled to OFF.
+  - Observation: Closed shutters at (10, 6) and (6, 8). (10, 7) also appears CLOSED.
+- Turn 9148: Sw1 toggled to OFF (Wait, history says it was turned ON then OFF?). 
+- Current State (Turn 9151): Sw1 ON?, Sw2 OFF, Sw3 OFF.
 
-# Switch Room Puzzle Observations (Map 3_54)
-- Switch 3 (2, 1) turned OFF: Opened shutters at (10, 6), (10, 7).
-- Current Switch States: Switch 3 OFF, Switch 2 ON, Switch 1 Unknown.
-- Goal: Reach the Warehouse entrance (likely bottom-left).
+## Observed Shutter Tiles
+- (10, 6): Currently WALL (Closed).
+- (10, 7): Currently WALL (Closed).
+- (6, 8): Currently WALL (Closed).
+- (12, 8): Currently WALL (Closed).
+- (18, 8): Currently WALL (Closed).
+- Note: Need to verify if these are dynamic shutters or static walls.
