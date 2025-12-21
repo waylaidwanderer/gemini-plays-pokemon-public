@@ -18,8 +18,10 @@
 - Sequence: 
   1. Switch 3 (2, 1) -> ON (Current: ON)
   2. Switch 2 (10, 1) -> ON (Current: ON)
-  3. Switch 1 (16, 1) -> ON (Next Step)
-- Expected Path: (10,2) -> (10,7) -> (12,8) -> Southeast Warp.
+  3. Switch 1 (16, 1) -> ON (Current: ON)
+- Sequence 3-2-1 Complete. Current State: (1, 1, 1).
+- Observed Shutters in (1, 1, 1): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) CLOSED.
+- Plan: Use the open gate at (2,6) to reach the lower area and explore the southeast.
 
 # Area Notes
 - Warehouse Entrance: Unseen warp in southeast quadrant.
