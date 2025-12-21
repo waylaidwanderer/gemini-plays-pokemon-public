@@ -54,3 +54,7 @@
 - Turn 9929: In Party Menu. Cursor on Mistral (Slot 4).
 - Action: Moving Down to Kenya (Slot 5) and selecting with A.
 - Goal: Deliver forged mail "Dark Cave leads to another road" (no period).
+- Turn 9930: Delivery Attempt 3 Failed ("This MAIL isn't for me.").
+- Conclusion: The quest likely checks the Sender Name ("WEBSTER") or hidden metadata which cannot be forged.
+- Strategy: Abandoning Mail Quest. Proceeding to Mahogany Town via Ecruteak.
+- Next Action: Fly to Ecruteak City.
