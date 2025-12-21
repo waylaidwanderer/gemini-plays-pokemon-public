@@ -33,4 +33,4 @@
 - WALL: Impassable.
 - WARP_CARPET_DOWN/UP: Traversable. Triggers warp to adjacent map.
 - STAIRS: Traversable. Warps to another floor.
-- Fly Map Confusion: Attempted to navigate to Lake of Rage, but cursor reset/stayed at Violet City. Retrying navigation (Up, Right, Up).
+- Fly Map Confusion: Solved (Navigation: Goldenrod -> Up -> Ecruteak -> Right -> Mahogany -> Up -> Lake of Rage).
