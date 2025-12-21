@@ -72,3 +72,8 @@
 - Location: Route 43 Gatehouse (9_4).
 - Event: Paid ¥1000 toll. Rocket Grunts moved aside.
 - Note: Path north to Route 43 is now clear.
+
+# Exploration Log (Turn #7602)
+- Paid ¥1000 toll to Team Rocket in gatehouse (9_4) to access northern Route 43.
+- Current Path: Heading south to grab item at (12, 32), then north toward Lake of Rage.
+- Tool Maintenance: Need to refine find_path_v2 to handle warp tiles correctly.
