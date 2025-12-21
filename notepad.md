@@ -7,13 +7,13 @@
 # Strategy: Switch Room Puzzle (Map 3_54)
 - Goal: Reach the Underground Warehouse (Map 3_55).
 - Method: Execute the 3-2-1 sequence (Turn ON Switch 3, then 2, then 1).
-- Start Turn: ~9640
+- Start Turn: 9640
 - Logic: Switch 3 toggles sets 1&2, Switch 2 toggles 1&3, Switch 1 toggles 2&3.
 
-## Verified Switch States
+## Switch States
 - Switch 1 (16, 1): OFF
 - Switch 2 (10, 1): OFF
-- Switch 3 (2, 1): OFF (Testing if (2, 6) closes)
+- Switch 3 (2, 1): ON
 
 ## Shutter States (Turn 9726)
 - (2, 6): FLOOR (Open)
