@@ -15,7 +15,8 @@
 - Phase: Reset to Baseline (All OFF)
 - Turn 9911: Switch 2 -> OFF.
 - Turn 9917: Switch 3 -> OFF.
-- Turn 9923: Moving to Switch 1 (16, 1) to turn it OFF. Verifying shutter states: (2, 6) is CLOSED.
+- Turn 9926: Turned Switch 1 OFF. Reset to Baseline (0, 0, 0) complete.
+- Next: Verify all shutter states to confirm baseline.
 
 ## Verified Baseline (All Switches OFF) - PENDING VERIFICATION
 - Expected Shutter States (to be verified after Switch 1 is OFF):
