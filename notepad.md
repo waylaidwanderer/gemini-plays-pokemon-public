@@ -23,17 +23,15 @@
   - (2, 6), (10, 6), (6, 8), (6, 9): CLOSED (No change).
 
 ### Test 2: Switch 2 (10, 1) -> ON
-- Status: Observation phase.
+- Status: Complete.
 - Observations (compared to baseline):
-  - (10, 6): OPEN (Was CLOSED).
-  - (10, 7): OPEN (Was CLOSED).
-  - (11, 6): OPEN (Was CLOSED).
-  - (11, 7): OPEN (Was CLOSED).
-  - (6, 9): OPEN (Was CLOSED).
-  - (16, 6): CLOSED (Confirmed by collision Turn 9966).
-  - (12, 8): CLOSED (Confirmed by collision Turn 9970).
-  - (6, 8): OPEN (Confirmed by standing on it Turn 9974).
-  - (2, 6): Moving to verify.
+  - (10, 6), (10, 7), (11, 6), (11, 7): OPEN (Was CLOSED).
+  - (6, 8), (6, 9): OPEN (Was CLOSED).
+  - (16, 6), (12, 8), (2, 6): CLOSED (No change).
+
+### Test 3: Switch 3 (2, 1) -> ON
+- Status: Moving to turn Switch 2 OFF first.
+- Observations: PENDING.
 
 # Area Notes
 - Warehouse Entrance: South-east unseen area.
