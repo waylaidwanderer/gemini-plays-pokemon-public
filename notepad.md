@@ -17,8 +17,8 @@
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
 # Puzzle Solving Log
-- Attempt 1: 3-2-1 Sequence (Turns 10706-10726). Result: (10,6), (16,6), (17,6), (6,8) closed. (12,8) was closed by S2 then re-opened by S1? 
-- Current Status: S1=ON, S2=ON, S3=ON. (12,8) OPEN, (2,6) OPEN, (3,6) OPEN. Others CLOSED.
+- Attempt 1: 3-2-1 Sequence (Turns 10706-10726). Result: Incomplete. (10,6), (16,6), (17,6), (6,8) remained CLOSED.
+- Current Status: Resetting all switches to OFF to verify baseline and re-test logic.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
@@ -26,3 +26,4 @@
 # Lessons Learned
 - Verify shutter states visually or via tool.
 - NPCs and Items block paths like WALLs.
+- 3-2-1 sequence may require a specific starting state or reset.
