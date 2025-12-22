@@ -34,3 +34,4 @@
 - Hypothesis: Underground is split into West (Tunnel) and East (Basement) sections.
 - Plan: Exit to Goldenrod via South exit, then look for the East entrance to reach the Locked Door area.
 - Hypothesis: The section of the Underground with the Uniform/Locked Door is accessible via the Department Store Basement.
+- Info: Rocket Grunt at (16, 23) is a non-battling blocker.
