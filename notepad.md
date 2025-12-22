@@ -5,12 +5,10 @@
 - Active Status: Repel expired (Turn #12659). Out of Repels.
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
 - Tracking: Suicune located on Route 42 (Turn #12689).
-- Failed Navigate: Turn #12547 navigate to (29, 22) failed to move player from (9, 22). Investigating obstacles. Plan: Move to Row 23 to bypass Fisher.
 
 # Route 38 Specific Notes
 - TALL_GRASS at (28, 7): Pacing spot for Suicune.
 - Gatehouse to Ecruteak City: Warp at (35, 8).
-- Route to Mart: Exit Route 38 (35, 8) -> Gatehouse (1_9) -> Ecruteak City (4_9) -> Mart (29, 21).
 
 ## Roaming Pokémon Reference
 - Tracking: Do NOT use Fly to chase (randomizes location). Walk across map boundaries (gatehouses/warp carpets) to shift position predictably.
@@ -48,21 +46,10 @@
 - Circular Menu: Unreliable fixed Up/Down counts. Verify cursor position.
 - Pokédex AREA: Press 'A' on entry -> move to 'AREA' -> press 'A'.
 
-# Ecruteak Mart (4_6)
-- Clerk at (1, 3) behind counter at (2, 3).
-- Tile: COUNTER (2, 3) - Impassable, interact across it.
-- Tile: MART_SHELF (0, 5) etc. - Impassable.
-- Inventory: POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE. (No Repels).
-
-# Repel Restock Tracking
-- Started: Turn #12668.
-- Goal: Buy 10+ Repels. Current Funds: ¥6821.
-- Ecruteak Mart Inventory: POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE...
-
 # Mart Locations & Inventories
 - Azalea: Poke Ball, Potion, Super Potion, Escape Rope, Repel, Antidote, Parlyz Heal, Flower Mail.
 - Olivine: Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
-- Ecruteak: (See Ecruteak Mart section).
+- Ecruteak (4_6): POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE. (No Repels).
 
 # Navigation Strategy: Finding Suicune
 1. Restock Super Repels (Olivine is best).
