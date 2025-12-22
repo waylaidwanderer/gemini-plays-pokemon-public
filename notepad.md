@@ -5,11 +5,12 @@
 - Battle Plan: Sleep Powder (Turn 1) -> Switch/Ball (Turn 2+). Use `suicune_capture_analyst` for capture optimization.
 
 # Active Hunt Status
-- Super Repel active: Started Turn #12222. Duration: 200 steps.
+- Super Repel active: Started Turn #12222. Expired Turn #12259.
 - Current Location: Route 37 tall grass (8, 2).
-- Steps taken since Repel: ~160.
-- Remaining steps: ~40.
-- Safeguard: Re-verify Suicune's location via Pokédex every 50 steps.
+- Pacing count: ~170 steps taken before expiration.
+- Safeguard: Re-verify Suicune's location via Pokédex after every battle and every 50 steps.
+- Encounter Strategy: Use pacing (Grass Dance) with Repel trick. Avoid SWEET SCENT.
+- Battle Plan: Sleep Powder (Turn 1) -> Switch/Ball (Turn 2+). Use `suicune_capture_analyst` for capture optimization.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
