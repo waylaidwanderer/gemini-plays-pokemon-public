@@ -9,13 +9,15 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** "Work behind scenes where no one can see us."
-    - NPC 5 said this. Need to check if NPC 7 says the same.
-- **Action:** Talk to NPC 7 at (6, 13).
+- **Hypothesis:** Gates open when NPC 7 faces LEFT (Away from gates).
+- **Current State:** NPC 7 at (6, 13) facing Right. Gates Closed.
 - **Plan:**
-    1. **Execute:** I am at (7, 13) facing Left. NPC 7 is at (6, 13). Just press A.
-    2. **Observe:** Does he say something new? Does he turn? Do gates open?
-    3. **Next:** If dialogue fails to open gates, try Stun strategy on him like with NPC 5.
+    1. **Position:** Move to (8, 13).
+    2. **Wait:** Wait for NPC 7 to turn/move Left.
+    3. **Action:** As soon as he faces Left, STUN him.
+    4. **Check:** See if gates open.
+- **Backup:** Search the ground for "Junk" (Hidden Items) mentioned by NPC.
+    - Locations to check: (6, 13) area? Or the empty tiles in the pocket?
 
 ## Status
 - Player at (9, 9).
