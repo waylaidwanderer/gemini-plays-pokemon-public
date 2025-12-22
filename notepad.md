@@ -22,10 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Resetting Fly Map (Toggle).
-- **Reason:** Map navigation stuck. Inputs ignored. Closing (B) and Re-opening (A) map to clear potential glitch/animation lock.
+- **Status:** Opening Map & moving to Cherrygrove.
+- **Reason:** Testing map control. Opening map (A) and moving Left to Cherrygrove. Using long delays to bypass lag/animation.
 - **Plan:**
-    1. Close Map (B).
-    2. Wait 1.5s (Delay).
-    3. Re-open Map (A).
-    4. Next Turn: Retry navigation to Goldenrod.
+    1. Select Fly (A).
+    2. Wait 2s (Delay).
+    3. Press Left.
+    4. Verify "Cherrygrove City".
+    5. Continue to Goldenrod (Up, Left, Down).
