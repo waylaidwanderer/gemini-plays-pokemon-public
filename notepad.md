@@ -27,17 +27,16 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** In Goldenrod Underground Main Tunnel (3_53).
-- **Goal:** Reach the West side of the Switch Room Entrances (3_54).
+- **Status:** Exploring West Side of Goldenrod Underground (3_54).
+- **Goal:** Find Team Rocket Uniform.
 - **Plan:**
-    1. Travel South through the Main Tunnel to the ladder at (3, 34).
-    2. Take the ladder to enter the West side of 3_54.
-    3. Look for the Team Rocket Uniform or the Director Key in that area.
-- **Map Structure Hypothesis:**
-    - Map 3_54 (Switch Room Entrances) is split into East and West sections.
-    - East Section (visited): Accessed from North City Entrance? (Need to verify). Connects to Main Tunnel North (3_53).
-    - West Section (target): Accessed from South City Entrance? or via Main Tunnel South (3_53).
-    - Main Tunnel (3_53): Connects the two sections via ladders at (3, 2) and (3, 34).
+    1. Talk to Teacher at (3, 27).
+    2. Check if I can access the North or East areas from here (looks blocked by walls).
+    3. If no uniform here, consider checking the Main Tunnel again or the locked door at (18, 6).
+- **Map Structure:**
+    - 3_54 West: Connected to Tunnel South (3, 34) and City South Entrance?
+    - 3_54 East: Connected to Tunnel North (3, 2) and City North Entrance?
+    - 3_53 (Tunnel): Connects West and East sides.
 - **Map Notes:**
     - 3_54 South: Ladder to tunnel at (5, 25).
     - 3_53 (Main Tunnel): Ladder to South at (3, 34). Ladder to North at (3, 2).
