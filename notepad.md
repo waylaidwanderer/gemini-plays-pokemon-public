@@ -8,7 +8,7 @@
 
 # Puzzle: Goldenrod Underground Switch Room
 - Switch Puzzle Start: Turn 10284
-- Phase: Reset complete. Executing 3-2-1 Sequence.
+- Phase: Executing 3-2-1 Sequence. Step 1 Complete.
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
 
 ## Shutter Toggle Logic (Hypothesis)
@@ -24,8 +24,8 @@
 ## Strategy: 3-2-1 Sequence Execution (Attempt 3)
 - Goal: Open path to the Warehouse Entrance in the southeast.
 - Progress:
-  - 1. S3 ON: Next.
-  - 2. S2 ON: Next.
+  - 1. S3 ON: Done (Turn 10357).
+  - 2. S2 ON: In progress.
   - 3. S1 ON: Next.
 - Verification: Test (17,6) traversability when S1 is ON.
 
