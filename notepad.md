@@ -9,14 +9,15 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** "The stuff on the ground's junk." -> Hidden item blocks the mechanism.
+- **Hypothesis:** A hidden item at (7, 13) is blocking NPC 7's patrol path. Removing it will allow him to step on the switch at (8, 13).
+- **Evidence:**
+    - NPC says "Stuff on ground is junk, take it".
+    - NPC patrol path is short/looping (5-6), not reaching the end (8).
 - **Plan:**
-    1. **Position:** Move to (8, 13).
-    2. **Search:** Face Left and press A to check (7, 13).
-    3. **Search:** Face Right and press A to check (9, 13).
-    4. **Search:** Move to other tiles in Row 13 and check.
-- **Note:** If I find the item, maybe the gates will open (or NPC behavior changes).
-- **Alternative:** The "junk" might be the boxes themselves (fake walls)? I will try bumping into them again later.
+    1. **Search:** Face Left from (8, 13) and press A to check (7, 13).
+    2. **Verify:** If I find an item ("Ultra Ball" etc.), picking it up clears the path.
+    3. **Wait:** Move out of the way (to 8, 12) and let him walk to (8, 13).
+    4. **Execute:** Gates should open.
 
 ## Status
 - Player at (9, 9).
