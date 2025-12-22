@@ -18,6 +18,6 @@
 - **Goal:** Reach Director on 5F.
 - **Status:** Exploring West side of 4F.
 - **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
-- **Status:** Defeated Scientist Rich.
-- **Confirmed:** Stairs to 5F located at (0, 0).
-- **Plan:** Ascend stairs at (0, 0) to 5F (Director's location).
+- **Status:** Arrived on 5F.
+- **Goal:** Locate Director (likely at 3, 6).
+- **Plan:** Navigate South to find the Director.
