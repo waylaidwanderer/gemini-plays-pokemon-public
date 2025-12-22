@@ -19,19 +19,6 @@
 - Tin Tower: Purpose was for Pokémon to rest.
 - The Great Fire: 150 years ago, lightning struck the Brass Tower. It burned for 3 days until a sudden downpour extinguished it. The ruins are now known as the Burned Tower.
 
-# Wise Trio Battle Summary
-- Defeated Sages Gaku, Masa, and Koji. (Start #11502, End #11562)
-- Proved worthiness to enter the Tin Tower.
-- Learned the history of the Burned and Tin Towers.
-
-# Observations (Radio Tower Takeover - COMPLETED)
-- Director rescued, CLEAR BELL obtained.
-- Radio Tower 5F: Rocket Executive defeated. Ultra Ball found at (8, 5).
-- Radio Tower 4F: Rocket Executive defeated.
-- Radio Tower 3F: Rocket Grunt defeated. Shutters unlocked with Card Key.
-- Radio Tower 2F: Rocket Grunts and Girl defeated.
-- Radio Tower 1F: Base of operations.
-
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
 - Rocket Executive (5F): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
@@ -63,9 +50,8 @@
 # Suicune Battle Strategy
 - Suicune Lv 40.
 - KIMCHI (Gloom Lv 21) fainted at Turn #11641.
-- Observed Moves: Gust, Leer.
+- Observed Moves: Gust, Leer, Rain Dance.
 - Strategy:
     1. Switch to Calcifer (Typhlosion).
     2. Use Headbutt or Thunderpunch to weaken Suicune carefully.
     3. Use Great Balls and Ultra Balls when HP is low.
-- Status: Calcifer (Typhlosion) is out. Suicune HP is RED. Suicune accuracy at -6. Rain is falling. Throwing ULTRA BALL. Turn #11668.
