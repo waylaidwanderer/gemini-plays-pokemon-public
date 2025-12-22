@@ -30,12 +30,12 @@
 - **Status:** Exploring Goldenrod Underground (Main Tunnel 3_53).
 - **Goal:** Obtain Team Rocket Uniform.
 - **Plan:**
-    1. Take the ladder at (5, 25) in 3_54 down to 3_53.
-    2. Explore the area I arrive in.
-    3. Look for a Rocket Grunt to battle or talk to.
-    4. Note any other interactable NPCs.
+    1. Traverse the tunnel North from (3, 34) to the ladder at (3, 2).
+    2. Check for any Rocket Grunts along the way (I only see Super Nerds so far).
+    3. If no uniform found in main tunnel, take the ladder at (3, 2) to the North Entrance (3_54) and check there.
+    4. Note: Photo Studio door at (18, 6) is locked. Teacher at (3, 27) in South Entrance was useless.
 - **Map Notes:**
-    - 3_54 (Entrance Room): Teacher at (3, 27) (Just flavor text).
-    - 3_53 (Main Tunnel): Locked door at (18, 7). "NO ENTRY" sign at (19, 6).
-    - Warp (5, 25) in 3_54 leads to 3_53.
+    - 3_54 South: Ladder to tunnel at (5, 25).
+    - 3_53 (Main Tunnel): Ladder to South at (3, 34). Ladder to North at (3, 2).
+    - Locked door at (18, 7). "NO ENTRY" sign at (19, 6).
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
