@@ -3,16 +3,16 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Removing Mail from Kenya (Retry).
-- **Status:** Manually removing Mail via Party Menu.
-- **Reason:** PC "Deposit" failed with "Remove MAIL" error. Previous removal attempt didn't stick or wasn't saved.
+- **Navigation:** Removing Mail from Kenya.
+- **Status:** Executing removal sequence from Options Menu.
+- **Reason:** Correcting previous menu mis-navigation. Exiting Options -> Party -> Kenya -> Take Mail.
 - **Plan:**
-    1. Exit PC (B, B, B).
-    2. Open Party (Start, Down, A).
+    1. Exit Options (B).
+    2. Navigate to Pokemon (Up x5, A).
     3. Select Kenya (Down x4, A).
     4. Select MAIL (Down x3, A).
     5. Select TAKE MAIL (Down, A).
-    6. Select NO to "Send to PC" (Down, A) to ensure it's removed to Bag.
+    6. Select NO to "Send to PC" (Down, A).
     7. Deposit Kenya.
 
 # Reflection (Turn 11638)
