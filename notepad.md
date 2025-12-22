@@ -5,23 +5,18 @@
 - Switch (2,1), (10,1), (16,1): Background objects. Interact from row 2 (facing UP).
 
 # Underground Warehouse Puzzle
-- Goal: Open path to Warehouse Entrance (unseen southeast area).
-- Verified Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
-- Note: (21, 29) is the EXIT to the city, NOT the Warehouse entrance. The entrance is likely Map 3_55.
+- Goal: Open path to Warehouse Entrance (unseen southeast area, likely Map 3_55).
+- Sequence Strategy: 3-2-1 (Switch 3 -> Switch 2 -> Switch 1).
+- Note: (21, 29) is the EXIT to Goldenrod City, NOT the Warehouse entrance.
 
 ## Shutter Toggle Mapping (S3, S2, S1)
-- State (1,1,1) [3-2-1]: (2,6) OPEN, (12,8) OPEN. Path to southeast: (2,6) -> (12,8) -> Southeast.
+- State (0,0,0): All CLOSED.
+- State (1,1,1) [reached via 3-2-1]: (2,6) OPEN, (12,8) OPEN. This clears a path toward the southeast quadrant.
 
 ## Toggle Log
-- Turn 10479: Resetting. S2 turned OFF. State: (0,0,1).
-- Turn 10471: S1 toggled ON. State: (0,0,1).
+- Turn 10483: Resetting. S3 and S2 are OFF. S1 is ON. Heading to S1.
 - Turn 10463: (0,0,0) baseline reached. All switches OFF.
 - Turn 10434: (1,0,0) verified. (2,6), (3,6) OPEN. (12,8) OPEN.
-- Turn 10428: (0,0,0) baseline report: All shutters CLOSED.
-
-# Puzzle Logic Analysis
-- 3-2-1 sequence (S3->S2->S1) failed to open (6,8) and (16,6).
-- New Plan: Test 1-2-3 sequence.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant.
@@ -31,6 +26,6 @@
 # Lessons Learned
 - Standardize switch states as (S3, S2, S1).
 - Visual confirmation is required after every toggle.
-- Deductions are not verifications.
-- Reset to (0,0,0) before sequence attempts.
-- Shutter (12,8) has inconsistent behavior; verify visually.
+- (21, 29) is an exit, not the objective.
+- 3-2-1 sequence clears the path to the southeast via (2,6) and (12,8).
+- Reset to (0,0,0) before starting the sequence.
