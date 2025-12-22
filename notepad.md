@@ -9,13 +9,14 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Situation:** NPC 5 is at (9, 9). I am at (8, 9).
-- **Insight:** In turn 12303, I stunned him at (9, 10) and got blocked trying to enter (9, 10).
-- **Solution:** Now that he is at (9, 9), I must Stun him *HERE*. This leaves (9, 10) empty for me to traverse.
+- **Situation:** Player is INSIDE the middle-right box pocket at (10, 10).
+- **Observation:** The boxes at (10, 10)/(11, 10) are OPEN (FLOOR). The boxes at (10, 9)/(11, 9) are CLOSED (WALL).
 - **Plan:**
-    1. **Stun** NPC 5 at (9, 9).
-    2. **Run:** Move (8, 9) -> (8, 10) -> (9, 10) -> (10, 10).
-    3. **Success:** The gate at (10, 10) is currently Open (FLOOR). With him stuck at (9, 9), he shouldn't trigger anything.
+    1. **Unstun** NPC 5 to let him move.
+    2. **Wait** for him to patrol North to (9, 8).
+    3. **Hypothesis:** When he is at the top of his route, the Top-Right boxes (Row 8/9) will open.
+    4. **Action:** Spam `Up` to catch the opening and move to (10, 9) -> (10, 8).
+    5. **Exit:** Move East through the wall gap at (12, 8) or (12, 9).
 
 ## Status
 - Player at (9, 9).
