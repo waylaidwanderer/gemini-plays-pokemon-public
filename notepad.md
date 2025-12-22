@@ -4,15 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to New Bark Town.
-- **Status:** Opening Party Menu to Fly.
-- **Reason:** Navigating to Mistral (Slot 4) to use Fly.
+- **Status:** Selecting Mistral to Fly.
+- **Reason:** Accidentally selected Muscle (Slot 1) because cursor remembered previous position. Correcting to Mistral (Slot 4).
 - **Plan:**
-    1. Open Menu (Start).
-    2. Enter Pokemon (A).
-    3. Select Mistral (Down x3, A).
-    4. Select FLY.
-    5. Select New Bark Town on Map.
-    6. Enter Elm's Lab.
+    1. Close Muscle's Menu (B).
+    2. Navigate to Mistral (Down x3).
+    3. Open Menu (A).
+    4. Select FLY (A).
+    5. Navigate Map to New Bark Town.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
