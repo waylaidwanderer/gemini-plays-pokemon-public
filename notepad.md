@@ -38,3 +38,9 @@
 - Sweet Scent Interaction: SWEET SCENT bypasses REPEL filtering. Use pacing for the Repel trick.
 - Tool Timing: Menu-heavy tools like Pokédex tracking require significant 'sleep' delays (600ms+) to account for UI transitions.
 - Repel Refresh: If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
+
+# Ledge Test Plan (Route 37)
+- Observation: Tiles at (12, 3) and (13, 3) are labeled LEDGE_HOP_DOWN.
+- Hypothesis: These are one-way ledges traversable only from North to South.
+- Test: 1. Move to (12, 2). 2. Walk Down. 3. Try to walk Up.
+- Conclusion: Pending.
