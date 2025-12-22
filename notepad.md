@@ -117,3 +117,5 @@
 - Plan: Return to the Central Zone via the West Corridor.
 - Hypothesis: My presence in the West Zone (hidden) may have triggered the boxes at (10, 12)/(10, 13) to open.
 - Action: Navigate to (9, 12) to inspect the gates.
+- Navigation Note: (3, 12) is a Wall. Must detour via Row 11: (2, 12) -> (2, 11) -> (3, 11) -> (4, 11) -> (4, 12).
+- Plan: Inspect (10, 12) from (9, 12). If closed, the "West Zone" trigger might require a different approach or I need to engage the "Watcher" mechanics again.
