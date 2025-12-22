@@ -10,9 +10,9 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000. Current Turn: 11037.
-- Method: Explore Dept Store B1F (Map 3_55) accessed via ladder at (17, 2) in Warehouse.
-- Method: Systematically engage all Rocket personnel to clear the path to the real Director.
+- Method: Search Map 3_55 by clearing rows 1-5 from east to west, then rows 6-10 from west to east, to identify internal walls and the Director's location.
+- Method: Navigate to Section 4 (x >= 16) and explore north to find an entry to Section 3 (x=9-14).
+- Method: Standing at (13, 8) to interact with the Gentleman at (12, 8).
 - Tactical: Gneiss (Lv41) leads with Earthquake; Calcifer (Lv44) counters Grass-types.
 
 # Observations

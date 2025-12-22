@@ -193,47 +193,5 @@
         "action_counter": 9353
       }
     ]
-  },
-  "shutter_status_report_v2": {
-    "description": "Reports the status of the shutters in the Goldenrod Underground Switch Room. Scans Rows 6, 7, and 8 and prints whether each shutter tile is OPEN (FLOOR) or CLOSED (WALL).",
-    "input_schema": {},
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef run():\n    root = ET.fromstring(map_xml_string)\n    shutters = [(2, 6), (3, 6), (10, 6), (16, 6), (17, 6), (16, 7), (17, 7), (6, 8), (12, 8)]\n    report = {}\n    for x, y in shutters:\n        tile = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n        state = 'UNKNOWN'\n        if tile is not None:\n            state = 'OPEN' if tile.get('type') == 'FLOOR' else 'CLOSED'\n        report[f'({x}, {y})'] = state\n    \n    # Print the object for manual review\n    print(json.dumps(report, indent=2))\n    # Print an empty list for autopress_buttons compatibility\n    print(json.dumps([]))\n\nrun()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T00:23:40.610Z",
-        "action_counter": 10387
-      },
-      {
-        "commit_message": "Fixing XPath predicate error by using manual search for Player position.",
-        "timestamp": "2025-12-22T00:27:21.579Z",
-        "action_counter": 10397
-      },
-      {
-        "commit_message": "Added scanning for Row 7 and comprehensive floor tile check to better detect open paths.",
-        "timestamp": "2025-12-22T02:13:13.065Z",
-        "action_counter": 10646
-      },
-      {
-        "commit_message": "Removed hallucinated Row 7 shutters and focused on dynamic shutter tiles in Rows 6 and 8.",
-        "timestamp": "2025-12-22T02:18:18.411Z",
-        "action_counter": 10657
-      },
-      {
-        "commit_message": "Fix JSON formatting error and remove unnecessary header to allow for clean parsing.",
-        "timestamp": "2025-12-22T02:36:31.645Z",
-        "action_counter": 10713
-      },
-      {
-        "commit_message": "Fix JSON output format for compatibility with autopress_buttons.",
-        "timestamp": "2025-12-22T02:45:25.686Z",
-        "action_counter": 10734
-      },
-      {
-        "commit_message": "Add dynamic shutter tiles at (16, 7) and (17, 7) to the status report.",
-        "timestamp": "2025-12-22T03:12:33.832Z",
-        "action_counter": 10801
-      }
-    ]
   }
 }
