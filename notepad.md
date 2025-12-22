@@ -10,19 +10,20 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes to reach East side.
 - **Hypothesis:** NPC 6 (Static at 4,8) controls gates via Facing Direction.
-    - **Note:** NPC 6 cannot face LEFT (Wall at 3,8).
-    - **Test 1:** Make NPC 6 Face RIGHT (Look at boxes).
-    - **Test 2:** Make NPC 6 Face DOWN (Look away?).
-    - **Test 3:** Make NPC 6 Face UP (Look away?).
+    - **Observation:** NPC 6 is currently at (4, 8) Facing **RIGHT**. The boxes at (6,8) are **WALLS (Closed)**.
+    - **Conclusion:** Facing RIGHT does NOT open the boxes (or requires a trigger).
+    - **Next Tests:**
+        - **Test 2:** Make NPC 6 Face **DOWN** (stand at 4,9).
+        - **Test 3:** Make NPC 6 Face **UP** (stand at 4,7).
 - **Status:**
-    - Player moving to (5, 8).
-    - NPC 6 at (4, 8).
-    - NPC 5 Stunned at (9, 11) Facing Down.
+    - Player at (5, 8).
+    - NPC 6 at (4, 8) Facing Right.
 - **Plan:**
-    1. **Move:** Go to (5, 8).
-    2. **Interact:** Talk to NPC 6. He will Face RIGHT.
-    3. **Verify:** Check if boxes at Row 8/9 open.
-    4. **Iterate:** If not, try facing Down (talk from 4,9) or Up (talk from 4,7).
+    1. **Interact:** Talk to NPC 6 from current position (Face Left) just to check dialogue.
+    2. **Move:** Go to (4, 9).
+    3. **Interact:** Talk to NPC 6 from Below (Face Up).
+    4. **Verify:** Check boxes.
+    5. **Iterate:** If failing, try (4, 7).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
