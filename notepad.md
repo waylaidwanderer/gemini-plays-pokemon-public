@@ -1,5 +1,5 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Confirmed on Route 42 (Turn #12488).
+- Status: Roaming. Location changed due to map boundary crossing (Turn #12495). Pending Pokédex check.
 - Strategy: Repel Trick. Lead with KIMCHI (Gloom Lv 21) which is > local wild levels (Lv 13-16) but < Suicune (Lv 40).
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
 - Active Status: None. Repel wore off at Turn #12468.
