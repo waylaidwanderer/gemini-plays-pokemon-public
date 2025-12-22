@@ -1,5 +1,5 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Confirmed on Route 42 (Turn #12504).
+- Status: Roaming. Confirmed on Route 37 (Turn #12538).
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in Route 42 grass patch at (46, 12).
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
