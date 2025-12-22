@@ -160,3 +160,14 @@
 - **Hypothesis:** "Behind the Scenes" mechanic.
 - **Test:** Stand at (9, 12), face RIGHT (East). This faces the gate but puts the NPC (West) out of view behind me.
 - **Goal:** See if gate (10, 12) opens.
+- **Dialogue Analysis:**
+    - NPC 7: "The stuff on the ground's junk. Take it if you want it!"
+    - **Interpretation:** Possible hidden item nearby, OR flavor text about the boxes being junk.
+    - **Action:** Will check for hidden items later. Priority is the gate puzzle.
+- **Refined Hypothesis (NPC 5 Position):**
+    - **Observation (Turn 12562):** NPC 5 at Bottom (9, 11) -> Top Gates (10, 8-9) OPEN.
+    - **Hypothesis:** NPC 5 at Top (9, 9) -> Bottom Gates (10, 12-13) OPEN.
+- **Plan:**
+    1. Move to (8, 12).
+    2. Wait for NPC 5 to move to (9, 9).
+    3. Attempt to enter Bottom Gate (10, 12).
