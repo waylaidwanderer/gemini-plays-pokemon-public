@@ -19,11 +19,12 @@
 - Step 1: Turn all switches OFF.
   - S3: Currently OFF.
   - S2: Currently OFF.
-  - S1: Currently ON (Heading to (16, 2)).
-- Step 2: Turn S3 ON.
-- Step 3: Turn S2 ON.
-- Step 4: Turn S1 ON.
-- Step 5: Enter Warehouse.
+  - S1: Currently OFF. (COMPLETED Turn 10896)
+- Step 2: Perform Visual Verification of baseline.
+- Step 3: Turn S3 ON.
+- Step 4: Turn S2 ON.
+- Step 5: Turn S1 ON.
+- Step 6: Enter Warehouse.
 
 # Lessons Learned
 - Toggling S1 and S2 both affects shutter (12, 8).
