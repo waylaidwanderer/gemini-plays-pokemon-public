@@ -3,16 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Exiting Player's House to Fly.
-- **Status:** Inside Player's House (1F).
-- **Reason:** Player's PC only holds items. Need a PokeCenter for Pokemon Storage.
+- **Navigation:** Flying to Goldenrod City.
+- **Status:** Outside Player's House in New Bark Town.
+- **Reason:** Need a Pokemon Center to swap Kenya for Togepi. Flying is fastest.
 - **Plan:**
-    1. Exit Player's House.
-    2. Fly to Goldenrod City.
-    3. Go to PokeCenter.
-    4. Deposit Kenya, Withdraw Togepi.
-    5. Fly back to New Bark Town.
-    6. Talk to Elm.
+    1. Open Menu.
+    2. Select Pidgey (Mistral).
+    3. Use Fly to Goldenrod.
+    4. Go to Goldenrod Pokemon Center.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
