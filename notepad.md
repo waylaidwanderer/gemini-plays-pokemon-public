@@ -1,16 +1,10 @@
 # Gem's Journey in Pokémon Crystal
 
 ## Current Strategy
-- **Primary Goal:** Stop Team Rocket (Radio Tower investigation likely next).
+- **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Heal at Pokémon Center.
-- **Status:** Inside Mahogany Gym. Defeated Leader Pryce.
-- **Current Task:** Exit the Gym.
-
-## Exit Path
-1. Slide **West** from (3, 13) to (2, 13) ICE (Stop at Wall).
-2. Walk **South** to (2, 14) Floor.
-3. Walk **South** to (2, 17) Floor.
-4. Walk **East** to (4, 17) Exit.
+- **Status:** Mahogany Town.
+- **Current Task:** Heal at Pokémon Center.
 
 ## Action Log & Reflection
 - **Achievement:** Defeated Leader Pryce! Earned Glacier Badge and TM16 (Icy Wind).
