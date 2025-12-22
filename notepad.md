@@ -46,12 +46,12 @@
 # Suicune Battle Strategy
 - Suicune Lv 40.
 - KIMCHI (Gloom Lv 21) fainted at Turn #11641.
-- Observed Moves: Gust, Leer, Rain Dance.
+- Observed Moves: Gust, Leer, Rain Dance, Bubblebeam.
 - Strategy:
     1. Switch to Calcifer (Typhlosion).
     2. Weaken Suicune carefully (Completed).
     3. Maximize accuracy reduction with Smokescreen (Completed).
     4. Throw Great Balls until caught.
     5. Heal Typhlosion with LEMONADE if HP falls below 50%.
-- Capture Marathon Started: Turn #11666, Time: Monday, Dec 22, 2025, 2:15 AM.
+- Capture Marathon Started: Turn #11666.
 - Strategy Audit: Suicune is at minimum accuracy (-6) and critical HP (RED). This is the optimal state for capture without status. I will persist with Great Balls.
