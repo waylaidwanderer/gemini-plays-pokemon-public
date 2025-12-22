@@ -22,8 +22,9 @@
 - Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
 
 # Capture Progress
-- Great Balls used: 11
+- Great Balls used: 12
 - Ultra Balls used: 3
 - Suicune HP: RED
 - Suicune Accuracy: -6
 - Lead: Calcifer (Typhlosion) @ 116/142 HP
+- Great Balls remaining: 39
