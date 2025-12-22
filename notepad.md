@@ -231,3 +231,7 @@
 - **Action:** Pressed A to talk to NPC 6 (4, 8) from the Right (5, 8).
 - **Expectation:** NPC 6 turns Right.
 - **Check:** Will Top Gates (10, 8-9) CLOSE? Will Bottom Gates (10, 12-13) OPEN?
+- **Result:** NPC 6 Facing Right did NOT immediately change the gate state (Top Gates remain Open).
+- **Plan:** Moving to East Room (13, 8).
+- **Hypothesis:** "Behind the Scenes" - I must be in the East Room (out of sight of the West workers) for the layout to change/open the path to the Northeast.
+- **Action:** Navigate to (13, 8). Ensure NPC 5 is not blocked.
