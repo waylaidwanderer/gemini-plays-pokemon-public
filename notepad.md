@@ -30,3 +30,4 @@
 - **Radio Tower:** North.
 - **Underground:** Key item (Coin Case) was found here. Potential other items?
 - **Director:** Potentially held captive?
+- **Turn 12681:** Leaving B1F via elevator. Heading to Radio Tower.
