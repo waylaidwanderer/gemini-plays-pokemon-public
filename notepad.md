@@ -8,17 +8,18 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Active Hypothesis:** "Junk" on ground (Bottom Left) is a hidden item blocking NPC 7.
-- **Action:** Using `Itemfinder` (Key Item).
-    1. **Switch Pockets:** Key Items.
-    2. **Select:** Itemfinder.
-    3. **Use:** Check for response.
-    4. **Search:** If positive, pinpoint item (Likely row 13).
-- **Discarded Hypotheses:**
-    - NPC Facing Direction (Top/Bottom/Middle) - Failed.
-    - Machop Interaction - Failed.
-    - Manual Search without Itemfinder - Failed.
+- **Goal:** Open Bottom Gates (10, 13)/(11, 13) OR Exit Walls at Col 12.
+- **Hypothesis:** NPC Facing Direction triggers the mechanism.
+- **Current Test:** Make NPC 7 (Bottom Left) face **UP**.
+- **Plan:**
+    1. **Position:** Move to (6, 12) (Above NPC 7).
+    2. **Action:** Talk to him. He turns UP.
+    3. **Lock:** Stun him.
+    4. **Verify:** Check Bottom Gates (10, 13).
+- **Discarded:**
+    - Hidden Items (Itemfinder confirms none).
+    - NPC 6 Facing Up/Down/Right (Top Gates stayed closed).
+    - NPC 5 Facing Up/Down (Middle Exit stayed closed?).
 
 ## Status
 - Player at (9, 9).
