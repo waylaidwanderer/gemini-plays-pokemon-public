@@ -2,10 +2,9 @@
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Active Status: Repel active (Turn #12627). Steps: 0/100.
+- Active Status: Repel active (Turn #12627). Steps: 22/100.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, or Repel expiration.
 - Tracking: Start Turn #12542. Suicune confirmed on Route 38 (Turn #12584).
-- Note: Repel refreshed at Turn #12627 after expiry at #12623.
 
 ## Roaming Pokémon Reference
 - Tracking: Do NOT use Fly to chase (randomizes location). Walk across map boundaries (gatehouses/warp carpets) to shift position predictably.
