@@ -21,3 +21,4 @@
 - Suicune Accuracy: -6
 - Lead: Calcifer (Typhlosion) @ 116/142 HP
 - Great Balls remaining: 36
+- Next: Throw 16th Great Ball.

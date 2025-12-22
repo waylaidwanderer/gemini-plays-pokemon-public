@@ -171,29 +171,6 @@
       }
     ]
   },
-  "battle_switch_pokemon_v1": {
-    "description": "Switches the active Pokemon during a battle. Assumes the main battle menu is visible. Includes safety delays for menu transitions.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "party_index": {
-          "type": "integer",
-          "description": "The 0-indexed position of the Pokemon to switch to (0-5)."
-        }
-      },
-      "required": [
-        "party_index"
-      ]
-    },
-    "python_script": "import json\n\ndef battle_switch():\n    try:\n        idx = int(input_data['party_index'])\n    except (NameError, KeyError, ValueError, TypeError):\n        print(json.dumps([\"B\"]))\n        return\n\n    buttons = []\n    # Main menu: FIGHT (0,0), PKMN (1,0), PACK (0,1), RUN (1,1)\n    # PKMN is at (1,0). \n    buttons.append(\"Right\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Navigate to party_index. Cursor usually starts at index 0.\n    for _ in range(idx):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 400\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # In battle PKMN menu, after selecting a Pokemon, a sub-menu [SWITCH, STATS, CANCEL] appears.\n    # SWITCH is the first option.\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    \n    print(json.dumps(buttons))\n\nbattle_switch()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T08:47:19.352Z",
-        "action_counter": 11506
-      }
-    ]
-  },
   "confirm_battle_action_v1": {
     "description": "Presses the A button twice with a 1-second delay between presses. Useful for confirming item usage or move selection in battle.",
     "input_schema": {},
@@ -203,6 +180,18 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-22T10:45:40.303Z",
         "action_counter": 11703
+      }
+    ]
+  },
+  "throw_great_ball_v1": {
+    "description": "Automatically selects PACK, navigates to the Balls pocket, selects GREAT BALL, and confirms usage. Assumes the main battle menu is visible.",
+    "input_schema": {},
+    "python_script": "import json\n# Sequence:\n# 1. Press A to open PACK (assuming cursor is on PACK or using select_battle_option)\n# 2. Press Left 3 times to ensure we are in the 'Items' pocket (it doesn't wrap to TM/HM from Items with Left)\n# 3. Press Right once to move to the 'Balls' pocket.\n# 4. Press Down once to move from POKé BALL to GREAT BALL.\n# 5. Press A to select GREAT BALL.\n# 6. Press A to select USE.\nprint(json.dumps([\"A\", \"Left\", \"Left\", \"Left\", \"Right\", \"Down\", \"A\", \"sleep 1000\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T11:02:53.953Z",
+        "action_counter": 11726
       }
     ]
   }
