@@ -26,11 +26,11 @@
 - **Inventory Status:** 
   - Bag: 19/20 Items (Almost Full).
   - PC Box 1: 15/20 (5 slots left).
-- **Current Task:** Gather intel from NPCs in Pokemon Center.
+- **Current Task:** Gathering intel.
 - **Next Steps:**
-    1. Talk to Cooltrainer F and Youngster.
-    2. Consider switching PC Box if paranoid, or just proceed to Gym.
-    3. Locate and Challenge Pryce.
+    1. Talk to Cooltrainer F (Left) and Youngster (Left of her).
+    2. Exit Pokemon Center.
+    3. Locate and Challenge Pryce at Mahogany Gym.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
