@@ -30,4 +30,6 @@
 - **Radio Tower:** North.
 - **Underground:** Key item (Coin Case) was found here. Potential other items?
 - **Director:** Potentially held captive?
-- **Turn 12681:** Leaving B1F via elevator. Heading to Radio Tower.
+## Tile Mechanics
+- **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
+- **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
