@@ -42,3 +42,6 @@
 - Plan: Descend to Main Underground (3_53) and look for a path to the East side of that map, which likely leads to the Dept Store Basement.
 - Hypothesis Test: Checking if the Underground West tunnel has any openings to the East side.
 - Plan: Hug the right wall while moving North. If no opening is found, assume the tunnels are separate and I must access the East side from the surface (Department Store).
+- Map Discovery: The Underground Tunnel (3_53) connects to two separate rooms in 3_54.
+    - South Ladder (3, 34 in 3_53) -> West Room (x=5 in 3_54) -> Exits to Goldenrod South.
+    - North Ladder (3, 2 in 3_53) -> East Room (x=21 in 3_54) -> Likely exits to Goldenrod North/East.
