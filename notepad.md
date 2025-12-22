@@ -11,9 +11,9 @@
 
 # Current Strategy: Stop Team Rocket
 - Method: Clear the restricted floors of the Radio Tower and stop the broadcast.
-- Status: Arrived on 4F. Currently clearing trainers.
 - Path: Radio Tower 4F -> Radio Tower 5F.
 - Tactical: Use stairs at (12, 0) on 4F to reach the top floor (5F).
+- Search Pattern: Boustrophedon sweep of each floor.
 
 # Observations
 - Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
@@ -23,7 +23,7 @@
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
 - Rocket Executive (4F): Golbat Lv36.
-- Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans Lv21.
+- Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans Lv21, Gloom.
 - Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
 - Rocket Grunt (M) (Warehouse): Raticate Lv24, Raticate Lv24.
 - Rocket Grunt (M) (Warehouse): Grimer Lv23, Muk Lv25.
