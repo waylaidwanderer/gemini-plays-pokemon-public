@@ -4,10 +4,10 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Super Repel active (Turn #13003). 4 left.
 - Current Status: Suicune confirmed on Route 38 (Turn #12992).
-- Task Timing: Grass Dance resuming Turn #13006.
+- Task Timing: Grass Dance resuming Turn #13007.
 
 # Roaming Pokémon Reference
-- Tracking: Use Pokédex AREA map via `check_suicune_location_v3`.
+- Tracking: Use Pokédex AREA map. (Start -> POKEDEX -> Select Suicune -> AREA).
 - Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge) or after a battle with Suicune.
 - Note: Flying counts as crossing boundaries. Pacing in grass or phone calls do NOT move it.
 - Note: Battling OTHER wild Pokemon on the same route does NOT move it (Verified Turn #12992).
@@ -29,7 +29,7 @@
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
 # Lessons Learned & Error Analysis
-- Tool Reliability: Use `check_suicune_location_v3` for reliable roamer tracking.
+- Tool Reliability: Custom tools for roamer tracking must handle the full sequence from overworld to overworld.
 - Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
 - Roamer Logic: Roamers only move when you change maps or battle them. Clearing wild encounters is safe.
 
@@ -43,4 +43,5 @@
 
 # Progress Log
 - Turn #12992: Confirmed Suicune is still on Route 38 via Pokedex AREA map.
-- Turn #12999: Re-applied Super Repel. Resuming Grass Dance.
+- Turn #13003: Re-applied Super Repel.
+- Turn #13006: Phone call from Tully ended. Resuming Grass Dance.
