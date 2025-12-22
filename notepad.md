@@ -10,19 +10,18 @@
 | State | (2,6) | (3,6) | (10,6) | (12,8) | (16,6) | (17,6) | (6,8) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | (0,0,0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED | CLOSED |
-| (0,0,1) | ? | ? | CLOSED | ? | OPEN | OPEN | ? |
+| (0,0,1) | CLOSED | CLOSED | CLOSED | OPEN | OPEN | OPEN | CLOSED |
 | (0,1,0) | ? | ? | ? | ? | ? | ? | ? |
 | (1,0,0) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Verified Toggle Logic (From 0,0,0 baseline)
-- Switch 1 (16,1): Toggles (16,6), (17,6).
+- Switch 1 (16,1): Toggles (16,6), (17,6). Does NOT toggle (10,6), (6,8), (12,8), (2,6), (3,6).
 - Switch 2 (10,1): TBD.
-- Switch 3 (2,1): Toggles (2,6), (3,6).
+- Switch 3 (2,1): TBD (Previous data unreliable due to sequence).
 
 ## Toggle Log
-- Turn 10403: S1 ON. (16,6) and (17,6) seen OPEN.
-- Turn 10411: (10,6) seen CLOSED in (0,0,1) state.
-- Turn 10400: (0,0,0) state verified. (12,8) was OPEN in report 10398.
+- Turn 10415: (0,0,1) verified visually. (16,6), (17,6) are OPEN. (10,6), (6,8) are CLOSED. (12,8) is OPEN.
+- Turn 10400: (0,0,0) verified visually. (10,6), (6,8), (16,6), (17,6) are CLOSED. (12,8) is OPEN.
 
 ## Systematic Mapping Plan Steps
 1. Establish (0,0,0) baseline visually. (Done)
