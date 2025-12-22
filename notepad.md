@@ -31,3 +31,7 @@
 # Findings
 - Found Ultra Ball at (2, 1). (Turn 11006)
 - Found Full Heal at (14, 9) in Switch Room. (Turn 10981)
+
+# Time Tracking
+- Warehouse Search Start: Turn 11000.
+- Current Turn: 11012.
