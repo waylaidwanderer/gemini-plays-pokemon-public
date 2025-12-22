@@ -37,3 +37,5 @@
 - Tool Efficiency vs. Manual Input: Do not spend more than a few turns defining or debugging a custom tool for a one-off task (like menu navigation). If a tool fails twice, switch to manual button presses or a simple `run_code` script to maintain momentum.
 - Menu Time Blindness: Spending over 100 turns in a single menu system is a critical failure. Monitor turn counts for non-gameplay tasks and pivot if they exceed 20-30 turns.
 - Mental Map XML Errors: The Mental Map XML may occasionally misidentify decorative tiles as warps (e.g., Tin Tower 1F (10, 2)). Always verify with Game State Information and manual investigation.
+- Observation (Turn #12156): Pokédex AREA map for Suicune shows multiple red dots at (13, 9), (15, 10), (16, 11), (10, 11), and (8, 13). The map header is "SUICUNE'S NEST".
+- Plan: Exit Tin Tower and move to one of these locations or move between routes to track movement.
