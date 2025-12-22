@@ -35,17 +35,17 @@
 # Final Puzzle Logic (Verified)
 - S3 toggles: (2,6), (3,6)
 - S2 toggles: (10,6), (6,8), (12,8)
-- S1 toggles: (16,6), (16,7), (17,6), (17,7), (12,8)
+- S1 toggles: (16,6), (17,6), (12,8)
 - Baseline (0,0,0): (12,8) is the ONLY open shutter.
-- Solution (3-2-1):
-  1. S3 ON -> Opens (2,6), (3,6).
-  2. S2 ON -> Opens (10,6), (6,8). Closes (12,8).
-  3. S1 ON -> Opens (16,6), (16,7), (17,6), (17,7). Opens (12,8).
-  Result: ALL paths open.
+- Solution (3-2-1 Order):
+  1. Press S3 (ON) -> Opens (2,6), (3,6). (12,8) remains OPEN.
+  2. Press S2 (ON) -> Opens (10,6), (6,8). Closes (12,8).
+  3. Press S1 (ON) -> Opens (16,6), (17,6). Opens (12,8).
+  Result: (2,6), (3,6), (10,6), (6,8), (16,6), (17,6), (12,8) ALL OPEN.
 
 # Current Strategy: Execute 3-2-1
-1. Turn S1 OFF (Return to 0,0,0 baseline).
-2. Turn S3 ON.
+1. Verify baseline (0,0,0): All switches OFF. (Confirmed Turn 10628)
+2. Turn S3 ON. (Current Target)
 3. Turn S2 ON.
 4. Turn S1 ON.
 5. Enter Warehouse.
