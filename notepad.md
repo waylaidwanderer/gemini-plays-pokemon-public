@@ -10,7 +10,7 @@
 
 # Current Strategy: Tin Tower Investigation
 - Primary Goal: Investigate the Tin Tower in Ecruteak City.
-- Mission Start: Turn #11243.
+- Mission Start: Turn #11243, Timestamp: Sunday, Dec 21, 11:00 PM.
 - Method: Travel to Ecruteak City and find the Tin Tower.
 - Path: Goldenrod City -> Route 35 -> Route 36 -> Route 37 -> Ecruteak City.
 - Tactical: Use the Clear Bell at the Tin Tower.
