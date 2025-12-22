@@ -89,3 +89,7 @@
 - **Correlation:** NPC 5 is at (9, 11) facing Down. NPC 6 is at (4, 8) facing Up.
 - **Hypothesis:** NPC 5's position (9, 11) keeps Top Gates open.
 - **Action:** Stunning NPC 5 to lock the gate state, then crossing to East Room.
+- **Success:** Entered East Room via Top Gate at (13, 8).
+- **Observation:** Row 8/9 in East Room contains a block of Walls/Boxes (14-17, 8-9).
+- **Action:** Investigating North East Barrier (Row 4) to see if Ladder (17, 2) is accessible.
+- **Plan:** Move to (17, 5), then explore South.
