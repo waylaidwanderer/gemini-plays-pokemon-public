@@ -27,13 +27,12 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Exploring Goldenrod Underground (Main Tunnel 3_53).
-- **Goal:** Obtain Team Rocket Uniform.
+- **Status:** Exploring Goldenrod Underground (Switch Room Entrances 3_54).
+- **Goal:** Find Team Rocket Uniform or Key.
 - **Plan:**
-    1. Traverse the tunnel North from (3, 34) to the ladder at (3, 2).
-    2. Check for any Rocket Grunts along the way (I only see Super Nerds so far).
-    3. If no uniform found in main tunnel, take the ladder at (3, 2) to the North Entrance (3_54) and check there.
-    4. Note: Photo Studio door at (18, 6) is locked. Teacher at (3, 27) in South Entrance was useless.
+    1. Talk to Super Nerd at (19, 27).
+    2. Explore left side (Ladder at 5, 25, Teacher at 3, 27).
+    3. Check for items or hidden switches.
 - **Map Notes:**
     - 3_54 South: Ladder to tunnel at (5, 25).
     - 3_53 (Main Tunnel): Ladder to South at (3, 34). Ladder to North at (3, 2).
