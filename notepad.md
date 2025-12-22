@@ -59,3 +59,5 @@
 - Plan: Continue south to Row 13, then check if the path to the East is open. Also keep an eye on the newly opened path at (4, 11).
 - Observation: Tiles (10, 12) and (11, 12) changed FLOOR -> WALL while I was moving to (8, 8). This might block the path south of the central wall.
 - Plan: Continue to (8, 13). Check if the East path along Row 13 is open. If blocked, backtrack to Row 13 and check the West opening at (4, 11) via (8, 13) -> (7, 13)...
+- Hypothesis: The puzzle requires me to go to the West side (which just opened) to allow the workers on the East side to move the boxes (since I won't be watching).
+- Plan: Navigate to the newly opened tiles at (4,11)/(5,11) via Row 12. Check for items or switches, then check if East side opened.
