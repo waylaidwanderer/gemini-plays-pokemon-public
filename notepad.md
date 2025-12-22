@@ -3,13 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Going to Player's Room (2F).
-- **Status:** Inside Player's House (1F).
-- **Reason:** Need to access PC in my room to get Togepi.
+- **Navigation:** Accessing PC at (2, 2).
+- **Status:** Inside Player's Room (2F).
+- **Reason:** Need to access PC to swap Kenya for Togepi.
 - **Plan:**
-    1. Go upstairs (9, 0).
-    2. Withdraw Togepi from PC.
-    3. Return to Elm.
+    1. Interact with PC.
+    2. Select "Bill's PC".
+    3. Deposit Kenya (Spearow).
+    4. Withdraw Togepi.
+    5. Return to Elm.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
