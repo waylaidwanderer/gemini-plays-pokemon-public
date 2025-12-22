@@ -51,3 +51,4 @@
 
 # Battle Notes
 - Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
+- Dept. Store 3F (Battle Collection): X SPEED, X SPECIAL, X DEFEND, X ATTACK, DIRE HIT, GUARD SPEC., X ACCURACY. (No Ultra Balls)
