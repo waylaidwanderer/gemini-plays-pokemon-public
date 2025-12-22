@@ -113,3 +113,7 @@
 - Status: Successfully crossed to West Zone at (4, 11).
 - Plan: Travel South down the West Corridor (Col 2) to Row 16. Head East along Row 16 to check if the wall at (12, 16) has opened.
 - Reasoning: Being in the West Zone might have triggered the "behind the scenes" mechanics to open the path.
+- Confirmation: Wall at (12, 16) is indeed solid. The South route does not wrap around.
+- Plan: Return to the Central Zone via the West Corridor.
+- Hypothesis: My presence in the West Zone (hidden) may have triggered the boxes at (10, 12)/(10, 13) to open.
+- Action: Navigate to (9, 12) to inspect the gates.
