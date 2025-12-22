@@ -6,28 +6,22 @@
 
 # Underground Warehouse Puzzle
 - Goal: Open path to Warehouse Entrance (Map 3_55).
+- Start Turn: 10544.
 - Rumored Solution: 3-2-1 Sequence (S3 -> S2 -> S1).
+- Hint from Rocket Grunt: "the switch on the end is the one to press first."
 
-# Verified Shutter Logic
+# Shutter Logic Hypotheses
+- Baseline (OFF, OFF, OFF): (12,8) is OPEN, all others CLOSED.
 - S3 (2,1) toggles: (2,6), (3,6)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
-- Baseline (OFF, OFF, OFF): (12,8) is OPEN, all others CLOSED.
 
-# Current Strategy: Execute 3-2-1 Sequence
-1. Step 1: Switch 3 (ON) - COMPLETED.
-2. Step 2: Switch 2 (ON) - COMPLETED (Turn 10722).
-3. Step 3: Switch 1 (ON) - Heading to (16,1).
-4. Enter Warehouse (Map 3_55).
-
-# Puzzle Logic Theory
-- The 3-2-1 sequence is based on the Rocket Grunt's hint: "the switch on the end is the one to press first."
-- S3 opens the leftmost path. S2 opens the middle path but closes the baseline path at (12,8). S1 opens the rightmost path and re-opens (12,8).
-- Result: All southern paths are FLOOR, allowing full access to the Warehouse.
+# Puzzle Solving Log
+- Attempt 1: 3-2-1 Sequence (Turns 10706-10726). Result: (10,6), (16,6), (17,6), (6,8) closed. (12,8) was closed by S2 then re-opened by S1? 
+- Current Status: S1=ON, S2=ON, S3=ON. (12,8) OPEN, (2,6) OPEN, (3,6) OPEN. Others CLOSED.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
-- EXIT: (21, 29) leads back to Goldenrod City. Do NOT use.
 
 # Lessons Learned
 - Verify shutter states visually or via tool.
