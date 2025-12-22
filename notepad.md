@@ -3,13 +3,12 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Navigate to Radio Tower Entrance (6, 6).
-- **Status:** Approaching Radio Tower (13, 7).
+- **Navigation:** Enter Underground Main Tunnel via Ladder (21, 25).
+- **Status:** Inside Underground Entrance (North).
 - **Plan:**
-    1. Move Down to Row 8 (Avoid Name Rater Sign).
-    2. Move West to X=6 along Row 8.
-    3. Move North to find the Radio Tower entrance.
-    4. Investigate Radio Tower or Underground.
+    1. Descend ladder at (21, 25) to the Underground.
+    2. Search for the Team Rocket Uniform (usually given by a grunt).
+    3. Return to Radio Tower with the disguise.
 
 **Goldenrod City Notes:**
 - Name Rater is at (15, 7).
