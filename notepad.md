@@ -6,11 +6,11 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** Moving North-West in Goldenrod.
-- **Current Task:** Navigate around the building at (15, 7) to reach the Radio Tower.
-- **Goal:** Reach the Radio Tower (likely North of the train tracks area).
-- **Tactics:** Avoid Rocket Grunts.
-- **Pathing:** Moving West from (14, 8) to (10, 6) to bypass the wall, then checking North/West.
+- **Status:** Investigating North-West Goldenrod.
+- **Current Task:** Entering the building at (9, 5).
+- **Hypothesis:** This might be the Radio Tower or the North Underground Entrance (due to the sign at 8, 6).
+- **Goal:** Locate Radio Tower entrance.
+- **Reference:** Sign at (8, 6) is 'GoldenrodCityUndergroundSignNorth'.
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
