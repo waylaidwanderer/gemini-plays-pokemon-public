@@ -30,21 +30,9 @@
   - **Radio Tower:** Location unknown (Likely North/West).
 
 ## Tile Mechanics
+- **LADDER:** Traversable (Warps to another map).
+- **WARP_CARPET_DOWN:** Traversable (Exits map).
+- **FLOOR:** Traversable.
+- **WALL:** Impassable.
 - **ICE:** Sliding tiles (Mahogany Gym).
-- **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
-- **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** In Goldenrod Underground Main Tunnel (3_53).
-- **Plan:**
-    1. Travel North to the ladder at (3, 2).
-    2. Enter the North side of Switch Room Entrances (3_54).
-    3. Search for a Rocket Grunt who might have the Uniform.
-- **Map Structure:**
-    - 3_54 West: Connected to Tunnel South (3, 34) and City South Entrance?
-    - 3_54 East: Connected to Tunnel North (3, 2) and City North Entrance?
-    - 3_53 (Tunnel): Connects West and East sides.
-- **Map Notes:**
-    - 3_54 South: Ladder to tunnel at (5, 25).
-    - 3_53 (Main Tunnel): Ladder to South at (3, 34). Ladder to North at (3, 2).
-    - Locked door at (18, 7). "NO ENTRY" sign at (19, 6).
-- **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
