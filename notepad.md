@@ -99,3 +99,5 @@
 - **Action:** Inspecting Inner Boxes at (14, 8) to see if they are interactable.
 - **Hypothesis:** "Line of Sight" mechanic - I need to be hidden from the workers for the layout to change.
 - **Plan:** Inspect boxes. If nothing, move to (17, 6) to "hide" behind the central wall and wait for a state change.
+- **Action:** Interacting with Box at (14, 8).
+- **Rationale:** Verifying if these boxes are interactable entities or just dynamic walls.
