@@ -55,4 +55,4 @@
     1. Switch to Calcifer (Typhlosion).
     2. Use Headbutt or Thunderpunch to weaken Suicune carefully.
     3. Use Great Balls and Ultra Balls when HP is low.
-- Status: Suicune HP is RED. Accuracy at -6. Rain is falling. Ultra Ball #2 failed. 1 remaining. Turn #11673.
+- Status: Suicune HP is RED. Accuracy at -6. Rain is falling. Ultra Ball #2 failed. 1 remaining. Plan: Use final Ultra Ball, then Great Balls. Turn #11674.
