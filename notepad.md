@@ -62,3 +62,15 @@
 # Map Discoveries (Turn #12191)
 - Ecruteak City (4_9) Isolated Sections: The Tin Tower Grounds (east of x=31) are physically separated from the main city. The only way out is via Fly or through the Tin Tower 1F -> Wise Trios Room path.
 - Strategy: Use Fly to exit the grounds and reach the main city quickly.
+
+# Reflection Turn #12204
+- Immediate Execution: Deferred tracking Suicune location due to menu navigation errors. Fixed now by opening Pokédex.
+- Notepad Hygiene: Merged "Suicune Hunt Log" sections. Added "Tile Mechanics" global section.
+- Map Hygiene: Added markers for Ecruteak gatehouses and Suicune pedestals.
+- Automation: Refined `navigate_to_route_37_exit` (in thought, will apply if needed). Created `suicune_capture_analyst`.
+- Goal Clarity: Goals are focused on outcomes.
+- Error Analysis: Navigation loop at Tin Tower was caused by direction confusion. Lesson: Always move 3+ tiles away from a warp before attempting complex pathfinding.
+
+# General Lessons Learned
+- Navigation Buffer: After using a warp, move at least 3 tiles in a consistent direction before starting a new `path_plan` to prevent accidental re-entry loops.
+- Roaming Logic: Flying resets roaming Pokémon to random routes. Map transitions move them to adjacent routes.
