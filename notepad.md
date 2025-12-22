@@ -3,14 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** accessing PC at (3, 5).
+- **Navigation:** Exiting Elm's Lab.
 - **Status:** Inside Elm's Lab.
-- **Reason:** Elm ignored the Rocket crisis to ask about Togepi. Need to show him Togepi to progress.
+- **Reason:** The PC in the lab seems to be decorative or inaccessible (no response). Switching to the PC in my room at New Bark Town.
 - **Plan:**
-    1. Access PC.
-    2. Deposit Kenya (Spearow) - Belladonna has Cut, so keep her.
+    1. Exit Lab.
+    2. Go to Player's House.
     3. Withdraw Togepi.
-    4. Talk to Elm.
+    4. Return to Elm.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
