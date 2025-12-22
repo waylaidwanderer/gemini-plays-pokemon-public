@@ -11,12 +11,11 @@
 # Current Strategy: Tin Tower Investigation
 - Primary Goal: Investigate the Tin Tower in Ecruteak City.
 - Mission Start: Turn #11243, Timestamp: Sunday, Dec 21, 11:00 PM.
-- Method: Travel to Ecruteak City and find the Tin Tower.
-- Path: Goldenrod City -> Route 35 -> Route 36 -> Route 37 -> Ecruteak City.
-- Tactical: Use the Clear Bell at the Tin Tower.
+- Method: Travel to Ecruteak City and find the Tin Tower via Route 35, 36, and 37.
+- Tactical: Use the Clear Bell at the Tin Tower. Purchase Ultra Balls at Goldenrod Dept. Store.
+- Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
 
 # Observations (Radio Tower Takeover - COMPLETED)
-- Team Rocket disbanded.
 - Director rescued, CLEAR BELL obtained.
 - Radio Tower 5F: Rocket Executive (Office) defeated. Ultra Ball found at (8, 5).
 - Radio Tower 4F: Rocket Executive defeated.
@@ -41,20 +40,14 @@
 5. SHUCKIE (SHUCKLE): Lv15 (F)
 
 # Findings
-- Card Key obtained from the real Director at (12, 8) in Map 3_56. (Turn 11056)
-- Found TM35 Sleep Talk at (13, 9) in Map 3_56. (Turn 11058)
-- Found Max Ether at (18, 15) in Map 3_56. (Turn 11060)
-- Found Amulet Coin at (14, 2) in Map 3_55. (Turn 11039)
-- Found Ultra Ball at (2, 1) in Map 3_56. (Turn 11006)
-- Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
+- Found TM35 Sleep Talk at (13, 9) in Map 3_56.
+- Found Max Ether at (18, 15) in Map 3_56.
+- Found Amulet Coin at (14, 2) in Map 3_55.
+- Found Ultra Ball at (2, 1) in Map 3_56.
+- Found Full Heal at (14, 9) in Map 3_54.
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
 
 # Battle Notes
 - Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
-- Team Rocket disbanded after defeating the Executive on 5F.
-- Received CLEAR BELL from the Director.
-- Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
-- Obtained ULTRA BALL from Radio Tower 5F (8, 5).
-- Director rescued, CLEAR BELL obtained.
