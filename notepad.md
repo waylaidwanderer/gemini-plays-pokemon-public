@@ -8,18 +8,27 @@
 
 # Puzzle: Goldenrod Underground Switch Room
 - Switch Puzzle Start: Turn 10284
-- Switch Puzzle Start: Turn 10284. Phase: Executing 3-2-1.
-- Time Tracking: Started Turn 10284. Currently Turn 10366.
-- Sequence Step: 2 of 3 (S2). In progress.
+- Phase: Executing 3-2-1 Sequence. Step 2 Complete.
+- Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
+- Time Tracking: Started Turn 10284. Currently Turn 10368.
+
+## Verified Shutter Logic
+- S3 (2,1): Toggles (2,6), (3,6), (12,8). (Verified Turn 10313)
+
+## Hypothesized Shutter Logic
+- S2 (10,1): Toggles (10,6), (12,8), (6,8).
+- S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
+- Note: (17,6) needs verification (WALL vs SHUTTER).
 
 ## Strategy: 3-2-1 Sequence Execution (Attempt 3)
 - Goal: Open path to the Warehouse Entrance in the southeast.
 - Progress:
   - 1. S3 ON: Done (Turn 10357).
-  - 2. S2 ON: In progress (Turn 10366).
+  - 2. S2 ON: Done (Turn 10365).
   - 3. S1 ON: Next.
 - Verification: Test (17,6) traversability when S1 is ON.
-- Switch Puzzle Start: Turn 10284. Phase: Step 2 Complete. Moving to S1.
+
+# Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11).
 - Return Ladders: (23,3), (21,25), (5,25).
