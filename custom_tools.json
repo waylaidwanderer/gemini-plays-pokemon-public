@@ -195,12 +195,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        num_rights = int(input_data.get('num_rights', 0))\n        num_downs = int(input_data.get('num_downs', 0))\n        \n        buttons = []\n        for _ in range(num_rights):\n            buttons.append(\"Right\")\n            buttons.append(\"sleep 200\")\n        for _ in range(num_downs):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        if len(sys.argv) < 2:\n            print(json.dumps([\"B\"])) # Return a safe button if no input\n            return\n\n        input_data = json.loads(sys.argv[1])\n        num_rights = int(input_data.get('num_rights', 0))\n        num_downs = int(input_data.get('num_downs', 0))\n        \n        buttons = []\n        # Page Down is 10 entries per press\n        for _ in range(num_rights):\n            buttons.append(\"Right\")\n        # Scroll Down is 1 entry per press\n        for _ in range(num_downs):\n            buttons.append(\"Down\")\n        \n        if not buttons:\n            buttons = [\"B\"] # Default action if nothing to do\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback to a safe output\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-22T13:35:50.715Z",
         "action_counter": 12091
+      },
+      {
+        "commit_message": "Refined error handling and added default values to ensure robustness. Removed sleep commands to comply with autopress_buttons efficiency.",
+        "timestamp": "2025-12-22T13:37:37.980Z",
+        "action_counter": 12097
       }
     ]
   }
