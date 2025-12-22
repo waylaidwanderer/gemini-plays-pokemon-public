@@ -3,12 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Explore South in the Underground.
+- **Navigation:** Enter Switch Room (South Underground).
 - **Plan:**
-    1. Move South through the tunnel.
-    2. Look for a Rocket Grunt who might give a uniform.
-    3. If found, obtain uniform.
-    4. If not found, check the Switch Room or other areas.
+    1. Enter Switch Room via ladder at (3, 34).
+    2. Search for Rocket Grunt with uniform.
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
