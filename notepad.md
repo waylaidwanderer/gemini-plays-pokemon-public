@@ -46,4 +46,4 @@
 - **Radio Tower:** Current Location.
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
-- **Status:** Battling Rocket Grunt at (4, 1). He was a trainer after all.
+- **Status:** Battling Rocket Grunt at (4, 1). Facing 2nd Zubat.
