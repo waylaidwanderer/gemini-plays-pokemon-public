@@ -13,12 +13,12 @@
 
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym.
-- **Location:** Ice Puzzle (5, 10).
-- **Progress:** Defeated Skier Clarissa and Boarder Brad.
-- **Current Task:** Solve Ice Puzzle.
+- **Location:** Ice Puzzle (9, 10).
+- **Progress:** Slid East successfully.
+- **Current Task:** Solving Ice Puzzle.
 - **Plan:**
-    1. Slide East from (5, 10) to (9, 10).
-    2. Slide North from (9, 10) to (9, 7).
-    3. Slide West from (9, 7) to (4, 7).
-    4. Battle Beauty at (4, 6).
+    1. Slide North from (9, 10) to (9, 7).
+    2. Slide West from (9, 7) to (4, 7).
+    3. Battle Beauty at (4, 6).
+    4. Reach Pryce.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
