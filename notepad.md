@@ -21,14 +21,17 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exploring Mahogany Town South.
-- **Location:** Near Pokemon Center (15, 13).
-- **Objective:** Heal at Pokemon Center.
+- **Status:** In Pokemon Center (Mahogany Town).
+- **Progress:** Team Healed.
+- **Inventory Status:** 
+  - Bag: 19/20 Items (Almost Full).
+  - PC Box 1: 15/20 (5 slots left).
+- **Current Task:** Gather intel from NPCs in Pokemon Center.
 - **Next Steps:**
-    1. Enter Pokemon Center and Heal.
-    2. Manage PC Boxes (Box 1 is getting full).
-    3. Locate and Challenge Gym.
-- **Inventory Note:** Items Pocket full. Need to sell or toss items soon.
+    1. Talk to Cooltrainer F and Youngster.
+    2. Consider switching PC Box if paranoid, or just proceed to Gym.
+    3. Locate and Challenge Pryce.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
