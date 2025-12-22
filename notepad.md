@@ -43,3 +43,6 @@
 - **Action:** Moved to `(5, 8)`. Interacted (Right+A) with Box `(6, 8)`.
 - **Reason:** "Junk" hint + "Take it" -> Suggests interactable object (maybe Uniform?).
 - **Hypothesis:** One of these boxes contains the Team Rocket Uniform.
+- **Action:** Attempting to PUSH Box `(6, 8)` DOWN from `(6, 7)`.
+- **Method:** Walk Down into the box. Strength is active.
+- **Hypothesis:** These boxes are the "Junk" and can be moved to clear a path or reveal something.
