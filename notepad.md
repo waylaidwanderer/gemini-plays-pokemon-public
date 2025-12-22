@@ -13,3 +13,4 @@
 - **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
 - **Map Markers:** Distinguish PC types (Storage vs Research) to avoid confusion.
 - **Menu Hygiene:** Ensure menus are fully closed to avoid state desync.
+- **Navigation Lesson:** Always verify the path against specific tile data (Mental Map/ASCII) to identify obstacles like Headbutt Trees or Walls before defining a path plan. Straight lines are rarely safe.
