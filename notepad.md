@@ -3,30 +3,39 @@
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Super Repel active (Turn #12893). 6 left.
-- Task Timestamp: Grass Dance task started Turn #12861.
+- Task Timing: Started Turn #12861. Goal is to encounter Suicune on Route 38.
 
 # Roaming Pokémon Reference
-- Tracking: Use Pokédex AREA map. Access: Pokedex -> Entry -> AREA.
-- Movement: Roamers shift routes ONLY when the player crosses a map boundary (warp/carpet) or after a battle with the roamer.
-- Note: Flying counts as crossing boundaries. Pacing in grass does NOT move them. Phone calls do NOT move them.
-- Capture: Status (Sleep/Paralysis) and HP damage are permanent between encounters. Sleep is highly recommended to prevent fleeing on Turn 1.
-- Catch Odds: ~5.66% with Sleep + Great Ball at 1 HP. Reducing HP is highly recommended. Suicune is Lv 40.
+- Tracking: Use Pokédex AREA map. (Start -> POKEDEX -> Select Suicune -> AREA).
+- Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge) or after a battle.
+- Note: Flying counts as crossing boundaries. Pacing in grass or phone calls do NOT move it.
+- Capture: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1.
+- Catch Odds: ~5.66% with Sleep + Great Ball at 1 HP. Suicune is Lv 40.
 
-# Tile Mechanics (Route 38)
-- TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
-- FLOOR: Traversable. Standard ground.
+# Tile Mechanics (Global)
+- TALL_GRASS: (x,y) -> (x,y). Traversable. Triggers wild encounters. Repel Trick works here.
+- FLOOR: (x,y) -> (x,y). Traversable. Standard ground.
 - WALL / HEADBUTT_TREE: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
-- WARP_CARPET_RIGHT: Traversable. Triggers map transition to Ecruteak Gatehouse.
+- WARP_CARPET_RIGHT: Traversable. Triggers map transition.
+
+# Route 38 Specifics
+- Suicune Hunting Spot: (28, 7) tall grass.
+- Boundary: Route 38 (0, 10) <-> Route 39 (19, 10). Crossing this shifts Suicune.
 
 # PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
-# General Lessons Learned
-- Tool Reliability: Custom tools for menu navigation (like `check_suicune_location_v2`) must explicitly handle the 'menu_already_open' state and initial cursor position to avoid sequence breaks.
-- Repel Refresh: If a Repel wears off, the game may still block encounters for 1 step. Move to reset the state.
-- Roamer Logic: Roamers only move when you change maps. You can safely pace in one area indefinitely once they are trapped there.
+# Lessons Learned & Error Analysis
+- Tool Failure (check_suicune_location_v2): The tool failed due to incorrect menu indexing and handling of the Pokedex entry state. Manual navigation is safer until refined.
+- Stagnation (Turn 12921-12930): Attempting to reuse a broken tool leads to loops. Fix tools immediately or switch to manual.
+- Repel Refresh: Move to reset encounter logic after Repel wears off.
+- Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
 
-# Suicune Capture Strategy Detail
-- Lead: Gloom (KIMCHI) Lv 21. Move: Sleep Powder (Acc: 75%).
-- Odds: ~0.59% with Great Ball at full HP. Status (Sleep) is the priority.
+# Pokedex Navigation Sequence (Verified)
+1. Press Start to open Menu.
+2. Select POKEDEX (index 0) and press A.
+3. Select Suicune from list and press A.
+4. Cursor starts on PAGE. Press Right to select AREA.
+5. Press A to view map.
+6. Press B multiple times to exit.
