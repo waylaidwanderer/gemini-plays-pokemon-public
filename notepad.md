@@ -54,3 +54,4 @@
 - Hypothesis Test: Checking Elevator for hidden/unlisted 'B1F' button.
 - Navigation Note: Counters at (12,1)-(9,2) block direct left movement. Must go down to Row 3 to bypass them.
 - Status: Inside Elevator. Moving to controls to check for Basement button.
+- Confirmation: Elevator has a B1F button! Going down to investigate.
