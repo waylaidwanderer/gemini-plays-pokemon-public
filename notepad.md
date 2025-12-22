@@ -3,14 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Talking to Elm.
-- **Status:** Listening to Elm.
-- **Reason:** Advancing dialogue to receive the Everstone.
+- **Navigation:** Preparing for Radio Tower.
+- **Status:** At Elm's Lab. Received Everstone.
+- **Reason:** Need to strengthen team for Team Rocket battles. Togepi is weak; Gyarados (Box 1) is Lv30 and strong.
 - **Plan:**
-    1. Advance text (B x10).
-    2. Receive Everstone.
-    3. Exit Lab.
-    4. Heal at home (optional) or Fly back to Goldenrod.
+    1. Go to PC (3, 5).
+    2. Deposit Togepi.
+    3. Withdraw Gyarados (QAAGMAQNJW).
+    4. Fly to Goldenrod City.
+    5. Infiltrate Radio Tower.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
