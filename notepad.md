@@ -33,6 +33,12 @@
 - Item Requirements: ~50 Great Balls, 3 Ultra Balls.
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
 
+# Ecruteak Tower Lore
+- Original state: Two nine-tier towers.
+- Brass Tower: Purpose was to awaken Pokémon. Roost of an immense, silver-colored Pokémon.
+- Tin Tower: Purpose was for Pokémon to rest.
+- The Great Fire: 150 years ago, lightning struck the Brass Tower. It burned for 3 days until a sudden downpour extinguished it. The ruins are now known as the Burned Tower.
+
 # Observations (Radio Tower Takeover - COMPLETED)
 - Director rescued, CLEAR BELL obtained.
 - Radio Tower 5F: Rocket Executive defeated. Ultra Ball found at (8, 5).
