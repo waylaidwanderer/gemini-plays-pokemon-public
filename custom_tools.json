@@ -195,7 +195,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # The input is provided as a JSON string in the first argument\n        input_json = sys.argv[1]\n        data = json.loads(input_json)\n        \n        # Extract values with defaults\n        rights = int(data.get(\"num_rights\", 0))\n        downs = int(data.get(\"num_downs\", 0))\n        \n        # Build the sequence of buttons\n        # Page Down (Right) scrolls by 10 entries\n        # Scroll Down (Down) scrolls by 1 entry\n        buttons = ([\"Right\"] * rights) + ([\"Down\"] * downs)\n        \n        # If no movement is requested, do nothing or back out\n        if not buttons:\n            buttons = [\"B\"]\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Safe fallback\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        if len(sys.argv) < 2:\n            print(json.dumps([\"B\"]))\n            return\n\n        input_data = json.loads(sys.argv[1])\n        rights = int(input_data.get('num_rights', 0))\n        downs = int(input_data.get('num_downs', 0))\n        \n        buttons = []\n        for _ in range(rights):\n            buttons.append(\"Right\")\n            buttons.append(\"sleep 250\")\n        for _ in range(downs):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 250\")\n        \n        if not buttons:\n            buttons = [\"B\"]\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -211,6 +211,11 @@
         "commit_message": "Simplified the logic for better reliability. Added explicit integer conversion and ensured the keys match the schema exactly.",
         "timestamp": "2025-12-22T13:43:12.243Z",
         "action_counter": 12110
+      },
+      {
+        "commit_message": "Added sleep commands for menu stability and improved error handling. Verified logic for Rights (Page Down) and Downs (Scroll).",
+        "timestamp": "2025-12-22T13:47:15.080Z",
+        "action_counter": 12121
       }
     ]
   }

@@ -1,8 +1,8 @@
 # Suicune Tracking
 - Observation (Turn #12014): Suicune is missing from its pedestal at (9, 9) in Tin Tower 1F.
 - Hypothesis: Suicune fled because of the previous white-out and is now roaming or triggered to return elsewhere.
-- Johto Pokédex: Suicune is #245. (Matches National Dex).
-- Start of Pokédex Search: Turn #12027.
+- Pokédex Info: Suicune is #239 in Johto (New) Pokédex and #245 in National (Old) Pokédex.
+- Time Tracking: Start of Pokédex Search (Turn #12027).
 
 # Strategy for Suicune Rematch (If Roaming)
 1. Lead with KIMCHI (Gloom) or a fast Pokémon.
