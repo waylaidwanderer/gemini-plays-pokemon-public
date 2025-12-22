@@ -10,15 +10,18 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) facing LEFT triggers the mechanism.
+- **Status:**
+    - Player at (8, 10) facing Right.
+    - NPC 5 at (9, 10).
+    - **Action:** Interact (A) to turn him LEFT.
 - **Plan:**
-    1. **Setup:** Move to (8, 10).
-    2. **Trigger:** Catch NPC 5 at (9, 10).
-    3. **Interact:** Face Right + A. He turns LEFT.
-    4. **Lock:** Stun him.
-    5. **Verify:** Check Top (10, 8) and Bottom (10, 13) gates.
+    1. **Interact:** Press A. He turns LEFT.
+    2. **Lock:** Next turn, Stun him facing LEFT.
+    3. **Verify:** Check Top (10, 8) and Bottom (10, 13) gates.
 - **Discarded:**
-    - NPC 6/7 Directions - Failed.
+    - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
+    - Blocking Paths - Failed.
 
 ## Status
 - Player moving to (8, 10).
