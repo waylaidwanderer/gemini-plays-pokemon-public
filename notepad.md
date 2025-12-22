@@ -19,6 +19,7 @@
 - Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
 - Map 3_20 (4F): Restricted area. Stairs to 5F at (12, 0). Stairs to 3F at (17, 0).
 - Map 3_19 (3F): Card Key used at (14, 2) to unlock shutters.
+- Map 3_21 (5F): Restricted area. Stairs to 4F at (12, 0).
 
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
@@ -26,8 +27,6 @@
 - Rocket Executive (4F): Golbat Lv36.
 - Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans Lv21, Gloom.
 - Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
-- Rocket Grunt (M) (Warehouse): Raticate Lv24, Raticate Lv24.
-- Rocket Grunt (M) (Warehouse): Grimer Lv23, Muk Lv25.
 
 # PC Storage (Box 1)
 1. ROCKY (ONIX): Lv6 (M)
