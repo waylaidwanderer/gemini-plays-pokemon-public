@@ -4,16 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Swapping Kenya for Togepi.
-- **Status:** Depositing Kenya.
-- **Reason:** Mail removed. Now accessing PC to deposit Kenya.
+- **Status:** Accessing Bill's PC (Correction).
+- **Reason:** Accidentally entered Gem's PC (Item Storage). Backing out to enter Bill's PC.
 - **Plan:**
-    1. Exit Party Menu (B).
-    2. Exit Start Menu (B).
-    3. Access PC (A).
-    4. Select Bill's PC (A).
-    5. Select Deposit PKMN (Down, A).
-    6. Deposit Kenya.
-    7. Withdraw Togepi.
+    1. Exit Gem's PC (B).
+    2. Select Bill's PC (Up, A).
+    3. Select Deposit PKMN (Down, A).
+    4. Select Kenya (Down x4).
+    5. Deposit (A).
+    6. Withdraw Togepi.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
