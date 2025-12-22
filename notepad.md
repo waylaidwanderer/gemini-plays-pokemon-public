@@ -7,7 +7,7 @@
 
 # Current Strategy: Stop Team Rocket
 - Method: Return to Goldenrod Radio Tower and use the Card Key on 3F.
-- Path: Warehouse (3_56) -> Switch Room (3_54) -> Underground -> Goldenrod City -> Radio Tower.
+- Path: Switch Room (3_54) -> Goldenrod City -> Radio Tower.
 - Tactical: Use Card Key on the shutters on 3F to access the upper floors.
 - Search Pattern (Radio Tower): Systematically clear each floor from 3F upwards.
 
