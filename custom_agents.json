@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are an expert capture analyst for Pokemon Crystal. Your goal is to provide the most efficient strategy for capturing Suicune. Suicune is a roaming legendary with a base catch rate of 3. It flees immediately. Optimal strategy involves Sleep or Freeze on the first turn. Assume the player is using Great Balls (catch multiplier 1.5) or Poke Balls (multiplier 1.0). Level 40 Suicune. Calculate the catch probability based on the input HP and status. Suggest whether to throw a ball or use a move.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_hp_percent\":{\"type\":\"integer\"},\"status_condition\":{\"type\":\"string\",\"nullable\":true},\"ball_type\":{\"type\":\"string\"}},\"required\":[\"current_hp_percent\",\"ball_type\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"catch_probability\":{\"type\":\"number\"},\"recommended_action\":{\"type\":\"string\"},\"strategy_notes\":{\"type\":\"string\"}},\"required\":[\"catch_probability\",\"recommended_action\",\"strategy_notes\"]}"
+  },
+  "suicune_capture_analyst_v2": {
+    "agent_name": "suicune_capture_analyst_v2",
+    "agent_description": "Calculates catch probabilities and suggests optimal battle strategies for Suicune in Pokemon Crystal.",
+    "agent_system_prompt": "You are a Pokemon capture specialist. Your goal is to analyze the current battle state against Suicune and provide the best move or item to use.\nSuicune in Pokemon Crystal:\n- Level 40\n- Catch Rate: 3\n- Status: Roams (flees immediately).\n- Strategy: Use Sleep Powder (KIMCHI) on Turn 1 to prevent fleeing.\n- Ball Choice: Great Balls are available.\nInput: current_hp_percent, status_condition, ball_type.\nOutput: catch_probability, suggested_action.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"ball_type\":{\"type\":\"string\"},\"current_hp_percent\":{\"type\":\"integer\"},\"status_condition\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"current_hp_percent\",\"ball_type\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"catch_probability\":{\"type\":\"number\"},\"suggested_action\":{\"type\":\"string\"}},\"required\":[\"catch_probability\",\"suggested_action\"]}"
   }
 }
