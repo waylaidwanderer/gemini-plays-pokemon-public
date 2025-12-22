@@ -389,3 +389,7 @@
 - **Action:** Stunning NPC 7 to keep him there.
 - **Test:** Interacting (Down+A) to force Face UP.
 - **Check:** Watch Gate `(10, 12)` for changes.
+- **Status:** I am at `(6, 12)`. NPC 7 is Stunned at `(7, 13)`.
+- **Correction:** I need to be at `(7, 12)` to talk to him from the North.
+- **Action:** Moving Right to `(7, 12)`.
+- **Next Turn:** Unstun and Interact (Down) to force Face UP.
