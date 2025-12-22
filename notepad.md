@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Fly Map (at Lake of Rage).
-- **Reason:** Cursor surprisingly ended up at Lake of Rage. Navigating to Goldenrod from there.
+- **Status:** In Fly Map (at Cianwood City).
+- **Reason:** Previous inputs unexpectedly landed on Cianwood. Adjusting course to Goldenrod.
 - **Plan:**
-    1. Press Down (Target: Mahogany).
-    2. Press Left (Target: Ecruteak).
+    1. Press Right (Target: Olivine).
+    2. Press Right (Target: Ecruteak).
     3. Press Down (Target: Goldenrod).
     4. Verify destination text.
     5. Press A to Fly.
