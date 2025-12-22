@@ -58,3 +58,7 @@
 - Status (Turn #12189): Suicune is roaming. Checking Pokédex to track its location.
 - Suicune Hunt officially tracked starting Turn #12156.
 - Lead: KIMCHI (Gloom Lv 21) for Sleep Powder and Repel filtering (Repel filters < Lv 21, Suicune is Lv 40).
+
+# Map Discoveries (Turn #12191)
+- Ecruteak City (4_9) Isolated Sections: The Tin Tower Grounds (east of x=31) are physically separated from the main city. The only way out is via Fly or through the Tin Tower 1F -> Wise Trios Room path.
+- Strategy: Use Fly to exit the grounds and reach the main city quickly.
