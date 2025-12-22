@@ -10,15 +10,14 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
 - **Hypothesis:** "Work behind scenes where no one can see us."
-    - Gates close if Player is SEEN by NPCs.
-    - Currently at (8, 13), likely seen by NPC 7 (at 6, 13 facing Right).
-- **Test:**
-    1. **Hide:** Move to (8, 12) (Out of NPC 7's sight).
-    2. **Observe:** Check if gates at (10, 13) open (Turn to FLOOR).
-    3. **Execute:** If open, wait for NPC 7 to turn away (Left), then rush in.
-- **Backups:**
-    - If hiding doesn't work, maybe I need to interact with NPC 7 to make him turn.
-    - Or maybe NPC 5 controls it.
+    - NPC 5 said this. Need to check if NPC 7 says the same.
+- **Action:** Talk to NPC 7 at (7, 13).
+- **Plan:**
+    1. **Move** to (8, 13).
+    2. **Turn** Left.
+    3. **Talk** (Press A).
+    4. **Observe** if he turns or if gates change.
+- **Note:** NPC 7 patrols (5, 13) to (8, 13). If he isn't at (7, 13), I might miss him, but standing at (8, 13) blocks his path into the hallway, forcing an interaction eventually.
 
 ## Status
 - Player at (9, 9).
