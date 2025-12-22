@@ -68,4 +68,4 @@
     1. Switch to Calcifer (Typhlosion).
     2. Use Headbutt or Thunderpunch to weaken Suicune carefully.
     3. Use Great Balls and Ultra Balls when HP is low.
-- Status: Calcifer (Typhlosion) is out. Suicune HP ~90%. Starting Smokescreen strategy. Turn #11644.
+- Status: Calcifer (Typhlosion) is out. Suicune HP ~90%. Smokescreen count: 1. Suicune used Rain Dance. Rain is falling. Turn #11646.
