@@ -1,5 +1,5 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Last confirmed on Route 37 (Turn #12216).
+- Status: Roaming. Last confirmed on Route 37 (Turn #12293).
 - Strategy: Lead with KIMCHI (Gloom Lv 21). Use Super Repel (filters < Lv 21). Suicune is Lv 40.
 - Method: Pacing (Grass Dance) on confirmed route. **Avoid SWEET SCENT** (ignores Repel).
 - Battle Plan: Sleep Powder (Turn 1). Use `suicune_capture_analyst` for capture optimization.
