@@ -14,11 +14,12 @@
 | (1,0,0) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Verified Toggle Logic (From 0,0,0 baseline)
-- Switch 1 (16,1): Toggles (16,6), (17,6). Does NOT toggle (10,6), (6,8), (12,8) when S3,S2 are OFF.
+- Switch 1 (16,1): Toggles (16,6), (17,6).
 - Switch 2 (10,1): TBD.
-- Switch 3 (2,1): TBD.
+- Switch 3 (2,1): Toggles (2,6), (3,6), (12,8).
 
 ## Toggle Log
+- Turn 10432: (1,0,0) verified visually. (2,6), (3,6) are OPEN. (12,8) is CLOSED.
 - Turn 10415: (0,0,1) verified visually. (16,6), (17,6) are OPEN. (10,6), (6,8) are CLOSED. (12,8) is OPEN.
 - Turn 10400: (0,0,0) verified visually. (10,6), (6,8), (16,6), (17,6) are CLOSED. (12,8) is OPEN.
 - Observation: Logic may be conditional (e.g., S1 toggles (12,8) only if S3 is ON). Systematic mapping from (0,0,0) will isolate primary effects.
