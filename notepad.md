@@ -3,15 +3,16 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Accessing PC at (2, 2).
+- **Navigation:** Exiting Player's House to Fly.
 - **Status:** Inside Player's Room (2F).
-- **Reason:** Need to access PC to swap Kenya for Togepi.
+- **Reason:** Player's PC only holds items. Need a PokeCenter for Pokemon Storage.
 - **Plan:**
-    1. Interact with PC.
-    2. Select "Bill's PC".
-    3. Deposit Kenya (Spearow).
-    4. Withdraw Togepi.
-    5. Return to Elm.
+    1. Exit Player's House.
+    2. Fly to Goldenrod City.
+    3. Go to PokeCenter.
+    4. Deposit Kenya, Withdraw Togepi.
+    5. Fly back to New Bark Town.
+    6. Talk to Elm.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
