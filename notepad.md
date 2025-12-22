@@ -16,7 +16,7 @@
 # Strategy: Tin Tower Investigation
 - Mission Start: Turn #11243.
 - Current Task Turn Start: #11483 (Entering Ecruteak).
-- Wise Trio Battle Start: Turn #11502.
+- Wise Trio Battle: Start #11502, End #11562 (60 turns).
 - Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City via Route 35, 36, and 37.
 - Strategist Advice (Turn #11491):
@@ -78,10 +78,9 @@
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
 - Turn #11489: Swapping lead failed due to truncated button sequence. Fixed custom tool.
+- Turn #11578-11580: Pressed A repeatedly in menu. Lesson: Use B to clear messages and exit menus efficiently.
 
-# Wise Trio Battle Strategy
-- Sage GAKU: Noctowl (Calcifer w/ ThunderPunch), Flareon (GNEISS w/ Earthquake).
-- Strategy: Use type advantages. Calcifer for Flying/Water, GNEISS for Fire/Poison.
-
-# Lessons Learned
-- Turn #11527: Tried to switch to the already active Pokémon. Lesson: Always check the active Pokémon status before switching in battle.
+# Wise Trio Battle Summary
+- Defeated Sages Gaku, Masa, and Koji.
+- Proved worthiness to enter the Tin Tower.
+- Learned the history of the Burned and Tin Towers.
