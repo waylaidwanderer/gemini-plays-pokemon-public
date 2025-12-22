@@ -9,18 +9,16 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** "Junk" on the ground (Bottom Left) is a hidden item blocking the puzzle.
-- **Evidence:** NPC 7 said "Stuff on ground is junk, take it."
-- **Plan:**
-    1. **Tool:** Use `ITEMFINDER` from the menu (Key Items Pocket).
-    2. **Search:** If positive, check tiles in Row 13 (5-8).
-    3. **Result:** Finding the item should unblock NPC 7's patrol.
-
-## Discarded Hypotheses
-- **NPC 6 (Top Left):** Facing Right/Up/Left/Down did not open Top Gates.
-- **NPC 5 (Middle):** Area leads to dead end at (12, 11).
-- **Machop:** Interaction yielded only text.
-- **Manual Search:** Pressed A on (7, 13) and (8, 13) - Found nothing.
+- **Active Hypothesis:** "Junk" on ground (Bottom Left) is a hidden item blocking NPC 7.
+- **Action:** Using `Itemfinder` (Key Item).
+    1. **Switch Pockets:** Key Items.
+    2. **Select:** Itemfinder.
+    3. **Use:** Check for response.
+    4. **Search:** If positive, pinpoint item (Likely row 13).
+- **Discarded Hypotheses:**
+    - NPC Facing Direction (Top/Bottom/Middle) - Failed.
+    - Machop Interaction - Failed.
+    - Manual Search without Itemfinder - Failed.
 
 ## Status
 - Player at (9, 9).
