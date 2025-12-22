@@ -18,8 +18,9 @@
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
 # Current Strategy: Enter Warehouse
-1. Sequence 3-2-1 complete. Path at (2, 6) is OPEN.
-2. Navigate south via (2, 6) to find the Warehouse entrance.
+1. Sequence 3-2-1 complete. Path at (2, 6) and (6, 8) is OPEN.
+2. Navigate south via (2, 6) to (2, 13) to find the Warehouse entrance.
+3. Locate the warp to Map 3_55.
 
 # Lessons Learned
 - Toggling S1 and S2 both affects shutter (12, 8). If both are ON, it returns to OPEN.
