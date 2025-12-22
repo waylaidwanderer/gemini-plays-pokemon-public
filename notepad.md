@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Exiting Elm's Lab.
-- **Reason:** Mission accomplished in New Bark Town. Heading to Goldenrod to swap team and tackle Radio Tower.
+- **Status:** Selecting Mistral to Fly.
+- **Reason:** Phone call cleared. Ready to Fly to Goldenrod to swap team and tackle Radio Tower.
 - **Plan:**
-    1. Exit Lab (Down).
-    2. Fly to Goldenrod City.
-    3. Enter PokeCenter.
-    4. Deposit Togepi / Withdraw Gyarados.
-    5. Head to Radio Tower.
+    1. Open Menu (Start).
+    2. Enter Pokemon (Down, A).
+    3. Select Mistral (Down x3, A).
+    4. Select FLY.
+    5. Select Goldenrod City.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
