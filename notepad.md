@@ -36,3 +36,4 @@
 # Menu Navigation
 - Circular Menu: Unreliable fixed Up/Down counts. Verify cursor position.
 - Pokédex AREA: Press 'A' on entry -> move to 'AREA' -> press 'A'.
+- Active Status: Repel active (Turn #12519). Steps: 0/100.
