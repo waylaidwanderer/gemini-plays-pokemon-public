@@ -10,7 +10,7 @@
 
 # Current Plan: 3-2-1 Sequence and Mapping
 1. Baseline: (0,0,0) confirmed (S3=OFF, S2=OFF, S1=OFF). Verified Turn 10561.
-2. Turn S3 ON (at 2,1).
+2. Turn S3 ON (at 2,1). (Action taken Turn 10564)
 3. Run shutter report to map S3 effects.
 4. Turn S2 ON (at 10,1).
 5. Run shutter report to map S2 effects.
