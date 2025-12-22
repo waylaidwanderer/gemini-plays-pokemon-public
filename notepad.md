@@ -11,15 +11,13 @@
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face RIGHT to open gates.
 - **Status:**
-    - Player at (9, 11) (Correcting position).
-    - NPC 5 at (9, 10).
-    - **Action:** Moving Right to (10, 11) to get into position.
+    - Player at (10, 10).
+    - NPC 5 at (9, 10) Facing RIGHT.
+    - **Action:** Stunned NPC 5. Moving to check Bottom Gates (10, 12)/(11, 12).
 - **Plan:**
-    1. **Position:** Move to (10, 11).
-    2. **Wait:** Wait for NPC 5 to reach (9, 11).
-    3. **Interact:** Face Left + A. He turns RIGHT.
-    4. **Lock:** Stun him.
-    5. **Verify:** Check Top/Bottom gates.
+    1. **Lock:** Stun NPC 5 (Done).
+    2. **Verify:** Move Down to (10, 11) and try to enter (10, 12).
+    3. **Iterate:** If gates closed, try turning him UP or DOWN? Or maybe NPC 6 needs to be manipulated too.
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
