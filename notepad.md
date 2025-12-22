@@ -42,8 +42,9 @@
 - Pacing count: ~150 steps.
 - Remaining steps: ~50 steps.
 - Safeguard: Re-verify Suicune's location via Pokédex every 50 steps if no encounter occurs.
-- Encounter Strategy: Use Sleep Powder immediately on Turn 1.
+- Encounter Strategy: Use Sweet Scent to force encounter while on the same route as Suicune. Use Sleep Powder immediately on Turn 1. Use `suicune_capture_analyst` for ball choice.
 
-# General Lessons Learned
-- Navigation Buffer: After using a warp, move at least 3 tiles in a consistent direction before starting a new `path_plan` to prevent accidental re-entry loops.
-- Roaming Logic: Flying resets roaming Pokémon to random routes. Map transitions move them to adjacent routes.
+# Suicune Hunt - Hopping Phase
+- Border: Ecruteak City (18, 35) <-> Route 37 (18, 0).
+- Strategy: Cross border, check Pokedex AREA map. If Suicune is on Route 37, use Repel and encounter in grass. If not, cross back and repeat.
+- Lead: KIMCHI (Gloom Lv 21) for Sleep Powder and Repel filtering (Repel filters < Lv 21, Suicune is Lv 40).
