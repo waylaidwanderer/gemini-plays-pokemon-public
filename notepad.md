@@ -27,9 +27,8 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Finished battle with Super Nerd Teru. Dialogue indicates he is just a trainer.
+- **Status:** Finished checking Super Nerd Eric at (5, 31). He is not the Rocket.
 - **Goal:** Obtain Team Rocket Uniform.
-- **Immediate Task:** Clear text, then move South to the next Super Nerd at (7, 14).
-- **Next Target:** Super Nerd at (7, 14).
-- **Lore Note:** In Crystal, the uniform is usually given by a Rocket Grunt in this tunnel.
+- **Observation:** No Rocket Grunt found in the main tunnel.
+- **Plan:** Go down the ladder at (3, 34) to check the South Entrance area. The Rocket might be there.
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
