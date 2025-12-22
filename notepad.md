@@ -26,14 +26,18 @@
 
 ## Systematic Mapping Plan (Post-Battle)
 - Goal: Determine exact toggle logic for each switch.
-- Method:
-  1. Reset all switches to OFF.
-  2. Toggle S1 ON. Check all shutters (2,6), (3,6), (10,6), (16,6), (6,8), (12,8), (17,6).
-  3. Reset to OFF.
-  4. Toggle S2 ON. Check all shutters.
-  5. Reset to OFF.
-  6. Toggle S3 ON. Check all shutters.
-- Current Status: Defeating Rocket Grunt at (11,2).
+- Current Status: Starting reset to (0,0,0).
+- Reset Steps:
+  1. S2 (10,1) -> OFF (In progress)
+  2. S1 (16,1) -> OFF
+  3. S3 (2,1) -> OFF
+- Mapping Steps:
+  1. Toggle S1 ON. Check shutters (2,6), (3,6), (10,6), (16,6), (6,8), (12,8), (17,6).
+  2. Toggle S1 OFF.
+  3. Toggle S2 ON. Check shutters.
+  4. Toggle S2 OFF.
+  5. Toggle S3 ON. Check shutters.
+  6. Toggle S3 OFF.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
