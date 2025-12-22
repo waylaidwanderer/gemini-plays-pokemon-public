@@ -29,10 +29,6 @@
 - MART_SHELF: Impassable. Standard shop shelf.
 - COUNTER: Impassable. Can interact with NPCs across it.
 
-# Route 37 Specific Notes
-- TALL_GRASS at (8, 2), (9, 2), (7, 2): Pacing spot.
-- LEDGE_HOP_DOWN at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7).
-
 # PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
@@ -43,7 +39,6 @@
 - Overworld Interaction: Do not mix directional and action buttons in the same `press_buttons` call. Move adjacent first, then interact.
 
 # Menu Navigation
-- Circular Menu: Unreliable fixed Up/Down counts. Verify cursor position.
 - Pokédex AREA: Press 'A' on entry -> move to 'AREA' -> press 'A'.
 
 # Mart Locations & Inventories
@@ -67,8 +62,6 @@
 4. Cross map boundary to try and "trap" Suicune on the same route.
 5. Apply Repel Trick.
 
-# Suicune Boundary Dance Log
-- Start: Turn #12774. Location: Route 38/39.
-- Boundary: (0, 10) [38] <-> (19, 10) [39].
-- Goal: Trap on 38 or 39.
-- Step 2: 39 -> 38 (Turn #12779). Boundary dance.
+# Boundary Dance Tracking
+- Current Boundary: Route 38 (0, 10) < - > Route 39 (19, 10).
+- Suicune Last Seen: Route 42.
