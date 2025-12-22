@@ -4,7 +4,7 @@
 - Strategy: Tank with Blarney (Sudowoodo). Suicune's -6 accuracy is the only defense.
 - Capture Analyst: ~1.95% per Great Ball. Sleep unavailable (KIMCHI fainted, no Revives).
 - Hypothesis: Persistence with Great Balls is the only path forward.
-- Ball Count: 12 Great Balls, 2 Poké Balls.
+- Ball Count: 11 Great Balls, 2 Poké Balls.
 - Lead: Blarney (Sudowoodo) @ 60/60 HP.
 
 # Tile Mechanics (Global)
