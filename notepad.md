@@ -7,6 +7,7 @@
 - STAIRCASE: Warp tile.
 - WATER: Requires Surf to traverse.
 - GRASS: May trigger wild encounters.
+- unseen: Traversable (optimistic assumption for pathfinding).
 
 # Current Strategy: Stop Team Rocket
 - Method: Return to Goldenrod Radio Tower and use the Card Key on 3F.
