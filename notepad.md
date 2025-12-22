@@ -12,11 +12,11 @@
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym.
-- **Location:** Ice Puzzle (2, 10).
-- **Current Task:** Sliding East.
+- **Status:** Inside Mahogany Gym. Battling Boarder (Rocker).
+- **Location:** Ice Puzzle (5, 10).
+- **Current Task:** Defeat Boarder at (5, 9).
 - **Plan:**
-    1. Slide East from (2, 10) to (5, 10).
-    2. Defeat Boarder at (5, 9).
-    3. Analyze path from (5, 10).
+    1. Defeat Boarder.
+    2. Analyze path from (5, 10) to reach Pryce.
+    3. Win Glacier Badge.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
