@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Fly Map (at Ecruteak City).
-- **Reason:** Previous sequence (Right, Down) stopped at Ecruteak. It appears only one map movement registers per turn or the animation is very slow. Sending single inputs to guarantee accuracy.
+- **Status:** In Fly Map (at Goldenrod City).
+- **Reason:** Destination confirmed as Goldenrod City. Executing Fly.
 - **Plan:**
-    1. Press Down (Target: Goldenrod).
-    2. Verify destination text is "GOLDENROD CITY".
-    3. Press A to Fly.
+    1. Press A to Fly.
+    2. Confirm arrival in Goldenrod (Map ID change).
+    3. Go to PokeCenter to swap Pokemon.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
