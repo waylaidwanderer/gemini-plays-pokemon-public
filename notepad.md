@@ -19,11 +19,9 @@
 
 # Puzzle Strategy (Attempt 4)
 - Start Turn: 10831.
-- Current Status: S3=ON (10833), S2=OFF, S1=OFF (Pending).
-- Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
-- Step 1: Turn Switch 3 ON (Turn 10833). (COMPLETED)
-- Step 2: Turn Switch 2 ON (Next target).
-- Step 3: Turn Switch 1 ON.
+- Logic: S3, S2, and S1 all ON results in ALL shutters OPEN.
+- Current Status: S3=ON (10833), S2=OFF (Turned OFF by mistake at 10853), S1=ON (10873).
+- Next: Turn S2 ON.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
