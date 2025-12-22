@@ -22,13 +22,14 @@
 
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym.
-- **Location:** Entrance Lobby.
-- **Progress:** Defeated Skier Clarissa and Boarder Ronald.
+- **Location:** Entrance Lobby (0, 16).
 - **Current Task:** Solve Ice Puzzle.
+- **Immediate Goal:** Test ice physics. Moving Right onto Ice at (1, 16) to see if I slide to (2, 16).
 - **Plan:**
-    1. Observe Ice Physics.
-    2. Solve Ice Puzzle to reach Pryce.
-    3. Win Glacier Badge.
+    1. Verify sliding mechanics (do I stop on Floor?).
+    2. Reach start of puzzle at (2, 14).
+    3. Solve Ice Puzzle.
+    4. Challenge Pryce.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
