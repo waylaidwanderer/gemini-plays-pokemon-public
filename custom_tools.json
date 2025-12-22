@@ -16,7 +16,7 @@
         "target_y"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef run():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    # Get player position\n    player = root.find(\".//Player/..\")\n    start_x = int(player.get('id'))\n    start_y = int(player.get('y')) # Note: Row has id=y, Tile has id=x\n    # Wait, Row element has id for Y. Tile element has id for X.\n    # Let's be precise:\n    player_tile = root.find(\".//Tile[Player]\")\n    start_x = int(player_tile.get('id'))\n    start_row = root.find(f\".//Row[Tile/Player]\")\n    start_y = int(start_row.get('id'))\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == target_x and curr_y == target_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') == 'FLOOR' and not tile.get('has-object') == 'true':\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nrun()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef run():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    # Get player position\n    start_x = -1\n    start_y = -1\n    for row in root.findall(\"Row\"):\n        tile = row.find(\"Tile[Player]\")\n        if tile is not None:\n            start_x = int(tile.get('id'))\n            start_y = int(row.get('id'))\n            break\n            \n    if start_x == -1:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == target_x and curr_y == target_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') == 'FLOOR' and not tile.get('has-object') == 'true':\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nrun()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -32,6 +32,11 @@
         "commit_message": "Ensure tool correctly returns a list of button strings for overworld navigation when autopress_buttons is true. Fixes previous formatting issues.",
         "timestamp": "2025-12-22T02:53:22.052Z",
         "action_counter": 10751
+      },
+      {
+        "commit_message": "Fix player position detection in find_path_v4 to avoid TypeError when start_row is not found via XPath. Use a more robust loop-based approach.",
+        "timestamp": "2025-12-22T02:54:08.460Z",
+        "action_counter": 10753
       }
     ]
   },
