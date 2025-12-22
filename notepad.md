@@ -7,7 +7,7 @@
 - **Current Task:** Solve Ice Puzzle.
 
 ## Tile Mechanics
-- **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile.
+- **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
 - **Trap Tiles:** B1F corridors (Geodude/Voltorb/Koffing) - *Rocket Hideout*.
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
