@@ -440,3 +440,8 @@
     2. Try pushing Box `(6, 8)` DOWN from `(6, 7)` on the way.
     3. Interact with NPC 6 at `(4, 8)` from `(4, 7)` (North).
 - **Hypothesis:** Forcing NPC 6 to face **UP** might toggle the gates.
+- **Observation:** I am at `(4, 7)`. NPC 6 is at `(4, 8)`.
+- **Action:** Pressing Down + A to talk to NPC 6.
+- **Goal:** Force NPC 6 to face **UP** (Away from gates).
+- **Hypothesis:** NPC 6 Facing UP -> Gates Open?
+- **Note:** "I lose my passion for work if someone's watching." He usually faces Right (watching gates). Making him look Up (at me) means he stops watching the gates.
