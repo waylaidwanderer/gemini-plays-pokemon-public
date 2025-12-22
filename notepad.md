@@ -20,6 +20,6 @@
     4. **Execution:** Enter Col 9 at (9, 10) and walk South to open gates.
 
 ## Status
-- Player at (8, 10).
-- NPC 5 at (9, 10) (Facing Up).
-- Action: Moving to (8, 9) to prepare trap.
+- Player at (8, 9).
+- NPC 5 at (9, 11) (Moving).
+- Action: Turning RIGHT to face (9, 9). Waiting for NPC to arrive.
