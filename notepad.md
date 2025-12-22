@@ -10,11 +10,15 @@
 - Switch Puzzle Start: Turn 10284
 - Phase: Executing 3-2-1 Sequence. Step 1 Complete.
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
+- Time Tracking: Started Turn 10284. Currently Turn 10359.
 
-## Shutter Toggle Logic (Hypothesis)
-- S3 (2,1): Toggles (2,6), (3,6), (12,8).
+## Verified Shutter Logic
+- S3 (2,1): Toggles (2,6), (3,6), (12,8). (Verified Turn 10313)
+
+## Hypothesized Shutter Logic
 - S2 (10,1): Toggles (10,6), (12,8), (6,8).
 - S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
+- Note: (17,6) needs verification (WALL vs SHUTTER).
 
 ## Verified Shutter States (S3, S2, S1)
 - (0,0,0): To be verified visually.
