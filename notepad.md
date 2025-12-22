@@ -1,10 +1,12 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Confirmed on Route 42 (Turn #12516).
+- Status: Roaming. Location may have changed due to boundary crossing (Turn #12523). Pending Pokédex check.
 - Strategy: Repel Trick (Lead Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in Route 42 grass patch at (46, 12).
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Tracking: Start Turn #12521. Navigating to grass patch.
+- Active Status: Repel active (Turn #12519). Steps: 2/100.
+- Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, phone call, or suspected location change.
 - Tool Usage: `grass_dance_tool` for pacing. **Avoid SWEET SCENT**.
+- Tracking: Start Turn #12524. Navigate to grass patch.
 
 ## Roaming Pokémon Reference
 - Tracking: Do NOT use Fly to chase (randomizes location). Walk across map boundaries (gatehouses/warp carpets) to shift position predictably.
@@ -36,4 +38,3 @@
 # Menu Navigation
 - Circular Menu: Unreliable fixed Up/Down counts. Verify cursor position.
 - Pokédex AREA: Press 'A' on entry -> move to 'AREA' -> press 'A'.
-- Active Status: Repel active (Turn #12519). Steps: 1/100.
