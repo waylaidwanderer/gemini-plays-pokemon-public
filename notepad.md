@@ -5,11 +5,12 @@
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
 - **Status:** In Fly Map (at New Bark Town).
-- **Reason:** Map is open. Navigating cursor to Goldenrod. Assuming Left x3 gets close (New Bark -> Cherrygrove -> Violet -> Ecruteak/Goldenrod?).
+- **Reason:** Previous attempt failed due to Wade's phone call (inputs likely consumed during text advance). Retrying navigation now that text is clear.
 - **Plan:**
-    1. Press Left x3.
-    2. Check destination text.
-    3. Adjust and Fly.
+    1. Press Left x3 (Target: Ecruteak or Goldenrod).
+    2. Press Down (Target: Goldenrod).
+    3. Verify destination.
+    4. Press A to Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
