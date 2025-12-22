@@ -269,3 +269,7 @@
 - **Sequence:** A (at 11, 11 facing Down) -> Left (to 10, 11) -> Down (face Box) -> A.
 - **Goal:** Verify if these specific boxes are interactable (Item/Switch) given the "Junk" hint.
 - **Next:** If inert, exit cage and approach Machop `(7, 7)` from the North.
+- **Result:** Boxes at `(11, 12)` and `(10, 12)` are inert (Wall collision/No text).
+- **Action:** Exiting Cage.
+- **Goal:** Interact with Machop `(7, 7)` from the NORTH `(7, 6)`.
+- **Hypothesis:** Interacting from behind might trigger a different response or movement.
