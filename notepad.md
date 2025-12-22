@@ -7,8 +7,9 @@
 - **Status:** Leaving Radio Tower to find Disguise.
 - **Observation:** Rocket Grunt at (31, 10) threatened "true terror" but did not initiate battle. He blocks the path.
 - **Hypothesis:** I need the **Team Rocket Uniform** to trick him into moving or letting me pass.
-- **Plan:** Go to the Goldenrod Underground (Entrance at 9, 5) to find the uniform.
+- **Plan:** Search the Goldenrod Underground (3_53) for a Rocket Grunt who might have the Uniform.
 - **Lore Note:** The uniform is usually obtained from a Rocket member in the Underground during this takeover event.
+- **Checked:** Teacher at (3, 27) in Switch Room Entrances (3_54). Not helpful.
 
 ## Map Data
 - **Goldenrod City:**
