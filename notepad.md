@@ -13,9 +13,9 @@
 
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym at (4, 7).
-- **Progress:** Reached midpoint.
+- **Progress:** Reached midpoint. Encountered Skier Roxanne (labeled Beauty in data).
 - **Plan:**
-    1. Battle Beauty at (4, 6) from (4, 7).
+    1. Defeat Skier Roxanne.
     2. Slide East to (9, 7).
     3. Slide South to (9, 10).
     4. Slide West to (5, 10).
