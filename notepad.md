@@ -3,15 +3,16 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Depositing Kenya).
-- **Reason:** Kenya still in party (previous attempts failed or I misread the UI). Kenya has no mail, so standard Deposit should work.
+- **Navigation:** Removing Mail from Kenya (Retry).
+- **Status:** Exiting PC to manage Mail.
+- **Reason:** Kenya STILL has Mail (Deposit failed with "Remove MAIL"). Previous removal attempt failed or was not saved. Retrying via Party Menu.
 - **Plan:**
-    1. Select "DEPOSIT PKMN" (Down, A).
-    2. Select Kenya (Down x4).
-    3. Deposit (A).
-    4. Withdraw Togepi.
-    5. Exit and Fly.
+    1. Exit PC (B, B, B).
+    2. Open Party Menu (Start, A).
+    3. Select Kenya.
+    4. Select "MAIL" -> "TAKE MAIL".
+    5. Verify removal (Icon disappearance).
+    6. Deposit Kenya.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
