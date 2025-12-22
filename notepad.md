@@ -37,3 +37,9 @@
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 - (10, 2) identified as an 'Unmarked Warp' by system (Turn #11997). Currently non-functional or one-way.
+
+# Roaming Mechanics (General)
+- Roaming Pokémon move between routes when the player crosses a boundary (map transition).
+- They can be tracked via the Pokédex "AREA" map if they have been seen.
+- They flee immediately in battle. Mean Look or Sleep can help, but they are very fast.
+- If Suicune is roaming, I need to check its location every time I change routes.
