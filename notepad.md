@@ -11,15 +11,15 @@
 - Result: Gaps opened at x=2,3 (Row 6,7), x=6 (Row 8), and x=10,11 (Row 10,11).
 
 # Current Strategy: Enter Warehouse
-- Step 1: Defeat Burglar Duncan at (9, 12). (Turn 10954, Start). Gneiss (Lv40) is currently battling his Magmar.
-- Step 2: Navigate south through the gap at (10, 10) / (11, 11).
-- Step 3: Explore southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
+- Step 1: Defeat Burglar Duncan at (9, 12). (Turn 10954, Start). COMPLETED (Turn 10966).
+- Step 2: Navigate south to explore the area below Row 11.
+- Step 3: Locate the entrance to Map 3_55 (Warehouse).
 - Step 4: Locate the real Director in the Warehouse.
 
 # Lessons Learned
 - Shutter (12, 8) is a "toggle-flip" tile: S1 and S2 both affect it. If both are ON, it returns to OPEN.
-- Row 10 gap (x=10,11) is the primary route to the southern ladders when 3-2-1 is active.
-- NPC at (9, 12) is Burglar Duncan (Poison-type trainer), not a Pharmacist.
+- Row 10 gap (x=10,11) is the primary route to the southern area when 3-2-1 is active.
+- Burglar Duncan at (9, 12) is a Poison/Fire trainer (Koffing, Magmar).
 - Scientific Method: Observe, Hypothesize, Test, Conclude. (Verified 3-2-1 sequence).
 
 # Training & Party
