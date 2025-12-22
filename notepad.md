@@ -9,16 +9,15 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side.
-- **Hypothesis:** NPC 5's Facing Direction determines the Box State.
-    - **Observation:**
-        - NPC 5 at (9, 11) Facing DOWN -> Bottom Gates (Row 12) are CLOSED.
-        - Top Gates (Row 8) are CLOSED.
-    - **Test:** Talk to NPC 5 from (9, 10) to make him Face UP.
-        - Check if Bottom Gates (Visible) open.
+- **Hypothesis:** NPC 5's Position determines the Box State (Vision Cone/Trigger Plate).
+    - **Failed Test:** Talking to NPC 5 to force Facing UP did NOT open bottom gates.
+    - **New Test:** Allow NPC 5 to move to (9, 10) freely.
+        - Move out of his way to (8, 9).
+        - Watch Top Boxes (Row 8/9).
 - **Plan:**
-    1. **Interact:** Talk to NPC 5. He turns UP.
-    2. **Observe:** Check Bottom Gates (Row 12) while text is open.
-    3. **Lock:** If Open, close text and Stun immediately.
+    1. **Position:** Move to (8, 9).
+    2. **Wait:** Allow NPC 5 to step to (9, 10).
+    3. **Observe:** If boxes open, STUN NPC 5 immediately.
     4. **Execute:** Run through.
 - **Status:**
     - Player at (8, 6).
