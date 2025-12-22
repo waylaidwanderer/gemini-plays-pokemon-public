@@ -13,18 +13,18 @@
 # Current Strategy: Enter Warehouse
 - Step 1: Defeat Burglar Duncan at (9, 12). COMPLETED.
 - Step 2: Navigate to (20, 11) to activate the Emergency Switch.
-  - Route: Row 8 -> Row 9 -> x=2 -> Row 4 -> x=20 -> Row 11.
+  - Route: Already at Row 4. Head east to x=20, then south to Row 11.
 - Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
 - Step 4: Locate the real Director in the Warehouse.
 
-# Shutter Observation (Turn 10971)
-- East/West separation: Wall at x=18 blocks row 8-17.
+# Shutter Observation (Turn 10972)
 - Row 4/5: Clear passage across the entire map.
 - Emergency Switch (20, 11) is likely the next trigger.
-- Gap at (2, 6-7) is the only known way to reach Row 4 from the central area.
-- Pharmacist (ID 2) at (4, 8) blocks row 8; must go around via Row 9.
-- Shutter (12, 8) is CLOSED with S1, S2, S3 all ON. Row 8 is blocked.
-- Plan: (5, 8) -> (5, 9) -> (2, 9) -> (2, 4) -> (22, 4) -> (22, 12) -> (20, 12) -> (20, 11).
+- Plan: (2, 4) -> (20, 4) -> (20, 11).
+- Note: NPC Rocket Grunt at (3, 2) is nearby but shouldn't block Row 4.
+- Note: Shutter (12, 8) is CLOSED with S1, S2, S3 all ON. Row 8 is blocked.
+- Note: Shutter (6, 12) is WALL. Row 12 is blocked.
+- Note: Gap at (10, 10-11) is OPEN. Row 10 is clear at that point.
 
 # Training & Party
 - Gneiss (Lv40 Graveler) is highly effective against Poison-types in this area.
