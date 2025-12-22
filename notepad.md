@@ -14,7 +14,7 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Radio Tower 2F.
+- **Location:** Radio Tower 1F.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Descending Radio Tower.
-- **Plan:** Navigate to stairs at (15, 0) to descend to 1F.
+- **Status:** Exiting Radio Tower.
+- **Plan:** Navigate to exit at (2, 7) to return to Goldenrod City.
