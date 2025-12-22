@@ -127,3 +127,6 @@
 - Status: West Zone visit did not persist East Gate opening.
 - Hypothesis: West Gate (4, 11) and East Gates are mutually exclusive toggles. Need to find the trigger to toggle back to East.
 - Plan: Inspect (10, 12). If closed, manipulate NPC 5 facing direction.
+- Observation: Gate at (10, 12) is CLOSED (WALL).
+- Action: Talking to NPC 5 at (9, 11) to turn him RIGHT.
+- Hypothesis: NPC facing direction controls gate toggles.
