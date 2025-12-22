@@ -16,6 +16,7 @@
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 4F.
 - **Goal:** Reach Director on 5F.
-- **Status:** Defeated Rocket Grunt at (7, 6). Clearing post-battle text.
-- **Layout:** Room divided West/East. Stairs to 5F likely on East side at (12, 0).
-- **Plan:** Move East along the bottom row, bypassing the Teacher/Growlithe, to reach the stairs.
+- **Status:** Exploring West side of 4F.
+- **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
+- **Hypothesis:** Stairs to 5F (Director's location) are likely hidden on the West side, possibly behind the Scientist at (4, 2) or in the unexplored top-left corner.
+- **Plan:** Navigate to (4, 3) to engage Scientist and explore the area.
