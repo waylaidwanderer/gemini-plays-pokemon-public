@@ -11,7 +11,7 @@
 - Hint from Rocket Grunt: "the switch on the end is the one to press first."
 - Order: Switch 3 -> Switch 2 -> Switch 1.
 
-# Shutter Logic (Hypothesized Toggles)
+# Shutter Logic (Toggles)
 - Baseline (OFF, OFF, OFF): (12,8) is OPEN, all others CLOSED.
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
@@ -20,11 +20,12 @@
 # Puzzle Solving Log
 - Attempt 4 (Current): 3-2-1 Sequence from clean reset.
   - Reset all switches to OFF (Turn 10831).
-  - Step 1: Turn Switch 3 ON (Turn 10832).
+  - Step 1: Turn Switch 3 ON (Turn 10833).
+  - Step 2: Turn Switch 2 ON (Turn 10838).
 
 # Current Strategy: Execute 3-2-1 Sequence
-1. Turn Switch 3 ON (In progress).
-2. Turn Switch 2 ON.
+1. Turn Switch 3 ON (COMPLETED).
+2. Turn Switch 2 ON (In progress).
 3. Turn Switch 1 ON.
 4. Enter Warehouse at (12, 13).
 
@@ -35,3 +36,4 @@
 - S1 and S2 both toggle (12, 8). This explains why (12, 8) closed when turning only one of them ON.
 - NPC movement or turn-based updates can make shutters appear to move on their own.
 - Trust the shutter report tool for state verification.
+- Toggling Switch 1 and Switch 2 both affects shutter (12, 8). If both are ON, it returns to its baseline state (OPEN).
