@@ -148,3 +148,7 @@
 - **Requirement:** Must face DOWN to talk.
 - **Expectation:** NPC 7 turns UP.
 - **Observation Target:** Check if Gates at (10, 12) open when he faces UP.
+- **Correction:** NPC 7 is NOT moving (no path data), just changed facing to Down.
+- **Action:** Pressing A to talk to NPC 7 from (6, 12).
+- **Test:** Will making NPC 7 face UP open the Bottom Gates (10, 12-13)?
+- **Current State:** Gates are CLOSED. NPC 7 facing DOWN.
