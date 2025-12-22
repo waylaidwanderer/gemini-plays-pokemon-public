@@ -21,14 +21,9 @@
 - Lead: Calcifer (Typhlosion) is the only viable Pokémon for this battle.
 - Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
 
-# Capture Marathon Log
-- Current Turn: #11708. Great Balls used: 6. Ultra Balls used: 3.
-
-# Trainer Rosters (Recent)
-- Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
-- Rocket Executive (5F): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
-- Rocket Executive (5F - Near stairs): Arbok Lv32, Vileplume Lv32, Murkrow Lv32.
-- Rocket Executive (4F): Golbat Lv36.
-- Sage GAKU: Noctowl Lv32 (Hypnosis, Foresight, Peck, Reflect), Flareon Lv32 (Fainted).
-- Sage MASA: Noctowl Lv32 (Fainted), Jolteon Lv32 (Fainted).
-- Sage KOJI: Noctowl Lv32 (Fainted), Vaporeon Lv32 (Fainted).
+# Capture Progress
+- Great Balls used: 7
+- Ultra Balls used: 3
+- Suicune HP: RED
+- Suicune Accuracy: -6
+- Lead: Calcifer (Typhlosion) @ 116/142 HP
