@@ -21,12 +21,12 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym. Battling Boarder Ronald.
-- **Location:** Entrance Lobby (0, 16).
-- **Battle:** Vs Dewgong (Lv 25). Muscle (Lv 47) is active.
-- **Strategy:** Used Dig last turn (cursor on Slot 3). Switching to Cross Chop (Slot 4) for the KO.
+- **Status:** Inside Mahogany Gym.
+- **Location:** Entrance Lobby.
+- **Progress:** Defeated Skier Clarissa and Boarder Ronald.
+- **Current Task:** Solve Ice Puzzle.
 - **Plan:**
-    1. Defeat Boarder Ronald.
+    1. Observe Ice Physics.
     2. Solve Ice Puzzle to reach Pryce.
     3. Win Glacier Badge.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
