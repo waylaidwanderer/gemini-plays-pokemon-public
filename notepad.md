@@ -29,3 +29,9 @@
 - Found Amulet Coin at (14, 2) in Map 3_55. (Turn 11039)
 - Found Ultra Ball at (2, 1) in Map 3_56. (Turn 11006)
 - Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
+
+# Radio Tower Mission Plan
+1. Exit Underground: Warehouse (3_56) -> Dept Store B1F (3_55) -> Dept Store -> Goldenrod City.
+2. Enter Radio Tower: Head to 3F.
+3. Use Card Key: Clear the shutter on 3F to access 4F and 5F.
+4. Defeat Executive: Reach the top floor and stop the broadcast.
