@@ -9,13 +9,23 @@
 - GRASS: May trigger wild encounters.
 - MART_SHELF: Impassable. Acts as WALL.
 - COUNTER: Impassable. Acts as WALL. Interact with NPCs behind counters from an adjacent tile.
+- ELEVATOR: Warp tile.
 
-# Current Strategy: Tin Tower Investigation
+# Strategy: Tin Tower Investigation
 - Primary Goal: Investigate the Tin Tower in Ecruteak City.
-- Mission Start: Turn #11243, Timestamp: Sunday, Dec 21, 11:00 PM.
+- Mission Start: Turn #11243.
+- Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City and find the Tin Tower via Route 35, 36, and 37.
 - Tactical: Use the Clear Bell at the Tin Tower. Purchase Ultra Balls at Goldenrod Dept. Store.
 - Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
+
+# Suicune Capture Plan (Tin Tower)
+- Lead: Calcifer (Typhlosion Lv44).
+- Moves: Smokescreen (reduce accuracy), Flame Wheel/Headbutt (chip damage).
+- Status: Switch to KIMCHI (Gloom Lv21) for Sleep Powder once HP is red.
+- Item Requirements: ~20 Ultra Balls.
+- PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
+- Risk: GNEISS (Graveler) is 4x weak to Water. Avoid leading with him.
 
 # Observations (Radio Tower Takeover - COMPLETED)
 - Director rescued, CLEAR BELL obtained.
@@ -31,8 +41,6 @@
 - Rocket Executive (5F - Office at 13, 5): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
 - Rocket Executive (5F - Near stairs at 17, 2): Arbok Lv32, Vileplume Lv32, Murkrow Lv32. (Defeated)
 - Rocket Executive (4F): Golbat Lv36.
-- Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans Lv21, Gloom.
-- Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
 
 # PC Storage (Box 1)
 1. ROCKY (ONIX): Lv6 (M)
@@ -42,29 +50,10 @@
 5. SHUCKIE (SHUCKLE): Lv15 (F)
 
 # Findings
-- Found TM35 Sleep Talk at (13, 9) in Map 3_56.
-- Found Max Ether at (18, 15) in Map 3_56.
-- Found Amulet Coin at (14, 2) in Map 3_55.
-- Found Ultra Ball at (2, 1) in Map 3_56.
-- Found Full Heal at (14, 9) in Map 3_54.
+- Goldenrod Dept Store 5F: Receptionist (7, 5) gives TM27 (Return) if friendship is high.
+- Clerk (8, 5) sells TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch) for 3000, TM02 (Headbutt) for 2000, TM08 (Rock Smash) for 1000.
+- Cooltrainer M (6, 3) wants to trade ABRA for MACHOP.
+- Goldenrod Dept Store 4F: Directory says "Let Us Pump Up Your POKéMON!". (Stat items).
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
-
-# Battle Notes
-- Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
-- Dept. Store 3F (Battle Collection): X SPEED, X SPECIAL, X DEFEND, X ATTACK, DIRE HIT, GUARD SPEC., X ACCURACY. (No Ultra Balls)
-
-# Tactical Advice for Suicune (Tin Tower)
-- Lead: Calcifer (Typhlosion).
-- Strategy: Use Smokescreen to reduce Suicune's accuracy. Chip HP to red with Calcifer.
-- Capture: Switch to KIMCHI (Gloom) for Sleep Powder once Suicune is weakened. (Note: KIMCHI is low level).
-- Resource Prep: Buy ~20 Ultra Balls. Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer).
-- Note: Suicune is Water/Ice/Flying coverage. GNEISS takes 4x damage from Water.
-- Shopping: 5F is TM Corner. Check 6F or Rooftop for Ultra Balls if not on 5F.
-
-# Goldenrod Dept. Store 5F
-- Receptionist (7, 5): Gives TM27 (Return) if lead Pokémon has high friendship. (Received Turn #11330)
-- Clerk (8, 5): TM Shop. Sells TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch) for 3000 each, TM02 (Headbutt) for 2000, TM08 (Rock Smash) for 1000.
-- Unseen area in SW corner (0, 6 to 2, 7).
-- Cooltrainer M (6, 3): Wants to trade ABRA for MACHOP.
