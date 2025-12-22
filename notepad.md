@@ -10,19 +10,19 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Search Started: Turn 11000. Current Turn: 11035.
-- Method: Use the Row 3 gap in Column 15 and Row 12-13 gap in Column 8 to navigate between corridors and the central warehouse floor.
-- Method: Investigate all ladders and warps to locate the Director's holding cell.
-- Tactical: Gneiss (Lv41) leads with Earthquake/Rollout; Calcifer (Lv44) counters Grass-types.
+- Warehouse Search Start: Turn 11000. Current Turn: 11037.
+- Method: Explore Dept Store B1F (Map 3_55) accessed via ladder at (17, 2) in Warehouse.
+- Method: Systematically engage all Rocket personnel to clear the path to the real Director.
+- Tactical: Gneiss (Lv41) leads with Earthquake; Calcifer (Lv44) counters Grass-types.
 
-# Warehouse Observations (Map 3_56)
-- Internal Walls: Column 5 blocks Row 4-15 (Gaps at Row 1-3).
-- Internal Walls: Column 8 blocks Row 1-11 (Gaps at Row 12-15).
-- Internal Walls: Column 15 blocks Row 4-11, 14-15. Gaps at Row 1-3, 12-13.
-- Rocket Grunt 1: (9, 8).
-- Gentleman: (12, 8).
-- Item Ball: (13, 9) (Unknown item).
-- Item Ball: (18, 15) (Unknown item).
+# Observations
+- Map 3_55: Dept Store B1F. Connected to Warehouse (3_56) via (17, 2).
+- Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R12-15), Col 15 (Gaps R1-3, 12-13).
+- Item Ball (Map 3_55): (14, 2).
+- Item Ball (Map 3_56): (13, 9).
+- Item Ball (Map 3_56): (18, 15).
+- Rocket Grunt (Map 3_56): (9, 8).
+- Gentleman (Map 3_56): (12, 8).
 
 # Training & Party
 - GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
@@ -31,5 +31,5 @@
 - Ravioli (Lv10 Krabby): SURF, BUBBLE, LEER.
 
 # Findings
-- Found Ultra Ball at (2, 1). (Turn 11006)
-- Found Full Heal at (14, 9) in Switch Room. (Turn 10981)
+- Found Ultra Ball at (2, 1) in Map 3_56. (Turn 11006)
+- Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
