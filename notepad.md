@@ -67,3 +67,7 @@
 - **Action:** Attempting to PUSH Box `(6, 8)` DOWN from `(6, 7)`.
 - **Reason:** Final test of the "Junk" hypothesis.
 - **Contingency:** If this fails (Player stays at `6, 7`), I am exiting B1F via Elevator. The puzzle is either broken, requires a future item, or I am missing a huge clue that isn't here.
+- **Action:** Attempting to PUSH Box `(6, 8)` from the West `(5, 8)`.
+- **Method:** Walk Right into the box.
+- **Reason:** Final check before abandoning B1F. I tried interacting, but maybe I didn't *push* from this specific angle.
+- **Next:** If this fails, I am exiting to the Elevator and heading to the Radio Tower to verify progression requirements.
