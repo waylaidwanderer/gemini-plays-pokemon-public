@@ -4,7 +4,6 @@
 
 # Underground Warehouse Puzzle
 - Goal: Open path to southeast Warehouse Entrance (Map 3_55).
-- Hint: "3-2-1" sequence (Left to Right).
 
 ## Shutter Toggle Mapping (S3, S2, S1)
 | State | (2,6) | (3,6) | (10,6) | (12,8) | (16,6) | (17,6) | (6,8) |
@@ -15,18 +14,19 @@
 | (1,0,0) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Verified Toggle Logic (From 0,0,0 baseline)
-- Switch 1 (16,1): Toggles (16,6), (17,6). Does NOT toggle (10,6), (6,8), (12,8), (2,6), (3,6).
+- Switch 1 (16,1): Toggles (16,6), (17,6). Does NOT toggle (10,6), (6,8), (12,8) when S3,S2 are OFF.
 - Switch 2 (10,1): TBD.
-- Switch 3 (2,1): TBD (Previous data unreliable due to sequence).
+- Switch 3 (2,1): TBD.
 
 ## Toggle Log
 - Turn 10415: (0,0,1) verified visually. (16,6), (17,6) are OPEN. (10,6), (6,8) are CLOSED. (12,8) is OPEN.
 - Turn 10400: (0,0,0) verified visually. (10,6), (6,8), (16,6), (17,6) are CLOSED. (12,8) is OPEN.
+- Observation: Logic may be conditional (e.g., S1 toggles (12,8) only if S3 is ON). Systematic mapping from (0,0,0) will isolate primary effects.
 
 ## Systematic Mapping Plan Steps
 1. Establish (0,0,0) baseline visually. (Done)
-2. Toggle S1 ON. Verify all shutters. (In progress)
-3. Reset S1 OFF. Verify (0,0,0) again.
+2. Toggle S1 ON. Verify all shutters. (Done)
+3. Reset S1 OFF. Verify (0,0,0) again. (Next)
 4. Toggle S2 ON. Verify all shutters.
 5. Reset S2 OFF.
 6. Toggle S3 ON. Verify all shutters.
@@ -39,7 +39,7 @@
 - Ladders: (23,3) To Switch Room Entrance, (21,25) To North, (5,25) To South.
 
 # Lessons Learned
-- Reset to (0,0,0) before starting sequence puzzles.
-- Visual confirmation required for state verification.
-- Inconsistent tuple notation leads to logic errors. Use (S3, S2, S1).
+- Standardize switch states as (S3, S2, S1).
+- Visual confirmation is required after every toggle.
 - Deductions are not verifications.
+- Reset to (0,0,0) before mapping or sequence attempts.
