@@ -3,7 +3,7 @@
 - Strategy: Repel Trick (Lead Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in Route 42 grass patch at (46, 12).
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Tracking: Start Turn #12516. Navigating to grass patch.
+- Tracking: Start Turn #12521. Navigating to grass patch.
 - Tool Usage: `grass_dance_tool` for pacing. **Avoid SWEET SCENT**.
 
 ## Roaming Pokémon Reference
