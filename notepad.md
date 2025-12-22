@@ -8,17 +8,17 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Reach East side via Bottom Passage (Row 13).
-- **Situation:** Successfully escaped Middle Pocket to Main Hallway (Col 8).
-- **Plan:**
-    1. **Move** South to (8, 13).
-    2. **Observe** Bottom Gates at (10, 13)/(11, 13).
-    3. **Hypothesis:** NPC 7 (Bottom Left) might control these gates.
-    4. **Action:** If gates closed, manipulate NPC 7.
-- **Puzzle Theory:** "Work behind scenes where no one can see us."
-    - Maybe I need to approach them from behind?
-    - Or maybe I need to NOT look at them? (Turn my back?)
-    - Or maybe I need to catch them when they aren't looking?
+- **Goal:** Open Bottom Gates (10, 13)/(11, 13).
+- **Hypothesis:** "Work behind scenes where no one can see us."
+    - Gates close if Player is SEEN by NPCs.
+    - Currently at (8, 13), likely seen by NPC 7 (at 6, 13 facing Right).
+- **Test:**
+    1. **Hide:** Move to (8, 12) (Out of NPC 7's sight).
+    2. **Observe:** Check if gates at (10, 13) open (Turn to FLOOR).
+    3. **Execute:** If open, wait for NPC 7 to turn away (Left), then rush in.
+- **Backups:**
+    - If hiding doesn't work, maybe I need to interact with NPC 7 to make him turn.
+    - Or maybe NPC 5 controls it.
 
 ## Status
 - Player at (9, 9).
