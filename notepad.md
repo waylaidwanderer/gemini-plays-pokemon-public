@@ -6,12 +6,11 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** Moving to Radio Tower (North West).
-- **Current Task:** Navigating through Goldenrod City.
-- **Goal:** Reach the Radio Tower to investigate Team Rocket.
-- **Tactics:** Avoid Rocket Grunts if possible, keep team healthy.
-- **Reference:** Rocket Grunt spotted at (16, 23). Lass marker at (17, 10) - pathing around it.
-- **Pathing:** Moving West to cross the wall at x=14, then North.
+- **Status:** Moving North-West in Goldenrod.
+- **Current Task:** Navigate around the building at (15, 7) to reach the Radio Tower.
+- **Goal:** Reach the Radio Tower (likely North of the train tracks area).
+- **Tactics:** Avoid Rocket Grunts.
+- **Pathing:** Moving West from (14, 8) to (10, 6) to bypass the wall, then checking North/West.
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
