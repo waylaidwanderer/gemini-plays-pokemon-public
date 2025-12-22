@@ -61,3 +61,4 @@
 - Observation: Dept Store B1F contains Machops and crates. Looks like a warehouse area.
 - Hypothesis: The ladder at (17, 2) might lead to the restricted section of the Underground (behind the locked door).
 - Navigation: To reach the east side (Ladder), I must pass through the gap in the central wall at (12, 8).
+- Observation: Boxes in the basement are moving (FLOOR <-> WALL changes detected). This is a dynamic puzzle involving the Machops.
