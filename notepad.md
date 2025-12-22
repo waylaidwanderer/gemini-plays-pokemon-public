@@ -1,7 +1,7 @@
 # Suicune Capture Strategy (The "How")
 - Goal: Capture Suicune (Lv 40, Water).
 - Status: HP in RED zone (~5-10%), Accuracy at -6 (minimum).
-- Method: Persist with Great Balls.
+- Method: Persist with Great Balls (31 remaining).
 - Contingency: Heal Calcifer (Typhlosion Lv 45) with LEMONADE if HP < 50%.
 - Lead: Calcifer (Typhlosion) @ 111/142 HP.
 - Observations: Suicune uses Bubblebeam (Water), Gust (Flying), Leer, Rain Dance.
