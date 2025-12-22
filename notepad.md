@@ -29,3 +29,7 @@
 - Toggling S1 and S2 both affects shutter (12, 8).
 - Shutter status report tool only updates for tiles currently in the Mental Map (seen).
 - Always verify switch state via text before concluding sequence step.
+
+# Visual Verification Plan
+- After reset: Walk to (12, 8), (10, 6), (2, 6) to confirm baseline.
+- After each switch: Walk to its primary shutters to confirm movement.
