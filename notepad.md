@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** In Party Context Menu (Selecting ITEM).
-- **Reason:** Need to select "ITEM" option to take the mail off Kenya.
+- **Status:** In Party Context Menu (Taking Mail).
+- **Reason:** Cursor is on "GIVE". Need to select "TAKE" to remove mail.
 - **Plan:**
-    1. Scroll down to ITEM (Down x6).
-    2. Select ITEM (A).
-    3. Select TAKE (Next Turn).
+    1. Select TAKE (Down, A).
+    2. Clear confirmation text (A).
+    3. Exit Party Menu.
     4. Deposit Kenya in PC.
 
 # Reflection (Turn 11588)
