@@ -25,13 +25,14 @@
 - Progress:
   - 1. S3 ON: Done (Turn 10357).
   - 2. S2 ON: Done (Turn 10365).
-  - 3. S1 ON: Done (Turn 10372). Sequence Complete.
+  - 3. S1 ON: Done (Turn 10373). Sequence Complete.
 - Switch Puzzle Start: Turn 10284. Phase: Verification.
 - Sequence History:
   - Attempt 1: Mixed -> 3-2-1 (Failed)
   - Attempt 2: Reset -> 3-2-1 (S2 accidental toggle) -> (Failed)
-  - Attempt 3: Reset -> 3-2-1 (Current)
+  - Attempt 3: Reset -> 3-2-1 (Success - Turn 10373)
 - Verification: Move south to check if path to Map 3_55 is open at (10,6), (16,6), and (17,6).
+- Tile (17, 6) Test: Attempt to walk through (17, 6) to verify if it's a shutter.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
