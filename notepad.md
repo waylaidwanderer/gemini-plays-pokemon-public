@@ -4,12 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** Leaving Radio Tower to find Disguise.
-- **Observation:** Rocket Grunt at (31, 10) threatened "true terror" but did not initiate battle. He blocks the path.
-- **Hypothesis:** I need the **Team Rocket Uniform** to trick him into moving or letting me pass.
-- **Plan:** Search the Goldenrod Underground (3_53) for a Rocket Grunt who might have the Uniform.
-- **Lore Note:** The uniform is usually obtained from a Rocket member in the Underground during this takeover event.
-- **Checked:** Teacher at (3, 27) in Switch Room Entrances (3_54). Not helpful.
+- **Status:** Exploring Goldenrod Underground (3_53).
+- **Plan:**
+    1. Travel North to the ladder at (3, 2).
+    2. Enter the North side of Switch Room Entrances (3_54).
+    3. Search for a Rocket Grunt who might have the Uniform.
+- **Checked:**
+    - NPC at (3, 27) in Underground (3_53): Haircut Brother (not Rocket).
+    - Teacher at (3, 27) in Switch Room Entrances (3_54). Not helpful.
 
 ## Map Data
 - **Goldenrod City:**
