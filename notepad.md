@@ -8,23 +8,19 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Top or Bottom Gates.
-- **Hypothesis:** NPC 5 (Middle) must face **LEFT** to open gates (looking away from them).
+- **Goal:** Open Gates/Boxes.
+- **Current Hypothesis:** NPC 6 (Static at 4,8) controls the boxes/gates based on Facing Direction.
+    - NPC 5 (Moving) reverts facing immediately, making him a poor switch candidate.
+    - NPC 6 is static, so his facing should persist.
 - **Status:**
-    - Player at (8, 9).
-    - NPC 5 at (9, 9) (Stunned).
-    - **Action:** Facing Right to prepare for interaction.
+    - Player moving to (3, 8) to flank NPC 6.
+    - NPC 5 Stunned at (9, 9) (Facing Up).
 - **Plan:**
-    1. **Position:** Move to (8, 9) (Done).
-    2. **Prepare:** Face Right (Done this turn).
-    3. **Interact:** Unstun NPC 5, Immediately Press A.
-    4. **Lock:** Stun him again immediately.
-    5. **Verify:** Check Top/Bottom gates.
+    1.  **Move:** Go to (3, 8) via the bottom corridor (Row 12).
+    2.  **Interact:** Talk to NPC 6 from the Left to make him Face Left.
+    3.  **Verify:** Check if this opens the boxes at Row 8/9 or Gates at Row 10/11.
 - **Discarded:**
-    - Local Control (NPC 6/7) - Failed.
-    - Hidden Items - Failed.
-    - NPC 5 Facing Right - Failed.
-    - NPC 5 Facing Left - Failed (Attempt 1: Unstun+A failed).
+    - NPC 5 Manipulation (Unreliable due to auto-revert).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
