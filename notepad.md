@@ -4,15 +4,16 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Interviewing Pharmacist at (8, 7).
+- **Status:** Navigating to Pharmacist (8, 7).
 - **Plan:**
-    1. Talk to Pharmacist at (8, 7).
-    2. Check if he has info on Team Rocket.
-    3. Return to City or Underground if no leads.
+    1. Navigate to (8, 6) via Row 4 (Northern path) to avoid machines.
+    2. Talk to Pharmacist at (8, 7).
+    3. Check for info.
 
 **Notes:**
 - Radio Tower entrance was elusive.
 - Rocket Grunt at (16, 23) blocks the street.
+- Gentleman at (5, 10) bragged about buying Blizzard TM with coins.
 - Underground Uniform quest unconfirmed.
 
 ## Tile Mechanics
