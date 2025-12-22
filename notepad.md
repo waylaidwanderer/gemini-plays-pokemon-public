@@ -19,7 +19,7 @@
   - (17,6): CLOSED
   - (17,7): CLOSED
 - Test S1 (1,0,0):
-  - (16,6), (16,7), (17,6), (17,7): OPEN
+  - (16,6), (17,6): OPEN
   - (12,8): CLOSED
   - (Others): Same as baseline. (Verified Turn 10626)
 - Test S2 (0,1,0):
@@ -28,8 +28,7 @@
   - (12,8): CLOSED
   - (Others): Same as baseline.
 - Test S3 (0,0,1):
-  - (2,6): OPEN
-  - (3,6): OPEN
+  - (2,6), (3,6): OPEN
   - (Others): Same as baseline.
 
 # Final Puzzle Logic (Verified)
@@ -41,14 +40,13 @@
   1. Press S3 (ON) -> Opens (2,6), (3,6). (12,8) remains OPEN.
   2. Press S2 (ON) -> Opens (10,6), (6,8). Closes (12,8).
   3. Press S1 (ON) -> Opens (16,6), (17,6). Opens (12,8).
-  Result: (2,6), (3,6), (10,6), (6,8), (16,6), (17,6), (12,8) ALL OPEN.
+  Result: ALL paths open.
 
-# Current Strategy: Execute 3-2-1
-1. Verify baseline (0,0,0): All switches OFF. (Confirmed Turn 10628)
-2. Turn S3 ON. (Current Target)
-3. Turn S2 ON.
-4. Turn S1 ON.
-5. Enter Warehouse.
+# Current Strategy: Verify and Execute
+1. Shutter Report (10649) shows only S3 is effectively ON.
+2. Heading to S2 to check if it's actually ON or if the sequence reset.
+3. Once states are confirmed, will execute 3-2-1 again without interruption.
+4. Enter Warehouse.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
