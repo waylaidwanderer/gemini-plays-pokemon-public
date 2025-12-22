@@ -23,10 +23,10 @@
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym. Battling Skier Clarissa.
 - **Location:** Entrance Lobby (9, 16).
-- **Puzzle:** Ice Sliding Puzzle ahead.
-- **Current Task:** Defeat Skier Clarissa.
+- **Battle:** Vs Dewgong (Lv 28). Muscle (Lv 47) is active.
+- **Strategy:** Use Cross Chop (Fighting) for 2x Super Effective damage against Dewgong (Water/Ice).
 - **Plan:**
-    1. Defeat Skier Clarissa (Beauty).
+    1. Defeat Skier Clarissa.
     2. Defeat Boarder (Rocker).
     3. Solve Ice Puzzle to reach Pryce.
     4. Win Glacier Badge.
