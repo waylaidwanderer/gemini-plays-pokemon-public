@@ -3,8 +3,10 @@
 - Status: Suicune (Lv 40) HP in RED (~5-10%), Accuracy -6.
 - Strategy: Tank with GNEISS (Water weakness offset by Suicune's -6 accuracy) and throw Great Balls.
 - Hypothesis: Current capture rate with Great Balls at low HP and no status is low (~1.95%) but feasible. Persistence is the primary method as status-capable Pokemon (KIMCHI) are fainted and no Revives are in inventory.
-- Failed Attempts: ~128 turns of throwing balls at low HP.
-- Capture Analyst: Odds are ~1.95% per Great Ball. Sleep would triple odds, but unavailable.
+- Failed Attempts: ~129 turns of throwing balls at low HP.
+- Capture Analyst: Odds are ~1.95% per Great Ball. Sleep would triple odds, but unavailable (KIMCHI fainted, no Revives).
+- Current Ball Count: 15 Great Balls, 2 Poké Balls.
+- Probability of Success with remaining balls: ~28.4%.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F)
