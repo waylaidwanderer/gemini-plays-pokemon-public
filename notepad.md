@@ -10,7 +10,9 @@
 - Switch Puzzle Start: Turn 10284
 - Phase: Executing 3-2-1 Sequence. Step 1 Complete.
 - Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Time Tracking: Started Turn 10284. Currently Turn 10359.
+- Time Tracking: Started Turn 10284. Currently Turn 10363.
+- Sequence Step: 2 of 3 (S2).
+- Current Position: (10, 2). Facing: UP (Turn 10363).
 
 ## Verified Shutter Logic
 - S3 (2,1): Toggles (2,6), (3,6), (12,8). (Verified Turn 10313)
