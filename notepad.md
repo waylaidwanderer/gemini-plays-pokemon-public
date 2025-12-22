@@ -174,3 +174,11 @@
 - **Action:** Moving to (9, 12) and facing East.
 - **Test:** "Blind Eye" - If I am at (9, 12) facing East, I am not looking at NPC 5 (North of me). Will the gate (10, 12) open?
 - **Observation:** Currently (10, 12) is WALL.
+- **Refined Hypothesis (Alternating Gates):**
+    - NPC 5 at (9, 11) -> Top Gates OPEN.
+    - NPC 5 at (9, 9) -> Top Gates CLOSE?
+    - If Top Gates Close, maybe Bottom Gates Open? Or Inner Barrier Opens?
+- **Plan:**
+    1. Move to (8, 9).
+    2. Observe Top Gate (10, 8) as NPC 5 moves.
+    3. If alternating confirmed, enter East Room and wait for switch.
