@@ -35,3 +35,4 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Turn 12692:** Confirmed Rocket Grunt at (16, 23) is a hard blocker. Path West is impassable here. Trying North route.
 - **Turn 12704:** Engaging Team Rocket Grunt at (31, 10). He is blocking the path to the building behind him.
+- **Turn 12706:** The Rocket Grunt at (31, 10) is definitively blocking the only path to the Unknown Warp at (33, 9). Defeating him is mandatory to access that door.
