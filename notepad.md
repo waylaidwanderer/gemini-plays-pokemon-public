@@ -249,3 +249,7 @@
 - **New Strategy:** Re-investigate the North East Barrier.
 - **Hypothesis:** Interaction with NPC 7 ("Take it if you want it") might have cleared the path to the Item/Ladder in the North East, even if the Bottom Gates remained closed.
 - **Action:** Move to `(13, 8)` and check Row 4 in the East Room.
+- **Observation:** At (13, 8), Top Gates are Open. NPC 5 is at (9, 9).
+- **Inference:** NPC 5 at (9, 9) or (9, 11) results in Top Gates Open. This suggests Top Gates might be static or controlled by something else.
+- **Action:** Checking North East Barrier at (17, 5).
+- **Goal:** Verify if access to Ladder (17, 2) is still blocked by Wall at Row 4.
