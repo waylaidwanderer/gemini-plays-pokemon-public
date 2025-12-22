@@ -186,3 +186,7 @@
 - **Plan:** Move to (11, 9) (Inside Top Gate).
 - **Hypothesis:** When NPC 5 moves to (9, 9) (Top), the Top Gate (10, 9) will CLOSE and the Bottom Gate (10, 12) will OPEN, allowing access to the South East.
 - **Safety:** If trapped, wait for NPC 5 to move back down to open Top Gate.
+- **Safety Alert:** `(11, 9)` is likely a Gate Tile (will turn into a Box/Wall).
+- **Action:** Moving to Safe Zone at `(11, 10)` (Central Cage).
+- **Plan:** Wait there for NPC 5 to move North, triggering the gate switch.
+- **Goal:** Exit South through Bottom Gates.
