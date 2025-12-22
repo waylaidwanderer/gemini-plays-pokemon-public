@@ -1,27 +1,12 @@
-# Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- Switch: Background object. Interact from adjacent tile.
-- LADDER: Warp tile. Traversable.
-- WARP_CARPET_DOWN: Warp tile.
-
-# Underground Warehouse Puzzle (Map 3_54)
-- Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
-- Emergency Switch (20, 11): ON.
-
-# Current Strategy: Rescue Director
-- Method (Map 3_55): Search by clearing rows 1-5 from east to west, then rows 6-10 from west to east.
-- Method (Map 3_56): Use the column 9 corridor (Gaps R1-10) to reach the central office area.
-- Tactical: Gneiss (Lv41) leads with Earthquake; Calcifer (Lv44) counters Grass-types.
+# Current Strategy: Stop Team Rocket
+- Method: Return to Goldenrod Radio Tower and use the Card Key on 3F.
+- Path: Warehouse (3_56) -> Switch Room (3_54) -> Underground -> Goldenrod City -> Radio Tower.
+- Tactical: Use Card Key on the shutters on 3F to access the upper floors.
 
 # Observations
-- Map 3_55: Dept Store B1F. Connected to Warehouse (3_56) via (17, 2).
-- Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R1-11), Col 15 (Gaps R1-3, 12-13).
-- Item Ball (Map 3_55): (14, 2) - Amulet Coin picked up.
-- Item Ball (Map 3_56): (13, 9).
-- Item Ball (Map 3_56): (18, 15).
-- Rocket Grunt (Map 3_56): (9, 6) - Defeated.
-- Gentleman (Map 3_56): (12, 8).
+- Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
+- Item Ball (Map 3_56): (13, 9) - Collecting now.
+- Item Ball (Map 3_56): (18, 15) - Still to be collected.
 
 # Training & Party
 - GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
@@ -30,6 +15,7 @@
 - Ravioli (Lv10 Krabby): SURF, BUBBLE, LEER.
 
 # Findings
+- Card Key obtained from the real Director at (12, 8) in Map 3_56. (Turn 11056)
+- Found Amulet Coin at (14, 2) in Map 3_55. (Turn 11039)
 - Found Ultra Ball at (2, 1) in Map 3_56. (Turn 11006)
 - Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
-- Found Amulet Coin at (14, 2) in Map 3_55. (Turn 11039)
