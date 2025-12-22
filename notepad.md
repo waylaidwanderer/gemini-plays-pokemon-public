@@ -3,7 +3,7 @@
 - Status: Party fully healed. Suicune reset to full HP (if present).
 - Plan: Sell Nugget, restock Great Balls/Revives, return to Tin Tower.
 - Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. Use Smokescreen (Typhlosion) if Sleep Powder misses or fails.
-- Ball Count: 10 Great Balls, 2 Poké Balls.
+- Ball Count: 40 Great Balls, 2 Poké Balls.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F, Goldenrod City, Dept Store 2F)
