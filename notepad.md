@@ -22,15 +22,15 @@
 
 ## Action Log & Reflection
 - **Status:** Exiting Team Rocket Hideout.
-- **Trap Analysis:** Traps confirmed on cols 3, 4, and 5. Safest path appears to be hugging the wall at x=1 or x=2.
-- **Current Task:** Retrieve Item Ball at (27, 6) before leaving.
+- **Correction:** Position corrected to (25, 1). Far from traps.
+- **Current Task:** Retrieve Item Ball at (27, 6).
 - **Plan:**
-    1. Navigate North using Col 1 (avoiding traps and Grunt at 2,4).
-    2. Cross to Row 3, then use Gap at (9, 4) to access Row 5.
-    3. Navigate around barrier at (24, 5) to reach Item at (27, 6).
-    4. Backtrack through Gap to reach Exit Ladder at (27, 2).
-    5. Heal and challenge Gym.
-- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
+    1. Navigate from (25, 1) around the right side to Row 3.
+    2. Go West to Gap at (9, 4).
+    3. Go East along Row 5/6 to Item at (27, 6).
+    4. Clear bag space (use Super Potion) if needed.
+    5. Exit via Ladder at (27, 2).
+- **Inventory Note:** Items Pocket is full (20/20). Must make space to pick up item.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
