@@ -3,7 +3,7 @@
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Active Status: Repel used (Turn #12588).
+- Active Status: Repel active (Turn #12591). Steps: 0/100.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, or phone call.
 - Tracking: Start Turn #12542.
 
