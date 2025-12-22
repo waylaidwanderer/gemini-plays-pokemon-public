@@ -27,8 +27,9 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Finished checking Super Nerd Eric at (5, 31). He is not the Rocket.
-- **Goal:** Obtain Team Rocket Uniform.
-- **Observation:** No Rocket Grunt found in the main tunnel.
-- **Plan:** Go down the ladder at (3, 34) to check the South Entrance area. The Rocket might be there.
-- **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
+- **Status:** Arrived at Goldenrod Underground South Entrance (Map 3_54).
+- **Location:** Player at (5, 25).
+- **Observation:** A "Teacher" NPC (looks like a Rocket Grunt in the screenshot) is at (3, 27).
+- **Hypothesis:** This NPC has the Team Rocket Uniform.
+- **Plan:** Talk to the NPC at (3, 27).
+- **Map Notes:** Ladder at (5, 25) leads back to South Tunnel. Exit at (4, 29) leads to Goldenrod City.
