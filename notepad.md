@@ -44,19 +44,22 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
+- **Puzzle Structure:**
+    - **Top Path (Row 8-9):** Blocked by Boxes (10-11). Open at Col 12.
+    - **Middle Path (Row 10-11):** Open at Cols 10-11. Blocked by Wall at Col 12.
+    - **Bottom Path (Row 12-13):** Blocked by Boxes (10-11). Open at Col 12.
+    - **Objective:** Open Top OR Bottom Boxes.
 - **Status:**
-    - Item at (14, 2) is **UNREACHABLE** (East Zone).
-    - Item at (6, 3) is GONE (Verified empty).
-    - Boxes at (10, 8-9) and (10, 12-13) are blocking the East Zone.
-- **Current Test:**
-    1. **Push:** Try walking INTO the box at (10, 8) to push it. (Interact failed).
-    2. **Hide:** If pushing fails, stand at (10, 7) Facing UP (Away) and wait for NPC 5 to move.
+    - Pushing Boxes failed.
+    - NPC 5 (Guard) patrols (9, 10) <-> (9, 11).
+    - Current Observation: At (9, 10), Top Boxes were CLOSED.
 - **Plan:**
-    1. Try Pushing (10, 8).
-    2. If fails, Face Up at (10, 7) and Wait.
+    1. Move to (8, 8).
+    2. Watch NPC 5.
+    3. Check if Top Boxes open when he moves to (9, 11) or (9, 9)?
 - **Backup:**
-    - Room Reset (Elevator).
-    - Find a switch in the "Junk" area.
+    - Is there a switch I missed in the open area (Rows 10-11, Cols 10-11)?
+    - Maybe I need to stun him ON a specific tile?
 
 # Tile Mechanics
 - **WALL:** Impassable.
