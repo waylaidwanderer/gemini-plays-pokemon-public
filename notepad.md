@@ -8,17 +8,14 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Reach East side via Top Passage (Row 8/9).
-- **Situation:** Player in Middle Pocket (10,10 - Safe, Always Open). Top Pocket (Row 8/9) is CLOSED. Bottom Pocket (Row 12/13) is CLOSED.
-- **Hypothesis:** NPC 5 movement triggers the gates.
-    - Currently NPC 5 is looping at Bottom (9, 10/11).
-    - Top Gates are Closed.
-    - Expectation: When NPC 5 moves to Top (9, 8), Top Gates will OPEN.
+- **Goal:** Exit Middle Pocket and reach Bottom Passage (Row 13).
+- **Situation:** Player is inside Middle Pocket (10, 10). Top and Bottom internal gates are CLOSED. NPC 5 is patrolling (9, 9) to (9, 11).
+- **Insight:** Since NPC 5 isn't opening the Top/Bottom gates, I must exit to the hallway (Column 8) to change rows.
 - **Plan:**
-    1. **Wait** in Middle Pocket for NPC to patrol North.
-    2. **Monitor** NPC position.
-    3. **Dash** North when (10, 9) opens.
-- **Logic Check:** "Work behind scenes" might mean he opens gates only when he is there? Or when he DOESN'T see me? Currently he doesn't see me (he faces Down), but gates are closed. So likely position-based.
+    1. **Escape:** Move Left to (9, 10) -> (8, 10). (Spam Left until NPC 5 moves out of the way).
+    2. **Traverse:** Walk South to (8, 13).
+    3. **Enter:** Check if Bottom Gates (10, 13)/(11, 13) are open.
+    4. **Exit East:** Walk through (12, 13) to the ladder area.
 
 ## Status
 - Player at (9, 9).
