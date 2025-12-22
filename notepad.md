@@ -33,10 +33,6 @@
 - Item Requirements: ~50 Great Balls, 3 Ultra Balls.
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
 
-# Warp Markers Fix
-- Fixed malformed Sage ID 6 marker on 4_2.
-- Placed Route 37/Ecruteak gate markers.
-
 # Observations (Radio Tower Takeover - COMPLETED)
 - Director rescued, CLEAR BELL obtained.
 - Radio Tower 5F: Rocket Executive defeated. Ultra Ball found at (8, 5).
