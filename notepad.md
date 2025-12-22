@@ -27,9 +27,9 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Talked to Teacher at South Entrance (3_54). She is generic.
+- **Status:** Returning to Goldenrod Underground (Main Tunnel 3_53).
 - **Goal:** Obtain Team Rocket Uniform.
-- **Hypothesis:** The Rocket Grunt is likely in the North-East corner of the main tunnel (3_53), near the Photo Studio location, which I might have bypassed.
+- **Hypothesis:** The Rocket Grunt is likely in the North-East corner of the main tunnel (3_53), near the Photo Studio location.
 - **Plan:**
     1. Take ladder at (5, 25) back to 3_53.
     2. Travel North through the tunnel.
