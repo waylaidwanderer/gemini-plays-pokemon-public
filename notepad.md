@@ -10,6 +10,7 @@
 - Movement: Roamers shift routes ONLY when the player crosses a map boundary (warp/carpet) or after a battle with the roamer.
 - Note: Flying counts as crossing boundaries. Pacing in grass does NOT move them. Phone calls do NOT move them.
 - Capture: Status (Sleep/Paralysis) and HP damage are permanent between encounters. Sleep is highly recommended to prevent fleeing on Turn 1.
+- Catch Odds: ~5.66% with Sleep + Great Ball at 1 HP. Reducing HP is highly recommended. Suicune is Lv 40.
 
 # Tile Mechanics (Route 38)
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
