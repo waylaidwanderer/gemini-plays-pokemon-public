@@ -204,12 +204,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Sequence: Start (Menu) -> A (Pokedex) -> A (Select Suicune) -> Right (Move to AREA) -> A (Open Map) -> Wait -> B (Back) -> B (Back) -> B (Back) -> B (Back)\nbuttons = [\"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\", \"sleep 2000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]\nprint(json.dumps(buttons))",
+    "python_script": "import json\n# Sequence: Start (Menu) -> A (Pokedex) -> A (Select Suicune) -> Right (Move to AREA) -> A (Open Map) -> Wait -> B (Back) -> B (Back) -> B (Back) -> B (Back)\nbuttons = [\"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"A\", \"sleep 2000\", \"Right\", \"sleep 500\", \"A\", \"sleep 2000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-22T20:53:32.537Z",
         "action_counter": 12781
+      },
+      {
+        "commit_message": "Increased sleep after opening entry to ensure menu is active before moving to AREA.",
+        "timestamp": "2025-12-22T20:56:46.305Z",
+        "action_counter": 12788
       }
     ]
   }

@@ -45,7 +45,7 @@
 - Azalea: Poke Ball, Potion, Super Potion, Escape Rope, Repel, Antidote, Parlyz Heal, Flower Mail.
 - Olivine: Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
 - Ecruteak (4_6): POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE. (No Repels).
-- Restock Goal: Buy 10+ Super Repels in Olivine. Current Funds: ¥6821. Started: Turn #12668.
+- Restock Goal: Buy 10+ Super Repels in Olivine. Current Funds: ¥1821.
 
 # Suicune Capture Strategy Detail
 - Lead: Gloom (KIMCHI) with Sleep Powder.
@@ -66,4 +66,3 @@
 - Current Boundary: Route 38 (0, 10) < - > Route 39 (19, 10).
 - Suicune Last Seen: Route 42.
 - Goal: Trap on 38 or 39. Use Repel Trick with KIMCHI (Lv 21).
-- Strategy: Cross map boundary -> Check Pokédex -> Repeat until Suicune is on the same map.
