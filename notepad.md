@@ -143,3 +143,8 @@
     2. Attempt to Talk (Down) to force NPC 7 to Face Up.
     3. Check Gates at (10, 12).
     4. If no change, Unstun NPC 7 and retry.
+- **Observation:** NPC 7 is moving (Stun seemingly failed or reset).
+- **Action:** Interacting with NPC 7 from (6, 12).
+- **Requirement:** Must face DOWN to talk.
+- **Expectation:** NPC 7 turns UP.
+- **Observation Target:** Check if Gates at (10, 12) open when he faces UP.
