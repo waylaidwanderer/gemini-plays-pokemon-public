@@ -40,3 +40,5 @@
 - Correction: I previously stuck to the West wall of the Underground. I must explore EAST in the Main Underground (3_53) to find the Dept Store entrance.
 - Correction: The Underground Entrance room (3_54) is split into two unconnected halves. I cannot cross here.
 - Plan: Descend to Main Underground (3_53) and look for a path to the East side of that map, which likely leads to the Dept Store Basement.
+- Hypothesis Test: Checking if the Underground West tunnel has any openings to the East side.
+- Plan: Hug the right wall while moving North. If no opening is found, assume the tunnels are separate and I must access the East side from the surface (Department Store).
