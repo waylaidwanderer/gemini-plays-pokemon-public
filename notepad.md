@@ -19,6 +19,6 @@
 - **Critical Detail:** When at (8, 9), if NPC is at (9, 9), pressing `Right` faces him. If he is NOT there, it moves me back. Must verify position before acting.
 
 ## Status
-- Player at (8, 9) facing Right.
+- Player at (8, 9) facing Left.
 - NPC 5 at (9, 11).
-- Action: Waiting for NPC 5 to reach (9, 9). Pressing A to intercept.
+- Action: Waiting for NPC 5 to reach (9, 9). Pressing A (facing wall) to pass turns.
