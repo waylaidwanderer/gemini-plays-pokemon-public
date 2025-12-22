@@ -4,12 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Go to Radio Tower (Northwest Goldenrod).
-- **Status:** Attempting to sneak past Grunt at (29, 7) to reach Warp at (33, 9).
+- **Status:** Executing South-West Loop Strategy.
 - **Plan:**
-    1. Navigate via (25, 8) -> (28, 8) -> (28, 9) -> (33, 9).
-    2. This path keeps distance from the Grunt at (29, 7) and stays North of the Grunt at (31, 10).
-    3. If successful, enter the warp.
-    4. If caught/blocked, fallback: Search Northwest area or return to Underground.
+    1. Go West to x=14, then South to y=28.
+    2. Go West along y=28 to the West edge of the city (x=6).
+    3. Go North along the West side (exploring new area).
+    4. Find the Radio Tower entrance (likely on the West or South side of the block).
+    5. Attempt to enter.
 
 ## Key Information
 - **Turn 12001:** Rocket Grunt at (31, 10) is a non-battling blocker.
