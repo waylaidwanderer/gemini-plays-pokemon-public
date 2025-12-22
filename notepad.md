@@ -197,3 +197,10 @@
 - **Contradiction:** Hypothesis "Top Position = Bottom Open" is currently failing.
 - **Action:** Move to `(11, 11)` and wait one more turn to see if there is a delay or if the state changes when he moves *away* from `(9, 9)`.
 - **Alternative:** If this fails, I will return to the West side and investigate the boxes/gates interaction again, possibly involving the Machoke.
+- **Status:** Hypothesis "NPC 5 Position = Gate State" failed. Bottom Gates still closed.
+- **New Insight:** South East area is isolated by Row 12 Wall. MUST enter via Bottom Gates (10, 12-13).
+- **Hypothesis:** NPC 7 (Bottom) must face LEFT (Away from gates) to "stop watching", allowing them to open.
+- **Plan:**
+    1. Try interacting with Bottom Gate from Inside (10, 11) - Check for simple open/strength.
+    2. If fails, exit to West.
+    3. Make NPC 7 face Left.
