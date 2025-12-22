@@ -3,14 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Walking to Elm's Lab.
-- **Status:** Walking to Lab Entrance.
-- **Reason:** Phone call cleared. Proceeding to Elm's Lab to show Togepi.
+- **Navigation:** Talking to Elm.
+- **Status:** Inside Elm's Lab.
+- **Reason:** Showing Togepi to Elm to complete the mystery egg quest.
 - **Plan:**
-    1. Walk to Lab (6, 3).
-    2. Enter Lab.
-    3. Talk to Elm.
-    4. Receive Everstone.
+    1. Walk to Elm (5, 3).
+    2. Talk to Elm.
+    3. Get Everstone.
+    4. Exit Lab.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
