@@ -35,3 +35,8 @@
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 - (10, 2) identified as an 'Unmarked Warp' by system (Turn #11997). Currently non-functional or one-way.
+
+# Suicune Perimeter Investigation
+- Tested (Turn #12005): Face (9, 4) and press A. Result: No effect.
+- Hypothesis 3: Entrance is a warp or ladder in a corner of 1F.
+- Progress: Exploring bottom-right corner (17, 15).
