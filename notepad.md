@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Selecting Mistral to Fly (Retry 2).
-- **Reason:** Previous attempt selected Cancel. Cursor is now on Cancel. Moving Up 3 slots to Mistral (Slot 4).
+- **Status:** Selecting Mistral to Fly (Correction).
+- **Reason:** Previous attempt moved UP from Mistral to Muscle. Currently in Muscle's menu. Correcting by moving DOWN to Mistral.
 - **Plan:**
-    1. Enter Party (A).
-    2. Navigate to Mistral (Up x3).
+    1. Close Muscle's Menu (B).
+    2. Navigate to Mistral (Down x3).
     3. Select Mistral (A).
-    4. Select FLY.
-    5. Fly to Goldenrod.
+    4. Select FLY (A).
+    5. Navigate Map to Goldenrod.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
