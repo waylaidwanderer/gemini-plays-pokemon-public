@@ -130,3 +130,5 @@
 - Observation: Gate at (10, 12) is CLOSED (WALL).
 - Action: Talking to NPC 5 at (9, 11) to turn him RIGHT.
 - Hypothesis: NPC facing direction controls gate toggles.
+- Update: NPC 5 moved to (9, 10) and is now STUNNED.
+- Plan: Move to (8, 10) to flank him from the LEFT. This should force him to look Left (away from Col 9).
