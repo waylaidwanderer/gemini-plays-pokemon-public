@@ -3,14 +3,17 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Accessing PC at (9, 1).
-- **Status:** Inside Goldenrod Pokemon Center.
-- **Reason:** Need to swap Kenya for Togepi to progress Elm's event.
+- **Navigation:** Operating PC at (9, 1).
+- **Status:** At PC in Goldenrod Pokemon Center.
+- **Reason:** Accessing Bill's PC to swap Kenya for Togepi.
 - **Plan:**
-    1. Go to PC (9, 2).
-    2. Deposit Kenya (Spearow).
-    3. Withdraw Togepi.
-    4. Fly back to New Bark Town.
+    1. Open PC (Up, A).
+    2. Select "Bill's PC".
+    3. Select "Deposit PKMN".
+    4. Deposit Kenya.
+    5. Select "Withdraw PKMN".
+    6. Withdraw Togepi.
+    7. Exit and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
