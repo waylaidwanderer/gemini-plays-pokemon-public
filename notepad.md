@@ -156,3 +156,7 @@
 - **Action:** Unstunning NPC 7.
 - **Plan:** Move to (9, 12) and face Right (towards gate, away from NPC) to test "Behind the Scenes" hypothesis.
 - **Hypothesis:** If I don't watch the NPC, he will open the gate.
+- **Observation:** NPC 7 interaction ("Oohah! Oohah!") confirmed as a Pokémon cry (Machoke sound?) or exertion noise. No dialogue.
+- **Hypothesis:** "Behind the Scenes" mechanic.
+- **Test:** Stand at (9, 12), face RIGHT (East). This faces the gate but puts the NPC (West) out of view behind me.
+- **Goal:** See if gate (10, 12) opens.
