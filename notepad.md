@@ -62,3 +62,8 @@
 - Resource Prep: Buy ~20 Ultra Balls. Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer).
 - Note: Suicune is Water/Ice/Flying coverage. GNEISS takes 4x damage from Water.
 - Shopping: 5F is TM Corner. Check 6F or Rooftop for Ultra Balls if not on 5F.
+
+# Goldenrod Dept. Store 5F
+- Receptionist (7, 5): Gives TM27 (Return) if lead Pokémon has high friendship. (Received Turn #11330)
+- Clerk (8, 5): TM Shop.
+- Unseen area in SW corner (0, 6 to 2, 7).
