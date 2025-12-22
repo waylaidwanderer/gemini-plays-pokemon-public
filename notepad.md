@@ -292,3 +292,7 @@
 - **Action:** Strength Activated. Moving to `(9, 12)` to attempt pushing the Bottom Gate "Box" at `(10, 12)`.
 - **Method:** Walk into the tile. Strength pushes automatically on contact.
 - **Goal:** Open path to South East Room.
+- **Action:** Attempting to PUSH Machoke (7, 7) using Strength.
+- **Path:** Move to (6, 7) and walk Right into him.
+- **Hypothesis:** The Machoke acts as a boulder. Moving him might trigger a switch or open the path.
+- **Note:** Behind him (to the right) is clear floor.
