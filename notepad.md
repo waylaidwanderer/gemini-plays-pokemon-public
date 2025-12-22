@@ -75,7 +75,9 @@
 - **Hypothesis:** Switch/Trigger in Bottom Right opens Row 4 or provides access.
 - **Observation:** Tile changes occurring dynamically (e.g. (5, 11) became WALL).
 - **Plan:** Navigate to (13, 8), then explore South East corner.
-- **Observation:** Row 4 is a solid WALL (Cols 14-19). North East Room (Item/Ladder) is isolated.
-- **Hypothesis:** Switch in South East corner (18, 16) or interaction with Bottom Gates (10, 12-13) required.
-- **Action:** Moving to South East corner.
-- **Plan:** Search for switch. If none, check Bottom Gates from East side.
+- **Zone 2 (Top East):** Dead end.
+    - North (Row 4): Blocked by Walls.
+    - South (Row 12): Blocked by Walls.
+- **Action:** Returning to West Side.
+- **Goal:** Open Bottom Gates (10, 12-13) to access South East Zone.
+- **Hypothesis:** Trigger for Bottom Gates is in Bottom West area.
