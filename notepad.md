@@ -27,7 +27,11 @@
 - Repel Refresh: Verified. If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
 
 # Ledge Test Plan (Route 37)
-- Observation: Ledges at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7). Potential ledges at (14, 14), (15, 14).
+- Observation: Ledges at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7).
 - Hypothesis: LEDGE_HOP_DOWN is a one-way jump South.
 - Test: 1. Move to (12, 2). 2. Walk Down. 3. Attempt to walk Up.
 - Conclusion: Pending.
+
+# Menu Navigation
+- Lesson: The main menu is circular. Using a fixed number of 'Up' or 'Down' presses is unreliable. Always verify cursor position or use relative movement.
+- Pokédex: To see the 'AREA' map, first press 'A' on the list entry, then move the cursor to 'AREA' and press 'A' again.

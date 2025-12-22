@@ -197,25 +197,5 @@
         "action_counter": 12241
       }
     ]
-  },
-  "check_suicune_location_v3": {
-    "description": "Robustly navigates to Suicune's Pokédex AREA map and back to the overworld. Handles main menu cursor persistence and includes significant delays for UI transitions.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n# Sequence to robustly check Suicune's location in Pokédex\n# Starts from overworld, handles main menu cursor persistence by forcing it to POKEDEX.\nbuttons = [\n    \"Start\", \"sleep 1000\",\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure at top of menu (POKEDEX)\n    \"A\", \"sleep 1000\",            # Enter POKEDEX\n    \"A\", \"sleep 1000\",            # Select Suicune (assume cursor is there)\n    \"Right\", \"sleep 600\",         # Highlight AREA\n    \"A\", \"sleep 5000\",            # Show AREA map for 5 seconds\n    \"B\", \"sleep 800\",             # Exit AREA\n    \"B\", \"sleep 800\",             # Exit Entry\n    \"B\", \"sleep 800\",             # Exit Pokedex\n    \"B\", \"sleep 800\"              # Exit Main Menu\n]\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T15:28:03.593Z",
-        "action_counter": 12338
-      },
-      {
-        "commit_message": "Increased Up presses to 8 to ensure POKEDEX is reached from any starting menu position.",
-        "timestamp": "2025-12-22T15:39:27.686Z",
-        "action_counter": 12353
-      }
-    ]
   }
 }
