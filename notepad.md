@@ -35,3 +35,10 @@
 - Lead: Gloom (KIMCHI) with Sleep Powder.
 - Status: Sleep is best.
 - Analyst: Use `suicune_capture_analyst_v2` for catch odds.
+
+# Reflection Notes (Turn #12826)
+- Lesson: Menu scrolling is not always linear; look at the screen instead of assuming item positions.
+- Grass Dance Start: Turn #12821.
+- Suicune Status: Confirmed on Route 38 (Turn #12804). No boundaries crossed since.
+- Repel Status: Super Repel active (Turn #12813). ~80 steps taken.
+- Lead: KIMCHI (Lv 21) vs Route 38 Wild (Lv 13-16).
