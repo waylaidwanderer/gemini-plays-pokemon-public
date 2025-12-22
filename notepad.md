@@ -20,7 +20,13 @@
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
 - Internal Walls: Column 5 blocks passage Row 4-15 (Gaps at Row 1-3).
 - Internal Walls: Column 8 blocks passage Row 1-11 (Gaps at Row 12-15).
-- Internal Walls: Column 15 blocks passage Row 8-11, 14-15. Gaps at Row 12-13.
+- Internal Walls: Column 15 blocks passage Row 8-11, 14-15. Gaps at Row 12-13. (Likely shutters).
+- Internal Walls: Row 11 blocks passage x=9-15. (Likely shutters).
+- Internal Walls: Rows 14-15 block passage x=12-17. (Likely shutters).
+
+# Time Tracking
+- Warehouse Search Start: Turn 11000.
+- Current Turn: 11024.
 - Rocket Grunt 1: (9, 8).
 - Gentleman: (12, 8).
 - Item Ball: (13, 9).
