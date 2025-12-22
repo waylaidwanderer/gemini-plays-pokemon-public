@@ -4,16 +4,17 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** Clearing Goldenrod Underground before returning to Radio Tower.
+- **Status:** Finishing Underground check, then returning to Radio Tower.
 - **Info:** QUEST KNOWLEDGE AGENT CONFIRMED: No Rocket Uniform in Crystal.
 - **Plan:**
-    1. Battle Super Nerd Teru at (6, 9).
-    2. Battle PokéManiac Donald at (2, 6).
-    3. Exit Underground.
-    4. Return to Radio Tower and force/battle past the Grunt at the stairs.
+    1. Verify PokéManiac Donald at (2, 6) is defeated.
+    2. Exit Underground via South or North entrance.
+    3. Return to Radio Tower.
+    4. Confront the Grunt at the stairs again. Try walking *into* him or checking all angles.
 - **Observations:**
-    - The "True Terror" text is likely just flavor or a pre-battle line. I likely just need to push through.
-    - Locked door at (18, 6) likely requires a key from the Radio Tower (Basement Key?).
+    - Super Nerd Teru at (6, 9) is defeated (confirmed by dialogue).
+    - "True Terror" Grunt at Radio Tower likely just needs persistence or correct interaction.
+    - Locked door at (18, 6) requires key (likely Basement Key from later).
 
 ## Map Data
 - **Goldenrod City:**
