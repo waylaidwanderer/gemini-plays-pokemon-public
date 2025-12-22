@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Inside Game Corner.
+- **Status:** Interviewing Gentleman at (5, 10).
 - **Plan:**
     1. Talk to Gentleman at (5, 10).
     2. Talk to other NPCs for clues.
