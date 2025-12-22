@@ -51,12 +51,14 @@
     - **Objective:** Open Top OR Bottom Boxes.
 - **Status:**
     - Pushing Boxes failed.
-    - NPC 5 (Guard) patrols (9, 10) <-> (9, 11).
-    - Current Observation: At (9, 10), Top Boxes were CLOSED.
+    - NPC 5 (Guard) patrols (9, 9) <-> (9, 10) <-> (9, 11).
+    - Current Observation: At (9, 11), Top Boxes (10, 8) are CLOSED.
+- **Hypothesis:** Top Boxes might open when NPC 5 is at (9, 9) (Top of patrol) or (9, 10).
 - **Plan:**
-    1. Move to (8, 8).
-    2. Watch NPC 5.
-    3. Check if Top Boxes open when he moves to (9, 11) or (9, 9)?
+    1. Face Right at (8, 8).
+    2. Wait for NPC 5 to reach (9, 9).
+    3. Check `AsciiMap` for changes at (10, 8) (WALL vs FLOOR).
+    4. If Open, STUN NPC 5 and run through.
 - **Backup:**
     - Is there a switch I missed in the open area (Rows 10-11, Cols 10-11)?
     - Maybe I need to stun him ON a specific tile?
