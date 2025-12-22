@@ -15,8 +15,7 @@
 
 ## Toggle Log
 - Turn 10490: (0,0,0) baseline reached. All switches OFF.
-- Turn 10463: (0,0,0) baseline reached. All switches OFF.
-- Turn 10434: (1,0,0) verified. (2,6), (3,6) OPEN. (12,8) OPEN.
+- Turn 10434: S3 ON (1,0,0) verified. (2,6), (3,6), (12,8) OPEN.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant.
