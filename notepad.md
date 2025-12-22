@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Selecting Mistral to Fly (Correction).
-- **Reason:** Previous attempt moved UP from Mistral to Muscle. Currently in Muscle's menu. Correcting by moving DOWN to Mistral.
+- **Status:** Navigating Fly Map to Goldenrod.
+- **Reason:** Fly Map is open. Navigating cursor from New Bark Town to Goldenrod City.
 - **Plan:**
-    1. Close Muscle's Menu (B).
-    2. Navigate to Mistral (Down x3).
-    3. Select Mistral (A).
-    4. Select FLY (A).
-    5. Navigate Map to Goldenrod.
+    1. Navigate Cursor: Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
+    2. Verify "Goldenrod City" text.
+    3. Press A to Fly.
+    4. Enter PokeCenter.
+    5. Swap Pokemon.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
