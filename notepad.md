@@ -7,7 +7,7 @@
 
 ## Action Log
 - **Status:** On Fly Map.
-- **Navigation:** Fly Map: Violet->Down->Cherrygrove, Violet->Up->Azalea. Currently at Azalea. Trying Up for Goldenrod.
+- **Navigation:** Flying to Goldenrod City. Next: Go to Radio Tower.
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
