@@ -39,3 +39,5 @@
 - 3-2-1 sequence may require a specific starting state or reset.
 - Don't check switch states after flipping them; it may break the sequence.
 - Trust the shutter report tool for state verification.
+- Talking to a switch you just turned ON and seeing the "It's ON. Turn it OFF?" message DOES NOT reset the sequence, but it's best to avoid it to be safe.
+- (16,7) and (17,7) are likely static walls, not shutters.
