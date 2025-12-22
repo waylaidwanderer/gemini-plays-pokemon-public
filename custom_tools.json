@@ -182,17 +182,5 @@
         "action_counter": 11703
       }
     ]
-  },
-  "throw_great_ball_v1": {
-    "description": "Automatically selects PACK, navigates to the Balls pocket, selects GREAT BALL, and confirms usage. Assumes the main battle menu is visible.",
-    "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. Press A to open PACK (assuming cursor is on PACK or using select_battle_option)\n# 2. Press Left 3 times to ensure we are in the 'Items' pocket (it doesn't wrap to TM/HM from Items with Left)\n# 3. Press Right once to move to the 'Balls' pocket.\n# 4. Press Down once to move from POKé BALL to GREAT BALL.\n# 5. Press A to select GREAT BALL.\n# 6. Press A to select USE.\nprint(json.dumps([\"A\", \"Left\", \"Left\", \"Left\", \"Right\", \"Down\", \"A\", \"sleep 1000\", \"A\"]))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T11:02:53.953Z",
-        "action_counter": 11726
-      }
-    ]
   }
 }
