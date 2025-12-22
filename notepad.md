@@ -26,4 +26,4 @@
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
 - **Status:** Battling Rocket Grunt at (1, 3).
-- **Status:** Defeated Rocket Grunt (Muk) at (1, 3). Proceeding to 3F.
+- **Status:** On Radio Tower 3F. Engaging Rocket Grunt at (5, 1).
