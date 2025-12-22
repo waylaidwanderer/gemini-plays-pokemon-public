@@ -3,12 +3,11 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Confront Rocket Grunt at (16, 23).
-- **Status:** Dialogue ending.
+- **Navigation:** Navigate North past Rocket Grunt to Radio Tower.
 - **Plan:**
-    1. Close text (Press B).
-    2. If battle starts, fight.
-    3. If no battle and path blocked, try navigating North via the West path (X=9) again or return to Underground.
+    1. Move North (Up) to bypass the Grunt at (16, 23).
+    2. Continue North to the Radio Tower area (approx (6, 6)).
+    3. Investigate the Radio Tower entrance.
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
