@@ -12,14 +12,14 @@
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym at (3, 13).
-- **Progress:** Sliding North to (3, 4).
+- **Status:** Inside Mahogany Gym at (5, 4).
+- **Progress:** Reached Pryce's platform.
 - **Puzzle Solution (To Pryce):**
     1.  Start: (2, 5) (Done).
     2.  Slide **East** to (6, 5) Floor (Done).
     3.  Slide **South** to (6, 13) Floor (Done).
     4.  Slide **West** to (3, 13) Floor (Done).
-    5.  Slide **North** to (3, 4) Floor (Executing).
-    6.  Slide **East** to (5, 4) Floor.
+    5.  Slide **North** to (3, 4) Floor (Done).
+    6.  Slide **East** to (5, 4) Floor (Executing).
     7.  Interact **North** with Pryce.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
