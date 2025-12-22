@@ -5,7 +5,7 @@
 - Lead: ICARUS (Pidgey Lv 16) @ 43/43 HP.
 - Fainted: Calcifer (Typhlosion Lv 45), Ravioli (Krabby Lv 10), KIMCHI (Gloom Lv 21).
 - Strategy: ICARUS tanks hits (neutral to Suicune's moves) while I throw Great Balls. If ICARUS falls, GNEISS or Blarney are last resorts.
-- Marathon Turn: #11781.
+- Marathon Turn: #11782.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
