@@ -18,17 +18,17 @@
 - Turn 10831-10896: All switches reset to OFF.
 - Turn 10907: Turned Switch 3 ON.
 - Turn 10910: Visually verified (2, 6) and (3, 6) are OPEN. (2, 7) and (3, 7) are also OPEN.
-- Turn 10914: Confirmed Switch 2 ON.
+- Turn 10914: Turned Switch 2 ON.
 
 # Current Strategy: 3-2-1 Sequence
-1. Turn S3 ON (In progress).
-2. Walk to (2, 6) to verify it is OPEN.
-3. Turn S2 ON.
-4. Walk to (10, 6) and (12, 8) to verify states.
-5. Turn S1 ON.
+1. Turn S3 ON (COMPLETED).
+2. Walk to (2, 6) to verify it is OPEN (COMPLETED).
+3. Turn S2 ON (COMPLETED).
+4. Turn S1 ON (In progress).
+5. Walk to (12, 8) to verify it is OPEN.
 6. Enter Warehouse at (12, 13).
 
 # Lessons Learned
 - Don't trust the report tool for off-screen tiles; walk to them to update the Mental Map.
-- Toggling S1 and S2 both affects shutter (12, 8).
+- Toggling S1 and S2 both affects shutter (12, 8). If both are ON, it returns to OPEN.
 - Always verify switch state via text before concluding a step.
