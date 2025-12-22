@@ -18,19 +18,19 @@
 - Current Task Turn Start: #11483 (Entering Ecruteak).
 - Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City via Route 35, 36, and 37.
-- Strategist Advice (Turn #11374):
-    - Lead: Calcifer (Typhlosion). Smokescreen x6.
-    - Status: KIMCHI (Gloom) for Sleep Powder once HP is red (chip with Headbutt).
-    - Risk: GNEISS and Blarney are 4x weak to Water.
+- Strategist Advice (Turn #11491):
+    - Suicune (Lv40) knows Rain Dance, Gust, Aurora Beam, Mist.
+    - NO Water-type attacking moves. Calcifer (Typhlosion) is the best tank.
+    - Status: ICARUS (Pidgey) for Fly/Sand-Attack if needed. KIMCHI (Gloom) for Sleep Powder once HP is red.
+    - Risk: GNEISS and Blarney are 4x weak to Aurora Beam (Ice).
 - Ball Strategy: ~50 Great Balls from 2F.
 
 # Suicune Capture Plan (Tin Tower)
 - Lead: Calcifer (Typhlosion Lv44).
 - Moves: Smokescreen (reduce accuracy), Flame Wheel/Headbutt (chip damage).
 - Status: Switch to KIMCHI (Gloom Lv21) for Sleep Powder once HP is red.
-- Item Requirements: ~50 Great Balls (Ultra Balls unavailable).
+- Item Requirements: ~50 Great Balls, 3 Ultra Balls.
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
-- Strategist Advice (Turn #11491): Suicune Lv40 (Rain Dance, Gust, Aurora Beam, Mist). Suicune has NO Water moves in this encounter. Calcifer is a safe tank. GNEISS is 4x weak to Aurora Beam. Use Lemonades to heal. Use Ultra Balls first. Apply Sleep/Paralysis.
 
 # Warp Markers Fix
 - Route 37 (10_4) (7, 0) -> 🚪 To Ecruteak City (18, 35)
