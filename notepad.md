@@ -12,21 +12,24 @@
 
 # Current Strategy: Enter Warehouse
 - Step 1: Defeat Burglar Duncan at (9, 12). COMPLETED.
-- Step 2: Navigate to (20, 11) to activate the Emergency Switch.
-  - Route: Need to find a gap in the x=18/19 wall. Row 4/5 is clear across, but row 6-11 is blocked on the east side.
+- Step 2: Navigate to (14, 9) to collect the item ball.
+  - Route: (14, 5) -> (2, 5) -> (2, 9) -> (10, 9) -> (10, 12) -> (16, 12) -> (16, 9) -> (14, 9).
 - Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
-- Step 4: Locate the real Director in the Warehouse.
+- Step 4: Activate the Emergency Switch at (20, 11).
 
-# Shutter Observation (Turn 10973)
-- Row 4/5: Clear passage across the entire map.
-- Emergency Switch (20, 11): Interacted from (20, 12) facing UP.
-- East/West separation: Wall at x=18/19 blocks row 6-11 on the east.
-- Path to East Section: Must find a way to (20, 12).
-- Gap at (10, 10-11) is OPEN.
-- Shutter (12, 8) is CLOSED (S2=ON, S1 doesn't flip it back).
-- Shutter (6, 12) is WALL.
-- Plan: Backtrack to Row 4, go to x=10, south through gap to Row 13, then explore east/west for gaps in row 14 or column 18.
-- Hypothesis: The Warehouse entrance is likely one of the warps in the south (e.g., (5, 25) or (21, 25)).
+# Shutter Observation (Turn 10976)
+- Sequence 3-2-1 complete. Gaps opened at:
+  - x=2,3 (Rows 6, 7)
+  - x=6 (Row 8) - Wait, re-verify this.
+  - x=10,11 (Rows 10, 11)
+  - x=16,17 (Rows 10, 11)
+- Shutter (12, 8) is CLOSED.
+- Shutter (6, 12-13) is WALL.
+- Gap at (2, 6-7) is the only way to reach Row 8/9 from Row 4/5.
+- East section (x >= 20) seems separated from the center by walls at x=18/19. Need to find a gap.
+- Plan: Collect item at (14, 9), then explore south for x=15 gap.
+- Failed Attempt: Tried to path through (14, 6) (WALL). Row 6 is blocked at x=14.
+- Turn Mismatch Fixed: Current Turn is 10976. (Error on 10975).
 
 # Training & Party
 - Gneiss (Lv40 Graveler) is highly effective against Poison-types in this area.
