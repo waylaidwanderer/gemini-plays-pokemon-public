@@ -4,7 +4,7 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Repel expired (Turn #12659). Out of Repels.
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
-- Tracking: Start Turn #12542. Suicune location shifted (Turn #12664).
+- Tracking: Suicune located on Route 42 (Turn #12689).
 - Failed Navigate: Turn #12547 navigate to (29, 22) failed to move player from (9, 22). Investigating obstacles. Plan: Move to Row 23 to bypass Fisher.
 
 # Route 38 Specific Notes
