@@ -406,3 +406,8 @@
 - **Action:** Stunned NPC 7 at `(5, 13)`. Moving to `(5, 12)` (Directly Above).
 - **Next Turn:** Unstun and Interact (Down) to force Face UP.
 - **Hypothesis:** This positional fix ensures the interaction works.
+- **Action:** Executing the "Face Up" test on NPC 7.
+- **Position:** Player `(5, 12)`, NPC 7 `(5, 13)`.
+- **Method:** Unstun -> Interact (Down).
+- **Expectation:** NPC 7 faces UP.
+- **Check:** Gate `(10, 12)` (visible) turns to Floor?
