@@ -49,3 +49,6 @@
 - **Action:** Opening Menu to use Itemfinder manually.
 - **Reason:** 'Select' button was mapped to Bicycle (Oak's Warning), so previous Itemfinder check was invalid.
 - **Goal:** Conclusively test for hidden items in the "Junk" area.
+- **Action:** Pressed A on Itemfinder in Menu.
+- **Goal:** Check for hidden items near `(6, 7)`.
+- **Hypothesis:** "Junk" hint implies hidden item.
