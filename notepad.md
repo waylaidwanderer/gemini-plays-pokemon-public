@@ -110,3 +110,6 @@
 - Correction: Rows 8 and 9 are BLOCKED at Cols 6-7 and 10-11. Cannot cross East-West there.
 - Plan: Cross to West Zone via Row 12 (which seems to be the main connector).
 - Path: (9, 12) -> (4, 12) -> (4, 11).
+- Status: Successfully crossed to West Zone at (4, 11).
+- Plan: Travel South down the West Corridor (Col 2) to Row 16. Head East along Row 16 to check if the wall at (12, 16) has opened.
+- Reasoning: Being in the West Zone might have triggered the "behind the scenes" mechanics to open the path.
