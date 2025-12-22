@@ -18,6 +18,6 @@
 - **Goal:** Reach Director on 5F.
 - **Status:** Exploring West side of 4F.
 - **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
-- **Status:** Arrived on 5F.
-- **Goal:** Locate Director (likely at 3, 6).
-- **Plan:** Navigate South to find the Director.
+- **Status:** Found Director at (3, 6) on 5F.
+- **Goal:** Obtain Card Key from Director.
+- **Plan:** Advance dialogue to get the key.
