@@ -1,11 +1,20 @@
+# Tile Mechanics (Global)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- SHUTTER: Dynamic collision. (Solved in 3_54).
+- LADDER: Warp tile.
+- WARP_CARPET_DOWN: Warp tile.
+
 # Current Strategy: Stop Team Rocket
 - Method: Return to Goldenrod Radio Tower and use the Card Key on 3F.
 - Path: Warehouse (3_56) -> Switch Room (3_54) -> Underground -> Goldenrod City -> Radio Tower.
 - Tactical: Use Card Key on the shutters on 3F to access the upper floors.
+- Search Pattern (Radio Tower): Systematically clear each floor from 3F upwards.
 
 # Observations
 - Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
 - Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R12-15), Col 15 (Gaps R1-3, 12-13).
+- Map 3_55: Dept Store B1F. Connected to Warehouse via (17, 2).
 
 # Training & Party
 - GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
