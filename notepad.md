@@ -27,3 +27,4 @@
 - **Hygiene:** Notepad cleaned up. Grunt behavior noted.
 - **Goals:** Clear outcome-focused goals.
 - **Hypothesis:** Uniform is needed. If not on a Grunt, maybe it's in the locked room or with a specific NPC I missed.
+- Obstacle: Rocket Grunt at (16, 23) blocks the shortcut west on Row 23.
