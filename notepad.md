@@ -41,7 +41,7 @@
 6. Press B multiple times to exit.
 
 # Encounter Tracking (Route 38)
-- Current Repel: Applied Turn #13045.
-- Steps Taken: 100.
+- Current Repel: Applied Turn #13062.
+- Steps Taken: 20.
 - Encounter Goal: Suicune.
-- Status: No encounter yet. Suicune confirmed here Turn #12992.
+- Status: No encounter yet. Suicune confirmed here Turn #13049.
