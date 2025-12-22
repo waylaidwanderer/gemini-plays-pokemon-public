@@ -14,12 +14,12 @@
     5. Verify removal (Icon disappearance).
     6. Deposit Kenya.
 
-# Reflection (Turn 11588)
-- **Execution:** No deferred tasks. Addressed PC confusion immediately.
-- **Hygiene:** Notepad is up to date. Map markers are good.
-- **Automation:** Tools are functioning, though `navigate_to_coords` had a pathfinding issue earlier (likely distance/door related).
-- **Goals:** Clear.
-- **Errors:** Menu navigation failed (ended in Pack). Lesson: Assume menu cursor memory or verify state before long sequences.
+# Reflection (Turn 11638)
+- **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
+- **Lesson:** Mail MUST be removed via the Party Menu ("TAKE MAIL") before depositing a Pokémon. PC "Move w/o Mail" is unreliable or requires specific conditions.
+- **Hygiene:** Map markers are good. Added "Item Storage PC" to avoid future confusion.
+- **Goals:** Clear. Immediate focus is swapping Kenya for Togepi.
+- **Strategy:** Pivot to manual Mail removal in Party Menu to resolve the PC deadlock.
 - **Quest Info:** Rocket Uniform NOT needed (Crystal specific). Fight the Grunt at Radio Tower 2F.
 - **Quest Info:** Showing Togepi to Elm awards Everstone (Side Quest).
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
