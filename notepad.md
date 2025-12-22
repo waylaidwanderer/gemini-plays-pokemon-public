@@ -77,3 +77,6 @@
 - Confirmed: East path at (10, 12) is BLOCKED while I am at (8, 12).
 - Plan: Move North to (8, 7) to see if the path re-opens.
 - Hypothesis: If it opens, I need to find a path South that DOESN'T trigger the closure (possibly a different column).
+- Action: Talked to Black Belt at (4, 8) from (4, 7). He turned UP.
+- Hypothesis: His facing direction might control the "zone" triggers. If he's not watching the corridor, maybe the East path stays open?
+- Plan: Return to Center Junction (8, 7) via Row 6 to check if East path (10, 12) is open.
