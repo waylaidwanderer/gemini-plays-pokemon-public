@@ -16,7 +16,7 @@
 
 # Current Strategy: Execute 3-2-1 Sequence
 1. Step 1: Switch 3 (ON) - COMPLETED.
-2. Step 2: Switch 2 (ON) - In progress (Current position: (10,3)).
+2. Step 2: Switch 2 (ON) - In progress (Current position: (10,2)).
 3. Step 3: Switch 1 (ON) - Heading to (16,1).
 4. Enter Warehouse (Map 3_55).
 
