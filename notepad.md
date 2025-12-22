@@ -3,13 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Speaking to Professor Elm.
+- **Navigation:** accessing PC at (3, 5).
 - **Status:** Inside Elm's Lab.
-- **Reason:** Consulting Elm about the Radio broadcasts. He is asking about the Egg.
+- **Reason:** Elm ignored the Rocket crisis to ask about Togepi. Need to show him Togepi to progress.
 - **Plan:**
-    1. Advance dialogue.
-    2. If he discusses Rockets: Proceed to Goldenrod.
-    3. If he ONLY talks about the Egg: Deposit a Pokemon, withdraw Togepi, and talk to him again to clear the flag.
+    1. Go to PC at (3, 5).
+    2. Deposit a Pokemon (Belladonna).
+    3. Withdraw Togepi.
+    4. Talk to Elm.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
