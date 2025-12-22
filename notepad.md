@@ -50,3 +50,7 @@
 
 # Battle Notes
 - Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
+- Team Rocket disbanded after defeating the Executive on 5F.
+- Received CLEAR BELL from the Director.
+- Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
+- Need to check the item ball at (8, 5) before leaving.
