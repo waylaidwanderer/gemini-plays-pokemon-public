@@ -50,3 +50,5 @@
 - Plan: Explore the southern corridor (Row 13/14) to find a path to the East side. The mental map indicates a possible path through Rows 14-16.
 - Tool Idea: Define `operate_elevator` if multiple resets are needed.
 - Note: Current interaction with elevator seems sticky (input didn't register?). Retrying 'A'.
+- Issue: Elevator inputs seem unreliable (dropped 'Down' press previously).
+- Solution: Using `slow_press` tool to ensure reliable menu navigation.
