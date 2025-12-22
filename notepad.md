@@ -27,10 +27,15 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Inside Underground Entrance South (3_54).
+- **Status:** Exploring Goldenrod Underground (Main Tunnel 3_53).
 - **Goal:** Obtain Team Rocket Uniform.
 - **Plan:**
-    1. Talk to the "Teacher" at (3, 27) in this room.
-    2. If she is not the Rocket member, I might need to check the Director or other locations.
-    3. Take the ladder at (5, 25) back to the Main Underground (3_53) if needed.
+    1. Take the ladder at (5, 25) in 3_54 down to 3_53.
+    2. Explore the area I arrive in.
+    3. Look for a Rocket Grunt to battle or talk to.
+    4. Note any other interactable NPCs.
+- **Map Notes:**
+    - 3_54 (Entrance Room): Teacher at (3, 27) (Just flavor text).
+    - 3_53 (Main Tunnel): Locked door at (18, 7). "NO ENTRY" sign at (19, 6).
+    - Warp (5, 25) in 3_54 leads to 3_53.
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
