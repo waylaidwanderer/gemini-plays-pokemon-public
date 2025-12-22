@@ -330,3 +330,7 @@
 - **Goal:** Talk to NPC 7 from the LEFT side (standing at `(5, 13)` or `(4, 13)`).
 - **Hypothesis:** Forcing NPC 7 to face LEFT (away from the gates) will open the Bottom Gates.
 - **Note:** NPC 7 paces between `(5, 13)` and `(6, 13)`. I must time my movement or use Stun.
+- **Action:** Navigating to `(5, 12)` to position for flanking NPC 7.
+- **Goal:** Get to the West side of NPC 7 to force him to face Left.
+- **Hypothesis:** NPC 7 facing Left (away from gates) acts as a switch to open them.
+- **Observation:** `(7, 10)` is a Wall, so path must be Down then Left.
