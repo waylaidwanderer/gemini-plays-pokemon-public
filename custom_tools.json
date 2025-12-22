@@ -193,5 +193,17 @@
         "action_counter": 11506
       }
     ]
+  },
+  "confirm_battle_action_v1": {
+    "description": "Presses the A button twice with a 1-second delay between presses. Useful for confirming item usage or move selection in battle.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"A\", \"sleep 1000\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T10:45:40.303Z",
+        "action_counter": 11703
+      }
+    ]
   }
 }
