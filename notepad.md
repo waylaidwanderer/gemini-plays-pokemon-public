@@ -32,3 +32,4 @@
 - Info: Radio Tower entrance confirmed at (33, 9). Blocked by Rocket Grunt at (31, 10).
 - Grunt at (31, 10) is a blocker. Requires Uniform or disguise to pass.
 - Strategy: Search Underground for Uniform/Disguise.
+- Status: Heading to Underground Entrance North (9, 5) to look for a uniform.
