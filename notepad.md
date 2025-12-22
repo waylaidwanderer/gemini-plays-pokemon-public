@@ -21,13 +21,14 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exploring Mahogany Town East.
+- **Status:** Inside a house in Mahogany Town (2_1).
 - **Objective:** Locate Pokemon Center and Gym.
-- **Current Action:** Checking building at (17, 7).
+- **Current Action:** Talking to residents for information.
 - **Next Steps:**
-    1. Heal at Pokemon Center.
-    2. Challenge Pryce at Mahogany Gym.
-- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket likely full.
+    1. Talk to Black Belt and Teacher.
+    2. Exit and find Pokemon Center.
+    3. Challenge Pryce.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
