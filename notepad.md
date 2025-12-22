@@ -11,7 +11,7 @@
 
 # Current Strategy: Stop Team Rocket
 - Method: Clear the restricted floors of the Radio Tower and stop the broadcast.
-- Status: Arrived on 4F. Currently clearing trainers.
+- Status: Arrived on 4F. Battling Rocket Executive at (14, 1).
 - Path: Radio Tower 4F -> Radio Tower 5F.
 - Tactical: Use stairs at (12, 0) on 4F to reach the top floor (5F).
 
