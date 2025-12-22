@@ -14,7 +14,7 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Goldenrod City.
+- **Location:** Goldenrod City Pokémon Center.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Exited Radio Tower. Party is low on PP/HP.
-- **Plan:** Use Fly to travel to the Goldenrod City Pokémon Center to heal safely, then proceed to the Underground Entrance.
+- **Status:** Healing Party (Muscle has no PP).
+- **Plan:** Heal at Nurse Joy, then exit and head to the Underground Entrance.
