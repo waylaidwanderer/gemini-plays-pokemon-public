@@ -9,14 +9,14 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Situation:** NPC 5 is at (9, 10) facing Down, blocking the path. The gate at (10, 10) is OPEN (FLOOR) but might close if I'm seen.
+- **Situation:** NPC 5 is at (9, 10) facing Up. I am at (9, 9) (blocking him).
 - **Plan:**
-    1. **Reset:** Unstun NPC 5. Move to (8, 9).
-    2. **Trap:** Wait for NPC 5 to move to (9, 9).
-    3. **Blind:** Talk to him from (8, 9) to make him face LEFT.
-    4. **Lock:** Stun him facing LEFT.
-    5. **Execute:** Walk around him: (8, 9) -> (8, 10) -> (9, 10) -> (10, 10).
-- **Note:** Do NOT step into (9, 10) while he is at (9, 11) facing Up, as he might see me and close the gate.
+    1. **Clear Way:** Move Left to (8, 9) to let him enter (9, 9).
+    2. **Trap:** Wait for him to move to (9, 9).
+    3. **Engage:** Press `Right` (Face Right) + `A` to talk. He turns Left.
+    4. **Lock:** Stun him.
+    5. **Pass:** Walk (8, 9) -> (8, 10) -> (9, 10) -> (10, 10) (East).
+- **Critical Detail:** When at (8, 9), if NPC is at (9, 9), pressing `Right` faces him. If he is NOT there, it moves me back. Must verify position before acting.
 
 ## Status
 - Player at (8, 9) facing Right.
