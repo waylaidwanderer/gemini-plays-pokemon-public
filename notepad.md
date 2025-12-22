@@ -22,9 +22,7 @@
 - Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
 
 # Capture Marathon Log
-- Started: Turn #11666.
-- Current Turn: #11707.
-- Balls used: 3 Ultra, 3 Great.
+- Current Turn: #11708. Great Balls used: 6. Ultra Balls used: 3.
 
 # Ecruteak Tower Lore
 - Original state: Two nine-tier towers.
