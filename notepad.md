@@ -4,12 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Fly Map (Stuck?).
-- **Reason:** Cursor controls appear unresponsive. Pressing 'B' to reset the menu state and confirm inputs are registering.
+- **Status:** In Party Menu (Mistral Selected).
+- **Reason:** Previous attempts to Fly failed due to map controls. Using explicit slow inputs to open map and navigate.
 - **Plan:**
-    1. Press B to close map.
-    2. If successful, re-open map and try again.
-    3. If unsuccessful, assume stuck/frozen.
+    1. Open Mistral's Menu (A).
+    2. Select Fly (A).
+    3. Wait for Map to open.
+    4. Move cursor Left x3 (Attempting to reach Goldenrod).
+    5. Verify destination in next turn.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
