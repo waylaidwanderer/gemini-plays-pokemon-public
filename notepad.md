@@ -25,7 +25,12 @@
 - Progress:
   - 1. S3 ON: Done (Turn 10357).
   - 2. S2 ON: Done (Turn 10365).
-  - 3. S1 ON: Done (Turn 10371). Sequence Complete.
+  - 3. S1 ON: Done (Turn 10372). Sequence Complete.
+- Switch Puzzle Start: Turn 10284. Phase: Verification.
+- Sequence History:
+  - Attempt 1: Mixed -> 3-2-1 (Failed)
+  - Attempt 2: Reset -> 3-2-1 (S2 accidental toggle) -> (Failed)
+  - Attempt 3: Reset -> 3-2-1 (Current)
 - Verification: Move south to check if path to Map 3_55 is open at (10,6), (16,6), and (17,6).
 
 # Area Notes
