@@ -128,10 +128,6 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "menu_already_open": {
-          "type": "boolean",
-          "description": "Whether the main menu is already open."
-        },
         "pos1": {
           "type": "integer",
           "description": "The 0-indexed position of the first Pokemon (0-5)."
@@ -139,6 +135,10 @@
         "pos2": {
           "type": "integer",
           "description": "The 0-indexed position of the second Pokemon (0-5)."
+        },
+        "menu_already_open": {
+          "type": "boolean",
+          "description": "Whether the main menu is already open."
         }
       },
       "required": [
@@ -147,7 +147,7 @@
         "menu_already_open"
       ]
     },
-    "python_script": "import json\n\ndef swap_pokemon():\n    try:\n        p1 = int(input_data['pos1'])\n        p2 = int(input_data['pos2'])\n        is_open = input_data.get('menu_already_open', False)\n    except (NameError, KeyError, ValueError, TypeError):\n        print(json.dumps([\"B\"]))\n        return\n\n    buttons = []\n    if not is_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Reset main menu cursor to top (POKEDEX)\n    for _ in range(8):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 100\")\n        \n    # From top, POKEMON is the second option.\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Party Menu: Reset cursor to top (index 0)\n    for _ in range(6):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 100\")\n    \n    # Navigate to pos1\n    for _ in range(p1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 400\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Sub-menu: [STATS, SWITCH, ITEM, CANCEL]\n    # Reset sub-menu cursor to top (STATS)\n    for _ in range(3):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 100\")\n    \n    # Select SWITCH (second option)\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Party Menu (Selecting target): Reset cursor to top\n    for _ in range(6):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 100\")\n        \n    # Navigate to pos2\n    for _ in range(p2):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 400\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    \n    # Exit to overworld\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nswap_pokemon()",
+    "python_script": "import json\n\ndef main():\n    pos1 = int(input_data['pos1'])\n    pos2 = int(input_data['pos2'])\n    menu_already_open = input_data['menu_already_open']\n    \n    buttons = []\n    \n    if not menu_already_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Enter POKEMON menu\n    # Assume cursor is on POKEMON (index 1)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Party cursor starts at pos 0 upon entry.\n    for _ in range(pos1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    buttons.append(\"A\") # Select pos1\n    buttons.append(\"sleep 1000\")\n    \n    # Select SWITCH\n    # Robust logic: Up x4 from any menu start always hits SWITCH.\n    for _ in range(4):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n    \n    buttons.append(\"A\") # Confirm SWITCH\n    buttons.append(\"sleep 1000\")\n    \n    # Move to pos2 relative to pos1\n    diff = pos2 - pos1\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 300\")\n    elif diff < 0:\n        for _ in range(-diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 300\")\n            \n    buttons.append(\"A\") # Confirm swap\n    buttons.append(\"sleep 1500\")\n    \n    # Exit menus\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -168,6 +168,11 @@
         "commit_message": "Adding comprehensive cursor resets to all menu levels (main menu, party menu, and sub-menus) to ensure reliable navigation regardless of persistent cursor positions.",
         "timestamp": "2025-12-22T09:43:10.333Z",
         "action_counter": 11588
+      },
+      {
+        "commit_message": "Fixing tool definition by providing required commit message.",
+        "timestamp": "2025-12-22T12:33:22.615Z",
+        "action_counter": 11951
       }
     ]
   }
