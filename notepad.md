@@ -1,15 +1,14 @@
 # Suicune Capture Strategy (The "How")
 - Goal: Capture Suicune (Lv 40, Water).
 - Status: Suicune (Lv 40) HP in RED (~5-10%), Accuracy -6.
-- Method: Persist with Great Balls (17 remaining).
-- Lead: ICARUS (Pidgey Lv 16) @ 43/43 HP.
-- Fainted: Calcifer (Typhlosion Lv 45), Ravioli (Krabby Lv 10), KIMCHI (Gloom Lv 21).
-- Strategy: ICARUS tanks hits while I throw Great Balls. Suicune's accuracy is -6.
-- Marathon Turn: #11788.
+- Strategy: Tank with GNEISS (Water weakness offset by Suicune's -6 accuracy) and throw Great Balls.
+- Hypothesis: Current capture rate with Great Balls at low HP and no status is low but feasible. Persistence is the primary method as status-capable Pokemon are fainted.
+- Failed Attempts: ~125 turns of throwing balls at low HP.
 
 # Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL/COUNTER/SHELF: Impassable.
+- FLOOR: Traversable. (Verified: Tin Tower 1F)
+- WALL: Impassable. (Verified: Tin Tower 1F)
+- COUNTER/SHELF: Impassable.
 - LADDER/STAIRS/WARP: Warp tiles.
 - WATER: HM03 Surf required.
 - GRASS: Encounters possible.
