@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Underground (South Entrance). Talking to Teacher at (3, 27) before searching for Coin Case.
+- **Status:** In Underground Entrance (South). Talking to Teacher. Next: Search Underground for Coin Case.
 - **Plan:**
-    1. Talk to Pokefan F at (17, 6).
-    2. Talk to Pokefan M at (17, 10).
-    3. **Go to Underground** to find the Coin Case.
+    1. Talk to Teacher at (3, 27).
+    2. Explore the Underground Tunnel (via ladder at 5, 25) to find the Coin Case.
+    3. Return to Goldenrod City.
 
 **Notes:**
 - Radio Tower entrance was elusive.
