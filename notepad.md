@@ -10,16 +10,13 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Top Right Gates (10, 8).
 - **Hypothesis:** NPC 6 must face UP (Away from his watch post) to open gates.
-- **Status:** Positioned at (4, 7) behind NPC 6.
+- **Status:** Executing "Lock" strat. Stunned NPC 6 facing UP.
 - **Plan:**
-    1. **Interact:** Press A. NPC 6 should turn UP.
-    2. **Lock:** In next turn (during dialogue), use `stun_npc` to freeze him facing UP.
-    3. **Verify:** Check gates at (10, 8).
-- **Backup:** Use `Itemfinder` (Key Item) near NPC 7 (Bottom Left).
-- **Discarded:**
-    - Talking from Right (Face Left): Failed.
-    - Talking from Bottom (Face Up): Failed (Implied).
-    - Machop interaction: Failed (Just text).
+    1. **Execute:** Stunned NPC 6. Cleared text.
+    2. **Verify:** Moving to (8, 7) to check gates at (10, 8).
+    3. **Action:** If Open -> Enter!
+    4. **Fail:** If Closed -> Retest Bottom Left with Itemfinder.
+- **Backup:** Itemfinder at Bottom Left.
 
 ## Status
 - Player at (9, 9).
