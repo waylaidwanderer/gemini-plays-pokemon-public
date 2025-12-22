@@ -30,3 +30,11 @@
 - Row 10 is a major wall; must find a way through to reach the southern warps.
 - Always check cursor position in menus to avoid turning switches OFF by mistake.
 - Scientific Method: Observe, Hypothesize, Test, Conclude. Test one variable at a time. Actively try to falsify confirmed hypotheses.
+
+# Shutter Observation (Turn 10949)
+- Row 6/7 at x=2,3: OPEN (S3=ON).
+- Row 10/11 at x=2,3: CLOSED (WALL).
+- (6, 9) changed to FLOOR (Turn 10947). Likely a shutter opened by S1 or S2.
+- (6, 13) changed to WALL (Turn 10948). Likely a shutter closed by S1 or S2.
+- Hypothesis: Row 10/11 contains shutters that are also toggled by the switches.
+- Goal: Map the Row 10/11 shutters to the switches.
