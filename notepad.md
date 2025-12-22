@@ -6,9 +6,9 @@
 - **Navigation:** Explore Goldenrod Game Corner.
 - **Status:** Exploring Game Corner. Cooltrainer M (14, 8) only cares about cards. Talking to Pokefan F at (17, 6).
 - **Plan:**
-    1. Navigate to (8, 6) via Row 4 (Northern path) to avoid machines.
-    2. Talk to Pharmacist at (8, 7).
-    3. Check for info.
+    1. Talk to Pokefan F at (17, 6).
+    2. Talk to Pokefan M at (17, 10).
+    3. **Go to Underground** to find the Coin Case.
 
 **Notes:**
 - Radio Tower entrance was elusive.
