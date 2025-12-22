@@ -322,7 +322,7 @@
 - **Prediction:** If I stare at him, he might stop working (Close Top Gates?), which might toggle the system (Open Bottom Gates?).
 - **Test:** Turn Left. Wait. Check map next turn.
 - **Test:** "Watching" NPC 6 (Turn 12626) FAILED. Top Gates remained Open.
-- **Layout Analysis:** The West Room is split by a block of Walls/Boxes at `(4-7, 10-11)`.
-- **Navigation:** To reach NPC 7 `(5, 13)` from Top West `(5, 9)`, I must go East to Col 9, Down to Row 13, then West.
-- **Action:** Navigating to `(5, 13)` via the East corridor.
-- **Plan:** Talk to NPC 7 and experiment with facing directions (Left/Up).
+- **Layout Correction:** Cannot go Right from `(5, 8)` (Wall). Must go Up to Row 6 to cross to East Corridor (Col 9).
+- **Path:** `(5, 8) -> (5, 6) -> (9, 6) -> (9, 13) -> (6, 13)`.
+- **Action:** Navigating to `(6, 13)` to talk to NPC 7.
+- **Goal:** Test if making NPC 7 face LEFT (Away from gates) opens the Bottom Gates.
