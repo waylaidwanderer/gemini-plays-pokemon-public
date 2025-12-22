@@ -363,3 +363,7 @@
     2. Unstun NPC 7 (Next Turn).
     3. Interact (Down) to force Face UP.
 - **Hypothesis:** NPC 7 Facing Up -> Gate `(10, 12)` Opens.
+- **Action:** Unstunned NPC 7.
+- **Action:** Pressed Down + A to interact from `(6, 12)`.
+- **Goal:** Force NPC 7 to face UP.
+- **Verification:** Checking Gate `(10, 12)` in next turn.
