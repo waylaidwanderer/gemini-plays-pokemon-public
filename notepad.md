@@ -19,4 +19,5 @@
 - **Known Blockades:**
   - **Goldenrod City:** Grunts blocking West and East paths.
 - **Missing Keys:** BASEMENT KEY, CARD KEY.
-- **Plan:** Navigate around counters to reach the eastern side and the stairs to 4F.
+- **Plan:** Defeat Scientist at (9, 5) and Cooltrainer at (10, 3), then proceed East to 4F.
+- **Note:** "Item" at (7, 4) was a floor decoration.
