@@ -3,14 +3,17 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Swapping Kenya for Togepi.
-- **Status:** Withdrawing Togepi.
-- **Reason:** Kenya deposited. Now withdrawing Togepi from Box 1.
+- **Navigation:** Removing Mail from Kenya (Retry).
+- **Status:** Manually removing Mail via Party Menu.
+- **Reason:** PC "Deposit" failed with "Remove MAIL" error. Previous removal attempt didn't stick or wasn't saved.
 - **Plan:**
-    1. Select "WITHDRAW PKMN" (Up, A).
-    2. Navigate to Togepi (Down x10 or Up wrapping).
-    3. Withdraw Togepi.
-    4. Exit PC.
+    1. Exit PC (B, B, B).
+    2. Open Party (Start, Down, A).
+    3. Select Kenya (Down x4, A).
+    4. Select MAIL (Down x3, A).
+    5. Select TAKE MAIL (Down, A).
+    6. Select NO to "Send to PC" (Down, A) to ensure it's removed to Bag.
+    7. Deposit Kenya.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
