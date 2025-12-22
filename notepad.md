@@ -8,18 +8,21 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Solve Puzzle / Open Gates.
-- **Status:**
-    - Bottom Path: NPC 7 loops (5-7). Gates closed. Checked (7,13)/(8,13) for items (Failed).
-    - Top Path: NPC 6 is static at (4, 8). Machop at (7, 7).
+- **Goal:** Reach East Room (Col 13+) via Top Right (Row 8/9) or Bottom Right (Row 13).
+- **Map Analysis:**
+    - **Middle Right Pocket (10,10 - 11,11):** OPEN, but leads to WALL at Col 12. **DEAD END.**
+    - **Top Right Pocket:** CLOSED. Leads to EXIT at (12, 8).
+    - **Bottom Right Pocket:** CLOSED. Leads to EXIT at (12, 13).
+    - **Conclusion:** I MUST open Top Right or Bottom Right gates.
 - **Hypothesis:**
-    1. **Interaction:** Maybe I need to talk to NPC 6 to trigger something.
-    2. **Machop:** Maybe the Machop can be moved?
-    3. **Itemfinder:** I haven't actually used the `Itemfinder` item yet, I just pressed A.
+    - NPC 6 (Top Left) -> Controls Top Gates?
+    - NPC 7 (Bottom Left) -> Controls Bottom Gates?
+- **Current Action:** Talk to NPC 6 at (4, 8).
 - **Plan:**
-    1. **Navigate:** Go to (4, 7) (Around Machop via Row 6).
-    2. **Talk:** Interact with NPC 6.
-    3. **Search:** Use `Itemfinder` key item near the "junk" spots if dialogue fails.
+    1. **Talk:** Interact with NPC 6.
+    2. **Observe:** Does he say something useful? Do gates open?
+    3. **Search:** Use `Itemfinder` if dialogue fails.
+    4. **Machop:** Check Machop at (7, 7).
 
 ## Status
 - Player at (9, 9).
