@@ -53,3 +53,6 @@
 - Hunt started: Turn #12156.
 - Method: Route-hopping between Ecruteak City and Route 37.
 - Status: Tracking via Pokédex.
+- Suicune Hunt started Turn #12156.
+- Method: Route-hopping between Ecruteak City and Route 37.
+- Status (Turn #12189): Suicune is roaming. Checking Pokédex to track its location.
