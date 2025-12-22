@@ -5,12 +5,12 @@
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
 - **Status:** In Fly Map.
-- **Reason:** Previous fast inputs failed to move cursor. Using slow_press to navigate.
+- **Reason:** Cursor appears to be on Goldenrod, but text still says "New Bark Town". Refreshing selection to verify position.
 - **Plan:**
-    1. Move cursor Left x3 (slowly).
-    2. Check destination text.
-    3. Adjust to Goldenrod if needed.
-    4. Confirm (A).
+    1. Press Up (Should go to Ecruteak if at Goldenrod).
+    2. Press Down (Should return to Goldenrod).
+    3. Verify text says "Goldenrod City".
+    4. Press A to Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
