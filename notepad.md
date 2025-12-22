@@ -14,7 +14,7 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Radio Tower 3F.
+- **Location:** Radio Tower 2F.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Descending Radio Tower with BASEMENT KEY.
-- **Plan:** Navigate to stairs at (0, 0) to descend to 2F.
+- **Status:** Descending Radio Tower.
+- **Plan:** Navigate to stairs at (15, 0) to descend to 1F.
