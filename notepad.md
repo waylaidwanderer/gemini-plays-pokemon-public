@@ -80,3 +80,5 @@
 - Action: Talked to Black Belt at (4, 8) from (4, 7). He turned UP.
 - Hypothesis: His facing direction might control the "zone" triggers. If he's not watching the corridor, maybe the East path stays open?
 - Plan: Return to Center Junction (8, 7) via Row 6 to check if East path (10, 12) is open.
+- Observation: Black Belt at (4, 8) is now facing LEFT (away from corridor).
+- Test: Moving South to (8, 12) to see if East path (10, 12) remains OPEN.
