@@ -129,7 +129,20 @@
 - Plan: Inspect (10, 12). If closed, manipulate NPC 5 facing direction.
 - Observation: Gate at (10, 12) is CLOSED (WALL).
 - Action: Talking to NPC 5 at (9, 11) to turn him RIGHT.
-- Status: At (8, 10). NPC 5 is at (9, 10), Unstunned.
-- Action: Pressing 'A' to talk. Expecting him to turn LEFT to face me.
-- Goal: Check if his facing direction opens Gate 2 at (10, 12).
-- Note: If dialogue opens, checking map updates in background.
+## Basement Puzzle Strategy
+- **Goal:** Reach East side (Items/Ladder).
+- **Hypothesis:** NPC Facing Direction triggers the gates (Boxes).
+    - NPC 5 (Middle) -> Controls Row 11/12 Gates?
+    - NPC 6 (Top Left) -> Controls Top Gates?
+- **Current Status:**
+    - Gate 2 (10, 12) is CLOSED.
+    - NPC 5 is at (9, 9), facing UP.
+- **Plan:**
+    - Position at (8, 9) or (8, 10).
+    - Talk to NPC 5 to force him to turn LEFT.
+    - Check if Gate 2 opens.
+
+## Reflections (Turn 12260)
+- **Basement Puzzle:** Stuck for ~100 turns. "Zone" hypothesis failed. Pivoting to "NPC Facing" hypothesis. Stunned NPCs don't turn, so I must interact while they are active.
+- **Error Analysis:** Missed interaction on Turn 12259 because NPC moved.
+- **Action:** Consolidating notes and pursuing NPC interaction strategy.
