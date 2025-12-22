@@ -50,3 +50,5 @@
 - Navigation Note: Gym area (Row 10-12, Col 23-25) is enclosed by walls on the South. Must go West to Col 21 (Main Street) to travel South to Dept Store.
 - Observation: Tile (24, 28) directly below Dept Store door is marked as WALL. Approaching (23, 28) to investigate entrance accessibility.
 - Status: Inside Dept Store 1F. Checking Directory for Basement info.
+- Observation: Directory lists 1F-6F + Rooftop. No Basement listed.
+- Hypothesis Test: Checking Elevator for hidden/unlisted 'B1F' button.
