@@ -64,3 +64,5 @@
 - Observation: West side connects to a vertical corridor (Col 1-2).
 - Plan: Follow this corridor South to Row 16, then head East to bypass the central blockage and approach the East side from the bottom.
 - Question: Is the barrier at Row 12 on the East side static walls or movable boxes? I'll check from the South.
+- Observation: Row 16 (Cols 3-11) is a dead end. Wall at (12, 16) blocks access to the East side.
+- Plan: Backtrack to the open area at (5, 12). Check if the central path (Row 12) or other paths have opened up due to my position on the West side.
