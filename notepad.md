@@ -35,7 +35,7 @@
 # Final Puzzle Logic (Verified)
 - S3 toggles: (2,6), (3,6)
 - S2 toggles: (10,6), (6,8), (12,8)
-- S1 toggles: (16,6), (17,6), (12,8)
+- S1 toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 - Baseline (0,0,0): (12,8) is the ONLY open shutter.
 - Solution (3-2-1 Order):
   1. Press S3 (ON) -> Opens (2,6), (3,6). (12,8) remains OPEN.
