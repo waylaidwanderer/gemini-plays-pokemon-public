@@ -317,3 +317,7 @@
 - **Trigger:** NPC 6 (Top) says "I lose my passion if someone's watching."
 - **Prediction:** If I "Watch" NPC 6 (Stand at 5, 8 and Face Left), the Top Gates might CLOSE. If they close, the Bottom Gates might OPEN.
 - **Action:** Going to harass NPC 6.
+- **Action:** At `(5, 8)`. Turning LEFT to "Watch" NPC 6 `(4, 8)`.
+- **Current Gate State:** Top OPEN, Bottom CLOSED.
+- **Prediction:** If I stare at him, he might stop working (Close Top Gates?), which might toggle the system (Open Bottom Gates?).
+- **Test:** Turn Left. Wait. Check map next turn.
