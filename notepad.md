@@ -18,6 +18,12 @@
 - TALL_GRASS at (8, 2), (9, 2), (7, 2): Pacing spot.
 - LEDGE_HOP_DOWN at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7).
 
+## Roaming Pokemon Strategy
+- If Suicune flees: Immediately check Pokédex AREA map.
+- Tracking: Do NOT use Fly to chase, as it randomizes Suicune's location. Instead, walk across map boundaries (gatehouses/warp carpets) to shift its position predictably.
+- Encountering: Use the Repel Trick (Lead Lv > Wild Lv, Lead Lv < Suicune Lv) and pace in grass.
+- Capture: Use Sleep status on Turn 1. Use `suicune_capture_analyst_v2` to determine best ball usage.
+
 # PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
