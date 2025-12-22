@@ -3,13 +3,12 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Navigate North to the Radio Tower (Safe Path).
-- **Status:** On Main Street (18, 25).
+- **Navigation:** Navigate to Radio Tower Entrance (6, 6).
+- **Status:** Approaching Radio Tower (20, 9).
 - **Plan:**
-    1. Move East to X=21 to avoid Rocket Grunt at (16, 23).
-    2. Move North to Y=15 to avoid Youngster at (20, 16).
-    3. Move West to (13, 15) to cross the tracks.
-    4. Head North to Radio Tower.
+    1. Move West to X=6.
+    2. Move North to the Radio Tower entrance area.
+    3. Investigate Radio Tower or Underground.
 
 ## Reflections & Lessons
 - **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
