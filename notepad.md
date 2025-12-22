@@ -28,3 +28,4 @@
 
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
+- Observation: Suicune is in a walled box (X=6-13, Y=4-10). Checking Sages for access.
