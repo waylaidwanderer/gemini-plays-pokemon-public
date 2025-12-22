@@ -57,3 +57,5 @@
 - Plan: Avoid Col 9. Move Left to Col 7/8 immediately after exiting elevator to check box status without being seen.
 - Observation: Tiles (4, 11) and (5, 11) changed from WALL to FLOOR while I was at (8, 7). This suggests the layout changes dynamically or based on my position/time.
 - Plan: Continue south to Row 13, then check if the path to the East is open. Also keep an eye on the newly opened path at (4, 11).
+- Observation: Tiles (10, 12) and (11, 12) changed FLOOR -> WALL while I was moving to (8, 8). This might block the path south of the central wall.
+- Plan: Continue to (8, 13). Check if the East path along Row 13 is open. If blocked, backtrack to Row 13 and check the West opening at (4, 11) via (8, 13) -> (7, 13)...
