@@ -32,3 +32,5 @@
 # Menu Navigation
 - Lesson: The main menu is circular. Using a fixed number of 'Up' or 'Down' presses is unreliable. Always verify cursor position or use relative movement.
 - Pokédex: To see the 'AREA' map, first press 'A' on the list entry, then move the cursor to 'AREA' and press 'A' again.
+- Active Status: Repel active (Turn #12408). Steps: 0/100.
+- Goal: 100 steps of Grass Dance at (8, 2).
