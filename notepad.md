@@ -11,12 +11,11 @@
 # Current Plan: 3-2-1 Sequence and Mapping
 1. Baseline: (0,0,0) confirmed (S3=OFF, S2=OFF, S1=OFF). Verified Turn 10561.
 2. Turn S3 ON (at 2,1). (Action taken Turn 10564)
-3. Run shutter report to map S3 effects.
-4. Turn S2 ON (at 10,1).
-5. Run shutter report to map S2 effects.
-6. Turn S1 ON (at 16,1).
-7. Run shutter report to map S1 effects.
-8. Verify path to Warehouse (Map 3_55).
+3. Turn S2 ON (at 10,1). (Action taken Turn 10567)
+4. Run shutter report to map S2 effects.
+5. Turn S1 ON (at 16,1).
+6. Run shutter report to map S1 effects.
+7. Verify path to Warehouse (Map 3_55).
 
 ## Primary Effects (Mapping in progress)
 - S3 (2,1): Toggles (2,6), (3,6). Verified Turn 10565.
