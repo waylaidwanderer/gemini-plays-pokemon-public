@@ -1,7 +1,8 @@
 # Suicune Capture Strategy
 - Attempt 1: Failed (Turn #11814). Whited out.
 - Status: Party fully healed. Suicune reset to full HP (if present).
-- Plan: Check Dept. Store 3F for Revives. If found, buy 5. Then Fly to Ecruteak City and check Tin Tower 1F for Suicune.
+- Plan: Check Dept. Store 4F for Revives. If found, buy 5. Then Fly to Ecruteak City and check Tin Tower 1F for Suicune.
+- Status: 3F clerk only sells Battle Items (X-items). No Revives found.
 - Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. If Suicune is asleep, throw Great Balls. Use Smokescreen (Typhlosion) as backup to tank hits.
 - Ball Count: 40 Great Balls, 2 Poké Balls.
 
