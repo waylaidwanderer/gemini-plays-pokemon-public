@@ -13,10 +13,10 @@
 
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym.
-- **Location:** Ice Puzzle (2, 14).
-- **Current Task:** Solving Ice Puzzle.
+- **Location:** Ice Puzzle (2, 10).
+- **Current Task:** Sliding East.
 - **Plan:**
-    1. Slide North from (2, 14) to lands on (2, 10).
-    2. From (2, 10), Slide East to (5, 10).
-    3. Explore further North to find Pryce.
+    1. Slide East from (2, 10) to (5, 10).
+    2. Defeat Boarder at (5, 9).
+    3. Analyze path from (5, 10).
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
