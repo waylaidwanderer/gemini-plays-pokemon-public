@@ -33,3 +33,4 @@
 # Findings
 - Found Ultra Ball at (2, 1) in Map 3_56. (Turn 11006)
 - Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
+- Found Amulet Coin at (14, 2) in Map 3_55. (Turn 11039)
