@@ -4,7 +4,7 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Restocked (10 Super Repels). Turn #12733.
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
-- Tracking: Suicune located on Route 38 (Turn #12715).
+- Tracking: Suicune located on Route 38 (Turn #12751).
 
 # Route 38 Specific Notes
 - TALL_GRASS at (28, 7): Pacing spot for Suicune.
