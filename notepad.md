@@ -21,14 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Inside a house in Mahogany Town (2_1).
-- **Info:** Black Belt confirmed Red Gyarados at Lake of Rage.
+- **Status:** Exiting house to Mahogany Town.
+- **Info:** Residents discussed Red Gyarados.
 - **Objective:** Locate Pokemon Center and Gym.
-- **Current Action:** Talking to Teacher.
 - **Next Steps:**
-    1. Talk to Teacher.
-    2. Exit and find Pokemon Center.
-    3. Challenge Pryce.
+    1. Exit house.
+    2. Find Pokemon Center & Heal.
+    3. Locate and Challenge Gym.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
