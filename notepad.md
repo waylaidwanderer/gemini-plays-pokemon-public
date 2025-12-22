@@ -24,3 +24,5 @@
 
 ## Active Quests/Leads
 - **Uniform:** Needed to enter Radio Tower. Likely in the Underground or with a specific NPC.
+- Info: Super Nerd at (3, 27) is the Older Haircut Brother.
+- Plan: Check ladder at (3, 34) leading to Switch Room Entrances.
