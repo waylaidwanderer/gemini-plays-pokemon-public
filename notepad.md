@@ -53,3 +53,5 @@
 - Status: Arrived at B1F. Menu still open.
 - Action: Pressing 'B' to close menu, then exiting to inspect B1F layout.
 - Next Step: If puzzle is reset, solve it. If not, plan new test.
+- Hypothesis: Walking down the central aisle (Col 9) triggers the Black Belt to block the path ("Won't work if someone's watching").
+- Plan: Avoid Col 9. Move Left to Col 7/8 immediately after exiting elevator to check box status without being seen.
