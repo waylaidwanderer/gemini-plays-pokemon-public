@@ -33,3 +33,6 @@
 - **Turn 1 Summary:** Muscle used Ether (Cross Chop PP restored). Seel used Icy Wind (Muscle Speed fell).
 - **Turn 2 Plan:** Use Strength on Seel (Conserve Cross Chop PP).
 - **Battle Status:** Muscle (138/157, -1 Speed) vs Seel (Full HP).
+- **Turn 2 Summary:** Muscle used Strength. Seel fainted.
+- **Turn 3 Plan:** Stay in. Use Cross Chop on Dewgong.
+- **Battle Status:** Muscle (138/157, -1 Speed) vs Dewgong (Full HP).
