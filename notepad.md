@@ -4,11 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Navigate to Radio Tower Entrance (6, 6).
-- **Status:** Approaching Radio Tower (14, 8).
+- **Status:** Approaching Radio Tower (13, 7).
 - **Plan:**
-    1. Move West to X=6 along Row 8.
-    2. Move North to find the Radio Tower entrance.
-    3. Investigate Radio Tower or Underground.
+    1. Move Down to Row 8 (Avoid Name Rater Sign).
+    2. Move West to X=6 along Row 8.
+    3. Move North to find the Radio Tower entrance.
+    4. Investigate Radio Tower or Underground.
 
 **Goldenrod City Notes:**
 - Name Rater is at (15, 7).
