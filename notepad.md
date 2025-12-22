@@ -402,3 +402,7 @@
 - **Test:** NPC 7 faces UP.
 - **Check:** Does Gate `(10, 12)` open?
 - **Note:** If this fails, the "NPC Facing" hypothesis is likely dead. Next step: Re-evaluate "Junk" hint and Rock Smash/Cut possibilities.
+- **Correction:** NPC 7 was at `(5, 13)` (Left of previous position), so talking from `(6, 12)` failed (talked to air).
+- **Action:** Stunned NPC 7 at `(5, 13)`. Moving to `(5, 12)` (Directly Above).
+- **Next Turn:** Unstun and Interact (Down) to force Face UP.
+- **Hypothesis:** This positional fix ensures the interaction works.
