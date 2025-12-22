@@ -4,10 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Fly to Goldenrod City.
+- **Status:** Navigating Fly Map (Cursor at Olivine City).
 - **Plan:**
-    1. Select MISTRAL -> FLY.
-    2. Select Goldenrod City on the map.
-    3. Confirm Fly.
+    1. Move Cursor: Right (to Ecruteak), Down (to Goldenrod).
+    2. Verify "Goldenrod City" text.
+    3. Press A to Fly.
 
 ## Reflections & Lessons
 - **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
