@@ -16,5 +16,6 @@
 ## Current Strategy & Obstacles
 - **Location:** Goldenrod Underground (Main Tunnel).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Navigating to (18, 7) to open the door.
-- **Key Item:** I possess the BASEMENT KEY, which should open the door at (18, 6).
+- **Status:** Interacting with the Locked Door at (18, 6) using the BASEMENT KEY.
+- **Hypothesis:** Pressing A will trigger the door opening script.
+- **Next Step:** Enter the Warehouse if the door opens.
