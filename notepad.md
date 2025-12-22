@@ -351,3 +351,8 @@
 - **Correction:** Start position is `(6, 13)`. Path: Up -> Right.
 - **Goal:** Stand at `(7, 12)` and talk Down to NPC 7 `(7, 13)`.
 - **Hypothesis:** Forcing him to face UP opens the gates.
+- **Observation (Turn 12638):** NPC 7 oscillates `(6, 13) <-> (7, 13)`.
+- **Plan:** Stay at `(7, 12)`. Face Down. Wait for him to step into `(7, 13)`. Interact.
+- **Goal:** Force NPC 7 to face **UP**.
+- **Check:** Look at Gate `(10, 12)` to see if it opens (turns to Floor).
+- **Hypothesis:** NPC 7 Facing UP -> Gates OPEN.
