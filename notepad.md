@@ -81,3 +81,7 @@
 - **Action:** Returning to West Side.
 - **Goal:** Open Bottom Gates (10, 12-13) to access South East Zone.
 - **Hypothesis:** Trigger for Bottom Gates is in Bottom West area.
+- **Observation:** Black Belt at (9, 10) did not respond to interaction (Turn 12557).
+- **Hypothesis:** He might be a non-interactive "mover" NPC, or interaction requires a specific angle/condition.
+- **Action:** Moving to talk to Machop at (7, 7).
+- **Goal:** Determine if Machop triggers box movement or provides clues.
