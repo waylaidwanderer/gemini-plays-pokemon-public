@@ -20,19 +20,20 @@
 - S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
 - Note: (17,6) needs verification (WALL vs SHUTTER).
 
-## Strategy: 3-2-1 Sequence Execution (Attempt 3)
-- Goal: Open path to the Warehouse Entrance in the southeast.
-- Progress:
-  - 1. S3 ON: Done (Turn 10357).
-  - 2. S2 ON: Done (Turn 10365).
-  - 3. S1 ON: Done (Turn 10373). Sequence Complete.
-- Switch Puzzle Start: Turn 10284. Phase: Verification.
-- Sequence History:
-  - Attempt 1: Mixed -> 3-2-1 (Failed)
-  - Attempt 2: Reset -> 3-2-1 (S2 accidental toggle) -> (Failed)
-  - Attempt 3: Reset -> 3-2-1 (Success - Turn 10373)
-- Verification: Move south to check if path to Map 3_55 is open at (10,6), (16,6), and (17,6).
-- Tile (17, 6) Test: Attempt to walk through (17, 6) to verify if it's a shutter.
+## Shutter Sequence Log
+- Attempt 3 (Turn 10373): Reset -> 3-2-1. Result: (10,6), (16,6), (12,8) all CLOSED. FAILED.
+- Observation: The "3-2-1" sequence from an all-OFF state did not open the path.
+
+## Systematic Mapping Plan (Post-Battle)
+- Goal: Determine exact toggle logic for each switch.
+- Method:
+  1. Reset all switches to OFF.
+  2. Toggle S1 ON. Check all shutters (2,6), (3,6), (10,6), (16,6), (6,8), (12,8), (17,6).
+  3. Reset to OFF.
+  4. Toggle S2 ON. Check all shutters.
+  5. Reset to OFF.
+  6. Toggle S3 ON. Check all shutters.
+- Current Status: Defeating Rocket Grunt at (11,2).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
