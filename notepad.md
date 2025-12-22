@@ -4,14 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to New Bark Town.
-- **Status:** Selecting Mistral to Fly.
-- **Reason:** Accidentally selected Muscle (Slot 1) because cursor remembered previous position. Correcting to Mistral (Slot 4).
+- **Status:** Confirming Fly Destination.
+- **Reason:** Cursor is already on New Bark Town (verified by screen text). Pressing A to Fly.
 - **Plan:**
-    1. Close Muscle's Menu (B).
-    2. Navigate to Mistral (Down x3).
-    3. Open Menu (A).
-    4. Select FLY (A).
-    5. Navigate Map to New Bark Town.
+    1. Confirm Fly to New Bark Town (A).
+    2. Arrive in New Bark Town.
+    3. Enter Elm's Lab.
+    4. Talk to Elm to show Togepi.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
