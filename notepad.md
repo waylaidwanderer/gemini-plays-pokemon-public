@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Navigate to Rocket Grunt at (16, 23).
-- **Status:** In Goldenrod City (9, 29).
+- **Status:** Approaching Grunt (15, 23).
 - **Plan:**
     1. Move North to Y=23.
     2. Move East to X=15 to approach the Grunt.
