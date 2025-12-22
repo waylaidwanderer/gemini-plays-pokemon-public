@@ -9,15 +9,13 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Situation:** NPC 5 is at (9, 10) facing Up. I am at (8, 9) facing Right.
-- **Timing Issue:** Last turn I tried to interact at (9, 9) but he moved to (9, 10). He is fast.
+- **Situation:** NPC 5 is at (9, 9). I am at (8, 9).
+- **Insight:** In turn 12303, I stunned him at (9, 10) and got blocked trying to enter (9, 10).
+- **Solution:** Now that he is at (9, 9), I must Stun him *HERE*. This leaves (9, 10) empty for me to traverse.
 - **Plan:**
-    1. **Camp:** Stay at (8, 9) facing Right.
-    2. **Spam Interact:** Repeatedly press `A`. When he steps into (9, 9), it will trigger dialogue.
-    3. **Manipulate:** Dialogue will force him to face Left (towards me).
-    4. **Lock:** Stun him immediately after dialogue closes.
-    5. **Execute:** Walk around him.
-- **Hypothesis:** If he faces Left at (9, 9), he cannot see the gates at (10, 10), so they should open.
+    1. **Stun** NPC 5 at (9, 9).
+    2. **Run:** Move (8, 9) -> (8, 10) -> (9, 10) -> (10, 10).
+    3. **Success:** The gate at (10, 10) is currently Open (FLOOR). With him stuck at (9, 9), he shouldn't trigger anything.
 
 ## Status
 - Player at (9, 9).
