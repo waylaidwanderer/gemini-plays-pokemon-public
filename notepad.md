@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Goldenrod Underground. Door at (18, 6) is locked. Checking sign at (19, 6).
+- **Status:** In Goldenrod Underground. Sign says "No Entry". Door locked. Heading to Super Nerd at (2, 6).
 - **Plan:**
-    1. Read sign at (19, 6).
-    2. Navigate West to talk to/Battle Super Nerd at (2, 6).
-    3. Search the rest of the tunnel South for a Rocket Grunt or items.
+    1. Talk to Super Nerd at (2, 6).
+    2. Search south for "Director" or Rocket Grunt (Uniform source).
+    3. If nothing found, check Switch Room via ladder at (3, 34).
 
 **Notes:**
 - Radio Tower entrance was elusive.
