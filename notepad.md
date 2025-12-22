@@ -22,11 +22,9 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Executing Fly Command.
-- **Reason:** Visual cursor is confirmed on Goldenrod City (via IntermediateStates), despite text lag saying "New Bark Town". Trusting visual state.
+- **Status:** Hard Reset (Syncing State).
+- **Reason:** Screen Text ("Fly Map Open") contradicts Screen Image (Overworld). Suspect text is stale/stuck. Forcing a full menu closure to resync bot state with game state.
 - **Plan:**
-    1. Press A to Fly.
-    2. Wait for flight animation.
-    3. Verify arrival in Goldenrod (Map ID change).
-    4. Enter PokeCenter.
-    5. Swap Pokemon.
+    1. Press B x4 to close all potential menus.
+    2. Verify Overworld (No text).
+    3. Next Turn: Open Menu and Fly (Start -> Pokemon -> Mistral -> Fly).
