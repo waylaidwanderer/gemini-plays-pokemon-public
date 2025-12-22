@@ -11,13 +11,11 @@
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
 - **Hypothesis:** "Work behind scenes where no one can see us."
     - NPC 5 said this. Need to check if NPC 7 says the same.
-- **Action:** Talk to NPC 7 at (7, 13).
+- **Action:** Talk to NPC 7 at (6, 13).
 - **Plan:**
-    1. **Move** to (8, 13).
-    2. **Turn** Left.
-    3. **Talk** (Press A).
-    4. **Observe** if he turns or if gates change.
-- **Note:** NPC 7 patrols (5, 13) to (8, 13). If he isn't at (7, 13), I might miss him, but standing at (8, 13) blocks his path into the hallway, forcing an interaction eventually.
+    1. **Execute:** I am at (7, 13) facing Left. NPC 7 is at (6, 13). Just press A.
+    2. **Observe:** Does he say something new? Does he turn? Do gates open?
+    3. **Next:** If dialogue fails to open gates, try Stun strategy on him like with NPC 5.
 
 ## Status
 - Player at (9, 9).
