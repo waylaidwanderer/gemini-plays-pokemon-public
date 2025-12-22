@@ -208,3 +208,10 @@
 - **Reason:** Confirm it's a solid wall/object and not just a "visual" barrier I can walk through or open.
 - **Next:** Exit North to `(9, 8)` and attempt to make NPC 7 face LEFT (Away from gates).
 - **Hypothesis:** NPC 7 facing Right (watching gates) keeps them closed. NPC 7 facing Left (ignoring gates) might open them.
+- **Status:** Exiting Cage to West side.
+- **Goal:** Open Bottom Gates `(10, 12-13)`.
+- **Hypothesis:** NPC 6 (Top Left) at `(4, 8)` might be the key to the Bottom Gates, or I need to manipulate NPC 7's facing more precisely.
+- **Plan:**
+    1. Move to `(5, 8)`.
+    2. Experiment with NPC 6 (Talk, Face Away).
+    3. If nothing, return to NPC 7 and try to talk from the LEFT side.
