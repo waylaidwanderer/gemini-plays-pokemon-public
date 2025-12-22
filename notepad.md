@@ -9,7 +9,8 @@
 - GRASS: May trigger wild encounters.
 - MART_SHELF: Impassable. Acts as WALL.
 - COUNTER: Impassable. Acts as WALL. Interact with NPCs behind counters from an adjacent tile.
-- ELEVATOR: Warp tile (2, 0). Buttons at (3, 0) on 5F/4F were non-functional on Turn #11355/11370 (likely requires being inside or facing specific direction).
+- ELEVATOR: Warp tile (2, 0).
+- VENDING MACHINE: Interaction point. Stand below and press A to buy drinks (Fresh Water, Soda Pop, Lemonade).
 
 # Strategy: Tin Tower Investigation
 - Mission Start: Turn #11243.
@@ -18,15 +19,18 @@
 - Strategist Advice (Turn #11374):
     - Lead: Calcifer (Typhlosion). Smokescreen x6.
     - Status: KIMCHI (Gloom) for Sleep Powder once HP is red (chip with Headbutt).
-    - Prep: Teach TM41 (ThunderPunch) to Calcifer.
     - Risk: GNEISS and Blarney are 4x weak to Water.
+- Ball Strategy: Ultra Balls are NOT sold in Goldenrod (Crystal version). Buying ~50 Great Balls from 2F as a substitute.
 - Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
+
+# Completed Prep
+- Teach TM41 (ThunderPunch) to Calcifer. (Turn #11425)
 
 # Suicune Capture Plan (Tin Tower)
 - Lead: Calcifer (Typhlosion Lv44).
 - Moves: Smokescreen (reduce accuracy), Flame Wheel/Headbutt (chip damage).
 - Status: Switch to KIMCHI (Gloom Lv21) for Sleep Powder once HP is red.
-- Item Requirements: ~30 Ultra Balls.
+- Item Requirements: ~50 Great Balls (Ultra Balls unavailable).
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
 - Risk: GNEISS (Graveler) is 4x weak to Water. Avoid leading with him.
 
