@@ -46,3 +46,7 @@
 - **Action:** Attempting to PUSH Box `(6, 8)` DOWN from `(6, 7)`.
 - **Method:** Walk Down into the box. Strength is active.
 - **Hypothesis:** These boxes are the "Junk" and can be moved to clear a path or reveal something.
+- **Action:** Used Itemfinder at `(6, 7)` in Dept Store B1F.
+- **Reason:** Final check for the "Junk" hint.
+- **Next Step:** If negative, I am aborting the B1F search and returning to the **Underground** to find the Uniform there.
+- **Hypothesis:** This area might be optional or blocked until later (Card Key/Basement Key).
