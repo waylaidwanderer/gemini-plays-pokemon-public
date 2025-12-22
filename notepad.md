@@ -10,10 +10,11 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Search Started: Turn 11000. Current Turn: 11025.
-- Method: Use the Row 3 gap in Column 15 to move between the eastern corridor (x=16-18) and the central warehouse area (x=9-14).
-- Method: Use the Row 12-13 gap in Column 8 to navigate between the western corridor (x=1-4) and the central area.
-- Tactical: Lead with Gneiss (Lv41) against Poison/Fire; switch to Calcifer (Lv44) for Grass.
+- Warehouse Search Start: Turn 11000. Current Turn: 11027.
+- Method: Defeat Rocket Grunt at (17, 3). (Current Battle).
+- Method: Mark ladder at (17, 2) and investigate destination.
+- Method: Use Row 3 gap in Col 15 to reach central area (x=9-14).
+- Tactical: Gneiss (Lv41) leads with Earthquake/Rollout; Calcifer (Lv44) counters Grass.
 
 # Warehouse Observations (Map 3_56)
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
