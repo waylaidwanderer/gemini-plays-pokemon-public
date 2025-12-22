@@ -4,14 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Executing Fly Command.
-- **Reason:** Visual confirmation: Cursor is on Goldenrod City (CurrentScreen). Text "New Bark Town" is stale/incorrect. Trusting visuals.
+- **Status:** Fly Failed - Restarting from New Bark Town.
+- **Reason:** Map navigation inputs were ignored (likely timing), causing Fly to select the default location (New Bark).
 - **Plan:**
-    1. Press A to Fly.
-    2. Wait for flight animation.
-    3. Verify arrival in Goldenrod.
-    4. Enter PokeCenter.
-    5. Swap Pokemon.
+    1. Open Start Menu (Start).
+    2. Enter Pokemon (A).
+    3. Select Mistral (Slot 4) -> Fly.
+    4. **WAIT** one full turn for Map to load.
+    5. Navigate **ONE** step at a time (Left -> Verify Cherrygrove -> Up -> Verify Violet...).
+    6. Fly to Goldenrod.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
