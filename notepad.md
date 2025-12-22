@@ -4,14 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Withdrawing Togepi).
-- **Reason:** Kenya deposited. Now withdrawing Togepi to show to Elm.
+- **Status:** In Bill's PC (Retrying Deposit).
+- **Reason:** Previous attempt failed; backed out of the context menu instead of confirming.
 - **Plan:**
-    1. Return to Main PC Menu (B).
-    2. Select "WITHDRAW PKMN" (Up, A).
-    3. Select Togepi (Slot 11 in Box 1).
-    4. Withdraw Togepi.
-    5. Exit PC and Fly.
+    1. Open Context Menu for Kenya (A).
+    2. Select DEPOSIT (A).
+    3. Return to Main PC Menu (B, B).
+    4. Select "WITHDRAW PKMN".
+    5. Withdraw Togepi.
+    6. Exit and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
