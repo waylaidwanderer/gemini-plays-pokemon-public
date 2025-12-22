@@ -339,3 +339,6 @@
 - **Conclusion:** NPC 7 Facing Left does NOT open the gates.
 - **Next Test:** Make NPC 7 face UP.
 - **Plan:** Move to `(6, 12)`. Talk Down. Observe Gate `(10, 12)` *during* dialogue (it is visible on screen).
+- **Action:** Standing at `(6, 12)`. Facing Down. Talking to NPC 7 `(6, 13)`.
+- **Hypothesis:** Forcing NPC 7 to face **UP** (Away from gates, towards me) will open the Bottom Gates `(10, 12-13)`.
+- **Observation Target:** Watch tile `(10, 12)` closely.
