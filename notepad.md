@@ -16,10 +16,10 @@
     - Middle Strategy (NPC 5): Dead end?
 - **Plan:**
     1. **Navigate:** Move to Bottom Left (8, 12).
-    2. **Tool:** Use `ITEMFINDER` to confirm hidden item presence.
+    2. **Tool:** Use `ITEMFINDER` from the menu to confirm hidden item presence.
     3. **Search:** If positive, thoroughly check all tiles in Row 13 (5-8).
     4. **Result:** Finding the item should unblock NPC 7's patrol.
-- **Note:** I am currently navigating back to the bottom.
+- **Note:** Previous search at (7, 13) and (8, 13) yielded nothing. Need to check (5, 13) and (6, 13).
 
 ## Status
 - Player at (9, 9).
