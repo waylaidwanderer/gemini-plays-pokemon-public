@@ -103,3 +103,7 @@
 - Action: Executing crossing maneuver: (8, 13) -> (8, 11) -> (9, 11) -> (9, 13).
 - Expectation: Crossing to Col 9 at Row 11 will OPEN Gate 3.
 - Note: NPC 5 is active (unstunned) and patrolling (9, 9) <-> (9, 10). He should not block (9, 11).
+- Status: All East Gates (Row 9, 12, 13) are CLOSED (Crates).
+- Hypothesis: "Hide" in the West Zone (Col 1-5) to allow workers to move crates.
+- Plan: Navigate to (4, 11) to enter West Zone. Observe if Gates open or if layout changes.
+- Note: Row 11 is blocked at Col 6/7 (WALL). Must loop via Row 8/9 to reach West side.
