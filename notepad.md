@@ -17,21 +17,11 @@
 - Note: (17,6) is labeled WALL in XML. Verification required to see if it ever toggles.
 
 ## Verified Shutter States (S3, S2, S1)
-- (0,0,0): To be verified visually after reset.
-- (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED. (Turn 10287)
-- (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) CLOSED. (Verified Turn 10376 via tile change detection)
-
-## Systematic Mapping Plan
-- Goal: Determine exact toggle logic for each switch from a clean OFF state.
-- Steps:
-  1. Reset all switches to OFF (0,0,0). (Current: Turning S1 OFF)
-  2. Toggle S1 ON. Record shutter changes. Reset to OFF.
-  3. Toggle S2 ON. Record shutter changes. Reset to OFF.
-  4. Toggle S3 ON. Record shutter changes. Reset to OFF.
+- (0,0,0): (2,6/7) CLOSED, (3,6/7) CLOSED. (Verified Turn 10398).
+- (1,0,0): (2,6/7) OPEN, (3,6/7) OPEN. (Deduced from S3 toggle).
 - Toggle Log:
-  - S1 (16,1) toggles (12,8).
-  - (1,1,0) -> (1,1,1): (12,8) FLOOR -> WALL. (Turn 10374)
-  - (1,0,0) -> (0,0,0): (12,8) WALL -> FLOOR. (Turn 10388)
+  - S3 (2,1) toggles (2,6), (2,7), (3,6), (3,7). (Confirmed Turn 10397)
+  - S1 (16,1) toggles (12,8), (12,9). (Confirmed Turn 10388)
 - Current Status: S1 OFF, S2 OFF, S3 ON. Moving to S3 to finish reset.
 
 # Area Notes
