@@ -19,6 +19,7 @@
 - **Critical Detail:** When at (8, 9), if NPC is at (9, 9), pressing `Right` faces him. If he is NOT there, it moves me back. Must verify position before acting.
 
 ## Status
-- Player at (8, 9) facing Right.
-- NPC 5 at (9, 9).
-- Action: Turned Right to face NPC. Ready to press A next turn to interact and turn him Left.
+- Player at (9, 9).
+- NPC 5 at (9, 11).
+- Error: Previous attempt to move to (8, 9) failed or I moved back.
+- Action: Moving Left to (8, 9) to clear the spot for NPC 5. Then waiting.
