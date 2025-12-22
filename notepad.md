@@ -3,11 +3,11 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Preparing for Radio Tower.
+- **Navigation:** Flying to Goldenrod City.
 - **Status:** Exiting Elm's Lab.
-- **Reason:** Elm's PC appears to be for research (flavor text), not storage. Heading to Goldenrod PokeCenter to swap Pokemon and start the Radio Tower mission.
+- **Reason:** Mission accomplished in New Bark Town. Heading to Goldenrod to swap team and tackle Radio Tower.
 - **Plan:**
-    1. Exit Lab (Down x6).
+    1. Exit Lab (Down).
     2. Fly to Goldenrod City.
     3. Enter PokeCenter.
     4. Deposit Togepi / Withdraw Gyarados.
