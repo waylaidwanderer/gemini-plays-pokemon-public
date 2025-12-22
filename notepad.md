@@ -5,11 +5,14 @@
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
 - **Status:** In Party Menu (Selecting Mistral).
-- **Reason:** Opening Mistral's menu to use Fly.
+- **Reason:** Previous attempt failed due to cursor memory. Resetting cursor to ensure Mistral is selected.
 - **Plan:**
-    1. Select Fly (A).
-    2. Select Goldenrod City on map.
-    3. Fly.
+    1. Enter Party Menu (A).
+    2. Reset cursor to top (Up x6).
+    3. Select Mistral (Down x3).
+    4. Open Mistral's menu (A).
+    5. Select Fly.
+    6. Fly to Goldenrod.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
