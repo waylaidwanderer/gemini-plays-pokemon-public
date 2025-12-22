@@ -285,3 +285,7 @@
 - **Action:** Retrying Strength activation. Assuming Strength is the first option in the Pokémon interaction menu.
 - **Risk:** If 'Dig' is first, I might warp out.
 - **Sequence:** A (Pokemon) -> A (Muscle) -> A (Strength?).
+- **Action:** Using `slow_press` to select Muscle (`A`) and then the first option (`A`) to activate Strength.
+- **Reason:** Previous fast inputs failed to register in the menu.
+- **Risk:** If 'Dig' is the first option, I might warp out.
+- **Hypothesis:** Strength is the first available field move in the menu.
