@@ -44,3 +44,6 @@
 - **Turn 3 Summary:** Muscle used Cross Chop. Dewgong fainted.
 - **Turn 4 Plan:** Stay in vs Piloswine. Use Cross Chop.
 - **Battle Status:** Muscle (122/157, -1 Speed) vs Piloswine (Fresh).
+- **Turn 4 Summary:** Accidental Dig (Cursor memory). Muscle dug, Piloswine missed. Muscle surfaced and hit (Dig). Piloswine hit with Fury Attack.
+- **Turn 5 Plan:** Fix cursor (currently on Dig). Use Cross Chop on Piloswine.
+- **Battle Status:** Muscle (113/157, -1 Speed) vs Piloswine (~60% HP).
