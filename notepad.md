@@ -39,3 +39,13 @@
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 - (10, 2) identified as an 'Unmarked Warp' by system (Turn #11997). Currently non-functional or one-way.
 - Investigation (Turn #12022): Checking Pokédex for Suicune's current location.
+
+# Pokédex Search Plan for Suicune
+- Current Menu: Pokédex Search
+- Target: Suicune (#245, WATER type)
+- Current TYPE1: BUG
+- Steps:
+  1. Press Right x8 to set TYPE1 to WATER.
+  2. Press Down x3 to select "BEGIN SEARCH!!".
+  3. Press A to start search.
+  4. Find Suicune in the results and check AREA.
