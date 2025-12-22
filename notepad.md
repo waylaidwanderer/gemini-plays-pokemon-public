@@ -171,3 +171,6 @@
     1. Move to (8, 12).
     2. Wait for NPC 5 to move to (9, 9).
     3. Attempt to enter Bottom Gate (10, 12).
+- **Action:** Moving to (9, 12) and facing East.
+- **Test:** "Blind Eye" - If I am at (9, 12) facing East, I am not looking at NPC 5 (North of me). Will the gate (10, 12) open?
+- **Observation:** Currently (10, 12) is WALL.
