@@ -13,7 +13,7 @@
 # Current Strategy: Enter Warehouse
 - Started Warehouse search: Turn 10940
 - Goal: Activate the Emergency Switch at (20, 11).
-- Status: Battling Rocket Grunt at (19, 13). Opponent: Gloom (Lv25).
+- Status: Battling Rocket Grunt at (19, 13). Opponent: Gloom (Lv25). (Turn 10986)
 - Step 1: Switch to Calcifer (Typhlosion) to counter Gloom's Grass moves.
 - Step 2: Interact with Emergency Switch at (20, 11) from (20, 12).
 - Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
