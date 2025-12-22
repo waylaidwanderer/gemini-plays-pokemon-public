@@ -22,7 +22,7 @@
 - Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
 
 # Capture Progress
-- Great Balls used: 9
+- Great Balls used: 10
 - Ultra Balls used: 3
 - Suicune HP: RED
 - Suicune Accuracy: -6
