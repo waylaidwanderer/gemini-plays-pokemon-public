@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Exploring Game Corner. Talking to Pokefan F at (17, 6). Checking Pokefan M at (17, 10) next.
+- **Status:** Exploring Game Corner. Talking to Pokefan M at (17, 10). Next: Exit and go to Underground.
 - **Plan:**
     1. Talk to Pokefan F at (17, 6).
     2. Talk to Pokefan M at (17, 10).
