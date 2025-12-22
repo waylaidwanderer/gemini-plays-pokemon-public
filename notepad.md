@@ -14,7 +14,7 @@
 - State (1,1,1) [reached via 3-2-1]: (2,6) OPEN, (12,8) OPEN. This clears a path toward the southeast quadrant.
 
 ## Toggle Log
-- Turn 10483: Resetting. S3 and S2 are OFF. S1 is ON. Heading to S1.
+- Turn 10490: (0,0,0) baseline reached. All switches OFF.
 - Turn 10463: (0,0,0) baseline reached. All switches OFF.
 - Turn 10434: (1,0,0) verified. (2,6), (3,6) OPEN. (12,8) OPEN.
 
