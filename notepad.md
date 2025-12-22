@@ -6,16 +6,15 @@
 
 # Underground Warehouse Puzzle
 - Goal: Open path to Warehouse Entrance (likely in the southeast unseen area).
-- Current Sequence Strategy: 1-2-3 (Switch 1 -> Switch 2 -> Switch 3).
+- Verified Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
 - Note: (21, 29) is the EXIT to the city, NOT the Warehouse entrance.
 
 ## Shutter Toggle Mapping (S3, S2, S1)
-- Baseline (0,0,0): All CLOSED.
-- S1 ON (0,0,1): (16,6/7), (17,6/7) OPEN.
-- S3 ON (1,0,0): (2,6/7), (3,6/7), (12,8/9) OPEN.
+- State (1,1,1) [3-2-1]: (2,6) OPEN, (12,8) OPEN. Path to southeast: (2,6) -> (12,8) -> Southeast.
 
 ## Toggle Log
-- Turn 10471: S1 toggled ON. State is (0,0,1). (16,7), (17,7) verified OPEN.
+- Turn 10479: Resetting. S2 turned OFF. State: (0,0,1).
+- Turn 10471: S1 toggled ON. State: (0,0,1).
 - Turn 10463: (0,0,0) baseline reached. All switches OFF.
 - Turn 10434: (1,0,0) verified. (2,6), (3,6) OPEN. (12,8) OPEN.
 - Turn 10428: (0,0,0) baseline report: All shutters CLOSED.
