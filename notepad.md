@@ -10,7 +10,8 @@
 - **Current Task:** Navigating through Goldenrod City.
 - **Goal:** Reach the Radio Tower to investigate Team Rocket.
 - **Tactics:** Avoid Rocket Grunts if possible, keep team healthy.
-- **Reference:** Rocket Grunt spotted at (16, 23).
+- **Reference:** Rocket Grunt spotted at (16, 23). Lass marker at (17, 10) - pathing around it.
+- **Pathing:** Moving West to cross the wall at x=14, then North.
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
