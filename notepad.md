@@ -43,11 +43,12 @@
   3. Press S1 (ON) -> Opens (16,6), (17,6). Opens (12,8).
   Result: ALL paths open.
 
-# Current Strategy: Verify and Execute
-1. Shutter Report (10649) shows only S3 is effectively ON.
-2. Heading to S2 to check if it's actually ON or if the sequence reset.
-3. Once states are confirmed, will execute 3-2-1 again without interruption.
-4. Enter Warehouse.
+# Current Strategy: Reset and Execute
+1. Shutter Report (10683) shows an inconsistent state (only (6,8) open, (12,8) closed).
+2. Toggling Switch 3 OFF to begin a full reset of all switches (S1, S2, S3) to OFF.
+3. Will visit S2 and S1 to confirm they are OFF.
+4. Once all are OFF, execute 3-2-1 sequence (S3 -> S2 -> S1) without interruption.
+5. Enter Warehouse.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
