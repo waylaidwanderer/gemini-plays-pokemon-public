@@ -45,20 +45,21 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
 - **Status:**
-    - "Junk" theory failed.
-    - "Don't Look" (General) failed.
-    - "Facing Wall" failed.
-- **Current Test:** Inspecting the **Gate Boxes** themselves at (10, 8).
-    - **Logic:** I haven't interacted with the actual barrier yet. Maybe it gives a clue.
-    - **Observation:** NPC 5 oscillates between (9, 10) and (9, 11).
-    - **Hypothesis:** One set of gates opens depending on his position. I need to be precise.
+    - Item at (14, 2) is GONE (Previously obtained).
+    - Boxes at (10, 8-9) are CLOSED (Walls).
+    - NPC 5 (Moving) patrols (9, 9) <-> (9, 11).
+- **Hypothesis:** "Privacy" + Box Inspection.
+    - **Logic:** "Work behind the scenes". NPC 5 facing Up at (9, 9) sees me at (9, 8).
+    - **Plan:** Move to (10, 7). This is out of NPC 5's line of sight (Col 9).
+    - **Action:** Inspect Box at (10, 8) from above.
+    - **Observation:** Watch if gates open while hidden.
 - **Plan:**
-    1. Go to (8, 8).
-    2. Interact with Box at (10, 8).
-    3. Observe if it opens when NPC 5 moves.
+    1. Move to (10, 7).
+    2. Face Down (Inspect Box).
+    3. Wait/Observe.
 - **Backup:**
-    - Is there a switch hidden behind the other boxes?
-    - Is there a sequence?
+    - Brute force (Strength/Rock Smash?).
+    - Hidden switch in the area.
 
 # Tile Mechanics
 - **WALL:** Impassable.
