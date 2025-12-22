@@ -43,25 +43,23 @@
 - **Plan:** Interact with NPC 7. If he turns/moves, check gates.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Gates/Boxes.
-- **Puzzle Structure:**
-    - **Top Path (Row 8-9):** Blocked by Boxes (10-11). Open at Col 12.
-    - **Middle Path (Row 10-11):** Open at Cols 10-11. Blocked by Wall at Col 12.
-    - **Bottom Path (Row 12-13):** Blocked by Boxes (10-11). Open at Col 12.
-    - **Objective:** Open Top OR Bottom Boxes.
+- **Goal:** Open Gates (Top or Bottom).
+- **Clues:** "Work behind the scenes", "Lose passion if watched".
+- **Hypothesis:** Gates open only when **Player is NOT facing them** (or the worker).
+    - **Test:** "Blind Observation".
+    - **Method:** Stand at (8, 8). Face **LEFT** (Away from Guard/Boxes). Wait.
+    - **Verification:** Check `AsciiMap` in the *next turn* to see if (10, 8) became FLOOR.
 - **Status:**
-    - Pushing Boxes failed.
-    - NPC 5 (Guard) patrols (9, 9) <-> (9, 10) <-> (9, 11).
-    - Current Observation: At (9, 11), Top Boxes (10, 8) are CLOSED.
-- **Hypothesis:** Top Boxes might open when NPC 5 is at (9, 9) (Top of patrol) or (9, 10).
+    - Player at (8, 8).
+    - NPC 5 patrolling.
+    - Previous visual observation failed (gates stayed closed while watching).
 - **Plan:**
-    1. Face Right at (8, 8).
-    2. Wait for NPC 5 to reach (9, 9).
-    3. Check `AsciiMap` for changes at (10, 8) (WALL vs FLOOR).
-    4. If Open, STUN NPC 5 and run through.
+    1. Face Left.
+    2. Wait (Press B).
+    3. CHECK MAP DATA NEXT TURN.
 - **Backup:**
-    - Is there a switch I missed in the open area (Rows 10-11, Cols 10-11)?
-    - Maybe I need to stun him ON a specific tile?
+    - If this works, I need to navigate blindly (walking backward?) or time my turn.
+    - If fails, try interacting with the boxes from a specific angle?
 
 # Tile Mechanics
 - **WALL:** Impassable.
