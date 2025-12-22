@@ -44,3 +44,8 @@
 # Menu Navigation
 - Circular Menu: Unreliable fixed Up/Down counts. Verify cursor position.
 - Pokédex AREA: Press 'A' on entry -> move to 'AREA' -> press 'A'.
+
+# Ecruteak Mart (4_6)
+- Clerk at (1, 3) behind counter at (2, 3).
+- Tile: COUNTER (2, 3) - Impassable, interact across it.
+- Tile: MART_SHELF (0, 5) etc. - Impassable.
