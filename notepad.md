@@ -103,3 +103,6 @@
 - **Goal:** Talk to Black Belt at (4, 8).
 - **Hypothesis:** Interacting with him or entering the West area might toggle the gates (Open Bottom / Close Top).
 - **Plan:** Move to (5, 8), talk to NPC, then check Bottom Gate.
+- **Confirmed Dialogue (NPC 5):** "Our policy is to work behind the scenes where no one can see us!"
+- **Implication:** Box layout changes might depend on Player Position (being "seen" or "unseen").
+- **Action:** Talking to NPC 6 (4, 8) to compare dialogue.
