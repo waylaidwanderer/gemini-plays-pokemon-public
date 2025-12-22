@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Underground North Entrance (Map 3_54).
+- **Status:** In Underground North Entrance (Map 3_54). Talking to Super Nerd at (19, 27).
 - **Plan:**
-    1. Talk to Super Nerd at (19, 27).
-    2. If he's not the uniform source, exit to Goldenrod City via south warps (20, 29).
-    3. Search for the Director or Grunt.
+    1. Listen to Super Nerd.
+    2. If no uniform, exit South to Goldenrod City.
+    3. Look for Grunt/Director.
 
 **Notes:**
 - Radio Tower entrance was elusive.
