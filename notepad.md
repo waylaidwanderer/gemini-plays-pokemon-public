@@ -27,3 +27,13 @@
 - GNEISS (Lv40 Graveler): STRENGTH, MAGNITUDE, ROLLOUT.
 - KIMCHI (Lv21 Gloom): CUT.
 - Ravioli (Lv10 Krabby): SURF.
+
+# Warehouse Exploration (Map 3_56)
+- Started: Turn 11000
+- Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
+- Internal Walls: Column 5 is WALL from Row 4-15. Gaps at Row 1, 2, 3.
+- Internal Walls: Column 8 is WALL from Row 1-11. Gaps at Row 12, 13, 14, 15.
+- Item at (2, 1): POKE_BALL.
+- Rocket Grunt 1: (9, 8) (Facing UP).
+- Rocket Grunt 2: (8, 15) (Off-screen, tracked by marker).
+- Strategy: Loop through Row 1 to bypass column 5 wall, then find a gap in column 8 to reach the eastern side.
