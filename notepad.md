@@ -50,6 +50,6 @@
 - Plan: Explore the southern corridor (Row 13/14) to find a path to the East side. The mental map indicates a possible path through Rows 14-16.
 - Tool Idea: Define `operate_elevator` if multiple resets are needed.
 - Note: Current interaction with elevator seems sticky (input didn't register?). Retrying 'A'.
-- Status: Elevator is at 1F (Confirmed by "Now on: 1F" sign).
-- Action: Selecting B1F to return to basement and check for puzzle reset.
-- Cursor: Currently on B1F. Pressing 'A' to select.
+- Status: Arrived at B1F. Menu still open.
+- Action: Pressing 'B' to close menu, then exiting to inspect B1F layout.
+- Next Step: If puzzle is reset, solve it. If not, plan new test.
