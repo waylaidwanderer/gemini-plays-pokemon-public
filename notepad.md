@@ -24,12 +24,6 @@
 # Capture Marathon Log
 - Current Turn: #11708. Great Balls used: 6. Ultra Balls used: 3.
 
-# Ecruteak Tower Lore
-- Original state: Two nine-tier towers.
-- Brass Tower: Purpose was to awaken Pokémon. Roost of an immense, silver-colored Pokémon.
-- Tin Tower: Purpose was for Pokémon to rest.
-- The Great Fire: 150 years ago, lightning struck the Brass Tower. It burned for 3 days until a sudden downpour extinguished it. The ruins are now known as the Burned Tower.
-
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
 - Rocket Executive (5F): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
