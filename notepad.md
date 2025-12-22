@@ -4,13 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Flight / Arriving in Goldenrod.
-- **Reason:** Executed Fly sequence. Heading to PokeCenter to swap Pokemon.
+- **Status:** Navigating to Violet City (Step 1).
+- **Reason:** Map is open. Executing first half of navigation (Left -> Up) to confirm movement and reach Violet City.
 - **Plan:**
-    1. Arrive in Goldenrod City.
-    2. Enter PokeCenter (15, 27).
-    3. Deposit Togepi / Withdraw Gyarados.
-    4. Head to Radio Tower to fight Team Rocket.
+    1. Send Inputs: Left, Up.
+    2. Verify "Violet City" text next turn.
+    3. If success, continue: Left -> Down (Goldenrod).
+    4. If fail (stuck at New Bark), assume animation lag and retry.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
