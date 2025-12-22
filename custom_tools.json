@@ -48,28 +48,23 @@
   "battle_move_selector_v2": {
     "description": "Selects a move from the move selection menu in battle. Assumes the move selection menu is open. Calculates the shortest path between current_index and target_index in a wrapping menu of 4 moves. Includes an initial 1000ms safety delay.",
     "input_schema": {
-      "type": "object",
       "properties": {
         "current_index": {
-          "type": "integer",
-          "description": "The current 0-indexed position of the cursor in the move menu."
+          "description": "The current 0-indexed position of the cursor in the move menu.",
+          "type": "integer"
         },
         "target_index": {
-          "type": "integer",
-          "description": "The 0-indexed position of the move to select (0-3)."
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
+          "description": "The 0-indexed position of the move to select (0-3).",
+          "type": "integer"
         }
       },
       "required": [
         "current_index",
-        "target_index",
-        "autopress_buttons"
-      ]
+        "target_index"
+      ],
+      "type": "object"
     },
-    "python_script": "import json\n\ndef main(input_data):\n    current = int(input_data['current_index'])\n    target = int(input_data['target_index'])\n    \n    # The menu is 2x2:\n    # 0 1\n    # 2 3\n    \n    path = []\n    # Initial safety delay\n    path.append(\"sleep 1000\")\n    \n    # Move vertically if needed\n    if (current // 2) != (target // 2):\n        path.append(\"Down\") # Down and Up are equivalent in a 2-row wrap\n        current = (current + 2) % 4\n        \n    # Move horizontally if needed\n    if (current % 2) != (target % 2):\n        path.append(\"Right\") # Right and Left are equivalent in a 2-column wrap\n        \n    path.append(\"A\")\n    print(json.dumps(path))\n\n# The harness provides input_data\nif __name__ == \"__main__\":\n    import sys\n    import json\n    # input_data is provided by the harness\n    main(input_data)\n",
+    "python_script": "import json\n\ndef main(input_data):\n    # Standard battle move menu in Pokemon Crystal is a 1x4 vertical list.\n    # Navigation: Up/Down only. The menu wraps.\n    try:\n        current = int(input_data['current_index'])\n        target = int(input_data['target_index'])\n    except (KeyError, ValueError, TypeError):\n        print(json.dumps([]))\n        return\n\n    if current == target:\n        print(json.dumps([\"A\"]))\n        return\n\n    # Calculate distances for wrapping 4-item menu\n    # dist_down: moves from current to target moving forward (0->1->2->3->0)\n    # dist_up: moves from current to target moving backward (0->3->2->1->0)\n    dist_down = (target - current) % 4\n    dist_up = (current - target) % 4\n    \n    buttons = [\"sleep 1000\"]\n    if dist_down <= dist_up:\n        buttons.extend([\"Down\"] * dist_down)\n    else:\n        buttons.extend([\"Up\"] * dist_up)\n        \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -120,6 +115,11 @@
         "commit_message": "Initial definition of battle move selector.",
         "timestamp": "2025-12-21T16:45:38.503Z",
         "action_counter": 9332
+      },
+      {
+        "commit_message": "Fixed move selection logic to handle a 1x4 vertical wrapping menu using only Up/Down buttons, as per Pokémon Crystal mechanics. Prevents incorrect horizontal navigation attempts in battle.",
+        "timestamp": "2025-12-22T06:11:52.157Z",
+        "action_counter": 11145
       }
     ]
   },
