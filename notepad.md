@@ -66,3 +66,9 @@
 3. Move to a route adjacent to Suicune's location.
 4. Cross map boundary to try and "trap" Suicune on the same route.
 5. Apply Repel Trick.
+
+# Suicune Boundary Dance Log
+- Start: Turn #12774. Location: Route 38/39.
+- Boundary: (0, 10) [38] <-> (19, 10) [39].
+- Goal: Trap on 38 or 39.
+- Step 1: 38 -> 39 (Turn #12773). Checking location now.
