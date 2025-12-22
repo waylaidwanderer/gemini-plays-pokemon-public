@@ -321,3 +321,11 @@
 - **Current Gate State:** Top OPEN, Bottom CLOSED.
 - **Prediction:** If I stare at him, he might stop working (Close Top Gates?), which might toggle the system (Open Bottom Gates?).
 - **Test:** Turn Left. Wait. Check map next turn.
+- **Test:** "Watching" NPC 6 (Turn 12626) FAILED. Top Gates remained Open.
+- **Hypothesis:** NPC 7 (Bottom) holds the key.
+- **Logic:** "Junk" hint + He guards the closed gates.
+- **Plan:** Make NPC 7 face LEFT (Away from gates).
+    1. Move to (5, 13).
+    2. Wait for NPC 7 to be at (6, 13).
+    3. Talk to him (He turns Left).
+    4. Check Gate (10, 12) status next turn.
