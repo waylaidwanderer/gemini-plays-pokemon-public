@@ -14,9 +14,8 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Radio Tower 3F.
-- **Goal:** Explore 3F, defeat Rockets, climb to 4F.
-- **Status:** Met Cooltrainer F (Info). Learned Director is on 5F.
-- **New Blockade:** Shutter at (14, 2) requires Card Key (Director has it).
-- **Plan:** Investigate Researcher at (3, 4), then proceed to 4F via stairs at (7, 0).
-- **Note:** "Item" at (7, 4) was a floor decoration.
+- **Location:** Radio Tower 4F.
+- **Goal:** Reach Director on 5F.
+- **Status:** Arrived on 4F. Navigating around central wall.
+- **Layout:** Room divided West/East. Stairs to 5F likely on East side.
+- **Plan:** Navigate South to find path to East side. Defeat Rockets.
