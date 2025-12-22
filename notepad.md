@@ -45,21 +45,18 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
 - **Status:**
-    - Item at (14, 2) is GONE (Previously obtained).
-    - Boxes at (10, 8-9) are CLOSED (Walls).
-    - NPC 5 (Moving) patrols (9, 9) <-> (9, 11).
-- **Hypothesis:** "Privacy" + Box Inspection.
-    - **Logic:** "Work behind the scenes". NPC 5 facing Up at (9, 9) sees me at (9, 8).
-    - **Plan:** Move to (10, 7). This is out of NPC 5's line of sight (Col 9).
-    - **Action:** Inspect Box at (10, 8) from above.
-    - **Observation:** Watch if gates open while hidden.
+    - Item at (14, 2) is **UNREACHABLE** (East Zone).
+    - Item at (6, 3) is GONE (Verified empty).
+    - Boxes at (10, 8-9) and (10, 12-13) are blocking the East Zone.
+- **Current Test:**
+    1. **Push:** Try walking INTO the box at (10, 8) to push it. (Interact failed).
+    2. **Hide:** If pushing fails, stand at (10, 7) Facing UP (Away) and wait for NPC 5 to move.
 - **Plan:**
-    1. Move to (10, 7).
-    2. Face Down (Inspect Box).
-    3. Wait/Observe.
+    1. Try Pushing (10, 8).
+    2. If fails, Face Up at (10, 7) and Wait.
 - **Backup:**
-    - Brute force (Strength/Rock Smash?).
-    - Hidden switch in the area.
+    - Room Reset (Elevator).
+    - Find a switch in the "Junk" area.
 
 # Tile Mechanics
 - **WALL:** Impassable.
