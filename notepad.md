@@ -63,3 +63,4 @@
 - Navigation: To reach the east side (Ladder), I must pass through the gap in the central wall at (12, 8).
 - Observation: Boxes in the basement are moving (FLOOR <-> WALL changes detected). This is a dynamic puzzle involving the Machops.
 - Observation: Black Belt at (9, 10) is moving up and down. I need to get closer to talk to him.
+- Plan: Interact with Machop at (7, 7) to see if it moves boxes. Then, if needed, take the long route via the bottom-right (13, 14) and top-left (1, 1) to reach the ladder.
