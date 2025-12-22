@@ -12,7 +12,6 @@
 - **Battle Summary:** Seel (Strength), Dewgong (Cross Chop), Piloswine (Cross Chop). Muscle carried.
 - **Inventory Note:** HM06 (Whirlpool) now usable in overworld.
 - **Next:** Heal up, then check outside for events.
-- **Correction:** Right side exit blocked by Gym Guide at (7, 15). Taking Left side.
 
 ## Tile Mechanics
 - **ICE:** Slide until WALL/OBJECT/FLOOR.
