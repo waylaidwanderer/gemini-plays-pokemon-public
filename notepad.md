@@ -9,13 +9,12 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** Gates open when NPC 7 stands on (8, 13).
-- **Current State:** Player at (8, 12). NPC 7 at (5, 13) moving Left.
+- **Hypothesis:** "The stuff on the ground's junk." -> Hidden item blocks the mechanism? Or is a reward?
 - **Plan:**
-    1. **Wait:** NPC 7 is far away. I need to wait for him to patrol back to the Right (towards 8, 13).
-    2. **Monitor:** Watch NPC 7's position.
-    3. **Trigger:** When he reaches (8, 13), check if gates (10, 13) open.
-- **Backup:** If he turns around before (8, 13), then my "blocking" theory was wrong, and I need to interact with him or find a switch.
+    1. **Search:** Move to Row 13 patrol area. Check (7, 13), (6, 13), etc. for hidden items.
+    2. **Interact:** If found, pick it up.
+    3. **Observe:** Does NPC behavior change?
+- **Current Action:** Move to (8, 13). Then scan left.
 
 ## Status
 - Player at (9, 9).
