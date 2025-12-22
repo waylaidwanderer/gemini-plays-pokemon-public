@@ -16,9 +16,7 @@
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 3F.
 - **Goal:** Explore 3F, defeat Rockets, climb to 4F.
-- **Status:** Engaging Cooltrainer F.
-- **Known Blockades:**
-  - **Goldenrod City:** Grunts blocking West and East paths.
-- **Missing Keys:** BASEMENT KEY, CARD KEY.
-- **Plan:** Defeat Cooltrainer F, then proceed East to 4F.
+- **Status:** Met Cooltrainer F (Info). Learned Director is on 5F.
+- **New Blockade:** Shutter at (14, 2) requires Card Key (Director has it).
+- **Plan:** Investigate Researcher at (3, 4), then proceed to 4F via stairs at (7, 0).
 - **Note:** "Item" at (7, 4) was a floor decoration.
