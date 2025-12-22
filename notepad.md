@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Find Team Rocket Uniform.
 - **Tertiary Goal:** Investigate Locked Door in Underground (18, 6).
-- **Navigation:** Talk to Teacher at (3, 27).
+- **Navigation:** Go to Warehouse via Ladder at (3, 34).
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
