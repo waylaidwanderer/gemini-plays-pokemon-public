@@ -17,4 +17,4 @@
 - **Location:** Radio Tower 1F.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
 - **Status:** Exiting Radio Tower.
-- **Plan:** Exit Radio Tower, HEAL at PokeCenter (Muscle has no PP!), then enter Goldenrod Underground.
+- **Plan:** Step Down to exit to Goldenrod City, then IMMEDIATELY use Fly to reach the PokeCenter to heal (avoiding Rockets).
