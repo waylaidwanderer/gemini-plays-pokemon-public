@@ -9,15 +9,15 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** Gates open when NPC 7 faces LEFT (Away from gates).
-- **Current State:** NPC 7 at (6, 13) facing Right. Gates Closed.
+- **Hypothesis:** Gates open when NPC 7 faces LEFT.
+- **Current State:** Player at (8, 13). NPC 7 at (6, 13) facing Right.
 - **Plan:**
-    1. **Position:** Move to (8, 13).
-    2. **Wait:** Wait for NPC 7 to turn/move Left.
-    3. **Action:** As soon as he faces Left, STUN him.
-    4. **Check:** See if gates open.
-- **Backup:** Search the ground for "Junk" (Hidden Items) mentioned by NPC.
-    - Locations to check: (6, 13) area? Or the empty tiles in the pocket?
+    1. **Face Right:** Look at the gates (10, 13).
+    2. **Wait:** Allow NPC 7 to patrol.
+    3. **Trigger:** If he walks to (7, 13) then turns Left to go back, the gates should open.
+    4. **Action:** If gates open, dash in.
+- **Note:** Facing Right prevents accidental interaction with NPC 7 (which would force him Right).
+- **Junk Hint:** "Stuff on ground is junk". Possibly hidden items at (6, 13)/(7, 13)? Check later.
 
 ## Status
 - Player at (9, 9).
