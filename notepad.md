@@ -4,7 +4,10 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** In Goldenrod City (North).
+- **Status:** Moving to the building at (33, 9).
+- **Hypothesis:** This building (33, 9) is the Radio Tower. The "Unknown Warp" likely leads inside.
+- **Observation:** Rocket Grunt blocking the path at (29, 7). Navigating around him via row 10.
+- **Goal:** Enter and investigate.
 
 ## Map Data
 - **Goldenrod City:**

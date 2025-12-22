@@ -138,31 +138,5 @@
         "action_counter": 9529
       }
     ]
-  },
-  "find_path_to_coords": {
-    "description": "Finds a path from the player's current position to a target coordinate on the current map using A* search. Returns a list of coordinates representing the path.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\n\ndef parse_map(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [[None for _ in range(height)] for _ in range(width)]\n    start = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            type_ = tile.attrib['type']\n            grid[x][y] = type_\n            \n            if tile.get('has-player') == 'true':\n                start = (x, y)\n            if start is None:\n                for child in tile:\n                    if child.tag == 'Player':\n                        start = (x, y)\n                        \n    return grid, width, height, start\n\ndef is_walkable(tile_type):\n    return tile_type in [\"FLOOR\", \"GRASS\", \"WATER\", \"SAND\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\"]\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star(grid, start, goal, width, height):\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = {start: 0}\n    f_score = {start: heuristic(start, goal)}\n    \n    while open_set:\n        current = heapq.heappop(open_set)[1]\n        \n        if current == goal:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.append(start)\n            return path[::-1]\n        \n        neighbors = [\n            (current[0] + 1, current[1]),\n            (current[0] - 1, current[1]),\n            (current[0], current[1] + 1),\n            (current[0], current[1] - 1)\n        ]\n        \n        for neighbor in neighbors:\n            nx, ny = neighbor\n            if 0 <= nx < width and 0 <= ny < height:\n                tile_type = grid[nx][ny]\n                \n                if tile_type is None and neighbor != goal: \n                     continue \n                if tile_type is not None and not is_walkable(tile_type) and neighbor != goal:\n                    continue\n\n                tentative_g_score = g_score[current] + 1\n                if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = tentative_g_score + heuristic(neighbor, goal)\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n    return None\n\ntry:\n    grid, w, h, start_pos = parse_map(map_xml_string)\n    if not start_pos:\n        print(\"ERROR: Player position not found in map XML.\")\n    else:\n        target = (target_x, target_y)\n        path = a_star(grid, start_pos, target, w, h)\n        if path:\n            print(path)\n        else:\n            print(\"NO_PATH\")\nexcept Exception as e:\n    print(f\"ERROR: {e}\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T03:06:28.312Z",
-        "action_counter": 11281
-      }
-    ]
   }
 }
