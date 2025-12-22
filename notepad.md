@@ -4,13 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** In Kenya's Context Menu.
-- **Reason:** Selecting MAIL -> TAKE MAIL to remove the letter.
+- **Status:** Removing Mail (Confirming).
+- **Reason:** Confirming "YES" to send mail to PC, then exiting menu to deposit Kenya.
 - **Plan:**
-    1. Select MAIL (Down x3, A).
-    2. Select TAKE MAIL (Down, A).
-    3. Confirm removal (if prompted).
-    4. Deposit Kenya.
+    1. Confirm "YES" (A).
+    2. Clear text (A).
+    3. Exit Menus (B, B, B).
+    4. Open PC.
+    5. Deposit Kenya.
+    6. Withdraw Togepi.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
