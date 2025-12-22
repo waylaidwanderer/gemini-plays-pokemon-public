@@ -67,3 +67,4 @@
 - Receptionist (7, 5): Gives TM27 (Return) if lead Pokémon has high friendship. (Received Turn #11330)
 - Clerk (8, 5): TM Shop. Sells TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch) for 3000 each, TM02 (Headbutt) for 2000, TM08 (Rock Smash) for 1000.
 - Unseen area in SW corner (0, 6 to 2, 7).
+- Cooltrainer M (6, 3): Wants to trade ABRA for MACHOP.
