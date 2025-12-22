@@ -8,7 +8,8 @@
 - **Next Task:** Fly to Goldenrod City.
 
 ## PC Deposit List
-- **Priority:** GUARD SPEC., X ATTACK, X SPECIAL, PROTEIN, MIRACLE SEED, EVERSTONE, PSNCUREBERRY, ANTIDOTE (excess), REPEL.
+- **Priority:** GUARD SPEC., X ATTACK, X SPECIAL, PROTEIN, MIRACLE SEED, EVERSTONE, PSNCUREBERRY, ANTIDOTE (excess).
+- **Done:** REPEL.
 
 ## Tile Mechanics
 - **ICE:** Slide until WALL/OBJECT/FLOOR.
