@@ -198,18 +198,18 @@
       }
     ]
   },
-  "check_suicune_location_v4": {
-    "description": "Navigates from the overworld to Suicune's Pokédex AREA map, pauses for 5 seconds to allow for observation, and then exits back to the overworld. Assumes Suicune is the first entry or already selected in the Pokédex.",
+  "check_suicune_location_v5": {
+    "description": "Navigates from the overworld to Suicune's Pokédex AREA map, pauses for 5 seconds to allow for observation, and then exits back to the overworld. Robustly selects POKEDEX by resetting cursor.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Sequence starting from the overworld\n# 1. Start (Menu)\n# 2. A (Pokedex)\n# 3. A (Select Suicune)\n# 4. Right (To AREA)\n# 5. A (View Map)\n# 6. Sleep 5000\n# 7. B, B, B, B (Exit)\nprint(json.dumps([\n    \"Start\", \"sleep 1000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 1500\",\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 5000\",\n    \"B\", \"sleep 800\",\n    \"B\", \"sleep 800\",\n    \"B\", \"sleep 800\",\n    \"B\", \"sleep 800\"\n]))\n",
+    "python_script": "import json\n# 1. Start (Menu)\n# 2. Reset cursor to top (POKEDEX) by pressing UP multiple times.\n# 3. A (Pokedex)\n# 4. A (Select Suicune)\n# 5. Right (To AREA)\n# 6. A (View Map)\n# 7. Sleep 5000\n# 8. B, B, B, B (Exit)\nprint(json.dumps([\n    \"Start\", \"sleep 1000\",\n    \"Up\", \"sleep 300\",\n    \"Up\", \"sleep 300\",\n    \"Up\", \"sleep 300\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 1500\",\n    \"Right\", \"sleep 500\",\n    \"A\", \"sleep 5000\",\n    \"B\", \"sleep 800\",\n    \"B\", \"sleep 800\",\n    \"B\", \"sleep 800\",\n    \"B\", \"sleep 800\"\n]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-22T22:57:53.732Z",
-        "action_counter": 13009
+        "timestamp": "2025-12-22T23:07:36.072Z",
+        "action_counter": 13023
       }
     ]
   }
