@@ -237,3 +237,7 @@
 - **Action:** Navigate to (13, 8). Ensure NPC 5 is not blocked.
 - **Status:** Moving to East Room (13, 8) to test "Behind the Scenes" hypothesis.
 - **Hypothesis:** Entering the East Room (Cage) might trigger the layout change (Gates closing/opening) because I am out of sight of the workers.
+- **Action:** Warping out of B1F via Elevator `(9, 4)`.
+- **Goal:** Re-enter B1F to see if map reload resets/toggles the gate configuration.
+- **Hypothesis:** Entering via a different warp index (if possible) or just reloading might change the open gates.
+- **Note:** Elevator has two entry points: `(9, 4)` and `(10, 4)`.
