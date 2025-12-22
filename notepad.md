@@ -3,7 +3,7 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Heal at Pokémon Center.
-- **Status:** Mahogany Town.
+- **Status:** Mahogany Pokémon Center.
 - **Current Task:** Heal at Pokémon Center.
 
 ## Action Log & Reflection
