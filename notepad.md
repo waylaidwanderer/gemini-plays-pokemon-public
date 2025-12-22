@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Goldenrod City. Navigating to Underground Entrance (South) at (11, 29).
+- **Status:** In Underground (South Entrance). Talking to Teacher at (3, 27) before searching for Coin Case.
 - **Plan:**
     1. Talk to Pokefan F at (17, 6).
     2. Talk to Pokefan M at (17, 10).
