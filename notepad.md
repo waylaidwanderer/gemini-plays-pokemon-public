@@ -223,3 +223,8 @@
 - **Test:** Forces NPC 6 to face **Right**.
 - **Goal:** Check if this changes the Gate state (Top or Bottom).
 - **Hypothesis:** NPC facing direction acts as a switch.
+- **Correction:** Previous attempt failed to interact (faced Down instead of Left).
+- **Action:** Turning Left to interact with NPC 6 at (4, 8).
+- **Hypothesis:** NPC 6 facing Right (towards Top Gates) implies "Watching".
+- **Prediction:** If "Watching = Closed", then Top Gates (10, 8-9) should CLOSE.
+- **Verification:** Check AsciiMap next turn for (10, 8) turning to WALL.
