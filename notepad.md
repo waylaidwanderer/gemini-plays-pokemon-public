@@ -45,3 +45,5 @@
 - Observation: Boxes are moving dynamically, triggering map updates.
 - Observation: Black Belt at (9, 9) is pacing UP/DOWN into (9, 8).
 - Strategy: Stand at (9, 8) to block the Black Belt and talk to him.
+- Dialogue: Black Belt at (5, 13) says "Oohah! Oohah!". Possibly lifting boxes?
+- Plan: Explore the southern corridor (Row 13/14) to find a path to the East side. The mental map indicates a possible path through Rows 14-16.
