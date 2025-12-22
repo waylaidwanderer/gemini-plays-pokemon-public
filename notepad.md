@@ -7,7 +7,7 @@
 - WARP_CARPET_DOWN: Warp point to another map.
 
 # Puzzle: Goldenrod Underground Switch Room
-- Puzzle Start Turn: 10284 (Attempt 2)
+- Switch Puzzle Start: Turn 10284
 - Solution Sequence: 3-2-1 (Left, Middle, Right).
 
 ## Shutter Toggle Logic (Hypothesis)
@@ -18,7 +18,6 @@
 ## Verified Shutter States
 - (0,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) OPEN, (17,6) CLOSED.
 - (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED.
-- (1,1,0): To be verified.
 - (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED, (17,6) CLOSED. (Turn 10297)
 
 # Strategy: 3-2-1 Sequence Execution (Resetting)
