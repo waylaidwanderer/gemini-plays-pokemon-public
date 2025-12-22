@@ -10,15 +10,15 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Method: Search Map 3_55 by clearing rows 1-5 from east to west, then rows 6-10 from west to east, to identify internal walls and the Director's location.
-- Method: Navigate to Section 4 (x >= 16) and explore north to find an entry to Section 3 (x=9-14).
-- Method: Standing at (13, 8) to interact with the Gentleman at (12, 8).
+- Method (Map 3_55): Clearing rows 1-5 from east to west, then rows 6-10 from west to east, to identify internal walls.
+- Method (Map 3_56): Use the Row 1-3 gap in Column 15 to access the central warehouse area (x=9-14).
+- Method (Map 3_56): Use the Row 12-13 gap in Column 8 to navigate between the western corridor (x=1-4) and the central area.
 - Tactical: Gneiss (Lv41) leads with Earthquake; Calcifer (Lv44) counters Grass-types.
 
 # Observations
 - Map 3_55: Dept Store B1F. Connected to Warehouse (3_56) via (17, 2).
 - Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R12-15), Col 15 (Gaps R1-3, 12-13).
-- Item Ball (Map 3_55): (14, 2).
+- Item Ball (Map 3_55): (14, 2) - Amulet Coin picked up.
 - Item Ball (Map 3_56): (13, 9).
 - Item Ball (Map 3_56): (18, 15).
 - Rocket Grunt (Map 3_56): (9, 8).
