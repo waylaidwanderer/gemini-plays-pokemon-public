@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Goldenrod Underground (North). Talking to PokéManiac Donald.
+- **Status:** In Goldenrod Underground. Investigating "Locked Door" at (18, 6).
 - **Plan:**
-    1. Talk to PokéManiac Donald.
-    2. Investigate the "Locked Door" / Photo Studio at (18, 6).
-    3. If locked, head south to the Switch Room ladder at (3, 34).
+    1. Check if the door at (18, 6) opens (might be Photo Studio or Warehouse).
+    2. If locked/irrelevant, search the rest of the Underground (South) for the Team Rocket Uniform.
+    3. Look for a Rocket Grunt who might give the uniform.
 
 **Notes:**
 - Radio Tower entrance was elusive.
