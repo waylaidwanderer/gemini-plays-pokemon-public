@@ -2,11 +2,11 @@
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Active Status: Super Repel active (Turn #13035). 2 left in bag.
+- Active Status: Super Repel active (Turn #13045). 1 left in bag.
 - Current Status: Suicune confirmed on Route 38 (Turn #12992).
 
 # Roaming Pokémon Reference
-- Tracking: Use Pokédex AREA map. (Start -> POKEDEX -> Select Suicune -> AREA).
+- Tracking: Use Pokédex AREA map via `check_suicune_location_v5`.
 - Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge) or after a battle with Suicune.
 - Note: Flying counts as crossing boundaries. Pacing in grass or phone calls do NOT move it.
 - Note: Battling OTHER wild Pokemon on the same route does NOT move it (Verified Turn #12992).
@@ -28,7 +28,7 @@
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
 # Lessons Learned & Error Analysis
-- Tool Reliability: Custom tools for roamer tracking must handle the full sequence from overworld to overworld.
+- Tool Reliability: Custom tools for roamer tracking must handle the full sequence from overworld to overworld and reset the menu cursor.
 - Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
 - Roamer Logic: Roamers only move when you change maps or battle them. Clearing wild encounters is safe.
 
@@ -41,7 +41,7 @@
 6. Press B multiple times to exit.
 
 # Encounter Tracking (Route 38)
-- Current Repel: Applied Turn #13035.
-- Steps Taken on current Repel: 180.
+- Current Repel: Applied Turn #13045.
+- Steps Taken: 0.
 - Encounter Goal: Suicune.
 - Status: No encounter yet. Suicune confirmed here Turn #12992.
