@@ -9,12 +9,14 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Correction:** Row 10/11 Right Gates (10,10 to 11,11) are **FLOOR** (Open) in the XML, despite looking like boxes.
-- **Hypothesis:** Gates are open by default. They likely close (turn to WALL) only if NPC 5 **sees** the player.
+- **Situation:** NPC 5 is at (9, 10) facing Down, blocking the path. The gate at (10, 10) is OPEN (FLOOR) but might close if I'm seen.
 - **Plan:**
-    1. **Wait** for NPC 5 to move off (9, 10).
-    2. **Stun** NPC 5 to keep him out of the way and prevent him from turning to see me.
-    3. **Walk** through (9, 10) to (10, 10).
+    1. **Reset:** Unstun NPC 5. Move to (8, 9).
+    2. **Trap:** Wait for NPC 5 to move to (9, 9).
+    3. **Blind:** Talk to him from (8, 9) to make him face LEFT.
+    4. **Lock:** Stun him facing LEFT.
+    5. **Execute:** Walk around him: (8, 9) -> (8, 10) -> (9, 10) -> (10, 10).
+- **Note:** Do NOT step into (9, 10) while he is at (9, 11) facing Up, as he might see me and close the gate.
 
 ## Status
 - Player at (8, 9).
