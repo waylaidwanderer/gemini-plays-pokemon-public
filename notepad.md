@@ -126,6 +126,6 @@
     - NPC 7 is facing **Right** (towards Bottom Gates). Gates are **Closed**.
     - **Test:** Make NPC 7 face **Up** or **Down** (away from gates) to see if they open.
     - **Plan:**
-        1. Talk from current position (Right) -> He stays facing Right.
-        2. Move to (7, 12) (Above) -> Talk -> He faces Up -> Check Gates.
-        3. Move to (7, 14) (Below) -> Talk -> He faces Down -> Check Gates.
+        1. Move to (6, 13). Talk (He faces Right). Check Gates.
+        2. Move to (5, 12). Talk (He faces Up). Check Gates.
+        3. Move to (5, 14). Talk (He faces Down). Check Gates.
