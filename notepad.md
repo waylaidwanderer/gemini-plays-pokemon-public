@@ -17,8 +17,8 @@
 
 # Puzzle Strategy (Attempt 5: Clean Reset)
 - Step 1: Turn all switches OFF.
-  - S3: Currently ON (🟢).
-  - S2: Currently ON (per screen).
+  - S3: Currently ON (🟢). (Heading to (2, 2))
+  - S2: Currently OFF (🔴).
   - S1: Currently ON (🟢).
 - Step 2: Turn S3 ON.
 - Step 3: Turn S2 ON.
