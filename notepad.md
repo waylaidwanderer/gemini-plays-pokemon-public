@@ -23,8 +23,8 @@
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym. Battling Boarder Ronald.
 - **Location:** Entrance Lobby (0, 16).
-- **Battle:** Vs Dewgong (Incoming). Muscle (Lv 47) is active.
-- **Strategy:** Stay in. Use Cross Chop (SE) to finish the battle.
+- **Battle:** Vs Dewgong (Lv 25). Muscle (Lv 47) is active.
+- **Strategy:** Cross Chop for the KO.
 - **Plan:**
     1. Defeat Boarder Ronald.
     2. Solve Ice Puzzle to reach Pryce.
