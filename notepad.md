@@ -124,3 +124,6 @@
 - Status: At (11, 11). Checking Gate 2 at (10, 12).
 - Plan: Move to (10, 11). Inspect (10, 12). If Wall, talk to NPC 5 at (9, 11).
 - Hypothesis: "Zone" trigger might reset when returning to Center. Need to find a way to maintain "Open" state.
+- Status: West Zone visit did not persist East Gate opening.
+- Hypothesis: West Gate (4, 11) and East Gates are mutually exclusive toggles. Need to find the trigger to toggle back to East.
+- Plan: Inspect (10, 12). If closed, manipulate NPC 5 facing direction.
