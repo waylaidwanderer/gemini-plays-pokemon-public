@@ -13,7 +13,7 @@
 
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym at (2, 5).
-- **Progress:** Defeated Boarder Douglas. Learning secret: "Meditates under a waterfall daily".
+- **Progress:** Defeated Boarder Douglas. Learned secret: "Meditates under a waterfall daily to strengthen his mind and body."
 - **Puzzle Solution (To Pryce):**
     1.  Start: (2, 5) (Current Location).
     2.  Slide **East** to (6, 5) Floor.
