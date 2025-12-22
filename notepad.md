@@ -56,3 +56,5 @@
 - Suicune Hunt started Turn #12156.
 - Method: Route-hopping between Ecruteak City and Route 37.
 - Status (Turn #12189): Suicune is roaming. Checking Pokédex to track its location.
+- Suicune Hunt officially tracked starting Turn #12156.
+- Lead: KIMCHI (Gloom Lv 21) for Sleep Powder and Repel filtering (Repel filters < Lv 21, Suicune is Lv 40).
