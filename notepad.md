@@ -19,11 +19,14 @@
 
 # Current Strategy: Enter Warehouse
 1. Sequence 3-2-1 complete. Path at (2, 6) and (6, 8) is OPEN.
-2. Navigate south via (2, 6) to (2, 13) to find the Warehouse entrance.
-3. Locate the warp to Map 3_55.
+2. Navigate south via (2, 6) to explore the southern area.
+3. Look for a gap or shutter in the wall at row 10/11.
+4. Locate the warp to Map 3_55.
 
 # Lessons Learned
 - Toggling S1 and S2 both affects shutter (12, 8). If both are ON, it returns to OPEN.
 - (12, 6), (12, 7), (12, 9) are permanent WALL tiles.
 - (2, 7) and (3, 7) are shutters toggled by S3 (verified Turn 10908).
+- Row 10 is a major wall; must find a way through to reach the southern warps.
 - Always check cursor position in menus to avoid turning switches OFF by mistake.
+- Scientific Method: Observe, Hypothesize, Test, Conclude. Test one variable at a time. Actively try to falsify confirmed hypotheses.
