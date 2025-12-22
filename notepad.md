@@ -10,8 +10,8 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000. Current Turn: 11022.
-- Method: Navigate east through the gap at (8, 12-13) to reach the central warehouse area.
+- Warehouse Search Start: Turn 11000. Current Turn: 11023.
+- Method: Navigate to Section 4 (x >= 16) and explore north to find an entry to Section 3 (x=9-14).
 - Method: Interact with the Gentleman at (12, 8) and collect the item at (13, 9).
 - Method: Systematically engage all Rocket personnel to clear the path to the real Director.
 - Tactical: Gneiss (Lv41) leads with Rollout against Flying/Poison/Fire; Calcifer (Lv44) counters Grass.
@@ -20,6 +20,7 @@
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
 - Internal Walls: Column 5 blocks passage Row 4-15 (Gaps at Row 1-3).
 - Internal Walls: Column 8 blocks passage Row 1-11 (Gaps at Row 12-15).
+- Internal Walls: Column 15 blocks passage Row 8-11, 14-15. Gaps at Row 12-13.
 - Rocket Grunt 1: (9, 8).
 - Gentleman: (12, 8).
 - Item Ball: (13, 9).
