@@ -6,18 +6,18 @@
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
 - **Status:** Exploring Goldenrod Underground (3_53).
 - **Plan:**
-    1. Talk to NPC at (7, 14) (Likely Younger Haircut Brother).
-    2. Talk to/Battle Super Nerd Teru at (6, 9).
-    3. Talk to/Battle PokéManiac Donald at (2, 6).
-    4. Re-check the locked door area for any hidden events.
+    1. Talk to/Battle Super Nerd Teru at (6, 9).
+    2. Talk to/Battle PokéManiac Donald at (2, 6).
+    3. Re-check the locked door area for any hidden events.
 - **Observations:**
     - Locked door at (18, 6).
     - "No Entry" sign at (19, 6).
 - **Checked:**
+    - NPC at (7, 14): Older Haircut Brother. Service NPC only.
     - Teacher at (3, 27) in Switch Room Entrances (3_54). Not helpful.
     - Super Nerd at (19, 27) in Switch Room Entrances (3_54). Warned of battles. Not Rocket.
     - Super Nerd Eric at (5, 31): Just normal dialogue. Not the one.
-    - NPC at (3, 27): Older Haircut Brother ("Pokemon will like you more..."). Not Rocket.
+    - NPC at (3, 27): Super Nerd Issac. Defeated trainer.
 
 ## Map Data
 - **Goldenrod City:**
