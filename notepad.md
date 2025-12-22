@@ -4,16 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** Executing removal sequence from Options Menu.
-- **Reason:** Correcting previous menu mis-navigation. Exiting Options -> Party -> Kenya -> Take Mail.
+- **Status:** Selecting Kenya and Taking Mail.
+- **Reason:** Previous attempt stuck on Garnet. Moving Down 3 slots to Kenya (Slot 5), then removing Mail.
 - **Plan:**
-    1. Exit Options (B).
-    2. Navigate to Pokemon (Up x5, A).
-    3. Select Kenya (Down x4, A).
-    4. Select MAIL (Down x3, A).
-    5. Select TAKE MAIL (Down, A).
-    6. Select NO to "Send to PC" (Down, A).
-    7. Deposit Kenya.
+    1. Navigate to Kenya (Down x3).
+    2. Open Menu (A).
+    3. Select MAIL (Down x3, A).
+    4. Select TAKE MAIL (Down, A).
+    5. Confirm (A) if prompted.
+    6. Deposit Kenya.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
