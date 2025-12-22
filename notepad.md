@@ -44,17 +44,20 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
-- **Current Test:** NPC 7 (Bottom Worker).
-    - **Status:** NPC 7 is at (5, 13). Stunned (Attempt 2).
-    - **Anomaly:** Previous Stun failed (he moved significantly).
-    - **Plan:**
-        1. Stun him at (5, 13).
-        2. Face Down.
-        3. Unstun & Interact immediately.
-    - **Check:** Does he turn UP? Do gates open?
-- **Previous Info:** "junk on ground".
-- **Next:** If this fails, try making him face Right or Left.
-- **Fallback:** Return to NPC 6.
+- **Hypothesis:** Picking up the "Junk" (Item at 6, 3) triggers a state change.
+    - **Clue:** NPC 7 says "The stuff on the ground's junk. Take it if you want it!"
+    - **Logic:** Maybe clearing the junk satisfies the worker or is the "Switch".
+- **Plan:**
+    1. Navigate to (6, 3) via the left corridor (Cols 1-2).
+    2. Pick up the Item.
+    3. Return to NPC 7 or Check Gates.
+- **Status:**
+    - Player at (5, 12).
+    - NPC 7 interaction completed (No gate change).
+    - Action: Moving to (6, 3).
+- **Discarded:**
+    - NPC Facing/Position triggers (so far).
+    - "Don't Look" (so far).
 
 # Tile Mechanics
 - **WALL:** Impassable.
