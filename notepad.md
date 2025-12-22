@@ -85,3 +85,7 @@
 - **Hypothesis:** He might be a non-interactive "mover" NPC, or interaction requires a specific angle/condition.
 - **Action:** Moving to talk to Machop at (7, 7).
 - **Goal:** Determine if Machop triggers box movement or provides clues.
+- **Observation:** Top Gates (10, 8-9) are OPEN.
+- **Correlation:** NPC 5 is at (9, 11) facing Down. NPC 6 is at (4, 8) facing Up.
+- **Hypothesis:** NPC 5's position (9, 11) keeps Top Gates open.
+- **Action:** Stunning NPC 5 to lock the gate state, then crossing to East Room.
