@@ -99,3 +99,6 @@
 - Hypothesis: The trigger requires crossing from Col 8 to Col 9 at Row 11 specifically (replicating Turn 12186).
 - Plan: Move Left to Col 8 (West Zone Reset), then cross Right to Col 9 at Row 11 (Trigger East Zone).
 - Path: (9, 13) -> (8, 13) -> (8, 11) -> (9, 11) -> (9, 13).
+- Analysis: Loop failed. realized NPC 5 is STUNNED. The puzzle likely requires NPCs to move to shift boxes.
+- Action: Unstun NPC 5.
+- Plan: Move to (8, 13) to reset, then retry the crossing maneuver.
