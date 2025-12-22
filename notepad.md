@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Goldenrod Underground. Searching South end for Rocket Grunt.
+- **Status:** Entering Switch Room (Goldenrod Underground). Searching for Team Rocket Grunt/Uniform.
 - **Plan:**
-    1. Navigate to the south end of the tunnel (near ladder at 3, 34).
-    2. Check for any NPCs that look like Team Rocket members.
-    3. If no Grunt found in the main tunnel, check the Switch Room (via ladder).
+    1. Explore the Switch Room area.
+    2. Look for a Rocket Grunt who might give the uniform.
+    3. If locked doors/obstacles, solve the switch puzzle (if active).
 
 **Notes:**
 - Radio Tower entrance was elusive.
