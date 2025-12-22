@@ -22,12 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Resetting Menu to Select Mistral.
-- **Reason:** Repeated menu errors (selecting Muscle). Resetting to Overworld to ensure clean navigation to Mistral (Slot 4).
+- **Status:** Navigating from Pack to Pokemon Menu.
+- **Reason:** Currently in Pack (on Cancel). Need to exit and enter Pokemon Menu to Fly.
 - **Plan:**
-    1. Exit all menus (B x3).
-    2. Open Menu (Start).
-    3. Select Pokemon (Down, A).
-    4. Select Mistral (Down x3, A).
-    5. Select Fly (A).
-    6. Verify Map Open.
+    1. Exit Pack (B).
+    2. Select Pokemon (Up, A).
+    3. Select Mistral (A).
+    4. Select Fly (A).
+    5. Wait for Fly Map to confirm location.
