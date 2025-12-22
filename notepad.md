@@ -56,3 +56,4 @@
 # Repel Restock Tracking
 - Started: Turn #12668.
 - Goal: Buy 10+ Repels. Current Funds: ¥6821.
+- Ecruteak Mart Inventory: POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE...
