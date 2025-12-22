@@ -4,14 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Walking to Cherrygrove City.
-- **Status:** Walking to Route 29 Exit.
-- **Reason:** Fly map failed. Walking manually. Previous path blocked by sign at (8, 8). Detouring South to Row 9.
+- **Status:** Traversing Route 29 (Westbound).
+- **Reason:** Fly failed. Walking to Cherrygrove. Avoiding obstacles on Route 29.
 - **Plan:**
-    1. Move South to Row 9.
-    2. Walk West to (0, 9).
-    3. Enter Route 29.
-    4. Traverse Route 29 to Cherrygrove.
-    5. Fly from Cherrygrove (or walk to Goldenrod if Fly remains broken).
+    1. Navigate West on Route 29.
+    2. Detour South to Row 16 to bypass walls at (34-37, 14).
+    3. Arrive in Cherrygrove City.
+    4. Fly to Goldenrod from Cherrygrove (or walk if Fly fails again).
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
