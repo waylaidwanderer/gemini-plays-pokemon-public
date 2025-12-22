@@ -38,3 +38,4 @@
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 - (10, 2) identified as an 'Unmarked Warp' by system (Turn #11997). Currently non-functional or one-way.
+- Investigation (Turn #12022): Checking Pokédex for Suicune's current location.
