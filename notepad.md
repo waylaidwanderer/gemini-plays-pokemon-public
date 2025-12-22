@@ -9,16 +9,19 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side.
-- **Hypothesis:** NPC 5's Position determines the Box State (Vision Cone/Trigger Plate).
-    - **Failed Test:** Talking to NPC 5 to force Facing UP did NOT open bottom gates.
-    - **New Test:** Allow NPC 5 to move to (9, 10) freely.
-        - Move out of his way to (8, 9).
-        - Watch Top Boxes (Row 8/9).
+- **Layout Insight (The Cage):**
+    - The "Box Area" (Cols 10-11) is a cage.
+    - **Entry:** Open at Rows 10-11 (West side).
+    - **Exit:** BLOCKED East by Wall (Col 12) at Rows 10-11.
+    - **Solution:** Must open North Boxes (Row 8-9) OR South Boxes (Row 12-13) to bypass the Wall.
+- **Hypothesis:** NPC 5's Position triggers the boxes.
+    - NPC 5 at (9, 11) -> All Closed.
+    - Test: Wait for NPC 5 to move to (9, 10).
 - **Plan:**
-    1. **Position:** Move to (8, 9).
-    2. **Wait:** Allow NPC 5 to step to (9, 10).
-    3. **Observe:** If boxes open, STUN NPC 5 immediately.
-    4. **Execute:** Run through.
+    1. **Position:** (8, 9) Facing Right.
+    2. **Wait:** Watch NPC 5 move to (9, 10).
+    3. **Observe:** Check if boxes at (10, 8/9) open.
+    4. **Action:** If open, Stun NPC 5 immediately.
 - **Status:**
     - Player at (8, 6).
     - NPC 5 is off-screen (likely at 9, 11).
