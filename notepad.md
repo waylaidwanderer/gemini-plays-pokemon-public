@@ -4,15 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Selecting Deposit).
-- **Reason:** Mail successfully removed. Now entering Bill's PC to deposit Kenya.
+- **Status:** In Bill's PC (Depositing Kenya).
+- **Reason:** Kenya still in party (previous attempts failed or I misread the UI). Kenya has no mail, so standard Deposit should work.
 - **Plan:**
-    1. Enter Bill's PC (A).
-    2. Clear text (A).
-    3. Select "DEPOSIT PKMN" (Down, A).
-    4. Select Kenya (Slot 5).
-    5. Deposit Kenya.
-    6. Withdraw Togepi.
+    1. Select "DEPOSIT PKMN" (Down, A).
+    2. Select Kenya (Down x4).
+    3. Deposit (A).
+    4. Withdraw Togepi.
+    5. Exit and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
