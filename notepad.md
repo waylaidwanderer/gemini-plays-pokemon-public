@@ -21,14 +21,13 @@
 - Toggle Log:
   - S3 (2,1) toggles (2,6), (2,7), (3,6), (3,7).
   - S1 (16,1) toggles (12,8), (12,9).
-- Current Status: S1 ON, S2 OFF, S3 OFF (1,0,0). Systematic mapping step 1.
-- Steps:
-  1. Reset all switches to OFF (0,0,0). Done (Turn 10396).
-  2. Toggle S1 ON. Done (Turn 10403).
-  3. Verify shutters (2,6), (3,6), (10,6), (16,6), (6,8), (12,8).
-  4. Reset S1 to OFF.
-- Toggle Log (Current Test: S1):
-  - S1 (16,1) toggled (12,8) FLOOR -> WALL? (To be verified)
+- Current Status: S1 ON, S2 OFF, S3 OFF (1,0,0). Mapping S1.
+- S1 (16,1) Toggles: (16,6), (17,6), (12,8), (12,9). (Verified Turn 10408)
+- Observed Shutter Changes (0,0,0 -> 1,0,0):
+  - (16,6): WALL -> FLOOR
+  - (17,6): WALL -> FLOOR (Confirmed: (17,6) is a shutter!)
+  - (12,8): WALL -> FLOOR
+- Next: Check (10,6) and (6,8) for S1 toggles. Then reset S1.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
