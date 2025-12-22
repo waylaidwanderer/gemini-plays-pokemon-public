@@ -1,37 +1,37 @@
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
+- LADDER: Warp tile.
+- WARP_CARPET_DOWN: Warp tile.
 - SHUTTER: Dynamic collision. Impassable (WALL) when CLOSED, Traversable (FLOOR) when OPEN. (2,6), (3,6), (10,6), (16,6), (17,6), (16,7), (17,7), (6,8), (12,8).
-- Switch: Background object at (2,1), (10,1), (16,1). Interact from row 2 (facing UP).
+- Switch: Background object. Interact from adjacent tile (e.g., row 2 facing UP).
 
 # Underground Warehouse Puzzle
 - Goal: Open path to Warehouse Entrance (Map 3_55).
 - Hint from Rocket Grunt: "the switch on the end is the one to press first."
-- Rumored Order: Switch 3 -> Switch 2 -> Switch 1.
+- Order: Switch 3 -> Switch 2 -> Switch 1.
 
-# Shutter Logic (Verified Observations)
+# Shutter Logic (Hypothesized Toggles)
 - Baseline (OFF, OFF, OFF): (12,8) is OPEN, all others CLOSED.
-- S3 (2,1) toggles: (2,6), (3,6)
-- S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
+- S2 (10,1) toggles: (10,6), (6,8), (12,8)
+- S3 (2,1) toggles: (2,6), (3,6)
 
 # Puzzle Solving Log
-- Attempt 1 & 2: Failed.
-- Attempt 3: 3-2-1 Sequence (Turn 10816). RESULT: Path opened but shutter (12, 8) closed unexpectedly during navigation.
-- Attempt 4 (Current): Resetting all switches to OFF for systematic testing.
+- Attempt 4 (Current): 3-2-1 Sequence from clean reset.
+  - Reset all switches to OFF (Turn 10831).
+  - Step 1: Turn Switch 3 ON (Turn 10832).
 
-# Current Strategy: Reset and Test
-1. Turn all switches OFF.
-2. Execute 3-2-1 sequence.
-3. Verify path to (12, 13).
+# Current Strategy: Execute 3-2-1 Sequence
+1. Turn Switch 3 ON (In progress).
+2. Turn Switch 2 ON.
+3. Turn Switch 1 ON.
+4. Enter Warehouse at (12, 13).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
 
 # Lessons Learned
-- Verify shutter states visually or via tool.
-- NPCs and Items block paths like WALLs.
-- 3-2-1 sequence may require a specific starting state or reset.
-- Don't check switch states after flipping them; it may break the sequence.
+- S1 and S2 both toggle (12, 8). This explains the "unexpected" closing.
+- NPC movement or turn-based updates can make shutters appear to move on their own.
 - Trust the shutter report tool for state verification.
-- Talking to a switch you just turned ON and seeing the "It's ON. Turn it OFF?" message DOES NOT reset the sequence, but it's best to avoid it to be safe.
