@@ -12,12 +12,12 @@
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym at (6, 5).
-- **Progress:** Sliding East to (6, 5).
+- **Status:** Inside Mahogany Gym at (6, 13).
+- **Progress:** Sliding South to (6, 13).
 - **Puzzle Solution (To Pryce):**
     1.  Start: (2, 5) (Done).
-    2.  Slide **East** to (6, 5) Floor (Executing).
-    3.  Slide **South** to (6, 13) Floor.
+    2.  Slide **East** to (6, 5) Floor (Done).
+    3.  Slide **South** to (6, 13) Floor (Executing).
     4.  Slide **West** to (3, 13) Floor.
     5.  Slide **North** to (3, 4) Floor.
     6.  Slide **East** to (5, 4) Floor.
