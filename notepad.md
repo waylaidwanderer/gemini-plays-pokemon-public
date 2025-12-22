@@ -289,3 +289,6 @@
 - **Reason:** Previous fast inputs failed to register in the menu.
 - **Risk:** If 'Dig' is the first option, I might warp out.
 - **Hypothesis:** Strength is the first available field move in the menu.
+- **Action:** Strength Activated. Moving to `(9, 12)` to attempt pushing the Bottom Gate "Box" at `(10, 12)`.
+- **Method:** Walk into the tile. Strength pushes automatically on contact.
+- **Goal:** Open path to South East Room.
