@@ -6,7 +6,8 @@
 
 # Underground Warehouse Puzzle
 - Goal: Open path to Warehouse Entrance at (21, 29) [leading to Map 3_55].
-- Current Sequence Strategy: 3-2-1 (Switch 3 -> Switch 2 -> Switch 1).
+- Current Sequence Strategy: 1-2-3 (Switch 1 -> Switch 2 -> Switch 3).
+- 3-2-1 sequence failed to open southeast path at Turn 10448.
 
 ## Shutter Toggle Mapping (S3, S2, S1)
 | State | (2,6/7) | (3,6/7) | (10,6/7) | (12,8/9) | (16,6/7) | (17,6/7) | (6,8/9) |
