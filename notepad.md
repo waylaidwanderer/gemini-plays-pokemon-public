@@ -65,4 +65,4 @@
 # Boundary Dance Tracking
 - Current Boundary: Route 38 (0, 10) < - > Route 39 (19, 10).
 - Suicune Last Seen: Route 42.
-- Strategy: Hop between 38 and 39 until Suicune is on one of them. Use Repel Trick with KIMCHI (Lv 21).
+- Goal: Trap on 38 or 39. Use Repel Trick with KIMCHI (Lv 21).
