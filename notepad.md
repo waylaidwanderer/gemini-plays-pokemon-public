@@ -334,3 +334,8 @@
 - **Goal:** Get to the West side of NPC 7 to force him to face Left.
 - **Hypothesis:** NPC 7 facing Left (away from gates) acts as a switch to open them.
 - **Observation:** `(7, 10)` is a Wall, so path must be Down then Left.
+- **Observation:** I am at `(5, 13)`. NPC 7 is at `(6, 13)` facing LEFT (Away from gates).
+- **Check:** Bottom Gates `(10, 12-13)` are visible and `WALL` (Closed).
+- **Conclusion:** NPC 7 Facing Left does NOT open the gates.
+- **Next Test:** Make NPC 7 face UP.
+- **Plan:** Move to `(6, 12)`. Talk Down. Observe Gate `(10, 12)` *during* dialogue (it is visible on screen).
