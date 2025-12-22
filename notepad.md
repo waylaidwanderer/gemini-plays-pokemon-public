@@ -3,15 +3,16 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Flying to Goldenrod City.
-- **Status:** Executing Fly Command (Resolving Split State).
-- **Reason:** Visual Cursor is confirmed on Goldenrod City (IntermediateStates & CurrentScreen). Screen Text lags at "Cherrygrove". Trusting Visual Cursor (Cyan Box).
+- **Navigation:** Preparing for Radio Tower.
+- **Status:** In Cherrygrove City (Fly Failed).
+- **Reason:** Fly landed in Cherrygrove instead of Goldenrod.
 - **Plan:**
-    1. Press A to Fly.
-    2. Wait 2s for flight animation.
-    3. Verify arrival in Goldenrod (Map ID change).
-    4. If arrival = Cherrygrove, retry Fly immediately.
-    5. Enter PokeCenter.
+    1. Enter Cherrygrove PokeCenter (Current loc: 29,4 -> Door: 29,3).
+    2. Deposit Togepi.
+    3. Withdraw Gyarados (QAAGMAQNJW).
+    4. Exit PC.
+    5. Fly to Goldenrod City (from Cherrygrove).
+    6. Infiltrate Radio Tower.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
