@@ -28,7 +28,6 @@
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
 - **Status:** Exploring West Side of Goldenrod Underground (3_54).
-- **Goal:** Find Team Rocket Uniform.
 - **Plan:**
     1. Talk to Teacher at (3, 27).
     2. Check if I can access the North or East areas from here (looks blocked by walls).
