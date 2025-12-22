@@ -16,7 +16,8 @@
 ## Current Strategy & Obstacles
 - **Location:** Goldenrod Underground (Main Tunnel).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** In the Warehouse vestibule (Map 3_53, South section).
-- **Observation:** The North path is blocked by a wall at row 24.
-- **Action:** taking the Ladder at (22, 27).
-- **Hypothesis:** This ladder likely leads to the main Warehouse floor or the Switch Room puzzle.
+- **Status:** Entered the "Switch Room Entrances" area (Map 3_54).
+- **Location:** Currently at (23, 3) (Ladder).
+- **Observation:** This appears to be a small room. Need to explore west.
+- **Hypothesis:** This area leads to the puzzle with the switches.
+- **Next Step:** Explore the room to the west/south.
