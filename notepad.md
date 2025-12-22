@@ -23,3 +23,5 @@
 # Milestones
 - Muscle Level 51.
 - Badges: 7.
+- **Encounter:** Rival Silver encountered in Switch Room Entrances.
+- **Dialogue:** He claims my previous victory was a fluke and wants to "repay his debts". Likely a battle.
