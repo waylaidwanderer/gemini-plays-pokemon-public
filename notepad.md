@@ -5,8 +5,7 @@
 
 # Observations
 - Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
-- Item Ball (Map 3_56): (13, 9) - TM35 Sleep Talk collected.
-- Item Ball (Map 3_56): (18, 15) - Max Ether collected.
+- Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R12-15), Col 15 (Gaps R1-3, 12-13).
 
 # Training & Party
 - GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
