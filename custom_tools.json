@@ -238,5 +238,27 @@
         "action_counter": 12144
       }
     ]
+  },
+  "grass_dance_tool": {
+    "description": "Returns a list of button presses to pace back and forth in tall grass to trigger a wild encounter.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "steps"
+      ]
+    },
+    "python_script": "import json\ndef grass_dance(steps):\n    buttons = []\n    for i in range(steps // 2):\n        buttons.extend([\"Left\", \"Right\"])\n    if steps % 2 != 0:\n        buttons.append(\"Left\")\n    return buttons\n\nsteps = int(input_data['steps'])\nprint(json.dumps(grass_dance(steps)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T14:41:14.078Z",
+        "action_counter": 12241
+      }
+    ]
   }
 }

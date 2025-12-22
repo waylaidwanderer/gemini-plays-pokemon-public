@@ -36,8 +36,8 @@
 - Pokédex AREA map for Suicune shows multiple red dots at (13, 9), (15, 10), (16, 11), (10, 11), and (8, 13). The map header is "SUICUNE'S NEST".
 - Plan: Navigate to Route 37, use the route-hopping trick (moving between Ecruteak City and Route 37) while checking the Pokédex AREA map to find Suicune. Once Suicune is on Route 37, lead with KIMCHI (Gloom), use a Repel to filter out weak wild Pokémon, and encounter Suicune in the grass. Use Sleep Powder immediately upon encounter.
 
-# Suicune Hunt - Hopping Phase
-- Hopping started: Turn #12207.
-- Border: Ecruteak City (18, 35) <-> Route 37 (18, 0).
-- Strategy: Cross border, check Pokedex AREA map. If Suicune is on Route 37, use Repel and encounter in grass. If not, cross back and repeat.
-- Lead: KIMCHI (Gloom Lv 21) for Sleep Powder and Repel filtering (Repel filters < Lv 21, Suicune is Lv 40).
+# Active Hunt Status
+- Super Repel active: Started Turn #12222. Duration: 200 steps. Estimated expiration: ~Turn #12422.
+- Current Location: Route 37 tall grass.
+- Pacing count: ~152 steps.
+- Encounter Strategy: Use Sleep Powder immediately on Turn 1.
