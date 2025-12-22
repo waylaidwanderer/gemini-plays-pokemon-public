@@ -93,3 +93,6 @@
 - **Observation:** Row 8/9 in East Room contains a block of Walls/Boxes (14-17, 8-9).
 - **Action:** Investigating North East Barrier (Row 4) to see if Ladder (17, 2) is accessible.
 - **Plan:** Move to (17, 5), then explore South.
+- **Hypothesis:** "The Cage" - Entering East Room and letting the Outer Gate (10, 8-9) close might open the Inner Barrier (14-17, 8-9).
+- **Test:** Unstun NPC 5 while inside East Room. Wait for Outer Gate to close. Check Inner Barrier.
+- **Action:** Moving to (13, 6) to observe. Unstunning NPC 5.
