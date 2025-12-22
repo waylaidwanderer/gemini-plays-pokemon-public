@@ -27,8 +27,8 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Battling Super Nerd in Goldenrod Underground (North).
-- **Goal:** Defeat the trainer.
+- **Status:** Battling PokéManiac Donald in Goldenrod Underground (North).
+- **Goal:** Defeat him.
 - **Hypothesis:** He might give information or the uniform after the battle.
-- **Lore Note:** In Crystal, the uniform is given by a Rocket Grunt, but I must explore all options.
+- **Lore Note:** The uniform is typically found in the Underground during this event.
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
