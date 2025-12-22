@@ -5,7 +5,7 @@
 - LADDER: Warp tile. Used between floors or underground.
 - WARP_CARPET_DOWN: Warp tile. Found at exits and in elevators.
 - STAIRCASE: Warp tile.
-- WATER: Requires Surf to traverse.
+- WATER: Requires Surf to traverse. (HM03)
 - GRASS: May trigger wild encounters.
 - unseen: Traversable (optimistic assumption for pathfinding).
 
@@ -22,7 +22,7 @@
 
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
-- Rocket Executive (5F): Arbok Lv32.
+- Rocket Executive (5F): Arbok Lv32, Vileplume.
 - Rocket Executive (4F): Golbat Lv36.
 - Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans Lv21, Gloom.
 - Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
@@ -45,7 +45,7 @@
 - Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
 
 # General Lessons
-- Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible. Some objects do not respond to interaction from the side.
+- Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
 
 # Mission Tracking
 - Radio Tower Mission Start: Turn 11112, Timestamp: Sunday, Dec 21, 10:00 PM.
