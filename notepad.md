@@ -55,4 +55,9 @@
 # Shutter Puzzle (Radio Tower 3F)
 - Observation: Interacting with Card Key Slot at (14, 2) from (13, 2) facing Right produced no result.
 - Hypothesis: Many switches/slots in this game require interaction from BELOW, facing UP.
-- Test: Stand at (14, 3), face UP, and press A. (Attempt 1)
+- Test: Stand at (14, 3), face UP, and press A. (Attempt 1: Success! Shutter opened)
+
+# Radio Tower Upper Floors
+- Access: Card Key used at (14, 2) on 3F.
+- Goal: Reach 5F and stop the broadcast.
+- Note: Stairs at (17, 0) on 3F lead to the restricted area.
