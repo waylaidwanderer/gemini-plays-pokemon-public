@@ -9,15 +9,16 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** A hidden item at (7, 13) is blocking NPC 7's patrol path. Removing it will allow him to step on the switch at (8, 13).
-- **Evidence:**
-    - NPC says "Stuff on ground is junk, take it".
-    - NPC patrol path is short/looping (5-6), not reaching the end (8).
-- **Plan:**
-    1. **Search:** Face Left from (8, 13) and press A to check (7, 13).
-    2. **Verify:** If I find an item ("Ultra Ball" etc.), picking it up clears the path.
-    3. **Wait:** Move out of the way (to 8, 12) and let him walk to (8, 13).
-    4. **Execute:** Gates should open.
+- **Hypothesis:** Hidden item blocks NPC 7's path to (8, 13).
+- **Status:**
+    - Checked (7, 13) from Right: **Nothing found.**
+    - NPC 7 patrols (4-6).
+- **New Plan:**
+    1. **Move:** Go to (8, 12) to unblock (8, 13) and get a better vantage point.
+    2. **Search:** Check (8, 13) from Above.
+    3. **Observe:** See if NPC 7 extends his patrol past (6, 13).
+    4. **Search Again:** If he stops at (6, 13) and nothing is at (8, 13), check (7, 13) from (7, 12) or try walking on it.
+- **Evidence:** "Stuff on ground is junk" strongly implies hidden item. I must find it.
 
 ## Status
 - Player at (9, 9).
