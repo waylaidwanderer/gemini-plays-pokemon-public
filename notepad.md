@@ -18,6 +18,7 @@
 - **Goal:** Reach Director on 5F.
 - **Status:** Exploring West side of 4F.
 - **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
-- **Status:** Found Director at (3, 6) on 5F.
-- **Goal:** Obtain Card Key from Director.
-- **Plan:** Advance dialogue to get the key.
+- **Status:** Confronting the "Director" at (3, 6).
+- **Revelation:** He is an Imposter (Rocket Executive)!
+- **Goal:** Defeat the Imposter to learn the real Director's location.
+- **Plan:** Battle the Executive.
