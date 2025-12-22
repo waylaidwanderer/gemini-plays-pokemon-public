@@ -10,14 +10,12 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
 - **Hypothesis:** Gates open when NPC 7 stands on (8, 13).
-    - **Logic:** I was previously standing at (8, 13), blocking him from reaching it, so gates stayed closed.
-    - **Current:** I am at (8, 12). NPC 7 is at (7, 13) moving Right.
+- **Current State:** Player at (8, 12). NPC 7 at (5, 13) moving Left.
 - **Plan:**
-    1. **Wait:** Press A to let time pass.
-    2. **Observe:** Watch NPC 7 move to (8, 13).
-    3. **Check:** See if gates at (10, 13) open.
-    4. **Action:** If they open, RUSH in (Move Down then Right).
-- **Note:** If this works, the same logic applies to the Top Pocket (Row 8/9). I blocked NPC 5 from reaching the top? No, NPC 5 moves vertically. Maybe similar logic though.
+    1. **Wait:** NPC 7 is far away. I need to wait for him to patrol back to the Right (towards 8, 13).
+    2. **Monitor:** Watch NPC 7's position.
+    3. **Trigger:** When he reaches (8, 13), check if gates (10, 13) open.
+- **Backup:** If he turns around before (8, 13), then my "blocking" theory was wrong, and I need to interact with him or find a switch.
 
 ## Status
 - Player at (9, 9).
