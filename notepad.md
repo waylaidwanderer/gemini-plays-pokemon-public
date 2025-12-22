@@ -11,14 +11,12 @@
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face RIGHT to open gates.
 - **Status:**
-    - Player inside Middle Pocket at (10, 10).
-    - Moving to (10, 11) to intercept NPC 5.
+    - Player at (10, 11). NPC 5 at (9, 11).
+    - **Action:** Interacting (Face Left + A) to turn him RIGHT.
 - **Plan:**
-    1. **Position:** Move to (10, 11).
-    2. **Wait:** Wait for NPC 5 to enter (9, 11).
-    3. **Interact:** Face Left + A. He turns RIGHT.
-    4. **Lock:** Stun him.
-    5. **Verify:** Check if Top/Bottom gates open.
+    1. **Interact:** Face Left + A. He turns RIGHT.
+    2. **Lock:** Next turn, Stun him facing RIGHT.
+    3. **Verify:** Check if Top/Bottom gates open.
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
