@@ -26,4 +26,4 @@
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
 - **Status:** Battling Rocket Grunt at (1, 3).
-- **Status:** Battling Rocket Grunt at (5, 1). Switching to Gyarados vs Rattata.
+- **Status:** Defeated Rocket Grunt at (5, 1). Proceeding to 4F.
