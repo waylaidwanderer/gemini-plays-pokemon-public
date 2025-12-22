@@ -51,7 +51,6 @@
 - Suicune Lv 40.
 - KIMCHI (Gloom Lv 21) fainted at Turn #11641.
 - Observed Moves: Gust, Leer, Rain Dance.
-- Status: Suicune HP is RED. Accuracy at -6. Rain is falling. Ultra Balls depleted. Moving to Great Balls.
 - Strategy:
     1. Switch to Calcifer (Typhlosion).
     2. Use Headbutt or Thunderpunch to weaken Suicune carefully. (HP is already RED).
