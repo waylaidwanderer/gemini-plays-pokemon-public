@@ -23,7 +23,7 @@
   - (10,6): OPEN
   - (6,8): OPEN
   - (12,8): CLOSED
-  - (Others): Same as baseline. (Verified Turn 10611)
+  - (Others): Same as baseline.
 - Test S3 (0,0,1):
   - (2,6): OPEN
   - (3,6): OPEN
