@@ -4,13 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** In Party Context Menu (Taking Mail).
-- **Reason:** Cursor is on "GIVE". Need to select "TAKE" to remove mail.
+- **Status:** in Overworld (Wade called).
+- **Reason:** Failed to remove mail from Kenya (accidentally took Muscle's Quick Claw). Retrying.
 - **Plan:**
-    1. Select TAKE (Down, A).
-    2. Clear confirmation text (A).
-    3. Exit Party Menu.
-    4. Deposit Kenya in PC.
+    1. Open Menu (Start).
+    2. Select Party (A).
+    3. Select Kenya (Down x4).
+    4. Open Context Menu (A).
+    5. Select TAKE MAIL (Next Turn).
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
