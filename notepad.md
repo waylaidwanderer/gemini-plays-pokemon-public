@@ -43,3 +43,6 @@
     - SE Ladder (27, 14) -> B2F South.
     - West Ladder (3, 6) -> B2F Item Room (Dead End).
     - West Ladder (3, 2) -> B2F North.
+- **Trap Tile:** Confirmed at B1F (4, 12) (Wild Voltorb).
+- **Trap Tile:** Confirmed at B1F (4, 13) (Wild Koffing).
+- **Hypothesis:** The entire central path (x=4) might be trapped. Try walking on the sides (x=3 or x=5) next time if possible.
