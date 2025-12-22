@@ -3,15 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Withdrawing Togepi.
-- **Status:** Using "MOVE PKMN W/O MAIL" to Deposit Kenya.
-- **Reason:** Kenya has Mail. Standard deposit failed. This specific PC function removes mail and deposits in one step.
+- **Navigation:** Removing Mail from Kenya (Manual).
+- **Status:** Resetting to Party Menu.
+- **Reason:** PC "Move w/o Mail" failed ("Please remove MAIL"). Must use "TAKE MAIL" from Party menu. Previous attempt failed due to wrong button sequence (pressed Down 1x instead of 3x for MAIL).
 - **Plan:**
-    1. Select "MOVE PKMN W/O MAIL" (Down x2, A).
-    2. Select Kenya (Down x4, A).
-    3. Clear messages (A x2).
-    4. Return to PC Menu (B).
-    5. Withdraw Togepi.
+    1. Exit PC to Overworld (B x4).
+    2. Open Party (Start, Down, A).
+    3. Select Kenya (Down x4, A).
+    4. Navigate to MAIL (Down x3).
+    5. Select TAKE MAIL (A, Down, A).
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
