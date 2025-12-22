@@ -30,3 +30,5 @@
 - Obstacle: Rocket Grunt at (16, 23) blocks the shortcut west on Row 23.
 - Navigation Note: The West side path at x=6 is blocked by walls at Row 4-5. Must use Main Street (x=18) to go North.
 - Info: Radio Tower entrance confirmed at (33, 9). Blocked by Rocket Grunt at (31, 10).
+- Grunt at (31, 10) is a blocker. Requires Uniform or disguise to pass.
+- Strategy: Search Underground for Uniform/Disguise.
