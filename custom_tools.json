@@ -199,7 +199,7 @@
     ]
   },
   "check_suicune_location_v2": {
-    "description": "Automates checking Suicune's location on the Pokédex AREA map. Handles menu navigation from any starting cursor index.",
+    "description": "Automates checking Suicune's location on the Pokédex AREA map. Handles menu navigation from any starting cursor index with explicit logic.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -217,7 +217,7 @@
         "menu_already_open"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        raw_input = sys.argv[1]\n        input_data = json.loads(raw_input)\n    except Exception:\n        input_data = {}\n\n    try:\n        current_index = int(input_data.get('current_menu_index', 0))\n    except (ValueError, TypeError):\n        current_index = 0\n        \n    menu_open_raw = input_data.get('menu_already_open', False)\n    if isinstance(menu_open_raw, str):\n        menu_open = menu_open_raw.lower() == 'true'\n    else:\n        menu_open = bool(menu_open_raw)\n    \n    buttons = []\n    if not menu_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Menu: 0:POKEDEX, 1:PKMN, 2:PACK, 3:GEAR, 4:NAME, 5:SAVE, 6:OPTION, 7:EXIT\n    target_index = 0\n    diff = (target_index - current_index) % 8\n    if diff > 4:\n        # Shortest way is Up\n        for _ in range(8 - diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 600\")\n    else:\n        # Shortest way is Down\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 600\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2500\")\n    buttons.append(\"Right\")\n    buttons.append(\"sleep 800\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 6000\")\n    for _ in range(5):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 1000\")\n        \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        raw_input = sys.argv[1]\n        input_data = json.loads(raw_input)\n    except Exception:\n        input_data = {}\n\n    try:\n        curr = input_data.get('current_menu_index')\n        if curr is None:\n            curr = 0\n        else:\n            curr = int(curr)\n    except (ValueError, TypeError):\n        curr = 0\n        \n    menu_open_raw = input_data.get('menu_already_open', False)\n    if isinstance(menu_open_raw, str):\n        menu_open = menu_open_raw.lower() == 'true'\n    else:\n        menu_open = bool(menu_open_raw)\n    \n    buttons = []\n    if not menu_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Menu: 0:POKEDEX, 1:PKMN, 2:PACK, 3:GEAR, 4:NAME, 5:SAVE, 6:OPTION, 7:EXIT\n    if curr == 0:\n        pass\n    elif curr == 1:\n        buttons.extend([\"Up\", \"sleep 600\"])\n    elif curr == 2:\n        buttons.extend([\"Up\", \"sleep 600\", \"Up\", \"sleep 600\"])\n    elif curr == 3:\n        buttons.extend([\"Up\", \"sleep 600\", \"Up\", \"sleep 600\", \"Up\", \"sleep 600\"])\n    elif curr == 4:\n        buttons.extend([\"Up\", \"sleep 600\", \"Up\", \"sleep 600\", \"Up\", \"sleep 600\", \"Up\", \"sleep 600\"])\n    elif curr == 5:\n        buttons.extend([\"Down\", \"sleep 600\", \"Down\", \"sleep 600\", \"Down\", \"sleep 600\"])\n    elif curr == 6:\n        buttons.extend([\"Down\", \"sleep 600\", \"Down\", \"sleep 600\"])\n    elif curr == 7:\n        buttons.extend([\"Down\", \"sleep 600\"])\n            \n    buttons.extend([\"A\", \"sleep 2000\", \"A\", \"sleep 2500\", \"Right\", \"sleep 800\", \"A\", \"sleep 6000\"])\n    for _ in range(5):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 1000\")\n        \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Refined to take starting menu index to ensure POKEDEX is selected correctly.",
@@ -258,6 +258,11 @@
         "commit_message": "Simplified menu wrapping logic and improved argument parsing for reliability. Added explicit target_index for Pokedex.",
         "timestamp": "2025-12-22T21:53:14.937Z",
         "action_counter": 12886
+      },
+      {
+        "commit_message": "Redesigned with explicit if/elif chain for menu navigation to ensure reliability across all starting indices.",
+        "timestamp": "2025-12-22T21:59:38.762Z",
+        "action_counter": 12898
       }
     ]
   }
