@@ -1,13 +1,11 @@
 # Suicune Capture Strategy (The "How")
 - Goal: Capture Suicune (Lv 40, Water).
-- Status: HP in RED zone (~5-10%), Accuracy at -6 (minimum).
+- Status: Suicune (Lv 40) HP in RED (~5-10%), Accuracy -6.
 - Method: Persist with Great Balls.
-- Contingency: Heal Calcifer (Typhlosion Lv 45) with LEMONADE if HP < 50%.
-- Lead: Calcifer (Typhlosion) @ 0/142 HP (Fainted).
-- Next: Ravioli (Krabby) @ 27/27 HP (Resists Water).
-- Observations: Suicune uses Bubblebeam (Water), Gust (Flying), Leer, Rain Dance.
-- Mechanics: Confirmed Suicune does not have Roar/Whirlwind at Lv 40 in Crystal.
-- Marathon Start: Turn #11666.
+- Lead: Ravioli (Krabby Lv 10) @ 27/27 HP (Resists Water).
+- Fainted: Calcifer (Typhlosion Lv 45), KIMCHI (Gloom Lv 21).
+- Strategy: Ravioli tanks hits while I throw Great Balls. If Ravioli falls, move to GNEISS (Graveler) or Blarney (Sudowoodo) as fodder, though they are weak to water.
+- Marathon Turn: #11769.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
