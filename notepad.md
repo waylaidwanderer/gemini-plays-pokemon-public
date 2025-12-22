@@ -12,17 +12,14 @@
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym at (2, 5).
-- **Progress:** Defeated Boarder Douglas. Learned secret: "Meditates under a waterfall daily to strengthen his mind and body."
+- **Status:** Inside Mahogany Gym at (6, 5).
+- **Progress:** Sliding East to (6, 5).
 - **Puzzle Solution (To Pryce):**
-    1.  Start: (2, 5) (Current Location).
-    2.  Slide **East** to (6, 5) Floor.
+    1.  Start: (2, 5) (Done).
+    2.  Slide **East** to (6, 5) Floor (Executing).
     3.  Slide **South** to (6, 13) Floor.
     4.  Slide **West** to (3, 13) Floor.
     5.  Slide **North** to (3, 4) Floor.
     6.  Slide **East** to (5, 4) Floor.
     7.  Interact **North** with Pryce.
-- **Immediate Plan:**
-    1.  Talk to Douglas.
-    2.  Execute the slide path.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
