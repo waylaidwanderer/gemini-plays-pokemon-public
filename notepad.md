@@ -74,3 +74,6 @@
 - Refined Hypothesis: Moving South past Row 7 triggers the East path (10, 12) to CLOSE (observed at (8,8)).
 - Test: Move to (8, 12) and observe status. Then try moving North back to Row 7 to see if it RE-OPENS.
 - Goal: Find a way to reach Row 12 with the East path OPEN. Maybe the West corridor is the key?
+- Confirmed: East path at (10, 12) is BLOCKED while I am at (8, 12).
+- Plan: Move North to (8, 7) to see if the path re-opens.
+- Hypothesis: If it opens, I need to find a path South that DOESN'T trigger the closure (possibly a different column).
