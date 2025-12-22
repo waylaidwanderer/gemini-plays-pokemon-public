@@ -3,16 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Flying to Goldenrod City.
-- **Status:** Opening Fly Map (Cherrygrove).
-- **Reason:** Retrying Fly sequence after tool error. Assuming Party Cursor is at Slot 1 (Muscle). Mistral is Slot 4.
+- **Navigation:** Preparing for Radio Tower.
+- **Status:** Exiting Cherrygrove PokeCenter.
+- **Reason:** Gyarados acquired. Gentleman NPC at (8, 6) blocks direct left path. Detouring Up around him to reach the exit.
 - **Plan:**
-    1. Open Menu (Start).
-    2. Select Pokemon (A).
-    3. Select Mistral (Down x3, A).
-    4. Select Fly (A).
-    5. Verify Fly Map is open.
-    6. Next Turn: Navigate to Goldenrod (Up -> Left -> Down).
+    1. Navigate around Gentleman: (9, 6) -> (9, 4) -> (8, 4) -> Exit (4, 7).
+    2. Exit to Cherrygrove City.
+    3. Fly to Goldenrod City.
+    4. Infiltrate Radio Tower.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
