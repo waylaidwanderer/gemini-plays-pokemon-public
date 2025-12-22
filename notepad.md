@@ -43,3 +43,8 @@
 - Visual confirmation is required after every toggle.
 - Deductions are not verifications.
 - Reset to (0,0,0) before mapping or sequence attempts.
+
+# Shutter Sequence Solution
+- Hint from Grunt (11,2): 'The switch on the end is the one to press first.'
+- Verified Sequence from Summary: 3-2-1 (Switch 3 -> Switch 2 -> Switch 1).
+- Current Plan: Reset all to OFF (0,0,0), then execute 3-2-1.
