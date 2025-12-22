@@ -5,9 +5,9 @@
 - Switch (2,1), (10,1), (16,1): Background objects. Interact from row 2 (facing UP).
 
 # Underground Warehouse Puzzle
-- Goal: Open path to Warehouse Entrance (likely in the southeast unseen area).
+- Goal: Open path to Warehouse Entrance (unseen southeast area).
 - Verified Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
-- Note: (21, 29) is the EXIT to the city, NOT the Warehouse entrance.
+- Note: (21, 29) is the EXIT to the city, NOT the Warehouse entrance. The entrance is likely Map 3_55.
 
 ## Shutter Toggle Mapping (S3, S2, S1)
 - State (1,1,1) [3-2-1]: (2,6) OPEN, (12,8) OPEN. Path to southeast: (2,6) -> (12,8) -> Southeast.
