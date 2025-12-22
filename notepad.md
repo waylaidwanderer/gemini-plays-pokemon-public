@@ -22,13 +22,14 @@
 
 ## Action Log & Reflection
 - **Status:** Exiting Team Rocket Hideout.
-- **Event:** Wild Koffing at (4, 13) Selfdestructed. Failed to catch.
-- **Current Location:** B1F (4, 13).
+- **Event:** Caught Koffing (Brimstone) at (4, 11). Sent to PC.
+- **Current Location:** B1F (4, 11).
 - **Next Steps:**
-    1. Retrieve Item Ball at (27, 6).
-    2. Exit to Mahogany Mart via Ladder at (27, 2).
-    3. Heal at Pokemon Center.
-    4. Challenge Pryce at Mahogany Gym.
+    1. Move off the trap line (x=4) to x=3 or x=5.
+    2. Retrieve Item Ball at (27, 6).
+    3. Exit to Mahogany Mart via Ladder at (27, 2).
+    4. Heal at Pokemon Center.
+    5. Challenge Pryce at Mahogany Gym.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
