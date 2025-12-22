@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Traversing Goldenrod Underground (Northbound).
+- **Status:** Traversing Goldenrod Underground (Northbound). Correcting path to avoid wall.
 - **Plan:**
     1. Navigate North to the ladder at (3, 2).
     2. Exit to the North Entrance building.
