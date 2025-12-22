@@ -11,13 +11,13 @@
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face RIGHT to open gates.
 - **Status:**
-    - Player at (10, 11) facing Right.
-    - NPC 5 at (9, 10) facing Down.
-    - **Action:** Turning Left to wait for him at (9, 11).
+    - Player at (9, 11) (Correcting position).
+    - NPC 5 at (9, 10).
+    - **Action:** Moving Right to (10, 11) to get into position.
 - **Plan:**
-    1. **Setup:** Face Left.
-    2. **Trigger:** Wait for NPC 5 to step into (9, 11).
-    3. **Interact:** Press A. He turns RIGHT.
+    1. **Position:** Move to (10, 11).
+    2. **Wait:** Wait for NPC 5 to reach (9, 11).
+    3. **Interact:** Face Left + A. He turns RIGHT.
     4. **Lock:** Stun him.
     5. **Verify:** Check Top/Bottom gates.
 - **Discarded:**
