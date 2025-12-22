@@ -36,3 +36,4 @@
 - Lead: Gloom (KIMCHI) with Sleep Powder.
 - Status: Sleep is best.
 - Analyst: Use `suicune_capture_analyst_v2` for catch odds.
+- Tool Note: check_suicune_location_v2 requires correct current_menu_index. Cursor was at index 2 (PACK) after using Repels. Last confirmed repel status: Active (Turn #12849).
