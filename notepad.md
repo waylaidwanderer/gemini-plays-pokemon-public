@@ -57,3 +57,4 @@
 - Confirmation: Elevator has a B1F button! Going down to investigate.
 - Status: Arrived at B1F via Elevator. Exiting to investigate.
 - Status: Exiting Elevator to Dept Store Basement.
+- Status: Walking South to exit Elevator into B1F.
