@@ -4,11 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Exiting Underground (South). Navigating to **Underground Entrance (North)**.
+- **Status:** Outside South Entrance. Realized street blocked by Grunt. Re-entering Underground.
 - **Plan:**
-    1. Exit to Goldenrod City.
-    2. Navigate North to find the other Underground Entrance (likely near the Museum/Dept Store).
-    3. Enter and look for the Team Rocket Uniform (or key info).
+    1. Re-enter South Entrance (11, 29).
+    2. Traverse Underground to North Ladder (3, 2).
+    3. Exit to North Entrance building.
+    4. Find Uniform/Director.
 
 **Notes:**
 - Radio Tower entrance was elusive.
