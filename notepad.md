@@ -9,12 +9,14 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** "The stuff on the ground's junk." -> Hidden item blocks the mechanism? Or is a reward?
+- **Hypothesis:** "The stuff on the ground's junk." -> Hidden item blocks the mechanism.
 - **Plan:**
-    1. **Search:** Move to Row 13 patrol area. Check (7, 13), (6, 13), etc. for hidden items.
-    2. **Interact:** If found, pick it up.
-    3. **Observe:** Does NPC behavior change?
-- **Current Action:** Move to (8, 13). Then scan left.
+    1. **Position:** Move to (8, 13).
+    2. **Search:** Face Left and press A to check (7, 13).
+    3. **Search:** Face Right and press A to check (9, 13).
+    4. **Search:** Move to other tiles in Row 13 and check.
+- **Note:** If I find the item, maybe the gates will open (or NPC behavior changes).
+- **Alternative:** The "junk" might be the boxes themselves (fake walls)? I will try bumping into them again later.
 
 ## Status
 - Player at (9, 9).
