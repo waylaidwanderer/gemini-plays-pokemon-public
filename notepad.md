@@ -16,5 +16,5 @@
 ## Current Strategy & Obstacles
 - **Location:** Goldenrod City Pokémon Center.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Healing Party (Muscle has no PP).
-- **Plan:** Heal at Nurse Joy, then exit and head to the Underground Entrance.
+- **Status:** Healed Party. Ready to proceed.
+- **Plan:** Exit PokeCenter, navigate to the Underground Entrance (North Goldenrod), enter Underground, and unlock the Warehouse with the Basement Key.
