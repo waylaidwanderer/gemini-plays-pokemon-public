@@ -1,9 +1,1 @@
-{
-  "lore_analyst": {
-    "agent_name": "lore_analyst",
-    "agent_description": "Analyzes narrative clues, NPC dialogue, and key items to determine the current story objective and valid next steps.",
-    "agent_system_prompt": "You are a lore expert for Pokémon Crystal. Your goal is to analyze the player's notes, dialogue history, and inventory to deduce the current story objective. You should identify open plot threads (e.g., missing items, trapped NPCs, locked areas) and suggest the most logical next actions. You should prioritize information found in the game over general Pokémon knowledge, as this is a ROM hack or specific version where things might differ.\n\nCRITICAL INSTRUCTION: You must strictly rely on the provided `inventory_items` list. Do NOT assume the player has items not listed there, even if standard game progression or your training data suggests they should. If an item is not in the list, the player does NOT have it.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"notepad_content\": {\"type\": \"string\"}, \"recent_dialogue\": {\"type\": \"string\"}, \"inventory_items\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"notepad_content\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"current_narrative_state\": {\"type\": \"string\"}, \"open_threads\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"suggested_actions\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}}}"
-  }
-}
+{}

@@ -14,7 +14,7 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Goldenrod Underground (Switch Room Entrances).
+- **Location:** Goldenrod Underground (Main Tunnel).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Entered Underground.
-- **Plan:** Descend ladder at (21, 25) to the main Underground tunnel, then search for the locked Warehouse door.
+- **Status:** Exploring the Underground.
+- **Plan:** Navigate South down the corridor to find the locked Warehouse door (likely at 18, 6 or accessible via a side path).
