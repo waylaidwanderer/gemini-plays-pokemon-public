@@ -34,3 +34,7 @@
 - Repel Trick: Leading with a Pokemon lower level than the target but higher than local wild Pokemon filters out non-targets.
 - Sweet Scent Interaction: SWEET SCENT bypasses REPEL filtering. Use pacing for the Repel trick.
 - Tool Timing: Menu-heavy tools like Pokédex tracking require significant 'sleep' delays (600ms+) to account for UI transitions.
+## Attempt #2
+- Status: Using Repel (100 steps) on Route 37.
+- Start Turn: #12318.
+- Goal: 100 steps of Grass Dance.
