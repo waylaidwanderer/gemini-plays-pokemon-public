@@ -4,15 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Exiting PC & Preparing to Fly.
-- **Reason:** Gyarados successfully withdrawn (Party Slot 6). Exiting PC to use Mistral (Slot 4) for Fly.
+- **Status:** Navigating Fly Map (Cherrygrove -> Goldenrod).
+- **Reason:** Start Menu is open, "POKéMON" selected. Entering menu, selecting Mistral, using Fly, and navigating cursor to Goldenrod.
 - **Plan:**
-    1. Exit PC (B, B).
-    2. Open Menu (Start).
-    3. Select Pokemon (A).
-    4. Select Mistral (Down x3, A).
-    5. Select Fly.
-    6. Navigate Map: Up -> Left -> Down (Cherrygrove -> Goldenrod).
+    1. Enter Pokemon Menu (A).
+    2. Select Mistral (Down x3, A).
+    3. Select Fly (A).
+    4. Wait for Map (Delay 2s).
+    5. Navigate: Up -> Left -> Down.
+    6. Verify "Goldenrod City" text next turn.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
