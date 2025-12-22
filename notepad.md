@@ -23,7 +23,7 @@
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
 - Rocket Executive (4F): Golbat Lv36.
-- Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans.
+- Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans Lv21.
 - Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
 - Rocket Grunt (M) (Warehouse): Raticate Lv24, Raticate Lv24.
 - Rocket Grunt (M) (Warehouse): Grimer Lv23, Muk Lv25.
