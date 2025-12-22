@@ -4,14 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Initiating Fly (Menu Sequence).
-- **Reason:** Menu verified. Executing sequence to select Mistral (Slot 4) and trigger Fly.
+- **Status:** Selecting Fly (Mistral).
+- **Reason:** Cursor is confirmed on MISTRAL (Slot 4) after the previous loop. Pressing 'A' to select, then 'A' to Fly.
 - **Plan:**
-    1. Enter Pokemon List (A).
-    2. Navigate to Mistral (Down x3).
-    3. Select Mistral (A).
-    4. Select Fly (A).
-    5. Next Turn: Navigate Fly Map to Goldenrod.
+    1. Select Mistral (A).
+    2. Select Fly (A).
+    3. Verify Fly Map Open.
+    4. Navigate to Goldenrod (Up -> Left -> Down).
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
