@@ -16,8 +16,5 @@
 ## Current Strategy & Obstacles
 - **Location:** Goldenrod Underground (Main Tunnel).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Moving to open the Locked Door at (18, 6).
-- **Correction:** The crossing to the East Tunnel is via the corridor at Row 7 (North), not a gap at y=23-25.
+- **Status:** Navigating to (18, 7) to open the door.
 - **Key Item:** I possess the BASEMENT KEY, which should open the door at (18, 6).
-- **Maintenance:** Upgrading `find_path` tool to support automatic button pressing.
-- **Next Step:** Navigate to (18, 7) using the upgraded tool.
