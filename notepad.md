@@ -22,11 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Navigating from Pack to Pokemon Menu.
-- **Reason:** Currently in Pack (on Cancel). Need to exit and enter Pokemon Menu to Fly.
+- **Status:** Navigating Fly Map (New Bark -> Goldenrod).
+- **Reason:** Map is open at New Bark Town. Executing navigation sequence to Goldenrod.
 - **Plan:**
-    1. Exit Pack (B).
-    2. Select Pokemon (Up, A).
-    3. Select Mistral (A).
-    4. Select Fly (A).
-    5. Wait for Fly Map to confirm location.
+    1. Navigate Cursor: Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
+    2. Verify "Goldenrod City" text.
+    3. Press A to Fly.
+    4. Enter PokeCenter.
+    5. Swap Pokemon.
