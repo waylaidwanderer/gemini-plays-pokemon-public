@@ -4,16 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** At PC in Goldenrod Pokemon Center.
+- **Status:** In PC Menu (Depositing Kenya).
 - **Reason:** Accessing Bill's PC to swap Kenya for Togepi.
 - **Plan:**
-    1. Open PC (Up, A).
-    2. Select "Bill's PC".
-    3. Select "Deposit PKMN".
-    4. Deposit Kenya.
-    5. Select "Withdraw PKMN".
-    6. Withdraw Togepi.
-    7. Exit and Fly.
+    1. Select Kenya (Slot 5).
+    2. Deposit Kenya.
+    3. Withdraw Togepi.
+    4. Exit and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
