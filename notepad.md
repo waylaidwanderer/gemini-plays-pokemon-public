@@ -411,3 +411,9 @@
 - **Method:** Unstun -> Interact (Down).
 - **Expectation:** NPC 7 faces UP.
 - **Check:** Gate `(10, 12)` (visible) turns to Floor?
+- **Correction:** I missed the interaction window or moved incorrectly.
+- **Current State:** Player at `(5, 13)`, NPC 7 at `(7, 13)` facing Right. Gate `(10, 12)` Closed.
+- **Action:** Stunning NPC 7 at `(7, 13)` to fix him in place.
+- **Action:** Moving to `(7, 12)` (Directly Above him).
+- **Next Turn:** Unstun and Interact (Down) to force Face UP.
+- **Hypothesis:** This setup is robust. If this fails to open the gate, the "NPC Facing" theory is likely incorrect.
