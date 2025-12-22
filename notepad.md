@@ -19,8 +19,9 @@
 - Switch 3 (2,1): Toggles (2,6), (3,6), (12,8).
 
 ## Toggle Log
-- Turn 10434: (1,0,0) state. (2,6), (3,6) are OPEN. (12,8) is OPEN. (10,6), (6,8) are CLOSED.
-- Turn 10432: (1,0,0) triggered. (2,6), (3,6) opened. (12,8) toggled from WALL to FLOOR.
+- Turn 10435: (1,1,0) state in progress.
+- Turn 10434: (1,0,0) verified. (2,6), (3,6), (2,7), (3,7) are OPEN. (12,8) is OPEN. (10,6), (6,8) are CLOSED.
+- Turn 10432: S3 toggled ON. (2,6/7), (3,6/7) and (12,8) opened.
 - Turn 10415: (0,0,1) verified visually. (16,6), (17,6) are OPEN. (10,6), (6,8) are CLOSED. (12,8) is OPEN.
 - Turn 10400: (0,0,0) verified visually. (10,6), (6,8), (16,6), (17,6) are CLOSED. (12,8) is OPEN.
 - Observation: Logic may be conditional (e.g., S1 toggles (12,8) only if S3 is ON). Systematic mapping from (0,0,0) will isolate primary effects.
