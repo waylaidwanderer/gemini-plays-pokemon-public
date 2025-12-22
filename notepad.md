@@ -421,3 +421,7 @@
 - **State:** NPC 7 should turn to face **UP**.
 - **Observation:** Checking if Gate `(10, 12)` becomes Walkable (Floor).
 - **Contingency:** If this fails, next hypothesis is **Rock Smash** on the boxes.
+- **Action:** Pressing A to talk to NPC 7 from `(7, 12)` facing Down.
+- **Goal:** Confirm if NPC 7 facing UP opens the gate.
+- **Observation:** If gate `(10, 12)` opens (turns to Floor) during/after dialogue.
+- **Contingency:** If this fails, will move to East Room to try Pushing boxes from the Inside (East).
