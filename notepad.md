@@ -4,14 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Selecting Kenya to Deposit).
-- **Reason:** Using "Move PKMN w/o Mail" to strip mail and deposit Kenya.
+- **Status:** Closing PC to remove Mail manually.
+- **Reason:** "MOVE PKMN W/O MAIL" option failed (gave generic message and returned to menu). Removing mail via Party Menu instead.
 - **Plan:**
-    1. Advance Text (A, A).
-    2. Select Kenya (Down x4).
-    3. Confirm Deposit (A).
-    4. Withdraw Togepi.
-    5. Exit and Fly.
+    1. Close PC (A, A, B, B).
+    2. Open Party Menu.
+    3. Select Kenya -> Options -> Remove Mail.
+    4. Re-open PC and Deposit Kenya.
+    5. Withdraw Togepi.
+    6. Exit and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
