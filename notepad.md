@@ -10,15 +10,14 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face RIGHT to open gates.
-- **Reasoning:** Haven't tested this direction yet. Requires being inside the pocket.
 - **Plan:**
-    1. **Unstun** NPC 5.
-    2. **Enter** Middle Pocket (10, 10) when he moves off (9, 10).
-    3. **Position** at (10, 11).
-    4. **Wait** for NPC 5 to reach (9, 11).
-    5. **Interact** (Face Left). He turns RIGHT.
-    6. **Lock** (Stun) and Verify.
-- **Status:** Unstunning and attempting to enter pocket.
+    1. **Enter:** Move Right x2 into Middle Pocket (10, 10).
+    2. **Position:** Move to (10, 11).
+    3. **Wait:** Wait for NPC 5 to reach (9, 11).
+    4. **Interact:** Face Left + A. He turns RIGHT.
+    5. **Lock:** Stun him.
+    6. **Verify:** Check if Top/Bottom gates open.
+- **Status:** Attempting to enter pocket while NPC 5 is at (9, 11).
 
 ## Status
 - Player moving to (8, 10).
