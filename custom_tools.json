@@ -110,41 +110,5 @@
         "action_counter": 9999
       }
     ]
-  },
-  "navigate_to_coords": {
-    "description": "Finds a path to a target coordinate and returns the button sequence to get there. AUTOMATICALLY PRESSES BUTTONS if autopress_buttons is true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import sys\nimport xml.etree.ElementTree as ET\nimport collections\nimport json\n\n# DEBUG: Attempt to locate inputs in various potential locations\ntry:\n    if 'target_x' in globals():\n        tx = int(target_x)\n        ty = int(target_y)\n    elif 'input_data' in globals() and isinstance(input_data, dict):\n        tx = int(input_data['target_x'])\n        ty = int(input_data['target_y'])\n    elif 'tool_args' in globals() and isinstance(tool_args, dict):\n        tx = int(tool_args['target_x'])\n        ty = int(tool_args['target_y'])\n    else:\n        # If we can't find them, we print the globals keys to help debug next time\n        # We return a valid JSON error message to the system\n        print(json.dumps([f\"Error: Inputs not found. Available globals: {list(globals().keys())}\"]))\n        sys.exit()\nexcept Exception as e:\n    print(json.dumps([f\"Error processing inputs: {e}\"]))\n    sys.exit()\n\n# Parse Map\ntry:\n    root = ET.fromstring(map_xml_string)\nexcept Exception as e:\n    print(json.dumps([f\"Error: Could not parse XML: {e}\"]))\n    sys.exit()\n\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\n# Build Grid and Find Player\ngrid = {} # (x,y) -> is_walkable\nstart_pos = None\n\n# Iterate rows to build grid\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        \n        # Check collision\n        t_type = tile.attrib.get('type', 'WALL')\n        # Standard walkable types\n        is_walkable = t_type not in ['WALL', 'WATER', 'unseen'] \n        \n        # Check for objects (NPCs block movement)\n        has_object = tile.attrib.get('has-object', 'false') == 'true'\n        has_player = tile.attrib.get('has-player', 'false') == 'true'\n        \n        if has_player:\n            start_pos = (x, y)\n            is_walkable = True\n        elif has_object:\n            is_walkable = False\n            \n        grid[(x,y)] = is_walkable\n\nif start_pos is None:\n    print(json.dumps([\"Error: Player not found on map\"]))\n    sys.exit()\n\n# BFS Pathfinding\nqueue = collections.deque([[start_pos]])\nvisited = {start_pos}\nfound_path = None\n\nwhile queue:\n    path = queue.popleft()\n    curr = path[-1]\n    \n    if curr == (tx, ty):\n        found_path = path\n        break\n    \n    cx, cy = curr\n    # Neighbors: Up, Down, Left, Right\n    neighbors = [\n        (cx, cy-1, 'Up'),\n        (cx, cy+1, 'Down'),\n        (cx-1, cy, 'Left'),\n        (cx+1, cy, 'Right')\n    ]\n    \n    for nx, ny, direction in neighbors:\n        if 0 <= nx < width and 0 <= ny < height:\n            if (nx, ny) not in visited and grid.get((nx, ny), False):\n                visited.add((nx, ny))\n                new_path = list(path)\n                new_path.append((nx, ny))\n                queue.append(new_path)\n\nif not found_path:\n    print(json.dumps([f\"Error: No path found from {start_pos} to {(tx, ty)}.\"]))\n    sys.exit()\n\n# Convert coordinates to button sequence\nbuttons = []\nfor i in range(len(found_path) - 1):\n    curr = found_path[i]\n    next_node = found_path[i+1]\n    dx = next_node[0] - curr[0]\n    dy = next_node[1] - curr[1]\n    \n    if dx == 1: buttons.append(\"Right\")\n    elif dx == -1: buttons.append(\"Left\")\n    elif dy == 1: buttons.append(\"Down\")\n    elif dy == -1: buttons.append(\"Up\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T03:42:20.433Z",
-        "action_counter": 11327
-      },
-      {
-        "commit_message": "Fixed variable injection issue and implemented robust BFS pathfinding.",
-        "timestamp": "2025-12-22T04:33:51.295Z",
-        "action_counter": 11395
-      },
-      {
-        "commit_message": "Debugged variable injection: Added checks for globals, input_data, and args to locate target_x/target_y.",
-        "timestamp": "2025-12-22T04:35:58.986Z",
-        "action_counter": 11397
-      }
-    ]
   }
 }
