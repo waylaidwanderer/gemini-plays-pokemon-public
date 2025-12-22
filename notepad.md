@@ -8,16 +8,18 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** NPC 7 needs to step on (8, 13). I was previously blocking him.
-- **Current Status:** Player at (8, 12). NPC 7 at (6, 13).
-- **Observation:** NPC 7's path has been (5,13) <-> (7,13). He hasn't touched (8,13) yet.
+- **Goal:** Solve Puzzle / Open Gates.
+- **Status:**
+    - Bottom Path: NPC 7 loops (5-7). Gates closed. Checked (7,13)/(8,13) for items (Failed).
+    - Top Path: NPC 6 is static at (4, 8). Machop at (7, 7).
+- **Hypothesis:**
+    1. **Interaction:** Maybe I need to talk to NPC 6 to trigger something.
+    2. **Machop:** Maybe the Machop can be moved?
+    3. **Itemfinder:** I haven't actually used the `Itemfinder` item yet, I just pressed A.
 - **Plan:**
-    1. **Wait:** Stay at (8, 12) (Do NOT block 8, 13).
-    2. **Watch:** See if NPC 7 extends patrol to (8, 13).
-    3. **Contingency:** If he turns back at (7, 13) again, then something *else* is blocking him (Hidden Item?).
-    4. **Action:** If blocked, use **Itemfinder**.
-- **Itemfinder Note:** I have the Itemfinder key item. It's the perfect tool to verify the "junk" hint.
+    1. **Navigate:** Go to (4, 7) (Around Machop via Row 6).
+    2. **Talk:** Interact with NPC 6.
+    3. **Search:** Use `Itemfinder` key item near the "junk" spots if dialogue fails.
 
 ## Status
 - Player at (9, 9).
