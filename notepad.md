@@ -33,3 +33,8 @@
 - **Observation:** The Super Nerd at (6, 9) in the Underground appears to be already defeated (or friendly), as he didn't trigger a battle on sight. This suggests I might have cleared this area before or he's a non-hostile NPC.
 - **Hypothesis Check:** If the "Uniform" quest isn't active, maybe I can just walk into the Radio Tower? But I couldn't reach the door. The Underground is the best lead for now.
 - **Discovery:** Pokefan M at (2, 10) threw his **Coin Case** in the **Underground**. I should go find it.
+## Tile Mechanics
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable.
+- **COUNTER:** Impassable, but interactable from adjacent tile if an NPC is behind it.
+- **LADDER:** Warp tile to another map.
