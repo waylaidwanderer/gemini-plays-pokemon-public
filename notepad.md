@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Exploring Goldenrod Underground. Moving North to scan for Coin Case.
+- **Status:** Exploring Goldenrod Underground. Checking North end (near ladder) for Coin Case.
 - **Plan:**
-    1. Navigate North to (4, 5).
-    2. Look for item balls on screen.
-    3. If no item ball found, check for hidden items (Itemfinder/A-mashing).
+    1. Check area near (3, 2) for item ball.
+    2. Sweep South through the tunnel, checking edges.
+    3. Use Itemfinder if no visible item is found.
 
 **Notes:**
 - Radio Tower entrance was elusive.
