@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya (Manual).
-- **Status:** Opening Kenya's Menu.
-- **Reason:** Previous attempt opened Garnet's menu and took Charcoal by mistake. Must ensure I navigate down to Kenya (Slot 5) before interacting.
+- **Status:** taking Mail from Kenya.
+- **Reason:** Accidentally opened Belladonna's menu. Correcting to Kenya (Up one slot).
 - **Plan:**
-    1. Open Start Menu (Start).
-    2. Select Pokemon (A).
-    3. Navigate to Kenya (Down x4).
-    4. Open Menu (A).
-    5. Check for MAIL option.
+    1. Close Belladonna's Menu (B).
+    2. Select Kenya (Up, A).
+    3. Select MAIL (Down x3, A).
+    4. Select TAKE MAIL (Down, A).
+    5. Exit and Deposit.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
