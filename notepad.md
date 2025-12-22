@@ -4,10 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Confront Rocket Grunt at (16, 23).
+- **Status:** Dialogue ending.
 - **Plan:**
-    1. Advance text with Rocket Grunt.
-    2. If battle ensues, defeat him.
-    3. If he blocks the path, re-evaluate strategy (likely need Uniform from Underground).
+    1. Close text (Press B).
+    2. If battle starts, fight.
+    3. If no battle and path blocked, try navigating North via the West path (X=9) again or return to Underground.
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
