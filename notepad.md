@@ -310,3 +310,10 @@
     5. Walk Right into `(10, 13)` to PUSH.
     6. Press A on `(10, 13)`.
 - **Goal:** Open path to South East.
+- **Test:** Tried Pushing Box `(10, 12)` with Strength. Failed (Movement Blocked).
+- **Hypothesis:** "Junk" boxes are not pushable boulders, or direction is blocked.
+- **New Strategy:** "Alternating Gates".
+- **Concept:** Top Gates are Open. Bottom Gates are Closed.
+- **Trigger:** NPC 6 (Top) says "I lose my passion if someone's watching."
+- **Prediction:** If I "Watch" NPC 6 (Stand at 5, 8 and Face Left), the Top Gates might CLOSE. If they close, the Bottom Gates might OPEN.
+- **Action:** Going to harass NPC 6.
