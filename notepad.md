@@ -3,14 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Flying to New Bark Town.
-- **Status:** Confirming Fly Destination.
-- **Reason:** Cursor is already on New Bark Town (verified by screen text). Pressing A to Fly.
+- **Navigation:** Walking to Elm's Lab.
+- **Status:** Navigating to Lab Entrance.
+- **Reason:** Arrived in New Bark Town. Heading to Elm's Lab to show him Togepi.
 - **Plan:**
-    1. Confirm Fly to New Bark Town (A).
-    2. Arrive in New Bark Town.
-    3. Enter Elm's Lab.
-    4. Talk to Elm to show Togepi.
+    1. Walk to Lab (6, 3).
+    2. Enter Lab.
+    3. Talk to Elm.
+    4. Receive Everstone.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
