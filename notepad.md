@@ -4,11 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Goldenrod City (North). Interacting with Rocket Grunt at (31, 10).
+- **Status:** In Battle with Rocket Grunt (Goldenrod City North).
 - **Plan:**
-    1. Talk/Battle Rocket Grunt at (31, 10).
-    2. If no uniform, check the Radio Tower entrance area (Northwest).
-    3. Re-evaluate if the Uniform is in the Underground (maybe I missed someone).
+    1. Defeat Rocket Grunt.
+    2. Check if he gives the Uniform or info.
+    3. If not, check the Radio Tower entrance area (Northwest).
+    4. Re-evaluate if the Uniform is in the Underground.
 
 **Notes:**
 - Radio Tower entrance was elusive.
