@@ -60,3 +60,7 @@
 - **Last Resort:** Attempt to PUSH Box `(6, 8)` DOWN.
 - **Reason:** I was distracted by Itemfinder before executing this push. If this fails, I am aborting the B1F puzzle entirely.
 - **Exit Strategy:** Elevator to 1F -> Exit Dept Store -> Check Radio Tower.
+- **Action:** Retrying Box Push at `(6, 8)` from the West `(5, 8)`.
+- **Reason:** Previous attempt failed due to navigation error (I was at `6, 7`).
+- **Logic:** If this is the "Junk" I can take, maybe I can push it aside.
+- **Next:** If this is a WALL, I am leaving to the Underground.
