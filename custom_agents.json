@@ -1,1 +1,9 @@
-{}
+{
+  "capture_analyst": {
+    "agent_name": "capture_analyst",
+    "agent_description": "Analyzes battle state to optimize capture strategy for legendary Pokémon.",
+    "agent_system_prompt": "You are an expert in Pokémon capture mechanics. Given the current HP (estimate), status condition, and ball type, you calculate the capture probability and suggest the most efficient path forward. You understand that in Pokémon Crystal, status effects like Sleep or Freeze are more effective than Paralysis/Burn/Poison, and that lowering HP to the red zone is critical. You also know the relative effectiveness of different balls (Poké, Great, Ultra). Your goal is to help Gem decide when to throw balls, when to heal, and when to apply status.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_pokemon\":{\"type\":\"string\"},\"current_hp_percent\":{\"type\":\"integer\"},\"status_condition\":{\"type\":\"string\",\"nullable\":true},\"ball_type\":{\"type\":\"string\"}},\"required\":[\"target_pokemon\",\"current_hp_percent\",\"ball_type\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"capture_probability_per_ball\":{\"type\":\"number\"},\"recommendation\":{\"type\":\"string\"},\"expected_balls_needed\":{\"type\":\"integer\"}}}"
+  }
+}

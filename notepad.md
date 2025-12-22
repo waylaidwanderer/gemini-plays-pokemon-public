@@ -28,29 +28,14 @@
 - Sage MASA: Noctowl Lv32 (Fainted), Jolteon Lv32 (Fainted).
 - Sage KOJI: Noctowl Lv32 (Fainted), Vaporeon Lv32 (Fainted).
 
-# PC Storage (Box 1)
-1. ROCKY (ONIX): Lv6 (M)
-2. EGG (CLEFFA): Lv5 (F)
-3. XFDW (MEOWTH): Lv16 (M)
-4. FRITTATA (TOGEPI): Lv5 (M)
-5. SHUCKIE (SHUCKLE): Lv15 (F)
+# Suicune Capture Strategy (The "How")
+- Goal: Capture Suicune (Lv 40, Water).
+- Status: HP in RED zone, Accuracy at -6 (minimum).
+- Method: Persist with Great Balls (48 remaining).
+- Contingency: Heal Calcifer (Typhlosion Lv 45) with LEMONADE if HP < 50%.
+- Lead: Calcifer (Typhlosion) is the only viable Pokémon for this battle.
+- Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
 
-# Findings
-- Goldenrod Dept Store 5F: Receptionist (7, 5) gives TM27 (Return) if friendship is high.
-- Clerk (8, 5) sells TMs.
-- Goldenrod Dept Store 4F: Clerk (13, 5) sells Vitamins.
-- Goldenrod Dept Store 3F: Clerk (6, 1) sells battle items.
-- Goldenrod Dept Store 2F Clerk (13, 5): Healing items.
-- Goldenrod Dept Store 2F Clerk (13, 6): Basic supplies.
-
-# Suicune Battle Strategy
-- Suicune Lv 40.
-- KIMCHI (Gloom Lv 21) fainted at Turn #11641.
-- Observed Moves: Gust, Leer, Rain Dance, Bubblebeam.
-- Strategy:
-    1. Switch to Calcifer (Typhlosion).
-    2. Weaken Suicune carefully (Completed).
-    3. Maximize accuracy reduction with Smokescreen (Completed).
-    4. Throw Great Balls until caught.
-    5. Heal Typhlosion with LEMONADE if HP falls below 50%.
-- Capture Marathon Started: Turn #11666.
+# Capture Marathon Log
+- Started: Turn #11666.
+- Status: Suicune is at minimum accuracy (-6) and critical HP (RED). Strategy is to maximize ball throughput while maintaining Typhlosion's HP.
