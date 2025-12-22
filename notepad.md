@@ -2,8 +2,8 @@
 - Attempt 1: Failed (Turn #11814). Whited out.
 - Status: Party fully healed. Suicune reset to full HP (if present).
 - Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. If Suicune is asleep, throw Great Balls. Use Smokescreen (Typhlosion) as backup to tank hits.
-- Task: Restock and Prepare. (Start Turn: #11815)
-- Plan: Check Directory at (14, 0) on 5F to see if Revives are sold. If not, Fly to Ecruteak City and check Tin Tower 1F for Suicune.
+- Task: Restock and Prepare. (Start Turn: #11815, 4:00 AM)
+- Plan: Check Directory at (14, 0) on 6F to see if Revives are sold. If not, Fly to Ecruteak City and check Tin Tower 1F for Suicune.
 
 # Strategy for Suicune Rematch
 1. Lead with KIMCHI.
