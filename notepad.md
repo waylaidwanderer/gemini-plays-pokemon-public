@@ -3,28 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Walking to Cherrygrove City.
-- **Status:** In Battle (Wild Hoothoot). Running.
-- **Reason:** Encoutnered Wild Hoothoot. Navigation blocked.
+- **Navigation:** Navigate to Cut Tree (30, 9) on Route 29 -> Cherrygrove City.
+- **Status:** Navigating Route 29.
 - **Plan:**
-    1. Run from battle (Press A, cursor is on RUN).
-    2. **Use SUPER REPEL** to avoid further interruptions.
-    3. Traverse Route 29 West to Cherrygrove.
-    4. Fly to Goldenrod from Cherrygrove.
+    1. Go to Cut Tree at (30, 9) and use Cut.
+    2. Travel West to Cherrygrove City.
+    3. Fly to Goldenrod City from Cherrygrove.
 
-# Reflection (Turn 11689)
-- **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
-- **Lesson:** Verify Fly destination text BEFORE pressing A. Do not batch navigation and confirmation in one turn.
-- **Hygiene:** Map markers for PC types (Storage vs Research) helped avoid confusion at Elm's Lab.
-- **Strategy:** Pivot to step-by-step Fly navigation.
-
-## Current Strategy
-- **Primary Goal:** Stop Team Rocket.
-- **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Flying to Goldenrod City.
-- **Status:** Hard Reset (Syncing State).
-- **Reason:** Screen Text ("Fly Map Open") contradicts Screen Image (Overworld). Suspect text is stale/stuck. Forcing a full menu closure to resync bot state with game state.
-- **Plan:**
-    1. Press B x4 to close all potential menus.
-    2. Verify Overworld (No text).
-    3. Next Turn: Open Menu and Fly (Start -> Pokemon -> Mistral -> Fly).
+## Reflections & Lessons
+- **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
+- **Map Markers:** Distinguish PC types (Storage vs Research) to avoid confusion.
+- **Menu Hygiene:** Ensure menus are fully closed to avoid state desync.
