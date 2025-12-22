@@ -219,3 +219,7 @@
 - **Goal:** Determine if manipulating NPC 6 affects the gates.
 - **Current State:** NPC 6 is at (4, 8) facing DOWN.
 - **Test:** Talk to him from the RIGHT (make him face RIGHT). Check Gates.
+- **Action:** Interacting with NPC 6 (4, 8) from the Right (5, 8).
+- **Test:** Forces NPC 6 to face **Right**.
+- **Goal:** Check if this changes the Gate state (Top or Bottom).
+- **Hypothesis:** NPC facing direction acts as a switch.
