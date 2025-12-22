@@ -1,7 +1,6 @@
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- SHUTTER: Dynamic collision.
 - Switch: Background object. Interact from adjacent tile.
 - LADDER: Warp tile. Traversable.
 - WARP_CARPET_DOWN: Warp tile.
@@ -9,24 +8,19 @@
 # Underground Warehouse Puzzle (Map 3_54)
 - Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
 - Emergency Switch (20, 11): ON.
-- Result: Opened access to the Warehouse entrance.
 
 # Current Strategy: Rescue Director
-- Search Started: Turn 10940.
-- Current Location: Underground Warehouse (Map 3_56).
-- Step 1: Defeat Rocket Grunt at (8, 13). (Current Battle).
-- Step 2: Explore the Warehouse to find the real Director.
-- Step 3: Defeat Rocket Grunt at (9, 8).
-- Step 4: Locate the Director and obtain the Card Key.
+- Search Started: Turn 11000.
+- Plan: Navigate south through the gap at (6, 12-13) and then loop around Column 8 via Row 12 to reach the eastern side (x > 8).
+- Tactical: Lead with Gneiss (Lv40) against Poison/Fire types; switch to Calcifer (Lv44) for Grass types.
 
 # Warehouse Observations (Map 3_56)
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
 - Internal Walls: Column 5 blocks passage from Row 4-15 (Gaps at Row 1-3).
 - Internal Walls: Column 8 blocks passage from Row 1-11 (Gaps at Row 12-15).
-- Rocket Grunt 1: (9, 8) (Facing UP).
-- Rocket Grunt 2: (8, 13) (Battling).
-- Gentleman: (12, 8) (Facing RIGHT).
-- Item: (13, 9) (POKE_BALL).
+- Rocket Grunt 1: (9, 8).
+- Gentleman: (12, 8).
+- Item Ball: (13, 9).
 
 # Training & Party
 - GNEISS (Lv40 Graveler): STRENGTH, MAGNITUDE, ROLLOUT.
