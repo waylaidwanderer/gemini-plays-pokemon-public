@@ -3,16 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Flying to Goldenrod City.
-- **Status:** Fly Failed - Restarting from New Bark Town.
-- **Reason:** Map navigation inputs were ignored (likely timing), causing Fly to select the default location (New Bark).
+- **Navigation:** Walking to Cherrygrove City.
+- **Status:** Closing Menus & Resetting.
+- **Reason:** Fly Map inputs are consistently failing/hallucinating. Strategy pivot: Abandon Fly for now. Walk to Cherrygrove manually to ensure progress and reset game state.
 - **Plan:**
-    1. Open Start Menu (Start).
-    2. Enter Pokemon (A).
-    3. Select Mistral (Slot 4) -> Fly.
-    4. **WAIT** one full turn for Map to load.
-    5. Navigate **ONE** step at a time (Left -> Verify Cherrygrove -> Up -> Verify Violet...).
-    6. Fly to Goldenrod.
+    1. Close all menus (B x4).
+    2. Verify Overworld.
+    3. Walk West to Route 29.
+    4. Walk West to Cherrygrove City.
+    5. Re-evaluate Fly from Cherrygrove.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
