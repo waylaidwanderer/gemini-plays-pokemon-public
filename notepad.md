@@ -10,21 +10,18 @@
 - Hint: "the switch on the end is the one to press first." (S3 or S1).
 - Target Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
 
-# Shutter Logic (Hypothesis)
+# Shutter Logic (Verified from 10832 report & navigation)
 - Baseline (OFF, OFF, OFF): (12,8) OPEN. All others CLOSED.
-- S3 (2,1) toggles: (2,6), (3,6)
+- S3 (2,1) toggles: (2,6), (3,6), (2,7), (3,7)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
-# Attempt 5 Log (Current Strategy)
-- S3 (2,1): ON (Turn 10907).
-- S2 (10,1): ON (Turn 10914).
-- S1 (16,1): ON (In progress).
-- Goal: All shutters OPEN.
-- Next: Navigate to Warehouse entrance at (12, 13).
+# Attempt 5 Log (Completed)
+- S3 (2,1): ON (Turn 10907). Verified (2,6), (3,6), (2,7), (3,7) OPEN.
+- S2 (10,1): ON (Turn 10914). Verified (10,6), (6,8) OPEN, (12,8) CLOSED.
+- S1 (16,1): ON (Turn 10925).
+- Result: Sequence 3-2-1 complete. All shutters should be OPEN.
 
-# Lessons Learned
-- Toggling S1 and S2 both affects shutter (12, 8). If both are ON, it returns to OPEN.
-- Always verify switch state via text before concluding a step.
-- Trust the report tool for state verification but walk to tiles to update Mental Map.
-- (2, 7) and (3, 7) are permanent WALL tiles, not shutters.
+# Current Strategy: Enter Warehouse
+1. Verify all shutters are OPEN (In progress).
+2. Navigate to Warehouse entrance at (12, 13).
