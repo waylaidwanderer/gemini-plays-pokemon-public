@@ -1,12 +1,10 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Confirmed on Route 42 (Turn #12504).
-- Method: Pacing (Grass Dance) in Route 42 grass patch (approx. 46, 12).
-- Strategy: Repel Trick. Lead with KIMCHI (Gloom Lv 21) which is > local wild levels (Lv 13-16) but < Suicune (Lv 40).
-- Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
-- Active Status: None. Repel wore off at Turn #12468. Need to apply before pacing.
-- Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, phone call, or suspected location change.
+- Status: Roaming. Confirmed on Route 42 (Turn #12516).
+- Strategy: Repel Trick (Lead Lv 21 vs Wild Lv 13-16).
+- Method: Pacing (Grass Dance) in Route 42 grass patch at (46, 12).
+- Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
+- Tracking: Start Turn #12516. Navigating to grass patch.
 - Tool Usage: `grass_dance_tool` for pacing. **Avoid SWEET SCENT**.
-- Tracking: Start Turn #12504. Navigate to grass patch.
 
 ## Roaming Pokémon Reference
 - Tracking: Do NOT use Fly to chase (randomizes location). Walk across map boundaries (gatehouses/warp carpets) to shift position predictably.
