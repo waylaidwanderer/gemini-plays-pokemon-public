@@ -27,10 +27,9 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Mistake Log:**
-  - Turn 11324: Pressed 'A' on "Change Pokémon?" prompt (default YES), accidentally opening party menu. **Lesson:** Always press 'B' or 'Down'+'A' to decline switching.
-- **Status:** Battling Super Nerd Teru in Goldenrod Underground (South).
-- **Goal:** Defeat him.
-- **Current Opponent:** Magnemite (3rd Pokemon).
-- **Action:** Cancel party menu (pressed by mistake), then fight.
-- **Next Target:** Super Nerd at (7, 14).
+- **Status:** Defeated Super Nerd Teru in Goldenrod Underground (South).
+- **Goal:** Obtain Team Rocket Uniform.
+- **Immediate Task:** Talk to Teru again to check for post-battle dialogue/uniform.
+- **Next Target:** Super Nerd at (7, 14) if Teru yields nothing.
+- **Lore Note:** In Crystal, the uniform is usually given by a Rocket Grunt in this tunnel. Teru might just be a trainer.
+- **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
