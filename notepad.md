@@ -190,3 +190,6 @@
 - **Action:** Moving to Safe Zone at `(11, 10)` (Central Cage).
 - **Plan:** Wait there for NPC 5 to move North, triggering the gate switch.
 - **Goal:** Exit South through Bottom Gates.
+- **Action:** Moving to `(11, 11)` (South Safe Zone).
+- **Goal:** Be adjacent to Bottom Gate `(11, 12)` when it opens.
+- **Timing:** NPC 5 is at `(9, 10)` moving North. I expect gates to switch when he hits `(9, 9)`.
