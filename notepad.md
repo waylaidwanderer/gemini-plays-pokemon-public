@@ -17,3 +17,4 @@
 ## Tile Mechanics
 - **ICE:** Slide until WALL/OBJECT/FLOOR.
 - **FLOOR:** Safe to walk/stop.
+- **Items to Deposit:** GUARD SPEC., X ATTACK, X SPECIAL, PROTEIN, MIRACLE SEED, EVERSTONE.
