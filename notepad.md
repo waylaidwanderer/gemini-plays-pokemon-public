@@ -367,3 +367,7 @@
 - **Action:** Pressed Down + A to interact from `(6, 12)`.
 - **Goal:** Force NPC 7 to face UP.
 - **Verification:** Checking Gate `(10, 12)` in next turn.
+- **Action:** Stunning NPC 7 at `(7, 13)` to fix his position.
+- **Action:** Moving to `(7, 12)`.
+- **Next Turn:** Unstun and Talk (Down) to force Face UP.
+- **Hypothesis:** NPC 7 Facing UP -> Gate `(10, 12)` Opens.
