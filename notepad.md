@@ -3,6 +3,8 @@
 - Status: KIMCHI (Gloom) leading. 5 Revives in inventory.
 - Lesson: Always verify Map ID before assuming floor transitions in multi-floor buildings to avoid time loops.
 - Rematch Start: Turn #11972.
+- Current Position: (5, 8) in Tin Tower 1F.
+- WARP_CARPET_DOWN: Warp tile. Moving Down on this tile triggers a map transition. (Verified: Tin Tower 1F 9,15)
 
 # Strategy for Suicune Rematch
 1. Lead with KIMCHI (Gloom).
