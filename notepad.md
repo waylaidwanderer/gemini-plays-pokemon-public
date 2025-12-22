@@ -8,19 +8,21 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Gates/Boxes.
-- **Current Hypothesis:** NPC 6 (Static at 4,8) controls the boxes/gates based on Facing Direction.
-    - NPC 5 (Moving) reverts facing immediately, making him a poor switch candidate.
-    - NPC 6 is static, so his facing should persist.
+- **Goal:** Open Gates/Boxes to reach East side.
+- **Hypothesis:** NPC 6 (Static at 4,8) controls gates via Facing Direction.
+    - **Note:** NPC 6 cannot face LEFT (Wall at 3,8).
+    - **Test 1:** Make NPC 6 Face RIGHT (Look at boxes).
+    - **Test 2:** Make NPC 6 Face DOWN (Look away?).
+    - **Test 3:** Make NPC 6 Face UP (Look away?).
 - **Status:**
-    - Player moving to (3, 8) to flank NPC 6.
-    - NPC 5 Stunned at (9, 9) (Facing Up).
+    - Player moving to (5, 8).
+    - NPC 6 at (4, 8).
+    - NPC 5 Stunned at (9, 11) Facing Down.
 - **Plan:**
-    1.  **Move:** Go to (3, 8) via the bottom corridor (Row 12).
-    2.  **Interact:** Talk to NPC 6 from the Left to make him Face Left.
-    3.  **Verify:** Check if this opens the boxes at Row 8/9 or Gates at Row 10/11.
-- **Discarded:**
-    - NPC 5 Manipulation (Unreliable due to auto-revert).
+    1. **Move:** Go to (5, 8).
+    2. **Interact:** Talk to NPC 6. He will Face RIGHT.
+    3. **Verify:** Check if boxes at Row 8/9 open.
+    4. **Iterate:** If not, try facing Down (talk from 4,9) or Up (talk from 4,7).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
