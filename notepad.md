@@ -4,7 +4,6 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Super Repel active (Turn #12893). 6 left.
 - Task Timestamp: Grass Dance task started Turn #12861.
-- Current Status: Pacing for encounter. Suicune confirmed on Route 38 (Turn #12860).
 
 # Roaming Pokémon Reference
 - Tracking: Use Pokédex AREA map. Access: Pokedex -> Entry -> AREA.
