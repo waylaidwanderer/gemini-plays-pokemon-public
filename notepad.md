@@ -25,3 +25,4 @@
 - **ICE:** Sliding tiles (Mahogany Gym).
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
+- **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
