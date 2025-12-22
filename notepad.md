@@ -10,7 +10,7 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000. Current Turn: 11017.
+- Warehouse Search Start: Turn 11000. Current Turn: 11021.
 - Method: Clear the western corridor (Col 1-4), loop through Row 1-3 to Col 6-7 corridor.
 - Method: Navigate south to (6, 12-13), then east through the gap at (8, 12-15) to access the central warehouse floor.
 - Method: Systematically engage all Rocket personnel to clear the path to the real Director.
