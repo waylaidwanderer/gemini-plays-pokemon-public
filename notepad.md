@@ -45,5 +45,5 @@
 - **Turn 4 Plan:** Stay in vs Piloswine. Use Cross Chop.
 - **Battle Status:** Muscle (122/157, -1 Speed) vs Piloswine (Fresh).
 - **Turn 4 Summary:** Accidental Dig (Cursor memory). Muscle dug, Piloswine missed. Muscle surfaced and hit (Dig). Piloswine hit with Fury Attack.
-- **Turn 5 Plan:** Currently in Pack (accidental entry). Exit Pack, then use Cross Chop.
+- **Turn 5 Plan:** Use Cross Chop on Piloswine. (Correcting cursor from Dig[3] to Cross Chop[4]).
 - **Battle Status:** Muscle (113/157, -1 Speed) vs Piloswine (~60% HP).
