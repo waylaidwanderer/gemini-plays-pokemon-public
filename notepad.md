@@ -105,4 +105,4 @@
     2. Survive another Gust (expected damage ~49).
     3. Use Sleep Powder (75% accuracy).
     4. Once asleep, switch to a stronger Pokémon to safely lower HP, or start throwing balls.
-- Status: KIMCHI at 8/57 HP. Just hit by Gust. Turn #11617.
+- Status: KIMCHI at 57/57 HP. Ready to use Sleep Powder. Turn #11624.
