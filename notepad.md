@@ -3,16 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Swapping Kenya for Togepi.
-- **Status:** Withdrawing Togepi.
-- **Reason:** Kenya is deposited (Box 1, Slot 16). Now withdrawing Togepi (Box 1, Slot 11).
+- **Navigation:** Exiting Goldenrod PokeCenter.
+- **Status:** Walking to Exit.
+- **Reason:** Togepi withdrawn. Heading to New Bark Town via Fly to show it to Professor Elm.
 - **Plan:**
-    1. Exit Deposit Menu (B).
-    2. Select Withdraw (Up, A).
-    3. Navigate to Togepi (Down x10).
-    4. Withdraw Togepi (A, A, A).
-    5. Exit PC (B x4).
-    6. Fly to New Bark Town.
+    1. Navigate to exit mat (4, 7).
+    2. Exit to Goldenrod City.
+    3. Use Fly to New Bark Town.
+    4. Enter Elm's Lab.
+    5. Talk to Elm.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
