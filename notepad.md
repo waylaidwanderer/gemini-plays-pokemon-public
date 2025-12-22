@@ -17,12 +17,11 @@
 - Note: (17,6) is labeled WALL in XML. Verification required to see if it ever toggles.
 
 ## Verified Shutter States (S3, S2, S1)
-- (0,0,0): (2,6/7) CLOSED, (3,6/7) CLOSED. (Verified Turn 10398).
-- (1,0,0): (2,6/7) OPEN, (3,6/7) OPEN. (Deduced from S3 toggle).
+- (0,0,0): (2,6), (3,6), (10,6), (16,6), (6,8), (12,8) are all CLOSED (WALL). (Verified Turn 10400).
 - Toggle Log:
-  - S3 (2,1) toggles (2,6), (2,7), (3,6), (3,7). (Confirmed Turn 10397)
-  - S1 (16,1) toggles (12,8), (12,9). (Confirmed Turn 10388)
-- Current Status: S1 OFF, S2 OFF, S3 ON. Moving to S3 to finish reset.
+  - S3 (2,1) toggles (2,6), (2,7), (3,6), (3,7).
+  - S1 (16,1) toggles (12,8), (12,9).
+- Current Status: All switches OFF. Moving to S1 (16,1) to begin systematic mapping.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
