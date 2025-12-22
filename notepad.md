@@ -3,7 +3,7 @@
 - Confirmed Boxes are static WALLs.
 
 # Milestone
-- Muscle reached Level 50!
+- Muscle reached Level 51!
 
 ## Important Locations (Goldenrod)
 - **Radio Tower:** North.
@@ -16,6 +16,6 @@
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 4F.
 - **Goal:** Reach Director on 5F.
-- **Status:** Arrived on 4F. Navigating around central wall.
-- **Layout:** Room divided West/East. Stairs to 5F likely on East side.
-- **Plan:** Navigate South to find path to East side. Defeat Rockets.
+- **Status:** Defeated Rocket Grunt at (7, 6). Clearing post-battle text.
+- **Layout:** Room divided West/East. Stairs to 5F likely on East side at (12, 0).
+- **Plan:** Move East along the bottom row, bypassing the Teacher/Growlithe, to reach the stairs.
