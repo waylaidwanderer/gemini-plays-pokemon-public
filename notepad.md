@@ -6,8 +6,10 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** On Fly Map.
-- **Navigation:** Flying to Goldenrod City. Next: Go to Radio Tower.
+- **Status:** In Goldenrod City (Fly arrival).
+- **Navigation:** Heading North-West to the Radio Tower.
+- **Reflection:** Fly map navigation jumps between nodes; Up/Down can be more reliable than Left/Right depending on the city list order.
+- **Plan:** Walk North to find the Radio Tower (likely in the NW area).
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
