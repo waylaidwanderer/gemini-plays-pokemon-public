@@ -14,7 +14,7 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Goldenrod City Pokémon Center.
+- **Location:** Goldenrod Underground (Switch Room Entrances).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Healed Party. Ready to proceed.
-- **Plan:** Exit PokeCenter, navigate to the Underground Entrance (North Goldenrod), enter Underground, and unlock the Warehouse with the Basement Key.
+- **Status:** Entered Underground.
+- **Plan:** Descend ladder at (21, 25) to the main Underground tunnel, then search for the locked Warehouse door.
