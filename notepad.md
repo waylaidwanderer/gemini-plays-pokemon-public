@@ -22,14 +22,14 @@
 
 ## Action Log & Reflection
 - **Status:** Exiting Team Rocket Hideout.
-- **Event:** Caught Koffing (Brimstone) at (4, 11). Sent to PC.
-- **Current Location:** B1F (4, 11).
-- **Next Steps:**
-    1. Move off the trap line (x=4) to x=3 or x=5.
-    2. Retrieve Item Ball at (27, 6).
-    3. Exit to Mahogany Mart via Ladder at (27, 2).
-    4. Heal at Pokemon Center.
-    5. Challenge Pryce at Mahogany Gym.
+- **Trap Analysis:** Traps confirmed on cols 3, 4, and 5. Safest path appears to be hugging the wall at x=1 or x=2.
+- **Current Task:** Retrieve Item Ball at (27, 6) before leaving.
+- **Plan:**
+    1. Navigate North using Col 1 (avoiding traps and Grunt at 2,4).
+    2. Cross to Row 3, then use Gap at (9, 4) to access Row 5.
+    3. Navigate around barrier at (24, 5) to reach Item at (27, 6).
+    4. Backtrack through Gap to reach Exit Ladder at (27, 2).
+    5. Heal and challenge Gym.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
