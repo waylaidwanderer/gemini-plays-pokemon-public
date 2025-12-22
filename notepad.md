@@ -39,3 +39,17 @@
 - Mental Map XML Errors: The Mental Map XML may occasionally misidentify decorative tiles as warps (e.g., Tin Tower 1F (10, 2)). Always verify with Game State Information and manual investigation.
 - Observation (Turn #12156): Pokédex AREA map for Suicune shows multiple red dots at (13, 9), (15, 10), (16, 11), (10, 11), and (8, 13). The map header is "SUICUNE'S NEST".
 - Plan: Navigate to Route 37, use the route-hopping trick (moving between Ecruteak City and Route 37) while checking the Pokédex AREA map to find Suicune. Once Suicune is on Route 37, lead with KIMCHI (Gloom), use a Repel to filter out weak wild Pokémon, and encounter Suicune in the grass. Use Sleep Powder immediately upon encounter.
+
+# Tile Mechanics (Verified)
+- FLOOR: Reachable. Standard movement.
+- WALL: Impassable.
+- DOOR: Reachable. Triggers map warp.
+- HEADBUTT_TREE: Impassable. Requires Headbutt to interact, Cut to remove (if small tree).
+- WATER: Impassable. Requires Surf.
+- LEDGE_HOP_DOWN/RIGHT: One-way movement. Can jump over from the ledge side.
+- WARP_CARPET: Reachable. Triggers map warp at map edges.
+
+# Suicune Hunt Log
+- Hunt started: Turn #12156.
+- Method: Route-hopping between Ecruteak City and Route 37.
+- Status: Tracking via Pokédex.
