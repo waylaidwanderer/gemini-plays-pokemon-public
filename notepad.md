@@ -4,14 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Fly Map (at Cianwood City).
-- **Reason:** Previous inputs unexpectedly landed on Cianwood. Adjusting course to Goldenrod.
+- **Status:** In Fly Map (at Olivine City).
+- **Reason:** Previous sequence (Right, Right, Down) only moved one step (Cianwood -> Olivine). Increasing delay to ensure inputs register.
 - **Plan:**
-    1. Press Right (Target: Olivine).
-    2. Press Right (Target: Ecruteak).
-    3. Press Down (Target: Goldenrod).
-    4. Verify destination text.
-    5. Press A to Fly.
+    1. Press Right (Target: Ecruteak).
+    2. Press Down (Target: Goldenrod).
+    3. Verify destination text.
+    4. Press A to Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
