@@ -4,14 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Preparing for Radio Tower.
-- **Status:** Depositing Togepi.
-- **Reason:** Swapping Togepi for Gyarados. Currently at PC Main Menu. Togepi is in Party Slot 6.
+- **Status:** Withdrawing Gyarados.
+- **Reason:** Togepi deposited. Now withdrawing Gyarados (QAAGMAQNJW) from Box 1, Slot 2.
 - **Plan:**
-    1. Select DEPOSIT (Down, A).
-    2. Select Togepi (Down x5, A).
-    3. Confirm Deposit (A).
-    4. Exit Deposit Menu (B).
-    5. Next Turn: Withdraw Gyarados (Box 1, Slot 2).
+    1. Select WITHDRAW PKMN (Up, A).
+    2. Select Gyarados (Down, A).
+    3. Select WITHDRAW (A).
+    4. Clear Text (A).
+    5. Exit PC (B, B, B).
+    6. Fly to Goldenrod City.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
