@@ -39,3 +39,9 @@
 4. Cursor starts on PAGE. Press Right to select AREA.
 5. Press A to view map.
 6. Press B multiple times to exit.
+
+# Encounter Tracking (Route 38)
+- Current Repel: Applied Turn #13035.
+- Steps Taken on current Repel: 100.
+- Encounter Goal: Suicune.
+- Status: No encounter yet. Suicune confirmed here Turn #12992.
