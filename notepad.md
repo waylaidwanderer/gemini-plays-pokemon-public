@@ -4,15 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** Navigating to Party Menu from Bag.
-- **Reason:** Accidentally opened Bag. Exiting Bag and moving cursor Up to Pokemon.
+- **Status:** Selecting Kenya in Party Menu.
+- **Reason:** Party menu cursor remembered previous position (Kenya), causing my blind "Down x4" to loop back to Garnet.
 - **Plan:**
-    1. Close Sub-menu (B).
-    2. Close Bag (B).
-    3. Select Pokemon (Up).
-    4. Enter Party (A).
-    5. Select Kenya (Down x4, A).
-    6. Take Mail.
+    1. Close Garnet's menu (B).
+    2. Navigate down to Kenya (Down x3).
+    3. Open Kenya's menu (A).
+    4. Select "MAIL" or "TAKE MAIL".
+    5. Deposit Kenya.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
