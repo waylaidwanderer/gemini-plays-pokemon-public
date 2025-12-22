@@ -1,148 +1,21 @@
-# Gem's Journey in Pokémon Crystal
+# Dept Store Basement Strategy
 
-## Current Strategy
-- **Primary Goal:** Stop Team Rocket.
-- **Secondary Goal:** Find Team Rocket Uniform.
-- **Tertiary Goal:** Solve Dept Store Basement Puzzle.
-- **Navigation:** Interact with Machop (7,7), then navigate to South end (Row 13) to access the East side.
-
-## Tile Mechanics
-- **FLOOR:** Standard walkable tile.
-- **WALL:** Impassable collision.
-- **COUNTER:** Impassable, interactable from adjacent tile.
-- **LADDER:** Warp to another map/floor.
-- **WARP CARPET:** Transition to adjacent map (usually at edges).
-- **BOXES:** Dynamic wall tiles in the basement; likely moved by NPCs.
-
-## Key Information
-- **Radio Tower:** Entrance at (33, 9) in Goldenrod. Blocked by a Rocket Grunt who demands a Uniform.
-- **Underground:** 
-    - "No Entry" door at (18, 6) requires a key or switch.
-    - Super Nerd at (19, 27) warned of rough battles.
-- **Dept Store Basement:**
-    - Black Belt at (4, 8) says: "won't work if someone's watching. Come on, kid, scoot!"
-    - Machops and moving boxes present.
-    - Items and a Ladder visible on the right side.
-
-## Active Quests/Leads
-- **Uniform:** Needed to enter Radio Tower. Likely in the Underground or with a specific NPC.
-- **Basement Puzzle Strategy:**
-    - **Goal:** Reach the items/ladder in the East/North-East section.
-    - **Mechanic:** Boxes move dynamically (observed once). NPCs say they "work behind the scenes" and "won't work if watched".
-    - **Current Test:** Using the elevator to leave (go to 1F) and return (B1F) to see if the layout resets or changes to a favorable state.
-    - **Backup Plan:** If elevator reset fails, try interacting with all NPCs again or look for a switch elsewhere.
-## Reflections (Turn 12156)
-- **Execution:** Good. No deferred tasks.
-- **Hygiene:** Notepad cleaned. Markers updated.
-- **Goals:** Clear.
-- **Puzzle:** The basement has moving crates. Machops might move them. Talking to the Machoke at (7,7) didn't seem to move the crates immediately adjacent to it. I need to investigate further.
-- **Hypothesis:** Black Belts might control the Machops or give instructions.
-- Observation: Dept Store B1F contains Machops and crates. Looks like a warehouse area.
-- Hypothesis: The ladder at (17, 2) might lead to the restricted section of the Underground (behind the locked door).
-- Navigation: To reach the east side (Ladder), I must pass through the gap in the central wall at (12, 8).
-- Observation: Boxes in the basement are moving (FLOOR <-> WALL changes detected). This is a dynamic puzzle involving the Machops.
-- Observation: Black Belt at (9, 10) is moving up and down. I need to get closer to talk to him.
-- Plan: Interact with Machop at (7, 7) to see if it moves boxes. Then, if needed, take the long route via the bottom-right (13, 14) and top-left (1, 1) to reach the ladder.
-- Observation: Boxes are moving dynamically, triggering map updates.
-- Observation: Black Belt at (9, 9) is pacing UP/DOWN into (9, 8).
-- Strategy: Stand at (9, 8) to block the Black Belt and talk to him.
-- Dialogue: Black Belt at (5, 13) says "Oohah! Oohah!". Possibly lifting boxes?
-- Plan: Explore the southern corridor (Row 13/14) to find a path to the East side. The mental map indicates a possible path through Rows 14-16.
-- Tool Idea: Define `operate_elevator` if multiple resets are needed.
-- Note: Current interaction with elevator seems sticky (input didn't register?). Retrying 'A'.
-- Status: Arrived at B1F. Menu still open.
-- Action: Pressing 'B' to close menu, then exiting to inspect B1F layout.
-- Next Step: If puzzle is reset, solve it. If not, plan new test.
-- Hypothesis: Walking down the central aisle (Col 9) triggers the Black Belt to block the path ("Won't work if someone's watching").
-- Plan: Avoid Col 9. Move Left to Col 7/8 immediately after exiting elevator to check box status without being seen.
-- Observation: Tiles (4, 11) and (5, 11) changed from WALL to FLOOR while I was at (8, 7). This suggests the layout changes dynamically or based on my position/time.
-- Plan: Continue south to Row 13, then check if the path to the East is open. Also keep an eye on the newly opened path at (4, 11).
-- Observation: Tiles (10, 12) and (11, 12) changed FLOOR -> WALL while I was moving to (8, 8). This might block the path south of the central wall.
-- Plan: Continue to (8, 13). Check if the East path along Row 13 is open. If blocked, backtrack to Row 13 and check the West opening at (4, 11) via (8, 13) -> (7, 13)...
-- Hypothesis: The puzzle requires me to go to the West side (which just opened) to allow the workers on the East side to move the boxes (since I won't be watching).
-- Plan: Navigate to the newly opened tiles at (4,11)/(5,11) via Row 12. Check for items or switches, then check if East side opened.
-- Observation: West side connects to a vertical corridor (Col 1-2).
-- Plan: Follow this corridor South to Row 16, then head East to bypass the central blockage and approach the East side from the bottom.
-- Question: Is the barrier at Row 12 on the East side static walls or movable boxes? I'll check from the South.
-- Observation: Row 16 (Cols 3-11) is a dead end. Wall at (12, 16) blocks access to the East side.
-- Plan: Backtrack to the open area at (5, 12). Check if the central path (Row 12) or other paths have opened up due to my position on the West side.
-- Observation: The path at Row 16, Col 12 is definitely blocked by a solid wall. The West corridor (Cols 1-2) effectively loops back to Row 11 or dead-ends at Row 16.
-- Hypothesis: The puzzle mechanics (opening/closing paths) are triggered by my location (Zones).
-    - Zone West (Cols 0-5): Opens West entrance (4,11), Closes East path (10,12).
-    - Zone East/Center: ?
-- Plan: Return to Center (Col 8) and observe if the East path (10,12) re-opens. If it does, I need to find a way to enter it without triggering the "Close" condition.
-- Refined Hypothesis: Moving South past Row 7 triggers the East path (10, 12) to CLOSE (observed at (8,8)).
-- Test: Move to (8, 12) and observe status. Then try moving North back to Row 7 to see if it RE-OPENS.
-- Goal: Find a way to reach Row 12 with the East path OPEN. Maybe the West corridor is the key?
-- Confirmed: East path at (10, 12) is BLOCKED while I am at (8, 12).
-- Plan: Move North to (8, 7) to see if the path re-opens.
-- Hypothesis: If it opens, I need to find a path South that DOESN'T trigger the closure (possibly a different column).
-- Action: Talked to Black Belt at (4, 8) from (4, 7). He turned UP.
-- Hypothesis: His facing direction might control the "zone" triggers. If he's not watching the corridor, maybe the East path stays open?
-- Plan: Return to Center Junction (8, 7) via Row 6 to check if East path (10, 12) is open.
-- Observation: Black Belt at (4, 8) is now facing LEFT (away from corridor).
-- Test: Moving South to (8, 12) to see if East path (10, 12) remains OPEN.
-- Correction: While Row 12 is blocked, Rows 10 and 11 appear to be OPEN (FLOOR) in the current view.
-- Plan: Navigate to (8, 11) and attempt to cross to the East side via Row 11, avoiding the patrolling Black Belt (currently at 9, 9).
-- Strategy: NPC at (9, 11) is blocking Row 11. Row 10 is also open (FLOOR).
-- Plan: Bypass the NPC by using Row 10. Navigate (8, 11) -> (8, 10) -> (9, 10) -> (10, 10) -> (11, 10).
-- Note: This avoids the "gate" at Row 12 which is currently closed.
-- Strategy: Stun NPC ID 5 (patrolling Col 9) to secure a safe crossing.
-- Plan: Stun NPC. If he freezes at (9, 11), cross via Row 10. If he freezes at (9, 10), cross via Row 11.
-- Current Action: Stun NPC and move to (8, 10) to verify his frozen position.
-- Hypothesis: Entering Row 13 via Column 9 OPENS Gate 3 (10, 13). Entering via Column 8 CLOSES it.
-- Evidence: Turn 12186 (entered Col 9 at Row 11/12) -> Gate 3 Opened. Turn 12221 (stayed on Col 8) -> Gate 3 Closed.
-- Plan: Navigate from (8, 10) -> (9, 10) -> (9, 13). Stay on Col 9.
-- Status: NPC 5 is stunned at (9, 9), keeping Col 9 clear south of him.
-- Goal: Reach East side via (12, 13).
-- Analysis: Entering Col 9 from Row 10 (North) did NOT open Gate 3.
-- Hypothesis: The trigger requires crossing from Col 8 to Col 9 at Row 11 specifically (replicating Turn 12186).
-- Plan: Move Left to Col 8 (West Zone Reset), then cross Right to Col 9 at Row 11 (Trigger East Zone).
-- Path: (9, 13) -> (8, 13) -> (8, 11) -> (9, 11) -> (9, 13).
-- Status: Reset complete at (8, 13). Gate 3 (10, 13) is CLOSED (WALL).
-- Action: Executing crossing maneuver: (8, 13) -> (8, 11) -> (9, 11) -> (9, 13).
-- Expectation: Crossing to Col 9 at Row 11 will OPEN Gate 3.
-- Note: NPC 5 is active (unstunned) and patrolling (9, 9) <-> (9, 10). He should not block (9, 11).
-- Status: All East Gates (Row 9, 12, 13) are CLOSED (Crates).
-- Hypothesis: "Hide" in the West Zone (Col 1-5) to allow workers to move crates.
-- Plan: Navigate to (4, 11) to enter West Zone. Observe if Gates open or if layout changes.
-- Note: Row 11 is blocked at Col 6/7 (WALL). Must loop via Row 8/9 to reach West side.
-- Correction: Rows 8 and 9 are BLOCKED at Cols 6-7 and 10-11. Cannot cross East-West there.
-- Plan: Cross to West Zone via Row 12 (which seems to be the main connector).
-- Path: (9, 12) -> (4, 12) -> (4, 11).
-- Status: Successfully crossed to West Zone at (4, 11).
-- Plan: Travel South down the West Corridor (Col 2) to Row 16. Head East along Row 16 to check if the wall at (12, 16) has opened.
-- Reasoning: Being in the West Zone might have triggered the "behind the scenes" mechanics to open the path.
-- Confirmation: Wall at (12, 16) is indeed solid. The South route does not wrap around.
-- Plan: Return to the Central Zone via the West Corridor.
-- Hypothesis: My presence in the West Zone (hidden) may have triggered the boxes at (10, 12)/(10, 13) to open.
-- Action: Navigate to (9, 12) to inspect the gates.
-- Navigation Note: (3, 12) is a Wall. Must detour via Row 11: (2, 12) -> (2, 11) -> (3, 11) -> (4, 11) -> (4, 12).
-- Plan: Inspect (10, 12) from (9, 12). If closed, the "West Zone" trigger might require a different approach or I need to engage the "Watcher" mechanics again.
-- Status: Returning to Central Zone to check if West Zone visit triggered the gates.
-- Observation: (3, 12) is a static wall, confirming the detour requirement.
-- Status: At (11, 11). Checking Gate 2 at (10, 12).
-- Plan: Move to (10, 11). Inspect (10, 12). If Wall, talk to NPC 5 at (9, 11).
-- Hypothesis: "Zone" trigger might reset when returning to Center. Need to find a way to maintain "Open" state.
-- Status: West Zone visit did not persist East Gate opening.
-- Hypothesis: West Gate (4, 11) and East Gates are mutually exclusive toggles. Need to find the trigger to toggle back to East.
-- Plan: Inspect (10, 12). If closed, manipulate NPC 5 facing direction.
-- Observation: Gate at (10, 12) is CLOSED (WALL).
-- Action: Talking to NPC 5 at (9, 11) to turn him RIGHT.
-## Basement Puzzle Strategy
+## Puzzle Mechanics
 - **Goal:** Reach East side (Items/Ladder).
 - **Hypothesis:** NPC Facing Direction triggers the gates (Boxes).
     - NPC 5 (Middle) -> Controls Row 11/12 Gates?
     - NPC 6 (Top Left) -> Controls Top Gates?
-- **Current Status:**
-    - Gate 2 (10, 12) is CLOSED.
-    - NPC 5 is at (9, 9), facing UP.
-- **Correction:** Game State shows NPC 5 is at (9, 10), NOT (9, 9).
-- **Plan Adjustment:**
-    - Step 1: Move back to (8, 10).
-    - Step 2: Turn Right to face NPC.
-    - Step 3: Unstun and Talk.
-    - Check if Gate 2 opens.
+- **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
-## Reflections
-- **Puzzle Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
+## Current Plan
+1. **Stun NPC 5** at (9, 10) to fix position.
+2. **Move to (8, 10)** (Flanking position).
+3. **Face Right** (Towards NPC).
+4. **Unstun NPC 5**.
+5. **Immediately Talk (A)** to force him to turn LEFT.
+6. Check if Gate 2 (10, 12) opens.
+
+## Status
+- Player at (9, 9).
+- NPC 5 at (9, 10).
+- Action: Stunning and Positioning.
