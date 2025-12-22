@@ -10,16 +10,16 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face **LEFT** to open gates (looking away from them).
-    - *Previous Attempt:* Facing RIGHT failed to open (10, 12).
 - **Status:**
     - Player at (10, 11).
-    - NPC 5 at (9, 10) (Unstunned).
-    - **Action:** Moving to (8, 10) to make him face LEFT.
+    - NPC 5 at (9, 10) (Stunned).
+    - **Action:** Moving to (8, 10) via (9, 11).
 - **Plan:**
     1. **Position:** Move to (8, 10) (Left side of NPC).
-    2. **Interact:** Face Right + A. He turns LEFT.
-    3. **Lock:** Stun him.
-    4. **Verify:** Check Top/Bottom gates.
+    2. **Prepare:** Face Right.
+    3. **Interact:** Unstun NPC 5, then immediately press A to turn him LEFT.
+    4. **Lock:** Stun him again.
+    5. **Verify:** Check Top/Bottom gates.
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
