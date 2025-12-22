@@ -95,3 +95,14 @@
     - FLOOR: Traversable.
     - WALL: Impassable pillars.
     - WARP_CARPET_DOWN: Exit to Ecruteak City.
+
+# Suicune Battle Strategy
+- Suicune Lv 40.
+- KIMCHI (Gloom Lv 21) is current lead.
+- Observed Moves: Gust (Super-effective vs Gloom).
+- Strategy:
+    1. Heal KIMCHI to full HP using Lemonade.
+    2. Survive another Gust (expected damage ~49).
+    3. Use Sleep Powder (75% accuracy).
+    4. Once asleep, switch to a stronger Pokémon to safely lower HP, or start throwing balls.
+- Status: KIMCHI at 8/57 HP. Just hit by Gust. Turn #11617.
