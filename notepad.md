@@ -30,5 +30,5 @@
 - **Status:** Approaching Super Nerd at (6, 9) in Goldenrod Underground (South).
 - **Goal:** Obtain Team Rocket Uniform.
 - **Task:** Interact with the Super Nerd to see if he is a Rocket in disguise or a trainer.
-- **Observation:** He is standing near a counter. Path south is clear (columns 3-5).
-- **Plan:** Talk to him. If no uniform, continue South.
+- **Observation:** He is standing near a counter. Another Super Nerd spotted further south at (7, 14).
+- **Plan:** Move to (5, 9), face Right, and talk to him.
