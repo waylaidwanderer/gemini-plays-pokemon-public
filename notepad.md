@@ -96,3 +96,6 @@
 - **Hypothesis:** "The Cage" - Entering East Room and letting the Outer Gate (10, 8-9) close might open the Inner Barrier (14-17, 8-9).
 - **Test:** Unstun NPC 5 while inside East Room. Wait for Outer Gate to close. Check Inner Barrier.
 - **Action:** Moving to (13, 6) to observe. Unstunning NPC 5.
+- **Action:** Inspecting Inner Boxes at (14, 8) to see if they are interactable.
+- **Hypothesis:** "Line of Sight" mechanic - I need to be hidden from the workers for the layout to change.
+- **Plan:** Inspect boxes. If nothing, move to (17, 6) to "hide" behind the central wall and wait for a state change.
