@@ -326,3 +326,7 @@
 - **Path:** `(5, 8) -> (5, 6) -> (9, 6) -> (9, 13) -> (6, 13)`.
 - **Action:** Navigating to `(6, 13)` to talk to NPC 7.
 - **Goal:** Test if making NPC 7 face LEFT (Away from gates) opens the Bottom Gates.
+- **Action:** Navigating to `(5, 12)` to flank NPC 7.
+- **Goal:** Talk to NPC 7 from the LEFT side (standing at `(5, 13)` or `(4, 13)`).
+- **Hypothesis:** Forcing NPC 7 to face LEFT (away from the gates) will open the Bottom Gates.
+- **Note:** NPC 7 paces between `(5, 13)` and `(6, 13)`. I must time my movement or use Stun.
