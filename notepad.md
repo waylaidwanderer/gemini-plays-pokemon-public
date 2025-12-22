@@ -10,24 +10,25 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000.
-- Method: Navigate south to (6, 12-13), then east through the gap at (8, 12-15) to access the warehouse interior.
-- Method: Defeat all Rocket personnel to clear the path to the real Director.
-- Tactical: Gneiss (Lv40) leads against Poison/Fire; Calcifer (Lv44) counters Grass.
+- Warehouse Search Start: Turn 11000. Current Turn: 11017.
+- Method: Clear the western corridor (Col 1-4), loop through Row 1-3 to Col 6-7 corridor.
+- Method: Navigate south to (6, 12-13), then east through the gap at (8, 12-15) to access the central warehouse floor.
+- Method: Systematically engage all Rocket personnel to clear the path to the real Director.
+- Tactical: Gneiss (Lv41) leads with Rollout against Flying/Poison/Fire; Calcifer (Lv44) counters Grass.
 
 # Warehouse Observations (Map 3_56)
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
-- Internal Walls: Column 5 blocks passage from Row 4-15 (Gaps at Row 1-3).
-- Internal Walls: Column 8 blocks passage from Row 1-11 (Gaps at Row 12-15).
+- Internal Walls: Column 5 blocks passage Row 4-15 (Gaps at Row 1-3).
+- Internal Walls: Column 8 blocks passage Row 1-11 (Gaps at Row 12-15).
 - Rocket Grunt 1: (9, 8).
 - Gentleman: (12, 8).
 - Item Ball: (13, 9).
 
 # Training & Party
-- GNEISS (Lv40 Graveler): STRENGTH, MAGNITUDE, ROLLOUT.
-- Calcifer (Lv44 Typhlosion): FLAME WHEEL, HEADBUTT.
-- KIMCHI (Lv21 Gloom): CUT.
-- Ravioli (Lv10 Krabby): SURF.
+- GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
+- Calcifer (Lv44 Typhlosion): FLAME WHEEL, HEADBUTT, SMOKESCREEN, EMBER.
+- KIMCHI (Lv21 Gloom): CUT, ABSORB, SWEET SCENT, SLEEP POWDER.
+- Ravioli (Lv10 Krabby): SURF, BUBBLE, LEER.
 
 # Findings
 - Found Ultra Ball at (2, 1). (Turn 11006)
