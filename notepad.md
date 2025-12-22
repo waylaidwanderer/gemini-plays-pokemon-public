@@ -6,10 +6,11 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** Leaving Goldenrod PC.
-- **Correction:** Realized team is already fully healed (Cross Chop 5/5 is max PP). No need to talk to Nurse Joy.
-- **Plan:** Exit PC and head North to the Radio Tower.
-- **Target:** Radio Tower is likely in the NW part of the city, near the train station or arcade.
+- **Status:** Moving to Radio Tower (North West).
+- **Current Task:** Navigating through Goldenrod City.
+- **Goal:** Reach the Radio Tower to investigate Team Rocket.
+- **Tactics:** Avoid Rocket Grunts if possible, keep team healthy.
+- **Reference:** Rocket Grunt spotted at (16, 23).
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
