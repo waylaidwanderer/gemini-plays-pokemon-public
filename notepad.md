@@ -4,7 +4,6 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Super Repel active (Turn #13015). 3 left in bag.
 - Current Status: Suicune confirmed on Route 38 (Turn #12992).
-- Task Timing: Grass Dance resuming Turn #13017.
 
 # Roaming Pokémon Reference
 - Tracking: Use Pokédex AREA map. (Start -> POKEDEX -> Select Suicune -> AREA).
@@ -40,8 +39,3 @@
 4. Cursor starts on PAGE. Press Right to select AREA.
 5. Press A to view map.
 6. Press B multiple times to exit.
-
-# Progress Log
-- Turn #12992: Confirmed Suicune is still on Route 38 via Pokedex AREA map.
-- Turn #13003: Re-applied Super Repel.
-- Turn #13006: Phone call from Tully ended. Resuming Grass Dance.
