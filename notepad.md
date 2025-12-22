@@ -70,3 +70,11 @@
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
 - Turn #11489: Swapping lead failed due to truncated button sequence. Fixed custom tool.
+
+# Wise Trio Battle Strategy
+- Sage GAKU: Noctowl (Calcifer w/ ThunderPunch), Flareon (GNEISS w/ Earthquake).
+- Strategy: Use type advantages. Calcifer for Flying/Water, GNEISS for Fire/Poison.
+
+# Lessons Learned
+- Turn #11527: Tried to switch to the already active Pokémon. Lesson: Always check the active Pokémon status before switching in battle.
+- Turn #11502: Battle started at Turn #11502.
