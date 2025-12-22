@@ -45,12 +45,16 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
 - **Current Test:** NPC 7 (Bottom Worker).
-    - **Status:** NPC 7 is Stunned at (5, 13) Facing Down.
-    - **Plan:** Talk to him from (5, 12) to make him Face UP.
-    - **Check:** If gates at Row 12/13 open.
-- **Previous Info:** He previously mentioned "junk on ground".
-- **Next:** If this fails, try making him face Right (look at gates) or Left.
-- **Fallback:** Return to NPC 6 (Top Left).
+    - **Status:** NPC 7 is at (5, 13). Stunned (Attempt 2).
+    - **Anomaly:** Previous Stun failed (he moved significantly).
+    - **Plan:**
+        1. Stun him at (5, 13).
+        2. Face Down.
+        3. Unstun & Interact immediately.
+    - **Check:** Does he turn UP? Do gates open?
+- **Previous Info:** "junk on ground".
+- **Next:** If this fails, try making him face Right or Left.
+- **Fallback:** Return to NPC 6.
 
 # Tile Mechanics
 - **WALL:** Impassable.
