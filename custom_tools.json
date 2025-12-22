@@ -195,7 +195,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # The input is provided as a JSON string in the first argument\n        input_json = sys.argv[1]\n        data = json.loads(input_json)\n        \n        # Extract values with defaults\n        rights = int(data.get(\"num_rights\", 0))\n        downs = int(data.get(\"num_downs\", 0))\n        \n        buttons = []\n        # Page Down (Right) scrolls by 10 entries\n        for _ in range(rights):\n            buttons.append(\"Right\")\n            buttons.append(\"sleep 200\")\n        # Scroll Down (Down) scrolls by 1 entry\n        for _ in range(downs):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n        \n        # If no movement is requested, return a safe button\n        if not buttons:\n            buttons = [\"B\"]\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Safe fallback\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        if len(sys.argv) < 2:\n            print(json.dumps([\"B\"]))\n            return\n        data = json.loads(sys.argv[1])\n        r = int(data.get(\"num_rights\", 0))\n        d = int(data.get(\"num_downs\", 0))\n        btns = ([\"Right\"] * r) + ([\"Down\"] * d)\n        if not btns:\n            btns = [\"B\"]\n        print(json.dumps(btns))\n    except:\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -221,6 +221,11 @@
         "commit_message": "Refined argument parsing and added explicit sleep commands for menu stability. Verified Rights=10 entries, Down=1 entry.",
         "timestamp": "2025-12-22T13:48:37.899Z",
         "action_counter": 12124
+      },
+      {
+        "commit_message": "Simplified logic for maximum reliability. Removed sleep commands to ensure compatibility with autopress_buttons efficiency rules. Optimized for rapid list navigation.",
+        "timestamp": "2025-12-22T13:54:56.011Z",
+        "action_counter": 12134
       }
     ]
   }
