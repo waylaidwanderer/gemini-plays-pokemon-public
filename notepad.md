@@ -21,10 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Electrodes defeated. Radio signal should be disabled.
-- **Position:** Moved to (14, 11) automatically. Lance is nearby at (18, 10).
-- **Next Step:** Confirm success with Lance and receive HM06 (Whirlpool) or next instructions.
-- **Goal:** Finish up here and likely defeat the final boss or exit.
+- **Status:** Mission Complete! Radio signal disabled. Obtained HM06 (Whirlpool).
+- **Current Location:** B2F Transmitter Room (14, 11).
+- **Next Steps:**
+    1. Explore the East side of this room (Lance's side) for any missed items.
+    2. Exit the hideout via B2F ladder (3, 14) -> B1F -> Exit.
+    3. Heal and challenge Pryce at Mahogany Gym.
+- **Inventory Note:** Need to teach Whirlpool to a Pokemon (probably Lapis/Poliwag or a new water type) eventually, but need Badge first.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
