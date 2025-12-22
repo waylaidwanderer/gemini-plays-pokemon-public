@@ -34,3 +34,4 @@
 - **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Turn 12692:** Confirmed Rocket Grunt at (16, 23) is a hard blocker. Path West is impassable here. Trying North route.
+- **Turn 12704:** Engaging Team Rocket Grunt at (31, 10). He is blocking the path to the building behind him.
