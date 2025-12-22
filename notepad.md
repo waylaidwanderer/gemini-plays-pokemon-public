@@ -14,15 +14,16 @@
         - NPC 5 at Y=11 -> Bottom Open / Top Closed (Current State).
         - NPC 5 at Y=10 -> Bottom Closed / Top Open (Target State).
 - **Plan:**
-    1. **Observe:** Wait for NPC 5 to move to (9, 10).
-    2. **Verify:** Check if boxes at (10, 8)/(10, 9) open.
-    3. **Lock:** If Open, STUN NPC 5 immediately.
-    4. **Execute:** Run through the open path.
+    1. **Observe:** Move to (8, 7) to see NPC 5.
+    2. **Wait:** Wait for NPC 5 to move to (9, 10).
+    3. **Verify:** Check if boxes at (10, 8)/(10, 9) open.
+    4. **Lock:** If Open, STUN NPC 5 immediately.
+    5. **Execute:** Run through the open path.
 - **Status:**
-    - Player at (8, 7).
-    - NPC 5 at (9, 11) (Bottom).
+    - Player at (8, 6).
+    - NPC 5 is off-screen (likely at 9, 11).
     - Boxes at Top (8/9) are Closed.
-    - Action: Waiting/Pacing to let NPC 5 move.
+    - Action: Moving back to (8, 7) to observe.
 
 ## Status
 - Player moving to (8, 10).
