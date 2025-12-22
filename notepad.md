@@ -12,7 +12,7 @@
 - Order: Switch 3 -> Switch 2 -> Switch 1.
 
 # Shutter Logic (Toggles)
-- Baseline (OFF, OFF, OFF): (12,8) is OPEN, all others CLOSED.
+- Baseline (OFF, OFF, OFF): (2,6), (3,6), and (12,8) are OPEN, all others CLOSED.
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S3 (2,1) toggles: (2,6), (3,6)
@@ -21,7 +21,6 @@
 - Attempt 4 (Current): 3-2-1 Sequence from clean reset.
   - Reset all switches to OFF (Turn 10831).
   - Step 1: Turn Switch 3 ON (Turn 10833).
-  - Step 2: Turn Switch 2 ON (Turn 10838).
 
 # Current Strategy: Execute 3-2-1 Sequence
 1. Turn Switch 3 ON (COMPLETED).
