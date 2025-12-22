@@ -14,10 +14,7 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 - **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
-- **Location:** Radio Tower 4F.
-- **Goal:** Reach Director on 5F.
-- **Status:** Exploring West side of 4F.
-- **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
-- **Status:** Defeated Rocket Executive (Imposter). Obtained BASEMENT KEY.
+- **Location:** Radio Tower 3F.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Plan:** Exit Radio Tower, return to Goldenrod Underground, and use the Basement Key to access the Warehouse.
+- **Status:** Descending Radio Tower with BASEMENT KEY.
+- **Plan:** Navigate to stairs at (0, 0) to descend to 2F.
