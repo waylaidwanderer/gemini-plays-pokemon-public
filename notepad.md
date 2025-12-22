@@ -14,7 +14,7 @@
 - Search Started: Turn 10940
 - Goal: Activate the Emergency Switch at (20, 11).
 - Status: Rocket Grunt at (19, 13) defeated. Moving to Emergency Switch. (Turn 10995)
-- Step 1: Activate the Emergency Switch at (20, 11) from (20, 12). (Current).
+- Step 1: Activate the Emergency Switch at (20, 11) from (20, 12). (Turn 10998: Turning it ON).
 - Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
 
 # Shutter Observation
