@@ -13,23 +13,24 @@
 # Current Strategy: Enter Warehouse
 - Step 1: Defeat Burglar Duncan at (9, 12). COMPLETED.
 - Step 2: Navigate to (14, 9) to collect the item ball.
-  - Route: (14, 5) -> (2, 5) -> (2, 9) -> (10, 9) -> (10, 12) -> (16, 12) -> (16, 9) -> (14, 9).
-- Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
-- Step 4: Activate the Emergency Switch at (20, 11).
+  - Route: (13, 12) -> (16, 12) -> (16, 9) -> (15, 9).
+- Step 3: Activate the Emergency Switch at (20, 11).
+  - Route: (15, 9) -> (16, 9) -> (16, 12) -> (18, 12) -> (18, 13) -> (20, 13) -> (20, 12).
+- Step 4: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
 
-# Shutter Observation (Turn 10976)
+# Shutter Observation (Turn 10978)
 - Sequence 3-2-1 complete. Gaps opened at:
   - x=2,3 (Rows 6, 7)
-  - x=6 (Row 8) - Wait, re-verify this.
+  - x=6 (Row 8)
   - x=10,11 (Rows 10, 11)
   - x=16,17 (Rows 10, 11)
+  - x=18 (Rows 12, 13) - New gap!
+- Emergency Switch (20, 11): Interacted from (20, 12) facing UP.
+- Rocket Girl (ID 6) at (19, 12) blocks the direct path; must loop around via Row 13.
 - Shutter (12, 8) is CLOSED.
 - Shutter (6, 12-13) is WALL.
-- Gap at (2, 6-7) is the only way to reach Row 8/9 from Row 4/5.
-- East section (x >= 20) seems separated from the center by walls at x=18/19. Need to find a gap.
-- Plan: Collect item at (14, 9), then explore south for x=15 gap.
-- Failed Attempt: Tried to path through (14, 6) (WALL). Row 6 is blocked at x=14.
-- Turn Mismatch Fixed: Current Turn is 10976. (Error on 10975).
+- Plan: Collect item at (14, 9), then head to Emergency Switch.
+- Turn Mismatch Fixed: Current Turn is 10978.
 
 # Training & Party
 - Gneiss (Lv40 Graveler) is highly effective against Poison-types in this area.
