@@ -45,3 +45,5 @@
 - Map Discovery: The Underground Tunnel (3_53) connects to two separate rooms in 3_54.
     - South Ladder (3, 34 in 3_53) -> West Room (x=5 in 3_54) -> Exits to Goldenrod South.
     - North Ladder (3, 2 in 3_53) -> East Room (x=21 in 3_54) -> Likely exits to Goldenrod North/East.
+- Navigation Correction: Row 8 and 9 are open paths crossing West-to-East in Goldenrod. The Grunt at (16, 23) only blocks the southern shortcut.
+- Plan: Walk East along Row 8 to reach the Department Store.
