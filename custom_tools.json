@@ -176,69 +176,6 @@
       }
     ]
   },
-  "pokedex_navigator": {
-    "description": "Navigates the Pokédex to a specific target by using Page Down (Right) and Scroll Down (Down) inputs. Assumes the Pokédex main list is open.",
-    "input_schema": {
-      "properties": {
-        "num_downs": {
-          "description": "The number of times to press Down.",
-          "type": "integer"
-        },
-        "num_rights": {
-          "description": "The number of times to press Right (Page Down).",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "num_rights",
-        "num_downs"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # The arguments are provided in a dictionary called input_data\n        if 'input_data' in globals():\n            data = input_data\n        elif len(sys.argv) > 1:\n            data = json.loads(sys.argv[1])\n        else:\n            # Safe default\n            print(json.dumps([\"B\"]))\n            return\n\n        rights = int(data.get(\"num_rights\", 0))\n        downs = int(data.get(\"num_downs\", 0))\n        \n        buttons = []\n        # Page Down (Right) scrolls by 10 entries\n        for _ in range(rights):\n            buttons.append(\"Right\")\n            buttons.append(\"sleep 250\")\n        # Scroll Down (Down) scrolls by 1 entry\n        for _ in range(downs):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 250\")\n        \n        # If no movement is requested, return a safe button\n        if not buttons:\n            buttons = [\"B\"]\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Safe fallback\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T13:35:50.715Z",
-        "action_counter": 12091
-      },
-      {
-        "commit_message": "Refined error handling and added default values to ensure robustness. Removed sleep commands to comply with autopress_buttons efficiency.",
-        "timestamp": "2025-12-22T13:37:37.980Z",
-        "action_counter": 12097
-      },
-      {
-        "commit_message": "Simplified the logic for better reliability. Added explicit integer conversion and ensured the keys match the schema exactly.",
-        "timestamp": "2025-12-22T13:43:12.243Z",
-        "action_counter": 12110
-      },
-      {
-        "commit_message": "Added sleep commands for menu stability and improved error handling. Verified logic for Rights (Page Down) and Downs (Scroll).",
-        "timestamp": "2025-12-22T13:47:15.080Z",
-        "action_counter": 12121
-      },
-      {
-        "commit_message": "Refined argument parsing and added explicit sleep commands for menu stability. Verified Rights=10 entries, Down=1 entry.",
-        "timestamp": "2025-12-22T13:48:37.899Z",
-        "action_counter": 12124
-      },
-      {
-        "commit_message": "Simplified logic for maximum reliability. Removed sleep commands to ensure compatibility with autopress_buttons efficiency rules. Optimized for rapid list navigation.",
-        "timestamp": "2025-12-22T13:54:56.011Z",
-        "action_counter": 12134
-      },
-      {
-        "commit_message": "Refined argument parsing and added explicit sleep commands for menu stability. Verified Rights=10 entries, Down=1 entry.",
-        "timestamp": "2025-12-22T13:58:17.443Z",
-        "action_counter": 12141
-      },
-      {
-        "commit_message": "Refined argument parsing to use the 'input_data' global dictionary as per documentation, while maintaining a fallback for 'sys.argv'. This ensures the tool correctly receives its parameters.",
-        "timestamp": "2025-12-22T14:00:20.482Z",
-        "action_counter": 12144
-      }
-    ]
-  },
   "grass_dance_tool": {
     "description": "Returns a list of button presses to pace back and forth in tall grass to trigger a wild encounter.",
     "input_schema": {
@@ -258,6 +195,21 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-22T14:41:14.078Z",
         "action_counter": 12241
+      }
+    ]
+  },
+  "check_suicune_location": {
+    "description": "Navigates from the overworld to Suicune's Pokédex AREA map and back to the overworld. Assumes the Pokédex cursor is already on Suicune (#245).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n# Sequence: Start -> A (Pokedex) -> A (Select Suicune) -> Right (AREA) -> A (View Map) -> sleep 2000 -> B -> B -> B -> B\nprint(json.dumps([\"Start\", \"A\", \"A\", \"Right\", \"A\", \"sleep 2000\", \"B\", \"B\", \"B\", \"B\"]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T14:53:47.470Z",
+        "action_counter": 12272
       }
     ]
   }

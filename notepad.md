@@ -1,16 +1,11 @@
-# Suicune Tracking & Strategy
-- Status: Roaming. Confirmed on Route 37 (Turn #12216).
-- Strategy: Lead with KIMCHI (Gloom Lv 21). Use Super Repel to filter encounters (Repel filters < Lv 21, Suicune is Lv 40).
-- Encounter Method: Pacing (Grass Dance). Note: SWEET SCENT ignores REPEL and pulls low-level Pokemon.
-- Battle Plan: Sleep Powder (Turn 1) -> Switch/Ball (Turn 2+). Use `suicune_capture_analyst` for capture optimization.
-
-# Active Hunt Status
-- Super Repel active: Started Turn #12222. Expired Turn #12259.
-- Current Location: Route 37 tall grass (8, 2).
-- Pacing count: ~170 steps taken before expiration.
-- Safeguard: Re-verify Suicune's location via Pokédex after every battle and every 50 steps.
-- Encounter Strategy: Use pacing (Grass Dance) with Repel trick. Avoid SWEET SCENT.
-- Battle Plan: Sleep Powder (Turn 1) -> Switch/Ball (Turn 2+). Use `suicune_capture_analyst` for capture optimization.
+# Suicune Hunt Strategy & Status
+- Status: Roaming.
+- Last Confirmed: Route 37 (Turn #12216).
+- Strategy: Lead with KIMCHI (Gloom Lv 21). Use Super Repel (filters < Lv 21). Suicune is Lv 40.
+- Method: Pacing (Grass Dance) on confirmed route. **Avoid SWEET SCENT** (ignores Repel).
+- Battle Plan: Sleep Powder (Turn 1). Use `suicune_capture_analyst` for capture.
+- Active Status: Super Repel Expired (Turn #12259). Steps taken: ~170.
+- Safeguard: Re-verify location via Pokédex after every hop/battle.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
