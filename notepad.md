@@ -44,20 +44,19 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
-- **Hypothesis:** Picking up the "Junk" (Item at 6, 3) triggers a state change.
-    - **Clue:** NPC 7 says "The stuff on the ground's junk. Take it if you want it!"
-    - **Logic:** Maybe clearing the junk satisfies the worker or is the "Switch".
+- **Hypothesis:** "Cleaning up" the junk triggered the gates.
+    - **Status:** Item at (6, 3) is gone (confirmed taken).
+    - **Action:** Checking Gates.
 - **Plan:**
-    1. Navigate to (6, 3) via the left corridor (Cols 1-2).
-    2. Pick up the Item.
-    3. Return to NPC 7 or Check Gates.
+    1. Go to (8, 8).
+    2. Check if Boxes at (10, 8) are open (Floor) or closed (Wall).
+    3. If Closed:
+        - Try talking to NPC 7 again (maybe he acknowledges the cleanup).
+        - Try talking to NPC 6 again.
+        - Re-test "Don't Look" or "Facing" strategies.
 - **Status:**
-    - Player at (5, 12).
-    - NPC 7 interaction completed (No gate change).
-    - Action: Moving to (6, 3).
-- **Discarded:**
-    - NPC Facing/Position triggers (so far).
-    - "Don't Look" (so far).
+    - Player moving to (8, 8).
+    - Item: Taken.
 
 # Tile Mechanics
 - **WALL:** Impassable.
