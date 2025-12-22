@@ -57,3 +57,7 @@
 - Current Repel: Applied Turn #13062. Expired Turn #13075.
 - Steps Taken: 200 (Repel Duration).
 - Status: Suicune confirmed here Turn #13076.
+
+# Olivine Mart Tile Mechanics
+- MART_SHELF: Impassable.
+- COUNTER: Impassable. Used for interaction with clerks.
