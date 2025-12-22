@@ -3,12 +3,12 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Exiting Elm's Lab.
-- **Status:** Inside Elm's Lab.
+- **Navigation:** Entering Player's House (13, 5).
+- **Status:** In New Bark Town.
 - **Reason:** The PC in the lab seems to be decorative or inaccessible (no response). Switching to the PC in my room at New Bark Town.
 - **Plan:**
-    1. Exit Lab.
-    2. Go to Player's House.
+    1. Enter Player's House.
+    2. Go to PC in bedroom (2nd floor).
     3. Withdraw Togepi.
     4. Return to Elm.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
