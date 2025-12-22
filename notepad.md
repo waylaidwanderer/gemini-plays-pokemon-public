@@ -31,3 +31,9 @@
 - Fly causes them to move to a random location.
 - Flee immediately in battle. Use Mean Look or status conditions (Sleep).
 - Trackable via Pokédex "AREA" map if seen.
+
+# General Lessons Learned
+- Pokédex "SEARCH" Mechanics: The "SEARCH" function by type/color only displays Pokémon that have been CAUGHT. Pokémon that have only been SEEN must be located manually in the alphabetical or numerical lists.
+- Tool Efficiency vs. Manual Input: Do not spend more than a few turns defining or debugging a custom tool for a one-off task (like menu navigation). If a tool fails twice, switch to manual button presses or a simple `run_code` script to maintain momentum.
+- Menu Time Blindness: Spending over 100 turns in a single menu system is a critical failure. Monitor turn counts for non-gameplay tasks and pivot if they exceed 20-30 turns.
+- Mental Map XML Errors: The Mental Map XML may occasionally misidentify decorative tiles as warps (e.g., Tin Tower 1F (10, 2)). Always verify with Game State Information and manual investigation.
