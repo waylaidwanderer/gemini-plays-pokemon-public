@@ -22,10 +22,10 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Debugging Fly Map - Step 1.
-- **Reason:** Previous navigation attempts failed (Up/Down from New Bark does nothing). Restarting path from New Bark Town.
+- **Status:** Resetting Fly Map (Toggle).
+- **Reason:** Map navigation stuck. Inputs ignored. Closing (B) and Re-opening (A) map to clear potential glitch/animation lock.
 - **Plan:**
-    1. Press Left (Target: Cherrygrove City).
-    2. Verify text "Cherrygrove City".
-    3. If success, continue path: Up -> Left -> Down (Goldenrod).
-    4. Press A to Fly.
+    1. Close Map (B).
+    2. Wait 1.5s (Delay).
+    3. Re-open Map (A).
+    4. Next Turn: Retry navigation to Goldenrod.
