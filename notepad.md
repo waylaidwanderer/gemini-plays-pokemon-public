@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Walking to Cherrygrove City.
-- **Status:** Closing Menus & Resetting.
-- **Reason:** Fly Map inputs are consistently failing/hallucinating. Strategy pivot: Abandon Fly for now. Walk to Cherrygrove manually to ensure progress and reset game state.
+- **Status:** Walking to Route 29 Exit.
+- **Reason:** Fly map failed. Walking manually. Previous path blocked by sign at (8, 8). Detouring South to Row 9.
 - **Plan:**
-    1. Close all menus (B x4).
-    2. Verify Overworld.
-    3. Walk West to Route 29.
-    4. Walk West to Cherrygrove City.
-    5. Re-evaluate Fly from Cherrygrove.
+    1. Move South to Row 9.
+    2. Walk West to (0, 9).
+    3. Enter Route 29.
+    4. Traverse Route 29 to Cherrygrove.
+    5. Fly from Cherrygrove (or walk to Goldenrod if Fly remains broken).
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
