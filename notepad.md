@@ -9,14 +9,15 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Situation:** NPC 5 is at (9, 10) facing Up. I am at (9, 9) (blocking him).
+- **Situation:** NPC 5 is at (9, 10) facing Up. I am at (8, 9) facing Right.
+- **Timing Issue:** Last turn I tried to interact at (9, 9) but he moved to (9, 10). He is fast.
 - **Plan:**
-    1. **Clear Way:** Move Left to (8, 9) to let him enter (9, 9).
-    2. **Trap:** Wait for him to move to (9, 9).
-    3. **Engage:** Press `Right` (Face Right) + `A` to talk. He turns Left.
-    4. **Lock:** Stun him.
-    5. **Pass:** Walk (8, 9) -> (8, 10) -> (9, 10) -> (10, 10) (East).
-- **Critical Detail:** When at (8, 9), if NPC is at (9, 9), pressing `Right` faces him. If he is NOT there, it moves me back. Must verify position before acting.
+    1. **Camp:** Stay at (8, 9) facing Right.
+    2. **Spam Interact:** Repeatedly press `A`. When he steps into (9, 9), it will trigger dialogue.
+    3. **Manipulate:** Dialogue will force him to face Left (towards me).
+    4. **Lock:** Stun him immediately after dialogue closes.
+    5. **Execute:** Walk around him.
+- **Hypothesis:** If he faces Left at (9, 9), he cannot see the gates at (10, 10), so they should open.
 
 ## Status
 - Player at (9, 9).
