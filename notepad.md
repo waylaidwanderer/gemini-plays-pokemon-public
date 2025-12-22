@@ -4,13 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Go to Radio Tower (Northwest Goldenrod).
-- **Status:** Navigating to Radio Tower (Northwest Goldenrod).
+- **Status:** Investigating Northeast Goldenrod (Unknown Warp).
 - **Plan:**
-    1. Navigate East to x=18.
-    2. Go North through the gap at (18, 5).
-    3. Head West to find the Radio Tower entrance (likely on the North side of the building).
-    4. Attempt to enter or talk to guards.
-    5. If blocked, search for the "Director" or a Uniform source (likely in Underground or hidden room).
+    1. Check Unknown Warp at (33, 9).
+    2. Verify what Rocket Grunt at (31, 10) is blocking.
+    3. If no progress, enter Underground via North Entrance (9, 5) and search Warehouse for Uniform.
 
 ## Key Information
 - **Turn 12001:** Rocket Grunt at (31, 10) is a non-battling blocker.
