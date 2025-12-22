@@ -3,7 +3,7 @@
 - Status: Party fully healed. Suicune reset to full HP (if present).
 - Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. If Suicune is asleep, throw Great Balls. Use Smokescreen (Typhlosion) as backup to tank hits.
 - Task: Restock and Prepare. (Start Turn: #11815, 4:00 AM)
-- Plan: Check Directory at (14, 0) on 5F to confirm Revive availability. If not sold in store, Fly to Ecruteak.
+- Plan: 5F Directory confirmed 5F is TM Corner. Move to 2F to check for Revives. If not sold in store, Fly to Ecruteak.
 - Lesson: Always verify Map ID before assuming floor transitions in multi-floor buildings to avoid time loops.
 
 # Strategy for Suicune Rematch
