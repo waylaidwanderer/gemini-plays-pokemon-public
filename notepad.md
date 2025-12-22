@@ -3,13 +3,13 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Go to Radio Tower (Goldenrod City).
-- **Status:** Leaving Underground (South Exit).
+- **Navigation:** Navigate to Rocket Grunt at (16, 23).
+- **Status:** In Goldenrod City (10, 30).
 - **Plan:**
-    1. Exit to Goldenrod City.
-    2. Walk North to Radio Tower.
-    3. Check if the door is open or interact with the Grunt blocking it.
-    4. Re-evaluate if blocked (maybe missed something in Underground).
+    1. Move West to X=9 (Main N/S path on west side).
+    2. Move North to Y=23.
+    3. Move East to X=15 to approach the Grunt.
+    4. Check if he battles or blocks the way.
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
