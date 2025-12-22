@@ -8,24 +8,17 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Gates/Boxes to reach East side.
-- **Hypothesis:** NPC 6 (Static at 4,8) controls gates via Facing Direction.
-    - **Observation:** NPC 6 is currently at (4, 8) Facing **LEFT**. The boxes at (6,8) are **WALLS (Closed)**.
-    - **Conclusion:** Facing LEFT does NOT open the boxes.
-    - **Next Tests:**
-        - **Test 3:** Make NPC 6 Face **DOWN** (stand at 4,9).
+- **Goal:** Reach Item Ball at (14, 2).
+- **Realization:** The "Puzzle" of the boxes might be a distraction or optional. The map shows a clear path around the top (Row 6) and potentially the bottom (Row 13).
+- **New Plan:** Bypass the boxes entirely.
+    - Path: (4,9) -> (5,9) -> (5,8) -> (5,7) -> Around Machop -> East Side.
+- **Hypothesis:** I can walk around the obstacles.
 - **Status:**
-    - Player at (4, 9).
-    - NPC 6 at (4, 8) Facing Left.
-- **Plan:**
-    1. **Face Up:** Turn to face NPC 6 (Done).
-    2. **Interact:** Talk to NPC 6 (He turns DOWN).
-    3. **Lock:** Stun him immediately after dialogue.
-    4. **Verify:** Check boxes.
+    - Player moving to (8, 6).
+    - NPC 6 at (4, 8).
+    - NPC 5 at (9, 11).
 - **Discarded:**
-    - Facing Right (Closed).
-    - Facing Up (Closed).
-    - Facing Left (Closed).
+    - Trying to open boxes via NPC facing (for now).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
