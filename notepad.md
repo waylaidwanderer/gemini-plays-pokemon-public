@@ -50,6 +50,7 @@
 - Rocket Executive (5F): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
 - Rocket Executive (5F - Near stairs): Arbok Lv32, Vileplume Lv32, Murkrow Lv32.
 - Rocket Executive (4F): Golbat Lv36.
+- Sage GAKU: Noctowl Lv32 (Hypnosis, Foresight).
 
 # PC Storage (Box 1)
 1. ROCKY (ONIX): Lv6 (M)
