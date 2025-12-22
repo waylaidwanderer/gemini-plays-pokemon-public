@@ -11,15 +11,16 @@
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
 - **Hypothesis:** "Junk" on the ground (Bottom Left) is a hidden item blocking the puzzle.
 - **Evidence:** NPC 7 said "Stuff on ground is junk, take it."
-- **Status:**
-    - Top Gates Strategy (NPC 6): Failed (All directions tested).
-    - Middle Strategy (NPC 5): Dead end?
 - **Plan:**
-    1. **Navigate:** Move to Bottom Left (8, 12).
-    2. **Tool:** Use `ITEMFINDER` from the menu (Key Items Pocket) to confirm hidden item presence.
-    3. **Search:** If positive, thoroughly check all tiles in Row 13 (4-8).
-    4. **Result:** Finding the item should unblock NPC 7's patrol.
-- **Note:** Previous search at (7, 13) and (8, 13) yielded nothing. Need to check wider area or use Itemfinder to pinpoint.
+    1. **Tool:** Use `ITEMFINDER` from the menu (Key Items Pocket).
+    2. **Search:** If positive, check tiles in Row 13 (5-8).
+    3. **Result:** Finding the item should unblock NPC 7's patrol.
+
+## Discarded Hypotheses
+- **NPC 6 (Top Left):** Facing Right/Up/Left/Down did not open Top Gates.
+- **NPC 5 (Middle):** Area leads to dead end at (12, 11).
+- **Machop:** Interaction yielded only text.
+- **Manual Search:** Pressed A on (7, 13) and (8, 13) - Found nothing.
 
 ## Status
 - Player at (9, 9).
