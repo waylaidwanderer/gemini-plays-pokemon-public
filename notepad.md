@@ -27,9 +27,10 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Interacting with Super Nerd at (6, 9) in Goldenrod Underground (South).
+- **Status:** Exploring Goldenrod Underground (South).
 - **Goal:** Obtain Team Rocket Uniform.
-- **Task:** Talking to the Super Nerd.
-- **Hypothesis:** He might be a Rocket Grunt in disguise or have the uniform.
-- **Lore Note:** In Crystal, the uniform is usually given by a Rocket Grunt in this tunnel.
-- **Plan:** If he battles, defeat him. If he talks, read carefully. If nothing, move to next NPC at (7, 14).
+- **Progress:**
+  - Checked Super Nerd at (6, 9): Just an Advisor giving type advice.
+  - Next Target: Super Nerd at (7, 14).
+- **Observation:** The path south to (5, 14) seems clear. The Nerd at (7, 14) is behind a counter at (6, 14).
+- **Plan:** Move to (5, 14) and talk to the Nerd over the counter.
