@@ -45,20 +45,20 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
 - **Status:**
-    - "Junk" theory failed (Machop says nothing new).
+    - "Junk" theory failed.
     - "Don't Look" (General) failed.
-- **New Test:** NPC 6 (Top Left) "Face Wall".
-    - **Logic:** He says "if someone's watching".
-    - **Plan:** Talk to him from (4, 7) (Above him).
-    - **Result:** He will face UP (towards wall).
-    - **Check:** See if boxes open.
+    - "Facing Wall" failed.
+- **Current Test:** Inspecting the **Gate Boxes** themselves at (10, 8).
+    - **Logic:** I haven't interacted with the actual barrier yet. Maybe it gives a clue.
+    - **Observation:** NPC 5 oscillates between (9, 10) and (9, 11).
+    - **Hypothesis:** One set of gates opens depending on his position. I need to be precise.
 - **Plan:**
-    1. Move to (4, 7).
-    2. Talk to NPC 6.
-    3. Check boxes.
+    1. Go to (8, 8).
+    2. Interact with Box at (10, 8).
+    3. Observe if it opens when NPC 5 moves.
 - **Backup:**
-    - Try to find a switch in the "Junk" area (6, 3)?
-    - Try to find a switch near the elevator?
+    - Is there a switch hidden behind the other boxes?
+    - Is there a sequence?
 
 # Tile Mechanics
 - **WALL:** Impassable.
