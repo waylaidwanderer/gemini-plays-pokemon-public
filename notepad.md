@@ -70,3 +70,7 @@
 - Wise Trios Room ladder at (17, 3) leads to Wise Trios Room upper level.
 - Warp at (7, 4) in Wise Trios Room leads to Tin Tower 1F (20, 2).
 - Tin Tower 1F (20, 2) and (20, 3) are exits back to Ecruteak City top center.
+
+# Error Log
+- Turn #11594: swap_pokemon_v1 failed significantly, opening Pokegear and Pokedex. Manual swap required.
+- Turn #11594: Hallucination warning at (31, 5). Moving to break loop.
