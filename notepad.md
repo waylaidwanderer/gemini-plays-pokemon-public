@@ -22,11 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Selecting Mistral to Fly.
-- **Reason:** Cursor remembered Cancel position. Navigating Up 3 slots to Mistral (Slot 4).
+- **Status:** Correcting Menu Selection to Mistral.
+- **Reason:** Accidentally selected Muscle (Slot 1). Closing menu and moving down to Mistral (Slot 4) to Fly.
 - **Plan:**
-    1. Enter Party (A).
-    2. Navigate to Mistral (Up x3).
-    3. Select Mistral (A).
-    4. Select FLY.
-    5. Navigate Map to Goldenrod.
+    1. Close Muscle's Menu (B).
+    2. Navigate to Mistral (Down x3).
+    3. Open Menu (A).
+    4. Select Fly (A).
+    5. Verify Map Open.
