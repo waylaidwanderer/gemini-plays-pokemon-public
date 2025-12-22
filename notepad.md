@@ -47,3 +47,5 @@
     - North Ladder (3, 2 in 3_53) -> East Room (x=21 in 3_54) -> Likely exits to Goldenrod North/East.
 - Navigation Correction: Row 8 and 9 are open paths crossing West-to-East in Goldenrod. The Grunt at (16, 23) only blocks the southern shortcut.
 - Plan: Walk East along Row 8 to reach the Department Store.
+- Navigation Note: Gym area (Row 10-12, Col 23-25) is enclosed by walls on the South. Must go West to Col 21 (Main Street) to travel South to Dept Store.
+- Observation: Tile (24, 28) directly below Dept Store door is marked as WALL. Approaching (23, 28) to investigate entrance accessibility.
