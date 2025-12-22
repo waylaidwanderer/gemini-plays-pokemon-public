@@ -12,13 +12,12 @@
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym at (5, 10).
-- **Progress:** Sliding West to (2, 10).
+- **Status:** Inside Mahogany Gym at (2, 10).
+- **Progress:** Reached left side. Sliding North to Rocker.
 - **Plan:**
-    1. Slide West to (2, 10).
-    2. Slide North to (2, 5) (Stopped by Rocker).
-    3. Defeat Rocker.
-    4. Slide East to (6, 5).
-    5. Slide North to (6, 3).
-    6. Interact with Pryce at (5, 3).
+    1. Slide North to (2, 5) (Stopped by Rocker at (2, 4)).
+    2. Defeat Rocker.
+    3. Slide East to (6, 5).
+    4. Slide North to (6, 3).
+    5. Interact with Pryce at (5, 3).
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
