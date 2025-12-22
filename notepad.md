@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** Flying to New Bark Town.
-- **Reason:** Goldenrod Rocket Grunts are present but passive (Glitch/Flag Issue).
+- **Status:** In New Bark Town. Heading to Elm's Lab.
+- **Reason:** Goldenrod Rocket Grunts were passive. Suspect event flag issue.
 - **Plan:**
-    1. Fly to New Bark Town.
-    2. Speak to Professor Elm to refresh the 'Rocket Takeover' event flags.
-    3. Return to Goldenrod and engage the Grunt at (31, 10).
+    1. Enter Elm's Lab (6, 3).
+    2. Speak to Professor Elm.
+    3. Return to Goldenrod (Fly) and re-test Grunt.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
