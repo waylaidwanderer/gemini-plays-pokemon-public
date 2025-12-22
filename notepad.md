@@ -21,12 +21,12 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym.
-- **Location:** Entrance Lobby.
-- **Progress:** Defeated Skier Clarissa.
-- **Current Task:** Defeat Boarder (Rocker).
+- **Status:** Inside Mahogany Gym. Battling Boarder Ronald.
+- **Location:** Entrance Lobby (0, 16).
+- **Battle:** Vs Seel (Lv 24). Muscle (Lv 47) is active.
+- **Strategy:** Use Cross Chop for high neutral damage.
 - **Plan:**
-    1. Defeat Boarder (Rocker).
+    1. Defeat Boarder Ronald.
     2. Solve Ice Puzzle to reach Pryce.
     3. Win Glacier Badge.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
