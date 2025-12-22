@@ -75,7 +75,7 @@
 - **Hypothesis:** Switch/Trigger in Bottom Right opens Row 4 or provides access.
 - **Observation:** Tile changes occurring dynamically (e.g. (5, 11) became WALL).
 - **Plan:** Navigate to (13, 8), then explore South East corner.
-- **Observation:** Reached East Room.
-- **Status:** Bottom Gates (10, 12-13) are Closed. Top Gates (10, 8-9) are Open.
-- **Path:** Moving North along East Wall (Col 18) to inspect the barrier at Row 4.
-- **Hypothesis:** A switch or trigger in this room opens access to the Ladder at (17, 2).
+- **Observation:** Row 4 is a solid WALL (Cols 14-19). North East Room (Item/Ladder) is isolated.
+- **Hypothesis:** Switch in South East corner (18, 16) or interaction with Bottom Gates (10, 12-13) required.
+- **Action:** Moving to South East corner.
+- **Plan:** Search for switch. If none, check Bottom Gates from East side.
