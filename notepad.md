@@ -21,12 +21,16 @@
 - (1,1,0): To be verified.
 - (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED, (17,6) CLOSED. (Turn 10297)
 
-# Strategy: 3-2-1 Sequence Execution
-- Goal: Open path to the Warehouse Entrance in the southeast.
-- Attempt 2 Progress:
-  - 1. S3 ON: Done (Turn 10313).
-  - 2. S2 ON: Done (Turn 10324).
-  - 3. S1 ON: Done (Turn 10326). Sequence Complete.
+# Strategy: 3-2-1 Sequence Execution (Resetting)
+- Goal: Reset all switches to OFF, then execute 3-2-1 sequence.
+- Reset Progress:
+  - 1. S1 OFF: In progress (Turn 10342).
+  - 2. S2 OFF: Next.
+  - 3. S3 OFF: Next.
+- Sequence Attempt 3:
+  - 1. S3 ON: Next.
+  - 2. S2 ON: Next.
+  - 3. S1 ON: Next.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
