@@ -11,7 +11,7 @@
 - Result: Gaps opened at x=2,3 (Row 6,7), x=6 (Row 8), and x=10,11 (Row 10,11).
 
 # Current Strategy: Enter Warehouse
-- Step 1: Defeat Burglar Duncan at (9, 12). (Turn 10954, Start). Gneiss (Lv40) is currently battling his second Koffing.
+- Step 1: Defeat Burglar Duncan at (9, 12). (Turn 10954, Start). Gneiss (Lv40) is currently battling his Magmar.
 - Step 2: Navigate south through the gap at (10, 10) / (11, 11).
 - Step 3: Explore southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
 - Step 4: Locate the real Director in the Warehouse.
