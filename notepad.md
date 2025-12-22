@@ -66,3 +66,4 @@
 - Current Boundary: Route 38 (0, 10) < - > Route 39 (19, 10).
 - Suicune Last Seen: Route 42.
 - Goal: Trap on 38 or 39. Use Repel Trick with KIMCHI (Lv 21).
+- Strategy: Cross map boundary -> Check Pokédex -> Repeat until Suicune is on the same map.
