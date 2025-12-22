@@ -16,5 +16,6 @@
 ## Current Strategy & Obstacles
 - **Location:** Goldenrod Underground (Main Tunnel).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Door opened with BASEMENT KEY.
-- **Next Step:** Enter the Underground Warehouse and find the Director.
+- **Status:** Entered the Warehouse area (Map 3_53, coordinates 21,31).
+- **Observation:** This area appears to be connected to the Main Tunnel but isolated. Ladder visible at (22, 27).
+- **Next Step:** Explore the room North of the entrance to find the Director.
