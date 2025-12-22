@@ -33,3 +33,4 @@
 - Grunt at (31, 10) is a blocker. Requires Uniform or disguise to pass.
 - Strategy: Search Underground for Uniform/Disguise.
 - Status: Heading to Underground Entrance North (9, 5) to look for a uniform.
+- Info: Super Nerd at (19, 27) warns of rough battles downstairs.
