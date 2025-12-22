@@ -8,21 +8,20 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Reach East Room (Col 13+) via Top Right (Row 8/9) or Bottom Right (Row 13).
-- **Map Analysis:**
-    - **Middle Right Pocket (10,10 - 11,11):** OPEN, but leads to WALL at Col 12. **DEAD END.**
-    - **Top Right Pocket:** CLOSED. Leads to EXIT at (12, 8).
-    - **Bottom Right Pocket:** CLOSED. Leads to EXIT at (12, 13).
-    - **Conclusion:** I MUST open Top Right or Bottom Right gates.
-- **Hypothesis:**
-    - NPC 6 (Top Left) -> Controls Top Gates?
-    - NPC 7 (Bottom Left) -> Controls Bottom Gates?
-- **Current Action:** Talk to NPC 6 at (4, 8).
+- **Goal:** Open Gates (Top Right or Bottom Right).
+- **Current Location:** Top Left (Near NPC 6).
+- **Hypothesis 1:** Machop at (7, 7) interacts with the puzzle.
+- **Hypothesis 2:** "Junk" at Bottom Left (NPC 7 area) requires `Itemfinder`.
+- **Hypothesis 3:** Gates open when NPCs are NOT "watched" (Player out of sight? Or specific position?).
 - **Plan:**
-    1. **Talk:** Interact with NPC 6.
-    2. **Observe:** Does he say something useful? Do gates open?
-    3. **Search:** Use `Itemfinder` if dialogue fails.
-    4. **Machop:** Check Machop at (7, 7).
+    1. **Test:** Interact with Machop at (7, 7).
+    2. **Observe:** Check Top Gates at (10, 8).
+    3. **Action:** If closed, move to Bottom Left.
+    4. **Tool:** Use `Itemfinder` near NPC 7.
+- **Note:** NPC 6 says "I lose passion if someone's watching". He faces Down. He sees Col 4.
+    - Maybe I need to enter the Top Pocket from the *Right* side (Col 12) after tricking him? No, Col 12 is the exit.
+    - I need to enter from Col 8/9.
+    - Maybe I need to distract him?
 
 ## Status
 - Player at (9, 9).
