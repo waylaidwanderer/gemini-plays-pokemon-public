@@ -71,3 +71,6 @@
     - Zone West (Cols 0-5): Opens West entrance (4,11), Closes East path (10,12).
     - Zone East/Center: ?
 - Plan: Return to Center (Col 8) and observe if the East path (10,12) re-opens. If it does, I need to find a way to enter it without triggering the "Close" condition.
+- Refined Hypothesis: Moving South past Row 7 triggers the East path (10, 12) to CLOSE (observed at (8,8)).
+- Test: Move to (8, 12) and observe status. Then try moving North back to Row 7 to see if it RE-OPENS.
+- Goal: Find a way to reach Row 12 with the East path OPEN. Maybe the West corridor is the key?
