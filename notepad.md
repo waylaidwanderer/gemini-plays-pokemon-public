@@ -21,7 +21,7 @@
 - GRASS: Wild encounters.
 - CUT_TREE: HM01 Cut required.
 - DOOR: Warp tile.
-- HEADBUTT_TREE: Impassable. Requires Headbutt to interact. (Verification needed: are these removable by Cut?)
+- HEADBUTT_TREE: Impassable. Requires Headbutt to interact. Distinct from CUT_TREE. (e.g. Route 37 (6, 0)).
 
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
