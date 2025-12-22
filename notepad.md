@@ -2,9 +2,10 @@
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Active Status: Super Repel active (Turn #12835). 8 left.
+- Active Status: Super Repel wore off (Turn #12868). Re-applying now.
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
 - Tracking: Suicune confirmed on Route 38 (Turn #12860). Proceeding with Grass Dance.
+- Task Timestamp: Grass Dance task started Turn #12861.
 - Strategy: Use `check_suicune_location_v2` -> Confirm Route -> Resume Grass Dance or Boundary Dance.
 
 # Route 38 Specific Notes
@@ -21,8 +22,11 @@
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
 - FLOOR: Traversable.
 - WALL: Impassable.
-- LEDGE_HOP: One-way traversable (Down/Left/Right).
-- WARP_CARPET: Traversable. Triggers map transition.
+- LEDGE_HOP_DOWN: One-way traversable (Down).
+- LEDGE_HOP_LEFT: One-way traversable (Left).
+- LEDGE_HOP_RIGHT: One-way traversable (Right).
+- HEADBUTT_TREE: Impassable. Can be interacted with for Headbutt.
+- WARP_CARPET_RIGHT: Traversable. Triggers map transition.
 
 # PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
@@ -36,4 +40,3 @@
 - Lead: Gloom (KIMCHI) with Sleep Powder.
 - Status: Sleep is best.
 - Analyst: Use `suicune_capture_analyst_v2` for catch odds.
-- Tool Note: check_suicune_location_v2 requires correct current_menu_index. Cursor was at index 2 (PACK) after using Repels. Last confirmed repel status: Active (Turn #12849).
