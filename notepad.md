@@ -4,13 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Fly Map.
-- **Reason:** Previous attempts to move the cursor failed (Text remained "New Bark Town"). Testing basic control with a single manual input.
+- **Status:** In Fly Map (Stuck?).
+- **Reason:** Cursor controls appear unresponsive. Pressing 'B' to reset the menu state and confirm inputs are registering.
 - **Plan:**
-    1. Press Left (Standard Press).
-    2. Check if destination changes to "CHERRYGROVE CITY".
-    3. If successful, proceed to Goldenrod.
-    4. If failed, try closing/reopening map.
+    1. Press B to close map.
+    2. If successful, re-open map and try again.
+    3. If unsuccessful, assume stuck/frozen.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
