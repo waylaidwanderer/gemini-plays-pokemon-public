@@ -5,7 +5,7 @@
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
 - Active Status: Repel active (Turn #12335).
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, or phone call.
-- Tool Usage: `grass_dance_tool` for pacing, `check_suicune_location_v2` for tracking. **Avoid SWEET SCENT**.
+- Tool Usage: `grass_dance_tool` for pacing, `check_suicune_location_v3` (needs refinement) for tracking. **Avoid SWEET SCENT**.
 
 # Route 37 Tile Mechanics
 - TALL_GRASS at (8, 2), (9, 2), (7, 2): Traversable, triggers wild encounters.
