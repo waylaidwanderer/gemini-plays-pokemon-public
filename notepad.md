@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Preparing for Radio Tower.
-- **Status:** Accessing PC in Elm's Lab.
-- **Reason:** Swapping Togepi (Box 1) for Gyarados (Box 1, Slot 2) to strengthen team.
+- **Status:** Repositioning to access PC.
+- **Reason:** Interacted with PC from behind (flavor text). Trying side access from (4, 5).
 - **Plan:**
-    1. Open PC (Down, A).
-    2. Select Bill's PC.
-    3. Deposit Togepi.
-    4. Withdraw Gyarados.
-    5. Fly to Goldenrod City.
+    1. Clear text (B).
+    2. Move to side of PC (Right, Down).
+    3. Face PC (Left).
+    4. Interact (A).
+    5. If fails, Fly to Goldenrod.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
