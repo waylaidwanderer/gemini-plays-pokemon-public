@@ -26,10 +26,11 @@
 
 ## Active Quests/Leads
 - **Uniform:** Needed to enter Radio Tower. Likely in the Underground or with a specific NPC.
-- **Basement Puzzle:** The workers (Black Belts/Machops) are moving boxes. I need to find a way to make them open the path to the items/ladder.
-    - Hypothesis 1: Interact with them to trigger movement.
-    - Hypothesis 2: Leave the area or hide to let them work (based on dialogue).
-    - Plan: Reset the area by taking the elevator to 1F and returning. The workers might move the boxes while I'm gone.
+- **Basement Puzzle Strategy:**
+    - **Goal:** Reach the items/ladder in the East/North-East section.
+    - **Mechanic:** Boxes move dynamically (observed once). NPCs say they "work behind the scenes" and "won't work if watched".
+    - **Current Test:** Using the elevator to leave (go to 1F) and return (B1F) to see if the layout resets or changes to a favorable state.
+    - **Backup Plan:** If elevator reset fails, try interacting with all NPCs again or look for a switch elsewhere.
 ## Reflections (Turn 12156)
 - **Execution:** Good. No deferred tasks.
 - **Hygiene:** Notepad cleaned. Markers updated.
