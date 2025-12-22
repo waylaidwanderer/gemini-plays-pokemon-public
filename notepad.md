@@ -235,3 +235,5 @@
 - **Plan:** Moving to East Room (13, 8).
 - **Hypothesis:** "Behind the Scenes" - I must be in the East Room (out of sight of the West workers) for the layout to change/open the path to the Northeast.
 - **Action:** Navigate to (13, 8). Ensure NPC 5 is not blocked.
+- **Status:** Moving to East Room (13, 8) to test "Behind the Scenes" hypothesis.
+- **Hypothesis:** Entering the East Room (Cage) might trigger the layout change (Gates closing/opening) because I am out of sight of the workers.
