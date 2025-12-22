@@ -22,6 +22,7 @@
   - (16,6), (17,6): OPEN
   - (12,8): CLOSED
   - (Others): Same as baseline. (Verified Turn 10626)
+  - Note: Row 7 is a permanent floor row, not a shutter row.
 - Test S2 (0,1,0):
   - (10,6): OPEN
   - (6,8): OPEN
