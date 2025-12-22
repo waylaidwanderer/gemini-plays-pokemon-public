@@ -5,11 +5,12 @@
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
 - **Status:** In Fly Map.
-- **Reason:** Navigating map cursor to Goldenrod City.
+- **Reason:** Previous fast inputs failed to move cursor. Using slow_press to navigate.
 - **Plan:**
-    1. Move cursor Left to find Goldenrod (approx 6 presses).
-    2. Confirm selection (A).
-    3. Arrive in Goldenrod.
+    1. Move cursor Left x3 (slowly).
+    2. Check destination text.
+    3. Adjust to Goldenrod if needed.
+    4. Confirm (A).
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
