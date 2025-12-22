@@ -253,3 +253,11 @@
 - **Inference:** NPC 5 at (9, 9) or (9, 11) results in Top Gates Open. This suggests Top Gates might be static or controlled by something else.
 - **Action:** Checking North East Barrier at (17, 5).
 - **Goal:** Verify if access to Ladder (17, 2) is still blocked by Wall at Row 4.
+- **Observation:** At `(17, 5)`. Row 4 is a solid WALL. No visible switches.
+- **Analysis:** The East Room is divided into 3 zones:
+    1. **North (Rows 1-3):** Contains Item/Ladder. Currently inaccessible.
+    2. **Middle (Rows 5-11):** Where I am. Accessible via Top Gates.
+    3. **South (Rows 13-16):** Accessible via Bottom Gates (presumably).
+- **Goal:** Access South Zone or North Zone.
+- **Action:** Since North is blocked, I must focus on opening the Bottom Gates to reach the South Zone.
+- **Plan:** Return to West Side and focus on the Bottom Gate area. Try interacting with the boxes at `(10, 12-13)` from the *East* side (Inside).
