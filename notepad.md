@@ -4,13 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Go to Radio Tower (Northwest Goldenrod).
-- **Status:** Moving West to X=6, then North.
+- **Status:** Navigating to West Goldenrod via South detour (y=28).
 - **Plan:**
-    1. Navigate to (6, 8).
-    2. Head North along the X=6 path.
-    3. Inspect the building to the Left (West) for an entrance.
-    4. This area (Northwest) is the prime suspect for the Radio Tower.
-    5. If blocked, check the area further South (Y=18+) or the "Unknown Warp" in the Northeast.
+    1. Go East to x=18, then South to y=28 (crossing the city).
+    2. Go West along y=28 to the West side (x=6).
+    3. Go North along the West side to find the Radio Tower (Northwest).
+    4. This avoids the walls blocking the middle of the city.
+    5. Check the Radio Tower entrance for requirements.
 
 ## Key Information
 - **Turn 12001:** Rocket Grunt at (31, 10) is a non-battling blocker.
