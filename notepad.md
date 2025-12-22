@@ -35,7 +35,9 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 ## Current Strategy & Obstacles
 - **Radio Tower Invasion:** The city is overrun. I need to infiltrate the Radio Tower.
-- **West Approach (16, 23):** Blocked by a Rocket Grunt (Hard Block).
-- **East Approach (31, 10):** Rocket Grunt blocking an Unknown Warp at (33, 9). Currently attempting to battle him.
+- **Blockades:**
+  - **West Path (16, 23):** Hard blocked by Grunt.
+  - **East Path (31, 10):** Grunt is a non-battling blocker. Cannot pass.
+  - **East Main Street:** Seems open. Attempting to bypass blockades by circling North.
 - **Missing Keys:** I lack the BASEMENT KEY and CARD KEY.
-- **Plan:** If this Grunt doesn't yield a path, I must try the main entrance of the Radio Tower (North-West, usually).
+- **Plan:** Navigate to the Gym area and circle around to the Radio Tower from the North. Check if the "Unknown Warp" becomes accessible later.
