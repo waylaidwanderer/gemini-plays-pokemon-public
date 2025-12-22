@@ -8,15 +8,16 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Bottom Gates (10, 12)/(10, 13).
-- **Hypothesis:** "Work behind scenes where no one can see us."
-    - I need to be out of NPC 7's sight (Row 13).
-    - I need to be out of NPC 5's sight (Row 9-11).
+- **Goal:** Open Bottom Gates (10, 13)/(11, 13).
+- **Hypothesis:** Gates open when NPC 7 stands on (8, 13).
+    - **Logic:** I was previously standing at (8, 13), blocking him from reaching it, so gates stayed closed.
+    - **Current:** I am at (8, 12). NPC 7 is at (7, 13) moving Right.
 - **Plan:**
-    1. **Hide:** Move to (8, 12). This tile is safe from NPC 7 (Row 13) and mostly safe from NPC 5 (unless he is at (9, 12)).
-    2. **Observe:** Check if gates open.
-    3. **Action:** If gates open, move Right into the pocket.
-- **Junk Hint:** If hiding fails, I will investigate the "junk" at (6, 13)/(7, 13) using the Itemfinder or interaction.
+    1. **Wait:** Press A to let time pass.
+    2. **Observe:** Watch NPC 7 move to (8, 13).
+    3. **Check:** See if gates at (10, 13) open.
+    4. **Action:** If they open, RUSH in (Move Down then Right).
+- **Note:** If this works, the same logic applies to the Top Pocket (Row 8/9). I blocked NPC 5 from reaching the top? No, NPC 5 moves vertically. Maybe similar logic though.
 
 ## Status
 - Player at (9, 9).
