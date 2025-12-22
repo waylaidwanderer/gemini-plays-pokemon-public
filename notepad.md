@@ -6,10 +6,10 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** Approaching Radio Tower Entrance.
-- **Hypothesis:** The door at (15, 7) is the Radio Tower.
-- **Reasoning:** It belongs to a massive building block (x=12-17, y=2-7) typical of the Radio Tower.
-- **Goal:** Enter and investigate Team Rocket's activities.
+- **Status:** Inside Name Rater's House.
+- **Correction:** The door at (15, 7) was the Name Rater, NOT the Radio Tower.
+- **Plan:** Exit and head further East/North. Check the door at (29, 5) or (24, 7).
+- **Hypothesis:** The Radio Tower is likely the large structure in the North-East block (east of the train tracks).
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
