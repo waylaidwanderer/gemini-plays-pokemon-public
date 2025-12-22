@@ -74,3 +74,12 @@
 # Error Log
 - Turn #11594: swap_pokemon_v1 failed significantly, opening Pokegear and Pokedex. Manual swap required.
 - Turn #11594: Hallucination warning at (31, 5). Moving to break loop.
+
+# Tin Tower Grounds
+- Isolated eastern area of Ecruteak City.
+- Accessible via the Wise Trios Room (entrance building).
+- Exits:
+  - (20, 2) and (20, 3) lead back to the Wise Trios Room.
+  - (35, 26) and (35, 27) lead to Route 42.
+- Contains an unidentified building entrance at (37, 7).
+- Suicune is located further inside the Tin Tower, which is accessed from this area.
