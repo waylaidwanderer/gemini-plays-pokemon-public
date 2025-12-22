@@ -1,9 +1,16 @@
 # Suicune Capture Strategy
 - Attempt 1: Failed (Turn #11814). Whited out.
 - Status: Party fully healed. Suicune reset to full HP (if present).
-- Plan: Check Clerk at (13, 5) for Revives. If available, buy 5. Then Fly to Ecruteak.
-- Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. Use Smokescreen (Typhlosion) if Sleep Powder misses or fails.
+- Plan: Check Dept. Store 3F for Revives. If found, buy 5. Then Fly to Ecruteak City and check Tin Tower 1F for Suicune.
+- Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. If Suicune is asleep, throw Great Balls. Use Smokescreen (Typhlosion) as backup to tank hits.
 - Ball Count: 40 Great Balls, 2 Poké Balls.
+
+# Strategy for Suicune Rematch
+1. Lead with KIMCHI.
+2. Use Sleep Powder until Suicune falls asleep.
+3. Switch to Calcifer and use Smokescreen to max out evasion if needed, or just start throwing Great Balls while it sleeps.
+4. If Suicune wakes up, re-apply Sleep.
+5. Goal: Catch Suicune without whiting out. Use Revives if KIMCHI falls.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F, Goldenrod City, Dept Store 2F)
