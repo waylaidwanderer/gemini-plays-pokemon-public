@@ -1,8 +1,6 @@
 # Suicune Capture Strategy
 - Attempt 1: Failed (Turn #11814). Whited out.
 - Status: Party fully healed. Suicune reset to full HP (if present).
-- Task: Restock and Prepare. (Start Turn: #11815, 4:00 AM)
-- Restock Plan: Check 2F Clerks for Revives. If unavailable, Fly to Ecruteak.
 - Lesson: Always verify Map ID before assuming floor transitions in multi-floor buildings to avoid time loops.
 
 # Strategy for Suicune Rematch
