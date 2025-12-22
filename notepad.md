@@ -53,3 +53,5 @@
     3. Maximize accuracy reduction with Smokescreen (Completed).
     4. Throw Great Balls until caught.
     5. Heal Typhlosion with LEMONADE if HP falls below 50%.
+- Capture Marathon Started: Turn #11666, Time: Monday, Dec 22, 2025, 2:15 AM.
+- Strategy Audit: Suicune is at minimum accuracy (-6) and critical HP (RED). This is the optimal state for capture without status. I will persist with Great Balls.
