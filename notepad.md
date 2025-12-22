@@ -393,3 +393,7 @@
 - **Correction:** I need to be at `(7, 12)` to talk to him from the North.
 - **Action:** Moving Right to `(7, 12)`.
 - **Next Turn:** Unstun and Interact (Down) to force Face UP.
+- **Correction:** I was at `(7, 12)`, not `(6, 12)`. Navigating LEFT to `(6, 12)`.
+- **Action:** Stunning NPC 7 at `(6, 13)` to fix his position.
+- **Next Turn:** Unstun and Interact (Down) to force Face UP.
+- **Goal:** Conclusively test "NPC 7 Facing Up" hypothesis.
