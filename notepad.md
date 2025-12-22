@@ -8,20 +8,23 @@
 
 # Underground Warehouse Puzzle
 - Hint: "the switch on the end is the one to press first." (S3 or S1).
-- Confirmed Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
-- Current State: S3=ON, S2=ON, S1=ON. (Sequence Complete).
+- Target Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
+- Current State (Verified 10926): S3=ON, S2=OFF, S1=OFF.
 
-# Shutter Logic (Hypothesis)
+# Shutter Logic (Verified)
 - Baseline (OFF, OFF, OFF): (12,8) OPEN. All others CLOSED.
-- S3 (2,1) toggles: (2,6), (3,6)
+- S3 (2,1) toggles: (2,6), (3,6), (2,7), (3,7)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
-- S1 (16,1) toggles: (16,6), (17,6), (12,8)
+- S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
-# Current Strategy: Enter Warehouse
-1. Walk south through (2, 6) or (12, 8) to update Mental Map and verify all shutters are OPEN.
-2. Explore the southern area (Rows 9-29) to locate the Warehouse entrance (likely Map 3_55).
+# Current Strategy: Execute 3-2-1 Sequence
+1. S3 is ON.
+2. Turn S2 ON (Heading to (10, 2)).
+3. Turn S1 ON.
+4. Navigate to Warehouse entrance (likely Map 3_55).
 
 # Lessons Learned
 - Toggling S1 and S2 both affects shutter (12, 8). If both are ON, it returns to OPEN.
 - Shutter status report tool only reflects the Mental Map; must walk to shutters to verify current state.
-- (2, 7), (3, 7), (12, 6), (12, 7) are permanent WALL tiles.
+- (12, 6), (12, 7), (12, 9) are permanent WALL tiles.
+- Always check cursor position in menus to avoid turning switches OFF by mistake.
