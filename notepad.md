@@ -1,13 +1,11 @@
 # Suicune Capture Strategy (The "How")
 - Goal: Capture Suicune (Lv 40, Water).
 - Status: Suicune (Lv 40) HP in RED (~5-10%), Accuracy -6.
-- Strategy: Tank with GNEISS (Water weakness offset by Suicune's -6 accuracy) and throw Great Balls.
-- Hypothesis: Current capture rate with Great Balls at low HP and no status is low (~1.95%) but feasible. Persistence is the primary method as status-capable Pokemon (KIMCHI) are fainted and no Revives are in inventory.
-- Failed Attempts: ~130 turns of throwing balls at low HP.
-- Current Ball Count: 15 Great Balls, 2 Poké Balls.
-- Probability of Success with remaining balls: ~28.4%.
-- Suicune Accuracy: -6 (Minimum).
-- Lead: GNEISS (Graveler) @ 117/120 HP.
+- Strategy: Tank with Blarney (Sudowoodo). Suicune's -6 accuracy is the only defense.
+- Hypothesis: Persistence with Great Balls is the only path forward (~1.95% per throw).
+- Failed Attempts: ~131 turns of throwing balls at low HP.
+- Current Ball Count: 14 Great Balls, 2 Poké Balls.
+- Lead: Blarney (Sudowoodo) @ 60/60 HP.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F)
