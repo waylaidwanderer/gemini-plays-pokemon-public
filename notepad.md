@@ -12,14 +12,13 @@
 - **Security Cameras:** Trigger alarms/battles - *Rocket Hideout*.
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym at (9, 7).
-- **Progress:** Defeated Skier Roxanne. Sliding to solve the puzzle.
+- **Status:** Inside Mahogany Gym at (9, 10).
+- **Progress:** Solved first slide. Heading west.
 - **Plan:**
-    1. Slide South to (9, 10).
-    2. Slide West to (5, 10).
-    3. Slide West to (2, 10).
-    4. Slide North to (2, 5) (Stopped by Rocker).
-    5. Slide East to (6, 5).
-    6. Slide North to (6, 3).
-    7. Interact with Pryce at (5, 3).
+    1. Slide West to (5, 10).
+    2. Slide West to (2, 10).
+    3. Slide North to (2, 5) (Stopped by Rocker).
+    4. Slide East to (6, 5).
+    5. Slide North to (6, 3).
+    6. Interact with Pryce at (5, 3).
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
