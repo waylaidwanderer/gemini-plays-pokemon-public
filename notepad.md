@@ -3,9 +3,9 @@
 - Status: Suicune (Lv 40) HP in RED (~5-10%), Accuracy -6.
 - Strategy: Tank with Blarney (Sudowoodo) - our final Pokemon!
 - Hypothesis: Brute-force capture with remaining Great Balls is the only viable path (~1.95% per throw).
-- Failed Attempts: ~140 turns in battle.
+- Failed Attempts: ~141 turns in battle.
 - Ball Count: 13 Great Balls, 2 Poké Balls.
-- Lead: Blarney (Sudowoodo) @ 60/60 HP. Suicune's -6 accuracy protects us.
+- Lead: Blarney (Sudowoodo) @ 60/60 HP. Suicune's accuracy is -6.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F)
