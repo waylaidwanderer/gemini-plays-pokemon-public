@@ -112,3 +112,7 @@
     - NPC 6 (Top Left): "Lose passion if watched..."
     - NPC 7 (Bottom Left): "Junk on the ground... take it."
 - **Hypothesis:** Machop might provide a clue or trigger.
+- **Observation:** Machoke (7, 7) interaction yielded only "Maaacho!" (Cry). No immediate effect observed.
+- **Action:** Closing text and moving to (8, 12) to observe the Bottom Gate (10, 12-13).
+- **Hypothesis:** Bottom Gate might open based on NPC 5's movement or a different trigger I haven't found yet.
+- **Plan:** Stand at (8, 12) facing Right to watch the gate state as NPC 5 moves.
