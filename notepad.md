@@ -8,18 +8,17 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Bottom Gates (10, 13)/(11, 13) OR Exit Walls at Col 12.
-- **Hypothesis:** NPC Facing Direction triggers the mechanism.
-- **Current Test:** Make NPC 7 (Bottom Left) face **UP**.
+- **Goal:** Open Top or Bottom Gates.
+- **Hypothesis:** NPC 5 (Middle) facing LEFT triggers the mechanism.
 - **Plan:**
-    1. **Position:** Move to (6, 12) (Above NPC 7).
-    2. **Action:** Talk to him. He turns UP.
-    3. **Lock:** Stun him.
-    4. **Verify:** Check Bottom Gates (10, 13).
+    1. **Setup:** Move to (8, 9).
+    2. **Trigger:** Wait for NPC 5 to enter (9, 9).
+    3. **Interact:** Face Right + A. He turns LEFT.
+    4. **Lock:** Stun him.
+    5. **Verify:** Check Top (10, 8) and Bottom (10, 13) gates.
 - **Discarded:**
-    - Hidden Items (Itemfinder confirms none).
-    - NPC 6 Facing Up/Down/Right (Top Gates stayed closed).
-    - NPC 5 Facing Up/Down (Middle Exit stayed closed?).
+    - NPC 6/7 Directions - Failed.
+    - Hidden Items - Failed.
 
 ## Status
 - Player at (9, 9).
