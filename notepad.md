@@ -4,14 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Party Menu (Mistral Selected).
-- **Reason:** Selecting Fly to go to Goldenrod.
+- **Status:** In Fly Map.
+- **Reason:** Navigating map cursor to Goldenrod City.
 - **Plan:**
-    1. Close Muscle's Menu (B).
-    2. Select Mistral (Down x3).
-    3. Open Mistral's Menu (A).
-    4. Select Fly (A).
-    5. Navigate Map to Goldenrod.
+    1. Move cursor Left to find Goldenrod (approx 6 presses).
+    2. Confirm selection (A).
+    3. Arrive in Goldenrod.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
