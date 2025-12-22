@@ -3,7 +3,7 @@
 - Status: KIMCHI (Gloom) leading. 5 Revives in inventory.
 - Lesson: Always verify Map ID before assuming floor transitions in multi-floor buildings to avoid time loops.
 - Rematch Start: Turn #11972.
-- Current Position: (5, 8) in Tin Tower 1F.
+- Current Position: (10, 3) in Tin Tower 1F.
 - WARP_CARPET_DOWN: Warp tile. Moving Down on this tile triggers a map transition. (Verified: Tin Tower 1F 9,15)
 
 # Strategy for Suicune Rematch
@@ -28,7 +28,3 @@
 
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
-- Suicune Rematch Attempt 2 started at Turn #11972.
-- Current position: (5, 13) in Tin Tower 1F.
-- Objective: Reach Suicune at (9, 9).
-- Strategy: Use find_path_v4 to navigate the wall maze. Lead with KIMCHI.
