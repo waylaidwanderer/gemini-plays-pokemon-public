@@ -35,7 +35,3 @@
 - Contingency: Heal Calcifer (Typhlosion Lv 45) with LEMONADE if HP < 50%.
 - Lead: Calcifer (Typhlosion) is the only viable Pokémon for this battle.
 - Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
-
-# Capture Marathon Log
-- Started: Turn #11666.
-- Status: Suicune is at minimum accuracy (-6) and critical HP (RED). Strategy is to maximize ball throughput while maintaining Typhlosion's HP.
