@@ -28,5 +28,6 @@
 - Step 4: Walk south to (2,6) -> (12,8) -> Southeast to find Map 3_55 entrance.
 - Verification: Physically test the path. Do NOT reset until path is confirmed blocked.
 ## Final Sequence Execution
-- Turn 10510: Selected NO to keep S1 ON. Sequence 3-2-1 (All ON) is active.
-- Path Plan: (16,2) -> (16,4) -> (2,4) -> (2,6) -> (2,8) -> (12,8) -> Southeast.
+- Turn 10513: Selected NO to keep S1 ON. Sequence 3-2-1 (All ON) is active.
+- Path Plan: (16,2) -> (16,4) -> (2,4) -> (2,6) -> (2,8) -> (12,8) -> Southeast quadrant.
+- Shutter Check: (2,6) and (12,8) must be OPEN.
