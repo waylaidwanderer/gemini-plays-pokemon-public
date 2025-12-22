@@ -122,3 +122,10 @@
     3. If Bottom Gate (10, 12) opens, STUN NPC 5 immediately.
     4. Enter South East Room.
 - **Backup:** Talk to Black Belt at (7, 13).
+- **Hypothesis:** NPC Facing Direction controls the gates.
+    - NPC 7 is facing **Right** (towards Bottom Gates). Gates are **Closed**.
+    - **Test:** Make NPC 7 face **Up** or **Down** (away from gates) to see if they open.
+    - **Plan:**
+        1. Talk from current position (Right) -> He stays facing Right.
+        2. Move to (7, 12) (Above) -> Talk -> He faces Up -> Check Gates.
+        3. Move to (7, 14) (Below) -> Talk -> He faces Down -> Check Gates.
