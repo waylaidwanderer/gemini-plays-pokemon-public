@@ -58,3 +58,15 @@
 - Started: Turn #12668.
 - Goal: Buy 10+ Repels. Current Funds: ¥6821.
 - Ecruteak Mart Inventory: POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE...
+
+# Mart Locations & Inventories
+- Azalea: Poke Ball, Potion, Super Potion, Escape Rope, Repel, Antidote, Parlyz Heal, Flower Mail.
+- Olivine: Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
+- Ecruteak: (See Ecruteak Mart section).
+
+# Navigation Strategy: Finding Suicune
+1. Restock Super Repels (Olivine is best).
+2. Use Pokédex to locate Suicune.
+3. Move to a route adjacent to Suicune's location.
+4. Cross map boundary to try and "trap" Suicune on the same route.
+5. Apply Repel Trick.
