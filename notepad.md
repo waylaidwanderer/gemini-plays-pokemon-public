@@ -95,3 +95,7 @@
 - Plan: Navigate from (8, 10) -> (9, 10) -> (9, 13). Stay on Col 9.
 - Status: NPC 5 is stunned at (9, 9), keeping Col 9 clear south of him.
 - Goal: Reach East side via (12, 13).
+- Analysis: Entering Col 9 from Row 10 (North) did NOT open Gate 3.
+- Hypothesis: The trigger requires crossing from Col 8 to Col 9 at Row 11 specifically (replicating Turn 12186).
+- Plan: Move Left to Col 8 (West Zone Reset), then cross Right to Col 9 at Row 11 (Trigger East Zone).
+- Path: (9, 13) -> (8, 13) -> (8, 11) -> (9, 11) -> (9, 13).
