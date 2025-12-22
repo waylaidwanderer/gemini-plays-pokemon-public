@@ -4,14 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** Navigating around Rocket Grunts to reach Radio Tower.
-- **Goal:** Reach (33, 9) (Radio Tower Entrance).
-- **Obstacles:** 
-    - Grunt at (31, 10) blocks direct East path.
-    - Grunt at (29, 7) blocks North path (facing down).
-- **Plan:** Attempt to flank North via (29, 8) -> (31, 7) -> (34, 7).
-    - Risk: Grunt at (29, 7) might engage in battle.
-- **Contingency:** If blocked/engaged, win battle or find alternative route.
+- **Status:** At Radio Tower perimeter.
+- **Problem:** Rocket Grunt at (31, 10) blocks the only path to the entrance at (33, 9).
+- **Plan:** Approach Grunt from the North (31, 9) and interact/battle.
+- **Hypothesis:** Defeating him or talking to him might clear the way or reveal I need a disguise.
+- **Lore Check:** In Crystal, a Team Rocket Uniform from the Underground might be required. Validating this by talking to the guard first.
 
 ## Map Data
 - **Goldenrod City:**
