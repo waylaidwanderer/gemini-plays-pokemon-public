@@ -356,3 +356,10 @@
 - **Goal:** Force NPC 7 to face **UP**.
 - **Check:** Look at Gate `(10, 12)` to see if it opens (turns to Floor).
 - **Hypothesis:** NPC 7 Facing UP -> Gates OPEN.
+- **Correction:** I am at `(7, 13)`. NPC 7 is at `(6, 13)`.
+- **Action:** Moving to `(6, 12)` (North of NPC 7).
+- **Plan:**
+    1. Move to `(6, 12)`.
+    2. Unstun NPC 7 (Next Turn).
+    3. Interact (Down) to force Face UP.
+- **Hypothesis:** NPC 7 Facing Up -> Gate `(10, 12)` Opens.
