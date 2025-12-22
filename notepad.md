@@ -3,10 +3,10 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Navigate to Cut Tree (30, 9) on Route 29 -> Cherrygrove City.
-- **Status:** Navigating Route 29.
+- **Navigation:** Navigate to Cut Tree (21, 11) on Route 29 -> Cherrygrove City.
+- **Status:** Cutting tree at (21, 11).
 - **Plan:**
-    1. Go to Cut Tree at (30, 9) and use Cut.
+    1. Cut Tree at (21, 11).
     2. Travel West to Cherrygrove City.
     3. Fly to Goldenrod City from Cherrygrove.
 
