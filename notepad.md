@@ -32,12 +32,23 @@
 - Player moving to (8, 10).
 - NPC 5 patrolling (9, 10) <-> (9, 11).
 - Plan: Intercept NPC 5 at (9, 10) from (8, 10).
-## Reflection (Turn 12312)
-- **Time:** Start of specific trap attempt.
-- **Hygiene:** Verified map markers and notepad.
-- **Status:** Player at (8, 9) facing Right. NPC 5 at (9, 9).
-- **Plan:** Press A to turn NPC 5 Left. Then Stun. Then Move.
-- **Root Cause Check:** If this "turn him left" strategy fails to open gates, the "Facing Direction" hypothesis might be incomplete (e.g., maybe purely position based, or there's a switch I missed). But evidence points to vision cones.
+## Reflection (Turn 12467)
+- **Time:** Start of interaction with NPC 7.
+- **Hygiene:** Verified. Notepad clean.
+- **Hypothesis Check:**
+    - NPC 5 (Top) did NOT trigger gates by facing or position (so far).
+    - NPC 6 (Top Left) did NOT trigger gates.
+    - **Current:** NPC 7 (Bottom) might control the bottom gates.
+- **Root Cause:** If this fails, I might need to re-evaluate if the boxes are controlled by these NPCs at all, or if there's a different trigger (e.g. key item, switch, or sequence).
+- **Plan:** Interact with NPC 7. If he turns/moves, check gates.
+
+## Basement Puzzle Strategy
+- **Goal:** Open Gates/Boxes.
+- **Current Test:** Interact with NPC 7 (Bottom Worker).
+- **Status:**
+    - Player at (6, 12).
+    - NPC 7 at (7, 13).
+    - Action: Moving to (7, 12) to talk.
 
 # Tile Mechanics
 - **WALL:** Impassable.
