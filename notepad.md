@@ -9,7 +9,7 @@
 - GRASS: May trigger wild encounters.
 - MART_SHELF: Impassable. Acts as WALL.
 - COUNTER: Impassable. Acts as WALL. Interact with NPCs behind counters from an adjacent tile.
-- ELEVATOR: Untested warp tile. Buttons at (3, 0) on 5F/4F were non-functional on Turn #11355/11370.
+- ELEVATOR: Warp tile (2, 0). Buttons at (3, 0) on 5F/4F were non-functional on Turn #11355/11370 (likely requires being inside or facing specific direction).
 
 # Strategy: Tin Tower Investigation
 - Mission Start: Turn #11243.
@@ -59,7 +59,8 @@
 - Cooltrainer M (6, 3) wants to trade ABRA for MACHOP.
 - Goldenrod Dept Store 4F: Medicine Box. Clerk (13, 5) sells Protein, Iron, Carbos, Calcium for 9800 each.
 - Goldenrod Dept Store 3F: Battle Collection. Clerk (6, 1) sells battle items (X Attack, X Defend, X Speed, X Special, X Accuracy, Guard Spec., Dire Hit).
-- Goldenrod Dept Store 2F: Trainer's Market. Clerk (13, 5) sells Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
+- Goldenrod Dept Store 2F Clerk (13, 5): Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
+- Goldenrod Dept Store 2F Clerk (13, 6): Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500), Full Heal (600), Poké Doll (1000), Flower Mail (50).
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
