@@ -32,6 +32,6 @@
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
 
 # Lessons Learned
-- S1 and S2 both toggle (12, 8). This explains the "unexpected" closing.
+- S1 and S2 both toggle (12, 8). This explains why (12, 8) closed when turning only one of them ON.
 - NPC movement or turn-based updates can make shutters appear to move on their own.
 - Trust the shutter report tool for state verification.
