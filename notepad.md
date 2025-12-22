@@ -21,13 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Mission Complete! Radio signal disabled. Obtained HM06 (Whirlpool).
-- **Current Location:** B2F Transmitter Room (14, 11).
+- **Status:** Exiting Team Rocket Hideout.
+- **Current Location:** B1F, heading to Exit at (27, 2).
 - **Next Steps:**
-    1. Explore the East side of this room (Lance's side) for any missed items.
-    2. Exit the hideout via B2F ladder (3, 14) -> B1F -> Exit.
-    3. Heal and challenge Pryce at Mahogany Gym.
-- **Inventory Note:** Need to teach Whirlpool to a Pokemon (probably Lapis/Poliwag or a new water type) eventually, but need Badge first.
+    1. Exit to Mahogany Mart.
+    2. Heal at Pokemon Center.
+    3. Challenge Pryce at Mahogany Gym.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
