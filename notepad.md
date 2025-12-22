@@ -71,6 +71,7 @@
 - **Method:** Walk Right into the box.
 - **Reason:** Final check before abandoning B1F. I tried interacting, but maybe I didn't *push* from this specific angle.
 - **Next:** If this fails, I am exiting to the Elevator and heading to the Radio Tower to verify progression requirements.
-- **Action:** Abandoning B1F puzzle for now.
-- **Reason:** All hypotheses failed. Likely missing a key item or trigger.
-- **Next Goal:** Exit to 1F, then head to Radio Tower to investigate the blockade.
+- **Action:** Abandoned B1F. Currently in Elevator.
+- **Goal:** Go to 1F, then exit Dept Store.
+- **Target:** Radio Tower (Goldenrod North).
+- **Reason:** Need to find the Director or a Key Item (Card Key?) to progress. The B1F puzzle seems insolvable with current resources.
