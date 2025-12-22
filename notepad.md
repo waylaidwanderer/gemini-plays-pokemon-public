@@ -18,5 +18,5 @@
 - **Goal:** Reach Director on 5F.
 - **Status:** Exploring West side of 4F.
 - **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
-- **Hypothesis:** Stairs to 5F (Director's location) are likely hidden on the West side, possibly behind the Scientist at (4, 2) or in the unexplored top-left corner.
-- **Plan:** Navigate to (4, 3) to engage Scientist and explore the area.
+- **Confirmed:** Stairs to 5F located at (0, 0).
+- **Plan:** Engage Scientist at (4, 2), then ascend to 5F.
