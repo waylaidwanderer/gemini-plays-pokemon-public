@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Preparing for Radio Tower.
-- **Status:** Repositioning to access PC.
-- **Reason:** Interacted with PC from behind (flavor text). Trying side access from (4, 5).
+- **Status:** Exiting Elm's Lab.
+- **Reason:** Elm's PC appears to be for research (flavor text), not storage. Heading to Goldenrod PokeCenter to swap Pokemon and start the Radio Tower mission.
 - **Plan:**
-    1. Clear text (B).
-    2. Move to side of PC (Right, Down).
-    3. Face PC (Left).
-    4. Interact (A).
-    5. If fails, Fly to Goldenrod.
+    1. Exit Lab (Down x6).
+    2. Fly to Goldenrod City.
+    3. Enter PokeCenter.
+    4. Deposit Togepi / Withdraw Gyarados.
+    5. Head to Radio Tower.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
