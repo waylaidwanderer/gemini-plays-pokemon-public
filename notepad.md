@@ -28,6 +28,8 @@
 - LEDGE_HOP_LEFT: One-way traversable (West/Left only).
 - LEDGE_HOP_RIGHT: One-way traversable (East/Right only).
 - WARP_CARPET: Traversable. Triggers map transition.
+- MART_SHELF: Impassable. Standard shop shelf.
+- COUNTER: Impassable. Can interact with NPCs across it.
 
 # Route 37 Specific Notes
 - TALL_GRASS at (8, 2), (9, 2), (7, 2): Pacing spot.
@@ -40,6 +42,7 @@
 - Navigation Buffer: After using a warp, move 3+ tiles away before starting a new path.
 - Repel Refresh: If game incorrectly claims Repel is active after wearing off, move 1 step to reset state.
 - Phone Calls: Interrupt gameplay but do not affect Repel count or Roamer location.
+- Overworld Interaction: Do not mix directional and action buttons in the same `press_buttons` call. Move adjacent first, then interact.
 
 # Menu Navigation
 - Circular Menu: Unreliable fixed Up/Down counts. Verify cursor position.
@@ -49,3 +52,7 @@
 - Clerk at (1, 3) behind counter at (2, 3).
 - Tile: COUNTER (2, 3) - Impassable, interact across it.
 - Tile: MART_SHELF (0, 5) etc. - Impassable.
+
+# Repel Restock Tracking
+- Started: Turn #12668.
+- Goal: Buy 10+ Repels. Current Funds: ¥6821.
