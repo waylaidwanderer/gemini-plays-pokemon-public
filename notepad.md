@@ -18,7 +18,7 @@
 - Strategist Advice (Turn #11374):
     - Lead: Calcifer (Typhlosion). Smokescreen x6.
     - Status: KIMCHI (Gloom) for Sleep Powder once HP is red (chip with Headbutt).
-    - Prep: Teach TM41 (ThunderPunch) to Calcifer. Buy ~30 Ultra Balls.
+    - Prep: Teach TM41 (ThunderPunch) to Calcifer.
     - Risk: GNEISS and Blarney are 4x weak to Water.
 - Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
 
