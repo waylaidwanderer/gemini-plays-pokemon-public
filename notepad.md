@@ -1,23 +1,24 @@
 # Suicune Capture Strategy
 - Attempt 1: Failed (Turn #11814). Whited out.
 - Status: Party fully healed. Suicune reset to full HP (if present).
-- Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. If Suicune is asleep, throw Great Balls. Use Smokescreen (Typhlosion) as backup to tank hits.
 - Task: Restock and Prepare. (Start Turn: #11815, 4:00 AM)
-- Plan: 5F Directory confirmed 5F is TM Corner. Move to 2F to check for Revives. If not sold in store, Fly to Ecruteak.
+- Restock Plan: Check 2F Clerks for Revives. If unavailable, Fly to Ecruteak.
 - Lesson: Always verify Map ID before assuming floor transitions in multi-floor buildings to avoid time loops.
 
 # Strategy for Suicune Rematch
-1. Lead with KIMCHI.
+1. Lead with KIMCHI (Gloom).
 2. Use Sleep Powder until Suicune falls asleep.
-3. Switch to Calcifer and use Smokescreen to max out evasion if needed, or just start throwing Great Balls while it sleeps.
-4. If Suicune wakes up, re-apply Sleep.
-5. Goal: Catch Suicune without whiting out.
+3. While Suicune is asleep, call `capture_analyst` tool to determine catch probabilities and optimal ball usage based on current HP and status.
+4. If Suicune wakes up, re-apply Sleep Powder.
+5. Use Smokescreen (Typhlosion) to minimize damage if Suicune is awake.
+6. Goal: Catch Suicune without whiting out.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F, Goldenrod City, Dept Store 2F)
 - WALL: Impassable. (Verified: Tin Tower 1F, Goldenrod City)
-- COUNTER/SHELF: Impassable. (Verified: Dept Store 2F)
-- LADDER/STAIRS/WARP: Warp tiles.
+- COUNTER: Impassable. Interact with NPCs behind by facing the counter and pressing A. (Verified: Dept Store 2F)
+- MART_SHELF: Impassable. (Verified: Dept Store 2F)
+- STAIRCASE/WARP: Triggers map transition. (Verified: Dept Store floors)
 - WATER: HM03 Surf required.
 - GRASS: Encounters possible.
 - CUT_TREE: HM01 Cut required.
