@@ -4,15 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Withdrawing Togepi.
-- **Status:** Depositing Kenya to make space.
-- **Reason:** Swapping Kenya for Togepi to complete Elm's side quest.
+- **Status:** Using "MOVE PKMN W/O MAIL" to Deposit Kenya.
+- **Reason:** Kenya has Mail. Standard deposit failed. This specific PC function removes mail and deposits in one step.
 - **Plan:**
-    1. Enter "DEPOSIT PKMN" (A, Down, A).
-    2. Select Kenya (Down x4).
-    3. Deposit (A).
-    4. Clear Text/Exit Deposit (A, B).
-    5. Enter "WITHDRAW PKMN" (Up, A).
-    6. Find and Withdraw Togepi.
+    1. Select "MOVE PKMN W/O MAIL" (Down x2, A).
+    2. Select Kenya (Down x4, A).
+    3. Clear messages (A x2).
+    4. Return to PC Menu (B).
+    5. Withdraw Togepi.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
