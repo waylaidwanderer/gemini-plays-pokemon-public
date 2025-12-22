@@ -6,8 +6,8 @@
 - Lead: Calcifer (Typhlosion) @ 111/142 HP.
 - Observations: Suicune uses Bubblebeam (Water), Gust (Flying), Leer, Rain Dance.
 - Mechanics: Confirmed Suicune does not have Roar/Whirlwind at Lv 40 in Crystal.
-- Marathon Start: Turn #11666.
-- Progress: 3 Ultra Balls, 23 Great Balls used. 28 Great Balls remaining.
+- Progress: 3 Ultra Balls, 24 Great Balls used. 27 Great Balls remaining.
+- Current Turn: #11751.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
