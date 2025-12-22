@@ -18,7 +18,10 @@
   - (12,8): OPEN
   - (17,6): CLOSED
   - (17,7): CLOSED
-- Test S1 (1,0,0): ?
+- Test S1 (1,0,0):
+  - (16,6), (16,7), (17,6), (17,7): OPEN
+  - (12,8): CLOSED
+  - (Others): Same as baseline. (Verified Turn 10626)
 - Test S2 (0,1,0):
   - (10,6): OPEN
   - (6,8): OPEN
@@ -28,6 +31,24 @@
   - (2,6): OPEN
   - (3,6): OPEN
   - (Others): Same as baseline.
+
+# Final Puzzle Logic (Verified)
+- S3 toggles: (2,6), (3,6)
+- S2 toggles: (10,6), (6,8), (12,8)
+- S1 toggles: (16,6), (16,7), (17,6), (17,7), (12,8)
+- Baseline (0,0,0): (12,8) is the ONLY open shutter.
+- Solution (3-2-1):
+  1. S3 ON -> Opens (2,6), (3,6).
+  2. S2 ON -> Opens (10,6), (6,8). Closes (12,8).
+  3. S1 ON -> Opens (16,6), (16,7), (17,6), (17,7). Opens (12,8).
+  Result: ALL paths open.
+
+# Current Strategy: Execute 3-2-1
+1. Turn S1 OFF (Return to 0,0,0 baseline).
+2. Turn S3 ON.
+3. Turn S2 ON.
+4. Turn S1 ON.
+5. Enter Warehouse.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
