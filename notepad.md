@@ -24,9 +24,17 @@
 - Switch 3 (2,1): Toggles (2,6/7), (3,6/7), (12,8/9).
 
 ## Toggle Log
-- Turn 10434: (1,0,0) verified. (2,6), (3,6), (2,7), (3,7) are OPEN. (12,8) is OPEN. (10,6), (6,8) are CLOSED.
+- Turn 10452: (1,1,0) state. (2,6), (3,6) OPEN. (12,8) OPEN. (10,6), (6,8), (16,6) CLOSED.
+- Turn 10448: (1,1,1) report: (2,6), (3,6), (12,8) OPEN. (10,6), (16,6), (6,8) CLOSED.
+- Turn 10434: (1,0,0) verified. (2,6), (3,6) OPEN. (12,8) OPEN.
 - Turn 10428: (0,0,0) baseline report: All shutters CLOSED.
-- Turn 10415: (0,0,1) verified. (16,6), (17,6) are OPEN.
+
+# Puzzle Logic Analysis
+- 3-2-1 sequence (S3->S2->S1) failed to open (6,8) and (16,6).
+- S3 (1,0,0) opens (2,6), (3,6), (12,8).
+- S2 (ON) at (1,1,0) did NOT open (6,8) or (10,6) according to visual check. This contradicts the summary.
+- Hypothesis: Order matters. S3 might reset S2/S1 or vice-versa.
+- New Plan: Reset to (0,0,0), then test 1-2-3.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant.
