@@ -34,3 +34,4 @@
 
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
+- (10, 2) identified as an 'Unmarked Warp' by system. Testing for access to 2F.
