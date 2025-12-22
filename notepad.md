@@ -6,10 +6,10 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** Inside Goldenrod PC.
-- **Plan:** Heal team (restore PP for Muscle), then exit and head to Radio Tower.
-- **Reasoning:** Muscle's Cross Chop is low on PP (5/5). Need full strength for Team Rocket.
-- **Next:** Interact with Nurse Joy, then Exit.
+- **Status:** Leaving Goldenrod PC.
+- **Correction:** Realized team is already fully healed (Cross Chop 5/5 is max PP). No need to talk to Nurse Joy.
+- **Plan:** Exit PC and head North to the Radio Tower.
+- **Target:** Radio Tower is likely in the NW part of the city, near the train station or arcade.
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
