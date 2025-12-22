@@ -25,8 +25,8 @@
 - Progress:
   - 1. S3 ON: Done (Turn 10357).
   - 2. S2 ON: Done (Turn 10365).
-  - 3. S1 ON: Next.
-- Verification: Test (17,6) traversability when S1 is ON.
+  - 3. S1 ON: Done (Turn 10371). Sequence Complete.
+- Verification: Move south to check if path to Map 3_55 is open at (10,6), (16,6), and (17,6).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
