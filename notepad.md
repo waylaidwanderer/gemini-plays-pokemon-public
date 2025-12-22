@@ -4,8 +4,8 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Depositing Kenya).
-- **Reason:** Opening Deposit menu to store Kenya (Spearow) so I can pick up Togepi.
+- **Status:** In Bill's PC (Opening Deposit Menu).
+- **Reason:** Navigating to "Deposit PKMN" to store Kenya.
 - **Plan:**
     1. Select "Deposit PKMN" (Down, A).
     2. Select Kenya (Slot 5).
