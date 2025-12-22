@@ -111,31 +111,29 @@
       }
     ]
   },
-  "type_mail": {
-    "description": "Generates and executes button presses to type text in the mail interface. Handles case switching and navigation. Assumes cursor starts at 'A' (0,0) in Upper Case mode.",
+  "navigate_to_coords": {
+    "description": "Finds a path to a target coordinate and returns the button sequence to get there. AUTOMATICALLY PRESSES BUTTONS if autopress_buttons is true.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "text_to_type": {
-          "type": "string",
-          "description": "The exact string to type."
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
         }
       },
       "required": [
-        "text_to_type"
+        "target_x",
+        "target_y"
       ]
     },
-    "python_script": "import json\n\ndef main(text_to_type):\n    current_x = 0\n    current_y = 0\n    current_case = 'upper'\n    \n    buttons = []\n    \n    # Grid Mapping (x, y) - 0-indexed\n    char_map = {}\n    \n    # Layout based on screen analysis\n    # Row 0: A-J (y=0)\n    # Row 1: K-T (y=1)\n    # Row 2: U-Z (y=2)\n    # Row 3: 1-0 (y=3)\n    # Row 4: Symbols (y=4) - Skipped\n    # Row 5: lower/UPPER button (y=5)\n    \n    layout = [\n        \"ABCDEFGHIJ\",\n        \"KLMNOPQRST\",\n        \"UVWXYZ    \",\n        \"1234567890\"\n    ]\n    \n    for y, row in enumerate(layout):\n        for x, char in enumerate(row):\n            if char != ' ':\n                char_map[char] = (x, y)\n    \n    # Space mapping: In row 2 (U..Z), space is at x=6\n    char_map[' '] = (6, 2)\n    \n    for char in text_to_type:\n        target_pos = None\n        target_case = current_case\n        \n        # Determine target char and case\n        if char.isalpha():\n            if char.isupper():\n                target_case = 'upper'\n                target_pos = char_map[char]\n            else:\n                target_case = 'lower'\n                target_pos = char_map[char.upper()]\n        elif char in char_map:\n            # Numbers, space, symbols (keep current case)\n            target_pos = char_map[char]\n        else:\n            # Fallback for unknown\n            continue\n            \n        # Switch case if needed\n        if target_case != current_case:\n            # Navigate to toggle button (0, 5)\n            \n            # X movement to 0\n            if current_x > 0:\n                buttons.extend([\"Left\"] * current_x)\n                current_x = 0\n                \n            # Y movement to 5\n            if current_y < 5:\n                buttons.extend([\"Down\"] * (5 - current_y))\n                current_y = 5\n            elif current_y > 5: \n                buttons.extend([\"Up\"] * (current_y - 5))\n                current_y = 5\n            \n            buttons.append(\"A\") # Toggle\n            current_case = target_case\n            \n        # Navigate to target char\n        tx, ty = target_pos\n        \n        # Y Movement\n        if ty > current_y:\n            buttons.extend([\"Down\"] * (ty - current_y))\n        elif ty < current_y:\n            buttons.extend([\"Up\"] * (current_y - ty))\n        current_y = ty\n            \n        # X Movement\n        if tx > current_x:\n            buttons.extend([\"Right\"] * (tx - current_x))\n        elif tx < current_x:\n            buttons.extend([\"Left\"] * (current_x - tx))\n        current_x = tx\n        \n        # Press A\n        buttons.append(\"A\")\n        \n    return buttons\n\ntry:\n    print(json.dumps(main(input_data[\"text_to_type\"])))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport heapq\nimport json\n\ndef parse_map(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = [[None for _ in range(height)] for _ in range(width)]\n    start = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            type_ = tile.attrib['type']\n            grid[x][y] = type_\n            if tile.get('has-player') == 'true':\n                start = (x, y)\n            if start is None:\n                for child in tile:\n                    if child.tag == 'Player':\n                        start = (x, y)\n    return grid, width, height, start\n\ndef get_path_buttons(path):\n    buttons = []\n    for i in range(len(path) - 1):\n        curr = path[i]\n        next_tile = path[i+1]\n        dx = next_tile[0] - curr[0]\n        dy = next_tile[1] - curr[1]\n        if dx == 1: buttons.append(\"Right\")\n        elif dx == -1: buttons.append(\"Left\")\n        elif dy == 1: buttons.append(\"Down\")\n        elif dy == -1: buttons.append(\"Up\")\n    return buttons\n\ndef is_walkable(tile_type):\n    # Treat unseen (None) as unwalkable for safety, unless we want to explore\n    return tile_type in [\"FLOOR\", \"GRASS\", \"WATER\", \"SAND\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\"]\n\ndef heuristic(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])\n\ndef a_star(grid, start, goal, width, height):\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = {start: 0}\n    f_score = {start: heuristic(start, goal)}\n    \n    while open_set:\n        current = heapq.heappop(open_set)[1]\n        if current == goal:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.append(start)\n            return path[::-1]\n        \n        neighbors = [\n            (current[0] + 1, current[1]),\n            (current[0] - 1, current[1]),\n            (current[0], current[1] + 1),\n            (current[0], current[1] - 1)\n        ]\n        \n        for neighbor in neighbors:\n            nx, ny = neighbor\n            if 0 <= nx < width and 0 <= ny < height:\n                tile_type = grid[nx][ny]\n                \n                walkable = False\n                if tile_type is not None and is_walkable(tile_type):\n                    walkable = True\n                if neighbor == goal:\n                    walkable = True # Force goal to be reachable\n                \n                if not walkable:\n                    continue\n\n                tentative_g_score = g_score[current] + 1\n                if neighbor not in g_score or tentative_g_score < g_score[neighbor]:\n                    came_from[neighbor] = current\n                    g_score[neighbor] = tentative_g_score\n                    f_score[neighbor] = tentative_g_score + heuristic(neighbor, goal)\n                    heapq.heappush(open_set, (f_score[neighbor], neighbor))\n    return None\n\ntry:\n    # Safely get arguments\n    tx = int(target_x)\n    ty = int(target_y)\n    \n    grid, w, h, start_pos = parse_map(map_xml_string)\n    \n    if not start_pos:\n        print(json.dumps([\"Error: Player position not found\"]))\n    else:\n        target = (tx, ty)\n        path = a_star(grid, start_pos, target, w, h)\n        if path:\n            buttons = get_path_buttons(path)\n            print(json.dumps(buttons))\n        else:\n            print(json.dumps([])) # No path\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-21T05:26:43.189Z",
-        "action_counter": 9528
-      },
-      {
-        "commit_message": "Updated to include json import for correct output formatting and refined grid comments.",
-        "timestamp": "2025-12-21T05:27:48.780Z",
-        "action_counter": 9529
+        "timestamp": "2025-12-22T03:42:20.433Z",
+        "action_counter": 11327
       }
     ]
   }

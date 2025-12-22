@@ -27,9 +27,10 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
+- **Mistake Log:**
+  - Turn 11324: Pressed 'A' on "Change Pokémon?" prompt (default YES), accidentally opening party menu. **Lesson:** Always press 'B' or 'Down'+'A' to decline switching.
 - **Status:** Battling Super Nerd Teru in Goldenrod Underground (South).
 - **Goal:** Defeat him.
 - **Current Opponent:** Magnemite (3rd Pokemon).
-- **Strategy:** Muscle stays in. Use Rock Smash.
-- **Next Target:** Super Nerd at (7, 14) after this battle.
-- **Plan:** Win battle, then check the next nerd.
+- **Action:** Cancel party menu (pressed by mistake), then fight.
+- **Next Target:** Super Nerd at (7, 14).
