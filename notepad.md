@@ -11,19 +11,19 @@
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face **LEFT** to open gates (looking away from them).
 - **Status:**
-    - Player at (10, 11).
-    - NPC 5 at (9, 10) (Stunned).
-    - **Action:** Moving to (8, 10) via (9, 11).
+    - Player at (8, 10).
+    - NPC 5 at (9, 10) (Attempting to Stun).
+    - **Action:** Stun NPC 5 to lock him at (9, 10).
 - **Plan:**
-    1. **Position:** Move to (8, 10) (Left side of NPC).
-    2. **Prepare:** Face Right.
-    3. **Interact:** Unstun NPC 5, then immediately press A to turn him LEFT.
-    4. **Lock:** Stun him again.
-    5. **Verify:** Check Top/Bottom gates.
+    1. **Lock:** Stun NPC 5 at (9, 10).
+    2. **Interact:** Once locked, try to Unstun and interact *carefully* (maybe wait for him to be in a 'wait' frame? or spam A?).
+    3. **Verify:** If he turns LEFT, Stun him again immediately.
+    4. **Check:** Check Top/Bottom gates.
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
     - NPC 5 Facing Right - Failed.
+    - NPC 5 Facing Left - Failed (Attempt 1: Unstun+A failed).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
