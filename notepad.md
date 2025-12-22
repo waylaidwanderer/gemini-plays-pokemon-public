@@ -105,4 +105,10 @@
 - **Plan:** Move to (5, 8), talk to NPC, then check Bottom Gate.
 - **Confirmed Dialogue (NPC 5):** "Our policy is to work behind the scenes where no one can see us!"
 - **Implication:** Box layout changes might depend on Player Position (being "seen" or "unseen").
-- **Action:** Talking to NPC 6 (4, 8) to compare dialogue.
+- **Action:** Talking to Machop at (7, 7).
+- **Hypothesis:** Machop might provide a clue or trigger.
+- **Goal:** Open Bottom Gates or access North East Room.
+- **Dialogue Log:**
+    - NPC 5 (Middle): "Work behind the scenes..."
+    - NPC 6 (Top Left): "Lose passion if watched..."
+    - NPC 7 (Bottom Left): "Junk on the ground... take it." (From previous turn).
