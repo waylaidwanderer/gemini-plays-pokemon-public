@@ -10,7 +10,7 @@
 
 # Shutter Logic (Hypothesis)
 - Baseline (OFF, OFF, OFF): (12,8) OPEN. All others CLOSED.
-- S3 (2,1) toggles: (2,6), (3,6)
+- S3 (2,1) toggles: (2,6), (3,6), (2,7), (3,7)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
