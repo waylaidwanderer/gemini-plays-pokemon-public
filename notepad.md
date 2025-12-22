@@ -21,10 +21,10 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** In battle with final Electrode at (7, 5) (B2F Transmitter Room).
-- **Progress:** Defeated 2/3 Electrodes.
-- **Strategy:** Using Dig (Ground) to avoid Selfdestruct and deal SE damage.
-- **Next:** After victory, investigate the machine or report to Lance.
+- **Status:** Electrodes defeated. Radio signal should be disabled.
+- **Position:** Moved to (14, 11) automatically. Lance is nearby at (18, 10).
+- **Next Step:** Confirm success with Lance and receive HM06 (Whirlpool) or next instructions.
+- **Goal:** Finish up here and likely defeat the final boss or exit.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
