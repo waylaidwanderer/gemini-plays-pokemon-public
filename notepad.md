@@ -119,3 +119,5 @@
 - Action: Navigate to (9, 12) to inspect the gates.
 - Navigation Note: (3, 12) is a Wall. Must detour via Row 11: (2, 12) -> (2, 11) -> (3, 11) -> (4, 11) -> (4, 12).
 - Plan: Inspect (10, 12) from (9, 12). If closed, the "West Zone" trigger might require a different approach or I need to engage the "Watcher" mechanics again.
+- Status: Returning to Central Zone to check if West Zone visit triggered the gates.
+- Observation: (3, 12) is a static wall, confirming the detour requirement.
