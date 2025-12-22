@@ -4,7 +4,7 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Super Repel active (Turn #12835). 8 left.
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
-- Tracking: Suicune last confirmed on Route 38 (Turn #12804). Re-verifying now due to stagnation (Turn #12845).
+- Tracking: Suicune last confirmed on Route 38 (Turn #12804). Re-verifying now due to stagnation (Turn #12846).
 - Strategy: Use `check_suicune_location_v2` -> Confirm Route -> Resume Grass Dance or Boundary Dance.
 
 # Route 38 Specific Notes
