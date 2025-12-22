@@ -8,15 +8,17 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Reach East side (Items/Ladder).
-- **Situation:** Player is INSIDE the middle-right box pocket at (10, 10).
-- **Observation:** The boxes at (10, 10)/(11, 10) are OPEN (FLOOR). The boxes at (10, 9)/(11, 9) are CLOSED (WALL).
+- **Goal:** Reach East side via Top Passage (Row 8/9).
+- **Situation:** Player in Middle Pocket (10,10 - Safe, Always Open). Top Pocket (Row 8/9) is CLOSED. Bottom Pocket (Row 12/13) is CLOSED.
+- **Hypothesis:** NPC 5 movement triggers the gates.
+    - Currently NPC 5 is looping at Bottom (9, 10/11).
+    - Top Gates are Closed.
+    - Expectation: When NPC 5 moves to Top (9, 8), Top Gates will OPEN.
 - **Plan:**
-    1. **Unstun** NPC 5 to let him move.
-    2. **Wait** for him to patrol North to (9, 8).
-    3. **Hypothesis:** When he is at the top of his route, the Top-Right boxes (Row 8/9) will open.
-    4. **Action:** Spam `Up` to catch the opening and move to (10, 9) -> (10, 8).
-    5. **Exit:** Move East through the wall gap at (12, 8) or (12, 9).
+    1. **Wait** in Middle Pocket for NPC to patrol North.
+    2. **Monitor** NPC position.
+    3. **Dash** North when (10, 9) opens.
+- **Logic Check:** "Work behind scenes" might mean he opens gates only when he is there? Or when he DOESN'T see me? Currently he doesn't see me (he faces Down), but gates are closed. So likely position-based.
 
 ## Status
 - Player at (9, 9).
