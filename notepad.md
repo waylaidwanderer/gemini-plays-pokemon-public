@@ -41,3 +41,6 @@
 - **Turn 3 Summary:** Muscle used Cross Chop. Dewgong fainted.
 - **Turn 4 Plan:** Stay in vs Piloswine. Use Cross Chop.
 - **Battle Status:** Muscle (122/157, -1 Speed) vs Piloswine (Fresh).
+- **Turn 3 Summary:** Muscle used Cross Chop. Dewgong fainted.
+- **Turn 4 Plan:** Stay in vs Piloswine. Use Cross Chop.
+- **Battle Status:** Muscle (122/157, -1 Speed) vs Piloswine (Fresh).
