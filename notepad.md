@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Preparing for Radio Tower.
-- **Status:** At Elm's Lab. Received Everstone.
-- **Reason:** Need to strengthen team for Team Rocket battles. Togepi is weak; Gyarados (Box 1) is Lv30 and strong.
+- **Status:** Accessing PC in Elm's Lab.
+- **Reason:** Swapping Togepi (Box 1) for Gyarados (Box 1, Slot 2) to strengthen team.
 - **Plan:**
-    1. Go to PC (3, 5).
-    2. Deposit Togepi.
-    3. Withdraw Gyarados (QAAGMAQNJW).
-    4. Fly to Goldenrod City.
-    5. Infiltrate Radio Tower.
+    1. Open PC (Down, A).
+    2. Select Bill's PC.
+    3. Deposit Togepi.
+    4. Withdraw Gyarados.
+    5. Fly to Goldenrod City.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
