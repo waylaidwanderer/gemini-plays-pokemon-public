@@ -129,3 +129,11 @@
         1. Move to (6, 13). Talk (He faces Right). Check Gates.
         2. Move to (5, 12). Talk (He faces Up). Check Gates.
         3. Move to (5, 14). Talk (He faces Down). Check Gates.
+- **Correction:** NPC 7 moves between (5, 13) and (6, 13), blocking access.
+- **Action:** Stunning NPC 7 to safely move to (6, 13).
+- **Observation:** While moving, NPC 7 faces Right and Left. Gates remained closed. This suggests simple facing during movement doesn't trigger it, or I missed it.
+- **Plan:**
+    1. Stun NPC 7.
+    2. Move to (6, 13).
+    3. Unstun and Talk (Force Static Right Face).
+    4. Move to (5, 12) (Force Static Up Face).
