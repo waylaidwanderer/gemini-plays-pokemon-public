@@ -228,3 +228,6 @@
 - **Hypothesis:** NPC 6 facing Right (towards Top Gates) implies "Watching".
 - **Prediction:** If "Watching = Closed", then Top Gates (10, 8-9) should CLOSE.
 - **Verification:** Check AsciiMap next turn for (10, 8) turning to WALL.
+- **Action:** Pressed A to talk to NPC 6 (4, 8) from the Right (5, 8).
+- **Expectation:** NPC 6 turns Right.
+- **Check:** Will Top Gates (10, 8-9) CLOSE? Will Bottom Gates (10, 12-13) OPEN?
