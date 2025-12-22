@@ -5,18 +5,17 @@
 - Switch (2,1), (10,1), (16,1): Background objects. Interact from row 2 (facing UP).
 
 # Underground Warehouse Puzzle
-- Goal: Open path to Warehouse Entrance at (21, 29) [leading to Map 3_55].
+- Goal: Open path to Warehouse Entrance (likely in the southeast unseen area).
 - Current Sequence Strategy: 1-2-3 (Switch 1 -> Switch 2 -> Switch 3).
-- 3-2-1 sequence failed to open southeast path at Turn 10448.
+- Note: (21, 29) is the EXIT to the city, NOT the Warehouse entrance.
 
 ## Shutter Toggle Mapping (S3, S2, S1)
-- (0,0,0): All CLOSED.
-- (0,0,1): S1 ON.
-- (0,1,1): S1, S2 ON.
-- (1,1,1): All ON. (Previously reached via 3-2-1, failed).
+- Baseline (0,0,0): All CLOSED.
+- S1 ON (0,0,1): (16,6/7), (17,6/7) OPEN.
+- S3 ON (1,0,0): (2,6/7), (3,6/7), (12,8/9) OPEN.
 
 ## Toggle Log
-- Turn 10471: S1 toggled ON. State is (0,0,1).
+- Turn 10471: S1 toggled ON. State is (0,0,1). (16,7), (17,7) verified OPEN.
 - Turn 10463: (0,0,0) baseline reached. All switches OFF.
 - Turn 10434: (1,0,0) verified. (2,6), (3,6) OPEN. (12,8) OPEN.
 - Turn 10428: (0,0,0) baseline report: All shutters CLOSED.
