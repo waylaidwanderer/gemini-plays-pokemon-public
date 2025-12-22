@@ -38,3 +38,5 @@
 - Insight: Goldenrod is divided by the train tracks. The West side (where I am) is isolated. The Rocket Grunt at (16, 23) blocks the only surface crossing.
 - Plan: Use the Underground to cross to the East side (Dept Store Basement).
 - Correction: I previously stuck to the West wall of the Underground. I must explore EAST in the Main Underground (3_53) to find the Dept Store entrance.
+- Correction: The Underground Entrance room (3_54) is split into two unconnected halves. I cannot cross here.
+- Plan: Descend to Main Underground (3_53) and look for a path to the East side of that map, which likely leads to the Dept Store Basement.
