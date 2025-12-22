@@ -39,3 +39,11 @@
 4. Cursor starts on PAGE. Press Right to select AREA.
 5. Press A to view map.
 6. Press B multiple times to exit.
+
+# Roamer Movement Verified (Crystal)
+- Rule: Roamers (Suicune) do NOT move if you battle a different wild Pokemon on the same route.
+- Rule: Roamers ONLY move when you cross a map boundary (Route/City), use Fly, or after battling the roamer itself.
+- Conclusion: Once trapped on a route, you can safely clear wild encounters or pace indefinitely.
+
+# Progress Log
+- Turn #12992: Confirmed Suicune is still on Route 38 via Pokedex AREA map. Exit sequence initiated.
