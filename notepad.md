@@ -21,13 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exiting Team Rocket Hideout.
-- **Progress:** Item at (27, 6) retrieved.
+- **Status:** In Mahogany Town (Mart 1F). Escaped Team Rocket Hideout.
+- **Progress:** Mission Complete. HM06 obtained. Item retrieved.
 - **Next Steps:**
-    1. Exit via Ladder at (27, 2) to Mahogany Mart.
+    1. Exit the Mart to Mahogany Town.
     2. Heal at Pokemon Center.
     3. Challenge Pryce at Mahogany Gym.
-- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full again? Check later.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
