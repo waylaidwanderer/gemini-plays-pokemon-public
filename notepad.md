@@ -4,14 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In New Bark Town (Interrupted).
-- **Reason:** Wade's phone call interrupted the Fly attempt. Retrying.
+- **Status:** In Fly Map (at New Bark Town).
+- **Reason:** Map is open. Navigating cursor to Goldenrod. Assuming Left x3 gets close (New Bark -> Cherrygrove -> Violet -> Ecruteak/Goldenrod?).
 - **Plan:**
-    1. Open Menu (Start).
-    2. Enter Party (A).
-    3. Select Mistral (A).
-    4. Select Fly (A).
-    5. Navigate Map to Goldenrod (Next Turn).
+    1. Press Left x3.
+    2. Check destination text.
+    3. Adjust and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
