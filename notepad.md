@@ -29,7 +29,10 @@
   3. Toggle S2 ON. Record shutter changes. Reset to OFF.
   4. Toggle S3 ON. Record shutter changes. Reset to OFF.
 - Toggle Log:
-  - (1,1,0) -> (1,1,1): (12,8) changed FLOOR -> WALL. (Confirmed Turn 10374)
+  - S1 (16,1) toggles (12,8).
+  - (1,1,0) -> (1,1,1): (12,8) FLOOR -> WALL. (Turn 10374)
+  - (1,0,0) -> (0,0,0): (12,8) WALL -> FLOOR. (Turn 10388)
+- Current Status: S1 OFF, S2 OFF, S3 ON. Moving to S3 to finish reset.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
