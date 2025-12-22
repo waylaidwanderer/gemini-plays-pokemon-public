@@ -205,5 +205,38 @@
         "action_counter": 9353
       }
     ]
+  },
+  "swap_pokemon_v1": {
+    "description": "Swaps the positions of two Pokemon in the party. Can be called from the overworld or the main menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "menu_already_open": {
+          "type": "boolean",
+          "description": "Whether the main menu is already open."
+        },
+        "pos1": {
+          "type": "integer",
+          "description": "The 0-indexed position of the first Pokemon (0-5)."
+        },
+        "pos2": {
+          "type": "integer",
+          "description": "The 0-indexed position of the second Pokemon (0-5)."
+        }
+      },
+      "required": [
+        "pos1",
+        "pos2",
+        "menu_already_open"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef swap_pokemon():\n    try:\n        input_data = json.loads(sys.argv[1])\n        pos1 = int(input_data['pos1'])\n        pos2 = int(input_data['pos2'])\n        menu_open = input_data['menu_already_open']\n    except (ValueError, KeyError, IndexError, json.JSONDecodeError):\n        print(json.dumps([\"B\"]))\n        return\n\n    buttons = []\n    if not menu_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Navigate to POKEMON (second option from POKEDEX)\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Navigate to pos1\n    for _ in range(pos1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Navigate to SWITCH (second option in sub-menu [STATS, SWITCH, ITEM, CANCEL])\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Navigate to pos2 from pos1\n    diff = pos2 - pos1\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 300\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 300\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    \n    # Exit menu\n    buttons.append(\"B\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"B\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nswap_pokemon()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T08:39:05.748Z",
+        "action_counter": 11491
+      }
+    ]
   }
 }
