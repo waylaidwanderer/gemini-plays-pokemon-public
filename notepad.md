@@ -30,6 +30,12 @@
 - Status: Switch to KIMCHI (Gloom Lv21) for Sleep Powder once HP is red.
 - Item Requirements: ~50 Great Balls (Ultra Balls unavailable).
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
+- Strategist Advice (Turn #11491): Suicune Lv40 (Rain Dance, Gust, Aurora Beam, Mist). Suicune has NO Water moves in this encounter. Calcifer is a safe tank. GNEISS is 4x weak to Aurora Beam. Use Lemonades to heal. Use Ultra Balls first. Apply Sleep/Paralysis.
+
+# Warp Markers Fix
+- Route 37 (10_4) (7, 0) -> 🚪 To Ecruteak City (18, 35)
+- Ecruteak City (4_9) (18, 35) -> 🚪 To Route 37 (7, 0)
+- Ecruteak City (4_9) (19, 35) -> 🚪 To Route 37 (8, 0)
 
 # Observations (Radio Tower Takeover - COMPLETED)
 - Director rescued, CLEAR BELL obtained.
