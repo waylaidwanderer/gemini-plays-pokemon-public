@@ -4,12 +4,17 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore South in the Underground.
-- **Status:** In Goldenrod Underground (North End).
 - **Plan:**
     1. Move South through the tunnel.
     2. Look for a Rocket Grunt who might give a uniform.
     3. If found, obtain uniform.
     4. If not found, check the Switch Room or other areas.
+
+## Tile Mechanics
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable.
+- **COUNTER:** Impassable, but interactable from adjacent tile if an NPC is behind it.
+- **LADDER:** Warp tile to another map.
 
 **Goldenrod City Notes:**
 - Name Rater is at (15, 7).
