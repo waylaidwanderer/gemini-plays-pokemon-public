@@ -3,15 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Exiting Goldenrod PokeCenter.
-- **Status:** Walking to Exit.
-- **Reason:** Togepi withdrawn. Heading to New Bark Town via Fly to show it to Professor Elm.
+- **Navigation:** Flying to New Bark Town.
+- **Status:** Exiting Goldenrod PokeCenter.
+- **Reason:** Togepi acquired. Heading to Elm's Lab to complete the side quest and get the Everstone.
 - **Plan:**
-    1. Navigate to exit mat (4, 7).
-    2. Exit to Goldenrod City.
-    3. Use Fly to New Bark Town.
-    4. Enter Elm's Lab.
-    5. Talk to Elm.
+    1. Exit PokeCenter (Down).
+    2. Fly to New Bark Town (Menu -> Pokemon -> Mistral -> Fly).
+    3. Enter Lab.
+    4. Talk to Elm.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
