@@ -43,14 +43,11 @@
 - Goldenrod Dept Store 2F Clerk (13, 5): Healing items.
 - Goldenrod Dept Store 2F Clerk (13, 6): Basic supplies.
 
-# General Lessons
-- Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
-- Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs.
-
 # Suicune Battle Strategy
 - Suicune Lv 40.
 - KIMCHI (Gloom Lv 21) fainted at Turn #11641.
 - Observed Moves: Gust, Leer, Rain Dance.
+- Status: Suicune HP RED, Accuracy -6. Throwing Great Balls. Turn #11681.
 - Strategy:
     1. Switch to Calcifer (Typhlosion).
     2. Use Headbutt or Thunderpunch to weaken Suicune carefully. (HP is already RED).
