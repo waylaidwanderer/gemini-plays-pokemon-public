@@ -3,11 +3,17 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Navigate North past Rocket Grunt to Radio Tower.
+- **Navigation:** Explore Goldenrod Game Corner.
+- **Status:** Inside Game Corner.
 - **Plan:**
-    1. Move North (Up) to bypass the Grunt at (16, 23).
-    2. Continue North to the Radio Tower area (approx (6, 6)).
-    3. Investigate the Radio Tower entrance.
+    1. Talk to Gentleman at (5, 10).
+    2. Talk to other NPCs for clues.
+    3. If no leads, return to City or Underground.
+
+**Notes:**
+- Radio Tower entrance was elusive.
+- Rocket Grunt at (16, 23) blocks the street.
+- Underground Uniform quest unconfirmed.
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
