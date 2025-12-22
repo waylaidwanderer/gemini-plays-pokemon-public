@@ -9,16 +9,16 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** Hidden item blocks NPC 7's path to (8, 13).
-- **Status:**
-    - Checked (7, 13) from Right: **Nothing found.**
-    - NPC 7 patrols (4-6).
-- **New Plan:**
-    1. **Move:** Go to (8, 12) to unblock (8, 13) and get a better vantage point.
-    2. **Search:** Check (8, 13) from Above.
-    3. **Observe:** See if NPC 7 extends his patrol past (6, 13).
-    4. **Search Again:** If he stops at (6, 13) and nothing is at (8, 13), check (7, 13) from (7, 12) or try walking on it.
-- **Evidence:** "Stuff on ground is junk" strongly implies hidden item. I must find it.
+- **Hypothesis:** 
+    1. **Patrol:** NPC 7 needs to reach `(8, 13)` to trigger gates.
+    2. **Item:** A hidden item at `(8, 13)` might be blocking him.
+- **Correction:** I was at `(7, 13)` last turn, not `(8, 13)`. My previous checks were invalid.
+- **Plan:**
+    1. **Position:** Move to `(8, 12)` (Hiding spot / Observation point).
+    2. **Search:** Face Down and check `(8, 13)` for hidden item.
+    3. **Observe:** Wait for NPC 7 (currently at `5, 13`) to return.
+    4. **Verify:** If he steps on `(8, 13)`, gates should open. If he turns early, check `(7, 13)`.
+- **Note:** "Stuff on ground is junk" is the key clue. I must find it.
 
 ## Status
 - Player at (9, 9).
