@@ -9,12 +9,16 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Hypothesis:** NPC 5's facing direction controls the boxes. Facing LEFT or UP might open the path.
+- **Hypothesis:** NPC 5's position or facing direction controls the boxes.
+- **Observations:**
+    - NPC 5 Facing UP = Boxes Closed (WALL).
+    - NPC 5 Facing DOWN = Boxes Closed? (Need to verify).
+    - "Work behind scenes where no one can see us".
 - **Plan:**
-    1. **Position:** Move to (8, 9).
-    2. **Manipulate:** Wait for NPC 5 to enter (9, 9). Talk to him so he turns LEFT.
-    3. **Lock:** Immediately use `stun_npc` on NPC 5 to freeze him facing LEFT.
-    4. **Test:** Walk into Column 9 (e.g., at (9, 10)) and move South to check if boxes shift.
+    1. **Position:** Move to (8, 10).
+    2. **Observe:** Watch the boxes at (6, 10)/(7, 10) and (10, 10)/(11, 10) as NPC 5 moves.
+    3. **Test:** If boxes open, rush through.
+    4. **Alternative:** If boxes never open, try to find a blind spot or manipulate NPC 6/7.
 
 ## Status
 - Player at (8, 9).
