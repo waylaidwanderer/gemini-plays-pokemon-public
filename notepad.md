@@ -22,10 +22,10 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Debugging Fly Map Navigation.
-- **Reason:** Multiple attempts to navigate map failed (cursor stuck at New Bark). Testing single input to confirm control.
+- **Status:** Resetting Menu State.
+- **Reason:** Map navigation failed repeatedly. Visual state (Overworld) contradicts text state (Fly Map). Resetting to Overworld to ensure clean state.
 - **Plan:**
-    1. Press Left.
-    2. Verify if text changes to "Cherrygrove City".
-    3. If success, continue navigation to Goldenrod.
-    4. If fail, close menu and retry Fly from scratch.
+    1. Press B x3 to close all menus.
+    2. Verify return to Overworld.
+    3. Restart Fly sequence from scratch.
+    4. Fly to Goldenrod City.
