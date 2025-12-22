@@ -42,6 +42,7 @@
 - Sweet Scent Interaction: SWEET SCENT bypasses REPEL filtering. Use pacing for the Repel trick.
 - Tool Timing: Menu-heavy tools like Pokédex tracking require significant 'sleep' delays (600ms+) to account for UI transitions.
 ## Attempt #2
-- Status: Using Repel (100 steps) on Route 37.
+- Status: Repel status uncertain. Game said "still in effect" at #12324 despite "wore off" at #12309. Possibly requires one step of movement to reset.
 - Start Turn: #12318.
-- Goal: 100 steps of Grass Dance.
+- Interrupted by Arnie at #12326.
+- Goal: Verify Suicune's location and resume Grass Dance.
