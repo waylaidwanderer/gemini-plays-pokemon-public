@@ -64,3 +64,9 @@
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
 - Turn #11489, #11586: Swapping lead failed due to truncated button sequence or cursor persistence. Refined custom tool with comprehensive resets.
 - Turn #11578-11580: Pressed A repeatedly in menu. Lesson: Use B to clear messages and exit menus efficiently.
+
+# Tin Tower Navigation
+- Entrance building at (18, 11) leads to Wise Trios Room.
+- Wise Trios Room ladder at (17, 3) leads to Wise Trios Room upper level.
+- Warp at (7, 4) in Wise Trios Room leads to Tin Tower 1F (20, 2).
+- Tin Tower 1F (20, 2) and (20, 3) are exits back to Ecruteak City top center.
