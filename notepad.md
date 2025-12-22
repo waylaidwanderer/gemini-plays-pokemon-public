@@ -48,3 +48,6 @@
 
 # Mission Tracking
 - Radio Tower Mission Start: Turn 11112, Timestamp: Sunday, Dec 21, 10:00 PM.
+
+# Battle Notes
+- Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
