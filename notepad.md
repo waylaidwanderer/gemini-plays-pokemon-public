@@ -322,10 +322,7 @@
 - **Prediction:** If I stare at him, he might stop working (Close Top Gates?), which might toggle the system (Open Bottom Gates?).
 - **Test:** Turn Left. Wait. Check map next turn.
 - **Test:** "Watching" NPC 6 (Turn 12626) FAILED. Top Gates remained Open.
-- **Hypothesis:** NPC 7 (Bottom) holds the key.
-- **Logic:** "Junk" hint + He guards the closed gates.
-- **Plan:** Make NPC 7 face LEFT (Away from gates).
-    1. Move to (5, 13).
-    2. Wait for NPC 7 to be at (6, 13).
-    3. Talk to him (He turns Left).
-    4. Check Gate (10, 12) status next turn.
+- **Layout Analysis:** The West Room is split by a block of Walls/Boxes at `(4-7, 10-11)`.
+- **Navigation:** To reach NPC 7 `(5, 13)` from Top West `(5, 9)`, I must go East to Col 9, Down to Row 13, then West.
+- **Action:** Navigating to `(5, 13)` via the East corridor.
+- **Plan:** Talk to NPC 7 and experiment with facing directions (Left/Up).
