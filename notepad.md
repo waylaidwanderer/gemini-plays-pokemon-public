@@ -59,7 +59,7 @@
 - Goldenrod Dept Store 5F: Receptionist (7, 5) gives TM27 (Return) if friendship is high.
 - Clerk (8, 5) sells TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch) for 3000, TM02 (Headbutt) for 2000, TM08 (Rock Smash) for 1000.
 - Cooltrainer M (6, 3) wants to trade ABRA for MACHOP.
-- Goldenrod Dept Store 4F: Directory says "Let Us Pump Up Your POKéMON!". (Stat items).
+- Goldenrod Dept Store 4F: Medicine Box. Clerk (13, 5) sells Protein, Iron, Carbos, Calcium for 9800 each. Directory says "Let Us Pump Up Your POKéMON!". (Stat items).
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
