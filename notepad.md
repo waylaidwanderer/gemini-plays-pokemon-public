@@ -34,13 +34,13 @@
 - **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 ## Current Strategy & Obstacles
-- **Location:** Radio Tower 1F.
-- **Goal:** Reach 2F via stairs at (15, 0).
-- **Status:** Defeated Rocket Grunt at (14, 1). Ascending to 2F.
+- **Location:** Radio Tower 2F.
+- **Goal:** Explore 2F, defeat Rockets, climb to 3F.
+- **Status:** On 2F. Exploring West side.
 - **Known Blockades:**
   - **Goldenrod City:** Grunts blocking West and East paths.
 - **Missing Keys:** BASEMENT KEY, CARD KEY.
-- **Plan:** Defeat/Bypass Grunt and climb to 2F.
+- **Plan:** Clear 2F of Grunts and find stairs to 3F.
 
 ## Important Locations (Goldenrod)
 - **Radio Tower:** Current Location.
