@@ -12,16 +12,16 @@
 - Confirmed Sequence: Switch 3 -> Switch 2 -> Switch 1 (3-2-1).
 
 # Shutter Logic (Verified Toggles)
-- Baseline (OFF, OFF, OFF): (12,8) is OPEN. All others CLOSED.
+- Baseline (OFF, OFF, OFF): (12,8) is OPEN. All others CLOSED. (Verified Turn 10832).
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S3 (2,1) toggles: (2,6), (3,6)
 
 # Puzzle Strategy (Attempt 4)
 - Start Turn: 10831.
-- Logic: S3, S2, and S1 all ON results in all shutters OPEN.
-- Current Status: S3=ON, S2=ON.
-- Next: Turn S1 ON.
+- Logic: S3, S2, and S1 all ON results in ALL shutters OPEN.
+- Current Status: S3=ON (10833), S2=ON (10852), S1=ON (10859).
+- Next: Enter Warehouse at (12, 13).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
