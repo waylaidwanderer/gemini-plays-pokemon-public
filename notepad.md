@@ -22,12 +22,10 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Opening Fly Map.
-- **Reason:** Reset complete. Restarting Fly sequence from Overworld. Cursor should be on 'Pokemon' and 'Mistral' from previous usage.
+- **Status:** Navigating Fly Map (Attempt 2).
+- **Reason:** Map is open and stable. Executing navigation sequence: Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
 - **Plan:**
-    1. Open Menu (Start).
-    2. Select Pokemon (A).
-    3. Select Mistral (A).
-    4. Select Fly (A).
-    5. Verify Fly Map is open.
-    6. Navigate to Goldenrod.
+    1. Send navigation inputs (Left, Up, Left, Down).
+    2. Check screen text for "Goldenrod City".
+    3. If correct, press A to Fly.
+    4. If incorrect (e.g., Azalea), adjust cursor.
