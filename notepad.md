@@ -8,28 +8,21 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Reach Item Ball at (14, 2).
-- **Layout Analysis:**
-    - **Zone 1 (West):** Start area.
-    - **Zone 2 (Middle):** Where Player is (Col 8, 9).
-    - **Zone 3 (East):** Target area.
-    - **Barriers:**
-        - **Col 10/11:** Blocked by Boxes at Rows 8/9. Open at Rows 10/11.
-        - **Col 12:** Blocked by Wall at Rows 10/11. Open at Rows 8/9.
-    - **Implication:** I MUST open the boxes at Rows 8/9 (Col 10/11) to pass through the gap in the Col 12 wall.
-- **Clue:** "I lose my passion for work if someone's watching."
-- **Current Test:** Interact with Machop at (7, 7).
+- **Goal:** Reach East side.
+- **Hypothesis:** NPC 5's Position determines the Box State.
+    - **Theory:**
+        - NPC 5 at Y=11 -> Bottom Open / Top Closed (Current State).
+        - NPC 5 at Y=10 -> Bottom Closed / Top Open (Target State).
+- **Plan:**
+    1. **Observe:** Wait for NPC 5 to move to (9, 10).
+    2. **Verify:** Check if boxes at (10, 8)/(10, 9) open.
+    3. **Lock:** If Open, STUN NPC 5 immediately.
+    4. **Execute:** Run through the open path.
 - **Status:**
     - Player at (8, 7).
-    - Machop at (7, 7).
-    - Action: Turning Left to interact.
-- **Discarded:**
-    - Walking through Row 10/11 (Blocked by Wall at Col 12).
-    - Walking through Row 13 (Blocked by Wall at Col 10/11).
-- **Discarded:**
-    - Local Control (NPC 6/7) - Failed.
-    - Hidden Items - Failed.
-    - NPC 5 Facing Left - Failed.
+    - NPC 5 at (9, 11) (Bottom).
+    - Boxes at Top (8/9) are Closed.
+    - Action: Waiting/Pacing to let NPC 5 move.
 
 ## Status
 - Player moving to (8, 10).
