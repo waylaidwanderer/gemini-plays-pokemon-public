@@ -69,3 +69,7 @@
 - **BOXES:** Appear as Brown Boxes. Function as WALL tiles (Impassable). Located at (10, 8-9) and (10, 12-13). Also (6, 8-11).
 - **Hypothesis:** Boxes might be pushable (Strength) or interactable objects.
     - **Test:** Walk into boxes at (6, 8) or (10, 8). Interact with them (A).
+- **Event:** Box Gates at (10, 8/9) OPENED while player was at (9, 6).
+- **Hypothesis:** Gates might open when player is "out of sight" (behind the boxes/elevator area) or on a timing cycle.
+- **Action:** Crossing to East Section immediately.
+- **Observation:** Top Right area (Item Ball/Ladder) seems isolated by walls. Exploring East Bottom for switches or hidden paths.
