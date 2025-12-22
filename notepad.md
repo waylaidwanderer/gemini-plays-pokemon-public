@@ -51,3 +51,8 @@
 2. Enter Radio Tower: Head to 3F.
 3. Use Card Key: Clear the shutter on 3F to access 4F and 5F.
 4. Defeat Executive: Reach the top floor and stop the broadcast.
+
+# Shutter Puzzle (Radio Tower 3F)
+- Observation: Interacting with Card Key Slot at (14, 2) from (13, 2) facing Right produced no result.
+- Hypothesis: Many switches/slots in this game require interaction from BELOW, facing UP.
+- Test: Stand at (14, 3), face UP, and press A. (Attempt 1)
