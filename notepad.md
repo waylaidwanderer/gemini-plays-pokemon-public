@@ -19,7 +19,8 @@
 - Attempt 2: 3-2-1 Sequence. Result: (2,6), (3,6), (12,8) OPEN. Others CLOSED.
 - Attempt 3 (Current): 3-2-1 Sequence.
   - S3 ON (Turn 10800).
-  - Current status: Moving to S2.
+  - S2 ON (Turn 10804).
+  - Current status: Moving to S1.
 
 # Current Strategy: Execute 3-2-1 without interruption
 1. S3 ON (COMPLETED).
