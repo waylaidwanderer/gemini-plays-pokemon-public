@@ -4,14 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Opening Party Menu.
-- **Reason:** Re-initiating Fly sequence from Cherrygrove City (Outdoors). Opening menu to verify cursor position before selecting Mistral.
+- **Status:** Hard Reset & Open Menu.
+- **Reason:** Visuals show Overworld, Text claims Fly Map is open. Major state mismatch. Forcing menu closure (B x2) then reopening Start Menu to re-sync.
 - **Plan:**
-    1. Open Menu (Start).
-    2. Enter Pokemon (A).
-    3. Verify Cursor Position.
-    4. Select Mistral (Slot 4).
-    5. Fly to Goldenrod.
+    1. Press B, B (Close everything).
+    2. Press Start (Open Menu).
+    3. Verify Menu Open next turn.
+    4. Navigate to Pokemon -> Mistral -> Fly.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
