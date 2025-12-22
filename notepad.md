@@ -17,4 +17,4 @@
 - **Location:** Radio Tower 1F.
 - **Goal:** Rescue the real Director in the Underground Warehouse.
 - **Status:** Exiting Radio Tower.
-- **Plan:** Navigate around the Rocket Grunt at (14, 1) by going South to (15, 2), then West to the exit at (2, 7).
+- **Plan:** Exit Radio Tower, HEAL at PokeCenter (Muscle has no PP!), then enter Goldenrod Underground.
