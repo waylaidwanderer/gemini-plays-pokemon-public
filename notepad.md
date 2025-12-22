@@ -55,3 +55,8 @@
 - **Action:** Selected "USE" for Itemfinder.
 - **Expectation:** Dialogue box with result.
 - **Next:** If negative, I'm leaving B1F to check the Radio Tower entrance directly. I need to confirm if I can enter the building.
+- **Result:** Itemfinder returned "Nope!". No hidden items near `(6, 7)`.
+- **Conclusion:** "Junk" hint does NOT refer to a hidden item.
+- **Last Resort:** Attempt to PUSH Box `(6, 8)` DOWN.
+- **Reason:** I was distracted by Itemfinder before executing this push. If this fails, I am aborting the B1F puzzle entirely.
+- **Exit Strategy:** Elevator to 1F -> Exit Dept Store -> Check Radio Tower.
