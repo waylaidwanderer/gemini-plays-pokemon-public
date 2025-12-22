@@ -16,7 +16,13 @@
 - Mission Start: Turn #11243.
 - Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City and find the Tin Tower via Route 35, 36, and 37.
-- Tactical: Use the Clear Bell at the Tin Tower. Purchase Ultra Balls at Goldenrod Dept. Store.
+- Tactical: Use the Clear Bell at the Tin Tower. Purchase ~30 Ultra Balls at Goldenrod Dept. Store.
+- Strategist Advice (Turn #11374):
+    - Lead with Calcifer (Typhlosion).
+    - Use Smokescreen multiple times to reduce Suicune's accuracy.
+    - Switch to KIMCHI (Gloom) for Sleep Powder once HP is low (chip with Headbutt).
+    - Teach Calcifer TM41 (ThunderPunch) for coverage.
+    - Avoid using GNEISS or Blarney (weak to Water).
 - Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
 
 # Suicune Capture Plan (Tin Tower)
