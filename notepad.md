@@ -64,3 +64,6 @@
 - **Reason:** Previous attempt failed due to navigation error (I was at `6, 7`).
 - **Logic:** If this is the "Junk" I can take, maybe I can push it aside.
 - **Next:** If this is a WALL, I am leaving to the Underground.
+- **Action:** Attempting to PUSH Box `(6, 8)` DOWN from `(6, 7)`.
+- **Reason:** Final test of the "Junk" hypothesis.
+- **Contingency:** If this fails (Player stays at `6, 7`), I am exiting B1F via Elevator. The puzzle is either broken, requires a future item, or I am missing a huge clue that isn't here.
