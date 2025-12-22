@@ -9,7 +9,7 @@
 
 ## PC Deposit List
 - **Priority:** GUARD SPEC., PROTEIN, MIRACLE SEED, PSNCUREBERRY, ANTIDOTE (excess), ICE BERRY.
-- **Done:** REPEL, X ATTACK, X SPECIAL, EVERSTONE.
+- **Done:** REPEL, X ATTACK, X SPECIAL, EVERSTONE, ICE BERRY, MIRACLE SEED.
 
 ## Tile Mechanics
 - **ICE:** Slide until WALL/OBJECT/FLOOR.
