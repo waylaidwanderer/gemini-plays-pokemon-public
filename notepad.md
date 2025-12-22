@@ -3,7 +3,8 @@
 - Status: HP in RED zone (~5-10%), Accuracy at -6 (minimum).
 - Method: Persist with Great Balls.
 - Contingency: Heal Calcifer (Typhlosion Lv 45) with LEMONADE if HP < 50%.
-- Lead: Calcifer (Typhlosion) @ 40/142 HP.
+- Lead: Calcifer (Typhlosion) @ 0/142 HP (Fainted).
+- Next: Ravioli (Krabby) @ 27/27 HP (Resists Water).
 - Observations: Suicune uses Bubblebeam (Water), Gust (Flying), Leer, Rain Dance.
 - Mechanics: Confirmed Suicune does not have Roar/Whirlwind at Lv 40 in Crystal.
 - Marathon Start: Turn #11666.
