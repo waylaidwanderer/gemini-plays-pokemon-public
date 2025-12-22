@@ -28,3 +28,9 @@
 - Icarus (Lv16 Pidgey) is used for Fly.
 - Kimchi (Lv21 Gloom) is used for Cut.
 - Ravioli (Lv10 Krabby) is used for Surf.
+
+# Shutter Observation (Turn 10968)
+- Row 10/11 at x=16: OPEN (Turn 10967).
+- Row 14 wall: Solid from x=6 to x=16. Need to check x<6 or x>16.
+- Reachable Unseen: (22, 13), (21, 14), (0-5, 14).
+- Plan: Explore row 13 to find a path to the southern sections.
