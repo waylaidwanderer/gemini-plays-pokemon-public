@@ -4,10 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** Resuming movement to the building at (33, 9) after phone call.
-- **Hypothesis:** This building (33, 9) is the Radio Tower.
-- **Observation:** Rocket Grunt blocking the path at (29, 7). Navigating around him via row 10.
-- **Goal:** Enter and investigate.
+- **Status:** Navigating around Rocket Grunts to reach Radio Tower.
+- **Goal:** Reach (33, 9) (Radio Tower Entrance).
+- **Obstacles:** 
+    - Grunt at (31, 10) blocks direct East path.
+    - Grunt at (29, 7) blocks North path (facing down).
+- **Plan:** Attempt to flank North via (29, 8) -> (31, 7) -> (34, 7).
+    - Risk: Grunt at (29, 7) might engage in battle.
+- **Contingency:** If blocked/engaged, win battle or find alternative route.
 
 ## Map Data
 - **Goldenrod City:**
