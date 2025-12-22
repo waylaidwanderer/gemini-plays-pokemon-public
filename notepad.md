@@ -113,6 +113,12 @@
     - NPC 7 (Bottom Left): "Junk on the ground... take it."
 - **Hypothesis:** Machop might provide a clue or trigger.
 - **Observation:** Machoke (7, 7) interaction yielded only "Maaacho!" (Cry). No immediate effect observed.
-- **Action:** Closing text and moving to (8, 12) to observe the Bottom Gate (10, 12-13).
-- **Hypothesis:** Bottom Gate might open based on NPC 5's movement or a different trigger I haven't found yet.
-- **Plan:** Stand at (8, 12) facing Right to watch the gate state as NPC 5 moves.
+- **Puzzle Status:**
+    - **Top Gates (10, 8-9):** OPEN (Floor).
+    - **Bottom Gates (10, 12-13):** CLOSED (Wall).
+    - **Row 4 Wall:** Blocks access to North East (Item/Ladder).
+- **Hypothesis:** Opening Bottom Gates might change the East Room layout (e.g., remove Row 4 Wall).
+- **Plan:**
+    1. Inspect Bottom Gates at (10, 12) from West side.
+    2. Talk to Black Belt (NPC 7) at (7, 13).
+    3. Observe if NPC 5's movement affects Bottom Gates.
