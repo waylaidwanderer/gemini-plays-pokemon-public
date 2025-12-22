@@ -144,7 +144,5 @@
     - Step 3: Unstun and Talk.
     - Check if Gate 2 opens.
 
-## Reflections (Turn 12260)
-- **Basement Puzzle:** Stuck for ~100 turns. "Zone" hypothesis failed. Pivoting to "NPC Facing" hypothesis. Stunned NPCs don't turn, so I must interact while they are active.
-- **Error Analysis:** Missed interaction on Turn 12259 because NPC moved.
-- **Action:** Consolidating notes and pursuing NPC interaction strategy.
+## Reflections
+- **Puzzle Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
