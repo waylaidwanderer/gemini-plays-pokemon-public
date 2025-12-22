@@ -29,7 +29,7 @@
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
 - **Status:** Battling Super Nerd Teru in Goldenrod Underground (South).
 - **Goal:** Defeat him.
-- **Current Opponent:** Magnemite (coming out).
-- **Strategy:** Muscle stays in. Use Rock Smash.
+- **Current Opponent:** Magnemite (second one).
+- **Strategy:** Muscle stays in. Use Rock Smash (Slot 2). Note: Cursor likely remembers Slot 2 from previous turn.
 - **Next Target:** Super Nerd at (7, 14) after this battle.
 - **Plan:** Win battle, then check the next nerd.
