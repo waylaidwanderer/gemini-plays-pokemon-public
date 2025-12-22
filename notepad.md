@@ -15,10 +15,15 @@
 - Baseline (OFF, OFF, OFF): (12,8) is OPEN, all others CLOSED.
 
 # Current Strategy: Execute 3-2-1 Sequence
-1. Step 1: Switch 3 (ON) - COMPLETED (Verified turn 10711: (2,6) and (3,6) are now FLOOR).
-2. Step 2: Switch 2 (ON) - Heading to (10,1).
+1. Step 1: Switch 3 (ON) - COMPLETED.
+2. Step 2: Switch 2 (ON) - COMPLETED (Turn 10714).
 3. Step 3: Switch 1 (ON) - Heading to (16,1).
 4. Enter Warehouse (Map 3_55).
+
+# Puzzle Logic Theory
+- The 3-2-1 sequence is based on the Rocket Grunt's hint: "the switch on the end is the one to press first."
+- S3 opens the leftmost path. S2 opens the middle path but closes the baseline path at (12,8). S1 opens the rightmost path and re-opens (12,8).
+- Result: All southern paths are FLOOR, allowing full access to the Warehouse.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
