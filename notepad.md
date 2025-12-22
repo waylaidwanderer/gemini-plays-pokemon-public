@@ -42,6 +42,6 @@
 
 # Encounter Tracking (Route 38)
 - Current Repel: Applied Turn #13035.
-- Steps Taken on current Repel: 100.
+- Steps Taken on current Repel: 180.
 - Encounter Goal: Suicune.
 - Status: No encounter yet. Suicune confirmed here Turn #12992.
