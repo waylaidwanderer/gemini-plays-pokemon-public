@@ -342,3 +342,8 @@
 - **Action:** Standing at `(6, 12)`. Facing Down. Talking to NPC 7 `(6, 13)`.
 - **Hypothesis:** Forcing NPC 7 to face **UP** (Away from gates, towards me) will open the Bottom Gates `(10, 12-13)`.
 - **Observation Target:** Watch tile `(10, 12)` closely.
+- **Correction:** NPC 7 moves along Row 13 `(5-8, 13)`. He is currently at `(7, 13)`.
+- **Action:** moving to `(7, 12)` to intercept him from above.
+- **Goal:** Make him face **UP**.
+- **Observation:** Previous attempt failed due to timing/input cut.
+- **Check:** Watch Gate `(10, 12)` (visible at edge of screen) when he faces UP.
