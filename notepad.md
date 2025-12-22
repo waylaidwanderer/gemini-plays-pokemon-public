@@ -300,3 +300,13 @@
 - **Correction:** The "Junk" likely refers to the Boxes at (10, 12-13).
 - **Plan:** Move to (9, 12) and use Strength to PUSH the Bottom Gate Box at (10, 12).
 - **Path:** Navigate via Column 8 to avoid NPC 5 patrolling Column 9.
+- **Result:** Pushing Machoke failed. He is solid.
+- **Action:** Using Strength on the Bottom Gate Boxes at `(10, 12)` and `(10, 13)`.
+- **Plan:**
+    1. Navigate to `(9, 12)`.
+    2. Walk Right into `(10, 12)` to PUSH.
+    3. Press A on `(10, 12)` (Interact/Rock Smash).
+    4. Move to `(9, 13)`.
+    5. Walk Right into `(10, 13)` to PUSH.
+    6. Press A on `(10, 13)`.
+- **Goal:** Open path to South East.
