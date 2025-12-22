@@ -8,17 +8,20 @@
 - Goal: Open path to Warehouse Entrance (Map 3_55).
 - Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1) from (0,0,0) baseline.
 
-# Current Plan: 3-2-1 Sequence Completion and Verification
-1. Baseline: (0,0,0) confirmed (S3=OFF, S2=OFF, S1=OFF). Verified Turn 10561.
-2. Turn S3 ON (at 2,1). (Action taken Turn 10564)
-3. Turn S2 ON (at 10,1). (Action taken Turn 10567)
-4. Turn S1 ON (at 16,1). (Action taken Turn 10574)
-5. Run shutter report to map final state.
-6. Verify path to Warehouse (Map 3_55) in the southeast.
+# Current Plan: Systematic Shutter Mapping
+1. Reset to (0,0,0) baseline (All OFF).
+   - S1: OFF (Turn 10578)
+   - S2: OFF (Turn 10582)
+   - S3: ON (Moving to reset)
+2. Verify (0,0,0) state with report.
+3. Test S1 ONLY (1,0,0): Toggle S1, Report, Toggle S1 back.
+4. Test S2 ONLY (0,1,0): Toggle S2, Report, Toggle S2 back.
+5. Test S3 ONLY (0,0,1): Toggle S3, Report, Toggle S3 back.
+6. Analyze results to find combination for Warehouse (SE quadrant).
 
 ## Primary Effects (Mapping in progress)
-- S3 (2,1): Toggles (2,6), (3,6). Verified Turn 10565.
-- S2 (10,1): Toggles (10,6), (6,8)? (Needs verification - was off-screen in Turn 10570)
+- S3 (2,1): Toggles (2,6), (3,6).
+- S2 (10,1): ?
 - S1 (16,1): ?
 - Baseline (0,0,0): (2,6) CLOSED, (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN, (17,6) CLOSED, (17,7) CLOSED. (Verified Turn 10561)
 
