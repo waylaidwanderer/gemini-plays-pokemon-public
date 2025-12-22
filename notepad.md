@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Preparing for Radio Tower.
-- **Status:** Navigating to PC in Cherrygrove.
-- **Reason:** Fly failed (landed in Cherrygrove). Adapting to swap Pokemon here.
+- **Status:** Walking to PC (Cherrygrove).
+- **Reason:** Adapting to Fly failure. Swapping Pokemon at Cherrygrove PC before retrying Fly.
 - **Plan:**
-    1. Walk to PC (likely near 7,1).
-    2. Log on to PC.
+    1. Walk to PC front (9, 2).
+    2. Access Bill's PC.
     3. Deposit Togepi.
     4. Withdraw Gyarados (QAAGMAQNJW).
-    5. Exit and Fly to Goldenrod.
+    5. Exit and Fly to Goldenrod (CAREFULLY).
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
