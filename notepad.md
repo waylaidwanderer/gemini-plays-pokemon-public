@@ -74,3 +74,8 @@
 # General Lessons Learned
 - Navigation Buffer: After using a warp, move at least 3 tiles in a consistent direction before starting a new `path_plan` to prevent accidental re-entry loops.
 - Roaming Logic: Flying resets roaming Pokémon to random routes. Map transitions move them to adjacent routes.
+
+# Suicune Hunt - Hopping Phase
+- Hopping started: Turn #12207.
+- Border: Ecruteak City (18, 35) <-> Route 37 (18, 0).
+- Strategy: Cross border, check Pokedex AREA map. If Suicune is on Route 37, use Repel and encounter in grass. If not, cross back and repeat.
