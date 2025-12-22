@@ -182,3 +182,7 @@
     1. Move to (8, 9).
     2. Observe Top Gate (10, 8) as NPC 5 moves.
     3. If alternating confirmed, enter East Room and wait for switch.
+- **Action:** Entering the "Cage" (East Side).
+- **Plan:** Move to (11, 9) (Inside Top Gate).
+- **Hypothesis:** When NPC 5 moves to (9, 9) (Top), the Top Gate (10, 9) will CLOSE and the Bottom Gate (10, 12) will OPEN, allowing access to the South East.
+- **Safety:** If trapped, wait for NPC 5 to move back down to open Top Gate.
