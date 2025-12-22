@@ -87,3 +87,6 @@
 - Strategy: NPC at (9, 11) is blocking Row 11. Row 10 is also open (FLOOR).
 - Plan: Bypass the NPC by using Row 10. Navigate (8, 11) -> (8, 10) -> (9, 10) -> (10, 10) -> (11, 10).
 - Note: This avoids the "gate" at Row 12 which is currently closed.
+- Strategy: Stun NPC ID 5 (patrolling Col 9) to secure a safe crossing.
+- Plan: Stun NPC. If he freezes at (9, 11), cross via Row 10. If he freezes at (9, 10), cross via Row 11.
+- Current Action: Stun NPC and move to (8, 10) to verify his frozen position.
