@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Interviewing Gentleman at (5, 10).
+- **Status:** Interviewing Pharmacist at (8, 7).
 - **Plan:**
-    1. Talk to Gentleman at (5, 10).
-    2. Talk to other NPCs for clues.
-    3. If no leads, return to City or Underground.
+    1. Talk to Pharmacist at (8, 7).
+    2. Check if he has info on Team Rocket.
+    3. Return to City or Underground if no leads.
 
 **Notes:**
 - Radio Tower entrance was elusive.
