@@ -3,8 +3,8 @@
 - Strategy: Repel Trick. Lead with KIMCHI (Gloom Lv 21) which is > local wild levels (Lv 13-16) but < Suicune (Lv 40).
 - Method: Pacing (Grass Dance) at (8, 2) on Route 37.
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
-- Active Status: Repel active (Turn #12335).
-- Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, or phone call.
+- Active Status: Repel active (Turn #12335). Steps: 1/100.
+- Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, phone call, or suspected location change.
 - Tool Usage: `grass_dance_tool` for pacing, `check_suicune_location_v3` (needs refinement) for tracking. **Avoid SWEET SCENT**.
 
 # Route 37 Tile Mechanics
@@ -40,7 +40,7 @@
 - Repel Refresh: If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
 
 # Ledge Test Plan (Route 37)
-- Observation: Tiles at (12, 3) and (13, 3) are labeled LEDGE_HOP_DOWN.
-- Hypothesis: These are one-way ledges traversable only from North to South.
-- Test: 1. Move to (12, 2). 2. Walk Down. 3. Try to walk Up.
+- Observation: Ledges at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7). Potential ledges at (14, 14), (15, 14).
+- Hypothesis: LEDGE_HOP_DOWN is a one-way jump South.
+- Test: 1. Move to (12, 2). 2. Walk Down. 3. Attempt to walk Up.
 - Conclusion: Pending.
