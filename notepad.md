@@ -45,4 +45,5 @@
     - West Ladder (3, 2) -> B2F North.
 - **Trap Tile:** Confirmed at B1F (4, 12) (Wild Voltorb).
 - **Trap Tile:** Confirmed at B1F (4, 13) (Wild Koffing).
-- **Hypothesis:** The entire central path (x=4) might be trapped. Try walking on the sides (x=3 or x=5) next time if possible.
+- **Trap Tile:** Confirmed at B1F (4, 11) (Wild Koffing).
+- **Hypothesis:** The central path (x=4) is a continuous trap. Try walking on x=3 or x=5.
