@@ -4,13 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Walking to Elm's Lab.
-- **Status:** Navigating to Lab Entrance.
-- **Reason:** Arrived in New Bark Town. Heading to Elm's Lab to show him Togepi.
+- **Status:** Clearing Phone Call (Wade).
+- **Reason:** Interrupted by phone call from Wade immediately upon arrival. Must clear dialogue before moving.
 - **Plan:**
-    1. Walk to Lab (6, 3).
-    2. Enter Lab.
-    3. Talk to Elm.
-    4. Receive Everstone.
+    1. Clear Phone Call text (B x8).
+    2. Walk to Lab (6, 3).
+    3. Enter Lab.
+    4. Talk to Elm.
+    5. Receive Everstone.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
