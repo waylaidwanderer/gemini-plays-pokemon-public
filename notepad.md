@@ -9,9 +9,10 @@
 - **Radio Tower:** North.
 - **Underground:** Key item (Coin Case) was found here. Potential other items?
 - **Director:** Potentially held captive?
-## Tile Mechanics
+## Mechanics
 - **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
+- **Battle:** Move cursor remembers last selection.
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 3F.
 - **Goal:** Explore 3F, defeat Rockets, climb to 4F.
