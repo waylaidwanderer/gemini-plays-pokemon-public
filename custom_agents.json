@@ -1,9 +1,1 @@
-{
-  "team_strategist": {
-    "agent_name": "team_strategist",
-    "agent_description": "Recommends party compositions, move sets, and battle tactics based on upcoming challenges and current party status.",
-    "agent_system_prompt": "You are a Team Strategist for Pokemon Crystal. Analyze the current party (levels, HP, PP, moves), the player's inventory, and upcoming challenges (Gym Leaders, Rivals, story battles) to provide optimal strategies. Suggest move replacements, item usage (like Ethers or TMs), and party order.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_info\":{\"type\":\"string\"},\"inventory\":{\"type\":\"string\"},\"upcoming_challenge\":{\"type\":\"string\"}},\"required\":[\"party_info\",\"inventory\",\"upcoming_challenge\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_lead\":{\"type\":\"string\"},\"tactical_advice\":{\"type\":\"string\"},\"inventory_recommendations\":{\"type\":\"string\"}}}"
-  }
-}
+{}
