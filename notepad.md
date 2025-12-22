@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Navigate to Radio Tower Entrance (6, 6).
-- **Status:** Outside Name Rater's House (15, 8).
+- **Status:** Approaching Radio Tower (14, 8).
 - **Plan:**
     1. Move West to X=6 along Row 8.
     2. Move North to find the Radio Tower entrance.
