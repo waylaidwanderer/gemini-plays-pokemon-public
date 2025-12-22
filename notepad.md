@@ -113,12 +113,12 @@
     - NPC 7 (Bottom Left): "Junk on the ground... take it."
 - **Hypothesis:** Machop might provide a clue or trigger.
 - **Observation:** Machoke (7, 7) interaction yielded only "Maaacho!" (Cry). No immediate effect observed.
-- **Puzzle Status:**
-    - **Top Gates (10, 8-9):** OPEN (Floor).
-    - **Bottom Gates (10, 12-13):** CLOSED (Wall).
-    - **Row 4 Wall:** Blocks access to North East (Item/Ladder).
-- **Hypothesis:** Opening Bottom Gates might change the East Room layout (e.g., remove Row 4 Wall).
+- **Puzzle Logic (Hypothesis):** Inverse Relation.
+    - NPC 5 at Bottom (9, 11) -> Top Gates Open, Bottom Gates Closed.
+    - NPC 5 at Top (9, 9) -> Bottom Gates Open, Top Gates Closed?
 - **Plan:**
-    1. Inspect Bottom Gates at (10, 12) from West side.
-    2. Talk to Black Belt (NPC 7) at (7, 13).
-    3. Observe if NPC 5's movement affects Bottom Gates.
+    1. Move to (8, 12).
+    2. Wait for NPC 5 to move Up to (9, 9).
+    3. If Bottom Gate (10, 12) opens, STUN NPC 5 immediately.
+    4. Enter South East Room.
+- **Backup:** Talk to Black Belt at (7, 13).
