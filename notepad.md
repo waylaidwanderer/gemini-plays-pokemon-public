@@ -8,20 +8,16 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Gates (Top Right or Bottom Right).
-- **Current Location:** Top Left (Near NPC 6).
-- **Hypothesis 1:** Machop at (7, 7) interacts with the puzzle.
-- **Hypothesis 2:** "Junk" at Bottom Left (NPC 7 area) requires `Itemfinder`.
-- **Hypothesis 3:** Gates open when NPCs are NOT "watched" (Player out of sight? Or specific position?).
+- **Goal:** Open Top Right Gates (10, 8).
+- **Current Location:** Top Left (Near Machop).
+- **Observation:** Machop at (7, 7) just says "Maaacho!". No movement.
+- **Hypothesis:** NPC 6 (Top Left) controls the gates via facing direction.
+- **Status:** Gates currently CLOSED (Verified visually next step). NPC 6 facing UP.
 - **Plan:**
-    1. **Test:** Interact with Machop at (7, 7).
-    2. **Observe:** Check Top Gates at (10, 8).
-    3. **Action:** If closed, move to Bottom Left.
-    4. **Tool:** Use `Itemfinder` near NPC 7.
-- **Note:** NPC 6 says "I lose passion if someone's watching". He faces Down. He sees Col 4.
-    - Maybe I need to enter the Top Pocket from the *Right* side (Col 12) after tricking him? No, Col 12 is the exit.
-    - I need to enter from Col 8/9.
-    - Maybe I need to distract him?
+    1. **Check:** Move to (8, 8) to confirm gate state.
+    2. **Manipulate:** If closed, go back to NPC 6.
+    3. **Test Directions:** Make NPC 6 face LEFT (Wall) or DOWN (Away). Stun him. Check gates again.
+- **Junk Hint:** Still unresolved. Will use `Itemfinder` item later if Top strategy fails.
 
 ## Status
 - Player at (9, 9).
