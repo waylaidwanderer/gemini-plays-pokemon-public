@@ -35,3 +35,9 @@
 - **Status:** Player at (8, 9) facing Right. NPC 5 at (9, 9).
 - **Plan:** Press A to turn NPC 5 Left. Then Stun. Then Move.
 - **Root Cause Check:** If this "turn him left" strategy fails to open gates, the "Facing Direction" hypothesis might be incomplete (e.g., maybe purely position based, or there's a switch I missed). But evidence points to vision cones.
+
+# Tile Mechanics
+- **WALL:** Impassable.
+- **FLOOR:** Walkable.
+- **WARP_CARPET_UP:** Walkable, triggers warp when stepping OFF the map.
+- **LADDER:** Interactable/Walkable, triggers warp.
