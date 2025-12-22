@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Exploring Game Corner. Gentleman (5, 10) checked (Blizzard fan). Talked to Pokefan M at (2, 10). Checking Pokefan M 2 at (17, 10).
+- **Status:** Exploring Game Corner. Talked to Cooltrainer F at (8, 4). Checking Cooltrainer M at (14, 8).
 - **Plan:**
     1. Navigate to (8, 6) via Row 4 (Northern path) to avoid machines.
     2. Talk to Pharmacist at (8, 7).
