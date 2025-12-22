@@ -9,7 +9,7 @@
 # Underground Warehouse Puzzle
 - Hint: "the switch on the end is the one to press first." (S3).
 - Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
-- Current State (Post-Action): S3=ON, S2=ON, S1=ON. (Sequence Complete).
+- Current State: S3=ON, S2=ON, S1=ON. (Sequence Complete).
 
 # Shutter Logic (Verified)
 - Baseline (OFF, OFF, OFF): (12,8) OPEN. All others CLOSED.
@@ -18,23 +18,25 @@
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
 # Current Strategy: Enter Warehouse
-1. Sequence 3-2-1 complete. Path at (2, 6) and (6, 8) is OPEN.
-2. Navigate south via (2, 6) to explore the southern area.
-3. Look for a gap or shutter in the wall at row 10/11.
-4. Locate the warp to Map 3_55.
+1. Sequence 3-2-1 complete. Gaps opened at:
+   - x=2,3 (Rows 6, 7)
+   - x=6 (Row 8)
+   - x=10,11 (Rows 10, 11)
+2. Navigate through (10, 10) to reach the southern area.
+3. Explore the southern section for the entrance to Map 3_55 (Warehouse).
 
 # Lessons Learned
 - Toggling S1 and S2 both affects shutter (12, 8). If both are ON, it returns to OPEN.
 - (12, 6), (12, 7), (12, 9) are permanent WALL tiles.
 - (2, 7) and (3, 7) are shutters toggled by S3 (verified Turn 10908).
-- Row 10 is a major wall; must find a way through to reach the southern warps.
+- Row 10 gap (x=10,11) opened by 3-2-1 sequence (verified Turn 10952).
 - Always check cursor position in menus to avoid turning switches OFF by mistake.
 - Scientific Method: Observe, Hypothesize, Test, Conclude. Test one variable at a time. Actively try to falsify confirmed hypotheses.
 
-# Shutter Observation (Turn 10949)
-- Row 6/7 at x=2,3: OPEN (S3=ON).
-- Row 10/11 at x=2,3: CLOSED (WALL).
-- (6, 9) changed to FLOOR (Turn 10947). Likely a shutter opened by S1 or S2.
-- (6, 13) changed to WALL (Turn 10948). Likely a shutter closed by S1 or S2.
-- Hypothesis: Row 10/11 contains shutters that are also toggled by the switches.
-- Goal: Map the Row 10/11 shutters to the switches.
+# Shutter Observation (Turn 10952)
+- Row 6/7 at x=2,3: OPEN.
+- Row 10/11 at x=2,3: CLOSED.
+- Row 10/11 at x=10,11: OPEN.
+- (6, 9) is FLOOR.
+- (6, 13) is WALL.
+- Goal: Find the Warehouse entrance (Map 3_55) in the southern area.
