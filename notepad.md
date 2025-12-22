@@ -10,9 +10,10 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Search Started: Turn 11000.
-- Plan: Navigate south through the gap at (6, 12-13) and then loop around Column 8 via Row 12 to reach the eastern side (x > 8).
-- Tactical: Lead with Gneiss (Lv40) against Poison/Fire types; switch to Calcifer (Lv44) for Grass types.
+- Warehouse Search Start: Turn 11000.
+- Method: Navigate south to (6, 12-13), then east through the gap at (8, 12-15) to access the warehouse interior.
+- Method: Defeat all Rocket personnel to clear the path to the real Director.
+- Tactical: Gneiss (Lv40) leads against Poison/Fire; Calcifer (Lv44) counters Grass.
 
 # Warehouse Observations (Map 3_56)
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
@@ -31,7 +32,3 @@
 # Findings
 - Found Ultra Ball at (2, 1). (Turn 11006)
 - Found Full Heal at (14, 9) in Switch Room. (Turn 10981)
-
-# Time Tracking
-- Warehouse Search Start: Turn 11000.
-- Current Turn: 11012.
