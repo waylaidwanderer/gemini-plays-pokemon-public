@@ -46,4 +46,4 @@
 - **Radio Tower:** Current Location.
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
-- **Status:** Battling Rocket Grunt (F) at (10, 3).
+- **Status:** Defeated Rocket Grunt (F) at (10, 3). Exploring 2F West.
