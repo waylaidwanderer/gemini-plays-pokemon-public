@@ -22,11 +22,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Correcting Menu Selection to Mistral.
-- **Reason:** Accidentally selected Muscle (Slot 1). Closing menu and moving down to Mistral (Slot 4) to Fly.
+- **Status:** Resetting Menu to Select Mistral.
+- **Reason:** Repeated menu errors (selecting Muscle). Resetting to Overworld to ensure clean navigation to Mistral (Slot 4).
 - **Plan:**
-    1. Close Muscle's Menu (B).
-    2. Navigate to Mistral (Down x3).
-    3. Open Menu (A).
-    4. Select Fly (A).
-    5. Verify Map Open.
+    1. Exit all menus (B x3).
+    2. Open Menu (Start).
+    3. Select Pokemon (Down, A).
+    4. Select Mistral (Down x3, A).
+    5. Select Fly (A).
+    6. Verify Map Open.
