@@ -61,3 +61,6 @@
 - Plan: Continue to (8, 13). Check if the East path along Row 13 is open. If blocked, backtrack to Row 13 and check the West opening at (4, 11) via (8, 13) -> (7, 13)...
 - Hypothesis: The puzzle requires me to go to the West side (which just opened) to allow the workers on the East side to move the boxes (since I won't be watching).
 - Plan: Navigate to the newly opened tiles at (4,11)/(5,11) via Row 12. Check for items or switches, then check if East side opened.
+- Observation: West side connects to a vertical corridor (Col 1-2).
+- Plan: Follow this corridor South to Row 16, then head East to bypass the central blockage and approach the East side from the bottom.
+- Question: Is the barrier at Row 12 on the East side static walls or movable boxes? I'll check from the South.
