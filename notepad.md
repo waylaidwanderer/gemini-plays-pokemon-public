@@ -3,7 +3,6 @@
 - Strategy: Repel Trick. Lead with KIMCHI (Gloom Lv 21) which is > local wild levels (Lv 13-16) but < Suicune (Lv 40).
 - Method: Pacing (Grass Dance) at (8, 2) on Route 37.
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
-- Active Status: Repel expired (Turn #12377). Not yet renewed.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, phone call, or suspected location change.
 - Tool Usage: `grass_dance_tool` for pacing. **Avoid SWEET SCENT**.
 
@@ -13,6 +12,9 @@
 - FLOOR at (9, 1), (10, 1): Traversable.
 - HEADBUTT_TREE at (9, 0): Impassable.
 - LEDGE_HOP_DOWN at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7): Traversable only from above (Down).
+
+# PC Storage (Box 1)
+- ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
 # Roaming Mechanics
 - Move routes when player crosses a boundary (gatehouse, warp carpet).
@@ -25,12 +27,7 @@
 - Repel Trick: Leading with a Pokemon lower level than the target but higher than local wild Pokemon filters out non-targets.
 - Tool Timing: Menu-heavy tools like Pokédex tracking require significant 'sleep' delays (600ms+) to account for UI transitions.
 - Repel Refresh: Verified. If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
-
-# Ledge Test Plan (Route 37)
-- Observation: Ledges at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7).
-- Hypothesis: LEDGE_HOP_DOWN is a one-way jump South.
-- Test: 1. Move to (12, 2). 2. Walk Down. 3. Attempt to walk Up.
-- Conclusion: Confirmed. LEDGE_HOP_DOWN tiles are one-way (Down/South only). They act as walls when approached from the South.
+- Ledge Mechanics: LEDGE_HOP_DOWN tiles are one-way (Down/South only). They act as walls when approached from the South.
 
 # Menu Navigation
 - Lesson: The main menu is circular. Using a fixed number of 'Up' or 'Down' presses is unreliable. Always verify cursor position or use relative movement.
