@@ -433,3 +433,10 @@
 - **New Hypothesis:** "Junk" refers to the block of boxes in the West Room at `(6, 8-11)`.
 - **Action:** Moving to `(5, 8)` to attempt PUSHING the box at `(6, 8)` with Strength.
 - **Reason:** I haven't tested interacting with this specific cluster of boxes yet.
+- **Observation:** `(5, 12)` path north is blocked by walls at `(5, 10-11)`.
+- **Correction:** Must use East Corridor (Col 8/9) to reach North West area.
+- **Plan:**
+    1. Navigate `(7, 13) -> (8, 13) -> (8, 6) -> (5, 6) -> (4, 7)`.
+    2. Try pushing Box `(6, 8)` DOWN from `(6, 7)` on the way.
+    3. Interact with NPC 6 at `(4, 8)` from `(4, 7)` (North).
+- **Hypothesis:** Forcing NPC 6 to face **UP** might toggle the gates.
