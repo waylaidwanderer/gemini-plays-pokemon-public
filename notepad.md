@@ -5,7 +5,7 @@
 - Lead: ICARUS (Pidgey Lv 16) @ 43/43 HP.
 - Fainted: Calcifer (Typhlosion Lv 45), Ravioli (Krabby Lv 10), KIMCHI (Gloom Lv 21).
 - Strategy: ICARUS tanks hits while I throw Great Balls. Suicune's accuracy is -6.
-- Marathon Turn: #11786.
+- Marathon Turn: #11787.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
