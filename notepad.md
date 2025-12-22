@@ -11,7 +11,7 @@
 
 # Current Strategy: Stop Team Rocket
 - Method: Clear the restricted floors of the Radio Tower and stop the broadcast.
-- Status: Arrived on 4F. Battling Rocket Girl with Calcifer (Typhlosion). Oddish is almost down.
+- Status: Arrived on 4F. Currently clearing trainers.
 - Path: Radio Tower 4F -> Radio Tower 5F.
 - Tactical: Use stairs at (12, 0) on 4F to reach the top floor (5F).
 
@@ -22,6 +22,8 @@
 
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
+- Rocket Executive (4F): Golbat Lv36.
+- Rocket Girl (4F): Ekans Lv21, Oddish Lv23, Ekans.
 - Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
 - Rocket Grunt (M) (Warehouse): Raticate Lv24, Raticate Lv24.
 - Rocket Grunt (M) (Warehouse): Grimer Lv23, Muk Lv25.
@@ -40,8 +42,3 @@
 - Found Amulet Coin at (14, 2) in Map 3_55. (Turn 11039)
 - Found Ultra Ball at (2, 1) in Map 3_56. (Turn 11006)
 - Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
-
-# Radio Tower Mission Plan
-1. Clear 4F: Defeat all Team Rocket forces on this floor.
-2. Reach 5F: Use stairs at (12, 0).
-3. Stop Broadcast: Defeat Executives on 5F and rescue the station.
