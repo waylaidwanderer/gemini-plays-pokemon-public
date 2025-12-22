@@ -49,3 +49,4 @@
 - **Trap Tile:** Confirmed at B1F (4, 13) (Wild Koffing).
 - **Trap Tile:** Confirmed at B1F (4, 11) (Wild Koffing).
 - **Hypothesis:** The central path (x=4) is a continuous trap. Try walking on x=3 or x=5.
+- **Cooltrainer F:** Confirmed that evolved Pokemon learn moves slower.
