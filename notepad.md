@@ -105,4 +105,4 @@
     2. Use KIMCHI's Absorb to chip away at HP safely. KIMCHI resists Suicune's likely Water moves.
     3. If Suicune wakes up, use Sleep Powder immediately.
     4. Once Suicune's HP is in the yellow/red range, start throwing Great Balls and Ultra Balls.
-- Status: Suicune asleep. KIMCHI at 57/57 HP (Defense lowered by Leer). Turn #11627.
+- Status: Suicune asleep. KIMCHI at 57/57 HP (Defense lowered by Leer). Suicune HP high. Turn #11630.
