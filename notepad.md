@@ -51,5 +51,5 @@
 
 # Battle Notes
 - Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
-- Rocket Executive (5F): Houndour Lv33, Koffing (pending).
-- Note: The previous entry for Rocket Executive (5F) might be incorrect or for a different trainer. I will verify the full roster.
+- Rocket Executive (5F - Office): Houndour Lv33, Koffing Lv33, Houndoom (pending).
+- Rocket Executive (Other): Arbok Lv32, Vileplume Lv32, Murkrow Lv32. (Likely a different one)
