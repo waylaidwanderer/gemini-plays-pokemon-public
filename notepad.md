@@ -22,7 +22,7 @@
 - Current Status: S3=ON (10833), S2=OFF, S1=OFF (Pending).
 - Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
 - Step 1: Turn Switch 3 ON (Turn 10833). (COMPLETED)
-- Step 2: Turn Switch 2 ON (Next).
+- Step 2: Turn Switch 2 ON (Next target).
 - Step 3: Turn Switch 1 ON.
 
 # Area Notes
