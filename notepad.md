@@ -4,14 +4,13 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Walking to Elm's Lab.
-- **Status:** Clearing Phone Call (Wade).
-- **Reason:** Interrupted by phone call from Wade immediately upon arrival. Must clear dialogue before moving.
+- **Status:** Walking to Lab Entrance.
+- **Reason:** Phone call cleared. Proceeding to Elm's Lab to show Togepi.
 - **Plan:**
-    1. Clear Phone Call text (B x8).
-    2. Walk to Lab (6, 3).
-    3. Enter Lab.
-    4. Talk to Elm.
-    5. Receive Everstone.
+    1. Walk to Lab (6, 3).
+    2. Enter Lab.
+    3. Talk to Elm.
+    4. Receive Everstone.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
