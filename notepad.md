@@ -4,15 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Swapping Kenya for Togepi.
-- **Status:** Depositing Kenya (Attempt 2).
-- **Reason:** Previous attempt failed (input swallowed during text). Ensuring correct "Deposit" selection and Gen 2 menu navigation.
+- **Status:** Withdrawing Togepi.
+- **Reason:** Kenya is deposited (Box 1, Slot 16). Now withdrawing Togepi (Box 1, Slot 11).
 - **Plan:**
-    1. Select Deposit (Down, A).
-    2. Select Kenya (Down x4, A).
-    3. Confirm Deposit (A).
-    4. Clear Text (A).
-    5. Exit to Main Menu (B).
-    6. Withdraw Togepi.
+    1. Exit Deposit Menu (B).
+    2. Select Withdraw (Up, A).
+    3. Navigate to Togepi (Down x10).
+    4. Withdraw Togepi (A, A, A).
+    5. Exit PC (B x4).
+    6. Fly to New Bark Town.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
