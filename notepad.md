@@ -9,20 +9,20 @@
     - North East Item/Ladder: Blocked by Wall at Row 4.
 
 ## Puzzle Status: FAILED Hypotheses
-1. **NPC Facing Direction:** Making NPCs face specific directions did NOT open gates.
+1. **NPC Facing Direction:** Making NPCs face specific directions (Up/Left/Right) did NOT open gates.
 2. **NPC Position:** NPC 5's patrol loop (9, 9 to 9, 11) does NOT seem to trigger gates.
 3. **"Behind the Scenes":** Entering the East Room (out of sight) did NOT change gate state.
 4. **Map Reload:** Exiting/Re-entering via Elevator did NOT reset gate state.
 5. **Machoke:** Pushing the Machoke (7, 7) failed (Solid Object).
 6. **Hidden Items:** "Junk" hint checked at (11, 12) inside cage. Found nothing.
+7. **Watching NPC 6:** Standing at (5, 8) facing Left did NOT toggle gates.
 
-## Current Strategy: Strength
-- **Hypothesis:** The "Junk" refers to the boxes themselves acting as boulders.
-- **Action:** Using STRENGTH to push the boxes at (10, 12) and (10, 13).
+## Current Strategy: Physical Interaction
+- **Hypothesis:** The "Junk" refers to the boxes in the West Room (`6, 8-11`) being pushable.
+- **Action:** Test Pushing these boxes with Strength.
 - **Plan:**
-    1. Navigate to (9, 12).
-    2. Walk Right into (10, 12) to PUSH.
-    3. If that works, path opens to South East.
+    1. Push Box at `(6, 8)` from North (`6, 7`) and West (`5, 8`).
+    2. If fails, leave area to search for external triggers.
 
 ## Dialogue Log
 - **NPC 5 (Middle):** "Our policy is to work behind the scenes where no one can see us!"
@@ -39,4 +39,4 @@
 - **FLOOR:** Walkable.
 - **WARP_CARPET_UP:** Walkable, triggers warp.
 - **LADDER:** Interactable/Walkable, triggers warp.
-- **BOXES:** Function as WALL tiles unless pushed?
+- **BOXES:** Function as WALL tiles. Testing if pushable.
