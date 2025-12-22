@@ -3,8 +3,8 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Find Team Rocket Uniform.
-- **Tertiary Goal:** Investigate Locked Door in Underground (18, 6).
-- **Navigation:** Exit Game Corner, then return to Underground South Entrance (11, 29).
+- **Tertiary Goal:** Solve Dept Store Basement Puzzle.
+- **Navigation:** Interact with Machop (7,7), then navigate to South end (Row 13) to access the East side.
 
 ## Tile Mechanics
 - **FLOOR:** Standard walkable tile.
@@ -12,47 +12,24 @@
 - **COUNTER:** Impassable, interactable from adjacent tile.
 - **LADDER:** Warp to another map/floor.
 - **WARP CARPET:** Transition to adjacent map (usually at edges).
+- **BOXES:** Dynamic wall tiles in the basement; likely moved by NPCs.
 
 ## Key Information
 - **Radio Tower:** Entrance at (33, 9) in Goldenrod. Blocked by a Rocket Grunt who demands a Uniform.
 - **Underground:** 
     - "No Entry" door at (18, 6) requires a key or switch.
     - Super Nerd at (19, 27) warned of rough battles.
-- **Obstacles:**
-    - Rocket Grunt at (16, 23) in Goldenrod blocks shortcut.
-    - Rocket Grunt at (31, 10) in Goldenrod blocks Radio Tower.
+- **Dept Store Basement:**
+    - Black Belt at (4, 8) says: "won't work if someone's watching. Come on, kid, scoot!"
+    - Machops and moving boxes present.
+    - Items and a Ladder visible on the right side.
 
 ## Active Quests/Leads
 - **Uniform:** Needed to enter Radio Tower. Likely in the Underground or with a specific NPC.
-- Info: Super Nerd at (3, 27) is the Older Haircut Brother.
-- Plan: Check ladder at (3, 34) leading to Switch Room Entrances.
-- Status: Descending via South Ladder (5, 25) to Underground Tunnel.
-- Note: Map markers indicate I've defeated the Super Nerds here before.
-- Strategy: Check Donald for new info, then proceed to Warehouse (Ladder at 3, 34) to look for the Uniform.
-- Info: Donald is just a tipster (Hiker Anthony). Not the Uniform source.
-- Status: Heading to South Ladder (3, 34) to investigate "Switch Room Entrances".
-- Hypothesis: Underground is split into West (Tunnel) and East (Basement) sections.
-- Plan: Exit to Goldenrod via South exit, then look for the East entrance to reach the Locked Door area.
-- Hypothesis: The section of the Underground with the Uniform/Locked Door is accessible via the Department Store Basement.
-- Info: Rocket Grunt at (16, 23) is a non-battling blocker.
-- Insight: Goldenrod is divided by the train tracks. The West side (where I am) is isolated. The Rocket Grunt at (16, 23) blocks the only surface crossing.
-- Plan: Use the Underground to cross to the East side (Dept Store Basement).
-- Correction: I previously stuck to the West wall of the Underground. I must explore EAST in the Main Underground (3_53) to find the Dept Store entrance.
-- Correction: The Underground Entrance room (3_54) is split into two unconnected halves. I cannot cross here.
-- Plan: Descend to Main Underground (3_53) and look for a path to the East side of that map, which likely leads to the Dept Store Basement.
-- Hypothesis Test: Checking if the Underground West tunnel has any openings to the East side.
-- Plan: Hug the right wall while moving North. If no opening is found, assume the tunnels are separate and I must access the East side from the surface (Department Store).
-- Map Discovery: The Underground Tunnel (3_53) connects to two separate rooms in 3_54.
-    - South Ladder (3, 34 in 3_53) -> West Room (x=5 in 3_54) -> Exits to Goldenrod South.
-    - North Ladder (3, 2 in 3_53) -> East Room (x=21 in 3_54) -> Likely exits to Goldenrod North/East.
-- Navigation Correction: Row 8 and 9 are open paths crossing West-to-East in Goldenrod. The Grunt at (16, 23) only blocks the southern shortcut.
-- Plan: Walk East along Row 8 to reach the Department Store.
-- Navigation Note: Gym area (Row 10-12, Col 23-25) is enclosed by walls on the South. Must go West to Col 21 (Main Street) to travel South to Dept Store.
-- Observation: Tile (24, 28) directly below Dept Store door is marked as WALL. Approaching (23, 28) to investigate entrance accessibility.
-- Status: Inside Dept Store 1F. Checking Directory for Basement info.
-- Observation: Directory lists 1F-6F + Rooftop. No Basement listed.
-- Hypothesis Test: Checking Elevator for hidden/unlisted 'B1F' button.
-- Navigation Note: Counters at (12,1)-(9,2) block direct left movement. Must go down to Row 3 to bypass them.
+- **Basement Puzzle:** The workers (Black Belts/Machops) are moving boxes. I need to find a way to make them open the path to the items/ladder.
+    - Hypothesis 1: Interact with them to trigger movement.
+    - Hypothesis 2: Leave the area or hide to let them work (based on dialogue).
+    - Plan: Check Machop at (7,7), then check Black Belt at (7,13).
 ## Reflections (Turn 12156)
 - **Execution:** Good. No deferred tasks.
 - **Hygiene:** Notepad cleaned. Markers updated.
