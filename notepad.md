@@ -33,3 +33,8 @@
 - Don't reset until the path is physically tested.
 - (21, 29) is an exit, not the objective.
 - 3-2-1 sequence is the standard solution.
+
+## Final Sequence Execution
+- Turn 10525: Selected YES to turn S1 ON. Sequence 3-2-1 (All ON) is active.
+- Path Plan: (16,2) -> (16,4) -> (2,4) -> (2,6) -> (6,8) -> (12,8) -> Southeast quadrant.
+- Shutter Check: (2,6) and (6,8) must be OPEN.
