@@ -37,7 +37,7 @@
 - Repel Trick: Leading with a Pokemon lower level than the target but higher than local wild Pokemon filters out non-targets.
 - Sweet Scent Interaction: SWEET SCENT bypasses REPEL filtering. Use pacing for the Repel trick.
 - Tool Timing: Menu-heavy tools like Pokédex tracking require significant 'sleep' delays (600ms+) to account for UI transitions.
-- Repel Refresh: If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
+- Repel Refresh: Verified. If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
 
 # Ledge Test Plan (Route 37)
 - Observation: Ledges at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7). Potential ledges at (14, 14), (15, 14).
