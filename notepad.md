@@ -9,18 +9,12 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Hypothesis:** NPC Facing Direction triggers the gates.
-- **Observations:**
-    - NPC 5 Facing UP = Row 10/11 Gates CLOSED.
-    - NPC 5 Facing DOWN = Row 10/11 Gates CLOSED (Confirmed).
-    - "Work behind scenes where no one can see us".
-- **Refined Hypothesis:** Gates open when NPC 5 cannot see the Player.
-- **Solution:**
-    1. **Unstun** NPC 5.
-    2. **Position** at (8, 9).
-    3. **Trap** NPC 5 at (9, 9) facing LEFT (by talking).
-    4. **Freeze** him.
-    5. **Walk** on Row 10 (blind spot).
+- **Correction:** Row 10/11 Right Gates (10,10 to 11,11) are **FLOOR** (Open) in the XML, despite looking like boxes.
+- **Hypothesis:** Gates are open by default. They likely close (turn to WALL) only if NPC 5 **sees** the player.
+- **Plan:**
+    1. **Wait** for NPC 5 to move off (9, 10).
+    2. **Stun** NPC 5 to keep him out of the way and prevent him from turning to see me.
+    3. **Walk** through (9, 10) to (10, 10).
 
 ## Status
 - Player at (8, 9).
