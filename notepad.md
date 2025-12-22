@@ -21,14 +21,13 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** In Mahogany Town.
-- **Progress:** cleared Team Rocket Hideout. HM06 obtained.
-- **Current Task:** Find Pokemon Center and Gym.
-- **Plan:**
-    1. Explore East side of Mahogany Town.
-    2. Locate Pokemon Center and Heal.
-    3. Locate Gym and Challenge Pryce.
-- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
+- **Status:** Exploring Mahogany Town East.
+- **Objective:** Locate Pokemon Center and Gym.
+- **Current Action:** Checking building at (17, 7).
+- **Next Steps:**
+    1. Heal at Pokemon Center.
+    2. Challenge Pryce at Mahogany Gym.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket likely full.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
