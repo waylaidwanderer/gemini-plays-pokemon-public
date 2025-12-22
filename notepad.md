@@ -20,5 +20,5 @@
 - Suicune HP: RED
 - Suicune Accuracy: -6
 - Lead: Calcifer (Typhlosion) @ 116/142 HP
-- Great Balls remaining: 36
-- Next: Throw 16th Great Ball.
+- Great Balls remaining: 35
+- Next: Throw 17th Great Ball.
