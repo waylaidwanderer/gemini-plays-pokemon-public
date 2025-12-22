@@ -90,3 +90,6 @@
 - Strategy: Stun NPC ID 5 (patrolling Col 9) to secure a safe crossing.
 - Plan: Stun NPC. If he freezes at (9, 11), cross via Row 10. If he freezes at (9, 10), cross via Row 11.
 - Current Action: Stun NPC and move to (8, 10) to verify his frozen position.
+- Observation: Rows 10 and 11 are DEAD ENDS at x=11. The wall at x=12 is solid there.
+- Plan: Backtrack to (8, 10). Unstun NPC (ID 5) to allow box mechanics to resume.
+- Strategy: Enter the West Corridor via (4, 11) (if open) and try to access the East side via Row 13 (checking boxes at 10,13/11,13).
