@@ -129,6 +129,7 @@
 - Plan: Inspect (10, 12). If closed, manipulate NPC 5 facing direction.
 - Observation: Gate at (10, 12) is CLOSED (WALL).
 - Action: Talking to NPC 5 at (9, 11) to turn him RIGHT.
-- Hypothesis: NPC facing direction controls gate toggles.
-- Update: NPC 5 moved to (9, 10) and is now STUNNED.
-- Plan: Move to (8, 10) to flank him from the LEFT. This should force him to look Left (away from Col 9).
+- Status: At (8, 10). Flanking NPC 5 (9, 10).
+- Action: Stun NPC 5 and Talk (Right + A) to turn him LEFT.
+- Hypothesis: His Left facing (away from boxes) will OPEN Gate 2 at (10, 12).
+- Plan: After talk, check (10, 12). If open, enter East Zone.
