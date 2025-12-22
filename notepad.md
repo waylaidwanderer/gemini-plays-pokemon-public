@@ -54,4 +54,4 @@
     4. Throw Great Balls until caught.
     5. Heal Typhlosion with LEMONADE if HP falls below 50%.
 - Capture Marathon Started: Turn #11666.
-- Status: Suicune HP RED, Accuracy -6. No rain. Calcifer HP 36/142. Healing with Lemonade. Turn #11692.
+- Status: Suicune HP RED, Accuracy -6. No rain. Calcifer HP 36/142. Healing with Lemonade. Turn #11695.
