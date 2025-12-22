@@ -152,3 +152,7 @@
 - **Action:** Pressing A to talk to NPC 7 from (6, 12).
 - **Test:** Will making NPC 7 face UP open the Bottom Gates (10, 12-13)?
 - **Current State:** Gates are CLOSED. NPC 7 facing DOWN.
+- **Correction:** NPC 7 was STUNNED. This prevents him from "working" (moving boxes).
+- **Action:** Unstunning NPC 7.
+- **Plan:** Move to (9, 12) and face Right (towards gate, away from NPC) to test "Behind the Scenes" hypothesis.
+- **Hypothesis:** If I don't watch the NPC, he will open the gate.
