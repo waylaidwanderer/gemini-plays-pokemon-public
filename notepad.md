@@ -371,3 +371,7 @@
 - **Action:** Moving to `(7, 12)`.
 - **Next Turn:** Unstun and Talk (Down) to force Face UP.
 - **Hypothesis:** NPC 7 Facing UP -> Gate `(10, 12)` Opens.
+- **Action:** Navigating to `(6, 12)`.
+- **Action:** Unstunning NPC 7 (currently at `6, 13`).
+- **Action:** Interacting (Down+A) to force him to Face UP.
+- **Goal:** Check if Gate `(10, 12)` opens while he faces UP during dialogue.
