@@ -9,25 +9,28 @@
 # Underground Warehouse Puzzle (Map 3_54)
 - Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
 - Emergency Switch (20, 11): ON.
-- Result: Opened access to the eastern section and the Warehouse entrance.
+- Result: Opened access to the Warehouse entrance.
 
 # Current Strategy: Rescue Director
 - Search Started: Turn 10940.
 - Current Location: Underground Warehouse (Map 3_56).
-- Step 1: Explore the Warehouse to find the real Director.
-- Step 2: Defeat Rocket Grunts at (9, 8) and (8, 15).
-- Step 3: Locate the Director and obtain the Card Key.
+- Step 1: Defeat Rocket Grunt at (8, 13). (Current Battle).
+- Step 2: Explore the Warehouse to find the real Director.
+- Step 3: Defeat Rocket Grunt at (9, 8).
+- Step 4: Locate the Director and obtain the Card Key.
 
 # Warehouse Observations (Map 3_56)
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
 - Internal Walls: Column 5 blocks passage from Row 4-15 (Gaps at Row 1-3).
 - Internal Walls: Column 8 blocks passage from Row 1-11 (Gaps at Row 12-15).
 - Rocket Grunt 1: (9, 8) (Facing UP).
-- Rocket Grunt 2: (8, 15) (Off-screen, tracked by marker).
+- Rocket Grunt 2: (8, 13) (Battling).
+- Gentleman: (12, 8) (Facing RIGHT).
+- Item: (13, 9) (POKE_BALL).
 
 # Training & Party
-- Calcifer (Lv44 Typhlosion): FLAME WHEEL, HEADBUTT.
 - GNEISS (Lv40 Graveler): STRENGTH, MAGNITUDE, ROLLOUT.
+- Calcifer (Lv44 Typhlosion): FLAME WHEEL, HEADBUTT.
 - KIMCHI (Lv21 Gloom): CUT.
 - Ravioli (Lv10 Krabby): SURF.
 
