@@ -39,7 +39,7 @@
 # Active Hunt Status
 - Super Repel active: Started Turn #12222. Duration: 200 steps. Estimated expiration: ~Turn #12422.
 - Current Location: Route 37 tall grass.
-- Pacing count: ~150 steps.
+- Pacing count: 150 steps. Using Sweet Scent.
 - Remaining steps: ~50 steps.
 - Safeguard: Re-verify Suicune's location via Pokédex every 50 steps if no encounter occurs.
 - Encounter Strategy: Use Sweet Scent to force encounter while on the same route as Suicune. Use Sleep Powder immediately on Turn 1. Use `suicune_capture_analyst` for ball choice.
