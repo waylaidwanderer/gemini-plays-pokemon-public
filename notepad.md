@@ -4,7 +4,7 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Exiting Player's House to Fly.
-- **Status:** Inside Player's Room (2F).
+- **Status:** Inside Player's House (1F).
 - **Reason:** Player's PC only holds items. Need a PokeCenter for Pokemon Storage.
 - **Plan:**
     1. Exit Player's House.
