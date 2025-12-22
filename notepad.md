@@ -11,15 +11,15 @@
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) must face RIGHT to open gates.
 - **Status:**
-    - Player at (9, 11) (Accidentally stepped out).
-    - NPC 5 at (9, 9).
-    - **Action:** Moving back Right to (10, 11) to inside pocket.
+    - Player at (10, 11) facing Right.
+    - NPC 5 at (9, 10) facing Down.
+    - **Action:** Turning Left to wait for him at (9, 11).
 - **Plan:**
-    1. **Position:** Move to (10, 11).
-    2. **Wait:** Wait for NPC 5 to reach (9, 11).
-    3. **Interact:** Face Left + A. He turns RIGHT.
+    1. **Setup:** Face Left.
+    2. **Trigger:** Wait for NPC 5 to step into (9, 11).
+    3. **Interact:** Press A. He turns RIGHT.
     4. **Lock:** Stun him.
-    5. **Verify:** Check if Top/Bottom gates open.
+    5. **Verify:** Check Top/Bottom gates.
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
