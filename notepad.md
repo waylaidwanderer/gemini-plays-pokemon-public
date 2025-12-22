@@ -11,12 +11,11 @@
 - Result: Gaps opened at x=2,3 (Row 6,7), x=6 (Row 8), and x=10,11 (Row 10,11).
 
 # Current Strategy: Enter Warehouse
-- Step 1: Defeat Burglar Duncan at (9, 12). COMPLETED.
-- Step 2: Navigate to (14, 9) to collect the item ball.
-  - Route: (13, 12) -> (16, 12) -> (16, 9) -> (15, 9).
-- Step 3: Activate the Emergency Switch at (20, 11).
+- Started Warehouse search: Turn 10940
+- Step 1: Activate the Emergency Switch at (20, 11).
   - Route: (15, 9) -> (16, 9) -> (16, 12) -> (18, 12) -> (18, 13) -> (20, 13) -> (20, 12).
-- Step 4: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
+- Step 2: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
+- Step 3: Locate the real Director in the Warehouse.
 
 # Shutter Observation (Turn 10978)
 - Sequence 3-2-1 complete. Gaps opened at:
@@ -29,8 +28,6 @@
 - Rocket Girl (ID 6) at (19, 12) blocks the direct path; must loop around via Row 13.
 - Shutter (12, 8) is CLOSED.
 - Shutter (6, 12-13) is WALL.
-- Plan: Collect item at (14, 9), then head to Emergency Switch.
-- Turn Mismatch Fixed: Current Turn is 10978.
 
 # Training & Party
 - Gneiss (Lv40 Graveler) is highly effective against Poison-types in this area.
@@ -39,8 +36,5 @@
 - Kimchi (Lv21 Gloom) is used for Cut.
 - Ravioli (Lv10 Krabby) is used for Surf.
 
-# Shutter Observation (Turn 10968)
-- Row 10/11 at x=16: OPEN (Turn 10967).
-- Row 14 wall: Solid from x=6 to x=16. Need to check x<6 or x>16.
-- Reachable Unseen: (22, 13), (21, 14), (0-5, 14).
-- Plan: Explore row 13 to find a path to the southern sections.
+# Findings
+- Found Full Heal at (14, 9). (Turn 10981)
