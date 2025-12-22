@@ -175,5 +175,33 @@
         "action_counter": 11951
       }
     ]
+  },
+  "pokedex_navigator": {
+    "description": "Navigates the Pokédex to a specific target by using Page Down (Right) and Scroll Down (Down) inputs. Assumes the Pokédex main list is open.",
+    "input_schema": {
+      "properties": {
+        "num_downs": {
+          "description": "The number of times to press Down.",
+          "type": "integer"
+        },
+        "num_rights": {
+          "description": "The number of times to press Right (Page Down).",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "num_rights",
+        "num_downs"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        num_rights = int(input_data.get('num_rights', 0))\n        num_downs = int(input_data.get('num_downs', 0))\n        \n        buttons = []\n        for _ in range(num_rights):\n            buttons.append(\"Right\")\n            buttons.append(\"sleep 200\")\n        for _ in range(num_downs):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T13:35:50.715Z",
+        "action_counter": 12091
+      }
+    ]
   }
 }
