@@ -35,12 +35,12 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 1F.
-- **Goal:** Find stairs to 2F and climb the tower.
-- **Status:** Receptionist confirms "No Tours" (Rocket Takeover active).
+- **Goal:** Reach 2F via stairs at (15, 0).
+- **Status:** Approaching stairs. Rocket Grunt at (14, 1) guarding the path.
 - **Known Blockades:**
   - **Goldenrod City:** Grunts blocking West and East paths.
 - **Missing Keys:** BASEMENT KEY, CARD KEY.
-- **Plan:** Explore 1F North for stairs. Expecting Rocket Grunts on upper floors.
+- **Plan:** Defeat/Bypass Grunt and climb to 2F.
 
 ## Important Locations (Goldenrod)
 - **Radio Tower:** Current Location.
