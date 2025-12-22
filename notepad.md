@@ -19,9 +19,9 @@
 
 # Puzzle Solving Log
 - Attempt 4 (Current): 3-2-1 Sequence from clean reset.
-  - Reset all switches to OFF (Turn 10831).
-  - Step 1: Turn Switch 3 ON (Turn 10833). (VERIFIED: S3=ON, S2=OFF, S1=OFF)
-  - Step 2: Turn Switch 2 ON (In progress).
+  - S3: ON (Turn 10833).
+  - S2: ON (Turn 10852).
+  - S1: Next.
 
 # Current Strategy: Execute 3-2-1 Sequence
 1. Turn Switch 3 ON (COMPLETED).
