@@ -19,13 +19,14 @@
 - Turn 10490: (0,0,0) baseline reached. All switches OFF.
 
 # Area Notes
-- Warehouse Entrance: Southeast quadrant.
+- Warehouse Entrance: Likely behind the shutters in the southeast (Map 3_55).
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11).
-- Ladders: (23,3) To Switch Room Entrance, (21,25) To North, (5,25) To South.
+- EXIT: (21, 29) leads back to Goldenrod City. Do NOT use until Director is rescued.
 
-# Lessons Learned
-- Standardize switch states as (S3, S2, S1).
-- Visual confirmation is required after every toggle.
-- (21, 29) is an exit, not the objective.
-- 3-2-1 sequence clears the path to the southeast via (2,6) and (12,8).
-- Reset to (0,0,0) before starting the sequence.
+# Puzzle Strategy
+- Committed to 3-2-1 sequence.
+- Step 1: Switch 3 ON (Done).
+- Step 2: Switch 2 ON (Done).
+- Step 3: Switch 1 ON (Next).
+- Step 4: Walk south to (2,6) -> (12,8) -> Southeast to find Map 3_55 entrance.
+- Verification: Do NOT reset until path is physically tested.
