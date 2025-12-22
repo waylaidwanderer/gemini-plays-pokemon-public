@@ -4,14 +4,15 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Menu Navigation (Flying to Goldenrod).
-- **Status:** In Menu (Item Pocket). Correcting navigation.
-- **Reason:** Accidentally entered Item Pack instead of Pokemon Menu. Backing out to select Mistral for Fly.
+- **Status:** In Menu (Item Context). Correcting navigation.
+- **Reason:** Accidentally opened item context menu. Backing out to select Mistral for Fly.
 - **Plan:**
-    1. Back out of Item Menu.
-    2. Enter Pokemon Menu.
-    3. Select Mistral (Slot 4).
-    4. Use Fly to Goldenrod.
-    5. Go to Goldenrod Pokemon Center.
+    1. Close Item Context Menu (B).
+    2. Back out of Item Pocket (B).
+    3. Enter Pokemon Menu (Up, A).
+    4. Select Mistral (Slot 4).
+    5. Select Fly.
+    6. Fly to Goldenrod.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
