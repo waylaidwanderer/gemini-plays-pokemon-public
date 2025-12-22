@@ -1,11 +1,11 @@
-# Suicune Capture Strategy (The "How")
+# Suicune Capture Strategy
 - Goal: Capture Suicune (Lv 40, Water).
-- Status: Suicune (Lv 40) HP in RED (~5-10%), Accuracy -6.
-- Strategy: Tank with Blarney (Sudowoodo) - our final Pokemon!
-- Hypothesis: Brute-force capture with remaining Great Balls is the only viable path (~1.95% per throw).
-- Failed Attempts: ~142 turns in battle.
+- Status: Suicune HP RED (~5-10%), Accuracy -6.
+- Strategy: Tank with Blarney (Sudowoodo). Suicune's -6 accuracy is the only defense.
+- Capture Analyst: ~1.95% per Great Ball. Sleep unavailable (KIMCHI fainted, no Revives).
+- Hypothesis: Persistence with Great Balls is the only path forward.
 - Ball Count: 12 Great Balls, 2 Poké Balls.
-- Lead: Blarney (Sudowoodo) @ 60/60 HP. Suicune's accuracy is -6.
+- Lead: Blarney (Sudowoodo) @ 60/60 HP.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable. (Verified: Tin Tower 1F)
