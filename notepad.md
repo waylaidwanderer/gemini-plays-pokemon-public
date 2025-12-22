@@ -63,3 +63,4 @@
 - **FLOOR:** Walkable.
 - **WARP_CARPET_UP:** Walkable, triggers warp when stepping OFF the map.
 - **LADDER:** Interactable/Walkable, triggers warp.
+- **BOXES:** Appear as Brown Boxes. Function as WALL tiles (Impassable). Located at (10, 8-9) and (10, 12-13). Also (6, 8-11).
