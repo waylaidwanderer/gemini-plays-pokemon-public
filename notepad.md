@@ -4,13 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Navigating to Mistral to Fly (Retry).
-- **Reason:** Previous attempt entered Pack by mistake. Cursor was on Pokemon, pressing Down went to Pack.
+- **Status:** Selecting Mistral to Fly (Retry 2).
+- **Reason:** Previous attempt selected Cancel. Cursor is now on Cancel. Moving Up 3 slots to Mistral (Slot 4).
 - **Plan:**
-    1. Select Pokemon (Up, A).
-    2. Select Mistral (Down x3, A).
-    3. Select Fly.
-    4. Fly to Goldenrod.
+    1. Enter Party (A).
+    2. Navigate to Mistral (Up x3).
+    3. Select Mistral (A).
+    4. Select FLY.
+    5. Fly to Goldenrod.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
