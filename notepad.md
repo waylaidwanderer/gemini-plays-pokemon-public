@@ -3,15 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Removing Mail from Kenya (Manual).
-- **Status:** taking Mail from Kenya.
-- **Reason:** Accidentally opened Belladonna's menu. Correcting to Kenya (Up one slot).
+- **Navigation:** Depositing Kenya.
+- **Status:** Confirming Mail Removal.
+- **Reason:** Answering "YES" to send Mail to PC.
 - **Plan:**
-    1. Close Belladonna's Menu (B).
-    2. Select Kenya (Up, A).
-    3. Select MAIL (Down x3, A).
-    4. Select TAKE MAIL (Down, A).
-    5. Exit and Deposit.
+    1. Confirm Send to PC (A).
+    2. Clear Text (A).
+    3. Exit Menus (B, B, B).
+    4. Deposit Kenya.
+    5. Withdraw Togepi.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
