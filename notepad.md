@@ -68,3 +68,6 @@
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
 - Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs for floor transitions.
+
+# Goldenrod Dept Store Inventory
+- 2F Clerk (13, 5): Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
