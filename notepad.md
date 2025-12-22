@@ -29,3 +29,5 @@
 - Status: Descending via South Ladder (5, 25) to Underground Tunnel.
 - Note: Map markers indicate I've defeated the Super Nerds here before.
 - Strategy: Check Donald for new info, then proceed to Warehouse (Ladder at 3, 34) to look for the Uniform.
+- Info: Donald is just a tipster (Hiker Anthony). Not the Uniform source.
+- Status: Heading to South Ladder (3, 34) to investigate "Switch Room Entrances".
