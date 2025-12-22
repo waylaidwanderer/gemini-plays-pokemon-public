@@ -12,10 +12,10 @@
 
 # Current Strategy: Enter Warehouse
 - Started Warehouse search: Turn 10940
-- Step 1: Activate the Emergency Switch at (20, 11).
-  - Route: (15, 9) -> (16, 9) -> (16, 12) -> (18, 12) -> (18, 13) -> (20, 13) -> (20, 12).
-- Step 2: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
-- Step 3: Locate the real Director in the Warehouse.
+- Step 1: Defeat Rocket Girl at (19, 12).
+- Step 2: Activate the Emergency Switch at (20, 11).
+- Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
+- Step 4: Locate the real Director in the Warehouse.
 
 # Shutter Observation (Turn 10978)
 - Sequence 3-2-1 complete. Gaps opened at:
@@ -30,11 +30,10 @@
 - Shutter (6, 12-13) is WALL.
 
 # Training & Party
-- Gneiss (Lv40 Graveler) is highly effective against Poison-types in this area.
-- Typhlosion (Lv43) is the backup heavy hitter.
-- Icarus (Lv16 Pidgey) is used for Fly.
-- Kimchi (Lv21 Gloom) is used for Cut.
-- Ravioli (Lv10 Krabby) is used for Surf.
+- GNEISS (Lv40 Graveler): STRENGTH, MAGNITUDE, ROLLOUT.
+- Calcifer (Lv43 Typhlosion): FLAME WHEEL, HEADBUTT.
+- KIMCHI (Lv21 Gloom): CUT.
+- Ravioli (Lv10 Krabby): SURF.
 
 # Findings
 - Found Full Heal at (14, 9). (Turn 10981)
