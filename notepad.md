@@ -19,7 +19,8 @@
 - **Automation:** Tools are functioning, though `navigate_to_coords` had a pathfinding issue earlier (likely distance/door related).
 - **Goals:** Clear.
 - **Errors:** Menu navigation failed (ended in Pack). Lesson: Assume menu cursor memory or verify state before long sequences.
-- **Quest Info:** No Rocket Uniform needed. Just force/battle through.
+- **Quest Info:** Rocket Uniform NOT needed (Crystal specific). Fight the Grunt at Radio Tower 2F.
+- **Quest Info:** Showing Togepi to Elm awards Everstone (Side Quest).
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
 ## Map Data
