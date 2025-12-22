@@ -12,18 +12,18 @@
 - Baseline (0,0,0): S1=OFF, S2=OFF, S3=OFF.
   - (2,6): CLOSED
   - (3,6): CLOSED
-  - (10,6): ?
-  - (16,6): ?
-  - (6,8): ?
-  - (12,8): ?
-  - (17,6): ?
-  - (17,7): ?
+  - (10,6): CLOSED
+  - (16,6): CLOSED
+  - (6,8): CLOSED
+  - (12,8): OPEN
+  - (17,6): CLOSED
+  - (17,7): CLOSED
 - Test S1 (1,0,0): ?
 - Test S2 (0,1,0): ?
 - Test S3 (0,0,1):
   - (2,6): OPEN
   - (3,6): OPEN
-  - (Others): ?
+  - (Others): Same as baseline.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
