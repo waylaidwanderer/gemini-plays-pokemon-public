@@ -11,16 +11,20 @@
 - Result: Gaps opened at x=2,3 (Row 6,7), x=6 (Row 8), and x=10,11 (Row 10,11).
 
 # Current Strategy: Enter Warehouse
-- Step 1: Defeat Burglar Duncan at (9, 12). (Turn 10954, Start). COMPLETED (Turn 10966).
-- Step 2: Navigate south to explore the area below Row 11.
-- Step 3: Locate the entrance to Map 3_55 (Warehouse).
+- Step 1: Defeat Burglar Duncan at (9, 12). COMPLETED.
+- Step 2: Navigate to (20, 11) to activate the Emergency Switch.
+  - Route: Row 8 -> Row 9 -> x=2 -> Row 4 -> x=20 -> Row 11.
+- Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
 - Step 4: Locate the real Director in the Warehouse.
 
-# Lessons Learned
-- Shutter (12, 8) is a "toggle-flip" tile: S1 and S2 both affect it. If both are ON, it returns to OPEN.
-- Row 10 gap (x=10,11) is the primary route to the southern area when 3-2-1 is active.
-- Burglar Duncan at (9, 12) is a Poison/Fire trainer (Koffing, Magmar).
-- Scientific Method: Observe, Hypothesize, Test, Conclude. (Verified 3-2-1 sequence).
+# Shutter Observation (Turn 10971)
+- East/West separation: Wall at x=18 blocks row 8-17.
+- Row 4/5: Clear passage across the entire map.
+- Emergency Switch (20, 11) is likely the next trigger.
+- Gap at (2, 6-7) is the only known way to reach Row 4 from the central area.
+- Pharmacist (ID 2) at (4, 8) blocks row 8; must go around via Row 9.
+- Shutter (12, 8) is CLOSED with S1, S2, S3 all ON. Row 8 is blocked.
+- Plan: (5, 8) -> (5, 9) -> (2, 9) -> (2, 4) -> (22, 4) -> (22, 12) -> (20, 12) -> (20, 11).
 
 # Training & Party
 - Gneiss (Lv40 Graveler) is highly effective against Poison-types in this area.
