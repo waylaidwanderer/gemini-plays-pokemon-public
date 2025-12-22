@@ -3,13 +3,14 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Flying to Goldenrod City.
-- **Status:** In Fly Map (at Goldenrod City).
-- **Reason:** Destination confirmed as Goldenrod City. Executing Fly.
+- **Navigation:** Entering Goldenrod Pokemon Center.
+- **Status:** In Goldenrod City (Outside PokeCenter).
+- **Reason:** Arrived in Goldenrod. Need to access PC to swap Pokemon.
 - **Plan:**
-    1. Press A to Fly.
-    2. Confirm arrival in Goldenrod (Map ID change).
-    3. Go to PokeCenter to swap Pokemon.
+    1. Enter Pokemon Center (15, 27).
+    2. Use PC.
+    3. Deposit Kenya, Withdraw Togepi.
+    4. Fly to New Bark Town.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
