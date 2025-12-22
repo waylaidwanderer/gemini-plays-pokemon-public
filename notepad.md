@@ -3,9 +3,13 @@
 - Method: Pacing (Grass Dance) in grass at (28, 7).
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Repel expired (Turn #12659). Out of Repels.
-- Strategy: Restock Repels at Ecruteak Mart (4_9: 29, 21).
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
 - Tracking: Start Turn #12542. Suicune was on Route 38 (Turn #12584), will shift when moving to Ecruteak.
+
+# Route 38 Specific Notes
+- TALL_GRASS at (28, 7): Pacing spot for Suicune.
+- Gatehouse to Ecruteak City at (35, 8).
+- Route to Mart: Exit Route 38 at (35, 8) -> Ecruteak Gatehouse -> Ecruteak City -> Mart at (29, 21).
 
 ## Roaming Pokémon Reference
 - Tracking: Do NOT use Fly to chase (randomizes location). Walk across map boundaries (gatehouses/warp carpets) to shift position predictably.
