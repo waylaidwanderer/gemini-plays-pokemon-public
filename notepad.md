@@ -21,13 +21,14 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exiting house to Mahogany Town.
-- **Info:** Residents discussed Red Gyarados.
-- **Objective:** Locate Pokemon Center and Gym.
-- **Next Steps:**
-    1. Exit house.
-    2. Find Pokemon Center & Heal.
-    3. Locate and Challenge Gym.
+- **Status:** Exploring Mahogany Town.
+- **Location:** Outside House at (17, 8).
+- **Objective:** Find Pokemon Center and Gym.
+- **Observation:** North part of town contains Mart and Houses. South part is unexplored and accessible via ledges.
+- **Plan:**
+    1. Head South-West to the ledge at (12, 11).
+    2. Jump down to explore the lower area.
+    3. Locate Pokemon Center and Gym.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
