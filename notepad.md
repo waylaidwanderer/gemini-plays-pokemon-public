@@ -16,6 +16,7 @@
 # Strategy: Tin Tower Investigation
 - Mission Start: Turn #11243.
 - Current Task Turn Start: #11483 (Entering Ecruteak).
+- Wise Trio Battle Start: Turn #11502.
 - Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City via Route 35, 36, and 37.
 - Strategist Advice (Turn #11491):
