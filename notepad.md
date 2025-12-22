@@ -23,3 +23,10 @@
     6.  Slide **East** to (5, 4) Floor (Done).
     7.  Interact **North** with Pryce.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
+## Battle Log: Leader Pryce
+- **Opponent:** Leader Pryce
+- **Lead:** Seel Lv27
+- **My Lead:** Muscle (Machoke) Lv48
+- **Turn 1:** Seel sent out. Muscle active.
+- **Strategy:** Restore PP for Cross Chop using Ether.
+- **Status:** In Pack menu.
