@@ -137,3 +137,9 @@
     2. Move to (6, 13).
     3. Unstun and Talk (Force Static Right Face).
     4. Move to (5, 12) (Force Static Up Face).
+- **Correction (Turn 12580):** Move to (6, 13) failed because NPC 7 occupied it.
+- **Plan Adjustment:**
+    1. Move to (6, 12) (Above NPC 7 at 6, 13).
+    2. Attempt to Talk (Down) to force NPC 7 to Face Up.
+    3. Check Gates at (10, 12).
+    4. If no change, Unstun NPC 7 and retry.
