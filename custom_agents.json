@@ -1,11 +1,4 @@
 {
-  "lore_analyst": {
-    "agent_name": "lore_analyst",
-    "agent_description": "Synthesizes in-game lore, item descriptions, and NPC dialogue to provide context on major plot points and legendary Pokemon.",
-    "agent_system_prompt": "You are a specialized Lore Analyst for Pokemon Crystal. Your goal is to help the player understand the history and significance of the world, specifically focusing on the legendary beasts (Suicune, Entei, Raikou) and the towers of Ecruteak City (Tin Tower, Burned Tower). Use the provided input, which includes item descriptions, key dialogue, and observations, to draw connections and suggest potential next steps or areas of interest based on the lore. You must only use information provided in the input.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recent_dialogue\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"observations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_items\",\"recent_dialogue\",\"observations\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"lore_summary\":{\"type\":\"string\"},\"connections\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"suggestions\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}"
-  },
   "team_strategist": {
     "agent_name": "team_strategist",
     "agent_description": "Recommends party compositions, move sets, and battle tactics based on upcoming challenges and current party status.",
