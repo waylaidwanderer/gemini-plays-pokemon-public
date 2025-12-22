@@ -1,11 +1,12 @@
 # Suicune Capture Strategy
-- Attempt 1: Failed (Turn #11814). Whited out after ~150 turns. Suicune was in RED HP and -6 Accuracy.
-- Status: Party fully healed from white out.
-- Plan: Restock on Great Balls at Goldenrod Dept. Store, then Fly to Ecruteak City to check if Suicune is still at Tin Tower 1F.
-- Lesson: Status (Sleep) is critical. Use KIMCHI (Gloom) with Sleep Powder.
+- Attempt 1: Failed (Turn #11814). Whited out.
+- Status: Party fully healed. Suicune reset to full HP (if present).
+- Plan: Sell Nugget, restock Great Balls/Revives, return to Tin Tower.
+- Strategy (Round 2): Lead with KIMCHI (Gloom) for Sleep Powder. Use Smokescreen (Typhlosion) if Sleep Powder misses or fails.
+- Ball Count: 10 Great Balls, 2 Poké Balls.
 
 # Tile Mechanics (Global)
-- FLOOR: Traversable. (Verified: Tin Tower 1F, Goldenrod City)
+- FLOOR: Traversable. (Verified: Tin Tower 1F, Goldenrod City, Dept Store 2F)
 - WALL: Impassable. (Verified: Tin Tower 1F, Goldenrod City)
 - COUNTER/SHELF: Impassable.
 - LADDER/STAIRS/WARP: Warp tiles.
