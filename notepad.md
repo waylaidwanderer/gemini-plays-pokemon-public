@@ -3,7 +3,7 @@
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Super Repel expired (Turn #13075). 0 left in bag.
-- Current Status: Suicune confirmed on Route 38 (Turn #13076). Moving to Olivine to restock.
+- Current Status: Suicune confirmed on Route 38 (Turn #13076).
 
 # Roaming Pokémon Reference
 - Tracking: Use Pokédex AREA map via `check_suicune_location_v5`.
@@ -13,12 +13,24 @@
 - Capture: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1.
 - Catch Odds: ~5.66% with Sleep + Great Ball at 1 HP. Suicune is Lv 40.
 
-# Tile Mechanics (Global)
-- TALL_GRASS: (x,y) -> (x,y). Traversable. Triggers wild encounters. Repel Trick works here.
-- FLOOR: (x,y) -> (x,y). Traversable. Standard ground.
+# Global Tile Mechanics
+- TALL_GRASS / LONG_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
+- FLOOR: Traversable. Standard ground.
 - WALL / HEADBUTT_TREE: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
 - WARP_CARPET_RIGHT: Traversable. Triggers map transition.
+
+# Restock Task (Started Turn #13076)
+- Goal: Buy 20 Super Repels (10,000 yen).
+- Current Funds: 1821 yen.
+- TM Selling Plan (Olivine Mart):
+  - TM49 (Fury Cutter)
+  - TM50 (Nightmare)
+  - TM01 (DynamicPunch)
+  - TM08 (Rock Smash)
+  - TM12 (Sweet Scent)
+  - TM45 (Attract)
+- Estimated Revenue: ~6000-8000 yen.
 
 # Route 38 Specifics
 - Suicune Hunting Spot: (28, 7) tall grass.
@@ -34,14 +46,14 @@
 
 # Pokedex Navigation Sequence (Verified)
 1. Press Start to open Menu.
-2. Select POKEDEX (index 0) and press A.
-3. Select Suicune from list and press A.
-4. Cursor starts on PAGE. Press Right to select AREA.
-5. Press A to view map.
-6. Press B multiple times to exit.
+2. Press Up 8 times to reset cursor to POKEDEX.
+3. Press A to select POKEDEX.
+4. Select Suicune from list and press A.
+5. Cursor starts on PAGE. Press Right to select AREA.
+6. Press A to view map.
+7. Press B multiple times to exit.
 
 # Encounter Tracking (Route 38)
-- Current Repel: Applied Turn #13062.
-- Steps Taken: 180.
-- Encounter Goal: Suicune.
-- Status: No encounter yet. Suicune confirmed here Turn #13049.
+- Current Repel: Applied Turn #13062. Expired Turn #13075.
+- Steps Taken: 200 (Repel Duration).
+- Status: Suicune confirmed here Turn #13076.
