@@ -25,13 +25,13 @@
 - Reset Progress:
   - 1. S1 OFF: Done (Turn 10344).
   - 2. S2 OFF: Done (Turn 10349).
-  - 3. S3 OFF: In progress.
+  - 3. S3 OFF: Done (Turn 10354).
 - Sequence Attempt 3:
-  - 1. S3 ON: Next.
+  - 1. S3 ON: In progress (Turn 10354).
   - 2. S2 ON: Next.
   - 3. S1 ON: Next.
 - Shutter (17, 6) Verification: Explicitly test if traversable when S1 is ON.
-- Switch Puzzle Start: Turn 10284. Phase: Resetting.
+- Switch Puzzle Start: Turn 10284. Phase: Reset complete. Starting 3-2-1.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
