@@ -22,11 +22,13 @@
 
 ## Action Log & Reflection
 - **Status:** Exiting Team Rocket Hideout.
-- **Current Location:** B1F, heading to Exit at (27, 2).
+- **Event:** Wild Koffing at (4, 13) Selfdestructed. Failed to catch.
+- **Current Location:** B1F (4, 13).
 - **Next Steps:**
-    1. Exit to Mahogany Mart.
-    2. Heal at Pokemon Center.
-    3. Challenge Pryce at Mahogany Gym.
+    1. Retrieve Item Ball at (27, 6).
+    2. Exit to Mahogany Mart via Ladder at (27, 2).
+    3. Heal at Pokemon Center.
+    4. Challenge Pryce at Mahogany Gym.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
 
 ## Mapping & Connections (Restored)
