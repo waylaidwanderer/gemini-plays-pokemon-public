@@ -30,6 +30,8 @@
 - **Status:** Exploring Goldenrod Underground (Main Tunnel 3_53).
 - **Goal:** Obtain Team Rocket Uniform.
 - **Plan:**
-    1. Search the northern area near the Photo Studio (18, 6) for a Team Rocket member.
-    2. If not found, explore the southern part of the tunnel.
+    1. Super Nerd Teru at (6, 9) was just flavor text.
+    2. Explore the southern part of the tunnel to check for missed Rocket Grunts or items.
+    3. Re-check the "NO ENTRY" sign at (19, 6) if necessary.
+    4. If no uniform is found, reconsider location (maybe it's not in the underground?).
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
