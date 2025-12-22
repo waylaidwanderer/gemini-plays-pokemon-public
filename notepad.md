@@ -55,9 +55,7 @@
 - Navigation Note: Counters at (12,1)-(9,2) block direct left movement. Must go down to Row 3 to bypass them.
 - Status: Inside Elevator. Moving to controls to check for Basement button.
 - Confirmation: Elevator has a B1F button! Going down to investigate.
-- Status: Arrived at B1F via Elevator. Exiting to investigate.
-- Status: Exiting Elevator to Dept Store Basement.
-- Status: Walking South to exit Elevator into B1F.
+- Status: Solving Box Puzzle. Interacting with Machop at (7, 7).
 - Observation: Dept Store B1F contains Machops and crates. Looks like a warehouse area.
 - Hypothesis: The ladder at (17, 2) might lead to the restricted section of the Underground (behind the locked door).
 - Navigation: To reach the east side (Ladder), I must pass through the gap in the central wall at (12, 8).
