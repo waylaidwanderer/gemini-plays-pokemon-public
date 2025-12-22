@@ -27,10 +27,8 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Exploring Goldenrod Underground (South).
-- **Goal:** Obtain Team Rocket Uniform.
-- **Progress:**
-  - Checked Super Nerd at (6, 9): Just an Advisor giving type advice.
-  - Next Target: Super Nerd at (7, 14).
-- **Observation:** The path south to (5, 14) seems clear. The Nerd at (7, 14) is behind a counter at (6, 14).
-- **Plan:** Move to (5, 14) and talk to the Nerd over the counter.
+- **Status:** Battling Super Nerd Teru in Goldenrod Underground (South).
+- **Goal:** Defeat him.
+- **Correction:** The "Advisor" at (6, 9) was actually a Trainer who gave advice before challenging me.
+- **Next Target:** Super Nerd at (7, 14) after this battle.
+- **Plan:** Win battle, then check the next nerd.
