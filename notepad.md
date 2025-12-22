@@ -397,3 +397,8 @@
 - **Action:** Stunning NPC 7 at `(6, 13)` to fix his position.
 - **Next Turn:** Unstun and Interact (Down) to force Face UP.
 - **Goal:** Conclusively test "NPC 7 Facing Up" hypothesis.
+- **Action:** Unstunning NPC 7.
+- **Action:** Interacting (Down+A) from `(6, 12)`.
+- **Test:** NPC 7 faces UP.
+- **Check:** Does Gate `(10, 12)` open?
+- **Note:** If this fails, the "NPC Facing" hypothesis is likely dead. Next step: Re-evaluate "Junk" hint and Rock Smash/Cut possibilities.
