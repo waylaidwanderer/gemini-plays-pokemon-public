@@ -347,3 +347,7 @@
 - **Goal:** Make him face **UP**.
 - **Observation:** Previous attempt failed due to timing/input cut.
 - **Check:** Watch Gate `(10, 12)` (visible at edge of screen) when he faces UP.
+- **Action:** Retry moving to `(7, 12)`.
+- **Correction:** Start position is `(6, 13)`. Path: Up -> Right.
+- **Goal:** Stand at `(7, 12)` and talk Down to NPC 7 `(7, 13)`.
+- **Hypothesis:** Forcing him to face UP opens the gates.
