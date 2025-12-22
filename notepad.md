@@ -13,7 +13,7 @@
 
 ## Action Log & Reflection
 - **Status:** Inside Mahogany Gym at (2, 5).
-- **Progress:** Stopped by Rocker. Logic puzzle solved.
+- **Progress:** Defeated Boarder Douglas. Asking for "Pryce's Secret".
 - **Puzzle Solution (To Pryce):**
     1.  Start: (2, 5) (Current Location).
     2.  Slide **East** to (6, 5) Floor.
@@ -23,6 +23,6 @@
     6.  Slide **East** to (5, 4) Floor.
     7.  Interact **North** with Pryce.
 - **Immediate Plan:**
-    1.  Defeat Rocker at (2, 4).
+    1.  Talk to Douglas.
     2.  Execute the slide path.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
