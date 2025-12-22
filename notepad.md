@@ -44,11 +44,14 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
-- **Current Test:** Interact with NPC 7 (Bottom Worker).
+- **Current Test:** Re-verify NPC 7 (Bottom Worker).
+    - **Note:** Summary says he mentions "junk on ground".
+    - **Plan:** Talk to him. If strictly about items, he is likely not the switch.
+    - **Next:** If NPC 7 fails, return to NPC 6 (Top Left) and try making him Face UP (Look at Wall).
 - **Status:**
-    - Player at (6, 12).
-    - NPC 7 at (7, 13).
-    - Action: Moving to (7, 12) to talk.
+    - Player at (7, 12).
+    - NPC 7 Stunned at (7, 13).
+    - Action: Interacting.
 
 # Tile Mechanics
 - **WALL:** Impassable.
