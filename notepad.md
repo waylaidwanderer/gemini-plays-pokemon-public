@@ -79,4 +79,3 @@
 
 # Lessons Learned
 - Turn #11527: Tried to switch to the already active Pokémon. Lesson: Always check the active Pokémon status before switching in battle.
-- Turn #11502: Battle started at Turn #11502.
