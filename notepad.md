@@ -8,15 +8,18 @@
 - **Rule:** Stunned NPCs do NOT change facing direction during dialogue. Must Unstun before talking.
 
 ## Basement Puzzle Strategy
-- **Goal:** Open Top Right Gates (10, 8).
-- **Hypothesis:** NPC 6 must face UP (Away from his watch post) to open gates.
-- **Status:** Executing "Lock" strat. Stunned NPC 6 facing UP.
+- **Goal:** Open Bottom Gates (10, 13)/(11, 13).
+- **Hypothesis:** "Junk" on the ground (Bottom Left) is a hidden item blocking the puzzle.
+- **Evidence:** NPC 7 said "Stuff on ground is junk, take it."
+- **Status:**
+    - Top Gates Strategy (NPC 6): Failed (All directions tested).
+    - Middle Strategy (NPC 5): Dead end?
 - **Plan:**
-    1. **Execute:** Stunned NPC 6. Cleared text.
-    2. **Verify:** Moving to (8, 7) to check gates at (10, 8).
-    3. **Action:** If Open -> Enter!
-    4. **Fail:** If Closed -> Retest Bottom Left with Itemfinder.
-- **Backup:** Itemfinder at Bottom Left.
+    1. **Navigate:** Move to Bottom Left (8, 12).
+    2. **Tool:** Use `ITEMFINDER` to confirm hidden item presence.
+    3. **Search:** If positive, thoroughly check all tiles in Row 13 (5-8).
+    4. **Result:** Finding the item should unblock NPC 7's patrol.
+- **Note:** I am currently navigating back to the bottom.
 
 ## Status
 - Player at (9, 9).
