@@ -417,3 +417,7 @@
 - **Action:** Moving to `(7, 12)` (Directly Above him).
 - **Next Turn:** Unstun and Interact (Down) to force Face UP.
 - **Hypothesis:** This setup is robust. If this fails to open the gate, the "NPC Facing" theory is likely incorrect.
+- **Test:** Unstunned NPC 7. Interacted from `(7, 12)` (North).
+- **State:** NPC 7 should turn to face **UP**.
+- **Observation:** Checking if Gate `(10, 12)` becomes Walkable (Floor).
+- **Contingency:** If this fails, next hypothesis is **Rock Smash** on the boxes.
