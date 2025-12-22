@@ -10,7 +10,7 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000. Current Turn: 11031.
+- Warehouse Search Start: Turn 11000. Current Turn: 11032.
 - Method: Defeat Rocket Grunt at (17, 3) using Gneiss's new Earthquake move.
 - Method: Investigate the ladder at (17, 2) to see where it leads.
 - Tactical: Gneiss (Lv41) now has Earthquake (strictly better than Magnitude).
