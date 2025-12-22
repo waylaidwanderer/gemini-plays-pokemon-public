@@ -425,3 +425,7 @@
 - **Goal:** Confirm if NPC 7 facing UP opens the gate.
 - **Observation:** If gate `(10, 12)` opens (turns to Floor) during/after dialogue.
 - **Contingency:** If this fails, will move to East Room to try Pushing boxes from the Inside (East).
+- **Action:** Unstunning NPC 7 and Interacting (Down+A) immediately from `(7, 12)`.
+- **Reason:** Previous attempts failed due to Stun locking facing or NPC movement.
+- **Goal:** Force NPC 7 to face UP and check Gate `(10, 12)`.
+- **Contingency:** If this fails, I will investigate the boxes for Rock Smash/Cut or hidden switches.
