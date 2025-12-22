@@ -9,15 +9,12 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach East side (Items/Ladder).
-- **Hypothesis:** 
-    1. **Vision:** NPC 5 watching Col 9 closes gates.
-    2. **Position:** Walking in Col 9 opens gates (observed previously).
-- **Constraint:** NPC 5 currently blocks Col 9 at (9, 10).
+- **Hypothesis:** NPC 5's facing direction controls the boxes. Facing LEFT or UP might open the path.
 - **Plan:**
-    1. **Trap NPC 5 at (9, 9).** This clears Col 9 for me to walk in.
-    2. **Ensure he faces UP (North).** So he doesn't see me in Col 9.
-    3. **Action:** Move to (8, 9). Wait for him to enter (9, 9). Stun him.
-    4. **Execution:** Enter Col 9 at (9, 10) and walk South to open gates.
+    1. **Position:** Move to (8, 9).
+    2. **Manipulate:** Wait for NPC 5 to enter (9, 9). Talk to him so he turns LEFT.
+    3. **Lock:** Immediately use `stun_npc` on NPC 5 to freeze him facing LEFT.
+    4. **Test:** Walk into Column 9 (e.g., at (9, 10)) and move South to check if boxes shift.
 
 ## Status
 - Player at (8, 9).
