@@ -10,21 +10,19 @@
 - MART_SHELF: Impassable. Acts as WALL.
 - COUNTER: Impassable. Acts as WALL. Interact with NPCs behind counters from an adjacent tile.
 - ELEVATOR: Warp tile (2, 0).
-- VENDING MACHINE: Interaction point. Stand below and press A to buy drinks (Fresh Water, Soda Pop, Lemonade).
+- VENDING MACHINE: Interaction point. Stand below and press A to buy drinks.
+- CUT_TREE: Obstacle. Can be cleared with HM01 CUT.
 
 # Strategy: Tin Tower Investigation
 - Mission Start: Turn #11243.
+- Current Task Turn Start: #11483 (Entering Ecruteak).
 - Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City via Route 35, 36, and 37.
 - Strategist Advice (Turn #11374):
     - Lead: Calcifer (Typhlosion). Smokescreen x6.
     - Status: KIMCHI (Gloom) for Sleep Powder once HP is red (chip with Headbutt).
     - Risk: GNEISS and Blarney are 4x weak to Water.
-- Ball Strategy: Ultra Balls are NOT sold in Goldenrod (Crystal version). Buying ~50 Great Balls from 2F as a substitute.
-- Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
-
-# Completed Prep
-- Teach TM41 (ThunderPunch) to Calcifer. (Turn #11425)
+- Ball Strategy: ~50 Great Balls from 2F.
 
 # Suicune Capture Plan (Tin Tower)
 - Lead: Calcifer (Typhlosion Lv44).
@@ -32,21 +30,19 @@
 - Status: Switch to KIMCHI (Gloom Lv21) for Sleep Powder once HP is red.
 - Item Requirements: ~50 Great Balls (Ultra Balls unavailable).
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
-- Risk: GNEISS (Graveler) is 4x weak to Water. Avoid leading with him.
 
 # Observations (Radio Tower Takeover - COMPLETED)
 - Director rescued, CLEAR BELL obtained.
-- Radio Tower 5F: Rocket Executive (Office) defeated. Ultra Ball found at (8, 5).
+- Radio Tower 5F: Rocket Executive defeated. Ultra Ball found at (8, 5).
 - Radio Tower 4F: Rocket Executive defeated.
 - Radio Tower 3F: Rocket Grunt defeated. Shutters unlocked with Card Key.
 - Radio Tower 2F: Rocket Grunts and Girl defeated.
 - Radio Tower 1F: Base of operations.
-- Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
 
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
-- Rocket Executive (5F - Office at 13, 5): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
-- Rocket Executive (5F - Near stairs at 17, 2): Arbok Lv32, Vileplume Lv32, Murkrow Lv32. (Defeated)
+- Rocket Executive (5F): Houndour Lv33, Koffing Lv33, Houndoom Lv35.
+- Rocket Executive (5F - Near stairs): Arbok Lv32, Vileplume Lv32, Murkrow Lv32.
 - Rocket Executive (4F): Golbat Lv36.
 
 # PC Storage (Box 1)
@@ -58,19 +54,16 @@
 
 # Findings
 - Goldenrod Dept Store 5F: Receptionist (7, 5) gives TM27 (Return) if friendship is high.
-- Clerk (8, 5) sells TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch) for 3000, TM02 (Headbutt) for 2000, TM08 (Rock Smash) for 1000.
-- Cooltrainer M (6, 3) wants to trade ABRA for MACHOP.
-- Goldenrod Dept Store 4F: Medicine Box. Clerk (13, 5) sells Protein, Iron, Carbos, Calcium for 9800 each.
-- Goldenrod Dept Store 3F: Battle Collection. Clerk (6, 1) sells battle items (X Attack, X Defend, X Speed, X Special, X Accuracy, Guard Spec., Dire Hit).
-- Goldenrod Dept Store 2F Clerk (13, 5): Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
-- Goldenrod Dept Store 2F Clerk (13, 6): Poké Ball (200), Great Ball (600), Escape Rope (550), Repel (350), Revive (1500), Full Heal (600), Poké Doll (1000), Flower Mail (50).
+- Clerk (8, 5) sells TM41, TM48, TM33 for 3000, TM02 for 2000, TM08 for 1000.
+- Goldenrod Dept Store 4F: Clerk (13, 5) sells Vitamins for 9800.
+- Goldenrod Dept Store 3F: Clerk (6, 1) sells battle items.
+- Goldenrod Dept Store 2F Clerk (13, 5): Healing items.
+- Goldenrod Dept Store 2F Clerk (13, 6): Basic supplies.
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
+- Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs.
 
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
-- Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs for floor transitions.
-- Radio Tower Event Conclusion: Team Rocket Executive defeated on 5F. Team Rocket announced their disbanding.
-- The Director mentioned a connection between the Clear Bell and the Tin Tower in Ecruteak City, with rumors of activity there.
-- Next Step: Head to Ecruteak City.
+- Turn #11489: Swapping lead failed due to truncated button sequence. Defining custom tool.
