@@ -4,14 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Outside Player's House (New Bark Town).
-- **Reason:** Previous menu navigation failed (closed menu accidentally). Re-opening to Fly.
+- **Status:** In Party Menu (Selecting Mistral).
+- **Reason:** Opening Mistral's menu to use Fly.
 - **Plan:**
-    1. Open Menu (Start).
-    2. Enter Pokemon Menu.
-    3. Select Mistral (Slot 4).
-    4. Select Fly.
-    5. Fly to Goldenrod.
+    1. Select Fly (A).
+    2. Select Goldenrod City on map.
+    3. Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
