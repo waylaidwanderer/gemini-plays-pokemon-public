@@ -48,7 +48,7 @@
 
 # Radio Tower Mission Plan
 1. Defeat Executive: Reach the top floor and stop the broadcast.
-- Status: Card Key used on 3F. Currently battling Grunt on 3F.
+- Status: Card Key used on 3F. Grunt at (16, 4) defeated. Heading to upper floors.
 
 # Shutter Puzzle (Radio Tower 3F)
 - Observation: Interacting with Card Key Slot at (14, 2) from (13, 2) facing Right produced no result.
