@@ -33,3 +33,4 @@
 - Status: Heading to South Ladder (3, 34) to investigate "Switch Room Entrances".
 - Hypothesis: Underground is split into West (Tunnel) and East (Basement) sections.
 - Plan: Exit to Goldenrod via South exit, then look for the East entrance to reach the Locked Door area.
+- Hypothesis: The section of the Underground with the Uniform/Locked Door is accessible via the Department Store Basement.
