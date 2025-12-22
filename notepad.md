@@ -22,11 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Re-opening Fly Menu.
-- **Reason:** Previous Fly attempt failed (wrong destination). Retrying with visual verification.
+- **Status:** Selecting Mistral to Fly.
+- **Reason:** Cursor remembered Cancel position. Navigating Up 3 slots to Mistral (Slot 4).
 - **Plan:**
-    1. Open Menu -> Pokemon -> Mistral -> Fly.
-    2. Move Cursor to Goldenrod City.
-    3. WAIT and Verify "Goldenrod City" text.
-    4. Press A to Fly.
-    5. Swap Pokemon at Goldenrod PC.
+    1. Enter Party (A).
+    2. Navigate to Mistral (Up x3).
+    3. Select Mistral (A).
+    4. Select FLY.
+    5. Navigate Map to Goldenrod.
