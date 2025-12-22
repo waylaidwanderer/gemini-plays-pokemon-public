@@ -138,8 +138,10 @@
     - Gate 2 (10, 12) is CLOSED.
     - NPC 5 is at (9, 9), facing UP.
 - **Plan:**
-    - Position at (8, 9) or (8, 10).
-    - Talk to NPC 5 to force him to turn LEFT.
+    - Step 1: Stun NPC 5 at (9, 9).
+    - Step 2: Move to (8, 9).
+    - Step 3: Turn Right.
+    - Step 4: Unstun and Talk.
     - Check if Gate 2 opens.
 
 ## Reflections (Turn 12260)
