@@ -241,3 +241,7 @@
 - **Goal:** Re-enter B1F to see if map reload resets/toggles the gate configuration.
 - **Hypothesis:** Entering via a different warp index (if possible) or just reloading might change the open gates.
 - **Note:** Elevator has two entry points: `(9, 4)` and `(10, 4)`.
+- **Action:** Exiting Elevator to return to B1F.
+- **Expectation:** Map reload occurs.
+- **Check:** Will the Bottom Gates (10, 12-13) be OPEN upon re-entry?
+- **Logic:** Some puzzle states reset or toggle on map load. If the "default" state is different, or if a flag was set by talking to the NPCs, this might show it.
