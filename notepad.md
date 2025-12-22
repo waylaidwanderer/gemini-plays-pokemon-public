@@ -8,7 +8,7 @@
 ## Important Locations (Goldenrod)
 - **Radio Tower:** North.
 - **Underground:** Key item (Coin Case) was found here. Potential other items?
-- **Director:** Potentially held captive?
+- **Director:** Held captive on 5F (Radio Tower).
 ## Mechanics
 - **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
