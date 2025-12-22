@@ -6,12 +6,13 @@
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
 - **Status:** Exploring Goldenrod Underground (3_53).
 - **Plan:**
-    1. Travel North to the ladder at (3, 2).
-    2. Enter the North side of Switch Room Entrances (3_54).
-    3. Search for a Rocket Grunt who might have the Uniform.
+    1. Go back down to Underground Main Tunnel (3_53) via ladder at (21, 25).
+    2. Search the ENTIRE tunnel carefully for a Rocket Grunt.
+    3. Check specifically for the Photography Studio or any side alcoves.
 - **Checked:**
     - NPC at (3, 27) in Underground (3_53): Haircut Brother (not Rocket).
     - Teacher at (3, 27) in Switch Room Entrances (3_54). Not helpful.
+    - Super Nerd at (19, 27) in Switch Room Entrances (3_54). Warned of battles. Not Rocket.
 
 ## Map Data
 - **Goldenrod City:**
