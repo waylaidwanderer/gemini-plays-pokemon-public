@@ -22,10 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Navigating Fly Map (Attempt 2).
-- **Reason:** Map is open and stable. Executing navigation sequence: Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
+- **Status:** Wiggling Cursor (Goldenrod <-> Ecruteak).
+- **Reason:** Visuals show Goldenrod, but Text says "New Bark Town". Text label lagging. Wiggling to force text refresh.
 - **Plan:**
-    1. Send navigation inputs (Left, Up, Left, Down).
-    2. Check screen text for "Goldenrod City".
-    3. If correct, press A to Fly.
-    4. If incorrect (e.g., Azalea), adjust cursor.
+    1. Move Up (to Ecruteak).
+    2. Move Down (to Goldenrod).
+    3. Verify "Goldenrod City" text.
+    4. Press A to Fly.
+    5. Swap Pokemon.
