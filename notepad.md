@@ -82,3 +82,5 @@
 - Plan: Return to Center Junction (8, 7) via Row 6 to check if East path (10, 12) is open.
 - Observation: Black Belt at (4, 8) is now facing LEFT (away from corridor).
 - Test: Moving South to (8, 12) to see if East path (10, 12) remains OPEN.
+- Correction: While Row 12 is blocked, Rows 10 and 11 appear to be OPEN (FLOOR) in the current view.
+- Plan: Navigate to (8, 11) and attempt to cross to the East side via Row 11, avoiding the patrolling Black Belt (currently at 9, 9).
