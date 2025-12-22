@@ -13,20 +13,23 @@
 ## Shutter Toggle Logic (Hypothesis)
 - S3 (2,1): Toggles (2,6), (3,6), (12,8).
 - S2 (10,1): Toggles (10,6), (12,8), (6,8).
-- S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
+- S1 (16,1): Toggles (16,6), (10,6), (6,8).
+- Note: (17,6) is labeled WALL in XML. Verification required to see if it ever toggles.
 
 ## Verified Shutter States (S3, S2, S1)
 - (0,0,0): To be verified visually after reset.
 - (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED. (Turn 10287)
-- (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) CLOSED, (17,6) CLOSED. (Verified Turn 10376 via tile change detection)
+- (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) CLOSED. (Verified Turn 10376 via tile change detection)
 
 ## Systematic Mapping Plan
 - Goal: Determine exact toggle logic for each switch from a clean OFF state.
 - Steps:
-  1. Reset all switches to OFF (0,0,0).
+  1. Reset all switches to OFF (0,0,0). (Current: Turning S1 OFF)
   2. Toggle S1 ON. Record shutter changes. Reset to OFF.
   3. Toggle S2 ON. Record shutter changes. Reset to OFF.
   4. Toggle S3 ON. Record shutter changes. Reset to OFF.
+- Toggle Log:
+  - (1,1,0) -> (1,1,1): (12,8) changed FLOOR -> WALL. (Confirmed Turn 10374)
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
