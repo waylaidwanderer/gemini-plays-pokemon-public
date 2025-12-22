@@ -53,9 +53,12 @@
 - Observation: Directory lists 1F-6F + Rooftop. No Basement listed.
 - Hypothesis Test: Checking Elevator for hidden/unlisted 'B1F' button.
 - Navigation Note: Counters at (12,1)-(9,2) block direct left movement. Must go down to Row 3 to bypass them.
-- Status: Inside Elevator. Moving to controls to check for Basement button.
-- Confirmation: Elevator has a B1F button! Going down to investigate.
-- Status: Solving Box Puzzle. Interacting with Machop at (7, 7).
+## Reflections (Turn 12156)
+- **Execution:** Good. No deferred tasks.
+- **Hygiene:** Notepad cleaned. Markers updated.
+- **Goals:** Clear.
+- **Puzzle:** The basement has moving crates. Machops might move them. Talking to the Machoke at (7,7) didn't seem to move the crates immediately adjacent to it. I need to investigate further.
+- **Hypothesis:** Black Belts might control the Machops or give instructions.
 - Observation: Dept Store B1F contains Machops and crates. Looks like a warehouse area.
 - Hypothesis: The ladder at (17, 2) might lead to the restricted section of the Underground (behind the locked door).
 - Navigation: To reach the east side (Ladder), I must pass through the gap in the central wall at (12, 8).
