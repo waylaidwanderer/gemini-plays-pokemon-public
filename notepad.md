@@ -31,5 +31,5 @@
 - **Strategy:** Restore PP for Cross Chop using Ether.
 - **Status:** In Pack menu.
 - **Turn 1 Summary:** Muscle used Ether (Cross Chop PP restored). Seel used Icy Wind (Muscle Speed fell).
-- **Turn 2 Plan:** Use Cross Chop on Seel.
+- **Turn 2 Plan:** Use Strength on Seel (Conserve Cross Chop PP).
 - **Battle Status:** Muscle (138/157, -1 Speed) vs Seel (Full HP).
