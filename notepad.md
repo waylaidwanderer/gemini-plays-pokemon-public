@@ -4,7 +4,7 @@
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Active Status: Repel expired (Turn #12659). Out of Repels.
 - Safeguard: Re-verify Suicune location via Pokédex after crossing map boundaries.
-- Tracking: Suicune located on Route 42 (Turn #12689).
+- Tracking: Suicune located on Route 42 (Turn #12701).
 
 # Route 38 Specific Notes
 - TALL_GRASS at (28, 7): Pacing spot for Suicune.
