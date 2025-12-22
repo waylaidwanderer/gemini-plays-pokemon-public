@@ -46,3 +46,5 @@
 - **Radio Tower:** Current Location.
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
+- **Status:** Encountered Rocket Grunt (F) at (10, 3). Path West seems blocked.
+- **Strategy:** Battling/Interacting with Grunt to clear path or trigger event.
