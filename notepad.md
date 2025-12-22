@@ -26,8 +26,8 @@
 ## Systematic Mapping Plan Steps
 1. Establish (0,0,0) baseline visually. (Done)
 2. Toggle S1 ON. Verify all shutters. (Done)
-3. Reset S1 OFF. Verify (0,0,0) again. (In Progress)
-4. Toggle S3 ON (Sequence Step 1).
+3. Reset S1 OFF. Verify (0,0,0) again. (Done)
+4. Toggle S3 ON (Sequence Step 1). (In Progress)
 5. Toggle S2 ON (Sequence Step 2).
 6. Toggle S1 ON (Sequence Step 3).
 7. Verify path to Warehouse Entrance.
