@@ -261,3 +261,7 @@
 - **Goal:** Access South Zone or North Zone.
 - **Action:** Since North is blocked, I must focus on opening the Bottom Gates to reach the South Zone.
 - **Plan:** Return to West Side and focus on the Bottom Gate area. Try interacting with the boxes at `(10, 12-13)` from the *East* side (Inside).
+- **Action:** Moved to `(10, 11)` (Inside Cage, adjacent to Bottom Gate).
+- **Test:** Interact with Box `(10, 12)` + Use Itemfinder (Select).
+- **Hypothesis:** "Junk" hint might mean hidden item or interactable box.
+- **Next:** If this fails, exit cage and try talking to Machop at `(7, 7)` from the NORTH (Back).
