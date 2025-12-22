@@ -27,11 +27,8 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Exploring Goldenrod Underground (South).
-- **Goal:** Find Team Rocket Uniform.
-- **Task:** Searching for a Rocket Grunt.
-- **Observations:**
-  - Defeated PokéManiac Donald at (2, 6).
-  - Spotted another Super Nerd at (6, 9).
-- **Plan:** Continue south. Check if the Super Nerd at (6, 9) is a Rocket or just another trainer.
-- **Lore Note:** In Crystal, the uniform is usually given by a Rocket Grunt in this tunnel. Look for a sprite that looks like a Rocket.
+- **Status:** Approaching Super Nerd at (6, 9) in Goldenrod Underground (South).
+- **Goal:** Obtain Team Rocket Uniform.
+- **Task:** Interact with the Super Nerd to see if he is a Rocket in disguise or a trainer.
+- **Observation:** He is standing near a counter. Path south is clear (columns 3-5).
+- **Plan:** Talk to him. If no uniform, continue South.
