@@ -4,11 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Navigate North to the Radio Tower.
-- **Status:** In Goldenrod City (15, 28).
+- **Status:** Inside Goldenrod PC (Accidental Entry).
 - **Plan:**
-    1. Walk North to the Radio Tower (approx. coordinates (3, 6) or similar).
-    2. Assess the situation (blocked stairs, grunts, etc.).
-    3. If blocked, investigate the Underground for the Rocket Uniform or Director.
+    1. Exit the Pokemon Center.
+    2. Side-step the door (avoid (15, 27)) and head North.
+    3. Locate Radio Tower (North-West area).
+    4. Assess situation (Uniform/Director).
 
 ## Reflections & Lessons
 - **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
