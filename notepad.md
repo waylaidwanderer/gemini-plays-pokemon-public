@@ -7,6 +7,8 @@
 - STAIRCASE: Warp tile.
 - WATER: Requires Surf to traverse. (HM03)
 - GRASS: May trigger wild encounters.
+- MART_SHELF: Impassable. Acts as WALL.
+- COUNTER: Impassable. Acts as WALL. Interact with NPCs behind counters from an adjacent tile.
 
 # Current Strategy: Tin Tower Investigation
 - Primary Goal: Investigate the Tin Tower in Ecruteak City.
