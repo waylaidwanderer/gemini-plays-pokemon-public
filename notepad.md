@@ -18,7 +18,6 @@
 - **Goal:** Reach Director on 5F.
 - **Status:** Exploring West side of 4F.
 - **Layout:** Room divided West/East. East side appears inaccessible from here (blocked by walls).
-- **Status:** Confronting the "Director" at (3, 6).
-- **Revelation:** He is an Imposter (Rocket Executive)!
-- **Goal:** Defeat the Imposter to learn the real Director's location.
-- **Plan:** Battle the Executive.
+- **Status:** Defeated Rocket Executive (Imposter). Obtained BASEMENT KEY.
+- **Goal:** Rescue the real Director in the Underground Warehouse.
+- **Plan:** Exit Radio Tower, return to Goldenrod Underground, and use the Basement Key to access the Warehouse.
