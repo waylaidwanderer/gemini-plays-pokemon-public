@@ -6,7 +6,7 @@
 
 # Underground Warehouse Puzzle
 - Goal: Open path to Warehouse Entrance (Map 3_55).
-- Verified Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1) from (0,0,0) baseline.
+- Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1) from (0,0,0) baseline.
 
 # Current Plan: Reset and Map
 1. Reset all switches to OFF (0,0,0).
@@ -17,10 +17,10 @@
 3. Map Primary Effects of each switch individually.
 4. Execute 3-2-1 and verify path.
 
-## Shutter Toggle Mapping (Hypothesis)
+## Primary Effects (to be verified from 0,0,0)
 - S3 (2,1): Toggles (2,6), (3,6), (12,8).
-- S2 (10,1): Toggles (10,6), (6,8), (2,6).
-- S1 (16,1): Toggles (16,6), (17,6), (10,6).
+- S2 (10,1): Toggles (10,6), (6,8).
+- S1 (16,1): Toggles (16,6).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
@@ -30,3 +30,4 @@
 - Start from (0,0,0) baseline before any sequence.
 - (21, 29) is an exit, not the goal.
 - 3-2-1 sequence is the standard solution but requires proper sync.
+- Verification requires physically walking to the shutters.
