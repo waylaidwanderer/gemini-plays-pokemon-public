@@ -99,5 +99,7 @@
 - **Action:** Inspecting Inner Boxes at (14, 8) to see if they are interactable.
 - **Hypothesis:** "Line of Sight" mechanic - I need to be hidden from the workers for the layout to change.
 - **Plan:** Inspect boxes. If nothing, move to (17, 6) to "hide" behind the central wall and wait for a state change.
-- **Action:** Interacting with Box at (14, 8).
-- **Rationale:** Verifying if these boxes are interactable entities or just dynamic walls.
+- **Action:** Interacted with Box at (14, 8) - No reaction (Inert Wall).
+- **Goal:** Talk to Black Belt at (4, 8).
+- **Hypothesis:** Interacting with him or entering the West area might toggle the gates (Open Bottom / Close Top).
+- **Plan:** Move to (5, 8), talk to NPC, then check Bottom Gate.
