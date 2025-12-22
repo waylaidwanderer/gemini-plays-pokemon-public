@@ -30,6 +30,8 @@
   - 1. S3 ON: Next.
   - 2. S2 ON: Next.
   - 3. S1 ON: Next.
+- Shutter (17, 6) Verification: Explicitly test if traversable when S1 is ON.
+- Switch Puzzle Start: Turn 10284. Phase: Resetting.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
