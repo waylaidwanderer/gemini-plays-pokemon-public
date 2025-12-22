@@ -36,5 +36,6 @@
 - **WARP_CARPET_DOWN:** Traversable (Exits map).
 - **FLOOR:** Traversable.
 - **WALL:** Impassable.
+- **COUNTER:** Impassable. Interact from adjacent tile facing it.
 - **ICE:** Sliding tiles (Mahogany Gym).
 - **Trap Tiles:** Rocket Hideout B1F.
