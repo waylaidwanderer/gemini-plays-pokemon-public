@@ -16,9 +16,9 @@
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 3F.
 - **Goal:** Explore 3F, defeat Rockets, climb to 4F.
-- **Status:** Defeated Scientist Marc. Healed Muscle. Preparing to engage Cooltrainer F.
+- **Status:** Engaging Cooltrainer F.
 - **Known Blockades:**
   - **Goldenrod City:** Grunts blocking West and East paths.
 - **Missing Keys:** BASEMENT KEY, CARD KEY.
-- **Plan:** Defeat Cooltrainer F at (11, 3), then proceed East to 4F.
+- **Plan:** Defeat Cooltrainer F, then proceed East to 4F.
 - **Note:** "Item" at (7, 4) was a floor decoration.
