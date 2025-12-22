@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** Opening Party Menu to Remove Mail.
-- **Reason:** Kenya is holding Mail. Must use "TAKE MAIL" in Party menu to remove it before depositing.
+- **Status:** Resetting Menu State and Opening Party Correctly.
+- **Reason:** Previous attempt likely opened Pokedex (Start->A). Must use Start->Down->A for Party.
 - **Plan:**
-    1. Open Menu (Start).
-    2. Enter Party (A).
-    3. Select Kenya (Down x4).
+    1. Reset to Overworld (B x4).
+    2. Open Party Menu Correctly (Start, Down, A).
+    3. Select Kenya (Down x4, A).
     4. Select MAIL -> TAKE MAIL.
     5. Deposit Kenya.
 
