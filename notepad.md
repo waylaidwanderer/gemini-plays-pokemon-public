@@ -22,12 +22,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Restarting Fly Sequence (Start -> A -> A -> A).
-- **Reason:** Reset to Overworld confirmed. Cursor memory should be on 'Pokemon' and 'Mistral'. Opening Fly Map again.
+- **Status:** Navigating Fly Map (New Bark -> Goldenrod).
+- **Reason:** Map is stable. Executing standard flight path: New Bark -> Cherrygrove -> Violet -> Ecruteak -> Goldenrod.
 - **Plan:**
-    1. Open Menu (Start).
-    2. Enter Party (A).
-    3. Select Mistral (A).
-    4. Select Fly (A).
-    5. WAIT for map to fully load.
-    6. Next Turn: Navigate to Goldenrod.
+    1. Send Inputs: Left, Up, Left, Down.
+    2. Verify "Goldenrod City" text next turn.
+    3. Press A to Fly.
+    4. Enter PokeCenter.
+    5. Swap Pokemon.
