@@ -27,9 +27,9 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Arrived at Goldenrod Underground South Entrance (Map 3_54).
-- **Location:** Player at (5, 25).
-- **Observation:** A "Teacher" NPC (looks like a Rocket Grunt in the screenshot) is at (3, 27).
-- **Hypothesis:** This NPC has the Team Rocket Uniform.
-- **Plan:** Talk to the NPC at (3, 27).
+- **Status:** At Goldenrod Underground South Entrance (Map 3_54).
+- **Goal:** Obtain Team Rocket Uniform.
+- **Immediate Task:** Talk to the "Teacher" at (3, 27).
+- **Hypothesis:** She might be relevant, or I missed the Rocket in the main tunnel.
+- **Contingency:** If she is just a teacher, re-sweep the tunnel specifically looking for the Photo Studio area (North side).
 - **Map Notes:** Ladder at (5, 25) leads back to South Tunnel. Exit at (4, 29) leads to Goldenrod City.
