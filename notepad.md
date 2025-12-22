@@ -6,25 +6,24 @@
 - Goal: Open path to southeast Warehouse Entrance (Map 3_55).
 
 ## Shutter Toggle Mapping (S3, S2, S1)
-| State | (2,6) | (3,6) | (10,6) | (12,8) | (16,6) | (17,6) | (6,8) |
+| State | (2,6/7) | (3,6/7) | (10,6/7) | (12,8/9) | (16,6/7) | (17,6/7) | (6,8/9) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| (0,0,0) | CLOSED | CLOSED | CLOSED | OPEN | CLOSED | CLOSED | CLOSED |
-| (0,0,1) | CLOSED | CLOSED | CLOSED | OPEN | OPEN | OPEN | CLOSED |
-| (0,1,0) | ? | ? | ? | ? | ? | ? | ? |
-| (1,0,0) | ? | ? | ? | ? | ? | ? | ? |
+| (0,0,0) | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED | CLOSED |
+| (0,0,1) | CLOSED | CLOSED | CLOSED | OPEN? | OPEN | OPEN | CLOSED |
+| (1,0,0) | OPEN | OPEN | CLOSED | OPEN | CLOSED | CLOSED | CLOSED |
+| (1,1,0) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Verified Toggle Logic (From 0,0,0 baseline)
-- Switch 1 (16,1): Toggles (16,6), (17,6).
+- Switch 1 (16,1): Toggles (16,6/7), (17,6/7).
 - Switch 2 (10,1): TBD.
-- Switch 3 (2,1): Toggles (2,6), (3,6), (12,8).
+- Switch 3 (2,1): Toggles (2,6/7), (3,6/7), (12,8/9).
 
 ## Toggle Log
-- Turn 10435: (1,1,0) state in progress.
+- Turn 10436: (1,1,0) state in progress.
 - Turn 10434: (1,0,0) verified. (2,6), (3,6), (2,7), (3,7) are OPEN. (12,8) is OPEN. (10,6), (6,8) are CLOSED.
-- Turn 10432: S3 toggled ON. (2,6/7), (3,6/7) and (12,8) opened.
-- Turn 10415: (0,0,1) verified visually. (16,6), (17,6) are OPEN. (10,6), (6,8) are CLOSED. (12,8) is OPEN.
-- Turn 10400: (0,0,0) verified visually. (10,6), (6,8), (16,6), (17,6) are CLOSED. (12,8) is OPEN.
-- Observation: Logic may be conditional (e.g., S1 toggles (12,8) only if S3 is ON). Systematic mapping from (0,0,0) will isolate primary effects.
+- Turn 10428: (0,0,0) baseline report: All shutters CLOSED.
+- Turn 10415: (0,0,1) verified visually. (16,6), (17,6) are OPEN. (10,6), (6,8) are CLOSED. (12,8) is OPEN? (Wait, report at 10428 said CLOSED at 0,0,0).
+- Observation: S1 might toggle (12,8) if S3 is OFF? Or my 10415 log was wrong. Stick to (0,0,0) baseline results.
 
 ## Systematic Mapping Plan Steps
 1. Establish (0,0,0) baseline visually. (Done)
