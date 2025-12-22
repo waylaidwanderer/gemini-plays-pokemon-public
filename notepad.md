@@ -19,6 +19,6 @@
 - **Note:** Do NOT step into (9, 10) while he is at (9, 11) facing Up, as he might see me and close the gate.
 
 ## Status
-- Player at (8, 9).
-- NPC 5 at (9, 11) (Moving).
-- Action: Turning RIGHT to face (9, 9). Waiting for NPC to arrive.
+- Player at (8, 9) facing Right.
+- NPC 5 at (9, 11).
+- Action: Waiting for NPC 5 to reach (9, 9). Pressing A to intercept.
