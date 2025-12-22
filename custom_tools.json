@@ -184,7 +184,7 @@
     ]
   },
   "swap_pokemon_v1": {
-    "description": "Swaps the positions of two Pokemon in the party. Can be called from the overworld or the main menu. Includes safety delays for menu transitions.",
+    "description": "Swaps the positions of two Pokemon in the party. Can be called from the overworld or the main menu. Includes safety delays and cursor resets for reliable navigation.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -207,7 +207,7 @@
         "menu_already_open"
       ]
     },
-    "python_script": "import json\n\ndef swap_pokemon():\n    # The harness provides input_data as a dictionary.\n    try:\n        p1 = int(input_data['pos1'])\n        p2 = int(input_data['pos2'])\n        is_open = input_data['menu_already_open']\n    except (NameError, KeyError, ValueError, TypeError):\n        print(json.dumps([\"B\"]))\n        return\n\n    buttons = []\n    if not is_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # From main menu, POKEMON is the second option.\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Select pos1\n    for _ in range(p1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 400\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Sub-menu: [STATS, SWITCH, ITEM, CANCEL]\n    # Select SWITCH (second option)\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Select pos2. Cursor starts at pos1.\n    diff = p2 - p1\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 400\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 400\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    \n    # Exit to overworld\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nswap_pokemon()",
+    "python_script": "import json\n\ndef swap_pokemon():\n    try:\n        p1 = int(input_data['pos1'])\n        p2 = int(input_data['pos2'])\n        is_open = input_data['menu_already_open']\n    except (NameError, KeyError, ValueError, TypeError):\n        print(json.dumps([\"B\"]))\n        return\n\n    buttons = []\n    if not is_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Reset main menu cursor to top (POKEDEX)\n    for _ in range(8):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 100\")\n        \n    # From top, POKEMON is the second option.\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Select pos1\n    for _ in range(p1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 400\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Sub-menu: [STATS, SWITCH, ITEM, CANCEL]\n    # Reset sub-menu cursor to top\n    for _ in range(3):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 100\")\n    \n    # Select SWITCH (second option)\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Select pos2. Cursor starts at pos1.\n    diff = p2 - p1\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 400\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 400\")\n            \n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    \n    # Exit to overworld\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nswap_pokemon()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -218,6 +218,11 @@
         "commit_message": "Fixing input handling: using global input_data instead of sys.argv[1]. Added safety delays and clearer menu navigation logic.",
         "timestamp": "2025-12-22T08:40:17.227Z",
         "action_counter": 11493
+      },
+      {
+        "commit_message": "Refining swap_pokemon_v1 to handle persistent menu cursor positions and sub-menu navigation more robustly. Added cursor resets (multiple Up presses).",
+        "timestamp": "2025-12-22T09:41:07.253Z",
+        "action_counter": 11587
       }
     ]
   },
