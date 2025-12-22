@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In PC Menu (Switching to Bill's PC).
-- **Reason:** Accidentally accessed Gem's PC (Item Storage). Switching to Bill's PC for Pokemon Storage.
+- **Status:** In Bill's PC (Depositing Kenya).
+- **Reason:** Opening Deposit menu to store Kenya (Spearow) so I can pick up Togepi.
 - **Plan:**
-    1. Exit Gem's PC (B, B).
-    2. Select Bill's PC (Up, A).
-    3. Deposit Kenya.
+    1. Select "Deposit PKMN" (Down, A).
+    2. Select Kenya (Slot 5).
+    3. Deposit.
     4. Withdraw Togepi.
     5. Exit and Fly.
 
