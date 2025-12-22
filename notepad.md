@@ -14,14 +14,17 @@
 - Search Started: Turn 10940
 - Goal: Activate the Emergency Switch at (20, 11).
 - Status: Rocket Grunt at (19, 13) defeated. Moving to Emergency Switch. (Turn 10995)
-- Step 1: Activate the Emergency Switch at (20, 11) from (20, 12). (Turn 10998: Turning it ON).
+- Step 1: Activate the Emergency Switch at (20, 11) from (20, 12). COMPLETED (Turn 10998).
+- Step 2: Investigate doors at (22, 10) and (23, 10) as potential Warehouse entrances.
 - Step 3: Explore the southern area (Rows 22-29) for the Warehouse entrance (Map 3_55).
 
 # Shutter Observation
 - Sequence 3-2-1 complete.
-- Emergency Switch (20, 11): Interacted from (20, 12) facing UP.
+- Emergency Switch (20, 11): ON.
 - Shutter (12, 8) is CLOSED.
 - Shutter (6, 12-13) is WALL.
+- Gap at (18, 12-13) is OPEN.
+- Doors at (22, 10) and (23, 10) are newly accessible.
 
 # Training & Party
 - Calcifer (Lv43 Typhlosion): FLAME WHEEL, HEADBUTT. (Strong vs Grass).
