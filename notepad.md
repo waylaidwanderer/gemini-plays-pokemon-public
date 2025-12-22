@@ -27,8 +27,7 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Descending into Goldenrod Underground.
-- **Info:** Super Nerd warned of rough battles downstairs.
-- **Goal:** Find the Rocket member with the Uniform.
-- **Plan:** Take the ladder at (21, 25) to the lower level.
-- **Lore Note:** In the original game, a Rocket gives you the uniform to "initiate" you. Look for a Rocket NPC.
+- **Status:** In Goldenrod Underground (North).
+- **Goal:** Obtain Team Rocket Uniform.
+- **Plan:** Explore south. Look for a Rocket Grunt who might give the uniform.
+- **Immediate Task:** Interact with the Super Nerd nearby to see if he has info or is a trainer.
