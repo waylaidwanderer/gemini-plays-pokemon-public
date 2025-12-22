@@ -4,14 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** In Party Menu (Mistral Selected).
-- **Reason:** Previous attempts to Fly failed due to map controls. Using explicit slow inputs to open map and navigate.
+- **Status:** In Fly Map (Cursor on Goldenrod).
+- **Reason:** Visual confirmation shows cursor on Goldenrod City, despite text readout saying New Bark. Pressing A to Fly.
 - **Plan:**
-    1. Open Mistral's Menu (A).
-    2. Select Fly (A).
-    3. Wait for Map to open.
-    4. Move cursor Left x3 (Attempting to reach Goldenrod).
-    5. Verify destination in next turn.
+    1. Press A to Fly.
+    2. Confirm arrival in Goldenrod (Map ID change).
+    3. Go to PokeCenter.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
