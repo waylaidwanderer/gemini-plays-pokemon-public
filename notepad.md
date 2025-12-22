@@ -22,9 +22,9 @@
 
 ## Action Log & Reflection
 - **Status:** Inside B2F Transmitter Room (West).
-- **Progress:** Defeated Electrode at (7, 9). 2 remaining: (7, 7) and (7, 5).
-- **Current Action:** Engaging the second Electrode at (7, 7).
-- **Plan:** Defeat the remaining Electrodes to disable the radio signal.
+- **Progress:** Defeated Electrodes at (7, 9) and (7, 7). 1 remaining: (7, 5).
+- **Current Action:** Engaging the final Electrode at (7, 5).
+- **Plan:** Defeat the last Electrode to disable the radio signal.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
