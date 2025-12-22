@@ -22,15 +22,14 @@
 
 ## Action Log & Reflection
 - **Status:** Exiting Team Rocket Hideout.
-- **Correction:** Position corrected to (25, 1). Far from traps.
 - **Current Task:** Retrieve Item Ball at (27, 6).
+- **Progress:** Used Super Potion on Muscle to heal and free up 1 Inventory slot.
 - **Plan:**
-    1. Navigate from (25, 1) around the right side to Row 3.
-    2. Go West to Gap at (9, 4).
-    3. Go East along Row 5/6 to Item at (27, 6).
-    4. Clear bag space (use Super Potion) if needed.
-    5. Exit via Ladder at (27, 2).
-- **Inventory Note:** Items Pocket is full (20/20). Must make space to pick up item.
+    1. Close menu.
+    2. Pick up Item at (27, 6).
+    3. Exit via Ladder at (27, 2).
+    4. Heal and challenge Pryce.
+- **Inventory Note:** Items Pocket has 1 free slot. HM06 obtained.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
