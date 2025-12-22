@@ -17,7 +17,10 @@
 
 # Puzzle Solving Log
 - Attempt 1: 3-2-1 Sequence (Turns 10706-10726). Result: Incomplete. (10,6), (16,6), (17,6), (6,8) remained CLOSED. (12,8) was OPEN.
-- Current Status: Resetting all switches to OFF to verify baseline and re-test logic.
+- Attempt 2 (Current): 3-2-1 Sequence.
+  - S3 (ON) at Turn 10763.
+  - S2 (ON) at Turn 10767.
+  - Next: S1 (ON).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
