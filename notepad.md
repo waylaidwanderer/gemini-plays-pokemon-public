@@ -21,15 +21,14 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Inside Mahogany Gym. Battling Skier Clarissa.
-- **Location:** Entrance Lobby (9, 16).
-- **Battle:** Vs Dewgong (Lv 28). Muscle (Lv 47) is active.
-- **Strategy:** Use Cross Chop (Fighting) for 2x Super Effective damage against Dewgong (Water/Ice).
+- **Status:** Inside Mahogany Gym.
+- **Location:** Entrance Lobby.
+- **Progress:** Defeated Skier Clarissa.
+- **Current Task:** Defeat Boarder (Rocker).
 - **Plan:**
-    1. Defeat Skier Clarissa.
-    2. Defeat Boarder (Rocker).
-    3. Solve Ice Puzzle to reach Pryce.
-    4. Win Glacier Badge.
+    1. Defeat Boarder (Rocker).
+    2. Solve Ice Puzzle to reach Pryce.
+    3. Win Glacier Badge.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
