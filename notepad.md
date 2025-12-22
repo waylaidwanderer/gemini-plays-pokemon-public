@@ -9,16 +9,21 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach Item Ball at (14, 2).
-- **Realization:** The "Puzzle" of the boxes might be a distraction or optional. The map shows a clear path around the top (Row 6) and potentially the bottom (Row 13).
-- **New Plan:** Bypass the boxes entirely.
-    - Path: (4,9) -> (5,9) -> (5,8) -> (5,7) -> Around Machop -> East Side.
-- **Hypothesis:** I can walk around the obstacles.
+- **Correction:** Row 6 is blocked by a wall at X=12. Must pass through the boxes at Row 8/9.
+- **Clue:** "I lose my passion for work if someone's watching."
+- **Hypothesis:** 
+    1. The Machop (Worker) needs to be interacted with.
+    2. Or, I need to make sure no one is "watching" the work area (Boxes).
 - **Status:**
-    - Player moving to (8, 6).
-    - NPC 6 at (4, 8).
-    - NPC 5 at (9, 11).
+    - Player at (8, 7).
+    - Machop at (7, 7) Facing Down.
+- **Plan:**
+    1. **Interact:** Talk to Machop from (8, 7).
+    2. **Observe:** Does it move? Does it turn? Do boxes open?
+    3. **Iterate:** If it turns, maybe that's the key (make it look away from boxes).
 - **Discarded:**
-    - Trying to open boxes via NPC facing (for now).
+    - Bypass Plan (Wall confirmed).
+    - NPC 6 Facing Alone (Didn't work, but might be part of a combo).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
