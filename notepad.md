@@ -6,35 +6,27 @@
 
 # Underground Warehouse Puzzle
 - Goal: Open path to Warehouse Entrance (Map 3_55).
-- Verified Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1).
+- Verified Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1) from (0,0,0) baseline.
 
-# Current Plan: Physical Verification
-1. Maintain (1,1,1) state. (Current: S1=ON, S2=ON, S3=ON).
-2. Walk to (2,6) to confirm it is OPEN.
-3. Walk to (6,8) to confirm its state.
-4. Walk to (12,8) to confirm it is OPEN.
-5. If blocked, use strategist with verified data. Do NOT reset prematurely.
+# Current Plan: Reset and Execute
+1. Reset all switches to OFF (0,0,0). (In Progress)
+2. Verify all shutters are CLOSED.
+3. Toggle S3 ON.
+4. Toggle S2 ON.
+5. Toggle S1 ON.
+6. Physically walk through (2,6) -> (6,8) -> (12,8) to southeast.
 
-## Shutter Status (1,1,1) - Last Seen
-- (2,6): OPEN
-- (3,6): OPEN
-- (10,6): CLOSED
-- (16,6): CLOSED
-- (6,8): CLOSED
-- (12,8): OPEN
-- (17,6): CLOSED
-- (17,7): CLOSED
+## Primary Effects (to be verified from 0,0,0)
+- S3 (2,1): Toggles (2,6), (3,6), (12,8).
+- S2 (10,1): Toggles (10,6), (6,8), (2,6).
+- S1 (16,1): Toggles (16,6), (17,6), (10,6).
 
 # Area Notes
-- Warehouse Entrance: Likely southeast quadrant (Map 3_55).
+- Warehouse Entrance: Southeast quadrant (likely Map 3_55).
 - EXIT: (21, 29) leads back to Goldenrod City. Do NOT use.
 
 # Lessons Learned
-- Don't reset until the path is physically tested.
-- (21, 29) is an exit, not the objective.
-- 3-2-1 sequence is the standard solution.
-
-## Final Sequence Execution
-- Turn 10525: Selected YES to turn S1 ON. Sequence 3-2-1 (All ON) is active.
-- Path Plan: (16,2) -> (16,4) -> (2,4) -> (2,6) -> (6,8) -> (12,8) -> Southeast quadrant.
-- Shutter Check: (2,6) and (6,8) must be OPEN.
+- Always start from (0,0,0) baseline.
+- Toggling a switch multiple times reverses the effect.
+- (21, 29) is an exit, not the goal.
+- Order of operations is critical.
