@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Switch Room Entrance (Map 3_54). Investigating new Super Nerd at (5, 31).
+- **Status:** Entering Warehouse/Switch Room via warp at (5, 29).
 - **Plan:**
-    1. Talk to Super Nerd at (5, 31) (careful of warp carpets).
-    2. Check for hidden items or switches in this room.
-    3. If nothing here, look for the "Director" or Grunt elsewhere in the Underground.
+    1. Enter Warehouse.
+    2. Find Team Rocket Grunt or Director.
+    3. Obtain Uniform (or Key).
 
 **Notes:**
 - Radio Tower entrance was elusive.
