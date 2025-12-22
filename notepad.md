@@ -4,7 +4,7 @@
 - Method: Pacing (Grass Dance) at (8, 2) on Route 37.
 - Grass Dance Start Turn: #12301.
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst` for catch odds.
-- Active Status: Using Super Repel (Turn #12301). Steps taken: 40.
+- Active Status: Using Super Repel (Turn #12301). Steps taken: 60.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing or battle.
 - Tool Usage: `grass_dance_tool` for pacing, `check_suicune_location` for tracking. **Avoid SWEET SCENT**.
 
