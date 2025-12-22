@@ -112,7 +112,7 @@
     ]
   },
   "find_path": {
-    "description": "Calculates a path from start to target coordinates using BFS on the current Mental Map. Returns a list of coordinate objects, or a list of button presses if autopress_buttons is True.",
+    "description": "Calculates a path from start to target coordinates using BFS on the current Mental Map. Returns a list of coordinate objects (default) or a list of button presses if output_format is 'buttons'. Set autopress_buttons=True in the call to execute the buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -127,6 +127,14 @@
         },
         "target_y": {
           "type": "integer"
+        },
+        "output_format": {
+          "type": "string",
+          "enum": [
+            "coords",
+            "buttons"
+          ],
+          "default": "coords"
         }
       },
       "required": [
@@ -136,7 +144,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\n# Arguments: start_x, start_y, target_x, target_y, autopress_buttons (injected)\n\ndef get_buttons(path):\n    btns = []\n    for i in range(1, len(path)):\n        cx, cy = path[i-1]\n        nx, ny = path[i]\n        if nx > cx: btns.append(\"Right\")\n        elif nx < cx: btns.append(\"Left\")\n        elif ny > cy: btns.append(\"Down\")\n        elif ny < cy: btns.append(\"Up\")\n    return btns\n\ntry:\n    map_data = ET.fromstring(map_xml_string)\n    width = int(map_data.attrib['width'])\n    height = int(map_data.attrib['height'])\n    \n    # Grid: 0 = walkable, 1 = blocked\n    grid = [[0 for _ in range(height)] for _ in range(width)]\n    \n    for row in map_data.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'WALL')\n            has_obj = tile.attrib.get('has-object', 'false') == 'true'\n            has_player = tile.attrib.get('has-player', 'false') == 'true'\n            \n            # Treat WALL, COUNTER, and Objects (NPCs/Items) as blocked.\n            # Player tile is walkable (start position).\n            if t_type in ['WALL', 'COUNTER', 'boulder', 'ROCK', 'TREE'] or (has_obj and not has_player):\n                grid[x][y] = 1\n            else:\n                grid[x][y] = 0\n                \n    # Ensure start is treated as walkable\n    if 0 <= start_x < width and 0 <= start_y < height:\n        grid[start_x][start_y] = 0\n\n    queue = deque([(start_x, start_y)])\n    came_from = {}\n    came_from[(start_x, start_y)] = None\n    found = False\n    \n    while queue:\n        cx, cy = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            found = True\n            break\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if grid[nx][ny] == 0 and (nx, ny) not in came_from:\n                    came_from[(nx, ny)] = (cx, cy)\n                    queue.append((nx, ny))\n                    \n    if found:\n        path = []\n        curr = (target_x, target_y)\n        while curr:\n            path.append(curr)\n            curr = came_from[curr]\n        path.reverse()\n        \n        # Robustly check for autopress_buttons\n        auto_press = False\n        if 'autopress_buttons' in locals():\n            auto_press = locals()['autopress_buttons']\n        elif 'autopress_buttons' in globals():\n            auto_press = globals()['autopress_buttons']\n            \n        if auto_press:\n            print(json.dumps(get_buttons(path)))\n        else:\n            out_path = [{\"x\": p[0], \"y\": p[1]} for p in path]\n            print(json.dumps(out_path))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\n# Arguments: start_x, start_y, target_x, target_y, output_format\n\ndef get_buttons(path):\n    btns = []\n    for i in range(1, len(path)):\n        cx, cy = path[i-1]\n        nx, ny = path[i]\n        if nx > cx: btns.append(\"Right\")\n        elif nx < cx: btns.append(\"Left\")\n        elif ny > cy: btns.append(\"Down\")\n        elif ny < cy: btns.append(\"Up\")\n    return btns\n\ntry:\n    map_data = ET.fromstring(map_xml_string)\n    width = int(map_data.attrib['width'])\n    height = int(map_data.attrib['height'])\n    \n    grid = [[0 for _ in range(height)] for _ in range(width)]\n    \n    for row in map_data.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'WALL')\n            has_obj = tile.attrib.get('has-object', 'false') == 'true'\n            has_player = tile.attrib.get('has-player', 'false') == 'true'\n            \n            # Treat WALL, COUNTER, and Objects (NPCs/Items) as blocked.\n            if t_type in ['WALL', 'COUNTER', 'boulder', 'ROCK', 'TREE'] or (has_obj and not has_player):\n                grid[x][y] = 1\n            else:\n                grid[x][y] = 0\n                \n    if 0 <= start_x < width and 0 <= start_y < height:\n        grid[start_x][start_y] = 0\n\n    queue = deque([(start_x, start_y)])\n    came_from = {}\n    came_from[(start_x, start_y)] = None\n    found = False\n    \n    while queue:\n        cx, cy = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            found = True\n            break\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if grid[nx][ny] == 0 and (nx, ny) not in came_from:\n                    came_from[(nx, ny)] = (cx, cy)\n                    queue.append((nx, ny))\n                    \n    if found:\n        path = []\n        curr = (target_x, target_y)\n        while curr:\n            path.append(curr)\n            curr = came_from[curr]\n        path.reverse()\n        \n        # Check output_format argument\n        fmt = locals().get('output_format', 'coords')\n        \n        if fmt == 'buttons':\n            print(json.dumps(get_buttons(path)))\n        else:\n            out_path = [{\"x\": p[0], \"y\": p[1]} for p in path]\n            print(json.dumps(out_path))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -147,6 +155,11 @@
         "commit_message": "Patch: Added support for 'autopress_buttons' injection to output button list instead of coordinate path.",
         "timestamp": "2025-12-22T23:47:02.721Z",
         "action_counter": 12943
+      },
+      {
+        "commit_message": "Updated to use explicit 'output_format' argument to control output type, bypassing potential variable injection issues with autopress_buttons.",
+        "timestamp": "2025-12-22T23:48:19.183Z",
+        "action_counter": 12945
       }
     ]
   }
