@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya.
-- **Status:** Selecting Kenya in Party Menu.
-- **Reason:** Party menu cursor remembered previous position (Kenya), causing my blind "Down x4" to loop back to Garnet.
+- **Status:** Executing "Take Mail" sequence.
+- **Reason:** Kenya is selected. Navigating to MAIL -> TAKE MAIL to remove the item.
 - **Plan:**
-    1. Close Garnet's menu (B).
-    2. Navigate down to Kenya (Down x3).
-    3. Open Kenya's menu (A).
-    4. Select "MAIL" or "TAKE MAIL".
-    5. Deposit Kenya.
+    1. Select MAIL (Down x3, A).
+    2. Select TAKE MAIL (Down, A).
+    3. Clear success text (A, A).
+    4. Close menu (B).
+    5. Deposit Kenya in PC.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
