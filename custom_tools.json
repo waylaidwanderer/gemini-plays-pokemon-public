@@ -110,5 +110,39 @@
         "action_counter": 9999
       }
     ]
+  },
+  "find_path": {
+    "description": "Calculates a path from start to target coordinates using BFS on the current Mental Map. Returns a list of coordinate objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\n# Handle argument passing\ntry:\n    sx = start_x\n    sy = start_y\n    tx = target_x\n    ty = target_y\nexcept NameError:\n    sx = input_data['start_x']\n    sy = input_data['start_y']\n    tx = input_data['target_x']\n    ty = input_data['target_y']\n\ndef bfs_path(start, target, xml_str):\n    try:\n        root = ET.fromstring(xml_str)\n        grid = set()\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib.get('type', 'WALL')\n                has_obj = tile.attrib.get('has-object') == 'true'\n                is_warp = tile.attrib.get('is-warp') == 'true'\n                \n                # Walkable if not WALL and (no object OR is a warp)\n                # Excluding 'unseen' for safety\n                if t_type != 'WALL' and t_type != 'unseen':\n                    if not has_obj or is_warp:\n                        grid.add((x, y))\n        \n        # Ensure start is traversable (ignore if it has player/object)\n        grid.add(start)\n        \n        # If target is invalid (e.g. wall or object), BFS will fail naturally \n        # unless we add it. \n        # Logic: If target is an interactable object, we usually want to path ADJACENT to it.\n        # This tool finds path TO the coordinate. If coordinate is blocked, it returns [].\n        \n        queue = deque([[start]])\n        visited = set([start])\n        \n        while queue:\n            path = queue.popleft()\n            curr = path[-1]\n            if curr == target:\n                return [{\"x\": c[0], \"y\": c[1]} for c in path]\n            \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                n = (curr[0] + dx, curr[1] + dy)\n                if n in grid and n not in visited:\n                    visited.add(n)\n                    new_path = list(path)\n                    new_path.append(n)\n                    queue.append(new_path)\n        return []\n    except Exception as e:\n        return []\n\nprint(json.dumps(bfs_path((sx, sy), (tx, ty), map_xml_string)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-22T20:38:46.601Z",
+        "action_counter": 12705
+      }
+    ]
   }
 }
