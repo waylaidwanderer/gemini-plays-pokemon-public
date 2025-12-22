@@ -1,23 +1,25 @@
-# Completed: Dept Store Basement
-- Abandoned B1F puzzle due to missing key (likely Basement Key).
-- Confirmed Boxes are static WALLs.
+# Tile Mechanics
+- **WALL:** Impassable collision.
+- **FLOOR:** Walkable.
+- **WATER:** Surfable with badge/pokemon.
+- **WARP_CARPET_DOWN:** Exits map (Warp).
+- **LADDER:** Changes floor (Warp).
+- **BOX (Dept Store):** Impassable WALL.
 
-# Milestone
-- Muscle reached Level 51!
+# Completed Objectives
+- Cleared Dept Store Basement (Abandoned puzzle due to missing key).
+- Obtained Coin Case in Underground.
 
-## Important Locations (Goldenrod)
-- **Radio Tower:** North.
-- **Underground:** Key item (Coin Case) was found here. Potential other items?
-- **Director:** Held captive on 5F (Radio Tower).
-## Mechanics
-- **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
-- **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
-- **Battle:** Move cursor remembers last selection.
-## Current Strategy & Obstacles
-- **Location:** Goldenrod Underground (Main Tunnel).
-- **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Entered the "Switch Room Entrances" area (Map 3_54).
-- **Location:** Currently at (23, 3) (Ladder).
-- **Observation:** This appears to be a small room. Need to explore west.
-- **Hypothesis:** This area leads to the puzzle with the switches.
-- **Next Step:** Explore the room to the west/south.
+# Current Strategy & Obstacles
+- **Location:** Goldenrod Underground (Switch Room Entrances).
+- **Goal:** Rescue the Director (Warehouse).
+- **Immediate Task:** Engage Rocket Grunt at (17, 2) and investigate Switch at (16, 1).
+- **Hypothesis:** Switches control the doors/walls in the main warehouse.
+
+# Important Locations
+- **Radio Tower:** North of Goldenrod.
+- **Underground Warehouse:** Accessible via South Tunnel.
+
+# Milestones
+- Muscle Level 51.
+- Badges: 7.
