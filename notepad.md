@@ -129,7 +129,7 @@
 - Plan: Inspect (10, 12). If closed, manipulate NPC 5 facing direction.
 - Observation: Gate at (10, 12) is CLOSED (WALL).
 - Action: Talking to NPC 5 at (9, 11) to turn him RIGHT.
-- Status: At (8, 10). Flanking NPC 5 (9, 10).
-- Action: Stun NPC 5 and Talk (Right + A) to turn him LEFT.
-- Hypothesis: His Left facing (away from boxes) will OPEN Gate 2 at (10, 12).
-- Plan: After talk, check (10, 12). If open, enter East Zone.
+- Status: At (8, 10). NPC 5 (9, 10) is Stunned facing DOWN.
+- Issue: Stunned NPC didn't turn when talked to.
+- Plan: Unstun NPC 5, then immediately Talk (A) to force him to turn LEFT.
+- Next Step: Once he turns Left (facing me), Stun him AGAIN to freeze him in that direction. Then check Gate 2 (10, 12).
