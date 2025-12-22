@@ -9,7 +9,7 @@
 - Solution: 3-2-1 sequence (Switch 3 -> Switch 2 -> Switch 1) from (0,0,0) baseline.
 
 # Current Plan: 3-2-1 Sequence and Mapping
-1. Baseline: (0,0,0) confirmed (S3=OFF, S2=OFF, S1=OFF).
+1. Baseline: (0,0,0) confirmed (S3=OFF, S2=OFF, S1=OFF). Verified Turn 10555.
 2. Run shutter report to confirm (0,0,0) state.
 3. Turn S3 ON (at 2,1).
 4. Run shutter report to map S3 effects.
@@ -23,7 +23,7 @@
 - S3 (2,1): ?
 - S2 (10,1): ?
 - S1 (16,1): ?
-- Baseline (0,0,0): (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) OPEN, (17,6) CLOSED, (17,7) CLOSED. (To be verified)
+- Baseline (0,0,0): (2,6) OPEN, (3,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (6,8) OPEN, (12,8) OPEN, (17,6) CLOSED, (17,7) CLOSED. (Verified Turn 10551)
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
