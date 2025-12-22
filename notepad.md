@@ -204,3 +204,7 @@
     1. Try interacting with Bottom Gate from Inside (10, 11) - Check for simple open/strength.
     2. If fails, exit to West.
     3. Make NPC 7 face Left.
+- **Action:** Interacting with Bottom Gate `(10, 12)` from Inside.
+- **Reason:** Confirm it's a solid wall/object and not just a "visual" barrier I can walk through or open.
+- **Next:** Exit North to `(9, 8)` and attempt to make NPC 7 face LEFT (Away from gates).
+- **Hypothesis:** NPC 7 facing Right (watching gates) keeps them closed. NPC 7 facing Left (ignoring gates) might open them.
