@@ -9,19 +9,16 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Top or Bottom Gates.
-- **Hypothesis:** NPC 5 (Middle) facing LEFT triggers the mechanism.
-- **Status:**
-    - NPC 5 is Stunned at (9, 10) facing LEFT.
-    - **Action:** Closing text and moving to verify gates.
+- **Hypothesis:** NPC 5 (Middle) must face RIGHT to open gates.
+- **Reasoning:** Haven't tested this direction yet. Requires being inside the pocket.
 - **Plan:**
-    1. **Verify:** Check Top Gates at (10, 8).
-    2. **Verify:** Check Bottom Gates at (10, 13).
-    3. **Success:** If OPEN, enter!
-    4. **Fail:** If CLOSED, then my hypothesis is wrong or incomplete.
-- **Discarded:**
-    - Local Control (NPC 6/7) - Failed.
-    - Hidden Items - Failed.
-    - Blocking Paths - Failed.
+    1. **Unstun** NPC 5.
+    2. **Enter** Middle Pocket (10, 10) when he moves off (9, 10).
+    3. **Position** at (10, 11).
+    4. **Wait** for NPC 5 to reach (9, 11).
+    5. **Interact** (Face Left). He turns RIGHT.
+    6. **Lock** (Stun) and Verify.
+- **Status:** Unstunning and attempting to enter pocket.
 
 ## Status
 - Player moving to (8, 10).
