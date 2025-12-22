@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Swapping Kenya for Togepi.
-- **Status:** Accessing Bill's PC (Correction).
-- **Reason:** Accidentally entered Gem's PC (Item Storage). Backing out to enter Bill's PC.
+- **Status:** Walking back to PC to Deposit Kenya.
+- **Reason:** Previous actions moved me away from PC (Overworld inputs registered instead of Menu).
 - **Plan:**
-    1. Exit Gem's PC (B).
-    2. Select Bill's PC (Up, A).
-    3. Select Deposit PKMN (Down, A).
-    4. Select Kenya (Down x4).
-    5. Deposit (A).
+    1. Walk Up to PC (Up x5).
+    2. Open PC (A).
+    3. Select Bill's PC (A).
+    4. Select Deposit PKMN (Down, A).
+    5. Deposit Kenya (Down x4, A).
     6. Withdraw Togepi.
 
 # Reflection (Turn 11638)
