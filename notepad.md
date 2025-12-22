@@ -48,7 +48,7 @@
 - Rocket Executive (4F): Golbat Lv36.
 - Sage GAKU: Noctowl Lv32 (Hypnosis, Foresight, Peck, Reflect), Flareon Lv32 (Fainted).
 - Sage MASA: Noctowl Lv32 (Fainted), Jolteon Lv32 (Fainted).
-- Sage KOJI: Noctowl Lv32 (Active).
+- Sage KOJI: Noctowl Lv32 (Fainted), Vaporeon Lv32 (Active).
 
 # PC Storage (Box 1)
 1. ROCKY (ONIX): Lv6 (M)
