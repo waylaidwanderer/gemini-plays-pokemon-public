@@ -16,5 +16,6 @@
 ## Current Strategy & Obstacles
 - **Location:** Goldenrod Underground (Main Tunnel).
 - **Goal:** Rescue the real Director in the Underground Warehouse.
-- **Status:** Searching for the Warehouse Door.
-- **Plan:** Return to the Main Tunnel (3_53) via the ladder at (5, 25). Then, walk North hugging the East wall to find a path to the East side (where the door is).
+- **Status:** Navigating around NPC to check for a path to the East Tunnel.
+- **Insight:** Gap in the divider wall detected at y=23-25. This likely leads to the East side.
+- **Plan:** Bypass Super Nerd at (3, 27), navigate to (6, 25), cross to East Tunnel, then head North to the Locked Door at (18, 6).
