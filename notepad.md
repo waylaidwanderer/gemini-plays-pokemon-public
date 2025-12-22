@@ -71,3 +71,6 @@
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
 - Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs for floor transitions.
+- Radio Tower Event Conclusion: Team Rocket Executive defeated on 5F. Team Rocket announced their disbanding.
+- The Director mentioned a connection between the Clear Bell and the Tin Tower in Ecruteak City, with rumors of activity there.
+- Next Step: Head to Ecruteak City.
