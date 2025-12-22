@@ -55,3 +55,5 @@
 - Next Step: If puzzle is reset, solve it. If not, plan new test.
 - Hypothesis: Walking down the central aisle (Col 9) triggers the Black Belt to block the path ("Won't work if someone's watching").
 - Plan: Avoid Col 9. Move Left to Col 7/8 immediately after exiting elevator to check box status without being seen.
+- Observation: Tiles (4, 11) and (5, 11) changed from WALL to FLOOR while I was at (8, 7). This suggests the layout changes dynamically or based on my position/time.
+- Plan: Continue south to Row 13, then check if the path to the East is open. Also keep an eye on the newly opened path at (4, 11).
