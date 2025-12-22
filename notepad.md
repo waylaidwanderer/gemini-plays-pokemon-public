@@ -36,3 +36,5 @@
 - **Turn 2 Summary:** Muscle used Strength. Seel fainted.
 - **Turn 3 Plan:** Stay in. Use Cross Chop on Dewgong.
 - **Battle Status:** Muscle (138/157, -1 Speed) vs Dewgong (Full HP).
+- **Turn 3 Summary:** Muscle used Cross Chop on Dewgong.
+- **Turn 4 Plan:** Assess damage/opponent.
