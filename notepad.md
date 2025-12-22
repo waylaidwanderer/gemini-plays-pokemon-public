@@ -21,13 +21,15 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exiting Pokemon Center (Mahogany Town).
-- **Progress:** Team Healed. Intel gathered (Evolution delays).
-- **Current Task:** Locate and Challenge Gym.
-- **Next Steps:**
-    1. Exit Pokemon Center.
-    2. Locate Mahogany Gym (likely South-West based on town layout).
-    3. Challenge Leader Pryce.
+- **Status:** Inside Mahogany Gym. Battling Skier Clarissa.
+- **Location:** Entrance Lobby (9, 16).
+- **Puzzle:** Ice Sliding Puzzle ahead.
+- **Current Task:** Defeat Skier Clarissa.
+- **Plan:**
+    1. Defeat Skier Clarissa (Beauty).
+    2. Defeat Boarder (Rocker).
+    3. Solve Ice Puzzle to reach Pryce.
+    4. Win Glacier Badge.
 - **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
