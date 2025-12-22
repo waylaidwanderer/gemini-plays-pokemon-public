@@ -26,3 +26,7 @@
 
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
+- Suicune Rematch Attempt 2 started at Turn #11972.
+- Current position: (5, 13) in Tin Tower 1F.
+- Objective: Reach Suicune at (9, 9).
+- Strategy: Use find_path_v4 to navigate the wall maze. Lead with KIMCHI.
