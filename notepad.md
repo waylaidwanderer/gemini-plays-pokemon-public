@@ -1,13 +1,16 @@
 # Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- SHUTTER: Dynamic collision. (Solved in 3_54).
-- LADDER: Warp tile.
-- WARP_CARPET_DOWN: Warp tile.
+- FLOOR: Traversable. Standard ground.
+- WALL: Impassable. Includes counters and trees.
+- SHUTTER: Dynamic collision. (Solved in 3_54). Impassable when closed.
+- LADDER: Warp tile. Used between floors or underground.
+- WARP_CARPET_DOWN: Warp tile. Found at exits and in elevators.
+- STAIRCASE: Warp tile.
+- WATER: Requires Surf to traverse.
+- GRASS: May trigger wild encounters.
 
 # Current Strategy: Stop Team Rocket
 - Method: Return to Goldenrod Radio Tower and use the Card Key on 3F.
-- Path: Switch Room (3_54) -> Goldenrod City -> Radio Tower.
+- Path: Goldenrod Dept Store -> Goldenrod City -> Radio Tower.
 - Tactical: Use Card Key on the shutters on 3F to access the upper floors.
 - Search Pattern (Radio Tower): Systematically clear each floor from 3F upwards.
 
@@ -16,11 +19,23 @@
 - Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R12-15), Col 15 (Gaps R1-3, 12-13).
 - Map 3_55: Dept Store B1F. Connected to Warehouse via (17, 2).
 
-# Training & Party
-- GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
-- Calcifer (Lv44 Typhlosion): FLAME WHEEL, HEADBUTT, SMOKESCREEN, EMBER.
-- KIMCHI (Lv21 Gloom): CUT, ABSORB, SWEET SCENT, SLEEP POWDER.
-- Ravioli (Lv10 Krabby): SURF, BUBBLE, LEER.
+# Trainer Rosters (Recent)
+- Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
+- Burglar Eddie: Growlithe Lv26, Koffing Lv24.
+- Rocket Grunt (M): Raticate Lv24, Raticate Lv24.
+- Rocket Grunt (M): Grimer Lv23, Muk Lv25.
+- Rocket Grunt (M): Koffing Lv23, Koffing Lv23, Magmar Lv25.
+- Rocket Girl: Gloom Lv25, Gloom Lv25.
+- Burglar Duncan: Koffing Lv23, Koffing Lv23, Magmar Lv25.
+- Rocket Grunt (M): Koffing Lv24.
+- Rocket Grunt (M): Rattata Lv24, Rattata Lv24.
+
+# PC Storage (Box 1)
+1. ROCKY (ONIX): Lv6 (M)
+2. EGG (CLEFFA): Lv5 (F)
+3. XFDW (MEOWTH): Lv16 (M)
+4. FRITTATA (TOGEPI): Lv5 (M)
+5. SHUCKIE (SHUCKLE): Lv15 (F)
 
 # Findings
 - Card Key obtained from the real Director at (12, 8) in Map 3_56. (Turn 11056)
