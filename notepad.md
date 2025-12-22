@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Removing Mail from Kenya (Manual).
-- **Status:** Resetting to Party Menu.
-- **Reason:** PC "Move w/o Mail" failed ("Please remove MAIL"). Must use "TAKE MAIL" from Party menu. Previous attempt failed due to wrong button sequence (pressed Down 1x instead of 3x for MAIL).
+- **Status:** Selecting "MAIL" option for Kenya.
+- **Reason:** Manually removing mail via Party menu since PC failed.
 - **Plan:**
-    1. Exit PC to Overworld (B x4).
-    2. Open Party (Start, Down, A).
-    3. Select Kenya (Down x4, A).
-    4. Navigate to MAIL (Down x3).
-    5. Select TAKE MAIL (A, Down, A).
+    1. Enter Party (Up, A).
+    2. Select Kenya (Down x4, A).
+    3. Select MAIL (Down x3, A).
+    4. Select TAKE MAIL (Down, A).
+    5. Deposit Kenya.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
