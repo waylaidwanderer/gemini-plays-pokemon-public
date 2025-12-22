@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Reading Mail Message).
-- **Reason:** "Move PKMN w/o Mail" selected. Text explains mechanics. Proceeding to select Kenya.
+- **Status:** In Bill's PC (Selecting Kenya to Deposit).
+- **Reason:** Using "Move PKMN w/o Mail" to strip mail and deposit Kenya.
 - **Plan:**
-    1. Advance Text (A).
-    2. Select Kenya (Slot 5).
-    3. Confirm Deposit.
+    1. Advance Text (A, A).
+    2. Select Kenya (Down x4).
+    3. Confirm Deposit (A).
     4. Withdraw Togepi.
     5. Exit and Fly.
 
