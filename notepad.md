@@ -11,8 +11,8 @@
 - Hint from Rocket Grunt: "the switch on the end is the one to press first."
 - Order: Switch 3 -> Switch 2 -> Switch 1.
 
-# Shutter Logic (Toggles)
-- Baseline (OFF, OFF, OFF): (2,6), (3,6), and (12,8) are OPEN, all others CLOSED.
+# Shutter Logic (Verified Toggles)
+- Baseline (OFF, OFF, OFF): (12,8) is OPEN. All others CLOSED.
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 - S2 (10,1) toggles: (10,6), (6,8), (12,8)
 - S3 (2,1) toggles: (2,6), (3,6)
@@ -21,6 +21,7 @@
 - Attempt 4 (Current): 3-2-1 Sequence from clean reset.
   - Reset all switches to OFF (Turn 10831).
   - Step 1: Turn Switch 3 ON (Turn 10833).
+  - Step 2: Turn Switch 2 ON (Turn 10846).
 
 # Current Strategy: Execute 3-2-1 Sequence
 1. Turn Switch 3 ON (COMPLETED).
@@ -32,7 +33,7 @@
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
 
 # Lessons Learned
-- S1 and S2 both toggle (12, 8). This explains why (12, 8) closed when turning only one of them ON.
-- NPC movement or turn-based updates can make shutters appear to move on their own.
-- Trust the shutter report tool for state verification.
-- Toggling Switch 1 and Switch 2 both affects shutter (12, 8). If both are ON, it returns to its baseline state (OPEN).
+- S1 and S2 BOTH toggle (12, 8). This is why it closes when only one is ON and opens when both are ON.
+- Baseline has (12, 8) OPEN, which is the default southern exit.
+- 3-2-1 sequence results in ALL shutters being OPEN.
+- Trust the report tool over navigation "tile change" messages for state verification, but note that navigation will abort if a shutter closes in its path.
