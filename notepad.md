@@ -4,7 +4,8 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Heal at Pokémon Center.
 - **Status:** Mahogany Pokémon Center.
-- **Current Task:** Heal at Pokémon Center.
+- **Current Task:** Deposit items in PC (Inventory full).
+- **Next Task:** Fly to Goldenrod City.
 
 ## Action Log & Reflection
 - **Achievement:** Defeated Leader Pryce! Earned Glacier Badge and TM16 (Icy Wind).
