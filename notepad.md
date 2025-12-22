@@ -36,7 +36,7 @@
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 1F.
 - **Goal:** Reach 2F via stairs at (15, 0).
-- **Status:** Approaching stairs. Rocket Grunt at (14, 1) guarding the path.
+- **Status:** Battling Rocket Grunt at (14, 1) to access 2F stairs.
 - **Known Blockades:**
   - **Goldenrod City:** Grunts blocking West and East paths.
 - **Missing Keys:** BASEMENT KEY, CARD KEY.
