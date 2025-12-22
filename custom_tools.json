@@ -190,12 +190,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\ndef main():\n    try:\n        root = ET.fromstring(map_xml_string)\n        shutter_coords = [\n            (2, 6), (3, 6), (10, 6), (16, 6), (6, 8), (12, 8), (17, 6), (17, 7)\n        ]\n        \n        tile_node = root.find(\".//Tile[Player]\")\n        px, py = 0, 0\n        if tile_node is not None:\n            px = int(tile_node.get('id'))\n            row_node = root.find(f\".//Row[Tile/Player]\")\n            py = int(row_node.get('id'))\n        \n        report = [\"--- Shutter Status Report v2 ---\"]\n        report.append(\"WARNING: Status is based on last visual confirmation. Tiles update only when seen.\")\n        \n        for x, y in shutter_coords:\n            tile = root.find(f\"./Row[@id='{y}']/Tile[@id='{x}']\")\n            if tile is not None:\n                tile_type = tile.get('type')\n                seen = tile.get('seen')\n                on_screen = \"YES\" if (abs(x - px) <= 5 and abs(y - py) <= 4) else \"NO\"\n                \n                status = \"OPEN\" if tile_type == \"FLOOR\" else \"CLOSED\"\n                if seen == \"false\":\n                    status = \"UNSEEN\"\n                \n                report.append(f\"({x}, {y}): {status} (On Screen: {on_screen})\")\n            else:\n                report.append(f\"({x}, {y}): NOT IN MAP DATA\")\n        \n        print(\"\\n\".join(report))\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef main():\n    try:\n        root = ET.fromstring(map_xml_string)\n        shutter_coords = [\n            (2, 6), (3, 6), (10, 6), (16, 6), (6, 8), (12, 8), (17, 6), (17, 7)\n        ]\n        \n        px, py = -1, -1\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    px = int(tile.get('id'))\n                    py = y\n                    break\n            if px != -1: break\n        \n        report = [\"--- Shutter Status Report v2 ---\"]\n        report.append(f\"Player Position: ({px}, {py})\")\n        report.append(\"WARNING: Status is based on last visual confirmation. Tiles update only when seen.\")\n        \n        for x, y in shutter_coords:\n            tile = root.find(f\"./Row[@id='{y}']/Tile[@id='{x}']\")\n            if tile is not None:\n                tile_type = tile.get('type')\n                seen = tile.get('seen')\n                # On-screen check: 11x9 window centered on player\n                on_screen = \"YES\" if (px != -1 and abs(x - px) <= 5 and abs(y - py) <= 4) else \"NO\"\n                \n                status = \"OPEN\" if tile_type == \"FLOOR\" else \"CLOSED\"\n                if seen == \"false\":\n                    status = \"UNSEEN\"\n                \n                report.append(f\"({x}, {y}): {status} (On Screen: {on_screen})\")\n            else:\n                report.append(f\"({x}, {y}): NOT IN MAP DATA\")\n        \n        print(\"\\n\".join(report))\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-22T00:23:40.610Z",
         "action_counter": 10387
+      },
+      {
+        "commit_message": "Fixing XPath predicate error by using manual search for Player position.",
+        "timestamp": "2025-12-22T00:27:21.579Z",
+        "action_counter": 10397
       }
     ]
   }
