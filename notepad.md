@@ -34,13 +34,13 @@
 - **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 ## Current Strategy & Obstacles
-- **Radio Tower Invasion:** The city is overrun. I need to infiltrate the Radio Tower.
-- **Blockades:**
-  - **West Path (16, 23):** Hard blocked by Grunt.
-  - **East Path (31, 10):** Grunt is a non-battling blocker. Cannot pass.
-  - **East Main Street:** Seems open. Attempting to bypass blockades by circling North.
-- **Missing Keys:** I lack the BASEMENT KEY and CARD KEY.
-- **Plan:** Navigate to the Gym area and circle around to the Radio Tower from the North. Check if the "Unknown Warp" becomes accessible later.
+- **Location:** Radio Tower 1F.
+- **Goal:** Infiltrate the tower and stop Team Rocket.
+- **Status:** Front entrance was unguarded. Investigating 1F.
+- **Known Blockades:**
+  - **Goldenrod City:** Grunts blocking West and East paths.
+- **Missing Keys:** BASEMENT KEY, CARD KEY.
+- **Plan:** Talk to Receptionist, then explore the upper floors. Expecting resistance.
 
 # Reflection (Turn 12732)
 - **Status:** I am at (17, 8), near the Name Rater's house. Previous pathing failed due to starting coordinate mismatch or wall collision.
