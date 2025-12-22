@@ -137,11 +137,11 @@
 - **Current Status:**
     - Gate 2 (10, 12) is CLOSED.
     - NPC 5 is at (9, 9), facing UP.
-- **Plan:**
-    - Step 1: Stun NPC 5 at (9, 9).
-    - Step 2: Move to (8, 9).
-    - Step 3: Turn Right.
-    - Step 4: Unstun and Talk.
+- **Correction:** Game State shows NPC 5 is at (9, 10), NOT (9, 9).
+- **Plan Adjustment:**
+    - Step 1: Move back to (8, 10).
+    - Step 2: Turn Right to face NPC.
+    - Step 3: Unstun and Talk.
     - Check if Gate 2 opens.
 
 ## Reflections (Turn 12260)
