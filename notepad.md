@@ -1,7 +1,8 @@
 # Suicune Capture Strategy
 - Attempt 1: Failed (Turn #11814). Whited out.
-- Status: Party fully healed. Suicune reset to full HP (if present).
+- Status: KIMCHI (Gloom) leading. 5 Revives in inventory.
 - Lesson: Always verify Map ID before assuming floor transitions in multi-floor buildings to avoid time loops.
+- Rematch Start: Turn #11972.
 
 # Strategy for Suicune Rematch
 1. Lead with KIMCHI (Gloom).
@@ -17,6 +18,7 @@
 - COUNTER: Impassable. Interact with NPCs behind by facing the counter and pressing A. (Verified: Dept Store 2F)
 - MART_SHELF: Impassable. (Verified: Dept Store 2F)
 - STAIRCASE/WARP: Triggers map transition. (Verified: Dept Store floors)
+- WARP_CARPET_LEFT: Warp tile. Moving Left on this tile triggers a map transition. (Verified: Ecruteak City 20,2)
 - WATER: HM03 Surf required.
 - GRASS: Encounters possible.
 - CUT_TREE: HM01 Cut required.
