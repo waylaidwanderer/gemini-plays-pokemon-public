@@ -40,3 +40,6 @@
 - **WARP_CARPET_UP:** Walkable, triggers warp.
 - **LADDER:** Interactable/Walkable, triggers warp.
 - **BOXES:** Function as WALL tiles. Testing if pushable.
+- **Action:** Moved to `(5, 8)`. Interacted (Right+A) with Box `(6, 8)`.
+- **Reason:** "Junk" hint + "Take it" -> Suggests interactable object (maybe Uniform?).
+- **Hypothesis:** One of these boxes contains the Team Rocket Uniform.
