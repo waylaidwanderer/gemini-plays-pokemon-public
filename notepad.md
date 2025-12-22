@@ -101,8 +101,8 @@
 - KIMCHI (Gloom Lv 21) is current lead.
 - Observed Moves: Gust (Super-effective vs Gloom).
 - Strategy:
-    1. Heal KIMCHI to full HP using Lemonade.
-    2. Survive another Gust (expected damage ~49).
-    3. Use Sleep Powder (75% accuracy).
-    4. Once asleep, switch to a stronger Pokémon to safely lower HP, or start throwing balls.
-- Status: KIMCHI at 57/57 HP. Ready to use Sleep Powder. Turn #11624.
+    1. Suicune is asleep (SLP).
+    2. Use KIMCHI's Absorb to chip away at HP safely. KIMCHI resists Suicune's likely Water moves.
+    3. If Suicune wakes up, use Sleep Powder immediately.
+    4. Once Suicune's HP is in the yellow/red range, start throwing Great Balls and Ultra Balls.
+- Status: Suicune asleep. KIMCHI at 57/57 HP (Defense lowered by Leer). Turn #11627.
