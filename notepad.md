@@ -48,3 +48,5 @@
 - Strategy: Stand at (9, 8) to block the Black Belt and talk to him.
 - Dialogue: Black Belt at (5, 13) says "Oohah! Oohah!". Possibly lifting boxes?
 - Plan: Explore the southern corridor (Row 13/14) to find a path to the East side. The mental map indicates a possible path through Rows 14-16.
+- Tool Idea: Define `operate_elevator` if multiple resets are needed.
+- Note: Current interaction with elevator seems sticky (input didn't register?). Retrying 'A'.
