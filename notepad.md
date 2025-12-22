@@ -12,15 +12,18 @@
 - Result: Opened access to the eastern section and the Warehouse entrance.
 
 # Current Strategy: Rescue Director
-- Search Started: Turn 10940
-- Current Location: Goldenrod Underground Warehouse (Map 3_56).
-- Step 1: Explore the Warehouse (Map 3_56) to find the real Director.
-- Step 2: Defeat any Rocket Grunts or Executives encountered.
+- Search Started: Turn 10940.
+- Current Location: Underground Warehouse (Map 3_56).
+- Step 1: Explore the Warehouse to find the real Director.
+- Step 2: Defeat Rocket Grunts at (9, 8) and (8, 15).
 - Step 3: Locate the Director and obtain the Card Key.
 
 # Warehouse Observations (Map 3_56)
-- Warp (2, 12) / (3, 12) leads back to Switch Room (Map 3_54).
-- Rocket Grunt spotted south at (8, 15).
+- Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
+- Internal Walls: Column 5 blocks passage from Row 4-15 (Gaps at Row 1-3).
+- Internal Walls: Column 8 blocks passage from Row 1-11 (Gaps at Row 12-15).
+- Rocket Grunt 1: (9, 8) (Facing UP).
+- Rocket Grunt 2: (8, 15) (Off-screen, tracked by marker).
 
 # Training & Party
 - Calcifer (Lv44 Typhlosion): FLAME WHEEL, HEADBUTT.
@@ -28,12 +31,6 @@
 - KIMCHI (Lv21 Gloom): CUT.
 - Ravioli (Lv10 Krabby): SURF.
 
-# Warehouse Exploration (Map 3_56)
-- Started: Turn 11000
-- Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
-- Internal Walls: Column 5 is WALL from Row 4-15. Gaps at Row 1, 2, 3.
-- Internal Walls: Column 8 is WALL from Row 1-11. Gaps at Row 12, 13, 14, 15.
-- Item at (2, 1): POKE_BALL. (Turn 11004: Heading to collect).
-- Rocket Grunt 1: (9, 8) (Facing UP).
-- Rocket Grunt 2: (8, 15) (Off-screen, tracked by marker).
-- Strategy: Loop through Row 1 to bypass column 5 wall, then find a gap in column 8 to reach the eastern side.
+# Findings
+- Found Ultra Ball at (2, 1). (Turn 11006)
+- Found Full Heal at (14, 9) in Switch Room. (Turn 10981)
