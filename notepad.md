@@ -429,3 +429,7 @@
 - **Reason:** Previous attempts failed due to Stun locking facing or NPC movement.
 - **Goal:** Force NPC 7 to face UP and check Gate `(10, 12)`.
 - **Contingency:** If this fails, I will investigate the boxes for Rock Smash/Cut or hidden switches.
+- **Result:** Interaction with NPC 7 from North (forcing Face Up) did NOT open the gate.
+- **New Hypothesis:** "Junk" refers to the block of boxes in the West Room at `(6, 8-11)`.
+- **Action:** Moving to `(5, 8)` to attempt PUSHING the box at `(6, 8)` with Strength.
+- **Reason:** I haven't tested interacting with this specific cluster of boxes yet.
