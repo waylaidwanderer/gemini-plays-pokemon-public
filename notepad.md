@@ -4,12 +4,12 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Searching Goldenrod City for the Radio Tower. Checking the building at (33, 9) next.
-- **Status:** Returned to Goldenrod City. Heading to Radio Tower at (33, 9).
+- **Status:** Outside Radio Tower (11_2).
 - **Plan:**
-    1. Navigate to the building at (33, 9) (Suspected Radio Tower).
-    2. Check if the "True Terror" Grunt at (31, 10) is still blocking.
-    3. If blocked, try to go around him or interact.
-    4. Enter Radio Tower and proceed to 2F.
+    1. Clear Grunt dialogue.
+    2. If battle starts, win it.
+    3. If no battle, walk AROUND the Grunt via (30, 9) -> (31, 9) -> (33, 9).
+    4. Enter Radio Tower.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
 - **Locked Door:** Underground (18, 6) needs a key. Remember this for later.
 
