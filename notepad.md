@@ -13,11 +13,11 @@
 - **Status:**
     - Player at (8, 9).
     - NPC 5 at (9, 9) (Stunned).
-    - **Action:** Positioned at (8, 9). Next: Turn Right, Unstun, Interact.
+    - **Action:** Facing Right to prepare for interaction.
 - **Plan:**
     1. **Position:** Move to (8, 9) (Done).
-    2. **Prepare:** Face Right (Next Turn).
-    3. **Interact:** Unstun NPC 5, Face Right, Press A.
+    2. **Prepare:** Face Right (Done this turn).
+    3. **Interact:** Unstun NPC 5, Immediately Press A.
     4. **Lock:** Stun him again immediately.
     5. **Verify:** Check Top/Bottom gates.
 - **Discarded:**
