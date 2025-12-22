@@ -10,10 +10,10 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000. Current Turn: 11028.
-- Method: Defeat Rocket Grunt at (17, 3) to access the ladder at (17, 2).
-- Method: Use Row 3 gap in Col 15 to reach central area (x=9-14) from the eastern corridor.
-- Tactical: Gneiss (Lv41) leads with Earthquake/Rollout; Calcifer (Lv44) counters Grass.
+- Warehouse Search Start: Turn 11000. Current Turn: 11030.
+- Method: Defeat Rocket Grunt at (17, 3) using Gneiss's new Earthquake move.
+- Method: Investigate the ladder at (17, 2) to see where it leads.
+- Tactical: Gneiss (Lv41) now has Earthquake (strictly better than Magnitude).
 
 # Warehouse Observations (Map 3_56)
 - Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
