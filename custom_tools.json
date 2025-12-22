@@ -204,12 +204,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Sequence: Start -> A (Pokedex) -> A (Select Suicune) -> Right (AREA) -> A (View Map) -> sleep 2000 -> B -> B -> B -> B\nprint(json.dumps([\"Start\", \"A\", \"A\", \"Right\", \"A\", \"sleep 2000\", \"B\", \"B\", \"B\", \"B\"]))\n",
+    "python_script": "import json\n# Sequence: Start -> A (Pokedex) -> A (Select Suicune) -> A (Enter sub-menu) -> Right (AREA) -> A (View Map) -> sleep 3000 -> B -> B -> B -> B\n# Added delays for reliability and an extra A to handle the Pokedex sub-menu entry.\nprint(json.dumps([\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-22T14:53:47.470Z",
         "action_counter": 12272
+      },
+      {
+        "commit_message": "Refine Pokédex navigation for Suicune tracking with safety delays and extra 'A' to activate sub-menu.",
+        "timestamp": "2025-12-22T14:56:13.635Z",
+        "action_counter": 12277
       }
     ]
   }
