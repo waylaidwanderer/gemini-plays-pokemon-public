@@ -215,3 +215,7 @@
     1. Move to `(5, 8)`.
     2. Experiment with NPC 6 (Talk, Face Away).
     3. If nothing, return to NPC 7 and try to talk from the LEFT side.
+- **Action:** Moving to (5, 8) to interact with NPC 6 (Top Left).
+- **Goal:** Determine if manipulating NPC 6 affects the gates.
+- **Current State:** NPC 6 is at (4, 8) facing DOWN.
+- **Test:** Talk to him from the RIGHT (make him face RIGHT). Check Gates.
