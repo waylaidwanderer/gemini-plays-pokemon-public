@@ -375,3 +375,8 @@
 - **Action:** Unstunning NPC 7 (currently at `6, 13`).
 - **Action:** Interacting (Down+A) to force him to Face UP.
 - **Goal:** Check if Gate `(10, 12)` opens while he faces UP during dialogue.
+- **Observation:** I am at `(7, 12)`. NPC 7 is at `(7, 13)`.
+- **Action:** Pressing Down + A to talk.
+- **Goal:** Force NPC 7 to face **UP**.
+- **Expectation:** Watch Gate `(10, 12)` on screen. If it opens, "Face Up" is the trigger.
+- **Note:** If he moves to `(6, 13)` before I talk, I will move to `(6, 12)` next.
