@@ -26,3 +26,5 @@
 - Verify shutter states visually or via tool.
 - NPCs and Items block paths like WALLs.
 - 3-2-1 sequence may require a specific starting state or reset.
+- Error Turn 10733: Checking a switch menu resets the player's position or triggers a pathing abort.
+- Error Turn 10750: Position mismatch at Switch 2 was caused by a pathing abort during a long navigation. Use smaller steps.

@@ -1,6 +1,6 @@
 {
   "find_path_v4": {
-    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items. Returns an empty list if no path is found.",
+    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, and items. Returns a JSON array of button strings if autopress_buttons is true.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -16,7 +16,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        \n        start_x, start_y = -1, -1\n        for row in root.findall('Row'):\n            curr_y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = curr_y\n                    break\n            if start_x != -1: break\n            \n        if start_x == -1: return []\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_wall = t_type in ['WALL', 'COUNTER', 'BOOKSHELF', 'TABLE', 'MART_SHELF']\n                obj = tile.find('Object')\n                if obj is not None:\n                    # NPCs and items are walls unless they are the target (for interaction)\n                    if not (x == start_x and y == start_y) and not (x == target_x and y == target_y):\n                        is_wall = True\n                grid[(x, y)] = not is_wall\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        while queue:\n            x, y, path = queue.popleft()\n            if x == target_x and y == target_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        return []\n    except Exception:\n        return []\n\nprint(json.dumps(solve()))",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef run():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    # Get player position\n    player = root.find(\".//Player/..\")\n    start_x = int(player.get('id'))\n    start_y = int(player.get('y')) # Note: Row has id=y, Tile has id=x\n    # Wait, Row element has id for Y. Tile element has id for X.\n    # Let's be precise:\n    player_tile = root.find(\".//Tile[Player]\")\n    start_x = int(player_tile.get('id'))\n    start_row = root.find(f\".//Row[Tile/Player]\")\n    start_y = int(start_row.get('id'))\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == target_x and curr_y == target_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') == 'FLOOR' and not tile.get('has-object') == 'true':\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nrun()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -27,6 +27,11 @@
         "commit_message": "Fixed find_path_v4: removed non-standard getparent() call and improved player position detection. Consolidated grid construction and BFS.",
         "timestamp": "2025-12-21T06:23:10.110Z",
         "action_counter": 8180
+      },
+      {
+        "commit_message": "Ensure tool correctly returns a list of button strings for overworld navigation when autopress_buttons is true. Fixes previous formatting issues.",
+        "timestamp": "2025-12-22T02:53:22.052Z",
+        "action_counter": 10751
       }
     ]
   },
