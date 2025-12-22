@@ -53,4 +53,7 @@
 - Team Rocket disbanded after defeating the Executive on 5F.
 - Received CLEAR BELL from the Director.
 - Lead: Something is happening at the TIN TOWER in ECRUTEAK CITY.
-- Need to check the item ball at (8, 5) before leaving.
+- Obtained ULTRA BALL from Radio Tower 5F (8, 5).
+- Radio Tower cleared of Team Rocket.
+- Director rescued, CLEAR BELL obtained.
+- Next stop: TIN TOWER in ECRUTEAK CITY.
