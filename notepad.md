@@ -4,14 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Operating PC at (9, 1).
-- **Status:** In Bill's PC (Depositing Kenya).
-- **Reason:** Confirming deposit of Kenya (Spearow) to free up a slot for Togepi.
+- **Status:** In Bill's PC (Withdrawing Togepi).
+- **Reason:** Kenya deposited. Now withdrawing Togepi to show to Elm.
 - **Plan:**
-    1. Confirm Deposit (A).
-    2. Navigate to "WITHDRAW PKMN".
-    3. Withdraw Togepi.
-    4. Exit PC.
-    5. Fly to New Bark Town.
+    1. Return to Main PC Menu (B).
+    2. Select "WITHDRAW PKMN" (Up, A).
+    3. Select Togepi (Slot 11 in Box 1).
+    4. Withdraw Togepi.
+    5. Exit PC and Fly.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
