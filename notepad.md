@@ -8,36 +8,29 @@
 
 # Puzzle: Goldenrod Underground Switch Room
 - Switch Puzzle Start: Turn 10284
-- Phase: Executing 3-2-1 Sequence. Step 2 Complete.
-- Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
-- Time Tracking: Started Turn 10284. Currently Turn 10368.
+- Solution Sequence: 3-2-1 (Left, Middle, Right).
 
-## Verified Shutter Logic
-- S3 (2,1): Toggles (2,6), (3,6), (12,8). (Verified Turn 10313)
-
-## Hypothesized Shutter Logic
+## Shutter Toggle Logic (Hypothesis)
+- S3 (2,1): Toggles (2,6), (3,6), (12,8).
 - S2 (10,1): Toggles (10,6), (12,8), (6,8).
 - S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
-- Note: (17,6) needs verification (WALL vs SHUTTER).
+
+## Verified Shutter States (S3, S2, S1)
+- (0,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) OPEN, (17,6) CLOSED.
+- (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED.
+- (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) CLOSED, (17,6) CLOSED. (Verified Turn 10376 via tile change detection)
 
 ## Shutter Sequence Log
 - Attempt 3 (Turn 10373): Reset -> 3-2-1. Result: (10,6), (16,6), (12,8) all CLOSED. FAILED.
 - Observation: The "3-2-1" sequence from an all-OFF state did not open the path.
 
-## Systematic Mapping Plan (Post-Battle)
+## Systematic Mapping Plan
 - Goal: Determine exact toggle logic for each switch.
-- Current Status: Starting reset to (0,0,0).
-- Reset Steps:
-  1. S2 (10,1) -> OFF (In progress)
-  2. S1 (16,1) -> OFF
-  3. S3 (2,1) -> OFF
-- Mapping Steps:
-  1. Toggle S1 ON. Check shutters (2,6), (3,6), (10,6), (16,6), (6,8), (12,8), (17,6).
-  2. Toggle S1 OFF.
-  3. Toggle S2 ON. Check shutters.
-  4. Toggle S2 OFF.
-  5. Toggle S3 ON. Check shutters.
-  6. Toggle S3 OFF.
+- Steps:
+  1. Reset all switches to OFF.
+  2. Toggle S1 ON. Record all shutter changes. Reset to OFF.
+  3. Toggle S2 ON. Record all shutter changes. Reset to OFF.
+  4. Toggle S3 ON. Record all shutter changes. Reset to OFF.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
@@ -47,3 +40,4 @@
 # Lessons Learned
 - **Sequence Reset:** Always reset all switches to OFF before starting a sequence puzzle.
 - **Visual Verification:** Don't rely on stale mental map data for shutters; verify visually after toggles.
+- **Toggle Logic:** Shutter states depend on the combination of active switches. Mapping individual switch effects from (0,0,0) is essential.
