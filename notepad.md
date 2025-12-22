@@ -265,3 +265,7 @@
 - **Test:** Interact with Box `(10, 12)` + Use Itemfinder (Select).
 - **Hypothesis:** "Junk" hint might mean hidden item or interactable box.
 - **Next:** If this fails, exit cage and try talking to Machop at `(7, 7)` from the NORTH (Back).
+- **Action:** Interacting with Box `(11, 12)` and `(10, 12)` from Inside Cage.
+- **Sequence:** A (at 11, 11 facing Down) -> Left (to 10, 11) -> Down (face Box) -> A.
+- **Goal:** Verify if these specific boxes are interactable (Item/Switch) given the "Junk" hint.
+- **Next:** If inert, exit cage and approach Machop `(7, 7)` from the North.
