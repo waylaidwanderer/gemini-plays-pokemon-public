@@ -4,13 +4,14 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Navigating to Violet City (Step 1).
-- **Reason:** Map is open. Executing first half of navigation (Left -> Up) to confirm movement and reach Violet City.
+- **Status:** Navigating Fly Map (To Goldenrod).
+- **Reason:** Current Screen shows Cherrygrove. Intermediate State showed Violet. Ambiguous state, but "Up, Left, Down" sequence works from both Cherrygrove (Up->Violet->Ecruteak->Goldenrod) and Violet (Up->NoMove->Ecruteak->Goldenrod).
 - **Plan:**
-    1. Send Inputs: Left, Up.
-    2. Verify "Violet City" text next turn.
-    3. If success, continue: Left -> Down (Goldenrod).
-    4. If fail (stuck at New Bark), assume animation lag and retry.
+    1. Send Inputs: Up, Left, Down.
+    2. Verify "Goldenrod City" text next turn.
+    3. Press A to Fly.
+    4. Enter PokeCenter.
+    5. Swap Pokemon.
 
 # Reflection (Turn 11689)
 - **Execution:** Fly attempt failed (landed back in New Bark Town). Likely map navigation error or input drop.
