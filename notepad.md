@@ -17,15 +17,13 @@
 
 # Puzzle Solving Log
 - Attempt 1 & 2: Failed.
-- Attempt 3 (Current): 3-2-1 Sequence.
-  - S3 ON (Turn 10800).
-  - S2 ON (Turn 10805).
-  - S1 ON (Turn 10816).
-  - RESULT: Path to Warehouse entrance (12, 13) is OPEN. (Verified by Shutter Report 10817: (2,6), (3,6), and (12,8) are OPEN).
+- Attempt 3: 3-2-1 Sequence (Turn 10816). RESULT: Path opened but shutter (12, 8) closed unexpectedly during navigation.
+- Attempt 4 (Current): Resetting all switches to OFF for systematic testing.
 
-# Current Strategy: Enter Warehouse
-1. Navigate south through (12, 8).
-2. Enter Warehouse at (12, 13).
+# Current Strategy: Reset and Test
+1. Turn all switches OFF.
+2. Execute 3-2-1 sequence.
+3. Verify path to (12, 13).
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
