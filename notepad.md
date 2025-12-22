@@ -19,7 +19,11 @@
   - (17,6): CLOSED
   - (17,7): CLOSED
 - Test S1 (1,0,0): ?
-- Test S2 (0,1,0): ?
+- Test S2 (0,1,0):
+  - (10,6): OPEN
+  - (6,8): OPEN
+  - (12,8): CLOSED
+  - (Others): Same as baseline? (Verify 16,6 and 17,6)
 - Test S3 (0,0,1):
   - (2,6): OPEN
   - (3,6): OPEN
