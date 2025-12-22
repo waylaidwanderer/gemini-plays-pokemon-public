@@ -21,13 +21,10 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Inside B2F Transmitter Room. Lance split the job: He took the East side.
-- **Objective:** Disable the radio signal by defeating the Electrodes on the West side.
-- **Targets (West):**
-    - Voltorb at (7, 5)
-    - Voltorb at (7, 7)
-    - Voltorb at (7, 9)
-- **Plan:** Defeat them one by one, starting from the nearest (7, 9).
+- **Status:** Inside B2F Transmitter Room (West).
+- **Progress:** Defeated Electrode at (7, 9). 2 remaining: (7, 7) and (7, 5).
+- **Current Action:** Engaging the second Electrode at (7, 7).
+- **Plan:** Defeat the remaining Electrodes to disable the radio signal.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
