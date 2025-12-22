@@ -64,4 +64,5 @@
 
 # Boundary Dance Tracking
 - Current Boundary: Route 38 (0, 10) < - > Route 39 (19, 10).
-- Suicune Last Seen: Route 42.
+- Current Position: Route 39 (19, 10).
+- Suicune Last Seen: Route 42. Checking now...
