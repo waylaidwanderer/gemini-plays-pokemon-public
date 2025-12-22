@@ -43,6 +43,10 @@
 - Goldenrod Dept Store 2F Clerk (13, 5): Healing items.
 - Goldenrod Dept Store 2F Clerk (13, 6): Basic supplies.
 
+# General Lessons
+- Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
+- Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs.
+
 # Suicune Battle Strategy
 - Suicune Lv 40.
 - KIMCHI (Gloom Lv 21) fainted at Turn #11641.
@@ -54,4 +58,3 @@
     4. Throw Great Balls until caught.
     5. Heal Typhlosion with LEMONADE if HP falls below 50%.
 - Capture Marathon Started: Turn #11666.
-- Status: Suicune HP RED, Accuracy -6. No rain. Calcifer HP 36/142. Healing with Lemonade. Turn #11695.
