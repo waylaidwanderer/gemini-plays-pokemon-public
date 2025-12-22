@@ -9,15 +9,15 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Bottom Gates (10, 13)/(11, 13).
-- **Hypothesis:** NPC 7 needs to step on (8, 13) to open the gates.
-- **Problem:** I was standing on (8, 13), blocking him.
+- **Hypothesis:** NPC 7 needs to step on (8, 13). I was previously blocking him.
+- **Current Status:** Player at (8, 12). NPC 7 at (6, 13).
+- **Observation:** NPC 7's path has been (5,13) <-> (7,13). He hasn't touched (8,13) yet.
 - **Plan:**
-    1. **Unblock:** Move to (8, 12).
-    2. **Wait:** Stay at (8, 12) and watch NPC 7.
-    3. **Observe:** Does he enter (8, 13)? Do gates open?
-    4. **Action:** If gates open, rush in.
-- **Backup:** If he refuses to enter (8, 13) even when clear, use Itemfinder to find the "junk" blocking him.
-- **Note:** `Map Events` shows no background objects (hidden items), so "junk" might be flavor text or a dynamic object not in the static list.
+    1. **Wait:** Stay at (8, 12) (Do NOT block 8, 13).
+    2. **Watch:** See if NPC 7 extends patrol to (8, 13).
+    3. **Contingency:** If he turns back at (7, 13) again, then something *else* is blocking him (Hidden Item?).
+    4. **Action:** If blocked, use **Itemfinder**.
+- **Itemfinder Note:** I have the Itemfinder key item. It's the perfect tool to verify the "junk" hint.
 
 ## Status
 - Player at (9, 9).
