@@ -107,3 +107,6 @@
 - Hypothesis: "Hide" in the West Zone (Col 1-5) to allow workers to move crates.
 - Plan: Navigate to (4, 11) to enter West Zone. Observe if Gates open or if layout changes.
 - Note: Row 11 is blocked at Col 6/7 (WALL). Must loop via Row 8/9 to reach West side.
+- Correction: Rows 8 and 9 are BLOCKED at Cols 6-7 and 10-11. Cannot cross East-West there.
+- Plan: Cross to West Zone via Row 12 (which seems to be the main connector).
+- Path: (9, 12) -> (4, 12) -> (4, 11).
