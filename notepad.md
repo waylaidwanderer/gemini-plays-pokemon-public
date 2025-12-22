@@ -29,6 +29,7 @@
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
 - **Status:** Battling Super Nerd Teru in Goldenrod Underground (South).
 - **Goal:** Defeat him.
-- **Correction:** The "Advisor" at (6, 9) was actually a Trainer who gave advice before challenging me.
+- **Current Opponent:** Voltorb.
+- **Strategy:** Muscle stays in. Use Rock Smash or Strength.
 - **Next Target:** Super Nerd at (7, 14) after this battle.
 - **Plan:** Win battle, then check the next nerd.
