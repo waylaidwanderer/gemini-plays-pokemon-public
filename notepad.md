@@ -1,7 +1,6 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Last confirmed on Route 37 (Turn #12425).
+- Status: Roaming. Last confirmed on Route 42 (Turn #12478).
 - Strategy: Repel Trick. Lead with KIMCHI (Gloom Lv 21) which is > local wild levels (Lv 13-16) but < Suicune (Lv 40).
-- Method: Pacing (Grass Dance) at (8, 2) on Route 37.
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, phone call, or suspected location change.
 - Tool Usage: `grass_dance_tool` for pacing. **Avoid SWEET SCENT**.
@@ -18,20 +17,16 @@
 - TALL_GRASS at (8, 2), (9, 2), (7, 2): Pacing spot.
 - LEDGE_HOP_DOWN at (12, 3), (13, 3), (4, 7), (5, 7), (8, 7), (9, 7).
 
-## Roaming Pokemon Strategy
-- If Suicune flees: Immediately check Pokédex AREA map.
+## Roaming Pokémon
 - Tracking: Do NOT use Fly to chase, as it randomizes Suicune's location. Instead, walk across map boundaries (gatehouses/warp carpets) to shift its position predictably.
 - Encountering: Use the Repel Trick (Lead Lv > Wild Lv, Lead Lv < Suicune Lv) and pace in grass.
 - Capture: Use Sleep status on Turn 1. Use `suicune_capture_analyst_v2` to determine best ball usage.
+- Fleeing: Flee immediately in battle. Use status (Sleep).
+- Trackable via Pokédex "AREA" map if seen.
+- Movement: Roaming Pokemon shift routes when the player crosses a map boundary (warp carpet, gatehouse).
 
 # PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
-
-# Roaming Mechanics
-- Move routes when player crosses a boundary (gatehouse, warp carpet).
-- Fly causes them to move to a random location.
-- Flee immediately in battle. Use status (Sleep). 
-- Trackable via Pokédex "AREA" map if seen.
 
 # General Lessons Learned
 - Navigation Buffer: After using a warp, move at least 3 tiles away before starting a new path to prevent re-entry loops.
@@ -44,4 +39,4 @@
 # Menu Navigation
 - Lesson: The main menu is circular. Using a fixed number of 'Up' or 'Down' presses is unreliable. Always verify cursor position or use relative movement.
 - Pokédex: To see the 'AREA' map, first press 'A' on the list entry, then move the cursor to 'AREA' and press 'A' again.
-- Active Status: Repel active. Steps: 80/100 (Turn #12462).
+- Active Status: Repel active. Steps: 82/100 (Turn #12481).
