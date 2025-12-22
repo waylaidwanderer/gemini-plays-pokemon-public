@@ -199,25 +199,25 @@
     ]
   },
   "check_suicune_location_v2": {
-    "description": "Automates the sequence to check Suicune's location on the Pokédex AREA map and return to the overworld. Requires the current 0-indexed position of the menu cursor (0:POKEDEX, 1:PKMN, 2:PACK, 3:GEAR, 4:NAME, 5:SAVE, 6:OPTION, 7:EXIT). Assumes Suicune is the last viewed entry or easily reachable in the list. Includes safety delays.",
+    "description": "Automates checking Suicune's location on the Pokédex AREA map. Handles menu navigation from any starting cursor index.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "current_menu_index": {
-          "description": "The current 0-indexed position of the menu cursor (0-7).",
-          "type": "integer"
+          "type": "integer",
+          "description": "The current 0-indexed position of the menu cursor (0-7)."
         },
         "menu_already_open": {
-          "description": "Whether the main menu is already open.",
-          "type": "boolean"
+          "type": "boolean",
+          "description": "Whether the main menu is already open."
         }
       },
       "required": [
         "current_menu_index",
         "menu_already_open"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\nimport sys\n\ndef solve():\n    input_data = {}\n    try:\n        raw_input = sys.stdin.read()\n        if raw_input:\n            input_data = json.loads(raw_input)\n    except Exception as e:\n        pass\n        \n    start_index = int(input_data.get('current_menu_index', 0))\n    menu_already_open = input_data.get('menu_already_open', False)\n    \n    buttons = []\n    if not menu_already_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 500\")\n    \n    for _ in range(start_index):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 300\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    buttons.append(\"Right\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 5000\")\n    buttons.extend([\"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\"])\n    \n    print(json.dumps(buttons))\n\nsolve()",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        current_index = int(input_data.get('current_menu_index', 0))\n        menu_open = bool(input_data.get('menu_already_open', False))\n    except (IndexError, ValueError, json.JSONDecodeError):\n        current_index = 0\n        menu_open = False\n    \n    buttons = []\n    if not menu_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Target POKEDEX is index 0\n    # Menu: 0:POKEDEX, 1:PKMN, 2:PACK, 3:GEAR, 4:NAME, 5:SAVE, 6:OPTION, 7:EXIT\n    up_dist = (current_index - 0) % 8\n    down_dist = (0 - current_index) % 8\n    \n    if up_dist <= down_dist:\n        for _ in range(up_dist):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 500\")\n    else:\n        for _ in range(down_dist):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n            \n    # Enter Pokedex\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    # Enter Suicune entry (assumed selected or at top)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2500\")\n    # Move to AREA\n    buttons.append(\"Right\")\n    buttons.append(\"sleep 800\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 6000\")\n    # Exit all menus\n    for _ in range(5):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 1000\")\n        \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Refined to take starting menu index to ensure POKEDEX is selected correctly.",
@@ -243,6 +243,11 @@
         "commit_message": "Refined JSON parsing and added navigation delays to ensure menu reliability.",
         "timestamp": "2025-12-22T21:30:10.535Z",
         "action_counter": 12847
+      },
+      {
+        "commit_message": "Refined menu wrapping logic and increased safety delays for Pokédex navigation.",
+        "timestamp": "2025-12-22T21:43:21.319Z",
+        "action_counter": 12872
       }
     ]
   }
