@@ -8,19 +8,22 @@
 - WATER: Requires Surf to traverse. (HM03)
 - GRASS: May trigger wild encounters.
 
-# Current Strategy: Stop Team Rocket
-- Primary Goal: Stop Team Rocket at the Goldenrod Radio Tower.
-- Mission Start: Turn #11112.
-- Method: Clear the restricted floors of the Radio Tower and stop the broadcast.
-- Path: Radio Tower 4F -> Radio Tower 5F.
-- Tactical: Use stairs at (12, 0) on 4F to reach the top floor (5F).
-- Search Pattern: Boustrophedon sweep of each floor.
+# Current Strategy: Tin Tower Investigation
+- Primary Goal: Investigate the Tin Tower in Ecruteak City.
+- Mission Start: Turn #11243.
+- Method: Travel to Ecruteak City and find the Tin Tower.
+- Path: Goldenrod City -> Route 35 -> Route 36 -> Route 37 -> Ecruteak City.
+- Tactical: Use the Clear Bell at the Tin Tower.
 
-# Observations
+# Observations (Radio Tower Takeover - COMPLETED)
+- Team Rocket disbanded.
+- Director rescued, CLEAR BELL obtained.
+- Radio Tower 5F: Rocket Executive (Office) defeated. Ultra Ball found at (8, 5).
+- Radio Tower 4F: Rocket Executive defeated.
+- Radio Tower 3F: Rocket Grunt defeated. Shutters unlocked with Card Key.
+- Radio Tower 2F: Rocket Grunts and Girl defeated.
+- Radio Tower 1F: Base of operations.
 - Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
-- Map 3_20 (4F): Restricted area. Stairs to 5F at (12, 0). Stairs to 3F at (17, 0).
-- Map 3_19 (3F): Card Key used at (14, 2) to unlock shutters.
-- Map 3_21 (5F): Restricted area. Stairs to 4F at (12, 0).
 
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
