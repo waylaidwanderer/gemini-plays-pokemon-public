@@ -33,9 +33,9 @@
 ## Tile Mechanics
 - **General:** WALL (Impassable), FLOOR (Walkable), WATER (Surfable).
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
-- **Turn 12692:** Confirmed Rocket Grunt at (16, 23) is a hard blocker. Path West is impassable here. Trying North route.
-- **Turn 12704:** Engaging Team Rocket Grunt at (31, 10). He is blocking the path to the building behind him.
-- **Turn 12706:** The Rocket Grunt at (31, 10) is definitively blocking the only path to the Unknown Warp at (33, 9). Defeating him is mandatory to access that door.
-- **Turn 12715:** Inventory Check: I do NOT have the CARD KEY or BASEMENT KEY. The Lore Analyst was incorrect.
-- **Strategy:** I likely need to storm the Radio Tower first to find the Basement Key (possibly from the Fake Director), then the Underground for the Real Director.
-- **Current Action:** Defeating this Grunt to see if the warp at (33, 9) is relevant or a shortcut.
+## Current Strategy & Obstacles
+- **Radio Tower Invasion:** The city is overrun. I need to infiltrate the Radio Tower.
+- **West Approach (16, 23):** Blocked by a Rocket Grunt (Hard Block).
+- **East Approach (31, 10):** Rocket Grunt blocking an Unknown Warp at (33, 9). Currently attempting to battle him.
+- **Missing Keys:** I lack the BASEMENT KEY and CARD KEY.
+- **Plan:** If this Grunt doesn't yield a path, I must try the main entrance of the Radio Tower (North-West, usually).
