@@ -18,7 +18,7 @@
 - Turn 10831-10896: All switches reset to OFF.
 - Turn 10907: Turned Switch 3 ON.
 - Turn 10910: Visually verified (2, 6) and (3, 6) are OPEN. (2, 7) and (3, 7) are also OPEN.
-- Turn 10914: Turning Switch 2 ON.
+- Turn 10914: Confirmed Switch 2 ON.
 
 # Current Strategy: 3-2-1 Sequence
 1. Turn S3 ON (In progress).
