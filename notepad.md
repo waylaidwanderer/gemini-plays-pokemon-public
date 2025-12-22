@@ -50,7 +50,7 @@
 - Azalea: Poke Ball, Potion, Super Potion, Escape Rope, Repel, Antidote, Parlyz Heal, Flower Mail.
 - Olivine: Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
 - Ecruteak (4_6): POKé BALL, GREAT BALL, POTION, SUPER POTION, ANTIDOTE, PARLYZ HEAL, AWAKENING, BURN HEAL, ICE HEAL, REVIVE. (No Repels).
-- Goal: Buy 10+ Super Repels in Olivine. Current Funds: ¥6821.
+- Goal: Buy 10+ Super Repels in Olivine. Current Funds: ¥6821. Started: Turn #12668.
 
 # Navigation Strategy: Finding Suicune
 1. Restock Super Repels (Olivine is best).
