@@ -4,13 +4,9 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Heal at Pokémon Center.
 - **Status:** Mahogany Pokémon Center.
-- **Current Task:** Deposit items in PC (Inventory full).
-- **Next Task:** Fly to Goldenrod City.
+- **Current Task:** Exit PC and Fly to Goldenrod City.
+- **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
-## PC Deposit List
-- **Priority:** GUARD SPEC., PROTEIN, MIRACLE SEED, PSNCUREBERRY, ANTIDOTE (excess), ICE BERRY.
-- **Done:** REPEL, X ATTACK, X SPECIAL, EVERSTONE, ICE BERRY, MIRACLE SEED, PSNCUREBERRY, PROTEIN, GUARD SPEC.
-
-## Tile Mechanics
-- **ICE:** Slide until WALL/OBJECT/FLOOR.
-- **FLOOR:** Safe to walk/stop.
+## Action Log & Reflection
+- **Inventory:** Successfully deposited 9 unused items. Bag has plenty of space (~10 slots free).
+- **Achievement:** Defeated Leader Pryce! Earned Glacier Badge and TM16 (Icy Wind).
