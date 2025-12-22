@@ -10,16 +10,15 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Top Right Gates (10, 8).
 - **Current Location:** (5, 8) - Right of NPC 6.
-- **Hypothesis:** NPC 6 Facing Right triggers the gates.
+- **Observation:** NPC 6 is facing DOWN. ASCII Map shows Gates at (10, 8) are CLOSED (WALL).
+- **Hypothesis:** NPC 6 must face RIGHT to open gates.
 - **Plan:**
-    1. **Turn:** Face Left (towards NPC 6).
-    2. **Interact:** Talk to him (He turns Right).
-    3. **Lock:** Stun him immediately.
-    4. **Check:** Walk to (8, 8) to check gates.
-- **Alternative:** If this fails, maybe he needs to face UP (I tried talking from above but didn't check gates? I should check logs).
-    - Logs say I talked at (4, 7). He faced Up. I then moved to Machop. I didn't verify gates.
-    - If Right fails, I must retry UP and verify.
-- **Junk Hint:** Use `Itemfinder` near NPC 7 if NPC 6 strategy fails completely.
+    1. **Action:** Talk to NPC 6 from (5, 8). He will turn RIGHT.
+    2. **Lock:** When dialogue appears, use `stun_npc` to freeze him facing RIGHT.
+    3. **Close:** Finish dialogue.
+    4. **Verify:** Check gates.
+- **Backup:** If this fails, try `Itemfinder` near NPC 7 (Bottom Left).
+- **Note:** I must stun him *during* the text to prevent him from turning back.
 
 ## Status
 - Player at (9, 9).
