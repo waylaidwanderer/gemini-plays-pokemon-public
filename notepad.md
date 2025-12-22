@@ -26,4 +26,4 @@
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
 - **Status:** Battling Rocket Grunt at (1, 3).
-- **Status:** Battling Rocket Grunt at (5, 1). Facing Zubat (3rd Pokémon). Muscle is Confused. Dig is out of PP.
+- **Status:** Battling Rocket Grunt at (5, 1). Facing Rattata (4th Pokémon). Muscle is Confused.
