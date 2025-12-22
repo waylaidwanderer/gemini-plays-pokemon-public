@@ -8,30 +8,26 @@
 
 # Puzzle: Goldenrod Underground Switch Room
 - Switch Puzzle Start: Turn 10284
-- Solution Sequence: 3-2-1 (Left, Middle, Right).
+- Phase: Reset complete. Executing 3-2-1 Sequence.
+- Sequence: S3 (Left) -> S2 (Middle) -> S1 (Right).
 
 ## Shutter Toggle Logic (Hypothesis)
 - S3 (2,1): Toggles (2,6), (3,6), (12,8).
 - S2 (10,1): Toggles (10,6), (12,8), (6,8).
 - S1 (16,1): Toggles (16,6), (10,6), (6,8), (17,6).
 
-## Verified Shutter States
-- (0,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) CLOSED, (6,8) OPEN, (17,6) CLOSED.
-- (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED.
+## Verified Shutter States (S3, S2, S1)
+- (0,0,0): To be verified visually.
+- (1,0,0): (2,6) OPEN, (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED. (Turn 10287)
 - (1,1,1): (10,6) CLOSED, (16,6) CLOSED, (12,8) OPEN, (6,8) CLOSED, (17,6) CLOSED. (Turn 10297)
 
-# Strategy: 3-2-1 Sequence Execution (Resetting)
-- Goal: Reset all switches to OFF, then execute 3-2-1 sequence.
-- Reset Progress:
-  - 1. S1 OFF: Done (Turn 10344).
-  - 2. S2 OFF: Done (Turn 10349).
-  - 3. S3 OFF: Done (Turn 10354).
-- Sequence Attempt 3:
-  - 1. S3 ON: In progress (Turn 10354).
+## Strategy: 3-2-1 Sequence Execution (Attempt 3)
+- Goal: Open path to the Warehouse Entrance in the southeast.
+- Progress:
+  - 1. S3 ON: Next.
   - 2. S2 ON: Next.
   - 3. S1 ON: Next.
-- Shutter (17, 6) Verification: Explicitly test if traversable when S1 is ON.
-- Switch Puzzle Start: Turn 10284. Phase: Reset complete. Starting 3-2-1.
+- Verification: Test (17,6) traversability when S1 is ON.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
@@ -39,5 +35,5 @@
 - Return Ladders: (23,3), (21,25), (5,25).
 
 # Lessons Learned
-- **Sequence Reset:** For order-based puzzles, reset all switches to a known state (OFF) before starting the sequence.
-- **Verification:** Always check shutter states after each toggle to confirm logic.
+- **Sequence Reset:** Always reset all switches to OFF before starting a sequence puzzle.
+- **Visual Verification:** Don't rely on stale mental map data for shutters; verify visually after toggles.
