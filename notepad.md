@@ -27,11 +27,11 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Exploring West Side of Goldenrod Underground (3_54).
+- **Status:** In Goldenrod Underground Main Tunnel (3_53).
 - **Plan:**
-    1. Talk to Teacher at (3, 27).
-    2. Check if I can access the North or East areas from here (looks blocked by walls).
-    3. If no uniform here, consider checking the Main Tunnel again or the locked door at (18, 6).
+    1. Travel North to the ladder at (3, 2).
+    2. Enter the North side of Switch Room Entrances (3_54).
+    3. Search for a Rocket Grunt who might have the Uniform.
 - **Map Structure:**
     - 3_54 West: Connected to Tunnel South (3, 34) and City South Entrance?
     - 3_54 East: Connected to Tunnel North (3, 2) and City North Entrance?
