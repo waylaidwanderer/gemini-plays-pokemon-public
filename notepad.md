@@ -28,3 +28,4 @@
 - **Goals:** Clear outcome-focused goals.
 - **Hypothesis:** Uniform is needed. If not on a Grunt, maybe it's in the locked room or with a specific NPC I missed.
 - Obstacle: Rocket Grunt at (16, 23) blocks the shortcut west on Row 23.
+- Navigation Note: The West side path at x=6 is blocked by walls at Row 4-5. Must use Main Street (x=18) to go North.
