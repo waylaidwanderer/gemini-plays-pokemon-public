@@ -34,9 +34,8 @@
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
 
 # Warp Markers Fix
-- Route 37 (10_4) (7, 0) -> 🚪 To Ecruteak City (18, 35)
-- Ecruteak City (4_9) (18, 35) -> 🚪 To Route 37 (7, 0)
-- Ecruteak City (4_9) (19, 35) -> 🚪 To Route 37 (8, 0)
+- Fixed malformed Sage ID 6 marker on 4_2.
+- Placed Route 37/Ecruteak gate markers.
 
 # Observations (Radio Tower Takeover - COMPLETED)
 - Director rescued, CLEAR BELL obtained.
