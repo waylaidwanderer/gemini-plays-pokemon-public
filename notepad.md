@@ -25,8 +25,8 @@
 - Goal: Reset all switches to OFF, then execute 3-2-1 sequence.
 - Reset Progress:
   - 1. S1 OFF: Done (Turn 10344).
-  - 2. S2 OFF: In progress.
-  - 3. S3 OFF: Next.
+  - 2. S2 OFF: Done (Turn 10349).
+  - 3. S3 OFF: In progress.
 - Sequence Attempt 3:
   - 1. S3 ON: Next.
   - 2. S2 ON: Next.
