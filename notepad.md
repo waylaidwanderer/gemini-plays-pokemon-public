@@ -3,16 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Removing Mail from Kenya.
-- **Status:** Selecting Kenya and Taking Mail.
-- **Reason:** Previous attempt stuck on Garnet. Moving Down 3 slots to Kenya (Slot 5), then removing Mail.
+- **Navigation:** Swapping Kenya for Togepi.
+- **Status:** Depositing Kenya.
+- **Reason:** Mail successfully removed. Now depositing Kenya to free up a slot, then withdrawing Togepi.
 - **Plan:**
-    1. Navigate to Kenya (Down x3).
-    2. Open Menu (A).
-    3. Select MAIL (Down x3, A).
-    4. Select TAKE MAIL (Down, A).
-    5. Confirm (A) if prompted.
-    6. Deposit Kenya.
+    1. Interact with PC (A).
+    2. Select "BILL'S PC" (A).
+    3. Select "DEPOSIT PKMN" (Down, A).
+    4. Deposit Kenya.
+    5. Withdraw Togepi.
 
 # Reflection (Turn 11638)
 - **Execution:** PC navigation has been clumsy. Repeatedly tried to deposit Kenya with Mail, which failed. "Move w/o Mail" also proved confusing/ineffective.
