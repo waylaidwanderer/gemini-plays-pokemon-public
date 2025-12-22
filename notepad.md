@@ -1,50 +1,35 @@
-# Suicune Tracking
-- Observation: Suicune is missing from its pedestal at (9, 9) in Tin Tower 1F.
-- Hypothesis: Suicune is now a roaming Pokémon after the previous encounter/white-out.
-- Pokédex Info: Suicune is #239 (Johto/New Dex) and #245 (National/Old Dex).
-- Time Tracking: Pokédex search started Turn #12027.
+# Suicune Tracking & Strategy
+- Status: Roaming. Confirmed on Route 37 (Turn #12216).
+- Strategy: Lead with KIMCHI (Gloom Lv 21). Use Super Repel to filter encounters (Repel filters < Lv 21, Suicune is Lv 40).
+- Encounter Method: Pacing (Grass Dance). Note: SWEET SCENT ignores REPEL and pulls low-level Pokemon.
+- Battle Plan: Sleep Powder (Turn 1) -> Switch/Ball (Turn 2+). Use `suicune_capture_analyst` for capture optimization.
 
-# Strategy for Suicune Rematch (If Roaming)
-1. Lead with KIMCHI (Gloom) or a fast Pokémon.
-2. Use Sleep Powder immediately.
-3. Track location using Pokédex "AREA" map after every map transition.
-4. Use `suicune_capture_analyst` agent upon engagement.
+# Active Hunt Status
+- Super Repel active: Started Turn #12222. Duration: 200 steps.
+- Current Location: Route 37 tall grass (8, 2).
+- Steps taken since Repel: ~160.
+- Remaining steps: ~40.
+- Safeguard: Re-verify Suicune's location via Pokédex every 50 steps.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- WALL: Impassable.
-- COUNTER: Impassable. Interact with NPCs behind by facing the counter and pressing A.
-- MART_SHELF: Impassable.
-- STAIRCASE/WARP: Triggers map transition.
-- WARP_CARPET_LEFT/DOWN: Triggers map transition.
+- WALL/COUNTER/MART_SHELF/HEADBUTT_TREE: Impassable.
+- STAIRCASE/WARP/DOOR/WARP_CARPET: Map transition.
 - WATER: HM03 Surf required.
 - GRASS: Wild encounters.
 - CUT_TREE: HM01 Cut required.
-- DOOR: Warp tile.
-- HEADBUTT_TREE: Impassable. Requires Headbutt to interact. Distinct from CUT_TREE. (e.g. Route 37 (6, 0)).
+- LEDGE_HOP: One-way jump.
 
-# PC Storage
-- Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
+# PC Storage (Box 1)
+- ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
 # Roaming Mechanics
-- Move between routes when player crosses a boundary.
+- Move routes when player crosses a boundary.
 - Fly causes them to move to a random location.
-- Flee immediately in battle. Use Mean Look or status conditions (Sleep).
+- Flee immediately in battle. Use status (Sleep).
 - Trackable via Pokédex "AREA" map if seen.
 
-# Observation (Turn #12156)
-- Pokédex AREA map for Suicune shows multiple red dots at (13, 9), (15, 10), (16, 11), (10, 11), and (8, 13). The map header is "SUICUNE'S NEST".
-- Plan: Navigate to Route 37, use the route-hopping trick (moving between Ecruteak City and Route 37) while checking the Pokédex AREA map to find Suicune. Once Suicune is on Route 37, lead with KIMCHI (Gloom), use a Repel to filter out weak wild Pokémon, and encounter Suicune in the grass. Use Sleep Powder immediately upon encounter.
-
-# Active Hunt Status
-- Super Repel active: Started Turn #12222. Duration: 200 steps. Estimated expiration: ~Turn #12422.
-- Current Location: Route 37 tall grass.
-- Pacing count: 150 steps. Using Sweet Scent.
-- Remaining steps: ~50 steps.
-- Safeguard: Re-verify Suicune's location via Pokédex every 50 steps if no encounter occurs.
-- Encounter Strategy: Use Sweet Scent to force encounter while on the same route as Suicune. Use Sleep Powder immediately on Turn 1. Use `suicune_capture_analyst` for ball choice.
-
-# Suicune Hunt - Hopping Phase
-- Border: Ecruteak City (18, 35) <-> Route 37 (18, 0).
-- Strategy: Cross border, check Pokedex AREA map. If Suicune is on Route 37, use Repel and encounter in grass. If not, cross back and repeat.
-- Lead: KIMCHI (Gloom Lv 21) for Sleep Powder and Repel filtering (Repel filters < Lv 21, Suicune is Lv 40).
+# General Lessons Learned
+- Navigation Buffer: After using a warp, move at least 3 tiles away before starting a new path to prevent re-entry loops.
+- Repel Trick: Leading with a Pokemon lower level than the target but higher than local wild Pokemon (e.g. KIMCHI Lv 21 vs Route 37 wild Lv 13-16) filters out non-targets.
+- Sweet Scent Interaction: SWEET SCENT bypasses REPEL filtering. Use pacing for the Repel trick.
