@@ -18,12 +18,8 @@
 # Puzzle Strategy (Attempt 5: Clean Reset)
 - Step 1: Turn all switches OFF.
   - S3: Currently OFF (🔴). (Turned OFF at 10885)
-  - S2: Currently OFF (🔴).
+  - S2: Currently OFF (🔴). (Turned OFF at 10881)
   - S1: Currently ON (🟢). (Heading to (16, 2))
-- Step 2: Turn S3 ON.
-- Step 3: Turn S2 ON.
-- Step 4: Turn S1 ON.
-- Step 5: Enter Warehouse.
 - Step 2: Turn S3 ON.
 - Step 3: Turn S2 ON.
 - Step 4: Turn S1 ON.
