@@ -24,8 +24,8 @@
 # Strategy: 3-2-1 Sequence Execution (Resetting)
 - Goal: Reset all switches to OFF, then execute 3-2-1 sequence.
 - Reset Progress:
-  - 1. S1 OFF: In progress (Turn 10342).
-  - 2. S2 OFF: Next.
+  - 1. S1 OFF: Done (Turn 10344).
+  - 2. S2 OFF: In progress.
   - 3. S3 OFF: Next.
 - Sequence Attempt 3:
   - 1. S3 ON: Next.
