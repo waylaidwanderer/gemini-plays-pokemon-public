@@ -193,3 +193,7 @@
 - **Action:** Moving to `(11, 11)` (South Safe Zone).
 - **Goal:** Be adjacent to Bottom Gate `(11, 12)` when it opens.
 - **Timing:** NPC 5 is at `(9, 10)` moving North. I expect gates to switch when he hits `(9, 9)`.
+- **Observation (Turn 12591):** NPC 5 is at Top `(9, 9)`. Top Gates are OPEN. Bottom Gates are CLOSED.
+- **Contradiction:** Hypothesis "Top Position = Bottom Open" is currently failing.
+- **Action:** Move to `(11, 11)` and wait one more turn to see if there is a delay or if the state changes when he moves *away* from `(9, 9)`.
+- **Alternative:** If this fails, I will return to the West side and investigate the boxes/gates interaction again, possibly involving the Machoke.
