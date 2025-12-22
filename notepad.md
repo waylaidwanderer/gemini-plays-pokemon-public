@@ -1,17 +1,12 @@
 # Suicune Capture Strategy (The "How")
 - Goal: Capture Suicune (Lv 40, Water).
-- Status: HP in RED zone, Accuracy at -6 (minimum).
-- Method: Persist with Great Balls (35 remaining). Odds ~1.65% per throw.
+- Status: HP in RED zone (~5-10%), Accuracy at -6 (minimum).
+- Method: Persist with Great Balls (34 remaining). 
 - Contingency: Heal Calcifer (Typhlosion Lv 45) with LEMONADE if HP < 50%.
 - Lead: Calcifer (Typhlosion).
-- Observations: Suicune uses Bubblebeam (Super-effective), Gust, Leer, Rain Dance.
-
-# Capture Progress
-- Great Balls used: 17
-- Ultra Balls used: 3
-- Suicune HP: RED
-- Suicune Accuracy: -6 (Smokescreen x6)
-- Lead: Calcifer (Typhlosion) @ 90/142 HP
+- Observations: Suicune uses Bubblebeam (Water), Gust (Flying), Leer, Rain Dance.
+- Mechanics: Confirmed Suicune does not have Roar/Whirlwind at Lv 40 in Crystal.
+- Marathon Start: Turn #11666.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
