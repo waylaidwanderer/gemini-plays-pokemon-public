@@ -445,3 +445,7 @@
 - **Goal:** Force NPC 6 to face **UP** (Away from gates).
 - **Hypothesis:** NPC 6 Facing UP -> Gates Open?
 - **Note:** "I lose my passion for work if someone's watching." He usually faces Right (watching gates). Making him look Up (at me) means he stops watching the gates.
+- **Action:** Retrying interaction with NPC 6 `(4, 8)` from `(4, 7)` using `slow_press`.
+- **Reason:** Previous attempt yielded no text, possibly due to input speed.
+- **Hypothesis:** Forcing him to face UP (away from gates) might toggle the gate state.
+- **Check:** Watch `(10, 8-9)` to see if they close.
