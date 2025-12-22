@@ -7,7 +7,6 @@
 # Suicune Tracking
 - Observation (Turn #12014): Suicune is missing from its pedestal at (9, 9) in Tin Tower 1F.
 - Hypothesis: Suicune fled because of the previous white-out and is now roaming or triggered to return elsewhere.
-- Goal: Check Suicune's Pokédex entry for "AREA" to confirm roaming status.
 
 # Strategy for Suicune Rematch (If Roaming)
 1. Lead with KIMCHI (Gloom) or a fast Pokémon.
