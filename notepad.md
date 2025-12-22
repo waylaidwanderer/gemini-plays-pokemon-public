@@ -58,3 +58,5 @@
 - Status: Arrived at B1F via Elevator. Exiting to investigate.
 - Status: Exiting Elevator to Dept Store Basement.
 - Status: Walking South to exit Elevator into B1F.
+- Observation: Dept Store B1F contains Machops and crates. Looks like a warehouse area.
+- Hypothesis: The ladder at (17, 2) might lead to the restricted section of the Underground (behind the locked door).
