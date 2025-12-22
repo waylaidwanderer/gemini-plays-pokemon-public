@@ -6,10 +6,10 @@
 - **Next Task:** Investigate Radio Tower (Team Rocket takeover).
 
 ## Action Log
-- **Status:** In Goldenrod City (Fly arrival).
-- **Navigation:** Heading North-West to the Radio Tower.
-- **Reflection:** Fly map navigation jumps between nodes; Up/Down can be more reliable than Left/Right depending on the city list order.
-- **Plan:** Walk North to find the Radio Tower (likely in the NW area).
+- **Status:** Inside Goldenrod PC.
+- **Plan:** Heal team (restore PP for Muscle), then exit and head to Radio Tower.
+- **Reasoning:** Muscle's Cross Chop is low on PP (5/5). Need full strength for Team Rocket.
+- **Next:** Interact with Nurse Joy, then Exit.
 
 ## Tile Mechanics
 - **ICE:** Stepping onto this tile forces the player to slide in the current direction until they hit a WALL, OBJECT, or FLOOR tile. **Confirmed: Sliding stops on FLOOR tiles.**
