@@ -3,6 +3,7 @@
 - Strategy: Repel Trick. Lead with KIMCHI (Gloom Lv 21) which is > local wild levels (Lv 13-16) but < Suicune (Lv 40).
 - Method: Pacing (Grass Dance) at (8, 2) on Route 37.
 - Battle Plan: Use Sleep Powder on Turn 1 to prevent fleeing. Use `suicune_capture_analyst_v2` for catch odds.
+- Active Status: Repel active (Turn #12408). Steps: ~40/100.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, phone call, or suspected location change.
 - Tool Usage: `grass_dance_tool` for pacing. **Avoid SWEET SCENT**.
 
@@ -28,9 +29,8 @@
 - Tool Timing: Menu-heavy tools like Pokédex tracking require significant 'sleep' delays (600ms+) to account for UI transitions.
 - Repel Refresh: Verified. If the game incorrectly claims a Repel is "still in effect" after it wears off, take one step of movement to reset the internal state.
 - Ledge Mechanics: LEDGE_HOP_DOWN tiles are one-way (Down/South only). They act as walls when approached from the South.
+- Phone Calls: NPCs like Arnie can call and interrupt gameplay. This does not change the Repel count but can be a distraction.
 
 # Menu Navigation
 - Lesson: The main menu is circular. Using a fixed number of 'Up' or 'Down' presses is unreliable. Always verify cursor position or use relative movement.
 - Pokédex: To see the 'AREA' map, first press 'A' on the list entry, then move the cursor to 'AREA' and press 'A' again.
-- Active Status: Repel active (Turn #12408). Steps: 40/100.
-- Goal: 100 steps of Grass Dance at (8, 2).
