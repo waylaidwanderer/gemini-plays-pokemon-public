@@ -10,26 +10,21 @@
 - unseen: Traversable (optimistic assumption for pathfinding).
 
 # Current Strategy: Stop Team Rocket
-- Method: Return to Goldenrod Radio Tower and use the Card Key on 3F.
-- Path: Goldenrod Dept Store -> Goldenrod City -> Radio Tower.
-- Tactical: Use Card Key on the shutters on 3F to access the upper floors.
-- Search Pattern (Radio Tower): Systematically clear each floor from 3F upwards.
+- Method: Clear the restricted floors of the Radio Tower and stop the broadcast.
+- Status: Arrived on 4F. Currently clearing trainers.
+- Path: Radio Tower 4F -> Radio Tower 5F.
+- Tactical: Use stairs at (12, 0) on 4F to reach the top floor (5F).
 
 # Observations
 - Map 3_56: Real Director rescued at (12, 8). Card Key obtained.
-- Map 3_56: Internal Walls at Col 5 (Gaps R1-3), Col 8 (Gaps R12-15), Col 15 (Gaps R1-3, 12-13).
-- Map 3_55: Dept Store B1F. Connected to Warehouse via (17, 2).
+- Map 3_20 (4F): Restricted area. Stairs to 5F at (12, 0). Stairs to 3F at (17, 0).
+- Map 3_19 (3F): Card Key used at (14, 2) to unlock shutters.
 
 # Trainer Rosters (Recent)
 - Rival Malice: Sneasel Lv30, Golbat Lv30, Magnemite Lv28, Haunter Lv30, Typhlosion Lv32.
-- Burglar Eddie: Growlithe Lv26, Koffing Lv24.
-- Rocket Grunt (M): Raticate Lv24, Raticate Lv24.
-- Rocket Grunt (M): Grimer Lv23, Muk Lv25.
-- Rocket Grunt (M): Koffing Lv23, Koffing Lv23, Magmar Lv25.
-- Rocket Girl: Gloom Lv25, Gloom Lv25.
-- Burglar Duncan: Koffing Lv23, Koffing Lv23, Magmar Lv25.
-- Rocket Grunt (M): Koffing Lv24.
-- Rocket Grunt (M): Rattata Lv24, Rattata Lv24.
+- Rocket Grunt (M) (3F): Raticate Lv24, Koffing Lv26. (Defeated at (16, 4))
+- Rocket Grunt (M) (Warehouse): Raticate Lv24, Raticate Lv24.
+- Rocket Grunt (M) (Warehouse): Grimer Lv23, Muk Lv25.
 
 # PC Storage (Box 1)
 1. ROCKY (ONIX): Lv6 (M)
@@ -47,15 +42,6 @@
 - Found Full Heal at (14, 9) in Map 3_54. (Turn 10981)
 
 # Radio Tower Mission Plan
-1. Defeat Executive: Reach the top floor and stop the broadcast.
-- Status: Card Key used on 3F. Grunt at (16, 4) defeated. Heading to upper floors.
-
-# Shutter Puzzle (Radio Tower 3F)
-- Observation: Interacting with Card Key Slot at (14, 2) from (13, 2) facing Right produced no result.
-- Hypothesis: Many switches/slots in this game require interaction from BELOW, facing UP.
-- Test: Stand at (14, 3), face UP, and press A. (Attempt 1: Success! Shutter opened)
-
-# Radio Tower Upper Floors
-- Access: Card Key used at (14, 2) on 3F.
-- Goal: Reach 5F and stop the broadcast.
-- Note: Stairs at (17, 0) on 3F lead to the restricted area.
+1. Clear 4F: Defeat all Team Rocket forces on this floor.
+2. Reach 5F: Use stairs at (12, 0).
+3. Stop Broadcast: Defeat Executives on 5F and rescue the station.
