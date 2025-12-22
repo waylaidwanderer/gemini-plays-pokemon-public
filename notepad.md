@@ -11,13 +11,13 @@
 - **Goal:** Open Top or Bottom Gates.
 - **Hypothesis:** NPC 5 (Middle) facing LEFT triggers the mechanism.
 - **Status:**
-    - Player at (8, 10) facing Right.
-    - NPC 5 at (9, 10).
-    - **Action:** Interact (A) to turn him LEFT.
+    - NPC 5 is Stunned at (9, 10) facing LEFT.
+    - **Action:** Closing text and moving to verify gates.
 - **Plan:**
-    1. **Interact:** Press A. He turns LEFT.
-    2. **Lock:** Next turn, Stun him facing LEFT.
-    3. **Verify:** Check Top (10, 8) and Bottom (10, 13) gates.
+    1. **Verify:** Check Top Gates at (10, 8).
+    2. **Verify:** Check Bottom Gates at (10, 13).
+    3. **Success:** If OPEN, enter!
+    4. **Fail:** If CLOSED, then my hypothesis is wrong or incomplete.
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
