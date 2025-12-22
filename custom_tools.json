@@ -199,7 +199,7 @@
     ]
   },
   "check_suicune_location_v2": {
-    "description": "Automates the sequence to check Suicune's location on the Pokédex AREA map and return to the overworld. Requires the current 0-indexed position of the menu cursor (0:POKEDEX, 1:PKMN, 2:PACK, 3:GEAR, 4:NAME, 5:SAVE, 6:OPTION, 7:EXIT). Assumes Suicune is the last viewed entry or easily reachable in the list.",
+    "description": "Automates the sequence to check Suicune's location on the Pokédex AREA map and return to the overworld. Requires the current 0-indexed position of the menu cursor (0:POKEDEX, 1:PKMN, 2:PACK, 3:GEAR, 4:NAME, 5:SAVE, 6:OPTION, 7:EXIT). Assumes Suicune is the last viewed entry or easily reachable in the list. Includes safety delays.",
     "input_schema": {
       "properties": {
         "current_menu_index": {
@@ -212,7 +212,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef solve():\n    # Read all input from stdin\n    input_str = sys.stdin.read()\n    try:\n        input_data = json.loads(input_str)\n    except:\n        input_data = {}\n        \n    start_index = int(input_data.get('current_menu_index', 0))\n    \n    # Sequence starts with a safety delay\n    buttons = [\"sleep 1000\"]\n    \n    # Calculate steps to reach POKEDEX (index 0) in 8-item menu\n    # Going Up from start_index takes start_index steps.\n    for _ in range(start_index):\n        buttons.append(\"Up\")\n    \n    # Select POKEDEX\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Select Suicune (assume it's highlighted)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Move to AREA\n    buttons.append(\"Right\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 3000\")\n    \n    # Back out to overworld\n    buttons.extend([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    solve()\n",
+    "python_script": "import json\nimport sys\n\ndef solve():\n    # Read the entire input from stdin\n    try:\n        input_text = sys.stdin.read().strip()\n        if not input_text:\n            input_data = {}\n        else:\n            input_data = json.loads(input_text)\n    except Exception:\n        input_data = {}\n        \n    # Get the starting index, defaulting to 0 (POKEDEX)\n    start_index = int(input_data.get('current_menu_index', 0))\n    \n    # Initialize the button sequence with a safety delay\n    buttons = [\"sleep 1000\"]\n    \n    # Navigate to POKEDEX (index 0)\n    # The menu is circular (8 items). Going 'Up' is most efficient.\n    # From start_index, we need start_index 'Up' presses to reach 0.\n    for _ in range(start_index):\n        buttons.append(\"Up\")\n    \n    # 1. Open POKEDEX\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # 2. Select Suicune (assume it's the last viewed or highlighted)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    \n    # 3. Move to AREA and open map\n    buttons.append(\"Right\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 4000\") # Long delay to see the flashing icon\n    \n    # 4. Return to the overworld\n    # B to close Map -> B to close Entry -> B to close List -> B to close Menu\n    buttons.extend([\"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\", \"sleep 1000\", \"B\"])\n    \n    # Output the sequence as a JSON array\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    solve()\n",
     "history": [
       {
         "commit_message": "Refined to take starting menu index to ensure POKEDEX is selected correctly.",
@@ -223,6 +223,11 @@
         "commit_message": "Refined input handling and added initial safety delay.",
         "timestamp": "2025-12-22T21:26:23.470Z",
         "action_counter": 12844
+      },
+      {
+        "commit_message": "Refined JSON parsing and logic to ensure menu navigation is reliable.",
+        "timestamp": "2025-12-22T21:27:44.290Z",
+        "action_counter": 12845
       }
     ]
   }
