@@ -3,12 +3,12 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Fly to Goldenrod City.
-- **Status:** Navigating Fly Map (Cursor at Ecruteak City).
+- **Navigation:** Navigate North to the Radio Tower.
+- **Status:** In Goldenrod City (15, 28).
 - **Plan:**
-    1. Move Cursor: Down (to Goldenrod).
-    2. Verify "Goldenrod City" text.
-    3. Press A to Fly.
+    1. Walk North to the Radio Tower (approx. coordinates (3, 6) or similar).
+    2. Assess the situation (blocked stairs, grunts, etc.).
+    3. If blocked, investigate the Underground for the Rocket Uniform or Director.
 
 ## Reflections & Lessons
 - **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
