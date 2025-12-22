@@ -52,3 +52,6 @@
 - **Action:** Pressed A on Itemfinder in Menu.
 - **Goal:** Check for hidden items near `(6, 7)`.
 - **Hypothesis:** "Junk" hint implies hidden item.
+- **Action:** Selected "USE" for Itemfinder.
+- **Expectation:** Dialogue box with result.
+- **Next:** If negative, I'm leaving B1F to check the Radio Tower entrance directly. I need to confirm if I can enter the building.
