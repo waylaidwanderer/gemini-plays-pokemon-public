@@ -66,4 +66,4 @@
 
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
-- Turn #11489: Swapping lead failed due to truncated button sequence. Defining custom tool.
+- Turn #11489: Swapping lead failed due to truncated button sequence. Fixed custom tool.
