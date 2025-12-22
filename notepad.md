@@ -22,14 +22,12 @@
 
 ## Action Log & Reflection
 - **Status:** Exiting Team Rocket Hideout.
-- **Current Task:** Retrieve Item Ball at (27, 6).
-- **Progress:** Used Super Potion on Muscle to heal and free up 1 Inventory slot.
-- **Plan:**
-    1. Close menu.
-    2. Pick up Item at (27, 6).
-    3. Exit via Ladder at (27, 2).
-    4. Heal and challenge Pryce.
-- **Inventory Note:** Items Pocket has 1 free slot. HM06 obtained.
+- **Progress:** Item at (27, 6) retrieved.
+- **Next Steps:**
+    1. Exit via Ladder at (27, 2) to Mahogany Mart.
+    2. Heal at Pokemon Center.
+    3. Challenge Pryce at Mahogany Gym.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full again? Check later.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
