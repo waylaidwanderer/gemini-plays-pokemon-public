@@ -34,6 +34,8 @@
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
 
 # Lessons Learned
+- Verify shutter states visually or via tool.
+- NPCs and Items block paths like WALLs.
+- 3-2-1 sequence may require a specific starting state or reset.
 - Don't check switch states after flipping them; it may break the sequence.
-- (16,7) and (17,7) are likely static walls, not shutters.
 - Trust the shutter report tool for state verification.
