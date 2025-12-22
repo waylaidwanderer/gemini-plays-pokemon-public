@@ -3,16 +3,15 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Removing Mail from Kenya.
-- **Status:** Removing Mail (Confirming).
-- **Reason:** Confirming "YES" to send mail to PC, then exiting menu to deposit Kenya.
+- **Navigation:** Operating PC at (9, 1).
+- **Status:** Interacting with PC.
+- **Reason:** Mail removed from Kenya. Now accessing Bill's PC to deposit her.
 - **Plan:**
-    1. Confirm "YES" (A).
-    2. Clear text (A).
-    3. Exit Menus (B, B, B).
-    4. Open PC.
-    5. Deposit Kenya.
-    6. Withdraw Togepi.
+    1. Turn on PC (A).
+    2. Select Bill's PC.
+    3. Deposit Kenya.
+    4. Withdraw Togepi.
+    5. Fly to New Bark Town.
 
 # Reflection (Turn 11588)
 - **Execution:** No deferred tasks. Addressed PC confusion immediately.
