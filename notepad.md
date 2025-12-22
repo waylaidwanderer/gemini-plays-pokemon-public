@@ -38,3 +38,6 @@
 - **Battle Status:** Muscle (138/157, -1 Speed) vs Dewgong (Full HP).
 - **Turn 3 Summary:** Muscle used Cross Chop on Dewgong.
 - **Turn 4 Plan:** Assess damage/opponent.
+- **Turn 3 Summary:** Muscle used Cross Chop. Dewgong fainted.
+- **Turn 4 Plan:** Stay in vs Piloswine. Use Cross Chop.
+- **Battle Status:** Muscle (122/157, -1 Speed) vs Piloswine (Fresh).
