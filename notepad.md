@@ -18,19 +18,17 @@
 - S3 (2,1) toggles: (2,6), (3,6)
 
 # Puzzle Strategy (Attempt 4)
-- Start Turn: 10831.
-- Logic: S3, S2, and S1 all ON results in ALL shutters OPEN.
-- Current Status: S3=ON (10833), S2=OFF (Turned OFF by mistake at 10854), S1=ON (10873).
+- Current Status: S3=ON, S2=OFF, S1=OFF.
 - Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
-- Step 1: Turn Switch 3 ON (Turn 10833). (COMPLETED)
+- Step 1: Turn Switch 3 ON (COMPLETED).
 - Step 2: Turn Switch 2 ON (Next).
-- Step 3: Turn Switch 1 ON (COMPLETED Turn 10873).
+- Step 3: Turn Switch 1 ON.
 
 # Area Notes
 - Warehouse Entrance: Southeast quadrant (likely Map 3_55).
 
 # Lessons Learned
-- Shutter (12, 8) is toggled by BOTH S1 and S2. This explains its behavior when only one is active.
+- Shutter (12, 8) is toggled by BOTH S1 and S2. If both are ON or both are OFF, it is OPEN.
 - Turn-based map updates can make it seem like shutters move "on their own" during navigation.
 - Trust the `shutter_status_report_v2` for reliable state tracking.
 - Always verify position before interaction to avoid menu-navigation errors.
