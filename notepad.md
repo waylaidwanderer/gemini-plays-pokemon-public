@@ -22,11 +22,10 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Flying to Goldenrod City.
-- **Status:** Retrying Fly Map Navigation (Correction).
-- **Reason:** Previous attempt failed due to tool error (invalid "sleep" command in button list). Map is definitely open and ready now.
+- **Status:** Debugging Fly Map Navigation.
+- **Reason:** Multiple attempts to navigate map failed (cursor stuck at New Bark). Testing single input to confirm control.
 - **Plan:**
-    1. Navigate Cursor: Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
-    2. Verify "Goldenrod City" text next turn.
-    3. Press A to Fly.
-    4. Enter PokeCenter.
-    5. Swap Pokemon.
+    1. Press Left.
+    2. Verify if text changes to "Cherrygrove City".
+    3. If success, continue navigation to Goldenrod.
+    4. If fail, close menu and retry Fly from scratch.
