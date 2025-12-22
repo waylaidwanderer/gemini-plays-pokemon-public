@@ -57,3 +57,7 @@
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
+
+# Error Log
+- Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
+- Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs for floor transitions.
