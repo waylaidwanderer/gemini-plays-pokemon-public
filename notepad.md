@@ -9,15 +9,17 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Open Top Right Gates (10, 8).
-- **Current Location:** Top Left (Near Machop).
-- **Observation:** Machop at (7, 7) just says "Maaacho!". No movement.
-- **Hypothesis:** NPC 6 (Top Left) controls the gates via facing direction.
-- **Status:** Gates currently CLOSED (Verified visually next step). NPC 6 facing UP.
+- **Current Location:** (5, 8) - Right of NPC 6.
+- **Hypothesis:** NPC 6 Facing Right triggers the gates.
 - **Plan:**
-    1. **Check:** Move to (8, 8) to confirm gate state.
-    2. **Manipulate:** If closed, go back to NPC 6.
-    3. **Test Directions:** Make NPC 6 face LEFT (Wall) or DOWN (Away). Stun him. Check gates again.
-- **Junk Hint:** Still unresolved. Will use `Itemfinder` item later if Top strategy fails.
+    1. **Turn:** Face Left (towards NPC 6).
+    2. **Interact:** Talk to him (He turns Right).
+    3. **Lock:** Stun him immediately.
+    4. **Check:** Walk to (8, 8) to check gates.
+- **Alternative:** If this fails, maybe he needs to face UP (I tried talking from above but didn't check gates? I should check logs).
+    - Logs say I talked at (4, 7). He faced Up. I then moved to Machop. I didn't verify gates.
+    - If Right fails, I must retry UP and verify.
+- **Junk Hint:** Use `Itemfinder` near NPC 7 if NPC 6 strategy fails completely.
 
 ## Status
 - Player at (9, 9).
