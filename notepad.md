@@ -9,7 +9,7 @@
 # Underground Warehouse Puzzle
 - Hint: "the switch on the end is the one to press first." (S3).
 - Sequence: 3 (ON) -> 2 (ON) -> 1 (ON).
-- Current State: S3=ON, S2=ON, S1=ON. (Sequence Complete).
+- Current State (Post-Action): S3=ON, S2=ON, S1=ON. (Sequence Complete).
 
 # Shutter Logic (Verified)
 - Baseline (OFF, OFF, OFF): (12,8) OPEN. All others CLOSED.
