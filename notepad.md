@@ -4,11 +4,11 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** Exploring Goldenrod Underground. Checking North end (near ladder) for Coin Case.
+- **Status:** In Goldenrod Underground. Realized I already have the **Coin Case**.
 - **Plan:**
-    1. Check area near (3, 2) for item ball.
-    2. Sweep South through the tunnel, checking edges.
-    3. Use Itemfinder if no visible item is found.
+    1. Talk to Super Nerd at (2, 6) (PokéManiac Donald) for info/battle.
+    2. Search for the Team Rocket Uniform (needed to enter Radio Tower).
+    3. Check the "Photo Studio" location or other NPCs.
 
 **Notes:**
 - Radio Tower entrance was elusive.
