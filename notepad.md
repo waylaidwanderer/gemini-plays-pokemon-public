@@ -50,8 +50,8 @@
 
 # Findings
 - Goldenrod Dept Store 5F: Receptionist (7, 5) gives TM27 (Return) if friendship is high.
-- Clerk (8, 5) sells TM41, TM48, TM33 for 3000, TM02 for 2000, TM08 for 1000.
-- Goldenrod Dept Store 4F: Clerk (13, 5) sells Vitamins for 9800.
+- Clerk (8, 5) sells TMs.
+- Goldenrod Dept Store 4F: Clerk (13, 5) sells Vitamins.
 - Goldenrod Dept Store 3F: Clerk (6, 1) sells battle items.
 - Goldenrod Dept Store 2F Clerk (13, 5): Healing items.
 - Goldenrod Dept Store 2F Clerk (13, 6): Basic supplies.
@@ -60,49 +60,12 @@
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
 - Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs.
 
-# Error Log
-- Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
-- Turn #11489, #11586: Swapping lead failed due to truncated button sequence or cursor persistence. Refined custom tool with comprehensive resets.
-- Turn #11578-11580: Pressed A repeatedly in menu. Lesson: Use B to clear messages and exit menus efficiently.
-
-# Tin Tower Navigation
-- Entrance building at (18, 11) leads to Wise Trios Room.
-- Wise Trios Room ladder at (17, 3) leads to Wise Trios Room upper level.
-- Warp at (7, 4) in Wise Trios Room leads to Tin Tower 1F (20, 2).
-- Tin Tower 1F (20, 2) and (20, 3) are exits back to Ecruteak City top center.
-
-# Error Log
-- Turn #11594: swap_pokemon_v1 failed significantly, opening Pokegear and Pokedex. Manual swap required.
-- Turn #11594: Hallucination warning at (31, 5). Moving to break loop.
-
-# Tin Tower Grounds
-- Isolated eastern area of Ecruteak City.
-- Accessible via the Wise Trios Room (entrance building).
-- Exits:
-  - (20, 2) and (20, 3) lead back to the Wise Trios Room.
-  - (35, 26) and (35, 27) lead to Route 42.
-- Contains an unidentified building entrance at (37, 7).
-- Suicune is located further inside the Tin Tower, which is accessed from this area.
-
-# Tin Tower 1F
-- Legendary Beasts encountered: Raikou, Entei, and Suicune.
-- Raikou (ID 2) fled via the south exit at turn #11611.
-- Suicune (ID 1) is at (9, 9).
-- Entei (ID 3) is at (12, 9).
-- Map layout involves pillars and corridors.
-- Exits: (9, 15) and (10, 15) lead back to Ecruteak City (37, 7).
-- Tile Mechanics:
-    - FLOOR: Traversable.
-    - WALL: Impassable pillars.
-    - WARP_CARPET_DOWN: Exit to Ecruteak City.
-
 # Suicune Battle Strategy
 - Suicune Lv 40.
-- KIMCHI (Gloom Lv 21) is current lead.
-- Observed Moves: Gust (Super-effective vs Gloom).
+- KIMCHI (Gloom Lv 21) fainted at Turn #11641.
+- Observed Moves: Gust, Leer.
 - Strategy:
-    1. Suicune is asleep (SLP).
-    2. Use KIMCHI's Absorb to chip away at HP safely. KIMCHI resists Suicune's likely Water moves.
-    3. If Suicune wakes up, use Sleep Powder immediately.
-    4. Once Suicune's HP is in the yellow/red range, start throwing Great Balls and Ultra Balls.
-- Status: Suicune asleep. KIMCHI at 57/57 HP (Defense lowered by Leer). Suicune HP ~60%. Turn #11639.
+    1. Switch to Calcifer (Typhlosion).
+    2. Use Headbutt or Thunderpunch to weaken Suicune carefully.
+    3. Use Great Balls and Ultra Balls when HP is low.
+- Status: KIMCHI fainted. Suicune HP ~90%. Calcifer is entering the battle. Turn #11641.
