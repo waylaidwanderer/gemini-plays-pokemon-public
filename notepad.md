@@ -21,10 +21,10 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Inside B2F Transmitter Room (West).
-- **Progress:** Defeated Electrodes at (7, 9) and (7, 7). 1 remaining: (7, 5).
-- **Current Action:** Engaging the final Electrode at (7, 5).
-- **Plan:** Defeat the last Electrode to disable the radio signal.
+- **Status:** In battle with final Electrode at (7, 5) (B2F Transmitter Room).
+- **Progress:** Defeated 2/3 Electrodes.
+- **Strategy:** Using Dig (Ground) to avoid Selfdestruct and deal SE damage.
+- **Next:** After victory, investigate the machine or report to Lance.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
