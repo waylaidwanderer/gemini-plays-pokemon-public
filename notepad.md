@@ -3,13 +3,13 @@
 ## Current Strategy
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
-- **Navigation:** Navigate North to the Radio Tower.
-- **Status:** Outside Goldenrod PC (18, 27).
+- **Navigation:** Navigate North to the Radio Tower (Safe Path).
+- **Status:** On Main Street (18, 25).
 - **Plan:**
-    1. Walk North to Row 16 (Crossing point).
-    2. Walk West to cross the train tracks/divider.
-    3. Walk North to Radio Tower.
-    4. Assess situation (blocked stairs, grunts, etc.).
+    1. Move East to X=21 to avoid Rocket Grunt at (16, 23).
+    2. Move North to Y=15 to avoid Youngster at (20, 16).
+    3. Move West to (13, 15) to cross the tracks.
+    4. Head North to Radio Tower.
 
 ## Reflections & Lessons
 - **Fly Mechanic:** Must verify destination text before confirming. Do not batch navigation and confirmation.
