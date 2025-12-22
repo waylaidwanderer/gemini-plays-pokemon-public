@@ -83,3 +83,15 @@
   - (35, 26) and (35, 27) lead to Route 42.
 - Contains an unidentified building entrance at (37, 7).
 - Suicune is located further inside the Tin Tower, which is accessed from this area.
+
+# Tin Tower 1F
+- Legendary Beasts encountered: Raikou, Entei, and Suicune.
+- Raikou (ID 2) fled via the south exit at turn #11611.
+- Suicune (ID 1) is at (9, 9).
+- Entei (ID 3) is at (12, 9).
+- Map layout involves pillars and corridors.
+- Exits: (9, 15) and (10, 15) lead back to Ecruteak City (37, 7).
+- Tile Mechanics:
+    - FLOOR: Traversable.
+    - WALL: Impassable pillars.
+    - WARP_CARPET_DOWN: Exit to Ecruteak City.
