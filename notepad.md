@@ -27,12 +27,9 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Exploring Goldenrod Underground (Main Tunnel 3_53).
+- **Status:** Inside Underground Entrance North (3_54).
 - **Goal:** Obtain Team Rocket Uniform.
-- **Hypothesis:** The Rocket Grunt is likely in the North-East corner of the main tunnel (3_53), near the Photo Studio location.
-- **Obstacle:** "Teacher" NPC at (3, 27) blocks the direct path North on column 3.
 - **Plan:**
-    1. Move Right to column 4.
-    2. Travel North along column 4 to row 7.
-    3. Head East to (10, 7) and explore the unseen area.
+    1. Take the ladder at (21, 25) down to the Main Underground.
+    2. Search for the Team Rocket member with the uniform (likely near Photo Studio).
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
