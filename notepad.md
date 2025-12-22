@@ -11,10 +11,10 @@
 
 # Current Strategy: Rescue Director
 - Method (Map 3_55): Clearing rows 1-5 from east to west, then rows 6-10 from west to east, to identify internal walls.
-- Method (Map 3_56): Defeating Rocket Grunt at (9, 6) who is using a Koffing (Lv 25). (Turn 11049).
+- Method (Map 3_56): Defeating Rocket Grunt at (9, 6) who is using a second Koffing (Lv 25). (Turn 11050).
 - Method (Map 3_56): Use the Row 1-3 gap in Column 15 to access the central warehouse area (x=9-14).
 - Method (Map 3_56): Use the Row 12-13 gap in Column 8 to navigate between the western corridor (x=1-4) and the central area.
-- Tactical: Gneiss (Lv41) leads with Earthquake; Calcifer (Lv44) counters Grass-types.
+- Tactical: Gneiss (Lv41) leads with Earthquake; Calcifer (Lv44) counters Grass-types. (Turn 11050).
 
 # Observations
 - Map 3_55: Dept Store B1F. Connected to Warehouse (3_56) via (17, 2).
