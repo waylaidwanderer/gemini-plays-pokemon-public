@@ -19,7 +19,7 @@
 8. Verify path to Warehouse (Map 3_55).
 
 ## Primary Effects (Mapping in progress)
-- S3 (2,1): ?
+- S3 (2,1): Toggles (2,6), (3,6). Verified Turn 10565.
 - S2 (10,1): ?
 - S1 (16,1): ?
 - Baseline (0,0,0): (2,6) CLOSED, (3,6) CLOSED, (10,6) CLOSED, (16,6) CLOSED, (6,8) CLOSED, (12,8) OPEN, (17,6) CLOSED, (17,7) CLOSED. (Verified Turn 10561)
