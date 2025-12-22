@@ -54,4 +54,4 @@
     4. Throw Great Balls until caught.
     5. Heal Typhlosion with LEMONADE if HP falls below 50%.
 - Capture Marathon Started: Turn #11666.
-- Strategy Audit: Suicune is at minimum accuracy (-6) and critical HP (RED). This is the optimal state for capture without status. I will persist with Great Balls.
+- Status: Suicune HP RED, Accuracy -6. No rain. Calcifer HP 36/142. Healing with Lemonade. Turn #11692.
