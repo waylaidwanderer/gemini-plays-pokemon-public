@@ -7,8 +7,8 @@
 - **Status:** Inside Elm's Lab.
 - **Reason:** Elm ignored the Rocket crisis to ask about Togepi. Need to show him Togepi to progress.
 - **Plan:**
-    1. Go to PC at (3, 5).
-    2. Deposit a Pokemon (Belladonna).
+    1. Access PC.
+    2. Deposit Kenya (Spearow) - Belladonna has Cut, so keep her.
     3. Withdraw Togepi.
     4. Talk to Elm.
 - **Quest Info:** No Rocket Uniform needed. Just force/battle through.
