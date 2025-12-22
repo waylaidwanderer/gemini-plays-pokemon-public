@@ -21,15 +21,14 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** Exploring Mahogany Town.
-- **Location:** Outside House at (17, 8).
-- **Objective:** Find Pokemon Center and Gym.
-- **Observation:** North part of town contains Mart and Houses. South part is unexplored and accessible via ledges.
-- **Plan:**
-    1. Head South-West to the ledge at (12, 11).
-    2. Jump down to explore the lower area.
-    3. Locate Pokemon Center and Gym.
-- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
+- **Status:** Exploring Mahogany Town South.
+- **Location:** Near Pokemon Center (15, 13).
+- **Objective:** Heal at Pokemon Center.
+- **Next Steps:**
+    1. Enter Pokemon Center and Heal.
+    2. Manage PC Boxes (Box 1 is getting full).
+    3. Locate and Challenge Gym.
+- **Inventory Note:** Items Pocket full. Need to sell or toss items soon.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
