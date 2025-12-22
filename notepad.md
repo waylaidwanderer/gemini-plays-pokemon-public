@@ -12,7 +12,7 @@
 1. Reset to (0,0,0) baseline (All OFF).
    - S1: OFF (Turn 10578)
    - S2: OFF (Turn 10582)
-   - S3: ON (Moving to reset)
+   - S3: OFF (Turn 10586)
 2. Verify (0,0,0) state with report.
 3. Test S1 ONLY (1,0,0): Toggle S1, Report, Toggle S1 back.
 4. Test S2 ONLY (0,1,0): Toggle S2, Report, Toggle S2 back.
