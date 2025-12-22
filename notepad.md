@@ -384,3 +384,8 @@
 - **Action:** Moving to `(6, 12)` explicitly.
 - **Next Turn:** Will Stun NPC 7 (at `6, 13`) and Interact to force Face UP.
 - **Goal:** Conclusively test "NPC 7 Facing Up" hypothesis.
+- **Status:** Movement to `(6, 12)` failed. Remaining at `(7, 12)`.
+- **Observation:** NPC 7 is at `(7, 13)`.
+- **Action:** Stunning NPC 7 to keep him there.
+- **Test:** Interacting (Down+A) to force Face UP.
+- **Check:** Watch Gate `(10, 12)` for changes.
