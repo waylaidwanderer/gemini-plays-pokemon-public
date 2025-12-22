@@ -16,16 +16,16 @@
 - S1 (16,1) toggles: (16,6), (17,6), (16,7), (17,7), (12,8)
 
 # Puzzle Solving Log
-- Attempt 2: 3-2-1 Sequence. Result: (2,6), (3,6), (12,8) OPEN. Others CLOSED.
+- Attempt 1 & 2: Failed.
 - Attempt 3 (Current): 3-2-1 Sequence.
   - S3 ON (Turn 10800).
-  - S2 ON (Turn 10804).
-  - Current status: Moving to S1.
+  - S2 ON (Turn 10805).
+  - Next: S1 (ON).
 
 # Current Strategy: Execute 3-2-1 without interruption
 1. S3 ON (COMPLETED).
-2. S2 ON (Moving to (10,2)).
-3. S1 ON.
+2. S2 ON (COMPLETED).
+3. S1 ON (Heading to (16,2)).
 4. Enter Warehouse.
 
 # Area Notes
