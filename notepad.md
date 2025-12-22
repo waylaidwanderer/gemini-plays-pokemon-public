@@ -21,17 +21,14 @@
 - **Locked Doors:** Require specific triggers (Passwords or Key Items).
 
 ## Action Log & Reflection
-- **Status:** In Pokemon Center (Mahogany Town).
-- **Progress:** Team Healed.
-- **Inventory Status:** 
-  - Bag: 19/20 Items (Almost Full).
-  - PC Box 1: 15/20 (5 slots left).
-- **Current Task:** Gathering intel.
+- **Status:** Exiting Pokemon Center (Mahogany Town).
+- **Progress:** Team Healed. Intel gathered (Evolution delays).
+- **Current Task:** Locate and Challenge Gym.
 - **Next Steps:**
-    1. Talk to Cooltrainer F (Left) and Youngster (Left of her).
-    2. Exit Pokemon Center.
-    3. Locate and Challenge Pryce at Mahogany Gym.
-- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it.
+    1. Exit Pokemon Center.
+    2. Locate Mahogany Gym (likely South-West based on town layout).
+    3. Challenge Leader Pryce.
+- **Inventory Note:** HM06 (Whirlpool) obtained. Need Badge to use it. Items Pocket full.
 
 ## Mapping & Connections (Restored)
 - **B1F:** Trap Warp at (5, 15).
