@@ -1,11 +1,11 @@
 # Suicune Hunt Strategy & Status
-- Status: Roaming. Confirmed on Route 37 (Turn #12538).
+- Status: Roaming. Location changed due to boundary crossing (Turn #12541). Pending Pokédex check.
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
-- Method: Pacing (Grass Dance) in Route 37 grass patch.
+- Method: Pacing (Grass Dance) in grass.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Active Status: Repel active (Turn #12519). Steps: 14/100.
+- Active Status: Repel active (Turn #12519). Steps: 15/100.
 - Safeguard: Re-verify location via Pokédex after every map boundary crossing, battle, Repel expiration, or phone call.
-- Tracking: Start Turn #12541. Heading to Route 37 via Ecruteak City.
+- Tracking: Start Turn #12542. Heading to potential encounter spot.
 
 ## Roaming Pokémon Reference
 - Tracking: Do NOT use Fly to chase (randomizes location). Walk across map boundaries (gatehouses/warp carpets) to shift position predictably.
