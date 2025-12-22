@@ -35,14 +35,14 @@
 - **Dept Store B1F:** BOXES are WALLs (Impassable, not pushable).
 ## Current Strategy & Obstacles
 - **Location:** Radio Tower 1F.
-- **Goal:** Infiltrate the tower and stop Team Rocket.
-- **Status:** Front entrance was unguarded. Investigating 1F.
+- **Goal:** Find stairs to 2F and climb the tower.
+- **Status:** Receptionist confirms "No Tours" (Rocket Takeover active).
 - **Known Blockades:**
   - **Goldenrod City:** Grunts blocking West and East paths.
 - **Missing Keys:** BASEMENT KEY, CARD KEY.
-- **Plan:** Talk to Receptionist, then explore the upper floors. Expecting resistance.
+- **Plan:** Explore 1F North for stairs. Expecting Rocket Grunts on upper floors.
 
-# Reflection (Turn 12732)
-- **Status:** I am at (17, 8), near the Name Rater's house. Previous pathing failed due to starting coordinate mismatch or wall collision.
-- **Correction:** Moving East to the main road (Column 18), then North, then West to the Radio Tower area.
-- **Strategy:** Bypass the Train Station by going around it. The Radio Tower should be in the North-West corner (Rows 1-6).
+## Important Locations (Goldenrod)
+- **Radio Tower:** Current Location.
+- **Underground:** Key item (Coin Case) found here. 
+- **Director:** Likely held captive. Need to find him.
