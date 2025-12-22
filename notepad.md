@@ -10,20 +10,19 @@
 - Emergency Switch (20, 11): ON.
 
 # Current Strategy: Rescue Director
-- Warehouse Search Start: Turn 11000. Current Turn: 11033.
-- Method: Defeat Rocket Grunt at (17, 3) using Gneiss's new Earthquake move.
-- Method: Investigate the ladder at (17, 2) to see where it leads.
-- Tactical: Gneiss (Lv41) now has Earthquake (strictly better than Magnitude).
+- Search Started: Turn 11000. Current Turn: 11035.
+- Method: Use the Row 3 gap in Column 15 and Row 12-13 gap in Column 8 to navigate between corridors and the central warehouse floor.
+- Method: Investigate all ladders and warps to locate the Director's holding cell.
+- Tactical: Gneiss (Lv41) leads with Earthquake/Rollout; Calcifer (Lv44) counters Grass-types.
 
 # Warehouse Observations (Map 3_56)
-- Entrance: (2, 12) / (3, 12) from Switch Room (Map 3_54).
 - Internal Walls: Column 5 blocks Row 4-15 (Gaps at Row 1-3).
 - Internal Walls: Column 8 blocks Row 1-11 (Gaps at Row 12-15).
 - Internal Walls: Column 15 blocks Row 4-11, 14-15. Gaps at Row 1-3, 12-13.
 - Rocket Grunt 1: (9, 8).
 - Gentleman: (12, 8).
-- Item Ball: (13, 9).
-- Item Ball: (18, 15).
+- Item Ball: (13, 9) (Unknown item).
+- Item Ball: (18, 15) (Unknown item).
 
 # Training & Party
 - GNEISS (Lv41 Graveler): STRENGTH, ROLLOUT, EARTHQUAKE, DEFENSE CURL.
