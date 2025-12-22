@@ -198,23 +198,18 @@
       }
     ]
   },
-  "check_suicune_location": {
-    "description": "Navigates from the overworld to Suicune's Pokédex AREA map and back to the overworld. Assumes the Pokédex cursor is already on Suicune (#245).",
+  "check_suicune_location_v2": {
+    "description": "Navigates to Suicune's Pokédex AREA map and back. Assumes the Pokédex cursor is on Suicune (#245). Improved timing and reliability.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Sequence: Start -> A (Pokedex) -> A (Select Suicune) -> A (Enter sub-menu) -> Right (AREA) -> A (View Map) -> sleep 3000 -> B -> B -> B -> B\n# Added delays for reliability and an extra A to handle the Pokedex sub-menu entry.\nprint(json.dumps([\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]))\n",
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 600\", \"A\", \"sleep 600\", \"A\", \"sleep 600\", \"Right\", \"sleep 600\", \"A\", \"sleep 3000\", \"B\", \"sleep 600\", \"B\", \"sleep 600\", \"B\", \"sleep 600\", \"B\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-22T14:53:47.470Z",
-        "action_counter": 12272
-      },
-      {
-        "commit_message": "Refine Pokédex navigation for Suicune tracking with safety delays and extra 'A' to activate sub-menu.",
-        "timestamp": "2025-12-22T14:56:13.635Z",
-        "action_counter": 12277
+        "timestamp": "2025-12-22T15:10:30.026Z",
+        "action_counter": 12305
       }
     ]
   }
