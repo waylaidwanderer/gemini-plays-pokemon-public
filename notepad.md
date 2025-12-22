@@ -9,21 +9,23 @@
 
 ## Basement Puzzle Strategy
 - **Goal:** Reach Item Ball at (14, 2).
-- **Correction:** Row 6 is blocked by a wall at X=12. Must pass through the boxes at Row 8/9.
+- **Layout Analysis:**
+    - **Zone 1 (West):** Start area.
+    - **Zone 2 (Middle):** Where Player is (Col 8, 9).
+    - **Zone 3 (East):** Target area.
+    - **Barriers:**
+        - **Col 10/11:** Blocked by Boxes at Rows 8/9. Open at Rows 10/11.
+        - **Col 12:** Blocked by Wall at Rows 10/11. Open at Rows 8/9.
+    - **Implication:** I MUST open the boxes at Rows 8/9 (Col 10/11) to pass through the gap in the Col 12 wall.
 - **Clue:** "I lose my passion for work if someone's watching."
-- **Hypothesis:** 
-    1. The Machop (Worker) needs to be interacted with.
-    2. Or, I need to make sure no one is "watching" the work area (Boxes).
+- **Current Test:** Interact with Machop at (7, 7).
 - **Status:**
     - Player at (8, 7).
-    - Machop at (7, 7) Facing Down.
-- **Plan:**
-    1. **Interact:** Talk to Machop from (8, 7).
-    2. **Observe:** Does it move? Does it turn? Do boxes open?
-    3. **Iterate:** If it turns, maybe that's the key (make it look away from boxes).
+    - Machop at (7, 7).
+    - Action: Turning Left to interact.
 - **Discarded:**
-    - Bypass Plan (Wall confirmed).
-    - NPC 6 Facing Alone (Didn't work, but might be part of a combo).
+    - Walking through Row 10/11 (Blocked by Wall at Col 12).
+    - Walking through Row 13 (Blocked by Wall at Col 10/11).
 - **Discarded:**
     - Local Control (NPC 6/7) - Failed.
     - Hidden Items - Failed.
