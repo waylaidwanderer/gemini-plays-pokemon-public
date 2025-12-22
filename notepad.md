@@ -35,3 +35,6 @@
 - Plan: Exit to Goldenrod via South exit, then look for the East entrance to reach the Locked Door area.
 - Hypothesis: The section of the Underground with the Uniform/Locked Door is accessible via the Department Store Basement.
 - Info: Rocket Grunt at (16, 23) is a non-battling blocker.
+- Insight: Goldenrod is divided by the train tracks. The West side (where I am) is isolated. The Rocket Grunt at (16, 23) blocks the only surface crossing.
+- Plan: Use the Underground to cross to the East side (Dept Store Basement).
+- Correction: I previously stuck to the West wall of the Underground. I must explore EAST in the Main Underground (3_53) to find the Dept Store entrance.
