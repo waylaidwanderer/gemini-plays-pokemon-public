@@ -281,3 +281,7 @@
 - **Action:** Activating Strength from the Menu.
 - **Plan:** Use Strength to push the boxes at `(6, 8)`, `(7, 8)`, etc.
 - **Hypothesis:** The "Junk" refers to these boxes, and they can be moved/cleared with Strength.
+- **Correction:** Previous Strength activation failed (Menu Navigation error).
+- **Action:** Retrying Strength activation. Assuming Strength is the first option in the Pokémon interaction menu.
+- **Risk:** If 'Dig' is first, I might warp out.
+- **Sequence:** A (Pokemon) -> A (Muscle) -> A (Strength?).
