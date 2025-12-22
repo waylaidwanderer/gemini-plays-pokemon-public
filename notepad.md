@@ -66,3 +66,8 @@
 - Question: Is the barrier at Row 12 on the East side static walls or movable boxes? I'll check from the South.
 - Observation: Row 16 (Cols 3-11) is a dead end. Wall at (12, 16) blocks access to the East side.
 - Plan: Backtrack to the open area at (5, 12). Check if the central path (Row 12) or other paths have opened up due to my position on the West side.
+- Observation: The path at Row 16, Col 12 is definitely blocked by a solid wall. The West corridor (Cols 1-2) effectively loops back to Row 11 or dead-ends at Row 16.
+- Hypothesis: The puzzle mechanics (opening/closing paths) are triggered by my location (Zones).
+    - Zone West (Cols 0-5): Opens West entrance (4,11), Closes East path (10,12).
+    - Zone East/Center: ?
+- Plan: Return to Center (Col 8) and observe if the East path (10,12) re-opens. If it does, I need to find a way to enter it without triggering the "Close" condition.
