@@ -32,3 +32,4 @@
 - **Navigation Lesson:** Always verify the path against specific tile data (Mental Map/ASCII) to identify obstacles like Headbutt Trees or Walls before defining a path plan. Straight lines are rarely safe.
 - **Observation:** The Super Nerd at (6, 9) in the Underground appears to be already defeated (or friendly), as he didn't trigger a battle on sight. This suggests I might have cleared this area before or he's a non-hostile NPC.
 - **Hypothesis Check:** If the "Uniform" quest isn't active, maybe I can just walk into the Radio Tower? But I couldn't reach the door. The Underground is the best lead for now.
+- **Discovery:** Pokefan M at (2, 10) threw his **Coin Case** in the **Underground**. I should go find it.
