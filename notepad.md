@@ -245,3 +245,7 @@
 - **Expectation:** Map reload occurs.
 - **Check:** Will the Bottom Gates (10, 12-13) be OPEN upon re-entry?
 - **Logic:** Some puzzle states reset or toggle on map load. If the "default" state is different, or if a flag was set by talking to the NPCs, this might show it.
+- **Observation:** Map Reload (Turn 12606) did NOT reset the gates. Top Gates `(10, 8-9)` are OPEN. Bottom Gates `(10, 12-13)` are CLOSED.
+- **New Strategy:** Re-investigate the North East Barrier.
+- **Hypothesis:** Interaction with NPC 7 ("Take it if you want it") might have cleared the path to the Item/Ladder in the North East, even if the Bottom Gates remained closed.
+- **Action:** Move to `(13, 8)` and check Row 4 in the East Room.
